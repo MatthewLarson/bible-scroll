@@ -1,0 +1,653 @@
+[
+ {
+  "v": "42:2",
+  "a": "and appear before the face of God?",
+  "t": "Appear before God, or see God's face?",
+  "p": "The vowels make the verb passive, \"appear\"; the letters could be read \"see the face of God.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek (Septuagint), Rahlfs' edition, checked (ὀφθήσομαι, 'I will appear'); Jerome's Latin",
+    "orig": "וְאֵרָאֶה פְּנֵי אֱלֹהִים",
+    "en": "and I will appear (be seen) before the face of God",
+    "plain": "and appear before the face of God?"
+   },
+   {
+    "w": "A few Hebrew manuscripts, the Syriac and the Targum, as reported in the BHS apparatus (not checked); many modern scholars repoint the verb",
+    "orig": "וְאֶרְאֶה פְּנֵי אֱלֹהִים",
+    "en": "and I will see the face of God",
+    "plain": "and see the face of God?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic vowels and the Greek agree on \"appear.\" The other reading is probably older in meaning and may lie behind the vowels, which seem to have been chosen out of reverence (compare Exodus 23:17; 34:23), but the Plain follows the transmitted text and gives the alternative here.",
+  "s": [
+   "rahlfs-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "42:4",
+  "a": "how I used to pass along in the throng",
+  "t": "In the throng, or into the tent?",
+  "p": "The rare word sakh was read by the Greek as a tent: \"I will go into the place of the wonderful tent.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי אֶעֱבֹר בַּסָּךְ אֶדַּדֵּם",
+    "en": "that I would pass along in the throng, lead them in procession",
+    "plain": "how I used to pass along in the throng"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ἐν τόπῳ σκηνῆς θαυμαστῆς), followed by the Latin",
+    "orig": "ὅτι διελεύσομαι ἐν τόπῳ σκηνῆς θαυμαστῆς",
+    "en": "for I will go through into the place of the wonderful tent",
+    "plain": "how I used to pass into the place of the wonderful tent"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is hard but makes sense as a festival procession; the Greek seems to have read sakh as sukkah, \"booth, tent,\" and added an adjective. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "42:5",
+  "a": "for the saving help of his face.",
+  "t": "\"His face\", or \"my face, and my God\"?",
+  "p": "The Hebrew differs from the refrain in 42:11 and 43:5. The Greek makes all three the same. Goes with 42:6.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יְשׁוּעוֹת פָּנָיו",
+    "en": "the rescues of his face (presence)",
+    "plain": "for the saving help of his face."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (σωτήριον τοῦ προσώπου μου ὁ θεός μου); the Syriac and some Hebrew manuscripts are reported to agree (not checked)",
+    "orig": "ישועות פני ואלהי",
+    "en": "the saving help of my face, and my God",
+    "plain": "the saving help of my face, and my God."
+   }
+  ],
+  "follow": 0,
+  "why": "The other reading divides the letters differently, taking the last letter of \"his face\" (w) as \"and,\" and the first word of 42:6, \"my God,\" into 42:5, so that all three refrains match. Many modern versions adopt it. It may well be right, but the Masoretic Text makes good sense, and the Plain keeps it.",
+  "b": "If the reader switches here, 42:6 should begin \"My soul is bowed down,\" without \"My God\": see the variant there.",
+  "s": [
+   "rahlfs-lxx",
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "42:6",
+  "a": "My God, my soul is bowed down within me.",
+  "t": "Where does \"my God\" belong?",
+  "p": "In the Hebrew \"my God\" opens 42:6; the Greek puts it at the end of 42:5. Goes with 42:5.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֱלֹהַי עָלַי נַפְשִׁי תִשְׁתּוֹחָח",
+    "en": "My God, my soul is bowed down upon me",
+    "plain": "My God, my soul is bowed down within me."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked, with 42:5 ending \"my God\"",
+    "orig": "πρὸς ἐμαυτὸν ἡ ψυχή μου ἐταράχθη",
+    "en": "my soul is troubled within me",
+    "plain": "My soul is bowed down within me."
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 42:5; the two go together.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "43:4",
+  "a": "to God, the gladness of my joy,",
+  "t": "\"The gladness of my joy\", or \"who gladdens my youth\"?",
+  "p": "The Hebrew calls God \"the gladness of my joy\"; the Greek, followed by the Latin of the old Mass, \"God who gladdens my youth.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֶל־אֵל שִׂמְחַת גִּילִי",
+    "en": "to God, the gladness of my rejoicing",
+    "plain": "to God, the gladness of my joy,"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (πρὸς τὸν θεὸν τὸν εὐφραίνοντα τὴν νεότητά μου), followed by the Latin (ad Deum qui laetificat iuventutem meam)",
+    "orig": "אֶל־אֵל מְשַׂמֵּחַ גִּילִי",
+    "en": "to God who gladdens my youth",
+    "plain": "to God, who gladdens my youth,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have taken gil, \"rejoicing,\" as gil, \"age, generation\" (compare Daniel 1:10), and read the noun \"gladness\" as a verb. The Hebrew gives good sense, and the Plain follows it. The Greek form became famous as the server's answer in the old Roman Mass (see the note on 43:4).",
+  "s": [
+   "rahlfs-lxx",
+   "roman-missal"
+  ]
+ },
+ {
+  "v": "44:4",
+  "a": "Give the order for Jacob's victories.",
+  "t": "\"Give the order\", or \"who gives the order\"?",
+  "p": "The Hebrew is a command to God; the Greek reads \"my God, who commands the rescues of Jacob.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "צַוֵּה יְשׁוּעוֹת יַעֲקֹב",
+    "en": "command the rescues of Jacob",
+    "plain": "Give the order for Jacob's victories."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ὁ θεός μου ὁ ἐντελλόμενος τὰς σωτηρίας Ιακωβ); followed by the Syriac and several modern versions",
+    "orig": "אלהי מצוה ישועות יעקב",
+    "en": "my God, the one who commands the rescues of Jacob",
+    "plain": "who gives the order for Jacob's victories."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek divides the same letters differently (\"O God, command\" becomes \"my God, who commands\"). Both are possible; the Masoretic Text fits the prayer that follows, and the Plain keeps it.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "44:19",
+  "a": "where jackals live",
+  "t": "A place of jackals, or of misery?",
+  "p": "The Hebrew has \"a place of jackals\"; the Greek has \"a place of affliction.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בִּמְקוֹם תַּנִּים",
+    "en": "in the place of jackals",
+    "plain": "where jackals live"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ἐν τόπῳ κακώσεως)",
+    "orig": "ἐν τόπῳ κακώσεως",
+    "en": "in a place of affliction",
+    "plain": "in a place of misery"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is probably an interpretation of an unusual phrase, not a different Hebrew text. Some scholars read tannin, \"sea monster,\" instead (see the note). The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "46:4",
+  "a": "the holy place where the Most High dwells.",
+  "t": "The holy dwelling, or \"he made it holy\"?",
+  "p": "The Hebrew has a noun, \"the holy place of the dwellings\"; the Greek a verb: \"the Most High made his tent holy.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "קְדֹשׁ מִשְׁכְּנֵי עֶלְיוֹן",
+    "en": "the holy (place) of the dwellings of the Most High",
+    "plain": "the holy place where the Most High dwells."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ἡγίασεν τὸ σκήνωμα αὐτοῦ ὁ ὕψιστος); Jerome's Gallican Psalter",
+    "orig": "ἡγίασεν τὸ σκήνωμα αὐτοῦ ὁ ὕψιστος",
+    "en": "the Most High has made his tent holy",
+    "plain": "the Most High has made his dwelling holy."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the same consonants as the verb qiddesh, \"he made holy.\" The meaning is close; the Plain follows the Hebrew vowels.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "46:9",
+  "a": "the wagons he burns with fire.",
+  "t": "Wagons, or shields?",
+  "p": "The Hebrew has \"wagons\"; the Greek has \"shields,\" a different vowel reading of the same letters.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); the Targum is reported to have 'round shields' (not checked)",
+    "orig": "עֲגָלוֹת",
+    "en": "wagons, carts",
+    "plain": "the wagons he burns with fire."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (θυρεούς); Jerome's Gallican Psalter (scuta)",
+    "orig": "θυρεοὺς κατακαύσει ἐν πυρί",
+    "en": "shields he will burn in fire",
+    "plain": "the shields he burns with fire."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Shields\" makes a tidy list of weapons and is preferred by many modern versions, but the Hebrew word for shields ('agilah) is not otherwise found in biblical Hebrew, and wagons were used in war and burned after battle. The Plain keeps the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "47:9",
+  "a": "the people of the God of Abraham.",
+  "t": "\"People of\", or \"with\", the God of Abraham?",
+  "p": "The Hebrew says the nations' nobles gather \"(as) the people of the God of Abraham\"; the Greek \"with\" him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַם אֱלֹהֵי אַבְרָהָם",
+    "en": "the people of the God of Abraham",
+    "plain": "the people of the God of Abraham."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (μετὰ τοῦ θεοῦ Αβρααμ); the Syriac is reported to agree (not checked)",
+    "orig": "עִם אֱלֹהֵי אַבְרָהָם",
+    "en": "with the God of Abraham",
+    "plain": "with the God of Abraham."
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ only in a vowel ('am and 'im). The Masoretic Text gives the bolder thought that the nations join Abraham's people (Genesis 12:3); some scholars add \"with\" before \"the people\" so that both are kept. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "48:14",
+  "a": "He will lead us until we die.",
+  "t": "\"Until death\", or \"forever\"?",
+  "p": "The Hebrew ends with 'al-mut, \"to death\"; the Greek has \"forever\"; many think it is a musical note.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) ('al-mut, written as two words in the Leningrad Codex)",
+    "orig": "הוּא יְנַהֲגֵנוּ עַל־מוּת",
+    "en": "he will guide us to (over) death",
+    "plain": "He will lead us until we die."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (εἰς τοὺς αἰῶνας); some Hebrew manuscripts write 'almut as one word",
+    "orig": "αὐτὸς ποιμανεῖ ἡμᾶς εἰς τοὺς αἰῶνας",
+    "en": "he will shepherd us forever",
+    "plain": "He will lead us forever."
+   },
+   {
+    "w": "Modern proposal: 'al-mut is a musical direction, like 'al-mut labben (9:0), belonging to the next psalm's title",
+    "orig": "הוּא יְנַהֲגֵנוּ",
+    "en": "he will guide us",
+    "plain": "He will lead us."
+   }
+  ],
+  "follow": 0,
+  "why": "None of the readings is certain. The Masoretic Text makes sense as a confession that God guides his people through life to its end, and the Plain keeps it.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:7",
+  "a": "No one can ever buy back a brother",
+  "t": "\"A brother\", or \"surely\"?",
+  "p": "The Hebrew opens with \"brother\" ('ach); many scholars read 'akh, \"surely,\" as in 49:15.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek (Septuagint), Rahlfs' edition, checked (ἀδελφὸς οὐ λυτροῦται)",
+    "orig": "אָח לֹא־פָדֹה יִפְדֶּה אִישׁ",
+    "en": "a brother no one can surely ransom",
+    "plain": "No one can ever buy back a brother"
+   },
+   {
+    "w": "Some Hebrew manuscripts, as reported (not checked), and a common modern correction",
+    "orig": "אַךְ לֹא־פָדֹה יִפְדֶּה אִישׁ",
+    "en": "surely no one can ransom (himself)",
+    "plain": "Surely no one can ever buy himself back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek supports the Masoretic \"brother.\" The correction makes a neat contrast with 49:15 (\"Surely God will ransom my life\"), but it is not needed; the point is the same either way.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:11",
+  "a": "Inside, they think their houses will last forever,",
+  "t": "\"Their inner thought\", or \"their graves\"?",
+  "p": "The Hebrew has qirbam, \"their inside\"; the Greek read qibram, \"their grave\": their graves are their homes forever.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "קִרְבָּם בָּתֵּימוֹ לְעוֹלָם",
+    "en": "their inside (thought): their houses are forever",
+    "plain": "Inside, they think their houses will last forever,"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (καὶ οἱ τάφοι αὐτῶν οἰκίαι αὐτῶν εἰς τὸν αἰῶνα); the Syriac and the Targum (\"in their graves\") are reported to agree by Tate and Kraus (not checked)",
+    "orig": "קִבְרָם בָּתֵּימוֹ לְעוֹלָם",
+    "en": "their grave is their house forever",
+    "plain": "Their graves are their homes forever,"
+   }
+  ],
+  "follow": 0,
+  "why": "Two letters are swapped (qrbm / qbrm). The case against the Masoretic Text is strong: the Greek (checked), the Syriac and the Targum (reported) all read \"graves,\" only Aquila, Symmachus and Jerome are reported to support the Hebrew sense, and most modern versions, including the 1985 JPS, follow \"graves.\" It also fits the psalm's irony: the men who named lands after themselves end with a grave for a home. The Plain still keeps the Masoretic Text, because it makes sense as it stands (\"their inner thought\" is a known idiom, compare 5:9; 64:6), and a reading that is easier to explain as a change from it is not proof that it is wrong; but readers should treat \"graves\" as at least equally likely.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "49:12",
+  "a": "does not stay even a night;",
+  "t": "\"Does not last\", or \"does not understand\"?",
+  "p": "The Hebrew refrain differs: 49:12 \"does not lodge,\" 49:20 \"does not understand.\" The Greek has \"understand\" in both.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בַּל־יָלִין",
+    "en": "he does not lodge (stay the night)",
+    "plain": "does not stay even a night;"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (οὐ συνῆκεν, in both 48:13 and 48:21 of the Greek numbering)",
+    "orig": "ου συνηκεν = בַּל־יָבִין",
+    "en": "he does not understand",
+    "plain": "does not understand;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic difference between the two refrains may be deliberate, a change at the end that adds a warning (see the note). The Greek may have smoothed it. The Plain follows the Hebrew in both places.",
+  "s": [
+   "rahlfs-lxx",
+   "alter-psalms"
+  ]
+ },
+ {
+  "v": "50:18",
+  "a": "you are happy to join him;",
+  "t": "Pleased with him, or running with him?",
+  "p": "The Hebrew says \"you were pleased with him\"; the Greek \"you ran along with him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַתִּרֶץ עִמּוֹ",
+    "en": "you were pleased with him",
+    "plain": "you are happy to join him;"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (συνέτρεχες αὐτῷ)",
+    "orig": "וַתָּרָץ עִמּוֹ",
+    "en": "you ran with him",
+    "plain": "you run along with him;"
+   }
+  ],
+  "follow": 0,
+  "why": "The meanings overlap; the Greek reads a related root. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "50:23",
+  "a": "and whoever prepares the way,",
+  "t": "\"Prepares the way\", \"is blameless in his way\" or \"there is the way\"?",
+  "p": "The Hebrew vesam derekh is hard. A one-letter change gives \"whose way is blameless\"; the Greek read \"there.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְשָׂם דֶּרֶךְ",
+    "en": "and (who) sets a way",
+    "plain": "and whoever prepares the way,"
+   },
+   {
+    "w": "Modern correction (vetam derekh), adopted by several versions",
+    "orig": "וְתָם דֶּרֶךְ",
+    "en": "and (whose) way is blameless",
+    "plain": "and whoever keeps his way blameless,"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (καὶ ἐκεῖ ὁδός ᾗ δείξω αὐτῷ)",
+    "orig": "וְשָׁם דֶּרֶךְ",
+    "en": "and there is the way by which I will show him",
+    "plain": "and there is the way:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew can be understood, though it is compressed, and the correction has no manuscript support. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:4",
+  "a": "and clear when you pass judgment.",
+  "t": "\"When you judge\", or \"when you are judged\"?",
+  "p": "The Hebrew says God is clear \"when you judge\"; the Greek, quoted in Romans 3:4, says he wins \"when you are judged.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תִּזְכֶּה בְשָׁפְטֶךָ",
+    "en": "you are pure (clear) when you judge",
+    "plain": "and clear when you pass judgment."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (νικήσῃς ἐν τῷ κρίνεσθαί σε); quoted in Romans 3:4",
+    "orig": "νικήσῃς ἐν τῷ κρίνεσθαί σε",
+    "en": "and win when you are judged (go to court)",
+    "plain": "and win your case when you are judged."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator read the Hebrew verb \"be pure\" in its Aramaic sense \"win, be in the right\" and took the infinitive as passive. The Hebrew is clear and the Plain follows it; Paul's quotation follows the Greek.",
+  "s": [
+   "rahlfs-lxx",
+   "moo-romans"
+  ]
+ },
+ {
+  "v": "52:1",
+  "a": "The loyal love of God is there all the day.",
+  "t": "God's loyal love, or the man's disgrace?",
+  "p": "The Hebrew contrasts the boaster with God's hesed. The Greek has \"lawlessness all the day,\" part of the charge.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "חֶסֶד אֵל כָּל־הַיּוֹם",
+    "en": "the loyal love of God (is) all the day",
+    "plain": "The loyal love of God is there all the day."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ἀνομίαν ὅλην τὴν ἡμέραν)",
+    "orig": "ἀνομίαν ὅλην τὴν ἡμέραν",
+    "en": "lawlessness all the day",
+    "plain": "You are lawless all the day."
+   },
+   {
+    "w": "Modern proposal, from the Syriac as reported (not checked)",
+    "orig": "אֶל־חָסִיד כָּל־הַיּוֹם",
+    "en": "against the godly all the day",
+    "plain": "against the godly all the day."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes good sense as a contrast and matches 52:8 (\"God's loyal love\"). The Greek probably took hesed in its rare sense \"disgrace\" or read a different text. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "52:7",
+  "a": "and grew strong in his ruinous schemes.",
+  "t": "Strong in his ruin, his emptiness or his wealth?",
+  "p": "The Hebrew says \"in his destruction\"; the Greek \"in his emptiness\"; others read \"in his wealth.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יָעֹז בְּהַוָּתוֹ",
+    "en": "he was strong in his destruction",
+    "plain": "and grew strong in his ruinous schemes."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ἐπὶ τῇ ματαιότητι αὐτοῦ)",
+    "orig": "ἐπὶ τῇ ματαιότητι αὐτοῦ",
+    "en": "in his vanity",
+    "plain": "and grew strong in his emptiness."
+   },
+   {
+    "w": "Syriac and Targum, as reported (not checked)",
+    "orig": "בְּהוֹנוֹ",
+    "en": "in his wealth",
+    "plain": "and grew strong in his riches."
+   }
+  ],
+  "follow": 0,
+  "why": "\"His destruction\" repeats the word of 52:2 and makes sense; \"wealth\" may be an easier reading that matches the line before. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "53:5",
+  "a": "the bones of your besieger.",
+  "t": "Your besieger, or people-pleasers?",
+  "p": "The Hebrew has \"the one camped against you\"; the Greek has \"men-pleasers.\" Psalm 14 has neither.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַצְמוֹת חֹנָךְ",
+    "en": "the bones of the one who camps against you",
+    "plain": "the bones of your besieger."
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (ὀστᾶ ἀνθρωπαρέσκων)",
+    "orig": "ὀστᾶ ἀνθρωπαρέσκων",
+    "en": "the bones of people-pleasers",
+    "plain": "the bones of people-pleasers."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may have read the Hebrew as chanef, \"godless, flatterer.\" Paul's warning against \"people-pleasers\" (Ephesians 6:6; Colossians 3:22) uses the same rare Greek word. The Masoretic Text fits the military picture, and the Plain follows it.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:3",
+  "a": "For outsiders have stood up against me,",
+  "t": "Outsiders, or the arrogant?",
+  "p": "The Hebrew has zarim, \"strangers\"; the near copy in 86:14 has zedim, \"the arrogant,\" one letter different.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek (Septuagint), Rahlfs' edition, checked (ἀλλότριοι)",
+    "orig": "כִּי זָרִים קָמוּ עָלַי",
+    "en": "for strangers have risen against me",
+    "plain": "For outsiders have stood up against me,"
+   },
+   {
+    "w": "Some Hebrew manuscripts and the Targum, as reported (not checked); compare Psalm 86:14",
+    "orig": "כִּי זֵדִים קָמוּ עָלַי",
+    "en": "for arrogant men have risen against me",
+    "plain": "For arrogant men have stood up against me,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Greek agree. \"Arrogant\" is the reading of the parallel line in 86:14 and may be original here too, since Hebrew r and d are easily confused. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:5",
+  "a": "He will turn the evil back on those who spy on me.",
+  "t": "He will return evil, or the evil will return?",
+  "p": "The written consonants say \"the evil will return\"; the Masoretes read \"he will return the evil.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretic reading tradition); Old Greek (Septuagint), Rahlfs' edition, checked (ἀποστρέψει τὰ κακά)",
+    "orig": "יָשִׁיב הָרַע",
+    "en": "he will turn back the evil",
+    "plain": "He will turn the evil back on those who spy on me."
+   },
+   {
+    "w": "Ketiv (the written consonants of the Leningrad Codex)",
+    "orig": "יָשׁוּב הָרַע",
+    "en": "the evil will turn back",
+    "plain": "The evil will turn back on those who spy on me."
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense: evil recoils on its makers, or God turns it back on them. The Qere has the support of the Greek, and the Plain follows it.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "55:15",
+  "a": "Let death come on them by surprise;",
+  "t": "\"Desolation\", or \"let death surprise them\"?",
+  "p": "The written text has one word, \"desolation\"; the reading tradition splits it: \"let death deceive them.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretic reading tradition); Old Greek (Septuagint), Rahlfs' edition, checked (ἐλθέτω θάνατος ἐπ᾽ αὐτούς, 'let death come on them')",
+    "orig": "יַשִּׁי מָוֶת עָלֵימוֹ",
+    "en": "let death come deceptively on them",
+    "plain": "Let death come on them by surprise;"
+   },
+   {
+    "w": "Ketiv (the written consonants of the Leningrad Codex)",
+    "orig": "יְשִׁימָוֶת עָלֵימוֹ",
+    "en": "desolation on them!",
+    "plain": "Let desolation fall on them;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere matches the next line (\"let them go down to Sheol alive\") and the Greek, and the Plain follows it.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "55:21",
+  "a": "The butter-talk of his mouth was smooth,",
+  "t": "Smooth butter, or a face of anger?",
+  "p": "The Hebrew is obscure: \"smooth were the butters of his mouth.\" The Greek has \"they were divided by the anger of his face.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "חָלְקוּ מַחְמָאֹת פִּיו",
+    "en": "smooth were the butter (words) of his mouth",
+    "plain": "The butter-talk of his mouth was smooth,"
+   },
+   {
+    "w": "Common modern correction, dividing the letters differently",
+    "orig": "חָלְקוּ מֵחֶמְאָה פָנָיו",
+    "en": "his face was smoother than butter",
+    "plain": "His face was smoother than butter,"
+   },
+   {
+    "w": "Old Greek (Septuagint), Rahlfs' edition, checked (διεμερίσθησαν ἀπὸ ὀργῆς)",
+    "orig": "διεμερίσθησαν ἀπὸ ὀργῆς τοῦ προσώπου αὐτοῦ",
+    "en": "they were divided by the anger of his face",
+    "plain": "They were scattered by the anger of his face,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text can be understood and fits the parallel \"softer than oil were his words.\" The Greek read chemah, \"anger,\" and the verb in another sense. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ }
+]

@@ -1,0 +1,408 @@
+[
+ {
+  "v": "9:1",
+  "a": "set out to make it all clear",
+  "t": "To make clear, or my heart saw?",
+  "p": "The Greek and the Syriac read 'and my heart saw all this' where the Hebrew has a rare verb, 'to make clear'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְלָבוּר אֶת־כָּל־זֶה",
+    "en": "and to make clear all this",
+    "plain": "set out to make it all clear"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees); Syriac Peshitta",
+    "orig": "καὶ καρδία μου σὺν πᾶν εἶδεν τοῦτο",
+    "en": "and my heart saw all this",
+    "plain": "my heart saw all of it"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word is rare but makes sense (to sift, examine). The Greek and Syriac readings can be explained as a guess at the same letters, read as welibbi ra'ah, \"and my heart saw\", a phrase Qohelet uses in 1:16. Most modern versions follow the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "Everything lies ahead of them.",
+  "t": "Everything ahead, or all is vapor?",
+  "p": "The Greek and Syriac put 'vapor' where the Hebrew has 'everything' at the start of 9:2. This goes with the next variant.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַכֹּל לִפְנֵיהֶם׃ הַכֹּל כַּאֲשֶׁר לַכֹּל",
+    "en": "everything is before them. Everything as for everyone",
+    "plain": "Everything lies ahead of them."
+   },
+   {
+    "w": "Syriac Peshitta",
+    "orig": "ܟܠ ܕܩܕܡܘܗܝ ܗܒܠܐ",
+    "en": "all that is before him is vapor",
+    "plain": "All that lies ahead of them is vapor."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has hakkol, \"everything\", at the start of 9:2. The Greek and Syriac read hevel, \"vapor\", which looks very similar in Hebrew letters (הבל for הכל). Many scholars think the Greek and Syriac are right and that the Masoretic Text repeated \"everything\" by mistake; others keep the Hebrew. The Plain follows the Hebrew but the case is close.",
+  "s": [
+   "peshitta-ecc",
+   "rahlfs-lxx",
+   "seow-ecclesiastes",
+   "fox-qohelet"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "Everything goes alike for everyone.",
+  "t": "Vapor in everything?",
+  "p": "Goes with the variant at the end of 9:1: the Greek begins 9:2 with 'vapor in all things'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַכֹּל כַּאֲשֶׁר לַכֹּל",
+    "en": "everything, as for everyone",
+    "plain": "Everything goes alike for everyone."
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "ματαιότης ἐν τοῖς πᾶσιν",
+    "en": "vapor in all things",
+    "plain": "Vapor is in everything."
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 9:1. The Greek reads hevel bakkol, \"vapor in everything\", for the Hebrew hakkol ka'asher lakkol. The Plain follows the Hebrew, which is the harder reading but makes sense.",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "to the good, to the clean",
+  "t": "And to the bad?",
+  "p": "The Hebrew has 'the good' with no partner. The Greek, Syriac and Latin add 'and to the bad'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לַטּוֹב וְלַטָּהוֹר",
+    "en": "to the good and to the clean",
+    "plain": "to the good, to the clean"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees); Syriac Peshitta; Jerome's Latin (Vulgate)",
+    "orig": "τῷ ἀγαθῷ καὶ τῷ κακῷ καὶ τῷ καθαρῷ",
+    "en": "to the good and to the bad and to the clean",
+    "plain": "to the good and to the bad, to the clean"
+   }
+  ],
+  "follow": 0,
+  "why": "Every other item in the list comes in a pair, so \"and to the bad\" may have fallen out of the Hebrew, and many modern versions add it from the Greek. But a scribe or translator could also have added it to complete the pattern. The Plain follows the Hebrew and gives the fuller reading here.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "vulgate-weber",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "9:4",
+  "a": "Whoever is joined to the company of the living",
+  "t": "Joined, or chosen?",
+  "p": "The written Hebrew letters say 'chosen'; the Masoretes' reading note says 'joined'. All ancient versions read 'joined'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the reading the Masoretes marked to be read aloud); Greek, Syriac",
+    "orig": "יְחֻבַּר",
+    "en": "is joined",
+    "plain": "Whoever is joined to the company of the living"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (the letters as written)",
+    "orig": "יבחר",
+    "en": "chooses / is chosen",
+    "plain": "Who is the one chosen? Everyone among the living"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters as written (yivchar) can mean \"chooses\" or \"is chosen\", which gives the odd sense \"who is chosen?\" or \"who can choose (to live)?\". The Masoretes marked yechubbar, \"is joined\", by switching two letters, and the Greek and Syriac both read \"shares with, is joined\". The Plain follows the Qere, as almost all versions do.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "a little folly weighs more than wisdom, more than honor",
+  "t": "Folly outweighs wisdom, or wisdom outweighs folly?",
+  "p": "The Greek reverses the saying: a little wisdom is worth more than the glory of great folly.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta",
+    "orig": "יָקָר מֵחָכְמָה מִכָּבוֹד סִכְלוּת מְעָט",
+    "en": "weightier than wisdom, than honor, is a little folly",
+    "plain": "a little folly weighs more than wisdom, more than honor"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "τίμιον ὀλίγον σοφίας ὑπὲρ δόξαν ἀφροσύνης μεγάλης",
+    "en": "a little wisdom is more precious than the glory of great folly",
+    "plain": "a little wisdom is worth more than the glory of great folly"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading and fits the first half of the verse: a little thing (a dead fly, a bit of folly) spoils something precious. The Greek seems to have read the words in a different order and made a more comfortable proverb in praise of wisdom.",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "but wisdom's gain is that it brings success",
+  "t": "Wisdom's gain, or no wisdom?",
+  "p": "The Greek manuscripts differ: Rahlfs reads 'the advantage of the brave is wisdom'; Codex Vaticanus, 'the man has no wisdom'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְיִתְרוֹן הַכְשֵׁר חָכְמָה",
+    "en": "and the advantage of making succeed is wisdom",
+    "plain": "but wisdom's gain is that it brings success"
+   },
+   {
+    "w": "Greek (Rahlfs' edition)",
+    "orig": "καὶ περισσεία τοῦ ἀνδρείου σοφία",
+    "en": "and the advantage of the strong man is wisdom",
+    "plain": "but the strong man's gain is wisdom"
+   },
+   {
+    "w": "Codex Vaticanus (as printed by Swete)",
+    "orig": "καὶ περισσεία τῷ ἀνδρὶ οὐ σοφία",
+    "en": "and there is no advantage for the man; (it is) not wisdom",
+    "plain": "but such a man has no gain of wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is difficult but gives a clear sense: skill saves effort. The Greek witnesses seem to be struggling with the same hard words, and they disagree with each other. The Plain follows the Hebrew, with the usual Ketiv/Qere spelling of hakhsher.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "10:17",
+  "a": "to be strong and not to be drunk",
+  "t": "Not drunk, or not ashamed?",
+  "p": "The Greek read the Hebrew 'drinking' as 'shame': the princes eat in strength 'and will not be ashamed'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta",
+    "orig": "בִּגְבוּרָה וְלֹא בַשְּׁתִי",
+    "en": "in strength and not in drinking",
+    "plain": "to be strong and not to be drunk"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "ἐν δυνάμει καὶ οὐκ αἰσχυνθήσονται",
+    "en": "in strength, and they will not be ashamed",
+    "plain": "in strength, and they will not be put to shame"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word bashti, \"drinking\", is rare, and the Greek translator seems to have connected it with bosh, \"to be ashamed\". The Syriac agrees with the Hebrew, and the contrast with drinking in the morning (10:16) supports it.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "11:9",
+  "a": "Walk on in your heart's ways and in what your eyes see",
+  "t": "Follow your heart, or walk blameless?",
+  "p": "Codex Vaticanus changes the command: 'walk in blameless ways, and not in what your eyes see'. Rahlfs' Greek agrees with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Greek (Rahlfs' edition); Syriac Peshitta",
+    "orig": "וְהַלֵּךְ בְּדַרְכֵי לִבְּךָ וּבְמַרְאֵי עֵינֶיךָ",
+    "en": "and walk in the ways of your heart and in the sights of your eyes",
+    "plain": "Walk on in your heart's ways and in what your eyes see"
+   },
+   {
+    "w": "Codex Vaticanus (as printed by Swete)",
+    "orig": "καὶ περιπάτει ἐν ὁδοῖς ἄμωμος καὶ μὴ ἐν ὁράσει ὀφθαλμῶν σου",
+    "en": "and walk in ways blameless, and not in the sight of your eyes",
+    "plain": "Walk on in blameless ways, and not in what your eyes see"
+   }
+  ],
+  "follow": 0,
+  "why": "The Vaticanus reading looks like a correction made to bring the verse into line with Numbers 15:39, which forbids following one's heart and eyes. The rabbis felt the same tension (Leviticus Rabbah 28:1) but kept the Hebrew. The bolder reading is almost certainly the original.",
+  "s": [
+   "swete-lxx",
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "leviticus-rabbah"
+  ]
+ },
+ {
+  "v": "11:10",
+  "a": "boyhood and black hair are vapor",
+  "t": "Black hair, or folly?",
+  "p": "The Greek and the Syriac read 'youth and folly are vapor', perhaps guessing at a rare Hebrew word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַיַּלְדוּת וְהַשַּׁחֲרוּת הָבֶל",
+    "en": "youth and the blackness (or dawn) are vapor",
+    "plain": "boyhood and black hair are vapor"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "ἡ νεότης καὶ ἡ ἄνοια ματαιότης",
+    "en": "youth and folly are vapor",
+    "plain": "boyhood and folly are vapor"
+   },
+   {
+    "w": "Syriac Peshitta",
+    "orig": "ܛܠܝܘܬܐ ܘܠܐ ܝܕܥܬܐ ܗܒܠܐ",
+    "en": "childhood and not knowing are vapor",
+    "plain": "boyhood and ignorance are vapor"
+   }
+  ],
+  "follow": 0,
+  "why": "Shacharut occurs only here. The Greek and Syriac do not seem to have read different letters; they guessed at the meaning, linking youth with lack of sense. The Hebrew points to black hair or the dawn of life, which fits the contrast with old age in 12:1–5.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "before the cord of silver is torn",
+  "t": "Torn, or taken away?",
+  "p": "The Masoretes' reading note says 'snapped, torn'. The letters as written say 'removed', and the Greek has 'overturned'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the reading marked to be read aloud)",
+    "orig": "יֵרָתֵק",
+    "en": "is snapped, torn apart",
+    "plain": "before the cord of silver is torn"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (the letters as written)",
+    "orig": "ירחק",
+    "en": "is removed, goes far off",
+    "plain": "before the cord of silver is taken away"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "ἀνατραπῇ",
+    "en": "is overturned",
+    "plain": "before the cord of silver is overturned"
+   }
+  ],
+  "follow": 0,
+  "why": "The written letters (from rachaq, \"be far\") give \"is taken away\"; the Qere (from ratak, \"bind, snap\") gives \"is torn apart\", which suits the breaking images that follow. The two words differ by one similar letter. The Plain follows the Qere, as most versions do.",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "12:9",
+  "a": "He weighed",
+  "t": "Weighed, or listened?",
+  "p": "The Hebrew verb probably means 'weighed'. The Greek and Syriac took it from the word for 'ear' and read 'listened'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְאִזֵּן",
+    "en": "and he weighed",
+    "plain": "He weighed"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees); Syriac Peshitta",
+    "orig": "καὶ οὖς ἐξιχνιάσεται",
+    "en": "and the ear will track down",
+    "plain": "He listened"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings come from the same consonants. 'Izzen with these vowels is the verb \"to weigh\", from the word for scales; the Greek and Syriac connected it with 'ozen, \"ear\". \"Weighed\" suits the scholar's craft described by the next two verbs.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "12:10",
+  "a": "and what was written was upright",
+  "t": "Written, or he wrote?",
+  "p": "The Hebrew has a passive, 'and written'. The Syriac and Latin have 'and he wrote'; many scholars read 'and to write'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Greek (Rahlfs' edition)",
+    "orig": "וְכָתוּב יֹשֶׁר",
+    "en": "and written, uprightly",
+    "plain": "and what was written was upright"
+   },
+   {
+    "w": "Syriac Peshitta; Jerome's Latin (Vulgate); a common modern correction (likhtov)",
+    "orig": "וְכָתַב יֹשֶׁר",
+    "en": "and he wrote uprightly",
+    "plain": "and he wrote what is upright"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is awkward but possible, and the Greek supports it. The Syriac and Latin, and modern scholars who read likhtov, \"and to write\", make Qohelet the subject. The difference in meaning is small: either way his words are called upright and true.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "vulgate-weber",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "12:13",
+  "a": "now that everything has been heard",
+  "t": "Has been heard, or let us hear?",
+  "p": "The same Hebrew letters can mean 'all has been heard' or 'let us hear'. The KJV's 'Let us hear the conclusion' follows the second.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (as vowelled); Greek (Rahlfs' edition)",
+    "orig": "הַכֹּל נִשְׁמָע",
+    "en": "everything has been heard",
+    "plain": "now that everything has been heard"
+   },
+   {
+    "w": "Same letters read as a first-person verb; Jerome's Latin (Vulgate); KJV",
+    "orig": "נִשְׁמַע",
+    "en": "let us hear (it all)",
+    "plain": "let us all hear it"
+   },
+   {
+    "w": "Codex Vaticanus (as printed by Swete)",
+    "orig": "τὸ πᾶν ἄκουε",
+    "en": "hear the whole",
+    "plain": "hear it all"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes vowelled the word as a passive (nishma', \"is heard\"), and Rahlfs' Greek agrees. Read with other vowels, the same letters mean \"we will hear\" or \"let us hear\", which Jerome and the KJV follow. Codex Vaticanus has a command, \"hear\". The sense is close in all three: the teaching is complete.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "vulgate-weber",
+   "seow-ecclesiastes"
+  ]
+ }
+]

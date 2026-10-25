@@ -1,0 +1,771 @@
+[
+ {
+  "v": "12:7",
+  "a": "from Areus",
+  "t": "Areus or Darius?",
+  "p": "The letters ΔΑΡΙΟΥ can be read \"but from Areus\" or \"from Darius\". The KJV has Darius.",
+  "readings": [
+   {
+    "w": "Swete's text, dividing the letters this way and spelling the name with ει; the Vulgate (\"ab Ario\")",
+    "orig": "παρὰ δ᾽ Ἀρείου",
+    "en": "but from Areus",
+    "plain": "from Areus"
+   },
+   {
+    "w": "Swete's note on the manuscripts (ℵ, A and V as first written); KJV",
+    "orig": "Δαριου (? δ Αριου ℵΑV*",
+    "en": "from Darius",
+    "plain": "from Darius"
+   }
+  ],
+  "follow": 0,
+  "why": "Ancient manuscripts were written without spaces, so ΠΑΡΑΔΑΡΙΟΥ, as Sinaiticus, Alexandrinus and Venetus all write it, can be divided as \"but from Areus\" (Swete prints παρὰ δ᾽ Ἀρείου) or as \"from Darius\". The king who writes in 12:20 is Areus, and no Darius ever ruled Sparta, so Swete, Rahlfs and the Vulgate read Areus. The KJV's \"Darius\" comes from dividing the letters the other way.",
+  "b": "Swete's text is Codex Alexandrinus, but in a few places he corrects A silently from Sinaiticus or Venetus (for example 12:18, 12:21, 13:43–44, 15:17 and 15:23, and the word division here and at 12:19). Those readings are labeled \"Swete's text\", not Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "12:19",
+  "a": "This is a copy of the letter they sent to Onias:",
+  "t": "Onias, or \"Oniares\"?",
+  "p": "Run together, \"to Onias. Areus\" became the name \"Oniares\" in some copies and in the KJV. Goes with the 12:20 entry.",
+  "readings": [
+   {
+    "w": "Swete's text, dividing the letters as Sinaiticus' first hand seems to (with the next verse)",
+    "orig": "Καὶ τοῦτο τὸ ἀντίγραφον τῶν ἐπιστολῶν ὧν ἀπέστειλαν Ὀνείᾳ",
+    "en": "and this is the copy of the letter which they sent to Onias",
+    "plain": "This is a copy of the letter they sent to Onias:"
+   },
+   {
+    "w": "Codex Alexandrinus, which seems to have Oneiares, and Sinaiticus as corrected and Venetus as first written, which seem to have -niares (Swete's note); KJV",
+    "orig": "Ονεια Αρης] Ονια Αρης ℵ* vid νιαρης ℵc.a vid V* Ονειαρης Avid",
+    "en": "the copy of the letter which Oniares sent",
+    "plain": "This is a copy of the letter Oniares sent:"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints Ὀνείᾳ at the end of 12:19 and Ἄρης at the start of 12:20. Written without spaces, ΟΝΕΙΑΑΡΗΣ easily became ΟΝΕΙΑΡΗΣ, a single name, and the sentence then made Oniares the sender. The greeting itself (\"Areus king of the Spartans, to Onias\") shows that the sender is Areus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "12:20",
+  "a": "Areus king of the Spartans",
+  "t": "\"Areus\" or \"king of the Spartans\" alone",
+  "p": "If \"Oniares\" is read in 12:19, the king's name drops from 12:20. Goes with the 12:19 entry.",
+  "readings": [
+   {
+    "w": "Swete's text; the Vulgate (\"Arius rex Spartiatarum\")",
+    "orig": "Ἄρης βασιλεὺς Σπαρτιατῶν",
+    "en": "Ares (Areus), king of the Spartans",
+    "plain": "Areus king of the Spartans"
+   },
+   {
+    "w": "The reading \"Oniares\" in 12:19 (see that entry)",
+    "en": "king of the Spartans",
+    "plain": "The king of the Spartans"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's text and the Latin have the king's name here. The KJV keeps \"Areus\" in 12:20 as well as \"Oniares\" in 12:19, so it has both readings at once.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "12:43",
+  "a": "to obey him too",
+  "t": "\"Likewise\" or \"as himself\"",
+  "p": "Alexandrinus says the troops are to obey Jonathan \"likewise\"; Sinaiticus and Venetus say \"as they would obey himself\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὡσαύτως",
+    "en": "likewise",
+    "plain": "to obey him too"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV",
+    "orig": "ωσαυτως] ως αυτου ℵV",
+    "en": "as himself",
+    "plain": "to obey him as they obeyed Tryphon himself"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter, ὡσαύτως and ὡς αὐτοῦ. Alexandrinus is Swete's base text. The other reading makes Tryphon's flattery stronger, and the KJV follows it (\"as obedient unto him, as to himself\").",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "12:45",
+  "a": "the many troops",
+  "t": "\"The many troops\" or \"the rest of the troops\"",
+  "p": "Alexandrinus has Tryphon offer \"the many troops\"; Sinaiticus, Venetus and the KJV have \"the rest of the troops\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὰς δυνάμεις τὰς πολλὰς",
+    "en": "the many forces",
+    "plain": "the many troops"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV (\"the rest of the strong holds and forces\")",
+    "orig": "πολλας] λοιπας ℵV",
+    "en": "the rest of the forces",
+    "plain": "the rest of the troops"
+   }
+  ],
+  "follow": 0,
+  "why": "The words πολλάς and λοιπάς look alike in capitals. \"The rest\" repeats the word used just before for the strongholds (τὰ λοιπὰ ὀχυρώματα), which may be why a copyist wrote it again, or why A's scribe avoided it. The Vulgate has simply \"exercitum\", \"the army\". The offer is equally large either way.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "12:52",
+  "a": "Israel mourned",
+  "t": "\"Israel\" or \"all Israel\"",
+  "p": "Sinaiticus, Venetus and the KJV say \"all Israel\" mourned.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the Vulgate (\"luxit Israël\")",
+    "orig": "ἐπένθησεν Ἰσραὴλ",
+    "en": "Israel mourned",
+    "plain": "Israel mourned"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV",
+    "orig": "Ισραηλ] pr πας ℵV",
+    "en": "all Israel mourned",
+    "plain": "All Israel mourned"
+   }
+  ],
+  "follow": 0,
+  "why": "\"All Israel\" is a common phrase in the histories of the Hebrew Bible, and a copyist could easily add it. The sense hardly changes.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "13:17",
+  "a": "Simon knew",
+  "t": "Did Simon know?",
+  "p": "The Venetus manuscript says Simon did not know the offer was a trick.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus",
+    "orig": "καὶ ἔγνω Σίμων",
+    "en": "and Simon knew",
+    "plain": "Simon knew"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes",
+    "orig": "εγνω] pr ουκ V",
+    "en": "and Simon did not know",
+    "plain": "Simon did not know"
+   }
+  ],
+  "follow": 0,
+  "why": "Every other witness, the Latin and the KJV have \"Simon knew\". With \"did not know\", the excuse of 13:18 would make no sense, since Simon would need no excuse for paying. The Venetus reading looks like a scribe's attempt to clear Simon of blame.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "13:20",
+  "a": "to invade the city",
+  "t": "The city or the land?",
+  "p": "Alexandrinus says Tryphon came to invade \"the city\"; Sinaiticus, Venetus, the Latin and the KJV say \"the land\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τοῦ ἐμβατεῦσαι εἰς τὴν πόλιν",
+    "en": "to invade the city",
+    "plain": "to invade the city"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"intra regionem\"); KJV",
+    "orig": "πολιν] χωραν ℵV",
+    "en": "to invade the land",
+    "plain": "to invade the country"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text. \"The city\" would be Jerusalem, Tryphon's real goal (13:21), while \"the land\" fits his march around by Adora. The two words are easily exchanged, and either makes sense.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "13:33",
+  "a": "the stronghold of Judea",
+  "t": "One stronghold or many?",
+  "p": "Alexandrinus says Simon built \"the stronghold\" (singular) of Judea; Sinaiticus, Venetus, the Latin and the KJV have \"the strongholds\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὸ ὀχύρωμα τῆς Ἰουδαίας",
+    "en": "the stronghold of Judea",
+    "plain": "the stronghold of Judea"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"praesidia\"); KJV",
+    "orig": "το οχυρωμα] τα οχυρωματα ℵV",
+    "en": "the strongholds of Judea",
+    "plain": "the strongholds of Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "The end of the verse speaks of \"the strongholds\" in the plural in every witness, so A's singular is probably a collective, \"the fortifications of Judea\", and the sense is the same. The Plain keeps the singular with \"walled it around\".",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "13:37",
+  "a": "the palm branch",
+  "t": "Palm branch or scarlet robe?",
+  "p": "The Greek has a palm branch, and so the Latin; the KJV has \"the scarlet robe\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus spells it βαινην; the Vulgate (\"bahem\"), Douay (\"the palm\")",
+    "orig": "τὴν βάιν",
+    "en": "the palm (branch)",
+    "plain": "the palm branch"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "en": "the scarlet robe",
+    "plain": "the scarlet robe"
+   }
+  ],
+  "follow": 0,
+  "why": "All the Greek witnesses have <i>bain</i>, a palm branch, the gift Alcimus also gave a king (2 Maccabees 14:4). No Greek manuscript in Swete has a word for a robe. The KJV's \"scarlet robe\" may come from a guess at the rare word; its source is not known.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "13:43",
+  "a": "Gaza",
+  "t": "Gaza or Gazara?",
+  "p": "Every manuscript says Gaza, but most scholars think the city was Gazara (Gezer), as the rest of the book implies.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus; Venetus; the Vulgate (\"ad Gazam\"); KJV",
+    "orig": "Γάζαν",
+    "en": "Gaza",
+    "plain": "Gaza"
+   },
+   {
+    "w": "A correction proposed by modern scholars (no manuscript); followed by many modern translations, as reported by Goldstein",
+    "en": "Gazara",
+    "plain": "Gazara"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the reading of all the witnesses. But the book says next that Simon's son lived at Gazara (13:53), the poem says Simon \"became master of Gazara\" (14:7), the decree says he settled Jews in Gazara (14:34), and Antiochus later demands Gazara, not Gaza, back (15:28). Gaza, far down the coast, appears nowhere else in Simon's story. Josephus, as most commentators report, says that Simon took Gazara. So most scholars correct the text to Gazara and think a copyist wrote the more famous name. Because the correction has no manuscript support, the Plain does not adopt it.",
+  "b": "The notes at 13:47–48 apply to whichever city is meant.",
+  "s": [
+   "swete-ot",
+   "goldstein-1macc",
+   "bartlett-1macc",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "13:43",
+  "a": "He built a siege tower",
+  "t": "Is there a siege tower?",
+  "p": "Alexandrinus has no siege tower here, and in 13:44 it is \"those in the city\" who leap into the city. Swete supplies the tower from Sinaiticus and Venetus.",
+  "readings": [
+   {
+    "w": "Swete's text (here Swete corrects Alexandrinus from Sinaiticus or Venetus); the Vulgate (\"fecit machinas\"); KJV (\"an engine of war\")",
+    "orig": "ἐποίησεν ἑλέπολιν",
+    "en": "he made a siege tower",
+    "plain": "He built a siege tower"
+   },
+   {
+    "w": "Codex Alexandrinus, as Swete's note reports it, which lacks the word here and has \"city\" for \"siege tower\" in 13:44",
+    "orig": "παρενεβαλλεν ελεπολιν ℵ (-λεις V)] om A",
+    "en": "(no siege tower)",
+    "plain": "He brought his forces up to the city"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's note says A omits the siege tower at 13:43 and has πόλει (\"city\") where Sinaiticus and Venetus have ἑλεπόλει (\"siege tower\") at 13:44. Without the tower, A's 13:44 reads oddly (\"those in the city leaped into the city\"), which suggests that A has lost the word rather than the others adding it: ἑλέπολις and πόλις look alike. Swete, Rahlfs, the Latin and the KJV all have the tower, and the Plain follows them. This is one of the places where Swete's text is not A.",
+  "b": "The note on \"a siege tower\" at 13:43 explains the machine.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "13:52",
+  "a": "He decreed that this day should be celebrated every year",
+  "t": "\"With gladness\"",
+  "p": "Sinaiticus and Venetus add that the day was to be kept \"with gladness\", which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ ἔστησεν κατ᾽ ἐνιαυτὸν τοῦ ἄγειν τὴν ἡμέραν ταύτην",
+    "en": "and he decreed to keep this day yearly",
+    "plain": "He decreed that this day should be celebrated every year"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV",
+    "orig": "ταυτην] + μετα ευφροσυνης ℵV",
+    "en": "to keep this day yearly with gladness",
+    "plain": "He decreed that this day should be celebrated every year with gladness"
+   }
+  ],
+  "follow": 0,
+  "why": "The words add nothing new, and a scribe might add them from the many feast decrees that speak of joy (4:59; 7:48–49). The Plain follows Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "14:23",
+  "a": "They wrote a copy of this",
+  "t": "Who sends the copy?",
+  "p": "Alexandrinus says \"they wrote a copy\"; Sinaiticus' first hand, Venetus, the Latin and the KJV make the Spartans say \"we wrote\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἔγραψαν Σίμωνι",
+    "en": "they wrote to Simon",
+    "plain": "They wrote a copy of this"
+   },
+   {
+    "w": "Sinaiticus as first written (\"I wrote\"), Venetus (\"we wrote\"), in Swete's notes; the Vulgate (\"scripsimus\"); KJV (\"we have written\")",
+    "orig": "εγραψα ℵ* (-ψα? ℵc) εγραψαμεν V",
+    "en": "we wrote",
+    "plain": "We wrote a copy of this"
+   }
+  ],
+  "follow": 0,
+  "why": "In A the sentence is the narrator's, closing the quoted Spartan decree. In the other reading it is the last line of the Spartans' own letter. The facts are the same: Sparta sent Simon a copy. The Plain follows A and closes the quotation before it.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "14:28",
+  "a": "at Saramel",
+  "t": "Saramel or Asaramel?",
+  "p": "Alexandrinus has \"in Saramel\"; Sinaiticus, Venetus and the Latin have \"Asaramel\". The KJV has Saramel.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV",
+    "orig": "ἐν Σαραμέλ",
+    "en": "in Saramel",
+    "plain": "at Saramel"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate and Douay (\"in Asaramel\", attached to 14:27)",
+    "orig": "Ασαραμελ ℵV",
+    "en": "in Asaramel",
+    "plain": "at Asaramel"
+   }
+  ],
+  "follow": 0,
+  "why": "Neither name is known as a place, and the form with A- (Hebrew <i>ḥatsar</i>, \"court\") supports the theory that the Greek keeps a Hebrew phrase, \"the court of God's people\" (see the note). The Plain keeps Swete's text. The Latin puts the words at the end of its verse 27, a difference of verse division only.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "schurer-vermes"
+  ]
+ },
+ {
+  "v": "14:35",
+  "a": "how loyal Simon was",
+  "t": "Simon's loyalty or Simon's deeds?",
+  "p": "Alexandrinus and Sinaiticus speak of Simon's loyalty; Venetus and the Latin of his deeds; the KJV says the people \"sang the acts of Simon\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus",
+    "orig": "καὶ εἶδεν ὁ λαὸς τὴν πίστιν τοῦ Σίμωνος",
+    "en": "and the people saw the faithfulness of Simon",
+    "plain": "how loyal Simon was"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"vidit populus actum Simonis\"); Douay (\"seeing the acts of Simon\")",
+    "orig": "πιστιν] | και πραξιν V",
+    "en": "the people saw the deeds of Simon",
+    "plain": "what Simon had done"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "en": "the people therefore sang the acts of Simon",
+    "plain": "of Simon's deeds, and sang of them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Alexandrinus and Sinaiticus. \"Loyalty\" (<i>pistis</i>) comes back later in the same verse, which a scribe may have found repetitive and changed to \"deeds\" (<i>praxis</i>). The KJV's \"sang\" is in no witness Swete reports.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "14:48",
+  "a": "in a secure place",
+  "t": "A secure place or a conspicuous one?",
+  "p": "Alexandrinus says the tablets stood in a \"trustworthy\" (secure) place; Sinaiticus, Venetus, the Latin and the KJV say a \"conspicuous\" one.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐν τόπῳ πιστῷ",
+    "en": "in a trustworthy (secure) place",
+    "plain": "in a secure place"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"in loco celebri\"); KJV",
+    "orig": "πιστω] επι- σημω ℵV (Swete's line break)",
+    "en": "in a conspicuous place",
+    "plain": "in a conspicuous place"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings make sense: a decree was meant to be seen, and also kept safe. The Plain follows Swete's base text. <i>Pistos</i>, \"trustworthy\", may also echo the \"faithful prophet\" of 14:41 and Simon's \"loyalty\" (14:35), which could be why one scribe kept it and another changed it to the plainer word.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "15:6",
+  "a": "I permit you",
+  "t": "\"I permit you\": construed, or in the text?",
+  "p": "Alexandrinus has a bare infinitive, \"to strike your own coins\"; Sinaiticus and Venetus add \"and I permit you\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete (the infinitive depends on the grant of 15:5)",
+    "orig": "ποιῆσαι κόμμα ἴδιον",
+    "en": "to make your own coinage",
+    "plain": "I permit you"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV (\"I give thee leave also\")",
+    "orig": "ποιησαι] pr και επετρεψα σοι ℵV",
+    "en": "and I permitted you to make your own coinage",
+    "plain": "And I permit you"
+   }
+  ],
+  "follow": 0,
+  "why": "A's infinitive continues the king's grant of 15:5 (\"I confirm to you…\"), so \"I permit you\" is a fair way to render A. Sinaiticus and Venetus write the verb out. The sense is the same; the entry is here because the Plain's words are exactly those of the other manuscripts.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "15:18",
+  "a": "worth five thousand minas",
+  "t": "Five thousand minas or one thousand?",
+  "p": "Alexandrinus says the gold shield was worth 5,000 minas; Sinaiticus, Venetus, the Latin and the KJV say 1,000, as in 14:24.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἀπὸ μνῶν πεντακισχιλίων",
+    "en": "of five thousand minas",
+    "plain": "worth five thousand minas"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes (the numerals α΄ and ᾳ΄, \"one thousand\", in the first hand and a corrector); Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate; KJV",
+    "orig": "πεντακισχιλιων] α΄ ℵ* ᾳ΄ ℵc.a χιλιων V",
+    "en": "of one thousand minas",
+    "plain": "worth a thousand minas"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text, but this is a close call. 14:24 gives a thousand minas, and the other witnesses agree with it here. In Greek numerals one thousand and five thousand differ by a single letter (α or ε with a thousands mark), so either could be a copyist's slip.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "15:22",
+  "a": "to Ariarathes",
+  "t": "Arathes or Ariarathes?",
+  "p": "Alexandrinus writes \"Arathes\"; Sinaiticus, the Latin and the KJV have the real king's name, Ariarathes. The Plain follows them.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; the Vulgate (\"Ariarathi\"); KJV",
+    "orig": "Αριαραθη ℵ",
+    "en": "to Ariarathes",
+    "plain": "to Ariarathes"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Ἀράθῃ",
+    "en": "to Arathes",
+    "plain": "to Arathes"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The king of Cappadocia was Ariarathes V, known from many sources. Alexandrinus's \"Arathes\" lost a syllable when a scribe's eye jumped from the first -ar- to the second.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "schurer-vermes"
+  ]
+ },
+ {
+  "v": "15:23",
+  "a": "to Sampsames",
+  "t": "Sampsaces, Sampsames or Lampsacus?",
+  "p": "The name is spelled three ways. The Plain follows Sinaiticus, Venetus and the KJV.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; KJV",
+    "orig": "Σαμψαμη ℵV",
+    "en": "to Sampsames",
+    "plain": "to Sampsames"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Σαμψάκῃ",
+    "en": "to Sampsaces",
+    "plain": "to Sampsaces"
+   },
+   {
+    "w": "The Vulgate (\"Lampsaco\"), Douay (\"Lampsacus\")",
+    "en": "to Lampsacus",
+    "plain": "to Lampsacus"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus, which stands alone. No ruler or place called Sampsaces is known. Sampsames may be Amisus (modern Samsun) on the Black Sea; the Latin's Lampsacus, a city on the Hellespont, looks like a correction to a known name. The question cannot be settled.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha",
+   "goldstein-1macc"
+  ]
+ },
+ {
+  "v": "15:30",
+  "a": "outside the borders of Judea",
+  "t": "\"Outside\" in the text, or understood?",
+  "p": "Sinaiticus adds the word \"outside\" (ἐκτός); Alexandrinus says \"the territories beyond Judea\" with a preposition.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τῶν ὁρίων τῶν ἐκ τῆς Ἰουδαίας",
+    "en": "of the territories out of Judea",
+    "plain": "outside the borders of Judea"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes (Venetus also lacks \"the ones from\"); KJV (\"without the borders of Judea\")",
+    "orig": "των οριων] pr εκτος ℵ",
+    "en": "outside the borders of Judea",
+    "plain": "outside the borders of Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "A's phrase is compressed: \"the territories out from Judea\", that is, beyond its borders. Sinaiticus makes it explicit. The English is the same either way, so the Plain does not depend on the choice, but it agrees in wording with Sinaiticus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "15:31",
+  "a": "they will come and make war on you",
+  "t": "Who threatens war?",
+  "p": "Alexandrinus has the king say \"they will come and make war on you\"; Sinaiticus, Venetus, the Latin and the KJV have \"we will come\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "παραγενόμενοι ἐκπολεμήσουσιν ὑμᾶς",
+    "en": "they will come and make war on you",
+    "plain": "they will come and make war on you"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"veniemus, et expugnabimus vos\"); KJV",
+    "orig": "εκπολεμησωμε ℵ -σομιν V",
+    "en": "we will come and make war on you",
+    "plain": "we will come and make war on you"
+   }
+  ],
+  "follow": 0,
+  "why": "In A the threat is of the king's forces (\"they\"); in the others the king speaks for himself and his army (\"we\"). The endings differ by a few letters. The Plain follows Swete's base text.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "15:39",
+  "a": "fortify the towns",
+  "t": "The towns or the gates?",
+  "p": "Alexandrinus says Cendebeus was to fortify the towns; Sinaiticus, Venetus, the Latin and the KJV say the gates.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὀχυρῶσαι τὰς πόλεις",
+    "en": "to fortify the towns",
+    "plain": "fortify the towns"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"obstruere portas civitatis\"); KJV",
+    "orig": "πολεις] πυλας ℵV",
+    "en": "to fortify the gates",
+    "plain": "fortify the gates"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words look alike (πόλεις, πύλας). \"The gates\" would be Kedron's gates, which fits the order to build up Kedron. The Plain follows Swete's base text, but the other reading may well be original.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:8",
+  "a": "They blew the trumpets",
+  "t": "\"The holy trumpets\"",
+  "p": "Venetus and the Latin call them \"holy\" trumpets, and the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus",
+    "orig": "καὶ ἐσάλπισαν ταῖς σάλπιγξιν",
+    "en": "and they blew the trumpets",
+    "plain": "They blew the trumpets"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"sacris tubis\"); KJV",
+    "orig": "σαλ- πιγξ.] pr ιεραις V",
+    "en": "they blew the holy trumpets",
+    "plain": "They blew the holy trumpets"
+   }
+  ],
+  "follow": 0,
+  "why": "The word \"holy\" makes the trumpets the priests' silver trumpets of Numbers 10:9 and 31:6. It could be original or a pious addition; the Plain follows the two older manuscripts.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:10",
+  "a": "About a thousand",
+  "t": "One thousand or two thousand?",
+  "p": "Alexandrinus says about a thousand fell; Sinaiticus, Venetus, the Latin and the KJV say two thousand.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "εἰς ἄνδρας χιλίους",
+    "en": "about a thousand men",
+    "plain": "About a thousand"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"duo millia\"); KJV",
+    "orig": "χιλιους] δισχιλιους ℵV",
+    "en": "about two thousand men",
+    "plain": "About two thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text. The numbers differ only by the prefix δισ- (\"two\"), and nothing in the story decides between them.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:16",
+  "a": "and killed him and his sons",
+  "t": "His sons, or his two sons?",
+  "p": "Sinaiticus, Venetus, the Latin and the KJV say \"his two sons\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ ἀπέκτειναν αὐτὸν καὶ τοὺς υἱοὺς αὐτοῦ",
+    "en": "and killed him and his sons",
+    "plain": "and killed him and his sons"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Codex Venetus (V, 700s AD), in Swete's notes; the Vulgate (\"duos filios ejus\"); KJV",
+    "orig": "υιους] pr δυο ℵV",
+    "en": "and killed him and his two sons",
+    "plain": "and killed him and his two sons"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings mean the same two sons, Mattathias and Judas (16:14). The Plain follows Alexandrinus. Josephus tells a different story, in which two sons were first taken prisoner (see the note).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:17",
+  "a": "a great act of impiety",
+  "t": "Impiety or treachery?",
+  "p": "Alexandrinus calls the murder \"impiety\" (ἀθεία); Sinaiticus, probably Venetus, the Latin and the KJV call it \"treachery\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἀθείαν μεγάλην",
+    "en": "great godlessness",
+    "plain": "a great act of impiety"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; Venetus probably (Swete marks it with a query); the Vulgate (\"deceptionem magnam\"); KJV",
+    "orig": "αθειαν] αθεσιαν ℵV?",
+    "en": "great treachery",
+    "plain": "a great act of treachery"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ by one letter, ἀθεία and ἀθεσία. \"Treachery\" (breaking faith) fits a man who murders his host, and many editors prefer it. \"Impiety\" is the rarer, stronger word and is Swete's base text, so the Plain keeps it; it fits a crime against a high priest. The sense is close either way.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "rahlfs-lxx"
+  ]
+ }
+]

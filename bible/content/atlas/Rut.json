@@ -1,0 +1,164 @@
+{
+  "chapters": {
+    "1": {
+      "places": [
+        "moab-2",
+        "bethlehem"
+      ],
+      "people": [
+        "moab",
+        "chilion",
+        "elimelech",
+        "mahlon",
+        "naomi",
+        "orpah",
+        "ruth-5",
+        "god",
+        "judah"
+      ],
+      "events": []
+    },
+    "2": {
+      "places": [
+        "bethlehem",
+        "moab-2"
+      ],
+      "people": [
+        "boaz",
+        "elimelech",
+        "naomi",
+        "ruth-5",
+        "god",
+        "moab"
+      ],
+      "events": []
+    },
+    "3": {
+      "places": [],
+      "people": [
+        "naomi",
+        "boaz",
+        "ruth-5",
+        "god"
+      ],
+      "events": []
+    },
+    "4": {
+      "places": [
+        "moab-2",
+        "bethlehem",
+        "ephrathah"
+      ],
+      "people": [
+        "boaz",
+        "elimelech",
+        "moab",
+        "naomi",
+        "ruth-5",
+        "chilion",
+        "mahlon",
+        "god",
+        "leah",
+        "rachel",
+        "judah",
+        "pharez",
+        "tamar",
+        "david",
+        "jesse",
+        "obed",
+        "hezron-2",
+        "amminadab",
+        "ram",
+        "nahshon",
+        "salmon"
+      ],
+      "events": []
+    }
+  },
+  "places": {
+    "moab-2": {
+      "name": "Moab",
+      "lat": 31.499159,
+      "lon": 35.780512
+    },
+    "bethlehem": {
+      "name": "Bethlehem",
+      "lat": 31.70431,
+      "lon": 35.20746
+    },
+    "ephrathah": {
+      "name": "Ephrathah",
+      "lat": 31.70536129,
+      "lon": 35.2102663
+    }
+  },
+  "people": {
+    "moab": {
+      "name": "Moab"
+    },
+    "chilion": {
+      "name": "Chilion"
+    },
+    "elimelech": {
+      "name": "Elimelech"
+    },
+    "mahlon": {
+      "name": "Mahlon"
+    },
+    "naomi": {
+      "name": "Naomi"
+    },
+    "orpah": {
+      "name": "Orpah"
+    },
+    "ruth-5": {
+      "name": "Ruth"
+    },
+    "god": {
+      "name": "God"
+    },
+    "judah": {
+      "name": "Judah"
+    },
+    "boaz": {
+      "name": "Boaz"
+    },
+    "leah": {
+      "name": "Leah"
+    },
+    "rachel": {
+      "name": "Rachel"
+    },
+    "pharez": {
+      "name": "Pharez"
+    },
+    "tamar": {
+      "name": "Tamar"
+    },
+    "david": {
+      "name": "David"
+    },
+    "jesse": {
+      "name": "Jesse"
+    },
+    "obed": {
+      "name": "Obed"
+    },
+    "hezron-2": {
+      "name": "Hezron"
+    },
+    "amminadab": {
+      "name": "Amminadab"
+    },
+    "ram": {
+      "name": "Ram"
+    },
+    "nahshon": {
+      "name": "Nahshon"
+    },
+    "salmon": {
+      "name": "Salmon"
+    }
+  },
+  "events": {}
+}

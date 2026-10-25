@@ -1,0 +1,776 @@
+[
+ {
+  "v": "1:1",
+  "a": "After the death of Moses the servant of the LORD",
+  "t": "A shorter Greek text",
+  "p": "The Septuagint lacks \"the servant of the LORD\" here, one of many places where its Joshua is shorter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum, Vulgate",
+    "orig": "אַחֲרֵי מוֹת מֹשֶׁה עֶבֶד יְהוָה",
+    "en": "after the death of Moses the servant of the LORD",
+    "plain": "After the death of Moses the servant of the LORD"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus and most Greek witnesses)",
+    "orig": "μετὰ τὴν τελευτὴν Μωυσῆ",
+    "en": "after the death of Moses",
+    "plain": "After the death of Moses"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, which nearly all English versions follow. The shorter Greek may reflect an older Hebrew text before the title was added, or the translator's habit of trimming repeated titles.",
+  "b": "The Septuagint of Joshua is about four to five percent shorter than the Masoretic Text. Emanuel Tov and others have argued that many of its \"minuses\" go back to a shorter Hebrew text, while the Hebrew we have was expanded by scribes who added titles and repeated phrases (\"Moses the servant of the LORD\" occurs far more often in the Hebrew). Others think the Greek translator shortened his text. The question matters for chapters 5, 6, 8 and 10, where the differences are larger.",
+  "s": [
+   "tov-growth-joshua",
+   "margolis-joshua",
+   "rahlfs-lxx",
+   "vandermeer-joshua"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "From the wilderness and this Lebanon to the great river, the river Euphrates, all the land of the Hittites,",
+  "t": "Lebanon, Antilebanon and the Hittites",
+  "p": "The Greek reads \"the Antilebanon\" and has no \"land of the Hittites.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "מֵהַמִּדְבָּר וְהַלְּבָנוֹן הַזֶּה ... כֹּל אֶרֶץ הַחִתִּים",
+    "en": "from the wilderness and this Lebanon ... all the land of the Hittites",
+    "plain": "From the wilderness and this Lebanon to the great river, the river Euphrates, all the land of the Hittites,"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τὴν ἔρημον καὶ τὸν Ἀντιλίβανον ἕως τοῦ ποταμοῦ τοῦ μεγάλου, ποταμοῦ Εὐφράτου",
+    "en": "the wilderness and the Antilebanon as far as the great river, the river Euphrates",
+    "plain": "From the wilderness and the Antilebanon to the great river, the river Euphrates,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is followed. \"This Lebanon\" is odd, because God speaks as if pointing to a mountain range far to the north of the plains of Moab, though Deuteronomy 34:1–3 does picture a view reaching far north. The Greek may have smoothed the phrase. \"The land of the Hittites\" is missing from the parallel in Deuteronomy 11:24, so some scholars think it was added to the Hebrew later.",
+  "s": [
+   "margolis-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "my sisters",
+  "t": "Sister or sisters?",
+  "p": "The written Hebrew has \"my sister\"; the traditional reading aloud is \"my sisters.\"",
+  "readings": [
+   {
+    "w": "Qere (the reading the Masoretes marked to be read aloud); Septuagint, most versions",
+    "orig": "אַחְיוֹתַי (achyotay)",
+    "en": "my sisters",
+    "plain": "my sisters"
+   },
+   {
+    "w": "Ketiv (the consonants written in the text)",
+    "orig": "אחותי (achoti)",
+    "en": "my sister",
+    "plain": "my sister"
+   }
+  ],
+  "follow": 0,
+  "why": "Rahab names her family in the plural (brothers, sisters) and the Qere matches the list in 6:23. The difference is small and does not change the story.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "at Adam",
+  "t": "At Adam, or from Adam?",
+  "p": "The written Hebrew says the water heaped up \"at Adam\"; the reading aloud says \"from Adam.\" The KJV follows the second.",
+  "readings": [
+   {
+    "w": "Ketiv (written text); most modern versions",
+    "orig": "בָאָדָם (ba-Adam)",
+    "en": "at Adam",
+    "plain": "at Adam"
+   },
+   {
+    "w": "Qere (read aloud); Targum; KJV \"from the city Adam\"",
+    "orig": "מֵאָדָם (me-Adam)",
+    "en": "from Adam",
+    "plain": "from Adam"
+   }
+  ],
+  "follow": 0,
+  "why": "\"At Adam\" names where the water stood in a heap, which fits the place name followed by \"the town beside Zarethan.\" The Qere \"from Adam\" would mean the water was held back over the whole stretch from Adam down. Both place the stoppage far upstream.",
+  "s": [
+   "tov-tchb",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "Joshua set up twelve stones",
+  "t": "The same stones, or other stones?",
+  "p": "The Greek says Joshua set up \"other twelve stones\" in the river, a second memorial besides the one at Gilgal.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וּשְׁתֵּים עֶשְׂרֵה אֲבָנִים הֵקִים יְהוֹשֻׁעַ",
+    "en": "and twelve stones Joshua set up",
+    "plain": "Joshua set up twelve stones"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἔστησεν δὲ Ἰησοῦς καὶ ἄλλους δώδεκα λίθους",
+    "en": "and Joshua set up also other twelve stones",
+    "plain": "Joshua set up another twelve stones"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew does not say whether these are the same twelve stones as in 4:8 and 4:20 or a second set in the riverbed. The Greek, and many readers since, take them as a second memorial; others read 4:9 as another telling of the one memorial. The Plain English keeps the Hebrew and leaves the question open (see the note on 4:9).",
+  "s": [
+   "margolis-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "until they had crossed",
+  "t": "\"They crossed\" or \"we crossed\"?",
+  "p": "The written Hebrew says \"until we had crossed,\" as if the writer had been there. The KJV follows it.",
+  "readings": [
+   {
+    "w": "Qere (read aloud); Septuagint, Targum, Vulgate; most modern versions",
+    "orig": "עָבְרָם (ovram)",
+    "en": "until they had crossed",
+    "plain": "until they had crossed"
+   },
+   {
+    "w": "Ketiv (written text); KJV \"until we were passed over\"",
+    "orig": "עָבְרֵנוּ (ovrenu)",
+    "en": "until we had crossed",
+    "plain": "until we had crossed"
+   }
+  ],
+  "follow": 0,
+  "why": "The context speaks of \"the Israelites\" in the third person, so \"they\" reads smoothly. But the Ketiv \"we\" is the harder reading and may be original: the narrator speaks as one of Israel, as in 5:6 (\"to give us\"). Some traditional readers have heard in it the voice of an eyewitness.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "At that time",
+  "t": "Where did the altar at Ebal stand? (4QJosh-a)",
+  "p": "In the oldest manuscript of Joshua, the altar and the reading of the law (8:30–35) come here, at Gilgal. Goes with 8:30 and 9:2.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Septuagint",
+    "orig": "בָּעֵת הַהִיא",
+    "en": "at that time",
+    "plain": "At that time"
+   },
+   {
+    "w": "4QJosh-a (Dead Sea Scroll from Qumran; dated by its script to about 100–50 BC)",
+    "orig": "(8:34–35 and a joining sentence, then 5:2)",
+    "en": "[the reading of the law, 8:34–35, followed by] at that time",
+    "plain": "[Here 4QJosh-a has the reading of the law, 8:34–35, after the crossing at Gilgal.] At that time"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English keeps the order of the Masoretic Text, since the scroll is fragmentary and the joining words are partly reconstructed. But the evidence is important, and many scholars think the scroll's order may be the oldest.",
+  "b": "Fragments of 4QJosh-a show the end of the law-reading scene (8:34–35) followed by a transition and then the circumcision of 5:2. Eugene Ulrich argued that this was the original setting: Deuteronomy 27:2 commands the stones to be set up \"on the day you cross the Jordan,\" and Gilgal is the first place Israel reached. Josephus has Joshua build an altar right after the crossing (<i>Antiquities</i> 5.20), though he puts the ceremony at Ebal and Gerizim much later (<i>Antiquities</i> 5.69), and the rabbis taught that the stones were set up on the very day of the crossing (Mishnah Sotah 7:5; Bavli Sotah 36a). On this view, the Masoretic Text moved the scene to Mount Ebal (8:30) to obey Deuteronomy 27:4 literally, and the Septuagint placed it later still (after 9:2). The part of the scroll that would show the altar-building verses (8:30–31) is lost, so Ulrich could not be sure they stood here too.",
+  "s": [
+   "ulrich-4qjosha",
+   "djd14-deut",
+   "abegg-dssb",
+   "josephus-ant",
+   "mishnah-sotah"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "circumcise the Israelites again, a second time",
+  "t": "\"Again\" or \"sit\"?",
+  "p": "The Greek reads \"sit down and circumcise,\" with no \"second time.\" The same Hebrew letters can mean \"again\" or \"sit.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וְשׁוּב מֹל אֶת־בְּנֵי־יִשְׂרָאֵל שֵׁנִית",
+    "en": "and again circumcise the Israelites a second time",
+    "plain": "circumcise the Israelites again, a second time"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ καθίσας περίτεμε τοὺς υἱοὺς Ισραηλ",
+    "en": "and sit down and circumcise the sons of Israel",
+    "plain": "sit down and circumcise the Israelites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>shuv</i>, \"again,\" and <i>shev</i>, \"sit,\" are written with the same consonants. The Greek translator, or the Hebrew text he read, took them as \"sit\" and did not have \"a second time.\" The Hebrew fits the explanation in 5:4–7, which assumes an earlier circumcision.",
+  "s": [
+   "tov-growth-joshua",
+   "vandermeer-joshua"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "All the people who came out of Egypt, the males, all the men of fighting age, had died in the wilderness on the way after they came out of Egypt.",
+  "t": "A different explanation in the Greek",
+  "p": "The Greek explains the circumcision differently: some who left Egypt were uncircumcised too. Goes with 5:6.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "כָּל־הָעָם הַיֹּצֵא מִמִּצְרַיִם הַזְּכָרִים ... מֵתוּ בַמִּדְבָּר",
+    "en": "all the people who came out of Egypt, the males ... died in the wilderness",
+    "plain": "All the people who came out of Egypt, the males, all the men of fighting age, had died in the wilderness on the way after they came out of Egypt."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ὅσοι ποτὲ ἐγένοντο ἐν τῇ ὁδῷ καὶ ὅσοι ποτὲ ἀπερίτμητοι ἦσαν τῶν ἐξεληλυθότων ἐξ Αἰγύπτου",
+    "en": "all who had been born on the way, and all of those who came out of Egypt who were uncircumcised",
+    "plain": "He circumcised all who had been born on the way, and all those who had come out of Egypt and were still uncircumcised."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is followed. Its explanation (the circumcised generation died; their sons were never circumcised) fits 5:5–7. The Greek of 5:4–6 is a different, shorter account, which some scholars think goes back to an older Hebrew text and others to the translator's effort to explain \"a second time.\"",
+  "b": "In the Greek, Joshua circumcises both those born in the wilderness and any who came out of Egypt uncircumcised, so that the \"second time\" makes sense even for some adults. Michaël van der Meer and others think the Greek translator reworked a hard passage; Tov and Auld lean toward an older, shorter Hebrew. The Greek also gives forty-two years in the wilderness (5:6).",
+  "s": [
+   "tov-growth-joshua",
+   "vandermeer-joshua",
+   "auld-joshua-retold"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "forty years",
+  "t": "Forty or forty-two years?",
+  "p": "The Greek says Israel wandered forty-two years in the wilderness. Goes with 5:4.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "אַרְבָּעִים שָׁנָה",
+    "en": "forty years",
+    "plain": "forty years"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τεσσαράκοντα καὶ δύο ἔτη",
+    "en": "forty-two years",
+    "plain": "forty-two years"
+   }
+  ],
+  "follow": 0,
+  "why": "Forty years is the number everywhere else (Numbers 14:33–34; Deuteronomy 2:7). The Greek \"forty-two\" may add the two years before the spies were sent (Numbers 10:11; Deuteronomy 2:14 counts thirty-eight from Kadesh), counting the whole time from Egypt to the Jordan in another way.",
+  "s": [
+   "margolis-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "He said, \"No. I am",
+  "t": "\"No\" or \"to him\"?",
+  "p": "The Hebrew lo can be spelled to mean \"no\" or \"to him.\" Some Hebrew manuscripts and the Greek read \"He said to him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (לֹא, \"no\"); KJV \"Nay\"",
+    "orig": "וַיֹּאמֶר לֹא",
+    "en": "He said, \"No.\"",
+    "plain": "He said, \"No. I am"
+   },
+   {
+    "w": "Some Hebrew manuscripts (לוֹ); Septuagint, Syriac",
+    "orig": "וַיֹּאמֶר לוֹ / ὁ δὲ εἶπεν αὐτῷ",
+    "en": "He said to him",
+    "plain": "He said to him, \"I am"
+   }
+  ],
+  "follow": 0,
+  "why": "\"No\" is the harder and more striking reading: the commander refuses to take sides. The two Hebrew words sound the same and are often confused by scribes, so the change to \"to him\" is easy to explain.",
+  "s": [
+   "tov-tchb",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "6:18",
+  "a": "or you will put things under the ban and then take some of them",
+  "t": "\"Put under the ban\" or \"covet\"?",
+  "p": "The Greek reads \"or you will covet and take,\" which fits Achan's \"I craved them and took them\" (7:21).",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "פֶּן־תַּחֲרִימוּ וּלְקַחְתֶּם",
+    "en": "lest you devote to destruction and take",
+    "plain": "or you will put things under the ban and then take some of them"
+   },
+   {
+    "w": "Septuagint; adopted by NRSV and some others",
+    "orig": "μήποτε ἐνθυμηθέντες ὑμεῖς λάβητε (Hebrew תַּחְמְדוּ)",
+    "en": "lest you covet and take",
+    "plain": "or you will covet and then take some of them"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew verbs (<i>tacharimu</i>, \"you put under the ban,\" and <i>tachmedu</i>, \"you covet\") differ by two similar letters. The Greek reading is attractive because Achan says \"I craved them and took them\" (7:21), and some scholars prefer it. The Hebrew, though harder, makes sense: to destroy the town and then keep some of its goods would be to treat as yours what you had given to God.",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "6:26",
+  "a": "With his firstborn he will lay its foundation, and with his youngest he will hang its gates.\"",
+  "t": "The Greek adds the fulfillment",
+  "p": "The Septuagint adds that a man of Bethel later did this and lost his sons, as 1 Kings 16:34 reports.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "בִּבְכֹרוֹ יְיַסְּדֶנָּה וּבִצְעִירוֹ יַצִּיב דְּלָתֶיהָ",
+    "en": "with his firstborn he shall found it, and with his youngest he shall set up its gates",
+    "plain": "With his firstborn he will lay its foundation, and with his youngest he will hang its gates.\""
+   },
+   {
+    "w": "Septuagint",
+    "orig": "... καὶ οὕτως ἐποίησεν Οζαν ὁ ἐκ Βαιθηλ· ἐν τῷ Αβιρων τῷ πρωτοτόκῳ ἐθεμελίωσεν αὐτὴν καὶ ἐν τῷ ἐλαχίστῳ διασωθέντι ἐπέστησεν τὰς πύλας αὐτῆς",
+    "en": "... And so did Ozan of Bethel: with Abiram his firstborn he laid its foundation, and with his youngest surviving son he set up its gates",
+    "plain": "With his firstborn he will lay its foundation, and with his youngest he will hang its gates.\" And so Ozan of Bethel did: with Abiram his firstborn he laid its foundation, and with his youngest surviving son he set up its gates."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is almost certainly drawn from 1 Kings 16:34 (where the man is called Hiel of Bethel) to show the curse coming true. The Hebrew of Joshua, with no such addition, is followed.",
+  "b": "A Dead Sea Scroll known as 4QTestimonia (4Q175), a short collection of proof texts, quotes Joshua 6:26 and applies it to a \"man of Belial\" who rebuilt Jericho in the writer's own day, probably one of the Hasmonean rulers. Another scroll, the Apocryphon of Joshua (4Q379), uses the verse in a similar way. The curse was clearly read as a living prophecy.",
+  "s": [
+   "margolis-joshua",
+   "vermes-dss",
+   "tov-growth-joshua"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "Achan son of Carmi, son of Zabdi",
+  "t": "Achan or Achar?",
+  "p": "The Greek and 1 Chronicles call him Achar, \"Trouble,\" and his grandfather Zimri.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Joshua",
+    "orig": "עָכָן בֶּן־כַּרְמִי בֶן־זַבְדִּי",
+    "en": "Achan son of Carmi, son of Zabdi",
+    "plain": "Achan son of Carmi, son of Zabdi"
+   },
+   {
+    "w": "Septuagint of Joshua (Ἀχαρ ... Ζαμβρι); compare 1 Chronicles 2:6–7 (Hebrew Achar, Zimri)",
+    "orig": "Αχαρ υἱὸς Χαρμι υἱοῦ Ζαμβρι",
+    "en": "Achar son of Carmi, son of Zambri",
+    "plain": "Achar son of Carmi, son of Zimri"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Achan\" is the Hebrew reading throughout Joshua 7. \"Achar\" matches the pun on the Valley of Achor and the verb \"to trouble\" (7:25–26), and 1 Chronicles 2:7 calls him \"Achar, the troubler of Israel.\" Some scholars think Achar was the original name and Achan a copying error; others that Achar is a nickname made from the story.",
+  "s": [
+   "nelson-joshua",
+   "hess-joshua"
+  ]
+ },
+ {
+  "v": "7:17",
+  "a": "man by man",
+  "t": "Man by man, or household by household?",
+  "p": "Some Hebrew manuscripts and the Syriac read \"household by household,\" as the procedure of 7:14 would lead us to expect.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לַגְּבָרִים",
+    "en": "by men",
+    "plain": "man by man"
+   },
+   {
+    "w": "Some Hebrew manuscripts; Syriac",
+    "orig": "לַבָּתִּים",
+    "en": "by households",
+    "plain": "household by household"
+   }
+  ],
+  "follow": 0,
+  "why": "In 7:14 the order is tribe, clan, household, man. \"Household by household\" fits that order, and the Hebrew may have slipped toward the \"man by man\" of 7:18. The leading manuscript is kept, but many commentators prefer the other reading.",
+  "s": [
+   "nelson-joshua",
+   "butler-joshua"
+  ]
+ },
+ {
+  "v": "8:12",
+  "a": "He took about five thousand men and set them in ambush between Bethel and Ai, west of the town.",
+  "t": "A second ambush missing in Greek",
+  "p": "The Septuagint lacks 8:12–13 (and the end of 8:11), and so has only one ambush. Goes with 8:13.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיִּקַּח כַּחֲמֵשֶׁת אֲלָפִים אִישׁ",
+    "en": "he took about five thousand men...",
+    "plain": "He took about five thousand men and set them in ambush between Bethel and Ai, west of the town."
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus and the Old Greek)",
+    "orig": "(lacking)",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew. Many scholars think the shorter Greek reflects an older Hebrew text, and that 8:12–13 were added to the Hebrew to make room for a second account of the ambush with a different number (five thousand instead of thirty thousand, 8:3).",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua",
+   "butler-joshua"
+  ]
+ },
+ {
+  "v": "8:13",
+  "a": "So they placed the people, the whole camp north of the town and its rear guard west of the town. That night Joshua went into the middle of the valley.",
+  "t": "Missing in Greek",
+  "p": "The Septuagint lacks this verse too. Goes with 8:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיָּשִׂימוּ הָעָם",
+    "en": "and they set the people...",
+    "plain": "So they placed the people, the whole camp north of the town and its rear guard west of the town. That night Joshua went into the middle of the valley."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(lacking)",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 8:12.",
+  "s": [
+   "tov-growth-joshua"
+  ]
+ },
+ {
+  "v": "8:17",
+  "a": "No man in Ai or Bethel stayed behind",
+  "t": "\"And Bethel\"",
+  "p": "The Septuagint lacks \"and Bethel.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "בָּעַי וּבֵית אֵל",
+    "en": "in Ai and Bethel",
+    "plain": "No man in Ai or Bethel stayed behind"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἐν Γαι",
+    "en": "in Ai",
+    "plain": "No man in Ai stayed behind"
+   }
+  ],
+  "follow": 0,
+  "why": "Bethel plays no other part in the battle, and many scholars think the words were added to the Hebrew, perhaps to explain why Bethel's king appears among the defeated (12:16). The Hebrew is followed, with this caution.",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "Joshua did not lower the hand he had stretched out holding the javelin until he had put all who lived in Ai under the ban.",
+  "t": "A verse missing in Greek",
+  "p": "The Septuagint lacks this whole verse about Joshua's outstretched hand.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וִיהוֹשֻׁעַ לֹא־הֵשִׁיב יָדוֹ",
+    "en": "Joshua did not draw back his hand...",
+    "plain": "Joshua did not lower the hand he had stretched out holding the javelin until he had put all who lived in Ai under the ban."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(lacking)",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse may be original and dropped in the Greek, or added in the Hebrew to strengthen the link with Moses' raised hands (Exodus 17:11–12). The Plain English follows the Hebrew.",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "8:30",
+  "a": "Then Joshua built an altar to the LORD, the God of Israel, on Mount Ebal,",
+  "t": "Three places for one scene",
+  "p": "The altar and law-reading (8:30–35) stand here in the Hebrew, after 9:2 in the Greek, and before 5:2 in 4QJosh-a.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Vulgate; most English versions",
+    "orig": "אָז יִבְנֶה יְהוֹשֻׁעַ מִזְבֵּחַ",
+    "en": "then Joshua built an altar",
+    "plain": "Then Joshua built an altar to the LORD, the God of Israel, on Mount Ebal,"
+   },
+   {
+    "w": "Septuagint (8:30–35 placed after 9:2)",
+    "orig": "(at 9:2a–f)",
+    "en": "(the passage comes after 9:2)",
+    "plain": "[In the Greek, 8:30–35 comes after 9:2.]"
+   },
+   {
+    "w": "4QJosh-a (Qumran; dated by its script to about 100–50 BC)",
+    "orig": "(before 5:2)",
+    "en": "(the passage comes after the crossing, before 5:2)",
+    "plain": "[In 4QJosh-a, at least the reading of the law (8:34–35) comes right after the crossing, before 5:2; whether the altar verses stood there too is lost.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English keeps the Masoretic order. But a passage that \"floats\" to three places in three ancient witnesses is a strong sign that it was added to the book after the surrounding stories were already joined. Its link with Deuteronomy 27 is so close that most scholars see it as a Deuteronomistic insertion.",
+  "b": "Where the scene sits changes its meaning. In the Hebrew, Israel goes to Shechem after taking Ai, which raises the geographic problem (Shechem is some 20 miles north, in land not yet taken). In the Greek, it comes after the kings band together (9:1–2), as a covenant renewal before the next wars. In 4QJosh-a, it comes first, at Gilgal, \"on the day you cross the Jordan\" (Deuteronomy 27:2), and the altar is not on Ebal at all. Josephus and the rabbis knew traditions of an altar right after the crossing, though Josephus still puts the Ebal ceremony later (<i>Antiquities</i> 5.20, 5.69). Some scholars, like Eugene Ulrich, think 4QJosh-a preserves the oldest form; others, like Michaël van der Meer, think it is a later rearrangement.",
+  "s": [
+   "ulrich-4qjosha",
+   "djd14-deut",
+   "tov-growth-joshua",
+   "vandermeer-joshua",
+   "auld-joshua-retold"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "They gathered together as one to fight against Joshua and Israel.",
+  "t": "The Greek places the altar here",
+  "p": "In the Septuagint the altar on Ebal and the reading of the law (8:30–35) follow this verse. Goes with 8:30.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיִּתְקַבְּצוּ יַחְדָּו",
+    "en": "they gathered together",
+    "plain": "They gathered together as one to fight against Joshua and Israel."
+   },
+   {
+    "w": "Septuagint (9:2a–f)",
+    "orig": "... Τότε ᾠκοδόμησεν Ἰησοῦς θυσιαστήριον",
+    "en": "... Then Joshua built an altar...",
+    "plain": "They gathered together as one to fight against Joshua and Israel. [Here the Greek continues with 8:30–35: Joshua builds the altar on Mount Ebal and reads the law to all Israel.]"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 8:30.",
+  "s": [
+   "tov-growth-joshua",
+   "margolis-joshua"
+  ]
+ },
+ {
+  "v": "9:4",
+  "a": "They went and disguised themselves as envoys.",
+  "t": "Envoys or provisions?",
+  "p": "The Hebrew says they \"posed as envoys.\" Several Hebrew manuscripts and the ancient versions read \"they got provisions.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; KJV \"made as if they had been ambassadors\"",
+    "orig": "וַיִּצְטַיָּרוּ",
+    "en": "they made themselves envoys",
+    "plain": "They went and disguised themselves as envoys."
+   },
+   {
+    "w": "Some Hebrew manuscripts (וַיִּצְטַיָּדוּ); Septuagint, Vulgate, Syriac, Targum",
+    "orig": "וַיִּצְטַיָּדוּ / ἐπεσιτίσαντο",
+    "en": "they took provisions",
+    "plain": "They went and got provisions ready."
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs differ by one letter (<i>resh</i> and <i>dalet</i> look alike in Hebrew). \"Got provisions\" matches 9:12, where the same root is used of the bread, and many modern versions follow it. \"Disguised as envoys\" is rarer but fits the whole trick. The Plain English keeps the Hebrew.",
+  "s": [
+   "tov-tchb",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "Adoni-zedek",
+  "t": "Adoni-zedek or Adonibezek?",
+  "p": "The Greek calls the king of Jerusalem Adonibezek, the name of the king captured in Judges 1:5–7.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "אֲדֹנִי־צֶדֶק",
+    "en": "Adoni-zedek",
+    "plain": "Adoni-zedek"
+   },
+   {
+    "w": "Septuagint (also at 10:3)",
+    "orig": "Ἀδωνιβεζεκ",
+    "en": "Adonibezek",
+    "plain": "Adonibezek"
+   }
+  ],
+  "follow": 0,
+  "why": "Adoni-zedek, \"my lord is righteous\" (or \"my lord is Zedek,\" a god's name), fits a Jerusalem king, like Melchizedek (Genesis 14:18). The Greek may have been made to match Judges 1:5–7, where Adonibezek is brought to Jerusalem. Some scholars think the two stories once told of the same king. The Hebrew is followed.",
+  "s": [
+   "nelson-joshua",
+   "butler-joshua",
+   "boling-joshua"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "until the nation took revenge on its enemies",
+  "t": "The nation, or God?",
+  "p": "The Greek says the sun stood still \"until God took vengeance on their enemies.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "עַד־יִקֹּם גּוֹי אֹיְבָיו",
+    "en": "until a nation avenged itself on its enemies",
+    "plain": "until the nation took revenge on its enemies"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἕως ἠμύνατο ὁ θεὸς τοὺς ἐχθροὺς αὐτῶν",
+    "en": "until God took vengeance on their enemies",
+    "plain": "until God took revenge on their enemies"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the nation, Israel, take revenge, with no article, as poetry often does. The Greek makes God the one who acts, which fits 10:14 (\"the LORD fought for Israel\"). It may reflect a different Hebrew text or the translator's theology. The Hebrew is followed.",
+  "s": [
+   "margolis-joshua",
+   "nelson-joshua",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "Is this not written in the Book of Jashar?",
+  "t": "The Book of Jashar missing in Greek",
+  "p": "The Septuagint does not mention the Book of Jashar.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "הֲלֹא־הִיא כְתוּבָה עַל־סֵפֶר הַיָּשָׁר",
+    "en": "Is it not written in the Book of Jashar?",
+    "plain": "Is this not written in the Book of Jashar?"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is followed. The citation may have been added in the Hebrew from a scribe who knew the poem's source, or dropped by the Greek translator. The Greek of 1 Kings 8:53 (8:12–13 in the Hebrew) refers to a \"book of song.\"",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "10:15",
+  "a": "Then Joshua returned, and all Israel with him, to the camp at Gilgal.",
+  "t": "A verse missing in Greek",
+  "p": "The Septuagint lacks this verse, which repeats 10:43 and seems out of place. Goes with 10:43.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיָּשָׁב יְהוֹשֻׁעַ",
+    "en": "and Joshua returned...",
+    "plain": "Then Joshua returned, and all Israel with him, to the camp at Gilgal."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(lacking)",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, but the Greek's lack of 10:15 solves the problem that Joshua is still at Makkedah in 10:21. Many scholars think the Hebrew verse was copied in from 10:43.",
+  "s": [
+   "tov-growth-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "10:43",
+  "a": "Then Joshua returned, and all Israel with him, to the camp at Gilgal.",
+  "t": "Also missing in Greek",
+  "p": "The Septuagint lacks this verse as well. Goes with 10:15.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיָּשָׁב יְהוֹשֻׁעַ",
+    "en": "and Joshua returned...",
+    "plain": "Then Joshua returned, and all Israel with him, to the camp at Gilgal."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(lacking)",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See 10:15. Here the verse fits its place, closing the southern campaign, so its absence in Greek is harder to explain; it may be part of a wider pattern of the Greek dropping repeated formulas.",
+  "s": [
+   "tov-growth-joshua"
+  ]
+ },
+ {
+  "v": "12:23",
+  "a": "the king of Goiim in Gilgal",
+  "t": "Gilgal or Galilee?",
+  "p": "The Greek reads \"the king of the nations of Galilee.\" Some modern versions follow it.",
+  "readings": [
+   {
+    "w": "Masoretic Text; KJV \"the king of the nations of Gilgal\"",
+    "orig": "מֶלֶךְ־גּוֹיִם לְגִלְגָּל",
+    "en": "the king of Goiim at Gilgal",
+    "plain": "the king of Goiim in Gilgal"
+   },
+   {
+    "w": "Septuagint; NRSV and others",
+    "orig": "... τῆς Γαλιλαίας",
+    "en": "the king of Goim of Galilee",
+    "plain": "the king of the nations of Galilee"
+   }
+  ],
+  "follow": 0,
+  "why": "Gilgal and Galilee (<i>Galil</i>) differ by little in Hebrew. A Gilgal in the far north is otherwise unknown, so \"Galilee\" is attractive, and it matches Isaiah's \"Galilee of the nations\" (Isaiah 9:1). The Hebrew is kept here as the harder reading, with the doubt noted.",
+  "s": [
+   "margolis-joshua",
+   "nelson-joshua"
+  ]
+ },
+ {
+  "v": "12:24",
+  "a": "In all, thirty-one kings.",
+  "t": "Thirty-one or twenty-nine?",
+  "p": "The main Greek manuscripts total twenty-nine kings, and their list differs in some names.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "כָּל־מְלָכִים שְׁלֹשִׁים וְאֶחָד",
+    "en": "all the kings, thirty-one",
+    "plain": "In all, thirty-one kings."
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus)",
+    "orig": "πάντες οὗτοι βασιλεῖς εἴκοσι ἐννέα",
+    "en": "all these kings, twenty-nine",
+    "plain": "In all, twenty-nine kings."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew list names thirty-one kings, and its total matches. Codex Vaticanus has no king of Bethel (12:16) and joins Aphek and \"Sharon\" into one king (12:18), which takes thirty-one down to twenty-nine; several other names are garbled. The Hebrew \"Lasharon\" may itself be a misreading of \"of the Sharon,\" which would support the Greek joining. The Hebrew is followed.",
+  "s": [
+   "margolis-joshua",
+   "butler-joshua"
+  ]
+ }
+]

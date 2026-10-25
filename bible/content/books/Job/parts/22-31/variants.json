@@ -1,0 +1,519 @@
+[
+ {
+  "v": "22:11",
+  "a": "or a darkness you cannot see through",
+  "t": "\"Or darkness\" or \"your light turned dark\"?",
+  "p": "The Hebrew begins \"or darkness\"; the Greek reads \"the light turned to darkness for you.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אוֹ־חֹשֶׁךְ לֹא־תִרְאֶה",
+    "en": "or darkness, you will not see",
+    "plain": "or a darkness you cannot see through"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); adopted by Dhorme, Pope and others as reflecting Hebrew אוֹרְךָ חָשַׁךְ",
+    "orig": "τὸ φῶς σοι σκότος ἀπέβη",
+    "en": "the light turned to darkness for you",
+    "plain": "your light has turned to darkness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is abrupt but makes sense as one more image of the dread in 22:10. The Greek may be a smoother guess or may preserve a better Hebrew text; the evidence is evenly balanced, so the Plain keeps the Masoretic Text.",
+  "s": [
+   "rahlfs-lxx",
+   "dhorme-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "22:17",
+  "a": "would ever do to them",
+  "t": "\"To them\" or \"to us\"?",
+  "p": "The Hebrew says \"what can the Almighty do to them\"; the Greek and Syriac have \"to us.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וּמַה־יִּפְעַל שַׁדַּי לָמוֹ",
+    "en": "and what can the Almighty do to them?",
+    "plain": "would ever do to them"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); Syriac Peshitta (as reported by Clines); most modern English versions",
+    "orig": "τί ἐπάξεται ἡμῖν ὁ παντοκράτωρ",
+    "en": "what will the Almighty bring on us?",
+    "plain": "would ever do to us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew shifts from quoted speech (\"Go away from us\") to reported speech (\"to them\"), which is natural in Hebrew poetry. The Plain makes the second line reported speech so that \"them\" reads naturally. The Greek and Syriac make both lines direct speech; they may be smoothing the text.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "23:2",
+  "a": "Still today my complaint is defiant",
+  "t": "Defiant or bitter?",
+  "p": "The Hebrew reads \"rebellion\"; the Syriac, Targum and Vulgate read \"bitter.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מְרִי שִׂחִי",
+    "en": "my complaint is rebellion",
+    "plain": "Still today my complaint is defiant"
+   },
+   {
+    "w": "Syriac Peshitta, Targum of Job, Latin Vulgate (\"in amaritudine\"), as reported in the commentaries; not checked directly",
+    "orig": "מַר שִׂחִי (reconstructed)",
+    "en": "my complaint is bitter",
+    "plain": "Still today my complaint is bitter"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Rebellion\" is the harder reading, and scribes and translators tend to make hard readings easier. It also fits Job's refusal to soften his protest.",
+  "s": [
+   "clines-job",
+   "gordis-job",
+   "targum-job"
+  ]
+ },
+ {
+  "v": "23:2",
+  "a": "his hand lies heavy on me, though I groan",
+  "t": "His hand or my hand?",
+  "p": "The Hebrew says \"my hand is heavy on my groaning\"; the Greek and Syriac say \"his hand,\" and the Vulgate \"the hand of my wound.\" The Plain follows the Greek.",
+  "readings": [
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); Syriac Peshitta (as reported); most modern versions",
+    "orig": "ἡ χεὶρ αὐτοῦ βαρεῖα γέγονεν ἐπ᾽ ἐμῷ στεναγμῷ",
+    "en": "his hand has become heavy on my groaning",
+    "plain": "his hand lies heavy on me, though I groan"
+   },
+   {
+    "w": "Latin Vulgate (Clementine text, checked on sacred-texts.com)",
+    "orig": "manus plagæ meæ aggravata est super gemitum meum",
+    "en": "the hand of my wound (the blow that struck me) weighs on my groaning",
+    "plain": "the hand that struck me lies heavy on me, though I groan"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יָדִי כָּבְדָה עַל־אַנְחָתִי",
+    "en": "my hand is heavy on my groaning",
+    "plain": "my hand presses down on my groaning"
+   }
+  ],
+  "follow": 0,
+  "why": "\"His hand\" (yado) and \"my hand\" (yadi) differ by one stroke in Hebrew script, a common confusion. God's heavy hand is a set phrase (13:21; 33:7; Psalm 32:4), and the Greek is clear. The Masoretic Text can be explained (Job holds back his groans, or his own wound weighs on him), so its reading is shown here. The Vulgate's \"hand of my wound\" points the same way: the hand is the blow that falls on Job, not his own. The Old Greek's first line of the verse is quite different from the Hebrew and is not followed.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "dhorme-job"
+  ]
+ },
+ {
+  "v": "23:12",
+  "a": "more than my own portion",
+  "t": "\"More than my portion\" or \"in my bosom\"?",
+  "p": "The Hebrew says Job prized God's words above his allotted portion; the Greek says he hid them in his bosom.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מֵחֻקִּי צָפַנְתִּי",
+    "en": "more than my portion I have treasured",
+    "plain": "more than my own portion"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); Latin Vulgate (\"in sinu meo\")",
+    "orig": "ἐν δὲ κόλπῳ μου ἔκρυψα ῥήματα αὐτοῦ",
+    "en": "in my bosom I hid his words",
+    "plain": "in my bosom"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter (mem or bet). The Hebrew makes sense, since \"my portion\" can mean daily food (Proverbs 30:8). Many scholars prefer the Greek; the Plain stays with the Masoretic Text.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "24:12",
+  "a": "yet God takes no notice of the wrong",
+  "t": "\"The wrong\" or \"their prayer\"?",
+  "p": "The Hebrew says God does not count the offense; the Syriac reads \"God does not hear their prayer.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וֶאֱלוֹהַּ לֹא־יָשִׂים תִּפְלָה",
+    "en": "and God does not set (regard) the offense",
+    "plain": "yet God takes no notice of the wrong"
+   },
+   {
+    "w": "Syriac Peshitta, with tefillah, \"prayer\" (as reported by Dhorme and Clines; not checked directly)",
+    "orig": "תְּפִלָּה (tefillah)",
+    "en": "and God does not hear prayer",
+    "plain": "yet God does not listen to their prayer"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word tiflah, \"what is unfitting,\" is rare but appears in 1:22 as well; the Syriac reading may be an easier guess. Both readings make the same charge against God.",
+  "s": [
+   "clines-job",
+   "dhorme-job"
+  ]
+ },
+ {
+  "v": "27:18",
+  "a": "Like a moth",
+  "t": "Moth or spider?",
+  "p": "The Hebrew compares the wicked man's house to a moth's; the Greek has moth and spider, the Syriac spider.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בָּנָה כָעָשׁ בֵּיתוֹ",
+    "en": "he builds his house like the moth",
+    "plain": "Like a moth"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org) (moths and a spider); Syriac Peshitta (spider, as reported)",
+    "orig": "ὥσπερ σῆτες καὶ ὥσπερ ἀράχνη",
+    "en": "like moths and like a spider",
+    "plain": "Like a spider"
+   }
+  ],
+  "follow": 0,
+  "why": "A moth's cocoon is a fine picture of a fragile house, and the Masoretic Text is not hard. The Greek's double image may combine two readings. The spider appears in 8:14, so a scribe could have been influenced either way.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "27:19",
+  "a": "but there will be no next time",
+  "t": "\"Not again\" or \"not gathered\"?",
+  "p": "The Plain follows the Greek and Syriac, \"he will not do it again.\" The Hebrew reads \"he will not be gathered.\"",
+  "readings": [
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); Syriac Peshitta (as reported); most modern versions",
+    "orig": "οὐ προσθήσει (= Hebrew לֹא יוֹסִף)",
+    "en": "he will not add (do it again)",
+    "plain": "but there will be no next time"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וְלֹא יֵאָסֵף",
+    "en": "and he will not be gathered",
+    "plain": "but he will not be gathered"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew words are very close (yosif and ye'asef). \"Not again\" makes clear sense with the next line: he lies down rich, but there is no next morning for him. \"Not gathered\" would mean, most likely, not gathered to his fathers, that is, not given an honored burial with his ancestors (compare 2 Kings 22:20), or else that his wealth is not gathered in. It can be defended, but fits the line less well.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "dhorme-job"
+  ]
+ },
+ {
+  "v": "28:13",
+  "a": "No human knows what it is worth",
+  "t": "Its worth or its way?",
+  "p": "The Hebrew says no one knows wisdom's value; the Greek says no one knows its way.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לֹא־יָדַע אֱנוֹשׁ עֶרְכָּהּ",
+    "en": "a human does not know its value",
+    "plain": "No human knows what it is worth"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org)",
+    "orig": "οὐκ οἶδεν βροτὸς ὁδὸν αὐτῆς",
+    "en": "a mortal does not know its way",
+    "plain": "No human knows the way to it"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek matches 28:23 (\"God grasps the way to it\") and the poem's theme of where wisdom is, and many scholars adopt it. But \"its value\" prepares for the list of prices in 28:15–19, and it is the harder reading. The Plain keeps the Masoretic Text.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "29:18",
+  "a": "and I will make my days as many as the sand",
+  "t": "Sand, phoenix or palm?",
+  "p": "The Hebrew chol is \"sand\"; rabbinic tradition read \"phoenix\"; the Greek has \"the trunk of a palm tree.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (most translations)",
+    "orig": "וְכַחוֹל אַרְבֶּה יָמִים",
+    "en": "and like the sand I will multiply days",
+    "plain": "and I will make my days as many as the sand"
+   },
+   {
+    "w": "Rabbinic tradition (Genesis Rabbah 19:5; Talmud Sanhedrin 108b): chol as the phoenix",
+    "orig": "חוֹל (the phoenix bird)",
+    "en": "like the phoenix I will multiply days",
+    "plain": "and like the phoenix I will make my days many"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org)",
+    "orig": "ὥσπερ στέλεχος φοίνικος πολὺν χρόνον βιώσω",
+    "en": "like the trunk of a palm tree I will live a long time",
+    "plain": "and like the trunk of a palm tree I will live a long time"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Sand\" is the plain meaning of the word and a common picture of countless numbers. The phoenix reading fits \"die in my nest\" and has old support; the Greek's word phoinix (palm, also phoenix) may reflect the same tradition. The Plain keeps the common reading.",
+  "s": [
+   "genesis-rabbah",
+   "bavli-sanhedrin",
+   "rahlfs-lxx",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "30:11",
+  "a": "He has slackened my cord",
+  "t": "My cord or his?",
+  "p": "Both readings belong to the Masoretic Text: the written consonants (Ketiv) say \"his cord,\" the reading tradition (Qere) \"my cord.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretic reading tradition, Leningrad Codex vowels)",
+    "orig": "יִתְרִי פִתַּח",
+    "en": "he has loosened my cord (bowstring or tent cord)",
+    "plain": "He has slackened my cord"
+   },
+   {
+    "w": "Ketiv (the written consonants of the Masoretic Text)",
+    "orig": "יִתְרוֹ פִתַּח",
+    "en": "he has loosened his cord",
+    "plain": "He has slackened his cord"
+   }
+  ],
+  "follow": 0,
+  "why": "With \"my cord,\" God has slackened Job's bowstring or the cord of his tent, taking away his strength (contrast 29:20; 4:21). With \"his cord,\" the verb is still singular: God has loosened his own restraint on Job, or the mob, taken as one body, has thrown off its restraint, as in the next line. The Plain follows the Qere, which is the Masoretic reading, so this is not a departure from the Masoretic Text.",
+  "s": [
+   "clines-job",
+   "gordis-job"
+  ]
+ },
+ {
+  "v": "30:18",
+  "a": "With great force my clothes are pulled out of shape",
+  "t": "Disfigured or seized?",
+  "p": "The Hebrew says Job's garment is disfigured; the Greek says God seized his robe.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּרָב־כֹּחַ יִתְחַפֵּשׂ לְבוּשִׁי",
+    "en": "by great force my garment disguises itself",
+    "plain": "With great force my clothes are pulled out of shape"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); followed by many modern versions",
+    "orig": "ἐν πολλῇ ἰσχύι ἐπελάβετό μου τῆς στολῆς",
+    "en": "with great strength he took hold of my robe",
+    "plain": "With great force he grabs hold of my clothes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is strange but can describe a body so wasted or swollen that the clothes no longer fit. The Greek gives an easier sense and fits 30:19, where God throws Job into the mud. The Plain keeps the Masoretic Text and shows the Greek.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "30:20",
+  "a": "you just look me over",
+  "t": "You look, or you do not look?",
+  "p": "Most Hebrew manuscripts say God \"looks at\" Job; one manuscript and the Vulgate add \"not.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַתִּתְבֹּנֶן בִּי",
+    "en": "and you consider me",
+    "plain": "you just look me over"
+   },
+   {
+    "w": "One Hebrew manuscript (as reported in BHS); Latin Vulgate (\"et non respicis me\"); KJV supplies \"not\"",
+    "orig": "וְלֹא תִּתְבֹּנֶן בִּי (reconstructed)",
+    "en": "and you do not consider me",
+    "plain": "you do not even look at me"
+   }
+  ],
+  "follow": 0,
+  "why": "The negative looks like a copy of the first line's \"not.\" Without it the line is harsher: God watches and does nothing. The Masoretic Text has the stronger support.",
+  "s": [
+   "bhs-elliger",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "30:22",
+  "a": "you dissolve me in the crashing storm",
+  "t": "The crash of the storm or my success?",
+  "p": "The written consonants suggest \"crash, roar\"; the reading tradition reads \"success.\"",
+  "readings": [
+   {
+    "w": "Ketiv (written consonants) read as teshu'ah, \"crash\" (as in 36:29); most modern versions",
+    "orig": "תְּשֻׁוָּה",
+    "en": "you melt me in the crash",
+    "plain": "you dissolve me in the crashing storm"
+   },
+   {
+    "w": "Qere (Masoretic reading tradition); KJV \"dissolvest my substance\"",
+    "orig": "תּוּשִׁיָּה (tushiyyah)",
+    "en": "you melt away (my) success",
+    "plain": "you dissolve all my success"
+   }
+  ],
+  "follow": 0,
+  "why": "The storm image runs through the verse, and teshu'ah means the crash of a storm in 36:29. The Qere's \"success\" is possible but leaves the verb without a natural object.",
+  "s": [
+   "clines-job",
+   "dhorme-job"
+  ]
+ },
+ {
+  "v": "30:24",
+  "a": "Surely, from the rubble, a man stretches out his hand",
+  "t": "A cry for help or a wish to die?",
+  "p": "The Hebrew is obscure. The Greek turns the verse into Job's wish that he could take his own life.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (as most modern scholars read it)",
+    "orig": "אַךְ לֹא־בְעִי יִשְׁלַח־יָד",
+    "en": "surely in a ruin one stretches out a hand",
+    "plain": "Surely, from the rubble, a man stretches out his hand"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org)",
+    "orig": "εἰ γὰρ ὄφελον δυναίμην ἐμαυτὸν χειρώσασθαι ἢ δεηθείς γε ἑτέρου καὶ ποιήσει μοι τοῦτο",
+    "en": "if only I could lay hands on myself, or ask another, and he would do this for me",
+    "plain": "If only I could lay hands on myself, or ask another to do it for me!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the Hebrew differently or guessed at it. The Hebrew, though hard, fits the context of a cry for help (30:20, 28).",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "31:33",
+  "a": "if I have hidden my wrongs as Adam did",
+  "t": "\"As Adam\" or \"unwillingly\"?",
+  "p": "The Hebrew has \"like Adam\" (or \"as people do\"); the Greek reads \"if I sinned unwillingly and hid my sin.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אִם־כִּסִּיתִי כְאָדָם פְּשָׁעָי",
+    "en": "if I covered like Adam (or: like humans) my transgressions",
+    "plain": "if I have hidden my wrongs as Adam did"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org)",
+    "orig": "εἰ δὲ καὶ ἁμαρτὼν ἀκουσίως ἔκρυψα τὴν ἁμαρτίαν μου",
+    "en": "if, having sinned unwillingly, I hid my sin",
+    "plain": "if I sinned without meaning to and hid my sin"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to paraphrase. The Hebrew ke'adam is clear in its letters; the debate is only whether it means Adam or people in general (see the note).",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "22:20",
+  "a": "those who rose against us are wiped out",
+  "t": "\"Our adversaries\" or \"their substance\"?",
+  "p": "The Hebrew says \"our adversaries\" are destroyed; the Greek says \"their substance has vanished.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אִם־לֹא נִכְחַד קִימָנוּ",
+    "en": "surely our adversary is destroyed",
+    "plain": "those who rose against us are wiped out"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org); adopted by Dhorme and others as reflecting Hebrew קִימָם, \"their substance\"",
+    "orig": "εἰ μὴ ἠφανίσθη ἡ ὑπόστασις αὐτῶν",
+    "en": "has not their substance vanished?",
+    "plain": "all they owned is wiped out"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew qimanu, \"those who rise against us,\" is a rare word but makes sense on the lips of the righteous who watch the wicked fall (22:19). The Greek gives a smoother parallel with the second line (\"what they had to spare\"), which may be why it was chosen. The Plain keeps the Masoretic Text.",
+  "s": [
+   "rahlfs-lxx",
+   "dhorme-job",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "24:24",
+  "a": "and like everyone they shrink away",
+  "t": "\"Like everyone\" or \"like mallow\"?",
+  "p": "The Hebrew says the wicked shrink away \"like all\"; the Greek says they wither \"like mallow in the heat.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כַּכֹּל יִקָּפְצוּן",
+    "en": "like all (others) they are shut up (shrink away)",
+    "plain": "and like everyone they shrink away"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs edition; checked on blueletterbible.org) (\"like mallow in the heat\"), reflecting Hebrew כַּמַּלּוּחַ; adopted by many modern scholars",
+    "orig": "ὥσπερ μολόχη ἐν καύματι",
+    "en": "like mallow in the heat",
+    "plain": "and like mallow they shrink away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek fits the plant picture of the next line (heads of grain) and the same plant name appears in 30:4, so many scholars adopt it. But \"like everyone\" makes good sense in Job's mouth: the wicked do die, but no differently from anyone else (21:23–26). The Plain keeps the Masoretic Text.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "30:13",
+  "a": "they need nobody's help",
+  "t": "\"No helper\" or \"no one restrains them\"?",
+  "p": "The Hebrew says \"there is no helper for them\"; many moderns change one letter to read \"no one restrains them.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לֹא עֹזֵר לָמוֹ",
+    "en": "there is no helper for them",
+    "plain": "they need nobody's help"
+   },
+   {
+    "w": "Modern conjecture, Hebrew עֹצֵר ('otser, \"one who restrains\") for עֹזֵר ('ozer); RSV, ESV and others. No manuscript or ancient version has it.",
+    "orig": "לֹא עֹצֵר לָמוֹ (conjecture)",
+    "en": "there is no one to restrain them",
+    "plain": "no one holds them back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text can mean that the mob needs no one's help to ruin Job, or that no one helps Job against them. The conjecture gives an easier line, but it has no support in any witness, so the Plain keeps the Masoretic Text.",
+  "s": [
+   "clines-job",
+   "dhorme-job"
+  ]
+ }
+]

@@ -1,0 +1,699 @@
+[
+ {
+  "v": "18:6",
+  "a": "It is I, Jethro, your father-in-law, coming to you",
+  "t": "\"I\" or \"Look\"?",
+  "p": "The Hebrew has Jethro say \"I, your father-in-law, am coming.\" The Greek and Samaritan texts read \"Look, your father-in-law is coming.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum Onqelos; Vulgate",
+    "orig": "אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ",
+    "en": "I, your father-in-law Jethro, am coming to you",
+    "plain": "It is I, Jethro, your father-in-law, coming to you"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Syriac",
+    "orig": "ἰδοὺ ὁ γαμβρός σου Ιοθορ παραγίνεται πρὸς σέ (Greek); הנה (Samaritan, for אני)",
+    "en": "Look, your father-in-law Jethro is coming to you",
+    "plain": "Look, Jethro, your father-in-law, is coming to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words (<i>ani</i> \"I\" and <i>hinneh</i> \"look\") do not look much alike, so this is probably not a copying slip. The Masoretic reading is a little odd, since Jethro is not yet there to speak, which makes it the harder reading: a scribe is more likely to smooth it than to create it. The rabbis kept it and explained that Jethro sent a message ahead (Mekhilta; Rashi). The RSV followed the Greek (\"Lo, your father-in-law\"); most modern versions follow the Hebrew and add \"sent word.\"",
+  "s": [
+   "tov-tchb",
+   "wevers-exodus",
+   "mekhilta",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "18:24",
+  "a": "Moses heeded his father-in-law and did everything he had proposed.",
+  "t": "Deuteronomy's version added",
+  "p": "The Samaritan Pentateuch adds Moses' own account of appointing judges, taken from Deuteronomy 1:9–18. Shown here shortened.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיִּשְׁמַע מֹשֶׁה לְקוֹל חֹתְנוֹ וַיַּעַשׂ כֹּל אֲשֶׁר אָמָר",
+    "en": "Moses listened to the voice of his father-in-law and did all that he said",
+    "plain": "Moses heeded his father-in-law and did everything he had proposed."
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (the added words follow Deuteronomy 1:9–18; opening words given)",
+    "orig": "ויאמר משה אל העם לא אוכל אנכי לבדי שאת אתכם",
+    "en": "Moses said to the people, \"I am not able to carry you by myself...\"",
+    "plain": "Moses heeded his father-in-law and did everything he had proposed. Moses said to the people, \"I cannot carry you by myself. The LORD your God has made you many, as many as the stars in the sky. How can I alone bear your load and your quarrels? Pick wise, understanding men, known among your tribes, and I will make them your heads.\" They answered him, \"What you have told us to do is good.\" Then he took the heads of their tribes and gave them this charge: \"Hear the cases between your brothers and judge fairly. Do not favor anyone, small or great. Any case too hard for you, bring to me, and I will hear it.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan tradition often copies a matching passage from Deuteronomy into Exodus, so that the two tellings agree word for word. Scholars call these \"harmonizing\" additions and treat them as later expansions rather than original text. The Masoretic Text and the Greek lack it.",
+  "b": "The English of the added reading is shortened and rendered from Deuteronomy's Hebrew; I could not check the exact Samaritan wording or its precise place between 18:24 and 18:26. Judith Sanderson's study of the Qumran scroll 4QpaleoExod-m (about 100–25 BC) showed that it shared most of the long Samaritan-style expansions, but I could not verify whether its fragments preserve this one.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "sanderson-paleoexod"
+  ]
+ },
+ {
+  "v": "19:18",
+  "a": "the whole mountain quaked hard",
+  "t": "Did the mountain shake or the people?",
+  "p": "The Hebrew says the mountain trembled. The Greek says \"all the people\" were struck with terror.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Targums; Vulgate",
+    "orig": "וַיֶּחֱרַד כָּל־הָהָר מְאֹד",
+    "en": "and the whole mountain trembled greatly",
+    "plain": "the whole mountain quaked hard"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); a few medieval Hebrew manuscripts are reported to agree",
+    "orig": "καὶ ἐξέστη πᾶς ὁ λαὸς σφόδρα",
+    "en": "and all the people were greatly amazed",
+    "plain": "all the people quaked hard"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew words for \"the mountain\" (<i>hahar</i>) and \"the people\" (<i>ha'am</i>) look different, but 19:16 has just said \"all the people in the camp trembled\" with the same verb, so a translator or scribe could easily have carried \"people\" over. The Hebrew picture of an earthquake fits Judges 5:5 and Psalm 68:8, where Sinai shakes before God.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus19-40"
+  ]
+ },
+ {
+  "v": "20:10",
+  "a": "not your animals",
+  "t": "Ox, donkey and all your animals",
+  "p": "The Greek spells out \"your ox and your donkey and any of your animals,\" as in Deuteronomy 5:14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "וּבְהֶמְתֶּךָ",
+    "en": "and your livestock",
+    "plain": "not your animals"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); the Nash Papyrus (about 150–100 BC) is usually read as agreeing",
+    "orig": "ὁ βοῦς σου καὶ τὸ ὑποζύγιόν σου καὶ πᾶν κτῆνός σου",
+    "en": "your ox and your beast of burden and all your livestock",
+    "plain": "not your ox, not your donkey, not any of your animals"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer list matches Deuteronomy 5:14 exactly, and the Greek of Exodus often brings the two versions of the Ten Words closer together. The shorter Hebrew is more likely the older form here.",
+  "b": "The Nash Papyrus, a single sheet from Egypt with the Ten Words and the Shema, was the oldest known Hebrew biblical text before the Dead Sea Scrolls. It mixes the Exodus and Deuteronomy forms, which suggests it was written for worship or teaching rather than copied from one scroll. Its lines are damaged at the edges, so some readings rest on reconstruction.",
+  "s": [
+   "albright-nash",
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "20:11",
+  "a": "the Sabbath day",
+  "t": "\"The Sabbath day\" or \"the seventh day\"?",
+  "p": "Several old witnesses read \"the LORD blessed the seventh day,\" as Genesis 2:3 does.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum Onqelos; Vulgate",
+    "orig": "אֶת־יוֹם הַשַּׁבָּת",
+    "en": "the day of the Sabbath",
+    "plain": "the Sabbath day"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Septuagint (the Greek translation, 200s BC); Nash Papyrus",
+    "orig": "את יום השביעי (Samaritan, Nash); τὴν ἡμέραν τὴν ἑβδόμην (Greek)",
+    "en": "the seventh day",
+    "plain": "the seventh day"
+   }
+  ],
+  "follow": 0,
+  "why": "The \"seventh day\" reading matches Genesis 2:3 word for word and may be an adjustment toward it; in this site's Plain English, Genesis 2:3 says \"God blessed the seventh day and set it apart as holy.\" The three witnesses are not independent here: the Samaritan text and the Greek both harmonize often, and the Nash Papyrus is a mixed text made for worship. Still, some scholars think \"seventh day\" is original. The meaning is the same either way.",
+  "s": [
+   "tov-tchb",
+   "albright-nash",
+   "propp-exodus19-40"
+  ]
+ },
+ {
+  "v": "20:12",
+  "a": "so that your days will stretch out long",
+  "t": "\"That it may go well with you\"",
+  "p": "The Greek adds \"so that it may go well with you,\" from Deuteronomy 5:16. Ephesians 6:3 quotes the longer form.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "לְמַעַן יַאֲרִכוּן יָמֶיךָ",
+    "en": "so that your days may be long",
+    "plain": "so that your days will stretch out long"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); Nash Papyrus",
+    "orig": "ἵνα εὖ σοι γένηται καὶ ἵνα μακροχρόνιος γένῃ",
+    "en": "so that it may be well with you and so that you may be long-lived",
+    "plain": "so that it will go well with you, and so that your days will stretch out long"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are in Deuteronomy 5:16, and copyists who knew both forms often merged them. The Greek also says \"the good land\" here. Paul's quotation in Ephesians 6:2–3 (\"so that it may go well with you, and you may live long on the earth\") may come from Deuteronomy 5:16, which also has \"go well\"; only \"on the earth\" points to the Greek in particular.",
+  "s": [
+   "albright-nash",
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "20:17",
+  "a": "You must not crave your neighbor's house. You must not crave your neighbor's wife",
+  "t": "Wife first or house first?",
+  "p": "The Greek and the Nash Papyrus put the wife before the house and add \"his field,\" as Deuteronomy 5:21 does.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "לֹא תַחְמֹד בֵּית רֵעֶךָ לֹא־תַחְמֹד אֵשֶׁת רֵעֶךָ",
+    "en": "You shall not covet your neighbor's house. You shall not covet your neighbor's wife",
+    "plain": "You must not crave your neighbor's house. You must not crave your neighbor's wife"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); Nash Papyrus (about 150–100 BC; \"wife\" is restored in a damaged line)",
+    "orig": "οὐκ ἐπιθυμήσεις τὴν γυναῖκα τοῦ πλησίον σου. οὐκ ἐπιθυμήσεις τὴν οἰκίαν τοῦ πλησίον σου οὔτε τὸν ἀγρὸν αὐτοῦ",
+    "en": "You shall not covet your neighbor's wife. You shall not covet your neighbor's house, nor his field",
+    "plain": "You must not crave your neighbor's wife. You must not crave your neighbor's house, or his field"
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 5:21 puts the wife first, uses a second verb (\"desire\") for the house, and adds the field. The Greek of Exodus follows that order, which looks like a harmonization, and so does the Nash Papyrus, which also uses the verb \"desire\" for the house; the papyrus mixes the Exodus and Deuteronomy forms throughout (see the variant at 20:10). The order matters for counting the commandments: the Catholic split into a ninth (wife) and tenth (goods) follows Deuteronomy's order, while Luther's catechisms keep the order of Exodus (ninth, the house; tenth, the wife and the rest).",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus19-40"
+  ]
+ },
+ {
+  "v": "20:17",
+  "a": "anything at all that belongs to your neighbor.",
+  "t": "The Samaritan tenth commandment: Mount Gerizim",
+  "p": "The Samaritan Pentateuch adds a command to build an altar on Mount Gerizim, drawn from Deuteronomy 11 and 27. Samaritans count it as a commandment.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC); Nash Papyrus; 4QpaleoExod-m probably (see below)",
+    "orig": "וְכֹל אֲשֶׁר לְרֵעֶךָ",
+    "en": "and anything that belongs to your neighbor",
+    "plain": "anything at all that belongs to your neighbor."
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (opening words given)",
+    "orig": "והיה כי יביאך יהוה אלהיך אל ארץ הכנעני אשר אתה בא שמה לרשתה",
+    "en": "And when the LORD your God brings you into the land of the Canaanites, which you are going in to possess...",
+    "plain": "anything at all that belongs to your neighbor. When the LORD your God brings you into the land of the Canaanites, which you are entering to take as your own, set up large stones and coat them with plaster, and write on them all the words of this teaching. Once you have crossed the Jordan, set up these stones on Mount Gerizim, as I command you today. Build an altar there to the LORD your God, an altar of stones that no iron tool has touched. Make it of whole stones, offer burnt offerings on it to the LORD your God, slaughter peace offerings, eat there, and celebrate before the LORD your God. That mountain is across the Jordan, west of the road toward the sunset, in the land of the Canaanites who live in the Arabah, facing Gilgal, beside the oak of Moreh, opposite Shechem."
+   }
+  ],
+  "follow": 0,
+  "why": "The added passage is built from Deuteronomy 11:29–30 and 27:2–7, where the Masoretic Text of Deuteronomy 27:4 says Mount Ebal and the Samaritan says Gerizim. Placing it inside the Ten Words makes worship at Gerizim, the Samaritans' holy mountain above Shechem, part of the covenant itself. It is the most famous sectarian reading in the Samaritan text, and almost all scholars see it as a later addition.",
+  "b": "The Samaritans treat 20:2 as a preface and count 20:3–6 as one commandment, so that this becomes the tenth. Judith Sanderson argued from the space on the damaged columns that 4QpaleoExod-m, which shares many other Samaritan-style expansions, did not contain this one, so it would be a distinctively Samaritan addition. The Old Latin is reported to read \"Garizim\" at Deuteronomy 27:4, which has led some scholars to think Gerizim, not Ebal, was the older reading there. The English given is a fresh rendering based on Deuteronomy's Hebrew; I could not check each word of the Samaritan form.",
+  "s": [
+   "tal-samaritan",
+   "sanderson-paleoexod",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "20:19",
+  "a": "They said to Moses, \"Let it be you who speaks with us, and we will listen. Let God not speak with us, for fear we die.\"",
+  "t": "The people's request in Deuteronomy's words",
+  "p": "The Samaritan Pentateuch adds the people's longer speech from Deuteronomy 5:24–27. Goes with the variant at 20:21.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיֹּאמְרוּ אֶל־מֹשֶׁה דַּבֵּר־אַתָּה עִמָּנוּ וְנִשְׁמָעָה וְאַל־יְדַבֵּר עִמָּנוּ אֱלֹהִים פֶּן־נָמוּת",
+    "en": "They said to Moses, \"You speak with us, and we will listen; but let not God speak with us, lest we die\"",
+    "plain": "They said to Moses, \"Let it be you who speaks with us, and we will listen. Let God not speak with us, for fear we die.\""
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (added words follow Deuteronomy 5:24–27; opening words given)",
+    "orig": "הן הראנו יהוה אלהינו את כבודו ואת גדלו",
+    "en": "Look, the LORD our God has shown us his glory and his greatness...",
+    "plain": "They said to Moses, \"Look, the LORD our God has let us see his glory and his greatness, and we have heard his voice from inside the fire. Today we have seen that God can speak with a human being and the person can still live. But why should we die now? This great fire will eat us up. If we hear the voice of the LORD our God any longer, we will die. Who among all flesh has heard the voice of the living God speaking from the fire, as we have, and lived? You go near and hear everything the LORD our God says, and you tell us whatever he says to you, and we will listen and do it. Let it be you who speaks with us, and we will listen. Let God not speak with us, for fear we die.\""
+   }
+  ],
+  "follow": 0,
+  "why": "As in 18:24, the Samaritan text fills Exodus with Deuteronomy's fuller account of the same moment, so the two books never seem to disagree. This is a typical harmonizing expansion and is not likely to be original.",
+  "b": "The English of the added reading is a fresh rendering of Deuteronomy 5:24–27; the exact Samaritan wording and its placement around 20:18–19 may differ slightly, and I could not check them directly. A Qumran text that rewrites the Pentateuch, 4Q158, is reported to join Exodus 20 and Deuteronomy 5 in a similar way, which shows such combined texts were known before the Samaritan text took its final shape.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "wise-dss"
+  ]
+ },
+ {
+  "v": "20:21",
+  "a": "So the people kept their distance, and Moses went up close to the deep darkness where God was.",
+  "t": "A prophet like Moses",
+  "p": "After this verse the Samaritan Pentateuch adds God's reply and the promise of \"a prophet like you\" from Deuteronomy 5 and 18. Goes with the variant at 20:19.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיַּעֲמֹד הָעָם מֵרָחֹק וּמֹשֶׁה נִגַּשׁ אֶל־הָעֲרָפֶל אֲשֶׁר־שָׁם הָאֱלֹהִים",
+    "en": "The people stood far off, and Moses approached the thick darkness where God was",
+    "plain": "So the people kept their distance, and Moses went up close to the deep darkness where God was."
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (added words follow Deuteronomy 5:28–29; 18:18–22; 5:30–31; opening words given)",
+    "orig": "וידבר יהוה אל משה לאמר שמעתי את קול דברי העם הזה",
+    "en": "The LORD spoke to Moses: \"I have heard the words this people spoke...\"",
+    "plain": "So the people kept their distance, and Moses went up close to the deep darkness where God was. The LORD said to Moses, \"I have heard what this people said to you. Everything they said was right. If only their hearts would always be like this, to fear me and keep my commands, so that it would go well with them and their children forever! I will raise up for them a prophet like you from among their brothers. I will put my words in his mouth, and he will tell them everything I command him. Anyone who will not listen to my words, which he speaks in my name, I will hold to account. But a prophet who dares to speak in my name what I did not command, or who speaks in the name of other gods, that prophet will die. If you ask yourself, 'How will we know a word the LORD has not spoken?': when a prophet speaks in the LORD's name and the thing does not happen, the LORD did not speak it. Go, tell them, 'Go back to your tents.' But you, stand here with me, and I will tell you all the commands, decrees and rulings you are to teach them.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The added text is drawn from Deuteronomy, where it fits the setting of Moses' retelling. For Samaritans, the promised prophet (Deuteronomy 18:18) became the Taheb, the coming restorer, and placing the promise at Sinai gave it the weight of the Ten Words. The Masoretic Text and the Greek lack it, and scholars treat it as a harmonizing addition.",
+  "b": "A Dead Sea Scrolls text, 4QTestimonia (4Q175, about 100–75 BC), quotes Deuteronomy 5:28–29 and 18:18–19 one after the other, the same sequence as the Samaritan text, which shows that this combined form circulated among Jews as well before the Samaritans adopted it as their standard. Peter and Stephen apply the prophet promise to Jesus (Acts 3:22–23; Acts 7:37). The English is a fresh, slightly shortened rendering of the Deuteronomy passages; I could not check the exact Samaritan wording.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "wise-dss"
+  ]
+ },
+ {
+  "v": "20:24",
+  "a": "In every place where I make my name remembered, I will come to you",
+  "t": "\"Every place\" or \"the place\"?",
+  "p": "The Samaritan Pentateuch reads \"in the place where I have caused my name to be remembered,\" one site, chosen in the past.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC) (\"in every place where I name my name\")",
+    "orig": "בְּכָל־הַמָּקוֹם אֲשֶׁר אַזְכִּיר אֶת־שְׁמִי",
+    "en": "in every place where I cause my name to be remembered",
+    "plain": "In every place where I make my name remembered, I will come to you"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "במקום אשר אזכרתי את שמי",
+    "en": "in the place where I have caused my name to be remembered",
+    "plain": "In the place where I have made my name remembered, I will come to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan reading supports one central sanctuary, which for Samaritans was Gerizim, matching their added commandment (see the variant at 20:17) and Deuteronomy 12:5. The Masoretic plural fits the early period of many altars and is supported by the Greek. Most scholars take the Samaritan form as a change made to support one holy place.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan"
+  ]
+ },
+ {
+  "v": "21:8",
+  "a": "though he promised her to himself",
+  "t": "Ketiv and Qere: \"for himself\" or \"not\"?",
+  "p": "The written Hebrew says the master \"did not\" designate her; the reading tradition says he designated her \"for himself.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the reading tradition); Septuagint (the Greek translation, 200s BC) (\"whom he betrothed to himself\"); Vulgate (no negative); Targum Onqelos; KJV, ASV and most modern translations",
+    "orig": "אֲשֶׁר־לוֹ יְעָדָהּ",
+    "en": "who designated her for himself",
+    "plain": "though he promised her to himself"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (the written consonants); Young's Literal Translation",
+    "orig": "אֲשֶׁר־לֹא יְעָדָהּ",
+    "en": "so that he has not designated her",
+    "plain": "so that he does not promise her to himself"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words <i>lo</i> (\"for him\") and <i>lo'</i> (\"not\") sound the same and differ by one letter. The Qere makes a clear law: a man who bought a girl intending to marry her must let her be redeemed if he changes his mind. The Ketiv can also work (\"if she displeases her master, so that he does not designate her\"), but among English versions only Young's Literal Translation follows it, and the ancient versions support the Qere. The Masoretes printed both.",
+  "b": "On how the Ketiv and Qere system works, see the topic on Ketiv and Qere. The rabbis drew on the verse for the rules of betrothal (Mekhilta; Kiddushin 18b–19a).",
+  "s": [
+   "tov-tchb",
+   "mekhilta",
+   "bavli-kiddushin"
+  ]
+ },
+ {
+  "v": "21:22",
+  "a": "and her children come out, but no harm follows,",
+  "t": "\"No harm\" or \"not fully formed\"?",
+  "p": "The Greek makes the law turn on whether the miscarried child was \"formed.\" It goes with the variant at 21:23.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Targums; Vulgate",
+    "orig": "וְיָצְאוּ יְלָדֶיהָ וְלֹא יִהְיֶה אָסוֹן",
+    "en": "and her children come out, and there is no harm",
+    "plain": "and her children come out, but no harm follows,"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); Philo",
+    "orig": "καὶ ἐξέλθῃ τὸ παιδίον αὐτῆς μὴ ἐξεικονισμένον",
+    "en": "and her child comes out not fully formed",
+    "plain": "and her child comes out not yet fully formed,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is better seen as an interpretation than as a different Hebrew text: the translators read <i>ason</i> (\"harm, disaster\") as if it were about the child's shape, perhaps influenced by Greek medical ideas about when an embryo is formed. The Hebrew \"harm\" is the plain sense of the word elsewhere (Genesis 42:4, 38).",
+  "b": "The Greek reading shaped early Christian and later Western law: Philo (<i>Special Laws</i> 3.108–109), Augustine (<i>Questions on the Heptateuch</i> 2.80) and medieval canon law distinguished a formed from an unformed fetus. On how the Hebrew is read today, see the note on this verse.",
+  "s": [
+   "wevers-exodus",
+   "philo-special-laws",
+   "augustine-heptateuch"
+  ]
+ },
+ {
+  "v": "21:23",
+  "a": "But if harm does follow,",
+  "t": "\"If harm follows\" or \"if it was formed\"?",
+  "p": "The Greek reads \"if it was fully formed, he will give life for life.\" It goes with the variant at 21:22.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Targums; Vulgate",
+    "orig": "וְאִם־אָסוֹן יִהְיֶה",
+    "en": "but if there is harm",
+    "plain": "But if harm does follow,"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "ἐὰν δὲ ἐξεικονισμένον ἦν",
+    "en": "but if it was fully formed",
+    "plain": "But if it was fully formed,"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 21:22. In the Greek, \"life for life\" protects the fully formed fetus; in the Hebrew, \"harm\" most likely refers to the woman, or to the woman and the child.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "22:5",
+  "a": "he must pay it back from the best of his own field and the best of his own vineyard",
+  "t": "A longer law on grazing",
+  "p": "The Samaritan and Greek texts add a step: pay by the crop if part of a field is grazed, and from the best if all of it is.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מֵיטַב שָׂדֵהוּ וּמֵיטַב כַּרְמוֹ יְשַׁלֵּם",
+    "en": "the best of his field and the best of his vineyard he shall repay",
+    "plain": "he must pay it back from the best of his own field and the best of his own vineyard"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Septuagint (the Greek translation, 200s BC) (Greek given)",
+    "orig": "ἀποτείσει ἐκ τοῦ ἀγροῦ αὐτοῦ κατὰ τὸ γένημα αὐτοῦ· ἐὰν δὲ πάντα τὸν ἀγρὸν καταβοσκήσῃ, τὰ βέλτιστα τοῦ ἀγροῦ αὐτοῦ καὶ τὰ βέλτιστα τοῦ ἀμπελῶνος αὐτοῦ ἀποτείσει",
+    "en": "he shall surely repay from his field according to its yield; and if he grazes the whole field...",
+    "plain": "he must pay it back from his own field, matching its crop. But if he lets the whole field be grazed, he must pay it back from the best of his own field and the best of his own vineyard"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text may be original: a scribe's eye could have skipped from one \"field\" to the next and dropped a line, which would explain the short Masoretic form. Others see the longer text as an explanatory expansion. Because both are possible, the Plain English keeps the Masoretic Text and shows the other here.",
+  "b": "The rabbis read \"the best\" as a rule for paying damages in general: the one who did harm pays from his best land (Mishnah Bava Kamma 1:1; Bava Kamma 6b). I could not confirm whether any Qumran manuscript preserves this verse.",
+  "s": [
+   "tov-tchb",
+   "wevers-exodus",
+   "mishnah-bava-kamma"
+  ]
+ },
+ {
+  "v": "23:22",
+  "a": "But if you truly listen to his voice",
+  "t": "\"A royal priesthood\" again",
+  "p": "The Greek inserts a repeat of 19:5–6 here, including \"a royal priesthood and a holy nation.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "כִּי אִם־שָׁמֹעַ תִּשְׁמַע בְּקֹלוֹ",
+    "en": "For if you truly listen to his voice",
+    "plain": "But if you truly listen to his voice"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "ἐὰν ἀκοῇ ἀκούσητε τῆς ἐμῆς φωνῆς ... ὑμεῖς δὲ ἔσεσθέ μοι βασίλειον ἱεράτευμα καὶ ἔθνος ἅγιον",
+    "en": "If you truly listen to my voice... you will be for me a royal priesthood and a holy nation",
+    "plain": "But if you truly listen to my voice and do everything I tell you and keep my covenant, you will be my own treasure out of all the peoples, for the whole earth is mine. You will be for me a royal priesthood and a holy nation. Say these words to the Israelites: If you truly listen to my voice"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek repeats God's opening offer at Sinai (19:5–6) before the promise of victory, binding the Covenant Code to that offer. The repetition is an expansion; the Hebrew is shorter and smoother. The plus matters for the New Testament, since 1 Peter 2:9 uses the phrase \"royal priesthood\" found in both places in the Greek.",
+  "b": "I could not verify whether the Samaritan Pentateuch shares this addition; I have seen it claimed but could not confirm it, so it is not listed as a witness. The Greek wording given is shortened.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "24:10",
+  "a": "They saw the God of Israel. Under his feet was what looked like a floor of blue lapis stone, as pure as the sky itself.",
+  "t": "Did they see God or the place?",
+  "p": "The Greek says \"they saw the place where the God of Israel stood,\" avoiding a direct sight of God.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Vulgate",
+    "orig": "וַיִּרְאוּ אֵת אֱלֹהֵי יִשְׂרָאֵל",
+    "en": "They saw the God of Israel",
+    "plain": "They saw the God of Israel. Under his feet was what looked like a floor of blue lapis stone, as pure as the sky itself."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "καὶ εἶδον τὸν τόπον, οὗ εἱστήκει ἐκεῖ ὁ θεὸς τοῦ Ισραηλ",
+    "en": "and they saw the place where the God of Israel stood",
+    "plain": "They saw the place where the God of Israel stood. Under his feet was what looked like a floor of blue lapis stone, as pure as the sky itself."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translators softened a verse that seemed to clash with 33:20 (\"no one can see me and live\"), as Targum Onqelos also did (\"they saw the glory of the God of Israel\"). That kind of reverent change is common in ancient translations, and the bolder Hebrew is almost certainly the original. See the note on this verse.",
+  "s": [
+   "wevers-exodus",
+   "targum-onkelos"
+  ]
+ },
+ {
+  "v": "24:11",
+  "a": "Against the nobles of the Israelites he did not put out his hand. They looked upon God, and they ate and drank.",
+  "t": "\"They appeared in the place of God\"",
+  "p": "The Greek says none of the chosen men was lost and that \"they appeared in the place of God,\" again avoiding a sight of God.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "וְאֶל־אֲצִילֵי בְּנֵי יִשְׂרָאֵל לֹא שָׁלַח יָדוֹ וַיֶּחֱזוּ אֶת־הָאֱלֹהִים וַיֹּאכְלוּ וַיִּשְׁתּוּ",
+    "en": "Against the nobles of Israel he did not stretch out his hand; they beheld God, and they ate and drank",
+    "plain": "Against the nobles of the Israelites he did not put out his hand. They looked upon God, and they ate and drank."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "καὶ τῶν ἐπιλέκτων τοῦ Ισραηλ οὐ διεφώνησεν οὐδὲ εἷς· καὶ ὤφθησαν ἐν τῷ τόπῳ τοῦ θεοῦ καὶ ἔφαγον καὶ ἔπιον",
+    "en": "And of the chosen ones of Israel not even one perished; and they appeared in the place of God and ate and drank",
+    "plain": "Not one of the chosen men of the Israelites was lost. They were seen in the place of God, and they ate and drank."
+   }
+  ],
+  "follow": 0,
+  "why": "As in 24:10, the Greek turns \"they saw God\" into \"they were seen in God's place,\" a reverent rewording. The Hebrew is the more difficult and older reading.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "20:13",
+  "a": "You must not murder.",
+  "t": "The order of murder, adultery and theft (1)",
+  "p": "Some early witnesses put adultery first, before murder. This goes with the variants at 20:14 and 20:15.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Targums; Vulgate",
+    "orig": "לֹא תִּרְצָח",
+    "en": "You shall not murder",
+    "plain": "You must not murder."
+   },
+   {
+    "w": "Nash Papyrus (about 150–100 BC); Septuagint (the Greek translation, 200s BC) in Codex Vaticanus (as usually reported); Philo, <i>On the Decalogue</i>; compare Luke 18:20; Romans 13:9; James 2:11",
+    "orig": "לוא תנאף (Nash); οὐ μοιχεύσεις (Greek)",
+    "en": "You shall not commit adultery",
+    "plain": "You must not commit adultery."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic order (murder, adultery, theft) is also that of Matthew 19:18 and Mark 10:19 in most manuscripts. The other order was clearly known in Egypt and among Greek-speaking Jews: Philo explains it, saying adultery is the greatest wrong against a neighbor. Paul and James both cite adultery before murder. Since both orders are old, the Plain English follows the Masoretic Text, which also agrees with Deuteronomy 5:17–19 in the Hebrew.",
+  "b": "The witnesses do not all agree with one another: the Nash Papyrus is usually read as adultery, murder, theft, while Codex Vaticanus of Exodus is usually reported as adultery, theft, murder. I could not check the Vaticanus reading directly.",
+  "s": [
+   "albright-nash",
+   "philo-decalogue",
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "20:14",
+  "a": "You must not commit adultery.",
+  "t": "The order of murder, adultery and theft (2)",
+  "p": "In the Nash Papyrus the murder command stands here; in Codex Vaticanus of the Greek, the theft command. Goes with 20:13 and 20:15.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "לֹא תִּנְאָף",
+    "en": "You shall not commit adultery",
+    "plain": "You must not commit adultery."
+   },
+   {
+    "w": "Nash Papyrus; Philo",
+    "orig": "לוא תרצח (Nash)",
+    "en": "You shall not murder",
+    "plain": "You must not murder."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC) in Codex Vaticanus (as usually reported)",
+    "orig": "οὐ κλέψεις",
+    "en": "You shall not steal",
+    "plain": "You must not steal."
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 20:13.",
+  "s": [
+   "albright-nash",
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "20:15",
+  "a": "You must not steal.",
+  "t": "The order of murder, adultery and theft (3)",
+  "p": "In Codex Vaticanus of the Greek, the murder command comes last of the three. Goes with 20:13 and 20:14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Nash Papyrus",
+    "orig": "לֹא תִּגְנֹב",
+    "en": "You shall not steal",
+    "plain": "You must not steal."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC) in Codex Vaticanus (as usually reported)",
+    "orig": "οὐ φονεύσεις",
+    "en": "You shall not murder",
+    "plain": "You must not murder."
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 20:13.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "Whoever steals a person",
+  "t": "Any person, or an Israelite?",
+  "p": "The Greek limits the law to kidnapping \"one of the sons of Israel,\" as Deuteronomy 24:7 does, and places it after the law on cursing parents.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Vulgate",
+    "orig": "וְגֹנֵב אִישׁ",
+    "en": "whoever steals a man",
+    "plain": "Whoever steals a person"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "ὃς ἐὰν κλέψῃ τίς τινα τῶν υἱῶν Ισραηλ",
+    "en": "whoever steals one of the sons of Israel",
+    "plain": "Whoever steals one of the Israelites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek wording matches Deuteronomy 24:7 and looks like a harmonization. The Hebrew of Exodus protects any person, a point abolitionists stressed. In the Greek the order of 21:15–17 is striking, cursing, then kidnapping.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "22:20",
+  "a": "Anyone who sacrifices to the gods",
+  "t": "\"The gods\" or \"other gods\"?",
+  "p": "The Samaritan Pentateuch is reported to read \"other gods,\" spelling out what the Hebrew means.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "זֹבֵחַ לָאֱלֹהִים",
+    "en": "one who sacrifices to the gods",
+    "plain": "Anyone who sacrifices to the gods"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (as reported)",
+    "orig": "זבח לאלהים אחרים",
+    "en": "one who sacrifices to other gods",
+    "plain": "Anyone who sacrifices to other gods"
+   }
+  ],
+  "follow": 0,
+  "why": "The added word makes the meaning plain and is the kind of clarifying addition the Samaritan text often makes. The shorter Hebrew is more likely original. I could not check the Samaritan wording directly.",
+  "s": [
+   "tal-samaritan",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "23:7",
+  "a": "for I will not count the wicked as righteous",
+  "t": "\"For a bribe\"",
+  "p": "The Greek turns God's promise into a command to judges: \"you must not declare the wicked righteous for gifts.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "כִּי לֹא־אַצְדִּיק רָשָׁע",
+    "en": "for I will not justify the wicked",
+    "plain": "for I will not count the wicked as righteous"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "καὶ οὐ δικαιώσεις τὸν ἀσεβῆ ἕνεκεν δώρων",
+    "en": "and you shall not justify the ungodly for gifts",
+    "plain": "and you must not declare the wicked righteous for a bribe"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek ties the verse to the bribe in 23:8 and makes it a rule for the court rather than a statement about God. The Hebrew \"I\" is the harder reading, and the line about God not acquitting the guilty returns in 34:7.",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "23:15",
+  "a": "No one is to appear before my face with empty hands.",
+  "t": "\"Appear before me\" or \"see my face\"?",
+  "p": "The vowels say \"be seen before me\"; many scholars think the consonants first meant \"see my face.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) vowels; Septuagint (the Greek translation, 200s BC) (\"you will not appear before me empty\")",
+    "orig": "וְלֹא־יֵרָאוּ פָנַי רֵיקָם",
+    "en": "and they shall not appear before me empty",
+    "plain": "No one is to appear before my face with empty hands."
+   },
+   {
+    "w": "A proposed earlier vowel reading of the same consonants (no manuscript has it)",
+    "orig": "וְלֹא יִרְאוּ פָנַי רֵיקָם",
+    "en": "and they shall not see my face empty",
+    "plain": "No one is to see my face with empty hands."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic vowels make the verb passive, which is grammatically awkward with \"my face\" as its object. Many scholars think the scribes changed the vowels out of reverence, so as not to say that people see God's face (compare 33:20), as also in 23:17, 34:20, 34:23–24 and Deuteronomy 16:16. Because the proposed reading has no manuscript support, the Plain English follows the Masoretic Text.",
+  "s": [
+   "tov-tchb",
+   "propp-exodus19-40"
+  ]
+ },
+ {
+  "v": "23:23",
+  "a": "the Amorites, the Hittites, the Perizzites, the Canaanites, the Hivites and the Jebusites",
+  "t": "Six peoples or seven?",
+  "p": "The Greek and the Samaritan text add the Girgashites, making the seven peoples of Deuteronomy 7:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הָאֱמֹרִי וְהַחִתִּי וְהַפְּרִזִּי וְהַכְּנַעֲנִי הַחִוִּי וְהַיְבוּסִי",
+    "en": "the Amorite, the Hittite, the Perizzite, the Canaanite, the Hivite and the Jebusite",
+    "plain": "the Amorites, the Hittites, the Perizzites, the Canaanites, the Hivites and the Jebusites"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (the place of the Girgashites in the list varies)",
+    "orig": "καὶ Γεργεσαῖον",
+    "en": "adding \"and the Girgashite\"",
+    "plain": "the Amorites, the Hittites, the Perizzites, the Canaanites, the Girgashites, the Hivites and the Jebusites"
+   }
+  ],
+  "follow": 0,
+  "why": "Lists of the peoples of Canaan vary across the Bible, and the Greek and Samaritan texts often fill them out to seven to match Deuteronomy 7:1. The shorter Hebrew list is likely original here.",
+  "s": [
+   "wevers-exodus",
+   "tov-tchb"
+  ]
+ }
+]

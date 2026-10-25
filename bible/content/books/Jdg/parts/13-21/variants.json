@@ -1,0 +1,416 @@
+[
+ {
+  "v": "14:11",
+  "a": "As soon as they saw him",
+  "t": "\"Saw him\" or \"feared him\"?",
+  "p": "The Hebrew says the Philistines \"saw\" Samson. One Greek text says they \"feared\" him, which changes the thirty companions into guards.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV, ESV, NIV, NRSV and BSB",
+    "orig": "כִּרְאוֹתָם אֹתוֹ",
+    "en": "when they saw him",
+    "plain": "As soon as they saw him"
+   },
+   {
+    "w": "Septuagint A text (Codex Alexandrinus)",
+    "orig": "ἐν τῷ φοβεῖσθαι αὐτοὺς αὐτόν",
+    "en": "because they feared him",
+    "plain": "Because they were afraid of him"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter and a vowel: <i>kir'otam</i>, \"when they saw,\" and <i>kyir'atam</i>, \"as they feared.\" The Greek reading gives the thirty companions a motive: the Philistines are wary of this stranger and set men to watch him. The Hebrew makes sense as it stands, since a groom was given companions for the feast, so the Plain English follows it.",
+  "b": "Some commentators adopt the Greek because it explains why the companions later threaten the bride (14:15). Others see it as a translator's interpretation of a plain Hebrew phrase.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-judges",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "14:15",
+  "a": "On the seventh day",
+  "t": "The seventh day or the fourth?",
+  "p": "The Hebrew says the seventh day; the Greek and Syriac say the fourth, which fits the \"three days\" of 14:14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); followed by the KJV",
+    "orig": "בַּיּוֹם הַשְּׁבִיעִי",
+    "en": "on the seventh day",
+    "plain": "On the seventh day"
+   },
+   {
+    "w": "Septuagint, the Greek translation made before Jesus; Syriac Peshitta; followed by the NRSV, ESV, NIV and BSB",
+    "orig": "ἐν τῇ ἡμέρᾳ τῇ τετάρτῃ",
+    "en": "on the fourth day",
+    "plain": "On the fourth day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, which is the harder reading: \"seventh\" sits awkwardly with 14:14 (three days of failure) and 14:17 (she wept all seven days). A scribe or translator smoothing the story would be more likely to change \"seventh\" to \"fourth\" than the reverse. Some explain the Hebrew by counting the seventh day of the week, or by reading 14:17 as a summary of the whole feast. Many modern translations prefer \"fourth\" because it makes the sequence smooth.",
+  "b": "In Hebrew the two numbers look nothing alike, so this is not a simple copying slip. If \"fourth\" is original, the Hebrew may have been influenced by \"the seventh day\" in 14:17–18.",
+  "s": [
+   "moore-judges",
+   "rahlfs-lxx",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "16:2",
+  "a": "Word went to the people of Gaza:",
+  "t": "A missing verb",
+  "p": "The Hebrew says only \"To the Gazites, saying.\" The Greek supplies \"it was reported.\"",
+  "readings": [
+   {
+    "w": "Septuagint (both main Greek text forms); Latin Vulgate; supplied by nearly all translations, including the KJV in italics",
+    "orig": "(Greek adds a verb: 'and it was reported')",
+    "en": "and it was reported to the Gazites",
+    "plain": "Word went to the people of Gaza:"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לָעַזָּתִים לֵאמֹר",
+    "en": "to the Gazites, saying",
+    "plain": "To the people of Gaza:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew sentence lacks its verb, almost certainly by an early copying error. The Greek preserves it. Every English translation supplies something like it, so the meaning is not in doubt.",
+  "s": [
+   "moore-judges",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": ", and beat them in with the pin against the wall, I will be weak and be like any other man",
+  "t": "Lines lost from the Hebrew (with 16:14)",
+  "p": "Goes with 16:14. The Greek has a longer text that the Hebrew seems to have lost when a scribe's eye skipped.",
+  "readings": [
+   {
+    "w": "Septuagint, in both text forms printed by Rahlfs (Codex Alexandrinus and Codex Vaticanus); followed by the NRSV, ESV, NIV and BSB",
+    "orig": "καὶ ἐγκρούσῃς … εἰς τὸν τοῖχον … ἀσθενής",
+    "en": "and you fasten it with the pin into the wall, then I will be weak like one of the men",
+    "plain": ", and beat them in with the pin against the wall, I will be weak and be like any other man"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV",
+    "orig": "",
+    "en": "(the sentence ends after 'with the web')",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew, Samson's answer breaks off with \"if you weave the seven braids of my head with the web,\" and the next verse begins \"and she beat it in with the pin,\" referring to a step never mentioned. The Greek has the missing words. In the longer text the phrase \"with the web\" occurs twice, so a copyist's eye could easily jump from one to the other and drop everything between. Most scholars therefore think the longer text is original. The Plain English follows it.",
+  "b": "The STEPBible Hebrew text used on this site marks these words as reconstructed from the Greek. The two Greek forms agree on the content but differ in wording and in a few details of the loom; see the variant on 16:14.",
+  "s": [
+   "rahlfs-lxx",
+   "tov-tchb",
+   "bhq-judges",
+   "moore-judges"
+  ]
+ },
+ {
+  "v": "16:14",
+  "a": "She put him to sleep and wove the seven braids of his head into the web. ",
+  "t": "Delilah at the loom: three forms of the text",
+  "p": "Goes with 16:13. The Hebrew lacks this sentence; the two Greek text forms word it differently.",
+  "readings": [
+   {
+    "w": "Septuagint, A text (Codex Alexandrinus, 400s AD, and related manuscripts)",
+    "orig": "καὶ ἐκοίμισεν αὐτόν ...",
+    "en": "and she put him to sleep, and wove the seven locks of his head with the warp",
+    "plain": "She put him to sleep and wove the seven braids of his head into the web. "
+   },
+   {
+    "w": "Septuagint, B text (Codex Vaticanus, 300s AD, and related manuscripts); followed by the NRSV and BSB",
+    "orig": "καὶ ἐγένετο ἐν τῷ κοιμᾶσθαι αὐτόν ...",
+    "en": "and it happened while he slept, that she took the seven locks of his head and wove them into the web",
+    "plain": "While he slept, Delilah took the seven braids of his head and wove them into the web. "
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV",
+    "orig": "",
+    "en": "(no sentence; the verse begins 'and she fastened it with the pin')",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "For why the longer text is likely original, see the variant on 16:13. Between the two Greek forms, the Plain English follows the A text, whose verb \"put him to sleep\" is the same as in 16:19 (Hebrew <i>vatteyashshenehu</i>), and which matches the reconstructed Hebrew in the STEPBible text.",
+  "b": "The Greek of Judges survives in two forms so different that Rahlfs's edition prints them one above the other. Many specialists think the B text is a later revision brought closer to the Hebrew, and that the A text is often nearer the first Greek translation, though both have been mixed and corrected over time. Here they agree on what happened and differ only in how they tell it.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-judges",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "18:7",
+  "a": "had nothing to do with anyone",
+  "t": "\"Anyone\" or \"Aram\"?",
+  "p": "The Hebrew says Laish had dealings with no \"one\" (adam). One Greek text reads \"Aram,\" Syria, a one-letter difference.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint B text (Codex Vaticanus); followed by the KJV, ESV, NIV and BSB",
+    "orig": "עִם־אָדָם / πρὸς ἄνθρωπον",
+    "en": "with anyone (literally, with a human being)",
+    "plain": "had nothing to do with anyone"
+   },
+   {
+    "w": "Septuagint A text (Codex Alexandrinus); followed by the NRSV",
+    "orig": "μετὰ Συρίας",
+    "en": "with Syria (Aram)",
+    "plain": "had nothing to do with Aram"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew script, <i>adam</i> (אדם) \"a human being\" and <i>Aram</i> (ארם) differ only in a letter that looks very much like its neighbor (ד and ר), and the two are confused elsewhere. \"Aram\" makes a neat pair with \"far from the Sidonians\": Laish had no ties west to Sidon or north to Aram, so no ally would come. But \"anyone\" makes good sense too, and it is the reading of the Hebrew and of the B text. The Plain English follows the Hebrew.",
+  "b": "The same phrase returns in 18:28, where the Hebrew again has \"anyone\" and some modern versions again read \"Aram.\" Either way the point is the same: Laish was alone, and no one came to its rescue.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-judges",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "18:30",
+  "a": "Moses",
+  "t": "Moses or Manasseh? The suspended letter",
+  "p": "The Hebrew writes \"Manasseh\" with its N raised above the line. Without it, the name is Moses.",
+  "readings": [
+   {
+    "w": "The consonants without the raised letter; Septuagint A text (Codex Alexandrinus); Latin Vulgate; the Talmud's identification of him as Moses' grandson (Bava Batra 109b); followed by the NRSV, ESV, NIV and BSB",
+    "orig": "מֹשֶׁה / Μωυσῆ",
+    "en": "Moses",
+    "plain": "Moses"
+   },
+   {
+    "w": "Masoretic Text with the suspended nun (Leningrad and Aleppo Codices); Septuagint B text (Codex Vaticanus); followed by the KJV",
+    "orig": "מְ֠נַשֶּׁה (with the נ written above the line) / Μανασση",
+    "en": "Manasseh",
+    "plain": "Manasseh"
+   }
+  ],
+  "follow": 0,
+  "why": "Gershom was the son of Moses (Exodus 2:22; 18:3), and no Gershom son of Manasseh is known. The Hebrew scribes did not change the letters of the text; they added a small <i>nun</i> above the line, turning <i>Mosheh</i> (Moses) into <i>Menasheh</i> (Manasseh). The Talmud says Jonathan was Moses' grandson, linked to Manasseh because he acted like King Manasseh, who was famous for idolatry (Bava Batra 109b; 2 Kings 21:1–9). Rashi adds that the <i>nun</i> was written raised out of respect for Moses. So the raised letter itself is the evidence that \"Moses\" was the earlier reading.",
+  "b": "<p>The suspended <i>nun</i> is one of only four raised letters in the Hebrew Bible (the others are in Psalm 80:14 and Job 38:13, 15). The Masoretes carefully preserved it rather than writing it into the line. The Greek witnesses split: the A text reads Moses, the B text Manasseh, showing that both forms were known by the early centuries AD.</p><p>The verse's last phrase, \"until the day the land was taken into exile,\" has its own debate; see the note there.</p>",
+  "s": [
+   "bavli-bava-batra",
+   "tov-tchb",
+   "rahlfs-lxx",
+   "bhq-judges",
+   "rashi-judges"
+  ]
+ },
+ {
+  "v": "19:2",
+  "a": "broke faith with him, and she left him",
+  "t": "Unfaithful, angry, or simply gone?",
+  "p": "The Hebrew says she \"played the harlot against him.\" One Greek form says she became angry; the other, that she left him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV (\"played the whore against him\"), ESV, NIV and BSB",
+    "orig": "וַתִּזְנֶה עָלָיו פִּילַגְשׁוֹ",
+    "en": "his concubine was unfaithful (literally, 'played the harlot') against him",
+    "plain": "broke faith with him, and she left him"
+   },
+   {
+    "w": "Septuagint A text (Codex Alexandrinus); followed by the NRSV",
+    "orig": "καὶ ὠργίσθη αὐτῷ",
+    "en": "and she became angry with him",
+    "plain": "got angry with him, and she left him"
+   },
+   {
+    "w": "Septuagint B text (Codex Vaticanus)",
+    "orig": "καὶ ἐπορεύθη ἀπ᾽ αὐτοῦ",
+    "en": "and she went away from him",
+    "plain": "left him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, but with \"broke faith with him\" rather than a word for adultery, because the Hebrew construction is unusual and its sense is debated. The verb <i>zanah</i> normally means to act like a prostitute, and it is followed by <i>'al</i> only rarely, and nowhere else in the sense \"against\" (compare Ezekiel 16:15, \"because of\"). A woman who had committed adultery would hardly flee to her father's house, and her husband goes to \"speak to her heart\" (19:3), not to accuse her. Some lexicons therefore propose a second verb <i>zanah</i>, \"to be angry,\" known from related languages, which would agree with the A text. Others think the Hebrew means she was \"unfaithful\" by walking out on the marriage.",
+  "b": "The reading matters to how readers judge her. The older tradition took the Hebrew at its word: the KJV has \"played the whore against him,\" Keil and Delitzsch read real adultery, and Pseudo-Philo says she was handed over to sinners because she had sinned (<i>Biblical Antiquities</i> 45:3). Its case is that this is the Masoretic text, which the Targum also reads harshly. Many modern readers, from Boling to Trible and Exum, prefer the Greek \"became angry\" or the sense \"deserted.\" The Talmud blames the husband for the quarrel (see the note on this verse).",
+  "s": [
+   "rahlfs-lxx",
+   "boling-judges",
+   "trible-texts",
+   "bhq-judges",
+   "keil-delitzsch-judges",
+   "pseudo-philo-lab"
+  ]
+ },
+ {
+  "v": "19:18",
+  "a": "the house of the LORD",
+  "t": "The LORD's house or my house?",
+  "p": "The Hebrew says he is going to \"the house of the LORD.\" The Greek says \"to my house,\" which fits his trip home.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV, ESV, NIV and BSB",
+    "orig": "וְאֶת־בֵּית יְהוָה אֲנִי הֹלֵךְ",
+    "en": "and I am going to the house of the LORD",
+    "plain": "the house of the LORD"
+   },
+   {
+    "w": "Septuagint (both main Greek text forms); followed by the NRSV",
+    "orig": "εἰς τὸν οἶκόν μου",
+    "en": "to my house",
+    "plain": "my home"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, which makes sense: a Levite might well be on his way to serve at the sanctuary at Shiloh, also in the hill country of Ephraim. But many scholars prefer the Greek. In Hebrew, \"my house\" is <i>beti</i>; if a scribe read the final letter <i>yod</i> as a short form of the divine name, <i>beti</i> would become \"the house of the LORD.\" The story never shows him going to a sanctuary, and in 19:29 he arrives \"home.\"",
+  "s": [
+   "moore-judges",
+   "tov-tchb",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "19:28",
+  "a": "No one answered.",
+  "t": "\"For she was dead\"",
+  "p": "The Greek adds that she was dead. The Hebrew leaves the question open.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV, NRSV, ESV, NIV and BSB",
+    "orig": "וְאֵין עֹנֶה",
+    "en": "and there was no one answering",
+    "plain": "No one answered."
+   },
+   {
+    "w": "Septuagint (Greek), with some differences between its text forms",
+    "orig": "(Greek adds: 'for she was dead')",
+    "en": "but she did not answer, for she was dead",
+    "plain": "No one answered, because she was dead."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is followed, as in all major English versions. The Greek addition looks like an explanation, of the kind translators added to make a story clear. It may also be a deliberate softening, since without it the reader must consider that the woman was still alive when the Levite took the knife (19:29).",
+  "b": "Feminist readers, especially Phyllis Trible and Mieke Bal, have drawn attention to the Hebrew's silence. See the note on \"He lifted her onto the donkey.\"",
+  "s": [
+   "trible-texts",
+   "bal-death",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "19:30",
+  "a": "All who saw it said, \"Nothing like this has been done or seen from the day the Israelites came up from the land of Egypt to this day. Set your minds on it, talk it over, and speak out!\"",
+  "t": "The Levite's message",
+  "p": "The Greek gives a longer verse in which the Levite tells his messengers what to say to every Israelite.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV, ESV, NIV and BSB",
+    "orig": "וְהָיָה כָל־הָרֹאֶה וְאָמַר לֹא־נִהְיְתָה וְלֹא־נִרְאֲתָה כָּזֹאת ...",
+    "en": "and everyone who saw it said, 'Nothing like this has happened or been seen...'",
+    "plain": "All who saw it said, \"Nothing like this has been done or seen from the day the Israelites came up from the land of Egypt to this day. Set your minds on it, talk it over, and speak out!\""
+   },
+   {
+    "w": "Septuagint (both main Greek text forms, with differences of wording); followed in part by the NRSV",
+    "orig": "(Greek adds the Levite's instructions to the men he sent)",
+    "en": "And everyone who saw said, 'Nothing like this has happened...' And he commanded the men he sent, saying, 'Thus you shall say to every man of Israel: Has anything like this happened from the day the Israelites came up out of Egypt until this day? Consider it, take counsel, and speak.'",
+    "plain": "All who saw it said, \"Nothing like this has been done or seen from the day the Israelites came up from the land of Egypt to this day.\" He also gave orders to the men he sent out: \"Say this to every man of Israel: 'Has anything like this happened from the day the Israelites came up from Egypt to this day? Set your minds on it, talk it over, and speak out!'\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the shorter Hebrew. The Greek may preserve lines lost from the Hebrew, since the repeated phrase \"from the day ... to this day\" gives a copyist's eye an easy place to skip, and the call \"set your minds on it\" fits a message better than a crowd's reaction. But the Greek may also be filling out the story. Scholars are divided, and the meaning changes little: either way, all Israel is summoned to judge the crime.",
+  "s": [
+   "rahlfs-lxx",
+   "boling-judges",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "20:15",
+  "a": "twenty-six thousand",
+  "t": "How many Benjaminites?",
+  "p": "The Hebrew counts 26,000. The two Greek text forms read 25,000 and 23,000.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); followed by the KJV, ESV, NIV, NRSV and BSB",
+    "orig": "עֶשְׂרִים וְשִׁשָּׁה אֶלֶף",
+    "en": "twenty-six thousand",
+    "plain": "twenty-six thousand"
+   },
+   {
+    "w": "Septuagint A text (Codex Alexandrinus)",
+    "orig": "εἴκοσι καὶ πέντε χιλιάδες",
+    "en": "twenty-five thousand",
+    "plain": "twenty-five thousand"
+   },
+   {
+    "w": "Septuagint B text (Codex Vaticanus)",
+    "orig": "εἴκοσι τρεῖς χιλιάδες",
+    "en": "twenty-three thousand",
+    "plain": "twenty-three thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The chapter's own sums do not quite meet. Benjamin loses 25,100 men (20:35) and 600 survive (20:47), a total of 25,700. The Hebrew of this verse gives 26,000 plus Gibeah's 700, which is 26,700. The A text's 25,000 plus 700 makes exactly 25,700. That could be the original number, but a reading that solves a problem this neatly may also be a scribe's correction, and the B text's 23,000 fits neither. The Plain English follows the Hebrew and leaves the gap visible.",
+  "b": "Large numbers were easily miscopied, and the numbers in these chapters may count units rather than single men (see the note on 20:2). The point of the story does not depend on the exact sum: a whole tribe was nearly wiped out.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-judges",
+   "bhq-judges"
+  ]
+ },
+ {
+  "v": "20:33",
+  "a": "from the open ground of Geba",
+  "t": "Where was the ambush?",
+  "p": "The Hebrew Ma'areh-geba is obscure. The Greek read a similar word meaning \"west.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the KJV has \"out of the meadows of Gibeah\"",
+    "orig": "מִמַּעֲרֵה־גָבַע",
+    "en": "from the bare place (or clearing) of Geba",
+    "plain": "from the open ground of Geba"
+   },
+   {
+    "w": "Septuagint A text (Codex Alexandrinus); followed by the RSV and NRSV (\"west of Geba\") and the BSB (\"west of Gibeah\")",
+    "orig": "ἀπὸ δυσμῶν τῆς Γαβαα",
+    "en": "from the west of Gibeah",
+    "plain": "from the area west of Gibeah"
+   },
+   {
+    "w": "Septuagint B text (Codex Vaticanus)",
+    "orig": "ἀπὸ Μααραγαβε",
+    "en": "from Maaragabe (the Hebrew words written out as a place name)",
+    "plain": "from Maareh-geba"
+   }
+  ],
+  "follow": 0,
+  "why": "The word <i>ma'areh</i> appears only here; it probably means a bare, open place. The A text seems to have read <i>ma'arav</i>, \"west,\" which differs by one letter, and it names Gibeah rather than Geba. The B text simply spells the Hebrew out as a place name. Either way the ambush lay hidden near the town and burst out when the main army drew Benjamin away. The Plain English keeps the Hebrew \"Geba\" here, as part of a name for a stretch of ground, though in 20:10 it reads \"Gibeah\" (see the note there).",
+  "s": [
+   "moore-judges",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "20:43",
+  "a": "trod them down where they rested",
+  "t": "\"At rest\" or \"from Nohah\"?",
+  "p": "The Hebrew word menuchah means \"rest.\" The Greek took it as a place name, Nohah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the KJV has \"trode them down with ease\"",
+    "orig": "מְנוּחָה הִדְרִיכֻהוּ",
+    "en": "at a resting place (or easily) they trod him down",
+    "plain": "trod them down where they rested"
+   },
+   {
+    "w": "Septuagint B text (Codex Vaticanus); followed by the RSV, NRSV and ESV (\"from Nohah\")",
+    "orig": "ἀπὸ Νουα",
+    "en": "they trod him down from Nohah",
+    "plain": "trod them down from Nohah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has <i>menuchah</i>, \"rest, resting place,\" which can mean they caught the Benjaminites wherever they stopped, or that they did it \"with ease.\" The B text of the Greek reads a place name, perhaps from the Benjaminite clan Nohah (1 Chronicles 8:2); the A text has no place name here. Since no town Nohah is otherwise known, the Plain English keeps the ordinary word.",
+  "s": [
+   "moore-judges",
+   "rahlfs-lxx"
+  ]
+ }
+]

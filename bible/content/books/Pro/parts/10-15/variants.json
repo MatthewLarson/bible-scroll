@@ -1,0 +1,700 @@
+[
+ {
+  "v": "10:4",
+  "a": "A slack hand at work leaves a person poor,",
+  "t": "A different line and an added couplet in the Greek",
+  "p": "The Greek opens \"Poverty humbles a man\" and adds a couplet after the verse (10:4a).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts",
+    "orig": "רָאשׁ עֹשֶׂה כַף־רְמִיָּה",
+    "en": "poor is one who works with a slack palm",
+    "plain": "A slack hand at work leaves a person poor,"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); Sinaiticus and Alexandrinus also have the couplet",
+    "orig": "πενία ἄνδρα ταπεινοῖ ... (4a) υἱὸς πεπαιδευμένος σοφὸς ἔσται, τῷ δὲ ἄφρονι διακόνῳ χρήσεται",
+    "en": "Poverty humbles a man ... (4a) An instructed son will be wise, and will use the fool as a servant",
+    "plain": "Poverty brings a man low, ... An instructed son will be wise, / and he will make the fool his servant."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew line is about the slack worker; the Greek turns it into a general saying about poverty, perhaps reading the consonants differently, and adds a couplet that links 10:4 with the wise son of 10:1 and 10:5. The added couplet is found only in the Greek. The Plain follows the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "and a stubborn fool who keeps talking is brought down.",
+  "t": "A repeated line, or a lost contrast?",
+  "p": "The Hebrew repeats 10:8b. The Greek has a contrasting line about open rebuke.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וֶאֱוִיל שְׂפָתַיִם יִלָּבֵט",
+    "en": "and a fool of lips will be thrown down",
+    "plain": "and a stubborn fool who keeps talking is brought down."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ὁ δὲ ἐλέγχων μετὰ παρρησίας εἰρηνοποιεῖ",
+    "en": "but the one who rebukes with boldness makes peace",
+    "plain": "but one who rebukes openly makes peace."
+   }
+  ],
+  "follow": 0,
+  "why": "Every Hebrew manuscript repeats the second line of 10:8 here. Many scholars think the Greek keeps the original contrast (the sly winker against the open rebuker), and some modern versions follow it. But the collectors reused half-lines often (10:6b and 10:11b), so a repeat is not proof of a copying error. The Plain keeps the Hebrew and shows the Greek here.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "treacherous people are ruined by their own twisting.",
+  "t": "\"Destroys them\" or \"their destruction\"",
+  "p": "The marginal reading has a verb, \"destroys them\"; the written text has a noun, \"their destruction\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008): the reading the Masoretes marked to be read aloud (Qere); most modern versions",
+    "orig": "יְשָׁדֵּם",
+    "en": "it destroys them",
+    "plain": "treacherous people are ruined by their own twisting."
+   },
+   {
+    "w": "Masoretic Text, Leningrad Codex: the written consonants (Ketiv)",
+    "orig": "וְשַׁדָּם",
+    "en": "and their destruction",
+    "plain": "the crookedness of the treacherous is their destruction."
+   }
+  ],
+  "follow": 0,
+  "why": "The two forms differ only in vowels and one letter, and the meaning is the same: the treacherous are ruined by their own crookedness. The Plain follows the marginal reading, as most translations do.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "Upright people are led by their own integrity;",
+  "t": "A different verse in the Greek",
+  "p": "The Greek has a different saying: a righteous man dies leaving regret, and the ungodly's ruin is quick.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts",
+    "orig": "תֻּמַּת יְשָׁרִים תַּנְחֵם",
+    "en": "the integrity of the upright guides them",
+    "plain": "Upright people are led by their own integrity;"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); Sinaiticus agrees; Alexandrinus adds before it a Greek form of the Hebrew 11:3 and 11:4",
+    "orig": "ἀποθανὼν δίκαιος ἔλιπεν μετάμελον, πρόχειρος δὲ γίνεται καὶ ἐπίχαρτος ἀσεβῶν ἀπώλεια",
+    "en": "A righteous man at his death leaves regret, but the destruction of the ungodly comes quickly and gives joy",
+    "plain": "When a righteous man dies, he leaves people grieving, / but the ruin of the wicked comes fast and brings joy."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek verse has little in common with the Hebrew; it may be a free rewriting or a different saying that took its place, and its second half is close to 11:10. Codex Alexandrinus shows a scribe adding a translation of the Hebrew. The Plain follows the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "11:7",
+  "a": "When a wicked person dies, his hope comes to an end,",
+  "t": "Wicked or righteous? (line 1)",
+  "p": "This entry goes with the next. The Greek turns the verse around: when a righteous man dies, his hope does not perish.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "בְּמוֹת אָדָם רָשָׁע תֹּאבַד תִּקְוָה",
+    "en": "at the death of a wicked man hope perishes",
+    "plain": "When a wicked person dies, his hope comes to an end,"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "τελευτήσαντος ἀνδρὸς δικαίου οὐκ ὄλλυται ἐλπίς",
+    "en": "when a righteous man dies, hope does not perish",
+    "plain": "When a righteous man dies, his hope does not come to an end,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes both lines about the wicked. The Greek makes the verse a contrast, and in doing so speaks of a hope that outlasts death, a theme of the later Jewish wisdom of its time (compare Wisdom of Solomon 3:1–4). That looks like the translator's interpretation, so the Plain keeps the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "11:7",
+  "a": "and the hope he placed in strength has perished.",
+  "t": "Wicked or righteous? (line 2)",
+  "p": "This entry goes with the one before. The Greek's second line is about the boast of the ungodly.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְתוֹחֶלֶת אוֹנִים אָבָדָה",
+    "en": "and the hope of strength (or of wealth) has perished",
+    "plain": "and the hope he placed in strength has perished."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "τὸ δὲ καύχημα τῶν ἀσεβῶν ὄλλυται",
+    "en": "but the boast of the ungodly perishes",
+    "plain": "but the boast of the wicked comes to an end."
+   }
+  ],
+  "follow": 0,
+  "why": "<i>'Onim</i> can mean strength or wealth; some read it as a form of <i>'aven</i>, \"wicked men\", which would give \"the hope of the wicked\". The Greek's \"the ungodly\" may reflect that reading. The Plain keeps the Hebrew word in its common sense.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "11:16",
+  "a": "and the ruthless take hold of riches.",
+  "t": "Two lines or four",
+  "p": "The Greek turns the verse into four lines about two kinds of wives and two kinds of men.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְעָרִיצִים יִתְמְכוּ־עֹשֶׁר",
+    "en": "and ruthless men take hold of wealth",
+    "plain": "and the ruthless take hold of riches."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "θρόνος δὲ ἀτιμίας γυνὴ μισοῦσα δίκαια. πλούτου ὀκνηροὶ ἐνδεεῖς γίνονται, οἱ δὲ ἀνδρεῖοι ἐρείδονται πλούτῳ",
+    "en": "but a woman hating righteousness is a throne of dishonor; the lazy become needy of wealth, but the manly prop themselves on wealth",
+    "plain": "but a woman who hates what is right is a seat of dishonor. / The lazy come to lack wealth, / but the hard-working prop themselves up with wealth."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek begins \"A gracious wife raises up glory for her husband\" and then adds the lines shown. Some scholars think the Hebrew lost two half-lines here, since the four-line Greek has a neat double contrast. No Hebrew manuscript has them, so the Plain keeps the Hebrew couplet.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "11:30",
+  "a": "and one who wins people over is wise.",
+  "t": "Wise, or violence?",
+  "p": "The Hebrew says the wise \"take lives\". The Greek and many scholars read a contrast about violence.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְלֹקֵחַ נְפָשׁוֹת חָכָם",
+    "en": "and one who takes lives is wise",
+    "plain": "and one who wins people over is wise."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ἀφαιροῦνται δὲ ἄωροι ψυχαὶ παρανόμων",
+    "en": "but the lives of the lawless are taken away before their time",
+    "plain": "but the lives of the lawless are taken away before their time."
+   },
+   {
+    "w": "Proposed correction (many commentators): חָמָס for חָכָם",
+    "orig": "וְלֹקֵחַ נְפָשׁוֹת חָמָס",
+    "en": "but violence takes lives",
+    "plain": "but violence takes lives away."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Takes lives\" usually means \"kills\", which is why scholars have suggested reading <i>chamas</i>, \"violence\", instead of <i>chakham</i>, \"wise\": the letters are close. The Greek seems to support a contrast with the first line. But the Hebrew can mean \"captures people\", winning them over (compare 6:25), and it is the reading of every manuscript, so the Plain keeps it. See the note.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs",
+   "toy-proverbs"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "if the righteous get their due here on earth,",
+  "t": "Repaid, or barely saved? (line 1)",
+  "p": "This entry goes with the next. The Greek, quoted in 1 Peter 4:18, says the righteous are saved only with difficulty.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "הֵן צַדִּיק בָּאָרֶץ יְשֻׁלָּם",
+    "en": "look, the righteous is repaid on the earth",
+    "plain": "if the righteous get their due here on earth,"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); quoted in 1 Peter 4:18",
+    "orig": "εἰ ὁ μὲν δίκαιος μόλις σῴζεται",
+    "en": "if the righteous is barely saved",
+    "plain": "if the righteous is saved only with difficulty,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator may have read <i>yeshullam</i>, \"repaid\", in a sense close to \"made whole, saved\", and supplied \"barely\" to keep the argument from lesser to greater. Peter's letter follows the Greek. The Plain keeps the Hebrew, and the note shows how 1 Peter uses the Greek.",
+  "s": [
+   "swete-ot-vol2",
+   "waltke-proverbs"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "how much more the wicked man and the sinner!",
+  "t": "Repaid, or barely saved? (line 2)",
+  "p": "This entry goes with the one before. The Greek asks where the ungodly and the sinner will appear.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "אַף כִּי־רָשָׁע וְחוֹטֵא",
+    "en": "how much more the wicked and the sinner",
+    "plain": "how much more the wicked man and the sinner!"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); quoted in 1 Peter 4:18",
+    "orig": "ὁ ἀσεβὴς καὶ ἁμαρτωλὸς ποῦ φανεῖται",
+    "en": "where will the ungodly and sinner appear?",
+    "plain": "where will the ungodly and the sinner show up?"
+   }
+  ],
+  "follow": 0,
+  "why": "Both forms make the same \"how much more\" argument. The Greek puts it as a question about the judgment, which is how 1 Peter 4:18 uses it.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "12:9",
+  "a": "who has a servant",
+  "t": "Has a servant, or serves himself?",
+  "p": "With different vowels the Hebrew means \"who works for himself\". The Greek read it that way.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְעֶבֶד לוֹ",
+    "en": "and has a servant",
+    "plain": "who has a servant"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "δουλεύων ἑαυτῷ",
+    "en": "serving himself",
+    "plain": "who works for himself"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants <i>'bd lw</i> can be read <i>'eved lo</i>, \"a servant to him\" (the Masoretic vowels), or <i>'oved lo</i>, \"working for himself\". Both fit: better a modest man who has one servant, or a modest man who does his own work, than a show-off with no bread. The Plain follows the Masoretic vowels.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "12:13",
+  "a": "but the righteous man gets out of trouble.",
+  "t": "An added couplet in the Greek (12:13a)",
+  "p": "The Greek adds a couplet after the verse about gentle looks and harsh meetings at the gates.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts",
+    "orig": "וַיֵּצֵא מִצָּרָה צַדִּיק",
+    "en": "and a righteous one comes out of trouble",
+    "plain": "but the righteous man gets out of trouble."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); Sinaiticus and Alexandrinus agree",
+    "orig": "ἐκφεύγει δὲ ἐξ αὐτῶν δίκαιος. (13a) ὁ βλέπων λεῖα ἐλεηθήσεται, ὁ δὲ συναντῶν ἐν πύλαις ἐκθλίψει ψυχάς",
+    "en": "but the righteous escapes from them. (13a) One who looks gently will be shown mercy, but one who confronts people in the gates will crush souls",
+    "plain": "but the righteous man escapes them. / One whose look is gentle will be shown mercy, / but one who picks quarrels at the gates will crush people."
+   }
+  ],
+  "follow": 0,
+  "why": "The couplet is found only in the Greek; it is close in thought to 10:10 and 12:18. The Plain follows the Hebrew.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "12:14",
+  "a": "is paid back to him.",
+  "t": "\"He repays\" or \"it returns\"",
+  "p": "The marginal reading says someone (God) repays; the written text says the deed returns by itself.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008): the reading the Masoretes marked to be read aloud (Qere); most modern versions",
+    "orig": "יָשִׁיב לוֹ",
+    "en": "he will repay to him",
+    "plain": "is paid back to him."
+   },
+   {
+    "w": "Masoretic Text, Leningrad Codex: the written consonants (Ketiv)",
+    "orig": "יָשׁוּב לוֹ",
+    "en": "it will return to him",
+    "plain": "comes back to him."
+   }
+  ],
+  "follow": 0,
+  "why": "The written text has the deed come back on its own; the marginal reading, followed by the Plain and most versions, has someone pay it back, which most read as God. The difference is small but has been used in debates about whether Proverbs sees reward as built into deeds or given by God.",
+  "s": [
+   "tov-tchb",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "12:26",
+  "a": "but the road the wicked take sends them wandering.",
+  "t": "A longer verse in the Greek",
+  "p": "The Greek has three lines: a thoughtful righteous man is his own friend, and evil pursues sinners.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts",
+    "orig": "וְדֶרֶךְ רְשָׁעִים תַּתְעֵם",
+    "en": "and the way of the wicked leads them astray",
+    "plain": "but the road the wicked take sends them wandering."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked); Alexandrinus adds a further line",
+    "orig": "ἐπιγνώμων δίκαιος ἑαυτοῦ φίλος ἔσται, ἁμαρτάνοντας δὲ καταδιώξεται κακά, ἡ δὲ ὁδὸς τῶν ἀσεβῶν πλανήσει αὐτούς",
+    "en": "A discerning righteous man will be his own friend, but evil will pursue sinners, and the way of the ungodly will lead them astray",
+    "plain": "A righteous man with good judgment will be his own friend, / but trouble will hunt down those who sin, / and the road of the wicked will lead them astray."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to read the hard first line differently and adds a middle line found also at 13:21. The Plain follows the Hebrew; the note on the first line gives the readings of the verb.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "12:28",
+  "a": "and where its path goes, death is not.",
+  "t": "\"No death\" or \"to death\"?",
+  "p": "The Hebrew says the path holds \"no death\". The Greek and many scholars read \"to death\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְדֶרֶךְ נְתִיבָה אַל־מָוֶת",
+    "en": "and the way of its path: no death",
+    "plain": "and where its path goes, death is not."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ὁδοὶ δὲ μνησικάκων εἰς θάνατον",
+    "en": "but the ways of those who bear grudges lead to death",
+    "plain": "but the ways of those who hold grudges lead to death."
+   },
+   {
+    "w": "Proposed reading (vowels changed to 'el-mavet, many commentators)",
+    "orig": "וְדֶרֶךְ נְתִיבָה אֶל־מָוֶת",
+    "en": "but a (wrong) path leads to death",
+    "plain": "but another path leads to death."
+   }
+  ],
+  "follow": 0,
+  "why": "Many scholars think the vowels of <i>'al</i> should be <i>'el</i>, \"to\", which gives the usual contrast of life and death, as the Greek has. But <i>'al-mavet</i> is the reading of the Hebrew text, and some scholars defend it as a statement that the righteous path leads beyond death. See the note.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs",
+   "waltke-proverbs"
+  ]
+ },
+ {
+  "v": "13:15",
+  "a": "is hard as rock.",
+  "t": "Hard, or ruin?",
+  "p": "The Hebrew word usually means \"lasting\". The Greek has \"in ruin\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "אֵיתָן",
+    "en": "enduring, hard",
+    "plain": "is hard as rock."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ἐν ἀπωλείᾳ",
+    "en": "in destruction",
+    "plain": "leads to ruin."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives the expected contrast, and some versions follow it. The Hebrew <i>'eitan</i> can mean hard and unchanging, which fits a road no one can travel easily. The Plain keeps the Hebrew. See the note.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "13:17",
+  "a": "A messenger who is wicked drops into trouble,",
+  "t": "Messenger or king?",
+  "p": "The Greek read \"king\" instead of \"messenger\". With other vowels the verb means \"makes others fall\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "מַלְאָךְ רָשָׁע יִפֹּל בְּרָע",
+    "en": "a wicked messenger falls into trouble",
+    "plain": "A messenger who is wicked drops into trouble,"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "βασιλεὺς θρασὺς ἐμπεσεῖται εἰς κακά",
+    "en": "a rash king will fall into evils",
+    "plain": "A reckless king drops into trouble,"
+   },
+   {
+    "w": "Proposed reading (vowels changed to yappil, some commentators)",
+    "orig": "מַלְאָךְ רָשָׁע יַפִּל בְּרָע",
+    "en": "a wicked messenger makes (others) fall into trouble",
+    "plain": "A messenger who is wicked drops others into trouble,"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Mal'akh</i>, \"messenger\", and <i>melekh</i>, \"king\", have the same first three consonants, and the Greek read the second. The parallel with \"envoy\" supports \"messenger\". Some scholars read the verb as causative, since a bad messenger harms the one who sent him (compare 10:26; 25:13). The Plain keeps the Masoretic Text.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "13:20",
+  "a": "The one who walks with the wise grows wise,",
+  "t": "Walk with the wise",
+  "p": "The written text has commands: \"Walk with the wise and become wise.\" The marginal reading has a statement.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008): the reading the Masoretes marked to be read aloud (Qere); most modern versions",
+    "orig": "הוֹלֵךְ אֶת־חֲכָמִים יֶחְכָּם",
+    "en": "one who walks with the wise becomes wise",
+    "plain": "The one who walks with the wise grows wise,"
+   },
+   {
+    "w": "Masoretic Text, Leningrad Codex: the written consonants (Ketiv)",
+    "orig": "הָלוֹךְ אֶת־חֲכָמִים וַחֲכָם",
+    "en": "walk with the wise and become wise",
+    "plain": "Walk with the wise and become wise,"
+   }
+  ],
+  "follow": 0,
+  "why": "The written consonants give two commands; the Masoretes marked them to be read as a statement, which matches the second line. The meaning is the same. The Plain follows the marginal reading, as most versions do.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:1",
+  "a": "The wisest of women builds her house,",
+  "t": "\"The wisest of women\" or \"Wisdom\"",
+  "p": "The Hebrew vowels read \"the wisest of women\"; re-pointed, the same letters read \"Wisdom\", as in 9:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "חַכְמוֹת נָשִׁים",
+    "en": "the wise ones of women",
+    "plain": "The wisest of women builds her house,"
+   },
+   {
+    "w": "The same Hebrew consonants with different vowels (chokhmot), proposed by many scholars, usually with \"of women\" taken as a gloss",
+    "orig": "חָכְמוֹת",
+    "en": "Wisdom",
+    "plain": "Wisdom builds her house,"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "σοφαὶ γυναῖκες ᾠκοδόμησαν οἴκους",
+    "en": "wise women built houses",
+    "plain": "Wise women build houses,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic vowels, the same form as Judges 5:29, make the verse a saying about a woman who runs her household well, and the Greek also has wise women. Reading chokhmot ties the verse to Wisdom's house in 9:1 and to Woman Folly in 9:13–18, but it changes the vowels and usually drops a word. The Plain follows the Hebrew as pointed.",
+  "s": [
+   "fox-proverbs",
+   "waltke-proverbs",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "14:17",
+  "a": "and the schemer is hated.",
+  "t": "Hated, or patient?",
+  "p": "The Greek has \"but a sensible man bears much\", a contrast with the hothead.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְאִישׁ מְזִמּוֹת יִשָּׂנֵא",
+    "en": "and a man of schemes is hated",
+    "plain": "and the schemer is hated."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ἀνὴρ δὲ φρόνιμος πολλὰ ὑποφέρει",
+    "en": "but a sensible man puts up with much",
+    "plain": "but a sensible man puts up with much."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may have read <i>yissa'</i>, \"bears\", for <i>yissane'</i>, \"is hated\", and taken <i>mezimmot</i> in its good sense, \"discretion\". The Hebrew makes both lines about bad tempers: the hothead acts foolishly, the cold schemer is hated. The Plain keeps the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "14:21",
+  "a": "the lowly",
+  "t": "The lowly or the poor",
+  "p": "The written text has 'aniyyim, \"the poor\"; the marginal reading has 'anawim, \"the humble, lowly\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008): the reading the Masoretes marked to be read aloud (Qere); most modern versions",
+    "orig": "עֲנָוִים",
+    "en": "humble, lowly",
+    "plain": "the lowly"
+   },
+   {
+    "w": "Masoretic Text, Leningrad Codex: the written consonants (Ketiv)",
+    "orig": "עֲנִיִּים",
+    "en": "poor",
+    "plain": "the poor"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words are close in form and meaning, and the Bible's scribes often wrote one for the other. \"Lowly\" covers both the poor and the humble. The Greek has \"the poor\" (<i>ptōchous</i>).",
+  "s": [
+   "tov-tchb",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "14:24",
+  "a": "Their riches are the crown of the wise;",
+  "t": "Riches or shrewdness?",
+  "p": "The Greek has \"the shrewd man is the crown of the wise\", as if the Hebrew read \"their shrewdness\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "עֲטֶרֶת חֲכָמִים עָשְׁרָם",
+    "en": "the crown of the wise is their wealth",
+    "plain": "Their riches are the crown of the wise;"
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "στέφανος σοφῶν πανοῦργος",
+    "en": "the crown of the wise is a shrewd man",
+    "plain": "Their shrewdness is the crown of the wise;"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>'Ashram</i>, \"their wealth\", and <i>'ormatam</i>, \"their shrewdness\", look alike in Hebrew script. Some scholars prefer the Greek, which gives a smoother line about virtue. The Hebrew fits the book's view that wisdom often brings wealth (3:16; 8:18). The Plain keeps the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "14:32",
+  "a": "takes refuge in his death.",
+  "t": "In his death, or in his integrity?",
+  "p": "The Hebrew has \"in his death\". The Greek read \"in his integrity\", with two letters switched.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וְחֹסֶה בְמוֹתוֹ צַדִּיק",
+    "en": "and the righteous takes refuge in his death",
+    "plain": "takes refuge in his death."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ὁ δὲ πεποιθὼς τῇ ἑαυτοῦ ὁσιότητι δίκαιος",
+    "en": "but the one who trusts in his own holiness is righteous",
+    "plain": "takes refuge in his integrity."
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>bmwtw</i>, \"in his death\", and <i>btmw</i>, \"in his integrity\", differ by two letters in a different order. Many scholars follow the Greek, since Proverbs rarely speaks of hope in death. The Plain keeps the Hebrew, which all Hebrew manuscripts have. See the note.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs",
+   "waltke-proverbs"
+  ]
+ },
+ {
+  "v": "14:33",
+  "a": "among fools, too, she makes herself known.",
+  "t": "Known, or not known?",
+  "p": "The Greek adds \"not\": wisdom is not recognized in the heart of fools.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts; KJV",
+    "orig": "וּבְקֶרֶב כְּסִילִים תִּוָּדֵעַ",
+    "en": "and in the inner part of fools it is made known",
+    "plain": "among fools, too, she makes herself known."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "ἐν δὲ καρδίᾳ ἀφρόνων οὐ διαγινώσκεται",
+    "en": "but in the heart of fools it is not recognized",
+    "plain": "but in the heart of fools she is not recognized."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives the expected contrast, and several modern versions add \"not\". The Hebrew may be ironic (fools show off what little they know, compare 12:23) or may mean that wisdom makes itself known even among fools. The Plain keeps the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "15:14",
+  "a": "the mouth of fools",
+  "t": "Mouth or face",
+  "p": "The written text has \"the face of fools\"; the marginal reading has \"the mouth of fools\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008): the reading the Masoretes marked to be read aloud (Qere); most modern versions",
+    "orig": "וּפִי כְסִילִים",
+    "en": "and the mouth of fools",
+    "plain": "the mouth of fools"
+   },
+   {
+    "w": "Masoretic Text, Leningrad Codex: the written consonants (Ketiv)",
+    "orig": "וּפְנֵי כְסִילִים",
+    "en": "and the face of fools",
+    "plain": "the face of fools"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter. \"Mouth\" fits the verb \"grazes\" and matches 15:2. The Plain follows the marginal reading, as most versions do.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "15:33",
+  "a": "and before honor goes humility.",
+  "t": "Wisdom and glory in the Greek",
+  "p": "The Greek reads \"instruction and wisdom\", and in place of humility before honor has glory answering to it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all Hebrew manuscripts",
+    "orig": "וְלִפְנֵי כָבוֹד עֲנָוָה",
+    "en": "and before honor, humility",
+    "plain": "and before honor goes humility."
+   },
+   {
+    "w": "Septuagint, the Old Greek of Proverbs: Codex Vaticanus (B, 300s AD) as printed in Swete's edition (checked)",
+    "orig": "φόβος θεοῦ παιδεία καὶ σοφία, καὶ ἀρχὴ δόξης ἀποκριθήσεται αὐτῇ",
+    "en": "The fear of God is instruction and wisdom, and the beginning of glory will answer to it",
+    "plain": "The fear of God is instruction and wisdom, / and the first of glory will answer to it."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has \"God\" for the LORD, joins instruction and wisdom, and lacks humility in the second line; a corrector of Sinaiticus and Alexandrinus add a line saying that glory comes to the humble. The Hebrew line returns at 18:12, and the Plain follows the Hebrew.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ }
+]

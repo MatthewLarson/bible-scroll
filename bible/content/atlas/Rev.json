@@ -1,0 +1,427 @@
+{
+  "chapters": {
+    "1": {
+      "places": [
+        "asia",
+        "patmos",
+        "ephesus",
+        "laodicea",
+        "pergamum",
+        "philadelphia",
+        "sardis",
+        "smyrna",
+        "thyatira"
+      ],
+      "people": [
+        "god",
+        "jesus-2",
+        "john-23",
+        "holy-spirit"
+      ],
+      "events": []
+    },
+    "2": {
+      "places": [
+        "ephesus",
+        "smyrna",
+        "pergamum",
+        "thyatira"
+      ],
+      "people": [
+        "god",
+        "holy-spirit",
+        "satan",
+        "antipas",
+        "balaam",
+        "balak",
+        "israel",
+        "jesus-2",
+        "jezebel"
+      ],
+      "events": []
+    },
+    "3": {
+      "places": [
+        "sardis",
+        "philadelphia",
+        "jerusalem",
+        "laodicea"
+      ],
+      "people": [
+        "god",
+        "holy-spirit",
+        "david",
+        "satan"
+      ],
+      "events": []
+    },
+    "4": {
+      "places": [],
+      "people": [
+        "jesus-2",
+        "god"
+      ],
+      "events": []
+    },
+    "5": {
+      "places": [],
+      "people": [
+        "david",
+        "god",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "6": {
+      "places": [],
+      "people": [
+        "jesus-2",
+        "god"
+      ],
+      "events": []
+    },
+    "7": {
+      "places": [],
+      "people": [
+        "god",
+        "israel",
+        "gad",
+        "reuben",
+        "asher",
+        "manasseh",
+        "issachar",
+        "levi",
+        "simeon",
+        "benjamin-5",
+        "joseph",
+        "zebulun",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "8": {
+      "places": [],
+      "people": [
+        "god"
+      ],
+      "events": []
+    },
+    "9": {
+      "places": [
+        "euphrates"
+      ],
+      "people": [
+        "god",
+        "apollyon"
+      ],
+      "events": []
+    },
+    "10": {
+      "places": [],
+      "people": [
+        "god"
+      ],
+      "events": []
+    },
+    "11": {
+      "places": [
+        "egypt",
+        "sodom"
+      ],
+      "people": [
+        "god",
+        "jesus-2",
+        "holy-spirit"
+      ],
+      "events": []
+    },
+    "12": {
+      "places": [],
+      "people": [
+        "god",
+        "michael-11",
+        "satan",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "13": {
+      "places": [],
+      "people": [
+        "god",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "14": {
+      "places": [
+        "mount-zion",
+        "babylon"
+      ],
+      "people": [
+        "god",
+        "jesus-2",
+        "holy-spirit"
+      ],
+      "events": []
+    },
+    "15": {
+      "places": [],
+      "people": [
+        "god",
+        "jesus-2",
+        "moses"
+      ],
+      "events": []
+    },
+    "16": {
+      "places": [
+        "euphrates",
+        "armageddon",
+        "babylon"
+      ],
+      "people": [
+        "god",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "17": {
+      "places": [
+        "babylon"
+      ],
+      "people": [
+        "jesus-2",
+        "god"
+      ],
+      "events": []
+    },
+    "18": {
+      "places": [
+        "babylon"
+      ],
+      "people": [
+        "god"
+      ],
+      "events": []
+    },
+    "19": {
+      "places": [],
+      "people": [
+        "god",
+        "jesus-2"
+      ],
+      "events": []
+    },
+    "20": {
+      "places": [
+        "gog-3",
+        "magog-2"
+      ],
+      "people": [
+        "satan",
+        "god",
+        "jesus-2",
+        "gog-2",
+        "magog"
+      ],
+      "events": []
+    },
+    "21": {
+      "places": [
+        "jerusalem"
+      ],
+      "people": [
+        "god",
+        "john-23",
+        "jesus-2",
+        "israel"
+      ],
+      "events": []
+    },
+    "22": {
+      "places": [],
+      "people": [
+        "god",
+        "jesus-2",
+        "john-23",
+        "david",
+        "holy-spirit"
+      ],
+      "events": []
+    }
+  },
+  "places": {
+    "asia": {
+      "name": "Asia",
+      "lat": 39.64014749138555,
+      "lon": 31.03325453
+    },
+    "patmos": {
+      "name": "Patmos",
+      "lat": 37.30752,
+      "lon": 26.548274
+    },
+    "ephesus": {
+      "name": "Ephesus",
+      "lat": 37.941944,
+      "lon": 27.339722
+    },
+    "laodicea": {
+      "name": "Laodicea",
+      "lat": 37.83692,
+      "lon": 29.10786
+    },
+    "pergamum": {
+      "name": "Pergamum",
+      "lat": 39.11894592,
+      "lon": 27.1651261
+    },
+    "philadelphia": {
+      "name": "Philadelphia",
+      "lat": 38.34904803,
+      "lon": 28.51946209
+    },
+    "sardis": {
+      "name": "Sardis",
+      "lat": 38.4768269,
+      "lon": 28.11413119
+    },
+    "smyrna": {
+      "name": "Smyrna",
+      "lat": 38.45196038,
+      "lon": 27.16192105
+    },
+    "thyatira": {
+      "name": "Thyatira",
+      "lat": 38.922933,
+      "lon": 27.840523
+    },
+    "jerusalem": {
+      "name": "Jerusalem",
+      "lat": 31.776667,
+      "lon": 35.234167
+    },
+    "euphrates": {
+      "name": "Euphrates",
+      "lat": 34.74942377777777,
+      "lon": 40.93640094
+    },
+    "egypt": {
+      "name": "Egypt",
+      "lat": 26.4902014068366,
+      "lon": 29.88079617
+    },
+    "sodom": {
+      "name": "Sodom",
+      "lat": 31.19656033,
+      "lon": 35.39648412
+    },
+    "mount-zion": {
+      "name": "Mount Zion",
+      "lat": 31.776667,
+      "lon": 35.234167
+    },
+    "babylon": {
+      "name": "Babylon",
+      "lat": 32.53617,
+      "lon": 44.42082
+    },
+    "armageddon": {
+      "name": "Armageddon",
+      "lat": 32.58418314,
+      "lon": 35.18229166
+    },
+    "gog-3": {
+      "name": "Gog",
+      "lat": 46,
+      "lon": 47
+    },
+    "magog-2": {
+      "name": "Magog",
+      "lat": 46,
+      "lon": 47
+    }
+  },
+  "people": {
+    "god": {
+      "name": "God"
+    },
+    "jesus-2": {
+      "name": "Jesus"
+    },
+    "john-23": {
+      "name": "John"
+    },
+    "holy-spirit": {
+      "name": "Holy Spirit"
+    },
+    "satan": {
+      "name": "Satan"
+    },
+    "antipas": {
+      "name": "Antipas"
+    },
+    "balaam": {
+      "name": "Balaam"
+    },
+    "balak": {
+      "name": "Balak"
+    },
+    "israel": {
+      "name": "Israel"
+    },
+    "jezebel": {
+      "name": "Jezebel"
+    },
+    "david": {
+      "name": "David"
+    },
+    "gad": {
+      "name": "Gad"
+    },
+    "reuben": {
+      "name": "Reuben"
+    },
+    "asher": {
+      "name": "Asher"
+    },
+    "manasseh": {
+      "name": "Manasseh"
+    },
+    "issachar": {
+      "name": "Issachar"
+    },
+    "levi": {
+      "name": "Levi"
+    },
+    "simeon": {
+      "name": "Simeon"
+    },
+    "benjamin-5": {
+      "name": "Benjamin"
+    },
+    "joseph": {
+      "name": "Joseph"
+    },
+    "zebulun": {
+      "name": "Zebulun"
+    },
+    "apollyon": {
+      "name": "Apollyon"
+    },
+    "michael-11": {
+      "name": "Michael"
+    },
+    "moses": {
+      "name": "Moses"
+    },
+    "gog-2": {
+      "name": "Gog"
+    },
+    "magog": {
+      "name": "Magog"
+    }
+  },
+  "events": {}
+}

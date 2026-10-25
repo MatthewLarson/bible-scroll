@@ -1,0 +1,629 @@
+[
+ {
+  "v": "11:2",
+  "a": "through his disciples",
+  "t": "\"Through\" or \"two\" of his disciples?",
+  "p": "The oldest manuscripts say John sent word \"through\" his disciples. Later ones, and the KJV, say \"two of his disciples.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus, the first hand of Ephraemi Rescriptus, Bezae and others (300s–400s) (Metzger), the Syriac and Gothic versions; NA28, SBLGNT, THGNT",
+    "orig": "διὰ τῶν μαθητῶν αὐτοῦ",
+    "en": "through his disciples",
+    "plain": "through his disciples"
+   },
+   {
+    "w": "A corrector of Ephraemi and most later Greek manuscripts (Byzantine majority), the Latin Vulgate, Origen; Textus Receptus (KJV \"two of his disciples\")",
+    "orig": "δύο τῶν μαθητῶν αὐτοῦ",
+    "en": "two of his disciples",
+    "plain": "by two of his disciples"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words, dia and duo, look and sound alike, and Luke 7:19 says John called \"two\" of his disciples. A copyist could easily change Matthew to match Luke; the reverse change is harder to explain.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "11:15",
+  "a": "Let anyone who has ears listen.",
+  "t": "\"Ears\" or \"ears to hear\"?",
+  "p": "The KJV's \"He that hath ears to hear, let him hear\" follows manuscripts that add \"to hear.\" The same difference comes at 13:9 and 13:43.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Bezae, the Old Latin k; NA28, SBLGNT, THGNT",
+    "orig": "ὁ ἔχων ὦτα ἀκουέτω",
+    "en": "the one who has ears, let him hear",
+    "plain": "Let anyone who has ears listen."
+   },
+   {
+    "w": "Codex Sinaiticus, Ephraemi and most later manuscripts (Byzantine majority); Justin, Clement, Origen; Textus Receptus (KJV)",
+    "orig": "ὁ ἔχων ὦτα ἀκούειν ἀκουέτω",
+    "en": "the one who has ears to hear, let him hear",
+    "plain": "Let anyone who has ears to hear listen."
+   }
+  ],
+  "follow": 0,
+  "why": "Mark 4:9 and Luke 8:8 always have \"ears to hear,\" so copyists added the words to Matthew to match. Matthew's short form is supported by early witnesses in all three places.",
+  "b": "Tischendorf noted that the short form is Matthew's habit, while in Mark and Luke the longer form never varies.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:19",
+  "a": "the things she does",
+  "t": "Wisdom's \"deeds\" or \"children\"?",
+  "p": "Matthew's oldest manuscripts say wisdom is proved right by her \"deeds.\" Most later ones say \"children,\" as in Luke 7:35.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, the first hand of Vaticanus, Washingtonianus (as reported by Metzger); the Peshitta Syriac and Coptic; manuscripts known to Jerome; NA28, SBLGNT, THGNT",
+    "orig": "ἀπὸ τῶν ἔργων αὐτῆς",
+    "en": "by her works",
+    "plain": "the things she does"
+   },
+   {
+    "w": "A corrector of Vaticanus, Ephraemi, Bezae and most later manuscripts (Byzantine majority); Textus Receptus (KJV \"of her children\")",
+    "orig": "ἀπὸ τῶν τέκνων αὐτῆς",
+    "en": "by her children",
+    "plain": "her children"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Children\" is what Luke 7:35 has, and copyists often brought one Gospel into line with another. \"Works\" fits Matthew's own frame, which begins with \"the works of the Messiah\" in 11:2.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "11:23",
+  "a": "will you be raised high, as far as heaven? You will go down as far as Hades!",
+  "t": "A question, or a statement?",
+  "p": "Older manuscripts ask, \"Will you be raised to heaven?\" Later ones say, \"You who are raised to heaven will be brought down.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Bezae, the Old Latin, Vulgate and Old Syriac, Irenaeus (Latin); NA28, SBLGNT",
+    "orig": "μὴ ἕως οὐρανοῦ ὑψωθήσῃ; ἕως ᾅδου καταβήσῃ",
+    "en": "Will you be lifted to heaven? You will go down to Hades",
+    "plain": "will you be raised high, as far as heaven? You will go down as far as Hades!"
+   },
+   {
+    "w": "Codex Sinaiticus, Ephraemi and others; THGNT",
+    "orig": "μὴ ἕως οὐρανοῦ ὑψωθήσῃ; ἕως ᾅδου καταβιβασθήσῃ",
+    "en": "Will you be lifted to heaven? You will be brought down to Hades",
+    "plain": "will you be raised high, as far as heaven? You will be brought down as far as Hades!"
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV \"which art exalted unto heaven, shalt be brought down to hell\")",
+    "orig": "ἡ ἕως τοῦ οὐρανοῦ ὑψωθεῖσα, ἕως ᾅδου καταβιβασθήσῃ",
+    "en": "you who have been lifted up to heaven will be brought down to Hades",
+    "plain": "you who have been raised high, as far as heaven, will be brought down as far as Hades!"
+   }
+  ],
+  "follow": 0,
+  "why": "The question form (mē) has early and widespread support, and the change to the relative pronoun hē is a one-letter slip. Between \"go down\" and \"be brought down\" the evidence is close: SBL and NA28 print \"go down\" with Vaticanus and Bezae, while the Tyndale House edition prints \"be brought down.\" The meaning is almost the same.",
+  "b": "Two separate points vary here: the question word (<i>mē</i>) or the relative pronoun (<i>hē</i>), and \"go down\" or \"be brought down.\" Codex Sinaiticus has the question with \"be brought down\"; Vaticanus and Bezae have the question with \"go down\"; the Byzantine text has the relative pronoun with \"be brought down.\" Isaiah 14:15 in the Greek Old Testament has \"you will go down to Hades,\" so either verb could come from assimilation to Isaiah or to Luke 10:15.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:4",
+  "a": "they ate",
+  "t": "\"They ate\" or \"he ate\"?",
+  "p": "The SBL and NA28 print \"they ate\" with a few early manuscripts. The Tyndale House edition and most manuscripts say \"he ate.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and a few others (Tischendorf; Metzger adds Sinaiticus); NA28, SBLGNT",
+    "orig": "ἔφαγον",
+    "en": "they ate",
+    "plain": "they ate"
+   },
+   {
+    "w": "Ephraemi, Bezae, Washingtonianus and most later manuscripts (Byzantine majority); THGNT; Textus Receptus (KJV \"did eat\")",
+    "orig": "ἔφαγεν",
+    "en": "he ate",
+    "plain": "he ate"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a close call. \"They ate\" is the harder reading after \"he went in,\" and a copyist would more likely smooth it to \"he ate\" to match Mark 2:26 and Luke 6:4. The Tyndale House editors judged the reverse. The meaning hardly changes, since David's men ate too.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "something greater",
+  "t": "\"Something greater\" or \"one greater\"?",
+  "p": "Nearly all manuscripts say \"something greater\" (neuter). The KJV's \"one greater\" follows a later reading.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Bezae and the great majority of manuscripts, including the Byzantine; NA28, SBLGNT, THGNT",
+    "orig": "μεῖζον",
+    "en": "something greater",
+    "plain": "something greater"
+   },
+   {
+    "w": "Codex Regius (L), Delta and some others; most Old Latin and the Vulgate (maior); Textus Receptus (KJV \"one greater\")",
+    "orig": "μείζων",
+    "en": "one greater (masculine)",
+    "plain": "someone greater"
+   }
+  ],
+  "follow": 0,
+  "why": "The neuter has much the stronger support and is the less obvious reading. Copyists who took the saying to mean Jesus himself made it masculine.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:15",
+  "a": "Crowds in great numbers",
+  "t": "\"Crowds\" or \"many\"?",
+  "p": "SBL leaves out \"crowds\": \"many people followed him.\" NA28, Tyndale House and most manuscripts include it.",
+  "readings": [
+   {
+    "w": "Ephraemi, Bezae and most manuscripts (Byzantine majority); NA28 (in brackets), THGNT; Textus Receptus (KJV \"great multitudes\")",
+    "orig": "ὄχλοι πολλοί",
+    "en": "many crowds",
+    "plain": "Crowds in great numbers"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (Metzger), most Old Latin, the Vulgate, Eusebius; SBLGNT, Westcott and Hort",
+    "orig": "πολλοί",
+    "en": "many",
+    "plain": "Great numbers of people"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain follows NA28 and THGNT against SBL. Matthew often writes \"many crowds followed him\" (4:25; 8:1; 19:2), which could explain both an addition and an original wording; the wide support for \"crowds\" tips the balance. The meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:22",
+  "a": "the mute man",
+  "t": "Who spoke and saw?",
+  "p": "The oldest manuscripts say \"the mute man\" began to speak and see. Later ones say \"the blind and mute man.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Bezae, the Old Latin, Old Syriac and Coptic; NA28, SBLGNT, THGNT",
+    "orig": "τὸν κωφὸν λαλεῖν καὶ βλέπειν",
+    "en": "the mute man spoke and saw",
+    "plain": "the mute man"
+   },
+   {
+    "w": "Ephraemi and most later manuscripts (Byzantine majority); Textus Receptus (KJV \"the blind and dumb both spake and saw\")",
+    "orig": "τὸν τυφλὸν καὶ κωφὸν καὶ λαλεῖν καὶ βλέπειν",
+    "en": "the blind and mute man both spoke and saw",
+    "plain": "the blind and mute man"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is a little awkward, since a \"mute man\" who also begins to \"see\" leaves out his blindness. Copyists filled it in. The awkward reading is more likely original.",
+  "b": "Codex Vaticanus also reads \"they brought to him a man with a demon\" (active), and Westcott and Hort printed that; the meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:24",
+  "a": "Beelzebul",
+  "t": "Beelzebul or Beelzebub?",
+  "p": "Greek manuscripts have Beelzebul. The Latin Vulgate and the KJV have \"Beelzebub,\" from 2 Kings 1:2.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts; NA28, SBLGNT, THGNT",
+    "orig": "Βεελζεβούλ",
+    "en": "Beelzebul",
+    "plain": "Beelzebul"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (as reported in NA28); Westcott and Hort",
+    "orig": "Βεεζεβούλ",
+    "en": "Beezebul",
+    "plain": "Beezebul"
+   },
+   {
+    "w": "The Latin Vulgate and the Syriac versions; the KJV and other English Bibles from the Latin tradition (the Greek Textus Receptus has Beelzebul)",
+    "orig": "Beelzebub",
+    "en": "Beelzebub",
+    "plain": "Beelzebub"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek manuscripts nearly all read Beelzebul. \"Beelzebub\" (lord of flies) comes from the name of Ekron's god in 2 Kings 1:2; Latin copyists and translators brought the Gospel spelling into line with it.",
+  "b": "The same name appears at 10:25 and 12:27; the evidence is similar there.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:35",
+  "a": "a good storeroom",
+  "t": "\"Of his heart\"?",
+  "p": "The Textus Receptus adds \"of the heart,\" so the KJV reads \"the good treasure of the heart.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Ephraemi, Bezae and most manuscripts, including the Byzantine; NA28, SBLGNT, THGNT",
+    "orig": "ἐκ τοῦ ἀγαθοῦ θησαυροῦ",
+    "en": "out of the good treasure",
+    "plain": "a good storeroom"
+   },
+   {
+    "w": "Codex Regius (L), minuscules 1, 22, 33 and some others; Clement, Origen; Textus Receptus (KJV)",
+    "orig": "ἐκ τοῦ ἀγαθοῦ θησαυροῦ τῆς καρδίας",
+    "en": "out of the good treasure of the heart",
+    "plain": "the good storeroom of the heart"
+   }
+  ],
+  "follow": 0,
+  "why": "Most manuscripts lack \"of the heart.\" It was probably added from Luke 6:45 and from 12:34 just before, which speaks of the heart.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:47",
+  "a": "Someone said to him, \"Your mother and your brothers have been standing outside, wanting to speak with you.\"",
+  "t": "Is verse 47 original?",
+  "p": "Some important early manuscripts leave out this whole verse. Most include it, and NA28 prints it in brackets.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (corrected), Ephraemi, Bezae, Washingtonianus and most manuscripts; SBLGNT, THGNT; NA28 in brackets; Textus Receptus (KJV)",
+    "orig": "εἶπεν δέ τις αὐτῷ· ἰδοὺ ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου ἔξω ἑστήκασιν ζητοῦντές σοι λαλῆσαι.",
+    "en": "Someone said to him, \"Look, your mother and your brothers are standing outside, seeking to speak to you.\"",
+    "plain": "Someone said to him, \"Your mother and your brothers have been standing outside, wanting to speak with you.\""
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus, Vaticanus, Regius (L), the Old Latin ff1 and k, the Old Syriac (Sinaitic and Curetonian), some Coptic",
+    "orig": "(verse absent)",
+    "en": "(no verse 47)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse may have dropped out by accident: verses 46 and 47 both end with the same word, lalēsai (\"to speak\"), and a copyist's eye could jump from one to the other. Verse 48, \"the man who had told him,\" also seems to need it. But the omission is early and wide, so NA28 brackets it.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "Let anyone who has ears listen.",
+  "t": "\"Ears\" or \"ears to hear\"?",
+  "p": "As at 11:15, many manuscripts and the KJV add \"to hear.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand, as reported in NA28), Vaticanus, Regius (L), some Old Latin; NA28, SBLGNT, THGNT",
+    "orig": "ὁ ἔχων ὦτα ἀκουέτω",
+    "en": "the one who has ears, let him hear",
+    "plain": "Let anyone who has ears listen."
+   },
+   {
+    "w": "Ephraemi, Bezae and most later manuscripts (Byzantine majority); Textus Receptus (KJV)",
+    "orig": "ὁ ἔχων ὦτα ἀκούειν ἀκουέτω",
+    "en": "the one who has ears to hear, let him hear",
+    "plain": "Let anyone who has ears to hear listen."
+   }
+  ],
+  "follow": 0,
+  "why": "See 11:15: copyists added the words from Mark and Luke.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:22",
+  "a": "the age",
+  "t": "\"The age\" or \"this age\"?",
+  "p": "NA28 and the Tyndale House edition say \"the worries of the age.\" SBL and most manuscripts say \"of this age.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Bezae, some Old Latin (Tischendorf); NA28, THGNT",
+    "orig": "ἡ μέριμνα τοῦ αἰῶνος",
+    "en": "the worry of the age",
+    "plain": "the age"
+   },
+   {
+    "w": "Ephraemi and most manuscripts (Byzantine majority); SBLGNT; Textus Receptus (KJV \"the care of this world\")",
+    "orig": "ἡ μέριμνα τοῦ αἰῶνος τούτου",
+    "en": "the worry of this age",
+    "plain": "this age"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain follows NA28 and THGNT, as at 12:15. The shorter reading has the early support of Vaticanus and Bezae, and Mark 4:19 has \"the worries of the age.\" \"This\" is the kind of word copyists added to make the meaning clear (compare 13:40, where the Byzantine text also adds it). The sense is the same: everyday cares of life in the present world.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:35",
+  "a": "the prophet",
+  "t": "\"The prophet\" or \"Isaiah the prophet\"?",
+  "p": "A few manuscripts say \"through Isaiah the prophet,\" though the words come from Psalm 78:2. Early writers argued about it.",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts; NA28, SBLGNT, THGNT; Textus Receptus (KJV)",
+    "orig": "διὰ τοῦ προφήτου",
+    "en": "through the prophet",
+    "plain": "the prophet"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus, Koridethi (Θ), the families of minuscules 1 and 13, 33 (as reported by Metzger and Tischendorf); manuscripts known to Eusebius and Jerome",
+    "orig": "διὰ Ἠσαΐου τοῦ προφήτου",
+    "en": "through Isaiah the prophet",
+    "plain": "Isaiah the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Isaiah\" is the harder reading, since the quotation is from a psalm, and a few scholars have thought it original. But its support is narrow. Eusebius and Jerome both knew it: Jerome thought an early copyist wrote Isaiah for Asaph, and the pagan critic Porphyry used it to accuse the Evangelist of ignorance. Most editors think a copyist added the best-known prophet's name, as Matthew names Isaiah elsewhere.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:35",
+  "a": "since the beginning",
+  "t": "\"Since the beginning\" or \"since the founding of the world\"?",
+  "p": "SBL and Tyndale House print \"hidden since the foundation.\" Most manuscripts, and NA28 in brackets, add \"of the world.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (as reported in NA28), a corrector of Sinaiticus, minuscules 1 and 22, the Old Latin e and k, the Old Syriac, Origen; SBLGNT, THGNT",
+    "orig": "ἀπὸ καταβολῆς",
+    "en": "from the foundation",
+    "plain": "since the beginning"
+   },
+   {
+    "w": "The first hand of Sinaiticus, Ephraemi, Bezae, Washingtonianus and most manuscripts (Byzantine majority); NA28 in brackets; Textus Receptus (KJV \"from the foundation of the world\")",
+    "orig": "ἀπὸ καταβολῆς κόσμου",
+    "en": "from the foundation of the world",
+    "plain": "since the founding of the world"
+   }
+  ],
+  "follow": 0,
+  "why": "Apo katabolēs alone is unusual Greek, and copyists would naturally complete it with the familiar \"of the world\" (25:34). The shorter reading is the harder one. The meaning is the same.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:43",
+  "a": "Let anyone who has ears listen.",
+  "t": "\"Ears\" or \"ears to hear\"?",
+  "p": "As at 11:15 and 13:9, many manuscripts and the KJV add \"to hear.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand, as reported in NA28), Vaticanus, some Old Latin; NA28, SBLGNT, THGNT",
+    "orig": "ὁ ἔχων ὦτα ἀκουέτω",
+    "en": "the one who has ears, let him hear",
+    "plain": "Let anyone who has ears listen."
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV)",
+    "orig": "ὁ ἔχων ὦτα ἀκούειν ἀκουέτω",
+    "en": "the one who has ears to hear, let him hear",
+    "plain": "Let anyone who has ears to hear listen."
+   }
+  ],
+  "follow": 0,
+  "why": "See 11:15.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:51",
+  "a": "\"Have you understood all this?\" he asked. \"Yes,\" they said to him.",
+  "t": "\"Jesus said to them ... Yes, Lord\"",
+  "p": "Later manuscripts add \"Jesus said to them\" and \"Lord,\" as in the KJV.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and Bezae, the Old Latin and Vulgate, Coptic, Origen; NA28, SBLGNT, THGNT",
+    "orig": "συνήκατε ταῦτα πάντα; λέγουσιν αὐτῷ· ναί.",
+    "en": "Have you understood all these things? They say to him, Yes.",
+    "plain": "\"Have you understood all this?\" he asked. \"Yes,\" they said to him."
+   },
+   {
+    "w": "Ephraemi and most later manuscripts (Byzantine majority); Textus Receptus (KJV \"Jesus saith unto them ... Yea, Lord\")",
+    "orig": "λέγει αὐτοῖς ὁ Ἰησοῦς· συνήκατε ταῦτα πάντα; λέγουσιν αὐτῷ· ναί, κύριε.",
+    "en": "Jesus says to them, Have you understood all these things? They say to him, Yes, Lord.",
+    "plain": "Jesus asked them, \"Have you understood all this?\" \"Yes, Lord,\" they said to him."
+   }
+  ],
+  "follow": 0,
+  "why": "The additions make the speaker clear and add a respectful \"Lord.\" Such clarifying words are typical of later copying, and the shorter text has early support from several regions.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:55",
+  "a": "Joseph",
+  "t": "Joseph or Joses?",
+  "p": "The oldest manuscripts name the second brother Joseph. Later ones, and the KJV, say \"Joses,\" as in Mark 6:3.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Ephraemi, minuscules 1 and 33, most Old Latin, the Vulgate, the Old Syriac, Coptic; Origen, Eusebius, Jerome; NA28, SBLGNT, THGNT",
+    "orig": "Ἰωσήφ",
+    "en": "Joseph",
+    "plain": "Joseph"
+   },
+   {
+    "w": "Codex Regius (L), Delta, most later manuscripts (Byzantine majority), the Old Latin k, the Peshitta; Textus Receptus (KJV)",
+    "orig": "Ἰωσῆς",
+    "en": "Joses",
+    "plain": "Joses"
+   }
+  ],
+  "follow": 0,
+  "why": "Joses is a short form of Joseph. Copyists brought Matthew into line with Mark 6:3. A few manuscripts even read \"John.\"",
+  "b": "The brothers' names matter for the debate over who they were: see the note on 13:55 and on 27:56.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:16",
+  "a": "shout to the others",
+  "t": "\"The others\" or \"their friends\"?",
+  "p": "SBL and NA28 have the children call to \"the others.\" The Byzantine text and the KJV have \"their fellows.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "τοῖς ἑτέροις",
+    "en": "to the others",
+    "plain": "shout to the others"
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV \"unto their fellows\")",
+    "orig": "τοῖς ἑταίροις αὐτῶν",
+    "en": "to their companions",
+    "plain": "shout to their friends"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words, <i>heterois</i> (\"others\") and <i>hetairois</i> (\"companions\"), sounded almost the same when read aloud, and \"their\" was easily added. The meaning hardly changes.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:8",
+  "a": "For the Son of Man is Lord over the Sabbath.",
+  "t": "\"Lord even of the Sabbath\"?",
+  "p": "The KJV reads \"Lord even of the sabbath day,\" with an extra \"even\" (<i>kai</i>) found in Mark 2:28 and Luke 6:5.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, and the Byzantine majority text",
+    "orig": "κύριος γάρ ἐστιν τοῦ σαββάτου",
+    "en": "for he is Lord of the Sabbath",
+    "plain": "For the Son of Man is Lord over the Sabbath."
+   },
+   {
+    "w": "Textus Receptus (KJV \"Lord even of the sabbath day\")",
+    "orig": "κύριος γάρ ἐστιν καὶ τοῦ σαββάτου",
+    "en": "for he is Lord even of the Sabbath",
+    "plain": "For the Son of Man is Lord even over the Sabbath."
+   }
+  ],
+  "follow": 0,
+  "why": "Both the critical editions and the Byzantine text lack \"even\"; it was added from the parallels in Mark and Luke.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:25",
+  "a": "But he knew",
+  "t": "\"He knew\" or \"Jesus knew\"?",
+  "p": "The Byzantine text and the KJV name Jesus here.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "εἰδὼς δέ",
+    "en": "but knowing",
+    "plain": "But he knew"
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV \"And Jesus knew\")",
+    "orig": "εἰδὼς δὲ ὁ Ἰησοῦς",
+    "en": "but Jesus, knowing",
+    "plain": "But Jesus knew"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often added Jesus' name where a passage began a new reading in church. The meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "12:31",
+  "a": "there will be no forgiveness",
+  "t": "\"Not forgiven to people\"?",
+  "p": "The Byzantine text and the KJV repeat \"to people\" at the end: \"shall not be forgiven unto men.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "οὐκ ἀφεθήσεται",
+    "en": "will not be forgiven",
+    "plain": "there will be no forgiveness"
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV)",
+    "orig": "οὐκ ἀφεθήσεται τοῖς ἀνθρώποις",
+    "en": "will not be forgiven to people",
+    "plain": "there will be no forgiveness for people"
+   }
+  ],
+  "follow": 0,
+  "why": "The words repeat the first half of the verse and look like a copyist's balancing. The meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:40",
+  "a": "at the completion of the age",
+  "t": "\"The age\" or \"this age\"?",
+  "p": "The Byzantine text and the KJV read \"the end of this world.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "ἐν τῇ συντελείᾳ τοῦ αἰῶνος",
+    "en": "at the completion of the age",
+    "plain": "at the completion of the age"
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV \"in the end of this world\")",
+    "orig": "ἐν τῇ συντελείᾳ τοῦ αἰῶνος τούτου",
+    "en": "at the completion of this age",
+    "plain": "at the completion of this age"
+   }
+  ],
+  "follow": 0,
+  "why": "Matthew elsewhere writes \"the completion of the age\" without \"this\" (13:39, 49; 24:3; 28:20), so \"this\" looks added.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "13:44",
+  "a": "\"The kingdom of heaven is like a treasure buried in a field.",
+  "t": "\"Again\"?",
+  "p": "The Byzantine text and the KJV begin the verse with \"Again.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "Ὁμοία ἐστὶν ἡ βασιλεία",
+    "en": "the kingdom is like",
+    "plain": "\"The kingdom of heaven is like a treasure buried in a field."
+   },
+   {
+    "w": "Most later manuscripts (Byzantine majority); Textus Receptus (KJV \"Again, the kingdom of heaven is like\")",
+    "orig": "Πάλιν ὁμοία ἐστὶν ἡ βασιλεία",
+    "en": "again, the kingdom is like",
+    "plain": "\"Again, the kingdom of heaven is like a treasure buried in a field."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Again\" joins the parables in a list, as in 13:45 and 13:47, where all manuscripts have it. Copyists probably added it here to match.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ }
+]

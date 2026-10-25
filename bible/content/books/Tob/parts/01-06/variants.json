@@ -1,0 +1,976 @@
+[
+ {
+  "v": "1:1",
+  "a": "son of Gabael, son of Raphael, son of Raguel",
+  "t": "Two more ancestors",
+  "p": "Sinaiticus adds Raphael and Raguel to Tobit's family tree.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "τοῦ Γαβαὴλ τοῦ Ῥαφαὴλ τοῦ Ῥαγουήλ",
+    "en": "of Gabael, of Raphael, of Raguel",
+    "plain": "son of Gabael, son of Raphael, son of Raguel"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "τοῦ Γαβαήλ",
+    "en": "of Gabael",
+    "plain": "son of Gabael"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus, the base text. The two extra names are the names of the angel and of Sarah's father, which may be why a scribe added them, or why the shorter text dropped them.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": ", toward the west, with Phogor to its south",
+  "t": "The longer directions",
+  "p": "Only Sinaiticus adds \"toward the west\" and \"to the left of Phogor\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ὀπίσω δυσμῶν ἡλίου, ἐξ ἀριστερῶν Φογώρ",
+    "en": "behind the setting of the sun, on the left of Phogor",
+    "plain": ", toward the west, with Phogor to its south"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "(lacks the words)",
+    "en": "(no further directions)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Vaticanus also lacks \"upper\" before Galilee.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "the house of my ancestor David and from Jerusalem",
+  "t": "David's house or Jerusalem's house",
+  "p": "Sinaiticus says Naphtali broke from David's house and Jerusalem; Vaticanus says from \"the house of Jerusalem\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἀπὸ τοῦ οἴκου Δαυεὶδ τοῦ πατρός μου καὶ ἀπὸ Ἰερουσαλήμ",
+    "en": "from the house of David my father and from Jerusalem",
+    "plain": "the house of my ancestor David and from Jerusalem"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἀπὸ τοῦ οἴκου Ἰεροσολύμων",
+    "en": "from the house of Jerusalem",
+    "plain": "the house of Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Its wording recalls 1 Kings 12:16–19, where the north breaks from \"the house of David.\"",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "All my kinsmen and the house of my ancestor Naphtali offered sacrifices on all the mountains of Galilee to the calf that Jeroboam king of Israel had made in Dan",
+  "t": "Jeroboam's calf or \"Baal the heifer\"",
+  "p": "Sinaiticus names Jeroboam's calf at Dan; Vaticanus says the rebel tribes sacrificed to \"Baal the heifer\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "πάντες οἱ ἀδελφοί μου καὶ ὁ οἶκος Νεφθαλεὶμ τοῦ πατρός μου, ἐθυσίαζον ἐκεῖνοι τῷ μόσχῳ ὃν ἐποίησεν Ἰεροβεὰμ ὁ βασιλεὺς Ἰσραὴλ ἐν Δὰν ἐπὶ πάντων ὀρέων τῆς Γαλειλαίας",
+    "en": "all my brothers and the house of Naphtali my father sacrificed to the calf that Jeroboam king of Israel made in Dan, on all the mountains of Galilee",
+    "plain": "All my kinsmen and the house of my ancestor Naphtali offered sacrifices on all the mountains of Galilee to the calf that Jeroboam king of Israel had made in Dan"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text; also written in the margin of Sinaiticus by a later corrector (ℵc.a)",
+    "orig": "πᾶσαι αἱ φυλαὶ αἱ συναποστᾶσαι ἔθυον τῇ Βάαλ τῇ δαμάλει, καὶ ὁ οἶκος Νεφθαλεὶμ τοῦ πατρός μου",
+    "en": "all the tribes that broke away together sacrificed to Baal the heifer, and the house of Naphtali my father",
+    "plain": "All the tribes that broke away together sacrificed to Baal the heifer, and so did the house of my ancestor Naphtali"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Vaticanus's \"Baal\" with the feminine article (<i>tē Baal</i>) is the Septuagint's habit of reading \"shame\" (Greek <i>aischynē</i>, feminine) in place of Baal, as in Romans 11:4; \"the heifer\" is a mocking name for the calf (compare Hosea 10:5).",
+  "b": "Swete's notes report that a later corrector of Sinaiticus (ℵc.a, about the 600s) struck out \"all my kinsmen\" and wrote the Vaticanus wording in the margin, so replacing Sinaiticus's opening with the shorter text's.",
+  "s": [
+   "swete-ot",
+   "moore-tobit"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "Deborah, the mother of our forefather Ananiel",
+  "t": "Deborah's place in the family",
+  "p": "Sinaiticus: mother of Ananiel, Tobit's grandfather. Vaticanus: Tobit's father's mother.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "Δεββώρα ἡ μήτηρ Ἁνανιὴλ τοῦ πατρὸς ἡμῶν",
+    "en": "Deborah the mother of Ananiel our father",
+    "plain": "Deborah, the mother of our forefather Ananiel"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "Δεββώρα ἡ μήτηρ τοῦ πατρός μου",
+    "en": "Deborah the mother of my father",
+    "plain": "Deborah, my father's mother"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus, though its \"our father\" must mean \"forefather\" to fit 1:1. Vaticanus's whole verse is much shorter: \"the third I gave to those to whom it was due.\"",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "a woman from the descendants of our own family line",
+  "t": "Is Anna named here?",
+  "p": "Vaticanus names Anna at her wedding; Sinaiticus first names her in 1:20.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἔλαβον γυναῖκα ἐκ τοῦ σπέρματος τῆς πατριᾶς ἡμῶν",
+    "en": "I took a wife from the seed of our family",
+    "plain": "a woman from the descendants of our own family line"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἔλαβον Ἅνναν γυναῖκα ἐκ τοῦ σπέρματος τῆς πατριᾶς ἡμῶν",
+    "en": "I took Anna as wife from the seed of our family",
+    "plain": "Anna, a woman from the descendants of our own family line"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "in the keeping of my kinsman Gabael son of Gabri",
+  "t": "Gabael \"son of\" or \"brother of\" Gabri, and where",
+  "p": "Sinaiticus: Gabael son of Gabri, in Media. Vaticanus: Gabael, brother of Gabrias, at Rages.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "παρεθέμην Γαβήλῳ βαλλάντια τῷ ἀδελφῷ τῷ Γαβρεὶ",
+    "en": "I deposited with Gabael, the brother, the (son) of Gabri",
+    "plain": "in the keeping of my kinsman Gabael son of Gabri"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "παρεθέμην Γαβαήλῳ τῷ ἀδελφῷ Γαβρία ἐν Ῥάγοις τῆς Μηδίας",
+    "en": "I deposited with Gabael the brother of Gabrias at Rages in Media",
+    "plain": "in the keeping of Gabael, the brother of Gabrias, at Rages"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus and reads \"the brother\" as \"my kinsman\" and \"of Gabri\" as \"son of Gabri,\" as Sinaiticus itself has in 4:20. Vaticanus's \"brother of Gabrias\" is followed by the KJV.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "his son Sennacherib",
+  "t": "Sennacherib or \"Acheriel\"",
+  "p": "Vaticanus calls the king Acheriel here and in 1:18; Sinaiticus has Sennacherib.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "Σενναχηρεὶμ υἱὸς αὐτοῦ",
+    "en": "Sennacherib his son",
+    "plain": "his son Sennacherib"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "Ἀχηρεὶλ ὁ υἱὸς αὐτοῦ",
+    "en": "Acheriel his son",
+    "plain": "his son Acheriel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus, which has the king's real name. \"Acheriel\" in Vaticanus (again in 1:18) looks like a damaged form of the name; the KJV prints Sennacherib.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:21",
+  "a": "Less than forty days later",
+  "t": "Forty or fifty days",
+  "p": "Sinaiticus: forty days; Vaticanus: fifty; a corrector wrote fifty in Sinaiticus's margin. The KJV has 55.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἡμέραι τεσσεράκοντα",
+    "en": "forty days",
+    "plain": "Less than forty days later"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text; a corrector of Sinaiticus in the margin (ν΄, 50)",
+    "orig": "ἡμέραι πεντήκοντα",
+    "en": "fifty days",
+    "plain": "Less than fifty days later"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. The KJV's \"five and fifty\" comes from other Greek manuscripts. History puts the murder about twenty years after 701 BC (see the note).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "all your ways into a song of grief",
+  "t": "\"Ways\", \"merrymaking\" or \"songs\"",
+  "p": "Sinaiticus has \"ways\", Vaticanus \"merrymaking\"; Amos 8:10 itself has \"songs\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "πᾶσαι αἱ ὁδοὶ ὑμῶν εἰς θρῆνος",
+    "en": "all your ways into lament",
+    "plain": "all your ways into a song of grief"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "πᾶσαι αἱ εὐφροσύναι ὑμῶν εἰς θρῆνον",
+    "en": "all your joys into lament",
+    "plain": "all your merrymaking into a song of grief"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus as written. Its \"ways\" (<i>hodoi</i>) is probably a slip for \"songs\" (<i>ōdai</i>), the reading of the Hebrew of Amos 8:10; Vaticanus has a freer paraphrase.",
+  "s": [
+   "swete-ot",
+   "fitzmyer-tobit"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "That same night I washed and went into my courtyard. I lay down to sleep beside the courtyard wall, with my face uncovered because of the heat",
+  "t": "Washed, or unclean?",
+  "p": "Sinaiticus says Tobit washed; Vaticanus says he slept \"defiled\" after the burial.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "αὐτῇ τῇ νυκτὶ ἐλουσάμην καὶ εἰσῆλθον εἰς τὴν αὐλήν μου, καὶ ἐκοιμήθην παρὰ τὸν τοῖχον τῆς αὐλῆς, καὶ τὸ πρόσωπόν μου ἀνακεκαλυμμένον διὰ τὸ καῦμα",
+    "en": "that night I washed and went into my courtyard and slept by the wall of the courtyard, my face uncovered because of the heat",
+    "plain": "That same night I washed and went into my courtyard. I lay down to sleep beside the courtyard wall, with my face uncovered because of the heat"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐν αὐτῇ τῇ νυκτὶ ἀνέλυσα θάψας, καὶ ἐκοιμήθην μεμιαμμένος παρὰ τὸν τοῖχον τῆς αὐλῆς, καὶ τὸ πρόσωπόν μου ἀκάλυπτον ἦν",
+    "en": "that night I came back from burying, and slept defiled by the wall of the courtyard, and my face was uncovered",
+    "plain": "That same night I came back from the burial and lay down to sleep, unclean, beside the courtyard wall, with my face uncovered"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. In Vaticanus Tobit sleeps outside because he is unclean from touching a corpse (Numbers 19:11) and may not enter the house; in Sinaiticus he has washed and sleeps outside because of the heat.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:8",
+  "a": "you have not carried the name of even one of them",
+  "t": "\"Named\" or \"had joy\"",
+  "p": "Sinaiticus: \"you have not been named after one of them\". Vaticanus: \"you have had no benefit from one of them\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἑνὸς αὐτῶν οὐκ ὠνομάσθης",
+    "en": "you were not named by one of them",
+    "plain": "you have not carried the name of even one of them"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἑνὸς αὐτῶν οὐκ ὠνάσθης",
+    "en": "you have had no profit of one of them",
+    "plain": "you have not had the joy of even one of them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus: she never became any man's wife in name, since no marriage was completed. The two Greek verbs differ by two letters, so one is likely a copying change of the other.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "the glory of God",
+  "t": "Before God, or before \"the great Raphael\"?",
+  "p": "Vaticanus says the prayers were heard \"before the glory of the great Raphael\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἐνώπιον τῆς δόξης τοῦ θεοῦ",
+    "en": "before the glory of God",
+    "plain": "the glory of God"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐνώπιον τῆς δόξης τοῦ μεγάλου Ῥαφαήλ",
+    "en": "before the glory of the great Raphael",
+    "plain": "the glory of the great Raphael"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Vaticanus's wording would make the angel the one before whom the prayers are heard; read with 12:12–15, where Raphael brings the prayers before the Lord, it has been taken as support for angels' part in prayer. The KJV, from other manuscripts, has \"the majesty of the great God.\"",
+  "b": "On whether angels carry prayers to God, see the card at 1 Enoch 99.",
+  "s": [
+   "swete-ot",
+   "moore-tobit"
+  ]
+ },
+ {
+  "v": "3:17",
+  "a": "to set her free from Asmodeus",
+  "t": "Free her, or bind him?",
+  "p": "Sinaiticus: Raphael is sent to \"loose\" Asmodeus from Sarah; Vaticanus: to \"bind\" Asmodeus.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "λῦσαι Ἀσμοδαῖον",
+    "en": "to loose Asmodeus the evil demon from her",
+    "plain": "to set her free from Asmodeus"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "δῆσαι Ἀσμόδαυν",
+    "en": "to bind Asmodeus the evil demon",
+    "plain": "to bind Asmodeus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Both fit 8:3, where Raphael binds the demon. Jesus uses the same pair of verbs of Satan: one must \"bind the strong man\" (Mark 3:27), and a woman bound by Satan is \"loosed\" (Luke 13:16).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "and so will all who do what is right",
+  "t": "Where Sinaiticus breaks off",
+  "p": "Sinaiticus stops after \"and to all who do what is right\"; it is missing from here to the middle of 4:19.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "καὶ πᾶσι τοῖς ποιοῦσι τὴν δικαιοσύνην",
+    "en": "and [success] to all who do what is right",
+    "plain": "and so will all who do what is right"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete: the text breaks off here",
+    "orig": "καὶ πᾶσιν τοῖς ποιοῦσιν δικαιοσύνην",
+    "en": "and to all who do what is right . . .",
+    "plain": "and to all who do what is right . . ."
+   }
+  ],
+  "follow": 0,
+  "why": "In Sinaiticus the phrase begins a sentence whose end is lost, together with 4:7–19a. The Plain completes it as Vaticanus does. Modern translations that follow Sinaiticus fill the gap from Vaticanus or from the Old Latin version, which scholars use as a witness to the longer text (Fitzmyer).",
+  "s": [
+   "swete-ot",
+   "fitzmyer-tobit"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "Give alms from what you own, and do not give them with a grudging eye. Never turn your face from someone who is poor; then God will never turn his face from you",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐκ τῶν ὑπαρχόντων σοι ποίει ἐλεημοσύνην, καὶ μὴ φθονεσάτω σου ὁ ὀφθαλμὸς ἐν τῷ ποιεῖν σε ἐλεημοσύνην· καὶ μὴ ἀποστρέψῃς τὸ πρόσωπόν σου ἀπὸ παντὸς πτωχοῦ, καὶ ἀπὸ σοῦ οὐ μὴ ἀποστραφῇ τὸ πρόσωπον τοῦ θεοῦ.",
+    "en": "(as translated in the Plain)",
+    "plain": "Give alms from what you own, and do not give them with a grudging eye. Never turn your face from someone who is poor; then God will never turn his face from you"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "If you have plenty, give alms in keeping with your plenty. If you have only a little, do not be afraid to give alms in keeping with that little",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ὡς σοὶ ὑπάρχει κατὰ τὸ πλῆθος, ποίησον ἐξ αὐτῶν ἐλεημοσύνην· ἐὰν ὀλίγον σοι ὑπάρχῃ, κατὰ τὸ ὀλίγον μὴ φοβοῦ ποιεῖν ἐλεημοσύνην.",
+    "en": "(as translated in the Plain)",
+    "plain": "If you have plenty, give alms in keeping with your plenty. If you have only a little, do not be afraid to give alms in keeping with that little"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "By doing this you put away a good deposit for yourself, ready for the day of hard need",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "θέμα γὰρ ἀγαθὸν θησαυρίζεις σεαυτῷ εἰς ἡμέραν ἀνάγκης.",
+    "en": "(as translated in the Plain)",
+    "plain": "By doing this you put away a good deposit for yourself, ready for the day of hard need"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "For alms rescue from death and do not let a person go into the darkness",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "διότι ἐλεημοσύνη ἐκ θανάτου ῥύεται, καὶ οὐκ ἐάσει ἐλθεῖν εἰς τὸ σκότος.",
+    "en": "(as translated in the Plain)",
+    "plain": "For alms rescue from death and do not let a person go into the darkness"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "alms rescue from death",
+  "t": "The Latin: \"from all sin and from death\"",
+  "p": "Jerome's Latin, the Catholic Bible for centuries, says alms free \"from all sin and from death\" (Vulgate 4:11).",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐλεημοσύνη ἐκ θανάτου ῥύεται",
+    "en": "almsgiving rescues from death",
+    "plain": "alms rescue from death"
+   },
+   {
+    "w": "Latin Vulgate of Jerome (Clementine edition, 1592), Tobit 4:11; Douay-Rheims \"alms deliver from all sin, and from death\"",
+    "orig": "eleemosyna ab omni peccato et a morte liberat",
+    "en": "alms frees from all sin and from death",
+    "plain": "alms set free from all sin and from death"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek. Jerome made his Tobit from an Aramaic copy and his own paraphrase, and his \"from all sin\" brings in the wording of 12:9. Because Catholic teaching and controversy long used the Latin, this is the form debated at the Reformation (see the card on this page).",
+  "s": [
+   "vulgate-clementine",
+   "jerome-preface-tobit"
+  ]
+ },
+ {
+  "v": "4:11",
+  "a": "To all who give alms, their gift is a fine offering before the Most High",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "δῶρον γὰρ ἀγαθόν ἐστιν ἐλεημοσύνη πᾶσι τοῖς ποιοῦσιν αὐτὴν ἐνώπιον τοῦ ὑψίστου.",
+    "en": "(as translated in the Plain)",
+    "plain": "To all who give alms, their gift is a fine offering before the Most High"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "Guard yourself, son, from all sexual immorality. Above all, choose your wife from your own forefathers' family line. Do not marry an outsider, a woman who is not of your father's tribe, because we are the sons of the prophets. Noah, Abraham, Isaac and Jacob were our forefathers from the beginning. Remember, son, that all of them married women from among their own kin. They were blessed in their children, and their descendants will inherit the land",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "πρόσεχε σεαυτῷ, παιδίον, ἀπὸ πάσης πορνείας, καὶ γυναῖκα πρῶτον λάβε ἀπὸ τοῦ σπέρματος τῶν πατέρων σου· μὴ λάβῃς γυναῖκα ἀλλοτρίαν ἣ οὐκ ἔστιν ἐκ τῆς φυλῆς τοῦ πατρός σου, διότι υἱοὶ προφητῶν ἐσμεν. Νῶε, Ἀβραάμ, Ἰσαάκ, Ἰακώβ, οἱ πατέρες ἡμῶν ἀπὸ τοῦ αἰῶνος, μνήσθητι, παιδίον, ὅτι αὐτοὶ πάντες ἔλαβον γυναῖκας ἐκ τῶν ἀδελφῶν αὐτῶν, καὶ εὐλογήθησαν ἐν τοῖς τέκνοις αὐτῶν, καὶ τὸ σπέρμα αὐτῶν κληρονομήσει γῆν.",
+    "en": "(as translated in the Plain)",
+    "plain": "Guard yourself, son, from all sexual immorality. Above all, choose your wife from your own forefathers' family line. Do not marry an outsider, a woman who is not of your father's tribe, because we are the sons of the prophets. Noah, Abraham, Isaac and Jacob were our forefathers from the beginning. Remember, son, that all of them married women from among their own kin. They were blessed in their children, and their descendants will inherit the land"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "So now, son, love your kinsmen. Do not look down in your heart on your kinsmen, the sons and daughters of your people, and refuse to take a wife from among them. For pride brings ruin and much unrest, and idleness brings loss and great need, because idleness is the mother of hunger",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "καὶ νῦν, παιδίον, ἀγάπα τοὺς ἀδελφούς σου, καὶ μὴ ὑπερηφανεύου τῇ καρδίᾳ σου ἀπὸ τῶν ἀδελφῶν σου καὶ τῶν υἱῶν καὶ θυγατέρων τοῦ λαοῦ σου, λαβεῖν σεαυτῷ ἐξ αὐτῶν γυναῖκα. διότι ἐν τῇ ὑπερηφανίᾳ ἀπωλία καὶ ἀκαταστασία πολλή, καὶ ἐν τῇ ἀχρεότητι ἐλάττωσις καὶ ἔνδεια μεγάλη· ἡ γὰρ ἀχρεότης μήτηρ ἐστὶν τοῦ λιμοῦ.",
+    "en": "(as translated in the Plain)",
+    "plain": "So now, son, love your kinsmen. Do not look down in your heart on your kinsmen, the sons and daughters of your people, and refuse to take a wife from among them. For pride brings ruin and much unrest, and idleness brings loss and great need, because idleness is the mother of hunger"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "When someone works for you, do not let his pay stay with you overnight; give it to him right away. If you serve God, you will be paid back. Watch yourself, son, in everything you do, and show good training in all your conduct",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "μισθὸς παντὸς ἀνθρώπου ὃς ἐὰν ἐργάσηται παρὰ σοὶ μὴ αὐλισθήτω, ἀλλὰ ἀπόδος αὐτῷ παραυτίκα· ἐὰν δουλεύσῃς τῷ θεῷ, ἀποδοθήσεταί σοι. πρόσεχε σεαυτῷ, παιδίον, ἐν πᾶσι τοῖς ἔργοις σου, καὶ ἴσθι πεπαιδευμένος ἐν πάσῃ ἀναστροφῇ σου.",
+    "en": "(as translated in the Plain)",
+    "plain": "When someone works for you, do not let his pay stay with you overnight; give it to him right away. If you serve God, you will be paid back. Watch yourself, son, in everything you do, and show good training in all your conduct"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "Do not do to anyone what you hate. Do not drink wine until you are drunk, and do not let drunkenness travel with you on your way",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "καὶ ὃ μισεῖς μηδενὶ ποιήσῃς. οἶνον εἰς μέθην μὴ πίῃς, καὶ μὴ πορευθήτω μετὰ σοῦ μέθη ἐν τῇ ὁδῷ σου.",
+    "en": "(as translated in the Plain)",
+    "plain": "Do not do to anyone what you hate. Do not drink wine until you are drunk, and do not let drunkenness travel with you on your way"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:16",
+  "a": "Share your bread with the hungry and your clothes with those who have none. Whatever you have left over, give as alms, and do not give alms with a grudging eye",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐκ τοῦ ἄρτου σου δίδου πεινῶντι, καὶ ἐκ τῶν ἱματίων σου τοῖς γυμνοῖς· πᾶν ὃ ἐὰν περισσεύσῃ σοι ποίει ἐλεημοσύνην, καὶ μὴ φθονεσάτω σου ὁ ὀφθαλμὸς ἐν τῷ ποιεῖν σε ἐλεημοσύνην.",
+    "en": "(as translated in the Plain)",
+    "plain": "Share your bread with the hungry and your clothes with those who have none. Whatever you have left over, give as alms, and do not give alms with a grudging eye"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "Pour out your bread on the grave of the righteous, but do not give it to sinners",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἔκχεον τοὺς ἄρτους σου ἐπὶ τὸν τάφον τῶν δικαίων, καὶ μὴ δῷς τοῖς ἁμαρτωλοῖς.",
+    "en": "(as translated in the Plain)",
+    "plain": "Pour out your bread on the grave of the righteous, but do not give it to sinners"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:18",
+  "a": "Ask every sensible person for advice, and never scorn advice that can help you",
+  "t": "Not in Sinaiticus",
+  "p": "This verse is missing from Sinaiticus (the gap runs from 4:6 to 4:19). The Plain follows Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "συμβουλίαν παρὰ παντὸς φρονίμου ζήτησον, καὶ μὴ καταφρονήσῃς ἐπὶ πάσης συμβουλίας χρησίμης.",
+    "en": "(as translated in the Plain)",
+    "plain": "Ask every sensible person for advice, and never scorn advice that can help you"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "(lost: the verse is missing)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus has a gap from the end of 4:6 to the middle of 4:19, so the Plain translates Vaticanus here. See the variant at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "At all times bless the Lord God, and ask him to make your ways straight and to let all your paths and plans succeed. For no nation has counsel,",
+  "t": "The first half of 4:19",
+  "p": "Sinaiticus is still missing here; the Plain follows Vaticanus up to \"all good things\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "καὶ ἐν παντὶ καιρῷ εὐλόγει Κύριον τὸν θεόν, καὶ παρ᾽ αὐτοῦ αἴτησον ὅπως αἱ ὁδοί σου εὐθεῖαι γένωνται καὶ πᾶσαι αἱ τρίβοι καὶ βουλαὶ εὐοδωθῶσιν. διότι πᾶν ἔθνος οὐκ ἔχει βουλήν",
+    "en": "and at every time bless the Lord God, and ask from him that your ways become straight and all your paths and counsels prosper; for every nation does not have counsel",
+    "plain": "At all times bless the Lord God, and ask him to make your ways straight and to let all your paths and plans succeed. For no nation has counsel,"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete: this part is lost",
+    "orig": "(lost)",
+    "en": "(no text)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows one witness at a time in this verse: Vaticanus through \"the Lord himself gives all good things\", then Sinaiticus from \"Whomever the Lord wishes\" to the end. It does not join half a sentence from each. Vaticanus's \"every nation does not have counsel\" is a Hebrew-style way of saying \"no nation has counsel\" (see the note).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "but the Lord himself gives all good things",
+  "t": "\"All good things\" or \"good counsel\"",
+  "p": "Vaticanus: the Lord himself gives all good things. Where Sinaiticus resumes, it reads: the Lord will give them good counsel.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἀλλὰ αὐτὸς ὁ κύριος δίδωσιν πάντα τὰ ἀγαθὰ",
+    "en": "but the Lord himself gives all good things",
+    "plain": "but the Lord himself gives all good things"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete, where it resumes after the gap",
+    "orig": "δώσει Κύριος αὐτοῖς βουλὴν ἀγαθήν",
+    "en": "the Lord will give them good counsel",
+    "plain": "the Lord will give them good counsel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain stays with Vaticanus to the end of its sentence. Sinaiticus starts again in the middle of a sentence whose beginning is lost, so its \"them\" has nothing in the surviving text to refer to; the nearest earlier words in Sinaiticus are the end of 4:6, \"all who do what is right\". Joining Sinaiticus's clause to Vaticanus's \"no nation has counsel\" would make \"them\" mean the nations, a sentence found in no manuscript.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "down to the depths of Hades",
+  "t": "\"Down to Hades\" or \"as they wish\"",
+  "p": "Sinaiticus: the Lord brings low whomever he wishes, \"down to the lowest Hades\". Vaticanus ends instead with the obscure \"as they wish\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "καὶ ὃν ἂν θέλῃ Κύριος ταπεινοῖ ἕως ᾅδου κατωτάτω",
+    "en": "and whomever the Lord wishes he humbles, down to Hades, lowest",
+    "plain": "down to the depths of Hades"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "καὶ ὃ ἐὰν θέλῃ ταπεινοῖ, καθὼς βούλονται",
+    "en": "and whatever he wishes he humbles, as they wish",
+    "plain": "as they wish"
+   }
+  ],
+  "follow": 0,
+  "why": "From \"Whomever the Lord wishes\" the Plain follows Sinaiticus, the base text. Its wording echoes Hannah's song, where the LORD brings down to Sheol (1 Samuel 2:6–7). Vaticanus's \"as they wish\" (plural) is hard to make sense of after \"he humbles\", which may point to a damaged text.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:20",
+  "a": "at Rages in Media",
+  "t": "Rages, or \"Argoi\"",
+  "p": "Sinaiticus has \"in Argois\", a slip for \"in Ragois\", at Rages.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "ἐν Ῥάγοις τῆς Μηδείας",
+    "en": "in Rages of Media",
+    "plain": "at Rages in Media"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἐν Ἄργοις τῆς Μηδείας",
+    "en": "in Argoi of Media",
+    "plain": "at Argoi in Media"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain reads Rages with Vaticanus and with Sinaiticus itself at 4:1. <i>Argois</i> is the same letters as <i>Ragois</i> with two swapped, an easy copying slip.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "who lives in Rages in Media",
+  "t": "Where does Gabael live?",
+  "p": "Sinaiticus says Gabael lives in Ecbatana, though 4:1 and 4:20 put him at Rages. The Plain reads Rages.",
+  "readings": [
+   {
+    "w": "Required by the story (4:1; 4:20; 9:2), and read by the Latin Vulgate of Jerome (5:8); an emendation of the Greek",
+    "orig": "(emendation) — Vulgate 5:8: qui moratur in Rages civitate Medorum",
+    "en": "who lives in Rages of Media (Vulgate: who lives in Rages, a city of the Medes)",
+    "plain": "who lives in Rages in Media"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "τῷ οἰκοῦντι ἐν Ἐκβατάνοις τῆς Μηδείας",
+    "en": "who lives in Ecbatana of Media",
+    "plain": "who lives in Ecbatana in Media"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "παρὰ Γαβαὴλ τὸν ἀδελφὸν ἡμῶν ηὐλίσθην",
+    "en": "and I have lodged with Gabael our brother",
+    "plain": "(names no town)"
+   }
+  ],
+  "follow": 0,
+  "why": "This is an emendation. Sinaiticus as written contradicts itself: in the next breath it measures the road from Ecbatana to Gabael's town, and the rest of the book puts Gabael at Rages. A copyist probably wrote the wrong city, so the Plain corrects it and shows the written reading here. Jerome's Latin, made from a Semitic copy and independent of Sinaiticus, also puts Gabael in Rages. Vaticanus has a shorter speech that names no town.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "fitzmyer-tobit",
+   "moore-tobit"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "From Ecbatana to Rages is a journey of two regular days, for Rages lies in the hill country and Ecbatana in the middle of the plain",
+  "t": "\"Garrai\" and a clause in the margin",
+  "p": "Sinaiticus reads \"to Garrai\", a garbled Rages. The first scribe of Sinaiticus seems to have skipped part of this sentence, and the original corrector supplied it in the margin.",
+  "readings": [
+   {
+    "w": "Sinaiticus, with Rages for the garbled \"Garrai\"",
+    "orig": "(an emendation of the Greek)",
+    "en": "it is a road of two set days from Ecbatana to Rages, for they lie in the mountain, Ecbatana in the middle of the plain",
+    "plain": "From Ecbatana to Rages is a journey of two regular days, for Rages lies in the hill country and Ecbatana in the middle of the plain"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete, as written (from \"to Garrai\" to the second \"Ecbatana\" the words stand in the margin, from the original corrector ℵ¹, Swete reports)",
+    "orig": "ἀπέχει ὁδὸν ἡμερῶν δύο τεταγμένων ἀπὸ Ἐκβατάνων εἰς Γάρρας· κεῖνται γὰρ ἐν τῷ ὄρει, Ἐκβάτανα ἐν μέσῳ τῷ πεδίῳ",
+    "en": "it is a road of two set days from Ecbatana to Garrai; for they lie in the mountain, Ecbatana in the middle of the plain",
+    "plain": "From Ecbatana to Garrai is a journey of two regular days, for they lie in the hill country and Ecbatana in the middle of the plain"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "(lacks the clause)",
+    "en": "(no distance given)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain reads Rages for \"Garrai,\" which has not been convincingly identified with a real place; the context requires Gabael's town. Swete's notes say the first scribe of Sinaiticus seems to have left out the words from \"to Garrai\" to the second \"Ecbatana\". The scribe's eye probably jumped from one \"Ecbatana\" to the next, a common slip between like words, and the original corrector (ℵ¹, working with the scribes) supplied the words in the margin. So the margin most likely restores the original text rather than adding to it. On the mistaken geography, see the note.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "tried to gulp down the boy's foot",
+  "t": "The boy's foot, or the boy?",
+  "p": "Sinaiticus: the fish tried to swallow his foot. Vaticanus and the Vulgate: it tried to devour the boy.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἐβούλετο καταπεῖν τὸν πόδα τοῦ παιδαρίου",
+    "en": "wanted to swallow the boy's foot",
+    "plain": "tried to gulp down the boy's foot"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text; similarly the Vulgate (6:2)",
+    "orig": "ἐβουλήθη καταπεῖν τὸ παιδάριον",
+    "en": "wanted to swallow the boy",
+    "plain": "tried to gulp down the boy"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Both Greek texts have \"a big fish\" (the Vulgate: \"a huge fish\"); they differ only on whether it went for the boy's foot or for the boy himself. Sinaiticus's foot fits a boy standing in the river washing his feet. A later corrector of Sinaiticus added \"from fear\" before \"he shouted.\"",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "coming near Ecbatana",
+  "t": "Ecbatana or Rages",
+  "p": "Sinaiticus: they came near Ecbatana. Vaticanus and the KJV: \"near to Rages\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ἤγγιζεν εἰς Ἐκβάτανα",
+    "en": "he was already drawing near to Ecbatana",
+    "plain": "coming near Ecbatana"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text",
+    "orig": "προσήγγισαν τῇ Ῥάγῃ",
+    "en": "they drew near to Rage",
+    "plain": "coming near Rages"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Sinaiticus. Raguel lives in Ecbatana (3:7, in both texts), so Vaticanus's Rages here is a slip, though the KJV follows it.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "When we come back from Rages, we will hold her wedding",
+  "t": "\"From Raguel\" or \"from Rages\"",
+  "p": "Sinaiticus first says \"when we come back from Raguel\", then later in the verse \"from Rages\". The Plain reads Rages both times.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), the shorter Greek text, as printed by Swete; the KJV follows this text (Sinaiticus has the same words, with ἐπιστρέψωμεν, in the second half of the verse: ὅταν ἐπιστρέψωμεν ἐκ Ῥάγων)",
+    "orig": "ὅταν ὑποστρέψωμεν ἐκ Ῥάγων",
+    "en": "when we return from Rages",
+    "plain": "When we come back from Rages, we will hold her wedding"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete, first half of the verse",
+    "orig": "ὅταν ἐπιστρέψωμεν ἐκ Ῥαγουὴλ",
+    "en": "when we return from Raguel",
+    "plain": "When we come back from Raguel's, we will hold her wedding"
+   }
+  ],
+  "follow": 0,
+  "why": "Raphael's plan is to fetch the money at Rages and marry on the way home, so \"from Raguel\" makes no sense; a copyist confused the two similar names. Sinaiticus says the same thing twice in this verse; one possible explanation, offered here as a guess, is that two forms of the sentence were joined. Note that the story then goes another way: the wedding takes place at Raguel's house at once (7:9–14), and Raphael goes on to Rages alone to fetch the money (9:1–5).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:18",
+  "a": "When you are about to lie with her, the two of you must first get up and pray",
+  "t": "The Vulgate's three nights",
+  "p": "In Jerome's Latin, Raphael tells Tobias to keep apart from Sarah and pray with her for three nights.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), the longer Greek text, as printed by Swete",
+    "orig": "ὅταν μέλλῃς γίνεσθαι μετ᾽ αὐτῆς, ἐξεγέρθητε πρῶτον ἀμφότεροι καὶ προσεύξασθε καὶ δεήθητε τοῦ κυρίου τοῦ οὐρανοῦ",
+    "en": "when you are about to be with her, both of you first rise and pray and beg the Lord of heaven",
+    "plain": "When you are about to lie with her, the two of you must first get up and pray"
+   },
+   {
+    "w": "Latin Vulgate of Jerome (Clementine edition), Tobit 6:18 (the longer passage is 6:16–22); Douay-Rheims",
+    "orig": "per tres dies continens esto ab ea, et nihil aliud nisi orationibus vacabis cum ea",
+    "en": "for three days you will keep yourself from her, and give yourself to nothing else but prayers with her",
+    "plain": "For three days keep yourself from her, and give yourself to nothing but prayer with her"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Vulgate's longer speech (6:16–22) is not in any Greek manuscript and probably comes from Jerome's free translation of his Aramaic copy. It shaped Catholic reading of Tobit for over a thousand years (see the note on this verse).",
+  "s": [
+   "vulgate-clementine",
+   "jerome-preface-tobit"
+  ]
+ }
+]

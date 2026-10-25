@@ -1,0 +1,390 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "israel",
+    "aaron"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "aaron"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "aaron"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "god",
+    "moses"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [
+    "holy-place"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "aaron"
+   ],
+   "events": []
+  },
+  "7": {
+   "places": [
+    "sinai"
+   ],
+   "people": [
+    "god",
+    "aaron",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "aaron"
+   ],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [
+    "aaron",
+    "israel",
+    "moses",
+    "god"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [
+    "aaron",
+    "abihu",
+    "god",
+    "nadab",
+    "moses",
+    "elizaphan-2",
+    "mishael",
+    "uzziel",
+    "eleazar",
+    "israel",
+    "ithamar"
+   ],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "aaron",
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [
+    "aaron",
+    "god",
+    "moses"
+   ],
+   "events": []
+  },
+  "14": {
+   "places": [
+    "canaan-2"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "aaron",
+    "canaan"
+   ],
+   "events": []
+  },
+  "15": {
+   "places": [],
+   "people": [
+    "aaron",
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "16": {
+   "places": [
+    "holy-place",
+    "azazel"
+   ],
+   "people": [
+    "aaron",
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "17": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "aaron",
+    "israel"
+   ],
+   "events": []
+  },
+  "18": {
+   "places": [
+    "canaan-2",
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "israel",
+    "canaan",
+    "molech"
+   ],
+   "events": []
+  },
+  "19": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "20": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "israel",
+    "molech"
+   ],
+   "events": []
+  },
+  "21": {
+   "places": [],
+   "people": [
+    "aaron",
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "22": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "aaron",
+    "israel"
+   ],
+   "events": []
+  },
+  "23": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  },
+  "24": {
+   "places": [],
+   "people": [
+    "god",
+    "moses",
+    "israel",
+    "aaron",
+    "dan-13",
+    "dibri",
+    "shelomith"
+   ],
+   "events": []
+  },
+  "25": {
+   "places": [
+    "mount-sinai",
+    "canaan-2",
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "israel",
+    "canaan"
+   ],
+   "events": []
+  },
+  "26": {
+   "places": [
+    "egypt",
+    "mount-sinai"
+   ],
+   "people": [
+    "god",
+    "abraham",
+    "isaac",
+    "israel",
+    "moses"
+   ],
+   "events": []
+  },
+  "27": {
+   "places": [
+    "mount-sinai"
+   ],
+   "people": [
+    "god",
+    "moses",
+    "israel"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "holy-place": {
+   "name": "Holy Place",
+   "lat": null,
+   "lon": null
+  },
+  "sinai": {
+   "name": "Sinai",
+   "lat": 29.5,
+   "lon": 34.0
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "canaan-2": {
+   "name": "Canaan",
+   "lat": 31.69352950368834,
+   "lon": 34.84388288576839
+  },
+  "azazel": {
+   "name": "Azazel",
+   "lat": null,
+   "lon": null
+  },
+  "mount-sinai": {
+   "name": "Mount Sinai",
+   "lat": 28.58771,
+   "lon": 33.921682
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "aaron": {
+   "name": "Aaron"
+  },
+  "abihu": {
+   "name": "Abihu"
+  },
+  "nadab": {
+   "name": "Nadab"
+  },
+  "elizaphan-2": {
+   "name": "Elizaphan"
+  },
+  "mishael": {
+   "name": "Mishael"
+  },
+  "uzziel": {
+   "name": "Uzziel"
+  },
+  "eleazar": {
+   "name": "Eleazar"
+  },
+  "ithamar": {
+   "name": "Ithamar"
+  },
+  "canaan": {
+   "name": "Canaan"
+  },
+  "molech": {
+   "name": "Molech"
+  },
+  "dan-13": {
+   "name": "Dan"
+  },
+  "dibri": {
+   "name": "Dibri"
+  },
+  "shelomith": {
+   "name": "Shelomith"
+  },
+  "abraham": {
+   "name": "Abraham"
+  },
+  "isaac": {
+   "name": "Isaac"
+  }
+ },
+ "events": {}
+}

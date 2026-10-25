@@ -1,0 +1,333 @@
+{
+  "chapters": {
+    "1": {
+      "places": [
+        "ethiopia",
+        "india",
+        "susa",
+        "media",
+        "persia"
+      ],
+      "people": [
+        "ahasuerus",
+        "vashti",
+        "abagtha",
+        "bigtha",
+        "biztha",
+        "carcas",
+        "harbona",
+        "mehuman",
+        "zethar",
+        "admatha",
+        "carshena",
+        "marsena",
+        "tarshish-2",
+        "memucan",
+        "meres",
+        "shethar"
+      ],
+      "events": []
+    },
+    "2": {
+      "places": [
+        "susa",
+        "babylon",
+        "jerusalem"
+      ],
+      "people": [
+        "ahasuerus",
+        "vashti",
+        "hegai",
+        "jair-4",
+        "kish-4",
+        "mordecai-2",
+        "shimei-15",
+        "jehoiachin",
+        "nebuchadnezzar",
+        "esther",
+        "shaashgaz",
+        "abihail-5",
+        "bigthana",
+        "teresh"
+      ],
+      "events": []
+    },
+    "3": {
+      "places": [
+        "susa"
+      ],
+      "people": [
+        "ahasuerus",
+        "haman",
+        "hammedatha",
+        "mordecai-2"
+      ],
+      "events": []
+    },
+    "4": {
+      "places": [
+        "susa"
+      ],
+      "people": [
+        "mordecai-2",
+        "esther",
+        "hatach",
+        "haman"
+      ],
+      "events": []
+    },
+    "5": {
+      "places": [],
+      "people": [
+        "esther",
+        "haman",
+        "mordecai-2",
+        "zeresh"
+      ],
+      "events": []
+    },
+    "6": {
+      "places": [],
+      "people": [
+        "ahasuerus",
+        "bigthana",
+        "mordecai-2",
+        "teresh",
+        "haman",
+        "zeresh",
+        "esther"
+      ],
+      "events": []
+    },
+    "7": {
+      "places": [],
+      "people": [
+        "esther",
+        "haman",
+        "ahasuerus",
+        "harbonah",
+        "mordecai-2"
+      ],
+      "events": []
+    },
+    "8": {
+      "places": [
+        "ethiopia",
+        "india",
+        "susa"
+      ],
+      "people": [
+        "ahasuerus",
+        "esther",
+        "haman",
+        "mordecai-2",
+        "hammedatha"
+      ],
+      "events": []
+    },
+    "9": {
+      "places": [
+        "susa"
+      ],
+      "people": [
+        "ahasuerus",
+        "mordecai-2",
+        "aspatha",
+        "dalphon",
+        "parshandatha",
+        "adalia",
+        "aridatha",
+        "poratha",
+        "aridai",
+        "arisai",
+        "parmashta",
+        "vajezatha",
+        "haman",
+        "hammedatha",
+        "esther",
+        "abihail-5"
+      ],
+      "events": []
+    },
+    "10": {
+      "places": [
+        "media",
+        "persia"
+      ],
+      "people": [
+        "ahasuerus",
+        "mordecai-2"
+      ],
+      "events": []
+    }
+  },
+  "places": {
+    "susa": {
+      "name": "Susa",
+      "lat": 32.19202,
+      "lon": 48.24854
+    },
+    "media": {
+      "name": "Media",
+      "lat": 34.5,
+      "lon": 46.5
+    },
+    "persia": {
+      "name": "Persia",
+      "lat": 34.798311,
+      "lon": 48.514966
+    },
+    "india": {
+      "name": "India",
+      "lat": 22,
+      "lon": 77
+    },
+    "ethiopia": {
+      "name": "Ethiopia",
+      "lat": 21.959788,
+      "lon": 31.343557
+    },
+    "babylon": {
+      "name": "Babylon",
+      "lat": 32.53617,
+      "lon": 44.42082
+    },
+    "jerusalem": {
+      "name": "Jerusalem",
+      "lat": 31.776667,
+      "lon": 35.234167
+    }
+  },
+  "people": {
+    "ahasuerus": {
+      "name": "Ahasuerus"
+    },
+    "vashti": {
+      "name": "Vashti"
+    },
+    "abagtha": {
+      "name": "Abagtha"
+    },
+    "bigtha": {
+      "name": "Bigtha"
+    },
+    "biztha": {
+      "name": "Biztha"
+    },
+    "carcas": {
+      "name": "Carcas"
+    },
+    "harbona": {
+      "name": "Harbona"
+    },
+    "mehuman": {
+      "name": "Mehuman"
+    },
+    "zethar": {
+      "name": "Zethar"
+    },
+    "admatha": {
+      "name": "Admatha"
+    },
+    "carshena": {
+      "name": "Carshena"
+    },
+    "marsena": {
+      "name": "Marsena"
+    },
+    "memucan": {
+      "name": "Memucan"
+    },
+    "meres": {
+      "name": "Meres"
+    },
+    "shethar": {
+      "name": "Shethar"
+    },
+    "tarshish-2": {
+      "name": "Tarshish"
+    },
+    "hegai": {
+      "name": "Hegai"
+    },
+    "jair-4": {
+      "name": "Jair"
+    },
+    "kish-4": {
+      "name": "Kish"
+    },
+    "mordecai-2": {
+      "name": "Mordecai"
+    },
+    "shimei-15": {
+      "name": "Shimei"
+    },
+    "jehoiachin": {
+      "name": "Jehoiachin"
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar"
+    },
+    "esther": {
+      "name": "Esther"
+    },
+    "shaashgaz": {
+      "name": "Shaashgaz"
+    },
+    "abihail-5": {
+      "name": "Abihail"
+    },
+    "haman": {
+      "name": "Haman"
+    },
+    "hammedatha": {
+      "name": "Hammedatha"
+    },
+    "hatach": {
+      "name": "Hatach"
+    },
+    "zeresh": {
+      "name": "Zeresh"
+    },
+    "bigthana": {
+      "name": "Bigthana"
+    },
+    "teresh": {
+      "name": "Teresh"
+    },
+    "harbonah": {
+      "name": "Harbonah"
+    },
+    "aspatha": {
+      "name": "Aspatha"
+    },
+    "dalphon": {
+      "name": "Dalphon"
+    },
+    "parshandatha": {
+      "name": "Parshandatha"
+    },
+    "adalia": {
+      "name": "Adalia"
+    },
+    "aridatha": {
+      "name": "Aridatha"
+    },
+    "poratha": {
+      "name": "Poratha"
+    },
+    "aridai": {
+      "name": "Aridai"
+    },
+    "arisai": {
+      "name": "Arisai"
+    },
+    "parmashta": {
+      "name": "Parmashta"
+    },
+    "vajezatha": {
+      "name": "Vajezatha"
+    }
+  },
+  "events": {}
+}

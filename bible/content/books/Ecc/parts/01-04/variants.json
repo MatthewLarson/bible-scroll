@@ -1,0 +1,240 @@
+[
+ {
+  "v": "1:1",
+  "a": "king in Jerusalem",
+  "t": "King in Jerusalem, or king of Israel?",
+  "p": "The Greek adds 'of Israel', matching 1:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "מלך בירושלם",
+    "en": "king in Jerusalem",
+    "plain": "king in Jerusalem"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus as printed by Swete agrees)",
+    "orig": "βασιλέως Ισραηλ ἐν Ιερουσαλημ",
+    "en": "king of Israel in Jerusalem",
+    "plain": "king of Israel in Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is more likely original; the Greek translator or its Hebrew source probably filled in 'Israel' from 1:12, 'king over Israel in Jerusalem'.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "who were over Jerusalem before me",
+  "t": "Over Jerusalem, or in Jerusalem?",
+  "p": "The Greek reads 'in Jerusalem', as in 2:7 and 2:9.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "על ירושלם",
+    "en": "over Jerusalem",
+    "plain": "who were over Jerusalem before me"
+   },
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus)",
+    "orig": "ἐν Ιερουσαλημ",
+    "en": "in Jerusalem",
+    "plain": "who were in Jerusalem before me"
+   }
+  ],
+  "follow": 0,
+  "why": "'Over Jerusalem' is the harder reading, since it speaks of rulers before Solomon, of whom there was only David; the Greek seems to have smoothed it to match 2:7 and 2:9. The difference is small but feeds the debate about who the speaker is (see the note).",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "what madness and folly are",
+  "t": "Madness and folly, or parables and understanding?",
+  "p": "The Greek has 'parables and understanding' where the Hebrew has 'madness and folly'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הוללות ושכלות",
+    "en": "madness and folly",
+    "plain": "what madness and folly are"
+   },
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus), which also has 'wisdom and knowledge' for 'wisdom'",
+    "orig": "παραβολὰς καὶ ἐπιστήμην",
+    "en": "parables and understanding",
+    "plain": "what parables and understanding are"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew pair returns in 2:12 and 7:25, where Qohelet clearly studies wisdom's opposite. The Greek translator seems to have read the rare word holelot as a form of meshalot, 'proverbs', and the word for folly, spelled here with sin like sekhel 'insight', as 'understanding'.",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "under the heavens",
+  "t": "Under the heavens, or under the sun?",
+  "p": "The Greek has Qohelet's more usual 'under the sun'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "תחת השמים",
+    "en": "under the heavens",
+    "plain": "under the heavens"
+   },
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus)",
+    "orig": "ὑπὸ τὸν ἥλιον",
+    "en": "under the sun",
+    "plain": "under the sun"
+   }
+  ],
+  "follow": 0,
+  "why": "Both phrases are Qohelet's (1:13; 3:1 'under the heavens'), with the same meaning. The Greek has made the verse match the commoner phrase; the Hebrew keeps the less usual one.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:12",
+  "a": "who comes after the king",
+  "t": "After the king, or after the counsel?",
+  "p": "The Greek reads 'after the counsel', taking the Hebrew letters for 'king' as an Aramaic word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אחרי המלך",
+    "en": "after the king",
+    "plain": "who comes after the king"
+   },
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus)",
+    "orig": "ὀπίσω τῆς βουλῆς",
+    "en": "after the counsel",
+    "plain": "who comes after the counsel"
+   }
+  ],
+  "follow": 0,
+  "why": "The royal story (1:12–2:26) makes 'the king' natural. The Greek translator read the same consonants (mlk) in the Aramaic sense 'counsel, advice' (compare Daniel 4:27). The verse is hard in either form (see the note).",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "Why then have I been so very wise?",
+  "t": "The Greek adds a saying about the fool's talk",
+  "p": "The Greek has an extra line: 'I spoke too much in my heart, for the fool speaks out of excess.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ולמה חכמתי אני אז יותר",
+    "en": "and why have I been wise, I, then, more?",
+    "plain": "Why then have I been so very wise?"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus as printed by Swete places the last clause after 'this too is vapor')",
+    "orig": "καὶ ἵνα τί ἐσοφισάμην ἐγὼ τότε περισσὸν ἐλάλησα ἐν καρδίᾳ μου διότι ἄφρων ἐκ περισσεύματος λαλεῖ",
+    "en": "and why did I become wise? Then I spoke too much in my heart, because a fool speaks out of excess",
+    "plain": "Why then have I been so very wise? I spoke too much in my heart, for a fool speaks out of excess."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek plus seems to come from reading the Hebrew yoter, 'more', twice: once as 'excessively' with 'I spoke', and again in a saying added to explain it. The Hebrew is shorter and the extra line has no Hebrew witness.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:25",
+  "a": "apart from me",
+  "t": "Apart from me, or apart from him?",
+  "p": "The Hebrew says 'apart from me'; the Greek reads 'apart from him', meaning God.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "חוץ ממני",
+    "en": "outside of me / more than I",
+    "plain": "apart from me"
+   },
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus); the Syriac, as reported by Seow and others",
+    "orig": "πάρεξ αὐτοῦ",
+    "en": "apart from him",
+    "plain": "apart from him"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter (mimmenni, mimmennu). 'Apart from him' fits 2:24 and 2:26 well, and many modern translations follow it, but that is exactly why a copyist or translator might have made the change; 'apart from me' is the harder reading and fits the king's claim to have tried everything (2:10). Both are possible. In the same verse Rahlfs' Greek reads 'who will spare' for 'who will enjoy', and Codex Vaticanus 'who will drink'.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "seow-ecclesiastes",
+   "fox-qohelet"
+  ]
+ },
+ {
+  "v": "3:21",
+  "a": "Who knows whether the spirit of human beings goes up above, and whether the spirit of animals goes down below to the earth?",
+  "t": "A question, or a statement?",
+  "p": "The Hebrew letters can be read 'whether it goes up' or 'which goes up'; the Masoretic vowels choose the second.",
+  "readings": [
+   {
+    "w": "Greek (Rahlfs and Codex Vaticanus, εἰ, 'whether'); Jerome's Latin (si, 'whether'); followed by most modern translations",
+    "orig": "εἰ ἀναβαίνει... εἰ καταβαίνει",
+    "en": "whether it goes up... whether it goes down",
+    "plain": "Who knows whether the spirit of human beings goes up above, and whether the spirit of animals goes down below to the earth?"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex), vowels הָעֹלָה and הַיֹּרֶדֶת; followed by the KJV",
+    "orig": "הָעֹלָה הִיא לְמָעְלָה... הַיֹּרֶדֶת הִיא לְמַטָּה",
+    "en": "which goes up above... which goes down below",
+    "plain": "Who knows the spirit of human beings, which goes up above, and the spirit of animals, which goes down below to the earth?"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same in both readings; only the vowels under the first letter differ (the article 'the one which' or the question word 'whether'). The question fits the 'who knows' and the flow of 3:18–20, and the oldest translations read it that way. Many scholars think the Masoretic vowels were chosen to avoid seeming to doubt that the human spirit rises. The Plain follows the Greek and Latin vowels but keeps every Hebrew letter.",
+  "b": "This is a case where the Plain departs from the Leningrad Codex's vowels, not from its letters. The vowel signs were added between about AD 600 and 1000; they record a careful reading tradition but not the original writer's pronunciation. See the note on this verse and the traditions card on the chapter page.",
+  "s": [
+   "rahlfs-lxx",
+   "seow-ecclesiastes",
+   "fox-qohelet",
+   "crenshaw-ecclesiastes"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "his eye never has its fill",
+  "t": "His eye, or his eyes?",
+  "p": "The written text has 'his eyes'; the reading the Masoretes marked (Qere), the verb and the Greek have 'his eye'.",
+  "readings": [
+   {
+    "w": "Masoretic Text, read form (Qere), Leningrad Codex; Greek (Rahlfs)",
+    "orig": "עֵינוֹ",
+    "en": "his eye",
+    "plain": "his eye never has its fill"
+   },
+   {
+    "w": "Masoretic Text, written form (Ketiv)",
+    "orig": "עיניו",
+    "en": "his eyes",
+    "plain": "his eyes never have their fill"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb tisba' is singular, so the reading tradition's 'his eye' fits the grammar; the meaning is the same. The singular also matches 1:8, 'No eye has its fill of seeing'.",
+  "s": [
+   "seow-ecclesiastes",
+   "rahlfs-lxx"
+  ]
+ }
+]

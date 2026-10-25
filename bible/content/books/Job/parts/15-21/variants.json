@@ -1,0 +1,243 @@
+[
+ {
+  "v": "15:15",
+  "a": "his holy ones",
+  "t": "Holy ones, or holy one?",
+  "p": "The written Hebrew has the singular, 'his holy one'; the reading tradition and the versions have the plural.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the reading tradition); Greek (Rahlfs: 'holy ones'); Vulgate; KJV ('saints') and modern versions",
+    "orig": "בִּקְדֹשָׁיו (biqdoshav)",
+    "en": "in his holy ones",
+    "plain": "his holy ones"
+   },
+   {
+    "w": "Leningrad Codex, Ketiv (the consonants as written)",
+    "orig": "בקדשו (biqdosho)",
+    "en": "in his holy one",
+    "plain": "his holy one"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural matches 5:1 and 4:18, where Eliphaz speaks of heavenly beings as a group, and every ancient version reads it. The Ketiv singular may be a defective spelling of the same plural.",
+  "s": [
+   "bhs-elliger",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "15:23",
+  "a": "He wanders around looking for bread: \"Where is it?\"",
+  "t": "Bread, or food for vultures?",
+  "p": "The Greek read the Hebrew 'where?' ('ayyeh) as 'vulture' ('ayyah): the wicked man is marked out as vultures' food.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate; KJV",
+    "orig": "נֹדֵד הוּא לַלֶּחֶם אַיֵּה (noded hu lallechem ayyeh)",
+    "en": "he wanders for bread: where?",
+    "plain": "He wanders around looking for bread: \"Where is it?\""
+   },
+   {
+    "w": "Septuagint (Rahlfs; Ziegler): 'he has been appointed as food for vultures'; followed by the NEB and REB, and in part by the NIV",
+    "orig": "κατατέτακται δὲ εἰς σῖτα γυψίν",
+    "en": "he is assigned as food for vultures",
+    "plain": "He is marked out as food for vultures."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as it stands: the man who was rich wanders hungry, as Psalm 109:10 curses the wicked man's children. The Greek reflects the same consonants read with different vowels ('ayyah, a bird of prey, as in 28:7) and a different verb. Both are possible; the Plain keeps the Masoretic reading and gives the other here.",
+  "s": [
+   "rahlfs-lxx",
+   "ziegler-job",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "15:30",
+  "a": "and he will be blown off by the breath of his mouth.",
+  "t": "His mouth, or his blossom?",
+  "p": "The Greek has 'and may his blossom fall', which many scholars think fits the plant picture better than 'the breath of his mouth'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate ('spiritu oris sui'); KJV",
+    "orig": "וְיָסוּר בְּרוּחַ פִּיו (veyasur beruach piv)",
+    "en": "and he will depart by the breath of his mouth",
+    "plain": "and he will be blown off by the breath of his mouth."
+   },
+   {
+    "w": "Septuagint (Rahlfs): 'may the wind wither his shoot, and may his blossom fall'",
+    "orig": "ἐκπέσοι δὲ αὐτοῦ τὸ ἄνθος",
+    "en": "and may his blossom fall",
+    "plain": "and his blossom will be blown away by the wind."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading is supported by the Vulgate and is the harder text. The Greek may reflect a Hebrew 'pircho' (his blossom) for 'piv' (his mouth), or may be the translator smoothing the image. The Plain keeps the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "17:16",
+  "a": "Will they sink to the bars of Sheol?",
+  "t": "The bars of Sheol, or 'with me'?",
+  "p": "The Greek has 'Will they go down with me to Hades?', perhaps from a Hebrew 'immadi ('with me') instead of badde ('bars').",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV ('the bars of the pit')",
+    "orig": "בַּדֵּי שְׁאֹל תֵּרַדְנָה (badde she'ol teradnah)",
+    "en": "to the bars of Sheol they will go down",
+    "plain": "Will they sink to the bars of Sheol?"
+   },
+   {
+    "w": "Septuagint (Rahlfs), in material Origen marked as supplied from Theodotion (NETS)",
+    "orig": "ἦ μετ᾽ ἐμοῦ εἰς ᾅδην καταβήσονται",
+    "en": "or will they go down with me to Hades?",
+    "plain": "Will they go down with me to Sheol?"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings give good sense, and the Greek's 'with me' matches 'side by side' in the next line. The Masoretic 'bars' fits the picture of Sheol as a locked city (38:17; Jonah 2:6). The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-job",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "19:4",
+  "a": "My mistake is my own to keep.",
+  "t": "A line added in the Greek",
+  "p": "The Septuagint adds a line explaining Job's 'error': he spoke words he should not have, and they went astray.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate; KJV and modern versions",
+    "orig": "אִתִּי תָּלִין מְשׁוּגָתִי ('itti talin meshugati)",
+    "en": "my error lodges with me",
+    "plain": "My mistake is my own to keep."
+   },
+   {
+    "w": "Septuagint (Rahlfs 19:4, with an added line, printed as 19:4a in some editions)",
+    "orig": "παρ᾽ ἐμοὶ δὲ αὐλίζεται πλάνος λαλῆσαι ῥῆμα ὃ οὐκ ἔδει, τὰ δὲ ῥήματά μου πλανᾶται καὶ οὐκ ἐπὶ καιροῦ",
+    "en": "error lodges with me, to have spoken a word that I should not; my words go astray and are untimely",
+    "plain": "My mistake is my own to keep: I spoke a word I should not have, and my words go astray and are out of season."
+   }
+  ],
+  "follow": 0,
+  "why": "The extra line is found only in the Greek and looks like an explanation the translator added, softening Job's words by making his 'error' a matter of rash speech. The Hebrew is shorter and is followed here.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-job"
+  ]
+ },
+ {
+  "v": "19:25",
+  "a": "and at last he will stand up on the dust.",
+  "t": "The Greek and Latin of 19:25",
+  "p": "The Greek reads 'he who is about to set me free on earth is everlasting'; the Latin, 'on the last day I will rise from the earth'. This goes with 19:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV ('he shall stand at the latter day upon the earth')",
+    "orig": "גֹּאֲלִי חָי וְאַחֲרוֹן עַל־עָפָר יָקוּם (go'ali chai ve'acharon 'al-'afar yaqum)",
+    "en": "my redeemer lives, and at last he will rise on the dust",
+    "plain": "and at last he will stand up on the dust."
+   },
+   {
+    "w": "Septuagint (Rahlfs; Ziegler), Old Greek: 'For I know that he is everlasting who is about to release me on earth'",
+    "orig": "οἶδα γὰρ ὅτι ἀέναός ἐστιν ὁ ἐκλύειν με μέλλων ἐπὶ γῆς",
+    "en": "I know that everlasting is the one who is about to set me free on the earth",
+    "plain": "for the one who will set me free on the earth is everlasting."
+   },
+   {
+    "w": "Vulgate (Jerome, from the Hebrew, about AD 390s): Clementine edition (1592) 'et in novissimo die de terra surrecturus sum'; the critical Stuttgart edition (Weber–Gryson) reads 'et in novissimo de terra surrecturus sim', without 'die'",
+    "orig": "scio enim quod redemptor meus vivit, et in novissimo die de terra surrecturus sum",
+    "en": "for I know that my redeemer lives, and on the last day I will rise from the earth",
+    "plain": "and on the last day I will rise from the earth."
+   },
+   {
+    "w": "Rabbinic Targum of Job (Aramaic; Mangan's translation): 'and afterward his redemption will arise upon the dust'",
+    "orig": "וּמִן בָּתַר כְּדֵין פּוּרְקָנֵיהּ עַל עַפְרָא יְקוּם",
+    "en": "and after this his redemption will arise upon the dust",
+    "plain": "and afterward his redemption will rise on the dust."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew. The Greek and the Latin are early interpretations as much as translations: both read the verse as a hope of resurrection, but they do it differently. The Greek turns 'redeemer' into 'the one who will set me free' and makes 'everlasting' (aenaos) the meaning of 'lives'. Jerome changes the subject of the verb: in the Hebrew 'he' (the redeemer) will stand; in the Latin 'I' (Job) will rise from the earth, on 'the last day'.",
+  "b": "<p>The Vulgate's <i>surrecturus sum</i>, \"I am going to rise again\", is the strongest resurrection reading in any ancient version, and it shaped the medieval Office of the Dead and the Catholic funeral. The critical edition of Jerome's text prints it without <i>die</i>, \"day\"; the Clementine Vulgate of 1592, the Catholic Church's standard Latin Bible for centuries, has \"on the last day\". The Qumran Aramaic translation (11QtgJob) has a gap here: its surviving columns run to about 19:19 and resume at 19:29, so it gives no help on 19:20–28. The later rabbinic Targum keeps 'my redeemer lives' and reads <i>acharon</i> as time, 'afterward', but makes the subject 'his redemption', the deliverance the redeemer brings, rather than the redeemer himself. I did not check the Syriac (Peshitta).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "ziegler-job",
+   "nets-job",
+   "vulgate-weber",
+   "vulgate-clementine",
+   "djd23-11qtgjob",
+   "targum-job"
+  ]
+ },
+ {
+  "v": "19:26",
+  "a": "Even after my skin has been stripped off like this,",
+  "t": "The Greek and Latin of 19:26",
+  "p": "The Greek has 'to raise up my skin that endures these things'; the Latin, 'I will be clothed again with my skin'. This goes with 19:25.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV ('And though after my skin worms destroy this body', with 'worms' and 'body' supplied)",
+    "orig": "וְאַחַר עוֹרִי נִקְּפוּ־זֹאת (ve'achar 'ori niqqefu-zot)",
+    "en": "and after my skin they have struck off, this",
+    "plain": "Even after my skin has been stripped off like this,"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Ziegler): 'to raise up my skin that endures these things; for from the Lord these things were accomplished for me'",
+    "orig": "ἀναστήσαι τὸ δέρμα μου τὸ ἀνατλῶν ταῦτα",
+    "en": "to raise up my skin that endures these things",
+    "plain": "he will raise up my skin, which endures these things,"
+   },
+   {
+    "w": "Vulgate (Weber–Gryson and Clementine): 'et rursum circumdabor pelle mea, et in carne mea videbo Deum' ('Deum meum', Clementine)",
+    "orig": "et rursum circumdabor pelle mea",
+    "en": "and I will be wrapped in my skin again",
+    "plain": "And I will be clothed again with my skin,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew, which speaks of skin destroyed, not restored. The Greek reads the verb 'stand, rise' of 19:25 as 'raise up' (anastesai), the word for resurrection, with 'my skin' as its object. The Vulgate makes Job's skin wrap him again. Both translations read a bodily resurrection into a hard Hebrew line.",
+  "b": "<p>The Greek wording was known to early Christians: <i>1 Clement</i> 26:3 (about AD 96) quotes \"Job\" as saying, \"You will raise up this flesh of mine that has endured all these things\", one of the first Christian uses of the verse for the resurrection of the body. The Greek of 42:17 also adds that Job \"will rise again with those whom the Lord raises up\" (see 42:17).</p><p>The rabbinic Targum stays close to the Hebrew of 19:26 and adds one word to the second line: \"from my flesh I will see God <i>again</i>\", which may point to Job's restoration in this life. I did not check the Syriac (Peshitta).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "ziegler-job",
+   "vulgate-weber",
+   "vulgate-clementine",
+   "clement-1",
+   "targum-job"
+  ]
+ },
+ {
+  "v": "19:28",
+  "a": "The cause of it all is in him,",
+  "t": "In me, or in him?",
+  "p": "The Leningrad Codex reads 'in me'. Many Hebrew manuscripts and the ancient versions read 'in him'. The Masoretic 'in me' can mean 'the trouble lies with me', in the friends' eyes.",
+  "readings": [
+   {
+    "w": "Many medieval Hebrew manuscripts (Kennicott; de Rossi); Greek (in the half of the verse that NETS marks as supplied by Origen from Theodotion: 'we will find the root of the matter in him'); Vulgate ('contra eum'); rabbinic Targum ('the root of the matter we will find in him'); most modern versions",
+    "orig": "בּוֹ (bo)",
+    "en": "in him",
+    "plain": "The cause of it all is in him,"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) and the main Masoretic tradition; KJV ('seeing the root of the matter is found in me')",
+    "orig": "בִּי (bi)",
+    "en": "in me",
+    "plain": "The cause of it all is in me,"
+   }
+  ],
+  "follow": 0,
+  "why": "Inside the friends' words, 'in him' (Job) is the easier reading, and in Hebrew the two endings differ by one letter, waw for yod, which scribes easily confused. But 'in me' is the harder reading, and the versions may be smoothing it. Hebrew often slides from a quotation into the speaker's own point of view, so Job can report the friends' words from his side: they say the root of the trouble is in me. The KJV keeps 'in me' and takes it as Job's own claim. The Plain follows 'in him' as the clearer sense, but the Masoretic reading is defensible. I did not check the Syriac (Peshitta).",
+  "s": [
+   "bhs-elliger",
+   "nets-job",
+   "targum-job",
+   "clines-job"
+  ]
+ }
+]

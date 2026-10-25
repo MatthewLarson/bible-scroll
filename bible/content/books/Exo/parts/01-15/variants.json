@@ -1,0 +1,446 @@
+[
+ {
+  "v": "1:5",
+  "a": "seventy",
+  "t": "Seventy or seventy-five?",
+  "p": "The Hebrew counts seventy; the Greek and two Dead Sea Scrolls count seventy-five, as Stephen does in Acts.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; Targums; Latin Vulgate; KJV and most English versions",
+    "orig": "שִׁבְעִים נָפֶשׁ",
+    "en": "seventy persons",
+    "plain": "seventy"
+   },
+   {
+    "w": "Septuagint; Dead Sea Scrolls 4QGen-Exod-a (4Q1) and 4QExod-b (4Q13, about the middle of the first century BC)",
+    "orig": "πέντε καὶ ἑβδομήκοντα",
+    "en": "seventy-five",
+    "plain": "seventy-five"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew agrees with Genesis 46:27 and Deuteronomy 10:22, which also count seventy, and most witnesses have it. The Greek figure is not a mistake but another way of counting, so it is a real and early alternative.",
+  "b": "The Septuagint of Genesis 46:20 and 46:27 adds five descendants of Joseph's sons (Manasseh's son and grandson, Ephraim's two sons and a grandson) and so reaches seventy-five, and it carries the same number here. The Hebrew scrolls 4QGen-Exod-a and 4QExod-b also read seventy-five, which shows the larger number circulated in Hebrew, not only in Greek. Stephen, speaking in Greek, says Joseph called \"seventy-five persons\" (Acts 7:14). Seventy is also a symbolic number: the seventy nations of Genesis 10, and the seventy elders of 24:1.",
+  "s": [
+   "abegg-dssb",
+   "wevers-exodus",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "Pithom and Rameses.",
+  "t": "Did the Greek add a third city?",
+  "p": "The Septuagint adds \"and On, which is Heliopolis\" to the list of cities.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Vulgate; English versions",
+    "orig": "אֶת־פִּתֹם וְאֶת־רַעַמְסֵס",
+    "en": "Pithom and Raamses",
+    "plain": "Pithom and Rameses."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τήν τε Πειθω καὶ Ραμεσση καὶ Ων, ἥ ἐστιν Ἡλίου πόλις",
+    "en": "Peitho and Ramesse and On, which is Heliopolis",
+    "plain": "Pithom and Rameses, and On, which is Heliopolis."
+   }
+  ],
+  "follow": 0,
+  "why": "Only the Greek has the third city, and it reads like an explanatory addition by translators living in Egypt, who knew On (Heliopolis, near Cairo) as the city of Joseph's father-in-law (Genesis 41:45).",
+  "s": [
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "1:22",
+  "a": "Every son who is born",
+  "t": "\"Every son born to the Hebrews\"",
+  "p": "Several ancient witnesses add \"to the Hebrews,\" making clear that the decree targets only Israel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כָּל־הַבֵּן הַיִּלּוֹד",
+    "en": "every son who is born",
+    "plain": "Every son who is born"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; Targum Onkelos; followed by the BSB and NIV",
+    "orig": "כל הבן הילוד לעברים",
+    "en": "every son born to the Hebrews",
+    "plain": "Every son who is born to the Hebrews"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is the harder reading: read alone it sounds as if Pharaoh orders all boys drowned, Egyptian ones too. Scribes and translators likely added \"to the Hebrews\" to make the obvious sense explicit. The Talmud (Sotah 12a) and the Midrash used the shorter text to say that Pharaoh's astrologers could not tell whether the savior would be Hebrew or Egyptian, so he ordered every boy killed that day.",
+  "s": [
+   "tal-samaritan",
+   "wevers-exodus",
+   "bavli-sotah"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "She bore a son, and Moses named him Gershom, because he said, \"I have become a foreigner living in an alien land.\"",
+  "t": "A second son named in the Greek",
+  "p": "The Septuagint adds the birth of Eliezer here, a son mentioned in the Hebrew only at 18:4.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Targums; KJV and most English versions",
+    "orig": "וַתֵּלֶד בֵּן וַיִּקְרָא אֶת־שְׁמוֹ גֵּרְשֹׁם",
+    "en": "(Gershom only)",
+    "plain": "She bore a son, and Moses named him Gershom, because he said, \"I have become a foreigner living in an alien land.\""
+   },
+   {
+    "w": "Septuagint (most manuscripts); the Clementine Vulgate prints the sentence in its text, and so the Douay-Rheims English Bible includes it",
+    "orig": "ἐν γαστρὶ δὲ λαβοῦσα ἔτεκεν υἱὸν δεύτερον καὶ ἐπωνόμασεν τὸ ὄνομα αὐτοῦ Ελιεζερ",
+    "en": "And she conceived again and bore a second son, and he named him Eliezer, saying, \"For the God of my father is my helper, and he rescued me from the hand of Pharaoh\"",
+    "plain": "She bore a son, and Moses named him Gershom, because he said, \"I have become a foreigner living in an alien land.\" She conceived again and bore a second son, and he named him Eliezer, saying, \"The God of my father is my helper, and he rescued me from Pharaoh's hand.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek addition is almost word for word the explanation of Eliezer's name in 18:4. It looks like a translator or scribe filling a gap, since 4:20 speaks of Moses' \"sons\" but only one has been born. The shorter Hebrew is supported by the other ancient witnesses.",
+  "b": "The addition solves a real puzzle: in 4:20 Moses takes \"his sons,\" and in 4:25 Zipporah circumcises \"her son,\" yet only Gershom has been mentioned. Exodus 18:3–4 finally names both. Whether the addition was in the Hebrew text the Greek translators used, or was their own harmonizing, cannot be decided with certainty.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus1"
+  ]
+ },
+ {
+  "v": "2:25",
+  "a": "and God knew",
+  "t": "God knew, or made himself known?",
+  "p": "The Hebrew ends, \"and God knew.\" The Greek reads \"and he made himself known to them.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (vayyeda' Elohim); Samaritan Pentateuch; Vulgate (et cognovit eos)",
+    "orig": "וַיֵּדַע אֱלֹהִים",
+    "en": "and God knew",
+    "plain": "and God knew"
+   },
+   {
+    "w": "Septuagint (kai egnosthē autois)",
+    "orig": "καὶ ἐγνώσθη αὐτοῖς",
+    "en": "and he was made known to them",
+    "plain": "and God made himself known to them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading: \"knew\" has no object, which is unusual, so translators often supply one (\"knew their condition,\" \"took notice\"). The Greek probably read the same consonants with different vowels (<i>vayyiwwada'</i>, \"and he made himself known\"), which leads smoothly into the revelation at the bush in chapter 3. The abrupt Hebrew, God simply \"knew,\" is a powerful ending and is likely original.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus1",
+   "childs-exodus"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "the LORD met him",
+  "t": "The LORD, or an angel?",
+  "p": "The Greek and the Aramaic Targum say an angel attacked Moses, not the LORD himself.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Vulgate",
+    "orig": "וַיִּפְגְּשֵׁהוּ יְהוָה",
+    "en": "the LORD met him",
+    "plain": "the LORD met him"
+   },
+   {
+    "w": "Septuagint (angelos kyriou); Targum Onkelos (mal'akha da-YY)",
+    "orig": "συνήντησεν αὐτῷ ἄγγελος κυρίου",
+    "en": "an angel of the Lord met him",
+    "plain": "an angel of the LORD met him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading. It is easy to see why translators would change \"the LORD\" to \"an angel of the LORD\" in a scene where God tries to kill his own chosen messenger, and hard to see why anyone would make the opposite change.",
+  "s": [
+   "wevers-exodus",
+   "targum-onkelos",
+   "propp-bridegroom"
+  ]
+ },
+ {
+  "v": "4:25",
+  "a": "and touched it to his feet. She said, \"Surely you are a bridegroom of blood to me.\"",
+  "t": "What did Zipporah say?",
+  "p": "The Greek has Zipporah fall at the attacker's feet and say, \"The blood of my child's circumcision has stopped.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Vulgate",
+    "orig": "וַתַּגַּע לְרַגְלָיו וַתֹּאמֶר כִּי חֲתַן־דָּמִים אַתָּה לִי",
+    "en": "and touched his feet, and said, Surely you are a bridegroom of blood to me",
+    "plain": "and touched it to his feet. She said, \"Surely you are a bridegroom of blood to me.\""
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ προσέπεσεν πρὸς τοὺς πόδας καὶ εἶπεν Ἔστη τὸ αἷμα τῆς περιτομῆς τοῦ παιδίου μου",
+    "en": "and she fell at his feet and said, \"The blood of my child's circumcision has stopped\"",
+    "plain": "and fell at his feet. She said, \"The blood of my child's circumcision has stopped.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translators seem to have been puzzled by \"bridegroom of blood\" and rendered the scene so that it makes clear sense: Zipporah pleads, and the blood has done its work. The Hebrew, though obscure, is supported by the other witnesses and is the harder reading.",
+  "b": "The Greek of 4:26 likewise reads \"the blood of the circumcision of my child\" where the Hebrew repeats \"bridegroom of blood.\" The difference shows how early this passage puzzled readers. Targum Onkelos gives a third reading: \"by the blood of this circumcision the bridegroom has been given back to us,\" which turns the line into thanks for Moses' life.",
+  "s": [
+   "wevers-exodus",
+   "propp-bridegroom",
+   "targum-onkelos"
+  ]
+ },
+ {
+  "v": "6:20",
+  "a": "his father's sister",
+  "t": "Aunt or cousin?",
+  "p": "The Hebrew says Jochebed was Amram's aunt. The Greek and Latin make her his cousin.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; KJV and most English versions",
+    "orig": "דֹּדָתוֹ",
+    "en": "his father's sister",
+    "plain": "his father's sister"
+   },
+   {
+    "w": "Septuagint (thygatera tou adelphou tou patros autou); Latin Vulgate (patruelem suam)",
+    "orig": "θυγατέρα τοῦ ἀδελφοῦ τοῦ πατρὸς αὐτοῦ",
+    "en": "the daughter of his father's brother",
+    "plain": "the daughter of his father's brother"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Dodah</i> means \"aunt\" (Leviticus 18:14; 20:20). Marriage to an aunt is later forbidden by the Law (Leviticus 18:12; 20:19), so the Greek and Latin translators probably softened it to \"cousin.\" The Hebrew is the harder reading, and Numbers 26:59 confirms that Jochebed was a daughter of Levi, Amram's father's sister.",
+  "s": [
+   "wevers-exodus",
+   "sarna-exodus"
+  ]
+ },
+ {
+  "v": "6:20",
+  "a": "she bore him Aaron and Moses",
+  "t": "Miriam added",
+  "p": "The Samaritan Pentateuch and the Septuagint add \"and Miriam their sister.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Vulgate; English versions",
+    "orig": "וַתֵּלֶד לוֹ אֶת־אַהֲרֹן וְאֶת־מֹשֶׁה",
+    "en": "she bore him Aaron and Moses",
+    "plain": "she bore him Aaron and Moses"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint",
+    "orig": "καὶ ἐγέννησεν αὐτῷ τόν τε Ααρων καὶ Μωυσῆν καὶ Μαριαμ τὴν ἀδελφὴν αὐτῶν",
+    "en": "she bore him Aaron and Moses and Miriam their sister",
+    "plain": "she bore him Aaron and Moses, and Miriam their sister"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition matches Numbers 26:59 (\"Aaron, Moses and Miriam their sister\") and 1 Chronicles 6:3, and looks like a harmonizing expansion, a type of addition common in the Samaritan text. The shorter Hebrew lists only the two leaders, which suits the purpose of the passage (6:26–27).",
+  "s": [
+   "tal-samaritan",
+   "wevers-exodus"
+  ]
+ },
+ {
+  "v": "7:18",
+  "a": "Egypt will find it cannot bear to drink water from the Nile.'\"",
+  "t": "Moses delivers the message: the longer text",
+  "p": "A Dead Sea Scroll and the Samaritan text add a scene in which Moses and Aaron repeat God's words to Pharaoh.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Septuagint; Targums; Vulgate; all English versions",
+    "orig": "וְנִלְאוּ מִצְרַיִם לִשְׁתּוֹת מַיִם מִן־הַיְאֹר",
+    "en": "(the command ends; the next verse turns to Aaron)",
+    "plain": "Egypt will find it cannot bear to drink water from the Nile.'\""
+   },
+   {
+    "w": "4QpaleoExod-m (about 100–25 BC, partly preserved here); Samaritan Pentateuch",
+    "orig": "וילך משה ואהרן אל פרעה ויאמרו אליו",
+    "en": "Then Moses and Aaron went to Pharaoh and said to him, (repeating 7:16–18)",
+    "plain": "Egypt will find it cannot bear to drink water from the Nile.'\" So Moses and Aaron went to Pharaoh and said to him, \"The LORD, the God of the Hebrews, sent us to you to say: Let my people go, so they may serve me in the wilderness. But look, until now you have not listened. This is what the LORD says: Here is how you will know that I am the LORD. Look, I am about to strike the water of the Nile with the staff in my hand, and it will be turned to blood. The fish in the Nile will die, and the Nile will stink, and Egypt will find it cannot bear to drink water from the Nile.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text supplies a scene the shorter one leaves to the reader, by repeating the command almost word for word as a report. Expanding a text to show each command carried out is a known scribal habit (harmonizing), and it adds no new content. The shorter text is supported by the Septuagint as well as the Masoretic Text.",
+  "b": "The added paragraph is given here in this edition's own wording of 7:16–18, turned into a report, since the scroll and the Samaritan text repeat those verses in substance; the scroll's fragments preserve only part of it. Judith Sanderson showed that 4QpaleoExod-m shares these expansions with the Samaritan tradition but not its specifically Samaritan changes, so the expanded text was a widely used Jewish edition before it became the Samaritan one.",
+  "s": [
+   "sanderson-paleoexod",
+   "tal-samaritan",
+   "tov-tchb",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "8:23",
+  "a": "redemption",
+  "t": "Redemption or distinction?",
+  "p": "The Hebrew says God puts \"redemption\" between the peoples. The Greek and Latin say \"a distinction.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum Onkelos (purqan, \"redemption\"); the KJV margin (\"Heb. a redemption\")",
+    "orig": "פְדֻת",
+    "en": "redemption",
+    "plain": "redemption"
+   },
+   {
+    "w": "Septuagint (diastolē); Latin Vulgate (divisio); followed by the KJV (\"a division\"), the BSB and most modern versions",
+    "orig": "διαστολήν",
+    "en": "a distinction",
+    "plain": "a distinction"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Pedut</i> is the harder reading, and the Plain keeps it: God's setting Israel apart is itself the first act of ransom, a theme the book develops (6:6; 15:13). The Greek may reflect a different Hebrew word, perhaps <i>pelut</i>, \"separation,\" from <i>palah</i>, \"set apart,\" in 8:22, or may simply be a translation by sense. Many modern scholars suspect the Hebrew suffered a slip of one letter.",
+  "b": "The verb in 8:22, <i>vehiflêti</i>, \"I will set apart,\" makes \"separation\" a natural guess for what follows, and that is why many emend. But <i>pedut</i> appears again in Psalm 111:9 and 130:7 for God's redemption of his people, so it is not out of place. The Syriac Peshitta is reported to read \"redemption\" with the Hebrew as well.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus1",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "12:40",
+  "a": "lived in Egypt",
+  "t": "430 years in Egypt, or in Egypt and Canaan?",
+  "p": "The Greek and Samaritan texts count the 430 years from Abraham in Canaan, not from Jacob's arrival in Egypt.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Targum Onkelos; Latin Vulgate; KJV and most English versions",
+    "orig": "אֲשֶׁר יָשְׁבוּ בְּמִצְרָיִם",
+    "en": "which they lived in Egypt",
+    "plain": "lived in Egypt"
+   },
+   {
+    "w": "Septuagint (\"in the land of Egypt and in the land of Canaan\"; some copies add \"they and their fathers\"); Samaritan Pentateuch (\"in the land of Canaan and in the land of Egypt\")",
+    "orig": "ἐν γῇ Αἰγύπτῳ καὶ ἐν γῇ Χανααν",
+    "en": "in the land of Egypt and in the land of Canaan",
+    "plain": "lived in Egypt and in the land of Canaan"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is shorter and agrees with Genesis 15:13 (\"four hundred years\" of affliction in a foreign land) and with Acts 7:6. The longer reading looks like an early attempt to fit the 430 years to the genealogy, since Moses is only Levi's great-grandson (6:16–20), which seems too short for 430 years in Egypt. The two longer witnesses even put the lands in different orders, a sign of an added phrase.",
+  "b": "The longer reading had wide influence. Paul says the Law came \"430 years after\" the promise to Abraham (Galatians 3:17), which matches it. Josephus says Israel left Egypt 430 years after Abraham entered Canaan but 215 after Jacob entered Egypt (<i>Antiquities</i> 2.318), and the rabbis also counted 210 years in Egypt (Seder Olam). Those who hold the Hebrew reading answer that the genealogies in chapter 6 skip generations. For dating the exodus, see the chapter page.",
+  "s": [
+   "wevers-exodus",
+   "tal-samaritan",
+   "josephus-ant",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "in battle order",
+  "t": "In battle order, or in the fifth generation?",
+  "p": "The Hebrew says Israel went up \"armed\" or \"in ranks\"; the Greek says \"in the fifth generation.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Targum Onkelos (\"armed\"); Vulgate (armati); KJV (\"harnessed\")",
+    "orig": "וַחֲמֻשִׁים",
+    "en": "and armed, in battle array",
+    "plain": "in battle order"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "πέμπτῃ δὲ γενεᾷ",
+    "en": "in the fifth generation",
+    "plain": "in the fifth generation"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translators read the same consonants as a form of \"five\" (<i>chamishi</i>, \"fifth\") and took it as a count of generations. The Hebrew sense \"armed\" is confirmed by Joshua 1:14, 4:12 and Judges 7:11, so the Plain keeps it.",
+  "b": "The Greek reading bears on the length of the stay in Egypt. Genesis 15:16 promises return \"in the fourth generation,\" and the genealogy of 6:16–20 gives Levi, Kohath, Amram and Moses; counting Jacob's sons' generation as the first, the exodus generation is roughly the fifth. The Septuagint thus fits its own shorter count in 12:40, where the 430 years include Canaan.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus1"
+  ]
+ },
+ {
+  "v": "14:20",
+  "a": "and it lit up the night",
+  "t": "Did the cloud light the night?",
+  "p": "The Hebrew seems to say the cloud gave light; the Greek says \"and the night passed.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Targum Onkelos; Vulgate; KJV",
+    "orig": "וַיָּאֶר אֶת־הַלָּיְלָה",
+    "en": "and it lit up the night",
+    "plain": "and it lit up the night"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ διῆλθεν ἡ νύξ",
+    "en": "and the night passed",
+    "plain": "and the night passed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is hard but makes sense: the cloud was darkness on Egypt's side and light on Israel's, as the Targums and Rashi explain. The Greek seems to read a Hebrew verb from <i>'avar</i>, \"pass,\" instead of <i>'or</i>, \"give light,\" an easier text. Many modern scholars suspect an old copying problem in the verse as a whole.",
+  "b": "The verse is one of the most difficult in the chapter. \"There was the cloud and the darkness\" is abrupt in Hebrew, and some scholars emend \"darkness\" too. The idea of light for Israel and darkness for Egypt matches 10:23, where the Israelites had light in their homes.",
+  "s": [
+   "wevers-exodus",
+   "propp-exodus1",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "14:25",
+  "a": "He made their chariot wheels swerve off",
+  "t": "Wheels removed or clogged?",
+  "p": "The Hebrew says God \"turned aside\" or removed the wheels. The Samaritan and Greek say he \"bound\" or clogged them.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Targum Onkelos; Vulgate; KJV (\"took off their chariot wheels\")",
+    "orig": "וַיָּסַר אֵת אֹפַן מַרְכְּבֹתָיו",
+    "en": "and he removed (turned aside) the wheel of their chariots",
+    "plain": "He made their chariot wheels swerve off"
+   },
+   {
+    "w": "Samaritan Pentateuch (ויאסר); Septuagint (\"he bound the axles\"); Syriac; followed by many modern versions (\"clogged\", \"jammed\")",
+    "orig": "καὶ συνέδησεν τοὺς ἄξονας τῶν ἁρμάτων αὐτῶν",
+    "en": "and he bound the axles of their chariots",
+    "plain": "He clogged their chariot wheels"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter, <i>vayyasar</i> (from <i>sur</i>, \"turn aside, remove\") against <i>vayye'esor</i> (\"bind\"). \"Bound\" fits the picture of wheels stuck in wet ground and is followed by many scholars; but the Hebrew can mean the wheels \"swerved\" or came off, which also leads to \"driving heavily.\" The Plain keeps the Hebrew, with a wording open to both senses.",
+  "b": "\"Drove them heavily\" (<i>bikhvedut</i>) is once more the root <i>kaved</i>: the heavy heart ends in heavy wheels. Whichever reading is right, the effect is the same: Egypt's great weapon, the chariot, becomes useless.",
+  "s": [
+   "tal-samaritan",
+   "wevers-exodus",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "15:3",
+  "a": "The LORD is a man of war.",
+  "t": "A man of war, or one who crushes wars?",
+  "p": "The Hebrew calls the LORD \"a man of war\"; the Samaritan text says \"mighty in war,\" the Greek \"who crushes wars.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Vulgate (quasi vir pugnator); KJV",
+    "orig": "יְהוָה אִישׁ מִלְחָמָה",
+    "en": "the LORD is a man of war",
+    "plain": "The LORD is a man of war."
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "יהוה גבור במלחמה",
+    "en": "the LORD is mighty in war",
+    "plain": "The LORD is mighty in war."
+   },
+   {
+    "w": "Septuagint; echoed in Judith 9:7 and 16:2",
+    "orig": "κύριος συντρίβων πολέμους",
+    "en": "the Lord who crushes wars",
+    "plain": "The LORD crushes wars."
+   }
+  ],
+  "follow": 0,
+  "why": "The bold human image is the harder reading, and both alternatives look like attempts to avoid calling God a \"man.\" The Samaritan wording borrows Psalm 24:8 (\"mighty in battle\"); the Greek turns the warrior into the one who ends war, as in Psalm 46:9 and 76:3.",
+  "b": "The Greek phrase had a life of its own: Judith twice prays to \"the Lord who crushes wars\" (Judith 9:7; 16:2). Targum Onkelos takes a third path: \"the LORD is master of victories in wars.\"",
+  "s": [
+   "tal-samaritan",
+   "wevers-exodus",
+   "targum-onkelos"
+  ]
+ }
+]

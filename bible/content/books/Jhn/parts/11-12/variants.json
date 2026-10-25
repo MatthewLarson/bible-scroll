@@ -1,0 +1,387 @@
+[
+ {
+  "v": "11:22",
+  "a": "But even",
+  "t": "\"But even now\" or \"even now\"?",
+  "p": "Two of the three critical editions, with the Byzantine text, begin Martha's words with \"But.\" The SBLGNT leaves it out.",
+  "readings": [
+   {
+    "w": "NA28 (in square brackets), Tyndale House, Byzantine majority, Textus Receptus (KJV \"But I know, that even now\")",
+    "orig": "ἀλλὰ καὶ νῦν οἶδα",
+    "en": "but even now I know",
+    "plain": "But even"
+   },
+   {
+    "w": "SBLGNT, Westcott-Hort, Tregelles",
+    "orig": "καὶ νῦν οἶδα",
+    "en": "and even now I know",
+    "plain": "And even"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and the Tyndale House edition here against the SBLGNT. The word is small but it shapes Martha's tone: \"But even now\" turns from her reproach (11:21) to hope. The manuscripts are divided, as the square brackets in NA27 and NA28 show; see the NA28 apparatus for the witnesses.",
+  "b": "A similar small difference is at 12:9, where NA28, Tyndale House and Westcott-Hort have \"the great crowd\" with the article and the SBLGNT \"a great crowd\" without it. The Plain's \"A great crowd\" follows the SBLGNT; the meaning is the same."
+ },
+ {
+  "v": "11:25",
+  "a": "the resurrection and the life",
+  "t": "\"And the life\": in every manuscript?",
+  "p": "A few early witnesses have Jesus say only \"I am the resurrection.\"",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts, including Codex Sinaiticus and Vaticanus (300s) and Papyrus 66 (about 200); SBLGNT, NA28, Tyndale House, Byzantine, Textus Receptus (KJV)",
+    "orig": "ἡ ἀνάστασις καὶ ἡ ζωή",
+    "en": "the resurrection and the life",
+    "plain": "the resurrection and the life"
+   },
+   {
+    "w": "Papyrus 45 (200s, as far as it can be read), one Old Latin manuscript, the Sinaitic Syriac (300s–400s) and Cyprian (mid-200s), as reported by Metzger",
+    "orig": "ἡ ἀνάστασις",
+    "en": "the resurrection",
+    "plain": "the resurrection"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading has overwhelming support. The words may have been dropped because Martha had spoken only of the resurrection (11:24), so \"and the life\" looked like an extra.",
+  "b": "Some modern versions mention the shorter reading in a footnote. The saying's two promises in 11:25b–26, \"will live\" and \"will never die,\" match the two words \"resurrection\" and \"life,\" which favors the longer text.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "They thought",
+  "t": "\"Thinking\" or \"saying\"?",
+  "p": "The KJV has the mourners say, \"She is going to the tomb.\" The older text says they thought so.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75 (about 200), Codex Sinaiticus and Vaticanus (300s); SBLGNT, NA28, Tyndale House",
+    "orig": "δόξαντες",
+    "en": "supposing",
+    "plain": "They thought"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), Byzantine majority, Textus Receptus (KJV \"saying, She goeth unto the grave\")",
+    "orig": "λέγοντες",
+    "en": "saying",
+    "plain": "They said"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Supposing\" has the older and wider support. \"Saying\" is a common, easy word that could replace a less expected one.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:41",
+  "a": "They moved the stone away.",
+  "t": "\"Where the dead man was laid\"",
+  "p": "Later manuscripts and the KJV add that the stone was taken from where the dead man lay.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus and Vaticanus; SBLGNT, NA28, Tyndale House",
+    "orig": "ἦραν οὖν τὸν λίθον",
+    "en": "So they took away the stone.",
+    "plain": "They moved the stone away."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"from the place where the dead was laid\")",
+    "orig": "ἦραν οὖν τὸν λίθον οὗ ἦν ὁ τεθνηκὼς κείμενος",
+    "en": "So they took away the stone from where the dead man was lying.",
+    "plain": "They moved the stone away from the place where the dead man was lying."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are missing from the oldest manuscripts and look like an explanation. Copyists also differed on exactly how to word it, a common sign of an addition.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:50",
+  "a": "your advantage",
+  "t": "\"For you\" or \"for us\"?",
+  "p": "Caiaphas says it is good \"for you\"; the KJV reads \"for us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (the editions' choice; the full list of manuscripts is in the NA28 apparatus)",
+    "orig": "συμφέρει ὑμῖν",
+    "en": "it is better for you",
+    "plain": "your advantage"
+   },
+   {
+    "w": "Byzantine majority text, Textus Receptus (KJV \"it is expedient for us\")",
+    "orig": "συμφέρει ἡμῖν",
+    "en": "it is better for us",
+    "plain": "our advantage"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions read \"you,\" which fits Caiaphas' scornful tone (\"You don't know anything\"). In later Greek the two words sounded alike, so copyists often confused them.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "12:1",
+  "a": "the man Jesus had raised from the dead",
+  "t": "\"Who had been dead\"",
+  "p": "The KJV says Lazarus \"had been dead,\" whom \"he raised.\" The older text is shorter.",
+  "readings": [
+   {
+    "w": "Papyrus 66, Codex Sinaiticus and Vaticanus; SBLGNT, NA28, Tyndale House",
+    "orig": "ὃν ἤγειρεν ἐκ νεκρῶν Ἰησοῦς",
+    "en": "whom Jesus raised from the dead",
+    "plain": "the man Jesus had raised from the dead"
+   },
+   {
+    "w": "Codex Alexandrinus, Byzantine majority, Textus Receptus (KJV \"which had been dead, whom he raised from the dead\")",
+    "orig": "ὁ τεθνηκώς, ὃν ἤγειρεν ἐκ νεκρῶν",
+    "en": "who had died, whom he raised from the dead",
+    "plain": "the man who had died, whom he had raised from the dead"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is older. \"Who had died\" repeats what the reader knows and was probably added from 11:39 and 11:44.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:4",
+  "a": "Judas Iscariot",
+  "t": "\"Son of Simon\"",
+  "p": "Later manuscripts and the KJV call him \"Judas Iscariot, Simon's son,\" as John does in 6:71 and 13:2.",
+  "readings": [
+   {
+    "w": "Papyrus 66, Codex Sinaiticus and Vaticanus; SBLGNT, NA28, Tyndale House",
+    "orig": "Ἰούδας ὁ Ἰσκαριώτης",
+    "en": "Judas the Iscariot",
+    "plain": "Judas Iscariot"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Judas Iscariot, Simon's son\")",
+    "orig": "Ἰούδας Σίμωνος Ἰσκαριώτης",
+    "en": "Judas son of Simon, Iscariot",
+    "plain": "Judas Iscariot, son of Simon"
+   }
+  ],
+  "follow": 0,
+  "why": "The father's name is probably borrowed from 6:71 and 13:2, where it is secure. The Byzantine text also changes the word order of the verse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": ", so that she can keep it",
+  "t": "\"So that she may keep\" or \"she has kept\"?",
+  "p": "The oldest text has a puzzling \"so that she may keep it.\" Later copies, and the KJV, smooth it to \"she has kept this.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus and Bezae; SBLGNT, NA28, Tyndale House",
+    "orig": "ἵνα ... τηρήσῃ αὐτό",
+    "en": "so that she may keep it",
+    "plain": ", so that she can keep it"
+   },
+   {
+    "w": "Codex Alexandrinus, Byzantine majority, Textus Receptus (KJV \"against the day of my burying hath she kept this\")",
+    "orig": "τετήρηκεν αὐτό",
+    "en": "she has kept it",
+    "plain": ". She has kept it"
+   }
+  ],
+  "follow": 0,
+  "why": "The harder reading is older and better supported. Copyists who wondered how Mary could \"keep\" what she had just poured out changed it to \"she has kept,\" which Metzger calls a clear attempt to ease the difficulty. See the note on this verse for what the older wording means.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:8",
+  "a": "For you always have poor people among you, but you do not always have me.",
+  "t": "A verse missing from two witnesses",
+  "p": "Codex Bezae and the Sinaitic Syriac lack this verse. All other witnesses have it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and Alexandrinus, and almost all manuscripts; SBLGNT, NA28, Tyndale House, Byzantine, Textus Receptus (KJV)",
+    "orig": "τοὺς πτωχοὺς γὰρ πάντοτε ἔχετε μεθ᾽ ἑαυτῶν, ἐμὲ δὲ οὐ πάντοτε ἔχετε",
+    "en": "For you always have the poor with you, but you do not always have me",
+    "plain": "For you always have poor people among you, but you do not always have me."
+   },
+   {
+    "w": "Codex Bezae (400s) and the Sinaitic Syriac, as reported by Metzger",
+    "orig": "(verse absent)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is in the great early codices and nearly every manuscript. Its absence from two witnesses is probably an accident or a dropping of words that some thought were borrowed from Mark 14:7 and Matthew 26:11.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:17",
+  "a": "the crowd that was with him when he summoned",
+  "t": "\"When he called\" or \"that he called\"?",
+  "p": "One Greek letter changes what the crowd testifies: some manuscripts say the crowd told \"that\" he raised Lazarus.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and Alexandrinus, Byzantine majority; SBLGNT, NA28, Tyndale House, Textus Receptus (KJV)",
+    "orig": "ὅτε τὸν Λάζαρον ἐφώνησεν",
+    "en": "when he called Lazarus",
+    "plain": "the crowd that was with him when he summoned"
+   },
+   {
+    "w": "Papyrus 66, Codex Bezae, and some Old Latin and Syriac witnesses, as reported by Metzger",
+    "orig": "ὅτι τὸν Λάζαρον ἐφώνησεν",
+    "en": "that he called Lazarus",
+    "plain": "the crowd that was with him, that he had summoned"
+   }
+  ],
+  "follow": 0,
+  "why": "\"When\" (hote) has the broader support. With \"that\" (hoti), two crowds become one, and 12:18 reads less smoothly; most editors think the change came by accident, since the words differ by one letter.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:25",
+  "a": "are losing it",
+  "t": "\"Loses\" or \"will lose\"?",
+  "p": "The older text puts the loss in the present; the KJV, with later manuscripts, makes it future.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (the editions' choice; see the NA28 apparatus for the manuscripts)",
+    "orig": "ἀπολλύει",
+    "en": "loses",
+    "plain": "are losing it"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"shall lose it\")",
+    "orig": "ἀπολέσει",
+    "en": "will lose",
+    "plain": "will lose it"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions read the present. The future matches the parallels in Matthew and Luke and the future \"will guard\" later in this verse, so copyists likely changed it to match.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:28",
+  "a": "your name",
+  "t": "\"Your name,\" \"your Son,\" or \"me\"?",
+  "p": "Some manuscripts have Jesus pray \"glorify your Son.\" Codex Bezae adds \"with the glory I had with you.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and Alexandrinus, Byzantine majority; SBLGNT, NA28, Tyndale House, Textus Receptus (KJV)",
+    "orig": "δόξασόν σου τὸ ὄνομα",
+    "en": "glorify your name",
+    "plain": "your name"
+   },
+   {
+    "w": "Codex Regius (L, 700s), family 1, family 13 and a few others, as reported by Metzger",
+    "orig": "δόξασόν σου τὸν υἱόν",
+    "en": "glorify your Son",
+    "plain": "your Son"
+   },
+   {
+    "w": "Codex Bezae (400s), adding words drawn from 17:5, as reported by Metzger",
+    "orig": "δόξασόν σου τὸ ὄνομα + words from 17:5",
+    "en": "glorify your name with the glory I had with you before the world existed",
+    "plain": "your name with the glory I had with you before the world existed"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Your name\" is supported by the oldest and most varied witnesses. \"Your Son\" comes from 17:1, and Bezae's long reading from 17:5.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:32",
+  "a": "everyone",
+  "t": "\"Everyone\" or \"all things\"?",
+  "p": "A few important early witnesses say Jesus will draw \"all things\" to himself, and the Latin Vulgate follows them.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Alexandrinus, Byzantine majority; SBLGNT, NA28, Tyndale House, Textus Receptus (KJV \"all men\")",
+    "orig": "πάντας",
+    "en": "all people",
+    "plain": "everyone"
+   },
+   {
+    "w": "Papyrus 66 (about 200), Codex Sinaiticus as first written, Codex Bezae, Old Latin and the Latin Vulgate (omnia)",
+    "orig": "πάντα",
+    "en": "all things",
+    "plain": "all things"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Everyone\" has strong and varied support and fits the context of the Greeks who want to see Jesus (12:20–21). \"All things\" may have arisen from the similar look of the two words or from a wish to give the saying a cosmic scope (compare Colossians 1:20).",
+  "b": "Because the Vulgate reads <i>omnia</i>, \"all things,\" Western readers had to explain it. Augustine took it to mean all kinds of people, or the whole of a person (<i>Tractates on John</i> 52.11).",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "12:41",
+  "a": "because",
+  "t": "\"Because he saw\" or \"when he saw\"?",
+  "p": "The KJV reads \"when he saw his glory.\" The older text says \"because.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus and Vaticanus; SBLGNT, NA28, Tyndale House",
+    "orig": "ὅτι",
+    "en": "because",
+    "plain": "because"
+   },
+   {
+    "w": "Codex Bezae, Byzantine majority, Textus Receptus (KJV \"when he saw his glory\")",
+    "orig": "ὅτε",
+    "en": "when",
+    "plain": "when"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Because\" is the older reading. \"When\" is easier, since it simply dates Isaiah's words to his vision; it differs by one letter.",
+  "b": "A few witnesses also read \"the glory of his God\" or \"the glory of God,\" which avoids saying Isaiah saw Christ's glory. No modern edition follows them.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:47",
+  "a": "does not keep them",
+  "t": "\"Keep\" or \"believe\"?",
+  "p": "The KJV says \"believe not.\" The older manuscripts say \"does not keep\" Jesus' sayings.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus and Vaticanus; SBLGNT, NA28, Tyndale House",
+    "orig": "μὴ φυλάξῃ",
+    "en": "does not keep",
+    "plain": "does not keep them"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"and believe not\")",
+    "orig": "μὴ πιστεύσῃ",
+    "en": "does not believe",
+    "plain": "does not believe them"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Keep\" has the older and wider support. \"Believe\" fits the many uses of that verb in 12:44–46 and probably came in from them.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

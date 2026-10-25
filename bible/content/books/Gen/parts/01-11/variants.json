@@ -1,0 +1,1063 @@
+[
+ {
+  "v": "1:8",
+  "a": "God named the dome Sky.",
+  "t": "Is the second day \"good\"?",
+  "p": "The Greek adds \"And God saw that it was good\" to the second day, which the Hebrew lacks.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; Vulgate",
+    "orig": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם",
+    "en": "God called the dome Sky",
+    "plain": "God named the dome Sky."
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "καὶ ἐκάλεσεν ὁ θεὸς τὸ στερέωμα οὐρανόν καὶ εἶδεν ὁ θεὸς ὅτι καλόν",
+    "en": "God called the dome Sky, and God saw that it was good",
+    "plain": "God named the dome Sky. And God saw that it was good."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading: a scribe or translator who noticed that every other day is called good would be likely to add the line, and much less likely to drop it. The Greek also moves \"and it was so\" in 1:6–7, which suggests it was smoothing the pattern.",
+  "b": "The rabbis asked why the second day lacks \"good.\" Genesis Rabbah 4:6 answers that the separation of the waters was not finished until the third day, which therefore says \"good\" twice (1:10, 12); another view is that division and conflict began that day.",
+  "s": [
+   "hendel-text-gen",
+   "wevers-genesis",
+   "genesis-rabbah"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "gathered to one place",
+  "t": "\"One place\" or \"one gathering\"?",
+  "p": "A Dead Sea Scroll and the Greek read \"one gathering,\" and the Greek adds a sentence telling that it happened.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; Vulgate (in locum unum)",
+    "orig": "אֶל־מָקוֹם אֶחָד",
+    "en": "to one place",
+    "plain": "gathered to one place"
+   },
+   {
+    "w": "Dead Sea Scroll 4QGen-h (4Q8, first century BC); Septuagint (εἰς συναγωγὴν μίαν)",
+    "orig": "אל מקוה אחד",
+    "en": "to one gathering",
+    "plain": "gathered into one gathering"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings are old and make sense. The Hebrew \"place\" (maqom) and \"gathering\" (miqveh) differ by one letter. \"Gathering\" matches the next verse (\"the gathering of the waters,\" 1:10), so it may be a harmonization; or \"place\" may be a scribal slip. Ronald Hendel argues that the longer Greek text preserves the older form here. The Plain English keeps the Masoretic Text and notes the other.",
+  "b": "The Septuagint then adds: \"And the water under the sky was gathered into its gatherings, and the dry land appeared,\" matching the pattern of the other days, where a command is followed by its fulfillment. The Qumran fragment is too small to show whether it had this longer sentence. Another Qumran copy, 4QGen-k (4Q10), also preserves part of 1:9; its reading at this word could not be checked for this edition, so whether the Qumran evidence is split is left open.",
+  "s": [
+   "hendel-text-gen",
+   "abegg-dssb",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:26",
+  "a": "over all the earth",
+  "t": "Over the earth, or over the wild animals?",
+  "p": "The Syriac version reads \"over all the wild animals of the earth,\" which fits the list better.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; Septuagint; Vulgate",
+    "orig": "וּבְכָל־הָאָרֶץ",
+    "en": "and over all the earth",
+    "plain": "over all the earth"
+   },
+   {
+    "w": "Syriac Peshitta; followed by the NRSV and some other modern versions",
+    "orig": "(Syriac) and over all the wild animals of the earth",
+    "en": "and over all the wild animals of the earth",
+    "plain": "over all the wild animals of the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all witnesses read \"all the earth.\" The Syriac reading fits the list of animals (compare 1:25) and may be original, with the word for \"wild animals of\" dropped early; but it may also be a translator's smoothing. Since the Hebrew makes sense (humans rule the earth, as in 1:28), the Plain English follows it.",
+  "s": [
+   "hendel-text-gen",
+   "wenham-gen"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "On the seventh day God finished",
+  "t": "Finished on the sixth or seventh day?",
+  "p": "The Samaritan, Greek and Syriac texts say God finished his work on the sixth day.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Vulgate (die septimo); Targums",
+    "orig": "וַיְכַל אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי",
+    "en": "God finished on the seventh day",
+    "plain": "On the seventh day God finished"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC) (ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ); Syriac Peshitta; Book of Jubilees 2:16",
+    "orig": "ביום הששי",
+    "en": "God finished on the sixth day",
+    "plain": "On the sixth day God finished"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Seventh\" is the harder reading: it could seem to say that God did some work on the day of rest, and a scribe would be tempted to change it to \"sixth,\" not the reverse. Most text critics prefer the Hebrew. The verb can mean \"brought to completion,\" and the rabbis explained that what God made on the seventh day was rest itself (Rashi; Genesis Rabbah 10:9).",
+  "b": "Translators handle it in two ways: \"on the seventh day God finished\" (KJV, most), or \"by the seventh day God had finished\" (NIV, BSB), which takes the verb as a past perfect.",
+  "s": [
+   "hendel-text-gen",
+   "rashi-torah",
+   "jubilees-book"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "I will make him",
+  "t": "\"I will make\" or \"Let us make\"?",
+  "p": "The Greek and Latin have \"Let us make him a helper,\" echoing 1:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "אֶעֱשֶׂהּ־לּוֹ",
+    "en": "I will make for him",
+    "plain": "I will make him"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC) (ποιήσωμεν αὐτῷ); Vulgate (faciamus ei)",
+    "orig": "ποιήσωμεν αὐτῷ",
+    "en": "let us make for him",
+    "plain": "Let us make him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek and Latin probably harmonized this verse with 1:26, \"Let us make humankind.\" The Hebrew singular is the harder reading and is supported by the Samaritan text.",
+  "s": [
+   "hendel-text-gen",
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "2:24",
+  "a": "they become",
+  "t": "\"They\" or \"the two of them\"?",
+  "p": "The Samaritan and Greek texts say \"the two of them will become one flesh,\" the form Jesus and Paul quote.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "וְהָיוּ לְבָשָׂר אֶחָד",
+    "en": "and they become one flesh",
+    "plain": "they become"
+   },
+   {
+    "w": "Samaritan Pentateuch (משניהם); Septuagint (the Greek translation made in the 200s BC) (ἔσονται οἱ δύο); Vulgate (erunt duo); Syriac; Targum Pseudo-Jonathan; quoted in Matthew 19:5, Mark 10:8, 1 Corinthians 6:16, Ephesians 5:31",
+    "orig": "ἔσονται οἱ δύο εἰς σάρκα μίαν",
+    "en": "the two will become one flesh",
+    "plain": "the two of them become"
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses have \"the two,\" and the New Testament quotes that form. But the shorter Hebrew can explain the longer (a scribe making the point clear), while it is hard to see why \"the two\" would be dropped. The meaning is the same. The Plain English follows the Hebrew and notes that the New Testament quotes the Greek.",
+  "s": [
+   "hendel-text-gen",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:15",
+  "a": "He will strike you on the head",
+  "t": "\"He\" or \"she\"?",
+  "p": "The Latin Vulgate reads \"she will crush your head,\" which shaped Catholic art of Mary.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (הוּא); Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC) (αὐτός)",
+    "orig": "הוּא יְשׁוּפְךָ רֹאשׁ",
+    "en": "he will strike you on the head",
+    "plain": "He will strike you on the head"
+   },
+   {
+    "w": "Latin Vulgate, most manuscripts (ipsa conteret caput tuum); Douay-Rheims",
+    "orig": "ipsa conteret caput tuum",
+    "en": "she will crush your head",
+    "plain": "She will strike you on the head"
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew and Greek witnesses read \"he\" (or \"it,\" the offspring). The Latin \"she\" (<i>ipsa</i>) may have begun as a copying slip for <i>ipse</i> or <i>ipsum</i>, which some Vulgate manuscripts have, or as an interpretation pointing to the woman. Jerome himself, in his <i>Hebrew Questions on Genesis</i>, said the Hebrew has \"he.\"",
+  "b": "Because of the Vulgate, Catholic tradition long read the verse of Mary, and art showed her crushing a serpent underfoot. The New Vulgate (1979) and modern Catholic translations read \"he\" or \"they\" with the Hebrew, while keeping a Marian reading as part of the verse's fuller sense.",
+  "s": [
+   "hendel-text-gen",
+   "jerome-hebrew-questions"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "If you do well, will there not be a lifting up? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it.",
+  "t": "A different verse in Greek",
+  "p": "The Septuagint read the Hebrew in another way: \"If you offered rightly but did not divide rightly, did you not sin?\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ",
+    "en": "If you do well, is there not lifting up? And if you do not do well, sin is crouching at the door...",
+    "plain": "If you do well, will there not be a lifting up? But if you do not do well, sin is crouching at the door. Its desire is for you, but you must rule over it."
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC); quoted in 1 Clement 4:4",
+    "orig": "οὐκ ἐὰν ὀρθῶς προσενέγκῃς ὀρθῶς δὲ μὴ διέλῃς ἥμαρτες ἡσύχασον πρὸς σὲ ἡ ἀποστροφὴ αὐτοῦ καὶ σὺ ἄρξεις αὐτοῦ",
+    "en": "If you offered rightly but did not divide rightly, did you not sin? Be still: its turning is toward you, and you will rule over it.",
+    "plain": "If you offered rightly but did not divide rightly, did you not sin? Be still. Its turning is toward you, and you will rule over it."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to come from a Hebrew text read slightly differently: \"lifting up\" taken as offering a sacrifice, and perhaps לנתח, \"to cut up\" (dividing the sacrifice), read for לפתח, \"at the door.\" It is an early interpretation, not a better text. The Masoretic Text makes good sense and is followed by the other versions.",
+  "b": "The Greek reading made Cain's fault a matter of how he divided his offering, an idea taken up by Philo and by some early Christian writers. 1 Clement 4 quotes the Greek in full.",
+  "s": [
+   "wevers-genesis",
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": ", \"Come, let's go out into the open country.\"",
+  "t": "What Cain said",
+  "p": "The Hebrew says \"Cain said to Abel his brother\" but gives no words. The ancient versions supply them.",
+  "readings": [
+   {
+    "w": "Samaritan Pentateuch (נלכה השדה); Septuagint (διέλθωμεν εἰς τὸ πεδίον); Syriac Peshitta; Vulgate (egrediamur foras); Palestinian Targums; most modern translations",
+    "orig": "נֵלְכָה הַשָּׂדֶה",
+    "en": "\"Let us go out to the field.\"",
+    "plain": ", \"Come, let's go out into the open country.\""
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex and other medieval manuscripts); Targum Onkelos; KJV (\"talked with\")",
+    "orig": "וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו",
+    "en": "Cain said to Abel his brother. [no words]",
+    "plain": "."
+   }
+  ],
+  "follow": 0,
+  "why": "The verb \"said\" (<i>vayyomer</i>) normally introduces the words spoken, and here none follow. The longer reading is found in the Samaritan, Greek, Syriac and Latin, which are independent witnesses. A copyist's eye could easily have skipped from \"the field\" (<i>ha-sadeh</i>) to \"in the field\" (<i>ba-sadeh</i>) right after it. So most scholars think the words fell out of the Hebrew early. The Plain English includes them, rendering <i>sadeh</i> as \"open country.\"",
+  "b": "Many Masoretic manuscripts mark a space inside this verse (a <i>pisqah be'emtsa pasuq</i>), and BHS prints it from the Leningrad Codex, as if the scribes knew something was missing. The KJV smoothed the Hebrew as \"Cain talked with Abel.\" The STEPBible Hebrew text used on this site supplies the two words from the ancient versions and marks them as not in the Leningrad Codex.",
+  "s": [
+   "hendel-text-gen",
+   "tov-tchb",
+   "wenham-gen"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "Therefore:",
+  "t": "\"Therefore\" or \"Not so\"?",
+  "p": "The Hebrew has \"therefore\"; the Greek and other versions have \"Not so!\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (לָכֵן); Samaritan Pentateuch (לכן); Targum Onkelos",
+    "orig": "לָכֵן",
+    "en": "therefore",
+    "plain": "Therefore:"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC) (οὐχ οὕτως); Syriac Peshitta; Vulgate (nequaquam ita fiet); Old Latin (non sic); followed by the BSB, NIV and others",
+    "orig": "לֹא כֵן",
+    "en": "not so",
+    "plain": "\"Not so!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by a single letter (<i>lakhen</i> or <i>lo khen</i>). \"Not so\" answers Cain's fear directly and may be original; \"therefore\" introduces a solemn decision, as it often does in prophecy (\"Therefore, thus says the LORD\"). Both make sense. The Samaritan Pentateuch agrees with the Masoretic Text, so the Hebrew tradition is united; the Greek, Syriac and Latin agree on \"not so.\" The Plain English keeps the Hebrew \"therefore.\"",
+  "s": [
+   "hendel-text-gen",
+   "wenham-gen"
+  ]
+ },
+ {
+  "v": "5:3",
+  "a": "130 years",
+  "t": "The three chronologies",
+  "p": "The Hebrew, Samaritan and Greek texts give different ages in Genesis 5. This one gives the overview.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "130",
+    "en": "130 years",
+    "plain": "130 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "230",
+    "en": "230 years",
+    "plain": "230 years"
+   }
+  ],
+  "follow": 0,
+  "why": "The three main witnesses to Genesis give different numbers in chapters 5 and 11, and so three different chronologies: about 1,656 years from creation to the flood in the Masoretic Text, 1,307 in the Samaritan Pentateuch, and 2,242 in most Septuagint manuscripts (2,262 if Methuselah's 187 is read). The Plain English follows the Masoretic Text, the standard Hebrew text, but no one can prove which system is original. Each looks partly designed: the Septuagint adds 100 years to most fathers' ages, and the Samaritan lowers some ages so that no one outlives the flood. Many scholars (Ralph Klein, Ronald Hendel) think all three reworked an older set of numbers.",
+  "b": "<p>Age of each father when the next son was born (Masoretic / Samaritan / Septuagint): Adam 130/130/230; Seth 105/105/205; Enosh 90/90/190; Kenan 70/70/170; Mahalalel 65/65/165; Jared 162/62/162; Enoch 65/65/165; Methuselah 187/67/167 (187 in a minority of Greek manuscripts); Lamech 182/53/188; Noah 500 in all three.</p><p>The total lifespans mostly agree, because the Septuagint takes the extra 100 years off the years after the son's birth. The Samaritan gives Jared 847, Methuselah 720 and Lamech 653 years in all; the Septuagint gives Lamech 753. In the Samaritan numbers, Jared, Methuselah and Lamech all die in the year of the flood. Early Christians who used the Greek Bible (Julius Africanus, Eusebius) dated creation more than 5,000 years before Christ; those who used the Hebrew dated it about 4000 BC (Bede, 3952 BC; later Ussher, 4004 BC).</p>",
+  "s": [
+   "hendel-text-gen",
+   "klein-chronologies",
+   "augustine-city",
+   "bede-reckoning"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "105 years",
+  "t": "Seth's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "105",
+    "en": "105 years",
+    "plain": "105 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "205",
+    "en": "205 years",
+    "plain": "205 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:9",
+  "a": "90 years",
+  "t": "Enosh's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "90",
+    "en": "90 years",
+    "plain": "90 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "190",
+    "en": "190 years",
+    "plain": "190 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:12",
+  "a": "70 years",
+  "t": "Kenan's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "70",
+    "en": "70 years",
+    "plain": "70 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "170",
+    "en": "170 years",
+    "plain": "170 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:15",
+  "a": "65 years",
+  "t": "Mahalalel's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "65",
+    "en": "65 years",
+    "plain": "65 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "165",
+    "en": "165 years",
+    "plain": "165 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:18",
+  "a": "162 years",
+  "t": "Jared's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "162",
+    "en": "162 years",
+    "plain": "162 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "62",
+    "en": "62 years",
+    "plain": "62 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:20",
+  "a": "962 years",
+  "t": "Jared's lifespan",
+  "p": "The Samaritan Pentateuch gives a shorter total, so that he dies in the year of the flood. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "962",
+    "en": "962 years",
+    "plain": "962 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "847",
+    "en": "847 years",
+    "plain": "847 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3. The Samaritan numbers make Jared, Methuselah and Lamech all die in the flood year, which looks like a deliberate system.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:21",
+  "a": "65 years",
+  "t": "Enoch's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "65",
+    "en": "65 years",
+    "plain": "65 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "165",
+    "en": "165 years",
+    "plain": "165 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:25",
+  "a": "187 years",
+  "t": "Methuselah's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); a minority of Greek manuscripts (among them Cottonianus and Coislinianus, and a corrector of Codex Alexandrinus); Josephus",
+    "orig": "187",
+    "en": "187 years",
+    "plain": "187 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "67",
+    "en": "67 years",
+    "plain": "67 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC): most manuscripts, including the first hand of Codex Alexandrinus (Codex Vaticanus is lost for Genesis before 46:28); Rahlfs's edition",
+    "orig": "167",
+    "en": "167 years",
+    "plain": "167 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "b": "<p>The reading 167 makes Methuselah die 14 years after the flood, though he was not in the ark, a problem Augustine already discussed (<i>City of God</i> 15.11). Most scholars (Ralph Klein, Ronald Hendel, John Wevers) regard 167 as the original Greek and 187 as a later correction toward the Hebrew; Henry B. Smith Jr. argues the reverse, that 187 is original and 167 an early slip. The Septuagint total of 2,242 years to the flood uses 167; with 187 it would be 2,262. The reading printed in the Göttingen edition could not be checked for this edition.</p>",
+  "s": [
+   "hendel-text-gen",
+   "klein-chronologies",
+   "augustine-city",
+   "smith-methuselah"
+  ]
+ },
+ {
+  "v": "5:27",
+  "a": "969 years",
+  "t": "Methuselah's lifespan",
+  "p": "The Samaritan Pentateuch gives a shorter total, so that he dies in the year of the flood. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "969",
+    "en": "969 years",
+    "plain": "969 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "720",
+    "en": "720 years",
+    "plain": "720 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3. The Samaritan numbers make Jared, Methuselah and Lamech all die in the flood year, which looks like a deliberate system.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:28",
+  "a": "182 years",
+  "t": "Lamech's age at fatherhood",
+  "p": "One of the number differences between the Hebrew, Samaritan and Greek texts. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "182",
+    "en": "182 years",
+    "plain": "182 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "53",
+    "en": "53 years",
+    "plain": "53 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "188",
+    "en": "188 years",
+    "plain": "188 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3 for the three chronologies and why the Plain English follows the Masoretic numbers.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "5:31",
+  "a": "777 years",
+  "t": "Lamech's lifespan",
+  "p": "The Samaritan Pentateuch gives a shorter total, so that he dies in the year of the flood. See 5:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "777",
+    "en": "777 years",
+    "plain": "777 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "653",
+    "en": "653 years",
+    "plain": "653 years"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "753",
+    "en": "753 years",
+    "plain": "753 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 5:3. The Samaritan numbers make Jared, Methuselah and Lamech all die in the flood year, which looks like a deliberate system.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "on the seventeenth day of the month",
+  "t": "The seventeenth or the twenty-seventh?",
+  "p": "The Greek starts the flood ten days later, so that it lasts exactly one year.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "בְּשִׁבְעָה־עָשָׂר יוֹם",
+    "en": "on the seventeenth day",
+    "plain": "on the seventeenth day of the month"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "ἑβδόμῃ καὶ εἰκάδι τοῦ μηνός",
+    "en": "on the twenty-seventh of the month",
+    "plain": "on the twenty-seventh day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew the flood runs from 2/17 of Noah's 600th year to 2/27 of his 601st (8:14), a year and ten days, which some scholars explain as a lunar year of 354 days plus 11, making a solar year of 365. The Greek also reads the 27th at 8:4 and has the end on 2/27 (8:14), as the Hebrew does, so its flood lasts exactly one year. That looks like a deliberate tidying, and the Plain English follows the Hebrew.",
+  "b": "Jubilees (5:23–32; 6:25–29) and the Qumran Commentary on Genesis A (4Q252) rework the flood dates to fit a calendar of 364 days, showing how much ancient readers cared about this calendar.",
+  "s": [
+   "wevers-genesis",
+   "hendel-text-gen",
+   "jubilees-book"
+  ]
+ },
+ {
+  "v": "8:4",
+  "a": "on the seventeenth day of the month",
+  "t": "The ark's landing date",
+  "p": "The Greek has the twenty-seventh day here too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "בְּשִׁבְעָה־עָשָׂר יוֹם",
+    "en": "on the seventeenth day",
+    "plain": "on the seventeenth day of the month"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "ἑβδόμῃ καὶ εἰκάδι τοῦ μηνός",
+    "en": "on the twenty-seventh of the month",
+    "plain": "on the twenty-seventh day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "This matches the Greek date at 7:11; see the variant there.",
+  "s": [
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "8:5",
+  "a": "In the tenth month",
+  "t": "The tenth or the eleventh month?",
+  "p": "The Greek has the mountaintops appear a month later.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "בָּעֲשִׂירִי",
+    "en": "in the tenth month",
+    "plain": "In the tenth month"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "ἐν δὲ τῷ ἑνδεκάτῳ μηνί",
+    "en": "in the eleventh month",
+    "plain": "In the eleventh month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek dates in the flood story differ from the Hebrew in several places (see 7:11). The Plain English follows the Hebrew.",
+  "s": [
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "going and coming back",
+  "t": "Did the raven come back?",
+  "p": "The Hebrew says the raven flew back and forth. The Greek and Latin say it did not return.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch",
+    "orig": "וַיֵּצֵא יָצוֹא וָשׁוֹב",
+    "en": "it went out, going and returning",
+    "plain": "going and coming back"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC) (ἐξελθὼν οὐχ ὑπέστρεψεν); Vulgate (egrediebatur et non revertebatur)",
+    "orig": "καὶ ἐξελθὼν οὐχ ὑπέστρεψεν",
+    "en": "and it went out and did not return",
+    "plain": "and it did not come back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear and supported by the Samaritan text. The Greek translator may have been influenced by the raven in the Babylonian story, which \"did not come back,\" or by the dove in 8:12; or he took \"returning\" to mean coming back to the ark for good. The Greek also adds that Noah sent the raven \"to see if the water had stopped.\"",
+  "s": [
+   "hendel-text-gen",
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "9:21",
+  "a": "his tent",
+  "t": "\"His tent\" or \"her tent\"?",
+  "p": "The written Hebrew spells \"his tent\" with an old ending that looks like \"her tent.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (the reading said aloud)",
+    "orig": "אָהֳלוֹ",
+    "en": "his tent",
+    "plain": "his tent"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (the written letters)",
+    "orig": "אהלה",
+    "en": "his tent (old spelling), or her tent",
+    "plain": "her tent"
+   }
+  ],
+  "follow": 0,
+  "why": "The written ending <i>-h</i> is an older spelling of \"his\" found in several places in the Torah (also 12:8; 13:3; 35:21), and the scribes marked it to be read with the usual spelling. Nearly all scholars read \"his tent.\"",
+  "b": "Genesis Rabbah 36:4, quoted by Rashi, reads the written spelling as a hint at the ten northern tribes, named after Samaria, which Ezekiel 23:4 calls Oholah, \"her tent,\" and which went into exile in part through wine (compare Amos 6:6). The spelling itself is best explained as old orthography.",
+  "s": [
+   "tov-tchb",
+   "genesis-rabbah",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "10:2",
+  "a": "Javan",
+  "t": "An extra son of Japheth in Greek",
+  "p": "The Septuagint adds Elisa after Javan.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; 1 Chronicles 1:5",
+    "orig": "יָוָן וְתֻבָל",
+    "en": "Javan, Tubal",
+    "plain": "Javan"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "Ιωυαν καὶ Ελισα καὶ Θοβελ",
+    "en": "Javan, Elisa, Tubal",
+    "plain": "Javan, Elisa"
+   }
+  ],
+  "follow": 0,
+  "why": "Elisa is Elishah, a son of Javan in 10:4, apparently copied into this list. With this name and Cainan (10:22, 24), the Greek table has more than seventy names, which is why some Jewish and Christian writers counted 72 nations.",
+  "s": [
+   "wevers-genesis",
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "10:4",
+  "a": "the Dodanim",
+  "t": "Dodanim or Rodanim?",
+  "p": "Hebrew d and r look almost the same. Other witnesses read Rodanim, the people of Rhodes.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "וְדֹדָנִים",
+    "en": "and the Dodanim",
+    "plain": "the Dodanim"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC) (Ῥόδιοι, Rhodians); Masoretic Text of 1 Chronicles 1:7",
+    "orig": "ורודנים",
+    "en": "and the Rodanim",
+    "plain": "the Rodanim"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters <i>dalet</i> (ד) and <i>resh</i> (ר) are easily confused. Rodanim (Rhodes) fits the list of Aegean peoples well, and 1 Chronicles 1:7 reads it, so many translations (BSB, NIV) follow it. The Plain English keeps the Masoretic spelling and gives the other here; the meaning is probably the same people.",
+  "s": [
+   "tov-tchb",
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "10:22",
+  "a": "Aram",
+  "t": "Cainan among Shem's sons",
+  "p": "The Septuagint adds Cainan to the list of Shem's sons.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; 1 Chronicles 1:17",
+    "orig": "וַאֲרָם",
+    "en": "and Aram",
+    "plain": "Aram"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "καὶ Αραμ καὶ Καιναν",
+    "en": "and Aram and Cainan",
+    "plain": "Aram and Cainan"
+   }
+  ],
+  "follow": 0,
+  "why": "This is the same Cainan the Greek adds in 10:24 and 11:12–13; see those variants.",
+  "s": [
+   "wevers-genesis",
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "10:24",
+  "a": "Arpachshad fathered Shelah",
+  "t": "An extra generation in Greek",
+  "p": "The Septuagint adds Cainan between Arpachshad and Shelah, here and in 11:12–13.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Samaritan Pentateuch; 1 Chronicles 1:18",
+    "orig": "וְאַרְפַּכְשַׁד יָלַד אֶת־שָׁלַח",
+    "en": "Arpachshad fathered Shelah",
+    "plain": "Arpachshad fathered Shelah"
+   },
+   {
+    "w": "Septuagint (the Greek translation made in the 200s BC); Luke 3:36",
+    "orig": "καὶ Αρφαξαδ ἐγέννησεν τὸν Καιναν καὶ Καιναν ἐγέννησεν τὸν Σαλα",
+    "en": "Arpachshad fathered Cainan, and Cainan fathered Shelah",
+    "plain": "Arpachshad fathered Cainan, and Cainan fathered Shelah"
+   }
+  ],
+  "follow": 0,
+  "why": "See the note at 11:12. The Hebrew, Samaritan and Chronicles agree in having no Cainan. Most scholars think the Greek added him, perhaps by copying the Cainan (Kenan) of 5:9; a minority defends him as original.",
+  "s": [
+   "hendel-text-gen",
+   "smith-kainan"
+  ]
+ },
+ {
+  "v": "11:12",
+  "a": "35 years",
+  "t": "The chronologies after the flood",
+  "p": "The Samaritan and Greek texts add 100 years (50 for Nahor) to each father's age. This one gives the overview.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "35",
+    "en": "35 years",
+    "plain": "35 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "135",
+    "en": "135 years",
+    "plain": "135 years"
+   }
+  ],
+  "follow": 0,
+  "why": "As in chapter 5, the witnesses differ. From the flood to Abram's birth the Masoretic numbers give 292 years; the Samaritan, 942; the Septuagint, which also adds Cainan (130 years), 1,072. The Plain English follows the Masoretic Text. With the Hebrew numbers, Shem outlives Abraham, and Noah dies when Abram is 58, which puzzled ancient readers; the larger numbers avoid that.",
+  "b": "<p>Ages at fatherhood (Masoretic / Samaritan / Septuagint): Shem 100 in all; Arpachshad 35/135/135; Cainan (Septuagint only) 130; Shelah 30/130/130; Eber 34/134/134; Peleg 30/130/130; Reu 32/132/132; Serug 30/130/130; Nahor 29/79/79; Terah 70 in all. The years lived afterward also differ, and the Samaritan adds each man's total lifespan. Some Septuagint manuscripts give other numbers for Nahor.</p><p>The Septuagint also inserts Cainan here: \"Arpachshad lived 135 years and fathered Cainan. ... Cainan lived 130 years and fathered Shelah\" (see the note on this verse and the variant at 10:24).</p>",
+  "s": [
+   "hendel-text-gen",
+   "klein-chronologies"
+  ]
+ },
+ {
+  "v": "11:14",
+  "a": "30 years",
+  "t": "Shelah's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "30",
+    "en": "30 years",
+    "plain": "30 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "130",
+    "en": "130 years",
+    "plain": "130 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:16",
+  "a": "34 years",
+  "t": "Eber's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "34",
+    "en": "34 years",
+    "plain": "34 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "134",
+    "en": "134 years",
+    "plain": "134 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:18",
+  "a": "30 years",
+  "t": "Peleg's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "30",
+    "en": "30 years",
+    "plain": "30 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "130",
+    "en": "130 years",
+    "plain": "130 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:20",
+  "a": "32 years",
+  "t": "Reu's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "32",
+    "en": "32 years",
+    "plain": "32 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "132",
+    "en": "132 years",
+    "plain": "132 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:22",
+  "a": "30 years",
+  "t": "Serug's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "30",
+    "en": "30 years",
+    "plain": "30 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "130",
+    "en": "130 years",
+    "plain": "130 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:24",
+  "a": "29 years",
+  "t": "Nahor's age at fatherhood",
+  "p": "Another number difference between the witnesses. See 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "29",
+    "en": "29 years",
+    "plain": "29 years"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "79",
+    "en": "79 years",
+    "plain": "79 years"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 11:12.",
+  "s": [
+   "hendel-text-gen"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "they went out with them",
+  "t": "\"They went out with them\" or \"he brought them out\"?",
+  "p": "The Hebrew has an odd plural: Terah took them, but \"they went out with them.\" Other witnesses read \"he brought them out.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (וַיֵּצְאוּ אִתָּם); Syriac Peshitta",
+    "orig": "וַיֵּצְאוּ אִתָּם",
+    "en": "and they went out with them",
+    "plain": "they went out with them"
+   },
+   {
+    "w": "Samaritan Pentateuch (ויוצא אתם); Septuagint (the Greek translation made in the 200s BC) (ἐξήγαγεν αὐτούς); Vulgate (eduxit eos)",
+    "orig": "וַיּוֹצֵא אֹתָם",
+    "en": "and he brought them out",
+    "plain": "he brought them out"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by small changes in the same letters. \"He brought them out\" is smooth, since Terah is the subject of \"took\"; the Masoretic plural is harder and so may be older, and the versions may have smoothed it. Some scholars think \"he brought them out\" original. The Plain English keeps the harder Hebrew and translates it literally.",
+  "s": [
+   "hendel-text-gen",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:32",
+  "a": "205 years",
+  "t": "Terah's age at death",
+  "p": "The Samaritan Pentateuch has Terah die at 145, so that Abram leaves Haran after his father's death.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Septuagint (the Greek translation made in the 200s BC)",
+    "orig": "חָמֵשׁ שָׁנִים וּמָאתַיִם",
+    "en": "205 years",
+    "plain": "205 years"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "חמש וארבעים שנה ומאת שנה",
+    "en": "145 years",
+    "plain": "145 years"
+   }
+  ],
+  "follow": 0,
+  "why": "With the Hebrew numbers, Terah is 70 at Abram's birth (11:26) and Abram is 75 when he leaves (12:4), so Terah is still alive for 60 more years. The Samaritan 145 makes the death come first, as Stephen also says (Acts 7:4). Most scholars think the Samaritan changed the number to solve that problem, so the Plain English follows the Masoretic Text.",
+  "s": [
+   "hendel-text-gen",
+   "klein-chronologies"
+  ]
+ }
+]

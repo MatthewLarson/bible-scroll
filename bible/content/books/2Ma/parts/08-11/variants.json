@@ -1,0 +1,1069 @@
+[
+ {
+  "v": "8:7",
+  "a": "the story of his bravery",
+  "t": "Bravery or holiness?",
+  "p": "The Greek and the Latin praise Judas's courage; the KJV speaks of 'the fruit of his holiness'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (fama virtutis ejus)",
+    "orig": "λαλιὰ τῆς εὐανδρείας αὐτοῦ",
+    "en": "talk of his manly courage",
+    "plain": "the story of his bravery"
+   },
+   {
+    "w": "King James Version (1611); its Greek source is not identified, and Swete's apparatus has no such reading",
+    "orig": "(English only)",
+    "en": "the fruit of his holiness",
+    "plain": "the fruit of his holiness"
+   }
+  ],
+  "follow": 0,
+  "why": "Every witness Swete reports has <i>euandreia</i>, 'manliness, courage', and the Latin agrees. The KJV's 'holiness' may come from a printed Greek text that read another word, but no such reading is reported here.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "8:16",
+  "a": "not to be terrified of the enemy",
+  "t": "Enemies or prisoners?",
+  "p": "Alexandrinus says 'not to be terrified at the prisoners'; Venetus, the KJV and the Latin have 'the enemy'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV ('the enemy'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (hostibus)",
+    "orig": "τοις δεσμιοις] τους πολεμιους V",
+    "en": "not to be struck with terror at the enemy",
+    "plain": "not to be terrified of the enemy"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "μὴ καταπλαγῆναι τοῖς δεσμίοις",
+    "en": "not to be struck with terror at the prisoners",
+    "plain": "not to be terrified of the prisoners"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. 'Prisoners' (<i>desmiois</i>) makes little sense in a speech before battle, unless it means the fear of being taken prisoner and sold (8:11). 'Enemies' (<i>polemiois</i>) is what the rest of the verse is about, and the two Greek words end alike, so a copyist could slip from one to the other. The Latin, which reads 'not to be reconciled to the enemy' (ne hostibus reconciliarentur), also has the enemy.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "8:20",
+  "a": "the six thousand destroyed a hundred and twenty thousand",
+  "t": "Six thousand or eight thousand?",
+  "p": "The Greek says 'the six thousand', which does not match the eight thousand just named; the KJV has 'the eight thousand'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (sex millia). Swete's note at 8:20 reads 'οκτακισχιλιους V' with no lemma; it most likely concerns the first number (V with the accusative), but it could mean that V read 'eight thousand' here too, as the KJV does",
+    "orig": "οἱ ἑξακισχίλιοι τὰς δώδεκα μυριάδας ἀπώλεσαν",
+    "en": "the six thousand destroyed the twelve myriads",
+    "plain": "the six thousand destroyed a hundred and twenty thousand"
+   },
+   {
+    "w": "King James Version (1611)",
+    "orig": "(English only)",
+    "en": "the eight thousand destroyed an hundred and twenty thousand",
+    "plain": "the eight thousand destroyed a hundred and twenty thousand"
+   },
+   {
+    "w": "Codex Alexandrinus as first written (A*, probably), in Swete's notes: 'thousands' for 'myriads', later corrected",
+    "orig": "μυριαδας] χειλιαδας A*fort",
+    "en": "the six thousand destroyed the twelve thousand",
+    "plain": "the six thousand destroyed twelve thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Greek as it stands, though its numbers do not add up: eight thousand Jews (or eight thousand in all) fought beside four thousand Macedonians, and then 'the six thousand' win. The KJV smooths this to 'the eight thousand'. Some think the six thousand are the Jews left after losses; others that a number has been miscopied. The battle itself is not known from any other source (see the note).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "8:23",
+  "a": "and Eleazar as well. Then he read aloud from the holy book and gave the watchword",
+  "t": "Who read the holy book?",
+  "p": "In Swete's Greek, Eleazar is a fourth commander and Judas reads; the KJV makes Eleazar the reader, and the Latin names Ezra.",
+  "readings": [
+   {
+    "w": "Swete's printed text (Alexandrinus), with its punctuation: Eleazar is the last of the brothers named in 8:22, and the participle 'having read' goes with Judas",
+    "orig": "ἔτι δὲ καὶ Ἐλεάζαρον· παραναγνοὺς τὴν ἱερὰν βίβλον",
+    "en": "and also Eleazar. Having read aloud the holy book",
+    "plain": "and Eleazar as well. Then he read aloud from the holy book and gave the watchword"
+   },
+   {
+    "w": "King James Version (1611), which takes Eleazar as the one appointed to read",
+    "orig": "(English only)",
+    "en": "Also he appointed Eleazar to read the holy book",
+    "plain": "and he appointed Eleazar to read aloud from the holy book. Then he gave the watchword"
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees; Douay 'after the holy book had been read to them by Esdras'",
+    "orig": "ab Esdra lecto illis sancto libro",
+    "en": "the holy book having been read to them by Esdras",
+    "plain": "and Esdras read the holy book to them. Then he gave the watchword"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has Eleazar in the accusative, like the brothers in 8:22, so he belongs to the list of commanders, and the singular 'having read' must be Judas. That gives five leaders for four divisions, which may be why other readers made Eleazar the reader instead. The Latin 'Esdras' (Ezra) is an old error or a guess: Ezra had read the law to the people (Nehemiah 8:1–8). Eleazar, Judas's brother, is named in 1 Maccabees 2:5 and dies in 1 Maccabees 6:43–46.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "8:25",
+  "a": "but they turned back because they were running out of time,",
+  "t": "Hemmed in by the hour, or by the country?",
+  "p": "Venetus, the KJV and the Latin say they turned back because time was short; Alexandrinus says 'from the country'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV ('lacking time'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (hora conclusi)",
+    "orig": "απο] υπο χωρας] ωρας V",
+    "en": "they turned back, hemmed in by the hour",
+    "plain": "but they turned back because they were running out of time,"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἀνέλυσαν ἀπὸ τῆς χώρας συνκλειόμενοι",
+    "en": "they turned back from the country, being hemmed in",
+    "plain": "but they turned back from the region, hemmed in,"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. 'Hour' (<i>hōras</i>) and 'country' (<i>chōras</i>) differ by one letter. The next verse explains the turning back by the coming Sabbath, which fits 'hemmed in by the hour' and makes poor sense of 'from the country'.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "for it was the day before the Sabbath",
+  "t": "An extra word before the Sabbath",
+  "p": "Alexandrinus has a word, 'justice' (dikē), that makes no clear sense here; Venetus leaves it out.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (omits δίκη); KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (nam erat ante sabbatum)",
+    "orig": "om δικη V",
+    "en": "for it was the [day] before the Sabbath",
+    "plain": "for it was the day before the Sabbath"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἦν γὰρ ἡ πρὸ τοῦ σαββάτου δίκη",
+    "en": "for it was the 'justice' (?) before the Sabbath",
+    "plain": "for it was the set time before the Sabbath"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The Greek <i>hē pro tou sabbatou</i> by itself means 'the [day] before the Sabbath'. The added <i>dikē</i> ('justice, penalty') has no clear meaning in the sentence; the second reading's 'set time' is only a guess at it. It may be a copyist's slip, perhaps from the <i>dikē</i> of 8:11 and 8:13.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "8:27",
+  "a": "had made it the start of his mercy toward them",
+  "t": "Appointed, or dripping?",
+  "p": "The Greek says God 'appointed' a beginning of mercy; the Latin and the KJV have mercy 'distilling' on them.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete and Venetus",
+    "orig": "ἀρχὴν ἐλέους τάξαντος αὐτοῖς",
+    "en": "having appointed for them a beginning of mercy",
+    "plain": "had made it the start of his mercy toward them"
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (misericordiæ initium stillans in eos); KJV 'the beginning of mercy distilling upon them'",
+    "orig": "misericordiæ initium stillans in eos",
+    "en": "letting the beginning of mercy drip down on them",
+    "plain": "was letting the first drops of his mercy fall on them"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's witnesses read <i>taxantos</i>, 'having appointed'. The Latin stillans, 'dripping', and the KJV's 'distilling' probably reflect <i>staxantos</i>, 'having dripped', a Greek word one letter longer; that is an inference from the translations, not a reading Swete reports. The Plain keeps the Greek. The picture of mercy falling like rain suits the verse well, so the choice is close.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:33",
+  "a": "they burned the ones who had set fire to the holy gateways: Callisthenes",
+  "t": "Callisthenes and others, or Callisthenes alone?",
+  "p": "Swete's printed text adds 'and', making Callisthenes one of several; Alexandrinus and Venetus have no 'and'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus and Codex Venetus (Swete's note: om και 1° AV); KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees ('the one who had burned the holy gates, that is, Callisthenes')",
+    "orig": "om και 1° AV",
+    "en": "they burned those who had set fire to the sacred gateways, Callisthenes",
+    "plain": "they burned the ones who had set fire to the holy gateways: Callisthenes"
+   },
+   {
+    "w": "Swete's printed text, which adds 'and'",
+    "orig": "τοὺς ἐμπρήσαντας τοὺς ἱεροὺς πυλῶνας καὶ Καλλισθένην ὑφῆψαν",
+    "en": "those who had set fire to the sacred gateways, and Callisthenes, they burned",
+    "plain": "they burned the ones who had set fire to the holy gateways, and Callisthenes"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Swete's printed text and follows both of his manuscripts. Without 'and', Callisthenes is named as the man behind the burning of the gates. Swete's 'and' is not in either codex he reports, and the Latin and KJV agree with the codices. Swete also notes that Alexandrinus reads <i>hiereis</i>, 'priests', for <i>hierous</i>, 'holy', a slip.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:34",
+  "a": "three thousand merchants",
+  "t": "Three thousand or a thousand merchants?",
+  "p": "Alexandrinus has three thousand merchants; Venetus, the KJV and the Latin have a thousand.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὁ τρισχιλίους ἐμπόρους",
+    "en": "who had brought three thousand merchants",
+    "plain": "three thousand merchants"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (mille negotiantes)",
+    "orig": "τρισχιλιους] τους χιλιους V",
+    "en": "who had brought the thousand merchants",
+    "plain": "a thousand merchants"
+   }
+  ],
+  "follow": 0,
+  "why": "Both numbers are possible, and nothing in the story decides between them. The Plain keeps Alexandrinus. The <i>tris-</i> of 'three thousand' may have come in from <i>trisalitērios</i>, 'thrice-cursed', just before it, or Venetus's 'the thousand' may have lost a letter.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:35",
+  "a": "His one great success was the ruin of his own army.",
+  "t": "Success or misfortune?",
+  "p": "The Greek says, with irony, that Nicanor 'succeeded above all' in ruining his army; the Latin and the KJV speak of his misfortune.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus",
+    "orig": "ὑπὲρ ἅπαν εὐημερηκὼς ἐπὶ τῇ τοῦ στρατοῦ διαφθορᾷ",
+    "en": "having succeeded beyond everything in the destruction of his army",
+    "plain": "His one great success was the ruin of his own army."
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (summam infelicitatem de interitu sui exercitus consecutus); KJV 'having very great dishonour, for that his host was destroyed'; Douay 'being rendered very unhappy by the destruction of his army'",
+    "orig": "summam infelicitatem de interitu sui exercitus consecutus",
+    "en": "having met with the greatest misfortune from the destruction of his army",
+    "plain": "He met with the greatest misfortune in the ruin of his own army."
+   }
+  ],
+  "follow": 0,
+  "why": "Swete reports no other Greek reading here. The Latin and the KJV say the opposite of the Greek word, 'having fared well'; their source may have had a word meaning 'having fared badly', or they may have smoothed away the irony. The Plain keeps the Greek, whose bitter joke fits the writer's style (see the note on 8:35).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "8:36",
+  "a": "the Jews had someone fighting for them",
+  "t": "'A Champion' or 'God'?",
+  "p": "Alexandrinus says only that the Jews had a champion; Venetus and the KJV add the word 'God'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὑπέρμαχον ἔχειν τοὺς Ἰουδαίους",
+    "en": "the Jews have a champion",
+    "plain": "the Jews had someone fighting for them"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV 'had God to fight for them'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (protectorem Deum)",
+    "orig": "εχειν] + τον θεον V",
+    "en": "the Jews have God as champion",
+    "plain": "the Jews had God fighting for them"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus leaves the champion unnamed in Nicanor's mouth, and the next clause ('the laws that he had laid down') makes plain who is meant. The added 'God' is the kind of word copyists supply. The Plain keeps the shorter text.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "9:8",
+  "a": "A little before, in pride beyond what is human, he had thought he could give orders to the waves of the sea",
+  "t": "'Ordering' the waves",
+  "p": "Alexandrinus has an obscure verb and no 'command'; the Plain follows Venetus, the KJV and the Latin.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV ('he that a little afore thought he might command the waves of the sea'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (fluctibus maris imperare)",
+    "orig": "δʼ αντιδοκων] δε αρτι δοκων V | κυμασιν] + επιτασσειν V",
+    "en": "he who just now thought to command the waves of the sea",
+    "plain": "A little before, in pride beyond what is human, he had thought he could give orders to the waves of the sea"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὁ δ᾽ ἀντιδοκῶν τοῖς τῆς θαλάσσης κύμασιν",
+    "en": "he who set himself up against (?) the waves of the sea",
+    "plain": "In pride beyond what is human, he had set himself up against the waves of the sea"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. A's <i>antidokōn</i> ('thinking against'?) has no verb for what he thought he could do to the sea. Venetus divides the letters as <i>de arti dokōn</i>, 'just now thinking', and adds <i>epitassein</i>, 'to command', which matches the second half of the verse, 'thinking to set the heights of the mountains on a scale'. The Latin and the KJV agree with Venetus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "9:9",
+  "a": "Worms came boiling up out of the impious man's body",
+  "t": "Out of his body, or out of his eyes?",
+  "p": "Venetus says the worms swarmed from the impious man's eyes.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees",
+    "orig": "ἐκ τοῦ σώματος τοῦ δυσσεβοῦς σκώληκας ἀναζεῖν",
+    "en": "worms swarmed up out of the impious man's body",
+    "plain": "Worms came boiling up out of the impious man's body"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes",
+    "orig": "του σωματος] των του σωμ. οφθαλμων V",
+    "en": "worms swarmed up out of the eyes of the impious man's body",
+    "plain": "Worms came boiling up out of the impious man's eyes"
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses have the body. Venetus's 'eyes' is a vivid addition and is followed by no other witness Swete reports.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:12",
+  "a": "No one who is mortal should think arrogant thoughts",
+  "t": "Arrogant thoughts, or thoughts equal to God?",
+  "p": "Alexandrinus has 'arrogant thoughts'; Venetus, the KJV and the Latin have 'thoughts equal to God'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "μὴ θνητὸν ὄντα ὑπερήφανα φρονεῖν",
+    "en": "not, being mortal, to think arrogant things",
+    "plain": "No one who is mortal should think arrogant thoughts"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV 'that a man that is mortal should not proudly think of himself if he were God'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (mortalem non paria Deo sentire)",
+    "orig": "υπερηφανα] ισοθεα V",
+    "en": "not, being mortal, to think thoughts equal to God's",
+    "plain": "No one who is mortal should think himself equal to God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps Alexandrinus. Venetus's <i>isothea</i>, 'godlike', is sharper and fits a king called Epiphanes, 'god made manifest' (see the note). Some readers prefer it for that reason, but it may also be a copyist's heightening. 'Arrogant' (<i>hyperēphanos</i>) is the word the whole chapter uses for him (9:4, 7, 8, 11).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "9:15",
+  "a": "he had meant to wipe them out with their babies",
+  "t": "Wiped out, or thrown out?",
+  "p": "Alexandrinus says 'wipe out'; Venetus and the KJV say 'cast out' for birds and beasts to eat.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "σὺν τοῖς νηπίοις ἐκτρῖψαι θηρίοις",
+    "en": "to wipe out with their infants, for beasts",
+    "plain": "he had meant to wipe them out with their babies"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV 'to be cast out with their children'",
+    "orig": "εκτριψαι] εκριψειν V",
+    "en": "to throw out with their infants, for beasts",
+    "plain": "he had meant to throw them out with their babies"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs differ by little more than one letter (<i>ektripsai</i>, <i>ekripsein</i>). Both make sense; Venetus's 'throw out' fits the picture of unburied bodies left for birds and beasts. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "9:20",
+  "a": "Good health to you and to your children; your affairs will go as you wish.",
+  "t": "A missing 'if' and a missing thank-you",
+  "p": "Swete's Greek reads like a greeting; the KJV and the Latin have 'If you are well... I give great thanks to God'.",
+  "readings": [
+   {
+    "w": "Swete's printed text (from a corrector of Venetus, Vᵃ); Alexandrinus and Venetus as first written have the infinitive ἐρρῶσθαι",
+    "orig": "ἔρρωσθε, καὶ τὰ τέκνα· καὶ τὰ ἴδια κατὰ γνώμην ἔσται ὑμῖν",
+    "en": "Be well, and your children; and your affairs will be according to your wish",
+    "plain": "Good health to you and to your children; your affairs will go as you wish."
+   },
+   {
+    "w": "King James Version (1611) ('If ye and your children fare well, and your affairs be to your contentment, I give very great thanks to God'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (Si bene valetis... maximas agimus gratias)",
+    "orig": "Si bene valetis, et filii vestri, et ex sententia vobis cuncta sunt, maximas agimus gratias",
+    "en": "If you and your children are well and all goes as you wish, we give very great thanks",
+    "plain": "If you and your children are well, and your affairs go as you wish, I give great thanks."
+   }
+  ],
+  "follow": 0,
+  "why": "Hellenistic letters often open: 'If you are well, it would be as I wish.' The KJV and the Latin show that some witnesses had that 'if' and a clause of thanks, which neither of Swete's manuscripts has; only the KJV names God ('I give very great thanks to God'), while the Latin has just 'we give very great thanks'. The KJV was translated from printed Greek editions, so some Greek copies must have had the clause. Venetus too had extra words in the greeting: at the end of 9:21 Swete's note reads '+την εις ουνυν ελπιδα εχοντων υμων V' (ουνυν probably standing for οὐρανόν), 'you having your hope in heaven', which seems to answer the 'hope fixed on heaven' of 9:20. The Plain translates Swete's text as it stands, which reads as a greeting.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "9:21",
+  "a": "with warm affection I have kept in mind the honor and goodwill you have shown me",
+  "t": "'I was weak'",
+  "p": "The KJV and the Latin begin with the king's weakness ('I was weak, or else...'), which the Greek here lacks.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete and Venetus",
+    "orig": "ὑμῶν τὴν τιμὴν καὶ τὴν εὔνοιαν ἐμνημόνευον φιλοστόργως",
+    "en": "I was remembering with affection your honor and goodwill",
+    "plain": "with warm affection I have kept in mind the honor and goodwill you have shown me"
+   },
+   {
+    "w": "King James Version (1611) ('As for me, I was weak, or else I would have remembered kindly your honour'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (Et ego in infirmitate constitutus, vestri autem memor benigne)",
+    "orig": "Et ego in infirmitate constitutus, vestri autem memor benigne",
+    "en": "and I, being in weakness, yet remembering you kindly",
+    "plain": "I myself am weak, but I have kept in mind with warm affection the honor and goodwill you have shown me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin and the KJV add the king's weakness at the start of the verse; Swete's manuscripts mention it only later in the verse ('a painful illness'). The Plain follows the Greek.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "9:24",
+  "a": "if something surprising took place and some further trouble came,",
+  "t": "Further trouble, or bad news?",
+  "p": "Alexandrinus speaks of 'some further trouble'; Venetus, the Latin and the KJV of bad news being brought.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐάν τι παράδοξον ἀποβαίη καὶ προσαπέλθῃ τι δυσχερές",
+    "en": "if anything unexpected should turn out and some further difficulty come",
+    "plain": "if something surprising took place and some further trouble came,"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (aut difficile nuntiaretur); KJV 'or if any tidings were brought that were grievous'; Douay 'or any bad tidings should be brought'",
+    "orig": "και προσαπελθη τι δυσχερες] η και προσαγγελθη δυσχ. τι V",
+    "en": "or some difficulty should be reported",
+    "plain": "if something surprising took place or bad news arrived,"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense. Venetus's verb, 'be reported', differs from Alexandrinus's 'come in addition' by a few letters, and its 'or' makes two separate cases. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "10:4",
+  "a": "they asked that he would correct them himself, gently",
+  "t": "The missing verb 'be disciplined'",
+  "p": "Alexandrinus leaves out the verb; Venetus, the KJV and the Latin say 'be disciplined (chastened) with gentleness'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV 'chasten them with mercy'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (ab ipso mitius corriperentur)",
+    "orig": "επιεικειας] + παιδευεσθαι V",
+    "en": "to be disciplined by him with gentleness",
+    "plain": "they asked that he would correct them himself, gently"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ὑπ᾽ αὐτοῦ μετὰ ἐπιεικείας",
+    "en": "[to be ...] by him with gentleness",
+    "plain": "they asked that it be by him, gently"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus, which has no verb and so no clear sense. Venetus supplies <i>paideuesthai</i>, 'to be disciplined', and the Latin and KJV agree. The word picks up the book's teaching that God disciplines his own people so as not to destroy them (6:12–16; 7:33).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:7",
+  "a": "they gave thanks",
+  "t": "Gave thanks, or sang hymns?",
+  "p": "Alexandrinus says they gave thanks; Venetus and the KJV say they offered hymns (sang psalms).",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ηὐχαρίστουν",
+    "en": "they gave thanks",
+    "plain": "they gave thanks"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (Swete's note divides the lemma across a line); KJV 'sang psalms unto him'",
+    "orig": "ηυχαρισ- τουν] υμνους ανεφερον V",
+    "en": "they offered up hymns",
+    "plain": "they sang hymns"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings describe the same worship. The Plain keeps Alexandrinus. The Latin has neither verb ('they carried [branches] before him').",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:8",
+  "a": "these days were to be kept every year",
+  "t": "'These days', 'the tenth days' or 'ten days'?",
+  "p": "Alexandrinus reads 'the tenth days', Venetus 'ten days'; the Plain follows the Latin ('these days') and the KJV ('those days').",
+  "readings": [
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (dies istos); KJV 'those days'; Douay 'those days'",
+    "orig": "omnibus annis agere dies istos",
+    "en": "to keep these days every year",
+    "plain": "these days were to be kept every year"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "κατ᾽ ἐνιαυτὸν ἄγειν τὰς δεκάτας ἡμέρας",
+    "en": "to keep the tenth days every year",
+    "plain": "the tenth days were to be kept every year"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes",
+    "orig": "δεκατας] δεκα V",
+    "en": "to keep the ten days every year",
+    "plain": "the ten days were to be kept every year"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from both of Swete's manuscripts. The feast lasted eight days (10:6; 1 Maccabees 4:59), so neither 'ten days' nor 'the tenth days' fits. In capital letters TASDETAS ('these, the') could easily be misread as DEKATAS ('tenth'); the Latin has 'these days' (dies istos) and the KJV 'those days', and that sense is the likely original.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "Antiochus Eupator",
+  "t": "'The consul Antiochus' or 'Antiochus Eupator'?",
+  "p": "Alexandrinus has a slip, 'the consul'; Venetus, the Latin and the KJV give the king's title, Eupator.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (de Eupatore); KJV",
+    "orig": "υπατον] Eυπατορα V",
+    "en": "Antiochus Eupator",
+    "plain": "Antiochus Eupator"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὸν ὕπατον Ἀντίοχον",
+    "en": "the consul Antiochus",
+    "plain": "Antiochus the consul"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. 'Consul' (<i>hypatos</i>, a Roman office) makes no sense for a Seleucid king, and <i>hypaton</i> looks like <i>Eupatora</i> with letters lost. The boy king was called Eupator, 'of a noble father'; 10:13 uses the name.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "the evils that kept falling on the cities",
+  "t": "Evils of the cities, or of the wars?",
+  "p": "Alexandrinus says 'the evils of the cities'; Venetus, the KJV and the Latin say 'of the wars'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὰ συνέχοντα τῶν πόλεων κακά",
+    "en": "the evils that pressed on the cities",
+    "plain": "the evils that kept falling on the cities"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (which also leaves out 'pressing'; the lemma ποιεων in the digital apparatus is probably a typo for πολεων); KJV 'the calamities of the wars'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (mala quæ in bellis gesta sunt)",
+    "orig": "om συνεχοντα V | ποιεων] πολεμων V",
+    "en": "the evils of the wars",
+    "plain": "the evils of the wars"
+   }
+  ],
+  "follow": 0,
+  "why": "'Cities' (<i>poleōn</i>) and 'wars' (<i>polemōn</i>) look alike. Both fit what follows. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "He could not make his high post an honorable one",
+  "t": "A damaged phrase about Ptolemy's office",
+  "p": "The Greek word that tells why Ptolemy gave up is damaged; the Plain follows a correction made by nineteenth-century editors.",
+  "readings": [
+   {
+    "w": "The sense adopted from the correction (conjecture) εὐγενίσας proposed by C. L. W. Grimm and O. F. Fritzsche, as Swete's notes report it",
+    "orig": "ευγενισας coniecer Grimm Fritzsch",
+    "en": "not having ennobled his noble office",
+    "plain": "He could not make his high post an honorable one"
+   },
+   {
+    "w": "Codex Alexandrinus, in Swete's notes; Swete prints a form close to it",
+    "orig": "ευγεννασιας A",
+    "en": "(no clear sense)",
+    "plain": "His high post was not ... (the word is unclear)"
+   }
+  ],
+  "follow": 0,
+  "why": "The word in Alexandrinus is not a known Greek word, and Swete's printed form is hard to construe. Grimm and Fritzsche's correction gives the sense the KJV and Latin also suggest: he found himself in a position without honor, and despaired. Because the Plain rests on a correction, the wording is less certain than usual.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "10:14",
+  "a": "kept up the fighting against the Jews",
+  "t": "Against the Jews, or against 'his own'?",
+  "p": "Alexandrinus says Gorgias kept making war 'against his own'; Venetus, the KJV and the Latin say 'against the Jews'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV 'with the Jews'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (Judæos debellabat)",
+    "orig": "ιδιους] Ιουδαιους V",
+    "en": "he kept up war against the Jews",
+    "plain": "kept up the fighting against the Jews"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "πρὸς τοὺς ἰδίους ἐπολεμοτρόφει",
+    "en": "he kept up war against his own",
+    "plain": "kept up the fighting against his own people"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. 'His own' (<i>idious</i>) and 'Jews' (<i>Ioudaious</i>) look alike, and the story is about Gorgias's war on the Jews (8:9; 10:15). The same confusion happens at 11:23 and 11:29.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:15",
+  "a": "The Idumeans joined in. They held strongholds in key places and gave the Jews no rest, and they took in men driven out of Jerusalem and worked to keep the war alive.",
+  "t": "Idumeans or Jews?",
+  "p": "The Latin makes the men in the strongholds Jews, not Idumeans.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; KJV",
+    "orig": "ὁμοῦ δὲ τούτων καὶ οἱ Ἰδουμαῖοι",
+    "en": "together with these, the Idumeans too",
+    "plain": "The Idumeans joined in. They held strongholds in key places and gave the Jews no rest, and they took in men driven out of Jerusalem and worked to keep the war alive."
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees ('But the Jews who held the strongholds took in those driven from Jerusalem'); Douay",
+    "orig": "Judæi vero qui tenebant opportunas munitiones",
+    "en": "but the Jews who held the strongholds",
+    "plain": "The Jews who held strongholds in key places took in men driven out of Jerusalem and tried to make war."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is clear, and the next verse names 'the Idumeans' strongholds'. The Latin's 'Jews' (in the Douay: 'the Jews that occupied the most commodious holds') may be a slip between two look-alike names, the same confusion that makes Venetus read 'the strongholds of the Jews' in 10:16. If it were right, the strongholds would belong to Jews who sided with the king, like the men driven out of Jerusalem.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "10:29",
+  "a": "Two of them were leading the Jews.",
+  "t": "Two riders, or five, at the head of the Jews?",
+  "p": "In Alexandrinus two of the riders lead the Jews and guard Maccabeus; Venetus leaves out 'the two'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV ('two of them led the Jews')",
+    "orig": "καὶ ἀφηγούμενοι τῶν Ἰουδαίων οἱ δύο",
+    "en": "and the two, leading the Jews",
+    "plain": "Two of them were leading the Jews."
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (omits 'the two, and'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees ('giving the lead to the Jews; of whom two...')",
+    "orig": "οι δυο και] om δυο V",
+    "en": "leading the Jews",
+    "plain": "They were leading the Jews."
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus has 'the two' lead the Jews and shield Maccabeus, while all five appear to the enemy. Venetus drops 'the two', so that all five lead. The Latin agrees with Venetus on the five and then names two as Maccabeus's guards. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:33",
+  "a": "for twenty-four days",
+  "t": "Forty days, twenty-four, or four?",
+  "p": "Alexandrinus says forty days, Venetus twenty-four; the KJV and the Latin say four. The attack comes on the 25th day (10:35).",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes",
+    "orig": "τεσσερακοντα] τεσσαρες και εικοσι V",
+    "en": "for twenty-four days",
+    "plain": "for twenty-four days"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "περιεκάθισαν τὸ φρούριον ἡμέρας τεσσεράκοντα",
+    "en": "they besieged the fort forty days",
+    "plain": "for forty days"
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (diebus quatuor); KJV 'four days'; Douay",
+    "orig": "obsederunt præsidium diebus quatuor",
+    "en": "they besieged the fortress four days",
+    "plain": "for four days"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. Its 'forty days' cannot be squared with an attack 'as the twenty-fifth day dawned' (10:35). Venetus's twenty-four days fits that verse exactly. The Latin and the KJV have a different but also consistent pair: four days of siege, then twenty young men attacking on the fifth day (see the next entry).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "10:35",
+  "a": "When the light of the twenty-fifth day was showing, young men",
+  "t": "The twenty-fifth day, or the fifth day and twenty young men?",
+  "p": "The Greek has 'the twenty-fifth day'; the KJV and the Latin read 'the fifth day' and 'twenty young men'. This goes with the entry on 10:33.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete and Venetus",
+    "orig": "ὑποφαινούσης δὲ τῆς πέμπτης ἡμέρας καὶ εἰκοστῆς, νεανίαι",
+    "en": "as the fifth and twentieth day was dawning, young men",
+    "plain": "When the light of the twenty-fifth day was showing, young men"
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (cum dies quinta illucesceret, viginti juvenes); KJV 'upon the fifth day early twenty young men'",
+    "orig": "cum dies quinta illucesceret, viginti juvenes",
+    "en": "when the fifth day dawned, twenty young men",
+    "plain": "When the light of the fifth day was showing, twenty young men"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference lies in one word: Greek <i>eikostēs</i>, 'twentieth', goes with the day, while the Latin's source read <i>eikosi</i>, 'twenty', with the young men. Both of Swete's manuscripts have the day. The Plain follows them, and so takes Venetus's twenty-four days at 10:33 (see that entry).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:37",
+  "a": "Timothy was hiding in a cistern.",
+  "t": "Two more days of fighting in the Latin",
+  "p": "The Latin adds that the fortress was laid waste over two days before Timothy was found.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; KJV",
+    "orig": "καὶ τὸν Τιμόθεον ἀποκεκρυμμένον ἔν τινι λάκκῳ",
+    "en": "and Timothy, hidden in a certain cistern",
+    "plain": "Timothy was hiding in a cistern."
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (Per continuum autem biduum præsidio vastato); Douay 'And having for two days together pillaged and sacked the fortress'",
+    "orig": "Per continuum autem biduum præsidio vastato",
+    "en": "the fortress having been laid waste for two days on end",
+    "plain": "For two days on end they laid the fortress waste. Timothy was hiding in a cistern."
+   }
+  ],
+  "follow": 0,
+  "why": "The two days are found only in the Latin among the witnesses checked here. The Plain follows the Greek.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "11:5",
+  "a": "about five schoinoi from Jerusalem",
+  "t": "Five schoinoi or five stades?",
+  "p": "Alexandrinus gives the distance in schoinoi, a long measure; Venetus, the KJV and the Latin say stades ('furlongs').",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἀπέχοντι ὡσεὶ σχοίνους πέντε",
+    "en": "distant about five schoinoi",
+    "plain": "about five schoinoi from Jerusalem"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes ('five stades and ten thousand'); KJV 'about five furlongs'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (intervallo quinque stadiorum)",
+    "orig": "σχοινους] σταδιους V | πεντε] + προς τοις μυριοις V",
+    "en": "distant about five stades",
+    "plain": "about five furlongs from Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "Beth-zur lies about 16 miles (some 25 km) south of Jerusalem (1 Maccabees 4:29). Five stades would be well under a mile, which is impossible. Five schoinoi, at a common value of 30 stades each, comes to roughly 17 miles and fits. Venetus's strange 'five stades and ten thousand' looks like an attempt to repair the figure.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "goldstein-2macc"
+  ]
+ },
+ {
+  "v": "11:8",
+  "a": "a rider on horseback appeared",
+  "t": "Was the figure on horseback?",
+  "p": "The first hand of Alexandrinus left out 'on horseback'; a later hand added it in the margin.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus as corrected (Aᵃ, in the margin, probably), Venetus; KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (eques)",
+    "orig": "om εφιππος A* (hab Aᵃ?ᵐᵍ)",
+    "en": "there appeared, on horseback, one going before them",
+    "plain": "a rider on horseback appeared"
+   },
+   {
+    "w": "Codex Alexandrinus as first written (A*)",
+    "orig": "ἐφάνη προηγούμενος αὐτῶν ... ἐν λευκῇ ἐσθῆτι",
+    "en": "there appeared one going before them in white clothing",
+    "plain": "a figure appeared"
+   }
+  ],
+  "follow": 0,
+  "why": "All other witnesses have the horseman, and the scene matches the riders of 3:25 and 10:29. The first scribe of Alexandrinus probably skipped the word by accident.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "11:15",
+  "a": "the king granted",
+  "t": "The king, or the secretary?",
+  "p": "Alexandrinus says 'the secretary' granted Judas's requests; Venetus, the KJV and the Latin say 'the king'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; KJV; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (ea rex concessit)",
+    "orig": "γραμματευς] βασιλευς V",
+    "en": "the king granted",
+    "plain": "the king granted"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "συνεχώρησεν ὁ γραμματεύς",
+    "en": "the secretary granted",
+    "plain": "the secretary granted"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. No secretary has been mentioned, and the letter that follows says that the king 'granted all that could be granted' (11:18), which supports Venetus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "11:23",
+  "a": "able to look after their own affairs",
+  "t": "Their own affairs, or the care of the Jews?",
+  "p": "Alexandrinus says 'for the care of the Jews'; Venetus, the KJV and the Latin say 'their own affairs'.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (also βουλόμενοι, 'we wish'); KJV 'that every one may attend upon his own affairs'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (rebus suis adhibere diligentiam)",
+    "orig": "την των Ιουδαιων επιμελιαν] τη των ιδιων επιμελια (-λεια Vᵃ) V",
+    "en": "undisturbed in the care of their own affairs",
+    "plain": "able to look after their own affairs"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete (with βουλομένου, so that the wish may be the dead father's)",
+    "orig": "πρὸς τὴν τῶν Ἰουδαίων ἐπιμελίαν",
+    "en": "undisturbed for the care of the Jews",
+    "plain": "free for the care of the Jews"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The same two words, <i>idiōn</i> ('their own') and <i>Ioudaiōn</i> ('of the Jews'), are confused again (see 10:14 and 11:29). The young king's letter speaks of all his subjects first, then turns to the Jews in the next verse; 'their own affairs' fits that order.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "11:28",
+  "a": "Good health to you; that would be just as we wish.",
+  "t": "'Good health' or 'If you are well'?",
+  "p": "The KJV and the Latin begin 'If you fare well'; Swete's Greek has no 'if'.",
+  "readings": [
+   {
+    "w": "Swete's printed text",
+    "orig": "ἔρρωσθε, εἴη ἂν ὡς βουλόμεθα",
+    "en": "Be well; it would be as we wish",
+    "plain": "Good health to you; that would be just as we wish."
+   },
+   {
+    "w": "King James Version (1611) ('If ye fare well, we have our desire'); Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (Si valetis, sic estis ut volumus)",
+    "orig": "Si valetis, sic estis ut volumus",
+    "en": "If you are well, you are as we wish",
+    "plain": "If you are well, that is just as we wish."
+   }
+  ],
+  "follow": 0,
+  "why": "The usual opening of Hellenistic letters is 'If you are well, it would be as we wish', and the KJV and the Latin have it. Swete prints no 'if' here or at 9:20, and his apparatus reports none. The Plain follows his text; the sense hardly changes.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "11:29",
+  "a": "Menelaus has told us that he wants you to come home",
+  "t": "Whose wish: Menelaus's or the Jews'?",
+  "p": "In Alexandrinus it is Menelaus who wishes the Jews to come home; in Venetus, the Latin and the KJV it is the Jews who wish it.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐνεφάνισεν ἡμῖν Μενέλαος βουλόμενος κατελθόντας ὑμᾶς γίνεσθαι πρὸς τοῖς ἰδίοις",
+    "en": "Menelaus has informed us, wishing that you come down and attend to your own affairs",
+    "plain": "Menelaus has told us that he wants you to come home"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (dicens velle vos descendere ad vestros); KJV 'that your desire was to return home'; Douay 'saying that you desired to come down'",
+    "orig": "βουλομενος] βουλεσθαι V",
+    "en": "Menelaus has informed us that you wish to come down",
+    "plain": "Menelaus has told us that you wish to come home"
+   }
+  ],
+  "follow": 0,
+  "why": "In Alexandrinus the participle 'wishing' is nominative and goes with Menelaus. Venetus has the infinitive, which makes it the content of his report: the Jews wish to return. The Latin and the KJV take it that way. The Plain keeps Alexandrinus. Swete also notes that A reads ἡμᾶς ('us') for ὑμᾶς ('you') and, as first written, Ἰουδαίοις ('the Jews') for ἰδίοις ('their own'), both slips of a common kind.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "11:34",
+  "a": "Titus Manius",
+  "t": "Manius, Manlius or Manilius?",
+  "p": "The Greek names the second envoy Titus Manius; the KJV has Manlius and the Latin Manilius.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Τίτος Μάνιος",
+    "en": "Titus Manius",
+    "plain": "Titus Manius"
+   },
+   {
+    "w": "King James Version (1611)",
+    "orig": "(English only)",
+    "en": "Titus Manlius",
+    "plain": "Titus Manlius"
+   },
+   {
+    "w": "Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees; Douay",
+    "orig": "Titus Manilius",
+    "en": "Titus Manilius",
+    "plain": "Titus Manilius"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes, which adds a further name",
+    "orig": "Μανιος] + Ερνιος V",
+    "en": "Titus Manius Hernius (?)",
+    "plain": "Titus Manius Hernius"
+   }
+  ],
+  "follow": 0,
+  "why": "Manius is normally a Roman first name, not a family name, so the Greek is odd. The KJV's Manlius matches a known Roman family, but no source Swete reports has it. On who these men may have been, see the note.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "11:36",
+  "a": "so that we may handle them as is fitting for us",
+  "t": "Fitting for us, or for you?",
+  "p": "Alexandrinus says 'as is fitting for us'; Venetus and the KJV say 'for you'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἵν᾽ ἔχωμεν ὡς καθήκει ἡμῖν",
+    "en": "so that we may have [them] as is fitting for us",
+    "plain": "so that we may handle them as is fitting for us"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), in Swete's notes (ἐκθῶμεν 'set out', ὑμῖν 'for you'); KJV 'that we may declare as it is convenient for you'; Latin Vulgate (Clementine, 1592), which keeps the Old Latin of Maccabees (sicut congruit vobis)",
+    "orig": "εχωμεν] εκθωμεν V | ημιν] υμιν V",
+    "en": "so that we may set them out as is fitting for you",
+    "plain": "so that we may present them in the way that suits you"
+   }
+  ],
+  "follow": 0,
+  "why": "In late Greek <i>hēmin</i> ('us') and <i>hymin</i> ('you') sounded alike and are often confused. Venetus's reading makes the Romans offer to argue the Jews' case before the king. Alexandrinus makes them reserve their own judgment. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ }
+]

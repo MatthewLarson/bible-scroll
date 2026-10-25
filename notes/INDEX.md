@@ -1,0 +1,17 @@
+# Revelations Study
+- Goal: build a clear map of the Book of Revelation, laid out as a timeline with infographics, citing multiple translations, source texts and studies.
+- No repositories or project instructions set yet.
+- Matt's preferences (2026-10-21):
+  - Main text: modern American English at about an 8th grade reading level, citing common translations and especially the original-language texts.
+  - Present all interpretive views, both literal and figurative, fairly.
+  - Deliverable: interactive web page that scrolls sideways along a timeline. Style mixes ancient manuscript, hieroglyphics, cave drawings and modern art. Everything looks sketched onto a scroll, with no sharp-edged square images.
+  - Use openly licensed illustrations and maps when available, otherwise write ChatGPT image prompts.
+  - Wants original theories and cross-references, clearly labeled, plus likely mistranslations.
+- Thread "Revelation timeline web page" is building the page.
+- 2026-10-22: Matt expanded scope to every book of the Bible as a full website (thread "Whole-Bible study website"). Wants a hostile review by a separate agent after each book, most trustworthy original-language sources with variant notation, and one topic page per topic filterable to the current passage with a full-view toggle.
+- 2026-10-23: Matt wants audience and purpose context: who each book, sermon, parable, letter and law was written to or for, and why. This matters especially for the New Testament and Jewish law.
+- 2026-10-23: Matt wants denominational views (Catholic, Baptist, Lutheran, etc.), especially conflicts; references to non-canonical works styled visually differently; and non-canonical works covered with provenance, why rejected, where accepted books reference them, a reliability analysis and how to read them. Settled on three tiers: the shared canon; books some churches accept (labeled with who accepts them); books outside every church's Bible (full "not widely accepted" treatment).
+- Thread "Whole-Bible study website" is extending the site to all 66 books: see [[bible-site]]. Thread "Non-canonical books" runs in parallel (1 Enoch first) and coordinates with it on shared files.
+- 2026-10-24: Matt approved splitting the books across parallel threads. "Whole-Bible study website" does Proverbs through Song of Songs and remains the only publisher and owner of the shared files. "Write the Prophets books" does Isaiah through Malachi. "Write the New Testament books" does Matthew through Jude.
+- Thread "Write the Prophets books" (2026-10-24) writes Isaiah–Malachi as a lane that hands books to the lead thread for publishing: see [[bible-site-prophets]].
+- 2026-10-24 14:55: Matt paused all work. The non-canonical books thread saved where it stopped in [[bible-site-noncanon-status]].

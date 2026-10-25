@@ -1,0 +1,759 @@
+[
+ {
+  "v": "26:3",
+  "a": "the chief priests and the people's elders",
+  "t": "\"And the scribes\"?",
+  "p": "The Byzantine text and the KJV add \"the scribes\" to the leaders who met at Caiaphas' house.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Alexandrinus, Vaticanus, Bezae, Regius (L), the Latin and Coptic versions (reported by Tischendorf)",
+    "orig": "οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ",
+    "en": "the chief priests and the elders of the people",
+    "plain": "the chief priests and the people's elders"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"the chief priests, and the scribes, and the elders of the people\"); E, F, G, K, M, S, U, V, Δ and some Old Latin and Syriac copies (reported by Tischendorf)",
+    "orig": "οἱ ἀρχιερεῖς καὶ οἱ γραμματεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ",
+    "en": "the chief priests and the scribes and the elders of the people",
+    "plain": "the chief priests, the scribes and the people's elders"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the older witnesses. Scribes often filled out lists of Jesus' opponents to match other passages, such as 16:21 and Mark 14:1, which name the scribes.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "26:20",
+  "a": "the twelve disciples",
+  "t": "\"The Twelve\" or \"the twelve disciples\"?",
+  "p": "Editions differ over whether to add \"disciples.\" The meaning is the same.",
+  "readings": [
+   {
+    "w": "SBLGNT, Westcott-Hort, Tischendorf; Codex Sinaiticus, Regius (L), M, Δ, 33, 157, the Old Latin, Vulgate, Bohairic Coptic and Peshitta Syriac (reported by Tischendorf)",
+    "orig": "μετὰ τῶν δώδεκα μαθητῶν",
+    "en": "with the twelve disciples",
+    "plain": "the twelve disciples"
+   },
+   {
+    "w": "NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV \"with the twelve\"); Codex Vaticanus, Bezae, E, F, G, H, K, S, U, V and most later manuscripts, the Sahidic Coptic, Eusebius and Augustine (reported by Tischendorf)",
+    "orig": "μετὰ τῶν δώδεκα",
+    "en": "with the Twelve",
+    "plain": "the Twelve"
+   }
+  ],
+  "follow": 0,
+  "why": "The manuscripts are divided, and the editors weigh them differently. This translation follows the SBL text it is based on. Tischendorf noted that Matthew elsewhere prefers \"the twelve disciples\" (10:1; 11:1; 20:17), while Mark 14:17 has \"the Twelve,\" which may have influenced copyists. Nothing turns on the choice.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "26:26",
+  "a": "said the blessing",
+  "t": "Blessed or gave thanks?",
+  "p": "Older manuscripts say Jesus \"blessed\" the bread; the Byzantine text says he \"gave thanks.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Textus Receptus (KJV \"blessed it\"); Codex Vaticanus, Ephraemi, Bezae, Regius (L), Z, the Latin, Syriac and Coptic versions (reported by Tischendorf)",
+    "orig": "εὐλογήσας",
+    "en": "having blessed",
+    "plain": "said the blessing"
+   },
+   {
+    "w": "Byzantine majority; Codex Alexandrinus, E, F, H, K, M, S, U, V, Δ and more than 130 later manuscripts (reported by Tischendorf)",
+    "orig": "εὐχαριστήσας",
+    "en": "having given thanks",
+    "plain": "gave thanks"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Blessed\" has the older witnesses and matches Mark 14:22. \"Gave thanks\" matches Luke 22:19, 1 Corinthians 11:24 and the next verse, and the church's word \"Eucharist,\" so a copyist would easily write it.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "26:28",
+  "a": "my blood of the covenant",
+  "t": "The covenant or the new covenant?",
+  "p": "The KJV says \"the new testament.\" The oldest manuscripts do not have \"new\" in Matthew.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus and Vaticanus (300s), according to Metzger; Vaticanus, Regius (L), Z, 33 and 102 (reported by Tischendorf)",
+    "orig": "τὸ αἷμά μου τῆς διαθήκης",
+    "en": "my blood of the covenant",
+    "plain": "my blood of the covenant"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"my blood of the new testament\"); Codex Alexandrinus, Ephraemi, Bezae (D) and most later manuscripts, the Old Latin, Vulgate and Syriac, Irenaeus in Latin and Cyprian (reported by Tischendorf)",
+    "orig": "τὸ αἷμά μου τὸ τῆς καινῆς διαθήκης",
+    "en": "my blood, that of the new covenant",
+    "plain": "my blood, the blood of the new covenant"
+   }
+  ],
+  "follow": 0,
+  "why": "\"New\" was probably added from Luke 22:20 and 1 Corinthians 11:25, which have \"the new covenant.\" If it had been original, there would be no reason to drop it. The shorter form echoes Exodus 24:8 directly.",
+  "b": "The KJV's \"testament\" translates <i>diathēkē</i>, which can mean a will or a covenant. Here it means covenant, as in Exodus 24:8.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "26:42",
+  "a": "if there is no way for this to go past me",
+  "t": "\"This\" or \"this cup\"?",
+  "p": "The Byzantine text and the KJV add \"cup.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Alexandrinus, Vaticanus, Ephraemi, Regius (L), Δ, 1, 33, the Sahidic Coptic, Origen and Eusebius (reported by Tischendorf)",
+    "orig": "εἰ οὐ δύναται τοῦτο παρελθεῖν",
+    "en": "if this cannot pass",
+    "plain": "if there is no way for this to go past me"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"if this cup may not pass away from me\"); E, F, G, H, K, M, S, U, V and most later manuscripts, the Vulgate and most Old Latin, the Bohairic Coptic and the Syriac (reported by Tischendorf)",
+    "orig": "εἰ οὐ δύναται τοῦτο τὸ ποτήριον παρελθεῖν ἀπ’ ἐμοῦ",
+    "en": "if this cup cannot pass from me",
+    "plain": "if there is no way for this cup to go past me"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words make explicit what \"this\" means, using the wording of 26:39. Scribes tended to fill in such gaps; the shorter text is older.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "26:59",
+  "a": "The chief priests and the whole Sanhedrin",
+  "t": "\"And the elders\"?",
+  "p": "The Byzantine text and the KJV add \"the elders\" to the chief priests and the council.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Bezae, Regius (L), 69, 157, the Coptic, Armenian, Old Latin and Vulgate (reported by Tischendorf)",
+    "orig": "οἱ δὲ ἀρχιερεῖς καὶ τὸ συνέδριον ὅλον",
+    "en": "the chief priests and the whole council",
+    "plain": "The chief priests and the whole Sanhedrin"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"the chief priests, and elders, and all the council\"); Codex Alexandrinus, Ephraemi, E, F, G, H, M, S, U, V, Δ and most later manuscripts (reported by Tischendorf)",
+    "orig": "οἱ δὲ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι καὶ τὸ συνέδριον ὅλον",
+    "en": "the chief priests and the elders and the whole council",
+    "plain": "The chief priests, the elders and the whole Sanhedrin"
+   }
+  ],
+  "follow": 0,
+  "why": "The elders were part of the council, so the addition changes nothing in substance. It matches the lists in 26:3, 26:47 and 27:1, which is likely why copyists added it.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "26:60",
+  "a": "Many false witnesses came forward, yet they found nothing.",
+  "t": "\"They found none\" twice",
+  "p": "The Byzantine text repeats \"they found none\" and divides the verse differently.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Ephraemi, Regius (L), N, 1, 33, 118, 124, 209, the Vulgate, the Coptic and Armenian (reported by Tischendorf)",
+    "orig": "καὶ οὐχ εὗρον πολλῶν προσελθόντων ψευδομαρτύρων",
+    "en": "and they did not find, though many false witnesses came forward",
+    "plain": "Many false witnesses came forward, yet they found nothing."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"But found none: yea, though many false witnesses came, yet found they none\"); Codex Alexandrinus, E, F, G, H, K, M, S, U, V, Δ and most later manuscripts (reported by Tischendorf)",
+    "orig": "καὶ οὐχ εὗρον. καὶ πολλῶν ψευδομαρτύρων προσελθόντων, οὐχ εὗρον",
+    "en": "and they did not find. And though many false witnesses came forward, they did not find",
+    "plain": "They found nothing. Many false witnesses came forward, but still they found nothing."
+   }
+  ],
+  "follow": 0,
+  "why": "The repetition in the later text smooths a compact Greek sentence. The older, shorter form is followed. The Byzantine text also places \"two false witnesses came\" at the start of 26:61.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:2",
+  "a": "Pilate",
+  "t": "\"Pontius Pilate\"",
+  "p": "Later manuscripts and the KJV give the governor's full name.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Regius (L), 33, 102, the Coptic and the Sinaitic Syriac, Origen (reported by Tischendorf)",
+    "orig": "Πιλάτῳ",
+    "en": "Pilate",
+    "plain": "Pilate"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Pontius Pilate\"); Codex Alexandrinus, Ephraemi, E, F, G, H, K, M, S, U, V, Δ and nearly all later manuscripts, the Old Latin, Vulgate and Peshitta (reported by Tischendorf)",
+    "orig": "Ποντίῳ Πιλάτῳ",
+    "en": "Pontius Pilate",
+    "plain": "Pontius Pilate"
+   }
+  ],
+  "follow": 0,
+  "why": "Matthew names him only \"Pilate\" everywhere else. The full name, familiar from the creeds and from Luke 3:1 and Acts 4:27, was easily added at his first mention. Tischendorf himself thought the full name original; most modern editors do not.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:4",
+  "a": "innocent blood",
+  "t": "Innocent or righteous blood?",
+  "p": "Some old manuscripts and translations have Judas say \"righteous blood.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV \"innocent blood\"); Codex Alexandrinus, the first hand of Vaticanus, Ephraemi and most manuscripts, the Syriac and Gothic, Eusebius and Chrysostom (reported by Tischendorf)",
+    "orig": "αἷμα ἀθῷον",
+    "en": "innocent blood",
+    "plain": "innocent blood"
+   },
+   {
+    "w": "A corrector's note in the margin of Codex Vaticanus, Regius (L), the Old Latin, Vulgate, Coptic and Armenian, Origen, Cyprian and Lucifer (reported by Tischendorf); also Codex Koridethi (Θ), according to Metzger",
+    "orig": "αἷμα δίκαιον",
+    "en": "righteous blood",
+    "plain": "righteous blood"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Innocent blood\" is the phrase of the Greek Old Testament (Deuteronomy 27:25; Jeremiah 19:4) and fits Pilate's \"I am clean\" (<i>athōos</i>, 27:24). \"Righteous\" probably came from 23:35 and 27:19. As Tischendorf asked, who would have written \"innocent\" if \"righteous\" stood in the text?",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "27:5",
+  "a": "into the sanctuary",
+  "t": "Into the sanctuary or in the temple?",
+  "p": "The Byzantine text and the KJV say Judas threw the silver down \"in the temple.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Regius (L) and a few others, Origen and Eusebius (reported by Tischendorf)",
+    "orig": "εἰς τὸν ναόν",
+    "en": "into the sanctuary",
+    "plain": "into the sanctuary"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"in the temple\"); Codex Alexandrinus, Ephraemi and most later manuscripts, the Latin versions (reported by Tischendorf)",
+    "orig": "ἐν τῷ ναῷ",
+    "en": "in the sanctuary",
+    "plain": "in the Temple"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Into\" is the harder reading: it has Judas hurl the coins into the holy place itself, where he could not go. \"In\" softens it. The note on 27:5 discusses what <i>naos</i> means here.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:9",
+  "a": "Jeremiah the prophet",
+  "t": "Jeremiah, Zechariah, Isaiah, or no name?",
+  "p": "Almost all manuscripts say \"Jeremiah,\" though the words are mostly from Zechariah. A few change or drop the name.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus, Vaticanus, Ephraemi, Bezae and nearly all Greek manuscripts, most Old Latin, the Vulgate, Coptic and Gothic, Eusebius (reported by Tischendorf); SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus",
+    "orig": "Ἰερεμίου τοῦ προφήτου",
+    "en": "Jeremiah the prophet",
+    "plain": "Jeremiah the prophet"
+   },
+   {
+    "w": "Codex Beratinus (Φ, 500s), according to Metzger; 33, 157, Old Latin a and b, some Syriac copies, and copies Augustine knew (reported by Tischendorf)",
+    "orig": "τοῦ προφήτου",
+    "en": "the prophet",
+    "plain": "the prophet"
+   },
+   {
+    "w": "Minuscule 22 and the margin of the Harclean Syriac (reported by Tischendorf and Metzger)",
+    "orig": "Ζαχαρίου τοῦ προφήτου",
+    "en": "Zechariah the prophet",
+    "plain": "Zechariah the prophet"
+   },
+   {
+    "w": "Minuscule 21 and Old Latin <i>l</i> (reported by Metzger and Tischendorf)",
+    "orig": "Ἠσαΐου τοῦ προφήτου",
+    "en": "Isaiah the prophet",
+    "plain": "Isaiah the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Jeremiah\" has overwhelming support, and it is the harder reading: copyists who knew the words were from Zechariah had a reason to change it, and none to introduce it. Augustine already knew copies without the name and judged that the name belonged. See the note on this verse for why Matthew may have named Jeremiah.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8",
+   "augustine-harmony"
+  ]
+ },
+ {
+  "v": "27:16",
+  "a": "Jesus Barabbas",
+  "t": "Was Barabbas called Jesus?",
+  "p": "Some manuscripts, and copies Origen knew, call him \"Jesus Barabbas.\" Most manuscripts say only \"Barabbas.\"",
+  "readings": [
+   {
+    "w": "SBLGNT and NA28 (NA28 in brackets); minuscules 1, 118, 209, 241 and 299, the Palestinian Syriac and Armenian, known to Origen (reported by Tischendorf); Codex Koridethi (Θ, 800s) and the Sinaitic Syriac, according to Metzger",
+    "orig": "Ἰησοῦν Βαραββᾶν",
+    "en": "Jesus Barabbas",
+    "plain": "Jesus Barabbas"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV); Codex Alexandrinus, Vaticanus, Bezae and most manuscripts, the Old Latin, Vulgate, Coptic and Peshitta (reported by Tischendorf)",
+    "orig": "Βαραββᾶν",
+    "en": "Barabbas",
+    "plain": "Barabbas"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading is followed, as in the SBL and NA28, because it is hard to explain as an addition: no scribe would give a criminal the name Jesus, while many would remove it out of reverence. Origen says exactly that the name should not be given to a sinner. The Tyndale House edition, weighing the much larger and older support for \"Barabbas,\" prints the short form, as Tischendorf did.",
+  "b": "This goes with 27:17, where the same manuscripts read \"Jesus Barabbas\" a second time. In 27:17 Codex Vaticanus has \"the Barabbas\" (<i>ton Barabban</i>), and the article looks like the remains of \"Jesus the Barabbas,\" which supports the longer reading.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8",
+   "origen-comm-matthew-series",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "27:17",
+  "a": "Jesus Barabbas",
+  "t": "\"Jesus Barabbas\" again",
+  "p": "Goes with 27:16: the same manuscripts call him \"Jesus Barabbas\" here too.",
+  "readings": [
+   {
+    "w": "SBLGNT and NA28 (NA28 in brackets); minuscules 1, 118, 209, 241 and 299, the Palestinian Syriac and Armenian, Origen in Latin (reported by Tischendorf); Codex Koridethi (Θ), according to Metzger",
+    "orig": "Ἰησοῦν τὸν Βαραββᾶν",
+    "en": "Jesus the Barabbas",
+    "plain": "Jesus Barabbas"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV); most manuscripts; Codex Vaticanus reads \"the Barabbas\" (reported by Tischendorf)",
+    "orig": "Βαραββᾶν",
+    "en": "Barabbas",
+    "plain": "Barabbas"
+   }
+  ],
+  "follow": 0,
+  "why": "See 27:16. Pilate's question is sharper with two men called Jesus, which fits Matthew's taste for parallels: \"Jesus Barabbas, or Jesus, the one they call the Messiah?\"",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:24",
+  "a": "this man's blood",
+  "t": "\"This righteous man's blood\"?",
+  "p": "Many manuscripts have Pilate call Jesus \"this righteous man,\" echoing his wife's words in 27:19.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Vaticanus, Bezae, 102, Old Latin a and b, Chrysostom (reported by Tischendorf); Codex Koridethi (Θ) and the Sinaitic Syriac, according to Metzger",
+    "orig": "ἀπὸ τοῦ αἵματος τούτου",
+    "en": "of the blood of this one",
+    "plain": "this man's blood"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV \"the blood of this just person\"); E, F, G, H, K, L, M, S, U, V, Δ and most later manuscripts, most Latin copies and the Peshitta; Codex Sinaiticus, Alexandrinus and the Coptic put \"righteous\" after \"this\" (reported by Tischendorf)",
+    "orig": "ἀπὸ τοῦ αἵματος τοῦ δικαίου τούτου",
+    "en": "of the blood of this righteous one",
+    "plain": "this righteous man's blood"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is followed, with the SBL and NA28, because \"righteous\" looks like an addition drawn from 27:19. The manuscripts that have it put it in different places, which suggests it was added. The Tyndale House edition prints the longer reading, and the case is close.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:34",
+  "a": "wine",
+  "t": "Wine or vinegar?",
+  "p": "The KJV says \"vinegar mingled with gall.\" The oldest manuscripts say \"wine.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Bezae and others, according to Metzger",
+    "orig": "οἶνον",
+    "en": "wine",
+    "plain": "wine"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"vinegar\"); Codex Alexandrinus and most later manuscripts, according to Metzger",
+    "orig": "ὄξος",
+    "en": "sour wine, vinegar",
+    "plain": "sour wine"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Sour wine\" brings the verse closer to Psalm 69:21 (\"they made me drink vinegar\") and to 27:48. Copyists were more likely to make that change than the reverse. Mark 15:23 has \"wine.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "27:35",
+  "a": "shared out his clothes by throwing lots.",
+  "t": "The prophecy added in the KJV",
+  "p": "The KJV quotes Psalm 22:18 here. The words are not in the oldest manuscripts or in most Byzantine ones.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority; Codex Sinaiticus, Vaticanus, Alexandrinus and most manuscripts, according to Metzger",
+    "orig": "βάλλοντες κλῆρον",
+    "en": "casting lots",
+    "plain": "shared out his clothes by throwing lots."
+   },
+   {
+    "w": "Textus Receptus (KJV); Codex Koridethi (Θ), family 1 and family 13 manuscripts, some Old Latin, according to Metzger",
+    "orig": "βάλλοντες κλῆρον, ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ προφήτου· Διεμερίσαντο τὰ ἱμάτιά μου ἑαυτοῖς, καὶ ἐπὶ τὸν ἱματισμόν μου ἔβαλον κλῆρον",
+    "en": "casting lots, so that what was spoken by the prophet might be fulfilled: They divided my garments among themselves, and over my clothing they cast lots",
+    "plain": "shared out his clothes by throwing lots. This happened so that what was spoken through the prophet would be fulfilled: \"They divided my clothes among them, and over my clothing they threw lots.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The quotation was copied in from John 19:24, which has nearly the same words, and given Matthew's usual formula. The oldest and the great majority of manuscripts lack it; even the Byzantine text does not have it. Erasmus's printed Greek, the basis of the KJV, included it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "27:41",
+  "a": "along with the scribes and elders",
+  "t": "\"And Pharisees\"",
+  "p": "The Byzantine majority text adds the Pharisees to the mockers at the cross. The KJV does not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Textus Receptus (KJV); Codex Alexandrinus, Vaticanus, Regius (L), 1, 33, 69, 124, the Vulgate, Coptic and Peshitta, Eusebius (reported by Tischendorf)",
+    "orig": "μετὰ τῶν γραμματέων καὶ πρεσβυτέρων",
+    "en": "with the scribes and elders",
+    "plain": "along with the scribes and elders"
+   },
+   {
+    "w": "Byzantine majority (the Robinson-Pierpont text); E, F, G, H, K, M, S, U, V, Δ and about 150 others (reported by Tischendorf); not in the Textus Receptus or the KJV",
+    "orig": "μετὰ τῶν γραμματέων καὶ πρεσβυτέρων καὶ Φαρισαίων",
+    "en": "with the scribes and elders and Pharisees",
+    "plain": "along with the scribes, elders and Pharisees"
+   },
+   {
+    "w": "Codex Bezae and some Old Latin copies (reported by Tischendorf)",
+    "orig": "μετὰ τῶν γραμματέων καὶ Φαρισαίων",
+    "en": "with the scribes and Pharisees",
+    "plain": "along with the scribes and Pharisees"
+   }
+  ],
+  "follow": 0,
+  "why": "The Pharisees are absent from the passion in the older text until 27:62. Adding them makes the list of opponents complete, a common scribal habit. The Robinson-Pierpont Byzantine text prints them.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:42",
+  "a": "King of Israel, is he? Then",
+  "t": "\"If he is the King of Israel\"",
+  "p": "The Byzantine text and the KJV make the taunt a condition: \"If he be the King of Israel.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Bezae, Regius (L), 33, 102 and the Sahidic Coptic (reported by Tischendorf)",
+    "orig": "βασιλεὺς Ἰσραήλ ἐστιν",
+    "en": "he is King of Israel",
+    "plain": "King of Israel, is he? Then"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"If he be the King of Israel\"); Codex Alexandrinus and most later manuscripts, the Latin, Bohairic Coptic and Syriac versions (reported by Tischendorf)",
+    "orig": "εἰ βασιλεὺς Ἰσραήλ ἐστιν",
+    "en": "if he is King of Israel",
+    "plain": "If he is the King of Israel, then"
+   }
+  ],
+  "follow": 0,
+  "why": "The older text's bare statement is biting sarcasm. \"If\" was probably added from 27:40 (\"If you are God's Son\") to make the sense plainer.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:46",
+  "a": "Eli, Eli, lema sabachthani?",
+  "t": "\"Eli\" or \"Eloi\"?",
+  "p": "Most manuscripts give the Hebrew \"Eli.\" Codex Vaticanus and a few others have Mark's Aramaic \"Eloi.\" The spelling of \"lema\" also varies.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; \"Eli\" in Codex Alexandrinus and most manuscripts, \"lema\" in Codex Vaticanus, Regius (L) and 33 (reported by Tischendorf)",
+    "orig": "Ηλι ηλι λεμα σαβαχθανι",
+    "en": "Eli, Eli, lema sabachthani",
+    "plain": "Eli, Eli, lema sabachthani?"
+   },
+   {
+    "w": "Westcott-Hort; Codex Vaticanus, 33, a few others and the Coptic (reported by Tischendorf), as in Mark 15:34",
+    "orig": "Ελωι ελωι λεμα σαβαχθανι",
+    "en": "Eloi, Eloi, lema sabachthani",
+    "plain": "Eloi, Eloi, lema sabachthani?"
+   },
+   {
+    "w": "Byzantine majority and Tischendorf (\"lima\"); Codex Alexandrinus, K, U, Δ and most later manuscripts. The Textus Receptus has \"lama\" with Bezae and some Old Latin copies (KJV \"Eli, Eli, lama sabachthani\") (reported by Tischendorf)",
+    "orig": "Ηλι ηλι λιμα σαβαχθανι",
+    "en": "Eli, Eli, lima sabachthani",
+    "plain": "Eli, Eli, lima sabachthani?"
+   },
+   {
+    "w": "Codex Bezae, with the Old Latin \"zapthani\" (reported by Tischendorf)",
+    "orig": "Ηλει ηλει λαμα ζαφθανει",
+    "en": "Eli, Eli, lama zaphthani",
+    "plain": "Eli, Eli, lama zaphthani?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Eli\" has wide and early support and is the harder reading in a Gospel that copyists knew alongside Mark's \"Eloi.\" It also explains the bystanders' mistake (27:47): \"Eli\" sounds like \"Elijah.\" Vaticanus' \"Eloi\" is best explained as harmonizing with Mark. \"Lema,\" \"lima\" and \"lama\" are spellings of the same Aramaic or Hebrew word for \"why\"; Bezae's \"zaphthani\" reflects the Hebrew of Psalm 22:1 (<i>azavtani</i>).",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "27:49",
+  "a": "is coming to save him.\"",
+  "t": "The spear in Matthew?",
+  "p": "Codex Sinaiticus and Vaticanus add that a soldier pierced Jesus' side before he died. Most manuscripts lack it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV); Codex Alexandrinus, Bezae and most later manuscripts, most Latin and Syriac copies (reported by Tischendorf)",
+    "orig": "σώσων αὐτόν",
+    "en": "to save him",
+    "plain": "is coming to save him.\""
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s), Ephraemi (400s), Regius (L, 700s), Γ, 1010 and a few others, according to Metzger; also U, minuscules 5, 48, 67, 115 and 127, some Vulgate manuscripts, the Palestinian Syriac and the Ethiopic; known to Chrysostom (reported by Tischendorf); printed in double brackets by Westcott and Hort",
+    "orig": "σώσων αὐτόν. ἄλλος δὲ λαβὼν λόγχην ἔνυξεν αὐτοῦ τὴν πλευράν, καὶ ἐξῆλθεν ὕδωρ καὶ αἷμα",
+    "en": "to save him. And another took a spear and pierced his side, and water and blood came out",
+    "plain": "is coming to save him.\" Another man took a spear and stabbed his side, and water and blood came out."
+   }
+  ],
+  "follow": 0,
+  "why": "Although two of the oldest manuscripts have it, almost all editors judge it an early addition from John 19:34, perhaps first written in a margin. In John the spear comes after Jesus' death; here it would come before, and seem to cause it, which conflicts with 27:50. The wide support for the shorter text in other early witnesses decides it.",
+  "b": "This is one of the rare places where modern editions reject a reading found in both Sinaiticus and Vaticanus. Tischendorf reports that Severus of Antioch, in the 500s, told of a debate over these words in Constantinople that was settled by consulting an old copy of Matthew which lacked them.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "27:56",
+  "a": "Joseph",
+  "t": "Joseph or Joses?",
+  "p": "The KJV and Byzantine text call her son Joses, as in Mark 15:40. The SBL and NA28 have Joseph.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; the first hand of Codex Bezae, Regius (L), 157 and a few others, the Old Latin, Vulgate, Coptic and Ethiopic, the margin of the Harclean Syriac (reported by Tischendorf)",
+    "orig": "Ἰωσήφ",
+    "en": "Joseph",
+    "plain": "Joseph"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV \"Joses\"), Tischendorf; Codex Alexandrinus, Vaticanus and most manuscripts (reported by Tischendorf)",
+    "orig": "Ἰωσῆ",
+    "en": "Joses",
+    "plain": "Joses"
+   },
+   {
+    "w": "A corrector of Codex Bezae (reported by Tischendorf), as in Mark 15:40",
+    "orig": "Ἰωσῆτος",
+    "en": "Joses",
+    "plain": "Joses"
+   }
+  ],
+  "follow": 0,
+  "why": "Joses is a short form of Joseph, so it is the same name either way. Copyists may have changed Joseph to Joses to match Mark 15:40, or the reverse to match 13:55. Tischendorf suggested a reason for the second: some early readers, among them John Chrysostom, took this Mary to be Jesus' own mother, and writing \"Joseph\" made her sons match the brothers named in 13:55. The SBL and NA28 judge Joseph original here.",
+  "s": [
+   "tischendorf-nt8",
+   "chrysostom-hom-matthew"
+  ]
+ },
+ {
+  "v": "27:57",
+  "a": "had been made a disciple of Jesus",
+  "t": "\"Was made a disciple\" or \"was a disciple\"?",
+  "p": "The SBL and NA28 say Joseph \"had been made a disciple\"; the Byzantine text and the KJV say he \"was Jesus' disciple.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Ephraemi, Bezae, 1 and 17 (reported by Tischendorf)",
+    "orig": "ἐμαθητεύθη τῷ Ἰησοῦ",
+    "en": "was made a disciple to Jesus",
+    "plain": "had been made a disciple of Jesus"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV \"also himself was Jesus' disciple\"), Tischendorf; Codex Alexandrinus, Vaticanus and most manuscripts (reported by Tischendorf)",
+    "orig": "ἐμαθήτευσεν τῷ Ἰησοῦ",
+    "en": "was a disciple to Jesus",
+    "plain": "was a disciple of Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "This translation follows the SBL text. The passive matches the verb Jesus uses for making disciples in 28:19, while the active, intransitive use (\"to be a disciple\") is older Greek. Tischendorf noted that both forms are found. The meaning differs only slightly: the passive hints that someone made Joseph a disciple.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "27:64",
+  "a": "might come and steal him",
+  "t": "\"By night\"",
+  "p": "The Byzantine text and the KJV say the disciples might come \"by night.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Alexandrinus, Vaticanus, Bezae, the Old Latin, Vulgate, Coptic, Peshitta and Gothic (reported by Tischendorf)",
+    "orig": "ἐλθόντες οἱ μαθηταὶ αὐτοῦ κλέψωσιν αὐτόν",
+    "en": "his disciples having come might steal him",
+    "plain": "might come and steal him"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"come by night, and steal him away\"); a corrector of Ephraemi, F, G, L, M, U and many later manuscripts (reported by Tischendorf)",
+    "orig": "ἐλθόντες οἱ μαθηταὶ αὐτοῦ νυκτὸς κλέψωσιν αὐτόν",
+    "en": "his disciples having come by night might steal him",
+    "plain": "might come by night and steal him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"By night\" was probably added from 28:13, where the guards say the disciples \"came at night.\"",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "28:2",
+  "a": "rolled it away",
+  "t": "\"From the door\"",
+  "p": "The Byzantine text and the KJV say the angel rolled the stone \"back from the door.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Bezae, the Old Latin, Vulgate and Ethiopic (reported by Tischendorf)",
+    "orig": "ἀπεκύλισεν τὸν λίθον",
+    "en": "rolled away the stone",
+    "plain": "rolled it away"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"rolled back the stone from the door\"); Codex Alexandrinus, Ephraemi and most later manuscripts; some others, with the Coptic and Peshitta, add \"of the tomb\" (reported by Tischendorf)",
+    "orig": "ἀπεκύλισεν τὸν λίθον ἀπὸ τῆς θύρας",
+    "en": "rolled away the stone from the door",
+    "plain": "rolled it away from the doorway"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is found in Mark 16:3 and was likely added here to match. It does not change the meaning.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "28:6",
+  "a": "where he was lying",
+  "t": "\"Where the Lord lay\"",
+  "p": "The KJV reads \"the place where the Lord lay.\" The oldest manuscripts have \"where he lay.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, 33, 102, the Coptic, Ethiopic and Armenian (reported by Tischendorf); Codex Sinaiticus and Koridethi (Θ), according to Metzger",
+    "orig": "ὅπου ἔκειτο",
+    "en": "where he was lying",
+    "plain": "where he was lying"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"where the Lord lay\"); Codex Alexandrinus, Ephraemi, Bezae, Regius (L) and most later manuscripts, the Latin and Syriac versions (reported by Tischendorf)",
+    "orig": "ὅπου ἔκειτο ὁ κύριος",
+    "en": "where the Lord was lying",
+    "plain": "where the Lord was lying"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Lord\" is a natural reverent addition. Matthew never calls Jesus \"the Lord\" in his own narration, which tells against it, as Tischendorf also argued.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "28:9",
+  "a": "And look,",
+  "t": "\"As they went to tell his disciples\"",
+  "p": "The Byzantine text and the KJV begin the verse: \"And as they went to tell his disciples.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Bezae, 33, 69, the Old Latin, Vulgate, Coptic and Armenian, Origen, Eusebius, Jerome and Augustine (reported by Tischendorf)",
+    "orig": "καὶ ἰδού",
+    "en": "and behold",
+    "plain": "And look,"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"And as they went to tell his disciples, behold\"); Codex Alexandrinus, Ephraemi, Regius (L) and most later manuscripts, the Peshitta (reported by Tischendorf)",
+    "orig": "ὡς δὲ ἐπορεύοντο ἀπαγγεῖλαι τοῖς μαθηταῖς αὐτοῦ, καὶ ἰδού",
+    "en": "and as they went to tell his disciples, behold",
+    "plain": "As they went on their way to tell his disciples, look,"
+   }
+  ],
+  "follow": 0,
+  "why": "The clause repeats the end of 28:8 and was probably added to smooth the move to a new scene. Tischendorf noted that \"as they went\" (<i>hōs de</i>) is not Matthew's way of opening a scene.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "28:17",
+  "a": "they bowed down",
+  "t": "\"Bowed down\" or \"bowed down to him\"?",
+  "p": "The Byzantine text and the KJV add \"him\": \"they worshipped him.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Vaticanus, Bezae, 33, 102, the Old Latin and Vulgate (reported by Tischendorf)",
+    "orig": "προσεκύνησαν",
+    "en": "they bowed down",
+    "plain": "they bowed down"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV \"they worshipped him\"), Tischendorf; Codex Alexandrinus and most later manuscripts (reported by Tischendorf)",
+    "orig": "προσεκύνησαν αὐτῷ",
+    "en": "they bowed down to him",
+    "plain": "they bowed down to him"
+   }
+  ],
+  "follow": 0,
+  "why": "This translation follows the SBL text. Tischendorf printed \"to him,\" arguing that Matthew always gives this verb an object (as in 28:9) and that a copyist had no reason to add it. Others think copyists supplied the object for the same reason. The meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "28:20",
+  "a": "until the completion of the age.\"",
+  "t": "The final \"Amen\"",
+  "p": "The Byzantine text and the KJV end the Gospel with \"Amen.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Vaticanus, Bezae, 1, 33, many Old Latin copies, the Vulgate, Coptic and Armenian (reported by Tischendorf)",
+    "orig": "ἕως τῆς συντελείας τοῦ αἰῶνος",
+    "en": "until the completion of the age",
+    "plain": "until the completion of the age.\""
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"even unto the end of the world. Amen.\"); E, F, G, H, K, M, S, U, V, Δ and most later manuscripts, some Old Latin, the Syriac (reported by Tischendorf)",
+    "orig": "ἕως τῆς συντελείας τοῦ αἰῶνος. ἀμήν",
+    "en": "until the completion of the age. Amen",
+    "plain": "until the completion of the age.\" Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "Readers in church said \"Amen\" after the reading, and copyists added it to the end of many New Testament books. The oldest manuscripts lack it.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ }
+]

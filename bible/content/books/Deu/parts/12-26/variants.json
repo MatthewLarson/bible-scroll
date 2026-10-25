@@ -1,0 +1,200 @@
+[
+ {
+  "v": "12:5",
+  "a": "will choose",
+  "t": "\"Will choose\" or \"has chosen\"?",
+  "p": "The Hebrew looks ahead to a place not yet named. The Samaritan text says God \"has chosen\" it, meaning Mount Gerizim.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most Septuagint manuscripts; Targums; Vulgate",
+    "orig": "יִבְחַר (yivchar)",
+    "en": "will choose",
+    "plain": "will choose"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); some witnesses to the oldest Greek (some Greek manuscripts, the Old Latin of Codex Lugdunensis, Coptic)",
+    "orig": "בחר (bachar); ἐξελέξατο (Greek); elegit (Old Latin)",
+    "en": "has chosen",
+    "plain": "has chosen"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly every witness reads \"will choose,\" and the phrase occurs over twenty times in Deuteronomy. The Samaritans, whose holy place was Mount Gerizim (named in 11:29 and 27:12), read \"has chosen\" each time, so that the place was already fixed in Moses' day. Most scholars see this as a deliberate Samaritan change. Adrian Schenker, however, argued that the oldest recoverable Greek, preserved in some Greek manuscripts and the Old Latin, read \"has chosen\" too, so that the Samaritan form may be older and the Jewish text adjusted it to look ahead to Jerusalem. The Plain follows the Masoretic reading, which nearly all Hebrew witnesses share, while noting that the question is open.",
+  "b": "The Samaritan Pentateuch also adds a commandment to build an altar on Mount Gerizim after the Ten Commandments. See the topic on the Samaritans.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "schenker-choose"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "Instead, you must kill him.",
+  "t": "\"Kill him\" or \"report him\"?",
+  "p": "The Hebrew says to kill the one who lures you to other gods. The Greek says to report him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch; Targums; Vulgate",
+    "orig": "כִּי הָרֹג תַּהַרְגֶנּוּ (ki harog tahargennu)",
+    "en": "for you shall surely kill him",
+    "plain": "Instead, you must kill him."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "ἀναγγέλλων ἀναγγελεῖς περὶ αὐτοῦ",
+    "en": "you shall surely report about him",
+    "plain": "Instead, you must report him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek reflects Hebrew <i>ki haged taggidennu</i>, \"you shall surely tell about him,\" which differs by a few letters. The Greek fits a trial and the rule of two witnesses (17:6), so many scholars once preferred it. Bernard Levinson argued that the Hebrew is original: Assyrian loyalty oaths demanded that anyone who heard treason report it or seize and kill the speaker, and the Greek, he argues, softened a law that seemed to permit killing without a trial. Most modern versions follow the Hebrew.",
+  "b": "The rabbis also required a trial before witnesses, reading \"your hand is to be the first\" as the hand of a witness (Sanhedrin 45b).",
+  "s": [
+   "levinson-kill",
+   "wevers-deut",
+   "parpola-treaties"
+  ]
+ },
+ {
+  "v": "13:6",
+  "a": "Your brother, your own mother's son",
+  "t": "Mother's son, or father's son too?",
+  "p": "The Hebrew names only \"your mother's son.\" The Samaritan and Greek texts read \"your father's son or your mother's son.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אָחִיךָ בֶן־אִמֶּךָ (achikha ven-immekha)",
+    "en": "your brother, the son of your mother",
+    "plain": "Your brother, your own mother's son"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Septuagint (the Greek translation, 200s BC)",
+    "orig": "אחיך בן אביך או בן אמך (Samaritan); ὁ ἀδελφός σου ἐκ πατρός σου ἢ ἐκ μητρός σου (Greek)",
+    "en": "your brother, the son of your father or the son of your mother",
+    "plain": "Your brother, your father's son or your mother's son"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading widens the law to half-brothers on the father's side. It looks like a scribe's clarification, filling out the phrase so that no brother is left out; the shorter Hebrew is the harder reading and is followed here. In a household with several wives, \"your mother's son\" named the closest brother of all, which suits the verse's list of the people nearest to you.",
+  "s": [
+   "tigay-deut",
+   "wevers-deut",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:13",
+  "a": "the buzzard, the falcon, any kind of kite",
+  "t": "Three birds or two?",
+  "p": "The Hebrew lists three birds where Leviticus lists two. The Samaritan text matches Leviticus.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הָרָאָה וְאֶת־הָאַיָּה וְהַדַּיָּה לְמִינָהּ",
+    "en": "the ra'ah, and the ayyah, and the dayyah after its kind",
+    "plain": "the buzzard, the falcon, any kind of kite"
+   },
+   {
+    "w": "Samaritan Pentateuch (text tradition going back to the last centuries BC; manuscripts from the Middle Ages); compare Leviticus 11:14",
+    "orig": "הדאה ואת האיה למינה",
+    "en": "the da'ah, and the ayyah after its kind",
+    "plain": "the kite, any kind of falcon"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Ra'ah</i> appears nowhere else, and it looks like a miscopying of <i>da'ah</i> (the Hebrew letters r and d are very similar). <i>Dayyah</i> may then be a second spelling of the same bird added beside it. Many scholars think the Samaritan list, like Leviticus 11:14, is original, but the Hebrew text has always read three birds, and the rabbis counted them as three. The Plain English follows the Hebrew while the bird names themselves remain uncertain.",
+  "s": [
+   "tov-tchb",
+   "tigay-deut"
+  ]
+ },
+ {
+  "v": "20:17",
+  "a": "and the Jebusites",
+  "t": "Six nations or seven?",
+  "p": "The Hebrew names six nations. The Greek adds a seventh, the Girgashites.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targums; Vulgate",
+    "orig": "הַחִתִּי וְהָאֱמֹרִי הַכְּנַעֲנִי וְהַפְּרִזִּי הַחִוִּי וְהַיְבוּסִי",
+    "en": "the Hittite and the Amorite, the Canaanite and the Perizzite, the Hivite and the Jebusite",
+    "plain": "and the Jebusites"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "καὶ Ευαῖον καὶ Ιεβουσαῖον καὶ Γεργεσαῖον",
+    "en": "and the Hivites and the Jebusites and the Girgashites",
+    "plain": "and the Jebusites and the Girgashites"
+   }
+  ],
+  "follow": 0,
+  "why": "Lists of the peoples of Canaan vary: some have six names (Exodus 3:8), others seven (7:1; Joshua 3:10). The Greek translators, or the text they used, seem to have filled out this list to match 7:1, where the seven nations are named. The shorter Hebrew list is the harder reading and is followed here.",
+  "s": [
+   "wevers-deut",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "21:23",
+  "a": "a man who is hanged",
+  "t": "\"A man who is hanged\" or \"everyone who hangs on a tree\"?",
+  "p": "The Greek adds \"everyone\" and \"on a tree.\" Paul quotes the Greek form in Galatians 3:13.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch",
+    "orig": "כִּי־קִלְלַת אֱלֹהִים תָּלוּי (ki-qilelat elohim taluy)",
+    "en": "for a hanged one is a curse of God",
+    "plain": "a man who is hanged"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC); compare the Temple Scroll (11QT 64)",
+    "orig": "κεκατηραμένος ὑπὸ θεοῦ πᾶς κρεμάμενος ἐπὶ ξύλου",
+    "en": "cursed by God is everyone who hangs on a tree",
+    "plain": "everyone who is hanged on a tree"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is supported by the Samaritan text and is the harder reading. The Greek expands it with \"everyone\" and \"on a tree,\" words taken from the verse before. Paul writes, \"Cursed is everyone who hangs on a tree\" (Galatians 3:13), close to the Greek. The Temple Scroll from Qumran also speaks of men \"hanged on the tree,\" which suggests the fuller wording was known among Jews before Paul.",
+  "b": "See the note on this verse about whether the Hebrew means \"cursed by God\" or \"an insult to God,\" and the topic on being hanged on a tree.",
+  "s": [
+   "wevers-deut",
+   "yadin-temple-scroll",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "26:5",
+  "a": "My father was a wandering Aramean",
+  "t": "Three ways to read four Hebrew words",
+  "p": "The Hebrew is usually read \"a wandering Aramean was my father.\" The Greek has \"my father left Aram,\" and the Latin \"an Aramean pursued my father.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) as usually read; Samaritan Pentateuch; most modern versions",
+    "orig": "אֲרַמִּי אֹבֵד אָבִי (arammi oved avi)",
+    "en": "a wandering (perishing) Aramean was my father",
+    "plain": "My father was a wandering Aramean"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "Συρίαν ἀπέβαλεν ὁ πατήρ μου",
+    "en": "my father abandoned Syria",
+    "plain": "My father left Aram behind"
+   },
+   {
+    "w": "Targum Onqelos; Vulgate; Passover Haggadah; Rashi",
+    "orig": "לָבָן אֲרַמָּאָה בְּעָא לְאוֹבָדָא יָת אַבָּא (Targum); Syrus persequebatur patrem meum (Vulgate)",
+    "en": "Laban the Aramean sought to destroy my father",
+    "plain": "An Aramean tried to destroy my father"
+   }
+  ],
+  "follow": 0,
+  "why": "\"My father was a wandering Aramean\" is the standard English rendering, used by many modern versions, and also the most literal. All three readings come from the same Hebrew consonants. The verb <i>oved</i> normally means \"perishing\" or \"lost,\" and the subject is most naturally \"my father.\" The Greek read the words differently, and the Aramaic and Latin made \"Aramean\" the subject and Laban the enemy. The Plain English follows the most natural sense of the Hebrew, which fits the following words \"he went down to Egypt.\"",
+  "b": "The third reading, from the Passover Haggadah, is still recited at every Seder: \"Go and learn what Laban the Aramean sought to do to our father Jacob.\"",
+  "s": [
+   "passover-haggadah",
+   "rashi-torah",
+   "wevers-deut",
+   "tigay-deut"
+  ]
+ }
+]

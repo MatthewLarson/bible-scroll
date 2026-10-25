@@ -1,0 +1,296 @@
+[
+ {
+  "v": "1:1",
+  "a": "loved",
+  "t": "Loved or sanctified?",
+  "p": "The oldest manuscripts say \"loved\" by God the Father. Later ones, and the KJV, say \"sanctified.\"",
+  "readings": [
+   {
+    "w": "Papyrus 72 (about AD 300), Codex Sinaiticus, Vaticanus and Alexandrinus (300s–400s); NA28, SBLGNT",
+    "orig": "ἠγαπημένοις",
+    "en": "loved",
+    "plain": "loved"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"sanctified by God the Father\")",
+    "orig": "ἡγιασμένοις",
+    "en": "made holy, sanctified",
+    "plain": "made holy"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Loved\" has much the older and wider support. \"Loved in God\" is an unusual phrase, and a copyist could easily change it to the more familiar \"sanctified in God\" (compare 1 Corinthians 1:2). The reverse change is hard to explain.",
+  "b": "The two Greek words look alike (<i>ēgapēmenois</i>, <i>hēgiasmenois</i>). Jude's letter is full of love language: \"beloved\" (1:3, 17, 20), \"love feasts\" (1:12), \"the love of God\" (1:21), so \"loved\" fits his style.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "our only Master and Lord, Jesus Christ",
+  "t": "Does \"God\" belong here?",
+  "p": "Later manuscripts add \"God,\" so the KJV reads \"the only Lord God, and our Lord Jesus Christ.\"",
+  "readings": [
+   {
+    "w": "Papyrus 72, Codex Sinaiticus, Vaticanus, Alexandrinus and Ephraemi; NA28, SBLGNT",
+    "orig": "τὸν μόνον δεσπότην καὶ κύριον ἡμῶν Ἰησοῦν Χριστόν",
+    "en": "our only Master and Lord, Jesus Christ",
+    "plain": "our only Master and Lord, Jesus Christ"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τὸν μόνον δεσπότην θεὸν καὶ κύριον ἡμῶν Ἰησοῦν Χριστόν",
+    "en": "the only Master, God, and our Lord Jesus Christ",
+    "plain": "the only Master, God, and our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts lack \"God.\" It was probably added because \"only Master\" (despotēs) was normally a title for God, and copyists wanted to make that explicit.",
+  "b": "Without \"God,\" both titles, Master and Lord, clearly belong to Jesus, because one Greek article governs both. With \"God,\" the KJV can read two persons: God the Master, and our Lord Jesus Christ. Some defenders of the KJV argue the reverse, that \"God\" was removed, but there is no early evidence for it. Either way Jesus is called Lord.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "Jesus",
+  "t": "Jesus, the Lord, or God?",
+  "p": "The hardest variant in Jude. The oldest manuscripts say Jesus saved the people out of Egypt.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus and Vaticanus (300s–400s), minuscules 33, 81, 1739, the Latin Vulgate, Coptic versions; NA28, SBLGNT, Tyndale House GNT. English: ESV, CSB, NLT, NET, NRSVue, BSB",
+    "orig": "Ἰησοῦς",
+    "en": "Jesus",
+    "plain": "Jesus"
+   },
+   {
+    "w": "Codex Sinaiticus (300s), Codex Ephraemi (400s), Byzantine majority, Textus Receptus; NA27, Westcott and Hort. English: KJV, NKJV, NIV, NASB, NABRE",
+    "orig": "(ὁ) κύριος",
+    "en": "the Lord",
+    "plain": "the Lord"
+   },
+   {
+    "w": "A few later manuscripts",
+    "orig": "ὁ θεός",
+    "en": "God",
+    "plain": "God"
+   },
+   {
+    "w": "Papyrus 72 (about AD 300)",
+    "orig": "θεὸς Χριστός",
+    "en": "God Christ",
+    "plain": "God Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Jesus\" is the reading of some of the oldest and best manuscripts and of early translations, and it is the harder reading: a copyist who found \"Jesus\" in an Exodus story would be tempted to change it to \"the Lord,\" while it is hard to see why anyone would change \"the Lord\" to \"Jesus.\" Papyrus 72's \"God Christ\" also points to a reading that named Christ.",
+  "b": "Ancient copies abbreviated sacred names, and ΙΣ (Jesus) and ΚΣ (Lord) differ by one letter, so an accidental change is possible in either direction. In the 1970s, the committee of the UBS Greek New Testament chose \"the Lord\" by a majority. Bruce Metzger and Allen Wikgren dissented: they judged \"Jesus\" the best-attested reading, difficult as it is. In 2012–2013 the editors of NA28 and of the Editio Critica Maior, the large new critical edition, changed the text to \"Jesus.\" Recent English revisions have been moving toward \"Jesus\": the NRSV (1989) read \"the Lord,\" and its 2021 update (NRSVue) reads \"Jesus.\" See also the next manuscript note, on where \"once\" goes.",
+  "s": [
+   "metzger",
+   "wasserman-jude"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "all this once and for all",
+  "t": "Where does \"once\" go?",
+  "p": "Copies put \"once\" with \"you know\" or with \"Jesus saved.\" The Byzantine text reads \"this\" for \"all this.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and others; SBLGNT, NA27, Westcott and Hort",
+    "orig": "εἰδότας ὑμᾶς ἅπαξ πάντα",
+    "en": "knowing all things once for all",
+    "plain": "all this once and for all"
+   },
+   {
+    "w": "Codex Alexandrinus, Vaticanus and others; NA28, Editio Critica Maior",
+    "orig": "εἰδότας ὑμᾶς πάντα ὅτι Ἰησοῦς ἅπαξ",
+    "en": "knowing all things, that Jesus once (saved)",
+    "plain": "all this"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"though ye once knew this\")",
+    "orig": "εἰδότας ὑμᾶς ἅπαξ τοῦτο",
+    "en": "knowing this once",
+    "plain": "this once"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows its base text, the SBLGNT. The NA28 order is a strong rival: there \"once\" goes with \"saved\" (\"Jesus once saved a people... and the second time destroyed\"), a neat contrast with \"the second time\" (<i>to deuteron</i>). If you switch to the NA28 reading, read the rest of the verse as \"Jesus once saved a people... and later destroyed.\"",
+  "b": "The meaning hardly changes: Jude is reminding, not teaching anything new.",
+  "s": [
+   "metzger",
+   "wasserman-jude"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "all the ungodly",
+  "t": "All the ungodly, or every person?",
+  "p": "Some old manuscripts say Enoch's Lord will convict \"every soul,\" like 1 Enoch's \"all flesh.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Alexandrinus and most manuscripts; SBLGNT, Tyndale House GNT, Westcott and Hort, Byzantine majority (adding \"among them\"), Textus Receptus (KJV)",
+    "orig": "πάντας τοὺς ἀσεβεῖς",
+    "en": "all the ungodly",
+    "plain": "all the ungodly"
+   },
+   {
+    "w": "Papyrus 72, Codex Sinaiticus; NA27, NA28",
+    "orig": "πᾶσαν ψυχήν",
+    "en": "every soul",
+    "plain": "every person"
+   }
+  ],
+  "follow": 0,
+  "why": "This follows the SBLGNT, the base text for the Plain English. The editions disagree. NA28 prefers \"every soul,\" which agrees with 1 Enoch's own wording (\"all flesh\") and is the less repetitive reading; the SBLGNT prefers the reading of most manuscripts, which keeps Jude's four-fold \"ungodly.\"",
+  "b": "The difference is small in meaning: either the Lord convicts everyone, or he convicts all the ungodly. It is a good example of how carefully editors weigh a few very old manuscripts against many slightly younger ones."
+ },
+ {
+  "v": "1:22",
+  "a": "Have mercy on some, those who waver.",
+  "t": "Verses 22–23: two groups or three?",
+  "p": "Goes with the next manuscript note on verse 23. Manuscripts give two groups, three, or different verbs.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and others; NA28, SBLGNT (three groups)",
+    "orig": "καὶ οὓς μὲν ἐλεᾶτε διακρινομένους",
+    "en": "and have mercy on some who waver",
+    "plain": "Have mercy on some, those who waver."
+   },
+   {
+    "w": "Codex Alexandrinus and others; Tyndale House GNT, Tregelles (three groups)",
+    "orig": "καὶ οὓς μὲν ἐλέγχετε διακρινομένους",
+    "en": "and correct some who waver",
+    "plain": "Correct some, those who waver."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"of some have compassion, making a difference\")",
+    "orig": "καὶ οὓς μὲν ἐλεεῖτε διακρινόμενοι",
+    "en": "and have mercy on some, making a distinction",
+    "plain": "Have mercy on some, making a distinction."
+   },
+   {
+    "w": "Papyrus 72 (about AD 300), short form (two groups)",
+    "orig": "οὓς μὲν ἐκ πυρὸς ἁρπάσατε",
+    "en": "snatch some from the fire",
+    "plain": "Grab some out of the fire."
+   }
+  ],
+  "follow": 0,
+  "why": "The three-part text has strong, early support, and it fits Jude's love of threes (three warnings in 1:5–7, three sinners in 1:11). Repeating \"have mercy\" twice is awkward, which may be why copyists shortened or changed it. The Plain English follows the SBLGNT and NA28. Switch verse 23 to the matching reading as well.",
+  "b": "Codex Vaticanus has yet another two-part form, and Douglas Moo counts at least six forms in all. Richard Bauckham argues for a two-clause text like Papyrus 72's, which he translates \"Snatch some from the fire; but on those who dispute have mercy with fear.\" Alexandrinus's \"correct\" (<i>elenchete</i>) avoids the double \"have mercy\" and echoes Enoch's \"convict\" (the same verb, Jude 15).",
+  "s": [
+   "metzger",
+   "bauckham-jude",
+   "moo-jude",
+   "wasserman-jude"
+  ]
+ },
+ {
+  "v": "1:23",
+  "a": "Rescue others: grab them out of the fire. On still others have mercy, but with fear,",
+  "t": "Verse 23 in the different forms",
+  "p": "Goes with the manuscript note on verse 22: is \"with fear\" about rescuing, or about mercy for a third group?",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus and others; NA28, SBLGNT (three groups)",
+    "orig": "οὓς δὲ σῴζετε ἐκ πυρὸς ἁρπάζοντες, οὓς δὲ ἐλεᾶτε ἐν φόβῳ",
+    "en": "save others, snatching them from fire; on others have mercy with fear",
+    "plain": "Rescue others: grab them out of the fire. On still others have mercy, but with fear,"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"and others save with fear, pulling them out of the fire\")",
+    "orig": "οὓς δὲ ἐν φόβῳ σῴζετε ἐκ τοῦ πυρὸς ἁρπάζοντες",
+    "en": "others save with fear, snatching them from the fire",
+    "plain": "Rescue others with fear: grab them out of the fire,"
+   },
+   {
+    "w": "Papyrus 72 (about AD 300), short form (two groups)",
+    "orig": "διακρινομένους δὲ ἐλεεῖτε ἐν φόβῳ",
+    "en": "but on those who waver have mercy with fear",
+    "plain": "But on those who waver have mercy, with fear,"
+   }
+  ],
+  "follow": 0,
+  "why": "See the note on verse 22: the Plain English follows the three-group text of the SBLGNT and NA28.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "only God",
+  "t": "\"The only wise God\"",
+  "p": "The KJV's \"only wise God\" adds \"wise,\" probably from Romans 16:27.",
+  "readings": [
+   {
+    "w": "Papyrus 72, Codex Sinaiticus, Vaticanus, Alexandrinus; NA28, SBLGNT",
+    "orig": "μόνῳ θεῷ",
+    "en": "the only God",
+    "plain": "only God"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "μόνῳ σοφῷ θεῷ",
+    "en": "the only wise God",
+    "plain": "only wise God"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts lack \"wise.\" Copyists likely added it from the similar doxology in Romans 16:27, \"to the only wise God,\" which they knew well.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "through Jesus Christ our Lord, ",
+  "t": "\"Through Jesus Christ our Lord\"",
+  "p": "The oldest manuscripts give glory to God \"through Jesus Christ.\" The Byzantine text and KJV lack it.",
+  "readings": [
+   {
+    "w": "Papyrus 72, Codex Sinaiticus, Vaticanus, Alexandrinus; NA28, SBLGNT",
+    "orig": "διὰ Ἰησοῦ Χριστοῦ τοῦ κυρίου ἡμῶν",
+    "en": "through Jesus Christ our Lord",
+    "plain": "through Jesus Christ our Lord, "
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase has the oldest support. Some suggest later copyists dropped it because giving glory \"through\" Jesus seemed to make him less than God, an issue in the debates of the 300s.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "before every age, ",
+  "t": "\"Before every age\"",
+  "p": "The oldest manuscripts praise God's glory \"before every age\" too. The KJV has only \"now and ever.\"",
+  "readings": [
+   {
+    "w": "Papyrus 72, Codex Sinaiticus, Vaticanus, Alexandrinus; NA28, SBLGNT",
+    "orig": "πρὸ παντὸς τοῦ αἰῶνος",
+    "en": "before all the age",
+    "plain": "before every age, "
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase has the oldest support, and it is unusual: doxologies normally look only forward (\"now and forever\"), so copyists would be more likely to drop it than to add it.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

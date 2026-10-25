@@ -1,0 +1,637 @@
+[
+ {
+  "v": "145:13",
+  "a": "God is faithful in his words and loyal in all his works.",
+  "t": "The missing nun line",
+  "p": "The Masoretic Text has no nun verse. A Qumran scroll, the Greek and later witnesses supply one, and the Plain prints it.",
+  "readings": [
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (with Kyrios, \"the Lord\", for \"God\", and \"holy\" for \"loyal\"); Jerome's Gallican Psalter (fidelis Dominus in omnibus verbis suis et sanctus in omnibus operibus suis); one medieval Hebrew manuscript, Kennicott 142, where the line is added at the foot of the page, and the Syriac (both as reported in BHS); the Hebrew column of Cambridge University Library MS Or. 929, a psalter in Hebrew, Greek, Syriac and Arabic copied by one scribe, probably in the fourteenth century (Cambridge catalogue), whose Greek and Syriac columns also have the line (Source Library transcription, with the first letters damaged: נאמן יהוה בכל דבריו וחסיד בכל מעשיו)",
+    "orig": "נאמן אלוהים בדבריו וחסיד בכול מעשיו",
+    "en": "God is faithful in his words and loyal in all his works",
+    "plain": "God is faithful in his words and loyal in all his works."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) and the other medieval Hebrew manuscripts; the Targum; Jerome's Psalter from the Hebrew",
+    "orig": "(no verse between מ and ס)",
+    "en": "(no line)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The case for the line: Psalm 145 is an alphabet poem in which every other letter has its line, and the line stands in a Hebrew scroll a thousand years older than the Leningrad Codex and in the Greek, which was translated from a Hebrew text independent of the scroll. The case against it: the Great Psalms Scroll is expansionist in this very psalm. It adds a refrain after every verse, retitles the psalm \"A prayer\" (145:0), changes \"who love him\" to \"who fear him\" (145:20), and adds words at 146:9 and 149:9. The line's second half repeats 145:17b, as a filler composed to complete the alphabet might. The witnesses also word it differently: \"God ... in his words\" (the scroll), \"the Lord ... in his words ... holy\" (the Greek), \"the LORD ... in all his words\" (Or. 929), which may mean it was supplied more than once. The medieval Hebrew support is slight: Kennicott 142 adds it as a correction, and Or. 929's Hebrew column was copied beside Greek and Syriac columns that have the line, so it is not an independent witness to the Hebrew tradition. No copying slip that would explain its loss is obvious, and the Talmud treats the gap as deliberate (Berakhot 4b). On balance the Plain prints the line, as most modern versions do, in the wording of the scroll, the oldest Hebrew evidence. Readers who follow the Masoretic Text can leave it out; nothing else in the psalm depends on it.",
+  "s": [
+   "etcbc-dss",
+   "sanders-djd4",
+   "flint-dss-psalms",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "vulgate-weber",
+   "stec-targum-psalms",
+   "bhs-elliger",
+   "cambridge-quadrilingual-psalter",
+   "bavli-berakhot",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "145:0",
+  "a": "A praise of David.",
+  "t": "\"A praise\" or \"a prayer\"",
+  "p": "The Qumran scroll heads the psalm \"A prayer of David\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (ainesis); Targum",
+    "orig": "תְּהִלָּה לְדָוִד",
+    "en": "A praise of David",
+    "plain": "A praise of David."
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "תפלה לדויד",
+    "en": "A prayer of David",
+    "plain": "A prayer of David."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Greek agree on \"praise\", which suits a psalm of pure praise and the book's Hebrew name, Tehillim. \"Prayer\" may come from the scroll's use of the psalm with a refrain, as a liturgy.",
+  "s": [
+   "etcbc-dss",
+   "sanders-djd4",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "145:5",
+  "a": "On the splendor and glory of your majesty",
+  "t": "\"I will muse\" or \"they will speak\"",
+  "p": "The Qumran scroll and the Greek make the people speak of God's majesty; the Hebrew has the singer muse on it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; Jerome's Psalter from the Hebrew",
+    "orig": "הֲדַר כְּבוֹד הוֹדֶךָ וְדִבְרֵי נִפְלְאוֹתֶיךָ אָשִׂיחָה",
+    "en": "the splendor of the glory of your majesty and the words of your wonders I will muse on",
+    "plain": "On the splendor and glory of your majesty"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "הדר כבוד הודכה ידברו ונפלאותיכה אשיחה",
+    "en": "the splendor of the glory of your majesty they will speak, and your wonders I will muse on",
+    "plain": "Of the splendor and glory of your majesty they will speak"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus)",
+    "orig": "καὶ τὴν μεγαλοπρέπειαν τῆς δόξης τῆς ἁγιωσύνης σου λαλήσουσιν, καὶ τὰ θαυμάσιά σου διηγήσονται",
+    "en": "and they will speak of the splendor of the glory of your holiness, and they will tell of your wonders",
+    "plain": "Of the splendor and glory of your holiness they will speak"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is followed. The other readings give 145:5 the same pattern as 145:4, 6 and 7 (\"they\" speak, \"I\" tell), and may be right; but the change from \"words of\" to \"they will speak\" is the kind of smoothing a copyist makes.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "145:20",
+  "a": "everyone who loves him",
+  "t": "\"Who love him\" or \"who fear him\"",
+  "p": "The Qumran scroll reads \"who fear him\", as in 145:19.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (tous agapōntas auton); Targum",
+    "orig": "אֶת־כָּל־אֹהֲבָיו",
+    "en": "all who love him",
+    "plain": "everyone who loves him"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "את כול יראיו",
+    "en": "all who fear him",
+    "plain": "everyone who fears him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Greek agree. The scroll probably repeated \"those who fear him\" from the line before (145:19).",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "144:2",
+  "a": "who beats down peoples beneath me",
+  "t": "\"Peoples\" or \"my people\"",
+  "p": "The Leningrad Codex reads \"my people\"; Qumran, many manuscripts and the parallel in 2 Samuel 22 point to \"peoples\".",
+  "readings": [
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD); many medieval Hebrew manuscripts and the Syriac (as reported in BHS); Jerome's Psalter from the Hebrew (populos); Targum (עממין); the Masoretic note on the verse, which lists it among the places that read 'ammi but mean 'ammim (as Rashi reports)",
+    "orig": "הרודד עמים תחתי",
+    "en": "who beats down peoples beneath me",
+    "plain": "who beats down peoples beneath me"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (ton laon mou); Gallican Psalter",
+    "orig": "הָרוֹדֵד עַמִּי תַחְתָּי",
+    "en": "who beats down my people beneath me",
+    "plain": "who beats down my people beneath me"
+   }
+  ],
+  "follow": 0,
+  "why": "Psalm 18:47 has God \"who brings nations down beneath me\" (2 Samuel 22:48 \"who lays nations low beneath me\"), and this psalm is about victory over foreign enemies (144:7, 11). The Masoretic tradition itself notes the word as meaning \"peoples\". Those who keep \"my people\" read it of God making the king's own subjects obedient to him, as 18:43 speaks of the feuds of the king's own people; that is possible, but it fits the foreign enemies of this psalm less well.",
+  "s": [
+   "etcbc-dss",
+   "jerome-psalters",
+   "stec-targum-psalms",
+   "rashi-psalms",
+   "swete-ot-vol2",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "139:14",
+  "a": "for I am a wonder, made in awesome ways",
+  "t": "\"I am made in awesome ways\" or \"you are awesome\"",
+  "p": "The Hebrew speaks of the singer as awesomely made; the Qumran scroll and the Greek of God's awesome wonder.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַל כִּי נוֹרָאוֹת נִפְלֵיתִי",
+    "en": "because awesomely I have been made wonderful",
+    "plain": "for I am a wonder, made in awesome ways"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "על כי נורא אתה נפלאות",
+    "en": "because you are awesome, (doing) wonders",
+    "plain": "for you are awesome in your wonders"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus); Jerome's Psalter from the Hebrew (magnificasti me, \"you made me great\")",
+    "orig": "ὅτι φοβερῶς ἐθαυμαστώθης",
+    "en": "for you were awesomely made wonderful (that is, shown to be wonderful)",
+    "plain": "for you have shown yourself awesome and wonderful"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is followed. Its reading is the harder one and fits the subject of 139:13–16, the body formed in the womb. The scroll and the Greek turn the praise to God himself, which a copyist may have found more fitting. Jerome's \"you made me great\" read the verb as second person with \"me\".",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "139:16",
+  "a": "when not one of them had yet come",
+  "t": "\"Not one of them\" or \"one of them was his\"",
+  "p": "The written Hebrew has \"not\" (lo'); the reading tradition has \"to him\" (lo), which the Qumran scroll also has.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (kai oudeis en autois, \"and no one among them\"); Targum (\"and there is not one among them\")",
+    "orig": "וְלֹא אֶחָד בָּהֶם",
+    "en": "and not one among them (yet)",
+    "plain": "when not one of them had yet come"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere); Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (ולו באחד מהמה); many medieval Hebrew manuscripts (as reported)",
+    "orig": "וְלוֹ אֶחָד בָּהֶם",
+    "en": "and for him (or for it) one among them",
+    "plain": "and one of them was his"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound alike in Hebrew. The written text, supported by the Greek, gives a clear sense: the days were planned before any of them came. The Qere is hard to construe (\"and to him [belonged] one of them\"), though some read it \"and for it [the body] one of them [was set]\" or link it with the Qumran wording. Rashi follows the Qere.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "rashi-psalms",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "141:5",
+  "a": "it is oil on my head",
+  "t": "\"Oil on the head\", \"oil of the wicked\" or \"oil of bitterness\"",
+  "p": "The Hebrew has \"oil of the head\". The Greek read \"oil of a sinner\" and Jerome \"oil of bitterness\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (שמן רואש); Targum (\"the oil of holy anointing will not cease from my head\")",
+    "orig": "שֶׁמֶן רֹאשׁ אַל־יָנִי רֹאשִׁי",
+    "en": "oil of the head, let my head not refuse it",
+    "plain": "it is oil on my head"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus); Gallican Psalter (oleum autem peccatoris)",
+    "orig": "ἔλαιον δὲ ἁμαρτωλοῦ μὴ λιπανάτω τὴν κεφαλήν μου",
+    "en": "but let not the oil of a sinner anoint my head",
+    "plain": "let not the oil of the wicked anoint my head"
+   },
+   {
+    "w": "Jerome's Psalter from the Hebrew (oleum amaritudinis)",
+    "orig": "oleum amaritudinis non inpinguet caput meum",
+    "en": "let not the oil of bitterness make my head fat",
+    "plain": "let not the oil of bitterness anoint my head"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Qumran scroll agree. The Greek seems to have read rasha', \"wicked\", for rosh, \"head\", linking the line to the feast of evildoers in 141:4; Jerome took rosh in its other sense, \"poison, bitterness\". The Hebrew makes good sense: a friend's rebuke is as welcome as oil poured on a guest's head (23:5; Proverbs 27:6).",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "vulgate-weber",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "147:20",
+  "a": "they have not known them",
+  "t": "\"They have not known them\" or \"he has not made them known\"",
+  "p": "The Greek and the Qumran scroll read \"he did not make them known to them\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (et iudicia eius non cognoscent, \"they will not know his rulings\")",
+    "orig": "וּמִשְׁפָּטִים בַּל־יְדָעוּם",
+    "en": "and rulings, they have not known them",
+    "plain": "they have not known them"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (משפטים בל הודיעם); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (kai ta krimata autou ouk edēlōsen autois); Gallican Psalter (et iudicia sua non manifestavit eis); Targum (ודינין לא הודעינון)",
+    "orig": "משפטים בל הודיעם",
+    "en": "and rulings he did not make known to them",
+    "plain": "he has not made them known to them"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is a single letter or two in the Hebrew verb. The Masoretic Text is followed, but the other reading is old and is shared by the Targum, and makes the parallel with 147:19 (\"He tells his words to Jacob\") tighter; the sense is nearly the same.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "149:9",
+  "a": "This is the glory of all his loyal ones.",
+  "t": "A Qumran addition",
+  "p": "The Qumran scroll adds \"for the children of Israel, his holy people\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus)",
+    "orig": "הָדָר הוּא לְכָל־חֲסִידָיו",
+    "en": "it is the glory of all his loyal ones",
+    "plain": "This is the glory of all his loyal ones."
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "הדר הוא לכול חסידיו לבני ישראל עם קודשו",
+    "en": "it is the glory of all his loyal ones, of the children of Israel, his holy people",
+    "plain": "This is the glory of all his loyal ones, / of the children of Israel, his holy people."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words look like an explanation of \"his loyal ones\", drawn from 148:14 (\"the children of Israel, a people near to him\"). The shorter text is followed.",
+  "s": [
+   "etcbc-dss",
+   "sanders-djd4",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "150:6",
+  "a": "Let every breathing thing praise Yah!",
+  "t": "\"Every breath\" or \"all breaths\"",
+  "p": "The Qumran scroll has the plural, \"all the breaths\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (pasa pnoē)",
+    "orig": "כֹּל הַנְּשָׁמָה תְּהַלֵּל יָהּ",
+    "en": "all the breath, let it praise Yah",
+    "plain": "Let every breathing thing praise Yah!"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "כול הנשמות תהלל יה",
+    "en": "all the breaths, let it praise Yah",
+    "plain": "Let all breathing things praise Yah!"
+   }
+  ],
+  "follow": 0,
+  "why": "The meaning is the same. The singular is followed, with the Masoretic Text and the Greek; the scroll's verb is still singular, which suggests its plural noun is secondary. The Masada Psalms scroll (MasPs-b) is broken at this word, so it cannot decide the question.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "146:9",
+  "a": "but he bends the road of the wicked out of shape",
+  "t": "A Qumran addition after 146:9",
+  "p": "The Qumran scroll adds a damaged line of praise after 146:9.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus)",
+    "orig": "וְדֶרֶךְ רְשָׁעִים יְעַוֵּת",
+    "en": "and the way of the wicked he twists",
+    "plain": "but he bends the road of the wicked out of shape"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (partly lost; only some words can be read)",
+    "orig": "ודרך רשעים יעות … מיהוה כול הארץ … בהודעו לכול מעשיו … גבורותיו",
+    "en": "and the way of the wicked he twists ... the LORD, all the earth ... when he made known to all his works ... his mighty deeds",
+    "plain": "but he bends the road of the wicked out of shape. (Let) all the earth (fear) the LORD … when he made his mighty deeds known to all his works"
+   }
+  ],
+  "follow": 0,
+  "why": "The extra words are known only from this damaged scroll, and what can be read echoes 33:8 and 145:12. The words in brackets in the Qumran reading's Plain are a guess at the gaps; the Masoretic Text is followed.",
+  "s": [
+   "etcbc-dss",
+   "sanders-djd4"
+  ]
+ },
+ {
+  "v": "138:2",
+  "a": "for you have made your word great",
+  "t": "\"Your word above your name\" or \"your holy name above all\"",
+  "p": "The Hebrew says God made his word greater than his name; the Greek says he made his holy name great over everything.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (the same words in the same order); Targum",
+    "orig": "כִּי־הִגְדַּלְתָּ עַל־כָּל־שִׁמְךָ אִמְרָתֶךָ",
+    "en": "for you have made great, above all your name, your word",
+    "plain": "for you have made your word great"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus)",
+    "orig": "ὅτι ἐμεγάλυνας ἐπὶ πᾶν ὄνομα τὸ ἅγιόν σου",
+    "en": "for you have magnified your holy name over everything",
+    "plain": "for you have made your holy name great over everything"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is hard but attested in both the Masoretic Text and the Qumran scroll. It probably means that God's latest promise, now kept, surpasses all that his name was known for. The Greek has no word for \"word\" and makes the line simpler.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "stec-targum-psalms",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "138:1",
+  "a": "I will thank you with all my heart",
+  "t": "\"I will thank you\" or \"I will thank you, LORD\"",
+  "p": "The Qumran scroll and the Greek add the divine name, and the Greek adds a line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew",
+    "orig": "אוֹדְךָ בְכָל־לִבִּי",
+    "en": "I will thank you with all my heart",
+    "plain": "I will thank you with all my heart"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD) (with \"LORD\" also written above the line before \"gods\": נגד {{יהוה}} אלוהים); the Targum (אודי קדמך ייי, \"I will give thanks before you, LORD\")",
+    "orig": "אודכה יהוה בכול לבי",
+    "en": "I will thank you, LORD, with all my heart",
+    "plain": "I will thank you, LORD, with all my heart"
+   },
+   {
+    "w": "Codex Vaticanus of the Septuagint (300s AD, as printed by Swete); Codex Sinaiticus as corrected and other copies in Swete's apparatus, some placing the added line after \"angels\"; Jerome's Gallican Psalter (confitebor tibi Domine ... quoniam audisti verba oris mei); Codex Alexandrinus lacks the added line",
+    "orig": "Ἐξομολογήσομαί σοι, Κύριε, ἐν ὅλῃ καρδίᾳ μου, ὅτι ἤκουσας τὰ ῥήματα τοῦ στόματός μου",
+    "en": "I will thank you, Lord, with all my whole heart, for you have heard the words of my mouth",
+    "plain": "I will thank you, LORD, with all my heart, for you have heard the words of my mouth"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Masoretic Text is followed. Adding the divine name to an address is a common scribal expansion, and the Greek's extra line seems drawn from 138:4 (\"what your mouth has said\").",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "141:7",
+  "a": "so our bones have been strewn at the mouth of Sheol",
+  "t": "\"Our bones\", \"my bones\" or \"their bones\"",
+  "p": "The Hebrew has \"our bones\"; the Qumran scroll \"my bones\"; many Greek copies \"their bones\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Vaticanus of the Septuagint (300s AD, as printed by Swete), first hand; both of Jerome's Psalters (ossa nostra)",
+    "orig": "נִפְזְרוּ עֲצָמֵינוּ לְפִי שְׁאוֹל",
+    "en": "our bones have been scattered at the mouth of Sheol",
+    "plain": "so our bones have been strewn at the mouth of Sheol"
+   },
+   {
+    "w": "Great Psalms Scroll from Qumran, 11QPs-a (11Q5, first century AD)",
+    "orig": "נפזרו עצמי לפי שאול",
+    "en": "my bones have been scattered at the mouth of Sheol",
+    "plain": "so my bones have been strewn at the mouth of Sheol"
+   },
+   {
+    "w": "A corrector of Codex Vaticanus, the correctors of Sinaiticus and Alexandrinus, the Verona Psalter and the Zurich Psalter (Swete's apparatus)",
+    "orig": "διεσκορπίσθη τὰ ὀστᾶ αὐτῶν",
+    "en": "their bones were scattered",
+    "plain": "so their bones have been strewn at the mouth of Sheol"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is followed, with the first hand of Vaticanus and the Latin. \"Their bones\" would make the line the fate of the judges of 141:6, and many modern scholars prefer it; but it may itself be a correction made to smooth the hard change of speaker. \"My bones\" fits the scroll's habit of making the prayer individual.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "143:9",
+  "a": "I have hidden myself in you",
+  "t": "\"I have hidden myself\" or \"I have fled for refuge\"",
+  "p": "The Hebrew kissiti, \"I have covered\", is odd; the Greek has \"I fled for refuge\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (a te protectus sum)",
+    "orig": "אֵלֶיךָ כִסִּתִי",
+    "en": "to you I have covered (myself)",
+    "plain": "I have hidden myself in you"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus) (katephygon; other copies katephyga); Jerome's Gallican Psalter (ad te confugi)",
+    "orig": "πρὸς σὲ κατέφυγον",
+    "en": "to you I fled for refuge",
+    "plain": "I have fled to you for shelter"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is followed, as the harder reading, which Rashi explains as hiding one's troubles from everyone but God. The Greek may have read chasiti, \"I take shelter\", the usual phrase (7:1; 141:8), which many scholars prefer.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "rashi-psalms"
+  ]
+ },
+ {
+  "v": "147:8",
+  "a": "he makes the mountains sprout grass",
+  "t": "A Greek addition from Psalm 104",
+  "p": "The Greek adds \"and green plants for the service of human beings\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; Jerome's Psalter from the Hebrew",
+    "orig": "הַמַּצְמִיחַ הָרִים חָצִיר",
+    "en": "who makes the mountains sprout grass",
+    "plain": "he makes the mountains sprout grass"
+   },
+   {
+    "w": "Codex Vaticanus of the Septuagint (300s AD, as printed by Swete); Jerome's Gallican Psalter (et herbam servituti hominum)",
+    "orig": "τῷ ἐξανατέλλοντι ἐν ὄρεσι χόρτον καὶ χλόην τῇ δουλείᾳ τῶν ἀνθρώπων",
+    "en": "who makes grass sprout on the mountains, and green plants for the service of human beings",
+    "plain": "he makes the mountains sprout grass, and green plants for people to use"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words come from 104:14 (\"plants for people to tend\"), and were probably brought in from there. The shorter Hebrew is followed.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "145:12",
+  "a": "to make his mighty deeds known to human beings",
+  "t": "\"His mighty deeds\" or \"your mighty deeds\"",
+  "p": "The Hebrew turns to \"his\"; the Greek keeps \"your\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; Jerome's Psalter from the Hebrew (fortitudines eius)",
+    "orig": "לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו",
+    "en": "to make known to human beings his mighty deeds",
+    "plain": "to make his mighty deeds known to human beings"
+   },
+   {
+    "w": "Codex Vaticanus of the Septuagint (300s AD, as printed by Swete); Jerome's Gallican Psalter (potentiam tuam ... regni tui)",
+    "orig": "τοῦ γνωρίσαι τοῖς υἱοῖς τῶν ἀνθρώπων τὴν δυναστείαν σου",
+    "en": "to make your power known to the sons of men",
+    "plain": "to make your mighty deeds known to human beings"
+   }
+  ],
+  "follow": 0,
+  "why": "The change of person is the harder reading and makes sense: the singer turns to the listening human beings. The Greek smooths it into the \"you\" of the verses around it, and also has \"your kingdom\" in the second line.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "139:0",
+  "a": "For the music director. Of David. A psalm.",
+  "t": "\"Of Zechariah\" in some Greek copies",
+  "p": "Codex Alexandrinus adds \"of Zechariah\", and later copies \"in the dispersion\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Vaticanus of the Septuagint (300s AD, as printed by Swete) (\"For the end. A psalm of David.\")",
+    "orig": "לַמְנַצֵּחַ לְדָוִד מִזְמוֹר",
+    "en": "For the music director. Of David. A psalm.",
+    "plain": "For the music director. Of David. A psalm."
+   },
+   {
+    "w": "Codex Alexandrinus adds \"of Zechariah\"; a later hand in its margin, and the Zurich Psalter, add \"in the dispersion\" (Swete's apparatus)",
+    "orig": "+ Ζαχαρίου (Alexandrinus); + ἐν τῇ διασπορᾷ (margin of Alexandrinus; Zurich Psalter)",
+    "en": "For the end. Of David. A psalm. Of Zechariah, in the dispersion.",
+    "plain": "For the music director. Of David. A psalm. Of Zechariah, in the dispersion."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is found only in some Greek copies, and seems to reflect a reading of the psalm as a prayer of the exiles.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "143:0",
+  "a": "A psalm of David.",
+  "t": "\"When his son was pursuing him\"",
+  "p": "The Greek title ties the psalm to Absalom's revolt.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (canticum David)",
+    "orig": "מִזְמוֹר לְדָוִד",
+    "en": "A psalm of David.",
+    "plain": "A psalm of David."
+   },
+   {
+    "w": "Codex Vaticanus of the Septuagint (300s AD, as printed by Swete); Jerome's Gallican Psalter (quando filius eum persequebatur)",
+    "orig": "Ψαλμὸς τῷ Δαυείδ, ὅτε αὐτὸν ὁ υἱὸς καταδιώκει",
+    "en": "A psalm of David, when his son pursues him.",
+    "plain": "A psalm of David, when his son was pursuing him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew title is followed. The Greek addition, like that of Psalm 3:0, links the psalm with 2 Samuel 15–17; it is an early reading of the psalm, not part of the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "144:0",
+  "a": "Of David.",
+  "t": "\"Against Goliath\"",
+  "p": "Most Greek copies add \"Against Goliath\"; Codex Alexandrinus does not.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Alexandrinus (Swete's apparatus); Jerome's Psalter from the Hebrew",
+    "orig": "לְדָוִד",
+    "en": "Of David.",
+    "plain": "Of David."
+   },
+   {
+    "w": "Codex Vaticanus of the Septuagint (300s AD, as printed by Swete); Jerome's Gallican Psalter (adversus Goliad)",
+    "orig": "Τῷ Δαυείδ, πρὸς τὸν Γολιάδ",
+    "en": "Of David, against Goliath.",
+    "plain": "Of David. Against Goliath."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew title is followed. The Greek addition probably came from 144:10 (\"the deadly sword\") and the battle of 1 Samuel 17.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "146:1",
+  "a": "Praise the LORD!",
+  "t": "\"Of Haggai and Zechariah\"",
+  "p": "The Greek heads Psalms 146, 147 (both halves) and 148 \"Hallelujah. Of Haggai and Zechariah\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַלְלוּ יָהּ",
+    "en": "Praise Yah!",
+    "plain": "Praise the LORD!"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, 300s AD, as printed by Swete, checked against the other codices in his apparatus); Jerome's Gallican Psalter (alleluia Aggei et Zacchariae, over 146 and 147:1–11)",
+    "orig": "Ἀλληλουιά· Ἀγγαίου καὶ Ζαχαρίου",
+    "en": "Hallelujah. Of Haggai and Zechariah.",
+    "plain": "Praise the LORD! Of Haggai and Zechariah."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no titles for Psalms 146–150; their hallelujahs are part of the psalms. The Greek moves the hallelujahs into headings and names the prophets of the rebuilt temple (Ezra 5:1), an early reading of these psalms as songs of the second temple. The same heading stands over 147:1, 147:12 and 148:1.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ }
+]

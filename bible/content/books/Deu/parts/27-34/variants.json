@@ -1,0 +1,504 @@
+[
+ {
+  "v": "27:4",
+  "a": "Mount Ebal",
+  "t": "Ebal or Gerizim?",
+  "p": "Where was the altar to be built? The Jewish text says Mount Ebal; the Samaritan text and an Old Latin witness say Mount Gerizim.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Septuagint (nearly all manuscripts); Latin Vulgate; the Targums; Syriac Peshitta",
+    "orig": "בְּהַר עֵיבָל",
+    "en": "on Mount Ebal",
+    "plain": "Mount Ebal"
+   },
+   {
+    "w": "Samaritan Pentateuch (an ancient text tradition, in medieval manuscripts); Old Latin (Codex Lugdunensis, about AD 500, \"in monte Garzin\"); Greek Papyrus Giessen 19 (5th–6th century, a Samaritan Greek text, \"Argarizin\"); a small unprovenanced fragment published in 2009, of doubtful authenticity",
+    "orig": "בהרגרזים",
+    "en": "on Mount Gerizim",
+    "plain": "Mount Gerizim"
+   }
+  ],
+  "follow": 0,
+  "why": "Almost every witness reads Ebal, and Joshua 8:30 (in both the Hebrew and the Greek) says Joshua built the altar on Mount Ebal. The Plain follows that evidence, but this is one of the most debated readings in the Torah, and many scholars now think Gerizim may be original (see below).",
+  "b": "<p>The Samaritans worship on Mount Gerizim, and their Torah reads \"Gerizim\" here, writing it as one word, <i>Hargerizim</i>. They also add a commandment after the Ten Commandments (Exodus 20, Deuteronomy 5) to build this altar on Gerizim, and they read \"the place the LORD <i>has chosen</i>\" rather than \"will choose\" (12:5). So the Samaritan reading could be a change made to support their holy mountain.</p><p>But the change could have gone the other way. Gerizim is the mountain of blessing (11:29; 27:12), a natural place for an altar and peace offerings, while Ebal is the mountain of the curse. A Jewish scribe in the centuries of conflict with the Samaritans (after their temple on Gerizim was built in the 5th or 4th century BC, as Yitzhak Magen's excavations suggest, and before John Hyrcanus destroyed it about 110 BC) might have changed Gerizim to Ebal. The Old Latin, translated from an early Greek text, reads \"Garzin,\" which shows that \"Gerizim\" was not only Samaritan. Emanuel Tov and others treat \"Gerizim\" as possibly original. The fragment published by James Charlesworth in 2009, and discussed at length in his 2015 study, also reads Gerizim, but like many unprovenanced \"Dead Sea\" fragments it may be a modern forgery. The debate shows how a single word could carry the quarrel between Jews and Samaritans over where God should be worshiped (John 4:20).</p>",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "pummer-samaritans",
+   "magen-gerizim",
+   "charlesworth-gerizim",
+   "charlesworth-vorlage"
+  ]
+ },
+ {
+  "v": "27:26",
+  "a": "anyone who does not make the words of this law stand by doing them",
+  "t": "\"All the words\"",
+  "p": "The Greek and Samaritan texts read \"all the words of this law.\" Paul quotes a form close to it in Galatians 3:10.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "אֲשֶׁר לֹא־יָקִים אֶת־דִּבְרֵי הַתּוֹרָה־הַזֹּאת",
+    "en": "who does not establish the words of this law",
+    "plain": "anyone who does not make the words of this law stand by doing them"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "אשר לא יקים את כל דברי התורה הזאת",
+    "en": "who does not establish all the words of this law",
+    "plain": "anyone who does not make all the words of this law stand by doing them"
+   },
+   {
+    "w": "Septuagint; quoted in a related form by Paul (Galatians 3:10)",
+    "orig": "πᾶς ἄνθρωπος ὅστις οὐκ ἐμμενεῖ ἐν πᾶσι τοῖς λόγοις τοῦ νόμου τούτου",
+    "en": "every person who does not abide by all the words of this law",
+    "plain": "everyone who does not hold fast to all the words of this law by doing them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading is shorter, and \"all\" is the kind of word scribes add to make a rule complete. The sense is little changed, since the curse already covers \"the words of this law.\"",
+  "b": "<p>The difference matters for Galatians. Paul quotes a form close to the Greek, blending in the wording of 28:58 and 29:20: \"Cursed is everyone who does not keep to everything written in the book of the law and do it\" (Galatians 3:10). His argument that the law demands keeping \"everything\" uses the words \"every\" and \"all\" that the Greek supplies. The Hebrew says the same in substance, since the whole law is in view.</p>",
+  "s": [
+   "tigay-deut",
+   "wevers-deut",
+   "tal-samaritan"
+  ]
+ },
+ {
+  "v": "28:22",
+  "a": "the sword",
+  "t": "Sword or drought?",
+  "p": "The same Hebrew letters can be read \"sword\" or \"drought.\" The KJV has \"sword\"; most modern versions have \"drought.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930) (vowels of <i>cherev</i>); Septuagint (\"slaughter,\" <i>phonō</i>); Targum Onqelos; followed by KJV",
+    "orig": "וּבַחֶרֶב",
+    "en": "and with the sword",
+    "plain": "the sword"
+   },
+   {
+    "w": "The same consonants read as <i>chorev</i>; probably Jerome's Latin (<i>aestu</i>, \"heat\"); followed by NIV, ESV, BSB",
+    "orig": "וּבַחֹרֶב",
+    "en": "and with drought",
+    "plain": "drought"
+   }
+  ],
+  "follow": 0,
+  "why": "The list names diseases of people and of crops, so \"drought\" fits beside \"scorching heat\" and \"blight.\" But the Masoretic vowels and the oldest translation, the Greek, both read \"sword,\" and the curses elsewhere join disease with violence (Leviticus 26:25). The Plain follows the old witnesses. Either way, disease, heat and violence chase the people \"until you perish.\"",
+  "s": [
+   "tigay-deut",
+   "wevers-deut"
+  ]
+ },
+ {
+  "v": "28:30",
+  "a": "another man will force her",
+  "t": "Written and read",
+  "p": "The written Hebrew says another man will rape her. The traditional reading aloud softens it to \"sleep with her.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, as written (ketiv)",
+    "orig": "יִשְׁגָּלֶנָּה",
+    "en": "he will ravish her",
+    "plain": "another man will force her"
+   },
+   {
+    "w": "Masoretic Text, as read aloud (qere); followed by the KJV",
+    "orig": "יִשְׁכָּבֶנָּה",
+    "en": "he will lie with her",
+    "plain": "another man will sleep with her"
+   }
+  ],
+  "follow": 0,
+  "why": "The written word, <i>shagal</i>, is the original text; it means sexual violation (Isaiah 13:16; Zechariah 14:2). The reading aloud replaces it with a milder word, as the rabbis did for words they thought too crude for public reading (Talmud Megillah 25b).",
+  "s": [
+   "bavli-megillah",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "30:16",
+  "a": "What I command you today is to love the LORD your God, to walk in his ways and to keep his commands, his rules and his rulings.",
+  "t": "\"If you listen to the commands\"",
+  "p": "The Greek begins: \"If you listen to the commands of the LORD your God.\" The Hebrew lacks the \"if\" clause.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Latin Vulgate; Targum Onqelos; followed by KJV, NJPS, BSB",
+    "orig": "אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם לְאַהֲבָה אֶת־יְהוָה אֱלֹהֶיךָ",
+    "en": "in that I command you today to love the LORD your God",
+    "plain": "What I command you today is to love the LORD your God, to walk in his ways and to keep his commands, his rules and his rulings."
+   },
+   {
+    "w": "Septuagint; followed by NRSV and ESV",
+    "orig": "ἐὰν δὲ εἰσακούσῃς τὰς ἐντολὰς κυρίου τοῦ θεοῦ σου ἃς ἐγὼ ἐντέλλομαί σοι σήμερον",
+    "en": "if you listen to the commands of the Lord your God which I command you today",
+    "plain": "If you listen to the commands of the LORD your God that I command you today, to love the LORD your God, to walk in his ways and to keep his commands, his rules and his rulings,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Hebrew text. The Greek gives a smoother \"if ... then\" sentence that balances 30:17 (\"But if your heart turns away\"), and many scholars think a Hebrew scribe lost the clause. But the Hebrew makes good sense on its own, and a translator could also have added the clause to complete the pattern.",
+  "s": [
+   "tigay-deut",
+   "wevers-deut"
+  ]
+ },
+ {
+  "v": "31:1",
+  "a": "Moses went and spoke these words to all Israel.",
+  "t": "\"Went\" or \"finished\"?",
+  "p": "The Hebrew says Moses \"went and spoke.\" A Qumran scroll and the Greek say he \"finished speaking.\" The two verbs use the same letters.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch; Targum Onqelos",
+    "orig": "וַיֵּלֶךְ מֹשֶׁה וַיְדַבֵּר",
+    "en": "and Moses went and spoke",
+    "plain": "Moses went and spoke these words to all Israel."
+   },
+   {
+    "w": "Dead Sea Scroll 1QDeut-b (1Q5, 1st century BC); Septuagint; followed by NRSV, BSB",
+    "orig": "וַיְכַל מֹשֶׁה לְדַבֵּר",
+    "en": "and Moses finished speaking",
+    "plain": "Moses finished speaking all these words to all Israel."
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Vayyelekh</i>, \"and he went,\" and <i>vaykhal</i>, \"and he finished,\" are spelled with the same three Hebrew letters in a different order (וילך / ויכל), so one is a copying slip of the other. \"Finished speaking\" matches 32:45 and fits better after a long speech, and many scholars prefer it. The Plain keeps the Masoretic \"went,\" which names the Torah portion Vayelech and can mean simply that Moses went on to speak.",
+  "s": [
+   "abegg-dssb",
+   "tov-tchb",
+   "tigay-deut"
+  ]
+ },
+ {
+  "v": "32:8",
+  "a": "the sons of God",
+  "t": "Sons of God or sons of Israel?",
+  "p": "A Dead Sea Scroll reads \"sons of God,\" the Greek \"angels of God,\" and the Masoretic Text \"sons of Israel.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-j (late 1st century BC); a few Greek manuscripts and the Göttingen critical edition of the Septuagint (\"sons of God\"); followed by NRSV, ESV, BSB, NET",
+    "orig": "בני אלוהים",
+    "en": "the sons of God",
+    "plain": "the sons of God"
+   },
+   {
+    "w": "Septuagint (most manuscripts)",
+    "orig": "ἀγγέλων θεοῦ",
+    "en": "the angels of God",
+    "plain": "the angels of God"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch; Latin Vulgate; Targum Onqelos; Syriac Peshitta; followed by KJV, NIV",
+    "orig": "בְּנֵי יִשְׂרָאֵל",
+    "en": "the sons of Israel",
+    "plain": "the sons of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest Hebrew witness reads \"sons of God,\" and the Greek \"angels of God\" is a translation of that reading, so it goes back to a Hebrew text older than the Masoretic. \"Sons of Israel\" is easily explained as a deliberate change by scribes who did not want the verse to sound as if other gods ruled the nations. The opposite change is hard to explain. Most textual critics, including Emanuel Tov, follow the scroll.",
+  "b": "<p>Patrick Skehan drew attention to the Qumran reading \"sons of God\" in the 1950s (the fragment, 4QDeut-j, was fully published in 1995). The Masoretic reading \"sons of Israel\" was understood by the rabbis to mean the seventy people of Jacob's family who went down to Egypt (Genesis 46:27), matching the seventy nations of Genesis 10 (so Rashi). Targum Pseudo-Jonathan combines both ideas: God cast lots with the seventy angels who lead the seventy nations, \"according to the number of the seventy souls of Israel.\"</p><p>With \"sons of God,\" the verse fits 4:19 and 29:26: the Most High gave the nations their portions under heavenly beings, but kept Israel for himself (32:9). The same picture lies behind Daniel's angelic \"princes\" of Persia and Greece (Daniel 10:13, 20), Sirach 17:17 and Psalm 82, where God judges the \"gods\" who misrule the nations. Michael Heiser and others have made the verse central to a \"divine council\" reading of the Old Testament. Readers who prefer \"sons of Israel\" note that Israel is the subject of the poem and that \"sons of God\" can also mean angels who serve God (Job 1:6).</p>",
+  "s": [
+   "abegg-dssb",
+   "djd14-deut",
+   "skehan-song",
+   "tov-tchb",
+   "heiser-deut32",
+   "wevers-deut",
+   "targum-psj-deut",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "32:15",
+  "a": "Jeshurun grew fat, and he kicked;",
+  "t": "\"Jacob ate and was full\"",
+  "p": "The Samaritan and Greek texts begin the verse with an extra line: \"Jacob ate and was full.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Targum Onqelos; Latin Vulgate",
+    "orig": "וַיִּשְׁמַן יְשֻׁרוּן וַיִּבְעָט",
+    "en": "and Jeshurun grew fat and kicked",
+    "plain": "Jeshurun grew fat, and he kicked;"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; followed by NRSV",
+    "orig": "ויאכל יעקב וישבע וישמן ישרון ויבעט",
+    "en": "and Jacob ate and was full, and Jeshurun grew fat and kicked",
+    "plain": "Jacob ate and was full; / Jeshurun grew fat, and he kicked;"
+   }
+  ],
+  "follow": 0,
+  "why": "The extra line fills out a pair of lines, which the poem usually has, and may be original; a scribe could have skipped it. But it also echoes 31:20 (\"they will eat their fill and grow fat\") and 8:10, and could have been added from there. The Plain keeps the Masoretic text.",
+  "s": [
+   "tigay-deut",
+   "wevers-deut",
+   "tal-samaritan"
+  ]
+ },
+ {
+  "v": "32:43",
+  "a": "Shout for joy with him, you heavens",
+  "t": "Heavens or nations? (32:43, 1 of 5)",
+  "p": "The scroll and the Greek call the heavens to rejoice with God. The Masoretic calls the nations to rejoice with his people.",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-q (late 1st century BC); Septuagint",
+    "orig": "הרנינו שמים עמו",
+    "en": "rejoice, O heavens, with him",
+    "plain": "Shout for joy with him, you heavens"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch; followed by KJV, NIV",
+    "orig": "הַרְנִינוּ גוֹיִם עַמּוֹ",
+    "en": "rejoice, O nations, (with) his people",
+    "plain": "Shout for joy, you nations, with his people"
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 32:43 differs more than any other verse in the Song. The Masoretic Text has four lines; the Dead Sea Scroll 4QDeut-q has six; the Septuagint has eight. This is one of five entries on 32:43; they go together. The Plain follows the oldest Hebrew witness, 4QDeut-q, which agrees with the Greek in this line. The Masoretic line \"nations ... his people\" is also kept in the Greek as its third line, and Paul quotes it: \"Rejoice, you Gentiles, with his people\" (Romans 15:10).",
+  "s": [
+   "abegg-dssb",
+   "skehan-song",
+   "djd14-deut",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "32:43",
+  "a": "and all you gods, bow down to him!",
+  "t": "\"Bow down to him, all you gods\" (32:43, 2 of 5)",
+  "p": "The scroll has a line calling the gods to worship God. The Greek has \"sons of God\" and \"angels of God.\" The Masoretic lacks it.",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-q (late 1st century BC)",
+    "orig": "והשתחוו לו כל אלהים",
+    "en": "and bow down to him, all gods",
+    "plain": "and all you gods, bow down to him!"
+   },
+   {
+    "w": "Septuagint (Rahlfs); the Odes version of the Greek has \"angels\" in the first of these lines",
+    "orig": "καὶ προσκυνησάτωσαν αὐτῷ πάντες υἱοὶ θεοῦ ... εὐφράνθητε, ἔθνη, μετὰ τοῦ λαοῦ αὐτοῦ, καὶ ἐνισχυσάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ",
+    "en": "and let all the sons of God worship him; rejoice, O nations, with his people, and let all the angels of God be strong in him",
+    "plain": "and let all the sons of God bow down to him! / Shout for joy, you nations, with his people, / and let all the angels of God be strong in him!"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch; followed by KJV, NIV",
+    "orig": "(no words)",
+    "en": "(line absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 32:43 differs more than any other verse in the Song. The Masoretic Text has four lines; the Dead Sea Scroll 4QDeut-q has six; the Septuagint has eight. This is one of five entries on 32:43; they go together. Most scholars think the scroll keeps the earliest form and the Masoretic tradition dropped the line, because \"bow down, all you gods\" seemed to admit other gods, the same concern seen in 32:8. The Greek has the line with \"sons of God,\" plus the Masoretic line about the nations and a fourth line, which looks like a combination of two Hebrew forms.",
+  "b": "<p>Hebrews 1:6 quotes \"Let all God's angels worship him\" when God brings his firstborn into the world, applying the line to Christ. That wording matches the Greek of this verse as it appears in the Odes (a collection of biblical songs attached to Greek Psalters), and is close to Psalm 97:7 in Greek. So the line missing from the Masoretic Text was the Bible of the writer of Hebrews. Patrick Skehan published the 4QDeut-q fragment in 1954, and it was one of the first Qumran finds to show that the Septuagint often translated a real Hebrew text that differed from the later standard one.</p>",
+  "s": [
+   "skehan-song",
+   "abegg-dssb",
+   "djd14-deut",
+   "tov-tchb",
+   "attridge-hebrews",
+   "koester-hebrews"
+  ]
+ },
+ {
+  "v": "32:43",
+  "a": "He will avenge his sons' blood",
+  "t": "Sons or servants? (32:43, 3 of 5)",
+  "p": "The scroll and the Greek read \"his sons.\" The Masoretic reads \"his servants.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-q; Septuagint",
+    "orig": "כי דם בניו יקום",
+    "en": "for he avenges the blood of his sons",
+    "plain": "He will avenge his sons' blood"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch",
+    "orig": "כִּי דַם־עֲבָדָיו יִקּוֹם",
+    "en": "for he avenges the blood of his servants",
+    "plain": "He will avenge his servants' blood"
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 32:43 differs more than any other verse in the Song. The Masoretic Text has four lines; the Dead Sea Scroll 4QDeut-q has six; the Septuagint has eight. This is one of five entries on 32:43; they go together. \"Sons\" matches the Song's picture of Israel as God's children (32:5, 19–20) and is supported by both older witnesses. \"Servants\" matches 32:36 and 2 Kings 9:7. The meaning is close either way.",
+  "s": [
+   "abegg-dssb",
+   "djd14-deut"
+  ]
+ },
+ {
+  "v": "32:43",
+  "a": "He will pay back the ones who hate him",
+  "t": "An extra line (32:43, 4 of 5)",
+  "p": "The scroll and the Greek add \"and he repays those who hate him.\" The Masoretic lacks the line.",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-q; Septuagint",
+    "orig": "ולמשנאיו ישלם",
+    "en": "and those who hate him he repays",
+    "plain": "He will pay back the ones who hate him"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch",
+    "orig": "(no words)",
+    "en": "(line absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 32:43 differs more than any other verse in the Song. The Masoretic Text has four lines; the Dead Sea Scroll 4QDeut-q has six; the Septuagint has eight. This is one of five entries on 32:43; they go together. The line repeats 32:41 word for word (\"and pay back the ones who hate me\"), so it could be original or could have been copied from there. With it, the closing verse has a balanced set of paired lines.",
+  "s": [
+   "abegg-dssb",
+   "djd14-deut"
+  ]
+ },
+ {
+  "v": "32:43",
+  "a": "his people's land",
+  "t": "\"His land, his people\" (32:43, 5 of 5)",
+  "p": "The Masoretic reads \"his land, his people,\" which is hard grammar. The scroll, the Samaritan Pentateuch and the Greek read \"the land of his people.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-q; Samaritan Pentateuch (וכפר אדמת עמו, without the scroll's extra letter); Septuagint",
+    "orig": "ויכפר אדמת עמו",
+    "en": "and he makes atonement for the land of his people",
+    "plain": "his people's land"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וְכִפֶּר אַדְמָתוֹ עַמּוֹ",
+    "en": "and he makes atonement for his land, his people",
+    "plain": "his land, his people"
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 32:43 differs more than any other verse in the Song. The Masoretic Text has four lines; the Dead Sea Scroll 4QDeut-q has six; the Septuagint has eight. This is one of five entries on 32:43; they go together. The Masoretic \"his land, his people\" differs only by a single letter (<i>admato</i> for <i>admat</i>) and is awkward Hebrew. Here, unlike in the other four places, the Samaritan Pentateuch sides with the scroll and the Greek, and three witnesses against one make the reading secure. Shed blood pollutes a land, and God must make atonement for it (Numbers 35:33).",
+  "s": [
+   "abegg-dssb",
+   "djd14-deut",
+   "tigay-deut"
+  ]
+ },
+ {
+  "v": "32:44",
+  "a": "Hoshea son of Nun",
+  "t": "Hoshea or Joshua?",
+  "p": "The Hebrew uses Joshua's old name, Hoshea. The Samaritan, Greek and Latin texts read \"Joshua.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וְהוֹשֵׁעַ בִּן־נוּן",
+    "en": "and Hoshea son of Nun",
+    "plain": "Hoshea son of Nun"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; Latin Vulgate; Syriac Peshitta; followed by BSB",
+    "orig": "ויהושע בן נון",
+    "en": "and Joshua son of Nun",
+    "plain": "Joshua son of Nun"
+   }
+  ],
+  "follow": 0,
+  "why": "Moses renamed Hoshea \"Joshua\" in Numbers 13:16, so \"Hoshea\" here is unexpected, the harder reading, and scribes would more likely change it to the familiar name than the reverse. Rashi saw a lesson: though raised to leadership, Joshua stayed humble, the same man as before.",
+  "s": [
+   "rashi-torah",
+   "tigay-deut"
+  ]
+ },
+ {
+  "v": "33:2",
+  "a": "at his right hand was a fiery law for them",
+  "t": "\"A fiery law\"?",
+  "p": "The letters can be read \"fire of law,\" one unknown word, or something else. The Greek has \"angels at his right hand.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text as read (qere), two words; Targum Onqelos; Latin Vulgate (\"ignea lex\"); KJV",
+    "orig": "אֵשׁ דָּת",
+    "en": "fire of law",
+    "plain": "at his right hand was a fiery law for them"
+   },
+   {
+    "w": "Masoretic Text as written (ketiv), one word, read by many scholars as a fire word; compare NJPS \"lightning flashing,\" BSB \"flaming fire\"",
+    "orig": "אשדת",
+    "en": "(uncertain) fire flashing",
+    "plain": "at his right hand fire flashed for them"
+   },
+   {
+    "w": "The written one-word form compared with ashdot, \"slopes\" (3:17); followed by NIV",
+    "orig": "אשדת",
+    "en": "slopes",
+    "plain": "from the slopes at his right hand for them"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἐκ δεξιῶν αὐτοῦ ἄγγελοι μετ' αὐτοῦ",
+    "en": "at his right hand, angels with him",
+    "plain": "at his right hand were angels with him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the reading that Jewish tradition and the Masoretic scribes received, \"a fiery law,\" which links the verse to the giving of the Torah at Sinai in fire (4:11–12; 5:22). Many scholars doubt it, because <i>dat</i>, \"law,\" is a Persian word found otherwise only in late books (Esther, Ezra, Daniel), and the poem is old. They read the written word as a single term for fire or lightning, or emend it. The meaning is truly uncertain.",
+  "b": "<p>Rashi explains \"a fiery law\" by saying that the Torah was written before God \"in black fire on white fire.\" The Greek \"angels with him\" goes with its reading of the previous line (\"with myriads of Kadesh\") and fits the later belief that angels were present at Sinai (see the note on \"holy ones\").</p>",
+  "s": [
+   "tigay-deut",
+   "cross-freedman-poetry",
+   "rashi-torah",
+   "wevers-deut"
+  ]
+ },
+ {
+  "v": "33:8",
+  "a": "Give Levi your Thummim, and your Urim to your loyal one",
+  "t": "\"Give Levi your Thummim\"",
+  "p": "A Qumran scroll and the Greek begin Levi's blessing with \"Give Levi your Thummim.\" The Masoretic lacks \"Give Levi.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scroll 4QDeut-h (1st century BC); 4QTestimonia (4Q175), which quotes the verse; Septuagint (with \"his\" for \"your\"); followed by NRSV, ESV, BSB",
+    "orig": "הבו ללוי תמיך ואוריך לאיש חסידך",
+    "en": "give to Levi your Thummim, and your Urim to your loyal man",
+    "plain": "Give Levi your Thummim, and your Urim to your loyal one"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Samaritan Pentateuch; Targum Onqelos; followed by KJV, NIV",
+    "orig": "תֻּמֶּיךָ וְאוּרֶיךָ לְאִישׁ חֲסִידֶךָ",
+    "en": "your Thummim and your Urim (are) for your loyal man",
+    "plain": "Your Thummim and your Urim belong to your loyal one"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew just before reads \"and of Levi he said\" (<i>ulelevi amar</i>). A scribe's eye could easily jump from that \"Levi\" to the next \"to Levi\" and drop \"Give to Levi\" (<i>havu lelevi</i>). The longer reading also gives the line a verb and a balanced pair, like the other blessings. So the scroll's reading is probably original, and the Plain follows it.",
+  "s": [
+   "abegg-dssb",
+   "djd14-deut",
+   "tov-tchb",
+   "tigay-deut"
+  ]
+ },
+ {
+  "v": "34:6",
+  "a": "And he buried him",
+  "t": "\"He buried him\" or \"they buried him\"?",
+  "p": "The Hebrew says \"he buried him,\" which means God. The Samaritan and the Greek say \"they buried him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Latin Vulgate; Targum Onqelos",
+    "orig": "וַיִּקְבֹּר אֹתוֹ",
+    "en": "and he buried him",
+    "plain": "And he buried him"
+   },
+   {
+    "w": "Samaritan Pentateuch (ויקברו); Septuagint",
+    "orig": "καὶ ἔθαψαν αὐτόν",
+    "en": "and they buried him",
+    "plain": "And they buried him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"He buried him\" is the harder reading: no human is named, so the subject must be the LORD, an astonishing claim. \"They buried him\" looks like a change to the expected sense. Hebrew can also use \"he\" for \"someone,\" as in \"one buried him,\" but the rest of the verse, \"no one knows his grave,\" supports the traditional reading that God himself buried Moses.",
+  "s": [
+   "tigay-deut",
+   "wevers-deut",
+   "bavli-sotah"
+  ]
+ }
+]

@@ -1,0 +1,1383 @@
+<title>The Revelation Scroll</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=GFS+Didot&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Kalam:wght@400;700&display=swap">
+<style>
+/* Layout: one long parchment scroll held between two wooden rollers, read sideways station by station;
+   each station scrolls on its own vertically. Single deliberate look: parchment on a dark walnut table. */
+:root{
+  --table:#22160e; --table-2:#3a2719;
+  --parch:#ebdab3; --parch-hi:#f6ebcf; --parch-lo:#d8bf8e;
+  --ink:#2a1c12; --ink-2:#5a4330; --ink-3:#7d6650;
+  --red:#983220; --ochre:#b46f26; --lapis:#234d8a; --olive:#55612a; --violet:#5a3b6b; --gold:#a27719;
+  --lens-P:var(--red); --lens-H:var(--olive); --lens-F:var(--lapis); --lens-I:var(--violet);
+  --f-display:"IM Fell English SC","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-verse:"IM Fell English","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-body:"Alegreya","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-greek:"GFS Didot","Palatino Linotype","Times New Roman",serif;
+  --f-hand:"Kalam","Segoe Print","Bradley Hand",cursive;
+  --gutter-l:max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
+  --wobble:255px 18px 225px 18px / 18px 225px 18px 255px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{height:100%}
+body{
+  background:var(--table) radial-gradient(ellipse at 50% 0%, var(--table-2), var(--table) 70%);
+  color:var(--ink); font-family:var(--f-body); font-size:17px; line-height:1.55;
+  display:flex; flex-direction:column; overflow:hidden;
+}
+button{font:inherit; color:inherit; cursor:pointer}
+:focus-visible{outline:2px dashed var(--ochre); outline-offset:3px}
+
+/* ---------- top bar on the table ---------- */
+.top{
+  padding-block:10px 6px; padding-left:var(--gutter-l); padding-right:var(--gutter-r);
+  display:flex; flex-wrap:wrap; align-items:center; gap:8px 18px; color:var(--parch);
+}
+.brand{display:flex; align-items:baseline; gap:10px; min-width:0}
+.brand b{font-family:var(--f-display); font-weight:400; font-size:1.35rem; letter-spacing:.04em; white-space:nowrap}
+.brand span{font-family:var(--f-hand); color:var(--parch-lo); font-size:.9rem; white-space:nowrap}
+.controls{display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center; margin-left:auto}
+.chipset{display:flex; flex-wrap:wrap; gap:5px; align-items:center}
+.chipset > em{font-style:normal; font-family:var(--f-hand); color:var(--parch-lo); font-size:.85rem; margin-right:2px}
+.chip{
+  display:inline-flex; align-items:center; gap:6px; background:transparent; border:1.5px solid rgba(235,218,179,.45);
+  border-radius:var(--wobble); padding:2px 10px; font-size:.82rem; color:var(--parch); line-height:1.4;
+}
+.chip[aria-pressed="true"]{background:var(--parch); color:var(--ink); border-color:var(--parch)}
+.chip svg{width:12px; height:12px; flex:none}
+.ruler{
+  flex-basis:100%; display:flex; gap:3px; overflow-x:auto; scrollbar-width:none; padding-block:2px 4px;
+}
+.ruler::-webkit-scrollbar{display:none}
+.ruler button{
+  flex:none; min-width:30px; height:30px; padding:0 6px; border:none; background:transparent; color:var(--parch-lo);
+  font-family:var(--f-display); font-size:.95rem; border-radius:50%; font-variant-numeric:tabular-nums;
+}
+.ruler button.study{border-radius:var(--wobble); font-family:var(--f-hand); font-size:.8rem; padding:0 9px; border:1px dashed rgba(235,218,179,.35)}
+.ruler button.on{background:var(--ochre); color:var(--parch-hi)}
+.ruler .sep{flex:none; width:1px; margin:4px 6px; background:rgba(235,218,179,.3)}
+
+/* ---------- the scroll ---------- */
+.stage{flex:1; min-height:0; position:relative; overflow-x:clip; padding-left:var(--gutter-l); padding-right:var(--gutter-r); padding-block:10px}
+.roller{
+  position:absolute; top:2px; bottom:2px; width:20px; border-radius:10px; z-index:3; pointer-events:none;
+  background:linear-gradient(90deg,#2a170b 0%,#7a4b26 28%,#a8703f 45%,#6d4122 70%,#24130a 100%);
+  box-shadow:0 0 14px rgba(0,0,0,.6);
+}
+.roller::before,.roller::after{
+  content:""; position:absolute; left:50%; width:30px; height:14px; margin-left:-15px; border-radius:50%;
+  background:radial-gradient(ellipse at 40% 35%,#b07a48,#5a3418 70%);
+}
+.roller::before{top:-6px} .roller::after{bottom:-6px}
+.roller.l{left:calc(var(--gutter-l) - 12px)} .roller.r{right:calc(var(--gutter-r) - 12px)}
+.track{height:100%; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x proximity; overscroll-behavior-x:contain; scrollbar-width:thin; scrollbar-color:var(--ochre) transparent}
+.track:focus-visible{outline-offset:-4px}
+.sheet{
+  position:relative; display:flex; height:100%; width:max-content; padding-block:14px;
+  background-color:var(--parch);
+  background-image:
+    radial-gradient(ellipse 60% 50% at 30% 40%, rgba(255,248,226,.55), transparent 70%),
+    radial-gradient(ellipse 40% 60% at 80% 70%, rgba(150,105,50,.12), transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='700'%3E%3Cfilter id='s'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .12 0 0 0 .5 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23s)'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .2 0 0 0 0 .1 0 0 0 .2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:1400px 100%, 1100px 100%, 900px 700px, 260px 260px;
+  box-shadow:inset 0 0 60px rgba(110,70,30,.35);
+}
+.sheet::before,.sheet::after{
+  content:""; position:absolute; left:0; right:0; height:12px; z-index:2; pointer-events:none;
+  background-repeat:repeat-x; background-size:140px 12px;
+}
+.sheet::before{top:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='12' preserveAspectRatio='none'%3E%3Cpath d='M0 0H140V5C128 9 118 3 104 7S82 11 70 6 48 2 36 7 14 10 0 5Z' fill='%2322160e'/%3E%3C/svg%3E")}
+.sheet::after{bottom:0; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='12' preserveAspectRatio='none'%3E%3Cpath d='M0 12H140V7C126 3 116 10 102 6S80 2 66 7 44 10 32 5 12 3 0 7Z' fill='%2322160e'/%3E%3C/svg%3E")}
+
+.panel{
+  flex:0 0 auto; width:min(740px, calc(100vw - var(--gutter-l) - var(--gutter-r) - 8px)); height:100%;
+  overflow-y:auto; overflow-x:hidden; scroll-snap-align:start; position:relative;
+  padding:22px 40px 48px 46px; scrollbar-width:thin; scrollbar-color:rgba(90,67,48,.4) transparent;
+  background:
+    linear-gradient(var(--ink-3),var(--ink-3)) 10px 40px / 1.2px calc(100% - 80px) no-repeat,
+    linear-gradient(var(--ink-3),var(--ink-3)) 15px 40px / 1.2px calc(100% - 80px) no-repeat;
+}
+.panel.wide{width:min(980px, calc(100vw - var(--gutter-l) - var(--gutter-r) - 8px))}
+.panel > *{max-width:68ch}
+.panel.wide > *{max-width:none}
+.panel:first-child{background:none}
+
+.cart{
+  display:inline-flex; align-items:center; gap:8px; font-family:var(--f-display); font-size:.9rem; letter-spacing:.08em;
+  border:1.6px solid var(--ink); border-radius:999px; padding:1px 16px 1px 14px; position:relative;
+  box-shadow:0 0 0 3px var(--parch), 0 0 0 4.4px var(--ink);
+  margin:6px 0 10px 4px; color:var(--ink);
+}
+.cart::after{content:""; position:absolute; right:-10px; top:3px; bottom:3px; width:1.6px; background:var(--ink)}
+.cart.study{border-style:dashed; box-shadow:none}
+.cart.study::after{display:none}
+h1,h2,h3{font-family:var(--f-display); font-weight:400; text-wrap:balance; line-height:1.15; margin:0}
+h1{font-size:clamp(2.4rem, 7vw, 3.6rem); letter-spacing:.02em}
+h2{font-size:clamp(1.7rem, 4.4vw, 2.25rem); margin-bottom:4px}
+h3{font-size:1.15rem; letter-spacing:.04em; margin:22px 0 6px; display:flex; align-items:center; gap:8px}
+h3 svg{width:18px; height:18px; flex:none}
+p{margin:0 0 .75em}
+.lede{font-size:1.06rem}
+.hand{font-family:var(--f-hand)}
+.muted{color:var(--ink-2)}
+.small{font-size:.88rem}
+a{color:var(--lapis); text-decoration-thickness:1px; text-underline-offset:2px}
+.greek{font-family:var(--f-greek); font-size:1.04em; color:var(--ink)}
+
+.art{display:block; width:100%; max-width:100%; height:auto; max-height:290px; margin:2px 0 12px; overflow:visible}
+.art text{font-family:var(--f-hand); fill:var(--ink)}
+.caption{font-family:var(--f-hand); font-size:.85rem; color:var(--ink-2); margin:-6px 0 12px}
+
+/* rubricated verse */
+.verse{margin:16px 0 8px; display:grid; gap:8px}
+.verse .rub{font-family:var(--f-display); color:var(--red); font-size:.82rem; letter-spacing:.1em}
+.verse .plain{font-family:var(--f-verse); font-style:italic; font-size:1.16rem; line-height:1.45}
+.verse .plain::first-letter{font-family:var(--f-display); font-style:normal; color:var(--red); font-size:2.3em; float:left; line-height:.85; margin:4px 6px 0 0}
+.verse .kjv{font-family:var(--f-verse); font-size:.98rem; color:var(--ink-2)}
+.verse .gk{font-size:.95rem; color:var(--ink-2)}
+.verse .gk .greek{font-size:1.05rem}
+.verse dl{margin:0; display:grid; grid-template-columns:auto 1fr; gap:4px 12px; align-items:baseline}
+.verse dt{font-family:var(--f-display); font-size:.78rem; letter-spacing:.08em; color:var(--red); white-space:nowrap}
+.verse dd{margin:0; min-width:0}
+
+/* two-column manuscript readings */
+.readings{display:grid; grid-template-columns:1fr 1fr; gap:0 26px; margin:16px 0 6px; position:relative}
+.readings::before{content:""; position:absolute; left:50%; top:4px; bottom:4px; width:1.2px; background:var(--ink-3)}
+.readings > div{min-width:0}
+.readings h4{font-family:var(--f-display); font-weight:400; font-size:.95rem; letter-spacing:.06em; margin:0 0 4px; display:flex; align-items:center; gap:6px}
+.readings h4 svg{width:22px; height:12px}
+.readings p{font-size:.96rem}
+
+/* four views */
+.views{list-style:none; margin:4px 0 0; padding:0; display:grid; gap:7px}
+.views li{display:grid; grid-template-columns:20px 7.3em 1fr; gap:8px; align-items:baseline; transition:opacity .25s}
+.views li svg{width:14px; height:14px; transform:translateY(2px)}
+.views li b{font-family:var(--f-display); font-weight:400; font-size:.92rem; letter-spacing:.04em}
+.views li span{min-width:0; font-size:.95rem}
+body[data-lens] .views li{opacity:.3}
+body[data-lens="P"] .views li.P, body[data-lens="H"] .views li.H, body[data-lens="F"] .views li.F, body[data-lens="I"] .views li.I{opacity:1}
+body[data-lens="P"] .views li.P span{background:linear-gradient(transparent 62%, rgba(152,50,32,.16) 0)}
+body[data-lens="H"] .views li.H span{background:linear-gradient(transparent 62%, rgba(85,97,42,.18) 0)}
+body[data-lens="F"] .views li.F span{background:linear-gradient(transparent 62%, rgba(35,77,138,.16) 0)}
+body[data-lens="I"] .views li.I span{background:linear-gradient(transparent 62%, rgba(90,59,107,.16) 0)}
+
+/* boxes with hand-drawn edges */
+.box{border:1.6px solid var(--ink-2); border-radius:var(--wobble); padding:12px 16px 10px; margin:16px 0}
+.box .tag{font-family:var(--f-hand); font-weight:700; font-size:.85rem; display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:4px}
+.box .tag i{font-style:normal; font-weight:400; color:var(--ink-2)}
+.box p{font-size:.95rem}
+.word{background:rgba(180,111,38,.07)}
+.word .tag{color:var(--ochre)}
+.word .kind{font-family:var(--f-display); font-weight:400; font-size:.72rem; letter-spacing:.1em; color:var(--parch-hi); background:var(--ochre); border-radius:var(--wobble); padding:1px 8px}
+.word .kind.k-mis{background:var(--red)} .word .kind.k-var{background:var(--violet)} .word .kind.k-com{background:var(--ink-2)} .word .kind.k-deb{background:var(--olive)}
+.word h5{font-family:var(--f-display); font-weight:400; font-size:1.02rem; margin:2px 0 4px}
+.spec{border:2px dashed var(--lapis); background:rgba(35,77,138,.06)}
+.spec .tag{color:var(--lapis)}
+.spec h5{font-family:var(--f-display); font-weight:400; font-size:1.05rem; margin:2px 0 6px; color:var(--lapis)}
+body.nospec .spec{display:none}
+.israel{border-color:var(--olive); background:rgba(85,97,42,.07)}
+.israel .tag{color:var(--olive)}
+.fact{border-color:var(--ink-3); background:rgba(216,191,142,.42)}
+.fact .tag{color:var(--ink-2)}
+.myth{border:2px dotted var(--red); background:radial-gradient(ellipse at 0% 0%, rgba(180,111,38,.2), transparent 55%), rgba(152,50,32,.04)}
+.myth .tag{color:var(--red)}
+.myth h5{font-family:var(--f-display); font-weight:400; font-size:1.02rem; margin:2px 0 4px}
+.tag svg{width:16px; height:16px; align-self:center}
+.links{display:flex; flex-wrap:wrap; gap:6px; align-items:baseline; margin-top:12px; font-size:.84rem}
+.links b{font-family:var(--f-display); font-weight:400; letter-spacing:.06em; color:var(--ink); font-size:.88rem; margin-right:2px}
+.links a{border:1px solid rgba(35,77,138,.45); border-radius:var(--wobble); padding:0 9px; text-decoration:none; line-height:1.6}
+.links a::after{content:" \2197"; font-size:.8em}
+.types{list-style:none; padding:0; margin:8px 0; display:grid; gap:8px}
+.types li{display:grid; grid-template-columns:34px 1fr; gap:10px; align-items:center; font-size:.92rem}
+.types li > i{display:block; height:22px; border-radius:var(--wobble)}
+.echoes{font-size:.88rem; color:var(--ink-2); margin-top:14px}
+.echoes b{font-family:var(--f-display); font-weight:400; letter-spacing:.06em; color:var(--ink)}
+
+/* study scrolls */
+.grid2{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:4px 28px}
+.grid2 > *{min-width:0}
+.table-wrap{overflow-x:auto; margin:8px 0}
+table{border-collapse:collapse; width:100%; min-width:640px; font-size:.92rem}
+th,td{text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1.2px solid rgba(90,67,48,.35)}
+th{font-family:var(--f-display); font-weight:400; letter-spacing:.06em; font-size:.85rem; color:var(--red); border-bottom:1.6px solid var(--ink-2)}
+td:first-child{font-family:var(--f-display); font-size:1rem; white-space:nowrap}
+.decoder{list-style:none; padding:0; margin:8px 0; display:grid; gap:6px}
+.decoder li{display:grid; grid-template-columns:5.2em 1fr; gap:10px; align-items:baseline}
+.decoder li b{font-family:var(--f-display); font-weight:400; color:var(--red); font-variant-numeric:tabular-nums}
+.decoder li span{min-width:0}
+.prompt{border:1.6px solid var(--ink-2); border-radius:var(--wobble); padding:10px 14px; margin:10px 0}
+.prompt header{display:flex; justify-content:space-between; gap:10px; align-items:center; flex-wrap:wrap}
+.prompt header b{font-family:var(--f-display); font-weight:400; font-size:1rem}
+.prompt textarea{width:100%; min-height:7.5em; resize:vertical; margin-top:6px; font:inherit; font-size:.85rem; line-height:1.45; color:var(--ink); background:rgba(246,235,207,.6); border:1px solid rgba(90,67,48,.35); border-radius:8px; padding:8px}
+.copy{background:var(--ink); color:var(--parch-hi); border:none; border-radius:var(--wobble); padding:3px 12px; font-size:.82rem}
+.ideas{list-style:none; padding:0; margin:8px 0; display:grid; gap:10px}
+.ideas li{min-width:0}
+.ideas button{background:none; border:none; padding:0; text-align:left; color:var(--lapis); font-family:var(--f-display); font-size:1.02rem; text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px}
+.linkish{background:none;border:none;padding:0;color:var(--lapis);text-decoration:underline;text-underline-offset:3px;text-align:left;font:inherit}
+.ideas p{font-size:.92rem; margin:2px 0 0}
+.legend{display:flex; flex-wrap:wrap; gap:6px 16px; font-size:.88rem; margin:8px 0}
+.legend span{display:inline-flex; gap:6px; align-items:center}
+.legend svg{width:14px; height:14px}
+
+/* ---------- bottom bar ---------- */
+.foot{
+  padding-block:6px 10px; padding-left:var(--gutter-l); padding-right:var(--gutter-r);
+  display:flex; align-items:center; gap:14px; color:var(--parch-lo);
+}
+.foot .nav{width:38px; height:38px; flex:none; border-radius:50%; border:1.6px solid var(--parch-lo); background:transparent; color:var(--parch); font-size:1.1rem; display:grid; place-items:center}
+.foot .where{flex:1; min-width:0; text-align:center; font-family:var(--f-display); color:var(--parch); font-size:1rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.foot .hint{font-family:var(--f-hand); font-size:.8rem}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .panel{padding:18px 18px 40px 26px; background:linear-gradient(var(--ink-3),var(--ink-3)) 7px 40px / 1.2px calc(100% - 80px) no-repeat}
+  .readings{grid-template-columns:1fr; gap:10px}
+  .readings::before{display:none}
+  .views li{grid-template-columns:18px 1fr; }
+  .views li span{grid-column:2}
+  .brand span, .foot .hint{display:none}
+  .controls{margin-left:0; flex-basis:100%; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none}
+  .controls::-webkit-scrollbar{display:none}
+  .chipset{flex-wrap:nowrap} .chip{white-space:nowrap} .chipset > em{display:none}
+  .roller{width:14px} .roller.l{left:calc(var(--gutter-l) - 10px)} .roller.r{right:calc(var(--gutter-r) - 10px)}
+}
+@media (prefers-reduced-motion:reduce){ *{scroll-behavior:auto!important; transition:none!important} }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="spray"><stop offset="0" stop-color="#b46f26" stop-opacity=".85"/><stop offset=".6" stop-color="#a5571f" stop-opacity=".55"/><stop offset="1" stop-color="#a5571f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sprayRed"><stop offset="0" stop-color="#983220" stop-opacity=".75"/><stop offset="1" stop-color="#983220" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#e9b44c"/><stop offset=".7" stop-color="#c98a2c"/><stop offset="1" stop-color="#b46f26" stop-opacity=".2"/></radialGradient>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5a4330" stroke-width="1" opacity=".35"/></pattern>
+    <pattern id="spots" width="14" height="12" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2.2" fill="#2a1c12" opacity=".7"/><circle cx="11" cy="9" r="1.8" fill="#2a1c12" opacity=".6"/></pattern>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="brand"><b>The Revelation Scroll</b><span>an unveiling, read sideways</span></div>
+  <div class="controls">
+    <div class="chipset" id="lenses" role="group" aria-label="Highlight one interpretive view"><em>Lens</em></div>
+    <div class="chipset"><button class="chip" id="specToggle" aria-pressed="true">Claude's speculation shown</button></div>
+  </div>
+  <nav class="ruler" id="ruler" aria-label="Jump to a chapter or study scroll"></nav>
+</header>
+
+<main class="stage">
+  <div class="roller l"></div>
+  <div class="track" id="track" tabindex="0" aria-label="Revelation timeline, scroll sideways">
+    <div class="sheet" id="sheet"></div>
+  </div>
+  <div class="roller r"></div>
+</main>
+
+<footer class="foot">
+  <button class="nav" id="prev" aria-label="Previous station">&#8592;</button>
+  <div class="where" id="where">Opening</div>
+  <span class="hint">scroll, swipe, or use the arrow keys</span>
+  <button class="nav" id="next" aria-label="Next station">&#8594;</button>
+</footer>
+<script>
+/* ---------- sketch drawings: original line art in a cave-painting / manuscript hand ---------- */
+const C = {ink:'#2a1c12', ink2:'#5a4330', parch:'#ebdab3', hi:'#f6ebcf', lo:'#d8bf8e', red:'#983220', ochre:'#b46f26',
+  lapis:'#234d8a', olive:'#55612a', violet:'#5a3b6b', gold:'#c18f2a', green:'#3f7a4a', pale:'#a3ad8c', white:'#f4ecd6'};
+
+function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+const f1 = n => (Math.round(n*10)/10);
+
+function blob(cx,cy,r,seed,fill,op=1,sx=1.25,sy=.85){
+  const rnd=rng(seed), n=9, pts=[];
+  for(let i=0;i<n;i++){const a=i/n*Math.PI*2, rr=r*(.8+rnd()*.34); pts.push([cx+Math.cos(a)*rr*sx, cy+Math.sin(a)*rr*sy]);}
+  let d='';
+  for(let i=0;i<n;i++){
+    const p=pts[i], q=pts[(i+1)%n], m=[(p[0]+q[0])/2,(p[1]+q[1])/2];
+    if(i===0){const pm=pts[n-1]; d+=`M${f1((pm[0]+p[0])/2)},${f1((pm[1]+p[1])/2)}`;}
+    d+=` Q${f1(p[0])},${f1(p[1])} ${f1(m[0])},${f1(m[1])}`;
+  }
+  return `<path d="${d}Z" fill="${fill}" opacity="${op}"/>`;
+}
+const K = (d,w=2.4,col=C.ink) => `<path d="${d}" fill="none" stroke="${col}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`;
+const F = (d,fill,w=2.2) => `<path d="${d}" fill="${fill}" stroke="${C.ink}" stroke-width="${w}" stroke-linejoin="round"/>`;
+const dot = (x,y,r=2,fill=C.ink) => `<circle cx="${f1(x)}" cy="${f1(y)}" r="${r}" fill="${fill}"/>`;
+const T = (x,y,s,size=12,anchor='start',col=C.ink) => `<text x="${f1(x)}" y="${f1(y)}" font-size="${size}" text-anchor="${anchor}" fill="${col}">${s}</text>`;
+function star(x,y,r,fill=C.gold){
+  let d=''; for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5, rr=i%2?r*.45:r; d+=(i?'L':'M')+f1(x+Math.cos(a)*rr)+','+f1(y+Math.sin(a)*rr);}
+  return `<path d="${d}Z" fill="${fill}" stroke="${C.ink}" stroke-width="1"/>`;
+}
+const crown = (x,y,w=10,fill=C.gold) => F(`M${x-w/2},${y} L${x-w/2},${y-w*.7} L${x-w/4},${y-w*.35} L${x},${y-w*.8} L${x+w/4},${y-w*.35} L${x+w/2},${y-w*.7} L${x+w/2},${y} Z`,fill,1.2);
+const waves = (x1,x2,y,n=3,gap=8,col=C.lapis) => { let s=''; for(let r=0;r<n;r++){let d=`M${x1},${y+r*gap}`; for(let x=x1;x<x2;x+=24) d+=` q6,-6 12,0 t12,0`; s+=K(d,1.6,col);} return s; };
+const svg = (label, inner, vb='0 0 400 240') => `<svg class="art" viewBox="${vb}" role="img" aria-label="${label}"><g filter="url(#rough)">${inner}</g></svg>`;
+const g = (tx,ty,s,inner,flip=false) => `<g transform="translate(${tx},${ty}) scale(${flip?-s:s},${s})">${inner}</g>`;
+
+/* horse: cave-painting silhouette, about 124 x 76 */
+function horse(fill){
+  return F('M14,32 C26,18 70,16 88,24 C94,12 102,4 112,2 L122,10 L116,18 C108,18 104,26 100,36 C98,46 88,50 78,50 C60,54 36,54 24,48 C14,44 10,38 14,32 Z',fill)
+   + K('M86,48 L92,72 M78,50 L74,74 M30,50 L22,72 M40,52 L44,74 M16,34 C6,40 4,50 2,62 M96,14 L90,22 M101,9 L95,17 M106,5 L100,13')
+   + dot(113,8,1.6);
+}
+function rider(item, headFill=C.hi){
+  let s = `<circle cx="60" cy="-2" r="6.5" fill="${headFill}" stroke="${C.ink}" stroke-width="2"/>` + K('M60,5 L57,24 L68,38 M59,11 L76,4');
+  if(item==='bow') s += K('M77,-12 Q90,4 77,20',2.2) + K('M77,-12 L77,20',1);
+  if(item==='sword') s += K('M74,6 L100,-18',3.2) + K('M72,0 L80,10',2);
+  if(item==='scales') s += K('M76,4 L76,-12 M64,-12 L88,-12') + F('M64,-12 L59,-3 L69,-3 Z','none',1.4) + F('M88,-12 L83,-3 L93,-3 Z','none',1.4);
+  if(item==='death') s += dot(57.5,-3,1.6) + dot(62.5,-3,1.6) + K('M57,2 L63,2',1.2);
+  return s;
+}
+function lamb(opts={}){
+  const {horns=7, eyes=7, slain=true, fill=C.white} = opts;
+  let s='';
+  [[30,30],[42,24],[54,25],[64,31],[54,38],[40,38],[28,38]].forEach(([x,y])=> s+=`<circle cx="${x}" cy="${y}" r="10" fill="${fill}" stroke="${C.ink}" stroke-width="2"/>`);
+  s += K('M34,46 L34,62 M44,47 L44,62 M58,46 L58,62 M66,42 L68,62');
+  s += `<ellipse cx="76" cy="22" rx="10" ry="7.5" fill="${fill}" stroke="${C.ink}" stroke-width="2"/>`;
+  for(let i=0;i<horns;i++){const a=-2.6+i*(1.9/(horns-1||1)); const x=76+Math.cos(a)*8, y=21+Math.sin(a)*6; s+=K(`M${f1(x)},${f1(y)} q${f1(Math.cos(a)*6)},${f1(Math.sin(a)*8)} ${f1(Math.cos(a)*4+2)},${f1(Math.sin(a)*12)}`,1.6,C.ochre);}
+  for(let i=0;i<eyes;i++){const x=70+i*2.2, y=20+Math.sin(i)*2.2; s+=dot(x+4,y,1.1);}
+  if(slain) s += K('M64,27 L70,35',2.6,C.red) + K('M66,34 l1,5 M69,33 l1,4',1.2,C.red);
+  return s;
+}
+/* many-headed monster: necks fan out from a shoulder point */
+function heads(bx,by,n,len,spread,hornList,crownsOn,col,wounded=-1){
+  let s=''; const start=-Math.PI/2-spread/2;
+  for(let i=0;i<n;i++){
+    const a=start+i*(spread/(n-1)), L=len*(.82+(i%3)*.1);
+    const hx=bx+Math.cos(a)*L, hy=by+Math.sin(a)*L, cx=bx+Math.cos(a+.25)*L*.5, cy=by+Math.sin(a+.25)*L*.5;
+    s += K(`M${bx},${by} Q${f1(cx)},${f1(cy)} ${f1(hx)},${f1(hy)}`,5,col) + K(`M${bx},${by} Q${f1(cx)},${f1(cy)} ${f1(hx)},${f1(hy)}`,1.2);
+    const dir = Math.cos(a)>=0?1:-1;
+    s += F(`M${f1(hx-4*dir)},${f1(hy-5)} L${f1(hx+12*dir)},${f1(hy-1)} L${f1(hx+5*dir)},${f1(hy+2)} L${f1(hx+12*dir)},${f1(hy+5)} L${f1(hx-4*dir)},${f1(hy+5)} Z`, col, 1.6);
+    s += dot(hx+2*dir, hy-1.5, 1.2, C.hi);
+    const h = hornList[i]||0;
+    for(let j=0;j<h;j++){ const ox=hx-2*dir+j*5*dir; s += K(`M${f1(ox)},${f1(hy-5)} l${f1(-2*dir)},-8`,1.8,C.ink); if(crownsOn==='horns') s+=crown(ox-2*dir,hy-13,7); }
+    if(crownsOn==='heads') s += crown(hx, hy-6, 9);
+    if(i===wounded) s += K(`M${f1(hx-9)},${f1(hy+9)} l12,-4`,2.4,C.red) + K(`M${f1(hx-6)},${f1(hy+5)} l1,6 M${f1(hx-2)},${f1(hy+4)} l1,6`,1,C.red);
+  }
+  return s;
+}
+const HORNS10 = [2,1,2,1,2,1,1];
+
+/* ---------- living creatures (glyph scale ~ 40) ---------- */
+function wings6(x,y){ let s=''; [-1,1].forEach(d=>{ for(let i=0;i<3;i++){ s+=K(`M${x},${y} q${d*(18+i*4)},${-20+i*14} ${d*(26+i*3)},${-6+i*14}`,1.5,C.ink2); s+=dot(x+d*(16+i*3),y-6+i*10,1.3);} }); return s; }
+const lionG=(x,y)=> wings6(x,y)+ (()=>{let s='';for(let i=0;i<14;i++){const a=i/14*Math.PI*2;s+=K(`M${f1(x+Math.cos(a)*10)},${f1(y+Math.sin(a)*10)} L${f1(x+Math.cos(a)*17)},${f1(y+Math.sin(a)*17)}`,2.2,C.ochre);}return s})()+`<circle cx="${x}" cy="${y}" r="10" fill="${C.ochre}" stroke="${C.ink}" stroke-width="2"/>`+dot(x-3.5,y-2,1.4)+dot(x+3.5,y-2,1.4)+K(`M${x-3},${y+4} q3,3 6,0`,1.4);
+const oxG=(x,y)=> wings6(x,y)+F(`M${x-9},${y-6} Q${x},${y-10} ${x+9},${y-6} L${x+6},${y+10} Q${x},${y+14} ${x-6},${y+10} Z`,C.ink2)+K(`M${x-9},${y-6} q-10,-2 -10,-12 M${x+9},${y-6} q10,-2 10,-12`,2.6)+dot(x-3.5,y,1.4,C.hi)+dot(x+3.5,y,1.4,C.hi);
+const manG=(x,y)=> wings6(x,y)+`<circle cx="${x}" cy="${y}" r="10" fill="${C.hi}" stroke="${C.ink}" stroke-width="2"/>`+dot(x-3.5,y-2,1.4)+dot(x+3.5,y-2,1.4)+K(`M${x},${y-1} l-1,4 h2 M${x-3},${y+5} h6`,1.3)+K(`M${x-10},${y-3} q10,-14 20,0`,1.6,C.ink2);
+const eagleG=(x,y)=> wings6(x,y)+F(`M${x-22},${y-4} Q${x-10},${y-8} ${x},${y} Q${x+10},${y-8} ${x+22},${y-4} Q${x+10},${y+4} ${x},${y+8} Q${x-10},${y+4} ${x-22},${y-4} Z`,C.ink2,1.6)+`<circle cx="${x}" cy="${y-6}" r="5" fill="${C.ink2}" stroke="${C.ink}" stroke-width="1.6"/>`+F(`M${x+4},${y-7} l6,2 l-6,2 Z`,C.gold,1)+dot(x+1,y-7,1,C.hi);
+
+/* ---------- scenes ---------- */
+const ART = {
+intro(){
+  let s = blob(120,120,82,3,C.lapis,.14) + blob(300,110,60,9,C.ochre,.16);
+  const hand=(x,y,r,sc=1)=>`<g transform="translate(${x},${y}) rotate(${r}) scale(${sc})"><circle r="46" fill="url(#spray)"/>`+K('M0,22 L0,-2',15,C.parch)+K('M-12,10 L-16,-26 M-4,6 L-5,-34 M5,6 L6,-32 M13,10 L17,-22 M-12,16 L-30,0',7,C.parch)+`<ellipse cx="0" cy="12" rx="15" ry="14" fill="${C.parch}"/></g>`;
+  s += hand(84,140,-14) + hand(330,150,12,.85);
+  s += K('M130,120 Q200,60 270,120 Q200,180 130,120 Z',2.6) + `<circle cx="200" cy="120" r="19" fill="${C.lapis}" stroke="${C.ink}" stroke-width="2"/>` + dot(200,120,7) + dot(195,115,2.4,C.hi);
+  s += F('M118,58 Q200,20 282,58 Q262,74 246,64 Q228,84 200,66 Q172,84 154,64 Q138,74 118,58 Z', C.red) + K('M150,60 q50,30 100,0',1.4,C.hi);
+  s += K('M130,120 l-12,0 M270,120 l12,0',2) + T(200,218,'apokalypsis: the cover is lifted',13,'middle',C.ink2);
+  return svg('An eye with a red veil being lifted, between two cave-style hand stencils', s);
+},
+patmos(){
+  let s = blob(200,120,96,5,C.lapis,.13) + blob(110,80,40,2,C.ochre,.15);
+  for(let i=0;i<7;i++){ const x=40+i*53.3, y=210-Math.sin(i/6*Math.PI)*22;
+    s += K(`M${x},${y} L${x},${y-30} M${x-9},${y} L${x+9},${y}`,2.2,C.gold) + F(`M${x-8},${y-30} Q${x},${y-22} ${x+8},${y-30} Z`,C.gold,1.4) + F(`M${x},${y-46} Q${x+5},${y-38} ${x},${y-33} Q${x-5},${y-38} ${x},${y-46} Z`,C.ochre,1.2); }
+  s += F('M186,80 L168,178 L232,178 L214,80 Z', C.hi) + K('M182,98 L218,98',5,C.gold);
+  s += `<circle cx="200" cy="64" r="15" fill="${C.white}" stroke="${C.ink}" stroke-width="2.2"/>`;
+  for(let i=0;i<9;i++){const a=Math.PI+i*Math.PI/8; s+=K(`M${f1(200+Math.cos(a)*15)},${f1(64+Math.sin(a)*15)} L${f1(200+Math.cos(a)*24)},${f1(64+Math.sin(a)*24)}`,1.4,C.ink2);}
+  s += F('M193,61 q2,-4 4,0 q-2,3 -4,0Z',C.red,1) + F('M203,61 q2,-4 4,0 q-2,3 -4,0Z',C.red,1);
+  s += K('M210,70 L270,60',3.4,C.ink2) + K('M268,55 L276,63',2) + K('M214,90 L250,108');
+  [[256,96],[268,104],[262,116],[276,92],[282,110],[252,120],[272,124]].forEach(([x,y])=>s+=star(x,y,5));
+  s += `<ellipse cx="184" cy="182" rx="9" ry="4" fill="${C.ochre}" stroke="${C.ink}" stroke-width="1.6"/><ellipse cx="216" cy="182" rx="9" ry="4" fill="${C.ochre}" stroke="${C.ink}" stroke-width="1.6"/>`;
+  return svg('One like a son of man, in a long robe with a gold sash, a sword from his mouth, seven stars in his hand, among seven lampstands', s);
+},
+map(){
+  const P=(lat,lon)=>[20+(lon-26.2)*90, 20+(39.5-lat)*104];
+  const coast=[[39.5,26.65],[39.3,26.8],[39.05,26.88],[38.9,26.95],[38.75,26.85],[38.6,26.78],[38.48,26.98],[38.43,27.12],[38.5,26.9],[38.62,26.55],[38.42,26.4],[38.28,26.35],[38.2,26.55],[38.15,26.85],[38.02,27.1],[37.92,27.27],[37.75,27.2],[37.6,27.22],[37.4,27.3],[37.2,27.45],[37.02,27.5]];
+  const d='M'+coast.map(c=>P(...c).map(f1).join(',')).join(' L');
+  const land = d+' L420,280 L420,0 Z';
+  let s = `<clipPath id="mapclip">${blob(200,150,128,77,'#000',1,1.45,1.1)}</clipPath>`;
+  s += `<g clip-path="url(#mapclip)">` + blob(200,150,128,77,C.lapis,.1,1.45,1.1) + `<path d="${land}" fill="${C.lo}" opacity=".55"/><path d="${land}" fill="url(#hatch)"/>` + K(d,2) + waves(26,100,200,3,9) + `</g>`;
+  const pat=P(37.31,26.55); s += blob(pat[0],pat[1],6,4,C.ochre,.9,1.2,1.4) + T(pat[0]+12,pat[1]+4,'Patmos: John in exile',11,'start');
+  const cities=[['Ephesus',37.94,27.34,'b'],['Smyrna',38.42,27.14,'r'],['Pergamum',39.12,27.18,'r'],['Thyatira',38.92,27.84,'r'],['Sardis',38.49,28.04,'r'],['Philadelphia',38.35,28.52,'r'],['Laodicea',37.84,29.11,'b']];
+  const pts=cities.map(c=>P(c[1],c[2]));
+  s += `<path d="${'M'+pts.map(p=>p.map(f1).join(',')).join(' L')+' Z'}" fill="none" stroke="${C.red}" stroke-width="1.8" stroke-dasharray="5 5" stroke-linecap="round"/>`;
+  cities.forEach((c,i)=>{const [x,y]=pts[i]; s+=`<circle cx="${f1(x)}" cy="${f1(y)}" r="5.5" fill="${C.red}" stroke="${C.ink}" stroke-width="1.6"/>`;
+    const lab=`${i+1}. ${c[0]}`; s += c[3]==='l'?T(x-9,y+4,lab,12.5,'end'):c[3]==='b'?T(x,y+20,lab,12.5,'middle'):T(x+9,y+4,lab,12.5,'start');});
+  const hi=P(37.92,29.13), co=P(37.79,29.26);
+  s += dot(hi[0]+4,hi[1]-8,3,C.ochre)+T(hi[0]+10,hi[1]-12,'Hierapolis (hot)',10,'start',C.ink2);
+  s += dot(co[0]+2,co[1]+2,3,C.lapis)+T(co[0]+9,co[1]+5,'Colossae (cold)',10,'start',C.ink2);
+  s += T(350,52,'N',13,'middle')+K('M350,58 L350,74 M345,64 L350,58 L355,64',1.4);
+  s += T(28,186,'Aegean Sea',11,'start',C.lapis);
+  return svg('Hand-drawn map of western Asia Minor with Patmos and the seven churches in their road order: Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea', s, '0 0 400 300');
+},
+throne(){
+  let s = blob(200,128,100,8,C.lapis,.12) + `<ellipse cx="200" cy="214" rx="150" ry="14" fill="${C.lapis}" opacity=".25"/>` + waves(80,320,212,1,0,C.lapis);
+  s += K('M106,150 A94,94 0 0 1 294,150',7,C.green) + K('M106,150 A94,94 0 0 1 294,150',1.2);
+  for(let i=0;i<24;i++){ const a=Math.PI+.3+(i+.5)*(Math.PI-.6)/24; s+=crown(200+Math.cos(a)*112, 160+Math.sin(a)*106, 8); }
+  s += F('M176,150 L176,102 Q200,84 224,102 L224,150 Z',C.gold) + F('M168,150 L232,150 L228,162 L172,162 Z',C.ochre);
+  s += g(156,150,.9,lamb());
+  s += lionG(60,70)+oxG(340,70)+manG(60,186)+eagleG(340,186);
+  return svg('The throne in heaven with an emerald rainbow, twenty-four crowns, a lamb that looks slaughtered, and the four living creatures: lion, ox, human face and eagle', s);
+},
+horsemen(){
+  let s = blob(200,120,110,12,C.ochre,.12) + K('M8,206 Q100,198 200,206 T392,204',1.6,C.ink2);
+  const H=[[C.white,'bow'],[C.red,'sword'],[C.ink,'scales'],[C.pale,'death']];
+  s += blob(332,170,34,6,C.ink,.55,1.4,.7) + dot(318,166,1.8,C.ochre) + dot(326,166,1.8,C.ochre) + T(330,222,'Hades follows',11,'middle',C.ink2);
+  H.forEach(([col,item],i)=>{ const x=8+i*96, y=130; s += g(x,y,.76, horse(col) + rider(item, item==='death'?C.pale:C.hi)); });
+  s += T(56,236,'conquest',11,'middle',C.ink2)+T(152,236,'war',11,'middle',C.ink2)+T(248,236,'famine',11,'middle',C.ink2);
+  return svg('The four horsemen: a white horse with a bowman, a red horse with a great sword, a black horse with scales, and a pale green horse ridden by Death with Hades following', s);
+},
+multitude(){
+  let s = blob(100,110,80,14,C.olive,.12) + blob(290,120,100,15,C.lapis,.1);
+  for(let r=0;r<3;r++) for(let c=0;c<4;c++){ const x=24+c*42, y=46+r*52; let d=''; for(let k=0;k<4;k++) d+=`M${x+k*7},${y} L${x+k*7},${y+26} `; d+=`M${x-4},${y+20} L${x+26},${y+6}`; s+=K(d,2.2,C.ink); }
+  s += T(92,212,'12 tribes × 12,000: what John hears',11,'middle',C.ink2);
+  const rnd=rng(21);
+  for(let i=0;i<46;i++){ const x=210+(i%12)*15+rnd()*6, y=58+Math.floor(i/12)*40+rnd()*6; s += F(`M${f1(x)},${f1(y)} L${f1(x-5)},${f1(y+20)} L${f1(x+5)},${f1(y+20)} Z`,C.white,1.2) + `<circle cx="${f1(x)}" cy="${f1(y-4)}" r="3.4" fill="${[C.ochre,C.ink2,C.red,C.lo][i%4]}" stroke="${C.ink}" stroke-width="1"/>`; if(i%2===0) s+=K(`M${f1(x+5)},${f1(y+4)} q4,-12 2,-22 M${f1(x+7)},${f1(y-6)} l4,-3 M${f1(x+7)},${f1(y-12)} l4,-3`,1.4,C.green); }
+  s += T(300,226,'a crowd no one could count: what John sees',11,'middle',C.ink2);
+  return svg('Left: twelve groups of tally marks for the 144,000 from the tribes of Israel. Right: a countless crowd in white robes holding palm branches', s);
+},
+trumpets(){
+  let s = blob(200,140,110,17,C.red,.1);
+  for(let i=0;i<7;i++){ const x=30+i*52, y=34; s+=F(`M${x},${y+10} Q${x+18},${y+14} ${x+34},${y-6} L${x+40},${y-12} L${x+38},${y+2} Q${x+20},${y+24} ${x},${y+16} Z`,C.lo,1.6) + T(x+18,y+38,i+1,11,'middle',C.ink2); }
+  let L = horse(C.ochre).replace('M96,14 L90,22 M101,9 L95,17 M106,5 L100,13','');
+  L += `<ellipse cx="60" cy="10" rx="34" ry="12" fill="${C.hi}" opacity=".7" stroke="${C.ink}" stroke-width="1.4"/>` + `<ellipse cx="48" cy="2" rx="26" ry="9" fill="${C.hi}" opacity=".6" stroke="${C.ink}" stroke-width="1.2"/>`;
+  L += `<circle cx="116" cy="8" r="8" fill="${C.lo}" stroke="${C.ink}" stroke-width="1.8"/>` + dot(113,6,1.2)+dot(119,6,1.2) + K('M112,12 l2,2 l2,-2 l2,2 l2,-2',1) + crown(116,-1,12) + K('M109,6 q-8,10 -6,22 M111,4 q-10,10 -10,24',1.2,C.ink2);
+  L += K('M14,32 C-4,20 -6,-8 14,-10 C24,-10 26,-2 20,2',3.2,C.ink) + F('M20,2 L28,6 L20,8 Z',C.red,1.2);
+  s += g(110,120,1.15,L);
+  s += T(200,232,'locusts from the abyss (9:7–10)',11,'middle',C.ink2);
+  return svg('Seven ram-horn trumpets above a locust shaped like a war horse, with a human face, a gold crown, long hair, wings and a scorpion tail', s);
+},
+witnesses(){
+  let s = blob(110,120,90,19,C.ochre,.13) + blob(300,130,80,23,C.olive,.13);
+  s += waves(10,90,196,3,8) + K('M96,200 L190,200',2,C.ink2) + `<rect x="96" y="200" width="94" height="22" fill="url(#hatch)"/>`;
+  s += F('M60,196 L66,120 L78,120 L76,196 Z',C.red,1.6) + F('M120,200 L114,120 L102,120 L104,200 Z',C.red,1.6);
+  s += blob(90,92,40,4,C.hi,.95,1.1,.9) + `<circle cx="90" cy="70" r="16" fill="url(#sun)" stroke="${C.ink}" stroke-width="1.6"/>` + K('M40,70 A52,52 0 0 1 140,70',5,C.green);
+  s += F('M112,100 L144,92 L146,108 L114,114 Z',C.white,1.4) + K('M118,100 l20,-4 M119,106 l20,-4',1,C.ink2);
+  [[250,1],[350,-1]].forEach(([x])=>{ s+=K(`M${x},210 L${x},130`,6,C.ink2) + blob(x,112,30,x,C.olive,.85,1.1,.8) + dot(x-8,108,2.6,C.ink)+dot(x+10,116,2.6,C.ink)+dot(x+2,98,2.6,C.ink); });
+  [[280],[320]].forEach(([x])=>{ s+=K(`M${x},210 L${x},170 M${x-8},210 L${x+8},210`,2.4,C.gold)+F(`M${x-8},170 Q${x},178 ${x+8},170 Z`,C.gold,1.4)+F(`M${x},154 Q${x+5},162 ${x},167 Q${x-5},162 ${x},154 Z`,C.ochre,1.2); });
+  s += T(300,234,'two olive trees, two lampstands (11:4)',11,'middle',C.ink2);
+  return svg('A mighty angel with a rainbow and a sun face, legs like pillars of fire, one foot on the sea and one on land, holding a small scroll; beside it two olive trees and two lampstands', s);
+},
+woman(){
+  let s = `<circle cx="96" cy="100" r="62" fill="url(#sun)" opacity=".9"/>`;
+  for(let i=0;i<16;i++){const a=i/16*Math.PI*2; s+=K(`M${f1(96+Math.cos(a)*64)},${f1(100+Math.sin(a)*64)} L${f1(96+Math.cos(a)*80)},${f1(100+Math.sin(a)*80)}`,2,C.ochre);}
+  for(let i=0;i<12;i++){const a=Math.PI*1.12+i*(Math.PI*.76/11); s+=star(96+Math.cos(a)*44, 82+Math.sin(a)*44, 4.2, C.hi);}
+  s += F('M96,70 L76,176 L116,176 Z',C.lapis) + `<circle cx="96" cy="62" r="9" fill="${C.hi}" stroke="${C.ink}" stroke-width="2"/>`;
+  s += F('M64,190 Q96,166 128,190 Q96,180 64,190 Z',C.hi,1.6);
+  let body = 'M250,208 C200,206 196,176 232,170 C270,164 300,186 336,170 C370,156 386,124 360,104';
+  s += K(body,16,C.red) + K(body,1.4);
+  s += K('M360,104 C340,80 352,40 380,26',5,C.red) + K('M360,104 C340,80 352,40 380,26',1.2);
+  [[370,18],[384,40],[392,14],[358,10]].forEach(([x,y])=>s+=star(x,y,3.4,C.hi)+K(`M${x},${y+6} l-6,${12}`,1,C.ink2));
+  s += heads(232,170,7,62,2.2,HORNS10,'heads',C.red);
+  s += T(96,226,'clothed with the sun',11,'middle',C.ink2)+T(272,230,'7 heads, 7 crowns, 10 horns',11,'middle',C.ink2);
+  return svg('A woman clothed with the sun, moon under her feet and twelve stars, facing a great red dragon with seven crowned heads and ten horns whose tail sweeps stars from the sky', s);
+},
+beasts(){
+  let s = blob(120,140,100,31,C.lapis,.12) + blob(320,150,70,33,C.ochre,.14);
+  s += F('M40,196 C40,150 90,136 140,146 C176,152 196,170 196,196 Z',C.ochre);
+  s += `<path d="M40,196 C40,150 90,136 140,146 C176,152 196,170 196,196 Z" fill="url(#spots)" opacity=".8"/>`;
+  s += F('M60,196 l-6,14 l18,0 l2,-14 Z',C.ink2,1.6) + F('M166,196 l6,14 l-18,0 l-2,-14 Z',C.ink2,1.6);
+  s += heads(110,148,7,70,2.3,HORNS10,'horns',C.ochre,5);
+  s += waves(10,230,196,3,8);
+  s += K('M250,212 L392,212',2,C.ink2) + `<rect x="250" y="212" width="142" height="18" fill="url(#hatch)"/>`;
+  s += F('M290,212 C288,180 300,160 324,158 C348,156 362,176 360,212 Z',C.lo);
+  s += `<circle cx="324" cy="150" r="14" fill="${C.lo}" stroke="${C.ink}" stroke-width="2"/>` + dot(319,148,1.6)+dot(329,148,1.6);
+  s += K('M316,138 q-4,-8 2,-12 M332,138 q4,-8 -2,-12',2.2,C.ochre);
+  s += F('M338,154 Q356,150 372,140 Q362,154 376,158 Q358,160 338,158 Z',C.red,1.4);
+  for(let i=0;i<4;i++) s += K(`M${290+i*24},20 l-8,${40+i*6}`,2,C.red) + F(`M${282+i*24},${60+i*6} q4,6 0,10 q-4,-4 0,-10Z`,C.ochre,1);
+  s += T(118,234,'beast from the sea (13:1)',11,'middle',C.ink2)+T(324,234,'beast from the land (13:11)',11,'middle',C.ink2);
+  return svg('Left: a leopard-like beast with bear feet rising from the sea, seven heads, ten crowned horns, one head with a healed wound. Right: a beast from the earth with two lamb horns, speaking fire, calling fire down from the sky', s);
+},
+zion(){
+  let s = blob(150,130,100,41,C.ochre,.12);
+  s += F('M40,210 L140,90 L240,210 Z',C.lo) + `<path d="M40,210 L140,90 L240,210 Z" fill="url(#hatch)"/>`;
+  s += g(108,62,.6,lamb());
+  for(let i=0;i<3;i++){const x=270+i*40, y=40+i*22; s+=`<circle cx="${x}" cy="${y}" r="5" fill="${C.hi}" stroke="${C.ink}" stroke-width="1.6"/>`+K(`M${x},${y+5} L${x-14},${y+12}`,2)+K(`M${x-2},${y+6} q-6,-16 -22,-14 M${x-2},${y+7} q4,-18 18,-20`,1.6,C.ink2);}
+  s += K('M300,190 q20,-40 50,-30',4,C.ink2) + K('M300,190 L292,206',3,C.ink);
+  [[352,190],[362,190],[357,198],[347,198],[367,198],[352,206],[362,206],[357,214]].forEach(([x,y])=>s+=`<circle cx="${x}" cy="${y}" r="5" fill="${C.violet}" stroke="${C.ink}" stroke-width="1.2"/>`);
+  s += T(140,232,'the Lamb on Mount Zion',11,'middle',C.ink2)+T(330,232,'sickle and grapes (14:14–20)',11,'middle',C.ink2);
+  return svg('The Lamb standing on Mount Zion, three angels flying, and a sickle beside a cluster of grapes', s);
+},
+bowls(){
+  let s = blob(200,120,120,51,C.red,.09);
+  for(let i=0;i<7;i++){ const x=30+i*54, y=40+Math.sin(i/6*Math.PI)*-12+12; s+=`<g transform="rotate(${-28+i*2} ${x} ${y})">`+F(`M${x-16},${y} Q${x},${y+20} ${x+16},${y} Z`,C.gold,1.6)+`</g>`; for(let k=0;k<3;k++) s+=F(`M${x+10+k*3},${y+12+k*12} q3,5 0,8 q-3,-3 0,-8Z`,C.red,1); }
+  const frog=(x,y)=> F(`M${x-14},${y} Q${x-12},${y-14} ${x},${y-14} Q${x+12},${y-14} ${x+14},${y} Q${x},${y+6} ${x-14},${y} Z`,C.olive,1.6)+`<circle cx="${x-6}" cy="${y-13}" r="3.4" fill="${C.olive}" stroke="${C.ink}" stroke-width="1.2"/><circle cx="${x+6}" cy="${y-13}" r="3.4" fill="${C.olive}" stroke="${C.ink}" stroke-width="1.2"/>`+dot(x-6,y-13,1.2)+dot(x+6,y-13,1.2)+K(`M${x-14},${y} l-6,6 M${x+14},${y} l6,6`,1.6);
+  s += frog(70,166)+frog(120,176)+frog(170,166);
+  s += T(120,206,'three spirits like frogs (16:13)',11,'middle',C.ink2);
+  s += F('M230,206 Q250,160 300,156 Q350,160 372,206 Z',C.lo) + `<path d="M230,206 Q250,160 300,156 Q350,160 372,206 Z" fill="url(#hatch)"/>` + K('M200,206 L396,206',2,C.ink2);
+  s += T(300,226,'Tel Megiddo: a mound, not a mountain',11,'middle',C.ink2);
+  return svg('Seven golden bowls pouring red drops, three frog-like spirits, and the low mound of Tel Megiddo', s);
+},
+babylon(){
+  let s='';
+  for(let i=0;i<7;i++) s += F(`M${20+i*52},150 Q${46+i*52},${110+(i%2)*10} ${72+i*52},150 Z`,C.lo,1.4);
+  s += `<rect x="16" y="150" width="372" height="10" fill="url(#hatch)"/>`;
+  s += F('M80,206 C80,172 120,160 170,164 C210,166 232,182 232,206 Z',C.red);
+  s += K('M96,206 l-4,18 M120,208 l0,16 M200,208 l2,16 M222,206 l6,16',3);
+  s += heads(220,170,7,48,2.0,HORNS10,'none',C.red);
+  s += F('M150,164 L132,120 L170,120 Z',C.violet) + `<circle cx="151" cy="112" r="8" fill="${C.hi}" stroke="${C.ink}" stroke-width="1.8"/>` + crown(151,105,10) + K('M158,128 L176,116',2) + F('M172,104 L184,104 L181,116 L175,116 Z',C.gold,1.4) + K('M178,116 L178,122',1.6);
+  for(let i=0;i<3;i++){ const x=286+i*38, y=210+(i%2)*8; s += F(`M${x-16},${y} L${x+16},${y} L${x+10},${y+8} L${x-10},${y+8} Z`,C.ink2,1.4)+K(`M${x},${y} L${x},${y-24}`,1.6)+F(`M${x},${y-24} L${x+12},${y-8} L${x},${y-6} Z`,C.hi,1.2); }
+  s += waves(260,396,224,1,0) + T(150,236,'the woman on the scarlet beast',11,'middle',C.ink2) + T(324,196,'merchants mourn',11,'middle',C.ink2);
+  return svg('A woman in purple holding a gold cup, seated on a scarlet seven-headed beast in front of seven hills, with merchant ships mourning', s);
+},
+rider(){
+  let s = blob(220,110,120,61,C.lapis,.12) + K('M20,40 Q200,-10 380,40',2,C.ink2) + K('M40,44 l-8,-14 M80,30 l-6,-14 M320,30 l6,-14 M360,44 l8,-14',1.4,C.ink2);
+  for(let i=0;i<5;i++) s += g(20+i*38,186,.3,horse(C.white)+`<circle cx="60" cy="-2" r="6.5" fill="${C.hi}" stroke="${C.ink}" stroke-width="2"/>`+K('M60,5 L57,24'));
+  let r = horse(C.white) + F('M60,4 L50,30 L72,30 Z',C.red) + `<circle cx="60" cy="-3" r="7" fill="${C.hi}" stroke="${C.ink}" stroke-width="2"/>` + dot(62,-4,1.4,C.ochre);
+  r += crown(56,-9,8)+crown(62,-12,8)+crown(68,-9,8) + K('M67,-2 L108,-10',3.2,C.ink2) + K('M104,-15 L110,-5',1.6);
+  r += K('M52,26 C46,30 44,36 46,42',1.4,C.red) + T(36,48,'King of kings',7,'start',C.ink2);
+  s += g(120,80,1.5,r);
+  return svg('The rider on a white horse, wearing many crowns and a robe dipped in blood, a sword coming from his mouth, followed by armies on white horses', s);
+},
+millennium(){
+  let s = blob(110,140,80,71,C.ink,.08) + blob(300,120,90,73,C.white,.5);
+  s += `<ellipse cx="110" cy="170" rx="72" ry="30" fill="${C.ink}" opacity=".8"/>` + K('M38,170 Q110,206 182,170',2);
+  s += K('M70,168 C90,150 130,150 140,166 C150,182 104,188 92,176',8,C.red) + K('M70,168 C90,150 130,150 140,166 C150,182 104,188 92,176',1.2);
+  let ch=''; for(let i=0;i<9;i++) ch+=`<ellipse cx="${60+i*12}" cy="${130+Math.sin(i)*4}" rx="6" ry="3.5" fill="none" stroke="${C.ink2}" stroke-width="2"/>`; s+=ch;
+  s += `<circle cx="160" cy="62" r="9" fill="none" stroke="${C.gold}" stroke-width="3.4"/>` + K('M168,68 L196,96 M188,88 l6,-6 M194,94 l6,-6',3.4,C.gold);
+  for(let i=0;i<5;i++){ const x=232+i*30, y=196; s+=F(`M${x},${y} L${x},${y-26} Q${x+10},${y-32} ${x+20},${y-26} L${x+20},${y} Z`,C.lo,1.4); }
+  s += F('M276,110 L276,58 Q300,40 324,58 L324,110 Z',C.white,2.2) + F('M266,110 L334,110 L330,122 L270,122 Z',C.white,2) + K('M270,32 l-10,-10 M300,26 l0,-14 M330,32 l10,-10',1.6,C.gold);
+  s += T(110,224,'bound in the abyss',11,'middle',C.ink2) + T(300,224,'thrones; then the great white throne',11,'middle',C.ink2);
+  return svg('The dragon chained in a dark pit, a gold key, a row of thrones, and the great white throne', s);
+},
+city(){
+  let s = blob(200,120,120,81,C.ochre,.13) + `<circle cx="200" cy="40" r="30" fill="url(#sun)" opacity=".5"/>`;
+  s += F('M200,30 L280,72 L200,114 L120,72 Z',C.hi) + F('M120,72 L200,114 L200,200 L120,158 Z',C.gold) + F('M200,114 L280,72 L280,158 L200,200 Z','#d9a640');
+  for(let i=0;i<3;i++){ const t=(i+1)/4;
+    const lx=120+80*t, ly=72+42*t; s += F(`M${f1(lx-6)},${f1(ly+86)} L${f1(lx-6)},${f1(ly+68)} Q${f1(lx)},${f1(ly+58)} ${f1(lx+6)},${f1(ly+72)} L${f1(lx+6)},${f1(ly+92)} Z`,C.white,1.4);
+    const rx=200+80*t, ry=114-42*t; s += F(`M${f1(rx-6)},${f1(ry+92)} L${f1(rx-6)},${f1(ry+72)} Q${f1(rx)},${f1(ry+58)} ${f1(rx+6)},${f1(ry+68)} L${f1(rx+6)},${f1(ry+86)} Z`,C.white,1.4); }
+  s += F('M196,200 Q190,218 172,236 L228,236 Q210,218 204,200 Z',C.lapis,1.6);
+  [[150,226],[250,226]].forEach(([x,y])=>{ s+=K(`M${x},${y} L${x},${y-26}`,4,C.ink2)+blob(x,y-34,16,x,C.green,.9,1.2,.8); for(let k=0;k<4;k++) s+=dot(x-8+k*5,y-34+(k%2)*6,2.2,C.red); });
+  s += T(330,120,'a cube, like the',11,'middle',C.ink2)+T(330,136,'Most Holy Place',11,'middle',C.ink2)+T(330,152,'(1 Kings 6:20)',11,'middle',C.ink2);
+  s += T(70,120,'12 gates,',11,'middle',C.ink2)+T(70,136,'each one pearl',11,'middle',C.ink2);
+  return svg('The New Jerusalem drawn as a golden cube with pearl gates, a river flowing out, and the tree of life on both banks', s);
+},
+omega(){
+  let s = blob(200,120,110,91,C.lapis,.12);
+  s += `<text x="120" y="160" font-size="120" text-anchor="middle" fill="${C.red}" style="font-family:var(--f-greek)">Α</text><text x="280" y="160" font-size="120" text-anchor="middle" fill="${C.lapis}" style="font-family:var(--f-greek)">Ω</text>`;
+  s += star(200,64,18,C.gold) + K('M200,90 L200,200',1.2,C.ink2);
+  s += T(200,222,'the bright morning star (22:16)',12,'middle',C.ink2);
+  return svg('The Greek letters Alpha and Omega with a morning star between them', s);
+}
+};
+
+/* ---------- diagrams ---------- */
+const LENS = {
+  P:{name:'Preterist', gist:'mostly fulfilled in the first centuries', col:C.red},
+  H:{name:'Historicist', gist:'unfolds across church history', col:C.olive},
+  F:{name:'Futurist', gist:'chapters 4–22 mostly still future', col:C.lapis},
+  I:{name:'Idealist', gist:'a timeless pattern for every age', col:C.violet}
+};
+function lensGlyph(k, size=14){
+  const c=LENS[k].col, sh={P:`<circle cx="7" cy="7" r="5.5" fill="${c}"/>`, H:`<path d="M7,1.5 L12.8,12 L1.2,12 Z" fill="${c}"/>`, F:`<path d="M7,1 L13,7 L7,13 L1,7 Z" fill="${c}"/>`, I:`<path d="M7,7 m0,-1 a1,1 0 1 1 -1,1 a3,3 0 0 1 3,-3 a5,5 0 0 1 4,5 a6,6 0 0 1 -6,5.5" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round"/>`}[k];
+  return `<svg viewBox="0 0 14 14" width="${size}" height="${size}" aria-hidden="true">${sh}</svg>`;
+}
+function chartViews(){
+  const ticks=['AD 30','70','313','476','1517','Today','Future','Eternity'], x0=86, w=300, step=w/(ticks.length-1);
+  const X=i=>x0+i*step;
+  let s='';
+  ticks.forEach((t,i)=>{ s+=K(`M${f1(X(i))},28 L${f1(X(i))},212`,1,'rgba(90,67,48,.35)')+T(X(i),20,t,10.5,'middle',C.ink2); });
+  const row=(k,i)=>40+i*44;
+  const bar=(k,i,a,b,label,op=1,dash=false)=>`<rect x="${f1(X(a))}" y="${row(k,i)}" width="${f1(X(b)-X(a))}" height="22" rx="11" fill="${LENS[k].col}" opacity="${op}" ${dash?`stroke="${LENS[k].col}" stroke-dasharray="4 3" fill-opacity=".15"`:''}/>`+(label?T((X(a)+X(b))/2,row(k,i)+15,label,10.5,'middle',op>.6?C.hi:C.ink):'');
+  ['P','H','F','I'].forEach((k,i)=>{ s+=T(8,row(k,i)+15,LENS[k].name,12,'start',LENS[k].col); });
+  s += bar('P',0,0.55,1.55,'ch. 4–19: AD 60s–300s') + bar('P',0,5.6,7,'20–22 (partial)',.35,true);
+  s += bar('H',1,0.6,6,'ch. 4–19 spread across all church history') + bar('H',1,6,7,'',.35,true);
+  s += bar('F',2,0.55,0.95,'') + T(X(0.75),row('F',2)+36,'ch. 1–3',10,'middle',C.ink2) + bar('F',2,5.6,7,'ch. 4–22');
+  s += bar('I',3,0,7,'every age: the same story of faithfulness, beasts and victory',.28,true);
+  return `<svg class="art" viewBox="0 0 400 226" role="img" aria-label="Schematic: where each of the four views places the events of Revelation in history. Spacing is not to scale.">${s}</svg>`;
+}
+function chartStructure(){
+  let s=''; const cols=[C.red,C.ochre,C.lapis], lab=['seals','trumpets','bowls'];
+  const row=(y,label)=>T(8,y+4,label,12,'start',C.ink);
+  // straight line
+  s+=row(34,'One after another'); for(let i=0;i<21;i++) s+=`<circle cx="${150+i*11.5}" cy="34" r="4.2" fill="${cols[Math.floor(i/7)]}"/>`;
+  // telescoping
+  s+=row(96,'Nested (telescope)');
+  for(let i=0;i<7;i++) s+=`<circle cx="${150+i*13}" cy="80" r="4.2" fill="${cols[0]}"/>`;
+  s+=K('M228,84 Q232,96 240,96',1.4,C.ink2); for(let i=0;i<7;i++) s+=`<circle cx="${244+i*13}" cy="96" r="4.2" fill="${cols[1]}"/>`;
+  s+=K('M322,100 Q326,112 334,112',1.4,C.ink2); for(let i=0;i<7;i++) s+=`<circle cx="${338+i*8.4}" cy="112" r="3.6" fill="${cols[2]}"/>`;
+  // recapitulation
+  s+=row(170,'Retold three times');
+  for(let r=0;r<3;r++) for(let i=0;i<7;i++) s+=`<circle cx="${190+i*24}" cy="${150+r*20}" r="4.2" fill="${cols[r]}"/>`;
+  s+=K('M352,140 L352,200',2.4,C.ink)+T(360,174,'the end',11,'start',C.ink2);
+  lab.forEach((l,i)=>s+=`<circle cx="${160+i*80}" cy="222" r="4.2" fill="${cols[i]}"/>`+T(168+i*80,226,l,11,'start',C.ink2));
+  return `<svg class="art" viewBox="0 0 400 236" role="img" aria-label="Three ways to fit the seven seals, trumpets and bowls together: one after another, nested inside each other, or as three retellings of the same period that all end at the end">${s}</svg>`;
+}
+function spectrum(){
+  let s = K('M20,40 L380,40',2.4,C.ink) + K('M20,34 L20,46 M380,34 L380,46',2.4,C.ink);
+  s += T(20,66,'events happen as described',11,'start',C.ink2)+T(380,66,'symbols of spiritual realities',11,'end',C.ink2);
+  s += T(20,22,'More literal',12,'start')+T(380,22,'More symbolic',12,'end');
+  [['F',.2],['H',.43],['P',.56],['I',.86]].forEach(([k,p])=>{ const x=20+p*360; s+=`<g transform="translate(${x-9},31)">${lensGlyph(k,18).replace('<svg','<svg x="0" y="0"')}</g>`+T(x,92,LENS[k].name,11,'middle',LENS[k].col); });
+  return `<svg class="art" viewBox="0 0 400 100" role="img" aria-label="Where each view tends to sit between literal and symbolic reading">${s}</svg>`;
+}
+/* ---------- translation watch: one source, shown in stations and in its own scroll ---------- */
+const KIND = {mis:'Mistranslation', var:'Textual variant', com:'Common mistake', deb:'Debated', nu:'Lost nuance'};
+const WORDS = {
+title:{ref:'The title', kind:'com', title:'Revelation, not "Revelations"', greek:'Ἀποκάλυψις Ἰωάννου (Apokalypsis Iōannou)',
+  body:`The oldest manuscripts call the book "the Apocalypse of John." <i>Apokalypsis</i> means an unveiling, like pulling a cover off something. It is one unveiling, singular. The book's own first words call it "the revelation of Jesus Christ" (1:1). It is first about who Jesus is, and only then about events.`},
+signs:{ref:'1:1', kind:'nu', title:'"Signified": shown in signs', greek:'ἐσήμανεν (esēmanen), from σημεῖον (sēmeion), "sign"',
+  body:`The KJV's "signified" is exact. God "sign-ified" the message, meaning he showed it by signs. Some modern versions say "made it known" (ESV, NIV). That is correct, but it loses the hint. On line one, the book tells you it speaks in pictures.`},
+soon:{ref:'1:1; 1:3; 22:6–20', kind:'deb', title:'"Shortly" and "soon"', greek:'ἐν τάχει (en tachei); ταχύ (tachy); ὁ καιρὸς ἐγγύς (ho kairos engys)',
+  body:`<i>En tachei</i> and <i>tachy</i> can mean "soon" or "quickly." Preterists read "soon for the first readers." Many futurists read "swiftly, once it starts," or "soon on God's clock" (2 Peter 3:8). "The time is near" (1:3; 22:10) is harder to stretch, and every view has to explain it.`},
+land:{ref:'1:7', kind:'deb', title:'"All kindreds of the earth," or of the land?', greek:'πᾶσαι αἱ φυλαὶ τῆς γῆς (pasai hai phylai tēs gēs)',
+  body:`<i>Gē</i> means both "earth" and "land." The verse quotes Zechariah 12:10–12, where the mourners are the families of Israel. Preterists read "all the tribes of the land" and see first-century Judea. Futurists read "all the peoples of the earth" and see a worldwide return. Both are possible Greek.`},
+lordsday:{ref:'1:10', kind:'com', title:'"The Lord’s day" is not "the Day of the Lord"', greek:'ἐν τῇ κυριακῇ ἡμέρᾳ (en tē kyriakē hēmera)',
+  body:`<i>Kyriakē</i> is an adjective: "the Lord's." Early Christian writers used it for Sunday, the day of the resurrection (Didache 14; Ignatius, <i>To the Magnesians</i> 9). A few readers take it as "the Day of the Lord," the end times. Greek writes that phrase differently: <i>hēmera kyriou</i> (1 Thessalonians 5:2).`},
+angels:{ref:'1:20', kind:'nu', title:'"Angels" of the churches', greek:'ἄγγελοι (angeloi)',
+  body:`<i>Angelos</i> simply means "messenger." The "angels of the seven churches" may be guardian angels, or human leaders who read the letters aloud. Each letter scolds its "angel" for the church's sins, which some think fits a human pastor better.`},
+seat:{ref:'2:13', kind:'nu', title:'"Satan’s seat" is a throne', greek:'ὁ θρόνος τοῦ Σατανᾶ (ho thronos tou Satana)',
+  body:`KJV says "seat." The word is <i>thronos</i>, the same word Revelation uses over 40 times for God's throne. Pergamum had a giant altar of Zeus and was the first city in Asia with a temple to Rome and Augustus (29 BC). The picture is political: two thrones, and you must pick one.`},
+lukewarm:{ref:'3:15–16', kind:'com', title:'Lukewarm does not mean "better cold than lukewarm"', greek:'ψυχρός (psychros, cold), ζεστός (zestos, hot), χλιαρός (chliaros, lukewarm)',
+  body:`People often hear: "I'd rather you be cold toward God than lukewarm." The local setting points somewhere else. Hot springs at nearby Hierapolis were good for healing. Cold spring water at Colossae was good to drink. Laodicea's water came by aqueduct, warm and full of minerals, and it made people want to spit. Hot and cold are both good. Lukewarm means useless. (M. J. S. Rudwick and E. M. B. Green, <i>Expository Times</i>, 1958; Craig Koester.)`},
+beasts4:{ref:'4:6–9', kind:'mis', title:'"Four beasts" around God’s throne', greek:'ζῷα (zōa, "living ones") vs θηρίον (thērion, "wild beast")',
+  body:`The KJV calls the creatures by God's throne "four beasts." The Greek <i>zōa</i> means "living ones." The monster of chapter 13 is a different word, <i>thērion</i>. In 1611 "beast" meant any animal, so the KJV was not wrong for its day. Today it puts God's worshipers and God's enemies under one label. NKJV, ESV, NIV and NASB all say "living creatures."`},
+lamb:{ref:'5:6', kind:'nu', title:'A little lamb, slaughtered', greek:'ἀρνίον ὡς ἐσφαγμένον (arnion hōs esphagmenon)',
+  body:`<i>Arnion</i> is a small word, sometimes "little lamb." <i>Esphagmenon</i> means "slaughtered," a sacrifice word, stronger than "slain." The Lamb stands alive yet still bears the marks. It is the book's main name for Jesus: 29 uses, 28 of them for Christ. The one other use is the land beast, which has horns "like a lamb" (13:11).`},
+penny:{ref:'6:6', kind:'mis', title:'"A measure of wheat for a penny"', greek:'χοῖνιξ σίτου δηναρίου (choinix sitou dēnariou)',
+  body:`A <i>dēnarion</i> was a full day's pay for a worker (Matthew 20:2). A <i>choinix</i>, about a quart, was one person's daily ration. So the rider announces a whole day's wage for one person's bread: famine prices, many times the normal cost. "Penny" makes it sound cheap. NIV: "two pounds of wheat for a day's wages."`},
+pale:{ref:'6:8', kind:'nu', title:'The "pale" horse is green', greek:'χλωρός (chlōros)',
+  body:`<i>Chlōros</i> (the root of "chlorophyll") means pale green, the gray-green of a corpse. Revelation uses the same word for green grass in 8:7 and 9:4.`},
+virgins:{ref:'14:4', kind:'deb', title:'Men who are "virgins"', greek:'παρθένοι (parthenoi)',
+  body:`The 144,000 "were not defiled with women, for they are virgins." <i>Parthenos</i> is usually used of women but here describes men. Many scholars read it as the purity rule for soldiers in holy war (Deuteronomy 23:9–10; 1 Samuel 21:5), which fits the army-style census of chapter 7. Others read faithfulness with no idolatry, which the prophets call adultery. A few read literal celibacy.`},
+time:{ref:'10:6', kind:'mis', title:'"Time no longer"', greek:'χρόνος οὐκέτι ἔσται (chronos ouketi estai)',
+  body:`KJV: "that there should be time no longer." This has often been preached as "time itself will end and eternity begins." In context the angel is answering the martyrs' cry, "How long?" (6:10). <i>Chronos</i> here means a waiting period. NKJV, ESV, NIV and NASB: "There will be no more delay." The scene answers Daniel 12:7, where an angel swears how long the waiting will be.`},
+kingdom:{ref:'11:15', kind:'var', title:'"Kingdoms" or "kingdom"?', greek:'ἡ βασιλεία (singular) vs αἱ βασιλεῖαι (plural, Textus Receptus)',
+  body:`KJV: "The kingdoms of this world are become the kingdoms of our Lord." The oldest manuscripts have the singular: "The kingdom of the world has become the kingdom of our Lord and of his Christ." The world is pictured as one kingdom, the beast's, which changes hands.`},
+rapture:{ref:'12:5 (and 4:1)', kind:'com', title:'Revelation never uses "rapture" for the church', greek:'ἡρπάσθη (hērpasthē), from ἁρπάζω (harpazō), "snatch up"',
+  body:`"Rapture" comes from the Latin of 1 Thessalonians 4:17 (<i>rapiemur</i>, "we will be caught up"). Revelation uses <i>harpazō</i> only once, for the male child, Jesus, "caught up to God and to his throne" (12:5). Pre-tribulation readers find the church's rapture implied at 4:1, "Come up here." Those words are spoken to John alone. The same words are spoken again in 11:12, to the two witnesses after they rise from the dead.`},
+antichrist:{ref:'whole book', kind:'com', title:'The word "antichrist" is not in Revelation', greek:'ἀντίχριστος (antichristos)',
+  body:`It appears only in 1 John 2:18, 22; 4:3 and 2 John 7, where John says "many antichrists" have already come. Revelation's figures are "the beast" and "the false prophet." Linking them to Paul's "man of lawlessness" (2 Thessalonians 2) and Daniel's "little horn" (Daniel 7:8) is a reasonable step, but it is an interpretation, not a quote.`},
+seven:{ref:'11:2–3; 12:6, 14; 13:5', kind:'com', title:'Revelation never says "seven years"', greek:'μῆνας τεσσεράκοντα δύο (42 months); ἡμέρας χιλίας διακοσίας ἑξήκοντα (1,260 days)',
+  body:`Revelation names a 3½-year period in several ways: 42 months, 1,260 days, and "a time, times and half a time." The seven-year tribulation comes from joining these to the "one week" of Daniel 9:27. That can be argued, but the number seven is built from Daniel, not stated in Revelation.`},
+inhand:{ref:'13:16', kind:'mis', title:'A mark "in" the right hand', greek:'χάραγμα ἐπὶ τῆς χειρὸς (charagma epi tēs cheiros)',
+  body:`KJV: "to receive a mark in their right hand, or in their foreheads." The Greek <i>epi</i> means "on." The English "in" has fed ideas about implanted chips. <i>Charagma</i> was the word for a stamp: the emperor's image on a coin, or an official seal on a sales contract. The mark copies God's seal on the forehead (7:3; 14:1) and the command to bind God's word on the hand and forehead (Deuteronomy 6:8).`},
+n616:{ref:'13:18', kind:'var', title:'666 or 616?', greek:'χξϛʹ (666) vs χιϛʹ (616)',
+  body:`Most manuscripts read 666. But Papyrus 115 (third century, the oldest copy of this verse) and Codex Ephraemi (fifth century) read 616. Irenaeus, around AD 180, knew both and defended 666. In Hebrew letters, "Nero Caesar" spelled נרון קסר adds up to 666. Spelled the Latin way, נרו קסר, it adds up to 616. That fit is why many scholars think the first readers heard "Nero."`},
+armageddon:{ref:'16:16', kind:'com', title:'Armageddon is a place name', greek:'Ἁρμαγεδών (Harmagedōn), from Hebrew har Megiddo, "mountain of Megiddo"',
+  body:`It is not a word that means "the end of the world." NASB prints it "Har-Magedon." Oddly, Megiddo is a mound on a plain, not a mountain. Suggestions include nearby Mount Carmel, where Elijah faced the prophets of Baal, or a play on Hebrew <i>har mo'ed</i>, "mount of assembly," where the king of Babylon tried to set up his throne (Isaiah 14:13).`},
+mystery:{ref:'17:5', kind:'deb', title:'Is "Mystery" part of her name?', greek:'ὄνομα γεγραμμένον, μυστήριον (onoma gegrammenon, mystērion)',
+  body:`KJV prints "MYSTERY, BABYLON THE GREAT" all in capitals, as if "Mystery" is part of the name. The Greek can mean "a name written, a mystery," meaning a symbolic name (compare "symbolically called" in 11:8). ESV: "a name of mystery." It warns you not to look for a city that is literally named Babylon.`},
+deeds:{ref:'19:8', kind:'mis', title:'"The righteousness of saints"', greek:'τὰ δικαιώματα τῶν ἁγίων (ta dikaiōmata tōn hagiōn)',
+  body:`KJV: "the fine linen is the righteousness of saints." The Greek is plural: "the righteous acts of the saints" (NKJV, ESV, NIV). The verse also says the linen was "given" to the bride to wear (<i>edothē</i>). So it holds both together: a gift, and a life lived out.`},
+millennium:{ref:'20:2–7', kind:'nu', title:'The thousand years: one chapter', greek:'χίλια ἔτη (chilia etē)',
+  body:`The thousand years appear six times, all in Revelation 20, and nowhere else in the Bible as a reign. Every millennial view rests mostly on this one chapter, read alongside Old Testament promises such as Isaiah 11 and 65.`},
+washrobes:{ref:'22:14', kind:'var', title:'"Do his commandments" or "wash their robes"?', greek:'πλύνοντες τὰς στολὰς αὐτῶν vs ποιοῦντες τὰς ἐντολὰς αὐτοῦ',
+  body:`KJV: "Blessed are they that do his commandments." The oldest manuscripts: "Blessed are those who wash their robes." Written in capitals with no spaces, as scribes wrote, the two look alike: ΠΛΥΝΟΝΤΕΣΤΑΣΣΤΟΛΑΣ and ΠΟΙΟΥΝΤΕΣΤΑΣΕΝΤΟΛΑΣ. A tired copyist could slip. "Wash their robes" ties back to 7:14.`},
+bookoflife:{ref:'22:19', kind:'mis', title:'"Book of life" should be "tree of life"', greek:'ἀπὸ τοῦ ξύλου τῆς ζωῆς (apo tou xylou tēs zōēs)',
+  body:`KJV: "God shall take away his part out of the book of life." Almost every Greek manuscript says "tree of life." When Erasmus printed the first Greek New Testament in 1516, his only manuscript of Revelation was missing its last page (22:16–21). He translated those verses back into Greek from the Latin Vulgate, and some Latin copies read <i>libro</i> ("book") instead of <i>ligno</i> ("tree"). The slip passed into the Textus Receptus and the KJV.`}
+};
+
+/* ---------- the stations ---------- */
+const STATIONS = [
+{ id:'ch1', ch:[1], cart:'Revelation 1', title:'The Voice on Patmos', art:'patmos',
+  sum:[`John is in exile on Patmos, a small island off the coast of modern Turkey, "because of the word of God." On "the Lord's day" he hears a voice like a trumpet. He turns and sees Jesus, shining, with hair white as wool, eyes like fire, and a sharp sword coming out of his mouth. Jesus holds seven stars and walks among seven gold lampstands. He explains the picture himself: the stars are the messengers of seven churches, and the lampstands are the churches.`,
+       `The first verse tells you how to read everything that follows. God "signified" it: he showed it in signs. Expect pictures that stand for things.`],
+  verse:{ref:'1:1', plain:`This is the unveiling of Jesus Christ. God gave it to him to show his servants what must happen soon. He made it known through signs, sending his angel to his servant John.`,
+    kjv:`The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified it by his angel unto his servant John.`,
+    greek:`Ἀποκάλυψις Ἰησοῦ Χριστοῦ … ἃ δεῖ γενέσθαι ἐν τάχει, καὶ ἐσήμανεν`, gk:`apokalypsis = unveiling; esēmanen = "he showed by signs"`},
+  lit:`Jesus really appeared to John in a vision, and John wrote down what he saw. Many literal readers use 1:19 as the book's outline: what John has seen (chapter 1), what is now (chapters 2–3), and what will come later (chapters 4–22).`,
+  sym:`The portrait is built from Daniel 7 and 10 and is not meant as a physical description. White hair recalls the "Ancient of Days," God himself. The sword from his mouth is his word (Isaiah 49:2; Hebrews 4:12). Jesus walking among the lampstands means he is present with his churches.`,
+  views:{P:`Written before AD 70. "Soon" means soon for the first readers. The "coming with the clouds" (1:7) is Christ's judgment on Jerusalem.`,
+    H:`The book is a map of church history, from John's day to the return of Christ.`,
+    F:`Chapters 1–3 are John's day. Most of what follows is still in the future.`,
+    I:`The vision shows what is always true: Christ is present with his suffering people in every age.`},
+  words:['signs','soon','land','lordsday','angels'],
+  echoes:'Daniel 7:9–14 · Daniel 10:5–6 · Zechariah 12:10 · Exodus 19:6 · Isaiah 44:6'
+},
+{ id:'ch2', ch:[2,3], cart:'Revelation 2 – 3', title:'Seven Letters, Seven Churches', art:'map',
+  caption:'Map drawn from the cities’ real locations. The red loop follows the letters’ order, a natural road circuit starting from the port nearest Patmos.',
+  sum:[`Jesus dictates a letter to each of seven real churches in what is now western Turkey. Each letter has the same parts: a title of Jesus taken from chapter 1, "I know your works," praise or warning, "Whoever has ears, let them hear," and a promise "to the one who conquers."`,
+       `<b>Ephesus</b> works hard but has lost its first love (2:4). <b>Smyrna</b> is poor and persecuted and gets no rebuke. <b>Pergamum</b> lives "where Satan's throne is" and tolerates compromise. <b>Thyatira</b> is loving but tolerates a false prophet called "Jezebel." <b>Sardis</b> has a reputation for being alive, but is dead. <b>Philadelphia</b> is weak but faithful and gets no rebuke. <b>Laodicea</b> is rich and lukewarm, and hears "I stand at the door and knock" (3:20).`],
+  verse:{ref:'3:15–16', plain:`I know what you do. You are neither cold nor hot. I wish you were one or the other! But since you are lukewarm, I am about to spit you out of my mouth.`,
+    kjv:`I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot. So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth.`,
+    greek:`οὔτε ψυχρὸς εἶ οὔτε ζεστός … ὅτι χλιαρὸς εἶ`, gk:`psychros = cold, zestos = hot, chliaros = lukewarm`},
+  lit:`These were seven real congregations with real problems around AD 95. Archaeology confirms local details. Laodicea was a banking city, a center for eye salve, and famous for black wool. That is exactly what 3:17–18 mocks: "you are poor, blind and naked."`,
+  sym:`Seven means complete, so seven churches stand for the whole church. Every letter ends by speaking to "the churches," plural, so every church is meant to read all seven.`,
+  views:{P:`Real churches under Roman and synagogue pressure before the Jewish war.`,
+    H:`Seven ages of church history, from Ephesus (the apostles) to Laodicea (a rich, lukewarm modern church).`,
+    F:`Real first-century churches. Many dispensationalists also see the seven "church ages," and note that the word "church" disappears after chapter 3.`,
+    I:`Seven kinds of churches that exist in every generation.`},
+  words:['lukewarm','seat'],
+  spec:{key:'unrebuked', title:'The two churches with no rebuke are the two fighting over "who is Israel"',
+    body:`Only Smyrna and Philadelphia get no correction. They are also the only two letters that mention "those who say they are Jews and are not" (2:9; 3:9). To Philadelphia Jesus promises, "I will make them come and bow down at your feet." That reverses Isaiah 60:14, where the nations bow at Israel's feet. My guess is that this pairing is deliberate. The churches that suffer for their claim to belong to Israel's Messiah are the ones Jesus fully affirms. Commentators note the Isaiah reversal. Linking it to the "no rebuke" pattern is my own observation. It matters for the Church and Israel question below, because it is one of the strongest single verses for the "one people" view, and it rarely comes up in popular debates.`},
+  echoes:'Numbers 22–25 (Balaam) · 1 Kings 16–21 (Jezebel) · Isaiah 22:22 (key of David) · Isaiah 60:14 · Proverbs 3:12'
+},
+{ id:'ch4', ch:[4,5], cart:'Revelation 4 – 5', title:'The Throne and the Lamb', art:'throne',
+  sum:[`A door opens in heaven, and a voice says, "Come up here." John sees God's throne with a rainbow like an emerald, 24 elders on thrones, and four living creatures full of eyes: one like a lion, one like an ox, one with a human face, and one like an eagle. Day and night they sing, "Holy, holy, holy."`,
+       `God holds a scroll sealed with seven seals. No one is worthy to open it, and John weeps. An elder says, "The Lion of the tribe of Judah has won." John turns to see a lion, and sees a Lamb that looks like it has been slaughtered. The Lamb takes the scroll, and all creation worships.`,
+       `This is the hinge of the whole book. John hears "Lion" and sees "Lamb." The power that rules history is a sacrifice.`],
+  verse:{ref:'5:6', plain:`Then I saw a Lamb standing in the center of the throne, with the four living beings and the elders around it. It looked as if it had been slaughtered. It had seven horns and seven eyes, which are the seven Spirits of God sent out into all the earth.`,
+    kjv:`And I beheld, and, lo, in the midst of the throne and of the four beasts, and in the midst of the elders, stood a Lamb as it had been slain, having seven horns and seven eyes, which are the seven Spirits of God sent forth into all the earth.`,
+    greek:`ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον`, gk:`arnion hestēkos hōs esphagmenon = a lamb standing, as slaughtered`},
+  lit:`Heaven is a real place, and John was shown God's actual throne room. Many futurists read "Come up here" (4:1) as a picture of the church being raptured before the tribulation. That is why, they say, the church is not seen on earth after this.`,
+  sym:`The scene borrows from Isaiah 6 and Ezekiel 1. The four creatures stand for all living creation: wild animals, tame animals, humans and birds. The 24 elders may be the 12 tribes plus the 12 apostles, God's one people from both covenants. Seven horns and seven eyes mean full power and full knowledge.`,
+  views:{P:`The scroll is God's verdict on unfaithful Jerusalem. Some compare it to a certificate of divorce.`,
+    H:`The scroll holds the history of the church to the end of the age.`,
+    F:`The scroll is like the title deed to the earth. Opening it starts the future tribulation. The elders picture the church already in heaven.`,
+    I:`Christ's death and resurrection is the key that unlocks the meaning of all history.`},
+  words:['beasts4','lamb'],
+  spec:{key:'camp', title:'The throne room is laid out like Israel’s camp',
+    body:`In the wilderness, Israel camped in four groups around the tabernacle (Numbers 2). Old Jewish tradition gives each lead tribe a banner: Judah a lion, Reuben a man, Ephraim an ox, and Dan an eagle. Those are the four faces around God's throne. A few writers have linked the banners to Ezekiel 1. My extension is this: if the living creatures echo the camp banners, then heaven's worship is pictured as Israel camped around God. "The Lion of the tribe of Judah" (5:5) is named while the lion-faced creature stands nearby. The Lamb who appears is then the Passover lamb at the center of the camp. Caution: the banner tradition is written down later than Revelation, so this is a possible echo, not proof.`},
+  echoes:'Isaiah 6:1–3 · Ezekiel 1:5–28 · Genesis 49:9–10 · Isaiah 53:7 · Exodus 12 · Daniel 7:10'
+},
+{ id:'ch6', ch:[6], cart:'Revelation 6 · 8:1', title:'Seven Seals and Four Riders', art:'horsemen',
+  sum:[`The Lamb breaks the seals one at a time. The first four release four horsemen: a white horse whose rider has a bow and a crown, a red horse with a large sword, a black horse whose rider holds scales, and a pale green horse ridden by Death, with the Grave following.`,
+       `The fifth seal shows martyrs under the altar crying, "How long?" They are told to rest a little longer. The sixth seal brings a great earthquake: the sun goes black, the moon turns red, and people hide in caves. The seventh seal brings silence in heaven for about half an hour (8:1).`],
+  verse:{ref:'6:6', plain:`A quart of wheat for a full day's pay, and three quarts of barley for a day's pay. But don't harm the olive oil and the wine.`,
+    kjv:`A measure of wheat for a penny, and three measures of barley for a penny; and see thou hurt not the oil and the wine.`,
+    greek:`Χοῖνιξ σίτου δηναρίου`, gk:`choinix = one day's ration; dēnarion = one day's wage`},
+  lit:`Real wars, famines and plagues, coming one after another. The sixth seal's signs in the sky are real events in nature.`,
+  sym:`The horsemen come from Zechariah 1 and 6. They match what Jesus said in Matthew 24: wars, famines, earthquakes, "the beginning of birth pains." The four judgments in 6:8 (sword, famine, plague, wild beasts) are the exact list of Ezekiel 14:21. "The sun turned black" is the prophets' normal way of describing the fall of a kingdom (Isaiah 13:10 for Babylon; 34:4 for Edom).`,
+  views:{P:`Rome's war on Judea, AD 66–70, including the terrible famine during the siege recorded by Josephus.`,
+    H:`The Roman Empire's history from about AD 96 to 313, ending with the pagan empire's fall.`,
+    F:`The first half of a future tribulation. The white rider is the Antichrist offering false peace.`,
+    I:`These forces run through every age, and Christ holds the reins of each one.`},
+  extra:`<p class="small muted">Who is the white rider? Three answers: Christ and the gospel going out (compare 19:11); a false Christ imitating him; or the Parthians, mounted archers from the east and the one empire Rome feared. Each horseman is "given" his power, so all four answer to the Lamb.</p>`,
+  words:['penny','pale'],
+  echoes:'Zechariah 1:8; 6:1–8 · Ezekiel 14:21 · Matthew 24:6–8 · Isaiah 34:4 · Hosea 10:8'
+},
+{ id:'ch7', ch:[7], cart:'Revelation 7', title:'The 144,000 and the Countless Crowd', art:'multitude',
+  sum:[`Four angels hold back the four winds. Another angel seals God's servants on their foreheads: 144,000, which is 12,000 from each of the twelve tribes of Israel. Then John looks and sees a great crowd that no one could count, from every nation, tribe, people and language. They wear white robes, hold palm branches, and have "come out of the great tribulation."`,
+       `The pattern from chapter 5 repeats. There John heard "Lion" and saw a Lamb. Here he hears a number from Israel and sees a crowd from every nation. Whether these are two groups or one group seen two ways is the center of the Church and Israel question.`],
+  verse:{ref:'7:9', plain:`After this I looked, and there was a huge crowd that no one could count, from every nation, tribe, people and language. They stood in front of the throne and the Lamb, dressed in white robes, holding palm branches.`,
+    kjv:`After this I beheld, and, lo, a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, stood before the throne, and before the Lamb, clothed with white robes, and palms in their hands;`,
+    greek:`ὄχλος πολύς, ὃν ἀριθμῆσαι αὐτὸν οὐδεὶς ἐδύνατο`, gk:`ochlos polys = a great crowd; "which no one was able to count"`},
+  lit:`The 144,000 are 144,000 Jewish believers, 12,000 from each tribe, sealed for protection and service during the tribulation. The crowd is a separate group: people from the nations saved during that time.`,
+  sym:`144,000 is 12 × 12 × 1,000: the tribes times the apostles times a great number, meaning all of God's people. The list reads like a military census (Numbers 1), an army that wins by the Lamb's blood. The crowd "no one could count" fulfills God's promise that Abraham's family would be as many as the stars (Genesis 15:5).`,
+  views:{P:`The 144,000 are Jewish Christians who escaped Jerusalem before AD 70. The early historian Eusebius says they fled to Pella.`,
+    H:`The true church, sealed and kept during the barbarian invasions (the four winds).`,
+    F:`A literal remnant of Israel, plus a great crowd of people saved during the tribulation.`,
+    I:`The whole church, protected spiritually but not physically, as it passes through suffering.`},
+  israel:`The tribe list is unusual. Judah is listed first, not Reuben the firstborn. Dan and Ephraim are missing. Both Joseph and his son Manasseh are listed, and Levi, normally given no land, is included. Dan and Ephraim are the two tribes linked to the golden calves (1 Kings 12:29), which may explain why they are left out.`,
+  spec:{key:'dan', title:'Dan is missing here, but first in line at the end',
+    body:`Dan is left out of the sealing in chapter 7. But in Ezekiel's vision of restored Israel, Dan is the very first tribe given land (Ezekiel 48:1) and has its own gate in the city (48:32). Revelation 21 openly borrows Ezekiel's city, with twelve gates named for the twelve tribes, and it never lists which tribes. I suspect Dan's absence in chapter 7 is a mark of judgment on idolatry for that period, not a final exclusion. The worst tribe still gets a gate. The early idea that the Antichrist comes from Dan (Irenaeus, <i>Against Heresies</i> 5.30) is old, but Revelation never says it.`},
+  echoes:'Ezekiel 9:4 · Numbers 1–2 · Genesis 15:5 · Leviticus 23:40 (palms at Tabernacles) · Isaiah 49:10 · Isaiah 25:8'
+},
+{ id:'ch8', ch:[8,9], cart:'Revelation 8 – 9', title:'Seven Trumpets', art:'trumpets',
+  sum:[`After the silence, seven angels receive trumpets. An angel offers incense with the prayers of God's people, then throws fire to the earth. The first four trumpets strike a third of the land, sea, rivers and sky: hail and fire mixed with blood, a burning mountain thrown into the sea, a star called Wormwood that poisons the water, and a darkened sun, moon and stars.`,
+       `An eagle cries "Woe, woe, woe." The fifth trumpet opens the abyss. Locusts come out, shaped like war horses, with human faces, long hair, lions' teeth and scorpion tails. They hurt but cannot kill, for five months, and their king is Abaddon, "the Destroyer." The sixth trumpet releases four angels at the Euphrates and an army of 200 million riders. A third of humanity dies. Yet the rest "did not repent" (9:20–21).`],
+  verse:{ref:'9:11', plain:`Their king was the angel of the abyss. His name in Hebrew is Abaddon, and in Greek it is Apollyon: the Destroyer.`,
+    kjv:`And they had a king over them, which is the angel of the bottomless pit, whose name in the Hebrew tongue is Abaddon, but in the Greek tongue hath his name Apollyon.`,
+    greek:`ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων`, gk:`Abaddon = "destruction" (Job 26:6); Apollyōn = "Destroyer"`},
+  lit:`Real future disasters. Some popular teachers have suggested the locusts are attack helicopters and the 200 million riders are a modern Asian army. Some point out that the name Chernobyl comes from a plant related to wormwood.`,
+  sym:`The trumpets replay the plagues of Egypt: hail and fire (the 7th plague), water to blood (the 1st), darkness (the 9th), locusts (the 8th). God is leading a new Exodus. Only "a third" is struck, so these are warnings meant to bring people to repentance. The point of the chapter is its sad last line: they still did not repent.`,
+  views:{P:`The Roman armies and the warring rebel factions inside Judea during the Jewish War.`,
+    H:`The classic Protestant reading: trumpets 1–4 are the barbarian invasions of Rome; the locusts are the Arab armies of the 600s (with "five months" read as 150 years); the 6th trumpet is the Ottoman Turks, who took Constantinople in 1453.`,
+    F:`Future judgments during the tribulation, many taken literally.`,
+    I:`Natural and spiritual disasters through history, each one a call to turn back to God.`},
+  echoes:'Exodus 7–10 · Joel 1–2 (locust army "like horses," "teeth of a lion") · Jeremiah 9:15 · Amos 5:7 · Job 26:6'
+},
+{ id:'ch10', ch:[10,11], cart:'Revelation 10 – 11', title:'The Little Scroll and the Two Witnesses', art:'witnesses',
+  sum:[`A mighty angel stands with one foot on the sea and one on the land, holding a small open scroll. Seven thunders speak, but John is told to seal up what they said. The angel swears, "There will be no more delay." John eats the scroll. It tastes sweet but turns bitter in his stomach, and he is told to prophesy again.`,
+       `John measures God's temple, but the outer court is given to the nations, who trample the holy city for 42 months. Two witnesses prophesy for 1,260 days. They breathe fire, shut the sky so it won't rain, and turn water into blood, like Elijah and Moses. The beast kills them, and their bodies lie in the street of "the great city, which is symbolically called Sodom and Egypt, where their Lord was crucified." After 3½ days they rise, hear "Come up here," and go up to heaven. The seventh trumpet sounds: "The kingdom of the world has become the kingdom of our Lord and of his Christ."`],
+  verse:{ref:'11:3–4', plain:`I will give power to my two witnesses, and they will prophesy for 1,260 days, dressed in sackcloth. They are the two olive trees and the two lampstands that stand before the Lord of the earth.`,
+    kjv:`And I will give power unto my two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth. These are the two olive trees, and the two candlesticks standing before the God of the earth.`,
+    greek:`αἱ δύο ἐλαῖαι καὶ αἱ δύο λυχνίαι`, gk:`elaiai = olive trees; lychniai = lampstands, the same word used for the churches in 1:20`},
+  lit:`A rebuilt temple will stand in Jerusalem. Two individual prophets will preach there, perhaps Moses and Elijah, or Enoch and Elijah, the two men who never died (an early church view). The whole world will watch their bodies, which some say points to modern media.`,
+  sym:`The temple is God's people (1 Corinthians 3:16). Measuring it means protecting it. The two witnesses are called "two lampstands," and chapter 1 has already said lampstands are churches. So they picture the church's witness. There are two because the Law required two witnesses (Deuteronomy 19:15).`,
+  views:{P:`The Jerusalem temple before AD 70. "The great city where their Lord was crucified" is Jerusalem. The 42 months match the Roman war, spring 67 to August 70.`,
+    H:`The witnesses are the Old and New Testaments, or faithful groups such as the Waldensians. Some historicists linked their death and rising to the French Revolution's attack on the Bible.`,
+    F:`Two prophets in a rebuilt Jerusalem temple during the tribulation.`,
+    I:`The church's witness, suffering, and final vindication in every age.`},
+  words:['time','kingdom','seven'],
+  spec:{key:'olive', title:'The two witnesses as Israel and the church, standing side by side',
+    body:`Three passages use olive trees for God's people. In Zechariah 4, two olive trees feed one lampstand: the king and the priest of restored Israel. In Romans 11, Paul pictures one olive tree with natural branches (Israel) and grafted branches (the nations). Revelation 11 has two olive trees and two lampstands. Seven lampstands meant the whole church in chapter 1. My speculation is that the two lampstands are the two branches of Paul's tree, believing Israel and the church from the nations, witnessing together as the "kingdom of priests" (1:6). That would explain why there are two, why they share one story of death and resurrection, and why they appear in Jerusalem. I have not seen this argued in the main commentaries, though someone may have suggested it.`},
+  echoes:'Ezekiel 2:8–3:3 · Daniel 12:7 · Zechariah 4 · Ezekiel 40–42 · 1 Kings 17:1 · Exodus 7:17 · Daniel 7:25'
+},
+{ id:'ch12', ch:[12], cart:'Revelation 12', title:'The Woman, the Child and the Dragon', art:'woman',
+  sum:[`A great sign appears in the sky: a woman clothed with the sun, the moon under her feet, and a crown of twelve stars. She is about to give birth. A huge red dragon with seven heads and ten horns sweeps a third of the stars down with its tail and waits to eat her child. She gives birth to a son who will "rule all the nations with an iron rod." The child is caught up to God and his throne. The woman flees into the wilderness, where God cares for her for 1,260 days.`,
+       `War breaks out in heaven. Michael and his angels throw the dragon down. He is named plainly: "that ancient serpent called the Devil and Satan." A voice says, "They defeated him by the blood of the Lamb and by the word of their testimony." The dragon chases the woman, but she is given eagle's wings, and the earth swallows the flood he sends. So he goes to war against "the rest of her children."`,
+       `This chapter steps behind the scenes. It shows the real enemy behind the beasts that come next.`],
+  verse:{ref:'12:1', plain:`Then a great sign appeared in the sky: a woman dressed in the sun, with the moon under her feet and a crown of twelve stars on her head.`,
+    kjv:`And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars:`,
+    greek:`σημεῖον μέγα ὤφθη ἐν τῷ οὐρανῷ`, gk:`sēmeion mega = a great sign (KJV "wonder")`},
+  lit:`Some readers tie 12:1–2 to a real arrangement of stars in the constellation Virgo. Predictions built on this, such as the one for September 23, 2017, did not come true. Most literal readers still treat the woman as a symbol, because John calls her a "sign," and read her as national Israel.`,
+  sym:`The woman is Israel. In Joseph's dream the sun, moon and stars are Jacob's family (Genesis 37:9). Israel gives birth to the Messiah. Later she is the faithful people of God, the church, protected in the wilderness. Christian tradition also sees Mary here, and Eve: the "ancient serpent" fights the woman's offspring, as promised in Genesis 3:15.`,
+  views:{P:`Israel gives birth to the Messiah. The woman's flight is the Jerusalem church escaping before AD 70.`,
+    H:`The true church in the wilderness during 1,260 years of persecution, often dated AD 538–1798.`,
+    F:`The woman is national Israel, protected for the last 3½ years. Some suggest the hiding place is Petra.`,
+    I:`The age-long war between God's people and Satan, from Eden to the end.`},
+  extra:`<p class="small muted">The chapter states its time period two ways: 1,260 days (12:6) and "a time, times, and half a time" (12:14). Both describe the same stay in the wilderness, so the two phrases name one period.</p>`,
+  words:['rapture'],
+  spec:{key:'harpazo', title:'Revelation’s only "rapture" is the ascension of Jesus',
+    body:`The verb Paul uses for believers being "caught up" (1 Thessalonians 4:17) appears once in Revelation: for the child in 12:5. In Revelation's story, the Son's being caught up to the throne is the event that throws the dragon out of heaven (12:7–10). My speculation: Revelation reframes the rapture question. The church's hope is pictured as following the Lamb's own path, "wherever he goes" (14:4): faithful witness, death, resurrection, then "Come up here," exactly the sequence of the two witnesses (11:7–12). If that is right, the book does not ask "will we escape before the trouble?" but "will we follow where he went?" This lands closest to post-tribulation and idealist readings, and it is my own synthesis.`},
+  echoes:'Genesis 3:15 · Genesis 37:9 · Isaiah 66:7–8 · Psalm 2:9 · Daniel 10:13; 12:1 · Exodus 19:4 · Isaiah 27:1'
+},
+{ id:'ch13', ch:[13], cart:'Revelation 13', title:'The Two Beasts', art:'beasts',
+  sum:[`The dragon stands on the seashore. A beast rises from the sea with ten horns wearing ten crowns, and seven heads with names that insult God. It looks like a leopard, with a bear's feet and a lion's mouth. One of its heads seems to have had a deadly wound that healed. The whole world is amazed and worships the dragon and the beast: "Who is like the beast? Who can fight it?" It rules for 42 months and makes war on God's people.`,
+       `Then another beast rises from the earth. It has two horns like a lamb, but it speaks like a dragon. It works signs, calls fire from the sky, sets up a talking image of the first beast, and forces everyone to take a mark on the right hand or forehead in order to buy or sell. "Let the one who understands calculate the number of the beast, for it is a human number: 666."`,
+       `The sea beast mixes all four of Daniel's beasts (lion, bear, leopard, ten horns) into one. It is every empire rolled together.`],
+  verse:{ref:'13:18', plain:`This calls for wisdom. Whoever has understanding should figure out the number of the beast, because it is the number of a human being. Its number is 666.`,
+    kjv:`Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six.`,
+    greek:`ἀριθμὸς γὰρ ἀνθρώπου ἐστίν`, gk:`"for it is a human number" or "the number of a man"`},
+  lit:`A future world ruler, the Antichrist, will lead a global government. A false prophet will do real miracles. A literal mark, perhaps a chip, tattoo or digital ID, will be required to buy and sell. The healed wound may be a faked or real return from death.`,
+  sym:`The sea beast is empire that demands worship: first-century Rome, and any state that claims to be God. The land beast is the religion and propaganda that serve it, like the priests of the emperor's cult in Asia. The mark copies God's seal (7:3) and the Shema's command to bind God's word "on your hand and between your eyes" (Deuteronomy 6:8). What you think (forehead) and do (hand) shows whom you belong to.`,
+  views:{P:`The beast is Nero; "Nero Caesar" in Hebrew letters adds to 666. The healed wound is Rome nearly collapsing in AD 69, the year of four emperors, and then recovering.`,
+    H:`The Reformers' reading: the sea beast is the papacy and 42 months are 1,260 years. Luther, Calvin and the Westminster Confession (1646) called the pope the Antichrist. Most historicists today hold this more cautiously.`,
+    F:`A future Antichrist and false prophet. The 42 months are the second half of Daniel's seventieth "week" (Daniel 9:27). The mark is literal.`,
+    I:`Every age has its beasts: political power that wants worship, and the voices that make people give it.`},
+  extra:`<p class="small muted">The beast's healed head is described with the same words as the Lamb: <span class="greek">ὡς ἐσφαγμένην</span>, "as slaughtered" (13:3; compare 5:6). The dragon, the beast and the false prophet copy the Father, the Son and the Spirit. Scholars call them the unholy trinity.</p>`,
+  words:['inhand','n616','antichrist'],
+  spec:{key:'solomon', title:'666 and the king who broke the king’s law',
+    body:`The number 666 appears in one other place: the gold that came to Solomon in one year, 666 talents (1 Kings 10:14). That link is well known. What I rarely see noticed is the rest of the chapter. It goes on to list exactly what Deuteronomy 17:16–17 forbade Israel's king to pile up: gold, horses from Egypt, and (in chapter 11) many wives. It also describes Solomon controlling the horse and chariot trade (1 Kings 10:28–29). Revelation 13:17 is about controlling who can buy and sell. My speculation: "the number of a man" points to the moment a king of God's own people turned into a Pharaoh. The beast is not only a pagan threat from outside. It is what God's people become when they grasp at wealth, weapons and control.`},
+  echoes:'Daniel 7:1–8 · Daniel 3 (the image: worship or die) · Deuteronomy 6:8 · Deuteronomy 13:1–3 · 1 Kings 10:14 · Matthew 24:24 · 2 Thessalonians 2:3–10'
+},
+{ id:'ch14', ch:[14], cart:'Revelation 14', title:'The Lamb on Mount Zion', art:'zion',
+  sum:[`Right after the beasts, a contrast. The Lamb stands on Mount Zion with the 144,000. They have his name and his Father's name on their foreheads instead of the beast's mark. They sing a new song, "follow the Lamb wherever he goes," and are called firstfruits.`,
+       `Three angels fly across the sky. The first carries "an eternal gospel" to every nation: "Fear God and worship the one who made heaven and earth." The second cries, "Fallen, fallen is Babylon the great!" The third warns that anyone who worships the beast will drink the wine of God's anger. A voice says, "Blessed are the dead who die in the Lord from now on." Then come two harvests: one like a son of man reaps the earth with a sickle, and an angel gathers grapes into the winepress of God's anger. Blood flows as high as a horse's bridle for 1,600 stadia, about 184 miles.`],
+  verse:{ref:'14:13', plain:`Then I heard a voice from heaven say, "Write this: Blessed are the dead who die in the Lord from now on." "Yes," says the Spirit, "they will rest from their hard work, for what they have done goes with them."`,
+    kjv:`And I heard a voice from heaven saying unto me, Write, Blessed are the dead which die in the Lord from henceforth: Yea, saith the Spirit, that they may rest from their labours; and their works do follow them.`,
+    greek:`Μακάριοι οἱ νεκροὶ οἱ ἐν κυρίῳ ἀποθνῄσκοντες ἀπ᾿ ἄρτι`, gk:`makarioi = blessed; ap' arti = from now on`},
+  lit:`The 144,000 of chapter 7 stand with Christ on the real Mount Zion in Jerusalem. The bloodshed is a real battle near Jerusalem. Some note that 1,600 stadia is roughly the length of the land of Israel.`,
+  sym:`1,600 is 4 × 4 × 100. Four is the number of the earth's corners, so this means judgment that covers the whole world. The two harvests are different: grain is often the gathering of God's people (Matthew 13:30; John 4:35), while grapes and the winepress mean judgment (Isaiah 63:1–6; Joel 3:13).`,
+  views:{P:`The harvest of Judea in AD 70.`,
+    H:`The three angels picture later movements of world mission and reform. Seventh-day Adventists see the three angels' messages as their own calling since the 1840s.`,
+    F:`Events just before Christ returns, in order.`,
+    I:`The gospel goes out, empire falls, and history ends in a harvest.`},
+  words:['virgins'],
+  echoes:'Psalm 2:6 · Joel 2:32 · Jeremiah 2:3 · Daniel 7:13 · Joel 3:13 · Isaiah 63:1–6 · Isaiah 21:9'
+},
+{ id:'ch15', ch:[15,16], cart:'Revelation 15 – 16', title:'Seven Bowls and Armageddon', art:'bowls',
+  sum:[`The people who defeated the beast stand by a sea of glass mixed with fire and sing "the song of Moses and the song of the Lamb." Seven angels come out of the temple with seven gold bowls full of God's anger. The temple fills with smoke, and no one can enter until the plagues are finished.`,
+       `The bowls pour out on the earth (painful sores on those with the mark), the sea and the rivers (turned to blood), the sun (scorching heat), the beast's throne (darkness), and the Euphrates, which dries up for "the kings from the east." Three evil spirits like frogs come from the mouths of the dragon, the beast and the false prophet, and gather the kings of the world "to the place called in Hebrew Armageddon." The seventh bowl: "It is done!" The greatest earthquake ever splits the great city into three. Hailstones of about 100 pounds fall. Still, people curse God.`,
+       `The trumpets struck a third. The bowls strike everything. The warnings are over.`],
+  verse:{ref:'16:15–16', plain:`"Look, I am coming like a thief! Blessed is the one who stays awake and keeps their clothes on." Then the spirits gathered the kings to the place called in Hebrew Armageddon.`,
+    kjv:`Behold, I come as a thief. Blessed is he that watcheth, and keepeth his garments… And he gathered them together into a place called in the Hebrew tongue Armageddon.`,
+    greek:`εἰς τὸν τόπον τὸν καλούμενον Ἑβραϊστὶ Ἁρμαγεδών`, gk:`Harmagedōn = Har Megiddo, "mountain of Megiddo"`},
+  lit:`A final world war will gather in the Jezreel Valley near Megiddo in northern Israel. The Euphrates will literally dry up; some point to modern dams in Turkey as a sign.`,
+  sym:`Megiddo was a famous battlefield. Deborah won there (Judges 5:19) and King Josiah died there (2 Kings 23:29). "Armageddon" stands for the final showdown between God and the powers of the world. Drying the Euphrates recalls how Cyrus diverted the river to capture Babylon (Herodotus 1.191), and the drying of the Red Sea and the Jordan.`,
+  views:{P:`The end of the Roman siege. The "kings from the east" are the legions Titus brought from the Euphrates.`,
+    H:`The sixth bowl is the slow drying up of the Ottoman Empire in the 1800s.`,
+    F:`Future judgments at the end of the tribulation, ending in a literal campaign of Armageddon.`,
+    I:`The last conflict of good and evil, shown in every crisis of history.`},
+  words:['armageddon'],
+  spec:{key:'frogs', title:'Frogs: the last trick the magicians could copy',
+    body:`The bowls follow the plagues of Egypt closely: sores, blood, darkness, frogs, hail. The frogs are a curious detail. In Exodus, frogs were the last plague Pharaoh's magicians could copy (Exodus 8:7). At the next plague, gnats, they failed and said, "This is the finger of God" (8:18–19). In Revelation 16:13 the frogs come out of the mouths of the false prophet and his allies, the ones who do counterfeit signs (13:13–14). My speculation: the frogs mark the last moment the counterfeit still works. Right after them comes "It is done," and every imitation of God's power stops at once. I have not seen the Exodus 8 detail used this way.`},
+  echoes:'Exodus 7–10 · Exodus 15 (the song of Moses) · Judges 5:19 · Zechariah 12:11 · Joel 3:2, 12 · Jeremiah 51:36 · Ezekiel 38–39'
+},
+{ id:'ch17', ch:[17,18], cart:'Revelation 17 – 18', title:'Babylon the Great', art:'babylon',
+  sum:[`An angel shows John "the great prostitute who sits on many waters." She rides a scarlet beast with seven heads and ten horns. She wears purple and scarlet, gold, jewels and pearls, holds a gold cup full of filth, and is drunk on the blood of God's people. On her forehead is written "Babylon the Great, mother of prostitutes."`,
+       `The angel explains. The seven heads are seven hills where she sits, and also seven kings: five have fallen, one is, and one is still to come. The ten horns are ten kings who will give their power to the beast for one hour, then turn on the woman and burn her. "The woman you saw is the great city that rules over the kings of the earth" (17:18).`,
+       `Chapter 18 is a funeral song. "Fallen, fallen is Babylon the great!" "Come out of her, my people." Kings, merchants and sailors weep from far away over her lost trade. The cargo list ends with "slaves, that is, human souls" (18:13). Heaven rejoices.`],
+  verse:{ref:'18:4', plain:`Then I heard another voice from heaven say, "Come out of her, my people, so that you won't share in her sins and won't receive her plagues."`,
+    kjv:`And I heard another voice from heaven, saying, Come out of her, my people, that ye be not partakers of her sins, and that ye receive not of her plagues.`,
+    greek:`Ἐξέλθατε ὁ λαός μου ἐξ αὐτῆς`, gk:`"Come out of her, my people" (from Jeremiah 51:45)`},
+  lit:`A real future city: a rebuilt Babylon in Iraq (Saddam Hussein rebuilt parts of it in the 1980s), Rome, Jerusalem, or a world trade center. The prostitute is a future one-world false religion that the Antichrist uses and then destroys.`,
+  sym:`Babylon destroyed the first temple in 586 BC. Early Christians used "Babylon" as a code name for Rome (1 Peter 5:13). Rome sat on seven hills, was the world's great port city, and ruled over kings. The prostitute is the seductive side of empire: money, luxury, trade and false worship. She is the opposite of the Bride in chapters 19–21. The book ends with two women and two cities, and you choose one.`,
+  views:{P:`Split: either Rome (seven hills, emperors as heads) or Jerusalem, pictured as an unfaithful bride, as in Ezekiel 16, and called "the great city" in 11:8.`,
+    H:`Papal Rome, in the Reformers' reading.`,
+    F:`A future Babylon, as a city or a global system, plus an end-time false religion.`,
+    I:`The world system of greed and false worship in every age, which will surely fall.`},
+  extra:`<p class="small muted">Counting the seven kings is famously hard. It depends on whether you start with Julius Caesar or Augustus, and whether you count the three emperors who ruled briefly in AD 69. Different counts give different dates for the book, which is why the list has never settled the debate.</p>`,
+  words:['mystery'],
+  echoes:'Jeremiah 50–51 · Isaiah 47 · Ezekiel 26–27 (Tyre’s merchants and cargo list) · Ezekiel 16; 23 · Daniel 4:30 · 1 Peter 5:13'
+},
+{ id:'ch19', ch:[19], cart:'Revelation 19', title:'The Rider on the White Horse', art:'rider',
+  sum:[`Heaven shouts "Hallelujah," the only place in the New Testament where the word appears, four times here. The wedding of the Lamb has come, and his bride is dressed in fine linen, bright and clean. John falls down to worship the angel and is told, "Don't! Worship God."`,
+       `Heaven opens. A rider on a white horse is called Faithful and True. His eyes are like fire, he wears many crowns, and his robe is dipped in blood. His name is "The Word of God." The armies of heaven follow him on white horses, dressed in white linen, not armor. A sharp sword comes from his mouth. On his robe and thigh is written "King of kings and Lord of lords."`,
+       `The beast and the kings gather for war. There is no description of a fight. The beast and the false prophet are captured and thrown alive into the lake of fire, and the rest are killed by the sword from the rider's mouth.`],
+  verse:{ref:'19:11', plain:`Then I saw heaven opened, and there was a white horse. Its rider is called Faithful and True. He judges and makes war with justice.`,
+    kjv:`And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war.`,
+    greek:`καλούμενος πιστὸς καὶ ἀληθινός`, gk:`pistos kai alēthinos = faithful and true (the title from 3:14)`},
+  lit:`The visible, physical return of Jesus to earth (Acts 1:11; Zechariah 14:4), defeating real armies gathered against him.`,
+  sym:`Christ wins by his word (the sword from his mouth, Isaiah 11:4) and by his own sacrifice. His robe is bloody before any battle starts, which many read as his own blood. The war is announced but never fought, because it is over the moment he speaks. There are two suppers: the wedding supper of the Lamb, and "the great supper of God" for the birds.`,
+  views:{P:`Most partial preterists see this as the future Second Coming. Full preterists see Christ's victory through the gospel after AD 70.`,
+    H:`The Second Coming at the end of church history.`,
+    F:`The Second Coming at the end of the seven-year tribulation, before the thousand years.`,
+    I:`Christ's sure victory over evil, already won at the cross.`},
+  words:['deeds'],
+  echoes:'Isaiah 63:1–3 · Isaiah 11:4 · Psalm 2:9 · Ezekiel 39:17–20 · John 1:1 · Matthew 22:1–14 · Daniel 2:47'
+},
+{ id:'ch20', ch:[20], cart:'Revelation 20', title:'The Thousand Years', art:'millennium',
+  sum:[`An angel with the key to the abyss and a great chain seizes the dragon, binds him for 1,000 years, and seals him in the pit "so he could not deceive the nations." John sees thrones. Those who were beheaded for their witness, and who did not worship the beast, "came to life and reigned with Christ for a thousand years. This is the first resurrection."`,
+       `After 1,000 years Satan is released. He deceives the nations, called Gog and Magog, who surround "the camp of God's people and the beloved city." Fire from heaven consumes them, and the devil is thrown into the lake of fire. Then comes the great white throne. The dead, great and small, are judged by what they had done. Death and the Grave are thrown into the lake of fire, which is "the second death."`,
+       `This chapter holds the biggest debate in the book. There are three main views of the thousand years.`],
+  verse:{ref:'20:4', plain:`I saw thrones, and those seated on them were given authority to judge. I also saw the souls of those who had been beheaded for their witness to Jesus and for God's word. They came to life and reigned with Christ for a thousand years.`,
+    kjv:`And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God… and they lived and reigned with Christ a thousand years.`,
+    greek:`καὶ ἔζησαν καὶ ἐβασίλευσαν μετὰ τοῦ Χριστοῦ χίλια ἔτη`, gk:`ezēsan = they lived, or came to life; chilia etē = a thousand years`},
+  lit:`<b>Premillennial:</b> Christ returns before a literal 1,000-year reign on earth, ruling from Jerusalem. Old Testament promises, like the wolf living with the lamb (Isaiah 11:6–9) and long lives (Isaiah 65:20), come true on this earth. There are two physical resurrections, 1,000 years apart.`,
+  sym:`<b>Amillennial:</b> the 1,000 years is the present age, from Christ's first coming to his return. Satan was "bound" at the cross so the gospel can reach the nations (Matthew 12:29). The saints reign with Christ now. <b>Postmillennial:</b> the gospel will slowly win the world, bringing a long golden age before Christ returns. 1,000 is 10 × 10 × 10: a long, complete period.`,
+  views:{P:`Most preterists are amillennial or postmillennial. The thousand years began with Christ's first coming or after AD 70.`,
+    H:`Historicists have held all three positions. Many older Protestants were postmillennial, among them Jonathan Edwards.`,
+    F:`Premillennial: a literal future reign on earth after the tribulation. Dispensationalists see promises to national Israel fulfilled here.`,
+    I:`Amillennial: the present church age, seen from heaven's side. This was Augustine's view, and it is held in Catholic, Orthodox, Lutheran and many Reformed churches.`},
+  extra:`<p class="small muted">A detail that matters for the debate: 16:14, 19:19 and 20:8 all speak of gathering the nations for "<i>the</i> battle" (<span class="greek">τὸν πόλεμον</span>), and 19:17–21 and 20:8–9 both borrow from Ezekiel 38–39. Amillennial readers say these are one battle told three times. Premillennial readers say they are two battles, 1,000 years apart, and point to Isaiah 24:21–22, where hostile powers are shut in a prison and punished "after many days."</p>`,
+  words:['millennium'],
+  israel:`"The camp of God's people and the beloved city" (20:9). Premillennial readers see Jerusalem restored as Israel's capital. Amillennial readers see the church, which Hebrews 12:22 already calls "the heavenly Jerusalem."`,
+  echoes:'Ezekiel 38–39 · Daniel 7:9–10, 22 · Isaiah 24:21–22 · Matthew 12:29 · Isaiah 65:17–25 · Psalm 90:4'
+},
+{ id:'ch21', ch:[21,22], cart:'Revelation 21 – 22:5', title:'The New Jerusalem', art:'city',
+  sum:[`John sees a new heaven and a new earth, "and the sea was no more." The holy city comes down out of heaven like a bride dressed for her husband. A loud voice says, "Look! God's home is now with people." He will wipe away every tear. There will be no more death, grief, crying or pain. "I am making everything new."`,
+       `The city shines like jasper. Its twelve gates carry the names of the twelve tribes of Israel, and its twelve foundations carry the names of the twelve apostles. The angel measures it: a cube 12,000 stadia (about 1,400 miles) long, wide and high. Each gate is one pearl. The street is gold, clear as glass. There is no temple, because God and the Lamb are its temple, and no sun, because God's glory lights it. The gates are never shut.`,
+       `A river of the water of life flows from the throne. The tree of life grows on both banks, bearing twelve kinds of fruit, and its leaves heal the nations. There is no more curse. "They will see his face, and his name will be on their foreheads."`],
+  verse:{ref:'21:4', plain:`He will wipe every tear from their eyes. There will be no more death, or sadness, or crying, or pain, because the old order of things has passed away.`,
+    kjv:`And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.`,
+    greek:`ὁ θάνατος οὐκ ἔσται ἔτι`, gk:`"death will be no more" (the same phrase shape as "the sea was no more," 21:1)`},
+  lit:`A real physical city, about 1,400 miles on each side and just as tall. Its base would cover much of the United States. Some think it is a cube, others a pyramid.`,
+  sym:`The only cube in the Bible is the Most Holy Place, 20 × 20 × 20 cubits (1 Kings 6:20). The whole city has become the Holy of Holies, where everyone now lives in God's presence. The city is also the bride (21:9–10), so the city is the people. Its numbers are built from 12: Israel and the apostles together.`,
+  views:{P:`The new-covenant people of God after the old order passed away in AD 70 (Hebrews 8:13), already real now and complete in the future.`,
+    H:`The final, eternal state after history ends.`,
+    F:`The eternal state after the millennium. Some think the city hovers over the earth during the thousand years.`,
+    I:`The church's final destiny and its true identity even now.`},
+  israel:`Twelve gates named for Israel's tribes and twelve foundations named for the apostles. Neither group replaces the other. Both are built into one city, and you enter through Israel's names and stand on the apostles'.`,
+  spec:{key:'sea', title:'"No more sea": the barrier is gone',
+    body:`The sea is where the beast came from (13:1), so its end means the end of chaos and evil. That reading is common. I would add a temple layer. Before God's throne there was "a sea of glass" (4:6; 15:2). Solomon's temple also had a huge bronze basin called "the Sea," where priests washed before they could serve (1 Kings 7:23; 2 Chronicles 4:6). In Revelation 4 the sea of glass stands between the throne and everyone else. In the new creation there is no sea and no temple, and the people see God's face. My speculation: "no more sea" also means no more barrier and no more need to be washed before you may come close. The washing has already happened ("they washed their robes," 7:14; 22:14).`},
+  spec2:{key:'cherub', title:'The angel at Eden’s gate becomes twelve angels at open gates',
+    body:`After the fall, God placed cherubim at the east of Eden with a flaming sword "to guard the way to the tree of life" (Genesis 3:24). In the New Jerusalem there are angels at the gates again, twelve of them (21:12), but the gates are never shut (21:25), and the tree of life is inside. Revelation 22:14 then blesses those who "may go in through the gates" to "the tree of life." My speculation: the angels at the gates are the cherub of Genesis 3 turned around, no longer guarding the way to the tree but standing beside open doors. Commentators often note the return of the tree of life. Pairing Eden's guard with the city's twelve gatekeepers is my own connection.`},
+  echoes:'Isaiah 65:17; 66:22 · Isaiah 25:8 · Ezekiel 40–48 · Ezekiel 47:1–12 · Genesis 2–3 · Isaiah 60 · 1 Kings 6:20 · Exodus 28:17–21 · Exodus 33:20'
+},
+{ id:'ch22', ch:[22], cart:'Revelation 22:6 – 21', title:'Come, Lord Jesus', art:'omega',
+  sum:[`"These words are trustworthy and true." Jesus says "I am coming soon" three times (22:7, 12, 20). John falls before the angel again and is told again, "Worship God." Unlike Daniel, who was told to seal his book (Daniel 12:4), John is told, "Do not seal up the words of this prophecy, because the time is near."`,
+       `Jesus says, "I am the Alpha and the Omega, the First and the Last." "I am the root and descendant of David, the bright morning star." "The Spirit and the bride say, 'Come!'" A warning follows not to add to the book or take away from it. The last words are a promise and a prayer: "Yes, I am coming soon." "Amen. Come, Lord Jesus." Then a blessing: "The grace of the Lord Jesus be with all."`],
+  verse:{ref:'22:20', plain:`The one who is testifying to these things says, "Yes, I am coming soon." Amen! Come, Lord Jesus!`,
+    kjv:`He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus.`,
+    greek:`Ναί, ἔρχομαι ταχύ. Ἀμήν, ἔρχου κύριε Ἰησοῦ.`, gk:`the Greek form of the early Aramaic prayer "Maranatha" (1 Corinthians 16:22)`},
+  lit:`Christ could return at any moment. "Soon" is measured by God's clock (2 Peter 3:8), and every generation must be ready.`,
+  sym:`The book ends as it began, as a letter to be read aloud in church (1:3; 22:16). Its goal is not a calendar but faithfulness: "Blessed is the one who keeps the words" (22:7).`,
+  views:{P:`"Near" meant near for the first readers, and much of the book came true in AD 70.`,
+    H:`The whole of history from John's day to ours fits inside the book.`,
+    F:`The return is imminent, and the warnings are for the last generation.`,
+    I:`Every generation lives "near" the end and should live ready.`},
+  words:['washrobes','bookoflife'],
+  echoes:'Daniel 12:4 · Isaiah 44:6 · Isaiah 11:1, 10 · Numbers 24:17 · Deuteronomy 4:2 · Isaiah 55:1'
+}
+];
+
+/* ---------- beasts and creatures ---------- */
+const BEASTS = [
+ ['The Lamb','5:6',`Standing, but slaughtered; seven horns, seven eyes`,'Isaiah 53:7; Exodus 12',`Jesus, named outright (the Lamb is "the Lord of lords," 17:14). Every beast in the book is a copy of him.`, `None: every view agrees.`],
+ ['Four living creatures','4:6–8',`Lion, ox, human face, eagle; six wings; full of eyes`,'Ezekiel 1; Isaiah 6',`The highest angels, standing for all creation worshiping God. "Full of eyes" means always awake, seeing everything.`, `The four Gospels (Irenaeus; later Christian art: Matthew the man, Mark the lion, Luke the ox, John the eagle).`],
+ ['Four horsemen','6:1–8',`White, red, black and pale-green horses`,'Zechariah 1:8; 6:1–8',`Conquest, war, famine and death, let loose only as far as they are "given" power.`, `White rider as Christ or the gospel; as the Antichrist; as Parthian archers.`],
+ ['Locusts from the abyss','9:3–11',`War horses with human faces, crowns, women's hair, lions' teeth, scorpion tails`,'Joel 1–2; Exodus 10',`Demonic torment, ruled by "the Destroyer." They cannot touch those with God's seal.`, `Arab armies (historicists); modern aircraft (some futurists); rebel factions and Roman troops (preterists).`],
+ ['The 200 million riders','9:16–19',`Horses with lion heads, breathing fire, smoke and sulfur`,'Ezekiel 38–39',`A demonic army; the number means "beyond counting."`, `A future Asian army; the Ottoman cavalry; the Parthians.`],
+ ['The dragon','12:3–17',`Red, seven heads with seven crowns, ten horns`,'Isaiah 27:1; Psalm 74:13–14 (Leviathan)',`Satan. The text says so outright (12:9). The crowns mean he claims to be king.`, `None: the text names him.`],
+ ['The beast from the sea','13:1–10',`Leopard body, bear feet, lion mouth; ten crowned horns, seven heads, one wounded and healed`,'Daniel 7:1–8',`Political power that demands worship. Its first target is Rome. Futurists add a final world ruler.`, `Nero (preterists); the papacy (Reformers); a future Antichrist (futurists).`],
+ ['The beast from the earth','13:11–17',`Two horns like a lamb, speaks like a dragon; later called "the false prophet" (16:13; 19:20)`,'Deuteronomy 13:1–3',`Religion and propaganda that serve the state, like the priests of the emperor's cult in Asia.`, `A future religious leader; the papal hierarchy; Jewish leaders who cooperated with Rome.`],
+ ['The scarlet beast','17:3–14',`Scarlet, covered in insulting names; seven heads, ten horns; ridden by a woman`,'Daniel 7:7, 24',`The same beast in its final form. It "was, is not, and is about to come," a parody of God, who "is, was and is to come" (1:4).`, `The legend that Nero would return; a revived Roman Empire.`],
+ ['The prostitute','17:1–6',`Dressed in purple and scarlet, gold cup, seated on many waters`,'Ezekiel 16; Jeremiah 51',`"The great city that rules over the kings of the earth" (17:18): the seduction of wealth and false worship.`, `Rome; Jerusalem; a false church; a future global economy.`]
+];
+
+const DECODER = [
+ ['1:20','The seven stars are the messengers ("angels") of the seven churches.'],
+ ['1:20','The seven lampstands are the seven churches.'],
+ ['4:5','The seven torches are the seven Spirits of God.'],
+ ['5:6','The Lamb’s seven eyes are the seven Spirits sent into all the earth.'],
+ ['5:8','The bowls of incense are the prayers of God’s people.'],
+ ['7:14','The white robes were washed in the Lamb’s blood.'],
+ ['11:4','The two witnesses are the two olive trees and two lampstands.'],
+ ['11:8','The great city is "symbolically" Sodom and Egypt, "where their Lord was crucified."'],
+ ['12:9','The dragon is the ancient serpent, the Devil and Satan.'],
+ ['13:18','The beast’s number is "the number of a human."'],
+ ['14:4','The 144,000 are firstfruits for God and the Lamb.'],
+ ['17:9','The seven heads are seven hills, and also seven kings.'],
+ ['17:12','The ten horns are ten kings.'],
+ ['17:15','The waters are peoples, crowds, nations and languages.'],
+ ['17:18','The woman is the great city that rules the kings of the earth.'],
+ ['19:8','The fine linen is the righteous acts of God’s people.'],
+ ['19:13','The rider’s name is the Word of God.'],
+ ['20:14','The lake of fire is the second death.'],
+ ['21:9–10','The bride, the Lamb’s wife, is the holy city, New Jerusalem.']
+];
+
+/* ---------- image prompts ---------- */
+const STYLE = `Style: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, Egyptian hieroglyphic register lines and small glyph borders, plus a few bold flat shapes of lapis blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Wide horizontal composition, 3:2.`;
+const PROMPTS = [
+ ['One like a son of man (1:12–16)',`A tall figure in a long robe reaching to the feet with a gold sash across the chest; hair white as wool; eyes like flames; feet glowing like bronze in a furnace; face shining like the sun; a sharp two-edged sword coming from his mouth; seven stars held in his right hand; seven separate gold oil lampstands standing around him; the apostle John fallen at his feet on a rocky island shore.`],
+ ['The seven churches map (2–3)',`An illustrated map of western Asia Minor (modern western Turkey) and the Aegean coast, with the island of Patmos offshore; seven small walled cities marked along a looping road in this order: Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea; a small lampstand drawn beside each city; hot springs drawn at Hierapolis and a cold spring at Colossae near Laodicea; a dashed red route line; a ship sailing from Patmos to Ephesus.`],
+ ['The throne room (4:2–8)',`A throne with a rainbow like an emerald around it; flashes of lightning; seven burning torches; a sea of glass like crystal before the throne; twenty-four elders in white with gold crowns on twenty-four thrones in a circle, some casting their crowns down; four living creatures around the throne: one like a lion, one like an ox, one with a human face, one like a flying eagle, each with six wings and covered with eyes.`],
+ ['The Lamb who was slaughtered (5:6)',`A small lamb standing upright yet bearing the wound of a sacrifice; seven horns and seven eyes on its head; it stands in the center of the throne scene taking a rolled scroll sealed with seven wax seals; elders bow holding harps and gold bowls of incense.`],
+ ['The four horsemen (6:1–8)',`Four horses in procession: a white horse whose rider holds a bow and wears a crown; a fiery red horse whose rider holds a large sword; a black horse whose rider holds a pair of balance scales; a pale gray-green horse, the color of a corpse, ridden by Death, with a shadowy figure of the Grave (Hades) following behind.`],
+ ['The countless crowd (7:9–10)',`On one side, twelve tally-mark groups and twelve tribal banners for the 144,000 of Israel; on the other, a huge crowd beyond counting from every nation, in white robes, waving palm branches before a throne and a lamb.`],
+ ['Locusts from the abyss (9:1–11)',`Smoke rising from a deep pit; locusts shaped like horses prepared for battle, wearing gold crowns, with human faces, long hair like women's hair, teeth like lions', chests like iron breastplates, rushing wings, and scorpion tails with stingers; a dark angelic king above them named the Destroyer.`],
+ ['The mighty angel and the little scroll (10:1–2)',`A huge angel wrapped in a cloud with a rainbow over his head, his face like the sun, his legs like pillars of fire; his right foot on the sea and his left foot on the land; a small open scroll in his hand; seven thunders as dark shapes in the sky; John beside him eating the little scroll.`],
+ ['The two witnesses (11:3–12)',`Two prophets in rough sackcloth standing between two olive trees and two lampstands; fire coming from their mouths; a dry sky with no rain; later the same two rising to their feet and ascending in a cloud while a city trembles in an earthquake.`],
+ ['The woman and the dragon (12:1–6)',`A woman clothed with the sun, the moon under her feet, a crown of twelve stars on her head; facing her, a huge red dragon with seven heads, each head wearing a royal diadem, and ten horns in total; its tail sweeping a third of the stars from the sky; a newborn child being caught up toward a throne; the woman fleeing into a wilderness on eagle's wings.`],
+ ['The beast from the sea (13:1–3)',`A beast rising from churning waves, its body like a leopard with spots, feet like a bear's, mouths like a lion's; seven heads and ten horns in total, with a royal crown on each of the ten horns; insulting names written on the heads as unreadable marks; one head scarred by a healed mortal wound; a red dragon standing on the shore handing it a throne.`],
+ ['The beast from the earth (13:11–15)',`A beast climbing out of cracked ground, with two small horns like a lamb's but a dragon's mouth breathing smoke; it calls fire down from the sky; behind it a large statue of the sea beast that crowds bow to; people stamped with a mark on the right hand or forehead.`],
+ ['Seven bowls and three frogs (16)',`Seven angels in white with gold sashes pouring seven gold bowls onto land, sea, rivers, the sun and a dark throne; a dried-up Euphrates riverbed; three frog-like unclean spirits coming from the mouths of a dragon, a beast and a false prophet; a low earthen mound, Tel Megiddo, on a wide plain in the distance.`],
+ ['The woman on the scarlet beast (17:3–6)',`A woman dressed in purple and scarlet, decked in gold, jewels and pearls, holding a gold cup; she rides a scarlet beast with seven heads and ten horns, covered with insulting names; behind her seven hills and many waters; merchant ships and mourning sailors in the distance.`],
+ ['The rider on the white horse (19:11–16)',`Heaven opened; a rider on a white horse with eyes like flames and many crowns on his head; a robe dipped in blood with the words King of kings and Lord of lords written as faint unreadable marks on his robe and thigh; a sharp sword from his mouth; the armies of heaven following on white horses, dressed in white linen, carrying no weapons.`],
+ ['Binding the dragon; the thrones (20:1–4, 11)',`An angel coming down from heaven holding a key and a great chain, binding a red dragon and sealing it in a dark pit; above, a row of thrones with people seated on them; in the far distance, a great white throne before which earth and sky flee away.`],
+ ['The New Jerusalem (21:10–22:2)',`A radiant city coming down out of heaven, shaped as a perfect cube, shining like jasper and clear crystal; a high wall with twelve gates, each gate a single pearl, with an angel standing at each open gate; twelve foundation stones in different gem colors; a street of clear gold; a river of the water of life flowing from a throne down the middle; the tree of life growing on both banks with twelve kinds of fruit and healing leaves; no sun, the city lit from within.`]
+];
+
+const ART_SOURCES = [
+ ['Albrecht Dürer, <i>The Apocalypse</i> (1498)','Fifteen woodcuts, including the Four Horsemen and the Woman and the Dragon. Public domain.','https://commons.wikimedia.org/w/index.php?search=D%C3%BCrer+Apocalypse+woodcut&title=Special:MediaSearch&type=image'],
+ ['<i>Bamberg Apocalypse</i> (Reichenau, about 1000–1020)','Illuminated manuscript with bright, flat figures. Public domain.','https://commons.wikimedia.org/w/index.php?search=Bamberg+Apocalypse&title=Special:MediaSearch&type=image'],
+ ['<i>Facundus Beatus</i> (Spain, 1047)','A copy of Beatus of Liébana’s commentary, with bold Mozarabic paintings of the beasts. Public domain.','https://commons.wikimedia.org/w/index.php?search=Facundus+Beatus&title=Special:MediaSearch&type=image'],
+ ['<i>The Cloisters Apocalypse</i> (Normandy, about 1330)','Held by the Metropolitan Museum; its photos are released under Open Access (CC0).','https://www.metmuseum.org/search-results?q=Cloisters+Apocalypse'],
+ ['<i>The Apocalypse Tapestry</i> (Angers, 1377–1382)','The largest medieval tapestry series. The work is public domain; check each photo’s license.','https://commons.wikimedia.org/w/index.php?search=Apocalypse+Tapestry+Angers&title=Special:MediaSearch&type=image'],
+ ['William Blake, <i>The Great Red Dragon</i> paintings (1805–1810)','Four watercolors of Revelation 12. Public domain.','https://commons.wikimedia.org/w/index.php?search=Blake+Great+Red+Dragon&title=Special:MediaSearch&type=image']
+];
+/* ---------- history, aligned mythos and further reading, by station ---------- */
+const WIKI = t => `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(t)}&go=Go`;
+const EXTRA = {
+start:{ links:[['Book of Revelation','Book of Revelation'],['John of Patmos','John of Patmos'],['Apocalyptic literature','Apocalyptic literature'],['Book of Enoch','Book of Enoch'],['Dating of Revelation','Book of Revelation#Composition and setting']] },
+views:{ links:[['Preterism','Preterism'],['Historicism','Historicism (Christianity)'],['Futurism','Futurism (Christianity)'],['Idealism','Idealism (Christian eschatology)'],['Christian eschatology','Christian eschatology']] },
+keys:{ links:[['Victorinus of Pettau','Victorinus of Pettau'],['Seven seals','Seven seals'],['Seven trumpets','Seven trumpets'],['Seven bowls','Seven bowls'],['Prophecy of Seventy Weeks','Prophecy of Seventy Weeks']] },
+ch1:{ facts:[`Patmos was a small, rocky island that Rome used as a place of banishment. The Monastery of Saint John, founded in 1088, still stands there, and visitors are shown the "Cave of the Apocalypse" as the place of the vision.`,
+      `Revelation belongs to a family of Jewish "apocalypses" written between about 200 BC and AD 100, such as 1 Enoch, 4 Ezra and 2 Baruch. They share visions, angel guides, symbolic beasts, numbered periods of time, and a final judgment. Revelation is unusual because its author uses his own name; most apocalypses claim to be by ancient heroes like Enoch.`],
+  links:[['Patmos','Patmos'],['Cave of the Apocalypse','Cave of the Apocalypse'],['Son of man','Son of man (Christianity)'],['Ancient of Days','Ancient of Days']] },
+ch2:{ facts:[`Laodicea was wrecked by an earthquake in AD 60 and rebuilt with its own money, refusing help from Rome (Tacitus, <i>Annals</i> 14.27). "I am rich and need nothing" (3:17) fits a proud city.`,
+      `Sardis's hilltop fortress was thought impossible to take, yet it fell twice by surprise because no one was watching the walls (to Cyrus in 547 BC and to Antiochus III in 214 BC). Jesus warns Sardis, "If you do not wake up, I will come like a thief" (3:3).`,
+      `Philadelphia had so many earthquakes that many people lived outside the city (Strabo, <i>Geography</i> 12.8.18). The promise "I will make you a pillar in the temple of my God; you will never go out of it" (3:12) offers the opposite: a home that never shakes.`],
+  links:[['Seven churches of Asia','Seven churches of Asia'],['Laodicea','Laodicea on the Lycus'],['Hierapolis','Hierapolis'],['Pergamon Altar','Pergamon Altar'],['Sardis','Sardis']] },
+ch4:{ facts:[`Early Christian art gave the four creatures to the four Gospel writers: Matthew the man, Mark the lion, Luke the ox, John the eagle (based on Irenaeus and Jerome). You can still see them carved on church doors and painted in the <i>Book of Kells</i>.`],
+  myths:[{culture:'Assyria and Babylon', title:'The lamassu guardians', link:['Lamassu','Lamassu'],
+      body:`Assyrian palaces were guarded by huge stone lamassu: winged bulls or lions with human heads. Ezekiel saw his living creatures while exiled in Babylonia (Ezekiel 1:1), where such figures were familiar. Revelation's creatures share the mix of lion, ox, human and eagle. The difference is the point: the lamassu guard a king's door, while these creatures do nothing but worship.`, link2:'similar images; Ezekiel likely knew them'}],
+  links:[['Four living creatures','Living creatures (Bible)'],['Cherub','Cherub'],['Seraph','Seraph'],['Lion of Judah','Lion of Judah'],['Lamb of God','Lamb of God']] },
+ch6:{ facts:[`The Jewish historian Josephus, an eyewitness, describes the famine in Jerusalem during the Roman siege of AD 70: people ate leather and grass, and grain was sold secretly at huge prices (<i>Jewish War</i> 5.10; 6.3). Preterists read the black horse against that background.`],
+  myths:[{culture:'Norse', title:'Fimbulwinter before Ragnarök', link:['Fimbulwinter','Fimbulwinter'],
+      body:`In Norse myth the end of the world is preceded by Fimbulwinter: three winters with no summer, while brothers kill each other in war. Then wolves swallow the sun and the moon, and the stars fall (<i>Völuspá</i>; Snorri's <i>Gylfaginning</i>). War, hunger and a darkened sky before the end closely match the seals. These Norse sources were written down around 1200, by Christians, so some borrowing may run the other way.`, link2:'similar pattern; written later'}],
+  links:[['Four Horsemen of the Apocalypse','Four Horsemen of the Apocalypse'],['Seven seals','Seven seals'],['Siege of Jerusalem (AD 70)','Siege of Jerusalem (70 CE)'],['Parthian Empire','Parthian Empire'],['Denarius','Denarius']] },
+ch7:{ facts:[`Jehovah's Witnesses read the 144,000 literally: only that many go to heaven to rule with Christ, while other faithful people live forever on a restored earth.`,
+      `The church historian Eusebius (about AD 325) says the Christians of Jerusalem were warned by a prophecy and fled to Pella, east of the Jordan, before the city fell (<i>Church History</i> 3.5.3).`],
+  links:[['144,000','144,000'],['Twelve Tribes of Israel','Twelve Tribes of Israel'],['Tribe of Dan','Tribe of Dan'],['Sukkot (palms)','Sukkot'],['Great Tribulation','Great Tribulation']] },
+ch8:{ facts:[`Apollyon sounds like Apollo, the god that emperors such as Nero and Domitian liked to be linked with. Some scholars think John is making a pointed joke: Rome's favorite god is the king of the pit.`],
+  links:[['Seven trumpets','Seven trumpets'],['Abaddon','Abaddon'],['Wormwood','Wormwood (Bible)'],['Plagues of Egypt','Plagues of Egypt'],['Locust','Locust']] },
+ch10:{ facts:[`Moses and Elijah appear together with Jesus at the Transfiguration (Mark 9:4), which is one reason many readers name them as the two witnesses. Malachi 4:5 also promises that Elijah will return "before the great and dreadful day of the Lord."`],
+  links:[['Two witnesses','Two witnesses'],['Transfiguration of Jesus','Transfiguration of Jesus'],['Third Temple','Third Temple'],['Seven thunders','Seven thunders']] },
+ch12:{ myths:[
+      {culture:'Greek', title:'Leto, Python and the newborn god', link:['Leto','Leto'],
+       body:`In the Greek story the dragon Python hunts the pregnant goddess Leto to kill her child. She is carried to safety, gives birth to Apollo, and Apollo later kills the dragon (Hyginus, <i>Fabulae</i> 140). Ephesus claimed that Leto gave birth in a grove near the city (Tacitus, <i>Annals</i> 3.61), so John's first readers knew the tale. Many scholars think Revelation 12 retells it on purpose: the true child who defeats the dragon is Jesus, not Apollo, the god the emperors claimed (Adela Yarbro Collins, <i>The Combat Myth in the Book of Revelation</i>, 1976).`, link2:'likely deliberate echo'},
+      {culture:'Babylon and Canaan', title:'The god who defeats the sea dragon', link:['Chaoskampf','Chaoskampf'],
+       body:`Across the ancient Near East, a god defeats a sea monster to bring order to the world. In the <i>Enuma Elish</i>, Marduk splits the sea-dragon Tiamat in two. At Ugarit, Baal crushes Yam, the Sea. The Old Testament borrows this picture for the true God (Psalm 74:13–14; Isaiah 51:9). Revelation completes it: the dragon is thrown down, and in the end "the sea was no more" (21:1).`, link2:'shared imagery, used by the Old Testament'},
+      {culture:'Egypt', title:'Isis hides Horus from Set', link:['Isis','Isis'],
+       body:`Egyptian myth tells how the goddess Isis hid her infant son Horus in the marshes of the Nile Delta to protect him from his murderous uncle Set, who later took the form of beasts. A mother hiding her child from a monster in a wild place is an old and widespread story shape.`, link2:'similar story shape'}],
+  links:[['Woman of the Apocalypse','Woman of the Apocalypse'],['War in Heaven','War in Heaven'],['Michael (archangel)','Michael (archangel)'],['Python (mythology)','Python (mythology)']] },
+ch13:{ facts:[`After Nero killed himself in AD 68, rumors spread that he was not really dead and would return from the east with a Parthian army. At least three men later claimed to be Nero (Tacitus, <i>Histories</i> 2.8; Suetonius, <i>Nero</i> 57). Scholars call this the Nero redivivus ("Nero alive again") legend.`,
+      `The Hebrew spelling "Neron Qesar" (נרון קסר), the one that adds up to 666, is found in an Aramaic document from Wadi Murabba'at near the Dead Sea, dated to Nero's reign. And 666 is a "triangular" number: 1 + 2 + 3 + … + 36 = 666.`],
+  myths:[
+      {culture:'Ugarit (Syria)', title:'Litan, the serpent with seven heads', link:['Lotan','Lotan'],
+       body:`Clay tablets from Ugarit, about 1300 BC, describe Litan (Lotan), "the twisting serpent, the mighty one with seven heads," defeated by Baal. Isaiah 27:1 uses almost the same words for Leviathan. Seven-headed monsters also appear on Mesopotamian cylinder seals. When John describes a seven-headed beast, he is using a picture of chaos that was already 1,400 years old.`, link2:'direct background image'},
+      {culture:'Islam', title:'Al-Masih ad-Dajjal, the false messiah', link:['Al-Masih ad-Dajjal','Al-Masih ad-Dajjal'],
+       body:`In Islamic tradition, the Dajjal ("the deceiver") appears before the end, works false miracles, claims to be divine and leads many astray, until Jesus returns and kills him. The hadith say the word <i>kafir</i> ("unbeliever") is written between his eyes, so the faithful can read it (Sahih Muslim). Here the mark is on the deceiver's own forehead. These traditions were written down centuries after Revelation.`, link2:'similar figure; written later'}],
+  links:[['The Beast (Revelation)','The Beast (Revelation)'],['Number of the beast','Number of the beast'],['Gematria','Gematria'],['Imperial cult of ancient Rome','Imperial cult of ancient Rome'],['Nero Redivivus legend','Nero Redivivus legend'],['Papyrus 115','Papyrus 115']] },
+ch14:{ links:[['Three Angels’ Messages','Three Angels’ Messages'],['Mount Zion','Mount Zion'],['Firstfruits','Firstfruits'],['Winepress','Winepress']] },
+ch15:{ facts:[`Tel Megiddo holds the ruins of more than 20 cities built one on top of another over about 4,000 years. It guarded the main road between Egypt and Mesopotamia, which is why so many armies fought there. Pharaoh Thutmose III's battle there, around 1457 BC, is the first battle in history recorded in detail.`],
+  links:[['Armageddon','Armageddon'],['Tel Megiddo','Tel Megiddo'],['Seven bowls','Seven bowls'],['Battle of Megiddo (15th century BC)','Battle of Megiddo (15th century BC)'],['Song of the Sea','Song of the Sea']] },
+ch17:{ facts:[`A Roman coin minted under Emperor Vespasian in AD 71 shows the goddess Roma sitting on seven hills, with the river Tiber beside her. Several scholars think John's first readers could have seen Revelation 17 as a dark parody of that very image.`],
+  links:[['Whore of Babylon','Whore of Babylon'],['Seven hills of Rome','Seven hills of Rome'],['Roma (personification)','Roma (personification)'],['Babylon','Babylon']] },
+ch19:{ myths:[
+      {culture:'Hindu', title:'Kalki on the white horse', link:['Kalki','Kalki'],
+       body:`In Hindu tradition, Kalki is the tenth and last avatar of Vishnu. He comes at the end of the dark age (the Kali Yuga), riding a white horse and holding a blazing sword, to destroy evil and begin a new age of truth (<i>Vishnu Purana</i>; <i>Kalki Purana</i>). The white horse and the sword are a striking match to 19:11–15. There is no known historical link between the two.`, link2:'striking similarity; no known link'},
+      {culture:'Zoroastrian (Persia)', title:'Saoshyant, the final savior', link:['Saoshyant','Saoshyant'],
+       body:`Zoroastrian teaching expects a final savior, the Saoshyant, born of a virgin from the prophet's preserved seed. He leads the last battle against evil and raises the dead. Persian ideas were known in the Jewish world after the exile, and scholars still debate how much they shaped Jewish hopes about the end.`, link2:'possible indirect influence; debated'}],
+  links:[['Second Coming','Second Coming'],['Wedding feast of the Lamb','Marriage of the Lamb'],['Hallelujah','Hallelujah'],['King of Kings','King of Kings']] },
+ch20:{ facts:[`Many early Christians expected the world to last 6,000 years, one "day" of a thousand years for each day of creation (Psalm 90:4), followed by a thousand-year Sabbath rest (<i>Epistle of Barnabas</i> 15). A similar idea appears in the Talmud (Sanhedrin 97a).`],
+  myths:[
+      {culture:'Zoroastrian (Persia)', title:'Azi Dahaka, the dragon chained under a mountain', link:['Aži Dahāka','Aži Dahāka'],
+       body:`In Persian tradition the three-headed dragon Azi Dahaka is defeated by the hero Thraetaona (Fereydun in the later <i>Shahnameh</i>), who chains him inside Mount Damavand instead of killing him. Near the end of time he breaks free and ravages the world, until the hero Keresaspa rises and kills him. Bound, released for a short time, then destroyed: almost the exact shape of Revelation 20:1–10.`, link2:'very close story shape'},
+      {culture:'Norse', title:'Loki and the wolf Fenrir, bound until the end', link:['Fenrir','Fenrir'],
+       body:`The gods bind the wolf Fenrir with a magic chain, and bind Loki in a cave, until Ragnarök. At the end they break loose, lead the giants and monsters against the gods, and fire consumes the world. Like Fimbulwinter, these stories were recorded by Christians around 1200, so the influence may run in either direction.`, link2:'similar story shape; written later'},
+      {culture:'Islam', title:'Gog and Magog behind the wall', link:['Gog and Magog','Gog and Magog'],
+       body:`The Qur'an tells of Ya'juj and Ma'juj (Gog and Magog), a destructive people shut behind a wall of iron and copper built by Dhul-Qarnayn. Near the end the wall gives way and they pour out over the earth (Surah 18:94–99; 21:96). Both traditions draw on Ezekiel 38–39.`, link2:'shared source in Ezekiel'}],
+  links:[['Millennialism','Millennialism'],['Premillennialism','Premillennialism'],['Amillennialism','Amillennialism'],['Postmillennialism','Postmillennialism'],['Last Judgment','Last Judgment']] },
+ch21:{ myths:[
+      {culture:'Zoroastrian (Persia)', title:'Frashokereti, the world made wonderful', link:['Frashokereti','Frashokereti'],
+       body:`Zoroastrian teaching ends history with the "making wonderful": the dead are raised, everyone passes through a river of molten metal that feels like warm milk to the good and burns the wicked, evil is destroyed, and the world is made new and perfect forever. The parallel to resurrection, judgment and a new creation is clear. How much Persian thought shaped Jewish and Christian hope is still argued.`, link2:'similar hope; influence debated'},
+      {culture:'Norse', title:'The green world after Ragnarök', link:['Ragnarök','Ragnarök'],
+       body:`After the fire, the Norse earth rises again out of the sea, green and fair. Fields grow without being sown, and the surviving gods find their golden game pieces lying in the grass (<i>Völuspá</i> 59–62). Revelation's new world is similar in its renewal and different in one telling detail: there is no sea at all.`, link2:'similar renewal; written later'}],
+  links:[['New Jerusalem','New Jerusalem'],['Tree of life (biblical)','Tree of life (biblical)'],['Holy of Holies','Holy of Holies'],['World to come','World to come']] },
+ch22:{ links:[['Alpha and Omega','Alpha and Omega'],['Maranatha','Maranatha'],['Erasmus','Erasmus'],['Textus Receptus','Textus Receptus'],['Book of Daniel','Book of Daniel']] },
+beasts:{ links:[['The Beast (Revelation)','The Beast (Revelation)'],['Leviathan','Leviathan'],['Daniel 7','Daniel 7'],['Unholy trinity','Unholy trinity']] },
+israel:{ links:[['Dispensationalism','Dispensationalism'],['Progressive dispensationalism','Progressive dispensationalism'],['Covenant theology','Covenant theology'],['Supersessionism','Supersessionism'],['Messianic Judaism','Messianic Judaism'],['Romans 11','Romans 11']] },
+words:{ links:[['Textus Receptus','Textus Receptus'],['Novum Instrumentum omne (Erasmus, 1516)','Novum Instrumentum omne'],['Papyrus 115','Papyrus 115'],['Codex Ephraemi Rescriptus','Codex Ephraemi Rescriptus'],['Textual criticism','Textual criticism'],['Vulgate','Vulgate']] }
+};
+
+const BOOKS = [
+ ['Steve Gregg, <i>Revelation: Four Views</i> (rev. ed. 2013)','Prints preterist, historicist, futurist and idealist commentary side by side, verse by verse. The best single tool for comparing the views fairly.'],
+ ['Richard Bauckham, <i>The Theology of the Book of Revelation</i> (1993)','Short and readable. The source for many of the patterns noted here, such as the 28 uses of "Lamb" for Christ.'],
+ ['Craig Keener, <i>Revelation</i> (NIV Application Commentary, 2000)','Clear, practical and fair to all the views.'],
+ ['Michael Gorman, <i>Reading Revelation Responsibly</i> (2011)','A short guide to reading Revelation as a call to faithful witness.'],
+ ['G. K. Beale, <i>The Book of Revelation</i> (NIGTC, 1999)','A large Greek-based commentary, strong on Old Testament background. Idealist with future fulfillment.'],
+ ['Craig Koester, <i>Revelation</i> (Anchor Yale Bible, 2014)','A major scholarly commentary, rich in Roman-world history.'],
+ ['David Aune, <i>Revelation</i> (Word Biblical Commentary, 3 vols., 1997–98)','The most detailed technical commentary, with ancient parallels.'],
+ ['John Walvoord, <i>The Revelation of Jesus Christ</i> (1966; updated 2011)','The classic dispensational futurist commentary.'],
+ ['Robert L. Thomas, <i>Revelation 1–7</i> and <i>Revelation 8–22</i> (1992–95)','A detailed literal, futurist reading of the Greek text.'],
+ ['Kenneth Gentry, <i>Before Jerusalem Fell</i> (1989)','The main case for dating Revelation before AD 70, the basis of preterism.'],
+ ['Adela Yarbro Collins, <i>The Combat Myth in the Book of Revelation</i> (1976)','The study of Revelation 12 and the ancient dragon myths.'],
+ ['Bruce Metzger, <i>A Textual Commentary on the Greek New Testament</i> (2nd ed. 1994)','Explains each manuscript difference, including 13:18, 22:14 and 22:19.']
+];
+/* ---------- render ---------- */
+const sheet = document.getElementById('sheet');
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const ICON = {
+  lit:`<svg viewBox="0 0 22 12" aria-hidden="true"><path d="M2,6 L20,6" stroke="${C.ink}" stroke-width="2.4" stroke-linecap="round"/></svg>`,
+  sym:`<svg viewBox="0 0 22 12" aria-hidden="true"><path d="M2,6 q4,-6 8,0 t8,0" fill="none" stroke="${C.ink}" stroke-width="2.2" stroke-linecap="round"/></svg>`
+};
+const wordCard = k => { const w=WORDS[k]; return `<div class="box word"><div class="tag"><span class="kind k-${w.kind}">${KIND[w.kind]}</span><i>${w.ref}</i></div><h5>${w.title}</h5><p class="greek small">${w.greek}</p><p>${w.body}</p></div>`; };
+const specCard = s => `<div class="box spec" id="spec-${s.key}"><div class="tag">Claude's speculation <i>my own idea, not established scholarship</i></div><h5>${s.title}</h5><p>${s.body}</p></div>`;
+const STENCIL = `<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7.5" fill="url(#spray)"/><path d="M8,13 L8,8 M5.6,9 L4.8,3.6 M7.4,8 L7.4,2.6 M9.2,8 L9.6,3 M10.8,9 L11.8,4.6 M5.4,11 L2.6,8.4" stroke="${C.parch}" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+const SCROLLI = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3,3 h9 a2,2 0 0 1 0,4 h-1 v6 h-8 a2,2 0 0 1 0,-4 h1 z" fill="none" stroke="${C.ink2}" stroke-width="1.4" stroke-linejoin="round"/></svg>`;
+const factCard = t => `<div class="box fact"><div class="tag">${SCROLLI}From history and scholarship</div><p>${t}</p></div>`;
+const mythCard = m => `<div class="box myth"><div class="tag">${STENCIL}Aligned mythos · ${m.culture} <i>a parallel from another tradition, not Scripture · ${m.link2}</i></div><h5>${m.title}</h5><p>${m.body}</p><p class="small"><a href="${WIKI(m.link[1])}" target="_blank" rel="noopener">${m.link[0]} on Wikipedia</a></p></div>`;
+const linksRow = id => { const L=(EXTRA[id]||{}).links; return L ? `<p class="links"><b>Read more</b>${L.map(([l,t])=>`<a href="${WIKI(t)}" target="_blank" rel="noopener">${l}</a>`).join('')}</p>` : ''; };
+const extrasFor = id => { const E=EXTRA[id]||{}; return (E.facts||[]).map(factCard).join('') + (E.myths||[]).map(mythCard).join(''); };
+const viewsList = v => `<ul class="views">${['P','H','F','I'].map(k=>`<li class="${k}">${lensGlyph(k)}<b>${LENS[k].name}</b><span>${v[k]}</span></li>`).join('')}</ul>`;
+
+const panels = [];
+const add = (id, label, html, cls='') => panels.push({id,label,html:`<section class="panel ${cls}" id="${id}" aria-label="${label}">${html}</section>`});
+
+add('start','Opening',`
+  <div class="cart study">A study scroll</div>
+  <h1>The Revelation</h1>
+  <p class="hand muted" style="font-size:1.1rem;margin-top:4px">of Jesus Christ, shown to John on Patmos</p>
+  ${ART.intro()}
+  <p class="lede">Revelation is the last book of the Bible. A man named John wrote it while exiled on the island of Patmos, probably around AD 95 under the emperor Domitian. Some scholars date it earlier, in the late 60s under Nero, and that date matters a lot for the preterist view.</p>
+  <p>It is three kinds of writing at once. It is a <b>letter</b> to seven churches (1:4), a <b>prophecy</b> (1:3), and an <b>apocalypse</b>, a Jewish style of writing that shows heaven's view of earth through symbols. It has 22 chapters and 404 verses. It echoes the Old Testament more than any other New Testament book, yet it never once says "as it is written."</p>
+  <h3>How to use this scroll</h3>
+  <p>Scroll sideways to walk through the book in order. Each stop gives a plain summary, the key verse three ways, how it reads literally and as symbol, and what each of the four main views says. Use <b>Lens</b> at the top to highlight one view across the whole scroll.</p>
+  <h3>How each kind of information looks</h3>
+  <ul class="types">
+    <li><i style="background:linear-gradient(90deg,var(--red) 0 22%,transparent 0)"></i><span><b style="color:var(--red);font-family:var(--f-display)">Scripture</b>: red rubric and initial, plain English first, then the KJV and the Greek.</span></li>
+    <li><i style="border:1.6px solid var(--ink-3);background:rgba(216,191,142,.5)"></i><span><b style="font-family:var(--f-display)">From history and scholarship</b>: archaeology, ancient writers and what scholars have found.</span></li>
+    <li><i style="display:grid;place-items:center">${lensGlyph('P',10)}</i><span><b style="font-family:var(--f-display)">Interpretations</b>: the four views, each marked with its own glyph, plus literal and symbolic readings side by side.</span></li>
+    <li><i style="border:1.6px solid var(--ink-2);background:rgba(180,111,38,.15)"></i><span><b style="color:var(--ochre);font-family:var(--f-display)">Translation watch</b>: mistranslations, manuscript differences and common mistakes, with the Greek.</span></li>
+    <li><i style="border:1.6px solid var(--olive);background:rgba(85,97,42,.12)"></i><span><b style="color:var(--olive);font-family:var(--f-display)">Church and Israel</b>: notes on that question.</span></li>
+    <li><i style="border:2px dotted var(--red);background:rgba(180,111,38,.15)"></i><span><b style="color:var(--red);font-family:var(--f-display)">Aligned mythos</b>: end-times stories from other cultures and religions, with a note on whether there is any real link.</span></li>
+    <li><i style="border:2px dashed var(--lapis);background:rgba(35,77,138,.08)"></i><span><b style="color:var(--lapis);font-family:var(--f-display)">Claude's speculation</b>: my own ideas and new connections, not established scholarship.</span></li>
+    <li><i style="border:1px solid rgba(35,77,138,.45)"></i><span><b style="color:var(--lapis);font-family:var(--f-display)">Read more</b>: links to Wikipedia articles and sources.</span></li>
+  </ul>
+  <h3>Translations used</h3>
+  <p class="small">The main text is a <b>plain-English rendering</b> I made from the Greek at about an 8th-grade reading level. The <b>KJV</b> (1611, public domain) is quoted in full for comparison. The <b>Greek</b> follows the critical text used by most modern Bibles (NA28/UBS5, SBLGNT), with the <b>Textus Receptus</b> behind the KJV and NKJV noted where they differ. The NKJV, ESV, NASB, CSB, NIV and NLT are cited by name where their wording matters. Revelation has fewer surviving Greek manuscripts than any other New Testament book, so its textual notes matter more than usual.</p>
+`);
+
+add('views','Four ways to read',`
+  <div class="cart study">Before you begin</div>
+  <h2>Four Ways to Read Revelation</h2>
+  <p class="lede">Christians have read Revelation four main ways. Each one takes the Bible seriously, and each has been held by careful, faithful people. Many readers mix them.</p>
+  <ul class="views" style="gap:12px">
+    <li class="P">${lensGlyph('P')}<b>Preterist</b><span>From Latin <i>praeter</i>, "past." Most of the book was fulfilled in the first centuries: the fall of Jerusalem in AD 70 and the conflict with pagan Rome. <i>Partial</i> preterists still expect a future return of Christ (chapters 19–22). Held by many Catholic scholars and by Reformed writers such as R. C. Sproul.</span></li>
+    <li class="H">${lensGlyph('H')}<b>Historicist</b><span>The book is a coded map of church history from John's day to the end. This was the standard Protestant view from the Reformation to the 1800s (Luther, Isaac Newton, Matthew Henry, many Puritans).</span></li>
+    <li class="F">${lensGlyph('F')}<b>Futurist</b><span>Chapters 4–22 describe events still to come: a tribulation, the Antichrist, Christ's return, and a 1,000-year reign. Most popular American teaching today is a form of this, often dispensational (the <i>Scofield Reference Bible</i>, Hal Lindsey, the <i>Left Behind</i> books).</span></li>
+    <li class="I">${lensGlyph('I')}<b>Idealist</b><span>The book is a symbolic picture of the battle between God and evil in every age, not a timeline of particular events. Its roots go back to Augustine. Many modern scholars take an "eclectic" view that mixes idealist and other readings.</span></li>
+  </ul>
+  <h3>Literal or symbolic?</h3>
+  ${spectrum()}
+  <p class="small">This is not a choice between "taking the Bible seriously" and "not." Every reader takes some parts literally and some as symbol. A futurist reads the sword from Jesus's mouth as a symbol. An idealist believes Jesus literally returns. The real question at each scene is which parts are which. This scroll shows both readings side by side so you can weigh them.</p>
+  <h3>Where each view places the events</h3>
+  ${chartViews()}
+  <p class="caption">A schematic drawing; the spacing between dates is not to scale.</p>
+`);
+
+add('keys','Keys to the code',`
+  <div class="cart study">Before you begin</div>
+  <h2>Keys to the Code</h2>
+  <h3>How the three sevens fit together</h3>
+  <p>The middle of the book is built from three sets of seven judgments: seals, trumpets and bowls. Readers disagree about how they relate.</p>
+  ${chartStructure()}
+  <p class="small"><b>One after another:</b> 21 events in a row, common in popular futurism. <b>Nested:</b> the seventh seal opens into the trumpets, and the seventh trumpet opens into the bowls. <b>Retold:</b> each set of seven covers the same period, ending each time at the end of the world, with growing intensity (a third, then all). This view is called recapitulation and goes back to Victorinus, around AD 260, who wrote the oldest surviving commentary on Revelation. Support for it: the sixth seal already sounds like the end (6:12–17), and the seventh of each set ends with thunder, lightning and an earthquake (8:5; 11:19; 16:18).</p>
+  <h3>The time markers</h3>
+  <ul class="decoder">
+    <li><b>3½ years</b><span>Named five ways: 42 months (11:2; 13:5), 1,260 days (11:3; 12:6), "a time, times and half a time" (12:14), from Daniel 7:25 and 12:7. With 30-day months, 42 × 30 = 1,260. 3½ is half of seven: a broken, cut-short time.</span></li>
+    <li><b>3½ days</b><span>The witnesses lie dead (11:9, 11): the same pattern in miniature.</span></li>
+    <li><b>5 months</b><span>The locusts (9:5, 10): about the life span of a locust swarm.</span></li>
+    <li><b>Hour, day, month, year</b><span>The four angels at the Euphrates are ready for one exact moment (9:15).</span></li>
+    <li><b>½ hour</b><span>Silence in heaven (8:1).</span></li>
+    <li><b>1 hour</b><span>The ten kings rule (17:12); Babylon falls (18:10, 17, 19).</span></li>
+    <li><b>10 days</b><span>Smyrna's suffering (2:10).</span></li>
+    <li><b>1,000 years</b><span>Satan bound; the saints reign (20:2–7).</span></li>
+  </ul>
+  <h3>Revelation's own decoder</h3>
+  <p class="small">Sometimes the book explains its own symbols. Start here before guessing. Notice that every time it decodes a symbol, it decodes it into a person, a group or a city, never into a date.</p>
+  <ul class="decoder">${DECODER.map(([r,t])=>`<li><b>${r}</b><span>${t}</span></li>`).join('')}</ul>
+`);
+
+STATIONS.forEach(s=>{
+  const v=s.verse;
+  let h = `<div class="cart">${s.cart}</div><h2>${s.title}</h2>${ART[s.art]()}`;
+  if(s.caption) h += `<p class="caption">${s.caption}</p>`;
+  h += s.sum.map((p,i)=>`<p${i===0?' class="lede"':''}>${p}</p>`).join('');
+  h += `<div class="verse"><div class="rub">Scripture · ${v.ref} · plain English</div><div class="plain">${v.plain}</div>
+    <dl><dt>KJV</dt><dd class="kjv">${v.kjv}</dd><dt>Greek</dt><dd class="gk"><span class="greek">${v.greek}</span><br>${v.gk}</dd></dl></div>`;
+  h += `<div class="readings"><div><h4>${ICON.lit}Read literally</h4><p>${s.lit}</p></div><div><h4>${ICON.sym}Read as symbol</h4><p>${s.sym}</p></div></div>`;
+  h += `<h3>Interpretations: the four views</h3>${viewsList(s.views)}`;
+  if(s.extra) h += factCard(s.extra.replace(/^<p[^>]*>|<\/p>$/g,''));
+  h += extrasFor(s.id);
+  if(s.israel) h += `<div class="box israel"><div class="tag">Church and Israel</div><p>${s.israel}</p></div>`;
+  (s.words||[]).forEach(k=> h += wordCard(k));
+  if(s.spec) h += specCard(s.spec);
+  if(s.spec2) h += specCard(s.spec2);
+  h += `<p class="echoes"><b>Old Testament echoes</b> · ${s.echoes}</p>` + linksRow(s.id);
+  add(s.id, `${s.cart}: ${s.title}`, h);
+});
+
+add('beasts','The beasts',`
+  <div class="cart study">Study scroll</div>
+  <h2>The Beasts and What They Stand For</h2>
+  <p class="lede">Revelation's creatures are built from Old Testament pieces, so the best first clue to any beast is where its parts came from. The "strongest reading" column is my judgment of what the text itself supports best. The last column gives the main alternatives fairly.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Creature</th><th>What John sees</th><th>Built from</th><th>Strongest reading</th><th>Other readings</th></tr></thead>
+    <tbody>${BEASTS.map(b=>`<tr><td>${b[0]}<br><span class="small muted" style="font-family:var(--f-body)">${b[1]}</span></td><td>${b[2]}</td><td>${b[3]}</td><td>${b[4]}</td><td>${b[5]}</td></tr>`).join('')}</tbody>
+  </table></div>
+  <h3>The pattern behind them</h3>
+  <p>Every evil figure in Revelation is a cheap copy of something holy. The dragon, the beast and the false prophet imitate the Father, the Son and the Spirit (16:13). The beast has a death-wound "as slaughtered," like the Lamb (13:3; 5:6). The land beast has horns "like a lamb" (13:11). The beast "was, is not, and is to come," mocking God, who "is, was and is to come" (17:8; 1:4). The mark on the forehead copies God's seal (13:16; 7:3). The prostitute city mirrors the bride city. A reader who learns to spot the counterfeit is doing exactly what 13:18 asks: "This calls for wisdom."</p>
+`,'wide');
+
+add('israel','Church and Israel',`
+  <div class="cart study">Study scroll</div>
+  <h2>The Church and the Nation of Israel</h2>
+  <p class="lede">Does Revelation see one people of God or two? This question shapes how you read chapters 7, 11, 12, 14, 20 and 21. Here is the evidence each side uses, then the main positions.</p>
+  <div class="grid2">
+    <div><h3 style="color:var(--lapis)">For two distinct peoples</h3>
+      <ul class="small">
+        <li>The word "church" (<span class="greek">ἐκκλησία</span>) appears 19 times in chapters 1–3, then not again until 22:16.</li>
+        <li>The 144,000 are listed tribe by tribe, 12,000 each (7:4–8).</li>
+        <li>Jerusalem is central: "the city where their Lord was crucified" (11:8), "the beloved city" (20:9).</li>
+        <li>The woman of chapter 12 matches Joseph's dream of Israel (Genesis 37:9).</li>
+        <li>Paul expects a future turning of Israel: "all Israel will be saved" (Romans 11:25–26). Daniel's seventy weeks are for "your people" (Daniel 9:24).</li>
+      </ul></div>
+    <div><h3 style="color:var(--olive)">For one people</h3>
+      <ul class="small">
+        <li>The church is called a "kingdom and priests" (1:6; 5:10), Israel's own title from Exodus 19:6.</li>
+        <li>"Those who say they are Jews and are not" (2:9; 3:9), and Isaiah 60:14 reversed in 3:9.</li>
+        <li>John hears 144,000 from Israel and then sees a crowd from every nation (7:4, 9), the same hear-then-see pattern as Lion and Lamb (5:5–6).</li>
+        <li>One bride (19:7). One city, with Israel's tribes on the gates and the apostles on the foundations (21:12–14).</li>
+        <li>Paul: "If you belong to Christ, you are Abraham's offspring" (Galatians 3:29); "the Israel of God" (6:16); "one new humanity" (Ephesians 2:15).</li>
+      </ul></div>
+  </div>
+  <h3>The main positions</h3>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Position</th><th>Israel and the church</th><th>How it reads Revelation</th></tr></thead>
+    <tbody>
+      <tr><td>Dispensational</td><td>Two peoples with two sets of promises. The church is raptured before the tribulation, and God then deals with national Israel.</td><td>Chapters 6–19 are Daniel's 70th week for Israel. The 144,000 are Jewish. The millennium fulfills Israel's land promises.</td></tr>
+      <tr><td>Progressive dispensational</td><td>One people of God in Christ, but ethnic Israel keeps a real future role.</td><td>Similar timeline, with more overlap between Israel and the church.</td></tr>
+      <tr><td>Historic premillennial</td><td>One people, plus a future mass turning of Jews to Jesus (Romans 11).</td><td>The church goes through the tribulation. Christ then reigns 1,000 years.</td></tr>
+      <tr><td>Covenant (amil or postmil)</td><td>One people. The church is the continuation and fulfillment of Israel, not its replacement, and Jewish believers remain part of it.</td><td>The 144,000 and the crowd are the same people. The New Jerusalem is the whole church.</td></tr>
+      <tr><td>Preterist</td><td>Varies. The focus is judgment on first-century Jerusalem's leaders, not on the Jewish people.</td><td>Babylon may be Jerusalem in AD 70. This reading has been misused to fuel hostility toward Jews, which careful preterists firmly reject.</td></tr>
+      <tr><td>Messianic Jewish</td><td>One body in Messiah, in which Jewish believers keep their Jewish identity and calling.</td><td>Reads the tribal names and Jerusalem as lasting signs of God's faithfulness to Israel.</td></tr>
+    </tbody>
+  </table></div>
+  ${specCard({key:'oneTree', title:'My reading: one tree, with Israel at its root', body:`Revelation never "replaces" Israel. It names the tribes one by one and writes them on the gates of the final city. But it also never keeps two separate peoples in its final picture: there is one bride, one city, one Lamb. My reading is closest to Paul's single olive tree in Romans 11, where Israel is the trunk and the nations are grafted in. The tribe names on the gates say "you enter through Israel," and the apostles on the foundations say "you stand on the gospel." This is my synthesis; it sits between the covenant and historic-premillennial positions. See also my note on the two witnesses as the two branches of that tree (chapter 11).`})}
+`,'wide');
+
+add('words','Translation watch',`
+  <div class="cart study">Study scroll</div>
+  <h2>Translation Watch</h2>
+  <p class="lede">Some popular beliefs about Revelation rest on a translation choice, a copying error, or a missing piece of history. Here they are in order, each with the Greek, so you can check them yourself.</p>
+  <div class="legend">${Object.entries(KIND).map(([k,v])=>`<span class="word"><span class="kind k-${k}" style="font-family:var(--f-display);font-size:.72rem;letter-spacing:.1em;color:var(--parch-hi);border-radius:var(--wobble);padding:1px 8px">${v}</span></span>`).join('')}</div>
+  <p class="small muted"><b>Mistranslation:</b> the English says something the Greek does not. <b>Textual variant:</b> manuscripts differ. <b>Common mistake:</b> a popular belief the text does not say. <b>Debated:</b> the Greek allows more than one reading. <b>Lost nuance:</b> correct English that hides something.</p>
+  <div class="grid2">${Object.keys(WORDS).map(wordCard).join('')}</div>
+`,'wide');
+
+add('ideas','Claude’s speculation',`
+  <div class="cart study">Study scroll</div>
+  <h2>Claude's Speculation</h2>
+  <p class="lede">You asked for new ideas, not just a summary of what others have said. These are mine. Each one is built on real verses, but none of them is established scholarship, and some parts may overlap with writers I don't know about. Weigh them the way the Bereans did (Acts 17:11).</p>
+  <ul class="ideas">${[...STATIONS.flatMap(s=>[s.spec,s.spec2].filter(Boolean).map(sp=>({sp,s}))), {sp:{key:'oneTree',title:'One tree, with Israel at its root'},s:{id:'israel',cart:'Church and Israel'}}].map(({sp,s})=>`<li><button data-go="${s.id}" data-spec="spec-${sp.key}">${sp.title}</button><p class="muted">${s.cart}</p></li>`).join('')}</ul>
+  <p class="small muted">Use the button at the top of the page to hide all of these if you want to read only the established material.</p>
+`);
+
+const ALLMYTHS = STATIONS.flatMap(s=>((EXTRA[s.id]||{}).myths||[]).map(m=>({m,s})));
+add('mythos','Other traditions',`
+  <div class="cart study">Study scroll</div>
+  <h2>End-Times Stories from Other Traditions</h2>
+  <p class="lede">Many cultures tell stories about how the world ends and begins again. Some of these shaped the imagery John used. Others were written down much later, and some look alike with no known connection. The last column says which is which, as best the evidence allows.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Tradition</th><th>The story</th><th>Where it meets Revelation</th><th>Connection</th></tr></thead>
+    <tbody>${ALLMYTHS.map(({m,s})=>`<tr><td>${m.culture}</td><td><a href="${WIKI(m.link[1])}" target="_blank" rel="noopener">${m.title}</a></td><td><button class="linkish" data-go="${s.id}">${s.cart}</button></td><td>${m.link2}</td></tr>`).join('')}</tbody>
+  </table></div>
+  <p class="small muted">Why it matters: Revelation often takes the most famous stories of its world and turns them around. The dragon-slaying god is Jesus, not Apollo. The beast with seven heads is not a cosmic force equal to God, but a creature that is captured. A similar image does not mean Christians borrowed their faith; it often means John was answering the stories his readers already knew.</p>
+`,'wide');
+
+add('sources','Sources',`
+  <div class="cart study">Study scroll</div>
+  <h2>Sources and Further Study</h2>
+  <p class="lede">These books stand behind much of this scroll. They come from different views, so reading two or three side by side is the best way to stay fair.</p>
+  <ul class="ideas">${BOOKS.map(([t,d])=>`<li><b style="font-family:var(--f-display);font-weight:400">${t}</b><p class="muted">${d}</p></li>`).join('')}</ul>
+  <h3>Free online texts</h3>
+  <p class="links"><b>Read</b><a href="https://www.blueletterbible.org/kjv/rev/1/1/" target="_blank" rel="noopener">Blue Letter Bible (KJV with Greek lexicon)</a><a href="https://www.biblegateway.com/passage/?search=Revelation+1&version=NIV;ESV;KJV;NASB" target="_blank" rel="noopener">Bible Gateway (compare NIV, ESV, KJV, NASB)</a><a href="https://sblgnt.com/" target="_blank" rel="noopener">SBL Greek New Testament</a><a href="https://www.stepbible.org/?q=reference=Rev.1" target="_blank" rel="noopener">STEP Bible (Tyndale House)</a></p>
+`);
+
+add('art','Art and image prompts',`
+  <div class="cart study">Study scroll</div>
+  <h2>Art and Image Prompts</h2>
+  <p class="lede">Every drawing on this scroll is an original sketch made for this page, so it needs no credit or license. The map is drawn from the cities' real locations.</p>
+  <h3>Public domain art to look at</h3>
+  <p class="small">I could not download outside images into this page from where it was built. These classic works are all public domain or openly licensed and are worth opening side by side with the scroll.</p>
+  <ul class="ideas">${ART_SOURCES.map(([t,d,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a><p class="muted">${d}</p></li>`).join('')}</ul>
+  <h3>Prompts for ChatGPT</h3>
+  <p class="small">Each prompt follows the text's own details (for example, the dragon's crowns sit on its heads, but the sea beast's crowns sit on its horns). Paste one into ChatGPT's image tool. The shared style block at the end keeps every image in the same scroll-sketch look.</p>
+  ${PROMPTS.map(([t,p],i)=>`<div class="prompt"><header><b>${t}</b><button class="copy" data-copy="p${i}">Copy prompt</button></header><textarea id="p${i}" readonly>${esc(p+'\n\n'+STYLE)}</textarea></div>`).join('')}
+`,'wide');
+
+panels.forEach(p=>{ if(!STATIONS.some(s=>s.id===p.id) && EXTRA[p.id] && EXTRA[p.id].links) p.html = p.html.replace(/<\/section>$/, linksRow(p.id)+'</section>'); });
+sheet.innerHTML = panels.map(p=>p.html).join('');
+
+/* ---------- navigation ---------- */
+const track = document.getElementById('track');
+const els = [...sheet.querySelectorAll('.panel')];
+const where = document.getElementById('where');
+const ruler = document.getElementById('ruler');
+const chToPanel = {}; STATIONS.forEach(s=>s.ch.forEach(c=>{ if(!chToPanel[c]) chToPanel[c]=s.id; }));
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function go(id, specId){
+  const el=document.getElementById(id); if(!el) return;
+  track.scrollTo({left: el.offsetLeft, behavior: reduce?'auto':'smooth'});
+  if(specId){ const sp=document.getElementById(specId); if(sp) el.scrollTo({top: sp.offsetTop-20, behavior: reduce?'auto':'smooth'}); }
+}
+let rb = `<button data-go="start" title="Opening">✦</button><button data-go="views" class="study">4 views</button><button data-go="keys" class="study">keys</button><span class="sep"></span>`;
+for(let c=1;c<=22;c++) rb += `<button data-go="${chToPanel[c]}" data-ch="${c}" title="Chapter ${c}">${c}</button>`;
+rb += `<span class="sep"></span>` + [['beasts','beasts'],['israel','church & Israel'],['words','translation watch'],['ideas','speculation'],['mythos','other traditions'],['sources','sources'],['art','art & prompts']].map(([id,l])=>`<button data-go="${id}" class="study">${l}</button>`).join('');
+ruler.innerHTML = rb;
+document.addEventListener('click', e=>{
+  const b=e.target.closest('[data-go]'); if(b){ go(b.dataset.go, b.dataset.spec); return; }
+  const c=e.target.closest('[data-copy]'); if(c){ const ta=document.getElementById(c.dataset.copy);
+    const done=()=>{ c.textContent='Copied'; setTimeout(()=>c.textContent='Copy prompt',1600); };
+    const fallback=()=>{ ta.focus(); ta.select(); c.textContent='Selected: press Ctrl/⌘+C'; };
+    try{ navigator.clipboard.writeText(ta.value).then(done, fallback); }catch(_){ fallback(); } }
+});
+function current(){
+  const x = track.scrollLeft + track.clientWidth*0.35; let i=0;
+  els.forEach((el,k)=>{ if(el.offsetLeft<=x) i=k; }); return i;
+}
+let lastI=-1;
+function sync(){
+  const i=current(); if(i===lastI) return; lastI=i;
+  where.textContent = panels[i].label;
+  ruler.querySelectorAll('button').forEach(b=>b.classList.toggle('on', b.dataset.go===panels[i].id));
+  const on = ruler.querySelector('button.on'); if(on){ const r=on.offsetLeft-ruler.clientWidth/2+on.clientWidth/2; ruler.scrollTo({left:r, behavior:'auto'}); }
+}
+let raf=0; track.addEventListener('scroll',()=>{ cancelAnimationFrame(raf); raf=requestAnimationFrame(sync); },{passive:true});
+document.getElementById('prev').onclick=()=>{ const i=current(); go(panels[Math.max(0,i-1)].id); };
+document.getElementById('next').onclick=()=>{ const i=current(); go(panels[Math.min(panels.length-1,i+1)].id); };
+document.addEventListener('keydown', e=>{
+  if(e.target.closest('textarea,input')) return;
+  if(e.key==='ArrowRight'){ e.preventDefault(); document.getElementById('next').click(); }
+  if(e.key==='ArrowLeft'){ e.preventDefault(); document.getElementById('prev').click(); }
+});
+/* vertical wheel reads down a station, then rolls the scroll sideways */
+track.addEventListener('wheel', e=>{
+  if(Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.ctrlKey) return;
+  const p = e.target.closest('.panel');
+  if(p){
+    const canDown = p.scrollTop + p.clientHeight < p.scrollHeight - 1, canUp = p.scrollTop > 0;
+    if((e.deltaY>0 && canDown) || (e.deltaY<0 && canUp)) return;
+  }
+  const tw = e.target.closest('.table-wrap'); if(tw && tw.scrollWidth>tw.clientWidth && e.shiftKey) return;
+  e.preventDefault(); track.scrollLeft += e.deltaY * (e.deltaMode===1?32:1);
+},{passive:false});
+
+/* ---------- lenses and speculation toggle ---------- */
+const lensBox = document.getElementById('lenses');
+lensBox.insertAdjacentHTML('beforeend', `<button class="chip" data-lens="" aria-pressed="true">All views</button>` + ['P','H','F','I'].map(k=>`<button class="chip" data-lens="${k}" aria-pressed="false">${lensGlyph(k,12)}${LENS[k].name}</button>`).join(''));
+const store = { get(k){ try{return localStorage.getItem(k)}catch(_){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(_){} } };
+function setLens(k){
+  if(k) document.body.dataset.lens=k; else delete document.body.dataset.lens;
+  lensBox.querySelectorAll('[data-lens]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lens===k)));
+  store.set('rev-lens', k);
+}
+lensBox.addEventListener('click', e=>{ const b=e.target.closest('[data-lens]'); if(b) setLens(b.dataset.lens); });
+const specBtn=document.getElementById('specToggle');
+function setSpec(on){ document.body.classList.toggle('nospec',!on); specBtn.setAttribute('aria-pressed',String(on)); specBtn.textContent = on?"Claude's speculation shown":"Claude's speculation hidden"; store.set('rev-spec', on?'1':'0'); }
+specBtn.onclick=()=>setSpec(document.body.classList.contains('nospec'));
+setLens(store.get('rev-lens')||''); setSpec(store.get('rev-spec')!=='0');
+
+const h = location.hash.slice(1);
+if(h && document.getElementById(h)) requestAnimationFrame(()=>{ track.scrollLeft = document.getElementById(h).offsetLeft; });
+sync();
+</script>

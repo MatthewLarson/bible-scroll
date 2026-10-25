@@ -1,0 +1,1040 @@
+[
+ {
+  "v": "18:2",
+  "a": "Abi",
+  "t": "Abi or Abijah?",
+  "p": "Kings names Hezekiah's mother Abi; 2 Chronicles 29:1 has the fuller Abijah.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "אֲבִי",
+    "en": "Abi",
+    "plain": "Abi"
+   },
+   {
+    "w": "2 Chronicles 29:1 (Masoretic Text); followed by some modern translations",
+    "orig": "אֲבִיָּה",
+    "en": "Abijah (\"the LORD is my father\")",
+    "plain": "Abijah"
+   }
+  ],
+  "follow": 0,
+  "why": "Abi is probably a short form of Abijah, a name built on the LORD's name. The Plain keeps the form in Kings."
+ },
+ {
+  "v": "18:11",
+  "a": "to the towns of Media",
+  "t": "Towns or mountains?",
+  "p": "The Hebrew has \"the towns of Media\" here and at 17:6; the Greek has \"the mountains of the Medes.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"in the cities of the Medes\")",
+    "orig": "וְעָרֵי מָדָי",
+    "en": "and the towns of Media",
+    "plain": "to the towns of Media"
+   },
+   {
+    "w": "Septuagint (Rahlfs, from Codex Vaticanus), here and at 17:6",
+    "orig": "ὄρη Μήδων",
+    "en": "mountains of the Medes",
+    "plain": "to the mountains of the Medes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have read <i>harei</i>, \"mountains of,\" for <i>'arei</i>, \"towns of\"; the two words differ in one guttural letter. Media lay in the Zagros mountains, so either fits. The Plain follows the Hebrew, as at 17:6.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:17",
+  "a": "the Tartan, the Rab-saris and the Rabshakeh",
+  "t": "Three officers or one?",
+  "p": "Kings names three Assyrian officers; the parallel in Isaiah 36:2 names only the Rabshakeh.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Greek of Kings; KJV",
+    "orig": "אֶת־תַּרְתָּן וְאֶת־רַב־סָרִיס וְאֶת־רַב־שָׁקֵה",
+    "en": "the Tartan and the Rab-saris and the Rabshakeh",
+    "plain": "the Tartan, the Rab-saris and the Rabshakeh"
+   },
+   {
+    "w": "Isaiah 36:2 (Masoretic Text; the Great Isaiah Scroll, 1QIsa-a, about 125 BC, agrees in having one officer)",
+    "orig": "אֶת־רַבְשָׁקֵה",
+    "en": "the Rabshakeh",
+    "plain": "the Rabshakeh"
+   }
+  ],
+  "follow": 0,
+  "why": "Kings is the fuller account and the Plain translates Kings. Isaiah's version is shorter in many places and names only the officer who speaks. Most scholars think Isaiah's copy trimmed the list, though some think Kings added the two titles from a record like 18:13–16.",
+  "s": [
+   "cogan-tadmor-2kings",
+   "blenkinsopp-isaiah1"
+  ]
+ },
+ {
+  "v": "18:20",
+  "a": "Do you think mere words from your lips make a plan and strength for war?",
+  "t": "\"You say\" or \"I say\"?",
+  "p": "Kings has \"you say\"; Isaiah 36:5 has \"I say,\" making it the Rabshakeh's verdict on Hezekiah's plans.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "אָמַרְתָּ אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה",
+    "en": "you have said, mere words of lips, counsel and strength for war",
+    "plain": "Do you think mere words from your lips make a plan and strength for war?"
+   },
+   {
+    "w": "Isaiah 36:5 (Masoretic Text)",
+    "orig": "אָמַרְתִּי",
+    "en": "I say",
+    "plain": "I say that mere words from your lips make a plan and strength for war!"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter at the end of the verb. Kings' \"you say\" (rendered in the Plain as a mocking question, \"Do you think ...?\") makes the Rabshakeh quote Hezekiah's boast and then mock it; Isaiah's \"I say\" makes it his own judgment. The meaning comes out much the same. The Plain follows Kings.",
+  "s": [
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "18:27",
+  "a": "eat their own dung and drink their own urine",
+  "t": "Blunt words and polite words",
+  "p": "The written Hebrew uses crude words for dung and urine. The Masoretes marked politer words to be read aloud.",
+  "readings": [
+   {
+    "w": "Masoretic written text (Ketiv); KJV (\"their own dung ... their own piss\")",
+    "orig": "חֲרֵיהֶם ... שֵׁינֵיהֶם",
+    "en": "their dung ... their urine",
+    "plain": "eat their own dung and drink their own urine"
+   },
+   {
+    "w": "Masoretic reading tradition (Qere)",
+    "orig": "צוֹאָתָם ... מֵימֵי רַגְלֵיהֶם",
+    "en": "their excrement ... the water of their feet",
+    "plain": "eat their own excrement and drink the water of their own feet"
+   }
+  ],
+  "follow": 0,
+  "why": "This is not a disagreement about what the Rabshakeh said but about how to read it in public. The Talmud teaches that verses written in coarse language are read with refined words, and gives this verse as an example (Bavli Megillah 25b). Isaiah 36:12 has the same pair. The Plain gives the plain sense of the written words, as the soldier spoke them; the Qere's \"water of their feet\" is a polite way to say urine.",
+  "s": [
+   "bavli-megillah",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "18:29",
+  "a": "from his hand",
+  "t": "\"His hand\" or \"my hand\"?",
+  "p": "The Hebrew of Kings says \"from his hand\" (the king's). The ancient translations have \"my hand.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "מִיָּדוֹ",
+    "en": "from his hand",
+    "plain": "from his hand"
+   },
+   {
+    "w": "Greek (Rahlfs) and Latin Vulgate, followed by most modern translations",
+    "orig": "ἐκ χειρός μου; de manu mea",
+    "en": "from my hand",
+    "plain": "from my hand"
+   },
+   {
+    "w": "Isaiah 36:14 (Masoretic Text)",
+    "orig": "(no phrase)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Rabshakeh speaks for \"the king\" in the third person (\"The king says this\"), so \"his hand\" makes sense: Hezekiah cannot rescue you from the king's hand. \"My hand\" smooths it to match 18:34–35, which is probably why the translations have it. The Plain keeps the harder Hebrew reading. Isaiah lacks the phrase.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "18:32",
+  "a": ", a land of olive oil and honey. Live, and don't die!",
+  "t": "A longer offer in Kings",
+  "p": "Kings' version of the offer is longer than Isaiah's, which lacks the olive oil, the honey and \"Live, and don't die!\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Greek of Kings; KJV",
+    "orig": "אֶרֶץ זֵית יִצְהָר וּדְבַשׁ וִחְיוּ וְלֹא תָמֻתוּ",
+    "en": "a land of olive trees of oil and honey, and live and do not die",
+    "plain": ", a land of olive oil and honey. Live, and don't die!"
+   },
+   {
+    "w": "Isaiah 36:17 (Masoretic Text)",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": "."
+   }
+  ],
+  "follow": 0,
+  "why": "Isaiah 36:17 ends the description with \"a land of bread and vineyards.\" The extra words in Kings echo Deuteronomy 8:8 and 30:19 (\"choose life\"), and may be an expansion in Kings or a shortening in Isaiah. The Plain translates Kings.",
+  "s": [
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "18:34",
+  "a": "Sepharvaim, Hena and Ivvah",
+  "t": "Hena and Ivvah missing in Isaiah",
+  "p": "Isaiah 36:19 names only Sepharvaim; Kings adds Hena and Ivvah, which also appear in 19:13.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "סְפַרְוַיִם הֵנַע וְעִוָּה",
+    "en": "Sepharvaim, Hena and Ivvah",
+    "plain": "Sepharvaim, Hena and Ivvah"
+   },
+   {
+    "w": "Isaiah 36:19 (Masoretic Text)",
+    "orig": "סְפַרְוָיִם",
+    "en": "Sepharvaim",
+    "plain": "Sepharvaim"
+   }
+  ],
+  "follow": 0,
+  "why": "The fuller list in Kings agrees with the letter in 19:13 (and Isaiah 37:13). Isaiah's speech may have been shortened, or Kings filled in the names from the letter. The Plain follows Kings."
+ },
+ {
+  "v": "18:34",
+  "a": "Did they rescue Samaria from my hand?",
+  "t": "A question about Samaria's gods",
+  "p": "Some Greek copies add \"Where are the gods of the land of Samaria?\" before this question.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Codex Vaticanus (kaige Greek, Rahlfs)",
+    "orig": "וְכִי־הִצִּילוּ אֶת־שֹׁמְרוֹן מִיָּדִי",
+    "en": "and did they rescue Samaria from my hand?",
+    "plain": "Did they rescue Samaria from my hand?"
+   },
+   {
+    "w": "Lucianic (Antiochene) Greek, as reported by Burney and Montgomery and printed in the Fernández Marcos–Busto Saiz edition",
+    "orig": "καὶ ποῦ εἰσιν οἱ θεοὶ τῆς χώρας Σαμαρείας",
+    "en": "and where are the gods of the land of Samaria?",
+    "plain": "Where are the gods of the land of Samaria? Did they rescue Samaria from my hand?"
+   }
+  ],
+  "follow": 0,
+  "why": "In the kaige section the Lucianic text is often the better witness to the Old Greek, so its extra question deserves notice: without it, the Hebrew jumps from the gods of Syrian cities to Samaria itself. But the plus may also be a scribe's attempt to smooth the jump. The Plain keeps the Hebrew.",
+  "s": [
+   "fernandez-marcos-antioqueno-kings",
+   "burney-kings",
+   "montgomery-kings"
+  ]
+ },
+ {
+  "v": "19:9",
+  "a": "So he once more sent messengers",
+  "t": "\"Again\" or \"heard\"?",
+  "p": "Kings says Sennacherib \"turned and sent,\" meaning sent again. Isaiah 37:9 says \"he heard and sent.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"he sent messengers again\")",
+    "orig": "וַיָּשָׁב וַיִּשְׁלַח",
+    "en": "and he returned (= again) and sent",
+    "plain": "So he once more sent messengers"
+   },
+   {
+    "w": "Isaiah 37:9 (Masoretic Text)",
+    "orig": "וַיִּשְׁמַע וַיִּשְׁלַח",
+    "en": "and he heard and sent",
+    "plain": "When he heard it, he sent messengers"
+   },
+   {
+    "w": "The Great Isaiah Scroll at Isaiah 37:9 (1QIsa-a), as reported",
+    "orig": "וישמע וישב וישלח",
+    "en": "and he heard, and turned (again), and sent",
+    "plain": "When he heard it, he once more sent messengers"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs, <i>vayyashov</i> and <i>vayyishma'</i>, look alike in Hebrew script. Scholars who divide the story into two accounts (see the note on 18:17) read \"again\" as the seam where a second account begins. The Plain follows Kings. The Great Isaiah Scroll is reported to combine both verbs, \"he heard, and turned, and sent,\" which shows that ancient copyists already knew both forms; a combined text cannot by itself settle whether \"again\" marks the seam between two accounts.",
+  "s": [
+   "childs-isaiah-assyrian",
+   "djd32-isaiah"
+  ]
+ },
+ {
+  "v": "19:15",
+  "a": "LORD, God of Israel, seated on the cherubim!",
+  "t": "\"LORD of Armies\" in Isaiah",
+  "p": "Isaiah 37:16 opens the prayer with \"LORD of Armies.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "יְהוָה אֱלֹהֵי יִשְׂרָאֵל יֹשֵׁב הַכְּרֻבִים",
+    "en": "LORD, God of Israel, sitting on the cherubim",
+    "plain": "LORD, God of Israel, seated on the cherubim!"
+   },
+   {
+    "w": "Isaiah 37:16 (Masoretic Text)",
+    "orig": "יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל",
+    "en": "LORD of Armies, God of Israel",
+    "plain": "LORD of Armies, God of Israel, seated on the cherubim!"
+   }
+  ],
+  "follow": 0,
+  "why": "\"LORD of Armies\" is Isaiah's favorite title for God and is often added in his book. The Plain follows Kings."
+ },
+ {
+  "v": "19:20",
+  "a": "You prayed to me about Sennacherib king of Assyria. I have heard.",
+  "t": "\"I have heard\"",
+  "p": "Kings has God say \"I have heard\"; Isaiah 37:21 has \"Because you prayed to me ...\" and goes straight into the oracle.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶלֶךְ־אַשּׁוּר שָׁמָעְתִּי",
+    "en": "what you prayed to me about Sennacherib king of Assyria, I have heard",
+    "plain": "You prayed to me about Sennacherib king of Assyria. I have heard."
+   },
+   {
+    "w": "Isaiah 37:21 (Masoretic Text)",
+    "orig": "אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִיב מֶלֶךְ אַשּׁוּר",
+    "en": "because you prayed to me about Sennacherib king of Assyria",
+    "plain": "Because you prayed to me about Sennacherib king of Assyria,"
+   }
+  ],
+  "follow": 0,
+  "why": "Kings' \"I have heard\" makes the answer to the prayer explicit; Isaiah's sentence flows into the next verse. The Greek of Isaiah is reported to have \"I have heard\" as in Kings. The Plain follows Kings."
+ },
+ {
+  "v": "19:23",
+  "a": "With my many chariots",
+  "t": "\"Many chariots\" or \"chariotry\"?",
+  "p": "The written Hebrew reads \"with the chariotry of my chariots\"; the read text and Isaiah have \"with the many of my chariots.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); Isaiah 37:24; KJV (\"With the multitude of my chariots\")",
+    "orig": "בְּרֹב רִכְבִּי",
+    "en": "with the multitude of my chariots",
+    "plain": "With my many chariots"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "בְּרֶכֶב רִכְבִּי",
+    "en": "with the chariotry of my chariots",
+    "plain": "With the chariotry of my chariots"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form repeats the word for chariots; the read form and Isaiah agree on \"multitude.\" The difference is one letter. The Plain follows the Qere and Isaiah.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "19:23",
+  "a": "I reached its farthest lodge",
+  "t": "\"Lodge\" or \"height\"?",
+  "p": "Kings says \"its farthest lodging place\"; Isaiah 37:24 says \"its farthest height.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"the lodgings of his borders\")",
+    "orig": "מְלוֹן קִצֹּה",
+    "en": "the lodging place of its end",
+    "plain": "I reached its farthest lodge"
+   },
+   {
+    "w": "Isaiah 37:24 (Masoretic Text)",
+    "orig": "מְרוֹם קִצּוֹ",
+    "en": "the height of its end",
+    "plain": "I reached its farthest height"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Melon</i> (lodging) and <i>merom</i> (height) share letters. Isaiah's \"height\" fits the mountain setting; Kings' \"lodge\" could mean a resting place at the edge of the forest. The Plain follows Kings."
+ },
+ {
+  "v": "19:23",
+  "a": "Through your messengers",
+  "t": "Messengers or servants?",
+  "p": "Kings says the Assyrian insulted the Lord \"by the hand of your messengers\"; Isaiah 37:24 says \"by the hand of your servants.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "בְּיַד מַלְאָכֶיךָ",
+    "en": "by the hand of your messengers",
+    "plain": "Through your messengers"
+   },
+   {
+    "w": "Isaiah 37:24 (Masoretic Text)",
+    "orig": "בְּיַד עֲבָדֶיךָ",
+    "en": "by the hand of your servants",
+    "plain": "Through your servants"
+   }
+  ],
+  "follow": 0,
+  "why": "Kings' word fits the story, where the insults came by messengers and a letter (19:9–14); Isaiah's word echoes the Rabshakeh's own speech as a servant of his master (18:24) and 19:6's scornful \"errand boys.\" The Plain follows Kings."
+ },
+ {
+  "v": "19:24",
+  "a": "I dug, and I drank the water of strange lands.",
+  "t": "\"Strange waters\"",
+  "p": "The Masoretic text of Isaiah 37:25 lacks \"strange.\" The Great Isaiah Scroll has it, agreeing with Kings.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); the Great Isaiah Scroll at Isaiah 37:25 (1QIsa-a, about 125 BC); KJV (\"strange waters\")",
+    "orig": "מַיִם זָרִים",
+    "en": "strange (foreign) waters",
+    "plain": "I dug, and I drank the water of strange lands."
+   },
+   {
+    "w": "Isaiah 37:25 (Masoretic Text)",
+    "orig": "מָיִם",
+    "en": "water",
+    "plain": "I dug, and I drank water."
+   }
+  ],
+  "follow": 0,
+  "why": "Here the oldest copy of Isaiah, from Qumran, agrees with Kings against the later Masoretic Isaiah, which probably lost the word. The boast is that the Assyrian king drank from wells he dug in foreign lands. The Plain follows Kings.",
+  "s": [
+   "abegg-dssb",
+   "djd32-isaiah"
+  ]
+ },
+ {
+  "v": "19:26",
+  "a": "dried up before it can stand tall",
+  "t": "\"Scorched\" or \"a field\"?",
+  "p": "Kings reads \"scorched before standing grain\"; Isaiah 37:27 reads \"a field before standing grain.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"blasted before it be grown up\")",
+    "orig": "וּשְׁדֵפָה לִפְנֵי קָמָה",
+    "en": "and scorched before standing grain",
+    "plain": "dried up before it can stand tall"
+   },
+   {
+    "w": "Isaiah 37:27 (Masoretic Text)",
+    "orig": "וּשְׁדֵמָה לִפְנֵי קָמָה",
+    "en": "and a field (terrace) before standing grain",
+    "plain": "a field before the grain stands up"
+   },
+   {
+    "w": "The Great Isaiah Scroll at Isaiah 37:27 (1QIsa-a), as reported",
+    "orig": "הנשדף לפני קדים",
+    "en": "scorched before the east wind",
+    "plain": "scorched before the east wind"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Shedefah</i> (scorching, blight) and <i>shedemah</i> (field, terrace) differ in one letter. \"Scorched\" fits the picture of grass on roofs that withers before it grows, and most translations of both books follow it. The Plain follows Kings. The Great Isaiah Scroll is reported to read a third form, \"scorched before the east wind,\" which supports Kings' \"scorched\" against Masoretic Isaiah's \"field.\"",
+  "s": [
+   "djd32-isaiah"
+  ]
+ },
+ {
+  "v": "19:31",
+  "a": "the LORD of Armies",
+  "t": "\"The LORD\" or \"the LORD of Armies\"?",
+  "p": "The written Hebrew of Kings has only \"the LORD\"; the read text and Isaiah add \"of Armies.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere), marked \"read but not written\"; Isaiah 37:32; Greek; KJV (\"the LORD of hosts\")",
+    "orig": "יְהוָה צְבָאוֹת",
+    "en": "the LORD of Armies",
+    "plain": "the LORD of Armies"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "יְהוָה",
+    "en": "the LORD",
+    "plain": "the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes marked <i>tseva'ot</i> as a word to be read though it is not written, probably because it stood in Isaiah 37:32 and Isaiah 9:7. Some modern translations follow the shorter written text. The Plain follows the read text.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "19:35",
+  "a": "It happened that night.",
+  "t": "\"That night\"",
+  "p": "Kings ties the angel's blow to the same night as Isaiah's oracle. Isaiah 37:36 lacks \"that night.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "וַיְהִי בַּלַּיְלָה הַהוּא",
+    "en": "and it was in that night",
+    "plain": "It happened that night."
+   },
+   {
+    "w": "Isaiah 37:36 (Masoretic Text)",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Without \"that night,\" Isaiah leaves the timing open; with it, Kings makes the rescue follow the promise at once. Those who read 19:29–31 as a sign spread over three years find Kings' timing hard; others take \"that night\" as the night after the oracle. The Plain follows Kings.",
+  "s": [
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "19:37",
+  "a": "Adrammelech and Sharezer, his sons",
+  "t": "\"His sons\"",
+  "p": "\"His sons\" is in the read text and in Isaiah 37:38, but not in the written Hebrew of Kings.",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); Isaiah 37:38; KJV",
+    "orig": "וְשַׂרְאֶצֶר בָּנָיו",
+    "en": "and Sharezer, his sons",
+    "plain": "Adrammelech and Sharezer, his sons"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "וְשַׂרְאֶצֶר",
+    "en": "and Sharezer",
+    "plain": "Adrammelech and Sharezer"
+   }
+  ],
+  "follow": 0,
+  "why": "Another \"read but not written\" word, supplied from Isaiah. The Babylonian Chronicle speaks of a single son as the murderer; Esarhaddon's own account blames his brothers. The Plain follows the read text.",
+  "s": [
+   "tov-tchb",
+   "grayson-chronicles"
+  ]
+ },
+ {
+  "v": "20:4",
+  "a": "the middle courtyard",
+  "t": "Courtyard or city?",
+  "p": "The written Hebrew has \"the middle city\"; the read text has \"the middle courtyard.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); KJV (\"the middle court\"); most translations",
+    "orig": "הֶחָצֵר הַתִּיכֹנָה",
+    "en": "the middle court",
+    "plain": "the middle courtyard"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "הָעִיר הַתִּיכֹנָה",
+    "en": "the middle city",
+    "plain": "the middle of the city"
+   }
+  ],
+  "follow": 0,
+  "why": "Either way, Isaiah had barely left the palace when the word came. \"Courtyard\" fits a palace better, and the ancient translations agree with it. Isaiah 38:4 has no location. The Plain follows the read text.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "20:12",
+  "a": "Berodach-baladan",
+  "t": "Berodach or Merodach?",
+  "p": "The Hebrew of Kings spells the name Berodach-baladan; Isaiah 39:1 has Merodach-baladan, closer to the Babylonian.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "בְּרֹאדַךְ בַּלְאֲדָן",
+    "en": "Berodach-baladan",
+    "plain": "Berodach-baladan"
+   },
+   {
+    "w": "Isaiah 39:1 (Masoretic Text); Greek of Kings (\"Marodach\"); the Babylonian name Marduk-apla-iddina; most modern translations",
+    "orig": "מְרֹדַךְ בַּלְאֲדָן; Μαρωδαχ",
+    "en": "Merodach-baladan",
+    "plain": "Merodach-baladan"
+   }
+  ],
+  "follow": 0,
+  "why": "The god's name Marduk appears in Hebrew as Merodach (Jeremiah 50:2), and the Greek of Kings and Isaiah 39:1 have the <i>m</i>, so \"Berodach\" is probably a slip between two lip sounds. The Plain keeps the Hebrew of Kings, as this site does with kings' names elsewhere in 2 Kings, and as the KJV does; most modern translations use Merodach-baladan.",
+  "s": [
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "20:13",
+  "a": "Hezekiah listened to them",
+  "t": "\"Listened\" or \"was glad\"?",
+  "p": "Kings says Hezekiah \"listened to\" the envoys; Isaiah 39:2 and the Greek of Kings say he \"was glad\" about them.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"hearkened unto them\")",
+    "orig": "וַיִּשְׁמַע עֲלֵיהֶם",
+    "en": "and he heard concerning them",
+    "plain": "Hezekiah listened to them"
+   },
+   {
+    "w": "Isaiah 39:2 (Masoretic Text); Greek of Kings (Codex Vaticanus, Rahlfs)",
+    "orig": "וַיִּשְׂמַח עֲלֵיהֶם; ἐχάρη",
+    "en": "and he was glad about them",
+    "plain": "Hezekiah was glad to see them"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Vayyishma'</i> (heard) and <i>vayyismach</i> (was glad) differ by one letter. \"Was glad\" explains why Hezekiah showed off his treasures, and many scholars prefer it; the Greek may have been made from a Hebrew text that read it, or may have been harmonized with Isaiah. The odd phrase \"heard upon them\" can mean \"listened to their proposal.\" The Plain keeps the Hebrew of Kings.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "20:19",
+  "a": "Is it not good, if there will be peace and safety in my days?",
+  "t": "A question or a statement?",
+  "p": "Kings puts Hezekiah's last words as a question; Isaiah 39:8 makes them a statement: \"For there will be peace.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"Is it not good, if peace and truth be in my days?\")",
+    "orig": "הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָי",
+    "en": "is it not (good), if there will be peace and truth in my days?",
+    "plain": "Is it not good, if there will be peace and safety in my days?"
+   },
+   {
+    "w": "Isaiah 39:8 (Masoretic Text)",
+    "orig": "כִּי יִהְיֶה שָׁלוֹם וֶאֱמֶת בְּיָמָי",
+    "en": "for there will be peace and truth in my days",
+    "plain": "For there will be peace and safety in my days."
+   }
+  ],
+  "follow": 0,
+  "why": "Isaiah's form gives the reason for Hezekiah's answer; Kings' form is a question, which can sound like relief or like a man reassuring himself. See the note for the readings. The Plain follows Kings."
+ },
+ {
+  "v": "23:7",
+  "a": "coverings",
+  "t": "Houses or linen robes?",
+  "p": "The Hebrew says the women wove \"houses\" for Asherah. Some Greek witnesses suggest \"robes,\" as if from a word for linen.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"hangings\")",
+    "orig": "בָּתִּים",
+    "en": "houses",
+    "plain": "coverings"
+   },
+   {
+    "w": "Lucianic (Antiochene) Greek, as reported (στολάς, \"robes\"); a common emendation <i>baddim</i>",
+    "orig": "בַּדִּים",
+    "en": "linen garments",
+    "plain": "linen robes"
+   }
+  ],
+  "follow": 0,
+  "why": "Codex Vaticanus (kaige) simply spells out the Hebrew word (χεττιιν), which shows its translator found it hard. The Lucianic \"robes\" supports reading <i>baddim</i>, \"linen,\" which differs from <i>battim</i> in one similar letter. \"Houses\" could also mean tent-shrines or coverings for the image. The Plain keeps the Hebrew and renders it \"coverings\"; see the note on the shrine men.",
+  "s": [
+   "burney-kings",
+   "montgomery-kings",
+   "fernandez-marcos-antioqueno-kings"
+  ]
+ },
+ {
+  "v": "23:16",
+  "a": "the word that the man of God called out, the man who called out these things.",
+  "t": "A longer text in the Greek",
+  "p": "The Greek has more here: the man of God spoke \"when Jeroboam stood by the altar at the feast,\" and Josiah looked up at his grave.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "אֲשֶׁר קָרָא אִישׁ הָאֱלֹהִים אֲשֶׁר קָרָא אֶת־הַדְּבָרִים הָאֵלֶּה",
+    "en": "which the man of God called out, who called out these things",
+    "plain": "the word that the man of God called out, the man who called out these things."
+   },
+   {
+    "w": "Septuagint (Rahlfs, from Codex Vaticanus); followed by the NRSV",
+    "orig": "... ἐν τῷ ἑστάναι Ιεροβοαμ ἐν τῇ ἑορτῇ ἐπὶ τὸ θυσιαστήριον καὶ ἐπιστρέψας ἦρεν τοὺς ὀφθαλμοὺς αὐτοῦ ἐπὶ τὸν τάφον τοῦ ἀνθρώπου τοῦ θεοῦ ...",
+    "en": "... when Jeroboam stood by the altar at the feast. And he turned and lifted his eyes to the grave of the man of God ...",
+    "plain": "the word that the man of God called out when Jeroboam stood by the altar at the feast. Then Josiah turned and looked up at the grave of the man of God who called out these things."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew repeats \"the man of God who called out,\" and a scribe's eye could easily have jumped from the first to the second, dropping the words between. Many scholars therefore think the Greek keeps the original, and the NRSV follows it. Others think the Greek filled out the scene from 1 Kings 13:1. The Plain keeps the Hebrew and gives the Greek here. In this part of Kings the Vaticanus text is the revised (kaige) Greek, so its agreement with a longer text is all the more notable.",
+  "s": [
+   "rahlfs-lxx",
+   "burney-kings",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "23:33",
+  "a": "to stop his rule in Jerusalem",
+  "t": "\"From reigning\" or \"while he reigned\"?",
+  "p": "The read text says Neco imprisoned Jehoahaz \"so he would not reign\"; the written text says \"when he reigned\" in Jerusalem.",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); Greek; KJV (\"that he might not reign\")",
+    "orig": "מִמְּלֹךְ",
+    "en": "from reigning",
+    "plain": "to stop his rule in Jerusalem"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "בִּמְלֹךְ",
+    "en": "when (he) reigned",
+    "plain": "while he was reigning in Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form only dates the arrest; the read form, which 2 Chronicles 36:3 supports in sense (\"the king of Egypt removed him in Jerusalem\"), gives its purpose. The Plain follows the read text.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "23:36",
+  "a": "Zebudah",
+  "t": "Zebudah or Zebidah?",
+  "p": "The read text gives Jehoiakim's mother as Zebudah; the written text as Zebidah.",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); KJV",
+    "orig": "זְבוּדָּה",
+    "en": "Zebudah",
+    "plain": "Zebudah"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "זְבִידָה",
+    "en": "Zebidah",
+    "plain": "Zebidah"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters <i>w</i> and <i>y</i> were easily confused. The Plain follows the read text, as the KJV does; some modern translations follow the written text. Nothing else is known of her.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "24:3",
+  "a": "It was by the LORD's own word",
+  "t": "\"Word\" or \"anger\"?",
+  "p": "The Hebrew says this came \"by the mouth of the LORD.\" The Greek is reported to read \"the LORD's anger was on Judah,\" as in 24:20.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"at the commandment of the LORD\")",
+    "orig": "עַל־פִּי יְהוָה",
+    "en": "by the mouth (command) of the LORD",
+    "plain": "It was by the LORD's own word"
+   },
+   {
+    "w": "Greek, as reported by commentators; preferred by some (compare 24:20)",
+    "orig": "עַל־אַף יְהוָה (as if); θυμὸς κυρίου",
+    "en": "the LORD's anger",
+    "plain": "It was because of the LORD's anger"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew words <i>pi</i> (mouth) and <i>'af</i> (anger) look alike, and 24:20 uses \"anger\" in the same kind of sentence, so several scholars prefer the Greek. But \"the LORD's word\" fits 24:2, where the raids come \"keeping the word the LORD had spoken.\" The Plain keeps the Hebrew. The Greek reading is given as commentators report it.",
+  "s": [
+   "burney-kings",
+   "montgomery-kings",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "24:6",
+  "a": "Jehoiakim lay down with his ancestors",
+  "t": "Where was Jehoiakim buried?",
+  "p": "Kings gives no burial. The Greek of 2 Chronicles 36:8, and the Lucianic Greek of Kings as reported, add that he was buried in \"the garden of Uzza.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Codex Vaticanus (kaige Greek); KJV",
+    "orig": "וַיִּשְׁכַּב יְהוֹיָקִים עִם־אֲבֹתָיו",
+    "en": "and Jehoiakim lay down with his ancestors",
+    "plain": "Jehoiakim lay down with his ancestors"
+   },
+   {
+    "w": "Greek of 2 Chronicles 36:8; Lucianic Greek of Kings, as reported",
+    "orig": "(Greek) ἐτάφη ... ἐν Γανοζα",
+    "en": "and he was buried in Ganozan (the garden of Uzza)",
+    "plain": "Jehoiakim lay down with his ancestors and was buried in the garden of Uzza"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek addition matches the burials of Manasseh and Amon (21:18, 21:26) and may be a scribe's filling-out, though some think it is original. It bears on Jeremiah's word that Jehoiakim would have a donkey's burial (Jeremiah 22:19); see the note. The Plain follows the Hebrew.",
+  "s": [
+   "fernandez-marcos-antioqueno-kings",
+   "montgomery-kings"
+  ]
+ },
+ {
+  "v": "24:10",
+  "a": "the servants of Nebuchadnezzar king of Babylon marched up to Jerusalem",
+  "t": "\"They went up\" or \"he went up\"?",
+  "p": "The written Hebrew has a singular verb, \"he went up\"; the read text has \"they went up,\" agreeing with \"the servants.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); KJV",
+    "orig": "עָלוּ",
+    "en": "they went up",
+    "plain": "the servants of Nebuchadnezzar king of Babylon marched up to Jerusalem"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "עָלָה",
+    "en": "he went up",
+    "plain": "Nebuchadnezzar king of Babylon marched up, with his servants, to Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular could make Nebuchadnezzar the subject, but 24:11 says he came to the city later, \"himself,\" while his servants were besieging it, which fits the plural. The Plain follows the read text.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "24:18",
+  "a": "Hamutal",
+  "t": "Hamutal or Hamital?",
+  "p": "At 24:18 the read text gives the queen mother's name as Hamutal; the written text has Hamital.",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); 2 Kings 23:31 (written so, with no Ketiv); KJV",
+    "orig": "חֲמוּטַל",
+    "en": "Hamutal",
+    "plain": "Hamutal"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "חֲמִיטַל",
+    "en": "Hamital",
+    "plain": "Hamital"
+   }
+  ],
+  "follow": 0,
+  "why": "At 23:31 the Leningrad Codex simply writes Hamutal. Here at 24:18 the written text has Hamital, with Hamutal to be read, and Jeremiah 52:1 has the same written and read pair. As with Zebudah (23:36), the difference is between the letters <i>w</i> and <i>y</i>. The Plain follows the read text, which agrees with 23:31. She was the mother of both Jehoahaz and Zedekiah.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "25:3",
+  "a": "On the ninth day of the fourth month",
+  "t": "Which month?",
+  "p": "The Hebrew of Kings says only \"on the ninth of the month.\" Jeremiah's parallels supply \"the fourth month.\"",
+  "readings": [
+   {
+    "w": "Jeremiah 52:6 and Jeremiah 39:2 (Masoretic Text); KJV (adds \"fourth\" in italics); most translations",
+    "orig": "בַּחֹדֶשׁ הָרְבִיעִי בְּתִשְׁעָה לַחֹדֶשׁ",
+    "en": "in the fourth month, on the ninth of the month",
+    "plain": "On the ninth day of the fourth month"
+   },
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Greek of Kings (\"on the ninth of the month\")",
+    "orig": "בְּתִשְׁעָה לַחֹדֶשׁ",
+    "en": "on the ninth of the month",
+    "plain": "On the ninth day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "Kings as it stands names no month, which looks like an accident in copying, since 25:1 and 25:8 give full dates. Jeremiah 39:2 and 52:6 both have \"the fourth month,\" and editions of the Hebrew Bible note that the words are missing here. The Plain supplies them from Jeremiah; this is the only place in this part where the Plain adds words from another book. The Greek of Kings also lacks the month, so the gap is old.",
+  "s": [
+   "bhs-elliger",
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:4",
+  "a": "All the fighting men got away that night",
+  "t": "A missing verb",
+  "p": "The Hebrew of Kings says \"and all the men of war the night,\" with no verb. Jeremiah 52:7 has \"fled and went out of the city by night.\"",
+  "readings": [
+   {
+    "w": "Plain, supplying a verb from the sense and from Jeremiah 52:7; KJV (\"fled\" in italics)",
+    "orig": "וְכָל־אַנְשֵׁי הַמִּלְחָמָה הַלַּיְלָה",
+    "en": "and all the men of war (fled) by night",
+    "plain": "All the fighting men got away that night"
+   },
+   {
+    "w": "Jeremiah 52:7 (Masoretic Text; Jeremiah 39:4 is similar)",
+    "orig": "וְכָל־אַנְשֵׁי הַמִּלְחָמָה יִבְרְחוּ וַיֵּצְאוּ מֵהָעִיר לַיְלָה",
+    "en": "and all the men of war fled and went out of the city by night",
+    "plain": "All the fighting men fled and left the city by night"
+   }
+  ],
+  "follow": 0,
+  "why": "A verb has dropped out of Kings, and every translation supplies one. The Plain supplies \"got away\" rather than copying Jeremiah's fuller wording. In the same verse the Hebrew of Kings says \"he went\" (the king), where Jeremiah has \"they went\"; the Plain keeps Kings' singular, \"The king went off,\" which looks ahead to the king's capture in 25:5.",
+  "s": [
+   "lundbom-jer3",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "25:8",
+  "a": "On the seventh day of the fifth month",
+  "t": "Seventh day or tenth?",
+  "p": "Kings dates Nebuzaradan's arrival to the seventh day of the fifth month; Jeremiah 52:12 to the tenth.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Greek of Kings; KJV",
+    "orig": "בְּשִׁבְעָה לַחֹדֶשׁ",
+    "en": "on the seventh of the month",
+    "plain": "On the seventh day of the fifth month"
+   },
+   {
+    "w": "Jeremiah 52:12 (Masoretic Text)",
+    "orig": "בֶּעָשׂוֹר לַחֹדֶשׁ",
+    "en": "on the tenth of the month",
+    "plain": "On the tenth day of the fifth month"
+   }
+  ],
+  "follow": 0,
+  "why": "The two dates may be a copying slip in one book, or they may mark different moments: arrival and burning. The Talmud harmonizes them with the Ninth of Av (see the note). The Plain follows Kings.",
+  "s": [
+   "bavli-taanit",
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:11",
+  "a": "whatever was left of the crowd",
+  "t": "Crowd or craftsmen?",
+  "p": "Kings says \"the rest of the multitude\" (hamon); Jeremiah 52:15 says \"the rest of the craftsmen\" ('amon).",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV (\"the remnant of the multitude\")",
+    "orig": "יֶתֶר הֶהָמוֹן",
+    "en": "the rest of the multitude",
+    "plain": "whatever was left of the crowd"
+   },
+   {
+    "w": "Jeremiah 52:15 (Masoretic Text)",
+    "orig": "יֶתֶר הָאָמוֹן",
+    "en": "the rest of the master craftsmen",
+    "plain": "whatever was left of the craftsmen"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ in one letter (<i>h</i> and <i>'</i>). \"Craftsmen\" fits Babylon's interest in skilled workers (24:14, 24:16); \"crowd\" fits the list of people. Those \"who had gone over\" were deserters who had surrendered, as Jeremiah had urged (Jeremiah 21:9; 38:2). The Plain follows Kings.",
+  "s": [
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:17",
+  "a": "The capital rose three cubits",
+  "t": "Three cubits or five?",
+  "p": "Kings gives the capitals three cubits; 1 Kings 7:16 and Jeremiah 52:22 give five.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); Greek of Kings; KJV",
+    "orig": "שָׁלֹשׁ אַמּוֹת",
+    "en": "three cubits",
+    "plain": "The capital rose three cubits"
+   },
+   {
+    "w": "Jeremiah 52:22 (Masoretic Text); compare 1 Kings 7:16",
+    "orig": "חָמֵשׁ אַמּוֹת",
+    "en": "five cubits",
+    "plain": "The capital rose five cubits"
+   }
+  ],
+  "follow": 0,
+  "why": "1 Kings 7:16 and Jeremiah 52:22 agree on five cubits, so many think \"three\" is a slip here; others think 1 Kings 7:19's \"lily work, four cubits\" shows the capital had parts that could be measured in different ways. The Plain follows Kings. A cubit was about 18 inches (45 cm)."
+ },
+ {
+  "v": "25:19",
+  "a": "five men of those who saw the king's face",
+  "t": "Five advisers or seven?",
+  "p": "Kings says five of the king's advisers were taken; Jeremiah 52:25 says seven.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "חֲמִשָּׁה אֲנָשִׁים מֵרֹאֵי פְנֵי־הַמֶּלֶךְ",
+    "en": "five men of those seeing the king's face",
+    "plain": "five men of those who saw the king's face"
+   },
+   {
+    "w": "Jeremiah 52:25 (Masoretic Text)",
+    "orig": "שִׁבְעָה אֲנָשִׁים",
+    "en": "seven men",
+    "plain": "seven men of those who saw the king's face"
+   }
+  ],
+  "follow": 0,
+  "why": "Numbers are easily miscopied, and seven was the usual number of a king's inner council (Esther 1:14; Ezra 7:14). The Plain follows Kings.",
+  "s": [
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:19",
+  "a": "the secretary of the army commander",
+  "t": "\"The secretary of the commander\" or \"the secretary, the commander\"?",
+  "p": "Kings has \"the secretary, the commander of the army\"; Jeremiah 52:25 has \"the secretary of the commander of the army.\"",
+  "readings": [
+   {
+    "w": "Jeremiah 52:25 (Masoretic Text); a possible reading of Kings; most translations",
+    "orig": "סֹפֵר שַׂר הַצָּבָא",
+    "en": "the secretary of the commander of the army",
+    "plain": "the secretary of the army commander"
+   },
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008)",
+    "orig": "הַסֹּפֵר שַׂר הַצָּבָא",
+    "en": "the secretary, the commander of the army",
+    "plain": "the secretary who commanded the army"
+   }
+  ],
+  "follow": 0,
+  "why": "With the article, Kings can be read as one man who was both secretary and commander. But the official \"who drafted the people of the land\" sounds like a clerk of the muster, and Jeremiah's wording says so plainly. The Plain takes Kings in Jeremiah's sense.",
+  "s": [
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:24",
+  "a": "Don't fear the Chaldeans' servants",
+  "t": "Fear their servants, or fear to serve?",
+  "p": "Kings has \"Don't fear the servants of the Chaldeans\"; Jeremiah 40:9 has \"Don't be afraid to serve the Chaldeans.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "אַל־תִּירְאוּ מֵעַבְדֵי הַכַּשְׂדִּים",
+    "en": "do not fear the servants of the Chaldeans",
+    "plain": "Don't fear the Chaldeans' servants"
+   },
+   {
+    "w": "Jeremiah 40:9 (Masoretic Text)",
+    "orig": "אַל־תִּירְאוּ מֵעֲבוֹד הַכַּשְׂדִּים",
+    "en": "do not be afraid of serving the Chaldeans",
+    "plain": "Don't be afraid to serve the Chaldeans"
+   }
+  ],
+  "follow": 0,
+  "why": "The two forms differ only in vowels and one letter. Kings tells the commanders not to fear Babylon's officials; Jeremiah tells them not to fear submitting. Both lead to the next words, \"Serve the king of Babylon.\" The Plain follows Kings.",
+  "s": [
+   "lundbom-jer3"
+  ]
+ },
+ {
+  "v": "25:27",
+  "a": "the twenty-seventh day of the month",
+  "t": "Twenty-seventh or twenty-fifth?",
+  "p": "Kings dates Jehoiachin's release to the 27th of the twelfth month; Jeremiah 52:31 to the 25th.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex, AD 1008); KJV",
+    "orig": "בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ",
+    "en": "on the twenty-seventh of the month",
+    "plain": "the twenty-seventh day of the month"
+   },
+   {
+    "w": "Jeremiah 52:31 (Masoretic Text)",
+    "orig": "בְּעֶשְׂרִים וַחֲמִשָּׁה לַחֹדֶשׁ",
+    "en": "on the twenty-fifth of the month",
+    "plain": "the twenty-fifth day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "Another small difference in a date, perhaps between the order and its carrying out, perhaps a copying slip. The Plain follows Kings.",
+  "s": [
+   "lundbom-jer3"
+  ]
+ }
+]

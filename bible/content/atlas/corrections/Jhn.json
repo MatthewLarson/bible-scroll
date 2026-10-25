@@ -1,0 +1,60 @@
+[
+ {
+  "c": 1,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but 1:28 places John at Bethany beyond the Jordan, near Jericho, much farther south, so no dot is drawn."
+ },
+ {
+  "c": 3,
+  "drop": [
+   "judea-2"
+  ],
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas has two identical entries for Judea, and 3:22 names the region once, so the duplicate is dropped. Bible Atlas's Jordan point is near the river's sources in the far north, but \"beyond the Jordan\" in 3:26 is the place of 1:28, near Jericho, so no dot is drawn."
+ },
+ {
+  "c": 7,
+  "add": {
+   "places": {
+    "bethlehem": {
+     "name": "Bethlehem",
+     "lat": 31.70431,
+     "lon": 35.20746
+    }
+   }
+  },
+  "why": "7:42 names Bethlehem, David's home village, which Bible Atlas does not link in this chapter."
+ },
+ {
+  "c": 10,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but 10:40 sends Jesus back to the place where John had baptized (1:28), near Jericho, so no dot is drawn."
+ },
+ {
+  "c": 11,
+  "drop": [
+   "ephraim"
+  ],
+  "why": "11:54 names the town of Ephraim, which is linked as a place, not Joseph's son Ephraim."
+ },
+ {
+  "c": 12,
+  "drop": [
+   "simon-6"
+  ],
+  "why": "This text of 12:4 reads \"Judas Iscariot\". Some manuscripts, followed by the King James Version, add \"Simon's son\", but the chapter here does not name Judas's father Simon."
+ },
+ {
+  "c": 19,
+  "drop": [
+   "place-2"
+  ],
+  "why": "Bible Atlas's \"Place\" entry is a duplicate of Golgotha, \"Skull Place\" (19:17), which is already linked."
+ }
+]

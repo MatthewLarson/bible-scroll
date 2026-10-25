@@ -1,0 +1,374 @@
+[
+ {
+  "v": "1:6",
+  "a": "David fathered Solomon",
+  "t": "\"David the king\" twice?",
+  "p": "The Byzantine text and the KJV repeat the title: \"David the king fathered Solomon.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, family 1, and other early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Δαυὶδ δὲ ἐγέννησεν τὸν Σολομῶνα",
+    "en": "David fathered Solomon",
+    "plain": "David fathered Solomon"
+   },
+   {
+    "w": "Ephraemi, Washington, Byzantine majority, Textus Receptus (KJV \"David the king begat Solomon\")",
+    "orig": "Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησεν τὸν Σολομῶνα",
+    "en": "David the king fathered Solomon",
+    "plain": "David the king fathered Solomon"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the older support, and the repeated title is easily explained as a copyist echoing \"David the king\" from the line before. Either way, David is the only one in the list called king.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "Asaph",
+  "t": "Asaph or Asa?",
+  "p": "The oldest manuscripts name \"Asaph,\" the psalm writer. Later ones correct it to Asa, the king.",
+  "readings": [
+   {
+    "w": "Papyrus 1 (about 250), Codex Sinaiticus and Vaticanus (300s), Ephraemi (400s), families 1 and 13; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ἀσάφ",
+    "en": "Asaph",
+    "plain": "Asaph"
+   },
+   {
+    "w": "Washington (400s), most later manuscripts, Byzantine majority, Textus Receptus (KJV \"Asa\")",
+    "orig": "Ἀσά",
+    "en": "Asa",
+    "plain": "Asa"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Asaph\" has the oldest and best support, and it is the harder reading: a copyist would correct the name of a psalm writer to the king's name (1 Kings 15:9–24), not the other way. The same choice is made in 1:8.",
+  "b": "The king's name is Asa. Matthew, or a list he used, may have spelled it Asaph, the way some Septuagint manuscripts spell names oddly; or he may have meant a hint at Asaph, the singer of Psalms 50 and 73–83, as some suggest. Most modern English Bibles print \"Asa\" with a note; this translation keeps the Greek of the critical text. The same variant runs on into 1:8.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "Asaph",
+  "t": "Asaph or Asa? (continued)",
+  "p": "This goes with 1:7: the same name, the same split among the manuscripts.",
+  "readings": [
+   {
+    "w": "Papyrus 1, Sinaiticus, Vaticanus, Ephraemi; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ἀσὰφ",
+    "en": "Asaph",
+    "plain": "Asaph"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Asa\")",
+    "orig": "Ἀσὰ",
+    "en": "Asa",
+    "plain": "Asa"
+   }
+  ],
+  "follow": 0,
+  "why": "See 1:7.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "Manasseh fathered Amos, and Amos fathered Josiah",
+  "t": "Amos or Amon?",
+  "p": "King Amon was Josiah's father. The oldest manuscripts spell him Amos, like the prophet.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Ephraemi, Koridethi (Θ), families 1 and 13; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ἀμώς ... Ἀμὼς",
+    "en": "Amos ... Amos",
+    "plain": "Manasseh fathered Amos, and Amos fathered Josiah"
+   },
+   {
+    "w": "Washington (W), Byzantine majority, Textus Receptus (KJV \"Amon\")",
+    "orig": "Ἀμών ... Ἀμὼν",
+    "en": "Amon ... Amon",
+    "plain": "Manasseh fathered Amon, and Amon fathered Josiah"
+   }
+  ],
+  "follow": 0,
+  "why": "As with Asaph in 1:7, the older witnesses have the less expected name, and a copyist would correct it to the king of 2 Kings 21:18–26, not away from him.",
+  "b": "Some Septuagint manuscripts also spell the king's name Amos (for example at 1 Chronicles 3:14), so Matthew may simply be following a Greek spelling. Others see a deliberate hint at the prophet Amos, as with Asaph the psalmist: the line of kings also carries the psalms and the prophets.",
+  "s": [
+   "metzger",
+   "davies-allison-matthew"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "Jacob fathered Joseph, the husband of Mary, and from her was born Jesus, the one called the Messiah",
+  "t": "How the family list ends",
+  "p": "Most manuscripts read as printed. Two old witnesses word the verse differently, and one makes Joseph the father.",
+  "readings": [
+   {
+    "w": "Papyrus 1 (about 250), Sinaiticus, Vaticanus, Ephraemi, Washington, Byzantine majority; NA28, SBLGNT, KJV",
+    "orig": "Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος χριστός",
+    "en": "Jacob fathered Joseph the husband of Mary, from whom was born Jesus, who is called Christ",
+    "plain": "Jacob fathered Joseph, the husband of Mary, and from her was born Jesus, the one called the Messiah"
+   },
+   {
+    "w": "Koridethi (Θ, 800s), family 13, several Old Latin manuscripts, and in part the Curetonian Syriac, as reported by Metzger",
+    "orig": "Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰωσὴφ ᾧ μνηστευθεῖσα παρθένος Μαριὰμ ἐγέννησεν Ἰησοῦν τὸν λεγόμενον χριστόν",
+    "en": "Jacob fathered Joseph, to whom the virgin Mary was betrothed, and she bore Jesus, who is called Christ",
+    "plain": "Jacob fathered Joseph. The virgin Mary, who was promised in marriage to him, gave birth to Jesus, the one called the Messiah"
+   },
+   {
+    "w": "The Sinaitic Syriac, an Old Syriac Gospel copied in the late 300s (translation from the 200s)",
+    "orig": "(Syriac) Jacob begot Joseph; Joseph, to whom was betrothed Mary the virgin, begot Jesus, who is called the Christ",
+    "en": "Joseph ... fathered Jesus",
+    "plain": "Jacob fathered Joseph. Joseph, to whom the virgin Mary was promised in marriage, fathered Jesus, the one called the Messiah"
+   }
+  ],
+  "follow": 0,
+  "why": "The first reading is in nearly all Greek manuscripts and the earliest papyrus. The second smooths the verse by stressing that Mary was a virgin. The Syriac reading keeps the pattern \"A fathered B\" to the end, and still calls Mary \"the virgin\" in the same breath, so it most likely uses \"fathered\" for legal fatherhood, not physical.",
+  "b": "The Sinaitic Syriac was discovered in 1892 at St. Catherine's Monastery by Agnes Smith Lewis and Margaret Dunlop Gibson. Some early scholars thought it preserved an original that denied the virgin birth. Most now think it is a loose translation of the second reading, since the same manuscript goes on to tell of the virginal conception (1:18–25). See also the note on 1:16.",
+  "s": [
+   "metzger",
+   "lewis-sinaitic-syriac",
+   "brown-birth-messiah"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "beginning",
+  "t": "\"Beginning\" or \"birth\"?",
+  "p": "The oldest manuscripts have genesis, \"beginning, origin.\" Later ones have gennēsis, \"birth\" (KJV).",
+  "readings": [
+   {
+    "w": "Papyrus 1, Sinaiticus, Vaticanus, Ephraemi, Washington, Koridethi, families 1 and 13; NA28, SBLGNT",
+    "orig": "γένεσις",
+    "en": "origin, beginning",
+    "plain": "beginning"
+   },
+   {
+    "w": "Many later manuscripts, Byzantine majority, Textus Receptus (KJV \"the birth of Jesus Christ\")",
+    "orig": "γέννησις",
+    "en": "birth",
+    "plain": "birth"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Genesis</i> has the older support and repeats the word of 1:1, \"the book of the family history (<i>genesis</i>).\" Copyists changed it to the ordinary word for birth because the verse goes on to describe a birth.",
+  "b": "The two words differ by one letter. The followed reading keeps Matthew's link back to 1:1 and to Genesis. A second, smaller difference in the same verse: most manuscripts read \"of Jesus Christ,\" while some Old Latin and Syriac copies and Irenaeus have \"of Christ,\" and Vaticanus has \"of Christ Jesus\" (as discussed by Metzger).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "a son",
+  "t": "\"A son\" or \"her firstborn son\"?",
+  "p": "The oldest manuscripts say only \"a son.\" Most later ones, and the KJV, say \"her firstborn son,\" as in Luke 2:7.",
+  "readings": [
+   {
+    "w": "Sinaiticus and Vaticanus (300s), Z (500s), families 1 and 13, the Old Syriac and Coptic; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "υἱόν",
+    "en": "a son",
+    "plain": "a son"
+   },
+   {
+    "w": "Ephraemi (400s), Bezae (D, 400s), Washington, Byzantine majority, Textus Receptus (KJV \"her firstborn son\")",
+    "orig": "τὸν υἱὸν αὐτῆς τὸν πρωτότοκον",
+    "en": "her firstborn son",
+    "plain": "her firstborn son"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often made one Gospel match another. The longer reading is word for word Luke 2:7, so it was most likely added from there; no one would have dropped \"firstborn\" from Matthew if it stood there first.",
+  "b": "The difference became part of the debate about Mary. \"Firstborn\" was a legal title for the son who opened the womb (Exodus 13:2), whether or not more children followed, as the epitaph of a Jewish woman named Arsinoe from Tell el-Yahudiyeh in Egypt (5 BC, <i>Corpus Inscriptionum Judaicarum</i> 1510) shows by calling a woman who died giving birth the mother of a \"firstborn\" child. See the note on \"until.\"",
+  "s": [
+   "metzger",
+   "brown-birth-messiah",
+   "frey-cij"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "sobbing and loud wailing",
+  "t": "Two cries or three?",
+  "p": "Most later manuscripts, and the KJV, add \"lamentation\" from the Greek of Jeremiah.",
+  "readings": [
+   {
+    "w": "Sinaiticus and Vaticanus (300s), Z, family 1, Old Latin, Vulgate and Coptic; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "κλαυθμὸς καὶ ὀδυρμὸς πολύς",
+    "en": "weeping and great mourning",
+    "plain": "sobbing and loud wailing"
+   },
+   {
+    "w": "Ephraemi (C), Bezae (D), Washington (W), family 13, Byzantine majority, Textus Receptus (KJV \"lamentation, and weeping, and great mourning\")",
+    "orig": "θρῆνος καὶ κλαυθμὸς καὶ ὀδυρμὸς πολύς",
+    "en": "lamentation and weeping and great mourning",
+    "plain": "mourning, sobbing and loud wailing"
+   }
+  ],
+  "follow": 0,
+  "why": "The added word matches the Septuagint of Jeremiah 31:15 (38:15 in the Greek numbering), so copyists most likely filled Matthew's shorter quotation out from it. The shorter text has the older witnesses.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:11",
+  "a": "in the Holy Spirit and fire",
+  "t": "\"And fire\": missing in the Byzantine text",
+  "p": "Nearly all early manuscripts and the KJV have \"and fire.\" Most late Byzantine manuscripts leave it out.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Ephraemi, Bezae, Washington, families 1 and 13, Old Latin, Syriac, Coptic; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV \"with the Holy Ghost, and with fire\")",
+    "orig": "ἐν πνεύματι ἁγίῳ καὶ πυρί",
+    "en": "in the Holy Spirit and fire",
+    "plain": "in the Holy Spirit and fire"
+   },
+   {
+    "w": "Many later manuscripts, Byzantine majority (Robinson-Pierpont)",
+    "orig": "ἐν πνεύματι ἁγίῳ",
+    "en": "in the Holy Spirit",
+    "plain": "in the Holy Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "\"And fire\" is in the oldest and most varied witnesses, and in Luke 3:16 as well. A copyist's eye could easily skip from one similar ending to the next, or a scribe may have matched Mark 1:8, which has no fire. Here the Textus Receptus and the KJV side with the older manuscripts against the Byzantine majority.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "the heavens opened",
+  "t": "\"Opened\" or \"opened to him\"?",
+  "p": "Some important manuscripts and the KJV add \"to him\": the heavens opened for Jesus.",
+  "readings": [
+   {
+    "w": "Sinaiticus (first hand) and Vaticanus (300s), the Old Syriac (Sinaitic and Curetonian); SBLGNT, Westcott-Hort",
+    "orig": "ἠνεῴχθησαν οἱ οὐρανοί",
+    "en": "the heavens were opened",
+    "plain": "the heavens opened"
+   },
+   {
+    "w": "A corrector of Sinaiticus, Ephraemi, Bezae, Washington, families 1 and 13, Byzantine majority, Textus Receptus (KJV \"unto him\"); NA28 prints it in brackets; Tyndale House GNT",
+    "orig": "ἠνεῴχθησαν αὐτῷ οἱ οὐρανοί",
+    "en": "the heavens were opened to him",
+    "plain": "the heavens opened for him"
+   }
+  ],
+  "follow": 0,
+  "why": "The editors are divided: NA28 brackets the word as doubtful and the Tyndale House edition prints it. This translation follows the SBLGNT, since the two oldest Greek manuscripts and the Old Syriac lack it, and copyists more often added such a clarifying \"to him\" than dropped it. The meaning barely changes: in either case Jesus sees the vision.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:17",
+  "a": "This is my dearly loved Son; in him I take delight",
+  "t": "\"This is\" or \"You are\"?",
+  "p": "A few early witnesses have the voice speak to Jesus, \"You are my Son,\" as in Mark and Luke.",
+  "readings": [
+   {
+    "w": "Almost all Greek manuscripts; NA28, SBLGNT, Byzantine majority, KJV",
+    "orig": "Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα",
+    "en": "This is my beloved Son, in whom I was pleased",
+    "plain": "This is my dearly loved Son; in him I take delight"
+   },
+   {
+    "w": "Codex Bezae (D, 400s), an Old Latin manuscript and the Old Syriac, as reported in the NA28 apparatus",
+    "orig": "σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν σοὶ εὐδόκησα",
+    "en": "You are my beloved Son, in you I was pleased",
+    "plain": "You are my dearly loved Son; in you I take delight"
+   }
+  ],
+  "follow": 0,
+  "why": "\"This is\" has overwhelming support. The other reading makes Matthew agree with Mark 1:11 and Luke 3:22, a common kind of change by copyists.",
+  "b": "The difference matters for Matthew's story: in his telling the voice speaks publicly about Jesus, as it does again at the transfiguration (17:5).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "Go away, Satan",
+  "t": "\"Go away\" or \"Get behind me\"?",
+  "p": "Many manuscripts, including some very old witnesses, add \"behind me,\" as in Jesus' words to Peter in 16:23. The KJV does not.",
+  "readings": [
+   {
+    "w": "Sinaiticus and Vaticanus (300s), K, Δ, families 1 and 13, the Vulgate and some Old Latin, the Coptic versions, Irenaeus (Latin), Origen; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV \"Get thee hence, Satan\")",
+    "orig": "Ὕπαγε, Σατανᾶ",
+    "en": "Go away, Satan",
+    "plain": "Go away, Satan"
+   },
+   {
+    "w": "Bezae (D), L, Z, 33, 892, Ephraemi (first hand, as reported by Tischendorf), most Old Latin, the Curetonian Syriac and the Peshitta, Justin Martyr (about 155), Byzantine majority",
+    "orig": "Ὕπαγε ὀπίσω μου, Σατανᾶ",
+    "en": "Go behind me, Satan",
+    "plain": "Go, get behind me, Satan"
+   }
+  ],
+  "follow": 0,
+  "why": "The two oldest Greek manuscripts leave the words out, and they are easily explained as a copyist's match to Jesus' rebuke of Peter in 16:23 (and Mark 8:33). The longer reading is old and widespread, though: Justin Martyr already knew it in the 150s, and most Old Latin and Syriac copies have it. The editors keep the shorter text.",
+  "b": "Some interpreters hear a difference: \"Get behind me\" can mean \"take your place as a follower again,\" fitting for Peter but not for Satan, who is simply dismissed.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "Repent, because the kingdom",
+  "t": "\"Repent\" missing in the Old Syriac",
+  "p": "A few early witnesses have Jesus announce only, \"The kingdom of heaven has drawn near.\"",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts and versions; NA28, SBLGNT, Byzantine majority, KJV",
+    "orig": "Μετανοεῖτε, ἤγγικεν γὰρ ἡ βασιλεία",
+    "en": "Repent, for the kingdom has drawn near",
+    "plain": "Repent, because the kingdom"
+   },
+   {
+    "w": "The Old Latin manuscript k, the Old Syriac (Sinaitic and Curetonian) and some quotations in early writers, as reported by Metzger",
+    "orig": "ἤγγικεν ἡ βασιλεία",
+    "en": "The kingdom has drawn near",
+    "plain": "The kingdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek evidence is almost unanimous. A few scholars have argued that the short form is original and that copyists added \"Repent\" to match John's words in 3:2, but most editors keep the word, and the UBS committee rates the longer text as certain.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:23",
+  "a": "He traveled all over Galilee",
+  "t": "\"Jesus\" named, and editions differ",
+  "p": "The Tyndale House edition, the Byzantine text and the KJV name Jesus here: \"And Jesus went about all Galilee.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus (first hand) and Vaticanus, and others; NA28, SBLGNT",
+    "orig": "Καὶ περιῆγεν ἐν ὅλῃ τῇ Γαλιλαίᾳ",
+    "en": "And he went around in all Galilee",
+    "plain": "He traveled all over Galilee"
+   },
+   {
+    "w": "Ephraemi, Washington, Byzantine majority, Textus Receptus (KJV); Tyndale House GNT and Tregelles also print \"Jesus\"",
+    "orig": "Καὶ περιῆγεν ὅλην τὴν Γαλιλαίαν ὁ Ἰησοῦς",
+    "en": "And Jesus went around all Galilee",
+    "plain": "Jesus traveled all over Galilee"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the places where the modern editions disagree. The SBLGNT and NA28 follow Vaticanus and the first hand of Sinaiticus, which lack the name; Tyndale House prints it. Copyists often supplied \"Jesus\" at the start of a new section, as they did in 4:12 and 4:18, so the shorter text is followed. The meaning is the same.",
+  "b": "The same kind of difference occurs at 4:12 (Byzantine and Textus Receptus \"when Jesus heard\") and 4:18 (Textus Receptus \"Jesus, walking\"); the Plain already names Jesus where English needs it. At 3:8 the Textus Receptus has \"fruits,\" plural (KJV \"bring forth therefore fruits meet for repentance\"), against \"fruit\" in nearly all manuscripts.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

@@ -1,0 +1,12 @@
+# built output (node tools/build.js)
+bible/site/
+bible/public/
+revelation/v2/out/
+# downloads and scratch
+.cache/
+.scratch/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+.claude/settings.local.json

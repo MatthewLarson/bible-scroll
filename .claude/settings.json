@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node tools/build.js:*)",
+      "Bash(VERBOSE=1 node tools/build.js:*)",
+      "Bash(node tools/literal.js:*)",
+      "Bash(node tools/atlas-verses.js:*)",
+      "Bash(python3 tools/works-check.py:*)",
+      "Bash(python3 -m http.server:*)",
+      "mcp__Bible_Atlas__get_verse_context",
+      "mcp__Bible_Atlas__search_atlas_places",
+      "mcp__Bible_Atlas__get_entity",
+      "mcp__Bible_Atlas__call_api"
+    ],
+    "deny": [
+      "Edit(bible/texts/**)",
+      "Write(bible/texts/**)",
+      "Edit(bible/PROGRESS.md)",
+      "Write(bible/PROGRESS.md)"
+    ]
+  }
+}

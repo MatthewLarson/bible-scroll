@@ -1,0 +1,639 @@
+[
+ {
+  "v": "5:1",
+  "a": "a festival",
+  "t": "\"A festival\" or \"the festival\"?",
+  "p": "Some manuscripts add \"the,\" which would make it the main festival, Passover or Shelters.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75 (about AD 200), Codex Vaticanus, Alexandrinus and Bezae, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT, Textus Receptus (KJV \"a feast\")",
+    "orig": "ἑορτή",
+    "en": "a festival",
+    "plain": "a festival"
+   },
+   {
+    "w": "Codex Sinaiticus, Ephraemi (C) and some later manuscripts, as reported by Metzger; Robinson-Pierpont Byzantine text",
+    "orig": "ἡ ἑορτή",
+    "en": "the festival",
+    "plain": "the festival"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading without \"the\" has the older and wider support. A copyist who thought it was Passover or Shelters could easily add the article to make that clear.",
+  "b": "With \"the,\" the festival would most likely be Shelters, which Jews often called simply \"the festival,\" or Passover. See the note on 5:1.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "Bethesda",
+  "t": "Bethesda, Bethzatha or Bethsaida?",
+  "p": "The manuscripts spell the pool's name three ways. Modern editions are divided.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus and Ephraemi, the Byzantine majority; SBLGNT, Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "Βηθεσδά",
+    "en": "Bethesda, probably \"house of mercy\" or \"house of the outpouring\"",
+    "plain": "Bethesda"
+   },
+   {
+    "w": "Codex Sinaiticus (Bethzatha), Codex Bezae and some Old Latin copies (Belzetha), as reported by Metzger; NA28 and Westcott-Hort",
+    "orig": "Βηθζαθά",
+    "en": "Bethzatha, perhaps \"house of the olive\"",
+    "plain": "Bethzatha"
+   },
+   {
+    "w": "Papyrus 66 and 75, Codex Vaticanus, W, the Latin Vulgate, as reported by Metzger",
+    "orig": "Βηθσαϊδά",
+    "en": "Bethsaida, \"house of fishing\"",
+    "plain": "Bethsaida"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT and Tyndale House GNT. Bethsaida has the oldest witnesses, but it is almost certainly a copyist's slip toward the well-known town in Galilee (1:44). Between the other two, the Copper Scroll from Qumran appears to name a place Beth Eshdatayin, which supports a name built on 'eshed, \"outflow,\" as in Bethesda. Josephus names the district north of the Temple Bezetha, which supports Bethzatha.",
+  "b": "The UBS committee chose Bethzatha with real doubt, as Metzger reports. Most English Bibles print Bethesda, the name tourists know.",
+  "s": [
+   "metzger",
+   "jeremias-bethesda"
+  ]
+ },
+ {
+  "v": "5:3",
+  "a": "the blind, the lame and those with withered limbs.",
+  "t": "\"Waiting for the water to move\"",
+  "p": "Later manuscripts end the verse with the sick \"waiting for the moving of the water.\" It goes with verse 4.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, the first hand of Alexandrinus and Ephraemi, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τυφλῶν, χωλῶν, ξηρῶν.",
+    "en": "blind, lame, withered.",
+    "plain": "the blind, the lame and those with withered limbs."
+   },
+   {
+    "w": "Codex Bezae and W, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τυφλῶν, χωλῶν, ξηρῶν, ἐκδεχομένων τὴν τοῦ ὕδατος κίνησιν.",
+    "en": "blind, lame, withered, waiting for the moving of the water.",
+    "plain": "the blind, the lame and those with withered limbs, waiting for the water to move."
+   }
+  ],
+  "follow": 0,
+  "why": "The words are missing from the oldest manuscripts. They were added, with verse 4, to explain why the man in 5:7 needed to be first into the water. See the entry on 5:4, which goes with this one.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "The angel at the pool",
+  "p": "Verse 4 is missing from the oldest manuscripts. It explains the stirring of the water by an angel. It goes with the end of 5:3.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75 (about AD 200), Codex Sinaiticus and Vaticanus (300s), the first hand of Ephraemi, Bezae, W, some Old Latin, the Curetonian Syriac and most Coptic copies, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "—",
+    "en": "verse absent",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), a corrector of Ephraemi, L, Θ, the Byzantine majority, Textus Receptus (KJV); known to Tertullian about AD 200",
+    "orig": "ἄγγελος γὰρ κατὰ καιρὸν κατέβαινεν ἐν τῇ κολυμβήθρᾳ καὶ ἐτάρασσε τὸ ὕδωρ· ὁ οὖν πρῶτος ἐμβὰς μετὰ τὴν ταραχὴν τοῦ ὕδατος ὑγιὴς ἐγίνετο ᾧ δήποτε κατείχετο νοσήματι.",
+    "en": "For an angel went down at certain times into the pool and stirred up the water. Then whoever stepped in first after the stirring of the water became healthy from whatever disease held him.",
+    "plain": "For from time to time an angel would go down into the pool and stir up the water. Then the first one to step in after the water was stirred would become healthy from whatever disease he had."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is absent from the oldest and most varied witnesses. Where it does appear, its wording varies a great deal, and over twenty Greek manuscripts that include it mark it with an asterisk or obelus, the scribes' signs for doubtful text. It also uses several words found nowhere else in John. It looks like an early explanation of 5:7 that was written in the margin and then copied into the text. Tertullian's knowledge of it shows how early it spread.",
+  "b": "The verse appears in the KJV and NKJV. Most modern Bibles put it in a footnote. Removing it does not change the story: the sick man in 5:7 still believes the first one into the stirred water is healed. See the note on 5:7.",
+  "s": [
+   "metzger",
+   "comfort-text",
+   "tertullian-baptism"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "This is the reason the Jews hounded Jesus: he was doing these things on a Sabbath.",
+  "t": "\"And sought to kill him\"",
+  "p": "Later manuscripts add that the Jews were \"looking for a way to kill him\" already here. The KJV has it.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, Bezae and W, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἐδίωκον οἱ Ἰουδαῖοι τὸν Ἰησοῦν ὅτι ταῦτα ἐποίει ἐν σαββάτῳ",
+    "en": "the Jews persecuted Jesus because he was doing these things on the Sabbath",
+    "plain": "This is the reason the Jews hounded Jesus: he was doing these things on a Sabbath."
+   },
+   {
+    "w": "Codex Alexandrinus, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐδίωκον τὸν Ἰησοῦν οἱ Ἰουδαῖοι, καὶ ἐζήτουν αὐτὸν ἀποκτεῖναι, ὅτι ταῦτα ἐποίει ἐν σαββάτῳ",
+    "en": "the Jews persecuted Jesus and sought to kill him, because he was doing these things on the Sabbath",
+    "plain": "This is the reason the Jews hounded Jesus and looked for a way to kill him: he was doing these things on a Sabbath."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is missing from the oldest manuscripts. A copyist probably brought it in from 5:18, where the Jews try \"even more\" to kill him, since \"more\" seemed to need an earlier attempt.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "5:17",
+  "a": "He answered them",
+  "t": "\"He\" or \"Jesus\"?",
+  "p": "Many manuscripts name Jesus here. NA28 prints the name in brackets; the SBLGNT leaves it out.",
+  "readings": [
+   {
+    "w": "Papyrus 75, Codex Vaticanus and W; SBLGNT, Tyndale House GNT",
+    "orig": "ὁ δὲ ἀπεκρίνατο",
+    "en": "but he answered",
+    "plain": "He answered them"
+   },
+   {
+    "w": "Papyrus 66, Codex Alexandrinus, Bezae, the Byzantine majority, Textus Receptus (KJV); NA28 in brackets",
+    "orig": "ὁ δὲ Ἰησοῦς ἀπεκρίνατο",
+    "en": "but Jesus answered",
+    "plain": "Jesus answered them"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings are early. Copyists often added Jesus's name to make the speaker clear, especially at the start of a reading in church; dropping it is harder to explain. The meaning is the same.",
+  "s": [
+   "na28"
+  ],
+  "b": "Witnesses as reported in the NA28 apparatus. Codex Sinaiticus is not listed here because its first hand and its correctors may differ."
+ },
+ {
+  "v": "5:30",
+  "a": "the one who sent me wants",
+  "t": "\"The Father who sent me\"",
+  "p": "Later manuscripts add \"Father\" at the end of the verse, as the KJV has it.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, Bezae and W, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τοῦ πέμψαντός με",
+    "en": "of the one who sent me",
+    "plain": "the one who sent me wants"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"the Father which hath sent me\")",
+    "orig": "τοῦ πέμψαντός με πατρός",
+    "en": "of the Father who sent me",
+    "plain": "the Father who sent me wants"
+   }
+  ],
+  "follow": 0,
+  "why": "John often writes \"the one who sent me\" without naming the Father, and copyists often added the name. The older manuscripts lack it. The meaning does not change.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "5:44",
+  "a": "the only God",
+  "t": "\"The only God\" or \"the only one\"?",
+  "p": "A few of the oldest manuscripts leave out \"God\": \"the glory that comes from the only one.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Bezae, the Byzantine majority, Textus Receptus (KJV \"God only\"); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τοῦ μόνου θεοῦ",
+    "en": "the only God",
+    "plain": "the only God"
+   },
+   {
+    "w": "Papyrus 66 and 75, Codex Vaticanus and W, some Old Latin and Coptic copies, as reported by Metzger",
+    "orig": "τοῦ μόνου",
+    "en": "the only one",
+    "plain": "the only One"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is very old, but most scholars think \"God\" was lost by accident. Scribes wrote \"God\" in a short form, ΘΥ, which could easily drop out after the similar letters of ΜΟΝΟΥ. \"The only God\" also echoes the Shema, \"the LORD is one,\" which fits Jesus's appeal to Moses in the next verse.",
+  "s": [
+   "metzger",
+   "comfort-text"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "he passed them around to those reclining there",
+  "t": "Through the disciples?",
+  "p": "Later manuscripts say Jesus gave the bread \"to the disciples, and the disciples to those reclining,\" as in Matthew.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, the first hand of Sinaiticus, Codex Alexandrinus, Vaticanus and W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "διέδωκεν τοῖς ἀνακειμένοις",
+    "en": "he distributed to those reclining",
+    "plain": "he passed them around to those reclining there"
+   },
+   {
+    "w": "A corrector of Sinaiticus, Codex Bezae, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "διέδωκεν τοῖς μαθηταῖς, οἱ δὲ μαθηταὶ τοῖς ἀνακειμένοις",
+    "en": "he distributed to the disciples, and the disciples to those reclining",
+    "plain": "he passed them around to the disciples, and the disciples to those reclining there"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading matches Matthew 14:19 and was probably added to make the Gospels agree. In the shorter text Jesus himself gives the bread to the people, as he gives himself in 6:51.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "the sign he had done",
+  "t": "One sign or many? And \"Jesus\"",
+  "p": "A few old manuscripts read \"signs.\" The Byzantine text adds Jesus's name: \"the sign that Jesus did.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Bezae, W, as reported by Metzger; SBLGNT, NA28",
+    "orig": "ὃ ἐποίησεν σημεῖον",
+    "en": "the sign he did",
+    "plain": "the sign he had done"
+   },
+   {
+    "w": "Papyrus 75, Codex Vaticanus and a few others, as reported by Metzger",
+    "orig": "ἃ ἐποίησεν σημεῖα",
+    "en": "the signs he did",
+    "plain": "the signs he had done"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"the miracle that Jesus did\")",
+    "orig": "ὃ ἐποίησεν σημεῖον ὁ Ἰησοῦς",
+    "en": "the sign Jesus did",
+    "plain": "the sign Jesus had done"
+   }
+  ],
+  "follow": 0,
+  "why": "The crowd has just seen one sign, the feeding, so the singular fits. The plural may come from 6:2. Jesus's name is a typical copyist's addition for clarity.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:22",
+  "a": "no other small boat had been there except one",
+  "t": "\"The one the disciples got into\"",
+  "p": "Later manuscripts explain the single boat: \"except that one which his disciples had gotten into.\"",
+  "readings": [
+   {
+    "w": "Papyrus 75, Codex Alexandrinus, Vaticanus and W, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "πλοιάριον ἄλλο οὐκ ἦν ἐκεῖ εἰ μὴ ἕν",
+    "en": "there was no other small boat there except one",
+    "plain": "no other small boat had been there except one"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus, Codex Bezae, Θ and some Syriac copies, as reported in the NA28 apparatus; Byzantine majority, Textus Receptus (KJV \"save that one whereinto his disciples were entered\")",
+    "orig": "πλοιάριον ἄλλο οὐκ ἦν ἐκεῖ εἰ μὴ ἓν ἐκεῖνο εἰς ὃ ἐνέβησαν οἱ μαθηταὶ αὐτοῦ",
+    "en": "there was no other small boat there except that one which his disciples had gotten into",
+    "plain": "no other small boat had been there except the one his disciples had gotten into"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words clarify a hard sentence, which is what copyists tended to do. The addition is early, since Sinaiticus and Bezae have it, but the shorter reading has Papyrus 75 and Vaticanus and is the harder text. The meaning is the same either way.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "6:23",
+  "a": "once the Lord had given thanks",
+  "t": "\"After the Lord had given thanks\"",
+  "p": "A few manuscripts and early translations leave this phrase out.",
+  "readings": [
+   {
+    "w": "Papyrus 75, Codex Sinaiticus, Vaticanus, Alexandrinus, W, the Byzantine majority; SBLGNT, NA28, Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "εὐχαριστήσαντος τοῦ κυρίου",
+    "en": "when the Lord had given thanks",
+    "plain": "once the Lord had given thanks"
+   },
+   {
+    "w": "Codex Bezae, some Old Latin copies, the Sinaitic and Curetonian Syriac, as reported by Metzger",
+    "orig": "—",
+    "en": "phrase absent",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase has overwhelming support. It may have been dropped because \"the Lord\" in the narrative seemed unusual before the resurrection. Some scholars think it is an early addition that makes the meal sound like the church's thanksgiving meal, but the evidence favors keeping it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:36",
+  "a": "you have seen me",
+  "t": "\"You have seen me\" or \"you have seen\"?",
+  "p": "Some old manuscripts leave out \"me\": \"you have seen, and yet you are not believing.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75 (probably), Codex Vaticanus, Bezae, W, the Byzantine majority; SBLGNT, Tyndale House GNT, Textus Receptus (KJV); NA28 in brackets",
+    "orig": "ἑωράκατέ με",
+    "en": "you have seen me",
+    "plain": "you have seen me"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus, some Old Latin and Syriac copies, as reported by Metzger",
+    "orig": "ἑωράκατε",
+    "en": "you have seen",
+    "plain": "you have seen"
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses have \"me.\" Without it, the object would be the signs (compare 6:26). The difference is small, and both readings fit the chapter.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:40",
+  "a": "My Father wills this",
+  "t": "\"My Father\" or \"the one who sent me\"?",
+  "p": "The KJV reads \"this is the will of him that sent me,\" from the Byzantine text, repeating 6:39.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, Bezae and W, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τοῦτο γάρ ἐστιν τὸ θέλημα τοῦ πατρός μου",
+    "en": "for this is the will of my Father",
+    "plain": "My Father wills this"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τοῦτο δέ ἐστιν τὸ θέλημα τοῦ πέμψαντός με",
+    "en": "and this is the will of the one who sent me",
+    "plain": "The one who sent me wills this"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine reading copies the wording of 6:39 and was probably made to match it. The older witnesses have \"my Father.\" Both mean the same person.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "6:47",
+  "a": "anyone who believes has eternal life",
+  "t": "\"Believes in me\"",
+  "p": "Later manuscripts read \"whoever believes in me,\" as the KJV does.",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, the first hand of Ephraemi, L, W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ὁ πιστεύων ἔχει ζωὴν αἰώνιον",
+    "en": "the one who believes has eternal life",
+    "plain": "anyone who believes has eternal life"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, a corrector of Ephraemi, the Byzantine majority, Textus Receptus (KJV \"He that believeth on me\")",
+    "orig": "ὁ πιστεύων εἰς ἐμὲ ἔχει ζωὴν αἰώνιον",
+    "en": "the one who believes in me has eternal life",
+    "plain": "anyone who believes in me has eternal life"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In me\" is not in the oldest manuscripts. It was a natural addition, since John usually says what a person believes in, and it fits the context. Metzger notes that no one would have removed it if it had been original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:51",
+  "a": "for the sake of the world's life",
+  "t": "\"Which I will give\"",
+  "p": "The Byzantine text repeats \"which I will give,\" so the KJV reads \"my flesh, which I will give for the life of the world.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Vaticanus, Ephraemi, Bezae, L, W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἡ σάρξ μού ἐστιν ὑπὲρ τῆς τοῦ κόσμου ζωῆς",
+    "en": "is my flesh, for the life of the world",
+    "plain": "for the sake of the world's life"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἡ σάρξ μού ἐστιν, ἣν ἐγὼ δώσω ὑπὲρ τῆς τοῦ κόσμου ζωῆς",
+    "en": "is my flesh, which I will give for the life of the world",
+    "plain": "which I will give for the sake of the world's life"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter, rather abrupt sentence is in the oldest manuscripts. Copyists smoothed it by repeating \"I will give.\" The meaning does not change.",
+  "s": [
+   "metzger"
+  ],
+  "b": "Codex Sinaiticus has the short reading with a different word order, \"for the life of the world is my flesh,\" which Metzger discusses."
+ },
+ {
+  "v": "6:55",
+  "a": "my flesh is true food, and my blood is true drink.",
+  "t": "\"True food\" or \"food indeed\"?",
+  "p": "The manuscripts differ by one letter: an adjective, \"true food,\" or an adverb, \"truly food\" (KJV \"meat indeed\").",
+  "readings": [
+   {
+    "w": "Papyrus 66 (corrected) and 75, a corrector of Sinaiticus, Codex Vaticanus, Ephraemi, L, W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἀληθής ἐστι βρῶσις ... ἀληθής ἐστι πόσις",
+    "en": "is true food ... is true drink",
+    "plain": "my flesh is true food, and my blood is true drink."
+   },
+   {
+    "w": "The first hand of Sinaiticus, Codex Bezae, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἀληθῶς ἐστιν βρῶσις ... ἀληθῶς ἐστιν πόσις",
+    "en": "is truly food ... is truly drink",
+    "plain": "my flesh truly is food, and my blood truly is drink."
+   }
+  ],
+  "follow": 0,
+  "why": "The adjective has the stronger early support. The two readings differ by one letter and mean almost the same: Jesus's flesh and blood are real food and drink.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:58",
+  "a": "It is not like what the fathers ate, and they died.",
+  "t": "\"Your fathers ate the manna\"",
+  "p": "The Byzantine text fills out the sentence: \"not as your fathers ate the manna and died.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, Ephraemi, L, W, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "οὐ καθὼς ἔφαγον οἱ πατέρες καὶ ἀπέθανον",
+    "en": "not as the fathers ate and died",
+    "plain": "It is not like what the fathers ate, and they died."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"not as your fathers did eat manna\")",
+    "orig": "οὐ καθὼς ἔφαγον οἱ πατέρες ὑμῶν τὸ μάννα καὶ ἀπέθανον",
+    "en": "not as your fathers ate the manna and died",
+    "plain": "It is not like the manna your fathers ate, and they died."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Your\" and \"the manna\" were filled in from 6:31 and 6:49. The older text is shorter and more abrupt.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "6:63",
+  "a": "The sayings I have spoken to you",
+  "t": "\"I have spoken\" or \"I speak\"?",
+  "p": "The Byzantine text and KJV have the present tense, \"the words that I speak unto you.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, Bezae and W; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "λελάληκα",
+    "en": "I have spoken",
+    "plain": "The sayings I have spoken to you"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "λαλῶ",
+    "en": "I speak",
+    "plain": "The sayings I speak to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The perfect tense has the older witnesses and points back to the words of this discourse. The present may come from the many places where Jesus says \"the words I speak\" (14:10).",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "6:69",
+  "a": "God's Holy One",
+  "t": "\"The Holy One of God\" or \"the Messiah, the Son of the living God\"?",
+  "p": "The oldest manuscripts have Peter say \"the Holy One of God.\" Later ones make his words match Matthew 16:16.",
+  "readings": [
+   {
+    "w": "Papyrus 75, Codex Sinaiticus, Vaticanus, the first hand of Ephraemi, Bezae, L, W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ὁ ἅγιος τοῦ θεοῦ",
+    "en": "the Holy One of God",
+    "plain": "God's Holy One"
+   },
+   {
+    "w": "Papyrus 66 and the Coptic versions, as reported by Metzger",
+    "orig": "ὁ χριστὸς ὁ ἅγιος τοῦ θεοῦ",
+    "en": "the Christ, the Holy One of God",
+    "plain": "the Messiah, God's Holy One"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"that Christ, the Son of the living God\")",
+    "orig": "ὁ χριστὸς ὁ υἱὸς τοῦ θεοῦ τοῦ ζῶντος",
+    "en": "the Christ, the Son of the living God",
+    "plain": "the Messiah, the Son of the living God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Holy One of God\" is rare and unexpected, so copyists replaced it with familiar confessions: \"the Messiah\" (from 11:27), \"the Son of God\" (from 1:49), and in the end the full words of Matthew 16:16. The many different expansions all grow from the short reading. Metzger and nearly all modern editions agree.",
+  "b": "Some Old Latin and Syriac copies have yet other forms, such as \"the Son of God.\" The variety itself shows how the short, unusual title was smoothed out.",
+  "s": [
+   "metzger",
+   "comfort-text"
+  ]
+ },
+ {
+  "v": "6:71",
+  "a": "Judas, son of Simon Iscariot",
+  "t": "Whose name is Iscariot?",
+  "p": "Manuscripts make \"Iscariot\" describe Simon, or Judas, or read \"from Kerioth.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Vaticanus, Ephraemi, L, W, as reported by Metzger; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "Ἰούδαν Σίμωνος Ἰσκαριώτου",
+    "en": "Judas, son of Simon Iscariot",
+    "plain": "Judas, son of Simon Iscariot"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Judas Iscariot the son of Simon\")",
+    "orig": "Ἰούδαν Σίμωνος Ἰσκαριώτην",
+    "en": "Judas Iscariot, son of Simon",
+    "plain": "Judas Iscariot, son of Simon"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus, Θ, family 13, as reported by Metzger",
+    "orig": "Ἰούδαν Σίμωνος ἀπὸ Καρυώτου",
+    "en": "Judas, son of Simon, from Kerioth",
+    "plain": "Judas, son of Simon, from Kerioth"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts make Iscariot the father's name too, which is unusual and so likely to be changed. \"From Kerioth\" looks like an early explanation of what Iscariot meant. See the note on this verse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:23",
+  "a": "Small boats from Tiberias had come, though",
+  "t": "\"But boats\" or \"other boats\"?",
+  "p": "The editors accent one Greek word two ways: \"but\" (SBLGNT) or \"other\" (NA28, Tyndale House, KJV).",
+  "readings": [
+   {
+    "w": "SBLGNT",
+    "orig": "ἀλλὰ ἦλθεν πλοιάρια",
+    "en": "but small boats came",
+    "plain": "Small boats from Tiberias had come, though"
+   },
+   {
+    "w": "NA28, Tyndale House GNT, the Byzantine text, Textus Receptus (KJV \"there came other boats\")",
+    "orig": "ἄλλα ἦλθεν πλοιάρια",
+    "en": "other small boats came",
+    "plain": "Other small boats from Tiberias had come"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ only in accent, and the oldest manuscripts have no accents, so this is an editor's decision, not a difference between manuscripts. The Plain follows its base text, the SBLGNT; \"other boats\" is just as possible. Westcott and Hort print the plain word for boats, and NA28 brackets its ending, so the editions also differ slightly on the word itself.",
+  "s": [
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "5:36",
+  "a": "But the testimony I have is bigger than John's.",
+  "t": "\"Greater testimony\" or \"I, greater than John\"?",
+  "p": "One letter decides whether \"greater\" describes the testimony or Jesus himself.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, the Byzantine text",
+    "orig": "ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζω τοῦ Ἰωάννου",
+    "en": "but I have the testimony greater than John's",
+    "plain": "But the testimony I have is bigger than John's."
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Textus Receptus, with some early manuscripts",
+    "orig": "ἐγὼ δὲ ἔχω τὴν μαρτυρίαν μείζων τοῦ Ἰωάννου",
+    "en": "but I, greater than John, have the testimony; or a loose spelling of the same \"greater testimony\"",
+    "plain": "But I, who am greater than John, have the testimony."
+   }
+  ],
+  "follow": 0,
+  "why": "Read strictly, μείζων describes Jesus: \"I, being greater than John.\" But many scholars think it was simply a common way of writing the accusative form at the time, so that both readings mean \"greater testimony,\" as the KJV translates. The Tyndale House editors print μείζων as the better-attested spelling. The Plain follows the SBLGNT and the sense almost all translations give.",
+  "s": [
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "6:39",
+  "a": "this is what the one who sent me wills",
+  "t": "\"The Father who sent me\"",
+  "p": "The Byzantine text adds \"Father,\" as at 5:30, so the KJV reads \"the Father's will which hath sent me.\"",
+  "readings": [
+   {
+    "w": "Papyrus 66 and 75, Codex Sinaiticus, Vaticanus, as reported in the NA28 apparatus; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τὸ θέλημα τοῦ πέμψαντός με",
+    "en": "the will of the one who sent me",
+    "plain": "this is what the one who sent me wills"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τὸ θέλημα τοῦ πέμψαντός με πατρός",
+    "en": "the will of the Father who sent me",
+    "plain": "this is what the Father who sent me wills"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 5:30, copyists added the name to John's \"the one who sent me.\" The older witnesses lack it, and the meaning does not change.",
+  "s": [
+   "na28"
+  ]
+ }
+]

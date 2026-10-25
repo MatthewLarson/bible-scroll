@@ -1,0 +1,95 @@
+[
+ {
+  "c": 1,
+  "add": {
+   "people": {
+    "judah": {
+     "name": "Judah"
+    }
+   }
+  },
+  "why": "1:2-3 name Judah, Jacob's son and Perez's father, whom Bible Atlas does not link in this chapter."
+ },
+ {
+  "c": 2,
+  "add": {
+   "places": {
+    "ramah": {
+     "name": "Ramah",
+     "lat": 31.89964,
+     "lon": 35.20422
+    }
+   }
+  },
+  "why": "2:18 quotes Jeremiah's \"A cry was heard in Ramah\"; Bible Atlas does not link Ramah here. This is Ramah of Benjamin, north of Jerusalem, the town Jeremiah 31:15 means."
+ },
+ {
+  "c": 3,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but John baptizes near the Judean wilderness, where people from Jerusalem and Judea come to him (3:1, 3:5-6), much farther south, so no dot is drawn."
+ },
+ {
+  "c": 4,
+  "drop": [
+   "naphtali",
+   "zebulun"
+  ],
+  "why": "In 4:13-15 Zebulun and Naphtali are the tribes' lands in Galilee, not Jacob's sons of those names."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "wife-of-simon"
+  ],
+  "why": "8:14 names Peter's mother-in-law; his wife is implied but not mentioned in this chapter (Paul refers to her in 1 Corinthians 9:5)."
+ },
+ {
+  "c": 12,
+  "drop": [
+   "south"
+  ],
+  "why": "In 12:42 \"the queen from the south\" describes where the queen came from; \"south\" is a direction, not a place. Readers usually identify her with the queen of Sheba of 1 Kings 10, but the verse does not name Sheba."
+ },
+ {
+  "c": 15,
+  "drop": [
+   "canaan"
+  ],
+  "why": "15:22 calls the woman a Canaanite, naming her people, not Noah's grandson Canaan."
+ },
+ {
+  "c": 16,
+  "add": {
+   "people": {
+    "jonas": {
+     "name": "Jonas"
+    }
+   }
+  },
+  "why": "16:17 calls Peter \"Simon Bar-Jonah\", son of Jonah; Bible Atlas links his father Jonas in John 1:42 and 21:15 but not here."
+ },
+ {
+  "c": 19,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but 19:1 means the stretch of the Jordan facing Judea, much farther south, so no dot is drawn."
+ },
+ {
+  "c": 23,
+  "drop": [
+   "josiah-2"
+  ],
+  "why": "Bible Atlas links Josiah son of Zephaniah here because he is also called Hen (Zechariah 6:14), but the hen of 23:37 is the bird. The links to Zacharias and his father Jehoiada for \"Zechariah son of Berechiah\" (23:35) follow one identification, with the priest killed in the temple court in 2 Chronicles 24:20-22; others think of the prophet Zechariah son of Berechiah (Zechariah 1:1)."
+ },
+ {
+  "c": 27,
+  "drop": [
+   "israel",
+   "place"
+  ],
+  "why": "Here Israel is the nation or people (\"Israel's sons\" in 27:9, \"King of Israel\" in 27:42), not the patriarch Israel (Jacob). Bible Atlas's \"Place\" entry is a duplicate of Golgotha, \"Skull Place\" (27:33), which is already linked."
+ }
+]

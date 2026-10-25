@@ -1,0 +1,593 @@
+[
+ {
+  "v": "5:4",
+  "a": "Blessed are the mourners, because they will be comforted.",
+  "t": "Mourners second or third?",
+  "p": "Some early witnesses put the gentle (5:5) before the mourners (5:4). This entry goes with the one at 5:5.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus (300s), Ephraemi (400s), the Byzantine majority, the Coptic; SBLGNT, NA28 and Tyndale House GNT, Textus Receptus",
+    "orig": "μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται",
+    "en": "Blessed are those who mourn, for they will be comforted",
+    "plain": "Blessed are the mourners, because they will be comforted."
+   },
+   {
+    "w": "Codex Bezae (D, 400s), minuscule 33, the Curetonian Syriac, most Old Latin manuscripts and the Vulgate, Clement and Origen in some citations (reported by Tischendorf); Tischendorf's 8th edition",
+    "orig": "μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσιν τὴν γῆν",
+    "en": "Blessed are the meek, for they will inherit the earth",
+    "plain": "Blessed are the gentle, because they will inherit the earth."
+   }
+  ],
+  "follow": 0,
+  "why": "The order mourners-then-gentle has the stronger Greek support. Metzger notes that if \"poor\" and \"gentle\" had first stood together, with their neat contrast of heaven and earth, no copyist would have pushed the mourners between them; the reverse change, to pair the two similar blessings, is easy to explain.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "Blessed are the gentle, because they will inherit the earth.",
+  "t": "Gentle third or second?",
+  "p": "Goes with the entry at 5:4: some early witnesses have this blessing second.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Ephraemi, the Byzantine majority; SBLGNT, NA28 and Tyndale House GNT, Textus Receptus",
+    "orig": "μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσιν τὴν γῆν",
+    "en": "Blessed are the meek, for they will inherit the earth",
+    "plain": "Blessed are the gentle, because they will inherit the earth."
+   },
+   {
+    "w": "Codex Bezae, minuscule 33, the Curetonian Syriac, the Old Latin and Vulgate",
+    "orig": "μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται",
+    "en": "Blessed are those who mourn, for they will be comforted",
+    "plain": "Blessed are the mourners, because they will be comforted."
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 5:4.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:22",
+  "a": "is angry with his brother",
+  "t": "\"Angry\" or \"angry without cause\"?",
+  "p": "Most later manuscripts and the KJV add \"without a cause.\" The earliest witnesses do not.",
+  "readings": [
+   {
+    "w": "The papyrus P64+67 (fragments of one codex, about AD 200, as cited in the UBS and NA28 apparatus), Codex Sinaiticus (first hand) and Vaticanus (300s), the Vulgate, Origen; Jerome says the word was absent from the oldest copies; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ὁ ὀργιζόμενος τῷ ἀδελφῷ αὐτοῦ",
+    "en": "who is angry with his brother",
+    "plain": "is angry with his brother"
+   },
+   {
+    "w": "Codex Bezae, Washington (W, 400s), the Byzantine majority, the Old Latin, Syriac and Coptic, Irenaeus (Latin), Cyprian; Tregelles; Textus Receptus (KJV \"angry with his brother without a cause\")",
+    "orig": "ὁ ὀργιζόμενος τῷ ἀδελφῷ αὐτοῦ εἰκῇ",
+    "en": "who is angry with his brother without cause",
+    "plain": "is angry with his brother without cause"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the earliest support, and early writers already called the added word a later insertion. \"Without cause\" is easy to explain as a softening, so that the saying would not condemn every kind of anger (Jesus himself is angry in 21:12–13 and Mark 3:5). Leaving it out would be hard to explain.",
+  "b": "The added word is very old: Irenaeus and Cyprian (100s–200s) knew it. Its age is a reminder that copyists sometimes adjusted hard sayings early.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:27",
+  "a": "You have heard what was said",
+  "t": "\"Said\" or \"said by them of old time\"?",
+  "p": "The KJV adds \"by them of old time\" here, copying 5:21. Most manuscripts do not.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, the Byzantine majority; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἠκούσατε ὅτι ἐρρέθη",
+    "en": "you have heard that it was said",
+    "plain": "You have heard what was said"
+   },
+   {
+    "w": "Codex L (700s), Θ and some minuscules, the Curetonian Syriac, some Old Latin; Textus Receptus (KJV \"by them of old time\")",
+    "orig": "ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις",
+    "en": "you have heard that it was said to the people of old",
+    "plain": "You have heard what the people of long ago were told"
+   }
+  ],
+  "follow": 0,
+  "why": "The short form has nearly all the evidence, including the Byzantine text. The longer form copies 5:21 and 5:33.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:30",
+  "a": "go off into Gehenna",
+  "t": "\"Go off into\" or \"be thrown into\" Gehenna?",
+  "p": "The Byzantine text and the KJV repeat \"be cast into hell\" from 5:29.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and other early witnesses, the Vulgate and many Old Latin; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "εἰς γέενναν ἀπέλθῃ",
+    "en": "go away into Gehenna",
+    "plain": "go off into Gehenna"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"should be cast into hell\")",
+    "orig": "βληθῇ εἰς γέενναν",
+    "en": "be thrown into Gehenna",
+    "plain": "be thrown into Gehenna"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine reading makes 5:30 match 5:29 word for word, the kind of change copyists often made. Codex Bezae leaves out 5:30 entirely, probably by accident because 5:29 and 5:30 end alike.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:32",
+  "a": "And if a man marries a woman whose husband has divorced her, he commits adultery.",
+  "t": "Is the last sentence original?",
+  "p": "Codex Bezae and some Old Latin copies leave out the last sentence.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, the Byzantine majority and nearly all witnesses; SBLGNT, NA28 and Tyndale House GNT, Textus Receptus",
+    "orig": "καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ, μοιχᾶται",
+    "en": "and whoever marries a divorced woman commits adultery",
+    "plain": "And if a man marries a woman whose husband has divorced her, he commits adultery."
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and some Old Latin manuscripts (a, b, k); Augustine knew Greek and Latin copies without it",
+    "orig": "",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence is in almost every manuscript and matches Luke 16:18. Its loss in a few Western witnesses is probably accidental, or a softening.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:44",
+  "a": "keep loving your enemies, and pray for the people who persecute you.",
+  "t": "The longer command in the KJV",
+  "p": "The Byzantine text and the KJV add two lines from Luke 6:27–28.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, minuscule family 1, the Curetonian and Sinaitic Syriac, the Coptic, Origen, Cyprian; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν καὶ προσεύχεσθε ὑπὲρ τῶν διωκόντων ὑμᾶς",
+    "en": "love your enemies and pray for those who persecute you",
+    "plain": "keep loving your enemies, and pray for the people who persecute you."
+   },
+   {
+    "w": "Codex Bezae (in part), L, the Byzantine majority; Textus Receptus (KJV \"bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you\")",
+    "orig": "ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν, εὐλογεῖτε τοὺς καταρωμένους ὑμᾶς, καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, καὶ προσεύχεσθε ὑπὲρ τῶν ἐπηρεαζόντων ὑμᾶς καὶ διωκόντων ὑμᾶς",
+    "en": "love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you",
+    "plain": "keep loving your enemies, bless those who curse you, do good to those who hate you, and pray for the people who mistreat you and persecute you."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words come from Luke's form of the saying (Luke 6:27–28), where they are original. Copyists often filled out one Gospel from another. The short form has the best early Greek, Syriac and Coptic support.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:47",
+  "a": "your brothers",
+  "t": "Brothers or friends?",
+  "p": "The Byzantine text reads \"friends\" instead of \"brothers.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, families 1 and 13, the Old Latin, Vulgate, Syriac and Coptic; SBLGNT, NA28 and Tyndale House GNT, Textus Receptus",
+    "orig": "τοὺς ἀδελφοὺς ὑμῶν",
+    "en": "your brothers",
+    "plain": "your brothers"
+   },
+   {
+    "w": "Codex L, W, Θ and the Byzantine majority",
+    "orig": "τοὺς φίλους ὑμῶν",
+    "en": "your friends",
+    "plain": "your friends"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Brothers\" has the oldest and widest support; \"friends\" is probably a clarification for readers who took \"brothers\" as fellow Christians.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "5:47",
+  "a": "Don't the Gentiles do just that?",
+  "t": "Gentiles or tax collectors?",
+  "p": "The Byzantine text and the KJV repeat \"tax collectors\" (\"publicans\") from 5:46.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, family 1, most Old Latin, the Curetonian Syriac; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "οὐχὶ καὶ οἱ ἐθνικοὶ τὸ αὐτὸ ποιοῦσιν;",
+    "en": "do not even the Gentiles do the same?",
+    "plain": "Don't the Gentiles do just that?"
+   },
+   {
+    "w": "Codex L, W, Θ, the Byzantine majority; Textus Receptus (KJV \"do not even the publicans so?\")",
+    "orig": "οὐχὶ καὶ οἱ τελῶναι οὕτως ποιοῦσιν;",
+    "en": "do not even the tax collectors do so?",
+    "plain": "Don't the tax collectors do just that?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine reading copies 5:46. \"Gentiles\" is the harder and older reading.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "righteousness",
+  "t": "Righteousness or alms?",
+  "p": "Many later manuscripts and the KJV read \"alms\" here, the subject of 6:2–4.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Bezae, minuscules 1 and 209, the Old Latin and Vulgate; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "τὴν δικαιοσύνην ὑμῶν",
+    "en": "your righteousness",
+    "plain": "righteousness"
+   },
+   {
+    "w": "Codex L, W, Z, Θ, the Byzantine majority; Textus Receptus (KJV \"that ye do not your alms before men\")",
+    "orig": "τὴν ἐλεημοσύνην ὑμῶν",
+    "en": "your alms",
+    "plain": "alms-giving"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Righteousness\" is a heading for all three practices (giving, prayer, fasting) and is Matthew's word (5:20). Copyists narrowed it to \"alms\" to match 6:2. In Aramaic and later Hebrew, the word for righteousness (<i>tsedaqah</i>) also came to mean charity, which made the change natural.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "will repay you",
+  "t": "\"Repay you\" or \"reward you openly\"?",
+  "p": "Later manuscripts and the KJV add \"openly\" here, and again in 6:6 and 6:18.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, Z, minuscules 1 and 209, the Curetonian Syriac, the Coptic, Vulgate; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἀποδώσει σοι",
+    "en": "will repay you",
+    "plain": "will repay you"
+   },
+   {
+    "w": "Codex L, W, Θ, the Byzantine majority, some Old Latin and Syriac; Textus Receptus (KJV \"shall reward thee openly\")",
+    "orig": "αὐτὸς ἀποδώσει σοι ἐν τῷ φανερῷ",
+    "en": "will himself repay you openly",
+    "plain": "will himself repay you openly"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Openly\" was added to round off the contrast with \"in secret.\" Augustine noticed that the Latin copies of his day had \"openly\" but the Greek copies he checked did not.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "will repay you",
+  "t": "\"Openly\" again",
+  "p": "As in 6:4, later manuscripts and the KJV add \"openly.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, Z, the Curetonian Syriac, the Coptic, Vulgate; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἀποδώσει σοι",
+    "en": "will repay you",
+    "plain": "will repay you"
+   },
+   {
+    "w": "Codex L, W, Θ, the Byzantine majority; Textus Receptus (KJV \"shall reward thee openly\")",
+    "orig": "ἀποδώσει σοι ἐν τῷ φανερῷ",
+    "en": "will repay you openly",
+    "plain": "will repay you openly"
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 6:4.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "have forgiven",
+  "t": "\"Have forgiven\" or \"forgive\"?",
+  "p": "The oldest manuscripts have the past tense; the Byzantine text has the present, as in the KJV.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Z, minuscule 1; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ὡς καὶ ἡμεῖς ἀφήκαμεν",
+    "en": "as we also have forgiven",
+    "plain": "have forgiven"
+   },
+   {
+    "w": "Codex Bezae, L, W, Θ, the Byzantine majority, the Didache; Textus Receptus (KJV \"as we forgive\")",
+    "orig": "ὡς καὶ ἡμεῖς ἀφίεμεν",
+    "en": "as we also forgive",
+    "plain": "forgive"
+   }
+  ],
+  "follow": 0,
+  "why": "The past tense is the harder reading: it sounds as if our forgiving must come first. Copyists, and the church's spoken prayer, moved toward the present tense, which Luke also has (Luke 11:4). Behind the Greek may be an Aramaic perfect that means \"as we hereby forgive.\"",
+  "s": [
+   "metzger",
+   "didache"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "rescue us from the evil one.'",
+  "t": "The ending \"For yours is the kingdom\"",
+  "p": "The familiar closing words are not in the oldest manuscripts. They grew from church worship.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, Z, minuscules 1 and 118, most Old Latin, the Vulgate, part of the Bohairic Coptic; Tertullian, Origen and Cyprian explain the prayer without it; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+    "en": "but deliver us from the evil one.",
+    "plain": "rescue us from the evil one.'"
+   },
+   {
+    "w": "Codex L, W, Θ, the Byzantine majority, the Peshitta Syriac; Textus Receptus (KJV); shorter forms: the Didache (late first century) and the Sahidic Coptic, \"for yours is the power and the glory forever\" (ὅτι σοῦ ἐστιν ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας); the Old Latin Codex Bobiensis (k, about 400), \"for yours is the power forever and ever\"; the Curetonian Syriac, \"kingdom and glory\" (as reported by Metzger)",
+    "orig": "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ. ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας· ἀμήν.",
+    "en": "but deliver us from the evil one. For yours is the kingdom and the power and the glory forever. Amen.",
+    "plain": "rescue us from the evil one. For yours is the kingdom and the power and the glory forever. Amen.'"
+   }
+  ],
+  "follow": 0,
+  "why": "The ending is missing from the earliest manuscripts of several regions and from the earliest commentaries on the prayer. It appears in several different forms (with two parts, three parts, or a Trinitarian ending), which is what happens when a liturgical response is added. Jewish prayers regularly ended with such praise, modeled on 1 Chronicles 29:11, and the church soon did the same. Most churches still pray it, and nothing in it is foreign to Scripture.",
+  "b": "The variety of short forms in early versions (power; power and glory; kingdom and glory) shows the ending growing in worship before it settled into the three-part form. Catholic worship keeps the doxology as a separate response after a prayer by the priest. Orthodox worship has the priest sing it, adding \"of the Father and of the Son and of the Holy Spirit.\" Protestant churches usually say it as part of the prayer.",
+  "s": [
+   "metzger",
+   "didache",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:15",
+  "a": "If you do not forgive people",
+  "t": "\"Forgive people\" or \"forgive people their wrongs\"?",
+  "p": "Many manuscripts add \"their trespasses\" here, matching 6:14. The Tyndale House edition prints it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Bezae, minuscule 1, the Vulgate and some Old Latin, Augustine; SBLGNT, NA28",
+    "orig": "ἐὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις",
+    "en": "but if you do not forgive people",
+    "plain": "If you do not forgive people"
+   },
+   {
+    "w": "Codex Vaticanus, L, W, Θ, the Byzantine majority; Tyndale House GNT, Textus Receptus (KJV \"men their trespasses\")",
+    "orig": "ἐὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις τὰ παραπτώματα αὐτῶν",
+    "en": "but if you do not forgive people their trespasses",
+    "plain": "If you do not forgive people their wrongs"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings mean the same. The shorter one is probably original, the longer filling out the sentence to match 6:14; but Vaticanus supports the longer form, and the Tyndale House editors judged it original.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:18",
+  "a": "will repay you",
+  "t": "\"Openly\" a third time",
+  "p": "Here only the Textus Receptus and a few other witnesses add \"openly\"; the Byzantine majority does not.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, the Byzantine majority, the Syriac, Coptic and Vulgate; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ἀποδώσει σοι",
+    "en": "will repay you",
+    "plain": "will repay you"
+   },
+   {
+    "w": "A few manuscripts and some Old Latin; Textus Receptus (KJV \"shall reward thee openly\")",
+    "orig": "ἀποδώσει σοι ἐν τῷ φανερῷ",
+    "en": "will repay you openly",
+    "plain": "will repay you openly"
+   }
+  ],
+  "follow": 0,
+  "why": "See 6:4. In this verse even the Byzantine majority lacks the word, so the KJV follows a minority of late copies.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:25",
+  "a": "what you will eat or what you will drink",
+  "t": "\"Or what you will drink\"",
+  "p": "Some early witnesses lack \"or what you will drink.\" The editions disagree.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, W, family 13, minuscule 33; Tyndale House GNT, NA28 (in brackets); the Byzantine text and Textus Receptus with \"and\"",
+    "orig": "τί φάγητε ἢ τί πίητε",
+    "en": "what you will eat or what you will drink",
+    "plain": "what you will eat or what you will drink"
+   },
+   {
+    "w": "Codex Sinaiticus, family 1, the Curetonian Syriac, several Old Latin manuscripts and the Vulgate; SBLGNT",
+    "orig": "τί φάγητε",
+    "en": "what you will eat",
+    "plain": "what you will eat"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is evenly split. The phrase may have been added to match 6:31, or dropped because the body does not \"drink\" in the sense of the next phrase or to match Luke 12:22. The Plain follows NA28 and the Tyndale House edition, which keep it.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "6:33",
+  "a": "God's kingdom",
+  "t": "\"God's kingdom\" or \"the kingdom\"?",
+  "p": "Codex Sinaiticus and Vaticanus lack \"of God\"; most manuscripts have it. NA28 puts it in brackets.",
+  "readings": [
+   {
+    "w": "Codex W, Θ, the Byzantine majority, the Old Latin, Vulgate and Syriac; NA28 (in brackets), Tyndale House GNT, Textus Receptus",
+    "orig": "τὴν βασιλείαν τοῦ θεοῦ",
+    "en": "the kingdom of God",
+    "plain": "God's kingdom"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (which reverses the order: \"his righteousness and kingdom\"), some Coptic; SBLGNT",
+    "orig": "τὴν βασιλείαν",
+    "en": "the kingdom",
+    "plain": "the kingdom"
+   }
+  ],
+  "follow": 0,
+  "why": "Matthew nearly always says \"kingdom of heaven,\" so a copyist adding \"of God\" here would be unusual, which counts for the longer text; yet the two oldest Greek manuscripts lack it. The meaning is the same either way, since \"his\" refers to the Father of 6:32. The Plain follows NA28 and Tyndale House.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "will be used to measure out to you",
+  "t": "\"Measured to you again\"",
+  "p": "The KJV's \"measured to you again\" comes from a Greek form found in the Textus Receptus, not in most manuscripts.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts, including the Byzantine majority; SBLGNT, NA28, Tyndale House GNT, Westcott and Hort, Robinson-Pierpont",
+    "orig": "μετρηθήσεται ὑμῖν",
+    "en": "it will be measured to you",
+    "plain": "will be used to measure out to you"
+   },
+   {
+    "w": "A few later manuscripts; Textus Receptus (KJV \"it shall be measured to you again\")",
+    "orig": "ἀντιμετρηθήσεται ὑμῖν",
+    "en": "it will be measured back to you",
+    "plain": "will be used to measure back to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The compound verb \"measure back\" stands in the parallel Luke 6:38, and a copyist could easily bring it in here from Luke. The simple verb has overwhelming support, including the Byzantine text itself.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "7:13",
+  "a": "the gate is wide, and the road that leads to ruin is roomy",
+  "t": "Is \"the gate\" in the text?",
+  "p": "A few early witnesses lack the second \"the gate,\" so that only the road is wide.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Ephraemi, the Byzantine majority and nearly all manuscripts; SBLGNT, NA28, Tyndale House GNT, Textus Receptus",
+    "orig": "πλατεῖα ἡ πύλη καὶ εὐρύχωρος ἡ ὁδός",
+    "en": "wide is the gate and broad is the road",
+    "plain": "the gate is wide, and the road that leads to ruin is roomy"
+   },
+   {
+    "w": "Some Old Latin manuscripts (a, b, c, h, k), Clement, Origen and Cyprian in citations; Westcott and Hort",
+    "orig": "πλατεῖα καὶ εὐρύχωρος ἡ ὁδός",
+    "en": "wide and broad is the road",
+    "plain": "the road that leads to ruin is wide and roomy"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all manuscripts have \"the gate.\" The early writers who lack it were quoting freely, and Westcott and Hort's choice has not been followed by recent editions.",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "How narrow the gate is, and how cramped the road leading to life!",
+  "t": "\"How narrow\" or \"For narrow\"?",
+  "p": "One letter separates the readings: ti (\"how\") or hoti (\"because\"). The editions are divided.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (corrected), Vaticanus (corrected), C, L, W, Θ, the Byzantine majority, the Old Latin, Vulgate and Syriac; NA28, Tyndale House GNT",
+    "orig": "τί στενὴ ἡ πύλη καὶ τεθλιμμένη ἡ ὁδός",
+    "en": "how narrow is the gate and constricted the road",
+    "plain": "How narrow the gate is, and how cramped the road leading to life!"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (first hands, as reported by Metzger and Tischendorf), some Vulgate manuscripts, Origen; SBLGNT, Westcott and Hort, Textus Receptus (KJV \"Because strait is the gate\")",
+    "orig": "ὅτι στενὴ ἡ πύλη καὶ τεθλιμμένη ἡ ὁδός",
+    "en": "for narrow is the gate and constricted the road",
+    "plain": "For the gate is narrow, and the road leading to life is cramped."
+   }
+  ],
+  "follow": 0,
+  "why": "\"How\" (<i>ti</i>) reflects a Hebrew and Aramaic way of exclaiming (<i>mah</i>, \"how!\"), and copyists could easily change it to <i>hoti</i> to match the \"for\" of 7:13. The NA28 and Tyndale House editors, and Metzger's committee, preferred <i>ti</i>; SBLGNT follows the first hands of the two great codices.",
+  "b": "The Textus Receptus reads <i>hoti</i> (\"because\"), which is why the KJV says \"Because strait is the gate.\"",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "7:24",
+  "a": "will be like a sensible man",
+  "t": "\"Will be like\" or \"I will liken him\"?",
+  "p": "The KJV's \"I will liken him unto a wise man\" follows the Byzantine text.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Z, the Vulgate and most Old Latin, the Sahidic Coptic, Origen; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "ὁμοιωθήσεται ἀνδρὶ φρονίμῳ",
+    "en": "will be like a sensible man",
+    "plain": "will be like a sensible man"
+   },
+   {
+    "w": "Codex Sinaiticus, C, L, W, Θ, the Byzantine majority, the Curetonian and Peshitta Syriac; Textus Receptus (KJV \"I will liken him unto a wise man\")",
+    "orig": "ὁμοιώσω αὐτὸν ἀνδρὶ φρονίμῳ",
+    "en": "I will compare him to a sensible man",
+    "plain": "I will compare him to a sensible man"
+   }
+  ],
+  "follow": 0,
+  "why": "The modern editions follow Vaticanus, since the passive matches 7:26 and the active \"I will compare\" may come from Luke 6:47 (\"I will show you whom he is like\"). The support for the active reading is strong and old, and either could be original; the meaning is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "7:29",
+  "a": "their scribes",
+  "t": "\"Their scribes\" or \"the scribes\"?",
+  "p": "The oldest manuscripts say \"their scribes\"; the Byzantine text and the KJV say \"the scribes.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, W, Θ, families 1 and 13; SBLGNT, NA28 and Tyndale House GNT",
+    "orig": "οἱ γραμματεῖς αὐτῶν",
+    "en": "their scribes",
+    "plain": "their scribes"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"the scribes\"). Some manuscripts and versions add \"and the Pharisees\"",
+    "orig": "οἱ γραμματεῖς",
+    "en": "the scribes",
+    "plain": "the scribes"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Their\" is Matthew's way of speaking (\"their synagogues,\" 4:23; 9:35) and has the oldest support. Dropping it made the sentence smoother and less pointed.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ }
+]

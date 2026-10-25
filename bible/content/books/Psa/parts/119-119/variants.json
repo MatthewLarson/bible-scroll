@@ -1,0 +1,682 @@
+[
+ {
+  "v": "119:24",
+  "a": "they are the people I go to for advice",
+  "t": "Counselors: people or rules?",
+  "p": "The Hebrew says God's decrees are \"the men of my counsel\"; the Greek puts \"your rules\" in the line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אַנְשֵׁי עֲצָתִי",
+    "en": "the men of my counsel",
+    "plain": "they are the people I go to for advice"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "καὶ αἱ συμβουλίαι μου τὰ δικαιώματά σου",
+    "en": "and my counsels are your rules",
+    "plain": "and my counsel is your rules"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder, more vivid reading: the decrees are like trusted advisers. The Greek gives the line one of the law words, perhaps by reading the phrase in light of the rest of the psalm.",
+  "s": [
+   "sinaiticus-lake",
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "119:30",
+  "a": "your rulings I have placed in front of me",
+  "t": "\"I have set\" or \"I have not forgotten\"?",
+  "p": "The Hebrew says \"your rulings I have set\"; the Greek says \"your rulings I have not forgotten\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מִשְׁפָּטֶיךָ שִׁוִּיתִי",
+    "en": "your rulings I have set (before me)",
+    "plain": "your rulings I have placed in front of me"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; Gallican Latin <i>iudicia tua non sum oblitus</i>",
+    "orig": "τὰ κρίματά σου οὐκ ἐπελαθόμην",
+    "en": "your judgments I have not forgotten",
+    "plain": "your rulings I have not forgotten"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Shivviti</i>, \"I have set\", is short and needs \"before me\" understood (compare 16:8, \"I have set the LORD before me\"). The Greek may have read a similar-looking verb (perhaps <i>shakhachti</i>, \"I forgot\", with a negative supplied) or smoothed the line with the psalm's frequent \"I have not forgotten\". The Hebrew is kept.",
+  "s": [
+   "sinaiticus-lake",
+   "jerome-psalters",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:43",
+  "a": "for I have hoped for your ruling",
+  "t": "Ruling or rulings?",
+  "p": "The Hebrew has \"your ruling\", singular; the Greek has \"your judgments\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְמִשְׁפָּטֶךָ",
+    "en": "for your ruling",
+    "plain": "for I have hoped for your ruling"
+   },
+   {
+    "w": "Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118 (<i>epi ta krimata sou</i>); Codex Sinaiticus <i>epi tois krimasin sou</i>",
+    "orig": "ἐπὶ τὰ κρίματά σου ἐπήλπισα",
+    "en": "on your judgments I have hoped",
+    "plain": "for I have hoped in your rulings"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular can mean God's verdict in the speaker's case, which fits a man waiting to be cleared. The Greek plural matches the rest of the psalm. The difference is one Hebrew letter (a <i>yod</i>).",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:48",
+  "a": "toward your commands, the ones I love",
+  "t": "A repeated phrase?",
+  "p": "\"Which I love\" repeats the end of 119:47. Many scholars think a copyist wrote it twice.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rahlfs' Greek the same; Codex Sinaiticus adds \"greatly\"",
+    "orig": "אֶל־מִצְוֹתֶיךָ אֲשֶׁר אָהָבְתִּי",
+    "en": "toward your commands, which I love",
+    "plain": "toward your commands, the ones I love"
+   },
+   {
+    "w": "Modern conjecture (no manuscript)",
+    "orig": "אֶל־מִצְוֹתֶיךָ",
+    "en": "toward your commands",
+    "plain": "toward your commands"
+   }
+  ],
+  "follow": 0,
+  "why": "Every witness has the phrase, so the Plain keeps it. The conjecture rests only on the verse's length and the repetition.",
+  "s": [
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:70",
+  "a": "Their heart has gone dull like fat",
+  "t": "Fat or milk?",
+  "p": "The Hebrew says the heart is thick \"like fat\"; the Greek says \"curdled like milk\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "טָפַשׁ כַּחֵלֶב לִבָּם",
+    "en": "their heart is gross like fat",
+    "plain": "Their heart has gone dull like fat"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; Gallican Latin <i>coagulatum est sicut lac cor eorum</i>",
+    "orig": "ἐτυρώθη ὡς γάλα ἡ καρδία αὐτῶν",
+    "en": "their heart was curdled like milk",
+    "plain": "Their heart has curdled like milk"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>chelev</i>, \"fat\", and <i>chalav</i>, \"milk\", are spelled with the same three letters; only the vowels differ, and those were not written in early manuscripts. The Greek read \"milk\". A fat heart is a dull, unfeeling one (Isaiah 6:10), which fits the line, so the Hebrew vowels are kept.",
+  "s": [
+   "sinaiticus-lake",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "119:79",
+  "a": "and those who know your decrees",
+  "t": "\"Those who know\" or \"and they will know\"?",
+  "p": "The written Hebrew (Ketiv) has \"and they will know\"; the reading tradition (Qere) has \"and those who know\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (the reading tradition); Greek <i>kai hoi ginōskontes</i>",
+    "orig": "וְיֹדְעֵי",
+    "en": "and those who know",
+    "plain": "and those who know your decrees"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (the written consonants)",
+    "orig": "וְיָדְעוּ",
+    "en": "and they will know",
+    "plain": "so that they will know your decrees"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere makes a neat pair, \"those who fear you, those who know your decrees\", and the Greek agrees. The Ketiv makes the second line the result: let them turn to me, so they will know. See the topic page on Ketiv and Qere.",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:85",
+  "a": "The arrogant have dug pits for me",
+  "t": "Pits or idle talk?",
+  "p": "The Hebrew says the arrogant \"dug pits\"; the Greek says lawless men \"told me idle tales\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כָּרוּ־לִי זֵדִים שִׁיחוֹת",
+    "en": "the arrogant dug pits for me",
+    "plain": "The arrogant have dug pits for me"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "διηγήσαντό μοι παράνομοι ἀδολεσχίας",
+    "en": "lawless men told me idle talk",
+    "plain": "Lawless people have told me idle tales"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Shichot</i>, \"pits\", looks like <i>sichot</i>, \"talk, musings\" (the noun of the verb \"ponder\" in this psalm), and the Greek read it that way, also reading \"dug\" as \"told\". With \"not in keeping with your law\" the Greek makes a contrast between their talk and God's law. The Hebrew picture of traps fits 119:110 and is kept.",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:113",
+  "a": "People of divided mind I hate",
+  "t": "Divided or lawless?",
+  "p": "The Hebrew has \"the divided\"; the Greek has \"lawbreakers\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "סֵעֲפִים שָׂנֵאתִי",
+    "en": "divided ones I hate",
+    "plain": "People of divided mind I hate"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "παρανόμους ἐμίσησα",
+    "en": "lawbreakers I hate",
+    "plain": "Lawbreakers I hate"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator chose a word that sets the line against \"your law\" in the second half. <i>Se'afim</i> is rare, and the Greek may be a guess from context. The Hebrew is kept.",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:119",
+  "a": "Like slag you put an end to all the wicked of the earth",
+  "t": "\"You remove\" or \"I counted\"?",
+  "p": "The Hebrew: God removes the wicked like slag. The Greek: \"I counted all the sinners of the earth as transgressors\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "סִגִים הִשְׁבַּתָּ כָל־רִשְׁעֵי־אָרֶץ",
+    "en": "dross: you have made all the wicked of the earth cease",
+    "plain": "Like slag you put an end to all the wicked of the earth"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "παραβαίνοντας ἐλογισάμην πάντας τοὺς ἁμαρτωλοὺς τῆς γῆς",
+    "en": "I counted all the sinners of the earth as transgressors",
+    "plain": "I have counted all the wicked of the earth as lawbreakers"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have read <i>hishbatta</i>, \"you made cease\", as <i>chashavti</i>, \"I counted\", and <i>sigim</i>, \"dross\", as a word from <i>sug</i>, \"turn aside\". Some scholars prefer \"you count\" (<i>chashavta</i>), which also gives good sense. The Plain keeps the Hebrew.",
+  "s": [
+   "sinaiticus-lake",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:120",
+  "a": "My body bristles with dread of you",
+  "t": "\"My flesh bristles\" or \"nail down my flesh\"?",
+  "p": "The Hebrew is a statement of fear; the Greek and Latin made it a request: \"Pierce my flesh with fear of you\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "סָמַר מִפַּחְדְּךָ בְשָׂרִי",
+    "en": "my flesh bristles from dread of you",
+    "plain": "My body bristles with dread of you"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; Gallican Latin <i>confige timore tuo carnes meas</i>",
+    "orig": "καθήλωσον ἐκ τοῦ φόβου σου τὰς σάρκας μου",
+    "en": "nail down my flesh with fear of you",
+    "plain": "Nail my body down with dread of you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the consonants <i>smr</i> as an imperative and connected them with <i>masmer</i>, \"nail\". The Latin form of this reading was much used by Christian writers on self-denial. The Hebrew picture matches Job 4:15 and is kept.",
+  "s": [
+   "sinaiticus-lake",
+   "jerome-psalters",
+   "augustine-enarrationes"
+  ]
+ },
+ {
+  "v": "119:128",
+  "a": "all your orders about everything are right",
+  "t": "\"All orders of everything\" or \"all your orders\"?",
+  "p": "The Hebrew \"all orders of all\" is odd. The Greek suggests \"all your orders\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כָּל־פִּקּוּדֵי כֹל יִשָּׁרְתִּי",
+    "en": "all orders of everything I count right",
+    "plain": "all your orders about everything are right"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; the Great Psalms Scroll (11QPs-a) is reported to read \"your orders\" (as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked); followed by many modern versions",
+    "orig": "πρὸς πάσας τὰς ἐντολάς σου κατωρθούμην",
+    "en": "I kept straight by all your commandments",
+    "plain": "all your orders are right"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek (Rahlfs and Codex Sinaiticus agree) points to a Hebrew <i>piqqudekha</i>, \"your orders\", in place of <i>piqqudei khol</i>; the two differ by a letter or two. Many scholars adopt it. The Plain keeps the Hebrew, reading \"of everything\" as \"in every matter\".",
+  "s": [
+   "sinaiticus-lake",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:147",
+  "a": "for your word I wait in hope",
+  "t": "Word or words?",
+  "p": "The written Hebrew (Ketiv) has \"your words\"; the reading tradition (Qere) has \"your word\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere",
+    "orig": "לִדְבָרְךָ",
+    "en": "for your word",
+    "plain": "for your word I wait in hope"
+   },
+   {
+    "w": "Masoretic Text, Ketiv; Greek <i>eis tous logous sou</i> (Rahlfs and Codex Sinaiticus)",
+    "orig": "לִדְבָרֶיךָ",
+    "en": "for your words",
+    "plain": "for your words I wait in hope"
+   }
+  ],
+  "follow": 0,
+  "why": "Both are good Hebrew. The Plain follows the Qere, as the site usually does; the Greek agrees with the Ketiv.",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:150",
+  "a": "Those who chase after vile plans",
+  "t": "Pursuers of scheming, or my pursuers?",
+  "p": "The Hebrew says \"pursuers of scheming\"; the Greek says \"those who pursue me with lawlessness\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "רֹדְפֵי זִמָּה",
+    "en": "pursuers of scheming",
+    "plain": "Those who chase after vile plans"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; some Hebrew manuscripts are reported to read רֹדְפַי, \"my pursuers\" (not checked)",
+    "orig": "οἱ καταδιώκοντές με ἀνομίᾳ",
+    "en": "those who pursue me with lawlessness",
+    "plain": "Those who chase me with vile plans"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew forms differ only in one vowel letter. \"My pursuers\" fits 119:84, 157 and 161. The Plain keeps the Leningrad Codex.",
+  "s": [
+   "sinaiticus-lake",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:161",
+  "a": "it is your word my heart fears",
+  "t": "Word or words?",
+  "p": "The written Hebrew (Ketiv) has \"your words\"; the Qere has \"your word\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere",
+    "orig": "וּמִדְּבָרְךָ",
+    "en": "and of your word",
+    "plain": "it is your word my heart fears"
+   },
+   {
+    "w": "Masoretic Text, Ketiv; Greek <i>apo tōn logōn sou</i> (Rahlfs and Codex Sinaiticus)",
+    "orig": "וּמִדְּבָרֶיךָ",
+    "en": "and of your words",
+    "plain": "it is your words my heart fears"
+   }
+  ],
+  "follow": 0,
+  "why": "As in 119:147, the Plain follows the Qere, and the Greek agrees with the Ketiv.",
+  "s": [
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:37",
+  "a": "in your way give me life",
+  "t": "\"In your way\" or \"by your word\"?",
+  "p": "This is one of the verses without a law word. Some scholars think \"by your word\" stood here, but the scrolls as reported agree with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118 (<i>en tē hodō sou</i>); the Great Psalms Scroll (11QPs-a) and 4QPs-g, as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked",
+    "orig": "בִּדְרָכֶךָ",
+    "en": "in your way",
+    "plain": "in your way give me life"
+   },
+   {
+    "w": "Conjecture by some scholars, to fit the pattern (not found in any witness checked for this page)",
+    "orig": "בִּדְבָרֶךָ",
+    "en": "by your word",
+    "plain": "by your word give me life"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In your way\" is in the Leningrad Codex, in the Greek (Rahlfs and Codex Sinaiticus), and, as reported, in both Qumran scrolls that preserve the verse. \"By your word\" would give the verse a law word and match the refrain \"give me life by your word\" (119:25, 107). The two words look very alike in Hebrew script, but no witness checked for this page has it, so the Plain keeps the Hebrew.",
+  "b": "The scroll readings here come from an English presentation of the published texts; the Hebrew of the scrolls was not seen.",
+  "s": [
+   "allen-psalms",
+   "dssenglishbible-psalms",
+   "rahlfs-psalmi",
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:83",
+  "a": "in the smoke",
+  "t": "Smoke or frost?",
+  "p": "The Hebrew has \"in smoke\"; the Greek has \"in frost\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 11QPs-a, as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked",
+    "orig": "בְּקִיטוֹר",
+    "en": "in smoke",
+    "plain": "in the smoke"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118; Gallican Latin <i>in pruina</i>",
+    "orig": "ἐν πάχνῃ",
+    "en": "in frost",
+    "plain": "in the frost"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Qitor</i> means smoke (Genesis 19:28) and also the thick haze of frost or fog (148:8, where it stands beside snow). The Greek took the second sense. Either way the skin is spoiled and shrunken. The Plain gives the more common meaning.",
+  "s": [
+   "rahlfs-psalmi",
+   "sinaiticus-lake",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "119:83",
+  "a": "your rules I have not forgotten",
+  "t": "A law word traded for loyal love",
+  "p": "The Great Psalms Scroll is reported to read \"you made me like a skin\" and \"your loyal love I have not forgotten\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118 (<i>ta dikaiōmata sou</i>)",
+    "orig": "חֻקֶּיךָ לֹא שָׁכָחְתִּי",
+    "en": "your rules I have not forgotten",
+    "plain": "your rules I have not forgotten"
+   },
+   {
+    "w": "Great Psalms Scroll (11QPs-a), as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked",
+    "orig": "(Hebrew not seen)",
+    "en": "your loyal love I have not forgotten",
+    "plain": "your loyal love I have not forgotten"
+   }
+  ],
+  "follow": 0,
+  "why": "As reported, the scroll also has \"you made me\" for \"I have become\" in the first line. With \"loyal love\" the verse would have no law word at all, so the scroll does not support the idea that every verse once had one. The Masoretic Text and the Greek agree, and the Plain follows them.",
+  "s": [
+   "dssenglishbible-psalms"
+  ]
+ },
+ {
+  "v": "119:91",
+  "a": "Today they stand by your rulings",
+  "t": "\"They stand\" or \"the day stands\"?",
+  "p": "The Greek reads \"by your ordinance the day continues\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְמִשְׁפָּטֶיךָ עָמְדוּ הַיּוֹם",
+    "en": "by your rulings they stand today",
+    "plain": "Today they stand by your rulings"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "τῇ διατάξει σου διαμένει ἡ ἡμέρα",
+    "en": "by your ordinance the day continues",
+    "plain": "By your rulings the day stands firm"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek made <i>hayyom</i>, \"today\", the subject: the day itself lasts by God's order, in line with 119:90. In the Hebrew the subject is the heavens and earth of 119:89–90.",
+  "s": [
+   "rahlfs-psalmi",
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:105",
+  "a": "is your word",
+  "t": "Word or law?",
+  "p": "Codex Sinaiticus reads \"your law is a lamp\"; Rahlfs' Greek has \"your word\" with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118 (<i>ho logos sou</i>)",
+    "orig": "דְבָרֶךָ",
+    "en": "your word",
+    "plain": "is your word"
+   },
+   {
+    "w": "Codex Sinaiticus (checked in the Lake facsimile, Source Library transcription)",
+    "orig": "ὁ νόμος σου",
+    "en": "your law",
+    "plain": "is your law"
+   }
+  ],
+  "follow": 0,
+  "why": "Sinaiticus probably echoes Proverbs 6:23, \"the teaching is a light\", or simply swaps one law word for another. The Hebrew and the main Greek text agree on \"word\".",
+  "s": [
+   "sinaiticus-lake",
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "119:107",
+  "a": "LORD, give me life by your word",
+  "t": "\"Give me life\" or \"be gracious to me\"?",
+  "p": "The Great Psalms Scroll is reported to read \"be gracious to me\" here.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יְהוָה חַיֵּנִי כִדְבָרֶךָ",
+    "en": "LORD, give me life by your word",
+    "plain": "LORD, give me life by your word"
+   },
+   {
+    "w": "Great Psalms Scroll (11QPs-a), as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked",
+    "orig": "(Hebrew not seen)",
+    "en": "be gracious to me, LORD, by your word",
+    "plain": "LORD, be gracious to me by your word"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Be gracious to me\" is the prayer of 119:29, 58 and 132; the scroll seems to have traded one familiar plea for another. The Plain follows the Masoretic Text.",
+  "s": [
+   "dssenglishbible-psalms"
+  ]
+ },
+ {
+  "v": "119:109",
+  "a": "My life is in my palm all the time",
+  "t": "In my hand or in your hands?",
+  "p": "The Hebrew and Rahlfs' Greek have \"in my hand\"; Codex Sinaiticus has \"in your hands\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118 (<i>en tais chersin mou</i>); Gallican Latin <i>in manibus meis</i>",
+    "orig": "נַפְשִׁי בְכַפִּי תָמִיד",
+    "en": "my soul is in my palm continually",
+    "plain": "My life is in my palm all the time"
+   },
+   {
+    "w": "Codex Sinaiticus (checked in the Lake facsimile, Source Library transcription)",
+    "orig": "ἡ ψυχή μου ἐν ταῖς χερσίν σου διὰ παντός",
+    "en": "my soul is in your hands continually",
+    "plain": "My life is in your hands all the time"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew idiom means risking one's life (Judges 12:3; 1 Samuel 19:5). Codex Sinaiticus turns it into trust, like 31:5, probably by a slip or a pious change in Greek copying; the main Greek text and the Latin agree with the Hebrew.",
+  "s": [
+   "sinaiticus-lake",
+   "rahlfs-psalmi",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "119:112",
+  "a": "forever, to the last",
+  "t": "To the end, or for a reward?",
+  "p": "'Eqev means \"end\" or \"reward\". The Greek takes \"reward\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְעוֹלָם עֵקֶב",
+    "en": "forever, to the end",
+    "plain": "forever, to the last"
+   },
+   {
+    "w": "Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118; Codex Sinaiticus adds <i>dia pantos</i>, \"continually\"",
+    "orig": "εἰς τὸν αἰῶνα δι᾽ ἀντάμειψιν",
+    "en": "forever, for the sake of a reward",
+    "plain": "forever, for a reward"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters are the same; the difference is in how <i>'eqev</i> is understood (see the note at 119:33). The Hebrew reading tradition and most translations take \"to the end\".",
+  "s": [
+   "rahlfs-psalmi",
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:118",
+  "a": "for their trickery is falsehood",
+  "t": "Trickery or thought?",
+  "p": "The Greek reads \"for their thought is unjust\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי־שֶׁקֶר תַּרְמִיתָם",
+    "en": "for their deceit is falsehood",
+    "plain": "for their trickery is falsehood"
+   },
+   {
+    "w": "Old Greek: Rahlfs' text (checked on bibelkommentare.de) and Codex Sinaiticus (300s AD; checked in the Lake facsimile as transcribed on sourcelibrary.org), Psalm 118",
+    "orig": "ὅτι ἄδικον τὸ ἐνθύμημα αὐτῶν",
+    "en": "for their thought is unjust",
+    "plain": "for their thinking is unjust"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have read <i>tar'itam</i>, \"their thought\" (a word known from Aramaic), for <i>tarmitam</i>, \"their deceit\"; some modern versions footnote it. The Hebrew is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "sinaiticus-lake",
+   "allen-psalms"
+  ]
+ },
+ {
+  "v": "119:139",
+  "a": "My zeal",
+  "t": "My zeal, your zeal, or zeal for your house?",
+  "p": "The Hebrew has \"my zeal\". The Greek tradition is split: Rahlfs' text has \"zeal for your house\" (from 69:9), Codex Sinaiticus \"your zeal\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "קִנְאָתִי",
+    "en": "my zeal",
+    "plain": "My zeal"
+   },
+   {
+    "w": "Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118 and most Greek manuscripts as Rahlfs prints them",
+    "orig": "ὁ ζῆλος τοῦ οἴκου σου",
+    "en": "the zeal of your house",
+    "plain": "Zeal for your house"
+   },
+   {
+    "w": "Codex Sinaiticus (checked in the Lake facsimile, Source Library transcription)",
+    "orig": "ὁ ζῆλός σου",
+    "en": "your zeal",
+    "plain": "Your zeal"
+   }
+  ],
+  "follow": 0,
+  "why": "The main Greek text has borrowed the line from 69:9, \"Zeal for your house has eaten me up\" (John 2:17), so the Greek translators themselves heard Psalm 69 here. Sinaiticus' \"your zeal\" may be a shortened form of the same. The Hebrew \"my zeal\" fits the speaker's grief at enemies who forget God's words and is kept. In the second line Sinaiticus also has \"your commands\" where Rahlfs and the Hebrew have \"your words\".",
+  "s": [
+   "rahlfs-psalmi",
+   "sinaiticus-lake"
+  ]
+ },
+ {
+  "v": "119:151",
+  "a": "every one of your commands is truth",
+  "t": "Commands or ways?",
+  "p": "Codex Sinaiticus reads \"all your ways are truth\"; Rahlfs' Greek has \"commands\" with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rahlfs' Greek text (checked on bibelkommentare.de), Psalm 118 (<i>hai entolai sou</i>)",
+    "orig": "וְכָל־מִצְוֹתֶיךָ אֱמֶת",
+    "en": "and all your commands are truth",
+    "plain": "every one of your commands is truth"
+   },
+   {
+    "w": "Codex Sinaiticus (checked in the Lake facsimile, Source Library transcription)",
+    "orig": "πᾶσαι αἱ ὁδοί σου ἀλήθεια",
+    "en": "all your ways are truth",
+    "plain": "every one of your ways is truth"
+   }
+  ],
+  "follow": 0,
+  "why": "One more case of a law word traded for a near-synonym in a single manuscript. The Hebrew and the main Greek text agree.",
+  "s": [
+   "sinaiticus-lake",
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "119:159",
+  "a": "by your loyal love give me life",
+  "t": "Loyal love or word?",
+  "p": "The Great Psalms Scroll is reported to read \"by your word\" here.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּחַסְדְּךָ חַיֵּנִי",
+    "en": "by your loyal love give me life",
+    "plain": "by your loyal love give me life"
+   },
+   {
+    "w": "Great Psalms Scroll (11QPs-a), as reported in an English presentation of the published scroll texts (dssenglishbible.com); the DJD editions and photographs were not checked",
+    "orig": "(Hebrew not seen)",
+    "en": "by your word give me life",
+    "plain": "by your word give me life"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's reading gives the line a second law word and matches the refrain of 119:25 and 107. Where 119:83 loses a law word in the scroll, this verse gains one: the scroll does not push steadily toward the pattern. The Plain follows the Masoretic Text.",
+  "s": [
+   "dssenglishbible-psalms"
+  ]
+ }
+]

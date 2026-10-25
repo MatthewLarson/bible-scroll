@@ -1,0 +1,469 @@
+[
+ {
+  "v": "11:25",
+  "a": "but they did not do it again",
+  "t": "\"Did not do it again\" or \"did not stop\"?",
+  "p": "The same Hebrew letters can mean \"they did not continue\" or \"they did not cease.\" The KJV follows the second.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC) (\"they added no more\"); most modern versions",
+    "orig": "וְלֹא יָסָפוּ",
+    "en": "and they did not add (do it again)",
+    "plain": "but they did not do it again"
+   },
+   {
+    "w": "Targum Onqelos (\"they did not cease\"); Vulgate (\"nec ultra cessaverunt\"); KJV",
+    "orig": "וְלֹא יָסֻפוּ (as read by these versions)",
+    "en": "and they did not cease",
+    "plain": "and they did not stop"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic vowels and the Septuagint agree that the verb is <i>yasaf</i>, \"to add, do again\": the prophesying was a one-time sign that the spirit had come (compare 1 Samuel 10:13). The other reading takes the letters as a form of <i>suf</i>, \"to come to an end,\" giving a lasting gift. It is a difference of reading the consonants, not of the consonants themselves.",
+  "b": "The two readings carry different ideas: a one-time sign that confirmed the elders' authority, or a lasting gift of prophecy. Rashi follows the first, Onqelos the second. Eldad and Medad, by contrast, go on prophesying in the camp (11:26–27).",
+  "s": [
+   "targum-onkelos",
+   "milgrom-numbers",
+   "wevers-numbers"
+  ]
+ },
+ {
+  "v": "12:16",
+  "a": "camped in the Wilderness of Paran.",
+  "t": "The Samaritan text adds Moses' speech from Deuteronomy",
+  "p": "The Samaritan Pentateuch adds Deuteronomy 1:20–23 here, so the people ask for the scouts before God sends them.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיַּחֲנוּ בְּמִדְבַּר פָּארָן",
+    "en": "and they camped in the wilderness of Paran",
+    "plain": "camped in the Wilderness of Paran."
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions)",
+    "orig": "+ Deuteronomy 1:20–23a",
+    "en": "... Paran. Then Moses said to the Israelites, \"You have reached the Amorites' hill country...\"",
+    "plain": "camped in the Wilderness of Paran. Then Moses said to the Israelites, \"You have reached the Amorites' hill country, which the LORD our God is about to give us. Look, the LORD your God has put the land in front of you. Go up and take it, as the LORD, your ancestors' God, told you. Do not be afraid, and do not lose courage.\" Then all of them came to Moses and said, \"Let's send men ahead of us to spy out the land for us. They can bring back word about the way we should go up and the towns we will come to.\" Moses liked the idea."
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all scholars see the Samaritan addition as a harmonizing expansion: scribes copied Moses' later retelling (Deuteronomy 1:20–23) into Numbers so that the two books would agree. The shorter Masoretic text, supported by the Greek, is older.",
+  "b": "The Samaritan Pentateuch, and a group of Dead Sea Scrolls close to it (the \"pre-Samaritan\" texts), often fill out Numbers with Moses' speeches from Deuteronomy 1–3. Attila Bodor counts twelve such major additions in Numbers and finds ten of them in the Syro-Hexapla. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "13:33",
+  "a": ", the descendants of Anak, who come from the Nephilim",
+  "t": "A phrase missing in the Greek",
+  "p": "The Septuagint lacks the words linking the Anakim with the Nephilim. Many think it is an explanatory note added in Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Targums; Vulgate",
+    "orig": "בְּנֵי עֲנָק מִן־הַנְּפִלִים",
+    "en": "the sons of Anak, from the Nephilim",
+    "plain": ", the descendants of Anak, who come from the Nephilim"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC), as reported in the critical editions",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is in all Hebrew witnesses. It reads like a scribe's explanation of who \"the Nephilim\" were, and many critical scholars think it was added to the Hebrew after the Greek translation was made. Since the evidence for leaving it out is a single translation, the Plain English keeps it and flags the question.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "13:33",
+  "a": "and so we were in their eyes.\"",
+  "t": "The Samaritan text adds the grumbling in the tents",
+  "p": "The Samaritan Pentateuch adds Deuteronomy 1:27–33: the people's complaint in their tents and Moses' answer.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וְכֵן הָיִינוּ בְּעֵינֵיהֶם",
+    "en": "and so we were in their eyes",
+    "plain": "and so we were in their eyes.\""
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions)",
+    "orig": "+ Deuteronomy 1:27–33",
+    "en": "... in their eyes. Then the people grumbled in their tents...",
+    "plain": "and so we were in their eyes.\" Then the people grumbled in their tents and said, \"The LORD hates us! That is why he brought us out of the land of Egypt, to hand us over to the Amorites to wipe us out. Where can we go? Our brothers have made our hearts melt. They say, 'The people are bigger and taller than we are. The towns are large, with walls up to the sky. We even saw the Anakim there.'\" Moses said to the Israelites, \"Do not be terrified of them, and do not be afraid. The LORD your God goes ahead of you, and he will fight for you, just as you saw him do for you in Egypt. In the wilderness, too, you saw how the LORD your God carried you, the way a man carries his son, all along the road until you came to this place. Yet in spite of this you do not trust the LORD your God. He goes ahead of you on the way to find you a place to camp, in fire by night to show you the road, and in the cloud by day.\""
+   }
+  ],
+  "follow": 0,
+  "why": "Like the addition at 12:16, this one copies Moses' retelling in Deuteronomy into the Numbers story, so that Moses' answer to the people's fear is told in both books. Scholars treat the shorter text as older.",
+  "b": "In Deuteronomy these words come after the scouts' good report about the land (Deuteronomy 1:25). In the Samaritan text they follow the scouts' bad report, which gives Moses' words a new setting. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "14:23",
+  "a": "Not one of them will see the land I swore to their ancestors.",
+  "t": "The Greek adds the children",
+  "p": "The Septuagint adds a line from Deuteronomy 1:39: the children who do not know good from evil will receive the land.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Targums; Vulgate",
+    "orig": "אִם־יִרְאוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לַאֲבֹתָם",
+    "en": "they will not see the land that I swore to their fathers",
+    "plain": "Not one of them will see the land I swore to their ancestors."
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "+ ἀλλ᾽ ἢ τὰ τέκνα αὐτῶν ἅ ἐστιν μετ᾽ ἐμοῦ ὧδε, ὅσοι οὐκ οἴδασιν ἀγαθὸν οὐδὲ κακόν, πᾶς νεώτερος ἄπειρος, τούτοις δώσω τὴν γῆν",
+    "en": "... but their children who are here with me, all who do not know good or evil, every young one without experience, to them I will give the land",
+    "plain": "Not one of them will see the land I swore to their ancestors. But their children who are here with me, who do not know good from evil, every young one who knows nothing yet, to them I will give the land."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek line echoes Deuteronomy 1:39 and anticipates 14:31. It is a harmonizing plus, like the Samaritan additions, though made in a different tradition and with different words. No Hebrew witness has it, so the Plain English follows the shorter text.",
+  "b": "The plus shows that the Greek translators, or the Hebrew text they used, also read Numbers together with Deuteronomy. It makes the contrast between the doomed parents and their children clear at once, rather than waiting for 14:31.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "14:40",
+  "a": "for we have sinned.\"",
+  "t": "The Samaritan text adds God's warning",
+  "p": "The Samaritan Pentateuch adds God's words from Deuteronomy 1:42: \"Do not go up and do not fight.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "כִּי חָטָאנוּ",
+    "en": "for we have sinned",
+    "plain": "for we have sinned.\""
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions)",
+    "orig": "+ Deuteronomy 1:42",
+    "en": "... for we have sinned. And the LORD said to Moses, \"Say to them, Do not go up...\"",
+    "plain": "for we have sinned.\" Then the LORD said to Moses, \"Tell them, 'Do not go up, and do not fight, because I am not among you. Then your enemies will not beat you.'\""
+   }
+  ],
+  "follow": 0,
+  "why": "In Numbers Moses warns the people on his own authority (14:41–43). Deuteronomy 1:42 says the warning came from God. The Samaritan text puts God's command in Numbers too, so that Moses only passes it on. The shorter text is older.",
+  "b": "The addition makes the people's attack a direct breach of a command from God, which sharpens the story of 14:44–45. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "14:45",
+  "a": "as far as Hormah.",
+  "t": "A further Samaritan addition",
+  "p": "The Samaritan Pentateuch and the Syro-Hexapla continue the story here with material from Moses' retelling in Deuteronomy.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "עַד־הַחָרְמָה",
+    "en": "as far as Hormah",
+    "plain": "as far as Hormah."
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions)",
+    "orig": "+ a passage drawn from Deuteronomy 1–2",
+    "en": "... as far as Hormah. (A passage from Deuteronomy follows.)",
+    "plain": "as far as Hormah. [A passage from Moses' retelling in Deuteronomy follows.]"
+   }
+  ],
+  "follow": 0,
+  "why": "Bodor lists 14:45 among the twelve major Samaritan additions in Numbers that the Syro-Hexapla also records. Like the others, it is a harmonizing expansion, and the shorter text is older.",
+  "b": "Bodor's list names the place of the addition but does not give its text, so the Plain English does not translate it here. Deuteronomy 1:44–46 tells the same defeat and says Israel stayed at Kadesh \"many days.\"",
+  "s": [
+   "tal-samaritan",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "16:15",
+  "a": "I have not taken one donkey from them",
+  "t": "\"Donkey\" or \"desire\"?",
+  "p": "The Greek reads \"I have not taken anything desirable from them,\" one Hebrew letter different from \"donkey.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Targums; Vulgate",
+    "orig": "לֹא חֲמוֹר אֶחָד מֵהֶם נָשָׂאתִי",
+    "en": "not one donkey of theirs have I taken",
+    "plain": "I have not taken one donkey from them"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "οὐκ ἐπιθύμημα οὐδενὸς αὐτῶν εἴληφα (reflecting חמוד)",
+    "en": "I have not taken anything desirable from any of them",
+    "plain": "I have not taken anything they prize from them"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>chamor</i>, \"donkey,\" and <i>chamud</i>, \"desirable thing,\" differ by one letter that is easily confused (resh and dalet). \"Donkey\" is supported by all Hebrew witnesses and matches Samuel's speech in 1 Samuel 12:3 (\"Whose donkey did I take?\"). The Greek may reflect a copying slip or a translator's smoothing.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "20:13",
+  "a": "and he showed himself holy among them.",
+  "t": "Moses' plea to cross the Jordan",
+  "p": "The Samaritan Pentateuch and 4QNum-b add Moses' plea to enter the land (Deuteronomy 3:24–28) and God's words about Edom (2:2–6).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיִּקָּדֵשׁ בָּם",
+    "en": "and he showed himself holy among them",
+    "plain": "and he showed himself holy among them."
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions); 4QNum-b (4Q27), a Dead Sea Scroll of Numbers copied about the turn of the era (broken in places)",
+    "orig": "+ Deuteronomy 3:24–28; 2:2–6",
+    "en": "... among them. And Moses said, \"Lord GOD, you have begun to show your servant your greatness...\"",
+    "plain": "and he showed himself holy among them. Moses said, \"Lord GOD, you have begun to show your servant how great you are and how strong your hand is. What god in heaven or on earth can do works and mighty deeds like yours? Please let me cross over and see the good land on the other side of the Jordan, that good hill country, and the Lebanon.\" But the LORD was angry with Moses because of the people, and he did not listen to him. The LORD said to him, \"That is enough! Do not speak to me about this again. Go up to the top of Pisgah. Look west and north and south and east, and see the land with your own eyes, because you will not cross this Jordan. Give Joshua his orders. Encourage him and make him strong, because he will cross over ahead of this people. He will give them the land you will see as their inheritance.\" Then the LORD said to Moses, \"You have gone around this hill country long enough. Turn north. Give the people this command: 'You are about to pass through the territory of your relatives, the descendants of Esau, who live in Seir. They will be afraid of you, so be very careful. Do not start a fight with them. I will not give you any of their land, not even enough to set your foot on. I have given the hill country of Seir to Esau as his own. Buy the food you eat from them with silver, and buy the water you drink from them with silver too.'\""
+   }
+  ],
+  "follow": 0,
+  "why": "The added lines place Moses' plea right after the sin that kept him out of the land, and God's command about Edom right before Moses sends messengers to Edom (20:14). Scholars agree it is a harmonizing expansion. Its presence in 4QNum-b shows this longer form of Numbers was already being copied around the turn of the era, but the shorter text is older.",
+  "b": "The Dead Sea Scrolls English Bible, a website translation by Craig Davis, notes that the scroll's text here draws on Deuteronomy 2:2–6 and 3:24–28 and matches the Samaritan text. The scroll is broken, so only parts of the addition survive in it. In Deuteronomy the words \"because of the people\" are Moses' own: \"because of you\" (Deuteronomy 3:26). The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "jastram-4qnumb",
+   "davis-dsseb",
+   "tov-tchb",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "21:1",
+  "a": "by the road of Atharim",
+  "t": "Atharim or \"the spies\"?",
+  "p": "The Aramaic Targums, the Syriac and the KJV read \"the way of the spies.\" Most modern versions keep Atharim as a place name.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (as a name); Septuagint (the Greek translation, 200s BC) (Atharin); most modern versions",
+    "orig": "דֶּרֶךְ הָאֲתָרִים",
+    "en": "the way of Atharim",
+    "plain": "by the road of Atharim"
+   },
+   {
+    "w": "Targum Onqelos and other Targums; Syriac Peshitta; Vulgate (\"per exploratorum viam\"); KJV",
+    "orig": "דֶּרֶךְ הַתָּרִים (as read by these versions)",
+    "en": "the way of the spies",
+    "plain": "by the road the scouts had taken"
+   }
+  ],
+  "follow": 0,
+  "why": "The versions read <i>ha'atarim</i> as if it were <i>hattarim</i>, \"the scouts,\" from <i>tur</i>, the verb of chapter 13. It is a tempting link, but the Hebrew has an extra letter (aleph), and the Greek treats the word as a name. Most scholars take Atharim as an unknown place or route in the Negev.",
+  "s": [
+   "targum-onkelos",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "21:12",
+  "a": "From there they set out and camped in the Valley of Zered.",
+  "t": "God's command about Moab",
+  "p": "Before this verse, the Samaritan Pentateuch and 4QNum-b add God's warning not to attack Moab, from Deuteronomy 2:9.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "מִשָּׁם נָסָעוּ וַיַּחֲנוּ בְּנַחַל זָרֶד",
+    "en": "from there they set out and camped in the wadi of Zered",
+    "plain": "From there they set out and camped in the Valley of Zered."
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions); 4QNum-b (4Q27), a Dead Sea Scroll of Numbers copied about the turn of the era (fragmentary)",
+    "orig": "+ Deuteronomy 2:9 (before the verse)",
+    "en": "And the LORD said to Moses, \"Do not harass Moab...\" From there they set out...",
+    "plain": "Then the LORD said to Moses, \"Do not attack Moab, and do not start a war with them. I will not give you any of their land as your own. I have given Ar to the descendants of Lot as their own.\" From there they set out and camped in the Valley of Zered."
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of a series of additions in chapter 21 that copy God's travel commands from Deuteronomy 2 into Numbers (see also 21:13 and 21:21). They make the two accounts agree; the shorter text without them is older.",
+  "b": "The addition stands between 21:11 and 21:12. Editions differ in which verse they count it with: Bodor lists it at 21:11, and the Dead Sea Scrolls English Bible prints it with 21:12. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "jastram-4qnumb",
+   "tal-samaritan",
+   "davis-dsseb",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "21:13",
+  "a": "From there they set out and camped on the other side of the Arnon",
+  "t": "God's command about Ammon",
+  "p": "Before this verse, the Samaritan Pentateuch and 4QNum-b add God's words about passing Moab and sparing Ammon (Deuteronomy 2:17–19).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "מִשָּׁם נָסָעוּ וַיַּחֲנוּ מֵעֵבֶר אַרְנוֹן",
+    "en": "from there they set out and camped beyond the Arnon",
+    "plain": "From there they set out and camped on the other side of the Arnon"
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions); 4QNum-b (4Q27), a Dead Sea Scroll of Numbers copied about the turn of the era (fragmentary)",
+    "orig": "+ Deuteronomy 2:17–19 (before the verse)",
+    "en": "And the LORD spoke to Moses: \"Today you are crossing the border of Moab, Ar...\" From there they set out...",
+    "plain": "Then the LORD spoke to Moses: \"Today you are about to cross Moab's border at Ar. When you come close to the Ammonites, do not attack them or start a fight with them. I will not give you any of the Ammonites' land as your own. I have given it to the descendants of Lot as their own.\" From there they set out and camped on the other side of the Arnon"
+   }
+  ],
+  "follow": 0,
+  "why": "Like the additions before 21:12 and 21:21, this one copies Deuteronomy's account into Numbers. Scholars treat the shorter Masoretic text as older.",
+  "b": "The addition stands between 21:12 and 21:13. Bodor lists it at 21:12, and the Dead Sea Scrolls English Bible prints it with 21:13. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "jastram-4qnumb",
+   "tal-samaritan",
+   "davis-dsseb",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "21:18",
+  "a": "From the wilderness they went to Mattanah,",
+  "t": "\"From the wilderness\" or \"from the well\"?",
+  "p": "The Greek reads \"and from the well to Mattanah,\" which joins the song to the travel list more smoothly.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Targums",
+    "orig": "וּמִמִּדְבָּר מַתָּנָה",
+    "en": "and from the wilderness, Mattanah",
+    "plain": "From the wilderness they went to Mattanah,"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "καὶ ἀπὸ φρέατος εἰς Μανθαναιν",
+    "en": "and from the well to Manthanain",
+    "plain": "From the well they went to Mattanah,"
+   }
+  ],
+  "follow": 0,
+  "why": "\"From the wilderness\" is an odd next stop after Beer (21:16), which is why the Greek's \"from the well\" (Hebrew <i>mibbe'er</i>) is attractive, and some scholars prefer it. But the Masoretic reading is the harder one, and all Hebrew witnesses support it. The Targums turn the line into a legend: the well was \"given\" (<i>mattanah</i> means \"gift\") to Israel in the wilderness and went with them.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "21:21",
+  "a": "Israel sent messengers to Sihon king of the Amorites",
+  "t": "God's command to cross the Arnon",
+  "p": "Before this verse, the Samaritan Pentateuch and 4QNum-b add God's command to attack Sihon, from Deuteronomy 2:24–25.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (the Greek translation, 200s BC)",
+    "orig": "וַיִּשְׁלַח יִשְׂרָאֵל מַלְאָכִים אֶל־סִיחֹן מֶלֶךְ־הָאֱמֹרִי",
+    "en": "and Israel sent messengers to Sihon king of the Amorites",
+    "plain": "Israel sent messengers to Sihon king of the Amorites"
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Syro-Hexapla (the Syriac translation of Origen's Greek, made about AD 616, which records these additions); 4QNum-b (4Q27), a Dead Sea Scroll of Numbers copied about the turn of the era (fragmentary)",
+    "orig": "+ Deuteronomy 2:24–25 (before the verse)",
+    "en": "And the LORD said to Moses, \"Get up, set out, and cross the Arnon Valley...\" Israel sent messengers...",
+    "plain": "Then the LORD said to Moses, \"Get up, set out, and cross the Arnon Valley. Look, I am handing Sihon the Amorite, king of Heshbon, and his land over to you. Begin to take it over, and fight him in battle. Starting today, I will make all the peoples everywhere under heaven afraid and terrified of you. When they hear the news about you, they will tremble and shake because of you.\" Israel sent messengers to Sihon king of the Amorites"
+   }
+  ],
+  "follow": 0,
+  "why": "In the shorter text Israel simply sends messengers to Sihon. The addition, copied from Deuteronomy 2:24–25, gives God's command first. Like the others in this chapter, it harmonizes Numbers with Deuteronomy and is not original.",
+  "b": "The addition stands between 21:20 and 21:21. Bodor lists it at 21:20, and the Dead Sea Scrolls English Bible prints it with 21:21. Deuteronomy 2:26–29 then has Moses send messengers to Sihon, as in 21:21–22. The Plain English of the added reading is translated here from the Hebrew of Deuteronomy, with Moses' first-person retelling turned into narrative, since the Samaritan text follows Deuteronomy almost word for word (Tov).",
+  "s": [
+   "jastram-4qnumb",
+   "tal-samaritan",
+   "davis-dsseb",
+   "bodor-numbers-sp"
+  ]
+ },
+ {
+  "v": "21:24",
+  "a": "for the border of the Ammonites was strong",
+  "t": "\"Strong\" or \"Jazer\"?",
+  "p": "The Greek reads \"for Jazer is the border of the Ammonites,\" a town named in 21:32.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); Targums; Vulgate; KJV",
+    "orig": "כִּי עַז גְּבוּל בְּנֵי עַמּוֹן",
+    "en": "for the border of the Ammonites was strong",
+    "plain": "for the border of the Ammonites was strong"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC)",
+    "orig": "ὅτι Ιαζηρ ὅρια υἱῶν Αμμων ἐστίν",
+    "en": "for Jazer is the border of the sons of Ammon",
+    "plain": "for Jazer was the border of the Ammonites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>az</i>, \"strong,\" and the town name <i>Ya'zer</i> look alike. The Greek reading fits geography (21:32; Joshua 13:25), and some modern scholars and translations prefer it. The Masoretic reading also makes sense: Israel stopped at the Ammonite border because it was well defended, or, as Deuteronomy 2:19, 37 says, because God forbade attacking Ammon.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers",
+   "levine-numbers21-36"
+  ]
+ },
+ {
+  "v": "21:28",
+  "a": "the lords of the heights of the Arnon",
+  "t": "\"Lords of the heights\" or \"swallowed the heights\"?",
+  "p": "The Greek read the same letters as a verb: the fire \"swallowed\" the heights (or pillars) of the Arnon.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targums; KJV (\"the lords of the high places of Arnon\")",
+    "orig": "בַּעֲלֵי בָּמוֹת אַרְנֹן",
+    "en": "the lords of the heights of the Arnon",
+    "plain": "the lords of the heights of the Arnon"
+   },
+   {
+    "w": "Septuagint (the Greek translation, 200s BC) (\"and swallowed the pillars of Arnon\"); followed by some modern versions",
+    "orig": "καὶ κατέπιεν στήλας Αρνων (reflecting בָּלְעָה)",
+    "en": "and it swallowed the heights of the Arnon",
+    "plain": "it swallowed the heights of the Arnon"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Ba'ale</i>, \"lords of,\" and <i>bal'ah</i>, \"it swallowed,\" are close in Hebrew letters. The Greek gives a neat parallel to \"it ate up Ar of Moab,\" which is why the ESV and some other modern versions adopt it. The Masoretic text also makes sense and is supported by the other ancient witnesses. The poem is old and its text is damaged in places, so certainty is not possible.",
+  "s": [
+   "wevers-numbers",
+   "levine-numbers21-36"
+  ]
+ },
+ {
+  "v": "21:30",
+  "a": "which reaches to Medeba.\"",
+  "t": "\"Which reaches\" or \"with fire\"?",
+  "p": "A letter here carries a special scribal dot. The Samaritan text and the Greek read \"fire\" instead of \"which.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (with a dot over the resh of אשר, one of the Masoretes' \"extraordinary points\")",
+    "orig": "עַד־נֹפַח אֲשֶׁר עַד־מֵידְבָא",
+    "en": "as far as Nophah, which is as far as Medeba",
+    "plain": "which reaches to Medeba.\""
+   },
+   {
+    "w": "Samaritan Pentateuch (a Hebrew text kept by the Samaritans; its form goes back to the last centuries BC, its manuscripts to the Middle Ages); compare Septuagint (the Greek translation, 200s BC), which reads the whole line differently (\"their women kindled fire against Moab\")",
+    "orig": "עַד נֹפַח אֵשׁ עַד מֵידְבָא",
+    "en": "as far as Nophah, fire as far as Medeba",
+    "plain": "with fire as far as Medeba.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes put a dot over one letter (the resh) of <i>asher</i>, \"which.\" Such dots usually mark a letter the scribes doubted. Without the resh, the word is <i>esh</i>, \"fire,\" which the Samaritan text reads and which fits the fire of 21:28. Many scholars think \"fire\" is original. The Plain English keeps the Masoretic text, but this is a close call, and the whole verse is very uncertain.",
+  "b": "The whole of 21:30 is obscure. \"We shot them down\" (<i>wannirām</i>) may instead be read \"their offspring perished\" (compare the Greek <i>sperma</i>), and \"we laid them waste\" is also uncertain.",
+  "s": [
+   "tov-tchb",
+   "wevers-numbers",
+   "levine-numbers21-36"
+  ]
+ }
+]

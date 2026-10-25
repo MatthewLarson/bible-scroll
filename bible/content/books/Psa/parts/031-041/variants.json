@@ -1,0 +1,515 @@
+[
+ {
+  "v": "31:0",
+  "a": "A psalm of David.",
+  "t": "\"Of ecstasy\" in the Greek title",
+  "p": "The Greek title adds \"of ecstasy\", a word taken from 31:22.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew",
+    "orig": "מִזְמוֹר לְדָוִד",
+    "en": "a psalm of David",
+    "plain": "A psalm of David."
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 30:1); Gallican Psalter <i>pro extasi</i>",
+    "orig": "ψαλμὸς τῷ Δαυιδ ἐκστάσεως",
+    "en": "a psalm of David, of ecstasy",
+    "plain": "A psalm of David. Of ecstasy."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek word <i>ekstaseōs</i> repeats the Greek of 31:22 (\"in my ecstasy\", Hebrew \"in my panic\"). It is a reader's heading drawn from the psalm, not evidence of a different Hebrew title.",
+  "s": [
+   "rahlfs-psalmi",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "31:6",
+  "a": "I hate those who devote themselves to empty nothings",
+  "t": "\"I hate\" or \"you hate\"?",
+  "p": "The Hebrew has \"I hate\"; the Greek, the Syriac and some Hebrew manuscripts have \"you hate\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שָׂנֵאתִי הַשֹּׁמְרִים הַבְלֵי־שָׁוְא",
+    "en": "I hate those who keep empty nothings",
+    "plain": "I hate those who devote themselves to empty nothings"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 30:7); Syriac and some Hebrew manuscripts, as reported in BHS",
+    "orig": "ἐμίσησας τοὺς διαφυλάσσοντας ματαιότητας διὰ κενῆς",
+    "en": "you hated those who keep worthless things in vain",
+    "plain": "You hate those who devote themselves to empty nothings"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew forms differ only in the last letter. \"You hate\" makes a smooth contrast with the next line (\"but as for me, I trust\"), and some modern versions (NRSV) follow it. But \"I hate ... but as for me, I trust\" also works, as a vow of loyalty, and the harder, better-attested Hebrew reading is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "craigie-tate-psalms"
+  ]
+ },
+ {
+  "v": "31:10",
+  "a": "Through my guilt my strength has stumbled",
+  "t": "Guilt or misery?",
+  "p": "The Hebrew has \"by my guilt\" (ba'avoni); the Greek and Syriac \"in my poverty\" (be'oni).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew",
+    "orig": "כָּשַׁל בַּעֲוֹנִי כֹחִי",
+    "en": "my strength stumbles because of my iniquity",
+    "plain": "Through my guilt my strength has stumbled"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 30:11); Syriac, as reported; followed by the NRSV",
+    "orig": "ἠσθένησεν ἐν πτωχείᾳ ἡ ἰσχύς μου",
+    "en": "my strength grew weak in poverty",
+    "plain": "In my misery my strength has stumbled"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading is kept because it is the harder reading in a psalm that does not otherwise mention the poet's sin, and because other laments join illness and guilt (38:3; 41:4). The Greek may have read one letter differently. Many scholars prefer the Greek here, and it is a real possibility.",
+  "s": [
+   "rahlfs-psalmi",
+   "craigie-tate-psalms"
+  ]
+ },
+ {
+  "v": "32:2",
+  "a": "whose spirit holds no trickery",
+  "t": "Spirit or mouth?",
+  "p": "The Hebrew has \"in his spirit\"; the Greek has \"in his mouth\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְאֵין בְּרוּחוֹ רְמִיָּה",
+    "en": "and in his spirit there is no deceit",
+    "plain": "whose spirit holds no trickery"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 31:2, <i>oude estin en tō stomati autou dolos</i>)",
+    "orig": "οὐδὲ ἔστιν ἐν τῷ στόματι αὐτοῦ δόλος",
+    "en": "nor is there deceit in his mouth",
+    "plain": "whose mouth holds no trickery"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may echo phrases like Isaiah 53:9 and Zephaniah 3:13, where deceit is in the mouth. The Hebrew \"spirit\" fits the psalm's theme of hidden sin brought into the open (32:3, 32:5). The Masoretic Text is kept.",
+  "s": [
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "32:4",
+  "a": "My sap was turned, as in the droughts of summer.",
+  "t": "Dried up, or a thorn?",
+  "p": "The Greek reads the line as \"I was turned to misery when a thorn was stuck in me\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "נֶהְפַּךְ לְשַׁדִּי בְּחַרְבֹנֵי קַיִץ",
+    "en": "my sap was turned as by the droughts of summer",
+    "plain": "My sap was turned, as in the droughts of summer."
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 31:4)",
+    "orig": "ἐστράφην εἰς ταλαιπωρίαν ἐν τῷ ἐμπαγῆναί μοι ἄκανθαν",
+    "en": "I was turned into misery while a thorn was stuck in me",
+    "plain": "I was turned to misery, as a thorn was stuck into me."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read <i>leshod</i> (\"to ruin\") for <i>leshaddi</i> and a word for \"thorn\" for the rare word for \"droughts\". The Hebrew makes good sense, with a picture of a plant drying up in summer.",
+  "s": [
+   "rahlfs-psalmi",
+   "nets-psalms"
+  ]
+ },
+ {
+  "v": "33:1",
+  "a": "Shout for joy, you righteous, in the LORD!",
+  "t": "A title for Psalm 33",
+  "p": "The Hebrew has no title. The Greek has \"Of David\"; the scroll 4QPs-q, as reported, \"Of David. A song. A psalm.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "רַנְּנוּ צַדִּיקִים בַּיהוָה",
+    "en": "shout for joy, righteous ones, in the LORD (no title)",
+    "plain": "Shout for joy, you righteous, in the LORD!"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 32:1)",
+    "orig": "τῷ Δαυιδ ἀγαλλιᾶσθε δίκαιοι ἐν τῷ κυρίῳ",
+    "en": "Of David. Rejoice, you righteous, in the Lord",
+    "plain": "Of David. Shout for joy, you righteous, in the LORD!"
+   },
+   {
+    "w": "4QPs-q (4Q98), Qumran, AD 50–68, as reported by Flint and in DJD 16; an online English edition (dssenglishbible.com) prints the heading \"A Psalm by David. A Song.\"",
+    "orig": "לדויד שיר מזמור",
+    "en": "of David, a song, a psalm",
+    "plain": "Of David. A song. A psalm. Shout for joy, you righteous, in the LORD!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is the base. Without a title, Psalm 33 reads as an answer to Psalm 32's last line, which may be why the Hebrew editors left it untitled. In 4QPs-q and 4QPs-a, Psalm 32 seems to be absent, and in 4QPs-q Psalm 33 follows Psalm 31 with a heading of its own. The scroll readings are given as reported by Flint and DJD 16.",
+  "b": "This is one of several places where the Qumran Psalms scrolls show that the order and headings of the Psalter were not yet fixed everywhere in the first century.",
+  "s": [
+   "flint-dss-psalms",
+   "djd16-psalms",
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "33:7",
+  "a": "like a mound",
+  "t": "A heap or a wineskin?",
+  "p": "The Hebrew vowels say \"like a mound\" (a heap of water); the Greek, Latin, Syriac and Targum read \"like a wineskin\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (vowels kanned)",
+    "orig": "כֹּנֵס כַּנֵּד מֵי הַיָּם",
+    "en": "gathering like a heap the waters of the sea",
+    "plain": "like a mound"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 32:7, <i>askon</i>); Gallican Psalter <i>in utre</i>; Syriac and Targum, as reported",
+    "orig": "συνάγων ὡς ἀσκὸν ὕδατα θαλάσσης",
+    "en": "gathering the waters of the sea as in a wineskin",
+    "plain": "as in a wineskin"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same (<i>knd</i>); only the vowels differ. \"Mound\" or heap matches the Exodus story of the sea standing up (Exodus 15:8; Psalm 78:13); \"wineskin\" matches the next line about storehouses. The Masoretic vowels are kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "34:5",
+  "a": "They looked to him and their faces shone",
+  "t": "Looked, or look?",
+  "p": "The Hebrew tells what happened (\"they looked\"); the Greek and Syriac give commands (\"come near to him and be lit up\").",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הִבִּיטוּ אֵלָיו וְנָהָרוּ וּפְנֵיהֶם אַל־יֶחְפָּרוּ",
+    "en": "they looked to him and were radiant, and their faces will not be ashamed",
+    "plain": "They looked to him and their faces shone"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 33:6); Syriac and Jerome's Psalter from the Hebrew, as reported, also have commands and \"your faces\"",
+    "orig": "προσέλθατε πρὸς αὐτὸν καὶ φωτίσθητε καὶ τὰ πρόσωπα ὑμῶν οὐ μὴ καταισχυνθῇ",
+    "en": "come to him and be enlightened, and your faces will not be put to shame",
+    "plain": "Come near to him and be lit up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew past tense fits the testimony of 34:4 and 34:6. The commands of the Greek fit 34:3 and 34:8. The difference is mainly vowels. In the second half the Greek also has \"your faces\" for \"their faces\". The Masoretic Text is kept. The Greek <i>phōtisthēte</i> (\"be enlightened\") later became a word for baptism in the early church.",
+  "s": [
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "34:10",
+  "a": "Young lions run short and go hungry",
+  "t": "Lions or the rich?",
+  "p": "The Hebrew has \"young lions\"; the Greek has \"the rich have become poor and hungry\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּפִירִים רָשׁוּ וְרָעֵבוּ",
+    "en": "young lions lack and are hungry",
+    "plain": "Young lions run short and go hungry"
+   },
+   {
+    "w": "Septuagint (Rahlfs, Psalm 33:11); Syriac, as reported",
+    "orig": "πλούσιοι ἐπτώχευσαν καὶ ἐπείνασαν",
+    "en": "the rich became poor and went hungry",
+    "plain": "The rich become poor and go hungry"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is probably an interpretation of the lion as a picture of the powerful, or a reading of a similar word (<i>kabbirim</i>, \"mighty ones\"). The Hebrew picture is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "nets-psalms"
+  ]
+ },
+ {
+  "v": "35:7",
+  "a": "they hid their net for me",
+  "t": "Where does the pit go?",
+  "p": "The Masoretic Text puts \"pit\" in the first line, with \"net\"; the Plain moves it to the second line, where the verb \"dug\" has no object.",
+  "readings": [
+   {
+    "w": "Modern proposal, followed by many translations",
+    "orig": "חִנָּם טָמְנוּ־לִי ... רִשְׁתָּם / חִנָּם חָפְרוּ שַׁחַת לְנַפְשִׁי",
+    "en": "for no reason they hid their net for me; for no reason they dug a pit for my life",
+    "plain": "they hid their net for me"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Old Greek, Rahlfs' edition) (Psalm 34:7) keeps the same order",
+    "orig": "כִּי־חִנָּם טָמְנוּ־לִי שַׁחַת רִשְׁתָּם חִנָּם חָפְרוּ לְנַפְשִׁי",
+    "en": "for for no reason they hid for me the pit of their net; for no reason they dug for my life",
+    "plain": "they hid the pit of their net for me"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Masoretic order, the first line reads \"they hid for me the pit of their net\" and the second line \"they dug for my life\" has no object. Moving one word gives each line its own trap, net and pit, as in 9:15 and 57:6. No manuscript has the moved order; it is a scholars' rearrangement. The Plain follows it because the Masoretic order is very hard to read as poetry, and the Masoretic order is given here as the alternative.",
+  "s": [
+   "craigie-tate-psalms"
+  ]
+ },
+ {
+  "v": "36:1",
+  "a": "deep inside his heart",
+  "t": "\"My heart\" or \"his heart\"?",
+  "p": "The Leningrad Codex has \"my heart\"; many Hebrew manuscripts, the Greek, Syriac and Jerome have \"his heart\".",
+  "readings": [
+   {
+    "w": "Many Hebrew manuscripts, as reported in BHS; Septuagint (Old Greek, Rahlfs' edition) (Psalm 35:2, \"in himself\"); Syriac; Jerome's Psalter from the Hebrew",
+    "orig": "בְּקֶרֶב לִבּוֹ / ἐν ἑαυτῷ",
+    "en": "within his heart",
+    "plain": "deep inside his heart"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) and most Masoretic manuscripts; KJV",
+    "orig": "בְּקֶרֶב לִבִּי",
+    "en": "within my heart",
+    "plain": "deep inside my heart"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the few places where the Plain does not follow the Leningrad Codex. \"His heart\" goes with \"his eyes\" in the same verse and with verse 2, and it has wide support. \"My heart\" can be read (the poet hears Rebellion's oracle about the wicked within his own heart, as the KJV takes it), and some scholars defend it as the harder reading. The difference is one small letter (<i>vav</i> or <i>yod</i>), which scribes often confused.",
+  "s": [
+   "rahlfs-psalmi",
+   "craigie-tate-psalms",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "37:28",
+  "a": "They are kept safe forever,",
+  "t": "The missing ayin line",
+  "p": "The ayin line of the acrostic is missing in the Masoretic Text. A Qumran commentary and the Greek point to \"The wrongdoers are wiped out forever\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum, Peshitta and Jerome's Psalter from the Hebrew (<i>in aeternum custoditi sunt</i>), as reported",
+    "orig": "לְעוֹלָם נִשְׁמָרוּ",
+    "en": "forever they are kept",
+    "plain": "They are kept safe forever,"
+   },
+   {
+    "w": "4Q171 (4QpPs-a, the Qumran commentary on Psalm 37), as edited by Allegro in DJD 5 and read by Strugnell and Pardee: ...]לם נשמדו (Barthélemy read נשמרו); Septuagint (Old Greek, Rahlfs' edition) (Psalm 36:28) adds this line after the first, <i>anomoi de ekdiōchthēsontai</i>, \"but the lawless will be driven out\"",
+    "orig": "עַוָּלִים לְעוֹלָם נִשְׁמָדוּ (restored)",
+    "en": "wrongdoers will be destroyed forever",
+    "plain": "The wrongdoers are wiped out forever,"
+   }
+  ],
+  "follow": 0,
+  "why": "The alphabet calls for a line beginning with <i>ayin</i> here, and the Masoretic line begins with <i>lamed</i> (<i>le'olam</i>). The restored line begins with <i>'avvalim</i> (\"wrongdoers\", an ayin word) and has <i>nishmadu</i> (\"destroyed\") for <i>nishmaru</i> (\"kept\"), one letter apart. The Qumran commentary, about a thousand years older than the Leningrad Codex, is reported to read \"destroyed\". The Greek has a doublet: it gives both \"they will be kept forever\" and \"but the lawless will be driven out\". So the case for the restored line is strong, and many scholars adopt it. The Plain keeps the Masoretic line because the Targum, the Peshitta and Jerome all have it, the Greek also keeps it, the Qumran letter is disputed, and the line makes good sense as it stands, with the next line's contrast (\"but the wicked's offspring is cut off\"). Readers who prefer the restored line can switch to it here.",
+  "s": [
+   "djd5-allegro",
+   "rahlfs-psalmi",
+   "craigie-tate-psalms"
+  ]
+ },
+ {
+  "v": "37:35",
+  "a": "like a lush tree in its native soil",
+  "t": "Native tree or cedar of Lebanon?",
+  "p": "The Hebrew has a leafy native tree; the Greek has \"the cedars of Lebanon\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּאֶזְרָח רַעֲנָן",
+    "en": "like a leafy native (tree)",
+    "plain": "like a lush tree in its native soil"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 36:35)",
+    "orig": "ὡς τὰς κέδρους τοῦ Λιβάνου",
+    "en": "like the cedars of Lebanon",
+    "plain": "like the cedars of Lebanon"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek reflects <i>ke'arzei levanon</i>, which shares several letters with the Hebrew. \"Cedars of Lebanon\" is a stock image (92:12), which may be why a scribe or translator reached for it. The rarer Masoretic phrase is kept.",
+  "s": [
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "37:36",
+  "a": "But he passed on, and look, he was gone.",
+  "t": "He passed, or I passed by?",
+  "p": "The Hebrew says \"he passed on\"; the Greek, Syriac and Jerome say \"I passed by\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיַּעֲבֹר וְהִנֵּה אֵינֶנּוּ",
+    "en": "and he passed away, and look, he was not",
+    "plain": "But he passed on, and look, he was gone."
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 36:36, <i>kai parēlthon</i>); Syriac and Jerome's Psalter from the Hebrew, as reported",
+    "orig": "καὶ παρῆλθον καὶ ἰδοὺ οὐκ ἦν",
+    "en": "and I passed by, and look, he was not",
+    "plain": "But I passed by, and look, he was gone."
+   }
+  ],
+  "follow": 0,
+  "why": "\"I passed by\" fits the speaker's \"I have seen\" (37:35) and \"I searched\" (37:36b), and many modern versions follow it. \"He passed on\" is the Hebrew and makes good sense of death. The Masoretic Text is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "38:0",
+  "a": "To bring to remembrance.",
+  "t": "\"Concerning the Sabbath\"",
+  "p": "The Greek title adds \"concerning the Sabbath\", perhaps from use in worship.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְהַזְכִּיר",
+    "en": "to bring to remembrance",
+    "plain": "To bring to remembrance."
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 37:1)",
+    "orig": "εἰς ἀνάμνησιν περὶ σαββάτου",
+    "en": "for remembrance, concerning the Sabbath",
+    "plain": "To bring to remembrance. Concerning the Sabbath."
+   }
+  ],
+  "follow": 0,
+  "why": "Several Greek titles add notes on use in worship; some name days of the week (Psalms 24, 48, 93 and 94 in Hebrew numbering). \"Concerning the Sabbath\" probably reflects when the psalm was used. It is not in any Hebrew witness.",
+  "s": [
+   "rahlfs-psalmi",
+   "nets-psalms"
+  ]
+ },
+ {
+  "v": "38:19",
+  "a": "But my enemies are alive and strong",
+  "t": "Alive, or for no reason?",
+  "p": "The Masoretic Text has chayyim (\"alive\"); a Qumran scroll is reported to have chinnam (\"for no reason\"), as in 35:19 and 69:4.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Old Greek, Rahlfs' edition) (Psalm 37:20, <i>zōsin</i>, \"live\"); Jerome's Psalter from the Hebrew (<i>vivent</i>); Targum, as reported",
+    "orig": "וְאֹיְבַי חַיִּים עָצֵמוּ",
+    "en": "and my enemies, alive, are strong",
+    "plain": "But my enemies are alive and strong"
+   },
+   {
+    "w": "4QPs-a (4Q83), Qumran, as reported (only the last letters -נם are clear); many modern scholars and versions",
+    "orig": "וְאֹיְבַי חִנָּם עָצֵמוּ",
+    "en": "my enemies for no reason are strong",
+    "plain": "But my enemies for no reason are strong"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Chinnam</i> differs from <i>chayyim</i> by one or two letters and gives a neat pair with the next line, \"those who hate me falsely\", the same pair as 35:19 and 69:4. The Qumran scroll is reported to support it, though only its last letters can be read clearly. The Plain keeps \"alive\" because the Greek, Jerome and the Targum all have it, and because \"alive and strong\" makes sense against the sufferer's own weakness (38:10). The other reading is a real possibility.",
+  "s": [
+   "djd16-psalms",
+   "rahlfs-psalmi",
+   "jerome-psalters",
+   "craigie-tate-psalms"
+  ]
+ },
+ {
+  "v": "38:20",
+  "a": "are my accusers, since I run after good.",
+  "t": "An extra line in the Greek",
+  "p": "The Greek adds: \"and they threw me off, the one they loved, like a hated corpse\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יִשְׂטְנוּנִי תַּחַת רָדְפִי־טוֹב",
+    "en": "they accuse me because of my pursuing good",
+    "plain": "are my accusers, since I run after good."
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 37:21); Gallican Psalter, as reported",
+    "orig": "ἐνδιέβαλλόν με ἐπεὶ κατεδίωκον δικαιοσύνην καὶ ἀπέρριψάν με τὸν ἀγαπητὸν ὡσεὶ νεκρὸν ἐβδελυγμένον",
+    "en": "they slandered me because I pursued righteousness, and they cast me away, the beloved, like an abominated corpse",
+    "plain": "are my accusers, since I run after good. They threw me off, the one they loved, like a hated corpse."
+   }
+  ],
+  "follow": 0,
+  "why": "The extra line is not in any Hebrew witness. It resembles Isaiah 14:19 (\"like a trampled corpse\") and may be a translator's or scribe's addition. The verb \"accuse\" (<i>yistenuni</i>) is from the same root as <i>satan</i>, \"accuser\". The Masoretic Text is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "nets-psalms"
+  ]
+ },
+ {
+  "v": "40:6",
+  "a": "ears you have dug for me",
+  "t": "\"Ears\" or \"a body\"?",
+  "p": "The Hebrew says \"ears you have dug for me\". Most Greek manuscripts and Hebrews 10:5 say \"a body you prepared for me\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 40:7); Jerome's Psalter from the Hebrew (<i>aures</i>); the later Greek versions of Aquila, Symmachus and Theodotion, as reported from Origen's Hexapla",
+    "orig": "אָזְנַיִם כָּרִיתָ לִּי",
+    "en": "ears you have dug for me",
+    "plain": "ears you have dug for me"
+   },
+   {
+    "w": "The Old Greek as printed by Rahlfs (1931): <i>ōtia</i>; supported by the Gallican Psalter <i>aures autem perfecisti mihi</i> and some Greek witnesses, as reported",
+    "orig": "ὠτία δὲ κατηρτίσω μοι",
+    "en": "but ears you have prepared for me",
+    "plain": "but ears you have prepared for me"
+   },
+   {
+    "w": "The great Greek Bibles: Codex Vaticanus, Sinaiticus and Alexandrinus (300s–400s AD), and most Greek manuscripts, as reported in Rahlfs' apparatus; Hebrews 10:5",
+    "orig": "σῶμα δὲ κατηρτίσω μοι",
+    "en": "but a body you have prepared for me",
+    "plain": "but a body you have prepared for me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew. How \"body\" arose is debated. (1) A slip inside Greek copying: written in capitals without spaces, ΗΘΕΛΗΣΑΣΩΤΙΑ (\"you wanted ... ears\") could be misread as ΗΘΕΛΗΣΑΣΣΩΜΑ (\"you wanted ... body\"), by doubling the S and reading TI as M. Rahlfs took this view and printed \"ears\" as the original Greek. (2) The first Greek translator deliberately put the whole for the part: God prepared not just ears but a whole body ready to obey. (3) Hebrews, or a Christian copyist, made the change, and Greek Bibles were later made to agree with Hebrews. Hebrews' argument depends on \"body\" (Hebrews 10:10). Most scholars think the writer of Hebrews found \"body\" in the Greek Bible he used, rather than changing it himself, while Jobes argues that he shaped the quotation for its sound and sense.",
+  "b": "<p>What Hebrews does with the reading: the speaker is Christ \"coming into the world\" (Hebrews 10:5); the body is his human life, given to God in obedience and offered on the cross \"once for all\" (Hebrews 10:10). Jewish readers point out that the Hebrew speaks of ears, that is, of a person who listens to God, and that the psalm is a thanksgiving of David or of a faithful Israelite, not a prophecy of incarnation. Christian readers who accept Hebrews' use see no conflict: an open ear and an obedient body are the same thing, and Christ fulfilled the psalm's ideal fully.</p>",
+  "s": [
+   "rahlfs-psalmi",
+   "jerome-psalters",
+   "attridge-hebrews",
+   "lane-hebrews-9-13",
+   "jobes-hebrews10",
+   "koester-hebrews"
+  ]
+ },
+ {
+  "v": "41:1",
+  "a": "who pays attention to the weak",
+  "t": "\"And needy\"",
+  "p": "The Greek adds \"and needy\", making the common pair \"poor and needy\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מַשְׂכִּיל אֶל־דָּל",
+    "en": "who considers the weak",
+    "plain": "who pays attention to the weak"
+   },
+   {
+    "w": "Septuagint (Old Greek, Rahlfs' edition) (Psalm 40:2); Gallican Psalter <i>super egenum et pauperem</i>",
+    "orig": "ὁ συνίων ἐπὶ πτωχὸν καὶ πένητα",
+    "en": "who understands about the poor and needy",
+    "plain": "who pays attention to the weak and needy"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition fills out a familiar pair (compare 40:17). The shorter Hebrew is kept.",
+  "s": [
+   "rahlfs-psalmi",
+   "jerome-psalters"
+  ]
+ }
+]

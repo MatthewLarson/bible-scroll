@@ -1,0 +1,797 @@
+[
+ {
+  "v": "14:3",
+  "a": "Philip, Herod's brother",
+  "t": "Was her husband named Philip?",
+  "p": "Bezae and some Latin copies leave out \"Philip.\" Josephus names Herodias' first husband differently.",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts; NA28, SBLGNT, Tyndale House GNT, Byzantine text, Textus Receptus (KJV)",
+    "orig": "τὴν γυναῖκα Φιλίππου τοῦ ἀδελφοῦ αὐτοῦ",
+    "en": "the wife of Philip his brother",
+    "plain": "Philip, Herod's brother"
+   },
+   {
+    "w": "Codex Bezae and some Old Latin manuscripts (as reported by Metzger)",
+    "orig": "τὴν γυναῖκα τοῦ ἀδελφοῦ αὐτοῦ",
+    "en": "the wife of his brother",
+    "plain": "Herod's brother"
+   }
+  ],
+  "follow": 0,
+  "why": "The name is in almost every witness and in Mark 6:17. Josephus says Herodias was first married to a half-brother he calls Herod (<i>Antiquities</i> 18.109–110, 136), not to Philip the tetrarch. A few copyists, as Metzger reports, may have dropped the name because of this problem, or to match Luke 3:19, which has no name. See the note on 14:3 for how historians explain the difference.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:24",
+  "a": "was already many stadia out from land",
+  "t": "Far from land, or in the middle of the sea?",
+  "p": "The editions split: NA28 and SBL say \"many stadia from land\"; Tyndale House and the KJV say \"in the middle of the sea.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (03, 300s), the family 13 manuscripts and early Syriac versions (as reported by Metzger); NA28, SBLGNT, Westcott-Hort",
+    "orig": "σταδίους πολλοὺς ἀπὸ τῆς γῆς ἀπεῖχεν",
+    "en": "was many stadia away from the land",
+    "plain": "was already many stadia out from land"
+   },
+   {
+    "w": "Codex Sinaiticus (01, 300s), Ephraemi (04, 400s), Washington (W, about 400), the Byzantine majority, Old Latin and Vulgate; Tyndale House GNT, Textus Receptus (KJV \"in the midst of the sea\")",
+    "orig": "μέσον τῆς θαλάσσης ἦν",
+    "en": "was in the middle of the sea",
+    "plain": "was already out in the middle of the sea"
+   }
+  ],
+  "follow": 0,
+  "why": "Mark 6:47, the parallel, says the boat was \"in the middle of the sea,\" and copyists often made Matthew match Mark. A reading that differs from the parallel is less likely to be a copyist's change, so the NA28 and SBL editors chose \"many stadia.\" The Tyndale House editors weighed the very old support of Sinaiticus and chose the other reading. The meaning hardly changes: either way the disciples were far from shore.",
+  "b": "A stadion was about 600 feet (185 meters). John 6:19 says they had rowed \"twenty-five or thirty stadia,\" three or four miles.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "14:29",
+  "a": "and he came toward Jesus",
+  "t": "Did Peter reach Jesus?",
+  "p": "The critical editions say Peter \"came\" toward Jesus; the Byzantine text says he walked \"to go\" to him.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort",
+    "orig": "καὶ ἦλθεν πρὸς τὸν Ἰησοῦν",
+    "en": "and came toward Jesus",
+    "plain": "and he came toward Jesus"
+   },
+   {
+    "w": "Byzantine majority text, Textus Receptus (KJV \"to go to Jesus\"); Tregelles",
+    "orig": "ἐλθεῖν πρὸς τὸν Ἰησοῦν",
+    "en": "to come to Jesus",
+    "plain": "so as to go to Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine wording looks like a smoothing: a copyist may have felt that \"he came to Jesus\" claimed too much before Peter began to sink. NA28, SBL, THGNT and Westcott-Hort agree on \"he came\"; Tregelles has \"to come.\" The Greek verb can mean \"went toward\" without arriving, which is how the Plain renders it.",
+  "s": [
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "14:30",
+  "a": "how strong the wind was",
+  "t": "\"The strong wind\" or just \"the wind\"?",
+  "p": "Sinaiticus and Vaticanus lack \"strong\"; most manuscripts have it. NA28 prints it in brackets.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (corrected), Ephraemi, Bezae (05, 400s), Washington, families 1 and 13, the Byzantine majority, Latin and Syriac; NA28 (in brackets), SBLGNT, Tyndale House GNT, Textus Receptus (KJV \"the wind boisterous\")",
+    "orig": "τὸν ἄνεμον ἰσχυρὸν",
+    "en": "the wind (was) strong",
+    "plain": "how strong the wind was"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03, first hand), 073, 33 and the Coptic versions (as reported by Metzger); Westcott-Hort",
+    "orig": "τὸν ἄνεμον",
+    "en": "the wind",
+    "plain": "the wind"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all witnesses have \"strong,\" and the adjective could have dropped out by accident. But Sinaiticus and Vaticanus together are weighty, and a copyist might have added the word to explain why Peter feared. The editors kept it with brackets to show the doubt.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:4",
+  "a": "For God said",
+  "t": "\"God said\" or \"God commanded\"?",
+  "p": "The KJV's \"God commanded, saying\" comes from the Byzantine text.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Bezae and others; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὁ γὰρ θεὸς εἶπεν",
+    "en": "for God said",
+    "plain": "For God said"
+   },
+   {
+    "w": "Ephraemi (corrected), Washington, the Byzantine majority, Textus Receptus (KJV \"For God commanded, saying\")",
+    "orig": "ὁ γὰρ θεὸς ἐνετείλατο λέγων",
+    "en": "for God commanded, saying",
+    "plain": "For God commanded, saying"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Commanded\" fits the word \"command\" in 15:3 so well that a copyist could have brought it in to sharpen the contrast. The plainer \"said\" has the older support.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:6",
+  "a": "his father",
+  "t": "\"His father\" or \"his father or his mother\"?",
+  "p": "The oldest manuscripts name only the father here. Later ones add \"or his mother,\" as in 15:4–5.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, some Old Latin, the Sinaitic and Curetonian Syriac; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τὸν πατέρα αὐτοῦ",
+    "en": "his father",
+    "plain": "his father"
+   },
+   {
+    "w": "Ephraemi, Washington, families 1 and 13, the Byzantine majority, Textus Receptus (KJV \"his father or his mother\")",
+    "orig": "τὸν πατέρα αὐτοῦ ἢ τὴν μητέρα αὐτοῦ",
+    "en": "his father or his mother",
+    "plain": "his father or his mother"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists naturally completed the phrase to match \"father or mother\" just before. No one would have dropped \"mother\" on purpose. The meaning is the same: the vow frees him from supporting his parents.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:6",
+  "a": "God's word",
+  "t": "God's word, God's law, or God's command?",
+  "p": "Three readings: \"word\" (oldest), \"law\" and \"command\" (Byzantine, KJV \"commandment\").",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (corrected), Vaticanus, Bezae, Theta, Old Latin, Syriac and Coptic versions (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τὸν λόγον τοῦ θεοῦ",
+    "en": "the word of God",
+    "plain": "God's word"
+   },
+   {
+    "w": "Codex Sinaiticus (first hand), Ephraemi, family 13",
+    "orig": "τὸν νόμον τοῦ θεοῦ",
+    "en": "the law of God",
+    "plain": "God's law"
+   },
+   {
+    "w": "Washington, family 1, the Byzantine majority, Textus Receptus (KJV \"the commandment of God\")",
+    "orig": "τὴν ἐντολὴν τοῦ θεοῦ",
+    "en": "the commandment of God",
+    "plain": "God's command"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Word\" has the widest early support. It also matches Mark 7:13, which could point to harmonizing, but the copyists' habit here ran the other way: \"command\" repeats 15:3 and is easy to explain as an echo, and \"law\" is a smaller change of the same kind.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:8",
+  "a": "This people gives me honor",
+  "t": "\"Draws near to me with their mouth\"",
+  "p": "The KJV's longer quotation of Isaiah 29:13 comes from the Byzantine text, which fills in the Septuagint's words.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, families 1 and 13, Latin, Syriac and Coptic versions; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ὁ λαὸς οὗτος τοῖς χείλεσίν με τιμᾷ",
+    "en": "This people honors me with the lips",
+    "plain": "This people gives me honor"
+   },
+   {
+    "w": "Ephraemi, Washington, the Byzantine majority, Textus Receptus (KJV \"This people draweth nigh unto me with their mouth, and honoureth me\")",
+    "orig": "Ἐγγίζει μοι ὁ λαὸς οὗτος τῷ στόματι αὐτῶν καὶ τοῖς χείλεσίν με τιμᾷ",
+    "en": "This people draws near to me with their mouth and honors me with their lips",
+    "plain": "This people draws near to me with their mouth, and gives me honor"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter quotation agrees with Mark 7:6. Copyists who knew Isaiah 29:13 in the Septuagint filled in the missing clause. The added words do not change the point.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:14",
+  "a": "blind guides of blind people",
+  "t": "\"Blind guides\" or \"blind guides of the blind\"?",
+  "p": "Vaticanus and Bezae have only \"they are blind guides\"; most manuscripts add \"of the blind.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Ephraemi, Washington, families 1 and 13, the Byzantine majority (some in another word order), Textus Receptus (KJV \"blind leaders of the blind\"); NA28 (in brackets), SBLGNT, Tyndale House GNT",
+    "orig": "τυφλοί εἰσιν ὁδηγοὶ τυφλῶν",
+    "en": "they are blind guides of the blind",
+    "plain": "blind guides of blind people"
+   },
+   {
+    "w": "Codex Vaticanus, Bezae (05) and a few others; Westcott-Hort",
+    "orig": "τυφλοί εἰσιν ὁδηγοί",
+    "en": "they are blind guides",
+    "plain": "blind guides"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses that add \"of the blind\" do not agree on word order, which can be a sign of a later addition. But the phrase also fits the next sentence so well that it may have been lost by a slip of the eye. The editors keep it with brackets.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:39",
+  "a": "Magadan",
+  "t": "Magadan or Magdala?",
+  "p": "The oldest manuscripts say Magadan, a place no one has found. Later copies changed it to the well-known Magdala.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Bezae, Old Latin and the Sinaitic Syriac; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Μαγαδάν",
+    "en": "Magadan",
+    "plain": "Magadan"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Magdala\"); some manuscripts \"Magdalan\"",
+    "orig": "Μαγδαλά",
+    "en": "Magdala",
+    "plain": "Magdala"
+   }
+  ],
+  "follow": 0,
+  "why": "An unknown name is the harder reading. Copyists replaced it with Magdala, the town of Mary Magdalene on the lake's west shore. Mark 8:10 has another unknown name, Dalmanutha, which also caused changes in the manuscripts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:2",
+  "a": "When evening comes you say, 'Good weather: the sky is red,'",
+  "t": "The weather sayings (16:2–3), part 1",
+  "p": "Goes with 16:3. Sinaiticus and Vaticanus lack the weather sayings; NA28 prints them in square brackets, as doubtful.",
+  "readings": [
+   {
+    "w": "Ephraemi, Bezae, Washington, family 1, the Byzantine majority, Latin, the Peshitta Syriac; SBLGNT, Tyndale House GNT, NA28 (in square brackets, as doubtful), Westcott-Hort (in double brackets), Textus Receptus (KJV)",
+    "orig": "Ὀψίας γενομένης λέγετε· Εὐδία, πυρράζει γὰρ ὁ οὐρανός·",
+    "en": "When evening comes you say, Fair weather, for the sky is red",
+    "plain": "When evening comes you say, 'Good weather: the sky is red,'"
+   },
+   {
+    "w": "Codex Sinaiticus, Vaticanus, family 13, the Sinaitic and Curetonian Syriac, the Sahidic Coptic, Armenian; Origen; Jerome says most manuscripts in his day lacked them (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The case is close. The sayings are missing from strong and early witnesses, and some scholars think they were added from a saying like Luke 12:54–56. Others think copyists in Egypt, where a red morning sky does not bring rain, dropped words that made no sense to them. The SBL and Tyndale House editions print them; NA28 prints them but marks them as doubtful. The Plain keeps them so the reader can see them, and this note lets the reader remove them.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "16:3",
+  "a": "and at dawn, 'Bad weather today: the sky is red and dark.' You can tell what the face of the sky means. The signs of the times, though, you cannot read.",
+  "t": "The weather sayings (16:2–3), part 2",
+  "p": "Goes with 16:2. Without them, Jesus' answer runs straight from \"He replied\" to \"A generation that is evil.\"",
+  "readings": [
+   {
+    "w": "Ephraemi, Bezae, Washington, family 1, the Byzantine majority (which adds \"Hypocrites!\"), Latin, the Peshitta Syriac; SBLGNT, Tyndale House GNT, NA28 (in square brackets, as doubtful)",
+    "orig": "καὶ πρωΐ· Σήμερον χειμών, πυρράζει γὰρ στυγνάζων ὁ οὐρανός. τὸ μὲν πρόσωπον τοῦ οὐρανοῦ γινώσκετε διακρίνειν, τὰ δὲ σημεῖα τῶν καιρῶν οὐ δύνασθε.",
+    "en": "and in the morning, Stormy today, for the sky is red and overcast. You know how to judge the face of the sky, but the signs of the times you cannot.",
+    "plain": "and at dawn, 'Bad weather today: the sky is red and dark.' You can tell what the face of the sky means. The signs of the times, though, you cannot read."
+   },
+   {
+    "w": "Codex Sinaiticus, Vaticanus, family 13, the Sinaitic and Curetonian Syriac, the Sahidic Coptic; Origen",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"O ye hypocrites, ye can discern\")",
+    "orig": "... Ὑποκριταί, τὸ μὲν πρόσωπον ...",
+    "en": "Hypocrites, you know how to judge the face of the sky",
+    "plain": "and at dawn, 'Bad weather today: the sky is red and dark.' Hypocrites! You can tell what the face of the sky means. The signs of the times, though, you cannot read."
+   }
+  ],
+  "follow": 0,
+  "why": "See 16:2: the two verses stand or fall together. The Byzantine text also adds \"Hypocrites!\", probably from Luke 12:56.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:4",
+  "a": "the sign of Jonah",
+  "t": "\"Jonah\" or \"the prophet Jonah\"?",
+  "p": "The KJV's \"the prophet Jonas\" follows later manuscripts that copied the words from 12:39.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Bezae, Latin; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τὸ σημεῖον Ἰωνᾶ",
+    "en": "the sign of Jonah",
+    "plain": "the sign of Jonah"
+   },
+   {
+    "w": "Ephraemi, Washington, the Byzantine majority, Textus Receptus (KJV \"the sign of the prophet Jonas\")",
+    "orig": "τὸ σημεῖον Ἰωνᾶ τοῦ προφήτου",
+    "en": "the sign of Jonah the prophet",
+    "plain": "the sign of Jonah the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "The fuller title matches the same saying in 12:39, where all manuscripts have it. Copyists made the two places agree.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:8",
+  "a": "that you have no loaves",
+  "t": "\"You have no loaves\" or \"you took no loaves\"?",
+  "p": "Here the Plain follows NA28 and Tyndale House against the SBL edition.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, Theta, family 13 (as reported in the NA28 apparatus); NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "ὅτι ἄρτους οὐκ ἔχετε",
+    "en": "that you have no loaves",
+    "plain": "that you have no loaves"
+   },
+   {
+    "w": "Ephraemi, Washington, family 1, the Byzantine majority; SBLGNT, Tregelles, Textus Receptus (KJV \"because ye have brought no bread\")",
+    "orig": "ὅτι ἄρτους οὐκ ἐλάβετε",
+    "en": "that you took no loaves",
+    "plain": "that you took no loaves"
+   }
+  ],
+  "follow": 0,
+  "why": "The decision rests on the manuscripts: \"you have\" is read by Sinaiticus, Vaticanus, Bezae, Theta and family 13, the older and more widespread group. \"You took\" repeats the disciples' own words in 16:7, the kind of echo copyists create. \"You have\" also matches Mark 8:17, which could itself be a copyist's harmonizing, so that agreement proves nothing either way. The meaning is nearly the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": "What are people saying about the Son of Man? Who is he?",
+  "t": "\"Who do people say that I, the Son of Man, am?\"",
+  "p": "The KJV adds \"I\": \"Whom do men say that I the Son of man am?\" The oldest manuscripts lack it.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, some Old Latin and the Vulgate, the Sahidic Coptic; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Τίνα λέγουσιν οἱ ἄνθρωποι εἶναι τὸν υἱὸν τοῦ ἀνθρώπου;",
+    "en": "Who do people say the Son of Man is?",
+    "plain": "What are people saying about the Son of Man? Who is he?"
+   },
+   {
+    "w": "Bezae, Washington, the Byzantine majority (in different positions), Textus Receptus (KJV)",
+    "orig": "Τίνα με λέγουσιν οἱ ἄνθρωποι εἶναι, τὸν υἱὸν τοῦ ἀνθρώπου;",
+    "en": "Who do people say that I, the Son of Man, am?",
+    "plain": "What are people saying about me, the Son of Man? Who am I?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Me\" was probably added from Mark 8:27 and Luke 9:18, where Jesus asks about himself. Because it stands in different places in different manuscripts, it looks like an addition.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:20",
+  "a": "he was the Messiah",
+  "t": "\"The Messiah\" or \"Jesus the Messiah\"?",
+  "p": "The KJV's \"Jesus the Christ\" adds the name; the oldest manuscripts do not have it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Theta, families 1 and 13, Latin, Syriac; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "αὐτός ἐστιν ὁ χριστός",
+    "en": "he is the Christ",
+    "plain": "he was the Messiah"
+   },
+   {
+    "w": "Sinaiticus (corrected), Ephraemi, Washington, the Byzantine majority, Textus Receptus (KJV \"Jesus the Christ\")",
+    "orig": "αὐτός ἐστιν Ἰησοῦς ὁ χριστός",
+    "en": "he is Jesus the Christ",
+    "plain": "he was Jesus the Messiah"
+   }
+  ],
+  "follow": 0,
+  "why": "The disciples hardly needed to be told his name. The addition reads like a church confession, \"Jesus is the Christ,\" coming into the text.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:21",
+  "a": "Jesus began",
+  "t": "\"Jesus\" or \"Jesus Christ\"?",
+  "p": "The first hands of Sinaiticus and Vaticanus read \"Jesus Christ\" here, a rare form in the Gospels.",
+  "readings": [
+   {
+    "w": "Most manuscripts; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "ἤρξατο ὁ Ἰησοῦς",
+    "en": "Jesus began",
+    "plain": "Jesus began"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (first hands), the Coptic; Westcott-Hort (as reported by Metzger)",
+    "orig": "ἤρξατο Ἰησοῦς Χριστὸς",
+    "en": "Jesus Christ began",
+    "plain": "Jesus Christ began"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Jesus Christ\" as a double name appears in Matthew only at 1:1, 1:18 and perhaps here. Some scholars think it marks the turning point of the book (compare 4:17, \"From then on Jesus began\"). Most editors judge it a copyist's addition, since the two great codices were corrected to the usual reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:4",
+  "a": "I will put up",
+  "t": "\"I will make\" or \"let us make\"?",
+  "p": "The oldest manuscripts have Peter offer to build the booths himself.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Ephraemi (first hand); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ποιήσω",
+    "en": "I will make",
+    "plain": "I will put up"
+   },
+   {
+    "w": "Ephraemi (corrected), Bezae, Washington, families 1 and 13, the Byzantine majority, Textus Receptus (KJV \"let us make\")",
+    "orig": "ποιήσωμεν",
+    "en": "let us make",
+    "plain": "let us put up"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Let us make\" matches Mark 9:5 and Luke 9:33. Matthew's \"I will make\" is the reading that differs from the parallels, so it is more likely to be original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:9",
+  "a": "has been raised",
+  "t": "\"Raised\" or \"risen\"?",
+  "p": "NA28 and SBL say \"has been raised\"; Tyndale House and the Byzantine text say \"has risen.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Bezae; NA28, SBLGNT, Westcott-Hort, Tregelles",
+    "orig": "ἐγερθῇ",
+    "en": "is raised",
+    "plain": "has been raised"
+   },
+   {
+    "w": "Codex Sinaiticus, Ephraemi, Washington, families 1 and 13, the Byzantine majority; Tyndale House GNT, Textus Receptus (KJV \"be risen again\")",
+    "orig": "ἀναστῇ",
+    "en": "rises",
+    "plain": "has risen"
+   }
+  ],
+  "follow": 0,
+  "why": "Matthew usually uses the passive \"be raised\" for the resurrection (16:21; 17:23), while Mark 9:9 has \"rise.\" Copyists may have made Matthew match Mark. Tyndale House weighs the larger and older group of manuscripts for \"rise.\" Either way the point is the same: God raises him, and he rises.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:11",
+  "a": "Elijah is coming",
+  "t": "\"Elijah is coming first\"",
+  "p": "The KJV's \"Elias truly shall first come\" adds \"first\" from the question in 17:10.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ἠλίας μὲν ἔρχεται",
+    "en": "Elijah is coming",
+    "plain": "Elijah is coming"
+   },
+   {
+    "w": "Ephraemi, Washington, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Ἠλίας μὲν ἔρχεται πρῶτον",
+    "en": "Elijah is coming first",
+    "plain": "Elijah is coming first"
+   }
+  ],
+  "follow": 0,
+  "why": "\"First\" repeats the disciples' question and Mark 9:12. The older manuscripts lack it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:15",
+  "a": "suffers badly",
+  "t": "\"Suffers badly\" or \"is in a bad way\"?",
+  "p": "A small difference between NA28 and SBL on one side and Tyndale House on the other.",
+  "readings": [
+   {
+    "w": "Ephraemi, Bezae and the later uncials (Tischendorf); NA28, SBLGNT, Textus Receptus (KJV \"sore vexed\")",
+    "orig": "κακῶς πάσχει",
+    "en": "suffers badly",
+    "plain": "suffers badly"
+   },
+   {
+    "w": "Codex Vaticanus, L, Z and Origen (Tischendorf); Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "κακῶς ἔχει",
+    "en": "is badly off, is ill",
+    "plain": "is in a bad way"
+   }
+  ],
+  "follow": 0,
+  "why": "\"To be badly off\" is the ordinary Greek for being sick (4:24; 14:35) and could be original or a copyist's familiar phrase. The NA28 and SBL editors judged \"suffers\" the less expected word. The sense is the same.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "17:20",
+  "a": "Because your faith is so small",
+  "t": "\"Little faith\" or \"unbelief\"?",
+  "p": "The KJV's \"because of your unbelief\" follows later manuscripts. The oldest say \"little faith,\" a favorite word of Matthew.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Theta, families 1 and 13, the Coptic; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Διὰ τὴν ὀλιγοπιστίαν ὑμῶν",
+    "en": "Because of your little faith",
+    "plain": "Because your faith is so small"
+   },
+   {
+    "w": "Ephraemi, Bezae, Washington, the Byzantine majority, Latin, Syriac; Textus Receptus (KJV \"Because of your unbelief\")",
+    "orig": "Διὰ τὴν ἀπιστίαν ὑμῶν",
+    "en": "Because of your unbelief",
+    "plain": "Because of your unbelief"
+   }
+  ],
+  "follow": 0,
+  "why": "Only Matthew uses the noun \"little faith\" (oligopistia), and the next words, \"faith the size of a mustard seed,\" need it: the disciples have some faith, but too little. Copyists replaced the rare word with the common \"unbelief,\" perhaps under the influence of \"faithless generation\" in 17:17.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:21",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"This kind goes out only by prayer and fasting\"",
+  "p": "The KJV's 17:21 is missing from the oldest manuscripts. It seems to have come from Mark 9:29.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Theta, 0281, 33, some Old Latin, the Sinaitic and Curetonian Syriac, the Sahidic Coptic (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(no verse 21)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Sinaiticus (corrected), Ephraemi, Bezae, Washington, families 1 and 13, the Byzantine majority, most Latin, the Peshitta Syriac; Tregelles, Textus Receptus (KJV \"Howbeit this kind goeth not out but by prayer and fasting\")",
+    "orig": "Τοῦτο δὲ τὸ γένος οὐκ ἐκπορεύεται εἰ μὴ ἐν προσευχῇ καὶ νηστείᾳ.",
+    "en": "But this kind does not go out except by prayer and fasting.",
+    "plain": "But this kind does not go out except by prayer and fasting."
+   }
+  ],
+  "follow": 0,
+  "why": "If the verse were original, no copyist would have a reason to drop it from so many early witnesses in different regions. It is easy to see why it was added: Mark's version of the story ends with Jesus' words about prayer (Mark 9:29), and copyists brought them over. Even in Mark, \"and fasting\" is itself missing from the oldest manuscripts. The church's practice of fasting before exorcisms and baptisms may have encouraged the addition.",
+  "b": "Matthew's own answer to the disciples is faith (17:20), not a technique. The added verse shifts the stress to prayer and fasting, which Matthew also values (6:5–18), but in another place.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "17:22",
+  "a": "While they were coming together",
+  "t": "\"Gathering\" or \"staying\" in Galilee?",
+  "p": "The two Greek words differ by a few letters; the KJV's \"while they abode\" follows the later one.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, family 1; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Συστρεφομένων δὲ αὐτῶν",
+    "en": "As they were gathering together",
+    "plain": "While they were coming together"
+   },
+   {
+    "w": "Ephraemi, Bezae, Washington, Theta, family 13, the Byzantine majority, Textus Receptus (KJV \"while they abode\")",
+    "orig": "Ἀναστρεφομένων δὲ αὐτῶν",
+    "en": "As they were living, staying",
+    "plain": "While they were staying"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Gathering\" is the rarer and harder word: it may picture the group regathering in Galilee, or rallying before the road to Jerusalem. Copyists replaced it with the ordinary \"staying.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:11",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"The Son of Man came to save what was lost\"",
+  "p": "The KJV's 18:11 is missing from the oldest manuscripts. It appears to come from Luke 19:10.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Theta (first hand), families 1 and 13, 33, the Sinaitic Syriac, the Sahidic Coptic; Origen (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(no verse 11)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Bezae, Washington, the Byzantine majority, most Latin, the Curetonian and Peshitta Syriac; Textus Receptus (KJV \"For the Son of man is come to save that which was lost\"); some manuscripts add \"to seek and\" from Luke",
+    "orig": "Ἦλθεν γὰρ ὁ υἱὸς τοῦ ἀνθρώπου σῶσαι τὸ ἀπολωλός.",
+    "en": "For the Son of Man came to save what was lost.",
+    "plain": "For the Son of Man came to save what was lost."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is missing from early manuscripts in Egypt, Syria and elsewhere. It matches Luke 19:10 almost word for word, and it makes a smooth bridge from \"little ones\" (18:10) to the lost sheep (18:12), which is just the kind of link a copyist or a reader in church would add. Its message is true to Matthew (9:13; 15:24), but the words are probably not his.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "18:14",
+  "a": "your Father",
+  "t": "\"Your Father\" or \"my Father\"?",
+  "p": "Manuscripts differ on whose Father Jesus names here; the editions follow \"your.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Bezae, Washington, family 1, the Byzantine majority; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV \"your Father\")",
+    "orig": "τοῦ πατρὸς ὑμῶν",
+    "en": "your Father",
+    "plain": "your Father"
+   },
+   {
+    "w": "Codex Vaticanus, Theta, family 13, the Syriac; Westcott-Hort, Tregelles",
+    "orig": "τοῦ πατρός μου",
+    "en": "my Father",
+    "plain": "my Father"
+   }
+  ],
+  "follow": 0,
+  "why": "\"My Father\" may have been copied from 18:10 and 18:19. Both readings are early. \"Your Father\" turns the parable toward the hearers: God cares for the little ones among you.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:15",
+  "a": " against you",
+  "t": "\"Sins\" or \"sins against you\"?",
+  "p": "Sinaiticus and Vaticanus lack \"against you.\" Without it, the rule covers any sin, not only a personal wrong.",
+  "readings": [
+   {
+    "w": "Bezae, Washington, Theta, family 13, the Byzantine majority, Latin and Syriac; NA28 (in brackets), SBLGNT, Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "Ἐὰν δὲ ἁμαρτήσῃ εἰς σὲ",
+    "en": "If he sins against you",
+    "plain": " against you"
+   },
+   {
+    "w": "Codex Sinaiticus, Vaticanus, family 1, the Sahidic Coptic; Origen (as reported by Metzger); Westcott-Hort",
+    "orig": "Ἐὰν δὲ ἁμαρτήσῃ",
+    "en": "If he sins",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "A hard case. \"Against you\" may have been added from Peter's question in 18:21 (\"sinning against me\") or from Luke 17:3–4. Or it may have dropped out because the Greek words sound like the ending of the verb before them (hamartēsē eis se). The editors keep it in brackets.",
+  "b": "The difference matters for church practice. With \"against you,\" 18:15–17 is about settling a personal wrong. Without it, any member who sees a brother sin is to go to him, which makes the passage a general rule of church discipline (see the cards on the chapter page).",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "18:26",
+  "a": "Give me time",
+  "t": "\"Master, give me time\"",
+  "p": "Tyndale House and the Byzantine text have the slave call his lord \"Master\"; NA28 and SBL do not.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and Bezae (Tischendorf); NA28, SBLGNT, Westcott-Hort, Tregelles",
+    "orig": "Μακροθύμησον ἐπ’ ἐμοί",
+    "en": "Be patient with me",
+    "plain": "Give me time"
+   },
+   {
+    "w": "L and most later uncials (Tischendorf), the Byzantine majority text; Tyndale House GNT, Textus Receptus (KJV \"Lord, have patience with me\")",
+    "orig": "Κύριε, μακροθύμησον ἐπ’ ἐμοί",
+    "en": "Master, be patient with me",
+    "plain": "Master, give me time"
+   }
+  ],
+  "follow": 0,
+  "why": "The fellow slave's plea in 18:29 has no \"Master,\" and Matthew seems to make the two pleas match nearly word for word. A copyist could easily add the natural address. The editions are divided, and the meaning does not change.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "18:29",
+  "a": "threw himself down",
+  "t": "\"Fell down at his feet\"",
+  "p": "The Byzantine text adds \"at his feet,\" as the KJV has it.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort",
+    "orig": "πεσὼν οὖν ὁ σύνδουλος αὐτοῦ",
+    "en": "so his fellow slave fell down",
+    "plain": "threw himself down"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont), Textus Receptus (KJV \"fell down at his feet\")",
+    "orig": "πεσὼν οὖν ὁ σύνδουλος αὐτοῦ εἰς τοὺς πόδας αὐτοῦ",
+    "en": "so his fellow slave fell down at his feet",
+    "plain": "threw himself down at his feet"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions agree on the shorter text. \"At his feet\" is a natural detail for a copyist to add. The picture is the same.",
+  "s": [
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "18:29",
+  "a": "I will pay it back to you",
+  "t": "\"I will pay you all\"",
+  "p": "The Textus Receptus adds \"all,\" making the second plea match the first (18:26).",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Byzantine text (Robinson-Pierpont)",
+    "orig": "καὶ ἀποδώσω σοι",
+    "en": "and I will pay you back",
+    "plain": "I will pay it back to you"
+   },
+   {
+    "w": "Textus Receptus (KJV \"I will pay thee all\")",
+    "orig": "καὶ ἀποδώσω σοι πάντα",
+    "en": "and I will pay you back everything",
+    "plain": "I will pay it all back to you"
+   }
+  ],
+  "follow": 0,
+  "why": "\"All\" was added from 18:26, where the first slave makes the same plea. In the oldest text the second plea is a little shorter, and a debt of a hundred denarii could really be repaid.",
+  "s": [
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "18:35",
+  "a": "forgives his brother from the heart",
+  "t": "\"Their trespasses\"",
+  "p": "The KJV's \"their trespasses\" comes from the Byzantine text, perhaps from 6:14–15.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, Theta, family 1, Latin, Syriac, Coptic; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἀπὸ τῶν καρδιῶν ὑμῶν",
+    "en": "from your hearts",
+    "plain": "forgives his brother from the heart"
+   },
+   {
+    "w": "Ephraemi, Washington, family 13, the Byzantine majority, Textus Receptus (KJV \"from your hearts forgive not every one his brother their trespasses\")",
+    "orig": "ἀπὸ τῶν καρδιῶν ὑμῶν τὰ παραπτώματα αὐτῶν",
+    "en": "from your hearts their trespasses",
+    "plain": "forgives his brother his wrongs from the heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words fill out the sentence the way 6:14–15 does. The older and more varied witnesses lack them.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

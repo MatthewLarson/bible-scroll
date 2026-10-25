@@ -1,0 +1,371 @@
+[
+ {
+  "v": "30:1",
+  "a": "to Ithiel, to Ithiel and Ucal:",
+  "t": "Names, or a sentence?",
+  "p": "The same Hebrew letters can be read as two names or as a cry: \"I am weary, God... and worn out.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), as the Masoretes vowelled it; KJV and some modern versions",
+    "orig": "לְאִיתִיאֵל לְאִיתִיאֵל וְאֻכָל",
+    "en": "to Ithiel, to Ithiel and Ucal",
+    "plain": "to Ithiel, to Ithiel and Ucal:"
+   },
+   {
+    "w": "Same consonants with other vowels (la'iti 'el... wa'ekhel), a proposal of modern scholars followed in many modern versions",
+    "orig": "לָאִיתִי אֵל לָאִיתִי אֵל וָאֵכֶל",
+    "en": "I am weary, God, I am weary, God, and I am spent",
+    "plain": "\"I am weary, God, I am weary, God, and I am worn out.\""
+   },
+   {
+    "w": "Septuagint (Rahlfs and Codex Vaticanus, Swete 24:24)",
+    "orig": "τάδε λέγει ὁ ἀνὴρ τοῖς πιστεύουσιν θεῷ, καὶ παύομαι",
+    "en": "this is what the man says to those who trust in God, and I stop",
+    "plain": "to those who trust in God, and I stop:"
+   },
+   {
+    "w": "Jerome's Latin (Vulgate)",
+    "orig": "vir cum quo est Deus et qui Deo secum morante confortatus ait",
+    "en": "the man with whom God is, and who, strengthened by God staying with him, said",
+    "plain": "the man with whom God is, and who is strengthened by God:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew as it has been read for a thousand years. But the vowels were added long after the letters, and many scholars think the cry \"I am weary, God\" fits Agur's confession in 30:2–3 better. The repeated name would be odd, and the Greek and Latin both saw words here, not names, though each read different words. The case is open.",
+  "b": "The Greek also turns Agur's own name and his father's into words: \"Fear my words, son, and receive them and repent.\" Jerome's Latin translates the names: \"The words of the Gatherer, son of the Vomiter\" (<i>verba Congregantis filii Vomentis</i>), the same wordplay found in the rabbis (Kohelet Rabbah 1:1). Some modern scholars read <i>lo' 'iti 'el</i>, \"there is no God with me\", or similar, as a skeptic's opening; this is a more radical change.",
+  "s": [
+   "fox-proverbs",
+   "toy-proverbs",
+   "rahlfs-lxx",
+   "swete-lxx",
+   "franklyn-agur"
+  ]
+ },
+ {
+  "v": "30:3",
+  "a": "I have not learned wisdom",
+  "t": "\"I have not learned\" or \"God has taught me\"?",
+  "p": "The Greek turns Agur's confession around: \"God has taught me wisdom.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְלֹא־לָמַדְתִּי חָכְמָה",
+    "en": "and I have not learned wisdom",
+    "plain": "I have not learned wisdom"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:26)",
+    "orig": "θεὸς δεδίδαχέν με σοφίαν, καὶ γνῶσιν ἁγίων ἔγνωκα",
+    "en": "God has taught me wisdom, and I know the knowledge of holy ones",
+    "plain": "God has taught me wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear, and the Greek translator seems to have softened a confession that sounded too bleak for a sage. The Greek's reading makes Agur humble about himself but confident about what God has taught him.",
+  "s": [
+   "rahlfs-lxx",
+   "cook-lxx-proverbs",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "30:4",
+  "a": "his son's name?",
+  "t": "His son, or his children?",
+  "p": "The Greek has \"the name of his children\". A later corrector of Codex Alexandrinus wrote \"his son\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin (filii eius)",
+    "orig": "וּמַה־שֶּׁם־בְּנוֹ",
+    "en": "and what is the name of his son",
+    "plain": "his son's name?"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Codex Vaticanus, Swete 24:27)",
+    "orig": "ἢ τί ὄνομα τοῖς τέκνοις αὐτοῦ",
+    "en": "or what is the name of his children",
+    "plain": "the name of his children?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew singular is the harder and better-supported reading, and the Latin agrees. The Greek plural may reflect a translator who thought of God's heavenly \"sons\" or of Israel's people. Swete's notes report that a later hand in Codex Alexandrinus changed it to \"his son\" (τῷ υἱῷ).",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "franklyn-agur"
+  ]
+ },
+ {
+  "v": "30:9",
+  "a": "Who is the LORD?",
+  "t": "\"Who is the LORD?\" or \"Who sees me?\"",
+  "p": "In the Greek the full man says, \"Who sees me?\", denying not God but that God watches.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin",
+    "orig": "מִי יְהוָה",
+    "en": "Who is YHWH?",
+    "plain": "Who is the LORD?"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:32)",
+    "orig": "τίς με ὁρᾷ",
+    "en": "Who sees me?",
+    "plain": "Who sees me?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek translator avoided having a speaker in Scripture say \"Who is the LORD?\", or he interpreted it: the sated person's denial is practical, the belief that God does not see (compare Psalm 10:11). The Greek also adds that the full man \"becomes a liar\".",
+  "s": [
+   "rahlfs-lxx",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "30:10",
+  "a": "Do not run down a servant to his master",
+  "t": "Slander, or hand over?",
+  "p": "The Greek reads, \"Do not hand a servant over to a master\", like Deuteronomy's law about runaway slaves.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Qere \"his masters\", a plural of majesty; Ketiv \"his master\")",
+    "orig": "אַל־תַּלְשֵׁן עֶבֶד אֶל־אֲדֹנָיו",
+    "en": "do not slander a servant to his master",
+    "plain": "Do not run down a servant to his master"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:33)",
+    "orig": "μὴ παραδῷς οἰκέτην εἰς χεῖρας δεσπότου",
+    "en": "do not hand a household servant over into a master's hands",
+    "plain": "Do not hand a servant over to a master"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is \"slander\", which fits the curse that follows. The Greek seems to have read the verse in the light of Deuteronomy 23:15. The Ketiv and Qere differ only in singular and plural, with the same meaning.",
+  "s": [
+   "rahlfs-lxx",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "30:16",
+  "a": "the closed-up womb",
+  "t": "The barren womb, or a woman's passion?",
+  "p": "The Greek has \"Hades and a woman's passion and Tartarus\", making the womb into desire.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin (os vulvae)",
+    "orig": "וְעֹצֶר רָחַם",
+    "en": "and the closing of the womb",
+    "plain": "the closed-up womb"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:51)",
+    "orig": "καὶ ἔρως γυναικὸς καὶ τάρταρος",
+    "en": "and a woman's passion, and Tartarus",
+    "plain": "a woman's passion, and Tartarus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew fits the list of things that cannot be filled. The Greek turned the image into sexual desire, and added Tartarus, the Greek name for the deepest underworld, perhaps as a second rendering of Sheol.",
+  "s": [
+   "rahlfs-lxx",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "30:17",
+  "a": "obeying a mother",
+  "t": "Obedience, or old age?",
+  "p": "The Greek has \"the old age of a mother\", from a different reading of a rare Hebrew word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לִיקֲּהַת־אֵם",
+    "en": "the obedience of a mother (obedience owed to her)",
+    "plain": "obeying a mother"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:52)",
+    "orig": "ἀτιμάζοντα γῆρας μητρός",
+    "en": "dishonoring a mother's old age",
+    "plain": "a mother's old age"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Yiqqahat</i> appears only here and in Genesis 49:10 (\"obedience\"). The Greek, and some modern scholars, read a word for old age (compare 23:22, \"Do not look down on your mother because she has grown old\"). The Hebrew is the harder reading and is followed.",
+  "s": [
+   "rahlfs-lxx",
+   "fox-proverbs",
+   "bhq-proverbs"
+  ]
+ },
+ {
+  "v": "30:19",
+  "a": "with a young woman",
+  "t": "\"With a young woman\" or \"in his youth\"?",
+  "p": "The Greek reads \"the ways of a man in youth\", not \"with a young woman\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin (in adulescentula, \"in a young girl\")",
+    "orig": "בְּעַלְמָה",
+    "en": "with (literally 'in') a young woman",
+    "plain": "with a young woman"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:54)",
+    "orig": "ὁδοὺς ἀνδρὸς ἐν νεότητι",
+    "en": "the ways of a man in youth",
+    "plain": "in his youth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the noun <i>'almah</i>, and the Latin agrees. The Greek probably read the same letters as a word for youth (<i>'alumim</i>) or chose a modest rendering. The Hebrew fits 30:20, which turns to a woman.",
+  "s": [
+   "rahlfs-lxx",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "31:1",
+  "a": "The words of Lemuel, a king: the oracle with which his mother disciplined him.",
+  "t": "\"A king: the oracle\" or \"king of Massa\"?",
+  "p": "Read with the Hebrew accents, massa' is \"oracle\". Read without them, Lemuel is \"king of Massa\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), following its accents, which divide after \"king\"; KJV",
+    "orig": "דִּבְרֵי לְמוּאֵל מֶלֶךְ מַשָּׂא אֲשֶׁר־יִסְּרַתּוּ אִמּוֹ",
+    "en": "The words of Lemuel, a king; an oracle that his mother taught him",
+    "plain": "The words of Lemuel, a king: the oracle with which his mother disciplined him."
+   },
+   {
+    "w": "Same Hebrew words, read as one phrase; many modern scholars and some modern versions",
+    "orig": "מֶלֶךְ מַשָּׂא",
+    "en": "Lemuel, king of Massa",
+    "plain": "The words of Lemuel king of Massa, with which his mother disciplined him."
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 24:69)",
+    "orig": "Οἱ ἐμοὶ λόγοι εἴρηνται ὑπὸ θεοῦ βασιλέως χρηματισμός ὃν ἐπαίδευσεν ἡ μήτηρ αὐτοῦ",
+    "en": "My words have been spoken by God, a king's oracle, which his mother taught",
+    "plain": "My words have been spoken by God, a king's oracle, which his mother taught him."
+   }
+  ],
+  "follow": 0,
+  "why": "The accents of the Hebrew text put the pause after \"king\", so \"oracle\" goes with what follows. But \"king\" without \"of\" anything is unusual in a heading, and Massa is a known Arab people (Genesis 25:14). The Plain keeps the Masoretic division; the Massa reading is strong, and it would make both Agur (30:1) and Lemuel Arabian sages.",
+  "b": "The Greek translator read <i>Lemu'el</i> as \"by God\" (<i>lemo 'el</i>, \"to God\") and so made the whole verse a claim of divine origin. The word <i>chrēmatismos</i>, \"oracle, divine answer\", shows that he understood <i>massa'</i> as \"oracle\". Jerome's Latin has \"The words of King Lamuel; the vision with which his mother taught him\".",
+  "s": [
+   "fox-proverbs",
+   "toy-proverbs",
+   "rahlfs-lxx",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "31:4",
+  "a": "to ask, \"Where is the beer?\"",
+  "t": "\"Where is the beer?\" or \"or beer\"",
+  "p": "The written Hebrew has \"or\"; the reading tradition says \"where?\". Some read \"craving\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the word as read aloud): אֵי, \"where?\"",
+    "orig": "וּלְרוֹזְנִים אֵי שֵׁכָר",
+    "en": "and for rulers, 'Where is beer?'",
+    "plain": "to ask, \"Where is the beer?\""
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (the word as written): אוֹ, \"or\"",
+    "orig": "וּלְרוֹזְנִים אוֹ שֵׁכָר",
+    "en": "and for rulers, or beer",
+    "plain": "beer"
+   }
+  ],
+  "follow": 0,
+  "why": "Both forms are in the Hebrew text itself. The Qere gives a vivid picture of a ruler calling for drink, and the Plain follows it. The Ketiv \"or\" is awkward but gives a simple sense (\"or for rulers, beer\"). Many modern scholars repoint the word as <i>'avvê</i>, \"desire for\", which is why some versions say \"crave\". The Greek rewrites the verse.",
+  "s": [
+   "fox-proverbs",
+   "bhq-proverbs"
+  ]
+ },
+ {
+  "v": "31:21",
+  "a": "wears scarlet",
+  "t": "Scarlet, or double clothing?",
+  "p": "Shanim is \"scarlet\". Read as shenayim, \"double\", the household wears two layers against the snow.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לָבֻשׁ שָׁנִים",
+    "en": "is clothed in scarlet (cloth)",
+    "plain": "wears scarlet"
+   },
+   {
+    "w": "Jerome's Latin (vestiti duplicibus); the same idea appears in the Septuagint's \"double cloaks\" in 31:22",
+    "orig": "omnes enim domestici eius vestiti duplicibus",
+    "en": "for all her household are clothed with double garments",
+    "plain": "wears double clothing"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters can be read either way. \"Double\" makes better sense against snow, which is why Jerome and many scholars prefer it. But scarlet wool was costly and warm, and fine colored cloth fits 31:22. The Plain follows the Masoretic vowels.",
+  "b": "The Greek of 31:21 is quite different: \"Her husband takes no thought for those at home when he stays away anywhere, for all who are with her are clothed.\" Its next verse begins, \"She made double cloaks for her husband.\"",
+  "s": [
+   "fox-proverbs",
+   "toy-proverbs",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "31:30",
+  "a": "A woman who fears the LORD, she is the one to be praised.",
+  "t": "\"A woman who fears the LORD\" or \"a wise woman\"?",
+  "p": "The Greek praises \"a wise woman\" and tells her to praise the fear of the Lord.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin (mulier timens Dominum ipsa laudabitur)",
+    "orig": "אִשָּׁה יִרְאַת־יְהוָה הִיא תִתְהַלָּל",
+    "en": "a woman who fears YHWH, she will be praised",
+    "plain": "A woman who fears the LORD, she is the one to be praised."
+   },
+   {
+    "w": "Septuagint (Rahlfs; Codex Vaticanus, Swete 29:48)",
+    "orig": "γυνὴ γὰρ συνετὴ εὐλογεῖται, φόβον δὲ κυρίου αὕτη αἰνείτω",
+    "en": "for a wise woman is blessed, and let her praise the fear of the Lord",
+    "plain": "For a wise woman is blessed, and let her praise the fear of the Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text and fits the book's frame (1:7). The Greek splits the line into two thoughts and makes the woman the one who praises.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "31:31",
+  "a": "let her deeds praise her",
+  "t": "Her deeds, or her husband?",
+  "p": "The Greek ends the book with \"let her husband be praised at the gates\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Latin (laudent eam in portis opera eius)",
+    "orig": "וִיהַלְלוּהָ בַשְּׁעָרִים מַעֲשֶׂיהָ",
+    "en": "and let her works praise her in the gates",
+    "plain": "let her deeds praise her"
+   },
+   {
+    "w": "Septuagint (Rahlfs; Swete 29:49)",
+    "orig": "καὶ αἰνείσθω ἐν πύλαις ὁ ἀνὴρ αὐτῆς",
+    "en": "and let her husband be praised in the gates",
+    "plain": "let her husband be praised"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew gives the last word to her own deeds, matching \"the fruit of her hands\" in the first line. The Greek moves the praise to her husband, as in 31:23. Codex Vaticanus also has \"the fruit of her lips\" for \"hands\" in the first line, where Rahlfs prints \"hands\".",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx"
+  ]
+ }
+]

@@ -1,0 +1,496 @@
+[
+ {
+  "v": "1:1",
+  "a": "These events took place in the time of Ahasuerus.",
+  "t": "Addition A: Mordecai's dream",
+  "p": "Both Greek versions open with Mordecai's dream and a plot against the king, before 1:1. The Hebrew has neither.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Vulgate in its main text (he moved the Additions to the end of the book)",
+    "orig": "וַיְהִי בִּימֵי אֲחַשְׁוֵרוֹשׁ",
+    "en": "And it happened in the days of Ahasuerus",
+    "plain": "These events took place in the time of Ahasuerus."
+   },
+   {
+    "w": "Septuagint (Rahlfs, Addition A, numbered 1:1a–1r, or 11:2–12:6 in the Vulgate's order) and the Alpha Text, which names the plotters Astaos and Thedeutes",
+    "orig": "Ἔτους δευτέρου βασιλεύοντος Ἀρταξέρξου ... ",
+    "en": "In the second year of the reign of Artaxerxes ...",
+    "plain": "[Greek Addition A, in summary: In the king's second year, on the first of Nisan, Mordecai son of Jair, son of Shimei, son of Kish, a Benjaminite exiled with Jeconiah, dreams of noise, thunder and earthquake; two great dragons ready to fight; every nation preparing war against a righteous nation; a day of darkness; the righteous cry to God, and from their cry a little spring becomes a great river; light and the sun rise, and the humble are lifted up. Mordecai then overhears two eunuchs, Gabatha and Tharra, plotting against the king, reports them, and is rewarded; but Haman son of Hammedatha, a Bougaean, seeks to harm him and his people.] These events took place in the time of Ahasuerus."
+   }
+  ],
+  "follow": 0,
+  "why": "The Additions are found only in Greek and in translations made from it, with no trace in any Hebrew manuscript, and they read as later expansions: they name God, explain the dream at the end (Addition F), and repeat the eunuchs' plot of 2:21–23 in another form. This site translates the Hebrew; the Additions are summarized in notes and variants.",
+  "b": "<p>Addition A sets the whole story inside a dream sent by God and interpreted in Addition F at the end of the book: the two dragons are Mordecai and Haman, the river is Esther, the nations are those that gathered to destroy the Jews. It gives the story a frame that is openly religious and apocalyptic, much like Daniel. Most scholars think A, C, D and F were composed in Greek or Hebrew/Aramaic and added after the Hebrew book was complete, and B and E (the royal letters) were written in Greek. Catholic and Orthodox Bibles include the Additions; Protestant Bibles print them, if at all, among the Apocrypha. In the Vulgate and the older English numbering, this passage is 11:2–12:6. See the book's opening pages.</p>",
+  "s": [
+   "moore-additions",
+   "rahlfs-lxx",
+   "hanhart-esther",
+   "clines-esther-scroll"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "This was the Ahasuerus",
+  "t": "Ahasuerus or Artaxerxes?",
+  "p": "The Septuagint and Josephus call the king Artaxerxes. The Hebrew name matches Xerxes.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate (Assuerus); Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS), which has Assueros",
+    "orig": "אֲחַשְׁוֵרוֹשׁ",
+    "en": "Ahasuerus",
+    "plain": "This was the Ahasuerus"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition); Josephus, Antiquities 11.184",
+    "orig": "Ἀρταξέρξης",
+    "en": "Artaxerxes",
+    "plain": "This was the Artaxerxes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew name is the regular Hebrew form of Persian Xshayarsha, Xerxes, and is supported by the Alpha Text and the Vulgate. The Septuagint's Artaxerxes is probably a later identification by its translators; Josephus follows the Septuagint.",
+  "b": "<p>The Septuagint uses Artaxerxes throughout. Some older interpreters therefore placed the story under Artaxerxes I (465–424 BC) or Artaxerxes II (404–358 BC). Most scholars follow the Hebrew and identify the king as Xerxes I (486–465 BC). Ezra 4:6–7 names Ahasuerus and then Artaxerxes as two different kings.</p>",
+  "s": [
+   "moore-esther",
+   "josephus-ant",
+   "rahlfs-lxx",
+   "jobes-alpha-text"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "from India all the way to Cush",
+  "t": "India to Cush, or India alone?",
+  "p": "The Old Greek says only 'from India, 127 provinces.' The Alpha Text has 'from India to Ethiopia.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "מֵהֹדּוּ וְעַד־כּוּשׁ",
+    "en": "from India and as far as Cush",
+    "plain": "from India all the way to Cush"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "ἀπὸ τῆς Ἰνδικῆς",
+    "en": "from India",
+    "plain": "from India"
+   },
+   {
+    "w": "Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS)",
+    "orig": "",
+    "en": "from India to Ethiopia",
+    "plain": "from India all the way to Ethiopia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew, supported in sense by the Alpha Text (Ethiopia is the Greek name for Cush), is the base text. The Old Greek has probably shortened the phrase.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-esther"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "for seven days",
+  "t": "Seven days or six?",
+  "p": "The Hebrew gives the second feast seven days. The Septuagint says six.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS); Vulgate",
+    "orig": "שִׁבְעַת יָמִים",
+    "en": "seven days",
+    "plain": "for seven days"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "ἐπὶ ἡμέρας ἕξ",
+    "en": "for six days",
+    "plain": "for six days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text, and the feast's 'seventh day' in 1:10 fits a seven-day feast. The Greek may have counted the six days before the seventh, or simply differed.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-esther"
+  ]
+ },
+ {
+  "v": "1:22",
+  "a": "They said that every man was to rule his own household and to speak his own people's language.",
+  "t": "The last clause of the decree",
+  "p": "The Hebrew orders men to rule their households and speak their own language. The Greek speaks of fear in the household.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "לִהְיוֹת כָּל־אִישׁ שֹׂרֵר בְּבֵיתוֹ וּמְדַבֵּר כִּלְשׁוֹן עַמּוֹ",
+    "en": "that every man be ruling in his house and speaking according to the language of his people",
+    "plain": "They said that every man was to rule his own household and to speak his own people's language."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition) (it does not have the clause about language here; it sends the letters 'according to their language'); Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS), which also has fear in their homes",
+    "orig": "ὥστε εἶναι φόβον αὐτοῖς ἐν ταῖς οἰκίαις αὐτῶν",
+    "en": "so that there would be fear for them in their households",
+    "plain": "They said that there should be fear of the husbands in every household."
+   },
+   {
+    "w": "A conjectural correction of the Hebrew, changing a few letters, proposed by some nineteenth-century scholars and discussed by Paton and Moore; no manuscript has it",
+    "orig": "וּמְדַבֵּר כָּל־שֹׁוֶה עִמּוֹ",
+    "en": "and say whatever suits him",
+    "plain": "They said that every man was to rule his own household and to say whatever suited him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as it stands: in a mixed-language household the husband's language was to be used. The Greek seems to paraphrase the point, and the correction is a guess with no manuscript behind it.",
+  "s": [
+   "moore-esther",
+   "paton-esther",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "Mordecai took her in to be his daughter",
+  "t": "As a daughter, or as a wife?",
+  "p": "The Hebrew says 'as a daughter.' The Septuagint says Mordecai brought her up to be his wife; the Talmud reads the Hebrew that way too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS); Vulgate",
+    "orig": "לְקָחָהּ מָרְדֳּכַי לוֹ לְבַת",
+    "en": "Mordecai took her to himself as a daughter",
+    "plain": "Mordecai took her in to be his daughter"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition): 'he trained her for himself as a wife' (ἐπαίδευσεν αὐτὴν ἑαυτῷ εἰς γυναῖκα); the Talmud (Bavli Megillah 13a) reads the Hebrew lebat 'as a daughter' as lebayit 'as a house,' that is, as a wife",
+    "orig": "ἐπαίδευσεν αὐτὴν ἑαυτῷ εἰς γυναῖκα",
+    "en": "he brought her up for himself as a wife",
+    "plain": "Mordecai brought her up to be his wife"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear and is repeated in 2:15. The Greek reading and the rabbinic one may share an old tradition that Mordecai meant to marry his cousin, which made Esther's marriage to the king harder still; but no Hebrew manuscript reads 'wife.'",
+  "b": "<p>The Greek also makes Esther the daughter of Aminadab, Mordecai's uncle, instead of Abihail (compare 2:15), and leaves out the name Hadassah.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "bavli-megillah",
+   "moore-esther"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "It was the tenth month, Tebeth",
+  "t": "Tebeth or Adar?",
+  "p": "The Hebrew dates Esther's going to the king in Tebeth, the tenth month. The Septuagint says Adar, the twelfth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "בַּחֹדֶשׁ הָעֲשִׂירִי הוּא־חֹדֶשׁ טֵבֵת",
+    "en": "in the tenth month, that is, the month of Tebeth",
+    "plain": "It was the tenth month, Tebeth"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "τῷ δωδεκάτῳ μηνί, ὅς ἐστιν Αδαρ",
+    "en": "in the twelfth month, which is Adar",
+    "plain": "It was the twelfth month, Adar"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek may have moved the date to Adar to tie Esther's crowning to the month of Purim.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-esther"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "The virgins were brought together a second time. Mordecai was then sitting in the king's gate.",
+  "t": "A second gathering?",
+  "p": "The Old Greek has no 'second gathering': it says only that Mordecai served in the court. The Alpha Text has no 2:19–23 here.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "וּבְהִקָּבֵץ בְּתוּלוֹת שֵׁנִית וּמָרְדֳּכַי יֹשֵׁב בְּשַׁעַר־הַמֶּלֶךְ",
+    "en": "And when virgins were gathered a second time, Mordecai was sitting in the king's gate",
+    "plain": "The virgins were brought together a second time. Mordecai was then sitting in the king's gate."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "ὁ δὲ Μαρδοχαῖος ἐθεράπευεν ἐν τῇ αὐλῇ",
+    "en": "And Mardochaios was serving in the court",
+    "plain": "Mordecai was serving in the court."
+   },
+   {
+    "w": "Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS) (it tells the plot only in Addition A)",
+    "orig": "",
+    "en": "(verses 2:19–23 absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is harder, and the Old Greek looks like a smoothing of an obscure clause. But the Greek is real evidence that the clause puzzled readers early, and some scholars think the Hebrew 'a second time' is a copyist's addition. See the note.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-esther",
+   "moore-esther",
+   "fox-redaction-esther"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "as Mordecai had instructed her.",
+  "t": "'To fear God and keep his commands'",
+  "p": "The Septuagint says Mordecai had told Esther to fear God and keep his commands. The Hebrew does not mention God.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "כַּאֲשֶׁר צִוָּה עָלֶיהָ מָרְדֳּכָי",
+    "en": "as Mordecai had commanded her",
+    "plain": "as Mordecai had instructed her."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "οὕτως γὰρ ἐνετείλατο αὐτῇ Μαρδοχαῖος φοβεῖσθαι τὸν θεὸν καὶ ποιεῖν τὰ προστάγματα αὐτοῦ",
+    "en": "for so Mordecai had commanded her, to fear God and do his commandments",
+    "plain": "as Mordecai had instructed her: to fear God and keep his commands."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek adds God's name here, as it does in many places, in keeping with its more openly religious version of the story.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-additions",
+   "fox-esther"
+  ]
+ },
+ {
+  "v": "2:21",
+  "a": "became angry.",
+  "t": "Why were the eunuchs angry?",
+  "p": "The Hebrew gives no motive. The Old Greek says they were aggrieved because Mordecai had been promoted.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "קָצַף",
+    "en": "became angry",
+    "plain": "became angry."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "ἐλυπήθησαν ... ὅτι προήχθη Μαρδοχαῖος",
+    "en": "were aggrieved because Mardochaios had been promoted",
+    "plain": "were aggrieved, because Mordecai had been promoted."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text; the Greek supplies a reason, as it often does. The Alpha Text does not have this verse; it tells the plot in Addition A.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-esther"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "the Agagite",
+  "t": "Agagite or Bougaean?",
+  "p": "The Hebrew calls Haman 'the Agagite.' The Septuagint calls him 'the Bougaean.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate; Josephus, who calls him an Amalekite",
+    "orig": "הָאֲגָגִי",
+    "en": "the Agagite",
+    "plain": "the Agagite"
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition); in the king's second letter (Addition E) the Greek calls Haman a Macedonian",
+    "orig": "Βουγαῖον",
+    "en": "the Bougaean",
+    "plain": "the Bougaean"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text and carries the link to Agag of Amalek (1 Samuel 15). The Greek word is obscure: some connect it with a Homeric word for a braggart, others think the translator did not understand 'Agagite.'",
+  "s": [
+   "rahlfs-lxx",
+   "moore-esther",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "3:7",
+  "a": "down to the twelfth month, the month of Adar.",
+  "t": "Where did the lot fall?",
+  "p": "The Hebrew does not say which day the lot chose. The Old Greek says the fourteenth of Adar; the Alpha Text, and BHS's restoration, the thirteenth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "מִיּוֹם לְיוֹם וּמֵחֹדֶשׁ לְחֹדֶשׁ שְׁנֵים־עָשָׂר הוּא־חֹדֶשׁ אֲדָר",
+    "en": "from day to day and from month to month, twelfth, that is, the month of Adar",
+    "plain": "down to the twelfth month, the month of Adar."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "καὶ ἔπεσεν ὁ κλῆρος εἰς τὴν τεσσαρεσκαιδεκάτην τοῦ μηνός, ὅς ἐστιν Αδαρ",
+    "en": "and the lot fell on the fourteenth of the month, which is Adar",
+    "plain": "until the lot fell on the fourteenth of the month, Adar."
+   },
+   {
+    "w": "Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS)",
+    "orig": "",
+    "en": "he cast lots for the thirteenth day of the month of Adar",
+    "plain": "for the thirteenth day of the month of Adar."
+   },
+   {
+    "w": "BHS, restoring words thought lost from the Hebrew, on the basis of the Greek (listed in the site's data as words not in the Leningrad Codex); no Hebrew manuscript has them",
+    "orig": "וַיִּפֹּל הַגּוֹרָל עַל־שְׁלוֹשָׁה עָשָׂר יוֹם לְחֹדֶשׁ",
+    "en": "and the lot fell on the thirteenth day of the month",
+    "plain": "and the lot fell on the thirteenth day of the twelfth month, Adar."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew because the restoration has no Hebrew witness, not because it lacks support: the Alpha Text has exactly the thirteenth, which agrees with 3:13 and 9:1, and so does BHS's restoration. The Old Greek's fourteenth may come from the date of Purim (9:17–19). The Hebrew is terse, with no verb for where the lot came out; the Plain supplies only 'down to.'",
+  "b": "<p>The Old Greek also opens the verse differently. Instead of 'Pur was thrown before Haman,' it says Haman 'made a decree (<i>psēphisma</i>) in the twelfth year of the reign of Artaxerxes and cast lots day by day and month by month, so as to destroy in one day the race of Mordecai.' It never uses the word Pur here.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "nets-esther",
+   "moore-esther",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:10",
+  "a": "the enemy of the Jews.",
+  "t": "'The enemy of the Jews'",
+  "p": "The Old Greek has no title for Haman here. The king gives him the ring 'to seal against the Jews.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "צֹרֵר הַיְּהוּדִים",
+    "en": "the enemy of the Jews",
+    "plain": "the enemy of the Jews."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "σφραγίσαι κατὰ τῶν Ιουδαίων",
+    "en": "to seal against the Jews",
+    "plain": "to seal what was written against the Jews."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text, and the title recurs at 8:1, 9:10 and 9:24. The Old Greek turns the title into the purpose of the gift.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-esther"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "Their property was to be taken as plunder.",
+  "t": "Addition B: the king's first letter",
+  "p": "After 3:13 the Greek gives the full text of the king's decree against the Jews (Addition B).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate in its main text",
+    "orig": "וּשְׁלָלָם לָבוֹז",
+    "en": "and to plunder their spoil",
+    "plain": "Their property was to be taken as plunder."
+   },
+   {
+    "w": "Septuagint (Rahlfs, Addition B, numbered 3:13a–g, or 13:1–7 in the Vulgate's order) and the Alpha Text",
+    "orig": "Βασιλεὺς μέγας Ἀρταξέρξης ... ",
+    "en": "The great king Artaxerxes ...",
+    "plain": "Their property was to be taken as plunder. [Greek Addition B, in summary: a letter from 'the great king Artaxerxes' to the rulers of the 127 provinces from India to Ethiopia. Wishing to give his subjects peace, the king says Haman, his trusted second, has shown him that one hostile people, scattered among all nations, follows strange laws, ignores royal orders and disturbs the realm. So all whom Haman names are to be destroyed, with their wives and children, by the sword of their enemies, without mercy, on the fourteenth of the twelfth month, Adar, so that the kingdom may have lasting peace.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The letter is found only in Greek and is written in a polished Greek official style unlike the rest of the book, so scholars agree it was composed in Greek and added later. Its date, the fourteenth of Adar, differs from the Hebrew thirteenth.",
+  "b": "<p>Addition B lets readers hear Haman's charge in the king's voice, and it is paired with Addition E (after 8:12), the king's second letter, which reverses it. Its language about a people \"hostile\" to all others echoes charges made against Jews in the Greek world (compare 3:8).</p>",
+  "s": [
+   "moore-additions",
+   "rahlfs-lxx",
+   "hanhart-esther"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "letting out a loud, bitter cry.",
+  "t": "What Mordecai cried",
+  "p": "The Septuagint gives Mordecai's words: 'A nation that has done no wrong is being taken away.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "וַיִּזְעַק זְעָקָה גְדוֹלָה וּמָרָה",
+    "en": "and he cried out a cry, great and bitter",
+    "plain": "letting out a loud, bitter cry."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition)",
+    "orig": "αἴρεται ἔθνος μηδὲν ἠδικηκός",
+    "en": "A nation that has done no wrong is being taken away",
+    "plain": "letting out a loud, bitter cry: \"A nation that has done no wrong is being taken away!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek supplies words for the cry, as it often fills out speeches.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-esther"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "make her request to him for her people.",
+  "t": "'Call upon the Lord'",
+  "p": "The Septuagint's message adds: remember your humble days, call upon the Lord, and speak to the king for us.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate",
+    "orig": "וּלְבַקֵּשׁ מִלְּפָנָיו עַל־עַמָּהּ",
+    "en": "and to seek from before him for her people",
+    "plain": "make her request to him for her people."
+   },
+   {
+    "w": "Septuagint, the Old Greek ('B-text'; Rahlfs' edition); Alpha Text, the shorter Greek ('A-text' or 'L-text'; Hanhart's edition, as translated by Jobes in NETS), where Mordecai tells Esther to call upon God",
+    "orig": "μνησθεῖσα ἡμερῶν ταπεινώσεώς σου ... ἐπικάλεσαι τὸν κύριον",
+    "en": "remembering the days of your humble state ... call upon the Lord",
+    "plain": "make her request to him for her people. \"Remember the days when you were humble, when you were brought up by my hand. Haman, second to the king, has spoken against us for our death. Call upon the Lord, speak to the king about us, and rescue us from death.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek again adds an explicit appeal to God, which the Hebrew leaves out.",
+  "s": [
+   "rahlfs-lxx",
+   "moore-additions",
+   "nets-esther"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "Mordecai went his way and carried out all that Esther had commanded him.",
+  "t": "Additions C and D: the prayers and Esther's approach",
+  "p": "After 4:17 the Greek adds the prayers of Mordecai and Esther (Addition C), then tells Esther's approach to the king at length (Addition D, in place of 5:1–2).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Vulgate in its main text",
+    "orig": "וַיַּעֲבֹר מָרְדֳּכָי וַיַּעַשׂ כְּכֹל אֲשֶׁר־צִוְּתָה עָלָיו אֶסְתֵּר",
+    "en": "And Mordecai passed on and did according to all that Esther commanded him",
+    "plain": "Mordecai went his way and carried out all that Esther had commanded him."
+   },
+   {
+    "w": "Septuagint (Rahlfs, Addition C, numbered 4:17a–z, or 13:8–14:19 in the Vulgate's order) and the Alpha Text",
+    "orig": "καὶ ἐδεήθη κυρίου μνημονεύων πάντα τὰ ἔργα κυρίου",
+    "en": "and he prayed to the Lord, remembering all the Lord's works",
+    "plain": "Mordecai went his way and carried out all that Esther had commanded him. [Greek Addition C, in summary: Mordecai prays to the Lord, King over all, who made heaven and earth. He says he refused to bow to Haman not from pride, but so as not to set a man's glory above God's; he would gladly have kissed the soles of Haman's feet to save Israel. He asks God to spare his inheritance. All Israel cries out. Esther lays aside her royal robes, puts on mourning, covers her head with ashes and dung, and prays: she is alone and has no helper but God; she hates the splendor of the wicked and the bed of the uncircumcised and of every foreigner; she wears her crown only on public days and loathes it; she has not eaten at Haman's table, honored the king's feast or drunk the wine of drink offerings. She asks God to put eloquent words in her mouth before the lion.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The prayers exist only in Greek and its daughter versions. They answer the questions the Hebrew leaves open: where God is, why Mordecai would not bow, and how Esther could live as a gentile king's wife. That is why most scholars see them as later additions, made to bring Esther into line with books like Daniel.",
+  "b": "<p>Addition D follows immediately and replaces 5:1–2: on the third day Esther, dressed as queen, comes before the king, who looks at her in fierce anger; she faints; then \"God changed the spirit of the king to gentleness,\" and he springs from his throne, takes her in his arms and holds out the gold scepter. It is one of the places where the Greek says God acted directly: compare the Greek of 6:1, where \"the Lord\" (Old Greek) or \"the Mighty One\" (Alpha Text) keeps sleep from the king. See 5:1. Catholic and Orthodox Bibles include C and D; in the Vulgate's order, C is 13:8–14:19 and D is 15:1–16.</p>",
+  "s": [
+   "moore-additions",
+   "rahlfs-lxx",
+   "hanhart-esther",
+   "fox-esther"
+  ]
+ }
+]

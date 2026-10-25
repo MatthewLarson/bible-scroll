@@ -1,0 +1,827 @@
+[
+ {
+  "v": "81:5",
+  "a": "I hear a speech I had never known:",
+  "t": "\"I hear\" or \"he heard\"?",
+  "p": "The Hebrew has \"I hear a speech I did not know\"; the Greek and Syriac have \"he heard a language he did not know\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>audivi</i>",
+    "orig": "שְׂפַת לֹא־יָדַעְתִּי אֶשְׁמָע",
+    "en": "a speech I did not know I hear",
+    "plain": "I hear a speech I had never known:"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 80:6); Gallican Psalter <i>audivit</i>; Syriac, as reported in BHS (not checked myself)",
+    "orig": "γλῶσσαν ἣν οὐκ ἔγνω ἤκουσεν",
+    "en": "a language he did not know, he heard",
+    "plain": "he heard a language he had never known:"
+   }
+  ],
+  "follow": 0,
+  "why": "The first person is the harder reading, and it introduces the oracle that follows: the singer hears a voice he does not recognize, God's. The Greek made the line part of the Joseph story (Joseph in Egypt heard a strange tongue), which the Targum and Rashi also tell in their own way.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "bhs-elliger",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "81:16",
+  "a": "He would feed him",
+  "t": "\"He would feed him\" or \"I would feed him\"?",
+  "p": "The Hebrew shifts from \"he\" to \"I\" in this verse. Many read \"I would feed him\"; the Greek has \"he\" both times.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיַּאֲכִילֵהוּ",
+    "en": "and he fed him",
+    "plain": "He would feed him"
+   },
+   {
+    "w": "Conjecture adopted by many modern translations",
+    "orig": "וְאַאֲכִילֵהוּ",
+    "en": "and I would feed him",
+    "plain": "I would feed him"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 80:17); Gallican Psalter",
+    "orig": "καὶ ἐψώμισεν αὐτοὺς ... ἐχόρτασεν αὐτούς",
+    "en": "and he fed them ... he satisfied them",
+    "plain": "He fed them"
+   }
+  ],
+  "follow": 0,
+  "why": "Shifts of person are common in the psalms, and the Hebrew may be quoting Deuteronomy 32:13, \"he fed him\" (honey from the rock). The Plain keeps the Hebrew and the change of voice; the Greek smoothed it the other way. The tense is interpreted too: <i>wayya'akhilehu</i> is a past narrative form (\"and he fed him\"), which the Plain reads as part of the conditional promise of 81:13–16.",
+  "s": [
+   "swete-ot-vol2",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "82:1",
+  "a": "in the assembly of El",
+  "t": "\"The assembly of El\" or \"of gods\"?",
+  "p": "The Hebrew has \"the assembly of El\"; the Greek and Latin have \"the assembly of gods\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בַּעֲדַת־אֵל",
+    "en": "in the assembly of El",
+    "plain": "in the assembly of El"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 81:1); Gallican Psalter <i>in synagoga deorum</i>",
+    "orig": "ἐν συναγωγῇ θεῶν",
+    "en": "in the gathering of gods",
+    "plain": "in the assembly of gods"
+   },
+   {
+    "w": "Targum (checked myself)",
+    "orig": "בִּכְנִשְׁתָּא דְצַדִּיקַיָּא",
+    "en": "in the assembly of the righteous",
+    "plain": "in the assembly of the righteous"
+   }
+  ],
+  "follow": 0,
+  "why": "\"El\" here may be God's name or simply \"divine\" (\"the divine assembly\"); either way the council is God's. The Greek's \"gods\" interprets the same sense; the Targum's \"the righteous\" makes the gods human judges. See the notes on 82:1.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "83:1",
+  "a": "God, give yourself no rest!",
+  "t": "\"No rest for you\" or \"Who is like you?\"",
+  "p": "The Greek read the first Hebrew word as \"likeness\", not \"silence\": \"God, who will be likened to you?\" The rest matches.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew",
+    "orig": "אֱלֹהִים אַל־דֳּמִי־לָךְ",
+    "en": "God, no rest for you",
+    "plain": "God, give yourself no rest!"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 82:2); Gallican Psalter <i>Deus quis similis erit tibi</i>",
+    "orig": "Ὁ θεός, τίς ὁμοιωθήσεταί σοι; μὴ σιγήσῃς μηδὲ καταπραΰνῃς, ὁ θεός",
+    "en": "God, who will be likened to you? Do not be silent, do not be calmed, O God",
+    "plain": "God, who will be compared with you? Do not be silent! Do not be still, O God!"
+   }
+  ],
+  "follow": 0,
+  "why": "Both have three clauses. The Greek <i>tis homoiōthēsetai soi</i> renders <i>al-domi lakh</i>, reading <i>domi</i> from <i>damah</i>, \"be like\", instead of \"silence, rest\"; <i>mē sigēsēs</i> and <i>mēde katapraynēs</i> render the other two verbs. Nothing is added. The Hebrew sense, three words for silence, fits the parallel lines, and Jerome's Psalter from the Hebrew agrees with it.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "83:12",
+  "a": "God's grazing lands",
+  "t": "\"God's grazing lands\" or \"God's sanctuary\"?",
+  "p": "Hebrew \"the pastures of God\"; the Greek \"God's altar\" (Vaticanus) or \"God's sanctuary\" (Sinaiticus, Alexandrinus).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>pulchritudinem Dei</i> (\"God's beauty\")",
+    "orig": "נְאוֹת אֱלֹהִים",
+    "en": "the pastures of God",
+    "plain": "God's grazing lands"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 82:13) (Vaticanus)",
+    "orig": "τὸ θυσιαστήριον τοῦ θεοῦ",
+    "en": "the altar of God",
+    "plain": "God's altar"
+   },
+   {
+    "w": "Septuagint, Codex Sinaiticus and Codex Alexandrinus, as printed in Swete's notes; Gallican Psalter <i>sanctuarium Dei</i>",
+    "orig": "τὸ ἁγιαστήριον τοῦ θεοῦ",
+    "en": "the sanctuary of God",
+    "plain": "God's sanctuary"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Ne'ot</i> means pastures or homesteads, the land God gives his flock (79:13). The Greek copies read it as a holy place, perhaps thinking of <i>naveh</i>, \"abode\" (Exodus 15:13). Jerome took it from <i>na'ah</i>, \"be lovely\".",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "84:5",
+  "a": "who carries the highways in the heart",
+  "t": "\"Highways\" or \"ascents\"?",
+  "p": "The Hebrew says \"highways in their heart\"; the Greek has \"he has set ascents in his heart\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>semitae in corde eius</i>",
+    "orig": "מְסִלּוֹת בִּלְבָבָם",
+    "en": "highways in their heart",
+    "plain": "who carries the highways in the heart"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 83:6); Gallican Psalter <i>ascensiones in corde suo disposuit</i>",
+    "orig": "ἀναβάσεις ἐν τῇ καρδίᾳ αὐτοῦ διέθετο",
+    "en": "he has set ascents in his heart",
+    "plain": "who has set ascents in the heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek adds a verb and reads the roads as \"ascents\", the word used for the Songs of Ascents (120–134), the pilgrims' climb to Jerusalem. That is a good interpretation of the Hebrew, which is terse. The Plain keeps the Hebrew noun and supplies only \"carries\". The Hebrew \"their\" is singular in the Plain for smoothness after \"anyone\".",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "84:6",
+  "a": "the early rain also wraps it in blessings",
+  "t": "\"Blessings\" or \"pools\"?",
+  "p": "The Hebrew vowels read \"blessings\"; many read \"pools\". The Greek has \"the lawgiver will give blessings\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "גַּם־בְּרָכוֹת יַעְטֶה מוֹרֶה",
+    "en": "the early rain also wraps (it in) blessings",
+    "plain": "the early rain also wraps it in blessings"
+   },
+   {
+    "w": "Same consonants, vowels changed (many modern translations)",
+    "orig": "גַּם־בְּרֵכוֹת יַעְטֶה מוֹרֶה",
+    "en": "the early rain covers it with pools",
+    "plain": "the early rain also covers it with pools"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 83:7)",
+    "orig": "καὶ γὰρ εὐλογίας δώσει ὁ νομοθετῶν",
+    "en": "for the lawgiver will give blessings",
+    "plain": "the lawgiver will also give blessings"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Berakhot</i>, \"blessings\", and <i>berekhot</i>, \"pools\", are spelled alike without vowels; the context of springs suggests pools, and the Hebrew vowels may be a play on both. <i>Moreh</i> means \"early rain\" (Joel 2:23) and also \"teacher\", which the Greek took (Jerome's Psalter from the Hebrew also has <i>doctor</i>, \"teacher\"). The Plain follows the Hebrew vowels.",
+  "s": [
+   "swete-ot-vol2",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "84:7",
+  "a": "until each one presents himself to God in Zion",
+  "t": "\"Appear before God\" or \"God will be seen\"?",
+  "p": "The Hebrew says each pilgrim \"appears before God\"; the Greek has \"the God of gods will be seen in Zion\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>parebunt apud Deum</i>",
+    "orig": "יֵרָאֶה אֶל־אֱלֹהִים בְּצִיּוֹן",
+    "en": "he will appear to God in Zion",
+    "plain": "until each one presents himself to God in Zion"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 83:8); Gallican Psalter <i>videbitur Deus deorum in Sion</i>",
+    "orig": "ὀφθήσεται ὁ θεὸς τῶν θεῶν ἐν Σιών",
+    "en": "the God of gods will be seen in Zion",
+    "plain": "the God of gods will be seen in Zion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the same letters <i>'l 'lhym</i> as <i>El elohim</i>, \"God of gods\", not <i>el elohim</i>, \"to God\". The Hebrew phrase is the law's term for the pilgrimage, to \"appear before the LORD\" three times a year (Exodus 23:17), which the scribes may have voweled to avoid saying the pilgrims \"see God\".",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "84:11",
+  "a": "The LORD God is sun and shield",
+  "t": "\"Sun and shield\" or \"mercy and truth\"?",
+  "p": "The Hebrew calls God \"sun and shield\"; the Greek reads \"the Lord God loves mercy and truth\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>sol et scutum</i>",
+    "orig": "כִּי שֶׁמֶשׁ וּמָגֵן יְהוָה אֱלֹהִים",
+    "en": "for sun and shield is the LORD God",
+    "plain": "The LORD God is sun and shield"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 83:12); Gallican Psalter <i>quia misericordiam et veritatem diligit Deus</i>",
+    "orig": "ὅτι ἔλεον καὶ ἀλήθειαν ἀγαπᾷ Κύριος ὁ θεός",
+    "en": "for the Lord God loves mercy and truth",
+    "plain": "The LORD God loves mercy and truth"
+   },
+   {
+    "w": "Targum (checked myself)",
+    "orig": "כְּשׁוּר רָם וְתָרִיס תַּקִּיף",
+    "en": "like a high wall and a strong shield",
+    "plain": "The LORD God is a high wall and a strong shield"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator, or his Hebrew copy, avoided calling God the sun, a name for a god in the nations around Israel; the Targum too turned it into a wall. The Hebrew is the harder reading and is supported by Jerome's translation from the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "85:1",
+  "a": "you turned Jacob's fortunes back",
+  "t": "\"Restored the fortunes\" or \"brought back the captives\"?",
+  "p": "The Hebrew phrase means \"turned the turning\" of Jacob; the Greek and Latin have \"turned back the captivity of Jacob\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שַׁבְתָּ שְׁבִית יַעֲקֹב",
+    "en": "you turned the turning of Jacob",
+    "plain": "you turned Jacob's fortunes back"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 84:2); Gallican Psalter <i>avertisti captivitatem Iacob</i>; Jerome's Psalter from the Hebrew <i>reduxisti captivitatem Iacob</i>",
+    "orig": "ἀπέστρεψας τὴν αἰχμαλωσίαν Ἰακώβ",
+    "en": "you turned back the captivity of Jacob",
+    "plain": "you brought Jacob's captives back"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Shuv shevut/shevit</i> is an idiom for restoring someone's fortunes (Job 42:10, of Job, who was no captive). The ancient versions related <i>shevit</i> to <i>shevi</i>, \"captivity\", and so read the psalm as a return from exile. That may be what the poet meant, but the idiom is wider. The consonants also differ: the written text (ketiv) has <i>shevit</i>, the text read aloud (qere) <i>shevut</i>. Both are forms of the same idiom, and the Plain's wording fits either.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "85:8",
+  "a": "only, they must not go back to foolishness",
+  "t": "\"Not return to folly\" or \"those who turn their heart\"?",
+  "p": "The Hebrew warns \"let them not turn back to folly\". The Greek has \"and to those who turn their heart to him\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְאַל־יָשׁוּבוּ לְכִסְלָה",
+    "en": "and let them not turn back to folly",
+    "plain": "only, they must not go back to foolishness"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 84:9); Gallican Psalter <i>et in eos qui convertuntur corde</i>",
+    "orig": "καὶ τοὺς ἐπιστρέφοντας πρὸς αὐτὸν καρδίαν",
+    "en": "and to those who turn their heart to him",
+    "plain": "and to those who turn their hearts to him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek probably read <i>ve'el shave libbam</i>, \"to those who turn their heart\", from similar letters. It is a smoother line, which is a reason to prefer the harder Hebrew. The Hebrew is supported by Jerome's translation from it (<i>ut non convertantur ad stultitiam</i>).",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "86:11",
+  "a": "Make my heart one",
+  "t": "\"Unite my heart\" or \"let my heart rejoice\"?",
+  "p": "The Hebrew says \"unite my heart\". The Greek, Syriac and Gallican Latin read \"let my heart rejoice\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>unicum fac cor meum</i>",
+    "orig": "יַחֵד לְבָבִי",
+    "en": "unite my heart",
+    "plain": "Make my heart one"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 85:11); Gallican Psalter <i>laetetur cor meum</i>; Syriac, as reported in BHS (not checked myself)",
+    "orig": "εὐφρανθήτω ἡ καρδία μου",
+    "en": "let my heart rejoice",
+    "plain": "Let my heart be glad"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read <i>yichad</i> (from <i>chadah</i>, \"rejoice\") for <i>yached</i>, \"make one\". The Hebrew, a prayer for an undivided heart, matches the next words \"to fear your name\" and Jeremiah 32:39 (\"one heart\").",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "87:5",
+  "a": "And about Zion they will say",
+  "t": "\"Mother Zion\"",
+  "p": "The Hebrew reads \"and of Zion it will be said\". The Greek has \"Mother Zion, a man will say\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>ad Sion autem dicetur</i>",
+    "orig": "וּלְצִיּוֹן יֵאָמַר",
+    "en": "and of Zion it will be said",
+    "plain": "And about Zion they will say"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 86:5); the Gallican Psalter has <i>numquid Sion dicet homo</i>, \"will a man say to Zion?\", reading the Greek <i>mē</i> for <i>mētēr</i>",
+    "orig": "Μήτηρ Σειών, ἐρεῖ ἄνθρωπος",
+    "en": "\"Mother Zion\", a person will say",
+    "plain": "\"Mother Zion,\" each will say"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator read <i>em</i>, \"mother\", in the place of the Hebrew preposition, perhaps from a copy with <i>'m</i>. \"Mother Zion\" became a favorite title in Christian hymns and fits the psalm's picture of peoples born in her (see Galatians 4:26). The Hebrew reading is shorter and stands in Jerome's translation from the Hebrew.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "87:7",
+  "a": "\"Every spring of mine is in you.\"",
+  "t": "\"Springs\" or \"dwelling\"?",
+  "p": "The Hebrew says \"all my springs are in you\". The Greek has \"the dwelling of all who rejoice is in you\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>omnes fontes mei in te</i>",
+    "orig": "כָּל־מַעְיָנַי בָּךְ",
+    "en": "all my springs (are) in you",
+    "plain": "\"Every spring of mine is in you.\""
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 86:7); Gallican Psalter <i>sicut laetantium omnium habitatio in te</i>",
+    "orig": "ὡς εὐφραινομένων πάντων ἡ κατοικία ἐν σοί",
+    "en": "as of all who rejoice, the dwelling is in you",
+    "plain": "\"All who rejoice have their home in you.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read <i>me'on</i>, \"dwelling\", for <i>ma'yan</i>, \"spring\", and took \"singers\" as \"rejoicing\". The Hebrew line is very short and hard, but its picture of Zion as the source of life fits 46:4 and Ezekiel 47.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "88:10",
+  "a": "Will the shades get up and give you thanks?",
+  "t": "\"Shades\" or \"physicians\"?",
+  "p": "Hebrew refa'im, \"shades\". The Greek and Gallican read \"physicians\"; Jerome from the Hebrew, \"giants\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אִם־רְפָאִים יָקוּמוּ יוֹדוּךָ",
+    "en": "will shades rise, will they praise you?",
+    "plain": "Will the shades get up and give you thanks?"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 87:11); Gallican Psalter <i>aut medici suscitabunt</i>",
+    "orig": "ἢ ἰατροὶ ἀναστήσουσιν καὶ ἐξομολογήσονταί σοι",
+    "en": "or will physicians raise them up, and they will praise you?",
+    "plain": "Will physicians raise them up, and will they give you thanks?"
+   },
+   {
+    "w": "Jerome's Psalter from the Hebrew <i>aut gigantes surgent</i>",
+    "orig": "",
+    "en": "or will giants rise?",
+    "plain": "Will giants get up and give you thanks?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read <i>rof'im</i>, \"healers\", from the same consonants. The Hebrew word for the dead is certain from Isaiah 26:14 and 26:19, which also ask whether the shades will rise. Jerome knew <i>Refa'im</i> as an old race of giants (Deuteronomy 2:11).",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "88:14",
+  "a": "do you push my soul away",
+  "t": "\"My soul\" or \"my prayer\"?",
+  "p": "The Hebrew has \"you reject my soul\"; the Greek has \"you reject my prayer\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>animam meam</i>",
+    "orig": "תִּזְנַח נַפְשִׁי",
+    "en": "you reject my soul",
+    "plain": "do you push my soul away"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 87:15); Gallican Psalter <i>orationem meam</i>",
+    "orig": "ἀπωθεῖς τὴν προσευχήν μου",
+    "en": "you push away my prayer",
+    "plain": "do you push my prayer away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may have been influenced by \"my prayer\" in the verse before. The Hebrew is supported by Jerome and the Targum.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "89:2",
+  "a": "For I have said",
+  "t": "\"I have said\" or \"you said\"?",
+  "p": "The Hebrew has \"I have said\"; the Greek and Gallican Latin have \"you said\", making verse 2 God's words.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי־אָמַרְתִּי",
+    "en": "for I have said",
+    "plain": "For I have said"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:3); Gallican Psalter <i>dixisti</i>; Jerome's Psalter from the Hebrew <i>quia dixisti</i>, as printed in Lefèvre d'Étaples' <i>Quincuplex Psalterium</i> (1513), checked myself (the Weber–Gryson critical text not seen)",
+    "orig": "ὅτι εἶπας",
+    "en": "for you said",
+    "plain": "For you have said"
+   }
+  ],
+  "follow": 0,
+  "why": "With \"you said\", God's own speech would begin at verse 2 instead of verse 3. The Hebrew has the singer state his faith in verse 2 and then quote God in verses 3–4, which is how the Plain punctuates it. The early printed text of Jerome's Psalter from the Hebrew also has \"you said\", but it could not be checked against the modern critical edition, so it is not used here to decide the reading. The Plain follows the Leningrad Codex, as most modern translations do.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "lefevre-quincuplex"
+  ]
+ },
+ {
+  "v": "89:3",
+  "a": "with the one I chose",
+  "t": "\"My chosen one\" or \"my chosen ones\"?",
+  "p": "The Hebrew has the singular \"my chosen one\"; the Greek has the plural \"my chosen ones\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לִבְחִירִי",
+    "en": "with my chosen one",
+    "plain": "with the one I chose"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:4); Gallican Psalter <i>electis meis</i>",
+    "orig": "τοῖς ἐκλεκτοῖς μου",
+    "en": "with my chosen ones",
+    "plain": "with the ones I chose"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew singular matches \"David my servant\" in the parallel line. The Greek plural may think of the people, or of the patriarchs (the Targum says Abraham).",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "89:12",
+  "a": "North and south",
+  "t": "\"North and south\" or \"north and seas\"?",
+  "p": "The Hebrew has <i>yamin</i>, \"right hand\", that is, south. The Greek read <i>yammim</i>, \"seas\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>aquilonem et dextram</i>",
+    "orig": "צָפוֹן וְיָמִין",
+    "en": "north and right (south)",
+    "plain": "North and south"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:13); Gallican Psalter <i>aquilonem et mare</i>",
+    "orig": "τὸν βορρᾶν καὶ θαλάσσας",
+    "en": "the north and the seas",
+    "plain": "North and the seas"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter, final nun or final mem, and its vowels. The Hebrew gives a natural pair of directions. Some scholars read both words as mountain names (Zaphon and Amanus), which would fit Tabor and Hermon in the next line; see the note.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "89:17",
+  "a": "through your favor our horn is lifted high",
+  "t": "Ketiv and qere: \"you lift\" or \"is lifted\"?",
+  "p": "The written Hebrew reads \"you lift high our horn\"; the margin, \"our horn is lifted high\". The Plain follows the margin.",
+  "readings": [
+   {
+    "w": "Masoretic Text, the reading in the margin (qere); Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:18) <i>hypsōthēsetai</i>; Gallican Psalter <i>exaltabitur</i>",
+    "orig": "תָּרוּם קַרְנֵנוּ",
+    "en": "our horn is raised",
+    "plain": "through your favor our horn is lifted high"
+   },
+   {
+    "w": "Masoretic Text, the written text (ketiv); Jerome's Psalter from the Hebrew <i>elevabis</i> (in the <i>Quincuplex Psalterium</i>, checked myself)",
+    "orig": "תָּרִים קַרְנֵנוּ",
+    "en": "you raise our horn",
+    "plain": "through your favor you lift our horn high"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense, and the difference is only a vowel letter (<i>y</i> or <i>w</i>). The margin reading matches verse 24 (\"his horn will rise\") and the Greek, so the Plain follows it. See the topic on ketiv and qere.",
+  "s": [
+   "swete-ot-vol2",
+   "bhs-elliger",
+   "lefevre-quincuplex"
+  ]
+ },
+ {
+  "v": "89:19",
+  "a": "to your loyal ones",
+  "t": "\"Your loyal ones\", \"your loyal one\" or \"your sons\"?",
+  "p": "Leningrad has \"your loyal ones\"; many manuscripts the singular; the Greek (Vaticanus) \"your sons\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>sanctis tuis</i>",
+    "orig": "לַחֲסִידֶיךָ",
+    "en": "to your loyal ones",
+    "plain": "to your loyal ones"
+   },
+   {
+    "w": "Many Hebrew manuscripts, as reported in BHS (not checked myself)",
+    "orig": "לַחֲסִידְךָ",
+    "en": "to your loyal one",
+    "plain": "to your loyal one"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:20) (Vaticanus); the Gallican Psalter has <i>sanctis tuis</i>, \"your holy ones\"",
+    "orig": "τοῖς υἱοῖς σου",
+    "en": "to your sons",
+    "plain": "to your sons"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular would point to Nathan, or to David, as the one who received the vision (2 Samuel 7:17). The plural may mean the prophets, as Rashi says (Nathan and Gad), or the faithful community that keeps the promise. The Greek \"sons\" is probably an interpretation. The Plain follows the Leningrad Codex.",
+  "s": [
+   "swete-ot-vol2",
+   "bhs-elliger",
+   "rashi-psalms",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "89:20",
+  "a": "with my holy oil",
+  "t": "\"Holy oil\" or \"holy mercy\"?",
+  "p": "Vaticanus first wrote \"with holy mercy\"; its corrector, Sinaiticus and Alexandrinus have \"holy oil\", as the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint, Codex Sinaiticus and Codex Alexandrinus and the corrector of Vaticanus, as printed in Swete's notes; Gallican Psalter <i>oleo sancto meo</i>",
+    "orig": "בְּשֶׁמֶן קָדְשִׁי",
+    "en": "with the oil of my holiness",
+    "plain": "with my holy oil"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:21) (first hand)",
+    "orig": "ἐν ἐλέει ἁγίῳ",
+    "en": "with holy mercy",
+    "plain": "with holy mercy"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Eleei</i>, \"mercy\", and <i>elaiōi</i>, \"oil\", sounded almost alike in later Greek, so the Vaticanus reading is a scribal slip by ear. It is a pleasing one in a psalm about God's mercy (<i>eleos</i> renders <i>hesed</i> throughout).",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "89:39",
+  "a": "his crown",
+  "t": "\"His crown\" or \"his holiness\"?",
+  "p": "The Hebrew has nezer, \"crown\". The Greek has \"his holiness\", the Gallican Latin \"his sanctuary\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>diadema eius</i>",
+    "orig": "נִזְרוֹ",
+    "en": "his crown",
+    "plain": "his crown"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:40); Gallican Psalter <i>sanctuarium eius</i>",
+    "orig": "τὸ ἁγίασμα αὐτοῦ",
+    "en": "his holiness, his holy thing",
+    "plain": "his holy thing"
+   }
+  ],
+  "follow": 0,
+  "why": "Same Hebrew, different sense: <i>nezer</i> means both a crown and consecration (as in \"Nazirite\"). The Greek took the second meaning. The Plain's \"crown\" fits the throne in 89:44.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "89:44",
+  "a": "You have stopped his brightness",
+  "t": "\"His brightness\" or \"his scepter\"?",
+  "p": "The Hebrew is hard: \"you made (him) stop from his brightness\". Many emend to \"his scepter\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הִשְׁבַּתָּ מִטְּהָרוֹ",
+    "en": "you have made cease from his purity",
+    "plain": "You have stopped his brightness"
+   },
+   {
+    "w": "Conjecture (dividing the letters as מַטֵּה הוֹדוֹ, \"his glorious scepter\")",
+    "orig": "הִשְׁבַּתָּ מַטֵּה הוֹדוֹ",
+    "en": "you have ended his glorious scepter",
+    "plain": "You have broken his glorious scepter"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:45); Gallican Psalter <i>destruxisti eum ab emundatione</i>",
+    "orig": "κατέλυσας ἀπὸ καθαρισμοῦ αὐτόν",
+    "en": "you dissolved him from cleansing",
+    "plain": "You have ended his cleansing"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek and the Targum confirm the Hebrew letters but take them as \"purity\"; the Targum thinks of priests who purify. The conjecture fits the throne in the next half-line but has no manuscript support. The Plain follows the Hebrew and takes <i>tohar</i> as \"brightness\", as in Exodus 24:10, and says in the note that the line is uncertain.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "89:45",
+  "a": "You have made his youth short",
+  "t": "\"His youth\" or \"his throne\"?",
+  "p": "Hebrew \"the days of his youth\"; Vaticanus \"the days of his throne\"; other Greek copies \"the days of his time\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>dies adulescentiae eius</i>",
+    "orig": "הִקְצַרְתָּ יְמֵי עֲלוּמָיו",
+    "en": "you have cut short the days of his youth",
+    "plain": "You have made his youth short"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:46)",
+    "orig": "ἐσμίκρυνας τὰς ἡμέρας τοῦ θρόνου αὐτοῦ",
+    "en": "you shortened the days of his throne",
+    "plain": "You have cut short the days of his throne"
+   },
+   {
+    "w": "Septuagint, Codex Sinaiticus and Codex Alexandrinus, as printed in Swete's notes; Gallican Psalter <i>dies temporis eius</i>",
+    "orig": "ἐσμίκρυνας τὰς ἡμέρας τοῦ χρόνου αὐτοῦ",
+    "en": "you shortened the days of his time",
+    "plain": "You have cut short the days of his time"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Thronou</i>, \"throne\", and <i>chronou</i>, \"time\", differ by one Greek letter; one is a slip for the other, and neither renders <i>'alumav</i>, \"his youth\", exactly. The Plain follows the Hebrew; the Plain keeps \"the days of\" implied in \"his youth\".",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "89:50",
+  "a": "the disgrace your servants bear",
+  "t": "\"Your servants\" or \"your servant\"?",
+  "p": "Leningrad has \"your servants\"; many Hebrew manuscripts and the Syriac have \"your servant\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:51); Gallican Psalter <i>servorum tuorum</i>",
+    "orig": "חֶרְפַּת עֲבָדֶיךָ",
+    "en": "the reproach of your servants",
+    "plain": "the disgrace your servants bear"
+   },
+   {
+    "w": "Many Hebrew manuscripts and the Syriac, as reported in BHS (not checked myself)",
+    "orig": "חֶרְפַּת עַבְדֶּךָ",
+    "en": "the reproach of your servant",
+    "plain": "the disgrace your servant bears"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular would match \"David your servant\" (89:3, 20, 39) and the \"I\" in the next half-line. The plural makes the king's shame the people's shame. Both fit; the Plain follows the Leningrad Codex and the Greek.",
+  "s": [
+   "swete-ot-vol2",
+   "bhs-elliger",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "89:51",
+  "a": "at the footprints of your anointed",
+  "t": "\"Footprints\" or \"the exchange\"?",
+  "p": "Hebrew \"the heels (footprints) of your anointed\"; Greek \"the exchange (<i>antallagma</i>) of your christ\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew <i>vestigia christi tui</i>",
+    "orig": "עִקְּבוֹת מְשִׁיחֶךָ",
+    "en": "the heels of your anointed",
+    "plain": "at the footprints of your anointed"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 88:52); Gallican Psalter <i>commutationem christi tui</i>",
+    "orig": "τὸ ἀντάλλαγμα τοῦ χριστοῦ σου",
+    "en": "the exchange of your christ",
+    "plain": "at the price paid for your anointed"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>'Eqev</i> also means \"reward, wages, consequence\" (19:11), and the Greek took that sense: \"exchange\" or \"price\". The Hebrew picture of enemies mocking the king's every step is simpler. The Targum (\"the delay of the footsteps of your Messiah\") and the rabbis built on the Hebrew; see the notes.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "81:0",
+  "a": "On the gittith",
+  "t": "\"Gittith\" or \"winepresses\"?",
+  "p": "The Hebrew has haggittit; the Greek and Latin read gittot, \"for the winepresses\". So also at 84:0.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַל־הַגִּתִּית",
+    "en": "on the gittith",
+    "plain": "On the gittith"
+   },
+   {
+    "w": "Septuagint (Old Greek; Swete's text of Codex Vaticanus, checked myself) (Psalm 80:1) and 83:1 (Hebrew 84:0); Gallican Psalter <i>pro torcularibus</i>; Jerome's Psalter from the Hebrew <i>in torcularibus</i>",
+    "orig": "ὑπὲρ τῶν ληνῶν",
+    "en": "for the winepresses",
+    "plain": "On the winepresses"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters <i>gtyt</i> could be voweled as a plural of <i>gat</i>, \"winepress\". The Greek reading is an interpretation of the same letters. The Plain keeps the unexplained Hebrew word; see the note.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "89:33",
+  "a": "Yet my loyal love I will not break off from him",
+  "t": "\"Break off\" or \"remove\"?",
+  "p": "The Leningrad Codex has afir, \"I will break off\"; some Hebrew manuscripts and the Syriac have asir, \"I will remove\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְחַסְדִּי לֹא־אָפִיר מֵעִמּוֹ",
+    "en": "and my loyal love I will not break off from him",
+    "plain": "Yet my loyal love I will not break off from him"
+   },
+   {
+    "w": "Some Hebrew manuscripts and the Syriac, as reported in BHS (not checked myself)",
+    "orig": "וְחַסְדִּי לֹא־אָסִיר מֵעִמּוֹ",
+    "en": "and my loyal love I will not remove from him",
+    "plain": "Yet my loyal love I will not take away from him"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Asir</i>, \"remove\", is the verb of 2 Samuel 7:15 (<i>lo yasur</i>) and 1 Chronicles 17:13 (<i>lo asir</i>), so it may be a scribe's harmonizing with those texts. <i>Afir</i>, \"break, annul\", is the harder reading and matches the covenant language of the psalm (\"My covenant I will not profane\", 89:34). The Plain follows the Leningrad Codex.",
+  "s": [
+   "bhs-elliger",
+   "tate-psalms"
+  ]
+ }
+]

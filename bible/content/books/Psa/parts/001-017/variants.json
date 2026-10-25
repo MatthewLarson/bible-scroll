@@ -1,0 +1,748 @@
+[
+ {
+  "v": "1:4",
+  "a": "the husks the wind drives off",
+  "t": "From the face of the earth",
+  "p": "The Greek adds 'from the face of the earth' and repeats 'not so'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כַּמֹּץ אֲשֶׁר־תִּדְּפֶנּוּ רוּחַ",
+    "en": "like chaff which the wind drives away",
+    "plain": "the husks the wind drives off"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page)",
+    "orig": "ὡς ὁ χνοῦς ὃν ἐκριπτεῖ ὁ ἄνεμος ἀπὸ προσώπου τῆς γῆς",
+    "en": "like the dust the wind blows away from the face of the earth",
+    "plain": "the dust the wind blows off the face of the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek plus (and its repeated 'not so, the wicked, not so') looks like a translator's or scribe's expansion that fills out the short Hebrew line. No Hebrew witness has it.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "I myself have put my king in place",
+  "t": "Who speaks in 2:6?",
+  "p": "In the Greek the king speaks: 'I was set up as king by him on Zion, his holy mountain.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַאֲנִי נָסַכְתִּי מַלְכִּי",
+    "en": "and I, I have installed my king",
+    "plain": "I myself have put my king in place"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page)",
+    "orig": "ἐγὼ δὲ κατεστάθην βασιλεὺς ὑπ᾽ αὐτοῦ",
+    "en": "but I was set up as king by him",
+    "plain": "I was set up as king by him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder and older form: the LORD speaks in 2:6 and the king begins in 2:7. The Greek reads the same consonants as a passive and changes 'my holy mountain' to 'his holy mountain', so that the king's speech runs from 2:6 on; the Vulgate adds 'proclaiming his decree'.",
+  "b": "If the Greek is chosen, the next words should also read 'on Zion, his holy mountain'.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "You will crush them with an iron rod",
+  "t": "Crush or shepherd?",
+  "p": "The Greek reads 'you will shepherd them', and Revelation quotes that reading three times.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תְּרֹעֵם בְּשֵׁבֶט בַּרְזֶל",
+    "en": "you will break them with a rod of iron",
+    "plain": "You will crush them with an iron rod"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Syriac; Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('reges eos', 'you will rule them')",
+    "orig": "ποιμανεῖς αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ",
+    "en": "you will shepherd them with a rod of iron",
+    "plain": "You will shepherd them with an iron rod"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew consonants trʿm can be read as tero'em, 'you will break them' (from ra'a', the Aramaic-type form of 'break'), as the Masoretes did, or as tir'em, 'you will shepherd them' (from ra'ah). 'Break' matches the parallel 'shatter them like a jar'. The Greek reading is not a careless error: a king was a 'shepherd' with a rod (Micah 7:14), and Revelation 2:27, Revelation 12:5 and Revelation 19:15 follow it, picturing the Messiah's rule as both shepherding and smashing.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "2:12",
+  "a": "Kiss the son",
+  "t": "'Kiss the son' or something else?",
+  "p": "The most debated words in Psalm 2. The witnesses read them four ways.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read as Aramaic bar, 'son'; Syriac; KJV, NIV, ESV",
+    "orig": "נַשְּׁקוּ־בַר",
+    "en": "kiss the son",
+    "plain": "Kiss the son"
+   },
+   {
+    "w": "The same Hebrew, read as bar 'pure': Aquila and Symmachus (as reported), Jerome's Psalter iuxta Hebraeos ('adorate pure'); NJPS 'pay homage in good faith'",
+    "orig": "נַשְּׁקוּ־בַר",
+    "en": "do homage purely",
+    "plain": "Pay homage in purity"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('apprehendite disciplinam'); the Targum ('receive instruction', as reported)",
+    "orig": "δράξασθε παιδείας",
+    "en": "take hold of instruction",
+    "plain": "Take hold of instruction"
+   },
+   {
+    "w": "A modern conjecture joining 2:11b and 2:12a, reading beraglav ('his feet') for bar (NRSV)",
+    "orig": "בְּרַגְלָיו נַשְּׁקוּ",
+    "en": "kiss his feet",
+    "plain": "Kiss his feet"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic consonants in their most common sense. <i>Bar</i> is the Aramaic word for 'son' (the Hebrew of 2:7 has <i>ben</i>); some argue that an Aramaic word was chosen on purpose for foreign kings, or to avoid the clash of sounds in <i>nashshequ ben pen</i>. Kissing was a sign of homage to a king (1 Samuel 10:1; 1 Kings 19:18). The other readings are serious: 'pure' is another meaning of Hebrew <i>bar</i> (24:4), the Greek and Targum seem to have read or interpreted a different word, and the conjecture removes the odd 'rejoice with trembling'. The Greek also says 'lest the Lord be angry' and 'perish from the righteous way'.",
+  "b": "Christian readers since the fathers have heard the line of the Son of 2:7; Jewish interpreters differ: Rashi reads the line as a call to arm oneself with purity, while Ibn Ezra accepts 'son', meaning the king of 2:7. Jerome himself translated 'adore purely' in his Hebrew Psalter, while defending 'son' as a possible meaning in his Apology against Rufinus.",
+  "s": [
+   "rahlfs-lxx",
+   "jerome-psalters",
+   "stec-targum-psalms",
+   "craigie-psalms",
+   "rashi-psalms",
+   "ibnezra-psalms"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "the LORD has picked out his loyal one",
+  "t": "Set apart or made wonderful?",
+  "p": "The Greek and Vulgate read 'the LORD has made his holy one wonderful'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וּדְעוּ כִּי־הִפְלָה יְהוָה חָסִיד לוֹ",
+    "en": "know that the LORD has set apart a loyal one for himself",
+    "plain": "the LORD has picked out his loyal one"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('mirificavit'); some Hebrew manuscripts reading hifli'",
+    "orig": "ἐθαυμάστωσεν κύριος τὸν ὅσιον αὐτοῦ",
+    "en": "the Lord has made his holy one wonderful",
+    "plain": "the LORD has made his loyal one wonderful"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew verbs <i>hiflah</i> (set apart, distinguish) and <i>hifli'</i> (make wonderful) differ by one silent letter. Some scholars prefer 'has shown wonderful loyal love to me' (reading <i>hifli' chasdo li</i>, compare 17:7; 31:21). The Masoretic reading makes good sense and is kept.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "their grain and new wine",
+  "t": "Grain, wine and oil",
+  "p": "The Greek adds 'and oil' to grain and new wine.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "דְּגָנָם וְתִירוֹשָׁם",
+    "en": "their grain and their new wine",
+    "plain": "their grain and new wine"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('frumenti, vini et olei sui')",
+    "orig": "σίτου καὶ οἴνου καὶ ἐλαίου αὐτῶν",
+    "en": "of their grain and wine and oil",
+    "plain": "their grain, new wine and oil"
+   }
+  ],
+  "follow": 0,
+  "why": "Grain, new wine and oil are a fixed set of harvest blessings (Deuteronomy 7:13; Hosea 2:8), so a copyist or translator could easily complete the set. The shorter Hebrew is more likely to be original.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "a God who shows his fury every day",
+  "t": "Angry every day, or not?",
+  "p": "The Greek says God is 'patient, not bringing on wrath every day'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְאֵל זֹעֵם בְּכָל־יוֹם",
+    "en": "and a God who is indignant every day",
+    "plain": "a God who shows his fury every day"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('fortis et patiens, numquid irascitur per singulos dies?')",
+    "orig": "καὶ ἰσχυρὸς καὶ μακρόθυμος μὴ ὀργὴν ἐπάγων καθ᾽ ἑκάστην ἡμέραν",
+    "en": "and strong and patient, not bringing on wrath every day",
+    "plain": "a God strong and patient, who does not bring on his fury every day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to read <i>el</i>, 'God', as <i>al</i>, 'not', and adds 'strong and patient' from the description of God in Exodus 34:6. The Hebrew line, God's daily indignation at evil, fits the threat of 7:12–13 and is kept.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "you have founded a strong defense",
+  "t": "Strength or praise?",
+  "p": "The Greek has 'you have prepared praise', the words Jesus quotes in Matthew 21:16.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יִסַּדְתָּ עֹז",
+    "en": "you have founded strength",
+    "plain": "you have founded a strong defense"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('perfecisti laudem'); Matthew 21:16",
+    "orig": "κατηρτίσω αἶνον",
+    "en": "you have prepared praise",
+    "plain": "you have prepared praise"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a difference of translation, not of Hebrew text: <i>'oz</i> means 'strength', and in a few hymns 'strength' ascribed to God comes close to 'praise' (29:1; 96:7). The Plain gives the ordinary sense of the Hebrew and shows the Greek because the New Testament quotes it.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "8:5",
+  "a": "only a little less than God",
+  "t": "God or the angels?",
+  "p": "The Greek, the Targum and Hebrews 2:7 read 'angels' for Hebrew elohim.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (elohim)",
+    "orig": "מְעַט מֵאֱלֹהִים",
+    "en": "a little less than God (or divine beings)",
+    "plain": "only a little less than God"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); Targum and Syriac (as reported); Hebrews 2:7; KJV",
+    "orig": "βραχύ τι παρ᾽ ἀγγέλους",
+    "en": "a little lower than angels",
+    "plain": "only a little less than the angels"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word is the usual word for God, and the echo of Genesis 1:26–27 favors 'God'. But <i>elohim</i> can mean heavenly beings, and the ancient translations all took it so. See the note at 8:5.",
+  "s": [
+   "rahlfs-lxx",
+   "stec-targum-psalms",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "9:12",
+  "a": "the afflicted",
+  "t": "Afflicted or humble? (1)",
+  "p": "The written text and the reading tradition swap two similar words in 9:12, 9:18 and 10:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv) 'aniyyim; the Plain follows the Ketiv in all three places",
+    "orig": "עֲנִיִּים",
+    "en": "the afflicted, the poor",
+    "plain": "the afflicted"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere) 'anavim; KJV",
+    "orig": "עֲנָוִים",
+    "en": "the humble, the meek",
+    "plain": "the humble"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>'Ani</i> (afflicted, poor) and <i>'anav</i> (humble, meek) differ by one letter that scribes often confused, and in the Psalms they overlap in meaning: the poor who depend on God. The Masoretes read 'humble' here and in 10:12, 'afflicted' in 9:18, the reverse of what is written each time. The Plain follows the written text in all three places.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "9:18",
+  "a": "the humble",
+  "t": "Afflicted or humble? (2)",
+  "p": "Here the written text has 'humble' and the reading tradition 'afflicted'. See 9:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv) 'anavim",
+    "orig": "עֲנָוִים",
+    "en": "the humble",
+    "plain": "the humble"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere) 'aniyyim; most English versions",
+    "orig": "עֲנִיִּים",
+    "en": "the afflicted, the poor",
+    "plain": "the afflicted"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 9:12 and 10:12, the Plain follows the written Hebrew. The sense is close either way.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "9:20",
+  "a": "Set fear over them, LORD.",
+  "t": "Fear or a teacher?",
+  "p": "The Greek reads 'Appoint a lawgiver over them, Lord'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (morah, 'fear')",
+    "orig": "שִׁיתָה יְהוָה מוֹרָה לָהֶם",
+    "en": "put fear on them, LORD",
+    "plain": "Set fear over them, LORD."
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('constitue legislatorem')",
+    "orig": "κατάστησον κύριε νομοθέτην ἐπ᾽ αὐτούς",
+    "en": "appoint a lawgiver over them, Lord",
+    "plain": "Set a teacher of the law over them, LORD."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the consonants <i>mwrh</i> as <i>moreh</i>, 'teacher', not <i>mora'</i>, 'fear' (the Masoretic spelling is unusual, without the final alef). 'Fear' fits the parallel 'let the nations learn that they are mere mortals'. Some church fathers read the Greek 'lawgiver' as Christ or the Antichrist.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "10:12",
+  "a": "the afflicted",
+  "t": "Afflicted or humble? (3)",
+  "p": "The written text has 'afflicted', the reading tradition 'humble'. See 9:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv) 'aniyyim",
+    "orig": "עֲנִיִּים",
+    "en": "the afflicted",
+    "plain": "the afflicted"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere) 'anavim; KJV",
+    "orig": "עֲנָוִים",
+    "en": "the humble",
+    "plain": "the humble"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 9:12 and 9:18.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:1",
+  "a": "Fly off to your mountain, bird!",
+  "t": "'Flee' to whom?",
+  "p": "The written text says 'flee' to many; the reading tradition to one. The Greek has 'Move to the mountains like a sparrow'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere) nudi, said to 'my soul' (feminine singular)",
+    "orig": "נוּדִי הַרְכֶם צִפּוֹר",
+    "en": "flee to your mountain, bird",
+    "plain": "Fly off to your mountain, bird!"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv) nudu, plural",
+    "orig": "נוּדוּ הַרְכֶם צִפּוֹר",
+    "en": "flee, all of you, to your mountain, bird",
+    "plain": "Fly off, all of you, to your mountain like a bird!"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); Syriac and Targum (as reported)",
+    "orig": "μεταναστεύου ἐπὶ τὰ ὄρη ὡς στρουθίον",
+    "en": "move to the mountains like a sparrow",
+    "plain": "Fly off to the mountains like a sparrow!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere fits 'my soul' in the same verse. The Greek and other versions read 'like a bird' (<i>kemo tsippor</i>), which may preserve an older text in which <i>harkhem</i>, 'your mountain', was 'mountain like'. The sense, 'run to the hills', is the same in every form.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "11:6",
+  "a": "he will rain down traps",
+  "t": "Traps or coals?",
+  "p": "Many scholars change one letter to read 'coals'. The Hebrew, Greek and Vulgate all have 'snares'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page) (pagidas); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('laqueos')",
+    "orig": "פַּחִים",
+    "en": "snares, traps",
+    "plain": "he will rain down traps"
+   },
+   {
+    "w": "Symmachus (Greek translation of about AD 200, 'coals', as reported); a modern correction to pachame (NRSV, many commentaries)",
+    "orig": "פַּחֲמֵי",
+    "en": "coals of",
+    "plain": "he will rain down coals"
+   }
+  ],
+  "follow": 0,
+  "why": "All the main witnesses read 'snares', the harder reading. 'Coals' smooths the picture of a storm of fire but has little support. Raining traps may be a deliberate mixed image: judgment falls like rain and catches like a snare.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": "will keep them safe",
+  "t": "Them, him or us? (1)",
+  "p": "The Hebrew has 'them' and then 'him'; the Greek and Vulgate have 'us' both times.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תִּשְׁמְרֵם",
+    "en": "you will keep them",
+    "plain": "will keep them safe"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); some Hebrew manuscripts (as reported)",
+    "orig": "φυλάξεις ἡμᾶς",
+    "en": "you will keep us",
+    "plain": "will keep us safe"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'them' points back to the afflicted and needy of 12:5, or to the LORD's words of 12:6 (Rashi, Ibn Ezra), and the singular 'him' in the next line to the one in need. The versions smoothed the persons to 'us'. The two halves of the verse go together; see the next entry.",
+  "s": [
+   "rahlfs-lxx",
+   "rashi-psalms"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": "you will protect him",
+  "t": "Them, him or us? (2)",
+  "p": "Goes with the previous entry: Hebrew 'him', Greek 'us'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תִּצְּרֶנּוּ",
+    "en": "you will guard him (or: us)",
+    "plain": "you will protect him"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page)",
+    "orig": "διατηρήσεις ἡμᾶς",
+    "en": "you will preserve us",
+    "plain": "you will protect us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew form <i>titsrennu</i> can be read 'you will guard him' or, less usually, 'you will guard us'. The Plain takes the common sense.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "13:6",
+  "a": "for he has been generous to me.",
+  "t": "An added line",
+  "p": "The Greek and Vulgate end Psalm 13 with an extra line borrowed from 7:17.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי גָמַל עָלָי",
+    "en": "for he has dealt fully with me",
+    "plain": "for he has been generous to me."
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('et psallam nomini Domini altissimi')",
+    "orig": "τῷ εὐεργετήσαντί με καὶ ψαλῶ τῷ ὀνόματι κυρίου τοῦ ὑψίστου",
+    "en": "who has been good to me, and I will make music to the name of the Lord Most High",
+    "plain": "for he has been generous to me. / I will make music to the name of the LORD Most High."
+   }
+  ],
+  "follow": 0,
+  "why": "The extra line is word for word the end of 7:17, and probably came in from there. The Hebrew is shorter and is kept. In Hebrew Bibles, English 13:5–6 is one verse, 13:6.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "14:3",
+  "a": "No one does good, no, not a single one.",
+  "t": "The long Greek ending of 14:3",
+  "p": "Many Greek and Latin copies add six lines here. They are the lines Paul quotes in Romans 3:13–18.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Psalm 53:3; some Greek manuscripts (as reported)",
+    "orig": "אֵין עֹשֵׂה־טוֹב אֵין גַּם־אֶחָד",
+    "en": "no one does good, not even one",
+    "plain": "No one does good, no, not a single one."
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page) (printed in the Greek text on the sacred-texts.com page; found in Codex Vaticanus and other copies, as reported); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); the Coverdale Psalter in the Book of Common Prayer",
+    "orig": "τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν ... οὐκ ἔστιν φόβος θεοῦ ἀπέναντι τῶν ὀφθαλμῶν αὐτῶν",
+    "en": "their throat is an open grave ... there is no fear of God before their eyes",
+    "plain": "No one does good, no, not a single one. / Their throat is a grave left open; / with their tongues they deceive. / The poison of snakes is under their lips. / Their mouth is full of cursing and bitterness; / their feet are quick to shed blood. / Ruin and misery are on their roads, / and the road of peace they have not known. / There is no fear of God before their eyes."
+   }
+  ],
+  "follow": 0,
+  "why": "The added lines are exactly the series Paul quotes in Romans 3:13–18 from Psalm 5:9, Psalm 140:3, Psalm 10:7, Isaiah 59:7–8 and Psalm 36:1. Almost all scholars think Christian scribes copied them from Romans into the Greek psalm, though a few have argued that Paul found them already joined. Jerome noted the problem and that the lines are not in the Hebrew. They are in no Hebrew witness and not in Psalm 53, so the Plain leaves them out.",
+  "b": "The lines reached English through the Latin: the Coverdale Psalter of the 1662 Book of Common Prayer, still sung in Anglican churches, includes them as Psalm 14:5–7 in its own numbering.",
+  "s": [
+   "rahlfs-lxx",
+   "jerome-psalters",
+   "bcp-1662",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "15:4",
+  "a": "He swears to his own cost",
+  "t": "To his harm or to his neighbor?",
+  "p": "The Greek read 'he swears to his neighbor and does not break it'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "נִשְׁבַּע לְהָרַע",
+    "en": "he swears to do harm (to himself)",
+    "plain": "He swears to his own cost"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('qui iurat proximo suo')",
+    "orig": "ὁ ὀμνύων τῷ πλησίον αὐτοῦ",
+    "en": "who swears to his neighbor",
+    "plain": "He swears to his neighbor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the consonants <i>lhr'</i> as <i>le-rea'</i>, 'to the neighbor' (with the Hebrew <i>h</i> taken as part of the article or ignored). The Masoretic 'to (his) harm' is the harder reading and makes the point sharper: he keeps his word even when it costs him.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "16:2",
+  "a": "I said to the LORD",
+  "t": "'I said' or 'you said'?",
+  "p": "The Hebrew has 'you (feminine) said'; the Greek, Syriac and Jerome have 'I said'. The Plain follows 'I said', a choice between ancient witnesses.",
+  "readings": [
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); Jerome iuxta Hebraeos; the Syriac and some Hebrew manuscripts (as reported)",
+    "orig": "εἶπα τῷ κυρίῳ",
+    "en": "I said to the Lord",
+    "plain": "I said to the LORD"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), 'amart (feminine 'you said'); the Targum ('you said, my soul', as reported); Rashi; KJV 'O my soul, thou hast said'",
+    "orig": "אָמַרְתְּ לַיהוָה",
+    "en": "you (feminine) said to the LORD",
+    "plain": "You said to the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek, the Syriac and Jerome read 'I said', and so do some Hebrew manuscripts (as reported). The Targum and the medieval Jewish commentators keep 'you said', addressed to the speaker's own soul, as the KJV also supplies. The Plain follows 'I said' because the rest of the psalm speaks in the first person and the Masoretic <i>amart</i> may be an old spelling of <i>amarti</i>, 'I said', without its final letter. The witnesses are divided, so this is a choice, not a unanimous reading. It is one of the few places where the Plain departs from the Masoretic Text in this part.",
+  "s": [
+   "rahlfs-lxx",
+   "jerome-psalters",
+   "craigie-psalms",
+   "stec-targum-psalms",
+   "rashi-psalms"
+  ]
+ },
+ {
+  "v": "16:4",
+  "a": "Many pains await those who rush after another god.",
+  "t": "Pains, or weaknesses?",
+  "p": "The Greek reads 'their weaknesses were multiplied; afterward they hurried', which changes how 16:3–4 reads.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יִרְבּוּ עַצְּבוֹתָם אַחֵר מָהָרוּ",
+    "en": "their pains will multiply, (those who) hurry after another",
+    "plain": "Many pains await those who rush after another god."
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('multiplicatae sunt infirmitates eorum, postea acceleraverunt')",
+    "orig": "ἐπληθύνθησαν αἱ ἀσθένειαι αὐτῶν, μετὰ ταῦτα ἐτάχυναν",
+    "en": "their weaknesses were multiplied; afterward they hurried",
+    "plain": "Their weaknesses grew many; afterward they hurried."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek read the same consonants with different sense: <i>acher</i>, 'another', as <i>achar</i>, 'afterward', and the 'pains' as weaknesses. It then reads 16:3–4 as about the holy ones: their weaknesses grew many, and afterward they hurried. The Hebrew sets those who run after other gods against the psalmist, which fits 16:4b, where he will not pour their drink offerings. See the note on 16:3.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "my honor celebrates",
+  "t": "My honor or my tongue?",
+  "p": "The Greek has 'my tongue', the reading quoted in Acts 2:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיָּגֶל כְּבוֹדִי",
+    "en": "and my glory rejoices",
+    "plain": "my honor celebrates"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('exultavit lingua mea'); Acts 2:26",
+    "orig": "ἠγαλλιάσατο ἡ γλῶσσά μου",
+    "en": "my tongue rejoiced",
+    "plain": "my tongue celebrates"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'my glory' stands for the whole self, as in 30:12 and 57:8. The Greek is a free rendering, perhaps thinking of the tongue as the organ of praise. It is a difference of translation more than of text.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "settle down in safety",
+  "t": "In safety or in hope?",
+  "p": "The Greek has 'will dwell in hope', the wording of Acts 2:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יִשְׁכֹּן לָבֶטַח",
+    "en": "will dwell in security",
+    "plain": "settle down in safety"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('requiescet in spe'); Acts 2:26",
+    "orig": "κατασκηνώσει ἐπ᾽ ἐλπίδι",
+    "en": "will dwell in hope",
+    "plain": "settle down in hope"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Lavetach</i> means 'in safety, securely'. The Greek translators often rendered words from this root as 'hope', which Acts 2:26 reads as hope of resurrection. Goes with the previous entry.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "16:10",
+  "a": "to see the Pit",
+  "t": "The Pit or decay?",
+  "p": "The Greek has 'to see corruption', the wording on which Acts 2:27–31 and Acts 13:35–37 build.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לִרְאוֹת שָׁחַת",
+    "en": "to see the pit",
+    "plain": "to see the Pit"
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('videre corruptionem'); Acts 2:27; Acts 13:35",
+    "orig": "ἰδεῖν διαφθοράν",
+    "en": "to see corruption, decay",
+    "plain": "to see decay"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew noun <i>shachat</i> means 'pit, grave' and is parallel to Sheol in the first line. The Greek connected it with the verb 'to destroy, corrupt'. The two readings are close in effect: not to see the grave is not to suffer the decay of death. See the note.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "16:10",
+  "a": "your loyal one",
+  "t": "One loyal one, or many?",
+  "p": "The Leningrad Codex writes the singular. Many other manuscripts and printed editions write a plural spelling, read aloud as the singular.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written and read as singular; Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page) (ton hosion sou); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page); Acts 2:27; Acts 13:35",
+    "orig": "חֲסִידְךָ",
+    "en": "your loyal one",
+    "plain": "your loyal one"
+   },
+   {
+    "w": "Many medieval Hebrew manuscripts and printed Rabbinic Bibles, written (Ketiv) with yod as a plural, with the singular as the reading tradition (Qere) (as reported)",
+    "orig": "חֲסִידֶיךָ",
+    "en": "your loyal ones",
+    "plain": "your loyal ones"
+   }
+  ],
+  "follow": 0,
+  "why": "The Leningrad Codex has the singular with no marginal note. In much of the Masoretic tradition the plural spelling is the written text (Ketiv) and the singular is what is read (Qere); the plural spelling may also be an old way of writing the singular with its suffix. The singular matches 'my life' in the first line and has all the ancient versions. Medieval Jewish writers sometimes pointed to the plural spelling against the Christian reading of the verse as one person (as reported); the New Testament argument (Acts 2:27; Acts 13:35–37) rests on the singular, which the reading tradition also keeps.",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms",
+   "delitzsch-psalms"
+  ]
+ },
+ {
+  "v": "17:11",
+  "a": "Now they have hemmed in our steps on every side",
+  "t": "Us or me?",
+  "p": "The written text has 'surrounded me', the reading tradition 'surrounded us'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere) sevavunu, 'us'",
+    "orig": "אַשֻּׁרֵנוּ עַתָּה סְבָבוּנוּ",
+    "en": "our steps: now they have surrounded us",
+    "plain": "Now they have hemmed in our steps on every side"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv) sevavuni, 'me'; Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page) ('they surrounded me')",
+    "orig": "אַשֻּׁרֵנוּ עַתָּה סְבָבוּנִי",
+    "en": "our steps: now they have surrounded me",
+    "plain": "Our steps they track, and now they have hemmed me in on every side"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere matches 'our steps' and 'us' later in the verse. The Greek, 'casting me out, now they have surrounded me', supports the written 'me'. The psalm moves between 'I' and 'we' elsewhere too.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "17:15",
+  "a": "When I wake up, I will be filled with the sight of your form.",
+  "t": "Waking, or glory appearing?",
+  "p": "The Greek reads 'I will be satisfied when your glory appears'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֶשְׂבְּעָה בְהָקִיץ תְּמוּנָתֶךָ",
+    "en": "I will be satisfied, when awaking, with your form",
+    "plain": "When I wake up, I will be filled with the sight of your form."
+   },
+   {
+    "w": "Old Greek (Septuagint, 200s–100s BC; Rahlfs, checked on the sacred-texts.com polyglot page); Vulgate, Gallican Psalter (Jerome's revision from the Greek; checked on the same page) ('satiabor cum apparuerit gloria tua')",
+    "orig": "χορτασθήσομαι ἐν τῷ ὀφθῆναι τὴν δόξαν σου",
+    "en": "I will be satisfied when your glory is seen",
+    "plain": "I will be filled when your glory appears."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have avoided saying that a human sees God's 'form', and may have read <i>be-hera'ot</i>, 'when it appears', for <i>be-haqits</i>, 'when awaking'. The Hebrew is kept.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ }
+]

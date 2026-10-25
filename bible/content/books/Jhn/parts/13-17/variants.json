@@ -1,0 +1,718 @@
+[
+ {
+  "v": "13:2",
+  "a": "Supper was under way",
+  "t": "During supper or after it?",
+  "p": "The KJV says \"supper being ended,\" from a later reading. The older text says supper was going on.",
+  "readings": [
+   {
+    "w": "Sinaiticus (first hand) and Vaticanus (300s), Codex Regius (L) and Washington (W), as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "δείπνου γινομένου",
+    "en": "while supper was taking place",
+    "plain": "Supper was under way"
+   },
+   {
+    "w": "Papyrus 66 (about 200), Alexandrinus and Bezae (400s), Byzantine majority, Textus Receptus (KJV \"supper being ended\")",
+    "orig": "δείπνου γενομένου",
+    "en": "when supper had come (or: had ended)",
+    "plain": "Supper was over"
+   }
+  ],
+  "follow": 0,
+  "why": "The present participle has early and strong support and fits the story, since the meal is still going on in 13:26. The aorist can mean \"when supper had come,\" but the KJV took it as \"ended,\" which clashes with 13:12 and 13:26.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "13:2",
+  "a": "planted the plan in the heart that Judas, son of Simon Iscariot, would hand Jesus over",
+  "t": "Whose heart?",
+  "p": "In the older text, the devil puts the plan into \"the heart,\" and Judas is named as the one who will act. In the KJV, the devil puts it \"into the heart of Judas.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Westcott-Hort",
+    "orig": "τοῦ διαβόλου ἤδη βεβληκότος εἰς τὴν καρδίαν ἵνα παραδοῖ αὐτὸν Ἰούδας Σίμωνος Ἰσκαριώτου",
+    "en": "the devil having already put into the heart that Judas, son of Simon Iscariot, would hand him over",
+    "plain": "planted the plan in the heart that Judas, son of Simon Iscariot, would hand Jesus over"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"into the heart of Judas Iscariot, Simon's son, to betray him\")",
+    "orig": "τοῦ διαβόλου ἤδη βεβληκότος εἰς τὴν καρδίαν Ἰούδα Σίμωνος Ἰσκαριώτου ἵνα αὐτὸν παραδῷ",
+    "en": "the devil having already put into the heart of Judas, son of Simon Iscariot, to hand him over",
+    "plain": "planted it in the heart of Judas, son of Simon Iscariot, to hand Jesus over"
+   }
+  ],
+  "follow": 0,
+  "why": "The older wording is awkward, since it does not say whose heart. Some scholars think it means the devil's own heart: the devil had made up his mind. Copyists made it smooth by putting Judas's name with \"heart.\" The awkward reading is more likely the original.",
+  "b": "The Tyndale House edition has the same order as NA28 but spells the last name Ἰσκαριώτης, so that \"Iscariot\" belongs to Judas, not to Simon. The meaning of the story is the same either way: Judas acts, and the devil is behind it.",
+  "s": [
+   "metzger",
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "13:10",
+  "a": "has no need to wash, except the feet",
+  "t": "\"Except the feet\"",
+  "p": "Codex Sinaiticus and some Latin witnesses leave out \"except the feet,\" which changes the meaning of the bath.",
+  "readings": [
+   {
+    "w": "Papyrus 66, Vaticanus and nearly all other manuscripts, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT; Byzantine (with a slightly different wording, ἢ τοὺς πόδας)",
+    "orig": "οὐκ ἔχει χρείαν εἰ μὴ τοὺς πόδας νίψασθαι",
+    "en": "has no need except to wash the feet",
+    "plain": "has no need to wash, except the feet"
+   },
+   {
+    "w": "Codex Sinaiticus (300s), some Old Latin manuscripts and Origen, as reported by Metzger",
+    "orig": "οὐκ ἔχει χρείαν νίψασθαι",
+    "en": "has no need to wash",
+    "plain": "has no need to wash"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading is in nearly all manuscripts, according to Metzger. The shorter reading is attractive to some scholars (Bultmann, Barrett, Lincoln), because then the \"bath\" is the foot washing itself, and Jesus's point is that his washing makes them completely clean; they argue that copyists added \"except the feet\" to fit a church practice. Most editors keep the words because the evidence for them is so broad.",
+  "b": "If the short text is original, the foot washing stands for the whole cleansing Jesus gives in his death. With the long text, a distinction is made between a once-for-all bath and a repeated washing of the feet, which many readers apply to baptism and later forgiveness.",
+  "s": [
+   "metzger",
+   "barrett-john",
+   "brown-john"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "The one who eats my bread",
+  "t": "\"My bread\" or \"bread with me\"",
+  "p": "The KJV reads \"He that eateth bread with me,\" following most manuscripts. The critical text has \"my bread.\"",
+  "readings": [
+   {
+    "w": "Vaticanus, Ephraemi Rescriptus and Regius (L), as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὁ τρώγων μου τὸν ἄρτον",
+    "en": "the one who eats my bread",
+    "plain": "The one who eats my bread"
+   },
+   {
+    "w": "Papyrus 66, Sinaiticus, Alexandrinus, Bezae, Washington, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ὁ τρώγων μετ' ἐμοῦ τὸν ἄρτον",
+    "en": "the one who eats bread with me",
+    "plain": "The one who eats bread with me"
+   }
+  ],
+  "follow": 0,
+  "why": "\"My bread\" matches the Hebrew of Psalm 41:9 (\"who ate my bread\"), and a copyist was more likely to change it to the familiar Gospel phrase \"with me\" (Mark 14:18) than the reverse. The witnesses for \"with me\" are older and more numerous, so the decision is close.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "13:26",
+  "a": "gave it to Judas, son of Simon Iscariot",
+  "t": "\"Took it\" and Judas's name",
+  "p": "Editions differ on whether Jesus \"took\" the bite before giving it, and on how Judas's name is given.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT",
+    "orig": "βάψας οὖν τὸ ψωμίον δίδωσιν Ἰούδᾳ Σίμωνος Ἰσκαριώτου",
+    "en": "so having dipped the bite he gives it to Judas, son of Simon Iscariot",
+    "plain": "gave it to Judas, son of Simon Iscariot"
+   },
+   {
+    "w": "NA28, Westcott-Hort, Tregelles",
+    "orig": "βάψας οὖν τὸ ψωμίον λαμβάνει καὶ δίδωσιν Ἰούδᾳ Σίμωνος Ἰσκαριώτου",
+    "en": "so having dipped the bite he takes it and gives it to Judas, son of Simon Iscariot",
+    "plain": "took it and gave it to Judas, son of Simon Iscariot"
+   },
+   {
+    "w": "Robinson-Pierpont Byzantine text, Textus Receptus (KJV \"he gave it to Judas Iscariot, the son of Simon\")",
+    "orig": "καὶ ἐμβάψας τὸ ψωμίον δίδωσιν Ἰούδᾳ Σίμωνος Ἰσκαριώτῃ",
+    "en": "and having dipped the bite he gives it to Judas Iscariot, son of Simon",
+    "plain": "gave it to Judas Iscariot, son of Simon"
+   }
+  ],
+  "follow": 0,
+  "why": "NA28 prints \"takes and\" in brackets as uncertain; the other modern editions leave it out. The words could be added to echo the Lord's Supper (\"he took bread\"). Either way, nothing in the story changes.",
+  "s": [
+   "metzger",
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "13:32",
+  "a": "And if God has been glorified in him, God himself",
+  "t": "Is the first clause original?",
+  "p": "Many of the oldest manuscripts lack \"If God has been glorified in him.\" The Tyndale House edition leaves it out.",
+  "readings": [
+   {
+    "w": "Sinaiticus (corrected), Alexandrinus, Ephraemi (corrected), Byzantine majority, Textus Receptus (KJV); NA28 (in brackets), SBLGNT",
+    "orig": "εἰ ὁ θεὸς ἐδοξάσθη ἐν αὐτῷ, καὶ ὁ θεὸς δοξάσει αὐτόν",
+    "en": "if God has been glorified in him, God also will glorify him",
+    "plain": "And if God has been glorified in him, God himself"
+   },
+   {
+    "w": "Papyrus 66, Sinaiticus (first hand), Vaticanus, Ephraemi (first hand), Bezae, Washington and others, as reported by Metzger; Tyndale House GNT, Westcott and Hort",
+    "orig": "καὶ ὁ θεὸς δοξάσει αὐτόν",
+    "en": "and God will glorify him",
+    "plain": "God himself"
+   }
+  ],
+  "follow": 0,
+  "why": "The clause repeats the end of 13:31, and a copyist's eye could easily skip from one \"in him\" to the next, which would explain its loss even in early manuscripts. The NA28 committee kept it in brackets for that reason. The Tyndale House editors judged the early omission decisive. The meaning changes little.",
+  "s": [
+   "metzger",
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:2",
+  "a": "Otherwise, would I have said to you that I am on my way to get a place ready for you?",
+  "t": "\"I would have told you\"",
+  "p": "The oldest manuscripts have a small word (hoti) that turns the sentence into a question. The KJV has a statement.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus, Bezae and others; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "εἰ δὲ μή, εἶπον ἂν ὑμῖν ὅτι πορεύομαι ἑτοιμάσαι τόπον ὑμῖν;",
+    "en": "otherwise, would I have told you that I go to prepare a place for you?",
+    "plain": "Otherwise, would I have said to you that I am on my way to get a place ready for you?"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"if it were not so, I would have told you. I go to prepare a place for you\")",
+    "orig": "εἰ δὲ μή, εἶπον ἂν ὑμῖν· πορεύομαι ἑτοιμάσαι τόπον ὑμῖν",
+    "en": "otherwise, I would have told you. I go to prepare a place for you",
+    "plain": "Otherwise, I would have said so to you. I am on my way to get a place ready for you."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Hoti\" has the best early support and is the harder reading: Jesus has not said before that he goes to prepare a place, so copyists probably dropped the word to smooth the sense. With it, the sentence can be a question (as in the Plain) or can mean \"I would have told you, because I go...\"",
+  "s": [
+   "metzger",
+   "carson-john"
+  ]
+ },
+ {
+  "v": "14:4",
+  "a": "And you know the way that leads where I am going.",
+  "t": "\"You know the way\"",
+  "p": "The KJV doubles the verb: \"whither I go ye know, and the way ye know.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L), Washington, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καὶ ὅπου ἐγὼ ὑπάγω οἴδατε τὴν ὁδόν",
+    "en": "and where I am going you know the way",
+    "plain": "And you know the way that leads where I am going."
+   },
+   {
+    "w": "Alexandrinus, Bezae, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ ὅπου ἐγὼ ὑπάγω οἴδατε καὶ τὴν ὁδὸν οἴδατε",
+    "en": "and where I am going you know, and the way you know",
+    "plain": "And you know where I am going, and you know the way."
+   }
+  ],
+  "follow": 0,
+  "why": "The short form is awkward Greek, and copyists likely smoothed it by adding \"you know, and\" to prepare for Thomas's two-part reply in 14:5.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:7",
+  "a": "If you knew me, you would know my Father too.",
+  "t": "A rebuke or a promise?",
+  "p": "The manuscripts differ: \"If you had known me, you would have known my Father\" or \"If you know me, you will know my Father.\"",
+  "readings": [
+   {
+    "w": "Vaticanus, Ephraemi (first hand) and others with ᾔδειτε ἄν; Alexandrinus and the Byzantine majority with ἐγνώκειτε ἄν (same sense; Textus Receptus, KJV); SBLGNT, Tyndale House GNT",
+    "orig": "εἰ ἐγνώκειτέ με, καὶ τὸν πατέρα μου ἂν ᾔδειτε",
+    "en": "if you had known me, you would have known my Father also",
+    "plain": "If you knew me, you would know my Father too."
+   },
+   {
+    "w": "Papyrus 66, Sinaiticus and Bezae (first hand), as reported by Metzger; NA28",
+    "orig": "εἰ ἐγνώκατέ με, καὶ τὸν πατέρα μου γνώσεσθε",
+    "en": "if you have come to know me, you will know my Father too",
+    "plain": "If you have come to know me, you will know my Father too."
+   }
+  ],
+  "follow": 0,
+  "why": "This is a place where the editions part ways. The NA28 committee preferred the promise, found in the earliest papyrus and Sinaiticus, thinking copyists turned it into a rebuke like 8:19. The SBLGNT and the Tyndale House editors preferred the rebuke, supported by Vaticanus and most manuscripts, which fits Jesus's mild reproach to Philip in 14:9. The Plain follows the SBLGNT. The next sentence, \"Starting now you know him,\" makes sense with either.",
+  "s": [
+   "metzger",
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "14:14",
+  "a": "ask me for anything",
+  "t": "\"Ask me\"",
+  "p": "The critical editions read \"ask me.\" The KJV, and some manuscripts, leave out \"me\"; a few leave out the whole verse.",
+  "readings": [
+   {
+    "w": "Papyrus 66, Sinaiticus, Vaticanus, Washington and others, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT; Robinson-Pierpont Byzantine text",
+    "orig": "ἐάν τι αἰτήσητέ με ἐν τῷ ὀνόματί μου",
+    "en": "if you ask me anything in my name",
+    "plain": "ask me for anything"
+   },
+   {
+    "w": "Alexandrinus, Bezae, Regius (L), many later manuscripts, Textus Receptus (KJV)",
+    "orig": "ἐάν τι αἰτήσητε ἐν τῷ ὀνόματί μου",
+    "en": "if you ask anything in my name",
+    "plain": "ask for anything"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Me\" has the stronger early support. Copyists probably dropped it because it seemed odd to pray to Jesus \"in Jesus's name,\" and because 15:16 and 16:23 speak of asking the Father.",
+  "b": "A few witnesses (among them some Old Latin manuscripts and the Sinaitic Syriac) omit the whole verse, perhaps because it repeats 14:13. The verse with \"me\" is one of the clearest places in the Gospels where prayer is addressed to Jesus himself.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "14:15",
+  "a": "you will keep the commands I give",
+  "t": "\"You will keep\" or \"keep\"",
+  "p": "Is this a promise (\"you will keep\") or a command (\"keep\")? The KJV has the command.",
+  "readings": [
+   {
+    "w": "Vaticanus, Regius (L), Psi, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐὰν ἀγαπᾶτέ με, τὰς ἐντολὰς τὰς ἐμὰς τηρήσετε",
+    "en": "if you love me, you will keep my commands",
+    "plain": "you will keep the commands I give"
+   },
+   {
+    "w": "Alexandrinus, Bezae, Washington, Theta, family 13, Byzantine majority, as reported by Metzger; Textus Receptus (KJV \"keep my commandments\")",
+    "orig": "τὰς ἐντολὰς τὰς ἐμὰς τηρήσατε",
+    "en": "keep my commands",
+    "plain": "keep the commands I give"
+   },
+   {
+    "w": "Papyrus 66, Sinaiticus, as reported by Metzger",
+    "orig": "τὰς ἐντολὰς τὰς ἐμὰς τηρήσητε",
+    "en": "(if) you keep my commands",
+    "plain": "and if you keep the commands I give,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek forms differ by one or two letters, so copyists easily mixed them up. The future fits the pattern of 14:21, 23, where love and keeping go together. The third form joins the line to 14:16: \"if you love me and keep my commands, I will ask the Father.\"",
+  "b": "With the future, obedience is the fruit of love, not a condition laid on top of it. With the command, it is an instruction. Both ideas are found elsewhere in John (15:10, 14).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:17",
+  "a": "he will be in you",
+  "t": "\"Will be\" or \"is\"",
+  "p": "Some early manuscripts read \"he is in you,\" making the Spirit's indwelling already present.",
+  "readings": [
+   {
+    "w": "Papyrus 66 (corrected), Sinaiticus, Alexandrinus, Byzantine majority, Textus Receptus (KJV); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐν ὑμῖν ἔσται",
+    "en": "will be in you",
+    "plain": "he will be in you"
+   },
+   {
+    "w": "Papyrus 66 (first hand), Vaticanus, Bezae (first hand), Washington, as reported by Metzger; Westcott and Hort",
+    "orig": "ἐν ὑμῖν ἐστιν",
+    "en": "is in you",
+    "plain": "he is in you"
+   }
+  ],
+  "follow": 0,
+  "why": "The future fits the promise of the Spirit to come (14:16, 26; 16:7). The present may have come from the present \"remains\" just before. The evidence is divided, and some scholars prefer the present as the harder reading.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "14:28",
+  "a": "the Father is greater",
+  "t": "\"The Father\" or \"my Father\"",
+  "p": "The KJV reads \"I go unto the Father: for my Father is greater than I\" and also adds \"I said\" earlier in the verse.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "ὁ πατὴρ μείζων μού ἐστιν",
+    "en": "the Father is greater than I",
+    "plain": "the Father is greater"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV); Tyndale House GNT",
+    "orig": "ὁ πατήρ μου μείζων μού ἐστιν",
+    "en": "my Father is greater than I",
+    "plain": "my Father is greater"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the NA28 and SBLGNT. The Tyndale House edition prints \"my Father\" here. The difference does not change the theological question discussed in the note on this verse.",
+  "b": "The Byzantine text also reads \"because I said, 'I am going to the Father'\" (εἶπον, πορεύομαι), which the KJV follows (\"because I said, I go unto the Father\"). The meaning is the same.",
+  "s": [
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "15:7",
+  "a": "ask for anything you want",
+  "t": "Command or promise?",
+  "p": "The older text says \"ask\" (a command). The Byzantine text and KJV say \"ye shall ask.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT; Robinson-Pierpont Byzantine text",
+    "orig": "ὃ ἐὰν θέλητε αἰτήσασθε",
+    "en": "ask whatever you want",
+    "plain": "ask for anything you want"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"ye shall ask what ye will\")",
+    "orig": "ὃ ἐὰν θέλητε αἰτήσεσθε",
+    "en": "you will ask whatever you want",
+    "plain": "you will ask for anything you want"
+   }
+  ],
+  "follow": 0,
+  "why": "The two forms differ by one vowel in Greek and sounded alike when read aloud. The imperative has the better early support.",
+  "s": [
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "15:8",
+  "a": "and become disciples of mine",
+  "t": "\"Become\" or \"you will be\"",
+  "p": "Some manuscripts read a future, \"and so you will be my disciples\" (KJV).",
+  "readings": [
+   {
+    "w": "Vaticanus, Bezae, Regius (L) and others, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καὶ γένησθε ἐμοὶ μαθηταί",
+    "en": "and become my disciples",
+    "plain": "and become disciples of mine"
+   },
+   {
+    "w": "Sinaiticus, Alexandrinus, Byzantine majority, Textus Receptus (KJV \"so shall ye be my disciples\")",
+    "orig": "καὶ γενήσεσθε ἐμοὶ μαθηταί",
+    "en": "and you will be my disciples",
+    "plain": "and so you will become disciples of mine"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is evenly balanced and the forms sound alike. With the subjunctive, bearing fruit and becoming disciples are one thing that glorifies the Father; with the future, discipleship is the result of bearing fruit. The editors chose the subjunctive with some hesitation.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:11",
+  "a": "you will have my joy in you",
+  "t": "\"Be in you\" or \"remain in you\"",
+  "p": "The KJV reads \"that my joy might remain in you.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἵνα ἡ χαρὰ ἡ ἐμὴ ἐν ὑμῖν ᾖ",
+    "en": "that my joy may be in you",
+    "plain": "you will have my joy in you"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἵνα ἡ χαρὰ ἡ ἐμὴ ἐν ὑμῖν μείνῃ",
+    "en": "that my joy may remain in you",
+    "plain": "my joy will remain in you"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Remain\" looks like a copyist's echo of the many \"remain\" words in 15:4–10. The plainer \"be\" has the older support.",
+  "s": [
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "16:4",
+  "a": "their hour",
+  "t": "\"Their hour\"",
+  "p": "The critical text says \"their hour,\" the time of the persecutors. The Byzantine text and KJV have \"the time.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὅταν ἔλθῃ ἡ ὥρα αὐτῶν",
+    "en": "when their hour comes",
+    "plain": "their hour"
+   },
+   {
+    "w": "Some early manuscripts, Byzantine majority, Textus Receptus (KJV \"when the time shall come\")",
+    "orig": "ὅταν ἔλθῃ ἡ ὥρα",
+    "en": "when the hour comes",
+    "plain": "the hour"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Their hour\" is the more unusual phrase, setting the persecutors' hour against Jesus's own \"hour\"; copyists may have dropped \"their\" as unclear or have been influenced by 16:2, 25.",
+  "s": [
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": "lead you in all the truth",
+  "t": "\"In\" or \"into\" all the truth",
+  "p": "Older manuscripts are divided between \"in all the truth\" and \"into all the truth\" (KJV).",
+  "readings": [
+   {
+    "w": "Sinaiticus, Bezae, Regius (L), Washington, as reported by Metzger; NA28, SBLGNT",
+    "orig": "ὁδηγήσει ὑμᾶς ἐν τῇ ἀληθείᾳ πάσῃ",
+    "en": "will guide you in all the truth",
+    "plain": "lead you in all the truth"
+   },
+   {
+    "w": "Alexandrinus, Vaticanus; Tyndale House GNT, Westcott and Hort (εἰς τὴν ἀλήθειαν πᾶσαν); Byzantine majority, Textus Receptus (KJV) (εἰς πᾶσαν τὴν ἀλήθειαν)",
+    "orig": "ὁδηγήσει ὑμᾶς εἰς τὴν ἀλήθειαν πᾶσαν",
+    "en": "will guide you into all the truth",
+    "plain": "lead you into all the truth"
+   }
+  ],
+  "follow": 0,
+  "why": "The NA28 and SBLGNT follow \"in,\" judging that copyists changed it to the usual construction \"guide into.\" The Tyndale House edition prefers \"into\" with Vaticanus. \"Into\" suggests a journey toward truth not yet reached; \"in\" suggests guidance within the whole truth already given in Jesus.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "16:16",
+  "a": "Then a short time again, and you will see me.",
+  "t": "\"Because I go to the Father\"",
+  "p": "The KJV adds \"because I go to the Father\" at the end of the verse, from 16:17.",
+  "readings": [
+   {
+    "w": "Papyrus 5 and Papyrus 66 (about 200–300), Sinaiticus, Vaticanus, Bezae, Regius (L), Washington; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καὶ πάλιν μικρὸν καὶ ὄψεσθέ με",
+    "en": "and again a little while and you will see me",
+    "plain": "Then a short time again, and you will see me."
+   },
+   {
+    "w": "Alexandrinus, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ πάλιν μικρὸν καὶ ὄψεσθέ με, ὅτι ὑπάγω πρὸς τὸν πατέρα",
+    "en": "and again a little while and you will see me, because I go to the Father",
+    "plain": "Then a short time again, and you will see me, because I am going to the Father."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is missing from the earliest witnesses and is easily explained: in 16:17 the disciples quote Jesus as saying \"because I am going to the Father\" (from 16:10), so copyists supplied the words here.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:23",
+  "a": "if you ask the Father for anything, he will give it to you in my name",
+  "t": "Where does \"in my name\" go?",
+  "p": "In the older text, \"in my name\" goes with the Father's giving. In the Byzantine text and KJV it goes with the asking.",
+  "readings": [
+   {
+    "w": "Papyrus 5, Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L), as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἄν τι αἰτήσητε τὸν πατέρα δώσει ὑμῖν ἐν τῷ ὀνόματί μου",
+    "en": "whatever you ask the Father, he will give you in my name",
+    "plain": "if you ask the Father for anything, he will give it to you in my name"
+   },
+   {
+    "w": "Alexandrinus, Bezae, Washington, Byzantine majority, Textus Receptus (KJV \"whatsoever ye shall ask the Father in my name, he will give it you\")",
+    "orig": "ὅσα ἂν αἰτήσητε τὸν πατέρα ἐν τῷ ὀνόματί μου δώσει ὑμῖν",
+    "en": "whatever you ask the Father in my name, he will give you",
+    "plain": "whatever you ask the Father for in my name, he will give it to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The older order is unusual, and copyists probably moved \"in my name\" to match 14:13; 15:16 and 16:24. With the older order, the Father's gifts come to the disciples through Jesus.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:27",
+  "a": "came out from God",
+  "t": "\"From God\" or \"from the Father\"",
+  "p": "A few strong manuscripts read \"from the Father,\" which Westcott and Hort printed.",
+  "readings": [
+   {
+    "w": "Papyrus 5, Sinaiticus (first hand), Alexandrinus, Byzantine majority, Textus Receptus (KJV); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "παρὰ τοῦ θεοῦ ἐξῆλθον",
+    "en": "I came from God",
+    "plain": "came out from God"
+   },
+   {
+    "w": "Vaticanus, Ephraemi (first hand), Bezae, Regius (L), as reported by Metzger; Westcott and Hort",
+    "orig": "παρὰ τοῦ πατρὸς ἐξῆλθον",
+    "en": "I came from the Father",
+    "plain": "came out from the Father"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Father\" could have come in from the next verse, \"I came out from the Father.\" The meaning is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:33",
+  "a": "In the world you have hardship",
+  "t": "\"You have\" or \"you will have\"",
+  "p": "The KJV reads \"ye shall have tribulation,\" a future. The other editions have a present.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT; Robinson-Pierpont Byzantine text",
+    "orig": "ἐν τῷ κόσμῳ θλῖψιν ἔχετε",
+    "en": "in the world you have hardship",
+    "plain": "In the world you have hardship"
+   },
+   {
+    "w": "Textus Receptus (KJV \"ye shall have tribulation\")",
+    "orig": "ἐν τῷ κόσμῳ θλῖψιν ἕξετε",
+    "en": "in the world you will have hardship",
+    "plain": "In the world you will have hardship"
+   }
+  ],
+  "follow": 0,
+  "why": "The present has the support of both the critical editions and the Byzantine text. With the present, hardship is already part of the disciples' life, not only a future danger.",
+  "s": [
+   "metzger",
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "17:11",
+  "a": "them safe in your name, the name you have given me",
+  "t": "The name, or the people, that the Father gave",
+  "p": "In the critical text the Father gave Jesus his name. The KJV reads \"those whom thou hast given me.\"",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts, including Sinaiticus, Vaticanus, Alexandrinus and the Byzantine majority; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τήρησον αὐτοὺς ἐν τῷ ὀνόματί σου ᾧ δέδωκάς μοι",
+    "en": "keep them in your name, which you have given me",
+    "plain": "them safe in your name, the name you have given me"
+   },
+   {
+    "w": "A few manuscripts; Textus Receptus (KJV)",
+    "orig": "τήρησον αὐτοὺς ἐν τῷ ὀνόματί σου οὓς δέδωκάς μοι",
+    "en": "keep through your name those whom you have given me",
+    "plain": "safe in your name those you have given me"
+   }
+  ],
+  "follow": 0,
+  "why": "The idea that the Father gave his name to the Son is unusual, so scribes changed \"which\" (the name) to \"whom\" (the disciples), matching 17:6, 9. The reading with \"which\" is far better supported.",
+  "b": "If the Father has given the Son his own name, the claim is very high: in Jewish tradition God's name was his alone (Isaiah 42:8). Compare Philippians 2:9 and Revelation 19:12–13.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:12",
+  "a": "When I was with them, I kept them safe in your name, the name you have given me",
+  "t": "\"In the world,\" and the name again",
+  "p": "The Byzantine text adds \"in the world\" and, like the KJV, reads \"those that thou gavest me.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus and other early manuscripts, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὅτε ἤμην μετ' αὐτῶν ἐγὼ ἐτήρουν αὐτοὺς ἐν τῷ ὀνόματί σου ᾧ δέδωκάς μοι",
+    "en": "when I was with them, I kept them in your name, which you have given me",
+    "plain": "When I was with them, I kept them safe in your name, the name you have given me"
+   },
+   {
+    "w": "Alexandrinus, Ephraemi (corrected), Bezae, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ὅτε ἤμην μετ' αὐτῶν ἐν τῷ κόσμῳ, ἐγὼ ἐτήρουν αὐτοὺς ἐν τῷ ὀνόματί σου· οὓς δέδωκάς μοι ἐφύλαξα",
+    "en": "when I was with them in the world, I kept them in your name; those whom you gave me I guarded",
+    "plain": "When I was with them in the world, I kept safe in your name those you have given me"
+   }
+  ],
+  "follow": 0,
+  "why": "As in 17:11, \"which\" (the name) is the harder and better supported reading. \"In the world\" was probably added from 17:11, 13.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "17:17",
+  "a": "in the truth",
+  "t": "\"The truth\" or \"your truth\"",
+  "p": "Later manuscripts and the KJV read \"through thy truth.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT; Robinson-Pierpont Byzantine text",
+    "orig": "ἐν τῇ ἀληθείᾳ",
+    "en": "in the truth",
+    "plain": "in the truth"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"through thy truth\")",
+    "orig": "ἐν τῇ ἀληθείᾳ σου",
+    "en": "in your truth",
+    "plain": "in your truth"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Your\" was probably added to match \"your word\" in the next clause. The sense is the same.",
+  "s": [
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "17:21",
+  "a": "let them also be in us",
+  "t": "\"In us\" or \"one in us\"",
+  "p": "Many manuscripts, the Tyndale House edition and the KJV read \"that they also may be one in us.\"",
+  "readings": [
+   {
+    "w": "Vaticanus, Ephraemi (first hand), Bezae and Old Latin manuscripts, as reported by Metzger; NA28, SBLGNT",
+    "orig": "ἵνα καὶ αὐτοὶ ἐν ἡμῖν ὦσιν",
+    "en": "that they also may be in us",
+    "plain": "let them also be in us"
+   },
+   {
+    "w": "Sinaiticus, Alexandrinus, Ephraemi (corrected), Regius (L), Byzantine majority, Textus Receptus (KJV); Tyndale House GNT",
+    "orig": "ἵνα καὶ αὐτοὶ ἐν ἡμῖν ἓν ὦσιν",
+    "en": "that they also may be one in us",
+    "plain": "let them also be one in us"
+   }
+  ],
+  "follow": 0,
+  "why": "\"One\" could easily be added from the start of the verse and from 17:11, 22, so the shorter text is preferred by NA28 and SBLGNT. The Tyndale House editors judged the longer reading original, since \"one\" could also have been lost by accident. The meaning hardly changes.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "17:24",
+  "a": "what you have given me, I want them to be with me where I am",
+  "t": "\"What\" or \"those whom\"",
+  "p": "The oldest manuscripts use a neuter \"what\" for the disciples. Later ones, and the KJV, smooth it to \"those whom.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae, Washington and others, as reported by Metzger; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὃ δέδωκάς μοι, θέλω ἵνα ὅπου εἰμὶ ἐγὼ κἀκεῖνοι ὦσιν μετ' ἐμοῦ",
+    "en": "what you have given me, I want that where I am they also may be with me",
+    "plain": "what you have given me, I want them to be with me where I am"
+   },
+   {
+    "w": "Alexandrinus, Ephraemi, Regius (L), Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οὓς δέδωκάς μοι, θέλω ἵνα ὅπου εἰμὶ ἐγὼ κἀκεῖνοι ὦσιν μετ' ἐμοῦ",
+    "en": "those whom you have given me, I want that where I am they also may be with me",
+    "plain": "I want those you have given me to be with me where I am"
+   }
+  ],
+  "follow": 0,
+  "why": "The neuter is the harder reading and matches John's style in 6:37, 39 and 17:2, where the disciples as a whole are \"all that\" the Father gave. Scribes corrected it to the plural.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

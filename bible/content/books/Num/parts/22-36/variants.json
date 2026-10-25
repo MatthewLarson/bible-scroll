@@ -1,0 +1,373 @@
+[
+ {
+  "v": "22:5",
+  "a": "the land of his own people",
+  "t": "His own people, the Ammonites, or Amaw?",
+  "p": "The Hebrew says Balaam lived \"in the land of the sons of his people.\" Some witnesses read \"of the Ammonites,\" and some modern versions read a place name, Amaw.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint; Targum Onqelos",
+    "orig": "אֶרֶץ בְּנֵי־עַמּוֹ",
+    "en": "the land of the sons of his people",
+    "plain": "the land of his own people"
+   },
+   {
+    "w": "Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Syriac Peshitta; Latin Vulgate; some Hebrew manuscripts",
+    "orig": "ארץ בני עמון",
+    "en": "the land of the sons of Ammon",
+    "plain": "the land of the Ammonites"
+   },
+   {
+    "w": "Conjecture: the same letters as the Hebrew, read with different vowels (W. F. Albright); followed by ESV and NRSV",
+    "orig": "אֶרֶץ בְּנֵי עַמָו",
+    "en": "the land of the people of Amaw",
+    "plain": "the land of the people of Amaw"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading is supported by the Greek and fits Pethor on the Euphrates: Balaam lived among his own Aramean people. \"Ammon\" differs by one letter (<i>ammo</i> vs. <i>ammon</i>) and probably came from a scribe who expected a known nation's name, but Ammon lay next to Moab, not by the Euphrates. Some scholars, noting the Deir Alla text from the Jordan Valley, prefer Ammon. W. F. Albright suggested a third reading, \"the land of the Amawites,\" a region near the Euphrates named in the Idrimi inscription from Alalakh, which needs only a change of vowels. The ESV and NRSV follow it. The Plain English keeps the Hebrew as vowelled, which makes good sense as it stands.",
+  "s": [
+   "tov-tchb",
+   "milgrom-numbers",
+   "albright-balaam"
+  ]
+ },
+ {
+  "v": "23:10",
+  "a": "or number a fourth part of Israel",
+  "t": "\"A fourth part\" or \"the families\"?",
+  "p": "The Hebrew has no verb (\"and the number of a fourth part\"). The Samaritan text and the Greek read \"and who has counted.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum Onqelos (\"one of the four camps\")",
+    "orig": "וּמִסְפָּר אֶת־רֹבַע יִשְׂרָאֵל",
+    "en": "and the number of the fourth part of Israel",
+    "plain": "or number a fourth part of Israel"
+   },
+   {
+    "w": "Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (as cited in the BHS apparatus)",
+    "orig": "ומי ספר את רבע ישראל",
+    "en": "and who has counted the fourth part of Israel",
+    "plain": "or who has counted a fourth part of Israel"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "καὶ τίς ἐξαριθμήσεται δήμους Ισραηλ",
+    "en": "and who will count the families of Israel",
+    "plain": "or number the families of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan <i>u-mi safar</i> (\"and who has counted\") differs from the Hebrew <i>u-mispar</i> by a split of the same letters, and it gives the line a verb to match \"Who can count\" in the line before. The Plain English keeps the Hebrew words but, like most translations, supplies the verb, so in sense it follows the Samaritan and Greek. The Greek translators seem to have struggled with the rare <i>rova</i> and gave the sense, as they also did with \"dust\" (they wrote \"seed\"). Their reading is a paraphrase, not evidence of a different Hebrew word. The Hebrew is the harder reading and is kept, though its meaning is debated (see the note).",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "24:7",
+  "a": "Water will flow from his buckets",
+  "t": "A man from his seed (first line)",
+  "p": "Goes with the next line: the Greek turns the water image into a prophecy of a man who will rule nations.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "יִזַּל־מַיִם מִדָּלְיָו",
+    "en": "water will flow from his buckets",
+    "plain": "Water will flow from his buckets"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "ἐξελεύσεται ἄνθρωπος ἐκ τοῦ σπέρματος αὐτοῦ",
+    "en": "a man will come out of his seed",
+    "plain": "A man will come out of his seed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is an interpretation of difficult Hebrew poetry rather than a copy of a different Hebrew text. It reads <i>zera</i> (\"seed\") as offspring and the whole line as royal. The Hebrew picture of buckets and water is concrete and fits the garden images of 24:6, and it is kept. The Greek reading matters for history: Philo (<i>On Rewards and Punishments</i> 95) and later Jewish and Christian writers read this verse as a prophecy of the Messiah.",
+  "s": [
+   "wevers-numbers",
+   "collins-scepter"
+  ]
+ },
+ {
+  "v": "24:7",
+  "a": "and his seed will be by many waters",
+  "t": "A man from his seed (second line)",
+  "p": "Goes with the previous line: where the Hebrew has seed by many waters, the Greek has \"he will rule many nations.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְזַרְעוֹ בְּמַיִם רַבִּים",
+    "en": "and his seed will be in many waters",
+    "plain": "and his seed will be by many waters"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "καὶ κυριεύσει ἐθνῶν πολλῶν",
+    "en": "and he will rule many nations",
+    "plain": "and he will rule many nations"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Many waters\" can stand for many peoples (Revelation 17:15 makes that explicit), and the Greek translators took it so. The Targum Onqelos also reads the verse of a king who \"will rule over many peoples.\" The Hebrew keeps the image, and the Plain English follows it.",
+  "s": [
+   "wevers-numbers",
+   "targum-onkelos"
+  ]
+ },
+ {
+  "v": "24:7",
+  "a": "Agag",
+  "t": "Agag or Gog?",
+  "p": "The Hebrew names Agag, king of Amalek. The Greek and the Samaritan text name Gog, the end-time enemy.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum Onqelos; Vulgate",
+    "orig": "מֵאֲגַג",
+    "en": "than Agag",
+    "plain": "Agag"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages); the later Greek versions of Aquila, Symmachus and Theodotion (as cited in BHS)",
+    "orig": "ἢ Γωγ (Greek); מגוג (Samaritan)",
+    "en": "than Gog",
+    "plain": "Gog"
+   }
+  ],
+  "follow": 0,
+  "why": "Agag fits the setting of the next oracles, which name Amalek (24:20), and the Hebrew letters of Gog and Agag are very close, so a slip either way is easy. Most scholars think \"Gog\" is a change made by readers who knew Ezekiel 38–39, where Gog is the great enemy of the last days. It made this verse a prophecy of the end time. Some scholars argue the reverse, that \"Agag\" was brought in from 1 Samuel 15. The Masoretic reading is kept as the harder one in its context.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers",
+   "tov-tchb",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "24:17",
+  "a": "a scepter",
+  "t": "Scepter or a man?",
+  "p": "The Hebrew has \"a scepter will rise from Israel.\" The Greek reads \"a man will rise from Israel.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Dead Sea Scrolls (4QTestimonia, Damascus Document, War Scroll)",
+    "orig": "שֵׁבֶט",
+    "en": "a scepter, rod",
+    "plain": "a scepter"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "ἄνθρωπος",
+    "en": "a man",
+    "plain": "a man"
+   },
+   {
+    "w": "Targum Onqelos (a paraphrase)",
+    "orig": "מְשִׁיחָא",
+    "en": "the Messiah (\"and the Messiah will be anointed from Israel\")",
+    "plain": "the Messiah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qumran scrolls quote the verse with \"scepter,\" agreeing with the Hebrew. The Greek and the Targum interpret the symbol: a scepter means a ruler, and the ruler is a man, or the Messiah. Both readings show how early the verse was read as messianic, two or three centuries before Jesus in the case of the Greek. The Plain English follows the Hebrew.",
+  "s": [
+   "wevers-numbers",
+   "collins-scepter",
+   "abegg-dssb",
+   "targum-onkelos"
+  ]
+ },
+ {
+  "v": "24:17",
+  "a": "tear down",
+  "t": "Tear down, or the skull?",
+  "p": "The Hebrew verb means \"tear down\" or \"break down.\" The Samaritan text has \"the skull (crown of the head) of,\" as Jeremiah 48:45 does.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum Onqelos; followed by KJV and ESV",
+    "orig": "וְקַרְקַר",
+    "en": "and tear down (or: break down)",
+    "plain": "tear down"
+   },
+   {
+    "w": "Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (as cited in BHS); compare Jeremiah 48:45; followed by NIV",
+    "orig": "וקדקד",
+    "en": "and the crown of the head of",
+    "plain": "smash the skulls of"
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan <i>qodqod</i> differs from the Hebrew <i>qarqar</i> by one letter that looks much the same (<i>dalet</i> and <i>resh</i>). It makes a neat pair with \"the brows of Moab\" and matches Jeremiah 48:45, which reuses this line. That neatness is also a reason to suspect it: a scribe who knew Jeremiah could easily bring the text into line with it. The Hebrew verb is rare but makes sense, and the Plain English keeps it. Readers of the NIV will see the Samaritan reading there.",
+  "s": [
+   "bhs-elliger",
+   "milgrom-numbers",
+   "levine-numbers21-36"
+  ]
+ },
+ {
+  "v": "24:23",
+  "a": "Then he took up his poem",
+  "t": "\"And he saw Og\"",
+  "p": "The Greek begins this oracle \"And when he saw Og,\" making it a poem about the king of Bashan.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "וַיִּשָּׂא מְשָׁלוֹ",
+    "en": "and he took up his poem",
+    "plain": "Then he took up his poem"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "καὶ ἰδὼν τὸν Ωγ ἀνέλαβεν τὴν παραβολὴν αὐτοῦ",
+    "en": "and when he saw Og he took up his poem",
+    "plain": "Then he saw Og, and took up his poem"
+   }
+  ],
+  "follow": 0,
+  "why": "The earlier short oracles begin \"Then he saw Amalek\" and \"Then he saw the Kenites\" (24:20–21), and the Greek supplies the missing pattern with Og, king of Bashan (21:33–35). Many scholars think the Greek translators read the obscure Hebrew <i>mi-sumo el</i> or a nearby word as \"Og,\" or simply filled the gap. Since Og is already dead (21:35), the addition does not fit well. The shorter Hebrew is kept.",
+  "s": [
+   "wevers-numbers",
+   "levine-numbers21-36"
+  ]
+ },
+ {
+  "v": "24:24",
+  "a": "Kittim",
+  "t": "Kittim, Italy or Rome?",
+  "p": "The Hebrew names Kittim (Cyprus). The Latin Vulgate reads \"Italy,\" and the Targum Onqelos reportedly \"the Romans.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages); Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC) (\"the Kitians\")",
+    "orig": "כִּתִּים",
+    "en": "Kittim",
+    "plain": "Kittim"
+   },
+   {
+    "w": "Latin Vulgate (Jerome, about AD 400)",
+    "orig": "de Italia",
+    "en": "from Italy",
+    "plain": "Italy"
+   },
+   {
+    "w": "Targum Onqelos (as usually cited)",
+    "orig": "מֵרוֹמָאֵי",
+    "en": "from the Romans",
+    "plain": "the Romans"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin and Aramaic are interpretations, not different Hebrew texts. By their time \"Kittim\" had come to mean the western powers, Greece and then Rome (Daniel 11:30; the Dead Sea Scrolls). They show how the last oracle was read as a prophecy of Rome. The Plain English keeps the name in the Hebrew.",
+  "s": [
+   "collins-scepter",
+   "targum-onkelos"
+  ]
+ },
+ {
+  "v": "24:24",
+  "a": "Eber",
+  "t": "Eber or the Hebrews?",
+  "p": "The Greek reads \"the Hebrews\" for Eber.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "עֵבֶר",
+    "en": "Eber",
+    "plain": "Eber"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC)",
+    "orig": "Εβραίους",
+    "en": "the Hebrews",
+    "plain": "the Hebrews"
+   }
+  ],
+  "follow": 0,
+  "why": "Eber is the ancestor of the Hebrews (Genesis 10:21–25), and the name may mean \"beyond\" (the river), so the Greek reading is a fair guess. But Hebrew poetry often uses an ancestor's name for a people, and Eber here may mean peoples beyond the Euphrates rather than Israel. The Hebrew is kept, with its ambiguity.",
+  "s": [
+   "wevers-numbers"
+  ]
+ },
+ {
+  "v": "25:4",
+  "a": "impale them before the LORD in the open sun",
+  "t": "Who is to be executed?",
+  "p": "The Hebrew can be read as an order to execute the people's heads. The Samaritan text has the heads kill the guilty men instead.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (\"make an example of them\")",
+    "orig": "קַח אֶת־כָּל־רָאשֵׁי הָעָם וְהוֹקַע אוֹתָם לַיהוָה נֶגֶד הַשָּׁמֶשׁ",
+    "en": "and impale them to the LORD before the sun",
+    "plain": "impale them before the LORD in the open sun"
+   },
+   {
+    "w": "Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages) (as cited by Benjamin Kennicott and in later commentaries; not confirmed here in the critical editions)",
+    "orig": "ויהרגו את האנשים הנצמדים לבעל פעור",
+    "en": "and let them kill the men who joined themselves to the Baal of Peor",
+    "plain": "have them kill the men who tied themselves to the Baal of Peor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan text does not drop the heads of the people. It makes them the executioners: they are to kill the men who joined in the worship. That is how the Targums and Rashi already explain the Hebrew (see the note), and it brings the command into line with Moses' order to the judges in 25:5. Because it removes a hard question (why should leaders die who are not said to sin?), it is the easier reading and more likely a change. The Plain English keeps the Hebrew.",
+  "s": [
+   "milgrom-numbers",
+   "levine-numbers21-36",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "27:23",
+  "a": "as the LORD had spoken through Moses.",
+  "t": "Moses' charge to Joshua added",
+  "p": "The Samaritan text and a Dead Sea scroll add Moses' words to Joshua from Deuteronomy 3:21–22.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint",
+    "orig": "כַּאֲשֶׁר דִּבֶּר יְהוָה בְּיַד־מֹשֶׁה",
+    "en": "as the LORD spoke by the hand of Moses",
+    "plain": "as the LORD had spoken through Moses."
+   },
+   {
+    "w": "Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages); 4QNum-b (a Numbers scroll from Qumran Cave 4, copied about 30 BC to AD 20)",
+    "orig": "(adds words matching Deuteronomy 3:21–22)",
+    "en": "adds Moses' charge: your eyes have seen what the LORD did to the two kings, so he will do to all the kingdoms; do not fear them, for the LORD your God fights for you",
+    "plain": "as the LORD had spoken through Moses. And he said to him, \"Your eyes have seen what the LORD has done to these two kings. The LORD will do the same to all the kingdoms you are crossing over to. Do not be afraid of them, because the LORD your God is the one who fights for you.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan Pentateuch often copies speeches from Deuteronomy into Numbers and Exodus at the place where Deuteronomy says they were spoken. 4QNum-b shares many of these expansions, showing that this kind of text existed among Jews before the Samaritans' later edition. Most text critics regard the shorter text as earlier and the addition as a scribe's harmonizing. The added wording given here follows the Deuteronomy passage. The exact wording of the two witnesses is given in Jastram's edition of 4QNum-b (DJD 12) and in Tal's edition of the Samaritan text.",
+  "s": [
+   "jastram-4qnumb",
+   "tov-tchb",
+   "ulrich-dss",
+   "tal-samaritan"
+  ]
+ },
+ {
+  "v": "36:1",
+  "a": "They spoke in front of Moses and the leaders",
+  "t": "Was Eleazar there?",
+  "p": "The Greek and the scroll 4QNum-b add \"before Eleazar the priest,\" as in the daughters' own hearing (27:2).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Samaritan Pentateuch (the Samaritans' Hebrew Torah, a text tradition going back to the last centuries BC; manuscripts from the Middle Ages)",
+    "orig": "וַיְדַבְּרוּ לִפְנֵי מֹשֶׁה וְלִפְנֵי הַנְּשִׂאִים",
+    "en": "and they spoke before Moses and before the leaders",
+    "plain": "They spoke in front of Moses and the leaders"
+   },
+   {
+    "w": "Septuagint (the Greek translation of the Torah, made in Egypt in the 200s BC); 4QNum-b (Jastram, DJD 12)",
+    "orig": "ἔναντι Μωυσῆ καὶ ἔναντι Ελεαζαρ τοῦ ἱερέως καὶ ἔναντι τῶν ἀρχόντων",
+    "en": "before Moses and before Eleazar the priest and before the leaders",
+    "plain": "They spoke in front of Moses, Eleazar the priest and the leaders"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading makes the scene match 27:2, where the daughters stand before Moses and Eleazar. A scribe could easily add Eleazar to harmonize; it is harder to explain why one would drop him. The shorter Hebrew is kept. The agreement of the Greek with a Qumran scroll shows that the Greek translators had a Hebrew text with the longer reading.",
+  "s": [
+   "jastram-4qnumb",
+   "wevers-numbers",
+   "tov-tchb"
+  ]
+ }
+]

@@ -1,0 +1,656 @@
+[
+ {
+  "v": "90:1",
+  "a": "you yourself have been our home",
+  "t": "\"Home\" or \"refuge\"",
+  "p": "The Greek and the Latin from the Greek read \"refuge\"; the Hebrew has \"dwelling.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (habitaculum); Targum",
+    "orig": "מָעוֹן אַתָּה הָיִיתָ לָּנוּ",
+    "en": "you have been a dwelling for us",
+    "plain": "you yourself have been our home"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus) (katafygē); Jerome's Gallican Psalter (refugium); some Hebrew manuscripts are reported to read מָעוֹז",
+    "orig": "καταφυγὴ ἡμῖν ἐγενήθης",
+    "en": "you became a refuge for us",
+    "plain": "you yourself have been our refuge"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word is attested in the Leningrad Codex and the Targum, and it links to 91:9 (\"You have made the Most High your home\"). The Greek may have read ma'oz, \"stronghold,\" or chosen a word for sense.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms"
+  ]
+ },
+ {
+  "v": "90:2",
+  "a": "before you brought the earth and the world to birth",
+  "t": "Who is in labor?",
+  "p": "The Hebrew vowels make God bring forth the earth. Other vowels, followed by the Greek and Jerome, make the earth \"be brought forth.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַתְּחוֹלֵל אֶרֶץ וְתֵבֵל",
+    "en": "and you brought forth (in labor) earth and world",
+    "plain": "before you brought the earth and the world to birth"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Psalter from the Hebrew (parturiretur terra); the same consonants read as a passive",
+    "orig": "καὶ πλασθῆναι τὴν γῆν καὶ τὴν οἰκουμένην",
+    "en": "and before the earth and the world were formed",
+    "plain": "before the earth and the world were brought to birth"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is only in the vowels, which were added to the Hebrew letters centuries after the psalm was written. The Masoretic vowels give a bold picture of God in labor, matching Deuteronomy 32:18; the passive is smoother and matches \"the mountains were born.\" Both readings say the world was born while God already was.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "90:3",
+  "a": "You turn a human being back into powder",
+  "t": "\"Do not turn a human being back\"",
+  "p": "The Greek makes the line a plea: \"Do not turn a human being back to lowliness.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew",
+    "orig": "תָּשֵׁב אֱנוֹשׁ עַד־דַּכָּא",
+    "en": "you turn a human being back to crushed matter",
+    "plain": "You turn a human being back into powder"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (ne avertas hominem in humilitatem)",
+    "orig": "μὴ ἀποστρέψῃς ἄνθρωπον εἰς ταπείνωσιν",
+    "en": "do not turn a human being back to lowliness",
+    "plain": "Do not turn a human being back into lowliness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have read <i>al tashev</i>, \"do not turn,\" for <i>tashev</i>, \"you turn,\" and took <i>dakka</i>, \"crushed stuff,\" as \"humbling.\" The Hebrew statement fits the following lines about death; the Greek turns it into a prayer.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "90:9",
+  "a": "we bring our years to an end like a low moan.",
+  "t": "A moan, or a spider?",
+  "p": "The Greek reads \"our years were musing like a spider,\" a famous puzzle of the Greek Psalter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּלִּינוּ שָׁנֵינוּ כְמוֹ־הֶגֶה",
+    "en": "we finish our years like a murmur",
+    "plain": "we bring our years to an end like a low moan."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (sicut aranea)",
+    "orig": "τὰ ἔτη ἡμῶν ὡς ἀράχνην ἐμελέτων",
+    "en": "our years were musing like a spider",
+    "plain": "our years spin on like a spider."
+   },
+   {
+    "w": "Jerome's Psalter from the Hebrew",
+    "orig": "consumpsimus annos nostros quasi sermonem loquens",
+    "en": "we used up our years like someone speaking a word",
+    "plain": "we use up our years like a word spoken."
+   }
+  ],
+  "follow": 0,
+  "why": "Hegeh is a murmur or sigh (Job 37:2; Ezekiel 2:10). The Greek translator seems to have taken the line as a picture of a spider spinning its fragile web, an image of frailty; the Greek verb \"muse\" (meletaō) matches the Hebrew root hagah. Jerome's Hebrew version takes hegeh as a spoken word. The Hebrew is clear enough and is followed.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "nets-psalms"
+  ]
+ },
+ {
+  "v": "90:10",
+  "a": "it passes swiftly, and off we fly.",
+  "t": "\"We fly away\" or \"we will be corrected\"",
+  "p": "The Greek reads \"for gentleness came upon us, and we will be disciplined.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (transivimus cito et avolavimus)",
+    "orig": "כִּי־גָז חִישׁ וַנָּעֻפָה",
+    "en": "for it passes quickly, and we fly away",
+    "plain": "it passes swiftly, and off we fly."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter",
+    "orig": "ὅτι ἐπῆλθεν πραΰτης ἐφ᾽ ἡμᾶς καὶ παιδευθησόμεθα",
+    "en": "for gentleness came upon us, and we will be disciplined",
+    "plain": "for mildness has come on us, and we will be corrected."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have read the rare word chish (\"quickly\") as a form of a word for gentleness, and the verb for flying as one for being disciplined. The Hebrew fits the theme of the passing of life and is followed.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "90:17",
+  "a": "the work of our hands, give it firm footing.",
+  "t": "The repeated last line",
+  "p": "Codex Vaticanus lacks the psalm's last line; Jerome marked it in his Greek-based Psalter as added from the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Sinaiticus (corrected), Alexandrinus and the Verona Psalter",
+    "orig": "וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ",
+    "en": "and the work of our hands, establish it",
+    "plain": "the work of our hands, give it firm footing."
+   },
+   {
+    "w": "Codex Vaticanus (300s AD), the main manuscript of the Old Greek; Jerome's Gallican Psalter marks the line with an asterisk, Origen's sign for words added from the Hebrew",
+    "orig": "",
+    "en": "(line missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The repeated line is in the Hebrew and in most Greek manuscripts. Its absence from Vaticanus, and Jerome's asterisk, suggest the oldest Greek translation lacked it, either by accident (the eye skipping from one \"work of our hands\" to the next) or because its Hebrew source did. The repetition is typical Hebrew style and is kept.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "91:1",
+  "a": "Whoever lives in the hiding place of the Most High",
+  "t": "A title \"Of David\"",
+  "p": "The Hebrew has no title. The Greek and a Qumran scroll of songs against demons both head it \"Of David.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יֹשֵׁב בְּסֵתֶר עֶלְיוֹן",
+    "en": "one who dwells in the shelter of the Most High",
+    "plain": "Whoever lives in the hiding place of the Most High"
+   },
+   {
+    "w": "11Q11 (11QApocryphal Psalms, about 50 BC to AD 50), which ends a collection of songs against demons with this psalm, as reported in DJD 23 and the Dead Sea Scrolls Bible; not checked against the plates",
+    "orig": "(heading \"Of David,\" as reported)",
+    "en": "Of David ...",
+    "plain": "Of David. Whoever lives in the hiding place of the Most High"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus)",
+    "orig": "Αἶνος ᾠδῆς τῷ Δαυείδ",
+    "en": "A praise of a song, of David",
+    "plain": "A praise. A song. Of David. Whoever lives in the hiding place of the Most High"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text, the base of this translation, has no title, and the Talmud and Rashi treat Psalms 90 to 100 as untitled psalms that belong with Moses. The Greek titles of Book IV often add David's name, and 11Q11 shows that at least one Hebrew tradition also linked Psalm 91 to David, perhaps because David was remembered as a driver-out of evil spirits (1 Samuel 16:23).",
+  "b": "In 11Q11 the psalm comes after several songs for driving out demons, some of them credited to David and Solomon. It is one of the earliest pieces of evidence for Psalm 91 used as a prayer for protection.",
+  "s": [
+   "djd23-11qtgjob",
+   "puech-11q11",
+   "abegg-dssb",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "91:2",
+  "a": "This is what I say to the LORD:",
+  "t": "\"I say\" or \"he will say\"",
+  "p": "The Greek and the Latin from the Greek read \"He will say to the Lord.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
+    "orig": "אֹמַר לַיהוָה",
+    "en": "I will say to the LORD",
+    "plain": "This is what I say to the LORD:"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (dicet Domino); some scholars read אֹמֵר, \"the one who says\"",
+    "orig": "ἐρεῖ τῷ κυρίῳ",
+    "en": "he will say to the Lord",
+    "plain": "He will say to the LORD:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew \"I\" is the harder reading, since the psalm otherwise speaks to \"you\" until 91:9, where \"my\" breaks in again. The Greek smooths the voice into the third person. The Plain keeps the change of speaker (see the note on 91:2).",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "91:3",
+  "a": "from the plague that brings ruin.",
+  "t": "\"Plague\" or \"word\"",
+  "p": "The Greek reads \"from a troubling word,\" taking the Hebrew letters for \"plague\" as \"word.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (de morte insidiarum)",
+    "orig": "מִדֶּבֶר הַוּוֹת",
+    "en": "from the plague of destruction",
+    "plain": "from the plague that brings ruin."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (a verbo aspero)",
+    "orig": "ἀπὸ λόγου ταραχώδους",
+    "en": "from a troubling word",
+    "plain": "from words that bring trouble."
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants dbr can be read deber, \"plague,\" or davar, \"word.\" \"Plague\" matches 91:6 and 91:10, where disease is the danger, and is followed.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "91:6",
+  "a": "or the scourge that ravages at noon.",
+  "t": "The noonday demon",
+  "p": "The Greek reads \"from mishap and the demon of noon.\" The noonday demon became famous in Christian spiritual writing.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (a morsu insanientis meridie, \"from the bite of one raging at noon\")",
+    "orig": "מִקֶּטֶב יָשׁוּד צָהֳרָיִם",
+    "en": "from the destruction that devastates at noon",
+    "plain": "or the scourge that ravages at noon."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (ab incursu et daemonio meridiano)",
+    "orig": "ἀπὸ συμπτώματος καὶ δαιμονίου μεσημβρινοῦ",
+    "en": "from mishap and a demon of noon",
+    "plain": "or mishap, or the demon of noon."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the verb yashud (\"ravages\") as the noun shed, \"demon\" (as in Deuteronomy 32:17), with different vowels. The Hebrew as pointed gives a natural parallel to the plague of the first line and is followed. The Targum, though it follows the Hebrew words, also speaks of \"the band of demons that attacks at noon.\"",
+  "b": "From the Greek, Christian monks spoke of the \"noonday demon\": Evagrius Ponticus (late 300s) named it as the demon of <i>acedia</i>, the listless boredom that strikes in the heat of midday and makes a monk want to leave his cell, and John Cassian passed the idea to the Latin West. The phrase is still used for spiritual depression.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms",
+   "evagrius-praktikos"
+  ]
+ },
+ {
+  "v": "92:10",
+  "a": "I am soaked in fresh oil.",
+  "t": "\"Soaked in oil\" or \"my old age in oil\"",
+  "p": "The Greek and Jerome's Psalter from the Hebrew read \"my old age in rich oil\"; the Gallican Latin has \"in rich mercy.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rashi (\"mingled with oil\")",
+    "orig": "בַּלֹּתִי בְּשֶׁמֶן רַעֲנָן",
+    "en": "I am mixed (anointed) with fresh oil",
+    "plain": "I am soaked in fresh oil."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Psalter from the Hebrew (senecta mea in oleo uberi)",
+    "orig": "καὶ τὸ γῆράς μου ἐν ἐλαίῳ πίονι",
+    "en": "and my old age in rich oil",
+    "plain": "my old age is in rich oil."
+   },
+   {
+    "w": "Jerome's Gallican Psalter",
+    "orig": "et senectus mea in misericordia uberi",
+    "en": "and my old age in rich mercy",
+    "plain": "my old age is in rich mercy."
+   },
+   {
+    "w": "A modern correction based on the Syriac, adopted by several modern versions",
+    "orig": "בַּלֹּתַנִי",
+    "en": "you have anointed me",
+    "plain": "you have poured fresh oil over me."
+   }
+  ],
+  "follow": 0,
+  "why": "Balloti is an unusual form. Rashi takes it from balal, \"to mix, moisten,\" as flour is mixed with oil (Numbers 15:9). The Greek took it from balah, \"to wear out, grow old,\" which fits 92:14 (\"In old age they will still yield fruit\") but makes the line awkward. The Hebrew is followed, with the sense of being anointed and refreshed. The Gallican's \"mercy\" comes from reading Greek <i>eleos</i>, \"mercy,\" for <i>elaion</i>, \"oil.\"",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "rashi-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "93:1",
+  "a": "The LORD is King!",
+  "t": "A Qumran \"Hallelujah\"",
+  "p": "The Psalms Scroll from Qumran Cave 11 opens this psalm with \"Praise the LORD!\" (Hallelujah).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus)",
+    "orig": "יְהוָה מָלָךְ",
+    "en": "The LORD reigns",
+    "plain": "The LORD is King!"
+   },
+   {
+    "w": "11QPs-a (the Great Psalms Scroll, 11Q5, first century AD), as given in the Dead Sea Scrolls Bible; not checked against the plates",
+    "orig": "הללויה, then יהוה מלך (as reported)",
+    "en": "Hallelujah! The LORD reigns",
+    "plain": "Praise the LORD! The LORD is King!"
+   }
+  ],
+  "follow": 0,
+  "why": "11QPs-a often adds \"Hallelujah\" to psalms and arranges them for worship in its own order. The Masoretic Text and the Greek lack it here. The Greek instead gives a title: \"For the day before the Sabbath, when the earth was inhabited. A praise of a song, of David.\"",
+  "s": [
+   "sanders-djd4",
+   "abegg-dssb",
+   "flint-dss-psalms",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "93:3",
+  "a": "the rivers raise their pounding.",
+  "t": "The third line",
+  "p": "Codex Vaticanus has only two lines here; other Greek manuscripts and the Hebrew have three.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Sinaiticus (corrected) and Alexandrinus (\"the rivers will lift up their poundings\")",
+    "orig": "יִשְׂאוּ נְהָרוֹת דָּכְיָם",
+    "en": "rivers lift up their pounding",
+    "plain": "the rivers raise their pounding."
+   },
+   {
+    "w": "Codex Vaticanus and the Verona Psalter",
+    "orig": "",
+    "en": "(line missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The three-step line (\"have raised ... have raised ... raise\") is a classic Hebrew pattern (compare 92:9 and its Ugaritic parallel). The shorter Greek probably lost a line that looked like a repetition.",
+  "s": [
+   "swete-ot-vol2",
+   "rahlfs-psalmi"
+  ]
+ },
+ {
+  "v": "95:4",
+  "a": "In his hand are the earth's deep places,",
+  "t": "A line borrowed from Psalm 94",
+  "p": "Codex Vaticanus begins the verse \"For the Lord will not reject his people,\" a line from 94:14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Sinaiticus (first hand), Alexandrinus, the Zurich Psalter; Jerome's Psalters",
+    "orig": "אֲשֶׁר בְּיָדוֹ מֶחְקְרֵי־אָרֶץ",
+    "en": "in whose hand are the depths of the earth",
+    "plain": "In his hand are the earth's deep places,"
+   },
+   {
+    "w": "Codex Vaticanus and a corrector of Sinaiticus",
+    "orig": "ὅτι οὐκ ἀπώσεται Κύριος τὸν λαὸν αὐτοῦ, ὅτι ἐν τῇ χειρὶ αὐτοῦ...",
+    "en": "for the Lord will not reject his people, for in his hand...",
+    "plain": "For the LORD will not reject his people. In his hand are the earth's deep places,"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are the Greek of 94:14 and are absent from the Hebrew and from other important Greek manuscripts. A copyist probably brought them over from the psalm before. The plus shows how closely Psalms 94 and 95 were read together.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "95:8",
+  "a": "as at Meribah",
+  "t": "Place names or meanings",
+  "p": "The Greek and Hebrews 3:8 translate the place names: \"as in the rebellion, on the day of testing.\" This variant goes with the next line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּמְרִיבָה",
+    "en": "as at Meribah",
+    "plain": "as at Meribah"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Hebrews 3:8 and 3:15; Jerome's Gallican Psalter (in exacerbatione)",
+    "orig": "ὡς ἐν τῷ παραπικρασμῷ",
+    "en": "as in the provocation (rebellion)",
+    "plain": "as in the rebellion"
+   }
+  ],
+  "follow": 0,
+  "why": "Meribah and Massah are place names in the Hebrew (Exodus 17:7). The Greek translated their meanings, \"quarrel\" becoming \"provocation\" and \"testing\" becoming \"temptation.\" Hebrews quotes the Greek, so English versions of Hebrews read \"as in the rebellion.\" The meaning is the same; the Hebrew keeps the geography.",
+  "s": [
+   "swete-ot-vol2",
+   "lane-hebrews",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "95:8",
+  "a": "like that day in the wilderness at Massah,",
+  "t": "\"Massah\" or \"testing\"",
+  "p": "Goes with the variant on \"as at Meribah\" in the line before.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּיוֹם מַסָּה בַּמִּדְבָּר",
+    "en": "as on the day of Massah in the wilderness",
+    "plain": "like that day in the wilderness at Massah,"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Hebrews 3:8",
+    "orig": "κατὰ τὴν ἡμέραν τοῦ πειρασμοῦ ἐν τῇ ἐρήμῳ",
+    "en": "as on the day of testing in the wilderness",
+    "plain": "like the day of testing in the wilderness,"
+   }
+  ],
+  "follow": 0,
+  "why": "As with Meribah, the Greek translated the name. The Plain keeps the place name, since the Hebrew points to the story in Exodus 17.",
+  "s": [
+   "swete-ot-vol2",
+   "lane-hebrews"
+  ]
+ },
+ {
+  "v": "96:9",
+  "a": "Bow low to the LORD in holy splendor",
+  "t": "\"In holy splendor\" or \"in his holy court\"",
+  "p": "The Greek and the Gallican Latin read \"in his holy court.\" Chronicles agrees with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Chronicles 16:29; Jerome's Psalter from the Hebrew (in decore sanctuarii)",
+    "orig": "בְּהַדְרַת־קֹדֶשׁ",
+    "en": "in the splendor of holiness",
+    "plain": "Bow low to the LORD in holy splendor"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (in atrio sancto eius)",
+    "orig": "ἐν αὐλῇ ἁγίᾳ αὐτοῦ",
+    "en": "in his holy court",
+    "plain": "Bow low to the LORD in his holy courtyard"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may have read a different word (chatsrat, \"court\") or guessed from 96:8, \"come into his courts.\" The Hebrew is supported by 1 Chronicles 16:29 and Psalm 29:2. On the meaning of hadrat qodesh, see the note at 1 Chronicles 16:29.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ },
+ {
+  "v": "96:10",
+  "a": "The LORD is King!",
+  "t": "\"The LORD is King from the tree\"",
+  "p": "Some early Christian Bibles read \"The Lord has reigned from the tree,\" which Christians took as a prophecy of the cross.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); 1 Chronicles 16:31; all known Hebrew manuscripts; Jerome's two Psalters",
+    "orig": "יְהוָה מָלָךְ / ὁ κύριος ἐβασίλευσεν",
+    "en": "the LORD reigns",
+    "plain": "The LORD is King!"
+   },
+   {
+    "w": "The Verona Psalter (a Greek-Latin manuscript of the 500s or 600s, first hand, R*; a later hand disapproved it, Swete's apparatus); the Greek minuscule 156 and the Sahidic Coptic version (reported by Eberhard Nestle); Old Latin psalters; quoted by Justin Martyr (Dialogue with Trypho 73, about AD 155–160) and Tertullian (Against Marcion 3.19; Answer to the Jews 10)",
+    "orig": "ὁ κύριος ἐβασίλευσεν ἀπὸ ξύλου / Dominus regnavit a ligno",
+    "en": "the Lord has reigned from the tree (wood)",
+    "plain": "The LORD is King from the tree!"
+   }
+  ],
+  "follow": 0,
+  "why": "No Hebrew manuscript has \"from the tree,\" nor do 1 Chronicles 16:31, the main Greek manuscripts, Origen's Hexapla or Jerome's Psalters. The words are almost certainly a Christian addition or explanatory note that entered some Greek and Latin copies in the 100s.",
+  "b": "Justin Martyr told Trypho that the Jews had cut \"from the tree\" out of the psalm. Scholars today think the reverse: Christians who read the psalm as a prophecy of Christ's reign from the cross added it. The reading lived on in Latin worship. Venantius Fortunatus' hymn <i>Vexilla regis</i> (AD 569), still sung in Holy Week, says that what David sang in faithful song was fulfilled: \"God has reigned from the tree\" (<i>regnavit a ligno Deus</i>). See the chapter page for more.",
+  "s": [
+   "swete-ot-vol2",
+   "justin-dialogue",
+   "tertullian-marcion3",
+   "tertullian-jews",
+   "venantius-vexilla",
+   "jerome-psalters",
+   "nestle-from-tree"
+  ]
+ },
+ {
+  "v": "97:7",
+  "a": "all you gods, bow down to him!",
+  "t": "\"Gods\" or \"his angels\"",
+  "p": "The Greek reads \"Bow down to him, all his angels,\" words close to Hebrews 1:6.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QPs-m (4Q94), as given in the Dead Sea Scrolls Bible; Jerome's Psalter from the Hebrew (omnes dii)",
+    "orig": "הִשְׁתַּחֲווּ־לוֹ כָּל־אֱלֹהִים",
+    "en": "bow down to him, all gods",
+    "plain": "all you gods, bow down to him!"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (omnes angeli eius)",
+    "orig": "προσκυνήσατε αὐτῷ πάντες οἱ ἄγγελοι αὐτοῦ",
+    "en": "bow down to him, all his angels",
+    "plain": "all his angels, bow down to him!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek Psalter often renders elohim \"gods\" as \"angels\" (compare 8:5; 138:1), to avoid suggesting that other gods exist. The Hebrew is followed.",
+  "b": "Hebrews 1:6 says that when God brings his firstborn into the world, he says, \"And let all God's angels bow down to him\" (a fresh rendering). Nearly the same words are in the Greek of Deuteronomy 32:43, and the exact form is in the Greek Ode of Moses (Odes 2:43). Deuteronomy 32:43 is the verse where the site's Plain follows from a Qumran scroll and the Greek: \"and all you gods, bow down to him!\" Most scholars think Hebrews quotes Deuteronomy 32:43, with Psalm 97:7 in Greek as a close parallel. Hebrews applies to the Son a call to worship addressed to the LORD.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "lane-hebrews",
+   "attridge-hebrews"
+  ]
+ },
+ {
+  "v": "97:11",
+  "a": "Light is scattered like seed for the righteous",
+  "t": "\"Light is sown\" or \"light dawns\"",
+  "p": "The Greek, Syriac and both of Jerome's Psalters read \"Light has dawned for the righteous,\" a difference of one letter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum (\"light that is stored up for the righteous\"); Rashi",
+    "orig": "אוֹר זָרֻעַ לַצַּדִּיק",
+    "en": "light is sown for the righteous",
+    "plain": "Light is scattered like seed for the righteous"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter and his Psalter from the Hebrew (lux orta est); Syriac Peshitta as reported; one or two medieval Hebrew manuscripts are reported to read זָרַח",
+    "orig": "φῶς ἀνέτειλεν τῷ δικαίῳ",
+    "en": "light has risen for the righteous",
+    "plain": "Light has dawned for the righteous"
+   }
+  ],
+  "follow": 0,
+  "why": "Zarua, \"sown,\" and zarach, \"has risen,\" differ in their last letter. \"Dawned\" is the easier reading, used of light in 112:4, and many modern versions follow it. \"Sown\" is the harder picture, but it makes sense: light planted now will spring up later as a harvest of joy. The Hebrew is followed.",
+  "b": "Jewish tradition treasured the Hebrew. The Targum's \"light stored up for the righteous\" reflects the teaching that the light of the first day of creation was hidden away for the righteous in the world to come (Bavli Chagigah 12a). In the Ashkenazi rite, the Kol Nidre service on the eve of Yom Kippur begins with this verse.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters",
+   "stec-targum-psalms",
+   "bavli-hagigah",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "99:1",
+  "a": "The LORD is King!",
+  "t": "A title \"A psalm of David\"",
+  "p": "The Greek gives Psalm 99 the title \"A psalm of David.\" The Hebrew has none.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יְהוָה מָלָךְ",
+    "en": "The LORD reigns",
+    "plain": "The LORD is King!"
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (psalmus David)",
+    "orig": "Ψαλμὸς τῷ Δαυείδ",
+    "en": "A psalm of David",
+    "plain": "A psalm of David. The LORD is King!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text has no title for Psalms 93 to 97 and 99. In 4QPs-k (4Q92) a heading is sometimes restored in the gap before 99:1, but no letters survive. The Plain follows the Masoretic Text, as everywhere, and gives the Greek title here.",
+  "s": [
+   "swete-ot-vol2",
+   "flint-dss-psalms"
+  ]
+ },
+ {
+  "v": "100:3",
+  "a": "we belong to him",
+  "t": "\"We are his\" or \"not we ourselves\"",
+  "p": "The Hebrew is written \"and not we\" but read aloud \"and his we are.\" The KJV followed the written form.",
+  "readings": [
+   {
+    "w": "Masoretic Text, the Qere (the reading the Masoretes marked to be read aloud: וְלוֹ); Targum (\"and his we are\"); Jerome's Psalter from the Hebrew (et ipsius sumus); Rashi",
+    "orig": "הוּא־עָשָׂנוּ וְלוֹ אֲנַחְנוּ",
+    "en": "he made us, and his we are",
+    "plain": "we belong to him"
+   },
+   {
+    "w": "Masoretic Text, the Ketiv (the letters written in the text: וְלֹא); Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (et non ipsi nos); KJV",
+    "orig": "הוּא־עָשָׂנוּ וְלֹא אֲנַחְנוּ / καὶ οὐχ ἡμεῖς",
+    "en": "he made us, and not we (ourselves)",
+    "plain": "not we ourselves"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew words lo, \"to him,\" and lo, \"not,\" sound the same. The Masoretes kept the written \"not\" in the text but marked \"his\" to be read, and the Leningrad Codex prints both. \"We are his\" makes a better parallel with \"his people, the flock he pastures,\" and is followed by most modern versions and the Jewish tradition. The KJV's \"and not we ourselves\" follows the written letters and the Greek.",
+  "b": "The written reading has its own force: God made us; we did not make ourselves. Some scholars defend it. The Plain follows the Qere and changes only the clause: with the Ketiv the line reads \"He is the one who made us; not we ourselves.\"",
+  "s": [
+   "stec-targum-psalms",
+   "jerome-psalters",
+   "swete-ot-vol2",
+   "rashi-psalms",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "101:5",
+  "a": "him I cannot bear.",
+  "t": "\"I cannot bear\" or \"I would not eat with\"",
+  "p": "The Greek and Gallican Latin read \"with him I would not eat.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Jerome's Psalter from the Hebrew (cum hoc esse non potero)",
+    "orig": "אֹתוֹ לֹא אוּכָל",
+    "en": "him I cannot (endure)",
+    "plain": "him I cannot bear."
+   },
+   {
+    "w": "Septuagint, Old Greek Psalms (Codices Vaticanus, Sinaiticus and Alexandrinus, 300s–400s AD, agreeing; checked in Swete's edition and apparatus); Jerome's Gallican Psalter (cum hoc non edebam)",
+    "orig": "τούτῳ οὐ συνήσθιον",
+    "en": "with this one I would not eat",
+    "plain": "him I would not eat with."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew uchal, \"I am able,\" was read by the Greek as from akhal, \"to eat,\" a near-identical form. The Hebrew \"I cannot bear him\" is short but clear (compare Isaiah 1:13, where the same verb stands alone), and is followed.",
+  "s": [
+   "swete-ot-vol2",
+   "jerome-psalters"
+  ]
+ }
+]

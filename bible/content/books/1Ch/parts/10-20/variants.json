@@ -1,0 +1,416 @@
+[
+ {
+  "v": "11:11",
+  "a": "chief of the officers",
+  "t": "The officers, the Thirty, or the Three?",
+  "p": "The written Hebrew says \"the Thirty\"; the Masoretes' reading note says \"the officers.\" Samuel's list is usually read \"the Three.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read form (Qere); KJV (\"chief of the captains\"), NIV",
+    "orig": "הַשָּׁלִישִׁים",
+    "en": "the officers",
+    "plain": "chief of the officers"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written form (Ketiv)",
+    "orig": "הַשְּׁלוֹשִׁים",
+    "en": "the thirty",
+    "plain": "chief of the Thirty"
+   },
+   {
+    "w": "2 Samuel 23:8 (Masoretic הַשָּׁלִשִׁי, \"the third,\" usually corrected to \"the Three,\" as on this site); NRSV, ESV",
+    "orig": "הַשָּׁלִשִׁי",
+    "en": "the third (corrected: the three)",
+    "plain": "chief of the Three"
+   }
+  ],
+  "follow": 0,
+  "why": "The read form is part of the Masoretic Text and keeps the list coherent. The written form \"the Thirty\" would give the Thirty two heads, since 11:20 makes Abshai head of the Thirty. \"The Three\" fits 11:12 and 11:19, but no Hebrew witness of Chronicles has it. The 11:20 and 11:21 variants make the matching choice.",
+  "b": "The words for \"thirty,\" \"three\" and \"officer\" (<i>shalish</i>, a third man in a chariot or an aide) all come from the same root, and scribes confused them often in these lists. The same written/read pair appears at 12:18, where the written form is kept.",
+  "s": [
+   "williamson-chronicles",
+   "klein-1chron"
+  ]
+ },
+ {
+  "v": "11:11",
+  "a": "He swung his spear over three hundred, slain at one time",
+  "t": "Three hundred or eight hundred?",
+  "p": "Chronicles gives three hundred slain. Samuel's parallel gives eight hundred.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles; most translations",
+    "orig": "עַל־שְׁלֹשׁ־מֵאוֹת",
+    "en": "over three hundred",
+    "plain": "He swung his spear over three hundred, slain at one time"
+   },
+   {
+    "w": "2 Samuel 23:8 (Masoretic Text, with a different verb)",
+    "orig": "עַל־שְׁמֹנֶה מֵאוֹת",
+    "en": "over eight hundred",
+    "plain": "He swung his spear over eight hundred, slain at one time"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles. Abshai's feat is also three hundred (11:20), and some think a copyist carried that number up into this line; others think Samuel's number grew. See the note on this verse.",
+  "s": [
+   "mccarter-2sam",
+   "williamson-chronicles"
+  ]
+ },
+ {
+  "v": "11:20",
+  "a": "head of the Thirty",
+  "t": "Head of the Thirty or of the Three?",
+  "p": "The Hebrew says Abishai was head of \"the Three,\" but the next verse says he never came up to the Three.",
+  "readings": [
+   {
+    "w": "Syriac Peshitta (implying the Hebrew הַשְּׁלוֹשִׁים); NRSV; correction matching 11:21, 11:25 and the site's 2 Samuel 23:18",
+    "orig": "רֹאשׁ הַשְּׁלוֹשִׁים",
+    "en": "head of the thirty",
+    "plain": "head of the Thirty"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV",
+    "orig": "רֹאשׁ הַשְּׁלוֹשָׁה",
+    "en": "head of the three",
+    "plain": "head of the Three"
+   }
+  ],
+  "follow": 0,
+  "why": "A man who \"never came up to the Three\" (11:21) can hardly be their head. The Syriac reads \"thirty,\" and the same correction is made in 2 Samuel 23:18 on this site. Because 11:11 follows the read form \"officers,\" Abshai is the only head of the Thirty in this list.",
+  "b": "See the matching variants at 2 Samuel 23:18–19. The Hebrew \"three\" may have come in by assimilation to \"the Three\" at the end of the verse.",
+  "s": [
+   "mccarter-2sam",
+   "williamson-chronicles"
+  ]
+ },
+ {
+  "v": "11:20",
+  "a": "he was famous alongside the Three",
+  "t": "A name, or no name?",
+  "p": "The written Hebrew says Abishai had \"no name\" among the Three; the read form says he had a name.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read form (Qere); 2 Samuel 23:18",
+    "orig": "וְלוֹ־שֵׁם",
+    "en": "and he had a name",
+    "plain": "he was famous alongside the Three"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written form (Ketiv)",
+    "orig": "וְלֹא־שֵׁם",
+    "en": "and not a name",
+    "plain": "he had no name among the Three"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew words lo (\"to him\") and lo' (\"not\") sound the same. The read form agrees with Samuel and with the praise in the verse.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:21",
+  "a": "Of the Thirty",
+  "t": "Of the Thirty or of the Three?",
+  "p": "The Hebrew says \"of the Three he was doubly honored.\" The sense requires \"the Thirty.\"",
+  "readings": [
+   {
+    "w": "No Hebrew manuscript: a correction matching 11:20, 11:25 and the reading followed at 2 Samuel 23:19; NRSV, ESV",
+    "orig": "מִן־הַשְּׁלוֹשִׁים",
+    "en": "of the thirty",
+    "plain": "Of the Thirty"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV",
+    "orig": "מִן־הַשְּׁלוֹשָׁה",
+    "en": "of the three",
+    "plain": "Of the Three"
+   }
+  ],
+  "follow": 0,
+  "why": "The verse goes on to say he never came up to the Three, so the honor must be among the Thirty, as for Benaiah (11:25). This matches the reading followed at 2 Samuel 23:19.",
+  "b": "The word <i>bashnayim</i>, literally \"by two,\" is read as \"doubly\" or \"twice over.\" Samuel has instead <i>hakhi</i>, \"was he not?\""
+ },
+ {
+  "v": "12:18",
+  "a": "chief of the Thirty",
+  "t": "Chief of the Thirty or of the officers?",
+  "p": "As in 11:11, the written Hebrew says \"the Thirty\" and the read form \"the officers.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written form (Ketiv); most modern translations",
+    "orig": "הַשְּׁלוֹשִׁים",
+    "en": "the thirty",
+    "plain": "chief of the Thirty"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read form (Qere); KJV (\"chief of the captains\")",
+    "orig": "הַשָּׁלִישִׁים",
+    "en": "the officers",
+    "plain": "chief of the officers"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form fits a chapter about David's warriors. Unlike 11:11, it creates no clash: Amasai's company belongs to David's outlaw years, before the Hebron list, and no other verse names a different head of the Thirty at that time."
+ },
+ {
+  "v": "13:9",
+  "a": "Chidon's",
+  "t": "Chidon, Nacon or Nodan?",
+  "p": "The threshing floor where Uzzah died has a different name in each witness.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles",
+    "orig": "כִּידֹן",
+    "en": "Kidon",
+    "plain": "Chidon's"
+   },
+   {
+    "w": "Masoretic Text of 2 Samuel 6:6",
+    "orig": "נָכוֹן",
+    "en": "Nacon",
+    "plain": "Nacon's"
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a at 2 Samuel 6:6, as reported",
+    "orig": "נודן",
+    "en": "Nodan",
+    "plain": "Nodan's"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles' own text. No witness clearly preserves an original name; Nacon may even be a description, \"the fixed\" or \"prepared\" threshing floor.",
+  "b": "See the variant at 2 Samuel 6:6, which also lists the Greek Nachor.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "14:1",
+  "a": "Hiram",
+  "t": "Hiram or Huram?",
+  "p": "The written Hebrew has Hiram, as in Samuel and Kings. The read form has Huram, the spelling of 2 Chronicles.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written form (Ketiv); KJV and most translations; 2 Samuel 5:11",
+    "orig": "חִירָם",
+    "en": "Hiram",
+    "plain": "Hiram"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read form (Qere)",
+    "orig": "חוּרָם",
+    "en": "Huram",
+    "plain": "Huram"
+   }
+  ],
+  "follow": 0,
+  "why": "Both are spellings of one name. The Plain uses Hiram, the form used for this king across the site.",
+  "top": "hiram"
+ },
+ {
+  "v": "18:3",
+  "a": "Hadadezer king of Zobah",
+  "t": "Hadadezer or Hadarezer?",
+  "p": "The Leningrad Codex reads Hadadezer, \"Hadad is help.\" Some Hebrew manuscripts and early printed Bibles read Hadarezer, with r for d.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Samuel 8:3; most modern translations",
+    "orig": "הֲדַדְעֶזֶר",
+    "en": "Hadadezer",
+    "plain": "Hadadezer king of Zobah"
+   },
+   {
+    "w": "Some Hebrew manuscripts and early printed Hebrew Bibles; KJV (throughout 1 Chronicles 18–19)",
+    "orig": "הֲדַרְעֶזֶר",
+    "en": "Hadarezer",
+    "plain": "Hadarezer king of Zobah"
+   }
+  ],
+  "follow": 0,
+  "why": "Hadad was the Aramean storm god, and the name \"Hadad is help\" fits Aramean royal names such as Ben-hadad. The letters d and r look almost alike in Hebrew script. The same choice applies to every mention of the king in 18:3–10 and 19:16–19.",
+  "top": "aram",
+  "s": [
+   "klein-1chron"
+  ]
+ },
+ {
+  "v": "18:12",
+  "a": "Abshai son of Zeruiah struck Edom",
+  "t": "Abshai, David or Joab?",
+  "p": "Three texts give the victory in the Valley of Salt to three different men.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles",
+    "orig": "וְאַבְשַׁי בֶּן־צְרוּיָה הִכָּה אֶת־אֱדוֹם",
+    "en": "Abshai son of Zeruiah struck Edom",
+    "plain": "Abshai son of Zeruiah struck Edom"
+   },
+   {
+    "w": "2 Samuel 8:13 (Masoretic Text reads Aram; some Hebrew manuscripts and the Greek read Edom, as on this site)",
+    "orig": "",
+    "en": "David ... struck [Edom]",
+    "plain": "David struck Edom"
+   },
+   {
+    "w": "Title of Psalm 60 (twelve thousand)",
+    "orig": "וַיָּשָׁב יוֹאָב וַיַּךְ אֶת־אֱדוֹם",
+    "en": "Joab returned and struck Edom",
+    "plain": "Joab struck Edom"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles. These are parallel accounts rather than copies of one sentence, so the difference is listed here to show the reader the other texts.",
+  "b": "Ancient writers often credited a king with his commanders' victories, and 1 Kings 11:15–16 remembers Joab's campaign in Edom. The three accounts likely describe one war, with Joab in command and his brother Abshai leading part of it. The numbers differ too: eighteen thousand in Chronicles and Samuel, twelve thousand in the psalm title.",
+  "top": "edom",
+  "s": [
+   "williamson-chronicles",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "18:16",
+  "a": "Ahimelech",
+  "t": "Ahimelech or Abimelech?",
+  "p": "Most Hebrew manuscripts here read Abimelech. Some manuscripts, the Greek, the Syriac and the Latin read Ahimelech, as in 2 Samuel 8:17.",
+  "readings": [
+   {
+    "w": "Some Hebrew manuscripts; Septuagint; Syriac Peshitta; Latin Vulgate; 2 Samuel 8:17; 1 Chronicles 24:6",
+    "orig": "אֲחִימֶלֶךְ",
+    "en": "Ahimelech",
+    "plain": "Ahimelech"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) and most Hebrew manuscripts; KJV",
+    "orig": "אֲבִימֶלֶךְ",
+    "en": "Abimelech",
+    "plain": "Abimelech"
+   }
+  ],
+  "follow": 0,
+  "why": "Chronicles itself names \"Ahimelech son of Abiathar\" in 24:6, and Samuel agrees. In Hebrew script the letters for b and ch are easily confused. This is one of the few places where the Plain does not follow the Leningrad Codex.",
+  "b": "Whether Abiathar's son or father was named Ahimelech is a separate question; see the variant at 2 Samuel 8:17.",
+  "s": [
+   "williamson-chronicles"
+  ]
+ },
+ {
+  "v": "19:17",
+  "a": "came to them",
+  "t": "To them or to Helam?",
+  "p": "Samuel says David came to Helam. Chronicles says he came \"to them.\" The Hebrew words are close.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles; KJV",
+    "orig": "אֲלֵהֶם",
+    "en": "to them",
+    "plain": "came to them"
+   },
+   {
+    "w": "2 Samuel 10:17 (Masoretic Text)",
+    "orig": "חֵלָאמָה",
+    "en": "to Helam",
+    "plain": "came to Helam"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles as it stands. Many scholars think its <i>alehem</i> \"to them\" arose from Samuel's <i>chelamah</i> \"to Helam,\" since the consonants are similar, but Chronicles' text makes sense.",
+  "s": [
+   "williamson-chronicles",
+   "klein-1chron"
+  ]
+ },
+ {
+  "v": "19:18",
+  "a": "seven thousand of Aram's chariot drivers and forty thousand foot soldiers",
+  "t": "How many, and which troops?",
+  "p": "Samuel has 700 charioteers and 40,000 horsemen. Chronicles has 7,000 charioteers and 40,000 foot soldiers.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles; KJV and most translations",
+    "orig": "שִׁבְעַת אֲלָפִים רֶכֶב וְאַרְבָּעִים אֶלֶף אִישׁ רַגְלִי",
+    "en": "seven thousand chariot[eers] and forty thousand foot soldiers",
+    "plain": "seven thousand of Aram's chariot drivers and forty thousand foot soldiers"
+   },
+   {
+    "w": "2 Samuel 10:18 (Masoretic Text)",
+    "orig": "שְׁבַע מֵאוֹת רֶכֶב וְאַרְבָּעִים אֶלֶף פָּרָשִׁים",
+    "en": "seven hundred chariot[eers] and forty thousand horsemen",
+    "plain": "seven hundred of Aram's chariot drivers and forty thousand horsemen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles. The two accounts disagree in both directions, which points to copying rather than deliberate enlarging.",
+  "b": "Numbers were especially easy to miscopy, since a single word or sign could add or drop a nought. Chronicles' seven thousand matches its seven thousand horsemen in 18:4; Samuel's horsemen may be a slip for foot soldiers, or the reverse. Chronicles also says Shophach was \"put to death\" where Samuel says he died there.",
+  "top": "textual-history",
+  "s": [
+   "klein-1chron",
+   "williamson-chronicles"
+  ]
+ },
+ {
+  "v": "20:3",
+  "a": "cut them with a saw, with iron picks and with saws",
+  "t": "Sawed, or set to work with saws?",
+  "p": "Chronicles' Hebrew says David \"sawed\" the people. Samuel says he \"set\" them to work at saws and axes.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles (<i>wayyasar</i>, \"he sawed\"); KJV",
+    "orig": "וַיָּשַׂר בַּמְּגֵרָה",
+    "en": "he sawed with the saw",
+    "plain": "cut them with a saw, with iron picks and with saws"
+   },
+   {
+    "w": "2 Samuel 12:31 (<i>wayyasem</i>, \"he set\"); followed for Chronicles by NIV, ESV, NRSV and most modern translations",
+    "orig": "וַיָּשֶׂם בַּמְּגֵרָה ... וּבַמַּגְזְרוֹת",
+    "en": "he set [them] to the saw ... and the axes",
+    "plain": "set them to work with a saw, with iron picks and with axes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Hebrew of Chronicles. Most scholars think <i>wayyasar</i> is a copying error for Samuel's <i>wayyasem</i> (the letters r and m differ by a stroke in some scripts), and that \"saws\" at the end is a slip for \"axes\" (<i>magzerot</i>), since a saw is listed twice. On that view the Ammonites were put to forced labor, not tortured.",
+  "b": "The King James Version, following the Hebrew of Chronicles and an older reading of Samuel, has David cut the people with saws and pass them through the brick kiln. Most modern readers take both books to describe forced labor, the usual fate of conquered peoples (compare 1 Kings 9:20–21). Readers who keep the Hebrew of Chronicles note that it reports, and does not praise, the cruelty of ancient war.",
+  "s": [
+   "williamson-chronicles",
+   "japhet-chronicles",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "20:5",
+  "a": "Elhanan son of Jair struck down Lahmi the brother of Goliath the Gittite",
+  "t": "Elhanan and Goliath",
+  "p": "Samuel says Elhanan killed Goliath. Chronicles says he killed Goliath's brother. The name of Elhanan's father also differs.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles, read form (Qere); KJV, NIV, ESV",
+    "orig": "אֶלְחָנָן בֶּן־יָעִיר אֶת־לַחְמִי אֲחִי גָּלְיָת",
+    "en": "Elhanan son of Jair [struck] Lahmi the brother of Goliath",
+    "plain": "Elhanan son of Jair struck down Lahmi the brother of Goliath the Gittite"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 1 Chronicles, written form (Ketiv)",
+    "orig": "יָעוּר",
+    "en": "Jaur",
+    "plain": "Elhanan son of Jaur struck down Lahmi the brother of Goliath the Gittite"
+   },
+   {
+    "w": "2 Samuel 21:19 (Masoretic Text and Greek), as on this site",
+    "orig": "אֶלְחָנָן בֶּן־יַעְרֵי אֹרְגִים בֵּית הַלַּחְמִי אֵת גָּלְיָת",
+    "en": "Elhanan son of Jaare-oregim the Bethlehemite [struck] Goliath",
+    "plain": "Elhanan son of Jaare-oregim the Bethlehemite struck down Goliath the Gittite"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates Chronicles' read form. Whether Chronicles preserves the original or harmonizes a hard text in Samuel is debated; see the note on this verse.",
+  "b": "The two Hebrew texts share most of their letters: Samuel's <i>beit hallachmi et</i> (\"the Bethlehemite... [object]\") and Chronicles' <i>et-lachmi achi</i> (\"Lahmi the brother of\").",
+  "top": "david-and-goliath",
+  "s": [
+   "mccarter-2sam",
+   "japhet-chronicles"
+  ]
+ }
+]

@@ -1,0 +1,523 @@
+[
+ {
+  "v": "7:14",
+  "a": "the young woman",
+  "t": "\"Young woman\" or \"virgin\"",
+  "p": "The Hebrew has 'almah, \"young woman\". The Greek has parthenos, \"virgin\", which Matthew 1:23 quotes. Later Greek versions have neanis, \"young woman\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Great Isaiah Scroll (1QIsa-a)",
+    "orig": "העלמה (ha'almah)",
+    "en": "the young woman",
+    "plain": "the young woman"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete; also Ziegler's critical text); followed by Matthew 1:23",
+    "orig": "ἡ παρθένος (hē parthenos)",
+    "en": "the virgin",
+    "plain": "the virgin"
+   },
+   {
+    "w": "Aquila, Symmachus and Theodotion (Aquila and Theodotion reported by Irenaeus, Against Heresies 3.21.1; all three by Jerome, Commentary on Isaiah, on 7:14); the same reading is cited by Trypho in Justin's Dialogue 67",
+    "orig": "ἡ νεᾶνις (hē neanis)",
+    "en": "the young woman",
+    "plain": "the young woman"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew, the base text of this site, and gives the word its usual meaning (Genesis 24:43; Exodus 2:8; Proverbs 30:19). The Great Isaiah Scroll has the same word.",
+  "b": "The Greek translators of Isaiah, in Egypt in the 2nd century BC, chose <i>parthenos</i>. The word usually means a virgin, though the Greek of Genesis 34:3 uses it of Dinah after she was raped, so some argue it could also mean simply a girl. Matthew 1:23 quotes the Greek, and the early church read the verse of Mary. In the 2nd century AD, later translators (Aquila, Symmachus, Theodotion) put <i>neanis</i>, \"young woman\", and the two readings became a point of debate between Jews and Christians, as Justin's <i>Dialogue with Trypho</i> shows. See the note on \"the young woman\".",
+  "s": [
+   "swete-lxx",
+   "ziegler-isaiah",
+   "irenaeus-heresies-3",
+   "jerome-isaiah",
+   "justin-dialogue",
+   "etcbc-dss",
+   "brown-birth-messiah"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "she will name him Immanuel",
+  "t": "Who names the child?",
+  "p": "The Hebrew says \"she will call\". The Great Isaiah Scroll has \"he will call\", the Greek \"you will call\", and Matthew \"they will give him the name\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-l (4Q65)",
+    "orig": "וקראת שמו עמנו אל (veqara't shemo 'immanu El)",
+    "en": "and she will call his name Immanuel",
+    "plain": "she will name him Immanuel"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "וקרא שמו עמנואל (veqara' shemo 'immanu'el)",
+    "en": "and he will call his name Immanuel",
+    "plain": "he will name him Immanuel"
+   },
+   {
+    "w": "Greek (Swete; Ziegler)",
+    "orig": "καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἐμμανουήλ",
+    "en": "and you will call his name Emmanuel",
+    "plain": "you will name him Immanuel"
+   },
+   {
+    "w": "Matthew 1:23",
+    "orig": "καὶ καλέσουσιν τὸ ὄνομα αὐτοῦ Ἐμμανουήλ",
+    "en": "and they will call his name Emmanuel",
+    "plain": "they will give him the name Immanuel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, supported by a Qumran copy (4Q65). <i>Qara't</i> is an old feminine form, \"she called\" (as in Genesis 16:11 and Genesis 29:35, where mothers name their sons); it could also be read \"you (woman) will call\".",
+  "b": "Each reading changes who is in view. \"She\" puts the young woman at the center, as in birth announcements where the mother names the child. \"He\" (1QIsa-a) may mean the father, perhaps Ahaz or the LORD; the scroll also has the LORD's name for \"the Lord\" at the start of the verse. \"You\" (the Greek) speaks to Ahaz, or the house of David. Matthew's \"they\" turns the name into what people will call Jesus: \"God is with us\" (Matthew 1:23; Matthew 1:21 gives his given name, Jesus).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "williamson-isaiah6-12",
+   "davies-allison-matthew"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "I will have reliable witnesses confirm it for me",
+  "t": "\"I will have witnesses\" or \"Have witnesses\"?",
+  "p": "The Hebrew has Isaiah speaking: \"I will have witnesses\". The Great Isaiah Scroll and the Greek make it the LORD's order: \"Have witnesses confirm it\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-b (1Q8) and 4QIsa-e (4Q59)",
+    "orig": "ואעידה לי עדים נאמנים (va'a'idah li 'edim ne'emanim)",
+    "en": "and I will take for myself reliable witnesses",
+    "plain": "I will have reliable witnesses confirm it for me"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "והעד לי עדים נאמנים (veha'ed li 'edim ne'emanim)",
+    "en": "and have reliable witnesses testify for me",
+    "plain": "Have reliable witnesses confirm it for me"
+   },
+   {
+    "w": "Greek (Swete)",
+    "orig": "καὶ μάρτυράς μοι ποίησον πιστοὺς ἀνθρώπους",
+    "en": "and make for me witnesses, faithful men",
+    "plain": "Make reliable men witnesses for me"
+   }
+  ],
+  "follow": 0,
+  "why": "Two Qumran copies agree with the Masoretic Text. The scroll's imperative continues the LORD's commands of 8:1 (\"Take a big tablet\") and may be a smoothing.",
+  "b": "The Masoretic form can be read as a wish, \"I will have\", or with the old KJV as past, \"And I took unto me faithful witnesses\". Either way the witnesses are real people of Jerusalem who would later confirm when the tablet was written, before the son was born (8:3–4). Uriah the priest is probably the Uriah of 2 Kings 16:10–16.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "8:14",
+  "a": "and a stone that people strike their foot on, / and a rock they trip over",
+  "t": "The Greek says \"not\"",
+  "p": "The Greek turns the warning around: those who trust the LORD will not meet him as a stone to stumble on.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a and 4QIsa-e (4Q59)",
+    "orig": "ולאבן נגף ולצור מכשול (ul'even negef ultsur mikhshol)",
+    "en": "and for a stone of striking and for a rock of stumbling",
+    "plain": "and a stone that people strike their foot on, / and a rock they trip over"
+   },
+   {
+    "w": "Greek (Swete)",
+    "orig": "καὶ οὐχ ὡς λίθου προσκόμματι συναντήσεσθε αὐτῷ οὐδὲ ὡς πέτρας πτώματι",
+    "en": "and you will not meet him as a stone of stumbling nor as a rock of falling",
+    "plain": "and you will not meet him as a stone that people strike their foot on, / or as a rock they trip over"
+   }
+  ],
+  "follow": 0,
+  "why": "All the Hebrew witnesses agree. The Greek begins the verse \"If you trust in him, he will be a holy place for you\" and adds the negative to fit.",
+  "b": "The Greek makes the verse a promise to believers; the Hebrew makes the LORD both refuge and obstacle. Romans 9:33 and 1 Peter 2:8 follow the Hebrew sense, a stone that people stumble on, joined with 28:16. So the New Testament here does not use the Greek wording.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "moo-romans",
+   "elliott-1peter"
+  ]
+ },
+ {
+  "v": "9:3",
+  "a": "you have given it great joy",
+  "t": "\"Not\" or \"to it\"",
+  "p": "The written Hebrew has lo', \"not\"; the reading tradition has lo, \"to it\". The two sound the same.",
+  "readings": [
+   {
+    "w": "Masoretic Text, read text (Qere)",
+    "orig": "הגדלת לו השמחה ... (higdalta lo hassimchah)",
+    "en": "you have increased the joy to it",
+    "plain": "you have given it great joy"
+   },
+   {
+    "w": "Masoretic Text, written text (Ketiv); Great Isaiah Scroll (1QIsa-a)",
+    "orig": "לא הגדלת השמחה (lo' higdalta hassimchah)",
+    "en": "you have not increased the joy",
+    "plain": "you have not increased its joy"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere fits the joy described in the rest of the verse. Nearly all modern translations follow it.",
+  "b": "The Hebrew word order is \"you have multiplied the nation, not/to-it you have increased the joy\". The KJV followed the written text: \"Thou hast multiplied the nation, and not increased the joy\", which contradicts the next line, \"they joy before thee\". The Great Isaiah Scroll spells the word <i>lw'</i>, its usual spelling of \"not\". The same Ketiv and Qere pair is found at 49:5 and 63:9.",
+  "s": [
+   "etcbc-dss",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "9:6",
+  "a": "Wonder-Counselor, Mighty God, / Father Forever, Prince of Peace.",
+  "t": "The Greek: \"Angel of great counsel\"",
+  "p": "The Greek gives one name, \"Angel of great counsel\", where the Hebrew has four double names.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 4QIsa-c (4Q57), in part",
+    "orig": "פלא יועץ אל גבור אביעד שר שלום (pele' yo'ets 'el gibbor 'avi'ad sar shalom)",
+    "en": "Wonder of a counselor, God mighty, Father of eternity, Prince of peace",
+    "plain": "Wonder-Counselor, Mighty God, / Father Forever, Prince of Peace."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "Μεγάλης βουλῆς ἄγγελος· ἄξω γὰρ εἰρήνην ἐπὶ τοὺς ἄρχοντας καὶ ὑγείαν αὐτῷ",
+    "en": "Messenger (angel) of great counsel; for I will bring peace on the rulers, and health to him",
+    "plain": "Angel of great counsel. / For I will bring peace on the rulers, and health to him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text, and the Qumran copies agree with it.",
+  "b": "The Greek translator may have avoided calling a human king \"God\". \"Angel (messenger) of great counsel\" became a title of Christ in the Greek church; the Latin introit for Christmas Day, <i>Puer natus est</i>, takes it up: \"and his name will be called the Angel of great counsel\".",
+  "s": [
+   "swete-lxx",
+   "ziegler-isaiah",
+   "seeligmann-isaiah",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "9:6",
+  "a": "He has named him",
+  "t": "Who names the child: \"he called\", \"he will call\" or \"is called\"",
+  "p": "The Hebrew has an active past, \"and he called his name\". The Great Isaiah Scroll has a future, \"and he will call\"; the Greek a passive.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-c (4Q57)",
+    "orig": "ויקרא שמו (vayyiqra' shemo)",
+    "en": "and he called his name",
+    "plain": "He has named him"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "וקרא שמו (veqara' shemo)",
+    "en": "and he will call his name",
+    "plain": "He will name him"
+   },
+   {
+    "w": "Greek (Swete); followed by the KJV",
+    "orig": "καὶ καλεῖται τὸ ὄνομα αὐτοῦ",
+    "en": "and his name is called",
+    "plain": "His name is called"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, supported by 4QIsa-c. The past tense fits the other verbs of the verse (\"has been born\", \"has been given\"), which speak of the birth as already done.",
+  "b": "The Masoretic <i>vayyiqra'</i> and the scroll's <i>veqara'</i> differ by one letter, but the forms mean different things: \"he called\" and \"he will call\". The scroll's future matches the future it gives at 7:14 (\"and he will call\"). Neither form names the subject; Rashi made it God, who names the child \"Prince of Peace\" (see the note). The Greek and the KJV turn it into a passive, \"his name is called\" / \"shall be called\", which leaves no one doing the naming.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "williamson-isaiah6-12",
+   "rashi-isaiah"
+  ]
+ },
+ {
+  "v": "9:7",
+  "a": "He will make it firm and hold it up",
+  "t": "\"It\" or \"him\"?",
+  "p": "The Hebrew makes the kingdom the object: \"to make it firm and to hold it up\". The Great Isaiah Scroll has \"him\", the king.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-c (4Q57)",
+    "orig": "להכין אתה ולסעדה (lehakhin 'otah ulsa'adah)",
+    "en": "to establish it and to sustain it",
+    "plain": "He will make it firm and hold it up"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "להכין אותו ולסעדו (lehakhin 'oto ulsa'ado)",
+    "en": "to establish him and to sustain him",
+    "plain": "He will make him firm and hold him up"
+   }
+  ],
+  "follow": 0,
+  "why": "4QIsa-c agrees with the Masoretic Text, and the feminine \"it\" fits \"his kingdom\" (<i>mamlakhto</i>, feminine) in the line before.",
+  "b": "In the Masoretic Text the subject is open: the king, or the LORD whose zeal ends the verse, establishes the kingdom. In the scroll it is the king who is made firm and upheld, so the LORD must be the one acting, as in the promise to David (2 Samuel 7:12–13). The meaning is close either way: David's throne stands because God holds it up.",
+  "s": [
+   "etcbc-dss",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "9:17",
+  "a": "So the Lord will not be glad over their young men",
+  "t": "\"Be glad\" or \"spare\"",
+  "p": "The Great Isaiah Scroll has \"will not spare\" for \"will not be glad\", a closer match to \"nor show mercy\" in the next line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Greek",
+    "orig": "על כן על בחוריו לא ישמח אדני (lo' yismach 'Adonai)",
+    "en": "therefore the Lord will not rejoice over his young men",
+    "plain": "So the Lord will not be glad over their young men"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "לוא יחמול אדוני (lo' yachmol 'Adonai)",
+    "en": "the Lord will not spare",
+    "plain": "So the Lord will not spare their young men"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading is the harder one and is supported by the Greek (\"will not be glad\"). The scroll's \"spare\" may be a scribe's easier word, matching the parallel verb.",
+  "b": "\"Not be glad over\" is a stark way of saying the Lord will take no pleasure in Israel's young men, who were usually the pride of a nation (Deuteronomy 30:9 uses the verb for God's joy in his people). Some modern translations adopt the scroll's reading or translate the Masoretic verb by context.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "and looted their stockpiles",
+  "t": "\"Treasures\" or \"stores\"",
+  "p": "The written Hebrew has \"their treasures\"; the reading tradition has \"their stores\". The KJV follows the written text.",
+  "readings": [
+   {
+    "w": "Masoretic Text, read text (Qere)",
+    "orig": "ועתודותיהם שושתי (va'atudoteyhem shosheti)",
+    "en": "and their stores I plundered",
+    "plain": "and looted their stockpiles"
+   },
+   {
+    "w": "Masoretic Text, written text (Ketiv); Great Isaiah Scroll (1QIsa-a)",
+    "orig": "ועתידותיהם (va'atidoteyhem)",
+    "en": "and their treasures (things laid up)",
+    "plain": "and looted their treasures"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words come from the same root, \"be ready\", and mean much the same. The Plain's \"stockpiles\" fits both.",
+  "b": "The difference is one vowel letter. The KJV has \"have robbed their treasures\". The Greek renders it \"their strength\".",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "10:32",
+  "a": "the mountain of Daughter Zion",
+  "t": "\"House of Zion\" or \"Daughter Zion\"",
+  "p": "The written Hebrew has \"the mountain of the house of Zion\"; the reading tradition and the Scrolls have \"Daughter Zion\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, read text (Qere); 1QIsa-a; Greek",
+    "orig": "הר בת ציון (har bat Tsiyyon)",
+    "en": "the mountain of the daughter of Zion",
+    "plain": "the mountain of Daughter Zion"
+   },
+   {
+    "w": "Masoretic Text, written text (Ketiv)",
+    "orig": "הר בית ציון (har beit Tsiyyon)",
+    "en": "the mountain of the house of Zion",
+    "plain": "the mountain of the house of Zion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere has the support of the Great Isaiah Scroll and the Greek, and \"Daughter Zion\" is Isaiah's usual phrase (1:8; 16:1).",
+  "b": "\"The house of Zion\" would mean the Temple mount. \"Daughter Zion\" is the city pictured as a woman. Either way the Assyrian shakes his fist at Jerusalem from Nob, within sight of it.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "11:1",
+  "a": "will bear fruit",
+  "t": "\"Bear fruit\" or \"grow up\"",
+  "p": "The Hebrew yifreh is \"will bear fruit\". The Greek and Latin have \"will come up\", which may reflect yifrach, \"will sprout\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a",
+    "orig": "משרשיו יפרה (mishshorashav yifreh)",
+    "en": "from his roots will bear fruit",
+    "plain": "will bear fruit"
+   },
+   {
+    "w": "Greek (Swete); Latin (Vulgate)",
+    "orig": "ἐκ τῆς ῥίζης ἀναβήσεται",
+    "en": "from the root will come up",
+    "plain": "will grow up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew witnesses agree. \"Will bear fruit\" makes a fair parallel with \"come out\": the sprout not only appears but flourishes.",
+  "b": "Many scholars think these versions read <i>yifrach</i>, \"will sprout\", one letter different, which would make a closer parallel; others think the translators simply chose a word that fit the picture. The Latin <i>flos de radice eius ascendet</i>, \"a flower will rise from his root\", lies behind the medieval reading of the verse as Mary and Christ.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "vulgate-weber",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "The fear of the LORD will be a sweet smell to him.",
+  "t": "The seventh gift",
+  "p": "The Greek has \"the spirit of the fear of God will fill him\", which makes seven spirits out of the Hebrew six.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a",
+    "orig": "והריחו ביראת יהוה (vahariycho beyir'at YHWH)",
+    "en": "and his smelling (delight) will be in the fear of YHWH",
+    "plain": "The fear of the LORD will be a sweet smell to him."
+   },
+   {
+    "w": "Greek (Swete)",
+    "orig": "ἐμπλήσει αὐτὸν πνεῦμα φόβου θεοῦ",
+    "en": "the spirit of the fear of God will fill him",
+    "plain": "A spirit of the fear of God will fill him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew witnesses agree, and the Plain follows them.",
+  "b": "In 11:2 the Greek translated the Hebrew \"fear of the LORD\" as <i>eusebeia</i>, \"godliness\". Here it renders the hard verb \"smell\" as \"fill\" and adds \"spirit\", so the list has seven: wisdom, understanding, counsel, strength, knowledge, godliness and the fear of God. Jerome's Latin keeps the seven: <i>pietas</i> in 11:2 and <i>et replebit eum spiritus timoris Domini</i> here. The church's \"seven gifts of the Holy Spirit\" come from this text. See the 11:2 note and the chapter page.",
+  "s": [
+   "swete-lxx",
+   "vulgate-weber",
+   "ccc",
+   "williamson-isaiah6-12"
+  ]
+ },
+ {
+  "v": "11:6",
+  "a": "calf and young lion and fat steer will be together",
+  "t": "\"Fat steer\" or \"will feed\"",
+  "p": "The Great Isaiah Scroll has a verb, \"they will feed\", for the noun \"fatling\". The Greek also has a verb, \"will graze\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-c (4Q57)",
+    "orig": "ועגל וכפיר ומריא יחדו (ve'egel ukhefir umeri' yachdav)",
+    "en": "and calf and young lion and fatling together",
+    "plain": "calf and young lion and fat steer will be together"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a)",
+    "orig": "ועגל וכפיר ימרו יחדו (ve'egel ukhefir yimru yachdav)",
+    "en": "and calf and young lion will feed together",
+    "plain": "calf and young lion will feed together"
+   },
+   {
+    "w": "Greek (Swete)",
+    "orig": "καὶ μοσχάριον καὶ ταῦρος καὶ λέων ἅμα βοσκηθήσονται",
+    "en": "and calf and bull and lion will graze together",
+    "plain": "calf and bull and lion will graze together"
+   }
+  ],
+  "follow": 0,
+  "why": "A Qumran copy (4Q57) supports the Masoretic Text. Every other line of 11:6 has a verb; this one has none in the Masoretic Text, so the scroll and the Greek may preserve the original, but the Hebrew can stand: \"together\" serves as the verb (\"will be together\").",
+  "b": "Many scholars and some modern translations read a verb here (<i>yimre'u</i>, \"they will feed\"), which needs only a small change. In both readings the young lion feeds side by side with the animals it would have eaten.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "williamson-isaiah6-12",
+   "wildberger-isaiah1-12"
+  ]
+ },
+ {
+  "v": "11:9",
+  "a": "for knowing the LORD will fill the earth",
+  "t": "\"Knowing the glory of the LORD\"",
+  "p": "One Qumran copy (4QIsa-c) adds \"the glory of\", as in Habakkuk 2:14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 4QIsa-b (4Q56); Greek",
+    "orig": "כי מלאה הארץ דעה את יהוה (ki male'ah ha'arets de'ah 'et YHWH)",
+    "en": "for the earth is full of knowing YHWH",
+    "plain": "for knowing the LORD will fill the earth"
+   },
+   {
+    "w": "4QIsa-c (4Q57)",
+    "orig": "כיא מלאה הארץ לדעה את כבוד יהוה",
+    "en": "for the earth is full of knowing the glory of YHWH",
+    "plain": "for knowing the glory of the LORD will fill the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading is in one copy only and matches Habakkuk 2:14, so a scribe probably added \"glory\" from that verse.",
+  "b": "4QIsa-c, copied in the Herodian period (late 1st century BC to 1st century AD), writes God's name in the old Hebrew script. The Great Isaiah Scroll has \"on my holy mountain\" without \"all\", and a different form of the verb \"fill\".",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "djd32-isaiah",
+   "parry-qimron-isaiah"
+  ]
+ },
+ {
+  "v": "11:10",
+  "a": "the root of Jesse will be standing as a flag for the peoples; / nations will come seeking him",
+  "t": "The Greek, quoted in Romans 15:12",
+  "p": "Paul quotes the Greek: \"the one who rises to rule the nations; the nations will put their hope in him\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 4QIsa-c (4Q57)",
+    "orig": "שרש ישי אשר עמד לנס עמים אליו גוים ידרשו",
+    "en": "the root of Jesse who stands as a banner of peoples; to him nations will seek",
+    "plain": "the root of Jesse will be standing as a flag for the peoples; / nations will come seeking him"
+   },
+   {
+    "w": "Greek (Swete); Romans 15:12",
+    "orig": "ἡ ῥίζα τοῦ Ἰεσσαὶ καὶ ὁ ἀνιστάμενος ἄρχειν ἐθνῶν, ἐπ᾽ αὐτῷ ἔθνη ἐλπιοῦσιν",
+    "en": "the root of Jesse, and the one who rises to rule nations; on him nations will hope",
+    "plain": "the root of Jesse will be there, the one who rises to rule the nations; / in him the nations will hope"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew, and all the Qumran copies agree with it.",
+  "b": "The Greek read the \"standing\" as \"rising\" and the flag as rule, and turned \"seek\" into \"hope\". Paul uses this wording to close his argument that the Gentiles praise God with Israel (Romans 15:8–12). The Hebrew picture is close: the nations come to the king as troops gather to a raised banner.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "moo-romans",
+   "dunn-romans"
+  ]
+ },
+ {
+  "v": "12:1",
+  "a": "now let your anger turn back",
+  "t": "A wish or a fact?",
+  "p": "The Hebrew vowels make it a wish, \"let your anger turn back\". The Greek and the KJV make it past: \"your anger turned back\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex) (vowels: a jussive)",
+    "orig": "ישב אפך ותנחמני (yashov appekha utenachameni)",
+    "en": "may your anger turn back, and comfort me",
+    "plain": "now let your anger turn back"
+   },
+   {
+    "w": "Greek (Swete); Latin (Vulgate); Syriac",
+    "orig": "καὶ ἀπέστρεψας τὸν θυμόν σου",
+    "en": "and you turned away your anger",
+    "plain": "but your anger has turned back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic vowels. Many modern translations read the same consonants as a past (<i>vayyashov</i>), which needs no change of letters. The Great Isaiah Scroll writes <i>wshb</i>, \"and it turned\" or \"and it will turn\".",
+  "b": "Read as a wish, the song prays that the anger of 9:12–10:4 will end. Read as past, it thanks God that it has. The Greek also has \"you had mercy on me\" for \"comfort me\".",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "williamson-isaiah6-12"
+  ]
+ }
+]

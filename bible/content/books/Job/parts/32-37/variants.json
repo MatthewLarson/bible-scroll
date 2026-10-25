@@ -1,0 +1,256 @@
+[
+ {
+  "v": "32:1",
+  "a": "since in his own eyes he was in the right",
+  "t": "In his own eyes, or in theirs?",
+  "p": "The Hebrew says Job was righteous in his own eyes; the Greek says he was righteous in the friends' eyes.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Vulgate; KJV and most English versions",
+    "orig": "כִּי הוּא צַדִּיק בְּעֵינָיו",
+    "en": "because he was righteous in his eyes",
+    "plain": "since in his own eyes he was in the right"
+   },
+   {
+    "w": "Old Greek (Codex Vaticanus, in the Sixtine text as Tischendorf prints it); according to the BHS apparatus, also some Hebrew manuscripts, the Syriac and Symmachus",
+    "orig": "ἦν γὰρ Ἰὼβ δίκαιος ἐναντίον αὐτῶν",
+    "en": "for Job was righteous before them",
+    "plain": "since in their eyes he was in the right"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading and fits 32:2, where Elihu is angry that Job justified himself. The Greek may reflect a Hebrew text with \"their eyes\" (a different suffix, <i>be'enehem</i> for <i>be'enaw</i>), or a translator who softened the line. Jerome's Latin of Origen's revised Greek has \"in his own sight,\" agreeing with the Hebrew.",
+  "b": "If the Greek is right, the friends stopped because they could no longer prove Job guilty, which would make Elihu's anger at them (32:3) even sharper. The Greek was checked in Tischendorf's edition and in Jerome's hexaplaric Latin. The Syriac, Symmachus and the Hebrew manuscripts are reported here from the BHS apparatus and were not checked directly.",
+  "s": [
+   "tischendorf-lxx",
+   "jerome-job-hexaplaric",
+   "bhs-elliger",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "32:3",
+  "a": "but had still declared Job guilty",
+  "t": "\"Condemned Job\" or \"condemned God\"? A scribal correction",
+  "p": "Jewish tradition says the scribes changed \"God\" to \"Job\" here, to avoid writing that the friends condemned God.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint (\"they set him down as ungodly\"); Vulgate; all English versions",
+    "orig": "וַיַּרְשִׁיעוּ אֶת־אִיּוֹב",
+    "en": "and they condemned Job",
+    "plain": "but had still declared Job guilty"
+   },
+   {
+    "w": "The original reading according to the rabbinic lists of the eighteen \"corrections of the scribes\" (tiqqune soferim), for example Midrash Tanhuma, Beshallach 16; no surviving manuscript",
+    "orig": "וַיַּרְשִׁיעוּ אֶת־הָאֱלֹהִים",
+    "en": "and they condemned God",
+    "plain": "and so had declared God guilty"
+   }
+  ],
+  "follow": 0,
+  "why": "Every manuscript and ancient translation reads \"Job.\" The other reading survives only as a tradition about what the text said before the scribes changed it.",
+  "b": "The <i>tiqqune soferim</i> are places where, according to rabbinic tradition, scribes altered a word that seemed to insult God (compare Genesis 18:22; 1 Samuel 3:13). With \"God,\" the line means that by failing to answer Job, the friends in effect admitted that God was in the wrong. Some modern scholars think the tradition preserves the original; Carmel McCarthy's study concludes that many items in the lists are not real changes but rabbinic reflections on bold passages. The followed text makes good sense: the friends had no answer, yet they still condemned Job.",
+  "s": [
+   "mccarthy-tiqqune",
+   "midrash-tanhuma",
+   "tov-tchb",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "33:16",
+  "a": "and puts his seal on their correction",
+  "t": "Seals, or terrifies?",
+  "p": "The Hebrew says God \"seals\" their correction; the Greek says he \"terrified them\" with fearful visions.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Vulgate; KJV \"sealeth their instruction\"",
+    "orig": "וּבְמֹסָרָם יַחְתֹּם",
+    "en": "and with their discipline he seals (it)",
+    "plain": "and puts his seal on their correction"
+   },
+   {
+    "w": "Old Greek (Codex Vaticanus, as Tischendorf prints it; unmarked in Jerome's hexaplaric Latin), apparently reading the verb as יְחִתֵּם, \"he terrifies\"",
+    "orig": "ἐν εἴδεσι φόβου τοιούτοις αὐτοὺς ἐξεφόβησεν",
+    "en": "with such visions of fear he terrified them",
+    "plain": "and terrifies them with fearful visions"
+   },
+   {
+    "w": "Many modern versions: the Hebrew noun <i>musar</i>, \"warning, correction,\" with the Greek's sense of the verb",
+    "orig": "וּבְמֹסָרָם יְחִתֵּם",
+    "en": "and with warning to them he terrifies (them)",
+    "plain": "and frightens them by warning them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense: God \"seals\" the warning, as one seals a message to confirm it. The Greek reading needs only a change of vowels and matches Job's complaint that God terrifies him with visions (7:14), so it is a strong rival. The Greek has no word for \"correction\"; the third reading keeps the Hebrew noun and takes only the Greek's verb.",
+  "s": [
+   "tischendorf-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "33:19",
+  "a": "and a constant war goes on in his bones",
+  "t": "\"Strife\" or \"multitude\" of bones",
+  "p": "The written Hebrew says \"strife\" in his bones; the reading tradition says the \"multitude\" of his bones.",
+  "readings": [
+   {
+    "w": "Masoretic Text, the letters as written (Ketiv), Leningrad Codex; most modern versions",
+    "orig": "וְרִיב עֲצָמָיו אֵתָן",
+    "en": "and the strife of his bones is constant",
+    "plain": "and a constant war goes on in his bones"
+   },
+   {
+    "w": "Masoretic Text, as read aloud (Qere); KJV",
+    "orig": "וְרֹב עֲצָמָיו אֵתָן",
+    "en": "and the multitude of his bones (with) strong (pain)",
+    "plain": "and all his many bones are held in lasting pain"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Riv</i>, \"strife, lawsuit,\" gives a clear line and a fitting picture of pain at war in the body; the Qere <i>rov</i>, \"multitude,\" needs words supplied. The Greek \"the multitude of his bones grew numb\" supports the Qere, but this line may not be Old Greek: Jerome's hexaplaric Latin leaves it unmarked, while other witnesses to Origen's signs are reported to mark it as Theodotion's.",
+  "s": [
+   "clines-job",
+   "tischendorf-lxx"
+  ]
+ },
+ {
+  "v": "33:23",
+  "a": "But if there is an angel standing by him",
+  "t": "One good angel, or a thousand angels of death?",
+  "p": "The Greek turns the verse around: even a thousand death-bringing angels will not wound him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum; Vulgate (\"si fuerit pro eo angelus loquens\"); all English versions",
+    "orig": "אִם־יֵשׁ עָלָיו מַלְאָךְ מֵלִיץ אֶחָד מִנִּי־אָלֶף",
+    "en": "if there is over him an angel, a go-between, one out of a thousand",
+    "plain": "But if there is an angel standing by him"
+   },
+   {
+    "w": "Greek of Codex Vaticanus, as Tischendorf prints it (probably Old Greek; Origen's signs on this line are unclear in Jerome's hexaplaric Latin)",
+    "orig": "ἐὰν ὦσι χίλιοι ἄγγελοι θανατηφόροι, εἷς αὐτῶν οὐ μὴ τρώσῃ αὐτόν",
+    "en": "if there be a thousand death-bringing angels, not one of them shall wound him",
+    "plain": "Even if a thousand angels of death stand over him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is supported by the other ancient versions and fits 33:24, where someone pleads for the man. The Greek translator seems to have read the \"death-dealers\" of 33:22 into this verse.",
+  "b": "The Greek goes on: \"if he resolves in his heart to turn to the Lord, and tells a person his own fault and shows his folly,\" making repentance, not an advocate, the way back. Only the first line is shown switched here. 4QJob-a and 11QtgJob preserve parts of this passage; they have not been checked for this site.",
+  "s": [
+   "tischendorf-lxx",
+   "jerome-job-hexaplaric",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "33:28",
+  "a": "He has rescued my soul",
+  "t": "\"My soul\" or \"his soul\" (1 of 2)",
+  "p": "The written Hebrew continues the man's own song (\"my soul ... I will live\"); the reading tradition makes it the narrator's (\"his soul\"). Goes with the next variant.",
+  "readings": [
+   {
+    "w": "Masoretic Text, the letters as written (Ketiv), Leningrad Codex; most modern versions; also the Greek (\"save my soul\"), but that line is Theodotion's, asterisked in the hexaplaric witnesses and missing from the Old Greek, as transmitted in Codex Vaticanus",
+    "orig": "פָּדָה נַפְשִׁי",
+    "en": "he has redeemed my soul",
+    "plain": "He has rescued my soul"
+   },
+   {
+    "w": "Masoretic Text, as read aloud (Qere); KJV",
+    "orig": "פָּדָה נַפְשׁוֹ",
+    "en": "he has redeemed his soul",
+    "plain": "He has rescued his soul"
+   }
+  ],
+  "follow": 0,
+  "why": "The written text continues the healed man's public thanks from 33:27 (\"I sinned ... it was not repaid to me\"), so \"my soul\" fits its context; the Qere looks like a smoothing that turns the line into Elihu's narration, matching \"his soul\" in 33:30. The Greek line agrees with the Ketiv, but it is Theodotion's, made with the Hebrew in view, and adds no early evidence. 2QJob, 4QJob-a and 11QtgJob preserve parts of 33:24–30; they have not been checked for this site.",
+  "s": [
+   "tischendorf-lxx",
+   "jerome-job-hexaplaric",
+   "clines-job",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "33:28",
+  "a": "and I will live to see the light",
+  "t": "\"My life\" or \"his life\" (2 of 2)",
+  "p": "The second half of the same Ketiv/Qere pair. Goes with the previous variant.",
+  "readings": [
+   {
+    "w": "Masoretic Text, as written (Ketiv); also the Greek (\"my life will see light\"), Theodotion's line, asterisked in the hexaplaric witnesses, as transmitted in Codex Vaticanus",
+    "orig": "וְחַיָּתִי בָּאוֹר תִּרְאֶה",
+    "en": "and my life will see the light",
+    "plain": "and I will live to see the light"
+   },
+   {
+    "w": "Masoretic Text, as read aloud (Qere); KJV",
+    "orig": "וְחַיָּתוֹ בָּאוֹר תִּרְאֶה",
+    "en": "and his life will see the light",
+    "plain": "and his life will look on the light"
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry: the written form keeps the man's own voice. The Greek here is Theodotion's, not the Old Greek.",
+  "s": [
+   "tischendorf-lxx",
+   "jerome-job-hexaplaric"
+  ]
+ },
+ {
+  "v": "34:18",
+  "a": "Would anyone say to a king",
+  "t": "\"Would anyone say\" or \"He says\"?",
+  "p": "The Hebrew vowels make this a question; the Vulgate and many modern versions read \"who says to a king.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), vowels הַאֹמַר; KJV \"Is it fit to say to a king\"",
+    "orig": "הַאֹמַר לְמֶלֶךְ בְּלִיָּעַל",
+    "en": "Is it said to a king, \"Worthless\"?",
+    "plain": "Would anyone say to a king"
+   },
+   {
+    "w": "Vulgate (\"qui dicit regi apostata\"); many modern versions, reading הָאֹמֵר",
+    "orig": "הָאֹמֵר לְמֶלֶךְ בְּלִיָּעַל",
+    "en": "who says to a king, \"Worthless\"",
+    "plain": "He says to a king"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same; only the vowels differ. The Masoretic question makes a strong argument: no one would insult a human king, so how can Job accuse God? The other reading makes God the one who rebukes kings, which leads smoothly into 34:19.",
+  "b": "The Old Greek has \"Ungodly is the one who says to a king, 'You break the law.'\"",
+  "s": [
+   "tischendorf-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "36:14",
+  "a": "and their life goes the way of the shrine men",
+  "t": "Shrine men, or angels?",
+  "p": "The Hebrew has qedeshim, \"shrine men\"; the Greek read qedoshim, \"holy ones,\" and translated \"angels.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Vulgate (\"inter effeminatos\")",
+    "orig": "וְחַיָּתָם בַּקְּדֵשִׁים",
+    "en": "and their life among the shrine men",
+    "plain": "and their life goes the way of the shrine men"
+   },
+   {
+    "w": "Old Greek (Codex Vaticanus, as Tischendorf prints it; unmarked in Jerome's hexaplaric Latin), reading the same letters as qedoshim, \"holy ones\"",
+    "orig": "ἡ δὲ ζωὴ αὐτῶν τιτρωσκομένη ὑπὸ ἀγγέλων",
+    "en": "and their life wounded by angels",
+    "plain": "and their life is wounded by angels"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants allow both. The Hebrew vowels give <i>qedeshim</i>, the male shrine servants of Canaanite worship (Deuteronomy 23:17; 1 Kings 14:24), a picture of a shameful early death. The Greek reading recalls the \"holy ones\" of 5:1 and 15:15 and the death-dealers of 33:22.",
+  "b": "What the <i>qedeshim</i> did is debated. Older translations call them male temple prostitutes; many scholars now doubt that sacred prostitution was common and describe them more generally as cult personnel. In 36:14 the point is a disgraceful end. 4QJob-a and 11QtgJob preserve parts of 36:13–27; they have not been checked for this site.",
+  "s": [
+   "tischendorf-lxx",
+   "jerome-job-hexaplaric",
+   "clines-job",
+   "abegg-dssb"
+  ]
+ }
+]

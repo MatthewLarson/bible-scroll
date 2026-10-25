@@ -1,0 +1,1097 @@
+[
+ {
+  "v": "1:1",
+  "a": "He had already been king over Greece",
+  "t": "\"Already\" or \"the first\"",
+  "p": "Venetus reads 'the first' over Greece, as the KJV and Vulgate take it; Alexandrinus and Sinaiticus read 'formerly.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus agrees",
+    "orig": "πρότερον ἐπὶ τὴν Ἑλλάδα",
+    "en": "formerly over Greece",
+    "plain": "He had already been king over Greece"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"the first over Greece\") and the Vulgate (qui primus regnavit in Graecia) give this sense",
+    "orig": "προτερος V",
+    "en": "the first (king) over Greece",
+    "plain": "He was the first king over Greece"
+   }
+  ],
+  "follow": 0,
+  "why": "The adverb of Alexandrinus and Sinaiticus is the better-supported reading. The history fits either: Alexander led the Greeks before he took Persia, and he was also the first king of the Greek empire. Venetus's adjective makes him the first king of the Greek empire. See the note.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "they were given authority",
+  "t": "\"They gave\" or \"he gave\"",
+  "p": "Alexandrinus says 'they gave them authority'; Sinaiticus, Venetus and the KJV say the king gave it.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἔδωκαν αὐτοῖς ἐξουσίαν",
+    "en": "they gave them authority",
+    "plain": "they were given authority"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"who gave them licence\") and the Vulgate (dedit) follow this text",
+    "orig": "εδωκεν ℵV",
+    "en": "he gave them authority",
+    "plain": "the king gave them authority"
+   }
+  ],
+  "follow": 0,
+  "why": "The sense is the same: the authority came from the king's government. The Plain keeps Alexandrinus's plural with an English passive.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:24",
+  "a": "And they committed a massacre and spoke with great arrogance",
+  "t": "\"They\" or \"he\"",
+  "p": "Alexandrinus makes the massacre and the boasting plural; Sinaiticus, Venetus and the KJV give both to the king.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ ἐποίησαν φονοκτονίαν, καὶ ἐλάλησαν ὑπερηφανίαν μεγάλην",
+    "en": "and they made a massacre and spoke great arrogance",
+    "plain": "And they committed a massacre and spoke with great arrogance"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (fecit, locutus est) follow this text",
+    "orig": "εποιησεν ℵV | ελαλησεν ℵV",
+    "en": "and he made a massacre and spoke great arrogance",
+    "plain": "And he committed a massacre and spoke with great arrogance"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular is smoother, since Antiochus is the subject of the sentence, and scribes may have made the verbs agree with him. Alexandrinus's plural, the king and his troops, is the harder reading.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:43",
+  "a": "profaned the Sabbath",
+  "t": "Sabbath or sanctuary",
+  "p": "A corrector of Alexandrinus wrote 'the sanctuary' over an erasure where the first hand had 'the Sabbath.'",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, Codex Venetus (V; the digital apparatus prints it as a Greek Α), and Alexandrinus as first written, apparently (A*vid)",
+    "orig": "σαββατον ℵΑ A* ᵛⁱᵈ [sic]",
+    "en": "the Sabbath",
+    "plain": "profaned the Sabbath"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), a corrector writing over an erasure, from Swete's apparatus",
+    "orig": "αγιασμα sup ras A",
+    "en": "the sanctuary",
+    "plain": "profaned the sanctuary"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints \"the Sabbath\" from Sinaiticus and Alexandrinus's first hand. The KJV and the Vulgate (sabbatum) agree. The corrector may have been thinking of 1:37 or 1:46, where the sanctuary is profaned.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:47",
+  "a": "unclean animals",
+  "t": "Unclean, many or new",
+  "p": "For 'common' (unclean) animals, Sinaiticus first wrote 'many'; a corrector made it 'new.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV (\"unclean beasts\") and the Vulgate (pecora communia) agree",
+    "orig": "κτήνη κοινά",
+    "en": "common (that is, unclean) animals",
+    "plain": "unclean animals"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*)",
+    "orig": "πολλα ℵ*",
+    "en": "many animals",
+    "plain": "many animals"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, a corrector (ℵc.a)",
+    "orig": "καινα ℵc.ᵃ",
+    "en": "new animals",
+    "plain": "new animals"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Common\" in the sense \"ritually unclean\" is the usage of 1:62 and of Mark 7:2 and Acts 10:14. The other readings are scribal slips between similar Greek words.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:61",
+  "a": "and also their families and those who had circumcised them",
+  "t": "Hanged, plundered and killed",
+  "p": "Alexandrinus has no verbs here. A corrector of Sinaiticus adds 'plundered' and 'killed,' as the KJV has.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ τοὺς οἰκείους αὐτῶν, καὶ τοὺς περιτετμηκότας αὐτούς",
+    "en": "and their households, and those who had circumcised them",
+    "plain": "and also their families and those who had circumcised them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written, and Codex Venetus (V, 700s AD)",
+    "orig": "οικους ℵV",
+    "en": "and their houses, and those who had circumcised them",
+    "plain": "and also their houses and those who had circumcised them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, a corrector (ℵc.a), who reads \"houses\" with the first hand and adds the two verbs; the KJV (\"rifled their houses, and slew them\") follows a text like this",
+    "orig": "οικους ℵV αυτων 2⁰] + προενομευσαν ℵc.a αυτους] + εθανατωσαν ℵc.ᵃ",
+    "en": "and they plundered their houses, and they killed those who had circumcised them",
+    "plain": "and they plundered their houses and killed those who had circumcised them"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is abrupt, and the corrector's verbs look like an attempt to fill it out. The Vulgate (per universas domos eorum ... trucidabant) fills it differently, which suggests that each tradition was repairing the same gap.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:62",
+  "a": "held strong",
+  "t": "Hanged, or held strong",
+  "p": "Alexandrinus says many in Israel 'were hanged.' Sinaiticus and Venetus say they 'held strong,' which fits the verse.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐκρεμάσθησαν",
+    "en": "were hanged",
+    "plain": "were hanged"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"were fully resolved\") and the Vulgate (definierunt) give this sense",
+    "orig": "εκραταιωθησαν ℵV",
+    "en": "held strong",
+    "plain": "held strong"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain departs from Alexandrinus here. Its \"were hanged\" seems to have been drawn in from \"they hung\" in 1:61, and it does not fit what follows: these people \"steeled themselves not to eat what was unclean\" and chose to die (1:63).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "Apphus",
+  "t": "Apphus or Sapphus",
+  "p": "The Greek codices call Jonathan Sapphus; the Latin and the KJV call him Apphus.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Σαφφούς",
+    "en": "Saphphous",
+    "plain": "Saphphus"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "Σαπφους ℵV",
+    "en": "Sapphous",
+    "plain": "Sapphus"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV agrees",
+    "orig": "Apphus",
+    "en": "Apphus",
+    "plain": "Apphus"
+   }
+  ],
+  "follow": 2,
+  "why": "The Plain follows the Latin. The Greek name begins with the last letter of the word before it, \"called\" (kaloumenos), and the S was probably copied twice. The name is usually explained from Hebrew <i>happus</i>, \"the cunning,\" or a word for \"the beloved,\" which begin with a vowel.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "like a man without honor",
+  "t": "\"Glorious\" or \"without honor\"",
+  "p": "The Greek says the Temple has become 'like a glorious man.' The Latin and the KJV read 'without honor.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading in ℵ or V",
+    "orig": "ὡς ἀνὴρ ἔνδοξος",
+    "en": "like a glorious man",
+    "plain": "like a man of glory"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV (\"without glory\") and the Douay (\"without honour\") give this sense",
+    "orig": "sicut homo ignobilis",
+    "en": "like a man without honor",
+    "plain": "like a man without honor"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain departs from all three Greek codices here. \"Like a glorious man\" contradicts the lament, which mourns that the Temple's glory is taken away (2:9). The Old Latin translation, which the Vulgate keeps unrevised in Maccabees, seems to have read a Greek word for \"without honor\" (adoxos), which differs from the codices' endoxos by a few letters; or the Greek once had a negative that dropped out. Many modern versions also translate \"without honor.\" The source of the KJV's \"without glory\" is not identified.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "the leaders of Judah",
+  "t": "Leaders or men",
+  "p": "Alexandrinus has 'the leaders of Judah'; Sinaiticus, Venetus and the KJV have 'the men of Judah.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "οἱ ἄρχοντες Ἰούδα",
+    "en": "the rulers of Judah",
+    "plain": "the leaders of Judah"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (viri Juda) follow this text",
+    "orig": "αρχοντες] ανδρες ℵV (line break removed)",
+    "en": "the men of Judah",
+    "plain": "the men of Judah"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The men of Judah\" claims more: all Judah had given in. Either could be original; the Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "the king's law",
+  "t": "The king's law or words",
+  "p": "Alexandrinus has 'the king's law'; Sinaiticus, Venetus and the KJV have 'the king's words.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὸν νόμον τοῦ βασιλέως",
+    "en": "the law of the king",
+    "plain": "the king's law"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (verba regis) follow this text",
+    "orig": "λογον ℵV",
+    "en": "the word of the king",
+    "plain": "the king's words"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus sets \"the king's law\" against the law of God that Mattathias keeps (2:21), a sharp contrast that a scribe may have softened. The two words differ by a few letters in Greek.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "to offer incense",
+  "t": "Incense or sacrifice",
+  "p": "Alexandrinus says the man came to burn incense; Sinaiticus, Venetus and the KJV say to sacrifice.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "θυμιᾶσαι",
+    "en": "to burn incense",
+    "plain": "to offer incense"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"to sacrifice\") and the Vulgate (sacrificare idolis, \"to sacrifice to idols\") follow this text",
+    "orig": "θυμιασαι] θυσιασαι ℵV",
+    "en": "to sacrifice",
+    "plain": "to offer sacrifice"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words differ by two letters. The king's officer had asked for sacrifice (2:15, 25), which may have drawn the other reading in.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:26",
+  "a": "zealous for the law",
+  "t": "\"The law of God\"",
+  "p": "The KJV says Mattathias was zealous 'for the law of God.' The Greek says only 'for the law.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading",
+    "orig": "ἐζήλωσεν τῷ νόμῳ",
+    "en": "was zealous for the law",
+    "plain": "zealous for the law"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "dealt zealously for the law of God",
+    "plain": "zealous for the law of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Vulgate (zelatus est legem) and the Douay also lack \"of God.\" The KJV's addition makes explicit what the book leaves unsaid; 1 Maccabees avoids the word God throughout (see the note at 2:61).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:42",
+  "a": "Hasideans",
+  "t": "Hasideans or Jews",
+  "p": "Sinaiticus and Venetus read 'an assembly of Jews.' Alexandrinus, the KJV and the Vulgate name the Hasideans.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete (Alexandrinus spells it Asideōn)",
+    "orig": "συναγωγὴ Ἁσιδαίων",
+    "en": "an assembly of Hasideans",
+    "plain": "Hasideans"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "πασα συναγωγη Ιουδαιων ισχυροι ℵ",
+    "en": "the whole assembly of Jews, strong",
+    "plain": "Jews"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, which also reads \"the whole assembly\" and has a different word for \"strong\"",
+    "orig": "συν. πασα] Ιουδ. οχυροι V",
+    "en": "the whole assembly of Jews, strong",
+    "plain": "Jews"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Hasideans\" is the harder reading: the name appears again at 7:13 and in 2 Maccabees 14:6, while \"Jews\" looks like a scribe's replacement for an unfamiliar name.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:51",
+  "a": "glory that lasts forever",
+  "t": "Glory or a name",
+  "p": "Sinaiticus, Venetus and the KJV promise 'an everlasting name' rather than 'everlasting glory.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "δόξαν αἰώνιον",
+    "en": "everlasting glory",
+    "plain": "glory that lasts forever"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (nomen aeternum) follow this text",
+    "orig": "δοξαν 2⁰] ονομα ℵV",
+    "en": "an everlasting name",
+    "plain": "a name that lasts forever"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus repeats \"glory\" for emphasis; the other reading avoids the repetition and echoes the \"name\" of 2:64 and 3:14. Both are possible.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:54",
+  "a": "a holy priesthood",
+  "t": "Holy or everlasting priesthood",
+  "p": "Sinaiticus, Venetus and the KJV read 'an everlasting priesthood,' the words of Numbers 25:13.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "διαθήκην ἱερωσύνης ἁγίας",
+    "en": "a covenant of holy priesthood",
+    "plain": "a holy priesthood"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "κληρον διαθηκης αιωνιας ιερωσυνης ℵ",
+    "en": "an inheritance of an everlasting covenant of priesthood",
+    "plain": "an inheritance of an everlasting covenant of priesthood"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (sacerdotii aeterni) give this sense",
+    "orig": "διαθηκην ιερ. αιωνιας V",
+    "en": "a covenant of everlasting priesthood",
+    "plain": "an everlasting priesthood"
+   }
+  ],
+  "follow": 0,
+  "why": "Numbers 25:13 promises Phinehas \"a covenant of everlasting priesthood,\" and the other readings may have been made to agree with it. Alexandrinus's \"holy\" is the reading that does not match its source.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:63",
+  "a": "and he will not be found",
+  "t": "\"Tomorrow\"",
+  "p": "Sinaiticus, Venetus and the KJV add 'tomorrow': 'today lifted high, tomorrow not found.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ οὐ μὴ εὑρεθῇ",
+    "en": "and he will not be found",
+    "plain": "and he will not be found"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (cras) follow this text",
+    "orig": "+ αυριον ℵV",
+    "en": "and tomorrow he will not be found",
+    "plain": "and tomorrow he will not be found"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text gives a neat contrast and may be original, lost in Alexandrinus; or a scribe may have added the obvious word. The meaning is the same.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:66",
+  "a": "you will wage the war of the peoples",
+  "t": "\"You\" or \"he\" will fight",
+  "p": "Alexandrinus says 'you will wage the war'; Sinaiticus, Venetus and the KJV say Judas will.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "πολεμήσετε",
+    "en": "you (plural) will wage",
+    "plain": "you will wage the war of the peoples"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"fight the battle of the people\") and the Vulgate (ipse aget) give this sense",
+    "orig": "πολεμησετε] πολεμησει ℵV",
+    "en": "he will wage",
+    "plain": "he will wage the war of the peoples"
+   }
+  ],
+  "follow": 0,
+  "why": "The sons are being told to follow Judas, so either fits. Alexandrinus makes the war the whole people's, under Judas's command.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "gear",
+  "t": "Gear or plunder",
+  "p": "Alexandrinus says they took the enemy's gear; Sinaiticus, Venetus and the KJV say their spoils.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὰ σκεύη αὐτῶν",
+    "en": "their equipment",
+    "plain": "gear"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (spolia) follow this text",
+    "orig": "σκευη] σκυλα ℵV",
+    "en": "their spoils",
+    "plain": "plunder"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words look alike. \"Equipment\" suits a band of rebels short of weapons (4:6) who arm themselves from the dead.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "Beth-horon",
+  "t": "Beth-horon",
+  "p": "Alexandrinus misspells the pass as 'Methoron.' Sinaiticus and Venetus have Beth-horon.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Μεθωρών",
+    "en": "Methoron",
+    "plain": "Methoron"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (Bethoron) agree",
+    "orig": "Μεθωρων] Βαιθωρων ℵV",
+    "en": "Baithoron",
+    "plain": "Beth-horon"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain departs from Alexandrinus here. Its M is a slip for the B of Beth-; at 3:24 Alexandrinus itself spells the name Bethoron (Swete's apparatus).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "To Heaven",
+  "t": "\"The God of heaven\"",
+  "p": "Sinaiticus, Venetus and the KJV read 'the God of heaven'; Alexandrinus has only 'Heaven.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐναντίον τοῦ οὐρανοῦ",
+    "en": "before Heaven",
+    "plain": "To Heaven"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (Dei caeli) follow this text",
+    "orig": "εναντιον] + του θεου ℵV",
+    "en": "before the God of heaven",
+    "plain": "To the God of Heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "Elsewhere the book always says \"Heaven\" for God (3:50, 60; 4:10, 24, 55), so the shorter text fits its usage, and a scribe would more likely add \"God\" than remove it.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "He will shatter them in front of us himself",
+  "t": "\"The Lord himself\"",
+  "p": "The Vulgate and the KJV say 'the Lord himself.' The Greek says only 'he himself.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading here",
+    "orig": "καὶ αὐτὸς συντρίψει αὐτοὺς",
+    "en": "and he himself will crush them",
+    "plain": "He will shatter them in front of us himself"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV (\"the Lord himself\") agrees",
+    "orig": "ipse Dominus conteret eos",
+    "en": "the Lord himself will crush them",
+    "plain": "The Lord will shatter them in front of us himself"
+   }
+  ],
+  "follow": 0,
+  "why": "\"He\" refers back to Heaven (3:19). The Latin supplies the name the book avoids.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:30",
+  "a": "with an open hand",
+  "t": "Outdoing the kings before him",
+  "p": "Sinaiticus, Venetus and the KJV add that he 'had outdone the kings before him' in giving.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "δαψιλῇ χειρί",
+    "en": "with a generous hand",
+    "plain": "with an open hand"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"for he had abounded above the kings that were before him\") and the Vulgate follow this text",
+    "orig": "+ και επερισσευσεν υπερ τους βασιλεις τους εμπροσθεν ℵV",
+    "en": "with a generous hand, and he had outdone the kings before him",
+    "plain": "with an open hand, and he had outdone the kings before him"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition matches Polybius's picture of Antiochus's lavish gifts, and could be original. The Plain keeps Alexandrinus's shorter text.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "polybius-antiochus"
+  ]
+ },
+ {
+  "v": "3:39",
+  "a": "forty thousand",
+  "t": "Forty or fifty thousand",
+  "p": "Venetus gives the army as fifty thousand foot soldiers.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV and the Vulgate agree",
+    "orig": "τεσσεράκοντα χιλιάδας",
+    "en": "forty thousand",
+    "plain": "forty thousand"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "πεντηκοντα V",
+    "en": "fifty thousand",
+    "plain": "fifty thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The other witnesses agree on forty. See the note on the size of the armies.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:43",
+  "a": "Let us raise up our people and our holy place from their ruin",
+  "t": "\"Let us fight\"",
+  "p": "Sinaiticus has a different second half: 'let us fight for our people and the holy place,' as the KJV has.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Ἀναστήσωμεν τὴν καθαίρεσιν τοῦ λαοῦ ἡμῶν καὶ τῶν ἁγίων",
+    "en": "let us raise up the ruin of our people and of the holy place",
+    "plain": "Let us raise up our people and our holy place from their ruin"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*), which has these words in place of \"and of the holy place\"",
+    "orig": "πολεμησομεν περι ... του λαου ημων και των λαων",
+    "en": "let us raise up the ruin of our people, and let us fight for our people and the peoples",
+    "plain": "Let us raise up our people from their ruin, and let us fight for our people and the peoples"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, a corrector (ℵ¹, apparently), who changed \"peoples\" to \"holy place\"; the KJV (\"Let us restore the decayed fortune of our people, and let us fight for our people and the sanctuary\") and the Vulgate (pugnemus pro populo nostro, et sanctis nostris) follow this text",
+    "orig": "pro λαων corr αγιων ℵ¹",
+    "en": "let us raise up the ruin of our people, and let us fight for our people and the holy place",
+    "plain": "Let us raise up our people from their ruin, and let us fight for our people and the holy place"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's note means that Sinaiticus replaces \"and of the holy place\" with a new clause; it does not add a clause. In Sinaiticus the holy place moves from the first half to the second, and its first scribe miscopied it as \"the peoples.\" The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:53",
+  "a": "unless you help us",
+  "t": "\"O God\"",
+  "p": "The Vulgate and the KJV address God by name: 'unless thou, O God, help us.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading here",
+    "orig": "ἐὰν μὴ σὺ βοηθήσῃς ἡμῖν",
+    "en": "unless you help us",
+    "plain": "unless you help us"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV agrees",
+    "orig": "nisi tu, Deus, adjuves nos",
+    "en": "unless you, God, help us",
+    "plain": "unless you, God, help us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek, like the rest of the book, does not use the word God.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:60",
+  "a": "whatever the will in Heaven is",
+  "t": "\"The will of God\"",
+  "p": "The KJV and the Douay say 'the will of God ... in heaven.' The Greek and the Vulgate have only 'the will in heaven.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading here",
+    "orig": "ὡς δ᾽ ἂν ᾖ θέλημα ἐν οὐρανῷ",
+    "en": "as the will in heaven may be",
+    "plain": "whatever the will in Heaven is"
+   },
+   {
+    "w": "King James Version (1611) and the Douay (Challoner's revision, 1750); the Vulgate (voluntas in caelo) does not have \"of God,\" and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "as the will of God is in heaven",
+    "plain": "whatever the will of God in Heaven is"
+   }
+  ],
+  "follow": 0,
+  "why": "Both English versions make explicit what the Greek leaves to \"Heaven.\"",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "douay-rheims",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "Perhaps he will want us still",
+  "t": "\"The Lord will have mercy\"",
+  "p": "The Vulgate and the KJV say 'the Lord will have mercy on us,' where the Greek says 'if he will want us.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading here",
+    "orig": "εἰ θελήσει ἡμᾶς",
+    "en": "if he will want us",
+    "plain": "Perhaps he will want us still"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV (\"if peradventure the Lord will have mercy upon us\") gives this sense",
+    "orig": "miserebitur nostri Dominus",
+    "en": "the Lord will have mercy on us",
+    "plain": "Perhaps the Lord will have mercy on us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek <i>thelein</i> with a person, \"to want, take pleasure in,\" is the Septuagint's idiom (Psalm 18:19, \"since he took pleasure in me\"; Psalm 17:20 in the Greek numbering). The Old Latin translation, which the Vulgate keeps unrevised in Maccabees, seems to render the sense freely and supply \"the Lord.\"",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "the plains of Judea",
+  "t": "Judea or Idumea",
+  "p": "Alexandrinus has 'the plains of Judea'; Sinaiticus and the KJV have 'the plains of Idumea.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus agrees",
+    "orig": "τῶν πεδίων τῆς Ἰουδαίας",
+    "en": "the plains of Judea",
+    "plain": "the plains of Judea"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; the KJV and the Vulgate (Idumaeae) follow this text",
+    "orig": "Ιουδαιας] Ιδουμαιας ℵ",
+    "en": "the plains of Idumea",
+    "plain": "the plains of Idumea"
+   }
+  ],
+  "follow": 0,
+  "why": "Idumea lay to the south, far from the line of flight toward Gazara, Azotus and Jamnia in the west, so \"Judea\" (here the lowland of Judea) fits the geography better. The two names are easily confused; at 4:29 Sinaiticus makes the opposite swap. Neither is certain.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "blessed Heaven",
+  "t": "\"The Lord in heaven\"",
+  "p": "The Vulgate says they blessed 'God' toward heaven; the KJV says 'the Lord in heaven.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading of these words",
+    "orig": "ηὐλόγουν εἰς οὐρανόν",
+    "en": "they blessed toward heaven",
+    "plain": "blessed Heaven"
+   },
+   {
+    "w": "Latin Vulgate (Clementine edition); the KJV (\"praised the Lord in heaven\") gives this sense",
+    "orig": "benedicebant Deum in cælum",
+    "en": "they blessed God toward heaven",
+    "plain": "blessed God in heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek, \"they blessed into heaven,\" uses Heaven for God, as the book does throughout.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "For his loyal love is good forever",
+  "t": "The fuller refrain",
+  "p": "Sinaiticus, Venetus and the KJV have the full refrain of Psalm 136: 'for he is good, for his love is forever.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Ὅτι καλὸν εἰς τὸν αἰῶνα τὸ ἔλεος αὐτοῦ",
+    "en": "for good forever is his mercy",
+    "plain": "For his loyal love is good forever"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV and the Vulgate (quoniam bonus est, quoniam in saeculum misericordia ejus) follow this text",
+    "orig": "εις 2⁰] pr οτι ℵV",
+    "en": "for it is good, for his mercy is forever",
+    "plain": "For it is good, for his loyal love is forever"
+   }
+  ],
+  "follow": 0,
+  "why": "The fuller text matches the psalm, and a scribe could have dropped a repeated \"for\"; it could also be a scribe's correction toward the familiar words. The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:47",
+  "a": "They took whole stones, as the law says, and built",
+  "t": "\"They\" or \"he\"",
+  "p": "Alexandrinus and Venetus say 'he took ... and he built.' Swete prints the plural from Sinaiticus.",
+  "readings": [
+   {
+    "w": "Swete's printed text: ἔλαβον from Codex Sinaiticus (ℵ, 300s AD) and ᾠκοδόμησαν from a corrector of it (ℵc.a); the KJV and the Vulgate (acceperunt, aedificaverunt) agree",
+    "orig": "καὶ ἔλαβον λίθους ὁλοκλήρους ... ᾠκοδόμησαν",
+    "en": "they took ... and they built",
+    "plain": "They took whole stones, as the law says, and built"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "ελαβεν AV ... ωκοδομησεν ℵ*A V",
+    "en": "he took ... and he built",
+    "plain": "He took whole stones, as the law says, and built"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*)",
+    "orig": "ελαβον ℵ] ... ωκοδομησεν ℵ*A V",
+    "en": "they took ... and he built",
+    "plain": "They took whole stones, as the law says, and he built"
+   }
+  ],
+  "follow": 0,
+  "why": "Here Swete departs from Alexandrinus, and the Plain follows his printed text, with the KJV and the Vulgate. The case is not one-sided: Alexandrinus has singulars in 4:47–48 (\"he took,\" \"he built,\" \"he consecrated\") and again at 4:57, and may present Judas as the builder. At 4:48 and 4:57 the Plain keeps Alexandrinus's singular (see the 4:48 entry).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "4:55",
+  "a": "blessed Heaven",
+  "t": "\"The God of heaven\"",
+  "p": "The KJV says they praised 'the God of heaven.' The Greek and the Vulgate have only 'heaven.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Swete reports no other reading of these words",
+    "orig": "ηὐλόγησαν εἰς οὐρανὸν",
+    "en": "they blessed toward heaven",
+    "plain": "blessed Heaven"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "praising the God of heaven",
+    "plain": "blessed the God of Heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The Vulgate (benedixerunt in caelum) and the Douay (\"blessed up to heaven\") keep the Greek's reticence; the KJV supplies the name.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "1:37",
+  "a": "They shed innocent blood all around the sanctuary",
+  "t": "\"The sanctuary of the Lord\"",
+  "p": "Venetus reads 'the sanctuary of the Lord,' one of the few places where a witness of 1 Maccabees names God.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus agrees",
+    "orig": "κύκλῳ τοῦ ἁγιάσματος",
+    "en": "around the sanctuary",
+    "plain": "They shed innocent blood all around the sanctuary"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, which adds \"of the Lord\" (κυρίου, abbreviated)",
+    "orig": "αγιασματος] + κυ V",
+    "en": "around the sanctuary of the Lord",
+    "plain": "They shed innocent blood all around the sanctuary of the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "Venetus alone adds the word, against Alexandrinus and Sinaiticus; the book elsewhere avoids naming God (see the note at 2:61).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:55",
+  "a": "at the windows of the houses",
+  "t": "Windows or doors",
+  "p": "Alexandrinus says incense was burned at the windows of the houses; Sinaiticus, Venetus and the KJV say at the doors.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐπὶ τῶν θυρίδων τῶν οἰκιῶν",
+    "en": "at the windows of the houses",
+    "plain": "at the windows of the houses"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"at the doors of their houses\") and the Vulgate (ante januas domorum) follow this text",
+    "orig": "θυριδων] θυρων ℵV",
+    "en": "at the doors of the houses",
+    "plain": "at the doors of the houses"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words look alike, and doors seem the likelier place for an offering in the street. But Jeremiah tells of incense burned to other gods on roofs (Jeremiah 19:13), so an offering at a window is possible, and the Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:28",
+  "a": "and he ordered them to be ready for a year for every need",
+  "t": "\"For a year\" twice",
+  "p": "Alexandrinus says 'for a year' twice: pay for a year, and readiness for a year. Sinaiticus and Venetus have it once.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ ἐνετείλατο αὐτοῖς εἰς ἐνιαυτὸν εἶναι ἑτοίμους εἰς πᾶσαν χρείαν",
+    "en": "and he ordered them to be ready for a year for every need",
+    "plain": "and he ordered them to be ready for a year for every need"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus, which lack the second \"for a year\"; the KJV (\"commanding them to be ready whensoever he should need them\") gives this sense",
+    "orig": "om εις ενιαυτον ℵV",
+    "en": "and he ordered them to be ready for every need",
+    "plain": "and he ordered them to be ready for every need"
+   }
+  ],
+  "follow": 0,
+  "why": "The repeated phrase may be a scribe's echo of the first, or the original's stress on a year's campaign. The meaning hardly changes.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "3:35",
+  "a": "to root out and wipe out",
+  "t": "Root out or crush",
+  "p": "Alexandrinus says 'to root out'; Sinaiticus has a word meaning 'to crush.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV (\"to destroy and root out\") gives this sense",
+    "orig": "τοῦ ἐκρίψαι καὶ ἐξᾶραι",
+    "en": "to throw out and remove",
+    "plain": "to root out and wipe out"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "και του εκτριφαι ℵ [sic, for ἐκτρῖψαι]",
+    "en": "and to crush and remove",
+    "plain": "and to crush and wipe out"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ by one letter in Greek. Alexandrinus's \"root out\" fits the plan to resettle the land (3:36).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "4:33",
+  "a": "all who know your name",
+  "t": "\"Who know\" or \"who have seen\"",
+  "p": "Alexandrinus has a form that would mean 'who have seen your name'; Sinaiticus, Venetus and the KJV have 'who know.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "οἱ ἰδόντες τὸ ὄνομά σου",
+    "en": "those who have seen your name",
+    "plain": "all who have seen your name"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"all those that know thy name\") follows this text",
+    "orig": "ειδοτες ℵV",
+    "en": "those who know your name",
+    "plain": "all who know your name"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain departs from Alexandrinus here. \"Those who know your name\" is a phrase of the Psalms (Psalm 9:10), and in the Greek of this period <i>ei</i> and <i>i</i> sounded alike, so Alexandrinus's spelling is probably a slip for the same word.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "4:48",
+  "a": "he consecrated the courts",
+  "t": "\"He\" or \"they\" consecrated",
+  "p": "Alexandrinus says 'he consecrated the courts'; Sinaiticus says 'they consecrated.'",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ τὰς αὐλὰς ἡγίασεν",
+    "en": "and he consecrated the courts",
+    "plain": "he consecrated the courts"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; the KJV (\"and hallowed the courts\") and the Vulgate (sanctificaverunt) give the plural sense",
+    "orig": "48 ηγιασαν ℵ",
+    "en": "and they consecrated the courts",
+    "plain": "they consecrated the courts"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular is Alexandrinus's, and the Plain keeps it; see the note on who is meant.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ }
+]

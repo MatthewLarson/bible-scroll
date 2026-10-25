@@ -1,0 +1,136 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Bible Scroll</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=GFS+Didot&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Kalam:wght@400;700&family=Noto+Serif+Ethiopic:wght@400;600&family=Noto+Serif+Hebrew:wght@400;600&display=swap">
+<style>
+/*BASE_CSS*/
+/* ---------- additions for the whole-Bible site ---------- */
+:root{ --f-hebrew:"Noto Serif Hebrew","SBL Hebrew","Ezra SIL","Times New Roman",serif; --n-variant:#5a3b6b; --n-setting:#2d5f6e; --sea:#3f6f86; --n-trad:#6a3f2a; --w-dc:#7b4f9e; --w-orth:#8a5a2b; --w-eth:#2f6f5e; --w-other:#7a6f66; --w-early:#6b6f2f; --w-lost:#8a3b3b; --k-Events:#7a5230; --k-Studies:#2f7a55 }
+.brand{cursor:pointer; background:none; border:none; padding:0; text-align:left; color:inherit}
+.bookbtn{display:inline-flex; align-items:center; gap:6px; border:1.5px solid rgba(235,218,179,.55); background:transparent; color:var(--parch); border-radius:var(--wobble); padding:1px 12px; font-family:var(--f-display); font-size:.95rem; white-space:nowrap}
+body.mode-lib .bookbtn, body.mode-lib #lenses, body.mode-lib .tsel, body.mode-lib #chapNav, body.mode-lib #topicNav,
+body.mode-topic #lenses, body.mode-topic .tsel, body.mode-topic #chapNav, body.mode-topic #topicNav{display:none}
+body.mode-lib .foot .nav, body.mode-topic .foot .nav{visibility:hidden}
+.article{flex:1; min-height:0; overflow-y:auto; padding:10px var(--gutter-r) 20px var(--gutter-l); display:none}
+body.mode-lib .article, body.mode-topic .article{display:block}
+body.mode-lib .stage, body.mode-topic .stage{display:none}
+.leaf{max-width:860px; margin:0 auto; padding:26px 40px 40px; border-radius:14px 22px 16px 20px / 20px 14px 22px 16px; position:relative;
+  background-color:var(--parch); background-image:radial-gradient(ellipse 60% 50% at 30% 30%, rgba(255,248,226,.55), transparent 70%), radial-gradient(ellipse 50% 60% at 80% 80%, rgba(150,105,50,.12), transparent 70%);
+  box-shadow:inset 0 0 60px rgba(110,70,30,.35), 0 10px 40px rgba(0,0,0,.4)}
+.leaf > *{max-width:72ch}
+@media (max-width:700px){ .leaf{padding:18px 18px 30px} }
+.search{display:flex; gap:8px; margin:14px 0 6px; max-width:560px}
+.search input{flex:1; min-width:0; font:inherit; font-size:1rem; padding:6px 14px; border:1.6px solid var(--ink-2); border-radius:var(--wobble); background:rgba(246,235,207,.7); color:var(--ink)}
+.results{list-style:none; padding:0; margin:6px 0 14px; display:grid; gap:4px; max-width:620px}
+.results li{font-size:.92rem}
+.shelf{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; margin:8px 0 18px}
+.bk{display:flex; flex-direction:column; gap:2px; text-align:left; border:1.6px solid var(--ink-2); background:rgba(246,235,207,.35); border-radius:var(--wobble); padding:8px 12px; color:var(--ink); min-width:0}
+.bk b{font-family:var(--f-display); font-weight:400; font-size:1.05rem; line-height:1.15}
+.bk small{font-family:var(--f-hand); font-size:.78rem; color:var(--ink-2)}
+.bk.st-reviewed{border-color:var(--olive); background:rgba(85,97,42,.1)} .bk.st-draft{border-color:var(--ochre); background:rgba(180,111,38,.1)}
+.bk.st-text{border-style:dashed}
+.legend{display:flex; flex-wrap:wrap; gap:6px 16px; font-family:var(--f-hand); font-size:.82rem; color:var(--ink-2)}
+.legend i{display:inline-block; width:14px; height:10px; border-radius:4px; border:1.6px solid var(--c); margin-right:5px; vertical-align:-1px}
+.facts{display:grid; grid-template-columns:8.5em 1fr; gap:4px 12px; margin:10px 0; font-size:.93rem}
+.facts dt{font-family:var(--f-display); color:var(--red); font-size:.84rem; letter-spacing:.05em}
+.facts dd{margin:0; min-width:0}
+.outline{list-style:none; padding:0; margin:6px 0; display:grid; gap:4px; font-size:.93rem}
+.outline li{display:grid; grid-template-columns:6.5em 1fr; gap:10px}
+.outline b{font-family:var(--f-display); font-weight:400; color:var(--red)}
+.views li b{font-size:.86rem}
+@media (min-width:701px){ .views li{grid-template-columns:18px minmax(6.6em, max-content) 1fr} }
+body[data-lens] .views li.on{opacity:1} .views li.on span{background:linear-gradient(transparent 62%, rgba(180,111,38,.18) 0)}
+/* Hebrew */
+.heb{font-family:var(--f-hebrew); direction:rtl; unicode-bidi:isolate}
+.tbody.hebt p{font-family:var(--f-hebrew); direction:rtl; text-align:right; font-size:1.3rem; line-height:1.9}
+.tbody.hebt .vn{font-family:var(--f-display)}
+.tbody.words.hebw p{direction:rtl; text-align:right}
+.gw b.heb{font-family:var(--f-hebrew); font-size:1.28rem}
+.gw.q{outline:1.5px dotted var(--n-variant); outline-offset:2px; border-radius:6px}
+/* poetry and psalm titles */
+.ln{display:block; padding-left:1.4em; text-indent:-1.4em}
+.ln + .ln{margin-top:.05em}
+.tbody p.poem .v{display:block; margin-bottom:.35em}
+.vt{display:block; font-style:italic; color:var(--ink-2); font-size:.95em; margin-bottom:.3em}
+/* variants */
+.vr{border-bottom:2px solid var(--n-variant); background:linear-gradient(transparent 62%, color-mix(in srgb, var(--n-variant) 14%, transparent) 0); cursor:pointer; border-radius:2px}
+.vr.alt{background:color-mix(in srgb, var(--n-variant) 24%, transparent)}
+.vr::after{content:"\2042"; font-size:.68em; color:var(--n-variant); vertical-align:.5em; margin-left:1px}
+body.hide-variant .vr{border:none; background:none; cursor:text} body.hide-variant .vr::after{display:none}
+.rdg{border:1.4px solid var(--ink-3); border-radius:var(--wobble); padding:8px 12px; margin:8px 0}
+.rdg.on{border-color:var(--n-variant); background:rgba(90,59,107,.07)}
+.rdg .w{font-family:var(--f-hand); font-size:.84rem; color:var(--n-variant)}
+.rdg .o{font-family:var(--f-greek); font-size:1.08rem}
+.rdg .o.heb{font-family:var(--f-hebrew); font-size:1.15rem}
+.rdg .follow{font-family:var(--f-display); font-size:.72rem; letter-spacing:.1em; color:var(--parch-hi); background:var(--n-variant); border-radius:var(--wobble); padding:1px 8px; margin-left:6px}
+/* verse numbers open the verse panel */
+button.vn{background:none; border:none; padding:0; cursor:pointer}
+.xr{display:flex; flex-wrap:wrap; gap:4px 10px; font-size:.9rem}
+.cites{list-style:none; padding:0; margin:4px 0; display:grid; gap:5px; font-size:.9rem}
+/* topic pages */
+.filterbar{display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:10px 0 14px; padding:8px 12px; border:1.6px dashed var(--ochre); border-radius:var(--wobble); font-size:.92rem}
+.filterbar .seg{display:inline-flex; border:1.4px solid var(--ink-2); border-radius:var(--wobble); overflow:hidden}
+.filterbar .seg button{border:none; background:none; padding:2px 12px; font-family:var(--f-hand); font-size:.86rem}
+.filterbar .seg button[aria-pressed="true"]{background:var(--ink); color:var(--parch-hi)}
+.tsec{margin:4px 0 14px}
+.tsec .from{font-family:var(--f-hand); font-size:.8rem; color:var(--ink-3)}
+.bookgrp{border-top:1.4px solid rgba(90,67,48,.35); margin-top:16px; padding-top:6px}
+.bookgrp > h3{margin-top:6px}
+.across{display:flex; flex-wrap:wrap; gap:6px}
+.across button{border:1.2px solid var(--ink-3); background:none; border-radius:var(--wobble); padding:1px 10px; font-size:.84rem}
+.dim{opacity:.55}
+.v.om{font-style:italic; color:color-mix(in srgb, var(--ink) 60%, transparent)} .v.om .vr.alt{font-style:normal; color:var(--ink)}
+.pagehtml h3{margin-top:18px}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="spray"><stop offset="0" stop-color="#b46f26" stop-opacity=".85"/><stop offset=".6" stop-color="#a5571f" stop-opacity=".55"/><stop offset="1" stop-color="#a5571f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sprayRed"><stop offset="0" stop-color="#983220" stop-opacity=".75"/><stop offset="1" stop-color="#983220" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#e9b44c"/><stop offset=".7" stop-color="#c98a2c"/><stop offset="1" stop-color="#b46f26" stop-opacity=".2"/></radialGradient>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#5a4330" stroke-width="1" opacity=".35"/></pattern>
+    <pattern id="spots" width="14" height="12" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2.2" fill="#2a1c12" opacity=".7"/><circle cx="11" cy="9" r="1.8" fill="#2a1c12" opacity=".6"/></pattern>
+  </defs>
+</svg>
+
+<header class="top">
+  <button class="brand" id="home" aria-label="The Bible Scroll: library"><b>The Bible Scroll</b><span>every book, read sideways</span></button>
+  <button class="bookbtn" id="bookbtn" aria-label="Choose a book">Books</button>
+  <div class="controls">
+    <label class="tsel">Text <select id="tsel" aria-label="Translation shown on the text pages"></select></label>
+    <div class="chipset" id="lenses" role="group" aria-label="Highlight one interpretive view"></div>
+    <div class="chipset"><button class="chip" id="specToggle" aria-pressed="true">Claude's theories shown</button><button class="chip" id="glossToggle" aria-pressed="true">Today's words shown</button></div>
+  </div>
+  <nav class="navrow" id="chapNav" aria-label="Chapters and study pages"></nav>
+  <nav class="navrow" id="topicNav" aria-label="Topic pages"></nav>
+</header>
+
+<main class="stage">
+  <div class="roller l"></div>
+  <div class="track" id="track" tabindex="0" aria-label="The book, read sideways">
+    <div class="sheet" id="sheet"></div>
+  </div>
+  <div class="roller r"></div>
+</main>
+<main class="article" id="article"><div class="leaf" id="leaf"></div></main>
+
+<footer class="foot">
+  <button class="nav" id="prev" aria-label="Previous pages">&#8592;</button>
+  <div class="where" id="where">Library</div>
+  <button class="nav" id="next" aria-label="Next pages">&#8594;</button>
+</footer>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<div class="modal" id="modal" hidden>
+  <div class="mbox" role="dialog" aria-modal="true" aria-labelledby="mtitle">
+    <header><button id="mback" aria-label="Back" hidden>&#8592;</button><div class="mt" id="mtype"></div><button id="mclose" aria-label="Close">&#10005;</button></header>
+    <div class="mbody" id="mbody"></div>
+  </div>
+</div>

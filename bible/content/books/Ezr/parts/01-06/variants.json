@@ -1,0 +1,513 @@
+[
+ {
+  "v": "1:3",
+  "a": "May his God be with him",
+  "t": "'His God' or 'the LORD his God'?",
+  "p": "Ezra reads 'may (his God) be' (yehi). Chronicles reads the divine name (YHWH) in the same place.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): καὶ ἔσται ὁ θεὸς αὐτοῦ μετ᾽ αὐτοῦ",
+    "orig": "יְהִי אֱלֹהָיו עִמּוֹ",
+    "en": "may his God be with him",
+    "plain": "May his God be with him"
+   },
+   {
+    "w": "2 Chronicles 36:23 (Masoretic Text; the site's Plain); 1 Esdras 2:5 (KJV numbering, 'let the Lord, even his Lord, be with him')",
+    "orig": "יְהוָה אֱלֹהָיו עִמּוֹ",
+    "en": "the LORD his God be with him",
+    "plain": "The LORD his God be with him"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words look alike in Hebrew (yhy and yhwh). Ezra's form is a wish, Chronicles' a blessing in the LORD's name. Most scholars think one was misread from the other, and the Plain keeps each book's own text. 1 Esdras seems to combine them.",
+  "s": [
+   "williamson-ezra-neh",
+   "japhet-chronicles",
+   "talshir-1esdras",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "410 silver bowls of a second kind",
+  "t": "410, 200 or 2,410 silver bowls?",
+  "p": "The Hebrew 'of a second kind' (mishnim) is odd. The Greek of Ezra has 200; 1 Esdras has 2,410.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּפוֹרֵי כֶסֶף מִשְׁנִים אַרְבַּע מֵאוֹת וַעֲשָׂרָה",
+    "en": "silver bowls, second (kind), four hundred and ten",
+    "plain": "410 silver bowls of a second kind"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): ἀργυροῖ διακόσιοι, with no word for 'second kind'",
+    "orig": "",
+    "en": "two hundred silver (bowls)",
+    "plain": "200 silver bowls"
+   },
+   {
+    "w": "1 Esdras 2:13 (KJV numbering, 'of silver two thousand four hundred and ten'); a common modern correction of mishnim to alpayim, 'two thousand'",
+    "orig": "אַלְפַּיִם אַרְבַּע מֵאוֹת וַעֲשָׂרָה (reconstructed)",
+    "en": "2,410 silver bowls",
+    "plain": "2,410 silver bowls"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Hebrew. Many scholars think <i>mishnim</i> is a slip for <i>alpayim</i>, 'two thousand,' which would make the bowls 2,410 and bring the total nearer the 5,400 of 1:11. The Greek translator seems to have read the word as 'two' (hundred). See the note on 1:11.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "2:25",
+  "a": "Kiriath-jearim",
+  "t": "Kiriath-arim or Kiriath-jearim?",
+  "p": "The Hebrew of Ezra has 'Kiriath-arim.' Nehemiah 7:29 and the Greek read the well-known town Kiriath-jearim.",
+  "readings": [
+   {
+    "w": "Nehemiah 7:29 (Masoretic Text); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): Καριαθιαριμ; the spelling of 1 Esdras 5:19 (KJV numbering), which has 'Kiriathiarius' as a separate line with its own number, 25, then Caphira and Beroth, 743, and adds 'Pira, 700'",
+    "orig": "קִרְיַת יְעָרִים",
+    "en": "Kiriath-jearim",
+    "plain": "Kiriath-jearim"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of Ezra 2:25 (KJV 'Kirjath-arim')",
+    "orig": "קִרְיַת עָרִים",
+    "en": "Kiriath-arim, 'town of towns'",
+    "plain": "Kiriath-arim"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from the Leningrad Codex. Kiriath-jearim, 'town of forests,' is the town where the ark stayed (1 Samuel 7:1-2) and is grouped with Chephirah and Beeroth in Joshua 9:17. Ezra's Hebrew has probably lost a letter (yod) in copying; the Greek of Ezra itself has the longer name.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:46",
+  "a": "Shalmai",
+  "t": "Shalmai or Shamlai?",
+  "p": "The written Hebrew has 'Shamlai'; the Masoretes' reading, and Nehemiah 7:48, have 'Shalmai.'",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud); Nehemiah 7:48",
+    "orig": "שַׁלְמַי",
+    "en": "Shalmai",
+    "plain": "Shalmai"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "שַׁמְלַי",
+    "en": "Shamlai",
+    "plain": "Shamlai"
+   }
+  ],
+  "follow": 0,
+  "why": "The two forms differ only in the order of two letters, an easy slip. The Plain follows the Qere, which agrees with the same list in Nehemiah.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:50",
+  "a": "Meunim and Nephusim",
+  "t": "Meunim and Nephusim, or Meinim and Nephisim?",
+  "p": "In both names the written Hebrew has an i-vowel letter (yod) where the Masoretes read u (waw).",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud); Nehemiah 7:52 has Meunim and a longer form of the second name",
+    "orig": "מְעוּנִים ... נְפוּסִים",
+    "en": "Meunim ... Nephusim",
+    "plain": "Meunim and Nephusim"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "מְעִינִים ... נְפִיסִים",
+    "en": "Meinim ... Nephisim",
+    "plain": "Meinim and Nephisim"
+   }
+  ],
+  "follow": 0,
+  "why": "Yod and waw look alike in the Hebrew script and are often confused. Meunim fits a known people (the Meunites of 1 Chronicles 4:41; 2 Chronicles 26:7), and Nehemiah supports it. The Plain follows the Qere in both names.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:65",
+  "a": "200 male and female singers",
+  "t": "200 or 245 singers?",
+  "p": "Ezra has 200 singers. Nehemiah 7:67 and 1 Esdras 5:42 have 245. A copying slip may explain either figure.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מָאתָיִם",
+    "en": "two hundred",
+    "plain": "200 male and female singers"
+   },
+   {
+    "w": "Nehemiah 7:67 (Masoretic Text); 1 Esdras 5:42 (KJV numbering, 'two hundred forty and five')",
+    "orig": "מָאתַיִם וְאַרְבָּעִים וַחֲמִשָּׁה",
+    "en": "two hundred and forty-five",
+    "plain": "245 male and female singers"
+   }
+  ],
+  "follow": 0,
+  "why": "The next line gives 245 mules (2:66), and two copying slips are possible, pointing opposite ways. (1) In Nehemiah, a copyist's eye may have run from the singers' \"two hundred\" to the mules' \"two hundred and forty-five\": then Nehemiah's 245 singers are really the mules' number, Ezra's 200 is right, and Nehemiah lost its horses-and-mules line (Nehemiah 7:68). (2) Or the singers really were 245, a copyist of Nehemiah skipped from that 245 to the mules' 245, and Ezra's 200 is a separate slip or a round figure. The Plain keeps Ezra's own number; see the variants on Nehemiah 7:67–68.",
+  "s": [
+   "williamson-ezra-neh",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "they offered",
+  "t": "'They offered' or 'he offered'?",
+  "p": "The written Hebrew has a singular verb, 'he offered'; the Masoretes read the plural.",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud)",
+    "orig": "וַיַּעֲלוּ",
+    "en": "and they offered up",
+    "plain": "they offered"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "וַיַּעַל",
+    "en": "and he offered up",
+    "plain": "he offered"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural fits the people as subject of the verse. The singular could mean the people as one body, or Jeshua as the priest who did the offering. The sense hardly changes; the Plain follows the Qere.",
+  "s": [
+   "williamson-ezra-neh"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "the sons of Judah",
+  "t": "Sons of Judah, or of Hodaviah?",
+  "p": "The Hebrew says 'the sons of Judah.' Many scholars read 'Hodaviah,' the Levite family of 2:40. The NIV does.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV",
+    "orig": "בְּנֵי יְהוּדָה",
+    "en": "the sons of Judah",
+    "plain": "the sons of Judah"
+   },
+   {
+    "w": "Modern correction based on 2:40 and Nehemiah 7:43 (followed by the NIV)",
+    "orig": "בְּנֵי הוֹדַוְיָה (reconstructed)",
+    "en": "the sons of Hodaviah",
+    "plain": "the sons of Hodaviah"
+   }
+  ],
+  "follow": 0,
+  "why": "The names are similar in Hebrew, and 2:40 lists 'Jeshua and Kadmiel, from the line of Hodaviah' as Levites, so the correction is attractive. But 'Judah' can be kept if it means the Levites who belonged to the province of Judah. The Plain keeps the Hebrew and gives the correction here.",
+  "s": [
+   "williamson-ezra-neh",
+   "blenkinsopp-ezra-neh"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "We have offered sacrifices to him",
+  "t": "'To him' or 'not'?",
+  "p": "The written Hebrew says 'we have not sacrificed'; the Masoretes' reading, followed by almost all versions, says 'to him we have sacrificed.'",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): καὶ αὐτῷ ἡμεῖς θυσιάζομεν; 1 Esdras 5:69 (KJV numbering, 'do sacrifice unto him'); KJV and modern versions",
+    "orig": "וְלוֹ אֲנַחְנוּ זֹבְחִים",
+    "en": "and to him we sacrifice",
+    "plain": "We have offered sacrifices to him"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "וְלֹא אֲנַחְנוּ זֹבְחִים",
+    "en": "and we do not sacrifice",
+    "plain": "Yet we have not offered sacrifices"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>lo</i> 'to him' and <i>lo</i> 'not' sound the same and differ by one letter. The Qere fits the sentence: the speakers say they have worshiped Israel's God for generations. The Ketiv is usually taken as a scribal slip. The Plain follows the Qere with nearly every translation. 1 Esdras 5:69 (KJV numbering) also names the Assyrian king differently, 'Azbazareth' instead of Esarhaddon.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb",
+   "rahlfs-lxx",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "the rest of his colleagues",
+  "t": "'His colleagues' or 'his colleague'?",
+  "p": "The written Hebrew has a singular, 'his colleague'; the Masoretes read the plural.",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud)",
+    "orig": "כְּנָוֺתָיו",
+    "en": "his colleagues",
+    "plain": "the rest of his colleagues"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "כְּנָוֺתוֹ",
+    "en": "his colleague(s)",
+    "plain": "the rest of his colleague"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular may be a collective noun or an Aramaic-style spelling of the plural, so the two readings probably mean the same. The Plain follows the Qere.",
+  "s": [
+   "williamson-ezra-neh",
+   "rosenthal-aramaic"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "that is, the Elamites",
+  "t": "'That is,' or 'the Dehavites'?",
+  "p": "The written Aramaic reads 'that is,' explaining the people of Susa. The Masoretes marked a people's name to be read instead, 'the Dehavites.'",
+  "readings": [
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): Σουσαναχαῖοι οἵ εἰσιν Ηλαμαῖοι, 'Susanchites, who are Elamites'; most modern versions",
+    "orig": "דִּהוּא",
+    "en": "that is",
+    "plain": "that is, the Elamites"
+   },
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud); KJV ('the Dehavites')",
+    "orig": "דֶּהָיֵא",
+    "en": "the Dehavites",
+    "plain": "the Dehavites, the Elamites"
+   }
+  ],
+  "follow": 0,
+  "why": "No people called Dehavites is known elsewhere, and Susa was the capital of Elam, so 'the people of Susa, that is, the Elamites' makes good sense, and the Greek of Ezra reads it that way. The KJV followed the Masoretes' reading. Here the Plain follows the written text, not the Qere.",
+  "s": [
+   "williamson-ezra-neh",
+   "rosenthal-aramaic",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "the city of Samaria",
+  "t": "City or cities of Samaria?",
+  "p": "The Aramaic says 'the city' of Samaria. The Greek and most modern versions say 'the cities.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּקִרְיָה דִּי שָׁמְרָיִן",
+    "en": "in the city of Samaria",
+    "plain": "the city of Samaria"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): ἐν πόλεσιν τῆς Σομορων; ESV, NIV, BSB",
+    "orig": "בְּקִרְיָא (read as plural)",
+    "en": "in the cities of Samaria",
+    "plain": "the cities of Samaria"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form is singular, but it may be read as a collective or, with a small change, as plural, which matches 2 Kings 17:24, where settlers are placed 'in Samaria's towns.' Either way the meaning is the region around Samaria.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "4:11",
+  "a": "from your servants",
+  "t": "'Your servants' or 'your servant'?",
+  "p": "Here the written Aramaic has the plural 'your servants'; the Masoretes read a singular, used as a collective.",
+  "readings": [
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "עֲבָדַיִךְ",
+    "en": "your servants",
+    "plain": "from your servants"
+   },
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud)",
+    "orig": "עַבְדָךְ",
+    "en": "your servant",
+    "plain": "from your servant"
+   }
+  ],
+  "follow": 0,
+  "why": "Both mean the same group, the men of Beyond the River. The Plain follows the Ketiv here, because the plural reads naturally in English; with 4:9, this is one of two places in 1–6 where it does not follow a Qere.",
+  "s": [
+   "williamson-ezra-neh",
+   "rosenthal-aramaic"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "Then we said to them",
+  "t": "'We said' or 'they said'?",
+  "p": "The Aramaic has 'we said,' as if the narrator were one of the Jews, or as if this were Tattenai's report. The Greek has 'they said.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֱדַיִן כְּנֵמָא אֲמַרְנָא לְּהֹם",
+    "en": "then thus we said to them",
+    "plain": "Then we said to them"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): τότε ταῦτα εἴποσαν αὐτοῖς; 1 Esdras 6:4 (KJV numbering) also has the officials asking; ESV, NIV",
+    "orig": "(reading אֲמַרוּ, 'they said')",
+    "en": "then they said to them",
+    "plain": "Then they said to them"
+   }
+  ],
+  "follow": 0,
+  "why": "The first person is the harder reading and may be a trace of the source: either a Jewish eyewitness memoir or Tattenai's own letter, which uses 'we asked' in 5:9–10. The Greek smooths it into the third person. The Plain keeps the Aramaic.",
+  "s": [
+   "williamson-ezra-neh",
+   "blenkinsopp-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "the man he had made governor",
+  "t": "Governor, or treasurer?",
+  "p": "The Aramaic calls Sheshbazzar governor (pechah). The Greek of Ezra calls him 'the treasure keeper over the treasury.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Esdras 6:18 (KJV numbering, 'Sanabassarus the ruler')",
+    "orig": "דִּי פֶחָה שָׂמֵהּ",
+    "en": "whom he had made governor",
+    "plain": "the man he had made governor"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): τῷ θησαυροφύλακι τῷ ἐπὶ τοῦ θησαυροῦ",
+    "orig": "",
+    "en": "the treasure keeper who was over the treasury",
+    "plain": "the treasurer who was over the treasury"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may be influenced by Mithredath 'the treasurer' in 1:8. Its reading has no Hebrew or Aramaic support. The Plain keeps 'governor,' which matches the other Aramaic title in 5:3 and 6:7.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "and its foundations are to be kept",
+  "t": "Foundations kept, or offerings brought?",
+  "p": "The Aramaic is hard. Some read a small change: 'and burnt offerings are brought,' as the NRSV does.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV, NIV",
+    "orig": "וְאֻשּׁוֹהִי מְסוֹבְלִין",
+    "en": "and its foundations are retained (or raised)",
+    "plain": "and its foundations are to be kept"
+   },
+   {
+    "w": "Modern correction (followed by the NRSV), reading אֶשּׁוֹהִי, 'its fire offerings'",
+    "orig": "וְאֶשּׁוֹהִי מְסוֹבְלִין (reconstructed)",
+    "en": "and its fire offerings are brought",
+    "plain": "and burnt offerings are to be brought"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb <i>mesobelin</i> means 'carried, borne' and fits offerings that are brought better than foundations that are kept. The correction changes only the vowels of one word. The Plain keeps the received text, which can mean that the old foundations should be used, or raised.",
+  "s": [
+   "williamson-ezra-neh",
+   "blenkinsopp-ezra-neh",
+   "rosenthal-aramaic"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "one course of new timber",
+  "t": "New timber, or one course of timber?",
+  "p": "The Aramaic says 'new' (chadat). The Greek read 'one' (chad), which many versions follow.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Esdras 6:25 (KJV numbering, 'one row of new wood')",
+    "orig": "וְנִדְבָּךְ דִּי־אָע חֲדַת",
+    "en": "and a course of new wood",
+    "plain": "one course of new timber"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): καὶ δόμος ξύλινος εἷς; ESV, NIV",
+    "orig": "(reading חַד, 'one')",
+    "en": "and one course of wood",
+    "plain": "one course of timber"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter. 'One' matches 'three' before it and makes a neat pattern; 'new' is the harder reading. 1 Esdras seems to have both. The Plain keeps the Aramaic and supplies 'one' from the sense.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "and doing well",
+  "t": "Prospering, or the Levites?",
+  "p": "The Aramaic says the elders were 'building and prospering.' The Greek reads 'building, and the Levites.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בָּנַיִן וּמַצְלְחִין",
+    "en": "building and prospering",
+    "plain": "and doing well"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): ᾠκοδομοῦσαν καὶ οἱ Λευῖται",
+    "orig": "",
+    "en": "were building, and the Levites",
+    "plain": "along with the Levites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to have misread the participle. 'Prospering' repeats the word of Tattenai's report (5:8, 'going well in their hands'), and is kept.",
+  "s": [
+   "rahlfs-lxx",
+   "williamson-ezra-neh"
+  ]
+ },
+ {
+  "v": "6:15",
+  "a": "on the third day of the month of Adar",
+  "t": "The third or the twenty-third of Adar?",
+  "p": "The Aramaic and the Greek of Ezra say the third day. 1 Esdras and Josephus say the twenty-third.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah (Rahlfs, checked on blueletterbible.org): ἕως ἡμέρας τρίτης μηνὸς Αδαρ",
+    "orig": "עַד יוֹם תְּלָתָה לִירַח אֲדָר",
+    "en": "until the third day of the month Adar",
+    "plain": "on the third day of the month of Adar"
+   },
+   {
+    "w": "1 Esdras 7:5 (KJV numbering, 'the three and twentieth day of the month Adar'); Josephus, <i>Antiquities</i> 11.107 (the twenty-third day, but in the ninth year of Darius, not the sixth)",
+    "orig": "",
+    "en": "on the twenty-third day of Adar",
+    "plain": "on the twenty-third day of the month of Adar"
+   }
+  ],
+  "follow": 0,
+  "why": "Some scholars prefer the twenty-third, thinking that \"twenty\" dropped out of the Aramaic. But the shorter date has the two main witnesses. Josephus follows a 1 Esdras-type text for the day and differs from every witness on the year, so he is not independent support. The Plain follows the Aramaic and the Greek of Ezra.",
+  "s": [
+   "williamson-ezra-neh",
+   "talshir-1esdras",
+   "josephus-ant",
+   "rahlfs-lxx"
+  ]
+ }
+]

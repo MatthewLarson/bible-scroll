@@ -1,0 +1,546 @@
+{
+ "title": "Genesis",
+ "subtitle": "In the beginning",
+ "lead": [
+  "Genesis means \"origin,\" and its Hebrew name, <i>Bereshit</i>, is its first word: \"In the beginning.\" It tells two stories. Chapters 1–11 tell of the whole world: creation, the first humans and their rebellion, the first murder, the flood, and the scattering of the nations at Babel. Chapters 12–50 narrow to one family: Abraham and Sarah, Isaac and Rebekah, Jacob and his wives, and Jacob's twelve sons, ending with Joseph in Egypt. The hinge is God's call to Abraham (12:1–3): through this one family, \"all the clans of the earth will find blessing.\"",
+  "Few books have been read in so many ways. For most of history Jews and Christians read it as history in every part; many still do, including young-earth creationists. Many others hold it historical but read the days, the genealogies or the flood more flexibly, and still others read its opening chapters as theology in the shape of ancient story. Since the 1800s critical scholars have read Genesis as woven from older sources and as Israel's answer to the myths of Babylon and Egypt. This edition sets out each of these readings in its strongest form, says where there is a consensus and where there is not, and leaves the choice to the reader."
+ ],
+ "facts": [
+  [
+   "Author",
+   "Not named. Jewish and Christian tradition: Moses. Most critical scholars: several sources woven together over centuries, finished during or after the exile."
+  ],
+  [
+   "Date",
+   "Traditional: about 1400s or 1200s BC. Critical: sources from the 900s to the 400s BC."
+  ],
+  [
+   "Setting",
+   "From creation to Mesopotamia, Canaan and Egypt"
+  ],
+  [
+   "Kind of writing",
+   "Ancient history and family stories, with poems, lists and genealogies. How literally to read chapters 1–11 is much debated."
+  ],
+  [
+   "Language",
+   "Hebrew"
+  ],
+  [
+   "Length",
+   "50 chapters, 1,533 verses"
+  ]
+ ],
+ "audience": {
+  "to": "The people of Israel, the descendants of Jacob's twelve sons, hearing the story of their own ancestors. On the traditional view the first hearers were the Israelites whom Moses led out of Egypt. They were former slaves camped in the wilderness on the way to Canaan, who needed to know who their God was and where they came from. On the critical view the book reached its final form for Judeans during and after the exile to Babylon (500s and 400s BC). Some lived in the small Persian province of Judah and others still lived abroad, and they had lost their king and much of their land.",
+  "why": "To tell Israel where the world and their people came from, and why. One God made a good world; human beings ruined it; and God chose one family so that through it \"all the clans of the earth will find blessing\" (12:3). The ancestors' stories gave the readers their claim to the land: sworn promises, and a grave bought at Hebron. They gave them their marks of identity: circumcision, the Sabbath, and not eating blood. And they gave them a mirror of their own tribes in Jacob's quarreling sons. Knowing the audience changes the reading. Promises of land mean most to people outside it or about to enter it. The creation story answers the gods of Egypt and Babylon. Abraham leaving Mesopotamia, Jacob coming home from Haran and Joseph serving a foreign king spoke straight to people in exile. Stories of brothers who hate and then forgive spoke to tribes who had to live together, and later to Judah and the north. On the chapter pages, \"First for\" names the people inside the story, and \"For the book's readers\" says what the words meant to Israel hearing it.",
+  "views": [
+   [
+    "Moses, for the wilderness generation",
+    "Jewish and Christian tradition holds that Moses wrote Genesis as the opening of the Torah. It was for the Israelites who had come out of Egypt and were about to enter Canaan. It shows them that the God who freed them is the Creator and the God of their fathers, and that the land was promised to them long before. Rashi's first comment asks why the Torah begins with creation, and answers that it proves the land is God's to give."
+   ],
+   [
+    "Moses, with later updating",
+    "Many conservative scholars hold that Genesis is substantially from Moses or Israel's early days, written first for the wilderness generation. A few later notes were added for readers already living in the land under kings. Examples are \"At that time the Canaanites were in the land\" (12:6) and the kings of Edom who reigned before Israel had a king (36:31)."
+   ],
+   [
+    "Older sources for the two kingdoms",
+    "On the Documentary Hypothesis, the theory that the Torah was woven from older written sources, the Yahwist source (J) was written for Judah under its kings in the 900s or 800s BC. The Elohist source (E) was written for the northern kingdom. Judah's rise (38; 49:8–12), Edom's defeat (25:23; 27:40) and the shrines at Bethel, Shechem and Hebron spoke to the concerns of those kingdoms."
+   ],
+   [
+    "A Priestly source from before the exile",
+    "Yehezkel Kaufmann and the Israeli scholars who followed him date the Priestly source (P) to the time of the kings, before the exile. Among them are Menahem Haran, Jacob Milgrom and Avi Hurvitz, who argues from the Hebrew of P. Milgrom places it no later than Hezekiah's reign (about 700 BC). On this view the laws of circumcision and blood spoke first to Israel living in its own land."
+   ],
+   [
+    "A book for exiles and returnees",
+    "Many critical scholars think the Priestly writers and the final editors shaped Genesis in the exile and the Persian period. For a people without temple or king, circumcision and the Sabbath became the signs of belonging. Abraham's journey from Ur was a model for the return from Babylon. The bought grave at Machpelah was a claim on the land, and the fair dealings of foreign kings fit life under Persia."
+   ]
+  ],
+  "s": [
+   "wenham-gen",
+   "sarna-gen",
+   "vonrad-gen",
+   "carr-fractures",
+   "blum-vatergeschichte",
+   "garrett-rethinking",
+   "hurvitz-linguistic",
+   "haran-temples"
+  ]
+ },
+ "lenses": [
+  {
+   "k": "L",
+   "name": "Literal history",
+   "desc": "The majority traditional Jewish and Christian reading, and young-earth creationists today: the events happened as told, in the order told, including six ordinary days, long lifespans and a worldwide flood."
+  },
+  {
+   "k": "O",
+   "name": "Old earth",
+   "desc": "Many evangelical and Catholic scholars hold the events historical but read the days, genealogies and flood more flexibly (day-age, analogical days, a regional flood), to fit an ancient universe."
+  },
+  {
+   "k": "F",
+   "name": "Literary-theological",
+   "desc": "Genesis teaches true things about God, people and the world through ancient literary forms: the week as a frame (Noordtzij, Kline; Augustine already read the days as non-chronological), creation as the founding of God's temple (Walton). Neither the science nor the dates are the point."
+  },
+  {
+   "k": "C",
+   "name": "Critical",
+   "desc": "Most academic scholars read Genesis as Israel's answer to Mesopotamian and Egyptian traditions, woven from older sources (often called J, E and P), with the ancestor stories as tradition shaped long after the events."
+  },
+  {
+   "k": "J",
+   "name": "Jewish tradition",
+   "desc": "The rabbis and medieval commentators (the Midrash, Rashi, Ibn Ezra, Ramban) read every detail for law, ethics and the story of Israel: the deeds of the fathers are a sign for the children."
+  }
+ ],
+ "sections": [
+  {
+   "h": "About the translations",
+   "b": "<p>The text page beside each chapter can show several translations. Only the one you pick is loaded.</p><h4>Plain English</h4><p>A fresh rendering made for this site from the Hebrew Masoretic Text (Leningrad Codex), aiming for about an 8th-grade reading level, written from the Hebrew word by word rather than adapted from another English version. It keeps key repeated words where English can: \"family history\" for <i>toledot</i>, the book's section heading, in all eleven places (see Structure below); \"dome\" for the <i>raqia</i> of 1:6; \"shapeless and empty\" for <i>tohu va-vohu</i>; \"ruin\" for <i>shachat</i> all through the flood story; \"bless\" and \"blessing\" throughout. Hebrew doubled verbs are kept as doubled English (\"you will die, yes die\"). Where the Masoretic Text differs from the Samaritan Pentateuch, the Septuagint or the Dead Sea Scrolls in a way that matters, the variant is shown beside the verse; in 4:8 the Plain English follows the longer ancient reading and says so.</p><h4>KJV, ASV, WEB, YLT</h4><p>Public-domain English versions. The KJV (1611, standard text of 1769) prints words the translators added in italics. Young's Literal Translation (1898) keeps Hebrew word order and tenses.</p><h4>BSB</h4><p>The Berean Standard Bible, a modern translation released into the public domain.</p><h4>Hebrew</h4><p>The Leningrad Codex (about AD 1008), the oldest complete Hebrew Bible, as edited by the Westminster Leningrad Codex project and corrected in STEPBible's TAHOT (Tyndale House, Cambridge), with each word's meaning and grammar.</p>"
+  },
+  {
+   "h": "How to read Genesis",
+   "b": "<p>Genesis is mostly story, and Hebrew story tells more than it explains. The narrator seldom says who is right; he lets speeches, repeated words and silences do the work. Watch for key words that come back: \"bless\" and \"curse\" (from 1:22 to 49:28), \"seed\" or \"offspring\" (3:15 to 48:19), \"know,\" \"see,\" \"firstborn,\" \"brother.\" Watch for repeated scenes: three times a patriarch says his wife is his sister (12, 20, 26), again and again the younger son is chosen over the older (Abel, Isaac, Jacob, Joseph, Ephraim), and barren women (Sarah, Rebekah, Rachel) wait for God to give a child.</p><p>The two halves need different questions. Chapters 1–11 are about all humanity, and readers differ most on what kind of writing they are: history, theological history told in ancient forms, or Israel's version of the stories its neighbors told. The lenses on each chapter page set out these readings side by side. Chapters 12–50 are family stories, closer to ordinary narrative, though here too readers differ on their date and how far they record events. Whatever one decides about those questions, the book's main claims are plain: one God made everything good; humans spoiled it; God did not abandon them, but chose one family to bring blessing back to the nations.</p>"
+  },
+  {
+   "h": "Structure: the family-history headings",
+   "b": "<p>Genesis divides itself. Ten times a heading says \"This is the family history (<i>toledot</i>) of...\", and an eleventh repeats one of them: the heavens and the earth (2:4), Adam (5:1), Noah (6:9), Noah's sons (10:1), Shem (11:10), Terah (11:27), Ishmael (25:12), Isaac (25:19), Esau (36:1, repeated in 36:9) and Jacob (37:2). The word comes from the verb \"to give birth\": each heading introduces what came from the person named, usually his descendants, so the family history of Terah is mostly about Abraham, and that of Jacob mostly about Joseph and his brothers. Before the first heading stands the prologue of the seven days (1:1–2:3).</p><p>The pattern alternates: a short list for the line that is set aside (Cain, Ishmael, Esau) and a long story for the chosen line. The headings also work like a funnel, from the heavens and the earth to all humankind, to one family, to twelve sons. Many readers see a larger shape as well: the primeval history (1–11), the Abraham cycle (11:27–25:11), the Jacob cycle (25:19–35:29) and the Joseph story (37–50), each with its own tensions and its own resolution. Whether the headings introduce what follows (the common view) or close what goes before (Wiseman's tablet theory) is debated; the Plain English treats them as introductions.</p>"
+  },
+  {
+   "h": "The sources debate",
+   "b": "<p>Who wrote Genesis, and how? The question is old; the modern debate began in 1753, when the French physician Jean Astruc noticed that some stories call God <i>Elohim</i> and others <i>YHWH</i>, and suggested Moses had used two older documents. Scholars after him found more: two accounts of creation (1:1–2:3 and 2:4–25), a flood story with doubled details (two of each animal or seven pairs, forty days or 150), three wife-sister stories, two expulsions of Hagar. By the 1880s Julius Wellhausen's form of the theory, J, E, D and P, dominated universities. In Genesis, P was found in the seven days, the genealogies, the flood dates, the covenants of chapters 9 and 17, and the ages of the patriarchs; J in the garden, Cain, Babel and most of the ancestor stories; E in parts of chapters 20–22 and the Joseph story.</p><p>Since the 1970s that consensus has broken up. Many critical scholars doubt a separate E, and many, especially in Europe, think the non-Priestly material grew in blocks that were joined late. What remains broadly agreed among critical scholars is that P is a distinct strand and that the book reached its final form in the Persian period. Conservative and many Jewish scholars (Umberto Cassuto, Kenneth Kitchen, Gordon Wenham, Duane Garrett) answer that the changes of divine name follow the subject matter, that ancient Near Eastern texts also repeat and vary deliberately, and that the doublets are literary patterns or repeated events. Literary readers such as Robert Alter, whatever their view of sources, read the final text as a designed whole. The notes on individual verses point out where source questions arise; the topic page on the sources of the Pentateuch gives the fuller argument.</p>"
+  },
+  {
+   "h": "Genesis 1–11 and the ancient Near East",
+   "b": "<p>Since the 1870s, when George Smith read a flood story on a tablet from Nineveh, it has been clear that Genesis 1–11 shares a world with Mesopotamian literature. <i>Enuma Elish</i> tells of creation from a watery chaos after a battle among gods; <i>Atrahasis</i> moves from the making of humans to a flood sent by the gods and a boat built by one man; the eleventh tablet of <i>Gilgamesh</i> has the boat landing on a mountain, birds sent out, and a sacrifice whose smell the gods enjoy; the Sumerian King List names long-lived rulers before a flood. That Genesis 1–11 and these texts share themes is accepted across scholarship; how to explain it is not. Many young-earth writers, for example, see the Mesopotamian stories as distorted memories of the true events.</p><p>Readers disagree about what the conversation means. Critical scholars usually see Israel retelling shared stories to make its own claims; nearly all scholars agree that the Gilgamesh flood and Genesis share a tradition, and most critical scholars think Genesis depends on it. Many evangelical scholars see Genesis telling the true story that the others distorted, or as deliberately answering them. Almost everyone agrees on the differences: in Genesis there is one God, not a family of quarreling gods; creation is by word, not by battle; humans are made in God's image to rule as his representatives, not as slaves to feed the gods; and the flood is a moral judgment on violence, followed by a covenant with all life. The myth boxes on the chapter pages quote the parallels and give a verdict on each.</p>"
+  },
+  {
+   "h": "How Jews read Genesis",
+   "b": "<p>In the synagogue Genesis is read in twelve weekly portions, from <i>Bereshit</i> (1:1–6:8) to <i>Vayechi</i> (47:28–50:26), beginning each autumn after the festival of Simchat Torah. The rabbis read it above all as the story of Israel's ancestors, whose lives foreshadow and teach their descendants: \"what happened to the fathers is a sign for the children\" (a principle drawn from the midrash and made famous by Ramban). Rashi's first comment asks why the Torah, a book of commandments, begins with creation at all, and answers that it shows the land belongs to God, who gives it to whom he chooses. On the days and the age of the world the tradition holds several views, from ordinary days to the \"worlds built and destroyed\" before this one (Genesis Rabbah 3:7) and Maimonides' warning against a purely literal reading (<i>Guide</i> 2.29–30).</p><p>Genesis Rabbah, a midrash of about AD 400–500, fills its gaps with stories (Abraham breaking his father's idols), debates (whether Noah was righteous only by his generation's standard) and lessons. The Mishnah limits public teaching of \"the work of creation\" (Chagigah 2:1), and medieval philosophers such as Maimonides read the creation account as philosophy under the surface of story. Modern Jewish readers include the JPS commentary of Nahum Sarna, Robert Alter's translation, Leon Kass's philosophical reading and Jonathan Sacks's essays. Judaism has not developed a doctrine of original sin from Genesis 3; it speaks instead of the inclination to evil (8:21), which a person can and must master (4:7).</p>"
+  },
+  {
+   "h": "How Christians read Genesis",
+   "b": "<p>The New Testament reads Genesis through Christ. Paul sets Adam beside Christ: through one man sin and death came into the world, through one man righteousness and life (Romans 5:12–21; 1 Corinthians 15:21–22, 45). Abraham is the father of all who believe, counted righteous by faith before he was circumcised (Genesis 15:6; Romans 4; Galatians 3). Hebrews 11 runs through Abel, Enoch, Noah, Abraham, Sarah, Isaac, Jacob and Joseph as examples of faith. John begins his gospel with \"In the beginning\" (John 1:1).</p><p>The church fathers read Genesis on several levels. Irenaeus called 3:15 the first announcement of the gospel; Basil preached on the six days as a literal account of nature; Origen and later Augustine looked for spiritual senses as well, and Augustine's <i>Literal Meaning of Genesis</i> suggested that God created all things at once and that the days describe an order of knowledge, not of time. Augustine also shaped the Western doctrine of original sin from Genesis 3 and Romans 5. Catholic teaching today calls it a state \"contracted, not committed,\" not a personal fault (Catechism 404–405), and Pius XII allowed that the human body may have developed from earlier life while holding to one first parent (<i>Humani generis</i>, 1950); Eastern Orthodox theology speaks rather of ancestral sin and inherited death. Christian typology finds Christ foreshadowed in Melchizedek (14; Hebrews 7), in the binding of Isaac (22; Romans 8:32), and in Joseph, rejected by his brothers and raised to save them. Luther and Calvin lectured on Genesis at length; Calvin taught that Moses \"accommodated\" his account to ordinary people's view of the sky, an idea that later shaped Christian responses to science.</p>"
+  },
+  {
+   "h": "The text of Genesis",
+   "b": "<p>The Hebrew text of Genesis is well preserved, but not uniform. The Masoretic Text, finalized by Jewish scribes and best represented by the Leningrad Codex (AD 1008), is the basis of this translation. The Samaritan Pentateuch, the Torah of the Samaritan community, differs from it in thousands of small ways, most of them spelling, and in a few larger ones. The Septuagint, the Greek translation made in Alexandria in the 200s BC, was the Bible of the early church and is quoted in the New Testament. From Qumran and other Judean desert sites come about twenty fragmentary manuscripts of Genesis, mostly agreeing with the Masoretic Text.</p><p>The biggest difference among them is arithmetic. In chapters 5 and 11 each father's age at the birth of his son is given, and the three traditions give different numbers. From creation to the flood the Masoretic Text gives 1,656 years, the Samaritan 1,307 and the Septuagint 2,242; from the flood to Abram's birth, 292, 942 and 1,072 (the Septuagint total uses its usual reading of 167 for Methuselah; with the minority reading 187 it is 2,262 to the flood) (the Septuagint adds a generation, Cainan, also found in Luke 3:36). These are the \"three chronologies\" behind different ancient dates for creation, from about 4000 BC (Ussher, using the Hebrew) to more than 5000 BC (Eusebius, using the Greek). Other variants that matter include the seventh or sixth day in 2:2 and the missing words of Cain in 4:8. The variants are listed beside each verse, with the reading followed and why.</p>"
+  }
+ ],
+ "topics": [
+  "creation",
+  "days-of-creation",
+  "image-of-god",
+  "sabbath",
+  "adam-and-eve",
+  "eden",
+  "the-fall",
+  "promised-seed",
+  "flood",
+  "noah",
+  "tower-of-babel",
+  "table-of-nations",
+  "ancient-near-east",
+  "pentateuch-sources",
+  "genealogies",
+  "covenant",
+  "blessing",
+  "election",
+  "faith",
+  "abraham",
+  "sarah",
+  "isaac",
+  "jacob",
+  "joseph",
+  "judah",
+  "patriarchs",
+  "promised-land",
+  "names-of-god",
+  "providence",
+  "typology",
+  "textual-history"
+ ],
+ "sources": [
+  "wenham-gen",
+  "wenham-gen2",
+  "hamilton-gen",
+  "hamilton-gen2",
+  "waltke-gen",
+  "sarna-gen",
+  "alter-gen",
+  "westermann-gen1-11",
+  "vonrad-gen",
+  "speiser-gen",
+  "cassuto-gen",
+  "cassuto-documentary",
+  "wellhausen-prolegomena",
+  "friedman-who-wrote",
+  "baden-composition",
+  "vanseters-prologue",
+  "rendtorff-problem",
+  "blum-vatergeschichte",
+  "blenkinsopp-pentateuch",
+  "whybray-making",
+  "garrett-rethinking",
+  "wiseman-tablets",
+  "kitchen-ot",
+  "astruc-conjectures",
+  "kikawada-quinn",
+  "walton-lost-world",
+  "collins-gen",
+  "blocher-beginning",
+  "kline-space",
+  "ross-days",
+  "whitcomb-morris-flood",
+  "numbers-creationists",
+  "lewis-days",
+  "hendel-text-gen",
+  "klein-chronologies",
+  "tov-tchb",
+  "abegg-dssb",
+  "genesis-rabbah",
+  "rashi-torah",
+  "ramban-torah",
+  "kugel-traditions",
+  "kass-wisdom",
+  "sacks-covenant",
+  "augustine-literal",
+  "basil-hexaemeron",
+  "calvin-genesis",
+  "luther-genesis",
+  "bavli-bava-batra",
+  "catechism-catholic",
+  "humani-generis",
+  "may-creatio",
+  "maimonides-guide",
+  "smith-methuselah"
+ ],
+ "links": [
+  [
+   "Book of Genesis",
+   "Book of Genesis"
+  ],
+  [
+   "Documentary hypothesis",
+   "Documentary hypothesis"
+  ],
+  [
+   "Toledot",
+   "Toledot"
+  ],
+  [
+   "Creation myth",
+   "Creation myth"
+  ]
+ ],
+ "reading": [
+  [
+   "Gordon J. Wenham, <i>Genesis 1–15</i> and <i>Genesis 16–50</i> (Word Biblical Commentary, 1987, 1994)",
+   "Detailed evangelical commentary on the Hebrew, fair to critical scholarship, strong on literary structure."
+  ],
+  [
+   "Nahum M. Sarna, <i>Genesis</i> (JPS Torah Commentary, 1989)",
+   "A compact Jewish commentary that uses archaeology and the ancient Near East and gathers rabbinic reading."
+  ],
+  [
+   "Robert Alter, <i>Genesis: Translation and Commentary</i> (1996)",
+   "A literary translation with notes on wordplay, repetition and narrative art."
+  ],
+  [
+   "Claus Westermann, <i>Genesis 1–11</i>, <i>12–36</i> and <i>37–50</i> (English 1984–1986)",
+   "The fullest critical commentary in English, with extensive material on ancient Near Eastern parallels."
+  ],
+  [
+   "John H. Walton, <i>The Lost World of Genesis One</i> (2009)",
+   "The case for reading Genesis 1 as the inauguration of a cosmic temple, not an account of material origins."
+  ],
+  [
+   "Henri Blocher, <i>In the Beginning</i> (English 1984)",
+   "A careful evangelical case for the framework reading of Genesis 1–3, with a survey of the alternatives."
+  ],
+  [
+   "John C. Whitcomb and Henry M. Morris, <i>The Genesis Flood</i> (1961)",
+   "The founding text of modern young-earth creationism, still the best way into its arguments."
+  ],
+  [
+   "Hugh Ross, <i>A Matter of Days</i> (2004)",
+   "An old-earth, day-age reading by an astronomer, with a history of the debate."
+  ],
+  [
+   "Ronald L. Numbers, <i>The Creationists</i> (expanded ed. 2006)",
+   "A historian's account of how the young-earth, old-earth and other positions developed."
+  ],
+  [
+   "James L. Kugel, <i>Traditions of the Bible</i> (1998)",
+   "How Jews and Christians around the time of Jesus read Genesis, from Enoch to Joseph."
+  ],
+  [
+   "Joseph Blenkinsopp, <i>The Pentateuch</i> (1992)",
+   "A clear introduction to the sources debate from a critical scholar."
+  ],
+  [
+   "Duane A. Garrett, <i>Rethinking Genesis</i> (1991)",
+   "A conservative scholar's alternative to the Documentary Hypothesis."
+  ]
+ ],
+ "prompts": [
+  [
+   "God speaks over the waters (1:1–3)",
+   "A dark, heaving ocean under a night with no stars, shapeless and empty, and over it a great wind sweeping the surface like the wings of a bird. From above, a single stroke of light breaks across the water, beginning to separate the darkness. No human figures; only water, wind and the first light.\n\nStyle: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, simple register lines like an ancient Near Eastern frieze, and a few bold flat shapes of deep blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Wide horizontal composition, 3:2."
+  ],
+  [
+   "The ark comes to rest (8:4–11)",
+   "A huge, plain wooden box-shaped vessel, three decks high, resting on a rocky slope in a range of mountains, water still lying in the valleys below. A man leans from a window in the roof, holding out his hand to a dove returning with a fresh olive leaf in its beak. Far off, a black raven circles over the water. Clouds breaking, pale sunlight.\n\nStyle: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, simple register lines like an ancient Near Eastern frieze, and a few bold flat shapes of deep blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Wide horizontal composition, 3:2."
+  ],
+  [
+   "The tower in Shinar (11:1–9)",
+   "A flat river plain in Mesopotamia with a stepped mud-brick temple tower rising in tiers, unfinished at the top, with ramps and scaffolding. Workers carry baked bricks and baskets of black bitumen; brick-moulds and kilns smoke nearby. At the base, small groups of people turn away from one another in confusion and begin to walk off in different directions across the plain.\n\nStyle: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, simple register lines like an ancient Near Eastern frieze, and a few bold flat shapes of deep blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Wide horizontal composition, 3:2."
+  ],
+  [
+   "Abraham under the stars (15:5)",
+   "An old man in a simple wool robe standing outside a goat-hair tent at night in dry hill country, his head tilted back, one hand raised toward a sky crowded with countless stars. Behind him, a few sheep lie in a stone pen and a small fire glows. The night sky fills most of the image.\n\nStyle: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, simple register lines like an ancient Near Eastern frieze, and a few bold flat shapes of deep blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Tall vertical composition, 2:3."
+  ],
+  [
+   "\"I am Joseph\" (45:1–4)",
+   "Inside an Egyptian hall with painted columns, a man in fine white linen with an Egyptian collar, Joseph, weeping openly with his arms stretched out toward eleven bearded shepherds from Canaan in rough wool cloaks, who draw back in fear and amazement. The youngest, Benjamin, stands closest. Servants are leaving through a doorway at the back.\n\nStyle: sketched by hand onto an old rolled parchment scroll. Sepia and iron-gall ink linework with charcoal shading, red-ochre and yellow-ochre pigment like Lascaux cave paintings, simple register lines like an ancient Near Eastern frieze, and a few bold flat shapes of deep blue in the manner of modern paper cut-outs. Visible parchment grain, uneven hand-drawn lines, soft torn irregular edges that fade into the parchment. No frame, no rectangular border, no sharp corners, no lettering. Wide horizontal composition, 3:2."
+  ]
+ ],
+ "spec": [
+  {
+   "title": "Genesis as a book about brothers",
+   "body": "<p>My own reading of the whole book: Genesis asks one question again and again, from Cain's \"Am I my brother's guard?\" (4:9) to Judah's \"let your servant stay as my lord's slave in place of the boy\" (44:33). Cain kills his brother; Ishmael and Isaac are separated; Jacob cheats Esau and flees; Joseph's brothers sell him. Only in the last generation does a brother offer himself for a brother, and only then is the family healed (45:1–15; 50:15–21). Read this way, the answer to Cain's question takes the whole book, and it is Judah who gives it. Commentators note the theme of rival brothers often; the claim that 44:33 is the book's deliberate answer to 4:9 is mine.</p>",
+   "refs": "4:9; 25:22–34; 27:41; 37:26–28; 44:18–34; 45:1–15; 50:15–21"
+  },
+  {
+   "title": "The days of creation and the days of the week",
+   "body": "<p>My own suggestion, which I hold loosely: whatever one concludes about the age of the earth, Genesis 1 is already doing something no ancient creation account does, which is to make the human week the shape of creation. Babylon tied the gods' work to the cosmos; Israel tied God's work to a rhythm every household keeps (Exodus 20:8–11). That may be why readers who disagree sharply on the length of the days still agree that the seventh day is the point. This is my framing; the observation that the Sabbath is the climax of Genesis 1 is widely shared (Cassuto, Sarna, Wenham, Walton).</p>",
+   "refs": "2:1–3; Exodus 20:8–11; Exodus 31:17; Mark 2:27; Hebrews 4:9–10"
+  },
+  {
+   "title": "Blessing as the thread",
+   "body": "<p>My own count, from the word glosses of the Hebrew text used here: forms of \"bless\" (<i>barak</i>) occur more than eighty times in Genesis, more than in any other book of the Torah, while \"curse\" clusters in the early chapters (3:14, 17; 4:11; 5:29; 9:25) and then nearly disappears after God promises to bless the nations through Abraham (12:3). The book moves from curse toward blessing, and ends with Jacob blessing Pharaoh (47:7, 10) and his own sons (49). The figures are approximate and depend on what is counted; the shape is how I read it.</p>",
+   "refs": "1:22; 1:28; 3:14–17; 12:1–3; 47:7–10; 49:28"
+  }
+ ],
+ "authorship": [
+  [
+   "Traditional view: Moses",
+   "Jewish and Christian tradition holds that Moses wrote the Torah, Genesis included (Bava Batra 14b–15a; Philo; Josephus). The New Testament speaks of \"the law of Moses\" and \"the book of Moses\" (Luke 24:44; Mark 12:26). Since Genesis ends centuries before Moses, the traditional view holds that he drew on records or oral traditions handed down, or wrote by revelation. Medieval commentators, notably Ibn Ezra, already discussed a few phrases that seem to look back on Moses' time, such as \"At that time the Canaanites were in the land\" (12:6) and the list of kings of Edom \"before any king reigned over the people of Israel\" (36:31)."
+  ],
+  [
+   "Moses with sources and later editing",
+   "Many conservative scholars today (for example Kenneth Kitchen, Gordon Wenham, Duane Garrett, Kenneth Mathews) hold that Genesis is substantially Mosaic or from Israel's early period, that Moses used older written or oral sources, and that later scribes updated place names and added a few notes. P. J. Wiseman proposed that the \"this is the family history of\" headings are the endings of ancient clay tablets, like the colophons of Babylonian texts, which Moses compiled; most scholars, conservative and critical, have not accepted the tablet theory."
+  ],
+  [
+   "The Documentary Hypothesis",
+   "From the 1700s onward scholars noticed doublets, changing names for God and differences of style. Julius Wellhausen (1878) gave the classic form: four sources, J (the Yahwist, about 900s–800s BC), E (the Elohist, 800s BC), D (Deuteronomy, 600s BC) and P (the Priestly source, 500s–400s BC), combined after the exile. In Genesis, J and P are the main threads. Richard Elliott Friedman's <i>Who Wrote the Bible?</i> (1987) popularized it, and Joel Baden and others defend an updated version today. Not all source critics date P after the exile: Yehezkel Kaufmann, Menahem Haran, Jacob Milgrom and Avi Hurvitz argued from its language and its picture of worship that the Priestly writing comes from the time of the First Temple, before 586 BC."
+  ],
+  [
+   "Supplements, layers and a late date",
+   "Since the 1970s many scholars, especially in Europe, have doubted J and E as continuous documents. John Van Seters dated the Yahwist to the exile; Rolf Rendtorff and Erhard Blum saw blocks of tradition (the primeval story, the Abraham stories, the Jacob stories, the Joseph story) growing separately and joined by later editors, one non-Priestly and one Priestly. There is broad critical agreement that P is a distinct layer and that Genesis reached its final form in the Persian period (500s–400s BC); there is no consensus on anything earlier."
+  ]
+ ],
+ "outline": [
+  [
+   "1:1–2:3",
+   "The seven days of creation"
+  ],
+  [
+   "2:4–25",
+   "The garden: the man, the woman and the tree"
+  ],
+  [
+   "3:1–24",
+   "The snake, the fall and the way out of Eden"
+  ],
+  [
+   "4:1–26",
+   "Cain and Abel; Cain's line; Seth"
+  ],
+  [
+   "5:1–32",
+   "Ten generations from Adam to Noah"
+  ],
+  [
+   "6:1–22",
+   "The sons of God; the LORD's grief; Noah builds the ark"
+  ],
+  [
+   "7:1–24",
+   "The flood"
+  ],
+  [
+   "8:1–22",
+   "God remembers Noah; the waters go down; Noah's altar"
+  ],
+  [
+   "9:1–29",
+   "The covenant and the bow; Noah's drunkenness"
+  ],
+  [
+   "10:1–32",
+   "The Table of Nations"
+  ],
+  [
+   "11:1–32",
+   "The tower of Babel; from Shem to Terah"
+  ],
+  [
+   "12:1–20",
+   "The call of Abram; Sarai in Egypt"
+  ],
+  [
+   "13:1–18",
+   "Abram and Lot part"
+  ],
+  [
+   "14:1–24",
+   "The war of the kings; Melchizedek"
+  ],
+  [
+   "15:1–21",
+   "The covenant between the pieces"
+  ],
+  [
+   "16:1–16",
+   "Hagar and Ishmael; the God who sees"
+  ],
+  [
+   "17:1–27",
+   "A new name and the sign of circumcision"
+  ],
+  [
+   "18:1–33",
+   "Guests at Mamre; Abraham pleads for Sodom"
+  ],
+  [
+   "19:1–38",
+   "Sodom destroyed; Lot and his daughters"
+  ],
+  [
+   "20:1–18",
+   "Abraham and Abimelech in Gerar"
+  ],
+  [
+   "21:1–34",
+   "Isaac born; Hagar sent away; the oath at Beersheba"
+  ],
+  [
+   "22:1–24",
+   "The binding of Isaac"
+  ],
+  [
+   "23:1–20",
+   "Sarah's death and the cave of Machpelah"
+  ],
+  [
+   "24:1–67",
+   "A wife for Isaac"
+  ],
+  [
+   "25:1–34",
+   "Abraham dies; Ishmael's line; Esau and Jacob; the birthright"
+  ],
+  [
+   "26:1–35",
+   "Isaac in Gerar and the wells"
+  ],
+  [
+   "27:1–46",
+   "Jacob takes Esau's blessing"
+  ],
+  [
+   "28:1–22",
+   "Jacob's dream at Bethel"
+  ],
+  [
+   "29:1–35",
+   "Jacob marries Leah and Rachel"
+  ],
+  [
+   "30:1–43",
+   "The births of Jacob's children; the flocks"
+  ],
+  [
+   "31:1–55",
+   "Jacob's flight from Laban"
+  ],
+  [
+   "32:1–32",
+   "Wrestling at the Jabbok; Jacob becomes Israel"
+  ],
+  [
+   "33:1–20",
+   "Jacob and Esau meet"
+  ],
+  [
+   "34:1–31",
+   "Dinah and Shechem"
+  ],
+  [
+   "35:1–29",
+   "Back to Bethel; Rachel and Isaac die"
+  ],
+  [
+   "36:1–43",
+   "The family of Esau and the kings of Edom"
+  ],
+  [
+   "37:1–36",
+   "Joseph the dreamer sold into Egypt"
+  ],
+  [
+   "38:1–30",
+   "Judah and Tamar"
+  ],
+  [
+   "39:1–23",
+   "Joseph in Potiphar's house and in prison"
+  ],
+  [
+   "40:1–23",
+   "The prisoners' dreams"
+  ],
+  [
+   "41:1–57",
+   "Pharaoh's dreams; Joseph rules Egypt"
+  ],
+  [
+   "42:1–38",
+   "The brothers' first journey"
+  ],
+  [
+   "43:1–34",
+   "The second journey, with Benjamin"
+  ],
+  [
+   "44:1–34",
+   "The silver cup; Judah offers himself"
+  ],
+  [
+   "45:1–28",
+   "\"I am Joseph\""
+  ],
+  [
+   "46:1–34",
+   "Jacob's family goes down to Egypt"
+  ],
+  [
+   "47:1–31",
+   "Jacob before Pharaoh; Joseph's famine policy"
+  ],
+  [
+   "48:1–22",
+   "Jacob blesses Ephraim and Manasseh"
+  ],
+  [
+   "49:1–33",
+   "Jacob's last words and death"
+  ],
+  [
+   "50:1–26",
+   "Jacob's burial; \"God meant it for good\"; Joseph's death"
+  ]
+ ]
+}

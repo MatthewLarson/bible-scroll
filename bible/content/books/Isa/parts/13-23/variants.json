@@ -1,0 +1,558 @@
+[
+ {
+  "v": "13:16",
+  "a": "rape their wives",
+  "t": "Written word and read word",
+  "p": "The Masoretes wrote 'they will be ravished' but marked it to be read aloud as a milder word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv)",
+    "orig": "תִּשָּׁגַלְנָה",
+    "en": "they will be ravished",
+    "plain": "rape their wives"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read text (Qere); Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "תִּשָּׁכַבְנָה",
+    "en": "they will be lain with",
+    "plain": "lie with their wives"
+   }
+  ],
+  "follow": 0,
+  "why": "Both words describe the same violence. The Masoretes replaced the blunt verb with a milder one every time it occurs (also Deuteronomy 28:30; Jeremiah 3:2; Zechariah 14:2). The Plain gives the sense of the written word plainly.",
+  "b": "The Great Isaiah Scroll already writes the milder word, so the custom of reading it is old. 4QIsa-b (4Q56), as transcribed by Abegg, Bowley and Cook, shows both words, probably one of them a correction.",
+  "s": [
+   "tov-tchb",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "14:4",
+  "a": "the onslaught",
+  "t": "A word that does not exist, and one letter",
+  "p": "The Hebrew madhebah is unknown. The Isaiah Scroll's marhebah, 'onslaught', differs by one letter; Qumran had both.",
+  "readings": [
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); most modern translations",
+    "orig": "מרהבה (marhebah)",
+    "en": "assault, arrogant fury",
+    "plain": "the onslaught"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-e (4Q59); Latin Vulgate (quievit tributum, 'the tribute has ceased', reading dehab, 'gold'); KJV",
+    "orig": "מַדְהֵבָה (madhebah)",
+    "en": "unknown; the KJV guessed 'the golden city', from Aramaic dehab, 'gold'",
+    "plain": "the golden city"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ὁ ἐπισπουδαστής",
+    "en": "the one who hurries others on",
+    "plain": "the taskmaster"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses are split. At Qumran the Great Isaiah Scroll has marhebah, while 4QIsa-e has the Masoretic madhebah, and Jerome's Latin also read the d form. The Plain follows the scroll because the Masoretic word is otherwise unknown. In Hebrew script d (ד) and r (ר) are easily confused. The scroll's word comes from the root rahav, 'to storm, act arrogantly' (compare 3:5), which fits the parallel 'slave driver'. Scholars proposed this reading long before the scroll was found, and the Greek translators seem to have read something like it.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "tov-tchb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "14:11",
+  "a": "the hum of your harps",
+  "t": "Harps or corpse?",
+  "p": "Two Qumran scrolls read 'your corpse' for 'your harps'. The letters are close.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV and most translations",
+    "orig": "הֶמְיַת נְבָלֶיךָ",
+    "en": "the sound of your harps",
+    "plain": "the hum of your harps"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); 4QIsa-e (4Q59) also has 'corpse' (nevelat), though its word before it is lost",
+    "orig": "המות נבלתך",
+    "en": "the noise (or death) of your corpse",
+    "plain": "the noise of your corpse"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἡ πολλὴ εὐφροσύνη σου",
+    "en": "your great merriment",
+    "plain": "your great merriment"
+   }
+  ],
+  "follow": 0,
+  "why": "Harps fit the pomp of the king's court in the first line, and the scroll reading is hard to make sense of. 'Corpse' does fit the maggots in the next line, so some scholars prefer it.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "14:30",
+  "a": "and he will slay your remnant",
+  "t": "'He' or 'I'?",
+  "p": "The Isaiah Scroll has 'I will slay', matching 'I will kill' earlier in the verse.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-o (4Q68); KJV",
+    "orig": "יַהֲרֹג",
+    "en": "he (or it) will slay",
+    "plain": "and he will slay your remnant"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "אהרוג",
+    "en": "I will slay",
+    "plain": "and I will slay your remnant"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἀνελεῖ",
+    "en": "he will destroy",
+    "plain": "and he will slay your remnant"
+   }
+  ],
+  "follow": 0,
+  "why": "Changes of speaker are common in Hebrew poetry, and the Greek has 'he' here too. The scroll's 'I' smooths the line, which suggests it is the easier, later reading. Either way, the LORD is behind the killing.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "14:32",
+  "a": "the envoys of the nation",
+  "t": "Envoys or kings?",
+  "p": "The Isaiah Scroll and the Greek have 'kings' (malkhe) for 'envoys' (mal'akhe), a difference of one letter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-o (4Q68); KJV 'messengers'",
+    "orig": "מַלְאֲכֵי־גוֹי",
+    "en": "the messengers of a nation",
+    "plain": "the envoys of the nation"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); Greek",
+    "orig": "מלכי גוי; βασιλεῖς ἐθνῶν",
+    "en": "the kings of a nation (Greek: of nations)",
+    "plain": "the kings of the nation"
+   }
+  ],
+  "follow": 0,
+  "why": "Envoys fit the setting: a delegation from Philistia, probably seeking Judah's help in revolt against Assyria, waits for an answer. 'Kings' is the more general reading. 4QIsa-o agrees with the Masoretic Text, so the Plain follows it.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "15:9",
+  "a": "Dimon's waters are filled with blood",
+  "t": "Dimon or Dibon?",
+  "p": "The Isaiah Scroll and the Latin read Dibon, the well-known Moabite town of 15:2. Dimon may be a pun on dam, 'blood'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QIsa-b (1Q8), both times; Greek (Deimon)",
+    "orig": "דִימוֹן",
+    "en": "Dimon",
+    "plain": "Dimon's waters are filled with blood"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); Latin Vulgate",
+    "orig": "דיבון",
+    "en": "Dibon",
+    "plain": "Dibon's waters are filled with blood"
+   }
+  ],
+  "follow": 0,
+  "why": "Dibon (modern Dhiban, where the Mesha Stone was found) is named in 15:2, so the scroll's reading may be a correction to the familiar name. Dimon is the harder reading, and many scholars think it is a deliberate play: Dimon's waters are full of dam, 'blood'. The same reading must be followed in both halves of the verse.",
+  "b": "The second half of the verse reads 'yet I will add more trouble to Dimon', and the scroll again has Dibon there. Some identify Dimon with Khirbet Dimneh, near Rabbah, or with the Madmen of Jeremiah 48:2.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "vulgate-weber",
+   "dearman-mesha"
+  ]
+ },
+ {
+  "v": "16:4",
+  "a": "Moab's outcasts",
+  "t": "'My outcasts, Moab' or 'Moab's outcasts'",
+  "p": "The vowels give 'my outcasts, Moab'; the same letters can be read 'the outcasts of Moab', as in the Greek.",
+  "readings": [
+   {
+    "w": "Same consonants, read as a construct (nidche Mo'av); Greek; most modern translations",
+    "orig": "נִדְחֵי מוֹאָב; οἱ φυγάδες Μωάβ",
+    "en": "the outcasts of Moab",
+    "plain": "Moab's outcasts"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) as vowelled; KJV",
+    "orig": "נִדָּחַי מוֹאָב",
+    "en": "my outcasts, Moab",
+    "plain": "my outcasts, Moab,"
+   }
+  ],
+  "follow": 0,
+  "why": "In context Moab's refugees are pleading with Zion (16:1–4), so 'Moab's outcasts' makes the plea plain. The vowelled text makes the LORD (or Zion) speak of 'my outcasts', a reading Jewish interpreters explained as Moab sheltering Israel's exiles. The consonants allow both.",
+  "s": [
+   "swete-lxx",
+   "wildberger-isaiah13-27"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "The towns of Aroer are abandoned.",
+  "t": "Aroer or 'forever'?",
+  "p": "Aroer is a town in Moab, far from Damascus. The Greek read the same letters as 'forever'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "עֲזֻבוֹת עָרֵי עֲרֹעֵר",
+    "en": "the cities of Aroer are forsaken",
+    "plain": "The towns of Aroer are abandoned."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete); many modern scholars, reading 'adê 'ad",
+    "orig": "καταλελειμμένη εἰς τὸν αἰῶνα",
+    "en": "forsaken forever",
+    "plain": "Its towns are abandoned forever."
+   }
+  ],
+  "follow": 0,
+  "why": "No Aroer near Damascus is known (the known towns of the name are in Moab and Gilead and in Judah), so many scholars prefer the Greek, which divides the letters as 'adê 'ad, 'forever'. But an oracle on Damascus and Ephraim might mention Israelite territory east of the Jordan, and the Hebrew is the harder reading. The Plain keeps the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "wildberger-isaiah13-27",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "17:9",
+  "a": "will be like the abandoned spots in the woods and on the summits",
+  "t": "Woods and heights, or Amorites and Hivites?",
+  "p": "The Greek names the peoples who abandoned their towns: 'the Amorites and the Hivites'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-a (4Q55); 4QIsa-b (4Q56); Great Isaiah Scroll (1QIsa-a, about 125 BC); KJV",
+    "orig": "כַּעֲזוּבַת הַחֹרֶשׁ וְהָאָמִיר",
+    "en": "like the abandoned places of the woods and the hilltop",
+    "plain": "will be like the abandoned spots in the woods and on the summits"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ὃν τρόπον κατέλιπον οἱ Ἀμορραῖοι καὶ οἱ Εὐαῖοι",
+    "en": "as the Amorites and the Hivites abandoned them",
+    "plain": "will be abandoned like the towns of the Amorites and the Hivites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew words for 'woods' (choresh) and 'treetop' ('amir) look like the names Hivite and Amorite, and the Greek's reading makes clear sense of 'abandoned before the Israelites'. Many modern scholars follow it. But every Hebrew witness, including three Qumran scrolls, has the Masoretic words, so the Plain keeps them.",
+  "s": [
+   "swete-lxx",
+   "wildberger-isaiah13-27",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "18:7",
+  "a": "a gift will be brought to the LORD of Armies: a nation stretched tall and polished smooth",
+  "t": "'A people' or 'from a people'",
+  "p": "In the Hebrew the tall people are themselves the gift. The Isaiah Scroll and the Greek say 'from a people'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-b (4Q56)",
+    "orig": "עַם מְמֻשָּׁךְ וּמוֹרָט",
+    "en": "a people tall and smooth (is brought as a gift)",
+    "plain": "a gift will be brought to the LORD of Armies: a nation stretched tall and polished smooth"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); Greek; Latin Vulgate (a populo)",
+    "orig": "מעם; ἐκ λαοῦ",
+    "en": "from a people tall and smooth",
+    "plain": "gifts will be brought to the LORD of Armies from a nation stretched tall and polished smooth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text, with 4QIsa-b, makes the people themselves the gift brought to Zion, the harder reading and a striking one; Rashi and Radak read it with 66:20, where the nations bring Israel's exiles as an offering. The Great Isaiah Scroll and the Greek make the line match the next one, 'from a people dreaded', which looks like a smoothing. The Plain follows the Masoretic Text.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx",
+   "vulgate-weber",
+   "rashi-isaiah",
+   "radak-isaiah"
+  ]
+ },
+ {
+  "v": "19:18",
+  "a": "City of the Sun",
+  "t": "City of the Sun or City of Destruction?",
+  "p": "The Hebrew has heres, 'destruction'. Two Qumran scrolls have cheres, 'sun', meaning Heliopolis.",
+  "readings": [
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); 4QIsa-b (4Q56); some Hebrew manuscripts (as reported by the International Standard Bible Encyclopaedia); Symmachus (as reported by Ziegler); Latin Vulgate ('City of the Sun'); the Targum gives both",
+    "orig": "עיר החרס",
+    "en": "the City of the Sun",
+    "plain": "City of the Sun"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "עִיר הַהֶרֶס",
+    "en": "the City of Destruction",
+    "plain": "City of Destruction"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "πόλις ἀσεδέκ",
+    "en": "City of Asedek (Hebrew ha-tsedeq, 'righteousness')",
+    "plain": "City of Righteousness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters h (ה) and ch (ח) are easily confused. 'City of the Sun' is the Hebrew equivalent of Heliopolis, the famous city of the sun god Re (called On in Genesis 41:45). 'Destruction' is odd in a passage about towns that turn to the LORD, and it may be a deliberate change made after the Jewish temple at Leontopolis, near Heliopolis, became controversial (see the note on 19:19). The Greek reading turns the name into praise. The two Qumran scrolls are our oldest witnesses.",
+  "b": "The Targum renders 'the city of Beth-shemesh (House of the Sun), which is to be destroyed', combining both readings, and the Talmud knows both (Bavli Menachot 110a). Leontopolis lay in the district of Heliopolis, and Josephus says that Onias appealed to Isaiah's prophecy when he built his temple there.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "isbe-ir-ha-heres",
+   "swete-lxx",
+   "ziegler-isaiah",
+   "vulgate-weber",
+   "chilton-isaiah-targum",
+   "josephus-ant",
+   "bavli-menachot"
+  ]
+ },
+ {
+  "v": "19:20",
+  "a": "someone to save them and fight for them",
+  "t": "'A savior and a champion'",
+  "p": "The Hebrew rav means 'one who contends'; the Isaiah Scroll reads 'and he will come down'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QIsa-b (1Q8); 4QIsa-b (4Q56)",
+    "orig": "מוֹשִׁיעַ וָרָב",
+    "en": "a savior and one who contends (or 'a great one')",
+    "plain": "someone to save them and fight for them"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "מושיע וירד",
+    "en": "a savior, and he will come down",
+    "plain": "someone to save them, and he will come down"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἄνθρωπον ὃς σώσει αὐτούς, κρίνων σώσει αὐτούς",
+    "en": "a man who will save them; judging, he will save them",
+    "plain": "a man to save them, judging their cause"
+   }
+  ],
+  "follow": 0,
+  "why": "Rav can be a participle of riv, 'to plead a case, fight for', which fits the pattern of Judges, or an adjective, 'great'. The scroll's 'he will come down' recalls Exodus 3:8, where the LORD 'came down' to rescue Israel, and may be an interpretation. The Plain follows the Hebrew.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "19:25",
+  "a": "Blessed is my people Egypt, and the work of my hands, Assyria,",
+  "t": "Egypt, or the Jews in Egypt?",
+  "p": "The Greek makes the blessing fall on 'my people who are in Egypt and among the Assyrians'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Great Isaiah Scroll (1QIsa-a, about 125 BC); 1QIsa-b; 4QIsa-a; 4QIsa-b",
+    "orig": "בָּרוּךְ עַמִּי מִצְרַיִם וּמַעֲשֵׂה יָדַי אַשּׁוּר",
+    "en": "blessed is my people Egypt, and the work of my hands Assyria",
+    "plain": "Blessed is my people Egypt, and the work of my hands, Assyria,"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "Εὐλογημένος ὁ λαός μου ὁ ἐν Αἰγύπτῳ καὶ ὁ ἐν Ἀσσυρίοις",
+    "en": "blessed is my people who are in Egypt and among the Assyrians",
+    "plain": "Blessed is my people who are in Egypt and among the Assyrians,"
+   }
+  ],
+  "follow": 0,
+  "why": "All the Hebrew witnesses agree. The Greek translators, probably Jews in Egypt, read the blessing as one on their own community and on the Jews in the east, perhaps because calling Egypt and Assyria God's people seemed too bold. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "childs-isaiah"
+  ]
+ },
+ {
+  "v": "21:1",
+  "a": "The oracle concerning the wilderness of the sea",
+  "t": "'Wilderness' or 'word'?",
+  "p": "The Isaiah Scroll has 'the word of the sea' in the title and 'a far-off land' at the end of the verse.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-a (4Q55)",
+    "orig": "מַשָּׂא מִדְבַּר־יָם",
+    "en": "the oracle of the wilderness of the sea",
+    "plain": "The oracle concerning the wilderness of the sea"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "משא דבר ים",
+    "en": "the oracle, a word about the sea",
+    "plain": "The oracle concerning the word of the sea"
+   }
+  ],
+  "follow": 0,
+  "why": "4QIsa-a agrees with the Masoretic Text, and 'wilderness' links the title to 'out of the desert' later in the verse, like the other riddle titles of chapters 21–22. The scroll's 'word' differs by one letter. The scroll also ends the verse 'from a far-off land of dread', adding one word.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "21:8",
+  "a": "he cried out like a lion",
+  "t": "'Like a lion' or 'the seer'",
+  "p": "The Hebrew has 'a lion'; only the Great Isaiah Scroll has 'the seer'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-a (4Q55); Greek (the same letters read as the name Uriah, אוריה); Latin Vulgate (leo); KJV",
+    "orig": "וַיִּקְרָא אַרְיֵה",
+    "en": "and he called out, a lion (like a lion, or 'A lion!')",
+    "plain": "he cried out like a lion"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); many modern translations",
+    "orig": "ויקרא הראה",
+    "en": "and the seer called out",
+    "plain": "the seer cried out"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Leningrad Codex. Its letters are supported by 4QIsa-a, by the Greek, which read them as the name Uriah ('and call Uriah to the watchtower'), and by the Latin leo. Only the Great Isaiah Scroll has 'the seer' (הראה), which shares most of the letters. 'The seer' fits the watchman of 21:6–7 so well that many modern translations adopt it, but it may be an early correction of a hard text. 'Like a lion' takes 'aryeh as a comparison for a loud call (compare Revelation 10:3); others read 'he cried, A lion!'",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx",
+   "vulgate-weber",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "In one more year",
+  "t": "One year or three?",
+  "p": "The Isaiah Scroll has 'three years', the number in the parallel saying about Moab (16:14).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-a (4Q55); Greek",
+    "orig": "בְּעוֹד שָׁנָה",
+    "en": "within a year",
+    "plain": "In one more year"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "בעוד שלוש שנים",
+    "en": "within three years",
+    "plain": "In three more years"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text, 4QIsa-a and the Greek agree on one year. The scroll's three years probably comes from the saying about Moab in 16:14, which uses the same formula. The scroll also has 'the LORD' for 'the Lord' at the start of the verse.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "22:22",
+  "a": "I will lay the key of David's house on his shoulder.",
+  "t": "The key or the glory",
+  "p": "Codex Vaticanus has 'I will give him the glory of David' instead of the key.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Great Isaiah Scroll (1QIsa-a, about 125 BC); KJV; the Targum ('the key of the sanctuary and the authority of the house of David')",
+    "orig": "מַפְתֵּחַ בֵּית־דָּוִד עַל־שִׁכְמוֹ",
+    "en": "the key of the house of David on his shoulder",
+    "plain": "I will lay the key of David's house on his shoulder."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "καὶ δώσω τὴν δόξαν Δαυεὶδ αὐτῷ",
+    "en": "and I will give the glory of David to him",
+    "plain": "I will give him the glory of David."
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew witnesses, including the Qumran scrolls, have the key, and Revelation 3:7 quotes the line with the key. Codex Vaticanus continues 'and he will rule, and no one will speak against him', a freer rendering.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx",
+   "chilton-isaiah-targum"
+  ]
+ },
+ {
+  "v": "23:2",
+  "a": "sailing across the sea, kept supplied",
+  "t": "Who filled the coastland?",
+  "p": "The Isaiah Scroll has 'your messengers crossed the sea' for 'crossing the sea, they filled you'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עֹבֵר יָם מִלְאוּךְ",
+    "en": "crossing the sea, they filled you",
+    "plain": "sailing across the sea, kept supplied"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "עברו ים מלאכיך",
+    "en": "your messengers crossed the sea",
+    "plain": "your envoys crossed the sea"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's reading, which also continues into 23:3 ('on many waters'), is preferred by some modern versions, and a few divide the verses differently. The Masoretic Text makes good sense: Sidon's traders kept the coast supplied. The Plain follows it.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "23:10",
+  "a": "Overflow your land like the Nile",
+  "t": "Overflow, or till?",
+  "p": "The Isaiah Scroll and the Greek have 'work your land', telling Tarshish to farm since trade has ended.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-c (4Q57)",
+    "orig": "עִבְרִי אַרְצֵךְ כַּיְאֹר",
+    "en": "pass through (or overflow) your land like the Nile",
+    "plain": "Overflow your land like the Nile"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); Greek",
+    "orig": "עבדי ארצך; ἐργάζου τὴν γῆν σου",
+    "en": "work (till) your land",
+    "plain": "Till your land as on the Nile"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew script d (ד) and r (ר) are easily confused, so 'avdi, 'work', and 'ivri, 'cross over', differ by one stroke. 'Till your land' is attractive: with trade gone, Tarshish must live by farming. The Hebrew may mean 'spread out over your land as freely as the Nile', no longer restrained by Tyre (see the note on mezach). The Plain keeps the Hebrew.",
+  "s": [
+   "djd32-isaiah",
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ }
+]

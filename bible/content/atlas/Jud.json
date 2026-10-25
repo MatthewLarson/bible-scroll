@@ -1,0 +1,82 @@
+{
+  "chapters": {
+    "1": {
+      "places": [
+        "egypt",
+        "gomorrah",
+        "sodom"
+      ],
+      "people": [
+        "god",
+        "james-3",
+        "jesus-2",
+        "jude-2",
+        "michael-11",
+        "moses",
+        "balaam",
+        "cain",
+        "korah-3",
+        "adam",
+        "enoch-2",
+        "holy-spirit"
+      ],
+      "events": []
+    }
+  },
+  "places": {
+    "egypt": {
+      "name": "Egypt",
+      "lat": 26.4902014068366,
+      "lon": 29.88079617
+    },
+    "gomorrah": {
+      "name": "Gomorrah",
+      "lat": 31.15724867,
+      "lon": 35.47395433
+    },
+    "sodom": {
+      "name": "Sodom",
+      "lat": 31.19656033,
+      "lon": 35.39648412
+    }
+  },
+  "people": {
+    "god": {
+      "name": "God"
+    },
+    "james-3": {
+      "name": "James"
+    },
+    "jesus-2": {
+      "name": "Jesus"
+    },
+    "jude-2": {
+      "name": "Jude"
+    },
+    "michael-11": {
+      "name": "Michael"
+    },
+    "moses": {
+      "name": "Moses"
+    },
+    "balaam": {
+      "name": "Balaam"
+    },
+    "cain": {
+      "name": "Cain"
+    },
+    "korah-3": {
+      "name": "Korah"
+    },
+    "adam": {
+      "name": "Adam"
+    },
+    "enoch-2": {
+      "name": "Enoch"
+    },
+    "holy-spirit": {
+      "name": "Holy Spirit"
+    }
+  },
+  "events": {}
+}

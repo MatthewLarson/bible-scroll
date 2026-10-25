@@ -1,0 +1,677 @@
+[
+ {
+  "v": "8:1",
+  "a": "son of Elkiah son of Elihu son of Hilkiah",
+  "t": "Judith's pedigree: four more names",
+  "p": "Sinaiticus and Alexandrinus, followed by the KJV, add four generations between Elkiah and Elihu.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "υἱοῦ Ἑλκειὰ υἱοῦ Ἠλειοὺ υἱοῦ Χελκείου",
+    "en": "son of Elkia, son of Eliu, son of Chelkias",
+    "plain": "son of Elkiah son of Elihu son of Hilkiah"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes (Swete's line breaks removed)",
+    "orig": "+υιου Ανανιου υιου Γεδεων υιου Ραφαειν υιου Αχιτωβ ℵ",
+    "en": "adds after Elkia: son of Ananias, son of Gedeon, son of Raphaein, son of Achitob",
+    "plain": "son of Elkiah son of Ananias son of Gideon son of Raphain son of Ahitub son of Elihu son of Hilkiah"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV",
+    "orig": "+ υιου Ανανιου· υιου Γεδεων· υιου Ραφαιν· υιου Ακιθω·) A … om υιου Χελκειου A",
+    "en": "adds the same four names (Akitho for Achitob) and omits \"son of Chelkias\"",
+    "plain": "son of Elkiah son of Ananias son of Gideon son of Raphain son of Akitho son of Elihu"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The added names may have been lost from B by a scribe's eye skipping from one \"son of\" to another, or added later to lengthen the line; there is no way to be sure. The KJV follows the longer form, without Hilkiah, as in Alexandrinus.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "the days before the new moons and the new moons",
+  "t": "\"And the new moons\"",
+  "p": "Vaticanus lists only the eves of the new moons; Sinaiticus and a corrector of Vaticanus add the new moons themselves.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes; a corrector of Vaticanus in the margin (Bᵃᵇ); KJV",
+    "orig": "προνουμηνιων] και νουμηνιων Bᵃᵇ(ᵐᵍ) (inter προ et νουμ. ins νουμηνιων κ) ℵ",
+    "en": "the eves of new moons and new moons",
+    "plain": "the days before the new moons and the new moons"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ προνουμηνιῶν",
+    "en": "and the eves of new moons",
+    "plain": "the days before the new moons"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Vaticanus. The list pairs each holy day with its eve (\"the days before the Sabbaths and the Sabbaths\"), and the new moons were feast days on which no one fasted (Mishnah Ta'anit 2:10). B's first scribe seems to have dropped the second word because it looks so like the first (προνουμηνιῶν, νουμηνιῶν). A corrector of B restored it in the margin.",
+  "s": [
+   "swete-ot",
+   "mishnah-taanit"
+  ]
+ },
+ {
+  "v": "8:10",
+  "a": "called Chabris and Charmis",
+  "t": "Was Uzziah called too?",
+  "p": "The KJV adds Uzziah to the elders Judith sends for; no Greek manuscript in Swete does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus and Alexandrinus (A spells the names Chabrim and Charmin); Vulgate (its 8:9)",
+    "orig": "ἐκάλεσεν Χάβρειν καὶ Χάρμειν",
+    "en": "she called Chabris and Charmis",
+    "plain": "called Chabris and Charmis"
+   },
+   {
+    "w": "KJV (1611), from the Greek editions of its day",
+    "en": "to call Ozias and Chabris and Charmis",
+    "plain": "called Uzziah, Chabris and Charmis"
+   }
+  ],
+  "follow": 0,
+  "why": "All the Greek manuscripts in Swete and the Vulgate (\"ad presbyteros Chabri et Charmi\", Vulgate 8:9) name only two. Uzziah is added in some later Greek manuscripts (not in B, ℵ or A), which the KJV follows; the addition fits 8:28, where Uzziah answers her. Modern versions differ over printing it.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "8:15",
+  "a": "to shelter us on any days he wants",
+  "t": "\"Even every day\"",
+  "p": "Alexandrinus has \"and all\" in place of \"to shelter\", which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus",
+    "orig": "ἐν αἷς θέλει σκεπάσαι ἡμέραις",
+    "en": "to shelter (us) on whatever days he wishes",
+    "plain": "to shelter us on any days he wants"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV",
+    "orig": "15 σκεπασοι] και πασαις A [sic, for σκεπασαι]",
+    "en": "on whatever days he wishes, even on all days",
+    "plain": "to help us on whatever days he wants, even every day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Alexandrinus' \"and all\" (καὶ πάσαις) looks like a misreading of σκεπάσαι; the KJV's \"to defend us when he will, even every day\" combines both.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "he will demand our blood for its desecration",
+  "t": "Who will demand it?",
+  "p": "Sinaiticus names \"the Lord\" as the one who requires it; the KJV says \"at our mouth\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ζητήσει τὴν βεβήλωσιν αὐτῶν ἐκ τοῦ αἵματος ἡμῶν",
+    "en": "he will seek their profanation from our blood",
+    "plain": "he will demand our blood for its desecration"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes",
+    "orig": "21 ζητησει] εκζητησει ℵΑ +κς ℵ",
+    "en": "the Lord will require ...",
+    "plain": "the Lord will demand our blood for its desecration"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "he will require the profanation thereof at our mouth",
+    "plain": "he will require its desecration from our mouth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus; the subject is clearly God either way. Sinaiticus makes it explicit. The KJV's \"at our mouth\" has no support in Swete's manuscripts; it may come from a Greek edition that read \"mouth\" for \"blood\".",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "who violated a virgin's womb to defile her",
+  "t": "Womb or girdle?",
+  "p": "The Greek says Shechem \"loosed a virgin's womb\". The KJV's \"loosened the girdle\" reads a different word, one letter apart.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete (corrected); Sinaiticus; Alexandrinus",
+    "orig": "οἳ ἔλυσαν μήτραν παρθένου εἰς μίασμα",
+    "en": "who loosed the womb of a virgin for defilement",
+    "plain": "who violated a virgin's womb to defile her"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "who loosened the girdle of a maid to defile her",
+    "plain": "who loosened a virgin's belt to defile her"
+   }
+  ],
+  "follow": 0,
+  "why": "All of Swete's manuscripts read μήτραν, \"womb\", as again later in the verse. The KJV's \"girdle\" reflects μίτραν, a belt or headband, which differs by one vowel and gives an easier picture; it may be a scribe's or editor's correction, but many modern scholars and versions prefer μίτραν as the original, since \"womb\" twice in one verse is awkward. The first scribe of Vaticanus copied \"a virgin's womb for defilement\" twice, after \"stripped\" as well; a later hand marked the repeat.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:13",
+  "a": "Make my words and my deceit",
+  "t": "\"Give me words\"",
+  "p": "Sinaiticus has \"give me\" for \"my\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Alexandrinus; KJV",
+    "orig": "δὸς λόγον μου καὶ ἀπάτην",
+    "en": "give my word and deceit",
+    "plain": "Make my words and my deceit"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes",
+    "orig": "13 μου] μοι ℵ",
+    "en": "give me a word and deceit",
+    "plain": "Give me words and deceit to"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Sinaiticus' μοι, \"to me\", differs by one letter. Either way Judith asks God to bless her deceit.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:14",
+  "a": "Give your whole nation and every tribe the knowledge",
+  "t": "Your nation or every nation?",
+  "p": "Alexandrinus has \"every nation\", which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus",
+    "orig": "ἐπὶ πᾶν τὸ ἔθνος σου καὶ πάσης φυλῆς ἐπίγνωσιν",
+    "en": "on all your nation and of every tribe knowledge",
+    "plain": "Give your whole nation and every tribe the knowledge"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV",
+    "orig": "14 παν το εθνος] παντος εθνους A",
+    "en": "of every nation",
+    "plain": "Give every nation and every tribe the knowledge"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, where Judith prays that Israel will know God's power. Alexandrinus widens it to all nations, which fits the book's theme that the nations learn who is God (compare 14:10).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "10:4",
+  "a": "to catch the eye of any man who might see her",
+  "t": "Meeting or deceiving the eyes?",
+  "p": "Vaticanus says she dressed \"for the meeting\" of men's eyes; Alexandrinus and a corrector of Sinaiticus say \"for the deceiving\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "εἰς ἀπάντησιν ὀφθαλμῶν ἀνδρῶν",
+    "en": "for the meeting of the eyes of men",
+    "plain": "to catch the eye of any man who might see her"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; a corrector of Sinaiticus",
+    "orig": "απαντησιν] απατησιν ℵ1?a.b?A",
+    "en": "for the deceiving of the eyes of men",
+    "plain": "to deceive the eyes of any man who might see her"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "to allure the eyes of all men that should see her",
+    "plain": "to lure the eyes of any man who might see her"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two Greek words differ by one letter (ἀπάντησιν, ἀπάτησιν). \"Deceiving\" matches the book's repeated word for Judith's plan (9:10, 13; 16:8), and some scholars prefer it for that reason; but a scribe could as easily have made it agree. The KJV's \"allure\" reads either way.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "10:8",
+  "a": "She bowed down to God,",
+  "t": "Who bowed down?",
+  "p": "Vaticanus has \"she bowed down\"; the KJV has \"they worshipped\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus; Alexandrinus",
+    "orig": "καὶ προσεκύνησεν τῷ θεῷ",
+    "en": "and she worshiped God",
+    "plain": "She bowed down to God,"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "Then they worshipped God.",
+    "plain": "They bowed down to God."
+   }
+  ],
+  "follow": 0,
+  "why": "All of Swete's manuscripts have the singular, and Judith goes on speaking in 10:9. The KJV's plural, not found in Swete's notes, makes the elders worship along with her.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "10:9",
+  "a": "as they had said.",
+  "t": "As they said or as she said?",
+  "p": "Vaticanus says the young men opened the gate \"as they had said\"; Sinaiticus, Alexandrinus and the KJV say \"as she had said\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καθότι ἐλάλησαν",
+    "en": "as they had spoken",
+    "plain": "as they had said."
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "ελαλησαν] ελαλησεν ℵA",
+    "en": "as she had spoken",
+    "plain": "as she had said."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus: the elders give the order they had agreed to (8:35). The singular, \"as she had spoken\", makes Judith the one in command, and differs by one letter.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "12:4",
+  "a": "before he has done by my hand what he has planned",
+  "t": "\"Before the Lord\"",
+  "p": "Alexandrinus and the KJV name \"the Lord\" as the one who will act.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἕως ἂν ποιήσῃ ἐν χειρί μου ἃ ἐβουλεύσατο",
+    "en": "until he does by my hand what he planned",
+    "plain": "before he has done by my hand what he has planned"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV",
+    "orig": "4 ποιηση] + κς A",
+    "en": "until the Lord does by my hand what he planned",
+    "plain": "before the Lord has done by my hand what he has planned"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, where \"he\" is left open: Holofernes hears himself, the reader hears God. Alexandrinus spells out the meaning. (Sinaiticus is lost here.)",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "12:8",
+  "a": "the children of his people",
+  "t": "His people or her people?",
+  "p": "The Greek has \"his people\", God's people; the KJV has \"her people\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Alexandrinus",
+    "orig": "τῶν υἱῶν τοῦ λαοῦ αὐτοῦ",
+    "en": "of the sons of his people",
+    "plain": "the children of his people"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "of the children of her people",
+    "plain": "the children of her people"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's manuscripts read αὐτοῦ, \"his\", referring to \"the Lord God of Israel\". The KJV's \"her\" is not in Swete's notes; it may be a correction or a free rendering.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:10",
+  "a": "as they always did.",
+  "t": "\"Unto prayer\"",
+  "p": "Sinaiticus and Alexandrinus add that the two women went out \"to pray\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "κατὰ τὸν ἐθισμὸν αὐτῶν",
+    "en": "according to their custom",
+    "plain": "as they always did."
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "10 ουτων] + επι την προσευχην ℵΑ [sic, for αυτων]",
+    "en": "according to their custom, for prayer",
+    "plain": "as they always did, to pray."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The longer text spells out what their custom was (12:6–8; 13:3).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:11",
+  "a": "in Israel",
+  "t": "Israel or Jerusalem?",
+  "p": "The KJV has \"in Jerusalem\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Alexandrinus; Sinaiticus",
+    "orig": "ἐν Ἰσραὴλ",
+    "en": "in Israel",
+    "plain": "in Israel"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "in Jerusalem",
+    "plain": "in Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "All of Swete's manuscripts read \"Israel\". The KJV's \"Jerusalem\" is not in Swete's notes.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "who led you to wound the head of our enemies' chief",
+  "t": "\"The head\"",
+  "p": "Swete prints the reading of Sinaiticus and Alexandrinus here, not Vaticanus. The difference is one ending.",
+  "readings": [
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes, as printed by Swete",
+    "orig": "εἰς τραῦμα κεφαλῆς ἄρχοντος ἐχθρῶν ἡμῶν",
+    "en": "to a wound of the head of the ruler of our enemies",
+    "plain": "who led you to wound the head of our enemies' chief"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), in Swete's notes",
+    "orig": "κεφαλης ℵA] κεφαλην B",
+    "en": "to a wound, to the head of the ruler of our enemies",
+    "plain": "who guided you to strike at the head of our enemies' chief"
+   },
+   {
+    "w": "KJV (1611)",
+    "en": "to the cutting off of the head of the chief of our enemies",
+    "plain": "who guided you to cut off the head of our enemies' chief"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the few places where Swete departs from Vaticanus. B's accusative κεφαλήν makes \"head\" the goal of the movement, ℵA's genitive κεφαλῆς makes it part of the phrase \"wound of the head\". The sense is the same; the Plain follows Swete's text. Alexandrinus also reads \"Blessed are you\" with a verb, and \"blessed\" in a different form.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "15:4",
+  "a": "Betomasthaim, Choba and Chola",
+  "t": "The towns Uzziah sent to",
+  "p": "The place names differ in each manuscript.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "εἰς Βαιτομασθάιμ καὶ Χωβαὶ καὶ Χωλὰ",
+    "en": "to Baitomasthaim and Chobai and Chola",
+    "plain": "Betomasthaim, Choba and Chola"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes, first hand",
+    "orig": "Βαιτομασθεν ℵ Χωβαι και Χωλα] Αβελβαιμ και Χωβα ℵ*",
+    "en": "to Baitomasthen and Abelbaim and Choba",
+    "plain": "Betomasthem, Abel-baim and Choba"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV",
+    "orig": "Βηβαι και Χωβαι και Κωλα A",
+    "en": "to Baitomasthaim and Bebai and Chobai and Kola",
+    "plain": "Betomasthaim, Bebai, Choba and Cola"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, writing Chobai as Choba to match 15:5 and 4:4. None of these towns can be located with certainty; Betomasthaim was named with Bethulia in 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "15:7",
+  "a": "The villages and farms",
+  "t": "Farms or towns?",
+  "p": "Sinaiticus and Alexandrinus have \"towns\" for \"farms\", as does the KJV.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "αἱ κῶμαι καὶ ἐπαύλεις",
+    "en": "the villages and farmsteads",
+    "plain": "The villages and farms"
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "επαυλεις] αι πολεις ℵA",
+    "en": "the villages and the towns",
+    "plain": "The villages and towns"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "15:10",
+  "a": "and may God be pleased with them",
+  "t": "A prayer or a statement?",
+  "p": "Vaticanus prays that God \"may be pleased\"; Sinaiticus, Alexandrinus and the KJV say he \"was pleased\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "εὐδοκήσαι ἐπ᾽ αὐτοῖς ὁ θεός",
+    "en": "and may God be pleased with them",
+    "plain": "and may God be pleased with them"
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "ευδοκησαι] ευδοκησεν ℵA",
+    "en": "and God was pleased with them",
+    "plain": "and God is pleased with them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two forms differ in one letter.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:1",
+  "a": "Sing to the Lord with cymbals!",
+  "t": "\"Sing to my Lord\"",
+  "p": "Sinaiticus and Alexandrinus, followed by the KJV, have \"my\" here.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ᾄσατε τῷ κυρίῳ ἐν κυμβάλοις",
+    "en": "sing to the Lord with cymbals",
+    "plain": "Sing to the Lord with cymbals!"
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes (Swete's note, as digitized, reads τω κυριω] μου ℵA; it most likely means that ℵA add μου); KJV",
+    "orig": "τω κυριω] μου ℵA",
+    "en": "sing to my Lord with cymbals",
+    "plain": "Sing to my Lord with cymbals!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. \"My\" in the other manuscripts matches the first line, \"my God\".",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:1",
+  "a": "Tune a psalm and a song of praise to him!",
+  "t": "\"A new psalm\"",
+  "p": "Alexandrinus reads \"a new psalm\" for \"a psalm and praise\"; the KJV and the Vulgate agree.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus",
+    "orig": "ἐναρμόσασθε αὐτῷ ψαλμὸν καὶ αἶνον",
+    "en": "tune to him a psalm and praise",
+    "plain": "Tune a psalm and a song of praise to him!"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; KJV; Vulgate (its 16:2, \"psalmum novum\")",
+    "orig": "και αινον] καινον A",
+    "en": "tune to him a new psalm",
+    "plain": "Tune a new psalm to him!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two readings differ only in how the same letters are divided: ΚΑΙΑΙΝΟΝ can be read as καὶ αἶνον, \"and praise\", or καινόν, \"new\". The \"new song\" of 16:13 may have helped the second reading.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "16:4",
+  "a": "set my mountains on fire",
+  "t": "Mountains or borders?",
+  "p": "Sinaiticus and Alexandrinus read \"borders\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐμπρήσειν τὰ ὄρη μου",
+    "en": "to burn my mountains",
+    "plain": "set my mountains on fire"
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "ορη] ορια ℵΑ",
+    "en": "to burn my borders",
+    "plain": "set my borders on fire"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two words, ὄρη and ὅρια, are very alike. In 2:10 Nebuchadnezzar orders the seizure of \"all their territory\" (πᾶν ὅριον αὐτῶν).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:19",
+  "a": "as a dedicated offering",
+  "t": "Offering or thing devoted?",
+  "p": "Some manuscripts spell the word anathema, which can mean a thing devoted to destruction.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; a corrector of Sinaiticus",
+    "orig": "εἰς ἀνάθημα τῷ θεῷ",
+    "en": "as a votive offering to God",
+    "plain": "as a dedicated offering"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes, first hand; Alexandrinus",
+    "orig": "αναθημα Bℵc.a] αναθεμα ℵ*A",
+    "en": "as a thing devoted (to the Lord)",
+    "plain": "as a thing devoted"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. In later Greek the two spellings were often confused, and here both mean a gift to God; ℵA also have \"to the Lord\" for \"to God\".",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:25",
+  "a": "Amen.",
+  "t": "\"Amen\"",
+  "p": "Vaticanus ends the book with \"Amen\". Sinaiticus and Alexandrinus do not.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἀμήν",
+    "en": "Amen",
+    "plain": "Amen."
+   },
+   {
+    "w": "Codices Sinaiticus and Alexandrinus (ℵ A), in Swete's notes; KJV",
+    "orig": "(omitted)",
+    "en": "(no word)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The \"Amen\" may have been added at the end of a reading in church; Sinaiticus and Alexandrinus end without it.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:3",
+  "a": "which was ashamed of their deceit",
+  "t": "\"Their deceit\"",
+  "p": "The first hand of Sinaiticus and Alexandrinus lack \"their deceit\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; a corrector of Sinaiticus",
+    "orig": "ἣ ᾐδέσατο τὴν ἀπάτην αὐτῶν",
+    "en": "which was ashamed of their deceit",
+    "plain": "which was ashamed of their deceit"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), in Swete's notes, first hand (probably); Alexandrinus",
+    "orig": "om απατην ℵ* ᵛⁱᵈ (hab απατη ℵ¹) A",
+    "en": "which was ashamed (of them)",
+    "plain": "which was ashamed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Without the word, the line loses its play on deceit (the men who deceived are deceived), which is a theme of the whole book (9:10, 13; 12:16; 16:8). A scribe may have dropped it because the next word, ἀπατηθεῖσαν, begins the same way.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": "I will sing a new song to my God",
+  "t": "\"To my God\" or \"to the Lord\"",
+  "p": "Alexandrinus and the KJV have \"to the Lord\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus",
+    "orig": "ὑμνήσω τῷ θεῷ μου ὕμνον καινόν",
+    "en": "I will sing to my God a new hymn",
+    "plain": "I will sing a new song to my God"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes (the digitized note has lost its lemma: \"??] κω A\"); KJV",
+    "orig": "??] κω A",
+    "en": "I will sing to the Lord a new hymn",
+    "plain": "I will sing a new song to the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The KJV reads \"I will sing unto the Lord a new song\", as Alexandrinus does. \"My God\" matches the song's first line (16:1).",
+  "s": [
+   "swete-ot"
+  ]
+ }
+]

@@ -1,0 +1,1957 @@
+[
+ {
+  "v": "12:3",
+  "a": "to look the other way",
+  "t": "\"Or a pair of sandals?\"",
+  "p": "The Greek and a Dead Sea scroll read \"a pair of sandals? Testify against me!\" where the Hebrew has \"to hide my eyes with it.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Targum; Vulgate",
+    "orig": "וְאַעְלִים עֵינַי בּוֹ",
+    "en": "and I hid my eyes with it",
+    "plain": "to look the other way"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD); 4QSam-a (Dead Sea Scrolls, about 50–25 BC), partly preserved and partly reconstructed in DJD 17; compare Sirach 46:19",
+    "orig": "καὶ ὑπόδημα; ἀποκρίθητε κατ' ἐμοῦ",
+    "en": "or a sandal? Answer against me",
+    "plain": "or even a pair of sandals? Testify against me"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings come from almost the same Hebrew letters (<i>w'lm 'yny bw</i> and <i>n'lym 'nw by</i>). The Masoretic reading makes clear sense, so the Plain follows it, but the Greek reading is old and may be original.",
+  "b": "<p>The difference is a matter of a few letters. Read one way, Samuel asks whether he took a bribe \"to hide my eyes\" from justice. Read the other way, he asks whether he took even \"a pair of sandals,\" a small bribe (compare Amos 2:6; Amos 8:6, where the poor are sold \"for a pair of sandals\"). The Wisdom of Ben Sira, written about 180 BC, remembers Samuel's words in the second form: before his death he testified that he had not taken anyone's goods, \"not even a pair of sandals\" (Sirach 46:19). So this reading was known in Hebrew in Jerusalem about 140 years before 4QSam-a was copied.</p>",
+  "s": [
+   "djd17-samuel",
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "12:11",
+  "a": "Barak",
+  "t": "Bedan or Barak?",
+  "p": "The Hebrew names an unknown judge, Bedan. The Greek and Syriac read Barak, the judge who fought with Deborah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Vulgate",
+    "orig": "בְּדָן",
+    "en": "Bedan",
+    "plain": "Bedan"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD); Syriac Peshitta",
+    "orig": "Βαρακ",
+    "en": "Barak",
+    "plain": "Barak"
+   }
+  ],
+  "follow": 1,
+  "why": "No judge named Bedan is known, and Barak fits the order of Judges (Jerubbaal = Gideon, Barak, Jephthah). The letters of the two names are close in Hebrew script.",
+  "b": "<p>A Bedan appears only in a list of Manasseh's descendants (1 Chronicles 7:17). The rabbis said Bedan was Samson, reading the name as <i>ben Dan</i>, \"the son of Dan,\" since Samson was a Danite (Rosh Hashanah 25a), and Rashi follows them. Most modern translations follow the Greek and Syriac and read Barak. In Hebrew script the <i>d</i> of Bedan and the <i>r</i> of Barak are easily confused; the last letters (<i>n</i> and <i>q</i>) are not, so the change was not a simple slip of one letter. Hebrews 11:32 lists \"Gideon, Barak, Samson, Jephthah, David and Samuel,\" a list that may reflect the same tradition.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "bavli-rosh-hashanah",
+   "rashi-samuel",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "12:11",
+  "a": "Samuel",
+  "t": "Samuel or Samson?",
+  "p": "Would Samuel name himself in a list of rescuers? Some Greek manuscripts and the Syriac read Samson.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "שְׁמוּאֵל",
+    "en": "Samuel",
+    "plain": "Samuel"
+   },
+   {
+    "w": "Septuagint (Lucianic manuscripts); Syriac Peshitta",
+    "orig": "Σαμψων",
+    "en": "Samson",
+    "plain": "Samson"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Samuel\" has the best support, and the Plain keeps it. Samuel speaking of himself in the third person is unusual but possible in a solemn speech.",
+  "b": "<p>It sounds odd for Samuel to end his list of judges with his own name. Some readers think a scribe changed Samson to Samuel because Samson's story ends badly; others that a scribe changed Samuel to Samson to avoid the oddity. Samuel did rescue Israel at Mizpah (7:10–13), so the name fits the history. The Targum and the rabbis, who already read \"Bedan\" as Samson, kept \"Samuel\" here.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "klein-1sam"
+  ]
+ },
+ {
+  "v": "12:15",
+  "a": "and on your ancestors",
+  "t": "Your ancestors or your king?",
+  "p": "The Hebrew warns that the LORD's hand will be against \"you and your fathers.\" The Greek reads \"you and your king.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וּבַאֲבֹתֵיכֶם",
+    "en": "and against your fathers",
+    "plain": "and on your ancestors"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ ἐπὶ τὸν βασιλέα ὑμῶν",
+    "en": "and against your king",
+    "plain": "and on your king"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is harder, since the ancestors are dead, and so is probably older. The Plain translates it as it stands.",
+  "b": "<p>The Greek fits the speech, which twice pairs \"you and your king\" (12:14; 12:25). But that is exactly why a scribe might have made the change. Many translations smooth the Hebrew into a comparison, as the KJV did: \"as it was against your fathers.\" Others take \"your ancestors\" to mean the ancestral line, Israel as a whole across the generations.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "13:1",
+  "a": "Saul was [...] years old when he became king. He ruled over Israel [...] two years.",
+  "t": "Saul's age and reign",
+  "p": "The Hebrew says Saul was \"a year old\" and reigned \"two years.\" Numbers have dropped out of the text.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "בֶּן־שָׁנָה שָׁאוּל בְּמָלְכוֹ וּשְׁתֵּי שָׁנִים מָלַךְ עַל־יִשְׂרָאֵל",
+    "en": "Saul was a son of a year when he reigned, and two years he reigned over Israel",
+    "plain": "Saul was [...] years old when he became king. He ruled over Israel [...] two years."
+   },
+   {
+    "w": "Septuagint (some Lucianic manuscripts and a Hexaplaric note)",
+    "orig": "υἱὸς τριάκοντα ἐτῶν Σαουλ",
+    "en": "Saul was thirty years old",
+    "plain": "Saul was thirty years old when he became king. He ruled over Israel [...] two years."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(the whole verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "This verse follows the standard formula for a king's age and reign (2 Samuel 2:10; 2 Samuel 5:4), but both numbers are broken. The Plain marks the gaps rather than guess.",
+  "b": "<p>Literally the Hebrew says \"Saul was a son of a year when he reigned.\" The word for the age seems to be missing, as if the scribe had a blank in his source. \"Thirty\" in some Greek manuscripts is likely a guess. Jonathan is already a commander (13:2), so Saul was probably over forty. The second number, \"two years,\" may be the end of a larger number, such as twenty-two or thirty-two. Acts 13:21 says Saul reigned forty years, and Josephus gives different figures in different places. The rabbis read the Hebrew as \"Saul was as innocent as a one-year-old\" (Yoma 22b; Targum). Some English versions fill in thirty and forty-two; the Plain shows where the gap is.</p>",
+  "s": [
+   "tov-tchb",
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "bavli-yoma",
+   "targum-jonathan-prophets",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "13:3",
+  "a": "Let the Hebrews hear!",
+  "t": "\"The slaves have revolted\"",
+  "p": "In the Greek, Saul proclaims \"The slaves have revolted!\" Some scholars move the cry to the Philistines.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "יִשְׁמְעוּ הָעִבְרִים",
+    "en": "let the Hebrews hear",
+    "plain": "Let the Hebrews hear!"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ Σαουλ σάλπιγγι σαλπίζει εἰς πᾶσαν τὴν γῆν λέγων Ἠθετήκασιν οἱ δοῦλοι",
+    "en": "and Saul blows the trumpet in all the land, saying, The slaves have revolted",
+    "plain": "The slaves have revolted!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear enough, and the Plain follows it. The Greek reading may come from a Hebrew text with similar letters (<i>pash'u ha'avadim</i>).",
+  "b": "<p>In the Greek, as in the Hebrew, Saul sounds the horn and makes the proclamation; only his words differ. \"The slaves have revolted\" would announce that Israel has thrown off Philistine rule. Some modern scholars (Wellhausen, McCarter) go further and reconstruct the original so that the Philistines say \"The Hebrews have revolted,\" since \"Hebrews\" is the word foreigners use for Israelites in these chapters (13:19; 14:11). The Plain keeps the Hebrew.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "13:5",
+  "a": "three thousand chariots",
+  "t": "How many chariots?",
+  "p": "The Hebrew says thirty thousand chariots, far more than any ancient army had. Some Greek manuscripts and the Syriac read three thousand.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "שְׁלֹשִׁים אֶלֶף רֶכֶב",
+    "en": "thirty thousand chariots",
+    "plain": "thirty thousand chariots"
+   },
+   {
+    "w": "Septuagint (Lucianic manuscripts); Syriac Peshitta",
+    "orig": "τρισχίλια ἅρματα",
+    "en": "three thousand chariots",
+    "plain": "three thousand chariots"
+   }
+  ],
+  "follow": 1,
+  "why": "Thirty thousand chariots is not believable for the Philistines; even the great empires fielded a few thousand. The smaller number is likely original, the larger perhaps a copying slip.",
+  "b": "<p>At the Battle of Qarqar (853 BC), the largest chariot army we know of in the region, Ahab of Israel brought 2,000 chariots. Thirty thousand would also be out of proportion to six thousand horsemen. A scribe may have repeated the last letter of the word \"Israel\" before the number (<i>l</i>, which could stand for thirty), turning three into thirty. Most modern translations follow the smaller number.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "13:15",
+  "a": "going up to Gibeah in Benjamin",
+  "t": "A missing sentence?",
+  "p": "The Greek has an extra sentence explaining how Saul and the troops got from Gilgal to Gibeah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וַיַּעַל מִן־הַגִּלְגָּל גִּבְעַת בִּנְיָמִן",
+    "en": "and he went up from Gilgal to Gibeah of Benjamin",
+    "plain": "going up to Gibeah in Benjamin"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ ἀνέστη Σαμουηλ καὶ ἀπῆλθεν ἐκ Γαλγαλων εἰς ὁδὸν αὐτοῦ. καὶ τὸ κατάλειμμα τοῦ λαοῦ ἀνέβη ὀπίσω Σαουλ εἰς ἀπάντησιν ὀπίσω τοῦ λαοῦ τοῦ πολεμιστοῦ. αὐτῶν παραγενομένων ἐκ Γαλγαλων εἰς Γαβαα Βενιαμιν",
+    "en": "and Samuel arose and went away from Gilgal on his way. And the rest of the people went up after Saul to meet the people of war. When they came from Gilgal to Gibeah of Benjamin",
+    "plain": "going on his way. The rest of the people went up after Saul to meet the fighting men, and they came from Gilgal to Gibeah in Benjamin"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may preserve words the Hebrew lost when a scribe's eye jumped from one \"from Gilgal\" to the next. The Plain keeps the Hebrew but the Greek is a real possibility.",
+  "b": "<p>In the Hebrew, Samuel goes to Gibeah, and then Saul is suddenly at Gibeah with his troops (13:16). The Greek explains: Samuel went his own way, and Saul and the people went from Gilgal to Gibeah. Both phrases contain \"from Gilgal,\" so a skip from the first to the second would remove the sentence in between. Many scholars (McCarter, Klein) accept the Greek.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "klein-1sam"
+  ]
+ },
+ {
+  "v": "13:20",
+  "a": "his sickle",
+  "t": "Plowshare or sickle?",
+  "p": "The Hebrew repeats the word for the first tool, \"plowshare.\" The Greek reads \"sickle.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "מַחֲרֵשָׁתוֹ",
+    "en": "his plowshare (the same word as the first tool, with different vowels)",
+    "plain": "his plowshare"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "τὸ δρέπανον αὐτοῦ",
+    "en": "his sickle",
+    "plain": "his sickle"
+   }
+  ],
+  "follow": 1,
+  "why": "Four different tools are clearly meant, and the Hebrew repeats a word, probably by a copying slip. The Plain follows the Greek. The KJV has \"mattock.\"",
+  "b": "<p>The Hebrew list is <i>machareshet</i>, <i>et</i>, <i>qardom</i> and <i>machareshah</i>: the first and last are forms of the same word. The next verse names a different set of tools again, so the exact list is uncertain.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "14:18",
+  "a": "Saul said to Ahijah, \"Bring the ark of God here.\" At that time the ark of God was with the Israelites.",
+  "t": "Ark or ephod?",
+  "p": "The Hebrew says Saul called for the ark. The Greek says the ephod, which was used to ask God questions.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "הַגִּישָׁה אֲרוֹן הָאֱלֹהִים",
+    "en": "bring near the ark of God",
+    "plain": "Saul said to Ahijah, \"Bring the ark of God here.\" At that time the ark of God was with the Israelites."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "προσάγαγε τὸ εφουδ ... ὅτι αὐτὸς ἦρεν τὸ εφουδ",
+    "en": "bring the ephod ... for he was carrying the ephod",
+    "plain": "Saul said to Ahijah, \"Bring the ephod here.\" At that time he was carrying the ephod in front of Israel."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the harder Hebrew reading. But many scholars prefer the Greek, since the ark was at Kiriath-jearim (7:1–2) and Ahijah is said to carry the ephod (14:3).",
+  "b": "<p>The two Hebrew words, <i>aron</i> (ark) and <i>efod</i> (ephod), are not similar, but the Greek fits the story: Saul wants to ask God whether to attack, then stops the priest in the middle (\"Pull back your hand,\" 14:19), which suits the ephod with its lots. The ark had stayed at Kiriath-jearim since its return (7:1–2) until David brought it to Jerusalem (2 Samuel 6). On the other hand, a scribe who knew the ark was elsewhere might have changed \"ark\" to \"ephod,\" and the ark could be taken to battle (4:3–4; 2 Samuel 11:11).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "tsumura-1sam"
+  ]
+ },
+ {
+  "v": "14:24",
+  "a": "That day the men of Israel were hard pressed.",
+  "t": "\"Saul made a great blunder\"",
+  "p": "The Greek has a longer verse: Saul \"committed a great act of ignorance\" with his oath.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וְאִישׁ־יִשְׂרָאֵל נִגַּשׂ בַּיּוֹם הַהוּא",
+    "en": "and the men of Israel were hard pressed that day",
+    "plain": "That day the men of Israel were hard pressed."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ Σαουλ ἠγνόησεν ἄγνοιαν μεγάλην ἐν τῇ ἡμέρᾳ ἐκείνῃ",
+    "en": "and Saul committed a great error on that day",
+    "plain": "That day Saul made a great blunder."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as it stands. The Greek may come from a Hebrew text that differed in a few letters, or may be a translator's judgment on Saul's oath.",
+  "b": "<p>The Greek also adds to the end of 14:23 that \"all the people were with Saul, about ten thousand men, and the battle spread out into every town in the hill country of Ephraim.\" Its version of 14:24 then blames Saul directly. In the Hebrew, the people are \"hard pressed\" because of the battle, or because of the hunger Saul's oath causes. Jonathan's own judgment comes a few verses later (14:29–30).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "14:41",
+  "a": "Saul said, \"LORD God of Israel, why did you not answer your servant today? If the wrong lies in me or in my son Jonathan, LORD God of Israel, let Urim come out. If the wrong lies in your people Israel, let Thummim come out.\" Jonathan and Saul were taken by the lot, and the people went free.",
+  "t": "Urim and Thummim",
+  "p": "The Greek and Latin have a longer prayer that names the Urim and Thummim. The Hebrew has \"Give tamim.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וַיֹּאמֶר שָׁאוּל אֶל־יְהוָה אֱלֹהֵי יִשְׂרָאֵל הָבָה תָמִים",
+    "en": "and Saul said to the LORD God of Israel, Give perfect (tamim)",
+    "plain": "Saul said to the LORD God of Israel, \"Give a perfect answer.\" Jonathan and Saul were taken by the lot, and the people went free."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD); Latin Vulgate",
+    "orig": "ἐὰν ἐν ἐμοὶ ἢ ἐν Ιωναθαν τῷ υἱῷ μου ἡ ἀδικία, κύριε ὁ θεὸς Ισραηλ, δὸς δήλους· καὶ ἐὰν τάδε εἴπῃς Ἐν τῷ λαῷ σου Ισραηλ, δὸς δὴ ὁσιότητα",
+    "en": "if the guilt is in me or in Jonathan my son, LORD God of Israel, give Urim; and if it is in your people Israel, give holiness (Thummim)",
+    "plain": "Saul said, \"LORD God of Israel, why did you not answer your servant today? If the wrong lies in me or in my son Jonathan, LORD God of Israel, let Urim come out. If the wrong lies in your people Israel, let Thummim come out.\" Jonathan and Saul were taken by the lot, and the people went free."
+   }
+  ],
+  "follow": 1,
+  "why": "The longer text explains how the lot worked and is the only place in the Bible that shows Urim and Thummim in use. The shorter Hebrew is best explained as an accident: a scribe's eye skipped from the first \"Israel\" to the third, and what was left (<i>tummim</i>) was read as <i>tamim</i>, \"perfect.\"",
+  "b": "<p>The Greek <i>dēlous</i> (\"clear ones\") matches the usual Greek rendering of Urim (<i>dēlōsis</i>, Exodus 28:30). For Thummim the Greek here has <i>hosiotēta</i> (\"holiness\"), which is unusual; elsewhere it is normally <i>alētheia</i>, \"truth\" (Exodus 28:30; Deuteronomy 33:8). Most modern translations follow the long text (NRSV, NAB, NJB; NJPS in a note). A few defend the Hebrew. The long version shows a yes-or-no procedure: one stone means the guilt is in Saul's family, the other means it is in the people. See the topic on Urim and Thummim.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "tov-tchb",
+   "mccarter-1sam",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "14:42",
+  "a": "\"Now make it fall between me and Jonathan my son,\" Saul said.",
+  "t": "The people object",
+  "p": "The Greek has a longer scene: Saul says whoever the lot takes must die, the people object, and Saul overrules them.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וַיֹּאמֶר שָׁאוּל הַפִּילוּ בֵּינִי וּבֵין יוֹנָתָן בְּנִי",
+    "en": "and Saul said, Cast between me and Jonathan my son",
+    "plain": "\"Now make it fall between me and Jonathan my son,\" Saul said."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "Βάλετε ἀνὰ μέσον ἐμοῦ καὶ ἀνὰ μέσον Ιωναθαν τοῦ υἱοῦ μου· ὃν ἂν κατακληρώσηται κύριος, ἀποθανέτω. καὶ εἶπεν ὁ λαὸς πρὸς Σαουλ Οὐκ ἔστιν τὸ ῥῆμα τοῦτο. καὶ κατεκράτησεν Σαουλ τοῦ λαοῦ",
+    "en": "Cast between me and Jonathan my son: whomever the Lord takes by lot, let him die. And the people said to Saul, This shall not be. And Saul prevailed over the people",
+    "plain": "\"Now make it fall between me and Jonathan my son,\" Saul said. \"Whoever the LORD takes by the lot must die.\" The people said to Saul, \"This must not happen!\" But Saul overruled the people."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew. The Greek plus may be original, lost together with the words skipped in 14:41, or it may be a later expansion that anticipates the people's protest in 14:45.",
+  "b": "<p>The plus sharpens the theme of king against people that runs through the chapter: the people protest once and are overruled, then protest again after the lot and win (14:45). Some translations follow it (NAB, NJB). Since the Hebrew of 14:41 has clearly lost words by a scribe's skip, many scholars think this passage may have been lost in the same damaged stretch of text; others see it as an addition.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "klein-1sam"
+  ]
+ },
+ {
+  "v": "14:47",
+  "a": "he got the better of them",
+  "t": "\"He won\" or \"he was saved\"?",
+  "p": "The Hebrew verb usually means \"condemn\" or \"act wickedly.\" The Greek reads \"he was saved.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "יַרְשִׁיעַ",
+    "en": "he declared guilty, put in the wrong",
+    "plain": "he got the better of them"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "ἐσῴζετο",
+    "en": "he was saved, he came out safe",
+    "plain": "he came out safe"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain reads the Hebrew in the sense \"put in the wrong,\" that is, defeated. The Greek may come from <i>yiwwashea</i>, \"he was saved,\" a word with similar letters, and many scholars prefer it.",
+  "b": "<p>The verb <i>hirshia</i> normally means \"to condemn\" in a law court. Applied to a war, it may mean Saul \"proved them wrong\" by defeating them. The KJV has \"he vexed them.\" The Greek reading, \"he was victorious\" or \"delivered,\" fits Saul's other successes and the word \"rescued\" in 14:48.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "15:12",
+  "a": "Then he moved on and went down to Gilgal.",
+  "t": "Saul's burnt offering",
+  "p": "The Greek adds that Saul turned his chariot, and that Saul was found offering burnt offerings from the plunder of Amalek.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וַיִּסֹּב וַיַּעֲבֹר וַיֵּרֶד הַגִּלְגָּל",
+    "en": "and he turned and passed on and went down to Gilgal",
+    "plain": "Then he moved on and went down to Gilgal."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ ἐπέστρεψεν τὸ ἅρμα καὶ κατέβη εἰς Γαλγαλα πρὸς Σαουλ, καὶ ἰδοὺ αὐτὸς ἀνέφερεν ὁλοκαύτωσιν τῷ κυρίῳ τὰ πρῶτα τῶν σκύλων ὧν ἤνεγκεν ἐξ Αμαληκ",
+    "en": "and he turned his chariot and went down to Gilgal to Saul, and look, he was offering a burnt offering to the Lord, the first of the plunder he had brought from Amalek",
+    "plain": "He turned his chariot and went down to Gilgal. Samuel came down to Saul, and look, he was offering a burnt offering to the LORD, the first of the plunder he had brought from Amalek."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may preserve a line lost from the Hebrew, or may be an explanation drawn from 15:15 and 15:21. The Plain follows the Hebrew.",
+  "b": "<p>The Greek's \"to Saul\" after Gilgal makes it most natural to read Samuel as the one going down, so the Greek has Samuel arrive and catch Saul in the act of sacrificing. It also gives Saul a chariot, the mark of a king (8:11). \"The first of the plunder\" is stronger than \"the best\": it uses the language of firstfruits, as if Saul were giving God his share of banned goods that belonged wholly to God. That sharpens Samuel's reply that obeying is better than sacrifice (15:22). The Hebrew leaves Saul's sacrifice as his own explanation (15:15; 15:21).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "nets-lxx"
+  ]
+ },
+ {
+  "v": "15:29",
+  "a": "Israel's Enduring One does not lie and does not regret",
+  "t": "\"Israel will be split in two\"",
+  "p": "The Greek reads \"Israel will be split in two,\" a forecast of the divided kingdom, where the Hebrew names God \"the Enduring One of Israel.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וְגַם נֵצַח יִשְׂרָאֵל לֹא יְשַׁקֵּר וְלֹא יִנָּחֵם",
+    "en": "and also the Enduring One of Israel will not lie and will not regret",
+    "plain": "Israel's Enduring One does not lie and does not regret"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ διαιρεθήσεται Ισραηλ εἰς δύο, καὶ οὐκ ἀποστρέψει οὐδὲ μετανοήσει",
+    "en": "and Israel will be divided in two, and he will not turn back nor repent",
+    "plain": "Israel will be split in two. He will not turn back and will not regret"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew title <i>netsach Yisrael</i> is unusual but makes sense, and the Greek seems to read the letters differently, perhaps as a form of <i>chatsah</i>, \"divide.\" The Plain follows the Hebrew.",
+  "b": "<p>The Greek turns the verse into a prophecy of the split between Israel and Judah after Solomon (1 Kings 12), continuing the image of the torn robe (15:27–28). The Hebrew makes the verse a statement about God's character, which is what makes it hard to fit with 15:11 and 15:35, where God does \"regret.\" See the note on 15:29 and the topic on God's regret.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "nets-lxx"
+  ]
+ },
+ {
+  "v": "15:32",
+  "a": "Agag came to him in chains. Agag said, \"Surely the bitter taste of death has passed.\"",
+  "t": "Agag's last words",
+  "p": "Did Agag come cheerfully, trembling, or in chains? And did he think death had passed, or that death is bitter?",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "מַעֲדַנֹּת ... אָכֵן סָר מַר־הַמָּוֶת",
+    "en": "in fetters (or: delightedly) ... surely the bitterness of death has turned aside",
+    "plain": "Agag came to him in chains. Agag said, \"Surely the bitter taste of death has passed.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "τρέμων ... Εἰ οὕτως πικρὸς ὁ θάνατος;",
+    "en": "trembling ... is death so bitter?",
+    "plain": "Agag came to him trembling. Agag said, \"Is death really this bitter?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>ma'adannot</i> is a rare word: \"delicately, cheerfully\" (KJV) or \"in fetters\" (compare Job 38:31). The Plain takes \"in chains\" and keeps the Hebrew's words about death.",
+  "b": "<p>The Hebrew Agag thinks he has been spared: the bitterness of death has passed. The Greek Agag is afraid and cries out that death is bitter. The Greek lacks the verb <i>sar</i> (\"has turned aside\"), which in Hebrew looks like the first letters of the next word, <i>mar</i> (\"bitter\"), so one text may have doubled or dropped it. Either way, Samuel's reply follows at once.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "17:4",
+  "a": "four cubits and a span",
+  "t": "How tall was Goliath?",
+  "p": "The oldest Hebrew manuscript, the Old Greek and Josephus say four cubits and a span (about 6 ft 9 in, or 2 m). The standard Hebrew says six cubits and a span (about 9 ft 9 in).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); Codex Alexandrinus and some later Greek manuscripts; Targum; Vulgate; Syriac Peshitta",
+    "orig": "שֵׁשׁ אַמּוֹת וָזָרֶת",
+    "en": "six cubits and a span",
+    "plain": "six cubits and a span"
+   },
+   {
+    "w": "4QSam-a (Dead Sea Scrolls, about 50–25 BC); Old Greek (Codex Vaticanus; Lucianic text); Josephus, <i>Antiquities</i> 6.171 (AD 93–94)",
+    "orig": "ארבע אמות וזרת; τεσσάρων πήχεων καὶ σπιθαμῆς",
+    "en": "four cubits and a span",
+    "plain": "four cubits and a span"
+   }
+  ],
+  "follow": 1,
+  "why": "Three old and partly independent witnesses agree on four, and numbers tend to grow in copying. The Plain follows the Greek here for the same reason it does at 13:5: the larger number is the less likely one. The NET Bible also reads four.",
+  "b": "<p>A cubit was about 18 inches (45 cm), a span about 9 inches (23 cm). Four cubits and a span makes Goliath about 6 feet 9 inches, very tall at a time when men averaged about 5 feet 6 inches. Six cubits and a span is nearly 10 feet, taller than any human reliably measured.</p><p>Daniel Hays argues for four: the scroll 4QSam-a, the Old Greek and Josephus (who used a Greek text close to the scroll) agree, and a scribe could easily have raised four to six under the influence of \"six hundred shekels\" in 17:7 or the six-fingered giant of 2 Samuel 21:20. Clyde Billington defends six. He argues that the Alexandrian translators converted Goliath's height into the larger royal (Egyptian) cubit, giving a lower number for the same height, and that 4QSam-a was corrected toward the Greek or copied by someone using that system. He also notes that Codex Alexandrinus and some other Greek manuscripts read six. Hays answers that there is no evidence the translators converted measures anywhere else, and that Alexandrinus was revised toward the Hebrew.</p><p>Both sides agree the story does not depend on the number: Goliath was a big man in heavy armor against a youth, and Saul, a head taller than anyone in Israel (10:23), would not face him.</p>",
+  "s": [
+   "hays-goliath",
+   "billington-goliath",
+   "hays-reply-goliath",
+   "djd17-samuel",
+   "ulrich-qumran-samuel",
+   "josephus-ant",
+   "rahlfs-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "17:12",
+  "a": "David was the son of that Ephrathite from Bethlehem in Judah whose name was Jesse. Jesse had eight sons. In the days of Saul, he was an old man, well on in years.",
+  "t": "The shorter Greek story",
+  "p": "The oldest Greek text lacks 17:12–31, and much more of chapters 17–18. Was there once a shorter story of David and Goliath?",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts (Codex Alexandrinus, Lucianic text); Targum; Vulgate; Syriac Peshitta",
+    "orig": "וְדָוִד בֶּן־אִישׁ אֶפְרָתִי הַזֶּה",
+    "en": "and David was the son of this Ephrathite",
+    "plain": "David was the son of that Ephrathite from Bethlehem in Judah whose name was Jesse. Jesse had eight sons. In the days of Saul, he was an old man, well on in years."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD), with some related Greek manuscripts",
+    "orig": "",
+    "en": "(17:12–31 missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the received text of the synagogue and the church, but whether the shorter Greek represents an earlier form of the story is one of the most debated questions in the textual study of the Hebrew Bible.",
+  "b": "<p>The oldest form of the Greek translation, found in Codex Vaticanus and a few related manuscripts, lacks about 44 percent of 1 Samuel 17–18: by Emanuel Tov's count, 39 of the 88 verses. It lacks 17:12–31 (David arrives at the camp), 17:41, 17:48b, 17:50, 17:55–18:5 (Saul asks whose son David is; Jonathan's covenant), 18:10–11 (the first spear), 18:17–19 (Merab), 18:29b–30, and smaller pieces of 18:6, 18:8, 18:12, 18:21, 18:26 and 18:27, each with its own entry. Later Greek manuscripts, such as Codex Alexandrinus and the Lucianic text, have these passages, added from a Hebrew-based revision.</p><p>Read on its own, the short text tells one smooth story. David, already Saul's armor-bearer (16:21), volunteers to fight the Philistine, is armed by Saul, and kills him. Read on its own, the longer material tells another: David, an unknown shepherd boy sent with food for his brothers, hears the challenge, kills the giant, and is then introduced to Saul, who does not know him (17:55–58).</p><p>Scholars explain this in two main ways. Emanuel Tov and Johan Lust argue that the Greek translates a shorter Hebrew text, and that the Masoretic Text combined it with a second, independent version of the story. The translator of Samuel usually follows his Hebrew closely, they point out, so he is unlikely to have cut almost half of two chapters. Dominique Barthélemy and D. W. Gooding argue that the long Hebrew is one carefully built story, and that the Greek translator, or the Hebrew text he used, cut passages to remove what seemed contradictions. Gooding's strongest point is that the short text is still not smooth: David is still a \"lad\" who has never fought (17:33; 17:42) although 16:18 called him \"a strong fighter and a soldier,\" so the shortening did not remove every tension, and the long text's repetitions can be read as deliberate design. The four scholars set out their views together in <i>The Story of David and Goliath</i> (1986).</p><p>Since then more specialists have sided with Tov and Lust than with Barthélemy and Gooding; A. Graeme Auld and Craig Ho, for example, argue that the longer text was built up from the shorter. The question remains open. Benjamin Johnson's literary study (2015) reads the Greek version as a coherent story in its own right, a reminder that each text can be read on its own terms. Harmonizing readers (H) read the long text as one story: David served Saul part-time (17:15), Saul asked about his family, not his name (17:25; 17:58), and the narrator arranged events by theme rather than strict time. The Plain follows the Masoretic Text, which is the canonical text for Jews and most Christians, and marks every verse that the Old Greek lacks.</p>",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath",
+   "auld-ho-goliath",
+   "johnson-david-goliath",
+   "tov-tchb",
+   "rahlfs-lxx",
+   "mccarter-1sam",
+   "alter-david"
+  ]
+ },
+ {
+  "v": "17:13",
+  "a": "The three oldest sons of Jesse had gone; they had marched after Saul to the war. Of the three sons who went to war, the firstborn was Eliab, the next Abinadab and the third Shammah.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "The three oldest sons of Jesse had gone; they had marched after Saul to the war. Of the three sons who went to war, the firstborn was Eliab, the next Abinadab and the third Shammah."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:14",
+  "a": "David was the smallest. The three big ones had gone after Saul,",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David was the smallest. The three big ones had gone after Saul,"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:15",
+  "a": "and David used to come and go between Saul's service and shepherding his father's flock in Bethlehem.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "and David used to come and go between Saul's service and shepherding his father's flock in Bethlehem."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:16",
+  "a": "Morning and evening the Philistine came near and planted himself there, forty days running.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Morning and evening the Philistine came near and planted himself there, forty days running."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:17",
+  "a": "Jesse said to his son David, \"Please take your brothers this ephah of parched grain and these ten loaves of bread, and hurry them to the camp for your brothers.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Jesse said to his son David, \"Please take your brothers this ephah of parched grain and these ten loaves of bread, and hurry them to the camp for your brothers."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:18",
+  "a": "These ten slices of cheese, take to the commander of their thousand. Check on how your brothers are, and get some token from them to bring back.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "These ten slices of cheese, take to the commander of their thousand. Check on how your brothers are, and get some token from them to bring back."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:19",
+  "a": "Saul is there, and they are, with all the men of Israel, in the Valley of Elah, fighting the Philistines.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul is there, and they are, with all the men of Israel, in the Valley of Elah, fighting the Philistines.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:20",
+  "a": "David rose early in the morning, left the sheep with someone to watch them, picked up the load and went, as Jesse had told him. He came to the ring of the camp just when the army was marching out to its line, raising the battle shout.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David rose early in the morning, left the sheep with someone to watch them, picked up the load and went, as Jesse had told him. He came to the ring of the camp just when the army was marching out to its line, raising the battle shout."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:21",
+  "a": "Israel and the Philistines had set themselves in order, battle line facing battle line.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Israel and the Philistines had set themselves in order, battle line facing battle line."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:22",
+  "a": "David handed over the gear he carried to the supply keeper and ran to the front line. When he got there, he asked his brothers if all was well.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David handed over the gear he carried to the supply keeper and ran to the front line. When he got there, he asked his brothers if all was well."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:23",
+  "a": "He was still speaking with them when, look, the champion came up out of the Philistine lines. His name was Goliath, the Philistine from Gath, and he spoke the same words again. David heard them.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "He was still speaking with them when, look, the champion came up out of the Philistine lines. His name was Goliath, the Philistine from Gath, and he spoke the same words again. David heard them."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:24",
+  "a": "All the men of Israel, as soon as they saw the man, ran away from him in terror.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "All the men of Israel, as soon as they saw the man, ran away from him in terror."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:25",
+  "a": "Someone in Israel said, \"Have you seen this man who keeps coming up? He comes up to heap insults on Israel. Whoever strikes him down, the king will load him with riches. He will give him his daughter, and he will make his father's family free in Israel.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Someone in Israel said, \"Have you seen this man who keeps coming up? He comes up to heap insults on Israel. Whoever strikes him down, the king will load him with riches. He will give him his daughter, and he will make his father's family free in Israel.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:26",
+  "a": "David asked the men standing by him, \"The man who strikes down this Philistine and lifts this shame off Israel, what will he get? Who is this uncircumcised Philistine anyway, to insult the battle lines of the living God?\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David asked the men standing by him, \"The man who strikes down this Philistine and lifts this shame off Israel, what will he get? Who is this uncircumcised Philistine anyway, to insult the battle lines of the living God?\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:27",
+  "a": "The people gave him the same answer: \"This is what the man who strikes him down will get.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "The people gave him the same answer: \"This is what the man who strikes him down will get.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:28",
+  "a": "Eliab, his big brother, heard him talking to the men, and Eliab flared up in anger at David. \"What did you come down here for?\" he said. \"Who's looking after that little flock of sheep out in the wilderness? I know you, your pride and your bad heart. You came down to see the fighting!\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Eliab, his big brother, heard him talking to the men, and Eliab flared up in anger at David. \"What did you come down here for?\" he said. \"Who's looking after that little flock of sheep out in the wilderness? I know you, your pride and your bad heart. You came down to see the fighting!\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:29",
+  "a": "\"What did I do now?\" David said. \"It was just talk, wasn't it?\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "\"What did I do now?\" David said. \"It was just talk, wasn't it?\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:30",
+  "a": "He turned away from Eliab toward another man and said the same thing, and the people answered him the way they had the first time.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "He turned away from Eliab toward another man and said the same thing, and the people answered him the way they had the first time."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:31",
+  "a": "People heard what David was saying and told it to Saul, who had him brought in.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "People heard what David was saying and told it to Saul, who had him brought in."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:41",
+  "a": "On came the Philistine, nearer and nearer to David, and the man with the big shield walked ahead of him.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Philistine's slow approach with his shield-bearer is not in the short story.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "On came the Philistine, nearer and nearer to David, and the man with the big shield walked ahead of him."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:43",
+  "a": "\"Am I a dog,\" the Philistine said to David, \"that you're coming at me with sticks?\"",
+  "t": "\"Worse than a dog\"",
+  "p": "The Greek has David answer the insult: \"No, but worse than a dog.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "הֲכֶלֶב אָנֹכִי כִּי־אַתָּה בָא־אֵלַי בַּמַּקְלוֹת",
+    "en": "am I a dog that you come to me with sticks?",
+    "plain": "\"Am I a dog,\" the Philistine said to David, \"that you're coming at me with sticks?\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "Ὡσεὶ κύων ἐγώ εἰμι, ὅτι σὺ ἔρχῃ ἐπ' ἐμὲ ἐν ῥάβδῳ καὶ λίθοις; καὶ εἶπεν Δαυιδ Οὐχί, ἀλλ' ἢ χείρω κυνός",
+    "en": "am I like a dog, that you come against me with a stick and stones? And David said, No, but worse than a dog",
+    "plain": "\"Am I a dog,\" the Philistine said to David, \"that you're coming at me with a stick and stones?\" David said, \"No, worse than a dog.\""
+   }
+  ],
+  "follow": 0,
+  "why": "David's retort looks like a later addition that makes him answer insult with insult. The Plain follows the Hebrew.",
+  "b": "<p>The Greek's \"stones\" anticipates the sling. David's comeback is clever but out of character with his solemn speech in 17:45–47, which in both texts follows directly.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx"
+  ]
+ },
+ {
+  "v": "17:48",
+  "a": "David ran fast toward the battle line to meet the Philistine.",
+  "t": "Not in the oldest Greek",
+  "p": "This sentence is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David ran fast toward the battle line to meet the Philistine."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:50",
+  "a": "That is how David got the better of the Philistine: with a sling and a stone. He struck the Philistine and put him to death, and David had no sword in his hand.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. Without it, the Greek has only one account of the killing (17:51).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "That is how David got the better of the Philistine: with a sling and a stone. He struck the Philistine and put him to death, and David had no sword in his hand."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:52",
+  "a": "all the way to Gath",
+  "t": "Gath or \"a valley\"?",
+  "p": "The Hebrew says Israel chased the Philistines \"until you come to a valley.\" The Greek reads \"to Gath.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "עַד־בּוֹאֲךָ גַיְא",
+    "en": "until you come to a valley",
+    "plain": "all the way into a valley"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "ἕως εἰσόδου Γεθ",
+    "en": "to the entrance of Gath",
+    "plain": "all the way to Gath"
+   }
+  ],
+  "follow": 1,
+  "why": "Gath (<i>gat</i>) and \"valley\" (<i>gay</i>) differ by one letter, and Gath fits the end of the verse, \"as far as Gath and Ekron.\"",
+  "b": "<p>\"A valley\" is vague, since the battle was already in the Valley of Elah. Gath was Goliath's home city, at the western end of the valley, so the chase naturally ran toward it. Most modern translations read Gath. The Greek also differs later in the verse: it has the Israelites chase the Philistines \"to the gates of Ashkelon\" (<i>heōs tōn pylōn Askalōnos</i>), where the Hebrew has \"the gates of Ekron.\" Ekron, close to Gath, fits the geography better, and the Plain keeps it.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "17:55",
+  "a": "When Saul saw David go out to meet the Philistine, he asked Abner, the commander of the army, \"Whose son is this lad, Abner?\" And Abner said, \"By your life, O king, I do not know.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. Without 17:55–58, the Greek has no scene in which Saul fails to recognize David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "When Saul saw David go out to meet the Philistine, he asked Abner, the commander of the army, \"Whose son is this lad, Abner?\" And Abner said, \"By your life, O king, I do not know.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:56",
+  "a": "The king said, \"You go and ask whose son this young fellow is.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. Without 17:55–58, the Greek has no scene in which Saul fails to recognize David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "The king said, \"You go and ask whose son this young fellow is.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:57",
+  "a": "David was coming back from striking down the Philistine when Abner took him and led him in to Saul. The Philistine's head was in his hand.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. Without 17:55–58, the Greek has no scene in which Saul fails to recognize David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "David was coming back from striking down the Philistine when Abner took him and led him in to Saul. The Philistine's head was in his hand."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "17:58",
+  "a": "Saul said to him, \"Young man, whose son are you?\" \"The son of your servant Jesse, the Bethlehemite,\" David answered.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. Without 17:55–58, the Greek has no scene in which Saul fails to recognize David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul said to him, \"Young man, whose son are you?\" \"The son of your servant Jesse, the Bethlehemite,\" David answered."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:1",
+  "a": "By the time David had finished talking with Saul, Jonathan's life was tied up with David's life, and Jonathan loved him as much as his own life.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no account of Jonathan's covenant here; it first mentions his love for David in 19:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "By the time David had finished talking with Saul, Jonathan's life was tied up with David's life, and Jonathan loved him as much as his own life."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:2",
+  "a": "Saul took him in that day and did not allow him to go home again to his father's house.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no account of Jonathan's covenant here; it first mentions his love for David in 19:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul took him in that day and did not allow him to go home again to his father's house."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:3",
+  "a": "Jonathan and David made a covenant, since Jonathan loved him as much as his own life.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no account of Jonathan's covenant here; it first mentions his love for David in 19:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Jonathan and David made a covenant, since Jonathan loved him as much as his own life."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:4",
+  "a": "Jonathan stripped off the robe he had on and gave it to David. He gave him his battle clothes too, down to his sword, his bow and his belt.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no account of Jonathan's covenant here; it first mentions his love for David in 19:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Jonathan stripped off the robe he had on and gave it to David. He gave him his battle clothes too, down to his sword, his bow and his belt."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:5",
+  "a": "Wherever Saul sent him, David went out and handled things wisely. Saul set him over the fighting men. All the people thought it was good, and so did Saul's servants.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no account of Jonathan's covenant here; it first mentions his love for David in 19:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Wherever Saul sent him, David went out and handled things wisely. Saul set him over the fighting men. All the people thought it was good, and so did Saul's servants."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:6",
+  "a": "When they came home, as David came back from striking the Philistine, the women poured out of every town in Israel to meet King Saul.",
+  "t": "\"To meet David\"",
+  "p": "The Old Greek lacks the opening clause, and has the women come out \"to meet David,\" not \"to meet King Saul.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וַיְהִי בְּבוֹאָם בְּשׁוּב דָּוִד מֵהַכּוֹת אֶת־הַפְּלִשְׁתִּי ... לִקְרַאת שָׁאוּל הַמֶּלֶךְ",
+    "en": "and when they came, as David returned from striking the Philistine ... to meet Saul the king",
+    "plain": "When they came home, as David came back from striking the Philistine, the women poured out of every town in Israel to meet King Saul."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ ἐξῆλθον αἱ χορεύουσαι εἰς συνάντησιν Δαυιδ ἐκ πασῶν πόλεων Ισραηλ",
+    "en": "and the dancing women came out to meet David from all the cities of Israel",
+    "plain": "The dancing women poured out of every town in Israel to meet David."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, as everywhere in chapters 17–18. See the note on 17:12.",
+  "b": "<p>This is one of the Old Greek minuses that changes the story. In the Greek, the women go out to greet David himself, which makes Saul's jealousy in 18:8–9 a reaction to the crowd's open preference. In the Hebrew they go to meet the king, and David's name in their song is the surprise.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "tov-1sam16-18"
+  ]
+ },
+ {
+  "v": "18:8",
+  "a": "This burned Saul up.",
+  "t": "Not in the oldest Greek",
+  "p": "This sentence, like the last line of the verse, is missing from the Old Greek. The two go together. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וַיִּחַר לְשָׁאוּל מְאֹד",
+    "en": "and it burned to Saul greatly",
+    "plain": "This burned Saul up."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:8",
+  "a": " The only thing still missing for him is the kingship!",
+  "t": "\"Only the kingship\"",
+  "p": "Saul's famous last line is missing from the Old Greek. It goes with the omission at the start of the verse.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וְעוֹד לוֹ אַךְ הַמְּלוּכָה",
+    "en": "and yet to him only the kingship",
+    "plain": " The only thing still missing for him is the kingship!"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. See the note on 17:12.",
+  "b": "<p>Without this line, the Greek Saul is offended by the song but does not yet say aloud that David threatens his throne. The line prepares for 20:31 and 23:17.</p>",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:10",
+  "a": "The very next day an evil spirit from God swept down on Saul, and he fell into a prophet's frenzy in the middle of the house. David was playing music with his hand, as he did every day, and the spear was in Saul's hand.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The spear scene appears in the Greek only in 19:9–10.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "The very next day an evil spirit from God swept down on Saul, and he fell into a prophet's frenzy in the middle of the house. David was playing music with his hand, as he did every day, and the spear was in Saul's hand."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:11",
+  "a": "Saul threw the spear. \"I'll strike David right into the wall,\" he said. David slipped away from him twice.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The spear scene appears in the Greek only in 19:9–10.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul threw the spear. \"I'll strike David right into the wall,\" he said. David slipped away from him twice."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:12",
+  "a": "The LORD was with David, and from Saul he had turned away.",
+  "t": "Not in the oldest Greek",
+  "p": "The Old Greek has only \"Saul was afraid of David.\" This sentence is missing there. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "כִּי־הָיָה יְהוָה עִמּוֹ וּמֵעִם שָׁאוּל סָר",
+    "en": "for the LORD was with him and from Saul he had turned away",
+    "plain": "The LORD was with David, and from Saul he had turned away."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. See the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:17",
+  "a": "Saul said to David, \"Look: Merab, my older girl. She's yours to marry. Just be a man of courage for me and fight the LORD's wars.\" Saul was thinking, \"Let my hand not be on him. Let it be the Philistines' hand on him.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no offer of Merab; Saul's first daughter offered is Michal.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul said to David, \"Look: Merab, my older girl. She's yours to marry. Just be a man of courage for me and fight the LORD's wars.\" Saul was thinking, \"Let my hand not be on him. Let it be the Philistines' hand on him.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:18",
+  "a": "But David said to Saul, \"Who am I? Who are my people, my father's clan, in Israel, for me to be son-in-law to the king?\"",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no offer of Merab; Saul's first daughter offered is Michal.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "But David said to Saul, \"Who am I? Who are my people, my father's clan, in Israel, for me to be son-in-law to the king?\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:19",
+  "a": "When the time arrived to give Saul's daughter Merab to David, she was handed to Adriel the Meholathite as his wife.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12. The Greek has no offer of Merab; Saul's first daughter offered is Michal.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "When the time arrived to give Saul's daughter Merab to David, she was handed to Adriel the Meholathite as his wife."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:21",
+  "a": "So Saul told David, \"Through the second one, you will be my son-in-law today.\"",
+  "t": "Not in the oldest Greek",
+  "p": "This sentence is missing from the Old Greek, which has no offer of Merab (18:17–19) for it to refer back to. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּוֹם",
+    "en": "and Saul said to David, By two you will become my son-in-law today",
+    "plain": "So Saul told David, \"Through the second one, you will be my son-in-law today.\""
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. See the note on 17:12.",
+  "b": "<p>\"Through the second one\" (<i>bishtayim</i>, literally \"by two\") assumes the Merab episode: Michal is the second daughter offered. Its absence in the Greek fits the Greek's lack of 18:17–19.</p>",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:26",
+  "a": "The time set had not yet run out.",
+  "t": "Not in the oldest Greek",
+  "p": "This sentence is missing from the Old Greek, together with \"they were handed over to the king in full count\" in 18:27. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וְלֹא מָלְאוּ הַיָּמִים",
+    "en": "and the days were not fulfilled",
+    "plain": "The time set had not yet run out."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. See the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:27",
+  "a": "two hundred",
+  "t": "Two hundred or one hundred?",
+  "p": "The Hebrew says David brought two hundred foreskins; the Greek says one hundred, the number Saul asked for.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "מָאתַיִם",
+    "en": "two hundred",
+    "plain": "two hundred"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD); compare 2 Samuel 3:14",
+    "orig": "ἑκατὸν",
+    "en": "one hundred",
+    "plain": "one hundred"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew. The Greek may have changed the number to match 18:25 and 2 Samuel 3:14, where David speaks of \"a hundred\" foreskins.",
+  "b": "<p>If David brought twice the price, he went beyond what Saul demanded, as heroes do. In 2 Samuel 3:14 David asks for Michal back, saying he paid for her with a hundred Philistine foreskins, the price that was set. Either number fits the story.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "18:27",
+  "a": "and they were handed over to the king in full count",
+  "t": "Not in the oldest Greek",
+  "p": "These words are missing from the Old Greek. They go with the omission in 18:26. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "וַיְמַלְאוּם לַמֶּלֶךְ",
+    "en": "and they gave them in full to the king",
+    "plain": "and they were handed over to the king in full count"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. See the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "18:28",
+  "a": "and Michal, Saul's own daughter, loved him",
+  "t": "Michal or all Israel?",
+  "p": "The Greek reads \"and all Israel loved him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וּמִיכַל בַּת־שָׁאוּל אֲהֵבַתְהוּ",
+    "en": "and Michal daughter of Saul loved him",
+    "plain": "and Michal, Saul's own daughter, loved him"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ πᾶς Ισραηλ ἠγάπα αὐτόν",
+    "en": "and all Israel loved him",
+    "plain": "and all Israel loved him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew, which continues the story of Michal's love (18:20). The Greek repeats 18:16.",
+  "b": "<p>Saul's realization in the Hebrew is personal: even his daughter loves David. In the Greek it is political: the whole nation is on David's side. Many scholars prefer the Greek here, as part of its shorter, smoother story.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "18:29",
+  "a": "Saul was David's enemy from then on.",
+  "t": "Not in the oldest Greek",
+  "p": "This sentence is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "Saul was David's enemy from then on."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "18:30",
+  "a": "The Philistine lords would march out to war, and whenever they marched out, David handled things more wisely than any of Saul's servants. His name came to be greatly valued.",
+  "t": "Not in the oldest Greek",
+  "p": "This verse is missing from the Old Greek (Codex Vaticanus), as part of the longer passages it lacks in chapters 17–18. See the note on 17:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930); later Greek manuscripts",
+    "orig": "",
+    "en": "(present)",
+    "plain": "The Philistine lords would march out to war, and whenever they marched out, David handled things more wisely than any of Saul's servants. His name came to be greatly valued."
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "",
+    "en": "(missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text. On whether the shorter Greek preserves an earlier story, see the note on 17:12.",
+  "b": "",
+  "s": [
+   "tov-1sam16-18",
+   "barthelemy-david-goliath"
+  ]
+ },
+ {
+  "v": "20:17",
+  "a": "Jonathan had David swear once more",
+  "t": "Who swore to whom?",
+  "p": "The Hebrew says Jonathan made David swear again. The Greek says Jonathan swore to David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "וַיּוֹסֶף יְהוֹנָתָן לְהַשְׁבִּיעַ אֶת־דָּוִד",
+    "en": "and Jonathan again made David swear",
+    "plain": "Jonathan had David swear once more"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "καὶ προσέθετο ἔτι Ιωναθαν ὀμόσαι τῷ Δαυιδ",
+    "en": "and Jonathan again swore to David",
+    "plain": "Jonathan swore to David once more"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense. In the Hebrew Jonathan, who has just asked for loyalty to his family (20:14–15), binds David to it; in the Greek he binds himself.",
+  "b": "<p>The difference is one vowel pattern in Hebrew (<i>lehashbia'</i>, \"to make swear,\" against <i>lishshava'</i>, \"to swear\"). Jonathan has the greater power now, but David will have it later, which is why Jonathan wants David's oath.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "20:19",
+  "a": "beside the stone called Ezel",
+  "t": "The stone Ezel",
+  "p": "The Hebrew names a stone \"Ezel.\" The Greek reads \"beside that mound.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "אֵצֶל הָאֶבֶן הָאָזֶל",
+    "en": "beside the stone Ezel",
+    "plain": "beside the stone called Ezel"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "παρὰ τὸ εργαβ ἐκεῖνο",
+    "en": "beside that ergab (mound)",
+    "plain": "beside that mound there"
+   }
+  ],
+  "follow": 0,
+  "why": "No stone Ezel is known, but the Plain keeps the Hebrew. The Greek seems to read <i>ha'argov</i> (\"the mound, heap of stones\"), which also appears in 20:41.",
+  "b": "<p>Some have explained Ezel as \"departure,\" a stone of parting. Many scholars read the Greek in both places: David hides beside a mound of stones and gets up from beside it (20:41).</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel",
+   "mccarter-1sam"
+  ]
+ },
+ {
+  "v": "20:41",
+  "a": "on the south side",
+  "t": "From the south, or from the mound?",
+  "p": "The Hebrew says David rose \"from beside the Negev,\" the south. The Greek reads \"from beside the mound.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008; Aleppo Codex, about AD 930)",
+    "orig": "מֵאֵצֶל הַנֶּגֶב",
+    "en": "from beside the south",
+    "plain": "on the south side"
+   },
+   {
+    "w": "Septuagint (Old Greek), Codex Vaticanus (4th century AD)",
+    "orig": "ἀπὸ τοῦ αργαβ",
+    "en": "from the ergab (mound)",
+    "plain": "from beside the mound"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is odd, since the Negev is a region, but it can mean \"the south side\" of the place. The Plain follows it.",
+  "b": "<p>If the Greek is right, 20:19 and 20:41 both mention the same mound of stones where David hid. The Hebrew may have lost the place-name and supplied a direction instead.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "driver-samuel"
+  ]
+ }
+]

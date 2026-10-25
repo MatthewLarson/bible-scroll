@@ -1,0 +1,421 @@
+[
+ {
+  "v": "24:23",
+  "a": "The pale moon will blush",
+  "t": "The moon, or a brick?",
+  "p": "The Greek read the same letters as \"brick\" and \"wall\" and pictured a city falling. This goes with the next entry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "וְחָפְרָה הַלְּבָנָה",
+    "en": "and the white one (the moon) will be abashed",
+    "plain": "The pale moon will blush"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus) and the critical editions",
+    "orig": "καὶ τακήσεται ἡ πλίνθος",
+    "en": "and the brick will melt",
+    "plain": "The brick will melt"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew and the Great Isaiah Scroll agree, and the moon and sun fit the heavenly powers of 24:21. The Greek translator read levanah \"moon\" as levenah \"brick,\" and probably read a verb meaning \"melt\" in place of \"be abashed.\"",
+  "b": "The consonants of <i>levanah</i> \"moon\" and <i>levenah</i> \"brick\" are the same (לבנה), and so are <i>chammah</i> \"sun\" and <i>chomah</i> \"wall\" (חמה). The Greek's \"the brick will melt and the wall will fall\" continues the fall of the city in 24:10–12. It is a good example of how the Greek translators worked from unpointed Hebrew.",
+  "s": [
+   "ziegler-isaiah",
+   "swete-lxx",
+   "seeligmann-isaiah"
+  ]
+ },
+ {
+  "v": "24:23",
+  "a": "and the hot sun will be ashamed",
+  "t": "The sun, or a wall?",
+  "p": "The Greek reads \"the wall will fall.\" This goes with the previous entry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a",
+    "orig": "וּבוֹשָׁה הַחַמָּה",
+    "en": "and the hot one (the sun) will be ashamed",
+    "plain": "and the hot sun will be ashamed"
+   },
+   {
+    "w": "Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "καὶ πεσεῖται τὸ τεῖχος",
+    "en": "and the wall will fall",
+    "plain": "and the wall will fall"
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry: the Greek read the same letters as chomah \"wall.\"",
+  "s": [
+   "ziegler-isaiah",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "25:8",
+  "a": "He will swallow death up for all time.",
+  "t": "Who swallows whom?",
+  "p": "In the Hebrew God swallows death; in the old Greek, death swallows. Paul's wording matches Theodotion.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a",
+    "orig": "בִּלַּע הַמָּוֶת לָנֶצַח",
+    "en": "he has swallowed death forever",
+    "plain": "He will swallow death up for all time."
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "κατέπιεν ὁ θάνατος ἰσχύσας",
+    "en": "Death, having prevailed, swallowed (them) up",
+    "plain": "Death prevailed and swallowed them up."
+   },
+   {
+    "w": "Theodotion's Greek version, as reported in Ziegler's apparatus; 1 Corinthians 15:54",
+    "orig": "κατεπόθη ὁ θάνατος εἰς νῖκος",
+    "en": "Death was swallowed up in victory",
+    "plain": "Death has been swallowed up in victory."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear and the Great Isaiah Scroll agrees. The Old Greek made death the subject and read lanetsach as \"having prevailed\"; Theodotion, followed by Paul, made death the object of a passive verb and took lanetsach as \"in victory.\"",
+  "b": "Paul's quotation in 1 Corinthians 15:54 does not follow the usual Septuagint here, but it agrees with Theodotion's version. Whether Paul knew an early form of that revision or translated the Hebrew himself is debated.",
+  "s": [
+   "ziegler-isaiah",
+   "swete-lxx",
+   "fee-1cor"
+  ]
+ },
+ {
+  "v": "25:10",
+  "a": "in the water of a manure pit",
+  "t": "\"In the water of\" a manure pit",
+  "p": "The written Hebrew and the Great Isaiah Scroll say \"in the water of\"; the Masoretes' reading tradition says \"in.\"",
+  "readings": [
+   {
+    "w": "Ketiv (the written consonants of the Masoretic Text); Great Isaiah Scroll (1QIsa-a)",
+    "orig": "בְּמֵי מַדְמֵנָה",
+    "en": "in the water of a dung pit",
+    "plain": "in the water of a manure pit"
+   },
+   {
+    "w": "Qere (the Masoretic reading tradition), as pointed in the Leningrad Codex",
+    "orig": "בְּמוֹ מַדְמֵנָה",
+    "en": "in a dung pit",
+    "plain": "in a manure pit"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the written text, which 1QIsa-a also has (במי), because the water explains the swimming picture of 25:11. The Qere bemo is a poetic form of \"in.\"",
+  "s": [
+   "parry-qimron-isaiah"
+  ]
+ },
+ {
+  "v": "26:8",
+  "a": "the remembering of you",
+  "t": "\"Remembrance\" or \"your law\"?",
+  "p": "The Great Isaiah Scroll has \"your law\" where the Masoretic Text has \"the remembering of you.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-b (4Q56); Old Greek",
+    "orig": "וּלְזִכְרְךָ",
+    "en": "and to your remembrance",
+    "plain": "the remembering of you"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "ולתורתך",
+    "en": "and to your law",
+    "plain": "your law"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading has the support of 4QIsa-b and the Greek, and \"name\" and \"remembrance\" are a common pair (Exodus 3:15; Psalm 135:13). The scroll's \"your law\" looks like an interpretive change.",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "26:14",
+  "a": "shades do not rise",
+  "t": "\"Shades\" or \"physicians\"?",
+  "p": "The Greek read refa'im (shades) as rofe'im (physicians): \"physicians will not raise them.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 4QIsa-b (4Q56)",
+    "orig": "רְפָאִים בַּל־יָקֻמוּ",
+    "en": "shades will not rise",
+    "plain": "shades do not rise"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "οὐδὲ ἰατροὶ οὐ μὴ ἀναστήσουσιν",
+    "en": "nor will physicians raise (them) up",
+    "plain": "physicians do not raise them up"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants of the Hebrew can be vocalized either way. The parallel with \"dead men\" makes \"shades\" the natural reading, and the Hebrew scrolls do not support the Greek. The Greek translator read the same consonants as rofe'im; the same reading occurs in the Greek of Psalm 88:10.",
+  "s": [
+   "swete-lxx",
+   "ziegler-isaiah"
+  ]
+ },
+ {
+  "v": "26:19",
+  "a": "Wake up and sing out, you who lie in the dust!",
+  "t": "A command or a promise?",
+  "p": "In the Great Isaiah Scroll the dead are not commanded to wake; it promises that they will.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-b (4Q56)",
+    "orig": "הָקִיצוּ וְרַנְּנוּ שֹׁכְנֵי עָפָר",
+    "en": "Wake up and sing, dwellers in the dust!",
+    "plain": "Wake up and sing out, you who lie in the dust!"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "יקיצו וירננו שוכני עפר",
+    "en": "the dwellers in the dust will wake up and sing",
+    "plain": "Those who lie in the dust will wake up and sing out!"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "καὶ εὐφρανθήσονται οἱ ἐν τῇ γῇ",
+    "en": "and those in the earth will rejoice",
+    "plain": "Those who lie in the earth will rejoice!"
+   }
+  ],
+  "follow": 0,
+  "why": "The command form of the Masoretic Text and 4QIsa-b is the more striking reading, a word spoken directly to the dead, and the scroll and the Greek look like smoothing into a statement that matches \"will live\" and \"will stand up.\"",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:20",
+  "a": "your door",
+  "t": "One door or two?",
+  "p": "The written Hebrew and two Qumran scrolls have \"your doors\"; the Masoretic reading tradition has \"your door.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretic reading tradition), as pointed in the Leningrad Codex; Old Greek",
+    "orig": "דְּלָתְךָ",
+    "en": "your door",
+    "plain": "your door"
+   },
+   {
+    "w": "Ketiv (the written consonants of the Masoretic Text); 1QIsa-a; 4QIsa-b (4Q56); KJV",
+    "orig": "דלתיך",
+    "en": "your doors",
+    "plain": "your doors"
+   }
+  ],
+  "follow": 0,
+  "why": "The sense is the same. The Plain follows the Qere and the Greek, which match the singular \"close... after you\" and the Passover picture of the one door of the house; the written plural may refer to the double leaves of a door.",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "27:2",
+  "a": "A delightful vineyard",
+  "t": "A vineyard of delight, or of wine?",
+  "p": "The Masoretic Text has chemed, \"delight\"; the Great Isaiah Scroll and some Hebrew manuscripts have chemer, \"wine\" (KJV \"red wine\").",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Old Greek (\"a beautiful vineyard\")",
+    "orig": "כֶּרֶם חֶמֶד",
+    "en": "a vineyard of delight",
+    "plain": "A delightful vineyard"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC), written with an extra vowel letter; some medieval Hebrew manuscripts, as reported in BHS; KJV",
+    "orig": "כרם חמר",
+    "en": "a vineyard of foaming wine",
+    "plain": "A vineyard of red wine"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters d and r look almost the same and are often confused. \"Delight\" has the Leningrad Codex and the Greek, and recalls the pleasant planting of 5:7. \"Wine\" fits a vineyard well and has the support of the scroll, so the choice is close.",
+  "s": [
+   "parry-qimron-isaiah",
+   "bhs-elliger",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:16",
+  "a": "I have laid",
+  "t": "\"I have laid\" or \"I am laying\"?",
+  "p": "The Masoretic Text has a past form; the Qumran scrolls have participles (\"I am laying\"), and the Greek a present (\"I put\").",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), as pointed (yissad); 4QIsa-f (4Q60)",
+    "orig": "הִנְנִי יִסַּד",
+    "en": "look, I (am the one who) has founded",
+    "plain": "I have laid"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC), meyassed; 1QIsa-b (1Q8), yosed; Romans 9:33; 1 Peter 2:6",
+    "orig": "הנני מיסד",
+    "en": "look, I am laying a foundation",
+    "plain": "I am laying"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "ἰδοὺ ἐγὼ ἐμβάλλω εἰς τὰ θεμέλια Σιών",
+    "en": "look, I put into the foundations of Zion",
+    "plain": "I am putting into the foundations"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic form is unusual after \"look, I,\" which is why the scrolls and many scholars read a participle. The consonants of the Masoretic Text are supported by 4QIsa-f, and the past tense makes sense: the foundation is already in place, set by God's promise to Zion. The two readings agree that the stone is God's doing.",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb",
+   "wildberger-isaiah28-39"
+  ]
+ },
+ {
+  "v": "28:16",
+  "a": "will not hurry",
+  "t": "\"Will not hurry\" or \"will not be put to shame\"?",
+  "p": "The Hebrew \"will not hurry\" becomes \"will not be put to shame\" in the Greek and in the New Testament.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 1QIsa-b; 4QIsa-f",
+    "orig": "לֹא יָחִישׁ",
+    "en": "will not hurry (in panic)",
+    "plain": "will not hurry"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus); Romans 9:33; Romans 10:11; 1 Peter 2:6",
+    "orig": "οὐ μὴ καταισχυνθῇ",
+    "en": "will not be put to shame",
+    "plain": "will not be put to shame"
+   }
+  ],
+  "follow": 0,
+  "why": "All the Hebrew witnesses agree. The Greek is either a free rendering (to hurry in panic is to be disgraced) or reflects a different Hebrew verb. Codex Vaticanus has no \"in him\"; Paul and 1 Peter have \"in him,\" which other Greek manuscripts also have, as reported in Ziegler's edition.",
+  "b": "The New Testament writers follow the Greek because it was their Bible and because it made the point they wanted: those who trust in the stone will not be disgraced at the judgment.",
+  "s": [
+   "ziegler-isaiah",
+   "swete-lxx",
+   "moo-romans"
+  ]
+ },
+ {
+  "v": "29:3",
+  "a": "all around you",
+  "t": "\"All around you\" or \"like David\"?",
+  "p": "The Masoretic Text has kaddur, \"like a circle\"; a Qumran scroll and the Greek read kedawid, \"like David.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 1QIsa-b (1Q8)",
+    "orig": "כַדּוּר",
+    "en": "like a circle (all around)",
+    "plain": "all around you"
+   },
+   {
+    "w": "4QIsa-k (4Q64), in the Abegg, Bowley and Cook transcription; Old Greek (\"I will encircle you like David\")",
+    "orig": "כדוד",
+    "en": "like David",
+    "plain": "against you, as David did"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters r and d look nearly identical, so the two readings differ by one stroke. \"Like David\" links back to 29:1 (\"the town where David set up camp\") and is the more pointed reading; \"all around\" fits the siege picture and has the larger Hebrew support. The choice is close, and the Plain follows the Masoretic Text.",
+  "b": "If \"like David\" is original, the line says that God will besiege Jerusalem as David once did when he took it from the Jebusites (2 Samuel 5:6–9).",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx",
+   "wildberger-isaiah28-39"
+  ]
+ },
+ {
+  "v": "30:6",
+  "a": "of the lioness and the lion,",
+  "t": "\"And no water\"",
+  "p": "Where the Masoretic Text says \"from them\" after the lions, the Great Isaiah Scroll says \"and there is no water.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), which has \"from them\" (mehem); Old Greek",
+    "orig": "לָבִיא וָלַיִשׁ מֵהֶם",
+    "en": "lioness and lion (are) from them",
+    "plain": "of the lioness and the lion,"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "לביא וליש ואין מים",
+    "en": "lioness and lion, and there is no water",
+    "plain": "of the lioness and the lion, where there is no water,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic \"from them\" is awkward, and the Plain does not translate it word for word. The scroll's \"and no water\" fits the desert picture well and may preserve an old reading, or may be a scribe's improvement. The Plain follows the Masoretic Text, which the Greek supports.",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "30:8",
+  "a": "for all time, forever.",
+  "t": "\"Forever\" or \"as a witness\"?",
+  "p": "The same Hebrew letters can be read 'ad, \"forever,\" or 'ed, \"witness.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), pointed la'ad; Old Greek",
+    "orig": "לָעַד עַד־עוֹלָם",
+    "en": "forever, until eternity",
+    "plain": "for all time, forever."
+   },
+   {
+    "w": "The same consonants pointed la'ed, as many modern versions read; the Latin Vulgate has \"as a testimony,\" as reported in BHS",
+    "orig": "לָעֵד עַד־עוֹלָם",
+    "en": "as a witness forever",
+    "plain": "as a witness, forever."
+   }
+  ],
+  "follow": 0,
+  "why": "Only the vowels differ. \"As a witness\" fits the purpose of writing the oracle down (compare 8:16, \"the witness\"), and many scholars prefer it; \"forever\" is the Masoretic reading and is supported by the Greek. The Plain keeps the Masoretic Text and gives the other reading here.",
+  "s": [
+   "bhs-elliger",
+   "wildberger-isaiah28-39"
+  ]
+ },
+ {
+  "v": "30:26",
+  "a": "like the light of seven days,",
+  "t": "A line missing from the Greek",
+  "p": "The Old Greek does not have \"like the light of seven days.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 1QIsa-b (1Q8)",
+    "orig": "כְּאוֹר שִׁבְעַת הַיָּמִים",
+    "en": "like the light of the seven days",
+    "plain": "like the light of seven days,"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "",
+    "en": "(the line is absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "All the Hebrew witnesses, including two Qumran scrolls, have the line. Many critical scholars still think it may be an early explanatory addition to \"seven times as strong\"; the Greek may have dropped it as repetitive or may preserve a shorter text.",
+  "s": [
+   "swete-lxx",
+   "parry-qimron-isaiah",
+   "abegg-dssb"
+  ]
+ }
+]

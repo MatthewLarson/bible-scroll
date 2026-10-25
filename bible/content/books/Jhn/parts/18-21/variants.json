@@ -1,0 +1,590 @@
+[
+ {
+  "v": "18:1",
+  "a": "Kidron",
+  "t": "The Kidron or \"the Cedars\"?",
+  "p": "Copyists wrote the stream's name three ways. One spelling turns the Kidron into \"the Cedars.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Alexandrinus (400s) and others, reported by Metzger",
+    "orig": "τοῦ Κεδρών",
+    "en": "of the Kidron",
+    "plain": "Kidron"
+   },
+   {
+    "w": "Tyndale House (THGNT), the Byzantine majority and Textus Receptus; Codex Vaticanus (300s) and most later manuscripts, reported by Metzger",
+    "orig": "τῶν Κέδρων",
+    "en": "of the Cedars",
+    "plain": "Cedars"
+   },
+   {
+    "w": "Codex Sinaiticus (first hand, 300s) and Codex Bezae (400s), reported by Metzger",
+    "orig": "τοῦ Κέδρου",
+    "en": "of the Cedar",
+    "plain": "Cedar"
+   }
+  ],
+  "follow": 0,
+  "why": "Kidron is a Hebrew name (qidron, perhaps \"dark\"), and the Greek Old Testament spells it Kedrōn (2 Samuel 15:23). Greek copyists who did not know the name read it as the plural of kedros, \"cedar,\" and added a plural article, giving \"the ravine of the Cedars.\" The SBLGNT and NA28 print the Hebrew name; the Tyndale House edition follows Vaticanus's form, which may be how the place was popularly called in Greek. The meaning is the same place either way.",
+  "b": "The KJV's \"the brook Cedron\" follows the Latin spelling of the same name.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "18:5",
+  "a": "He said to them",
+  "t": "\"He said\" or \"Jesus said\"?",
+  "p": "The Tyndale House edition and the Byzantine text name Jesus here; SBLGNT and NA28 do not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles",
+    "orig": "λέγει αὐτοῖς",
+    "en": "he says to them",
+    "plain": "He said to them"
+   },
+   {
+    "w": "Tyndale House (THGNT), Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV \"Jesus saith unto them\")",
+    "orig": "λέγει αὐτοῖς ὁ Ἰησοῦς",
+    "en": "Jesus says to them",
+    "plain": "Jesus said to them"
+   }
+  ],
+  "follow": 0,
+  "why": "Naming the speaker is the kind of clarifying addition copyists often made, but the Tyndale House editors judged it original here. Either way the speaker is Jesus, and the words that follow are the same: \"I am.\""
+ },
+ {
+  "v": "18:15",
+  "a": "another disciple",
+  "t": "\"Another disciple\" or \"the other disciple\"?",
+  "p": "Later manuscripts add \"the,\" which would identify him with \"the other disciple\" of 20:2.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "ἄλλος μαθητής",
+    "en": "another disciple",
+    "plain": "another disciple"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ὁ ἄλλος μαθητής",
+    "en": "the other disciple",
+    "plain": "the other disciple"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts have no article. Copyists who knew \"the other disciple\" of 20:2–4 likely added \"the\" to make the identification plain. The KJV, though its Greek text had the article, still printed \"another disciple.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:40",
+  "a": "they shouted again",
+  "t": "\"They shouted\" or \"they all shouted\"?",
+  "p": "The Byzantine text and the KJV add \"all.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "ἐκραύγασαν οὖν πάλιν",
+    "en": "so they shouted again",
+    "plain": "they shouted again"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ἐκραύγασαν οὖν πάλιν πάντες",
+    "en": "so they all shouted again",
+    "plain": "they all shouted again"
+   }
+  ],
+  "follow": 0,
+  "why": "\"All\" is missing in the oldest copies and looks like a natural addition that makes the accusers' guilt total. The difference is small, but it is why the KJV reads \"Then cried they all again.\""
+ },
+ {
+  "v": "19:3",
+  "a": "and they kept coming up to him and saying",
+  "t": "\"Kept coming up to him\"",
+  "p": "The oldest manuscripts picture the soldiers coming up one after another. The Byzantine text leaves this out.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "καὶ ἤρχοντο πρὸς αὐτὸν καὶ ἔλεγον",
+    "en": "and they kept coming to him and saying",
+    "plain": "and they kept coming up to him and saying"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "καὶ ἔλεγον",
+    "en": "and they kept saying",
+    "plain": "and they kept saying"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading has the oldest support. A copyist's eye could easily skip from the first \"and\" to the second (the words begin alike), dropping the phrase. The phrase gives a picture of a mock line of courtiers coming forward to greet a king.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:7",
+  "a": "Under the law",
+  "t": "\"The law\" or \"our law\"?",
+  "p": "The Byzantine text and the KJV say \"by our law.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "κατὰ τὸν νόμον",
+    "en": "according to the law",
+    "plain": "Under the law"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "κατὰ τὸν νόμον ἡμῶν",
+    "en": "according to our law",
+    "plain": "Under our law"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Our\" is missing from the oldest copies; it was probably added to echo Pilate's \"your own law\" (18:31). The sense is the same."
+ },
+ {
+  "v": "19:14",
+  "a": "the sixth hour",
+  "t": "The sixth hour or the third?",
+  "p": "A few manuscripts read \"the third hour,\" which would agree with Mark 15:25.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Byzantine text, Textus Receptus; Codex Sinaiticus (first hand), Alexandrinus, Vaticanus and nearly all manuscripts, reported by Metzger",
+    "orig": "ὡς ἕκτη",
+    "en": "about the sixth",
+    "plain": "the sixth hour"
+   },
+   {
+    "w": "A later corrector of Codex Sinaiticus, Codex Regius (L, 700s) and a few others, reported by Metzger",
+    "orig": "ὡς τρίτη",
+    "en": "about the third",
+    "plain": "the third hour"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The sixth hour\" has overwhelming support. \"The third\" is easy to explain as a correction to agree with Mark 15:25, and it may have been helped by the fact that Greek used letters for numbers, and the signs for 3 (Γ) and 6 (a form called digamma or stigma) could be confused. Eusebius, and Jerome after him, proposed exactly that confusion, suggesting that John had first written \"third\" and a copyist made it \"sixth.\" Augustine took another route: Mark's third hour marks when the chief priests cried \"Crucify!\", not a copying error (Harmony of the Gospels 3.13).",
+  "b": "See the note on 19:14 for the ways interpreters have tried to fit John's hour with Mark's.",
+  "s": [
+   "metzger",
+   "augustine-harmony"
+  ]
+ },
+ {
+  "v": "19:16",
+  "a": "They took Jesus along.",
+  "t": "\"And led him away\"",
+  "p": "The Byzantine text and the KJV add \"and led him away.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "Παρέλαβον οὖν τὸν Ἰησοῦν",
+    "en": "so they took Jesus",
+    "plain": "They took Jesus along."
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "Παρέλαβον δὲ τὸν Ἰησοῦν καὶ ἀπήγαγον",
+    "en": "they took Jesus and led him away",
+    "plain": "They took Jesus and led him away."
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is older, and the added words match Matthew 27:31 and Mark 15:20 (\"led him away\"); copyists often made one Gospel sound like another. The meaning is unchanged.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:20",
+  "a": "in Hebrew, in Latin and in Greek",
+  "t": "The order of the languages",
+  "p": "The Byzantine text and the KJV put Greek before Latin.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "Ἑβραϊστί, Ῥωμαϊστί, Ἑλληνιστί",
+    "en": "in Hebrew, in Latin, in Greek",
+    "plain": "in Hebrew, in Latin and in Greek"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "Ἑβραϊστί, Ἑλληνιστί, Ῥωμαϊστί",
+    "en": "in Hebrew, in Greek, in Latin",
+    "plain": "in Hebrew, in Greek and in Latin"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest copies put the language of the land first and the language of Rome, the ruling power, second; later copies reordered to the more common order, perhaps under the influence of Luke 23:38 in the Byzantine text. The meaning is the same."
+ },
+ {
+  "v": "19:35",
+  "a": "you also may believe",
+  "t": "\"Believe\" or \"come to believe\"?",
+  "p": "The same choice of tense as in 20:31. These two verses go together.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Westcott-Hort; Codex Sinaiticus (first hand) and Codex Vaticanus, reported by Metzger",
+    "orig": "ἵνα καὶ ὑμεῖς πιστεύητε",
+    "en": "so that you too may believe (go on believing)",
+    "plain": "you also may believe"
+   },
+   {
+    "w": "NA28 (printing the extra letter in brackets); Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ἵνα καὶ ὑμεῖς πιστεύσητε",
+    "en": "so that you too may come to believe",
+    "plain": "you also may come to believe"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek forms differ by one letter (sigma). The present tense, read by the two oldest great codices, stresses ongoing believing; the aorist can stress coming to faith. NA28 cannot decide and brackets the letter. This site follows the SBLGNT, as at 20:31. The Byzantine text also lacks \"also\" (καί).",
+  "b": "See the note on 20:31 on what the difference does and does not prove about John's audience.",
+  "s": [
+   "metzger",
+   "carson-john"
+  ]
+ },
+ {
+  "v": "19:39",
+  "a": "a blend",
+  "t": "\"A mixture\" or \"a roll\"?",
+  "p": "Two important manuscripts read \"a package\" of myrrh and aloes. Westcott and Hort printed it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Tregelles, Byzantine text, Textus Receptus",
+    "orig": "μίγμα",
+    "en": "a mixture",
+    "plain": "a blend"
+   },
+   {
+    "w": "Westcott-Hort; Codex Sinaiticus (first hand) and Codex Vaticanus, reported by Metzger",
+    "orig": "ἕλιγμα",
+    "en": "a roll, a package",
+    "plain": "a roll"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Roll\" (helígma) has strong early support and is the rarer word, which usually counts in its favor. But it is hard to picture spices in a \"roll,\" and the editors judged it an early copying slip between two similar words. The difference does not change the amount or the meaning.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "20:16",
+  "a": "said to him in Hebrew",
+  "t": "\"In Hebrew\"",
+  "p": "The Byzantine text and the KJV do not have \"in Hebrew.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "λέγει αὐτῷ Ἑβραϊστί",
+    "en": "she says to him in Hebrew",
+    "plain": "said to him in Hebrew"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "λέγει αὐτῷ",
+    "en": "she says to him",
+    "plain": "said to him"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is in the oldest copies and fits John's habit of naming the language (5:2; 19:13, 17, 20). Copyists may have dropped it as unnecessary, since \"Rabboni\" and its translation follow at once.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:17",
+  "a": "gone up to the Father",
+  "t": "\"The Father\" or \"my Father\"?",
+  "p": "The Byzantine text and the KJV say \"to my Father\" here as well as in the next sentence.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "πρὸς τὸν πατέρα",
+    "en": "to the Father",
+    "plain": "gone up to the Father"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "πρὸς τὸν πατέρα μου",
+    "en": "to my Father",
+    "plain": "gone up to my Father"
+   }
+  ],
+  "follow": 0,
+  "why": "\"My\" here is missing from the oldest manuscripts and was probably added to match \"my Father and your Father\" later in the verse."
+ },
+ {
+  "v": "20:18",
+  "a": "bringing the news: \"I have seen the Lord!\"",
+  "t": "Her words, or a report of them?",
+  "p": "The oldest manuscripts give Mary's own words. The Byzantine text and the KJV report them.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "ἀγγέλλουσα τοῖς μαθηταῖς ὅτι Ἑώρακα τὸν κύριον",
+    "en": "announcing to the disciples, \"I have seen the Lord\"",
+    "plain": "bringing the news: \"I have seen the Lord!\""
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ἀπαγγέλλουσα τοῖς μαθηταῖς ὅτι ἑώρακεν τὸν κύριον",
+    "en": "announcing to the disciples that she had seen the Lord",
+    "plain": "bringing the news that she had seen the Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "In the oldest copies the sentence shifts from Mary's direct words (\"I have seen\") to a report (\"what he had said to her\"), which is awkward. Later copyists smoothed it by changing \"I have seen\" to \"she has seen.\" The harder, rougher reading is more likely original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:19",
+  "a": "where the disciples were staying",
+  "t": "\"Gathered\"",
+  "p": "The Byzantine text and the KJV add that the disciples were \"assembled.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "ὅπου ἦσαν οἱ μαθηταί",
+    "en": "where the disciples were",
+    "plain": "where the disciples were staying"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ὅπου ἦσαν οἱ μαθηταὶ συνηγμένοι",
+    "en": "where the disciples were gathered",
+    "plain": "where the disciples were gathered"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Gathered\" is missing from the oldest copies and was likely added to fill out the picture of a meeting. The meaning is hardly changed.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:23",
+  "a": "those sins have been forgiven them",
+  "t": "\"Have been forgiven\" or \"are forgiven\"?",
+  "p": "The editions differ over the tense of \"forgiven.\" The tense matters in the debate over confession.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles",
+    "orig": "ἀφέωνται",
+    "en": "they have been forgiven (perfect)",
+    "plain": "those sins have been forgiven them"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV \"they are remitted\"); Tyndale House (THGNT) also does not print the perfect",
+    "orig": "ἀφίενται",
+    "en": "they are forgiven (present)",
+    "plain": "those sins are forgiven them"
+   }
+  ],
+  "follow": 0,
+  "why": "The perfect is matched by the perfect \"have been held\" in the second half of the verse, which all the editions print, and NA28 and SBLGNT judge it the earliest reading. The Tyndale House edition, the Byzantine text and the Textus Receptus do not print the perfect here; their forms say that the sins \"are\" forgiven. A present makes the forgiveness happen at the moment the disciples forgive; the perfect states its settled result. Manuscripts also show a future form, \"will be forgiven.\" This site follows NA28 and SBLGNT, and notes that the evidence is divided.",
+  "b": "On what the perfect does and does not prove, see the note on this verse and the chapter page's \"Where Christians differ.\"",
+  "s": [
+   "mantey-perfect",
+   "cadbury-perfect"
+  ]
+ },
+ {
+  "v": "20:29",
+  "a": "You have believed because you have seen me?",
+  "t": "\"Thomas, because you have seen me\"",
+  "p": "The Textus Receptus, behind the KJV, adds Thomas' name.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Byzantine majority text (Robinson-Pierpont)",
+    "orig": "ὅτι ἑώρακάς με πεπίστευκας",
+    "en": "because you have seen me, you have believed",
+    "plain": "You have believed because you have seen me?"
+   },
+   {
+    "w": "Textus Receptus (KJV \"Thomas, because thou hast seen me\")",
+    "orig": "ὅτι ἑώρακάς με Θωμᾶ πεπίστευκας",
+    "en": "because you have seen me, Thomas, you have believed",
+    "plain": "Thomas, you have believed because you have seen me?"
+   }
+  ],
+  "follow": 0,
+  "why": "The name is found in the printed Textus Receptus but not in the Byzantine majority text or the critical editions. It is a natural addition that makes clear whom Jesus addresses. The meaning is unchanged."
+ },
+ {
+  "v": "20:31",
+  "a": "so that you may believe",
+  "t": "\"Believe\" or \"come to believe\"?",
+  "p": "A one-letter difference in the Gospel's purpose statement. These two verses (19:35; 20:31) go together.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Westcott-Hort; Papyrus 66 (probably), Codex Sinaiticus (first hand), Codex Vaticanus, reported by Metzger",
+    "orig": "ἵνα πιστεύητε",
+    "en": "so that you may believe (keep believing)",
+    "plain": "so that you may believe"
+   },
+   {
+    "w": "NA28 (printing the extra letter in brackets); Codex Alexandrinus, Bezae and most later manuscripts, reported by Metzger; Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ἵνα πιστεύσητε",
+    "en": "so that you may come to believe",
+    "plain": "so that you may come to believe"
+   }
+  ],
+  "follow": 0,
+  "why": "The present-tense reading has the oldest witnesses, and the SBLGNT and THGNT print it; NA28 brackets the extra letter because the evidence is closely balanced. The present tense is often taken to mean \"keep on believing,\" pointing to readers who are already Christians; the aorist, \"come to faith,\" to readers who are not. Grammarians warn that neither tense proves the purpose, since John uses both tenses for coming to faith and for continuing in it.",
+  "b": "See the note on this verse and on 19:35.",
+  "s": [
+   "metzger",
+   "carson-john",
+   "brown-john-2"
+  ]
+ },
+ {
+  "v": "21:3",
+  "a": "climbed into the boat",
+  "t": "\"Immediately\"",
+  "p": "The Byzantine text and the KJV add that they got into the boat \"immediately.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "ἐνέβησαν εἰς τὸ πλοῖον",
+    "en": "they got into the boat",
+    "plain": "climbed into the boat"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "ἐνέβησαν εἰς τὸ πλοῖον εὐθύς",
+    "en": "they got into the boat immediately",
+    "plain": "climbed into the boat right away"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Immediately\" is missing from the oldest copies and is a common addition in the Byzantine text. It does not change the meaning."
+ },
+ {
+  "v": "21:15",
+  "a": "Simon son of John",
+  "t": "\"Son of John\" or \"son of Jonah\"?",
+  "p": "The oldest manuscripts say \"son of John\" (as in 1:42). The KJV says \"son of Jonas.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "Σίμων Ἰωάννου",
+    "en": "Simon of John",
+    "plain": "Simon son of John"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "Σίμων Ἰωνᾶ",
+    "en": "Simon of Jonah",
+    "plain": "Simon son of Jonah"
+   }
+  ],
+  "follow": 0,
+  "why": "In Matthew 16:17 Jesus calls Peter \"Simon Bar-Jonah\" (son of Jonah), and copyists made John agree with Matthew. John's own text calls Peter's father John (1:42). \"Jonah\" may be a short form of \"John\" (Yohanan) or a different name; scholars differ. This verse, 21:16 and 21:17 have the same variant.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "Simon son of John",
+  "t": "\"Son of John\" or \"son of Jonah\"?",
+  "p": "The same difference as in 21:15 and 21:17.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "Σίμων Ἰωάννου",
+    "en": "Simon of John",
+    "plain": "Simon son of John"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "Σίμων Ἰωνᾶ",
+    "en": "Simon of Jonah",
+    "plain": "Simon son of Jonah"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant on 21:15."
+ },
+ {
+  "v": "21:17",
+  "a": "Simon son of John",
+  "t": "\"Son of John\" or \"son of Jonah\"?",
+  "p": "The same difference as in 21:15 and 21:16.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "Σίμων Ἰωάννου",
+    "en": "Simon of John",
+    "plain": "Simon son of John"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "Σίμων Ἰωνᾶ",
+    "en": "Simon of Jonah",
+    "plain": "Simon son of Jonah"
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant on 21:15."
+ },
+ {
+  "v": "21:23",
+  "a": " What business is that of yours?",
+  "t": "The repeated question",
+  "p": "A few early witnesses lack \"What business is that of yours?\" the second time. NA28 brackets it.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Byzantine text, Textus Receptus; NA28 in brackets; Codex Vaticanus, Alexandrinus and most manuscripts, reported by Metzger",
+    "orig": "τί πρὸς σέ;",
+    "en": "what is that to you?",
+    "plain": " What business is that of yours?"
+   },
+   {
+    "w": "Codex Sinaiticus (first hand), a few minuscules, some Old Latin manuscripts and the Sinaitic Syriac, reported by Metzger",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses have the words, and the verse is quoting 21:22 exactly, which they complete. Some copyists may have dropped the question because it seemed unnecessary here, or added it to finish the quotation; NA28's brackets show the doubt. The meaning of the verse does not change."
+ },
+ {
+  "v": "21:25",
+  "a": "the books it would take.",
+  "t": "\"Amen\"",
+  "p": "The Byzantine text and the KJV end the Gospel with \"Amen.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT)",
+    "orig": "τὰ γραφόμενα βιβλία.",
+    "en": "the books being written",
+    "plain": "the books it would take."
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV)",
+    "orig": "τὰ γραφόμενα βιβλία. Ἀμήν.",
+    "en": "the books being written. Amen.",
+    "plain": "the books it would take. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "A closing \"Amen\" was often added to books of the Bible when they were read aloud in church; it is missing from the oldest copies of John, as from most New Testament books.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

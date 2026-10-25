@@ -1,0 +1,2188 @@
+[
+ {
+  "v": "42:0",
+  "a": "For the music director.",
+  "type": "history",
+  "t": "Book II opens here",
+  "p": "Psalm 42 begins the second of the Psalter's five books, and the first collection of the sons of Korah.",
+  "b": "The Psalter is divided into five books, each closing with a blessing (41:13; 72:19; 89:52; 106:48). Book II runs from Psalm 42 to Psalm 72, which ends, \"Here end the prayers of David son of Jesse\" (72:20). It opens with eight psalms of the sons of Korah (42–49), then one of Asaph (50), then eighteen of David (51–65, 68–70). The Hebrew text counts each title as verse 1, so from here on most Hebrew verse numbers run one higher than the English (two higher in 51, 52, 54 and 60, where the title takes two verses). This site follows the English numbers and treats the title as verse 0. Greek and Latin Bibles number this psalm 41.",
+  "r": "41:13; 72:19; 72:20; 89:52; 106:48",
+  "top": "psalm-titles",
+  "s": [
+   "wilson-editing-psalter",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "42:0",
+  "a": "For the music director.",
+  "type": "history",
+  "t": "Witnesses for Psalms 42–55",
+  "p": "The Plain follows the Masoretic Text; the Greek was checked directly, the Dead Sea Scrolls were not.",
+  "b": "For Psalms 42–55 the Plain follows the Masoretic Text of the Leningrad Codex (AD 1008). The writer of this part checked the Old Greek (Rahlfs' critical edition) directly for the key verses of every psalm; that is what \"the Greek\" means in these notes. Dead Sea Scrolls hold parts of these psalms: 1QPs-c (44), 4QPs-a (47, 53, 54), 4QPs-c (parts of 45 and 48–53), 4QPs-j (48–49), 4QPs-u (42:5), 11QPs-d (43; 45:6–8) and 11QPs-e (50:3–7). Their readings were not checked for this part, and no Qumran reading is cited in its notes or variants, so places such as 49:11–12, 51:4 and 53:5 may have Qumran evidence not given here. Syriac, Targum, Latin and Hebrew manuscript readings are given as reported in the sources named, and marked so.",
+  "top": "psalms",
+  "s": [
+   "flint-dss-psalms",
+   "djd16-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "42:0",
+  "a": "A maskil of the sons of Korah.",
+  "type": "history",
+  "t": "The sons of Korah",
+  "p": "A guild of Levite singers who traced their family to Korah, the rebel whose sons did not die with him.",
+  "b": "Korah led a revolt against Moses and was swallowed by the earth (Numbers 16:32–33), but Numbers 26:11 adds, \"But the sons of Korah did not die.\" Chronicles lists the Korahites as gatekeepers of the sanctuary (1 Chronicles 9:19; 26:1) and as singers; Heman, the head singer, is \"son of Korah\" (1 Chronicles 6:33–37), and 2 Chronicles 20:19 shows Korahites praising the LORD before battle. Eleven psalms carry their name: 42–49 (counting 43 with 42), 84–85 and 87–88. The phrase <i>livne qorach</i> probably means \"belonging to the Korahite collection,\" not \"written by.\" On <i>maskil</i>, a word of uncertain meaning (perhaps \"a skillful song\" or \"a teaching poem\"), see the note at its first use in 32:0.",
+  "r": "Numbers 16:32–33; Numbers 26:11; 1 Chronicles 6:33–37; 1 Chronicles 9:19; 2 Chronicles 20:19; 32:0; 84:0; 88:0",
+  "top": "korah",
+  "s": [
+   "goulder-korah",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "42:1",
+  "a": "O God",
+  "type": "word",
+  "t": "The \"Elohistic Psalter\" begins",
+  "p": "From Psalm 42 to 83 the psalms say \"God\" (Elohim) far more than \"the LORD\" (YHWH). Someone may have made the change.",
+  "b": "In Psalms 1–41 the name YHWH (\"the LORD\") occurs about 278 times and the plain word <i>elohim</i>, \"God,\" only about 15. In Psalms 42–83 the balance flips: YHWH about 45 times, <i>elohim</i> about 200. Psalm 53 shows the change happening: it is Psalm 14 again, with \"God\" where Psalm 14 has \"the LORD\" (see 53:0). Phrases such as \"God, your God\" (50:7) and \"O God, my God\" (43:4) read oddly unless an editor put <i>elohim</i> where the name once stood. Most scholars therefore think an editor or a circle of singers (perhaps out of reverence for the name) revised Psalms 42–83. Others think this collection simply came from singers who preferred the word \"God.\" This psalm uses the name once, at 42:8.",
+  "orig": "אֱלֹהִים (elohim), 'God'",
+  "kind": "nu",
+  "r": "53:0; 50:7; 43:4; 42:8; Psalm 14:1–7",
+  "top": "elohistic-psalter",
+  "s": [
+   "joffe-elohistic",
+   "hossfeld-zenger-psalms",
+   "wilson-editing-psalter"
+  ]
+ },
+ {
+  "v": "42:1",
+  "a": "Like a deer that craves the water channels,",
+  "type": "word",
+  "t": "A deer at a dry streambed",
+  "p": "The water channels are wadis, stream beds that run full only in the rainy season. The deer finds them dry.",
+  "b": "<i>Afiqe mayim</i> are the beds of seasonal streams in the hills. In summer they are dry, and the animal comes looking for water that is not there, which suits a poem about a God who seems absent. The verb <i>'arag</i>, \"crave, long for,\" occurs only here and in Joel 1:20, where wild animals cry for water in a drought. The noun is masculine (<i>ayyal</i>, a stag) but the verb is feminine, so many read <i>ayyelet</i>, \"a doe,\" with the last letter lost before the next word. The old Latin hymn <i>Sicut cervus</i> (\"As the deer\") and Palestrina's famous setting begin with this line.",
+  "orig": "כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם (ke'ayyal ta'arog 'al-afiqe-mayim)",
+  "kind": "nu",
+  "r": "Joel 1:20; 63:1; 143:6",
+  "s": [
+   "kraus-psalms",
+   "alter-psalms"
+  ]
+ },
+ {
+  "v": "42:1",
+  "a": "my soul craves you, O God.",
+  "type": "word",
+  "t": "\"Soul\": the thirsty throat",
+  "p": "Nefesh is the throat and the breathing self, the whole living person. A thirsty throat fits the image.",
+  "b": "The Hebrew <i>nefesh</i>, translated \"soul\" in this psalm (42:1, 2, 4, 5, 6, 11), first means the throat or neck, then the breath, then the living person as a whole. It is not a part of a person that lives apart from the body. In 42:1–2 the old sense shows: \"my <i>nefesh</i> thirsts\" is very nearly \"my throat is dry.\" In the refrain the speaker talks to his own <i>nefesh</i>, his inner self, as if to another person. English \"soul\" is kept because the refrain is a conversation with oneself, but the reader should hear the whole person, body included.",
+  "orig": "נַפְשִׁי (nafshi), 'my throat, my life, my self'",
+  "kind": "nu",
+  "r": "42:5; 42:11; 63:1; 69:1; Genesis 2:7",
+  "s": [
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "42:2",
+  "a": "for the living God",
+  "type": "echo",
+  "t": "The living God",
+  "p": "A God who acts, unlike idols. The phrase also hints at running \"living water\" for the thirsty.",
+  "b": "\"Living God\" (<i>el chai</i>) is a title used when God is set against lifeless idols or human threats (Joshua 3:10; 1 Samuel 17:26; 2 Kings 19:4). Psalm 84:2, another Korahite psalm, cries out to the living God in the same way. In Hebrew, \"living water\" means running water from a spring (Genesis 26:19; Jeremiah 2:13, where God is \"the spring of living water\"). The thirsty speaker wants a God who flows, not a dry wadi. Jesus' offer of living water to the thirsty (John 4:10; John 7:37–38) draws on this picture.",
+  "r": "Joshua 3:10; 1 Samuel 17:26; 2 Kings 19:4; 84:2; Jeremiah 2:13; John 4:10; John 7:37–38",
+  "top": "seeking-god",
+  "s": [
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "42:2",
+  "a": "and appear before the face of God?",
+  "type": "word",
+  "t": "To appear, or to see God's face?",
+  "p": "The vowels say \"appear before God\"; the letters could say \"see the face of God.\" Scribes may have softened it.",
+  "b": "The consonants <i>w'r'h pny 'lhym</i> can be read \"and I will see the face of God\" (Qal). The Masoretic vowels read the verb as passive: \"and I will be seen, appear, before God\" (Niphal). The same pattern occurs in the pilgrimage laws (Exodus 23:15, 17; 34:23–24; Deuteronomy 16:16), and many scholars think the vowels were chosen out of reverence, because \"no human being can see me and stay alive\" (Exodus 33:20). A few Hebrew manuscripts and the Syriac are reported to read \"see.\" The Greek has \"I will appear to the face of God\" (<i>ophthēsomai</i>), like the Masoretic Text. Either way, \"seeing God's face\" or \"appearing before him\" meant going to the temple for worship.",
+  "orig": "וְאֵרָאֶה פְּנֵי אֱלֹהִים (ve'era'eh pene elohim)",
+  "kind": "deb",
+  "r": "Exodus 23:17; Exodus 34:23; Deuteronomy 16:16; Exodus 33:20; 84:7",
+  "top": "seeing-god",
+  "s": [
+   "tov-tchb",
+   "kraus-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "42:3",
+  "a": "\"Where is your God?\"",
+  "type": "echo",
+  "t": "\"Where is your God?\"",
+  "p": "The taunt of people who think a God who does not rescue does not exist. It comes back in 42:10 and in other psalms.",
+  "b": "The question returns in 42:10, and the same taunt is put in the nations' mouths in 79:10 and 115:2, and in Joel 2:17 and Micah 7:10. It is not a philosophical doubt about God's existence; it is mockery of a believer whose God seems to have done nothing. The ancient world judged gods by results. The speaker's tears are his \"bread,\" his daily food, and the mockery is \"all day long,\" so it comes as steadily as meals.",
+  "r": "42:10; 79:10; 115:2; Joel 2:17; Micah 7:10; 80:5",
+  "top": "lament",
+  "s": [
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "42:4",
+  "a": "how I used to pass along in the throng",
+  "type": "word",
+  "t": "A hard line about the pilgrim crowd",
+  "p": "Two words in this line are rare and their sense is uncertain: \"throng\" and \"lead slowly.\"",
+  "b": "<i>Bassakh</i> occurs only here. It is usually linked with <i>sukkah</i>, \"booth\" or \"crowd under cover,\" so \"in the throng\"; the Greek read \"in the place of the marvelous tent\" (<i>en topō skēnēs thaumastēs</i>), taking it as a tent or tabernacle. <i>Eddaddem</i> may mean \"I led them in procession\" or \"I walked slowly with them\" (compare Isaiah 38:15). The picture, either way, is a pilgrim festival: a crowd going up to the temple with shouting and thanksgiving, perhaps at the Feast of Booths. The speaker may once have led the singing. Now he can only remember it.",
+  "orig": "בַּסָּךְ אֶדַּדֵּם (bassakh eddaddem)",
+  "kind": "deb",
+  "r": "Isaiah 38:15; Isaiah 30:29; 122:1–4; Deuteronomy 16:13–15",
+  "top": "feasts",
+  "s": [
+   "kraus-psalms",
+   "tate-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "42:5",
+  "a": "Why are you so bowed down, my soul?",
+  "type": "views",
+  "t": "The refrain: talking to oneself",
+  "p": "The same three-line refrain closes 42:5, 42:11 and 43:5, binding the two psalms into one poem.",
+  "b": "The speaker argues with his own despair. One part of him is \"bowed down\" (<i>shachach</i>, to crouch or sink) and \"groaning\" (<i>hamah</i>, to growl or moan, used of the sea's roar). Another part tells it to \"wait,\" or \"hope\" (<i>yachal</i>), for God. The refrain does not deny the sadness; it answers it with a promise about the future: \"I will thank him again.\" Pastors and writers on depression have often pointed to this pattern: lament and hope spoken in the same breath. The refrain's repetition (42:5, 42:11, 43:5) is the main reason scholars treat Psalms 42 and 43 as a single poem.",
+  "r": "42:11; 43:5; 62:5; 103:1–2",
+  "top": "lament",
+  "s": [
+   "brueggemann-message-psalms",
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "42:6",
+  "a": "from the Jordan country and the peaks of Hermon,",
+  "type": "history",
+  "t": "Far north, at the Jordan's springs",
+  "p": "Hermon is the snow mountain at the Jordan's source. The speaker is far from Jerusalem, in the north.",
+  "b": "The land of the Jordan and \"the Hermons\" (plural, the peaks of Mount Hermon) point to the far north of Israel, where the Jordan rises from springs at the foot of Hermon near Dan and Banias. There the water roars down from the mountain, which explains the \"deep calls to deep\" of 42:7. Mount Mizar, \"Little Mountain,\" is unknown; it may be a small peak in that area, or a wry contrast with Zion, the great mountain the speaker cannot reach. Readers have placed the speaker as a northern Israelite cut off from Jerusalem, as an exile on the way to Assyria or Babylon, or as David fleeing Absalom across the Jordan (2 Samuel 17:22).",
+  "r": "42:7; 2 Samuel 17:22; Deuteronomy 3:8–9; 89:12; 133:3",
+  "l": [
+   [
+    "Mount Hermon",
+    "Mount Hermon"
+   ],
+   [
+    "Banias",
+    "Banias"
+   ]
+  ],
+  "s": [
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "42:7",
+  "a": "Deep calls out to deep",
+  "type": "symbol",
+  "t": "The deep: water as chaos and death",
+  "p": "Tehom is the deep water of Genesis 1:2. The torrent becomes a flood of God's own waves closing over the speaker.",
+  "b": "<i>Tehom</i>, \"the deep,\" is the primeval ocean of Genesis 1:2 and the flood waters of Genesis 7:11. The roaring cataracts at the Jordan's source become a picture of being drowned in trouble, a common image in the psalms (69:1–2; 88:7; Jonah 2:3, which uses the very words \"all your breakers and your waves passed over me\"). The striking thing is the word \"your\": the breakers are God's. The speaker does not blame chance or the enemy alone; he feels God himself is behind the flood. The <i>tsinnorot</i>, \"water shafts,\" occur elsewhere only in 2 Samuel 5:8, where the word may mean a water channel.",
+  "orig": "תְּהוֹם־אֶל־תְּהוֹם קוֹרֵא (tehom-el-tehom qore)",
+  "r": "Genesis 1:2; Genesis 7:11; Jonah 2:3; 69:1–2; 88:7; 2 Samuel 5:8",
+  "top": "sea",
+  "s": [
+   "alter-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "42:8",
+  "a": "The LORD gives orders for his loyal love",
+  "type": "word",
+  "t": "The only \"LORD\" in the poem",
+  "p": "In the middle of the poem the personal name YHWH appears once, with hesed, God's loyal love.",
+  "b": "In Psalms 42–43 God is <i>elohim</i> or <i>el</i> about twenty times, and the name YHWH (printed \"the LORD\") only here. This verse is also the poem's one statement in the present tense about what God does: by day he \"commands,\" sends out, his <i>hesed</i> like an order given to a servant, and at night a song comes. Some scholars think the verse was added later, since it breaks the lament; others see it as the hinge of the poem, the memory of grace that lets the speaker go on praying. On <i>hesed</i>, \"loyal love,\" see the topic page.",
+  "orig": "יְצַוֶּה יְהוָה חַסְדּוֹ (yetsavveh YHWH chasdo)",
+  "kind": "nu",
+  "r": "133:3; 44:4; 77:6",
+  "top": "hesed",
+  "s": [
+   "tate-psalms",
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "42:9",
+  "a": "Why must I go about in black,",
+  "type": "word",
+  "t": "Dressed for mourning",
+  "p": "Qoder means darkened, dirty or dressed in black: the look of a mourner who has not washed.",
+  "b": "The verb <i>qadar</i> means to be dark, as the sky before a storm (1 Kings 18:45) or the sun in mourning (Joel 2:10). Mourners in Israel went unwashed, in dark sackcloth, with dust on their heads. The speaker says he walks about like someone at a funeral. The same two lines appear in 43:2, almost word for word, another link between the two psalms.",
+  "orig": "קֹדֵר (qoder)",
+  "kind": "nu",
+  "r": "43:2; 35:14; 38:6; 1 Kings 18:45; Joel 2:10",
+  "top": "lament",
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "42:11",
+  "a": "the saving help of my face, and my God.",
+  "type": "word",
+  "t": "\"The help of my face\"",
+  "p": "God saves the speaker's face: he lifts the head bowed in shame. The phrase differs from 42:5 in the Hebrew.",
+  "b": "Literally \"the salvations (rescues) of my face, and my God.\" A face that is lifted up is a sign of honor and joy; a fallen face is shame (Genesis 4:6; 3:3, \"the one who lifts up my head\"). The speaker trusts that God will turn his downcast face into a glad one. In 42:5 the Hebrew has \"his face,\" and \"my God\" begins 42:6. See the variant there. The KJV's \"the health of my countenance\" reflects older English, where \"health\" meant \"saving.\"",
+  "orig": "יְשׁוּעֹת פָּנַי וֵאלֹהָי (yeshu'ot panai velohai)",
+  "kind": "nu",
+  "r": "42:5; 43:5; 3:3; Genesis 4:6",
+  "s": [
+   "alter-psalms"
+  ]
+ },
+ {
+  "v": "43:1",
+  "a": "Give judgment for me, O God,",
+  "type": "history",
+  "t": "Psalm 43: a second part with no title",
+  "p": "Psalm 43 has no title in Hebrew, rare in Book II. With its shared refrain it is almost surely the end of Psalm 42.",
+  "b": "Every other psalm in 42–72 except 71 has a title. Psalm 43 continues the voice, the complaint and the refrain of Psalm 42 (43:2 nearly repeats 42:9; 43:5 repeats 42:11). A number of medieval Hebrew manuscripts write the two as one psalm. Read together, they make three stanzas of nearly equal length, each ending with the refrain: memory of worship (42:1–5), drowning in God's waves (42:6–11), and the prayer to be led back to the altar (43:1–5). The Greek gives Psalm 43 its own title, \"A psalm of David,\" which shows how early the division was made, or how early a scribe wanted a title on it.",
+  "r": "42:9; 42:11; 43:5; 71:1",
+  "s": [
+   "craigie-psalms",
+   "kraus-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "43:1",
+  "a": "against a nation without loyalty.",
+  "type": "word",
+  "t": "A nation \"without hesed\"",
+  "p": "Lo chasid means not loyal, faithless: the opponents keep no covenant faith with the speaker.",
+  "b": "<i>Chasid</i> is the adjective from <i>hesed</i>, \"loyal love.\" A <i>goy lo chasid</i> is a people that does not keep faith. Those who read the psalm as an exile's prayer think of a foreign nation; others think of the speaker's own countrymen, treated as an alien \"nation\" because they act without loyalty (Isaiah 1:4 calls Israel \"sinful nation\"). The KJV's \"ungodly nation\" fits the sense but hides the play on <i>hesed</i>, the thing the speaker trusts God for (42:8).",
+  "orig": "גּוֹי לֹא־חָסִיד (goy lo-chasid)",
+  "kind": "nu",
+  "r": "42:8; Isaiah 1:4; 12:1",
+  "top": "hesed",
+  "s": [
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "43:3",
+  "a": "Send your light and your faithfulness.",
+  "type": "symbol",
+  "t": "Light and faithfulness as guides",
+  "p": "God's light and truth are pictured as two messengers sent to lead the pilgrim home to the temple.",
+  "b": "God's light and his <i>emet</i> (truth, faithfulness) are pictured as servants or angels sent out to escort the traveler, the way \"goodness and loyal love\" will \"chase\" the guest in 23:6. They lead him to God's \"holy mountain,\" Zion, and to his \"dwelling places\" (the plural is a poetic way to speak of the temple and its courts, as in 84:1). Light is often linked with God's presence and help (27:1; 36:9). Christians have read this verse of Christ, \"the light of the world\" and \"the truth\" (John 8:12; John 14:6).",
+  "r": "23:6; 27:1; 36:9; 84:1; John 8:12; John 14:6",
+  "top": "temple",
+  "s": [
+   "mays-psalms",
+   "augustine-enarrationes"
+  ]
+ },
+ {
+  "v": "43:4",
+  "a": "Then I will come to the altar of God,",
+  "type": "views",
+  "t": "\"I will go in to the altar of God\"",
+  "p": "For four centuries Catholic priests said this verse at the foot of the altar at the start of nearly every Mass.",
+  "b": "The Latin <i>Introibo ad altare Dei</i>, \"I will go in to the altar of God,\" with the whole of Psalm 43 (Latin Psalm 42, <i>Iudica me</i>), opened nearly every Roman Mass in the Missal of 1570 (not Requiems or Masses of Passiontide); the server answered, \"to God who gives joy to my youth,\" following the Greek and Latin of the second line. These \"prayers at the foot of the altar\" were dropped from the Mass of Paul VI (1970) but are still said in the traditional Latin Mass. James Joyce gives the line to Buck Mulligan at the opening of <i>Ulysses</i> (1922). In the psalm itself, the altar stands for the temple worship the exiled speaker longs to rejoin.",
+  "r": "43:1–5; 42:4",
+  "top": "worship",
+  "s": [
+   "roman-missal"
+  ],
+  "l": [
+   [
+    "Iudica me",
+    "Psalm 43"
+   ]
+  ]
+ },
+ {
+  "v": "43:4",
+  "a": "and I will thank you on the lyre,",
+  "type": "word",
+  "t": "The lyre",
+  "p": "The kinnor was a small hand-held lyre, David's instrument, not the large modern harp.",
+  "b": "The <i>kinnor</i> was a lyre with a wooden frame and a handful of strings, carried in the hands. Ancient pictures from Egypt and Megiddo show it. Older English versions say \"harp.\" It was the instrument of joy and of the temple singers (1 Chronicles 25:1, which counts the Levites \"who prophesied with lyres, harps and cymbals\"). In 49:4 the riddle is opened \"with the lyre,\" and the exiles in 137:2 hang their lyres on the willows.",
+  "orig": "כִּנּוֹר (kinnor)",
+  "kind": "nu",
+  "r": "1 Chronicles 25:1; 49:4; 137:2; 1 Samuel 16:23",
+  "top": "music",
+  "s": [
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "44:1",
+  "a": "O God, with our own ears we have heard;",
+  "type": "history",
+  "t": "A community lament",
+  "p": "Psalm 44 is the first lament of the whole people in the Psalter: Israel has lost a war and does not know why.",
+  "b": "The speaker changes between \"we\" (the people) and \"I\" (44:4, 6, 15), probably the king or a leader praying on the nation's behalf. The pattern is the classic community lament: God's past acts (44:1–8), present disaster (44:9–16), a claim of innocence (44:17–22) and a cry for help (44:23–26). What defeat is meant is unknown. Suggestions run from David's wars (the title of Psalm 60 names wars with Edom) to the Assyrian invasion of 701 BC, the fall of Jerusalem in 586 BC and the persecution under Antiochus IV in the 160s BC (Calvin and several fathers thought of the Maccabees). The psalm names no enemy, which may be why every later generation could pray it.",
+  "r": "44:4; 44:6; 44:15; 60:0; 74:1; 79:1; 80:1; 89:38",
+  "top": "lament",
+  "s": [
+   "gunkel-begrich-psalms",
+   "calvin-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "44:2",
+  "a": "and them you let spread out.",
+  "type": "word",
+  "t": "Who is planted, who is sent away?",
+  "p": "The \"them\" lines may both be Israel, planted and spreading like a vine, or the second may be the nations driven out.",
+  "b": "The verse alternates between two groups: God drove out nations \"and planted them\" (Israel's ancestors), \"brought harm on peoples, and sent them\" (<i>vattshallechem</i>). The verb <i>shillach</i> can mean \"send away, expel\" (so the KJV, \"cast them out\") or \"let go, let spread,\" as a vine sends out its branches (80:11, in a poem that also has God planting Israel). The parallel with \"planted them\" favors the second sense, Israel spreading out over the land. The planting image recalls Exodus 15:17 and the vine of 80:8–11.",
+  "orig": "וַתְּשַׁלְּחֵם (vatteshallechem)",
+  "kind": "deb",
+  "r": "80:8–11; Exodus 15:17; Isaiah 5:1–7; Joshua 24:12",
+  "top": "promised-land",
+  "s": [
+   "kraus-psalms",
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "44:3",
+  "a": "It was not by their sword that they took the land,",
+  "type": "echo",
+  "t": "Not by their sword",
+  "p": "The conquest is credited to God alone. Joshua 24:12 and Deuteronomy 8:17–18 make the same point.",
+  "b": "The psalm sums up the conquest of Canaan the way Joshua's farewell does: the land was given, not won: \"Your sword and your bow had no part in it\" (Joshua 24:12). Deuteronomy 8:17–18 and 9:4–6 warn Israel not to say that its own strength won the land. \"The light of your face\" is God's favor (the priestly blessing, Numbers 6:25). The theme prepares the shock of 44:9: if God's face won the land, then defeat must mean his face is turned away (44:24).",
+  "r": "Joshua 24:12; Deuteronomy 8:17–18; Deuteronomy 9:4–6; Numbers 6:25; 44:24",
+  "top": "holy-war",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "44:4",
+  "a": "Give the order for Jacob's victories.",
+  "type": "word",
+  "t": "\"Command\", or \"who commands\"?",
+  "p": "The Hebrew is a command, \"order victories\"; the Greek read \"my God, who commands victories.\"",
+  "b": "The Masoretic Text has <i>tsavveh</i>, an imperative: \"Command (order) the victories (rescues) of Jacob.\" The Greek reads \"you are my King and my God, the one who commands the rescues of Jacob,\" as if from <i>elohai metsavveh</i>, with one letter shared differently between the words. Several modern versions follow the Greek. The difference is small: either way God is Israel's King, the one whose word decides battles, the same verb used of his \"loyal love\" in 42:8.",
+  "orig": "צַוֵּה יְשׁוּעוֹת יַעֲקֹב (tsavveh yeshu'ot ya'aqov)",
+  "kind": "var",
+  "r": "42:8; 74:12",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "44:5",
+  "a": "Through you we gore our foes;",
+  "type": "symbol",
+  "t": "Goring like a bull",
+  "p": "Nagach is what an ox does with its horns. Israel's victories are pictured as a bull's charge.",
+  "b": "The verb <i>nagach</i> is used of an ox goring (Exodus 21:28) and in Moses' blessing of Joseph: \"With them he will butt the peoples\" (Deuteronomy 33:17). Horns stand for strength in the Bible (75:10; 1 Samuel 2:10). The point of the next verse is that the horns belong to God: Israel's power is borrowed.",
+  "orig": "נְנַגֵּחַ (nenaggeach)",
+  "r": "Deuteronomy 33:17; Exodus 21:28; 1 Kings 22:11; 75:10",
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "44:9",
+  "a": "But now you have pushed us away and disgraced us.",
+  "type": "views",
+  "t": "The turn: defeat without explanation",
+  "p": "Unlike most of the Old Testament, the psalm does not explain the defeat as punishment for sin.",
+  "b": "The prophets and Deuteronomy usually explain national disaster as the result of Israel's sin (Deuteronomy 28:25; Judges 2:14; 2 Kings 17:7). Psalm 44 refuses that explanation: \"All this came on us, yet we did not forget you\" (44:17). It belongs with Job and with Psalms 73 and 89 as a protest of the innocent. Scholars have called it the Old Testament's most direct challenge to the simple rule that suffering means guilt. The verb \"push away, reject\" (<i>zanach</i>) is the same as in 43:2.",
+  "r": "44:17; 43:2; Deuteronomy 28:25; Judges 2:14; 74:1; 89:38; Job 1:1",
+  "top": "suffering",
+  "s": [
+   "brueggemann-message-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "44:12",
+  "a": "You sell your people for no money at all;",
+  "type": "symbol",
+  "t": "Sold cheap",
+  "p": "God is pictured as a careless owner who sells his flock or his slaves at a loss.",
+  "b": "Israel is God's flock (44:11) and his \"possession.\" Now he seems to sell it off for nothing, getting no profit from the sale. The image comes from Deuteronomy 32:30 (\"unless their Rock had sold them off\") and Judges 2:14 and 4:2, where God \"sells\" Israel into an enemy's hand. Isaiah 52:3 answers it: \"You were sold for nothing, and you will be bought back without money.\"",
+  "r": "44:11; Deuteronomy 32:30; Judges 2:14; Judges 4:2; Isaiah 52:3",
+  "s": [
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "44:14",
+  "a": "You make us a saying of scorn among the nations,",
+  "type": "word",
+  "t": "A byword",
+  "p": "Mashal is a proverb. Israel's name has become a saying that sums up disaster, as Deuteronomy warned.",
+  "b": "<i>Mashal</i>, \"proverb, saying,\" is the word for the sayings of Proverbs, but here it is a mocking proverb: people say \"as wretched as Israel.\" Deuteronomy 28:37 warned that Israel would become \"an example in their sayings and a target of their jokes,\" and 1 Kings 9:7 repeats the warning. Shaking the head is a gesture of scorn (22:7; Lamentations 2:15). The Leningrad Codex writes the last words as <i>bal-ummim</i>, \"not peoples,\" an odd split of <i>ba-le'ummim</i>, \"among the peoples\"; other manuscripts and the Greek have the plain reading.",
+  "orig": "מָשָׁל (mashal)",
+  "kind": "nu",
+  "r": "Deuteronomy 28:37; 1 Kings 9:7; Jeremiah 24:9; 22:7; Lamentations 2:15",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "44:19",
+  "a": "But you crushed us down where jackals live",
+  "type": "word",
+  "t": "Jackals, or sea monsters?",
+  "p": "Tannim are jackals, animals of ruins. A small change gives tannin, the sea dragon.",
+  "b": "<i>Tannim</i> are jackals, which live in deserted ruins (Isaiah 34:13; Jeremiah 9:11): the land has become a wasteland. Some scholars read <i>tannin</i>, the sea monster of chaos (74:13), which fits \"deep shadow\" and the flood images of 42:7. The Greek has \"in a place of affliction.\" \"Deep shadow\" (<i>tsalmavet</i>), traditionally \"the shadow of death\" (23:4), is the darkness of the grave or of utter disaster.",
+  "orig": "בִּמְקוֹם תַּנִּים (bimqom tannim)",
+  "kind": "deb",
+  "r": "Isaiah 34:13; Jeremiah 9:11; 74:13; 23:4; Job 30:29",
+  "top": "dragon",
+  "s": [
+   "kraus-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "44:20",
+  "a": "or spread our palms to a strange god,",
+  "type": "history",
+  "t": "Spreading the hands",
+  "p": "Israelites prayed standing, with arms raised and palms open toward heaven.",
+  "b": "\"Spreading the palms\" (<i>paras kappayim</i>) is the gesture of prayer (Exodus 9:29; 1 Kings 8:22; Isaiah 1:15). To spread them to a \"strange god\" is idolatry. The community swears that it has done neither: it has not forgotten God's name or prayed to another god, and God, who reads hearts, would know (44:21; Jeremiah 17:10).",
+  "r": "Exodus 9:29; 1 Kings 8:22; Isaiah 1:15; 44:21; Jeremiah 17:10; 1 Kings 8:39",
+  "top": "prayer",
+  "s": [
+   "keel-symbolism"
+  ]
+ },
+ {
+  "v": "44:22",
+  "a": "No, it is on your account that we are killed all day long;",
+  "type": "echo",
+  "t": "Romans 8:36: sheep for slaughter",
+  "p": "Paul quotes this verse to say that suffering for Christ cannot cut believers off from God's love.",
+  "b": "Paul quotes the verse word for word from the Greek in Romans 8:36: \"For your sake we are being killed all day long; we are counted as sheep for slaughter.\" He then answers it: \"in all these things we more than conquer through him who loved us\" (Romans 8:37). For Paul the psalm describes the life of Christ's people, who suffer not for their sins but because they belong to God. The rabbis applied the same verse to martyrs: the Talmud tells of a mother and her seven sons who died rather than worship an idol (Bavli Gittin 57b), and Jewish tradition reads the verse of all who died \"for the sanctification of the Name.\" The Hebrew <i>'alekha</i>, \"on your account,\" says the suffering comes because of their tie to God.",
+  "orig": "כִּי־עָלֶיךָ הֹרַגְנוּ (ki-'alekha horagnu)",
+  "r": "Romans 8:35–37; Isaiah 53:7; Jeremiah 11:19; 2 Maccabees 7:1–41",
+  "top": "martyrs",
+  "s": [
+   "moo-romans",
+   "bavli-gittin"
+  ]
+ },
+ {
+  "v": "44:23",
+  "a": "Get up! Why do you sleep, Lord?",
+  "type": "views",
+  "t": "\"Wake up!\": the bold cry the Temple stopped",
+  "p": "Calling God to wake up was so bold that, the Talmud says, a high priest ended its daily recital.",
+  "b": "The Mishnah says that the high priest Yohanan (John Hyrcanus, ruled 134–104 BC) abolished the <i>me'orerim</i>, \"the wakers\" (Mishnah Sotah 9:10). The Talmud explains that these Levites stood on the temple platform every day and sang this verse, and Yohanan objected that God does not sleep, since the one who guards Israel never dozes (121:4; Bavli Sotah 48a). The verse stayed in the Psalter, though. It belongs to a bold strain of prayer that speaks to God as if he were asleep (7:6; 35:23; 59:4–5; Isaiah 51:9). Christians have heard in it the disciples waking Jesus in the storm (Mark 4:38).",
+  "r": "121:4; 7:6; 35:23; 59:4–5; 78:65; Isaiah 51:9; Mark 4:38",
+  "top": "prayer",
+  "s": [
+   "mishnah-sotah",
+   "bavli-sotah"
+  ]
+ },
+ {
+  "v": "44:25",
+  "a": "our belly sticks to the earth.",
+  "type": "history",
+  "t": "Face down in the dust",
+  "p": "The people lie flat on the ground, the posture of mourning, defeat and begging.",
+  "b": "Lying with one's belly on the ground is the posture of the defeated before a conqueror and of mourners (Joshua 7:6; Lamentations 2:10). The words for \"life\" (<i>nefesh</i>) and \"belly\" (<i>beten</i>) stand for the whole person. The final cry (44:26) does not plead innocence again. It appeals to God's own <i>hesed</i>, his loyal love, as the reason he should act.",
+  "r": "Joshua 7:6; Lamentations 2:10; 119:25; 44:26",
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "45:0",
+  "a": "On \"Lilies.\"",
+  "type": "word",
+  "t": "\"Lilies\": a tune name",
+  "p": "Al shoshannim probably names a tune or an instrument. The Greek read it as \"for those who will be changed.\"",
+  "b": "<i>Shoshannim</i>, \"lilies\" (or lotus blossoms), occurs in the titles of 45, 69 and 80 (and \"lily of the testimony\" in 60). Most scholars take it as the name of a melody, as \"set to 'Lilies'.\" The lily is also a flower of love poetry (Song of Songs 2:1–2; 6:2–3), which suits a wedding song. The Greek translator read the consonants as a form of <i>shanah</i>, \"change\": \"for those who will be changed.\" Christian writers took that as a hint that the psalm speaks of the new life in Christ. \"A love song\" (<i>shir yedidot</i>) uses a word for \"beloved\" related to the name Jedidiah, the name the LORD gave Solomon (2 Samuel 12:25).",
+  "orig": "עַל־שֹׁשַׁנִּים (al-shoshannim); שִׁיר יְדִידֹת (shir yedidot)",
+  "kind": "deb",
+  "r": "60:0; 69:0; 80:0; Song of Songs 2:1–2; 2 Samuel 12:25",
+  "top": "psalm-titles",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:1",
+  "a": "My heart bubbles over with a good word.",
+  "type": "word",
+  "t": "A poet at court",
+  "p": "The only psalm where the poet speaks of himself as a court singer composing for the king.",
+  "b": "The verb <i>rachash</i>, \"bubble, stir,\" occurs only here; the related noun is a cooking pan (Leviticus 2:7). The poet's heart \"boils over\" with a fine theme. He names his poem \"my work\" and compares his tongue to the stylus of a <i>sofer mahir</i>, a \"quick\" or \"skilled\" scribe, the phrase used of Ezra (Ezra 7:6). This is the language of a professional court poet. Most of the psalm then speaks to the king (45:2–9) and to his bride (45:10–15), and the poet returns in the last verse (45:17).",
+  "orig": "רָחַשׁ לִבִּי (rachash libbi); סוֹפֵר מָהִיר (sofer mahir)",
+  "kind": "nu",
+  "r": "Ezra 7:6; 45:17; Leviticus 2:7",
+  "s": [
+   "alter-psalms",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:2",
+  "a": "You are more handsome than any human being;",
+  "type": "views",
+  "t": "Who is the king?",
+  "p": "A real Israelite king at his wedding, and from early times also the Messiah: both readings are old.",
+  "b": "The psalm was first a song for a royal wedding. Which king is unknown. Proposals include Solomon (the grand style, the gold of Ophir), Ahab, who married Jezebel, a princess of Tyre and Sidon (1 Kings 16:31; compare \"daughter Tyre\" in Psalm 45:12), Jehoram of Judah, or a northern king. The Aramaic Targum already reads the king as the Messiah: \"Your beauty, O King Messiah, is greater than the sons of men.\" The Letter to the Hebrews (1:8–9) quotes 45:6–7 of the Son of God, and the church has sung the psalm of Christ and his bride. Jewish interpreters such as Rashi read it of Torah scholars or of the king of Israel and the people; Ibn Ezra read it of David or the Messiah.",
+  "r": "1 Kings 16:31; 45:12; Hebrews 1:8–9; Ephesians 5:25–32; Revelation 19:7",
+  "top": "messiah",
+  "s": [
+   "stec-targum-psalms",
+   "rashi-psalms",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:2",
+  "a": "So God has blessed you for all time.",
+  "type": "word",
+  "t": "\"So\", or \"because\"?",
+  "p": "Al ken usually means \"therefore.\" Here it may mean \"that is why we know\": his beauty shows God's blessing.",
+  "b": "<i>Al ken</i>, \"therefore,\" seems to make God's blessing the result of the king's good looks. More likely the logic runs the other way: the king's beauty and grace are the visible proof that God has blessed him. The same phrase in 45:7 does mean \"therefore\": because the king loved justice, God anointed him. The Old Testament often notices a chosen king's looks (Saul, 1 Samuel 9:2; David, 1 Samuel 16:12), but also warns against judging by them (1 Samuel 16:7).",
+  "orig": "עַל־כֵּן (al-ken)",
+  "kind": "deb",
+  "r": "45:7; 1 Samuel 9:2; 1 Samuel 16:7; 1 Samuel 16:12",
+  "s": [
+   "delitzsch-psalms"
+  ]
+ },
+ {
+  "v": "45:4",
+  "a": "for the sake of truth and of humble justice.",
+  "type": "word",
+  "t": "A strange pair of words",
+  "p": "The Hebrew has three nouns, \"truth and humility righteousness,\" in an unusual join. The sense is a just cause.",
+  "b": "Literally \"for the matter of truth and humility-righteousness.\" The joining of <i>anvah</i> (\"humility\") and <i>tsedeq</i> (\"righteousness\") without \"and\" is odd, and scholars suggest a scribal slip or an old expression meaning \"the right of the humble.\" The king rides out not for plunder but to defend what is true and to do justice for the lowly, the ideal of kingship in 72:1–4 and Isaiah 11:4. The KJV supplied \"and\" to read \"truth and meekness and righteousness.\"",
+  "orig": "עַל־דְּבַר־אֱמֶת וְעַנְוָה־צֶדֶק ('al-devar-emet ve'anvah-tsedeq)",
+  "kind": "deb",
+  "r": "72:1–4; Isaiah 11:4; Zechariah 9:9",
+  "top": "kingship",
+  "s": [
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "45:6",
+  "a": "Your throne, O God, is for ever and ever.",
+  "type": "word",
+  "t": "\"Your throne, O God\"",
+  "p": "The Hebrew can be read as speaking to the king as \"God,\" or as \"your throne is God's.\" Both readings are old.",
+  "b": "Hebrew <i>kis'akha elohim 'olam va'ed</i> has no verb. Main readings: (1) \"Your throne, O God, is for ever,\" with <i>elohim</i> as a vocative addressed to the king. This is how the Greek, Jerome's Latin and the Letter to the Hebrews read it, and most English versions. (2) \"Your throne is God's (throne) for ever\" or \"your divine throne\" (RSV, NJPS), comparing 1 Chronicles 29:23, where Solomon \"sat on the LORD's throne.\" (3) \"Your throne is God for ever,\" with God as the king's support. Reading (1) is the most natural Hebrew, and the Masoretic accents support it. It need not mean that the king is divine; <i>elohim</i> is used of human judges in Exodus 21:6 and 22:8 (in some readings) and of Moses \"as God\" to Pharaoh (Exodus 7:1). Rashi glosses it \"O prince, O judge.\" See the chapter page for the full discussion.",
+  "orig": "כִּסְאֲךָ אֱלֹהִים עוֹלָם וָעֶד (kis'akha elohim 'olam va'ed)",
+  "kind": "deb",
+  "r": "1 Chronicles 29:23; Exodus 7:1; Exodus 21:6; 82:6; Hebrews 1:8; Isaiah 9:6",
+  "top": "messiah",
+  "s": [
+   "harris-jesus-god",
+   "rashi-psalms",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:6",
+  "a": "Your throne, O God, is for ever and ever.",
+  "type": "echo",
+  "t": "Hebrews 1:8–9",
+  "p": "Hebrews quotes 45:6–7 to show that the Son is greater than the angels: God calls him \"God.\"",
+  "b": "Hebrews 1:8–9 quotes the Greek of 45:6–7: \"But of the Son he says: 'Your throne, O God, is forever and ever...'\" In context the writer is gathering texts in which God addresses the Son in words he never used of an angel. The Greek <i>ho thronos sou ho theos</i> can be read \"Your throne, O God\" (a nominative used as a vocative, common in the Greek Old Testament) or \"God is your throne.\" Most commentators, such as Attridge, Lane and Harris, take it as a vocative, so that the Son is addressed as God and then said to be anointed \"by God, your God.\" Jewish readers answer that the Hebrew addresses a human king, as the Targum also has a messianic king who is not God.",
+  "r": "Hebrews 1:5–14; Hebrews 1:8–9; John 1:1; John 20:28",
+  "top": "son-of-god",
+  "s": [
+   "attridge-hebrews",
+   "lane-hebrews",
+   "harris-jesus-god"
+  ]
+ },
+ {
+  "v": "45:7",
+  "a": "So God, your God, has anointed you",
+  "type": "word",
+  "t": "Anointed with the oil of joy",
+  "p": "The verb is mashach, from which comes \"messiah.\" The king is anointed above his fellows.",
+  "b": "Kings were anointed with oil when they were made king (1 Samuel 16:13; 1 Kings 1:39). \"The oil of joy\" may be festive perfumed oil at the wedding (Isaiah 61:3; Ecclesiastes 9:8), but the verb <i>mashach</i> recalls the king's anointing and gives the noun <i>mashiach</i>, \"anointed one,\" Messiah. \"Your fellows\" are other kings or the king's companions at court. \"God, your God\" is probably an Elohistic form of \"the LORD your God\" (see 42:1); it may also be read \"O God, your God has anointed you,\" as Hebrews 1:9 can be taken.",
+  "orig": "מְשָׁחֲךָ אֱלֹהִים אֱלֹהֶיךָ (meshachakha elohim eloheka)",
+  "kind": "nu",
+  "r": "1 Samuel 16:13; 1 Kings 1:39; Isaiah 61:1–3; Hebrews 1:9; Acts 10:38; 42:1",
+  "top": "anointing",
+  "s": [
+   "tate-psalms",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:8",
+  "a": "Your clothes are all myrrh and aloes and cassia.",
+  "type": "history",
+  "t": "Spices of the wedding",
+  "p": "Myrrh, aloes and cassia were costly imported scents, the perfumes of a royal wedding.",
+  "b": "Myrrh is a resin from Arabia and Somalia, used in the holy anointing oil (Exodus 30:23) and as perfume (Song of Songs 3:6). \"Aloes\" here is probably eaglewood (aloeswood), a fragrant wood from south Asia (Proverbs 7:17), not the aloe plant. Cassia is a cinnamon-like bark (Exodus 30:24). Ivory palaces were rooms paneled or inlaid with ivory, a sign of great wealth; carved ivory panels have been found at Samaria, Ahab's capital (1 Kings 22:39; Amos 3:15). Christians later saw the myrrh and aloes again at Jesus' burial (John 19:39).",
+  "r": "Exodus 30:23–24; Proverbs 7:17; Song of Songs 3:6; 1 Kings 22:39; Amos 3:15; John 19:39",
+  "top": "incense",
+  "l": [
+   [
+    "Samaria ivories",
+    "Samaria ivories"
+   ]
+  ],
+  "s": [
+   "king-stager-life",
+   "mazar-archaeology"
+  ]
+ },
+ {
+  "v": "45:9",
+  "a": "At your right the queen takes her place,",
+  "type": "word",
+  "t": "The queen consort",
+  "p": "Shegal is a rare word for the king's wife, probably the new bride or the chief wife.",
+  "b": "<i>Shegal</i> occurs elsewhere only of the Persian king's consort (Nehemiah 2:6) and the wives of Babylon's king (Daniel 5:2–3). Standing at the king's right is the place of honor (110:1; 1 Kings 2:19, where Solomon gives his mother a throne at his right). \"Gold of Ophir\" was the finest gold, brought by Solomon's ships (1 Kings 9:28). Catholic and Orthodox tradition read this verse of Mary, the queen at Christ's right hand; Protestant interpreters read it of the church as Christ's bride. See the chapter page for this difference.",
+  "orig": "שֵׁגַל (shegal)",
+  "kind": "nu",
+  "r": "Nehemiah 2:6; Daniel 5:2–3; 1 Kings 2:19; 1 Kings 9:28; 110:1",
+  "top": "mary",
+  "s": [
+   "munificentissimus",
+   "calvin-psalms"
+  ]
+ },
+ {
+  "v": "45:10",
+  "a": "Forget your own people and your father's household.",
+  "type": "echo",
+  "t": "Leaving her people",
+  "p": "The foreign bride is told to leave her family and her nation behind, as Ruth did by choice.",
+  "b": "The bride seems to be a foreign princess, perhaps from Tyre (45:12). Royal marriages sealed alliances (1 Kings 3:1; 1 Kings 16:31). The poet urges her to make a full break with her past, in words that recall Genesis 2:24 and Abraham's call to leave his father's house (Genesis 12:1). Ruth's vow, \"Your people are my people, and your God is my God\" (Ruth 1:16), is the same change made willingly. Christian readers heard here the call of the church, gathered from the nations, to leave old ways for Christ.",
+  "r": "Genesis 2:24; Genesis 12:1; Ruth 1:16; 1 Kings 3:1; 1 Kings 16:31",
+  "top": "marriage",
+  "s": [
+   "augustine-enarrationes",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "45:11",
+  "a": "Because he is your lord, bow low before him.",
+  "type": "word",
+  "t": "\"Your lord\"",
+  "p": "Adonayikh is the respectful term a wife used for her husband, as Sarah does in Genesis 18:12.",
+  "b": "The bride is told that the king is her <i>adon</i>, \"lord, master,\" the word Sarah uses of Abraham (Genesis 18:12) and that 1 Peter 3:6 picks up. Bowing was the courtesy every subject paid the king. The KJV capitalizes \"he is thy Lord; and worship thou him,\" reading the verse of Christ. The Hebrew does not use a divine name here, and \"bow down\" (<i>hishtachavah</i>) is used for honoring kings and elders as well as for worship.",
+  "orig": "כִּי־הוּא אֲדֹנַיִךְ וְהִשְׁתַּחֲוִי־לוֹ (ki-hu adonayikh vehishtachavi-lo)",
+  "kind": "mis",
+  "r": "Genesis 18:12; 1 Peter 3:6; 1 Kings 1:16; 1 Samuel 25:23",
+  "s": [
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "45:12",
+  "a": "Daughter Tyre comes with a gift;",
+  "type": "history",
+  "t": "Daughter Tyre",
+  "p": "\"Daughter Tyre\" is the city of Tyre itself, the rich Phoenician port, bringing wedding presents.",
+  "b": "\"Daughter\" with a place name means the city or its people (\"daughter Zion,\" 9:14). Tyre was the great trading port of Phoenicia, famous for wealth, purple dye and ships (Ezekiel 27). Hiram of Tyre supplied David and Solomon (2 Samuel 5:11; 1 Kings 5:1). Its gifts may mean the bride came from Tyre, or that foreign cities court the new queen's favor. \"Court your favor\" is literally \"soften your face,\" a phrase for seeking someone's goodwill (Proverbs 19:6).",
+  "r": "2 Samuel 5:11; 1 Kings 5:1; Ezekiel 27:1–36; Proverbs 19:6; 72:10",
+  "top": "hiram",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "45:13",
+  "a": "The king's daughter is all splendor inside the palace;",
+  "type": "word",
+  "t": "\"Glorious within\"",
+  "p": "Peniymah means \"inside\" the palace, not \"inwardly.\" The verse describes her dress, not her soul.",
+  "b": "The KJV's \"The king's daughter is all glorious within\" has often been read of inner beauty. In Hebrew, <i>peniymah</i> is a word of place: \"inside, indoors,\" as the princess waits in her chamber before the procession (45:14). The next line describes her gown woven with gold. Some scholars change one letter to read <i>peninim</i>, \"pearls\": \"all glorious, the princess, with pearls.\" The rabbis used the KJV-like sense to praise the modesty of Jewish women, who keep \"inside\" (Bavli Yevamot 77a), and that use is still common in Jewish teaching.",
+  "orig": "כָּל־כְּבוּדָּה בַת־מֶלֶךְ פְּנִימָה (kol-kevuddah vat-melekh penimah)",
+  "kind": "com",
+  "r": "45:14; 1 Peter 3:3–4",
+  "s": [
+   "kraus-psalms",
+   "bavli-yevamot"
+  ]
+ },
+ {
+  "v": "45:16",
+  "a": "Your sons will take your fathers' place.",
+  "type": "views",
+  "t": "Speaking to the king again",
+  "p": "The Hebrew \"your\" here is masculine: the poet turns back to the king and promises him a dynasty.",
+  "b": "In 45:10–15 \"your\" is feminine, spoken to the bride. In 45:16–17 it is masculine again, addressed to the king. The wish is for sons who will be princes, a lasting dynasty, the hope at the heart of the promise to David (2 Samuel 7:12–16). Christians read the verse of the spiritual children of Christ (Hebrews 2:13).",
+  "r": "2 Samuel 7:12–16; 89:29; Hebrews 2:13; 45:10",
+  "top": "davidic-covenant",
+  "s": [
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "46:0",
+  "a": "On alamoth.",
+  "type": "word",
+  "t": "Alamoth: young women's voices?",
+  "p": "Alamot means \"young women.\" It may mark a high-voice or high-pitched setting. The Greek read \"secret things.\"",
+  "b": "<i>Alamot</i> is the plural of <i>almah</i>, \"young woman.\" 1 Chronicles 15:20 has musicians playing harps \"according to <i>alamot</i>,\" so it seems to be a musical term, perhaps for a high (soprano) register, as opposed to <i>sheminit</i>, perhaps \"the octave\" or the low register (1 Chronicles 15:21; Psalm 6:0). The Greek took the consonants from <i>'alam</i>, \"to hide\": \"concerning the hidden things.\"",
+  "orig": "עַל־עֲלָמוֹת ('al-'alamot)",
+  "kind": "deb",
+  "r": "1 Chronicles 15:20–21; 6:0; 9:0",
+  "top": "music",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "46:1",
+  "a": "God is a shelter and strength for us,",
+  "type": "views",
+  "t": "\"A mighty fortress is our God\"",
+  "p": "Luther's hymn is a free paraphrase of this psalm, the anthem of the Reformation.",
+  "b": "Martin Luther wrote <i>Ein feste Burg ist unser Gott</i> (\"A mighty fortress is our God\"), probably in 1527–1529, as a paraphrase of Psalm 46. It became the battle hymn of the Reformation and is sung across many churches today, Catholic included. Luther's \"fortress\" draws on 46:7 and 46:11 (<i>misgav</i>, \"high fort\"); 46:1 has <i>machseh</i>, \"shelter, refuge,\" a place to hide from storm or danger. In the synagogue the refrain \"The LORD of Armies is with us\" (46:7, 46:11) is said daily in the prayer <i>Uva Letzion</i> and at Havdalah, which closes the Sabbath.",
+  "orig": "מַחֲסֶה וָעֹז (machaseh va'oz)",
+  "kind": "nu",
+  "r": "46:7; 46:11; 91:2; 2 Samuel 22:3",
+  "top": "worship",
+  "s": [
+   "luther-ein-feste-burg"
+  ],
+  "l": [
+   [
+    "A Mighty Fortress Is Our God",
+    "A Mighty Fortress Is Our God"
+   ]
+  ]
+ },
+ {
+  "v": "46:2",
+  "a": "when mountains slip into the heart of the seas.",
+  "type": "symbol",
+  "t": "Creation coming apart",
+  "p": "The mountains were the pillars of the world, and the sea the power of chaos. The psalm imagines creation undone.",
+  "b": "In the ancient picture of the world, the mountains were rooted in the deep and held up the sky (Job 9:5–6; Jonah 2:6), and the sea was the unruly power God tamed at creation (104:6–9; Job 38:8–11). The psalm imagines the worst: the earth \"changing\" (or giving way), the mountains sliding back into the sea, the waters raging. Even then \"we will have no fear.\" The same roaring waters stand for raging nations in 46:6 (compare Isaiah 17:12–13). On the sea as chaos see the topic page.",
+  "r": "Job 9:5–6; Jonah 2:6; 104:6–9; Job 38:8–11; Isaiah 17:12–13; 93:3–4",
+  "top": "sea",
+  "s": [
+   "levenson-creation",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "46:4",
+  "a": "A river! Its channels gladden the city of God,",
+  "type": "symbol",
+  "t": "A river in a city without one",
+  "p": "Jerusalem has no river, only the Gihon spring. The river is God's own life-giving presence.",
+  "b": "Unlike Babylon, Nineveh or Damascus, Jerusalem had no river, only the small Gihon spring and the channel of Shiloah (Isaiah 8:6). The \"river\" is the stream of Eden (Genesis 2:10), the river of the divine mountain in Canaanite myth, and the river Ezekiel sees flowing from the temple (Ezekiel 47:1–12; Joel 3:18; Zechariah 14:8). Revelation takes it up: \"the river of the water of life, as clear as crystal, flowing from the throne of God and of the Lamb\" (Revelation 22:1). The Greek reads the next line \"the Most High has made his dwelling holy.\"",
+  "r": "Genesis 2:10; Isaiah 8:6; Isaiah 33:21; Ezekiel 47:1–12; Joel 3:18; Zechariah 14:8; Revelation 22:1",
+  "top": "mount-zion",
+  "s": [
+   "levenson-sinai",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "46:5",
+  "a": "God helps her at the turning of the morning.",
+  "type": "history",
+  "t": "Help at daybreak",
+  "p": "Morning is the time of rescue. Readers linked this with the night Sennacherib's army died outside Jerusalem.",
+  "b": "\"At the turning of the morning\" (<i>lifnot boqer</i>) is dawn, the time when God's help comes after a night of danger (30:5; Exodus 14:24, 27). Many readers since the Middle Ages have connected the psalm with 701 BC, when the Assyrian king Sennacherib besieged Jerusalem and his army was struck down: \"People rose early in the morning, and there they all were, dead bodies\" (2 Kings 19:35). Nothing in the psalm names that event, and many scholars think the psalm is a temple song about God's protection of Zion in general, older or younger than 701.",
+  "orig": "לִפְנוֹת בֹּקֶר (lifnot boqer)",
+  "r": "2 Kings 19:35; Isaiah 37:36; Exodus 14:24; 30:5; 90:14",
+  "top": "mount-zion",
+  "s": [
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "46:7",
+  "a": "The LORD of Armies is with us;",
+  "type": "echo",
+  "t": "\"With us\": Immanuel",
+  "p": "The refrain's \"with us\" is the Hebrew immanu, the heart of the name Immanuel, \"God with us.\"",
+  "b": "<i>YHWH tseva'ot 'immanu</i>: \"The LORD of Armies is with us.\" Isaiah, who preached Zion's safety in the same years, used the phrase as a name: <i>Immanu-el</i>, \"God is with us\" (Isaiah 7:14; 8:8, 10). Matthew 1:23 applies the name to Jesus. The refrain (46:7, 46:11) may once have stood after 46:3 as well, since the poem has three parts and the first lacks it. On the title \"the LORD of Armies\" see the topic page on the names of God.",
+  "orig": "יְהוָה צְבָאוֹת עִמָּנוּ (YHWH tseva'ot 'immanu)",
+  "kind": "nu",
+  "r": "46:11; Isaiah 7:14; Isaiah 8:8; Isaiah 8:10; Matthew 1:23",
+  "top": "names-of-god",
+  "s": [
+   "kraus-psalms",
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "46:9",
+  "a": "the wagons he burns with fire.",
+  "type": "word",
+  "t": "Wagons, or shields?",
+  "p": "The Hebrew says carts or wagons. The Greek and many modern versions read \"shields.\"",
+  "b": "The Masoretic Text has <i>'agalot</i>, \"wagons, carts.\" These may be war wagons or supply carts, though the usual word for chariot is different (<i>rekhev</i>). The Greek read <i>'agilot</i>, \"round shields\" (<i>thyreous</i>), a word known in later Hebrew and Aramaic, which makes a neat set of three weapons: bow, spear and shield. See the variant. Either way, God ends war by destroying the weapons, as in Isaiah 2:4, Hosea 2:18 and Ezekiel 39:9.",
+  "orig": "עֲגָלוֹת ('agalot)",
+  "kind": "var",
+  "r": "Isaiah 2:4; Hosea 2:18; Ezekiel 39:9–10; 76:3",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "46:10",
+  "a": "\"Let go, and know that I am God.",
+  "type": "word",
+  "t": "\"Be still\" means \"Stop!\"",
+  "p": "Harpu means let go, drop your hands, stop. It is spoken to the warring nations, not a call to quiet prayer.",
+  "b": "This verse is often quoted as a call to quiet meditation. The Hebrew <i>harpu</i> comes from <i>rafah</i>, \"to sink, let drop, relax\": \"Let go! Stop!\" (compare 1 Samuel 15:16, where Samuel tells Saul to stop, and 2 Samuel 24:16, \"Now let your hand drop\"). God is speaking, and the context is war: he has just broken bows and burned weapons (46:9). The command is to the raging nations of 46:6, and perhaps to anxious Israel: lay down your weapons and recognize who is God. The Greek <i>scholasate</i> (\"have leisure, be free\") and the Latin <i>vacate</i> helped the contemplative reading. Both uses can live together, but the first sense is \"Enough!\"",
+  "orig": "הַרְפּוּ וּדְעוּ (harpu ude'u)",
+  "kind": "com",
+  "r": "46:6; 46:9; 1 Samuel 15:16; 2 Samuel 24:16; Exodus 14:13–14",
+  "s": [
+   "tate-psalms",
+   "goldingay-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "47:1",
+  "a": "All peoples, clap your hands.",
+  "type": "history",
+  "t": "Applause for a king",
+  "p": "Clapping and shouting greeted a new king. Here every nation is invited to acclaim God as King.",
+  "b": "When Joash was crowned, the people \"clapped their hands and cried, 'Long live the king!'\" (2 Kings 11:12). The shout (<i>teru'ah</i>) and the ram's horn (47:5) also belonged to coronations (1 Kings 1:39–40; 2 Samuel 15:10). Psalm 47 invites \"all peoples,\" not just Israel, to give God the acclaim due a new king. It belongs to a group scholars call enthronement psalms or kingship-of-the-LORD psalms (47, 93, 95–99), which proclaim \"God rules as King\" (47:8).",
+  "r": "2 Kings 11:12; 1 Kings 1:39–40; 2 Samuel 15:10; 47:8; 93:1; 96:10; 97:1; 99:1",
+  "top": "kingship",
+  "s": [
+   "mowinckel-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "47:4",
+  "a": "He chooses our inheritance for us,",
+  "type": "word",
+  "t": "Inheritance, Jacob's pride",
+  "p": "The inheritance is the land of Israel, given by God's choice. \"Jacob's pride\" means the land Israel is proud of.",
+  "b": "<i>Nachalah</i>, \"inheritance,\" is the land as God's gift, divided among the tribes (Joshua 13–19; compare Deuteronomy 4:21). \"The pride of Jacob\" (<i>ge'on ya'aqov</i>) here means the thing Jacob is proud of, the land, as in Nahum 2:2; in Amos 6:8 and 8:7 the same phrase means Israel's arrogance. \"Whom he loved\" recalls Malachi 1:2, \"I have loved Jacob.\"",
+  "orig": "נַחֲלָתֵנוּ ... גְּאוֹן יַעֲקֹב (nachalatenu ... ge'on ya'aqov)",
+  "kind": "nu",
+  "r": "Deuteronomy 4:21; Nahum 2:2; Amos 6:8; Amos 8:7; Malachi 1:2",
+  "top": "promised-land",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "47:5",
+  "a": "God has gone up with a shout of joy,",
+  "type": "views",
+  "t": "Gone up: from the ark to the Ascension",
+  "p": "Israel may have sung this as the ark went up to the temple. The church sings it on Ascension Day.",
+  "b": "\"Gone up\" (<i>'alah</i>) suggests a procession: the ark, the throne of the invisible God, carried up the hill into the temple with shouts and the ram's horn, as when David brought it to Jerusalem (2 Samuel 6:15, \"shouting and blowing the ram's horn\"). Mowinckel thought of a yearly autumn festival at which God's kingship was celebrated; others think simply of God \"going up\" to his heavenly throne after victory (68:18). From the fourth century the church has read it of Christ's ascension (Acts 1:9–11), and it is the traditional psalm of Ascension Day. In Jewish worship the psalm is recited seven times before the ram's horn is blown on Rosh Hashanah, the New Year.",
+  "r": "2 Samuel 6:15; 68:18; 24:7–10; Acts 1:9–11; Ephesians 4:8; Leviticus 23:24",
+  "top": "feasts",
+  "s": [
+   "mowinckel-psalms",
+   "augustine-enarrationes",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "47:7",
+  "a": "sing praise with a maskil.",
+  "type": "word",
+  "t": "Sing \"with skill\"",
+  "p": "Maskil here is not a title. It means a skillful or thoughtful song. The KJV has \"with understanding.\"",
+  "b": "The word <i>maskil</i>, used in many psalm titles, here stands inside the psalm as the object of \"sing.\" The Greek and the KJV understood it as an adverb, \"sing wisely, with understanding\" (<i>psalate synetōs</i>). Paul's \"I will sing with the spirit, and I will sing with the mind also\" (1 Corinthians 14:15) is close to that reading. Many scholars take it as \"a skillful song,\" which suggests what the title word means elsewhere.",
+  "orig": "זַמְּרוּ מַשְׂכִּיל (zammeru maskil)",
+  "kind": "deb",
+  "r": "32:0; 1 Corinthians 14:15",
+  "top": "psalm-titles",
+  "s": [
+   "rahlfs-lxx",
+   "craigie-psalms"
+  ]
+ },
+ {
+  "v": "47:9",
+  "a": "the people of the God of Abraham.",
+  "type": "israel",
+  "t": "The nations join Abraham's people",
+  "p": "Foreign princes gather, \"the people of the God of Abraham.\" The Greek has \"with the God of Abraham.\"",
+  "b": "The Hebrew has no \"with\" or \"as\": \"the nobles of the peoples have gathered, the people of the God of Abraham.\" Many read it as a bold claim: the nations' rulers become part of Abraham's people, fulfilling the promise that \"all the families of the earth\" would be blessed in him (Genesis 12:3). The Greek read <i>'im</i> (\"with\") for <i>'am</i> (\"people\"), giving \"gathered with the God of Abraham,\" which makes the nations subjects rather than members. Paul's argument that the nations become Abraham's children by faith (Galatians 3:7–9; Romans 4:16–17) stands close to the first reading. \"The shields of the earth\" are its rulers, as in 89:18 and Hosea 4:18.",
+  "orig": "עַם אֱלֹהֵי אַבְרָהָם ('am elohe avraham)",
+  "r": "Genesis 12:3; Isaiah 2:2–4; Zechariah 8:20–23; Galatians 3:7–9; Romans 4:16–17; 89:18",
+  "top": "foreigners",
+  "s": [
+   "tate-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "48:0",
+  "a": "A song. A psalm. Of the sons of Korah.",
+  "type": "history",
+  "t": "The Monday psalm",
+  "p": "Psalm 48 was the Levites' song in the temple every Monday. The Greek title says so too.",
+  "b": "The Mishnah lists the psalm the Levites sang each day at the daily offering: Sunday 24, Monday 48, Tuesday 82, Wednesday 94, Thursday 81, Friday 93, and the Sabbath 92 (Mishnah Tamid 7:4). The Greek title of this psalm adds \"for the second day of the week,\" showing the custom is old. The Talmud explains that on Monday God \"divided his works and reigned over them\" (Bavli Rosh Hashanah 31a); Rashi takes the dividing as the separating of the waters. Jews still say this psalm as the \"song of the day\" every Monday morning.",
+  "r": "24:0; 82:0; 92:0; 93:1; 94:1; 81:0",
+  "top": "worship",
+  "s": [
+   "mishnah-tamid",
+   "bavli-rosh-hashanah",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "48:2",
+  "a": "is Mount Zion, the heights of Zaphon,",
+  "type": "myth",
+  "t": "Zion as Zaphon, the mountain of the gods",
+  "p": "Zaphon was the sacred mountain of Baal in Canaanite myth. The psalm gives its title to Zion.",
+  "b": "<i>Yarkete tsafon</i> can mean \"the far north\" (KJV \"the sides of the north\"), but Zion is not in the north of anything. <i>Tsafon</i> (Zaphon) is also the name of Jebel al-Aqra, a mountain north of Ugarit in Syria, which the Ugaritic texts call the home of the storm god Baal. Isaiah 14:13 uses the same phrase for the mountain of the gods where the king of Babylon wanted to sit. The psalm claims the old title for Zion: the true mountain of God is the small hill in Jerusalem. The verdict: a real borrowing of a Canaanite name and image, turned into a claim about the LORD, not a sign that Israel worshipped Baal.",
+  "orig": "יַרְכְּתֵי צָפוֹן (yarkete tsafon)",
+  "r": "Isaiah 14:13; Ezekiel 28:14; Job 26:7; 89:12; Lamentations 2:15",
+  "top": "mount-zion",
+  "s": [
+   "smith-baal-cycle",
+   "levenson-sinai",
+   "craigie-psalms"
+  ],
+  "l": [
+   [
+    "Mount Zaphon",
+    "Jebel Aqra"
+   ]
+  ]
+ },
+ {
+  "v": "48:2",
+  "a": "Lovely and lofty, the delight of all the earth,",
+  "type": "echo",
+  "t": "\"The joy of all the earth\" mocked",
+  "p": "Lamentations 2:15 quotes this line, with 50:2, as the nations jeer at fallen Jerusalem.",
+  "b": "After Jerusalem fell in 586 BC, Lamentations put these titles in the mouths of mockers: \"Is this the city they called the perfection of beauty, the joy of all the earth?\" (Lamentations 2:15). The two phrases come from 50:2 (\"beauty made perfect\") and this verse. The pairing shows that these Zion songs were well known before the exile, and that their confidence made the city's fall all the more bitter.",
+  "r": "Lamentations 2:15; 50:2; Ezekiel 16:14",
+  "top": "jerusalem",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "48:4",
+  "a": "See, the kings gathered;",
+  "type": "history",
+  "t": "Which kings?",
+  "p": "The kings who come and flee may be a memory of a real siege, or a set picture of the nations against Zion.",
+  "b": "The scene is like a short war story: kings join forces, march on the city, take one look, panic and run. Some scholars link it with a historical event, such as the Syro-Ephraimite attack of 734 BC (Isaiah 7:1–9) or Sennacherib's retreat in 701 BC (2 Kings 19:35–36). Others see a fixed motif of Zion worship, \"the nations' assault\" on God's city, which recurs in 2:1–6, 76:3–6 and Isaiah 17:12–14. The verbs of panic echo Exodus 15:14–15, where peoples tremble at the exodus.",
+  "r": "Isaiah 7:1–9; 2 Kings 19:35–36; 2:1–6; 76:3–6; Isaiah 17:12–14; Exodus 15:14–15",
+  "top": "mount-zion",
+  "s": [
+   "kraus-psalms",
+   "goldingay-psalms"
+  ]
+ },
+ {
+  "v": "48:7",
+  "a": "you break the ships of Tarshish.",
+  "type": "history",
+  "t": "Ships of Tarshish",
+  "p": "Large ocean-going ships, named after a far-off port in the west. The image is the destruction of proud power.",
+  "b": "\"Tarshish ships\" were big seagoing merchant vessels (1 Kings 10:22), named after Tarshish, a distant port, perhaps Tartessos in Spain (Jonah 1:3). The east wind, the hot <i>sirocco</i> from the desert, was known for wrecking ships (Ezekiel 27:26). The line is a picture: as easily as a storm breaks great ships, God breaks the kings' power. Isaiah 2:16 also lists \"all the ships of Tarshish\" among the proud things brought low.",
+  "r": "1 Kings 10:22; Jonah 1:3; Ezekiel 27:25–26; Isaiah 2:16; Isaiah 23:1",
+  "l": [
+   [
+    "Tarshish",
+    "Tarshish"
+   ]
+  ],
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "48:12",
+  "a": "Circle Zion, walk all around her.",
+  "type": "history",
+  "t": "A pilgrims' walk around the walls",
+  "p": "Worshipers walk the circuit of the city and count its towers, then tell their children.",
+  "b": "The psalm closes with an instruction for pilgrims: go around the city, count its towers, study its walls (<i>chel</i>, the outer rampart) and pass through its fortresses. A circuit could be a ritual act, like Joshua's march around Jericho in reverse (Joshua 6) or the procession of Nehemiah 12:31–40. The point is teaching: \"so you can tell it to the generation after you\" (48:13). The walls themselves are a sermon about God's protection (48:14: \"this is God\"). Some take the last line to mean \"this is our God\" and the city a witness to him.",
+  "r": "Nehemiah 12:31–40; Joshua 6:3–4; 48:13; 78:4–6; Isaiah 33:20",
+  "top": "jerusalem",
+  "s": [
+   "mays-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "48:14",
+  "a": "He will lead us until we die.",
+  "type": "word",
+  "t": "\"Until death\", or \"forever\"?",
+  "p": "The Hebrew 'al-mut is odd. Ancient versions read \"forever\"; some think it is a tune name for the next psalm.",
+  "b": "The Masoretic Text ends with <i>'al-mut</i>, \"to/over death,\" so \"He will guide us until death\" (KJV \"unto death\"). The Greek has \"forever\" (<i>eis tous aiōnas</i>), as if reading <i>'olamot</i>, and some Hebrew manuscripts write <i>'almut</i> as one word, which some Jewish interpreters explained from <i>'alumim</i>, \"youth.\" Many scholars think <i>'al-mut</i> is a musical note like <i>'al-mut labben</i> in the title of Psalm 9, displaced from the head of the next psalm or marking the end of this one. See the variant.",
+  "orig": "עַל־מוּת ('al-mut)",
+  "kind": "var",
+  "r": "9:0; 46:0",
+  "s": [
+   "tate-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "49:1",
+  "a": "Listen to this, all peoples.",
+  "type": "history",
+  "t": "A wisdom psalm",
+  "p": "Psalm 49 is a teacher's poem about death and wealth, spoken to the whole world, not a prayer to God.",
+  "b": "Psalm 49 never speaks to God. Like Proverbs 1–9, it opens with a call to listen, and it calls itself wisdom, understanding, a saying (<i>mashal</i>) and a riddle (<i>chidah</i>) (49:3–4). Its audience is everyone, rich and poor, Israelite or not. Its question is the one Job and Ecclesiastes ask: why should the poor fear the rich, if death takes everyone? Scholars class it with the wisdom psalms (1, 37, 73, 112, 128) and date it from the late monarchy to the Persian period. It is one of the few Old Testament texts with a hope beyond death (49:15).",
+  "r": "49:3–4; 49:15; Proverbs 1:8; Ecclesiastes 2:14–16; Job 21:23–26; 73:1",
+  "top": "wisdom",
+  "s": [
+   "tate-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "49:2",
+  "a": "common folk and great alike,",
+  "type": "word",
+  "t": "\"Sons of adam and sons of ish\"",
+  "p": "The Hebrew sets bene adam (ordinary people) beside bene ish (people of standing): the low and the high.",
+  "b": "Both <i>adam</i> and <i>ish</i> mean \"man, human,\" but in pairs like this <i>bene adam</i> means ordinary people and <i>bene ish</i> people of rank (compare 62:9, \"common people are only a breath, / and important people are a lie\"). The KJV's \"low and high\" catches it. The poem speaks to both, because its message cuts both ways: the poor need not fear the rich, and the rich cannot buy their way out of death.",
+  "orig": "גַּם־בְּנֵי אָדָם גַּם־בְּנֵי־אִישׁ (gam-bene adam gam-bene-ish)",
+  "kind": "nu",
+  "r": "62:9; 4:2",
+  "s": [
+   "delitzsch-psalms"
+  ]
+ },
+ {
+  "v": "49:4",
+  "a": "with the lyre I will lay open my riddle.",
+  "type": "word",
+  "t": "A riddle sung to music",
+  "p": "The teacher \"opens\" his riddle with the lyre. Wisdom and music go together, as with the prophets.",
+  "b": "A <i>chidah</i> is a riddle or dark saying (Samson's riddle, Judges 14:12; the Queen of Sheba's hard questions, 1 Kings 10:1). The teacher first \"turns his ear\" to receive the saying, perhaps from God, and then \"opens\" it, solves it, with music. Prophets sometimes prophesied with music (2 Kings 3:15; 1 Chronicles 25:1). The riddle is the refrain of 49:12 and 49:20: what is a human being, for all his splendor? Matthew 13:35 quotes the similar 78:2 of Jesus' parables.",
+  "orig": "אֶפְתַּח בְּכִנּוֹר חִידָתִי (eftach bekhinnor chidati)",
+  "r": "Judges 14:12; 1 Kings 10:1; 2 Kings 3:15; 78:2; Matthew 13:35",
+  "top": "parables",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:5",
+  "a": "when the wrongdoing of those at my heels closes around me,",
+  "type": "word",
+  "t": "\"The iniquity of my heels\"",
+  "p": "The Hebrew says \"the guilt of my heels.\" It probably means those who dog the speaker's steps, his cheats.",
+  "b": "The KJV's \"the iniquity of my heels\" is the literal Hebrew <i>'avon 'aqevai</i>. Most scholars read <i>'oqvai</i>, \"my supplanters, those who trip me,\" from the root of Jacob's name, the heel-grabber and cheat (Genesis 25:26; 27:36). Then the next verse explains who they are: people who trust in wealth. Some older interpreters took \"my heels\" as \"my own sins, following me,\" but the poem is not about the speaker's guilt.",
+  "orig": "עֲוֺן עֲקֵבַי ('avon 'aqevai)",
+  "kind": "deb",
+  "r": "Genesis 25:26; Genesis 27:36; Jeremiah 9:4; 49:6",
+  "s": [
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:7",
+  "a": "No one can ever buy back a brother",
+  "type": "word",
+  "t": "No ransom for a life",
+  "p": "Under the law a life could sometimes be ransomed with money. The psalm says no one can pay death off.",
+  "b": "Israel's law allowed a ransom (<i>kofer</i>) in some cases, for example for the owner of an ox that killed someone (Exodus 21:30), and the census tax was \"a ransom for his life\" (Exodus 30:12). But no ransom was allowed for a murderer (Numbers 35:31). The psalm applies the rule to death itself: no amount of money can buy off death for a brother, or for oneself. The Masoretic Text begins \"A brother,\" which is how the Greek read it (<i>adelphos ou lytroutai</i>). Many scholars read <i>'akh</i>, \"surely,\" for <i>'ach</i>, \"brother\" (compare 49:15, which begins with <i>'akh</i>). See the variant. Jesus' saying \"what will a person give in exchange for his life?\" (Mark 8:37) and his giving his life \"as a ransom for many\" (Mark 10:45) stand against this background.",
+  "orig": "אָח לֹא־פָדֹה יִפְדֶּה אִישׁ ('ach lo-fadoh yifdeh ish)",
+  "kind": "var",
+  "r": "Exodus 21:30; Exodus 30:12; Numbers 35:31; 49:15; Mark 8:37; Mark 10:45; Job 33:24",
+  "top": "kinsman-redeemer",
+  "s": [
+   "tate-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "49:9",
+  "a": "and not look on the Pit.",
+  "type": "word",
+  "t": "The Pit",
+  "p": "Shachat is the pit or grave, a name for the world of the dead, like Sheol.",
+  "b": "<i>Shachat</i> is a pit dug in the ground, a trap or a grave, and then a name for the underworld (16:10; Job 33:18). The Greek translated it \"ruin, corruption\" (<i>kataphthora</i>), from a different root meaning \"to ruin\"; at 16:10 it has the close word <i>diaphthora</i>, which Acts 2:27 quotes. The KJV's \"see corruption\" here follows that sense. In 55:23 the wicked go down to \"the well of the Pit.\"",
+  "orig": "הַשָּׁחַת (hashachat)",
+  "kind": "nu",
+  "r": "16:10; 55:23; Job 33:18; Job 33:28; Acts 2:27",
+  "top": "sheol",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:12",
+  "a": "Yet a man in his splendor does not stay even a night;",
+  "type": "word",
+  "t": "The refrain: lodging for a night",
+  "p": "Yalin means \"spend the night.\" A human's splendor is a one-night stay. The second refrain differs by one letter.",
+  "b": "<i>Bal yalin</i>, \"he does not lodge (overnight),\" pictures human glory as a traveler's stay at an inn: gone by morning. The refrain comes back in 49:20 with one letter changed: <i>velo yavin</i>, \"and he does not understand.\" The Greek has \"understand\" in both places, the Masoretic Text has two forms. Many scholars think the difference is deliberate: the first refrain says humans die like animals; the second says only humans who do not understand are like animals. The animals are \"silenced\" (<i>nidmu</i>), a verb used of death and destruction.",
+  "orig": "בַּל־יָלִין ... וְלֹא יָבִין (bal-yalin ... velo yavin)",
+  "kind": "var",
+  "r": "49:20; Ecclesiastes 3:18–21; Job 14:1–2",
+  "s": [
+   "alter-psalms",
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:14",
+  "a": "Death will be their shepherd.",
+  "type": "symbol",
+  "t": "Death the shepherd",
+  "p": "A dark reversal of 23:1: the rich are herded like sheep into Sheol, with Death as their shepherd.",
+  "b": "In 23:1 the LORD is the shepherd who leads to green pastures. Here Death (<i>mavet</i>, perhaps the name of a power, like the Canaanite god Mot, \"Death\") herds the self-confident into Sheol like a flock to the slaughter. Sheol is the world of the dead, a dark land under the earth where all go, good and bad (88:3–6). The rest of the verse is one of the hardest in the Psalter: \"by morning the upright will be their masters\" may mean that the tables are turned at dawn, the time of God's help (46:5), and \"their form\" (Qere <i>tsuram</i>; Ketiv <i>tsiram</i>) \"wastes away in Sheol, far from any lofty home\" is uncertain in almost every word.",
+  "orig": "מָוֶת יִרְעֵם (mavet yir'em)",
+  "r": "23:1; 88:3–6; 46:5; Isaiah 28:15; Hosea 13:14",
+  "top": "sheol",
+  "s": [
+   "smith-baal-cycle",
+   "tate-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "49:15",
+  "a": "But God will ransom my life",
+  "type": "views",
+  "t": "\"He will take me\": hope beyond death?",
+  "p": "The verb \"take\" is the one used of Enoch and Elijah. Many read here a hope of life with God after death.",
+  "b": "Against the rule that no one can ransom a life (49:7), the speaker says God will do it: he will ransom (<i>padah</i>) my life from the hand of Sheol, \"for he will take me\" (<i>ki yiqqacheni</i>). <i>Laqach</i>, \"take,\" is the verb of Enoch, \"for God took him\" (Genesis 5:24), and of Elijah (2 Kings 2:3, 5), and it appears again in 73:24 (\"after that you will take me in glory\"). Readings: (1) rescue from early death in this life (Calvin allowed this but saw more); (2) a hope of being with God after death, which most Christian and many Jewish interpreters see here; (3) a seed of the later hope of resurrection (Daniel 12:2). The Hebrew does not explain how God will take him, only that death will not have the last word.",
+  "orig": "אַךְ־אֱלֹהִים יִפְדֶּה נַפְשִׁי מִיַּד־שְׁאוֹל כִּי יִקָּחֵנִי ('akh-elohim yifdeh nafshi miyad-she'ol ki yiqqacheni)",
+  "r": "49:7; Genesis 5:24; 2 Kings 2:3; 73:24; Daniel 12:2; Hosea 13:14",
+  "top": "resurrection",
+  "s": [
+   "levenson-resurrection",
+   "calvin-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "49:17",
+  "a": "for he takes none of it with him when he dies;",
+  "type": "echo",
+  "t": "You can't take it with you",
+  "p": "The thought of Job 1:21 and Ecclesiastes 5:15, and of Jesus' parable of the rich fool.",
+  "b": "The rich man \"takes\" (<i>yiqqach</i>, the same verb as 49:15) nothing with him: God takes the faithful, but the rich man can take nothing. Job says, \"Naked I came out from my mother's womb, / and naked I will return there\" (Job 1:21), and Ecclesiastes 5:15 and 1 Timothy 6:7 say the same. Jesus' parable of the rich fool ends, \"You fool, tonight they are asking for your life back from you\" (Luke 12:20). In Jewish practice, Psalm 49 is read in the house of mourning during the week of shiva in many communities.",
+  "r": "Job 1:21; Ecclesiastes 5:15; 1 Timothy 6:7; Luke 12:16–21; 49:15",
+  "top": "wealth",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:0",
+  "a": "A psalm of Asaph.",
+  "type": "history",
+  "t": "Asaph: one psalm out of place",
+  "p": "Asaph led one of David's three guilds of singers. His other eleven psalms are 73–83; this one stands alone.",
+  "b": "Asaph son of Berekiah, a Levite, was appointed by David as a chief singer (1 Chronicles 15:17; 16:5–7), and \"the sons of Asaph\" were one of the three temple guilds with Heman and Jeduthun (1 Chronicles 25:1). Twelve psalms bear his name: 50 and 73–83. Why Psalm 50 is separated from the others is unknown; it may have been placed here as a sermon about sacrifice to stand before Psalm 51, which says that God wants a broken heart more than offerings (51:16–17). The Asaph psalms often speak of God as judge and use prophetic speech in God's own voice, as this one does.",
+  "r": "1 Chronicles 15:17; 1 Chronicles 16:5–7; 1 Chronicles 25:1; 2 Chronicles 29:30; 73:0; 51:16–17",
+  "top": "temple-singers",
+  "s": [
+   "nasuti-asaph",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:1",
+  "a": "The God of gods, the LORD, has spoken.",
+  "type": "word",
+  "t": "Three names at once",
+  "p": "El, Elohim, YHWH: the opening piles up three names of God, as in Joshua 22:22.",
+  "b": "The Hebrew opens <i>El Elohim YHWH</i>. It can be read as three names (\"God, God, the LORD\"), as \"the God of gods, the LORD,\" as the Greek took it (<i>theos theōn kyrios</i>), or as \"the Mighty One, God, the LORD.\" The same three words twice open the oath of the eastern tribes in Joshua 22:22, which this site renders \"God of gods, the LORD!\" The heaped-up titles prepare a solemn courtroom scene: the God who summons \"the earth from where the sun rises to where it goes down,\" the whole world, as witnesses against his own people.",
+  "orig": "אֵל אֱלֹהִים יְהוָה (el elohim YHWH)",
+  "kind": "deb",
+  "r": "Joshua 22:22; 136:2; Deuteronomy 10:17",
+  "top": "names-of-god",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:3",
+  "a": "A fire eats up what is before him,",
+  "type": "echo",
+  "t": "Coming as at Sinai",
+  "p": "Fire and storm are the signs of God's coming, as at Mount Sinai when the covenant was made.",
+  "b": "God \"comes\" with fire and tempest, as he came down on Sinai \"in fire\" with thunder and a thick cloud (Exodus 19:16–18; Deuteronomy 33:2). But now he comes \"from Zion\" (50:2), and not to give the covenant but to hold his people to it. \"He will not keep quiet\" answers 50:21, where God says he kept silent while the wicked sinned. The scene is like a covenant lawsuit (<i>riv</i>) in the prophets, where heaven and earth are called as witnesses (Isaiah 1:2; Micah 6:1–2; Deuteronomy 32:1).",
+  "r": "Exodus 19:16–18; Deuteronomy 33:2; 50:21; Isaiah 1:2; Micah 6:1–2; Deuteronomy 32:1; 97:3",
+  "top": "covenant",
+  "s": [
+   "kraus-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:5",
+  "a": "who cut my covenant over a sacrifice.",
+  "type": "echo",
+  "t": "A covenant cut with sacrifice",
+  "p": "Covenants were sealed by sacrifice, as at Sinai, where Moses splashed the blood on the people.",
+  "b": "\"Cutting\" a covenant (<i>karat berit</i>) is the Hebrew idiom, probably from cutting animals in the ceremony (Genesis 15:9–18; Jeremiah 34:18). At Sinai Moses offered sacrifices and splashed half the blood on the altar and half on the people: \"Here is the blood of the covenant that the LORD has cut with you on the terms of all these words\" (Exodus 24:8). The psalm's charge will be that Israel has kept the sacrifices but forgotten the covenant's terms (50:16–20). Jesus' words over the cup, \"my blood of the covenant\" (Mark 14:24), draw on the same scene.",
+  "orig": "כֹּרְתֵי בְרִיתִי עֲלֵי־זָבַח (koreté veriti 'ale-zavach)",
+  "r": "Exodus 24:5–8; Genesis 15:9–18; Jeremiah 34:18; Mark 14:24; 50:16–20",
+  "top": "covenant",
+  "s": [
+   "mccarthy-treaty"
+  ]
+ },
+ {
+  "v": "50:7",
+  "a": "God, your God, am I.",
+  "type": "echo",
+  "t": "Echo of the Ten Words",
+  "p": "The formula recalls \"I am the LORD your God\" at the head of the Ten Commandments, here in its Elohistic form.",
+  "b": "\"I am the LORD your God\" opens the Ten Words (Exodus 20:2). Here it stands as \"God, your God, am I,\" probably the Elohistic Psalter's form of the same words (see 42:1). The sermon that follows touches several commandments: theft, adultery and false witness against a brother (50:18–20; Exodus 20:14–16). Some scholars think the psalm was used at a covenant renewal festival, where the commandments were read and the people pledged to keep them (Deuteronomy 31:10–13).",
+  "r": "Exodus 20:2; 81:10; 50:18–20; Exodus 20:14–16; Deuteronomy 31:10–13; 42:1",
+  "top": "ten-commandments",
+  "s": [
+   "mowinckel-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "50:9",
+  "a": "I will not take a young bull from your household,",
+  "type": "views",
+  "t": "Does God need sacrifice?",
+  "p": "God does not reject sacrifice; he rejects the idea that he needs it. The gods of the nations were thought to eat.",
+  "b": "In Mesopotamian belief the gods depended on offerings for food; the Babylonian flood stories have the gods, hungry after the flood, gathering \"like flies\" over the survivor's sacrifice. Psalm 50 mocks any such idea: every animal is already God's (50:10–11), and if he were hungry he would not ask (50:12–13). God says plainly that he does not rebuke Israel for its sacrifices (50:8). What he wants is thanksgiving, kept vows and prayer in trouble (50:14–15), and a life that matches the covenant (50:16–23). The prophets make the same point more sharply (1 Samuel 15:22; Isaiah 1:11–17; Amos 5:21–24; Hosea 6:6; Micah 6:6–8).",
+  "r": "50:8; 50:12–13; 1 Samuel 15:22; Isaiah 1:11–17; Hosea 6:6; Micah 6:6–8; Acts 17:24–25",
+  "top": "sacrifice",
+  "s": [
+   "tate-psalms",
+   "lambert-millard-atrahasis"
+  ]
+ },
+ {
+  "v": "50:10",
+  "a": "and the animals on a thousand hills.",
+  "type": "word",
+  "t": "\"The cattle on a thousand hills\"",
+  "p": "Behemot is the general word for large animals. \"A thousand hills\" is a round figure for every hill.",
+  "b": "<i>Behemot</i> means large four-footed animals, wild or tame; the same word as a singular-looking plural is the name of the great beast Behemoth in Job 40:15. \"On a thousand hills\" (<i>beharere alef</i>) may also be read \"on the mountains where they are by the thousand.\" The phrase \"the cattle on a thousand hills\" from the KJV has become a proverb for God's wealth.",
+  "orig": "בְּהֵמוֹת בְּהַרְרֵי־אָלֶף (behemot beharere-alef)",
+  "kind": "nu",
+  "r": "Job 40:15; 104:24; 24:1",
+  "s": [
+   "delitzsch-psalms"
+  ]
+ },
+ {
+  "v": "50:14",
+  "a": "Sacrifice a thank offering to God,",
+  "type": "word",
+  "t": "The thank offering",
+  "p": "Todah is both \"thanks\" and the thank offering of Leviticus 7:12. The rabbis said it alone will last forever.",
+  "b": "<i>Todah</i> means thanksgiving, praise, and also a kind of peace offering given to thank God for rescue (Leviticus 7:12–15; Jeremiah 33:11), shared in a meal with family and friends. \"Pay your vows\" fits the same occasion: in trouble one made a vow, and after rescue one kept it with a sacrifice and public praise (66:13–15; 116:17–18). The rabbis taught that \"in the time to come all offerings will cease except the thank offering\" (Leviticus Rabbah 9:7). The Greek's \"sacrifice of praise\" (<i>thysia aineseōs</i>) lies behind Hebrews 13:15, \"through him, then, let us bring God a sacrifice of praise at all times.\"",
+  "orig": "זְבַח לֵאלֹהִים תּוֹדָה (zevach lelohim todah)",
+  "kind": "nu",
+  "r": "Leviticus 7:12–15; Jeremiah 33:11; 66:13–15; 116:17–18; Hebrews 13:15; 50:23",
+  "top": "sacrifice",
+  "s": [
+   "leviticus-rabbah",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "50:16",
+  "a": "\"What business do you have listing my rules",
+  "type": "views",
+  "t": "Who are \"the wicked\"?",
+  "p": "Not outsiders but Israelites who recite the commandments in worship while living against them.",
+  "b": "\"The wicked\" here know God's rules well enough to recite them and \"carry the covenant in their mouth,\" perhaps in a temple festival. Their sins are against their neighbors: joining thieves, sharing with adulterers, lying, slandering a brother. The psalm thus has two audiences: the faithful, warned against thinking sacrifice is enough (50:7–15), and the hypocrites, warned against thinking words are enough (50:16–22). Jesus' warning about those who say \"Lord, Lord\" (Matthew 7:21–23) and Paul's charge in Romans 2:21–23 (\"you who preach not to steal, do you steal?\") are close in spirit.",
+  "r": "50:7–15; 50:16–22; Matthew 7:21–23; Romans 2:21–23; Jeremiah 7:9–10; Isaiah 29:13",
+  "s": [
+   "mays-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:18",
+  "a": "If you see a thief, you are happy to join him;",
+  "type": "word",
+  "t": "Pleased with, or running with?",
+  "p": "The Hebrew says \"you were pleased with him.\" The Greek read \"you ran with him.\"",
+  "b": "The Masoretic Text has <i>vattirets 'immo</i>, \"you took pleasure (were pleased) with him.\" The Greek has \"you ran together with him\" (<i>synetreches autō</i>), reading <i>vattarots</i> from <i>ruts</i>, \"to run,\" a difference of vowels and one small letter. Proverbs 1:16 says of robbers, \"their feet race toward evil.\" Both readings make the same point: the person approves of the thief and joins him. See the variant.",
+  "orig": "וַתִּרֶץ עִמּוֹ (vattirets 'immo)",
+  "kind": "var",
+  "r": "Proverbs 1:10–16; Romans 1:32",
+  "s": [
+   "rahlfs-lxx",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "50:21",
+  "a": "You imagined I was the same as you.",
+  "type": "views",
+  "t": "God's silence misread",
+  "p": "Because God did not punish at once, the wicked thought he did not care, or was like them.",
+  "b": "God's patience was taken as approval. The line exposes a basic mistake about God: making him in our image (Isaiah 55:8–9; Ecclesiastes 8:11, where the delay of punishment makes people bold to do evil). The Hebrew <i>heyot ehyeh</i> (\"I was surely\") uses the verb of God's name in Exodus 3:14 (<i>ehyeh</i>), and some scholars hear an ironic play: you thought \"I AM\" was like you. \"Set it all out\" uses the language of a legal case laid out in order (Job 13:18; 23:4).",
+  "orig": "הֱיוֹת־אֶהְיֶה כָמוֹךָ (heyot-ehyeh khamokha)",
+  "r": "Isaiah 55:8–9; Ecclesiastes 8:11; Exodus 3:14; Job 13:18; 2 Peter 3:9",
+  "s": [
+   "alter-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "50:22",
+  "a": "or I will rip you to pieces, and no one will save you.",
+  "type": "symbol",
+  "t": "God as a lion",
+  "p": "Taraf is what a lion does to its prey. God warns he will act like the lion Hosea describes.",
+  "b": "<i>Taraf</i> is the verb for a lion or wolf tearing prey (Genesis 37:33; Genesis 49:27). Hosea uses the image of God himself: \"I will be like a lion to Ephraim... I will tear and go away, I will carry off, and no one will rescue\" (Hosea 5:14). The last words, \"and no one will save,\" are the same in both. The warning is meant to lead to repentance, as the closing verse shows: the way of thanksgiving is open (50:23).",
+  "orig": "פֶּן־אֶטְרֹף וְאֵין מַצִּיל (pen-etrof ve'en matsil)",
+  "r": "Hosea 5:14; Hosea 13:7–8; Amos 3:12; Genesis 37:33; 50:23",
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "50:23",
+  "a": "and whoever prepares the way,",
+  "type": "word",
+  "t": "\"Prepares the way\": a hard phrase",
+  "p": "Vesam derekh is literally \"and puts a way.\" Many read \"whose way is blameless\"; the Greek has \"there is the way.\"",
+  "b": "The Hebrew <i>vesam derekh</i> means \"and (who) sets a way.\" It may mean the one who sets his path right, or who \"makes a road\" for God to come and save. Many scholars change one letter to <i>vetam derekh</i>, \"and (whose) way is blameless\" (compare 101:2, 6; 119:1). The Greek read <i>vesham</i>: \"and there is the way by which I will show him God's salvation.\" The Plain keeps the Hebrew. See the variant.",
+  "orig": "וְשָׂם דֶּרֶךְ (vesam derekh)",
+  "kind": "var",
+  "r": "101:2; 119:1; Isaiah 40:3",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:0",
+  "a": "when Nathan the prophet came to him, after David had come to Bathsheba.",
+  "type": "history",
+  "t": "The title and 2 Samuel 11–12",
+  "p": "The title links the psalm to David's adultery with Bathsheba and the murder of Uriah, after Nathan's rebuke.",
+  "b": "The title uses the same verb twice: Nathan \"came\" (<i>bo</i>) to David after David \"had come\" (<i>ba</i>) to Bathsheba, a common Hebrew way to speak of sex. The story is in 2 Samuel 11–12: David took Bathsheba, the wife of Uriah, had Uriah killed in battle, and was confronted by Nathan's parable of the rich man and the poor man's lamb. David answered, \"I have sinned against the LORD\" (2 Samuel 12:13). Psalm 51 is the fullest prayer of confession in the Bible. Traditional readers take the title at its word. Most scholars think the title was added by editors who matched the psalm to a scene in David's life (see the topic on psalm titles), and that 51:18–19 shows a later setting (see there).",
+  "orig": "בְּבוֹא־אֵלָיו נָתָן הַנָּבִיא כַּאֲשֶׁר־בָּא אֶל־בַּת־שָׁבַע (bevo-elav natan hannavi ka'asher-ba el-bat-shava')",
+  "r": "2 Samuel 11:2–4; 2 Samuel 11:27; 2 Samuel 12:1–14; 2 Samuel 12:13; 51:18–19",
+  "top": "bathsheba",
+  "s": [
+   "childs-psalm-titles",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:1",
+  "a": "Be gracious to me, O God, as your loyal love is.",
+  "type": "echo",
+  "t": "Appealing to Exodus 34:6",
+  "p": "The opening uses three words from God's self-description at Sinai: gracious, loyal love, compassion.",
+  "b": "After the golden calf God revealed himself to Moses as \"a God compassionate and gracious, slow to anger, great in loyal love and faithfulness,\" one who forgives \"guilt, rebellion and sin\" (Exodus 34:6–7). Psalm 51:1–2 draws on the same words: be gracious (<i>chonneni</i>), as your loyal love (<i>hesed</i>) is, as your compassion (<i>rachamim</i>) is great, and then names the same three kinds of wrong, rebellion, guilt and sin. The speaker builds his plea not on any merit of his own but on what God has said he is.",
+  "r": "Exodus 34:6–7; Numbers 14:18–19; 86:15; 103:8; 130:4",
+  "top": "hesed",
+  "s": [
+   "mays-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:1",
+  "a": "wipe out my rebellions.",
+  "type": "word",
+  "t": "Three words for sin, three for cleansing",
+  "p": "Pesha (rebellion), avon (guilt, twistedness) and chatta't (sin, missing the mark) are answered by wipe, wash, cleanse.",
+  "b": "<i>Pesha'</i> is a breach of trust, the word for a vassal's rebellion against his overlord (2 Kings 1:1): here \"rebellions.\" <i>'Avon</i> is crookedness, the guilt that clings to a wrong: \"wrongdoing\" or \"guilt.\" <i>Chatta't</i> is failure, missing the mark (Judges 20:16): \"sin.\" The three verbs of cleansing are just as concrete. \"Wipe out\" (<i>machah</i>) is used of erasing writing from a scroll (Exodus 32:32; Numbers 5:23) or wiping a dish clean (2 Kings 21:13). \"Wash\" (<i>kabbes</i>) is the word for laundering clothes by beating and treading them. \"Make pure\" (<i>tiher</i>) is the priests' word for ritual cleansing (Leviticus 13–14).",
+  "orig": "פְּשָׁעַי ... עֲוֺנִי ... חַטָּאתִי (pesha'ai ... 'avoni ... chatta'ti)",
+  "kind": "nu",
+  "r": "Exodus 34:7; 2 Kings 1:1; Judges 20:16; Exodus 32:32; Numbers 5:23; 2 Kings 21:13; Leviticus 13:6; 32:1–5",
+  "top": "repentance",
+  "s": [
+   "tate-psalms",
+   "alter-psalms"
+  ]
+ },
+ {
+  "v": "51:4",
+  "a": "You, you alone, are the one I sinned against;",
+  "type": "views",
+  "t": "\"Against you alone\": what about Uriah?",
+  "p": "David wronged Bathsheba and killed Uriah. Saying he sinned against God \"alone\" is not denial but depth.",
+  "b": "If the title is taken at its word, David's sin had human victims. Readers have explained \"you alone\" in several ways: (1) all sin is finally against God, who made the law and the people wronged (Genesis 39:9, Joseph: \"how could I do this great evil and sin against God?\"; 2 Samuel 12:9, \"Why have you despised the word of the LORD?\"); (2) only God could judge and forgive a king, since no court in Israel could try him (so Rashi and many Jewish interpreters); (3) the phrase is an intensive, \"you above all\"; (4) God is the judge before whom every other verdict counts for nothing, so that even if the whole world pardoned him, God was the one he had to answer to (Calvin). The words \"so you are in the right\" do not mean that David sinned in order to make God look just; the Hebrew <i>lema'an</i> here marks the result: my confession shows that your verdict is just.",
+  "orig": "לְךָ לְבַדְּךָ חָטָאתִי (lekha levaddekha chatati)",
+  "r": "Genesis 39:9; 2 Samuel 12:9; 2 Samuel 12:13; Romans 3:4",
+  "top": "repentance",
+  "s": [
+   "rashi-psalms",
+   "calvin-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:4",
+  "a": "and clear when you pass judgment.",
+  "type": "echo",
+  "t": "Romans 3:4: \"when you are judged\"",
+  "p": "Paul quotes the Greek, where God is not judging but being judged, and wins the case.",
+  "b": "The Hebrew says God is \"clear,\" pure (<i>tizkeh</i>), \"when you judge\" (<i>beshoftekha</i>). The Greek translates \"that you may be justified in your words and win when you are judged\" (<i>nikēsēs en tō krinesthai se</i>), reading the verb as passive, with God himself on trial. Paul quotes this Greek form in Romans 3:4: \"Let God be true, though every human being is a liar, as it is written, 'So that you may be justified in your words, and win when you go to court.'\" For Paul, human sin and faithlessness only prove God's faithfulness and justice. Both forms make God the one in the right; the Greek turns the courtroom around.",
+  "orig": "תִּזְכֶּה בְשָׁפְטֶךָ (tizkeh veshoftekha); Greek νικήσῃς ἐν τῷ κρίνεσθαί σε",
+  "kind": "var",
+  "r": "Romans 3:3–8; Romans 3:4; 116:11; Job 40:8",
+  "top": "justification",
+  "s": [
+   "moo-romans",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "51:5",
+  "a": "Look, I was born in guilt,",
+  "type": "views",
+  "t": "Born in guilt: original sin?",
+  "p": "The verse is the classic Old Testament text for original sin in the West. Jews and Eastern Christians read it otherwise.",
+  "b": "The Hebrew says: \"in guilt I was writhed out (born in labor), and in sin my mother conceived (warmed) me.\" Readings: (1) inherited sinfulness: from conception every human shares a fallen nature and guilt (Augustine; the Lutheran Formula of Concord, the Westminster Confession 6.3 and other Reformation confessions cite this verse); (2) a deep confession of sinful tendency from the start of life, without a doctrine of inherited guilt (Eastern Orthodox, and many Arminian and modern interpreters); (3) a statement that the speaker was born into a sinful world and family. The verse does not mean that sex or conception is sinful in itself, or that David's mother committed a particular sin; neither idea is in the text. Jewish interpreters read it of the <i>yetzer hara</i>, the evil inclination present from birth (Genesis 8:21), and a midrash (Leviticus Rabbah 14:5) has David say that his parents thought only of their own pleasure, not of him. See \"Where Christians differ\" on the chapter page.",
+  "orig": "הֵן־בְּעָווֹן חוֹלָלְתִּי וּבְחֵטְא יֶחֱמַתְנִי אִמִּי (hen-be'avon cholalti uvchet' yechematni immi)",
+  "kind": "deb",
+  "r": "Genesis 8:21; Job 14:4; 58:3; Romans 5:12; Ephesians 2:3; John 9:2; John 9:34",
+  "top": "the-fall",
+  "s": [
+   "augustine-enarrationes",
+   "westminster",
+   "formula-concord",
+   "leviticus-rabbah"
+  ]
+ },
+ {
+  "v": "51:6",
+  "a": "Look, faithfulness deep inside is what you want;",
+  "type": "word",
+  "t": "\"Inward parts\": an obscure word",
+  "p": "Tuchot occurs only here and in Job 38:36. It may mean the kidneys, the inner self, or something else.",
+  "b": "<i>Tuchot</i> appears elsewhere only in Job 38:36, where it is just as obscure (\"Who put wisdom in the <i>tuchot</i>?\"). It is often linked with <i>tuach</i>, \"to coat, plaster over,\" so \"the covered parts,\" the inner organs. Some connect it with an Egyptian word for the ibis, the bird of the god of wisdom, in the Job verse. \"The hidden place\" (<i>satum</i>) in the second line is parallel. The thought is that God wants truth, faithfulness (<i>emet</i>), not only in outward behavior but in the hidden self, and that he teaches wisdom there.",
+  "orig": "בַטֻּחוֹת (battuchot); בְסָתֻם (vesatum)",
+  "kind": "deb",
+  "r": "Job 38:36; 139:13–16; Jeremiah 31:33",
+  "s": [
+   "tate-psalms",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "51:7",
+  "a": "Take away my sin with hyssop, and I will be pure.",
+  "type": "history",
+  "t": "Hyssop: the priest's sprinkler",
+  "p": "Hyssop was a small bushy plant used to sprinkle blood or water in the rites of cleansing.",
+  "b": "Hyssop (<i>ezov</i>), probably a kind of marjoram, was tied in a bunch and used as a brush. Israel used it to put the Passover blood on the doorframes (Exodus 12:22), and priests used it to sprinkle the cleansing water on a person healed of skin disease (Leviticus 14:4–7) or someone who had touched a dead body (Numbers 19:18). The verb \"take away my sin\" (<i>techatte'eni</i>) is a priestly word, literally \"un-sin me.\" The speaker asks God himself to perform the cleansing rite. Hebrews 9:19 recalls Moses sprinkling with hyssop. In the Catholic sprinkling rite before Sunday Mass, the <i>Asperges me</i>, the priest sprinkles the people with holy water while this verse is sung.",
+  "orig": "תְּחַטְּאֵנִי בְאֵזוֹב (techatte'eni ve'ezov)",
+  "r": "Exodus 12:22; Leviticus 14:4–7; Numbers 19:18; Hebrews 9:19; John 19:29; Isaiah 1:18",
+  "top": "clean-and-unclean",
+  "s": [
+   "milgrom-leviticus1-16",
+   "roman-missal"
+  ],
+  "l": [
+   [
+    "Asperges me",
+    "Asperges me"
+   ]
+  ]
+ },
+ {
+  "v": "51:8",
+  "a": "let the bones you crushed leap for joy.",
+  "type": "symbol",
+  "t": "Crushed bones",
+  "p": "The bones stand for the whole person. Guilt is felt as a body broken, as in 32:3.",
+  "b": "In Hebrew poetry the bones are the frame of the self; they can \"say\" things (35:10) and waste away under guilt: \"my bones were wearing out / with my roaring\" (32:3; compare 38:3). The speaker feels that God has crushed him, perhaps through Nathan's word. He asks that the same bones might dance (<i>gil</i>, to circle, to rejoice), turning the image of judgment into one of healing.",
+  "r": "32:3; 35:10; 38:3; Isaiah 38:13; Lamentations 3:4",
+  "s": [
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "51:10",
+  "a": "Create a pure heart for me, O God,",
+  "type": "word",
+  "t": "\"Create\": only God's work",
+  "p": "Bara is the verb of Genesis 1:1, used in the Bible only with God as its subject. He asks for a new creation.",
+  "b": "<i>Bara'</i>, \"create,\" is the verb of \"In the beginning God created the heavens and the earth\" (Genesis 1:1), and in the Hebrew Bible its subject is always God. The speaker does not ask to have his heart repaired but to have a new one made, something only God can do. The prophets promise the same: a new heart and a new spirit (Ezekiel 36:26; Jeremiah 31:33; 24:7). \"A steady spirit\" (<i>ruach nakhon</i>) is a firm, settled one, unlike the heart that gave way to temptation. Paul's \"new creation\" (2 Corinthians 5:17) belongs to this hope.",
+  "orig": "לֵב טָהוֹר בְּרָא־לִי אֱלֹהִים (lev tahor bera-li elohim)",
+  "kind": "nu",
+  "r": "Genesis 1:1; Ezekiel 36:26; Jeremiah 31:33; Jeremiah 24:7; 2 Corinthians 5:17",
+  "top": "repentance",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:11",
+  "a": "and your holy spirit, do not take it from me.",
+  "type": "views",
+  "t": "\"Your holy spirit\"",
+  "p": "One of only three Old Testament verses with \"holy spirit.\" Is it God's presence, his gift to a king, or the Holy Spirit?",
+  "b": "The phrase <i>ruach qodshekha</i>, \"the spirit of your holiness,\" occurs elsewhere in the Hebrew Bible only in Isaiah 63:10–11, of God's presence with Israel in the wilderness. Readings: (1) the spirit given to the anointed king; read with the title, the speaker fears the fate of Saul, from whom \"the LORD's Spirit had turned away\" (1 Samuel 16:14), after it had come on David (1 Samuel 16:13); (2) God's holy presence with every believer, the inner power to live rightly (parallel with \"your presence\" in the first line); (3) in Christian reading, the Holy Spirit, the third person of the Trinity, whom the believer can grieve (Ephesians 4:30). Jewish tradition reads it as God's presence or the spirit of holiness, not a separate person. The Plain writes \"holy spirit\" in lower case, since the Hebrew has no capitals and the text does not decide the question.",
+  "orig": "וְרוּחַ קָדְשְׁךָ אַל־תִּקַּח מִמֶּנִּי (veruach qodshekha al-tiqqach mimmenni)",
+  "kind": "deb",
+  "r": "Isaiah 63:10–11; 1 Samuel 16:13–14; Ephesians 4:30; 139:7",
+  "top": "holy-spirit",
+  "s": [
+   "tate-psalms",
+   "levison-spirit"
+  ]
+ },
+ {
+  "v": "51:12",
+  "a": "and let a generous spirit hold me up.",
+  "type": "word",
+  "t": "A willing, noble spirit",
+  "p": "Nedivah means willing or generous, the word for a freewill offering. The Greek read \"a leading spirit.\"",
+  "b": "<i>Ruach nedivah</i> is a willing or noble spirit. The same root gives <i>nedavah</i>, the freewill offering given gladly (54:6; Exodus 35:5, 21), and <i>nadiv</i>, a noble or prince (113:8). The speaker asks for a heart that obeys gladly, not under force. The Greek translated <i>pneumati hēgemonikō</i>, \"a guiding (ruling) spirit,\" and the Latin <i>spiritu principali</i>, \"a princely spirit\"; the church fathers took it as the Holy Spirit as leader of the soul. Verses 10–12 thus speak of three spirits: steady, holy and willing.",
+  "orig": "רוּחַ נְדִיבָה (ruach nedivah)",
+  "kind": "nu",
+  "r": "54:6; Exodus 35:5; Exodus 35:21; 113:8; 2 Corinthians 9:7",
+  "s": [
+   "rahlfs-lxx",
+   "augustine-enarrationes"
+  ]
+ },
+ {
+  "v": "51:14",
+  "a": "Save me from the guilt of blood, O God,",
+  "type": "word",
+  "t": "Bloodguilt",
+  "p": "Damim, \"bloods,\" is the guilt of shedding blood. Read with the title, it is Uriah's blood.",
+  "b": "The plural <i>damim</i>, \"bloods,\" means bloodshed and the guilt that comes from it (Exodus 22:2; 2 Samuel 16:7–8, where Shimei calls David \"a man of blood\"). With the title, the meaning is plain: David is guilty of Uriah's death (2 Samuel 12:9). Others read it as a plea to be saved from a violent death, the punishment the law laid on a murderer (Genesis 9:6). The plea ends with a promise: rescued, he will \"shout for joy\" about God's justice (<i>tsedaqah</i>), which here means God's saving faithfulness.",
+  "orig": "הַצִּילֵנִי מִדָּמִים (hatsileni middamim)",
+  "kind": "nu",
+  "r": "2 Samuel 12:9; 2 Samuel 16:7–8; Genesis 9:6; Exodus 22:2; 1 Chronicles 22:8",
+  "top": "justice",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:15",
+  "a": "Lord, open my lips,",
+  "type": "views",
+  "t": "The opening words of daily prayer",
+  "p": "Jews say this verse before the Amidah, the central prayer; Christians open the daily office with it.",
+  "b": "Since Talmudic times Jews have said \"Lord, open my lips, / and my mouth will make your praise known\" before every recital of the Amidah, the standing prayer of eighteen blessings (Bavli Berakhot 4b, 9b). In the Christian Liturgy of the Hours the first prayer of the day opens with the same words (<i>Domine, labia mea aperies</i>), and the Anglican Book of Common Prayer begins Morning Prayer, \"O Lord, open thou our lips.\" The verse fits the psalm: the speaker whose mouth was shut by guilt asks God to open it for praise. \"Lord\" here is <i>Adonai</i>, not YHWH.",
+  "orig": "אֲדֹנָי שְׂפָתַי תִּפְתָּח (adonai sefatai tiftach)",
+  "r": "51:14; 40:3; Isaiah 6:5–7",
+  "top": "prayer",
+  "s": [
+   "bavli-berakhot",
+   "liturgy-hours",
+   "bcp-1662"
+  ]
+ },
+ {
+  "v": "51:16",
+  "a": "You take no pleasure in a sacrifice, or I would bring one.",
+  "type": "views",
+  "t": "No sacrifice for this sin",
+  "p": "The law gave no sacrifice for deliberate adultery or murder. Only a broken heart can be offered.",
+  "b": "The sacrifices of Leviticus covered unintentional sins and certain wrongs (Leviticus 4:2; 5:1–6:7). For sins done \"with a high hand\" (Numbers 15:30–31), and for adultery and murder, which carried the death penalty (Leviticus 20:10; Numbers 35:31), no offering was provided. Read with the title, the speaker can bring nothing but himself. Others read the verse as a general statement, like 40:6 and 50:8–14, that God prefers obedience and a humble heart to ritual (1 Samuel 15:22; Hosea 6:6). Jewish tradition, after the temple's fall, took 51:17 as proof that prayer and repentance can take the place of sacrifice (Bavli Sanhedrin 43b).",
+  "r": "Numbers 15:30–31; Leviticus 20:10; 40:6; 50:8–14; 1 Samuel 15:22; Hosea 6:6",
+  "top": "sacrifice",
+  "s": [
+   "milgrom-leviticus1-16",
+   "bavli-sanhedrin",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "51:17",
+  "a": "A broken spirit: that is the sacrifice for God.",
+  "type": "word",
+  "t": "\"The sacrifices of God\"",
+  "p": "The Hebrew is \"the sacrifices of God are a broken spirit.\" Some read \"my sacrifice, O God.\"",
+  "b": "Literally \"the sacrifices of God (<i>zivche elohim</i>) are a broken spirit.\" This may mean \"the sacrifices God wants,\" or the phrase may be the superlative \"the best sacrifice.\" Some scholars repoint to <i>zivchi, elohim</i>, \"my sacrifice, O God, is a broken spirit.\" A \"broken and crushed heart\" (<i>lev nishbar venidkeh</i>) is the humbled heart God draws near to (34:18; Isaiah 57:15; Isaiah 66:2). The KJV's \"contrite\" comes from the Latin <i>contritus</i>, \"ground down, crushed,\" which is exactly the Hebrew sense.",
+  "orig": "זִבְחֵי אֱלֹהִים רוּחַ נִשְׁבָּרָה (zivche elohim ruach nishbarah)",
+  "kind": "deb",
+  "r": "34:18; Isaiah 57:15; Isaiah 66:2; Luke 18:13–14",
+  "top": "repentance",
+  "s": [
+   "tate-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "51:18",
+  "a": "build the walls of Jerusalem.",
+  "type": "views",
+  "t": "A later ending?",
+  "p": "Jerusalem's walls stood in David's day. Many think 51:18–19 was added during or after the exile.",
+  "b": "The last two verses turn from one sinner to the city, ask God to \"build the walls of Jerusalem,\" and look forward to sacrifices that please God again, which seems to stand in tension with 51:16. In David's time the walls were standing. Many scholars therefore think these lines were added after the walls were destroyed in 586 BC, when the community used David's confession as its own prayer for restoration, before Nehemiah rebuilt the wall (Nehemiah 2:17). Traditional interpreters answer that David could pray for the city's building and fortification (2 Samuel 5:9; 1 Kings 3:1 reports Solomon finishing the walls), and that \"sacrifices offered rightly\" are those brought by a renewed heart, so the ending completes 51:16–17 rather than contradicting it.",
+  "r": "51:16–17; Nehemiah 2:17; 2 Samuel 5:9; 1 Kings 3:1; Isaiah 58:12; 102:13–16",
+  "top": "jerusalem",
+  "s": [
+   "tate-psalms",
+   "kidner-psalms",
+   "hossfeld-zenger-psalms"
+  ]
+ },
+ {
+  "v": "52:0",
+  "a": "when Doeg the Edomite came and told Saul,",
+  "type": "history",
+  "t": "Doeg and the priests of Nob",
+  "p": "Doeg reported David's visit to the priest Ahimelech. Saul then had Doeg kill eighty-five priests.",
+  "b": "1 Samuel 21–22 tells the story. Fleeing Saul, David came to Nob, where the priest Ahimelech gave him holy bread and Goliath's sword. \"One of Saul's servants was there... He was named Doeg, an Edomite, the head of Saul's shepherds\" (1 Samuel 21:7). Doeg told Saul (1 Samuel 22:9–10), and when Saul's own guards refused to kill the priests, Doeg did it: \"On that day he put to death eighty-five men\" and struck down the whole town (1 Samuel 22:18–19). The psalm's \"hero\" who trusts in his wealth and whose tongue is a razor fits Doeg loosely: the betrayal was by words, and he was a rich official. Many scholars think the psalm is a general poem against a powerful liar that the editors linked to this story. The Mishnah names Doeg among four commoners who have no share in the world to come (Mishnah Sanhedrin 10:2).",
+  "r": "1 Samuel 21:1–9; 1 Samuel 21:7; 1 Samuel 22:9–10; 1 Samuel 22:18–22; 120:2–4",
+  "top": "saul",
+  "s": [
+   "mishnah-sanhedrin",
+   "childs-psalm-titles",
+   "tate-psalms"
+  ],
+  "l": [
+   [
+    "Doeg the Edomite",
+    "Doeg the Edomite"
+   ]
+  ]
+ },
+ {
+  "v": "52:1",
+  "a": "Why boast of your evil, you hero?",
+  "type": "word",
+  "t": "\"You hero\": a mocking title",
+  "p": "Gibbor is a warrior or strong man. Here it is sarcasm: the \"mighty man\" whose only weapon is his tongue.",
+  "b": "<i>Haggibbor</i>, \"the mighty one, the hero,\" is the word for David's \"mighty men\" (2 Samuel 23:8). Applied to a man whose deeds are lies, it is irony. The line sets two boasts side by side: he boasts of evil, while \"the loyal love of God\" lasts all day. The Greek read the second line as \"lawlessness all the day,\" taking <i>hesed</i> in its rare second sense \"disgrace\" (as in Leviticus 20:17 and Proverbs 14:34), and making the whole line part of the charge. Some scholars read <i>el chasid</i>, \"against the godly.\" The Plain follows the Hebrew.",
+  "orig": "מַה־תִּתְהַלֵּל בְּרָעָה הַגִּבּוֹר חֶסֶד אֵל כָּל־הַיּוֹם (mah-tithallel bera'ah haggibbor hesed el kol-hayyom)",
+  "kind": "var",
+  "r": "2 Samuel 23:8; Leviticus 20:17; Proverbs 14:34; 52:7",
+  "top": "hesed",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "52:2",
+  "a": "like a sharpened razor, you worker of deceit.",
+  "type": "symbol",
+  "t": "A tongue like a razor",
+  "p": "Lying words cut like a blade. The psalms often compare slander to swords, arrows and razors.",
+  "b": "Slander is pictured as a weapon throughout the Psalms: a sharp sword (57:4; 64:3), arrows (120:4), a razor here. The point is that words kill. Doeg's report cost eighty-five priests their lives. James 3:6–8 develops the same idea: the tongue is a fire, \"an evil that will not rest, full of death-dealing poison.\"",
+  "r": "57:4; 64:3; 55:21; 120:2–4; Proverbs 12:18; James 3:6–8",
+  "s": [
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "52:5",
+  "a": "and tear up your roots from the land of the living.",
+  "type": "symbol",
+  "t": "Pulled down, pulled out, uprooted",
+  "p": "Four violent verbs: torn down like a house, snatched like coals, dragged from the tent, uprooted like a tree.",
+  "b": "God will \"pull down\" (<i>natats</i>, used of demolishing buildings and altars), \"seize\" (<i>chatah</i>, used of snatching coals from a fire, Proverbs 6:27), \"drag out\" (<i>nasach</i>) from the tent, the home, and \"uproot\" (<i>sheresh</i>). The images contrast with 52:8, where the speaker is a leafy olive tree firmly planted in God's house. \"The land of the living\" is this life, as opposed to the grave (27:13; 116:9). The Selah after this line may mark a pause before the righteous respond.",
+  "r": "52:8; 27:13; 116:9; Proverbs 2:22; Job 18:14; Proverbs 6:27",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "52:6",
+  "a": "and they will laugh at him:",
+  "type": "views",
+  "t": "Laughing at the fallen",
+  "p": "The righteous laugh at the downfall of the wicked. Is that a fair response?",
+  "b": "The righteous \"see and fear\" (a pun in Hebrew: <i>yir'u veyira'u</i>), then laugh. The laugh is not cruelty at another's pain but relief at the end of a tyrant, the laughter of the vindicated (2:4; 37:13, where God himself laughs at the wicked). Proverbs 24:17–18 warns against gloating when an enemy falls, and Jesus commands love of enemies (Matthew 5:44). Christian interpreters, such as Augustine, read the laugh as delight in God's justice rather than in a person's ruin. On prayers against enemies, see the topic on the curse psalms.",
+  "r": "2:4; 37:13; 58:10; Proverbs 24:17–18; Job 22:19; Matthew 5:44",
+  "top": "curse-psalms",
+  "s": [
+   "augustine-enarrationes",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "52:7",
+  "a": "and grew strong in his ruinous schemes.",
+  "type": "word",
+  "t": "Strong in his ruin",
+  "p": "The Hebrew says he \"was strong in his destruction.\" The Greek has \"his vanity\"; others read \"his wealth.\"",
+  "b": "<i>Ya'oz behavvato</i> is \"he grew strong in his destruction\" (the ruin he caused others, the word of 52:2, \"ruin\"). The Greek has \"in his vanity\" (<i>en tē mataiotēti autou</i>). The Syriac and Targum are often cited as reading <i>behono</i>, \"in his wealth,\" which matches the line before. The sense in every case is that he relied on his own power and money instead of making God his stronghold (<i>ma'oz</i>), with a play on <i>ya'oz</i>, \"he was strong.\"",
+  "orig": "יָעֹז בְּהַוָּתוֹ (ya'oz behavvato)",
+  "kind": "var",
+  "r": "52:2; 49:6; 62:10; 1 Timothy 6:17",
+  "top": "wealth",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "52:8",
+  "a": "But I am a leafy olive tree in God's house;",
+  "type": "symbol",
+  "t": "An olive tree in the temple court",
+  "p": "The olive lives for centuries and stays green. Trees may really have grown in the temple courts.",
+  "b": "The olive tree is evergreen and can live for hundreds of years; it was a picture of a blessed and lasting life (128:3; Jeremiah 11:16; Hosea 14:6). Trees may have grown in the temple courts (92:13, \"Planted in the LORD's house\"; Zechariah 4 has two olive trees by the lampstand). The contrast with 52:5 is complete: the liar is uprooted from his tent, the trusting one is rooted in God's house. \"Loyal love\" answers 52:1.",
+  "orig": "כְּזַיִת רַעֲנָן (kezayit ra'anan)",
+  "r": "52:1; 52:5; 92:12–13; 128:3; Jeremiah 11:16; Hosea 14:6; Romans 11:17–24",
+  "top": "temple",
+  "s": [
+   "mays-psalms",
+   "king-stager-life"
+  ]
+ },
+ {
+  "v": "53:0",
+  "a": "On mahalath.",
+  "type": "word",
+  "t": "Mahalath",
+  "p": "An unknown musical term, also in the title of Psalm 88. It may mean a sad tune or a kind of flute.",
+  "b": "<i>Al machalat</i> appears only here and in 88:0 (\"on mahalath leannoth\"). Proposals: a tune name; from <i>chalah</i>, \"be sick,\" a mournful melody; from <i>chalil</i>, \"flute\"; or a dance (<i>mecholah</i>). The Greek simply transliterated it (<i>hyper maeleth</i>). The rest of the title, \"a maskil of David,\" differs from Psalm 14's \"Of David,\" one of several small changes between the two copies.",
+  "orig": "עַל־מָחֲלַת ('al-machalat)",
+  "kind": "deb",
+  "r": "88:0; Psalm 14:0",
+  "top": "psalm-titles",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "53:1",
+  "a": "the fool says to himself.",
+  "type": "word",
+  "t": "The fool: not an atheist in the modern sense",
+  "p": "A nabal is morally foolish, a person who lives as if God will never act, not someone with a theory.",
+  "b": "<i>Naval</i> is the fool who acts shamefully, without regard for God or neighbor, like Nabal, whose name means \"fool\" (1 Samuel 25:25: \"As his name is, so is he\"). \"There is no God\" (<i>en elohim</i>) in the ancient world did not usually deny that a god existed. It meant: God is not here, he does not see or care, he will not judge (10:4, 11; 94:7). This is practical atheism, the life lived as if there were no judge. It is the same \"fool\" Jesus describes in Luke 12:20. The psalm says nothing about the intelligence of people who doubt God; its target is moral corruption: \"They have gone rotten... Not one of them does good.\"",
+  "orig": "אָמַר נָבָל בְּלִבּוֹ אֵין אֱלֹהִים ('amar naval belibbo en elohim)",
+  "kind": "com",
+  "r": "1 Samuel 25:25; 10:4; 10:11; 94:7; Jeremiah 5:12; Luke 12:20",
+  "top": "monotheism",
+  "s": [
+   "mays-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "53:1",
+  "a": "They have gone rotten, and their injustice is detestable.",
+  "type": "word",
+  "t": "\"Injustice\" where Psalm 14 has \"deeds\"",
+  "p": "Psalm 14:1 has 'alilah, \"deeds\"; Psalm 53:1 has 'avel, \"injustice,\" and adds \"and.\"",
+  "b": "Psalm 14:1 reads <i>hishchitu hit'ivu 'alilah</i>, \"they are corrupt, they do abhorrent deeds.\" Psalm 53:1 reads <i>hishchitu vehit'ivu 'avel</i>, \"they are corrupt and do abhorrent injustice.\" The words <i>'alilah</i> and <i>'avel</i> look alike in Hebrew letters, and either could come from the other by a scribe's slip or a deliberate sharpening. \"Corrupt\" (<i>shachat</i>) is the verb of Genesis 6:11–12, where \"the earth was corrupt\" before the flood. \"Detestable\" is <i>ta'av</i>, the root of <i>to'evah</i>, rendered \"abhorrent\" elsewhere on this site. The Plain of 53:1–4 and 53:6 matches the site's Psalm 14 wherever the Hebrew is the same. See the chapter page for every difference between the two psalms.",
+  "orig": "הִשְׁחִיתוּ וְהִתְעִיבוּ עָוֶל (hishchitu vehit'ivu 'avel)",
+  "kind": "nu",
+  "r": "Psalm 14:1; Genesis 6:11–12; Deuteronomy 32:5",
+  "s": [
+   "tate-psalms",
+   "hossfeld-zenger-psalms"
+  ]
+ },
+ {
+  "v": "53:2",
+  "a": "From heaven God leans out and looks at the human race,",
+  "type": "echo",
+  "t": "God looks down, as before the flood and Babel",
+  "p": "God looking down on humanity recalls Genesis 6 and 11. Psalm 14:2 has \"the LORD\" here.",
+  "b": "The picture of God looking down from heaven (<i>hishqif</i>) to inspect humans recalls Genesis 6:5–12 (God sees that the earth is corrupt) and Genesis 11:5 (he comes down to see the tower). Here Psalm 14:2 reads \"the LORD,\" and 53:2 \"God.\" \"Any act wisely\" (<i>maskil</i>) uses the same word as the psalm's title: the one who acts wisely is the one who seeks God (<i>doresh et-elohim</i>). Paul strings 53:1–3 (or 14:1–3) with other verses in Romans 3:10–12 to show that \"Jews and Greeks alike are all under the power of sin\" (Romans 3:9).",
+  "r": "Psalm 14:2; Genesis 6:5–12; Genesis 11:5; 33:13–14; Romans 3:9–12",
+  "top": "seeking-god",
+  "s": [
+   "moo-romans"
+  ]
+ },
+ {
+  "v": "53:3",
+  "a": "Every one has slid back; all alike have turned sour.",
+  "type": "word",
+  "t": "Turned like sour milk",
+  "p": "Ne'elachu means \"gone sour, rotten,\" used of spoiled food. Psalm 14:3 has a different verb for \"turned.\"",
+  "b": "Psalm 14:3 reads <i>hakkol sar</i>, \"all have strayed, turned aside\"; Psalm 53:3 reads <i>kullo sag</i>, \"all of it has backed away, slid back\" (the verb <i>sug</i>, as in 44:18, \"our hearts did not slip backward\"). The second verb, <i>ne'elachu</i>, is used in Job 15:16 of a person \"vile and corrupt\" and in Arabic of milk going sour. Romans 3:12 quotes the Greek: \"All have turned away; together they have become useless.\"",
+  "orig": "כֻּלּוֹ סָג יַחְדָּו נֶאֱלָחוּ (kullo sag yachdav ne'elachu)",
+  "kind": "nu",
+  "r": "Psalm 14:3; 44:18; Job 15:16; Romans 3:12",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "53:4",
+  "a": "They devour my people as they would eat bread,",
+  "type": "symbol",
+  "t": "Eating people like bread",
+  "p": "The powerful consume the poor as casually as a meal, as Micah 3:2–3 says of Jerusalem's leaders.",
+  "b": "Those who \"eat\" God's people are not foreign invaders but powerful insiders who exploit the poor as easily and as daily as they eat bread. Micah 3:2–3 accuses Jerusalem's rulers of tearing the skin off the people and eating their flesh; Proverbs 30:14 speaks of those whose teeth are swords \"to devour the poor.\" \"My people\" may be God speaking, or the psalmist speaking for the oppressed. They do not call on God: their practical atheism (53:1) shows in both injustice and prayerlessness.",
+  "r": "Micah 3:2–3; Proverbs 30:14; Jeremiah 10:25; Psalm 14:4; 53:1",
+  "top": "poverty",
+  "s": [
+   "mays-psalms"
+  ]
+ },
+ {
+  "v": "53:5",
+  "a": "There they shook with dread,",
+  "type": "views",
+  "t": "Psalm 53:5 and 14:5–6",
+  "p": "Here the two psalms part ways. Psalm 53 has a battle scene; Psalm 14 speaks of God with the righteous.",
+  "b": "Psalm 14:5–6 reads (literally): \"There they dreaded a dread, for God is with the generation of the righteous. You would shame the plan of the poor, but the LORD is his refuge.\" Psalm 53:5 reads, also literally: \"There they dreaded a dread, where (or such as) there was no dread, for God has scattered the bones of your besieger; you have put them to shame, for God has rejected them.\" Several Hebrew words are similar in shape and sound, so many scholars think one text was rewritten, or misread, from the other. In Psalm 53 the scene has become a military rout: an army camped against Zion is struck and its bones lie unburied, a terrible disgrace (Jeremiah 8:1–2; Ezekiel 6:5). Some link it with Sennacherib's army (2 Kings 19:35). \"There was no dread\" may mean they panicked with no cause, or felt a terror like nothing before.",
+  "r": "Psalm 14:5–6; Jeremiah 8:1–2; Ezekiel 6:5; 2 Kings 19:35; Leviticus 26:17; Proverbs 28:1",
+  "s": [
+   "tate-psalms",
+   "hossfeld-zenger-psalms",
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "53:6",
+  "a": "When God brings his people back from captivity,",
+  "type": "word",
+  "t": "\"Bring back the captivity\" or \"restore fortunes\"",
+  "p": "Shuv shevut can mean bringing back captives or, more broadly, turning a people's fortunes around.",
+  "b": "<i>Shuv shevut</i> is an idiom with a sound play: \"turn the turning.\" It was long read as \"bring back the captivity\" (KJV), which suggests the exile. In Job 42:10 God \"restored the fortunes\" of Job, who was never a captive, so many now render it \"restore the fortunes\" in general. If the exile is meant, the closing verse would be an addition from that period; if not, it is a general prayer for Israel's renewal. The wish formula \"who will give...\" (<i>mi yitten</i>) is the Hebrew way of saying \"if only.\" Psalm 53:6 has \"rescues\" (plural, <i>yeshu'ot</i>) where Psalm 14:7 has the singular, and \"God\" for \"the LORD\"; the Plain gives \"saving help\" for the plural, as in 42:5, and so differs from Psalm 14 here.",
+  "orig": "בְּשׁוּב אֱלֹהִים שְׁבוּת עַמּוֹ (beshuv elohim shevut 'ammo)",
+  "kind": "deb",
+  "r": "Job 42:10; Psalm 14:7; 85:1; 126:1; 126:4; Deuteronomy 30:3; Jeremiah 29:14",
+  "top": "exile",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:0",
+  "a": "when the Ziphites came and said to Saul,",
+  "type": "history",
+  "t": "The Ziphites betray David",
+  "p": "Twice the people of Ziph, a town in Judah, told Saul where David was hiding.",
+  "b": "Ziph was a town in the hill country of Judah, south-east of Hebron. \"Men of Ziph went up to Saul at Gibeah. 'Did you know David is hiding out near us?' they said\" (1 Samuel 23:19). They did so again in 1 Samuel 26:1. The title quotes the question almost exactly. The betrayal was by David's own tribe, which suits the psalm's \"outsiders\" only if the word means people who acted like strangers (see 54:3). The second time, David spared Saul's life in his camp (1 Samuel 26).",
+  "r": "1 Samuel 23:14–29; 1 Samuel 23:19; 1 Samuel 26:1; 1 Samuel 26:1–25",
+  "top": "saul",
+  "l": [
+   [
+    "Ziph",
+    "Tel Zif"
+   ]
+  ],
+  "s": [
+   "childs-psalm-titles",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:1",
+  "a": "By your name, O God, rescue me;",
+  "type": "word",
+  "t": "Saved \"by your name\"",
+  "p": "God's name is God himself as he has made himself known. It is the power the speaker appeals to.",
+  "b": "In Hebrew thought a name is the person as known and called on. \"Your name\" stands parallel with \"your power\" (<i>gevurah</i>). To be saved by God's name is to be saved by God himself, the one who revealed his name to Moses (Exodus 3:13–15) and put it in the temple (1 Kings 8:29). Proverbs 18:10 calls the LORD's name \"a strong tower.\" The psalm ends with thanks to the same name (54:6), which makes a frame around the prayer. \"Win my case\" (<i>din</i>) uses a law-court verb: \"judge in my favor.\"",
+  "r": "54:6; Exodus 3:13–15; 1 Kings 8:29; Proverbs 18:10; 20:1; Acts 4:12",
+  "top": "names-of-god",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:3",
+  "a": "For outsiders have stood up against me,",
+  "type": "word",
+  "t": "Outsiders, or arrogant men?",
+  "p": "Zarim means strangers or outsiders. Psalm 86:14, nearly the same line, has zedim, \"the arrogant.\"",
+  "b": "The Masoretic Text has <i>zarim</i>, \"strangers, outsiders,\" and the Greek agrees (<i>allotrioi</i>). Psalm 86:14 repeats this verse almost word for word but with <i>zedim</i>, \"arrogant men,\" and the Targum and some Hebrew manuscripts are reported to read <i>zedim</i> here too. The two words differ by one letter (<i>r</i> and <i>d</i> look alike in Hebrew script). The Ziphites of the title were fellow Judeans, so \"outsiders\" would mean people who acted like strangers. \"Give God no place before their eyes\" means they do not reckon with God at all (compare 36:1; Romans 3:18).",
+  "orig": "זָרִים (zarim)",
+  "kind": "var",
+  "r": "86:14; 36:1; Romans 3:18",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:4",
+  "a": "the Lord is among those who hold up my life.",
+  "type": "word",
+  "t": "\"Among those who uphold me\"",
+  "p": "The Hebrew \"in those who sustain\" probably means \"the Lord is the one who sustains,\" a common idiom.",
+  "b": "Literally \"the Lord is among those who sustain my life.\" This could imply that God is one helper among others, but Hebrew often uses \"in\" (<i>be-</i>) to mean \"as, in the role of\" (grammarians call it the <i>beth</i> of essence), as in Exodus 18:4, where \"The God of my father came to help me\" is literally \"the God of my father was in my help.\" So most read: \"the Lord is the upholder of my life.\" The Plain keeps the literal form. Note \"the Lord\" here is <i>Adonai</i>, not YHWH.",
+  "orig": "אֲדֹנָי בְּסֹמְכֵי נַפְשִׁי (adonai besomkhe nafshi)",
+  "kind": "deb",
+  "r": "Exodus 18:4; 118:7; 37:24",
+  "s": [
+   "delitzsch-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:5",
+  "a": "He will turn the evil back on those who spy on me.",
+  "type": "word",
+  "t": "Written \"let it return\", read \"he will return\"",
+  "p": "The written text (Ketiv) has \"the evil will return\"; the reading tradition (Qere) has \"he will return the evil.\"",
+  "b": "The consonants (Ketiv) read <i>yashuv hara'</i>, \"the evil will turn back (on them)\": evil boomerangs on its makers, as in 7:15–16. The reading tradition (Qere) is <i>yashiv</i>, \"he will turn back the evil,\" making God the one who acts. The Greek has \"he will turn back\" (<i>apostrepsei</i>). The Plain follows the Qere with the Greek. \"Those who spy on me\" (<i>shorerai</i>) are those who watch for a chance to attack (also 5:8; 27:11). \"Put an end to them\" (<i>hatsmitem</i>) means destroy, not merely silence.",
+  "orig": "יָשִׁיב (Qere yashiv) / ישוב (Ketiv yashuv)",
+  "kind": "var",
+  "r": "7:15–16; 5:8; 27:11; 59:10; 92:11",
+  "top": "ketiv-qere",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "54:6",
+  "a": "I will offer you a sacrifice of my own free will;",
+  "type": "word",
+  "t": "The freewill offering",
+  "p": "A nedavah was an offering given out of gratitude, not because the law required it.",
+  "b": "<i>Nedavah</i> is the freewill offering, a peace offering brought willingly (Leviticus 7:16; 22:18–23; Numbers 15:3). The speaker vows to bring one when God rescues him. This is the first time the name YHWH appears in the psalm: \"I will thank your name, LORD.\" In the Elohistic Psalter such a lone use of the name stands out (compare 42:8 and 55:16).",
+  "orig": "בִּנְדָבָה (binedavah)",
+  "kind": "nu",
+  "r": "Leviticus 7:16; Leviticus 22:18–23; Numbers 15:3; 51:12; 42:8; 55:16",
+  "top": "sacrifice",
+  "s": [
+   "milgrom-leviticus1-16"
+  ]
+ },
+ {
+  "v": "54:7",
+  "a": "and my eye has gazed on my enemies.",
+  "type": "word",
+  "t": "Looking on the enemy",
+  "p": "The Hebrew says only that his eye \"has looked on\" his enemies. \"In triumph\" or \"its desire\" is added in English.",
+  "b": "The idiom <i>ra'ah be-</i>, \"look on,\" often carries the sense of seeing an enemy's downfall with satisfaction (59:10; 92:11; 112:8; 118:7), and many versions add \"in triumph\" or, like the KJV, \"his desire.\" The Hebrew itself is short: \"my eye has looked on my enemies.\" The past tense may be the prophetic perfect, speaking of a rescue that is certain, or a thanksgiving added after the rescue came.",
+  "orig": "וּבְאֹיְבַי רָאֲתָה עֵינִי (uve'oyevai ra'atah 'eni)",
+  "kind": "mis",
+  "r": "59:10; 92:11; 112:8; 118:7; 22:17",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:0",
+  "a": "A maskil of David.",
+  "type": "views",
+  "t": "A psalm of betrayal",
+  "p": "The title names no event. Tradition linked the false friend with Ahithophel, and the church with Judas.",
+  "b": "Psalm 55 is a lament over a city full of violence and a close friend turned enemy (55:12–14, 20–21). The title names no occasion. Jewish and Christian interpreters have often connected it with Absalom's revolt, when David's trusted counselor Ahithophel joined the plot (2 Samuel 15:12, 31) and later hanged himself (2 Samuel 17:23). The Talmud notes that Doeg and Ahithophel both died young, fulfilling 55:23 (Bavli Sanhedrin 106b). Christian writers from Augustine on heard in the friend's betrayal the voice of Christ betrayed by Judas (compare John 13:18, which quotes Psalm 41:9). Many scholars think instead of an unnamed leader in a troubled Jerusalem, perhaps late in the monarchy.",
+  "r": "2 Samuel 15:12; 2 Samuel 15:31; 2 Samuel 17:23; 41:9; John 13:18; Matthew 26:47–50",
+  "top": "ahithophel",
+  "s": [
+   "bavli-sanhedrin",
+   "augustine-enarrationes",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:2",
+  "a": "I wander restless in my complaint, and I groan",
+  "type": "word",
+  "t": "Restless in my complaint",
+  "p": "Arid is a rare verb meaning to roam or be restless. Siach, \"complaint,\" is anxious, spoken-out thought.",
+  "b": "<i>Arid</i> comes from <i>rud</i>, \"to roam, wander restlessly\" (Jeremiah 2:31; Genesis 27:40). The speaker cannot settle. <i>Siach</i> means musing, talking to oneself, pouring out a complaint (102:0; 142:2; Hannah's word in 1 Samuel 1:16). \"Groan\" (<i>hum</i>, or <i>hamah</i>) is a low moaning sound, like the groaning in 42:5. The verbs of 55:2–5 pile up the body's response to fear: restless, groaning, writhing, trembling, shuddering.",
+  "orig": "אָרִיד בְּשִׂיחִי (arid besichi)",
+  "kind": "nu",
+  "r": "Jeremiah 2:31; 142:2; 1 Samuel 1:16; 42:5; 102:0",
+  "s": [
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:6",
+  "a": "And I said, \"Who will give me wings like a dove's?",
+  "type": "views",
+  "t": "\"O for the wings of a dove\"",
+  "p": "The wish to escape is one of the most quoted lines in the Psalter, and a well-loved song by Mendelssohn.",
+  "b": "\"Who will give me\" (<i>mi yitten li</i>) is the Hebrew \"if only.\" The rock dove nests in the cliffs and ravines of the wilderness (Jeremiah 48:28; Song of Songs 2:14), far from the city's violence (55:9–11). The speaker longs not to fight but to flee, and the poem admits that longing honestly before it turns to trust (55:16, 22). Felix Mendelssohn's anthem \"Hear my prayer\" (1844), with its solo \"O for the wings of a dove,\" is a setting of a paraphrase of 55:1–7. Jeremiah 9:2 voices the same wish for a lodging in the wilderness.",
+  "r": "Jeremiah 48:28; Jeremiah 9:2; Song of Songs 2:14; 11:1; 55:9–11; 55:16; 55:22",
+  "top": "lament",
+  "s": [
+   "tate-psalms"
+  ],
+  "l": [
+   [
+    "Hear My Prayer (Mendelssohn)",
+    "Hear My Prayer (Mendelssohn)"
+   ]
+  ]
+ },
+ {
+  "v": "55:9",
+  "a": "Confuse them, Lord, split their speech,",
+  "type": "echo",
+  "t": "Like Babel",
+  "p": "\"Split their tongue\" recalls the tower of Babel, where God mixed up language and stopped a city's plans.",
+  "b": "<i>Ballaʿ</i> is \"swallow\" or \"confuse,\" and <i>pallag leshonam</i> is \"divide their tongue.\" The pairing recalls Genesis 11:7, \"let us go down and mix up their language there,\" and the name Peleg, in whose days the earth \"was split up\" (Genesis 10:25, from the same root <i>palag</i>). The city of violence is to suffer Babel's fate: its leaders no longer able to agree on their plots. The Greek has \"drown, Lord, and divide their tongues\" (<i>katapontison</i>).",
+  "orig": "בַּלַּע אֲדֹנָי פַּלַּג לְשׁוֹנָם (balla' adonai pallag leshonam)",
+  "r": "Genesis 11:7; Genesis 10:25; Acts 2:4–11",
+  "top": "tower-of-babel",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:10",
+  "a": "They make their rounds of it on its walls by day and night,",
+  "type": "symbol",
+  "t": "Evil on patrol",
+  "p": "Violence and strife are pictured as sentries walking the city walls, the job of the city's guards.",
+  "b": "Normally watchmen walk the walls to protect a city (127:1; Song of Songs 5:7; Isaiah 62:6). Here \"violence and strife\" (55:9) are the ones making the rounds, and inside the city \"evil and misery,\" \"destruction,\" \"harm and deceit\" have settled in the public square, the open place by the gate where courts met and business was done (Ruth 4:1). The city meant to be a refuge (48:3) has become the danger. Jeremiah 6:6–7 and Ezekiel 22 bring the same charges against Jerusalem.",
+  "r": "127:1; Isaiah 62:6; Ruth 4:1; 48:3; 48:12–13; Jeremiah 6:6–7; Ezekiel 22:1–12",
+  "top": "jerusalem",
+  "s": [
+   "kraus-psalms"
+  ]
+ },
+ {
+  "v": "55:13",
+  "a": "But it was you, a man of my own rank,",
+  "type": "views",
+  "t": "The friend who betrayed",
+  "p": "The poem suddenly speaks to the traitor: an equal, a close friend who worshiped beside him.",
+  "b": "<i>Enosh ke'erki</i>, \"a man of my value,\" is a man of equal rank. <i>Alluf</i> is a close friend or companion (Proverbs 16:28: \"a gossip splits up the closest of friends\"), and <i>meyudda'</i>, \"one known,\" an intimate. They \"made sweet\" their secret talks (<i>sod</i>, private counsel) and walked to the temple together in the festival crowd (<i>regesh</i>). That is why the betrayal hurts more than an enemy's attack. Jesus' word to Judas, \"Friend, do what you came for\" (Matthew 26:50), and the Gospel's \"one who ate my bread\" (John 13:18, from Psalm 41:9) recall the same grief.",
+  "orig": "אֱנוֹשׁ כְּעֶרְכִּי אַלּוּפִי וּמְיֻדָּעִי (enosh ke'erki allufi umeyudda'i)",
+  "r": "41:9; 55:20–21; Proverbs 16:28; Jeremiah 9:4; Matthew 26:50; John 13:18",
+  "top": "ahithophel",
+  "s": [
+   "augustine-enarrationes",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:15",
+  "a": "Let death come on them by surprise;",
+  "type": "word",
+  "t": "Written \"desolation\", read \"let death deceive\"",
+  "p": "The written text has yeshimavet, \"desolation\"; the reading tradition splits it: \"let death come by surprise.\"",
+  "b": "The consonants (Ketiv) read as one word, <i>yeshimavet</i>, \"desolation\" (compare the place Beth-jeshimoth, Numbers 33:49): \"Desolation on them!\" The reading tradition (Qere) divides it into two words, <i>yashshi mavet</i>, \"let death deceive (catch by surprise)\" them. The Greek has \"let death come on them.\" The Plain follows the Qere. \"Let them go down to Sheol alive\" recalls Korah and his men, who \"went down alive to Sheol\" (Numbers 16:33), which is striking in a book where Korah's sons are singers (42:0).",
+  "orig": "יַשִּׁי מָוֶת (Qere yashshi mavet) / ישימות (Ketiv yeshimavet)",
+  "kind": "var",
+  "r": "Numbers 16:33; Numbers 33:49; Proverbs 1:12; 42:0",
+  "top": "ketiv-qere",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:15",
+  "a": "let them go down to Sheol alive,",
+  "type": "views",
+  "t": "Praying for an enemy's death",
+  "p": "The speaker asks God to kill his betrayers. How have Jews and Christians prayed such words?",
+  "b": "The plea that the traitors die and go down to Sheol is one of the Psalter's curses, though briefer than Psalms 35, 69, 109 and 137. Readers have handled it in several ways: as an honest cry of the wronged that hands vengeance over to God instead of taking it (Romans 12:19; Deuteronomy 32:35); as a prayer against evil itself, which the church can pray against sin and the devil (Augustine, Cassiodorus); or as words that Christians, after Jesus' command to love enemies, should pray only with care or not at all (Matthew 5:44; Luke 23:34). The Roman Liturgy of the Hours (1971) leaves the harshest curse verses out of a number of psalms (General Instruction 131). See the topic on the curse psalms.",
+  "r": "Romans 12:19; Deuteronomy 32:35; Matthew 5:44; Luke 23:34; 55:23",
+  "top": "curse-psalms",
+  "s": [
+   "liturgy-hours",
+   "cassiodorus-psalms",
+   "augustine-enarrationes"
+  ]
+ },
+ {
+  "v": "55:17",
+  "a": "At evening, at morning, at midday",
+  "type": "history",
+  "t": "Three times a day",
+  "p": "The rabbis read this verse, with Daniel's practice, as a source for Judaism's three daily prayers.",
+  "b": "The order \"evening, morning, midday\" follows the Hebrew day, which begins at sunset. Daniel prays three times a day facing Jerusalem (Daniel 6:10). The Talmud connects the three daily prayers of Judaism (evening Arvit, morning Shacharit, afternoon Minchah) with the patriarchs and with the temple's daily offerings (Bavli Berakhot 26b), and cites this verse and Daniel for praying three times a day (Bavli Berakhot 31a). The early church kept set hours of prayer too (Acts 3:1; 10:9; Didache 8:3, \"pray this way three times a day\"), which grew into the daily office.",
+  "r": "Daniel 6:10; Acts 3:1; Acts 10:9; Didache 8:3; 119:164",
+  "top": "prayer",
+  "s": [
+   "bavli-berakhot",
+   "didache"
+  ]
+ },
+ {
+  "v": "55:18",
+  "a": "though many stood against me.",
+  "type": "word",
+  "t": "\"Many were with me\"",
+  "p": "The Hebrew \"many were with me\" probably means \"against me\" here. Some read it of angels on his side.",
+  "b": "<i>Ki verabbim hayu 'immadi</i> is literally \"for in (as) many they were with me.\" In context of a battle, \"with\" means \"against\" (as in English \"fight with\"), so most read: many fought against me. Some older interpreters read it as \"many were on my side,\" either human allies or God's unseen army, as when Elisha says, \"There are more with us than with them\" (2 Kings 6:16). The Greek has \"for among many they were with me.\" The verse as a whole is in the past: God \"has bought back\" the speaker's life, perhaps an answer already received.",
+  "orig": "כִּי־בְרַבִּים הָיוּ עִמָּדִי (ki-verabbim hayu 'immadi)",
+  "kind": "deb",
+  "r": "2 Kings 6:16; 3:6; 27:3",
+  "s": [
+   "delitzsch-psalms",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:19",
+  "a": "For them there is no change of heart,",
+  "type": "word",
+  "t": "\"No changes\"",
+  "p": "Chalifot means changes. It may mean they never reform, or never suffer reversal, or keep no agreements.",
+  "b": "<i>Asher en chalifot lamo</i>, \"for whom there are no changes.\" Readings: (1) they never change their ways, they do not repent; (2) life has never turned against them, so they feel no need of God (compare Jeremiah 48:11, Moab \"settled on its dregs,\" never poured from jar to jar); (3) from a related word for an exchange or oath, they keep no agreements, which fits 55:20. \"Humble them\" in the first line reads <i>ya'anem</i> as \"answer them\" in the sense \"afflict, humble\" (the Greek <i>tapeinōsei</i>). The Hebrew of 55:18–21 is difficult throughout.",
+  "orig": "אֲשֶׁר אֵין חֲלִיפוֹת לָמוֹ ('asher en chalifot lamo)",
+  "kind": "deb",
+  "r": "Jeremiah 48:11; Job 14:14; 55:20",
+  "s": [
+   "tate-psalms",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "55:21",
+  "a": "The butter-talk of his mouth was smooth,",
+  "type": "word",
+  "t": "Smooth as butter",
+  "p": "The Hebrew is literally \"smooth were the butters of his mouth\": flattering words that hide a sword.",
+  "b": "<i>Machma'ot</i>, from <i>chem'ah</i>, \"butter, curds,\" gives the image of creamy, soft words. Many scholars divide the letters differently to read <i>mechem'ah panav</i>, \"his face was smoother than butter,\" and the Greek read something like \"they were divided by the anger of his face,\" from <i>chemah</i>, \"anger.\" The contrast is clear in every reading: smooth outside, war inside. Proverbs 5:3–4 uses the same pair, oil and sword, of flattering speech, and Proverbs 26:24–26 warns of the enemy who disguises himself with his lips.",
+  "orig": "חָלְקוּ מַחְמָאֹת פִּיו (chalequ machma'ot piv)",
+  "kind": "deb",
+  "r": "Proverbs 5:3–4; Proverbs 26:24–26; 28:3; 12:2; 62:4",
+  "s": [
+   "rahlfs-lxx",
+   "tate-psalms"
+  ]
+ },
+ {
+  "v": "55:22",
+  "a": "Throw your load on the LORD,",
+  "type": "echo",
+  "t": "1 Peter 5:7: cast your care on him",
+  "p": "Yehav, \"what is given you to carry,\" is a rare word. The Greek \"care, worry\" is behind 1 Peter 5:7.",
+  "b": "<i>Yehavkha</i> occurs only here. It is usually derived from <i>yahav</i>, \"to give,\" so \"what has been given to you, your lot, your burden.\" The Talmud reports that an Arab merchant used the word to mean \"your load\" (Bavli Rosh Hashanah 26b). The Greek translated it as \"your care, anxiety\" (<i>tēn merimnan sou</i>), and 1 Peter 5:7 echoes the Greek: \"throwing all your anxiety on him, because he cares for you.\" The promise \"he will provide for you\" (<i>yekhalkelekha</i>) uses the verb for supplying food, as Joseph fed his family (Genesis 45:11). The speaker here turns to teach others what he has learned.",
+  "orig": "הַשְׁלֵךְ עַל־יְהוָה יְהָבְךָ (hashlekh 'al-YHWH yehavkha)",
+  "kind": "nu",
+  "r": "1 Peter 5:7; Genesis 45:11; 37:5; Matthew 6:25–34; Philippians 4:6",
+  "s": [
+   "rahlfs-lxx",
+   "bavli-rosh-hashanah"
+  ]
+ },
+ {
+  "v": "55:23",
+  "a": "will not reach half their days.",
+  "type": "history",
+  "t": "Half their days",
+  "p": "The Talmud says Doeg died at 34 and Ahithophel at 33, not reaching half of seventy years.",
+  "b": "A full life was seventy or eighty years (90:10). \"Men of blood and deceit\" will die before reaching half of it. The rabbis applied the verse to the two traitors of David's life: Doeg (Psalm 52) and Ahithophel (traditionally Psalm 55) did not live half their days (Bavli Sanhedrin 106b). \"The well of the Pit\" doubles two words for the grave. The psalm ends, after all its turmoil, on three words in Hebrew: \"and I, I trust in you.\"",
+  "r": "90:10; Proverbs 10:27; 52:0; 2 Samuel 17:23; 56:3–4",
+  "top": "ahithophel",
+  "s": [
+   "bavli-sanhedrin"
+  ]
+ }
+]

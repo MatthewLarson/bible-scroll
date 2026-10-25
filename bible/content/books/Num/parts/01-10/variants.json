@@ -1,0 +1,299 @@
+[
+ {
+  "v": "2:14",
+  "a": "Eliasaph son of Deuel",
+  "t": "Deuel or Reuel?",
+  "p": "The Leningrad Codex reads \"Reuel\" here, but \"Deuel\" in the three other places Eliasaph's father is named.",
+  "readings": [
+   {
+    "w": "Many medieval Hebrew manuscripts; Samaritan Pentateuch; Latin Vulgate; matches 1:14, 7:42, 7:47 and 10:20 in all Hebrew witnesses",
+    "orig": "דְּעוּאֵל",
+    "en": "Deuel",
+    "plain": "Eliasaph son of Deuel"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex), followed by the KJV; the Septuagint has Ragouēl (Reuel) here and in the other places as well",
+    "orig": "רְעוּאֵל",
+    "en": "Reuel",
+    "plain": "Eliasaph son of Reuel"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew script the letters d (ד) and r (ר) look almost the same and are often confused. Every other mention of this man's father in the Hebrew says Deuel, so most modern translations read Deuel here too. The Septuagint reads Reuel everywhere, which shows the confusion is old.",
+  "b": "The KJV keeps \"Reuel\" in 2:14 and \"Deuel\" elsewhere. Reuel is also a name of Moses' father-in-law (Exodus 2:18; Numbers 10:29), which may have influenced the copying.",
+  "s": [
+   "tov-tchb",
+   "wevers-numbers"
+  ]
+ },
+ {
+  "v": "3:28",
+  "a": "8,600",
+  "t": "8,600 or 8,300 Kohathites?",
+  "p": "With 8,600 the three clans add up to 22,300, not the 22,000 of 3:39. Some Greek copies read 8,300.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; most Septuagint manuscripts; KJV and most English versions",
+    "orig": "שְׁמֹנַת אֲלָפִים וְשֵׁשׁ מֵאוֹת",
+    "en": "eight thousand and six hundred",
+    "plain": "8,600"
+   },
+   {
+    "w": "Some manuscripts of the Septuagint; preferred by some modern commentators",
+    "orig": "ὀκτακισχίλιοι τριακόσιοι",
+    "en": "eight thousand three hundred",
+    "plain": "8,300"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew, which nearly all witnesses support. The reading 8,300 makes the sum exact (7,500 + 8,300 + 6,200 = 22,000) and may preserve the original: in Hebrew, \"three\" (shlsh) and \"six\" (shsh) differ by one letter, l (ל). But it may also be a scribe's correction of the sum. The Talmud (Bekhorot 5a) explains the difference instead: 300 Levites were firstborn themselves and could not redeem anyone.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers",
+   "bavli-bekhorot"
+  ]
+ },
+ {
+  "v": "3:39",
+  "a": "whom Moses and Aaron enrolled",
+  "t": "\"And Aaron\": dotted and missing",
+  "p": "The Hebrew marks \"and Aaron\" with dots; the Samaritan Pentateuch and the Syriac leave it out.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), with extraordinary points over every letter; Septuagint; Vulgate; KJV",
+    "orig": "מֹשֶׁה וְׄאַׄהֲׄרֹׄןׄ",
+    "en": "Moses and Aaron",
+    "plain": "whom Moses and Aaron enrolled"
+   },
+   {
+    "w": "Samaritan Pentateuch; Syriac Peshitta (as reported in the apparatus of BHS)",
+    "orig": "מֹשֶׁה",
+    "en": "Moses",
+    "plain": "whom Moses enrolled"
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in the Hebrew text and the Greek, so the Plain English keeps them. But the dots, which the scribes placed over the word, show that ancient copyists doubted it, and the shorter text fits 3:16 and 3:42, where Moses alone counts. Many scholars think \"and Aaron\" was added from 4:37 and 4:41 and that the dots mark it as questionable.",
+  "b": "On the extraordinary points, see the note on this verse.",
+  "s": [
+   "tov-tchb",
+   "avot-drn",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "from thirty years old and up",
+  "t": "Thirty or twenty-five?",
+  "p": "The Septuagint reads \"twenty-five\" in 4:3 and throughout chapter 4, to agree with 8:24.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; Vulgate; KJV and modern versions",
+    "orig": "מִבֶּן שְׁלֹשִׁים שָׁנָה",
+    "en": "from a son of thirty years",
+    "plain": "from thirty years old and up"
+   },
+   {
+    "w": "Septuagint (also at 4:23, 30, 35, 39, 43 and 47)",
+    "orig": "ἀπὸ εἰκοσιπέντε ἐτῶν",
+    "en": "from twenty-five years",
+    "plain": "from twenty-five years old and up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew reading is the harder one, since it disagrees with 8:24. The Greek translators, or the Hebrew text they used, appear to have brought chapter 4 into line with 8:24. The rabbis kept both numbers and explained them as five years of training before service (see the note on 4:3).",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "They will spread over it a covering of fine leather and put in its poles.",
+  "t": "A covering for the basin",
+  "p": "The Septuagint and the Samaritan Pentateuch add a sentence: the basin and its stand are covered too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Vulgate; KJV and most modern versions",
+    "orig": "וּפָרְשׂוּ עָלָיו כְּסוּי עוֹר תַּחַשׁ וְשָׂמוּ בַדָּיו",
+    "en": "and they shall spread over it a covering of tachash skin and put in its poles",
+    "plain": "They will spread over it a covering of fine leather and put in its poles."
+   },
+   {
+    "w": "Septuagint; Samaritan Pentateuch",
+    "orig": "τὸν λουτῆρα καὶ τὴν βάσιν αὐτοῦ",
+    "en": "(adds) and they shall take a purple cloth and cover the basin and its stand, and put them into a covering of leather and set them on carrying poles",
+    "plain": "They will spread over it a covering of fine leather and put in its poles. Then they will take a purple cloth and cover the basin and its stand, put them in a covering of fine leather and set them on a carrying frame."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text fills an obvious gap, since the bronze basin (Exodus 30:17–21) is the only major furnishing not mentioned, and that is exactly the kind of gap scribes liked to fill. The shorter Hebrew is more likely to be original. Some commentators suggest the basin was simply carried uncovered.",
+  "b": "The Samaritan and Greek additions are given here in summary. Their wording differs slightly between the two witnesses.",
+  "s": [
+   "wevers-numbers",
+   "tal-samaritan"
+  ]
+ },
+ {
+  "v": "10:6",
+  "a": "A battle blast is to be blown for them to set out.",
+  "t": "Signals for all four camps",
+  "p": "The Hebrew gives signals only for the east and south camps. The Septuagint adds the west and north.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; Vulgate; KJV and modern versions",
+    "orig": "תְּרוּעָה יִתְקְעוּ לְמַסְעֵיהֶם",
+    "en": "an alarm they shall blow for their journeys",
+    "plain": "A battle blast is to be blown for them to set out."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "σημασίαν τρίτην ... σημασίαν τετάρτην",
+    "en": "(adds) and you shall blow a third signal, and the camps on the west shall set out; and you shall blow a fourth signal, and the camps on the north shall set out",
+    "plain": "When you blow a third battle blast, the camps on the west will set out. When you blow a fourth battle blast, the camps on the north will set out. A battle blast is to be blown for them to set out."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek completes the pattern of the four camps (2:3–31). The Hebrew probably gave two examples and let the closing sentence (\"A battle blast is to be blown for them to set out\") cover the rest. A translator or scribe filling out the list is more likely than one dropping it.",
+  "s": [
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "I am the LORD your God.\"",
+  "t": "The Samaritan addition from Deuteronomy",
+  "p": "After 10:10 the Samaritan Pentateuch inserts God's command to leave Horeb, taken from Deuteronomy 1:6–8.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint; Vulgate; all English versions",
+    "orig": "אֲנִי יְהוָה אֱלֹהֵיכֶם",
+    "en": "I am the LORD your God",
+    "plain": "I am the LORD your God.\""
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "(adds Deuteronomy 1:6–8, recast as God's own speech)",
+    "en": "(adds the words of Deuteronomy 1:6–8, as spoken by God)",
+    "plain": "I am the LORD your God.\" [Here the Samaritan text adds the command quoted in Deuteronomy 1:6–8:] \"You have stayed long enough at this mountain. Turn and set out, and go to the hill country of the Amorites and all their neighbors, in the Arabah, the hill country, the lowland, the Negev and the seacoast, the land of the Canaanites, and Lebanon, as far as the great river, the Euphrates. See, I have set the land before you. Go in and take the land that the LORD swore to your fathers, to Abraham, to Isaac and to Jacob, to give to them and to their descendants after them.\""
+   }
+  ],
+  "follow": 0,
+  "why": "In Deuteronomy 1:6 Moses says, \"The LORD our God spoke to us at Horeb,\" quoting a command that Numbers never records. The Samaritan scribes, and the tradition before them seen in some Qumran scrolls, filled such gaps by copying Deuteronomy's quotations into Numbers at the point where they would have been spoken. It is one of about a dozen large additions of this kind in Samaritan Numbers. Scholars agree they are secondary, a harmonizing edition, and not the original text.",
+  "b": "The Samaritan text recasts Deuteronomy 1:6–8 as God's own words to Moses, introduced as narrative, so its wording is not identical to Deuteronomy's. The exact Samaritan text was not checked for this site; see Tal's edition. The other large additions in Numbers come at 12:16, 13:33, 14:40, 14:45, 20:13, 21:11–12, 21:20 and 31:20; one of them, at 27:23, survives in the Dead Sea scroll 4QNum-b.",
+  "s": [
+   "tov-tchb",
+   "tal-samaritan",
+   "jastram-4qnumb"
+  ]
+ },
+ {
+  "v": "10:34",
+  "a": "By day the LORD's cloud stayed above them whenever they moved on from the camp.",
+  "t": "Before or after the song of the ark?",
+  "p": "The Septuagint puts this verse after 10:35–36. This goes with the entry on 10:36.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), followed by an inverted nun; Samaritan Pentateuch; Vulgate; English versions",
+    "orig": "וַעֲנַן יְהוָה עֲלֵיהֶם יוֹמָם בְּנָסְעָם מִן־הַמַּחֲנֶה ׆",
+    "en": "and the cloud of the LORD was over them by day when they set out from the camp",
+    "plain": "By day the LORD's cloud stayed above them whenever they moved on from the camp."
+   },
+   {
+    "w": "Septuagint (this verse comes after 10:36)",
+    "orig": "(placed after 10:36)",
+    "en": "(moved)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek order puts the two poems of the ark directly after the ark's three-day journey (10:33) and ends with the cloud, which reads smoothly. The Hebrew marks 10:35–36 with inverted nuns, which the Talmud says shows the verses are out of place or a book by themselves (see the note on 10:35). The Greek order may be an attempt to solve the same problem. The Plain English keeps the Hebrew order.",
+  "s": [
+   "tov-tchb",
+   "wevers-numbers",
+   "bavli-shabbat"
+  ]
+ },
+ {
+  "v": "10:36",
+  "a": "to the tens of thousands of Israel's clans.\"",
+  "t": "The cloud verse after the song",
+  "p": "In the Septuagint, 10:34 follows here. This goes with the entry on 10:34.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; English versions",
+    "orig": "רִבְבוֹת אַלְפֵי יִשְׂרָאֵל ׆",
+    "en": "the ten thousands of the thousands of Israel",
+    "plain": "to the tens of thousands of Israel's clans.\""
+   },
+   {
+    "w": "Septuagint (10:34 placed here)",
+    "orig": "(10:34 placed here)",
+    "en": "... and the cloud was overshadowing them by day",
+    "plain": "to the tens of thousands of Israel's clans.\" By day the LORD's cloud stayed above them whenever they moved on from the camp."
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry on 10:34. The two entries describe one change of order.",
+  "s": [
+   "wevers-numbers",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:27",
+  "a": "So they will put my name on the Israelites, and I myself will bless them.",
+  "t": "Before or after the blessing?",
+  "p": "The Septuagint places this verse right after 6:23, before the words of the blessing.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; Vulgate; English versions",
+    "orig": "וְשָׂמוּ אֶת־שְׁמִי עַל־בְּנֵי יִשְׂרָאֵל וַאֲנִי אֲבָרְכֵם",
+    "en": "and they shall put my name on the sons of Israel, and I will bless them (after the blessing)",
+    "plain": "So they will put my name on the Israelites, and I myself will bless them."
+   },
+   {
+    "w": "Septuagint (as printed in Rahlfs' edition, where this sentence follows 6:23)",
+    "orig": "καὶ ἐπιθήσουσιν τὸ ὄνομά μου ἐπὶ τοὺς υἱοὺς Ισραηλ καὶ ἐγὼ κύριος εὐλογήσω αὐτούς",
+    "en": "and they shall put my name on the sons of Israel, and I the Lord will bless them (before the blessing)",
+    "plain": "This is the way you are to bless the Israelites. Say to them: So they will put my name on the Israelites, and I the LORD will bless them. 'May the LORD bless you and keep you...'"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew order the verse explains the blessing after it is given: speaking the name three times puts the name on Israel. In the Greek order it introduces the blessing, which reads smoothly after \"Say to them.\" Either order could be a scribe's improvement, and the meaning hardly changes. The Greek also adds \"the Lord\" to \"I.\" The Plain English keeps the Hebrew order, which nearly all other witnesses share.",
+  "b": "The two silver amulets from Ketef Hinnom are also witnesses to the blessing itself. Both give a shorter form than Numbers 6:24–26; KH2, for example, lacks \"and be gracious to you\" and the first half of the third line. See the chapter page.",
+  "s": [
+   "wevers-numbers",
+   "barkay-ketef",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "9:16",
+  "a": "The cloud covered it, and at night it looked like fire.",
+  "t": "\"By day\" added",
+  "p": "The Septuagint and other early translations add \"by day,\" to pair with \"at night.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch",
+    "orig": "הֶעָנָן יְכַסֶּנּוּ וּמַרְאֵה־אֵשׁ לָיְלָה",
+    "en": "the cloud covered it, and the look of fire by night",
+    "plain": "The cloud covered it, and at night it looked like fire."
+   },
+   {
+    "w": "Septuagint; Syriac Peshitta; Latin Vulgate; Targum; followed by the KJV, ESV and NIV",
+    "orig": "ἡ νεφέλη ἐκάλυπτεν αὐτὴν ἡμέρας",
+    "en": "the cloud covered it by day",
+    "plain": "The cloud covered it by day, and at night it looked like fire."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading balances the sentence, \"by day\" against \"at night,\" and matches Exodus 40:38. That is exactly why a translator might supply it, so the shorter Hebrew is likely to be original. Some scholars think \"by day\" (<i>yomam</i>) dropped out of the Hebrew by accident. The meaning is the same either way, since verse 15 already says the cloud covered the tent.",
+  "s": [
+   "tov-tchb",
+   "wevers-numbers",
+   "milgrom-numbers"
+  ]
+ }
+]

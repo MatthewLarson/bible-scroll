@@ -1,0 +1,333 @@
+[
+ {
+  "v": "9:19",
+  "a": "Who will name me a day in court?",
+  "t": "Summon me, or summon him?",
+  "p": "The Hebrew says 'who will summon me?' The Greek, and many translations, have 'him'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "מִי יוֹעִידֵנִי",
+    "en": "who will set me a time?",
+    "plain": "Who will name me a day in court?"
+   },
+   {
+    "w": "Septuagint ('who then will stand against his judgment?'); a small change to the Hebrew (יוֹעִידֶנּוּ); most modern versions",
+    "orig": "τίς οὖν κρίματι αὐτοῦ ἀντιστήσεται",
+    "en": "who will summon him?",
+    "plain": "Who will call him into court?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading and makes sense if Job is quoting God's own challenge: 'Who will summon me?' The change to 'him' is easy and attractive, and the Greek seems to support the sense, but the Greek of Job paraphrases freely, so it may not reflect a different Hebrew text.",
+  "b": "I checked the Greek in Rahlfs' edition (Blue Letter Bible). The Hebrew difference is one letter-pair in the suffix. Translations that print 'him' (for example the ESV and NRSV) are making a small correction.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "9:30",
+  "a": "snow water",
+  "t": "Snow, or snow water?",
+  "p": "The written Hebrew says 'with snow'; the reading tradition says 'in snow water'. The KJV has 'snow water'.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (the reading said aloud); KJV",
+    "orig": "בְמֵי שָׁלֶג",
+    "en": "in water of snow",
+    "plain": "snow water"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (the written letters); Septuagint ('with snow'); most modern versions",
+    "orig": "בְמוֹ שָׁלֶג",
+    "en": "with snow",
+    "plain": "snow"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is one letter (bmy, 'in the water of', against bmw, a poetic form of 'with'). The meaning hardly changes: Job imagines washing in the purest water there is. The Plain follows the reading tradition, as the KJV does.",
+  "b": "The Greek reads <i>chioni</i>, 'with snow', which matches the written form. Checked in Rahlfs.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "9:33",
+  "a": "If only someone stood between us to judge the case",
+  "t": "'If only there were' or 'There is no'",
+  "p": "The received Hebrew reads lo', 'there is no'. The Greek, the Syriac and some Hebrew manuscripts read lu, 'if only'.",
+  "readings": [
+   {
+    "w": "Septuagint ('Would that there were our mediator and one who reproves and hears between both'); Syriac Peshitta; about fifteen medieval Hebrew manuscripts in the Kennicott and de Rossi collations (as reported); most modern critical commentators; NIV, NLT",
+    "orig": "לוּ יֵשׁ (εἴθε ἦν ὁ μεσίτης ἡμῶν)",
+    "en": "if only there were between us one to decide",
+    "plain": "If only someone stood between us to judge the case"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); rabbinic Targum of Job ('there is not between us an arbiter'); Vulgate ('there is no one who can reprove both'); KJV ('Neither is there any daysman'), NJPS, NRSV, ESV",
+    "orig": "לֹא יֵשׁ־בֵּינֵינוּ מוֹכִיחַ",
+    "en": "there is not between us one to decide",
+    "plain": "There is no one between us to judge the case"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound alike (lo' and lu), so the question is which one the poet meant. Four things tip the balance toward lu. (1) Grammar: Hebrew denies that something exists with 'ein ('there is not'); lo' yesh is found nowhere else in the Bible, while lu yesh, 'if only there were', is an idiom, used by Balaam (Numbers 22:29) and by Job himself (16:4). (2) Spelling: lu is sometimes written with the letters of lo' in the received text (the written form at 2 Samuel 18:12 and 2 Samuel 19:6, where the reading tradition gives lu), so the consonants here may always have meant 'if only'. (3) The oldest translation, the Greek, and the Syriac read a wish. (4) It fits the next verses, which continue in the mood of wishing: 'Let him lift his rod... Then I would speak' (9:34–35). For lo' stand the received text, the Targum and the Vulgate, and the sense is good: a flat statement that leads into 9:34. Most modern critical commentators read lu; among those cited on this site, Dhorme, Pope, Clines and Habel are usually reported to do so, though their pages were not checked for this note. The KJV, NJPS, NRSV and ESV keep the received text. Both readings agree on Job's situation: he has no one.",
+  "b": "<p>Checked myself: the Greek (Rahlfs), <i>eithe ēn ho mesitēs hēmōn kai elenchōn kai diakouōn ana meson amphoterōn</i>, whose word <i>mesitēs</i>, 'mediator', is the one used of Christ in 1 Timothy 2:5; and the rabbinic Targum (Sefaria text), <i>la' it beinana makhsen</i>, 'there is not between us an arbiter', which supports the received Hebrew. The Vulgate reads <i>non est qui utrumque valeat arguere et ponere manum suam in ambobus</i>. Not checked myself: the Syriac and the Hebrew manuscripts, which are reported in the commentaries (Driver and Gray; Clines), in Adam Clarke's older commentary (fifteen manuscripts) and in the BHS apparatus.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "targum-job",
+   "driver-gray-job",
+   "clines-job",
+   "pope-job",
+   "dhorme-job",
+   "habel-job",
+   "bhs-elliger",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "10:8",
+  "a": "every part of me, and now you swallow me up",
+  "t": "Together, or afterward?",
+  "p": "The Hebrew 'together all around' is awkward. The Greek has 'after these things, you turned and struck me'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV ('together round about')",
+    "orig": "יַחַד סָבִיב וַתְּבַלְּעֵנִי",
+    "en": "together all around, and you swallowed me",
+    "plain": "every part of me, and now you swallow me up"
+   },
+   {
+    "w": "Septuagint ('after these things you changed and struck me'); a widely accepted correction of the Hebrew (אַחַר סַבּוֹתָ)",
+    "orig": "μετὰ ταῦτα μεταβαλών με ἔπαισας",
+    "en": "afterward you turned around and swallowed me",
+    "plain": "and then you turned around and swallowed me up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew as written can mean that God's hands shaped Job 'all together, all around', that is, completely. Many scholars prefer a small change, achar sabbota, 'afterward you turned', which is supported by the Greek and fits the sharp turn of the verse. The Plain keeps the Hebrew but this alternative is strong.",
+  "b": "Greek checked in Rahlfs. The proposed Hebrew differs from the received text mainly in word division and a few letters (yachad saviv / achar sabbota).",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "driver-gray-job"
+  ]
+ },
+ {
+  "v": "10:20",
+  "a": "Stop, turn away from me",
+  "t": "Stop! or Let him stop!",
+  "p": "The written Hebrew has 'let him stop, let him turn away'; the reading tradition has 'Stop! Turn away!'",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (the reading said aloud); KJV ('cease then, and let me alone'); most translations",
+    "orig": "וַחֲדָל וְשִׁית",
+    "en": "and stop, and turn away",
+    "plain": "Stop, turn away from me"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (the written letters)",
+    "orig": "יֶחְדָּל יָשִׁית",
+    "en": "let him stop, let him turn away",
+    "plain": "Let him stop, let him turn away from me"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἔασόν με ἀναπαύσασθαι μικρὸν",
+    "en": "let me rest a little",
+    "plain": "Let me rest"
+   }
+  ],
+  "follow": 0,
+  "why": "In the reading tradition Job speaks to God directly, as he does through all of chapter 10. The written letters can be read two ways. The first verb, yechdal, may take 'my days' as its subject: 'Are my days not few? Let them cease!' Only the second, yashit, 'let him turn away', is clearly about God in the third person, a shift that is possible in laments but less likely here. The Greek paraphrases.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "12:9",
+  "a": "it was the LORD's hand that did this",
+  "t": "'The LORD' or 'God'?",
+  "p": "The standard Hebrew has YHWH, the only time in the debate. Some Hebrew manuscripts have Eloah, 'God'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (kyriou, 'of the Lord'); KJV; most translations",
+    "orig": "יַד־יְהוָה",
+    "en": "the hand of the LORD",
+    "plain": "it was the LORD's hand that did this"
+   },
+   {
+    "w": "Some medieval Hebrew manuscripts, as reported in the commentaries and the BHS apparatus",
+    "orig": "יַד־אֱלוֹהַּ",
+    "en": "the hand of God",
+    "plain": "it was God's hand that did this"
+   }
+  ],
+  "follow": 0,
+  "why": "YHWH is the reading of the main witnesses, including the Greek. Because the speakers otherwise avoid the name, a scribe was more likely to change YHWH to Eloah than the other way round. On the other hand, the line is a quotation of Isaiah 41:20, and a scribe may have brought the name in from Isaiah. Most scholars keep YHWH.",
+  "b": "Greek checked in Rahlfs: <i>hoti cheir kyriou epoiēsen tauta</i>. The manuscript reading Eloah is reported, not checked by me.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "pope-job",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "13:14",
+  "a": "Why do I grip my own flesh in my teeth",
+  "t": "'Why do I' or 'I will'?",
+  "p": "The Hebrew begins 'Why?' The Greek lacks it, and many scholars think 'why' was copied twice by mistake.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV ('Wherefore do I take my flesh in my teeth')",
+    "orig": "עַל־מָה אֶשָּׂא",
+    "en": "why do I carry",
+    "plain": "Why do I grip my own flesh in my teeth"
+   },
+   {
+    "w": "Septuagint (no 'why': 'taking my flesh in my teeth, I will put my life in my hand'); many modern scholars, who treat עַל־מָה as copied from the end of 13:13",
+    "orig": "אֶשָּׂא (ἀναλαβὼν τὰς σάρκας μου τοῖς ὀδοῦσιν)",
+    "en": "I will carry",
+    "plain": "I will grip my own flesh in my teeth"
+   }
+  ],
+  "follow": 0,
+  "why": "13:13 ends with mah, 'whatever', and 13:14 begins 'al-mah, 'why'; the repeated letters suggest a copying error. Without 'why', the verse is a statement of resolve that leads into 13:15. But the Hebrew can stand as a question ('Why should I risk my life? Because...'), and the Plain keeps it.",
+  "b": "Greek checked in Rahlfs.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "driver-gray-job"
+  ]
+ },
+ {
+  "v": "13:15",
+  "a": "He is going to kill me; I have nothing left to hope for.",
+  "t": "'I have no hope' or 'I will hope in him'",
+  "p": "Job's most famous Ketiv/Qere: written lo', 'not'; marked to be read aloud lo, 'for him' (KJV 'yet will I trust in him').",
+  "readings": [
+   {
+    "w": "Masoretic Text, Ketiv (the letters written in the text, לֹא 'not'); Leningrad Codex; RSV, NRSV, NJPS; many modern commentators",
+    "orig": "הֵן יִקְטְלֵנִי לֹא אֲיַחֵל",
+    "en": "look, he will kill me; I will not wait (I have no hope)",
+    "plain": "He is going to kill me; I have nothing left to hope for."
+   },
+   {
+    "w": "Masoretic Text, Qere (the reading the Masoretes marked in the margin to be read aloud, לוֹ 'for him'); rabbinic Targum of Job ('if he kills me, before him I will pray'); Mishnah Sotah 5:5 (as its first reading); Rashi; Vulgate ('even if he kills me, I will hope in him'); some medieval Hebrew manuscripts with לו written in the text (reported, not checked); KJV, NIV, ESV",
+    "orig": "הֵן יִקְטְלֵנִי לוֹ אֲיַחֵל",
+    "en": "though he kill me, I will wait for him (hope in him)",
+    "plain": "Even if he kills me, I will keep hoping in him."
+   },
+   {
+    "w": "Septuagint ('Though the Mighty One should lay hands on me, since he has already begun, I will surely speak and argue before him')",
+    "orig": "ἐάν με χειρώσηται ὁ δυνάστης ἐπεὶ καὶ ἦρκται",
+    "en": "though the Mighty One seize me, since he has begun",
+    "plain": "Even if the Mighty One lays his hand on me, since he has already begun."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the written text, for three reasons. (1) It is the harder reading: a copyist or reader is more likely to have turned 'I have no hope' into 'I will hope in him' than the reverse. (2) It fits the context: Job expects that approaching God may cost his life (13:14), and the second line begins 'but' or 'still' (akh): no hope of survival, but he will argue anyway. (3) Job elsewhere says his hope is gone (6:11; 14:19; 17:15; 19:10). The reading tradition is old and honored, and its line of faith is also true to Job, who keeps turning to God. Both readings are Masoretic: the Masoretes kept one in the text and marked the other to be read aloud. The reader can switch.",
+  "b": "<p>This is the site's full explanation of the verse; other notes point here. The two Hebrew words <i>lo'</i> (not) and <i>lo</i> (for him) sound the same, which is how the difference arose. The Masoretes kept the written <i>lo'</i> in the text and marked <i>lo</i> in the margin to be read aloud. The first word, <i>hen</i>, is 'look' in standard Hebrew but can mean 'if, though' as in Aramaic; the KJV and the Qere reading take it so. The verb <i>yachal</i> means 'wait, hope'; with 'not' it can mean 'I will not wait (in silence)' or 'I have no hope'.</p><p>The ambiguity was known by about AD 200. The Mishnah says that Rabbi Joshua ben Hyrcanus taught that Job served God out of love, citing this verse as 'I will hope in him', and then notes that the matter is still in doubt, 'to him I will hope' or 'I will not hope', until 27:5 settles it: 'Until the day I die I will not set my integrity aside' (Mishnah Sotah 5:5). The rabbinic Targum follows the Qere: <i>qodamohi atsalle</i>, 'before him I will pray'.</p><p>Checked myself: the Greek (Rahlfs), which seems to have read the verb as 'he has begun' (from <i>chalal</i>) and does not mention hope; the Targum (Sefaria text). Not checked myself: the Syriac, and the medieval Hebrew manuscripts reported to write <i>lo</i> in the text.</p>",
+  "s": [
+   "mishnah-sotah",
+   "rahlfs-lxx",
+   "nets-lxx",
+   "targum-job",
+   "vulgate-weber",
+   "rashi-job",
+   "clines-job",
+   "njps-tanakh"
+  ]
+ },
+ {
+  "v": "14:3",
+  "a": "Will you bring me into court with you?",
+  "t": "Me, or him?",
+  "p": "The Hebrew has 'me'. The Greek, Syriac and Latin have 'him', matching the 'such a one' of the first line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וְאֹתִי תָבִיא בְמִשְׁפָּט עִמָּךְ",
+    "en": "and me you bring into judgment with you",
+    "plain": "Will you bring me into court with you?"
+   },
+   {
+    "w": "Septuagint ('and you made this one enter into judgment before you'); Vulgate and Syriac, as reported in the commentaries; some modern versions",
+    "orig": "καὶ τοῦτον ἐποίησας εἰσελθεῖν ἐν κρίματι",
+    "en": "and him you bring into judgment",
+    "plain": "Will you bring him into court with you?"
+   }
+  ],
+  "follow": 0,
+  "why": "'Him' smooths the verse, since 14:1–6 speaks of humans in the third person. But the sudden 'me' is typical of Job, who keeps slipping from the human condition to his own case, and it is the harder reading.",
+  "b": "Greek checked in Rahlfs. The Vulgate reads <i>et adducere eum tecum in iudicium</i> as reported in commentaries; I have not checked the Syriac.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "14:4",
+  "a": "No one can.",
+  "t": "'No one' or 'No one, even if he lives one day'",
+  "p": "The Greek joins 14:4 and 14:5: no one is clean 'even if his life on earth is one day'. Augustine built on that line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV; all modern versions",
+    "orig": "לֹא אֶחָד",
+    "en": "not one",
+    "plain": "No one can."
+   },
+   {
+    "w": "Septuagint (14:4–5a: 'For who will be clean from filth? No one, even if his life on earth is one day'); Old Latin as quoted by Augustine",
+    "orig": "ἀλλ᾽ οὐθείς ἐὰν καὶ μία ἡμέρα ὁ βίος αὐτοῦ ἐπὶ τῆς γῆς",
+    "en": "no one, even if his life is one day",
+    "plain": "No one can, not even one whose life on earth lasts a single day."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the beginning of 14:5 ('if his days are cut short') in a different way and joined it to 14:4. It is not evidence for a different Hebrew text. But the Greek line had a long history: Augustine cites it for the sinfulness of a newborn child (Confessions 1.7), and it became a classic text for the doctrine of original sin.",
+  "b": "Greek checked in Rahlfs. The Vulgate has a different expansion: <i>quis potest facere mundum de inmundo conceptum semine</i>, 'who can make clean one conceived of unclean seed?'",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "14:14",
+  "a": "When a man dies, can he come back to life?",
+  "t": "A question, or a statement of hope?",
+  "p": "The Hebrew asks 'will he live?' The Greek has no question word and reads as a statement: 'he will live'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; Vulgate; KJV and all modern versions",
+    "orig": "אִם־יָמוּת גֶּבֶר הֲיִחְיֶה",
+    "en": "if a man dies, will he live?",
+    "plain": "When a man dies, can he come back to life?"
+   },
+   {
+    "w": "Septuagint ('For if a person dies, he will live, when he has completed the days of his life; I will wait until I come to be again'); Brenton's English (1844) prints it as a question",
+    "orig": "ἐὰν γὰρ ἀποθάνῃ ἄνθρωπος ζήσεται συντελέσας ἡμέρας τοῦ βίου αὐτοῦ",
+    "en": "if a person dies, he will live, having completed the days of his life",
+    "plain": "If a man dies, he will live again, once he has finished the days of his life."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the question marker ha- (hayichyeh), so it is a question, and in context the expected answer is no (14:10–12). The Greek translator seems to have read it as a hope rather than a doubt, as the Greek Job does again in its added ending, which says of Job that 'it is written that he will rise again with those the Lord raises up' (Greek 42:17). This is a change by the translator, not evidence for a different Hebrew text, but it shaped how Greek-speaking Jews and Christians read the verse.",
+  "b": "Greek checked in Rahlfs (Blue Letter Bible). On the Greek ending, see the variant at 42:17.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "brenton-lxx",
+   "clines-job"
+  ]
+ }
+]

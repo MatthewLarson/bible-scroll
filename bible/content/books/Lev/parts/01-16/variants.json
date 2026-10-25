@@ -1,0 +1,314 @@
+[
+ {
+  "v": "8:31",
+  "a": "just as I commanded",
+  "t": "\"I commanded\" or \"I was commanded\"?",
+  "p": "The same Hebrew letters can be read \"I commanded\" or \"I was commanded.\" Ancient translations took the second.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), with its vowel points",
+    "orig": "כַּאֲשֶׁר צִוֵּיתִי",
+    "en": "as I commanded",
+    "plain": "just as I commanded"
+   },
+   {
+    "w": "Septuagint; also the Syriac Peshitta and Targum Pseudo-Jonathan, as reported by Milgrom (not checked in the original editions)",
+    "orig": "כַּאֲשֶׁר צֻוֵּיתִי (ὃν τρόπον συντέτακταί μοι)",
+    "en": "as I was commanded",
+    "plain": "just as I was commanded"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are identical; only the vowels, added by the Masoretes centuries later, differ. \"I was commanded\" matches Moses' words in 8:35 and 10:13, which may be why the ancient translators read it that way, but for the same reason it may be a smoothing. The Masoretic reading, with Moses speaking with God's authority, is kept, and the difference is small.",
+  "s": [
+   "milgrom-leviticus1-16",
+   "wevers-leviticus"
+  ]
+ },
+ {
+  "v": "9:7",
+  "a": "for yourself and for the people",
+  "t": "For the people, or for his household?",
+  "p": "The Greek has Aaron atone \"for yourself and for your household,\" matching 16:6.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch",
+    "orig": "בַּעַדְךָ וּבְעַד הָעָם",
+    "en": "for yourself and for the people",
+    "plain": "for yourself and for the people"
+   },
+   {
+    "w": "Septuagint (Greek, third century BC)",
+    "orig": "περὶ σεαυτοῦ καὶ τοῦ οἴκου σου",
+    "en": "for yourself and for your house",
+    "plain": "for yourself and for your household"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew mentions \"the people\" twice in the verse, and the Greek translator (or the Hebrew text he used) seems to have changed the first to \"your household\" to match 16:6, 11 and 17, and because Aaron's own offering (9:8–14) is for himself. That makes the Greek an easier, harmonized reading. The Masoretic text is followed. Hebrews 5:3 and 7:27, \"first for his own sins, then for those of the people,\" fit either.",
+  "b": "The Samaritan Pentateuch is listed with the Masoretic Text on the basis of standard reference works; I could not check it directly.",
+  "s": [
+   "wevers-leviticus",
+   "milgrom-leviticus1-16"
+  ]
+ },
+ {
+  "v": "9:21",
+  "a": "just as Moses commanded",
+  "t": "Moses commanded, or the LORD commanded Moses?",
+  "p": "The Samaritan and Greek texts have the usual formula, \"as the LORD commanded Moses.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כַּאֲשֶׁר צִוָּה מֹשֶׁה",
+    "en": "as Moses commanded",
+    "plain": "just as Moses commanded"
+   },
+   {
+    "w": "Samaritan Pentateuch and Septuagint, as reported in BHS and by Milgrom (not checked directly)",
+    "orig": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶׁה",
+    "en": "as the LORD commanded Moses",
+    "plain": "just as the LORD commanded Moses"
+   }
+  ],
+  "follow": 0,
+  "why": "Everywhere else in chapters 8–9 the formula is \"as the LORD commanded Moses\" (8:9, 13, 17; 9:10), so the longer reading looks like a scribe filling in the familiar phrase. The shorter Masoretic reading is the harder one and fits 9:5–6, where Moses passes on the command. It is followed.",
+  "s": [
+   "milgrom-leviticus1-16",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "9:22",
+  "a": "Aaron lifted his hands",
+  "t": "His hand or his hands?",
+  "p": "The written Hebrew has \"his hand\"; the scribes' reading tradition says \"his hands.\"",
+  "readings": [
+   {
+    "w": "Qere (the reading the Masoretes marked to be read aloud); Septuagint; nearly all translations",
+    "orig": "יָדָיו",
+    "en": "his hands",
+    "plain": "Aaron lifted his hands"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "ידו",
+    "en": "his hand",
+    "plain": "Aaron lifted his hand"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form may be an old spelling of the plural, as also happens at 16:21. The Masoretes' reading \"his hands\" agrees with the old translations and with later practice, in which priests raise both hands to bless (Mishnah Sotah 7:6).",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:21",
+  "a": "those that have jointed legs above their feet",
+  "t": "\"Which have\" or \"which have not\"?",
+  "p": "The written text says lo' (\"not\"); the scribes read lo (\"to it\"), \"which have legs.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretes' reading); Septuagint; all translations",
+    "orig": "אֲשֶׁר־לוֹ כְרָעַיִם",
+    "en": "which have jointed legs",
+    "plain": "those that have jointed legs above their feet"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "אֲשֶׁר לֹא כְרָעַיִם",
+    "en": "which do not have jointed legs",
+    "plain": "those that do not have jointed legs above their feet"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound the same in Hebrew (<i>lo</i>), and are confused several times in the Bible (compare 25:30; Isaiah 9:3). \"Not\" makes no sense here, since the point is that locusts have leaping legs. The Qere is certainly right; the Ketiv is a spelling slip or an old spelling.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "15:3",
+  "a": "it is his uncleanness.",
+  "t": "A missing line?",
+  "p": "The Greek, a Qumran scroll and the Samaritan text have a longer verse. The Hebrew may have skipped a line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "רָר בְּשָׂרוֹ אֶת־זוֹבוֹ אוֹ־הֶחְתִּים בְּשָׂרוֹ מִזּוֹבוֹ טֻמְאָתוֹ הִוא",
+    "en": "whether his flesh runs ... or is stopped ..., it is his uncleanness",
+    "plain": "it is his uncleanness."
+   },
+   {
+    "w": "Septuagint; 11QpaleoLev-a (Dead Sea scroll in the old Hebrew script, dated by Freedman and Mathews to about 100 BC, a date others dispute); the Samaritan Pentateuch is reported to agree (not checked directly)",
+    "orig": "טמאתו היא בו כל ימי זב בשרו או החתים בשרו מזובו טמאתו היא",
+    "en": "... it is his uncleanness in him; all the days his flesh runs or his flesh is stopped from his discharge, it is his uncleanness",
+    "plain": "it is his uncleanness. He is unclean all the days his flesh runs or his flesh is stopped up from his discharge. It is his uncleanness."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text repeats \"his flesh is stopped up from his discharge, it is his uncleanness.\" A copyist's eye could easily have jumped from the first to the second occurrence and left out the words between (called <i>homoioteleuton</i>, \"same ending\"). Emanuel Tov and others think that is what happened in the Masoretic line, so the longer text may be original. The Plain English follows the Masoretic Text, as the KJV, ESV and NIV do, since the meaning is the same either way. I have not checked every modern version; some committee translations that weigh the scrolls may adopt the longer text.",
+  "s": [
+   "tov-tchb",
+   "freedman-mathews-paleolev",
+   "abegg-dssb",
+   "wevers-leviticus"
+  ]
+ },
+ {
+  "v": "16:1",
+  "a": "when they drew near before the LORD and died",
+  "t": "\"When they brought strange fire\"",
+  "p": "The Greek adds what their approach was: \"when they brought strange fire before the Lord.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch",
+    "orig": "בְּקָרְבָתָם לִפְנֵי־יְהוָה וַיָּמֻתוּ",
+    "en": "when they drew near before the LORD and died",
+    "plain": "when they drew near before the LORD and died"
+   },
+   {
+    "w": "Septuagint; similar wording in the Targums",
+    "orig": "ἐν τῷ προσάγειν αὐτοὺς πῦρ ἀλλότριον ἔναντι κυρίου καὶ ἐτελεύτων",
+    "en": "when they brought strange fire before the Lord and died",
+    "plain": "when they brought strange fire near before the LORD and died"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek fills in the reason from 10:1 and Numbers 3:4. That is an explanatory addition, the kind of help translators often gave. The shorter Hebrew is followed; its vaguer \"drew near\" fits the warning that follows about coming near at the wrong time.",
+  "s": [
+   "wevers-leviticus",
+   "milgrom-leviticus1-16"
+  ]
+ },
+ {
+  "v": "16:21",
+  "a": "both his hands",
+  "t": "Both his hand?",
+  "p": "The written Hebrew has \"his hand\" with the word \"two\"; the Masoretes read \"his hands.\"",
+  "readings": [
+   {
+    "w": "Qere (the Masoretes' reading); Septuagint; all translations",
+    "orig": "שְׁתֵּי יָדָיו",
+    "en": "his two hands",
+    "plain": "both his hands"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "שְׁתֵּי ידו",
+    "en": "his two hand (an old spelling of the plural?)",
+    "plain": "both his hand"
+   }
+  ],
+  "follow": 0,
+  "why": "With the number \"two\" the meaning is certain. The written form is probably an older spelling of the plural, as at 9:22. The detail matters because two hands here contrast with the one hand leaned on ordinary offerings (1:4), which David P. Wright read as a difference between transfer and ownership.",
+  "s": [
+   "tov-tchb",
+   "wright-disposal"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "he is to present a flawless male.",
+  "t": "The leaning of the hand repeated",
+  "p": "The Greek adds \"and he shall lay his hand on its head,\" repeating 1:4 for the sheep or goat.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "זָכָר תָּמִים יַקְרִיבֶנּוּ",
+    "en": "he shall present a flawless male",
+    "plain": "he is to present a flawless male."
+   },
+   {
+    "w": "Septuagint (checked in a printed Greek text online; not checked in Wevers' Göttingen apparatus)",
+    "orig": "ἄρσεν ἄμωμον προσάξει αὐτὸ καὶ ἐπιθήσει τὴν χεῖρα ἐπὶ τὴν κεφαλὴν αὐτοῦ",
+    "en": "he shall bring a flawless male and lay his hand on its head",
+    "plain": "he is to present a flawless male and lean his hand on its head."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek fills in the gesture so that the flock offering matches the herd offering (1:4). A translator or scribe adding the familiar step is far more likely than a Hebrew scribe dropping it, so the shorter text is followed. Either way the rabbis assumed the hand was leaned on every animal offering of an individual.",
+  "s": [
+   "wevers-leviticus"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "a young bull",
+  "t": "A flawless bull?",
+  "p": "The Greek, and reportedly the Samaritan text, call the community's bull \"flawless,\" as in 4:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "פַּר בֶּן־בָּקָר",
+    "en": "a bull of the herd",
+    "plain": "a young bull"
+   },
+   {
+    "w": "Septuagint (checked in a printed Greek text online); the Samaritan Pentateuch is reported to agree (not checked directly)",
+    "orig": "μόσχον ἐκ βοῶν ἄμωμον",
+    "en": "a flawless calf of the herd",
+    "plain": "a flawless young bull"
+   }
+  ],
+  "follow": 0,
+  "why": "Every offering had to be flawless, so the meaning does not change. The longer reading matches 4:3 and looks like harmonizing; the shorter Hebrew is followed.",
+  "s": [
+   "wevers-leviticus",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "13:31",
+  "a": "there is no black hair in it",
+  "t": "No black hair, or no yellow hair?",
+  "p": "The Greek reads \"no yellowish hair,\" as in 13:30 and 13:32. Many commentators think the Hebrew is the harder reading.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְשֵׂעָר שָׁחֹר אֵין בּוֹ",
+    "en": "and there is no black hair in it",
+    "plain": "there is no black hair in it"
+   },
+   {
+    "w": "Septuagint (checked in a printed Greek text online)",
+    "orig": "θρὶξ ξανθίζουσα οὐκ ἔστιν ἐν αὐτῇ",
+    "en": "there is no yellowish hair in it",
+    "plain": "there is no yellow hair in it"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verses around it speak of yellow hair, so the Greek is smooth, and some scholars emend the Hebrew to match. But the Hebrew can make sense: black hair is the sign of healthy skin (13:37), so a patch that is not deep but also has no healthy hair is doubtful and must be shut away. The harder Masoretic reading is followed.",
+  "s": [
+   "wevers-leviticus",
+   "milgrom-leviticus1-16"
+  ]
+ },
+ {
+  "v": "16:34",
+  "a": "And he did just as the LORD commanded Moses.",
+  "t": "\"He did\" or \"it will be done\"?",
+  "p": "The Greek has no report that Aaron did it. It reads \"once a year it will be done, as the Lord commanded Moses.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וַיַּעַשׂ כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶׁה",
+    "en": "and he did as the LORD commanded Moses",
+    "plain": "And he did just as the LORD commanded Moses."
+   },
+   {
+    "w": "Septuagint (checked in a printed Greek text online)",
+    "orig": "ἅπαξ τοῦ ἐνιαυτοῦ ποιηθήσεται, καθὰ συνέταξε Κύριος τῷ Μωυσῇ",
+    "en": "once a year it will be done, as the Lord commanded Moses",
+    "plain": "It will be done just as the LORD commanded Moses."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew suddenly reports that someone, probably Aaron, carried out the rite, though the chapter sets it for the seventh month (16:29) and the book's calendar puts the inauguration in the first month (Exodus 40:17). The Greek avoids that problem by making it part of the command. That smoother reading looks secondary; the harder Hebrew is followed, and the note on 16:34 discusses it.",
+  "s": [
+   "wevers-leviticus",
+   "milgrom-leviticus1-16"
+  ]
+ }
+]

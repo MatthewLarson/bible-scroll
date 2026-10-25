@@ -1,0 +1,343 @@
+[
+ {
+  "v": "5:1",
+  "a": "Keep watch over your feet",
+  "t": "Feet or foot?",
+  "p": "The written Hebrew has 'your feet'; the Masoretes' reading tradition has 'your foot'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), written text (Ketiv); the Syriac Peshitta agrees",
+    "orig": "רגליך",
+    "en": "your feet",
+    "plain": "Keep watch over your feet"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), reading tradition (Qere), as vocalized in the codex; Greek (Rahlfs) τὸν πόδα σου; KJV",
+    "orig": "רַגְלְךָ",
+    "en": "your foot",
+    "plain": "Keep watch over your foot"
+   }
+  ],
+  "follow": 0,
+  "why": "The meaning is the same. The Plain follows the written text because 'your feet' is natural English for how a person walks; the KJV and the Greek have the singular.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "Coming close to listen is better than giving a sacrifice the way fools do",
+  "t": "Better than fools' sacrifice, or your sacrifice better?",
+  "p": "The Greek and Syriac read 'your sacrifice is better than the gift of fools'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
+    "orig": "וְקָרוֹב לִשְׁמֹעַ מִתֵּת הַכְּסִילִים זָבַח",
+    "en": "and drawing near to listen, more than fools' giving of a sacrifice",
+    "plain": "Coming close to listen is better than giving a sacrifice the way fools do"
+   },
+   {
+    "w": "Greek (Rahlfs); Codex Vaticanus in Swete's edition agrees; the Syriac Peshitta is close ('better than the gift of fools' sacrifices')",
+    "orig": "καὶ ἐγγὺς τοῦ ἀκούειν· ὑπὲρ δόμα τῶν ἀφρόνων θυσία σου",
+    "en": "and be near to listen; your sacrifice is better than the gift of fools",
+    "plain": "Come close to listen. Your sacrifice is better than the gift of fools"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes good sense and fits the prophets' 'listening is better than sacrifice'. The Greek read the same consonants but took 'giving' (mittet) as a noun, 'gift' (mattat), and added 'your'.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "before the messenger",
+  "t": "Before the messenger, or before God?",
+  "p": "The Hebrew has 'the messenger' (or angel); the Greek and the Syriac have 'God'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum ('the cruel angel')",
+    "orig": "לִפְנֵי הַמַּלְאָךְ",
+    "en": "before the messenger",
+    "plain": "before the messenger"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus in Swete's edition agrees); Syriac Peshitta",
+    "orig": "πρὸ προσώπου τοῦ θεοῦ",
+    "en": "before God",
+    "plain": "before God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading: a scribe or translator is more likely to change an unclear 'messenger' into 'God' than the reverse. The Greek may also be harmonizing with 'before God' in 5:2. Most modern translations follow the Hebrew.",
+  "b": "No Dead Sea Scroll preserves this verse. The note at 5:6 gives the readings of 'the messenger'.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "targum-qohelet-mg",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "5:12",
+  "a": "A worker's sleep",
+  "t": "Worker or slave?",
+  "p": "The Greek read the same Hebrew letters as 'slave'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta; Targum ('a man who serves the Lord')",
+    "orig": "הָעֹבֵד",
+    "en": "the worker (one who works the ground)",
+    "plain": "A worker's sleep"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus in Swete's edition agrees)",
+    "orig": "τοῦ δούλου",
+    "en": "of the slave",
+    "plain": "A slave's sleep"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants 'bd can be read 'oved, 'worker', or 'eved, 'slave'. The Masoretic vowels give 'worker', which fits the contrast with the rich man. The Greek reading is a different vocalization, not a different text.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc"
+  ]
+ },
+ {
+  "v": "5:17",
+  "a": "he eats in darkness all his days, and he is greatly frustrated",
+  "t": "He eats in darkness, or his days are darkness and mourning?",
+  "p": "The Greek reads 'and mourning' where the Hebrew has 'he eats', and the scroll 4QQoh-a has neither.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta (which also adds 'and in mourning'); Targum",
+    "orig": "גַּם כָּל־יָמָיו בַּחֹשֶׁךְ יֹאכֵל וְכָעַס הַרְבֵּה",
+    "en": "also all his days in darkness he eats, and he is very vexed",
+    "plain": "he eats in darkness all his days, and he is greatly frustrated"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus in Swete's edition agrees)",
+    "orig": "καί γε πᾶσαι αἱ ἡμέραι αὐτοῦ ἐν σκότει καὶ πένθει καὶ θυμῷ πολλῷ",
+    "en": "and all his days are in darkness and mourning and much anger",
+    "plain": "all his days are in darkness and mourning, with much frustration"
+   },
+   {
+    "w": "Dead Sea Scroll 4QQoh-a (4Q109, copied about the middle of the 100s BC), in the Abegg, Bowley and Cook transcription",
+    "orig": "גם כול ימיו בחשך כעס [הרבה]",
+    "en": "also all his days in darkness, vexation much",
+    "plain": "all his days are in darkness, with much frustration"
+   }
+  ],
+  "follow": 0,
+  "why": "The Leningrad Codex is followed, but this is a close call. The Greek seems to have read ve'evel, 'and mourning', for yokhel, 'he eats', two words that look alike in Hebrew script, and many scholars (for example Seow and Fox) prefer it. The oldest witness, 4QQoh-a, has no verb at all, which may support a text without 'he eats'.",
+  "b": "The scroll's word for 'vexation' lacks the 'and' of the Leningrad Codex, so in the scroll it is a noun ('much frustration'), not a verb. Words in brackets are restored by the editors.",
+  "s": [
+   "rahlfs-lxx",
+   "abegg-dssb",
+   "djd16",
+   "peshitta-ecc",
+   "seow-ecclesiastes",
+   "fox-qohelet"
+  ]
+ },
+ {
+  "v": "7:12",
+  "a": "is to be in silver's shade",
+  "t": "In the shade, or like the shade?",
+  "p": "The Hebrew repeats 'in the shade'; the Greek and Syriac compare wisdom's shade to money's.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּצֵל הַכָּסֶף",
+    "en": "in the shade of the silver",
+    "plain": "is to be in silver's shade"
+   },
+   {
+    "w": "Greek (Rahlfs: ὡς σκιὰ τοῦ ἀργυρίου); Syriac Peshitta",
+    "orig": "כְּצֵל הַכָּסֶף (as the Greek implies)",
+    "en": "like the shade of silver",
+    "plain": "is like being in silver's shade"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters b ('in') and k ('like') look alike, and the Greek and Syriac may have read k. Both readings give the same sense: wisdom protects as money does. The Plain follows the Leningrad Codex.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "Wisdom does more to make the wise strong",
+  "t": "Strengthens, or helps?",
+  "p": "The Hebrew has 'makes strong'; the oldest scroll, the Greek and the Syriac have 'helps'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
+    "orig": "הַחָכְמָה תָּעֹז לֶחָכָם",
+    "en": "wisdom makes strong the wise",
+    "plain": "Wisdom does more to make the wise strong"
+   },
+   {
+    "w": "Dead Sea Scroll 4QQoh-a (4Q109), in the Abegg, Bowley and Cook transcription; Greek (Rahlfs: βοηθήσει); Syriac Peshitta",
+    "orig": "תעזר",
+    "en": "helps",
+    "plain": "Wisdom does more to help the wise"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew verbs, ta'oz 'makes strong' and ta'zor 'helps', differ by one letter. The scroll, the Greek and the Syriac agree on 'helps', which is strong evidence that it is old; some scholars prefer it. The Leningrad reading is also good Hebrew and fits 'more than ten rulers'. The sense hardly changes.",
+  "s": [
+   "abegg-dssb",
+   "djd16",
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "7:27",
+  "a": "says Qohelet",
+  "t": "Says Qohelet, or says the Qohelet?",
+  "p": "The Leningrad Codex has a feminine verb. Divided differently, the same letters say 'says the Qohelet', as in 12:8.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
+    "orig": "אָמְרָה קֹהֶלֶת",
+    "en": "says (feminine) Qohelet",
+    "plain": "says Qohelet"
+   },
+   {
+    "w": "The same consonants divided as in 12:8 (amar haqqohelet), proposed by most modern scholars; Greek (Rahlfs: εἶπεν ὁ Ἐκκλησιαστής, with the article) and Syriac Peshitta read a masculine verb",
+    "orig": "אָמַר הַקֹּהֶלֶת",
+    "en": "says the Qohelet",
+    "plain": "says the Qohelet"
+   }
+  ],
+  "follow": 0,
+  "why": "Moving one letter from the end of the verb to the start of the name gives the form found in 12:8, with a masculine verb and 'the' before Qohelet. The Greek, with the article, supports this. The meaning is unchanged except that 'the Qohelet' sounds like a title. The Plain keeps the name without 'the', as in 1:1–2 and 12:8–10.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes",
+   "fox-frame-narrative"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "Who is like the wise man?",
+  "t": "Who is like the wise, or who knows the wise?",
+  "p": "The Greek reads 'Who knows the wise?'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta; Targum",
+    "orig": "מִי כְּהֶחָכָם",
+    "en": "who is like the wise man?",
+    "plain": "Who is like the wise man?"
+   },
+   {
+    "w": "Greek (Rahlfs; Codex Vaticanus in Swete's edition agrees)",
+    "orig": "τίς οἶδεν σοφούς",
+    "en": "who knows the wise?",
+    "plain": "Who knows the wise?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew form kehechakham is unusual (the 'h' of 'the' is normally swallowed after k), which may have led the Greek to read the line differently. The Syriac and the Targum support the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "peshitta-ecc"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "and the hardness of his face is changed",
+  "t": "Changed, or hated?",
+  "p": "The Greek and Syriac read 'the bold of face will be hated'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
+    "orig": "וְעֹז פָּנָיו יְשֻׁנֶּא",
+    "en": "and the strength of his face is changed",
+    "plain": "and the hardness of his face is changed"
+   },
+   {
+    "w": "Greek (Rahlfs: ἀναιδὴς προσώπῳ αὐτοῦ μισηθήσεται); Syriac Peshitta",
+    "orig": "יִשָּׂנֵא",
+    "en": "will be hated",
+    "plain": "and the one who is hard of face will be hated"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew yeshunne' 'is changed' is written with a final aleph, as if from a verb 'to hate' (sane'); the Greek and Syriac read it that way. The Masoretic reading fits the parallel with a face that shines.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "I say, do what the king's mouth tells you",
+  "t": "'I' or not?",
+  "p": "The Hebrew begins with 'I'. The Greek and the Syriac have no 'I'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֲנִי פִּי־מֶלֶךְ שְׁמוֹר",
+    "en": "I: the mouth of a king keep",
+    "plain": "I say, do what the king's mouth tells you"
+   },
+   {
+    "w": "Greek (Rahlfs: στόμα βασιλέως φύλαξον); Syriac Peshitta",
+    "orig": "פִּי־מֶלֶךְ שְׁמוֹר",
+    "en": "keep the mouth of a king",
+    "plain": "Do what the king's mouth tells you"
+   }
+  ],
+  "follow": 0,
+  "why": "The bare 'I' is awkward, and some scholars think it began as the object marker 'et or that a verb like 'I say' has dropped out. The Plain keeps it and supplies 'say', as the KJV does ('I counsel thee').",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "8:10",
+  "a": "they were forgotten",
+  "t": "Forgotten, or praised?",
+  "p": "Most Hebrew manuscripts read 'forgotten'. The Greek and some Hebrew manuscripts read 'praised'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Syriac Peshitta; Targum; KJV",
+    "orig": "וְיִשְׁתַּכְּחוּ",
+    "en": "and they were forgotten",
+    "plain": "they were forgotten"
+   },
+   {
+    "w": "Greek (Rahlfs: ἐπῃνέθησαν; Codex Vaticanus in Swete's edition agrees); some medieval Hebrew manuscripts, as reported in the critical editions; the Talmud's reading 'do not read ... but praised' (Gittin 56b); many modern translations",
+    "orig": "וְיִשְׁתַּבְּחוּ",
+    "en": "and they were praised",
+    "plain": "they were praised"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew words differ by one letter (k or b), which look alike. 'Praised' makes the verse a complaint: the wicked are honored in the city where they did wrong, which is why it is vapor. 'Forgotten' can also work if the subject is those who had done right (see the note). The Plain follows the Leningrad Codex, with the Syriac and Targum; the case for 'praised' is strong.",
+  "s": [
+   "rahlfs-lxx",
+   "peshitta-ecc",
+   "targum-qohelet-mg",
+   "bavli-gittin",
+   "bhq-qoheleth",
+   "seow-ecclesiastes"
+  ]
+ }
+]

@@ -1,0 +1,327 @@
+[
+ {
+  "v": "24:6",
+  "a": "This has to happen",
+  "t": "\"This\" or \"all this\"?",
+  "p": "The KJV's \"all these things must come to pass\" adds \"all.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s), Codex Bezae (D, 400s), Codex Regius (L, 700s) and the Sahidic Coptic, as Tischendorf's apparatus reports; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "δεῖ γὰρ γενέσθαι",
+    "en": "for it must happen",
+    "plain": "This has to happen"
+   },
+   {
+    "w": "Codex Ephraemi (C, 400s) and most later manuscripts; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "δεῖ γὰρ πάντα γενέσθαι",
+    "en": "for all things must happen",
+    "plain": "All this has to happen"
+   },
+   {
+    "w": "A few Greek manuscripts, most Old Latin manuscripts and the Vulgate (<i>oportet enim haec fieri</i>), as in Luke 21:9",
+    "orig": "δεῖ γὰρ ταῦτα γενέσθαι",
+    "en": "for these things must happen",
+    "plain": "These things have to happen"
+   }
+  ],
+  "follow": 0,
+  "why": "The shortest reading is supported by Vaticanus, the oldest manuscript named here, and by all three modern editions; the other two look like scribes filling out the sentence, one of them from Luke 21:9. The meaning hardly changes.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "24:7",
+  "a": "famines and earthquakes",
+  "t": "Famines, plagues and earthquakes?",
+  "p": "The KJV adds \"pestilences.\" The two Greek words look almost alike.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s, first hand), Vaticanus (B, 300s), Bezae (D, 400s), some Old Latin manuscripts; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "λιμοὶ καὶ σεισμοί",
+    "en": "famines and earthquakes",
+    "plain": "famines and earthquakes"
+   },
+   {
+    "w": "Codex Ephraemi (C, 400s), most later manuscripts, the Syriac and Coptic versions; Byzantine majority; Textus Receptus (KJV); the Vulgate has the words in the order 'pestilences and famines'",
+    "orig": "λιμοὶ καὶ λοιμοὶ καὶ σεισμοί",
+    "en": "famines and plagues and earthquakes",
+    "plain": "famines, plagues and earthquakes"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts lack \"plagues,\" and Luke 21:11 has both words, so scribes may have added it from Luke. On the other side, <i>limoi</i> and <i>loimoi</i> differ by one letter, and Tischendorf thought a scribe's eye skipped from one to the other. The Plain follows the modern editions, but the case is close.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "24:31",
+  "a": "with a great trumpet",
+  "t": "A great trumpet, or a trumpet with a great sound?",
+  "p": "Editions differ over one word, \"sound.\"",
+  "readings": [
+   {
+    "w": "Codex Regius (L), Δ, family 1 manuscripts, the Coptic and Syriac versions, Chrysostom and Cyprian, as Tischendorf's apparatus reports; SBLGNT, NA28",
+    "orig": "μετὰ σάλπιγγος μεγάλης",
+    "en": "with a great trumpet",
+    "plain": "with a great trumpet"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s), most later manuscripts; Byzantine majority; Textus Receptus (KJV); Tyndale House GNT",
+    "orig": "μετὰ σάλπιγγος φωνῆς μεγάλης",
+    "en": "with a trumpet of great sound",
+    "plain": "with a trumpet of great sound"
+   },
+   {
+    "w": "Codex Bezae (D), many Old Latin manuscripts and the Vulgate",
+    "orig": "μετὰ σάλπιγγος καὶ φωνῆς μεγάλης",
+    "en": "with a trumpet and a great voice",
+    "plain": "with a trumpet and a great voice"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT and NA28. The Tyndale House GNT prints \"sound.\" Either way the picture is a loud trumpet call (Isaiah 27:13).",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "24:36",
+  "a": "The angels of heaven do not know, and the Son does not know. Only the Father knows.",
+  "t": "\"Nor the Son\"",
+  "p": "The oldest manuscripts say even the Son does not know. Many others, including Washingtonianus (W, 400s), leave this out.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s, first hand), Vaticanus (B, 300s), Bezae (D, 400s), Θ (800s) and family 13, as the NA28/UBS5 apparatus reports; most Old Latin manuscripts, the Palestinian Syriac, the Armenian and Ethiopic versions; Irenaeus (in Latin), Origen's commentary (in Latin), Chrysostom, Hilary; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "οὐδὲ οἱ ἄγγελοι τῶν οὐρανῶν οὐδὲ ὁ υἱός, εἰ μὴ ὁ πατὴρ μόνος",
+    "en": "not the angels of heaven, nor the Son, but the Father alone",
+    "plain": "The angels of heaven do not know, and the Son does not know. Only the Father knows."
+   },
+   {
+    "w": "A corrector of Sinaiticus, Codex Regius (L), Washingtonianus (W, 400s), family 1, 33 and most later manuscripts, as the NA28/UBS5 apparatus reports; the Vulgate, the Peshitta and other Syriac versions (not the Palestinian Syriac), the Coptic; Basil; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "οὐδὲ οἱ ἄγγελοι τῶν οὐρανῶν, εἰ μὴ ὁ πατήρ μου μόνος",
+    "en": "not the angels of heaven, but my Father alone",
+    "plain": "The angels of heaven do not know. Only my Father knows."
+   }
+  ],
+  "follow": 0,
+  "why": "The words have very early and widespread support, and it is easy to see why scribes would drop them: they seemed to make the Son less than the Father. It is hard to see why anyone would add them. The word \"alone\" also fits best if the Son has just been named. Mark 13:32 has \"nor the Son\" in every manuscript.",
+  "b": "This is one of the clearest cases where a theological worry shaped the text. Jerome noted that some Latin copies had \"nor the Son\" while the Greek copies of Origen and Pierius did not. The two Origen witnesses are not a contradiction: the Latin translation of Origen's commentary reads the words, while Jerome reports Greek copies associated with Origen that lacked them. Ambrose suspected the words had been added by heretics. Basil took Matthew's text as lacking them. The Byzantine text also reads \"my Father,\" which Matthew often says. See the note on this verse.",
+  "s": [
+   "metzger",
+   "na28",
+   "tischendorf-nt8",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "24:42",
+  "a": "the day when your Lord",
+  "t": "\"Day\" or \"hour\"?",
+  "p": "The KJV says \"what hour your Lord doth come.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01) and Vaticanus (B), both 300s, as the NA28 apparatus reports; Bezae (D), Δ and later manuscripts such as 33, as Tischendorf's apparatus reports; Irenaeus (in Latin), Hilary; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ποίᾳ ἡμέρᾳ",
+    "en": "on what day",
+    "plain": "the day when your Lord"
+   },
+   {
+    "w": "Most later manuscripts, most Old Latin manuscripts, the Vulgate, Coptic and Syriac; Chrysostom; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ποίᾳ ὥρᾳ",
+    "en": "at what hour",
+    "plain": "the hour when your Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Hour\" is probably borrowed from 24:44, where \"hour\" is not in doubt. \"Day\" has the older Greek support.",
+  "s": [
+   "na28",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "25:1",
+  "a": "to meet the groom",
+  "t": "\"And the bride\"?",
+  "p": "Some early witnesses say the young women went out to meet the groom and the bride.",
+  "readings": [
+   {
+    "w": "Almost all Greek manuscripts, including Vaticanus (B), Ephraemi (C) and Regius (L); the Coptic version; Basil, Chrysostom; SBLGNT, NA28, Tyndale House GNT (which read <i>hypantēsin</i>); Byzantine majority and Textus Receptus (KJV) (which read <i>apantēsin</i>, the same meaning)",
+    "orig": "εἰς ὑπάντησιν τοῦ νυμφίου",
+    "en": "to meet the groom",
+    "plain": "to meet the groom"
+   },
+   {
+    "w": "Codex Bezae (D), Θ (800s, as the NA28 apparatus reports), a few minuscules (1, 209), the Old Latin and Vulgate (<i>sponso et sponsae</i>), the Syriac Peshitta and Harclean, the Armenian; Hilary, as Tischendorf's apparatus reports",
+    "orig": "εἰς ὑπάντησιν τοῦ νυμφίου καὶ τῆς νύμφης",
+    "en": "to meet the groom and the bride",
+    "plain": "to meet the groom and the bride"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek evidence is overwhelming. The addition probably came from a custom in which the groom brought his bride home, or from a wish to give the bride a place in the story. The Harclean Syriac itself notes in its margin that the words are not in all copies.",
+  "b": "Some scholars think the shorter text shows the church reading the groom as Christ, whose bride is the church itself, so a second bride would confuse the picture.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "25:2",
+  "a": "Five of them were foolish and five were sensible.",
+  "t": "Foolish first, or sensible first?",
+  "p": "The KJV says \"five of them were wise, and five were foolish.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Ephraemi (C), Bezae (D), Regius (L), Z, the Old Latin and Vulgate, as Tischendorf's apparatus reports; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "πέντε δὲ ἐξ αὐτῶν ἦσαν μωραὶ καὶ πέντε φρόνιμοι",
+    "en": "five of them were foolish and five sensible",
+    "plain": "Five of them were foolish and five were sensible."
+   },
+   {
+    "w": "Most later manuscripts; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "πέντε δὲ ἦσαν ἐξ αὐτῶν φρόνιμοι καὶ αἱ πέντε μωραί",
+    "en": "five of them were sensible and the five foolish",
+    "plain": "Five of them were sensible and five were foolish."
+   }
+  ],
+  "follow": 0,
+  "why": "The older witnesses put the foolish first, which matches the order in which the story then tells about them (25:3–4). Scribes probably put the good group first, as is more natural.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "25:6",
+  "a": "Look! The groom!",
+  "t": "\"The groom is coming\"",
+  "p": "The KJV has \"the bridegroom cometh.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Ephraemi (C, first hand), Bezae (D), Regius (L), Z, the Coptic as Tischendorf's apparatus reports; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "Ἰδοὺ ὁ νυμφίος",
+    "en": "Look, the groom!",
+    "plain": "Look! The groom!"
+   },
+   {
+    "w": "A corrector of Ephraemi and most later manuscripts; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Ἰδοὺ ὁ νυμφίος ἔρχεται",
+    "en": "Look, the groom is coming!",
+    "plain": "Look! The groom is coming!"
+   }
+  ],
+  "follow": 0,
+  "why": "The older manuscripts have the short, breathless cry; scribes completed the sentence with a verb.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "25:13",
+  "a": "nor the hour",
+  "t": "\"When the Son of Man comes\"",
+  "p": "The KJV adds \"wherein the Son of man cometh.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), as the NA28 apparatus reports; Alexandrinus (A, 400s), Vaticanus (B), Ephraemi (C, first hand), Bezae (D), Regius (L), Δ; the Old Latin, Vulgate, Syriac and Coptic; Chrysostom, as Tischendorf's apparatus reports; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "οὐδὲ τὴν ὥραν",
+    "en": "nor the hour",
+    "plain": "nor the hour"
+   },
+   {
+    "w": "A later corrector of Ephraemi and most later manuscripts; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "οὐδὲ τὴν ὥραν ἐν ᾗ ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται",
+    "en": "nor the hour in which the Son of Man comes",
+    "plain": "nor the hour when the Son of Man is coming"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words come from 24:44 and fill out the warning. Every early witness lacks them.",
+  "s": [
+   "na28",
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "25:31",
+  "a": "all the angels",
+  "t": "\"All the holy angels\"",
+  "p": "The KJV has \"all the holy angels.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), Regius (L), the Old Latin, Vulgate, Coptic and Armenian; Origen, Eusebius, Athanasius as Tischendorf's apparatus reports; SBLGNT, NA28, Tyndale House GNT",
+    "orig": "πάντες οἱ ἄγγελοι",
+    "en": "all the angels",
+    "plain": "all the angels"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Ephraemi (C), most later manuscripts, the Syriac; Byzantine majority; Textus Receptus (KJV)",
+    "orig": "πάντες οἱ ἅγιοι ἄγγελοι",
+    "en": "all the holy angels",
+    "plain": "all the holy angels"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Holy\" was probably added under the influence of Zechariah 14:5, \"all the holy ones with him,\" and Mark 8:38.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "25:40",
+  "a": "one of these brothers of mine, even the least of them",
+  "t": "\"Brothers of mine\" left out",
+  "p": "A few witnesses have only \"one of these least ones.\"",
+  "readings": [
+   {
+    "w": "Almost all manuscripts, including Alexandrinus (A), Bezae (D), Regius (L) and a corrector of Vaticanus; the Latin, Syriac and Coptic versions; Cyprian; all modern editions and the Textus Receptus",
+    "orig": "ἑνὶ τούτων τῶν ἀδελφῶν μου τῶν ἐλαχίστων",
+    "en": "to one of these my brothers, the least",
+    "plain": "one of these brothers of mine, even the least of them"
+   },
+   {
+    "w": "Codex Vaticanus (B, first hand), two Old Latin manuscripts (ff1, ff2), Clement of Alexandria, and at times Hilary, Ambrose and Augustine as Tischendorf's apparatus reports",
+    "orig": "ἑνὶ τούτων τῶν ἐλαχίστων",
+    "en": "to one of these least ones",
+    "plain": "one of these least ones"
+   }
+  ],
+  "follow": 0,
+  "why": "The words have overwhelming support. The short form matches 25:45, which has no \"brothers,\" and probably comes from it or from quoting from memory.",
+  "b": "The variant matters for the debate over who \"the least\" are (see the note): without \"brothers of mine\" the saying sounds more universal.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "25:41",
+  "a": "made ready for the devil",
+  "t": "Prepared by the Father?",
+  "p": "Some Western witnesses read \"which my Father prepared for the devil.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Vaticanus (B), most manuscripts; the Vulgate, Syriac, Coptic and Gothic versions; Origen, Chrysostom, Tertullian; all modern editions; Textus Receptus (KJV)",
+    "orig": "τὸ ἡτοιμασμένον τῷ διαβόλῳ",
+    "en": "prepared for the devil",
+    "plain": "made ready for the devil"
+   },
+   {
+    "w": "Codex Bezae (D), a few minuscules (1, 22), several Old Latin manuscripts; Irenaeus (in Latin), Cyprian, Hilary; Justin and the Clementine Homilies quote the saying in a similar form as Tischendorf's apparatus reports",
+    "orig": "ὃ ἡτοίμασεν ὁ πατήρ μου τῷ διαβόλῳ",
+    "en": "which my Father prepared for the devil",
+    "plain": "that my Father made ready for the devil"
+   }
+  ],
+  "follow": 0,
+  "why": "The common reading is far better attested. The Western form makes the saying match 25:34, \"you whom my Father has blessed.\" It is an early reading, known in the second century.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ }
+]

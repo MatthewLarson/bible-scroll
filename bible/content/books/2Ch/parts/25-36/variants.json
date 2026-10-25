@@ -1,0 +1,884 @@
+[
+ {
+  "v": "25:8",
+  "a": "If you go anyway, then act! Be strong for battle!",
+  "t": "A hard verse",
+  "p": "The Hebrew seems ironic: go and be strong, God will still trip you. The Greek reads differently.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי אִם־בֹּא אַתָּה עֲשֵׂה חֲזַק לַמִּלְחָמָה",
+    "en": "For if you go, act, be strong for battle",
+    "plain": "If you go anyway, then act! Be strong for battle!"
+   },
+   {
+    "w": "Septuagint (Rahlfs); RSV",
+    "orig": "ὅτι ἐὰν ὑπολάβῃς κατισχῦσαι ἐν τούτοις",
+    "en": "For if you think to prevail with these",
+    "plain": "If you think you will be strong with these"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as irony and is the harder reading. The Greek probably paraphrased a difficult text."
+ },
+ {
+  "v": "25:28",
+  "a": "in the city of Judah",
+  "t": "City of Judah or City of David?",
+  "p": "Chronicles' Hebrew says Amaziah was buried 'in the city of Judah'. Kings and the Greek say 'the City of David'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּעִיר יְהוּדָה",
+    "en": "in the city of Judah",
+    "plain": "in the city of Judah"
+   },
+   {
+    "w": "2 Kings 14:20; Septuagint of Chronicles (Rahlfs: ἐν πόλει Δαυιδ); some Hebrew manuscripts",
+    "orig": "בְּעִיר דָּוִד",
+    "en": "in the City of David",
+    "plain": "in the City of David"
+   }
+  ],
+  "follow": 0,
+  "why": "\"City of Judah\" may be a slip, but it could also be an old name for Jerusalem: the Babylonian Chronicle calls Jerusalem \"the city of Judah\" (<i>al Yahudu</i>). The Plain keeps the Hebrew.",
+  "s": [
+   "wiseman-chronicles",
+   "allen-greek-chronicles",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "26:2",
+  "a": "Eloth",
+  "t": "Eloth or Elath",
+  "p": "Chronicles' Hebrew spells the port Eloth. Kings and the Greek have Elath.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 2 Chronicles (also 2 Chronicles 8:17)",
+    "orig": "אֵילוֹת",
+    "en": "Eloth",
+    "plain": "Eloth"
+   },
+   {
+    "w": "2 Kings 14:22; Septuagint (Rahlfs: Αιλαθ)",
+    "orig": "אֵילַת",
+    "en": "Elath",
+    "plain": "Elath"
+   }
+  ],
+  "follow": 0,
+  "why": "Two forms of one name for the same town at the head of the Gulf of Aqaba. The Plain prints each book's own form.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "26:3",
+  "a": "Jecoliah",
+  "t": "Ketiv and Qere",
+  "p": "The written text spells the queen mother's name Jechiliah; the margin reads Jecoliah, as in Kings.",
+  "readings": [
+   {
+    "w": "Qere (margin of the Masoretic Text); 2 Kings 15:2",
+    "orig": "יְכָלְיָה",
+    "en": "Jecoliah",
+    "plain": "Jecoliah"
+   },
+   {
+    "w": "Ketiv (written text of the Masoretic Text)",
+    "orig": "יְכִילְיָה",
+    "en": "Jechiliah",
+    "plain": "Jechiliah"
+   }
+  ],
+  "follow": 0,
+  "why": "The margin matches Kings; the site's 2 Kings Plain has Jecoliah."
+ },
+ {
+  "v": "26:5",
+  "a": "a man who understood the visions of God",
+  "t": "Visions or fear of God?",
+  "p": "Most Hebrew manuscripts say Zechariah taught 'in the visions of God'. Others, and the Greek, say 'in the fear of God'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַמֵּבִין בִּרְאֹת הָאֱלֹהִים",
+    "en": "who understood the seeing of God",
+    "plain": "a man who understood the visions of God"
+   },
+   {
+    "w": "Many Hebrew manuscripts; Septuagint (Rahlfs: τοῦ συνίοντος ἐν φόβῳ κυρίου); Syriac; many modern versions",
+    "orig": "בְּיִרְאַת הָאֱלֹהִים",
+    "en": "who understood the fear of God",
+    "plain": "a man who understood the fear of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter. \"Fear of God\" is the more common phrase, which may be why copyists preferred it; the Plain keeps the rarer Leningrad reading, though either may be original.",
+  "s": [
+   "allen-greek-chronicles",
+   "rahlfs-lxx",
+   "klein-2chron"
+  ]
+ },
+ {
+  "v": "26:8",
+  "a": "The Ammonites",
+  "t": "Ammonites or Meunites?",
+  "p": "The Hebrew says the Ammonites paid tribute. The Greek has Minaeans, which suits the context better.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הָעַמּוֹנִים",
+    "en": "the Ammonites",
+    "plain": "The Ammonites"
+   },
+   {
+    "w": "Septuagint (Rahlfs) (καὶ ἔδωκαν οἱ Μιναῖοι δῶρα); many modern scholars",
+    "orig": "οἱ Μιναῖοι",
+    "en": "the Minaeans (= Meunites)",
+    "plain": "The Meunites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek matches the Meunites of 26:7 and the southward direction of the verse, and many scholars prefer it. But Ammon also paid tribute to Jotham (27:5), and the Hebrew makes sense, so the Plain keeps it."
+ },
+ {
+  "v": "26:11",
+  "a": "Jeiel",
+  "t": "Jeiel or Jeuel?",
+  "p": "A spelling difference between the written text and the margin.",
+  "readings": [
+   {
+    "w": "Qere (margin of the Masoretic Text)",
+    "orig": "יְעִיאֵל",
+    "en": "Jeiel",
+    "plain": "Jeiel"
+   },
+   {
+    "w": "Ketiv (written text)",
+    "orig": "יְעוּאֵל",
+    "en": "Jeuel",
+    "plain": "Jeuel"
+   }
+  ],
+  "follow": 0,
+  "why": "The margin gives the common form of the name. The same holds for Jeiel in 29:13 and Jehiel in 29:14."
+ },
+ {
+  "v": "27:8",
+  "a": "He was twenty-five years old when he became king, and he reigned in Jerusalem sixteen years.",
+  "t": "A repeated verse",
+  "p": "This verse repeats 27:1. The main Greek manuscripts leave it out.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ",
+    "en": "He was twenty-five years old when he became king...",
+    "plain": "He was twenty-five years old when he became king, and he reigned in Jerusalem sixteen years."
+   },
+   {
+    "w": "Septuagint (Rahlfs; Codex Vaticanus)",
+    "orig": "",
+    "en": "(verse absent)",
+    "plain": "(verse absent)"
+   }
+  ],
+  "follow": 0,
+  "why": "The repetition may be a copyist's error, or a deliberate frame around Jotham's reign. Chronicles repeats a summary elsewhere too (compare 2 Kings 8:17 and 2 Chronicles 21:5, 21:20). The Plain keeps it."
+ },
+ {
+  "v": "28:3",
+  "a": "he burned his sons in the fire",
+  "t": "Burned or made pass through?",
+  "p": "Chronicles' Hebrew says 'burned'. Kings and the Greek of Chronicles say 'made pass through' the fire.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיַּבְעֵר אֶת־בָּנָיו בָּאֵשׁ",
+    "en": "he burned his sons in the fire",
+    "plain": "he burned his sons in the fire"
+   },
+   {
+    "w": "2 Kings 16:3 (singular 'son'); Septuagint of Chronicles (Rahlfs: καὶ διῆγεν τὰ τέκνα αὐτοῦ διὰ πυρός); Syriac; Targum",
+    "orig": "וַיַּעֲבֵר",
+    "en": "he made his children pass through the fire",
+    "plain": "he made his sons pass through the fire"
+   }
+  ],
+  "follow": 0,
+  "why": "The verbs differ by one letter (<i>b'r</i> and <i>'br</i>). It could be a copying slip or a deliberate sharpening by the Chronicler. The Plain keeps the Hebrew of Chronicles; see the note.",
+  "s": [
+   "allen-greek-chronicles"
+  ]
+ },
+ {
+  "v": "28:16",
+  "a": "the kings of Assyria",
+  "t": "King or kings?",
+  "p": "The Hebrew has the plural 'kings of Assyria'. The Greek, Syriac and Kings have the singular.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מַלְכֵי אַשּׁוּר",
+    "en": "the kings of Assyria",
+    "plain": "the kings of Assyria"
+   },
+   {
+    "w": "Septuagint (Rahlfs: πρὸς βασιλέα Ασσουρ); Syriac; Vulgate; 2 Kings 16:7",
+    "orig": "מֶלֶךְ אַשּׁוּר",
+    "en": "the king of Assyria",
+    "plain": "the king of Assyria"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural may be a general expression (compare 30:6; 32:4) or a slip. The Plain keeps it; the meaning is Tiglath-pileser."
+ },
+ {
+  "v": "28:19",
+  "a": "Ahaz king of Israel",
+  "t": "King of Israel?",
+  "p": "The Hebrew calls Ahaz 'king of Israel'. The Greek and some Hebrew manuscripts say 'king of Judah'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אָחָז מֶלֶךְ־יִשְׂרָאֵל",
+    "en": "Ahaz king of Israel",
+    "plain": "Ahaz king of Israel"
+   },
+   {
+    "w": "Some Hebrew manuscripts; Septuagint (Rahlfs: δι᾽ Αχαζ βασιλέα Ιουδα); Vulgate",
+    "orig": "מֶלֶךְ יְהוּדָה",
+    "en": "Ahaz king of Judah",
+    "plain": "Ahaz king of Judah"
+   }
+  ],
+  "follow": 0,
+  "why": "Chronicles often calls Judah \"Israel\" (21:2; 28:27), and the harder reading is more likely original. The ancient versions smoothed it."
+ },
+ {
+  "v": "28:27",
+  "a": "in the city, in Jerusalem",
+  "t": "Which city?",
+  "p": "The Hebrew says Ahaz was buried 'in the city, in Jerusalem'. The Greek says 'the city of David'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בָעִיר בִּירוּשָׁלִַם",
+    "en": "in the city, in Jerusalem",
+    "plain": "in the city, in Jerusalem"
+   },
+   {
+    "w": "Septuagint (Rahlfs); compare 2 Kings 16:20",
+    "orig": "ἐτάφη ἐν πόλει Δαυιδ",
+    "en": "he was buried in the city of David",
+    "plain": "in the City of David"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek brings Chronicles into line with Kings. The Hebrew of Chronicles distinguishes the city from the royal tombs."
+ },
+ {
+  "v": "29:8",
+  "a": "something to shudder at",
+  "t": "A spelling difference",
+  "p": "The written text and the margin spell the word for 'terror' differently.",
+  "readings": [
+   {
+    "w": "Qere (margin)",
+    "orig": "לְזַעֲוָה",
+    "en": "for a terror",
+    "plain": "something to shudder at"
+   },
+   {
+    "w": "Ketiv (written text)",
+    "orig": "לִזְוָעָה",
+    "en": "for a terror",
+    "plain": "something to shudder at"
+   }
+  ],
+  "follow": 0,
+  "why": "Two spellings of the same word, used in Jeremiah 15:4 and 24:9. The meaning does not change."
+ },
+ {
+  "v": "30:27",
+  "a": "The Levite priests",
+  "t": "The Levite priests, or priests and Levites?",
+  "p": "The Hebrew and the Greek read 'the priests the Levites'. Many Hebrew manuscripts and some versions add 'and'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Rahlfs: οἱ ἱερεῖς οἱ Λευῖται)",
+    "orig": "הַכֹּהֲנִים הַלְוִיִּם",
+    "en": "the priests, the Levites",
+    "plain": "The Levite priests"
+   },
+   {
+    "w": "Many Hebrew manuscripts; Syriac; Vulgate (as reported by Allen and the BHS apparatus)",
+    "orig": "הַכֹּהֲנִים וְהַלְוִיִּם",
+    "en": "the priests and the Levites",
+    "plain": "The priests and the Levites"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Levite priests\" is Deuteronomy's phrase (Deuteronomy 18:1) and fits the priestly blessing; the Greek supports it. \"And\" was easily added under the influence of 30:25.",
+  "s": [
+   "allen-greek-chronicles",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "31:12",
+  "a": "Konaniah",
+  "t": "Konaniah",
+  "p": "A spelling difference between the written text and the margin.",
+  "readings": [
+   {
+    "w": "Qere (margin)",
+    "orig": "כָּנַנְיָהוּ",
+    "en": "Konaniah",
+    "plain": "Konaniah"
+   },
+   {
+    "w": "Ketiv (written text)",
+    "orig": "כּוֹנַנְיָהוּ",
+    "en": "Konaniah (spelled with a vowel letter)",
+    "plain": "Konaniah"
+   }
+  ],
+  "follow": 0,
+  "why": "Spelling only; the same in 31:13 and 35:9."
+ },
+ {
+  "v": "32:22",
+  "a": "He guided them on every side",
+  "t": "Guided or gave rest?",
+  "p": "The Hebrew says God 'guided' them. The Greek and Vulgate say he 'gave them rest', a phrase common in Chronicles.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיְנַהֲלֵם מִסָּבִיב",
+    "en": "and he guided them on every side",
+    "plain": "He guided them on every side"
+   },
+   {
+    "w": "Septuagint (Rahlfs: καὶ κατέπαυσεν αὐτοὺς κυκλόθεν); Vulgate; many modern versions",
+    "orig": "καὶ κατέπαυσεν αὐτοὺς κυκλόθεν (Hebrew behind it, reconstructed: וַיָּנַח לָהֶם)",
+    "en": "and he gave them rest on every side",
+    "plain": "He gave them rest on every side"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Rest on every side\" is a set phrase in Chronicles (14:7; 15:15; 20:30), which makes it attractive but also explains why a copyist might have produced it. The Hebrew makes sense, so the Plain keeps it.",
+  "s": [
+   "allen-greek-chronicles",
+   "klein-2chron"
+  ]
+ },
+ {
+  "v": "32:32",
+  "a": "in the scroll of the kings of Judah and Israel",
+  "t": "One source or two?",
+  "p": "The Hebrew says the vision of Isaiah is 'in' the book of the kings. The Greek has 'and in the book', two sources.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַל־סֵפֶר מַלְכֵי־יְהוּדָה וְיִשְׂרָאֵל",
+    "en": "in (or upon) the scroll of the kings of Judah and Israel",
+    "plain": "in the scroll of the kings of Judah and Israel"
+   },
+   {
+    "w": "Septuagint (Rahlfs); Vulgate; Syriac",
+    "orig": "καὶ ἐπὶ βιβλίου βασιλέων Ιουδα καὶ Ισραηλ",
+    "en": "and in the book of the kings of Judah and Israel",
+    "plain": "and in the scroll of the kings of Judah and Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew probably means the Isaiah material was included in the royal scroll, as Isaiah 36–39 is in 2 Kings 18–20."
+ },
+ {
+  "v": "33:16",
+  "a": "rebuilt",
+  "t": "Set up or rebuilt?",
+  "p": "The written text says Manasseh 'set up' the altar; the margin reads 'rebuilt'.",
+  "readings": [
+   {
+    "w": "Qere (margin)",
+    "orig": "וַיִּבֶן",
+    "en": "and he rebuilt",
+    "plain": "rebuilt"
+   },
+   {
+    "w": "Ketiv (written text); Septuagint ('set up')",
+    "orig": "וַיָּכֶן",
+    "en": "and he set up, restored",
+    "plain": "set up"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter. Both make sense; the Plain follows the margin."
+ },
+ {
+  "v": "33:19",
+  "a": "the records of Hozai",
+  "t": "Hozai or the seers?",
+  "p": "The Hebrew names an unknown Hozai. The Greek reads 'the seers'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "דִּבְרֵי חוֹזָי",
+    "en": "the words of Hozai",
+    "plain": "the records of Hozai"
+   },
+   {
+    "w": "Septuagint (Rahlfs); many modern versions",
+    "orig": "ἐπὶ τῶν λόγων τῶν ὁρώντων",
+    "en": "the words of the seers",
+    "plain": "the records of the visionaries"
+   },
+   {
+    "w": "One Hebrew manuscript",
+    "orig": "חוֹזָיו",
+    "en": "the words of his seers",
+    "plain": "the records of his visionaries"
+   }
+  ],
+  "follow": 0,
+  "why": "Hozai may be a name otherwise unknown, or a slip for \"the visionaries\" of 33:18. The Plain keeps the Hebrew; see the note.",
+  "s": [
+   "allen-greek-chronicles"
+  ]
+ },
+ {
+  "v": "33:20",
+  "a": "they buried him at his house",
+  "t": "At his house, or in the garden?",
+  "p": "The Hebrew says Manasseh was buried 'at his house'. The Greek, with Kings, says 'in the garden of his house'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיִּקְבְּרֻהוּ בֵּיתוֹ",
+    "en": "they buried him (at) his house",
+    "plain": "they buried him at his house"
+   },
+   {
+    "w": "Septuagint (Rahlfs); compare 2 Kings 21:18 (בְּגַן־בֵּיתוֹ)",
+    "orig": "ἔθαψαν αὐτὸν ἐν παραδείσῳ οἴκου αὐτοῦ",
+    "en": "they buried him in the garden of his house",
+    "plain": "they buried him in the garden of his house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek may have restored a word from Kings; Chronicles may have shortened Kings. The meaning is close."
+ },
+ {
+  "v": "34:6",
+  "a": "and in the ruined places around them",
+  "t": "Ketiv and Qere",
+  "p": "The written text has two words; the margin one. The meaning is disputed.",
+  "readings": [
+   {
+    "w": "Qere (margin), consonants revocalized as 'ruins'; most modern versions",
+    "orig": "בְּחָרְבֹתֵיהֶם",
+    "en": "in their ruins round about",
+    "plain": "and in the ruined places around them"
+   },
+   {
+    "w": "Qere as pointed in the Masoretic Text; KJV",
+    "orig": "בְּחַרְבֹתֵיהֶם",
+    "en": "with their swords (mattocks) round about",
+    "plain": "with their swords all around"
+   },
+   {
+    "w": "Ketiv (written text)",
+    "orig": "בְּהַר בָּתֵּיהֶם",
+    "en": "in the hill country (?) of their houses",
+    "plain": "in the hills of their houses"
+   },
+   {
+    "w": "Septuagint (Rahlfs)",
+    "orig": "καὶ τοῖς τόποις αὐτῶν κύκλῳ",
+    "en": "and in their places round about",
+    "plain": "and in their places round about"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Ruins\" fits the devastated north and needs only a change of vowels. The KJV's \"with their mattocks\" follows the Masoretic pointing.",
+  "s": [
+   "barthelemy-ctat"
+  ]
+ },
+ {
+  "v": "34:9",
+  "a": "and the people of Jerusalem",
+  "t": "People of Jerusalem, or they returned?",
+  "p": "The written text says the silver came from 'the people of Jerusalem'. The margin reads 'they returned to Jerusalem'.",
+  "readings": [
+   {
+    "w": "Ketiv (written text); Septuagint (Rahlfs: καὶ οἰκούντων ἐν Ιερουσαλημ); many modern versions",
+    "orig": "וְיֹשְׁבֵי יְרוּשָׁלִָם",
+    "en": "and the inhabitants of Jerusalem",
+    "plain": "and the people of Jerusalem"
+   },
+   {
+    "w": "Qere (margin); KJV",
+    "orig": "וַיָּשֻׁבוּ יְרוּשָׁלִָם",
+    "en": "and they returned to Jerusalem",
+    "plain": "and they went back to Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The written text completes the list of givers and agrees with the Greek; the margin's \"they returned\" is less natural here. This is one of the few places the Plain prefers the Ketiv.",
+  "s": [
+   "allen-greek-chronicles"
+  ]
+ },
+ {
+  "v": "34:22",
+  "a": "Shallum son of Tokhath, son of Hasrah",
+  "t": "Huldah's husband",
+  "p": "Kings has 'Shallum son of Tikvah, son of Harhas'. Chronicles has Tokhath and Hasrah.",
+  "readings": [
+   {
+    "w": "Qere of Chronicles (margin)",
+    "orig": "שַׁלּוּם בֶּן־תָּקְהַת בֶּן־חַסְרָה",
+    "en": "Shallum son of Tokhath, son of Hasrah",
+    "plain": "Shallum son of Tokhath, son of Hasrah"
+   },
+   {
+    "w": "Ketiv of Chronicles (written text)",
+    "orig": "תּוֹקְהַת",
+    "en": "Tokehath",
+    "plain": "Shallum son of Tokehath, son of Hasrah"
+   },
+   {
+    "w": "2 Kings 22:14 (Masoretic Text)",
+    "orig": "שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס",
+    "en": "Shallum son of Tikvah, son of Harhas",
+    "plain": "Shallum son of Tikvah, son of Harhas"
+   },
+   {
+    "w": "Septuagint (Rahlfs) of 2 Chronicles",
+    "orig": "Σελλημ υἱοῦ Θακουαθ υἱοῦ Χελλης",
+    "en": "Sellem son of Thakouath, son of Chelles",
+    "plain": "Shallum son of Thakouath, son of Chelles"
+   }
+  ],
+  "follow": 0,
+  "why": "The names in the two books differ by letters easily confused or transposed in Hebrew (q/qw, rch/sr). These are copying differences, not a deliberate change. The Plain keeps each book's own form.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "35:3",
+  "a": "who taught",
+  "t": "A spelling difference",
+  "p": "The written text and the margin spell the word for 'teachers' differently.",
+  "readings": [
+   {
+    "w": "Qere (margin)",
+    "orig": "הַמְּבִינִים",
+    "en": "who instructed",
+    "plain": "who taught"
+   },
+   {
+    "w": "Ketiv (written text)",
+    "orig": "הַמְּבוּנִים",
+    "en": "the instructed ones (?)",
+    "plain": "who were taught"
+   }
+  ],
+  "follow": 0,
+  "why": "The margin gives the usual participle. The sense is much the same; compare Nehemiah 8:7, where Levites teach the people."
+ },
+ {
+  "v": "35:19",
+  "a": "It was in the eighteenth year of Josiah's reign that this Passover was held.",
+  "t": "Extra verses in the Greek and in 1 Esdras",
+  "p": "After this verse the Greek adds 35:19a–d, drawn from 2 Kings 23:24–27. 1 Esdras has a shorter addition of its own.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(no addition)",
+    "plain": "It was in the eighteenth year of Josiah's reign that this Passover was held."
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, as translated by Brenton): adds 35:19a–d (not printed in the blueletterbible.org Rahlfs page; Rahlfs 35:19 itself reads τῷ ὀκτωκαιδεκάτῳ ἔτει τῆς βασιλείας Ιωσια)",
+    "orig": "",
+    "en": "Adds that Josiah removed the mediums, teraphim and idols to fulfill the law; that there was no king like him; that the LORD did not turn from his anger because of Manasseh's provocations; and that the LORD said he would remove Judah as he removed Israel and reject Jerusalem",
+    "plain": "It was in the eighteenth year of Josiah's reign that this Passover was held. [Plus four verses like 2 Kings 23:24–27]"
+   },
+   {
+    "w": "1 Esdras 1:23–24 (KJV Apocrypha numbering; 1:21–22 in Rahlfs)",
+    "orig": "",
+    "en": "Adds that Josiah's works were upright before the Lord with a heart full of godliness, and that the sins of earlier times grieved the Lord",
+    "plain": "It was in the eighteenth year of Josiah's reign that this Passover was held. [Plus a short note on Josiah's godliness and the earlier sins]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek supplies material from Kings that Chronicles had left out, including the blame on Manasseh that Chronicles avoids. 1 Esdras has a different, shorter addition. The Plain follows the Hebrew.",
+  "s": [
+   "allen-greek-chronicles",
+   "brenton-lxx",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "35:20",
+  "a": "to make war at Carchemish on the Euphrates",
+  "t": "At Carchemish, or against Assyria?",
+  "p": "The Hebrew names Carchemish. The Greek of Chronicles says Neco went against the king of Assyria, at the Euphrates.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Esdras 1:25, KJV numbering ('Carchamis upon Euphrates')",
+    "orig": "לְהִלָּחֵם בְּכַרְכְּמִישׁ עַל־פְּרָת",
+    "en": "to fight at Carchemish on the Euphrates",
+    "plain": "to make war at Carchemish on the Euphrates"
+   },
+   {
+    "w": "Septuagint (Rahlfs)",
+    "orig": "ἐπὶ τὸν βασιλέα Ἀσσυρίων ἐπὶ τὸν ποταμὸν Εὐφράτην",
+    "en": "against the king of the Assyrians, to the river Euphrates",
+    "plain": "to make war against the king of Assyria at the Euphrates"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek reflects Kings' \"to the king of Assyria\" (2 Kings 23:29), with a preposition that makes Neco Assyria's enemy. In fact he came as Assyria's ally. The Plain keeps the Hebrew of Chronicles.",
+  "s": [
+   "allen-greek-chronicles",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "35:22",
+  "a": "He disguised himself to fight him",
+  "t": "Disguised or strengthened himself?",
+  "p": "The Hebrew says Josiah disguised himself, like Ahab. The Greek says he 'strengthened himself' to fight.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הִתְחַפֵּשׂ",
+    "en": "he disguised himself",
+    "plain": "He disguised himself to fight him"
+   },
+   {
+    "w": "Septuagint (Rahlfs); compare 1 Esdras 1:28, KJV numbering ('undertook to fight')",
+    "orig": "ἐκραταιώθη (Hebrew behind it, reconstructed: הִתְחַזֵּק)",
+    "en": "he strengthened himself",
+    "plain": "He was determined to fight him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew links Josiah's death with Ahab's (1 Kings 22:30) and is likely original. The Greek may have read a similar-looking verb or avoided the comparison.",
+  "s": [
+   "allen-greek-chronicles",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "35:22",
+  "a": "Neco's words from God's mouth",
+  "t": "Neco's words, or Jeremiah's?",
+  "p": "Chronicles says God spoke through Neco. 1 Esdras says Josiah ignored the prophet Jeremiah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint of Chronicles (Rahlfs: τῶν λόγων Νεχαω διὰ στόματος θεοῦ)",
+    "orig": "דִּבְרֵי נְכוֹ מִפִּי אֱלֹהִים",
+    "en": "the words of Neco from the mouth of God",
+    "plain": "Neco's words from God's mouth"
+   },
+   {
+    "w": "1 Esdras 1:28 (KJV Apocrypha numbering; 1:26 in Rahlfs)",
+    "orig": "",
+    "en": "the words of the prophet Jeremy, spoken by the mouth of the Lord",
+    "plain": "the words of the prophet Jeremiah from the LORD's mouth"
+   }
+  ],
+  "follow": 0,
+  "why": "1 Esdras seems to soften the idea that a pharaoh spoke for God. The Hebrew of Chronicles is the harder reading and is followed."
+ },
+ {
+  "v": "36:2",
+  "a": "he reigned three months in Jerusalem",
+  "t": "Three added verses in the Greek",
+  "p": "After this verse the Greek adds 36:2a–c, from 2 Kings 23:31–33: Jehoahaz's mother, his evil, and his arrest.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Esdras 1:34–35 (KJV numbering)",
+    "orig": "",
+    "en": "(no addition)",
+    "plain": "he reigned three months in Jerusalem"
+   },
+   {
+    "w": "Septuagint (Rahlfs): 36:2a–c",
+    "orig": "καὶ ὄνομα τῆς μητρὸς αὐτοῦ Αμιταλ θυγάτηρ Ιερεμιου ἐκ Λοβενα ... καὶ ἔδησεν αὐτὸν Φαραω Νεχαω ἐν Δεβλαθα ἐν γῇ Εμαθ",
+    "en": "His mother's name was Amital daughter of Jeremiah, from Lobena. He did evil before the Lord as his fathers had done. Pharaoh Neco bound him at Deblatha in the land of Hamath, so that he would not reign in Jerusalem",
+    "plain": "he reigned three months in Jerusalem. [Plus: his mother Amital (Hamutal) of Libnah; he did evil; Neco bound him at Riblah]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek fills Chronicles from 2 Kings 23:31–33, with Riblah spelled Deblatha. The Hebrew of Chronicles is followed.",
+  "s": [
+   "rahlfs-lxx",
+   "allen-greek-chronicles"
+  ]
+ },
+ {
+  "v": "36:4",
+  "a": "Joahaz his brother, Neco took away and brought to Egypt.",
+  "t": "Jehoahaz's death and Jehoiakim's tax",
+  "p": "The Greek adds that Jehoahaz died in Egypt, then a verse (36:4a) on the tax Jehoiakim raised for Neco.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(no addition)",
+    "plain": "Joahaz his brother, Neco took away and brought to Egypt."
+   },
+   {
+    "w": "Septuagint (Rahlfs): end of 36:4 and 36:4a",
+    "orig": "καὶ ἀπέθανεν ἐκεῖ ... τότε ἤρξατο ἡ γῆ φορολογεῖσθαι τοῦ δοῦναι τὸ ἀργύριον ἐπὶ στόμα Φαραω",
+    "en": "and he died there. They gave the silver and gold to Pharaoh; then the land began to be taxed, to pay the silver at Pharaoh's word, each man by his means",
+    "plain": "Joahaz his brother, Neco took away and brought to Egypt, and he died there. [Plus: the land taxed to pay Pharaoh]"
+   }
+  ],
+  "follow": 0,
+  "why": "Both additions match 2 Kings 23:34–35. The Hebrew of Chronicles is followed.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "36:5",
+  "a": "He did what was evil in the eyes of the LORD his God",
+  "t": "Four added verses in the Greek",
+  "p": "The Greek names Jehoiakim's mother and then adds 36:5a–d, drawn from 2 Kings 24:1–4.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Esdras 1:39 (KJV numbering)",
+    "orig": "",
+    "en": "(no addition)",
+    "plain": "He did what was evil in the eyes of the LORD his God"
+   },
+   {
+    "w": "Septuagint (Rahlfs): 36:5 and 36:5a–d",
+    "orig": "καὶ ὄνομα τῆς μητρὸς αὐτοῦ Ζεχωρα θυγάτηρ Νηριου ἐκ Ραμα ... διὰ τὰς ἁμαρτίας Μανασση",
+    "en": "Jehoiakim's mother was Zechora daughter of Nerias, from Rama. He served Nebuchadnezzar three years and rebelled; the Lord sent Chaldeans and raiders from Syria, Moab, Ammon and Samaria; the Lord's anger was on Judah for Manasseh's sins and for the innocent blood Jehoiakim shed",
+    "plain": "He did what was evil in the eyes of the LORD his God [plus additions like 2 Kings 24:1–4]"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 35:19, 36:2 and 36:4, the Greek fills Chronicles from Kings, though its mother's name (Zechora daughter of Nerias, from Rama) differs from Kings' Zebudah daughter of Pedaiah of Rumah (2 Kings 23:36). The Hebrew of Chronicles is followed.",
+  "s": [
+   "rahlfs-lxx",
+   "allen-greek-chronicles"
+  ]
+ },
+ {
+  "v": "36:8",
+  "a": "the abhorrent things he did and what was found against him",
+  "t": "His crimes, or a burial?",
+  "p": "The Hebrew speaks of Jehoiakim's abhorrent deeds. The Greek has 'all that he did' and adds a burial in 'Ganoza'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תֹעֲבֹתָיו אֲשֶׁר־עָשָׂה וְהַנִּמְצָא עָלָיו",
+    "en": "his abominations that he did and what was found against him",
+    "plain": "the abhorrent things he did and what was found against him"
+   },
+   {
+    "w": "Septuagint (Rahlfs)",
+    "orig": "καὶ πάντα ἃ ἐποίησεν ... καὶ ἐκοιμήθη Ιωακιμ μετὰ τῶν πατέρων αὐτοῦ καὶ ἐτάφη ἐν Γανοζα μετὰ τῶν πατέρων αὐτοῦ",
+    "en": "all that he did ... and Jehoiakim lay down with his ancestors and was buried in Ganoza with his ancestors",
+    "plain": "all that he did. He lay down with his ancestors and was buried in Ganoza with his ancestors"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has a burial notice in place of the charge. Ganoza is a transliteration, probably of <i>gan 'uzza'</i>, \"the garden of Uzza,\" where Manasseh and Amon were buried (2 Kings 21:18; 2 Kings 21:26). The Hebrew is followed.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "36:9",
+  "a": "eight years old",
+  "t": "Eight or eighteen?",
+  "p": "Chronicles' Hebrew says Jehoiachin was eight. Kings, Rahlfs' Greek and 1 Esdras say eighteen.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Vaticanus (Brenton: 'eight')",
+    "orig": "בֶּן־שְׁמוֹנֶה שָׁנִים",
+    "en": "eight years old",
+    "plain": "eight years old"
+   },
+   {
+    "w": "2 Kings 24:8; Septuagint (Rahlfs, with Alexandrinus and the Lucianic manuscripts); Syriac; 1 Esdras 1:43 (KJV numbering; 1:41 in Rahlfs); some Hebrew manuscripts",
+    "orig": "υἱὸς ὀκτωκαίδεκα ἐτῶν",
+    "en": "eighteen years old",
+    "plain": "eighteen years old"
+   }
+  ],
+  "follow": 0,
+  "why": "Eighteen is almost certainly the original number, since Jehoiachin had wives (2 Kings 24:15); \"ten\" probably fell out of the Hebrew in copying. The Plain still prints the Hebrew of Chronicles, as this part does for every number, and flags the slip here and in the note. The book owner may prefer to print eighteen, with the Masoretic Text as the variant.",
+  "s": [
+   "allen-greek-chronicles",
+   "rahlfs-lxx",
+   "klein-2chron"
+  ]
+ },
+ {
+  "v": "36:10",
+  "a": "Zedekiah, his brother",
+  "t": "Brother or uncle?",
+  "p": "The Hebrew calls Zedekiah Jehoiachin's brother. The Greek and Kings make him his uncle.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֶת־צִדְקִיָּהוּ אָחִיו",
+    "en": "Zedekiah his brother",
+    "plain": "Zedekiah, his brother"
+   },
+   {
+    "w": "Septuagint (Rahlfs); 2 Kings 24:17 ('his uncle')",
+    "orig": "Σεδεκιαν ἀδελφὸν τοῦ πατρὸς αὐτοῦ",
+    "en": "Zedekiah his father's brother",
+    "plain": "Zedekiah, his uncle"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Brother\" can mean relative, and the Greek may have clarified it. The Plain keeps the Hebrew; the note explains.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "36:22",
+  "a": "by Jeremiah's mouth",
+  "t": "By or from Jeremiah's mouth",
+  "p": "Ezra 1:1, repeating this verse, has 'from the mouth' (mippi). Chronicles and 1 Esdras have 'by the mouth'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of 2 Chronicles; Septuagint (Rahlfs: διὰ στόματος Ιερεμιου); 1 Esdras 2:1 (ἐν στόματι Ιερεμιου)",
+    "orig": "בְּפִי יִרְמְיָהוּ",
+    "en": "by the mouth of Jeremiah",
+    "plain": "by Jeremiah's mouth"
+   },
+   {
+    "w": "Masoretic Text of Ezra 1:1",
+    "orig": "מִפִּי יִרְמְיָהוּ",
+    "en": "from the mouth of Jeremiah",
+    "plain": "from Jeremiah's mouth"
+   }
+  ],
+  "follow": 0,
+  "why": "A small difference between the two copies of the decree. Chronicles matches its own phrase in 36:21, and 1 Esdras sides with it.",
+  "s": [
+   "williamson-chronicles",
+   "rahlfs-lxx",
+   "talshir-1esdras"
+  ]
+ }
+]

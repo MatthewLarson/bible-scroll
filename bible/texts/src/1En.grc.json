@@ -1,0 +1,1326 @@
+{
+ "_about": {
+  "summary": "Surviving Greek text of 1 Enoch, keyed by R. H. Charles's chapter:verse numbering. All Greek is taken from one public-domain book: R. H. Charles, The Book of Enoch, translated from Professor Dillmann's Ethiopic text, emended and revised (Oxford: Clarendon Press, 1893). It was read from the Source Library OCR transcription of two scanned copies (Source Library ids 69ae9b59636ab3c20b7cf1a0 and 69ae9b5b0c67f8f6d433e717), and doubtful readings were checked against the page images. Nothing here is taken from a copyrighted edition. No Greek was retyped from memory or reconstructed.",
+  "edition_identity": "Source Library catalogues book 69ae9b59636ab3c20b7cf1a0 as August Dillmann, \"Das Buch Henoch: Äthiopischer Text\", language Latin. That record is wrong. The scans are of Charles's 1893 English edition (Oxford, Clarendon Press; Cornell University Library copy). Its Appendix C prints the Gizeh Greek, and the footers of the body pages print the Syncellus and Vatican Greek. Charles used Dillmann's Ethiopic text, which is probably why the record names Dillmann.",
+  "keys": {
+   "c:v": "The Gizeh text (first hand) wherever it exists. The Vatican fragment for 89:42–49, the only Greek witness there in this file.",
+   "c:v@giz2": "The Gizeh MS's second copy of 19:3–21:9 (G²), printed by Charles in a parallel column on pp. 356–359. Only 20:2–21:9 is printed as running text. For 19:3–20:1 Charles gives the G² variants only in his apparatus, so those verses are not keyed. G² lacks 20:1 and the name Uriel at the start of 20:2.",
+   "c:v@syn": "Syncellus, wherever it overlaps Gizeh (6:1–10:14, 15:8–16:1). For 8:4–9:4 this is Syncellus's first excerpt. 6:6@syn has no Gizeh partner, because the Gizeh text of 6:6 is only an omission mark (see missing_material).",
+   "c:v@syn2": "Syncellus's second excerpt, for 8:4–9:4 only. The two excerpts overlap there, and the second continues to 10:14 under @syn.",
+   "w": "Each entry's \"w\" names the witness and the edition and pages it was taken from."
+  },
+  "witnesses": {
+   "Gizeh (Akhmim) MS": "Greek parchment codex found at Akhmim (Panopolis) in 1886–87 and first published by Bouriant (1892). It holds 1:1–32:6, with 19:3–21:9 copied twice. Charles printed the text on pp. 326–370 of his Appendix C, using Bouriant's and Lods's editions and the Ethiopic. Charles dates the MS to the 8th–12th century, following Bouriant. Modern scholarship usually dates it to the 5th–6th century. The entries keep Charles's text and do not adopt that date.",
+   "Syncellus": "Excerpts quoted in the Chronographia of George Syncellus (c. 800), from Dindorf's 1829 edition. Charles printed them in the footers of pp. 62–68 (6:1–9:4), 68–75 (8:4–10:14) and 83–85 (15:8–16:1). Syncellus has no verse numbers. The verse division here is mine, made by matching the excerpts to Charles's Gizeh and Ethiopic verses. Each verse boundary was placed with a substring copied from the OCR, so no Greek was retyped. Where Syncellus rearranges the text, a boundary is approximate. For example, 7:2@syn includes the giants' teaching of sorcery, and 8:1@syn–8:3@syn follow Syncellus's own order and list of the teachers. Following Charles's note that Syn. Gk.¹ adds \"μετὰ δὲ ταῦτα …\" at the start of 8:4, the clause \"Μετὰ δὲ ταῦτα ἤρξαντο οἱ γίγαντες …\" begins 8:4@syn. The excerpt headings that Charles prints (\"Ἐκ τοῦ πρώτου βιβλίου Ἐνὼχ περὶ τῶν ἐγρηγόρων. G. Syncellus, S. 20–23. Hen. 6, 1–9, 4.\"; \"Ἐκ τοῦ λόγου Ἐνώχ. Τὰ λοιπὰ περὶ ἐγρηγόρων. (G. Syncellus. S. 42-47.) Hen. 8, 4-10, 14.\"; \"Hen. 15, 8–16, 1.\") are left out. Syncellus's introductory words are kept: \"καὶ τὰ ἑξῆς\" closes 9:4@syn, and \"Καὶ μεθ’ ἕτερα·\" opens 15:8@syn. \"(al.: πρῶτα)\" in 15:11@syn is a variant note printed in the text and is kept as printed. 15:10 has no Syncellus text.",
+   "Vatican fragment": "A Vatican MS written in tachygraphy. It was published by Mai (Patrum Nova Bibliotheca ii) and deciphered by Gildemeister (ZDMG 1855, pp. 621–622). Charles printed it on pp. 238–240 under the heading \"Ἐκ τοῦ τοῦ Ἐνὼχ βιβλίου χρῆσις\", which is left out here. It has no verse numbers, so the division into 89:42–49 is mine, following Charles's English verses. The excerptor's words \"Ἑξῆς δὲ τούτοις γέγραπται ὅτι\" and \"φησίν\" in 89:47 are kept. \". . .\" in 89:43 is printed in the source. \"ἔμπροσ-|θεν\" across pp. 239/240 is rejoined."
+  },
+  "brackets": "Charles's brackets are kept as printed (his explanation is on p. 325). ( ) marks words supplied by the editor, usually from the Ethiopic. ⟨ ⟩ marks words that may be original but have no Ethiopic parallel. [ ] marks corrupt additions or glosses. \". . . .\" marks an omission or lacuna. The OCR gives the angle brackets variously as ⟨⟩, 〈〉 or <>. All are normalized to ⟨⟩. \"(sic)\" in 1:5 is Charles's. Charles also puts a dagger † in the margin of a line where he has emended drastically. Those marginal daggers are removed from the text, because their position is only line-level and the OCR sometimes placed them mid-word. Daggers stand by lines of these Gizeh verses: 5:5, 5:6, 5:8, 6:8, 9:1, 9:3, 9:7, 10:7, 10:10, 10:11, 10:14, 10:19, 12:4, 12:6, 13:7, 13:10, 14:2, 14:3, 14:6, 14:9, 14:13, 14:15, 14:18, 14:19, 14:23, 15:5, 15:9, 15:11, 15:12, 16:3, 17:3, 17:6, 18:4, 18:5, 20:4, 20:5, 21:3, 21:7, 22:3, 22:4, 22:5, 22:6, 22:7, 22:8, 22:10, 22:11, 23:2, 24:4, 25:3, 25:4, 25:5, 25:7, 26:2, 26:3, 27:3, 27:4, 28:3, 31:2, 31:3, 32:2, 32:3; and of these G² verses: 20:6, 21:3, 21:7. When a dagger line falls between two verses, the OCR may have attached it to the wrong one.",
+  "normalizations": [
+   "Zero-width characters (U+200B–U+200F, U+2060–U+2064, U+FEFF) are stripped.",
+   "Line-end and page-end hyphenation is rejoined.",
+   "All whitespace is collapsed to a single space.",
+   "Any space before \",\" \";\" \"·\" or a single \".\" is removed. Spacing inside \". . .\" omission marks is kept as printed.",
+   "The OCR writes some breathings as a separate apostrophe before a capital (’Α, ‘Ρ, ’Ε …). These are replaced by the precomposed capital with smooth breathing (’) or rough breathing (‘). Initial Ρ is always Ῥ.",
+   "The elision mark (' or ᾿ in the OCR) is written ’ (U+2019).",
+   "Greek numeral marks are written ʹ (U+0374). This covers the list of leaders in 6:7@syn and ζʹ \"seven\" in 20:7@giz2 and 21:3@giz2. The numeral for six is written ϛ, as printed.",
+   "Running heads, page numbers and line-number markers are removed. So is the manuscript-spelling apparatus that Charles prints under the Gizeh text, along with all English notes."
+  ],
+  "ocr_fixes": "Only obvious OCR errors were changed. Each fix is listed as verse: OCR → printed page, checked against the scan of copy 69ae9b59636ab3c20b7cf1a0 and, for most, also against the second copy's OCR. All other text is the OCR reading. Wherever the two OCR copies disagreed in the Gizeh text, the scan was consulted.",
+  "ocr_fix_list": [
+   "1:2: Ἐνώχ → Ἐνὼχ",
+   "5:4: μεγαλωσύνης → μεγαλοσύνης",
+   "6:7: Σεμιαζᾶ(s) → Σεμιαζᾶ(ς) (Latin s for final sigma)",
+   "7:3: κατήσθоσαν → κατήσθοσαν (Cyrillic о for Greek ο)",
+   "8:3: Χωκχιὴλ → Χωχχιὴλ",
+   "9:11: αὐτούς καὶ οὐδὲ → αὐτοὺς καὶ οὐδὲ",
+   "10:7: ἐδίδαξαν → ἐδί(δα)ξαν",
+   "12:3: ⟨Ἐνὼχ τὸν γραμματέα καὶ εἶπεν ἐμοί⟩: → (Ἐνὼχ τὸν γραμματέα καὶ εἶπεν ἐμοί)·",
+   "13:8: καὶ δράσεις ἐπ → καὶ ὁράσεις ἐπ",
+   "13:8: ἴδον δράσεις → ἴδον ὁράσεις",
+   "13:10: τὰς δράσεις → τὰς ὁράσεις",
+   "14:1: τῇ δράσει → τῇ ὁράσει",
+   "14:3: ὡς ἔκτισε  → ὡς (ἔκτισε ",
+   "14:5: Ἵνα → ἵνα",
+   "14:8: διαστραπαὶ με → διαστραπαί με",
+   "14:9: εἰσἠνεγκάν → εἰσήνεγκάν",
+   "14:10: λιθοπλάκες → λιθωπλάκες",
+   "14:16: ἐν μεγαλωσύνῃ → ἐν μεγαλοσύνῃ",
+   "14:16: τῆς μεγαλωσύνης → τῆς μεγαλοσύνης",
+   "14:22: ἐστήκα(σιν) → ἑστήκα(σιν)",
+   "14:23: οἱ ἄγιοι → οἱ ἅγιοι",
+   "14:25: προσηγαγέν → προσήγαγέν",
+   "15:1: Ἐνώχ → Ἐνὼχ",
+   "15:11: ἐσθίου(τα) → ἐσθίον(τα)",
+   "17:6: ποταμού(s) → ποταμού(ς) (Latin s for final sigma)",
+   "18:6: Παρήλθον → Παρῆλθον",
+   "20:4: φωστῆρων → φωστήρων",
+   "20:7: ἀγγέλων ὁ ἐπὶ τοῦ παραδείσου → ἀγγέλων ὃ[ς] ἐπὶ τοῦ παραδείσου",
+   "20:7: χερουβίν → χερουβὶν",
+   "22:11: πνευμάτων ἐκεῖ → πνευμάτων· ἐκεῖ",
+   "22:13: καὶ οὕτως ἐκτίσθη → ⟨καὶ⟩ οὕτως ἐκτίσθη",
+   "23:4: ἐκδιώκον ἐστὶν πάντα → ἐκδιῶκόν ἐστιν πάντας",
+   "24:2: (ἐν) ἐν τῷ ἑνί, καὶ → (ἓν) ἐν τῷ ἑνί, καὶ",
+   "24:2: νότον (ἐν) ἐν → νότον (ἓν) ἐν",
+   "24:4: ὠσφρανμαι → ὤσφρανμαι",
+   "26:3: ὑψηλό τερον → ὑψηλότερον (word divided across pages 387/388; rejoined)",
+   "27:5: ἠὐλόγησα → ηὐλόγησα",
+   "20:4@giz2: φωστῆρων → φωστήρων",
+   "20:7@giz2: ’Ρεμεὶηλ → Ῥεμειὴλ (accents hard to read on the scan; best reading)",
+   "21:5@giz2: Οὐριήλ → Οὐριὴλ",
+   "21:6@giz2: μυρία → μύρια",
+   "6:7@syn: ’Οραμμαμή → Ὁραμμαμή (scan shows rough breathing)",
+   "6:7@syn: ισ' → ιϛ'",
+   "89:47: Ἐξῆς → Ἑξῆς (scan shows rough breathing)"
+  ],
+  "not_keyed": {
+   "Syncellus, end of first excerpt (after 9:4)": "Syncellus's own summary of 10:4–12. It is not keyed because it paraphrases rather than quotes: \"τότε ὁ ὕψιστος ἐκέλευσε τοῖς ἁγίοις ἀρχαγγέλοις, καὶ ἔδησαν τοὺς ἐξάρχους αὐτῶν καὶ ἔβαλον αὐτοὺς εἰς τὴν ἄβυσσον, ἕως τῆς κρίσεως, καὶ τὰ ἑξῆς. Καὶ ταῦτα μὲν ὁ Ἐνὼχ μαρτυρεῖ.\"",
+   "Syncellus, Noah fragment (Charles p. 86)": "A passage that Charles says is not in the Ethiopic and probably comes from a lost Apocalypse of Noah. It is not keyed, because it has no Charles verse: \"Καὶ αὖθις· παρὰ δὲ τοῦ ὄρους ἐν ᾧ ὤμοσαν καὶ ἀνεθεμάτισαν πρὸς τὸν πλησίον αὐτῶν, ὅτι εἰς τὸν αἰῶνα οὐ μὴ ἀποστῇ ἀπ’ αὐτοῦ ψῦχος καὶ χιὼν καὶ πάχνη καὶ δρόσος οὐ μὴ καταβῇ εἰς αὐτό, εἰ μὴ εἰς κατάραν καταβήσεται ἐπ’ αὐτό, μέχρις ἡμέρας κρίσεως τῆς μεγάλης. ἐν τῷ καιρῷ ἐκείνῳ κατακαυθήσεται καὶ ταπεινωθήσεται καὶ ἔσται κατακαιόμενον καὶ τηκόμενον ὡς κηρὸς ἀπὸ πυρός, οὕτως κατακαήσεται περὶ πάντων τῶν ἔργων αὐτοῦ. καὶ νῦν ἐγὼ λέγω ὑμῖν υἱοῖς ἀνθρώπων, ὀργὴ μεγάλη καθ’ ὑμῶν, κατὰ τῶν υἱῶν ὑμῶν, καὶ οὐ παύσεται ἡ ὀργὴ αὕτη ἀφ’ ὑμῶν, μέχρι καιροῦ σφαγῆς τῶν υἱῶν ὑμῶν. καὶ ἀπολοῦνται οἱ ἀγαπητοὶ ὑμῶν καὶ ἀποθανοῦνται οἱ ἔντιμοι ὑμῶν ἀπὸ πάσης τῆς γῆς, ὅτι πᾶσαι αἱ ἡμέραι τῆς ζωῆς αὐτῶν ἀπὸ τοῦ νῦν οὐ μὴ ἔσονται πλείω τῶν ἑκατὸν εἴκοσιν ἐτῶν. καὶ μὴ δόξητε ἔτι ζῆσαι ἐπὶ πλείονα ἔτη· οὐ γὰρ ἔστιν ἐπ’ αὐτοῖς πᾶσα ὁδὸς ἐκφεύξεως ἀπὸ τοῦ νῦν διὰ τὴν ὀργήν, ἣν ὠργίσθη ὑμῖν ὁ βασιλεὺς πάντων τῶν αἰώνων· μὴ νομίσητε ὅτι ἐκφεύξεσθε ταῦτα.\"",
+   "Syncellus, closing formula (Charles p. 86)": "Καὶ ταῦτα μὲν ἐκ τοῦ πρώτου βιβλίου Ἐνὼχ περὶ τῶν ἐγρηγόρων.",
+   "Charles p. 67, footnote 474": "\"ἤδη δὲ καὶ Ἐνώχ φησιν …\". This is a footnote paraphrase (from Syncellus), not text of Enoch. Not used."
+  },
+  "missing_material": [
+   "Gizeh 4:1 is absent. The MS passes from the first words of 3:1 straight to 5:1, so 3:1 is only a fragment.",
+   "6:6 in Gizeh is only an omission mark \". . . .\" (Charles: \"6. . . . .\"). It is not keyed under 6:6, though 6:5 keeps the mark at its end as printed. The Syncellus text is under 6:6@syn.",
+   "Charles also marks lacunae or omissions inside 5:2, 10:16, 10:21 (which opens with \". . .\"), 18:3 (which opens with \". . . . .\"), 24:1 and 26:6. They are kept as printed.",
+   "G² 19:3–20:1 is not keyed, because Charles prints those variants only in his apparatus.",
+   "Syncellus 15:10 is absent from his excerpt.",
+   "Apart from 89:42–49, no Greek for chapters 33–108 appears in this public-domain edition. That material survives only in the copyrighted editions listed under not_included."
+  ],
+  "not_included": {
+   "note": "These witnesses are copyrighted or not public domain, so none of their text is included. The verse coverage below is from memory and has not been checked against the editions.",
+   "Chester Beatty–Michigan papyrus (C. Bonner, The Last Chapters of Enoch in Greek, 1937)": "97:6–107:3, lacking chapter 105 (from memory, not checked).",
+   "P. Oxy. XVII 2069 (Hunt 1927, identified as Enoch by Milik)": "fragments of 77:7–78:1, 78:8, 85:10–86:2 and 87:1–3 (from memory, not checked).",
+   "Qumran Cave 7 Greek papyri (7Q4, 7Q8, 7Q12 and others), proposed as 1 Enoch 103 and 105": "small fragments, identification disputed (from memory, not checked).",
+   "M. Black, Apocalypsis Henochi Graece (PVTG 3, 1970)": "a critical collection of the Greek witnesses above, with patristic quotations. Its Gizeh, Syncellus and Vatican texts overlap this file (from memory, not checked).",
+   "J. T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (1976)": "Aramaic, not Greek. 4QEnoch a–g and 4QEnastr a–d cover parts of chapters 1–36, 72–82, 85–90 and 91–107 (from memory, not checked).",
+   "Jude 14–15": "quotes 1:9 in Greek. It is a quotation in another book, not a witness keyed here."
+  },
+  "counts": {
+   "Gizeh G¹ (c:v)": 234,
+   "Gizeh G² (@giz2)": 15,
+   "Syncellus (@syn)": 43,
+   "Syncellus second excerpt (@syn2)": 5,
+   "Vatican (89:42–49)": 8
+  }
+ },
+ "1:1": {
+  "text": "Λόγος εὐλογίας Ἐνώχ, καθὼς εὐλόγησεν ἐκλεκτοὺς δικαίους οἵτινες ἔσονται εἰς ἡμέραν ἀνάγκης ἐξᾶραι πάντας τοὺς ἐχθρούς, ⟨καὶ σωθήσονται δίκαιοι⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:2": {
+  "text": "Καὶ ἀναλαβὼν τὴν παραβολὴν αὐτοῦ εἶπεν Ἐνὼχ ἄνθρωπος δίκαιος· Ἔστιν ὅρασις ἐκ θεοῦ αὐτῷ ἀνεῳγμένη, καὶ ἑώρα τὴν ὅρασιν τοῦ ἁγίου καὶ τοῦ οὐρανοῦ ἣν ἔδειξάν μοι ἄγγελοι ⟨ἅγιοι⟩ καὶ ἤκουσα [ἀγγέλων ἐγὼ καὶ ὡς ἤκουσα] παρ’ αὐτῶν πάντα καὶ ἔγνων ἐγὼ θεωρῶν. καὶ οὐκ εἰς τὴν νῦν γενεὰν ⟨διενοούμην⟩ ἀλλὰ ἐπὶ πόρρω οὖσαν γενεάν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:3": {
+  "text": "καὶ περὶ τῶν ἐκλεκτῶν νῦν λέγω καὶ περὶ αὐτῶν ἀνέλαβον τὴν παραβολὴν ⟨μου⟩. Καὶ ἐξελεύσεται ὁ ἅγιός [μου] ὁ μέγας ἐκ τῆς κατοικήσεως αὐτοῦ, καὶ ὁ θεὸς τοῦ αἰῶνος",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:4": {
+  "text": "ἐπὶ γῆν πατήσει ἐπὶ τὸ Σινᾶ ὄρος καὶ φανήσεται ἐκ τῆς παρεμβολῆς αὐτοῦ καὶ φανήσεται ἐν τῇ δυνάμει τῆς ἰσχύος αὐτοῦ ἀπὸ τοῦ οὐρανοῦ ⟨τῶν οὐρανῶν⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:5": {
+  "text": "καὶ φοβηθήσονται πάντες, καὶ [πιστεύσουσιν] οἱ ἐγρήγοροι [καὶ ᾄσουσιν ἀπόκρυφα ἐν πᾶσιν τοῖς ἄκροις τῆς (sic) καὶ] σεισθήσονται [πάντα τὰ ἄκρα τῆς γῆς] καὶ λήμψεται αὐτοὺς τρόμος καὶ φόβος μέγας μέχρι τῶν περάτων τῆς γῆς,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:6": {
+  "text": "καὶ σεισθήσονται ⟨καὶ πεσοῦνται καὶ διαλυθήσονται⟩ ὄρη ὑψηλά, καὶ ταπεινωθήσονται βουνοὶ ὑψηλοὶ [τοῦ διαρρυῆναι ὄρη] καὶ τακήσονται ὡς κηρὸς ἀπὸ προσώπου πυρός [ἐν φλογί].",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:7": {
+  "text": "καὶ διασχισθήσεται ἡ γῆ ⟨σχίσμα ῥαγῶδες⟩, καὶ πάντα ὅσα ἐστὶν ἐπὶ τῆς γῆς ἀπολεῖται καὶ κρίσις ἔσται κατὰ πάντων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:8": {
+  "text": "καὶ μετὰ τῶν δικαίων τὴν εἰρήνην ποιήσει, καὶ ἐπὶ τοὺς ἐκλεκτοὺς ἔσται συντήρησις [καὶ εἰρήνη] καὶ ἐπ’ αὐτοὺς γενή(σε)ται ἔλεος, καὶ ἔσονται πάντες τοῦ θεοῦ, καὶ τὴν εὐδοκίαν δώσει αὐτοῖς καὶ [πάντας] εὐλογήσει [καὶ πάντων ἀντιλήμψεται καὶ βοηθήσει ἡμῖν] καὶ φανήσεται αὐτοῖς φῶς [καὶ ποιήσει ἐπ’ αὐτοὺς εἰρήνην].",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "1:9": {
+  "text": "ὅτι ἔρχεται σὺν τοῖς μυριάσιν [αὐτοῦ καὶ τοῖς] ἁγίοις αὐτοῦ ποιῆσαι κρίσιν κατὰ πάντων, καὶ ἀπολέσει ⟨πάντας⟩ τοὺς ἀσεβεῖς, καὶ (ἐ)λέγξει πᾶσαν σάρκα περὶ πάντων ἔργων ⟨τῆς ἀσεβείας⟩ αὐτῶν ὧν ἠσέβησαν ⟨καὶ σκληρῶν ὧν ἐλάλησαν λόγων καὶ περὶ πάντων ὧν κατελάλησαν⟩ κατ’ αὐτοῦ ἁμαρτωλοὶ ἀσεβεῖς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "2:1": {
+  "text": "Κατανοήσατε πάντα τὰ ἔργα ἐν τῷ οὐρανῷ πῶς οὐκ ἠλλοίωσαν τὰς ὁδοὺς αὐτῶν, καὶ τοὺς φωστῆρας τοὺς ἐν τῷ οὐρανῷ ὡς τὰ πάντα ἀνατέλλει καὶ δύνει, τεταγμένος ἕκαστος ἐν τῷ τεταγμένῳ καιρῷ ⟨καὶ ταῖς ἑορταῖς αὐτῶν φαίνονται⟩ καὶ οὐ παραβαίνουσιν τὴν ⟨ἰδίαν⟩ τάξιν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "2:2": {
+  "text": "ἴδετε τὴν γῆν καὶ διανοήθητε περὶ τῶν ἔργων ἐν αὐτῇ γινομένων ἀπ’ ἀρχῆς μέχρι τελειώσεως [εἰσὶν φθαρτά], ὡς οὐκ ἀλλοιοῦνται ⟨οὐδὲν τῶν ἐπὶ γῆς ἀλλὰ⟩ πάντα ἔργα θεοῦ ⟨ὑμῖν⟩ φαίνεται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "2:3": {
+  "text": "ἴδετε τὴν θερείαν καὶ τὸν χειμῶνα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "3:1": {
+  "text": "καταμάθετε καὶ ἴδετε πάντα τὰ δένδρα,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:1": {
+  "text": "πῶς τὰ φύλλα χλωρὰ ἐν αὐτοῖς σκέπονται τὰ δένδρα καὶ [πᾶς] ὁ καρπὸς αὐτῶν [εἰς τιμὴν καὶ δόξαν] διανοήθητε, ⟨καὶ γνῶτε⟩ περὶ πάντων ⟨τῶν ἔργων αὐτοῦ⟩, καὶ νοήσατε ὅτι [θεὸς ζῶν] ἐποίησεν αὐτὰ οὕτως καὶ ζῇ εἰς [πάντας] τοὺς αἰῶνας",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:2": {
+  "text": "καὶ τὰ ἔργα αὐτοῦ [πάντα ὅσα ἐποίησεν εἰς τοὺς αἰῶνας] ἀπὸ ἐνιαυτοῦ εἰς ἐνιαυτὸν γινόμενα [πάντα οὕτως] καὶ πάντα [ὅσα] ἀποτελοῦσιν αὐτῷ τὰ ἔργα καὶ οὐκ ἀλλοιοῦνται [αὐτῶν τὰ ἔργα] ἀλλ’ ὥσπερεὶ κατὰ ἐπιταγὴν . . . τὰ πάντα γίνεται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:3": {
+  "text": "ἴδετε πῶς ἡ θάλασσα καὶ οἱ ποταμοὶ ὡς ὁμοίως ἀποτελοῦσιν ⟨καὶ οὐκ ἀλλοιοῦσιν αὐτῶν τὰ ἔργα ἀπὸ τῶν λόγων αὐτοῦ⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:4": {
+  "text": "ὑμεῖς δὲ οὐκ ἐνεμείνατε οὐδὲ ἐποιήσατε κατὰ τὰς ἐντολὰς αὐτοῦ, ἀλλὰ ἀπέστητε καὶ κατελαλήσατε μεγάλους καὶ σκληροὺς λόγους ἐν στόματι ἀκαθαρσίας ὑμῶν κατὰ τῆς μεγαλοσύνης αὐτοῦ. ⟨Ὅτι κατελαλήσατε ἐν τοῖς ψεύμασιν ὑμῶν⟩, σκληροκάρδιοι, οὐκ ἔσται εἰρήνη ὑμῖν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:5": {
+  "text": "τοίγαρ τὰς ἡμέρας ὑμῶν ὑμεῖς καταράσεσθε καὶ τὰ ἔτη τῆς ζωῆς ὑμῶν ἀπολεῖτε, καὶ ⟨τὰ ἔτη τῆς ἀπωλείας ὑμῶν⟩ πληθυνθήσεται ἐν κατάρᾳ αἰώνων, καὶ οὐκ ἔσται ὑμῖν ἔλεος ⟨καὶ εἰρήνη⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:6": {
+  "text": "τότε ἔσται τὰ ὀνόματα ὑμῶν εἰς κατάραν αἰώνιον πᾶσιν τοῖς δικαίοις, καὶ ἐν ὑμῖν καταράσονται πάντες οἱ καταρώμενοι, καὶ πάντες οἱ ἁμαρτωλοὶ [καὶ ἀσεβεῖς ἐν ὑμῖν ὀμοῦνται. καὶ πάντες οἱ (ἀν)αμάρτητοι χαρήσονται, καὶ ἔσται αὐτοῖς λύσις ἁμαρτιῶν καὶ πᾶν ἔλεος καὶ εἰρήνη καὶ ἐπιείκεια· ἔσται αὐτοῖς σωτηρία, φῶς ἀγαθόν, καὶ αὐτοὶ κληρονομήσουσιν τὴν γῆν. καὶ πᾶσιν ὑμῖν τοῖς ἁμαρτωλοῖς οὐχ ὑπάρξει σωτηρία, ἀλλὰ ἐπὶ πάντας ὑμᾶς κατελεύσεται κατάρα],",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:7": {
+  "text": "καὶ τοῖς ἐκλεκτοῖς ἔσται φῶς καὶ χάρις καὶ εἰρήνη καὶ αὐτοὶ κληρονομήσουσιν τὴν γῆν· ὑμῖν δὲ τοῖς ἀσεβέσιν ἔσται κατάρα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:8": {
+  "text": "τότε δοθήσεται τοῖς ἐκλεκτοῖς [φῶς καὶ χάρις, καὶ αὐτοὶ κληρονομήσουσιν τὴν γῆν. τότε δοθήσεται πᾶσιν τοῖς ἐκλεκτοῖς] σοφία, καὶ πάντες οὗτοι ζήσονται καὶ οὐ μὴ ἁμαρτήσονται ἔτι, οὐ κατ’ ἀσέβειαν οὔτε κατὰ ὑπερηφανίαν, ⟨καὶ ἔσται ἐν ἀνθρώπῳ πεφωτισμένῳ φῶς καὶ ἀνθρώπῳ ἐπιστήμονι νόημα.⟩ καὶ οὐ μὴ πλημμελήσουσιν",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "5:9": {
+  "text": "οὐδὲ μὴ ἁμάρτωσιν πάσας τὰς ἡμέρας τῆς ζωῆς αὐτῶν, καὶ οὐ μὴ ἀποθάνωσιν ἐν ὀργῇ θυμοῦ, ἀλλὰ τὸν ἀριθμὸν αὐτῶν ζωῆς ἡμερῶν πληρώσουσιν, καὶ ἡ ζωὴ αὐτῶν αὐξηθήσεται ἐν εἰρήνῃ, καὶ τὰ ἔτη τῆς χαρᾶς αὐτῶν πληθυνθήσεται ἐν ἀγαλλιάσει καὶ εἰρήνῃ αἰῶνος ἐν πάσαις ταῖς ἡμέραις τῆς ζωῆς αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:1": {
+  "text": "Καὶ ἐγένετο, οὗ ἂν ἐπληθύνθησαν οἱ υἱοὶ τῶν ἀνθρώπων, ἐν ἐκείναις ταῖς ἡμέραις ἐγεννήθησαν (αὐτοῖς) θυγατέρες ὡραῖαι καὶ καλαί.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:1@syn": {
+  "text": "Καὶ ἐγένετο, ὅτε ἐπληθύνθησαν οἱ υἱοὶ τῶν ἀνθρώπων, ἐγεννήθησαν αὐτοῖς θυγατέρες ὡραῖαι,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:2": {
+  "text": "καὶ ἐθεάσαντο αὐτὰς οἱ ἄγγελοι υἱοὶ οὐρανοῦ καὶ ἐπεθύμησαν αὐτάς, καὶ εἶπαν πρὸς ἀλλήλους· Δεῦτε ἐκλεξώμεθα ἑαυτοῖς γυναῖκας ἀπὸ . . . τῶν ἀνθρώπων καὶ γεννήσωμεν ἑαυτοῖς τέκνα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:2@syn": {
+  "text": "καὶ ἐπεθύμησαν αὐτὰς οἱ ἐγρήγοροι, καὶ ἀπεπλανήθησαν ὀπίσω αὐτῶν, καὶ εἶπον πρὸς ἀλλήλους, ἐκλεξώμεθα ἑαυτοῖς γυναῖκας ἀπὸ τῶν θυγατέρων τῶν ἀνθρώπων τῆς γῆς.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:3": {
+  "text": "καὶ εἶπεν Σεμειαζᾶς πρὸς αὐτούς, ὃς ἦν ἄρχων αὐτῶν· Φοβοῦμαι μὴ οὐ θελήσητε ποιῆσαι τὸ πρᾶγμα τοῦτο, καὶ ἔσομαι ἐγὼ μόνος ὀφειλέτης ἁμαρτίας μεγάλης.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:3@syn": {
+  "text": "Καὶ εἶπε Σεμιαζᾶς ὁ ἄρχων αὐτῶν πρὸς αὐτούς, φοβοῦμαι μὴ οὐ θελήσητε ποιῆσαι τὸ πρᾶγμα τοῦτο, καὶ ἔσομαι ἐγὼ μόνος ὀφειλέτης ἁμαρτίας μεγάλης.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:4": {
+  "text": "ἀπεκρίθησαν οὖν αὐτῷ πάντες· Ὁμόσωμεν ὅρκῳ πάντες καὶ ἀναθεματίσωμεν [πάντες] ἀλλήλους μὴ ἀποστρέψαι τὴν γνώμην ταύτην, μέχρις οὗ ἂν τελέσωμεν αὐτὴν [καὶ ποιήσωμεν] τὸ πρᾶγμα τοῦτο.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:4@syn": {
+  "text": "καὶ ἀπεκρίθησαν αὐτῷ πάντες καὶ εἶπον, ὀμόσωμεν ἅπαντες ὅρκῳ καὶ ἀναθεματίσωμεν ἀλλήλους τοῦ μὴ ἀποστρέψαι τὴν γνώμην ταύτην, μέχρις οὗ ἀποτελέσωμεν αὐτήν.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:5": {
+  "text": "τότε ὤμοσαν πάντες ὁμοῦ καὶ ἀνεθεμάτισαν ἀλλήλους ἐν αὐτῷ . . . .",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:5@syn": {
+  "text": "τότε πάντες ὤμοσαν ὁμοῦ καὶ ἀνεθεμάτισαν ἀλλήλους.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:6@syn": {
+  "text": "Ἦσαν δὲ οὗτοι διακόσιοι οἱ καταβάντες ἐν ταῖς ἡμέραις Ἰάρεδ εἰς τὴν κορυφὴν τοῦ Ἑρμονιεὶμ ὄρους καὶ ἐκάλεσαν τὸ ὄρος Ἑρμώμ, καθότι ὤμοσαν καὶ ἀνεθεμάτισαν ἀλλήλους ἐν αὐτῷ.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:7": {
+  "text": "Καὶ ταῦτα τὰ ὀνόματα τῶν ἀρχόντων αὐτῶν· Σεμιαζᾶ(ς)—οὗτος ἦν ἄρχων αὐτῶν—, Ἀραθάκ, Κιμβρᾶ, Σαμμανή, Δανειήλ, Ἀρεαρῶς, Σεμιήλ, Ἰωμειήλ, Χωχαριήλ, Ἐζεκιήλ, Βατριήλ, Σαθιήλ, Ἀτριήλ, Ταμιήλ, Βαρακιήλ, Ἀνανθνᾶ, Θωνιήλ, Ῥαμιήλ, Ἀσεάλ, Ῥακειήλ, Τουριήλ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "6:7@syn": {
+  "text": "καὶ ταῦτα τὰ ὀνόματα τῶν ἀρχόντων αὐτῶν· αʹ Σεμιαζᾶς ὁ ἄρχων αὐτῶν. βʹ Ἀταρκούφ. γʹ Ἀρακιήλ. δʹ Χωβαβιήλ. εʹ Ὁραμμαμή. ϛʹ Ῥαμιήλ. ζʹ Σαμψίχ. ηʹ Ζακιήλ. θʹ Βαλκιήλ. ιʹ Ἀζαλζήλ. ιαʹ Φαρμαρός. ιβʹ Ἀμαριήλ. ιγʹ Ἀναγημάς. ιδʹ Θαυσαήλ. ιεʹ Σαμιήλ. ιϛʹ Σαρινᾶς. ιζʹ Εὐμιήλ. ιηʹ Τυριήλ. ιθʹ Ἰουμιήλ. κʹ Σαριήλ.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "6:8": {
+  "text": "οὗτοί εἰσιν οἱ δέκαρχοι αὐτῶν (καὶ οἱ λοιποὶ πάντες μετ’ αὐτῶν).",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:1": {
+  "text": "Καὶ ἔλαβον ἑαυτοῖς γυναῖκας· ἕκαστος αὐτῶν ἐξελέξαντο ἑαυτοῖς γυναῖκας, καὶ ἤρξαντο εἰσπορεύεσθαι πρὸς αὐτὰς καὶ μιαίνεσθαι ἐν αὐταῖς καὶ ἐδίδαξαν αὐτὰς φαρμακείας καὶ ἐπαοιδὰς καὶ ῥιζοτομίας καὶ τὰς βοτάνας ἐδήλωσαν αὐταῖς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:1@syn": {
+  "text": "Οὗτοι καὶ οἱ λοιποὶ πάντες ἐν τῷ χιλιοστῷ ἑκατοστῷ ἑβδομηκοστῷ ἔτει τοῦ κόσμου ἔλαβον ἑαυτοῖς γυναῖκας καὶ ἤρξαντο μιαίνεσθαι ἐν αὐταῖς ἕως τοῦ κατακλυσμοῦ.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "7:2": {
+  "text": "Αἱ δὲ ἐν γαστρὶ λαβοῦσαι ἐτέκοσαν γίγαντας μεγάλους ἐκ πηχῶν τρισχιλίων,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:2@syn": {
+  "text": "καὶ ἔτεκον αὐτοῖς γένη τρία· πρῶτον γίγαντας μεγάλους. οἱ δὲ γίγαντες ἐτέκνωσαν Ναφηλείμ, καὶ τοῖς Ναφηλεὶμ ἐγεννήθησαν Ἐλιούδ. Καὶ ἦσαν αὐξανόμενοι κατὰ τὴν μεγαλειότητα αὐτῶν, καὶ ἐδίδαξαν ἑαυτοὺς καὶ τὰς γυναῖκας ἑαυτῶν φαρμακείας καὶ ἐπαοιδίας.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "7:3": {
+  "text": "οἵτινες κατήσθοσαν τοὺς κόπους τῶν ἀνθρώπων· ὡς δὲ οὐκ ἐδυνήθησαν αὐτοῖς οἱ ἄνθρωποι ἐπιχορηγεῖν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:4": {
+  "text": "οἱ γίγαντες ἐτόλμησαν ἐπ’ αὐτοὺς καὶ κατησθίοσαν τοὺς ἀνθρώπους.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:5": {
+  "text": "καὶ ἤρξαντο ἁμαρτάνειν ἐν τοῖς πετεινοῖς καὶ τοῖς θηρίοις καὶ ἑρπετοῖς καὶ τοῖς ἰχθύσιν καὶ ἀλλήλων τὰς σάρκας κατεσθίειν, καὶ τὸ αἷμα ἔπινον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "7:6": {
+  "text": "τότε ἡ γῆ ἐνέτυχεν κατὰ τῶν ἀνόμων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "8:1": {
+  "text": "Ἐδίδαξεν τοὺς ἀνθρώπους Ἀζαὴλ μαχαίρας ποιεῖν καὶ ὅπλα καὶ ἀσπίδας καὶ θώρακας, [διδάγματα ἀγγέλων] καὶ ὑπέδειξεν αὐτοῖς τὰ μέταλλα καὶ τὴν ἐργασίαν αὐτῶν καὶ ψέλια καὶ κόσμους καὶ στίβεις καὶ τὸ καλλιβλέφαρον καὶ παντοίους λίθους ἐκλεκτοὺς καὶ τὰ βαφικά.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "8:1@syn": {
+  "text": "Πρῶτος Ἀζαὴλ ὁ δέκατος τῶν ἀρχόντων ἐδίδαξε ποιεῖν μαχαίρας καὶ θώρακας καὶ πᾶν σκεῦος πολεμικὸν καὶ τὰ μέταλλα τῆς γῆς καὶ τὸ χρυσίον πῶς ἐργάσωνται, καὶ ποιήσωσιν αὐτὰ κόσμια ταῖς γυναιξὶ καὶ τὸν ἄργυρον. ἔδειξε δὲ αὐτοῖς καὶ τὸ στίλβειν καὶ τὸ καλλωπίζειν καὶ τοὺς ἐκλεκτοὺς λίθους καὶ τὰ βαφικά. καὶ ἐποίησαν ἑαυτοῖς οἱ υἱοὶ τῶν ἀνθρώπων καὶ ταῖς θυγατράσιν αὐτῶν, καὶ παρέβησαν καὶ ἐπλάνησαν τοὺς ἁγίους,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "8:2": {
+  "text": "καὶ ἐγένετο ἀσέβεια πολλή, καὶ ἐπόρνευσαν καὶ ἀπεπλανήθησαν καὶ ἠφανίσθησαν ἐν πάσαις ταῖς ὁδοῖς αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "8:2@syn": {
+  "text": "καὶ ἐγένετο ἀσέβεια πολλὴ ἐπὶ τῆς γῆς. καὶ ἠφάνισαν τὰς ὁδοὺς αὐτῶν.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "8:3": {
+  "text": "Σεμιαζᾶς ἐδίδαξεν ἐπα(οι)δὰς καὶ ῥιζοτομίας, Ἀρμαρῶς ἐπαοιδῶν λυτήριον, Ῥακιὴλ ἀστρολογίας, Χωχχιὴλ τὰ σημειωτικά, Σα(θι)ὴλ ἀστεροσκοπίαν, Σεριὴ(λ) σεληναγωγάς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "8:3@syn": {
+  "text": "Ἔτι δὲ καὶ ὁ πρώταρχος αὐτῶν Σεμιαζᾶς ἐδίδαξεν εἶναι ὀργὰς κατὰ τοῦ νοός, καὶ ῥίζας βοτανῶν τῆς γῆς. ὁ δὲ ἑνδέκατος Φαρμαρὸς ἐδίδαξε φαρμακείας, ἐπαοιδίας, σοφίας, καὶ ἐπαοιδῶν λυτήρια. ὁ ἔννατος ἐδίδαξεν ἀστροσκοπίαν. ὁ δὲ τέταρτος ἐδίδαξεν ἀστρολογίαν. ὁ δὲ ὄγδοος ἐδίδαξεν ἀεροσκοπίαν. ὁ δὲ τρίτος ἐδίδαξεν τὰ σημεῖα τῆς γῆς. ὁ δὲ ἕβδομος ἐδίδαξε τὰ σημεῖα τοῦ ἡλίου. ὁ δὲ εἰκοστὸς ἐδίδαξε τὰ σημεῖα τῆς σελήνης. Πάντες οὗτοι ἤρξαντο ἀνακαλύπτειν τὰ μυστήρια ταῖς γυναιξὶν αὐτῶν καὶ τοῖς τέκνοις αὐτῶν.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "8:4": {
+  "text": "Τῶν οὖν ἀνθρώπων ἀπολλυμένων ἡ βο(ὴ) εἰς οὐρανοὺς ἀνέβη.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "8:4@syn": {
+  "text": "Μετὰ δὲ ταῦτα ἤρξαντο οἱ γίγαντες κατεσθίειν τὰς σάρκας τῶν ἀνθρώπων· καὶ ἤρξαντο οἱ ἄνθρωποι ἐλαττοῦσθαι ἐπὶ τῆς γῆς. οἱ δὲ λοιποὶ ἐβόησαν εἰς τὸν οὐρανὸν περὶ τῆς κακώσεως αὐτῶν λέγοντες εἰσενεχθῆναι τὸ μνημόσυνον αὐτῶν ἐνώπιον κυρίου.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "8:4@syn2": {
+  "text": "Τότε ἐβόησαν οἱ ἄνθρωποι εἰς τὸν οὐρανὸν λέγοντες, εἰσαγάγετε τὴν κρίσιν ἡμῶν πρὸς τὸν ὕψιστον, καὶ τὴν ἀπώλειαν ἡμῶν ἐνώπιον τῆς δόξης τῆς μεγάλης, ἐνώπιον τοῦ κυρίου τῶν κυρίων πάντων τῇ μεγαλωσύνῃ.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:1": {
+  "text": "Τότε παρ(α)κύψαντες Μιχαὴλ καὶ Οὐριὴλ καὶ Ῥαφαὴλ καὶ Γαβριή(λ), οὗτοι ἐκ τοῦ οὐρανοῦ ἐθεάσα(ν)το αἷμα πολὺ ἐκχυννόμεν(ον) ἐπὶ τῆς γῆς (καὶ πᾶσαν ἀνομίαν γινομένην ἐπὶ τῆς γῆς).",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:1@syn": {
+  "text": "Καὶ ἀκούσαντες οἱ τέσσαρες μεγάλοι ἀρχάγγελοι Μιχαὴλ καὶ Οὐριὴλ καὶ Ῥαφαὴλ καὶ Γαβριὴλ παρέκυψαν ἐπὶ τὴν γῆν ἐκ τῶν ἁγίων τοῦ οὐρανοῦ· καὶ θεασάμενοι αἷμα πολὺ ἐκκεχυμένον ἐπὶ τῆς γῆς καὶ πᾶσαν ἀσέβειαν καὶ ἀνομίαν γενομένην ἐπ’ αὐτῆς,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "9:1@syn2": {
+  "text": "Καὶ ἀκούσαντες οἱ τέσσαρες μεγάλοι ἀρχάγγελοι Μιχαὴλ καὶ Οὐριὴλ καὶ Ῥαφαὴλ καὶ Γαβριὴλ παρέκυψαν ἐπὶ τὴν γῆν ἐκ τῶν ἁγίων τοῦ οὐρανοῦ. Καὶ θεασάμενοι αἷμα πολὺ ἐκκεχυμένον ἐπὶ τῆς γῆς καὶ πᾶσαν ἀνομίαν καὶ ἀσέβειαν γινομένην ἐπ’ αὐτῆς,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:2": {
+  "text": "καὶ εἶπαν πρὸς ἀλλήλους· φωνὴ βοῶν τῶν ἐπὶ τῆς γῆς μέχρι πυλῶν τοῦ οὐρανοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:2@syn": {
+  "text": "εἰσελθόντες εἶπον πρὸς ἀλλήλους",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "9:2@syn2": {
+  "text": "εἰσελθόντες εἶπον πρὸς ἀλλήλους,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:3": {
+  "text": "ἐντυγχάνουσιν αἱ ψυχαὶ τῶν ἀνθρώπων λεγόντων· Εἰσαγάγετε τὴν κρίσιν ἡμῶν πρὸς τὸν ὕψιστον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:3@syn": {
+  "text": "ὅτι τὰ πνεύματα καὶ αἱ ψυχαὶ τῶν ἀνθρώπων στενάζουσιν ἐντυγχάνοντα καὶ λέγοντα, ὅτι εἰσαγάγετε τὴν κρίσιν ἡμῶν πρὸς τὸν ὕψιστον, καὶ τὴν ἀπώλειαν ἡμῶν ἐνώπιον τῆς δόξης τῆς μεγαλωσύνης, ἐνώπιον τοῦ κυρίου τῶν κυρίων πάντων τῇ μεγαλωσύνῃ.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "9:3@syn2": {
+  "text": "ὅτι τὰ πνεύματα καὶ αἱ ψυχαὶ τῶν ἀνθρώπων ἐντυγχάνουσι στενάζοντα καὶ λέγοντα, εἰσαγάγετε τὴν δέησιν ἡμῶν πρὸς τὸν ὕψιστον.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:4": {
+  "text": "Καὶ εἶπα(ν) τῷ κυρίῳ (τῶν αἰώνων)· Σὺ εἶ κύριος τῶν κυρίων καὶ ὁ θεὸς τῶν θεῶν καὶ βασιλεὺς τῶν βασιλευόντων. ὁ θρόνος τῆς δόξης σου εἰς πάσας τὰς γενεὰς τοῦ αἰῶνος, καὶ τὸ ὄνομά σου τὸ ἅγιον καὶ μέγα καὶ εὐλόγητον εἰς πάντας τοὺς αἰῶνας.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:4@syn": {
+  "text": "Καὶ εἶπον τῷ κυρίῳ τῶν αἰώνων, σὺ εἶ ὁ θεὸς τῶν θεῶν καὶ κύριος τῶν κυρίων καὶ ὁ Βασιλεὺς τῶν Βασιλευόντων καὶ θεὸς τῶν αἰώνων, καὶ ὁ θρόνος τῆς δόξης σου εἰς πάσας τὰς γενεὰς τῶν αἰώνων, καὶ τὸ ὄνομά σου ἅγιον καὶ εὐλογημένον εἰς πάντας τοὺς αἰῶνας, καὶ τὰ ἑξῆς.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), first excerpt (6:1–9:4); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 62–68"
+ },
+ "9:4@syn2": {
+  "text": "Καὶ προσελθόντες οἱ τέσσαρες ἀρχάγγελοι εἶπον τῷ κυρίῳ, σὺ εἶ θεὸς τῶν θεῶν καὶ κύριος τῶν κυρίων καὶ βασιλεὺς τῶν βασιλευόντων καὶ θεὸς τῶν ἀνθρώπων, καὶ ὁ θρόνος τῆς δόξης σου εἰς πάσας τὰς γενεὰς τῶν αἰώνων, καὶ τὸ ὄνομά σου ἅγιον καὶ εὐλογημένον εἰς πάντας τοὺς αἰῶνας·",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:5": {
+  "text": "σὺ ⟨γὰρ⟩ ἐποίησας τὰ πάντα καὶ πᾶσαν τὴν ἐξουσίαν ἔχων, καὶ πάντα ἐνώπιόν σου φανερὰ καὶ ἀκάλυπτα, καὶ πάντα (ὁρᾷς καὶ οὐκ ἔστιν ὃ κρυβῆναί σε δύναται).",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:5@syn": {
+  "text": "σὺ γὰρ εἶ ὁ ποιήσας τὰ πάντα καὶ πάντων τὴν ἐξουσίαν ἔχων, καὶ πάντα ἐνώπιόν σου φανερὰ καὶ ἀκάλυπτα, καὶ πάντα ὁρᾷς, καὶ οὐκ ἔστιν ὃ κρυβῆναί σε δύναται.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:6": {
+  "text": "[Σὺ] ὁρᾷς ἃ ἐποίησεν Ἀζαήλ, ὡς ἐδίδαξεν πάσας τὰς ἀδικίας ἐπὶ τῆς γῆς καὶ ἐδήλωσεν τὰ μυστήρια τοῦ αἰῶνος τὰ ἐν τῷ οὐρανῷ ⟨ἃ⟩ ἐπιτηδεύουσιν γνῶναι ἄνθρωποι,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:6@syn": {
+  "text": "ὁρᾷς ὅσα ἐποίησεν Ἀζαήλ, καὶ ὅσα εἰσήνεγκεν, ὅσα ἐδίδαξεν, ἀδικίας καὶ ἁμαρτίας ἐπὶ τῆς γῆς, καὶ πάντα δόλον ἐπὶ τῆς ξηρᾶς. ἐδίδαξε γὰρ τὰ μυστήρια καὶ ἀπεκάλυψε τῷ αἰῶνι τὰ ἐν οὐρανῷ. ἐπιτηδεύουσι δὲ τὰ ἐπιτηδεύματα αὐτοῦ, εἰδέναι τὰ μυστήρια οἱ υἱοὶ τῶν ἀνθρώπων.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:7": {
+  "text": "[καὶ] Σεμιαζᾶς, ᾧ τὴν ἐξουσίαν ἔδωκας ἄρχειν τῶν σὺν αὐτῷ ἅμα ὄντων,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:7@syn": {
+  "text": "τῷ Σεμιαζᾷ τὴν ἐξουσίαν ἔδωκας ἔχειν τῶν σὺν αὐτῷ ἅμα ὄντων,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:8": {
+  "text": "καὶ ἐπορεύθησαν πρὸς τὰς θυγατέρας τῶν ἀνθρώπων τῆς γῆς καὶ συνεκοιμήθησαν αὐταῖς καὶ (ἐν ταῖς θηλείαις) ἐμιάνθησαν καὶ ἐδήλωσαν αὐταῖς πάσας τὰς ἁμαρτίας·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:8@syn": {
+  "text": "καὶ ἐπορεύθησαν πρὸς τὰς θυγατέρας τῶν ἀνθρώπων τῆς γῆς, καὶ συνεκοιμήθησαν μετ’ αὐτῶν, καὶ ἐν ταῖς θηλείαις ἐμιάνθησαν, καὶ ἐδήλωσαν αὐταῖς πάσας τὰς ἁμαρτίας, καὶ ἐδίδαξαν αὐτὰς μίσητρα ποιεῖν,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:9": {
+  "text": "καὶ αἱ γυναῖκες ἐγέννησαν τιτᾶνας, ὑφ’ ὧν ὅλη ἡ γῆ ἐπλήσθη αἵματος καὶ ἀδικίας.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:9@syn": {
+  "text": "καὶ νῦν ἰδοὺ αἱ θυγατέρες τῶν ἀνθρώπων ἔτεκον ἐξ αὐτῶν υἱοὺς γίγαντας. κίβδηλα ἐπὶ τῆς γῆς τῶν ἀνθρώπων ἐκκέχυται, καὶ ὅλη ἡ γῆ ἐπλήσθη ἀδικίας.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:10": {
+  "text": "καὶ νῦν ἰδοὺ βοῶσιν αἱ ψυχαὶ τῶν τετελευτηκότων καὶ ἐντυγχάνουσιν μέχρι τῶν πυλῶν τοῦ οὐρανοῦ, καὶ ἀνέβη ὁ στεναγμὸς αὐτῶν καὶ οὐ δύναται ἐξελθεῖν ἀπὸ προσώπου τῶν ἐπὶ τῆς γῆς γινομένων ἀνομημάτων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:10@syn": {
+  "text": "Καὶ νῦν ἰδοὺ τὰ πνεύματα τῶν ψυχῶν τῶν ἀποθανόντων ἀνθρώπων ἐντυγχάνουσι, καὶ μέχρι τῶν πυλῶν τοῦ οὐρανοῦ ἀνέβη ὁ στεναγμὸς αὐτῶν, καὶ οὐ δύναται ἐξελθεῖν ἀπὸ προσώπου τῶν ἐπὶ τῆς γῆς γινομένων ἀδικημάτων.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "9:11": {
+  "text": "καὶ σὺ πάντα οἶδας πρὸ τοῦ αὐτὰ γενέσθαι. καὶ σὺ ὁρᾷς ταῦτα καὶ ἐᾷς αὐτοὺς καὶ οὐδὲ ἡμῖν λέγεις τί δεῖ ποιεῖν αὐτοὺς περὶ τούτων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "9:11@syn": {
+  "text": "καὶ σὺ αὐτὰ οἶδας πρὸ τῶν αὐτὰ γενέσθαι καὶ ὁρᾷς αὐτοὺς καὶ ἐᾷς αὐτούς, καὶ οὐδὲν λέγεις. τί δεῖ ποιῆσαι αὐτοὺς περὶ τούτου;",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:1": {
+  "text": "Τότε ὕψιστος ⟨εἶπεν⟩ [περὶ τούτων] ὁ μέγας ἅγιος, ⟨καὶ⟩ ἐλάλησεν [καὶ εἶπεν] καὶ ἔπεμψεν Ἰστραὴλ πρὸς τὸν υἱὸν Λέμεχ·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:1@syn": {
+  "text": "τότε ὁ ὕψιστος εἶπε καὶ ὁ ἅγιος ὁ μέγας ἐλάλησε, καὶ ἔπεμψε τὸν Οὐριὴλ πρὸς τὸν υἱὸν Λάμεχ λέγων,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:2": {
+  "text": "Εἰπὸν αὐτῷ ἐπὶ τῷ ἐμῷ ὀνόματι· Κρύψον σεαυτόν, καὶ δήλωσον αὐτῷ τέλος ἐπερχόμενον, ὅτι ἡ γῆ ἀπόλλυται πᾶσα καὶ κατακλυσμὸς μέλλει γίνεσθαι πάσης τῆς γῆς καὶ ἀπολέσει πάντα ὅσα ἐστὶν αὐτῇ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:2@syn": {
+  "text": "πορεύου πρὸς τὸν Νῶε καὶ εἰπὸν αὐτῷ τῷ ἐμῷ ὀνόματι, κρύψον σεαυτόν, καὶ δήλωσον αὐτῷ τέλος ἐπερχόμενον, ὅτι ἡ γῆ ἀπόλλυται πᾶσα. καὶ εἰπὸν αὐτῷ ὅτι κατακλυσμὸς μέλλει γίνεσθαι πάσης τῆς γῆς, ἀπολέσαι πάντα ἀπὸ προσώπου τῆς γῆς.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:3": {
+  "text": "καὶ δίδαξον αὐτὸν ὅπως ἐκφύγῃ καὶ μενεῖ τὸ σπέρμα αὐτοῦ εἰς πάσας τὰς γενεὰς τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:3@syn": {
+  "text": "δίδαξον τὸν δίκαιον τί ποιήσει, τὸν υἱὸν Λάμεχ, καὶ τὴν ψυχὴν αὐτοῦ εἰς ζωὴν συντηρήσει καὶ ἐκφεύξεται δι’ αἰῶνος καὶ ἐξ αὐτοῦ φυτευθήσεται φύτευμα καὶ σταθήσεται πάσας τὰς γενεὰς τοῦ αἰῶνος.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:4": {
+  "text": "Καὶ τῷ Ῥαφαὴλ εἶπεν· Δῆσον τὸν Ἀζαὴλ ποσὶν καὶ χερσὶν καὶ βάλε αὐτὸν εἰς τὸ σκότος. καὶ ἄνοιξον τὴν ἔρημον τὴν οὖσαν ἐν τῷ Δαδουήλ, κἀκεῖ βάλε αὐτόν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:4@syn": {
+  "text": "καὶ τῷ Ῥαφαὴλ εἶπε, πορεύου Ῥαφαήλ, καὶ δῆσον τὸν Ἀζαήλ, χερσὶ καὶ ποσὶ συμπόδισον αὐτόν, καὶ ἔμβαλε αὐτὸν εἰς τὸ σκότος, καὶ ἄνοιξον τὴν ἔρημον τὴν οὖσαν ἐν τῇ ἐρήμῳ Δουδαήλ, καὶ ἐκεῖ πορευθεὶς βάλε αὐτόν·",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:5": {
+  "text": "καὶ ὑπόθες αὐτῷ λίθους τραχεῖς καὶ ὀξεῖς καὶ ἐπικάλυψον αὐτῷ τὸ σκότος, καὶ οἰκησάτω ἐκεῖ εἰς τοὺς αἰῶνας, καὶ τὴν ὄψιν αὐτοῦ πώμασον, καὶ φῶς μὴ θεωρείτω.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:5@syn": {
+  "text": "καὶ ὑπόθες αὐτῷ λίθους ὀξεῖς καὶ λίθους τραχεῖς, καὶ ἐπικάλυψον αὐτῷ σκότος, καὶ οἰκησάτω ἐκεῖ εἰς τὸν αἰῶνα, καὶ τὴν ὄψιν αὐτοῦ πώμασον, καὶ φῶς μὴ θεωρείτω.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:6": {
+  "text": "καὶ ἐν τῇ ἡμέρᾳ τῆς μεγάλης τῆς κρίσεως ἀπαχθήσεται εἰς τὸν ἐμπυρισμόν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:6@syn": {
+  "text": "καὶ ἐν τῇ ἡμέρᾳ τῆς κρίσεως ἀπαχθήσεται εἰς τὸν ἐμπυρισμὸν τοῦ πυρός·",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:7": {
+  "text": "καὶ ἰαθήσεται ἡ γῆ ἣν ἠφάνισαν οἱ ἄγγελοι, καὶ τὴν ἴασιν τῆς γῆς δήλωσον, ἵνα ἰάσωνται τὴν πληγήν, ἵνα μὴ ἀπόλωνται πάντες οἱ υἱοὶ τῶν ἀνθρώπων ἐν τῷ μυστηρίῳ ὅλῳ ᾧ ἐπέτασαν οἱ ἐγρήγοροι καὶ ἐδί(δα)ξαν τοὺς υἱοὺς αὐτῶν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:7@syn": {
+  "text": "καὶ ἴασαι τὴν γῆν ἣν ἠφάνισαν οἱ ἐγρήγοροι, καὶ τὴν ἴασιν τῆς πληγῆς δήλωσον, ἵνα ἰάσωνται τὴν πληγήν, καὶ μὴ ἀπόλωνται πάντες οἱ υἱοὶ τῶν ἀνθρώπων, ἐν τῷ μυστηρίῳ ὃ εἶπον οἱ ἐγρήγοροι καὶ ἐδίδαξαν τοὺς υἱοὺς αὐτῶν,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:8": {
+  "text": "καὶ ἠρημώθη πᾶσα ἡ γῆ [ἀφανισθεῖσα] ἐν τοῖς ἔργοις τῆς διδασκαλίας Ἀζαήλ· καὶ ἐπ’ αὐτῷ γράψον τὰς ἁμαρτίας πάσας.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:8@syn": {
+  "text": "καὶ ἠρημώθη πᾶσα ἡ γῆ ἐν τοῖς ἔργοις τῆς διδασκαλίας Ἀζαήλ· καὶ ἐπ’ αὐτῇ γράψον πάσας τὰς ἁμαρτίας.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:9": {
+  "text": "Καὶ τῷ Γαβριὴλ εἶπεν ὁ κύριος· Πορεύου ἐπὶ τοὺς μαζηρέους, ἐπὶ τοὺς κιβδήλους καὶ τοὺς υἱοὺς τῆς πορνείας, καὶ ἀπόλεσον τοὺς υἱοὺς τῶν ἐγρηγόρων ἀπὸ τῶν ἀνθρώπων. πέμψον αὐτοὺς ἐν πολέμῳ ἀπωλείας· μακρότης γὰρ ἡμερῶν οὐκ ἔσται αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:9@syn": {
+  "text": "καὶ τῷ Γαβριὴλ εἶπε, πορεύου Γαβριὴλ ἐπὶ τοὺς γίγαντας ἐπὶ τοὺς κιβδήλους, ἐπὶ τοὺς υἱοὺς τῆς πορνείας, καὶ ἀπόλεσον τοὺς υἱοὺς τῶν ἐγρηγόρων ἀπὸ τῶν υἱῶν τῶν ἀνθρώπων. πέμψον αὐτοὺς εἰς ἀλλήλους, ἐξ αὐτῶν εἰς αὐτούς, ἐν πολέμῳ καὶ ἐν ἀπωλείᾳ, καὶ μακρότης ἡμερῶν οὐκ ἔσται αὐτοῖς,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:10": {
+  "text": "καὶ πᾶσα ὄρεξις (οὐκ) ἔσται τοῖς πατράσιν αὐτῶν [καὶ] περὶ αὐτῶν, ὅτι ἐλπίζουσιν ζῆσαι ζωὴν αἰώνιον καὶ ὅτι ζήσεται ἕκαστος αὐτῶν ἔτη πεντακόσια.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:10@syn": {
+  "text": "καὶ πᾶσα ἐρώτησις οὐκ ἔστι τοῖς πατράσιν αὐτῶν, ὅτι ἐλπίζουσι ζῆσαι ζωὴν αἰώνιον, καὶ ὅτι ζήσεται ἕκαστος αὐτῶν ἔτη πεντακόσια.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:11": {
+  "text": "Καὶ εἶπεν (τῷ) Μιχαήλ· Πορεύου καὶ δήλωσον Σεμιαζᾷ καὶ τοῖς λοιποῖς τοῖς σὺν αὐτῷ ταῖς γυναιξὶν μιγεῖσι (τοῦ) μιανθῆναι ἐν αὐταῖς ἐν τῇ ἀκαθαρσίᾳ αὐτῶν·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:11@syn": {
+  "text": "καὶ τῷ Μιχαὴλ εἶπε, πορεύου Μιχαήλ, δῆσον Σεμιαζᾶν καὶ τοὺς ἄλλους σὺν αὐτῷ, τοὺς συμμιγέντας ταῖς θυγατράσι τῶν ἀνθρώπων τοῦ μιανθῆναι ἐν αὐταῖς ἐν τῇ ἀκαθαρσίᾳ αὐτῶν.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:12": {
+  "text": "καὶ ὅταν κατασφαγῶσιν οἱ υἱοὶ αὐτῶν καὶ ἴδωσιν τὴν ἀπώλειαν τῶν ἀγαπητῶν, [καὶ] δῆσον αὐτοὺς ἑβδομήκοντα γενεὰς εἰς τὰς νάπας τῆς γῆς μέχρι ἡμέρας κρίσεως αὐτῶν καὶ συντελεσμοῦ, ἕως τελεσθῇ τὸ κρῖμα τοῦ αἰῶνος τῶν αἰώνων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:12@syn": {
+  "text": "καὶ ὅταν κατασφαγῶσιν οἱ υἱοὶ αὐτῶν, καὶ ἴδωσι τὴν ἀπώλειαν τῶν ἀγαπητῶν αὐτῶν, δῆσον αὐτοὺς ἐπὶ ἑβδομήκοντα γενεὰς εἰς τὰς νάπας τῆς γῆς, μέχρι ἡμέρας κρίσεως αὐτῶν, μέχρι ἡμέρας τελειώσεως τελεσμοῦ, ἕως συντελεσθῇ κρίμα τοῦ αἰῶνος τῶν αἰώνων.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:13": {
+  "text": "τότε ἀπαχθήσονται εἰς τὸ χάος τοῦ πυρὸς καὶ εἰς τὴν βάσανον καὶ εἰς τὸ δεσμωτήριον συγκλείσεως αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:13@syn": {
+  "text": "τότε ἀπενεχθήσονται εἰς τὸ χάος τοῦ πυρὸς καὶ εἰς τὴν βάσανον καὶ εἰς τὸ δεσμωτήριον τῆς συγκλείσεως τοῦ αἰῶνος.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:14": {
+  "text": "καὶ ὃς ἂν κατακριθῇ καὶ ἀφανισθῇ ἀπὸ τοῦ νῦν μετ’ αὐτῶν ὁμοῦ δεθήσονται μέχρι τελειώσεως γενεᾶς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:14@syn": {
+  "text": "καὶ ὃς ἂν κατακριθῇ καὶ ἀφανισθῇ ἀπὸ τοῦ νῦν μετ’ αὐτῶν, δεθήσεται μέχρι τελειώσεως γενεᾶς αὐτῶν.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), second excerpt (8:4–10:14); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 68–75"
+ },
+ "10:15": {
+  "text": "Ἀπόλεσον πάντα τὰ πνεύματα τῶν κιβδήλων καὶ τοὺς υἱοὺς τῶν ἐγρηγόρων διὰ τὸ ἀδικῆσαι τοὺς ἀνθρώπους.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:16": {
+  "text": "καὶ ἀπόλεσον τὴν ἀδικίαν πᾶσαν ἀπὸ τῆς γῆς, καὶ πᾶν ἔργον πονηρίας ἐκλειπέτω. καὶ ἀναφανήτω τὸ φυτὸν τῆς δικαιοσύνης καὶ τῆς ἀληθείας ⟨εἰς τοὺς αἰῶνας⟩ . . . . . μετὰ χαρᾶς φυτευ(θή)σεται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:17": {
+  "text": "καὶ νῦν πάντες οἱ δίκαιοι ἐκφεύξονται, καὶ ἔσονται ζῶντες ἕως γεννήσωσιν χιλιάδας, καὶ πάσας τὰς ἡμέρας νεότητος αὐτῶν καὶ τὰ σάββατα αὐτῶν μετὰ εἰρήνης πληρώσουσιν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:18": {
+  "text": "τότε ἐργασθήσεται πᾶσα ἡ γῆ ἐν δικαιοσύνῃ, καὶ καταφυτευθήσεται δένδρον ἐν αὐτῇ, καὶ πλησθήσεται εὐλογίας.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:19": {
+  "text": "καὶ πάντα τὰ δένδρα τῆς ἀγαλλιάσεως φυτευθήσεται, καὶ ἔσονται φυτεύοντες ἀμπέλους καὶ ἡ ἄμπελος ἣν ἂν φυτεύσωσιν ποιήσει προχοῦς οἴνου καὶ σπόρου (τοῦ σπαρέντος ἕκαστον μέτρον) ποιήσει χιλιάδας καὶ ἕκαστον μέτρον ἐλαίας ποιήσει ἀνὰ βάτους δέκα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:20": {
+  "text": "Καὶ σὺ καθάρισον τὴν γῆν ἀπὸ πάσης ἀκαθαρσίας καὶ ἀπὸ πάσης ἀδικίας καὶ ἀπὸ (πά)σης ἁμαρτίας, καὶ ἀσεβείας, καὶ πάσας τὰς ἀκαθαρσίας τὰς γινομένας ἐπὶ τῆς γῆς ἐξάλειψον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:21": {
+  "text": ". . . καὶ ἔσονται πάντες λατρεύοντες οἱ λαοὶ καὶ εὐλογοῦντες πάντες ἐμοὶ καὶ προσκυνοῦντες.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "10:22": {
+  "text": "καὶ καθαρισθήσεται πᾶσα ἡ γῆ ἀπὸ παντὸς μιάσματος καὶ ἀπὸ πάσης ἀκαθαρσίας καὶ ὀργῆς καὶ μάστιγος, καὶ οὐκέτι πέμψω ἐπ’ αὐτοὺς εἰς πάσας τὰς γενεὰς τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "11:1": {
+  "text": "καὶ τότε ἀνοίξω τὰ ταμεῖα τῆς εὐλογίας τὰ ὄντα ἐν τῷ οὐρανῷ, τοῦ κατενεγκεῖν αὐτὰ ἐπὶ τὰ ἔργα, ἐπὶ τὸν κόπον τῶν υἱῶν τῶν ἀνθρώπων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "11:2": {
+  "text": "καὶ τότε ἀλήθεια καὶ εἰρήνη κοινωνήσουσιν ὁμοῦ εἰς πάσας τὰς ἡμέρας τοῦ αἰῶνος καὶ εἰς πάσας τὰς γενεὰς τῶν ἀνθρώπων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:1": {
+  "text": "Πρὸ τούτων τῶν λόγων ἐλήμφθη Ἐνώχ, καὶ οὐδεὶς τῶν ἀνθρώπων ἔγνω ποῦ ἐλήμφθη καὶ ποῦ ἔστιν καὶ τί ἐγένετο αὐτῷ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:2": {
+  "text": "καὶ τὰ ἔργα αὐτοῦ μετὰ τῶν ἐγρηγόρων, καὶ μετὰ τῶν ἁγίων δι’ ἡμερῶν αὐτοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:3": {
+  "text": "Καὶ ⟨ἑστὼς⟩ ἤμην, Ἐνώχ, εὐλογῶν τῷ κυρίῳ τῆς μεγαλοσύνης, τῷ βασιλεῖ τῶν αἰώνων. καὶ ἰδοὺ οἱ ἐγρήγοροι ⟨τοῦ ἁγίου τοῦ μεγάλου⟩ ἐκάλουν με (Ἐνὼχ τὸν γραμματέα καὶ εἶπεν ἐμοί)·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:4": {
+  "text": "Ἐνὼχ ὁ[ι] γραμματεὺς τῆς δικαιοσύνης, πορεύου καὶ εἰπὲ τοῖς ἐγρηγόροις τοῦ οὐρανοῦ, οἵτινες, ἀπολιπόντες τὸν οὐρανὸν τὸν ὑψηλόν, τὸ ἁγίασμα τῆς στάσεως τοῦ αἰῶνος, μετὰ τῶν γυναικῶν ἐμιάνθησαν καί, ὥσπερ οἱ υἱοὶ τῆς γῆς ποιοῦσιν, οὕτως καὶ αὐτοὶ ποιοῦσιν καὶ ἔλαβον ἑαυτοῖς γυναῖκας, καὶ ἀφανισμὸν μέγαν ἠφανίσαν τὴν γῆν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:5": {
+  "text": "καὶ οὐκ ἔσται ὑμῖν εἰρήνη οὔτε ἄφεσις. καὶ περὶ ὧν χαίρουσιν τῶν υἱῶν αὐτῶν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "12:6": {
+  "text": "τὸν φόνον τῶν ἀγαπητῶν αὐτῶν ὄψονται, καὶ ἐπὶ τῇ ἀπωλείᾳ τῶν υἱῶν αὐτῶν στενάξουσιν, καὶ δεηθήσονται εἰς τὸν αἰῶνα, καὶ οὐκ ἔσται αὐτοῖς ἔλεος καὶ εἰρήνη.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:1": {
+  "text": "Ὁ δὲ Ἐνὼχ τῷ Ἀζαὴλ πορευθεὶς εἶπεν· Οὐκ ἔσται σοι εἰρήνη· κρῖμα μέγα ἐξῆλθεν κατὰ σοῦ δῆσαί σε,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:2": {
+  "text": "καὶ ἀνοχὴ καὶ ἐρώτησίς σοι οὐκ ἔσται περὶ ὧν ἔδειξας ἀδικημάτων καὶ περὶ πάντων τῶν ἔργων τῶν ἀσεβειῶν καὶ τῆς ἀδικίας καὶ τῆς ἁμαρτίας, ὅσα ὑπέδειξας τοῖς ἀνθρώποις.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:3": {
+  "text": "Τότε πορευθεὶς εἴρηκα πᾶσιν αὐτοῖς. καὶ αὐτοὶ πάντες ἐφοβήθησαν, καὶ ἔλαβεν αὐτοὺς τρόμος καὶ φόβος,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:4": {
+  "text": "καὶ ἠρώτησαν ὅπως γράψω αὐτοῖς ὑπομνήματα ἐρωτήσεως, ἵνα γένηται αὐτοῖς ἄφεσις καὶ ἵνα ἐγὼ ἀναγνῶ αὐτοῖς τὸ ὑπόμνημα τῆς ἐρωτήσεως ἐνώπιον κυρίου τοῦ οὐρανοῦ·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:5": {
+  "text": "ὅτι αὐτοὶ οὐκέτι δύνανται λαλῆσαι οὐδὲ ἐπᾶραι αὐτῶν τοὺς ὀφθαλμοὺς εἰς τὸν οὐρανὸν ἀπὸ αἰσχύνης περὶ ὧν ἡμαρτήκεισαν καὶ κατεκρίθησαν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:6": {
+  "text": "Τότε ἔγραψα τὸ ὑπόμνημα τῆς ἐρωτήσεως αὐτῶν καὶ τὰς δεήσεις περὶ τῶν πνευμάτων αὐτῶν καὶ περὶ ὧν δέονται ὅπως αὐτῶν γένωνται ἄφεσις καὶ μακρότης.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:7": {
+  "text": "καὶ πορευθεὶς ἐκάθισα ἐπὶ τῶν ὑδάτων Δὰν ἐν ⟨γῇ⟩ Δάν, ἥτις ἐστὶν ἐκ δεξιῶν Ἑρμωνειεὶμ δύσεως. ἀνεγίνωσκον τὸ ὑπόμνημα τῶν δεήσεων αὐτῶν ἕως ἐκοιμήθην,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:8": {
+  "text": "καὶ ἰδοὺ ὄνειροι ἐπ’ ἐμὲ ἦλθον, καὶ ὁράσεις ἐπ’ ἐμὲ ἐπέπιπτον, καὶ ἴδον ὁράσεις ὀργῆς, ⟨καὶ ἦλθεν φωνὴ λέγουσα⟩· Εἰπὸν τοῖς υἱοῖς τοῦ οὐρανοῦ τοῦ ἐλέγξαι αὐτούς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:9": {
+  "text": "καὶ ἔξυπνος γενόμενος ἦλθον πρὸς αὐτούς. καὶ πάντες συνηγμένοι ἐκάθηντο πενθοῦντες [σ]ἐν Ἐβελσατά, ἥτις ἐστὶν ἀνὰ μέσον τοῦ Λιβάνου καὶ Σενισήλ, περικεκαλυμμένοι τὴν ὄψιν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "13:10": {
+  "text": "καὶ ἐνώπιον αὐτῶν ἀνήγγειλα [αὐτοῖς] πάσας τὰς ὁράσεις ἃς εἶδον κατὰ τοὺς ὕπνους. καὶ ἠρξάμην λαλεῖν τοὺς λόγους τῆς δικαιοσύνης, ἐλέγχων τοὺς ἐγρηγόρους τοῦ οὐρανοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:1": {
+  "text": "Βίβλος λόγων δικαιοσύνης καὶ ἐλέγξεως ἐγρηγόρων τῶν ἀπὸ τοῦ αἰῶνος, κατὰ τὴν ἐντολὴν τοῦ ἁγίου τοῦ μεγάλου ἐν ταύτῃ τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:2": {
+  "text": "Ἐγὼ εἶδον κατὰ τοὺς ὕπνους μου ὃ[ν] νῦν λέγω ἐν γλώσσῃ σαρκίνῃ, ἐν τῷ πνεύματι τοῦ στόματός μου, ὃ ἔδωκεν ὁ μέγας τοῖς ἀνθρώποις λαλεῖν ἐν αὐτοῖς καὶ νοῆσαι καρδίᾳ,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:3": {
+  "text": "ὡς (ἔκτισε καὶ ἔδωκε τοῖς ἀνθρώποις καὶ ἐμοὶ νοεῖν τοὺς λόγους τῆς γνώσεως καὶ ἐμὲ) ἔκτισεν καὶ ἔδωκεν ἐλέγξασθαι ἐγρηγόρους τοὺς υἱοὺς τοῦ οὐρανοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:4": {
+  "text": "Ἐγὼ τὴν ἐρώτησιν ὑμῶν [τῶν ἀγγέλων] ἔγραψα, καὶ ἐν τῇ ὁράσει μου τοῦτο ἐδείχθη· καὶ οὔτε ἡ ἐρώτησις ὑμῶν παρεδέχθη . . . . .",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:5": {
+  "text": "ἵνα μηκέτι εἰς τὸν οὐρανὸν ἀναβῆτε ἐπὶ πάντας τοὺς αἰῶνας, καὶ ἐν τοῖς δεσμοῖς τῆς γῆς ἐρρέθη δῆσαι ὑμᾶς εἰς πάσας τὰς γενεὰς τοῦ αἰῶνος,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:6": {
+  "text": "καὶ ἵνα πρὸ τούτων ἴδητε τὴν ἀπώλειαν τῶν υἱῶν ὑμῶν τῶν ἀγαπητῶν, καὶ ὅτι οὐκ ἔσται ὑμῖν ὄνησις αὐτῶν, ἀλλὰ πεσοῦνται ἐνώπιον ὑμῶν ἐν μαχαίρᾳ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:7": {
+  "text": "καὶ ἡ ἐρώτησις ὑμῶν περὶ αὐτῶν οὐκ ἔσται οὐδὲ περὶ ὑμῶν. καὶ ὑμεῖς κλαίοντες καὶ δεόμενοι καὶ μὴ λαλοῦντες πᾶν ῥῆμα ἀπὸ τῆς γραφῆς ἧς ἔγραψα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:8": {
+  "text": "Καὶ ἐμοὶ ἐφ’ ὁράσει οὕτως ἐδείχθη· ἰδοὺ νεφέλαι ἐν τῇ ὁράσει ἐκάλουν, καὶ ὁμίχλαι με ἐφώνουν, καὶ διαδρομαὶ τῶν ἀστέρων καὶ διαστραπαί με κατεσπούδαζον καὶ ἐθορύβαζόν με, καὶ ἄνεμοι ἐν τῇ ὁράσει μου ἀνεπτέρωσάν με καὶ ἐπῆράν με ἄνω",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:9": {
+  "text": "καὶ εἰσήνεγκάν με εἰς τὸν οὐρανόν. καὶ εἰσῆλθον μέχρις ἤγγισα τείχους ᾠκοδομημένου ἐν λίθοις χαλάζης καὶ γλώσσαις πυρὸς κύκλῳ αὐτῶν· καὶ ἤρξαντο ἐκφοβεῖν με.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:10": {
+  "text": "Καὶ εἰσῆλθον εἰς τὰς γλώσσας τοῦ πυρός, καὶ ἤγγισα εἰς οἶκον μέγαν ᾠκοδομημένον ἐν λίθοις χαλάζης. καὶ οἱ τοῖχοι τοῦ οἴκου ὡς λιθωπλάκες, καὶ πᾶσαι ἦσαν ἐκ χιόνος, καὶ ἐδάφη χιονικά,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:11": {
+  "text": "καὶ αἱ στέγαι ὡς διαδρομαὶ ἀστέρων καὶ ἀστραπαί. καὶ μεταξὺ αὐτῶν χερουβὶν πύρινα, καὶ ὁ οὐρανὸς αὐτῶν ὕδωρ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:12": {
+  "text": "καὶ πῦρ φλεγόμενον κύκλῳ τῶν τοίχων, καὶ θύραι πυρὶ καιόμεναι.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:13": {
+  "text": "εἰσῆλθον εἰς τὸν οἶκον ἐκεῖνον θερμὸν ὡς πῦρ καὶ ψυχρὸν ὡς χιών· καὶ πᾶσα τρυφὴ ζωῆς οὐκ ἦν ἐν αὐτῷ. φόβος με ἐκάλυψεν καὶ τρόμος με ἔλαβεν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:14": {
+  "text": "καὶ ἤμην σειόμενος καὶ τρέμων, καὶ ἔπεσον (ἐπὶ πρόσωπόν μου καὶ) ἐθεώρουν ἐν τῇ ὁράσει ⟨μου⟩,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:15": {
+  "text": "καὶ ἰδοὺ ἄλλος οἶκος μείζων τούτου καὶ ὅλη ἡ θύρα (αὐτοῦ) ἀνεῳγμένη κατέναντί μου καὶ ᾠκοδομημένος ἐν γλώσσαις πυρός,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:16": {
+  "text": "καὶ ὅλος διαφέρων ἐν δόξῃ καὶ ἐν τιμῇ καὶ ἐν μεγαλοσύνῃ ὥστε μὴ δύνασθαί με ἐξειπεῖν ὑμῖν περὶ τῆς δόξης καὶ περὶ τῆς μεγαλοσύνης αὐτοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:17": {
+  "text": "τὸ ἔδαφος αὐτοῦ ἦν πυρός, τὸ δὲ ἀνώτερον αὐτοῦ ἦσαν ἀστραπαὶ καὶ διαδρομαὶ ἀστέρων, καὶ ἡ στέγη αὐτοῦ ἦν πῦρ φλέγον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:18": {
+  "text": "Ἐθεώρουν δὲ καὶ εἶδον θρόνον ὑψηλόν, καὶ τὸ εἶδος αὐτοῦ ὡς κρυστάλλινον, καὶ τροχὸς ὡς ἡλίου λάμποντος καὶ ὄψεως χερουβίν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:19": {
+  "text": "καὶ ὑποκάτω τοῦ θρόνου ἐξεπορεύοντο ποταμοὶ πυρὸς φλεγομένου, καὶ οὐκ ἐδυνάσθην ἰδεῖν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:20": {
+  "text": "καὶ ἡ δόξα ἡ μεγάλη ἐκάθητο ἐπ’ αὐτῷ· τὸ περιβόλαιον αὐτοῦ [ὡς εἶδος] ἡλίου λαμπρότερον καὶ λευκότερον πάσης χιόνος·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:21": {
+  "text": "καὶ οὐκ ἐδύνατο πᾶς ἄγγελος παρελθεῖν ⟨εἰς τὸν οἶκον τοῦτον⟩ καὶ ἰδεῖν τὸ πρόσωπον αὐτοῦ διὰ τὸ ἔντιμον καὶ ἔνδοξον. καὶ οὐκ ἐδύνατο πᾶσα σὰρξ ἰδεῖν αὐτόν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:22": {
+  "text": "τὸ πῦρ φλεγόμενον κύκλῳ, καὶ πῦρ μέγα παρειστήκει αὐτῷ, καὶ οὐδεὶς ἐγγίζει αὐτῷ. κύκλῳ μυρίαι μυριάδες ἑστήκα(σιν) ἐνώπιον αὐτοῦ, καὶ πᾶς λόγος αὐτοῦ ἔργον,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:23": {
+  "text": "καὶ οἱ ἅγιοι τῶν ἁγίων οἱ ἐγγίζοντες αὐτῷ οὐκ ἀποχωροῦσιν νυκτὸς οὔτε ἀφίστανται αὐτοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:24": {
+  "text": "Κἀγὼ ἤμην ἕως τούτου ἐπὶ πρόσωπόν μου βεβλημένος καὶ τρέμων. καὶ ὁ κύριος τῷ στόματι αὐτοῦ ἐκάλεσέν με καὶ εἶπέν μοι· Πρόσελθε ὧδε, Ἐνώχ, καὶ τὸν λόγον μου ἄκουσον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "14:25": {
+  "text": "⟨καὶ προσελθών μοι εἷς τῶν ἁγίων ἤγειρέν με⟩ καὶ ἔστησέν με καὶ προσήγαγέν με μέχρι τῆς θύρας· ἐγὼ δὲ τὸ πρόσωπόν μου κάτω ἔκυφον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:1": {
+  "text": "Καὶ ἀποκριθεὶς εἶπέν μοι [ὁ ἄνθρωπος ὁ ἀληθινὸς ἄνθρωπος τῆς ἀληθείας ὁ γραμματεὺς] καὶ τῆς φωνῆς αὐτοῦ ἤκουσα· Μὴ φοβήθης Ἐνὼχ ἄνθρωπος ἀληθινὸς καὶ γραμματεὺς τῆς ἀληθείας, πρόσελθε ὧδε καὶ τῆς φωνῆς μου ἄκουσον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:2": {
+  "text": "πορεύθητι καὶ εἰπὲ (τοῖς ἐγρηγόροις τοῦ οὐρανοῦ) τοῖς πέμψασίν σε (τοῦ περὶ αὐτῶν ἐρωτῆσαι)· ἐρωτῆσαι ὑμᾶς ἔδει περὶ τῶν ἀνθρώπων, καὶ μὴ τοὺς ἀνθρώπους περὶ ὑμῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:3": {
+  "text": "διὰ τί ἀπελίπετε τὸν οὐρανὸν τὸν ὑψηλὸν τὸν ἅγιον τοῦ αἰῶνος, καὶ μετὰ τῶν γυναικῶν ἐκοιμήθητε, καὶ μετὰ τῶν θυγατέρων τῶν ἀνθρώπων ἐμιάνθητε καὶ ἐλάβετε ἑαυτοῖς γυναῖκας (καὶ) ὥσπερ υἱοὶ τῆς γῆς ἐποιήσατε, καὶ ἐγεννήσατε ἑαυτοῖς [τέκνα] υἱοὺς γίγαντας;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:4": {
+  "text": "καὶ ὑμεῖς ἦτε ἅγιοι καὶ πνεύμα(τα) ζῶντα αἰώνια· ἐν τῷ αἵματι τῶν γυναικῶν ἐμιάνθητε, καὶ ἐν αἵματι σαρκὸς ἐγεννήσατε, καὶ ἐν αἵματι ἀνθρώπων ἐπεθυμήσατε (καὶ ἐποιήσατε) καθὼς καὶ αὐτοὶ ποιοῦσιν σάρκα καὶ αἷμα, οἵτινες ἀποθνήσκουσιν καὶ ἀπόλλυνται·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:5": {
+  "text": "διὰ τοῦτο ἔδωκα αὐτοῖς θηλείας, ἵνα σπερματίσουσιν εἰς αὐτὰς καὶ τεκνώσουσιν ἐν αὐταῖς τέκνα, οὕτως ἵνα μὴ ἐκλείπει αὐτοῖς πᾶν ἔργον ἐπὶ τῆς γῆς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:6": {
+  "text": "ὑμεῖς δὲ ὑπήρχετε πνεύμα(τα) ζῶντα αἰώνια καὶ οὐκ ἀποθνήσκοντα εἰς πάσας τὰς γενεὰς τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:7": {
+  "text": "καὶ διὰ τοῦτο οὐκ ἐποίησα ἐν ὑμῖν θηλείας. τὰ πνεύμα(τα) τοῦ οὐρανοῦ ἐν τῷ οὐρανῷ ἡ κατοίκησις αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:8": {
+  "text": "καὶ νῦν οἱ γίγαντες οἱ γεννηθέντες ἀπὸ τῶν πνευμάτων καὶ σαρκὸς πνεύμα(τα) ἰσχυρὰ (κληθήσονται) ἐπὶ τῆς γῆς, καὶ ἐν τῇ γῇ ἡ κατοίκησις αὐτῶν ἔσται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:8@syn": {
+  "text": "Καὶ μεθ’ ἕτερα· καὶ νῦν οἱ γίγαντες οἱ γεννηθέντες ἀπὸ πνευμάτων καὶ σαρκὸς πνεύματα πονηρὰ ἐπὶ τῆς γῆς καλέσουσιν αὐτούς, ὅτι ἡ κατοίκησις αὐτῶν ἔσται ἐπὶ τῆς γῆς.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), third excerpt (15:8–16:1); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 83–85"
+ },
+ "15:9": {
+  "text": "πνεύμα(τα) πονηρὰ ἐξῆλθον ἀπὸ τοῦ σώματος αὐτῶν, διότι ἀπὸ τῶν ἀνθρώπων ἐγένοντο καὶ ἐκ τῶν ἁγίων ἐγρηγόρων ἡ ἀρχὴ τῆς κτίσεως αὐτῶν καὶ ἀρχὴ θεμελίου (πνεύματα πονηρὰ ἐπὶ τῆς γῆς ἔσονται)· πνεύματα πονηρὰ κληθήσεται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:9@syn": {
+  "text": "πνεύματα πονηρὰ ἔσονται, τὰ πνεύματα ἐξεληλυθότα ἀπὸ τοῦ σώματος τῆς σαρκὸς αὐτῶν, διότι ἀπὸ τῶν ἀνθρώπων ἐγένοντο, καὶ ἐκ τῶν ἁγίων τῶν ἐγρηγόρων ἡ ἀρχὴ τῆς κτίσεως αὐτῶν καὶ ἀρχὴ θεμελίου. πνεύματα πονηρὰ ἐπὶ τῆς γῆς ἔσονται,",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), third excerpt (15:8–16:1); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 83–85"
+ },
+ "15:10": {
+  "text": "πνεύμα(τα) οὐρανοῦ ἐν τῷ οὐρανῷ ἡ κατοίκησις αὐτῶν ἔσται, καὶ τὰ πνεύματα [ἐπὶ] τῆς γῆς τὰ γεννηθέντα ἐπὶ τῆς γῆς (ἐν τῇ γῇ) ὁ κατοίκησις αὐτῶν ἔσται·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:11": {
+  "text": "καὶ τὰ πνεύματα τῶν γιγάντων νεφέλας ἀδικοῦντα, ἀφανίζοντα καὶ ἐμπίπτοντα καὶ συμπαλαίοντα καὶ συρρίπτοντα ἐπὶ τῆς γῆς [πνεύματα σκληρὰ γιγάντων], καὶ τρόμους ποιοῦντα καὶ μηδὲν ἐσθίον(τα), ⟨ἀλλ’ ἀσιτοῦντα⟩ καὶ διψῶντα καὶ προσκόπτοντα",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:11@syn": {
+  "text": "τὰ πνεύματα (al.: πρῶτα) τῶν γιγάντων νεμόμενα, ἀδικοῦντα, ἀφανίζοντα, ἐμπίπτοντα καὶ συμπαλαίοντα καὶ ῥιπτοῦντα ἐπὶ τῆς γῆς καὶ δρόμους ποιοῦντα, καὶ μηδὲν ἐσθίοντα, ἀλλ’ ἀσιτοῦντα καὶ φάσματα ποιοῦντα καὶ διψῶντα καὶ προσκόπτοντα.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), third excerpt (15:8–16:1); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 83–85"
+ },
+ "15:12": {
+  "text": "καὶ πνεύμα(τα) ἐξαναστήσει ταῦτα εἰς τοὺς υἱοὺς τῶν ἀνθρώπων καὶ τὰς γυναῖκας, ὅτι ἐξεληλύθασιν ἀπ’ αὐτῶν",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "15:12@syn": {
+  "text": "καὶ ἐξαναστήσονται τὰ πνεύματα ἐπὶ τοὺς υἱοὺς τῶν ἀνθρώπων καὶ τῶν γυναικῶν, ὅτι ἐξ αὐτῶν ἐξεληλύθασι·",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), third excerpt (15:8–16:1); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 83–85"
+ },
+ "16:1": {
+  "text": "ἀπὸ ἡμέρας σφαγῆς καὶ ἀπωλείας καὶ θανάτου (τῶν γιγάντων) ἀφ’ ὧν τὰ πνεύματα ἐκπορευόμενα ἐκ τῆς ψυχῆς τῆς σαρκὸς αὐτῶν (ὡς) ἔσονται ἀφανίζοντα χωρὶς κρίσεως οὕτως ἀφανίσουσιν μέχρις ἡμέρας τελειώσεως τῆς κρίσεως τῆς μεγάλης, ἐν ᾗ ὁ αἰὼν ὁ μέγας τελεσθήσεται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "16:1@syn": {
+  "text": "καὶ ἀπὸ ἡμέρας καιροῦ σφαγῆς καὶ ἀπωλείας καὶ θανάτου τῶν γιγάντων Ναφηλείμ, οἱ ἰσχυροὶ τῆς γῆς, οἱ μεγάλοι ὀνομαστοί, τὰ πνεύματα τὰ ἐκπορευόμενα ἀπὸ τῆς ψυχῆς αὐτῶν, ὡς ἐκ τῆς σαρκὸς ἔσονται, ἀφανίζοντα χωρὶς κρίσεως, οὕτως ἀφανίσουσι μέχρις ἡμέρας τῆς τελειώσεως, ἕως τῆς κρίσεως τῆς μεγάλης, ἐν ᾗ ὁ αἰὼν ὁ μέγας τελεσθήσεται, ἐφ’ ἅπαξ ὁμοῦ τελεσθήσεται.",
+  "w": "George Syncellus, Chronographia (ed. Dindorf 1829), third excerpt (15:8–16:1); as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 83–85"
+ },
+ "16:2": {
+  "text": "Καὶ νῦν ἐγρηγόροις τοῖς πέμψασίν σε ἐρωτῆσαι περὶ αὐτῶν, οἵτινες ἐν οὐρανῷ ἦσαν·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "16:3": {
+  "text": "ὑμεῖς ἐν τῷ οὐρανῷ ἦτε, καὶ πᾶν μυστήριον [ὃ] οὐκ ἀνεκαλύφθη ὑμῖν καὶ μυστήριον τὸ ἐξουθενημένον ἔγνωτε, καὶ τοῦτο ἐμηνύσατε ταῖς γυναιξὶν ἐν ταῖς σκληροκαρδίαις ὑμῶν. καὶ ἐν τῷ μυστηρίῳ τούτῳ πληθύνουσιν αἱ θήλειαι καὶ οἱ ἄνθρωποι τὰ κακὰ ἐπὶ τῆς γῆς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "16:4": {
+  "text": "εἰπὸν οὖν αὐτοῖς· Οὐκ ἔστιν εἰρήνη.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:1": {
+  "text": "Καὶ [παραλαβόντες] με εἴς τινα τόπον ἀπήγαγον, ἐν ᾧ ⟨οἱ ὄντες⟩ ἐκεῖ γίνονται ὡς πῦρ φλέγον καὶ ὅταν θέλωσιν φαίνονται ὡσεὶ ἄνθρωποι.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:2": {
+  "text": "Καὶ ἀπήγαγόν με εἰς γνοφώδη τόπον καὶ εἰς ὄρος οὗ ἡ κεφαλὴ ἀφικνεῖτο εἰς τὸν οὐρανόν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:3": {
+  "text": "καὶ ἴδον τόπον τῶν φωστήρων [καὶ τοὺς θησαυροὺς τῶν ἀστέρων] καὶ τῶν βροντῶν [καὶ] εἰς τὰ ἄκρα βάθη ὅπου τόξον πυρὸς καὶ τὰ βέλη καὶ αἱ θῆκαι αὐτῶν . . . καὶ αἱ ἀστραπαὶ πᾶσαι.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:4": {
+  "text": "Καὶ ἀπήγαγόν με μέχρι ὑδάτων ζώντων καὶ μέχρι πυρὸς δύσεως, ὅ ἐστιν [καὶ] παρέχον πάσας τὰς δύσεις τοῦ ἡλίου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:5": {
+  "text": "καὶ ἦλθον μέχρι ποταμοῦ πυρός, ἐν ᾧ κατατρέχει τὸ πῦρ ὡς ὕδωρ, καὶ ῥέει εἰς θάλασσαν μεγάλην δύσεως.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:6": {
+  "text": "ἴδον τοὺς μεγάλους ποταμού(ς), ⟨καὶ μέχρι τοῦ μεγάλου ποταμοῦ⟩ καὶ μέχρι τοῦ μεγάλου σκότους κατήντησα, καὶ ἀπῆλθον ὅπου πᾶσα σὰρξ [οὐ] περιπατεῖ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:7": {
+  "text": "ἴδον τὰ ὄρη τῶν γνόφων τὰ χειμερινὰ καὶ τὴν ἔκχυσιν τῆς ἀβύσσου πάντων ὑδάτων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "17:8": {
+  "text": "ἴδον τὸ στόμα τῆς γῆς πάντων τῶν ποταμῶν καὶ τὸ στόμα τῆς ἀβύσσου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:1": {
+  "text": "Ἴδον τοὺς θησαυροὺς τῶν ἀνέμων πάντων. ἴδον ὅτι ἐν αὐτοῖς ἐκόσμησεν πάσας τὰς κτίσεις, καὶ τὸν θεμέλιον τῆς γῆς,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:2": {
+  "text": "καὶ τὸν λίθον ἴδον τῆς γωνίας τῆς γῆς. ἴδον τοὺς τέσσαρας ἀνέμους τὴν γῆν βαστάζοντας καὶ τὸ στερέωμα τοῦ οὐρανοῦ",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:3": {
+  "text": ". . . . . καὶ αὐτοὶ ἱστᾶσιν μεταξὺ γῆς καὶ οὐρανοῦ (οὗτοί εἰσιν οἱ στῦλοι τοῦ οὐρανοῦ).",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:4": {
+  "text": "ἴδον ἀνέμους τῶν οὐρανῶν στρέφοντας καὶ δύοντας τὸν τροχὸν τοῦ ἡλίου καὶ πάντας τοὺς ἀστέρας.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:5": {
+  "text": "ἴδον τοὺς ἐπὶ τῆς γῆς ἀνέμους βαστάζοντας τὰς νεφέλας· (ἴδον τὰς ὁδοὺς τῶν ἀγγέλων·) ἴδον (παρὰ τὰ) πέρατα τῆς γῆς τὸ στήριγμα τοῦ οὐρανοῦ ἐπάνω.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:6": {
+  "text": "Παρῆλθον καὶ ἴδον τόπον καιόμενον νυκτὸς καὶ ἡμέρας, ὅπου τὰ ἑπτὰ ὄρη ἀπὸ λίθων πολυτελῶν (τρία) εἰς ἀνατολὰς καὶ τρία εἰς νότον ⟨βάλλοντα⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:7": {
+  "text": "καὶ τὰ μὲν πρὸς ἀνατολὰς ἀπὸ λίθου χρώματος, τὸ δὲ ἦν ἀπὸ λίθου μαργαρίτου, καὶ τὸ ἀπὸ λίθου ταθεν, τὸ δὲ κατὰ νότον ἀπὸ λίθου πυρροῦ·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:8": {
+  "text": "τὸ δὲ μέσον αὐτῶν ἦν εἰς οὐρανὸν ὥσπερ θρόνος θεοῦ ἀπὸ λίθου φουκά, καὶ ἡ κορυφὴ τοῦ θρόνου ἀπὸ λίθου σαπφείρου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:9": {
+  "text": "καὶ πῦρ καιόμενον ἴδον κἀ(πέ)κεινα τῶν ὀρέων τούτων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:10": {
+  "text": "τόπος ἐστίν, πέραν τῆς μεγάλης γῆς· ἐκεῖ συντελεσθήσονται οἱ οὐρανοί.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:11": {
+  "text": "καὶ ἴδον χάσμα μέγα ἐν τοῖς (στύλοις τοῦ πυρὸς τοῦ οὐρανοῦ καὶ ἴδον ἐν αὐτοῖς) στύλους τοῦ πυρὸς καταβαίνοντας· καὶ οὐκ ἦν μέτρον οὔτε εἰς βάθος οὔτε εἰς ὕψος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:12": {
+  "text": "καὶ ἐπέκεινα τοῦ χάσματος τούτου ἴδον τόπον, ὅπου οὐδὲ στερέωμα οὐρανοῦ ἐπάνω οὔτε γῆ ἡ τεθεμελιωμένη ὑποκάτω αὐτοῦ οὔτε ὕδωρ ἦν ὑπὸ αὐτῷ οὔτε πετεινόν, ἀλλὰ τόπος ἦν ἔρημος καὶ φοβερός·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:13": {
+  "text": "ἐκεῖ ἴδον ἑπτὰ ἀστέρας ὡς ὄρη μεγάλα καιόμενα. Περὶ ὧν πυνθανομένῳ μοι",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:14": {
+  "text": "εἶπεν ὁ ἄγγελος· Οὗτός ἐστιν ὁ τόπος τὸ τέλος τοῦ οὐρανοῦ καὶ (τῆς) γῆς· δεσμωτήριον τοῦτο ἐγένετο τοῖς ἄστροις καὶ ταῖς δυνάμεσιν τοῦ οὐρανοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:15": {
+  "text": "καὶ οἱ ἀστέρες οἱ κυλιόμενοι ἐν τῷ πυρὶ οὗτοί εἰσιν οἱ παραβάντες πρόσταγμα κυρίου ἐν ἀρχῇ τῆς ἀνατολῆς αὐτῶν, [ὅτι τόπος ἔξω τοῦ οὐρανοῦ κενός ἐστιν] ὅτι οὐκ ἐξῆλθον ἐν τοῖς καιροῖς αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "18:16": {
+  "text": "καὶ ὠργίσθη αὐτοῖς καὶ ἔδησεν αὐτοὺς μέχρι καιροῦ τελειώσεως [αὐτῶν] ἁμαρτίας αὐτῶν, ἐνιαυτῶν μυρίων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "19:1": {
+  "text": "καὶ εἶπέν μοι Οὐριήλ· Ἐνθάδε οἱ μιγέντες ἄγγελοι ταῖς γυναιξὶν στήσονται· καὶ τὰ πνεύματα αὐτῶν, πολύμορφα γενόμενα, λυμαίνεται τοὺς ἀνθρώπους καὶ πλανήσει αὐτοὺς ἐπιθύειν τοῖς δαιμονίοις (ὡς θεοῖς) μέχρι (τῆς ἡμέρας) τῆς μεγάλης κρίσεως, ἐν ᾗ κριθήσονται εἰς ἀποτελείωσιν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "19:2": {
+  "text": "καὶ αἱ γυναῖκες αὐτῶν, τῶν παραβάντων ἀγγέλων, εἰς σειρῆνας γενήσονται.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "19:3": {
+  "text": "Κἀγὼ Ἐνὼχ ἴδον τὰ θεωρήματα μόνος, τὰ πέρατα πάντων· καὶ οὐ μὴ ἴδῃ οὐδὲ εἷς ἀνθρώπων ὡς ἐγὼ ἴδον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:1": {
+  "text": "Ἄγγελοι τῶν δυνάμεων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:2": {
+  "text": "Οὐριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τοῦ κόσμου καὶ τοῦ ταρτάρου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:2@giz2": {
+  "text": "ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τοῦ κόσμου καὶ τοῦ ταρτάρου.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "20:3": {
+  "text": "Ῥαφαὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τῶν πνευμάτων τῶν ἀνθρώπων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:3@giz2": {
+  "text": "Ῥαφαὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τῶν πνευμάτων τῶν ἀνθρώπων.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "20:4": {
+  "text": "Ῥαγουὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐκδικῶν τὸν κόσμον τῶν φωστήρων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:4@giz2": {
+  "text": "Ῥαγουὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐκδικῶν τὸν κόσμον τῶν φωστήρων.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "20:5": {
+  "text": "Μιχαὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τῶν τοῦ λαοῦ ἀγαθῶν τεταγμένος [καὶ] ἐπὶ τῷ λαῷ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:5@giz2": {
+  "text": "Μιχαὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὃς ἐπὶ τῶν τοῦ λαοῦ ἀγαθῶν τέτακται [καὶ] ἐπὶ τῷ λαῷ.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "20:6": {
+  "text": "Σαριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τῶν πνευμάτων οἵτινες ἐπὶ τῷ πνεύματι ἁμαρτάνουσιν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:6@giz2": {
+  "text": "Σαριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τῶν πνευμάτων οἵτινες ἐπὶ τῷ πνεύματι ἁμαρτάνουσιν.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "20:7": {
+  "text": "Γαβριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὃ[ς] ἐπὶ τοῦ παραδείσου καὶ τῶν δρακόντων καὶ χερουβὶν ⟨ἀρχαγγέλων ὀνόματα ἑπτά⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "20:7@giz2": {
+  "text": "Γαβριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ ἐπὶ τοῦ παραδείσου καὶ τῶν δρακόντων καὶ χερουβίν. ⟨Ῥεμειὴλ (ὁ) εἷς τῶν ἁγίων ἀγγέλων ὃν ἔταξεν ὁ θεὸς ἐπὶ τῶν ἀνισταμένων ὀνόματα ζʹ ἀρχαγγέλων⟩.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:1": {
+  "text": "Καὶ ἐφώδευσα ἕως τῆς ἀκατασκευάστου,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:1@giz2": {
+  "text": "Καὶ ἐφώδευσα μέχρι τῆς ἀκατασκευάστου,",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:2": {
+  "text": "κἀκεῖ ἐθεασάμην ἔργον φοβερόν· ἑώρακα οὔτε οὐρανὸν ἐπάνω οὔτε γῆν [τεθέαμαι] τεθεμελιωμένην, ἀλλὰ τόπον ἀκατασκεύαστον καὶ φοβερόν·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:2@giz2": {
+  "text": "καὶ ἐκεῖ ἐθεασάμην ἔργον φοβερόν· ἑώρακα οὔτε οὐρανὸν ἐπάνω οὔτε γῆν τεθεμελιωμένην, ἀλλὰ τόπον ἀκατασκεύαστον καὶ φοβερόν·",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:3": {
+  "text": "καὶ ἐκεῖ τεθέαμαι ἑπτὰ [τῶν] ἀστέρας τοῦ οὐρανοῦ δεδεμένους [καὶ ἐριμμένους] ἐν αὐτῷ (ὁμοῦ) ὁμοίους ὄρεσιν μεγάλοις καὶ ἐν πυρὶ καιομένους.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:3@giz2": {
+  "text": "καὶ ἐκεῖ τεθέαμαι ζʹ ἀστέρας τοῦ οὐρανοῦ δεδεμένους [καὶ ἐριμμένους] ἐν αὐτῷ (ὁμοῦ) ὁμοίους ὄρεσιν μεγάλοις καὶ ἐν πυρὶ καιομένους.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:4": {
+  "text": "τότε εἶπον· Διὰ ποίαν αἰτίαν ἐπεδέθησαν; καὶ διὰ τί ὧδε ἐρίφησαν;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:4@giz2": {
+  "text": "τότε εἶπον· Διὰ ποίαν αἰτίαν ἐπεδέθησαν καὶ διὰ ποίαν αἰτίαν ἐρίφησαν ὧδε;",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:5": {
+  "text": "τότε εἶπέν μοι Οὐριήλ, ὁ εἷς τῶν ἁγίων ἀγγέλων ὃς μετ’ ἐμοῦ ἦν καὶ αὐτὸς ἡγεῖτο αὐτῶν, καὶ εἶπέν μοι· Ἐνώχ, περὶ τίνος ἐρωτᾷς; ἢ περὶ τίνος τὴν ἀλήθειαν φιλοσπεύδεις;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:5@giz2": {
+  "text": "καὶ εἶπέν μοι Οὐριὴλ ὁ εἷς τῶν ἁγίων ἀγγέλων ὁ μετ’ ἐμοῦ ὢν καὶ αὐτὸς αὐτῶν ἡγεῖτο καὶ εἶπέν μοι· Ἐνώχ, περὶ τίνος ἐρωτᾷς ἢ περὶ τίνος τὴν ἀλήθειαν φιλοσπεύδεις;",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:6": {
+  "text": "οὗτοί εἰσιν τῶν ἀστέρων τοῦ οὐρανοῦ οἱ παραβάντες τὴν ἐπιταγὴν τοῦ κυρίου καὶ ἐδέθησαν ὧδε μέχρι τοῦ πληρῶσαι μυρία ἔτη, τὸν χρόνον τῶν ἁμαρτημάτων αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:6@giz2": {
+  "text": "οὗτοί εἰσιν τῶν ἀστέρων τοῦ οὐρανοῦ οἱ παραβάντες τὴν ἐπιταγὴν τοῦ κυρίου καὶ ἐδέθησαν ὧδε μέχρι πληρωθῆναι μύρια ἔτη, τὸν χρόνον τῶν ἁμαρτημάτων αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:7": {
+  "text": "κἀκεῖθεν ἐφώδευσα εἰς ἄλλον τόπον τούτου φοβερώτερον, καὶ τεθέαμαι ἔργα φοβερώτερα· πῦρ μέγα ἐκεῖ καιόμενον καὶ φλεγόμενον· καὶ διακοπὴν εἶχεν ὁ τόπος ἕως τῆς ἀβύσσου, πλήρης στύλων πυρὸς μεγάλων καταφερομένων· οὔτε μέτρον οὔτε πλάτος ἠδυνήθην ἰδεῖν οὐδὲ εἰκάσαι.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:7@giz2": {
+  "text": "κἀκεῖθεν ἐφώδευσα εἰς ἄλλον τόπον τούτου φοβερώτερον καὶ τεθέαμαι ἔργα φοβερά· πῦρ μέγα ἐκεῖ καιόμενον καὶ φλεγόμενον καὶ διακοπὴν εἶχεν ὁ τόπος ἕως τῆς ἀβύσσου, πλήρης στύλων πυρὸς μεγάλων καταφερομένων· οὔτε μέτρον οὔτε μέγεθος ἠδυνήθην ἰδεῖν οὔτε εἰκάσαι.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:8": {
+  "text": "τότε εἶπον· Ὡς φοβερὸς ὁ τόπος καὶ ὡς δεινὸς τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:8@giz2": {
+  "text": "τότε εἶπον· Ὡς φοβερὸς ὁ τόπος οὗτος καὶ ὡς δεινὸς τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:9": {
+  "text": "τότε ἀπεκρί(θη) μοι (Οὐριὴλ) ὁ εἷς τῶν ἁγίων ἀγγέλων ὃς μετ’ ἐμοῦ ἦν, καὶ εἶπέν μοι· Ἐνώχ, διὰ τί ἐφοβήθης οὕτως καὶ ἐπτοήθης; καὶ ἀπεκρίθη(ν)· Περὶ τούτου τοῦ φοβεροῦ (τόπου) καὶ περὶ τῆς προσόψεως τῆς δεινῆς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "21:9@giz2": {
+  "text": "τότε ἀπεκρίθη μοι καὶ εἶπέν",
+  "w": "Gizeh (Akhmim) Greek MS, duplicate copy of 19:3–21:9 (G²), right-hand column; R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 356–359"
+ },
+ "21:10": {
+  "text": "καὶ εἶπεν· Οὗτος ὁ τόπος δεσμωτήριον ἀγγέλων. ὧδε συσχεθήσονται ⟨μέχρι ἑνὸς⟩ εἰς τὸν αἰῶνα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:1": {
+  "text": "Κἀκεῖθεν ἐφώδευσα εἰς ἄλλον τόπον, καὶ ἔδειξέν μοι πρὸς δυσμὰς [ἄλλο] ὄρος μέγα καὶ ὑψηλὸν (καὶ) πέτρας στερεάς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:2": {
+  "text": "καὶ τέσσαρες τόποι ἐν αὐτῷ κοῖλοι, βάθος (καὶ πλάτος) ἔχοντες καὶ λίαν λεῖοι, ⟨τρεῖς αὐτῶν σκοτεινοί, καὶ εἷς φωτεινός, καὶ πηγὴ ὕδατος ἀνὰ μέσον αὐτοῦ. καὶ εἶπον·⟩ Πῶς λεῖα τὰ κοιλώματα ταῦτα καὶ ὀλοβαθέα καὶ σκοτεινὰ τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:3": {
+  "text": "τότε ἀπεκρίθη Ῥαφαήλ, ὁ εἷς τῶν ἁγίων ἀγγέλων, ὃς μετ’ ἐμοῦ ἦν, καὶ εἶπέν μοι· Οὗτοι οἱ τόποι οἱ κοῖλοι, ἵνα ἐπισυνάγωνται εἰς αὐτοὺς τὰ πνεύματα τῶν ψυχῶν τῶν νεκρῶν, εἰς αὐτὸ τοῦτο ἐκτίσθησαν, ὧδε ἐπισυνάγεσθαι πάσας τὰς ψυχὰς τῶν ἀνθρώπων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:4": {
+  "text": "καὶ οὗτοι οἱ τόποι εἰς ἐπισύσχεσι(ν) αὐτῶν ἐποιήθησαν μέχρι τῆς ἡμέρας τῆς κρίσεως αὐτῶν καὶ μέχρι τοῦ διορισμοῦ καὶ διωρισμένου χρόνου ἐν ᾧ ἡ κρίσις ἡ μεγάλη ἔσται ἐν αὐτοῖς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:5": {
+  "text": "Τεθέαμαι (πνεῦμα) ἀνθρώπου νεκροῦ ⟨ἐντυγχάνοντος⟩, καὶ ἡ φωνὴ αὐτοῦ μέχρι τοῦ οὐρανοῦ προέβαινεν, καὶ ἐνετύγχανεν·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:6": {
+  "text": "καὶ ἠρώτησα Ῥαφαὴλ τὸν ἄγγελον, ὃς μετ’ ἐμοῦ ἦν· καὶ εἶπα αὐτῷ· Τοῦτο τὸ πνεῦμα ⟨τὸ ἐντυγχάνον⟩, τίνος ἐστίν, οὗ οὕτως ἡ φωνὴ αὐτοῦ προβαίνει καὶ ἐντυγχάνει ⟨ἕως τοῦ οὐρανοῦ⟩;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:7": {
+  "text": "καὶ ἀπεκρίθη μοι λέγων· Τοῦτο τὸ πνεῦμα ἐστιν τὸ ἐξελθὸν ἀπὸ Ἄβελ, ὃν ἐφόνευσεν Κάειν ὁ ἀδελφός. καὶ ⟨Ἄβελ⟩ ἐντυγχάνει περὶ αὐτοῦ μέχρι τοῦ ἀπολέσθαι τὸ σπέρμα αὐτοῦ ἀπὸ προσώπου τῆς γῆς καὶ ἀπὸ τοῦ σπέρματος τῶν ἀνθρώπων ἀφανισθῇ τὸ σπέρμα αὐτοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:8": {
+  "text": "Τότε ἠρώτησα (περὶ αὐτοῦ καὶ) περὶ τῶν κοιλωμάτων πάντων· Διὰ τί ἐχωρίσθησαν ἓν ἀπὸ τοῦ ἑνός;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:9": {
+  "text": "καὶ ἀπεκρίθη μοι λέγων· Οὗτοι οἱ τρεῖς ἐποιήθησαν χωρίζεσθαι τὰ πνεύματα τῶν νεκρῶν· καὶ οὕτως (ἐ)χωρίσθη εἰς τὰ πνεύματα τῶν δικαίων, οὗ ἡ πηγὴ τοῦ ὕδατος (τῆς ζωῆς) ἐν αὐτῷ φωτεινή.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:10": {
+  "text": "καὶ οὕτως ἐκτίσθη τοῖς ἁμαρτωλοῖς, ὅταν ἀποθάνωσιν καὶ ταφῶσιν εἰς τὴν γῆν καὶ κρίσις οὐκ ἐγενήθη ἐπ’ αὐτῶν ἐν τῇ ζωῇ αὐτῶν,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:11": {
+  "text": "ὧδε χωρίζεται τὰ πνεύματα αὐτῶν εἰς τὴν μεγάλην βάσανον ταύτην μέχρι τῆς μεγάλης ἡμέρας τῆς κρίσεως, τῶν μαστίγων καὶ τῶν βασάνων τῶν κατηραμένων μέχρι αἰῶνος (καὶ) τῆς ἀνταποδόσεως τῶν πνευμάτων· ἐκεῖ δήσει αὐτοὺς μέχρις αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:12": {
+  "text": "καὶ οὕτως ἐχωρίσθη τοῖς πνεύμασιν τῶν ἐντυγχανόντων, οἵτινες ἐμφανίζουσιν περὶ τῆς ἀπωλείας, ὅταν φονευθῶσιν ἐν ταῖς ἡμέραις τῶν ἁμαρτωλῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:13": {
+  "text": "⟨καὶ⟩ οὕτως ἐκτίσθη τοῖς πνεύμασιν τῶν ἀνθρώπων ὅσοι οὐκ ἔσονται ὅσιοι ἀλλ’ ἁμαρτωλοὶ ὅσοι (ὅλοι) ἀσεβεῖς· καὶ μετὰ τῶν ἀνόμων ἔσονται μέτοχοι· τὰ δὲ πνεύματα [ὅτι οἱ ἐνθάδε θλιβέντες ἔλαττον κολάζονται] αὐτῶν οὐ τιμωρηθήσονται ἐν ἡμέρᾳ τῆς κρίσεως οὐδὲ μὴ μετεγερθῶσιν ἐντεῦθεν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "22:14": {
+  "text": "τότε ηὐλόγησα τὸν κύριον τῆς δόξης καὶ εἶπα· Εὐλογητὸς εἶ, κύριε, ὁ τῆς δικαιοσύνης κυριεύων τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "23:1": {
+  "text": "Κἀκεῖθεν ἐφώδευσα εἰς ἄλλον τόπον πρὸς δυσμὰς τῶν περάτων τῆς γῆς·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "23:2": {
+  "text": "καὶ ἐθεασάμην πῦρ διατρέχον καὶ οὐκ ἀναπαυόμενον οὐδὲ ἐλλεῖπον τοῦ δρόμου ἡμέρας καὶ νυκτὸς ἀλλὰ διαμένον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "23:3": {
+  "text": "καὶ ἠρώτησα λέγων· Τί ἐστιν τὸ μὴ ἔχον ἀνάπαυσιν;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "23:4": {
+  "text": "τότε ἀπεκρίθη μοι Ῥαγουήλ, ὁ εἷς τῶν ἁγίων ἀγγέλων, ὃς μετ’ ἐμοῦ ἦν· Οὗτος ὁ δρόμος τοῦ πυρὸς τὸ πρὸς δυσμὰς πῦρ τὸ ἐκδιῶκόν ἐστιν πάντας τοὺς φωστῆρας τοῦ οὐρανοῦ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:1": {
+  "text": "(Κἀκεῖθεν ἐφώδευσα εἰς ἄλλον τόπον τῆς γῆς) καὶ ἔδειξέν μοι ὄρη πυρὸς καιόμενα...νυκτός.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:2": {
+  "text": "καὶ ἐπέκεινα αὐτῶν ἐπορεύθην, καὶ ἐθεασάμην ἑπτὰ ὄρη ἔνδοξα, πάντα ἑκάτερα τοῦ ἑκατέρου διαλλάσσοντο, ὧν οἱ λίθοι ἔντιμοι τῇ καλλονῇ· καὶ πάντα ἔντιμα καὶ ἔνδοξα καὶ εὐειδῆ. (τρία ἐπ’) ἀνατολὰς ἐστηριγμένα (ἓν) ἐν τῷ ἑνί, καὶ τρία ἐπὶ νότον (ἓν) ἐν τῷ ἑνί. καὶ φάραγγες βαθεῖαι καὶ τραχεῖαι, μία τῇ μιᾷ οὐκ ἐγγίζουσαι.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:3": {
+  "text": "[καὶ τῷ ὄρει] ἕβδομον ὄρος ἀνὰ μέσον τούτων, καὶ ὑπερεῖχεν τῷ ὕψει ὅμοιον καθέδρα θρόνου· καὶ περιεκύκλου δένδρα αὐτὸ εὐώδη.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:4": {
+  "text": "καὶ ἦν ἐν αὐτοῖς δένδρον ὃ οὐδέποτε ὤσφρανμαι καὶ οὐδὲν ἕτερον αὐτῶν [ηὐφράνθη] καὶ οὐδὲν ἕτερον ὅμοιον αὐτῷ· ὀσμὴν εἶχεν εὐωδέστεραν πάντων ἀρωμάτων· καὶ τὰ φύλλα αὐτοῦ καὶ τὸ ἄνθος καὶ τὸ δένδρον οὐ φθίνει εἰς τὸν αἰῶνα· οἱ δὲ περὶ τὸν καρπὸν ὡσεὶ βότρυες φοινίκων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:5": {
+  "text": "Τότε εἶπον· Ὡς καλὸν τὸ δένδρον τοῦτό ἐστιν καὶ εὐῶδες, καὶ ὡραῖα τὰ φύλλα, καὶ τὰ ἄνθη αὐτοῦ ὡραῖα τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "24:6": {
+  "text": "τότε ἀπεκρίθη μοι Μιχαήλ, εἷς τῶν ἁγίων ἀγγέλων, ὃς μετ’ ἐμοῦ ἦν, καὶ αὐτὸς αὐτῶν ἡγεῖτο,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:1": {
+  "text": "καὶ εἶπέν μοι· Ἐνώχ, τί ἐρωτᾷς; ⟨καὶ τί ἐθαύμασας⟩ ἐν τῇ ὀσμῇ τοῦ δένδρου; καὶ ⟨διὰ τί⟩ θέλεις τὴν ἀλήθειαν μαθεῖν;",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:2": {
+  "text": "τότε ἀπεκρίθη(ν) αὐτῷ· Περὶ πάντων εἰδέναι θέλω, μάλιστα δὲ περὶ τοῦ δένδρου τούτου σφόδρα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:3": {
+  "text": "Καὶ ἀπεκρίθη λέγων· Τοῦτο τὸ ὄρος τὸ ὑψηλόν, οὗ ἡ κορυφὴ ὁμοία θρόνου θεοῦ, καθέδρα ἐστὶν οὗ καθίσει ὁ ἅγιος ὁ μέγας κύριος τῆς δόξης, ὁ βασιλεὺς τοῦ αἰῶνος, ὅταν καταβῇ ἐπισκέψασθαι τὴν γῆν ἐπ’ ἀγαθῷ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:4": {
+  "text": "καὶ τοῦτο τὸ δένδρον εὐωδίας καὶ οὐδεμία σὰρξ ἐξουσίαν ἔχει ἅψασθαι αὐτοῦ μέχρι τῆς μεγάλης κρίσεως, ἐν ᾗ ἐκδίκησις πάντων κα(ὶ) τελείωσις μέχρις αἰῶνος· τότε δικαίοις καὶ ὁσίοις δοθήσεται",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:5": {
+  "text": "ὁ καρπὸς αὐτοῦ τοῖς ἐκλεκτοῖς εἰς ζωήν· καὶ εἰς βορρᾶν μεταφυτευθήσεται ἐν τόπῳ ἁγίῳ, παρὰ τὸν οἶκον τοῦ θεοῦ βασιλέως τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:6": {
+  "text": "τότε εὐφρανθήσονται εὐφραινόμενοι, καὶ χαρήσονται, καὶ εἰς τὸ ἅγιον εἰσελεύσονται· αἱ ὀσμαὶ αὐτοῦ ἐν τοῖς ὀστέοις αὐτῶν· καὶ ζωὴν πλείονα ζήσονται ἐπὶ γῆς ἣν ἔζησαν οἱ πατέρες σου· καὶ ἐν ταῖς ἡμέραις αὐτῶν καὶ βάσανοι καὶ πληγαὶ καὶ μάστιγες οὐχ ἅψονται αὐτῶν.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "25:7": {
+  "text": "τότε ηὐλόγησα τὸν θεὸν τῆς δόξης, τὸν βασιλέα τοῦ αἰῶνος, ὃς ἡτοίμασεν ἀνθρώποις τὰ τοιαῦτα δικαίοις καὶ αὐτὰ ἔκτισεν καὶ εἶπεν δοῦναι αὐτοῖς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:1": {
+  "text": "Καὶ ἐκεῖθεν ἐφώδευσα εἰς τὸ μέσον τῆς γῆς, καὶ ἴδον τόπον ηὐλογημένον, ⟨ἐν ᾧ δένδρα⟩ ἔχοντα παραφυάδας μενούσας καὶ βλαστούσας τοῦ δένδρου ἐκκοπέντος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:2": {
+  "text": "κἀκεῖ τεθέαμαι ὄρος ἅγιον, ὑποκάτω τοῦ ὄρους ὕδωρ ἐξ ἀνατολῶν· καὶ τὴν ῥύσιν εἶχεν πρὸς νότον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:3": {
+  "text": "καὶ ἴδον πρὸς ἀνατολὰς ἄλλο ὄρος ὑψηλότερον τούτου, καὶ ἀνὰ μέσον αὐτῶν φάραγγαν βαθεῖαν οὐκ ἔχουσαν πλάτος, καὶ δι’ αὐτῆς ὕδωρ πορεύεται ὑποκάτω ὑπὸ τὸ ὄρος—",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:4": {
+  "text": "καὶ πρὸς δυσμὰς τούτου ἄλλο ὄρος ταπεινότερον αὐτοῦ καὶ οὐκ ἔχον ὕψος, καὶ φάραγγαν βαθεῖαν καὶ ξηρὰν ἀνὰ μέσον αὐτῶν, καὶ ἄλλην φάραγγαν βαθεῖαν καὶ ξηρὰν ἐπ’ ἄκρων τῶν τριῶν ὀρέων.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:5": {
+  "text": "καὶ πᾶσαι φάραγγές εἰσιν βαθεῖαι, ἐκ πέτρας στερεᾶς· καὶ δένδρον ⟨οὐκ⟩ ἐφυτεύετο ἐπ’ αὐτάς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "26:6": {
+  "text": "... καὶ ἐθαύμασα περὶ τῆς φαράγγας καὶ λίαν ἐθαύμασα",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "27:1": {
+  "text": "καὶ εἶπον· Διὰ τί ἡ γῆ αὕτη ἡ εὐλογημένη καὶ πᾶσα πλήρης δένδρων, αὕτη δὲ ἡ φάραγξ κεκατηραμένη ἐστί; (τότε ἀπεκρίθη Οὐριήλ, ὁ εἷς τῶν ἁγίων ἀγγέλων, ὃς μετ’ ἐμοῦ ἦν, καὶ εἶπεν·)",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "27:2": {
+  "text": "Ἡ γῆ κατάρατος τοῖς κεκαταραμένοις ἐστὶν μέχρι αἰῶνος· ὧδε ἐπισυναχθήσονται πάντες οἱ [κεκατηραμένοι] τινες ἐροῦσιν τῷ στόματι αὐτῶν κατὰ κυριοῦ φωνὴν ἀπρεπῆ καὶ περὶ τῆς δόξης αὐτοῦ σκληρὰ λαλήσουσιν. ὧδε ἐπισυναχθήσονται καὶ ὧδε ἔσται τὸ οἰκητήριον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "27:3": {
+  "text": "ἐπ’ ἐσχάτοις αἰῶσιν, ἔσονται εἰς ὅρασιν τῆς κρίσεως τῆς ἀληθινῆς ἐναντίον τῶν δικαίων εἰς τὸν ἅπαντα χρόνον, ὧδε εὐλογήσουσιν οἱ εὐσεβεῖς τὸν κύριον τῆς δόξης, τὸν βασιλέα τοῦ αἰῶνος.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "27:4": {
+  "text": "ἐν ταῖς ἡμέραις τῆς κρίσεως αὐτῶν εὐλογήσουσιν (αὐτὸν) ἐν ἐλέει ὡς ἐμέρισεν αὐτοῖς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "27:5": {
+  "text": "τότε ηὐλόγησα τὸν κύριον τῆς δόξης καὶ τὴν δόξαν αὐτοῦ ἐδήλωσα καὶ ὕμνησα μεγαλοπρεπῶς.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "28:1": {
+  "text": "Καὶ ἐκεῖθεν ἐπορεύθην εἰς τὸ μέσον Μανδοβαρα, καὶ ἴδον αὐτὸ ἔρημον καὶ αὐτὸ μόνον,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "28:2": {
+  "text": "πλῆρες δένδρων· καὶ ἀπὸ τῶν σπερμάτων ὕδωρ ἀνομβροῦν ἄνωθεν",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "28:3": {
+  "text": "φαινόμενον, ὡς ὑδραγωγὸς δαψιλὴς ὡς πρὸς βορρᾶν ἐπὶ δυσμῶν πάντοθεν ἀνάγει ὕδωρ καὶ δρόσον.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "29:1": {
+  "text": "Καὶ ἐκεῖθεν ἐπορεύθην εἰς ἄλλον τόπον ἐν τῷ Βαβδηρα, καὶ πρὸς ἀνατολὰς τοῦ ὄρους τούτου ᾠχόμην,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "29:2": {
+  "text": "καὶ ἴδον κρίσεως δένδρα πνέοντα ἀρωμάτων λιβάνων καὶ σμύρνης· καὶ τὰ δένδρα αὐτῶν ὅμοια καρύαις.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "30:1": {
+  "text": "Καὶ ἐπέκεινα τούτων ᾠχόμην πρὸς ἀνατολὰς μακράν, καὶ ἴδον τόπον ἄλλον μέγαν, φάραγγαν ὕδατος,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "30:2": {
+  "text": "ἐν ᾧ καὶ δένδρον χρόα ἀρωμάτω(ν) ὁμοίων σχίνῳ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "30:3": {
+  "text": "καὶ τὰ παρὰ τὰ χείλη τῶν φαράγγων τούτων ἴδον κιννάμωμον ἀρωμάτων. καὶ ἐπέκεινα τούτων ᾠχόμην πρὸς ἀνατολάς,",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "31:1": {
+  "text": "καὶ ἴδον ἄλλα ὄρη, καὶ ἐν αὐτοῖς ἄλση δένδρων, καὶ ἐκπορευόμενον ἐξ αὐτῶν νέκταρ, τὸ καλούμενον σαρραν καὶ χαλβάνη.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "31:2": {
+  "text": "Καὶ ἐπέκεινα τῶν ὀρέων τούτων ἴδον ἄλλο ὄρος πρὸς ἀνατολὰς τῶν περάτων τῆς γῆς, καὶ πάντα τὰ δένδρα πλήρη ἐκ στακτῆς ἐν ὁμοιώματι ἀμυγδάλω(ν)·",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "31:3": {
+  "text": "ὅταν τρίβωσιν αὐτὸ εὐωδέστερον ὑπὲρ πᾶν ἄρωμα.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:1": {
+  "text": "(καὶ μετὰ ταῦτα τὰ ἀρώματα), εἰς βορρᾶν πρὸς ἀνατολὰς τεθέαμαι ἑπτὰ ὄρη πλήρη νάρδου χρηστοῦ καὶ σχίνου καὶ κινναμώμου καὶ πιπέρεως.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:2": {
+  "text": "Καὶ ἐκεῖθεν ἐφώδευσα ἐπὶ τὰς ἀρχὰς πάντων τῶν ὀρέων τούτων, μακρὰν ἀπέχων πρὸς ἀνατολὰς ⟨τῆς γῆς⟩. καὶ διέβην ἐπάνω τῆς ἐρυθρᾶς θαλάσσης, καὶ ᾠχόμην μακρὰν ἀπὸ τούτου καὶ διέβην ἐπάνω τοῦ Ζωτιέλ.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:3": {
+  "text": "καὶ ἦλθον πρὸς τὸν παράδεισον τῆς δικαιοσύνης· καὶ ἴδον μακρόθεν τῶν δένδρων τούτων δένδρα πλείονα καὶ μεγάλα φυόμενα ἐκεῖ μεγάλα σφόδρα καλὰ καὶ ἔνδοξα καὶ μεγαλοπρεπῆ, καὶ τὸ δένδρον τῆς φρονήσεως, οὗ ἐσθίουσιν ⟨ἁγίοι τοῦ καρποῦ αὐτοῦ⟩ καὶ ἐπίστανται φρόνησιν μεγάλην.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:4": {
+  "text": "⟨ὅμοιον τὸ δένδρον ἐκεῖνο στροβιλέᾳ τὸ ὕψος· τὰ δὲ φύλλα⟩ αὐτοῦ κερατί(ᾳ) ὅμοια· ὁ δὲ καρπὸς αὐτοῦ ὡσεὶ βότρυες ἀμπέλου ἱλαροὶ λίαν· ἡ δὲ ὀσμὴ αὐτοῦ διέτρεχεν πόρρω ἀπὸ τοῦ δένδρου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:5": {
+  "text": "τότε εἶπον· Ὡς καλὸν τὸ δένδρον καὶ ὡς ἐπίχαρι τῇ ὁράσει.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "32:6": {
+  "text": "τότε ἀπεκρίθη Ῥαφαήλ, ὁ ἅγιος ἄγγελος ὁ μετ’ ἐμοῦ ὤν· Τοῦτο τὸ δένδρον φρονήσεως ἐξ οὗ ἔφαγεν ὁ πατήρ σου.",
+  "w": "Gizeh (Akhmim) Greek MS, first hand (G¹); text of R. H. Charles, The Book of Enoch (Oxford 1893), Appendix C, pp. 326–370"
+ },
+ "89:42": {
+  "text": "Καὶ οἱ κύνες ἤρξαντο κατεσθίειν τὰ πρόβατα καὶ οἱ ὗες καὶ οἱ ἀλώπεκες κατήσθιον αὐτά, μέχρι οὗ ἤγειρεν ὁ κύριος τῶν προβάτων κριὸν ἕνα ἐκ τῶν προβάτων.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:43": {
+  "text": "Καὶ ὁ κριὸς οὗτος ἤρξατο κερατίζειν καὶ ἐπιδιώκειν ἐν τοῖς κέρασιν καὶ ἐνετίνασσεν εἰς τοὺς ἀλώπεκας καὶ μετ’ αὐτοὺς εἰς τοὺς ὗας καὶ ἀπώλεσεν ὗας πολλοὺς καὶ μετ’ αὐτοὺς . . . τὸ τοὺς κύνας.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:44": {
+  "text": "Καὶ τὰ πρόβατα ὧν οἱ ὀφθαλμοὶ ἠνοίγησαν ἐθεάσοντο τὸν κριὸν τὸν ἐν τοῖς προβάτοις, ἕως οὗ ἀφῆκεν τὴν ὁδὸν αὐτοῦ καὶ ἤρξατο πορεύεσθαι ἀνοδίᾳ.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:45": {
+  "text": "Καὶ ὁ κύριος τῶν προβάτων ἀπέστειλεν τὸν ἄρνα τοῦτον ἐπὶ ἄρνα ἕτερον τοῦ στῆσαι αὐτὸν εἰς κριὸν ἐν ἀρχῇ τῶν προβάτων ἀντὶ τοῦ κριοῦ τοῦ ἀφέντος τὴν ὁδὸν αὐτοῦ.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:46": {
+  "text": "Καὶ ἐπορεύθη πρὸς αὐτὸν καὶ ἐλάλησεν αὐτῷ σιγῇ κατὰ μόνας καὶ ἤγειρεν αὐτὸν εἰς κριὸν καὶ εἰς ἄρχοντα καὶ εἰς ἡγούμενον τῶν προβάτων καὶ οἱ κύνες ἐπὶ πᾶσι τούτοις ἔθλιβον τὰ πρόβατα.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:47": {
+  "text": "Ἑξῆς δὲ τούτοις γέγραπται ὅτι ὁ κριὸς ὁ πρῶτος τὸν κριὸν τὸν δεύτερον ἐπεδίωκεν καὶ ἔφυγεν ἀπὸ προσώπου αὐτοῦ· εἶτ’ ἐθεώρουν, φησίν, τὸν κριὸν τὸν πρῶτον ἕως οὗ ἔπεσεν ἔμπροσθεν τῶν κυνῶν.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:48": {
+  "text": "Καὶ ὁ κριὸς ὁ δεύτερος ἀναπηδήσας ἀφηγήσατο τῶν προβάτων.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ },
+ "89:49": {
+  "text": "Καὶ τὰ πρόβατα ηὐξήθησαν καὶ ἐπληθύνθησαν· καὶ πάντες οἱ κύνες καὶ οἱ ἀλώπεκες ἔφυγον ἀπ’ αὐτοῦ καὶ ἐφοβοῦντο αὐτόν.",
+  "w": "Vatican MS fragment, ed. Mai, Patrum Nova Bibliotheca ii, deciphered by Gildemeister, ZDMG 1855, pp. 621–622; as printed by R. H. Charles, The Book of Enoch (Oxford 1893), pp. 238–240"
+ }
+}

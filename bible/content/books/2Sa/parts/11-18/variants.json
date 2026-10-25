@@ -1,0 +1,882 @@
+[
+ {
+  "v": "11:1",
+  "a": "kings",
+  "t": "Kings or messengers?",
+  "p": "The written Hebrew says \"messengers\" (mal'akhim); the reading tradition says \"kings\" (melakhim).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere (the reading tradition); many Hebrew manuscripts; Septuagint; 1 Chronicles 20:1; nearly all translations",
+    "orig": "הַמְּלָכִים",
+    "en": "the kings",
+    "plain": "kings"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (the written consonants)",
+    "orig": "הַמַּלְאכִים",
+    "en": "the messengers",
+    "plain": "messengers"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one silent letter (aleph). \"Kings\" fits the phrase \"the time when kings go out\" and matches the parallel in 1 Chronicles 20:1. \"Messengers\" may be a copying slip, perhaps influenced by David's many messengers in this chapter.",
+  "b": "A few interpreters defend \"messengers,\" pointing back to David's envoys whom the Ammonites humiliated (10:2–4), which started the war: \"at the time the messengers had gone out.\" These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "tov-tchb",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "the wife of Uriah the Hittite",
+  "t": "\"Joab's armor bearer\"",
+  "p": "A Dead Sea scroll and Josephus add that Uriah was Joab's armor bearer.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint",
+    "orig": "אֵשֶׁת אוּרִיָּה הַחִתִּי",
+    "en": "wife of Uriah the Hittite",
+    "plain": "the wife of Uriah the Hittite"
+   },
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17); Josephus, <i>Antiquities</i> 7.7.1",
+    "orig": "אשת אוריה החתי נושא כלי יואב",
+    "en": "wife of Uriah the Hittite, armor bearer of Joab",
+    "plain": "the wife of Uriah the Hittite, Joab's armor bearer"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's extra words may preserve old information, since Josephus knew it too, but they look like an explanatory addition, and 23:39 lists Uriah among the Thirty, not as Joab's armor bearer. The Plain English follows the shorter text.",
+  "b": "If the addition is old, it would explain why Uriah was close to Joab and why Joab knew exactly where to place him (11:16). These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel",
+   "josephus-ant",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "11:21",
+  "a": "Jerubbesheth",
+  "t": "Jerubbesheth or Jerubbaal?",
+  "p": "The Hebrew replaces \"Baal\" in Gideon's name with \"bosheth,\" \"shame.\" The Greek has Jerubbaal.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יְרֻבֶּשֶׁת",
+    "en": "Jerubbesheth",
+    "plain": "Jerubbesheth"
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision; compare Judges 6:32",
+    "orig": "Ιεροβααλ",
+    "en": "Jerubbaal",
+    "plain": "Jerubbaal"
+   }
+  ],
+  "follow": 0,
+  "why": "Gideon's name in Judges is Jerubbaal (Judges 6:32). Later scribes often replaced \"Baal\" with \"bosheth,\" \"shame,\" in names, as in Ish-bosheth and Mephibosheth (compare 1 Chronicles 8:33–34, which keeps Eshbaal and Merib-baal). The Plain English keeps the Hebrew form, which is the reading of this verse; the Greek preserves the older name.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "tov-tchb",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "11:22",
+  "a": "He came and told David everything Joab had sent him to say.",
+  "t": "David's angry reply",
+  "p": "The Greek adds David's angry words to the messenger, just as Joab had predicted in 11:20–21.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיָּבֹא וַיַּגֵּד לְדָוִד אֵת כָּל־אֲשֶׁר שְׁלָחוֹ יוֹאָב",
+    "en": "and he came and told David all that Joab had sent him",
+    "plain": "He came and told David everything Joab had sent him to say."
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "καὶ ἐθυμώθη Δαυιδ ἐπὶ Ιωαβ καὶ εἶπεν πρὸς τὸν ἄγγελον ...",
+    "en": "and David grew angry with Joab and said to the messenger, 'Why did you go near the city to fight? Did you not know that you would be struck from the wall?...'",
+    "plain": "He came and told David everything Joab had sent him to say. David grew angry with Joab and said to the messenger, \"Why did you go so close to the city to fight? Didn't you know you would be struck from the wall? Who killed Abimelech son of Jerubbaal? Wasn't it a woman who dropped an upper millstone on him from the wall, so that he died at Thamasi? Why go near the wall?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek plus repeats almost word for word what Joab expected the king to say. Some scholars (McCarter) think the Hebrew lost it by a scribe's eye skipping; most think the Greek filled out the scene to match Joab's prediction. The Hebrew, without the outburst, makes the messenger hurry to blurt out Uriah's death (11:24) before David can get angry, which also makes good sense. (The Greek calls Thebez \"Thamasi.\") A Greek plus that survived a revision aimed at matching the Hebrew is the more likely to be old. The Plain English follows the Hebrew, with low certainty.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "four lambs",
+  "t": "Fourfold or sevenfold?",
+  "p": "The Hebrew says the rich man must repay fourfold, as the law required. The Greek says sevenfold.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אַרְבַּעְתָּיִם",
+    "en": "fourfold",
+    "plain": "four lambs"
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "ἑπταπλασίονα",
+    "en": "sevenfold",
+    "plain": "seven lambs"
+   }
+  ],
+  "follow": 0,
+  "why": "Fourfold matches the law of Exodus 22:1, and the rabbis connected it with four of David's children (Yoma 22b). \"Sevenfold\" may come from Proverbs 6:31, where a thief repays sevenfold, or may be a stronger way of saying \"in full.\" Some scholars think the Greek is older and the Hebrew was brought into line with the law. The Plain English follows the Hebrew.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "bavli-yoma",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "12:14",
+  "a": "you have utterly scorned the word of the LORD",
+  "t": "\"The word of the LORD\" or \"the LORD's enemies\"?",
+  "p": "The Leningrad Codex says David scorned \"the LORD's enemies.\" The Qumran scroll reads \"the word of the LORD.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17)",
+    "orig": "נאץ נאצתה את דבר יהוה",
+    "en": "you have utterly scorned the word of the LORD",
+    "plain": "you have utterly scorned the word of the LORD"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה",
+    "en": "you have utterly scorned the enemies of the LORD",
+    "plain": "you have utterly scorned the LORD's enemies"
+   },
+   {
+    "w": "Modern conjecture without any buffer word (no manuscript has it)",
+    "orig": "נִאֵץ נִאַצְתָּ אֶת־יְהוָה",
+    "en": "you have utterly scorned the LORD",
+    "plain": "you have utterly scorned the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Scorning the LORD's enemies\" makes no sense as a charge, and most scholars think \"enemies\" was added by scribes so that the text would not say outright that David scorned God, as with \"David's enemies\" in 1 Samuel 25:22. The Qumran scroll has a different buffer, \"the word of the LORD,\" which matches Nathan's own charge: \"Why have you despised the word of the LORD?\" (12:9). The scroll is the oldest witness, its reading makes sense, and it is attested, whereas the bare \"scorned the LORD\" is only a scholars' reconstruction. The Plain English follows the scroll.",
+  "b": "Parry argues that the scroll's \"word\" is itself a reverent substitute, older than the Leningrad Codex's \"enemies\"; either way, the sense is that David treated the LORD with contempt. The KJV keeps \"enemies\" by reading the verb as causative: \"thou hast given great occasion to the enemies of the LORD to blaspheme.\" These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "djd17-samuel",
+   "parry-word-enemies",
+   "mccarter-2sam",
+   "tov-tchb",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "12:16",
+  "a": "on the ground in sackcloth",
+  "t": "\"In sackcloth\"",
+  "p": "A Dead Sea scroll and the Greek say David lay \"in sackcloth.\" The Leningrad Codex lacks the word.",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "וַיִּשְׁכַּב בַּשָּׂק אָרְצָה",
+    "en": "and he lay in sackcloth on the ground",
+    "plain": "on the ground in sackcloth"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְשָׁכַב אָרְצָה",
+    "en": "and he lay on the ground",
+    "plain": "on the ground"
+   }
+  ],
+  "follow": 0,
+  "why": "Two independent old witnesses agree, and the word could easily drop out in copying. Sackcloth also fits David's fasting. The Plain English follows the scroll and the Greek.",
+  "b": "The scroll also appears to lack the Hebrew verb for \"spent the night\" (<i>welan</i>), giving a shorter clause; the Plain English keeps \"all night\" from the Leningrad Codex. These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel",
+   "mccarter-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "12:24",
+  "a": "She named him Solomon",
+  "t": "Who named Solomon?",
+  "p": "The written Hebrew says \"he named him\"; the reading tradition says \"she named him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere; many Hebrew manuscripts; Targum",
+    "orig": "וַתִּקְרָא",
+    "en": "and she called",
+    "plain": "She named him Solomon"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv",
+    "orig": "וַיִּקְרָא",
+    "en": "and he called",
+    "plain": "He named him Solomon"
+   }
+  ],
+  "follow": 0,
+  "why": "Mothers often name children in the Bible (Genesis 29:32–35; 1 Samuel 1:20), and the next verse has a second naming by Nathan, so \"she\" fits well. Either way the meaning is not affected much. The Plain English follows the Qere.",
+  "s": [
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "12:30",
+  "a": "their king's crown",
+  "t": "\"Their king\" or Milcom?",
+  "p": "The same Hebrew letters can be read \"their king\" (malkam) or Milcom, the Ammonite god.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1 Chronicles 20:2; Vulgate (<i>diadema regis eorum</i>)",
+    "orig": "עֲטֶרֶת־מַלְכָּם",
+    "en": "the crown of their king",
+    "plain": "their king's crown"
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision (\"Melchol their king,\" a doublet that keeps both readings); many modern translations",
+    "orig": "עֲטֶרֶת מִלְכֹּם",
+    "en": "the crown of Milcom",
+    "plain": "Milcom's crown"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew consonants <i>mlkm</i> allow both. A crown weighing a talent of gold suits a statue better than a man, and Milcom is named as the Ammonite god in 1 Kings 11:5. But \"their king\" is the reading of the vowel tradition, of Chronicles and of the Vulgate here (the Vulgate has \"Melchom\" only at 1 Chronicles 20:2). The Plain English follows the Hebrew; the note on 12:30 gives the arguments.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "anderson-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "12:31",
+  "a": "set them at the saws, the iron picks and the iron axes, and put them to work at the brick molds",
+  "t": "Labor or torture?",
+  "p": "Chronicles says David \"sawed\" the Ammonites; the written Hebrew may point to Molech. Most read forced labor.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Qere <i>malben</i>, \"brick mold\")",
+    "orig": "וַיָּשֶׂם בַּמְּגֵרָה ... וְהֶעֱבִיר אוֹתָם בַּמַּלְבֵּן",
+    "en": "and he set them at the saw ... and made them pass through the brick mold",
+    "plain": "set them at the saws, the iron picks and the iron axes, and put them to work at the brick molds"
+   },
+   {
+    "w": "1 Chronicles 20:3 (<i>wayyasar</i>, \"he sawed\"); KJV (reading Samuel in the light of 1 Chronicles 20:3)",
+    "orig": "וַיָּשַׂר בַּמְּגֵרָה",
+    "en": "and he sawed them with the saw",
+    "plain": "cut them with saws, iron picks and iron axes, and made them pass through the brick kiln"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv (<i>malken</i>)",
+    "orig": "בַּמַּלְכֵּן",
+    "en": "through the malken",
+    "plain": "set them at the saws, the iron picks and the iron axes, and made them pass through Malkan"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb in Samuel means \"set, put,\" and the tools are tools of work; ancient kings regularly made captives into laborers (1 Kings 9:20–21). Chronicles' verb differs from Samuel's by one letter (<i>r</i> for <i>m</i>), easily confused. The Ketiv <i>malken</i> has been read by some as \"Milcom\" or \"Molech,\" making the Ammonites pass through their own god's fire (compare 2 Kings 23:10), but it is more likely a slip for <i>malben</i>. The Plain English follows the labor reading.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "anderson-2sam"
+  ]
+ },
+ {
+  "v": "13:16",
+  "a": "\"No!\" she told him. \"This evil, throwing me out, is greater than the other one you have done to me.\"",
+  "t": "Tamar's broken sentence",
+  "p": "The Hebrew of Tamar's protest is grammatically broken. The Greek has a smooth version.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); the sense, as most translations take it",
+    "orig": "אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי",
+    "en": "No, on account of this great evil, more than the other which you did to me, to send me away",
+    "plain": "\"No!\" she told him. \"This evil, throwing me out, is greater than the other one you have done to me.\""
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "Μή, ἀδελφέ, ὅτι μεγάλη ἡ κακία ἡ ἐσχάτη ὑπὲρ τὴν πρώτην, ἣν ἐποίησας μετ᾽ ἐμοῦ, τοῦ ἐξαποστεῖλαί με",
+    "en": "No, brother, for great is this last evil, more than the first that you did with me, to send me away",
+    "plain": "\"No, my brother!\" she told him. \"This last evil, throwing me out, is greater than the first one you did to me.\""
+   }
+  ],
+  "follow": 0,
+  "why": "Both texts say the same thing: sending her away is worse than the rape. The Hebrew may be damaged, or its broken grammar may picture a woman too shocked to speak smoothly, as some literary readers suggest. The Greek is smoother; 4QSam-a may support its \"No, my brother,\" but the scroll is damaged here and that report has not been checked against the edition. The Plain English gives the shared sense without the Greek's added \"brother.\"",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "alter-david",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "13:21",
+  "a": "But he would not bring pain to the spirit of Amnon his son, because he loved him: Amnon was his firstborn.",
+  "t": "Why David did nothing",
+  "p": "A Dead Sea scroll and the Greek explain David's silence: he loved Amnon, his firstborn.",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "ולוא עצב את רוח אמנון בנו כי אהבו כי בכורו הוא",
+    "en": "but he did not grieve the spirit of Amnon his son, for he loved him, for he was his firstborn",
+    "plain": "But he would not bring pain to the spirit of Amnon his son, because he loved him: Amnon was his firstborn."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(the Hebrew stops after \"he was very angry\")",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll from Qumran, more than a thousand years older than the Leningrad Codex, agrees with the Greek here, which shows that the longer text existed in Hebrew. The sentence could easily be lost if a scribe's eye jumped between two similar endings. It also fits the story: David's love for a favored son keeps him from acting, as with Adonijah later: \"his father had never once upset him\" (1 Kings 1:6, using the same verb). Some modern translations, such as the NRSV, include it. A Greek plus that survived a revision aimed at matching the Hebrew is the more likely to be old. The Plain English follows the scroll and the Greek.",
+  "b": "The verb <i>'itsev</i>, \"grieve, upset,\" is the same one used of David's failure to correct Adonijah in 1 Kings 1:6, a link that supports the longer text. These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel",
+   "mccarter-2sam",
+   "tov-tchb",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "13:27",
+  "a": "And Absalom prepared a banquet like a king's banquet.",
+  "t": "A feast fit for a king",
+  "p": "A Dead Sea scroll and the Greek add that Absalom made a feast like a king's. The Leningrad Codex lacks it.",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "ויעש אבשלום משתה כמשתה המלך",
+    "en": "and Absalom made a feast like the feast of the king",
+    "plain": "And Absalom prepared a banquet like a king's banquet."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The two oldest witnesses agree, and the words prepare for 13:28, which assumes a drinking feast. The sentence may have dropped out because the next verse begins with Absalom too. It also hints at Absalom's royal ambitions, like Nabal's feast \"like the feast of a king\" (1 Samuel 25:36). A Greek plus that survived a revision aimed at matching the Hebrew is the more likely to be old. The Plain English follows the longer text.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel",
+   "mccarter-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "13:34",
+  "a": "The lookout went and told the king, \"I saw men coming down from the direction of Horonaim, along the mountainside.\"",
+  "t": "The road from Horonaim",
+  "p": "The Greek adds the lookout's report. The Leningrad Codex lacks it; a scribe's eye probably skipped it.",
+  "readings": [
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "καὶ παρεγένετο ὁ σκοπὸς καὶ ἀπήγγειλεν τῷ βασιλεῖ ...",
+    "en": "and the lookout came and told the king, 'I have seen men from the Horonaim road, from the side of the mountain'",
+    "plain": "The lookout went and told the king, \"I saw men coming down from the direction of Horonaim, along the mountainside.\""
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verse ends abruptly, with no one telling the king what the lookout saw, yet Jonadab answers in 13:35 as if the king had just been told. Both the short and long forms end with \"the side of the mountain,\" exactly the kind of repeated ending that makes a copyist skip a line. Most modern translations include the report. A Greek plus that survived a revision aimed at matching the Hebrew is the more likely to be old. The Plain English follows the Greek.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "tov-tchb",
+   "rahlfs-lxx",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "13:37",
+  "a": "Ammihud",
+  "t": "Ammihud or Ammihur?",
+  "p": "The written Hebrew says Ammihur; the reading tradition says Ammihud.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere",
+    "orig": "עַמִּיהוּד",
+    "en": "Ammihud",
+    "plain": "Ammihud"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv",
+    "orig": "עַמִּיחוּר",
+    "en": "Ammihur",
+    "plain": "Ammihur"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters <i>d</i> and <i>r</i> look nearly alike in Hebrew script and were often confused. Ammihud is a known name (Numbers 1:10). 4QSam-a is reported to read Ammihur, and to add \"in the land of M...\" (the rest is lost), but the fragment is small and this needs checking against the edition. The Plain English follows the Qere.",
+  "s": [
+   "tov-tchb",
+   "djd17-samuel"
+  ]
+ },
+ {
+  "v": "13:39",
+  "a": "The king's spirit",
+  "t": "\"King David\" or \"the king's spirit\"?",
+  "p": "The Hebrew has a feminine verb with \"David\" as subject. A scroll and the Greek have \"the king's spirit.\"",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-a, about 50–25 BC (DJD 17); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "ותכל רוח המלך",
+    "en": "and the spirit of the king ceased (was spent)",
+    "plain": "The king's spirit"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַתְּכַל דָּוִד הַמֶּלֶךְ",
+    "en": "and [she] ceased (or longed), David the king",
+    "plain": "King David"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is feminine, which does not fit \"David\" but does fit \"spirit\" (<i>ruach</i>, feminine). The scroll and the Greek show that \"spirit\" stood in the text; the Leningrad Codex seems to have lost it and gained \"David.\" The Plain English follows the scroll. On what the verb means, see the note.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel",
+   "mccarter-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "14:4",
+  "a": "came to the king",
+  "t": "\"Came\" or \"spoke\"?",
+  "p": "The Leningrad Codex says the woman \"spoke\" to the king; many manuscripts and versions say she \"came.\"",
+  "readings": [
+   {
+    "w": "Many Hebrew manuscripts; Septuagint; Syriac; Targum; Vulgate",
+    "orig": "וַתָּבֹא",
+    "en": "and she came",
+    "plain": "came to the king"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַתֹּאמֶר",
+    "en": "and she said",
+    "plain": "spoke to the king"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Leningrad Codex the woman \"said\" something before she bows, and then \"said\" again. \"Came\" makes better sense, and the two Hebrew words look alike. The Plain English follows the majority of witnesses.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "14:27",
+  "a": "she was a woman lovely to look at.",
+  "t": "Tamar, wife of Rehoboam?",
+  "p": "The Greek adds that Absalom's daughter Tamar married Rehoboam and bore him Abijah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הִיא הָיְתָה אִשָּׁה יְפַת מַרְאֶה",
+    "en": "she was a woman beautiful of appearance",
+    "plain": "she was a woman lovely to look at."
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "καὶ γίνεται γυνὴ Ροβοαμ υἱῷ Σαλωμων καὶ τίκτει αὐτῷ τὸν Αβια",
+    "en": "and she becomes the wife of Rehoboam son of Solomon and bears him Abijah",
+    "plain": "she was a woman lovely to look at. She became the wife of Rehoboam son of Solomon and bore him Abijah."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek addition seems to be an early attempt to connect this verse with 1 Kings 15:2 and 2 Chronicles 11:20–22, where Rehoboam's wife is \"Maacah daughter of Abishalom\" and mother of Abijah. In Kings she is called Absalom's daughter, not Tamar, and 2 Chronicles 13:2 gives a different parent. The Plain English follows the Hebrew.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "14:30",
+  "a": "And Absalom's servants put the field to the torch. Then Joab's servants came to him with their clothes torn and said, \"Absalom's servants have set the field on fire!\"",
+  "t": "Joab's servants report the fire",
+  "p": "A Qumran scroll, the Greek and the Vulgate add that Joab's servants came with torn clothes to tell him.",
+  "readings": [
+   {
+    "w": "Dead Sea Scrolls 4QSam-c (4Q53, about 100–75 BC); Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision; Lucianic (Antiochene) Greek text, the best witness to the Old Greek in these chapters; Vulgate",
+    "orig": "ויבאו עבדי יואב אליו קרעי בגדיהם ...",
+    "en": "and Joab's servants came to him with their clothes torn and said, 'Absalom's servants have set the field on fire'",
+    "plain": "And Absalom's servants put the field to the torch. Then Joab's servants came to him with their clothes torn and said, \"Absalom's servants have set the field on fire!\""
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיַּצִּתוּ עַבְדֵי אַבְשָׁלוֹם אֶת־הַחֶלְקָה בָּאֵשׁ",
+    "en": "and Absalom's servants set the field on fire",
+    "plain": "And Absalom's servants put the field to the torch."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text is now attested in Hebrew by a Qumran scroll, as well as by the Greek and the Latin. The added sentence ends with the same words as the one before it (\"set the field on fire\"), which is exactly where a copyist's eye could jump from one to the other and drop a line (homoioteleuton). The scene also explains how Joab learned who set the fire before he goes to Absalom in 14:31. A Greek plus that survived a revision aimed at matching the Hebrew is the more likely to be old. The Plain English follows the longer text.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "ulrich-4qsamc",
+   "mccarter-2sam",
+   "rahlfs-lxx",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "15:7",
+  "a": "four years",
+  "t": "Forty years or four?",
+  "p": "The Hebrew says \"forty years,\" which cannot be right. Some Greek manuscripts, the Syriac and Josephus have \"four.\"",
+  "readings": [
+   {
+    "w": "Lucianic (Antiochene) Greek text, the best witness to the Old Greek in these chapters; Syriac; Josephus, <i>Antiquities</i> 7.9.1; most modern translations",
+    "orig": "τεσσάρων ἐτῶν",
+    "en": "four years",
+    "plain": "four years"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (Vaticanus); KJV",
+    "orig": "אַרְבָּעִים שָׁנָה",
+    "en": "forty years",
+    "plain": "forty years"
+   }
+  ],
+  "follow": 0,
+  "why": "David reigned forty years in all (5:4), so forty years after Absalom's return is impossible, and older attempts to count from Saul's anointing or from David's anointing are strained. \"Four\" fits the time needed to build a following. Codex Vaticanus's agreement with the Hebrew counts for little here: in this kaige section its text was revised toward the Hebrew, so \"forty\" there is most likely assimilation, while the Lucianic \"four\" is the better witness to the Old Greek. The Hebrew may have been influenced by the round number forty. The Plain English follows \"four.\"",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "josephus-ant",
+   "driver-samuel",
+   "fernandez-marcos-antioqueno",
+   "barthelemy-devanciers"
+  ]
+ },
+ {
+  "v": "15:8",
+  "a": "the LORD in Hebron",
+  "t": "\"In Hebron\"",
+  "p": "Some Greek manuscripts end Absalom's vow with \"in Hebron,\" which the Leningrad Codex lacks.",
+  "readings": [
+   {
+    "w": "Lucianic (Antiochene) Greek text, the best witness to the Old Greek in these chapters",
+    "orig": "ἐν Χεβρων",
+    "en": "in Hebron",
+    "plain": "the LORD in Hebron"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "",
+    "en": "(not present)",
+    "plain": "the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "Without \"in Hebron,\" Absalom's reason for going to Hebron in particular (15:7) is not stated in the vow. The words could easily drop out at the end of a verse. Many translations include them. The Plain English follows the Greek, with low certainty.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "15:20",
+  "a": "Loyal love and faithfulness be with you.",
+  "t": "\"And may the LORD show you\"",
+  "p": "The Hebrew ends with just \"loyal love and faithfulness with you.\" The Greek adds \"the LORD\" as the giver.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "חֶסֶד וֶאֱמֶת",
+    "en": "loyal love and faithfulness",
+    "plain": "Loyal love and faithfulness be with you."
+   },
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "καὶ κύριος ποιήσει μετὰ σοῦ ἔλεος καὶ ἀλήθειαν",
+    "en": "and the LORD will do loyal love and faithfulness with you",
+    "plain": "May the LORD show you loyal love and faithfulness."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is short but understandable as a blessing. The Greek fills it out with the usual formula (2:6). The meaning is the same. The Plain English follows the Hebrew.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "15:27",
+  "a": "Look, go back",
+  "t": "\"Are you a seer?\"",
+  "p": "The Hebrew reads \"Are you a seer?\", a puzzling question. The Greek reads \"See.\"",
+  "readings": [
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision; many modern scholars, reading the same consonants as a command",
+    "orig": "Ἴδετε σὺ ἐπιστρέφεις",
+    "en": "see, you are going back",
+    "plain": "Look, go back"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "הֲרוֹאֶה אַתָּה",
+    "en": "are you a seer?",
+    "plain": "Are you a seer? Go back"
+   }
+  ],
+  "follow": 0,
+  "why": "Zadok is a priest, not a seer, and nothing else calls him one. The same letters can be read as \"See!\" (<i>re'eh</i>) followed by \"you\" and the command. Some defend the Hebrew as meaning \"You are a man who sees, aren't you?\", that is, you understand what to do. The Plain English follows the reading that fits the sentence.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "15:28",
+  "a": "at the river crossings in the wilderness",
+  "t": "Fords or plains?",
+  "p": "The written Hebrew says \"fords\"; the reading tradition says \"plains\" of the wilderness. The same pair occurs in 17:16.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv",
+    "orig": "בְּעַבְרוֹת הַמִּדְבָּר",
+    "en": "at the fords of the wilderness",
+    "plain": "at the river crossings in the wilderness"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere; KJV",
+    "orig": "בְּעַרְבוֹת הַמִּדְבָּר",
+    "en": "in the plains of the wilderness",
+    "plain": "in the plains of the wilderness"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ only in the order of two letters. David is heading for the Jordan crossings (17:16, 22), so \"fords\" suits the story well. 4QSam-a is reported to read \"fords\" too, though this needs checking against the edition. The Plain English follows the Ketiv here and in 17:16.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "16:12",
+  "a": "look at my trouble",
+  "t": "My trouble, my guilt or my eye?",
+  "p": "The written Hebrew says \"my guilt,\" the reading tradition \"my eye.\" The Greek and others read \"my affliction.\"",
+  "readings": [
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision (\"my humiliation\"); Syriac; Vulgate",
+    "orig": "בְּעָנְיִי",
+    "en": "on my affliction",
+    "plain": "look at my trouble"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv",
+    "orig": "בַּעֲוֹנִי",
+    "en": "on my guilt",
+    "plain": "look at my guilt"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere",
+    "orig": "בְּעֵינִי",
+    "en": "on my eye",
+    "plain": "look at my eye"
+   }
+  ],
+  "follow": 0,
+  "why": "The three readings differ by one or two letters. \"Look at my affliction\" is a common prayer (Genesis 29:32; 1 Samuel 1:11) and fits David's hope for good in place of the curse. The Ketiv \"my guilt\" would mean David hopes God will see his guilt as already paid; the Qere \"my eye\" is usually taken to mean \"my tears.\" The Plain English follows the ancient versions.",
+  "b": "Some Masoretic lists of the <i>tiqqune soferim</i>, places where scribes are said to have softened a phrase out of reverence, include this verse, with an original \"his eye\" (God's eye) said to lie behind the Qere \"my eye.\" These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "tov-tchb",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "the way a bride comes back to her husband. You are after the life of only one man",
+  "t": "The bride and the one man",
+  "p": "The Hebrew here is hard to make sense of. The Greek gives a clear picture of a bride returning to her husband.",
+  "readings": [
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision",
+    "orig": "ὃν τρόπον ἐπιστρέφει ἡ νύμφη πρὸς τὸν ἄνδρα αὐτῆς· πλὴν ψυχὴν ἀνδρὸς ἑνὸς σὺ ζητεῖς",
+    "en": "as a bride returns to her husband; you seek only the life of one man",
+    "plain": "the way a bride comes back to her husband. You are after the life of only one man"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּשׁוּב הַכֹּל הָאִישׁ אֲשֶׁר אַתָּה מְבַקֵּשׁ",
+    "en": "like the return of the whole is the man whom you seek",
+    "plain": "the way everything returns, so is the man you are after. You want only him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew may mean \"the man you seek is worth the return of everyone,\" but its grammar is strained. The Greek reading can be explained as the more original Hebrew (<i>kashuv hakkallah le'ishah</i>, \"as the bride returns to her husband\"), from which a few letters were lost. Most modern translations follow the Greek. So does the Plain English.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "rahlfs-lxx",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "17:25",
+  "a": "Ithra the Israelite",
+  "t": "Israelite or Ishmaelite?",
+  "p": "Here Amasa's father is \"Ithra the Israelite.\" Chronicles calls him \"Jether the Ishmaelite.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "יִתְרָא הַיִּשְׂרְאֵלִי",
+    "en": "Ithra the Israelite",
+    "plain": "Ithra the Israelite"
+   },
+   {
+    "w": "1 Chronicles 2:17",
+    "orig": "יֶתֶר הַיִּשְׁמְעֵאלִי",
+    "en": "Jether the Ishmaelite",
+    "plain": "Jether the Ishmaelite"
+   }
+  ],
+  "follow": 0,
+  "why": "Calling a man \"the Israelite\" in a story where everyone is Israelite is strange, so many scholars think \"Ishmaelite\" is original: a foreigner married into Jesse's family. Ithra and Jether are forms of the same name. Some Greek manuscripts are reported to read \"Jezreelite\" (Codex Alexandrinus) and to name Abigail's father as Jesse rather than Nahash, though these readings are reported, not checked here. The Plain English keeps the reading of this verse and gives the other in this note.",
+  "s": [
+   "mccarter-2sam",
+   "anderson-2sam"
+  ]
+ },
+ {
+  "v": "18:3",
+  "a": "But you are like ten thousand of us.",
+  "t": "\"Now\" or \"you\"?",
+  "p": "The Hebrew reads \"now\" (attah), the Greek \"you\" (attah). The two words differ by one letter.",
+  "readings": [
+   {
+    "w": "Two Hebrew manuscripts; Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision; Vulgate; most modern translations",
+    "orig": "כִּי־אַתָּה כָמֹנוּ עֲשָׂרָה אֲלָפִים",
+    "en": "for you are like ten thousand of us",
+    "plain": "But you are like ten thousand of us."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי־עַתָּה כָמֹנוּ עֲשָׂרָה אֲלָפִים",
+    "en": "for now there are ten thousand like us",
+    "plain": "For now there are ten thousand like us."
+   }
+  ],
+  "follow": 0,
+  "why": "With \"now,\" the sentence would mean that David has many troops like them, which does not explain why he should stay behind. With \"you,\" the troops say the king is worth ten thousand of them, which is the point of their whole speech. The Plain English follows \"you.\"",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "18:12",
+  "a": "Guard the young man Absalom, for my sake.",
+  "t": "\"For me\" or \"whoever\"?",
+  "p": "The Hebrew reads \"guard, whoever,\" the Greek and others \"guard for me.\" The words differ by one letter.",
+  "readings": [
+   {
+    "w": "Septuagint as printed by Rahlfs (mainly Codex Vaticanus, 300s AD), which in these chapters is the kaige revision and other ancient versions",
+    "orig": "שִׁמְרוּ־לִי",
+    "en": "guard for me",
+    "plain": "Guard the young man Absalom, for my sake."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שִׁמְרוּ־מִי",
+    "en": "guard, whoever (you are)",
+    "plain": "Guard the young man Absalom, whoever you are."
+   }
+  ],
+  "follow": 0,
+  "why": "\"For me\" repeats the king's words of 18:5 (\"for my sake\"). The Hebrew \"whoever\" is possible (\"take care, any of you\"), but \"for me\" fits the context and has wide support. The Plain English follows it.",
+  "b": "These chapters belong to the kaige section of Samuel–Kings (2 Samuel 11:2 – 1 Kings 2:11). There Codex Vaticanus and the Rahlfs edition carry an early Jewish revision of the Greek (called kaige) that brought it closer to the Hebrew, so the Lucianic (Antiochene) text is the better witness to the Old Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "barthelemy-devanciers",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "18:13",
+  "a": "acted falsely and risked my own life",
+  "t": "My life or his life?",
+  "p": "The written Hebrew says \"against his life\"; the reading tradition says \"against my life.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Qere; most translations",
+    "orig": "בְנַפְשִׁי",
+    "en": "against my life",
+    "plain": "acted falsely and risked my own life"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), Ketiv",
+    "orig": "בְנַפְשׁוֹ",
+    "en": "against his life",
+    "plain": "acted falsely against his life"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ketiv makes the soldier say \"if I had dealt falsely against Absalom's life,\" which also makes sense. The Qere has him say he would have put his own life at risk. The point is the same: the king would have found out. The Plain English follows the Qere.",
+  "s": [
+   "mccarter-2sam"
+  ]
+ }
+]

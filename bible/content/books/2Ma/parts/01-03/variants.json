@@ -1,0 +1,605 @@
+[
+ {
+  "v": "1:7",
+  "a": "broke away from the holy land",
+  "t": "\"Broke away\" or \"was sent away\"",
+  "p": "Alexandrinus says Jason \"broke away\"; Venetus says he \"was sent away.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV (\"revolted\") and the Vulgate (recessit) agree",
+    "orig": "ἀπέστη",
+    "en": "broke away",
+    "plain": "broke away from the holy land"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "απεστη] απεσταλη V",
+    "en": "was sent away",
+    "plain": "was sent away from the holy land"
+   }
+  ],
+  "follow": 0,
+  "why": "Jason left in revolt (4:26; 5:5–10), not by banishment, so \"broke away\" fits the story. Venetus's reading is one or two letters longer and probably a copying slip.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "we brought out the lamps",
+  "t": "\"Brought out\" or \"lit\" the lamps",
+  "p": "Swete prints \"we brought out the lamps.\" Venetus, the KJV and the Vulgate have \"lit.\"",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete)",
+    "orig": "ἐξηγάγομεν τοὺς λύχνους",
+    "en": "we brought out the lamps",
+    "plain": "we brought out the lamps"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
+    "orig": "εξηγαγεν A",
+    "en": "he brought out",
+    "plain": "he brought out the lamps"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus (the digital apparatus misprints it εξηφαμεν); Rahlfs prints this reading, and the KJV (\"lighted the lamps\") and the Vulgate (accendimus lucernas) have it too",
+    "orig": "εξηψαμεν V",
+    "en": "we lit",
+    "plain": "we lit the lamps"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete corrects Alexandrinus's singular to the plural that fits the other verbs. \"We lit\" is the text of Rahlfs's edition and of most modern versions, and 1 Maccabees 4:50 says the lamps were lit. The Plain keeps Swete's base text, which is the harder reading: a copyist could more easily change \"brought out\" to \"lit\" than the reverse. The sense is much the same: the lamps were in use again.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "In the year 188",
+  "t": "88 or 188",
+  "p": "Alexandrinus has \"year 88\"; Venetus adds \"hundred,\" giving 188 (124 BC), as the KJV and the Vulgate do.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"the hundred fourscore and eighth year\") and the Vulgate (Anno centesimo octogesimo octavo) agree",
+    "orig": "ογδοηκοστου και ογδοου] pr εκατοστου και V",
+    "en": "in the year one hundred and eighty-eight",
+    "plain": "In the year 188"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἔτους ὀγδοηκοστοῦ καὶ ὀγδόου",
+    "en": "in the year eighty-eight",
+    "plain": "In the year 88"
+   }
+  ],
+  "follow": 0,
+  "why": "Year 88 of the Seleucid era (224 BC) is long before the events, so the hundred must have dropped out. The Plain departs from Swete's text here and follows Venetus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "at Jerusalem. Those in Judea",
+  "t": "Where the second letter begins",
+  "p": "Swete ends the first letter with \"at Jerusalem.\" Venetus starts the second letter with \"those in Jerusalem and those in Judea.\"",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete), with Swete's punctuation",
+    "orig": "ἐν Ἰεροσολύμοις. Καὶ οἱ ἐν τῇ Ἰουδαίᾳ",
+    "en": "in Jerusalem. And those in Judea",
+    "plain": "at Jerusalem. Those in Judea"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, which puts a stop after the date and adds \"those\"; the KJV (\"the people that were at Jerusalem and in Judea\") and the Vulgate (populus qui est Jerosolymis et in Judaea) read the same way. Rahlfs also has \"those in Jerusalem,\" but ends 1:9 with the date",
+    "orig": "distinx post ογδ. V | εν Ιεροσολυμ.] pr οι V",
+    "en": "in the year 188. Those in Jerusalem and those in Judea",
+    "plain": "Those in Jerusalem and those in Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "A Greek letter of this kind ended with its date and place, and the first letter has no date otherwise, so most editors since Bickerman attach the date to it. Rahlfs too ends the first letter with the date. Venetus's added \"those\" makes the date head the second letter instead. See the note.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "bickerman-festbrief"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "threw the heads out",
+  "t": "Did they cut off the heads?",
+  "p": "Venetus, the KJV and the Vulgate say the priests cut off the heads before they threw them out.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete)",
+    "orig": "τὰς κεφαλὰς τοῖς ἔξω παραρίψαντες",
+    "en": "throwing the heads out",
+    "plain": "threw the heads out"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"smote off their heads\") and the Vulgate (capitibus amputatis) agree",
+    "orig": "κεφαλας] + αφελοντες V (line break removed)",
+    "en": "taking off the heads, throwing them out",
+    "plain": "cut off the heads and threw them out"
+   }
+  ],
+  "follow": 0,
+  "why": "Venetus spells out what the shorter text implies, since the men had been cut limb from limb. The sense is the same.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "the feast of the fire, when Nehemiah offered sacrifices after he had built the temple and the altar",
+  "t": "\"The fire, when\" or \"the fire that was given\"",
+  "p": "The KJV and the Vulgate say the fire \"was given\" when Nehemiah offered sacrifice. The Greek has no such verb.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete)",
+    "orig": "καὶ τοῦ πυρός, ὅτε",
+    "en": "and of the fire, when",
+    "plain": "the feast of the fire, when Nehemiah offered sacrifices after he had built the temple and the altar"
+   },
+   {
+    "w": "The KJV (\"and of the fire, which was given us when Neemias offered sacrifice\"), following the Vulgate (et diem ignis, qui datus est quando Nehemias)",
+    "orig": "qui datus est quando Nehemias",
+    "en": "and the day of the fire, which was given when Nehemiah",
+    "plain": "the feast of the fire that was given when Nehemiah offered sacrifices after he had built the temple and the altar"
+   }
+  ],
+  "follow": 0,
+  "why": "No Greek witness in Swete's apparatus has \"was given.\" The Latin fills out a compressed Greek phrase, and the KJV follows it. The sense is close.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:24",
+  "a": "Lord God",
+  "t": "\"Lord God\" or \"Lord, Lord God\"",
+  "p": "Venetus repeats \"Lord,\" as the KJV does: \"O Lord, Lord God.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the Vulgate (Domine Deus) agrees",
+    "orig": "Κύριε ὁ θεός",
+    "en": "Lord God",
+    "plain": "Lord God"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the KJV (\"O Lord, Lord God\") agrees",
+    "orig": "Κυρς] + κε V",
+    "en": "Lord, Lord God",
+    "plain": "Lord, Lord God"
+   }
+  ],
+  "follow": 0,
+  "why": "The doubled address is common in prayers (Deuteronomy 3:24 in Greek has it), and either could be original. The meaning does not change.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:35",
+  "a": "he gave a share of them to these men",
+  "t": "\"To whom\" or \"he showed favor\"",
+  "p": "Alexandrinus says the king shared the revenues with the priests; Venetus says he showed favor. The KJV mixes the two.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ οἷς ὁ βασιλεὺς πολλὰ διάφορα ἐλάμβανεν, καὶ μετεδίδου",
+    "en": "and to whom the king took many revenues, and he shared them",
+    "plain": "he gave a share of them to these men"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "οις] εχαρισατο V",
+    "en": "and the king showed favor and received many revenues and shared them",
+    "plain": "The king showed favor, received large revenues, and shared them"
+   },
+   {
+    "w": "The KJV",
+    "en": "the king took many gifts, and bestowed thereof on those whom he would gratify",
+    "plain": "The king took many gifts and gave some of them to those he wished to favor"
+   },
+   {
+    "w": "The Vulgate",
+    "orig": "sacerdotibus donavit multa bona",
+    "en": "he gave the priests many goods",
+    "plain": "He gave the priests many good things"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus's \"to whom\" is awkward but makes sense with 1:34: the king rewarded the priests who kept the place. The Vulgate, which has the king reward the priests, supports that sense. Venetus smooths the grammar; the KJV seems to join both readings.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:36",
+  "a": "Most people call it Nephthar",
+  "t": "Nephthar or Nephthai",
+  "p": "Alexandrinus has the same name twice; Venetus and Rahlfs have \"Nephthai\" the second time, and the KJV and the Vulgate \"Nephi.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καλεῖται δὲ παρὰ τοῖς πολλοῖς Νεφθάρ",
+    "en": "it is called by most people Nephthar",
+    "plain": "Most people call it Nephthar"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, which also has \"the others\" for \"most people\"",
+    "orig": "πολλοις] λοιποις V | Νεφθαρ 2°] Νεφθαι V",
+    "en": "the others call it Nephthai",
+    "plain": "The others call it Nephthai"
+   },
+   {
+    "w": "Rahlfs's edition",
+    "orig": "παρὰ τοῖς πολλοῖς νεφθαι",
+    "en": "it is called by most people Nephthai",
+    "plain": "Most people call it Nephthai"
+   },
+   {
+    "w": "The KJV (\"many men call it Nephi\") and the Vulgate (vocatur autem apud plures Nephi)",
+    "orig": "vocatur autem apud plures Nephi",
+    "en": "it is called by many Nephi",
+    "plain": "Most people call it Nephi"
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence must contrast two names, so the second name probably differed, as Rahlfs prints it. The Plain keeps Swete's text and marks the problem here and in the note.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:29",
+  "a": "to finish it and paint it",
+  "t": "Painting or encaustic",
+  "p": "Venetus speaks of the encaustic painter, who burned wax colors into the wall.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV (\"set it out, and paint it\") agrees",
+    "orig": "ἐνκαινίζειν καὶ ζωγραφεῖν",
+    "en": "to renew and to paint",
+    "plain": "to finish it and paint it"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus",
+    "orig": "ενκαινιζειν] ενκαιειν V εγκαιειν Vᵃ",
+    "en": "to burn in (colors) and to paint",
+    "plain": "to do the encaustic work and paint it"
+   }
+  ],
+  "follow": 0,
+  "why": "Either reading fits the comparison: the abridger is the decorator, not the builder. Venetus gives a more exact craft term.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "from the tribe of Benjamin",
+  "t": "Benjamin or Bilgah",
+  "p": "The Greek says Benjamin. Some Latin and Armenian copies, as reported by Bullard and Hatton, say Bilgah, a priestly family.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus and Codex Venetus, as printed by Swete; the KJV and the Vulgate (de tribu Benjamin) agree",
+    "orig": "ἐκ τῆς Βενιαμεὶν φυλῆς",
+    "en": "from the tribe of Benjamin",
+    "plain": "from the tribe of Benjamin"
+   },
+   {
+    "w": "Some Old Latin and Armenian manuscripts, as reported by Bullard and Hatton (not checked here)",
+    "en": "of Bilgah",
+    "plain": "from the priestly family of Bilgah"
+   }
+  ],
+  "follow": 0,
+  "why": "Every Greek witness in Swete has Benjamin, and an overseer of the temple need not have been a priest. Bilgah may be a learned correction that makes Simon a priest. Bullard and Hatton, who report it, themselves read \"Benjamin\" as the priestly family of Miniamin (Nehemiah 12:17, 41). See the note.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "bullard-hatton-maccabees"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "over the running of the city market",
+  "t": "The city market or \"disorder\"",
+  "p": "The Greek speaks of the market office. The KJV has \"disorder in the city,\" and the Vulgate a wicked plan.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete); Alexandrinus leaves out \"over\" and spells the word αγορανομειας",
+    "orig": "περὶ τῆς κατὰ τὴν πόλιν ἀγορανομίας",
+    "en": "about the market-office in the city",
+    "plain": "over the running of the city market"
+   },
+   {
+    "w": "The KJV",
+    "en": "about disorder in the city",
+    "plain": "over disorder in the city"
+   },
+   {
+    "w": "The Vulgate",
+    "orig": "iniquum aliquid in civitate moliri",
+    "en": "(the high priest opposing him) to contrive something wicked in the city",
+    "plain": "because the high priest stood in the way of his wicked plans for the city"
+   }
+  ],
+  "follow": 0,
+  "why": "Agoranomia was the office over the market, a known Greek institution. The KJV and the Vulgate seem not to have understood the word.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "Apollonius son of Thrasaeus",
+  "t": "Thrasaeus, Tharsius or Tharseas",
+  "p": "The father's name differs in every witness.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Ἀπολλώνιον Θρασαίου",
+    "en": "Apollonius of Thrasaeus",
+    "plain": "Apollonius son of Thrasaeus"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, first hand and corrector; Hort conjectured Tharseas",
+    "orig": "Θαρσιου V* vid Θαρσεου Vᵃ (Θαρσεα coniec Hort)",
+    "en": "Apollonius of Tharsius / Tharseus",
+    "plain": "Apollonius son of Tharseus"
+   },
+   {
+    "w": "The Vulgate (Tharsaeae filium); the KJV has \"the son of Thraseas\"",
+    "orig": "Tharsææ filium",
+    "en": "son of Tharseas",
+    "plain": "Apollonius son of Tharseas"
+   }
+  ],
+  "follow": 0,
+  "why": "The man is not otherwise certain, so the name cannot be checked. The Plain keeps Swete's spelling.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "because the place was about to be treated with contempt",
+  "t": "\"About to be\" or \"so as not to be\"",
+  "p": "Alexandrinus has a \"not\" that is hard to construe. Venetus, Rahlfs, the KJV and the Vulgate lack it, and the Plain follows them.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; Rahlfs, the KJV (\"because the place was like to come into contempt\") and the Vulgate (pro eo quod in contemptum locus esset venturus) agree",
+    "orig": "om μη V",
+    "en": "because the place was about to come into contempt",
+    "plain": "because the place was about to be treated with contempt"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "διὰ τὸ μὴ μέλλειν εἰς καταφρόνησιν ἔρχεσθαι τὸν τόπον",
+    "en": "because of (the wish that) the place not be about to come into contempt",
+    "plain": "so that the place might not be treated with contempt"
+   }
+  ],
+  "follow": 0,
+  "why": "With the article and infinitive, διὰ τὸ means \"because,\" and \"because the place was not about to be treated with contempt\" makes no sense. Alexandrinus's \"not\" can only be forced into a purpose clause. Editors drop it, and the Plain departs from Swete's text here and follows Venetus.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:19",
+  "a": "some ran to the gateways",
+  "t": "Gateways or Onias",
+  "p": "The Vulgate and the Douay have the young women run to Onias, not to the gateways.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete); the KJV (\"to the gates\") agrees",
+    "orig": "αἱ γυναῖκες σάκκους κατὰ τὰς ὁδοὺς ἐπλήθυνον· αἱ δὲ κατάκλειστοι τῶν παρθένων, αἱ μὲν συνέτρεχον ἐπὶ τοὺς πυλῶνας",
+    "en": "some ran together to the gateways",
+    "plain": "some ran to the gateways"
+   },
+   {
+    "w": "The Vulgate (procurrebant ad Oniam); the Douay has \"some to Onias\"",
+    "orig": "procurrebant ad Oniam",
+    "en": "ran out to Onias",
+    "plain": "some ran to Onias"
+   }
+  ],
+  "follow": 0,
+  "why": "No Greek witness in Swete names Onias here. The Latin may reflect a copy that read a name instead of the word for gateways.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "3:24",
+  "a": "the Sovereign of spirits and of all authority",
+  "t": "Sovereign of spirits, or the spirit of God",
+  "p": "Venetus has another title; the Vulgate says \"the spirit of the almighty God\" made the appearance.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; the KJV (\"the Lord of spirits, and the Prince of all power\") agrees",
+    "orig": "ὁ τῶν πνευμάτων καὶ πάσης ἐξουσίας δυνάστης",
+    "en": "the Sovereign of the spirits and of all authority",
+    "plain": "the Sovereign of spirits and of all authority"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the abbreviation πρων usually stands for πατέρων, \"fathers\"",
+    "orig": "ο των πνευμ.] ο δε παντων πρων V",
+    "en": "and the Sovereign of all the fathers",
+    "plain": "the Sovereign of all the fathers and of all authority"
+   },
+   {
+    "w": "The Vulgate (Sed spiritus omnipotentis Dei); the Douay has \"the spirit of the Almighty God\"",
+    "orig": "Sed spiritus omnipotentis Dei",
+    "en": "but the spirit of the almighty God",
+    "plain": "the spirit of the almighty God"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus's title fits the angels who now act. The Latin turns the title into a subject, \"the spirit of God.\"",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "3:26",
+  "a": "very beautiful in their glory",
+  "t": "Glory or tongue",
+  "p": "Alexandrinus says the young men were beautiful \"in tongue\"; Venetus has \"in glory,\" with the KJV and the Vulgate.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus; the Vulgate (optimi gloria) agrees, and the KJV (\"excellent in beauty\") has this sense",
+    "orig": "γλωσσαν] δοξαν V",
+    "en": "most beautiful in glory",
+    "plain": "very beautiful in their glory"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "κάλλιστοι δὲ τὴν γλῶσσαν",
+    "en": "most beautiful in tongue",
+    "plain": "very fine in their speech"
+   }
+  ],
+  "follow": 0,
+  "why": "The young men have not yet spoken, and the list is of how they looked: strength, glory, clothing. The Plain departs from Swete's text here and follows Venetus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:28",
+  "a": "He had become completely helpless, and he had plainly come to know the sovereign power",
+  "t": "Who came to know God's power?",
+  "p": "In Swete's Greek, Heliodorus comes to know the power. In Rahlfs and the KJV the bearers do, and the KJV adds \"weapons.\"",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete)",
+    "orig": "ἀβοήθητον αὐτὸν τοῖς ὅλοις καθεστῶτα, φανερῶς τὴν δυναστίαν ἐπεγνωκότα",
+    "en": "helpless in every way, having plainly come to know the sovereignty",
+    "plain": "He had become completely helpless, and he had plainly come to know the sovereign power"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus, which has \"himself\" for \"in every way\" and adds \"of God\"",
+    "orig": "αυτον τοις ολοις (χολ. A)] εαυτω V | δυναστιαν (-τειαν Vᵃ) pr του θεου V",
+    "en": "unable to help himself, having come to know the sovereignty of God",
+    "plain": "He could not help himself, and he had plainly come to know the sovereign power of God"
+   },
+   {
+    "w": "Rahlfs's edition, with ἐπεγνωκότες, nominative plural",
+    "orig": "ἀβοήθητον ἑαυτῷ καθεστῶτα φανερῶς τὴν τοῦ θεοῦ δυναστείαν ἐπεγνωκότες",
+    "en": "helpless to aid himself; they had plainly come to know the sovereignty of God",
+    "plain": "He could not help himself, and they plainly acknowledged God's sovereign power"
+   },
+   {
+    "w": "The KJV; its \"weapons\" matches τῶν ὅπλων in Hanhart's Göttingen text, as reported by Bullard and Hatton, and its \"they acknowledged\" matches Rahlfs",
+    "en": "being unable to help himself with his weapons: and manifestly they acknowledged the power of God",
+    "plain": "He could not help himself with his weapons, and they plainly acknowledged the power of God"
+   }
+  ],
+  "follow": 0,
+  "why": "In Swete's text the participle agrees with \"him,\" so it is Heliodorus who learns, the enemy confessing God's power as he will again at 3:35–39. Rahlfs makes the bearers the subject. The KJV translated a Greek text with both \"weapons\" and the plural, the printed Greek of its day. Swete's apparatus gives Alexandrinus's word for \"in every way\" as \"χολ.\", which the digital text may have garbled (perhaps for ὅπλ., \"weapons\"); this could not be checked against Swete's page. The Plain keeps Swete's base text.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx",
+   "hanhart-2macc",
+   "bullard-hatton-maccabees",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "3:30",
+  "a": "the Almighty Lord",
+  "t": "\"Lord\" or \"Christ\"",
+  "p": "Alexandrinus writes the short form for \"Christ\" where the sense needs \"Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Venetus and Swete's text; the KJV and the Vulgate (omnipotente Domino) agree",
+    "orig": "παντοκράτορος ἐπιφανέντος κυρίου",
+    "en": "the Almighty Lord",
+    "plain": "the Almighty Lord"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
+    "orig": "κυριου] χυ A",
+    "en": "the Almighty Christ",
+    "plain": "the Almighty Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "A Christian scribe's slip between two abbreviated sacred names. See the note.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:37",
+  "a": "The king asked Heliodorus",
+  "t": "The KJV's missing verb",
+  "p": "The KJV's sentence lacks \"asked,\" so the king seems to be called Heliodorus.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete); the Vulgate (interrogasset) agrees",
+    "orig": "Τοῦ δὲ βασιλέως ἐπερωτήσαντος τὸν Ἡλιόδωρον",
+    "en": "when the king asked Heliodorus",
+    "plain": "The king asked Heliodorus"
+   },
+   {
+    "w": "The KJV",
+    "en": "And when the king Heliodorus, who might be a fit man",
+    "plain": "When the king Heliodorus"
+   }
+  ],
+  "follow": 0,
+  "why": "The KJV has dropped a word (\"asked\") in printing or translation. No Greek witness lacks the verb.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ }
+]

@@ -1,0 +1,228 @@
+[
+ {
+  "v": "38:36",
+  "a": "Who has put wisdom in what lies hidden?",
+  "t": "The Greek: women's skill at weaving",
+  "p": "The Greek translator took the two rare words in a quite different direction: wisdom in weaving and embroidery.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV and most modern versions",
+    "orig": "מִי־שָׁת בַּטֻּחוֹת חָכְמָה אוֹ מִי־נָתַן לַשֶּׂכְוִי בִינָה",
+    "en": "who put wisdom in the inner parts (or the ibis), or who gave understanding to the mind (or the rooster)?",
+    "plain": "Who has put wisdom in what lies hidden?"
+   },
+   {
+    "w": "Septuagint (Rahlfs; checked on die-bibel.de)",
+    "orig": "τίς δὲ ἔδωκεν γυναιξὶν ὑφάσματος σοφίαν ἢ ποικιλτικὴν ἐπιστήμην;",
+    "en": "Who gave women wisdom in weaving, or skill in embroidery?",
+    "plain": "Who gave women wisdom in weaving?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek seems to have guessed at <i>tuchot</i> from a root for spinning (compare <i>tavah</i>, \"spin\", Exodus 35:25–26). It is a translator's solution, not evidence of a different Hebrew text.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "pope-job"
+  ]
+ },
+ {
+  "v": "40:19",
+  "a": "The one who made it brings his sword near it.",
+  "t": "The Greek: \"made to be mocked by his angels\"",
+  "p": "The Greek reads the second line as \"made to be mocked by his angels\". The same phrase returns at 41:33.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הָעֹשׂוֹ יַגֵּשׁ חַרְבּוֹ",
+    "en": "the one who made it, let him bring near his sword",
+    "plain": "The one who made it brings his sword near it."
+   },
+   {
+    "w": "Septuagint (Rahlfs; checked on die-bibel.de)",
+    "orig": "πεποιημένον ἐγκαταπαίζεσθαι ὑπὸ τῶν ἀγγέλων αὐτοῦ",
+    "en": "made to be mocked by his angels",
+    "plain": "It was made to be mocked by his angels."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew line is hard but makes sense. The Greek may come from Psalm 104:26 (Leviathan \"formed to play\"), applied to both beasts; it is the Greek translator's interpretation, and it uses the same words for Leviathan at 41:33 (Greek 41:25).",
+  "b": "The Greek makes the beasts playthings of the heavenly court. Later Jewish and Christian readers who saw the devil in Behemoth and Leviathan found support in this reading.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "41:10",
+  "a": "So who is he who would take a stand against me?",
+  "t": "\"Against me\" or \"before him\"",
+  "p": "Some Hebrew manuscripts and the rabbinic Targum read \"before him\", keeping the line about Leviathan.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, Hebrew 41:2); Septuagint (Rahlfs 41:2, \"who is it who has stood against me?\"); KJV, most modern versions",
+    "orig": "וּמִי הוּא לְפָנַי יִתְיַצָּב",
+    "en": "and who is he that can stand before me?",
+    "plain": "So who is he who would take a stand against me?"
+   },
+   {
+    "w": "Some medieval Hebrew manuscripts and the rabbinic Targum of Job (as reported in the commentaries)",
+    "orig": "לְפָנָיו",
+    "en": "before him",
+    "plain": "So who is he who would take a stand against it?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Before me\" is the reading of the Leningrad Codex and of the Greek, and it is the harder, more striking reading: the argument moves from the beast to its Maker. \"Before him\" looks like a scribal smoothing to keep the subject the same.",
+  "s": [
+   "clines-job",
+   "targum-job",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "41:12",
+  "a": "I will not keep quiet about its limbs",
+  "t": "Ketiv and Qere: \"not\" or \"to it\"",
+  "p": "The written text has lo' \"not\"; the Masoretes' reading is lo \"to it, about it\".",
+  "readings": [
+   {
+    "w": "Ketiv (the written consonants, Leningrad Codex); Septuagint (\"I will not keep silent\"); KJV, most modern versions",
+    "orig": "לֹא־אַחֲרִישׁ בַּדָּיו",
+    "en": "I will not keep silent about its limbs",
+    "plain": "I will not keep quiet about its limbs"
+   },
+   {
+    "w": "Qere (the Masoretic reading tradition)",
+    "orig": "לוֹ־אַחֲרִישׁ בַּדָּיו",
+    "en": "as for it, I will keep silent about its limbs (or: I will silence its boasting)",
+    "plain": "As for it, I will silence its boasts"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound the same. The written \"not\" makes better sense before the long description that follows, and the Greek supports it. The Qere may reflect the reading \"its boasts\" for <i>baddav</i> (see the note).",
+  "s": [
+   "rahlfs-lxx",
+   "pope-job",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "42:2",
+  "a": "I know there is nothing you cannot do",
+  "t": "Ketiv and Qere: \"you know\" or \"I know\"",
+  "p": "The written text has \"you know\"; the Masoretes read \"I know\", as all translations do.",
+  "readings": [
+   {
+    "w": "Qere (Masoretic reading); all major translations",
+    "orig": "יָדַעְתִּי",
+    "en": "I know",
+    "plain": "I know there is nothing you cannot do"
+   },
+   {
+    "w": "Ketiv (written consonants, Leningrad Codex)",
+    "orig": "ידעת",
+    "en": "you know",
+    "plain": "You know there is nothing you cannot do"
+   }
+  ],
+  "follow": 0,
+  "why": "\"I know\" fits Job's reply, and every major translation reads it. The written form may be an older spelling of the first person, which sometimes lacked the final yod.",
+  "s": [
+   "rahlfs-lxx",
+   "clines-job"
+  ]
+ },
+ {
+  "v": "42:11",
+  "a": "Each one gave him one coin and one gold ring.",
+  "t": "Coin and ring, or lamb and gold",
+  "p": "The Greek gives \"a lamb and a gold four-drachma piece\". The Qumran Targum, which ends at this verse, seems to have \"lamb\" too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV, modern versions",
+    "orig": "וַיִּתְּנוּ־לוֹ אִישׁ קְשִׂיטָה אֶחָת וְאִישׁ נֶזֶם זָהָב אֶחָד",
+    "en": "and they gave him each one qesitah and each one ring of gold",
+    "plain": "Each one gave him one coin and one gold ring."
+   },
+   {
+    "w": "Septuagint (Rahlfs; checked on blueletterbible.org and die-bibel.de)",
+    "orig": "ἔδωκεν δὲ αὐτῷ ἕκαστος ἀμνάδα μίαν καὶ τετράδραχμον χρυσοῦν ἄσημον",
+    "en": "each one gave him a ewe lamb and a four-drachma piece of unstamped gold",
+    "plain": "Each one gave him a lamb and a piece of unstamped gold worth four drachmas."
+   },
+   {
+    "w": "11QtgJob (the Targum of Job from Qumran Cave 11, first century BC or AD), as edited in DJD 23; not checked directly",
+    "orig": "(Aramaic, partly restored)",
+    "en": "each one a lamb (?) and each one a ring of gold",
+    "plain": "Each one gave him a lamb and a gold ring."
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Qesitah</i> is a rare old money word (Genesis 33:19). Ancient translators guessed \"lamb\", perhaps because Genesis 33:19 was understood as a price paid in lambs (the Greek of Genesis 33:19 has \"a hundred lambs\"). The Hebrew is followed as the harder, older reading.",
+  "b": "11QtgJob, an Aramaic translation of Job found in Cave 11 at Qumran, covers parts of chapters 17–42 and breaks off at 42:11. As the editions describe it, the text stops in the middle of 42:11 and the rest of that last column is left blank, which is why most scholars think the translation ended there rather than being broken off (this was not checked directly for this site). No Hebrew manuscript from Qumran survives for chapters 38–42. A Targum of Job is also mentioned in rabbinic stories: Gamaliel the Elder is said to have had one buried under a wall of the Temple Mount (Bavli Shabbat 115a). The editors read \"lamb\" in this verse, as the Greek does; the reading of this witness was not checked directly for this site.",
+  "s": [
+   "rahlfs-lxx",
+   "djd23-11qtgjob",
+   "sokoloff-11qtgjob",
+   "abegg-dssb",
+   "bavli-shabbat"
+  ]
+ },
+ {
+  "v": "42:16",
+  "a": "Job lived on for a hundred and forty years after this.",
+  "t": "The Greek: 170 years, 248 in all",
+  "p": "The Greek gives Job 170 more years and 248 years in all.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV, modern versions",
+    "orig": "וַיְחִי אִיּוֹב אַחֲרֵי־זֹאת מֵאָה וְאַרְבָּעִים שָׁנָה",
+    "en": "and Job lived after this a hundred and forty years",
+    "plain": "Job lived on for a hundred and forty years after this."
+   },
+   {
+    "w": "Septuagint (Rahlfs; checked on blueletterbible.org)",
+    "orig": "ἔζησεν δὲ Ιωβ μετὰ τὴν πληγὴν ἔτη ἑκατὸν ἑβδομήκοντα, τὰ δὲ πάντα ἔζησεν ἔτη διακόσια τεσσαράκοντα ὀκτώ",
+    "en": "Job lived after the plague 170 years, and all the years he lived were 248",
+    "plain": "Job lived on for a hundred and seventy years after the plague; in all he lived two hundred and forty-eight years."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek numbers give Job a total of 248 years, making him a man of the patriarchal age; some Greek manuscripts give 240 in all. They fit the Greek ending, which makes Job a descendant of Abraham in the fifth generation.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx"
+  ]
+ },
+ {
+  "v": "42:17",
+  "a": "Then Job died, old and satisfied with days.",
+  "t": "The Greek ending: Job, Jobab and the resurrection",
+  "p": "The Greek adds a long ending: Job will rise again, and he is Jobab, king of Edom, fifth from Abraham.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Vulgate; KJV and all Protestant, Catholic and Jewish versions",
+    "orig": "וַיָּמָת אִיּוֹב זָקֵן וּשְׂבַע יָמִים",
+    "en": "and Job died, old and satisfied with days",
+    "plain": "Then Job died, old and satisfied with days."
+   },
+   {
+    "w": "Septuagint (Rahlfs 42:17a–e, the Greek ending of Job; checked on die-bibel.de); the text read in Orthodox churches",
+    "orig": "καὶ ἐτελεύτησεν Ιωβ πρεσβύτερος καὶ πλήρης ἡμερῶν. γέγραπται δὲ αὐτὸν πάλιν ἀναστήσεσθαι μεθ᾽ ὧν ὁ κύριος ἀνίστησιν. Οὗτος ἑρμηνεύεται ἐκ τῆς Συριακῆς βίβλου... προϋπῆρχεν δὲ αὐτῷ ὄνομα Ιωβαβ...",
+    "en": "And Job died, old and full of days. And it is written that he will rise again with those whom the Lord raises up...",
+    "plain": "Then Job died, old and full of days. It is written that he will rise again with those the Lord raises up. This man is described in the Syriac book as living in the land of Ausitis, on the borders of Idumea and Arabia, and his name before was Jobab. He took an Arabian wife and had a son named Ennon. His father was Zare, a son of the sons of Esau, and his mother was Bosorra, so that he was fifth from Abraham. These are the kings who ruled in Edom, the land he too ruled: first Balak son of Beor, whose city was Dennaba; after Balak, Jobab, who is called Job; after him Asom, a ruler from the land of the Temanites; after him Hadad son of Barad, who struck down Midian in the plain of Moab, and his city was Gethaim. The friends who came to him were Eliphaz, of the sons of Esau, king of the Temanites; Baldad, ruler of the Sauchaeans; and Sophar, king of the Minaeans."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek ending is not in any Hebrew manuscript or in the Vulgate, and it is plainly a later addition: it says it draws on \"the Syriac book\" (probably an Aramaic source), and it builds Job's family tree from the Edomite king list of Genesis 36:31–35, where \"Jobab son of Zerah, from Bozrah\" reigns (Genesis 36:33). It is part of the Old Testament for Orthodox Christians, who read the Greek.",
+  "b": "The ending does three things. (1) It adds a hope of resurrection: \"it is written\" probably points to 19:25–26 as the Greek understood it, or to Daniel 12:2. (2) It identifies Job with Jobab, the second king of Edom, by reading the names as one, and makes Zerah (Zare) his father and Bozrah (Bosorra) his mother. (3) It makes the friends kings. The same identification of Job with Jobab appears in the <i>Testament of Job</i> 1:1 and in the Jewish writer Aristeas the Historian (quoted by Eusebius, <i>Preparation for the Gospel</i> 9.25). It reflects the Jewish view that Job was a righteous non-Israelite of the patriarchal age.",
+  "s": [
+   "rahlfs-lxx",
+   "nets-lxx",
+   "ziegler-job",
+   "testament-job"
+  ]
+ }
+]

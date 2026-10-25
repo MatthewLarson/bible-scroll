@@ -1,0 +1,788 @@
+[
+ {
+  "v": "1:11",
+  "a": "the king's cupbearer",
+  "t": "Cupbearer or eunuch?",
+  "p": "The Hebrew says cupbearer. Major Greek manuscripts read 'eunuch,' a word that looks much like 'wine-pourer.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Rahlfs' Greek text (11:11), which prints oinochoos (checked on die-bibel.de); Vulgate",
+    "orig": "מַשְׁקֶה / οἰνοχόος",
+    "en": "cupbearer, wine-pourer",
+    "plain": "the king's cupbearer"
+   },
+   {
+    "w": "Codex Vaticanus and Codex Sinaiticus (both 300s AD) of 2 Esdras 11:11, as reported in Hanhart's Göttingen edition and the commentaries",
+    "orig": "εὐνοῦχος",
+    "en": "eunuch",
+    "plain": "the king's eunuch"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear, and the Greek words oinochoos and eunouchos differ by only a few letters, so 'eunuch' is most likely a copying slip in Greek. Some scholars defend it, since court servants near the queen (2:6) were often eunuchs; see the note on 1:11.",
+  "s": [
+   "hanhart-esdrae-2",
+   "yamauchi-eunuch",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "the queen",
+  "t": "Queen or concubine?",
+  "p": "The Hebrew shegal is a royal consort. The Greek calls her the king's concubine.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הַשֵּׁגַל",
+    "en": "the queen, the royal consort",
+    "plain": "the queen"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (12:6)",
+    "orig": "ἡ παλλακή",
+    "en": "the concubine",
+    "plain": "the king's concubine"
+   }
+  ],
+  "follow": 0,
+  "why": "Shegal is a queen in Psalm 45:9 and a royal wife in Daniel 5:2–3. The Greek translator may have been guessing at a rare word, or reflecting the view that a woman at a private meal was not the chief wife.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "the gates of the temple's fortress",
+  "t": "The gates of the fortress, or just 'the gates'?",
+  "p": "The Hebrew has the gates of the fortress by the Temple. The Greek has only 'to roof the gates.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שַׁעֲרֵי הַבִּירָה אֲשֶׁר־לַבַּיִת",
+    "en": "the gates of the fortress that belongs to the house",
+    "plain": "the gates of the temple's fortress"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (12:8)",
+    "orig": "στεγάσαι τὰς πύλας",
+    "en": "to roof the gates",
+    "plain": "the gates"
+   }
+  ],
+  "follow": 0,
+  "why": "Without the fortress, the Greek makes the timber for the city's gates in general. The Hebrew is the fuller and more specific reading, and the fortress appears again in 7:2. The Greek may have shortened a phrase it did not understand.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "Serpent Spring",
+  "t": "Serpent Spring or Spring of Figs?",
+  "p": "The Hebrew names a 'serpent' or 'dragon' spring. The Greek has 'the spring of the figs.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עֵין הַתַּנִּין",
+    "en": "spring of the serpent (or dragon, sea creature)",
+    "plain": "Serpent Spring"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (12:13)",
+    "orig": "πηγὴ τῶν συκῶν",
+    "en": "spring of the figs",
+    "plain": "the Spring of the Figs"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew. The Greek may reflect a different word (te'enim, 'figs,' looks somewhat like tannin in Hebrew letters) or a local name known to the translator.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:15",
+  "a": "the Pool of Shelah by the king's garden",
+  "t": "The Pool of Shelah, or 'of the fleeces'?",
+  "p": "The Greek reads the place names as ordinary words: 'the pool of the fleeces at the king's shearing.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּרֵכַת הַשֶּׁלַח לְגַן־הַמֶּלֶךְ",
+    "en": "the pool of Shelah (the channel) by the king's garden",
+    "plain": "the Pool of Shelah by the king's garden"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (13:15)",
+    "orig": "κολυμβήθρας τῶν κῳδίων τῇ κουρᾷ τοῦ βασιλέως",
+    "en": "the pool of the fleeces at the king's shearing",
+    "plain": "the pool of the fleeces at the king's shearing"
+   }
+  ],
+  "follow": 0,
+  "why": "Shelah (Siloam) and the king's garden are known places (Isaiah 8:6; 2 Kings 25:4). The Greek seems to have read shelach as a word for fleeces and gan, 'garden,' as gez, 'shearing.' The Greek also lacks the whole first half of the verse, with Shallun, the Spring Gate and its doors; it begins \"and the wall of the pool of the fleeces.\"",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "Bavvai",
+  "t": "Bavvai or Binnui?",
+  "p": "The Hebrew has Bavvai. The Greek, the Syriac and two Hebrew manuscripts have Binnui, as in 3:24.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most Hebrew manuscripts; KJV",
+    "orig": "בַּוַּי",
+    "en": "Bavvai",
+    "plain": "Bavvai"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (13:18), which has Beni; the Syriac and two Hebrew manuscripts, as reported in the NIV's footnote; compare 3:24, 'Binnui son of Henadad'",
+    "orig": "בִּנּוּי / Βενι",
+    "en": "Binnui",
+    "plain": "Binnui"
+   }
+  ],
+  "follow": 0,
+  "why": "3:24 names \"Binnui son of Henadad,\" so many think Bavvai is a copying slip for the same man, and the NIV prints Binnui. The Plain keeps the Hebrew name, as it does for names generally; the two could also be brothers, both sons of Henadad (3:18 says \"their brothers\").",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:20",
+  "a": "Zabbai",
+  "t": "Zabbai or Zaccai?",
+  "p": "The written Hebrew has Zabbai; the Masoretes' reading is Zaccai. The letters b and k look alike.",
+  "readings": [
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (13:20), which has Zabou; Ezra 10:28 has a Zabbai; KJV",
+    "orig": "זַבַּי / Ζαβου",
+    "en": "Zabbai",
+    "plain": "Zabbai"
+   },
+   {
+    "w": "Masoretic Qere (the reading the Masoretes marked to be read aloud); compare Ezra 2:9 and 7:14, Zaccai",
+    "orig": "זַכַּי",
+    "en": "Zaccai",
+    "plain": "Zaccai"
+   }
+  ],
+  "follow": 0,
+  "why": "Bet and kaf are easily confused. Both names are known. The Plain follows the written text, which the Greek supports (Zabou) and which matches the Zabbai of Ezra 10:28; the Qere brings the name into line with the common Zaccai of the returnees' list.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:20",
+  "a": "worked hard to repair",
+  "t": "'Zealously,' or no adverb?",
+  "p": "The Hebrew has an unclear word usually read 'zealously.' The Greek lacks it, and some emend it to 'toward the hill.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הֶחֱרָה",
+    "en": "he burned (with zeal), eagerly",
+    "plain": "worked hard to repair"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (13:20), which lacks the word",
+    "orig": "—",
+    "en": "(no word)",
+    "plain": "repaired"
+   },
+   {
+    "w": "Conjectural change suggested by some scholars",
+    "orig": "הָהָרָה",
+    "en": "toward the hill",
+    "plain": "repaired, toward the hill,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Hebrew and its usual sense. No other builder is described this way, which makes the word suspicious, but the emendation has no manuscript support.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:30",
+  "a": "After him Hananiah",
+  "t": "'After him' or 'after me'?",
+  "p": "The written Hebrew says 'after me,' as if Nehemiah built here. The Masoretes read 'after him.' So also 3:31.",
+  "readings": [
+   {
+    "w": "Masoretic Qere (the reading marked to be read aloud)",
+    "orig": "אַחֲרָיו",
+    "en": "after him",
+    "plain": "After him Hananiah"
+   },
+   {
+    "w": "Masoretic Ketiv (the consonants as written in the Leningrad Codex)",
+    "orig": "אַחֲרַי",
+    "en": "after me",
+    "plain": "After me Hananiah"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form differs by one small letter (waw). 'After me' would be strange, since Nehemiah is never listed as building a section; the formula everywhere else is 'after him.' The same pair occurs in 3:31.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:31",
+  "a": "After him Malchijah",
+  "t": "'After him' or 'after me'?",
+  "p": "As in 3:30, the written Hebrew has 'after me,' and the Masoretes read 'after him.'",
+  "readings": [
+   {
+    "w": "Masoretic Qere",
+    "orig": "אַחֲרָיו",
+    "en": "after him",
+    "plain": "After him Malchijah"
+   },
+   {
+    "w": "Masoretic Ketiv (Leningrad Codex)",
+    "orig": "אַחֲרַי",
+    "en": "after me",
+    "plain": "After me Malchijah"
+   }
+  ],
+  "follow": 0,
+  "why": "See 3:30. The Plain follows the Qere in both verses, as most translations do.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "In front of his brothers and the army of Samaria he said, \"What do these worn-out Jews think they are doing? Will they fix it up by themselves? Will they sacrifice? Will they be done in one day? Will they bring stones back to life out of piles of dust, and burned stones at that?\"",
+  "t": "A shorter speech in the Greek",
+  "p": "The Greek has a shorter speech, and makes 'the army of Samaria' part of what Sanballat says.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 3:34)",
+    "orig": "וַיֹּאמֶר לִפְנֵי אֶחָיו וְחֵיל שֹׁמְרוֹן",
+    "en": "the longer speech with five questions",
+    "plain": "In front of his brothers and the army of Samaria he said, \"What do these worn-out Jews think they are doing? Will they fix it up by themselves? Will they sacrifice? Will they be done in one day? Will they bring stones back to life out of piles of dust, and burned stones at that?\""
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (13:34)",
+    "orig": "Αὕτη ἡ δύναμις Σομορων ... μὴ θυσιάσουσιν ἢ φάγονται ἐπὶ τοῦ τόπου αὐτῶν;",
+    "en": "Is this the strength of Samaria, that these Jews are building their own city? Will they sacrifice or eat in their place?",
+    "plain": "In front of his brothers he said, \"Is this the strength of Samaria, that these Jews are building their own city? Will they sacrifice or eat in their place?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the Hebrew 'army of Samaria' as the start of the speech and struggled with its rare words. Most scholars think the Hebrew is original and the Greek a shortened attempt at a difficult text.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "ten times, \"From all the places where you turn back, they are upon us.\"",
+  "t": "A warning or a call home?",
+  "p": "The Hebrew is obscure. With a small change it reads 'Come back to us.' The Greek differs again.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 4:6)",
+    "orig": "עֶשֶׂר פְּעָמִים מִכָּל־הַמְּקֹמוֹת אֲשֶׁר־תָּשׁוּבוּ עָלֵינוּ",
+    "en": "ten times, from all the places that you turn, (they are) against us",
+    "plain": "ten times, \"From all the places where you turn back, they are upon us.\""
+   },
+   {
+    "w": "Conjectural change of 'alenu, 'against us,' to elenu, 'to us,' followed by the NRSV and ESV",
+    "orig": "...תָּשׁוּבוּ אֵלֵינוּ",
+    "en": "from all the places: 'You must come back to us'",
+    "plain": "ten times, from all around, \"You must come back to us!\""
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (14:6), which lacks 'ten times'",
+    "orig": "ἀναβαίνουσιν ἐκ πάντων τῶν τόπων ἐφ' ἡμᾶς",
+    "en": "they are coming up from all the places against us",
+    "plain": "\"They are coming up against us from every place.\""
+   }
+  ],
+  "follow": 0,
+  "why": "No reading is certain. The Plain stays with the Hebrew consonants, read as a warning, which fits the next verse, where Nehemiah posts guards. The emendation makes good sense too: men working in Jerusalem were being pulled home to defend their villages.",
+  "s": [
+   "williamson-ezra-neh",
+   "clines-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "4:23",
+  "a": "Each man's weapon was with him at the water.",
+  "t": "'At the water' or 'in his right hand'?",
+  "p": "The Hebrew ends 'each his weapon, the water.' A common fix reads 'in his right hand.' The Greek lacks the clause.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 4:17)",
+    "orig": "אִישׁ שִׁלְחוֹ הַמָּיִם",
+    "en": "each his weapon, the water",
+    "plain": "Each man's weapon was with him at the water."
+   },
+   {
+    "w": "Conjectural change of hammayim, 'the water,' to bimino, 'in his right hand,' followed by the ESV and NRSV",
+    "orig": "אִישׁ שִׁלְחוֹ בִּימִינוֹ",
+    "en": "each with his weapon in his right hand",
+    "plain": "Each man kept his weapon in his right hand."
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (14:17), which ends with no one taking off his clothes",
+    "orig": "—",
+    "en": "(no clause)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is odd but can be read with an implied verb: each took his weapon even when he went to the water. The emendation is attractive but has no manuscript support, and the Greek may have dropped a phrase it did not understand.",
+  "s": [
+   "williamson-ezra-neh",
+   "clines-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "Counting our sons and daughters, there are many of us.",
+  "t": "'Many' or 'pledging'?",
+  "p": "The Hebrew says 'we are many.' A one-letter change gives 'we are pledging our sons and daughters.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (15:2)",
+    "orig": "בָּנֵינוּ וּבְנֹתֵינוּ אֲנַחְנוּ רַבִּים",
+    "en": "our sons and our daughters, we are many",
+    "plain": "Counting our sons and daughters, there are many of us."
+   },
+   {
+    "w": "Conjectural change of rabbim, 'many,' to orevim, 'pledging,' suggested by many scholars and followed by the NRSV",
+    "orig": "עֹרְבִים",
+    "en": "we are pledging (our sons and daughters)",
+    "plain": "We are giving our sons and daughters as pledges."
+   }
+  ],
+  "follow": 0,
+  "why": "The emendation makes the three complaints parallel (5:2–4), but the Hebrew makes sense as it stands: large families need grain. Both the Hebrew and the Greek have 'many.'",
+  "s": [
+   "williamson-ezra-neh",
+   "clines-ezra-neh"
+  ]
+ },
+ {
+  "v": "5:9",
+  "a": "And I said",
+  "t": "'I said' or 'he said'?",
+  "p": "The written Hebrew has 'and he said'; the Masoretes read 'and I said,' fitting the memoir. 7:3 has the same pair.",
+  "readings": [
+   {
+    "w": "Masoretic Qere",
+    "orig": "וָאֹמַר",
+    "en": "and I said",
+    "plain": "And I said"
+   },
+   {
+    "w": "Masoretic Ketiv (Leningrad Codex)",
+    "orig": "וַיֹּאמֶר",
+    "en": "and he said",
+    "plain": "And he said"
+   }
+  ],
+  "follow": 0,
+  "why": "The forms differ by one letter. Nehemiah is speaking throughout, so the Qere is surely right; the Ketiv is a common slip.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "the hundredth part of the silver",
+  "t": "'The hundredth' or 'the debt'?",
+  "p": "The Hebrew 'hundredth' is probably interest. A small change reads 'the loan' itself. The Greek has 'from the silver.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וּמְאַת הַכֶּסֶף",
+    "en": "and the hundredth of the silver",
+    "plain": "the hundredth part of the silver"
+   },
+   {
+    "w": "Conjectural change to umassa't, 'and the debt (pledge) of,' suggested by some scholars",
+    "orig": "וּמַשַּׁאת הַכֶּסֶף",
+    "en": "and the loan of the silver",
+    "plain": "the loans of silver"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (15:11)",
+    "orig": "ἀπὸ τοῦ ἀργυρίου",
+    "en": "from the silver",
+    "plain": "some of the silver"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as a monthly interest of one percent, and the Plain keeps it. The emendation would make Nehemiah cancel the loans themselves, not just the interest; 5:12 ('we will ask nothing more of them') may favor it.",
+  "s": [
+   "williamson-ezra-neh",
+   "clines-ezra-neh"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "We did not get any field for ourselves.",
+  "t": "'We' or 'I'?",
+  "p": "The Hebrew says 'we did not acquire.' The Greek has 'I did not acquire.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְשָׂדֶה לֹא קָנִינוּ",
+    "en": "and a field we did not acquire",
+    "plain": "We did not get any field for ourselves."
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (15:16)",
+    "orig": "ἀγρὸν οὐκ ἐκτησάμην",
+    "en": "a field I did not acquire",
+    "plain": "I did not get any field for myself."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'we' includes Nehemiah's household and servants (5:10; 5:14). The Greek probably smoothed the person to match 'I' earlier in the verse.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "at Kephirim",
+  "t": "A place, or 'the villages'?",
+  "p": "Kephirim may be a village name. The Greek reads 'in the villages.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בַּכְּפִירִים",
+    "en": "at (the) Kephirim",
+    "plain": "at Kephirim"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (16:2); followed by the NIV and BSB",
+    "orig": "ἐν ταῖς κώμαις",
+    "en": "in the villages",
+    "plain": "in one of the villages"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings come from the same Hebrew letters. Kephirah is a known town (7:29), and the Plain takes Kephirim as a place name, as the ESV does; the Greek took it as the common noun.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:9",
+  "a": "So now, make my hands strong!",
+  "t": "A prayer or a statement?",
+  "p": "The Hebrew is a command, best read as a prayer. The Greek reads 'and now I strengthened my hands.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְעַתָּה חַזֵּק אֶת־יָדָי",
+    "en": "and now, strengthen my hands!",
+    "plain": "So now, make my hands strong!"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (16:9); Latin Vulgate ('confortavi,' 'I strengthened')",
+    "orig": "καὶ νῦν ἐκραταίωσα τὰς χεῖράς μου",
+    "en": "and now I strengthened my hands",
+    "plain": "So now I made my hands strong."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew consonants allow both, depending on the vowels. The Masoretic reading fits Nehemiah's habit of quick prayers (4:4; 5:19; 6:14).",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "Noadiah the prophetess",
+  "t": "A prophetess or a prophet?",
+  "p": "The Hebrew calls Noadiah a woman prophet. The Greek makes Noadiah a man.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "נוֹעַדְיָה הַנְּבִיאָה",
+    "en": "Noadiah the prophetess",
+    "plain": "Noadiah the prophetess"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (16:14)",
+    "orig": "τῷ Νωαδια τῷ προφήτῃ",
+    "en": "Noadiah the prophet (masculine)",
+    "plain": "Noadiah the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear. The Greek may reflect the man named Noadiah in Ezra 8:33, or a translator's assumption.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "I gave them orders",
+  "t": "'I said' or 'he said'?",
+  "p": "As in 5:9, the written Hebrew has 'he said,' and the Masoretes read 'I said.'",
+  "readings": [
+   {
+    "w": "Masoretic Qere",
+    "orig": "וָאֹמַר",
+    "en": "and I said",
+    "plain": "I gave them orders"
+   },
+   {
+    "w": "Masoretic Ketiv (Leningrad Codex)",
+    "orig": "וַיֹּאמֶר",
+    "en": "and he said",
+    "plain": "He gave them orders"
+   }
+  ],
+  "follow": 0,
+  "why": "Nehemiah is the speaker, so the Qere is right; see 5:9.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "until the sun grows hot",
+  "t": "'Until the sun is hot' or 'until sunrise'?",
+  "p": "The Hebrew has 'until the sun is hot.' The Greek has 'until the sun rises.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עַד־חֹם הַשֶּׁמֶשׁ",
+    "en": "until the heat of the sun",
+    "plain": "until the sun grows hot"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:3)",
+    "orig": "ἕως ἅμα τῷ ἡλίῳ",
+    "en": "until sunrise",
+    "plain": "until sunrise"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives an easier sense. The Hebrew is the harder reading and is kept; see the note for its two possible meanings.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:52",
+  "a": "Nephishesim",
+  "t": "Nephishesim or Nephushesim?",
+  "p": "The written Hebrew has u (waw) where the Masoretes read i (yod). Ezra 2:50 has the shorter Nephusim.",
+  "readings": [
+   {
+    "w": "Masoretic Qere",
+    "orig": "נְפִישְׁסִים",
+    "en": "Nephishesim",
+    "plain": "Nephishesim"
+   },
+   {
+    "w": "Masoretic Ketiv (Leningrad Codex)",
+    "orig": "נְפוּשְׁסִים",
+    "en": "Nephushesim",
+    "plain": "Nephushesim"
+   },
+   {
+    "w": "Ezra 2:50 (Qere, followed on this site)",
+    "orig": "נְפוּסִים",
+    "en": "Nephusim",
+    "plain": "Nephusim"
+   }
+  ],
+  "follow": 0,
+  "why": "Yod and waw are easily confused. The Plain follows the Qere, as with the names in Ezra 2. The longer form here may combine two spellings of Nephusim.",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "7:67",
+  "a": "245 male and female singers",
+  "t": "245 or 200 singers?",
+  "p": "Nehemiah's Hebrew has 245 singers; Ezra 2:65 has 200. A copying slip in the next line may explain either.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) of Nehemiah; 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:67); 1 Esdras 5:42 (KJV numbering)",
+    "orig": "מָאתַיִם וְאַרְבָּעִים וַחֲמִשָּׁה",
+    "en": "two hundred and forty-five",
+    "plain": "245 male and female singers"
+   },
+   {
+    "w": "Ezra 2:65 (Masoretic Text)",
+    "orig": "מָאתָיִם",
+    "en": "two hundred",
+    "plain": "200 male and female singers"
+   }
+  ],
+  "follow": 0,
+  "why": "Each book keeps its own figure, as the Ezra 2:65 variant does. Two slips are possible, and they point opposite ways; see the variant on 7:68. If a copyist's eye ran from the singers' 200 to the mules' 200 (\"two hundred and forty-five\"), Nehemiah's 245 is really the mules' number and Ezra's 200 is right. If it ran from the singers' 245 to the mules' 245, Nehemiah's 245 is right. The Plain keeps the Leningrad Codex's 245.",
+  "s": [
+   "williamson-ezra-neh",
+   "talshir-1esdras"
+  ]
+ },
+ {
+  "v": "7:68",
+  "a": "Their horses: 736. Their mules: 245.",
+  "t": "A verse missing from the Hebrew",
+  "p": "Leningrad, most Hebrew manuscripts and Codex Vaticanus lack this verse. It is printed from Ezra 2:66 and Rahlfs' Greek.",
+  "readings": [
+   {
+    "w": "A few Hebrew manuscripts; the apparatus of BHS; Ezra 2:66; 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:68); the KJV and most English Bibles",
+    "orig": "סוּסֵיהֶם שְׁבַע מֵאוֹת שְׁלֹשִׁים וְשִׁשָּׁה פִּרְדֵיהֶם מָאתַיִם וְאַרְבָּעִים וַחֲמִשָּׁה",
+    "en": "their horses 736; their mules 245",
+    "plain": "Their horses: 736. Their mules: 245."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) and most Hebrew manuscripts, which go straight from the singers (7:67) to the camels (7:69); Codex Vaticanus (300s AD), as shown in Brenton's English translation of the Greek (1844), which marks the verse as omitted; Jewish Bibles, which number the camels verse 7:68",
+    "orig": "—",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain prints the verse, following Ezra 2:66, a few Hebrew manuscripts and Rahlfs' Greek text, and keeps the English numbering. The gap is most likely a scribe's eye jump, but there are two ways it could have happened. (1) The singers' number and the mules' number are both 245, so a copyist could skip from the first 245 to the second and lose the horses and mules; then Nehemiah's singers really were 245. (2) Both numbers begin \"two hundred,\" so a copyist could skip from the singers' \"two hundred\" to the mules' \"two hundred and forty-five\"; then the singers were 200, as in Ezra 2:65, and the Hebrew's \"and forty-five\" is the tail of the mules' line. The Plain keeps the transmitted 245 singers and restores the verse with its 245 mules, which fits view (1); on view (2) the singers' figure would be 200.",
+  "b": "Because of this missing verse, Hebrew Bibles number the rest of the chapter one lower (Hebrew 7:68–72 = English 7:69–73). The word-by-word Hebrew on this site (STEPBible's edition of the Leningrad Codex) supplies the verse and marks it as a reconstruction; it follows view (2), splitting the singers' number so that its 7:67 shows 200, though the Leningrad Codex itself has 245 there. The Greek is divided: Rahlfs prints the verse, but Codex Vaticanus lacks it (see also the variant on 7:69).",
+  "s": [
+   "williamson-ezra-neh",
+   "tov-tchb",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:69",
+  "a": "Camels: 435. Donkeys: 6,720.",
+  "t": "Camels and donkeys, or 2,700 donkeys?",
+  "p": "The Hebrew, Ezra 2:67 and Rahlfs' Greek have 435 camels and 6,720 donkeys. Codex Vaticanus has only 2,700 donkeys.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 7:68); Ezra 2:67; 2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:69)",
+    "orig": "גְּמַלִּים אַרְבַּע מֵאוֹת שְׁלֹשִׁים וַחֲמִשָּׁה חֲמֹרִים שֵׁשֶׁת אֲלָפִים שְׁבַע מֵאוֹת וְעֶשְׂרִים",
+    "en": "camels 435; donkeys 6,720",
+    "plain": "Camels: 435. Donkeys: 6,720."
+   },
+   {
+    "w": "Codex Vaticanus (300s AD), as shown in Brenton's English translation of the Greek (1844)",
+    "orig": "ὄνοι δισχίλιοι ἑπτακόσιοι",
+    "en": "2,700 donkeys",
+    "plain": "Donkeys: 2,700."
+   }
+  ],
+  "follow": 0,
+  "why": "The Vaticanus text has lost the horses and mules (7:68) and the camels, and its donkeys' figure looks like a damaged form of 6,720. The Hebrew agrees with Ezra 2:67 and is kept.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:70",
+  "a": "The governor gave to the treasury",
+  "t": "The governor's gift, or gifts 'to Nehemiah'?",
+  "p": "The Hebrew has the governor giving. The Greek has the family heads giving 'to Nehemiah' for the treasury.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 7:69)",
+    "orig": "הַתִּרְשָׁתָא נָתַן לָאוֹצָר",
+    "en": "the Tirshatha gave to the treasury",
+    "plain": "The governor gave to the treasury"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:70); Codex Vaticanus (300s AD), as shown in Brenton's English translation of the Greek (1844)",
+    "orig": "ἔδωκαν εἰς τὸ ἔργον τῷ Νεεμια εἰς θησαυρὸν",
+    "en": "they gave for the work to Nehemiah, for the treasury",
+    "plain": "They gave to Nehemiah, for the treasury,"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Greek there are only two groups of givers, the family heads and the people, and the governor receives the gifts rather than giving. The translator took the Tirshatha to be Nehemiah, as 8:9 and 10:1 suggest (see the note on 7:65). The Hebrew, with its three groups, is kept.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:70",
+  "a": "530 robes for priests",
+  "t": "530 or 30 robes?",
+  "p": "The Hebrew gives the governor's gift as 'thirty and five hundred' robes. The Greek has thirty.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 7:69)",
+    "orig": "כָּתְנוֹת כֹּהֲנִים שְׁלֹשִׁים וַחֲמֵשׁ מֵאוֹת",
+    "en": "thirty and five hundred priests' robes",
+    "plain": "530 robes for priests"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:70)",
+    "orig": "χοθωνωθ τῶν ἱερέων τριάκοντα",
+    "en": "thirty priests' robes",
+    "plain": "30 robes for priests"
+   }
+  ],
+  "follow": 0,
+  "why": "The odd word order of the Hebrew ('thirty and five hundred') has led some scholars to think 'five hundred' was added, perhaps from a line about minas of silver that fell out. The Plain keeps the Hebrew, whose total with 7:72 (597 robes) is the figure usually compared with Ezra 2:69.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:72",
+  "a": "2,000 minas of silver",
+  "t": "2,000 or 2,200 minas?",
+  "p": "The Hebrew gives the people's silver as 2,000 minas. The Greek has 2,200, the same as the family heads' gift in 7:71.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Hebrew 7:71)",
+    "orig": "כֶּסֶף מָנִים אַלְפָּיִם",
+    "en": "silver, 2,000 minas",
+    "plain": "2,000 minas of silver"
+   },
+   {
+    "w": "2 Esdras (Esdras B), the Greek translation of Ezra–Nehemiah, as printed in Rahlfs' edition (Nehemiah = 2 Esdras 11–23; checked on die-bibel.de) (17:72); Codex Vaticanus (300s AD), as shown in Brenton's English translation of the Greek (1844)",
+    "orig": "ἀργυρίου μνᾶς δισχιλίας διακοσίας",
+    "en": "2,200 minas of silver",
+    "plain": "2,200 minas of silver"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek figure repeats the one just given in 7:71, which may be a copyist's echo. The Plain keeps the Hebrew, which gives 4,200 minas in all; on the Greek the total would be 4,400.",
+  "s": [
+   "williamson-ezra-neh",
+   "rahlfs-lxx"
+  ]
+ }
+]

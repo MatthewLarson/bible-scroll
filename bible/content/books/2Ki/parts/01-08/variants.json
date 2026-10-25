@@ -1,0 +1,484 @@
+[
+ {
+  "v": "1:2",
+  "a": "Baal-zebub, the god of Ekron",
+  "t": "The fly god",
+  "p": "The Greek translates the name as \"Baal Fly,\" and Josephus calls him the \"god of flies.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV and modern versions",
+    "orig": "בַּעַל זְבוּב",
+    "en": "Baal-zebub",
+    "plain": "Baal-zebub, the god of Ekron"
+   },
+   {
+    "w": "Septuagint (Greek); compare Josephus, <i>Antiquities</i> 9.2.1",
+    "orig": "τὴν Βααλ μυῖαν θεὸν Ακκαρων",
+    "en": "Baal Fly, god of Akkaron",
+    "plain": "Baal the Fly, the god of Ekron"
+   }
+  ],
+  "follow": 0,
+  "why": "This is not a different Hebrew text but a translation of the name. The Plain English keeps the name as a name and explains it in a note. The Greek shows that ancient readers already understood <i>zevuv</i> as \"fly.\"",
+  "s": [
+   "rahlfs-lxx",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "This one spoke up",
+  "t": "\"Spoke up\" or \"went up\"?",
+  "p": "The Hebrew says the second captain \"answered\"; the Greek says he \"went up,\" as the other two captains do.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וַיַּעַן",
+    "en": "and he answered",
+    "plain": "This one spoke up"
+   },
+   {
+    "w": "Septuagint (Greek, ἀνέβη); many commentators, who restore Hebrew וַיַּעַל",
+    "orig": "καὶ ἀνέβη",
+    "en": "and he went up",
+    "plain": "This one went up"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Hebrew words differ by one letter (<i>vayya'an</i>, \"he answered,\" and <i>vayya'al</i>, \"he went up\"). \"Answered\" is odd, since no one has spoken to him, but Hebrew often uses \"answer\" for beginning to speak. The Plain English keeps the Hebrew; the Greek reading fits the pattern of 1:9 and 1:13 and may be original.",
+  "s": [
+   "cogan-tadmor-2kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "Jehoram became king in his place, in the second year of Jehoram son of Jehoshaphat, king of Judah, because Ahaziah had no son.",
+  "t": "The missing date",
+  "p": "The Greek ends 1:17 with Elijah's word. It has no date for Jehoram's reign here and gives one after 1:18 instead.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum; Vulgate",
+    "orig": "וַיִּמְלֹךְ יְהוֹרָם תַּחְתָּיו בִּשְׁנַת שְׁתַּיִם לִיהוֹרָם",
+    "en": "and Jehoram became king in his place in the second year of Jehoram ...",
+    "plain": "Jehoram became king in his place, in the second year of Jehoram son of Jehoshaphat, king of Judah, because Ahaziah had no son."
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (Rahlfs); the Lucianic text was not checked directly",
+    "orig": "καὶ ἀπέθανεν κατὰ τὸ ῥῆμα κυρίου ὃ ἐλάλησεν Ηλιου",
+    "en": "and he died according to the word of the LORD that Elijah spoke (the verse ends here)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew dates the accession of Jehoram of Israel to the second year of Jehoram of Judah, which conflicts with 3:1 (the eighteenth year of Jehoshaphat). The Greek lacks the date and the succession clause and gives instead, after 1:18, a notice that agrees with 3:1. The two Greek differences belong together. The Plain English keeps the Hebrew, the harder reading, which most scholars explain by a co-regency of Jehoram of Judah with his father. The Greek looks like a smoothing of the chronology, though Shenkel argued that the Old Greek kept an older system of dates.",
+  "s": [
+   "rahlfs-lxx",
+   "shenkel-chronology",
+   "thiele-numbers"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "The rest of Ahaziah's story, what he did, is written down, isn't it, in the scroll of the day-by-day records of the kings of Israel?",
+  "t": "A Greek notice for Jehoram",
+  "p": "The Greek adds after 1:18 a summary of Jehoram's reign, dated as in 3:1. It goes with the shorter Greek 1:17.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; Vulgate; KJV and modern versions",
+    "orig": "וְיֶתֶר דִּבְרֵי אֲחַזְיָהוּ",
+    "en": "The rest of the matters of Ahaziah ... the kings of Israel",
+    "plain": "The rest of Ahaziah's story, what he did, is written down, isn't it, in the scroll of the day-by-day records of the kings of Israel?"
+   },
+   {
+    "w": "Septuagint (4 Kingdoms 1:18a–d in Rahlfs), in the main Greek manuscripts",
+    "orig": "καὶ Ιωραμ υἱὸς Αχααβ βασιλεύει ἐπὶ Ισραηλ ...",
+    "en": "And Joram son of Ahab reigned over Israel in Samaria twelve years, in the eighteenth year of Jehoshaphat king of Judah ...",
+    "plain": "The rest of Ahaziah's story, what he did, is written down, isn't it, in the scroll of the day-by-day records of the kings of Israel? Joram son of Ahab became king over Israel in Samaria in the eighteenth year of Jehoshaphat king of Judah, and he ruled for twelve years. He did what the LORD sees as evil, but not like his brothers or like his mother. He took away the standing stones of Baal that his father had made and broke them. But he held to the sins of the house of Jeroboam, who led Israel into sin; he did not turn from them. And the LORD was furious with the house of Ahab."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Hebrew. The Greek plus repeats 3:1–3 with small differences (\"his brothers\" for \"his father,\" \"pillars\" in the plural, and a closing line about the LORD's anger), and it looks like a regnal summary placed where the Greek editors expected it, right after Ahaziah's death. It works together with the Greek of 1:17, which lacks the Hebrew's date for Jehoram's accession (see the variant there): the Greek replaces a date that conflicts with 3:1 with one that agrees with it. The Greek wording shown is a summary of Rahlfs' text, not a full quotation.",
+  "b": "<p>All of 2 Kings belongs to the \"kaige\" section of the Greek, where the main manuscript, Codex Vaticanus (and so Rahlfs), has a text revised toward the Hebrew. The Lucianic (Antiochene) manuscripts are the better witness to the Old Greek here. That even the revised Greek keeps this plus suggests it is old. Some scholars (Shenkel) think the Old Greek had its own chronology for the Omride kings and that pluses like this one and 1 Kings 16:28a–h come from it; others think they are later harmonizing additions. The Lucianic readings were not checked line by line for this note.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "shenkel-chronology",
+   "fernandez-marcos-antioqueno-kings"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "he said. \"Yes, where is he?\" He struck",
+  "t": "\"Even he\" or \"he too struck\"?",
+  "p": "Two small Hebrew words can end the question or begin the next clause. The Greek also has a first strike that fails.",
+  "readings": [
+   {
+    "w": "Masoretic Text, as its accents divide the verse",
+    "orig": "אַף־הוּא׃ וַיַּכֶּה",
+    "en": "even he ... and he struck",
+    "plain": "he said. \"Yes, where is he?\" He struck"
+   },
+   {
+    "w": "KJV and some interpreters, joining the words to what follows",
+    "orig": "אַף־הוּא וַיַּכֶּה",
+    "en": "when he also had struck",
+    "plain": "he said. When he too struck"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (Rahlfs), which also has a failed first strike and \"the God of Elijah\" without \"the LORD\"; the Lucianic text was not checked directly",
+    "orig": "καὶ ἐπάταξεν τὸ ὕδωρ καὶ οὐ διέστη καὶ εἶπεν ποῦ ὁ θεὸς Ηλιου αφφω καὶ ἐπάταξεν τὰ ὕδατα",
+    "en": "and he struck the water, and it did not part; and he said, \"Where is the God of Elijah, aphphō?\" and he struck the waters",
+    "plain": "he said. \"Aphpho!\" He struck"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic accents put <i>'af hu'</i>, \"even he,\" with the question, as an emphatic \"yes, he,\" and the Plain English follows them. The KJV reads \"when he also had smitten the waters,\" taking the words as \"he too\" with the next verb. The Greek translator did not understand them and copied the sounds into Greek letters. The Greek also tells the scene differently: Elisha strikes the water once and it does not part; then he asks, \"Where is the God of Elijah?\" and strikes again, and the water splits. The Plain English keeps the shorter Hebrew. The Greek plus may be an attempt to explain why the Hebrew says \"he struck the water\" twice, and it makes Elisha's question follow a failure. Some scholars restore a different small word for <i>'af hu'</i>, such as \"now\" or \"then.\"",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "3:24",
+  "a": "Israel pushed on into the land",
+  "t": "\"Went into it\" or \"struck it\"?",
+  "p": "The written Hebrew (Ketiv) says Israel \"went into\" Moab; the Masoretes' reading (Qere) says they \"struck\" it.",
+  "readings": [
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex), read וַיָּבוֹאוּ בָהּ; supported by the Greek, which has Israel \"going in\"",
+    "orig": "וַיָּבוֹ בָהּ",
+    "en": "and they went into it",
+    "plain": "Israel pushed on into the land"
+   },
+   {
+    "w": "Qere (the reading the Masoretes marked to be spoken); KJV \"went forward smiting\"",
+    "orig": "וַיַּכּוּ־בָהּ",
+    "en": "and they struck at it",
+    "plain": "Israel struck at the land"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one letter. The Ketiv fits the story, which goes on to describe the army destroying towns, fields, springs and trees inside Moab (3:25). The Qere is an attempt to smooth an unclear form. Both end the same way: \"striking Moab.\" The Plain English follows the Ketiv, with most modern versions.",
+  "s": [
+   "tov-tchb",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "3:27",
+  "a": "great wrath",
+  "t": "\"Wrath\" or \"regret\"?",
+  "p": "The Greek renders qetsef as \"great regret\" (metamelos), as if Israel was sorry for what it had caused.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum; Vulgate (<i>indignatio magna</i>); KJV \"great indignation\"",
+    "orig": "קֶצֶף גָּדוֹל",
+    "en": "great wrath",
+    "plain": "great wrath"
+   },
+   {
+    "w": "Septuagint (Greek; the kaige text of Codex Vaticanus as printed in Rahlfs)",
+    "orig": "μετάμελος μέγας",
+    "en": "great regret",
+    "plain": "great regret"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a difference of translation, not of the Hebrew letters. The Greek translator seems to have taken the wrath as a human reaction, perhaps to avoid saying that Moab's god, or the LORD, struck Israel. The Plain English keeps the Hebrew word, which elsewhere almost always means God's wrath, and leaves its source open as the Hebrew does.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "4:35",
+  "a": "The boy sneezed, seven times",
+  "t": "Sneezing or bowing?",
+  "p": "In the Greek Elisha crouches over the boy seven times, and there is no sneeze.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum; Vulgate",
+    "orig": "וַיְזוֹרֵר הַנַּעַר עַד־שֶׁבַע פְּעָמִים",
+    "en": "and the boy sneezed up to seven times",
+    "plain": "The boy sneezed, seven times"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (Rahlfs); the Lucianic text was not checked directly",
+    "orig": "καὶ συνέκαμψεν ἐπὶ τὸ παιδάριον ἕως ἑπτάκις",
+    "en": "and he bowed over the child up to seven times",
+    "plain": "He crouched over the boy seven times"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb <i>zarar</i>, \"sneeze,\" appears only here. The Greek translator may not have known it, and so joined \"seven times\" to the crouching before it. The rare word is the harder reading, and it is hard to see why a scribe would invent it. The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "5:12",
+  "a": "the Abana",
+  "t": "Abana or Amana?",
+  "p": "The written Hebrew has Abana; the Masoretes' reading has Amana, a name of a mountain in Song of Songs 4:8.",
+  "readings": [
+   {
+    "w": "Ketiv (the written consonants); Septuagint (Greek Abana); KJV and most versions",
+    "orig": "אֲבָנָה",
+    "en": "Abana",
+    "plain": "the Abana"
+   },
+   {
+    "w": "Qere (the reading the Masoretes marked to be spoken); Targum",
+    "orig": "אֲמָנָה",
+    "en": "Amana",
+    "plain": "the Amana"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters b and m sound alike and were often exchanged. \"Amana\" is the name of a peak in the Anti-Lebanon (Song of Songs 4:8), where the river rises, so either name fits. The Plain English follows the written text and most translations.",
+  "s": [
+   "tov-tchb",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "6:25",
+  "a": "dove's dung",
+  "t": "Dove's dung, or a plant?",
+  "p": "The written text says \"dove's dung.\" The Masoretes told readers to say a politer word, and some think it is a plant name.",
+  "readings": [
+   {
+    "w": "Ketiv (the written consonants); Septuagint (Greek, \"dung of doves\"); KJV",
+    "orig": "חֲרֵי־יוֹנִים",
+    "en": "dung of doves",
+    "plain": "dove's dung"
+   },
+   {
+    "w": "Qere (the reading the Masoretes marked to be spoken), a polite substitute",
+    "orig": "דִּבְיוֹנִים",
+    "en": "(a euphemism for dung)",
+    "plain": "dove's droppings"
+   },
+   {
+    "w": "Some interpreters and versions (NIV \"seed pods\"), taking it as a plant name",
+    "orig": "—",
+    "en": "seed pods / wild bulbs",
+    "plain": "seed pods"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes often marked a more modest word to be read aloud in place of a crude one (compare 18:27). That does not change the meaning. Some scholars think \"dove's dung\" was a popular name for a plant, such as carob pods or the bulb called star-of-Bethlehem, which the poor ate in famine. Others take it literally, as food or fuel in desperation. The Plain English follows the written text.",
+  "s": [
+   "tov-tchb",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "6:25",
+  "a": "eighty pieces of silver",
+  "t": "Eighty or fifty?",
+  "p": "The Greek prices the donkey's head at fifty shekels of silver, not eighty.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum; Vulgate",
+    "orig": "בִּשְׁמֹנִים כֶּסֶף",
+    "en": "for eighty of silver",
+    "plain": "eighty pieces of silver"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (Rahlfs); the Lucianic text was not checked directly",
+    "orig": "πεντήκοντα σίκλων ἀργυρίου",
+    "en": "fifty shekels of silver",
+    "plain": "fifty pieces of silver"
+   }
+  ],
+  "follow": 0,
+  "why": "Numbers were easily confused in copying. Neither figure can be shown to be original, and either one is a famine price. The Plain English keeps the Hebrew.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:33",
+  "a": "the messenger came down to him",
+  "t": "The messenger or the king?",
+  "p": "The Hebrew says \"the messenger\" came down. Many scholars think it originally said \"the king,\" who speaks next and is with Elisha in 7:2.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint; KJV",
+    "orig": "הַמַּלְאָךְ",
+    "en": "the messenger",
+    "plain": "the messenger came down to him"
+   },
+   {
+    "w": "Conjectural emendation adopted by many commentators (a small change of letters)",
+    "orig": "הַמֶּלֶךְ",
+    "en": "the king",
+    "plain": "the king came down to him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Messenger\" (<i>mal'akh</i>) and \"king\" (<i>melekh</i>) have the same consonants except one letter. The words that follow, \"this disaster is the LORD's doing,\" fit the king better than a servant, and in 7:2 the king's officer is present and in 7:17 the text says \"the king went down\" to Elisha. The Plain English keeps the Hebrew, since no manuscript has \"king,\" and leaves the speaker unnamed, as the Hebrew does.",
+  "s": [
+   "cogan-tadmor-2kings",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "7:13",
+  "a": "Look, they are like the whole crowd of Israel still left in the town. Look, they are like the whole crowd of Israel already gone.",
+  "t": "A doubled sentence",
+  "p": "The Hebrew has two almost identical clauses. Some Hebrew manuscripts and ancient versions have only one.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV",
+    "orig": "הִנָּם כְּכָל־הֲמוֹן יִשְׂרָאֵל אֲשֶׁר נִשְׁאֲרוּ־בָהּ הִנָּם כְּכָל־הֲמוֹן יִשְׂרָאֵל אֲשֶׁר־תָּמּוּ",
+    "en": "they are like all the multitude of Israel that are left in it ... they are like all the multitude of Israel that are consumed",
+    "plain": "Look, they are like the whole crowd of Israel still left in the town. Look, they are like the whole crowd of Israel already gone."
+   },
+   {
+    "w": "Some Hebrew manuscripts, Septuagint, Syriac and Vulgate, as reported in BHS",
+    "orig": "—",
+    "en": "(the clause about those left in the town is lacking)",
+    "plain": "Look, they are like the whole crowd of Israel already gone."
+   }
+  ],
+  "follow": 0,
+  "why": "The two clauses differ only in their last word, \"left\" and \"gone.\" The first may have come in by a copyist's eye slipping between similar lines, and the shorter text reads more smoothly: the horses \"will only perish like the rest.\" But the longer text makes good sense too: whether the horses stay in the starving city or go out, they face death, so nothing is lost by sending them. The Plain English follows the Hebrew. The witnesses for the shorter text are given here as the standard apparatus reports them; they were not checked one by one.",
+  "s": [
+   "cogan-tadmor-2kings",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:10",
+  "a": "Go and tell him, 'You are sure to live.'",
+  "t": "\"To him\" or \"not\"?",
+  "p": "The Hebrew word lo can mean \"not\" or \"to him.\" The written text has \"not\"; the Masoretes read \"to him.\"",
+  "readings": [
+   {
+    "w": "Qere (the reading the Masoretes marked to be spoken); KJV and most versions",
+    "orig": "אֱמָר־לוֹ",
+    "en": "say to him, You will surely live",
+    "plain": "Go and tell him, 'You are sure to live.'"
+   },
+   {
+    "w": "Ketiv (the written consonants of the Leningrad Codex)",
+    "orig": "אֱמָר לֹא",
+    "en": "say: You will surely not live",
+    "plain": "Go and say, 'You will certainly not live.'"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound the same (<i>lo</i>) and were often confused. The Ketiv removes any hint of deception, which may be why some scholars think it was a scribal correction. The Qere fits 8:14, where Hazael reports \"You are sure to live,\" and the contrast with the next clause, \"but the LORD has shown me he is sure to die.\" The Plain English follows the Qere with most versions.",
+  "s": [
+   "tov-tchb",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "8:16",
+  "a": "Jehoshaphat being king of Judah,",
+  "t": "\"Jehoshaphat being king of Judah\"",
+  "p": "These words, which suggest that father and son ruled together, are missing from the Greek and some other witnesses.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV",
+    "orig": "וִיהוֹשָׁפָט מֶלֶךְ יְהוּדָה",
+    "en": "and Jehoshaphat king of Judah",
+    "plain": "Jehoshaphat being king of Judah,"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (Rahlfs); also reported for the Lucianic Greek, the Syriac Peshitta and some Hebrew manuscripts (as BHS gives them, not checked directly); many modern scholars",
+    "orig": "—",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Many scholars think the phrase is a copyist's repetition of \"king of Judah\" from the end of the verse. Others, especially those who build the chronology on co-regencies (Thiele), see it as a sign that Jehoram began to rule while his father was still alive. The Plain English keeps the Hebrew. Both Greek traditions lack the phrase: even the kaige text of Vaticanus, which was revised toward the Hebrew, does not have it, and the Lucianic text, the better witness to the Old Greek here, is reported to lack it too. That gives the shorter text real weight.",
+  "s": [
+   "tov-tchb",
+   "thiele-numbers",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "8:19",
+  "a": "for his sons",
+  "t": "\"For his sons\" or \"and his sons\"?",
+  "p": "Kings says the lamp is \"for his sons\"; Chronicles and some manuscripts say \"to him and to his sons.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לְבָנָיו",
+    "en": "for his sons",
+    "plain": "for his sons"
+   },
+   {
+    "w": "2 Chronicles 21:7; some Hebrew manuscripts and versions",
+    "orig": "וּלְבָנָיו",
+    "en": "and to his sons",
+    "plain": "and to his sons"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is one letter, a \"and.\" With it, the lamp is given to David and to his sons; without it, the lamp is given to David, through his sons. The meaning is nearly the same. The KJV's \"and to his children\" supplies the \"and\" in translation; it is not a witness to the other reading. The Plain English follows Kings.",
+  "s": [
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "Joram went across to Zair",
+  "t": "Zair or \"with his commanders\"?",
+  "p": "Kings has a place name, Zair. Chronicles has \"with his commanders,\" which in Hebrew looks almost the same.",
+  "readings": [
+   {
+    "w": "Masoretic Text of Kings (Leningrad Codex); KJV",
+    "orig": "צָעִירָה",
+    "en": "to Zair",
+    "plain": "Joram went across to Zair"
+   },
+   {
+    "w": "2 Chronicles 21:9 (Masoretic Text)",
+    "orig": "עִם־שָׂרָיו",
+    "en": "with his commanders",
+    "plain": "Joram went across with his commanders"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters of \"to Zair\" (<i>ts'yrh</i>) and \"with his commanders\" (<i>'m-sryw</i>) are close, and one probably arose from the other. Chronicles may have smoothed an unknown place name. The Plain English follows Kings, which is the older text, and leaves Zair as a place whose location is not known.",
+  "s": [
+   "japhet-chronicles",
+   "cogan-tadmor-2kings"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "Ahaziah was twenty-two years old",
+  "t": "Twenty-two or forty-two?",
+  "p": "Kings makes Ahaziah 22 when he became king; Chronicles says 42, which would make him older than his father.",
+  "readings": [
+   {
+    "w": "Masoretic Text of 2 Kings 8:26; Septuagint of Kings; most versions",
+    "orig": "בֶּן־עֶשְׂרִים וּשְׁתַּיִם שָׁנָה",
+    "en": "twenty-two years old",
+    "plain": "Ahaziah was twenty-two years old"
+   },
+   {
+    "w": "2 Chronicles 22:2 (Masoretic Text; KJV); some Greek manuscripts of Chronicles read twenty, others twenty-two",
+    "orig": "בֶּן־אַרְבָּעִים וּשְׁתַּיִם שָׁנָה",
+    "en": "forty-two years old",
+    "plain": "Ahaziah was forty-two years old"
+   }
+  ],
+  "follow": 0,
+  "why": "His father Jehoram became king at thirty-two and ruled eight years (8:17), so he died at forty. A son of forty-two is impossible, and nearly everyone agrees that the number in Chronicles is a copyist's error, perhaps from confusing number signs. The Plain English follows Kings. Those who hold that Scripture is without error in its original manuscripts usually explain the Chronicles number this way.",
+  "s": [
+   "japhet-chronicles",
+   "cogan-tadmor-2kings"
+  ]
+ }
+]

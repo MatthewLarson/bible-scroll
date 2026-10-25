@@ -1,0 +1,408 @@
+{
+ "_about": "Writings outside the 66 books that the site cites. tier: dc = deuterocanonical (Scripture for Catholic and Orthodox Christians, the Apocrypha for Protestants, not in the Jewish Bible); orth = Scripture for Orthodox Christians only; eth = Scripture only in the Ethiopian Orthodox Tewahedo Church; other = in no Bible today; early = an early Christian writing, in no Bible today; lost = a book the Bible names that has not survived. aka: other names the site may use; a name ending in # matches only before a chapter number (\"Judith 9\", not Judith the wife of Esau). Never list \"2 Esdras\": the site uses it for the Greek translation of Ezra-Nehemiah, which is not a separate book; the apocalypse is \"4 Ezra\". topic: the site topic page about the work, if there is one. book: the site book id once the work has its own pages.",
+ "tobit": {
+  "name": "Tobit",
+  "tier": "dc",
+  "aka": [
+   "Tobit",
+   "Book of Tobit",
+   "Tobias#"
+  ],
+  "book": "Tob"
+ },
+ "judith": {
+  "name": "Judith",
+  "tier": "dc",
+  "aka": [
+   "Book of Judith",
+   "Judith#"
+  ],
+  "book": "Jdt"
+ },
+ "1-maccabees": {
+  "name": "1 Maccabees",
+  "tier": "dc",
+  "aka": [
+   "1 Maccabees",
+   "First Maccabees",
+   "1 Macc"
+  ],
+  "book": "1Ma"
+ },
+ "2-maccabees": {
+  "name": "2 Maccabees",
+  "tier": "dc",
+  "aka": [
+   "2 Maccabees",
+   "Second Maccabees",
+   "2 Macc"
+  ],
+  "book": "2Ma"
+ },
+ "wisdom-of-solomon": {
+  "name": "Wisdom of Solomon",
+  "tier": "dc",
+  "aka": [
+   "Wisdom of Solomon",
+   "Book of Wisdom"
+  ],
+  "book": "Wis"
+ },
+ "sirach": {
+  "name": "Sirach",
+  "tier": "dc",
+  "aka": [
+   "Sirach",
+   "Ben Sira",
+   "Ecclesiasticus",
+   "Wisdom of Ben Sira"
+  ]
+ },
+ "baruch": {
+  "name": "Baruch",
+  "tier": "dc",
+  "aka": [
+   "Book of Baruch",
+   "Baruch#",
+   "1 Baruch"
+  ],
+  "book": "Bar"
+ },
+ "letter-of-jeremiah": {
+  "name": "Letter of Jeremiah",
+  "tier": "dc",
+  "aka": [
+   "Letter of Jeremiah",
+   "Epistle of Jeremiah",
+   "Epistle of Jeremy"
+  ]
+ },
+ "additions-to-esther": {
+  "name": "Additions to Esther",
+  "tier": "dc",
+  "aka": [
+   "Additions to Esther",
+   "Greek Esther",
+   "Additions A–F",
+   "Addition A",
+   "Addition B",
+   "Addition C",
+   "Addition D",
+   "Addition E",
+   "Addition F"
+  ]
+ },
+ "additions-to-daniel": {
+  "name": "Additions to Daniel",
+  "tier": "dc",
+  "aka": [
+   "Additions to Daniel",
+   "Prayer of Azariah",
+   "Song of the Three",
+   "Susanna#",
+   "story of Susanna",
+   "Bel and the Dragon"
+  ]
+ },
+ "1-esdras": {
+  "name": "1 Esdras",
+  "tier": "orth",
+  "aka": [
+   "1 Esdras",
+   "3 Esdras",
+   "Greek Ezra",
+   "Esdras A"
+  ],
+  "topic": "first-esdras"
+ },
+ "3-maccabees": {
+  "name": "3 Maccabees",
+  "tier": "orth",
+  "aka": [
+   "3 Maccabees",
+   "3 Macc"
+  ]
+ },
+ "4-maccabees": {
+  "name": "4 Maccabees",
+  "tier": "orth",
+  "aka": [
+   "4 Maccabees",
+   "4 Macc"
+  ]
+ },
+ "prayer-of-manasseh": {
+  "name": "Prayer of Manasseh",
+  "tier": "orth",
+  "aka": [
+   "Prayer of Manasseh",
+   "Prayer of Manasses"
+  ]
+ },
+ "psalm-151": {
+  "name": "Psalm 151",
+  "tier": "orth",
+  "aka": [
+   "Psalm 151"
+  ]
+ },
+ "4-ezra": {
+  "name": "4 Ezra",
+  "tier": "orth",
+  "aka": [
+   "4 Ezra",
+   "Apocalypse of Ezra"
+  ]
+ },
+ "1-enoch": {
+  "name": "1 Enoch",
+  "tier": "eth",
+  "aka": [
+   "1 Enoch",
+   "Book of Enoch",
+   "Ethiopic Enoch",
+   "Enoch#"
+  ],
+  "topic": "enoch",
+  "note": "Jude 14–15 quotes it (1 Enoch 1:9), and 1 Peter 3:19–20 and 2 Peter 2:4 may echo its story of the Watchers. Fragments of it in Aramaic were found among the Dead Sea Scrolls.",
+  "book": "1En"
+ },
+ "jubilees": {
+  "name": "Jubilees",
+  "tier": "eth",
+  "aka": [
+   "Jubilees",
+   "Book of Jubilees"
+  ]
+ },
+ "2-enoch": {
+  "name": "2 Enoch",
+  "tier": "other",
+  "aka": [
+   "2 Enoch",
+   "Slavonic Enoch"
+  ]
+ },
+ "2-baruch": {
+  "name": "2 Baruch",
+  "tier": "other",
+  "aka": [
+   "2 Baruch",
+   "Syriac Baruch"
+  ]
+ },
+ "testaments-twelve": {
+  "name": "Testaments of the Twelve Patriarchs",
+  "tier": "other",
+  "aka": [
+   "Testaments of the Twelve Patriarchs",
+   "Testaments of the Twelve",
+   "Testament of Reuben",
+   "Testament of Simeon",
+   "Testament of Levi",
+   "Testament of Judah",
+   "Testament of Issachar",
+   "Testament of Zebulun",
+   "Testament of Dan",
+   "Testament of Naphtali",
+   "Testament of Gad",
+   "Testament of Asher",
+   "Testament of Joseph",
+   "Testament of Benjamin"
+  ]
+ },
+ "testament-of-moses": {
+  "name": "Testament of Moses",
+  "tier": "other",
+  "aka": [
+   "Testament of Moses",
+   "Assumption of Moses"
+  ]
+ },
+ "testament-of-job": {
+  "name": "Testament of Job",
+  "tier": "other",
+  "aka": [
+   "Testament of Job"
+  ]
+ },
+ "greek-ending-of-job": {
+  "name": "Greek ending of Job",
+  "tier": "orth",
+  "aka": [
+   "Greek ending of Job",
+   "Greek ending to Job"
+  ],
+  "note": "The Septuagint's addition after Job 42:17 (Rahlfs 42:17a–e): Job will rise again, and he is identified with Jobab, king of Edom (Genesis 36:33). It is part of the Greek Old Testament read by Orthodox churches; it is not in the Hebrew Bible or the Vulgate."
+ },
+ "testament-of-solomon": {
+  "name": "Testament of Solomon",
+  "tier": "other",
+  "aka": [
+   "Testament of Solomon"
+  ]
+ },
+ "psalms-of-solomon": {
+  "name": "Psalms of Solomon",
+  "tier": "other",
+  "aka": [
+   "Psalms of Solomon"
+  ]
+ },
+ "gospel-of-thomas": {
+  "name": "Gospel of Thomas",
+  "tier": "early",
+  "aka": [
+   "Gospel of Thomas"
+  ]
+ },
+ "didache": {
+  "name": "Didache",
+  "tier": "early",
+  "aka": [
+   "Didache"
+  ]
+ },
+ "1-clement": {
+  "name": "1 Clement",
+  "tier": "early",
+  "aka": [
+   "1 Clement"
+  ]
+ },
+ "2-clement": {
+  "name": "2 Clement",
+  "tier": "early",
+  "aka": [
+   "2 Clement",
+   "Second Clement"
+  ]
+ },
+ "polycarp-philippians": {
+  "name": "Polycarp's Letter to the Philippians",
+  "tier": "early",
+  "aka": [
+   "Polycarp's Letter to the Philippians",
+   "Letter of Polycarp"
+  ]
+ },
+ "shepherd-of-hermas": {
+  "name": "Shepherd of Hermas",
+  "tier": "early",
+  "aka": [
+   "Shepherd of Hermas"
+  ]
+ },
+ "epistle-of-barnabas": {
+  "name": "Epistle of Barnabas",
+  "tier": "early",
+  "aka": [
+   "Epistle of Barnabas",
+   "Letter of Barnabas",
+   "Barnabas#"
+  ]
+ },
+ "book-of-jashar": {
+  "name": "Book of Jashar",
+  "tier": "lost",
+  "aka": [
+   "Book of Jashar",
+   "Book of Jasher",
+   "scroll of Jashar"
+  ],
+  "note": "Joshua 10:13 and 2 Samuel 1:18 quote it. The \"Book of Jasher\" printed in 1625 and translated into English in 1840 is a medieval Hebrew retelling, not this book."
+ },
+ "book-of-the-wars": {
+  "name": "Book of the Wars of the LORD",
+  "tier": "lost",
+  "aka": [
+   "Book of the Wars of the LORD",
+   "scroll of the Wars of the LORD"
+  ],
+  "note": "Numbers 21:14 quotes it."
+ },
+ "genesis-apocryphon": {
+  "name": "Genesis Apocryphon",
+  "tier": "other",
+  "aka": [
+   "Genesis Apocryphon",
+   "1Q20",
+   "1QapGen"
+  ],
+  "note": "An Aramaic retelling of Genesis found in Qumran Cave 1, copied in the first century BC. It expands the stories of Lamech, Noah and Abraham and shares traditions with 1 Enoch and Jubilees."
+ },
+ "book-of-giants": {
+  "name": "Book of Giants",
+  "tier": "other",
+  "aka": [
+   "Book of Giants"
+  ],
+  "note": "An Aramaic book about the giants born to the Watchers, known from Qumran fragments and later reused by the Manichaeans. It belongs to the Enoch tradition."
+ },
+ "damascus-document": {
+  "name": "Damascus Document",
+  "tier": "other",
+  "aka": [
+   "Damascus Document",
+   "Damascus Covenant"
+  ],
+  "note": "A rule book of a Jewish sect related to the Qumran community, found in the Cairo Geniza in 1896 and later in Qumran fragments. It cites Jubilees as an authority."
+ },
+ "3-enoch": {
+  "name": "3 Enoch",
+  "tier": "other",
+  "aka": [
+   "3 Enoch",
+   "Hebrew Enoch",
+   "Sefer Hekhalot"
+  ],
+  "note": "A Hebrew Jewish mystical work from late antiquity or the early Middle Ages, in which Enoch becomes the angel Metatron. It is much later than 1 Enoch."
+ },
+ "gospel-of-peter": {
+  "name": "Gospel of Peter",
+  "tier": "early",
+  "aka": [
+   "Gospel of Peter"
+  ],
+  "note": "A second-century account of the passion and resurrection, known from a fragment found at Akhmim in Egypt in 1886. Bishop Serapion of Antioch rejected it around AD 200."
+ },
+ "apocalypse-of-peter": {
+  "name": "Apocalypse of Peter",
+  "tier": "early",
+  "aka": [
+   "Apocalypse of Peter",
+   "Revelation of Peter"
+  ],
+  "note": "A second-century vision of heaven and hell. The Muratorian list (late second century) accepts it but says some would not have it read in church. Its fullest text survives in Ge’ez (classical Ethiopic)."
+ },
+ "melchizedek-scroll": {
+  "name": "11QMelchizedek",
+  "tier": "other",
+  "aka": [
+   "11QMelchizedek",
+   "11Q13",
+   "Melchizedek Scroll"
+  ],
+  "note": "A fragmentary Hebrew text from Qumran Cave 11, copied in the first century BC. It reads Psalm 82:1–2, Isaiah 61 and Leviticus 25 as prophecies of Melchizedek, a heavenly figure who frees the captives and judges Belial in the last jubilee."
+ },
+ "ahiqar": {
+  "name": "Story of Ahiqar",
+  "tier": "other",
+  "aka": [
+   "Story of Ahiqar",
+   "Words of Ahiqar",
+   "Ahikar#"
+  ]
+ },
+ "apocryphal-psalms-11q11": {
+  "name": "11QApocryphal Psalms",
+  "tier": "other",
+  "aka": [
+   "11QApocryphal Psalms",
+   "11Q11",
+   "11QapocrPs",
+   "11QPsApa"
+  ],
+  "note": "A Hebrew scroll from Qumran Cave 11 (copied about 50 BC to AD 50) of songs for driving out demons, some credited to David and Solomon. It ends with a form of Psalm 91."
+ }
+}

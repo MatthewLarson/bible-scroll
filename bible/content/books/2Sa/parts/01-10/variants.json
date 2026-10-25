@@ -1,0 +1,1004 @@
+[
+ {
+  "v": "1:12",
+  "a": "over the LORD's people",
+  "t": "The LORD's people or the people of Judah?",
+  "p": "The Hebrew mourns \"the LORD's people\"; the Greek has \"the people of Judah.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "עַל־עַם יְהוָה",
+    "en": "over the people of the LORD",
+    "plain": "over the LORD's people"
+   },
+   {
+    "w": "Septuagint (most manuscripts)",
+    "orig": "ἐπὶ τὸν λαὸν Ιουδα",
+    "en": "over the people of Judah",
+    "plain": "over the people of Judah"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew the two words differ by a single letter: <i>YHWH</i> (יהוה) and <i>Yehudah</i> (יהודה). A scribe could slip from one to the other in either direction, and that is the usual explanation (McCarter). The Plain keeps the Masoretic Text because the mourning is for Israel's army at Gilboa, where Judah's men under David were not fighting, and \"the LORD's people ... the house of Israel\" makes a natural pair.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "He told them to teach it to Judah's people, the song called \"The Bow.\"",
+  "t": "\"The Bow\" in the Hebrew, missing in the Greek",
+  "p": "The Hebrew has the word \"bow\" after \"to teach the sons of Judah\"; the main Greek text does not.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "לְלַמֵּד בְּנֵי־יְהוּדָה קָשֶׁת",
+    "en": "to teach the sons of Judah bow",
+    "plain": "He told them to teach it to Judah's people, the song called \"The Bow.\""
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus and most manuscripts)",
+    "orig": "τοῦ διδάξαι τοὺς υἱοὺς Ιουδα",
+    "en": "to teach the sons of Judah",
+    "plain": "He told them to teach it to Judah's people."
+   }
+  ],
+  "follow": 0,
+  "why": "The single word <i>qashet</i> sits awkwardly in the Hebrew sentence, and its absence from the Greek, which in this part of Samuel is a good witness to an older Hebrew text, suggests it may have come in later, perhaps as a catchword from 1:22. The Latin (<i>arcum</i>) and the Targum have it. Because the word has strong Hebrew support and makes sense as the song's title, the Plain keeps it and shows the shorter text here.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "1:19",
+  "a": "Your splendor, Israel, lies struck down on your heights.",
+  "t": "\"Your splendor\" or \"Set up a pillar\"?",
+  "p": "The Hebrew opens with \"the splendor\" (or \"the gazelle\"); the Greek opens with a command, \"Set up a pillar.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Latin Vulgate (Incliti Israhel); KJV",
+    "orig": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל",
+    "en": "the splendor, Israel, on your heights slain",
+    "plain": "Your splendor, Israel, lies struck down on your heights."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "Στήλωσον, Ισραηλ ...",
+    "en": "set up a pillar, Israel, for the dead, the slain on your heights",
+    "plain": "Set up a monument, Israel, for those struck down on your heights."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the opening letters as a form of the verb <i>natsav</i>, \"to set up,\" rather than the noun <i>tsevi</i>, \"splendor\" or \"gazelle,\" and so turned the line into a call to raise a memorial stone. The Hebrew is clear and fits the rest of the song, which speaks to Israel and its heights, so the Plain follows it. The Greek is an early reading of the same consonants, not evidence of a better text.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "the Ashurites",
+  "t": "Ashurites, Asherites or Geshurites?",
+  "p": "The Hebrew \"Ashurites\" is unknown. The Targum reads Asher; the Syriac and Latin read Geshur.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "הָאֲשׁוּרִי",
+    "en": "the Ashurite(s)",
+    "plain": "the Ashurites"
+   },
+   {
+    "w": "Targum Jonathan",
+    "orig": "בֵּית אָשֵׁר",
+    "en": "the house of Asher",
+    "plain": "the Asherites"
+   },
+   {
+    "w": "Syriac Peshitta; Latin Vulgate (Gessuri)",
+    "orig": "גשורי (as read)",
+    "en": "the Geshurites",
+    "plain": "the Geshurites"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "Θασιρι",
+    "en": "Thasiri",
+    "plain": "Thasiri"
+   }
+  ],
+  "follow": 0,
+  "why": "No people called Ashurites is known in Israel (they are not the Assyrians). Geshur had its own king, Talmai, David's father-in-law (3:3), so it is unlikely to have been Ish-bosheth's. The tribe of Asher, in the north next to Jezreel, fits the list best, and the Hebrew may simply be an old spelling of \"Asherite.\" The Plain keeps the Hebrew form, but many scholars and some translations read \"Asher.\"",
+  "s": [
+   "mccarter-2sam",
+   "targum-jonathan-prophets",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "Chileab",
+  "t": "Chileab, Daluiah or Daniel?",
+  "p": "David's second son has three names in the witnesses.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִלְאָב",
+    "en": "Chileab",
+    "plain": "Chileab"
+   },
+   {
+    "w": "Septuagint; 4QSam-a as reported (Ulrich, McCarter)",
+    "orig": "Δαλουια; דלויה",
+    "en": "Daluiah",
+    "plain": "Daluiah"
+   },
+   {
+    "w": "1 Chronicles 3:1",
+    "orig": "דָּנִיֵּאל",
+    "en": "Daniel",
+    "plain": "Daniel"
+   }
+  ],
+  "follow": 0,
+  "why": "Chileab (<i>kil'av</i>) is an odd name and may have arisen when a scribe's eye picked up the first letters of the next word, \"Abigail\" (<i>la'avigail</i>). The Greek Daluiah, apparently shared by the Qumran scroll, may be the older name, and Chronicles gives yet another. With three different names and no way to choose with confidence, the Plain keeps the Hebrew.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "mccarter-2sam",
+   "ulrich-qumran-samuel",
+   "djd17-samuel"
+  ]
+ },
+ {
+  "v": "3:7",
+  "a": "Ish-bosheth said to Abner",
+  "t": "Who spoke, and did Abner take her?",
+  "p": "The Hebrew does not name the speaker. The Greek supplies a name, and some witnesses add that Abner took Rizpah.",
+  "readings": [
+   {
+    "w": "Septuagint (Lucianic and other manuscripts); compare 3:8",
+    "orig": "καὶ εἶπεν Ιεβοσθε υἱὸς Σαουλ πρὸς Αβεννηρ",
+    "en": "and Iebosthe son of Saul said to Abner",
+    "plain": "Ish-bosheth said to Abner"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיֹּאמֶר אֶל־אַבְנֵר",
+    "en": "and he said to Abner",
+    "plain": "He said to Abner"
+   },
+   {
+    "w": "Codex Vaticanus",
+    "orig": "καὶ εἶπεν Μεμφιβοσθε υἱὸς Σαουλ",
+    "en": "and Memphibosthe son of Saul said",
+    "plain": "Mephibosheth said to Abner"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text reads only \"and he said to Abner,\" with no subject. The speaker must be Saul's son the king, who is named in 3:8, so the Plain supplies \"Ish-bosheth\" as the Greek does. Vaticanus calls him \"Memphibosthe,\" the same confusion of Saul's son with Jonathan's son that appears at 4:1 (see that variant). The Lucianic Greek, and 4QSam-a as reported (Ulrich; McCarter), also add \"and Abner took her\" after Rizpah's name. That plus may be original, lost when a scribe's eye skipped, but since it is not in the Masoretic Text or Vaticanus the Plain leaves it out and lets Ish-bosheth's question carry the charge.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx",
+   "ulrich-qumran-samuel"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "I will rescue",
+  "t": "\"I will rescue\" or \"to rescue\"?",
+  "p": "The Hebrew vowels give \"to rescue\" or \"he rescued\"; many manuscripts and the ancient versions read \"I will rescue.\"",
+  "readings": [
+   {
+    "w": "Many Hebrew manuscripts; Septuagint, Syriac, Targum, Vulgate; most translations",
+    "orig": "אוֹשִׁיעַ",
+    "en": "I will save",
+    "plain": "I will rescue"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הוֹשִׁיעַ",
+    "en": "to save, or he saved",
+    "plain": "he has rescued"
+   }
+  ],
+  "follow": 0,
+  "why": "God is speaking (\"my servant,\" \"my people\"), so the first person suits the sentence. The Masoretic form differs by one letter (<i>he</i> for <i>aleph</i>) and makes awkward grammar. Most scholars and translations read \"I will save.\"",
+  "s": [
+   "driver-samuel",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "Saul's son heard",
+  "t": "\"Saul's son\" or \"Mephibosheth\"?",
+  "p": "The Hebrew does not name Saul's son here. The Greek calls him Mephibosheth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיִּשְׁמַע בֶּן־שָׁאוּל",
+    "en": "and the son of Saul heard",
+    "plain": "Saul's son heard"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ ἤκουσεν Μεμφιβοσθε υἱὸς Σαουλ",
+    "en": "and Mephibosheth son of Saul heard",
+    "plain": "Mephibosheth son of Saul heard"
+   }
+  ],
+  "follow": 0,
+  "why": "The context shows the man is Ish-bosheth (4:5–8). The Greek name probably came in from Jonathan's son Mephibosheth in 4:4, or from confusion between two \"-bosheth\" names; some scholars think Ish-bosheth's original name (Ishbaal) stood here. The Hebrew may have dropped the name, but no witness preserves Ishbaal, so the Plain keeps the Hebrew.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "The woman who kept the door of the house had been cleaning wheat, but she grew drowsy and fell asleep. So Rechab and his brother Baanah slipped in.",
+  "t": "How did the killers get in?",
+  "p": "The Hebrew has the killers fetch wheat and strike Ish-bosheth; the Greek has a sleeping doorkeeper.",
+  "readings": [
+   {
+    "w": "Septuagint",
+    "orig": "καὶ ἰδοὺ ἡ θυρωρὸς τοῦ οἴκου ἐκάθαιρεν πυροὺς καὶ ἐνύσταξεν καὶ ἐκάθευδεν, καὶ Ρεκχα καὶ Βαανα οἱ ἀδελφοὶ διέλαθον",
+    "en": "and look, the doorkeeper of the house was cleaning wheat, and she nodded and slept, and Rechab and Baanah the brothers slipped through",
+    "plain": "The woman who kept the door of the house had been cleaning wheat, but she grew drowsy and fell asleep. So Rechab and his brother Baanah slipped in."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV and most English translations",
+    "orig": "וְהֵנָּה בָּאוּ עַד־תּוֹךְ הַבַּיִת לֹקְחֵי חִטִּים וַיַּכֻּהוּ אֶל־הַחֹמֶשׁ וְרֵכָב וּבַעֲנָה אָחִיו נִמְלָטוּ",
+    "en": "and here they came into the middle of the house, taking wheat, and struck him in the belly, and Rechab and Baanah his brother escaped",
+    "plain": "They came into the middle of the house as if to fetch wheat, and they struck him in the belly. Then Rechab and his brother Baanah slipped away."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verse tells the murder and the escape before 4:7 tells the murder again, and it begins with a feminine \"they\" (<i>hennah</i>) that has no subject. The Greek gives a smooth account of how the men got in. The two texts share key letters: Hebrew <i>hinneh</i> \"look\" and <i>hennah</i>, \"wheat\" in both, and \"slipped\" (<i>nimlatu</i>). Many scholars (Wellhausen, Driver, McCarter) judge that the Greek preserves the older text and that the Hebrew was damaged and then patched from 4:7. The Plain follows the Greek here; the King James Version and most English Bibles follow the Hebrew.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "David was thirty when he took the throne, and his reign lasted forty years.",
+  "t": "A verse missing from the Dead Sea scroll",
+  "p": "4QSam-a leaves out 5:4–5, the summary of David's reign. Goes with 5:5.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint",
+    "orig": "בֶּן־שְׁלֹשִׁים שָׁנָה דָּוִד בְּמָלְכוֹ אַרְבָּעִים שָׁנָה מָלָךְ",
+    "en": "David was thirty years old when he became king; he reigned forty years",
+    "plain": "David was thirty when he took the throne, and his reign lasted forty years."
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a (about 50–25 BC)",
+    "orig": "(verses 4–5 absent)",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll goes straight from the anointing (5:3) to the march on Jerusalem (5:6), and so does the parallel in 1 Chronicles 11:3–4, which gives these numbers elsewhere (1 Chronicles 3:4; 1 Chronicles 29:27). Many scholars think 5:4–5 is a summary added later, in the style of the formulas in Kings (1 Kings 14:21). But the numbers agree with 2:11 and with Kings and Chronicles, and the Greek has the verses. The Plain keeps them and notes that the oldest manuscript lacks them.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "djd17-samuel",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "In Hebron he ruled Judah for seven years and six months. In Jerusalem he ruled all Israel and Judah for thirty-three years.",
+  "t": "A verse missing from the Dead Sea scroll",
+  "p": "4QSam-a leaves out 5:4–5. Goes with 5:4.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint",
+    "orig": "בְּחֶבְרוֹן מָלַךְ עַל־יְהוּדָה שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים",
+    "en": "in Hebron he reigned over Judah seven years and six months",
+    "plain": "In Hebron he ruled Judah for seven years and six months. In Jerusalem he ruled all Israel and Judah for thirty-three years."
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a (about 50–25 BC)",
+    "orig": "(verses 4–5 absent)",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See 5:4. The figures match 2:11, 1 Kings 2:11 and 1 Chronicles 29:27, so nothing in them is doubtful; the question is only whether this summary stood here in the oldest form of Samuel.",
+  "s": [
+   "ulrich-qumran-samuel",
+   "djd17-samuel"
+  ]
+ },
+ {
+  "v": "5:8",
+  "a": "the ones David's soul hates",
+  "t": "Hated by David, or hating David?",
+  "p": "The written Hebrew says the lame and blind \"hate David's soul\"; the read form says they are \"hated by David's soul.\"",
+  "readings": [
+   {
+    "w": "Masoretic read form (Qere); most translations",
+    "orig": "שְׂנֻאֵי נֶפֶשׁ דָּוִד",
+    "en": "hated by David's soul",
+    "plain": "the ones David's soul hates"
+   },
+   {
+    "w": "Masoretic written form (Ketiv)",
+    "orig": "שָׂנְאוּ נֶפֶשׁ דָּוִד",
+    "en": "who hate David's soul",
+    "plain": "the ones who hate David's soul"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form makes the \"lame and blind\" David's enemies, which fits the Jebusites' taunt (5:6): the defenders are \"the lame and the blind,\" and they hate David. The read form makes David hate them. Both are possible. The Plain follows the reading tradition, as most translations do, and the note explains the saying.",
+  "s": [
+   "driver-samuel",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "5:25",
+  "a": "from Gibeon",
+  "t": "Geba or Gibeon?",
+  "p": "The Hebrew says Geba; the Greek and Chronicles say Gibeon.",
+  "readings": [
+   {
+    "w": "Septuagint; 1 Chronicles 14:16",
+    "orig": "ἀπὸ Γαβαων; מִגִּבְעוֹן",
+    "en": "from Gibeon",
+    "plain": "from Gibeon"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "מִגֶּבַע",
+    "en": "from Geba",
+    "plain": "from Geba"
+   }
+  ],
+  "follow": 0,
+  "why": "Geba lay northeast of Jerusalem, away from the Philistines' line of retreat. Gibeon lay northwest, on the road down through Beth-horon to Gezer and the coast, the route of Joshua's pursuit (Joshua 10:10). Isaiah remembers the LORD rising up \"as in the valley of Gibeon\" right beside \"Mount Perazim\" (Isaiah 28:21). The two names are easily confused in Hebrew. The Plain follows the Greek and Chronicles.",
+  "s": [
+   "mccarter-2sam",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "thirty thousand",
+  "t": "Thirty or seventy thousand?",
+  "p": "The Hebrew has thirty thousand picked men; the Greek has seventy thousand.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "שְׁלֹשִׁים אָלֶף",
+    "en": "thirty thousand",
+    "plain": "thirty thousand"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ὡς ἑβδομήκοντα χιλιάδας",
+    "en": "about seventy thousand",
+    "plain": "seventy thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "Large numbers were easily changed in copying. The Greek number may come from the seventy men of Beth-shemesh struck down for looking into the ark (1 Samuel 6:19), a story that links closely to this one. No other witness supports it, so the Plain follows the Masoretic Text.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "to Baalah, that is, Kiriath-jearim, which belongs to Judah",
+  "t": "From Baale-judah, or to Baalah?",
+  "p": "The Hebrew has David set out \"from Baale-judah.\" The Dead Sea scroll and Chronicles say he went to Baalah, that is, Kiriath-jearim.",
+  "readings": [
+   {
+    "w": "Dead Sea scroll 4QSam-a; 1 Chronicles 13:6",
+    "orig": "בעלה היא קרית יערים אשר ליהודה",
+    "en": "to Baalah, that is, Kiriath-jearim, which belongs to Judah",
+    "plain": "to Baalah, that is, Kiriath-jearim, which belongs to Judah"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "מִבַּעֲלֵי יְהוּדָה",
+    "en": "from the lords of Judah (Baale-judah)",
+    "plain": "from Baale-judah"
+   }
+  ],
+  "follow": 0,
+  "why": "David went to fetch the ark, so he must have gone to the place it was kept, Kiriath-jearim (1 Samuel 7:1–2), also called Baalah (Joshua 15:9). The Masoretic \"from Baale-judah\" makes him leave from there, which does not fit \"to bring up from there.\" 4QSam-a reads as Chronicles does, so the Chronicler was copying a Samuel text like the scroll. The Plain follows the scroll.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "djd17-samuel",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "They went with God's ark",
+  "t": "A repeated line",
+  "p": "The Hebrew repeats a line from 6:3. The Dead Sea scroll does not.",
+  "readings": [
+   {
+    "w": "Dead Sea scroll 4QSam-a; compare 1 Chronicles 13:7",
+    "orig": "(without the repeated clause)",
+    "en": "with the ark of God",
+    "plain": "They went with God's ark"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וַיִּשָּׂאֻהוּ מִבֵּית אֲבִינָדָב אֲשֶׁר בַּגִּבְעָה עִם אֲרוֹן הָאֱלֹהִים",
+    "en": "and they carried it from the house of Abinadab, which was on the hill, with the ark of God",
+    "plain": "They took it away from the house of Abinadab up on the hill, with God's ark"
+   }
+  ],
+  "follow": 0,
+  "why": "The words \"from the house of Abinadab, which was on the hill\" appear at the end of 6:3 and again at the start of 6:4, with \"the new cart\" just before both. A scribe's eye jumped back and copied the line twice. The scroll lacks the repetition, as does the Chronicles account. The Plain follows the shorter text and supplies \"They went\" to make a sentence of \"with God's ark.\"",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "6:5",
+  "a": "with all their strength and with songs",
+  "t": "\"With all their might\" or \"with cypress wood\"?",
+  "p": "The Hebrew has \"with all cypress woods\"; the scroll, the Greek and Chronicles have \"with all strength and with songs.\"",
+  "readings": [
+   {
+    "w": "Dead Sea scroll 4QSam-a; Septuagint; 1 Chronicles 13:8",
+    "orig": "בכל עז ובשירים; ἐν ἰσχύι καὶ ἐν ᾠδαῖς",
+    "en": "with all strength and with songs",
+    "plain": "with all their strength and with songs"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV (\"all manner of instruments made of fir wood\")",
+    "orig": "בְּכֹל עֲצֵי בְרוֹשִׁים",
+    "en": "with all woods of cypress",
+    "plain": "with every kind of instrument made of cypress wood"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings share most of their letters: <i>bkl 'z wbshyrym</i>, \"with all strength and with songs,\" and <i>bkl 'tsy brwshym</i>, \"with all cypress woods.\" A copyist misread the line. The Masoretic phrase makes poor sense (\"all cypress woods\" is not an instrument), while the scroll, the Greek and Chronicles agree, and 6:14 says David danced \"with all his strength.\" Almost all modern translations follow the scroll's reading.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "djd17-samuel",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "Nacon's",
+  "t": "Nacon, Nodan or Chidon?",
+  "p": "The threshing floor has a different name in each witness.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "נָכוֹן",
+    "en": "Nacon",
+    "plain": "Nacon's"
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a",
+    "orig": "נודן",
+    "en": "Nodan",
+    "plain": "Nodan's"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "Ναχωρ",
+    "en": "Nachor",
+    "plain": "Nachor's"
+   },
+   {
+    "w": "1 Chronicles 13:9",
+    "orig": "כִּידֹן",
+    "en": "Chidon",
+    "plain": "Chidon's"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Nakhon</i> can also mean \"firm, prepared,\" and some take it as a description, \"the threshing floor that was ready.\" No one knows where it was. The letters <i>k</i>, <i>d</i> and <i>n</i> are easily confused in older scripts. With no way to settle the name, the Plain keeps the Hebrew.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "mccarter-2sam",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "reached his hand out",
+  "t": "\"Reached out\" or \"reached out his hand\"?",
+  "p": "The Hebrew lacks \"his hand\"; the scroll, the Greek and Chronicles have it.",
+  "readings": [
+   {
+    "w": "Dead Sea scroll 4QSam-a; Septuagint; 1 Chronicles 13:9",
+    "orig": "וישלח ... ידו",
+    "en": "stretched out his hand",
+    "plain": "reached his hand out"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיִּשְׁלַח עֻזָּא",
+    "en": "Uzzah stretched out",
+    "plain": "reached out"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb normally takes \"hand\" as its object (6:7 in the scroll's reading; 1 Samuel 24:6). The word was likely lost in the Hebrew. The meaning is the same either way.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "dss-english-bible",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "6:7",
+  "a": "struck him down there for his offense.",
+  "t": "\"For the offense,\" no reason, or \"because he reached out his hand\"?",
+  "p": "The Hebrew gives an obscure reason, \"for the <i>shal</i>\"; the Greek gives none; Chronicles says it was because he reached out his hand.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum; KJV (\"for his error\")",
+    "orig": "עַל־הַשַּׁל",
+    "en": "for the error, rashness (?)",
+    "plain": "struck him down there for his offense."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "(no reason given)",
+    "en": "God struck him there",
+    "plain": "struck him down there."
+   },
+   {
+    "w": "1 Chronicles 13:10; 4QSam-a as restored",
+    "orig": "עַל אֲשֶׁר־שָׁלַח יָדוֹ עַל־הָאָרוֹן",
+    "en": "because he stretched out his hand to the ark",
+    "plain": "struck him down there because he had reached out his hand to the ark."
+   }
+  ],
+  "follow": 0,
+  "why": "Only two readings are actually attested for Samuel. The Masoretic Text has <i>al-hashshal</i>, a word found nowhere else; the Targum and later readers take it as \"error\" or \"rashness.\" The Greek gives no reason at all and adds \"before God\" after \"by the ark,\" as Chronicles does. 4QSam-a is broken here: it does not show the Masoretic word, and editors restore the longer clause from Chronicles because it fits the gap in the line, but those words are restored, not read. The Chronicles clause may be the Chronicler's explanation of a hard text. Some scholars think <i>shal</i> is the remains of <i>shalach</i>, \"he stretched out,\" but that cannot be proved. The Plain keeps the Masoretic Text with a general rendering, \"for his offense,\" and shows the others here.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "dss-english-bible",
+   "targum-jonathan-prophets",
+   "rahlfs-lxx",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "an ox and a fat calf",
+  "t": "An ox and a calf, a calf and lambs, or seven bulls and seven rams?",
+  "p": "The three ancient witnesses name three different offerings.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "שׁוֹר וּמְרִיא",
+    "en": "an ox and a fatling",
+    "plain": "an ox and a fat calf"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "θῦμα μόσχος καὶ ἄρνες",
+    "en": "as a sacrifice, a calf and lambs",
+    "plain": "a calf and lambs"
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a, as reported (Ulrich; DJD 17); compare 1 Chronicles 15:26",
+    "orig": "שבעה פרים ושבעה אילים",
+    "en": "seven bulls and seven rams",
+    "plain": "seven bulls and seven rams"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek does not agree with the Masoretic Text here. Its whole verse reads differently: \"seven dancing groups\" go with the ark in place of the \"six steps,\" and the sacrifice is \"a calf and lambs.\" The Greek translator seems to have read a Hebrew text close to the scroll's \"seven,\" or to have read the same letters another way. The scroll, as reported, has seven bulls and seven rams, as Chronicles does, but in Chronicles that offering is made by the Levites \"because God helped them\" (1 Chronicles 15:26), a different moment. It is hard to tell whether the scroll keeps an older Samuel text or has been brought into line with Chronicles. The Plain keeps the Masoretic Text, which is the shortest reading and the one that fits the \"six steps\" of this verse, and shows the others here.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "dss-english-bible",
+   "japhet-chronicles",
+   "rahlfs-lxx",
+   "mccarter-2sam"
+  ]
+ },
+ {
+  "v": "6:21",
+  "a": "I did it in front of the LORD.",
+  "t": "A shorter or a longer answer to Michal",
+  "p": "The Hebrew is clipped: \"Before the LORD, who chose me...\" The Greek has \"Before the LORD I will dance. Blessed be the LORD, who chose me.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לִפְנֵי יְהוָה אֲשֶׁר בָּחַר־בִּי",
+    "en": "before the LORD, who chose me",
+    "plain": "I did it in front of the LORD."
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἐνώπιον κυρίου ὀρχήσομαι· εὐλογητὸς κύριος ὃς ἐξελέξατό με",
+    "en": "before the Lord I will dance; blessed be the Lord, who chose me",
+    "plain": "In front of the LORD I will dance. Blessed be the LORD!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew sentence lacks a main verb, and the Greek may preserve words lost when a scribe's eye skipped from one \"LORD\" to the next. But the Greek could also be filling the gap. The Plain follows the Hebrew and supplies \"I did it,\" which the sense requires.",
+  "s": [
+   "mccarter-2sam",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:22",
+  "a": "I will be small in my own eyes.",
+  "t": "My eyes or your eyes?",
+  "p": "The Hebrew says \"in my eyes\"; the Greek says \"in your eyes.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "בְּעֵינָי",
+    "en": "in my eyes",
+    "plain": "I will be small in my own eyes."
+   },
+   {
+    "w": "Septuagint; followed by many modern translations",
+    "orig": "ἐν ὀφθαλμοῖς σου",
+    "en": "in your eyes",
+    "plain": "I will be small in your eyes."
+   }
+  ],
+  "follow": 0,
+  "why": "\"In your eyes\" makes a neat contrast: Michal will despise him, but the slave girls will honor him. \"In my own eyes\" makes the verse about David's humility before God, and it is the harder reading, which copyists would be more likely to smooth than to create. The Plain keeps the Hebrew.",
+  "s": [
+   "mccarter-2sam",
+   "anderson-2sam"
+  ]
+ },
+ {
+  "v": "7:7",
+  "a": "any of Israel's tribes",
+  "t": "Tribes or judges?",
+  "p": "Samuel has \"tribes\" (shivtei); Chronicles has \"judges\" (shoftei).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שִׁבְטֵי יִשְׂרָאֵל",
+    "en": "the tribes of Israel",
+    "plain": "any of Israel's tribes"
+   },
+   {
+    "w": "1 Chronicles 17:6; followed by many modern translations",
+    "orig": "שֹׁפְטֵי יִשְׂרָאֵל",
+    "en": "the judges of Israel",
+    "plain": "any of Israel's judges"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ by one letter. \"Judges\" fits the phrase \"whom I commanded to shepherd my people\" and 7:11, \"when I put judges in charge.\" But <i>shevet</i> also means a ruler's staff, and Psalm 78:67–68 speaks of God choosing a tribe, so \"tribes\" may mean the tribes that led Israel in turn, or their rulers. Since the Hebrew of Samuel makes sense, the Plain keeps it.",
+  "s": [
+   "mccarter-2sam",
+   "anderson-2sam",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "7:16",
+  "a": "in front of you",
+  "t": "Before you or before me?",
+  "p": "The Hebrew says David's house will be secure \"before you\"; the Greek and a few Hebrew manuscripts have \"before me.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְפָנֶיךָ",
+    "en": "before you",
+    "plain": "in front of you"
+   },
+   {
+    "w": "Septuagint; some Hebrew manuscripts; followed by many modern translations",
+    "orig": "ἐνώπιον ἐμοῦ",
+    "en": "before me",
+    "plain": "in front of me"
+   }
+  ],
+  "follow": 0,
+  "why": "God is speaking, so \"before me\" (in God's sight) is smooth, and it matches 7:26 and 7:29. \"Before you\" is harder, since David will be dead, but it can mean \"in your view, as you see it\" or \"in your line.\" Copyists tend to smooth, so the harder Hebrew reading has a claim to be original. The meaning of the promise is the same.",
+  "s": [
+   "mccarter-2sam",
+   "anderson-2sam"
+  ]
+ },
+ {
+  "v": "7:23",
+  "a": "from Egypt, from nations and their gods",
+  "t": "\"Nations and their gods\"",
+  "p": "The Hebrew is hard. The Greek reads \"nations and tents\"; Chronicles reads \"driving out nations.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מִמִּצְרַיִם גּוֹיִם וֵאלֹהָיו",
+    "en": "from Egypt, nations and its gods",
+    "plain": "from Egypt, from nations and their gods"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τοῦ ἐκβαλεῖν σε ... ἔθνη καὶ σκηνώματα",
+    "en": "so that you drove out nations and tents",
+    "plain": "from Egypt, driving out nations and their tents"
+   },
+   {
+    "w": "1 Chronicles 17:21",
+    "orig": "לְגָרֵשׁ ... גּוֹיִם",
+    "en": "by driving out nations",
+    "plain": "from Egypt, by driving out nations"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic verse is long and broken, with \"for you\" (plural) and \"its gods\" (singular \"its\"). The Greek and Chronicles both have a verb \"drive out\" that the Hebrew lacks, so a word may have dropped out. The Plain follows the Hebrew words but smooths the grammar (\"for them,\" \"their gods\"); \"redeemed from nations and their gods\" recalls God's judgment on Egypt's gods (Exodus 12:12).",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "8:3",
+  "a": "at the Euphrates River",
+  "t": "\"The River\" or \"the River Euphrates\"?",
+  "p": "The written Hebrew has only \"the River\"; the reading tradition adds \"Euphrates.\"",
+  "readings": [
+   {
+    "w": "Masoretic read form (Qere); many manuscripts; ancient versions; 1 Chronicles 18:3",
+    "orig": "בִּנְהַר־פְּרָת",
+    "en": "at the river Euphrates",
+    "plain": "at the Euphrates River"
+   },
+   {
+    "w": "Masoretic written form (Ketiv)",
+    "orig": "בִּנְהַר",
+    "en": "at the River",
+    "plain": "at the River"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The River\" alone already means the Euphrates in biblical Hebrew (10:16), so the sense does not change. The read form, the versions and Chronicles all name it.",
+  "s": [
+   "driver-samuel"
+  ]
+ },
+ {
+  "v": "8:4",
+  "a": "a thousand chariots, seven thousand horsemen",
+  "t": "How many chariots and horsemen?",
+  "p": "The Hebrew has 1,700 horsemen and no chariots. The Greek, Chronicles and the Dead Sea scroll have chariots.",
+  "readings": [
+   {
+    "w": "Septuagint; 1 Chronicles 18:4; Dead Sea scroll 4QSam-a (preserves \"a thousand chariots\")",
+    "orig": "χίλια ἅρματα καὶ ἑπτὰ χιλιάδας ἱππέων; אֶלֶף רֶכֶב וְשִׁבְעַת אֲלָפִים פָּרָשִׁים",
+    "en": "a thousand chariots and seven thousand horsemen",
+    "plain": "a thousand chariots, seven thousand horsemen"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "אֶלֶף וּשְׁבַע־מֵאוֹת פָּרָשִׁים",
+    "en": "one thousand seven hundred horsemen",
+    "plain": "one thousand seven hundred horsemen"
+   }
+  ],
+  "follow": 0,
+  "why": "The verse goes on to say that David hamstrung the chariot horses and kept enough for a hundred chariots, so chariots must have been mentioned. The Masoretic Text seems to have lost the word \"chariots\" and then read the numbers as one figure. The scroll's surviving words, \"a thousand chariots,\" agree with the Greek and Chronicles. Most modern translations follow this reading.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "mccarter-2sam",
+   "ulrich-qumran-samuel",
+   "dss-english-bible",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "brought to Jerusalem.",
+  "t": "What happened to the gold shields",
+  "p": "The Greek and the Dead Sea scroll add that Pharaoh Shishak later carried them off.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וַיְבִאֵם יְרוּשָׁלָםִ",
+    "en": "and brought them to Jerusalem",
+    "plain": "brought to Jerusalem."
+   },
+   {
+    "w": "Dead Sea scroll 4QSam-a; Septuagint",
+    "orig": "καὶ ἔλαβεν αὐτὰ Σουσακιμ βασιλεὺς Αἰγύπτου ἐν τῷ ἀναβῆναι αὐτὸν εἰς Ιερουσαλημ ἐν ἡμέραις Ροβοαμ υἱοῦ Σαλωμων",
+    "en": "and Shishak king of Egypt took them when he went up to Jerusalem in the days of Rehoboam son of Solomon",
+    "plain": "brought to Jerusalem. Later Shishak king of Egypt took them, when he came up against Jerusalem in the days of Rehoboam son of Solomon."
+   }
+  ],
+  "follow": 0,
+  "why": "The extra sentence looks ahead to 1 Kings 14:25–26, where Shishak carries off Solomon's gold shields. It reads like an explanatory note by a scribe who wanted to say what became of David's trophies. That both the Greek and the scroll have it shows how old it is, but not that the author wrote it. The Plain follows the shorter Hebrew.",
+  "b": "<p>4QSam-a was checked through the published reports of Ulrich and McCarter and the online Dead Sea Scrolls English Bible, which marks where the scroll differs from the Masoretic Text; DJD 17 itself was not consulted.</p>",
+  "s": [
+   "ulrich-qumran-samuel",
+   "mccarter-2sam",
+   "dss-english-bible"
+  ]
+ },
+ {
+  "v": "8:8",
+  "a": "towns that belonged to Hadadezer.",
+  "t": "Bronze for the temple",
+  "p": "The Greek and Chronicles add that Solomon later used the bronze for the temple.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "עָרֵי הֲדַדְעָזֶר",
+    "en": "cities of Hadadezer",
+    "plain": "towns that belonged to Hadadezer."
+   },
+   {
+    "w": "Septuagint; compare 1 Chronicles 18:8",
+    "orig": "ἐν αὐτῷ ἐποίησεν Σαλωμων τὴν θάλασσαν τὴν χαλκῆν καὶ τοὺς στύλους καὶ τοὺς λουτῆρας καὶ πάντα τὰ σκεύη",
+    "en": "with it Solomon made the bronze Sea and the pillars and the basins and all the vessels",
+    "plain": "towns that belonged to Hadadezer. With it Solomon later made the bronze Sea, the pillars, the basins and all the utensils."
+   }
+  ],
+  "follow": 0,
+  "why": "Like the note on the shields in 8:7, this looks like an added explanation pointing forward to 1 Kings 7:23–47. Chronicles has it too, so it was in the Samuel text the Chronicler used. The Plain follows the shorter Hebrew. The town names also differ: Chronicles has Tibhath and Cun (1 Chronicles 18:8).",
+  "s": [
+   "mccarter-2sam",
+   "japhet-chronicles",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "8:12",
+  "a": "from Edom and Moab",
+  "t": "Edom or Aram?",
+  "p": "The Hebrew has \"Aram\"; the Greek, the Syriac and Chronicles have \"Edom.\"",
+  "readings": [
+   {
+    "w": "Septuagint; Syriac; some Hebrew manuscripts; 1 Chronicles 18:11",
+    "orig": "מֵאֱדוֹם",
+    "en": "from Edom",
+    "plain": "from Edom and Moab"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "מֵאֲרָם",
+    "en": "from Aram (Syria)",
+    "plain": "from Aram and Moab"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew script, Aram (<i>'rm</i>) and Edom (<i>'dm</i>) differ by the shape of one letter, and the two were confused often. Aram is already covered by \"the plunder of Hadadezer\" at the end of the verse, while Edom, conquered in 8:13–14, is otherwise missing from the list. The Plain reads Edom.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:13",
+  "a": "eighteen thousand men of Edom",
+  "t": "Edom or Aram in the Valley of Salt?",
+  "p": "The Hebrew says David struck Aram in the Valley of Salt; the Greek, Chronicles and the psalm title say Edom.",
+  "readings": [
+   {
+    "w": "Septuagint; some Hebrew manuscripts; 1 Chronicles 18:12; Psalm 60 title",
+    "orig": "אֱדוֹם",
+    "en": "Edom",
+    "plain": "eighteen thousand men of Edom"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "אֲרָם",
+    "en": "Aram (Syria)",
+    "plain": "eighteen thousand men of Aram"
+   }
+  ],
+  "follow": 0,
+  "why": "The Valley of Salt lay south of the Dead Sea, in Edom's country (2 Kings 14:7), and 8:14 goes on to Edom. The same <i>r</i>/<i>d</i> confusion as in 8:12 explains the Masoretic \"Aram.\" Some scholars think a clause dropped out (\"when he returned from striking Aram, he struck Edom\"). The Plain reads Edom.",
+  "s": [
+   "mccarter-2sam",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "8:17",
+  "a": "Ahimelech son of Abiathar",
+  "t": "Ahimelech son of Abiathar, or the reverse?",
+  "p": "Elsewhere Abiathar is the son of Ahimelech. Here the names are reversed.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint; 1 Chronicles 18:16 (\"Abimelech\")",
+    "orig": "וַאֲחִימֶלֶךְ בֶּן־אֶבְיָתָר",
+    "en": "and Ahimelech son of Abiathar",
+    "plain": "Ahimelech son of Abiathar"
+   },
+   {
+    "w": "Syriac Peshitta; adopted by many scholars",
+    "orig": "ואביתר בר אחימלך",
+    "en": "and Abiathar son of Ahimelech",
+    "plain": "Abiathar son of Ahimelech"
+   }
+  ],
+  "follow": 0,
+  "why": "Abiathar, son of Ahimelech the priest of Nob, escaped Saul's massacre and served David as priest (1 Samuel 22:20; 15:24–35; 20:25). So many think the names were swapped here. But Chronicles also has a son of Abiathar named Ahimelech serving under David (1 Chronicles 24:3, 24:6, 24:31), so Abiathar may have had a son named after his grandfather. Since all the main witnesses agree, the Plain keeps the Hebrew.",
+  "s": [
+   "mccarter-2sam",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "8:18",
+  "a": "was in charge of",
+  "t": "Benaiah \"over\" the guard",
+  "p": "The Hebrew lacks \"over\": \"Benaiah... and the Kerethites and the Pelethites.\"",
+  "readings": [
+   {
+    "w": "1 Chronicles 18:17; Targum; Syriac; 20:23",
+    "orig": "עַל",
+    "en": "over",
+    "plain": "was in charge of"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְהַכְּרֵתִי",
+    "en": "and the Kerethites",
+    "plain": "and"
+   }
+  ],
+  "follow": 0,
+  "why": "Without \"over,\" the Hebrew lists Benaiah and the guards as though they were all priests with David's sons. 20:23 has \"Benaiah son of Jehoiada was over the Kerethites and the Pelethites,\" and Chronicles reads the same here. A small word dropped out. The Plain supplies it.",
+  "s": [
+   "driver-samuel",
+   "mccarter-2sam",
+   "targum-jonathan-prophets"
+  ]
+ },
+ {
+  "v": "9:11",
+  "a": "at David's table",
+  "t": "\"My table\" or \"David's table\"?",
+  "p": "The Hebrew says \"at my table,\" as if David were speaking; the Greek says \"at David's table.\"",
+  "readings": [
+   {
+    "w": "Septuagint",
+    "orig": "ἐπὶ τῆς τραπέζης Δαυιδ",
+    "en": "at the table of David",
+    "plain": "at David's table"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, which adds \"said the king\"",
+    "orig": "עַל־שֻׁלְחָנִי",
+    "en": "at my table",
+    "plain": "at my table"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew, Ziba has just finished speaking, and \"my table\" cannot be Ziba's. The King James Version solves this by supplying \"said the king.\" The Greek reads it as the narrator's statement, which fits the word \"was eating\" and the phrase \"like one of the king's sons.\" A scribe may have written \"my\" under the influence of 9:7 and 9:10. The Plain follows the Greek.",
+  "s": [
+   "mccarter-2sam",
+   "driver-samuel"
+  ]
+ }
+]

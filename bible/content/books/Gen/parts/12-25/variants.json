@@ -1,0 +1,574 @@
+[
+ {
+  "v": "12:8",
+  "a": "set up his tent",
+  "t": "\"His tent\" or \"her tent\"?",
+  "p": "The written Hebrew says \"her tent\"; the reading tradition says \"his tent.\" Rashi drew a lesson from it.",
+  "readings": [
+   {
+    "w": "Masoretic Text, the reading (Qere) passed down by the scribes; all English versions",
+    "orig": "אָהֳלוֹ",
+    "en": "his tent",
+    "plain": "set up his tent"
+   },
+   {
+    "w": "Masoretic Text, the letters as written (Ketiv), Leningrad Codex",
+    "orig": "אָהֳלֹה",
+    "en": "her tent (or an old spelling of \"his tent\")",
+    "plain": "set up her tent"
+   }
+  ],
+  "follow": 0,
+  "why": "The written letters end in <i>-h</i>, which in later Hebrew means \"her.\" But in older Hebrew spelling <i>-h</i> was also used for \"his,\" and the scribes read it that way. The same spelling appears in 9:21, 13:3 and 35:21. Nearly all scholars take it as an old spelling, not a different meaning.",
+  "b": "Jewish tradition made a lesson of the written form: Abram pitched Sarai's tent first, and only then his own (Genesis Rabbah 39:15; Rashi). See also 13:3.",
+  "s": [
+   "tov-tchb",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "14:14",
+  "a": "called out",
+  "t": "\"Called out\" or \"counted\"?",
+  "p": "The Hebrew verb is unusual. The Septuagint says Abram \"counted\" his men; the Samaritan text has a different verb.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיָּרֶק",
+    "en": "emptied out, drew out (as a sword from its sheath)",
+    "plain": "called out"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἠρίθμησεν",
+    "en": "he counted, numbered",
+    "plain": "counted"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "וַיָּדֶק (as usually reported)",
+    "en": "meaning uncertain, perhaps \"he inspected\"",
+    "plain": "reviewed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic verb <i>wayyareq</i> means \"to empty out\" or \"draw out,\" as of a sword (Exodus 15:9), so the picture is of Abram turning out every fighting man. The rarer word is likely original, and the others look like attempts to make sense of it.",
+  "b": "The Samaritan reading is cited from the standard apparatus (BHS); its exact sense could not be verified here.",
+  "s": [
+   "wenham-gen",
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "14:22",
+  "a": "I have raised my hand to the LORD, God Most High",
+  "t": "Was \"the LORD\" in the oath?",
+  "p": "The Greek, the Syriac and the Samaritan text lack \"the LORD\" here, so Abram swears only by \"God Most High.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Targums; Vulgate; KJV and most English versions",
+    "orig": "אֶל־יְהוָה אֵל עֶלְיוֹן",
+    "en": "to YHWH, God Most High",
+    "plain": "I have raised my hand to the LORD, God Most High"
+   },
+   {
+    "w": "Septuagint; Syriac Peshitta",
+    "orig": "πρὸς τὸν θεὸν τὸν ὕψιστον",
+    "en": "to God Most High",
+    "plain": "I have raised my hand to God Most High"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "אל האלהים אל עליון",
+    "en": "to God, God Most High",
+    "plain": "I have raised my hand to God, God Most High"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English keeps the Hebrew, which has the support of the Targums and the Vulgate. Some scholars think \"the LORD\" was added to make clear who God Most High is; others think the Greek translators dropped it to match 14:18–20. Either way, the story identifies Melchizedek's God with Abram's.",
+  "b": "The Genesis Apocryphon from Qumran (1QapGen 22) also has Abram swear \"to God Most High, Lord of heaven and earth,\" without the divine name, though that Aramaic retelling avoids the name YHWH throughout, so it is weak evidence.",
+  "s": [
+   "wevers-genesis",
+   "fitzmyer-apocryphon",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:5",
+  "a": "the Zuzim in Ham",
+  "t": "\"In Ham\" or \"with them\"?",
+  "p": "The Hebrew names a place, Ham. The Greek read the same letters as \"with them.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וְאֶת־הַזּוּזִים בְּהָם",
+    "en": "and the Zuzim in Ham",
+    "plain": "the Zuzim in Ham"
+   },
+   {
+    "w": "Septuagint (ἅμα αὐτοῖς); Latin Vulgate reported similar (cum eis)",
+    "orig": "καὶ ἔθνη ἰσχυρὰ ἅμα αὐτοῖς",
+    "en": "and strong nations with them",
+    "plain": "the Zuzim with them"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants בהם can be read <i>beham</i>, \"in Ham,\" or <i>bahem</i>, \"with them.\" The list gives each people with its town, so \"in Ham\" fits the pattern, and a town called Ham is known in northern Jordan (modern Ham, near Irbid).",
+  "b": "The Greek also turns the name Zuzim into \"strong nations.\" The Vulgate reading is cited from reference works and was not checked directly.",
+  "s": [
+   "wevers-genesis",
+   "wenham-gen"
+  ]
+ },
+ {
+  "v": "15:7",
+  "a": "Ur of the Chaldeans",
+  "t": "Ur, or the land of the Chaldeans?",
+  "p": "The Greek translators did not read the word \"Ur\" as a city name.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Targums; Vulgate",
+    "orig": "מֵאוּר כַּשְׂדִּים",
+    "en": "from Ur of the Chaldeans",
+    "plain": "Ur of the Chaldeans"
+   },
+   {
+    "w": "Septuagint (here and 11:28, 31)",
+    "orig": "ἐκ χώρας Χαλδαίων",
+    "en": "from the land of the Chaldeans",
+    "plain": "the land of the Chaldeans"
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew witnesses read \"Ur.\" The Greek likely reflects the same letters understood as a common noun or a general region, not a different Hebrew text. Nehemiah 9:7 also has \"Ur of the Chaldeans.\"",
+  "b": "Because <i>'ur</i> can mean \"fire\" or \"light\" in Hebrew, Jewish tradition read it as \"the fire of the Chaldeans,\" the furnace from which God rescued Abram (Targum Pseudo-Jonathan; Genesis Rabbah 38:13). The same story appears in the Qur'an (21:68–69).",
+  "s": [
+   "wevers-genesis",
+   "targum-gen"
+  ]
+ },
+ {
+  "v": "15:11",
+  "a": "and Abram drove them away",
+  "t": "Drove them away, or sat with them?",
+  "p": "The Greek reads the Hebrew verb differently: \"and Abram sat down with them.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַיַּשֵּׁב אֹתָם אַבְרָם",
+    "en": "and Abram drove them away",
+    "plain": "and Abram drove them away"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ συνεκάθισεν αὐτοῖς Αβραμ",
+    "en": "and Abram sat down with them",
+    "plain": "and Abram sat down with them"
+   }
+  ],
+  "follow": 0,
+  "why": "The same consonants can be read <i>wayyashshev otam</i>, \"he drove them off,\" or <i>wayyeshev ittam</i>, \"he sat with them.\" The Hebrew fits the picture of Abram guarding the sacrifice from birds of prey, so it is followed.",
+  "s": [
+   "wevers-genesis",
+   "wenham-gen"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": "Have I really seen here, after the One who sees me?",
+  "t": "What did Hagar say?",
+  "p": "The Hebrew is very hard. The Greek reads it differently, and many modern scholars change one word.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי",
+    "en": "have I even here seen after the one who sees me?",
+    "plain": "Have I really seen here, after the One who sees me?"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "καὶ γὰρ ἐνώπιον εἶδον ὀφθέντα μοι",
+    "en": "for I have openly seen the one who appeared to me",
+    "plain": "For I have openly seen the One who appeared to me."
+   },
+   {
+    "w": "Modern conjecture (Julius Wellhausen), reading הֲגַם אֱלֹהִים רָאִיתִי וָאֶחִי; followed by the RSV",
+    "orig": "הֲגַם אֱלֹהִים רָאִיתִי וָאֶחִי אַחֲרֵי רֹאִי",
+    "en": "have I really seen God and remained alive after seeing?",
+    "plain": "Have I really seen God and stayed alive after seeing him?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English keeps the Masoretic letters and their plain sense: <i>acharei</i> means \"after,\" not \"back\" (that would be <i>achor</i>, as in Exodus 33:23). Some modern commentators (Wenham among them) still render \"the back of,\" comparing Moses seeing God's back. The conjecture is a guess. The conjecture fits the well's name (\"the Living One who sees me\") and the Bible's fear of seeing God (Exodus 33:20), which is why it is attractive.",
+  "b": "The Septuagint (as Brenton translated it: \"I have openly seen him that appeared to me\") seems to be a free attempt to make sense of the same Hebrew. The Dead Sea Scrolls preserve no copy of this verse that could settle it, as far as could be verified.",
+  "s": [
+   "wevers-genesis",
+   "westermann-gen12-36",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "17:14",
+  "a": "whose foreskin has not been cut",
+  "t": "\"On the eighth day\"",
+  "p": "The Greek and the Samaritan texts add \"on the eighth day.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "אֲשֶׁר לֹא־יִמּוֹל אֶת־בְּשַׂר עָרְלָתוֹ",
+    "en": "who is not circumcised in the flesh of his foreskin",
+    "plain": "whose foreskin has not been cut"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (Jubilees 15:14 agrees)",
+    "orig": "...בַּיּוֹם הַשְּׁמִינִי / τῇ ἡμέρᾳ τῇ ὀγδόῃ",
+    "en": "...on the eighth day",
+    "plain": "whose foreskin has not been cut on the eighth day"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is followed. The phrase looks like a clarification drawn from 17:12, the kind of addition copyists made. Some scholars think the longer text is original and was lost in the Hebrew.",
+  "b": "The addition matters for law: it would make a late circumcision a breach of the covenant. The book of Jubilees, a retelling of Genesis from about 150 BC, insists strongly on the eighth day.",
+  "s": [
+   "wevers-genesis",
+   "tov-tchb",
+   "jubilees-book"
+  ]
+ },
+ {
+  "v": "17:16",
+  "a": "she will become nations; kings of peoples will come from her",
+  "t": "\"Her\" or \"him\"?",
+  "p": "In the Greek, the second blessing is for the son: \"he will become nations.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Targums",
+    "orig": "וּבֵרַכְתִּיהָ וְהָיְתָה לְגוֹיִם מַלְכֵי עַמִּים מִמֶּנָּה יִהְיוּ",
+    "en": "I will bless her, and she will become nations; kings of peoples will come from her",
+    "plain": "she will become nations; kings of peoples will come from her"
+   },
+   {
+    "w": "Septuagint; Latin Vulgate (et reges populorum orientur ex eo); Syriac (as cited in BHS)",
+    "orig": "καὶ εὐλογήσω αὐτόν, καὶ ἔσται εἰς ἔθνη, καὶ βασιλεῖς ἐθνῶν ἐξ αὐτοῦ ἔσονται",
+    "en": "I will bless him, and he will become nations, and kings of nations will come from him",
+    "plain": "he will become nations; kings of peoples will come from him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew, which makes Sarah herself the bearer of the blessing, is the harder and more striking reading, and matches the focus on her new name (17:15). The Greek may reflect a translator's assumption that blessings for nations belong to the son.",
+  "b": "The Vulgate shares the masculine (<i>ex eo</i>, \"from him\"), and BHS cites the Syriac with it. Most English versions follow the Hebrew; the Douay-Rheims, made from the Vulgate, reads \"him.\"",
+  "s": [
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "18:22",
+  "a": "Abraham was still standing before the LORD",
+  "t": "Who stood before whom?",
+  "p": "Jewish tradition says the text once read \"the LORD was still standing before Abraham,\" and scribes reversed it.",
+  "readings": [
+   {
+    "w": "Masoretic Text and all known manuscripts and versions",
+    "orig": "וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָה",
+    "en": "and Abraham was still standing before YHWH",
+    "plain": "Abraham was still standing before the LORD"
+   },
+   {
+    "w": "The original text according to rabbinic tradition, a \"correction of the scribes\" (Genesis Rabbah 49:7; Masoretic lists of tiqqunei soferim)",
+    "orig": "וַיהוָה עוֹדֶנּוּ עֹמֵד לִפְנֵי אַבְרָהָם",
+    "en": "and YHWH was still standing before Abraham",
+    "plain": "the LORD was still standing before Abraham"
+   }
+  ],
+  "follow": 0,
+  "why": "No surviving manuscript or ancient version has the other reading, so the Plain English keeps the Masoretic text. But the rabbinic tradition that this is one of the \"corrections of the scribes\" is old.",
+  "b": "To \"stand before\" someone is what a servant does for a master, so a text saying God stood before Abraham may have seemed improper. If the tradition is right, the story pictured God waiting on Abraham to speak, which would fit 18:17–21. Scholars disagree on whether the scribal corrections were real changes or a later way of drawing attention to bold wording. The STEPBible data used for this site also marks the alternative order.",
+  "s": [
+   "tov-tchb",
+   "genesis-rabbah"
+  ]
+ },
+ {
+  "v": "18:17",
+  "a": "Shall I hide from Abraham",
+  "t": "\"Abraham\" or \"Abraham my servant\"?",
+  "p": "The Greek adds \"my servant\" (or \"my child\") after Abraham.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch",
+    "orig": "הַמְכַסֶּה אֲנִי מֵאַבְרָהָם",
+    "en": "shall I hide from Abraham",
+    "plain": "Shall I hide from Abraham"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "μὴ κρύψω ἐγὼ ἀπὸ Αβρααμ τοῦ παιδός μου",
+    "en": "shall I hide from Abraham my servant",
+    "plain": "Shall I hide from Abraham my servant"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is a natural expansion; God calls Abraham \"my servant\" at 26:24, and Jewish and Christian writers called him God's friend (Isaiah 41:8). The shorter Hebrew is followed.",
+  "s": [
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "21:9",
+  "a": "laughing.",
+  "t": "\"Laughing\" or \"playing with Isaac\"?",
+  "p": "The Greek and Latin add that Ishmael was playing \"with Isaac her son.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch",
+    "orig": "מְצַחֵק",
+    "en": "laughing, playing (no object)",
+    "plain": "laughing."
+   },
+   {
+    "w": "Septuagint; Latin Vulgate (ludentem cum Isaac filio suo)",
+    "orig": "παίζοντα μετὰ Ισαακ τοῦ υἱοῦ αὐτῆς",
+    "en": "playing with Isaac her son",
+    "plain": "playing with Isaac her son."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter Hebrew is followed. The words \"with Isaac her son\" look like an explanation by translators who wanted to say what Sarah saw. Some scholars think they may preserve an original reading lost by the Hebrew copyists' eye skipping between similar words.",
+  "b": "Either way the verb leaves room for innocent play or for mockery. The Greek <i>paizō</i> usually means \"play,\" which is how the Septuagint also renders the same verb at 26:8.",
+  "s": [
+   "wevers-genesis",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "lifted up her voice and wept",
+  "t": "Who wept?",
+  "p": "In the Hebrew, Hagar weeps. In the Greek, the child cries out and weeps, which fits \"God heard the boy's voice\" (21:17).",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וַתִּשָּׂא אֶת־קֹלָהּ וַתֵּבְךְּ",
+    "en": "and she lifted up her voice and wept",
+    "plain": "lifted up her voice and wept"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἀναβοῆσαν δὲ τὸ παιδίον ἔκλαυσεν",
+    "en": "and the child cried out and wept",
+    "plain": "and the boy cried aloud and wept"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is followed, as by the KJV and the NRSV; the RSV had followed the Greek (\"the child lifted up his voice and wept\"). The Greek may be smoothing the story to fit 21:17, where \"God heard the boy's voice,\" which makes it look secondary. But it is also possible that a Hebrew text once had the boy weeping.",
+  "s": [
+   "wevers-genesis"
+  ]
+ },
+ {
+  "v": "22:2",
+  "a": "go to the land of Moriah",
+  "t": "Moriah, or the high land?",
+  "p": "Ancient versions read the place name in at least four different ways.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Targum Onkelos (\"land of worship\")",
+    "orig": "אֶל־אֶרֶץ הַמֹּרִיָּה",
+    "en": "to the land of Moriah",
+    "plain": "go to the land of Moriah"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "אל ארץ המוראה",
+    "en": "to the land of Moreh (or \"of vision\")",
+    "plain": "go to the land of Moreh"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "εἰς τὴν γῆν τὴν ὑψηλήν",
+    "en": "to the high land",
+    "plain": "go to the high country"
+   },
+   {
+    "w": "Syriac Peshitta",
+    "orig": "ar'a d'amoraye (Syriac)",
+    "en": "to the land of the Amorites",
+    "plain": "go to the land of the Amorites"
+   },
+   {
+    "w": "Latin Vulgate",
+    "orig": "in terram visionis",
+    "en": "to the land of vision",
+    "plain": "go to the land of vision"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the Masoretic name, which matches 2 Chronicles 3:1 and Jewish tradition linking the place with the temple mount. The other readings mostly try to explain an unknown name from Hebrew roots (\"see,\" \"high\"). The Samaritan \"Moreh\" connects the place with Shechem's tree of Moreh (12:6) and so with Mount Gerizim, the Samaritans' holy mountain.",
+  "b": "Since the place name is attested only here and in Chronicles, scholars cannot be sure which form is oldest. The Samaritan reading may be a deliberate change in favor of Gerizim, or the Masoretic one a change in favor of Jerusalem; most think the latter less likely, since Moriah appears in Chronicles.",
+  "s": [
+   "tov-tchb",
+   "wevers-genesis",
+   "wenham-gen2"
+  ]
+ },
+ {
+  "v": "22:13",
+  "a": "there was a ram behind him",
+  "t": "\"A ram behind\" or \"one ram\"?",
+  "p": "Many Hebrew manuscripts and the ancient versions read \"one ram\" (a ram) instead of \"a ram behind.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad and most manuscripts)",
+    "orig": "אַיִל אַחַר",
+    "en": "a ram behind (him)",
+    "plain": "there was a ram behind him"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (κριὸς εἷς); Syriac; many medieval Hebrew manuscripts",
+    "orig": "אַיִל אֶחָד",
+    "en": "one ram, a single ram",
+    "plain": "there was a ram"
+   }
+  ],
+  "follow": 0,
+  "why": "In Hebrew the two words differ only in the last letter, <i>resh</i> (ר) or <i>dalet</i> (ד), which look almost the same. Many scholars think \"one ram\" is original, since \"behind\" is awkward Hebrew here. The Plain English keeps the Masoretic reading, which can make sense (\"behind him,\" or \"afterward\"), but the difference is slight.",
+  "b": "Rashi read <i>achar</i> as \"after\": after the angel spoke, Abraham saw the ram. The Targum Onkelos also reads \"after.\"",
+  "s": [
+   "tov-tchb",
+   "wevers-genesis",
+   "rashi-torah"
+  ]
+ },
+ {
+  "v": "22:16",
+  "a": "have not held back your son, your only one",
+  "t": "\"From me\" missing?",
+  "p": "In 22:12 the angel says \"you have not held back your son ... from me.\" Here the Hebrew lacks \"from me\"; other witnesses have it.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידֶךָ",
+    "en": "and you have not held back your son, your only one",
+    "plain": "have not held back your son, your only one"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint (δι' ἐμέ, \"for my sake\"); Syriac; Latin Vulgate (propter me)",
+    "orig": "...מִמֶּנִּי",
+    "en": "... from me",
+    "plain": "have not held back your son, your only one, from me"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading matches 22:12 exactly, which is just what a copyist might add, so the shorter Hebrew is followed. It is also possible the Hebrew lost the word by accident. The meaning does not change.",
+  "s": [
+   "wevers-genesis",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "24:62",
+  "a": "Now Isaac had come from the way to Beer-lahai-roi",
+  "t": "From where did Isaac come?",
+  "p": "The Hebrew is awkward. The Greek and the Samaritan text say Isaac came \"through the wilderness.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "וְיִצְחָק בָּא מִבּוֹא בְּאֵר לַחַי רֹאִי",
+    "en": "and Isaac came from coming (to?) Beer-lahai-roi",
+    "plain": "Now Isaac had come from the way to Beer-lahai-roi"
+   },
+   {
+    "w": "Septuagint (as usually cited); Samaritan Pentateuch reported similar",
+    "orig": "Ισαακ δὲ ἐπορεύετο διὰ τῆς ἐρήμου κατὰ τὸ φρέαρ τῆς ὁράσεως",
+    "en": "Isaac was going through the wilderness by the well of the vision",
+    "plain": "Now Isaac had come through the wilderness by Beer-lahai-roi"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic text is hard but understandable (\"had come from going to\" or \"from the direction of\"). The Greek and Samaritan readings look like attempts to smooth it, so the harder Hebrew is kept.",
+  "b": "The exact wording of the Samaritan reading could not be verified here; it is cited from standard reference works as reading \"in the wilderness\" for the difficult \"from coming.\"",
+  "s": [
+   "wevers-genesis",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "24:22",
+  "a": "a gold ring weighing a beka, half a shekel",
+  "t": "Does the Samaritan text add \"on her nose\"?",
+  "p": "The Samaritan text is reported to add that the servant put the ring on her nose, as 24:47 says.",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ",
+    "en": "a gold ring, a beka its weight",
+    "plain": "a gold ring weighing a beka, half a shekel"
+   },
+   {
+    "w": "Samaritan Pentateuch (as reported in BHS)",
+    "orig": "...וישם על אפה",
+    "en": "... and he put it on her nose",
+    "plain": "a gold ring weighing a beka, half a shekel, and put it on her nose"
+   }
+  ],
+  "follow": 0,
+  "why": "The Samaritan Pentateuch often fills out a story so that its two tellings agree. Here it brings 24:22 into line with the servant's report in 24:47, so the Masoretic text is followed.",
+  "b": "This reading is taken from the BHS apparatus and could not be checked directly in a Samaritan manuscript. The Septuagint agrees with the Masoretic text here, as far as could be verified.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "25:8",
+  "a": "old and satisfied",
+  "t": "\"Satisfied\" or \"full of days\"?",
+  "p": "The Masoretic Text says Abraham died \"old and satisfied.\" Other witnesses add \"days.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text",
+    "orig": "זָקֵן וְשָׂבֵעַ",
+    "en": "old and satisfied",
+    "plain": "old and satisfied"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; Syriac",
+    "orig": "זקן ושבע ימים (Septuagint πλήρης ἡμερῶν)",
+    "en": "old and full of days",
+    "plain": "old and full of days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English follows the shorter Masoretic reading. The longer one matches the usual phrase \"old and full of days\" (35:29; 1 Chronicles 29:28; Job 42:17), so a scribe could easily have added \"days\" to fit it; it is also possible the word dropped out of the Masoretic line.",
+  "b": "This reading is reported in standard critical apparatuses (BHS) and commentaries; it could not be checked here directly in the Samaritan or Greek manuscripts. The meaning hardly changes: Abraham died having lived his life to the full.",
+  "s": [
+   "wenham-gen2",
+   "wevers-genesis",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "25:15",
+  "a": "Hadad",
+  "t": "Hadad or Hadar?",
+  "p": "Hebrew copies differ between Hadad and Hadar, which look almost alike. The KJV prints \"Hadar.\"",
+  "readings": [
+   {
+    "w": "Leningrad Codex (the base of most modern editions); 1 Chronicles 1:30",
+    "orig": "חֲדַד",
+    "en": "Hadad",
+    "plain": "Hadad"
+   },
+   {
+    "w": "Many Hebrew manuscripts; the Bomberg Rabbinic Bible (1524–1525), followed by the KJV",
+    "orig": "חֲדַר",
+    "en": "Hadar",
+    "plain": "Hadar"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters <i>dalet</i> and <i>resh</i> differ by only a small corner, and they are often confused. Chronicles has Hadad, and the Septuagint (Choddad) also points to a <i>d</i>, so the Plain English follows the Leningrad Codex with most modern versions.",
+  "s": [
+   "tov-tchb"
+  ]
+ }
+]

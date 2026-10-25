@@ -1,0 +1,944 @@
+[
+ {
+  "v": "5:3",
+  "a": "in Idumea",
+  "t": "Judea or Idumea?",
+  "p": "Alexandrinus says Judas fought Esau's people \"in Judea\"; Sinaiticus and Venetus say \"in Idumea\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD) and Codex Venetus (V, 700s AD), in Swete's notes; Latin Vulgate; KJV",
+    "orig": "Ιουδαια] Ιδουμαια ℵV; Latin in Idumæa",
+    "en": "in Idumea",
+    "plain": "in Idumea"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐν τῇ Ἰουδαίᾳ",
+    "en": "in Judea",
+    "plain": "in Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The descendants of Esau lived in Idumea (5:65), and the two names differ by a few letters in Greek, so a copyist could easily write the familiar \"Judea\". Sinaiticus, Venetus and the Latin agree on Idumea, and so does the parallel in Josephus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "5:3",
+  "a": "kept Israel hemmed in",
+  "t": "Whom did they besiege?",
+  "p": "The first hand of Sinaiticus has \"Amalek\"; the KJV has a place, \"Gael\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; Sinaiticus as corrected by ℵ¹ (a correction later undone)",
+    "orig": "περιεκάθηντο τὸν Ἰσραήλ",
+    "en": "they were besieging Israel",
+    "plain": "kept Israel hemmed in"
+   },
+   {
+    "w": "Codex Sinaiticus, first hand (ℵ*), in Swete's notes",
+    "orig": "Ισραηλ] Αμαληκ ℵ* Ισλ ℵ¹ (Αμ. uncis incl ℵ¹ improb ℵc.a c.b)",
+    "en": "they were besieging Amalek",
+    "plain": "kept Amalek hemmed in"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "because they besieged Gael",
+    "plain": "kept Gael under siege"
+   }
+  ],
+  "follow": 0,
+  "why": "Israel makes sense: the Idumeans pressed the Jews. Sinaiticus' first scribe wrote \"Amalek\", perhaps thinking of Esau's descendant Amalek (Genesis 36:12), and the corrector ℵ¹ bracketed it and wrote \"Israel\", a change that the later correctors ℵc.a and ℵc.b rejected. The KJV's \"Gael\" is a place-name not found in Swete's manuscripts.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:8",
+  "a": "Jazer",
+  "t": "Jazen or Jazer?",
+  "p": "Alexandrinus writes the town's name Jazen; Sinaiticus and Venetus have Jazer, the town of Numbers 21:32.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; KJV (Jazar)",
+    "orig": "Ιαζην] Ιαζηρ ℵV",
+    "en": "Jazer",
+    "plain": "Jazer"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Ἰάζην",
+    "en": "Jazen",
+    "plain": "Jazen"
+   },
+   {
+    "w": "Latin Vulgate",
+    "orig": "Gazer",
+    "en": "Gazer",
+    "plain": "Gazer"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. Jazer was an Ammonite border town east of the Jordan (Numbers 21:32; Joshua 13:25), which fits a campaign against the Ammonites. Alexandrinus' final n is a common slip for r in copying names.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:22",
+  "a": "the gate of Ptolemais",
+  "t": "Gate or towns?",
+  "p": "Alexandrinus says \"the towns of Ptolemais\"; Sinaiticus, Venetus, the Latin and the KJV say \"the gate\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate (its 5:21); KJV",
+    "orig": "των πολεων] της πυλης ℵV; Latin usque ad portam",
+    "en": "as far as the gate of Ptolemais",
+    "plain": "the gate of Ptolemais"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἕως τῶν πόλεων Πτολεμαίδος",
+    "en": "as far as the towns of Ptolemais",
+    "plain": "the towns of Ptolemais"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. \"Gate\" (<i>pylēs</i>) and \"towns\" (<i>poleōn</i>) look alike in Greek. Ptolemais was a single city, and chasing an enemy to a city's gate is a common picture; three witnesses agree on it.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:26",
+  "a": "Chaspho, Maked",
+  "t": "Chaspho and Maked",
+  "p": "Alexandrinus spells the names Kasphor and Makeb here, and Chasphoth and Maked at 5:36.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, first hand, and Codex Venetus, in Swete's notes; Alexandrinus itself at 5:36 (Maked)",
+    "orig": "Κασφω ℵ* (Κασφωρ ℵc.a) και Σκαφω V; Μακεδ ℵ* V; at 5:36 Μακέδ",
+    "en": "Kaspho, Maked",
+    "plain": "Chaspho, Maked"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Κασφώρ, Μακέβ",
+    "en": "Kasphor, Makeb",
+    "plain": "Chasphor, Makeb"
+   },
+   {
+    "w": "KJV; compare the Latin (Casphor, Mageth)",
+    "orig": "Casphor",
+    "en": "Casphor, Maked",
+    "plain": "Casphor, Maked"
+   }
+  ],
+  "follow": 0,
+  "why": "The manuscripts spell these unknown towns of Gilead in many ways, even within one manuscript (Alexandrinus has Chasphoth at 5:36). The Plain uses one form for each town in both verses: Chaspho, close to Sinaiticus' first hand, and Maked, which Alexandrinus itself has at 5:36. The towns are the same either way.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:35",
+  "a": "Maapha",
+  "t": "Maapha or Maspha?",
+  "p": "The Latin and the KJV name the town Maspha (Mizpah).",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Μααφὰ",
+    "en": "Maapha",
+    "plain": "Maapha"
+   },
+   {
+    "w": "Codex Sinaiticus, in Swete's notes",
+    "orig": "Μαφα ℵ",
+    "en": "Mapha",
+    "plain": "Mapha"
+   },
+   {
+    "w": "Latin Vulgate; Douay; KJV",
+    "orig": "in Maspha",
+    "en": "Maspha (Mizpah)",
+    "plain": "Maspha"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Greek. The Latin's Maspha may be a guess at a known name, Mizpah of Gilead. See the note on Maapha for the view that Alema (5:26) is meant.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:38",
+  "a": "around you",
+  "t": "\"Around you\" or \"around us\"?",
+  "p": "The spies say \"around you\" in Alexandrinus, \"around us\" in the other manuscripts and the KJV.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "κύκλῳ ὑμῶν",
+    "en": "around you",
+    "plain": "around you"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "υμων] ημων ℵV; Latin in circuitu nostro",
+    "en": "around us",
+    "plain": "around us"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense; \"you\" fits spies reporting to Judas. In Greek the two words differ by one letter and were often confused.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "5:38",
+  "a": "have gathered to him",
+  "t": "\"To him\" or \"to them\"?",
+  "p": "Alexandrinus says the nations gathered \"to them\"; Sinaiticus and the Latin say \"to him\", that is, to Timothy.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, in Swete's notes; Latin Vulgate",
+    "orig": "αυτους] αυτον ℵ; Latin convenerunt ad eum",
+    "en": "have gathered to him",
+    "plain": "have gathered to him"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; KJV",
+    "orig": "Ἐπισυνηγμένοι εἰσὶν πρὸς αὐτοὺς",
+    "en": "have gathered to them",
+    "plain": "have gathered to them"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. \"To them\" has no clear antecedent in the scouts' report; \"to him\" points back to Timothy, who had gathered the army (5:37).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:41",
+  "a": "we will cross over to him.\"",
+  "t": "\"And beat him\"",
+  "p": "Sinaiticus, Venetus, the Latin and the KJV add \"and we will beat him\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "διαπεράσομεν πρὸς αὐτόν",
+    "en": "we will cross over to him",
+    "plain": "we will cross over to him.\""
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "+ και δυνη- σομεθα προς αυτο | ℵ + κ. δ. αυτον V (Swete's line breaks kept); Latin et poterimus adversus illum",
+    "en": "we will cross over to him and prevail against him",
+    "plain": "we will cross over to him and beat him.\""
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus is shorter; the addition rounds off Timothy's words by repeating 5:40. Either way the meaning is the same.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:43",
+  "a": "and all his people behind him",
+  "t": "Before him or behind him?",
+  "p": "Alexandrinus says his people went \"in front of him\", which cannot be right if he crossed first.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "εμπροσθεν] οπισθεν ℵV; Latin post eum",
+    "en": "and all his people behind him",
+    "plain": "and all his people behind him"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἔμπροσθεν αὐτοῦ",
+    "en": "and all his people in front of him",
+    "plain": "and all his people in front of him"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The verse says Judas crossed \"first\", answering Timothy's test in 5:40; his army must then have followed him. The other witnesses agree.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:46",
+  "a": "This large town guarded the way in",
+  "t": "\"Of the entrance\" or \"on the road\"?",
+  "p": "Alexandrinus calls Ephron the town \"of the entrance\"; Sinaiticus, Venetus and the KJV say \"on the road\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; compare the Latin, \"in ingressu posita\"",
+    "orig": "ἡ πόλις μεγάλη ἡ τῆς εἰσόδου; Latin in ingressu posita",
+    "en": "the great city of the entrance",
+    "plain": "This large town guarded the way in"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; KJV",
+    "orig": "η της εισοδου] επι της οδου ℵV",
+    "en": "a great city on the road",
+    "plain": "This large town lay on the road"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin supports Alexandrinus: the town \"set at the entrance\". \"Entrance\" (<i>eisodou</i>) and \"road\" (<i>hodou</i>) differ by a few letters. The meaning is almost the same.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:50",
+  "a": "The fighting men took their positions",
+  "t": "The men of the town, or of the army?",
+  "p": "Alexandrinus says \"the men of the town\" camped and attacked the town; Sinaiticus and Venetus say \"the men of the army\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "πολεως] δυναμεως ℵV; Latin viri virtutis",
+    "en": "the men of the army took their positions",
+    "plain": "The fighting men took their positions"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "οἱ ἄνδρες τῆς πόλεως",
+    "en": "the men of the town took their positions",
+    "plain": "The men of the town took their positions"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus, which would make the townsmen attack their own town. A copyist probably picked up \"the town\" from the words around it.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:56",
+  "a": "Joseph son of Zechariah and Azariah",
+  "t": "Azariah or Zechariah?",
+  "p": "Alexandrinus says \"Joseph son of Zechariah, and Zechariah\"; Venetus, the Latin and the KJV have Azariah, as in 5:18 and 5:60.",
+  "readings": [
+   {
+    "w": "Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "Ζαχαριας] Αζαριας V; Latin Azarias",
+    "en": "Joseph son of Zechariah, and Azariah",
+    "plain": "Joseph son of Zechariah and Azariah"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus",
+    "orig": "Ἰωσὴφ ὁ τοῦ Ζαχαρία καὶ Ζαχαρίας",
+    "en": "Joseph son of Zechariah, and Zechariah",
+    "plain": "Joseph son of Zechariah and Zechariah"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The two commanders are Joseph and Azariah in 5:18 and 5:60; a copyist's eye picked up \"Zechariah\" from the father's name just before.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "5:67",
+  "a": "They wanted to do brave deeds, and they went out to battle without thinking it through",
+  "t": "Who wanted to do brave deeds?",
+  "p": "Alexandrinus says \"he\" wanted to do brave deeds; Sinaiticus' first hand and the Latin make it the priests.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, first hand (ℵ*), in Swete's notes; Latin Vulgate; KJV",
+    "orig": "βουλομενοι ℵ* (-νου ℵc.a); Latin dum volunt fortiter facere, dum sine consilio exeunt in prælium",
+    "en": "wanting to do brave deeds, when they went out to battle unadvisedly",
+    "plain": "They wanted to do brave deeds, and they went out to battle without thinking it through"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "βουλομένου αὐτοῦ ἀνδραγαθῆσαι, ἐν τῷ αὐτὸν ἐξελθεῖν εἰς τὸν πόλεμον ἀβουλεύτως",
+    "en": "as he wished to do brave deeds, when he went out to battle unadvisedly",
+    "plain": "Each wanted to do brave deeds, and went out to battle without thinking it through"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus' singular (\"he\") must mean each priest, unless it means Judas, which the book would never say of its hero. Sinaiticus' first hand and the Latin have the plural, which the Plain follows for clarity. The meaning is the same either way, so the Plain treats this as a matter of wording, not a departure in sense.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "in Elymais, in Persia, there was a city",
+  "t": "A city in Elymais, or a city called Elymais?",
+  "p": "The KJV and the Latin make Elymais the city's name.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐστὶν ἐν Ἐλύμαις ἐν τῇ Περσίδι πόλις",
+    "en": "that there is in Elymais in Persia a city",
+    "plain": "in Elymais, in Persia, there was a city"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes",
+    "orig": "Ελυμαις (-μες A)] Λυμαις ℵV",
+    "en": "in Lymais in Persia a city",
+    "plain": "in Lymais, in Persia, there was a city"
+   },
+   {
+    "w": "Latin Vulgate; Douay; KJV",
+    "orig": "civitatem Elymaidem in Perside",
+    "en": "that the city of Elymais in Persia",
+    "plain": "the city of Elymais in Persia"
+   }
+  ],
+  "follow": 0,
+  "why": "Elymais was a region (Elam), not a city, so the Greek of Alexandrinus is right. The Latin and the KJV made it the city's name.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "They had grown strong with the weapons they took",
+  "t": "Weapons, \"power and much plunder\"",
+  "p": "Sinaiticus, Venetus, the Latin and the KJV add \"and power and much plunder\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐπίσχυσαν ὅπλοις",
+    "en": "they had grown strong with weapons",
+    "plain": "They had grown strong with the weapons they took"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "+ και δυναμει και σκυλοις πολλοις ℵV; Latin armis, et viribus, et spoliis multis",
+    "en": "with weapons and power and much plunder",
+    "plain": "They had grown strong with the weapons, the power and the many spoils they took"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading adds two words that change little. Alexandrinus' shorter text is kept.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:20",
+  "a": "in the year 150, and he built",
+  "t": "\"They gathered and besieged them\"",
+  "p": "A corrector of Sinaiticus, Venetus, the Latin and the KJV add \"and they gathered together and besieged them\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus, first hand",
+    "orig": "ἔτους πεντηκοστοῦ καὶ ἑκατοστοῦ· καὶ ἐποίησεν",
+    "en": "in the hundred and fiftieth year; and he made",
+    "plain": "in the year 150, and he built"
+   },
+   {
+    "w": "Sinaiticus as corrected (ℵc.a) and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "pr και συνηχθησα | αμα και περιεκαθισαν επ αυτην (αυτους V) ℵc.a V (line breaks as in Swete's note); Latin Et convenerunt simul, et obsederunt eos",
+    "en": "and they gathered together and besieged them in the hundred and fiftieth year, and he made",
+    "plain": "They gathered together and besieged them in the year 150, and he built"
+   }
+  ],
+  "follow": 0,
+  "why": "In Alexandrinus, 6:20's date finishes the sentence of 6:19. The addition makes the siege a separate event; it repeats 6:19 and looks like a later smoothing.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:24",
+  "a": "Because of this the men of our own people turned against us",
+  "t": "\"They besiege the Citadel\"",
+  "p": "Sinaiticus, Venetus and the KJV add that \"the sons of our people\" were besieging the Citadel.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Latin Vulgate",
+    "orig": "ὅτι οἱ τοῦ λαοῦ ἡμῶν χάριν τούτου ἠλλοτριοῦντο ἀφ᾽ ἡμῶν; Latin filii populi nostri propter hoc alienabant se a nobis",
+    "en": "for the sons of our people became estranged from us because of this",
+    "plain": "Because of this the men of our own people turned against us"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; KJV",
+    "orig": "και περιεκα- θη | το επ αυτον (αυτην ℵc.ᵇV) οι υιοι ℵV (line breaks as in Swete's note)",
+    "en": "and the sons of our people besieged it, and were estranged from us",
+    "plain": "So the men of our own people besieged the Citadel and turned against us"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus and the Latin agree on the shorter text. The addition brings in the siege of 6:19–20 and 6:26.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:37",
+  "a": "thirty-two warriors who fought from it",
+  "t": "Thirty-two, or \"men of strength\"?",
+  "p": "Sinaiticus reads \"men of strength and thirty\"; Venetus \"men of strength, two and thirty\", which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἄνδρες δύο καὶ τριάκοντα",
+    "en": "thirty-two men",
+    "plain": "thirty-two warriors who fought from it"
+   },
+   {
+    "w": "Codex Sinaiticus, in Swete's notes",
+    "orig": "δυο] δυναμεως ℵ",
+    "en": "men of strength and thirty",
+    "plain": "thirty strong warriors who fought from it"
+   },
+   {
+    "w": "Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "pr δυν. V; Latin viri virtutis triginta duo",
+    "en": "thirty-two strong men",
+    "plain": "thirty-two strong warriors who fought from it"
+   }
+  ],
+  "follow": 0,
+  "why": "Every reading gives far too many men for one elephant's tower (see the note). Sinaiticus' \"men of strength\" may preserve an older wording, which Venetus then combined with \"two\". The Plain keeps Alexandrinus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:39",
+  "a": "the gold shields",
+  "t": "Gold, or gold and bronze?",
+  "p": "Sinaiticus, Venetus, the Latin and the KJV have \"the gold and bronze shields\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "τὰς χρυσᾶς ἀσπίδας",
+    "en": "the gold shields",
+    "plain": "the gold shields"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "χρυσας] + χαλκας και ℵ* + κ χαλκας ℵc.a V; Latin in clypeos aureos et æreos",
+    "en": "the gold and bronze shields",
+    "plain": "the gold and bronze shields"
+   }
+  ],
+  "follow": 0,
+  "why": "An army with only gold shields is a grand picture, and perhaps an exaggeration that a copyist toned down. Alexandrinus' reading is kept.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:43",
+  "a": "Eleazar Avaran",
+  "t": "Avaran, Savaran or \"son of Saura\"?",
+  "p": "Alexandrinus and the KJV call him Savaran; Sinaiticus Auran (as Josephus has it), Venetus Avaran, as in 2:5; the Latin \"son of Saura\".",
+  "readings": [
+   {
+    "w": "Codex Venetus (Auaran) and Codex Sinaiticus (Auran), in Swete's notes; compare 2:5",
+    "orig": "Ελεαζαρος ο Αυραν (Αυαραν V) ℵV",
+    "en": "Eleazar Auaran (Sinaiticus: Auran)",
+    "plain": "Eleazar Avaran"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV",
+    "orig": "Ἐλεαζὰρ ὁ Σαυαρὰν",
+    "en": "Eleazar Savaran",
+    "plain": "Eleazar Savaran"
+   },
+   {
+    "w": "Latin Vulgate; Douay",
+    "orig": "Eleazar filius Saura; Douay Eleazar, the son of Saura",
+    "en": "Eleazar son of Saura",
+    "plain": "Eleazar son of Saura"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. In 2:5 the brother is called Avaran. Sinaiticus and Venetus have the long form of his name, <i>Eleazaros ho Auaran</i>; the sigma of Alexandrinus' <i>ho Sauaran</i> is probably the final -s of <i>Eleazaros</i>, which stuck to the surname when the name was shortened to <i>Eleazar</i>. The Latin turned the surname into a father's name.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "6:49",
+  "a": "He made peace with the people of Beth-zur",
+  "t": "\"Made peace\"",
+  "p": "Alexandrinus says only \"he made [terms] with\" them; Sinaiticus, Venetus, the Latin and the KJV add \"peace\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "εποιησεν] + ειοηνην ℵV [sic, for εἰρήνην]; Latin Et fecit pacem",
+    "en": "he made peace with those from Beth-zur",
+    "plain": "He made peace with the people of Beth-zur"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "καὶ ἐποίησεν μετὰ τῶν ἐκ Βεθσούρων",
+    "en": "and he made [terms] with those from Beth-zur",
+    "plain": "He came to terms with the people of Beth-zur"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. \"Made with\" needs an object, and the other witnesses supply the expected one, \"peace\" (as in 6:58). Alexandrinus probably lost the word.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:53",
+  "a": "no food in the holy place",
+  "t": "Holy place, vessels or city?",
+  "p": "Alexandrinus says \"in the holy place\"; a corrector of Venetus has \"in the vessels\" (KJV); the Latin \"in the city\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐν τοῖς ἁγίοις",
+    "en": "in the holy place",
+    "plain": "no food in the holy place"
+   },
+   {
+    "w": "Codex Venetus as corrected (V¹), in Swete's notes; KJV",
+    "orig": "αγιοις] αγειοις V* αγγ. V¹",
+    "en": "in the storage jars",
+    "plain": "no food in the storage jars"
+   },
+   {
+    "w": "Latin Vulgate; Douay",
+    "orig": "in civitate",
+    "en": "in the city",
+    "plain": "no food in the city"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Holy place\" (<i>hagiois</i>) and \"vessels\" (<i>angeiois</i>) look alike. Alexandrinus fits 6:54, where the few men left are \"in the holy place\". The KJV's \"their vessels being without victuals\" follows the other word.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:5",
+  "a": "who wanted to serve as priest",
+  "t": "Priest or high priest?",
+  "p": "The KJV says Alcimus wanted to be \"high priest\"; the Greek says \"to be priest\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus; Venetus; Latin Vulgate",
+    "orig": "βουλόμενος ἱερατεύειν; Latin qui volebat fieri sacerdos",
+    "en": "wishing to serve as priest",
+    "plain": "who wanted to serve as priest"
+   },
+   {
+    "w": "KJV (1611); Douay",
+    "orig": "(English only)",
+    "en": "who was desirous to be high priest",
+    "plain": "who wanted to be high priest"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek and the Latin say \"priest\". The KJV and the Douay give the sense that 7:9 and 7:21 make clear, the high priesthood. The Plain keeps the Greek and explains in the note.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "7:9",
+  "a": "they set Alcimus up in the priesthood",
+  "t": "\"The priesthood\" or \"the high priesthood\"?",
+  "p": "Venetus has \"high priesthood\", and the KJV \"whom he made high priest\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus; Latin Vulgate",
+    "orig": "ἔστησαν αὐτῷ τὴν ἱερωσύνην; Latin constituit in sacerdotium",
+    "en": "they established the priesthood for him",
+    "plain": "they set Alcimus up in the priesthood"
+   },
+   {
+    "w": "Codex Venetus, in Swete's notes; KJV; Douay",
+    "orig": "αρχιερωσυνην V",
+    "en": "the high priesthood",
+    "plain": "they set Alcimus up in the high priesthood"
+   }
+  ],
+  "follow": 0,
+  "why": "Venetus makes explicit what 7:21 states. The shorter word is kept; the meaning is the same.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:16",
+  "a": "as in the words that he wrote",
+  "t": "\"The prophet\"",
+  "p": "Sinaiticus and Venetus have the singular \"the word\", and a corrector of Sinaiticus names the writer: \"the prophet\". The Latin has \"the word that is written\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV",
+    "orig": "κατὰ τοὺς λόγους οὓς ἔγραψεν",
+    "en": "according to the words that he wrote",
+    "plain": "as in the words that he wrote"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; compare the Latin <i>verbum</i>",
+    "orig": "τους λογους ους] τον λογον ον ℵV",
+    "en": "according to the word that he wrote",
+    "plain": "as in the word that he wrote"
+   },
+   {
+    "w": "Sinaiticus as corrected (ℵc.a), in Swete's notes",
+    "orig": "εγραψεν] + αυτον ℵ* +ο προφητης ℵc.a",
+    "en": "according to the words that the prophet wrote",
+    "plain": "as in the words that the prophet wrote"
+   },
+   {
+    "w": "Latin Vulgate; Douay",
+    "orig": "secundum verbum quod scriptum est; Douay according to the word that is written",
+    "en": "according to the word that is written",
+    "plain": "as it is written"
+   }
+  ],
+  "follow": 0,
+  "why": "The bare \"he wrote\" is the harder reading, and the others look like explanations. The psalm's writer was counted a prophet (2 Chronicles 29:30 speaks of \"Asaph the visionary\").",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "Beth-zaith",
+  "t": "Bezeth or Beth-zaith?",
+  "p": "Alexandrinus writes Bezeth, as the KJV does; Sinaiticus Bethzaith, Venetus Baithzeth, the Latin Bethzecha.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, in Swete's notes",
+    "orig": "Βηζεθ] Βηθζαιθ ℵ Βαιθζηθ V",
+    "en": "Bethzaith",
+    "plain": "Beth-zaith"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; KJV",
+    "orig": "Βηζέθ",
+    "en": "Bezeth",
+    "plain": "Bezeth"
+   },
+   {
+    "w": "Latin Vulgate",
+    "orig": "Bethzecha",
+    "en": "Bethzecha",
+    "plain": "Beth-zecha"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain uses Sinaiticus' fuller spelling, \"house of olives\" in Hebrew, which is often placed at Beit Zeita, north of Beth-zur. The place is the same in every reading.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:25",
+  "a": "knew that he could not stand against them",
+  "t": "Could he, or could he not?",
+  "p": "Alexandrinus says Alcimus knew he \"could\" stand against them; the other witnesses say \"could not\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "δυναται] pr ου ℵV; Latin non potest sustinere eos",
+    "en": "he knew that he could not withstand them",
+    "plain": "knew that he could not stand against them"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἔγνω ὅτι δύναται ὑποστῆναι αὐτούς",
+    "en": "he knew that he could withstand them",
+    "plain": "knew that he could stand against them"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. Alcimus runs to the king because Judas has grown strong; the sense needs \"not\", which Alexandrinus' scribe dropped.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:31",
+  "a": "Capharsalama",
+  "t": "The name of the village",
+  "p": "Alexandrinus writes Charpharsarama; the other witnesses Chapharsalama or Capharsalama.",
+  "readings": [
+   {
+    "w": "Sinaiticus as corrected (ℵ¹) and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "Χαφαρσαλ. ℵ¹V; Latin Capharsalama",
+    "en": "Capharsalama",
+    "plain": "Capharsalama"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "Χαρφαρσαραμά",
+    "en": "Charpharsarama",
+    "plain": "Charpharsarama"
+   },
+   {
+    "w": "Codex Sinaiticus, first hand (ℵ*), in Swete's notes",
+    "orig": "Φαρσαλαμα ℵ*",
+    "en": "Pharsalama",
+    "plain": "Pharsalama"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Alexandrinus. The name is Hebrew <i>kefar shalom</i>, \"village of peace\", which the other witnesses preserve; Alexandrinus has two slips (an added r, and r for l).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:31",
+  "a": "he went out to meet Judas",
+  "t": "\"In battle\"",
+  "p": "Sinaiticus and Venetus add \"in battle\", and the Latin and the KJV say he went out \"to fight\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐξῆλθεν εἰς συνάντησιν τῷ Ἰούδᾳ",
+    "en": "he went out to meet Judas",
+    "plain": "he went out to meet Judas"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "Ιουδα] + εν πολεμω ℵV; Latin exivit obviam Judæ in pugnam",
+    "en": "he went out to meet Judas in battle",
+    "plain": "he went out to meet Judas in battle"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition says what the next verse shows. Alexandrinus' shorter text is kept.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:32",
+  "a": "About five thousand",
+  "t": "Five thousand or five hundred?",
+  "p": "Sinaiticus says five hundred of Nicanor's men fell.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Venetus; Latin Vulgate; KJV",
+    "orig": "ὡς πεντακισχίλιοι; Latin fere quinque millia",
+    "en": "about five thousand",
+    "plain": "About five thousand"
+   },
+   {
+    "w": "Codex Sinaiticus, in Swete's notes",
+    "orig": "πεντακισχιλιοι (-λιους A])] πεντακοσιοι ℵ",
+    "en": "about five hundred",
+    "plain": "About five hundred"
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses have five thousand. Five hundred would suit a skirmish better, and Josephus, who says Nicanor beat Judas there (<i>Antiquities</i> 12.405), would fit the smaller number too, but five thousand has more support.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "7:41",
+  "a": "\"When the king's men blasphemed",
+  "t": "\"The king of the Assyrians\" and \"O Lord\"",
+  "p": "The KJV adds \"O Lord\" and \"of the Assyrians\"; the Latin names Sennacherib.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Sinaiticus; Venetus",
+    "orig": "Οἱ παρὰ τοῦ βασιλέως ὅτε ἐδυσφήμησαν",
+    "en": "those from the king, when they blasphemed",
+    "plain": "\"When the king's men blasphemed"
+   },
+   {
+    "w": "Latin Vulgate; Douay",
+    "orig": "Qui missi erant a rege Sennacherib, Domine; Douay O Lord, when they that were sent by king Sennacherib blasphemed thee",
+    "en": "O Lord, when those sent by King Sennacherib blasphemed you",
+    "plain": "\"O Lord, when King Sennacherib's men blasphemed you"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "O Lord, when they that were sent from the king of the Assyrians blasphemed",
+    "plain": "\"O Lord, when the men sent by the king of the Assyrians blasphemed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek names neither God nor the king; 1 Maccabees avoids naming God, and the readers knew the story. The Latin and the KJV fill in what the story implies.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:28",
+  "a": "no grain, weapons or money shall be given",
+  "t": "\"Or ships\"",
+  "p": "Sinaiticus, Venetus, the Latin and the KJV add \"ships\", as in 8:26.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "οὐ δοθήσεται σῖτος, ὅπλα, ἀργύριον",
+    "en": "grain, weapons, money shall not be given",
+    "plain": "no grain, weapons or money shall be given"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Venetus, in Swete's notes; Latin Vulgate; KJV",
+    "orig": "αργυριον] + πλοα ℵV [sic, for πλοῖα]; Latin triticum, arma, pecunia, naves",
+    "en": "grain, weapons, money, ships",
+    "plain": "no grain, weapons, money or ships shall be given"
+   }
+  ],
+  "follow": 0,
+  "why": "Rome had a navy and the Jews did not, so the Jews' promise in 8:26 includes ships and Rome's here may not have. The other witnesses may have made the two lists match. Alexandrinus is kept.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ }
+]

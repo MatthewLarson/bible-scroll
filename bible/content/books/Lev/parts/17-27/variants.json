@@ -1,0 +1,285 @@
+[
+ {
+  "v": "17:3",
+  "a": "Any man of the house of Israel",
+  "t": "Israelites only, or foreigners too?",
+  "p": "The Greek adds resident foreigners to the slaughter law, matching 17:8, 10, 13 and 15.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Samaritan Pentateuch; Targums; Latin Vulgate; KJV and most English versions",
+    "orig": "אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל",
+    "en": "any man of the house of Israel",
+    "plain": "Any man of the house of Israel"
+   },
+   {
+    "w": "Septuagint (as printed in the Göttingen edition and discussed by Wevers)",
+    "orig": "ἄνθρωπος ἄνθρωπος τῶν υἱῶν Ισραηλ ἢ τῶν προσηλύτων τῶν προσκειμένων ἐν ὑμῖν",
+    "en": "any man of the sons of Israel, or of the proselytes attached among you",
+    "plain": "Any man of the house of Israel, or of the foreigners attached to you,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is shorter, and the Greek looks like a scribe filling out the law to match the verses that follow, which name the foreigner. A shorter text that a later copyist would want to expand is usually the earlier one.",
+  "b": "The difference matters. In the Hebrew the rule that every slaughter must happen at the tent applies only to Israelites, while the blood ban (17:10–14) binds foreigners too. Jacob Milgrom saw this as a careful distinction: a foreigner could slaughter for food at home but must not eat blood. The Greek erases the distinction. For the link to the rules for Gentile believers in Acts 15:20, see the note on 17:10.",
+  "s": [
+   "wevers-leviticus",
+   "milgrom-leviticus17-22"
+  ]
+ },
+ {
+  "v": "17:4",
+  "a": "and does not bring it to the entrance of the tent of meeting to present it",
+  "t": "A longer form of the slaughter law",
+  "p": "The Samaritan, the Greek and a Dead Sea scroll add a clause about burnt offerings and peace offerings.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targums; Latin Vulgate; KJV and most English versions",
+    "orig": "וְאֶל־פֶּתַח אֹהֶל מוֹעֵד לֹא הֱבִיאוֹ לְהַקְרִיב",
+    "en": "and to the entrance of the tent of meeting has not brought it to present it",
+    "plain": "and does not bring it to the entrance of the tent of meeting to present it"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; reported in 4QLev-d (4Q26, first century BC)",
+    "orig": "",
+    "en": "adds: to make it a burnt offering or a peace offering to the LORD, acceptable for a pleasing aroma; and whoever slaughters it outside and does not bring it...",
+    "plain": "and does not bring it to the entrance of the tent of meeting to make it a burnt offering or a peace offering to the LORD, to be accepted as a soothing smell, and whoever slaughters it outside and does not bring it to the entrance of the tent of meeting to present it"
+   }
+  ],
+  "follow": 0,
+  "why": "Most editors keep the shorter Hebrew. The longer text may be an explanatory expansion, though some scholars think the Hebrew lost the clause when a copyist's eye jumped from one \"does not bring it\" to the next.",
+  "b": "The plus is real and early: the Samaritan Pentateuch and the Septuagint agree on it, and the Qumran scroll 4QLev-d is reported to support it (Abegg, Flint and Ulrich). The witnesses differ slightly in wording, so the reading given here summarizes the plus rather than translating any one manuscript. Whichever is original, the longer form makes explicit what the shorter one implies: the animals in view are ones that could have been offered at the tent.",
+  "s": [
+   "abegg-dssb",
+   "tal-samaritan",
+   "wevers-leviticus",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "18:21",
+  "a": "to make them pass over to Molech",
+  "t": "\"Make pass\" or \"make serve\"?",
+  "p": "The Samaritan reads \"make serve\" (one letter different) and the Greek \"to serve a ruler.\" Goes with 20:2.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Targum Onkelos; Latin Vulgate; KJV and most English versions",
+    "orig": "לְהַעֲבִיר לַמֹּלֶךְ",
+    "en": "to make pass over to Molech",
+    "plain": "to make them pass over to Molech"
+   },
+   {
+    "w": "Samaritan Pentateuch",
+    "orig": "להעביד למלך",
+    "en": "to make serve Molech",
+    "plain": "to make them serve Molech"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "λατρεύειν ἄρχοντι",
+    "en": "to serve a ruler",
+    "plain": "to serve a ruler"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Make pass\" is the verb used for Molech everywhere else (2 Kings 23:10; Jeremiah 32:35), including Deuteronomy 18:10 in all witnesses. The Hebrew letters ר (r) and ד (d) look almost alike, so a copyist could easily turn one into the other. The Greek may rest on the same reading as the Samaritan.",
+  "b": "The consonants <i>mlk</i> can be read <i>melekh</i>, \"king,\" or <i>molekh</i>. The Masoretes' vowels may echo <i>boshet</i>, \"shame,\" a way of mocking a foreign god's name, though this is debated. The Samaritan and Greek differ from the Hebrew twice: in the verb, \"make serve\" instead of \"make pass,\" and, in the Greek, in reading <i>mlk</i> as \"ruler\" (<i>archōn</i>), as it does in 20:2–5. Neither says \"burn,\" which matters for the debate over whether the rite killed children or dedicated them (see the note on 18:21). The rabbis also read a dedication: the father hands the child over and passes it through fire (Mishnah Sanhedrin 7:7). Targum Pseudo-Jonathan reads the verse as fathering children with a Gentile woman so that they are raised in foreign worship; the Mishnah tells a translator who renders it as \"making an Aramean woman pregnant\" to be silenced (Megillah 4:9).",
+  "s": [
+   "wevers-leviticus",
+   "tal-samaritan",
+   "mishnah-sanhedrin",
+   "mishnah-megillah",
+   "targum-psj-leviticus",
+   "day-molech"
+  ]
+ },
+ {
+  "v": "20:2",
+  "a": "to Molech",
+  "t": "Molech or \"a ruler\"?",
+  "p": "As in 18:21, the Greek reads \"to a ruler.\" The same reading runs through 20:3–5.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; KJV and most English versions",
+    "orig": "לַמֹּלֶךְ",
+    "en": "to Molech",
+    "plain": "to Molech"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ἄρχοντι",
+    "en": "to a ruler",
+    "plain": "to a ruler"
+   }
+  ],
+  "follow": 0,
+  "why": "See 18:21: the Hebrew vowels mark a name, and the giving of children fits a cult.",
+  "b": "The Septuagint keeps \"ruler\" in 20:3 and 20:4, and in 20:5 renders \"to go astray after Molech\" in the same way. Acts 7:43 quotes Amos 5:26 in Greek with \"the tent of Moloch,\" where the Hebrew of Amos has <i>sikkut malkekhem</i>, \"Sikkut your king.\" So Greek-speaking Jews knew the name, even if the Leviticus translators did not use it.",
+  "s": [
+   "wevers-leviticus",
+   "day-molech"
+  ]
+ },
+ {
+  "v": "20:23",
+  "a": "the nation",
+  "t": "Nation or nations?",
+  "p": "The Hebrew says \"the nation\" (singular); the Samaritan and the Greek have \"the nations.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); KJV",
+    "orig": "הַגּוֹי",
+    "en": "the nation",
+    "plain": "the nation"
+   },
+   {
+    "w": "Samaritan Pentateuch; Septuagint; Syriac; Latin Vulgate (as reported in the BHS apparatus); most modern English versions",
+    "orig": "הַגּוֹיִם",
+    "en": "the nations",
+    "plain": "the nations"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular is the harder reading, and the verse goes on with a plural verb, \"they did,\" which treats the nation as a group of people. The plural looks like a correction to match 18:24 (\"the nations\").",
+  "b": "Many modern translations follow the plural, which matches 18:24 and 18:28. The difference does not change the sense: the Canaanite peoples as a whole. The witness list follows standard reports of the BHS apparatus.",
+  "s": [
+   "tal-samaritan",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "23:11",
+  "a": "on the day after the Sabbath",
+  "t": "Which \"Sabbath\"?",
+  "p": "The Greek reads \"on the day after the first day,\" the Pharisees' view that \"Sabbath\" here means the feast day.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; KJV and most English versions",
+    "orig": "מִמָּחֳרַת הַשַּׁבָּת",
+    "en": "on the morrow of the Sabbath",
+    "plain": "on the day after the Sabbath"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τῇ ἐπαύριον τῆς πρώτης",
+    "en": "on the morrow of the first [day]",
+    "plain": "on the day after the first day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is what the text says. The Greek is an interpretation of it, not a different Hebrew text.",
+  "b": "The Hebrew word is <i>shabbat</i>. The Septuagint, like the Targums and the rabbis, takes it as the first day of Unleavened Bread (15 Nisan), so the sheaf is waved on 16 Nisan and Shavuot falls fifty days later on any day of the week (Talmud, Menachot 65a–66a). The Sadducees and Boethusians, and later the Karaites, read it as the weekly Sabbath, so Shavuot always falls on a Sunday. The Book of Jubilees and some Qumran texts use a fixed calendar with yet another date. Christians who date the resurrection to \"the day after the Sabbath\" see the firstfruits sheaf as a picture of it (1 Corinthians 15:20). See the note on 23:11.",
+  "s": [
+   "wevers-leviticus",
+   "bavli-menachot",
+   "milgrom-leviticus23-27"
+  ]
+ },
+ {
+  "v": "24:16",
+  "a": "speaks the name of the LORD with contempt",
+  "t": "Cursing the Name, or naming it?",
+  "p": "The Greek reads \"names the name of the Lord,\" which later Jewish practice took as a ban on saying the Name at all.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; KJV and most English versions",
+    "orig": "וְנֹקֵב שֵׁם־יְהוָה",
+    "en": "and one who pierces / blasphemes the name of the LORD",
+    "plain": "speaks the name of the LORD with contempt"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "ὀνομάζων δὲ τὸ ὄνομα κυρίου",
+    "en": "one who names the name of the Lord",
+    "plain": "names the name of the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb <i>naqav</i> here follows \"curses his God\" (24:15), and the story is about a man who cursed (24:11). The Hebrew points to speaking the Name with contempt, not simply saying it.",
+  "b": "<i>Naqav</i> means to pierce or to mark out, and so to specify or to name. The Greek takes it in that neutral sense, and the clause repeats in the second half of the verse. Philo understood the verse as making even saying the Name at the wrong time a capital matter (<i>Life of Moses</i> 2.203–206). The Mishnah limits the death penalty to one who curses using the Name itself (Sanhedrin 7:5). The custom of not saying YHWH aloud, reading <i>Adonai</i> instead, is older than the Mishnah and may be connected to readings like this one.",
+  "s": [
+   "wevers-leviticus",
+   "philo-moses",
+   "mishnah-sanhedrin"
+  ]
+ },
+ {
+  "v": "25:30",
+  "a": "that has a wall",
+  "t": "\"Has a wall\" or \"has no wall\"?",
+  "p": "The written Hebrew says the city has \"no\" wall; the Hebrew as read says it has one. They sound the same.",
+  "readings": [
+   {
+    "w": "Qere (the Masoretic reading tradition); Septuagint; Targums; KJV and all modern versions",
+    "orig": "אֲשֶׁר־לוֹ חוֹמָה",
+    "en": "which has a wall",
+    "plain": "that has a wall"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Masoretic Text)",
+    "orig": "אֲשֶׁר־לֹא חוֹמָה",
+    "en": "which has no wall",
+    "plain": "that has no wall"
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is about the walled city of 25:29; unwalled villages are treated differently in 25:31. The written \"not\" is a slip between two words that sound alike, <i>lo</i> \"to it\" and <i>lo'</i> \"not.\"",
+  "b": "This is a classic Ketiv-Qere: the scribes kept the written letters but marked them to be read differently. The same pair of words is confused in about fifteen places in the Hebrew Bible, such as Psalm 100:3 (\"we are his\" or \"not we ourselves\") and Isaiah 9:3.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "25:33",
+  "a": "Whatever someone buys from the Levites, a house sold in a city they hold, will go free in the Jubilee",
+  "t": "A missing \"not\"?",
+  "p": "The Hebrew is hard. The Latin adds \"if it is not redeemed,\" which many translators accept as the sense.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Septuagint; KJV (\"if a man purchase of the Levites\")",
+    "orig": "וַאֲשֶׁר יִגְאַל מִן־הַלְוִיִּם",
+    "en": "and whatever one redeems from the Levites",
+    "plain": "Whatever someone buys from the Levites, a house sold in a city they hold, will go free in the Jubilee"
+   },
+   {
+    "w": "Latin Vulgate; followed in sense by the RSV (\"does not exercise his right of redemption\")",
+    "orig": "si redempta non fuerint",
+    "en": "if they are not redeemed",
+    "plain": "If a house that someone buys from the Levites in a city they hold is not bought back, it will go free in the Jubilee"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain text keeps the Hebrew and takes <i>yig'al</i> in the sense \"acquire, buy\" from a Levite, which makes good sense without adding a word. The Latin reading is an attempt to smooth the verse, not clear evidence of a different Hebrew text.",
+  "b": "The Hebrew literally says \"whatever one redeems from the Levites,\" which seems odd, because the verse then says the house returns to the Levites anyway. Three solutions are common: read \"buys\" (as here, with the KJV); add \"not\" with the Vulgate, so the verse covers a house that was <i>not</i> redeemed; or take it as a non-Levite buying back a Levite's house. The RSV added \"not\"; the ESV, which revised the RSV, took it out again.",
+  "s": [
+   "milgrom-leviticus23-27",
+   "hartley-leviticus"
+  ]
+ },
+ {
+  "v": "26:11",
+  "a": "my dwelling",
+  "t": "\"My dwelling\" or \"my covenant\"?",
+  "p": "The Greek reads \"I will set my covenant among you,\" where the Hebrew has \"my dwelling.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text; Samaritan Pentateuch; Targums; Latin Vulgate (\"tabernaculum meum\"); KJV and most English versions",
+    "orig": "מִשְׁכָּנִי",
+    "en": "my dwelling, my tabernacle",
+    "plain": "my dwelling"
+   },
+   {
+    "w": "Septuagint",
+    "orig": "τὴν διαθήκην μου",
+    "en": "my covenant",
+    "plain": "my covenant"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew fits the next verse, \"I will walk about among you,\" and the tabernacle theme of Exodus 25–40. The Greek may have been shaped by 26:9 (\"I will keep my covenant\").",
+  "b": "Paul's \"I will dwell in them and walk among them\" (2 Corinthians 6:16) is closer to the Hebrew idea of God's dwelling than to the Greek \"covenant.\" A Greek Leviticus scroll from Qumran, 4QLXXLev-a (4Q119), covers parts of 26:2–16 and differs in places from the standard Septuagint; published reports do not show it at this word.",
+  "s": [
+   "wevers-leviticus",
+   "abegg-dssb"
+  ]
+ }
+]

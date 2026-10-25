@@ -1,0 +1,595 @@
+[
+ {
+  "v": "17:1",
+  "a": "one of the settlers of Gilead",
+  "t": "Settlers of Gilead, or Tishbe in Gilead?",
+  "p": "The Hebrew letters can be read \"of the settlers of Gilead\" or \"from Tishbe in Gilead.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "מִתֹּשָׁבֵי גִלְעָד",
+    "en": "of the settlers of Gilead",
+    "plain": "one of the settlers of Gilead"
+   },
+   {
+    "w": "Septuagint (Greek, ek Thesbōn tēs Galaad); Josephus; most modern translations (NIV, ESV, NRSV)",
+    "orig": "ἐκ Θεσβων τῆς Γαλααδ (= מִתִּשְׁבֵּי גִלְעָד)",
+    "en": "from Tishbe of Gilead",
+    "plain": "from Tishbe in Gilead"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same in both readings (<i>mtshby</i>); only the vowels differ. The Masoretes read <i>mittoshave</i>, \"of the settlers,\" a word used for resident outsiders (Leviticus 25:23 has the related <i>toshav</i>). The Greek read <i>mittishbe</i>, \"from Tishbe,\" which explains the title \"the Tishbite\" just before. No town called Tishbe in Gilead is otherwise known (Tobit 1:2 places a Thisbe in Naphtali), and the repetition \"the Tishbite, from Tishbe\" is a little odd. The Plain English follows the Hebrew vowels; many good scholars prefer the Greek, and the meaning barely changes: Elijah came from Gilead, east of the Jordan.",
+  "s": [
+   "cogan-1kings",
+   "rahlfs-lxx",
+   "burney-kings"
+  ]
+ },
+ {
+  "v": "17:15",
+  "a": "She ate, and he did",
+  "t": "\"She and he\" or \"he and she\"?",
+  "p": "The written Hebrew says \"he and she ate\"; the reading tradition says \"she and he.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); most translations",
+    "orig": "וַתֹּאכַל הִיא וָהוּא",
+    "en": "and she ate, she and he",
+    "plain": "She ate, and he did"
+   },
+   {
+    "w": "Masoretic written text (Ketiv)",
+    "orig": "הוּא וָהִיא",
+    "en": "he and she",
+    "plain": "He ate, and she did"
+   }
+  ],
+  "follow": 0,
+  "why": "The written consonants have the pronouns in the order \"he and she\"; the Masoretes marked them to be read \"she and he,\" which agrees with the feminine verb \"she ate.\" The difference is only one of order, but it shows the care with which the reading tradition was kept. The Plain English follows the reading tradition, as almost all translations do.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "17:21",
+  "a": "Three times he lay stretched out full length on top of the boy.",
+  "t": "Stretched out, or breathed?",
+  "p": "The Greek says Elijah \"breathed on the boy three times,\" not that he stretched himself on him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "וַיִּתְמֹדֵד עַל־הַיֶּלֶד שָׁלֹשׁ פְּעָמִים",
+    "en": "and he measured himself over the boy three times",
+    "plain": "Three times he lay stretched out full length on top of the boy."
+   },
+   {
+    "w": "Septuagint (Rahlfs' text, following Codex Vaticanus), as printed",
+    "orig": "καὶ ἐνεφύσησεν τῷ παιδαρίῳ τρίς",
+    "en": "and he breathed on the boy three times",
+    "plain": "Three times he breathed on the boy."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is rare and vivid; the Greek may be guessing at it, or it may reflect a Hebrew text with <i>vayyippach</i>, \"he breathed,\" as in God breathing life into Adam (Genesis 2:7). The Greek reading makes a lovely link with creation, and some interpreters prefer it for that reason, but the harder Hebrew reading is more likely original, and Elisha's parallel act (2 Kings 4:34) supports it. The Greek also tells the next verse differently (see 17:22). The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "17:22",
+  "a": "The LORD granted Elijah's prayer. The boy's life came back inside him, and he lived.",
+  "t": "\"The boy cried out\"",
+  "p": "The Greek has no line about the LORD hearing Elijah. It says simply that the boy cried out.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "וַיִּשְׁמַע יְהוָה בְּקוֹל אֵלִיָּהוּ וַתָּשָׁב נֶפֶשׁ־הַיֶּלֶד עַל־קִרְבּוֹ וַיֶּחִי",
+    "en": "and the LORD listened to the voice of Elijah, and the life of the boy returned within him, and he lived",
+    "plain": "The LORD granted Elijah's prayer. The boy's life came back inside him, and he lived."
+   },
+   {
+    "w": "Septuagint (Rahlfs' text, following Codex Vaticanus), as printed",
+    "orig": "καὶ ἐγένετο οὕτως, καὶ ἀνεβόησεν τὸ παιδάριον",
+    "en": "and it was so, and the child cried out",
+    "plain": "And so it was, and the boy cried out."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek tells the raising more briefly and differently. After Elijah breathes on the boy three times (17:21), the child cries out, the first sign of life. There is no line saying the LORD heard Elijah's voice. The Hebrew stresses that the LORD answers the prophet's prayer and that life returns from God, which suits a chapter about who gives life. Many scholars think the Greek translator worked from a different or damaged Hebrew copy here. The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "18:22",
+  "a": "The prophets of Baal number four hundred fifty men.",
+  "t": "The prophets of Asherah at Carmel?",
+  "p": "The Greek adds \"and the prophets of the grove, four hundred,\" so the prophets of Asherah are present too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "וּנְבִיאֵי הַבַּעַל אַרְבַּע־מֵאוֹת וַחֲמִשִּׁים אִישׁ",
+    "en": "and the prophets of Baal are four hundred and fifty men",
+    "plain": "The prophets of Baal number four hundred fifty men."
+   },
+   {
+    "w": "Septuagint (Rahlfs' text, following Codex Vaticanus), as printed",
+    "orig": "καὶ οἱ προφῆται τοῦ ἄλσους τετρακόσιοι",
+    "en": "(adds) and the prophets of the grove, four hundred",
+    "plain": "The prophets of Baal number four hundred fifty men, and the prophets of the Asherah four hundred."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek, which renders <i>Asherah</i> as \"the grove\" (<i>alsos</i>), counts the prophets of Asherah among Elijah's opponents here, since 18:19 had summoned them. Most scholars see a harmonizing addition: a scribe noticed that the 400 were summoned and made them present. Others think the Hebrew lost them, or that both mentions of them were added later. Either way, only the prophets of Baal take part in the contest and are killed in the Hebrew (18:25, 18:40). The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "18:37",
+  "a": "Answer me, LORD! Answer me!",
+  "t": "\"Answer me today by fire\"",
+  "p": "The Greek adds to Elijah's prayer: \"Hear me, Lord, hear me today by fire.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "עֲנֵנִי יְהוָה עֲנֵנִי",
+    "en": "answer me, LORD, answer me",
+    "plain": "Answer me, LORD! Answer me!"
+   },
+   {
+    "w": "Septuagint (Rahlfs' text), as printed at the end of 18:36",
+    "orig": "ἐπάκουσόν μου, κύριε, ἐπάκουσόν μου σήμερον ἐν πυρί",
+    "en": "hear me, Lord, hear me today in fire",
+    "plain": "Answer me, LORD! Answer me today with fire!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek makes explicit what the whole scene assumes, that the answer will come by fire (18:24). Such explaining additions are common in translations and are usually judged secondary. The Hebrew is shorter and the request stays open: Elijah does not tell God how to answer. The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "19:2",
+  "a": "Jezebel sent a messenger to Elijah with these words:",
+  "t": "\"If you are Elijah, I am Jezebel\"",
+  "p": "The Greek begins Jezebel's message with a taunt: \"If you are Elijah, then I am Jezebel.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "וַתִּשְׁלַח אִיזֶבֶל מַלְאָךְ אֶל־אֵלִיָּהוּ לֵאמֹר",
+    "en": "and Jezebel sent a messenger to Elijah, saying",
+    "plain": "Jezebel sent a messenger to Elijah with these words:"
+   },
+   {
+    "w": "Septuagint (Rahlfs' text), as printed",
+    "orig": "εἰ σὺ εἶ Ηλιου καὶ ἐγὼ Ιεζαβελ",
+    "en": "if you are Elijah, then I am Jezebel",
+    "plain": "Jezebel sent a messenger to Elijah with these words: \"If you are Elijah, then I am Jezebel!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek line sharpens the duel: two names, each claiming a god (Elijah, \"my God is the LORD\"; Jezebel, perhaps \"where is the prince?\", a cry from the Baal myths). It may preserve an old Hebrew line lost from the Masoretic Text, or it may be a translator's flourish. With no Hebrew support, the Plain English follows the Masoretic Text and shows the Greek here.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "19:3",
+  "a": "Elijah was afraid.",
+  "t": "Afraid, or \"he saw\"?",
+  "p": "The same Hebrew letters can mean \"he saw\" or \"he was afraid.\" The Masoretes chose \"saw.\"",
+  "readings": [
+   {
+    "w": "Some Hebrew manuscripts; Septuagint (<i>ephobēthē</i>); Syriac; Latin Vulgate; NIV, ESV, NRSV",
+    "orig": "וַיִּרָא",
+    "en": "and he feared",
+    "plain": "Elijah was afraid."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) vowels; KJV",
+    "orig": "וַיַּרְא",
+    "en": "and he saw",
+    "plain": "Elijah saw it."
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings have the same consonants, <i>vyr'</i>. The Masoretic vowels give \"and he saw,\" which leaves the object unstated (\"saw how things stood\"). The ancient translations and some Hebrew manuscripts read \"and he was afraid,\" which explains why he runs for his life. Some literary readers prefer \"saw,\" arguing that the narrator avoids saying Elijah was afraid. The Plain English follows \"was afraid\": it is supported by the oldest translations and makes the plainer sense of the next words.",
+  "s": [
+   "cogan-1kings",
+   "burney-kings"
+  ]
+ },
+ {
+  "v": "19:18",
+  "a": "But I will keep seven thousand left in Israel",
+  "t": "\"I will leave,\" \"you will leave\" or \"I have left\"?",
+  "p": "The Hebrew has God say \"I will leave\"; the Greek, \"you will leave\"; Paul, \"I have left for myself.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); most translations",
+    "orig": "וְהִשְׁאַרְתִּי בְיִשְׂרָאֵל שִׁבְעַת אֲלָפִים",
+    "en": "and I will leave in Israel seven thousand",
+    "plain": "But I will keep seven thousand left in Israel"
+   },
+   {
+    "w": "Septuagint (Rahlfs' text, following Codex Vaticanus), as printed",
+    "orig": "καὶ καταλείψεις ἐν Ισραηλ ἑπτὰ χιλιάδας ἀνδρῶν",
+    "en": "and you will leave in Israel seven thousand men",
+    "plain": "But you will leave seven thousand men in Israel"
+   },
+   {
+    "w": "Romans 11:4 (Paul's citation)",
+    "orig": "κατέλιπον ἐμαυτῷ ἑπτακισχιλίους ἄνδρας",
+    "en": "I have left for myself seven thousand men",
+    "plain": "But I have left for myself seven thousand men in Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>vehish'arti</i> is a perfect with \"and,\" which usually points to the future, \"I will leave,\" though it can be read as past, \"I have left.\" The Greek of 1 Kings makes Elijah the subject, \"you will leave,\" and later in the verse has \"every mouth that has not worshiped him\" where the Hebrew has \"kissed.\" Paul's wording in Romans 11:4 is his own: closer to the Hebrew in person, with God speaking, but past in tense, and with \"for myself\" added. The Plain English follows the Hebrew and reads the verb as future.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "21:1",
+  "a": "After these things, the following took place.",
+  "t": "Naboth before the Aramean wars?",
+  "p": "The Greek puts the Naboth story (chapter 21) before the wars with Aram (chapter 20).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה",
+    "en": "and it was after these things",
+    "plain": "After these things, the following took place."
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 20:1, where this chapter follows 19:21 directly), as printed by Rahlfs; the Greek manuscripts agree on this order",
+    "orig": "Καὶ ἀμπελὼν εἷς ἦν τῷ Ναβουθαι",
+    "en": "and there was a vineyard belonging to Naboth",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "In the Greek translation, called 3 Kingdoms there, the Naboth story comes right after Elijah's call of Elisha, and the two battle chapters with Aram (our 20 and 22) then stand together. The Greek, as printed by Rahlfs, opens simply \"And there was a vineyard,\" without \"after these things,\" which fits that order. Scholars are divided. Some think the Greek keeps the older order, which groups the Elijah stories and puts Elijah's prophecy against Ahab just before the battle where Ahab dies. Others think the Hebrew order is original: chapter 20 ends with a prophet condemning Ahab, and chapter 21 then shows why the sentence is just; and Ahab's mood in 20:43 and 21:4 is described with the same words. The Plain English follows the Hebrew order and wording, as every English Bible does.",
+  "b": "The difference matters for reading. In the Hebrew order, 20:43 and 21:4 lie side by side, and Ahab's repentance (21:27–29) comes just before his death (22). In the Greek order, the Elijah cycle (chapters 17–19 and 21) ends before the Aram wars (20 and 22) begin. Both orders make sense, and both are old. This site shows the Hebrew order, with the Greek order noted here and at 20:1.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "21:1",
+  "a": "In Jezreel there was a vineyard that belonged to Naboth the Jezreelite. It lay next to the palace of Samaria's king, Ahab.",
+  "t": "In Jezreel, or at Samaria?",
+  "p": "The Greek has no \"in Jezreel\" and puts the vineyard beside Ahab's threshing floor, not his palace.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "כֶּרֶם הָיָה לְנָבוֹת הַיִּזְרְעֵאלִי אֲשֶׁר בְּיִזְרְעֶאל אֵצֶל הֵיכַל אַחְאָב מֶלֶךְ שֹׁמְרוֹן",
+    "en": "a vineyard belonged to Naboth the Jezreelite, which was in Jezreel, beside the palace of Ahab king of Samaria",
+    "plain": "In Jezreel there was a vineyard that belonged to Naboth the Jezreelite. It lay next to the palace of Samaria's king, Ahab."
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 20:1), as printed by Rahlfs",
+    "orig": "ἀμπελὼν εἷς ἦν τῷ Ναβουθαι τῷ Ιεζραηλίτῃ παρὰ τῷ ἅλῳ Αχααβ βασιλέως Σαμαρείας",
+    "en": "there was a vineyard belonging to Naboth the Jezreelite, beside the threshing floor of Ahab king of Samaria",
+    "plain": "Naboth the Jezreelite had a vineyard. It lay next to the threshing floor of Ahab king of Samaria."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew sets the vineyard in Jezreel, beside the king's palace (<i>heikhal</i>). The Greek has no \"which was in Jezreel\" and reads \"threshing floor\" (<i>halōn</i>) instead of \"palace.\" Since Ahab is \"king of Samaria,\" the Greek story could be set at the capital. Some scholars think the Greek keeps an older form in which Naboth died at Samaria, which would explain why Ahab's blood is licked up there (22:38; see the note on 21:19). Others think the phrase was lost in the Greek or its Hebrew source, and 2 Kings 9:25–26 places Naboth's plot at Jezreel. The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings",
+   "gray-kings"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "Ahab heard the news that Naboth had died.",
+  "t": "Did Ahab mourn Naboth?",
+  "p": "The Greek adds that when he heard of Naboth's death, Ahab tore his clothes and put on sackcloth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "וַיְהִי כִשְׁמֹעַ אַחְאָב כִּי מֵת נָבוֹת",
+    "en": "and when Ahab heard that Naboth was dead",
+    "plain": "Ahab heard the news that Naboth had died."
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 20:16, Rahlfs' text), as printed",
+    "orig": "καὶ διέρρηξεν τὰ ἱμάτια αὐτοῦ καὶ περιεβάλετο σάκκον",
+    "en": "and he tore his clothes and put on sackcloth",
+    "plain": "Ahab heard the news that Naboth had died. He tore his clothes and put on sackcloth."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives Ahab a show of mourning before he goes to take the vineyard, perhaps to make him less guilty, or to make him more hypocritical. It may also have been drawn from 21:27, where Ahab does tear his clothes after Elijah's sentence. The shorter Hebrew is more likely original. The Plain English follows it.",
+  "s": [
+   "rahlfs-lxx",
+   "gray-kings"
+  ]
+ },
+ {
+  "v": "21:19",
+  "a": "the dogs will lick up your own blood too.",
+  "t": "Dogs, pigs and prostitutes",
+  "p": "The Greek says pigs and dogs licked Naboth's blood, and adds that prostitutes will bathe in Ahab's.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "יָלֹקּוּ הַכְּלָבִים אֶת־דָּמְךָ גַּם־אָתָּה",
+    "en": "the dogs will lick your blood, yours too",
+    "plain": "the dogs will lick up your own blood too."
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 20:19, Rahlfs' text), as printed",
+    "orig": "λείξουσιν οἱ κύνες τὸ αἷμά σου, καὶ αἱ πόρναι λούσονται ἐν τῷ αἵματί σου",
+    "en": "the dogs will lick your blood, and the prostitutes will wash in your blood",
+    "plain": "the dogs will lick up your own blood too, and the prostitutes will bathe in your blood."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek also says that \"the pigs and the dogs\" licked Naboth's blood. Its fuller wording matches what happens in 22:38, where the Hebrew too mentions the prostitutes; the Greek seems to have made the prophecy and the fulfillment agree. That kind of harmonizing is usually a later step, so the Plain English follows the shorter Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "21:23",
+  "a": "by the rampart of Jezreel",
+  "t": "Rampart, or plot of land?",
+  "p": "The Hebrew says \"by the rampart (chel)\"; some manuscripts and 2 Kings 9:36 have \"in the plot (chelek)\" of Jezreel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint (<i>en tō proteichismati</i>, \"by the outer wall\"); KJV, NIV, ESV",
+    "orig": "בַּחֵל יִזְרְעֶאל",
+    "en": "by the rampart of Jezreel",
+    "plain": "by the rampart of Jezreel"
+   },
+   {
+    "w": "Some Hebrew manuscripts; Latin Vulgate (<i>in agro</i>, \"in the field\"); compare 2 Kings 9:10 and 9:36",
+    "orig": "בְּחֵלֶק יִזְרְעֶאל",
+    "en": "in the plot of Jezreel",
+    "plain": "in the plot of land at Jezreel"
+   }
+  ],
+  "follow": 0,
+  "why": "When Jehu quotes the prophecy he says \"in the plot of Jezreel\" (2 Kings 9:36), and the field where Joram's body is thrown is Naboth's plot (2 Kings 9:21–26). One letter separates the two words. Some scholars think <i>chelek</i>, \"plot,\" is original here and fits the theme of the stolen land. But the Hebrew and the Greek agree on \"rampart,\" and a scribe could easily have brought this verse into line with 2 Kings. The Plain English keeps \"rampart.\"",
+  "s": [
+   "cogan-1kings",
+   "burney-kings"
+  ]
+ },
+ {
+  "v": "21:27",
+  "a": "As soon as Ahab heard these words, he ripped his clothes and put sackcloth on his bare skin. He fasted. He slept in the sackcloth, and he walked about slowly and quietly.",
+  "t": "\"On the day he struck down Naboth\"",
+  "p": "The Greek adds Ahab's weeping, and says he put on sackcloth on the day he struck down Naboth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "וַיִּקְרַע בְּגָדָיו וַיָּשֶׂם־שַׂק עַל־בְּשָׂרוֹ וַיָּצוֹם",
+    "en": "and he tore his clothes and put sackcloth on his flesh and fasted",
+    "plain": "As soon as Ahab heard these words, he ripped his clothes and put sackcloth on his bare skin. He fasted. He slept in the sackcloth, and he walked about slowly and quietly."
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 20:27), as printed by Rahlfs",
+    "orig": "καὶ περιεβάλετο σάκκον ἐν ᾗ ἡμέρᾳ ἐπάταξεν Ναβουθαι τὸν Ιεζραηλίτην",
+    "en": "(among other additions) and he put on sackcloth on the day that he struck Naboth the Jezreelite",
+    "plain": "As soon as Ahab heard these words, he was cut to the heart before the LORD. He went about weeping, ripped his clothes, wrapped sackcloth around his body and fasted. He put on sackcloth on the day he struck down Naboth the Jezreelite, and he went on his way."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek expands Ahab's repentance: he is cut to the heart and goes about weeping. It also says he struck down Naboth. That may mean Ahab as the king in whose name the killing was done, and it may connect with the Greek of 21:16, where Ahab already tears his clothes when he hears that Naboth is dead. Either way the Greek lays the blame on Ahab more plainly than the Hebrew, where Jezebel arranges the killing and Ahab takes the vineyard. Most scholars see the longer Greek as an expansion. The Plain English follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "gray-kings"
+  ]
+ },
+ {
+  "v": "22:6",
+  "a": "The Lord will hand it over to the king.",
+  "t": "\"The Lord\" or \"God\"?",
+  "p": "Kings has \"the Lord\" (Adonai); the parallel in 2 Chronicles 18:5 has \"God\" (ha-Elohim).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּלֶךְ",
+    "en": "and the Lord will give it into the king's hand",
+    "plain": "The Lord will hand it over to the king."
+   },
+   {
+    "w": "2 Chronicles 18:5 (the parallel account)",
+    "orig": "וְיִתֵּן הָאֱלֹהִים בְּיַד הַמֶּלֶךְ",
+    "en": "and God will give it into the king's hand",
+    "plain": "God will hand it over to the king."
+   }
+  ],
+  "follow": 0,
+  "why": "Scribes sometimes wrote <i>Adonai</i> in place of the divine name and sometimes the reverse. Chronicles uses \"God\" often where Kings has the name. The Masoretic \"the Lord\" is the harder reading in context, since Jehoshaphat then asks for a prophet \"of the LORD\" (22:7), as if the name had not been used; the Plain English keeps it. See the note on this verse.",
+  "s": [
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "22:28",
+  "a": "And he said, \"Listen, peoples, all of you!\"",
+  "t": "\"Listen, peoples, all of you\"",
+  "p": "These words, the opening of the book of Micah (Micah 1:2), are missing from the main Greek manuscript.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Chronicles 18:27; KJV, NIV, ESV",
+    "orig": "וַיֹּאמֶר שִׁמְעוּ עַמִּים כֻּלָּם",
+    "en": "and he said, Hear, peoples, all of them",
+    "plain": "And he said, \"Listen, peoples, all of you!\""
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (kaige text), as printed by Rahlfs",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words exactly match the first line of Micah of Moresheth (Micah 1:2), a prophet of a century later. Many scholars think a scribe added them because he took Micaiah (\"Who is like the LORD?\") to be the same man as Micah (a short form of the same name). If so, the line was added very early, since Chronicles has it. Others suggest that Micah himself quoted his famous namesake. Because the line is in both Hebrew books, the Plain English keeps it, and shows the shorter Greek here. In 1 Kings 22 Vaticanus carries the kaige revision, which usually follows the Hebrew closely, so its omission here is notable. The committee of the <i>Critique textuelle de l'Ancien Testament</i> kept the Hebrew line and rated that decision fairly certain, judging that the Greek dropped it.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings",
+   "barthelemy-devanciers",
+   "barthelemy-ctat"
+  ]
+ },
+ {
+  "v": "22:30",
+  "a": "put on your own robes",
+  "t": "Your robes, or mine?",
+  "p": "The Hebrew says \"put on your robes\"; the Greek says \"put on my robes,\" as if Jehoshaphat dressed as Ahab.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2 Chronicles 18:29; KJV, NIV, ESV",
+    "orig": "וְאַתָּה לְבַשׁ בְּגָדֶיךָ",
+    "en": "and you, put on your clothes",
+    "plain": "put on your own robes"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (kaige text), as printed by Rahlfs",
+    "orig": "καὶ σὺ ἔνδυσαι τὸν ἱματισμόν μου",
+    "en": "and you, put on my clothing",
+    "plain": "put on my robes"
+   }
+  ],
+  "follow": 0,
+  "why": "If Jehoshaphat wore Ahab's robes, the chariot commanders' mistake (22:32) would be easy to understand, and Ahab's scheme would be openly to put his ally in his place. The Hebrew is less pointed: Jehoshaphat simply dresses as a king while Ahab does not. Some scholars prefer the Greek as the sharper story; others think it is an explanation. Chronicles agrees with the Hebrew, and the Plain English follows it.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "22:32",
+  "a": "and Jehoshaphat cried out.",
+  "t": "What Chronicles adds",
+  "p": "2 Chronicles 18:31 adds: \"and the LORD came to his aid; God lured them away from him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Septuagint",
+    "orig": "וַיִּזְעַק יְהוֹשָׁפָט",
+    "en": "and Jehoshaphat cried out",
+    "plain": "and Jehoshaphat cried out."
+   },
+   {
+    "w": "2 Chronicles 18:31 (the parallel account)",
+    "orig": "וַיִּזְעַק יְהוֹשָׁפָט וַיהוָה עֲזָרוֹ וַיְסִיתֵם אֱלֹהִים מִמֶּנּוּ",
+    "en": "and Jehoshaphat cried out, and the LORD helped him, and God lured them away from him",
+    "plain": "and Jehoshaphat cried out, and the LORD came to his aid. God lured them away from him."
+   }
+  ],
+  "follow": 0,
+  "why": "This is not a manuscript variant of Kings but the parallel text in Chronicles, which used Kings or a source close to it. The Chronicler often explains events by God's help to those who cry to him (2 Chronicles 13:14–15; 2 Chronicles 14:11–12). The Plain English follows 1 Kings; the Chronicles wording is offered so readers can compare.",
+  "s": [
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "22:38",
+  "a": "The dogs licked up his blood, and the prostitutes bathed",
+  "t": "Prostitutes, or armor?",
+  "p": "The KJV says \"they washed his armour,\" after the Aramaic Targum. The Latin has \"reins.\" The Greek adds pigs.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); NIV, ESV, NRSV",
+    "orig": "וַיָּלֹקּוּ הַכְּלָבִים אֶת־דָּמוֹ וְהַזֹּנוֹת רָחָצוּ",
+    "en": "and the dogs licked his blood, and the prostitutes bathed",
+    "plain": "The dogs licked up his blood, and the prostitutes bathed"
+   },
+   {
+    "w": "Targum Jonathan (Aramaic), with the Syriac Peshitta reported to agree; followed by the KJV",
+    "en": "and they washed the armor (the Targum takes zonot as weapons or armor)",
+    "plain": "The dogs licked up his blood, and they washed his armor"
+   },
+   {
+    "w": "Latin Vulgate",
+    "orig": "et linxerunt canes sanguinem eius et habenas laverunt",
+    "en": "and the dogs licked his blood, and they washed the reins",
+    "plain": "The dogs licked up his blood, and they washed the reins"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (kaige text), as printed by Rahlfs",
+    "orig": "καὶ ἐξέλειξαν αἱ ὕες καὶ οἱ κύνες τὸ αἷμα, καὶ αἱ πόρναι ἐλούσαντο ἐν τῷ αἵματι",
+    "en": "and the pigs and the dogs licked the blood, and the prostitutes washed in the blood",
+    "plain": "The pigs and the dogs licked up his blood, and the prostitutes bathed in the blood"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>zonot</i> means \"prostitutes.\" The Targum, perhaps uneasy with the picture, took the word as \"weapons\" or \"armor,\" and the Syriac tradition is reported to read the same way; the KJV followed them, translating \"they washed his armour.\" Jerome's Latin has a third reading, \"they washed the reins,\" keeping to the chariot. The Greek has the prostitutes too, and adds the pigs, as in its version of 21:19. The Plain English follows the Hebrew, as almost all modern translations do.",
+  "b": "The Talmud plays on the same word: \"the prostitutes (<i>zonot</i>) bathed\" is read as \"to fulfil two visions (<i>chazonot</i>)\", those of Elijah and Micaiah (Bavli Sanhedrin 39b).",
+  "s": [
+   "targum-jonathan-prophets",
+   "rahlfs-lxx",
+   "bavli-sanhedrin"
+  ]
+ },
+ {
+  "v": "22:41",
+  "a": "In the fourth year of Ahab king of Israel",
+  "t": "When did Jehoshaphat begin to reign?",
+  "p": "The Greek also gives an earlier notice of Jehoshaphat's reign, after 16:28, dated to the eleventh year of Omri.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all English translations",
+    "orig": "בִּשְׁנַת אַרְבַּע לְאַחְאָב מֶלֶךְ יִשְׂרָאֵל",
+    "en": "in the fourth year of Ahab king of Israel",
+    "plain": "In the fourth year of Ahab king of Israel"
+   },
+   {
+    "w": "Septuagint at 3 Kingdoms 16:28a (Rahlfs' text), in a summary of Jehoshaphat's reign placed after Omri's",
+    "orig": "ἐν ἔτει ἑνδεκάτῳ τοῦ Αμβρι",
+    "en": "in the eleventh year of Omri",
+    "plain": "In the eleventh year of Omri king of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek of Kings has its own system of dates for the ninth century. In it Jehoshaphat begins to reign before Ahab, and his reign is summarized after 16:28. James Donald Shenkel argued that this system, best kept in the Lucianic manuscripts, goes back to the Old Greek and to a Hebrew text that differed from ours. Others think the Greek chronology is a later attempt to fix the difficult numbers of the Hebrew. Codex Vaticanus, in its revised kaige text, repeats only part of the notice here: in Brenton's English of that text, 22:41–45 are present, but the Hebrew's closing items on the shrine men, Edom and the ships (22:46–49 in English) are missing, and similar items stand only in the Greek summary after 16:28. The Plain English follows the Masoretic Text.",
+  "s": [
+   "shenkel-chronology",
+   "rahlfs-lxx",
+   "thiele-numbers"
+  ]
+ },
+ {
+  "v": "22:48",
+  "a": "Jehoshaphat made Tarshish ships",
+  "t": "Made ships, or ten ships?",
+  "p": "The written Hebrew can be read \"Jehoshaphat had ten ships\"; the reading tradition says \"made.\"",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); most translations",
+    "orig": "יְהוֹשָׁפָט עָשָׂה אֳנִיּוֹת תַּרְשִׁישׁ",
+    "en": "Jehoshaphat made Tarshish ships",
+    "plain": "Jehoshaphat made Tarshish ships"
+   },
+   {
+    "w": "Masoretic written text (Ketiv), read as a number",
+    "orig": "עָשָׂר",
+    "en": "ten (Tarshish ships)",
+    "plain": "Jehoshaphat had ten Tarshish ships"
+   }
+  ],
+  "follow": 0,
+  "why": "The written text has <i>'sr</i>, which could be \"ten\" (<i>'eser</i>) or a slip for <i>'sh</i>, \"made.\" The reading tradition corrects it to \"made,\" which suits the grammar, and the verse's next verb, \"they were wrecked,\" is also written in an odd form. The Plain English follows the reading tradition.",
+  "s": [
+   "tov-tchb"
+  ]
+ }
+]

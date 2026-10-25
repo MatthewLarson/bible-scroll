@@ -1,0 +1,994 @@
+[
+ {
+  "v": "1:6",
+  "a": "Cheleoul",
+  "t": "Cheleoul or Cheleoud",
+  "p": "The unknown people are Cheleoul in Vaticanus, Cheleoud in Alexandrinus (the KJV's \"Chelod\").",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Χελεούλ",
+    "en": "Cheleoul",
+    "plain": "Cheleoul"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV (\"Chelod\") follows a text like this",
+    "orig": "Χελεουδ",
+    "en": "Cheleoud",
+    "plain": "Cheleoud"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*); a corrector wrote Χελαιουδ",
+    "orig": "Χεσλαιουδα",
+    "en": "Cheslaiouda",
+    "plain": "Cheslaiouda"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. No one knows who these people were, so no reading can be preferred on sense. Some have guessed the Chaldeans or Chalybians.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "Persia",
+  "t": "Persia or Jamnia",
+  "p": "Sinaiticus first read Jamnia, a coastal town, for Persia. A corrector wrote both.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "τὴν Περσίδα",
+    "en": "Persia",
+    "plain": "Persia"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*)",
+    "orig": "Ιαμνιαν",
+    "en": "Jamnia",
+    "plain": "Jamnia"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, a corrector (ℵc.a)",
+    "orig": "την ΙΙ. κ Ιαμν. (Swete's abbreviation, as printed in the digital text: \"Persia and Jamnia\")",
+    "en": "Persia and Jamnia",
+    "plain": "Persia and Jamnia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. Persia far to the east sits oddly beside a list of western lands, which may be why a scribe of Sinaiticus wrote Jamnia, a town on the coast of Judea (2:28). But Persia is the harder reading and has the better support.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "only a man like any other",
+  "t": "\"An equal man\" or \"one man\"",
+  "p": "Vaticanus says Nebuchadnezzar was to them \"an equal man\". Sinaiticus and Alexandrinus say \"one man\" (KJV).",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἀνὴρ ἴσος",
+    "en": "an equal man",
+    "plain": "only a man like any other"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"as one man\")",
+    "orig": "εις",
+    "en": "one (man)",
+    "plain": "only one man"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Either way the nations see Nebuchadnezzar as an ordinary man, not a god to be feared, which is the very claim the book will contest (3:8; 6:2). \"One man\" may be a Hebrew idiom for a single person on his own.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "all Idumea",
+  "t": "Idumea or Judea",
+  "p": "Vaticanus has Idumea (Edom). Sinaiticus and Alexandrinus, as first written, have Judea, as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τὴν Ἰδουμαίαν",
+    "en": "Idumea",
+    "plain": "all Idumea"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus, as first written (A*); the KJV follows this text (\"all Judea\")",
+    "orig": "την Ιουδαιαν",
+    "en": "Judea",
+    "plain": "all Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two names differ by a few letters in Greek. Judea would make Nebuchadnezzar's oath include the Jews from the start; Idumea fits the list of Judea's neighbors (Moab, Ammon, Egypt).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "with them, he and all his mixed host, a very great crowd of warriors. There he lounged and feasted, he and his army,",
+  "t": "The feast, and \"to Nineveh\"",
+  "p": "Sinaiticus and Alexandrinus have the 120-day feast; Alexandrinus alone adds \"to Nineveh\". Vaticanus has only \"he went back with them, he and his army, for 120 days\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "μετ αυτων] + αυ- τος (εις Νινευη αυτος A) και πας ο συ|μικτος (συμμ. A) αυτου πληθος ανδρων πολεμιστων πολυ (πολυν A¹⁽ᵛⁱᵈ) σηφοδρα· και ην εκει ραθυμων (ραμυθων A*) και ευωχουμενος ℵA (Swete's whole note, unaccented, as printed in the digital text; σηφοδρα is a misprint there for σφοδρα; Sinaiticus is the text without the words in brackets)",
+    "en": "with them, he and all his mixed host, a very great crowd of warriors; and he was there taking his ease and feasting",
+    "plain": "with them, he and all his mixed host, a very great crowd of warriors. There he lounged and feasted, he and his army,"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"to Nineve\")",
+    "orig": "(the same note: Alexandrinus reads εις Νινευη αυτος for αυτος)",
+    "en": "with them to Nineveh, he and all his mixed host, a very great crowd of warriors; and he was there taking his ease and feasting",
+    "plain": "with them to Nineveh, he and all his mixed host, a very great crowd of warriors. There he lounged and feasted, he and his army,"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "μετ᾽ αὐτῶν αὐτὸς καὶ ἡ δύναμις αὐτοῦ",
+    "en": "with them, he and his army",
+    "plain": "with them, he and his army,"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the few places where the Plain leaves Vaticanus. Its short text says the army \"went back … for a hundred and twenty days,\" which makes little sense, and the longer text explains the 120 days as a victory feast. A scribe's eye most likely jumped from the first <i>autos</i> (\"he\") to the second, dropping the words between. Of the longer text the Plain follows Sinaiticus, without \"to Nineveh\": a single witness adds it, and it reads like a scribe's explanation of where \"back\" was.",
+  "b": "Where the king went back to is not said in Sinaiticus or Vaticanus, but the story implies Nineveh, his city (1:1; 2:21). The feast of 120 days answers the feast of Ahasuerus in Esther 1:4 (\"180 days\").",
+  "s": [
+   "swete-ot",
+   "moore-judith"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "In the eighteenth year",
+  "t": "The eighteenth or the thirteenth year",
+  "p": "The Greek dates the council to the eighteenth year; the Vulgate to the thirteenth.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἐν τῷ ἔτει τῷ ὀκτωκαιδεκάτῳ",
+    "en": "in the eighteenth year",
+    "plain": "In the eighteenth year"
+   },
+   {
+    "w": "Latin Vulgate of Jerome (Clementine edition, 1592) and Douay-Rheims",
+    "orig": "Anno tertiodecimo",
+    "en": "in the thirteenth year",
+    "plain": "In the thirteenth year"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Jerome's shorter Latin also dates the war against Arphaxad to Nebuchadnezzar's twelfth year (Anno igitur duodecimo, Vulgate 1:5) rather than the seventeenth (Greek 1:13), so his \"thirteenth\" follows on from his own dates. Jeremiah dates a deportation from Jerusalem to Nebuchadnezzar's eighteenth year (Jeremiah 52:29).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "twelve thousand",
+  "t": "Twelve thousand or a hundred and twenty thousand horsemen",
+  "p": "Vaticanus as first written gives 120,000 horsemen. Its correctors, Sinaiticus and Alexandrinus have 12,000.",
+  "readings": [
+   {
+    "w": "Correctors of Codex Vaticanus (Bᵃᵇ), Codex Alexandrinus (A) and Codex Sinaiticus (ℵ; its first hand wrote χειλιαδες, the corrector ℵc.a fixed the ending), from Swete's apparatus; the KJV follows this text",
+    "orig": "χιλιαδας (for μυριαδας)",
+    "en": "twelve thousands",
+    "plain": "twelve thousand"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete, as first written",
+    "orig": "μυριάδας δέκα δύο",
+    "en": "twelve myriads (120,000)",
+    "plain": "a hundred and twenty thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain leaves Vaticanus here. The book itself counts 12,000 horsemen (2:15; 7:2), and the change from <i>chiliades</i> (\"thousands\") to <i>myriades</i> (\"ten thousands\") is an easy slip, perhaps under the influence of 2:15, where the 120,000 picked men are μυριάδας δέκα δύο. Vaticanus's own correctors made the change.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "Tell them to",
+  "t": "\"Tell them\"",
+  "p": "Vaticanus as first written lacks \"you will tell them\", so the sentence runs on from verse 6.",
+  "readings": [
+   {
+    "w": "Correctors of Codex Vaticanus (Bᵃᵇ), Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), from Swete's apparatus; the KJV follows this text",
+    "orig": "και + απαγγελεις αυτοις",
+    "en": "and you will tell them to get ready",
+    "plain": "Tell them to"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete, as first written",
+    "orig": "καὶ ἑτοιμάζειν",
+    "en": "and to get ready",
+    "plain": "They are to"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain leaves Vaticanus. Without the verb the order has no one to give it, and the other great codices and Vaticanus's correctors supply it. The short text probably lost two words by accident.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:21",
+  "a": "toward the plain of Bectileth",
+  "t": "Bectileth, or Bethulia?",
+  "p": "Sinaiticus as first written has \"Baitoulia\", nearly the name of Bethulia, for the unknown Bectileth.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "Βαικτειλαίθ",
+    "en": "Bectileth",
+    "plain": "toward the plain of Bectileth"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*); a corrector wrote Βεκτιλεθ",
+    "orig": "Βαιτουλια",
+    "en": "Baitoulia",
+    "plain": "toward the plain of Baitoulia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The march leads from Nineveh toward Cilicia, far from Bethulia, and the first scribe of Sinaiticus seems to have written a name he knew from later in the book. Sinaiticus also spells Bethulia Baitoulia at 4:6.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "the Ishmaelites",
+  "t": "Ishmaelites or Israelites",
+  "p": "The KJV has \"the children of Israel\" here, where the Greek manuscripts in Swete have the sons of Ishmael.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Alexandrinus; Codex Sinaiticus as corrected",
+    "orig": "υἱοὺς Ἰσμαὴλ",
+    "en": "the sons of Ishmael",
+    "plain": "the Ishmaelites"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "the children of Israel",
+    "plain": "the Israelites"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*)",
+    "orig": "Μαηκ",
+    "en": "Maek",
+    "plain": "the people of Maek"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Desert peoples \"toward the wilderness\" fit the Ishmaelites, the Arab tribes of Genesis 25:12–18. Israel has no place in this list, which Holofernes conquers before he ever reaches Judea. Where the KJV's \"Israel\" came from is not known.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "Chaldeans",
+  "t": "Chaldeans or Chelleans",
+  "p": "Vaticanus has the Chaldeans. Sinaiticus and Alexandrinus have Cheleon, the KJV's \"Chellians\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Χαλδαίων",
+    "en": "of the Chaldeans",
+    "plain": "Chaldeans"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"the Chellians\")",
+    "orig": "Χελεων",
+    "en": "of the Cheleans",
+    "plain": "Chelleans"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. \"Chelleans\" may be the same unknown people as the Cheleoul of 1:6; \"Chaldeans\" may be a scribe's replacement of an unfamiliar name with a familiar one. Neither is certain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:24",
+  "a": "Abron",
+  "t": "Abron, Chebron or Arbonai",
+  "p": "The unknown wadi is Abron in Vaticanus, Chebron in Sinaiticus and Arbonai in the KJV.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ἀβρωνὰ",
+    "en": "Abrona",
+    "plain": "Abron"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "Χεβρων",
+    "en": "Chebron",
+    "plain": "Chebron"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "Arbonai",
+    "plain": "Arbonai"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. No river of this name is known. Some have suggested the Habor (Khabur), a tributary of the Euphrates, or a garbling of \"Hebrew\" for \"across\" the river.",
+  "s": [
+   "swete-ot",
+   "moore-judith"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "Sur",
+  "t": "Sur or Assur",
+  "p": "Vaticanus as first written says Assur (Assyria), among the towns of the coast. Its correctors and the other codices read Sur.",
+  "readings": [
+   {
+    "w": "Correctors of Codex Vaticanus (Bᵃᵇ), Codex Sinaiticus as corrected and Codex Alexandrinus, from Swete's apparatus; the KJV follows this text",
+    "orig": "Σουρ",
+    "en": "Sur",
+    "plain": "Sur"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete, as first written",
+    "orig": "Ἀσσοὺρ",
+    "en": "Assur",
+    "plain": "Assur"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*)",
+    "orig": "Τουρ",
+    "en": "Tur",
+    "plain": "Tur"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain leaves Vaticanus. Assyria cannot be one of the coastal towns afraid of Assyria's own army; Sur is probably Tyre (Hebrew <i>Tsor</i>) or a coastal town near it. The first scribe of Vaticanus seems to have written a familiar name.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "Ashdod and Ashkelon",
+  "t": "Gaza added",
+  "p": "Sinaiticus adds Gaza to the Philistine towns.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "Ἀζώτῳ καὶ Ἀσκάλωνι",
+    "en": "Azotus and Ascalon",
+    "plain": "Ashdod and Ashkelon"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "Ασκαλωνι + και Γαζη",
+    "en": "and Ascalon and Gaza",
+    "plain": "Ashdod, Ashkelon and Gaza"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. Gaza was the chief of the Philistine towns, and a scribe may have added it to complete the list (compare 1 Samuel 6:17).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "Our farmsteads,",
+  "t": "\"And all our places\"",
+  "p": "Alexandrinus adds \"and all our places\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "αἱ ἐπαύλεις ἡμῶν",
+    "en": "our farmsteads",
+    "plain": "Our farmsteads,"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus (the digital text of Swete's note reads οπος, evidently for τοπος, \"place\"); the KJV follows this text",
+    "orig": "ημων] + και πας οπος ημων",
+    "en": "our farmsteads and all our place",
+    "plain": "Our farmsteads, and all our places,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The extra words add nothing to the sense and look like an expansion of a list.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "near Dothan",
+  "t": "Dothan or Judea",
+  "p": "The KJV has \"near unto Judea\" where the Greek manuscripts in Swete have Dothaia (Dothan).",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Alexandrinus (\"Δωτεας\")",
+    "orig": "Δωταίας",
+    "en": "of Dothaia",
+    "plain": "near Dothan"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "near unto Judea",
+    "plain": "near Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Dothan is named again as the place of the camp (4:6; 7:3). The source of the KJV's \"Judea\" is not known. The first scribe of Sinaiticus left out the second half of the verse.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "temples",
+  "t": "Temples or territories",
+  "p": "Alexandrinus says Holofernes looted all their \"territories\" rather than their \"temples\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἱερὰ",
+    "en": "sacred places, temples",
+    "plain": "temples"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
+    "orig": "ορια",
+    "en": "borders, territories",
+    "plain": "lands"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two Greek words look alike. \"Temples\" fits 3:8, where he is to destroy all the gods of the land (and where many scholars read \"shrines\" for \"territory\"; see the note there), and it explains why Judea fears for its own temple in 4:2–3.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:4",
+  "a": "Kona",
+  "t": "Kona, Kola or \"the villages\"",
+  "p": "The unknown town is Kona in Vaticanus, Kola in Sinaiticus, Konas in Alexandrinus. The KJV has \"the villages\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Κωνὰ",
+    "en": "Kona",
+    "plain": "Kona"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "Κωλα",
+    "en": "Kola",
+    "plain": "Kola"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "the villages",
+    "plain": "the villages"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The source of the KJV's \"the villages\" is not known. The place is unknown; Kola may be the Choba or Chola of 15:4.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "and Betomasthaim, which faces Esdraelon, across from the plain near Dothan",
+  "t": "Betomasthaim left out",
+  "p": "Sinaiticus lacks Betomasthaim and the plain, so Joakim writes only to Bethulia, \"facing Dothan\". Its first scribe also wrote \"heard\" for \"wrote\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "καὶ Βαιτομαισθάιμ, ἥ ἐστιν ἀπέναντι Ἐσρηλὼν κατὰ πρόσωπον τοῦ πεδίου τοῦ πλησίον Δωθάειμ",
+    "en": "and Baitomaisthaim, which is opposite Esrelon, facing the plain near Dothaeim",
+    "plain": "and Betomasthaim, which faces Esdraelon, across from the plain near Dothan"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "om και Βαιτομαισθαιμ… Εσρηλων; om του πεδιου του πλησιον",
+    "en": "facing Dothaeim",
+    "plain": "across from Dothan"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. Betomasthaim appears again in 15:4, which supports the longer text here; Sinaiticus may have skipped from one place name to the next.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "and they humbled themselves with great earnestness.",
+  "t": "\"With great fasting\"",
+  "p": "Sinaiticus lacks the second \"with great earnestness\"; a corrector added \"with great fasting\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "καὶ ἐταπεινοῦσαν τὰς ψυχὰς αὐτῶν ἐν ἐκτενείᾳ μεγάλῃ",
+    "en": "and they humbled their souls with great earnestness",
+    "plain": "and they humbled themselves with great earnestness."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written",
+    "orig": "om εν εκτενεια μεγαλη (2°)",
+    "en": "and they humbled their souls",
+    "plain": "and they humbled themselves."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, a corrector (ℵc.a)",
+    "orig": "αυτων + νηστια μεγαλη",
+    "en": "and they humbled their souls with great fasting",
+    "plain": "and they humbled themselves with great fasting."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The corrector of Sinaiticus spells out what \"humbling the soul\" meant in the Torah: fasting (Leviticus 16:29–31; Psalm 35:13). The repetition in Vaticanus is typical of the book's Hebrew-style emphasis.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": ", and the vows and freewill gifts of the people",
+  "t": "Vows and freewill gifts left out",
+  "p": "Sinaiticus lacks \"and the vows and freewill gifts of the people\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "καὶ τὰς εὐχὰς καὶ τὰ ἑκούσια δόματα τοῦ λαοῦ",
+    "en": "and the vows and the freewill gifts of the people",
+    "plain": ", and the vows and freewill gifts of the people"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "(lacks the words)",
+    "en": "(no vows or gifts)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. Sinaiticus leaves out several phrases in this chapter (4:6; 4:9). The longer text names the offerings of Numbers 29:39, \"your vow offerings and your freewill offerings.\"",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": " and all the satraps of the coast",
+  "t": "The satraps left out",
+  "p": "Sinaiticus lacks \"and all the satraps of the coast\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "καὶ πάντας σατράπας τῆς παραλίας",
+    "en": "and all the satraps of the coast",
+    "plain": " and all the satraps of the coast"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "(lacks the words)",
+    "en": "(no satraps)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The coastal rulers are present in Holofernes' council again in 5:22. \"Satraps,\" a Persian title, is one of the book's Persian-era touches.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "set them to hard labor and brick-making",
+  "t": "Hard labor or clay",
+  "p": "Sinaiticus says Egypt set Israel to work \"in clay and brick\", the words of Exodus 1:14.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἐν πόνῳ καὶ πλίνθῳ",
+    "en": "with hard labor and brick",
+    "plain": "set them to hard labor and brick-making"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "πηλω (for πονω)",
+    "en": "with clay and brick",
+    "plain": "set them to work in clay and brick"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. The two Greek words look alike (they differ in two letters), and the Greek of Exodus 1:14 has \"in clay and brick.\" The Latin Vulgate also has \"in clay and brick\" (in luto et latere, Vulgate 5:10), which supports Sinaiticus. Either a scribe of Sinaiticus remembered Exodus, or the other codices changed one familiar word for another; the Plain stays with the base text.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": ", and to all the Moabites:",
+  "t": "Where do the Moabites belong?",
+  "p": "Alexandrinus has Holofernes speak \"to all the sons of Moab\" here, in verse 1. In Vaticanus the words stand inside his speech in verse 2, written by a corrector over an erasure. It goes with the variant at 6:2.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"unto Achior and all the Moabites\")",
+    "orig": "αλλοφυλων] των αλλοφ. και προς παντας τους υιους Μωαβ",
+    "en": "of the foreigners, and to all the sons of Moab",
+    "plain": ", and to all the Moabites:"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "(lacks the words here)",
+    "en": "(no Moabites in verse 1)",
+    "plain": "."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain leaves Vaticanus here and in 6:2 and follows Alexandrinus. In Vaticanus the words \"and to all the sons of Moab\" stand inside the speech, where they make no sense in Holofernes' mouth, and Swete reports that \"Moab and\" there is written over an erasure by a corrector (Bᵃᵇ), so what the first hand had is unknown. Alexandrinus gives the words a place where they make sense, as part of the narrator's line. See 6:2.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "Who are you, Achior, and you hirelings of Ephraim,",
+  "t": "The Moabites in the speech",
+  "p": "Vaticanus has \"and to all the sons of Moab\" inside the speech; Alexandrinus lacks it here and has it in verse 1. It goes with the variant at 6:1.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"who art thou, Achior, and the hirelings of Ephraim\")",
+    "orig": "om και προς παντας υιους Μωαβ; Εφραιμ] pr του",
+    "en": "who are you, Achior, and the hirelings of Ephraim",
+    "plain": "Who are you, Achior, and you hirelings of Ephraim,"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete, with \"Moab and\" written by a corrector (Bᵃᵇ) over an erasure",
+    "orig": "τίς εἶ σὺ Ἀχιὼρ καὶ πρὸς πάντας υἱοὺς Μωὰβ καὶ οἱ μισθωτοὶ Ἐφράιμ",
+    "en": "who are you, Achior, and to all the sons of Moab, and the hirelings of Ephraim",
+    "plain": "Who are you, Achior, and to all the sons of Moab, and the hirelings of Ephraim,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Alexandrinus, as at 6:1. Vaticanus's \"and to all the sons of Moab\" is a phrase for the narrator, not for the speaker, and in Vaticanus it rests on a corrector's hand.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "We will burn them up with them",
+  "t": "\"Burn\" or \"tread\"",
+  "p": "Sinaiticus lacks \"with them\". The KJV has \"with them we will tread them under foot\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "κατακαύσομεν γὰρ αὐτοὺς ἐν αὐτοῖς",
+    "en": "for we will burn them with them",
+    "plain": "We will burn them up with them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "om εν αυτοις",
+    "en": "for we will burn them",
+    "plain": "We will burn them up"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "with them we will tread them under foot",
+    "plain": "With them we will trample them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The source of the KJV's \"tread\" is not known; in its wording \"with them\" seems to mean \"with our horses\" (6:3). Sinaiticus solves the puzzle by dropping the phrase.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "Their land",
+  "t": "Territory or mountains",
+  "p": "Sinaiticus and Alexandrinus say \"their mountains will be drunk with blood\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τὰ ὅρια",
+    "en": "their borders, territory",
+    "plain": "Their land"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text",
+    "orig": "τα ορη",
+    "en": "their mountains",
+    "plain": "Their mountains"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The two words look alike in Greek, and the same pair varies at 2:25 and 16:4. \"Mountains\" fits the hill country of Israel and pairs with \"plains\" in the next line.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "when they come back",
+  "t": "\"When they return\" or \"when I return\"",
+  "p": "Vaticanus as first written says \"when they come back\". Its correctors, Sinaiticus and Alexandrinus say \"when I come back\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete, as first written",
+    "orig": "ὅταν ἐπιστρέψωσιν",
+    "en": "when they return",
+    "plain": "when they come back"
+   },
+   {
+    "w": "Correctors of Codex Vaticanus (Bᵃᵇ), Codex Sinaiticus and Codex Alexandrinus, from Swete's apparatus; the KJV follows this text",
+    "orig": "οταν επιστρεψω",
+    "en": "when I return",
+    "plain": "when I come back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus as Swete prints it. \"They\" would be the Israelites returning, defeated, or Holofernes' soldiers returning from the battle; \"I\" makes Holofernes the one who returns. The difference is one or two letters. Most modern editions read \"when I return.\"",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:15",
+  "a": "son of Malchiel",
+  "t": "Malchiel or Sellem",
+  "p": "Sinaiticus as first written calls Charmis \"son of Sellem\". It also first wrote Gothoniou for Othniel.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "υἱὸς Μελχειήλ",
+    "en": "son of Melcheiel",
+    "plain": "son of Malchiel"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus, as first written (ℵ*); a corrector restored \"Melchiel\"",
+    "orig": "ο του Σελλημ",
+    "en": "the son of Sellem",
+    "plain": "son of Sellem"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, with Alexandrinus and the corrector of Sinaiticus. Malchiel is an old name from the tribe of Asher (Genesis 46:17).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "a hundred and seventy thousand foot soldiers and twelve thousand horsemen",
+  "t": "The size of the army",
+  "p": "The Greek gives 170,000 foot and 12,000 horse. The Vulgate gives 120,000 foot and 22,000 horse. Sinaiticus differs too, but its entry in the apparatus is garbled.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἑκατὸν ἑβδομήκοντα καὶ ἱππέων χιλιάδες δέκα δύο",
+    "en": "a hundred and seventy (thousands), and of horsemen twelve thousands",
+    "plain": "a hundred and seventy thousand foot soldiers and twelve thousand horsemen"
+   },
+   {
+    "w": "Latin Vulgate of Jerome (Clementine edition, 1592) and Douay-Rheims (Vulgate 7:2)",
+    "orig": "centum viginti millia, et equites viginti duo millia",
+    "en": "a hundred and twenty thousand, and horsemen twenty-two thousand",
+    "plain": "a hundred and twenty thousand foot soldiers and twenty-two thousand horsemen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Vulgate keeps the figure of 120,000 foot soldiers from 2:5, without the allies who joined later (2:20; 3:6).",
+  "b": "Swete's apparatus reports a different number in Sinaiticus (\"οκτω ℵ* ρκ ℵ\"), apparently \"eight\" in the first hand and ρκ΄ (120) in another, but the digital text of the note is damaged, and the reading could not be checked.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "the baggage of the men on foot among them",
+  "t": "\"The baggage of the men\" or \"the baggage and the men\"",
+  "p": "Vaticanus counts apart \"the baggage of the men who were on foot among them\". Sinaiticus and Alexandrinus read \"the baggage, and the men\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τῆς ἀποσκευῆς τῶν ἀνδρῶν οἳ ἦσαν πεζοὶ ἐν αὐτοῖς",
+    "en": "the baggage of the men who were on foot among them",
+    "plain": "the baggage of the men on foot among them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text (\"beside the baggage, and other men that were afoot\")",
+    "orig": "των ανδρων] pr και",
+    "en": "the baggage, and the men who were on foot among them",
+    "plain": "the baggage and the men on foot among them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. With \"and,\" a second uncounted crowd of men on foot is added beside the baggage; without it, only the baggage train of the foot soldiers is left out of the count. The difference is one short word.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "from Bethulia to Cyamon",
+  "t": "\"From Bethulia\" or \"as far as Bethulia\"",
+  "p": "Vaticanus says the camp stretched \"as far as Bethulia, as far as Cyamon\". Sinaiticus and Alexandrinus say \"from Bethulia\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text",
+    "orig": "απο (for the second εως)",
+    "en": "from Baitylua to Kyamon",
+    "plain": "from Bethulia to Cyamon"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἕως Βαιτυλουὰ ἕως Κυαμῶνος",
+    "en": "as far as Baitylua, as far as Kyamon",
+    "plain": "as far as Bethulia, as far as Cyamon"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain leaves Vaticanus. A length runs from one point to another, and the doubled \"as far as\" in Vaticanus looks like a copyist repeating the word before it.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "waste away with hunger",
+  "t": "Hunger or fire",
+  "p": "The KJV says \"consumed with fire\". The Greek manuscripts in Swete have hunger.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; no variant in Swete's apparatus",
+    "orig": "τακήσονται ἐν τῷ λιμῷ",
+    "en": "they will melt away in the famine",
+    "plain": "waste away with hunger"
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "consumed with fire",
+    "plain": "be consumed with fire"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The siege works by thirst and hunger, not fire (7:13, 7:20–22). The source of the KJV's \"fire\" is not known.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:20",
+  "a": "thirty-four days",
+  "t": "Thirty-four days or twenty",
+  "p": "The Greek has the siege last thirty-four days before the water runs out. The Vulgate has twenty.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἡμέρας τριάκοντα τέσσαρες",
+    "en": "thirty-four days",
+    "plain": "thirty-four days"
+   },
+   {
+    "w": "Latin Vulgate of Jerome (Clementine edition, 1592) and Douay-Rheims (Vulgate 7:11)",
+    "orig": "per dies viginti",
+    "en": "for twenty days",
+    "plain": "twenty days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Jerome's Latin is a shorter, freer retelling, and its numbers differ in several places (2:1; 7:2).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "7:23",
+  "a": "the elders",
+  "t": "\"All the elders\"",
+  "p": "Sinaiticus and Alexandrinus say \"before all the elders\", as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τῶν πρεσβυτέρων",
+    "en": "the elders",
+    "plain": "the elders"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus; Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV follows this text",
+    "orig": "pr παντων",
+    "en": "all the elders",
+    "plain": "all the elders"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The added \"all\" makes no difference to the scene.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:27",
+  "a": "It is better for us to become their plunder.",
+  "t": "\"Than to die of thirst\"",
+  "p": "The KJV adds \"than to die for thirst\". The Greek manuscripts in Swete lack the words.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; no variant in Swete's apparatus",
+    "orig": "κρεῖσσον γὰρ ἡμῖν γενηθῆναι αὐτοῖς εἰς διαρπαγήν",
+    "en": "for it is better for us to become plunder to them",
+    "plain": "It is better for us to become their plunder."
+   },
+   {
+    "w": "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek",
+    "orig": "(English only)",
+    "en": "than to die for thirst",
+    "plain": "It is better for us to become their plunder than to die of thirst."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The KJV's words spell out what \"better\" is compared to; their source is not known.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "7:28",
+  "a": "May he not do to us today what we have described!",
+  "t": "With or without \"not\"",
+  "p": "Sinaiticus lacks \"not\". Then the line reads \"so that he may do as we have said today\", a demand on Uzziah.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV follows this text",
+    "orig": "ἵνα μὴ ποιήσῃ κατὰ τὰ ῥήματα ταῦτα ἐν τῇ ἡμέρᾳ τῇ σήμερον",
+    "en": "so that he may not do according to these words this very day",
+    "plain": "May he not do to us today what we have described!"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's apparatus",
+    "orig": "om μη",
+    "en": "so that he may do according to these words this very day",
+    "plain": "So let him do today as we have said!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Alexandrinus. With \"not,\" God is asked not to bring on them the deaths they have just described (7:27). Without it, the people demand that Uzziah do as they said and surrender today. Sinaiticus's reading is simpler, and may be a correction of a hard line, or the original sense.",
+  "s": [
+   "swete-ot",
+   "moore-judith"
+  ]
+ }
+]

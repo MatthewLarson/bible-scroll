@@ -1,0 +1,93 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the tribe or people and its land, not the ancestor of that name."
+ },
+ {
+  "c": 2,
+  "unmap": [
+   "river"
+  ],
+  "why": "The text says \"Beyond the River\", the Persian province west of the Euphrates, not a river at Jerusalem; Bible Atlas puts its point on Jerusalem. Here Israel means the tribe or people and its land, not the ancestor of that name.",
+  "drop": [
+   "israel"
+  ]
+ },
+ {
+  "c": 3,
+  "drop": [
+   "god"
+  ],
+  "unmap": [
+   "river"
+  ],
+  "why": "This chapter does not mention God. The text says \"Beyond the River\", the Persian province west of the Euphrates, not a river at Jerusalem; Bible Atlas puts its point on Jerusalem."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "gibeon",
+   "israel"
+  ],
+  "unmap": [
+   "cherub",
+   "immer-4"
+  ],
+  "why": "\"People of Gibeon\" (7:25) names a town, which is linked as a place, not the person Gibeon. Cherub and Immer (7:61) were places in Babylonia whose sites are unknown; Bible Atlas draws Cherub on Babylon and Immer at Nineveh in Assyria, which is a guess. Here Israel means the tribe or people and its land, not the ancestor of that name."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "ephraim",
+   "israel"
+  ],
+  "why": "The \"Gate of Ephraim\" (8:16) is a Jerusalem gate, which is linked as a place; the tribe's ancestor is not mentioned. Here Israel means the tribe or people and its land, not the ancestor of that name."
+ },
+ {
+  "c": 9,
+  "unmap": [
+   "red-sea"
+  ],
+  "why": "Bible Atlas draws the Red Sea far to the south, but the sea Israel crossed in 9:9-11 was near Egypt's eastern border; the exact crossing is uncertain. Here Israel means the tribe or people and its land, not the ancestor of that name.",
+  "drop": [
+   "israel"
+  ]
+ },
+ {
+  "c": 10,
+  "drop": [
+   "israel",
+   "levi"
+  ],
+  "why": "Here Israel and Levi mean the tribe or people and its land, not the ancestor of that name."
+ },
+ {
+  "c": 11,
+  "unmap": [
+   "zeboim"
+  ],
+  "why": "Bible Atlas places this Zeboim near the Dead Sea, but Nehemiah 11:34 lists a Benjaminite town near Lod and Hadid in the west. Here Benjamin means the tribe or people and its land, not the ancestor of that name.",
+  "drop": [
+   "benjamin-5"
+  ]
+ },
+ {
+  "c": 12,
+  "drop": [
+   "ephraim",
+   "levi"
+  ],
+  "why": "The \"Gate of Ephraim\" (12:39) is a Jerusalem gate, which is linked as a place; the tribe's ancestor is not mentioned. Here Levi means the tribe or people and its land, not the ancestor of that name."
+ },
+ {
+  "c": 13,
+  "drop": [
+   "moab",
+   "israel"
+  ],
+  "why": "\"Moabite\" refers to the nation, which is linked as a place; the ancestor Moab is not mentioned. Here Israel means the tribe or people and its land, not the ancestor of that name."
+ }
+]

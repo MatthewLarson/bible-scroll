@@ -1,0 +1,218 @@
+[
+ {
+  "c": 2,
+  "drop": [
+   "jesus-2"
+  ],
+  "why": "Christians read Psalm 2 as about Jesus the Messiah, and Jewish readers as about David's line; the psalm does not name him. Both readings are in the chapter's notes."
+ },
+ {
+  "c": 16,
+  "drop": [
+   "jesus-2"
+  ],
+  "why": "The New Testament reads 16:10 as about Jesus' resurrection (Acts 2:25–31); Jewish readers take it of David. The psalm does not name him; both readings are in the notes."
+ },
+ {
+  "c": 110,
+  "drop": [
+   "jesus-2"
+  ],
+  "why": "Jesus and the New Testament read Psalm 110 as about the Messiah; Jewish readers take it of David or Abraham. The psalm does not name him; both readings are in the notes."
+ },
+ {
+  "c": 109,
+  "drop": [
+   "satan"
+  ],
+  "why": "In 109:6 the Hebrew satan means \"an accuser\" in a court, as this site translates it, not the devil by name."
+ },
+ {
+  "c": 51,
+  "drop": [
+   "holy-spirit"
+  ],
+  "why": "\"Your holy spirit\" (51:11) is read by Christians as the Holy Spirit and by Jewish readers as God's presence; the notes give both."
+ },
+ {
+  "c": 87,
+  "drop": [
+   "rahab-2"
+  ],
+  "why": "Rahab here is a poetic name for Egypt (and elsewhere for a sea monster), not a place to plot."
+ },
+ {
+  "c": 89,
+  "drop": [
+   "rahab-2"
+  ],
+  "why": "Rahab in 89:10 is the sea monster that stands for chaos (and for Egypt), not a place to plot."
+ },
+ {
+  "c": 29,
+  "unmap": [
+   "kadesh"
+  ],
+  "why": "Bible Atlas puts this Kadesh at Kadesh-barnea in the south. Psalm 29 moves from Lebanon and Sirion, so many read it as Kadesh on the Orontes in Syria; the location is debated."
+ },
+ {
+  "c": 84,
+  "unmap": [
+   "valley-of-baca"
+  ],
+  "why": "No one knows where the Valley of Baca was; Bible Atlas's point is Jerusalem itself."
+ },
+ {
+  "c": 42,
+  "unmap": [
+   "hill-mizar"
+  ],
+  "why": "No one knows where Mount Mizar was; Bible Atlas puts it on the same point as Mount Hermon."
+ },
+ {
+  "c": 106,
+  "unmap": [
+   "red-sea"
+  ],
+  "why": "Here the sea is the Sea of Reeds the Israelites crossed, whose site is unknown; Bible Atlas's point is far down the Red Sea."
+ },
+ {
+  "c": 136,
+  "unmap": [
+   "red-sea"
+  ],
+  "why": "Here the sea is the Sea of Reeds the Israelites crossed, whose site is unknown; Bible Atlas's point is far down the Red Sea."
+ },
+ {
+  "c": 3,
+  "add": {
+   "people": {
+    "absalom": {
+     "name": "Absalom"
+    }
+   }
+  },
+  "why": "The title names Absalom; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 18,
+  "add": {
+   "people": {
+    "saul": {
+     "name": "Saul"
+    }
+   }
+  },
+  "why": "The title names Saul; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 34,
+  "add": {
+   "people": {
+    "achish": {
+     "name": "Achish"
+    }
+   }
+  },
+  "why": "The title names \"Abimelech\", which Bible Atlas, following tradition, takes as Achish king of Gath (1 Samuel 21:10–15)."
+ },
+ {
+  "c": 51,
+  "add": {
+   "people": {
+    "nathan-2": {
+     "name": "Nathan"
+    },
+    "bathsheba": {
+     "name": "Bathsheba"
+    }
+   }
+  },
+  "why": "The title names Nathan the prophet and Bathsheba; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 52,
+  "add": {
+   "people": {
+    "doeg": {
+     "name": "Doeg"
+    },
+    "saul": {
+     "name": "Saul"
+    },
+    "ahimelech": {
+     "name": "Ahimelech"
+    }
+   }
+  },
+  "why": "The title names Doeg, Saul and Ahimelech; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 54,
+  "add": {
+   "places": {
+    "ziph-2": {
+     "name": "Ziph",
+     "lat": 31.478252,
+     "lon": 35.140514
+    }
+   },
+   "people": {
+    "saul": {
+     "name": "Saul"
+    }
+   }
+  },
+  "why": "The title names the Ziphites and Saul; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 57,
+  "add": {
+   "people": {
+    "saul": {
+     "name": "Saul"
+    }
+   }
+  },
+  "why": "The title names Saul; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 59,
+  "add": {
+   "people": {
+    "saul": {
+     "name": "Saul"
+    }
+   }
+  },
+  "why": "The title names Saul; Bible Atlas does not link psalm titles."
+ },
+ {
+  "c": 60,
+  "add": {
+   "places": {
+    "aram-naharaim": {
+     "name": "Aram-naharaim",
+     "lat": 36.6,
+     "lon": 39.5
+    },
+    "aram-zobah": {
+     "name": "Aram-zobah",
+     "lat": 34.312571,
+     "lon": 36.925484
+    },
+    "valley-of-salt": {
+     "name": "Valley of Salt",
+     "lat": 31.087328,
+     "lon": 35.38374
+    }
+   },
+   "people": {
+    "joab": {
+     "name": "Joab"
+    }
+   }
+  },
+  "why": "The title names these places and Joab; Bible Atlas does not link psalm titles. Aram-naharaim is placed in the upper Euphrates region around Haran, and Aram-zobah at Bible Atlas's point for Zobah."
+ }
+]

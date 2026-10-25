@@ -1,0 +1,944 @@
+[
+ {
+  "v": "1:7",
+  "a": "The fear of the LORD is where knowledge begins.",
+  "t": "The Greek doubles the motto",
+  "p": "The Greek has four lines here, adding the words of Psalm 111:10 and a line on piety.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יראת יהוה ראשית דעת",
+    "en": "The fear of YHWH is the beginning of knowledge",
+    "plain": "The fear of the LORD is where knowledge begins."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete; Alexandrinus and Ephraemi read 'of the Lord' for 'of God')",
+    "orig": "Ἀρχὴ σοφίας φόβος θεοῦ, σύνεσις δὲ ἀγαθὴ πᾶσι τοῖς ποιοῦσιν αὐτήν· εὐσέβεια δὲ εἰς θεὸν ἀρχὴ αἰσθήσεως",
+    "en": "The beginning of wisdom is fear of God, and good understanding is for all who practice it; and piety toward God is the beginning of perception",
+    "plain": "The beginning of wisdom is the fear of God; good understanding belongs to all who practice it. Piety toward God is the beginning of perception."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is shorter and keeps the two-line shape of the saying. The Greek's first two lines are the Greek of Psalm 111:10 (Psalm 110:10 in Greek numbering), which a translator or copyist added beside a verse that says nearly the same thing.",
+  "b": "The Greek of Proverbs often adds a second version of a line. Here it gives two: the Psalm's wording and a line that turns 'fear' into <i>eusebeia</i>, 'piety', a key Greek word for religion. The Greek then ends with 'the ungodly will despise wisdom and instruction', turning the Hebrew 'stubborn fools' into a moral and religious category.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "For their feet race toward evil",
+  "t": "A verse missing from Codex Vaticanus (1)",
+  "p": "Codex Vaticanus and the first hand of Sinaiticus lack 1:16 (both lines; see the next entry). Alexandrinus, a corrector of Sinaiticus and Rahlfs' text have it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Codex Sinaiticus in the Greek",
+    "orig": "כי רגליהם לרע ירוצו",
+    "en": "For their feet run to evil",
+    "plain": "For their feet race toward evil"
+   },
+   {
+    "w": "Greek, Codex Vaticanus and the first hand of Sinaiticus (Swete's text and apparatus)",
+    "orig": "(no verse)",
+    "en": "(verse absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew witnesses have the verse. Many scholars think it entered the Hebrew from Isaiah 59:7 after the Old Greek was made; others think the translator skipped it. The Plain follows the Hebrew, the base text of this site.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "toy-proverbs"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "and they rush to spill blood",
+  "t": "A verse missing from Codex Vaticanus (2)",
+  "p": "The second line of 1:16, missing with the first in Vaticanus and the first hand of Sinaiticus.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus",
+    "orig": "וימהרו לשפך דם",
+    "en": "and they hurry to shed blood",
+    "plain": "and they rush to spill blood"
+   },
+   {
+    "w": "Greek, Codex Vaticanus and the first hand of Sinaiticus",
+    "orig": "(no verse)",
+    "en": "(verse absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry: the two lines stand or fall together.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:27",
+  "a": "like devastation",
+  "t": "Devastation or storm? (Ketiv and Qere)",
+  "p": "The written text and the text read aloud differ by one letter; the sense is close.",
+  "readings": [
+   {
+    "w": "Qere (the reading spoken in the synagogue), noted in the Leningrad Codex",
+    "orig": "כשואה",
+    "en": "like devastation",
+    "plain": "like devastation"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "כשאוה",
+    "en": "like a devastating storm",
+    "plain": "like a storm"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere gives the common word sho'ah, which recurs in 3:25. The Ketiv is a rare form of the same root. Most translations follow the Qere.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "his loyal ones",
+  "t": "One loyal one or many?",
+  "p": "The written text has 'his loyal one'; the text read aloud has 'his loyal ones'.",
+  "readings": [
+   {
+    "w": "Qere (read aloud), noted in the Leningrad Codex; the Greek and the Syriac have a plural",
+    "orig": "חסידיו",
+    "en": "his loyal ones",
+    "plain": "his loyal ones"
+   },
+   {
+    "w": "Ketiv (written consonants of the Leningrad Codex)",
+    "orig": "חסידו",
+    "en": "his loyal one",
+    "plain": "his loyal one"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural fits the plural 'upright' and 'those who live wholeheartedly' of 2:7. The singular could be a collective. The meaning is the same.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "the strange woman",
+  "t": "A woman, or 'evil counsel'?",
+  "p": "The Greek of 2:16–17 has no woman: it warns against 'evil counsel' that forsakes the teaching of youth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Syriac; Targum",
+    "orig": "מאשה זרה",
+    "en": "from a strange woman",
+    "plain": "the strange woman"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "υἱέ, μή σε καταλάβῃ κακὴ βουλή",
+    "en": "Son, do not let evil counsel overtake you",
+    "plain": "evil counsel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text and is supported by the parallel passages (5:3; 6:24; 7:5). The Greek translator, or the Jewish tradition he followed, read the 'strange woman' as a figure for bad advice and false teaching, and translated accordingly.",
+  "b": "The Greek goes on: 'which forsakes the teaching of youth and has forgotten the divine covenant' (2:17). Toy called this an 'independent allegorizing reading of the schools'. It is an early witness to the symbolic reading of the strange woman.",
+  "s": [
+   "swete-lxx",
+   "toy-proverbs",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "write them on your heart's tablet",
+  "t": "A line missing from the main Greek manuscript",
+  "p": "Codex Vaticanus lacks the third line; Alexandrinus has it, and it appears again in 7:3.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus in the Greek",
+    "orig": "כתבם על לוח לבך",
+    "en": "write them on the tablet of your heart",
+    "plain": "write them on your heart's tablet"
+   },
+   {
+    "w": "Greek, Codex Vaticanus and Sinaiticus (Swete's text and apparatus)",
+    "orig": "(line absent; the verse ends 'and you will find favor')",
+    "en": "(line absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The line is in all Hebrew witnesses and in 7:3. Its absence in the oldest Greek may be the translator's choice, since the Greek joins 'and you will find favor' from 3:4 to this verse.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "the way a father treats the son he takes pleasure in",
+  "t": "'As a father' or 'he whips'?",
+  "p": "The Greek, quoted in Hebrews 12:6, read the same consonants as a verb: 'and he causes pain to'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Jerome's Latin (Vulgate)",
+    "orig": "וּכְאָב אֶת בֵּן יִרְצֶה",
+    "en": "and like a father, a son he delights in",
+    "plain": "the way a father treats the son he takes pleasure in"
+   },
+   {
+    "w": "Greek (Vaticanus, with no variant noted for Sinaiticus or Alexandrinus in Swete's apparatus), quoted in Hebrews 12:6",
+    "orig": "μαστιγοῖ δὲ πάντα υἱὸν ὃν παραδέχεται",
+    "en": "and he whips every son whom he accepts",
+    "plain": "and he whips every son he accepts"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants וכאב can be read <i>ukh'av</i>, 'and like a father' (the Masoretic vowels), or <i>yakh'iv</i>/<i>ukh'ev</i>, 'and causes pain', which the Greek translator read. The Masoretic reading makes a smooth comparison with a father, which the book's father-son setting supports; the Greek reading gives a closer parallel to 'rebukes'. Both are old; the Plain follows the Hebrew base text.",
+  "b": "In the first line, Vaticanus has <i>elenchei</i>, 'rebukes', while Sinaiticus and Alexandrinus have <i>paideuei</i>, 'disciplines', which Rahlfs prints and Hebrews 12:6 uses.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "toy-proverbs"
+  ]
+ },
+ {
+  "v": "3:34",
+  "a": "the humble",
+  "t": "Humble or afflicted? (Ketiv and Qere)",
+  "p": "The written text has 'the afflicted' ('aniyyim); the text read aloud has 'the humble' ('anavim).",
+  "readings": [
+   {
+    "w": "Qere (read aloud), noted in the Leningrad Codex; the Greek tapeinois, 'the lowly', quoted in James 4:6 and 1 Peter 5:5",
+    "orig": "ולענוים",
+    "en": "and to the humble",
+    "plain": "the humble"
+   },
+   {
+    "w": "Ketiv (written consonants)",
+    "orig": "ולעניים",
+    "en": "and to the afflicted (poor)",
+    "plain": "the afflicted"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words come from the same root and are often confused in copying; 'the humble' gives the better contrast with 'mockers'. The Greek 'lowly' fits either.",
+  "s": [
+   "tov-tchb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:34",
+  "a": "Mockers he mocks",
+  "t": "The Greek: 'The Lord opposes the proud'",
+  "p": "The Greek turns the wordplay into a rule about pride; this is the form James and Peter quote.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אם ללצים הוא יליץ",
+    "en": "With mockers, he mocks",
+    "plain": "Mockers he mocks"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete), quoted in James 4:6 and 1 Peter 5:5 with 'God'",
+    "orig": "Κύριος ὑπερηφάνοις ἀντιτάσσεται",
+    "en": "The Lord opposes the proud",
+    "plain": "The Lord opposes the proud"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek is a free rendering of the same idea, replacing the scornful 'mockers' with the 'proud' and God's mocking with his opposition.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "Where wisdom starts: acquire wisdom!",
+  "t": "A verse the Greek lacks (1)",
+  "p": "The main Greek manuscripts have no 4:7. This entry and the next go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ראשית חכמה קנה חכמה",
+    "en": "The beginning of wisdom: acquire wisdom",
+    "plain": "Where wisdom starts: acquire wisdom!"
+   },
+   {
+    "w": "Greek, Codex Vaticanus, Sinaiticus and Alexandrinus (Swete)",
+    "orig": "(no verse)",
+    "en": "(verse absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew witnesses all have the verse, and its riddle-like style fits the chapter. The Greek translator may have skipped a line that seemed to say the same thing twice, or worked from a Hebrew copy without it. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "With all you have gained, acquire understanding.",
+  "t": "A verse the Greek lacks (2)",
+  "p": "The second line of 4:7, absent with the first from the Greek.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ובכל קנינך קנה בינה",
+    "en": "and with all your acquiring, acquire understanding",
+    "plain": "With all you have gained, acquire understanding."
+   },
+   {
+    "w": "Greek (Swete)",
+    "orig": "(no verse)",
+    "en": "(verse absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:16",
+  "a": "until they have tripped someone up",
+  "t": "They stumble, or they make others stumble? (Ketiv and Qere)",
+  "p": "The written text says the wicked themselves stumble; the text read aloud says they make others stumble.",
+  "readings": [
+   {
+    "w": "Qere (the reading spoken in the synagogue), noted in the Leningrad Codex",
+    "orig": "יַכְשִׁילוּ",
+    "en": "they cause to stumble",
+    "plain": "until they have tripped someone up"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "יכשולו",
+    "en": "they stumble",
+    "plain": "until they stumble"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere fits the parallel line ('if they have done no harm'): the wicked cannot sleep until they have hurt someone. Most translations follow it.",
+  "s": [
+   "tov-tchb",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "4:27",
+  "a": "steer your foot clear of evil.",
+  "t": "The Greek adds two verses",
+  "p": "The Greek continues with two lines on the right and left ways, numbered 4:27a–b.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הסר רגלך מרע",
+    "en": "turn your foot from evil",
+    "plain": "steer your foot clear of evil."
+   },
+   {
+    "w": "Greek, Codex Vaticanus, Sinaiticus and Alexandrinus (Swete, 4:27a–b)",
+    "orig": "ἀπόστρεψον δὲ σὸν πόδα ἀπὸ ὁδοῦ κακῆς. ὁδοὺς γὰρ τὰς ἐκ δεξιῶν οἶδεν ὁ θεός, διεστραμμέναι δέ εἰσιν αἱ ἐξ ἀριστερῶν· αὐτὸς δὲ ὀρθὰς ποιήσει τὰς τροχιάς σου, τὰς δὲ πορείας σου ἐν εἰρήνῃ προάξει.",
+    "en": "and turn your foot from an evil way. For God knows the ways on the right, but those on the left are crooked; he himself will make your tracks straight and will lead your journeys forward in peace.",
+    "plain": "steer your foot clear of evil. For God knows the roads on the right, but those on the left are twisted. He himself will make your tracks straight and lead you on your way in peace."
+   }
+  ],
+  "follow": 0,
+  "why": "The added lines are not in any Hebrew witness, and they resolve the verse's 'neither right nor left' in a way that contradicts it, since they praise the right. Most scholars think they are a later expansion in Greek.",
+  "b": "The idea that the right side is good and the left bad is common in Greek and Jewish thought (compare Ecclesiastes 10:2; Matthew 25:33).",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "Should your springs spill out into the street,",
+  "t": "A question, or 'do not'?",
+  "p": "The Greek adds 'not': do not let your springs overflow. The Hebrew has no negative.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יפוצו מעינתיך חוצה",
+    "en": "your springs will spread outside",
+    "plain": "Should your springs spill out into the street,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete)",
+    "orig": "μὴ ὑπερεκχείσθω σοι ὕδατα ἐκ τῆς σῆς πηγῆς",
+    "en": "let not water overflow for you from your spring",
+    "plain": "Do not let water overflow from your spring,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no negative; most translations read it as a question expecting the answer no, which gives the same sense as the Greek without adding a word. The Greek's second line then tells him to let his waters run into his own streets ('but let your waters pass into your streets'), so the Greek reads the verse as a contrast: not out, but in.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs",
+   "toy-proverbs"
+  ]
+ },
+ {
+  "v": "6:8",
+  "a": "at harvest time it gathers what it will eat.",
+  "t": "The bee in the Greek",
+  "p": "The Greek adds three verses that send the lazy one to the bee as well as the ant.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אגרה בקציר מאכלה",
+    "en": "she gathers at harvest her food",
+    "plain": "at harvest time it gathers what it will eat."
+   },
+   {
+    "w": "Greek, Codex Vaticanus, Sinaiticus and Alexandrinus (Swete, 6:8a–c)",
+    "orig": "ἢ πορεύθητι πρὸς τὴν μέλισσαν καὶ μάθε ὡς ἐργάτις ἐστίν, τήν τε ἐργασίαν ὡς σεμνὴν ποιεῖται· ἧς τοὺς πόνους βασιλεῖς καὶ ἰδιῶται πρὸς ὑγείαν προσφέρονται, ποθεινὴ δέ ἐστιν πᾶσιν καὶ ἐπίδοξος· καίπερ οὖσα τῇ ῥώμῃ ἀσθενής, τὴν σοφίαν τιμήσασα προήχθη.",
+    "en": "Or go to the bee and learn how industrious she is, and how seriously she does her work; kings and private persons use what she labors on for health, and she is desired and honored by all; though weak in strength, by honoring wisdom she has been advanced.",
+    "plain": "at harvest time it gathers what it will eat. Or go to the bee and learn how hard she works and how seriously she does her work. Kings and ordinary people use what she labors to make for their health, and everyone wants her and honors her. Weak as she is, she has gone far by honoring wisdom."
+   }
+  ],
+  "follow": 0,
+  "why": "No Hebrew witness has the bee. The lines are in polished Greek and echo Aristotle's natural history, which praises the bee beside the ant; most scholars take them as an addition made in Greek.",
+  "b": "Many Greek fathers quoted the bee verses as Scripture; Basil of Caesarea praises the bee in his homilies on creation.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "cook-lxx-proverbs",
+   "basil-hexaemeron"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "your lack like a man with a shield.",
+  "t": "A promise to the diligent in the Greek",
+  "p": "The Greek adds a verse: if you are not lazy, your harvest will come like a spring.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ומחסרך כאיש מגן",
+    "en": "and your want like a man of shield",
+    "plain": "your lack like a man with a shield."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete, 6:11a)",
+    "orig": "καὶ ἡ ἔνδεια ὥσπερ ἀγαθὸς δρομεύς. ἐὰν δὲ ἄοκνος ᾖς, ἥξει ὥσπερ πηγὴ ὁ ἀμητός σου, ἡ δὲ ἔνδεια ὥσπερ κακὸς δρομεὺς ἀπαυτομολήσει.",
+    "en": "and want like a good runner. But if you are diligent, your harvest will come like a spring, and want will desert like a bad runner.",
+    "plain": "your lack like a fast runner. But if you are not lazy, your harvest will come like a spring, and want will run off like a poor runner."
+   }
+  ],
+  "follow": 0,
+  "why": "The added verse is found only in Greek and balances the threat with a promise, a pattern of the Greek translator. The Hebrew of this saying recurs in 24:34 without the addition.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "6:24",
+  "a": "from a wicked woman",
+  "t": "A wicked woman, or your neighbor's wife?",
+  "p": "The same consonants can be read 'a woman of evil' or 'a neighbor's wife'. The Greek has 'a married woman'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex), as vocalized",
+    "orig": "מֵאֵשֶׁת רָע",
+    "en": "from a woman of evil",
+    "plain": "from a wicked woman"
+   },
+   {
+    "w": "Greek (Swete: 'a woman under a husband'); the same consonants read as אֵשֶׁת רֵעַ",
+    "orig": "ἀπὸ γυναικὸς ὑπάνδρου",
+    "en": "from a married woman",
+    "plain": "from your neighbor's wife"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the vowels of the Masoretic Text. Many scholars prefer 'your neighbor's wife', which needs no change to the consonants, matches the Greek and fits 6:29 ('his neighbor's wife'). Either way the woman is married (6:26, 29).",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "toy-proverbs"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "and hide my commands away like treasure.",
+  "t": "Honor the Lord: a Greek addition",
+  "p": "The Greek adds a verse: 'Son, honor the Lord, and you will be strong; besides him fear no other.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ומצותי תצפן אתך",
+    "en": "and my commands store up with you",
+    "plain": "and hide my commands away like treasure."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete, 7:1a)",
+    "orig": "τὰς δὲ ἐμὰς ἐντολὰς κρύψον παρὰ σεαυτῷ· υἱέ, τίμα τὸν κύριον καὶ ἰσχύσεις, πλὴν δὲ αὐτοῦ μὴ φοβοῦ ἄλλον.",
+    "en": "and hide my commands with yourself. Son, honor the Lord and you will be strong, and besides him fear no other.",
+    "plain": "and hide my commands away like treasure. My son, honor the Lord, and you will be strong; fear no one but him."
+   }
+  ],
+  "follow": 0,
+  "why": "The added line appears only in Greek. It brings God into a passage where the Hebrew speaks only of the father's commands, a typical move of the Greek translator.",
+  "s": [
+   "swete-lxx",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "7:6",
+  "a": "Once, from my house window,",
+  "t": "Who is at the window? (1)",
+  "p": "In the Greek it is the woman who looks out of her window, not the father. This entry and the next go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כי בחלון ביתי",
+    "en": "For at the window of my house",
+    "plain": "Once, from my house window,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete)",
+    "orig": "ἀπὸ γὰρ θυρίδος ἐκ τοῦ οἴκου αὐτῆς",
+    "en": "For from a window out of her house",
+    "plain": "For from a window of her house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes the father the watcher who tells what he saw (7:7). The Greek changes 'my' to 'her' and makes the woman the one peering out, perhaps under the influence of the 'woman at the window' image (see the note). The Hebrew is the harder and probably original reading.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "7:6",
+  "a": "I looked down through my lattice,",
+  "t": "Who is at the window? (2)",
+  "p": "The second line of 7:6. In the Greek, she peeks out into the streets.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בעד אשנבי נשקפתי",
+    "en": "through my lattice I looked down",
+    "plain": "I looked down through my lattice,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete)",
+    "orig": "εἰς τὰς πλατείας παρακύπτουσα",
+    "en": "peering into the streets",
+    "plain": "she peers out into the streets,"
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "7:22",
+  "a": "like a stubborn fool in shackles going off to be punished,",
+  "t": "Fool, dog or stag?",
+  "p": "The Hebrew is obscure. The Greek has 'like a dog to bonds'; many scholars correct the Hebrew to 'like a stag leaping into a noose'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וכעכס אל מוסר אויל",
+    "en": "and like an anklet to the discipline of a stubborn fool",
+    "plain": "like a stubborn fool in shackles going off to be punished,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete)",
+    "orig": "καὶ ὥσπερ κύων ἐπὶ δεσμούς",
+    "en": "and like a dog to bonds",
+    "plain": "like a dog going off to be tied up,"
+   },
+   {
+    "w": "Conjectural correction proposed by many modern scholars (not found in any manuscript): reading כְּאַיָּל 'like a stag' for אויל 'fool'",
+    "orig": "וּכְעֹכֵס אֶל מוֹסֵר אַיָּל",
+    "en": "and like a stag leaping toward a noose",
+    "plain": "like a stag bounding into a noose,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew, which can be read as 'like a stubborn fool in fetters led to punishment'. The correction to 'stag' gives a third animal beside the ox and the bird and leads into the arrow of 7:23, but it has no manuscript support. The Greek's 'dog' may reflect a different Hebrew word or a guess.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs",
+   "toy-proverbs",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "8:16",
+  "a": "all who judge with rightness",
+  "t": "Judges of rightness, or of the earth?",
+  "p": "The Leningrad Codex reads 'righteousness'; many other Hebrew manuscripts read 'earth', as the King James Version does.",
+  "readings": [
+   {
+    "w": "Leningrad Codex",
+    "orig": "כל שפטי צדק",
+    "en": "all judges of righteousness",
+    "plain": "all who judge with rightness"
+   },
+   {
+    "w": "Many other Hebrew manuscripts and printed rabbinic Bibles (followed by the King James Version); compare the Greek 'rule the earth'",
+    "orig": "כל שפטי ארץ",
+    "en": "all judges of the earth",
+    "plain": "all who judge the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text. 'Judges of the earth' is a common phrase (Psalm 2:10; Psalm 148:11) and may have replaced the less usual 'judges of righteousness'; or the reverse. The sense is close: rulers judge rightly by Wisdom.",
+  "s": [
+   "fox-proverbs-hbce",
+   "bhq-proverbs",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:17",
+  "a": "Those who love me, I love",
+  "t": "Those who love me, or her? (Ketiv and Qere)",
+  "p": "The written text has 'those who love her', the text read aloud 'those who love me'.",
+  "readings": [
+   {
+    "w": "Qere (the reading spoken in the synagogue), noted in the Leningrad Codex",
+    "orig": "אֹהֲבַי",
+    "en": "those who love me",
+    "plain": "Those who love me, I love"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "אהביה",
+    "en": "those who love her",
+    "plain": "Those who love her, I love"
+   }
+  ],
+  "follow": 0,
+  "why": "Wisdom is speaking in the first person, so 'me' fits; the Ketiv's 'her' is probably a copying slip, though it may echo 8:11, where she is spoken of as 'her'. The Greek has 'those who love me'.",
+  "s": [
+   "tov-tchb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:22",
+  "a": "The LORD acquired me",
+  "t": "Acquired, created or possessed? The ancient versions",
+  "p": "The Hebrew is the same in all copies; the ancient translations rendered it differently, and the choice shaped later theology.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יהוה קנני",
+    "en": "YHWH acquired me (or: created me, fathered me)",
+    "plain": "The LORD acquired me"
+   },
+   {
+    "w": "Greek, Codices Vaticanus, Sinaiticus and Alexandrinus (Swete); the Syriac and the Targum likewise, as reported by Toy",
+    "orig": "Κύριος ἔκτισέν με",
+    "en": "The Lord created me",
+    "plain": "The LORD created me"
+   },
+   {
+    "w": "Aquila, Symmachus and Theodotion (ἐκτήσατο, 'acquired'), and Jerome's Latin (possedit), as reported by Toy",
+    "orig": "Dominus possedit me",
+    "en": "The Lord possessed me",
+    "plain": "The LORD possessed me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb's common meaning is 'acquire, get' (4:5, 7), and the Plain keeps it. 'Created' is possible (Genesis 14:19) and was the reading of the Greek Bible that the church fathers used; Aquila and the other later Greek translators, and Jerome, chose 'acquired' or 'possessed', partly in reaction to the debates the Greek reading caused.",
+  "b": "See the notes on this verse and the chapter page for the Arian controversy and the Jewish reading.",
+  "s": [
+   "swete-lxx",
+   "toy-proverbs",
+   "vawter-prov822",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "8:29",
+  "a": "when he laid down for the sea its fixed line,",
+  "t": "Lines the Greek lacks (1)",
+  "p": "The Greek (Rahlfs, with Codex Vaticanus and the first hand of Sinaiticus) lacks the first two lines of 8:29. This entry and the next go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus in the Greek",
+    "orig": "בשומו לים חקו",
+    "en": "when he set for the sea its limit",
+    "plain": "when he laid down for the sea its fixed line,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete's text) and the first hand of Sinaiticus",
+    "orig": "(lines absent)",
+    "en": "(absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew witnesses have the lines. The Greek copies that have them use wording that looks like a later correction toward the Hebrew, so the Old Greek probably lacked them, perhaps because the translator's Hebrew copy lacked them or he skipped them.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "8:29",
+  "a": "so the waters would not pass beyond what his mouth ordered,",
+  "t": "Lines the Greek lacks (2)",
+  "p": "The second line of 8:29, absent with the first from Vaticanus.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus",
+    "orig": "ומים לא יעברו פיו",
+    "en": "and the waters will not pass his mouth",
+    "plain": "so the waters would not pass beyond what his mouth ordered,"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete's text) and the first hand of Sinaiticus",
+    "orig": "(line absent)",
+    "en": "(absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the previous entry.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:30",
+  "a": "a craftsman",
+  "t": "Craftsman, child or 'joining'? The ancient versions",
+  "p": "The consonants of 'amon allow several readings, and the ancient translators chose differently.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex) ('amon)",
+    "orig": "אָמוֹן",
+    "en": "a master craftsman",
+    "plain": "a craftsman"
+   },
+   {
+    "w": "Aquila (τιθηνουμένη, 'being nursed'), reading 'amun, as reported by Toy",
+    "orig": "τιθηνουμένη",
+    "en": "being nursed",
+    "plain": "a little child"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete); compare Jerome's Latin cuncta componens, 'arranging all things'",
+    "orig": "ἁρμόζουσα",
+    "en": "joining, harmonizing",
+    "plain": "putting things in order"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic vowels and the meaning 'craftsman', supported by Song of Songs 7:1 and Wisdom of Solomon 7:22. 'Child' fits the play and delight of the next lines, and many modern scholars prefer it. See the note.",
+  "s": [
+   "swete-lxx",
+   "toy-proverbs",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "8:32",
+  "a": "happy are those who guard my ways.",
+  "t": "Lines the Greek lacks (8:32–33)",
+  "p": "The Greek (Rahlfs, with Vaticanus) lacks 8:32b and all of 8:33; Alexandrinus and a corrector of Sinaiticus have them. See the next two entries.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus",
+    "orig": "ואשרי דרכי ישמרו",
+    "en": "and happy are those who keep my ways",
+    "plain": "happy are those who guard my ways."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete's text) and the first hand of Sinaiticus",
+    "orig": "(line absent)",
+    "en": "(absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "All Hebrew witnesses have the lines. In Vaticanus the thought 'who will keep my ways' appears instead within 8:34.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ },
+ {
+  "v": "8:33",
+  "a": "Hear discipline and get wise;",
+  "t": "8:33 missing in the Greek (1)",
+  "p": "The first line of 8:33, absent from Vaticanus with the rest of the verse.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus",
+    "orig": "שמעו מוסר וחכמו",
+    "en": "hear discipline and be wise",
+    "plain": "Hear discipline and get wise;"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete's text) and the first hand of Sinaiticus",
+    "orig": "(verse absent)",
+    "en": "(absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 8:32.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:33",
+  "a": "do not brush it aside.",
+  "t": "8:33 missing in the Greek (2)",
+  "p": "The second line of 8:33.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Codex Alexandrinus and a corrector of Sinaiticus",
+    "orig": "ואל תפרעו",
+    "en": "and do not neglect it",
+    "plain": "do not brush it aside."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete's text) and the first hand of Sinaiticus",
+    "orig": "(verse absent)",
+    "en": "(absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 8:32.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:35",
+  "a": "The one who finds me has found life",
+  "t": "Has found life, or are finders of life? (Ketiv and Qere)",
+  "p": "The written text reads 'those who find me are finders of life'; the text read aloud reads 'whoever finds me has found life'.",
+  "readings": [
+   {
+    "w": "Qere (the reading spoken in the synagogue), noted in the Leningrad Codex",
+    "orig": "כִּי מֹצְאִי מָצָא חַיִּים",
+    "en": "for whoever finds me has found life",
+    "plain": "The one who finds me has found life"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "כי מצאי מצאי חיים",
+    "en": "for those who find me are finders of life",
+    "plain": "Those who find me are finders of life"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ketiv repeats the same word, 'finders of me, finders of life', a play that may be original or a copyist's repetition; the Qere gives a verb, 'has found', which matches the second line ('and he draws favor'). Most translations follow the Qere. The Greek, 'for my ways out are ways out of life', also repeats one word, as the Ketiv does.",
+  "b": "The difference lies in the second word (Qere מָצָא, Ketiv מֹצְאֵי); the first word is the same in both. The whole line is given so that the Ketiv reading stays grammatical.",
+  "s": [
+   "tov-tchb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "9:10",
+  "a": "and knowing the Holy One is understanding.",
+  "t": "Knowing the law: a Greek addition",
+  "p": "The Greek adds: 'for to know the law is the mark of a good mind'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ודעת קדשים בינה",
+    "en": "and the knowledge of the Holy One is understanding",
+    "plain": "and knowing the Holy One is understanding."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete)",
+    "orig": "καὶ βουλὴ ἁγίων σύνεσις· τὸ γὰρ γνῶναι νόμον διανοίας ἐστὶν ἀγαθῆς.",
+    "en": "and the counsel of saints is understanding; for to know the law is (the mark) of a good mind.",
+    "plain": "and the counsel of the holy ones is understanding. For knowing the law is the mark of a good mind."
+   }
+  ],
+  "follow": 0,
+  "why": "The added line appears in no Hebrew witness. It ties Wisdom to the law of Moses, as Sirach 24 does, and probably reflects the translator's own Jewish piety. The same line appears in the Greek at 13:15.",
+  "s": [
+   "swete-lxx",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "9:12",
+  "a": "if you mock, you will carry it by yourself.",
+  "t": "The Greek adds three verses",
+  "p": "The Greek adds 'and for your neighbors' to the first line and three verses on chasing the wind (9:12a–c).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ולצת לבדך תשא",
+    "en": "and if you mock, you alone will bear it",
+    "plain": "if you mock, you will carry it by yourself."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete, 9:12 and 9:12a–c)",
+    "orig": "ἐὰν δὲ κακὸς ἀποβῇς, μόνος ἂν ἀντλήσεις κακά. ὃς ἐρείδεται ἐπὶ ψεύδεσιν, οὗτος ποιμαίνει ἀνέμους, ὁ δ᾽ αὐτὸς διώξεται ὄρνεα πετόμενα· ἀπέλιπεν γὰρ ὁδοὺς τοῦ ἑαυτοῦ ἀμπελῶνος, τοὺς δὲ ἄξονας τοῦ ἰδίου γεωργίου πεπλάνηται· διαπορεύεται δὲ δι᾽ ἀνύδρου ἐρήμου καὶ γῆν διατεταγμένην ἐν διψώδεσιν, συνάγει δὲ χερσὶν ἀκαρπίαν.",
+    "en": "but if you turn out bad, you alone will draw up evils. Whoever leans on lies shepherds winds, and the same one will chase flying birds; for he has left the ways of his own vineyard and strayed from the tracks of his own field; he travels through a waterless desert and a land given over to thirst, and gathers barrenness with his hands.",
+    "plain": "if you turn out bad, you will bear the harm alone. Whoever leans on lies is herding the winds and chasing birds in flight. He has left the paths of his own vineyard and wandered from the tracks of his own field. He crosses a waterless desert, a land given over to thirst, and gathers nothing but barrenness in his hands."
+   }
+  ],
+  "follow": 0,
+  "why": "The additions appear only in Greek and may come from a separate collection of sayings. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "9:18",
+  "a": "that the guests she invited are down in Sheol's depths.",
+  "t": "Do not drink from a stranger's spring: the Greek ending",
+  "p": "The Greek adds three verses urging the reader to flee Folly and not drink 'strange water'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בעמקי שאול קראיה",
+    "en": "in the depths of Sheol her invited ones",
+    "plain": "that the guests she invited are down in Sheol's depths."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (Swete, 9:18 and 9:18a–c)",
+    "orig": "καὶ ἐπὶ πέτευρον ᾅδου συναντᾷ. ἀλλὰ ἀποπήδησον, μὴ χρονίσῃς ἐν τῷ τόπῳ, μηδὲ ἐπιστήσῃς τὸ σὸν ὄμμα πρὸς αὐτήν· οὕτως γὰρ διαβήσῃ ὕδωρ ἀλλότριον· ἀπὸ δὲ ὕδατος ἀλλοτρίου ἀπόσχου, καὶ ἀπὸ πηγῆς ἀλλοτρίας μὴ πίῃς, ἵνα πολὺν ζήσῃς χρόνον, προστεθῇ δέ σοι ἔτη ζωῆς.",
+    "en": "and he meets with the snare of Hades. But spring away, do not linger in the place, nor fix your eye on her; for so you will cross strange water. Keep away from strange water, and do not drink from a strange spring, so that you may live a long time and years of life may be added to you.",
+    "plain": "that he is heading for the trapdoor of Hades. But jump clear; do not linger there or fix your eyes on her, for that way you will get across strange water. Keep away from strange water, and do not drink from a stranger's spring, so that you may live long and years of life may be added to you."
+   }
+  ],
+  "follow": 0,
+  "why": "The added verses appear only in Greek. They draw on 5:15–18 and 9:11 to give the chapter a closing warning; the Hebrew ends starkly in Sheol. Alexandrinus and a corrector of Sinaiticus add a further line, 'and pass over a strange river'.",
+  "s": [
+   "swete-lxx",
+   "fox-proverbs-hbce"
+  ]
+ }
+]

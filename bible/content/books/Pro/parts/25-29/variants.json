@@ -1,0 +1,360 @@
+[
+ {
+  "v": "25:1",
+  "a": "the men of Hezekiah king of Judah",
+  "t": "The men of Hezekiah, or his friends?",
+  "p": "The Greek calls them Hezekiah's \"friends\" and the sayings Solomon's \"miscellaneous instructions\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מִשְׁלֵי שְׁלֹמֹה אֲשֶׁר הֶעְתִּיקוּ אַנְשֵׁי חִזְקִיָּה מֶלֶךְ־יְהוּדָה",
+    "en": "proverbs of Solomon which the men of Hezekiah king of Judah transferred",
+    "plain": "the men of Hezekiah king of Judah"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "Αὗται αἱ παιδεῖαι Σαλωμῶντος αἱ ἀδιάκριτοι, ἃς ἐξεγράψαντο οἱ φίλοι Ἑζεκίου τοῦ βασιλέως τῆς Ἰουδαίας",
+    "en": "These are the instructions of Solomon, the unsorted ones, which the friends of Hezekiah the king of Judea copied out",
+    "plain": "the friends of Hezekiah king of Judea"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text and makes good sense. \"Friends of the king\" was a court title in the Greek-speaking world of the translator, so the Greek likely updates the title rather than reflecting a different Hebrew word.",
+  "b": "The Greek also calls the sayings <i>paideiai</i>, \"instructions\" or \"disciplines\", and <i>adiakritoi</i>, \"unsorted, miscellaneous\", perhaps the translator's comment on the loose order of these chapters. In the Greek these chapters come later in the book than in the Hebrew, after 30:1–14, 24:23–34, 30:15–33 and 31:1–9.",
+  "s": [
+   "swete-ot-vol2",
+   "cook-lxx-proverbs",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "25:4",
+  "a": "and out comes a vessel for the smith",
+  "t": "A vessel, or silver made pure?",
+  "p": "The Greek has \"Strike unrefined silver, and it will be made wholly pure\", without the smith's vessel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיֵּצֵא לַצֹּרֵף כֶּלִי",
+    "en": "and a vessel comes out for the refiner",
+    "plain": "and out comes a vessel for the smith"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "τύπτε ἀδόκιμον ἀργύριον, καὶ καθαρισθήσεται καθαρὸν ἅπαν",
+    "en": "strike unrefined silver, and it will be cleansed entirely pure",
+    "plain": "and it will be made entirely pure"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear and fits the pairing with 25:5. The Greek translator seems to have read the picture as purifying the metal itself and smoothed the line.",
+  "b": "Codex Alexandrinus has \"hide\" (<i>krypte</i>) instead of \"strike\" (<i>typte</i>), a copying slip between two similar Greek words, recorded in Swete's apparatus. In 25:5 the Greek has \"kill the ungodly from before the king\".",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "25:10",
+  "a": "and the bad name you get will not go away",
+  "t": "A longer ending in the Greek",
+  "p": "The Greek turns this into a longer warning and adds a whole verse, numbered 25:10a.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְדִבָּתְךָ לֹא תָשׁוּב",
+    "en": "and your evil report will not turn back",
+    "plain": "and the bad name you get will not go away"
+   },
+   {
+    "w": "Greek (Rahlfs); with an added verse 25:10a",
+    "orig": "ἡ δὲ μάχη σου καὶ ἡ ἔχθρα οὐκ ἀπέσται, ἀλλ᾿ ἔσται σοι ἴση θανάτῳ. χάρις καὶ φιλία ἐλευθεροῖ...",
+    "en": "but your quarrel and enmity will not go away, but will be to you like death. Favor and friendship set free; keep them for yourself, so that you may not become a reproach, but guard your ways peaceably.",
+    "plain": "and your quarrel and hostility will not go away but will be like death to you. (25:10a) Favor and friendship set a person free: keep them for yourself, so that you are not put to shame, and guard your ways in peace."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the shorter and older form. The Greek translator of Proverbs often expands a saying and adds new ones of his own.",
+  "s": [
+   "swete-ot-vol2",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "25:20",
+  "a": "vinegar poured on soda",
+  "t": "Vinegar on soda, or on a wound?",
+  "p": "The Hebrew has natron (a natural soda); the Greek has \"vinegar on a wound\". The Greek also lacks the coat line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "חֹמֶץ עַל־נָתֶר",
+    "en": "vinegar on natron",
+    "plain": "vinegar poured on soda"
+   },
+   {
+    "w": "Greek (Rahlfs); followed by the BSB and some modern versions",
+    "orig": "ὥσπερ ὄξος ἕλκει ἀσύμφορον",
+    "en": "as vinegar is harmful to a wound",
+    "plain": "vinegar poured on a wound"
+   }
+  ],
+  "follow": 0,
+  "why": "Natron is a known substance (Jeremiah 2:22), and vinegar on it makes a clear picture: a reaction that spoils it. The Greek reading may reflect a different Hebrew word or a translator's guess at a rare one.",
+  "b": "The Greek of this verse is very different: \"As vinegar is harmful to a wound, so a trouble that falls on the body pains the heart.\" It then adds a saying not in the Hebrew: \"As a moth in a garment and a worm in wood, so a man's grief harms the heart.\" It has nothing for \"Pulling off someone's coat on a cold day\", which some scholars think entered the Hebrew by accident from the similar letters at the end of 25:19 (<i>mu'adet</i> / <i>ma'adeh</i>).",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "25:22",
+  "a": "the LORD will pay you back",
+  "t": "\"Will repay you\" or \"will repay you with good\"",
+  "p": "The Greek adds \"good things\": the Lord will repay you with good.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וַיהוָה יְשַׁלֶּם־לָךְ",
+    "en": "and the LORD will repay you",
+    "plain": "the LORD will pay you back"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "ὁ δὲ Κύριος ἀνταποδώσει σοι ἀγαθά",
+    "en": "and the Lord will repay you good things",
+    "plain": "the Lord will repay you with good things"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is shorter; the Greek spells out what the reward is. Paul quotes the Greek of 25:21–22 in Romans 12:20 but stops before this line.",
+  "s": [
+   "swete-ot-vol2",
+   "dunn-romans"
+  ]
+ },
+ {
+  "v": "25:27",
+  "a": "and searching out their glory is glory",
+  "t": "A puzzling line in every witness",
+  "p": "The Hebrew says \"searching their glory is glory\"; the Greek has \"but one should honor glorious words\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְחֵקֶר כְּבֹדָם כָּבוֹד",
+    "en": "and searching out their glory is glory",
+    "plain": "and searching out their glory is glory"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "τιμᾷν δὲ χρὴ λόγους ἐνδόξους",
+    "en": "but it is necessary to honor glorious words",
+    "plain": "but glorious words should be honored"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Hebrew as it stands, since every alternative is a reconstruction. The KJV supplies a \"not\" in the second line (\"so for men to search their own glory is not glory\"), an interpretation with no different Hebrew behind it; the note on the verse sets out that reading, the proposed emendations, and how the line answers 25:2.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs",
+   "van-leeuwen-25-27"
+  ]
+ },
+ {
+  "v": "26:2",
+  "a": "a curse that has no cause does not land",
+  "t": "\"Does not land\" or \"comes to him\"",
+  "p": "The written Hebrew (Ketiv) has \"not\"; the Hebrew read aloud (Qere) has \"to him\".",
+  "readings": [
+   {
+    "w": "Ketiv (written text) of the Leningrad Codex; Greek (\"will come upon no one\"); most modern versions",
+    "orig": "לֹא תָבֹא",
+    "en": "it will not come",
+    "plain": "a curse that has no cause does not land"
+   },
+   {
+    "w": "Qere (reading tradition) of the Masoretic Text",
+    "orig": "לוֹ תָבֹא",
+    "en": "to him it will come",
+    "plain": "a curse that has no cause comes back to the one who spoke it"
+   }
+  ],
+  "follow": 0,
+  "why": "The written text agrees with the Greek and gives the clearest sense with the bird images: the curse flutters about and never settles. The Qere is an old Jewish reading that turns the saying into a warning for the curser.",
+  "s": [
+   "tov-tchb",
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "26:11",
+  "a": "and a fool does his folly over again",
+  "t": "A longer saying in the Greek",
+  "p": "The Greek expands the dog saying and adds a line that is also found in Sirach 4:21.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כְּסִיל שׁוֹנֶה בְאִוַּלְתּוֹ",
+    "en": "a fool repeating his folly",
+    "plain": "and a fool does his folly over again"
+   },
+   {
+    "w": "Greek (Rahlfs); with an added verse 26:11a",
+    "orig": "οὕτως ἄφρων τῇ ἑαυτοῦ κακίᾳ ἀναστρέψας ἐπὶ τὴν ἑαυτοῦ ἁμαρτίαν. ἔστιν αἰσχύνη ἐπάγουσα ἁμαρτίαν, καὶ ἔστιν αἰσχύνη δόξα καὶ χάρις.",
+    "en": "so is a fool who returns in his own wickedness to his own sin. There is a shame that brings sin, and there is a shame that is glory and grace.",
+    "plain": "and so is a fool who goes back in his wickedness to his own sin. (26:11a) There is a shame that leads to sin, and there is a shame that is glory and grace"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek adds that the dog \"becomes hateful\" and that the fool returns to \"his own sin\"; its added line appears almost word for word in Sirach 4:21, so it may be a saying the translator knew from Jewish wisdom of his day.",
+  "b": "2 Peter 2:22 does not quote this Greek wording; see the note on the verse.",
+  "s": [
+   "swete-ot-vol2",
+   "cook-lxx-proverbs"
+  ]
+ },
+ {
+  "v": "26:23",
+  "a": "Silver slag",
+  "t": "Silver slag, or glaze?",
+  "p": "Dividing the Hebrew letters differently gives a word for \"glaze\" known from Ugaritic. Many modern versions follow it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV (\"silver dross\")",
+    "orig": "כֶּסֶף סִיגִים",
+    "en": "silver of dross",
+    "plain": "Silver slag"
+   },
+   {
+    "w": "Proposed by H. L. Ginsberg from Ugaritic spsg, \"glaze\"; same consonants, read as one word (most modern versions)",
+    "orig": "כְּסַפְסַגִים",
+    "en": "like glaze",
+    "plain": "Glaze"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading makes sense (cheap slag-silver coating a clay pot), so the Plain keeps it. The glaze reading is attractive and widely accepted; the meaning of the comparison is the same either way.",
+  "s": [
+   "fox-proverbs",
+   "murphy-proverbs",
+   "clifford-proverbs"
+  ]
+ },
+ {
+  "v": "26:23",
+  "a": "lips that burn",
+  "t": "Burning lips, or smooth lips?",
+  "p": "The Hebrew has \"burning\" lips (eager, fervent); the Greek has \"smooth lips\", which fits the deception of 26:24–26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שְׂפָתַיִם דֹּלְקִים",
+    "en": "burning lips",
+    "plain": "lips that burn"
+   },
+   {
+    "w": "Greek (Rahlfs); followed by some modern versions (reading Hebrew חֲלָקִים, 'smooth')",
+    "orig": "χείλη λεῖα καρδίαν καλύπτει λυπηράν",
+    "en": "smooth lips hide a grieving heart",
+    "plain": "lips that are smooth"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Burning\" lips can mean warm, eager speech that hides an evil heart, which fits the image of a shiny coat over clay. The Greek may have read a different Hebrew word (<i>chalaqim</i>, \"smooth\") or interpreted the sense.",
+  "s": [
+   "swete-ot-vol2",
+   "fox-proverbs"
+  ]
+ },
+ {
+  "v": "28:16",
+  "a": "but one who hates dishonest profit will have a long life",
+  "t": "One who hates, or those who hate?",
+  "p": "The written Hebrew has a plural, \"those who hate\"; the reading tradition has the singular. The meaning is unchanged.",
+  "readings": [
+   {
+    "w": "Qere (reading tradition) of the Masoretic Text; Greek",
+    "orig": "שֹׂנֵא בֶצַע",
+    "en": "one who hates unjust gain",
+    "plain": "but one who hates dishonest profit will have a long life"
+   },
+   {
+    "w": "Ketiv (written text) of the Leningrad Codex",
+    "orig": "שֹׂנְאֵי בֶצַע",
+    "en": "those who hate unjust gain",
+    "plain": "but those who hate dishonest profit will have long lives"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular matches the verb (\"he will prolong\") and the Greek (\"the one who hates injustice\"). The plural Ketiv is probably a copying variation.",
+  "s": [
+   "tov-tchb",
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "28:3",
+  "a": "A man who is poor himself",
+  "t": "A poor man, or a ruler?",
+  "p": "The Hebrew has rash, \"poor\". Some versions read rosh, \"head\" or \"ruler\", a change of one vowel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "גֶּבֶר רָשׁ וְעֹשֵׁק דַּלִּים",
+    "en": "a poor man who oppresses the poor",
+    "plain": "A man who is poor himself"
+   },
+   {
+    "w": "Proposed reading rosh, \"head\" (no manuscript; followed by the NIV and some modern versions)",
+    "orig": "גֶּבֶר רֹאשׁ",
+    "en": "a man who is head (a ruler) who oppresses the poor",
+    "plain": "A ruler"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "ἀνδρεῖος ἐν ἀσεβείαις συκοφαντεῖ πτωχούς",
+    "en": "a man bold in ungodly deeds slanders the poor",
+    "plain": "A man bold in wickedness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense: a poor man given a little power can be the harshest oppressor. The ruler reading fits 28:15–16 but has no manuscript behind it, and the Greek goes its own way.",
+  "s": [
+   "fox-proverbs",
+   "murphy-proverbs"
+  ]
+ },
+ {
+  "v": "28:18",
+  "a": "will fall at once",
+  "t": "\"At once\" or \"into a pit\"?",
+  "p": "The Hebrew has be'echat, \"in one\"; the Syriac, as reported, has \"into a pit\", which the NIV follows.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "יִפּוֹל בְּאֶחָת",
+    "en": "he will fall in one (at once)",
+    "plain": "will fall at once"
+   },
+   {
+    "w": "Syriac (as reported in the NIV's footnote); NIV; reading Hebrew בְּשַׁחַת",
+    "orig": "יִפּוֹל בְּשַׁחַת",
+    "en": "he will fall into a pit",
+    "plain": "will fall into a pit"
+   },
+   {
+    "w": "Greek (Rahlfs)",
+    "orig": "ὁ δὲ σκολιαῖς ὁδοῖς πορευόμενος ἐμπλακήσεται",
+    "en": "but the one who walks in crooked ways will be entangled",
+    "plain": "will be caught in a tangle"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In one\" gives good sense (all at once, or in one of his two ways), and the pit reading differs by one letter and may be an easier text made to match 28:10 and 26:27.",
+  "s": [
+   "fox-proverbs",
+   "mckane-proverbs"
+  ]
+ }
+]

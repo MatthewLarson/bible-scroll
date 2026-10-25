@@ -1,0 +1,906 @@
+[
+ {
+  "v": "1:8",
+  "a": "Shimei, Rei",
+  "t": "Shimei and Rei, or Shimei and his friends?",
+  "p": "The Hebrew names two men, Shimei and Rei. The Lucianic Greek reads \"Shimei and his companions.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV, BSB",
+    "orig": "וְשִׁמְעִי וְרֵעִי",
+    "en": "and Shimei and Rei",
+    "plain": "Shimei, Rei"
+   },
+   {
+    "w": "Lucianic (Antiochene) Greek manuscripts, the better Old Greek witness in this section, as reported in commentaries; Josephus calls Shimei \"David's friend\"",
+    "orig": "καὶ Σεμεϊ καὶ οἱ ἑταῖροι αὐτοῦ",
+    "en": "and Shimei and his companions",
+    "plain": "Shimei and his friends"
+   }
+  ],
+  "follow": 0,
+  "why": "Rei is otherwise unknown, and the letters of <i>re'i</i> are close to <i>re'aw</i>, \"his friends,\" which the Lucianic Greek seems to have read. But an unknown name is not impossible, and the Hebrew is the harder reading, so the Plain keeps it. Shimei may be Shimei son of Ela, Solomon's officer in Benjamin (4:18), not the Shimei who cursed David.",
+  "b": "<p>A note on the Greek of 1 Kings 1:1–2:11: in this stretch, Codex Vaticanus (and so Rahlfs' printed edition, which follows it) carries a revision called <i>kaige</i> that brought the Greek closer to the Hebrew. The Lucianic (Antiochene) manuscripts are the better witness to the Old Greek here. From 2:12 on, Vaticanus is again a good witness to the Old Greek.</p>",
+  "s": [
+   "cogan-1kings",
+   "montgomery-kings",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "And now, my lord the king, you do not know it.",
+  "t": "\"And now\" or \"and you\"?",
+  "p": "The Leningrad Codex reads \"and now\"; many manuscripts and the versions read \"and you.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וְעַתָּה אֲדֹנִי הַמֶּלֶךְ לֹא יָדָעְתָּ",
+    "en": "and now, my lord the king, you do not know",
+    "plain": "And now, my lord the king, you do not know it."
+   },
+   {
+    "w": "Many Hebrew manuscripts, Septuagint, Targum, Syriac, Vulgate, as reported; NIV, ESV",
+    "orig": "וְאַתָּה אֲדֹנִי הַמֶּלֶךְ לֹא יָדָעְתָּ",
+    "en": "and you, my lord the king, do not know",
+    "plain": "And you, my lord the king, do not know it."
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sound the same and differ in one letter. \"And you\" fits the second-person verb more smoothly and is probably original; but the Leningrad text makes good sense as a repeated \"now,\" and the meaning is the same, so the Plain keeps it.",
+  "s": [
+   "cogan-1kings",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:27",
+  "a": "your servant",
+  "t": "Your servant or your servants?",
+  "p": "The written Hebrew has \"your servants\"; the Masoretes read \"your servant,\" meaning Nathan himself.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere); KJV, BSB",
+    "orig": "עַבְדְּךָ",
+    "en": "your servant",
+    "plain": "your servant"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv); NIV, ESV",
+    "orig": "עבדיך",
+    "en": "your servants",
+    "plain": "your servants"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes marked the written \"your servants\" to be read \"your servant.\" Both make sense: Nathan may mean himself (as in 1:26), or all the king's loyal men. The Plain follows the reading tradition because Nathan is speaking of his own exclusion in the verse before. See the topic on Ketiv and Qere.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:37",
+  "a": "may he be",
+  "t": "\"May he be\" or \"he will be\"?",
+  "p": "The written Hebrew is a wish, \"may he be\"; the Masoretes read a statement, \"so he will be.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv); KJV, NIV, ESV",
+    "orig": "יהי",
+    "en": "may he be",
+    "plain": "may he be"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere)",
+    "orig": "יִהְיֶה",
+    "en": "he will be",
+    "plain": "he will be"
+   }
+  ],
+  "follow": 0,
+  "why": "Benaiah is praying, as his \"Amen\" and \"So may the LORD say\" show (1:36), and the rest of the verse is a wish (\"may he make great\"). The written form fits that better. Most English versions agree.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:47",
+  "a": "May God",
+  "t": "\"God\" or \"your God\"?",
+  "p": "The written Hebrew has \"your God\"; the Masoretes read simply \"God.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere); KJV",
+    "orig": "אֱלֹהִים",
+    "en": "God",
+    "plain": "May God"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv); NIV, ESV, many Hebrew manuscripts",
+    "orig": "אלהיך",
+    "en": "your God",
+    "plain": "May your God"
+   }
+  ],
+  "follow": 0,
+  "why": "Both are possible. The servants speak to David, so \"your God\" is natural; the reading tradition may have avoided suggesting that the LORD was David's God rather than the servants' own. The meaning hardly changes. The Plain follows the reading tradition.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:48",
+  "a": "someone to sit on my throne",
+  "t": "\"Someone\" or \"one of my offspring\"?",
+  "p": "The Greek says God has given \"one of my offspring\" to sit on the throne.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "יֹשֵׁב עַל־כִּסְאִי",
+    "en": "one sitting on my throne",
+    "plain": "someone to sit on my throne"
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition, following Codex Vaticanus, which is the kaige text here), as reported in commentaries; whether the Lucianic manuscripts agree was not checked for this site",
+    "orig": "ἐκ τοῦ σπέρματός μου καθήμενον ἐπὶ τοῦ θρόνου μου",
+    "en": "one of my offspring sitting on my throne",
+    "plain": "one of my offspring to sit on my throne"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek words make explicit the link to God's promise about David's offspring (2 Samuel 7:12) and may be an addition from there. The Hebrew is shorter and makes good sense. Because the kaige revision normally brings the Greek closer to the Hebrew, a plus that survives in it is likely to be Old Greek.",
+  "b": "<p>A note on the Greek of 1 Kings 1:1–2:11: in this stretch, Codex Vaticanus (and so Rahlfs' printed edition, which follows it) carries a revision called <i>kaige</i> that brought the Greek closer to the Hebrew. The Lucianic (Antiochene) manuscripts are the better witness to the Old Greek here. From 2:12 on, Vaticanus is again a good witness to the Old Greek.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "he put that war blood on the belt at his waist and on the sandals on his feet",
+  "t": "Whose belt and sandals, and what blood?",
+  "p": "The Greek reads \"innocent blood\"; the Lucianic Greek and Old Latin also read \"my belt ... my sandals.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum, Vulgate; KJV, NIV, ESV",
+    "orig": "וַיִּתֵּן דְּמֵי מִלְחָמָה בַּחֲגֹרָתוֹ אֲשֶׁר בְּמָתְנָיו וּבְנַעֲלוֹ אֲשֶׁר בְּרַגְלָיו",
+    "en": "and he put blood of war on his belt that was on his waist and on his sandal that was on his feet",
+    "plain": "he put that war blood on the belt at his waist and on the sandals on his feet"
+   },
+   {
+    "w": "Lucianic (Antiochene) Greek manuscripts, the better Old Greek witness in this section, and the Old Latin, as reported by Montgomery and Cogan; Vaticanus also has \"innocent blood\"",
+    "orig": "καὶ ἔδωκεν αἷμα ἀθῷον ἐν τῇ ζώνῃ μου ... καὶ ἐν τῷ ὑποδήματί μου",
+    "en": "and he put innocent blood on my belt ... and on my sandal",
+    "plain": "he put innocent blood on the belt at my waist and on the sandals on my feet"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Greek, David says Joab's murders stained David himself: the king bore the guilt of blood his commander shed. That makes his charge to Solomon a duty to clear his own house, and it fits 2:31–33. The Hebrew \"his belt ... his sandals\" pictures the guilt clinging to Joab. \"Innocent blood\" may be the translators' explanation of the odd repeated \"blood of war,\" or a reading of a different Hebrew text. The Hebrew makes sense, and the Plain keeps it, but some scholars think the Lucianic \"my\" is original.",
+  "s": [
+   "montgomery-kings",
+   "cogan-1kings",
+   "fernandez-marcos-antioqueno"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "and for Abiathar the priest, and for Joab son of Zeruiah!",
+  "t": "Abiathar and Joab as Adonijah's allies",
+  "p": "The Hebrew is abrupt. The Greek explains that Abiathar and Joab were Adonijah's partners.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "וְלוֹ וּלְאֶבְיָתָר הַכֹּהֵן וּלְיוֹאָב בֶּן־צְרוּיָה",
+    "en": "and for him, and for Abiathar the priest, and for Joab son of Zeruiah",
+    "plain": "and for Abiathar the priest, and for Joab son of Zeruiah!"
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition), as reported in commentaries",
+    "orig": "καὶ αὐτῷ Αβιαθαρ ὁ ἱερεὺς καὶ αὐτῷ Ιωαβ ... ἑταῖρος",
+    "en": "and Abiathar the priest is his, and Joab ... is his companion",
+    "plain": "and Abiathar the priest is on his side, and Joab son of Zeruiah is his comrade!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek seems to read the same Hebrew letters a little differently, as statements rather than objects of \"ask.\" Either way Solomon names the two men who backed Adonijah (1:7), and both are dealt with next (2:26–34). The Plain keeps the Hebrew.",
+  "s": [
+   "montgomery-kings",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "Absalom",
+  "t": "Absalom or Solomon?",
+  "p": "The Hebrew says Joab had not followed Absalom. The Greek says he had not followed Solomon.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum, Vulgate; KJV, NIV, ESV",
+    "orig": "וְאַחֲרֵי אַבְשָׁלוֹם לֹא נָטָה",
+    "en": "and after Absalom he had not turned",
+    "plain": "Absalom"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus and Lucianic manuscripts), Syriac, as reported",
+    "orig": "καὶ ὀπίσω Σαλωμων οὐκ ἔκλινεν",
+    "en": "and after Solomon he had not turned",
+    "plain": "Solomon"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings make sense. \"He had backed Adonijah and not Solomon\" fits this story. \"He had backed Adonijah, though not Absalom\" contrasts Joab's two choices and reminds the reader that Joab had once been loyal to David in a far worse crisis, which makes his end the more striking. The names look alike in Hebrew. Many scholars prefer the Greek; the Plain keeps the Hebrew as the harder reading.",
+  "s": [
+   "cogan-1kings",
+   "montgomery-kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:29",
+  "a": "Solomon sent Benaiah son of Jehoiada.",
+  "t": "Solomon asks Joab why he fled",
+  "p": "The Greek adds a short exchange: Solomon asks Joab why he fled to the altar, and Joab answers that he was afraid.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "וַיִּשְׁלַח שְׁלֹמֹה אֶת־בְּנָיָהוּ",
+    "en": "and Solomon sent Benaiah",
+    "plain": "Solomon sent Benaiah son of Jehoiada."
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition, Codex Vaticanus), as reported",
+    "orig": "Καὶ ἀπέστειλεν βασιλεὺς Σαλωμων πρὸς Ιωαβ λέγων Τί γέγονέν σοι, ὅτι πέφευγας εἰς τὸ θυσιαστήριον; καὶ εἶπεν Ιωαβ Ὅτι ἐφοβήθην ἀπὸ προσώπου σου καὶ ἔφυγον πρὸς κύριον.",
+    "en": "And King Solomon sent to Joab, saying, \"What has happened to you, that you have fled to the altar?\" And Joab said, \"Because I was afraid of you, and I fled to the LORD.\"",
+    "plain": "King Solomon sent word to Joab: \"What has come over you, that you have run to the altar?\" Joab said, \"I was afraid of you, so I ran to the LORD.\" Then Solomon sent Benaiah son of Jehoiada."
+   }
+  ],
+  "follow": 0,
+  "why": "The extra lines are smooth and may preserve an older Hebrew text lost by a copyist's eye skipping between two places where \"Solomon sent\" occurs. Or a translator may have added them to explain why Solomon sent Benaiah. The Hebrew is shorter and complete in sense; the Plain keeps it, but many scholars think the Greek may be original here.",
+  "s": [
+   "cogan-1kings",
+   "rahlfs-lxx",
+   "montgomery-kings"
+  ]
+ },
+ {
+  "v": "2:35",
+  "a": "In Abiathar's place he put Zadok the priest.",
+  "t": "The first Greek \"miscellany\" (2:35a–o)",
+  "p": "After this verse the Greek adds fourteen short notes about Solomon, mostly repeating material found later in chapters 3–9.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "וְאֶת־צָדוֹק הַכֹּהֵן נָתַן הַמֶּלֶךְ תַּחַת אֶבְיָתָר",
+    "en": "and Zadok the priest the king put in place of Abiathar",
+    "plain": "In Abiathar's place he put Zadok the priest."
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, Rahlfs' 3 Kingdoms 2:35a–o)",
+    "orig": "Καὶ ἔδωκεν κύριος φρόνησιν τῷ Σαλωμων ...",
+    "en": "And the Lord gave Solomon understanding ... (fourteen added paragraphs)",
+    "plain": "In Abiathar's place he put Zadok the priest. [Here the Greek adds a collection of short notes: the Lord gave Solomon great wisdom, greater than that of Egypt; he married Pharaoh's daughter; he had seventy thousand carriers and eighty thousand stonecutters; he made the Sea, the stands and the pillars; he built the Millo and the cities of Hazor, Megiddo and Gezer; he offered sacrifices three times a year; and the warning about Shimei is told again.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek of 3 Kingdoms (1 Kings) contains two collections of extra material, here and after 2:46. Most of their items repeat or rearrange verses that the Hebrew has in chapters 3–5 and 9. D. W. Gooding argued that they are an early Jewish commentary on Solomon, arranged to show him at his best; others, such as Julio Trebolle and Adrian Schenker, think parts of them preserve an older Hebrew arrangement. The Plain follows the Hebrew; the bracket only summarizes the Greek.",
+  "b": "<p>The miscellanies are one of the largest differences between the Hebrew and the Greek in the historical books. They show that in the centuries before Christ the Solomon story circulated in more than one arrangement. See also the variant at 2:46 and the topic on how the text came down to us.</p>",
+  "s": [
+   "gooding-relics",
+   "vankeulen-solomon",
+   "schenker-septante",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:46",
+  "a": "Now the kingdom was firm in Solomon's hand.",
+  "t": "The second Greek \"miscellany\" (2:46a–l)",
+  "p": "After this verse the Greek adds another collection of notes on Solomon's wisdom, wealth, officials and peace.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "וְהַמַּמְלָכָה נָכוֹנָה בְּיַד־שְׁלֹמֹה",
+    "en": "and the kingdom was established in the hand of Solomon",
+    "plain": "Now the kingdom was firm in Solomon's hand."
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus, Rahlfs' 3 Kingdoms 2:46a–l)",
+    "orig": "Καὶ ἦν ὁ βασιλεὺς Σαλωμων φρόνιμος σφόδρα καὶ σοφός ...",
+    "en": "And King Solomon was very wise and understanding ... (added paragraphs)",
+    "plain": "Now the kingdom was firm in Solomon's hand. [Here the Greek adds a second collection: Solomon was very wise; Judah and Israel were many and glad; he ruled all the kingdoms; his daily food; his peace on every side; his horses and chariots; and a list of his chief officials. Much of it repeats 4:1–28.]"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 2:35, the added material mostly repeats or rearranges verses the Hebrew has in chapter 4. The Plain follows the Hebrew; the bracket summarizes the Greek.",
+  "s": [
+   "gooding-relics",
+   "vankeulen-solomon",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:27",
+  "a": "Give the live child to her.",
+  "t": "Which woman gets the child?",
+  "p": "The Greek makes it explicit: \"Give it to the one who said, 'Give it to her.'\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי",
+    "en": "give her the live child",
+    "plain": "Give the live child to her."
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition), as reported",
+    "orig": "Δότε τὸ παιδίον τῇ εἰπούσῃ Δότε αὐτῇ αὐτό",
+    "en": "give the child to the one who said, Give it to her",
+    "plain": "Give the live child to the one who said, 'Give it to her.'"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek spells out what the Hebrew implies. It is probably a translator's clarification, not a different Hebrew text. The Plain keeps the shorter Hebrew, which echoes the mother's own words.",
+  "s": [
+   "cogan-1kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "who was in the land.",
+  "t": "\"In the land\" or \"in the land of Judah\"?",
+  "p": "The Greek reads \"one officer in the land of Judah,\" taking \"Judah\" from the start of 4:20.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV",
+    "orig": "וּנְצִיב אֶחָד אֲשֶׁר בָּאָרֶץ",
+    "en": "and one officer who was in the land",
+    "plain": "who was in the land."
+   },
+   {
+    "w": "Septuagint, as reported (NRSV and other versions follow it)",
+    "orig": "ἐν γῇ Ιουδα",
+    "en": "in the land of Judah",
+    "plain": "who was in the land of Judah."
+   }
+  ],
+  "follow": 0,
+  "why": "Reading \"Judah\" here would give Judah its own officer, and 4:20 would then begin \"Judah and Israel\" with one \"Judah\" lost. That kind of doubling of a word at a line break is a common copying slip, so many scholars prefer the Greek. But the Hebrew can be read as it stands (see the note), and the Plain keeps it.",
+  "s": [
+   "cogan-1kings",
+   "rahlfs-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:26",
+  "a": "forty thousand stalls",
+  "t": "Forty thousand or four thousand?",
+  "p": "Chronicles gives four thousand stalls, and many scholars think forty thousand is a copying error.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV",
+    "orig": "אַרְבָּעִים אֶלֶף",
+    "en": "forty thousand",
+    "plain": "forty thousand stalls"
+   },
+   {
+    "w": "2 Chronicles 9:25 (the parallel account); NIV",
+    "orig": "אַרְבַּעַת אֲלָפִים",
+    "en": "four thousand",
+    "plain": "four thousand stalls"
+   }
+  ],
+  "follow": 0,
+  "why": "Forty thousand stalls for 1,400 chariots (10:26) seems far too many, and four thousand would fit about three horses per chariot, with spares. Chronicles is not a manuscript of Kings, but it was copied from a text of Kings, so its number is good evidence. The Plain keeps the Hebrew of Kings and notes the problem; the NIV adopts the Chronicles figure. Other differences with Chronicles in these chapters, such as the Sea's capacity (7:26), are shown in the same way. The Greek of Kings has the forty-thousand figure in its miscellany after 2:46, as reported.",
+  "s": [
+   "japhet-chronicles",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "4:32",
+  "a": "one thousand and five",
+  "t": "How many songs?",
+  "p": "The Greek says five thousand songs.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "חֲמִשָּׁה וָאָלֶף",
+    "en": "five and a thousand",
+    "plain": "one thousand and five"
+   },
+   {
+    "w": "Septuagint (3 Kingdoms 5:12 in Rahlfs' numbering)",
+    "orig": "πεντακισχίλιαι",
+    "en": "five thousand",
+    "plain": "five thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew \"five and a thousand\" is an unusual way to write the number, and the Greek translator may have read it as \"five thousand.\" The Plain keeps the Hebrew.",
+  "s": [
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "5:3",
+  "a": "his feet",
+  "t": "\"His feet\" or \"my feet\"?",
+  "p": "The written Hebrew has \"his feet\" (David's); the Masoretes read \"my feet.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv); KJV, NIV, ESV",
+    "orig": "רגלו",
+    "en": "his feet",
+    "plain": "his feet"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere)",
+    "orig": "רַגְלָי",
+    "en": "my feet",
+    "plain": "my feet"
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence is about David's wars, so \"his feet\" fits. \"My feet\" would have Solomon claim the victory. The two forms differ by one small letter. Most versions follow the written text.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "twenty cors of oil",
+  "t": "Twenty cors or twenty thousand?",
+  "p": "The Hebrew has twenty cors of oil. The Greek and Chronicles have twenty thousand.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV",
+    "orig": "עֶשְׂרִים כֹּר שֶׁמֶן כָּתִית",
+    "en": "twenty cors of beaten oil",
+    "plain": "twenty cors of oil"
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition); compare 2 Chronicles 2:10, \"twenty thousand baths of oil\"; NIV",
+    "orig": "εἴκοσι χιλιάδας βαθ ἐλαίου κεκομμένου",
+    "en": "twenty thousand baths of beaten oil",
+    "plain": "twenty thousand baths of oil"
+   }
+  ],
+  "follow": 0,
+  "why": "Twenty cors (about 4,400 liters) of the finest \"beaten\" oil, made by crushing olives by hand, could be a luxury gift beside the wheat. The Greek and Chronicles give a much larger amount, perhaps of ordinary oil. Either text could have been changed; the Plain keeps the Hebrew.",
+  "s": [
+   "cogan-1kings",
+   "japhet-chronicles",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "Four hundred and eighty years",
+  "t": "480 or 440 years?",
+  "p": "The Greek has 440 years from the exodus to the temple.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "בִּשְׁמוֹנִים שָׁנָה וְאַרְבַּע מֵאוֹת שָׁנָה",
+    "en": "in the four hundred and eightieth year",
+    "plain": "Four hundred and eighty years"
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition)",
+    "orig": "ἐν τῷ τεσσαρακοστῷ καὶ τετρακοσιοστῷ ἔτει",
+    "en": "in the four hundred and fortieth year",
+    "plain": "Four hundred and forty years"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew number is the one used in most discussions of the date of the exodus. The Greek number may come from a different count of the years in the wilderness and of the judges. Josephus gives yet another figure, 592 years (<i>Antiquities</i> 8.61). The Plain follows the Hebrew. See the note on this verse and the date-of-exodus topic.",
+  "s": [
+   "rahlfs-lxx",
+   "josephus-ant",
+   "kitchen-ot"
+  ]
+ },
+ {
+  "v": "6:8",
+  "a": "bottom level",
+  "t": "The middle or the lowest level?",
+  "p": "The Hebrew says the door led to the middle side rooms. The Greek and the Targum say the lowest.",
+  "readings": [
+   {
+    "w": "Septuagint, Targum; NIV, ESV, NRSV",
+    "orig": "הַתַּחְתּוֹנָה",
+    "en": "the lowest",
+    "plain": "bottom level"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "הַתִּיכֹנָה",
+    "en": "the middle",
+    "plain": "middle level"
+   }
+  ],
+  "follow": 0,
+  "why": "A door on the ground floor leading to the lowest rooms, with stairs up to the middle and third levels, is what the rest of the verse describes. The Hebrew \"middle\" was probably written by mistake under the influence of \"middle\" later in the verse. Here the Plain follows the Greek.",
+  "s": [
+   "cogan-1kings",
+   "rahlfs-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "Then the word of the LORD came to Solomon. It said:",
+  "t": "Missing from the Old Greek (6:11–14)",
+  "p": "Codex Vaticanus and the Old Greek lack 6:11–14, the LORD's word to Solomon. The four verses go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV; Codex Alexandrinus and later Greek manuscripts",
+    "orig": "",
+    "en": "(verses 11–14 present)",
+    "plain": "Then the word of the LORD came to Solomon. It said:"
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (the Old Greek), as reported",
+    "orig": "",
+    "en": "(verses 11–14 absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verses interrupt the building report, and their language is that of Deuteronomy and of 9:4–5. Many scholars think a later editor added them to the Hebrew after the Greek translation was made; others think the Greek translator left them out because they broke the flow of the description. The Plain keeps the Hebrew.",
+  "s": [
+   "cogan-1kings",
+   "sweeney-kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "\"This house that you are building: if you live by my rules, and do what my rulings say, and keep all my commands and walk in them, then I will make good my word with you, the word I gave David your father.",
+  "t": "Missing from the Old Greek (6:11–14)",
+  "p": "Codex Vaticanus and the Old Greek lack 6:11–14, the LORD's word to Solomon. The four verses go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV; Codex Alexandrinus and later Greek manuscripts",
+    "orig": "",
+    "en": "(verses 11–14 present)",
+    "plain": "\"This house that you are building: if you live by my rules, and do what my rulings say, and keep all my commands and walk in them, then I will make good my word with you, the word I gave David your father."
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (the Old Greek), as reported",
+    "orig": "",
+    "en": "(verses 11–14 absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verses interrupt the building report, and their language is that of Deuteronomy and of 9:4–5. Many scholars think a later editor added them to the Hebrew after the Greek translation was made; others think the Greek translator left them out because they broke the flow of the description. The Plain keeps the Hebrew.",
+  "s": [
+   "cogan-1kings",
+   "sweeney-kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "I will dwell in the middle of the Israelites. I will not leave my people Israel.\"",
+  "t": "Missing from the Old Greek (6:11–14)",
+  "p": "Codex Vaticanus and the Old Greek lack 6:11–14, the LORD's word to Solomon. The four verses go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV; Codex Alexandrinus and later Greek manuscripts",
+    "orig": "",
+    "en": "(verses 11–14 present)",
+    "plain": "I will dwell in the middle of the Israelites. I will not leave my people Israel.\""
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (the Old Greek), as reported",
+    "orig": "",
+    "en": "(verses 11–14 absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verses interrupt the building report, and their language is that of Deuteronomy and of 9:4–5. Many scholars think a later editor added them to the Hebrew after the Greek translation was made; others think the Greek translator left them out because they broke the flow of the description. The Plain keeps the Hebrew.",
+  "s": [
+   "cogan-1kings",
+   "sweeney-kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "Solomon built the house, and he finished it.",
+  "t": "Missing from the Old Greek (6:11–14)",
+  "p": "Codex Vaticanus and the Old Greek lack 6:11–14, the LORD's word to Solomon. The four verses go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV; Codex Alexandrinus and later Greek manuscripts",
+    "orig": "",
+    "en": "(verses 11–14 present)",
+    "plain": "Solomon built the house, and he finished it."
+   },
+   {
+    "w": "Septuagint, Codex Vaticanus (the Old Greek), as reported",
+    "orig": "",
+    "en": "(verses 11–14 absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verses interrupt the building report, and their language is that of Deuteronomy and of 9:4–5. Many scholars think a later editor added them to the Hebrew after the Greek translation was made; others think the Greek translator left them out because they broke the flow of the description. The Plain keeps the Hebrew.",
+  "s": [
+   "cogan-1kings",
+   "sweeney-kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "His own house",
+  "t": "The palace in the Greek order (7:1–12)",
+  "p": "The Greek tells the palace buildings (7:1–12) after the temple's bronze work, at the end of the chapter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "",
+    "en": "(7:1–12 here, between the temple and its furnishings)",
+    "plain": "His own house"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus; Rahlfs' 3 Kingdoms 7:38–50), as reported",
+    "orig": "",
+    "en": "(7:1–12 placed after 7:51)",
+    "plain": "His own house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek order describes the temple and all its furnishings without a break, then the palace. The Hebrew order sets the palace between the house and its bronze work, so that the temple appears as part of a royal complex. Scholars disagree about which is older: some, such as Gooding and van Keulen, see the Greek as a later rearrangement; others think it preserves an earlier Hebrew order. The Plain keeps the Hebrew order. The twelve verses go together.",
+  "s": [
+   "vankeulen-solomon",
+   "gooding-relics",
+   "cogan-1kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "7:18",
+  "a": "He made the pomegranates: two rows all around on the one network, to cover the capitals on top of the pillars.",
+  "t": "Pillars and pomegranates",
+  "p": "The Hebrew seems to have swapped \"pillars\" and \"pomegranates.\" Some Hebrew manuscripts and the Greek put them the other way round.",
+  "readings": [
+   {
+    "w": "Some Hebrew manuscripts, Septuagint, as reported; NIV, ESV and most modern versions",
+    "orig": "וַיַּעַשׂ אֶת־הָרִמֹּנִים ... עַל־רֹאשׁ הָעַמּוּדִים",
+    "en": "he made the pomegranates ... on top of the pillars",
+    "plain": "He made the pomegranates: two rows all around on the one network, to cover the capitals on top of the pillars."
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
+    "orig": "וַיַּעַשׂ אֶת־הָעַמּוּדִים ... עַל־רֹאשׁ הָרִמֹּנִים",
+    "en": "he made the pillars ... on top of the pomegranates",
+    "plain": "He made the pillars: two rows all around on the one network, to cover the capitals on top of the pomegranates."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Capitals on top of the pomegranates\" makes no sense, while \"pomegranates ... on top of the pillars\" agrees with 7:20 and 7:42. The two words were probably swapped in copying. The Plain follows the corrected reading.",
+  "s": [
+   "cogan-1kings",
+   "montgomery-kings"
+  ]
+ },
+ {
+  "v": "7:26",
+  "a": "two thousand baths",
+  "t": "Two thousand or three thousand baths?",
+  "p": "Chronicles gives the Sea a capacity of three thousand baths.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "אַלְפַּיִם בַּת",
+    "en": "two thousand baths",
+    "plain": "two thousand baths"
+   },
+   {
+    "w": "2 Chronicles 4:5 (the parallel account)",
+    "orig": "שְׁלֹשֶׁת אֲלָפִים בַּתִּים",
+    "en": "three thousand baths",
+    "plain": "three thousand baths"
+   }
+  ],
+  "follow": 0,
+  "why": "Chronicles was copied from a text of Kings, so its figure is evidence, but it may be a copying error or a different way of measuring. The Plain keeps the figure of Kings. See the note.",
+  "s": [
+   "japhet-chronicles",
+   "cogan-1kings"
+  ]
+ },
+ {
+  "v": "7:40",
+  "a": "the basins",
+  "t": "Basins or pots?",
+  "p": "A few Hebrew manuscripts, the Greek and Chronicles read \"pots,\" as in 7:45.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV",
+    "orig": "הַכִּיֹּרוֹת",
+    "en": "the basins",
+    "plain": "the basins"
+   },
+   {
+    "w": "A few Hebrew manuscripts, Septuagint, 2 Chronicles 4:11, as reported; NIV",
+    "orig": "הַסִּירוֹת",
+    "en": "the pots",
+    "plain": "the pots"
+   }
+  ],
+  "follow": 0,
+  "why": "The list in 7:45 repeats this one and has \"pots,\" so \"pots\" is probably original here, and the ten great basins of 7:38 may have led a copyist to write \"basins.\" The two words share most of their letters. The Plain keeps the Leningrad text and shows the other reading.",
+  "s": [
+   "cogan-1kings",
+   "japhet-chronicles"
+  ]
+ },
+ {
+  "v": "7:45",
+  "a": "All these objects",
+  "t": "\"These\" or \"the tent\"?",
+  "p": "The written Hebrew reads \"the tent\"; the Masoretes read \"these.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere); KJV, NIV, ESV",
+    "orig": "הָאֵלֶּה",
+    "en": "these",
+    "plain": "All these objects"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv)",
+    "orig": "האהל",
+    "en": "the tent",
+    "plain": "All the objects of the tent"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words have the same letters except one (<i>ha'elleh</i> and <i>ha'ohel</i>). \"The tent\" would be a strange word for Solomon's temple, though it could recall the tabernacle. The reading tradition, the Greek and Chronicles (2 Chronicles 4:16) support \"these.\"",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "the elders of Israel, all the tribal heads and the leaders of the Israelite families",
+  "t": "The shorter Greek of 8:1–5",
+  "p": "The Old Greek of 8:1–5 is much shorter than the Hebrew. Its differences in 8:1, 8:2, 8:4 and 8:5 go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "אֶת־זִקְנֵי יִשְׂרָאֵל אֶת־כָּל־רָאשֵׁי הַמַּטּוֹת נְשִׂיאֵי הָאָבוֹת",
+    "en": "the elders of Israel, all the heads of the tribes, the chiefs of the fathers' houses",
+    "plain": "the elders of Israel, all the tribal heads and the leaders of the Israelite families"
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus), as reported by Tov and Cogan",
+    "orig": "πάντας τοὺς πρεσβυτέρους Ισραηλ",
+    "en": "all the elders of Israel",
+    "plain": "the elders of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "Besides the tribal heads and family leaders of 8:1, the Old Greek lacks, as reported, most of 8:2 (\"every man in Israel,\" the month of Ethanim, the feast and the seventh month), the tent of meeting and the holy objects with \"the priests and the Levites\" in 8:4, and \"all the community of Israel who had gathered to him\" in 8:5. Emanuel Tov uses this passage as a standard example of a Hebrew text expanded after the Greek was translated, with words in the style of the priestly writings (tribes, fathers' houses, community, Levites). Others think the Greek translator shortened a repetitive passage. The Plain keeps the Hebrew.",
+  "s": [
+   "tov-tchb",
+   "cogan-1kings",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "8:16",
+  "a": "But I chose David to be over my people Israel.",
+  "t": "Did God also choose Jerusalem?",
+  "p": "Chronicles, and probably a Qumran fragment, have a longer text: God chose Jerusalem for his name, and David over his people.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, ESV, NIV",
+    "orig": "וָאֶבְחַר בְּדָוִד לִהְיוֹת עַל־עַמִּי יִשְׂרָאֵל",
+    "en": "and I chose David to be over my people Israel",
+    "plain": "But I chose David to be over my people Israel."
+   },
+   {
+    "w": "2 Chronicles 6:5–6; probably the Qumran fragment 4QKings (4Q54) as reconstructed by its editor, Julio Trebolle Barrera (DJD 14); the Septuagint has the clause about Jerusalem but not the one about a ruler, as reported",
+    "orig": "וְלֹא־בָחַרְתִּי בְאִישׁ לִהְיוֹת נָגִיד ... וָאֶבְחַר בִּירוּשָׁלַ‍ִם לִהְיוֹת שְׁמִי שָׁם",
+    "en": "nor did I choose a man to be ruler ... but I chose Jerusalem for my name to be there",
+    "plain": "Nor did I choose any man to be ruler over my people Israel. But I chose Jerusalem for my name to be there, and I chose David to be over my people Israel."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text balances \"no city ... no man\" with \"Jerusalem ... David.\" A copyist's eye could easily have jumped from the first \"I chose\" to the last, dropping the words in between. The Qumran fragment is very small, and its support depends on how much space its editor reconstructs. The Plain keeps the Hebrew of Kings but many scholars think the longer text is original.",
+  "s": [
+   "djd14-deut",
+   "abegg-dssb",
+   "japhet-chronicles",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:48",
+  "a": "I built",
+  "t": "\"I built\" or \"you built\"?",
+  "p": "The written Hebrew has \"you built\"; the Masoretes read \"I built.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the reading tradition (Qere); KJV, NIV, ESV",
+    "orig": "בָּנִיתִי",
+    "en": "I have built",
+    "plain": "I built"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written text (Ketiv)",
+    "orig": "בנית",
+    "en": "you have built",
+    "plain": "you built"
+   }
+  ],
+  "follow": 0,
+  "why": "Solomon says \"the house I built\" throughout the prayer (8:20, 8:27, 8:43, 8:44). The written form may be a slip, or a pious idea that God himself built the house (Psalm 127:1). The Plain follows the reading tradition.",
+  "s": [
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:53",
+  "a": "Lord GOD.\"",
+  "t": "Solomon's poem in the Greek (8:53a)",
+  "p": "The Greek has Solomon's short poem (8:12–13) here instead, in a fuller form that cites \"the Book of the Song.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "אֲדֹנָי יְהוִה",
+    "en": "Lord GOD",
+    "plain": "Lord GOD.\""
+   },
+   {
+    "w": "Septuagint (Codex Vaticanus; Rahlfs' 3 Kingdoms 8:53a), which lacks 8:12–13 in their Hebrew place",
+    "orig": "Τότε ἐλάλησεν Σαλωμων ὑπὲρ τοῦ οἴκου ... Ἥλιον ἐγνώρισεν ἐν οὐρανῷ κύριος, εἶπεν τοῦ κατοικεῖν ἐκ γνόφου ... οὐκ ἰδοὺ αὕτη γέγραπται ἐν βιβλίῳ τῆς ᾠδῆς;",
+    "en": "Then Solomon spoke about the house, when he had finished building it: \"The LORD made the sun known in heaven; he said he would dwell in thick darkness. Build my house, a fine house for yourself, to dwell in newness.\" Look, is this not written in the Book of the Song?",
+    "plain": "Lord GOD.\" Then Solomon spoke about the house, when he had finished building it: \"The LORD made the sun known in the heavens, / but has said he will live in thick darkness. / 'Build my house, a fine house for yourself, / to live in for a new age.'\" Is this not written in the Book of the Song?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek poem has a first line about the sun that the Hebrew lacks, and it cites a source. Many scholars, following Julius Wellhausen, think \"the Book of the Song\" (<i>sefer hashir</i>) is a scribal slip for \"the Book of Jashar\" (<i>sefer hayashar</i>), the old poetry collection cited in Joshua 10:13 and 2 Samuel 1:18; the two words differ only by two letters reversed. If so, the Greek has kept the poem's source and its full opening. The Plain follows the Hebrew order and wording at 8:12–13 and shows the Greek here.",
+  "b": "<p>The line about the sun has been read as a deliberate contrast: other peoples worshiped the sun, but the LORD who made it known in the sky chooses to live in darkness, hidden. Some scholars think the Hebrew dropped the line because of that link to sun worship.</p><p>The Greek verb means \"made known.\" Many scholars think it reflects a Hebrew <i>hekhin</i>, \"set\" or \"established,\" read in a different way.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings",
+   "montgomery-kings",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "8:65",
+  "a": "for seven days and then seven days more, fourteen days",
+  "t": "Seven days or fourteen?",
+  "p": "The Greek has only \"seven days.\" The Hebrew's second week may come from Chronicles' fuller account.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV, NIV, ESV",
+    "orig": "שִׁבְעַת יָמִים וְשִׁבְעַת יָמִים אַרְבָּעָה עָשָׂר יוֹם",
+    "en": "seven days and seven days, fourteen days",
+    "plain": "for seven days and then seven days more, fourteen days"
+   },
+   {
+    "w": "Septuagint (Rahlfs' edition), as reported; NRSV",
+    "orig": "ἑπτὰ ἡμέρας",
+    "en": "seven days",
+    "plain": "for seven days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Feast of Booths lasts seven days, and 8:66 says the people went home \"on the eighth day,\" which fits a single week. The longer Hebrew agrees with 2 Chronicles 7:8–10 (seven days of dedication and seven of the feast) and may have been added to match it. The Plain keeps the Hebrew and notes the Greek.",
+  "s": [
+   "rahlfs-lxx",
+   "cogan-1kings",
+   "japhet-chronicles"
+  ]
+ }
+]
