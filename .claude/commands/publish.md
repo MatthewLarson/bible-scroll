@@ -16,6 +16,12 @@ Publish the Bible Scroll. Use the `bible-site-build` skill.
 3. **Quote sync**: run `VERBOSE=1 node tools/build.js` and fix every "is not the site's Plain wording" warning by
    updating the quoting note to the current Plain.
 4. **Build**: `node tools/build.js --publish`. Books still in draft are left out; check the list it prints.
+4b. **Release notes**: `node tools/release.js` writes `content/releases/<date>.json` (what readers will find new or
+   changed since the last release) and updates `content/releases/_snapshot.json`. Fill in its `title` and a two-or-three
+   sentence `summary` for readers. Add a `site` item for any change readers will notice in the site itself (a new page,
+   a new way to read notes), in plain words. Never list technical changes (build, tools, code fixes). Edit the generated
+   lines if they read badly. Run it once per publish, then `node tools/build.js --publish` again so the Releases page
+   shows it.
 5. **Preview**: `python3 -m http.server 8766 -d public` and open http://localhost:8766 (check the library, a
    chapter spread of each new book, a topic page with its passage filter, and the browser console).
 6. Set each published book's progress.md first line to `Status: reviewed, published` and rebuild once so

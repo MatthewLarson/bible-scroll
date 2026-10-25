@@ -71,6 +71,8 @@ Book ids are STEPBible three-letter codes (Gen Exo ... Rev). Judith is `Jdt` bec
 - `npx --yes http-server site -p 8766 -c-1` (or `public`): view the site at http://localhost:8766.
 - `node tools/literal.js <id> <chapter>` or `<id> <c:v-v>`: the word-by-word literal line every verse starts from.
 - `node tools/atlas-verses.js <id>`: verse lists for the atlas harvest.
+- `python tools/logos.py`: remake the site's logos and icons (`app/img/`, WebP; PNG only for the iOS icon and link
+  preview) from the designer's files in `images/Logos/`. Rerun after a logo changes; the build copies `app/img/` to `img/`.
 - `node tools/import-rev.js`: re-import Revelation after editing `revelation/` or `content/overlays/Rev.json`.
 - Regenerating `texts/` is rarely needed: `sh tools/fetch.sh && python3 tools/texts.py` (66 books),
   `sh tools/works-fetch.sh && python3 tools/works-texts.py` (books outside the 66). Downloads go to `.cache/dl`
@@ -99,6 +101,10 @@ under a second per book. The full build also prints `skip <id>` for books with e
   `site/index.html` = `app/shell.html` + `base.css` inlined + `tools/refs.js` + `app/app.js` in one file. The
   front end is a single hash-routed page (`#/Rut/3/9`, `#/topic/<id>?from=Rut/3`); `refs.js` is shared by the
   build and the browser to parse references.
+- The public site is **Codex Collection** (codexcollection.com). Its own pages come from `content/pages/home.md` and
+  `mission.md`, `content/articles/<id>.md` (Markdown under a `key: value` header; `status: draft` stays out of
+  `public/`; `_template.md` shows the fields) and `content/releases/<date>.json`, written by `tools/release.js` at each
+  `/publish`. The full build validates them (`--check` does not).
 - It regenerates `PROGRESS.md` from each book's progress.md on every run.
 - JSON reads are retried because parallel agents may be mid-write; that's expected, not a bug to remove.
 

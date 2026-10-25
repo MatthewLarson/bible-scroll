@@ -1,6 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Bible Scroll</title>
+<title>Codex Collection</title>
+<meta name="description" content="Ancient biblical and related writings translated into clear, everyday English from the original languages, with notes on history, culture, manuscripts and every major interpretation. Read the words. Understand the world. Decide for yourself.">
+<meta property="og:title" content="Codex Collection">
+<meta property="og:description" content="Read the words. Understand the world. Decide for yourself.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://codexcollection.com/">
+<meta property="og:image" content="https://codexcollection.com/img/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2a1c12">
+<link rel="icon" type="image/webp" sizes="192x192" href="img/favicon.webp">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" as="image" href="img/logo-header.webp">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +97,160 @@ button.vn{background:none; border:none; padding:0; cursor:pointer}
 .dim{opacity:.55}
 .v.om{font-style:italic; color:color-mix(in srgb, var(--ink) 60%, transparent)} .v.om .vr.alt{font-style:normal; color:var(--ink)}
 .pagehtml h3{margin-top:18px}
+
+/* ---------- Codex Collection: the site's own pages (home, scrolls, articles, mission, releases) ----------
+   One wide parchment sheet on the table; grids reflow from three columns (desktop) to two (tablet) to one (phone). */
+.brand{align-items:center; gap:14px}
+.brand .logo{display:block; height:56px; width:auto; flex:none}
+body.mode-book .brand .logo{height:44px}
+.brand span{border-left:1px solid rgba(235,218,179,.25); padding-left:14px}
+.hero-logo{display:block; margin:0 0 6px -6px}
+.hero-logo img{display:block; width:min(100%, 460px); height:auto}
+@media (max-width:700px){ .brand .logo, body.mode-book .brand .logo{height:40px} .hero-logo img{width:min(100%, 300px); margin-inline:auto} }
+.sitenav{display:flex; gap:2px; margin-left:auto}
+.sitenav a{color:var(--parch-lo); text-decoration:none; font-family:var(--f-display); font-size:.98rem; letter-spacing:.05em; padding:5px 12px; border-radius:var(--wobble); white-space:nowrap}
+.sitenav a:hover{color:var(--parch-hi)}
+.sitenav a[aria-current]{color:var(--parch-hi); background:rgba(235,218,179,.13); box-shadow:inset 0 -2px 0 var(--ochre)}
+body.mode-book .sitenav, body.mode-book .brand span, body[data-page] .controls, body[data-page] .foot{display:none}
+@media (max-width:1180px){ .brand span{display:none} }
+body[data-page] .article{padding:6px max(10px, env(safe-area-inset-right)) 28px max(10px, env(safe-area-inset-left))}
+.leaf.site{max-width:1180px; padding:clamp(22px, 4vw, 60px) clamp(18px, 5vw, 76px) clamp(36px, 5vw, 64px)}
+.leaf.site > *{max-width:none}
+.leaf.site h2{font-size:clamp(1.45rem, 2.6vw, 1.9rem)}
+.leaf.site .search{max-width:560px}
+.leaf.site .search input{padding:10px 18px; min-height:46px}
+.leaf.site .results{max-width:640px}
+.btn{display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:8px 22px; border:1.6px solid var(--ink); border-radius:var(--wobble); background:var(--ink); color:var(--parch-hi); font-family:var(--f-display); font-size:1.02rem; letter-spacing:.06em; text-decoration:none; transition:transform .15s, background .15s, color .15s}
+.btn:hover{background:var(--red); border-color:var(--red); transform:translateY(-1px)}
+.btn.ghost{background:transparent; color:var(--ink)}
+.btn.ghost:hover{background:rgba(42,28,18,.07); color:var(--ink); border-color:var(--ink)}
+.ctas{display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 18px}
+.more, .back{font-family:var(--f-hand); color:var(--lapis); text-decoration:underline; text-underline-offset:3px; white-space:nowrap}
+.sechead{display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:4px 16px; margin-bottom:14px}
+.sechead .count{font-family:var(--f-hand); color:var(--ink-3); font-size:.9rem}
+.band{margin-top:clamp(40px, 6vw, 76px)}
+.prose{font-size:1.06rem; line-height:1.7; max-width:68ch}
+.prose h3{font-size:clamp(1.3rem, 2.4vw, 1.6rem); margin:1.7em 0 .4em}
+.prose h4{font-size:1.15rem; margin:1.4em 0 .3em}
+.prose ul, .prose ol{padding-left:1.3em} .prose li{margin:.45em 0}
+.prose ol li::marker{font-family:var(--f-display); color:var(--red)}
+.prose blockquote{margin:1em 0; padding:2px 0 2px 18px; border-left:3px solid var(--ochre); font-style:italic; color:var(--ink-2)}
+.prose a{color:var(--lapis)}
+.empty{border:1.6px dashed var(--ink-3); border-radius:var(--wobble); padding:16px 20px; color:var(--ink-2)}
+.empty p{margin:0}
+/* home */
+.hero{display:grid; grid-template-columns:minmax(0, 1.12fr) minmax(0, .88fr); gap:clamp(28px, 4.5vw, 64px); align-items:center}
+.hero.solo{grid-template-columns:minmax(0, 1fr)}
+.tagline{font-family:"IM Fell English",var(--f-display); font-size:clamp(2.3rem, 4.6vw, 3.7rem); line-height:1.06; letter-spacing:0; margin:14px 0 18px}
+.tagline span{display:block} .tagline span:last-child{color:var(--red)}
+.hero .lede{font-size:clamp(1.06rem, 1.45vw, 1.2rem); max-width:54ch}
+.hero .lede p{margin:0}
+.sample{background:var(--parch-hi) radial-gradient(ellipse at 20% 0%, rgba(255,250,235,.9), transparent 70%); border:1.6px solid var(--ink-2); border-radius:var(--wobble); padding:22px 24px 20px; box-shadow:0 14px 34px rgba(60,35,15,.18), inset 0 0 30px rgba(150,105,50,.08); transform:rotate(-.7deg)}
+.sample-head{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:4px 12px; border-bottom:1.4px solid var(--ink-3); padding-bottom:8px; margin-bottom:12px}
+.sample-head span{font-family:var(--f-hand); color:var(--red); font-size:.95rem}
+.sample-head b{font-family:var(--f-display); font-weight:400; font-size:1.15rem; letter-spacing:.04em}
+.sample-verse{font-size:clamp(1.12rem, 1.6vw, 1.3rem); line-height:1.75; margin:0 0 14px}
+.sample-verse .nt.on{background:color-mix(in srgb, var(--c) 30%, transparent)}
+.sample-notes{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px}
+.snote{display:inline-flex; align-items:center; gap:6px; border:1.3px solid var(--c); background:none; border-radius:var(--wobble); padding:3px 11px; font-size:.82rem; line-height:1.35; text-align:left}
+.snote i{width:8px; height:8px; flex:none; border-radius:50%; background:var(--c)}
+.snote[aria-pressed="true"]{background:color-mix(in srgb, var(--c) 16%, transparent)}
+.sample-body{border-top:1.4px dashed var(--ink-3); padding-top:12px; min-height:8.5em; margin-bottom:16px}
+.sample-body h4{font-size:1.12rem; margin:4px 0 6px}
+.sample-body p{margin:0; font-size:.98rem}
+.sample-body .gk{font-family:var(--f-hebrew); font-size:1.1rem; color:var(--ink-2); margin-bottom:4px}
+.sample-kind{font-family:var(--f-hand); font-size:.85rem; color:var(--ink-2); display:flex; align-items:center; gap:6px}
+.sample-kind i{width:9px; height:9px; border-radius:50%; background:var(--c)}
+.sample .btn{min-height:40px; font-size:.92rem; padding:6px 16px}
+.stats{display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); margin-top:clamp(36px, 5vw, 60px); border-block:1.6px solid var(--ink-2)}
+.stats > div{display:flex; align-items:baseline; gap:12px; padding:16px 18px}
+.stats > div + div{border-left:1.4px dashed var(--ink-3)}
+.stats b{font-family:var(--f-display); font-weight:400; font-size:clamp(2.1rem, 4vw, 3rem); line-height:1; color:var(--red)}
+.stats span{font-family:var(--f-hand); color:var(--ink-2); font-size:.95rem; line-height:1.3}
+.intro{margin-bottom:26px}
+.cards3{display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:clamp(12px, 1.8vw, 18px)}
+@media (max-width:760px){ .cards3{grid-template-columns:minmax(0, 1fr)} }
+.pcard{border:1.6px solid var(--ink-2); border-radius:var(--wobble); padding:22px 22px 16px; background:rgba(246,235,207,.5)}
+.pcard .pnum{font-family:var(--f-display); color:var(--red); font-size:1.5rem; line-height:1; padding-bottom:8px; margin-bottom:10px; border-bottom:2px solid var(--ochre); width:2.2em}
+.pcard h3{font-size:1.32rem; margin-bottom:6px}
+.pcard p{font-size:.98rem; margin:0 0 6px}
+.split{display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:clamp(24px, 4vw, 48px); align-items:start}
+.closing{border-top:1.4px dashed var(--ink-3); padding-top:18px; text-align:center; font-size:.92rem; color:var(--ink-2)}
+.closing p{margin:0 auto; max-width:70ch}
+/* scroll cards, used on the home page, the scrolls page and articles */
+.scrolls{display:grid; grid-template-columns:repeat(auto-fill, minmax(178px, 1fr)); gap:12px}
+.scard{position:relative; display:flex; flex-direction:column; gap:3px; text-align:left; min-width:0; min-height:100px; padding:12px 16px 12px 18px; border:1.5px solid var(--ink-3); border-left:5px solid var(--olive); border-radius:var(--wobble); background:rgba(246,235,207,.45); color:var(--ink); transition:transform .15s, box-shadow .15s}
+.scard:hover{transform:translateY(-2px); box-shadow:0 8px 18px rgba(60,35,15,.16)}
+.scard.st-draft{border-left-color:var(--ochre)}
+.scard.st-text{border-left:1.5px dashed var(--ink-3); background:transparent}
+.scard.st-text b{color:var(--ink-2)}
+.scard.x{border-left-color:var(--w-c)}
+.scard.x::after{content:attr(data-tag); position:absolute; top:9px; right:12px; font-family:var(--f-hand); font-size:.72rem; color:var(--w-c)}
+.scard-grp{font-family:var(--f-display); font-size:.68rem; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-3); padding-right:3.5em; line-height:1.3; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.scrolls.start{grid-template-columns:repeat(auto-fill, minmax(230px, 1fr))}
+.scard b{font-family:var(--f-display); font-weight:400; font-size:1.17rem; line-height:1.15}
+.scard small{font-family:var(--f-hand); font-size:.8rem; color:var(--ink-2); margin-top:auto}
+/* the scrolls page */
+.pagehead{margin-bottom:8px}
+.pagehead h1{font-size:clamp(2rem, 4.6vw, 3.3rem); margin:8px 0 10px}
+.pagehead .lede{max-width:70ch; font-size:clamp(1.02rem, 1.3vw, 1.12rem)}
+.grpnav{position:sticky; top:-1px; z-index:2; display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; margin:14px calc(-1 * clamp(18px, 5vw, 76px)) 10px; padding:10px clamp(18px, 5vw, 76px); background:var(--parch); border-bottom:1.4px solid rgba(90,67,48,.3)}
+.grpnav::-webkit-scrollbar{display:none}
+@media (min-width:961px){ .grpnav{flex-wrap:wrap} }
+.scard:not(:has(.scard-grp)){padding-top:14px}
+.scard.x b{padding-right:2.6em}
+.grpnav button{flex:none; border:1.3px solid var(--ink-3); background:none; border-radius:var(--wobble); padding:3px 12px; font-family:var(--f-hand); font-size:.86rem; white-space:nowrap}
+.grpnav button:hover{border-color:var(--ink); background:rgba(42,28,18,.06)}
+.grp{margin-top:34px; scroll-margin-top:64px}
+.grp .tchips{max-height:none}
+.tchips button[hidden]{display:none}
+.grp.about{border-top:1.4px dashed var(--ink-3); padding-top:18px}
+.grp.about p{max-width:80ch}
+/* articles and releases */
+.leaf.site > .post{max-width:760px; margin:0 auto}
+.leaf.site .pagehead h1{font-family:"IM Fell English",var(--f-display); letter-spacing:0; line-height:1.08}
+.post > h3{margin:32px 0 12px}
+.byline, .adate{font-family:var(--f-hand); color:var(--ink-3); font-size:.92rem}
+.alist{display:grid; gap:12px}
+.alist.wide{grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:16px}
+.acard{display:flex; flex-direction:column; gap:4px; text-decoration:none; color:var(--ink); border:1.5px solid var(--ink-3); border-radius:var(--wobble); padding:16px 20px; background:rgba(246,235,207,.45); transition:transform .15s, box-shadow .15s}
+.acard:hover{transform:translateY(-2px); box-shadow:0 8px 18px rgba(60,35,15,.16)}
+.acard h3{font-size:1.25rem} .acard p{margin:0; font-size:.96rem; color:var(--ink-2)}
+.acard .more{margin-top:4px}
+.draft{font-family:var(--f-display); font-weight:400; color:var(--ochre); letter-spacing:.06em}
+.rcard{border:1.5px solid var(--ink-3); border-radius:var(--wobble); padding:16px 20px; background:rgba(246,235,207,.45)}
+.rcard h3{font-size:1.25rem; margin:2px 0 6px} .rcard > p{margin:0 0 10px}
+.ritems{list-style:none; padding:0; margin:8px 0 0; display:grid; gap:7px}
+.ritems li{display:grid; grid-template-columns:4.9em 1fr; gap:10px; align-items:baseline; font-size:.96rem}
+.ritems a{color:var(--ink); text-decoration-color:var(--ink-3); text-underline-offset:3px}
+.rk{justify-self:start; font-family:var(--f-display); font-size:.68rem; letter-spacing:.09em; text-transform:uppercase; color:var(--parch-hi); background:var(--ink-2); border-radius:var(--wobble); padding:1px 8px; white-space:nowrap}
+.rk-new{background:var(--olive)} .rk-revised{background:var(--ochre)} .rk-topic{background:var(--lapis)} .rk-article{background:var(--violet)} .rk-removed{background:var(--red)}
+.rlist{list-style:none; padding:0; margin:20px 0 0; display:grid; gap:22px}
+.rel{display:grid; grid-template-columns:11em minmax(0, 1fr); gap:20px}
+.rdate{font-family:var(--f-display); color:var(--red); font-size:1.05rem; padding-top:16px; border-top:2px solid var(--ochre); align-self:start}
+/* tablet */
+@media (max-width:960px){
+  .hero{grid-template-columns:minmax(0, 1fr)}
+  .sample{transform:none; max-width:640px}
+  .split{grid-template-columns:minmax(0, 1fr)}
+}
+/* phone */
+@media (max-width:700px){
+  .sitenav{margin-left:0; flex-basis:100%; overflow-x:auto; scrollbar-width:none; order:3}
+  .sitenav::-webkit-scrollbar{display:none}
+  .sitenav{gap:0; justify-content:space-between}
+  .sitenav a{padding:6px 7px; font-size:.88rem; letter-spacing:.03em}
+  .leaf.site{border-radius:12px 16px 12px 14px / 14px 12px 16px 12px}
+  .sample{padding:18px 16px 16px}
+  .stats{grid-template-columns:minmax(0, 1fr)}
+  .stats > div + div{border-left:none; border-top:1.4px dashed var(--ink-3)}
+  .stats > div{padding:12px 4px}
+  .scrolls{grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:10px}
+  .scard{min-height:88px; padding:10px 12px 10px 14px}
+  .rel{grid-template-columns:minmax(0, 1fr); gap:6px}
+  .rdate{padding-top:8px}
+  .ctas .btn{flex:1 1 auto}
+}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -101,8 +268,9 @@ button.vn{background:none; border:none; padding:0; cursor:pointer}
 </svg>
 
 <header class="top">
-  <button class="brand" id="home" aria-label="The Bible Scroll: library"><b>The Bible Scroll</b><span>every book, read sideways</span></button>
-  <button class="bookbtn" id="bookbtn" aria-label="Choose a book">Books</button>
+  <button class="brand" id="home" aria-label="Codex Collection: home"><img class="logo" src="img/logo-header.webp" width="172" height="56" alt="Codex Collection"><span>Read the words. Understand the world. Decide for yourself.</span></button>
+  <button class="bookbtn" id="bookbtn" aria-label="All the scrolls">Scrolls</button>
+  <nav class="sitenav" id="siteNav" aria-label="Site"><a href="#/" data-page="home">Home</a><a href="#/library" data-page="library">Scrolls</a><a href="#/articles" data-page="articles">Articles</a><a href="#/mission" data-page="mission">Mission</a><a href="#/releases" data-page="releases">Releases</a></nav>
   <div class="controls">
     <label class="tsel">Text <select id="tsel" aria-label="Translation shown on the text pages"></select></label>
     <div class="chipset" id="lenses" role="group" aria-label="Highlight one interpretive view"></div>

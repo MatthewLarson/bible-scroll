@@ -397,10 +397,73 @@ for(const id in B){ const x = B[id];
 for(const tid in TOPICS) TOPICS[tid].sections.forEach((s, j) => { const seen = new Set();
   R.findRefs(strip(s.refs||''), s.book, true).forEach(r => R.refVerses(r, 12).forEach(k => { if(seen.has(k)) return; seen.add(k); cite(k, ['t', tid, j, TOPICS[tid].title]); })); });
 
+/* ---------- the site's own pages: content/pages/*.md, content/articles/*.md, content/releases/*.json ----------
+   Pages and articles are Markdown under a "key: value" header between --- lines. The Markdown is a small subset:
+   # to ### headings, paragraphs, - and 1. lists, > quotes, **bold**, *italic*, [text](url), and lines of raw HTML. */
+const mdInline = s => s.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*\w])\*([^*\s][^*]*?)\*(?!\w)/g, '$1<i>$2</i>')
+  .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) => `<a href="${u}"${/^https?:/.test(u) ? ' target="_blank" rel="noopener"' : ''}>${t}</a>`);
+function md(src){
+  const lines = s => s.replace(/\n\s*/g, ' ');
+  return src.replace(/^(#{1,3}\s.*)$/gm, '\n$1\n').split(/\n\s*\n/).map(b => b.trim()).filter(Boolean).map(t => { let m;
+    if(t.startsWith('<')) return t;
+    if((m = t.match(/^(#{1,3})\s+(.+)$/))) return `<h${m[1].length+1}>${mdInline(m[2])}</h${m[1].length+1}>`;
+    if(/^[-*]\s/.test(t)) return `<ul>${t.split(/\n(?=[-*]\s)/).map(li => `<li>${mdInline(lines(li.replace(/^[-*]\s+/, '')))}</li>`).join('')}</ul>`;
+    if(/^\d+\.\s/.test(t)) return `<ol>${t.split(/\n(?=\d+\.\s)/).map(li => `<li>${mdInline(lines(li.replace(/^\d+\.\s+/, '')))}</li>`).join('')}</ol>`;
+    if(t.startsWith('>')) return `<blockquote>${md(t.replace(/^>\s?/gm, ''))}</blockquote>`;
+    return `<p>${mdInline(lines(t))}</p>`; }).join('\n');
+}
+const mdFile = f => { const t = read(f).replace(/^﻿/, '').replace(/\r\n?/g, '\n'), m = t.match(/^---\n([\s\S]*?)\n---\n?/), head = {};
+  if(m) m[1].split('\n').forEach(l => { const k = l.match(/^(\w+):\s*(.*)$/); if(k) head[k[1]] = k[2].trim(); });
+  return {head, body:m ? t.slice(m[0].length) : t}; };
+const listOf = s => (s || '').split(',').map(x => x.trim()).filter(Boolean);
+const PAGES = {}, ARTICLES = {}, RELEASES = [];
+/* home.md: the lead (before the first ##), then each ## section is one card; "sample" is the verse shown at work,
+   "start" the books offered first */
+if(exists(P('content/pages/home.md'))){ const {head, body} = mdFile(P('content/pages/home.md')), [lead, ...secs] = body.split(/^## /m);
+  if(!head.title) err('content/pages/home.md', 'needs title, the tagline');
+  const H = PAGES.home = {title:head.title, lead:md(lead), cards:secs.map(s => { const [h, ...rest] = s.split('\n'); return {h:h.trim(), html:md(rest.join('\n'))}; }),
+    start:listOf(head.start).filter(id => { if(!BOOK[id]) err('content/pages/home.md', `start: "${id}" is not a book id`); return B[id]; })};
+  if(head.sample){ const [bk, cv] = head.sample.split(' '), x = B[bk];
+    if(!BOOK[bk] || !/^\d+:\d+$/.test(cv || '')) err('content/pages/home.md', `sample "${head.sample}" should look like "Gen 1:2"`);
+    else if(!x || !x.plain.v[cv]) warn('content/pages/home.md', `sample ${head.sample} is not in this build, so the home page leaves it out`);
+    else H.sample = {ref:head.sample, name:`${x.name} ${cv}`, text:x.plain.v[cv],
+      notes:x.notes.filter(n => n.v === cv).map(n => ({a:n.a, type:n.type, t:n.t, p:n.p || '', orig:n.orig, kind:n.kind}))}; } }
+else err('content/pages/home.md', 'missing');
+for(const name of ['mission']){ const f = P('content/pages', name + '.md');
+  if(!exists(f)) { err(`content/pages/${name}.md`, 'missing'); continue; }
+  const {head, body} = mdFile(f); if(!head.title) err(`content/pages/${name}.md`, 'needs title');
+  PAGES[name] = {title:head.title, kicker:head.kicker || '', html:md(body)}; }
+/* articles: one file each, <id>.md; a file starting with _ is a template. A draft shows in draft builds only. */
+const ARTDIR = P('content/articles');
+if(exists(ARTDIR)) for(const f of fs.readdirSync(ARTDIR).filter(f => f.endsWith('.md') && !f.startsWith('_')).sort()){
+  const id = f.slice(0, -3), where = `content/articles/${f}`, {head, body} = mdFile(path.join(ARTDIR, f)), status = head.status || 'draft';
+  if(!['draft','published'].includes(status)) err(where, `status must be draft or published, not "${status}"`);
+  if(PUBLISH && status !== 'published') continue;
+  if(!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) err(where, 'the file name is the article\'s address: use lowercase words joined by hyphens');
+  if(!head.title) err(where, 'needs title');
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(head.date || '') || isNaN(Date.parse(head.date))) err(where, 'needs date as YYYY-MM-DD');
+  if(!head.summary) warn(where, 'needs summary, the one or two sentences shown in the list of articles');
+  if(!body.trim()) err(where, 'has no text');
+  const topics = listOf(head.topics), books = listOf(head.books), sources = listOf(head.sources);
+  topics.forEach(t => { if(!TOPICS[t]) err(where, `topic "${t}" is not a topic`); });
+  books.forEach(b => { if(!BOOK[b]) err(where, `book "${b}" is not a book id`); });
+  sources.forEach(s => { if(SOURCES[s] == null) err(where, `source "${s}" is not in content/sources.json`); });
+  ARTICLES[id] = {id, title:head.title || id, date:head.date || '', author:head.author || '', summary:head.summary || '', topics, books,
+    draft:status !== 'published', html:md(body), sources:sources.map(s => SOURCES[s] || s)}; }
+/* release notes: content/releases/<date>.json, written by tools/release.js at each publish; _snapshot.json is its memory */
+const REL_KINDS = ['new','revised','topic','article','site','removed'];
+if(exists(P('content/releases'))) for(const f of fs.readdirSync(P('content/releases')).filter(f => f.endsWith('.json') && !f.startsWith('_'))){
+  const where = `content/releases/${f}`, r = json(P('content/releases', f)); if(!r) continue;
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(r.date || '')) err(where, 'needs date as YYYY-MM-DD');
+  if(!r.title) err(where, 'needs title');
+  (r.items || []).forEach((x, i) => { if(!REL_KINDS.includes(x.kind)) err(where, `items[${i}] kind must be one of ${REL_KINDS.join(', ')}`); if(!x.text) err(where, `items[${i}] needs text`); });
+  RELEASES.push(Object.assign({id:f.slice(0, -5)}, r)); }
+RELEASES.sort((a, b) => b.id.localeCompare(a.id));
+
 /* ---------- write ---------- */
 const SITE = PUBLISH ? 'public' : 'site';   // writers' builds never touch what is being published
 const OUT = P(SITE, 'data');
-['books','en','orig','links','topics','atlas'].forEach(d => fs.mkdirSync(path.join(OUT, d), {recursive:true}));
+['books','en','orig','links','topics','atlas','articles','pages'].forEach(d => fs.mkdirSync(path.join(OUT, d), {recursive:true}));
 const WROTE = new Set();
 const W = (f, o) => { fs.writeFileSync(path.join(OUT, f), JSON.stringify(o)); WROTE.add(f); };
 const clean = o => JSON.parse(JSON.stringify(o, (k, v) => k.startsWith('_') ? undefined : v));
@@ -453,10 +516,16 @@ for(const id in TOPICS){ const T = TOPICS[id];
 }
 W('topics/index.json', tindex);
 for(const s in shards) W(`topics/${s}.json`, shards[s]);
+for(const id in PAGES) W(`pages/${id}.json`, PAGES[id]);
+W('articles/index.json', Object.values(ARTICLES).sort((a, b) => b.date.localeCompare(a.date)).map(({html, sources, ...a}) => a));
+for(const id in ARTICLES) W(`articles/${id}.json`, ARTICLES[id]);
+W('releases.json', RELEASES);
 /* the page: shell + styles + reference parser + app */
 const shell = read(P('app/shell.html')).replace('/*BASE_CSS*/', () => read(P('app/base.css')));
 /* books/ and topics/ hold only what this build wrote, so a book left out leaves no stale file behind */
-['books','topics'].forEach(d => fs.readdirSync(path.join(OUT, d)).forEach(f => { if(!WROTE.has(`${d}/${f}`)) fs.unlinkSync(path.join(OUT, d, f)); }));
+['books','topics','articles','pages'].forEach(d => fs.readdirSync(path.join(OUT, d)).forEach(f => { if(!WROTE.has(`${d}/${f}`)) fs.unlinkSync(path.join(OUT, d, f)); }));
+/* the logos and icons (made from images/Logos/ by tools/logos.py) are served from img/ */
+fs.rmSync(P(SITE, 'img'), {recursive:true, force:true}); fs.cpSync(P('app/img'), P(SITE, 'img'), {recursive:true});
 fs.writeFileSync(P(SITE, 'index.html'), shell + '\n<script>\n' + read(P('tools/refs.js')) + '\n' + read(P('app/app.js')) + '\n</script>\n');
 /* PROGRESS.md is generated: each book's lane keeps its own content/books/<id>/progress.md ("Status: ..." then its log), so no shared file is ever edited by two writers */
 { const rows = CAT.books.map(b => [b.id, P('content/books', b.id, 'progress.md')]).filter(([, f]) => exists(f)).map(([id, f]) => {

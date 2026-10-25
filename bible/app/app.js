@@ -1,6 +1,7 @@
-/* ---------- The Bible Scroll ----------
-   One page, three modes: the library (#/), a book's sideways scroll (#/Rut, #/Rut/3, #/Rut/3/9) and a topic page
-   (#/topic/<id>?from=Rut/3). All content comes from the JSON directory in data/, loaded as needed. */
+/* ---------- Codex Collection (the Bible Scroll site) ----------
+   One page, three modes: the site's own pages (home #/, the scrolls #/library, #/articles[/<id>], #/mission,
+   #/releases), a book's sideways scroll (#/Rut, #/Rut/3, #/Rut/3/9) and a topic page (#/topic/<id>?from=Rut/3).
+   All content comes from the JSON directory in data/, loaded as needed. */
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const store = { get(k){ try{return localStorage.getItem(k)}catch(_){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(_){} } };
@@ -164,38 +165,170 @@ function parseHash(){
   const [p, q] = h.split('?'); const parts = p.split('/').filter(Boolean); const qs = new URLSearchParams(q || '');
   if(parts[0] === 'topic') return {mode:'topic', id:parts[1], from:qs.get('from')};
   if(parts[0] && BYID[parts[0]]) return {mode:'book', id:parts[0], c:parts[1] ? +parts[1] : null, v:parts[2] != null ? +parts[2] : null, page:qs.get('p')};
-  return {mode:'lib', q:qs.get('q') || ''};
+  if(parts[0] === 'library') return {mode:'library', q:qs.get('q') || ''};
+  if(parts[0] === 'articles') return {mode:'articles', id:parts[1] || null};
+  if(parts[0] === 'mission' || parts[0] === 'releases') return {mode:parts[0]};
+  return {mode:'home'};
 }
+const PAGE_OPEN = {home:() => openHome(), library:r => openLibrary(r), articles:r => r.id ? openArticle(r) : openArticles(), mission:() => openMission(), releases:() => openReleases()};
 const nav = (h, replace=false) => { if(location.hash === h) { route(); return; } if(replace) { history.replaceState(null, '', h); route(); } else location.hash = h; };
 let routing = Promise.resolve();
 addEventListener('hashchange', () => route());
 function route(){
   const r = parseHash();
-  routing = routing.then(() => r.mode === 'book' ? openBook(r) : r.mode === 'topic' ? openTopic(r) : openLibrary(r)).catch(e => { console.error(e); flashWhere('That page could not be loaded. Check your connection and try again.'); });
+  routing = routing.then(() => r.mode === 'book' ? openBook(r) : r.mode === 'topic' ? openTopic(r) : PAGE_OPEN[r.mode](r)).catch(e => { console.error(e); flashWhere('That page could not be loaded. Check your connection and try again.'); });
 }
-function setMode(m){ ['lib','book','topic'].forEach(x => document.body.classList.toggle('mode-'+x, x===m)); hideTip(); if(!modal.hidden) closeModal(); }
+function setMode(m){ ['lib','book','topic'].forEach(x => document.body.classList.toggle('mode-'+x, x===m)); hideTip(); if(!modal.hidden) closeModal();
+  delete document.body.dataset.page; $('leaf').className = 'leaf'; document.querySelectorAll('#siteNav a[aria-current]').forEach(a => a.removeAttribute('aria-current')); }
 
-/* ---------- the library ---------- */
+/* ---------- the site's own pages: home, the scrolls, articles, mission, releases ---------- */
+const SITE_PAGES = {home:'Home', library:'The scrolls', articles:'Articles', mission:'Mission', releases:'Releases'};
 const STATUS = {reviewed:'Plain English, notes, reviewed', draft:'Plain English and notes (in review)', text:'Original and English texts'};
-function openLibrary(r){
-  setMode('lib'); CTX = null; document.title = 'The Bible Scroll'; where.textContent = 'Library';
-  const done = CAT.books.filter(b => b.t !== 'X' && b.status !== 'text').length;
-  $('leaf').innerHTML = `<div class="cart study">The library</div><h1>The Bible Scroll</h1>
-    <p class="hand muted" style="font-size:1.1rem;margin-top:4px">every book, translated from the Hebrew and Greek, read sideways</p>
-    <p class="lede">Each book is a scroll. Inside, every chapter has a commentary page beside its text. The Plain English translation is made from the original languages at about an 8th-grade reading level, with color-coded notes woven in, every Bible reference clickable, and every major view presented fairly.</p>
-    <div class="search"><input id="q" type="search" placeholder="Go to a passage or topic: John 3:16, Ruth 2, covenant…" aria-label="Go to a passage or topic" value="${esc(r.q)}"></div>
-    <ul class="results" id="qres"></ul>
-    <p class="legend"><span><i style="--c:var(--olive)"></i>${STATUS.reviewed}</span><span><i style="--c:var(--ochre)"></i>${STATUS.draft}</span><span><i style="--c:var(--ink-2);border-style:dashed"></i>${STATUS.text}</span><span>${done} of 66 books have the Plain English so far.</span></p>
-    ${CAT.groups.map(g => [g, g.t === 'X' ? g.books.filter(([id]) => BYID[id].status !== 'text') : g.books]).filter(([, bs]) => bs.length).map(([g, bs]) => `<h3>${g.name}</h3>${g.t === 'X' ? `<p class="small">These writings are not among the 66 books every Christian Bible shares. Each book's first pages say who accepts it, where it came from and how to read it.</p>` : ''}<div class="shelf">${bs.map(([id]) => { const b = BYID[id];
-      return `<button class="bk st-${b.status}${b.t === 'X' ? ' work w-' + workOf(id).tier : ''}" data-book="${id}"${b.t === 'X' ? ` data-tag="${TIER[workOf(id).tier].tag}"` : ''}><b>${b.name}</b><small>${b.vc.length} chapter${b.vc.length>1?'s':''} · ${b.status==='text'?'texts only':b.status==='draft'?'in review':'reviewed'}</small></button>`; }).join('')}</div>`).join('')}
-    <h3>Topics</h3><p class="small">One page per topic for the whole Bible. Open one from a passage and it shows what relates to that passage first.</p>
-    <div class="tchips">${Object.keys(TIDX).sort((a,b)=>TIDX[a][0].localeCompare(TIDX[b][0])).map(id => topicChip(id)).join('')}</div>
-    <h3>About this scroll</h3><p class="small">Hebrew: the Leningrad Codex (the oldest complete Hebrew Bible, AD 1008) as edited by STEPBible's TAHOT, with its Ketiv and Qere readings and other manuscript witnesses marked. Greek: the SBL Greek New Testament, compared with the Byzantine majority text (Robinson-Pierpont 2018) and the Textus Receptus behind the KJV. Where the manuscripts differ in a way that matters, the text is marked <span class="vr" style="cursor:default">like this</span>: open it to see each reading, where it comes from, and why one was chosen, and switch the verse to the other reading. English: Berean Standard Bible (CC0), KJV, World English Bible, ASV and Young's Literal Translation (public domain). Word-by-word data from STEPBible (Tyndale House, Cambridge), CC BY 4.0. Cross references from OpenBible.info, CC BY.</p>`;
-  const q = $('q'), res = $('qres');
+const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'}) : '';
+function sitePage(page, title){
+  setMode('lib'); CTX = null; document.body.dataset.page = page; $('leaf').className = 'leaf site';
+  document.title = title ? `${title} · Codex Collection` : 'Codex Collection: Read the words. Understand the world. Decide for yourself.';
+  where.textContent = SITE_PAGES[page];
+  document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === page ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+}
+function pageDone(){ linkify($('leaf')); smartQuotes($('leaf')); $('article').scrollTop = 0; }
+/* the passage-and-topic search, wherever a page offers it */
+function wireSearch(){
+  const q = $('q'), res = $('qres'); if(!q) return;
   const run = () => { const s = q.value.trim(); res.innerHTML = s ? searchResults(s) : ''; };
   q.addEventListener('input', run);
   q.addEventListener('keydown', e => { if(e.key === 'Enter'){ const f = res.querySelector('[data-hash]'); if(f) nav(f.dataset.hash); } });
-  run(); smartQuotes($('leaf')); $('article').scrollTop = 0;
+  run();
+}
+const searchBox = (val = '') => `<div class="search"><input id="q" type="search" placeholder="Go to a passage or topic: John 3:16, Ruth 2, covenant…" aria-label="Go to a passage or topic" value="${esc(val)}"></div><ul class="results" id="qres"></ul>`;
+const groupOf = id => { const g = CAT.groups.find(g => g.books.some(([b]) => b === id)); return g ? g.name : ''; };
+const scrollCard = (b, grp = true) => { const w = b.t === 'X' ? workOf(b.id) : null;
+  return `<button class="scard st-${b.status}${w ? ' x w-' + w.tier : ''}" data-book="${b.id}"${w ? ` data-tag="${TIER[w.tier].tag}"` : ''}>
+    ${grp ? `<span class="scard-grp">${esc(groupOf(b.id))}</span>` : ''}<b>${b.name}</b>
+    <small>${b.vc.length} chapter${b.vc.length > 1 ? 's' : ''} · ${b.status === 'text' ? 'original & English texts' : b.status === 'draft' ? 'translated, in review' : 'translated & reviewed'}</small></button>`; };
+const articleCard = a => `<a class="acard" href="#/articles/${a.id}"><span class="adate">${fmtDate(a.date)}${a.draft ? ' · <b class="draft">Draft</b>' : ''}</span><h3>${a.title}</h3>${a.summary ? `<p>${a.summary}</p>` : ''}<span class="more">Read the article →</span></a>`;
+const NO_ARTICLES = `<div class="empty"><p>The first studies are being written. Articles will take one question, theme or passage at a time, drawing on the whole collection.</p></div>`;
+const REL_KIND = {new:'New', revised:'Revised', topic:'Topic', article:'Article', site:'Site', removed:'Offline'};
+const releaseItems = (r, max) => { const xs = max ? r.items.slice(0, max) : r.items;
+  return `<ul class="ritems">${xs.map(x => `<li><span class="rk rk-${x.kind}">${REL_KIND[x.kind]}</span><span>${x.hash ? `<a href="${x.hash}">${x.text}</a>` : x.text}</span></li>`).join('')}</ul>${max && r.items.length > max ? `<p class="small muted">and ${r.items.length - max} more</p>` : ''}`; };
+
+/* home: what the collection is, a verse at work, where to start, and what's new */
+let SAMPLE = null;
+function sampleCard(s){
+  /* highlight the notes' phrases in the verse; where two overlap, the shorter (more specific) one wins */
+  const spans = [];
+  s.notes.map((n, i) => ({i, at:s.text.indexOf(n.a), len:n.a.length})).filter(x => x.at >= 0).sort((a, b) => a.len - b.len)
+    .forEach(x => { if(!spans.some(y => x.at < y.at + y.len && y.at < x.at + x.len)) spans.push(x); });
+  spans.sort((a, b) => a.at - b.at); let h = '', at = 0;
+  spans.forEach(x => { h += esc(s.text.slice(at, x.at)) + `<span class="nt t-${s.notes[x.i].type}" role="button" tabindex="0" data-sample="${x.i}">${esc(s.text.slice(x.at, x.at + x.len))}</span>`; at = x.at + x.len; });
+  h += esc(s.text.slice(at));
+  const [bk, cv] = s.ref.split(' '), [c, v] = cv.split(':');
+  return `<aside class="sample" aria-label="An example verse with its notes">
+    <div class="sample-head"><span>See it at work</span><b>${esc(s.name)}</b></div>
+    <p class="sample-verse">${h}</p>
+    <div class="sample-notes">${s.notes.map((n, i) => `<button class="snote t-${n.type}" data-sample="${i}" aria-pressed="false"><i></i>${n.t}</button>`).join('')}</div>
+    <div class="sample-body" id="sampleBody" aria-live="polite"></div>
+    <a class="btn ghost" href="#/${bk}/${c}/${v}">Read ${esc(s.name)} in context →</a>
+  </aside>`;
+}
+function showSample(i){
+  const n = SAMPLE && SAMPLE.notes[i], box = $('sampleBody'); if(!n || !box) return;
+  document.querySelectorAll('[data-sample]').forEach(b => { b.classList.toggle('on', +b.dataset.sample === i); if(b.tagName === 'BUTTON') b.setAttribute('aria-pressed', String(+b.dataset.sample === i)); });
+  box.innerHTML = `<div class="sample-kind"><i style="--c:var(--n-${n.type})"></i>${NOTE_TYPES[n.type].label}${n.kind ? ` · ${KIND[n.kind]}` : ''}</div>
+    <h4>${n.t}</h4>${n.orig ? `<div class="gk">${n.orig}</div>` : ''}<p>${n.p}</p>`;
+  smartQuotes(box);
+}
+async function openHome(){
+  const [H, arts, rels] = await Promise.all([load('pages/home.json'), load('articles/index.json').catch(() => []), load('releases.json').catch(() => [])]);
+  sitePage('home'); SAMPLE = H.sample || null;
+  const done = CAT.books.filter(b => b.status !== 'text'), bible = done.filter(b => b.t !== 'X').length, beyond = done.length - bible;
+  const [lead, ...more] = H.lead.split(/(?<=<\/p>)\s*/);
+  const stats = [[bible, 'of the 66 books of the Bible translated'], [beyond, beyond === 1 ? 'writing from beyond the Bible' : 'writings from beyond the Bible'], [Object.keys(TIDX).length, 'topic pages across the collection']];
+  $('leaf').innerHTML = `
+    <section class="hero${SAMPLE ? '' : ' solo'}">
+      <div class="hero-text">
+        <picture class="hero-logo"><source media="(max-width:700px)" srcset="img/logo-square.webp" width="640" height="618"><img src="img/logo-wide.webp" width="1040" height="337" alt="Codex Collection: ancient writings, clear translations, deeper understanding"></picture>
+        <h1 class="tagline">${H.title.split(/(?<=\.)\s+/).map(l => `<span>${esc(l)}</span>`).join(' ')}</h1>
+        <div class="lede">${lead}</div>
+        <div class="ctas"><a class="btn" href="#/library">Browse the scrolls</a><a class="btn ghost" href="#/mission">Our mission</a></div>
+        ${searchBox()}
+      </div>
+      ${SAMPLE ? sampleCard(SAMPLE) : ''}
+    </section>
+    <section class="stats">${stats.map(([n, l]) => `<div><b>${n}</b><span>${l}</span></div>`).join('')}</section>
+    <section class="band">
+      ${more.length ? `<div class="prose intro">${more.join('')}</div>` : ''}
+      <div class="cards3">${H.cards.map((c, i) => `<article class="pcard"><div class="pnum">${ROMAN[i]}</div><h3>${c.h}</h3>${c.html}</article>`).join('')}</div>
+    </section>
+    ${H.start.length ? `<section class="band"><div class="sechead"><h2>Start reading</h2><a class="more" href="#/library">All the scrolls →</a></div>
+      <div class="scrolls start">${H.start.map(id => scrollCard(BYID[id])).join('')}</div></section>` : ''}
+    <section class="band split">
+      <div><div class="sechead"><h2>Articles</h2><a class="more" href="#/articles">All articles →</a></div>${arts.length ? `<div class="alist">${arts.slice(0, 3).map(articleCard).join('')}</div>` : NO_ARTICLES}</div>
+      <div><div class="sechead"><h2>What's new</h2><a class="more" href="#/releases">All releases →</a></div>${rels[0] ? `<div class="rcard"><span class="adate">${fmtDate(rels[0].date)}</span><h3>${rels[0].title}</h3>${rels[0].summary ? para(rels[0].summary) : ''}${releaseItems(rels[0], 5)}</div>` : '<div class="empty"><p>Release notes will appear here with each update.</p></div>'}</div>
+    </section>
+    <section class="band closing"><p>Translated from the Leningrad Codex, the SBL Greek New Testament and the other best-available texts, with every source named. <a href="#/mission">How the collection is made →</a></p></section>`;
+  wireSearch(); pageDone();
+  if(SAMPLE){ const w = SAMPLE.notes.findIndex(n => n.type === 'word'); showSample(w < 0 ? 0 : w); }
+}
+
+/* the scrolls: every book and writing, by group, then the topics */
+function openLibrary(r){
+  sitePage('library', 'The scrolls');
+  const done = CAT.books.filter(b => b.t !== 'X' && b.status !== 'text').length;
+  const groups = CAT.groups.map(g => [g, g.t === 'X' ? g.books.filter(([id]) => BYID[id].status !== 'text') : g.books]).filter(([, bs]) => bs.length);
+  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">The scrolls</div><h1>Every writing in the collection</h1>
+    <p class="lede">Each book is a scroll. Inside, every chapter has a commentary page beside its text, with color-coded notes woven in and every reference clickable. ${done} of the 66 books have the Plain English translation so far; the rest have the original and English texts.</p>
+    ${searchBox(r.q)}</header>
+    <nav class="grpnav" aria-label="Jump to a group">${groups.map(([g], i) => `<button data-jump="g-${i}">${g.name.replace(/:.*$/, '')}</button>`).join('')}<button data-jump="g-topics">Topics</button></nav>
+    <p class="legend"><span><i style="--c:var(--olive)"></i>${STATUS.reviewed}</span><span><i style="--c:var(--ochre)"></i>${STATUS.draft}</span><span><i style="--c:var(--ink-2);border-style:dashed"></i>${STATUS.text}</span></p>
+    ${groups.map(([g, bs], i) => { const n = bs.filter(([id]) => BYID[id].status !== 'text').length;
+      return `<section class="grp" id="g-${i}"><div class="sechead"><h2>${g.name}</h2>${g.t === 'X' ? '' : `<span class="count">${n} of ${bs.length} translated</span>`}</div>
+      ${g.t === 'X' ? `<p class="small muted">These writings are not among the 66 books every Christian Bible shares. Each one's first pages say who accepts it, where it came from and how to read it.</p>` : ''}
+      <div class="scrolls">${bs.map(([id]) => scrollCard(BYID[id], false)).join('')}</div></section>`; }).join('')}
+    <section class="grp" id="g-topics"><div class="sechead"><h2>Topics</h2><span class="count">${Object.keys(TIDX).length} pages</span></div>
+      <p class="small muted">One page per topic for the whole collection. Open one from a passage and it shows what relates to that passage first.</p>
+      <div class="search"><input id="tq" type="search" placeholder="Filter the topics…" aria-label="Filter the topics"></div>
+      <div class="tchips" id="tlist">${Object.keys(TIDX).sort((a, b) => TIDX[a][0].localeCompare(TIDX[b][0])).map(id => topicChip(id)).join('')}</div></section>
+    <section class="grp about"><h2>About the texts</h2><p class="small">Hebrew: the Leningrad Codex (the oldest complete Hebrew Bible, AD 1008) as edited by STEPBible's TAHOT, with its Ketiv and Qere readings and other manuscript witnesses marked. Greek: the SBL Greek New Testament, compared with the Byzantine majority text (Robinson-Pierpont 2018) and the Textus Receptus behind the KJV. Where the manuscripts differ in a way that matters, the text is marked <span class="vr" style="cursor:default">like this</span>: open it to see each reading, where it comes from, and why one was chosen, and switch the verse to the other reading. English: Berean Standard Bible (CC0), KJV, World English Bible, ASV and Young's Literal Translation (public domain). Word-by-word data from STEPBible (Tyndale House, Cambridge), CC BY 4.0. Cross references from OpenBible.info, CC BY.</p></section>`;
+  wireSearch();
+  $('tq').addEventListener('input', e => { const s = e.target.value.trim().toLowerCase();
+    $('tlist').querySelectorAll('[data-topic]').forEach(b => { const t = TIDX[b.dataset.topic]; b.hidden = !!s && !t[0].toLowerCase().includes(s) && !(t[3] || []).some(a => a.toLowerCase().includes(s)); }); });
+  smartQuotes($('leaf')); $('article').scrollTop = 0;
+}
+
+async function openMission(){
+  const M = await load('pages/mission.json'); sitePage('mission', 'Our mission');
+  $('leaf').innerHTML = `<article class="post"><header class="pagehead"><div class="cart study">${esc(M.kicker || 'Our mission')}</div><h1>${M.title}</h1></header>
+    <div class="prose">${M.html}</div>
+    <div class="ctas"><a class="btn" href="#/library">Browse the scrolls</a><a class="btn ghost" href="#/articles">Read the articles</a></div></article>`;
+  pageDone();
+}
+async function openArticles(){
+  const arts = await load('articles/index.json'); sitePage('articles', 'Articles');
+  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">Articles</div><h1>Studies and analysis</h1>
+    <p class="lede">Longer looks at one question, theme or passage at a time, drawing on the whole collection. Like everything here, each one shows its evidence and names its sources, so you can check them.</p></header>
+    ${arts.length ? `<div class="alist wide">${arts.map(articleCard).join('')}</div>` : NO_ARTICLES}`;
+  pageDone();
+}
+async function openArticle(r){
+  const idx = await load('articles/index.json');
+  if(!idx.some(a => a.id === r.id)){ sitePage('articles', 'Article not found'); $('leaf').innerHTML = `<header class="pagehead"><h1>Article not found</h1><p><a class="btn ghost" href="#/articles">All articles</a></p></header>`; return; }
+  const a = await load(`articles/${r.id}.json`); sitePage('articles', a.title);
+  $('leaf').innerHTML = `<article class="post"><a class="back" href="#/articles">← All articles</a>
+    <header class="pagehead"><div class="cart study">Article${a.draft ? ' · draft' : ''}</div><h1>${a.title}</h1><p class="byline">${a.author ? esc(a.author) + ' · ' : ''}${fmtDate(a.date)}</p></header>
+    <div class="prose">${a.html}</div>
+    ${a.books.length ? `<h3>In the collection</h3><div class="scrolls">${a.books.map(id => scrollCard(BYID[id])).join('')}</div>` : ''}
+    ${a.topics.length ? `<h3>Topics</h3>${topicChips(a.topics)}` : ''}
+    ${a.sources.length ? `<h3>Sources</h3><ul class="srcs">${a.sources.map(s => `<li>${s}</li>`).join('')}</ul>` : ''}</article>`;
+  pageDone();
+}
+async function openReleases(){
+  const rels = await load('releases.json'); sitePage('releases', 'Releases');
+  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">Releases</div><h1>What's new</h1>
+    <p class="lede">Each time the collection is updated, this page lists what you'll find new or changed: new scrolls, revised translations, new notes, topics and articles.</p></header>
+    ${rels.length ? `<ol class="rlist">${rels.map(r => `<li class="rel"><div class="rdate">${fmtDate(r.date)}</div><div class="rcard"><h3>${r.title}</h3>${r.summary ? para(r.summary) : ''}${releaseItems(r)}</div></li>`).join('')}</ol>` : '<div class="empty"><p>Release notes will appear here with each update.</p></div>'}`;
+  pageDone();
 }
 function searchResults(s){
   const out = []; const refs = RF.findRefs(s, null, false);
@@ -474,7 +607,7 @@ function textPage(n){
   const name = B.meta.name;
   return `<div class="thead"><div class="row"><h2>${chName(n)}</h2><span class="tname" data-tname></span></div>
     ${tierBand()}<div class="bg">${B.meta.t === 'X' ? '' : `<span>Also on Bible Gateway:</span>${['NIV','ESV','NASB','NLT','CSB'].map(v=>ext(bgURL(name+' '+n,v),v)).join('')}`}${B.data?`<button class="linkish tolink" data-go="c${n}" style="font-size:.8rem">← commentary</button>`:''}</div>
-    ${B.data ? `<div class="ntoggles">${Object.entries(NOTE_TYPES).filter(([k]) => k !== 'canon' || B.meta.t === 'X').map(([k,t])=>`<button data-ntype="${k}" aria-pressed="true" class="${k==='spec'?'only-spec':''}"><i style="--c:var(--n-${k})"></i>${t.label}</button>`).join('')}<button data-ntype="variant" aria-pressed="true"><i style="--c:var(--n-variant)"></i>Manuscript differences</button></div>` : ''}</div>
+    ${B.data ? `<details class="nkey"><summary><span class="sw">${Object.keys(NOTE_TYPES).filter(k => k !== 'canon' || B.meta.t === 'X').concat('variant').map(k => `<i style="--c:var(--n-${k})"></i>`).join('')}</span>Note key</summary><div class="ntoggles">${Object.entries(NOTE_TYPES).filter(([k]) => k !== 'canon' || B.meta.t === 'X').map(([k,t])=>`<button data-ntype="${k}" aria-pressed="true" class="${k==='spec'?'only-spec':''}"><i style="--c:var(--n-${k})"></i>${t.label}</button>`).join('')}<button data-ntype="variant" aria-pressed="true"><i style="--c:var(--n-variant)"></i>Manuscript differences</button></div></details>` : ''}</div>
     <div class="tbody" data-ch="${n}"></div>`;
 }
 const POETIC = new Set(['Job','Psa','Pro','Ecc','Sng','Lam']);
@@ -660,7 +793,7 @@ let raf = 0; track.addEventListener('scroll', () => { cancelAnimationFrame(raf);
 $('prev').onclick = () => scrollToIdx(current.idx - step());
 $('next').onclick = () => scrollToIdx(current.idx + step());
 $('home').onclick = () => nav('#/');
-$('bookbtn').onclick = () => nav('#/');
+$('bookbtn').onclick = () => nav('#/library');
 document.addEventListener('keydown', e => {
   if(!modal.hidden){ if(e.key==='Escape') closeModal(); return; }
   if((e.key==='Enter' || e.key===' ') && e.target.matches('span[role="button"]')){ e.preventDefault(); e.target.click(); return; }
@@ -688,7 +821,7 @@ track.addEventListener('wheel', e => {
 const bookOrder = id => CAT.books.findIndex(b => b.id === id);
 async function openTopic(r){
   setMode('topic');
-  const meta = TIDX[r.id]; if(!meta){ $('leaf').innerHTML = `<h2>Topic not found</h2><p><button class="pill" data-hash="#/">Back to the library</button></p>`; return; }
+  const meta = TIDX[r.id]; if(!meta){ $('leaf').innerHTML = `<h2>Topic not found</h2><p><button class="pill" data-hash="#/library">Back to the scrolls</button></p>`; return; }
   const T = (await load(`topics/${meta[5]}.json`))[r.id];
   const from = r.from ? r.from.split('/') : null, fb = from && BYID[from[0]] ? from[0] : null, fc = fb && from[1] ? +from[1] : null;
   const full = !fb || store.get('topic-full') === '1';
@@ -791,10 +924,12 @@ function openModal(view, push=false){
 }
 async function renderModal(){
   const view = mstack[mstack.length-1];
-  const d = view.kind === 'note' ? noteView(view.id) : view.kind === 'variant' ? variantView(view.id) : view.kind === 'verse' ? await verseView(view.key) : view.kind === 'setting' ? settingView(view.i) : view.kind === 'work' ? workView(view.id) : await refView(view.r);
+  const d = view.kind === 'notes' ? notesView(view.ids) : view.kind === 'note' ? noteView(view.id) : view.kind === 'variant' ? variantView(view.id) : view.kind === 'verse' ? await verseView(view.key) : view.kind === 'setting' ? settingView(view.i) : view.kind === 'work' ? workView(view.id) : await refView(view.r);
   if(mstack[mstack.length-1] !== view) return;
   modal.querySelector('.mbox').style.setProperty('--c', d.c);
-  mtype.innerHTML = d.type; mbody.innerHTML = d.html; linkify(mbody); smartQuotes(mbody);
+  modal.classList.toggle('multi', view.kind === 'notes');
+  modal.querySelector('.mbox').style.setProperty('--cols', view.kind === 'notes' ? Math.min(view.ids.length, 3) : 1);
+  mtype.innerHTML = d.type; mbody.innerHTML = d.html; linkify(mbody); smartQuotes(mbody); wireDeck();
   mback.hidden = mstack.length < 2;
   modal.hidden = false; hideTip(); mbody.scrollTop = 0;
   $('mclose').focus({preventScroll:true});
@@ -811,6 +946,24 @@ modal.addEventListener('keydown', e => {
   else if(!e.shiftKey && document.activeElement === z){ e.preventDefault(); a.focus(); }
 });
 const srcList = keys => (keys||[]).length ? `<p class="small" style="margin-top:10px"><b style="font-family:var(--f-display);font-weight:400">Sources</b></p><ul class="srcs">${keys.map(s=>`<li>${B.data.sources[s]||s}</li>`).join('')}</ul>` : '';
+/* notes that share words: the one clicked, every note around it, and any note that partly overlaps it (a note wholly
+   inside the clicked one is left out: it has its own words to click). Hidden kinds of notes stay hidden. */
+function notesAt(el){
+  const id = +el.dataset.note, n = B.data.notes[id]; if(!el.matches('.nt')) return [id];
+  const t = plainOf(n.v), s = t.indexOf(n.a), e = s + n.a.length, shown = m => !hidden.has(m.type) && !(m.type === 'spec' && document.body.classList.contains('nospec'));
+  const more = (B.NAT[n.v] || []).filter(m => { if(m.id === id || !shown(m)) return false; const ms = t.indexOf(m.a), me = ms + m.a.length;
+    return ms >= 0 && ms < e && me > s && !(ms >= s && me <= e && me - ms < e - s); }).sort((a, b) => t.indexOf(a.a) - t.indexOf(b.a));
+  return [id, ...more.map(m => m.id)];
+}
+/* several notes at once: side by side on a wide screen, one card at a time to swipe through on a narrow one */
+function notesView(ids){
+  const ps = ids.map((id, i) => { const d = noteView(id);
+    return `<section class="mpanel" style="--c:${d.c}" aria-label="Note ${i+1} of ${ids.length}"><div class="mt">${d.type}</div>${i ? d.html.replace(' id="mtitle"', '') : d.html}</section>`; }).join('');
+  return {c:'var(--ink-2)', type:`${ids.length} notes on these words`,
+    html:`<div class="pager">${ids.map((_, i) => `<button data-deck="${i}" aria-label="Note ${i+1}"${i ? '' : ' class="on"'}></button>`).join('')}<span>Swipe for the next note</span></div><div class="deck" id="deck" style="--n:${Math.min(ids.length, 3)}">${ps}</div>`};
+}
+function wireDeck(){ const d = $('deck'); if(!d) return;
+  d.addEventListener('scroll', () => { const i = Math.round(d.scrollLeft / d.clientWidth); mbody.querySelectorAll('[data-deck]').forEach(b => b.classList.toggle('on', +b.dataset.deck === i)); }, {passive:true}); }
 function noteView(id){
   const n = B.data.notes[id], t = NOTE_TYPES[n.type], name = B.meta.name;
   let h = `<h3 id="mtitle">${n.t}</h3><div class="quote">"${esc(n.a)}" <span class="small">(${name} ${n.v}, Plain English)</span></div>`;
@@ -871,6 +1024,8 @@ async function verseView(key){
 /* ---------- clicks ---------- */
 document.addEventListener('click', e => {
   const t = e.target;
+  const sm = t.closest('[data-sample]'); if(sm){ showSample(+sm.dataset.sample); return; }
+  const jp = t.closest('[data-jump]'); if(jp){ const el = $(jp.dataset.jump); if(el) el.scrollIntoView({behavior:reduce?'auto':'smooth', block:'start'}); return; }
   const hb = t.closest('[data-hash]'); if(hb){ if(!modal.hidden) closeModal(); nav(hb.dataset.hash); return; }
   const bk = t.closest('[data-book]'); if(bk){ nav('#/' + bk.dataset.book); return; }
   const tp = t.closest('[data-topic]'); if(tp){ if(!modal.hidden) closeModal();
@@ -882,7 +1037,8 @@ document.addEventListener('click', e => {
     nav(`#/topic/${r.id}?from=${tb.dataset.tbook}`); return; }
   const st = t.closest('[data-setting]'); if(st){ openModal({kind:'setting', i:+st.dataset.setting}, !modal.hidden); return; }
   const wk = t.closest('[data-work]'); if(wk && wk.tagName === 'BUTTON'){ openModal({kind:'work', id:wk.dataset.work}, !modal.hidden); return; }
-  const note = t.closest('[data-note]'); if(note){ openModal({kind:'note', id:+note.dataset.note}, !modal.hidden); return; }
+  const note = t.closest('[data-note]'); if(note){ const ids = notesAt(note); openModal(ids.length > 1 ? {kind:'notes', ids} : {kind:'note', id:ids[0]}, !modal.hidden); return; }
+  const dk = t.closest('[data-deck]'); if(dk){ const d = $('deck'); if(d) d.scrollTo({left:+dk.dataset.deck * d.clientWidth, behavior:reduce?'auto':'smooth'}); return; }
   const pick = t.closest('[data-pick]'); if(pick){ const [id, i] = pick.dataset.pick.split(':').map(Number); const x = B.data.variants[id]; x.pick = i;
     const c = +x.v.split(':')[0]; const j = IDX['t'+c]; if(j !== undefined && B.ver === 'plain'){ const el = $('v'+x.v.replace(':','-')); if(el){ el.outerHTML = verseHTML('plain', x.v, {}); smartQuotes($('v'+x.v.replace(':','-'))); } }
     renderModal(); return; }

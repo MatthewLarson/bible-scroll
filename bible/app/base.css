@@ -75,7 +75,7 @@ body:not(.spread) .stage::before, body:not(.spread) .stage::after{display:none}
   background-image:
     radial-gradient(ellipse 60% 50% at 30% 40%, rgba(255,248,226,.55), transparent 70%),
     radial-gradient(ellipse 40% 60% at 80% 70%, rgba(150,105,50,.12), transparent 70%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='700'%3E%3Cfilter id='s'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .12 0 0 0 .5 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23s)'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='700'%3E%3Cfilter id='s'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .12 0 0 0 .5 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23s)'/%3E%3C/svg%3E"),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .2 0 0 0 0 .1 0 0 0 .2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size:1400px 100%, 1100px 100%, 900px 700px, 260px 260px;
   box-shadow:inset 0 0 60px rgba(110,70,30,.35);
@@ -86,14 +86,11 @@ body:not(.spread) .stage::before, body:not(.spread) .stage::after{display:none}
 
 .page{
   flex:0 0 var(--pw); width:var(--pw); height:100%; overflow-y:auto; overflow-x:hidden; position:relative;
-  padding:20px 34px 48px 42px; scrollbar-width:thin; scrollbar-color:rgba(90,67,48,.4) transparent; scroll-snap-align:start;
-  background:
-    linear-gradient(var(--ink-3),var(--ink-3)) 10px 40px / 1.2px calc(100% - 80px) no-repeat,
-    linear-gradient(var(--ink-3),var(--ink-3)) 15px 40px / 1.2px calc(100% - 80px) no-repeat;
+  /* one centered reading column (about 68 characters) whatever the page width; everything on the page shares its edges */
+  padding:30px max(38px, calc((var(--pw) - 68ch) / 2)) 56px; scrollbar-width:thin; scrollbar-color:rgba(90,67,48,.4) transparent; scroll-snap-align:start;
 }
 body.spread .page:nth-child(even){scroll-snap-align:none; box-shadow:inset 22px 0 24px -22px rgba(90,55,20,.55)}
 body.spread .page:nth-child(odd){box-shadow:inset -22px 0 24px -22px rgba(90,55,20,.55)}
-.page > *{max-width:66ch}
 
 .cart{display:inline-flex; align-items:center; gap:8px; font-family:var(--f-display); font-size:.9rem; letter-spacing:.08em; border:1.6px solid var(--ink); border-radius:999px; padding:1px 16px 1px 14px; position:relative; box-shadow:0 0 0 3px var(--parch), 0 0 0 4.4px var(--ink); margin:6px 0 10px 4px; color:var(--ink)}
 .cart::after{content:""; position:absolute; right:-10px; top:3px; bottom:3px; width:1.6px; background:var(--ink)}
@@ -216,26 +213,40 @@ body.nospec .spec, body.nospec .only-spec{display:none}
 .types .u{font-style:normal; text-decoration:underline 2px; text-underline-offset:3px}
 
 /* ---------- the text pages ---------- */
-.thead{margin-bottom:10px}
+.thead{margin-bottom:18px; padding-bottom:12px; border-bottom:1.4px solid rgba(90,67,48,.3)}
+.page p, .page li{line-height:1.65}
 .thead .row{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px}
 .thead h2{font-size:1.55rem; margin:0}
 .thead .tname{font-family:var(--f-hand); color:var(--ink-2); font-size:.9rem}
 .thead .bg{font-size:.8rem; color:var(--ink-2); display:flex; flex-wrap:wrap; gap:2px 8px; margin-top:2px}
 .thead .bg a{text-decoration:none; border-bottom:1px dotted var(--lapis)}
 .ntoggles{display:flex; flex-wrap:wrap; gap:4px 6px; margin-top:6px}
+/* the note key folds away: a row of swatches, opened to read the labels and turn kinds of notes on or off */
+.nkey{margin-top:8px}
+.nkey summary{display:inline-flex; align-items:center; gap:8px; cursor:pointer; list-style:none; font-family:var(--f-hand); font-size:.82rem; color:var(--ink-2)}
+.nkey summary::-webkit-details-marker{display:none}
+.nkey summary::after{content:"▾"; font-size:.75rem; transition:transform .15s}
+.nkey[open] summary::after{transform:rotate(180deg)}
+.nkey .sw{display:inline-flex; gap:3px}
+.nkey .sw i{width:12px; height:0; border-bottom:2.4px solid var(--c)}
+.nkey .ntoggles{padding:8px 0 4px}
 .ntoggles button{display:inline-flex; align-items:center; gap:5px; border:none; background:none; padding:0 4px 0 0; font-family:var(--f-hand); font-size:.76rem; color:var(--ink-2)}
 .ntoggles button i{width:16px; height:0; border-bottom:2.4px solid var(--c)}
 .ntoggles button[aria-pressed="false"]{opacity:.38; text-decoration:line-through}
-.tbody h4{font-size:1.02rem; letter-spacing:.05em; color:var(--red); margin:18px 0 6px}
-.tbody p{font-family:var(--f-verse); font-size:1.08rem; line-height:1.68; margin:0 0 .6em}
+.tbody h4{font-size:1.04rem; letter-spacing:.06em; color:var(--red); margin:28px 0 8px; padding-bottom:4px; border-bottom:1px solid rgba(152,50,32,.22)}
+.tbody h4:first-child{margin-top:8px}
+.tbody p{font-family:var(--f-verse); font-size:1.12rem; line-height:1.8; margin:0 0 .85em; hanging-punctuation:first}
 .tbody.greekt p{font-family:var(--f-greek); font-size:1.12rem}
 .v{border-radius:6px; transition:background-color 1.2s}
 .v.flash{background-color:rgba(180,111,38,.32); transition:none}
-.vn{font-family:var(--f-display); color:var(--red); font-size:.72em; vertical-align:.45em; margin:0 3px 0 4px; font-variant-numeric:tabular-nums; font-style:normal}
+.vn{font-family:var(--f-display); color:color-mix(in srgb, var(--red) 80%, transparent); font-size:.66em; vertical-align:.5em; margin:0 3px 0 5px; font-variant-numeric:tabular-nums; font-style:normal}
 .vn.cv{font-size:1.5em; vertical-align:-.05em; margin-left:0}
-.nt, .nt-in{background:linear-gradient(transparent 62%, color-mix(in srgb, var(--c) 16%, transparent) 0); cursor:pointer;
-  text-decoration-line:underline; text-decoration-color:var(--c); text-decoration-thickness:2px; text-underline-offset:4px; text-decoration-skip-ink:none; border-radius:2px}
-.nt:hover, .nt:focus-visible{background:color-mix(in srgb, var(--c) 22%, transparent)}
+/* a note is a fine colored underline; the tint appears only on hover, so a busy verse still reads as text.
+   A note inside another note sits lower, so both lines show and the reader can tell two notes share the words */
+.nt, .nt-in{cursor:pointer; text-decoration-line:underline; text-decoration-color:color-mix(in srgb, var(--c) 85%, transparent); text-decoration-thickness:1.6px; text-underline-offset:5px; text-decoration-skip-ink:none; border-radius:3px; transition:background-color .15s}
+.nt .nt, .nt .nt-in{text-underline-offset:9px}
+.nt .nt .nt, .nt .nt .nt-in{text-underline-offset:13px}
+.nt:hover, .nt:focus-visible{background:color-mix(in srgb, var(--c) 18%, transparent)}
 .t-echo{text-decoration-style:double; text-decoration-thickness:3px}
 .t-symbol{text-decoration-style:wavy; text-decoration-thickness:1.4px}
 .t-myth{text-decoration-style:dotted; text-decoration-thickness:2.6px}
@@ -287,6 +298,24 @@ body.nogloss .gl{display:inline; margin:0; min-width:0 !important} body.nogloss 
 .mbody .vrow{margin:0 0 8px; font-family:var(--f-verse)}
 .mbody .vrow .vn{font-size:.8em}
 .mbody .vlab{font-family:var(--f-display); font-size:.78rem; letter-spacing:.08em; color:var(--red); margin:10px 0 4px}
+/* several notes on the same words: columns on a wide screen, swipeable cards on a narrow one */
+.modal.multi .mbox{width:min(calc(var(--cols, 2) * 500px), 100%); max-height:min(88vh, 860px)}
+.modal.multi .mbody{padding:0 0 12px}
+.deck{display:grid; grid-auto-flow:column; grid-auto-columns:calc(100% / var(--n)); overflow-x:auto; scroll-snap-type:x mandatory; overscroll-behavior-x:contain; scrollbar-width:none; align-items:start}
+.deck::-webkit-scrollbar{display:none}
+.mpanel{scroll-snap-align:start; min-width:0; padding:12px 22px 8px}
+.mpanel + .mpanel{border-left:1.4px dashed rgba(90,67,48,.4)}
+.mpanel > .mt{font-family:var(--f-hand); font-size:.85rem; color:var(--c); display:flex; align-items:center; gap:8px; flex-wrap:wrap; padding-bottom:8px; margin-bottom:8px; border-bottom:3px solid var(--c)}
+.mpanel > .mt i{width:18px; border-bottom:2.6px solid var(--c)}
+.pager{display:none; align-items:center; gap:8px; padding:4px 22px 6px; font-family:var(--f-hand); font-size:.8rem; color:var(--ink-3)}
+.pager button{width:9px; height:9px; padding:0; border-radius:50%; border:1.4px solid var(--ink-2); background:none}
+.pager button.on{background:var(--ink-2)}
+.pager span{margin-left:6px}
+@media (max-width:900px){
+  .deck{grid-auto-columns:100%}
+  .mpanel + .mpanel{border-left:none}
+  .pager{display:flex}
+}
 .mbody .spec-note{font-family:var(--f-hand); font-size:.85rem; color:var(--lapis)}
 
 /* ---------- bottom bar ---------- */
@@ -298,7 +327,7 @@ body.nogloss .gl{display:inline; margin:0; min-width:0 !important} body.nogloss 
 
 @media (max-width:700px){
   body{font-size:16px}
-  .page{padding:16px 16px 40px 24px; background:linear-gradient(var(--ink-3),var(--ink-3)) 7px 40px / 1.2px calc(100% - 80px) no-repeat}
+  .page{padding:20px 18px 44px}
   .readings, .cols2{grid-template-columns:1fr; gap:10px}
   .readings::before{display:none}
   .views li{grid-template-columns:18px 1fr}
