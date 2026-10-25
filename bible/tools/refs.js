@@ -2,7 +2,8 @@
    Finds "Isaiah 44:6", "Psalm 89:27, 37", "Ezekiel 2:8–3:3", "Daniel 7", "1 Kings 6:20" and bare "13:18".
    A bare chapter:verse belongs to the context book (the book being read), unless it continues a list that
    began with another book in the same sentence part ("Isaiah 13:10; 34:4"), or follows a capitalized word
-   that is not a book ("Barnabas 15:9"). In a plain reference list (listMode), every bare item is the context book.
+   that is not a book ("Barnabas 15:9"). A book name after a number that is not part of it ("4 Ezra 8:3")
+   is a work outside the 66, not a reference. In a plain reference list (listMode), every bare item is the context book.
    Needs the catalog's books: [{id, name, vc:[verses per chapter]}]. */
 (function(root){
 const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs'], Rev:['Revelation']};
@@ -28,6 +29,7 @@ function makeRefs(books){
     RE.lastIndex = 0;
     while((m = RE.exec(text))){
       const [all, bname, c, v, x, y] = m; const start = m.index; let amb = false;
+      if(bname && /\d\s$/.test(pre + text.slice(0, start))) { lastEnd = -1; continue; }   // "4 Ezra 8:3", "4 Maccabees 1:1": a numbered work outside the 66, not Ezra
       if(bname){ book = OF[bname.replace(/\s+/g,' ')]; namedAt = start; }
       else {
         const before = (pre + text.slice(0, start)).slice(-30);   // pre: text just before this one on the page, e.g. an <i>title</i>

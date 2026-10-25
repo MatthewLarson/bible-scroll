@@ -38,3 +38,20 @@ Authorship (Irenaeus and the apostle John, son of Zebedee; John the Elder of Pap
 - 11:25–26; 11:35; 12:24; 12:32.
 - 13:1–17 foot washing (Anabaptist and Adventist ordinance, Catholic Holy Thursday rite; card if churches really differ, top as fits); 13:23 the Beloved Disciple; 14:2 "many rooms"; 14:6; 14:16, 26; 15:26 the Advocate and the Filioque (15:26 "proceeds from the Father": Orthodox vs Catholic, card); 16:7–15; 17 the prayer (unity; "sanctify them").
 - 18:31 the Jewish right to execute; 19:14 the hour and day (vs Mark 15:25); 19:25–27 Mary and the disciple (Catholic Mary as mother of the church, Protestant readings; top `mary`); 19:34 blood and water; 20:17 "do not hold on to me"; 20:22–23 "Receive the Holy Spirit ... if you forgive" (confession and absolution card); 20:28 Thomas; 20:30–31 purpose; 21 the epilogue (153 fish views; 21:15–17 agapaō/phileō; Peter's restoration; 21:22–23; 21:24 "we know").
+
+## Lead decisions
+
+- **μένω (2026-10-25, alignment):** "remain" wherever John means the lasting bond or continuing state (the Spirit on
+  Jesus 1:32–33; wrath 3:36; the word in you 5:38; food 6:27; "remains in me, and I remain in him" 6:56; 8:31; 8:35
+  with 12:34; 9:41; 12:24; 12:46; 14:10, 17, 25; 15:4–16; 21:22–23). "stay" only for staying in a place (1:38–39;
+  2:12; 4:40; 7:9; 10:40; 11:6) and μονή "a place to stay" (14:2, 23). Parts 01-12 and 18-21 were brought into line
+  with 13-17 so 6:56 and 15:4 read alike. 1 John follows this rule.
+- **Synoptic parallels:** checked against Matthew at alignment (1:23–34, 1:42, 2:16–19, 4:44, 4:46–53, 6:9–21, 12:13,
+  12:25, 13:16–38, 18:10–11, 18:27–37, 19:2–3, 19:19, 19:30, 20:23). Where the Greek is shared the wording already
+  matches (6:20 = Matthew 14:27; 18:33 = Matthew 27:11; 19:3 = Matthew 27:29); the rest differ because the Greek does.
+  John keeps "temple grounds" (ἱερόν) apart from "temple" (ναός, 2:19–21); Matthew's "sanctuary" for ναός is left as is.
+  "the one who sent me" is lowercase everywhere (Matthew 10:40 corrected).
+- **Feast names (2026-10-25, publish):** "the Feast of Booths" (7:2) and "the Feast of Dedication" (10:22), as in the
+  published Old Testament (Leviticus 23:34; Nehemiah 8:14) and 2 Maccabees; a plain ἑορτή stays "festival". The lane's
+  "Festival of Shelters" was replaced across John, Matthew, 2 Maccabees and Tobit ("Feast of Weeks", "Feast of
+  Unleavened Bread" likewise). The terms entry in content/terms.json says why.

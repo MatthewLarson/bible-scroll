@@ -31,7 +31,7 @@ const CAT = json(P('texts/catalog.json'));
 const R = require('./refs.js')(CAT.books);
 const BOOK = {}; CAT.books.forEach(b => BOOK[b.id] = b);
 /* "Where Christians differ": a question, then each tradition's answer in its own words, so conflicts sit side by side */
-const TRADITIONS = ['Catholic','Orthodox','Oriental Orthodox','Ethiopian Orthodox','Lutheran','Reformed','Anglican','Methodist','Baptist','Pentecostal','Anabaptist','Restorationist','Adventist','Quaker','Evangelical','Dispensationalist','Latter-day Saints',"Jehovah's Witnesses"];
+const TRADITIONS = ['Catholic','Orthodox','Oriental Orthodox','Ethiopian Orthodox','Lutheran','Reformed','Anglican','Methodist','Baptist','Pentecostal','Anabaptist','Restorationist','Adventist','Quaker','Evangelical','Dispensationalist','Latter-day Saints',"Jehovah's Witnesses",'Oneness Pentecostal','Unitarian'];
 function tradCheck(w, list, srcCheck){ (list || []).forEach((x, j) => { const ws = `${w} traditions[${j}]`;
   if(!x.q) err(ws, 'needs q, the question the traditions answer differently');
   if(!Array.isArray(x.views) || x.views.length < 2) err(ws, 'needs at least two views [tradition, answer]');
@@ -94,7 +94,7 @@ TOPIC_FILES.forEach(([f, file, id]) => {
 const refCheck = (where, text, ctx, list) => {
   const refs = R.findRefs(strip(text), ctx, list);
   /* an item naming a work outside the 66 books ("Tobit 4:15", "1 Enoch 1:9", "Avot 5:17") is a citation, shown as text */
-  const ours = s => /^\d+[:\u2013-]|^\d+$/.test(s) || Object.keys(R.OF).some(n => s.startsWith(n + ' '));
+  const ours = s => /^\d+[:\u2013-]|^\d+$/.test(s) || Object.keys(R.OF).some(n => s.startsWith(n + ' ') && /^\d/.test(s.slice(n.length + 1)));   // not "Psalms of Solomon 17:21"
   if(list){ const items = strip(text).split(/;/).map(s => s.trim()).filter(Boolean).filter(ours);
     if(refs.length < items.length) warn(where, `reference list has ${items.length} items but only ${refs.length} parse: "${strip(text)}"`); }
   return refs;
@@ -278,7 +278,7 @@ if(PUBLISH) for(const id in B) if(id !== 'Rev' && !reviewed(id)) { delete B[id];
     for(const [re, qi, ri, wi] of QRES){ let m; re.lastIndex = 0;
     while((m = re.exec(t))){ const q = m[qi], rt = m[ri]; if(seen.has(q)) continue; seen.add(q);
       const before = t.slice(Math.max(0, m.index + m[0].indexOf(rt) - 40), m.index + m[0].indexOf(rt));   // "the Targum on Genesis 4:8 says" quotes the Targum
-      if(OTHER.test(rt) || (wi && (OTHER.test(m[wi] || '') || OTHER.test(before) || /\bon $/.test(before)))) continue; const refs = R.findRefs(rt, ctx, true); if(refs.length !== 1 || !PV[refs[0].book]) continue;
+      if(OTHER.test(rt) || /\d\s$/.test(before) || (wi && (OTHER.test(m[wi] || '') || OTHER.test(before) || /\bon $/.test(before)))) continue; const refs = R.findRefs(rt, ctx, true); if(refs.length !== 1 || !PV[refs[0].book]) continue;
       const r = refs[0], pv = PV[r.book], keys = R.refVerses(r, 60).map(k => k.slice(k.indexOf(' ') + 1));
       if(!/:/.test(rt.replace(/^[^\d]*\d+/, ''))) [...new Set(keys.map(k => k.split(':')[0]))].forEach(c => { if(pv[c + ':0']) keys.unshift(c + ':0'); });   // a whole psalm includes its title (verse 0)
       const plain = norm(keys.map(k => pv[k] || '').join(' ')); if(!plain) continue;

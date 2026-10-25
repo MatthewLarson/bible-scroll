@@ -1,4 +1,0 @@
-## john: make it the person page for the Johns (nt lane, John 01-04, 2026-10-24)
-- File: content/topics/john.json (currently "John, the Writer" of Revelation).
-- Change: widen it to cover John son of Zebedee, John the Elder (Papias), the Beloved Disciple of the Fourth Gospel and the Patmos writer, with the traditional and critical views on whether any of them are the same person; add aka "John the Evangelist", "John son of Zebedee", "the Beloved Disciple", "disciple whom Jesus loved", "John the Elder"; add `related`: ["gospel-of-john"].
-- Why: the proposed `gospel-of-john` page is about the book. The reviewer of John 01-04 asked that person names not sit in its aka, so a reader searching for the apostle should land on a person page. `john` is the natural home, but it belongs to the Revelation book, so this lane cannot edit it.

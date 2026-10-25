@@ -147,12 +147,12 @@
   "v": "1:18",
   "a": "the feast of the fire, when Nehemiah offered sacrifices after he had built the temple and the altar",
   "t": "\"The fire, when\" or \"the fire that was given\"",
-  "p": "The KJV and the Vulgate say the fire \"was given\" when Nehemiah offered sacrifice. The Greek has no such verb.",
+  "p": "The KJV and the Vulgate say the fire \"was given\" when Nehemiah offered sacrifice. One later manuscript says Nehemiah \"managed\" the temple instead of \"built\" it.",
   "readings": [
    {
     "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as corrected by Swete)",
-    "orig": "καὶ τοῦ πυρός, ὅτε",
-    "en": "and of the fire, when",
+    "orig": "καὶ τοῦ πυρός, ὅτε ... οἰκοδομήσας",
+    "en": "and of the fire, when ... having built",
     "plain": "the feast of the fire, when Nehemiah offered sacrifices after he had built the temple and the altar"
    },
    {
@@ -160,14 +160,21 @@
     "orig": "qui datus est quando Nehemias",
     "en": "and the day of the fire, which was given when Nehemiah",
     "plain": "the feast of the fire that was given when Nehemiah offered sacrifices after he had built the temple and the altar"
+   },
+   {
+    "w": "Codex 125, a later minuscule, as reported by Florentine Bechtel (Catholic Encyclopedia, 1910); not checked here against the Göttingen apparatus",
+    "orig": "οἰκονομήσας",
+    "en": "having managed",
+    "plain": "the feast of the fire, when Nehemiah offered sacrifices after he had managed the temple and the altar"
    }
   ],
   "follow": 0,
-  "why": "No Greek witness in Swete's apparatus has \"was given.\" The Latin fills out a compressed Greek phrase, and the KJV follows it. The sense is close.",
+  "why": "No Greek witness in Swete's apparatus has \"was given.\" The Latin fills out a compressed Greek phrase, and the KJV follows it. The sense is close. \"Managed\" (oikonomēsas for oikodomēsas, one letter apart) looks like a copyist's correction that removes the clash with Ezra 3–6, where Zerubbabel and Jeshua build the temple; the Plain keeps \"built\", the reading of the main witnesses. See the book page on Nehemiah and the Temple.",
   "s": [
    "swete-ot",
    "kjv-apocrypha",
-   "vulgate-clementine"
+   "vulgate-clementine",
+   "bechtel-maccabees-ce"
   ]
  },
  {

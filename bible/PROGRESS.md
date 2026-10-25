@@ -28,12 +28,12 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Ecc | writing | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
 | Isa | writing | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
 | Jer | writing | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
-| Mat | reviewed, ready | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
-| Jhn | writing | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
+| Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
+| Jhn | reviewed, published | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
 | Rev | published | From revelation/v2 version 9 (re-imported 2026-10-22 22:40 UTC; re-run tools/import-rev.js after any later Revelation edit). Needs variants.json (only word note |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |
 | Tob | reviewed, published | Outside the 66 (tier dc). Base text Swete: grc = Sinaiticus (longer text), grc_b = Vaticanus (shorter text), KJV apocrypha, Vulgate/Douay (texts/src/Tob.lat.jso |
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
 | 1Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus; Vaticanus lacks Maccabees), KJV apocrypha, Vulgate/Douay. 23 typos in the digital Swete corrected |
-| 2Ma | writing | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |
+| 2Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |

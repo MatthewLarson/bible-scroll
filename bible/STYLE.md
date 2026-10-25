@@ -109,6 +109,8 @@ Sea Scrolls, the Samaritan Pentateuch, the Targums, early versions, and the NA28
 
 - A variant that spans two verses: make one entry per verse and say in each `p` that they go together.
 - Notes and glosses may sit inside a variant's anchor; they show only while the followed reading is shown.
+- A note may not use exactly the same anchor as a variant (the build errors). This is deliberate: one tap must open one
+  thing. Anchor the note on a word or two inside or beside the variant, or put the point in the variant's `b`.
 
 ## glosses.json: Today's words
 

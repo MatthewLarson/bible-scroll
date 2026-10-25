@@ -1,6 +1,7 @@
 /* Import the Revelation scroll (revelation/v2, the original study) into content/books/Rev/ and content/topics/.
    Re-run whenever the Revelation files change: it reads the file list from revelation/v2/build.js.
-   Topic core files are only created when missing, so later edits to shared topics are kept. */
+   Topic core files marked "origin":"Rev" are rewritten on every run; to generalize one for the whole Bible, edit it and
+   delete its "origin" line, and it is left alone from then on (Revelation's lead becomes an "In Revelation" section). */
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..'), REV = path.join(ROOT, '..', 'revelation');
 const S = path.join(REV, 'v2/src/'), V1 = path.join(REV, 'src/');

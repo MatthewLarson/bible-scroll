@@ -22,10 +22,10 @@ c2.deep = [
  {h:'Why the Bible links sex and idols', html:`
   <p>For readers who know the Old Testament, this language was familiar. The prophets described Israel's worship of other gods as prostitution and adultery again and again:</p>
   <ul>
-   <li><b>The law.</b> Making deals with the Canaanites would lead Israel to "prostitute themselves to their gods" (Exodus 34:15–16).</li>
+   <li><b>The law.</b> Making deals with the Canaanites would lead Israel to "chase after their gods like prostitutes" (Exodus 34:15–16).</li>
    <li><b>The prophets.</b> Hosea married an unfaithful wife as a living picture of Israel (Hosea 1–3). Jeremiah says Israel "played the prostitute with many lovers" (Jeremiah 3:1). Ezekiel 16 and 23 are long, painful poems about Jerusalem and Samaria as unfaithful wives.</li>
    <li><b>Baal of Peor.</b> In Numbers 25:1–2, Israel "began to commit sexual immorality with the women of Moab. They invited the people to the sacrifices of their gods, and the people ate." Sex and idol food together, exactly the pair in 2:14 and 2:20. Numbers 31:16 blames this on Balaam's advice, which is why the letter to Pergamum mentions Balaam.</li>
-   <li><b>The real Jezebel.</b> When Jehu came to overthrow her family, he said, "How can there be peace, as long as the prostitution and sorceries of your mother Jezebel are so many?" (2 Kings 9:22). Nothing in 1 and 2 Kings says Queen Jezebel was literally a prostitute. Her "prostitution" was bringing Baal worship into Israel (1 Kings 16:31–33). The name "Jezebel" came with the prostitution label already attached, and the label meant idolatry.</li>
+   <li><b>The real Jezebel.</b> When Jehu came to overthrow her family, Jehoram asked, "Is it peace, Jehu?" and Jehu answered, "Peace? What peace is there, while your mother Jezebel keeps up her prostitution and her many sorceries?" (2 Kings 9:22). Nothing in 1 and 2 Kings says Queen Jezebel was literally a prostitute. Her "prostitution" was bringing Baal worship into Israel (1 Kings 16:31–33). The name "Jezebel" came with the prostitution label already attached, and the label meant idolatry.</li>
   </ul>
   <p>The logic is covenant logic. Israel's relationship with God was like a marriage: exclusive, loving and binding. Worshiping another god was not just a wrong opinion. It was cheating.</p>`},
  {art:'thyguild', caption:'A Thyatira guild banquet, as many scholars picture the problem: members recline on couches in a temple dining room, the meat comes from the god’s altar, and the evening is held in the god’s honor.'},
@@ -95,7 +95,7 @@ TP({id:'porneia', kind:'Words', title:'"Sexual Sin" and "Prostitution"', ch:[2,9
 {
 const jz = TOPICS.find(t => t.id === 'jezebel');
 jz.sections.push(
-  ['Prostitution language',`Revelation never calls her a prostitute; it says she teaches and commits "sexual sin," and her followers "commit adultery" with her. The Old Testament already linked the name to prostitution: "the prostitution and sorceries of your mother Jezebel" (2 Kings 9:22), meaning Baal worship. See the chapter 2 page for the four ways this has been read.`],
+  ['Prostitution language',`Revelation never calls her a prostitute; it says she teaches and commits "sexual sin," and her followers "commit adultery" with her. The Old Testament already linked the name to prostitution: "your mother Jezebel keeps up her prostitution and her many sorceries" (2 Kings 9:22), meaning Baal worship. See the chapter 2 page for the four ways this has been read.`],
   ['"Your wife"?',`Some manuscripts, including Codex Alexandrinus, read "your wife Jezebel," which would make her the wife of the church's leader. Most modern editions read "the woman."`]);
 jz.common = [`A real woman prophet who allowed Christians to join idol feasts; "sexual sin" is mainly the prophets' word for idolatry.`];
 jz.uncommon = [`A literal teacher of sexual freedom.`,`The papacy or the medieval church (historicist church-ages reading).`,`A rival prophet slandered with conventional sexual insults (some feminist scholars).`];
