@@ -32,5 +32,6 @@ description: Building, checking, previewing and publishing the Bible Scroll site
 Fix the cause (in content, or in build.js/app if the tool is wrong); never hide a real problem.
 
 # Deploying
-`public/` is a plain static site. Matt decides where it goes (GitHub Pages, Netlify, Cloudflare Pages; see
-README.md). Never deploy without his go-ahead.
+`public/` is a plain static site, hosted on Render at codexcollection.com (`render.yaml` at the repo root, which
+runs `node tools/build.js --publish` itself). Auto-deploy is off: a push does not publish; Matt starts each deploy
+from the Render dashboard. Never deploy without his go-ahead.

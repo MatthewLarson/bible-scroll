@@ -128,14 +128,17 @@ Some resume notes mention prompts that lived in the cloud sessions' scratch fold
 
 ## Putting the site online
 
-The cloud project published to a private claude.ai page ("The Bible Scroll"). Locally, `bible/public/` is a plain
-static website you can host anywhere, for example:
+The site is a Render static site at **codexcollection.com**, defined in `render.yaml` (a Render Blueprint). Render
+runs `node tools/build.js --publish` in `bible/` and serves `bible/public/`, so only reviewed books go online.
 
-- **GitHub Pages**: push the repository, then deploy `bible/public` with a Pages workflow, or copy it to a
-  `gh-pages` branch.
-- **Netlify / Cloudflare Pages**: drag the `bible/public` folder onto their deploy page.
+First time:
+1. Push the repository to GitHub (`MatthewLarson/bible-scroll`).
+2. In Render: **New → Blueprint**, pick the repository, and apply `render.yaml`.
+3. At your domain registrar, point `codexcollection.com` and `www.codexcollection.com` at Render as the
+   service's **Settings → Custom Domains** page shows (Render issues the HTTPS certificate once DNS resolves).
 
-Ask Claude Code to set one up when you want it. It won't deploy anything without your go-ahead.
+Auto-deploy is off, so pushing never publishes by itself. To publish, run `/publish`, commit and push, then click
+**Manual Deploy → Deploy latest commit** on the service in Render.
 
 ## Folder map
 

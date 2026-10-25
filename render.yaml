@@ -1,0 +1,38 @@
+# Render Blueprint: the public site (bible/public/) as a static site at codexcollection.com.
+# Render runs the same publish build as `node tools/build.js --publish`, so only reviewed books go online.
+# Deploys are manual (Render dashboard → Manual Deploy) so nothing goes live until Matt says so.
+services:
+  - type: web
+    runtime: static
+    name: codex-collection
+    repo: https://github.com/MatthewLarson/bible-scroll
+    branch: main
+    rootDir: bible
+    buildCommand: node tools/build.js --publish
+    staticPublishPath: public
+    autoDeployTrigger: "off"
+    pullRequestPreviewsEnabled: false
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+    # Render adds www.codexcollection.com and redirects it to the root domain on its own
+    domains:
+      - codexcollection.com
+    headers:
+      # the page is rebuilt on every publish; always fetch the latest shell
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /
+        name: Cache-Control
+        value: no-cache
+      # book and topic data change on every publish too; revalidate rather than serve stale JSON
+      - path: /data/*
+        name: Cache-Control
+        value: no-cache
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin

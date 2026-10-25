@@ -1,3 +1,7 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # The Bible Scroll
 
 A study website for every book of the Bible (and the books outside it), built for Matt. Each book gets a
@@ -71,6 +75,36 @@ Book ids are STEPBible three-letter codes (Gen Exo ... Rev). Judith is `Jdt` bec
 - Regenerating `texts/` is rarely needed: `sh tools/fetch.sh && python3 tools/texts.py` (66 books),
   `sh tools/works-fetch.sh && python3 tools/works-texts.py` (books outside the 66). Downloads go to `.cache/dl`
   (override with `DL=/path`). `tools/dss.py` and `tools/lxx.py` have one-time setup steps in their headers.
+
+There is no test suite and no package to install: `--check` is the test. It exits 1 on any error and takes well
+under a second per book. The full build also prints `skip <id>` for books with errors and leaves them out of
+`site/` rather than failing.
+
+**On this Windows machine**: `python3` is the Microsoft Store stub and does nothing; use `python` (3.14). Run the
+`VERBOSE=1 node ...` and `sh tools/*.sh` forms in the Bash tool (Git Bash); in PowerShell use
+`$env:VERBOSE=1; node tools/build.js --check <id>`.
+
+## How the build fits together
+
+`tools/build.js` is the whole back end and also the validator; read its comments before changing content rules.
+
+- A book is `content/books/<id>/` (book.json, progress.md, and either the content files or `parts/<a>-<b>/`
+  folders, zero-padded chapter ranges, each with its own plain.txt, notes/variants/glosses/chapters/topics/
+  sources.json and review.md). The build joins parts in order; the site never sees them.
+- Draft builds and `--check` overlay `content/proposals/<lane>/` (terms, topics, works, points) on the shared
+  files; `--publish` ignores proposals, so anything not merged by the lead is absent from `public/`.
+- `--publish` includes a book only when every part's review.md has a non-empty `## Fixes applied` (Rev excepted).
+- The build validates keys (sources, topics, works, TRADITIONS, note types), quote-matching against other books'
+  Plain, and atlas data, then writes `site/data/` (per-book JSON, topic shards, reverse "cited by" index) and
+  `site/index.html` = `app/shell.html` + `base.css` inlined + `tools/refs.js` + `app/app.js` in one file. The
+  front end is a single hash-routed page (`#/Rut/3/9`, `#/topic/<id>?from=Rut/3`); `refs.js` is shared by the
+  build and the browser to parse references.
+- It regenerates `PROGRESS.md` from each book's progress.md on every run.
+- JSON reads are retried because parallel agents may be mid-write; that's expected, not a bug to remove.
+
+`.claude/` holds the agents (thin wrappers around `tools/agent-*.md`), the slash commands and the skills
+(`book-pipeline`, `bible-translation`, `bible-site-build`, `canon-tiers`); change rules in the briefs, not the
+wrappers. `.claude/settings.json` denies edits to `bible/texts/**` and `bible/PROGRESS.md`.
 
 ## The pipeline for one book
 
