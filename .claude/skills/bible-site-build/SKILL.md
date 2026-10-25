@@ -10,7 +10,8 @@ description: Building, checking, previewing and publishing the Bible Scroll site
 - `node tools/build.js --publish`: public build into `public/`. Leaves out books whose reviews lack a filled
   `## Fixes applied`, and ignores `content/proposals/` (so a lane book that depends on proposed topics fails
   until the proposals are merged: merge first, see `/publish`).
-- Preview: `python3 -m http.server 8766 -d site` (or `-d public`), then http://localhost:8766. The app is
+- Preview: `node tools/serve.js` (draft `site/`, port 8766) or `node tools/serve.js public 8777`. A plain static server
+  breaks reloads and deep links: every page address is a path the server must answer with index.html. The app is
   `app/shell.html` + `app/app.js` + `app/base.css`; data loads from `data/` per book on demand.
 
 # Files

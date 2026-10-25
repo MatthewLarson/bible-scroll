@@ -68,7 +68,8 @@ Book ids are STEPBible three-letter codes (Gen Exo ... Rev). Judith is `Jdt` bec
   `VERBOSE=1` shows warnings. A book is only done at 0 errors AND 0 warnings.
 - `node tools/build.js`: full draft build into `site/` (prints `skip` for books with errors).
 - `node tools/build.js --publish`: build only reviewed books into `public/` (the real website).
-- `npx --yes http-server site -p 8766 -c-1` (or `public`): view the site at http://localhost:8766.
+- `node tools/serve.js` (or `node tools/serve.js public 8777`): view the site at http://localhost:8766. Use this, not a
+  plain static server: addresses are real paths (/Gen/1/2, /topics), so every path must be answered with index.html.
 - `node tools/literal.js <id> <chapter>` or `<id> <c:v-v>`: the word-by-word literal line every verse starts from.
 - `node tools/atlas-verses.js <id>`: verse lists for the atlas harvest.
 - `python tools/logos.py`: remake the site's logos and icons (`app/img/`, WebP; PNG only for the iOS icon and link
@@ -99,7 +100,8 @@ under a second per book. The full build also prints `skip <id>` for books with e
 - The build validates keys (sources, topics, works, TRADITIONS, note types), quote-matching against other books'
   Plain, and atlas data, then writes `site/data/` (per-book JSON, topic shards, reverse "cited by" index) and
   `site/index.html` = `app/shell.html` + `base.css` inlined + `tools/refs.js` + `app/app.js` in one file. The
-  front end is a single hash-routed page (`#/Rut/3/9`, `#/topic/<id>?from=Rut/3`); `refs.js` is shared by the
+  front end is a single page routed by real paths (`/Rut/3/9`, `/topic/<id>?from=Rut/3`, `/topics`, `/library`;
+  `<base href="/">` keeps `data/` and `img/` working at any depth, and Render rewrites every other path to index.html); `refs.js` is shared by the
   build and the browser to parse references.
 - The public site is **Codex Collection** (codexcollection.com). Its own pages come from `content/pages/home.md` and
   `mission.md`, `content/articles/<id>.md` (Markdown under a `key: value` header; `status: draft` stays out of

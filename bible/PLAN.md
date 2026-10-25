@@ -77,10 +77,10 @@ verse to any reading in place. Each entry says which reading the Plain English f
 ## Site
 
 `site/index.html` is one page with hash routes:
-- `#/` library: every book by group, with status and a reference/topic search box
-- `#/Rut` a book's scroll (opening pages, then a two-page spread per chapter: commentary | text)
-- `#/Rut/3` or `#/Rut/3/9` a chapter or verse
-- `#/topic/kinsman-redeemer?from=Rut/3` a topic page, filtered to the passage it was opened from
+- `/` home, `/library` every book by group, `/topics` every topic, `/articles`, `/mission`, `/releases`
+- `/Rut` a book's scroll (opening pages, then a two-page spread per chapter: commentary | text)
+- `/Rut/3` or `/Rut/3/9` a chapter or verse
+- `/topic/kinsman-redeemer?from=Rut/3` a topic page, filtered to the passage it was opened from
 Each book's data loads only when the book is opened; translations load when chosen.
 
 ## Sources

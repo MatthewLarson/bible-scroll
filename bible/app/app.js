@@ -1,6 +1,7 @@
 /* ---------- Codex Collection (the Bible Scroll site) ----------
-   One page, three modes: the site's own pages (home #/, the scrolls #/library, #/articles[/<id>], #/mission,
-   #/releases), a book's sideways scroll (#/Rut, #/Rut/3, #/Rut/3/9) and a topic page (#/topic/<id>?from=Rut/3).
+   One page, three modes: the site's own pages (home /, the scrolls /library, /topics, /articles[/<id>], /mission,
+   /releases), a book's sideways scroll (/Rut, /Rut/3, /Rut/3/9) and a topic page (/topic/<id>?from=Rut/3).
+   Addresses are real paths (the History API); the server answers every path with index.html.
    All content comes from the JSON directory in data/, loaded as needed. */
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
@@ -161,19 +162,19 @@ const vkey = r => `${r.c}:${r.v==null?1:r.v}`;
 
 /* ---------- routing ---------- */
 function parseHash(){
-  const h = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
-  const [p, q] = h.split('?'); const parts = p.split('/').filter(Boolean); const qs = new URLSearchParams(q || '');
+  const p = decodeURIComponent(location.pathname), q = location.search.slice(1); const parts = p.split('/').filter(Boolean); const qs = new URLSearchParams(q || '');
   if(parts[0] === 'topic') return {mode:'topic', id:parts[1], from:qs.get('from')};
   if(parts[0] && BYID[parts[0]]) return {mode:'book', id:parts[0], c:parts[1] ? +parts[1] : null, v:parts[2] != null ? +parts[2] : null, page:qs.get('p')};
   if(parts[0] === 'library') return {mode:'library', q:qs.get('q') || ''};
+  if(parts[0] === 'topics') return {mode:'topics'};
   if(parts[0] === 'articles') return {mode:'articles', id:parts[1] || null};
   if(parts[0] === 'mission' || parts[0] === 'releases') return {mode:parts[0]};
   return {mode:'home'};
 }
-const PAGE_OPEN = {home:() => openHome(), library:r => openLibrary(r), articles:r => r.id ? openArticle(r) : openArticles(), mission:() => openMission(), releases:() => openReleases()};
-const nav = (h, replace=false) => { if(location.hash === h) { route(); return; } if(replace) { history.replaceState(null, '', h); route(); } else location.hash = h; };
+const PAGE_OPEN = {home:() => openHome(), library:r => openLibrary(r), topics:() => openTopics(), articles:r => r.id ? openArticle(r) : openArticles(), mission:() => openMission(), releases:() => openReleases()};
+const nav = (h, replace=false) => { if(location.pathname + location.search !== h) history[replace ? 'replaceState' : 'pushState'](null, '', h); route(); };
 let routing = Promise.resolve();
-addEventListener('hashchange', () => route());
+addEventListener('popstate', () => route());
 function route(){
   const r = parseHash();
   routing = routing.then(() => r.mode === 'book' ? openBook(r) : r.mode === 'topic' ? openTopic(r) : PAGE_OPEN[r.mode](r)).catch(e => { console.error(e); flashWhere('That page could not be loaded. Check your connection and try again.'); });
@@ -182,7 +183,7 @@ function setMode(m){ ['lib','book','topic'].forEach(x => document.body.classList
   delete document.body.dataset.page; $('leaf').className = 'leaf'; document.querySelectorAll('#siteNav a[aria-current]').forEach(a => a.removeAttribute('aria-current')); }
 
 /* ---------- the site's own pages: home, the scrolls, articles, mission, releases ---------- */
-const SITE_PAGES = {home:'Home', library:'The scrolls', articles:'Articles', mission:'Mission', releases:'Releases'};
+const SITE_PAGES = {home:'Home', library:'The scrolls', topics:'Topics', articles:'Articles', mission:'Mission', releases:'Releases'};
 const STATUS = {reviewed:'Plain English, notes, reviewed', draft:'Plain English and notes (in review)', text:'Original and English texts'};
 const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'}) : '';
@@ -198,7 +199,7 @@ function wireSearch(){
   const q = $('q'), res = $('qres'); if(!q) return;
   const run = () => { const s = q.value.trim(); res.innerHTML = s ? searchResults(s) : ''; };
   q.addEventListener('input', run);
-  q.addEventListener('keydown', e => { if(e.key === 'Enter'){ const f = res.querySelector('[data-hash]'); if(f) nav(f.dataset.hash); } });
+  q.addEventListener('keydown', e => { if(e.key === 'Enter'){ const f = res.querySelector('[data-link]'); if(f) nav(f.dataset.link); } });
   run();
 }
 const searchBox = (val = '') => `<div class="search"><input id="q" type="search" placeholder="Go to a passage or topic: John 3:16, Ruth 2, covenant…" aria-label="Go to a passage or topic" value="${esc(val)}"></div><ul class="results" id="qres"></ul>`;
@@ -207,11 +208,11 @@ const scrollCard = (b, grp = true) => { const w = b.t === 'X' ? workOf(b.id) : n
   return `<button class="scard st-${b.status}${w ? ' x w-' + w.tier : ''}" data-book="${b.id}"${w ? ` data-tag="${TIER[w.tier].tag}"` : ''}>
     ${grp ? `<span class="scard-grp">${esc(groupOf(b.id))}</span>` : ''}<b>${b.name}</b>
     <small>${b.vc.length} chapter${b.vc.length > 1 ? 's' : ''} · ${b.status === 'text' ? 'original & English texts' : b.status === 'draft' ? 'translated, in review' : 'translated & reviewed'}</small></button>`; };
-const articleCard = a => `<a class="acard" href="#/articles/${a.id}"><span class="adate">${fmtDate(a.date)}${a.draft ? ' · <b class="draft">Draft</b>' : ''}</span><h3>${a.title}</h3>${a.summary ? `<p>${a.summary}</p>` : ''}<span class="more">Read the article →</span></a>`;
+const articleCard = a => `<a class="acard" href="/articles/${a.id}"><span class="adate">${fmtDate(a.date)}${a.draft ? ' · <b class="draft">Draft</b>' : ''}</span><h3>${a.title}</h3>${a.summary ? `<p>${a.summary}</p>` : ''}<span class="more">Read the article →</span></a>`;
 const NO_ARTICLES = `<div class="empty"><p>The first studies are being written. Articles will take one question, theme or passage at a time, drawing on the whole collection.</p></div>`;
 const REL_KIND = {new:'New', revised:'Revised', topic:'Topic', article:'Article', site:'Site', removed:'Offline'};
 const releaseItems = (r, max) => { const xs = max ? r.items.slice(0, max) : r.items;
-  return `<ul class="ritems">${xs.map(x => `<li><span class="rk rk-${x.kind}">${REL_KIND[x.kind]}</span><span>${x.hash ? `<a href="${x.hash}">${x.text}</a>` : x.text}</span></li>`).join('')}</ul>${max && r.items.length > max ? `<p class="small muted">and ${r.items.length - max} more</p>` : ''}`; };
+  return `<ul class="ritems">${xs.map(x => `<li><span class="rk rk-${x.kind}">${REL_KIND[x.kind]}</span><span>${x.link ? `<a href="${x.link}">${x.text}</a>` : x.text}</span></li>`).join('')}</ul>${max && r.items.length > max ? `<p class="small muted">and ${r.items.length - max} more</p>` : ''}`; };
 
 /* home: what the collection is, a verse at work, where to start, and what's new */
 let SAMPLE = null;
@@ -229,7 +230,7 @@ function sampleCard(s){
     <p class="sample-verse">${h}</p>
     <div class="sample-notes">${s.notes.map((n, i) => `<button class="snote t-${n.type}" data-sample="${i}" aria-pressed="false"><i></i>${n.t}</button>`).join('')}</div>
     <div class="sample-body" id="sampleBody" aria-live="polite"></div>
-    <a class="btn ghost" href="#/${bk}/${c}/${v}">Read ${esc(s.name)} in context →</a>
+    <a class="btn ghost" href="/${bk}/${c}/${v}">Read ${esc(s.name)} in context →</a>
   </aside>`;
 }
 function showSample(i){
@@ -251,7 +252,7 @@ async function openHome(){
         <picture class="hero-logo"><source media="(max-width:700px)" srcset="img/logo-square.webp" width="640" height="618"><img src="img/logo-wide.webp" width="1040" height="337" alt="Codex Collection: ancient writings, clear translations, deeper understanding"></picture>
         <h1 class="tagline">${H.title.split(/(?<=\.)\s+/).map(l => `<span>${esc(l)}</span>`).join(' ')}</h1>
         <div class="lede">${lead}</div>
-        <div class="ctas"><a class="btn" href="#/library">Browse the scrolls</a><a class="btn ghost" href="#/mission">Our mission</a></div>
+        <div class="ctas"><a class="btn" href="/library">Browse the scrolls</a><a class="btn ghost" href="/mission">Our mission</a></div>
         ${searchBox()}
       </div>
       ${SAMPLE ? sampleCard(SAMPLE) : ''}
@@ -261,18 +262,18 @@ async function openHome(){
       ${more.length ? `<div class="prose intro">${more.join('')}</div>` : ''}
       <div class="cards3">${H.cards.map((c, i) => `<article class="pcard"><div class="pnum">${ROMAN[i]}</div><h3>${c.h}</h3>${c.html}</article>`).join('')}</div>
     </section>
-    ${H.start.length ? `<section class="band"><div class="sechead"><h2>Start reading</h2><a class="more" href="#/library">All the scrolls →</a></div>
+    ${H.start.length ? `<section class="band"><div class="sechead"><h2>Start reading</h2><a class="more" href="/library">All the scrolls →</a></div>
       <div class="scrolls start">${H.start.map(id => scrollCard(BYID[id])).join('')}</div></section>` : ''}
     <section class="band split">
-      <div><div class="sechead"><h2>Articles</h2><a class="more" href="#/articles">All articles →</a></div>${arts.length ? `<div class="alist">${arts.slice(0, 3).map(articleCard).join('')}</div>` : NO_ARTICLES}</div>
-      <div><div class="sechead"><h2>What's new</h2><a class="more" href="#/releases">All releases →</a></div>${rels[0] ? `<div class="rcard"><span class="adate">${fmtDate(rels[0].date)}</span><h3>${rels[0].title}</h3>${rels[0].summary ? para(rels[0].summary) : ''}${releaseItems(rels[0], 5)}</div>` : '<div class="empty"><p>Release notes will appear here with each update.</p></div>'}</div>
+      <div><div class="sechead"><h2>Articles</h2><a class="more" href="/articles">All articles →</a></div>${arts.length ? `<div class="alist">${arts.slice(0, 3).map(articleCard).join('')}</div>` : NO_ARTICLES}</div>
+      <div><div class="sechead"><h2>What's new</h2><a class="more" href="/releases">All releases →</a></div>${rels[0] ? `<div class="rcard"><span class="adate">${fmtDate(rels[0].date)}</span><h3>${rels[0].title}</h3>${rels[0].summary ? para(rels[0].summary) : ''}${releaseItems(rels[0], 5)}</div>` : '<div class="empty"><p>Release notes will appear here with each update.</p></div>'}</div>
     </section>
-    <section class="band closing"><p>Translated from the Leningrad Codex, the SBL Greek New Testament and the other best-available texts, with every source named. <a href="#/mission">How the collection is made →</a></p></section>`;
+    <section class="band closing"><p>Translated from the Leningrad Codex, the SBL Greek New Testament and the other best-available texts, with every source named. <a href="/mission">How the collection is made →</a></p></section>`;
   wireSearch(); pageDone();
   if(SAMPLE){ const w = SAMPLE.notes.findIndex(n => n.type === 'word'); showSample(w < 0 ? 0 : w); }
 }
 
-/* the scrolls: every book and writing, by group, then the topics */
+/* the scrolls: every book and writing, by group */
 function openLibrary(r){
   sitePage('library', 'The scrolls');
   const done = CAT.books.filter(b => b.t !== 'X' && b.status !== 'text').length;
@@ -280,20 +281,41 @@ function openLibrary(r){
   $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">The scrolls</div><h1>Every writing in the collection</h1>
     <p class="lede">Each book is a scroll. Inside, every chapter has a commentary page beside its text, with color-coded notes woven in and every reference clickable. ${done} of the 66 books have the Plain English translation so far; the rest have the original and English texts.</p>
     ${searchBox(r.q)}</header>
-    <nav class="grpnav" aria-label="Jump to a group">${groups.map(([g], i) => `<button data-jump="g-${i}">${g.name.replace(/:.*$/, '')}</button>`).join('')}<button data-jump="g-topics">Topics</button></nav>
+    <nav class="grpnav" aria-label="Jump to a group">${groups.map(([g], i) => `<button data-jump="g-${i}">${g.name.replace(/:.*$/, '')}</button>`).join('')}</nav>
     <p class="legend"><span><i style="--c:var(--olive)"></i>${STATUS.reviewed}</span><span><i style="--c:var(--ochre)"></i>${STATUS.draft}</span><span><i style="--c:var(--ink-2);border-style:dashed"></i>${STATUS.text}</span></p>
     ${groups.map(([g, bs], i) => { const n = bs.filter(([id]) => BYID[id].status !== 'text').length;
       return `<section class="grp" id="g-${i}"><div class="sechead"><h2>${g.name}</h2>${g.t === 'X' ? '' : `<span class="count">${n} of ${bs.length} translated</span>`}</div>
       ${g.t === 'X' ? `<p class="small muted">These writings are not among the 66 books every Christian Bible shares. Each one's first pages say who accepts it, where it came from and how to read it.</p>` : ''}
       <div class="scrolls">${bs.map(([id]) => scrollCard(BYID[id], false)).join('')}</div></section>`; }).join('')}
-    <section class="grp" id="g-topics"><div class="sechead"><h2>Topics</h2><span class="count">${Object.keys(TIDX).length} pages</span></div>
-      <p class="small muted">One page per topic for the whole collection. Open one from a passage and it shows what relates to that passage first.</p>
-      <div class="search"><input id="tq" type="search" placeholder="Filter the topics…" aria-label="Filter the topics"></div>
-      <div class="tchips" id="tlist">${Object.keys(TIDX).sort((a, b) => TIDX[a][0].localeCompare(TIDX[b][0])).map(id => topicChip(id)).join('')}</div></section>
+    <section class="grp about"><p class="small">Looking for a subject rather than a book? <a href="/topics">Browse the ${Object.keys(TIDX).length} topic pages →</a></p></section>
     <section class="grp about"><h2>About the texts</h2><p class="small">Hebrew: the Leningrad Codex (the oldest complete Hebrew Bible, AD 1008) as edited by STEPBible's TAHOT, with its Ketiv and Qere readings and other manuscript witnesses marked. Greek: the SBL Greek New Testament, compared with the Byzantine majority text (Robinson-Pierpont 2018) and the Textus Receptus behind the KJV. Where the manuscripts differ in a way that matters, the text is marked <span class="vr" style="cursor:default">like this</span>: open it to see each reading, where it comes from, and why one was chosen, and switch the verse to the other reading. English: Berean Standard Bible (CC0), KJV, World English Bible, ASV and Young's Literal Translation (public domain). Word-by-word data from STEPBible (Tyndale House, Cambridge), CC BY 4.0. Cross references from OpenBible.info, CC BY.</p></section>`;
-  wireSearch();
-  $('tq').addEventListener('input', e => { const s = e.target.value.trim().toLowerCase();
-    $('tlist').querySelectorAll('[data-topic]').forEach(b => { const t = TIDX[b.dataset.topic]; b.hidden = !!s && !t[0].toLowerCase().includes(s) && !(t[3] || []).some(a => a.toLowerCase().includes(s)); }); });
+  wireSearch(); smartQuotes($('leaf')); $('article').scrollTop = 0;
+}
+
+/* the topics: every topic page, by kind, with a filter that searches titles, other names and the opening lines */
+const TOPIC_KINDS = {Ideas:'Beliefs and themes traced through the whole collection.', People:'The people of the Bible and the writings around it.',
+  Places:'Lands, cities and landmarks, with what happened there.', Events:'What happened, and how each book tells it.',
+  Symbols:'Images and signs, where they come from and what they mean.', Words:'Key Hebrew and Greek words, and how they are translated.',
+  Studies:'Longer studies of a question that crosses many books.'};
+function openTopics(){
+  sitePage('topics', 'Topics');
+  const bare = t => t.replace(/^[^\p{L}\d]+/u, ''), ids = Object.keys(TIDX).sort((a, b) => bare(TIDX[a][0]).localeCompare(bare(TIDX[b][0])));
+  const kinds = Object.keys(TOPIC_KINDS).filter(k => ids.some(id => TIDX[id][1] === k));
+  const card = id => { const [title, kind, lead, , books] = TIDX[id];
+    return `<button class="tcard" data-topic="${id}" style="--kc:var(--k-${kind})"><b>${title}</b>${lead ? `<span>${esc(lead)}</span>` : ''}<small>${(books || []).length ? `${books.length} book${books.length > 1 ? 's' : ''}` : ''}</small></button>`; };
+  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">Topics</div><h1>One page for every subject</h1>
+    <p class="lede">Each topic gathers everything the collection says about one subject, from every book, in one place. Open a topic from a passage and it shows what relates to that passage first, with a switch for the whole page.</p>
+    <div class="search"><input id="tq" type="search" placeholder="Find a topic: covenant, Moses, Jerusalem…" aria-label="Find a topic"></div></header>
+    <nav class="grpnav" aria-label="Jump to a kind of topic">${kinds.map(k => `<button data-jump="k-${k}" style="--kc:var(--k-${k})"><i></i>${k} <small>${ids.filter(id => TIDX[id][1] === k).length}</small></button>`).join('')}</nav>
+    <p class="muted small" id="tnone" hidden>No topic matches. Try another word, or search for a passage on the <a href="/library">scrolls page</a>.</p>
+    ${kinds.map(k => `<section class="grp tkind" id="k-${k}"><div class="sechead"><h2 style="color:var(--k-${k})">${k}</h2><span class="count">${TOPIC_KINDS[k]}</span></div>
+      <div class="tcards">${ids.filter(id => TIDX[id][1] === k).map(card).join('')}</div></section>`).join('')}`;
+  $('tq').addEventListener('input', e => { const s = e.target.value.trim().toLowerCase(); let any = false;
+    $('leaf').querySelectorAll('.tkind').forEach(sec => { let n = 0;
+      sec.querySelectorAll('[data-topic]').forEach(b => { const t = TIDX[b.dataset.topic];
+        b.hidden = !!s && ![t[0], t[2], ...(t[3] || [])].some(x => String(x || '').toLowerCase().includes(s)); if(!b.hidden) n++; });
+      sec.hidden = !n; any = any || !!n; });
+    $('tnone').hidden = any; });
   smartQuotes($('leaf')); $('article').scrollTop = 0;
 }
 
@@ -301,7 +323,7 @@ async function openMission(){
   const M = await load('pages/mission.json'); sitePage('mission', 'Our mission');
   $('leaf').innerHTML = `<article class="post"><header class="pagehead"><div class="cart study">${esc(M.kicker || 'Our mission')}</div><h1>${M.title}</h1></header>
     <div class="prose">${M.html}</div>
-    <div class="ctas"><a class="btn" href="#/library">Browse the scrolls</a><a class="btn ghost" href="#/articles">Read the articles</a></div></article>`;
+    <div class="ctas"><a class="btn" href="/library">Browse the scrolls</a><a class="btn ghost" href="/articles">Read the articles</a></div></article>`;
   pageDone();
 }
 async function openArticles(){
@@ -313,9 +335,9 @@ async function openArticles(){
 }
 async function openArticle(r){
   const idx = await load('articles/index.json');
-  if(!idx.some(a => a.id === r.id)){ sitePage('articles', 'Article not found'); $('leaf').innerHTML = `<header class="pagehead"><h1>Article not found</h1><p><a class="btn ghost" href="#/articles">All articles</a></p></header>`; return; }
+  if(!idx.some(a => a.id === r.id)){ sitePage('articles', 'Article not found'); $('leaf').innerHTML = `<header class="pagehead"><h1>Article not found</h1><p><a class="btn ghost" href="/articles">All articles</a></p></header>`; return; }
   const a = await load(`articles/${r.id}.json`); sitePage('articles', a.title);
-  $('leaf').innerHTML = `<article class="post"><a class="back" href="#/articles">← All articles</a>
+  $('leaf').innerHTML = `<article class="post"><a class="back" href="/articles">← All articles</a>
     <header class="pagehead"><div class="cart study">Article${a.draft ? ' · draft' : ''}</div><h1>${a.title}</h1><p class="byline">${a.author ? esc(a.author) + ' · ' : ''}${fmtDate(a.date)}</p></header>
     <div class="prose">${a.html}</div>
     ${a.books.length ? `<h3>In the collection</h3><div class="scrolls">${a.books.map(id => scrollCard(BYID[id])).join('')}</div>` : ''}
@@ -332,11 +354,11 @@ async function openReleases(){
 }
 function searchResults(s){
   const out = []; const refs = RF.findRefs(s, null, false);
-  refs.slice(0,3).forEach(r => out.push(`<li><button class="linkish" data-hash="#/${r.book}/${r.c}${r.v!=null?'/'+r.v:''}">${refName(r)}</button></li>`));
+  refs.slice(0,3).forEach(r => out.push(`<li><button class="linkish" data-link="/${r.book}/${r.c}${r.v!=null?'/'+r.v:''}">${refName(r)}</button></li>`));
   const low = s.toLowerCase();
-  CAT.books.filter(b => b.name.toLowerCase().startsWith(low)).slice(0,4).forEach(b => out.push(`<li><button class="linkish" data-hash="#/${b.id}">${b.name}</button> <span class="small muted">${STATUS[b.status]}</span></li>`));
+  CAT.books.filter(b => b.name.toLowerCase().startsWith(low)).slice(0,4).forEach(b => out.push(`<li><button class="linkish" data-link="/${b.id}">${b.name}</button> <span class="small muted">${STATUS[b.status]}</span></li>`));
   Object.entries(TIDX).filter(([id, t]) => t[0].toLowerCase().includes(low) || (t[3]||[]).some(a => a.toLowerCase().includes(low))).slice(0,12)
-    .forEach(([id, t]) => out.push(`<li><button class="linkish" data-hash="#/topic/${id}">${t[0]}</button> <span class="small muted">${t[1]} · ${esc(t[2].slice(0,110))}${t[2].length>110?'…':''}</span></li>`));
+    .forEach(([id, t]) => out.push(`<li><button class="linkish" data-link="/topic/${id}">${t[0]}</button> <span class="small muted">${t[1]} · ${esc(t[2].slice(0,110))}${t[2].length>110?'…':''}</span></li>`));
   return out.join('') || `<li class="muted">Nothing found. Try a book and chapter, like "Genesis 12".</li>`;
 }
 
@@ -371,7 +393,7 @@ async function openBook(r){
     const [data, atlas, base] = await Promise.all([meta.status !== 'text' ? load(`books/${r.id}.json`) : null,
       meta.atlas ? load(`atlas/${r.id}.json`).catch(() => null) : null, meta.atlas ? load('atlas/basemap.json').catch(() => null) : null]);
     B = {id:r.id, meta, data, atlas:atlas && base ? Object.assign(atlas, {base}) : null}; CTX = B; prepBook(B); buildPages(); layoutNow(); applyBookUI();
-    document.title = `${meta.name} · The Bible Scroll`;
+    document.title = `${meta.name} · Codex Collection`;
   } else setMode('book');
   let target = r.page && IDX[r.page] !== undefined ? r.page : r.c ? (B.data ? (r.v != null ? `t${r.c}` : `c${r.c}`) : `t${r.c}`) : 'intro';
   if(IDX[target] === undefined) target = 'intro';
@@ -469,9 +491,9 @@ function introPage(bk){
   return h;
 }
 /* "Where Christians differ": one question, each tradition's answer beside the others */
-const tradAt = ([b, c]) => `${BYID[b].name}${c ? ' ' + c : ''}`, tradHash = ([b, c]) => `#/${b}${c ? '/' + c : ''}`;
+const tradAt = ([b, c]) => `${BYID[b].name}${c ? ' ' + c : ''}`, tradPath = ([b, c]) => `/${b}${c ? '/' + c : ''}`;
 const tradCards = list => (list || []).map(x => `<div class="box trad"><div class="tag">Where Christians differ</div><h5>${x.q}</h5><dl class="facts">${x.views.map(([k, v, s]) => `<dt>${k}</dt><dd>${v}${s && s.length ? srcList(s) : ''}</dd>`).join('')}</dl>${srcList(x.s)}`
-  + ((x.also||[]).length || x.top ? `<p class="small also">${(x.also||[]).length ? `Asked again at ${x.also.map(a => `<button class="linkish" data-hash="${tradHash(a)}" title="${esc(a[2])}">${tradAt(a)}</button>`).join(', ')}. ` : ''}${x.top && B.data.topics[x.top] ? `Topic: <button class="linkish" data-topic="${x.top}">${B.data.topics[x.top][0]}</button>` : ''}</p>` : '') + `</div>`).join('');
+  + ((x.also||[]).length || x.top ? `<p class="small also">${(x.also||[]).length ? `Asked again at ${x.also.map(a => `<button class="linkish" data-link="${tradPath(a)}" title="${esc(a[2])}">${tradAt(a)}</button>`).join(', ')}. ` : ''}${x.top && B.data.topics[x.top] ? `Topic: <button class="linkish" data-topic="${x.top}">${B.data.topics[x.top][0]}</button>` : ''}</p>` : '') + `</div>`).join('');
 function viewsList(c){
   if(!c.views || !B.lenses.length) return '';
   const L = B.lenses.map((l,i) => [l,i]).filter(([l]) => c.views[l.k]);
@@ -746,10 +768,10 @@ async function flashVerse(key){
   v.classList.remove('flash'); void v.offsetWidth; v.classList.add('flash');
   setTimeout(() => v.classList.remove('flash'), 1800);
 }
-function goVerse(key){ const [c, v] = key.split(':'); pushPlace(); history.pushState(null, '', `#/${B.id}/${c}/${v}`); flashVerse(key); }
+function goVerse(key){ const [c, v] = key.split(':'); pushPlace(); history.pushState(null, '', `/${B.id}/${c}/${v}`); flashVerse(key); }
 /* a long jump leaves a browser history entry, so the browser's back button returns */
-function pushPlace(){ const p = pages[firstOf(current.idx)]; if(p) history.replaceState(null, '', placeHash(p.id)); }
-const placeHash = id => { const m = id.match(/^([ct])(\d+)$/); return `#/${B.id}` + (m ? `/${m[2]}` + (m[1]==='t' ? '/1' : '') : id === 'intro' ? '' : `?p=${id}`); };
+function pushPlace(){ const p = pages[firstOf(current.idx)]; if(p) history.replaceState(null, '', placePath(p.id)); }
+const placePath = id => { const m = id.match(/^([ct])(\d+)$/); return `/${B.id}` + (m ? `/${m[2]}` + (m[1]==='t' ? '/1' : '') : id === 'intro' ? '' : `?p=${id}`); };
 
 /* ---------- navigation rows ---------- */
 const chapNav = $('chapNav'), topicNav = $('topicNav'), where = $('where');
@@ -787,13 +809,13 @@ function sync(force){
   chapNav.querySelectorAll('button').forEach(x => x.classList.toggle('on', x.dataset.go === a.id || (ch && x.dataset.ch == ch)));
   const on = chapNav.querySelector('button.on'); if(on) chapNav.scrollTo({left: on.offsetLeft - chapNav.clientWidth/2 + on.clientWidth/2});
   if(ch && ch !== topicFilter && ch !== allFor){ topicFilter = ch; allFor = null; renderTopicNav(); }
-  if(!force) history.replaceState(null, '', placeHash(a.id));
+  if(!force) history.replaceState(null, '', placePath(a.id));
 }
 let raf = 0; track.addEventListener('scroll', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => sync()); }, {passive:true});
 $('prev').onclick = () => scrollToIdx(current.idx - step());
 $('next').onclick = () => scrollToIdx(current.idx + step());
-$('home').onclick = () => nav('#/');
-$('bookbtn').onclick = () => nav('#/library');
+$('home').onclick = () => nav('/');
+$('bookbtn').onclick = () => nav('/library');
 document.addEventListener('keydown', e => {
   if(!modal.hidden){ if(e.key==='Escape') closeModal(); return; }
   if((e.key==='Enter' || e.key===' ') && e.target.matches('span[role="button"]')){ e.preventDefault(); e.target.click(); return; }
@@ -820,21 +842,21 @@ track.addEventListener('wheel', e => {
 /* ---------- a topic page: one per topic, filtered to the passage the reader came from ---------- */
 const bookOrder = id => CAT.books.findIndex(b => b.id === id);
 async function openTopic(r){
-  setMode('topic');
-  const meta = TIDX[r.id]; if(!meta){ $('leaf').innerHTML = `<h2>Topic not found</h2><p><button class="pill" data-hash="#/library">Back to the scrolls</button></p>`; return; }
+  setMode('topic'); document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === 'topics' ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  const meta = TIDX[r.id]; if(!meta){ $('leaf').innerHTML = `<h2>Topic not found</h2><p><button class="pill" data-link="/topics">All topics</button></p>`; return; }
   const T = (await load(`topics/${meta[5]}.json`))[r.id];
   const from = r.from ? r.from.split('/') : null, fb = from && BYID[from[0]] ? from[0] : null, fc = fb && from[1] ? +from[1] : null;
   const full = !fb || store.get('topic-full') === '1';
-  document.title = `${T.title} · The Bible Scroll`; where.textContent = T.title;
+  document.title = `${T.title} · Codex Collection`; where.textContent = T.title;
   const here = fb ? `${BYID[fb].name}${fc ? ' ' + fc : ''}` : '';
   const chKey = fb && fc ? `${fb} ${fc}` : null;
   const rel = s => chKey && (s.ch||[]).includes(chKey) ? 2 : fb && (s.book === fb || (s.ch||[]).some(k => k.startsWith(fb + ' '))) ? 1 : 0;
   const ctxOf = s => s.book || fb || 'Gen';
   const secHTML = s => `<div class="tsec" data-ctx="${ctxOf(s)}"><h3>${s.h}</h3>${para(s.b)}${s.refs?`<p class="small reflist from">${s.refs}</p>`:''}</div>`;
-  const noteHTML = n => `<li><button class="linkish" data-hash="#/${n.book}/${n.v.replace(':','/')}">${BYID[n.book].name} ${n.v} · ${n.t}</button><p class="muted">${esc(n.p)}</p></li>`;
+  const noteHTML = n => `<li><button class="linkish" data-link="/${n.book}/${n.v.replace(':','/')}">${BYID[n.book].name} ${n.v} · ${n.t}</button><p class="muted">${esc(n.p)}</p></li>`;
   const core = T.sections.filter(s => !s.book);
   let h = `<div class="cart kind" style="--kc:var(--k-${T.kind})">${T.kind}</div><h2>${T.title}</h2>`;
-  if(fb) h += `<p><button class="pill" data-hash="#/${fb}${fc?'/'+fc:''}">← Back to ${here}</button></p>`;
+  if(fb) h += `<p><button class="pill" data-link="/${fb}${fc?'/'+fc:''}">← Back to ${here}</button></p>`;
   h += `<p class="lede">${T.lead}</p>`;
   if(T.books.length) h += `<p class="small muted">In ${T.books.map(id => `<button class="linkish" data-tbook="${id}">${BYID[id].name}</button>`).join(', ')}</p>`;
   if(fb) h += `<div class="filterbar"><span>Showing:</span><span class="seg"><button data-tfull="0" aria-pressed="${!full}">What relates to ${here}</button><button data-tfull="1" aria-pressed="${full}">The full page</button></span></div>`;
@@ -853,13 +875,13 @@ async function openTopic(r){
     T.books.forEach(id => { const ss = T.sections.filter(s => s.book === id), ns = T.notes.filter(n => n.book === id), cs = T.chapters.filter(c => c[0] === id);
       if(!ss.length && !ns.length && !cs.length) return;
       h += `<div class="bookgrp" id="tb-${id}"><h3>${BYID[id].name}</h3>${ss.map(secHTML).join('')}`
-        + (cs.length ? `<p class="small">Chapter pages: ${cs.map(([b,n,t]) => `<button class="linkish" data-hash="#/${b}/${n}">${n}. ${t}</button>`).join(' · ')}</p>` : '')
+        + (cs.length ? `<p class="small">Chapter pages: ${cs.map(([b,n,t]) => `<button class="linkish" data-link="/${b}/${n}">${n}. ${t}</button>`).join(' · ')}</p>` : '')
         + (ns.length ? `<h4>Notes in the text</h4><ul class="ideas">${ns.map(noteHTML).join('')}</ul>` : '') + `</div>`; });
   }
   const bel = (L, title) => { const show = full ? L : L.filter(x => !x.book || x.book === fb); return show.length ? `<div><h3>${title}</h3><ul>${show.map(x => `<li data-ctx="${x.book||fb||'Gen'}">${x.t}</li>`).join('')}</ul></div>` : ''; };
   /* every "Where Christians differ" question filed under this topic, wherever in the Bible it is asked */
   const trad = full || !fb ? (T.trad||[]) : (T.trad||[]).filter(e => e.book === fb);
-  if(trad.length) h += `<h3>Where Christians differ</h3><ul class="ideas">${trad.map(e => `<li><button class="linkish" data-hash="${tradHash([e.book, e.c])}">${tradAt([e.book, e.c])} · ${e.q}</button><p class="muted small">${e.who.join(', ')}</p></li>`).join('')}</ul>`
+  if(trad.length) h += `<h3>Where Christians differ</h3><ul class="ideas">${trad.map(e => `<li><button class="linkish" data-link="${tradPath([e.book, e.c])}">${tradAt([e.book, e.c])} · ${e.q}</button><p class="muted small">${e.who.join(', ')}</p></li>`).join('')}</ul>`
     + (!full && fb && trad.length < (T.trad||[]).length ? `<p class="small">${T.trad.length - trad.length} more in other books. <button class="linkish" data-tfull="1">Show the full page.</button></p>` : '');
   const beliefs = bel(T.common, 'Common beliefs') + bel(T.uncommon, 'Less common beliefs');
   if(beliefs) h += `<div class="cols2">${beliefs}</div>`;
@@ -996,7 +1018,7 @@ async function refView(r){
     if(keys.length >= 40) h += `<p class="small muted">The passage continues.</p>`;
   } else h += `<p class="muted">The verse text could not be loaded. Use the links below.</p>`;
   const target = `${r.c}/${r.v==null?1:r.v}`;
-  h += `<div class="acts">${here ? `<button class="pill" data-verse="${vkey(r)}">Go to ${vkey(r)} in the text</button>` : `<button class="pill" data-hash="#/${r.book}/${target}">Open ${BYID[r.book].name} ${r.c}${r.v!=null?':'+r.v:''} →</button>`}${keys.length===1?`<button class="pill" data-vpanel-ref="${r.book}|${vkey(r)}">Cross references</button>`:''}${ext(bgURL(label,'NIV;ESV;KJV;NASB'),'Compare translations ↗','pill')}</div>`;
+  h += `<div class="acts">${here ? `<button class="pill" data-verse="${vkey(r)}">Go to ${vkey(r)} in the text</button>` : `<button class="pill" data-link="/${r.book}/${target}">Open ${BYID[r.book].name} ${r.c}${r.v!=null?':'+r.v:''} →</button>`}${keys.length===1?`<button class="pill" data-vpanel-ref="${r.book}|${vkey(r)}">Cross references</button>`:''}${ext(bgURL(label,'NIV;ESV;KJV;NASB'),'Compare translations ↗','pill')}</div>`;
   return {c:here?'var(--red)':'var(--lapis)', type:`Scripture · ${BYID[r.book].name}`, html:h};
 }
 /* one verse: every translation, its cross references, and everywhere the site discusses it */
@@ -1012,8 +1034,8 @@ async function verseView(key){
   if(orig.sbl && orig.sbl[cv]) h += `<div class="vlab">Greek (SBLGNT)</div><p class="vrow greek">${esc(orig.sbl[cv])}</p>`;
   if(orig.byz && orig.byz[cv] && orig.byz[cv] !== orig.sbl[cv]) h += `<div class="vlab">Greek (Byzantine)</div><p class="vrow greek">${esc(orig.byz[cv])}</p>`;
   const by = links.by[cv] || [];
-  if(by.length) h += `<div class="vlab">Discussed on this site</div><ul class="cites">${by.map(e => e[0]==='n' ? `<li><button class="linkish" data-hash="#/${e[1]}/${e[3].replace(':','/')}">${BYID[e[1]].name} ${e[3]}</button> · note: ${esc(e[4])}</li>`
-    : e[0]==='c' ? `<li><button class="linkish" data-hash="#/${e[1]}/${e[2]}">${BYID[e[1]].name} ${e[2]}</button> · chapter page: ${esc(e[3])}</li>`
+  if(by.length) h += `<div class="vlab">Discussed on this site</div><ul class="cites">${by.map(e => e[0]==='n' ? `<li><button class="linkish" data-link="/${e[1]}/${e[3].replace(':','/')}">${BYID[e[1]].name} ${e[3]}</button> · note: ${esc(e[4])}</li>`
+    : e[0]==='c' ? `<li><button class="linkish" data-link="/${e[1]}/${e[2]}">${BYID[e[1]].name} ${e[2]}</button> · chapter page: ${esc(e[3])}</li>`
     : `<li><button class="linkish" data-topic="${e[1]}">Topic: ${esc(e[3])}</button></li>`).join('')}</ul>`;
   const xr = links.x[cv] || [];
   if(xr.length) h += `<div class="vlab">Cross references <span class="small" style="font-family:var(--f-hand);letter-spacing:0">(OpenBible.info, strongest first)</span></div><p class="xr reflist" data-ctx="${id}">${xr.map(x => esc(x[0])).join('; ')}</p>`;
@@ -1024,17 +1046,18 @@ async function verseView(key){
 /* ---------- clicks ---------- */
 document.addEventListener('click', e => {
   const t = e.target;
+  const ln = t.closest('a[href^="/"]'); if(ln && !ln.target && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey && e.button === 0){ e.preventDefault(); if(!modal.hidden) closeModal(); nav(ln.getAttribute('href')); return; }
   const sm = t.closest('[data-sample]'); if(sm){ showSample(+sm.dataset.sample); return; }
   const jp = t.closest('[data-jump]'); if(jp){ const el = $(jp.dataset.jump); if(el) el.scrollIntoView({behavior:reduce?'auto':'smooth', block:'start'}); return; }
-  const hb = t.closest('[data-hash]'); if(hb){ if(!modal.hidden) closeModal(); nav(hb.dataset.hash); return; }
-  const bk = t.closest('[data-book]'); if(bk){ nav('#/' + bk.dataset.book); return; }
+  const hb = t.closest('[data-link]'); if(hb){ if(!modal.hidden) closeModal(); nav(hb.dataset.link); return; }
+  const bk = t.closest('[data-book]'); if(bk){ nav('/' + bk.dataset.book); return; }
   const tp = t.closest('[data-topic]'); if(tp){ if(!modal.hidden) closeModal();
     const ch = B && document.body.classList.contains('mode-book') ? (chapterOf(current.idx) || (spread && chapterOf(current.idx+1))) : null;
     const from = document.body.classList.contains('mode-book') && B ? `?from=${B.id}${ch?'/'+ch:''}` : (parseHash().from ? `?from=${parseHash().from}` : '');
-    nav(`#/topic/${tp.dataset.topic}${from}`); return; }
+    nav(`/topic/${tp.dataset.topic}${from}`); return; }
   const tf = t.closest('[data-tfull]'); if(tf){ store.set('topic-full', tf.dataset.tfull); route(); return; }
   const tb = t.closest('[data-tbook]'); if(tb){ const r = parseHash(); if(store.get('topic-full') === '1' || !r.from){ const el = $('tb-' + tb.dataset.tbook); if(el){ el.scrollIntoView({behavior:reduce?'auto':'smooth'}); return; } }
-    nav(`#/topic/${r.id}?from=${tb.dataset.tbook}`); return; }
+    nav(`/topic/${r.id}?from=${tb.dataset.tbook}`); return; }
   const st = t.closest('[data-setting]'); if(st){ openModal({kind:'setting', i:+st.dataset.setting}, !modal.hidden); return; }
   const wk = t.closest('[data-work]'); if(wk && wk.tagName === 'BUTTON'){ openModal({kind:'work', id:wk.dataset.work}, !modal.hidden); return; }
   const note = t.closest('[data-note]'); if(note){ const ids = notesAt(note); openModal(ids.length > 1 ? {kind:'notes', ids} : {kind:'note', id:ids[0]}, !modal.hidden); return; }
@@ -1048,7 +1071,7 @@ document.addEventListener('click', e => {
   const ref = t.closest('[data-ref]'); if(ref){ openModal({kind:'ref', r:parseRef(ref.dataset.ref)}, !modal.hidden); return; }
   const vb = t.closest('[data-verse]'); if(vb){ if(!modal.hidden) closeModal(); goVerse(vb.dataset.verse); return; }
   const g = t.closest('[data-go]'); if(g){ if(!modal.hidden) closeModal(); const id = g.dataset.go;
-    if(id.startsWith('tp-')){ nav(`#/topic/${id.slice(3)}?from=${B.id}${chapterOf(current.idx)?'/'+chapterOf(current.idx):''}`); return; }
+    if(id.startsWith('tp-')){ nav(`/topic/${id.slice(3)}?from=${B.id}${chapterOf(current.idx)?'/'+chapterOf(current.idx):''}`); return; }
     go(id); return; }
   if(t.closest('[data-alltopics]')){ allFor = topicFilter; topicFilter = null; renderTopicNav(); return; }
   const nt = t.closest('[data-ntype]'); if(nt){ toggleType(nt.dataset.ntype); return; }
@@ -1088,6 +1111,7 @@ glossBtn.onclick = () => setGloss(document.body.classList.contains('nogloss'));
   try { [CAT, TIDX] = await Promise.all([load('catalog.json'), load('topics/index.json')]); }
   catch(e){ $('leaf').innerHTML = '<h2>The library could not be loaded.</h2><p>Check your connection and reload the page.</p>'; setMode('lib'); return; }
   CAT.books.forEach(b => BYID[b.id] = b); RF = makeRefs(CAT.books);
+  if(location.hash.startsWith('#/')) history.replaceState(null, '', location.hash.slice(1));
   addEventListener('resize', () => { hideTip(); if(document.body.classList.contains('mode-book')) layoutNow(); });
   route();
 })();

@@ -18,16 +18,16 @@ services:
     # Render adds www.codexcollection.com and redirects it to the root domain on its own
     domains:
       - codexcollection.com
+    # the app reads its address from the path (/Gen/1/2, /topics, /articles/<id>): every path that is not a real file
+    # (data/, img/) is answered with the one page, index.html
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     headers:
-      # the page is rebuilt on every publish; always fetch the latest shell
-      - path: /index.html
-        name: Cache-Control
-        value: no-cache
-      - path: /
-        name: Cache-Control
-        value: no-cache
-      # book and topic data change on every publish too; revalidate rather than serve stale JSON
-      - path: /data/*
+      # the page, the data and the images all change with a publish (none has a versioned name): always revalidate,
+      # so a reader never sees an old page with new data
+      - path: /*
         name: Cache-Control
         value: no-cache
       - path: /*

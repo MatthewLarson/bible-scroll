@@ -6,7 +6,7 @@
       "Bash(node tools/literal.js:*)",
       "Bash(node tools/atlas-verses.js:*)",
       "Bash(python3 tools/works-check.py:*)",
-      "Bash(python3 -m http.server:*)",
+      "Bash(node tools/serve.js:*)",
       "mcp__Bible_Atlas__get_verse_context",
       "mcp__Bible_Atlas__search_atlas_places",
       "mcp__Bible_Atlas__get_entity",

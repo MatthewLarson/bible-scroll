@@ -31,7 +31,7 @@ work on it there too.)
 ```sh
 cd bible
 node tools/build.js                       # draft build of everything into bible/site/ (about 5 seconds)
-python3 -m http.server 8766 -d site       # then open http://localhost:8766
+node tools/serve.js                       # then open http://localhost:8766
 ```
 
 `node tools/build.js --publish` builds only the reviewed books into `bible/public/`, which is the real website.

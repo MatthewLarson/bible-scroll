@@ -22,7 +22,7 @@ Publish the Bible Scroll. Use the `bible-site-build` skill.
    a new way to read notes), in plain words. Never list technical changes (build, tools, code fixes). Edit the generated
    lines if they read badly. Run it once per publish, then `node tools/build.js --publish` again so the Releases page
    shows it.
-5. **Preview**: `python3 -m http.server 8766 -d public` and open http://localhost:8766 (check the library, a
+5. **Preview**: `node tools/serve.js public 8777` and open http://localhost:8777 (check the library, a
    chapter spread of each new book, a topic page with its passage filter, and the browser console).
 6. Set each published book's progress.md first line to `Status: reviewed, published` and rebuild once so
    PROGRESS.md matches.

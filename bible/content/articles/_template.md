@@ -9,7 +9,7 @@ sources:
 status: draft
 ---
 Copy this file to `<address>.md` (lowercase words joined by hyphens, e.g. `who-wrote-the-torah.md`); the file
-name becomes the article's web address, #/articles/who-wrote-the-torah. Files starting with _ are ignored.
+name becomes the article's web address, /articles/who-wrote-the-torah. Files starting with _ are ignored.
 
 Header fields: `topics` are topic ids from content/topics/ (linked at the end of the article), `books` are book
 ids, `sources` are keys from content/sources.json (listed as a bibliography). All three are optional and
