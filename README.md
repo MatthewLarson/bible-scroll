@@ -137,8 +137,9 @@ First time:
 3. At your domain registrar, point `codexcollection.com` and `www.codexcollection.com` at Render as the
    service's **Settings → Custom Domains** page shows (Render issues the HTTPS certificate once DNS resolves).
 
-Auto-deploy is off, so pushing never publishes by itself. To publish, run `/publish`, commit and push, then click
-**Manual Deploy → Deploy latest commit** on the service in Render.
+Auto-deploy is on: every push to `main` rebuilds and publishes the site (only reviewed books, as above). To publish,
+run `/publish`, then commit and push. If a push does not start a deploy, the service's **Settings → Build & Deploy →
+Auto-Deploy** must say "On Commit" (a dashboard setting overrides the Blueprint until the Blueprint is synced).
 
 ## Folder map
 

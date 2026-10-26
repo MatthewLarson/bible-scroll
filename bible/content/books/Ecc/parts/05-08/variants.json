@@ -258,7 +258,7 @@
  },
  {
   "v": "8:1",
-  "a": "and the hardness of his face is changed",
+  "a": "and the stern look on his face is changed",
   "t": "Changed, or hated?",
   "p": "The Greek and Syriac read 'the bold of face will be hated'.",
   "readings": [
@@ -266,13 +266,13 @@
     "w": "Masoretic Text (Leningrad Codex, AD 1008); Targum",
     "orig": "וְעֹז פָּנָיו יְשֻׁנֶּא",
     "en": "and the strength of his face is changed",
-    "plain": "and the hardness of his face is changed"
+    "plain": "and the stern look on his face is changed"
    },
    {
     "w": "Greek (Rahlfs: ἀναιδὴς προσώπῳ αὐτοῦ μισηθήσεται); Syriac Peshitta",
     "orig": "יִשָּׂנֵא",
     "en": "will be hated",
-    "plain": "and the one who is hard of face will be hated"
+    "plain": "and the one with a hard face will be hated"
    }
   ],
   "follow": 0,
@@ -337,6 +337,34 @@
    "targum-qohelet-mg",
    "bavli-gittin",
    "bhq-qoheleth",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "8:12",
+  "a": "a hundred times",
+  "t": "A hundred times, or from then on?",
+  "p": "The Hebrew has an odd spelling of 'a hundred'. The Greek read 'from then on'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV and most modern versions",
+    "orig": "מְאַת",
+    "en": "a hundred (times)",
+    "plain": "a hundred times"
+   },
+   {
+    "w": "Greek (Rahlfs: ἀπὸ τότε; Codex Vaticanus in Swete's edition agrees)",
+    "orig": "ἀπὸ τότε (as if Hebrew מֵאָז)",
+    "en": "from then on",
+    "plain": "from then on"
+   }
+  ],
+  "follow": 0,
+  "why": "Me'at is an unusual spelling of me'ah, 'a hundred', but 'a hundred' gives good sense: however often the sinner does evil, he still lives long. The Greek seems to have read me'az, 'from then', a word that differs in its last letter. Most translations follow the Hebrew.",
+  "b": "With 'a hundred' the verse sets the sinner's hundred wrongs against his long life, which is the point of 8:12–14. No Dead Sea Scroll preserves this verse.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
    "seow-ecclesiastes"
   ]
  }

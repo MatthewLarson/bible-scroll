@@ -1,7 +1,7 @@
 [
  {
   "v": "5:1",
-  "a": "Keep watch over your feet",
+  "a": "Keep watch",
   "type": "word",
   "t": "Watch your feet, and the verse numbers",
   "p": "A Hebrew idiom for careful conduct. In Hebrew Bibles this verse is 4:17, so chapter 5 runs one verse behind.",
@@ -30,7 +30,7 @@
  },
  {
   "v": "5:1",
-  "a": "Coming close to listen is better than giving a sacrifice the way fools do",
+  "a": "Coming close to listen",
   "type": "echo",
   "t": "Listening is better than sacrifice",
   "p": "Qohelet echoes the prophets and Proverbs: God wants an obedient ear more than an offering.",
@@ -44,16 +44,17 @@
  },
  {
   "v": "5:1",
-  "a": "for they do not know that they are doing evil",
+  "a": "for they do not know it when they do evil",
   "type": "word",
   "t": "Fools who do not know",
   "p": "The Hebrew is short and odd: 'they do not know to do evil'. Three readings are possible.",
-  "b": "Word for word the clause says \"for they do not know to do evil\". (1) Most translations, like the Plain, take it as \"they do not know that they are doing evil\": the fools sin without noticing. (2) Some read it with irony, \"they know nothing except doing evil\", supplying a word, as the KJV does with \"they consider not that they do evil\" (compare the Targum's expansion). (3) Others take \"to do\" as the object of knowing: fools do not know how to act, so they end up doing harm. All three agree on the point: careless worship is not neutral.",
+  "b": "Word for word the clause says \"for they do not know to do evil\". (1) The Plain and most translations take it to mean that fools do wrong without noticing it; the KJV reads it this way too, \"they consider not that they do evil\". (2) Some read it with irony, supplying a word: \"they know nothing except doing evil\". (3) Others take \"to do\" as the object of knowing: fools do not know how to act, so they end up doing harm. The Targum expands the line in its own direction: fools bring sacrifices for their sins without leaving off their evil works, \"for they know not whether they do good or evil\" (Ginsburg's English). All the readings agree on the point: careless worship is not neutral.",
   "orig": "כִּי־אֵינָם יוֹדְעִים לַעֲשׂוֹת רָע (ki 'enam yod'im la'asot ra')",
   "kind": "deb",
   "s": [
    "fox-qohelet",
-   "krueger-qoheleth"
+   "krueger-qoheleth",
+   "targum-qohelet-mg"
   ]
  },
  {
@@ -76,7 +77,7 @@
   "type": "word",
   "t": "Busy days, busy dreams",
   "p": "A proverb: as a crowded day produces crowded dreams, a fool's mouth produces too many words.",
-  "b": "The word for \"tasks\" (<i>'inyan</i>) is the one Qohelet uses for the \"evil task\" God gave human beings (1:13; 2:23; 3:10; 4:8). Here it means work and worry that fill the mind. The saying is a comparison: just as a mind overfull with business turns out dreams, a fool turns out a flood of words. Both are noise without substance, which is why 5:7 puts dreams, vapors and words together. The Targum takes the dreams as the dreams of false prophets.",
+  "b": "The word for \"tasks\" (<i>'inyan</i>) is the one Qohelet uses for the \"evil task\" God gave human beings (1:13; 2:23; 3:10; 4:8). Here it means work and worry that fill the mind. The saying is a comparison: just as a mind overfull with business turns out dreams, a fool turns out a flood of words. Both are noise without substance, which is why 5:7 puts dreams, vapors and words together. The Targum keeps the comparison: a dream comes from a heart busy with much business. Its false prophets come in 5:7.",
   "orig": "בְּרֹב עִנְיָן (berov 'inyan), 'with abundance of task'",
   "kind": "nu",
   "r": "1:13; 2:23; 5:7; Proverbs 10:19; Job 20:8",
@@ -88,11 +89,11 @@
  },
  {
   "v": "5:4",
-  "a": "When you vow something to God, do not be slow to pay it",
+  "a": "When you make a vow to God, do not be slow to pay it",
   "type": "echo",
   "t": "Qohelet quotes the law of vows",
   "p": "This line closely follows Deuteronomy 23:21: when you vow, do not be slow to pay.",
-  "b": "Deuteronomy 23:21 says: \"When you make a vow to the LORD your God, do not be slow to pay it\". Qohelet takes over the wording but changes \"the LORD your God\" to plain \"God\", as he does everywhere. A vow (<i>neder</i>) was a promise to give God something, usually an offering, if he answered a prayer: Jacob at Bethel (Genesis 28:20–22), Hannah for a son (1 Samuel 1:11), sailors saved from a storm (Jonah 1:16). Numbers 30:2 says that a man who vows \"may not go back on his word\". Jephthah's vow (Judges 11:30–39) shows how a rash vow could end in tragedy.",
+  "b": "Deuteronomy 23:21 says: \"When you make a vow to the LORD your God, do not be slow to pay it\". Qohelet takes over the wording, and the Plain keeps the same English so the borrowing shows, but he changes \"the LORD your God\" to plain \"God\", as he does everywhere. A vow (<i>neder</i>) was a promise to give God something, usually an offering, if he answered a prayer: Jacob at Bethel (Genesis 28:20–22), Hannah for a son (1 Samuel 1:11), sailors saved from a storm (Jonah 1:16). Numbers 30:2 says that a man who vows \"may not go back on his word\". Jephthah's vow (Judges 11:30–39) shows how a rash vow could end in tragedy.",
   "r": "Deuteronomy 23:21–23; Numbers 30:2; Genesis 28:20–22; 1 Samuel 1:11; Judges 11:30–39; Psalm 66:13–14; Jonah 1:16",
   "top": "vows",
   "s": [
@@ -166,7 +167,7 @@
   "type": "word",
   "t": "The excuse of an unintended sin",
   "p": "Shegagah is the law's term for a sin done without meaning to, which a sacrifice could cover.",
-  "b": "<i>Shegagah</i> is a technical word from the laws of sacrifice: a sin committed \"unintentionally\" (Leviticus 4:2, 22, 27; Numbers 15:22–29). For such sins the law provided a sin offering. Leviticus 5:4 even covers a person who \"speaks rashly with his lips\" in an oath and later realizes it. The fool in Qohelet uses the category as a loophole: he made a vow, fails to pay, and tells the Temple official it was a mistake, as if an offering would settle it. Qohelet's warning is that God hears the voice that made the promise.",
+  "b": "<i>Shegagah</i> is a technical word from the laws of sacrifice: a sin committed \"unintentionally\" (Leviticus 4:2, 22, 27; Numbers 15:22–29). For such sins the law provided a sin offering. Leviticus 5:4 even covers someone who swears an oath, \"speaking rashly with his lips\" (Leviticus 5:4), and only later realizes it. The fool in Qohelet uses the category as a loophole: he made a vow, fails to pay, and tells the Temple official it was a mistake, as if an offering would settle it. Qohelet's warning is that God hears the voice that made the promise.",
   "orig": "שְׁגָגָה (shegagah)",
   "kind": "nu",
   "r": "Leviticus 4:2; Leviticus 5:4; Numbers 15:22–29",
@@ -198,12 +199,13 @@
   "type": "echo",
   "t": "Fear God",
   "p": "Qohelet's answer to empty religion: the fear of God, which the epilogue makes the end of the matter.",
-  "b": "The Hebrew puts God first for emphasis: \"but God, fear!\" Fearing God is one of Qohelet's steady themes (3:14; 7:18; 8:12–13), and the epilogue sums up the whole book as \"fear God and keep his commands\" (12:13). In Qohelet the fear of God is less a warm piety than a sober awe before a God who cannot be controlled, which leaves a person honest, humble and careful with words. The Targum turns it into a call to trust the wise and the righteous instead of dreamers and sorcerers.",
+  "b": "The Hebrew puts God first for emphasis: \"but God, fear!\" Fearing God is one of Qohelet's steady themes (3:14; 7:18; 8:12–13), and the epilogue sums up the whole book as \"fear God and keep his commands\" (12:13). In Qohelet the fear of God is less a warm piety than a sober awe before a God who cannot be controlled, which leaves a person honest, humble and careful with words. The Targum turns the verse into a warning: do not believe the many dreams of false prophets and the vapors of sorcerers, but serve the wise and the righteous, and fear the LORD.",
   "r": "3:14; 7:18; 8:12–13; 12:13; Proverbs 1:7; Job 28:28",
   "s": [
    "murphy-ecclesiastes",
    "targum-qohelet-mg"
-  ]
+  ],
+  "top": "fear-of-the-lord"
  },
  {
   "v": "5:8",
@@ -211,8 +213,8 @@
   "type": "history",
   "t": "Officials above officials in the province",
   "p": "Medinah, 'province', is a term of the Persian empire, whose layers of officials taxed Judea.",
-  "b": "<i>Medinah</i> is the word for a district of an empire: Judah was such a province in the Persian period (Ezra 2:1; Nehemiah 1:3; 7:6), and Esther counts 127 of them (Esther 1:1). Qohelet describes a world of layered officials: local tax collectors, governors, satraps and the distant king, each watching the one below. In such a system the poor at the bottom are squeezed and justice gets lost. The same picture fits the Ptolemaic Greek rule of the 200s BC, whose papyri show a dense bureaucracy of agents and inspectors, and some scholars prefer that date. Either way, Qohelet's first readers knew this world.",
-  "r": "Ezra 2:1; Nehemiah 1:3; Nehemiah 5:4, 15; Esther 1:1; 2:8; 4:1",
+  "b": "<i>Medinah</i> is the word for a district of an empire: Judah was such a province in the Persian period (Ezra 2:1; Nehemiah 1:3; Nehemiah 7:6), and Esther counts 127 of them (Esther 1:1). Qohelet describes a world of layered officials: local tax collectors, governors, satraps and the distant king, each watching the one below. In such a system the poor at the bottom are squeezed and justice gets lost. The same picture fits the Ptolemaic Greek rule of the 200s BC, whose papyri show a dense bureaucracy of agents and inspectors, and some scholars prefer that date. Either way, Qohelet's first readers knew this world.",
+  "r": "2:8; 4:1; Ezra 2:1; Nehemiah 1:3; Nehemiah 5:4; Nehemiah 5:15; Esther 1:1; Esther 1:22",
   "top": "persia",
   "s": [
    "seow-ecclesiastes",
@@ -383,10 +385,10 @@
  },
  {
   "v": "5:18",
-  "a": "to eat and drink and see good in all his toil",
+  "a": "eat and drink and see good in all his toil",
   "type": "views",
   "t": "The call to enjoy: preacher of joy, or of resignation?",
-  "p": "The second of seven passages that tell readers to enjoy what God gives. Scholars weigh them differently.",
+  "p": "The fourth of seven passages that tell readers to enjoy what God gives. Scholars weigh them differently.",
   "b": "Qohelet returns again and again to eating, drinking and seeing good in one's toil (2:24–26; 3:12–13; 3:22; 5:18–20; 8:15; 9:7–10; 11:7–10). R. N. Whybray called him a \"preacher of joy\": these passages grow stronger through the book and are its positive message. Michael Fox reads them as the best that can be salvaged in an absurd world, a small consolation, not a solution. Others, such as Tremper Longman, hear a man who settles for pleasure because he has found nothing better. The wording here is close to 3:13, with \"good and beautiful\" added; \"beautiful\" (<i>yafeh</i>) is the word of 3:11, \"Everything he has made beautiful in its time.\"",
   "r": "2:24–26; 3:11–13; 3:22; 8:15; 9:7–10; 11:7–10; 1 Timothy 6:17",
   "top": "work",
@@ -581,7 +583,7 @@
   "type": "word",
   "t": "Named long ago, and only human",
   "p": "To name is to define. What humans are was settled long ago: Adam, from the ground, weaker than God.",
-  "b": "In the Bible to name something is to fix what it is (Genesis 1:5; 2:19–20; Isaiah 40:26). Whatever exists has had its nature settled. The word for a human being, <i>'adam</i>, recalls Adam made from the ground (<i>'adamah</i>, Genesis 2:7), and many readers hear the echo: we are earth. The \"one who is stronger\" is most likely God, whom no human can take to court (Job 9:32–33; Isaiah 45:9); the Targum says so outright. The written text has \"who makes himself strong\", the reading tradition \"who is stronger\"; the sense is the same.",
+  "b": "In the Bible to name something is to fix what it is (Genesis 1:5; Genesis 2:19–20; Isaiah 40:26). Whatever exists has had its nature settled. The word for a human being, <i>'adam</i>, recalls Adam made from the ground (<i>'adamah</i>, Genesis 2:7), and many readers hear the echo: we are earth. The \"one who is stronger\" is most likely God, whom no human can take to court (Job 9:32–33; Isaiah 45:9); the Targum says so outright. The written text has \"who makes himself strong\", the reading tradition \"who is stronger\"; the sense is the same.",
   "orig": "אֲשֶׁר־הוּא אָדָם ('asher hu 'adam)",
   "kind": "nu",
   "r": "Genesis 2:7; Genesis 2:19–20; Job 9:32–33; Isaiah 45:9; Romans 9:20",
@@ -605,11 +607,11 @@
  },
  {
   "v": "6:12",
-  "a": "Who will tell a human being what is going to be after him under the sun?",
+  "a": "Who can tell a person what will come after him under the sun?",
   "type": "views",
   "t": "What comes after",
   "p": "Does 'after him' mean after his death, or after his time on earth among the living?",
-  "b": "Qohelet asks this question three times (3:22; 6:12; 10:14; compare 7:14; 8:7). Most commentators take it to mean what will happen on earth after a person dies: who will inherit, whether his work will last (2:18–19). The words \"under the sun\" support this. Jewish and Christian readers have also heard a question about life beyond death, which the Targum answers by pointing to the study of the Law and the world to come. Qohelet himself leaves it as a question.",
+  "b": "Qohelet asks this question three times (3:22; 6:12; 10:14; compare 7:14; 8:7), and the Plain keeps \"who can tell him\" and \"what will come after him\" wherever the Hebrew repeats. Most commentators take it to mean what will happen on earth after a person dies: who will inherit, whether his work will last (2:18–19). The words \"under the sun\" support this. Jewish and Christian readers have also heard a question about life beyond death, which the Targum answers by pointing to the study of the Law and the world to come. Qohelet himself leaves it as a question.",
   "r": "2:18–19; 3:22; 7:14; 8:7; 10:14",
   "s": [
    "fox-qohelet",
@@ -625,7 +627,7 @@
   "b": "The Hebrew is a neat sound-play: <i>tov shem mishemen tov</i>, \"good is a name, more than good oil\". Fine olive oil, often perfumed, was used to anoint guests, kings and the dead, and its scent filled a house; the Song of Songs compares a lover's name to oil poured out (Song of Songs 1:3). A good reputation is better because it lasts and spreads further. Ecclesiastes Rabbah lists the contrasts: oil runs down, a good name rises; oil costs money, a good name is free; oil is for the living, a good name for the living and the dead.",
   "orig": "טוֹב שֵׁם מִשֶּׁמֶן טוֹב (tov shem mishemen tov)",
   "kind": "nu",
-  "r": "Proverbs 22:1; Song of Songs 1:3; Psalm 133:2; 10:1",
+  "r": "10:1; Proverbs 22:1; Song of Songs 1:3; Psalm 133:2",
   "s": [
    "ecclesiastes-rabbah",
    "seow-ecclesiastes"
@@ -653,7 +655,7 @@
   "t": "The house of mourning and the drinking house",
   "p": "Mourning lasted days, with neighbors coming to comfort; a mishteh was a feast with wine.",
   "b": "When someone died, family and neighbors gathered at the house to weep, to sit with the mourners and to bring food, often for seven days (Genesis 50:10; 1 Samuel 31:13; Sirach 22:12). The \"house where they drink\" is a <i>bet mishteh</i>, a feast where wine flowed. Qohelet's advice is not to avoid feasts (he urges eating and drinking in 9:7) but to go where death is faced honestly, since that is \"the end of every human being\". The Targum sees the righteous man in the house of mourning take death to heart and repent.",
-  "r": "Genesis 50:10; 1 Samuel 31:13; Jeremiah 16:5–8; Sirach 22:12; 9:7; Psalm 90:12",
+  "r": "9:7; Genesis 50:10; 1 Samuel 31:13; Jeremiah 16:5–8; Sirach 22:12; Psalm 90:12",
   "s": [
    "seow-ecclesiastes",
    "targum-qohelet-mg"
@@ -665,7 +667,7 @@
   "type": "views",
   "t": "Grief or joy? A contradiction the rabbis noticed",
   "p": "Ka'as is 'frustration' in 1:18 and 2:23. Here it is the sorrow of 7:2. The rabbis set it against 2:2 and 8:15.",
-  "b": "<i>Ka'as</i> covers vexation, grief and anger: \"frustration\" in 1:18 and 2:23, \"anger\" in 7:9, and here the sadness of the house of mourning. The Talmud (Shabbat 30b) lists this verse among the contradictions that made some sages want to withdraw the book: \"grief is better than laughter\" against 2:2, and \"I spoke in praise of joy\" (8:15) against \"about joy, 'What does this accomplish?'\" (2:2). The sages resolved them by reading one side of each pair as God's grief toward the righteous in this world or the joy of keeping a command. The book introduction discusses the debate. The Targum reads 7:3 the same way.",
+  "b": "<i>Ka'as</i> covers vexation, grief and anger: \"frustration\" in 1:18 and 2:23, \"anger\" in 7:9, and here the sadness of the house of mourning. The Talmud (Shabbat 30b) lists this verse among the contradictions that made some sages want to withdraw the book: \"grief is better than laughter\" against 2:2, which the Talmud reads as \"of laughter I said, it is praiseworthy\" (taking <i>mehulal</i> as \"praised\", not \"madness\"), and \"I spoke in praise of joy\" (8:15) against \"about joy, 'What does this accomplish?'\" (2:2). The sages resolved them by reading one side of each pair as God's anger (<i>ka'as</i>) toward the righteous in this world or the joy of keeping a command. The book introduction discusses the debate. The Targum reads 7:3 the same way.",
   "orig": "טוֹב כַּעַס מִשְּׂחֹק (tov ka'as missechoq)",
   "kind": "nu",
   "r": "1:18; 2:2; 2:23; 7:9; 8:15",
@@ -695,10 +697,10 @@
   "type": "word",
   "t": "Oppression and a gift",
   "p": "The wise man may be the victim or the one who profits. A scroll from Qumran may read 'twists' for 'ruins'.",
-  "b": "<i>'Osheq</i> is oppression or extortion (the same root as \"oppression\" in 4:1 and 5:8). Two readings: the wise man is driven to madness by being oppressed, or he is corrupted by gaining from oppression, which suits the parallel line about a \"gift\" (<i>mattanah</i>), a bribe that ruins the heart (Exodus 23:8; Deuteronomy 16:19). The verse begins with \"for\", which does not fit well after 7:6, and some scholars think a line has dropped out before it. In the Dead Sea Scroll 4QQoh-a the verb of the second line is damaged; the editors read <i>wy'wh</i>, \"and twists\", in place of \"and ruins\". The Greek has \"destroys the heart of his vigor\".",
+  "b": "<i>'Osheq</i> is oppression or extortion (the same root as \"oppression\" in 4:1 and 5:8). Two readings: the wise man is driven to madness by being oppressed, or he is corrupted by gaining from oppression, which suits the parallel line about a \"gift\" (<i>mattanah</i>), a bribe that ruins the heart (Exodus 23:8; Deuteronomy 16:19). The verse begins with \"for\", which does not fit well after 7:6, and some scholars think a line has dropped out before it. In the Dead Sea Scroll 4QQoh-a the verb of the second line is only partly preserved; the editors restore it as <i>wy'wh</i>, \"and twists\", in place of \"and ruins\". The Greek has \"destroys the heart of his vigor\".",
   "orig": "כִּי הָעֹשֶׁק יְהוֹלֵל חָכָם (ki ha'osheq yeholel chakham)",
   "kind": "deb",
-  "r": "Exodus 23:8; Deuteronomy 16:19; Proverbs 17:23; 4:1; 5:8",
+  "r": "4:1; 5:8; Exodus 23:8; Deuteronomy 16:19; Proverbs 17:23",
   "top": "justice",
   "s": [
    "seow-ecclesiastes",
@@ -755,7 +757,7 @@
   "type": "word",
   "t": "The shade of wisdom and money",
   "p": "In a hot land shade means protection. Wisdom shelters you like money does, but wisdom also gives life.",
-  "b": "Shade (<i>tsel</i>) is a common image for protection (Numbers 14:9; Psalm 121:5; Isaiah 30:2). Qohelet says that being under wisdom's protection is like being under money's: both shelter a person. Then he names wisdom's edge: it \"gives life\", the promise of Proverbs that wisdom is a tree of life (Proverbs 3:18; 8:35). The Hebrew repeats \"in the shade\"; the Greek and the Syriac read \"like the shade\" in one place (see the variant).",
+  "b": "Shade (<i>tsel</i>) is a common image for protection (Numbers 14:9; Psalm 121:5; Isaiah 30:2). Qohelet says that being under wisdom's protection is like being under money's: both shelter a person. Then he names wisdom's edge: it \"gives life\", the promise of Proverbs that wisdom is a tree of life (Proverbs 3:18; Proverbs 8:35). The Hebrew repeats \"in the shade\"; the Greek and the Syriac read \"like the shade\" in one place (see the variant).",
   "orig": "בְּצֵל הַחָכְמָה בְּצֵל הַכָּסֶף (betsel hachokhmah betsel hakkasef)",
   "kind": "nu",
   "r": "Numbers 14:9; Psalm 121:5; Isaiah 30:2; Proverbs 3:18; Proverbs 8:35",
@@ -786,7 +788,7 @@
   "t": "God made both days",
   "p": "Good days and bad days both come from God. Isaiah and Job say the same, and Sirach builds on it.",
   "b": "Qohelet's God makes both: \"I make peace and create disaster\" (Isaiah 45:7); \"Should we take the good from God, and not take the bad too?\" (Job 2:10; compare Lamentations 3:38). Sirach later develops the idea that God's works come in pairs, each the opposite of the other (Sirach 33:14–15). The purpose clause is debated: God mixes the days so that humans cannot predict the future, or so that they cannot find fault with him, or (in the Targum) so that no evil will be found in the world to come. The practical advice is simple: enjoy the good day, and think hard on the bad one.",
-  "r": "Isaiah 45:7; Job 2:10; Lamentations 3:38; Sirach 33:14–15; 3:11; 8:17",
+  "r": "3:11; 8:17; Isaiah 45:7; Job 2:10; Lamentations 3:38; Sirach 33:14–15",
   "top": "providence",
   "s": [
    "fox-qohelet",
@@ -795,11 +797,11 @@
  },
  {
   "v": "7:15",
-  "a": "There is a righteous man who is lost in his righteousness",
+  "a": "There is a righteous man who dies in his righteousness",
   "type": "echo",
-  "t": "The righteous lost, the wicked living long",
+  "t": "The righteous dying, the wicked living long",
   "p": "The preposition 'in' can mean 'in spite of' or even 'because of'. Qohelet challenges the promise of Proverbs.",
-  "b": "Proverbs teaches that the fear of the LORD lengthens life and the years of the wicked are cut short (Proverbs 10:27). Qohelet has seen the opposite. The Hebrew \"in his righteousness\" may mean \"in spite of\" it, or bitterly, \"because of\" it. The complaint is old: Jeremiah 12:1 asks why the way of the wicked prospers, Job 21:7 why the wicked live on, and Psalm 73 almost lost its faith over the same sight. \"My days of vapor\" may mean \"my brief life\" or \"my life of frustration\". Qohelet returns to the problem in 8:14.",
+  "b": "Proverbs teaches that the fear of the LORD lengthens life and the years of the wicked are cut short (Proverbs 10:27). Qohelet has seen the opposite. The verb <i>'oved</i> means \"perishes, dies\": the righteous man's life is cut off, while the wicked man's lasts. The Hebrew \"in his righteousness\" may mean \"in spite of\" it, or bitterly, \"because of\" it. The complaint is old: Jeremiah 12:1 asks why the way of the wicked prospers, Job 21:7 why the wicked live on, and Psalm 73 almost lost its faith over the same sight. \"My days of vapor\" may mean \"my brief life\" or \"my life of frustration\". Qohelet returns to the problem in 8:14.",
   "r": "8:14; Proverbs 10:27; Jeremiah 12:1; Job 21:7; Psalm 73:3–14; Habakkuk 1:13",
   "top": "retribution",
   "s": [
@@ -862,7 +864,8 @@
    "fox-qohelet",
    "seow-ecclesiastes",
    "targum-qohelet-mg"
-  ]
+  ],
+  "top": "fear-of-the-lord"
  },
  {
   "v": "7:19",
@@ -883,7 +886,7 @@
   "type": "echo",
   "t": "No one who does not sin",
   "p": "Qohelet agrees with Solomon's prayer and the psalms. Paul's 'no one righteous' may echo this verse.",
-  "b": "Solomon's prayer at the Temple says \"there is no human being who never sins\" (1 Kings 8:46), and Psalm 143:2 says that \"no living person is in the right\" before God (compare Proverbs 20:9). Paul's list of verses in Romans 3:10–18 opens, \"There is no righteous person, not one\" (Romans 3:10). That line is usually traced to Psalm 14:1–3, but its word \"righteous\" (<i>dikaios</i>) is in the Greek of this verse and not in the psalm, so many scholars think Paul has Ecclesiastes 7:20 in mind as well. In context Qohelet's point is practical: since no one is sinless, do not be \"righteous too much\" (7:16), and do not take every curse to heart (7:21–22). See the \"Where Christians differ\" card on the chapter page.",
+  "b": "Solomon's prayer at the Temple says \"there is no human being who never sins\" (1 Kings 8:46), and Psalm 143:2 says that \"no living person is in the right\" before God (compare Proverbs 20:9). Paul's list of verses in Romans 3:10–18 opens, \"There is no righteous person, not one\" (Romans 3:10). That line is usually traced to Psalm 14:1–3, but its word \"righteous\" (<i>dikaios</i>) is in the Greek of this verse and not in the psalm, so some scholars think Paul has Ecclesiastes 7:20 in mind as well. In context Qohelet's point is practical: since no one is sinless, do not be \"righteous too much\" (7:16), and do not take every curse to heart (7:21–22). See the \"Where Christians differ\" card on the chapter page.",
   "r": "1 Kings 8:46; Psalm 143:2; Proverbs 20:9; Psalm 14:1–3; Romans 3:10–12; Romans 3:23; 1 John 1:8",
   "top": "holiness",
   "s": [
@@ -923,21 +926,21 @@
   "type": "word",
   "t": "Deep, deep",
   "p": "Hebrew doubles a word to make it extreme: 'deep, deep' means unfathomably deep.",
-  "b": "Doubling, as in <i>'amoq 'amoq</i>, is Hebrew's way of saying \"very\" (compare \"bad, bad\" in Proverbs 20:14). \"What has been\" is the same phrase as in 1:9 and 3:15: the whole of what exists and happens. Paul sounds a similar note of wonder at the depth of God's wealth, wisdom and knowledge (Romans 11:33), though Paul finds it worth praising and Qohelet finds it out of reach.",
+  "b": "Doubling, as in <i>'amoq 'amoq</i>, is Hebrew's way of saying \"very\" (compare \"bad, bad\" in Proverbs 20:14). \"Whatever has been\" renders <i>mah-shehayah</i>, the same Hebrew as in 1:9, 3:15 and 6:10: the whole of what exists and happens. Paul sounds a similar note of wonder at the depth of God's wealth, wisdom and knowledge (Romans 11:33), though Paul finds it worth praising and Qohelet finds it out of reach.",
   "orig": "עָמֹק עָמֹק ('amoq 'amoq)",
   "kind": "nu",
-  "r": "1:9; 3:15; Job 11:7–8; Job 28:14; Romans 11:33",
+  "r": "1:9; 3:15; 6:10; Job 11:7–8; Job 28:14; Romans 11:33",
   "s": [
    "seow-ecclesiastes"
   ]
  },
  {
   "v": "7:25",
-  "a": "a sum",
+  "a": "a reckoning",
   "type": "word",
-  "t": "A sum: the language of accounts",
-  "p": "Cheshbon is an accountant's word: a reckoning or total. It returns in 7:27 and, as 'schemes', in 7:29.",
-  "b": "<i>Cheshbon</i> means a sum, a reckoning, an account. Qohelet speaks like a bookkeeper: he wants to add things up and get the total of life (7:27, \"adding one to one to find the sum\"). Then, in 7:29, the plural <i>chishshevonot</i> turns up for human \"schemes\", the clever devices people invent, as in 2 Chronicles 26:15, where it names war machines. The search for the sum ends by finding that humans make sums of their own.",
+  "t": "A reckoning: the language of accounts",
+  "p": "Cheshbon is an accountant's word: a reckoning or total. It returns in 7:27 and 9:10, and as 'schemes' in 7:29.",
+  "b": "<i>Cheshbon</i> means a reckoning, a sum, an account. Qohelet speaks like a bookkeeper: he wants to add things up and get the total of life (7:27, \"adding one to one to find the reckoning\"). The Plain renders it \"reckoning\" in all three places where it occurs: here, in 7:27, and in 9:10 (\"no doing and no reckoning\" in Sheol). Then, in 7:29, the plural <i>chishshevonot</i> turns up for human \"schemes\", the clever devices people invent, as in 2 Chronicles 26:15, where it names war machines. The search for the reckoning ends by finding that humans make reckonings of their own.",
   "orig": "וְחֶשְׁבּוֹן (vecheshbon)",
   "kind": "nu",
   "r": "7:27; 7:29; 9:10; 2 Chronicles 26:15",
@@ -952,8 +955,8 @@
   "type": "views",
   "t": "The woman more bitter than death",
   "p": "Is this a judgment on women, on one kind of woman, on Folly, or a view Qohelet quotes and then rejects?",
-  "b": "Read on its own, the verse condemns \"the woman\" as a deadly trap. Readers have taken it four ways. <b>(1) A judgment on women</b>, and many feminist and other critics say plainly that 7:26–28 is misogynist. <b>(2) One kind of woman:</b> the seductress of Proverbs, whose end is \"bitter as wormwood\" (Proverbs 5:4) and whose house is a trap (Proverbs 7:23; 22:14); so many commentators, noting that Qohelet urges enjoying life \"with the woman you love\" (9:9). <b>(3) A figure:</b> Woman Folly (Proverbs 9:13), or for Rashi, heresy; the Targum makes her a bad wife whom the righteous divorce. <b>(4) A quotation:</b> Norbert Lohfink and others read 7:26 as a common saying that Qohelet tests and dismantles in 7:27–29, ending in a verdict about all humankind. The notes at 7:28–29 continue.",
-  "r": "Proverbs 5:3–4; Proverbs 7:22–27; Proverbs 9:13–18; Proverbs 22:14; 9:9; Genesis 2:18–24",
+  "b": "Read on its own, the verse condemns \"the woman\" as a deadly trap. Readers have taken it four ways. <b>(1) A judgment on women</b>, and many feminist and other critics say plainly that 7:26–28 is misogynist. <b>(2) One kind of woman:</b> the seductress of Proverbs, whose end is \"bitter as wormwood\" (Proverbs 5:4) and whose house is a trap (Proverbs 7:23; Proverbs 22:14); so many commentators, noting that Qohelet urges his reader to see \"life with a woman you love\" (9:9), where the Hebrew has no article, against \"the woman\" here. <b>(3) A figure:</b> Woman Folly (Proverbs 9:13), or for Rashi, heresy; the Targum makes her a bad wife whom the righteous divorce. <b>(4) A quotation:</b> Norbert Lohfink and others read 7:26 as a common saying that Qohelet tests and dismantles in 7:27–29, ending in a verdict about all humankind. The notes at 7:28–29 continue.",
+  "r": "9:9; Proverbs 5:3–4; Proverbs 7:22–27; Proverbs 9:13–18; Proverbs 22:14; Genesis 2:18–24",
   "top": "ecclesiastes",
   "s": [
    "rashi-ecclesiastes",
@@ -968,8 +971,8 @@
   "a": "more bitter than death",
   "type": "word",
   "t": "Bitter as death",
-  "p": "Death is the bitterest thing the rabbis could name (Bava Batra 10a). 'Mar' is the taste word, bitter.",
-  "b": "<i>Mar</i>, \"bitter\", is the taste of wormwood and of grief (Ruth 1:20; 1 Samuel 15:32). The Talmud (Bava Batra 10a) lists ten strong things in the world, each stronger than the last, with death the strongest; Rashi cites it here. The images that follow come from hunting and fishing: <i>metsodim</i>, snares or hunting nets; <i>charamim</i>, nets (the word is used of fishing nets in Habakkuk 1:15); and <i>'asurim</i>, bonds that tie a prisoner.",
+  "p": "The Talmud names death the hardest of ten hard things (Bava Batra 10a); Rashi cites it here.",
+  "b": "<i>Mar</i>, \"bitter\", is the taste of wormwood and of grief (Ruth 1:20; 1 Samuel 15:32). The Talmud (Bava Batra 10a) lists ten hard things in the world, each overcome by the next, with death the hardest; Rashi cites it here. The images that follow come from hunting and fishing: <i>metsodim</i>, snares or hunting nets; <i>charamim</i>, nets (the word is used of fishing nets in Habakkuk 1:15); and <i>'asurim</i>, bonds that tie a prisoner.",
   "orig": "מַר מִמָּוֶת (mar mimmavet)",
   "kind": "nu",
   "r": "Ruth 1:20; 1 Samuel 15:32; Habakkuk 1:15; Proverbs 5:4",
@@ -980,7 +983,7 @@
  },
  {
   "v": "7:27",
-  "a": "says Qohelet",
+  "a": "See, this is what I have found",
   "type": "views",
   "t": "The frame voice breaks in",
   "p": "Only here in the body of the book does another voice say 'says Qohelet', and the verb is feminine.",
@@ -1020,7 +1023,7 @@
   "t": "Made upright",
   "p": "'Adam here is all humankind, men and women, as in Genesis 1:27. The fault lies with all of 'them'.",
   "b": "The word is again <i>'adam</i>, but now with the plural \"they\": humankind as a whole, as in \"So God created the human in his image ... male and female he created them\" (Genesis 1:27). God made them <i>yashar</i>, straight or upright; they went after schemes. Whatever 7:26–28 said about men and women, Qohelet's final finding puts all human beings in the same place. Ecclesiastes Rabbah connects it with the fall: Adam was upright, and \"when they became two\", they sought many schemes (Genesis 3). Christian readers have used the verse for the teaching that God created humans good and sin came after (compare Augustine, <i>City of God</i> 14.11).",
-  "r": "Genesis 1:27; Genesis 1:31; Genesis 3:1–7; Romans 5:12; 7:26–28",
+  "r": "7:26–28; Genesis 1:27; Genesis 1:31; Genesis 3:1–7; Romans 5:12",
   "top": "the-fall",
   "s": [
    "ecclesiastes-rabbah",
@@ -1034,7 +1037,7 @@
   "type": "word",
   "t": "Pesher: interpretation",
   "p": "Pesher, 'interpretation', is an Aramaic word, found only here in Hebrew. Daniel and the Qumran scrolls use it.",
-  "b": "The noun <i>pesher</i> appears nowhere else in the Hebrew Bible. Its Aramaic form <i>pishra</i> is Daniel's word for interpreting dreams and the writing on the wall (Daniel 2:4–7; 4:18; 5:15–16), and the Hebrew form names the Dead Sea Scrolls commentaries that interpret the prophets, such as the Pesher on Habakkuk. It is one of the late words that help scholars date Qohelet's Hebrew (see the book introduction). Who can interpret a \"matter\" (<i>davar</i>, a word or a thing) is the courtier's skill, the ability to read a king's words and a situation, which leads into the advice on kings that follows.",
+  "b": "The noun <i>pesher</i> appears nowhere else in the Hebrew Bible. Its Aramaic form <i>pishra</i> is Daniel's word for interpreting dreams and the writing on the wall (Daniel 2:4–7; Daniel 4:18; Daniel 5:15–16), and the Hebrew form names the Dead Sea Scrolls commentaries that interpret the prophets, such as the Pesher on Habakkuk. It is one of the late words that help scholars date Qohelet's Hebrew (see the book introduction). Who can interpret a \"matter\" (<i>davar</i>, a word or a thing) is the courtier's skill, the ability to read a king's words and a situation, which leads into the advice on kings that follows.",
   "orig": "פֵּשֶׁר דָּבָר (pesher davar)",
   "kind": "nu",
   "r": "Daniel 2:4–7; Daniel 4:18; Daniel 5:15–16; Genesis 40:8",
@@ -1048,8 +1051,8 @@
   "a": "Wisdom lights up a person's face",
   "type": "echo",
   "t": "A face that shines, a hard face softened",
-  "p": "Wisdom brightens a face, as God's favor does. 'Hardness of face' is boldness or insolence.",
-  "b": "A shining face is a sign of favor and life: \"May the LORD make his face shine toward you\" (Numbers 6:25), and Moses' face shone after speaking with God (Exodus 34:29). \"Strength of face\" (<i>'oz panim</i>) is a brazen, hard look: the fierce nation of Deuteronomy 28:50, the seductress who \"puts on a hard face\" (Proverbs 7:13), and the wicked man of Proverbs 21:29. Wisdom changes it, perhaps teaching the courtier to hide a stern look before the king. The Greek and Syriac read the last word differently, \"and the bold of face will be hated\" (see the variant).",
+  "p": "Wisdom brightens a face, as God's favor does. 'Strength of face' is boldness or insolence.",
+  "b": "A shining face is a sign of favor and life: \"May the LORD make his face shine toward you\" (Numbers 6:25), and Moses' face shone after speaking with God (Exodus 34:29). \"Strength of face\" (<i>'oz panim</i>) is a brazen, hard look: the fierce nation of Deuteronomy 28:50, the seductress who \"puts on a hard face\" (Proverbs 7:13), and the wicked man of Proverbs 21:29. The Plain renders it \"the stern look on his face\". Wisdom changes it, perhaps teaching the courtier to hide a stern look before the king. The Greek and Syriac read the last word differently, \"and the bold of face will be hated\" (see the variant).",
   "r": "Numbers 6:25; Exodus 34:29–30; Deuteronomy 28:50; Proverbs 7:13; Proverbs 21:29; Daniel 8:23",
   "s": [
    "seow-ecclesiastes",
@@ -1088,11 +1091,11 @@
  },
  {
   "v": "8:3",
-  "a": "Do not stand firm in a bad cause",
+  "a": "Do not dig in over a bad matter",
   "type": "word",
   "t": "Do not hold out in a bad matter",
   "p": "Do not persist in something that displeases the king, or in a plot against him.",
-  "b": "\"Stand in an evil word\" may mean persisting in a matter the king dislikes, joining a conspiracy, or simply digging in on a losing point. The first clause is also debated: \"Do not rush to walk out of his presence\" can mean do not leave his service in anger (compare 10:4), or do not be terrified and run. The Greek joins \"do not rush\" to the end of 8:2. Either way, the counsel is caution before a ruler who \"does whatever he wants\".",
+  "b": "\"Stand in an evil word\" (<i>davar</i>, a word or a matter) may mean persisting in a matter the king dislikes, joining a conspiracy, or simply digging in on a losing point. The first clause is also debated: \"Do not rush to walk out of his presence\" can mean do not leave his service in anger (compare 10:4), or do not be terrified and run. The Greek joins \"do not rush\" to the end of 8:2. Either way, the counsel is caution before a ruler who \"does whatever he wants\".",
   "orig": "אַל־תַּעֲמֹד בְּדָבָר רָע ('al ta'amod bedavar ra')",
   "kind": "deb",
   "r": "10:4; 10:20; Proverbs 16:14; Proverbs 20:2",
@@ -1137,7 +1140,7 @@
   "type": "word",
   "t": "The wind, or the breath of life?",
   "p": "Ruach is wind, breath and spirit. Here it may be the wind no one can hold, or the breath no one can keep at death.",
-  "b": "<i>Ruach</i> can mean wind, breath or spirit. (1) \"Wind\": no one can shut up the wind, a common picture of the impossible (Proverbs 27:16; 30:4); the Plain keeps \"wind\" because the image comes first. (2) \"Breath\" or \"spirit\": no one can hold back his life-breath on the day of death, the reading of the KJV (\"no man that hath power over the spirit to retain the spirit\"), of the Targum, and of many modern scholars, since the next clause speaks of death. Qohelet's other uses of <i>ruach</i> for the life-breath are in 3:19–21 and 12:7, where the notes discuss what happens to it at death.",
+  "b": "<i>Ruach</i> can mean wind, breath or spirit. (1) \"Wind\": no one can shut up the wind, a common picture of the impossible (Proverbs 27:16; Proverbs 30:4); the Plain keeps \"wind\" because the image comes first. (2) \"Breath\" or \"spirit\": no one can hold back his life-breath on the day of death, the reading of the KJV (\"no man that hath power over the spirit to retain the spirit\"), of the Targum, and of many modern scholars, since the next clause speaks of death. Qohelet's other uses of <i>ruach</i> for the life-breath are in 3:19–21 and 12:7, where the notes discuss what happens to it at death.",
   "orig": "שַׁלִּיט בָּרוּחַ לִכְלוֹא אֶת־הָרוּחַ (shallit baruach likhlo' 'et-haruach)",
   "kind": "deb",
   "r": "3:19–21; 11:5; 12:7; Proverbs 27:16; Proverbs 30:4; Job 34:14–15",
@@ -1156,7 +1159,7 @@
   "b": "<i>Mishlachat</i> is a \"sending away\", a release or discharge. Israel's law sent home the man with a new house, a new vineyard or a new bride, and the fearful (Deuteronomy 20:5–8). Persian kings were known for refusing such requests: Herodotus tells how Darius, asked by a father to leave one of his three sons at home, had all three killed (Histories 4.84), and how Xerxes punished Pythius for the same request (7.38–39). Qohelet's readers knew what it meant to be conscripted. Death, he says, is a war with no exemptions.",
   "orig": "וְאֵין מִשְׁלַחַת בַּמִּלְחָמָה (ve'en mishlachat bammilchamah)",
   "kind": "nu",
-  "r": "Deuteronomy 20:5–8; Deuteronomy 24:5; 9:11",
+  "r": "9:11; Deuteronomy 20:5–8; Deuteronomy 24:5",
   "top": "persia",
   "s": [
    "herodotus-histories",
@@ -1215,10 +1218,10 @@
   "type": "word",
   "t": "Pitgam: a Persian word",
   "p": "Pitgam, 'ruling, sentence', is a loanword from Persian, one of two in the book.",
-  "b": "<i>Pitgam</i> comes from Old Persian <i>patigama</i>, \"message, decree\". It appears in Esther 1:20 for the king's decree, and often in the Aramaic of Ezra and Daniel (Ezra 4:17; 5:7; Daniel 3:16; 4:17). With <i>pardes</i>, \"park\" (2:5), it is one of two Persian words in Qohelet that most scholars take as evidence that the book was written in or after the Persian period (see the book introduction). Qohelet's point is simple and timeless: when justice is slow, people feel free to do wrong.",
+  "b": "<i>Pitgam</i> comes from Old Persian <i>patigama</i>, \"message, decree\". It appears in Esther 1:20 for the king's decree, and often in the Aramaic of Ezra and Daniel (Ezra 4:17; Ezra 5:7; Daniel 3:16; Daniel 4:17). With <i>pardes</i>, \"park\" (2:5), it is one of two Persian words in Qohelet that most scholars take as evidence that the book was written in or after the Persian period (see the book introduction). Qohelet's point is simple and timeless: when justice is slow, people feel free to do wrong.",
   "orig": "פִתְגָם (pitgam)",
   "kind": "nu",
-  "r": "Esther 1:20; Ezra 4:17; Ezra 5:7; Daniel 3:16; Daniel 4:17; 2:5",
+  "r": "2:5; Esther 1:20; Ezra 4:17; Ezra 5:7; Daniel 3:16; Daniel 4:17",
   "top": "persia",
   "s": [
    "seow-dating-qohelet",
@@ -1233,7 +1236,7 @@
   "p": "Verses 12–13 state the traditional belief; 8:14 seems to deny it. Scholars read the tension in several ways.",
   "b": "Qohelet says he knows it will go well with God-fearers and badly for the wicked (8:12b–13), and then says the opposite happens (8:14). (1) <b>A quotation:</b> Robert Gordis argued that Qohelet often cites conventional wisdom in order to answer it, and many apply that here: \"I also know (what is taught)\". (2) <b>A later hand:</b> older critics such as George Barton assigned such pious lines to a later \"Hasid\" editor who corrected the book. (3) <b>A real tension:</b> Michael Fox holds that Qohelet believes both: God's justice is real, yet he sees it fail, and he will not drop either side. (4) <b>A long view:</b> traditional readers, and the Targum, place the good outcome in the world to come. The phrase \"afraid in his presence\" repeats so that the God-fearer and the wicked are told apart by one thing.",
   "r": "3:17; 8:14; 9:1–3; 11:9; 12:13–14; Psalm 37:1–11; Malachi 3:13–18",
-  "top": "retribution",
+  "top": "fear-of-the-lord",
   "s": [
    "gordis-koheleth",
    "barton-ecclesiastes",
@@ -1276,7 +1279,7 @@
   "type": "views",
   "t": "In praise of joy",
   "p": "Qohelet's answer to injustice is not a theory but a gift: eat, drink, be glad, as God gives the days.",
-  "b": "This is the fourth of the book's calls to enjoy life (see 5:18). It follows the darkest verse so far (8:14), and some readers find it a counsel of resignation, others the book's real teaching: when you cannot fix the world's justice, receive the days God gives with gladness. The Talmud (Shabbat 30b) set \"I spoke in praise of joy\" against \"about joy, 'What does this accomplish?'\" (2:2) and solved it by distinguishing the joy of a commandment from empty mirth; the Targum makes it \"the joy of the Law\". Jerome could read the book's eating and drinking as pointing to the body and blood of Christ (<i>Commentary on Ecclesiastes</i> on 2:24); Luther read such verses plainly, as praise of the daily gifts of God.",
+  "b": "This is the fifth of the book's calls to enjoy life (see 5:18). It follows the darkest verse so far (8:14), and some readers find it a counsel of resignation, others the book's real teaching: when you cannot fix the world's justice, receive the days God gives with gladness. The Talmud (Shabbat 30b) set \"I spoke in praise of joy\" against \"about joy, 'What does this accomplish?'\" (2:2) and solved it by distinguishing the joy of a commandment from empty mirth; the Targum makes it \"the joy of the Law\". Jerome could read the book's eating and drinking as pointing to the body and blood of Christ (<i>Commentary on Ecclesiastes</i> on 2:24); Luther read such verses plainly, as praise of the daily gifts of God.",
   "r": "2:2; 2:24; 3:12–13; 5:18–20; 9:7–10; 1 Timothy 4:4; 1 Timothy 6:17",
   "top": "work",
   "s": [
@@ -1291,14 +1294,17 @@
   "a": "to eat and drink and be glad",
   "type": "echo",
   "t": "Eat, drink and be glad",
-  "p": "These words were later used by the rich fool of Jesus' parable and by Isaiah's revelers. Qohelet means something else.",
-  "b": "In Isaiah 22:13 the people of Jerusalem feast instead of repenting: \"Eat and drink, / for tomorrow we die!\" Paul quotes that line (1 Corinthians 15:32) to describe life without resurrection. In Jesus' parable the rich fool tells himself to rest, eat, drink and be glad, and dies that night (Luke 12:19–20). Qohelet's call differs from both: the joy he praises keeps company with toil, and it is received as \"the days of his life that God has given him\". He is not saying \"live for pleasure\", but \"take your share from God with thanks\".",
-  "r": "Isaiah 22:13; 1 Corinthians 15:32; Luke 12:16–21; 9:7; 11:9",
+  "p": "Isaiah's revelers said something like it before, and the rich fool of Jesus' parable says it in the same Greek words.",
+  "b": "In Isaiah 22:13 the people of Jerusalem feast instead of repenting: \"Eat and drink, / for tomorrow we die!\" Paul quotes that line (1 Corinthians 15:32) to describe life without resurrection. In Jesus' parable the rich fool tells himself to rest, eat, drink and be glad, and dies that night (Luke 12:19–20). His three verbs (<i>phage, pie, euphrainou</i>) are the three of the Greek of this verse (<i>phagein kai piein kai euphranthenai</i>), so readers of the Greek Bible could hear Qohelet behind the parable. Qohelet's call differs from both: the joy he praises keeps company with toil, and it is received as \"the days of his life that God has given him\". He is not saying \"live for pleasure\", but \"take your share from God with thanks\".",
+  "r": "9:7; 11:9; Isaiah 22:13; 1 Corinthians 15:32; Luke 12:16–21",
   "top": "ecclesiastes",
   "s": [
    "seow-ecclesiastes",
-   "murphy-ecclesiastes"
-  ]
+   "murphy-ecclesiastes",
+   "rahlfs-lxx"
+  ],
+  "orig": "φαγεῖν καὶ πιεῖν καὶ εὐφρανθῆναι (Greek of 8:15); φάγε, πίε, εὐφραίνου (Luke 12:19)",
+  "kind": "nu"
  },
  {
   "v": "8:16",

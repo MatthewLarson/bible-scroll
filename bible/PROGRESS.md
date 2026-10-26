@@ -25,7 +25,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Job | reviewed, published | 6 parts: 01-07, 08-14, 15-21, 22-31, 32-37, 38-42 (parts/). book.json lenses fixed: H C W J X (W = Ancient wisdom). book.json owner: part 01-07 writer. Hebrew p |
 | Psa | reviewed, published | 13 parts: 001-017, 018-030, 031-041, 042-055, 056-072, 073-080, 081-089, 090-101, 102-106, 107-118, 119-119, 120-137, 138-150 (parts/). book.json lenses fixed:  |
 | Pro | reviewed, published | 6 parts: 01-09 (owns book.json), 10-15, 16-22, 23-24, 25-29, 30-31; lenses H C W J X fixed; brief tools/brief-pro.md. Part 23-24 written 2026-10-24 (--check Pro |
-| Ecc | writing | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
+| Ecc | reviewed, published | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
 | Isa | writing | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
 | Jer | writing | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |

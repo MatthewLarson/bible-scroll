@@ -26,4 +26,5 @@ Publish the Bible Scroll. Use the `bible-site-build` skill.
    chapter spread of each new book, a topic page with its passage filter, and the browser console).
 6. Set each published book's progress.md first line to `Status: reviewed, published` and rebuild once so
    PROGRESS.md matches.
-7. **Deploy** only when Matt asks (see README.md, "Putting the site online"): `public/` is a static folder.
+7. **Deploy** only when Matt asks (see README.md, "Putting the site online"): commit and push to `main`; Render
+   auto-deploys every push, running the same `--publish` build.

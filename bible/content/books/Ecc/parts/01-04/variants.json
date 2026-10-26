@@ -29,7 +29,7 @@
   "v": "1:16",
   "a": "who were over Jerusalem before me",
   "t": "Over Jerusalem, or in Jerusalem?",
-  "p": "The Greek reads 'in Jerusalem', as in 2:7 and 2:9.",
+  "p": "The Greek and the Qumran copy 4QQoh-b read 'in Jerusalem', as in 2:7 and 2:9.",
   "readings": [
    {
     "w": "Masoretic Text (Leningrad Codex)",
@@ -38,17 +38,18 @@
     "plain": "who were over Jerusalem before me"
    },
    {
-    "w": "Greek (Rahlfs and Codex Vaticanus)",
-    "orig": "ἐν Ιερουσαλημ",
+    "w": "Greek (Rahlfs and Codex Vaticanus); 4QQoh-b (4Q110), first century BC, in the Abegg, Bowley and Cook transcription (the letters are visible)",
+    "orig": "ἐν Ιερουσαλημ; 4QQoh-b בירושלם",
     "en": "in Jerusalem",
     "plain": "who were in Jerusalem before me"
    }
   ],
   "follow": 0,
-  "why": "'Over Jerusalem' is the harder reading, since it speaks of rulers before Solomon, of whom there was only David; the Greek seems to have smoothed it to match 2:7 and 2:9. The difference is small but feeds the debate about who the speaker is (see the note).",
+  "why": "'Over Jerusalem' is the harder reading, since it speaks of rulers before Solomon, of whom there was only David. 'In Jerusalem' is old, since a Qumran copy has it as well as the Greek, but it is the kind of change a copyist makes without meaning to, matching 2:7 and 2:9; no copyist would turn it into 'over Jerusalem'. The difference is small but feeds the debate about who the speaker is (see the note).",
   "s": [
    "rahlfs-lxx",
-   "seow-ecclesiastes"
+   "seow-ecclesiastes",
+   "djd16"
   ]
  },
  {
@@ -130,29 +131,30 @@
  },
  {
   "v": "2:15",
-  "a": "Why then have I been so very wise?",
+  "a": "And I told myself that this too is vapor",
   "t": "The Greek adds a saying about the fool's talk",
-  "p": "The Greek has an extra line: 'I spoke too much in my heart, for the fool speaks out of excess.'",
+  "p": "The Greek adds one short clause: 'because a fool speaks out of excess'.",
   "readings": [
    {
     "w": "Masoretic Text (Leningrad Codex)",
-    "orig": "ולמה חכמתי אני אז יותר",
-    "en": "and why have I been wise, I, then, more?",
-    "plain": "Why then have I been so very wise?"
+    "orig": "ודברתי בלבי שגם זה הבל",
+    "en": "and I spoke in my heart that this too is vapor",
+    "plain": "And I told myself that this too is vapor"
    },
    {
-    "w": "Greek (Rahlfs; Codex Vaticanus as printed by Swete places the last clause after 'this too is vapor')",
-    "orig": "καὶ ἵνα τί ἐσοφισάμην ἐγὼ τότε περισσὸν ἐλάλησα ἐν καρδίᾳ μου διότι ἄφρων ἐκ περισσεύματος λαλεῖ",
-    "en": "and why did I become wise? Then I spoke too much in my heart, because a fool speaks out of excess",
-    "plain": "Why then have I been so very wise? I spoke too much in my heart, for a fool speaks out of excess."
+    "w": "Greek (Rahlfs); Codex Vaticanus, as printed by Swete, puts the added clause after 'this too is vapor'",
+    "orig": "ἐλάλησα ἐν καρδίᾳ μου διότι ἄφρων ἐκ περισσεύματος λαλεῖ ὅτι καί γε τοῦτο ματαιότης",
+    "en": "I spoke in my heart, because a fool speaks out of excess, that this too is vanity",
+    "plain": "And I told myself, because a fool speaks out of excess, that this too is vapor"
    }
   ],
   "follow": 0,
-  "why": "The Greek plus seems to come from reading the Hebrew yoter, 'more', twice: once as 'excessively' with 'I spoke', and again in a saying added to explain it. The Hebrew is shorter and the extra line has no Hebrew witness.",
+  "why": "The only Greek plus is the clause 'because a fool speaks out of excess'; the rest of the Greek renders the Hebrew word for word. It has no Hebrew witness and reads like an explanation, probably prompted by the Hebrew yoter, 'more', which the Greek renders 'excessively' (perisson). The Hebrew is shorter and is followed.",
   "s": [
    "rahlfs-lxx",
    "swete-lxx"
-  ]
+  ],
+  "b": "The Greek also divides the verse differently. It takes the Hebrew 'then more' (<i>'az yoter</i>) with the next verb: 'Why did I become wise? I then spoke excessively in my heart...'. The Hebrew accents join it to 'wise', as the Plain does: 'Why then have I been so very wise?'"
  },
  {
   "v": "2:25",
@@ -180,13 +182,14 @@
    "swete-lxx",
    "seow-ecclesiastes",
    "fox-qohelet"
-  ]
+  ],
+  "b": "<i>Chuts mimmenni</i> is 'outside of me', or, in later Hebrew, 'more than I'. On that reading the king says: who has eaten and enjoyed more than I have? So he can speak with authority about pleasure (KJV: 'more than I'). With 'apart from him', no one can eat or enjoy apart from God, which fits 2:24 and 2:26."
  },
  {
   "v": "3:21",
   "a": "Who knows whether the spirit of human beings goes up above, and whether the spirit of animals goes down below to the earth?",
-  "t": "A question, or a statement?",
-  "p": "The Hebrew letters can be read 'whether it goes up' or 'which goes up'; the Masoretic vowels choose the second.",
+  "t": "Whether it goes up, or which goes up?",
+  "p": "The Hebrew letters can be read 'whether it goes up' or 'which goes up'; the Masoretic vowels choose the second. Both are questions.",
   "readings": [
    {
     "w": "Greek (Rahlfs and Codex Vaticanus, εἰ, 'whether'); Jerome's Latin (si, 'whether'); followed by most modern translations",
@@ -202,7 +205,7 @@
    }
   ],
   "follow": 0,
-  "why": "The consonants are the same in both readings; only the vowels under the first letter differ (the article 'the one which' or the question word 'whether'). The question fits the 'who knows' and the flow of 3:18–20, and the oldest translations read it that way. Many scholars think the Masoretic vowels were chosen to avoid seeming to doubt that the human spirit rises. The Plain follows the Greek and Latin vowels but keeps every Hebrew letter.",
+  "why": "The consonants are the same in both readings; only the vowels under the first letter differ (the article 'the one which' or the question word 'whether'). 'Whether' fits the 'who knows' and the flow of 3:18–20, and the oldest translations read it that way. With 'which', the verse is still a question, but it seems to take for granted that the human spirit rises. Many scholars think the Masoretic vowels were chosen to avoid seeming to doubt that. The Plain follows the Greek and Latin vowels but keeps every Hebrew letter.",
   "b": "This is a case where the Plain departs from the Leningrad Codex's vowels, not from its letters. The vowel signs were added between about AD 600 and 1000; they record a careful reading tradition but not the original writer's pronunciation. See the note on this verse and the traditions card on the chapter page.",
   "s": [
    "rahlfs-lxx",

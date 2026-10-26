@@ -1,6 +1,7 @@
 # Render Blueprint: the public site (bible/public/) as a static site at codexcollection.com.
 # Render runs the same publish build as `node tools/build.js --publish`, so only reviewed books go online.
-# Deploys are manual (Render dashboard → Manual Deploy) so nothing goes live until Matt says so.
+# Every push to main deploys. That is safe because --publish leaves out every book not yet reviewed and every
+# unmerged proposal; pushing is the "go live" step.
 services:
   - type: web
     runtime: static
@@ -10,7 +11,7 @@ services:
     rootDir: bible
     buildCommand: node tools/build.js --publish
     staticPublishPath: public
-    autoDeployTrigger: "off"
+    autoDeployTrigger: commit
     pullRequestPreviewsEnabled: false
     envVars:
       - key: NODE_VERSION

@@ -149,7 +149,7 @@
     "plain": "a little folly weighs more than wisdom, more than honor"
    },
    {
-    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "w": "Greek (Rahlfs' edition); Codex Vaticanus (as printed by Swete) has the same sense but reads \"a word of wisdom\" (τίμιον ὁ λόγος σοφίας) for \"a little wisdom\"",
     "orig": "τίμιον ὀλίγον σοφίας ὑπὲρ δόξαν ἀφροσύνης μεγάλης",
     "en": "a little wisdom is more precious than the glory of great folly",
     "plain": "a little wisdom is worth more than the glory of great folly"
@@ -159,6 +159,7 @@
   "why": "The Hebrew is the harder reading and fits the first half of the verse: a little thing (a dead fly, a bit of folly) spoils something precious. The Greek seems to have read the words in a different order and made a more comfortable proverb in praise of wisdom.",
   "s": [
    "rahlfs-lxx",
+   "swete-lxx",
    "seow-ecclesiastes"
   ]
  },
@@ -196,6 +197,40 @@
   ]
  },
  {
+  "v": "10:14",
+  "a": "No one knows what is going to happen",
+  "t": "What will be, or what has been?",
+  "p": "Where the Hebrew has 'what is going to happen', the Greek has 'what has been and what will be'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לֹא־יֵדַע הָאָדָם מַה־שֶּׁיִּהְיֶה",
+    "en": "a person does not know what will be",
+    "plain": "No one knows what is going to happen"
+   },
+   {
+    "w": "Greek (Rahlfs' edition; Codex Vaticanus agrees)",
+    "orig": "οὐκ ἔγνω ὁ ἄνθρωπος τί τὸ γενόμενον καὶ τί τὸ ἐσόμενον",
+    "en": "the person did not know what has come to be and what will be",
+    "plain": "No one knows what has been and what is going to be"
+   },
+   {
+    "w": "Jerome's Latin (Vulgate)",
+    "orig": "ignorat homo quid ante se fuerit",
+    "en": "a person does not know what was before him",
+    "plain": "No one knows what was before him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek and Latin seem to have read the first verb as past (shehayah, \"what has been\"), as in 1:9 and 3:15, so that the verse sets past against future. The Hebrew, with the future twice, is a little repetitive but makes sense: the fool talks on, though no one knows what will happen, now or after he is gone. The Plain follows the Hebrew.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "vulgate-weber",
+   "seow-ecclesiastes"
+  ]
+ },
+ {
   "v": "10:17",
   "a": "to be strong and not to be drunk",
   "t": "Not drunk, or not ashamed?",
@@ -220,6 +255,35 @@
    "rahlfs-lxx",
    "peshitta-ecc",
    "seow-ecclesiastes"
+  ]
+ },
+ {
+  "v": "11:5",
+  "a": "You do not know which way the wind goes, and it is the same with the bones in the womb of a pregnant woman.",
+  "t": "Like the bones, or in the bones?",
+  "p": "The Leningrad Codex says 'like the bones'; some Hebrew manuscripts say 'in the bones', which makes the wind into the breath of life.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Greek (Rahlfs' edition; Codex Vaticanus agrees: ὡς ὀστᾶ ἐν γαστρί)",
+    "orig": "מַה־דֶּרֶךְ הָרוּחַ כַּעֲצָמִים בְּבֶטֶן הַמְּלֵאָה",
+    "en": "what is the way of the wind, like the bones in the womb of the pregnant woman",
+    "plain": "You do not know which way the wind goes, and it is the same with the bones in the womb of a pregnant woman."
+   },
+   {
+    "w": "A number of medieval Hebrew manuscripts; the Targum's paraphrase reads the verse as one picture in the same way",
+    "orig": "בַּעֲצָמִים",
+    "en": "(the way of the breath) in the bones in the womb",
+    "plain": "You do not know how the breath of life finds its way into the bones inside a pregnant woman's womb."
+   }
+  ],
+  "follow": 0,
+  "why": "The Leningrad Codex and the Greek agree on \"like\", and it gives good sense: two things no one can trace, the wind and the growth of a child. \"In\" differs by one letter (ב for כ), and it may be an easier reading that joins the two halves into one. Many modern versions follow it. The Plain follows the Leningrad Codex.",
+  "b": "Jerome's Latin keeps two pictures but supplies a verb: you do not know the way of the wind, or how the bones are joined together in the womb. See the note on \"which way the wind goes\".",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx",
+   "seow-ecclesiastes",
+   "knobel-targum-qohelet"
   ]
  },
  {
@@ -347,7 +411,7 @@
   "v": "12:10",
   "a": "and what was written was upright",
   "t": "Written, or he wrote?",
-  "p": "The Hebrew has a passive, 'and written'. The Syriac and Latin have 'and he wrote'; many scholars read 'and to write'.",
+  "p": "The Hebrew has a passive, 'and written'. The Syriac and Latin have 'and he wrote'; many scholars correct it to 'and to write'.",
   "readings": [
    {
     "w": "Masoretic Text (Leningrad Codex, AD 1008); Greek (Rahlfs' edition)",
@@ -356,14 +420,20 @@
     "plain": "and what was written was upright"
    },
    {
-    "w": "Syriac Peshitta; Jerome's Latin (Vulgate); a common modern correction (likhtov)",
+    "w": "Syriac Peshitta; Jerome's Latin (Vulgate). The Hebrew shown is what these versions imply, not a Hebrew manuscript.",
     "orig": "וְכָתַב יֹשֶׁר",
     "en": "and he wrote uprightly",
     "plain": "and he wrote what is upright"
+   },
+   {
+    "w": "A common modern correction of the Hebrew (no manuscript has it)",
+    "orig": "וְלִכְתֹּב יֹשֶׁר",
+    "en": "and to write uprightly",
+    "plain": "and to write what is upright"
    }
   ],
   "follow": 0,
-  "why": "The Hebrew is awkward but possible, and the Greek supports it. The Syriac and Latin, and modern scholars who read likhtov, \"and to write\", make Qohelet the subject. The difference in meaning is small: either way his words are called upright and true.",
+  "why": "The Hebrew is awkward but possible, and the Greek supports it. The Syriac and Latin make Qohelet the subject (\"and he wrote\"), and modern scholars who read likhtov, \"and to write\", make writing a second goal of his search, beside finding words that delight. The difference in meaning is small: either way his words are called upright and true.",
   "s": [
    "rahlfs-lxx",
    "peshitta-ecc",
