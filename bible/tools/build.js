@@ -31,7 +31,7 @@ const CAT = json(P('texts/catalog.json'));
 const R = require('./refs.js')(CAT.books);
 const BOOK = {}; CAT.books.forEach(b => BOOK[b.id] = b);
 /* "Where Christians differ": a question, then each tradition's answer in its own words, so conflicts sit side by side */
-const TRADITIONS = ['Catholic','Orthodox','Oriental Orthodox','Ethiopian Orthodox','Lutheran','Reformed','Anglican','Methodist','Baptist','Pentecostal','Anabaptist','Restorationist','Adventist','Quaker','Evangelical','Dispensationalist','Latter-day Saints',"Jehovah's Witnesses",'Oneness Pentecostal','Unitarian'];
+const TRADITIONS = ['Catholic','Orthodox','Oriental Orthodox','Ethiopian Orthodox','Lutheran','Reformed','Anglican','Methodist','Baptist','Pentecostal','Anabaptist','Restorationist','Adventist','Quaker','Evangelical','Dispensationalist','Latter-day Saints',"Jehovah's Witnesses",'Oneness Pentecostal','Unitarian','Messianic Jewish'];
 function tradCheck(w, list, srcCheck){ (list || []).forEach((x, j) => { const ws = `${w} traditions[${j}]`;
   if(!x.q) err(ws, 'needs q, the question the traditions answer differently');
   if(!Array.isArray(x.views) || x.views.length < 2) err(ws, 'needs at least two views [tradition, answer]');

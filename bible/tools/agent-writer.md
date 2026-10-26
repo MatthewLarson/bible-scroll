@@ -73,7 +73,7 @@ it applies, and what problem it answers. Give debated audiences and dates as vie
 Where Christian traditions read a passage differently, show them side by side in a chapter `traditions` entry
 (book-wide questions go in book.json `traditions`): {"q": the question, "views": [[tradition, answer, [keys]?], ...],
 "s"?}. Use the build's tradition names (Catholic, Orthodox, Lutheran, Reformed, Anglican, Methodist, Baptist,
-Pentecostal, Anabaptist, Adventist, Dispensationalist, and others listed in tools/build.js). Choose questions
+Pentecostal, Anabaptist, Adventist, Dispensationalist, Messianic Jewish, and others listed in tools/build.js). Choose questions
 where the answers really conflict and matter: sacraments, baptism, the Lord's Supper, grace and works,
 predestination and free will, church and Israel, the end times, Mary and the saints, the canon, law and Sabbath,
 women in ministry, creation. State each tradition's answer as its own teachers state it (cite catechisms,

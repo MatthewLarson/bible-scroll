@@ -1,0 +1,147 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "simon-6",
+   "wife-of-simon",
+   "healing-the-man-with-palsy"
+  ],
+  "unmap": [
+   "jordan"
+  ],
+  "why": "The Simon of 1:29-30 is Simon Peter, whose mother-in-law Jesus heals; Bible Atlas's second Simon here is Judas Iscariot's father, and Peter's wife is implied but not mentioned. The healing of the paralyzed man comes in 2:1-12, not this chapter. Bible Atlas's Jordan point is near the river's sources in the far north, but John baptizes in the Jordan near the Judean wilderness (1:4-5, 1:9), much farther south, so no dot is drawn."
+ },
+ {
+  "c": 1,
+  "add": {
+   "people": {
+    "isaiah": {
+     "name": "Isaiah"
+    }
+   }
+  },
+  "why": "1:2 names Isaiah the prophet as the source of the words quoted in 1:2-3; Bible Atlas does not link him in this chapter."
+ },
+ {
+  "c": 2,
+  "add": {
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "In 2:13 Jesus teaches \"along the shore of the sea\", the Sea of Galilee beside Capernaum; Bible Atlas does not link it here."
+ },
+ {
+  "c": 3,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but \"from across the Jordan\" in 3:8 means the land east of the river's middle and lower course (Perea), so no dot is drawn."
+ },
+ {
+  "c": 3,
+  "add": {
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "In 3:7 Jesus withdraws \"to the sea\", the Sea of Galilee, where the crowds find him (3:9); Bible Atlas does not link it here."
+ },
+ {
+  "c": 4,
+  "add": {
+   "people": {
+    "jesus-2": {
+     "name": "Jesus"
+    }
+   },
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "Mark never uses Jesus' name in chapter 4 (it says only \"he\"), but he is the one teaching from the boat and calming the storm. \"The sea\" where he teaches (4:1) and which he calms (4:39) is the Sea of Galilee."
+ },
+ {
+  "c": 5,
+  "add": {
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "5:1 and 5:21 have Jesus crossing \"the sea\", the Sea of Galilee, and the pigs rush into it (5:13). The \"land of the Gerasenes\" (5:1) has no entry in Bible Atlas, so it cannot be linked."
+ },
+ {
+  "c": 6,
+  "add": {
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "In 6:47-49 the disciples' boat is out \"in the middle of the sea\" and Jesus walks on it; this is the Sea of Galilee, between Bethsaida and Gennesaret. Bible Atlas does not link it here."
+ },
+ {
+  "c": 10,
+  "unmap": [
+   "jordan"
+  ],
+  "why": "Bible Atlas's Jordan point is near the river's sources in the far north, but \"the far side of the Jordan\" in 10:1 is the land east of the river facing Judea, on the way to Jericho, so no dot is drawn."
+ },
+ {
+  "c": 12,
+  "add": {
+   "people": {
+    "tiberius": {
+     "name": "Tiberius"
+    }
+   }
+  },
+  "why": "\"Caesar\" in 12:14-17 is the emperor reigning at the time, Tiberius (AD 14-37), whose head and name were on the denarius; Bible Atlas's own entry for Tiberius names these verses but does not link them."
+ },
+ {
+  "c": 13,
+  "drop": [
+   "daniel-3"
+  ],
+  "why": "Some later manuscripts, followed by the King James Version, add \"spoken of by Daniel the prophet\" in 13:14; the oldest manuscripts and this text do not name Daniel. The phrase \"abomination of desolation\" does come from Daniel 9:27, 11:31 and 12:11, as the chapter's notes explain."
+ },
+ {
+  "c": 14,
+  "add": {
+   "places": {
+    "nazareth": {
+     "name": "Nazareth",
+     "lat": 32.701029,
+     "lon": 35.300148
+    }
+   }
+  },
+  "why": "In 14:67 the slave girl calls Jesus \"that Nazarene\", the man from Nazareth; Bible Atlas links Nazareth for the same word in 10:47 and 16:6 but not here."
+ },
+ {
+  "c": 15,
+  "drop": [
+   "place"
+  ],
+  "why": "Bible Atlas's \"Place\" entry is a duplicate of Golgotha, \"Skull Place\" (15:22), which is already linked."
+ }
+]

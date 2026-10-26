@@ -1,0 +1,630 @@
+[
+ {
+  "v": "7:2",
+  "a": "which means unwashed hands.",
+  "t": "\"They found fault\"",
+  "p": "Mark's sentence breaks off. The KJV completes it with \"they found fault,\" from the Byzantine text.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01) and Vaticanus (03) with other early witnesses, as the critical editions report; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "τοῦτ’ ἔστιν ἀνίπτοις, ἐσθίουσιν τοὺς ἄρτους—",
+    "en": "that is, unwashed, they eat the bread—",
+    "plain": "which means unwashed hands."
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"they found fault\")",
+    "orig": "τοῦτ’ ἔστιν ἀνίπτοις, ἐσθίοντας ἄρτους ἐμέμψαντο",
+    "en": "that is, unwashed, eating bread, they found fault",
+    "plain": "which means unwashed hands, and they found fault."
+   }
+  ],
+  "follow": 0,
+  "why": "In the oldest form, Mark starts a sentence in 7:2, breaks off to explain Jewish washing customs (7:3–4), and picks up again in 7:5. A copyist finished the sentence with a verb. A broken sentence is the harder reading, and copyists tended to repair, not create, such breaks.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "7:4",
+  "a": "they have immersed themselves",
+  "t": "Immerse or sprinkle?",
+  "p": "Two of the oldest manuscripts say the Pharisees \"sprinkle themselves.\" Almost all others say \"immerse\" (baptize).",
+  "readings": [
+   {
+    "w": "Most manuscripts, Greek and versions; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV \"except they wash\")",
+    "orig": "βαπτίσωνται",
+    "en": "they immerse (wash) themselves",
+    "plain": "they have immersed themselves"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus with about eight minuscules (as reported by Metzger); Westcott-Hort",
+    "orig": "ῥαντίσωνται",
+    "en": "they sprinkle themselves",
+    "plain": "they have sprinkled themselves"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Immerse\" has by far the widest support. Copyists who thought it unlikely that people would immerse their whole bodies after every trip to market may have changed it to \"sprinkle,\" a word familiar from the purity laws (Numbers 19:18–19). Westcott and Hort followed the two great codices here; later editors have not.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:4",
+  "a": ", and dining couches",
+  "t": "\"And dining couches\"",
+  "p": "Some of the oldest manuscripts end the list with copper pots. Most add couches (KJV \"tables\").",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington, Theta, families 1 and 13, the Byzantine majority (as reported by Metzger); NA28, SBLGNT, Textus Receptus (KJV \"and of tables\")",
+    "orig": "καὶ κλινῶν",
+    "en": "and couches",
+    "plain": ", and dining couches"
+   },
+   {
+    "w": "P45, Codex Sinaiticus, Vaticanus, L, Delta and some early versions (as reported by Metzger); Westcott-Hort, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is close, and the editions divide. The SBLGNT and NA28 keep the words, reasoning that copyists who found it odd to \"immerse\" couches would be more likely to drop them than to add them. Tyndale House and Westcott-Hort follow the early witnesses that lack them. Either way the meaning of the passage is unchanged.",
+  "b": "Couches (<i>klinai</i>) are the couches people lay on at meals. The later Mishnah discusses the impurity of beds and couches (Mishnah Kelim 19), so the item fits Jewish practice, even though immersing one would be awkward.",
+  "s": [
+   "metzger",
+   "mishnah-kelim"
+  ]
+ },
+ {
+  "v": "7:8",
+  "a": "cling to a tradition made by humans.",
+  "t": "A longer list in the KJV",
+  "p": "The KJV adds \"as the washing of pots and cups,\" repeating 7:4 and 7:13. The oldest manuscripts lack it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, L, Delta and other early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(no addition)",
+    "en": "you hold the tradition of men.",
+    "plain": "cling to a tradition made by humans."
+   },
+   {
+    "w": "Many later manuscripts and the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "βαπτισμοὺς ξεστῶν καὶ ποτηρίων· καὶ ἄλλα παρόμοια τοιαῦτα πολλὰ ποιεῖτε",
+    "en": "the washing of jugs and cups; and many other such things you do",
+    "plain": "cling to a tradition made by humans: the immersing of jugs and cups. And you do plenty of other things like these."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition borrows words from 7:4 and 7:13 to fill out Jesus' charge. Copyists often expanded a saying with nearby phrases; nothing explains why anyone would have removed these words if they were original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:16",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"If anyone has ears to hear\"",
+  "p": "The KJV's 7:16 is missing from the oldest manuscripts. It repeats a saying from 4:9 and 4:23.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, L, Delta (first hand), 28 and some Coptic manuscripts (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(no verse 16)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington, Theta, families 1 and 13, the Byzantine majority, most Latin and Syriac; Tregelles, Textus Receptus (KJV \"If any man have ears to hear, let him hear\")",
+    "orig": "Εἴ τις ἔχει ὦτα ἀκούειν ἀκουέτω.",
+    "en": "If anyone has ears to hear, let him hear.",
+    "plain": "If someone has ears to hear, that person should listen."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse looks like a copyist's addition from 4:9 or 4:23, where Jesus ends a parable the same way. Here it fits after \"parable\" in 7:17 and after the riddle of 7:15, which explains why it was added. No one would have had a reason to drop a familiar saying of Jesus from so many early witnesses.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "latrine.\" (With this he made all foods clean.)",
+  "t": "\"He made all foods clean\" or \"purging all foods\"?",
+  "p": "One letter changes the sense. The oldest manuscripts make it Mark's comment on Jesus; the KJV's text makes it part of the saying.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, L, Delta, families 1 and 13, 28, 565 (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καθαρίζων πάντα τὰ βρώματα",
+    "en": "(he) making all foods clean",
+    "plain": "latrine.\" (With this he made all foods clean.)"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"purging all meats\")",
+    "orig": "καθαρίζον πάντα τὰ βρώματα",
+    "en": "(which) purges all foods",
+    "plain": "latrine, which purges all foods.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The masculine participle <i>katharizōn</i> has the strongest and oldest support. It does not fit the grammar of Jesus' sentence, which is why copyists changed it to the neuter <i>katharizon</i>, which could go with the belly or the process of digestion. Origen and Chrysostom already read the masculine as Mark's comment on what Jesus was saying, and most modern editors agree. Codex Bezae has a third form, \"it purges.\"",
+  "b": "Even with the masculine reading, some scholars, among them Daniel Boyarin, argue that the participle describes digestion rather than a ruling about kosher food; see the note.",
+  "s": [
+   "metzger",
+   "boyarin-jewish-gospels"
+  ]
+ },
+ {
+  "v": "7:24",
+  "a": "into the territory of Tyre.",
+  "t": "Tyre, or Tyre and Sidon?",
+  "p": "Many manuscripts, and the KJV, say \"Tyre and Sidon.\" Others have Tyre alone, which the SBLGNT and NA28 follow.",
+  "readings": [
+   {
+    "w": "Codex Bezae, L, Washington, Delta, Theta, 28, 565, some Old Latin and the Sinaitic Syriac (as reported by Metzger); NA28, SBLGNT",
+    "orig": "Τύρου",
+    "en": "of Tyre",
+    "plain": "into the territory of Tyre."
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, families 1 and 13, the Byzantine majority; Westcott-Hort, Tyndale House GNT, Textus Receptus (KJV \"Tyre and Sidon\")",
+    "orig": "Τύρου καὶ Σιδῶνος",
+    "en": "of Tyre and Sidon",
+    "plain": "into the territory of Tyre and Sidon."
+   }
+  ],
+  "follow": 0,
+  "why": "Here the critical editions part company with Sinaiticus and Vaticanus. \"And Sidon\" could easily have come in from Matthew 15:21 and from 7:31, where Tyre and Sidon are named together; nothing explains its loss if it was original. The Tyndale House edition follows the longer reading because of its strong early support. The meaning hardly changes: Sidon is mentioned in 7:31 either way.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "7:28",
+  "a": "Lord, the little dogs",
+  "t": "\"Yes, Lord\"?",
+  "p": "Many manuscripts, and the KJV, begin her answer \"Yes, Lord.\" The SBLGNT and NA28 have only \"Lord.\"",
+  "readings": [
+   {
+    "w": "NA28 and SBLGNT, following a group of witnesses reported for the omission, among them Codex Bezae (D, 400s), Washington (W, 400s), Theta (Θ, 800s) and family 13, with some Old Latin manuscripts",
+    "orig": "Κύριε, καὶ τὰ κυνάρια",
+    "en": "Lord, even the little dogs",
+    "plain": "Lord, the little dogs"
+   },
+   {
+    "w": "Westcott-Hort, Tregelles and the Tyndale House GNT, whose editors read it in the great fourth-century codices, Sinaiticus (01) and Vaticanus (03); also Alexandrinus (02, 400s) and the Byzantine majority. The Byzantine text and Textus Receptus add \"for\" (KJV \"Yes, Lord: yet the dogs\")",
+    "orig": "Ναί, κύριε· καὶ (γὰρ) τὰ κυνάρια",
+    "en": "Yes, Lord; (for) even the little dogs",
+    "plain": "True, Lord, the little dogs"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Yes, Lord\" matches the wording of Matthew 15:27, and copyists often brought Mark into line with Matthew; that is why the SBLGNT and NA28 leave it out, even though Sinaiticus and Vaticanus have it. The Tyndale House GNT and older editors judge the evidence for \"Yes\" too strong to set aside. Either way she agrees with Jesus' saying and turns it. The switched reading uses \"True, Lord,\" as the Plain does at Matthew 15:27.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:31",
+  "a": "from the territory of Tyre and came by way of Sidon",
+  "t": "By way of Sidon?",
+  "p": "The oldest manuscripts say Jesus went north through Sidon. Later ones, and the KJV, make it \"Tyre and Sidon.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, L, Delta, Theta, 33, 565, 700 (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Τύρου ἦλθεν διὰ Σιδῶνος",
+    "en": "of Tyre, he came through Sidon",
+    "plain": "from the territory of Tyre and came by way of Sidon"
+   },
+   {
+    "w": "Codex Alexandrinus, the Byzantine majority; Textus Receptus (KJV \"from the coasts of Tyre and Sidon, he came\")",
+    "orig": "Τύρου καὶ Σιδῶνος ἦλθεν",
+    "en": "of Tyre and Sidon, he came",
+    "plain": "from the territory of Tyre and Sidon and came"
+   }
+  ],
+  "follow": 0,
+  "why": "The roundabout route through Sidon is the harder reading. Copyists who found it strange turned it into the familiar pair \"Tyre and Sidon\" (as in 3:8). See the note on the route.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:10",
+  "a": "Dalmanutha",
+  "t": "Dalmanutha, Magdala or Magadan?",
+  "p": "No one knows where Dalmanutha was. Copyists offered other names, among them the Magdala and Magadan of Matthew 15:39.",
+  "readings": [
+   {
+    "w": "Almost all manuscripts; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "Δαλμανουθά",
+    "en": "Dalmanutha",
+    "plain": "Dalmanutha"
+   },
+   {
+    "w": "Some witnesses, among them Codex Bezae (D, 400s), Theta and families 1 and 13, which read other names in several forms (among them Melegada, Magaida and Magdala), as reported by Metzger",
+    "orig": "Μαγδαλα (and similar)",
+    "en": "Magdala",
+    "plain": "Magdala"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Dalmanutha\" is attested nowhere else, which is exactly why copyists replaced it with names they knew, often from Matthew's parallel. A strange name that is in nearly every manuscript is likely original.",
+  "b": "Proposals for Dalmanutha include an Aramaic phrase garbled in transmission, or a small harbor near Magdala on the west shore. None is certain.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:15",
+  "a": "the yeast of Herod",
+  "t": "Herod, or the Herodians?",
+  "p": "A few early manuscripts read \"the yeast of the Herodians,\" the group that plotted with the Pharisees in 3:6.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, Bezae and most manuscripts; NA28, SBLGNT, Tyndale House GNT, Textus Receptus",
+    "orig": "τῆς ζύμης Ἡρῴδου",
+    "en": "the yeast of Herod",
+    "plain": "the yeast of Herod"
+   },
+   {
+    "w": "P45, Washington, Theta, families 1 and 13, 565 and some versions (as reported by Metzger)",
+    "orig": "τῆς ζύμης τῶν Ἡρῳδιανῶν",
+    "en": "the yeast of the Herodians",
+    "plain": "the yeast of the Herodians"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Herod\" has much wider support. \"The Herodians\" looks like a change influenced by 3:6 and 12:13, where Pharisees and Herodians act together. Matthew 16:6 has \"Sadducees\" instead, and Luke 12:1 mentions only the Pharisees.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "Don't you understand yet?",
+  "t": "\"Not yet\" or \"How is it\"?",
+  "p": "The KJV's \"How is it that ye do not understand?\" follows the Byzantine text. The editions divide.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Westcott-Hort",
+    "orig": "Οὔπω συνίετε;",
+    "en": "Do you not yet understand?",
+    "plain": "Don't you understand yet?"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Πῶς οὐ συνίετε;",
+    "en": "How do you not understand?",
+    "plain": "How is it that you don't understand?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Not yet\" repeats 8:17 and leaves the disciples' understanding open for the future, which fits Mark's story. The sense is close either way.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ],
+  "b": "Tregelles and the Tyndale House GNT also begin the question with \"how\" (<i>pōs</i>) and do not print \"not yet\" alone. The manuscripts divide among \"not yet,\" \"how not\" and \"how not yet.\" The open apparatus this site uses for witnesses (Tischendorf) is not available for this chapter, so the manuscripts behind each form are not listed here."
+ },
+ {
+  "v": "8:26",
+  "a": "set foot in the village.",
+  "t": "A longer warning in the KJV",
+  "p": "The KJV adds \"nor tell it to any in the town.\" The shortest form is in Sinaiticus and Vaticanus.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, L, family 1 and some early versions (as reported by Metzger); NA28, SBLGNT",
+    "orig": "Μηδὲ εἰς τὴν κώμην εἰσέλθῃς",
+    "en": "Do not even enter the village",
+    "plain": "set foot in the village."
+   },
+   {
+    "w": "The Byzantine majority and many other manuscripts, in several forms; Tregelles, Tyndale House GNT, Textus Receptus (KJV \"Neither go into the town, nor tell it to any in the town\")",
+    "orig": "Μηδὲ εἰς τὴν κώμην εἰσέλθῃς, μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ",
+    "en": "Do not enter the village, nor tell anyone in the village",
+    "plain": "set foot in the village, and do not tell anyone in the village."
+   }
+  ],
+  "follow": 0,
+  "why": "The many different forms of the longer reading suggest that copyists added an explicit order to keep silent, as in 7:36. The shorter command, only to avoid the village, is the harder reading and is preserved in the earliest witnesses.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "9:3",
+  "a": "extremely white,",
+  "t": "\"White as snow\"",
+  "p": "The KJV adds \"as snow,\" a natural comparison. The oldest manuscripts lack it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and other early witnesses; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "λευκὰ λίαν",
+    "en": "exceedingly white",
+    "plain": "extremely white,"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, the Byzantine majority; Textus Receptus (KJV \"exceeding white as snow\")",
+    "orig": "λευκὰ λίαν ὡς χιών",
+    "en": "exceedingly white as snow",
+    "plain": "extremely white, like snow,"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Like snow\" is a stock phrase for whiteness (Daniel 7:9; Matthew 28:3), easily added by a copyist. Mark's own comparison, with a fuller's work, follows.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:23",
+  "a": "'If you are able'?",
+  "t": "\"If you can\" or \"If you can believe\"?",
+  "p": "The KJV's \"If thou canst believe\" follows a text that added \"believe.\" The oldest manuscripts have Jesus repeat the father's words.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, C (first hand), L, Delta, family 1 (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Τὸ Εἰ δύνῃ",
+    "en": "The 'If you can'",
+    "plain": "'If you are able'?"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae (in part), the Byzantine majority; Textus Receptus (KJV \"If thou canst believe, all things are possible to him that believeth\")",
+    "orig": "Τὸ εἰ δύνασαι πιστεῦσαι",
+    "en": "If you can believe",
+    "plain": "If you are able to believe:"
+   }
+  ],
+  "follow": 0,
+  "why": "Jesus' answer picks up the father's own words, \"if you are able\" (9:22). The article <i>to</i> before them marks a quotation, which copyists did not recognize; they added \"believe\" to make a complete sentence.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:24",
+  "a": "the boy's father shouted, \"I believe!",
+  "t": "\"With tears\"",
+  "p": "The KJV adds that the father cried out \"with tears\" and said \"Lord.\" The oldest manuscripts have neither.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and other early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "κράξας ὁ πατὴρ τοῦ παιδίου ἔλεγεν· Πιστεύω",
+    "en": "the father of the child cried out, saying, I believe",
+    "plain": "the boy's father shouted, \"I believe!"
+   },
+   {
+    "w": "Codex Alexandrinus (corrected), Bezae, the Byzantine majority; Textus Receptus (KJV \"cried out, and said with tears, Lord, I believe\")",
+    "orig": "κράξας ὁ πατὴρ τοῦ παιδίου, μετὰ δακρύων ἔλεγεν· Πιστεύω, κύριε",
+    "en": "the father of the child cried out with tears, saying, I believe, Lord",
+    "plain": "the boy's father shouted with tears, \"I believe, Lord!"
+   }
+  ],
+  "follow": 0,
+  "why": "Both additions heighten the scene and are easy to explain as copyists' touches; neither would have been dropped if original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:29",
+  "a": "except prayer.",
+  "t": "\"And fasting\"",
+  "p": "Almost all manuscripts, and the KJV, add \"and fasting.\" Two of the oldest do not.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, 0274, the Old Latin k, Clement of Alexandria (as reported by Metzger); NA28, SBLGNT, Westcott-Hort",
+    "orig": "εἰ μὴ ἐν προσευχῇ",
+    "en": "except by prayer",
+    "plain": "except prayer."
+   },
+   {
+    "w": "P45 (apparently), Codex Sinaiticus (corrected), Alexandrinus, C, Bezae, L, Washington, Theta, families 1 and 13, the Byzantine majority; Tregelles, Tyndale House GNT, Textus Receptus (KJV \"by prayer and fasting\")",
+    "orig": "εἰ μὴ ἐν προσευχῇ καὶ νηστείᾳ",
+    "en": "except by prayer and fasting",
+    "plain": "except prayer and fasting."
+   }
+  ],
+  "follow": 0,
+  "why": "This is a hard case, and the editions divide. The shorter reading has only a few witnesses, but they are early and from different regions. The NA28 and SBLGNT editors judged that \"and fasting\" was added as the church's practice of fasting grew; the same words entered Matthew 17:21 and 1 Corinthians 7:5 in later manuscripts. The Tyndale House edition keeps \"and fasting\" because nearly all witnesses have it.",
+  "b": "If \"and fasting\" is original, Jesus is pointing to a disciplined life of prayer and fasting, though his disciples did not fast while he was with them (2:18–20). If not, his answer is simply prayer, dependence on God.",
+  "s": [
+   "metzger",
+   "comfort-nttc",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "9:31",
+  "a": "after three days he will rise.",
+  "t": "\"After three days\" or \"the third day\"?",
+  "p": "The KJV's \"he shall rise the third day\" follows the Byzantine text, which matches Matthew 17:23 and Luke 9:22.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Bezae (D, 400s) and other early witnesses, as the critical editions report; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "μετὰ τρεῖς ἡμέρας ἀναστήσεται",
+    "en": "after three days he will rise",
+    "plain": "after three days he will rise."
+   },
+   {
+    "w": "Codex Alexandrinus (02, 400s), Washington (W, 400s) and the Byzantine majority, as commonly reported; Textus Receptus (KJV \"he shall rise the third day\")",
+    "orig": "τῇ τρίτῃ ἡμέρᾳ ἀναστήσεται",
+    "en": "on the third day he will rise",
+    "plain": "on the third day he will rise."
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists brought Mark's phrase into line with Matthew 17:23, Luke 9:22 and the church's creed (1 Corinthians 15:4). The same change was made at 8:31 in a few copies and at 10:34. Mark's own phrase is \"after three days\"; see the note at 8:31.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:40",
+  "a": "not against us is on our side",
+  "t": "\"Us\" or \"you\"?",
+  "p": "The Byzantine text has \"Whoever is not against you is for you.\" Most editions, and the KJV, have \"us.\"",
+  "readings": [
+   {
+    "w": "The oldest manuscripts; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles; the KJV (\"he that is not against us is on our part\")",
+    "orig": "καθ' ἡμῶν, ὑπὲρ ἡμῶν",
+    "en": "against us, for us",
+    "plain": "not against us is on our side"
+   },
+   {
+    "w": "Many later manuscripts and the Byzantine majority",
+    "orig": "καθ' ὑμῶν ὑπὲρ ὑμῶν",
+    "en": "against you, for you",
+    "plain": "not against you is on your side"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Us\" joins Jesus with the disciples in a striking way; \"you\" matches Luke 9:50. Copyists more often made Mark agree with Luke than the reverse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:41",
+  "a": "on the grounds that you are Christ's own",
+  "t": "\"In my name\"",
+  "p": "The KJV reads \"in my name, because ye belong to Christ.\" The editions read \"in the name,\" meaning \"on the grounds.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus and other early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐν ὀνόματι ὅτι Χριστοῦ ἐστε",
+    "en": "in (the) name that you are Christ's",
+    "plain": "on the grounds that you are Christ's own"
+   },
+   {
+    "w": "Many manuscripts, the Byzantine majority; Textus Receptus (KJV \"in my name, because ye belong to Christ\")",
+    "orig": "ἐν ὀνόματί μου ὅτι Χριστοῦ ἐστε",
+    "en": "in my name, because you are Christ's",
+    "plain": "in my name, because you are Christ's own"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In my name\" repeats 9:37–39 and was easily added. Without \"my,\" <i>en onomati</i> is an idiom meaning \"on the grounds that,\" which copyists did not always recognize.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:44",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"Where their worm does not die\" (first time)",
+  "p": "The KJV repeats Isaiah 66:24 at 9:44 and 9:46. The oldest manuscripts have it only once, at 9:48.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, C, L, Washington, Delta, Psi, 0274, family 1, 28, 565, some Old Latin, the Sinaitic Syriac and the Coptic (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(no verse 44)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Theta, family 13, the Byzantine majority, most Latin; Textus Receptus (KJV \"Where their worm dieth not, and the fire is not quenched\")",
+    "orig": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται.",
+    "en": "where their worm does not die, and the fire is not quenched.",
+    "plain": "where their worm never dies and the fire is never put out."
+   }
+  ],
+  "follow": 0,
+  "why": "Verses 44 and 46 repeat 9:48 word for word. Copyists added them to make the three sayings about hand, foot and eye end alike, a natural improvement for reading aloud. No one would have removed a solemn refrain twice if it stood in the original. Verse 46 goes with this verse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:45",
+  "a": "be thrown into Gehenna.",
+  "t": "\"Into the fire that cannot be put out\"",
+  "p": "The KJV adds \"into the fire that never shall be quenched,\" copied from 9:43.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and other early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "βληθῆναι εἰς τὴν γέενναν",
+    "en": "to be thrown into Gehenna",
+    "plain": "be thrown into Gehenna."
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "βληθῆναι εἰς τὴν γέενναν, εἰς τὸ πῦρ τὸ ἄσβεστον",
+    "en": "to be thrown into Gehenna, into the unquenchable fire",
+    "plain": "be thrown into Gehenna, into the fire that cannot be put out."
+   }
+  ],
+  "follow": 0,
+  "why": "The same tendency as 9:44 and 9:46: copyists filled out each saying to match 9:43.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:46",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"Where their worm does not die\" (second time)",
+  "p": "Like 9:44, this verse repeats 9:48 and is missing from the oldest manuscripts. The two go together.",
+  "readings": [
+   {
+    "w": "The same witnesses as at 9:44 (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "(omitted)",
+    "en": "(no verse 46)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Theta, family 13, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ὅπου ὁ σκώληξ αὐτῶν οὐ τελευτᾷ, καὶ τὸ πῦρ οὐ σβέννυται.",
+    "en": "where their worm does not die, and the fire is not quenched.",
+    "plain": "where their worm never dies and the fire is never put out."
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 9:44: the refrain was copied from 9:48 into 9:44 and 9:46.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:49",
+  "a": "For everyone will be salted with fire.",
+  "t": "Salt, fire and sacrifice",
+  "p": "Three forms survive. One adds Leviticus 2:13, \"every sacrifice will be salted with salt.\" The KJV has both halves.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, L, Washington, Delta, families 1 and 13, 28, 565, 700, the Sinaitic Syriac and the Sahidic Coptic (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Πᾶς γὰρ πυρὶ ἁλισθήσεται.",
+    "en": "For everyone will be salted with fire.",
+    "plain": "For everyone will be salted with fire."
+   },
+   {
+    "w": "Codex Bezae and several Old Latin manuscripts",
+    "orig": "πᾶσα γὰρ θυσία ἁλὶ ἁλισθήσεται.",
+    "en": "For every sacrifice will be salted with salt.",
+    "plain": "For every sacrifice will be salted with salt."
+   },
+   {
+    "w": "Codex Alexandrinus, C, the Byzantine majority; Textus Receptus (KJV \"For every one shall be salted with fire, and every sacrifice shall be salted with salt\")",
+    "orig": "Πᾶς γὰρ πυρὶ ἁλισθήσεται, καὶ πᾶσα θυσία ἁλὶ ἁλισθήσεται.",
+    "en": "For everyone will be salted with fire, and every sacrifice will be salted with salt.",
+    "plain": "For everyone will be salted with fire, and every sacrifice will be salted with salt."
+   }
+  ],
+  "follow": 0,
+  "why": "The short, puzzling saying is best attested. A copyist who knew Leviticus 2:13 wrote it in the margin as an explanation; one line of copies replaced the saying with it, and another joined the two.",
+  "b": "Metzger's committee explained the readings this way, and it shows how scribes tried to make sense of a hard verse. The added clause supports the reading of 9:49 as a saying about sacrifice; see the note.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

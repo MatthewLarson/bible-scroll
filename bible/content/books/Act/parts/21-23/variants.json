@@ -1,0 +1,465 @@
+[
+ {
+  "v": "21:1",
+  "a": "and from there Patara",
+  "t": "Patara, or Patara and Myra?",
+  "p": "The Western text adds a second port, Myra, after Patara.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT), with the great majority of manuscripts",
+    "orig": "κἀκεῖθεν εἰς Πάταρα",
+    "en": "and from there to Patara",
+    "plain": "and from there Patara"
+   },
+   {
+    "w": "Codex Bezae (05, about AD 400) and Papyrus 41 (P41, a Greek-Coptic manuscript of the 700s), with some Old Latin, Vulgate and Coptic witnesses, as reported by Metzger and the NA28 apparatus",
+    "orig": "κἀκεῖθεν εἰς Πάταρα καὶ Μύρα",
+    "en": "and from there to Patara and Myra",
+    "plain": "and from there Patara and Myra"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly every manuscript has Patara alone. The Western reading probably comes from a copyist who knew that Myra, a little further east, was a common port for ships crossing to the east (Paul changed ships there on the way to Rome, 27:5–6).",
+  "b": "Codex Bezae is the main Greek witness to the Western text of Acts, which is about a tenth longer than the text in most Bibles. See the book's opening pages on the two texts of Acts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "21:8",
+  "a": "we came to Caesarea",
+  "t": "\"We came\" or \"those with Paul came\"?",
+  "p": "The KJV reads \"we that were of Paul's company departed, and came.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT); the earliest manuscripts",
+    "orig": "ἐξελθόντες ἤλθομεν εἰς Καισάρειαν",
+    "en": "having gone out, we came to Caesarea",
+    "plain": "we came to Caesarea"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "ἐξελθόντες οἱ περὶ τὸν Παῦλον ἦλθον εἰς Καισάρειαν",
+    "en": "those around Paul, having gone out, came to Caesarea",
+    "plain": "those of us who were with Paul came to Caesarea"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is better attested. The longer one looks like a phrase added at the start of a church reading (a lectionary lesson), where \"we\" would have been unclear without the earlier verses.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "21:16",
+  "a": "They took us to the man who would be our host, Mnason",
+  "t": "A stop at a village on the way",
+  "p": "Codex Bezae has the party stop at a village on the road and stay with a man it calls Nason.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT), the Byzantine majority text and Textus Receptus, with nearly all manuscripts",
+    "orig": "ἄγοντες παρ' ᾧ ξενισθῶμεν Μνάσωνί τινι Κυπρίῳ",
+    "en": "bringing [us] to Mnason, a Cypriot, with whom we were to lodge",
+    "plain": "They took us to the man who would be our host, Mnason"
+   },
+   {
+    "w": "Codex Bezae (05, about AD 400), as reported by Metzger; Bezae spells the host's name Nason",
+    "orig": "οὗτοι δὲ ἤγαγον ἡμᾶς πρὸς οὓς ξενισθῶμεν, καὶ παραγενόμενοι εἴς τινα κώμην ἐγενόμεθα παρὰ Νάσωνί τινι Κυπρίῳ",
+    "en": "and they brought us to those with whom we were to lodge; and arriving at a certain village, we stayed with one Nason, a Cypriot",
+    "plain": "They brought us to the people we were to stay with. When we reached a certain village, we stayed with a man named Nason"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the text of nearly all manuscripts. Bezae's version reads like a reviser's explanation: it solves the question of where the travelers spent the night on a journey of about 65 miles by putting the host's home in a village on the way. It also turns the clause into two sentences and spells the name differently.",
+  "b": "On the meaning of the shorter Greek, see the note on this verse. Bezae is the main Greek witness to the Western text of Acts; see the book's opening pages on the two texts of Acts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "21:20",
+  "a": "gave glory to God",
+  "t": "\"God\" or \"the Lord\"?",
+  "p": "The Byzantine text and the KJV say they \"glorified the Lord.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "ἐδόξαζον τὸν θεόν",
+    "en": "they were glorifying God",
+    "plain": "gave glory to God"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"they glorified the Lord\")",
+    "orig": "ἐδόξαζον τὸν κύριον",
+    "en": "they were glorifying the Lord",
+    "plain": "gave glory to the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions follow the older witnesses. The meaning hardly changes.",
+  "s": [
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "21:22",
+  "a": "There is no doubt they will hear you have arrived.",
+  "t": "\"The crowd must come together\"",
+  "p": "The KJV adds that a crowd is bound to gather.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT); Codex Vaticanus (03, 300s) and the first hand of Codex Ephraemi (04*, 400s), with a few other witnesses, as reported by Metzger and the NA28 apparatus",
+    "orig": "πάντως ἀκούσονται ὅτι ἐλήλυθας",
+    "en": "certainly they will hear that you have come",
+    "plain": "There is no doubt they will hear you have arrived."
+   },
+   {
+    "w": "Papyrus 74 (P74, 600s), Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s), Bezae (05, about 400), E (08), Ψ (044), minuscules 33 and 1739, and the Byzantine majority text and Textus Receptus (KJV \"the multitude must needs come together: for they will hear that thou art come\"), as reported by Metzger and the NA28 apparatus",
+    "orig": "πάντως δεῖ πλῆθος συνελθεῖν· ἀκούσονται γὰρ ὅτι ἐλήλυθας",
+    "en": "a crowd must certainly come together, for they will hear that you have come",
+    "plain": "A crowd is bound to gather, for they will hear you have arrived."
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions take the shorter reading as original and the extra clause as an explanation added by copyists. The evidence really is divided: the longer reading has early and widespread support (P74, Sinaiticus, Alexandrinus, Bezae), while the shorter rests mainly on Vaticanus and the first hand of Ephraemi, and some scholars defend the longer text. Either way, the elders fear that word of Paul's arrival will bring trouble.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "21:25",
+  "a": "we wrote and gave our ruling: they must guard",
+  "t": "\"That they observe no such thing\"",
+  "p": "The KJV adds that Gentile believers need keep \"no such thing\" except the four items.",
+  "readings": [
+   {
+    "w": "NA28 and Tyndale House (THGNT), with Papyrus 74 (P74), Sinaiticus (01), Alexandrinus (02) and Vaticanus (03), as reported in the NA28 apparatus. These editions read <i>epesteilamen</i>, \"we wrote\"; the SBLGNT (with Westcott-Hort and Tregelles) reads <i>apesteilamen</i>, \"we sent,\" with the same sense here.",
+    "orig": "ἡμεῖς ἐπεστείλαμεν κρίναντες φυλάσσεσθαι αὐτούς",
+    "en": "we wrote, having decided that they keep themselves from",
+    "plain": "we wrote and gave our ruling: they must guard"
+   },
+   {
+    "w": "Codex Ephraemi (04), Bezae (05), E (08), Ψ (044), minuscule 33, the Byzantine majority text and Textus Receptus (KJV \"we have written and concluded that they observe no such thing, save only that they keep themselves from\"), as reported in the NA28 apparatus",
+    "orig": "ἡμεῖς ἐπεστείλαμεν κρίναντες μηδὲν τοιοῦτον τηρεῖν αὐτούς, εἰ μὴ φυλάσσεσθαι αὐτούς",
+    "en": "we wrote, having decided that they keep no such thing, except to keep themselves from",
+    "plain": "we wrote and gave our ruling that they need keep no such thing, except that they must guard"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading spells out what the shorter one implies: Gentile believers were not asked to keep the customs that Jewish believers kept (21:21, 24). It is missing from the oldest manuscripts and reads like an explanatory addition.",
+  "b": "The Plain's \"we wrote\" follows NA28 and THGNT; the SBLGNT's \"we sent\" would give the same English sense. Codex Bezae also gives the decree here in its shorter, Western form, without \"what is strangled,\" as it does at 15:20 and 15:29; Metzger discusses this three-item form of the decree at 15:20. On the four requirements themselves, and the Western text's version of the decree, see 15:20 and 15:29.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "22:9",
+  "a": "did see the light",
+  "t": "\"And they were afraid\"",
+  "p": "The Byzantine text and the KJV add that Paul's companions were afraid.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "τὸ μὲν φῶς ἐθεάσαντο",
+    "en": "they saw the light",
+    "plain": "did see the light"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"saw indeed the light, and were afraid\")",
+    "orig": "τὸ μὲν φῶς ἐθεάσαντο, καὶ ἔμφοβοι ἐγένοντο",
+    "en": "they saw the light and became afraid",
+    "plain": "did see the light and were terrified"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is missing from the oldest manuscripts. It was probably added to round out the scene; nothing in 9:7 or 26:13–14 depends on it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "22:16",
+  "a": "call on his name",
+  "t": "\"His name\" or \"the name of the Lord\"?",
+  "p": "The KJV reads \"calling on the name of the Lord.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "ἐπικαλεσάμενος τὸ ὄνομα αὐτοῦ",
+    "en": "having called on his name",
+    "plain": "call on his name"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "ἐπικαλεσάμενος τὸ ὄνομα τοῦ κυρίου",
+    "en": "having called on the name of the Lord",
+    "plain": "call on the name of the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "\"His name\" is the older reading. The Byzantine form makes plain who is meant and echoes Joel 2:32, taken up at 2:21, on calling on the name of the Lord. The sense is the same: \"his\" refers to the Righteous One, Jesus (22:14).",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "22:20",
+  "a": "I agreed with it",
+  "t": "\"Consenting unto his death\"",
+  "p": "The KJV makes Paul's agreement explicit: \"consenting unto his death.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "καὶ συνευδοκῶν καὶ φυλάσσων",
+    "en": "and approving and guarding",
+    "plain": "I agreed with it"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"consenting unto his death, and kept the raiment\")",
+    "orig": "καὶ συνευδοκῶν τῇ ἀναιρέσει αὐτοῦ, φυλάσσων",
+    "en": "and approving of his killing, guarding",
+    "plain": "I agreed to his killing"
+   }
+  ],
+  "follow": 0,
+  "why": "The words \"to his killing\" were probably added from 8:1, \"Saul was in agreement with his killing,\" which uses the same Greek. The shorter text already means the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "22:26",
+  "a": "What are you about to do?",
+  "t": "\"Take heed what thou doest\"",
+  "p": "The Byzantine text adds \"Watch\" (KJV \"Take heed\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "Τί μέλλεις ποιεῖν;",
+    "en": "What are you about to do?",
+    "plain": "What are you about to do?"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"Take heed what thou doest\")",
+    "orig": "Ὅρα τί μέλλεις ποιεῖν",
+    "en": "See what you are about to do",
+    "plain": "Watch what you are about to do!"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter question has the older witnesses. The added \"Watch\" turns the centurion's question into a warning, which is its sense anyway.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "22:30",
+  "a": "he released him",
+  "t": "\"Loosed him from his bands\"",
+  "p": "The Byzantine text says the commander freed Paul \"from his chains\" and called \"all their council.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT), with the oldest manuscripts",
+    "orig": "ἔλυσεν αὐτόν",
+    "en": "he released him",
+    "plain": "he released him"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"he loosed him from his bands, and commanded the chief priests and all their council to appear\")",
+    "orig": "ἔλυσεν αὐτὸν ἀπὸ τῶν δεσμῶν",
+    "en": "he released him from the bonds",
+    "plain": "he released him from his chains"
+   }
+  ],
+  "follow": 0,
+  "why": "The words \"from the bonds\" are missing from the oldest manuscripts and look like a copyist's clarification: the reader has just been told that Paul was bound (22:29). Either way the sense is the same.",
+  "b": "In the same verse the Byzantine text also reads \"all their council\" (<i>holon to synedrion autōn</i>) for \"all the Sanhedrin\" and \"to come\" for \"to come together\"; these do not change the meaning.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:6",
+  "a": "a son of Pharisees",
+  "t": "\"Son of Pharisees\" or \"son of a Pharisee\"?",
+  "p": "The KJV reads \"the son of a Pharisee.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "υἱὸς Φαρισαίων",
+    "en": "a son of Pharisees",
+    "plain": "a son of Pharisees"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "υἱὸς Φαρισαίου",
+    "en": "son of a Pharisee",
+    "plain": "the son of a Pharisee"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural is better attested and may mean that Paul came from a family of Pharisees going back generations, or simply that he was a Pharisee by upbringing, \"a son of Pharisees\" in the Hebrew sense of belonging to a group. The singular narrows it to his father.",
+  "s": [
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "23:9",
+  "a": "And if a spirit spoke to him, or an angel...",
+  "t": "An unfinished sentence, or \"let us not fight against God\"?",
+  "p": "In the oldest manuscripts the scribes' sentence breaks off. Later copies finish it, as the KJV does.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT); the oldest manuscripts",
+    "orig": "εἰ δὲ πνεῦμα ἐλάλησεν αὐτῷ ἢ ἄγγελος—",
+    "en": "but if a spirit spoke to him, or an angel...",
+    "plain": "And if a spirit spoke to him, or an angel..."
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"but if a spirit or an angel hath spoken to him, let us not fight against God\")",
+    "orig": "εἰ δὲ πνεῦμα ἐλάλησεν αὐτῷ ἢ ἄγγελος, μὴ θεομαχῶμεν",
+    "en": "but if a spirit or an angel spoke to him, let us not fight against God",
+    "plain": "If a spirit or an angel has spoken to him, let us not fight against God!"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print the sentence as broken off, a figure of speech in which the speaker stops and lets the hearers finish the thought, or a sign that the uproar drowned him out (23:10). Copyists completed it with words taken from Gamaliel's warning in 5:39 that the council might find itself fighting against God. The shorter, harder reading is the one most likely to be original.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ],
+  "b": "Earlier in the verse the Byzantine text and Textus Receptus read <i>hoi grammateis</i>, \"the scribes\" (KJV \"the scribes that were of the Pharisees' part\"), where the critical editions read <i>tines tōn grammateōn</i>, \"some of the scribes,\" which the Plain follows."
+ },
+ {
+  "v": "23:11",
+  "a": "Be brave,",
+  "t": "\"Be of good cheer, Paul\"",
+  "p": "The Byzantine text and the KJV add Paul's name to the Lord's words.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "Θάρσει,",
+    "en": "Take courage,",
+    "plain": "Be brave,"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"Be of good cheer, Paul\")",
+    "orig": "Θάρσει Παῦλε·",
+    "en": "Take courage, Paul,",
+    "plain": "Be brave, Paul,"
+   }
+  ],
+  "follow": 0,
+  "why": "The name is missing from the oldest manuscripts and was probably added to make the address personal, as in the angel's words to Paul in 27:24.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "23:12",
+  "a": "the Jews got together in a plot",
+  "t": "\"The Jews\" or \"some of the Jews\"?",
+  "p": "The Byzantine text and the KJV say \"certain of the Jews.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "ποιήσαντες συστροφὴν οἱ Ἰουδαῖοι",
+    "en": "having made a conspiracy, the Jews",
+    "plain": "the Jews got together in a plot"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"certain of the Jews banded together\")",
+    "orig": "ποιήσαντές τινες τῶν Ἰουδαίων συστροφήν",
+    "en": "some of the Jews, having made a conspiracy",
+    "plain": "some of the Jews got together in a plot"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical text has the broader \"the Jews,\" and the Byzantine reading looks like a correction to make clear that only some took part, which the next verse says anyway (\"over forty men\"). See the note on \"the Jews\" in this verse.",
+  "s": [
+   "sblgnt",
+   "levine-brettler-jant"
+  ]
+ },
+ {
+  "v": "23:15",
+  "a": "to bring Paul down to you",
+  "t": "\"Tomorrow\"",
+  "p": "The Byzantine text and the KJV add \"tomorrow,\" as in 23:20.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House (THGNT)",
+    "orig": "ὅπως καταγάγῃ αὐτὸν εἰς ὑμᾶς",
+    "en": "so that he may bring him down to you",
+    "plain": "to bring Paul down to you"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"that he bring him down unto you to morrow\")",
+    "orig": "ὅπως αὔριον αὐτὸν καταγάγῃ πρὸς ὑμᾶς",
+    "en": "so that tomorrow he may bring him down to you",
+    "plain": "to bring Paul down to you tomorrow"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Tomorrow\" was probably brought in from the nephew's report in 23:20, where all manuscripts have it.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "23:24",
+  "a": "to Felix, the governor.\"",
+  "t": "Why the large escort? A Latin addition",
+  "p": "Some Western witnesses, Latin, Syriac and a few Greek, add the commander's motive, and the Douay-Rheims Bible prints it.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts; SBLGNT, NA28 and Tyndale House (THGNT); Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "πρὸς Φήλικα τὸν ἡγεμόνα",
+    "en": "to Felix the governor",
+    "plain": "to Felix, the governor.\""
+   },
+   {
+    "w": "Two Greek minuscules of the Western type, 614 and 2147, with the Old Latin Codex Gigas (gig) and another Old Latin witness (p), the Clementine Vulgate (and so the Douay-Rheims Bible, which prints it as part of its 23:25), and the Harclean Syriac, which has the words in its text marked with an asterisk, as reported by Metzger. The Latin of the Clementine Vulgate is given here; the Greek of the minuscules says the same in Greek words.",
+    "orig": "timuit enim ne forte raperent eum Iudaei et occiderent, et ipse postea calumniam sustineret, tamquam accepturus pecuniam",
+    "en": "for he was afraid that the Jews might seize him and kill him, and that he himself would afterward be falsely accused, as if he would take money",
+    "plain": "to Felix, the governor.\" He was afraid the Jews would seize Paul and kill him, and that afterward he himself would be falsely accused, as if he meant to take a bribe."
+   }
+  ],
+  "follow": 0,
+  "why": "The added sentence belongs to the Western tradition, which often explains motives. Nearly all Greek manuscripts lack it, including all the early ones, and it is not original, though it is a shrewd guess at why a commander would send 470 men to guard one prisoner.",
+  "s": [
+   "metzger"
+  ],
+  "b": "The Clementine Vulgate, the Latin Bible of the Catholic Church from 1592 until the twentieth century, prints the sentence in brackets and numbers it 23:25, so the Douay-Rheims Bible does too, and its verse numbers in the rest of the chapter differ from other English Bibles by one."
+ },
+ {
+  "v": "23:30",
+  "a": "in your court.",
+  "t": "\"Farewell\"",
+  "p": "Some manuscripts, followed by the KJV and the Tyndale House edition, end the letter with \"Farewell.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Alexandrinus (02) and Vaticanus (03), as reported by Metzger",
+    "orig": "ἐπὶ σοῦ.",
+    "en": "before you.",
+    "plain": "in your court."
+   },
+   {
+    "w": "Tyndale House (THGNT); Codex Sinaiticus (01), as reported by Metzger; Byzantine majority text and Textus Receptus (KJV \"Farewell\")",
+    "orig": "ἐπὶ σοῦ. Ἔρρωσο.",
+    "en": "before you. Farewell.",
+    "plain": "in your court. Farewell."
+   }
+  ],
+  "follow": 0,
+  "why": "Editors are divided. \"Farewell\" was the normal closing of a Greek letter, and a copyist could have added it by habit, as at the end of the decree (15:29). Or it could have dropped out. NA28 and the SBL edition leave it out; the Tyndale House edition keeps it. The Byzantine text also adds \"by the Jews\" earlier in the verse (KJV \"how that the Jews laid wait for the man\"), which the critical editions omit.",
+  "s": [
+   "metzger",
+   "thgnt",
+   "sblgnt"
+  ]
+ }
+]

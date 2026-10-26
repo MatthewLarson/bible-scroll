@@ -1,0 +1,595 @@
+[
+ {
+  "v": "6:1",
+  "a": "on a Sabbath",
+  "t": "\"The second-first Sabbath\"",
+  "p": "The KJV's \"the second sabbath after the first\" translates a puzzling Greek word that the oldest manuscripts do not have.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 4 and Papyrus 75 (about AD 200), Codex Sinaiticus and Vaticanus (300s), and others, as reported by Metzger",
+    "orig": "ἐν σαββάτῳ",
+    "en": "on a Sabbath",
+    "plain": "on a Sabbath"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), Bezae (400s), the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἐν σαββάτῳ δευτεροπρώτῳ",
+    "en": "on the second-first Sabbath",
+    "plain": "on the second-first Sabbath"
+   }
+  ],
+  "follow": 0,
+  "why": "The word <i>deuteroprōtos</i>, \"second-first,\" is found nowhere else in Greek literature, and no one knows what it means. The earliest witnesses lack it, and it is easier to explain how it got in than how it would have dropped out: a scribe may have written \"first\" in the margin to match \"another Sabbath\" in 6:6, another wrote \"second\" with 4:31 in mind, and a copyist combined them.",
+  "b": "Guesses at a meaning include the first Sabbath after the second day of Passover (counting toward Pentecost, Leviticus 23:15), the first Sabbath of the second year of a cycle, or the second Sabbath of the first month. Jerome tells how he asked his teacher Gregory of Nazianzus what the word meant, and Gregory joked that he would explain it in church, where the people's applause would force Jerome to agree (Jerome, Letter 52.8).",
+  "s": [
+   "metzger",
+   "jerome-letters",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:5",
+  "a": "Then he told them, \"The Son of Man is Lord over the Sabbath.\"",
+  "t": "The man working on the Sabbath",
+  "p": "Codex Bezae moves this verse after 6:10 and puts here a saying of Jesus found in no other Gospel manuscript.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus and nearly all manuscripts",
+    "orig": "καὶ ἔλεγεν αὐτοῖς· Κύριός ἐστιν τοῦ σαββάτου ὁ υἱὸς τοῦ ἀνθρώπου.",
+    "en": "And he said to them, The Son of Man is Lord of the Sabbath.",
+    "plain": "Then he told them, \"The Son of Man is Lord over the Sabbath.\""
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "καὶ ἔλεγεν αὐτοῖς ὅτι Κύριός ἐστιν ὁ υἱὸς τοῦ ἀνθρώπου καὶ τοῦ σαββάτου.",
+    "en": "And he said to them that the Son of Man is Lord also of the Sabbath.",
+    "plain": "Then he told them, \"The Son of Man is Lord even over the Sabbath.\""
+   },
+   {
+    "w": "Codex Bezae (D, 400s) alone, which places the usual 6:5 after 6:10",
+    "orig": "Τῇ αὐτῇ ἡμέρᾳ θεασάμενός τινα ἐργαζόμενον τῷ σαββάτῳ εἶπεν αὐτῷ· Ἄνθρωπε, εἰ μὲν οἶδας τί ποιεῖς, μακάριος εἶ· εἰ δὲ μὴ οἶδας, ἐπικατάρατος καὶ παραβάτης εἶ τοῦ νόμου.",
+    "en": "On the same day, seeing someone working on the Sabbath, he said to him: Man, if you know what you are doing, you are blessed; but if you do not know, you are cursed and a transgressor of the law.",
+    "plain": "On the same day he saw a man working on the Sabbath and said to him, \"Man, if you know what you are doing, you are blessed. But if you do not know, you are cursed and a breaker of the Law.\""
+   }
+  ],
+  "follow": 0,
+  "why": "Every other manuscript has the saying about the Son of Man here, and Bezae is known for adding and rearranging material in Luke and Acts. The Byzantine wording adds \"also\" (Mark 2:28's word) and moves it; the meaning is the same.",
+  "b": "The Bezae saying is one of the best-known <i>agrapha</i>, sayings of Jesus outside the canonical Gospels. Joachim Jeremias thought it might be genuine: it fits Paul's teaching that whatever is not done from faith is sin (Romans 14:23) and that a person who acts with a clear conscience is free. Most scholars think it is an early tradition that a scribe of the Bezae line inserted, and few think Luke wrote it. It is not Scripture in any church.",
+  "s": [
+   "metzger",
+   "jeremias-unknown-sayings",
+   "parker-bezae"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "his hand was made well again",
+  "t": "\"Healthy like the other\"",
+  "p": "The KJV adds \"whole as the other,\" words found in Matthew 12:13.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; the earliest manuscripts",
+    "orig": "ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ",
+    "en": "his hand was restored",
+    "plain": "his hand was made well again"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἀποκατεστάθη ἡ χεὶρ αὐτοῦ ὑγιὴς ὡς ἡ ἄλλη",
+    "en": "his hand was restored, healthy as the other",
+    "plain": "his hand was made well again, healthy like the other one"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words match Matthew 12:13, and copyists often harmonized one Gospel with another. The meaning is unchanged.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:35",
+  "a": "without hoping for anything back",
+  "t": "\"Despairing of no one\"?",
+  "p": "A few manuscripts read \"despairing of no one\" instead of \"hoping for nothing in return.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Alexandrinus, Vaticanus, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "μηδὲν ἀπελπίζοντες",
+    "en": "expecting nothing back",
+    "plain": "without hoping for anything back"
+   },
+   {
+    "w": "Codex Sinaiticus (01), W, Ξ and the Old Syriac, as reported by Metzger",
+    "orig": "μηδένα ἀπελπίζοντες",
+    "en": "despairing of no one",
+    "plain": "without giving up on anyone"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is a single letter (μηδέν / μηδένα). The verb <i>apelpizō</i> usually means \"to despair,\" and some scribes read the line that way; but with \"lend\" the sense \"expect back\" fits, and most witnesses have <i>mēden</i>. The Latin Vulgate's <i>nihil inde sperantes</i>, \"hoping for nothing from it,\" became the church's main proof text against lending at interest (see the note on 6:34).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:45",
+  "a": "an evil person brings evil out of evil",
+  "t": "\"The evil treasure of his heart\"",
+  "p": "The KJV spells out \"an evil man out of the evil treasure of his heart.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; the earliest manuscripts",
+    "orig": "ὁ πονηρὸς ἐκ τοῦ πονηροῦ προφέρει τὸ πονηρόν",
+    "en": "the evil one out of the evil brings forth evil",
+    "plain": "an evil person brings evil out of evil"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ὁ πονηρὸς ἄνθρωπος ἐκ τοῦ πονηροῦ θησαυροῦ τῆς καρδίας αὐτοῦ προφέρει τὸ πονηρόν",
+    "en": "the evil man out of the evil treasure of his heart brings forth evil",
+    "plain": "an evil person brings evil out of the evil storeroom of his heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading fills out the second half to match the first, a typical scribal addition. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "6:48",
+  "a": "because the house was well built",
+  "t": "Well built, or built on rock?",
+  "p": "The KJV reads \"for it was founded upon a rock,\" the wording of Matthew 7:25.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 75, Codex Sinaiticus, Vaticanus and others, as reported by Metzger",
+    "orig": "διὰ τὸ καλῶς οἰκοδομῆσθαι αὐτήν",
+    "en": "because it had been well built",
+    "plain": "because the house was well built"
+   },
+   {
+    "w": "Codex Alexandrinus, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "τεθεμελίωτο γὰρ ἐπὶ τὴν πέτραν",
+    "en": "for it had been founded on the rock",
+    "plain": "because it had its foundation on the rock"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine words repeat Matthew 7:25, and the reading of the oldest manuscripts is the less familiar one, so it is more likely original.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:7",
+  "a": "let my servant get well",
+  "t": "\"Let him be healed\" or \"he will be healed\"?",
+  "p": "The KJV's \"my servant shall be healed\" follows the future tense, as in Matthew 8:8. The modern editions print a command.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles; Papyrus 75 and Codex Vaticanus, with a few others",
+    "orig": "ἰαθήτω ὁ παῖς μου",
+    "en": "let my servant be healed",
+    "plain": "let my servant get well"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Bezae and most later manuscripts (the Byzantine majority); Textus Receptus (KJV)",
+    "orig": "ἰαθήσεται ὁ παῖς μου",
+    "en": "my servant will be healed",
+    "plain": "my servant will get well"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the places where the editors follow Papyrus 75 and Vaticanus against most early manuscripts. The future may have come in from Matthew 8:8, which has <i>iathēsetai</i>; copyists often made Luke match Matthew, and the less familiar wording is the likelier original. The sense is close either way: the centurion trusts Jesus' word to heal.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "7:10",
+  "a": "found the slave healthy",
+  "t": "\"The servant that had been sick\"",
+  "p": "The KJV's \"found the servant whole that had been sick\" adds one word, \"sick.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "τὸν δοῦλον ὑγιαίνοντα",
+    "en": "the slave healthy",
+    "plain": "found the slave healthy"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV)",
+    "orig": "τὸν ἀσθενοῦντα δοῦλον ὑγιαίνοντα",
+    "en": "the slave who had been ill, healthy",
+    "plain": "found the slave who had been ill healthy"
+   }
+  ],
+  "follow": 0,
+  "why": "The added participle spells out the contrast; the modern editions leave it out. Nothing changes in the story.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "a little later",
+  "t": "\"Soon afterward\" or \"the next day\"?",
+  "p": "One letter decides whether Jesus came to Nain \"soon afterward\" or \"the next day\" (KJV).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles, and the Byzantine text",
+    "orig": "ἐν τῷ ἑξῆς",
+    "en": "in the following (time)",
+    "plain": "a little later"
+   },
+   {
+    "w": "Textus Receptus (KJV) and a number of manuscripts, some of them early (the witnesses are not checked here against the NA28 apparatus)",
+    "orig": "ἐν τῇ ἑξῆς",
+    "en": "on the following (day)",
+    "plain": "on the next day"
+   }
+  ],
+  "follow": 0,
+  "why": "With the masculine or neuter article (<i>tō</i>) the phrase means \"afterward\"; with the feminine (<i>tē</i>, agreeing with an unstated \"day\") it means \"the next day.\" All the modern editions and the Byzantine text read <i>tō</i>. Nothing in the story depends on it.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "with his disciples",
+  "t": "\"Many of his disciples\"",
+  "p": "The KJV says \"many of his disciples went with him,\" adding ἱκανοί, \"many.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "οἱ μαθηταὶ αὐτοῦ",
+    "en": "his disciples",
+    "plain": "with his disciples"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV)",
+    "orig": "οἱ μαθηταὶ αὐτοῦ ἱκανοί",
+    "en": "many of his disciples",
+    "plain": "with many of his disciples"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Many\" (<i>hikanoi</i>, a favorite word of Luke's) may have been added to match the \"big crowd\" that follows; the modern editions leave it out. The meaning barely changes.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "to the Lord",
+  "t": "\"The Lord\" or \"Jesus\"?",
+  "p": "Older manuscripts have John send to \"the Lord\"; later ones and the KJV have \"Jesus.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus and others, as reported by Metzger",
+    "orig": "πρὸς τὸν κύριον",
+    "en": "to the Lord",
+    "plain": "to the Lord"
+   },
+   {
+    "w": "Codex Alexandrinus, W, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "πρὸς τὸν Ἰησοῦν",
+    "en": "to Jesus",
+    "plain": "to Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "Luke the narrator calls Jesus \"the Lord\" here as in 7:13; copyists who found the title surprising in a narrative may have changed it to the name.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "7:28",
+  "a": "no one born of a woman is greater than John",
+  "t": "\"A greater prophet\"",
+  "p": "The KJV reads \"there is not a greater prophet than John the Baptist.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus and others",
+    "orig": "μείζων ἐν γεννητοῖς γυναικῶν Ἰωάννου οὐδείς ἐστιν",
+    "en": "among those born of women none is greater than John",
+    "plain": "no one born of a woman is greater than John"
+   },
+   {
+    "w": "Codex Alexandrinus, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "μείζων ἐν γεννητοῖς γυναικῶν προφήτης Ἰωάννου τοῦ βαπτιστοῦ οὐδείς ἐστιν",
+    "en": "among those born of women no prophet is greater than John the Baptist",
+    "plain": "no prophet born of a woman is greater than John the Baptist"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Prophet\" and \"the Baptist\" fill out the saying, the second from Matthew 11:11. The shorter text is older. With \"prophet\" the saying ranks John only among prophets; without it, among all people.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:31",
+  "a": "\"What, then,",
+  "t": "\"And the Lord said\"",
+  "p": "The KJV begins this verse \"And the Lord said,\" words found in hardly any Greek manuscript.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; the Byzantine majority and nearly all manuscripts",
+    "orig": "Τίνι οὖν",
+    "en": "To what then",
+    "plain": "\"What, then,"
+   },
+   {
+    "w": "Textus Receptus (KJV), from a few late manuscripts",
+    "orig": "Εἶπε δὲ ὁ Κύριος, Τίνι οὖν",
+    "en": "And the Lord said, To what then",
+    "plain": "The Lord said, \"What, then,"
+   }
+  ],
+  "follow": 0,
+  "why": "The words appear in a few late manuscripts and in the printed Textus Receptus, probably added by a copyist or reader to mark the start of a lesson read in church after 7:29–30. Even the Byzantine text lacks them.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:39",
+  "a": "if he really were a prophet",
+  "t": "\"The prophet\"?",
+  "p": "Codex Vaticanus reads \"the prophet,\" as if Simon meant the promised Prophet like Moses.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and most manuscripts",
+    "orig": "εἰ ἦν προφήτης",
+    "en": "if he were a prophet",
+    "plain": "if he really were a prophet"
+   },
+   {
+    "w": "Codex Vaticanus (B) and a few others; Westcott and Hort's text",
+    "orig": "εἰ ἦν ὁ προφήτης",
+    "en": "if he were the prophet",
+    "plain": "if he really were the Prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "With the article Simon would be weighing whether Jesus is the expected Prophet of Deuteronomy 18:15 (compare John 1:21; 6:14). Most witnesses lack it, and the general sense \"a prophet\" fits 7:16. A copyist may have added it under the influence of John's Gospel.",
+  "s": [
+   "westcott-hort-intro",
+   "na28"
+  ]
+ },
+ {
+  "v": "8:3",
+  "a": "serving them",
+  "t": "\"Them\" or \"him\"?",
+  "p": "Did the women support \"them\" (Jesus and the Twelve) or \"him\" (Jesus)? The KJV has \"him.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Vaticanus, Bezae, W, the Byzantine majority, as reported by Metzger",
+    "orig": "αὐτοῖς",
+    "en": "them",
+    "plain": "serving them"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus and others; Textus Receptus (KJV)",
+    "orig": "αὐτῷ",
+    "en": "him",
+    "plain": "serving him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Him\" matches Mark 15:41 and Matthew 27:55, which say the women served Jesus, and it focuses on Jesus; Metzger judged it a change by copyists who wanted the women's service to be to the Lord. \"Them\" includes the Twelve and makes the women patrons of the whole mission.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "the land of the Gerasenes",
+  "t": "Gerasenes, Gadarenes or Gergesenes?",
+  "p": "Manuscripts of all three Gospels disagree about the place name. Luke's best witnesses have Gerasenes, as Mark's do.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 75, Codex Vaticanus, Bezae, the Latin versions, as reported by Metzger",
+    "orig": "Γερασηνῶν",
+    "en": "of the Gerasenes",
+    "plain": "the land of the Gerasenes"
+   },
+   {
+    "w": "Codex Sinaiticus, L, Θ and others, as reported by Metzger",
+    "orig": "Γεργεσηνῶν",
+    "en": "of the Gergesenes",
+    "plain": "the land of the Gergesenes"
+   },
+   {
+    "w": "Codex Alexandrinus, W, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Γαδαρηνῶν",
+    "en": "of the Gadarenes",
+    "plain": "the land of the Gadarenes"
+   }
+  ],
+  "follow": 0,
+  "why": "Gerasa (modern Jerash in Jordan) was a great Decapolis city about 33 miles (53 km) from the lake; Gadara, about 6 miles (10 km) away, owned land reaching toward the shore; Gergesa may be a small place on the shore (often linked with Kursi), a name Origen promoted because the other two seemed too far. Gerasenes has the earliest and most varied support in Luke and Mark; Gadarenes is the best reading in Matthew 8:28. The Plain follows the same reading as at Mark 5:1.",
+  "b": "See also the variant at 8:37, where the same names appear, and the notes at Mark 5:1 and Matthew 8:28.",
+  "s": [
+   "metzger",
+   "tzaferis-kursi"
+  ]
+ },
+ {
+  "v": "8:37",
+  "a": "Gerasene",
+  "t": "The same place name",
+  "p": "The place name varies here as in 8:26.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 75, Codex Vaticanus and others",
+    "orig": "τῆς περιχώρου τῶν Γερασηνῶν",
+    "en": "of the surrounding region of the Gerasenes",
+    "plain": "Gerasene"
+   },
+   {
+    "w": "Codex Sinaiticus and others",
+    "orig": "τῆς περιχώρου τῶν Γεργεσηνῶν",
+    "en": "of the surrounding region of the Gergesenes",
+    "plain": "Gergesene"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "τῆς περιχώρου τῶν Γαδαρηνῶν",
+    "en": "of the surrounding region of the Gadarenes",
+    "plain": "Gadarene"
+   }
+  ],
+  "follow": 0,
+  "why": "Goes with the variant at 8:26: the same witnesses generally read the same name in both places.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:43",
+  "a": ", though she had poured her whole livelihood into doctors",
+  "t": "Spent on doctors",
+  "p": "Some early manuscripts lack the clause about spending everything on doctors.",
+  "readings": [
+   {
+    "w": "SBLGNT, THGNT; NA28 prints it in brackets; Codex Sinaiticus, Alexandrinus, C, W, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἰατροῖς προσαναλώσασα ὅλον τὸν βίον",
+    "en": "having spent her whole living on doctors",
+    "plain": ", though she had poured her whole livelihood into doctors"
+   },
+   {
+    "w": "Papyrus 75, Codex Vaticanus, the Sinaitic Syriac and others, as reported by Metzger; Westcott and Hort's text",
+    "orig": "—",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is closely balanced. The clause may have been added from Mark 5:26 (though its wording differs from Mark's), or dropped, perhaps by a copyist who disliked the reflection on doctors, as some suggest Luke the physician did when he shortened Mark. The NA28 editors bracket it to show doubt; the Plain keeps it with SBL and Tyndale House, since its wording is not simply copied from Mark.",
+  "s": [
+   "metzger",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "8:45",
+  "a": "and Peter said",
+  "t": "\"Peter and those with him\"",
+  "p": "Some manuscripts, and the Tyndale House edition, say Peter \"and those with him\" spoke. The longer text has two forms.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Papyrus 75, Codex Vaticanus and others, as reported by Metzger",
+    "orig": "εἶπεν ὁ Πέτρος",
+    "en": "Peter said",
+    "plain": "and Peter said"
+   },
+   {
+    "w": "THGNT, Tregelles; Codex Sinaiticus, C, D, L and others, as reported by Metzger (not checked here against the NA28 apparatus)",
+    "orig": "εἶπεν ὁ Πέτρος καὶ οἱ σὺν αὐτῷ",
+    "en": "Peter and those with him said",
+    "plain": "and Peter and those with him said"
+   },
+   {
+    "w": "Codex Alexandrinus, W, Θ, Ψ and the Byzantine majority, as reported by Metzger; Textus Receptus (KJV)",
+    "orig": "εἶπεν ὁ Πέτρος καὶ οἱ μετ’ αὐτοῦ",
+    "en": "Peter and those with him said",
+    "plain": "and Peter and those with him said"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase may have been added from Mark 5:31, where \"his disciples\" answer, or dropped by accident; that it circulates in two wordings (<i>syn autō</i>, <i>met' autou</i>) suggests an addition made more than once. The Plain follows SBL and NA28; Tyndale House's editors judged the longer text, in its <i>syn autō</i> form, original. The English is the same for both longer forms, and the meaning hardly changes.",
+  "s": [
+   "metzger",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "8:45",
+  "a": "crushing against you",
+  "t": "\"And you ask, 'Who touched me?'\"",
+  "p": "The KJV adds Peter's words \"and sayest thou, Who touched me?\", found in Mark 5:31.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 75, Codex Sinaiticus, Vaticanus and others",
+    "orig": "συνέχουσίν σε καὶ ἀποθλίβουσιν",
+    "en": "press you and crowd you",
+    "plain": "crushing against you"
+   },
+   {
+    "w": "Codex Alexandrinus, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "συνέχουσίν σε καὶ ἀποθλίβουσιν, καὶ λέγεις, Τίς ὁ ἁψάμενός μου;",
+    "en": "press you and crowd you, and you say, Who touched me?",
+    "plain": "crushing against you, and you ask, 'Who touched me?'"
+   }
+  ],
+  "follow": 0,
+  "why": "The added question is taken from Mark 5:31. The oldest manuscripts lack it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:48",
+  "a": "Daughter",
+  "t": "\"Take courage, daughter\"",
+  "p": "The KJV's \"Daughter, be of good comfort\" adds \"take courage,\" the word in Matthew 9:22.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus and others",
+    "orig": "Θυγάτηρ",
+    "en": "Daughter",
+    "plain": "Daughter"
+   },
+   {
+    "w": "Codex Alexandrinus, W, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Θάρσει, θύγατερ",
+    "en": "Take courage, daughter",
+    "plain": "Take courage, daughter"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Take courage\" comes from Matthew 9:22. Mark 5:34 and the earliest manuscripts of Luke have \"Daughter\" alone.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "8:54",
+  "a": "But he took hold of her hand",
+  "t": "\"He put them all out\"",
+  "p": "The KJV adds that Jesus \"put them all out,\" as in Mark 5:40.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Papyrus 75, Codex Sinaiticus, Vaticanus, Bezae and others",
+    "orig": "αὐτὸς δὲ κρατήσας τῆς χειρὸς αὐτῆς",
+    "en": "but he, taking hold of her hand",
+    "plain": "But he took hold of her hand"
+   },
+   {
+    "w": "Codex Alexandrinus, W, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "αὐτὸς δὲ ἐκβαλὼν ἔξω πάντας καὶ κρατήσας τῆς χειρὸς αὐτῆς",
+    "en": "but he, putting them all outside and taking hold of her hand",
+    "plain": "But he put them all outside and took hold of her hand"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words come from Mark 5:40 (and Matthew 9:25). In Luke only five people went in with Jesus (8:51), so the mourners were already outside the room; a copyist filled the scene out from Mark.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

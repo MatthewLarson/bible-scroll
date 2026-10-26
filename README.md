@@ -102,8 +102,8 @@ Each book's `bible/content/books/<id>/progress.md` has the full log. `/resume <i
 **Lead edits not yet published**: back-links in 1 Maccabees (13 notes), the quote checker and poetry-span app
 changes. They are in the files; the next `/publish` includes them.
 
-**Not started**: Song of Songs, Lamentations, Ezekiel, Daniel, the Twelve (Hosea–Malachi), Mark through 3 John
-(except Matthew, John and Jude), Sirach, Baruch and the Letter of Jeremiah, the Orthodox extras, Jubilees, and the
+**Not started**: Song of Songs, Lamentations, Ezekiel, Daniel, the Twelve (Hosea–Malachi), Romans through 3 John
+(except Jude), Sirach, Baruch and the Letter of Jeremiah, the Orthodox extras, Jubilees, and the
 tier-3 works.
 
 **Pending proposals** (`bible/content/proposals/`): the nt, prophets and works lanes have terms, topics, works and

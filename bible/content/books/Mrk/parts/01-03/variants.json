@@ -1,0 +1,783 @@
+[
+ {
+  "v": "1:1",
+  "a": ", God's Son",
+  "t": "\"God's Son\" in the first verse?",
+  "p": "The oldest copy of Sinaiticus and a few others lack \"God's Son.\" Vaticanus and most manuscripts have it.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s), Bezae (D, 400s), L (700s), Washington (W, 400s) (without the article); Alexandrinus (A, 400s) and most later manuscripts (with the article); Sinaiticus as corrected; NA28 (in brackets), THGNT, Textus Receptus (KJV)",
+    "orig": "υἱοῦ θεοῦ / υἱοῦ τοῦ θεοῦ",
+    "en": "Son of God",
+    "plain": ", God's Son"
+   },
+   {
+    "w": "Codex Sinaiticus as first written (01*, 300s), Koridethi (Θ, 800s), the minuscule 28, Origen (as reported by Metzger and the NA28 apparatus); SBLGNT",
+    "orig": "—",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in the great majority of manuscripts, including Vaticanus, and in the early translations. Their loss is easy to explain: scribes wrote the sacred names in short forms (ΙΥ ΧΥ ΥΥ ΘΥ), a row of look-alike abbreviations an eye could skip, and Sinaiticus omits other words in this way. The SBLGNT leaves them out because the omission is the shorter reading and has some very old support; NA28 prints them in brackets and the Tyndale House edition prints them. The title fits Mark's frame (1:11; 15:39), though that could also explain why someone added it.",
+  "b": "Scholars still argue both ways: Peter Head and Bart Ehrman argue that the shorter text is original and the title was added; Tommy Wasserman argues for the longer text. Either way Mark calls Jesus God's Son at 1:11, 3:11 and 15:39.",
+  "s": [
+   "metzger",
+   "wasserman-son-of-god",
+   "head-mark-1-1",
+   "ehrman-corruption"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "in Isaiah the prophet",
+  "t": "\"In Isaiah\" or \"in the prophets\"?",
+  "p": "Later manuscripts and the KJV say \"in the prophets,\" since the quotation begins with Malachi, not Isaiah.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s), Bezae (D), L, Δ, Θ, early translations and church fathers (Metzger); NA28, SBLGNT, THGNT",
+    "orig": "ἐν τῷ Ἠσαΐᾳ τῷ προφήτῃ",
+    "en": "in Isaiah the prophet",
+    "plain": "in Isaiah the prophet"
+   },
+   {
+    "w": "Alexandrinus (A, 400s), Washington (W), most later manuscripts; Byzantine text, Textus Receptus (KJV \"in the prophets\")",
+    "orig": "ἐν τοῖς προφήταις",
+    "en": "in the prophets",
+    "plain": "in the prophets"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In Isaiah\" has the oldest and widest support, and it is the harder reading: a copyist who noticed that the first lines come from Malachi and Exodus would change it to \"the prophets,\" but no one would change \"the prophets\" to a name that seems wrong. Mark names the prophet whose words frame the whole quotation (see the note).",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "He will make your road ready.",
+  "t": "\"Ahead of you\"",
+  "p": "The Byzantine text adds \"ahead of you,\" as in Matthew 11:10 and Luke 7:27.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), L and others; NA28, SBLGNT, THGNT (Tischendorf)",
+    "orig": "ὃς κατασκευάσει τὴν ὁδόν σου",
+    "en": "who will prepare your way",
+    "plain": "He will make your road ready."
+   },
+   {
+    "w": "Alexandrinus (A) and most later manuscripts; Byzantine text, Textus Receptus (KJV \"before thee\")",
+    "orig": "... τὴν ὁδόν σου ἔμπροσθέν σου",
+    "en": "who will prepare your way before you",
+    "plain": "He will make your road ready ahead of you."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words match Matthew 11:10 and Luke 7:27, where the same line is quoted; copyists often filled out one Gospel from another.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "John the Baptizer came on the scene in the wilderness. He proclaimed",
+  "t": "\"The Baptizer\" or \"came baptizing\"?",
+  "p": "Three forms: \"John the Baptizer appeared ... proclaiming\"; \"the Baptizer ... and proclaiming\"; or \"John came baptizing ... and proclaiming\" (KJV). The meaning hardly changes.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), the minuscule 33 and a few others (Tischendorf; Metzger); Westcott-Hort, SBLGNT",
+    "orig": "ἐγένετο Ἰωάννης ὁ βαπτίζων ἐν τῇ ἐρήμῳ κηρύσσων",
+    "en": "John the baptizer appeared in the wilderness, proclaiming",
+    "plain": "John the Baptizer came on the scene in the wilderness. He proclaimed"
+   },
+   {
+    "w": "Codex Sinaiticus (as reported by Metzger), L, Δ, the Coptic (Tischendorf); THGNT; NA27/NA28 (with the article in brackets)",
+    "orig": "ἐγένετο Ἰωάννης ὁ βαπτίζων ἐν τῇ ἐρήμῳ καὶ κηρύσσων",
+    "en": "John the baptizer was in the wilderness, and was proclaiming",
+    "plain": "John the Baptizer came on the scene in the wilderness, and he proclaimed"
+   },
+   {
+    "w": "Alexandrinus (A), Bezae (D), W and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV \"John did baptize in the wilderness, and preach\")",
+    "orig": "ἐγένετο Ἰωάννης βαπτίζων ἐν τῇ ἐρήμῳ καὶ κηρύσσων",
+    "en": "John came baptizing in the wilderness and proclaiming",
+    "plain": "John came on the scene baptizing in the wilderness, and he proclaimed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT, with Vaticanus. NA28 and THGNT also read \"the Baptizer\" but keep \"and\"; the English barely changes. Mark uses the same title, \"the Baptizer,\" at 6:14 and 6:24. Copyists who found the title odd beside \"proclaiming\" could easily drop the article and add \"and.\"",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "and the people of Jerusalem, every one of them. As they confessed their sins out loud, he baptized them",
+  "t": "Who were \"all\"?",
+  "p": "In the older manuscripts \"all\" goes with the people of Jerusalem. In later ones, and the KJV, it moves to the baptizing: \"and were all baptized of him.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), L, Δ, 28, 33, most Old Latin, the Vulgate, the Coptic (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "οἱ Ἱεροσολυμῖται πάντες, καὶ ἐβαπτίζοντο ὑπ᾽ αὐτοῦ",
+    "en": "all the people of Jerusalem, and they were baptized by him",
+    "plain": "and the people of Jerusalem, every one of them. As they confessed their sins out loud, he baptized them"
+   },
+   {
+    "w": "Alexandrinus (A) and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV \"and were all baptized of him\")",
+    "orig": "οἱ Ἱεροσολυμῖται, καὶ ἐβαπτίζοντο πάντες",
+    "en": "the people of Jerusalem, and they were all baptized",
+    "plain": "and the people of Jerusalem. As they confessed their sins out loud, they were all baptized by him"
+   }
+  ],
+  "follow": 0,
+  "why": "The older manuscripts put \"all\" with Jerusalem; later copies moved it, perhaps to match Matthew 3:5–6. The sense is the same: a vast crowd.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "God's good news",
+  "t": "\"The good news of God\" or \"of the kingdom of God\"?",
+  "p": "Later manuscripts and the KJV read \"the gospel of the kingdom of God,\" a fuller phrase like Matthew's.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01) and Vaticanus (B), L, the minuscules 1, 28, 33, some Old Latin, the Coptic, Origen (Tischendorf; Metzger); NA28, SBLGNT, THGNT",
+    "orig": "τὸ εὐαγγέλιον τοῦ θεοῦ",
+    "en": "the good news of God",
+    "plain": "God's good news"
+   },
+   {
+    "w": "Alexandrinus (A), Bezae (D), most later manuscripts, most Old Latin and the Vulgate; Byzantine text, Textus Receptus (KJV \"the gospel of the kingdom of God\")",
+    "orig": "τὸ εὐαγγέλιον τῆς βασιλείας τοῦ θεοῦ",
+    "en": "the good news of the kingdom of God",
+    "plain": "the good news of the kingdom of God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Of the kingdom\" looks like a copyist's addition from the next verse or from Matthew's common phrase (Matthew 4:23; 9:35). The shorter reading has strong early witnesses.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:24",
+  "a": "\"What is there between us and you, Jesus of Nazareth?",
+  "t": "\"Let us alone!\"",
+  "p": "The KJV's \"Let us alone\" translates an exclamation, Ea, found in later manuscripts and in Luke 4:34.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), the Old Latin and Vulgate, Coptic and Syriac (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "τί ἡμῖν καὶ σοί",
+    "en": "What to us and to you",
+    "plain": "\"What is there between us and you, Jesus of Nazareth?"
+   },
+   {
+    "w": "Alexandrinus (A), C, most later manuscripts; Byzantine text, Textus Receptus (KJV \"Let us alone; what have we to do with thee\")",
+    "orig": "ἔα, τί ἡμῖν καὶ σοί",
+    "en": "Ha! What to us and to you",
+    "plain": "\"Ha! Leave us alone! What is there between us and you, Jesus of Nazareth?"
+   }
+  ],
+  "follow": 0,
+  "why": "The cry <i>Ea</i> (an exclamation of surprise or displeasure, which the KJV took as \"let alone\") stands firmly in Luke 4:34 and was probably added to Mark from there.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:27",
+  "a": "A new teaching! With authority he orders",
+  "t": "How do the crowd's words run?",
+  "p": "The best manuscripts have a terse cry, \"A new teaching with authority!\" Later ones smooth it into a full question.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), L, 33, 102 (Tischendorf); Sinaiticus (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "διδαχὴ καινὴ κατ᾽ ἐξουσίαν· καὶ ... ἐπιτάσσει",
+    "en": "A new teaching with authority! He even commands",
+    "plain": "A new teaching! With authority he orders"
+   },
+   {
+    "w": "Alexandrinus (A), C, most later manuscripts; Byzantine text, Textus Receptus (KJV \"what new doctrine is this? for with authority commandeth he\")",
+    "orig": "τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ᾽ ἐξουσίαν ...",
+    "en": "What is this new teaching, that with authority he commands",
+    "plain": "What is this new teaching? With authority he orders"
+   }
+  ],
+  "follow": 0,
+  "why": "The short exclamation is rough Greek, and later copyists smoothed it in several different ways (Codex Bezae has yet another form). The roughness is typical of Mark and is the likely original.",
+  "b": "Even with the short text, the punctuation is debated: \"A new teaching with authority! He even orders...\" or \"A new teaching! With authority he orders....\" The Plain follows the SBLGNT's punctuation. Either way, the crowd links Jesus' teaching and his power over the spirits.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:29",
+  "a": "Right after leaving the synagogue, they came",
+  "t": "\"They\" or \"he\" left the synagogue?",
+  "p": "Most manuscripts say \"they\" left and came. Vaticanus, Bezae and others say \"he\" left and came, with James and John.",
+  "readings": [
+   {
+    "w": "Alexandrinus (A), C, L, Δ and most manuscripts, the Vulgate, the Coptic (Tischendorf); NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "ἐξελθόντες ἦλθον",
+    "en": "having gone out, they came",
+    "plain": "Right after leaving the synagogue, they came"
+   },
+   {
+    "w": "Codex Vaticanus (B), Bezae (D, in its own wording), the minuscules 1, 22, 69, 124, 131, 209, 346 and others, most Old Latin, the Ethiopic (Tischendorf)",
+    "orig": "ἐξελθὼν ἦλθεν",
+    "en": "having gone out, he came",
+    "plain": "Right after leaving the synagogue, he came"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural has the wider support. The singular matches Matthew 8:14 and Luke 4:38, where Jesus alone comes to the house, and may be an adjustment to them; some scholars think instead that \"they\" reflects Peter's own telling, \"we came.\"",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:31",
+  "a": "The fever let go of her",
+  "t": "\"Immediately\" the fever left?",
+  "p": "The KJV reads \"immediately the fever left her.\" The oldest manuscripts lack \"immediately.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), C, L, the minuscules 1, 28, 33, 102 and others, Old Latin e, the Coptic, the Armenian (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "καὶ ἀφῆκεν αὐτὴν ὁ πυρετός",
+    "en": "and the fever left her",
+    "plain": "The fever let go of her"
+   },
+   {
+    "w": "Alexandrinus (A), Bezae (D, in another place) and most later manuscripts, most Old Latin, the Vulgate (Tischendorf); Byzantine text, Textus Receptus (KJV)",
+    "orig": "καὶ ἀφῆκεν αὐτὴν ὁ πυρετὸς εὐθέως",
+    "en": "and the fever left her immediately",
+    "plain": "At once the fever let go of her"
+   }
+  ],
+  "follow": 0,
+  "why": "Mark loves \"at once\" (<i>euthys</i>), so copyists easily added it; Luke has his own word for the speed of the cure (Luke 4:39). The meaning does not change.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:34",
+  "a": "because they knew him",
+  "t": "\"They knew him\" or \"knew him to be the Christ\"?",
+  "p": "Vaticanus and several others add \"to be the Christ,\" as in Luke 4:41.",
+  "readings": [
+   {
+    "w": "Alexandrinus (A), Bezae (D, which rewrites the verse), most later manuscripts, the Old Latin and Vulgate (Tischendorf); NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "ὅτι ᾔδεισαν αὐτόν",
+    "en": "because they knew him",
+    "plain": "because they knew him"
+   },
+   {
+    "w": "Codex Vaticanus (B), C, L, M, Θ, the minuscules 28, 33 and many others, the Coptic (Tischendorf); Westcott-Hort",
+    "orig": "ὅτι ᾔδεισαν αὐτὸν Χριστὸν εἶναι",
+    "en": "because they knew him to be Christ",
+    "plain": "because they knew he was the Messiah"
+   }
+  ],
+  "follow": 0,
+  "why": "Luke 4:41 has \"they knew he was the Messiah,\" and copyists often filled out Mark from the other Gospels. The addition also comes in several different forms, a common sign of a later insertion.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:40",
+  "a": "pleading with him and falling on his knees",
+  "t": "Did he kneel?",
+  "p": "Vaticanus, Bezae and some Old Latin copies do not say the man knelt. Most manuscripts, and the KJV, do.",
+  "readings": [
+   {
+    "w": "Alexandrinus (A), C, L, Δ and most manuscripts, the Vulgate, the Syriac (Tischendorf); NA28, SBLGNT, THGNT, Textus Receptus (KJV \"and kneeling down to him\")",
+    "orig": "παρακαλῶν αὐτὸν καὶ γονυπετῶν",
+    "en": "pleading with him and kneeling",
+    "plain": "pleading with him and falling on his knees"
+   },
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), the minuscules 102, 124 and a few others, Old Latin a, b, c, ff2, g1 (Tischendorf)",
+    "orig": "παρακαλῶν αὐτόν",
+    "en": "pleading with him",
+    "plain": "pleading with him"
+   }
+  ],
+  "follow": 0,
+  "why": "All the editions print the words. Tischendorf judged the kneeling original because Mark likes such vivid detail (5:22; 10:17), and the omission in a few old copies may be accidental. Matthew 8:2 and Luke 5:12 describe the man's bow in their own words.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "1:41",
+  "a": "Jesus grew angry",
+  "t": "Angry, or moved with compassion?",
+  "p": "Almost all manuscripts say Jesus felt compassion. One Greek copy and some Old Latin ones say he was angry. The SBLGNT, followed here, prints \"angry.\"",
+  "readings": [
+   {
+    "w": "Codex Bezae (D, 400s) and the Old Latin manuscripts a and ff2 (Tischendorf), with r1 (Metzger); SBLGNT",
+    "orig": "ὀργισθείς",
+    "en": "having become angry",
+    "plain": "Jesus grew angry"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, C, L, W, Θ and nearly all other manuscripts and translations; NA28, THGNT, Textus Receptus (KJV \"moved with compassion\")",
+    "orig": "σπλαγχνισθείς",
+    "en": "moved with compassion",
+    "plain": "Jesus' heart went out to him"
+   },
+   {
+    "w": "A few Old Latin manuscripts (b, g1) (Tischendorf)",
+    "orig": "—",
+    "en": "(no emotion named)",
+    "plain": "Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the hardest choices in Mark. Nearly all the evidence supports \"compassion.\" But \"angry\" is the harder reading, and it is easy to see why a scribe would change it to \"compassion\" and very hard to see why anyone would change \"compassion\" to \"angry.\" Matthew 8:3 and Luke 5:13 both drop the word entirely, though where Mark says Jesus felt compassion elsewhere, Matthew keeps the word (Mark 6:34 and Matthew 14:14; Mark 8:2 and Matthew 15:32): the silence here is easiest to explain if their copy of Mark said \"angry.\" And anger fits the harsh words that follow (1:43). The SBLGNT editor chose \"angry\"; NA28 and THGNT keep \"compassion.\" The Plain follows the SBLGNT, and the reader can switch.",
+  "b": "<p>If Jesus was angry, at what? Suggestions include: the disease and the evil power behind it (compare his anger at death in John 11:33, 38); the man's doubt, \"If you want to\"; the man's coming into a crowd while unclean; or the system that kept such people outside. Bart Ehrman argued strongly for \"angry\"; Peter J. Williams replied that a single Greek manuscript with a Latin tradition is too narrow a base, and that the Old Latin alone cannot carry it. Both readings are ancient, and both say something true of Jesus in Mark. Among English versions, the 2011 NIV follows \"angry\" (\"indignant\").</p>",
+  "s": [
+   "metzger",
+   "ehrman-angry",
+   "williams-orgistheis",
+   "tischendorf-nt8",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:42",
+  "a": "At once the skin disease went away from him",
+  "t": "\"As soon as he had spoken\"?",
+  "p": "The KJV begins, \"And as soon as he had spoken, immediately the leprosy departed.\" The older manuscripts lack \"as he spoke.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), L, the minuscules 69, 102 and others, most Old Latin, the Coptic and some Syriac versions (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "καὶ εὐθὺς ἀπῆλθεν",
+    "en": "and at once [it] went away",
+    "plain": "At once the skin disease went away from him"
+   },
+   {
+    "w": "Alexandrinus (A), C and most later manuscripts, the Vulgate, the Gothic (Tischendorf); Byzantine text, Textus Receptus (KJV)",
+    "orig": "καὶ εἰπόντος αὐτοῦ εὐθέως ἀπῆλθεν",
+    "en": "and as he spoke, at once [it] went away",
+    "plain": "As he spoke, at once the skin disease went away from him"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase stresses that Jesus' word did the healing, a natural expansion. Matthew and Luke do not have it, and it is missing from the oldest witnesses. The meaning does not change.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "What does this man mean by talking like this? He is blaspheming!",
+  "t": "\"He is blaspheming!\" or \"speak blasphemies\"?",
+  "p": "The KJV reads \"Why doth this man thus speak blasphemies?\" The older manuscripts have a short exclamation: \"He is blaspheming!\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), L, most Old Latin, the Vulgate (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "τί οὗτος οὕτως λαλεῖ; βλασφημεῖ·",
+    "en": "Why does this man speak like this? He blasphemes!",
+    "plain": "What does this man mean by talking like this? He is blaspheming!"
+   },
+   {
+    "w": "Alexandrinus (A), C and most later manuscripts, the Syriac, the Gothic (Tischendorf); Byzantine text, Textus Receptus (KJV)",
+    "orig": "τί οὗτος οὕτως λαλεῖ βλασφημίας;",
+    "en": "Why does this man speak blasphemies like this?",
+    "plain": "Why does this man speak blasphemies like this?"
+   }
+  ],
+  "follow": 0,
+  "why": "The smoother question matches Luke 5:21 (\"Who is this who speaks blasphemies?\" in the KJV), and copyists likely borrowed it. Mark's abrupt \"He is blaspheming!\" is his style.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "The scribes who belonged to the Pharisees",
+  "t": "\"Scribes of the Pharisees\" or \"scribes and Pharisees\"?",
+  "p": "The best manuscripts name scribes who were Pharisees. Later ones list two groups, as the KJV does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), L, Δ, 33, Old Latin b, the Coptic, the Palestinian Syriac lectionary (Tischendorf); Codex Bezae (D) in its own wording (Tischendorf); Sinaiticus and W (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "οἱ γραμματεῖς τῶν Φαρισαίων",
+    "en": "the scribes of the Pharisees",
+    "plain": "The scribes who belonged to the Pharisees"
+   },
+   {
+    "w": "Alexandrinus (A), C and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV \"the scribes and Pharisees\")",
+    "orig": "οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι",
+    "en": "the scribes and the Pharisees",
+    "plain": "The scribes and the Pharisees"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Scribes of the Pharisees\" is unusual, found only here and in Acts 23:9, and copyists replaced it with the familiar pair \"scribes and Pharisees\" from Matthew and Luke.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "\"Why is he eating with the tax collectors and sinners?\"",
+  "t": "\"Eating,\" \"eating and drinking,\" or \"your teacher\"?",
+  "p": "The Byzantine text and the KJV add \"and drinking,\" as in Luke 5:30. Other manuscripts add \"your teacher,\" as in Matthew 9:11.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Bezae (D), the minuscules 102, 235, 271, Old Latin a, b, e, ff2 (Tischendorf); NA28, SBLGNT, THGNT, Westcott-Hort",
+    "orig": "μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει",
+    "en": "he eats with the tax collectors and sinners",
+    "plain": "\"Why is he eating with the tax collectors and sinners?\""
+   },
+   {
+    "w": "Alexandrinus (A), C, L, Δ and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV \"eateth and drinketh\"), Tregelles",
+    "orig": "... ἐσθίει καὶ πίνει",
+    "en": "he eats and drinks",
+    "plain": "\"Why is he eating and drinking with the tax collectors and sinners?\""
+   },
+   {
+    "w": "C, L, Δ, 69 and about ten others, Old Latin c, ff1, g1, g2, l, the Vulgate, the Coptic and Ethiopic (Tischendorf), most of them with \"and drinking\" as well",
+    "orig": "... ἐσθίει ὁ διδάσκαλος ὑμῶν",
+    "en": "your teacher eats",
+    "plain": "\"Why is your teacher eating with the tax collectors and sinners?\""
+   }
+  ],
+  "follow": 0,
+  "why": "Both additions match a parallel: \"and drinking\" is in Luke 5:30, \"your teacher\" in Matthew 9:11. The critical editions judge both to be borrowed from there. The meaning does not change.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "I came to call sinners.",
+  "t": "\"Sinners\" or \"sinners to repentance\"?",
+  "p": "The KJV's \"to repentance\" comes from later manuscripts; it stands in Luke 5:32.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus, and other early manuscripts; NA28, SBLGNT, THGNT",
+    "orig": "ἀλλὰ ἁμαρτωλούς",
+    "en": "but sinners",
+    "plain": "I came to call sinners."
+   },
+   {
+    "w": "Later manuscripts; Byzantine text, Textus Receptus (KJV \"but sinners to repentance\")",
+    "orig": "ἀλλὰ ἁμαρτωλοὺς εἰς μετάνοιαν",
+    "en": "but sinners to repentance",
+    "plain": "I came to call sinners to repentance."
+   }
+  ],
+  "follow": 0,
+  "why": "\"To repentance\" is secure in Luke 5:32 and was added to Mark (and to Matthew 9:13) from there.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "on that day",
+  "t": "\"On that day\" or \"in those days\"?",
+  "p": "The older manuscripts end the saying \"on that day.\" Later ones, and the KJV, read \"in those days,\" as in Luke 5:35.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, C, Bezae (D), K, L, Δ, the minuscules 1, 13, 28, 33, 69 and others, some Old Latin, the Gothic, the Syriac (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "ἐν ἐκείνῃ τῇ ἡμέρᾳ",
+    "en": "on that day",
+    "plain": "on that day"
+   },
+   {
+    "w": "E, F, G, H, M, S, U, V, Γ and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV \"in those days\")",
+    "orig": "ἐν ἐκείναις ταῖς ἡμέραις",
+    "en": "in those days",
+    "plain": "in those days"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular has the oldest and widest early support. The plural repeats the \"days\" at the start of the verse and matches Luke 5:35, from which copyists likely took it. The note on this verse builds on \"on that day\"; with the plural, the saying speaks of the whole time after Jesus is taken away.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "Otherwise the wine will burst the skins, and the wine is lost, and the skins too. No: new wine into fresh skins!",
+  "t": "How does the wineskin saying end?",
+  "p": "The KJV reads \"the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.\" Bezae and some Old Latin copies lack the last clause.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), C, L, 33 (Tischendorf, for most of the wording); NA28, SBLGNT",
+    "orig": "ῥήξει ὁ οἶνος τοὺς ἀσκούς, καὶ ὁ οἶνος ἀπόλλυται καὶ οἱ ἀσκοί· ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινούς",
+    "en": "the wine will burst the skins, and the wine is lost and the skins; but new wine into fresh skins",
+    "plain": "Otherwise the wine will burst the skins, and the wine is lost, and the skins too. No: new wine into fresh skins!"
+   },
+   {
+    "w": "Alexandrinus (A) and most later manuscripts (Tischendorf); Byzantine text, Textus Receptus (KJV)",
+    "orig": "ῥήσσει ὁ οἶνος ὁ νέος τοὺς ἀσκούς, καὶ ὁ οἶνος ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται· ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον",
+    "en": "the new wine bursts the skins, and the wine is poured out and the skins will be ruined; but new wine must be put into fresh skins",
+    "plain": "Otherwise the new wine bursts the skins, and the wine pours out and the skins are ruined. No: new wine must be put into fresh skins!"
+   },
+   {
+    "w": "Codex Bezae (D), Old Latin a, b, ff2, i (Tischendorf)",
+    "orig": "... καὶ οἱ ἀσκοί (no last clause)",
+    "en": "(ends with the ruined skins)",
+    "plain": "Otherwise the wine will burst the skins, and the wine is lost, and the skins too.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The longer wording (\"new wine\", \"spilled\", \"will be ruined\", \"must be put\") matches Matthew 9:17 and Luke 5:37–38, and copyists likely filled Mark out from them. Tischendorf thought even the last clause was borrowed and left it out of his text, but almost all manuscripts have it in some form, and the editions print it.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "2:26",
+  "a": "while Abiathar was high priest",
+  "t": "Was Abiathar named?",
+  "p": "Codex Bezae, some Old Latin copies and others leave out the high priest's name, perhaps because it disagrees with 1 Samuel 21.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus and nearly all manuscripts (Tischendorf); NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "ἐπὶ Ἀβιαθὰρ ἀρχιερέως",
+    "en": "in the time of Abiathar the high priest",
+    "plain": "while Abiathar was high priest"
+   },
+   {
+    "w": "Codex Bezae (D), the minuscule 271, Old Latin a, b, e, ff2, i (Tischendorf); also W and the Sinaitic Syriac (NA28 apparatus)",
+    "orig": "—",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is in almost every witness. Its omission is easy to explain: copyists who knew that 1 Samuel 21 names Ahimelech, and that Matthew and Luke leave the name out, dropped it.",
+  "b": "Without the phrase the verse reads, \"He went into God's house, and he ate the Presence Bread...\" On the problem itself see the note on \"Abiathar.\"",
+  "s": [
+   "tischendorf-nt8",
+   "na28"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "his hand was made well again",
+  "t": "\"As healthy as the other\"",
+  "p": "Later manuscripts and the KJV add \"whole as the other,\" a phrase from Matthew 12:13.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and other early manuscripts; NA28, SBLGNT, THGNT",
+    "orig": "ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ",
+    "en": "his hand was restored",
+    "plain": "his hand was made well again"
+   },
+   {
+    "w": "Most later manuscripts; Byzantine text, Textus Receptus (KJV \"his hand was restored whole as the other\")",
+    "orig": "... ὑγιὴς ὡς ἡ ἄλλη",
+    "en": "restored, healthy as the other",
+    "plain": "his hand was made well again, as healthy as the other"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are those of Matthew 12:13 and were brought into Mark to match.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:14",
+  "a": "He formed a group of twelve,",
+  "t": "\"Whom he also named apostles\"",
+  "p": "Sinaiticus and Vaticanus add \"whom he also named apostles,\" the words of Luke 6:13. The SBLGNT leaves them out.",
+  "readings": [
+   {
+    "w": "Alexandrinus (A), C (corrected), Bezae (D), most later manuscripts, the Old Latin and Vulgate (Tischendorf); SBLGNT, THGNT, Textus Receptus (KJV)",
+    "orig": "καὶ ἐποίησεν δώδεκα",
+    "en": "and he made twelve",
+    "plain": "He formed a group of twelve,"
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s), C (first hand), Δ, Θ, the minuscules 13, 28, 69, 124, 346, the Coptic (Tischendorf); NA28 in brackets, Westcott-Hort",
+    "orig": "καὶ ἐποίησεν δώδεκα, οὓς καὶ ἀποστόλους ὠνόμασεν",
+    "en": "and he made twelve, whom he also named apostles",
+    "plain": "He formed a group of twelve, whom he also named apostles,"
+   }
+  ],
+  "follow": 0,
+  "why": "The words match Luke 6:13 exactly, and Mark uses \"apostles\" only once elsewhere (6:30). The support of Sinaiticus and Vaticanus is strong, so NA28 keeps the words in brackets; the SBLGNT and the Tyndale House edition judge them an early harmonization with Luke. The Plain follows the SBLGNT.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:15",
+  "a": "and to have authority to throw out the demons.",
+  "t": "\"To heal diseases\"",
+  "p": "Most later manuscripts add \"to heal sicknesses,\" as in Matthew 10:1. The KJV has it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus, C (first hand), L, Δ, the Coptic (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "καὶ ἔχειν ἐξουσίαν ἐκβάλλειν τὰ δαιμόνια",
+    "en": "and to have authority to cast out demons",
+    "plain": "and to have authority to throw out the demons."
+   },
+   {
+    "w": "Alexandrinus (A), C (corrected), Bezae (D), most later manuscripts; Byzantine text, Textus Receptus (KJV \"to have power to heal sicknesses, and to cast out devils\")",
+    "orig": "... θεραπεύειν τὰς νόσους καὶ ἐκβάλλειν τὰ δαιμόνια",
+    "en": "to heal diseases and to cast out demons",
+    "plain": "and to have authority to heal diseases and to throw out the demons."
+   }
+  ],
+  "follow": 0,
+  "why": "The healing clause comes from Matthew 10:1. In Mark the authority given to the Twelve is first of all over demons (also 6:7).",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "So he formed the Twelve:",
+  "t": "\"And he formed the Twelve\"",
+  "p": "Sinaiticus, Vaticanus and a few others repeat \"and he made the Twelve\" before the list. The Byzantine text lacks it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus, C (first hand), Δ, 565 (Metzger; Tischendorf); NA28 in brackets, SBLGNT",
+    "orig": "καὶ ἐποίησεν τοὺς δώδεκα",
+    "en": "and he made the Twelve",
+    "plain": "So he formed the Twelve:"
+   },
+   {
+    "w": "Alexandrinus (A), Bezae (D), most later manuscripts; Byzantine text, Textus Receptus (KJV, which begins \"And Simon he surnamed Peter\"), THGNT",
+    "orig": "—",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The repetition picks up the thread after the purpose clauses of 3:14–15, a habit of Mark's style; copyists who found it redundant dropped it. The SBLGNT prints it; the Tyndale House edition leaves it out.",
+  "b": "Without the words the verse begins, \"Simon, on whom he put the name Peter.\"",
+  "s": [
+   "metzger",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "Simon the Cananaean",
+  "t": "\"Cananaean\" or \"Canaanite\"?",
+  "p": "The KJV's \"Simon the Canaanite\" follows a later spelling. The name means \"zealous,\" not \"from Canaan.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, Bezae (D), C, L, Δ, 33, the Old Latin and Vulgate (Tischendorf); NA28, SBLGNT, THGNT",
+    "orig": "Σίμωνα τὸν Καναναῖον",
+    "en": "Simon the Cananaean",
+    "plain": "Simon the Cananaean"
+   },
+   {
+    "w": "Alexandrinus (A) and most later manuscripts; Byzantine text, Textus Receptus (KJV \"Simon the Canaanite\")",
+    "orig": "Σίμωνα τὸν Κανανίτην",
+    "en": "Simon the Kananite",
+    "plain": "Simon the Canaanite"
+   }
+  ],
+  "follow": 0,
+  "why": "The older form <i>Kananaios</i> reflects the Aramaic for \"zealous\" (see the note). The later spelling <i>Kananitēs</i> looks like \"Canaanite\" and misled English readers.",
+  "s": [
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "3:21",
+  "a": "When the people close to him heard",
+  "t": "Who set out to seize him?",
+  "p": "Codex Bezae and most Old Latin copies change the subject: \"When the scribes and the others heard about him.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and nearly all Greek manuscripts, the Vulgate, the Syriac and Coptic (Tischendorf); all printed editions",
+    "orig": "ἀκούσαντες οἱ παρ᾽ αὐτοῦ",
+    "en": "those from beside him, having heard",
+    "plain": "When the people close to him heard"
+   },
+   {
+    "w": "Codex Bezae (D) and most Old Latin manuscripts (Tischendorf)",
+    "orig": "ὅτε ἤκουσαν περὶ αὐτοῦ οἱ γραμματεῖς καὶ οἱ λοιποί",
+    "en": "when the scribes and the others heard about him",
+    "plain": "When the scribes and the others heard about him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Western reading is a clear attempt to spare Jesus' family the charge of thinking him mad. The ordinary reading is both better attested and the harder one.",
+  "b": "Bezae also changes \"He is beside himself\" so that it can be read as Jesus driving others out of their senses. Early copyists, like later readers, found this verse uncomfortable.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:29",
+  "a": "a sin that is eternal",
+  "t": "\"Eternal sin\" or \"eternal judgment\"?",
+  "p": "The best manuscripts say \"an eternal sin.\" Later ones and the KJV say \"eternal damnation.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus, L, Δ, 28, 33 (Tischendorf; Metzger); NA28, SBLGNT, THGNT",
+    "orig": "αἰωνίου ἁμαρτήματος",
+    "en": "of an eternal sin",
+    "plain": "a sin that is eternal"
+   },
+   {
+    "w": "Alexandrinus (A), C (corrected), most later manuscripts; Byzantine text, Textus Receptus (KJV \"eternal damnation\")",
+    "orig": "αἰωνίου κρίσεως",
+    "en": "of eternal judgment",
+    "plain": "a judgment that is eternal"
+   },
+   {
+    "w": "C (first hand), Bezae (D), the minuscules 13, 69, 346, Athanasius, the Old Latin and Vulgate (Tischendorf)",
+    "orig": "αἰωνίου ἁμαρτίας",
+    "en": "of an eternal sin (a more common word)",
+    "plain": "a sin that is eternal"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Eternal sin\" is the stranger phrase, and copyists softened it in two ways: some used the ordinary word for sin, others changed it to \"judgment,\" which makes clearer sense.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:32",
+  "a": "your brothers",
+  "t": "\"And your sisters\"?",
+  "p": "Alexandrinus, Bezae and many others add \"and your sisters.\" Vaticanus and others, and the KJV, do not.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), C, G, K, L, Δ, the minuscules 1, 13, 33, the Vulgate, the Sinaitic Syriac, the Coptic (Tischendorf); Sinaiticus, W, Θ, f1, f13, 28, 565 (as reported by Metzger and the NA28 apparatus); SBLGNT, THGNT, Textus Receptus (KJV)",
+    "orig": "οἱ ἀδελφοί σου",
+    "en": "your brothers",
+    "plain": "your brothers"
+   },
+   {
+    "w": "Alexandrinus (A), Bezae (D), many later manuscripts, Old Latin a, b, ff2, i, the Gothic (Tischendorf); Byzantine text (Robinson-Pierpont), NA27, NA28 in brackets",
+    "orig": "οἱ ἀδελφοί σου καὶ αἱ ἀδελφαί σου",
+    "en": "your brothers and your sisters",
+    "plain": "your brothers and your sisters"
+   }
+  ],
+  "follow": 0,
+  "why": "Neither 3:31 nor 3:34, nor the parallels in Matthew and Luke, mention sisters, so the shorter text fits the scene. But the longer reading is old and widespread, and Jesus mentions \"sister\" in 3:35, so some scholars think the words were dropped to match the context. The editions are divided; the Plain follows the SBLGNT. Tischendorf himself printed the longer text.",
+  "s": [
+   "tischendorf-nt8",
+   "metzger",
+   "na28"
+  ]
+ }
+]

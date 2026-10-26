@@ -1,0 +1,808 @@
+[
+ {
+  "v": "18:5",
+  "a": "was taken up wholly with the word",
+  "t": "\"With the word\" or \"in the spirit\"?",
+  "p": "Older manuscripts say Paul was taken up with \"the word\"; later ones, followed by the KJV, say \"pressed in the spirit.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "συνείχετο τῷ λόγῳ",
+    "en": "was occupied with the word",
+    "plain": "was taken up wholly with the word"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"Paul was pressed in the spirit\")",
+    "orig": "συνείχετο τῷ πνεύματι",
+    "en": "was pressed in the spirit",
+    "plain": "was pressed in his spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading \"word\" has much the older support. \"Spirit\" probably came from copyists who found \"held fast by the word\" puzzling and remembered phrases such as 17:16 and 18:25.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:7",
+  "a": "Titius Justus",
+  "t": "Titius Justus, Titus Justus, or Justus?",
+  "p": "The man's name is spelled three ways. The KJV calls him simply \"Justus.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28 (Nestle-Aland, the same text of Acts in both editions), Westcott-Hort and Tregelles",
+    "orig": "Τιτίου Ἰούστου",
+    "en": "of Titius Justus",
+    "plain": "Titius Justus"
+   },
+   {
+    "w": "some manuscripts and early versions, among them the Latin Vulgate (\"Titi Iusti\")",
+    "orig": "Τίτου Ἰούστου",
+    "en": "of Titus Justus",
+    "plain": "Titus Justus"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"one Justus\")",
+    "orig": "Ἰούστου",
+    "en": "of Justus",
+    "plain": "Justus"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Titius\" is a known Roman family name and the harder reading: copyists were more likely to change it to the famous name Titus, or to drop an odd name before \"Justus\" (the last letters of the word before it are similar), than to invent it.",
+  "b": "If \"Titus\" were right, readers might think of Paul's companion Titus, whom Acts never names. Most scholars do not take this man to be that Titus.",
+  "s": [
+   "na28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:17",
+  "a": "everyone",
+  "t": "Who beat Sosthenes?",
+  "p": "The oldest manuscripts say only \"everyone.\" Later ones say \"all the Greeks,\" as the KJV does.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "πάντες",
+    "en": "all",
+    "plain": "everyone"
+   },
+   {
+    "w": "Codex Bezae (05, about 400), Byzantine majority text and Textus Receptus (KJV) (\"all the Greeks\")",
+    "orig": "πάντες οἱ Ἕλληνες",
+    "en": "all the Greeks",
+    "plain": "all the Greeks"
+   }
+  ],
+  "follow": 0,
+  "why": "The short reading is older and explains the others: copyists added \"the Greeks\" to say who \"everyone\" was.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:21",
+  "a": "saying, \"I will turn back",
+  "t": "\"I must keep the coming feast in Jerusalem\"",
+  "p": "The Byzantine text and the KJV give Paul a reason for leaving: he must keep a feast in Jerusalem.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "ἀποταξάμενος καὶ εἰπών· Πάλιν ἀνακάμψω",
+    "en": "taking leave and saying, \"Again I will return\"",
+    "plain": "saying, \"I will turn back"
+   },
+   {
+    "w": "Codex Bezae (05), Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "ἀπετάξατο αὐτοῖς εἰπών· Δεῖ με πάντως τὴν ἑορτὴν τὴν ἐρχομένην ποιῆσαι εἰς Ἱεροσόλυμα· πάλιν δὲ ἀνακάμψω",
+    "en": "he took leave of them, saying, \"I must by all means keep this coming feast in Jerusalem; but I will return again\"",
+    "plain": "saying, \"I must by all means keep the coming feast in Jerusalem. But I will turn back"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is missing from the oldest manuscripts. It looks like an explanation of why Paul refused to stay, probably drawn from his later hurry to reach Jerusalem for Pentecost (20:16).",
+  "b": "If the addition preserved a true memory, the feast would likely be Passover or Pentecost of about AD 52. Many scholars think the visit to Jerusalem in 18:22 is real even without it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:25",
+  "a": "the facts about Jesus",
+  "t": "\"About Jesus\" or \"about the Lord\"?",
+  "p": "Older manuscripts say Apollos taught accurately \"about Jesus\"; later ones (KJV) say \"the things of the Lord.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "τὰ περὶ τοῦ Ἰησοῦ",
+    "en": "the things concerning Jesus",
+    "plain": "the facts about Jesus"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "τὰ περὶ τοῦ κυρίου",
+    "en": "the things concerning the Lord",
+    "plain": "the facts about the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Jesus\" has the older support. \"The Lord\" may have come in under the influence of \"the way of the Lord\" earlier in the verse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "18:26",
+  "a": "Priscilla and Aquila",
+  "t": "Whose name comes first?",
+  "p": "The oldest manuscripts put Priscilla first. Codex Bezae and the Byzantine text (KJV) put Aquila first.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "Πρίσκιλλα καὶ Ἀκύλας",
+    "en": "Priscilla and Aquila",
+    "plain": "Priscilla and Aquila"
+   },
+   {
+    "w": "Codex Bezae (05), Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "Ἀκύλας καὶ Πρίσκιλλα",
+    "en": "Aquila and Priscilla",
+    "plain": "Aquila and Priscilla"
+   }
+  ],
+  "follow": 0,
+  "why": "The older manuscripts put Priscilla first, as Luke does in 18:18. Reversing the order is the kind of change a later copyist would make to put the husband first; the opposite change is hard to explain.",
+  "b": "Ben Witherington drew attention to a series of small changes in the Western text of Acts that lessen the prominence of women (for example 17:12, 34 and here). Not every scholar sees a deliberate pattern, but the reordering here fits it.",
+  "s": [
+   "metzger",
+   "witherington-western"
+  ]
+ },
+ {
+  "v": "19:1",
+  "a": "It happened, while Apollos was in Corinth, that Paul crossed the upland country",
+  "t": "\"The Spirit told him to return to Asia\"",
+  "p": "The Western text opens the chapter with a sentence about Paul's plans that the other manuscripts do not have.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort, Tregelles and the Byzantine text",
+    "en": "It happened, while Apollos was in Corinth, that Paul, having passed through the upper parts...",
+    "plain": "It happened, while Apollos was in Corinth, that Paul crossed the upland country"
+   },
+   {
+    "w": "Papyrus P38 (about 300), Codex Bezae (05, about 400) and the margin of the Harclean Syriac (reported by Metzger)",
+    "en": "adds that Paul wished, by his own plan, to go to Jerusalem, but the Spirit told him to return to Asia; the rest of the sentence is worded differently",
+    "plain": "Paul wished, by his own plan, to go to Jerusalem, but the Spirit told him to return to Asia. He crossed the upland country"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the text of all the main editions. The Western sentence explains how Paul's promise in 18:21 came to be kept and stresses the Spirit's guidance, as in 16:6–7; that is the kind of explanation the Western text of Acts often adds.",
+  "b": "P38 is one of the earliest witnesses to the Western text of Acts, which shows that its longer readings were circulating within about two centuries of Luke.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:4",
+  "a": "in Jesus",
+  "t": "\"Jesus\" or \"Christ Jesus\"?",
+  "p": "The KJV reads \"on Christ Jesus,\" following later manuscripts.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "εἰς τὸν Ἰησοῦν",
+    "en": "in Jesus",
+    "plain": "in Jesus"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"on Christ Jesus\")",
+    "orig": "εἰς τὸν Χριστὸν Ἰησοῦν",
+    "en": "in Christ Jesus",
+    "plain": "in Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often expanded the name of Jesus with a title. The shorter form has the older witnesses.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:9",
+  "a": "in the school of Tyrannus",
+  "t": "\"From the fifth hour to the tenth\"",
+  "p": "The Western text says Paul used the hall from 11 a.m. to 4 p.m. The KJV says \"one Tyrannus.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "ἐν τῇ σχολῇ Τυράννου",
+    "en": "in the school of Tyrannus",
+    "plain": "in the school of Tyrannus"
+   },
+   {
+    "w": "Codex Bezae (05), some Old Latin manuscripts and the margin of the Harclean Syriac (reported by Metzger)",
+    "orig": "ἐν τῇ σχολῇ Τυράννου ἀπὸ ὥρας πέμπτης ἕως δεκάτης",
+    "en": "in the school of Tyrannus from the fifth hour to the tenth",
+    "plain": "in the school of Tyrannus, from the fifth hour to the tenth"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"in the school of one Tyrannus\")",
+    "orig": "ἐν τῇ σχολῇ Τυράννου τινός",
+    "en": "in the school of a certain Tyrannus",
+    "plain": "in the school of one Tyrannus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the critical text, which has the oldest Greek support. The Western addition may preserve a true local memory, since the fifth to the tenth hour (about 11 a.m. to 4 p.m.) was the hot middle of the day, when halls stood empty and work stopped, but it is not in the earliest Greek manuscripts. The Byzantine \"a certain\" makes no real difference.",
+  "b": "Acts has more Western additions than any other New Testament book, and some are vivid details like this one. Scholars still debate whether some go back to an early edition of Acts (a view argued by Friedrich Blass and others) or are later expansions.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:10",
+  "a": "the Lord's word",
+  "t": "\"The word of the Lord Jesus\"",
+  "p": "The KJV reads \"the word of the Lord Jesus,\" following later manuscripts.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "τὸν λόγον τοῦ κυρίου",
+    "en": "the word of the Lord",
+    "plain": "the Lord's word"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "τὸν λόγον τοῦ κυρίου Ἰησοῦ",
+    "en": "the word of the Lord Jesus",
+    "plain": "the word of the Lord Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The name was probably added from the phrase \"the name of the Lord Jesus,\" which comes three times in this chapter (19:5, 13, 17).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:13",
+  "a": "I put you under oath",
+  "t": "\"I adjure\" or \"we adjure\"?",
+  "p": "The exorcists' formula is singular in the older manuscripts and plural (\"We adjure you\") in the KJV.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "Ὁρκίζω ὑμᾶς",
+    "en": "I adjure you",
+    "plain": "I put you under oath"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"We adjure you\")",
+    "orig": "Ὁρκίζομεν ὑμᾶς",
+    "en": "we adjure you",
+    "plain": "We put you under oath"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular is the formula one exorcist would say; the plural looks like a copyist's adjustment to the group of exorcists in the verse.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:14",
+  "a": "a Jewish high priest",
+  "t": "\"A high priest\" or \"a priest\"?",
+  "p": "Codex Bezae tells the scene differently and calls Sceva only \"a priest.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort, Tregelles, the Byzantine text and Textus Receptus (KJV)",
+    "en": "a Jewish high priest",
+    "plain": "a Jewish high priest"
+   },
+   {
+    "w": "Codex Bezae (05), which recasts the whole verse (reported by Metzger)",
+    "en": "a priest",
+    "plain": "a priest"
+   }
+  ],
+  "follow": 0,
+  "why": "Every main edition reads \"high priest.\" Bezae's \"priest\" may be a copyist's attempt to remove a difficulty, since no high priest named Sceva is known (see the note).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:16",
+  "a": "them all",
+  "t": "\"Both of them\" or \"them\"?",
+  "p": "The older text says the man overpowered \"both\" of them, though seven sons are named. The KJV says \"them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "κατακυριεύσας ἀμφοτέρων",
+    "en": "having overpowered both (or: all) of them",
+    "plain": "them all"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "κατακυριεύσας αὐτῶν",
+    "en": "having overpowered them",
+    "plain": "them"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Amphoteroi</i>, \"both,\" is the harder reading after \"seven sons\" in 19:14, and copyists smoothed it to \"them.\" The Plain renders it \"them all\" because in the Greek of this period <i>amphoteroi</i> could mean \"all\" as well as \"both\": papyri use it of more than two people, and Luke may use it so again in 23:8.",
+  "b": "Other readers keep \"both\" and suppose that only two of the brothers were present on this occasion. Either way, the older reading is the one with \"both.\"",
+  "s": [
+   "metzger",
+   "barrett-acts"
+  ]
+ },
+ {
+  "v": "19:20",
+  "a": "by the Lord's might, the word",
+  "t": "\"By the Lord's might\" or \"the word of the Lord\"?",
+  "p": "The word order differs, so the verse can say God's might made the word grow, or that \"the word of the Lord\" grew mightily.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "κατὰ κράτος τοῦ κυρίου ὁ λόγος",
+    "en": "by the might of the Lord the word",
+    "plain": "by the Lord's might, the word"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"so mightily grew the word of God\")",
+    "orig": "κατὰ κράτος ὁ λόγος τοῦ κυρίου",
+    "en": "mightily the word of the Lord",
+    "plain": "mightily the word of the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "In the older order \"of the Lord\" comes directly after \"might,\" which most naturally reads \"by the Lord's might.\" Many translations still render it \"the word of the Lord grew mightily,\" taking \"of the Lord\" with \"word\" as the other summaries do (6:7; 12:24). The KJV's \"word of God\" goes beyond both Greek readings.",
+  "s": [
+   "metzger",
+   "barrett-acts"
+  ]
+ },
+ {
+  "v": "19:27",
+  "a": "torn down from her greatness",
+  "t": "\"Her magnificence should be destroyed\"",
+  "p": "The KJV's \"her magnificence should be destroyed\" follows a different case of one Greek word.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "καθαιρεῖσθαι τῆς μεγαλειότητος αὐτῆς",
+    "en": "to be brought down from her greatness",
+    "plain": "torn down from her greatness"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"her magnificence should be destroyed\")",
+    "orig": "καθαιρεῖσθαι τὴν μεγαλειότητα αὐτῆς",
+    "en": "her greatness to be destroyed",
+    "plain": "her greatness destroyed"
+   }
+  ],
+  "follow": 0,
+  "why": "With the genitive, the goddess herself is brought down from her greatness; with the accusative, her greatness is destroyed. The meaning is close. The critical editions agree on the genitive."
+ },
+ {
+  "v": "19:33",
+  "a": "briefed Alexander",
+  "t": "\"Briefed\" or \"drew out\" Alexander?",
+  "p": "The KJV says the crowd \"drew Alexander out of the multitude,\" following a different verb.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "συνεβίβασαν Ἀλέξανδρον",
+    "en": "they instructed (or: concluded it was) Alexander",
+    "plain": "briefed Alexander"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"they drew Alexander out of the multitude\")",
+    "orig": "προεβίβασαν Ἀλέξανδρον",
+    "en": "they pushed Alexander forward",
+    "plain": "pushed Alexander forward"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb of the critical text is hard here. It can mean \"instructed\" or \"prompted,\" which the Plain follows with \"briefed,\" or \"concluded (that it was about) Alexander.\" The Byzantine verb, \"pushed forward,\" is easier and repeats the next clause, which is why most editors take it as a copyist's smoothing.",
+  "b": "Since the critical reading is obscure, translations differ: some say the crowd \"prompted\" Alexander, others that some of the crowd \"concluded it was Alexander.\""
+ },
+ {
+  "v": "19:37",
+  "a": "our goddess",
+  "t": "\"Our goddess\" or \"your goddess\"?",
+  "p": "The clerk speaks of \"our goddess\" in the older manuscripts; the KJV has \"your goddess.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "τὴν θεὸν ἡμῶν",
+    "en": "our goddess",
+    "plain": "our goddess"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"your goddess\")",
+    "orig": "τὴν θεὸν ὑμῶν",
+    "en": "your goddess",
+    "plain": "your goddess"
+   }
+  ],
+  "follow": 0,
+  "why": "In Greek \"our\" (<i>hēmōn</i>) and \"your\" (<i>hymōn</i>) sounded almost alike by this time, so copyists often confused them. \"Our\" fits a city official speaking to his fellow citizens.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "19:39",
+  "a": "Anything beyond that",
+  "t": "\"Beyond that\" or \"other matters\"?",
+  "p": "The KJV reads \"if ye enquire any thing concerning other matters,\" following a reading that splits one Greek word in two.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "περαιτέρω",
+    "en": "further, beyond (that)",
+    "plain": "Anything beyond that"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"concerning other matters\")",
+    "orig": "περὶ ἑτέρων",
+    "en": "concerning other things",
+    "plain": "Anything about other matters"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings look alike in Greek letters (<i>peraiterō</i>, <i>peri heterōn</i>). The rare word \"further\" is the harder reading, and copyists would more likely turn it into the common phrase than the reverse. The sense is nearly the same."
+ },
+ {
+  "v": "20:4",
+  "a": "Traveling with him were",
+  "t": "\"As far as Asia\"",
+  "p": "Some manuscripts, the Byzantine text, and the KJV add that these men went with Paul \"as far as Asia.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Westcott-Hort",
+    "orig": "συνείπετο δὲ αὐτῷ",
+    "en": "there accompanied him",
+    "plain": "Traveling with him were"
+   },
+   {
+    "w": "Tyndale House and Tregelles editions, Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "συνείπετο δὲ αὐτῷ ἄχρι τῆς Ἀσίας",
+    "en": "there accompanied him as far as Asia",
+    "plain": "Traveling with him as far as Asia were"
+   }
+  ],
+  "follow": 0,
+  "why": "The manuscripts are divided, and so are the modern editions: the SBL and NA27/28 leave the phrase out, while the Tyndale House edition keeps it. The phrase may have been added because Trophimus went on to Jerusalem (21:29) and Aristarchus to Rome (27:2), so \"as far as Asia\" looks wrong; or it may have been dropped for the same reason. The Plain follows the SBL here; the meaning hardly changes.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "20:4",
+  "a": "Sopater son of Pyrrhus",
+  "t": "\"Son of Pyrrhus\"",
+  "p": "The older manuscripts give Sopater's father's name. The Byzantine text and the KJV leave it out.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "Σώπατρος Πύρρου",
+    "en": "Sopater of Pyrrhus",
+    "plain": "Sopater son of Pyrrhus"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"Sopater of Berea\")",
+    "orig": "Σώπατρος",
+    "en": "Sopater",
+    "plain": "Sopater"
+   }
+  ],
+  "follow": 0,
+  "why": "A father's name is the kind of detail a copyist might drop as unimportant, but would hardly invent.",
+  "b": "Codex Bezae has a different oddity in this verse: it seems to call Gaius a man of Doberus, a town in Macedonia, instead of Derbe (reported by Metzger). That would agree with 19:29, where Gaius is a Macedonian, though Gaius was a very common name.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:5",
+  "a": "These men came",
+  "t": "\"Came\" or \"went on ahead\"?",
+  "p": "The verbs differ by one letter: \"came\" or \"went ahead.\" The KJV has \"going before.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House, Westcott-Hort, Tregelles and the Byzantine text (Robinson-Pierpont)",
+    "orig": "οὗτοι δὲ προσελθόντες",
+    "en": "these, having come",
+    "plain": "These men came"
+   },
+   {
+    "w": "Textus Receptus (KJV \"These going before\")",
+    "orig": "οὗτοι δὲ προελθόντες",
+    "en": "these, having gone ahead",
+    "plain": "These men went on ahead"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs differ by a single letter in Greek (<i>pros-</i> or <i>pro-</i>), so copyists could easily confuse them. Most editions print \"came,\" and the Plain follows them, though \"went ahead\" fits the story well and many translations give that sense. The electronic word list this site uses reports the Nestle-Aland text (NA27 and NA28 print the same text of Acts) inconsistently here, so it is not cited for either reading. Either way, the men were waiting at Troas.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:7",
+  "a": "we had gathered",
+  "t": "\"We\" or \"the disciples\"?",
+  "p": "The older manuscripts keep the narrator's \"we\"; the Byzantine text and the KJV say \"the disciples came together.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "συνηγμένων ἡμῶν",
+    "en": "when we were gathered",
+    "plain": "we had gathered"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"when the disciples came together\")",
+    "orig": "συνηγμένων τῶν μαθητῶν",
+    "en": "when the disciples were gathered",
+    "plain": "the disciples had gathered"
+   }
+  ],
+  "follow": 0,
+  "why": "The \"we\" of the older text belongs to the \"we\" passages (20:5–6). A copyist reading this verse alone in church would find \"the disciples\" clearer, which explains the change.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:8",
+  "a": "where we had met",
+  "t": "\"We\" or \"they\"?",
+  "p": "The Textus Receptus (KJV) reads \"where they were gathered.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort, Tregelles and the Byzantine text (Robinson-Pierpont)",
+    "orig": "οὗ ἦμεν συνηγμένοι",
+    "en": "where we were gathered",
+    "plain": "where we had met"
+   },
+   {
+    "w": "Textus Receptus (KJV \"where they were gathered together\")",
+    "orig": "οὗ ἦσαν συνηγμένοι",
+    "en": "where they were gathered",
+    "plain": "where they had met"
+   }
+  ],
+  "follow": 0,
+  "why": "Every modern edition and the Byzantine text read \"we.\" \"They\" is found in the Textus Receptus, which also has \"the disciples\" in 20:7, and it may have come in to match that verse."
+ },
+ {
+  "v": "20:15",
+  "a": "A day later we put in at Samos, and on the day after",
+  "t": "\"And stayed at Trogyllium\"",
+  "p": "The Byzantine text and the KJV add a night's stop at Trogyllium, a cape on the mainland facing Samos.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "τῇ δὲ ἑτέρᾳ παρεβάλομεν εἰς Σάμον, τῇ δὲ ἐχομένῃ",
+    "en": "and the next day we put in at Samos, and the following day",
+    "plain": "A day later we put in at Samos, and on the day after"
+   },
+   {
+    "w": "Codex Bezae (05), Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "τῇ δὲ ἑτέρᾳ παρεβάλομεν εἰς Σάμον, καὶ μείναντες ἐν Τρωγυλλίῳ, τῇ ἐχομένῃ",
+    "en": "and the next day we put in at Samos, and having stayed at Trogyllium, the following day",
+    "plain": "A day later we put in at Samos and stayed at Trogyllium, and on the day after"
+   }
+  ],
+  "follow": 0,
+  "why": "The older manuscripts do not have the stop. It may be a later addition by someone who knew the route, since ships did anchor off Trogyllium, across a narrow strait from Samos; or it may be original and lost by accident. Metzger's committee judged it an addition.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:19",
+  "a": "through tears",
+  "t": "\"With many tears\"",
+  "p": "The KJV says Paul served \"with many tears,\" following later manuscripts.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "καὶ δακρύων",
+    "en": "and tears",
+    "plain": "through tears"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"with many tears\")",
+    "orig": "καὶ πολλῶν δακρύων",
+    "en": "and many tears",
+    "plain": "through many tears"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Many\" looks like an addition that heightens the phrase, perhaps recalling the similar phrase in 2 Corinthians 2:4. Copyists more often added such words than left them out."
+ },
+ {
+  "v": "20:21",
+  "a": "our Lord Jesus",
+  "t": "\"Our Lord Jesus\" or \"our Lord Jesus Christ\"?",
+  "p": "Some editions and the KJV add \"Christ.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House, Westcott-Hort and the Byzantine text (Robinson-Pierpont)",
+    "orig": "τὸν κύριον ἡμῶν Ἰησοῦν",
+    "en": "our Lord Jesus",
+    "plain": "our Lord Jesus"
+   },
+   {
+    "w": "NA27/28 (which print \"Christ\" in square brackets, marking it as doubtful), Tregelles and the Textus Receptus (KJV)",
+    "orig": "τὸν κύριον ἡμῶν Ἰησοῦν [Χριστόν]",
+    "en": "our Lord Jesus Christ",
+    "plain": "our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The manuscripts are divided, and the editions with them; the Nestle-Aland text keeps \"Christ\" only in brackets. The Plain follows the SBL and Tyndale House: copyists more often added \"Christ\" to Jesus' name than removed it.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "20:24",
+  "a": "But I give no thought to my life, as if it were precious to me, if only I can finish my race",
+  "t": "\"None of these things move me\"",
+  "p": "The KJV's \"none of these things move me\" and \"with joy\" come from the longer Byzantine wording.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "ἀλλ’ οὐδενὸς λόγου ποιοῦμαι τὴν ψυχὴν τιμίαν ἐμαυτῷ ὡς τελειῶσαι τὸν δρόμον μου",
+    "en": "but I make my life of no account, as precious to myself, so that I may finish my course",
+    "plain": "But I give no thought to my life, as if it were precious to me, if only I can finish my race"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV) (\"But none of these things move me, neither count I my life dear unto myself, so that I might finish my course with joy\")",
+    "orig": "ἀλλ’ οὐδενὸς λόγον ποιοῦμαι, οὐδὲ ἔχω τὴν ψυχήν μου τιμίαν ἐμαυτῷ, ὡς τελειῶσαι τὸν δρόμον μου μετὰ χαρᾶς",
+    "en": "but I take account of nothing, nor do I hold my life precious to myself, so that I may finish my course with joy",
+    "plain": "But I take no account of any of this, and I do not hold my life precious to myself, if only I can finish my race with joy"
+   }
+  ],
+  "follow": 0,
+  "why": "The older text is short and awkward Greek. The longer one smooths it by adding a second verb (\"nor do I hold\") and \"with joy.\" Copyists tended to smooth hard sentences, not to make them harder.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:25",
+  "a": "preached the kingdom",
+  "t": "\"The kingdom\" or \"the kingdom of God\"?",
+  "p": "The KJV reads \"preaching the kingdom of God,\" following later manuscripts.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and Tyndale House; the oldest manuscripts, among them Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s) and Vaticanus (03, 300s)",
+    "orig": "κηρύσσων τὴν βασιλείαν",
+    "en": "preaching the kingdom",
+    "plain": "preached the kingdom"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV)",
+    "orig": "κηρύσσων τὴν βασιλείαν τοῦ θεοῦ",
+    "en": "preaching the kingdom of God",
+    "plain": "preached the kingdom of God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Of God\" was a natural addition to the bare \"the kingdom,\" which appears this way only here in Acts. The meaning is the same (compare 19:8).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "20:28",
+  "a": "the church of God",
+  "t": "\"The church of God\" or \"the church of the Lord\"?",
+  "p": "One of the best-known variants in Acts. Manuscripts read \"of God,\" \"of the Lord,\" or \"of the Lord and God.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Textus Receptus (KJV); Codex Sinaiticus (01), Vaticanus (03), the Latin Vulgate and the Syriac (reported by Metzger)",
+    "orig": "τὴν ἐκκλησίαν τοῦ θεοῦ",
+    "en": "the church of God",
+    "plain": "the church of God"
+   },
+   {
+    "w": "Tyndale House and Tregelles editions; papyrus P74 (600s), Codex Alexandrinus (02), Ephraemi (04, first hand), Bezae (05), the minuscule 1739, the Coptic versions (reported by Metzger)",
+    "orig": "τὴν ἐκκλησίαν τοῦ κυρίου",
+    "en": "the church of the Lord",
+    "plain": "the church of the Lord"
+   },
+   {
+    "w": "Byzantine majority text (later manuscripts, among them the corrected Ephraemi)",
+    "orig": "τὴν ἐκκλησίαν τοῦ κυρίου καὶ θεοῦ",
+    "en": "the church of the Lord and God",
+    "plain": "the church of the Lord and God"
+   }
+  ],
+  "follow": 0,
+  "why": "Both main readings are old and widely spread, and the editions divide. For \"of God\": it is the harder reading, because with \"his own blood\" it seems to speak of God's blood, and a copyist would more likely change it to \"the Lord\" than the reverse; \"the church of God\" is also Paul's own phrase (1 Corinthians 1:2; 10:32; 11:22 and often), while \"the church of the Lord\" is found nowhere else in the New Testament. For \"of the Lord\": it has wide early support, and a copyist might have changed it to Paul's familiar phrase. The Byzantine \"Lord and God\" joins the two.",
+  "b": "The Byzantine text and the KJV also read \"his own blood\" in a different word order (<i>tou idiou haimatos</i>), which can only mean \"his own blood.\" The older order (<i>tou haimatos tou idiou</i>) can also mean \"the blood of his own,\" that is, his own Son (see the note on that phrase). Metzger's committee chose \"of God\"; Metzger himself judged it possible that \"his Own\" was an early title for Jesus.",
+  "s": [
+   "metzger",
+   "comfort-nttc",
+   "na28"
+  ]
+ },
+ {
+  "v": "20:28",
+  "a": "Watch out for yourselves",
+  "t": "\"Take heed therefore\"",
+  "p": "The KJV begins the verse \"Take heed therefore,\" with a linking word the older text does not have.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "προσέχετε ἑαυτοῖς",
+    "en": "take heed to yourselves",
+    "plain": "Watch out for yourselves"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"Take heed therefore\")",
+    "orig": "προσέχετε οὖν ἑαυτοῖς",
+    "en": "take heed therefore to yourselves",
+    "plain": "So watch out for yourselves"
+   }
+  ],
+  "follow": 0,
+  "why": "Small linking words like \"therefore\" were often added to smooth the flow of a speech. The meaning does not change."
+ },
+ {
+  "v": "20:29",
+  "a": "I know that once I am gone",
+  "t": "\"For I know this\"",
+  "p": "The KJV reads \"For I know this,\" with two small words the older text does not have.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "ἐγὼ οἶδα",
+    "en": "I know",
+    "plain": "I know that once I am gone"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"For I know this\")",
+    "orig": "ἐγὼ γὰρ οἶδα τοῦτο",
+    "en": "for I know this",
+    "plain": "For I know this: once I am gone"
+   }
+  ],
+  "follow": 0,
+  "why": "The additions (\"for,\" \"this\") smooth the link with the previous verse. The meaning does not change."
+ },
+ {
+  "v": "20:32",
+  "a": "able to build up and to give",
+  "t": "\"Brethren\" and \"to give you an inheritance\"",
+  "p": "The KJV adds \"brethren,\" reads \"build you up,\" and has \"to give you an inheritance,\" following the Byzantine text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/28, Tyndale House, Westcott-Hort and Tregelles",
+    "orig": "καὶ τὰ νῦν παρατίθεμαι ὑμᾶς τῷ θεῷ καὶ τῷ λόγῳ τῆς χάριτος αὐτοῦ τῷ δυναμένῳ οἰκοδομῆσαι καὶ δοῦναι τὴν κληρονομίαν",
+    "en": "and now I commend you to God and to the word of his grace, which (or: who) is able to build up and to give the inheritance",
+    "plain": "able to build up and to give"
+   },
+   {
+    "w": "Byzantine majority text and Textus Receptus (KJV \"And now, brethren, I commend you to God, and to the word of his grace, which is able to build you up, and to give you an inheritance\")",
+    "orig": "καὶ τὰ νῦν παρατίθεμαι ὑμᾶς, ἀδελφοί, τῷ θεῷ καὶ τῷ λόγῳ τῆς χάριτος αὐτοῦ τῷ δυναμένῳ ἐποικοδομῆσαι καὶ δοῦναι ὑμῖν κληρονομίαν",
+    "en": "and now, brothers, I commend you to God and to the word of his grace, which is able to build (you) up further and to give you an inheritance",
+    "plain": "able to build up further and to give you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine text adds the address \"brothers,\" a compound verb (\"build up further\") and \"to you.\" Each makes the sentence fuller and smoother, which is the usual direction of copyists' changes. The Plain follows the shorter text and does not supply \"you,\" since the Greek of the critical text gives neither verb an object."
+ }
+]

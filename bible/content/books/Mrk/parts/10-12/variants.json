@@ -1,0 +1,758 @@
+[
+ {
+  "v": "10:1",
+  "a": "Judea and the far side of the Jordan",
+  "t": "\"And\" or \"through\" the far side?",
+  "p": "The oldest manuscripts say Jesus came to Judea \"and\" beyond the Jordan; later ones say \"through\" it (KJV \"by the farther side\").",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04) as first written, L, Ψ (as reported by Metzger); NA28 (\"and\" in brackets), SBLGNT, THGNT",
+    "orig": "τῆς Ἰουδαίας καὶ πέραν τοῦ Ἰορδάνου",
+    "en": "of Judea and beyond the Jordan",
+    "plain": "Judea and the far side of the Jordan"
+   },
+   {
+    "w": "Alexandrinus (02) and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τῆς Ἰουδαίας διὰ τοῦ πέραν τοῦ Ἰορδάνου",
+    "en": "of Judea by way of the region beyond the Jordan",
+    "plain": "Judea by way of the far side of the Jordan"
+   },
+   {
+    "w": "Codex Bezae (05), Washington (W), Θ and others (as reported by Metzger)",
+    "orig": "τῆς Ἰουδαίας πέραν τοῦ Ἰορδάνου",
+    "en": "of Judea beyond the Jordan",
+    "plain": "Judea beyond the Jordan"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading with \"and\" is the oldest and the hardest: it seems to say Jesus went to two places, Judea and Perea, in an odd order. Copyists who knew the pilgrim route made it a journey \"through\" Perea to Judea, or simply dropped the \"and\" to match Matthew 19:1.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "10:2",
+  "a": "Some Pharisees came up and asked him",
+  "t": "Did Mark name the Pharisees?",
+  "p": "Almost all manuscripts name the Pharisees here. The SBLGNT leaves them out, with Codex Bezae and some early translations.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03), L, W and almost all others (as reported by Metzger); NA28, THGNT, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ προσελθόντες Φαρισαῖοι ἐπηρώτων αὐτόν",
+    "en": "and Pharisees came up and asked him",
+    "plain": "Some Pharisees came up and asked him"
+   },
+   {
+    "w": "Codex Bezae (05), several Old Latin manuscripts and the Sinaitic Syriac (as reported by Metzger); SBLGNT",
+    "orig": "καὶ ἐπηρώτων αὐτόν",
+    "en": "and they asked him",
+    "plain": "People asked him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and the Tyndale House edition against its usual base, the SBLGNT. The words are in nearly every manuscript of every type. The SBLGNT prints the shorter text. Those who prefer it argue that the words were added from Matthew 19:3, where the Pharisees ask, and that Mark had the vague \"they asked\" he often uses (compare 10:13); Metzger sets out the problem. That is possible, but the support for the shorter text is narrow and mostly Western, and the Pharisees are Jesus' questioners in a like scene in 8:11.",
+  "b": "With the shorter text the questioners are unnamed people from the crowd of 10:1. Either way, \"testing him\" shows they meant to trap him.",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "10:6",
+  "a": "male and female he made them",
+  "t": "Who made them?",
+  "p": "The KJV reads \"God made them male and female\": later manuscripts add \"God.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), L, Δ (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "ἄρσεν καὶ θῆλυ ἐποίησεν αὐτούς",
+    "en": "male and female he made them",
+    "plain": "male and female he made them"
+   },
+   {
+    "w": "Alexandrinus (02), Bezae (05), W, Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἄρσεν καὶ θῆλυ ἐποίησεν αὐτοὺς ὁ θεός",
+    "en": "male and female God made them",
+    "plain": "male and female God made them"
+   }
+  ],
+  "follow": 0,
+  "why": "The quotation of Genesis 1:27 does not need a subject, since everyone knew who made them. Copyists added \"God\" to make it clear, as Matthew's \"the Creator\" (Matthew 19:4) also does.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:7",
+  "a": "and stick close to his wife",
+  "t": "\"And stick close to his wife\"",
+  "p": "Two of the oldest manuscripts leave these words out. NA28 prints them in brackets.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (02), Ephraemi (04), Bezae (05), L, W, Θ and most others; SBLGNT, THGNT, NA28 (in brackets), the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ προσκολληθήσεται πρὸς τὴν γυναῖκα αὐτοῦ",
+    "en": "and shall be joined to his wife",
+    "plain": "and stick close to his wife"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ψ, the Sinaitic Syriac and the Gothic version (as reported by Metzger); Westcott-Hort",
+    "orig": "",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Without the clause, \"the two\" in 10:8 would seem to mean the father and mother, which makes no sense. A copyist's eye could easily skip from one \"and\" to the next. The NA28 editors kept the words but bracketed them because of the weight of Sinaiticus and Vaticanus.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "10:12",
+  "a": "if she herself divorces her husband and marries another man",
+  "t": "A wife divorces, or a wife leaves?",
+  "p": "Some Western manuscripts make the wife \"leave\" her husband, perhaps because Jewish law did not let a wife divorce.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), L, Δ, Ψ; NA28, SBLGNT, THGNT",
+    "orig": "ἐὰν αὐτὴ ἀπολύσασα τὸν ἄνδρα αὐτῆς γαμήσῃ ἄλλον",
+    "en": "if she, having divorced her husband, marries another",
+    "plain": "if she herself divorces her husband and marries another man"
+   },
+   {
+    "w": "Alexandrinus (02) and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐὰν γυνὴ ἀπολύσῃ τὸν ἄνδρα αὐτῆς καὶ γαμηθῇ ἄλλῳ",
+    "en": "if a woman divorces her husband and is married to another",
+    "plain": "if a woman divorces her husband and is married to another man"
+   },
+   {
+    "w": "Codex Bezae (05), Θ, family 13 and some Old Latin manuscripts (as reported in the commentaries, e.g. Marcus)",
+    "orig": "ἐὰν γυνὴ ἐξέλθῃ ἀπὸ τοῦ ἀνδρὸς καὶ ἄλλον γαμήσῃ",
+    "en": "if a woman leaves her husband and marries another",
+    "plain": "if a woman leaves her husband and marries another man"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts let the wife divorce, as Roman law allowed. The Byzantine text says the same in smoother Greek. The Western form, where she only \"leaves\" her husband, looks like an attempt to fit the saying to Jewish law, under which a wife could not divorce (see the note on this verse).",
+  "s": [
+   "marcus-mark-8-16",
+   "collins-mark"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "scolded them",
+  "t": "Scolded whom?",
+  "p": "The KJV says the disciples \"rebuked those that brought them.\" Later manuscripts spell out who was scolded.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἐπετίμησαν αὐτοῖς",
+    "en": "rebuked them",
+    "plain": "scolded them"
+   },
+   {
+    "w": "Alexandrinus (02), Bezae (05), W, Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐπετίμων τοῖς προσφέρουσιν",
+    "en": "were rebuking those who were bringing them",
+    "plain": "scolded those who were bringing them"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Them\" could seem to mean the children, so copyists made it clear that the disciples scolded the people bringing them. The shorter reading is older and harder.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "10:19",
+  "a": "You must not cheat.",
+  "t": "\"Do not defraud\"",
+  "p": "Some manuscripts leave out \"do not defraud,\" which is not one of the Ten Commandments.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Ephraemi (04), Bezae (05) and most manuscripts; NA28, SBLGNT, THGNT, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Μὴ ἀποστερήσῃς",
+    "en": "do not defraud",
+    "plain": "You must not cheat."
+   },
+   {
+    "w": "Vaticanus (03) as first written, W, Δ, Ψ, families 1 and 13 and some early translations (as reported by Metzger)",
+    "orig": "",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Because it is not one of the Ten Commandments, and Matthew and Luke both lack it, copyists had reason to drop it; no one had reason to add it. The Byzantine text also lists adultery before murder, as Luke 18:20 does.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:21",
+  "a": "And come, follow me.",
+  "t": "\"Pick up the cross\"",
+  "p": "The KJV adds \"take up the cross,\" words from 8:34 (\"pick up his cross\"). The oldest manuscripts do not have them.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), Bezae (05), Δ, Θ, Ψ (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "καὶ δεῦρο ἀκολούθει μοι",
+    "en": "and come, follow me",
+    "plain": "And come, follow me."
+   },
+   {
+    "w": "Alexandrinus (02), W and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ δεῦρο ἀκολούθει μοι, ἄρας τὸν σταυρόν",
+    "en": "and come, having taken up the cross, follow me",
+    "plain": "And come, pick up the cross and follow me."
+   }
+  ],
+  "follow": 0,
+  "why": "The words come from Jesus' saying in 8:34 and are missing from the oldest manuscripts of every type. Copyists added them to strengthen the call.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:24",
+  "a": "getting into the kingdom of God is so hard",
+  "t": "\"For those who trust in riches\"",
+  "p": "The KJV reads \"how hard is it for them that trust in riches.\" The oldest manuscripts make it hard for everyone.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Δ, Ψ, an Old Latin manuscript (k) and Coptic (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "πῶς δύσκολόν ἐστιν εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν",
+    "en": "how hard it is to enter the kingdom of God",
+    "plain": "getting into the kingdom of God is so hard"
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (04), Bezae (05), Θ, families 1 and 13, and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "πῶς δύσκολόν ἐστιν τοὺς πεποιθότας ἐπὶ χρήμασιν εἰς τὴν βασιλείαν τοῦ θεοῦ εἰσελθεῖν",
+    "en": "how hard it is for those who trust in riches to enter the kingdom of God",
+    "plain": "getting into the kingdom of God is so hard for those who trust in riches"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words soften a hard saying: they make the problem trusting in wealth, not having it, so that a rich person who does not trust in riches might pass. The shorter reading, which says entering the kingdom is hard for anyone, is older and fits the disciples' shock in 10:26. Metzger also reports that Bezae and some Old Latin copies put 10:25 before the second half of 10:24.",
+  "b": "Whichever reading is original, the added words became a much-quoted interpretation, and many preachers have used them to say that wealth itself is not the problem. The oldest text is less comforting.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "10:29",
+  "a": "mother, father, children",
+  "t": "\"Or wife\"",
+  "p": "Later manuscripts add \"or wife\" to the list of what disciples leave, as in Luke 18:29.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles",
+    "orig": "ἢ μητέρα ἢ πατέρα ἢ τέκνα",
+    "en": "or mother or father or children",
+    "plain": "mother, father, children"
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (04), W and most later manuscripts (as reported in the NA28 apparatus); the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἢ μητέρα ἢ πατέρα ἢ γυναῖκα ἢ τέκνα",
+    "en": "or mother or father or wife or children",
+    "plain": "mother, father, wife, children"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Or wife\" comes from Luke 18:29 (and from some copies of Matthew 19:29). Mark's own list in 10:30 does not include wives, which supports the shorter text here.",
+  "s": [
+   "metzger",
+   "na28"
+  ],
+  "b": "A second, smaller difference: the Byzantine text and the Textus Receptus also put \"father\" before \"mother\" (KJV \"or father, or mother, or wife\"), where NA28, the SBLGNT, the Tyndale House edition and Westcott-Hort have \"mother or father.\" It does not change the meaning."
+ },
+ {
+  "v": "10:34",
+  "a": "he will rise after three days",
+  "t": "\"After three days\" or \"on the third day\"?",
+  "p": "The KJV has \"the third day he shall rise again,\" the wording of Matthew and Luke. The oldest copies of Mark say \"after three days.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), Bezae (05), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "μετὰ τρεῖς ἡμέρας ἀναστήσεται",
+    "en": "after three days he will rise",
+    "plain": "he will rise after three days"
+   },
+   {
+    "w": "Alexandrinus (02), W and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τῇ τρίτῃ ἡμέρᾳ ἀναστήσεται",
+    "en": "on the third day he will rise",
+    "plain": "he will rise on the third day"
+   }
+  ],
+  "follow": 0,
+  "why": "Mark says \"after three days\" in all three predictions (8:31; 9:31; 10:34). Copyists brought it into line with Matthew 20:19, Luke 18:33 and the creed in 1 Corinthians 15:4. Both phrases meant the same to Jewish hearers (see the note).",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "10:50",
+  "a": "leaped up",
+  "t": "\"Leaped up\" or \"rose\"?",
+  "p": "The KJV says Bartimaeus \"rose.\" The oldest text has a livelier word: he leaped up.",
+  "readings": [
+   {
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (edition marks in this site's Greek text)",
+    "orig": "ἀναπηδήσας",
+    "en": "having leaped up",
+    "plain": "leaped up"
+   },
+   {
+    "w": "The Byzantine majority, Textus Receptus (KJV \"rose\")",
+    "orig": "ἀναστάς",
+    "en": "having stood up",
+    "plain": "got up"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions print the rare, vivid \"leaped up.\" The common word \"stood up\" is the kind of plainer word copyists put in its place. The meaning is the same: he went to Jesus at once.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "He will send it straight back here.",
+  "t": "Who sends the colt, and where?",
+  "p": "In the oldest manuscripts the disciples promise, for the Lord, that the colt will be sent back. In the KJV the owner will send it to Jesus.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04) as first written, Bezae (05), L, Δ (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "καὶ εὐθὺς αὐτὸν ἀποστέλλει πάλιν ὧδε",
+    "en": "and at once he sends it back here",
+    "plain": "He will send it straight back here."
+   },
+   {
+    "w": "Alexandrinus (02), W and most later manuscripts; the Byzantine majority, Textus Receptus (KJV \"and straightway he will send him hither\")",
+    "orig": "καὶ εὐθέως αὐτὸν ἀποστέλλει ὧδε",
+    "en": "and at once he will send it here",
+    "plain": "And at once he will send it here."
+   }
+  ],
+  "follow": 0,
+  "why": "With \"back\" (<i>palin</i>), the sentence is part of what the disciples say: the Lord will return the colt. Without it, it is Jesus' prediction that the owner will let it go at once, as in Matthew 21:3. The word \"back\" is in the oldest manuscripts, and copyists likely dropped it to match Matthew.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:8",
+  "a": "others laid down greenery they had cut in the fields",
+  "t": "Branches from the fields or the trees?",
+  "p": "The KJV says they \"cut down branches off the trees, and strawed them in the way,\" the wording of Matthew 21:8.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἄλλοι δὲ στιβάδας κόψαντες ἐκ τῶν ἀγρῶν",
+    "en": "and others leafy branches, having cut them from the fields",
+    "plain": "others laid down greenery they had cut in the fields"
+   },
+   {
+    "w": "Alexandrinus (02), Bezae (05), Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἄλλοι δὲ στοιβάδας ἔκοπτον ἐκ τῶν δένδρων καὶ ἐστρώννυον εἰς τὴν ὁδόν",
+    "en": "and others were cutting branches from the trees and spreading them on the road",
+    "plain": "others were cutting greenery off the trees and laying it on the road"
+   }
+  ],
+  "follow": 0,
+  "why": "Mark's short, awkward sentence (\"others, greenery, having cut it from the fields\") was filled out by copyists from Matthew 21:8, with \"trees\" in place of \"fields.\"",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:10",
+  "a": "our father David's kingdom, which is coming",
+  "t": "\"In the name of the Lord\"",
+  "p": "The KJV reads \"Blessed be the kingdom of our father David, that cometh in the name of the Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), Bezae (05), L, W, Δ, Θ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἡ ἐρχομένη βασιλεία τοῦ πατρὸς ἡμῶν Δαυίδ",
+    "en": "the coming kingdom of our father David",
+    "plain": "our father David's kingdom, which is coming"
+   },
+   {
+    "w": "Alexandrinus (02) and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἡ ἐρχομένη βασιλεία ἐν ὀνόματι κυρίου τοῦ πατρὸς ἡμῶν Δαυίδ",
+    "en": "the kingdom coming in the name of the Lord, of our father David",
+    "plain": "our father David's kingdom, which is coming in the Lord's name"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In the name of the Lord\" was repeated from the line before (11:9) and is missing from the oldest manuscripts of every type.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:19",
+  "a": "they went outside the city",
+  "t": "\"They\" or \"he\"?",
+  "p": "Some manuscripts, and the KJV, say \"he went out of the city.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (02), Vaticanus (03), W, Δ, Ψ and others (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἐξεπορεύοντο",
+    "en": "they were going out",
+    "plain": "they went outside the city"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Ephraemi (04), Bezae (05), Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐξεπορεύετο",
+    "en": "he was going out",
+    "plain": "he went outside the city"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses are evenly balanced. The editors prefer the plural because it fits the next verse, where \"they\" pass the fig tree, while copyists may have changed it to the singular to keep Jesus as the subject after 11:17–18. Either way Jesus and the disciples left together.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:22",
+  "a": "Have faith in God",
+  "t": "\"Have faith\" or \"If you have faith\"?",
+  "p": "A few manuscripts read \"If you have faith in God,\" as in Luke 17:6.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (02), Vaticanus (03), Ephraemi (04), L, W, Δ, Ψ and most others (as reported by Metzger); NA28, SBLGNT, THGNT, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Ἔχετε πίστιν θεοῦ",
+    "en": "Have faith in God",
+    "plain": "Have faith in God"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Bezae (05), Θ, family 13 and some Old Latin manuscripts (as reported by Metzger)",
+    "orig": "Εἰ ἔχετε πίστιν θεοῦ",
+    "en": "If you have faith in God",
+    "plain": "If you have faith in God"
+   }
+  ],
+  "follow": 0,
+  "why": "The conditional form seems to come from the similar saying in Luke 17:6 (\"If you had faith\") and smooths the move to 11:23. Most witnesses have the command.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:23",
+  "a": "he will have it",
+  "t": "\"He will have whatever he says\"",
+  "p": "The KJV ends the verse \"he shall have whatsoever he saith.\" The oldest manuscripts say only \"it will be his.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), Bezae (05), L, W, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἔσται αὐτῷ",
+    "en": "it will be for him",
+    "plain": "he will have it"
+   },
+   {
+    "w": "Alexandrinus (02), Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἔσται αὐτῷ ὃ ἐὰν εἴπῃ",
+    "en": "whatever he says will be for him",
+    "plain": "he will have whatever he says"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Whatever he says\" spells out the short ending and is missing from the oldest manuscripts. It broadens the promise from what he has just said to the mountain to anything at all, a reading some later teachers made much of.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:24",
+  "a": "believe that you received it",
+  "t": "\"You received,\" \"you receive\" or \"you will receive\"?",
+  "p": "The oldest manuscripts have the past tense: believe that you have already received it.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Ephraemi (04), L, W, Δ, Ψ (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "πιστεύετε ὅτι ἐλάβετε",
+    "en": "believe that you received",
+    "plain": "believe that you received it"
+   },
+   {
+    "w": "Alexandrinus (02) and most later manuscripts; the Byzantine majority, Textus Receptus (KJV \"believe that ye receive them\")",
+    "orig": "πιστεύετε ὅτι λαμβάνετε",
+    "en": "believe that you are receiving",
+    "plain": "believe that you are receiving it"
+   },
+   {
+    "w": "Codex Bezae (05), Θ, family 13 and some Old Latin manuscripts (as reported by Metzger)",
+    "orig": "πιστεύετε ὅτι λήμψεσθε",
+    "en": "believe that you will receive",
+    "plain": "believe that you will receive it"
+   }
+  ],
+  "follow": 0,
+  "why": "The past tense is the hardest reading: how can one believe a thing has been received before it has? Copyists eased it to the present or the future. The past tense probably reflects a Semitic way of speaking of something certain as already done: God has granted it, though it is not yet seen.",
+  "b": "Teachers in the Word of Faith movement have built on the past tense, teaching that a believer should confess that an answer has already come. Most commentators read the verse as about trust in God's answer, not a technique, and note that 11:25 at once adds a condition: forgive.",
+  "s": [
+   "metzger",
+   "france-mark"
+  ]
+ },
+ {
+  "v": "11:26",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "Mark 11:26: forgiveness withheld",
+  "p": "The KJV's 11:26 is not in the oldest manuscripts. It comes from Matthew 6:15.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, W, Δ, Ψ, minuscules 565, 700 and 892, some Old Latin copies, the Sinaitic Syriac and Coptic (as reported by Metzger); NA28, SBLGNT, THGNT",
+    "orig": "",
+    "en": "(no verse)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Alexandrinus (02), Ephraemi (04), Bezae (05), Θ, families 1 and 13, most Old Latin copies, the Vulgate, and most later manuscripts, in several different forms (as reported by Metzger); the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "εἰ δὲ ὑμεῖς οὐκ ἀφίετε, οὐδὲ ὁ πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς ἀφήσει τὰ παραπτώματα ὑμῶν",
+    "en": "But if you do not forgive, neither will your Father in heaven forgive your trespasses",
+    "plain": "But if you do not forgive, neither will your Father who is in heaven forgive your wrongs."
+   }
+  ],
+  "follow": 0,
+  "why": "A copyist might have skipped the verse by accident, since 11:25 and 11:26 end with the same words (\"your trespasses\"). But it is missing from early witnesses of every type, and where it is present its wording varies, a sign that it was added from Matthew 6:15 (or Matthew 6:14–15 and 18:35), where Jesus says the same thing. So most editors judge it a later addition, as Metzger reports.",
+  "b": "The saying itself is Jesus' teaching in Matthew 6:15: \"If you do not forgive people, then neither will your Father forgive your wrongs\" (Matthew 6:15). The verse number is kept so that verse references stay the same in every Bible.",
+  "s": [
+   "metzger",
+   "na28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "They talked it over among themselves. \"Suppose we say,",
+  "t": "\"What should we say?\"",
+  "p": "The SBLGNT adds \"What should we say?\" to the leaders' debate. NA28, the Tyndale House edition and the Byzantine text do not have it.",
+  "readings": [
+   {
+    "w": "NA28, NA27, THGNT, Westcott-Hort, Tregelles, the Byzantine majority and the Textus Receptus (KJV), as the edition marks in this site's Greek text show; so most manuscripts",
+    "orig": "καὶ διελογίζοντο πρὸς ἑαυτοὺς λέγοντες· ἐὰν εἴπωμεν",
+    "en": "and they were reasoning among themselves, saying, \"If we say\"",
+    "plain": "They talked it over among themselves. \"Suppose we say,"
+   },
+   {
+    "w": "SBLGNT alone among the editions compared here (edition marks in this site's Greek text), with some manuscripts. This site has not been able to check which manuscripts in an apparatus, so it names only the edition.",
+    "orig": "καὶ διελογίζοντο πρὸς ἑαυτοὺς λέγοντες· τί εἴπωμεν; ἐὰν εἴπωμεν",
+    "en": "and they were reasoning among themselves, saying, \"What shall we say? If we say\"",
+    "plain": "They talked it over among themselves. \"What should we say? Suppose we say,"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain follows NA28 and THGNT against its usual base. Every other major edition leaves the question out, so it has the narrower support, and it makes the leaders' discussion fuller, the kind of addition copyists tended to make. The meaning of the passage does not change.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "12:4",
+  "a": "This one they hit over the head and humiliated.",
+  "t": "\"They threw stones at him\"",
+  "p": "The KJV adds that the tenants stoned the second slave and \"sent him away shamefully handled.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "κἀκεῖνον ἐκεφαλίωσαν καὶ ἠτίμασαν",
+    "en": "and that one they struck on the head and dishonored",
+    "plain": "This one they hit over the head and humiliated."
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (04), Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "κἀκεῖνον λιθοβολήσαντες ἐκεφαλαίωσαν, καὶ ἀπέστειλαν ἠτιμωμένον",
+    "en": "and that one, stoning him, they struck on the head, and sent him away dishonored",
+    "plain": "This one they stoned, hit over the head and sent away humiliated."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Stoning\" comes from Matthew 21:35, and \"sent him away\" balances 12:3. The rare verb \"hit on the head\" was spelled two ways by copyists; the meaning is the same.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "12:23",
+  "a": "At the resurrection, when they rise,",
+  "t": "\"When they rise\"",
+  "p": "NA28 prints \"when they rise\" in brackets, and the Tyndale House edition leaves it out. The SBLGNT and the KJV (\"when they shall rise\") have it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and NA27 (in brackets), the Byzantine majority, Textus Receptus (KJV) (edition marks in this site's Greek text)",
+    "orig": "ἐν τῇ ἀναστάσει ὅταν ἀναστῶσιν",
+    "en": "in the resurrection, when they rise",
+    "plain": "At the resurrection, when they rise,"
+   },
+   {
+    "w": "THGNT, Westcott-Hort, Tregelles (edition marks in this site's Greek text). The NA28 brackets mark the words as doubtful because some important early manuscripts lack them; this site has not checked which in an apparatus.",
+    "orig": "ἐν τῇ ἀναστάσει",
+    "en": "in the resurrection",
+    "plain": "At the resurrection,"
+   }
+  ],
+  "follow": 0,
+  "why": "The words add nothing to \"at the resurrection,\" and that cuts both ways. Saying a thing twice is a habit of Mark's style (compare 1:32, \"when evening came, when the sun had set\"), so a copyist could have dropped the phrase as redundant; the SBLGNT keeps it, and NA28 keeps it in brackets. The Tyndale House editors, like Westcott and Hort, judged it an explanatory addition. The Plain follows its usual base, the SBLGNT, because the doubling fits Mark. The meaning does not change.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "12:30",
+  "a": "with all your strength.'",
+  "t": "\"This is the first commandment\"",
+  "p": "The KJV adds \"this is the first commandment\" at the end of 12:30.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT",
+    "orig": "ἐξ ὅλης τῆς ἰσχύος σου.",
+    "en": "with all your strength",
+    "plain": "with all your strength.'"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV); THGNT",
+    "orig": "ἐξ ὅλης τῆς ἰσχύος σου. αὕτη πρώτη ἐντολή.",
+    "en": "with all your strength. This is the first commandment.",
+    "plain": "with all your strength.' This is the first commandment."
+   }
+  ],
+  "follow": 0,
+  "why": "The words repeat what Jesus said at the start of 12:29 and may come from Matthew 22:38. The Tyndale House edition prints them, judging that they were dropped as redundant. The SBLGNT and NA28 leave them out with the oldest manuscripts, and the Plain follows them. The meaning does not change.",
+  "s": [
+   "metzger",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "12:31",
+  "a": "This is the second:",
+  "t": "\"The second is like it\"",
+  "p": "The KJV reads \"And the second is like, namely this,\" as in Matthew 22:39.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT",
+    "orig": "δευτέρα αὕτη·",
+    "en": "the second is this",
+    "plain": "This is the second:"
+   },
+   {
+    "w": "Alexandrinus (02), Bezae (05), W, Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV); THGNT",
+    "orig": "καὶ δευτέρα ὁμοία αὕτη·",
+    "en": "and the second is like this",
+    "plain": "And the second is like it:"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Like it\" is Matthew's wording (Matthew 22:39), which copyists brought into Mark. The Tyndale House edition again prints the longer text.",
+  "s": [
+   "metzger",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "12:32",
+  "a": "he is one",
+  "t": "\"There is one God\"",
+  "p": "The KJV reads \"for there is one God.\" The word \"God\" is not in the scribe's answer in the other editions.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles, the Byzantine majority (edition marks in this site's Greek text)",
+    "orig": "ὅτι εἷς ἐστιν",
+    "en": "that he is one",
+    "plain": "he is one"
+   },
+   {
+    "w": "Textus Receptus (KJV), alone among the editions compared here",
+    "orig": "ὅτι εἷς ἐστιν θεός",
+    "en": "that there is one God",
+    "plain": "there is one God"
+   }
+  ],
+  "follow": 0,
+  "why": "The scribe echoes the Shema without naming God, perhaps out of reverence. The Textus Receptus supplies the word to make the sense clear. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "12:33",
+  "a": "all the understanding",
+  "t": "\"With all the soul\"",
+  "p": "The KJV adds \"and with all the soul\" to the scribe's list.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), L, Δ, Ψ (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἐξ ὅλης τῆς συνέσεως",
+    "en": "with all the understanding",
+    "plain": "all the understanding"
+   },
+   {
+    "w": "Alexandrinus (02), Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐξ ὅλης τῆς συνέσεως καὶ ἐξ ὅλης τῆς ψυχῆς",
+    "en": "with all the understanding and with all the soul",
+    "plain": "all the understanding, all the soul"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists added \"soul\" so that the scribe's list would match Jesus' in 12:30. The scribe's own three terms are older.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "12:36",
+  "a": "down beneath your feet",
+  "t": "\"Beneath your feet\" or \"a stool for your feet\"?",
+  "p": "The KJV has \"till I make thine enemies thy footstool,\" the wording of Psalm 110:1 in the Greek Old Testament.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (03), Bezae (05), W and others (as reported in the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ὑποκάτω τῶν ποδῶν σου",
+    "en": "under your feet",
+    "plain": "down beneath your feet"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), L, Θ and most later manuscripts; the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ὑποπόδιον τῶν ποδῶν σου",
+    "en": "a footstool of your feet",
+    "plain": "down as a stool for your feet"
+   }
+  ],
+  "follow": 0,
+  "why": "Psalm 110:1 in both Hebrew and Greek has \"a stool for your feet,\" as this site's Plain of the psalm does. Copyists naturally corrected Mark to match the psalm. \"Beneath your feet\" is the harder reading and is also found in Matthew 22:44, perhaps under the influence of Psalm 8:6.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ }
+]

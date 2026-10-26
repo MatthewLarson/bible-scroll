@@ -1,0 +1,448 @@
+[
+ {
+  "v": "3:19",
+  "a": "his brother's wife",
+  "t": "\"His brother Philip's wife\"?",
+  "p": "The KJV names Philip here. The oldest manuscripts and the Byzantine text do not; the name came in from Mark and Matthew.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus and nearly all manuscripts; SBLGNT, NA28, THGNT, Byzantine text (Robinson-Pierpont)",
+    "orig": "τῆς γυναικὸς τοῦ ἀδελφοῦ αὐτοῦ",
+    "en": "the wife of his brother",
+    "plain": "his brother's wife"
+   },
+   {
+    "w": "Some manuscripts; Textus Receptus (KJV)",
+    "orig": "τῆς γυναικὸς Φιλίππου τοῦ ἀδελφοῦ αὐτοῦ",
+    "en": "the wife of Philip his brother",
+    "plain": "his brother Philip's wife"
+   }
+  ],
+  "follow": 0,
+  "why": "The name is absent from the great majority of manuscripts, early and late. Scribes who knew Mark 6:17 and Matthew 14:3, where the first husband is called Philip, added it here to match.",
+  "b": "Josephus calls Herodias' first husband Herod, a son of Herod the Great by Mariamne II, and says she later left him for Antipas (<i>Antiquities</i> 18.109–110, 136). Whether he also bore the name Philip is debated. The Philip of 3:1, the tetrarch, married Herodias' daughter Salome.",
+  "s": [
+   "metzger",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "You are my dearly loved Son; in you I take delight",
+  "t": "\"Today I have fathered you\"",
+  "p": "Codex Bezae, several Old Latin manuscripts and second-century writers have the voice quote Psalm 2:7 instead.",
+  "readings": [
+   {
+    "w": "P4 and P75 (both about 200), Sinaiticus, Alexandrinus, Vaticanus, Washington and almost all Greek manuscripts (as reported by NA28); SBLGNT, NA28, THGNT, Byzantine text, Textus Receptus (KJV)",
+    "orig": "Σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός, ἐν σοὶ εὐδόκησα",
+    "en": "You are my Son, the beloved; in you I am well pleased",
+    "plain": "You are my dearly loved Son; in you I take delight"
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and several Old Latin manuscripts; quoted in this form by Justin Martyr (Dialogue with Trypho 88, 103) and known to other writers of the 100s–300s (as reported by Metzger and Ehrman)",
+    "orig": "Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε",
+    "en": "You are my Son; today I have begotten you",
+    "plain": "You are my Son. This day I have fathered you."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek manuscripts are almost unanimous, and the wording matches Mark 1:11. The Western reading may come from a scribe or tradition that applied Psalm 2:7 to the baptism, as Acts 13:33 and Hebrews 1:5; 5:5 apply it to the resurrection and to Christ's sonship.",
+  "b": "Some scholars, among them Bart Ehrman, argue that the Western reading is original: it is the harder reading, it was widely known in the second century, and it could have been changed by orthodox scribes because it seemed to say that Jesus became God's Son at his baptism (an \"adoptionist\" view). Most text critics reply that the reading is too narrowly attested in Greek, that the familiar Psalm verse could easily be substituted, and that Luke has already called Jesus God's Son from his conception (1:35). The question touches a real early debate about when and how Jesus was Son, which the creeds later settled. The two earliest Greek manuscripts, P4 and P75, both have the wording of Mark 1:11; the Psalm 2:7 form is attested earlier in the Fathers (Justin, <i>Dialogue</i> 88, 103) than in any Greek manuscript.",
+  "s": [
+   "metzger",
+   "ehrman-corruption",
+   "justin-dialogue",
+   "na28"
+  ]
+ },
+ {
+  "v": "3:32",
+  "a": "Obed",
+  "t": "Obed or Jobel?",
+  "p": "The SBLGNT prints Iōbēl, the spelling in Sinaiticus as first written and Vaticanus. NA28, THGNT and most manuscripts have Obed.",
+  "readings": [
+   {
+    "w": "A corrector of Sinaiticus, Alexandrinus, L, Washington and most manuscripts (Ἰωβήδ), and the Byzantine manuscripts (Ὠβήδ), as reported by Tischendorf; NA28, THGNT, Byzantine text, Textus Receptus (KJV)",
+    "orig": "Ἰωβήδ / Ὠβήδ",
+    "en": "Obed",
+    "plain": "Obed"
+   },
+   {
+    "w": "Sinaiticus as first written and Vaticanus (ℵ* B, 300s), as reported by Tischendorf; SBLGNT, Westcott-Hort",
+    "orig": "Ἰωβήλ",
+    "en": "Jobel",
+    "plain": "Jobel"
+   }
+  ],
+  "follow": 0,
+  "why": "Obed is the name in Ruth 4:17, 1 Chronicles 2:12 and Matthew 1:5, and the Greek letters for d and l (Δ and Λ) were easily confused. The Plain follows NA28 and THGNT against the SBLGNT here, because the spelling with l is most likely an early copying slip. The harder-reading rule that decides Sala (next entry) does not settle this one: Sala is a real form of the name (Ruth 4:20 has Salmah in Hebrew), while Jobel is a meaningless form produced by a one-stroke slip that a common ancestor of Sinaiticus and Vaticanus could easily have made.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "3:32",
+  "a": "Sala",
+  "t": "Sala or Salmon?",
+  "p": "The oldest manuscripts have Sala. Most later ones, and the KJV, have Salmon, the name in Ruth and Matthew.",
+  "readings": [
+   {
+    "w": "P4 (about 200), Sinaiticus as first written, Vaticanus and the Sinaitic Syriac (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "Σαλά",
+    "en": "Sala",
+    "plain": "Sala"
+   },
+   {
+    "w": "Alexandrinus, Bezae, a corrector of Sinaiticus and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Σαλμών",
+    "en": "Salmon",
+    "plain": "Salmon"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter, unexpected name is in the earliest witnesses; scribes would naturally change it to the familiar Salmon of Ruth 4:20–21 and Matthew 1:4–5, not the reverse. The Hebrew of Ruth 4:20 itself spells the name both Salmah and Salmon (Ruth 4:20–21).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:33",
+  "a": "the son of Admin, the son of Arni",
+  "t": "Admin and Arni, or Aram?",
+  "p": "Critical editions list Amminadab, Admin, Arni. Most later manuscripts and the KJV have Amminadab, Aram.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, THGNT, chosen by the editors from a tangle of early readings (Metzger reports more than a dozen different forms of the line)",
+    "orig": "τοῦ Ἀμιναδὰβ τοῦ Ἀδμὶν τοῦ Ἀρνί",
+    "en": "of Amminadab, of Admin, of Arni",
+    "plain": "the son of Admin, the son of Arni"
+   },
+   {
+    "w": "Alexandrinus, Bezae and many later manuscripts (as reported by Metzger and Tischendorf); Byzantine text, Textus Receptus (KJV 'Aram')",
+    "orig": "τοῦ Ἀμιναδὰβ τοῦ Ἀράμ",
+    "en": "of Amminadab, of Aram",
+    "plain": "the son of Aram"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the most confused places in the Gospels' text. The editors of the UBS and Nestle-Aland texts chose the reading that best explains the others, while admitting a high degree of doubt. The Byzantine reading matches Ram (Greek Aram) in 1 Chronicles 2:9–10, Ruth 4:19 and Matthew 1:3–4, which is exactly what a scribe would correct toward.",
+  "b": "Admin and Arni appear nowhere else. Some think Arni is a form of Ram and Admin a later addition; with them, Luke's list has 77 names from Adam to Jesus (78 if God is counted), which Richard Bauckham and others think was intended (see the chapter page).",
+  "s": [
+   "metzger",
+   "na28",
+   "bauckham-relatives",
+   "tischendorf-nt8"
+  ]
+ },
+ {
+  "v": "3:36",
+  "a": "the son of Cainan",
+  "t": "The second Cainan: in or out?",
+  "p": "Nearly all manuscripts include the Cainan whom the Hebrew of Genesis 11 lacks. Codex Bezae leaves him out, and P75 may have.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, L and nearly all manuscripts (Καϊνάμ, or Καϊνάν in Alexandrinus and the Byzantine manuscripts), as reported by Tischendorf; SBLGNT, NA28, THGNT, Byzantine text, Textus Receptus (KJV)",
+    "orig": "τοῦ Καϊνάμ",
+    "en": "of Cainan",
+    "plain": "the son of Cainan"
+   },
+   {
+    "w": "Codex Bezae (D, 400s), as reported by Tischendorf; probably P75 (about 175–225), which NA28 cites with \"vid\" because the papyrus is damaged here, and some scholars doubt that the omission can be shown",
+    "orig": "(omitted)",
+    "en": "(no Cainan between Shelah and Arphaxad)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Every edition keeps the name, because almost every witness has it, and Bezae often brings Luke's list into line with Matthew and the Old Testament (see the chapter page). The name agrees with the Septuagint of Genesis 11:12–13, which Luke read.",
+  "b": "Views differ on how the name got there. Most scholars think Luke took it from his Greek Bible. Some, such as Andrew Steinmann, argue that it entered Luke 3:36 by an early copying slip from the Cainan of 3:37 and later spread into Septuagint manuscripts of Genesis, and they take the possible omission in P75 as the original text. The question matters to those who calculate the age of the earth from the genealogies, since the Septuagint gives Cainan 130 years before his son.",
+  "s": [
+   "tischendorf-nt8",
+   "na28",
+   "steinmann-cainan"
+  ]
+ },
+ {
+  "v": "4:4",
+  "a": "People will not live by bread alone.",
+  "t": "\"But by every word of God\"",
+  "p": "The oldest manuscripts end the quotation at \"bread alone.\" Later ones finish it, as Matthew does.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, L, Washington, the Sinaitic Syriac and the Coptic (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "Οὐκ ἐπ’ ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος",
+    "en": "Not on bread alone will man live",
+    "plain": "People will not live by bread alone."
+   },
+   {
+    "w": "Alexandrinus, Bezae, Koridethi, most later manuscripts and the Latin; Byzantine text, Textus Receptus (KJV)",
+    "orig": "... ἀλλ’ ἐπὶ παντὶ ῥήματι θεοῦ",
+    "en": "... but by every word of God",
+    "plain": "People will not live by bread alone, but by every word of God."
+   }
+  ],
+  "follow": 0,
+  "why": "Scribes regularly filled out Luke's shorter quotations from the fuller wording in Matthew (here Matthew 4:4, which has \"every word that comes out of God's mouth\"). If the words had been original, there is no good reason anyone would have dropped them.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "led him up",
+  "t": "\"Onto a high mountain\"",
+  "p": "The oldest manuscripts do not say where the devil took Jesus. Later ones add \"onto a high mountain\" from Matthew.",
+  "readings": [
+   {
+    "w": "Sinaiticus as first written, Vaticanus, L and a few others (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "ἀναγαγὼν αὐτόν",
+    "en": "having led him up",
+    "plain": "led him up"
+   },
+   {
+    "w": "Alexandrinus, Bezae, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἀναγαγὼν αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλόν",
+    "en": "the devil, having led him up into a high mountain",
+    "plain": "led him up onto a high mountain"
+   }
+  ],
+  "follow": 0,
+  "why": "The mountain and the subject \"the devil\" come from Matthew 4:8. Luke's shorter text, with its \"split second,\" pictures a vision rather than a view from a summit. The Plain names the devil in both readings for clarity, as the Byzantine text does.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "It is written",
+  "t": "\"Get behind me, Satan\"",
+  "p": "The KJV has Jesus say \"Get thee behind me, Satan\" here. The oldest manuscripts do not; it was added from Matthew and Mark.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae, L, Washington, the Old Latin and the Vulgate (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "Γέγραπται",
+    "en": "It has been written",
+    "plain": "It is written"
+   },
+   {
+    "w": "Alexandrinus, Koridethi and most later manuscripts; Byzantine text; Textus Receptus (KJV, with \"for\")",
+    "orig": "Ὕπαγε ὀπίσω μου, Σατανᾶ· γέγραπται (γάρ)",
+    "en": "Get behind me, Satan; (for) it has been written",
+    "plain": "Get behind me, Satan! It is written"
+   }
+  ],
+  "follow": 0,
+  "why": "The words come from Matthew 4:10 (\"Go away, Satan!\") in the form of Jesus' rebuke to Peter (Mark 8:33; Matthew 16:23). In Luke they also make no sense, because the devil is not dismissed here but goes on to a third test.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:18",
+  "a": "He has sent me",
+  "t": "\"To heal the brokenhearted\"",
+  "p": "The Byzantine text and the KJV include Isaiah's line \"to heal the brokenhearted.\" The oldest manuscripts do not.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae, L, Washington and others (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "ἀπέσταλκέν με κηρύξαι",
+    "en": "he has sent me to proclaim",
+    "plain": "He has sent me"
+   },
+   {
+    "w": "Alexandrinus, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἀπέσταλκέν με ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν, κηρύξαι",
+    "en": "he has sent me to heal the brokenhearted, to proclaim",
+    "plain": "He has sent me to heal those whose hearts are broken, and"
+   }
+  ],
+  "follow": 0,
+  "why": "The line is in Isaiah 61:1 (Greek and Hebrew), so scribes who knew Isaiah would add it to complete the quotation. It is hard to see why anyone would leave it out if Luke had written it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:41",
+  "a": "You are God's Son!",
+  "t": "\"You are the Messiah, God's Son\"",
+  "p": "Later manuscripts and the KJV have the demons say \"You are Christ the Son of God.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae and other early manuscripts (as reported by Metzger and NA28); SBLGNT, NA28, THGNT",
+    "orig": "Σὺ εἶ ὁ υἱὸς τοῦ θεοῦ",
+    "en": "You are the Son of God",
+    "plain": "You are God's Son!"
+   },
+   {
+    "w": "Alexandrinus, Koridethi and most later manuscripts (as reported by Metzger and NA28); Byzantine text, Textus Receptus (KJV)",
+    "orig": "Σὺ εἶ ὁ χριστὸς ὁ υἱὸς τοῦ θεοῦ",
+    "en": "You are the Christ, the Son of God",
+    "plain": "You are the Messiah, God's Son!"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Messiah\" was probably added from the end of the verse (\"they knew him to be the Messiah\") or from the familiar confession of Matthew 16:16.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "4:44",
+  "a": "Judea",
+  "t": "Judea or Galilee?",
+  "p": "The oldest manuscripts say Jesus preached in the synagogues of Judea. Later ones, and the KJV, say Galilee.",
+  "readings": [
+   {
+    "w": "P75 (about 175–225), Sinaiticus, Vaticanus, C, L (as reported by Metzger), the Sinaitic Syriac and the Sahidic Coptic; SBLGNT, NA28, THGNT",
+    "orig": "εἰς τὰς συναγωγὰς τῆς Ἰουδαίας",
+    "en": "in the synagogues of Judea",
+    "plain": "Judea"
+   },
+   {
+    "w": "Alexandrinus, Bezae, Koridethi, most later manuscripts and the Latin; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἐν ταῖς συναγωγαῖς τῆς Γαλιλαίας",
+    "en": "in the synagogues of Galilee",
+    "plain": "Galilee"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Judea\" is the harder reading, since Jesus is in Galilee before and after, and Mark 1:39 says Galilee. Scribes changed it to fit the setting and the parallel. Luke often uses \"Judea\" for the whole land of the Jews, Galilee included (1:5; 6:17; 7:17; 23:5; Acts 10:37), and that is probably his meaning here.",
+  "b": "Read this way, 4:44 is a summary of Jesus' preaching across the Jewish homeland, not a report of a trip south.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:17",
+  "a": "for him to heal",
+  "t": "\"For him to heal\" or \"to heal them\"",
+  "p": "The oldest manuscripts say the Lord's power was there for Jesus to heal. Later ones say \"to heal them.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, L, Washington and others; SBLGNT, NA28, THGNT",
+    "orig": "εἰς τὸ ἰᾶσθαι αὐτόν",
+    "en": "for him to heal",
+    "plain": "for him to heal"
+   },
+   {
+    "w": "Alexandrinus, C, Bezae, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "εἰς τὸ ἰᾶσθαι αὐτούς",
+    "en": "to heal them",
+    "plain": "to heal them"
+   }
+  ],
+  "follow": 0,
+  "why": "In the critical text \"him\" is the subject of the infinitive (\"for him to heal\"). Scribes may have taken it as the object, which made no sense (\"to heal him\"), and changed it to \"them,\" supplying sick people the verse has not mentioned.",
+  "s": [
+   "metzger",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "5:33",
+  "a": "John's disciples often fast and say their prayers, and the Pharisees' disciples do the same. But yours eat and drink.",
+  "t": "Statement or question?",
+  "p": "In the oldest manuscripts the critics make a statement. Later ones, and the KJV, turn it into a question with \"Why.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus as first written, Vaticanus, L, Washington and others; SBLGNT, NA28, THGNT",
+    "orig": "Οἱ μαθηταὶ Ἰωάννου νηστεύουσιν ...",
+    "en": "The disciples of John fast ...",
+    "plain": "John's disciples often fast and say their prayers, and the Pharisees' disciples do the same. But yours eat and drink."
+   },
+   {
+    "w": "Alexandrinus, C, Bezae, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Διὰ τί οἱ μαθηταὶ Ἰωάννου νηστεύουσιν ...",
+    "en": "Why do the disciples of John fast ...?",
+    "plain": "Why do John's disciples often fast and say their prayers, and the Pharisees' disciples do the same, while yours eat and drink?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Why\" was added to match the question form in Mark 2:18 and Matthew 9:14. The meaning is the same either way: Jesus answers an implied complaint.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:36",
+  "a": "Nobody tears a patch from a new coat and puts it on an old coat",
+  "t": "Tearing up the new coat",
+  "p": "The oldest manuscripts say the patch is torn from a new coat. Later ones, and the KJV, simply speak of a patch from a new coat.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus and other early manuscripts; SBLGNT, NA28, THGNT",
+    "orig": "Οὐδεὶς ἐπίβλημα ἀπὸ ἱματίου καινοῦ σχίσας ἐπιβάλλει ἐπὶ ἱμάτιον παλαιόν",
+    "en": "No one, having torn a patch from a new garment, puts it on an old garment",
+    "plain": "Nobody tears a patch from a new coat and puts it on an old coat"
+   },
+   {
+    "w": "Most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Οὐδεὶς ἐπίβλημα ἱματίου καινοῦ ἐπιβάλλει ἐπὶ ἱμάτιον παλαιόν",
+    "en": "No one puts a patch of a new garment on an old garment",
+    "plain": "Nobody puts a patch from a new coat on an old coat"
+   }
+  ],
+  "follow": 0,
+  "why": "Luke's sharper picture (a new coat torn up) is the harder reading; scribes softened it toward Mark 2:21 and Matthew 9:16. The later text also changes the verbs that follow to the present tense.",
+  "s": [
+   "metzger",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "5:38",
+  "a": "No: fresh skins are what new wine must go into.",
+  "t": "\"And both are kept safe\"",
+  "p": "Later manuscripts and the KJV add \"and both are preserved,\" from Matthew 9:17.",
+  "readings": [
+   {
+    "w": "P4 (about 200), Sinaiticus, Vaticanus, L, Washington and others; SBLGNT, NA28, THGNT",
+    "orig": "ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον",
+    "en": "but new wine must be put into fresh wineskins",
+    "plain": "No: fresh skins are what new wine must go into."
+   },
+   {
+    "w": "Alexandrinus, C, Bezae, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "... βλητέον, καὶ ἀμφότεροι συντηροῦνται",
+    "en": "... must be put, and both are preserved",
+    "plain": "No: fresh skins are what new wine must go into, and both are kept safe."
+   }
+  ],
+  "follow": 0,
+  "why": "The words are the ending of Matthew 9:17, where the Plain reads \"and both are kept safe.\" Scribes often harmonized the Gospels this way.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:39",
+  "a": "is good",
+  "t": "\"Good\" or \"better\"",
+  "p": "The oldest manuscripts say \"The old is good.\" Later ones say \"better\"; some Western witnesses leave out the whole verse.",
+  "readings": [
+   {
+    "w": "P4 (about 200), Sinaiticus, Vaticanus, Washington and others; SBLGNT, NA28, THGNT",
+    "orig": "Ὁ παλαιὸς χρηστός ἐστιν",
+    "en": "The old is good",
+    "plain": "is good"
+   },
+   {
+    "w": "Alexandrinus, C, Koridethi and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Ὁ παλαιὸς χρηστότερός ἐστιν",
+    "en": "The old is better",
+    "plain": "is better"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Better\" makes the comparison explicit and smooths the thought; \"good\" is the earlier and more widely attested reading. The Byzantine text also adds \"immediately\" (KJV \"straightway\"): no one immediately wants the new.",
+  "b": "Codex Bezae and several Old Latin manuscripts omit 5:39 altogether, as Metzger reports, probably because it seemed to undercut the sayings about new wine.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

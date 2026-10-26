@@ -1,0 +1,610 @@
+[
+ {
+  "v": "11:2",
+  "a": "Father",
+  "t": "\"Father\" or \"Our Father in heaven\"?",
+  "p": "The oldest manuscripts begin Luke's prayer with one word. Later ones copy Matthew's longer opening.",
+  "readings": [
+   {
+    "w": "P75 (about 175–225), Codex Sinaiticus (300s), Codex Vaticanus (300s), family 1, 700, the Latin Vulgate, the Sinaitic Syriac, Origen (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "Πάτερ",
+    "en": "Father",
+    "plain": "Father"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), Ephraemi (C, 400s), Bezae (D, 400s), Washington (W, 400s), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς",
+    "en": "Our Father who is in the heavens",
+    "plain": "Our Father, who is in heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The short address has the oldest and best witnesses, including P75 and Vaticanus. Scribes who knew the Lord's Prayer by heart from Matthew 6:9 and from church worship naturally filled out Luke's shorter form; no scribe would have cut down the familiar words.",
+  "b": "All the differences in Luke's Lord's Prayer (here, in the next clause and in 11:4) run the same way: later manuscripts make Luke match Matthew. Metzger calls this a clear case of harmonizing to the more familiar form.",
+  "s": [
+   "metzger",
+   "na28",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "May your kingdom come.",
+  "t": "Kingdom, will, or Holy Spirit?",
+  "p": "Later manuscripts add \"May your will be done\" from Matthew. Two minuscules ask instead for the Holy Spirit.",
+  "readings": [
+   {
+    "w": "P75, Codex Vaticanus, L, family 1, the Latin Vulgate, the Sinaitic Syriac, Origen (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἐλθέτω ἡ βασιλεία σου·",
+    "en": "Your kingdom come.",
+    "plain": "May your kingdom come."
+   },
+   {
+    "w": "Codex Sinaiticus (as reported in the NA28 apparatus), Alexandrinus, Ephraemi (C), Bezae (D), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐλθέτω ἡ βασιλεία σου. γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ, καὶ ἐπὶ τῆς γῆς.",
+    "en": "Your kingdom come. Your will be done, as in heaven, also on the earth.",
+    "plain": "May your kingdom come. May your will be done, as in heaven, so also on earth."
+   },
+   {
+    "w": "Minuscules 162 (AD 1153) and 700 (1000s); known to Gregory of Nyssa and Maximus the Confessor; Marcion's text apparently had it in place of \"may your name be honored\" (Tertullian, Against Marcion 4.26); all as reported by Metzger",
+    "orig": "ἐλθέτω τὸ πνεῦμά σου τὸ ἅγιον ἐφ' ἡμᾶς καὶ καθαρισάτω ἡμᾶς",
+    "en": "May your Holy Spirit come upon us and cleanse us",
+    "plain": "May your Holy Spirit come upon us and cleanse us."
+   }
+  ],
+  "follow": 0,
+  "why": "\"May your will be done\" is missing from the oldest witnesses and matches Matthew 6:10 word for word, so it was added from Matthew. The request for the Spirit is found in only two late Greek manuscripts and a few early writers. Most scholars think it began as a prayer used at baptism or the laying on of hands and found its way into some copies of Luke.",
+  "b": "The Spirit reading has had serious defenders. Gregory of Nyssa (late 300s) quotes it as Luke's text, and it fits Luke's interest in the Spirit (11:13). A few scholars have argued it is original. Against this: it appears in so few manuscripts, it varies in where it stands (Marcion apparently had it near the start), and it reads like a liturgical prayer. Metzger reports the evidence and the committee's judgment that it is a later liturgical addition.",
+  "s": [
+   "metzger",
+   "comfort-nttc",
+   "tertullian-marcion",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:4",
+  "a": "And do not bring us into testing.",
+  "t": "\"But rescue us from the evil one\"",
+  "p": "Luke's prayer ends with the request about testing. The last line familiar from Matthew is added in later manuscripts.",
+  "readings": [
+   {
+    "w": "P75, Codex Vaticanus, L, family 1, the Latin Vulgate, the Sinaitic Syriac, Origen (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν.",
+    "en": "and do not bring us into testing.",
+    "plain": "And do not bring us into testing."
+   },
+   {
+    "w": "Codex Alexandrinus, Ephraemi (C), Bezae (D), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+    "en": "and do not bring us into testing, but rescue us from the evil (one).",
+    "plain": "And do not bring us into testing, but rescue us from the evil one."
+   }
+  ],
+  "follow": 0,
+  "why": "The added line is Matthew 6:13 exactly, and the oldest witnesses lack it. Neither form of Luke has the closing praise (\"For yours is the kingdom ...\"), which is found only in some manuscripts of Matthew.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "11:11",
+  "a": "Is there a father among you who would hand his son a snake in place of a fish, when the boy asks for a fish?",
+  "t": "Bread and a stone added",
+  "p": "Later manuscripts add Matthew's pair, bread and a stone, so that Luke has three pairs.",
+  "readings": [
+   {
+    "w": "P45 (200s), P75, Codex Vaticanus, the Sinaitic Syriac, the Sahidic Coptic (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τίνα δὲ ἐξ ὑμῶν τὸν πατέρα αἰτήσει ὁ υἱὸς ἰχθύν, καὶ ἀντὶ ἰχθύος ὄφιν αὐτῷ ἐπιδώσει;",
+    "en": "Which father of you will the son ask for a fish, and instead of a fish he will give him a snake?",
+    "plain": "Is there a father among you who would hand his son a snake in place of a fish, when the boy asks for a fish?"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Ephraemi (C), Bezae (D), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τίνα δὲ ὑμῶν τὸν πατέρα αἰτήσει ὁ υἱὸς ἄρτον, μὴ λίθον ἐπιδώσει αὐτῷ; ἢ καὶ ἰχθύν, μὴ ἀντὶ ἰχθύος ὄφιν ἐπιδώσει αὐτῷ;",
+    "en": "Which of you, a father, if the son asks for bread, will he give him a stone? Or if a fish, will he instead of a fish give him a snake?",
+    "plain": "If his son asks for bread, is there a father among you who would hand him a stone? Or if the boy asks for a fish, would he hand him a snake in place of a fish?"
+   }
+  ],
+  "follow": 0,
+  "why": "The bread and stone come from Matthew 7:9. Scribes added them to make Luke match; it is hard to see why anyone would have removed them. Luke's own pairs are fish and snake, egg and scorpion.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:13",
+  "a": "the Holy Spirit",
+  "t": "Holy Spirit, good spirit, or good gift?",
+  "p": "Almost all manuscripts have \"the Holy Spirit.\" A few have \"a good spirit\" or \"good gifts,\" closer to Matthew.",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi (C), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "πνεῦμα ἅγιον",
+    "en": "Holy Spirit",
+    "plain": "the Holy Spirit"
+   },
+   {
+    "w": "P45, L and a few others (as reported by Metzger)",
+    "orig": "πνεῦμα ἀγαθόν",
+    "en": "a good spirit",
+    "plain": "a good spirit"
+   },
+   {
+    "w": "Codex Bezae (D) and some Old Latin manuscripts (as reported by Metzger)",
+    "orig": "ἀγαθὸν δόμα",
+    "en": "a good gift",
+    "plain": "a good gift"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Holy Spirit\" has overwhelming support and fits Luke's theme. The other readings move toward Matthew 7:11, \"what is good,\" or blend the two.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:29",
+  "a": "the sign of Jonah",
+  "t": "\"Jonah the prophet\"",
+  "p": "Later manuscripts add \"the prophet\" from Matthew.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τὸ σημεῖον Ἰωνᾶ",
+    "en": "the sign of Jonah",
+    "plain": "the sign of Jonah"
+   },
+   {
+    "w": "Codex Alexandrinus, Ephraemi (C), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τὸ σημεῖον Ἰωνᾶ τοῦ προφήτου",
+    "en": "the sign of Jonah the prophet",
+    "plain": "the sign of Jonah the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The prophet\" is found in Matthew 12:39 and was added here to match.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "11:33",
+  "a": "in a hidden corner or under the grain basket",
+  "t": "\"Or under the grain basket\"",
+  "p": "Some of the oldest papyri lack the basket, which may have been added from Mark and Matthew.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi (C), Bezae (D), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV); SBLGNT, NA28 (in brackets)",
+    "orig": "εἰς κρύπτην τίθησιν οὐδὲ ὑπὸ τὸν μόδιον",
+    "en": "puts it in a cellar nor under the basket",
+    "plain": "in a hidden corner or under the grain basket"
+   },
+   {
+    "w": "P45, P75, L, family 1, 700, the Sinaitic Syriac, the Sahidic Coptic (as reported by Metzger); Tyndale House GNT",
+    "orig": "εἰς κρύπτην τίθησιν",
+    "en": "puts it in a cellar",
+    "plain": "in a hidden corner"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is close. The phrase is missing from the two oldest papyri, and it matches Mark 4:21 and Matthew 5:15, so scribes could have added it. But its omission could also be an accident or a pruning of a double phrase. The UBS committee kept it in brackets to show the doubt; SBLGNT keeps it, and the Tyndale House edition leaves it out. This translation follows SBLGNT and NA28.",
+  "s": [
+   "metzger",
+   "na28",
+   "thgnt"
+  ],
+  "b": "Later in the verse the editions also differ on the last word. SBLGNT and the Byzantine text read <i>phengos</i>, \"glow, brightness,\" which this translation follows (\"see its glow\"); NA28, the Tyndale House GNT and Westcott and Hort read <i>phōs</i>, \"light.\" The sense is the same."
+ },
+ {
+  "v": "11:42",
+  "a": "These you should have done, and not neglected the others.",
+  "t": "A missing last line",
+  "p": "Codex Bezae and Marcion's Gospel lack the line that tells the Pharisees to keep tithing.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Alexandrinus, Vaticanus, the Byzantine majority, Textus Receptus (KJV); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ταῦτα δὲ ἔδει ποιῆσαι κἀκεῖνα μὴ παρεῖναι.",
+    "en": "These things it was necessary to do, and those not to neglect.",
+    "plain": "These you should have done, and not neglected the others."
+   },
+   {
+    "w": "Codex Bezae (D) and Marcion (as reported by Metzger)",
+    "orig": "",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all manuscripts have the line. It may have been left out in Bezae because it seemed to approve of Pharisaic tithing; Marcion, who rejected the Jewish Law, would have had a reason to cut it. Some scholars think it was added from Matthew 23:23, but the evidence for it is very strong.",
+  "s": [
+   "metzger"
+  ],
+  "b": "The Byzantine majority and the Textus Receptus have the line in slightly different words, without <i>de</i> and with <i>aphienai</i>, \"leave,\" for <i>pareinai</i>, \"neglect\": ταῦτα ἔδει ποιῆσαι κἀκεῖνα μὴ ἀφιέναι (KJV \"and not to leave the other undone\"). The meaning is the same."
+ },
+ {
+  "v": "11:44",
+  "a": "Woe to you!",
+  "t": "\"Scribes and Pharisees, hypocrites\"",
+  "p": "Later manuscripts add Matthew's full address: \"Woe to you, scribes and Pharisees, hypocrites!\"",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, Ephraemi (C), L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "οὐαὶ ὑμῖν",
+    "en": "Woe to you",
+    "plain": "Woe to you!"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι, ὑποκριταί",
+    "en": "Woe to you, scribes and Pharisees, hypocrites",
+    "plain": "Woe to you, scribes and Pharisees, hypocrites!"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer form is Matthew's refrain (Matthew 23:13–29). In Luke the scribes (\"lawyers\") are only addressed from 11:46, so naming them here spoils Luke's order.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "11:48",
+  "a": "you do the building",
+  "t": "\"Their tombs\"",
+  "p": "The KJV's text spells out what is built: \"ye build their sepulchres.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott and Hort (the individual manuscripts are not checked here)",
+    "orig": "ὑμεῖς δὲ οἰκοδομεῖτε",
+    "en": "but you build",
+    "plain": "you do the building"
+   },
+   {
+    "w": "The Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ὑμεῖς δὲ οἰκοδομεῖτε αὐτῶν τὰ μνημεῖα",
+    "en": "but you build their tombs",
+    "plain": "you build their tombs"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions end the sentence with the bare verb, which makes a sharp contrast: they killed, you build. The words \"their tombs\" repeat 11:47 and look like a scribe's clarification. The sense is the same either way.",
+  "b": "The same texts also differ at the start of the verse: the critical text has \"you are witnesses\" (<i>martyres este</i>), the Byzantine text \"you bear witness\" (<i>martyreite</i>, KJV \"Truly ye bear witness\"). The English meaning hardly changes.",
+  "s": [
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "11:53",
+  "a": "As he left that place,",
+  "t": "Leaving, or still speaking?",
+  "p": "The critical text says Jesus left the house. The KJV's text says he was still speaking to them.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Ephraemi (C), L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "κἀκεῖθεν ἐξελθόντος αὐτοῦ",
+    "en": "and from there, when he had gone out",
+    "plain": "As he left that place,"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "λέγοντος δὲ αὐτοῦ ταῦτα πρὸς αὐτούς",
+    "en": "as he was saying these things to them",
+    "plain": "As he was saying these things to them,"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading with \"left\" has the oldest witnesses and is the less smooth: it ends the dinner scene abruptly. The Byzantine form keeps the scene going. Codex Bezae (D) has a much longer, rewritten form of 11:53–54.",
+  "s": [
+   "na28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:54",
+  "a": "They were setting an ambush for him, to hunt down some word from his own mouth.",
+  "t": "\"So that they could accuse him\"",
+  "p": "Later manuscripts explain the plot: they were seeking to catch him so that they could bring charges.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἐνεδρεύοντες αὐτὸν θηρεῦσαί τι ἐκ τοῦ στόματος αὐτοῦ.",
+    "en": "lying in wait for him, to catch something out of his mouth.",
+    "plain": "They were setting an ambush for him, to hunt down some word from his own mouth."
+   },
+   {
+    "w": "Codex Alexandrinus, Ephraemi (C), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐνεδρεύοντες αὐτόν, ζητοῦντες θηρεῦσαί τι ἐκ τοῦ στόματος αὐτοῦ, ἵνα κατηγορήσωσιν αὐτοῦ.",
+    "en": "lying in wait for him, seeking to catch something out of his mouth, so that they might accuse him.",
+    "plain": "They were setting an ambush for him, looking to hunt down some word from his own mouth, so that they could bring charges against him."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words explain what the shorter text leaves implied, a typical scribal expansion; compare 6:7 and 20:20.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "12:18",
+  "a": "all my wheat and my goods",
+  "t": "Wheat, or produce?",
+  "p": "The critical text has \"wheat.\" The Byzantine text has \"my produce,\" the KJV's \"all my fruits.\"",
+  "readings": [
+   {
+    "w": "The oldest manuscripts (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "πάντα τὸν σῖτον καὶ τὰ ἀγαθά μου",
+    "en": "all the grain and my goods",
+    "plain": "all my wheat and my goods"
+   },
+   {
+    "w": "The Byzantine majority, Textus Receptus (KJV)",
+    "orig": "πάντα τὰ γενήματά μου καὶ τὰ ἀγαθά μου",
+    "en": "all my produce and my goods",
+    "plain": "all my produce and my goods"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions agree on \"the grain.\" The Byzantine wording repeats \"my\" and uses a more general word for crops; the meaning hardly changes.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "12:27",
+  "a": "They do no work, and they spin no thread.",
+  "t": "Spinning and weaving",
+  "p": "Codex Bezae says the lilies \"neither spin nor weave.\"",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Alexandrinus, Vaticanus, the Byzantine majority, Textus Receptus (KJV); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "οὐ κοπιᾷ οὐδὲ νήθει",
+    "en": "they do not labor nor spin",
+    "plain": "They do no work, and they spin no thread."
+   },
+   {
+    "w": "Codex Bezae (D), with some Old Latin and Old Syriac support (as reported by Metzger)",
+    "orig": "οὔτε νήθει οὔτε ὑφαίνει",
+    "en": "they neither spin nor weave",
+    "plain": "They neither spin thread nor weave cloth."
+   }
+  ],
+  "follow": 0,
+  "why": "The main reading matches Matthew 6:28 and has by far the stronger support. Some scholars, noting how often Bezae alone keeps an old wording and how a scribe might have conformed Luke to Matthew, have argued that \"neither spin nor weave\" is original. The committee behind the UBS text judged it a stylistic change.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:31",
+  "a": "seek his kingdom, and you will receive these things in addition",
+  "t": "\"His kingdom\" or \"the kingdom of God\"?",
+  "p": "The oldest manuscripts say \"his kingdom.\" Later ones write \"the kingdom of God\" and \"all these things.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae (as first written), L, the Coptic (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ζητεῖτε τὴν βασιλείαν αὐτοῦ, καὶ ταῦτα προστεθήσεται ὑμῖν",
+    "en": "seek his kingdom, and these things will be added to you",
+    "plain": "seek his kingdom, and you will receive these things in addition"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington (W), Θ, family 1, family 13, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ζητεῖτε τὴν βασιλείαν τοῦ θεοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν",
+    "en": "seek the kingdom of God, and all these things will be added to you",
+    "plain": "seek the kingdom of God, and you will receive all these things in addition"
+   }
+  ],
+  "follow": 0,
+  "why": "\"His\" refers back to \"your Father\" in 12:30. Scribes spelled it out as \"of God\" and added \"all\" from Matthew 6:33.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "12:39",
+  "a": "he would not have let him",
+  "t": "\"He would have stayed awake\"",
+  "p": "Many manuscripts add \"he would have stayed awake, and.\" The editions disagree.",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus (as first written), Bezae (D), some Old Latin, the Curetonian and Sinaitic Syriac, the Sahidic Coptic (as reported by Metzger); SBLGNT, NA28",
+    "orig": "οὐκ ἂν ἀφῆκεν",
+    "en": "he would not have let",
+    "plain": "he would not have let him"
+   },
+   {
+    "w": "Codex Sinaiticus (corrected), Alexandrinus, Vaticanus, L, Washington (W), Θ, family 1, family 13, the Byzantine majority, Textus Receptus (KJV); Westcott-Hort, Tyndale House GNT",
+    "orig": "ἐγρηγόρησεν ἂν καὶ οὐκ ἂν ἀφῆκεν",
+    "en": "he would have kept watch and would not have let",
+    "plain": "he would have stayed awake, and he would not have let him"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are exactly those of Matthew 24:43, so they could be a harmonizing addition, which is why NA28 and SBLGNT leave them out on the strength of P75 and the early versions. Vaticanus and most manuscripts have them, and the Tyndale House edition keeps them, judging that the shorter text lost them by accident. The meaning is the same either way.",
+  "s": [
+   "metzger",
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "If it bears fruit in the future, good. If not, you can chop it down.",
+  "t": "\"After that\"",
+  "p": "The KJV's text moves \"in the future\" to the second half: \"if not, then after that you shall cut it down.\"",
+  "readings": [
+   {
+    "w": "The oldest manuscripts (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "κἂν μὲν ποιήσῃ καρπὸν εἰς τὸ μέλλον· εἰ δὲ μήγε, ἐκκόψεις αὐτήν.",
+    "en": "and if it makes fruit in the future; but if not, you will cut it down.",
+    "plain": "If it bears fruit in the future, good. If not, you can chop it down."
+   },
+   {
+    "w": "The Byzantine majority, Textus Receptus (KJV)",
+    "orig": "κἂν μὲν ποιήσῃ καρπόν· εἰ δὲ μήγε, εἰς τὸ μέλλον ἐκκόψεις αὐτήν.",
+    "en": "and if it makes fruit; but if not, in the future you will cut it down.",
+    "plain": "If it bears fruit, good. If not, after that you can chop it down."
+   }
+  ],
+  "follow": 0,
+  "why": "In the critical text the first sentence is left unfinished (\"and if it bears fruit in the future ...\"), a natural break in speech that scribes smoothed by moving the phrase. The sense is nearly the same.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "13:19",
+  "a": "turned into a tree",
+  "t": "\"A great tree\"",
+  "p": "Later manuscripts make the mustard \"a great tree.\"",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, Bezae (D), L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἐγένετο εἰς δένδρον",
+    "en": "became a tree",
+    "plain": "turned into a tree"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐγένετο εἰς δένδρον μέγα",
+    "en": "became a great tree",
+    "plain": "turned into a great tree"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Great\" heightens the contrast and echoes Mark 4:32's \"big branches\"; the oldest witnesses lack it.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "13:24",
+  "a": "narrow door",
+  "t": "Door or gate?",
+  "p": "The KJV's \"strait gate\" comes from Matthew. Luke's oldest manuscripts have \"door.\"",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus, Vaticanus, Bezae (D), L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "τῆς στενῆς θύρας",
+    "en": "the narrow door",
+    "plain": "narrow door"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τῆς στενῆς πύλης",
+    "en": "the narrow gate",
+    "plain": "narrow gate"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Gate\" is Matthew's word (Matthew 7:13). Luke's \"door\" fits the next verse, where the master of the house locks the door.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "13:25",
+  "a": "'Lord, open up for us!'",
+  "t": "\"Lord, Lord\"",
+  "p": "Later manuscripts double the cry, \"Lord, Lord,\" as in Matthew.",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus, Vaticanus, L (as reported in the NA28 apparatus); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "Κύριε, ἄνοιξον ἡμῖν",
+    "en": "Lord, open to us",
+    "plain": "'Lord, open up for us!'"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae (D), Washington (W), Θ, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Κύριε, κύριε, ἄνοιξον ἡμῖν",
+    "en": "Lord, Lord, open to us",
+    "plain": "'Lord, Lord, open up for us!'"
+   }
+  ],
+  "follow": 0,
+  "why": "The doubled address is Matthew's (Matthew 7:21–22; 25:11).",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "13:31",
+  "a": "At that very hour",
+  "t": "That hour or that day?",
+  "p": "The KJV's text says \"The same day\"; the critical editions say \"in that very hour.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott and Hort (the individual manuscripts are not checked here)",
+    "orig": "Ἐν αὐτῇ τῇ ὥρᾳ",
+    "en": "In that very hour",
+    "plain": "At that very hour"
+   },
+   {
+    "w": "Tregelles, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Ἐν αὐτῇ τῇ ἡμέρᾳ",
+    "en": "On that same day",
+    "plain": "That same day"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In that very hour\" is one of Luke's favorite ways to join scenes (10:21; 12:12; 20:19), so it is likely his own wording here; \"day\" is an easy change. Either way, the warning comes on the same occasion as the saying about the narrow door.",
+  "s": [
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "13:35",
+  "a": "abandoned to you",
+  "t": "\"Desolate\"",
+  "p": "The KJV's text adds \"desolate,\" from Matthew 23:38 and Jeremiah 22:5.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Alexandrinus, Vaticanus, L, Washington (W) (as reported by Metzger); SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν",
+    "en": "your house is left to you",
+    "plain": "abandoned to you"
+   },
+   {
+    "w": "Codex Bezae (D), Θ, family 13, the Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος",
+    "en": "your house is left to you desolate",
+    "plain": "abandoned to you, deserted"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Desolate\" (<i>erēmos</i>) is part of Matthew 23:38 in many manuscripts and is easily explained as an addition here. Without it, the saying means God is leaving the house to them, to their own care.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:35",
+  "a": "until the time comes when you say",
+  "t": "\"Until the time comes\"",
+  "p": "Some editions lack \"the time comes when\" and read simply \"until you say,\" as in Matthew 23:39.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and NA27 (with the words in brackets), Tregelles; the Byzantine majority and Textus Receptus (KJV) have the same words with a small change (ἕως ἂν ἥξει/ἥξῃ ὅτε). The individual manuscripts are not checked here.",
+    "orig": "ἕως ἥξει ὅτε εἴπητε",
+    "en": "until [the time] will come when you say",
+    "plain": "until the time comes when you say"
+   },
+   {
+    "w": "Tyndale House GNT, Westcott and Hort (the individual manuscripts are not checked here)",
+    "orig": "ἕως εἴπητε",
+    "en": "until you say",
+    "plain": "until you say"
+   }
+  ],
+  "follow": 0,
+  "why": "This translation follows SBLGNT and NA28. The editors are divided: NA28 prints the words in brackets to show its doubt, and the Tyndale House edition leaves them out. The shorter text matches Matthew 23:39, so either scribes made Luke match Matthew by dropping the words, or Luke's text was always the shorter one and the words were added. The meaning hardly changes.",
+  "b": "The KJV's \"Verily I say unto you\" comes from the Textus Receptus, which alone adds <i>amēn</i>, \"truly.\" The Byzantine text also adds <i>hoti</i>, \"that,\" which does not change the English. On \"desolate\" earlier in the verse, see the variant at \"abandoned to you.\"",
+  "s": [
+   "na28",
+   "thgnt"
+  ]
+ }
+]

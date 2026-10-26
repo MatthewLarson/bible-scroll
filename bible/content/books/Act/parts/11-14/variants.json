@@ -1,0 +1,580 @@
+[
+ {
+  "v": "11:2",
+  "a": "Peter went up to Jerusalem, and there the people of the circumcision argued with him.",
+  "t": "The Western text's longer journey",
+  "p": "Codex Bezae has Peter wait a long time, teach his way through the countryside and only then reach Jerusalem.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; Byzantine text; NA28, SBLGNT, Textus Receptus",
+    "orig": "ὅτε δὲ ἀνέβη Πέτρος εἰς Ἰερουσαλήμ, διεκρίνοντο πρὸς αὐτὸν οἱ ἐκ περιτομῆς",
+    "en": "when Peter went up to Jerusalem, those of the circumcision disputed with him",
+    "plain": "Peter went up to Jerusalem, and there the people of the circumcision argued with him."
+   },
+   {
+    "w": "Codex Bezae (D, 400s), with support from some Old Latin and Syriac witnesses (reported by Metzger)",
+    "orig": "ὁ μὲν οὖν Πέτρος διὰ ἱκανοῦ χρόνου ἠθέλησε πορευθῆναι εἰς Ἱεροσόλυμα ...",
+    "en": "Peter, then, for a long time wanted to go to Jerusalem ...",
+    "plain": "For a long time Peter wanted to go to Jerusalem. He called the brothers together, strengthened them and set out, speaking at length and teaching as he passed through the region. When he reached them, he told them of the grace of God. But the people of the circumcision argued with him."
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all manuscripts have the short form. The Western text is known for smoothing and expanding Acts; here it seems to soften the impression that Peter was summoned to answer for himself, and it makes him a busy teacher on the way.",
+  "b": "The expansion is a good example of how Codex Bezae retells Acts, often with more detail and a slightly different emphasis. Scholars still debate whether such readings go back to an early edition of Acts (see the note on the two texts of Acts in the book's introduction) or are later rewriting; most think the latter.",
+  "s": [
+   "metzger",
+   "epp-bezae",
+   "strange-text-acts"
+  ]
+ },
+ {
+  "v": "11:12",
+  "a": "not to make distinctions",
+  "t": "\"Making no distinction\" or \"nothing doubting\"?",
+  "p": "The critical text has Peter told to go \"making no distinction\"; the Byzantine text and the KJV say \"nothing doubting.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "μηδὲν διακρίναντα",
+    "en": "making no distinction",
+    "plain": "not to make distinctions"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV \"nothing doubting\")",
+    "orig": "μηδὲν διακρινόμενον",
+    "en": "not hesitating, not doubting at all",
+    "plain": "without any hesitation"
+   }
+  ],
+  "follow": 0,
+  "why": "The active form <i>diakrinanta</i> (\"making a distinction\") is the reading of the critical editions; the middle form <i>diakrinomenon</i> (\"doubting, hesitating\") matches 10:20, where the Spirit told Peter to go \"without hesitating,\" and copyists probably made 11:12 agree with it. The active reading keeps Luke's play on 11:2, where the critics <i>diekrinonto</i>, \"took issue,\" with Peter: they did what the Spirit had told him not to do.",
+  "b": "Codex Bezae and a few other witnesses leave the phrase out altogether (reported by Metzger). The Plain's link between 11:2 and 11:12 (see the note on this verse) depends on the critical reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:13",
+  "a": "Send to Joppa",
+  "t": "\"Send men to Joppa\"",
+  "p": "The Byzantine text and the KJV add \"men\": \"Send men to Joppa.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "ἀπόστειλον εἰς Ἰόππην",
+    "en": "send to Joppa",
+    "plain": "Send to Joppa"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV \"Send men to Joppa\")",
+    "orig": "ἀπόστειλον εἰς Ἰόππην ἄνδρας",
+    "en": "send men to Joppa",
+    "plain": "Send men to Joppa"
+   }
+  ],
+  "follow": 0,
+  "why": "The added word matches the first telling (10:5, \"send men to Joppa\") and was probably brought in from there. The sense is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:20",
+  "a": "the Hellenists",
+  "t": "\"Hellenists\" or \"Greeks\"?",
+  "p": "Most manuscripts say Hellenists, a word Acts used for Greek-speaking Jews. A few early ones say Greeks.",
+  "readings": [
+   {
+    "w": "Vaticanus (B, 300s), the corrected Bezae, most later manuscripts; Byzantine text; NA28, SBLGNT, Textus Receptus (KJV \"Grecians\")",
+    "orig": "πρὸς τοὺς Ἑλληνιστάς",
+    "en": "to the Hellenists, the Greek-speakers",
+    "plain": "the Hellenists"
+   },
+   {
+    "w": "P74 (600s), Alexandrinus (A, 400s), the first hand of Bezae, a corrector of Sinaiticus; Tregelles (reported by Metzger)",
+    "orig": "πρὸς τοὺς Ἕλληνας",
+    "en": "to the Greeks",
+    "plain": "the Greeks"
+   }
+  ],
+  "follow": 0,
+  "why": "The external evidence is split, but \"Hellenists\" is the more widely attested reading and the harder one: in 6:1 and 9:29 it meant Greek-speaking Jews, yet here the contrast with \"nobody but Jews\" (11:19) shows Gentiles are meant, so a copyist would be tempted to change it to the plainer \"Greeks.\" The word means simply \"Greek-speakers,\" and here they are non-Jews. The meaning is the same either way.",
+  "b": "The first hand of Sinaiticus has a third, mistaken reading, \"evangelists.\" Most modern translations print \"Greeks\" or \"Hellenists\" with a note.",
+  "s": [
+   "metzger",
+   "comfort-text"
+  ]
+ },
+ {
+  "v": "11:28",
+  "a": "One of them, Agabus by name, got up",
+  "t": "The first \"we\" in Acts?",
+  "p": "Codex Bezae adds \"when we were gathered together,\" which would put the narrator in Antioch years before 16:10.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "ἀναστὰς δὲ εἷς ἐξ αὐτῶν",
+    "en": "one of them stood up",
+    "plain": "One of them, Agabus by name, got up"
+   },
+   {
+    "w": "Codex Bezae (D, 400s), some Old Latin witnesses and Augustine (reported by Metzger)",
+    "orig": "ἦν δὲ πολλὴ ἀγαλλίασις· συνεστραμμένων δὲ ἡμῶν ἔφη εἷς ἐξ αὐτῶν",
+    "en": "there was much rejoicing; and when we were gathered together, one of them said",
+    "plain": "There was great rejoicing. When we were gathered together, one of them, Agabus by name, got up"
+   }
+  ],
+  "follow": 0,
+  "why": "The \"we\" is found only in the Western witnesses and looks like a later addition, perhaps by someone who knew the tradition that Luke came from Antioch.",
+  "b": "This is the earliest \"we\" anywhere in Acts if it is original; elsewhere the first is 16:10. An old tradition, found in the so-called anti-Marcionite prologue to Luke and in Eusebius (Church History 3.4.6), says Luke was a native of Antioch, and the Western reading fits it. Most scholars think the reading grew out of that tradition rather than proving it.",
+  "s": [
+   "metzger",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "11:28",
+  "a": "in the days of Claudius",
+  "t": "\"Claudius\" or \"Claudius Caesar\"?",
+  "p": "The Byzantine text and the KJV give the emperor his title: \"in the days of Claudius Caesar.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "ἐπὶ Κλαυδίου",
+    "en": "in the time of Claudius",
+    "plain": "in the days of Claudius"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV \"in the days of Claudius Caesar\")",
+    "orig": "ἐπὶ Κλαυδίου Καίσαρος",
+    "en": "in the time of Claudius Caesar",
+    "plain": "in the days of Claudius Caesar"
+   }
+  ],
+  "follow": 0,
+  "why": "The title is a natural addition that a copyist would make; the shorter text is followed. Claudius was emperor from AD 41 to 54 either way.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:10",
+  "a": "Out they went",
+  "t": "The seven steps",
+  "p": "Codex Bezae says they \"went down the seven steps,\" a detail that sounds like local knowledge.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "καὶ ἐξελθόντες",
+    "en": "and having gone out",
+    "plain": "Out they went"
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and an Old Latin manuscript (reported by Metzger)",
+    "orig": "καὶ ἐξελθόντες κατέβησαν τοὺς ἑπτὰ βαθμούς",
+    "en": "and having gone out they went down the seven steps",
+    "plain": "Out they went, down the seven steps,"
+   }
+  ],
+  "follow": 0,
+  "why": "The detail is found only in the Western text. Some think it preserves a genuine memory of Jerusalem, where the Antonia fortress had steps down to the temple courts (21:35, 40); most think a copyist added a vivid touch.",
+  "b": "If the reading is old, it would suggest Peter was held in the Antonia fortress. This is one of the Western readings that has persuaded some scholars, from Friedrich Blass on, that the Western text may go back to an early edition.",
+  "s": [
+   "metzger",
+   "strange-text-acts"
+  ]
+ },
+ {
+  "v": "12:23",
+  "a": "Worms devoured him, and he died.",
+  "t": "Herod came down from the platform",
+  "p": "The Western text adds that Herod came down from the platform and was eaten by worms while still alive.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "καὶ γενόμενος σκωληκόβρωτος ἐξέψυξεν",
+    "en": "and having become worm-eaten he expired",
+    "plain": "Worms devoured him, and he died."
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and some Western witnesses (reported by Metzger)",
+    "orig": "καὶ καταβὰς ἀπὸ τοῦ βήματος, γενόμενος σκωληκόβρωτος ἔτι ζῶν καὶ οὕτως ἐξέψυξεν",
+    "en": "and having come down from the platform, having become worm-eaten while still living, and so he expired",
+    "plain": "He came down from the platform, and worms devoured him while he was still alive, and so he died."
+   }
+  ],
+  "follow": 0,
+  "why": "The fuller form adds details that heighten the horror and match Josephus' report that Herod was carried from the theater and lived several days. It is found only in the Western witnesses and looks like an expansion.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:25",
+  "a": "went back, once they had completed their service in Jerusalem",
+  "t": "Back \"to\" or \"from\" Jerusalem?",
+  "p": "The best manuscripts say \"to Jerusalem,\" which seems to send Barnabas and Saul the wrong way. Copyists tried to fix it.",
+  "readings": [
+   {
+    "w": "Sinaiticus and Vaticanus (300s), the Byzantine majority; NA28 and SBLGNT print these words (the comma that joins \"in Jerusalem\" to \"completed\" is the SBLGNT's)",
+    "orig": "ὑπέστρεψαν, εἰς Ἰερουσαλὴμ πληρώσαντες τὴν διακονίαν",
+    "en": "returned, having completed the service at Jerusalem",
+    "plain": "went back, once they had completed their service in Jerusalem"
+   },
+   {
+    "w": "The same Greek words, punctuated as in the Byzantine text: \"to Jerusalem\" goes with \"went back\"",
+    "orig": "ὑπέστρεψαν εἰς Ἰερουσαλήμ, πληρώσαντες τὴν διακονίαν",
+    "en": "returned to Jerusalem, having completed the service",
+    "plain": "went back to Jerusalem, once they had completed their service"
+   },
+   {
+    "w": "P74 (600s) and Alexandrinus (A, 400s) (\"from,\" ἐξ); Codex Bezae and other witnesses (\"from,\" ἀπό) (reported by Metzger); Textus Receptus (KJV \"returned from Jerusalem\")",
+    "orig": "ὑπέστρεψαν ἐξ (or ἀπὸ) Ἰερουσαλήμ",
+    "en": "returned from Jerusalem",
+    "plain": "went back from Jerusalem, once they had completed their service"
+   }
+  ],
+  "follow": 0,
+  "why": "\"To Jerusalem\" (<i>eis</i>) has the best and widest support and is the harder reading: in 11:30 the two men were going to Jerusalem, and in 13:1 they are back in Antioch, so \"returned to Jerusalem\" makes no sense, and copyists naturally changed it to \"from.\" It is often called one of the most difficult textual problems in Acts. The SBL edition, followed here, solves it by punctuation, reading \"in Jerusalem\" with the completed service (Greek often uses <i>eis</i> for <i>en</i>, \"in\").",
+  "b": "Other solutions: (1) read \"to Jerusalem\" and take the verse as Luke's summary of the whole trip; (2) read \"from\" with the KJV, as most English Bibles do in practice. Whatever the wording, the next scene finds Barnabas and Saul in Antioch (13:1), with John Mark.",
+  "s": [
+   "metzger",
+   "comfort-text",
+   "na28"
+  ]
+ },
+ {
+  "v": "13:8",
+  "a": "Elymas",
+  "t": "Elymas or Hetoimas?",
+  "p": "Codex Bezae and some Latin witnesses spell the magician's name Hetoimas or Etoimas.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "Ἐλύμας",
+    "en": "Elymas",
+    "plain": "Elymas"
+   },
+   {
+    "w": "First hand of Codex Bezae (D, 400s) and some Old Latin witnesses (reported by Metzger)",
+    "orig": "Ἑτοιμᾶς",
+    "en": "Hetoimas (\"ready\")",
+    "plain": "Hetoimas"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Elymas\" is far better attested. The Western spelling may be an attempt to make sense of an unknown name, or, as Theodor Zahn proposed, a trace of the name Atomos, the Cypriot Jewish magician Josephus mentions (Jewish Antiquities 20.142).",
+  "s": [
+   "metzger",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "He bore with their ways",
+  "t": "\"Put up with\" or \"cared for\"?",
+  "p": "Two Greek verbs differ by one letter: God \"bore with their ways\" or \"carried them like a nurse.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae and most later manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus (KJV \"suffered he their manners\")",
+    "orig": "ἐτροποφόρησεν αὐτούς",
+    "en": "he endured their ways",
+    "plain": "He bore with their ways"
+   },
+   {
+    "w": "P74 (600s), Alexandrinus (A, 400s), the first hand of Ephraemi (C), E, Ψ, 33 and some early translations (reported by Metzger)",
+    "orig": "ἐτροφοφόρησεν αὐτούς",
+    "en": "he carried them like a nurse, cared for them",
+    "plain": "He carried and cared for them"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs, <i>tropophoreō</i> and <i>trophophoreō</i>, differ by a single letter. The same pair of readings appears in the manuscripts of the Greek Old Testament at Deuteronomy 1:31, which Paul is echoing, where the Hebrew says the LORD \"carried\" Israel \"the way a man carries his son\" (Deuteronomy 1:31). That Hebrew supports the \"cared for\" reading, and some scholars prefer it here. Most editors keep the better-attested \"bore with,\" which fits the sermon's honest picture of a rebellious generation.",
+  "s": [
+   "metzger",
+   "fitzmyer-acts"
+  ]
+ },
+ {
+  "v": "13:20",
+  "a": "It came to some four hundred and fifty years in all. After that he gave them judges",
+  "t": "Four hundred and fifty years of what?",
+  "p": "In the oldest manuscripts the 450 years cover Egypt to the conquest. In the KJV they are the period of the judges.",
+  "readings": [
+   {
+    "w": "P74, Sinaiticus, Vaticanus, Alexandrinus, Ephraemi and others (reported by Metzger); NA28, SBLGNT",
+    "orig": "ὡς ἔτεσι τετρακοσίοις καὶ πεντήκοντα. καὶ μετὰ ταῦτα ἔδωκεν κριτάς",
+    "en": "about four hundred and fifty years. And after these things he gave judges",
+    "plain": "It came to some four hundred and fifty years in all. After that he gave them judges"
+   },
+   {
+    "w": "Most later manuscripts; Byzantine text; Textus Receptus (KJV \"after that he gave unto them judges about the space of four hundred and fifty years\")",
+    "orig": "καὶ μετὰ ταῦτα, ὡς ἔτεσι τετρακοσίοις καὶ πεντήκοντα, ἔδωκεν κριτάς",
+    "en": "and after these things, for about four hundred and fifty years, he gave judges",
+    "plain": "After that, for some four hundred and fifty years, he gave them judges"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest witnesses put the number before \"after that.\" Read so, it adds up the stages just listed: about 400 years in Egypt (Genesis 15:13), 40 in the wilderness and some years of conquest. The later order makes the judges alone last 450 years, which clashes with 1 Kings 6:1, where only 480 years pass from the Exodus to Solomon's temple. Copyists probably moved the phrase to sit with the judges.",
+  "b": "Josephus has a longer chronology than 1 Kings, 592 years from the Exodus to the temple (Jewish Antiquities 8.61), so the KJV order is close to his figures. Most scholars think the earlier order is original and that the later one came from reading the number with the nearest event.",
+  "s": [
+   "metzger",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "13:23",
+  "a": "a Savior, Jesus",
+  "t": "\"A Savior, Jesus\" or \"salvation\"?",
+  "p": "Most manuscripts say God brought \"a Savior, Jesus\"; the Byzantine majority says \"salvation\" and does not name Jesus here.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most early manuscripts; NA28, SBLGNT; Textus Receptus (KJV \"raised unto Israel a Saviour, Jesus\")",
+    "orig": "σωτῆρα Ἰησοῦν",
+    "en": "a Savior, Jesus",
+    "plain": "a Savior, Jesus"
+   },
+   {
+    "w": "Later manuscripts and the Byzantine majority (Robinson-Pierpont)",
+    "orig": "σωτηρίαν",
+    "en": "salvation",
+    "plain": "salvation"
+   }
+  ],
+  "follow": 0,
+  "why": "In Greek capitals the abbreviation for \"Savior Jesus\" (ΣΡΑ ΙΝ) looks much like \"salvation\" (ΣΡΙΑΝ), and the shorter word probably arose from a copying slip. The early witnesses name Jesus.",
+  "b": "The KJV's \"raised\" for \"brought\" follows the Textus Receptus, which reads <i>ēgeire</i> (\"raised up\") where the critical and Byzantine texts both read <i>ēgagen</i> (\"brought\"); the sense is close.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:26",
+  "a": "sent out to us",
+  "t": "\"To us\" or \"to you\"?",
+  "p": "The oldest manuscripts say the message was sent \"to us\"; the later text, followed by the KJV, says \"to you.\"",
+  "readings": [
+   {
+    "w": "P74, Sinaiticus, Vaticanus, Alexandrinus and others (reported by Metzger); NA28, SBLGNT",
+    "orig": "ἡμῖν ὁ λόγος τῆς σωτηρίας ταύτης ἐξαπεστάλη",
+    "en": "to us the message of this salvation was sent out",
+    "plain": "sent out to us"
+   },
+   {
+    "w": "Most later manuscripts; Byzantine text; Textus Receptus (KJV \"to you is the word of this salvation sent\")",
+    "orig": "ὑμῖν ὁ λόγος τῆς σωτηρίας ταύτης ἀπεστάλη",
+    "en": "to you the message of this salvation was sent",
+    "plain": "sent out to you"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Us\" and \"you\" (<i>hēmin</i>, <i>hymin</i>) sounded almost alike in later Greek and are often confused in manuscripts. \"To us\" has the older support; Paul includes himself with his Jewish hearers.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:33",
+  "a": "for us, their children",
+  "t": "\"Us, their children\" or \"our children\"?",
+  "p": "The oldest manuscripts say God fulfilled the promise \"for our children,\" which fits the sense poorly.",
+  "readings": [
+   {
+    "w": "Later manuscripts and the Byzantine text (with \"their\"); NA28 (\"their\" in brackets), Tyndale House GNT, Textus Receptus (KJV \"unto us their children\")",
+    "orig": "τοῖς τέκνοις [αὐτῶν] ἡμῖν",
+    "en": "to us, their children",
+    "plain": "for us, their children"
+   },
+   {
+    "w": "P74, Sinaiticus, Vaticanus, Alexandrinus, the first hand of Ephraemi, Bezae (reported by Metzger); SBLGNT",
+    "orig": "τοῖς τέκνοις ἡμῶν",
+    "en": "to our children",
+    "plain": "for our children"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest reading, \"to our children,\" is strongly attested, but it makes Paul say the promise was kept for the next generation, while his point is that it was kept for his hearers now, in Jesus' resurrection. The NA28 editors therefore print \"to us, their children,\" against the oldest manuscripts and with much weaker support from later witnesses, and many think the old reading is an early copying slip (<i>hēmōn</i> for <i>hēmin</i>). The SBL edition keeps the reading of the oldest manuscripts; this site follows NA28, though its external support is much weaker.",
+  "s": [
+   "metzger",
+   "na28"
+  ],
+  "b": "NA28 prints \"their\" in square brackets, as NA27 did (the two editions have the same text in Acts). The word tags in this site's Greek data do not mark the bracketed word for NA28; the printed edition is the authority here."
+ },
+ {
+  "v": "13:33",
+  "a": "the second psalm",
+  "t": "The second psalm, or the first?",
+  "p": "Codex Bezae says \"the first psalm,\" probably because Psalms 1 and 2 were sometimes counted as one.",
+  "readings": [
+   {
+    "w": "Almost all manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "ἐν τῷ ψαλμῷ ... τῷ δευτέρῳ",
+    "en": "in the second psalm",
+    "plain": "the second psalm"
+   },
+   {
+    "w": "Codex Bezae (D) and some Latin witnesses and fathers (reported by Metzger)",
+    "orig": "ἐν τῷ πρώτῳ ψαλμῷ",
+    "en": "in the first psalm",
+    "plain": "the first psalm"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly every witness has \"second,\" which matches the psalm as it stands in the Psalter. \"First\" reflects an old Jewish and Christian custom of treating Psalms 1 and 2 as one psalm; the Talmud calls Psalm 2 part of the first psalm (Babylonian Talmud, Berakhot 9b), and some early Christian writers noted the same.",
+  "b": "Codex Bezae also continues the quotation with Psalm 2:8, \"Ask of me, and I will give you the nations as your inheritance\" (in substance), a fitting addition for a sermon that ends with a turn to the Gentiles.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:42",
+  "a": "As the two were going out, the people kept urging them",
+  "t": "Who asked them back?",
+  "p": "In the KJV it is \"the Gentiles\" who ask, after \"the Jews\" have left. The older text has no named subject.",
+  "readings": [
+   {
+    "w": "P74, Sinaiticus, Vaticanus, Alexandrinus and others; NA28, SBLGNT",
+    "orig": "ἐξιόντων δὲ αὐτῶν παρεκάλουν",
+    "en": "as they were going out, they were urging",
+    "plain": "As the two were going out, the people kept urging them"
+   },
+   {
+    "w": "Most later manuscripts; Byzantine text; Textus Receptus (KJV \"when the Jews were gone out of the synagogue, the Gentiles besought\")",
+    "orig": "ἐξιόντων δὲ ἐκ τῆς συναγωγῆς τῶν Ἰουδαίων παρεκάλουν τὰ ἔθνη",
+    "en": "as they were going out of the synagogue of the Jews, the Gentiles were urging",
+    "plain": "As the Jews were going out of the synagogue, the Gentiles kept urging them"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is older and leaves the subjects unclear: \"they\" going out are probably Paul and Barnabas, and the people asking are the synagogue congregation. Later copyists filled in the gaps and, reading ahead to 13:45–48, made it a story of Jews leaving and Gentiles staying. The change sharpens a contrast that Luke draws only later in the chapter.",
+  "s": [
+   "metzger",
+   "comfort-text"
+  ]
+ },
+ {
+  "v": "13:44",
+  "a": "the word of the Lord",
+  "t": "\"Word of the Lord\" or \"word of God\"?",
+  "p": "Manuscripts divide between \"the Lord\" and \"God\" here, as often in Acts.",
+  "readings": [
+   {
+    "w": "Several early manuscripts, among them Sinaiticus and Alexandrinus (reported by Metzger); NA28, SBLGNT",
+    "orig": "τὸν λόγον τοῦ κυρίου",
+    "en": "the word of the Lord",
+    "plain": "the word of the Lord"
+   },
+   {
+    "w": "The first hand of Vaticanus, Ephraemi (C) and others, and most later manuscripts (reported by Metzger); Byzantine text; Textus Receptus (KJV \"the word of God\")",
+    "orig": "τὸν λόγον τοῦ θεοῦ",
+    "en": "the word of God",
+    "plain": "the word of God"
+   }
+  ],
+  "follow": 0,
+  "why": "Both phrases are common in Acts, and copyists easily swapped them. Editors are divided; NA28 and SBL print \"of the Lord.\" The meaning hardly changes, since in Acts both mean the message about Jesus.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:45",
+  "a": "They spoke against what Paul said and hurled insults",
+  "t": "\"Contradicting and blaspheming\"",
+  "p": "The Byzantine text and the KJV repeat the verb: they spoke against Paul, \"contradicting and blaspheming.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "ἀντέλεγον τοῖς ὑπὸ Παύλου λαλουμένοις βλασφημοῦντες",
+    "en": "they were speaking against what was said by Paul, blaspheming",
+    "plain": "They spoke against what Paul said and hurled insults"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV \"spake against those things which were spoken by Paul, contradicting and blaspheming\")",
+    "orig": "ἀντέλεγον τοῖς ὑπὸ τοῦ Παύλου λεγομένοις ἀντιλέγοντες καὶ βλασφημοῦντες",
+    "en": "they were speaking against what was said by Paul, contradicting and blaspheming",
+    "plain": "They spoke against what Paul said, contradicting him and hurling insults"
+   }
+  ],
+  "follow": 0,
+  "why": "The repeated verb adds nothing to the sense and looks like an expansion; the shorter text is followed.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:7",
+  "a": "And there they went on announcing the good news.",
+  "t": "The Western addition at Lystra",
+  "p": "Codex Bezae adds that the whole crowd was stirred by the teaching and that Paul and Barnabas stayed in Lystra.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "κἀκεῖ εὐαγγελιζόμενοι ἦσαν",
+    "en": "and there they were telling the good news",
+    "plain": "And there they went on announcing the good news."
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and some other Western witnesses (reported by Metzger)",
+    "orig": "κἀκεῖ εὐαγγελιζόμενοι ἦσαν· καὶ ἐκινήθη ὅλον τὸ πλῆθος ἐπὶ τῇ διδαχῇ· ὁ δὲ Παῦλος καὶ Βαρναβᾶς διέτριβον ἐν Λύστροις",
+    "en": "and there they were telling the good news; and the whole crowd was moved by the teaching; and Paul and Barnabas stayed in Lystra",
+    "plain": "And there they went on announcing the good news. The whole crowd was stirred by the teaching, and Paul and Barnabas stayed on in Lystra."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is found only in Western witnesses and smooths the move into the Lystra story. Most editors treat it as an expansion.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:10",
+  "a": "and called out loudly, \"Get up",
+  "t": "\"I tell you in the name of the Lord Jesus Christ\"",
+  "p": "Some manuscripts give Paul's command a formula of healing in Jesus' name, as Peter used at the temple gate (3:6).",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus and most manuscripts; NA28, SBLGNT, Byzantine text, Textus Receptus",
+    "orig": "εἶπεν μεγάλῃ φωνῇ· Ἀνάστηθι",
+    "en": "he said with a loud voice, Stand up",
+    "plain": "and called out loudly, \"Get up"
+   },
+   {
+    "w": "Ephraemi (C), Codex Bezae (D) and other witnesses (reported by Metzger)",
+    "orig": "εἶπεν μεγάλῃ φωνῇ· Σοὶ λέγω ἐν τῷ ὀνόματι τοῦ κυρίου Ἰησοῦ Χριστοῦ, ἀνάστηθι",
+    "en": "he said with a loud voice, I tell you in the name of the Lord Jesus Christ, stand up",
+    "plain": "and called out loudly, \"I tell you in the name of the Lord Jesus Christ: get up"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer form is not in most of the early manuscripts. It looks like an addition modeled on Peter's \"In the name of Jesus Christ the Nazarene\" (3:6), which also strengthens Luke's parallel between the two healings.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:17",
+  "a": "giving you rains from the sky and seasons that bear fruit, and filling your hearts",
+  "t": "\"You\" or \"us\"?",
+  "p": "The critical text has God giving \"you\" rain and filling \"your\" hearts; the KJV says \"us\" and \"our.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT",
+    "orig": "οὐρανόθεν ὑμῖν ὑετοὺς διδοὺς ... τὰς καρδίας ὑμῶν",
+    "en": "giving you rains from heaven ... your hearts",
+    "plain": "giving you rains from the sky and seasons that bear fruit, and filling your hearts"
+   },
+   {
+    "w": "Byzantine text (\"you\" rains, \"our\" hearts); Textus Receptus (\"us\" and \"our\"; KJV \"gave us rain from heaven ... filling our hearts\")",
+    "orig": "οὐρανόθεν ἡμῖν ὑετοὺς διδοὺς ... τὰς καρδίας ἡμῶν",
+    "en": "giving us rains from heaven ... our hearts",
+    "plain": "giving us rains from the sky and seasons that bear fruit, and filling our hearts"
+   }
+  ],
+  "follow": 0,
+  "why": "\"You\" and \"us\" (<i>hymin</i>, <i>hēmin</i>) sounded almost alike in later Greek and are often confused in manuscripts. The critical editions read \"you\" both times, which suits a speech addressed to the crowd of Lystra; the \"us\" reading makes the apostles include themselves among those God feeds. The sense hardly changes.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

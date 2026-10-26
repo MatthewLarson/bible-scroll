@@ -1,0 +1,716 @@
+[
+ {
+  "v": "13:2",
+  "a": "Every one will be knocked down.",
+  "t": "\"And after three days another will rise\"",
+  "p": "Codex Bezae, Codex Washington and some Old Latin copies add a promise that another sanctuary will rise in three days without hands.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV); nearly all Greek manuscripts",
+    "orig": "ὃς οὐ μὴ καταλυθῇ",
+    "en": "which will not be thrown down",
+    "plain": "Every one will be knocked down."
+   },
+   {
+    "w": "Codex Bezae (D, 400s), Codex Washington (W, 400s), several Old Latin copies and Cyprian (reported by Metzger and the NA28 apparatus)",
+    "orig": "ὃς οὐ μὴ καταλυθῇ, καὶ διὰ τριῶν ἡμερῶν ἄλλος ἀναστήσεται ἄνευ χειρῶν",
+    "en": "which will not be thrown down, and after three days another will rise without hands",
+    "plain": "Every one will be knocked down. And after three days another sanctuary will rise, made without hands."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition has narrow support and is easily explained: a copyist brought in the saying about a temple \"not made by hands\" built in three days from 14:58 and 15:29 (compare John 2:19).",
+  "b": "Ἄλλος (\"another\") is masculine, so it most naturally means another ναός, a sanctuary. The longer reading shows how early readers linked the prophecy of the Temple's fall with Jesus' resurrection on the third day.",
+  "s": [
+   "na28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:8",
+  "a": "There will be famines.",
+  "t": "\"And troubles\"",
+  "p": "The KJV adds \"and troubles\" after famines, following the Byzantine text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus and Vaticanus (300s)",
+    "orig": "ἔσονται λιμοί",
+    "en": "there will be famines",
+    "plain": "There will be famines."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"and there shall be famines and troubles\"); Codex Alexandrinus (400s) and later manuscripts",
+    "orig": "καὶ ἔσονται λιμοὶ καὶ ταραχαί",
+    "en": "and there will be famines and troubles",
+    "plain": "There will be famines and troubles."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the oldest manuscripts. \"Troubles\" (riots, disturbances) looks like an expansion; Luke 21:9–11 has a similar list.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:11",
+  "a": "do not worry ahead of time about what to say",
+  "t": "\"Nor rehearse it\"",
+  "p": "The Byzantine text and the KJV add \"and do not plan it out\" (\"neither do ye premeditate\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus and Bezae",
+    "orig": "μὴ προμεριμνᾶτε τί λαλήσητε",
+    "en": "do not be anxious beforehand what you should say",
+    "plain": "do not worry ahead of time about what to say"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"take no thought beforehand what ye shall speak, neither do ye premeditate\")",
+    "orig": "μὴ προμεριμνᾶτε τί λαλήσητε μηδὲ μελετᾶτε",
+    "en": "do not be anxious beforehand what you should say, nor rehearse it",
+    "plain": "do not worry ahead of time about what to say, and do not rehearse it"
+   }
+  ],
+  "follow": 0,
+  "why": "The added verb comes from Luke 21:14 (\"not to rehearse a defense\"). The oldest witnesses lack it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:14",
+  "a": "'the abomination of desolation'",
+  "t": "\"Spoken of by Daniel the prophet\"",
+  "p": "The KJV, following later manuscripts, names Daniel here as Matthew 24:15 does. The oldest copies of Mark do not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus and Bezae",
+    "orig": "τὸ βδέλυγμα τῆς ἐρημώσεως",
+    "en": "the abomination of desolation",
+    "plain": "'the abomination of desolation'"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"the abomination of desolation, spoken of by Daniel the prophet\"); Codex Alexandrinus",
+    "orig": "τὸ βδέλυγμα τῆς ἐρημώσεως, τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου",
+    "en": "the abomination of desolation spoken of by Daniel the prophet",
+    "plain": "'the abomination of desolation,' which Daniel the prophet spoke of,"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often made Mark agree with Matthew. If Mark had named Daniel, no one would have removed it. Without it, \"the one who reads\" in the same verse refers most naturally to the reader of Mark (see the note).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:14",
+  "a": "standing where he must not stand",
+  "t": "\"Where he must not\" or \"where it ought not\"",
+  "p": "Mark's oldest copies make the abomination a \"he\" (masculine ἑστηκότα). The Byzantine text and the KJV have the neuter: \"standing where it ought not.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus and Bezae (reported in the NA28 apparatus)",
+    "orig": "ἑστηκότα ὅπου οὐ δεῖ",
+    "en": "(he) standing where he must not",
+    "plain": "standing where he must not stand"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"standing where it ought not\")",
+    "orig": "ἑστὼς ὅπου οὐ δεῖ",
+    "en": "(it) standing where it must not",
+    "plain": "standing where it must not stand"
+   }
+  ],
+  "follow": 0,
+  "why": "The masculine is the harder reading: it does not agree with the neuter noun βδέλυγμα (\"abomination\"), so copyists had every reason to change it to the neuter and none to change the neuter into it. Matthew 24:15 already has the neuter ἑστός, \"standing in a holy place,\" and copyists of Mark moved toward it. The masculine suggests that Mark had a person in mind; see the note on this verse.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "Pray that it will not come in winter.",
+  "t": "\"Your flight\"",
+  "p": "The KJV reads \"pray ye that your flight be not in the winter,\" as in Matthew 24:20.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus and Vaticanus",
+    "orig": "προσεύχεσθε δὲ ἵνα μὴ γένηται χειμῶνος",
+    "en": "pray that it may not happen in winter",
+    "plain": "Pray that it will not come in winter."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "προσεύχεσθε δὲ ἵνα μὴ γένηται ἡ φυγὴ ὑμῶν χειμῶνος",
+    "en": "pray that your flight may not happen in winter",
+    "plain": "Pray that your flight will not come in winter."
+   }
+  ],
+  "follow": 0,
+  "why": "The words \"your flight\" come from Matthew 24:20. The meaning hardly changes, since the flight is what Jesus has just described.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:27",
+  "a": "his chosen",
+  "t": "\"His\" chosen, or \"the\" chosen?",
+  "p": "The editions differ on one word: NA28 (in brackets) and Tyndale House print \"his chosen\"; the SBL text has \"the chosen.\" The Byzantine text and the KJV also have \"his angels.\"",
+  "readings": [
+   {
+    "w": "NA28 (in brackets, as in NA27), Tyndale House, Westcott-Hort",
+    "orig": "τοὺς ἐκλεκτοὺς αὐτοῦ",
+    "en": "his chosen",
+    "plain": "his chosen"
+   },
+   {
+    "w": "SBLGNT, Tregelles",
+    "orig": "τοὺς ἐκλεκτούς",
+    "en": "the chosen",
+    "plain": "the chosen"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"he shall send his angels, and shall gather together his elect\")",
+    "orig": "τοὺς ἀγγέλους αὐτοῦ ... τοὺς ἐκλεκτοὺς αὐτοῦ",
+    "en": "his angels ... his chosen",
+    "plain": "his chosen"
+   }
+  ],
+  "follow": 0,
+  "why": "Most editions print \"his,\" and the manuscripts that have it include some of the oldest. A copyist could have dropped it to match \"the chosen\" in 13:20 and 13:22, or added it from Matthew 24:31. The difference matters a little: \"his chosen\" makes the people of God belong to the Son of Man.",
+  "s": [
+   "na28",
+   "thgnt",
+   "sblgnt"
+  ],
+  "b": "The Byzantine text adds \"his\" after \"angels\" as well, from Matthew 24:31; the Plain has \"the angels.\" This entry names editions rather than manuscripts: the manuscript evidence for αὐτοῦ is not reported in the sources this site checked for Mark 13."
+ },
+ {
+  "v": "13:33",
+  "a": "Stay alert!",
+  "t": "\"And pray\"",
+  "p": "Most manuscripts add \"and pray\" (KJV \"watch and pray\"). Vaticanus and Bezae do not, and SBL and NA28 leave it out.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Codex Vaticanus (300s), Bezae (400s) and some Old Latin copies (reported by Metzger)",
+    "orig": "ἀγρυπνεῖτε",
+    "en": "stay alert",
+    "plain": "Stay alert!"
+   },
+   {
+    "w": "Tyndale House, Byzantine majority, Textus Receptus (KJV \"watch and pray\"); Codex Sinaiticus, Alexandrinus, Ephraemi, Washington and most others",
+    "orig": "ἀγρυπνεῖτε καὶ προσεύχεσθε",
+    "en": "stay alert and pray",
+    "plain": "Stay alert, and pray!"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a close call, and the Tyndale House edition decides the other way. SBL and NA28 judge that copyists added \"and pray\" from Gethsemane (14:38, \"Stay awake and pray\"), where the two verbs belong together. If the words are original, a copyist could have skipped them by accident, but the omission in two such different witnesses as Vaticanus and Bezae is hard to explain that way.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "14:19",
+  "a": "\"It isn't me, is it?\"",
+  "t": "\"And another said, Is it I?\"",
+  "p": "The KJV adds \"And another said, Is it I?\" from the Byzantine text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus and others",
+    "orig": "Μήτι ἐγώ;",
+    "en": "Surely not I?",
+    "plain": "\"It isn't me, is it?\""
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV); Codex Alexandrinus, Bezae and others",
+    "orig": "Μήτι ἐγώ; καὶ ἄλλος· Μήτι ἐγώ;",
+    "en": "Surely not I? And another: Surely not I?",
+    "plain": "\"It isn't me, is it?\" And another said, \"It isn't me, is it?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The added words repeat the question with no new meaning, the kind of expansion copyists made to bring out \"one by one.\" The oldest witnesses lack it. The Greek question (μήτι) expects the answer no: each hopes to hear \"Of course not.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:22",
+  "a": "\"Take it,\"",
+  "t": "\"Take, eat\"",
+  "p": "The KJV's familiar \"Take, eat\" comes from later manuscripts that add \"eat\" from Matthew 26:26.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Bezae and others",
+    "orig": "Λάβετε",
+    "en": "Take",
+    "plain": "\"Take it,\""
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Take, eat\")",
+    "orig": "Λάβετε φάγετε",
+    "en": "Take, eat",
+    "plain": "\"Take it and eat,\""
+   }
+  ],
+  "follow": 0,
+  "why": "\"Eat\" was added to match Matthew 26:26 and the words used in worship. The oldest manuscripts have only \"Take.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:24",
+  "a": "my blood of the covenant",
+  "t": "\"The new covenant\"",
+  "p": "Later manuscripts and the KJV say \"the new covenant,\" as in Paul and Luke. The oldest copies of Mark have only \"the covenant.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Ephraemi, Washington and others (reported by Metzger)",
+    "orig": "τὸ αἷμά μου τῆς διαθήκης",
+    "en": "my blood of the covenant",
+    "plain": "my blood of the covenant"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"my blood of the new testament\"); Codex Alexandrinus and others",
+    "orig": "τὸ αἷμά μου τὸ τῆς καινῆς διαθήκης",
+    "en": "my blood of the new covenant",
+    "plain": "my blood of the new covenant"
+   }
+  ],
+  "follow": 0,
+  "why": "\"New\" was added from Luke 22:20 and 1 Corinthians 11:25, and from the church's worship. Without it Mark's words are closer to Exodus 24:8. The KJV's \"testament\" translates the Latin; the Greek διαθήκη here means covenant.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:27",
+  "a": "Every one of you will be tripped up.",
+  "t": "\"Because of me this night\"",
+  "p": "The KJV adds \"because of me this night,\" from Matthew 26:31.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus and Bezae",
+    "orig": "Πάντες σκανδαλισθήσεσθε",
+    "en": "You will all be tripped up",
+    "plain": "Every one of you will be tripped up."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"All ye shall be offended because of me this night\")",
+    "orig": "Πάντες σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ",
+    "en": "You will all be tripped up because of me this night",
+    "plain": "Every one of you will be tripped up because of me tonight."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer form is word for word Matthew 26:31; copyists filled out Mark from it. The meaning is not changed.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:30",
+  "a": "before a rooster crows twice",
+  "t": "Two crowings, or one?",
+  "p": "Only Mark has the rooster crow twice. A few manuscripts, Sinaiticus among them, drop \"twice\" to match the other Gospels.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV); Codex Vaticanus, Alexandrinus and most others",
+    "orig": "πρὶν ἢ δὶς ἀλέκτορα φωνῆσαι",
+    "en": "before a rooster crows twice",
+    "plain": "before a rooster crows twice"
+   },
+   {
+    "w": "Codex Sinaiticus, Bezae, Washington and some others (reported by Metzger)",
+    "orig": "πρὶν ἢ ἀλέκτορα φωνῆσαι",
+    "en": "before a rooster crows",
+    "plain": "before a rooster crows"
+   }
+  ],
+  "follow": 0,
+  "why": "Matthew, Luke and John all have a single crowing, so copyists had a reason to remove \"twice\" from Mark and none to add it. The same witnesses tend to drop the first crowing at 14:68 and \"the second time\" and \"twice\" at 14:72, smoothing Mark into the other Gospels.",
+  "b": "Mark's two crowings make the prophecy more exact, and they add a small sign at 14:68 that Peter ignores.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:45",
+  "a": "\"Rabbi!\"",
+  "t": "\"Master, master\"",
+  "p": "The KJV has Judas say \"Master, master,\" from the Byzantine text, which doubles \"Rabbi.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Bezae and others",
+    "orig": "Ῥαββί",
+    "en": "Rabbi",
+    "plain": "\"Rabbi!\""
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"Master, master\")",
+    "orig": "Ῥαββί, ῥαββί",
+    "en": "Rabbi, rabbi",
+    "plain": "\"Rabbi, Rabbi!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The single word has the older witnesses and matches Matthew 26:49. The doubled form may be an attempt to make the greeting warmer, and so the betrayal colder.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:51",
+  "a": "They grabbed him,",
+  "t": "\"The young men laid hold on him\"",
+  "p": "The KJV says \"the young men laid hold on him.\" The Byzantine text names who grabbed him; the older text does not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "καὶ κρατοῦσιν αὐτόν",
+    "en": "and they seize him",
+    "plain": "They grabbed him,"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"and the young men laid hold on him\")",
+    "orig": "καὶ κρατοῦσιν αὐτὸν οἱ νεανίσκοι",
+    "en": "and the young men seize him",
+    "plain": "The young men grabbed him,"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions leave the subject unstated, as Mark often does; \"the young men\" reads like a copyist's attempt to say who seized him, perhaps drawn from \"a young man\" just before. The Byzantine text also adds \"from them\" at the end of 14:52 (KJV \"fled from them naked\").",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "14:62",
+  "a": "I am.",
+  "t": "\"I am\" or \"You say that I am\"",
+  "p": "A few witnesses read \"You say that I am,\" matching Matthew and Luke. Nearly all have Jesus' plain \"I am.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV); nearly all manuscripts",
+    "orig": "Ἐγώ εἰμι",
+    "en": "I am",
+    "plain": "I am."
+   },
+   {
+    "w": "Codex Koridethi (Θ, 800s), family 13, minuscules 565 and 700, and Origen (reported by Metzger)",
+    "orig": "Σὺ εἶπας ὅτι ἐγώ εἰμι",
+    "en": "You have said that I am",
+    "plain": "You say that I am."
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence for the plain \"I am\" is overwhelming. Some scholars still find the longer reading attractive, because it explains why Matthew 26:64 (\"You said it\") and Luke 22:70 (\"You say that I am\") are less direct. But copyists were more likely to bring Mark into line with Matthew and Luke than the reverse.",
+  "b": "In Mark this is the first time Jesus openly says he is the Messiah. The Greek ἐγώ εἰμι is the same as at 6:50, and some hear the divine \"I am\" of Exodus 3:14 behind it; others take it simply as \"Yes.\" Either way it ends the secrecy that runs through Mark (see the note at 14:61).",
+  "s": [
+   "metzger",
+   "marcus-mark-8-16"
+  ]
+ },
+ {
+  "v": "14:68",
+  "a": ", and a rooster crowed",
+  "t": "The first crowing",
+  "p": "Several of the oldest manuscripts lack the first rooster's crow. NA28 prints it in brackets; SBL and Tyndale House print it.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House, NA28 (in brackets), Byzantine majority, Textus Receptus (KJV \"and the cock crew\"); Codex Alexandrinus, Ephraemi, Bezae and others",
+    "orig": "καὶ ἀλέκτωρ ἐφώνησεν",
+    "en": "and a rooster crowed",
+    "plain": ", and a rooster crowed"
+   },
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Regius (L), Washington and some others (reported by Metzger)",
+    "orig": "—",
+    "en": "(no crowing here)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Mark's own story needs it: Jesus said the rooster would crow twice (14:30), and in 14:72 it crows \"a second time.\" Copyists who knew the single crowing of the other Gospels had reason to remove it. Others think it was added to make sense of \"the second time\"; that is why NA28 brackets it.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:70",
+  "a": "You are a Galilean too.",
+  "t": "\"And your speech shows it\"",
+  "p": "The SBL text, the Byzantine text and the KJV add \"and your speech is like theirs.\" NA28 and Tyndale House leave it out.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Bezae, Regius (L) and Washington",
+    "orig": "καὶ γὰρ Γαλιλαῖος εἶ",
+    "en": "for you are also a Galilean",
+    "plain": "You are a Galilean too."
+   },
+   {
+    "w": "SBLGNT, Byzantine majority, Textus Receptus (KJV \"for thou art a Galilaean, and thy speech agreeth thereto\"); Codex Alexandrinus, Koridethi (Θ) and others",
+    "orig": "καὶ γὰρ Γαλιλαῖος εἶ καὶ ἡ λαλιά σου ὁμοιάζει",
+    "en": "for you are also a Galilean, and your speech is like [theirs]",
+    "plain": "You are a Galilean too, and your speech is like theirs."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and Tyndale House against the SBL edition here. The oldest and most varied witnesses lack the clause, and it looks like a copyist's explanation, prompted by Matthew 26:73 (whose Greek is different: \"your speech makes you plain\"), of how the bystanders knew Peter was a Galilean.",
+  "s": [
+   "na28",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "15:8",
+  "a": "The crowd went up and started asking him to do as he used to do for them.",
+  "t": "\"Went up\" or \"cried out\"",
+  "p": "The KJV says the crowd came \"crying aloud\" and asked Pilate to do as he had \"ever\" done. The Greek differs in two places.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus (first hand), Vaticanus and Bezae",
+    "orig": "καὶ ἀναβὰς ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἐποίει αὐτοῖς",
+    "en": "and the crowd, going up, began to ask him to do as he used to do for them",
+    "plain": "The crowd went up and started asking him to do as he used to do for them."
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"And the multitude crying aloud began to desire him to do as he had ever done unto them\"); Codex Alexandrinus and others",
+    "orig": "καὶ ἀναβοήσας ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἀεὶ ἐποίει αὐτοῖς",
+    "en": "and the crowd, crying out, began to ask him to do as he always did for them",
+    "plain": "The crowd shouted out and started asking him to do as he always did for them."
+   }
+  ],
+  "follow": 0,
+  "why": "Ἀναβάς (\"going up,\" to the governor's raised platform or palace) and ἀναβοήσας (\"crying out\") look alike in Greek capitals. The older witnesses have \"going up,\" and \"crying out\" may have been suggested by the shouting in 15:13–14. The Byzantine text also adds ἀεί, \"always,\" which the older witnesses lack; the Plain's \"used to\" renders the plain imperfect ἐποίει.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:28",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "\"He was counted among the lawless\"",
+  "p": "Later manuscripts add Isaiah 53:12 here. It is not in the oldest Greek copies.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Bezae and others (reported by Metzger)",
+    "orig": "—",
+    "en": "(no verse)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV); Codex Regius (L), Koridethi (Θ), families 1 and 13, the Latin Vulgate and others",
+    "orig": "καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα· Καὶ μετὰ ἀνόμων ἐλογίσθη.",
+    "en": "And the Scripture was fulfilled that says, And he was counted with the lawless.",
+    "plain": "And the Scripture was fulfilled that says, \"He was counted among the lawless.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is missing from the oldest and best witnesses of every kind. Mark rarely quotes Scripture in his own voice with a fulfillment formula; the line seems to have been added from Luke 22:37, where Jesus quotes Isaiah 53:12 at the supper.",
+  "b": "Isaiah 53:12 on this site reads \"and was counted with the rebels.\" The thought fits the scene in 15:27 well, which is why it was added.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:34",
+  "a": "why have you abandoned me",
+  "t": "\"Why have you insulted me?\"",
+  "p": "Codex Bezae and some Old Latin copies change the cry to \"why have you reproached me?\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine majority, Textus Receptus (KJV); nearly all manuscripts",
+    "orig": "εἰς τί ἐγκατέλιπές με",
+    "en": "why have you forsaken me",
+    "plain": "why have you abandoned me"
+   },
+   {
+    "w": "Codex Bezae (D, 400s) and some Old Latin copies (reported by Metzger)",
+    "orig": "εἰς τί ὠνείδισάς με",
+    "en": "why have you reproached me",
+    "plain": "why have you insulted me"
+   }
+  ],
+  "follow": 0,
+  "why": "The change is almost certainly a copyist's attempt to soften the cry of abandonment, which troubled some early Christians. The usual reading translates Psalm 22:1 exactly.",
+  "s": [
+   "metzger",
+   "ehrman-corruption"
+  ]
+ },
+ {
+  "v": "15:39",
+  "a": "saw the way he breathed out his life",
+  "t": "\"Cried out and\"",
+  "p": "The KJV, following later manuscripts, says the centurion saw \"that he so cried out, and gave up the ghost.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Codex Sinaiticus, Vaticanus, Regius (L) and others",
+    "orig": "ὅτι οὕτως ἐξέπνευσεν",
+    "en": "that he breathed his last in this way",
+    "plain": "saw the way he breathed out his life"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV); Codex Alexandrinus, Ephraemi, Washington, Koridethi (Θ) and others",
+    "orig": "ὅτι οὕτως κράξας ἐξέπνευσεν",
+    "en": "that he cried out in this way and breathed his last",
+    "plain": "saw the way he cried out and breathed out his life"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Cried out\" seems to have been added to explain what the centurion saw \"in this way,\" using the loud cry of 15:37.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:8",
+  "a": "for they were afraid.",
+  "t": "The Shorter Ending",
+  "p": "Some manuscripts add two sentences after 16:8, the \"Shorter Ending.\" In one Latin manuscript it is the only ending.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s), the Sinaitic Syriac, many Armenian and the oldest Georgian manuscripts: the Gospel ends here. The Longer Ending (16:9–20) follows in most others",
+    "orig": "ἐφοβοῦντο γάρ.",
+    "en": "for they were afraid.",
+    "plain": "for they were afraid."
+   },
+   {
+    "w": "The Shorter Ending: alone in the Old Latin Codex Bobiensis (k, about 400); before the Longer Ending in Codex Regius (L, 700s), Ψ (800s–900s), 083 (500s–600s), 099 and 0112 (600s), 274 (margin), 579, the Harklean Syriac margin, some Sahidic and Ethiopic manuscripts (reported by Metzger). The SBL edition prints it in double brackets",
+    "orig": "ἐφοβοῦντο γάρ. Πάντα δὲ τὰ παρηγγελμένα τοῖς περὶ τὸν Πέτρον συντόμως ἐξήγγειλαν. μετὰ δὲ ταῦτα καὶ αὐτὸς ὁ Ἰησοῦς ἀπὸ ἀνατολῆς καὶ ἄχρι δύσεως ἐξαπέστειλεν δι’ αὐτῶν τὸ ἱερὸν καὶ ἄφθαρτον κήρυγμα τῆς αἰωνίου σωτηρίας. ἀμήν.",
+    "en": "for they were afraid. But they reported briefly to those around Peter all that they had been commanded. And after this Jesus himself sent out through them, from east to west, the sacred and imperishable proclamation of eternal salvation. Amen.",
+    "plain": "for they were afraid. [They briefly reported all they had been told to those around Peter. After this Jesus himself sent out through them, from the east to the west, the holy and undying message of eternal salvation. Amen.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Shorter Ending is not in the oldest manuscripts, its style is unlike Mark's (\"the holy and undying message of eternal salvation\" sounds like the second century or later), and it contradicts 16:8, where the women tell no one. It was written to give Mark a fitting close. The Plain gives Mark as the oldest manuscripts end it here and prints the Longer Ending after it under its own heading, as nearly all Bibles do.",
+  "b": "Where both endings appear, the Shorter usually comes first, often with a note such as \"this also is found\" before the Longer. See the deep dive on this chapter page. Συντόμως can mean \"briefly\" or \"promptly\"; the Plain says \"briefly.\"",
+  "s": [
+   "metzger",
+   "parker-living-text",
+   "collins-mark"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "Having risen early on the first day of the week, Jesus showed himself first to Mary Magdalene. He had driven seven demons out of her.",
+  "t": "The Longer Ending (16:9–20)",
+  "p": "The two oldest manuscripts that contain the end of Mark stop at 16:8. Most later manuscripts continue with 16:9–20.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (400s), Ephraemi (400s), Bezae (400s; its Greek has 16:9–15, the rest supplied by a much later hand), Washington (400s), Koridethi (Θ), families 1 and 13, Byzantine majority, Textus Receptus (KJV), the Latin Vulgate, the Peshitta and (in part) the Curetonian Syriac; known to Irenaeus (about 180) and Tatian's Diatessaron (about 170). Printed by SBLGNT and NA28 in double brackets and by Tyndale House",
+    "orig": "Ἀναστὰς δὲ πρωῒ πρώτῃ σαββάτου ἐφάνη πρῶτον Μαρίᾳ τῇ Μαγδαληνῇ, παρ’ ἧς ἐκβεβλήκει ἑπτὰ δαιμόνια.",
+    "en": "Having risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.",
+    "plain": "Having risen early on the first day of the week, Jesus showed himself first to Mary Magdalene. He had driven seven demons out of her."
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s), the Sinaitic Syriac, about a hundred Armenian manuscripts, the two oldest Georgian manuscripts, Codex Bobiensis (with the Shorter Ending only); Eusebius says the accurate copies ended at 16:8, and Jerome repeats him (Jerome's Letter 120 largely copies Eusebius' answer to Marinus, so it is not independent evidence); Clement of Alexandria and Origen show no knowledge of 16:9–20 (reported by Metzger)",
+    "orig": "—",
+    "en": "(the Gospel ends at 16:8)",
+    "plain": "[The oldest manuscripts end the Gospel at 16:8.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates 16:9–20 because nearly every Bible prints it and the church has read it for most of its history, but it marks it as a later ending under its own heading. Most scholars, including those who made the SBL, NA28 and most modern translations, judge that Mark did not write it: the oldest manuscripts and the earliest Greek fathers lack it, its vocabulary and style differ from Mark's, it begins as if 16:1–8 had not been told, and it summarizes appearances from Luke, John and Acts. A minority (for example, Maurice Robinson and some who favor the Byzantine text) hold that it is original.",
+  "b": "Vaticanus, after ending Mark at 16:8, leaves the rest of the column and the whole next column blank, the only such gap in its New Testament, which some take to mean the scribe knew of a longer ending he chose not to copy. The page of Sinaiticus that ends Mark is a replacement leaf written by one of the original correctors, with the writing spaced out. For the whole evidence see the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "black-ending-four-views",
+   "eusebius-marinum",
+   "jerome-letter-120",
+   "irenaeus-heresies-3",
+   "parker-living-text",
+   "kelhoffer-miracle"
+  ]
+ },
+ {
+  "v": "16:14",
+  "a": "because they had not believed those who saw him raised.",
+  "t": "The Freer Logion",
+  "p": "One manuscript, Codex Washington (400s), adds a long exchange between the eleven and Jesus after this verse.",
+  "readings": [
+   {
+    "w": "All other manuscripts that have the Longer Ending",
+    "orig": "ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν.",
+    "en": "because they did not believe those who had seen him raised.",
+    "plain": "because they had not believed those who saw him raised."
+   },
+   {
+    "w": "Codex Washington (W, 400s, in the Freer Gallery, Washington, D.C.) alone; Jerome quotes the first part in Latin as found \"in some copies, especially Greek manuscripts\" (Against the Pelagians 2.15; reported by Metzger)",
+    "orig": "ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν. κἀκεῖνοι ἀπελογοῦντο λέγοντες ὅτι ὁ αἰὼν οὗτος τῆς ἀνομίας καὶ τῆς ἀπιστίας ὑπὸ τὸν σατανᾶν ἐστιν, ὁ μὴ ἐῶν τὰ ὑπὸ τῶν πνευμάτων ἀκάθαρτα τὴν ἀλήθειαν τοῦ θεοῦ καταλαβέσθαι δύναμιν· διὰ τοῦτο ἀποκάλυψόν σου τὴν δικαιοσύνην ἤδη, ἐκεῖνοι ἔλεγον τῷ Χριστῷ. καὶ ὁ Χριστὸς ἐκείνοις προσέλεγεν ὅτι πεπλήρωται ὁ ὅρος τῶν ἐτῶν τῆς ἐξουσίας τοῦ σατανᾶ, ἀλλὰ ἐγγίζει ἄλλα δεινά· καὶ ὑπὲρ ὧν ἐγὼ ἁμαρτησάντων παρεδόθην εἰς θάνατον ἵνα ὑποστρέψωσιν εἰς τὴν ἀλήθειαν καὶ μηκέτι ἁμαρτήσωσιν, ἵνα τὴν ἐν τῷ οὐρανῷ πνευματικὴν καὶ ἄφθαρτον τῆς δικαιοσύνης δόξαν κληρονομήσωσιν.",
+    "en": "because they did not believe those who had seen him raised. And they defended themselves, saying, \"This age of lawlessness and of unbelief is under Satan, who does not allow the things made unclean by the spirits to lay hold of the truth of God, his power. For this reason, reveal your righteousness already,\" they were saying to Christ. And Christ said to them in reply, \"The boundary of the years of Satan's authority has been filled up, but other dreadful things are drawing near. And on behalf of those who sinned I was handed over to death, so that they may turn back to the truth and no longer sin, so that they may inherit the glory of righteousness, spiritual and incorruptible, that is in heaven.\"",
+    "plain": "because they had not believed those who saw him raised. [They made excuses for themselves: \"This age of lawlessness and unbelief is under Satan. He does not let the things made unclean by the spirits grasp the truth of God, his power. So show your righteousness now.\" That is what they said to Christ. And Christ answered them, \"The full span of the years of Satan's authority has been reached, but other dreadful things are coming near. For those who sinned I was handed over to death, so that they may turn back to the truth and sin no more, and may inherit the glory of righteousness, spiritual and undying, that is in heaven.\"]"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is found in only one manuscript, and its ideas and vocabulary belong to a later age. It seems written to soften the rebuke of the eleven by giving their excuse, and to explain why Satan's power continues after Easter.",
+  "b": "The Greek of this passage is damaged in places and its grammar is awkward; the English here is the site's own, made word for word from the Greek. The hardest clause is taken here with \"the things made unclean by the spirits\" (τὰ ὑπὸ τῶν πνευμάτων ἀκάθαρτα) as the subject of \"lay hold of\" (καταλαβέσθαι): Satan keeps unclean things from grasping God's truth. Another construal, also reported by Metzger, makes God's truth and power the subject: Satan does not let the truth and power of God overcome the unclean things of the spirits.",
+  "s": [
+   "metzger",
+   "jerome-pelagians-2",
+   "parker-living-text"
+  ]
+ },
+ {
+  "v": "16:18",
+  "a": "They will take up snakes",
+  "t": "\"With their hands\"",
+  "p": "Some manuscripts read \"with their hands they will take up snakes.\" NA28 prints the words in brackets; SBL leaves them out.",
+  "readings": [
+   {
+    "w": "SBLGNT, Byzantine majority, Textus Receptus (KJV \"They shall take up serpents\")",
+    "orig": "ὄφεις ἀροῦσιν",
+    "en": "they will take up snakes",
+    "plain": "They will take up snakes"
+   },
+   {
+    "w": "Tyndale House, NA28 (in brackets), Westcott-Hort, Tregelles; Codex Ephraemi (C), Regius (L), Δ, 099, 579, 892 and the Coptic versions (as reported in the NA28 apparatus)",
+    "orig": "καὶ ἐν ταῖς χερσὶν ὄφεις ἀροῦσιν",
+    "en": "and with their hands they will take up snakes",
+    "plain": "With their hands they will take up snakes"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses to the Longer Ending divide, and the editors divide with them. The Plain follows the SBL and Byzantine texts; the meaning is the same either way.",
+  "s": [
+   "na28",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "16:19",
+  "a": "the Lord Jesus",
+  "t": "\"The Lord Jesus\" or \"the Lord\"",
+  "p": "The KJV says only \"the Lord.\" The SBL and NA28 texts read \"the Lord Jesus.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "ὁ μὲν οὖν κύριος Ἰησοῦς",
+    "en": "so then the Lord Jesus",
+    "plain": "the Lord Jesus"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV \"So then after the Lord had spoken unto them\")",
+    "orig": "ὁ μὲν οὖν κύριος",
+    "en": "so then the Lord",
+    "plain": "the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions follow the witnesses that have the name; the meaning is the same. The Byzantine text and the Textus Receptus also end the Gospel (16:20) with \"Amen,\" as the KJV does; the critical editions do not print it.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ }
+]

@@ -1,0 +1,504 @@
+[
+ {
+  "v": "14:3",
+  "a": "Is it allowed to heal on the Sabbath, or not?",
+  "t": "\"Or not\"?",
+  "p": "The Byzantine text and the Textus Receptus lack \"or not\" and phrase the question differently (KJV \"Is it lawful to heal on the sabbath day?\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and THGNT (manuscripts not checked here)",
+    "orig": "Ἔξεστιν τῷ σαββάτῳ θεραπεῦσαι ἢ οὔ;",
+    "en": "Is it permitted on the Sabbath to heal, or not?",
+    "plain": "Is it allowed to heal on the Sabbath, or not?"
+   },
+   {
+    "w": "The Byzantine majority text (Robinson-Pierpont) and the Textus Receptus (KJV); manuscripts not checked here",
+    "orig": "Εἰ ἔξεστιν τῷ σαββάτῳ θεραπεύειν;",
+    "en": "Is it permitted on the Sabbath to heal?",
+    "plain": "Is it allowed to heal on the Sabbath?"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print \"or not\"; the shorter question may have been shaped by the parallel in Matthew 12:10. The meaning is the same either way.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:5",
+  "a": "a son, or an ox",
+  "t": "A son, a donkey or a sheep?",
+  "p": "The oldest papyri say \"a son or an ox\". Other manuscripts say \"a donkey or an ox\" (KJV) or \"a sheep or an ox\".",
+  "readings": [
+   {
+    "w": "P45 (200s), P75 (about 175–225), Codex Alexandrinus (02), Vaticanus (03), Washington (W) and the Byzantine majority (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "υἱὸς ἢ βοῦς",
+    "en": "a son or an ox",
+    "plain": "a son, or an ox"
+   },
+   {
+    "w": "Codex Sinaiticus (01), L, Ψ, families 1 and 13 and others (as reported by Metzger); the Textus Receptus (KJV \"an ass or an ox\")",
+    "orig": "ὄνος ἢ βοῦς",
+    "en": "a donkey or an ox",
+    "plain": "a donkey, or an ox"
+   },
+   {
+    "w": "Codex Bezae (05) (as reported by Metzger)",
+    "orig": "πρόβατον ἢ βοῦς",
+    "en": "a sheep or an ox",
+    "plain": "a sheep, or an ox"
+   }
+  ],
+  "follow": 0,
+  "why": "\"A son or an ox\" is the oldest reading and the harder one: a child and an animal make an odd pair, so copyists changed \"son\" to \"donkey\" to match the ox and donkey of 13:15 (and Deuteronomy 22:4), or to \"sheep\" to match Matthew 12:11. No copyist would have changed \"donkey\" to \"son\".",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:15",
+  "a": "eats bread",
+  "t": "Bread or dinner?",
+  "p": "The Byzantine text has the guest say \"dinner\" (ἄριστον) instead of \"bread\" (ἄρτον).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles; the Textus Receptus (KJV \"eat bread\")",
+    "orig": "φάγεται ἄρτον",
+    "en": "will eat bread",
+    "plain": "eats bread"
+   },
+   {
+    "w": "The Byzantine majority text (Robinson-Pierpont)",
+    "orig": "φάγεται ἄριστον",
+    "en": "will eat dinner",
+    "plain": "eats dinner"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words differ by two letters. \"Eat bread\" is the Jewish idiom for sharing a meal and is in the oldest manuscripts; \"dinner\" picks up the word used in 14:12.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:17",
+  "a": "it's ready now",
+  "t": "\"Ready\" or \"all things are ready\"?",
+  "p": "The KJV's \"for all things are now ready\" follows later manuscripts that add \"all things\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "ὅτι ἤδη ἕτοιμά ἐστιν",
+    "en": "because it is ready now",
+    "plain": "it's ready now"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV)",
+    "orig": "ὅτι ἤδη ἕτοιμά ἐστιν πάντα",
+    "en": "because all things are ready now",
+    "plain": "everything's ready now"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is in the older manuscripts that the critical editions follow; \"all things\" is a natural addition that does not change the sense.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "14:24",
+  "a": "will taste my supper.",
+  "t": "\"Many are called, few chosen\" added",
+  "p": "The Byzantine text ends the parable with Matthew's line, \"For the called are many, but the chosen are few.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles; the Textus Receptus (KJV)",
+    "orig": "γεύσεταί μου τοῦ δείπνου.",
+    "en": "will taste my dinner.",
+    "plain": "will taste my supper."
+   },
+   {
+    "w": "The Byzantine majority text (Robinson-Pierpont) and many later manuscripts",
+    "orig": "γεύσεταί μου τοῦ δείπνου. πολλοὶ γάρ εἰσιν κλητοί, ὀλίγοι δὲ ἐκλεκτοί.",
+    "en": "will taste my dinner. For many are called, but few chosen.",
+    "plain": "will taste my supper. For the called are many, but the chosen are few."
+   }
+  ],
+  "follow": 0,
+  "why": "The line belongs to Matthew's wedding parable (Matthew 22:14) and to some manuscripts of Matthew 20:16. Copyists who knew Matthew's version added it here. It is absent from the older manuscripts and even from the Textus Receptus, so the KJV does not have it.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "15:16",
+  "a": "eat his fill from",
+  "t": "\"Eat his fill\" or \"fill his belly\"?",
+  "p": "The oldest manuscripts say he longed \"to be fed\". The SBLGNT and later manuscripts have the blunter \"to fill his belly\" (KJV).",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus (01), Vaticanus (03), Bezae (05), L and family 1 (as reported by Metzger); NA28, THGNT, Westcott-Hort",
+    "orig": "χορτασθῆναι ἐκ",
+    "en": "to be fed with, to eat his fill from",
+    "plain": "eat his fill from"
+   },
+   {
+    "w": "Codex Alexandrinus (02), Θ, Ψ, family 13 and the Byzantine majority; the Textus Receptus (KJV \"fain have filled his belly with\"); SBLGNT",
+    "orig": "γεμίσαι τὴν κοιλίαν αὐτοῦ ἀπὸ",
+    "en": "to fill his belly with",
+    "plain": "fill his belly with"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain follows NA28 and the Tyndale House edition against the SBLGNT. \"Eat his fill\" has the oldest and widest early support, including P75 and Vaticanus. The SBLGNT prints the cruder \"fill his belly,\" and a case can be made for it: copyists may have refined a vulgar phrase, and \"eat his fill\" could have come in from 16:21, where Lazarus longs to eat his fill. The early evidence decides it here.",
+  "b": "The difference is one of tone, not meaning: in both readings the son is starving and wants what the pigs eat.",
+  "s": [
+   "metzger",
+   "na28",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "15:21",
+  "a": "I don't deserve to be called your son anymore.",
+  "t": "Did the son finish his speech?",
+  "p": "Sinaiticus, Vaticanus and Bezae add \"Make me like one of your hired men\", completing the speech the son had planned.",
+  "readings": [
+   {
+    "w": "P75, Codex Alexandrinus (02), L, W, Θ, Ψ, families 1 and 13, the Byzantine majority (as reported by Metzger); SBLGNT, NA28, THGNT; the Textus Receptus (KJV)",
+    "orig": "οὐκέτι εἰμὶ ἄξιος κληθῆναι υἱός σου.",
+    "en": "I am no longer worthy to be called your son.",
+    "plain": "I don't deserve to be called your son anymore."
+   },
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (03), Bezae (05), 33 and a few others (as reported by Metzger); printed by Westcott-Hort",
+    "orig": "οὐκέτι εἰμὶ ἄξιος κληθῆναι υἱός σου· ποίησόν με ὡς ἕνα τῶν μισθίων σου.",
+    "en": "I am no longer worthy to be called your son; make me like one of your hired men.",
+    "plain": "I don't deserve to be called your son anymore. Make me like one of your hired men."
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists naturally completed the speech from 15:19. Without the last line, the story has its point: the father interrupts before the son can ask to be made a hired man. The shorter text is supported by P75 and a broad range of witnesses, so even though Sinaiticus and Vaticanus agree on the longer one, nearly all editors judge it an assimilation.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "15:22",
+  "a": "Hurry, bring out a robe, the best one",
+  "t": "\"Hurry\"",
+  "p": "The Byzantine text and the Textus Receptus lack \"Hurry\" (KJV \"Bring forth the best robe\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and THGNT (manuscripts not checked here)",
+    "orig": "Ταχὺ ἐξενέγκατε στολὴν τὴν πρώτην",
+    "en": "Quickly bring out a robe, the first one",
+    "plain": "Hurry, bring out a robe, the best one"
+   },
+   {
+    "w": "The Byzantine majority text (Robinson-Pierpont) and the Textus Receptus (KJV); manuscripts not checked here",
+    "orig": "Ἐξενέγκατε τὴν στολὴν τὴν πρώτην",
+    "en": "Bring out the first robe",
+    "plain": "Bring out the best robe"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print ταχύ. The word adds urgency to the father's orders but does not change the story.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "when it runs out",
+  "t": "\"When it fails\" or \"when you fail\"?",
+  "p": "The KJV's \"when ye fail\" follows the later reading. The older one says \"when it [the wealth] runs out\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "ὅταν ἐκλίπῃ",
+    "en": "when it fails",
+    "plain": "when it runs out"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV \"when ye fail\")",
+    "orig": "ὅταν ἐκλίπητε",
+    "en": "when you fail (that is, die)",
+    "plain": "when you run out"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular, with wealth as its subject, is the reading of the older manuscripts. The plural, \"when you fail,\" means \"when you die\" and may have been suggested by the following \"they will take you.\" The sense is close: money will not outlast this life.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "16:12",
+  "a": "what is yours",
+  "t": "\"What is yours\" or \"what is ours\"?",
+  "p": "Codex Vaticanus and L read \"what is ours\", which Westcott and Hort printed.",
+  "readings": [
+   {
+    "w": "Most manuscripts, including Codex Sinaiticus (01) and Alexandrinus (02) (as reported in NA28); SBLGNT, NA28, THGNT, Tregelles; the Textus Receptus (KJV \"that which is your own\")",
+    "orig": "τὸ ὑμέτερον",
+    "en": "what is yours",
+    "plain": "what is yours"
+   },
+   {
+    "w": "Codex Vaticanus (03) and L, with Origen (as reported in NA28); Westcott-Hort",
+    "orig": "τὸ ἡμέτερον",
+    "en": "what is ours",
+    "plain": "what is ours"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Yours\" has the widest support and makes the contrast with \"what belongs to another\" clear. In later Greek ἡμέτερον and ὑμέτερον sounded nearly the same, so copyists confused them often. \"Ours\" would mean the true riches belonging to God and Jesus, which they share with disciples, an attractive sense that made Westcott and Hort prefer it.",
+  "s": [
+   "na28",
+   "westcott-hort-intro"
+  ]
+ },
+ {
+  "v": "16:19",
+  "a": "A certain man was rich.",
+  "t": "A name for the rich man",
+  "p": "The oldest manuscript of Luke, P75, gives the rich man a name: Neues.",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts; SBLGNT, NA28, THGNT; the Textus Receptus (KJV)",
+    "orig": "Ἄνθρωπος δέ τις ἦν πλούσιος",
+    "en": "there was a certain rich man",
+    "plain": "A certain man was rich."
+   },
+   {
+    "w": "P75 (about 175–225); compare the Sahidic Coptic, which names him Nineveh (as reported by Metzger)",
+    "orig": "Ἄνθρωπος δέ τις ἦν πλούσιος ὀνόματι Νευης",
+    "en": "there was a certain rich man named Neues",
+    "plain": "A certain man was rich, and his name was Neues."
+   }
+  ],
+  "follow": 0,
+  "why": "The parable names only the poor man. Later readers wanted a name for the rich man too, and different traditions supplied different ones; P75's \"Neues\" may be a shortened form of the Coptic \"Nineveh.\" Latin readers came to call him Dives, which is simply the Latin word for \"rich man.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:21",
+  "a": "from what dropped off",
+  "t": "\"Scraps\" added",
+  "p": "The KJV's \"crumbs\" comes from later manuscripts, which add the word from Matthew 15:27.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "ἀπὸ τῶν πιπτόντων",
+    "en": "from the things falling",
+    "plain": "from what dropped off"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV \"with the crumbs which fell\")",
+    "orig": "ἀπὸ τῶν ψιχίων τῶν πιπτόντων",
+    "en": "from the scraps falling",
+    "plain": "from the scraps that dropped off"
+   }
+  ],
+  "follow": 0,
+  "why": "The older manuscripts lack the noun. Copyists added it from the Canaanite woman's reply, \"the little dogs do eat some of the scraps that drop from their owners' table\" (Matthew 15:27), a natural association since dogs appear in both scenes.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "a millstone",
+  "t": "A millstone, or a donkey's millstone?",
+  "p": "Later manuscripts of Luke have Matthew's and Mark's \"donkey's millstone\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "λίθος μυλικὸς",
+    "en": "a mill stone",
+    "plain": "a millstone"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV \"a millstone\")",
+    "orig": "μύλος ὀνικὸς",
+    "en": "a donkey's millstone",
+    "plain": "a donkey's millstone"
+   }
+  ],
+  "follow": 0,
+  "why": "The older text has Luke's own phrase; copyists brought it into line with Matthew 18:6 and Mark 9:42. The KJV's \"a millstone\" does not show the difference.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "If your brother sins",
+  "t": "\"Sins against you\"",
+  "p": "The KJV's \"if thy brother trespass against thee\" follows later manuscripts that add \"against you\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "ἐὰν ἁμάρτῃ ὁ ἀδελφός σου",
+    "en": "if your brother sins",
+    "plain": "If your brother sins"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV)",
+    "orig": "ἐὰν δὲ ἁμάρτῃ εἰς σὲ ὁ ἀδελφός σου",
+    "en": "if your brother sins against you",
+    "plain": "If your brother sins against you"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition comes from the next verse (\"sins against you\") and from Matthew 18:15. Without it, the saying covers any sin of a fellow believer, not only a personal wrong; the older manuscripts lack it.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:9",
+  "a": "does he?",
+  "t": "\"I think not\"",
+  "p": "The KJV's \"I trow not\" translates two words found only in later manuscripts.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "μὴ ἔχει χάριν τῷ δούλῳ ὅτι ἐποίησεν τὰ διαταχθέντα;",
+    "en": "he does not thank the slave because he did what was ordered, does he?",
+    "plain": "does he?"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV \"I trow not\")",
+    "orig": "... τὰ διαταχθέντα αὐτῷ; οὐ δοκῶ.",
+    "en": "... what was ordered him? I think not.",
+    "plain": "does he? I don't think so."
+   }
+  ],
+  "follow": 0,
+  "why": "The question already expects the answer \"no,\" and \"I think not\" spells it out. The words are missing from the older manuscripts and look like an explanatory addition.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:11",
+  "a": "through the country between Samaria and Galilee",
+  "t": "Between, or through the middle of?",
+  "p": "The critical editions read διὰ μέσον, \"between\"; the Byzantine text has διὰ μέσου, \"through the middle of\" (KJV \"through the midst of Samaria and Galilee\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and THGNT (manuscripts not checked here)",
+    "orig": "διὰ μέσον Σαμαρείας καὶ Γαλιλαίας",
+    "en": "between Samaria and Galilee",
+    "plain": "through the country between Samaria and Galilee"
+   },
+   {
+    "w": "The Byzantine majority text (Robinson-Pierpont) and the Textus Receptus (KJV); manuscripts not checked here",
+    "orig": "διὰ μέσου Σαμαρείας καὶ Γαλιλαίας",
+    "en": "through the middle of Samaria and Galilee",
+    "plain": "through the middle of Samaria and Galilee"
+   }
+  ],
+  "follow": 0,
+  "why": "Διὰ μέσον (accusative) is the unusual form and the one the critical editions print; διὰ μέσου (genitive) is the ordinary Greek for \"through the midst of\" and may be a copyist's smoothing. The difference matters for the route: \"between\" suggests a road along the border (see the note).",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:24",
+  "a": "like that in his day",
+  "t": "\"In his day\"",
+  "p": "P75, Vaticanus and Bezae lack \"in his day\". NA28 prints it in brackets.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), L, W, Θ, Ψ and most manuscripts (as reported by Metzger); SBLGNT, NA28 (in brackets), THGNT, Tregelles; the Textus Receptus (KJV)",
+    "orig": "οὕτως ἔσται ὁ υἱὸς τοῦ ἀνθρώπου ἐν τῇ ἡμέρᾳ αὐτοῦ",
+    "en": "so will the Son of Man be in his day",
+    "plain": "like that in his day"
+   },
+   {
+    "w": "P75, Codex Vaticanus (03), Bezae (05) and some Old Latin manuscripts (as reported by Metzger); Westcott-Hort",
+    "orig": "οὕτως ἔσται ὁ υἱὸς τοῦ ἀνθρώπου",
+    "en": "so will the Son of Man be",
+    "plain": "like that"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses are evenly balanced. The words might have dropped out by accident, the eye skipping from one ending to another, or have been added to match \"the days of the Son of Man\" around them. Most editions keep them, with NA28 marking its doubt by brackets. The sense hardly changes.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:33",
+  "a": "tries to hold on to his life",
+  "t": "\"Save\" or \"keep safe\"?",
+  "p": "The KJV's \"seek to save his life\" follows the later wording, which matches 9:24.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort and Tregelles",
+    "orig": "ζητήσῃ τὴν ψυχὴν αὐτοῦ περιποιήσασθαι",
+    "en": "seeks to keep his life safe",
+    "plain": "tries to hold on to his life"
+   },
+   {
+    "w": "The Byzantine majority and the Textus Receptus (KJV)",
+    "orig": "ζητήσῃ τὴν ψυχὴν αὐτοῦ σῶσαι",
+    "en": "seeks to save his life",
+    "plain": "tries to save his life"
+   }
+  ],
+  "follow": 0,
+  "why": "Luke's rare verb was replaced by the usual \"save\" of the other forms of this saying (9:24; Mark 8:35). The older manuscripts keep the rarer word.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "17:36",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "Luke 17:36: \"Two men in the field\"",
+  "p": "A verse added from Matthew 24:40. It is in the KJV, but not in the oldest manuscripts or most later ones.",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03), L, W, Θ, Ψ, family 1 and the Byzantine majority (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "",
+    "en": "(no verse)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Bezae (05), family 13, 700, most Old Latin manuscripts, the Vulgate and the Syriac versions (as reported by Metzger); the Textus Receptus (KJV)",
+    "orig": "δύο ἐν ἀγρῷ· εἷς παραλημφθήσεται καὶ ὁ ἕτερος ἀφεθήσεται",
+    "en": "Two in the field: one will be taken and the other will be left.",
+    "plain": "There will be two men out in a field. One will be taken along, and the other will be left behind."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is missing from nearly all Greek manuscripts, old and late. It was added in the West to complete the pattern of Matthew 24:40 (two in the field, two at the mill); in Luke the pair is two in a bed and two at the mill. Copying it in was easy, since it ends like 17:35. It came into the printed Textus Receptus and so into the KJV, though most Greek manuscripts, including the Byzantine majority, lack it. The Greek given here is the TR's text as listed in the STEPBible word list.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ }
+]

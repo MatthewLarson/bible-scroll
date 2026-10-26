@@ -1,0 +1,640 @@
+[
+ {
+  "v": "9:1",
+  "a": "called the Twelve together",
+  "t": "\"His twelve disciples\"",
+  "p": "The KJV has \"called his twelve disciples together,\" following the Textus Receptus.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort and the Byzantine text (the manuscripts on each side are not checked here)",
+    "orig": "συγκαλεσάμενος δὲ τοὺς δώδεκα",
+    "en": "having called together the Twelve",
+    "plain": "called the Twelve together"
+   },
+   {
+    "w": "Textus Receptus (KJV \"his twelve disciples\")",
+    "orig": "συγκαλεσάμενος δὲ τοὺς δώδεκα μαθητὰς αὐτοῦ",
+    "en": "having called together his twelve disciples",
+    "plain": "called his twelve disciples together"
+   }
+  ],
+  "follow": 0,
+  "why": "Even the Byzantine text has only \"the Twelve.\" The longer form explains who the Twelve are, as Matthew 10:1 does; it changes nothing in the meaning.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "9:3",
+  "a": "no staff",
+  "t": "Staff or staffs?",
+  "p": "The Byzantine text and the KJV have \"staves,\" plural, as in the Byzantine text of Matthew 10:10.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "μήτε ῥάβδον",
+    "en": "nor a staff",
+    "plain": "no staff"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"neither staves\")",
+    "orig": "μήτε ῥάβδους",
+    "en": "nor staffs",
+    "plain": "no staffs"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural softens the clash with Mark 6:8, which allows one staff: if the ban is on \"staffs,\" a single walking stick might seem allowed. The singular is the harder reading and is printed by all the critical editions, so the plural is probably a scribe's harmonizing.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "9:7",
+  "a": "everything that was taking place",
+  "t": "\"All that was done by him\"",
+  "p": "The Byzantine text and the KJV add \"by him\": Herod heard of \"all that was done by him.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "τὰ γινόμενα πάντα",
+    "en": "all the things happening",
+    "plain": "everything that was taking place"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"all that was done by him\")",
+    "orig": "τὰ γινόμενα ὑπ’ αὐτοῦ πάντα",
+    "en": "all the things done by him",
+    "plain": "everything that was being done by him"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words make plain that Herod heard about Jesus. In the shorter text Herod hears of everything happening, the Twelve's mission included (9:6). The addition reads like a clarification, as in Mark 6:14.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "9:10",
+  "a": "to a town called Bethsaida",
+  "t": "Where did they withdraw?",
+  "p": "The oldest text says \"to a town called Bethsaida.\" The KJV has \"into a desert place belonging to the city called Bethsaida.\"",
+  "readings": [
+   {
+    "w": "P75 (about 175–225), Codex Sinaiticus as corrected (300s), Vaticanus (300s), L, 33 and the Coptic versions (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT, Westcott-Hort",
+    "orig": "εἰς πόλιν καλουμένην Βηθσαϊδά",
+    "en": "to a town called Bethsaida",
+    "plain": "to a town called Bethsaida"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), C (400s), W (400s) and the Byzantine majority (as reported by Metzger); Textus Receptus (KJV)",
+    "orig": "εἰς τόπον ἔρημον πόλεως καλουμένης Βηθσαϊδάν",
+    "en": "to a deserted place of a town called Bethsaida",
+    "plain": "to a lonely spot near a town called Bethsaida"
+   }
+  ],
+  "follow": 0,
+  "why": "Metzger reports several readings here: \"to a deserted place\" (the first hand of Sinaiticus and the Old Syriac), \"to a village called Bethsaida\" (Codex Bezae, 400s), and the Byzantine text combining place and town. The simple \"to a town called Bethsaida\" best explains the rest: scribes noticed that 9:12 calls the place lonely, a strange thing to say of a town, and adjusted the wording. The Plain keeps the harder reading.",
+  "b": "The tension is real: Jesus withdraws to a town, yet the disciples say they are in a lonely spot (9:12). Luke probably means the open country near Bethsaida.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:23",
+  "a": "every day",
+  "t": "\"Every day\": missing in most Byzantine manuscripts",
+  "p": "\"Every day\" is in the oldest manuscripts and the KJV, but not in most later Byzantine manuscripts.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort and the earliest manuscripts; Textus Receptus (KJV \"daily\")",
+    "orig": "καθ’ ἡμέραν",
+    "en": "daily",
+    "plain": "every day"
+   },
+   {
+    "w": "Most Byzantine manuscripts (the Robinson-Pierpont Byzantine text)",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is well attested early and is typical of Luke's style. Scribes probably dropped it to match the same saying in Matthew 16:24 and Mark 8:34. This is one of the places where the KJV, following Erasmus' Greek, agrees with the oldest manuscripts against the Byzantine majority.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:35",
+  "a": "my Son, the Chosen One",
+  "t": "Chosen or dearly loved?",
+  "p": "The oldest manuscripts read \"my Son, the Chosen One.\" Later ones have \"my dearly loved Son,\" as in Mark and Matthew.",
+  "readings": [
+   {
+    "w": "P45 (200s), P75 (about 175–225), Codex Sinaiticus, Vaticanus (300s) and others (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ὁ υἱός μου ὁ ἐκλελεγμένος",
+    "en": "my Son, the one chosen",
+    "plain": "my Son, the Chosen One"
+   },
+   {
+    "w": "Codex Alexandrinus (400s) and the Byzantine majority (as reported by Metzger); Textus Receptus (KJV \"my beloved Son\")",
+    "orig": "ὁ υἱός μου ὁ ἀγαπητός",
+    "en": "my beloved Son",
+    "plain": "my dearly loved Son"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Dearly loved\" is what the voice says in Mark 9:7 and Matthew 17:5, and at the baptism (3:22), so copyists naturally brought Luke into line. \"Chosen\" is the less expected word, is found in the earliest papyri, and fits Luke, who calls Jesus God's Chosen One again at 23:35.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:43",
+  "a": "all he was doing",
+  "t": "\"Which Jesus did\"",
+  "p": "The Byzantine text and the KJV name Jesus: \"all things which Jesus did.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "οἷς ἐποίει",
+    "en": "which he was doing",
+    "plain": "all he was doing"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"which Jesus did\")",
+    "orig": "οἷς ἐποίησεν ὁ Ἰησοῦς",
+    "en": "which Jesus did",
+    "plain": "all that Jesus did"
+   }
+  ],
+  "follow": 0,
+  "why": "Here a new section began in church reading, so copyists supplied the name, as they often did at the start of a lesson. The past continuous \"was doing\" fits the scene of many works.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "9:48",
+  "a": "that one is great",
+  "t": "\"Is great\" or \"will be great\"?",
+  "p": "The critical text has the present, \"is great.\" The Byzantine text and the KJV have \"shall be great.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "οὗτός ἐστιν μέγας",
+    "en": "this one is great",
+    "plain": "that one is great"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"the same shall be great\")",
+    "orig": "οὗτος ἔσται μέγας",
+    "en": "this one will be great",
+    "plain": "that one will be great"
+   }
+  ],
+  "follow": 0,
+  "why": "The future tense moves the greatness to the coming kingdom; the present says it is already true. All the critical editions print the present, and a scribe was more likely to change it to the future, which matches other sayings about the last being first (13:30).",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "9:50",
+  "a": "against you is on your side",
+  "t": "\"You\" or \"us\"?",
+  "p": "The oldest text says \"against you ... on your side.\" The Byzantine text and the KJV have \"against us ... for us.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "ὃς γὰρ οὐκ ἔστιν καθ’ ὑμῶν ὑπὲρ ὑμῶν ἐστιν",
+    "en": "for whoever is not against you is for you",
+    "plain": "against you is on your side"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"he that is not against us is for us\")",
+    "orig": "ὃς γὰρ οὐκ ἔστιν καθ’ ἡμῶν ὑπὲρ ἡμῶν ἐστιν",
+    "en": "for whoever is not against us is for us",
+    "plain": "against us is on our side"
+   }
+  ],
+  "follow": 0,
+  "why": "Mark 9:40 has \"us,\" and Greek \"you\" (hymōn) and \"us\" (hēmōn) differed by one letter and sounded alike in later pronunciation. In Luke, Jesus answers John's \"we\" with \"you,\" and all the critical editions print it. Mark's own manuscripts are divided the same way (see the variant at Mark 9:40).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:54",
+  "a": "consume them?",
+  "t": "\"As Elijah did\"",
+  "p": "Many manuscripts, and the KJV, add \"as Elijah also did.\" The oldest do not. 9:54, 9:55 and 9:56 have related additions.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus and others (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καὶ ἀναλῶσαι αὐτούς;",
+    "en": "and consume them?",
+    "plain": "consume them?"
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae and others, the Byzantine majority; Textus Receptus (KJV \"even as Elias did\")",
+    "orig": "καὶ ἀναλῶσαι αὐτούς, ὡς καὶ Ἠλίας ἐποίησεν;",
+    "en": "and consume them, as Elijah also did?",
+    "plain": "consume them, as Elijah did?"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words state the allusion to 2 Kings 1:10–12, which every early reader would have caught. If they had stood in the original, no copyist had a reason to remove them; it is easy to see why one would add them as an explanation, in the margin first and then in the text.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:55",
+  "a": "rebuked them.",
+  "t": "\"You do not know what spirit you are of\"",
+  "p": "The KJV adds Jesus' words: \"Ye know not what manner of spirit ye are of.\" The oldest manuscripts lack them. 9:56 continues the addition.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, Alexandrinus and others (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐπετίμησεν αὐτοῖς.",
+    "en": "he rebuked them.",
+    "plain": "rebuked them."
+   },
+   {
+    "w": "Codex Bezae, some Old Latin and Syriac witnesses, many later manuscripts and the Byzantine text as printed by Robinson and Pierpont; Textus Receptus (KJV)",
+    "orig": "ἐπετίμησεν αὐτοῖς, καὶ εἶπεν, Οὐκ οἴδατε οἵου πνεύματός ἐστε ὑμεῖς·",
+    "en": "he rebuked them, and said, You do not know what kind of spirit you are of.",
+    "plain": "rebuked them and said, \"You do not know what spirit you belong to.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are absent from the earliest and most varied witnesses, and those that have them do not agree on how much to add. Metzger judged the words an addition, written in to say what the rebuke contained; some scholars think they may still preserve an old saying. Many readers have loved it, and its thought fits Jesus' teaching (6:27–36), but the evidence shows it was not part of what Luke wrote.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "9:56",
+  "a": "So they traveled on",
+  "t": "\"The Son of Man did not come to destroy people's lives\"",
+  "p": "The KJV begins 9:56 with \"For the Son of man is not come to destroy men's lives, but to save them.\" The oldest manuscripts lack it. Goes with 9:55.",
+  "readings": [
+   {
+    "w": "P45, P75, Codex Sinaiticus, Vaticanus, Alexandrinus, Bezae and others (as reported by Metzger); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "καὶ ἐπορεύθησαν",
+    "en": "and they went",
+    "plain": "So they traveled on"
+   },
+   {
+    "w": "Some Old Latin and Syriac witnesses and many later manuscripts; the Byzantine text as printed by Robinson and Pierpont; Textus Receptus (KJV)",
+    "orig": "ὁ γὰρ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθεν ψυχὰς ἀνθρώπων ἀπολέσαι, ἀλλὰ σῶσαι. Καὶ ἐπορεύθησαν",
+    "en": "For the Son of Man did not come to destroy people's lives but to save them. And they went",
+    "plain": "\"For the Son of Man did not come to destroy people's lives but to save them.\" So they traveled on"
+   }
+  ],
+  "follow": 0,
+  "why": "This sentence is part of the same expansion as 9:55, and even Codex Bezae, which has the words of 9:55, lacks it. It echoes 19:10 (\"the Son of Man came to seek and to save the lost\") and John 3:17. Its absence from the early witnesses shows it was added to explain why Jesus rebuked the brothers.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:57",
+  "a": "I will follow you.",
+  "t": "\"Lord, I will follow you\"",
+  "p": "The Byzantine text and the KJV add \"Lord\" to the man's offer.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "ἀκολουθήσω σοι ὅπου ἐὰν ἀπέρχῃ",
+    "en": "I will follow you wherever you go",
+    "plain": "I will follow you."
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"Lord, I will follow thee\")",
+    "orig": "ἀκολουθήσω σοι ὅπου ἂν ἀπέρχῃ, κύριε",
+    "en": "I will follow you wherever you go, Lord",
+    "plain": "I will follow you, Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "The next two would-be followers say \"Lord\" (9:59, 61), and copyists gave the first one the same word. Matthew 8:19 has \"Teacher.\" In the shorter text the first man uses no title at all.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "seventy-two",
+  "t": "Seventy or seventy-two?",
+  "p": "The manuscripts are almost evenly divided between seventy and seventy-two, here and in 10:17. The KJV has seventy.",
+  "readings": [
+   {
+    "w": "P75, Codex Vaticanus, Bezae, some Old Latin, the Old Syriac and Sahidic Coptic, and others (as reported by Metzger); SBLGNT, Westcott-Hort; NA28 prints \"two\" in brackets",
+    "orig": "ἑβδομήκοντα δύο",
+    "en": "seventy-two",
+    "plain": "seventy-two"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, the Byzantine majority and others (as reported by Metzger); Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "ἑβδομήκοντα",
+    "en": "seventy",
+    "plain": "seventy"
+   }
+  ],
+  "follow": 0,
+  "why": "Both numbers had meaning (see the note), so scribes could have changed either into the other. Seventy was the more familiar symbolic number (the seventy elders, the seventy nations of the Hebrew text), which makes a change from seventy-two to seventy a little more likely than the reverse. The oldest papyrus, P75 (about AD 175–225), reads seventy-two. Metzger, after a detailed study, judged the evidence nearly balanced; the editors of NA28 print \"two\" in brackets. The Plain follows SBLGNT. 10:17 goes with this verse.",
+  "s": [
+   "metzger",
+   "metzger-seventy",
+   "na28"
+  ]
+ },
+ {
+  "v": "10:15",
+  "a": "You will be brought down",
+  "t": "\"Brought down\" or \"go down\"?",
+  "p": "The editions differ slightly in the verb. The KJV also reads Capernaum's words differently: \"which art exalted to heaven.\"",
+  "readings": [
+   {
+    "w": "P45 (200s), Codex Sinaiticus (300s), Alexandrinus (400s) and the Byzantine text (as reported in the NA28 apparatus); SBLGNT, Tyndale House GNT, Tregelles",
+    "orig": "ἕως τοῦ ᾅδου καταβιβασθήσῃ",
+    "en": "you will be brought down to Hades",
+    "plain": "You will be brought down"
+   },
+   {
+    "w": "P75 (about 175–225), Codex Vaticanus (300s) and Bezae (400s) (as reported in the NA28 apparatus); NA28, Westcott-Hort",
+    "orig": "ἕως τοῦ ᾅδου καταβήσῃ",
+    "en": "you will go down to Hades",
+    "plain": "You will go down"
+   }
+  ],
+  "follow": 0,
+  "why": "The meaning hardly changes. \"Go down\" is the verb of Matthew 11:23 and of the Greek of Isaiah 14:15; scribes may have brought Luke into line with either, or changed \"go down\" to the stronger \"be brought down.\" P75 and Vaticanus, the strongest early pair, support \"go down,\" which is why NA28 prints it; the Plain follows SBLGNT and the Tyndale House edition, which judge \"go down\" an assimilation to Matthew and Isaiah.",
+  "b": "The KJV's \"And thou, Capernaum, which art exalted to heaven, shalt be thrust down to hell\" follows a Byzantine reading in which the first clause is a statement (\"you who were lifted up\") instead of a question (\"will you be lifted up?\"). The question form, in the oldest manuscripts, matches Matthew 11:23.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "10:17",
+  "a": "The seventy-two",
+  "t": "Seventy or seventy-two? (again)",
+  "p": "The same division as in 10:1, and the same witnesses on each side.",
+  "readings": [
+   {
+    "w": "P75, Codex Vaticanus, Bezae and others (as reported by Metzger); SBLGNT, Westcott-Hort; NA28 with \"two\" in brackets",
+    "orig": "οἱ ἑβδομήκοντα δύο",
+    "en": "the seventy-two",
+    "plain": "The seventy-two"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, the Byzantine majority and others; Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "οἱ ἑβδομήκοντα",
+    "en": "the seventy",
+    "plain": "The seventy"
+   }
+  ],
+  "follow": 0,
+  "why": "See 10:1. The two verses go together.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:19",
+  "a": "I have given you",
+  "t": "\"I give unto you\"",
+  "p": "The Byzantine text and the KJV have the present \"I give\"; the critical editions have the perfect \"I have given.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "δέδωκα ὑμῖν",
+    "en": "I have given you",
+    "plain": "I have given you"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"I give unto you\")",
+    "orig": "δίδωμι ὑμῖν",
+    "en": "I give you",
+    "plain": "I give you"
+   }
+  ],
+  "follow": 0,
+  "why": "The perfect looks back to the authority already given for the mission (9:1; 10:9, 17); the present makes it a new grant. The meaning differs little.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "10:20",
+  "a": "Be glad that",
+  "t": "\"But rather rejoice\"",
+  "p": "The KJV's \"but rather rejoice\" follows the Textus Receptus, which adds \"rather.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort and the Byzantine text (the manuscripts on each side are not checked here)",
+    "orig": "χαίρετε δὲ ὅτι",
+    "en": "but rejoice that",
+    "plain": "Be glad that"
+   },
+   {
+    "w": "Textus Receptus (KJV \"but rather rejoice\")",
+    "orig": "χαίρετε δὲ μᾶλλον ὅτι",
+    "en": "but rather rejoice that",
+    "plain": "Be glad instead that"
+   }
+  ],
+  "follow": 0,
+  "why": "Even the Byzantine text lacks \"rather.\" It sharpens the contrast that the Greek \"but\" already makes. The KJV also has \"are written\" (the Byzantine ἐγράφη, \"were written\") for the critical text's perfect \"stand written.\"",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "10:21",
+  "a": "in the Holy Spirit",
+  "t": "\"In the Holy Spirit\" or \"in spirit\"?",
+  "p": "The oldest manuscripts say Jesus rejoiced in the Holy Spirit. The KJV says \"Jesus rejoiced in spirit.\"",
+  "readings": [
+   {
+    "w": "P75, Codex Sinaiticus, Vaticanus and others (as reported by Metzger); NA28 (with \"in\" in brackets), SBLGNT, Tyndale House GNT",
+    "orig": "τῷ πνεύματι τῷ ἁγίῳ",
+    "en": "in the Holy Spirit",
+    "plain": "in the Holy Spirit"
+   },
+   {
+    "w": "Codex Alexandrinus and the Byzantine majority; Textus Receptus (KJV \"Jesus rejoiced in spirit\")",
+    "orig": "τῷ πνεύματι ὁ Ἰησοῦς",
+    "en": "in his spirit, Jesus",
+    "plain": "in his spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "The unusual expression \"rejoiced in the Holy Spirit\" seems to have been simplified by copyists to \"in spirit,\" meaning Jesus' own spirit, perhaps on the model of Mary's \"my spirit\" (1:47). The longer reading has the better early support and suits Luke's stress on the Spirit (4:1, 14, 18).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:22",
+  "a": "Everything has been handed over",
+  "t": "\"And turning to the disciples, he said\"",
+  "p": "The Byzantine text and the KJV begin 10:22 with \"And he turned to his disciples, and said.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "πάντα μοι παρεδόθη",
+    "en": "All things were handed over to me",
+    "plain": "Everything has been handed over"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Καὶ στραφεὶς πρὸς τοὺς μαθητὰς εἶπεν, Πάντα μοι παρεδόθη",
+    "en": "And turning to the disciples he said, All things were handed over to me",
+    "plain": "Then he turned to the disciples and said, \"Everything has been handed over"
+   }
+  ],
+  "follow": 0,
+  "why": "The words were copied from the start of 10:23, probably because a church reading began at 10:22 and needed an introduction. They make 10:22 a private word to the disciples, separating it from the prayer of 10:21.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "10:35",
+  "a": "In the morning he",
+  "t": "\"When he departed\"",
+  "p": "The Byzantine text and the KJV add \"when he departed\": \"on the morrow when he departed.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort (the manuscripts on each side are not checked here)",
+    "orig": "καὶ ἐπὶ τὴν αὔριον ἐκβαλὼν",
+    "en": "and on the next day, taking out",
+    "plain": "In the morning he"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV \"when he departed\")",
+    "orig": "καὶ ἐπὶ τὴν αὔριον ἐξελθών, ἐκβαλὼν",
+    "en": "and on the next day, going out, taking out",
+    "plain": "In the morning, as he left, he"
+   }
+  ],
+  "follow": 0,
+  "why": "The participle \"going out\" fills in the scene; it changes nothing in the story.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "10:38",
+  "a": "as her guest",
+  "t": "\"Into her house\"",
+  "p": "The critical text says only that Martha welcomed him. Other editions add \"into the house\" or \"into her house\" (KJV).",
+  "readings": [
+   {
+    "w": "P45 (200s), P75 (about 175–225), Codex Vaticanus (300s) and the Sahidic Coptic (as reported by Metzger); NA28, SBLGNT",
+    "orig": "ὑπεδέξατο αὐτόν",
+    "en": "welcomed him",
+    "plain": "as her guest"
+   },
+   {
+    "w": "The first hands of Codex Sinaiticus (300s) and C (400s), L and 33 (as reported by Metzger); Tyndale House GNT, Westcott-Hort",
+    "orig": "ὑπεδέξατο αὐτὸν εἰς τὴν οἰκίαν",
+    "en": "welcomed him into the house",
+    "plain": "into the house as her guest"
+   },
+   {
+    "w": "Codex Alexandrinus (400s), Bezae (400s), W (400s) and the Byzantine majority (as reported by Metzger); Tregelles; Textus Receptus (KJV \"received him into her house\")",
+    "orig": "ὑπεδέξατο αὐτὸν εἰς τὸν οἶκον αὐτῆς",
+    "en": "welcomed him into her house",
+    "plain": "into her house as her guest"
+   }
+  ],
+  "follow": 0,
+  "why": "The different forms of the phrase suggest that it was added to complete the verb, which needs no object in Greek. The editors are divided; the meaning is the same, since Martha's house is plainly the setting.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "10:39",
+  "a": "Jesus' feet",
+  "t": "Jesus' feet or the Lord's feet?",
+  "p": "SBLGNT and the Tyndale House edition read \"Jesus' feet\"; NA28 reads \"the Lord's feet.\" The KJV has \"Jesus' feet.\"",
+  "readings": [
+   {
+    "w": "P45 (200s), P75 (about 175–225), Codex Alexandrinus (400s) and the Byzantine text (as reported in the NA28 apparatus); SBLGNT, Tyndale House GNT; Textus Receptus (KJV)",
+    "orig": "πρὸς τοὺς πόδας τοῦ Ἰησοῦ",
+    "en": "at the feet of Jesus",
+    "plain": "Jesus' feet"
+   },
+   {
+    "w": "Codex Sinaiticus and the first hand of Vaticanus (300s) (as reported in the NA28 apparatus); NA28, Westcott-Hort, Tregelles",
+    "orig": "πρὸς τοὺς πόδας τοῦ κυρίου",
+    "en": "at the feet of the Lord",
+    "plain": "the Lord's feet"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings are early. \"The Lord\" matches Luke's habit as narrator (10:41) and could be original; \"Jesus\" could also be original and changed to match 10:41. The editors disagree, and the meaning is the same. The Plain follows SBLGNT and the Tyndale House edition. In 10:41 the critical text has \"the Lord\" and the Byzantine text \"Jesus.\"",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "10:42",
+  "a": "There is need of only one thing.",
+  "t": "One thing, or few things or one?",
+  "p": "One of the best-known variants in Luke. The oldest papyri say \"one thing is needed\"; other early manuscripts say \"few things are needed, or one\"; Codex Bezae and some Old Latin manuscripts leave the words out, with part of 10:41.",
+  "readings": [
+   {
+    "w": "P45 (200s), P75 (about 175–225), Codex Alexandrinus (400s) and the Byzantine majority (as reported by Metzger); NA28, Tyndale House GNT; Textus Receptus (KJV \"But one thing is needful\")",
+    "orig": "ἑνὸς δέ ἐστιν χρεία",
+    "en": "but one thing is needed",
+    "plain": "There is need of only one thing."
+   },
+   {
+    "w": "Codex Sinaiticus and Vaticanus (300s) and others (as reported by Metzger); SBLGNT, Westcott-Hort",
+    "orig": "ὀλίγων δέ ἐστιν χρεία ἢ ἑνός",
+    "en": "but few things are needed, or one",
+    "plain": "Only a few things are needed, or just one."
+   },
+   {
+    "w": "Codex Bezae (400s), which in 10:41 has only \"Martha, Martha, you are troubled,\" and several Old Latin manuscripts, which lack both the worry clause of 10:41 and this clause (as reported by Metzger)",
+    "orig": "(omitted; Bezae reads Μάρθα Μάρθα, θορυβάζῃ· Μαριὰμ …)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and the Tyndale House edition against SBLGNT. \"One thing\" has the two oldest papyri and wide support, and it gives the saying its point: one dish, not many, and the one that matters is Jesus' word. The longer reading may have been made to soften it (\"a few dishes will do, or even one\"), or it may be original and the shorter a simplification, as Gordon Fee argued. Bezae and the Old Latin witnesses shorten the whole reply, probably to remove a hard saying.",
+  "b": "Choosing the third reading here removes only the clause in 10:42; Bezae's shorter wording of 10:41 cannot be shown by switching. Many later Christian writers took the \"one thing\" as the life of prayer and contemplation (see the card on the chapter page).",
+  "s": [
+   "metzger",
+   "fee-one-thing",
+   "sblgnt",
+   "thgnt"
+  ]
+ }
+]

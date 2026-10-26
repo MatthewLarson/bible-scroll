@@ -1,0 +1,236 @@
+[
+ {
+  "c": 1,
+  "add": {
+   "people": {
+    "james": {
+     "name": "James"
+    }
+   }
+  },
+  "why": "1:13 names two apostles called James: James the brother of John (son of Zebedee) and James son of Alphaeus. Bible Atlas links only the second."
+ },
+ {
+  "c": 2,
+  "add": {
+   "places": {
+    "galilee": {
+     "name": "Galilee",
+     "lat": 32.70674542474383,
+     "lon": 35.30152807767973
+    },
+    "media": {
+     "name": "Media",
+     "lat": 34.5,
+     "lon": 46.5
+    },
+    "elam-7": {
+     "name": "Elam",
+     "lat": 31.5,
+     "lon": 49.5
+    },
+    "crete": {
+     "name": "Crete",
+     "lat": 35.23102579604995,
+     "lon": 24.85162918
+    },
+    "arabia": {
+     "name": "Arabia",
+     "lat": 27.4,
+     "lon": 37.7
+    }
+   }
+  },
+  "why": "The crowd at Pentecost calls the apostles men from Galilee (2:7) and lists Medes and Elamites (2:9), Cretans and Arabs (2:11) among the peoples present; Bible Atlas does not link these lands here. It has no entry for Parthia."
+ },
+ {
+  "c": 2,
+  "unmap": [
+   "libya"
+  ],
+  "why": "2:10 means \"the parts of Libya near Cyrene\", the coast of Cyrenaica around Cyrene (which has its own dot); Bible Atlas's Libya point lies far to the east, in the Egyptian desert."
+ },
+ {
+  "c": 5,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the people of Israel (the Israelites), not their ancestor Jacob, whose other name was Israel."
+ },
+ {
+  "c": 6,
+  "add": {
+   "places": {
+    "cyrene": {
+     "name": "Cyrene",
+     "lat": 32.818736,
+     "lon": 21.856169
+    },
+    "alexandria": {
+     "name": "Alexandria",
+     "lat": 31.195371,
+     "lon": 29.904133
+    }
+   }
+  },
+  "why": "Among Stephen's opponents in 6:9 are men of the Cyrenians and the Alexandrians, Jews from Cyrene and Alexandria; Bible Atlas links Cilicia and Asia from the same verse but not these two cities."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "shechem"
+  ],
+  "add": {
+   "places": {
+    "shechem-4": {
+     "name": "Shechem",
+     "lat": 32.22111,
+     "lon": 35.25444
+    }
+   }
+  },
+  "why": "In 7:16 Shechem is the town where the tomb lay (the oldest manuscripts read \"from Hamor's sons at Shechem\"). Bible Atlas links Shechem the son of Hamor, following the King James Version's \"Emmor the father of Sychem\"; the town is linked instead."
+ },
+ {
+  "c": 7,
+  "add": {
+   "places": {
+    "chaldea": {
+     "name": "Chaldea",
+     "lat": 30.9620520474569,
+     "lon": 46.10374195774169
+    },
+    "haran-4": {
+     "name": "Haran",
+     "lat": 36.86,
+     "lon": 39.03139
+    },
+    "midian-2": {
+     "name": "Midian",
+     "lat": 28.75,
+     "lon": 34.75
+    }
+   }
+  },
+  "why": "Stephen names the land of the Chaldeans and Haran, where Abraham lived (7:2, 7:4), and the land of Midian, where Moses fled (7:29); Bible Atlas does not link them here."
+ },
+ {
+  "c": 7,
+  "unmap": [
+   "red-sea"
+  ],
+  "why": "Bible Atlas puts its Red Sea point in the open southern Red Sea; the sea Israel crossed on leaving Egypt (7:36) lay east of Egypt, far to the north of that point."
+ },
+ {
+  "c": 8,
+  "add": {
+   "places": {
+    "ethiopia": {
+     "name": "Ethiopia",
+     "lat": 21.959788,
+     "lon": 31.343557
+    }
+   }
+  },
+  "why": "8:27 calls the official an Ethiopian, serving the Kandake, queen of the Ethiopians: the kingdom of Kush (Meroë) on the Nile south of Egypt, not modern Ethiopia. Bible Atlas does not link it here."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the people of Israel (the Israelites), not their ancestor Jacob, whose other name was Israel."
+ },
+ {
+  "c": 10,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the people of Israel (the Israelites), not their ancestor Jacob, whose other name was Israel."
+ },
+ {
+  "c": 12,
+  "drop": [
+   "first-missionary-journey",
+   "first-missionary-journey-begins"
+  ],
+  "why": "12:25 only has Barnabas and Saul return from Jerusalem with John Mark. The first missionary journey begins when the church at Antioch sends them out in 13:1-4."
+ },
+ {
+  "c": 13,
+  "drop": [
+   "benjamin-5"
+  ],
+  "add": {
+   "people": {
+    "saul": {
+     "name": "Saul"
+    }
+   }
+  },
+  "why": "13:21 names King Saul son of Kish, \"a man from the tribe of Benjamin\". Benjamin here is the tribe, not Jacob's son, and Bible Atlas does not link King Saul himself."
+ },
+ {
+  "c": 20,
+  "drop": [
+   "trogyllium"
+  ],
+  "why": "Some later manuscripts, followed by the King James Version, add \"and stayed at Trogyllium\" in 20:15; the oldest manuscripts and this text do not name it."
+ },
+ {
+  "c": 20,
+  "add": {
+   "places": {
+    "berea": {
+     "name": "Berea",
+     "lat": 40.524528,
+     "lon": 22.204993
+    },
+    "thessalonica": {
+     "name": "Thessalonica",
+     "lat": 40.630282,
+     "lon": 22.949569
+    }
+   }
+  },
+  "why": "20:4 names Paul's companions by their home cities: Sopater of Berea, and Aristarchus and Secundus of Thessalonica. Bible Atlas links Derbe from the same verse but not these two."
+ },
+ {
+  "c": 21,
+  "add": {
+   "places": {
+    "ephesus": {
+     "name": "Ephesus",
+     "lat": 37.941944,
+     "lon": 27.339722
+    }
+   }
+  },
+  "why": "21:29 says Trophimus was \"a man from Ephesus\"; seeing him in the city with Paul is what sets off the riot. Bible Atlas does not link Ephesus here."
+ },
+ {
+  "c": 23,
+  "drop": [
+   "heber"
+  ],
+  "why": "Bible Atlas links Heber (Eber), the ancestor in Genesis, to 23:35, which speaks only of \"Herod's Praetorium\", the palace Herod the Great built at Caesarea."
+ },
+ {
+  "c": 24,
+  "add": {
+   "people": {
+    "claudius-2": {
+     "name": "Claudius"
+    }
+   }
+  },
+  "why": "In 24:22 Felix waits for \"Lysias the commander\", Claudius Lysias, who wrote the letter in 23:26; Bible Atlas does not link him here."
+ },
+ {
+  "c": 25,
+  "drop": [
+   "augustus"
+  ],
+  "why": "\"The emperor\" in 25:21 and 25:25 (Greek Sebastos, \"the August one\"; the King James Version has \"Augustus\") is a title of the reigning emperor, Nero, not Caesar Augustus, who had died in AD 14."
+ }
+]

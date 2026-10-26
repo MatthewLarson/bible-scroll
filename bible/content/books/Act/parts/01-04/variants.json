@@ -1,0 +1,721 @@
+[
+ {
+  "v": "1:2",
+  "a": "he had given his orders to the apostles he had chosen",
+  "t": "The Western text of 1:2",
+  "p": "Codex Bezae adds that Jesus commanded the apostles \"to proclaim the good news.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "ἐντειλάμενος τοῖς ἀποστόλοις διὰ πνεύματος ἁγίου οὓς ἐξελέξατο",
+    "en": "having given orders through the Holy Spirit to the apostles whom he had chosen",
+    "plain": "he had given his orders to the apostles he had chosen"
+   },
+   {
+    "w": "Codex Bezae (05, about 400) and other Western witnesses, as reported by Metzger",
+    "orig": "... οὓς ἐξελέξατο ... καὶ ἐκέλευσε κηρύσσειν τὸ εὐαγγέλιον",
+    "en": "... whom he had chosen ... and he commanded them to proclaim the good news",
+    "plain": "he had given his orders to the apostles he had chosen, and told them to proclaim the good news"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the oldest and widest support. The Western text often fills in what the reader might wonder about, here the content of Jesus' orders.",
+  "b": "The opening of Acts is one of the places where the Western text differs most. Metzger reports that some Western witnesses (Old Latin manuscripts and Augustine) also lack \"he was taken up,\" a reading probably linked to the omission of \"and was carried up into heaven\" at Luke 24:51 in Codex Sinaiticus and Codex Bezae. On the two texts of Acts, see the book's opening pages.",
+  "s": [
+   "metzger",
+   "strange-text-acts"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "before many days have gone by",
+  "t": "\"Until Pentecost\"",
+  "p": "The Western text adds \"until Pentecost,\" naming the day the promise will be kept.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "οὐ μετὰ πολλὰς ταύτας ἡμέρας",
+    "en": "not many days after these",
+    "plain": "before many days have gone by"
+   },
+   {
+    "w": "Codex Bezae (05), the Sahidic Coptic, Augustine, as reported by Metzger",
+    "orig": "οὐ μετὰ πολλὰς ταύτας ἡμέρας ἕως τῆς πεντηκοστῆς",
+    "en": "not many days after these, until Pentecost",
+    "plain": "before many days have gone by, at Pentecost"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition has only Western support and looks like a reader's explanation drawn from 2:1. It is typical of the Western text, which likes to make the story's links explicit.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "Some women were with them too",
+  "t": "\"Women\" or \"wives and children\"",
+  "p": "Codex Bezae reads \"with their wives and children,\" turning the women disciples into the apostles' families.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "σὺν γυναιξίν",
+    "en": "with women",
+    "plain": "Some women were with them too"
+   },
+   {
+    "w": "Codex Bezae (05)",
+    "orig": "σὺν ταῖς γυναιξὶν καὶ τέκνοις",
+    "en": "with the wives and children",
+    "plain": "Their wives and children were with them too"
+   }
+  ],
+  "follow": 0,
+  "why": "The usual text, with the oldest support, means women disciples such as those who followed Jesus from Galilee and saw the cross and the empty tomb (Luke 8:2–3; 23:49; 24:10). Bezae's addition makes them wives, and is one of several places where the Western text seems to lessen the role of women.",
+  "b": "Ben Witherington argued that the Western text of Acts shows a pattern of reducing women's prominence (compare 17:12 and 17:34 in Codex Bezae), and Metzger remarks on the same tendency at 17:12. Eldon Epp's study of Bezae's theological tendency is chiefly about its sharper picture of Jewish hostility. Some scholars question whether the pattern belongs to the early Western text or only to a later layer peculiar to Bezae.",
+  "s": [
+   "metzger",
+   "witherington-western-women",
+   "epp-bezae"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "gave themselves steadily to prayer",
+  "t": "\"Prayer\" or \"prayer and supplication\"",
+  "p": "The Byzantine text and the KJV add \"and supplication.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τῇ προσευχῇ",
+    "en": "to prayer",
+    "plain": "gave themselves steadily to prayer"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "τῇ προσευχῇ καὶ τῇ δεήσει",
+    "en": "to prayer and supplication",
+    "plain": "gave themselves steadily to prayer and pleading"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the oldest witnesses; \"and supplication\" is a natural pairing (as in Philippians 4:6) that copyists added.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "among the brothers",
+  "t": "\"Brothers\" or \"disciples\"",
+  "p": "The Byzantine text and the KJV read \"in the midst of the disciples.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐν μέσῳ τῶν ἀδελφῶν",
+    "en": "in the midst of the brothers",
+    "plain": "among the brothers"
+   },
+   {
+    "w": "Codex Bezae, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐν μέσῳ τῶν μαθητῶν",
+    "en": "in the midst of the disciples",
+    "plain": "among the disciples"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Brothers\" is the older reading; copyists probably changed it to the more usual \"disciples\" so it would not seem to mean Jesus' brothers, just named in 1:14.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "to fill this place of service",
+  "t": "\"Place\" or \"share\"",
+  "p": "The Byzantine text reads \"share\" (klēros), the KJV's \"take part of this ministry.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "λαβεῖν τὸν τόπον τῆς διακονίας ταύτης",
+    "en": "to take the place of this service",
+    "plain": "to fill this place of service"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "λαβεῖν τὸν κλῆρον τῆς διακονίας ταύτης",
+    "en": "to take the share of this service",
+    "plain": "to take the share of this service"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Place\" has the best support and sets up the wordplay with Judas going to \"his own place.\" \"Share\" came in from 1:17.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "they were all gathered together",
+  "t": "\"Together\" or \"with one accord\"",
+  "p": "The Byzantine text and the KJV read \"with one accord\" (homothymadon); the older text has \"together\" (homou).",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἦσαν πάντες ὁμοῦ ἐπὶ τὸ αὐτό",
+    "en": "they were all together in the same place",
+    "plain": "they were all gathered together"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "ἦσαν ἅπαντες ὁμοθυμαδὸν ἐπὶ τὸ αὐτό",
+    "en": "they were all with one accord in the same place",
+    "plain": "they were all gathered with one mind"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Homou</i> is rare in Luke's writing, while <i>homothymadon</i> is one of his favorite words (1:14; 2:46; 4:24). A copyist was far more likely to replace the rare word with the familiar one than the reverse. The KJV's \"with one accord\" comes from the later reading."
+ },
+ {
+  "v": "2:5",
+  "a": "Reverent Jews",
+  "t": "Were they all Jews?",
+  "p": "Codex Sinaiticus leaves out \"Jews\": \"devout men from every nation.\"",
+  "readings": [
+   {
+    "w": "Vaticanus, Alexandrinus and most witnesses; NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "Ἰουδαῖοι, ἄνδρες εὐλαβεῖς",
+    "en": "Jews, devout men",
+    "plain": "Reverent Jews"
+   },
+   {
+    "w": "Codex Sinaiticus (01)",
+    "orig": "ἄνδρες εὐλαβεῖς",
+    "en": "devout men",
+    "plain": "Reverent men"
+   }
+  ],
+  "follow": 0,
+  "why": "Almost all witnesses include \"Jews.\" Some scholars favor Sinaiticus, because \"Jews ... from every nation\" seemed odd and \"Jews\" sits in different places in some manuscripts; but the editors keep it, since the crowd is addressed as Jews in 2:14 and 2:22.",
+  "b": "If \"Jews\" were left out, the crowd could be read as a mixed crowd of Gentiles and Jews, so that Pentecost would already reach the nations. Luke's story, though, keeps the Gentile mission for Acts 10.",
+  "s": [
+   "metzger",
+   "barrett-acts"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "in the last days",
+  "t": "\"In the last days\" or \"after these things\"",
+  "p": "Codex Vaticanus reads \"after these things,\" the wording of Joel in the Greek Old Testament.",
+  "readings": [
+   {
+    "w": "Sinaiticus, Alexandrinus, Bezae, Byzantine and most witnesses; NA28, SBLGNT",
+    "orig": "ἐν ταῖς ἐσχάταις ἡμέραις",
+    "en": "in the last days",
+    "plain": "in the last days"
+   },
+   {
+    "w": "Codex Vaticanus (03) and a few others",
+    "orig": "μετὰ ταῦτα",
+    "en": "after these things",
+    "plain": "after these things"
+   }
+  ],
+  "follow": 0,
+  "why": "Most editors follow the majority: Luke changed Joel's wording on purpose to say the end-time age had begun, and Vaticanus' reading is best explained as a copyist matching the text to the Septuagint. A few scholars prefer Vaticanus, arguing that Luke quoted the Septuagint exactly.",
+  "s": [
+   "metzger",
+   "fitzmyer-acts"
+  ]
+ },
+ {
+  "v": "2:30",
+  "a": "that one from the fruit of his body would sit on his throne",
+  "t": "\"He would raise up the Christ\"",
+  "p": "The Byzantine text adds \"according to the flesh he would raise up the Christ,\" as in the KJV.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐκ καρποῦ τῆς ὀσφύος αὐτοῦ καθίσαι ἐπὶ τὸν θρόνον αὐτοῦ",
+    "en": "from the fruit of his loins to seat one on his throne",
+    "plain": "that one from the fruit of his body would sit on his throne"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "ἐκ καρποῦ τῆς ὀσφύος αὐτοῦ τὸ κατὰ σάρκα ἀναστήσειν τὸν χριστὸν καθίσαι ἐπὶ τοῦ θρόνου αὐτοῦ",
+    "en": "from the fruit of his loins according to the flesh he would raise up the Christ to sit on his throne",
+    "plain": "that from the fruit of his body, as to the flesh, he would raise up the Messiah to sit on his throne"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are missing from the oldest manuscripts and look like an explanation that makes the prophecy's subject explicit, using language like Romans 1:3.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:31",
+  "a": "The Messiah was not left behind in Hades",
+  "t": "\"His soul\" in Hades",
+  "p": "The Byzantine text says \"his soul was not left in Hades,\" as in the KJV (\"his soul was not left in hell\").",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "οὔτε ἐγκατελείφθη εἰς ᾅδην",
+    "en": "he was neither abandoned to Hades",
+    "plain": "The Messiah was not left behind in Hades"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "οὐ κατελείφθη ἡ ψυχὴ αὐτοῦ εἰς ᾅδου",
+    "en": "his soul was not left in Hades",
+    "plain": "The Messiah's soul was not left behind in Hades"
+   }
+  ],
+  "follow": 0,
+  "why": "\"His soul\" has later support and was brought in from the quotation in 2:27. The KJV's \"hell\" translates Hades, the place of the dead.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:41",
+  "a": "who welcomed his word",
+  "t": "\"Gladly\"",
+  "p": "The Byzantine text and the KJV add \"gladly\": \"they that gladly received his word.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἀποδεξάμενοι τὸν λόγον αὐτοῦ",
+    "en": "having welcomed his word",
+    "plain": "who welcomed his word"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "ἀσμένως ἀποδεξάμενοι τὸν λόγον αὐτοῦ",
+    "en": "having gladly welcomed his word",
+    "plain": "who gladly welcomed his word"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Gladly\" is absent from the oldest manuscripts; the verb already means a willing welcome, and a later copyist made it explicit.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:43",
+  "a": "many wonders and signs kept happening through the apostles",
+  "t": "\"In Jerusalem, and great fear was on all\"",
+  "p": "Several early manuscripts add \"in Jerusalem, and great fear was on everyone.\" Some English Bibles give it in a footnote.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (03, 300s), Bezae (05); the Byzantine text and Textus Receptus (KJV); SBLGNT, NA28, Tyndale House GNT, as reported by Metzger",
+    "orig": "πολλά τε τέρατα καὶ σημεῖα διὰ τῶν ἀποστόλων ἐγίνετο",
+    "en": "and many wonders and signs were done through the apostles",
+    "plain": "many wonders and signs kept happening through the apostles"
+   },
+   {
+    "w": "Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s), Ephraemi (04, 400s), the Latin Vulgate and others, as reported by Metzger",
+    "orig": "πολλά τε τέρατα καὶ σημεῖα διὰ τῶν ἀποστόλων ἐγίνετο ἐν Ἰερουσαλήμ, φόβος τε ἦν μέγας ἐπὶ πάντας",
+    "en": "and many wonders and signs were done through the apostles in Jerusalem, and great fear was on all",
+    "plain": "many wonders and signs kept happening through the apostles in Jerusalem, and great fear was on everyone"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading has strong early witnesses, but the words repeat the first half of the verse (\"awe\" or \"fear,\" the same Greek word) and may come from 5:5 and 5:11. Most editors judge the shorter text, found in Vaticanus and Bezae, more likely original. The KJV also has the shorter text here.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:47",
+  "a": "to the gathering",
+  "t": "\"Together\" or \"to the church\"",
+  "p": "The Byzantine text reads \"added to the church,\" as in the KJV. The older text has a phrase meaning \"together.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐπὶ τὸ αὐτό",
+    "en": "together, to the same place",
+    "plain": "to the gathering"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "τῇ ἐκκλησίᾳ",
+    "en": "to the church",
+    "plain": "to the church"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts read <i>epi to auto</i>, \"together,\" a phrase Luke uses for the community gathered in one place (1:15; 2:1, 44). Because the phrase is unusual at the end of a sentence, later copyists replaced it with \"to the church\" and moved <i>epi to auto</i> to the start of 3:1.",
+  "b": "Some scholars think <i>epi to auto</i> had become almost a name for the assembled church, like the Hebrew <i>yachad</i>, \"the community,\" in the Dead Sea Scrolls. This translation says \"the gathering\" to keep that sense.",
+  "s": [
+   "metzger",
+   "bruce-acts-greek"
+  ]
+ },
+ {
+  "v": "3:6",
+  "a": "walk!",
+  "t": "\"Walk\" or \"get up and walk\"",
+  "p": "Many witnesses, the KJV and NA28 (in brackets) read \"get up and walk.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Bezae and the Sahidic Coptic; SBLGNT",
+    "orig": "περιπάτει",
+    "en": "walk",
+    "plain": "walk!"
+   },
+   {
+    "w": "Alexandrinus, Ephraemi, Byzantine majority, Textus Receptus (KJV \"rise up and walk\"); NA28 in brackets",
+    "orig": "ἔγειρε καὶ περιπάτει",
+    "en": "get up and walk",
+    "plain": "get up and walk!"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has strong early support, and \"get up and\" is the familiar phrase from Jesus' healings (Luke 5:23), which copyists may have added. Others think it dropped out by accident, so NA28 keeps it in brackets. The meaning is the same.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "3:11",
+  "a": "He would not let go of Peter and John",
+  "t": "The healed man holds on",
+  "p": "The Byzantine text names him, \"the lame man who was healed\"; Codex Bezae rewrites the whole verse.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Κρατοῦντος δὲ αὐτοῦ τὸν Πέτρον καὶ τὸν Ἰωάννην",
+    "en": "as he held on to Peter and John",
+    "plain": "He would not let go of Peter and John"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "Κρατοῦντος δὲ τοῦ ἰαθέντος χωλοῦ τὸν Πέτρον καὶ Ἰωάννην",
+    "en": "as the lame man who was healed held on to Peter and John",
+    "plain": "The lame man who had been healed would not let go of Peter and John"
+   },
+   {
+    "w": "Codex Bezae (05), as reported by Metzger",
+    "orig": "ἐκπορευομένου δὲ τοῦ Πέτρου καὶ Ἰωάννου συνεξεπορεύετο κρατῶν αὐτούς",
+    "en": "as Peter and John went out, he went out with them, holding on to them",
+    "plain": "As Peter and John went out, he went out with them, holding on to them"
+   }
+  ],
+  "follow": 0,
+  "why": "The short form has the oldest witnesses. The Byzantine text names the subject, a common clarification at the start of a church reading.",
+  "b": "Bezae's form has the men leave the inner courts and come out to Solomon's Porch. It may reflect a reader's knowledge that the Porch stood in the outer court, outside the gate where the man had been healed.",
+  "s": [
+   "metzger",
+   "strange-text-acts"
+  ]
+ },
+ {
+  "v": "3:20",
+  "a": "the Messiah he chose ahead of time for you",
+  "t": "\"Appointed\" or \"preached\"",
+  "p": "The Textus Receptus and the KJV read \"Jesus Christ, which before was preached unto you.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine majority",
+    "orig": "τὸν προκεχειρισμένον ὑμῖν χριστὸν Ἰησοῦν",
+    "en": "the Christ appointed beforehand for you, Jesus",
+    "plain": "the Messiah he chose ahead of time for you"
+   },
+   {
+    "w": "A few late manuscripts; Textus Receptus (KJV)",
+    "orig": "τὸν προκεκηρυγμένον ὑμῖν Ἰησοῦν Χριστόν",
+    "en": "Jesus Christ, who was proclaimed to you before",
+    "plain": "the Messiah who was proclaimed to you before"
+   }
+  ],
+  "follow": 0,
+  "why": "Almost every manuscript, including the Byzantine majority, reads \"appointed beforehand\" (<i>prokecheirismenon</i>). The Textus Receptus followed a few late manuscripts with a similar-looking word, \"proclaimed beforehand\" (<i>prokekērygmenon</i>).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:21",
+  "a": "his holy prophets",
+  "t": "\"All\" his holy prophets",
+  "p": "The Byzantine text and the KJV say \"all his holy prophets since the world began.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τῶν ἁγίων ἀπ᾽ αἰῶνος αὐτοῦ προφητῶν",
+    "en": "his holy prophets from of old",
+    "plain": "his holy prophets"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "πάντων τῶν ἁγίων αὐτοῦ προφητῶν ἀπ᾽ αἰῶνος",
+    "en": "all his holy prophets from of old",
+    "plain": "all his holy prophets"
+   }
+  ],
+  "follow": 0,
+  "why": "\"All\" is missing from the oldest manuscripts and was probably borrowed from 3:18 and 3:24, where Peter does say \"all the prophets.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "Moses said",
+  "t": "\"Moses said to the fathers\"",
+  "p": "The Byzantine text and the KJV add \"to the fathers\": \"For Moses truly said unto the fathers.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Μωϋσῆς μὲν εἶπεν",
+    "en": "Moses said",
+    "plain": "Moses said"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "Μωσῆς μὲν γὰρ πρὸς τοὺς πατέρας εἶπεν",
+    "en": "For Moses said to the fathers",
+    "plain": "For Moses said to the fathers"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is older; \"to the fathers\" is an explanatory addition, perhaps from 3:25.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:26",
+  "a": "raised up his servant",
+  "t": "\"His servant\" or \"his servant Jesus\"",
+  "p": "The Byzantine text and the KJV add the name: \"having raised up his Son Jesus.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἀναστήσας ὁ θεὸς τὸν παῖδα αὐτοῦ",
+    "en": "God, having raised up his servant",
+    "plain": "raised up his servant"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "ὁ θεὸς ἀναστήσας τὸν παῖδα αὐτοῦ Ἰησοῦν",
+    "en": "God, having raised up his servant Jesus",
+    "plain": "raised up his servant Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The name is missing from the oldest manuscripts and was added from 3:13. On \"servant\" or \"Son,\" see the note at 3:13.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "John",
+  "t": "John or Jonathan?",
+  "p": "Codex Bezae reads \"Jonathan,\" the name of a son of Annas who was high priest in AD 36–37.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "Ἰωάννης",
+    "en": "John",
+    "plain": "John"
+   },
+   {
+    "w": "Codex Bezae (05) and some Old Latin manuscripts",
+    "orig": "Ἰωνάθας",
+    "en": "Jonathan",
+    "plain": "Jonathan"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly all manuscripts read \"John.\" Some historians think Bezae preserves the right name, since Josephus names Jonathan son of Annas as high priest after Caiaphas, and \"John\" could be a copyist's slip for a less familiar name; but the reading may equally be a learned correction.",
+  "s": [
+   "metzger",
+   "josephus-ant",
+   "vanderkam-high-priests"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "and elders",
+  "t": "\"Elders of Israel\"",
+  "p": "The Byzantine text and the KJV say \"Ye rulers of the people, and elders of Israel.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "πρεσβύτεροι",
+    "en": "elders",
+    "plain": "and elders"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "πρεσβύτεροι τοῦ Ἰσραήλ",
+    "en": "elders of Israel",
+    "plain": "and elders of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Of Israel\" is missing from the oldest witnesses and may have been added to balance \"rulers of the people.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "you are the one who made",
+  "t": "\"You are God\"",
+  "p": "The Byzantine text and the KJV say \"thou art God, which hast made heaven, and earth.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "σὺ ὁ ποιήσας",
+    "en": "you who made",
+    "plain": "you are the one who made"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "σὺ ὁ θεὸς ὁ ποιήσας",
+    "en": "you are God who made",
+    "plain": "you are God, the one who made"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter form has the older support; \"God\" was added to make the address complete.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:25",
+  "a": "Through the Holy Spirit, by the mouth of your servant David, our father, you said",
+  "t": "A tangled sentence",
+  "p": "The oldest text is grammatically very hard. The Byzantine text and the KJV read simply \"who by the mouth of thy servant David hast said.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus, Vaticanus, Alexandrinus, Bezae (with variations); NA28, SBLGNT",
+    "orig": "ὁ τοῦ πατρὸς ἡμῶν διὰ πνεύματος ἁγίου στόματος Δαυὶδ παιδός σου εἰπών",
+    "en": "who of our father through the Holy Spirit by the mouth of David your servant said",
+    "plain": "Through the Holy Spirit, by the mouth of your servant David, our father, you said"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "ὁ διὰ στόματος Δαυὶδ τοῦ παιδός σου εἰπών",
+    "en": "who by the mouth of David your servant said",
+    "plain": "By the mouth of your servant David you said"
+   }
+  ],
+  "follow": 0,
+  "why": "The harder reading is older and better supported; the Byzantine text looks like a repair. This translation untangles the older text in the way most scholars do.",
+  "s": [
+   "metzger",
+   "barrett-acts"
+  ]
+ },
+ {
+  "v": "4:27",
+  "a": "Here in this city they",
+  "t": "\"In this city\"",
+  "p": "The Byzantine text and the KJV lack \"in this city.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "συνήχθησαν γὰρ ἐπ᾽ ἀληθείας ἐν τῇ πόλει ταύτῃ",
+    "en": "for truly in this city they were gathered",
+    "plain": "Here in this city they"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "συνήχθησαν γὰρ ἐπ᾽ ἀληθείας",
+    "en": "for truly they were gathered",
+    "plain": "They"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In this city\" has the oldest support. It is easy to see why it might drop out, since it is not needed; it ties the prophecy to Jerusalem, where the passion happened.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:31",
+  "a": "they went on speaking God's word freely and fearlessly",
+  "t": "\"To everyone who wished to believe\"",
+  "p": "The Western text adds that they spoke the word \"to everyone who wished to believe.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "ἐλάλουν τὸν λόγον τοῦ θεοῦ μετὰ παρρησίας",
+    "en": "they spoke the word of God with boldness",
+    "plain": "they went on speaking God's word freely and fearlessly"
+   },
+   {
+    "w": "Codex Bezae (05), Codex Laudianus (08, 500s), some Old Latin manuscripts, Irenaeus and Augustine, as reported by Metzger",
+    "orig": "ἐλάλουν τὸν λόγον τοῦ θεοῦ μετὰ παρρησίας παντὶ τῷ θέλοντι πιστεύειν",
+    "en": "they spoke the word of God with boldness to everyone who wished to believe",
+    "plain": "they went on speaking God's word freely and fearlessly to everyone who wished to believe"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is found only in Western witnesses, though Irenaeus shows it is old (late 100s). It fills out the scene, as the Western text often does.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:32",
+  "a": "had one heart and one soul",
+  "t": "\"No division among them\"",
+  "p": "Codex Bezae adds \"and there was no division among them at all.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s); NA28, SBLGNT, Tyndale House GNT; Byzantine",
+    "orig": "ἦν καρδία καὶ ψυχὴ μία",
+    "en": "there was one heart and soul",
+    "plain": "had one heart and one soul"
+   },
+   {
+    "w": "Codex Bezae (05) and some early Latin writers, as reported by Metzger",
+    "orig": "ἦν καρδία καὶ ψυχὴ μία, καὶ οὐκ ἦν διάκρισις ἐν αὐτοῖς οὐδεμία",
+    "en": "there was one heart and soul, and there was no division among them at all",
+    "plain": "had one heart and one soul, and there was no division among them at all"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is typical of the Western text, which likes to fill out a scene; it has no support in the oldest Greek manuscripts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:36",
+  "a": "Joseph",
+  "t": "\"Joseph\" or \"Joses\"",
+  "p": "The Byzantine text and the KJV call him \"Joses.\" The older text has \"Joseph.\" Both are forms of the same name.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s) and most early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Ἰωσήφ",
+    "en": "Joseph",
+    "plain": "Joseph"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "Ἰωσῆς",
+    "en": "Joses",
+    "plain": "Joses"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts, from every early text type, read \"Joseph.\" \"Joses\" is a shortened Greek form of the same Hebrew name (as in Mark 6:3), and later copyists may have brought it in from the Joses of the Gospels. The person is the same either way.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

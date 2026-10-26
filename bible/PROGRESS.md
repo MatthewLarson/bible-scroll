@@ -29,7 +29,10 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Isa | writing | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
 | Jer | writing | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
+| Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
+| Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Jhn | reviewed, published | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
+| Act | reviewed, published | nt lane, run by the lead session. 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-14, 15-17, 18-20, 21-23, 24-28. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
 | Rev | published | From revelation/v2 version 9 (re-imported 2026-10-22 22:40 UTC; re-run tools/import-rev.js after any later Revelation edit). Needs variants.json (only word note |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |

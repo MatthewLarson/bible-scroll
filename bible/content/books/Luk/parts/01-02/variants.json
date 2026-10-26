@@ -1,0 +1,461 @@
+[
+ {
+  "v": "1:28",
+  "a": "The Lord is with you.",
+  "t": "\"Blessed are you among women\" at 1:28?",
+  "p": "The Byzantine text and the KJV add Elizabeth's words of 1:42 to the angel's greeting.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (B, 300s), L, W (400s), Ψ, family 1, 565, 700, the Coptic versions (as reported by Metzger and the NA28 apparatus); SBLGNT, NA28, THGNT",
+    "orig": "ὁ κύριος μετὰ σοῦ.",
+    "en": "the Lord is with you.",
+    "plain": "The Lord is with you."
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s), Ephraemi (C), Bezae (D, 400s), Θ, most later manuscripts, the Latin and Syriac versions; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ὁ κύριος μετὰ σοῦ, εὐλογημένη σὺ ἐν γυναιξίν.",
+    "en": "the Lord is with you; blessed are you among women.",
+    "plain": "The Lord is with you. Blessed are you among women."
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest and most varied witnesses lack the words, and it is easy to see why scribes would add them: they repeat Elizabeth's greeting from 1:42, and the two greetings were already joined in Christian prayer. No one would have dropped them on purpose.",
+  "b": "The longer form is the text behind the opening of the Hail Mary in the Latin tradition and of the Orthodox \"Rejoice, Theotokos and Virgin.\" The words themselves are certainly Luke's; the question is only whether he put them here as well as in 1:42.",
+  "s": [
+   "metzger",
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:29",
+  "a": "His words shook her deeply",
+  "t": "\"When she saw him\"",
+  "p": "The Byzantine text says Mary was troubled when she saw the angel; the oldest manuscripts, at his words.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "ἡ δὲ ἐπὶ τῷ λόγῳ διεταράχθη",
+    "en": "but she was greatly troubled at the word",
+    "plain": "His words shook her deeply"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἡ δὲ ἰδοῦσα διεταράχθη ἐπὶ τῷ λόγῳ αὐτοῦ",
+    "en": "and when she saw him, she was troubled at his saying",
+    "plain": "When she saw him, his words shook her deeply"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the older and wider support. \"When she saw him\" looks like an addition modeled on Zechariah, who \"saw him\" and was shaken (1:12). Without it, Luke makes a point: Mary is troubled not by the sight of an angel but by what he said.",
+  "s": [
+   "metzger",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "1:35",
+  "a": "the one being born",
+  "t": "\"Born of you\"",
+  "p": "The KJV's \"born of thee\" follows a reading found in the Latin Vulgate and a few Greek manuscripts, printed in Beza's edition of the Greek.",
+  "readings": [
+   {
+    "w": "Most Greek manuscripts, including Sinaiticus (01), Vaticanus (B), Alexandrinus (A); Byzantine text; SBLGNT, NA28, THGNT",
+    "orig": "τὸ γεννώμενον",
+    "en": "the one being born",
+    "plain": "the one being born"
+   },
+   {
+    "w": "A few Greek manuscripts (as reported in the NA28 apparatus; not individually checked here), Old Latin witnesses and the Latin Vulgate (quod nascetur ex te), and early Latin writers; the Textus Receptus in Beza's 1598 edition and Scrivener's (KJV \"born of thee\"); Stephanus' 1550 edition lacks it",
+    "orig": "τὸ γεννώμενον ἐκ σοῦ",
+    "en": "the one born of you",
+    "plain": "the one being born of you"
+   }
+  ],
+  "follow": 0,
+  "why": "The words \"of you\" are missing from nearly all Greek manuscripts, including the Byzantine majority. They look like a natural clarification, perhaps influenced by Matthew 1:16, 20 (\"born of her,\" \"conceived in her\"), and passed into the Latin Vulgate and from there into Beza's printed Greek text, which the KJV translators followed here (Stephanus' 1550 edition lacks the words).",
+  "s": [
+   "na28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:37",
+  "a": "no word that comes from God will be powerless",
+  "t": "\"From God\" or \"with God\"?",
+  "p": "The oldest manuscripts say no word \"from God\" will fail; the Byzantine text, nothing is impossible \"with God.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "παρὰ τοῦ θεοῦ",
+    "en": "from God",
+    "plain": "no word that comes from God will be powerless"
+   },
+   {
+    "w": "Codex Alexandrinus (A), C, Θ and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "παρὰ τῷ θεῷ",
+    "en": "with God",
+    "plain": "with God no word will be powerless"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is one letter-ending (genitive or dative). The dative \"with God\" matches the Greek of Genesis 18:14 and the familiar saying (Mark 10:27), so scribes were likely to change toward it; the genitive is the harder and older reading. The meaning hardly changes: the KJV's \"For with God nothing shall be impossible\" says the same thing in a familiar form.",
+  "s": [
+   "metzger",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "1:46",
+  "a": "Mary",
+  "t": "Did Mary or Elizabeth sing the Magnificat?",
+  "p": "Every Greek manuscript says Mary. A few Latin witnesses say Elizabeth, and some scholars have argued for it.",
+  "readings": [
+   {
+    "w": "All Greek manuscripts; nearly all versions and fathers; SBLGNT, NA28, THGNT, Textus Receptus",
+    "orig": "Μαριάμ",
+    "en": "Mary",
+    "plain": "Mary"
+   },
+   {
+    "w": "Three Old Latin manuscripts (a, b, l*), some manuscripts of Irenaeus in Latin, Nicetas of Remesiana, and some manuscripts of Jerome's Latin translation of Origen's Homilies on Luke (as reported by Metzger)",
+    "orig": "Elisabeth (Latin)",
+    "en": "Elizabeth",
+    "plain": "Elizabeth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek tradition is unanimous, and the Latin evidence is small. The song fits Mary in its key line, \"the lowliness of his slave\" (1:48, compare 1:38).",
+  "b": "In 1900 Adolf von Harnack and some others argued that Luke wrote only \"And she said,\" and that scribes filled in a name, some choosing Elizabeth. The song's closeness to Hannah, a barren woman made fruitful, and the fact that 1:56 says Mary stayed \"with her\" (a phrase that would be smoother if Elizabeth had just spoken) were their arguments. Most scholars answer that the Hannah echoes fit Mary's \"lowliness\" just as well and that the textual evidence is too weak. The site follows the Greek manuscripts.",
+  "s": [
+   "metzger",
+   "brown-birth-messiah",
+   "origen-hom-luke"
+  ]
+ },
+ {
+  "v": "1:66",
+  "a": "And indeed",
+  "t": "\"And indeed\" or \"And\"?",
+  "p": "Without \"for,\" as in the Byzantine text and the KJV, the last line can be read as part of what the people said.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles (the manuscripts behind each reading are not checked here)",
+    "orig": "καὶ γὰρ χεὶρ κυρίου ἦν μετ’ αὐτοῦ.",
+    "en": "for indeed the hand of the Lord was with him.",
+    "plain": "And indeed"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"And the hand of the Lord was with him\")",
+    "orig": "καὶ χεὶρ κυρίου ἦν μετ’ αὐτοῦ.",
+    "en": "and the hand of the Lord was with him.",
+    "plain": "And"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions print the small word \"for\" (<i>gar</i>), which makes the line Luke's own comment on the child. Without it the sentence runs on from the neighbors' question. The meaning of the line is the same; only who says it changes (see the note).",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "1:75",
+  "a": "all the days we have",
+  "t": "\"All the days of our life\"",
+  "p": "The Byzantine text and the KJV read \"all the days of our life.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "πάσαις ταῖς ἡμέραις ἡμῶν",
+    "en": "all our days",
+    "plain": "all the days we have"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "πάσας τὰς ἡμέρας τῆς ζωῆς ἡμῶν",
+    "en": "all the days of our life",
+    "plain": "all the days of our life"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer phrase is a common biblical expression (Psalm 23:6) that scribes could easily slip in; the shorter text has the earlier witnesses. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "1:78",
+  "a": "will visit us",
+  "t": "\"Will visit\" or \"has visited\"?",
+  "p": "The future tense in the oldest manuscripts looks ahead; the past tense in the Byzantine text and KJV matches 1:68.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus as first written (01*), Vaticanus (B), W, Θ, the Old Syriac and Coptic versions (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "ἐπισκέψεται",
+    "en": "will visit",
+    "plain": "will visit us"
+   },
+   {
+    "w": "Sinaiticus as corrected, Alexandrinus (A), C, D, most later manuscripts; Byzantine text, Textus Receptus (KJV \"hath visited\")",
+    "orig": "ἐπεσκέψατο",
+    "en": "has visited",
+    "plain": "has visited us"
+   }
+  ],
+  "follow": 0,
+  "why": "Scribes would tend to change the future into the past to match the opening of the song (\"he has visited his people,\" 1:68), not the other way round. The future also fits the setting: Zechariah speaks to the newborn John about what is still to come.",
+  "b": "The editors of NA28 and SBLGNT both print the future; some older editions and translations preferred the past. The difference reflects the song's double time: God's visit has begun (1:68), and its full dawn is still ahead (1:78).",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "the woman promised to him in marriage",
+  "t": "\"His promised wife\"",
+  "p": "The Byzantine text adds \"wife\": \"Mary his espoused wife\" (KJV).",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), C*, D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "τῇ ἐμνηστευμένῃ αὐτῷ",
+    "en": "the one betrothed to him",
+    "plain": "the woman promised to him in marriage"
+   },
+   {
+    "w": "Codex Alexandrinus (A), C (corrected), most later manuscripts; Byzantine text, Textus Receptus (KJV \"his espoused wife\")",
+    "orig": "τῇ μεμνηστευμένῃ αὐτῷ γυναικί",
+    "en": "his betrothed wife",
+    "plain": "his promised wife"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the stronger and older support. Some Old Latin and Syriac witnesses have \"his wife\" without \"betrothed,\" which may explain the conflation in the Byzantine reading. Scribes may have wished to make clear that Joseph and Mary traveled together as a married couple.",
+  "s": [
+   "metzger",
+   "na28"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "peace among people he delights in",
+  "t": "\"Good will toward men\" or \"among people he delights in\"?",
+  "p": "One Greek letter makes the difference. The KJV's \"good will toward men\" follows the later reading.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus as first written (01*), Alexandrinus (A), Vaticanus as first written (B*), Bezae (D), W, the Latin versions (bonae voluntatis), the Gothic (as reported by Metzger); SBLGNT, NA28, THGNT",
+    "orig": "εἰρήνη ἐν ἀνθρώποις εὐδοκίας",
+    "en": "peace among people of [his] good pleasure",
+    "plain": "peace among people he delights in"
+   },
+   {
+    "w": "Sinaiticus and Vaticanus as corrected, L, Θ, most later manuscripts, the Syriac versions (the Coptic versions are reported as divided between the two readings); Byzantine text, Textus Receptus (KJV)",
+    "orig": "εἰρήνη, ἐν ἀνθρώποις εὐδοκία",
+    "en": "peace, good will among people",
+    "plain": "peace, good will among people"
+   }
+  ],
+  "follow": 0,
+  "why": "The genitive <i>eudokias</i> is the older reading and the harder one: the nominative <i>eudokia</i> makes a neat three-part hymn (glory, peace, good will) and could arise by dropping one small letter: a single final sigma is easily dropped or added. The phrase \"people of [his] good pleasure\" is now known from the Dead Sea Scrolls as a Jewish expression for those God has chosen to favor, which supports it.",
+  "b": "The difference matters: the KJV reads as if peace and good will are offered to everyone; the older text speaks of peace for those on whom God's favor rests, which is not a limit on God's grace but a statement that peace is his gift. The Latin <i>hominibus bonae voluntatis</i> (\"to people of good will\") kept the genitive but was often taken to mean people who have good will.",
+  "s": [
+   "metzger",
+   "fitzmyer-luke1",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "their purifying",
+  "t": "Whose purification?",
+  "p": "The law speaks only of the mother's purification. Most manuscripts say \"their\"; the KJV says \"her.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (A), Vaticanus (B), L, W, Θ and most manuscripts; Byzantine text; SBLGNT, NA28, THGNT",
+    "orig": "τοῦ καθαρισμοῦ αὐτῶν",
+    "en": "of their purification",
+    "plain": "their purifying"
+   },
+   {
+    "w": "Codex Bezae (D) and a few others (as reported by Metzger)",
+    "orig": "τοῦ καθαρισμοῦ αὐτοῦ",
+    "en": "of his purification",
+    "plain": "his purifying"
+   },
+   {
+    "w": "Printed editions from the Complutensian Polyglot (1514) on, then Stephanus, Beza and the Elzevirs; the Textus Receptus (KJV \"her purification\"). Greek manuscript support for it is doubtful or absent: W. H. P. Hatch (1921) traced how editors from the Complutensian and Erasmus on handled the reading, and the manuscript once cited for it has been questioned",
+    "orig": "τοῦ καθαρισμοῦ αὐτῆς",
+    "en": "of her purification",
+    "plain": "her purifying"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Their\" is overwhelmingly attested and is the harder reading, since Leviticus 12 requires only the mother's purification. \"His\" is a correction found in a few manuscripts; \"her\" entered the printed Greek text, apparently from the Latin tradition, rather than from Greek copies. Luke may mean Mary and Joseph together (Joseph brought the offering), Mary and the child, or the family's whole round of observances; or he simply summarized loosely.",
+  "s": [
+   "metzger",
+   "brown-birth-messiah",
+   "fitzmyer-luke1",
+   "hatch-luke-2-22"
+  ]
+ },
+ {
+  "v": "2:33",
+  "a": "The boy's father",
+  "t": "\"His father\" or \"Joseph\"?",
+  "p": "The oldest manuscripts call Joseph Jesus' father here. The Byzantine text and the KJV say \"Joseph.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W, family 1, 700 and others; SBLGNT, NA28, THGNT",
+    "orig": "ὁ πατὴρ αὐτοῦ καὶ ἡ μήτηρ",
+    "en": "his father and the mother",
+    "plain": "The boy's father"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Θ, most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ",
+    "en": "Joseph and his mother",
+    "plain": "Joseph"
+   }
+  ],
+  "follow": 0,
+  "why": "The change to \"Joseph\" is easy to explain: scribes protected the virgin birth by avoiding the word \"father\" for Joseph. No scribe would change \"Joseph\" to \"his father.\" The same change was made at 2:43; at 2:48 Mary's \"your father\" could not be changed so easily and stands in all manuscripts.",
+  "b": "Bart Ehrman lists this among changes made for doctrinal reasons; scholars who disagree with his wider argument agree here. Luke himself sees no conflict: Joseph is Jesus' father in law and in the eyes of others (3:23; 4:22).",
+  "s": [
+   "metzger",
+   "ehrman-corruption"
+  ]
+ },
+ {
+  "v": "2:37",
+  "a": "until the age of eighty-four",
+  "t": "\"Until eighty-four\" or \"about eighty-four\"?",
+  "p": "The Byzantine text and the KJV have \"about\" (hōs) for \"until\" (heōs): \"a widow of about fourscore and four years.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles (the manuscripts behind each reading are not checked here)",
+    "orig": "χήρα ἕως ἐτῶν ὀγδοήκοντα τεσσάρων",
+    "en": "a widow until eighty-four years",
+    "plain": "until the age of eighty-four"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"a widow of about fourscore and four years\")",
+    "orig": "χήρα ὡς ἐτῶν ὀγδοήκοντα τεσσάρων",
+    "en": "a widow of about eighty-four years",
+    "plain": "of about eighty-four years"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter. \"About\" is the usual way to give an approximate age (compare 8:42, \"about twelve years\"), so a scribe could easily have written it for the less common \"until.\" All the critical editions print \"until.\" Neither reading settles whether eighty-four is Anna's age or the length of her widowhood (see the note).",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "2:38",
+  "a": "God",
+  "t": "\"God\" or \"the Lord\"?",
+  "p": "The oldest manuscripts say Anna thanked God; the Byzantine text, \"the Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "τῷ θεῷ",
+    "en": "God",
+    "plain": "God"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Θ, most later manuscripts; Byzantine text, Textus Receptus (KJV \"unto the Lord\")",
+    "orig": "τῷ κυρίῳ",
+    "en": "the Lord",
+    "plain": "the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "Both words are common, and scribes exchanged them often. The reading of the oldest witnesses is followed. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "2:38",
+  "a": "Jerusalem to be redeemed",
+  "t": "\"Redemption of Jerusalem\" or \"redemption in Jerusalem\"?",
+  "p": "The oldest manuscripts hope for Jerusalem's own redemption. The Byzantine text and the KJV read \"in Jerusalem.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), W and others; SBLGNT, NA28, THGNT",
+    "orig": "λύτρωσιν Ἰερουσαλήμ",
+    "en": "the redemption of Jerusalem",
+    "plain": "Jerusalem to be redeemed"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and most later manuscripts; Byzantine text, Textus Receptus (KJV \"redemption in Jerusalem\")",
+    "orig": "λύτρωσιν ἐν Ἱερουσαλήμ",
+    "en": "redemption in Jerusalem",
+    "plain": "redemption to come in Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase \"redemption of Jerusalem\" is unusual and echoes Isaiah 52:9, where the LORD \"has bought Jerusalem back.\" Adding \"in\" made the phrase smoother. The older reading makes Jerusalem itself the city that will be redeemed, which ties this verse to Jesus' later words over the city (19:41–44).",
+  "s": [
+   "metzger",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "2:40",
+  "a": "getting stronger",
+  "t": "\"Strong in spirit\"",
+  "p": "The Byzantine text adds \"in spirit,\" copied from the description of John in 1:80.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "ἐκραταιοῦτο",
+    "en": "became strong",
+    "plain": "getting stronger"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Θ, most later manuscripts; Byzantine text, Textus Receptus (KJV \"waxed strong in spirit\")",
+    "orig": "ἐκραταιοῦτο πνεύματι",
+    "en": "became strong in spirit",
+    "plain": "getting stronger in spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is a harmonization with 1:80, where John \"kept growing and getting stronger in spirit.\" Scribes tended to make parallel passages match; the oldest manuscripts lack the words.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:43",
+  "a": "his parents",
+  "t": "\"His parents\" or \"Joseph and his mother\"?",
+  "p": "As at 2:33, the Byzantine text avoids calling Joseph a parent.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Vaticanus (B), D, L, W and others; SBLGNT, NA28, THGNT",
+    "orig": "οἱ γονεῖς αὐτοῦ",
+    "en": "his parents",
+    "plain": "his parents"
+   },
+   {
+    "w": "Codex Alexandrinus (A), C, most later manuscripts; Byzantine text, Textus Receptus (KJV)",
+    "orig": "Ἰωσὴφ καὶ ἡ μήτηρ αὐτοῦ",
+    "en": "Joseph and his mother",
+    "plain": "Joseph and his mother"
+   }
+  ],
+  "follow": 0,
+  "why": "The same doctrinal correction as at 2:33: scribes replaced \"his parents\" with a phrase that did not make Joseph Jesus' parent. The oldest manuscripts keep Luke's natural way of speaking (compare 2:27, 41).",
+  "s": [
+   "metzger",
+   "ehrman-corruption"
+  ]
+ }
+]

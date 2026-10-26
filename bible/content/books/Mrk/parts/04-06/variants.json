@@ -1,0 +1,519 @@
+[
+ {
+  "v": "4:11",
+  "a": "You have been given",
+  "t": "\"Given to know\"?",
+  "p": "The KJV reads \"given to know the mystery,\" with words that Matthew and Luke have.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "Ὑμῖν τὸ μυστήριον δέδοται",
+    "en": "to you the mystery has been given",
+    "plain": "You have been given"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Ὑμῖν δέδοται γνῶναι τὸ μυστήριον",
+    "en": "to you it has been given to know the mystery",
+    "plain": "You have been given to know"
+   }
+  ],
+  "follow": 0,
+  "why": "\"To know\" matches the wording of Matthew 13:11 and Luke 8:10 and was most likely added from them. Mark's shorter wording says that the mystery itself is given, not only knowledge about it.",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "in case they turn back and are forgiven",
+  "t": "\"Their sins\"",
+  "p": "Later manuscripts and the KJV add \"their sins\": \"and their sins should be forgiven them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "μήποτε ἐπιστρέψωσιν καὶ ἀφεθῇ αὐτοῖς",
+    "en": "lest they turn and it be forgiven them",
+    "plain": "in case they turn back and are forgiven"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "μήποτε ἐπιστρέψωσιν καὶ ἀφεθῇ αὐτοῖς τὰ ἁμαρτήματα",
+    "en": "lest they turn and their sins be forgiven them",
+    "plain": "in case they turn back and their sins are forgiven them"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words supply the subject that the short Greek leaves unstated. Copyists often filled in such gaps; the meaning does not change.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "carries off the message sown in them",
+  "t": "\"In them\" or \"in their hearts\"",
+  "p": "The KJV says the word sown \"in their hearts,\" as in Matthew 13:19.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27, Westcott-Hort and Tregelles (εἰς αὐτούς); NA28 and THGNT with ἐν αὐτοῖς, same sense",
+    "orig": "τὸν λόγον τὸν ἐσπαρμένον εἰς αὐτούς",
+    "en": "the word sown into them",
+    "plain": "carries off the message sown in them"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "τὸν λόγον τὸν ἐσπαρμένον ἐν ταῖς καρδίαις αὐτῶν",
+    "en": "the word sown in their hearts",
+    "plain": "carries off the message sown in their hearts"
+   }
+  ],
+  "follow": 0,
+  "why": "\"In their hearts\" agrees with Matthew 13:19 and looks like an assimilation to it. The critical editions differ only in the preposition, which does not change the English.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "and you will be given more besides",
+  "t": "\"You who hear\"",
+  "p": "The KJV adds \"unto you that hear shall more be given.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "καὶ προστεθήσεται ὑμῖν",
+    "en": "and it will be added to you",
+    "plain": "and you will be given more besides"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "καὶ προστεθήσεται ὑμῖν τοῖς ἀκούουσιν",
+    "en": "and it will be added to you who hear",
+    "plain": "and you who hear will be given more besides"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words pick up \"what you are hearing\" from the start of the verse and look like a copyist's clarification. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "4:40",
+  "a": "Why are you timid? You still don't have faith?",
+  "t": "\"Still no faith\" or \"How is it that you have no faith?\"",
+  "p": "The KJV reads \"Why are ye so fearful? how is it that ye have no faith?\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus, Bezae, L, Δ, Θ and the earliest versions, as reported by Metzger",
+    "orig": "Τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;",
+    "en": "Why are you cowardly? Do you not yet have faith?",
+    "plain": "Why are you timid? You still don't have faith?"
+   },
+   {
+    "w": "Codex Alexandrinus, Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Τί δειλοί ἐστε οὕτως; πῶς οὐκ ἔχετε πίστιν;",
+    "en": "Why are you so cowardly? How is it you have no faith?",
+    "plain": "Why are you so timid? How is it that you have no faith?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Still not\" (<i>oupō</i>) is the harsher reading: it implies the disciples should have had faith by now, after all they had seen. The Byzantine \"How is it that you have no faith?\" smooths the rebuke into a question of surprise. Neither Matthew 8:26 nor Luke 8:25 has the Byzantine wording, so it is not borrowed from them; it reads as a scribe's softening. The oldest manuscripts support \"still not.\"",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "Gerasenes",
+  "t": "Gerasenes, Gadarenes or Gergesenes?",
+  "p": "Three names in the manuscripts, for three different places. Mark's oldest text most likely had \"Gerasenes.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, Bezae, the Latin versions and the Sahidic Coptic, as reported by Metzger; SBLGNT, NA28, THGNT",
+    "orig": "Γερασηνῶν",
+    "en": "of the Gerasenes",
+    "plain": "Gerasenes"
+   },
+   {
+    "w": "Codex Alexandrinus, C, family 13, the Byzantine majority and the Syriac Peshitta; Textus Receptus (KJV)",
+    "orig": "Γαδαρηνῶν",
+    "en": "of the Gadarenes",
+    "plain": "Gadarenes"
+   },
+   {
+    "w": "A corrector of Sinaiticus, L, Δ, Θ, family 1 and others; the reading Origen argued for",
+    "orig": "Γεργεσηνῶν",
+    "en": "of the Gergesenes",
+    "plain": "Gergesenes"
+   }
+  ],
+  "follow": 0,
+  "why": "Metzger and the editors judge that Mark (and Luke 8:26) wrote \"Gerasenes,\" the reading of the oldest witnesses of several kinds, and that Matthew 8:28 wrote \"Gadarenes.\" Scribes then tried to fix a geographical problem: Gerasa (modern Jerash) lies about 55 kilometers (35 miles) from the lake, too far for pigs to run into the sea. Gadara was about 10 kilometers (6 miles) away, and Origen preferred \"Gergesa,\" a place on the shore with a steep slope, which he knew from local tradition.",
+  "b": "<p>Mark may have used \"the land of the Gerasenes\" loosely for the territory of a large Decapolis city, or the name may have stood for a lakeside village whose name sounded similar. Since the 1970s, many have identified the site with Kursi on the eastern shore, where excavations by Vassilios Tzaferis uncovered a large Byzantine monastery and church near a steep hillside, built to mark the miracle. Matthew's own manuscripts also vary among the three names; see the variant at Matthew 8:28.</p>",
+  "s": [
+   "metzger",
+   "origen-john",
+   "tzaferis-kursi"
+  ]
+ },
+ {
+  "v": "5:13",
+  "a": "He let them.",
+  "t": "\"Forthwith Jesus gave them leave\"",
+  "p": "The KJV adds \"forthwith Jesus\": the Byzantine text supplies the name and \"at once.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "καὶ ἐπέτρεψεν αὐτοῖς",
+    "en": "and he allowed them",
+    "plain": "He let them."
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "καὶ ἐπέτρεψεν αὐτοῖς εὐθέως ὁ Ἰησοῦς",
+    "en": "and Jesus at once allowed them",
+    "plain": "At once Jesus let them."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words make clear who is acting and add Mark's favorite \"at once.\" They are typical of the Byzantine text's smoothing and are missing from the oldest manuscripts.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "5:36",
+  "a": "But Jesus paid no attention to what was said.",
+  "t": "\"Ignored\" or \"heard\"",
+  "p": "Later manuscripts changed the unusual \"paying no attention\" to the plain \"hearing at once\" (KJV).",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand), Vaticanus, L, W, Δ, as reported by Metzger; SBLGNT, NA28, THGNT",
+    "orig": "ὁ δὲ Ἰησοῦς παρακούσας τὸν λόγον λαλούμενον",
+    "en": "but Jesus, ignoring (or overhearing) the word being spoken",
+    "plain": "But Jesus paid no attention to what was said."
+   },
+   {
+    "w": "Codex Alexandrinus, C, Bezae, Θ and the Byzantine majority (several with εὐθέως); Textus Receptus (KJV)",
+    "orig": "ὁ δὲ Ἰησοῦς εὐθέως ἀκούσας τὸν λόγον λαλούμενον",
+    "en": "but Jesus, as soon as he heard the word being spoken",
+    "plain": "But Jesus heard at once what was said."
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Parakouō</i> is a rare word with a puzzling sense here, so scribes would replace it with the common <i>akouō</i>, \"hear\"; the reverse change is hard to explain. The harder reading is the more likely original.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "5:41",
+  "a": "Talitha koum",
+  "t": "Koum or koumi?",
+  "p": "Most later manuscripts and the KJV have \"koumi,\" the feminine form of the Aramaic command.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, C, L and others, as reported by Metzger; SBLGNT, NA28",
+    "orig": "Ταλιθα κουμ",
+    "en": "Talitha koum",
+    "plain": "Talitha koum"
+   },
+   {
+    "w": "Codex Alexandrinus, Θ, family 13, the Byzantine majority; Textus Receptus (KJV, \"cumi\")",
+    "orig": "Ταλιθα κουμι",
+    "en": "Talitha koumi",
+    "plain": "Talitha koumi"
+   }
+  ],
+  "follow": 0,
+  "why": "In Aramaic, <i>qumi</i> is the correct feminine form for speaking to a girl, while <i>qum</i> is masculine. In everyday Galilean speech the masculine form was apparently used for both, and the shorter form is the better-attested. Scribes who knew the grammar would correct <i>koum</i> to <i>koumi</i>, not the other way round. Codex Bezae and some Latin manuscripts have garbled forms.",
+  "s": [
+   "metzger",
+   "marcus-mark"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "Many of those listening were stunned.",
+  "t": "\"Many\" or \"most\"",
+  "p": "The SBL edition reads \"the many\" (most of them); NA28, the Tyndale House edition and the KJV read \"many.\"",
+  "readings": [
+   {
+    "w": "NA28, THGNT, Tregelles; the Byzantine majority; Textus Receptus (KJV, \"many hearing him\")",
+    "orig": "καὶ πολλοὶ ἀκούοντες ἐξεπλήσσοντο",
+    "en": "and many hearing were astonished",
+    "plain": "Many of those listening were stunned."
+   },
+   {
+    "w": "SBLGNT, Westcott-Hort; Codex Vaticanus and L, as reported in the NA28 apparatus",
+    "orig": "καὶ οἱ πολλοὶ ἀκούοντες ἐξεπλήσσοντο",
+    "en": "and the many (most) hearing were astonished",
+    "plain": "Most of those listening were stunned."
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by one Greek article. With it, the whole town but a few is astonished; without it, many are. NA28 and the Tyndale House edition leave the article out with most manuscripts, and the Plain follows them against the SBL; the sense of the scene is the same either way.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "This is the builder, isn't it, the son of Mary,",
+  "t": "\"The builder\" or \"the builder's son\"?",
+  "p": "Some manuscripts call Jesus \"the son of the builder,\" as Matthew 13:55 does.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Alexandrinus, Bezae and most manuscripts; SBLGNT, NA28, THGNT; Textus Receptus (KJV, \"the carpenter\")",
+    "orig": "οὐχ οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς τῆς Μαρίας",
+    "en": "isn't this the craftsman, the son of Mary",
+    "plain": "This is the builder, isn't it, the son of Mary,"
+   },
+   {
+    "w": "P45 (whose text here is damaged, so its reading is uncertain), family 13, 33, 565, 700 and several Old Latin manuscripts, as reported by Metzger and the NA28 apparatus",
+    "orig": "οὐχ οὗτός ἐστιν ὁ τοῦ τέκτονος υἱὸς καὶ τῆς Μαρίας",
+    "en": "isn't this the son of the craftsman and of Mary",
+    "plain": "This is the son of the builder and of Mary, isn't it,"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading \"the builder\" has the overwhelming support of the manuscripts. The other reading, \"the son of the builder and of Mary,\" matches Matthew 13:55 and may also have been preferred because it was thought unfitting to call Jesus himself a manual worker. It also removes Mark's bare \"the son of Mary,\" which names Jesus by his mother alone (see the note on that phrase). Origen, writing against the pagan critic Celsus, said that nowhere in the Gospels used in the churches is Jesus himself called a carpenter (Against Celsus 6.36), which suggests his copy of Mark read \"son of the carpenter,\" or that he overlooked this verse.",
+  "b": "<p><i>Tektōn</i> means a craftsman who builds, mostly in wood but also in stone; the traditional English is \"carpenter.\" This site uses \"builder\" here and in Matthew 13:55. Justin Martyr (Dialogue with Trypho 88) says Jesus made plows and yokes. Some scholars suggest that the large building works at Sepphoris, near Nazareth, could have employed village craftsmen like Joseph and Jesus; there is no evidence either way.</p>",
+  "s": [
+   "metzger",
+   "origen-celsus",
+   "meier-marginal-jew"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "as evidence to them.",
+  "t": "Sodom and Gomorrah in Mark?",
+  "p": "The KJV adds a sentence about Sodom and Gomorrah, taken from Matthew 10:15.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT; Codex Sinaiticus, Vaticanus and other early witnesses",
+    "orig": "εἰς μαρτύριον αὐτοῖς.",
+    "en": "for a testimony to them.",
+    "plain": "as evidence to them."
+   },
+   {
+    "w": "Codex Alexandrinus and most later manuscripts (Byzantine majority); Textus Receptus (KJV)",
+    "orig": "εἰς μαρτύριον αὐτοῖς. ἀμὴν λέγω ὑμῖν, ἀνεκτότερον ἔσται Σοδόμοις ἢ Γομόρροις ἐν ἡμέρᾳ κρίσεως ἢ τῇ πόλει ἐκείνῃ.",
+    "en": "for a testimony to them. Amen I say to you, it will be more bearable for Sodom or Gomorrah in the day of judgment than for that town.",
+    "plain": "as evidence to them. Amen, I tell you, on judgment day Sodom or Gomorrah will have an easier time than that town."
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence is almost word for word Matthew 10:15 and was copied into Mark from there; the oldest manuscripts do not have it. Its English here follows the wording of this site's Plain of Matthew 10:15 where the Greek is the same.",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "People were saying",
+  "t": "\"They were saying\" or \"He was saying\"",
+  "p": "Some manuscripts and the KJV make Herod himself the speaker: \"he said, That John the Baptist was risen.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, W and some Old Latin manuscripts (Bezae similarly), as reported by Metzger; SBLGNT, NA28",
+    "orig": "καὶ ἔλεγον",
+    "en": "and they were saying",
+    "plain": "People were saying"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, C, L, Θ, families 1 and 13, the Byzantine majority; THGNT; Textus Receptus (KJV)",
+    "orig": "καὶ ἔλεγεν",
+    "en": "and he was saying",
+    "plain": "He was saying"
+   }
+  ],
+  "follow": 0,
+  "why": "A real choice: \"he was saying\" has wider manuscript support, and the Tyndale House edition follows it. The NA28 and SBL editors follow \"they were saying\" because 6:15 goes on \"Others were saying,\" which makes most sense after a first group of people, and because Herod's own view comes in 6:16. Copyists could easily have changed the plural to the singular to make Herod the subject, as in Matthew 14:2.",
+  "s": [
+   "metzger",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:20",
+  "a": "Each time he heard John, Herod was left deeply confused",
+  "t": "\"Confused\" or \"did many things\"",
+  "p": "The KJV says Herod \"did many things\" after hearing John. The oldest manuscripts say he was \"greatly perplexed.\"",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, L and the Coptic versions, as reported by Metzger; SBLGNT, NA28, THGNT",
+    "orig": "ἀκούσας αὐτοῦ πολλὰ ἠπόρει",
+    "en": "having heard him, he was very perplexed",
+    "plain": "Each time he heard John, Herod was left deeply confused"
+   },
+   {
+    "w": "Codex Alexandrinus, C, Bezae, families 1 and 13, the Byzantine majority, the Latin and Syriac; Textus Receptus (KJV)",
+    "orig": "ἀκούσας αὐτοῦ πολλὰ ἐποίει",
+    "en": "having heard him, he did many things",
+    "plain": "Each time he heard John, Herod did many things"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek verbs differ by only a few letters. \"Was perplexed\" fits the next words, \"and still he enjoyed listening to him\": Herod was torn. \"Did many things\" is hard to explain and may be a copyist's slip or an attempt to say Herod followed John's advice. Most editors prefer \"perplexed.\"",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:22",
+  "a": "Herodias' own daughter",
+  "t": "Herodias' daughter, or \"his daughter Herodias\"?",
+  "p": "NA28 reads \"his daughter Herodias,\" making the dancer Herod's daughter, also named Herodias.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus, C, Θ, family 13 and the Byzantine majority, as reported by Metzger; SBLGNT, THGNT; Textus Receptus (KJV)",
+    "orig": "τῆς θυγατρὸς αὐτῆς τῆς Ἡρῳδιάδος",
+    "en": "her daughter, of Herodias herself",
+    "plain": "Herodias' own daughter"
+   },
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Bezae, L, Δ and 565, as reported by Metzger; NA28, Westcott-Hort",
+    "orig": "τῆς θυγατρὸς αὐτοῦ Ἡρῳδιάδος",
+    "en": "his daughter Herodias",
+    "plain": "His daughter Herodias"
+   },
+   {
+    "w": "Family 1 and some Syriac manuscripts",
+    "orig": "τῆς θυγατρὸς τῆς Ἡρῳδιάδος",
+    "en": "the daughter of Herodias",
+    "plain": "The daughter of Herodias"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a hard choice. \"His daughter Herodias\" has the strongest early manuscripts, and Metzger's committee printed it as the reading of the best witnesses, though they said it was very difficult to decide which reading was the least unsatisfactory. It makes the girl Herod's own daughter and calls her Herodias, which clashes with 6:24 (where she goes out to \"her mother\") and with Josephus, who names Herodias' daughter Salome, the child of her first marriage (Antiquities 18.136). The SBL and Tyndale House editions read \"the daughter of Herodias herself,\" which fits the story and Matthew 14:6. Its agreement with Matthew and Josephus could also mean that copyists corrected Mark; that is why NA28 and Westcott-Hort print the harder reading. The Plain follows the SBL and Tyndale House here; a reader using NA28 will find the other reading.",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "thgnt",
+   "na28",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "6:33",
+  "a": "and arrived before them.",
+  "t": "\"And came together unto him\"",
+  "p": "The KJV ends the verse with both \"outwent them\" and \"came together unto him,\" a famous example of a combined reading.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus and others; SBLGNT, NA28, THGNT",
+    "orig": "καὶ προῆλθον αὐτούς.",
+    "en": "and went ahead of them.",
+    "plain": "and arrived before them."
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "καὶ προῆλθον αὐτούς, καὶ συνῆλθον πρὸς αὐτόν.",
+    "en": "and went ahead of them, and came together to him.",
+    "plain": "and arrived before them, and came together to him."
+   }
+  ],
+  "follow": 0,
+  "why": "Some early manuscripts end with \"went ahead of them,\" others (Bezae among them) with \"came together there\" or \"to him.\" The Byzantine text has both. Westcott and Hort used this verse as their chief example of a \"conflate\" reading: later scribes combining two earlier readings. The shorter reading of the oldest manuscripts is followed.",
+  "s": [
+   "metzger",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:36",
+  "a": "buy themselves food.",
+  "t": "\"For they have nothing to eat\"",
+  "p": "The KJV reads \"buy themselves bread: for they have nothing to eat.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "ἀγοράσωσιν ἑαυτοῖς τί φάγωσιν.",
+    "en": "they may buy themselves something they may eat.",
+    "plain": "buy themselves food."
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἀγοράσωσιν ἑαυτοῖς ἄρτους· τί γὰρ φάγωσιν οὐκ ἔχουσιν.",
+    "en": "they may buy themselves bread, for they have nothing to eat.",
+    "plain": "buy themselves bread, for they have nothing to eat."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer wording seems to have arisen when the phrase \"what they may eat\" was read as a separate clause and expanded. The sense is the same.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "6:44",
+  "a": "numbered five thousand",
+  "t": "\"About\" five thousand",
+  "p": "The KJV says \"about five thousand men,\" as Matthew 14:21 does.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the Byzantine majority",
+    "orig": "πεντακισχίλιοι ἄνδρες",
+    "en": "five thousand men",
+    "plain": "numbered five thousand"
+   },
+   {
+    "w": "A few manuscripts; Textus Receptus (KJV)",
+    "orig": "ὡσεὶ πεντακισχίλιοι ἄνδρες",
+    "en": "about five thousand men",
+    "plain": "numbered about five thousand"
+   }
+  ],
+  "follow": 0,
+  "why": "\"About\" is in Matthew 14:21, Luke 9:14 and John 6:10, and was carried into a few copies of Mark from there. Even the Byzantine majority text of Mark lacks it.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:51",
+  "a": "Inwardly they were completely beside themselves,",
+  "t": "\"And wondered\"",
+  "p": "The KJV adds \"and wondered\" after \"they were sore amazed in themselves.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the earliest Greek manuscripts",
+    "orig": "καὶ λίαν ἐκ περισσοῦ ἐν ἑαυτοῖς ἐξίσταντο,",
+    "en": "and exceedingly, beyond measure, they were amazed in themselves,",
+    "plain": "Inwardly they were completely beside themselves,"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "καὶ λίαν ἐκ περισσοῦ ἐν ἑαυτοῖς ἐξίσταντο, καὶ ἐθαύμαζον,",
+    "en": "and exceedingly they were amazed in themselves, and they marveled,",
+    "plain": "Inwardly they were completely beside themselves and astonished,"
+   }
+  ],
+  "follow": 0,
+  "why": "The second verb adds nothing new and looks like a scribe's addition to strengthen an already strong sentence.",
+  "s": [
+   "sblgnt"
+  ]
+ }
+]

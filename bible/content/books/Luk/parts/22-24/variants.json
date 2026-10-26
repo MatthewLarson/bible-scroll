@@ -1,0 +1,1067 @@
+[
+ {
+  "v": "22:14",
+  "a": "and so did the apostles.",
+  "t": "\"The apostles\" or \"the twelve apostles\"",
+  "p": "The KJV, with later manuscripts, says \"the twelve apostles.\" The oldest have \"the apostles.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75 (about 175–225), Codex Sinaiticus (first hand) and Vaticanus (as reported by Metzger)",
+    "orig": "οἱ ἀπόστολοι",
+    "en": "the apostles",
+    "plain": "and so did the apostles."
+   },
+   {
+    "w": "A corrector of Sinaiticus and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οἱ δώδεκα ἀπόστολοι",
+    "en": "the twelve apostles",
+    "plain": "and so did the twelve apostles."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Twelve\" was probably added from Mark 14:17 and Matthew 26:20, where Jesus comes with \"the Twelve.\" The shorter reading has the strongest early support.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "22:16",
+  "a": "I will not eat it until",
+  "t": "\"Not eat it\" or \"not eat it any more\"",
+  "p": "Later manuscripts add \"no longer\": \"I will not eat it any more\" (KJV). The oldest lack it, which changes the sense.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott and Hort; Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi (first hand), H, Regius (L), a few others, the Old Latin manuscript a and the Coptic versions (as reported by Tischendorf); the papyrus evidence is not checked here",
+    "orig": "οὐ μὴ φάγω αὐτὸ",
+    "en": "I will surely not eat it",
+    "plain": "I will not eat it until"
+   },
+   {
+    "w": "A corrector of Ephraemi, Bezae, P, X, Γ, Δ, Λ, Π and most later manuscripts, most Old Latin, the Vulgate and the Curetonian Syriac (as reported by Tischendorf); Byzantine majority, Textus Receptus (KJV). Tregelles and Tischendorf printed \"no longer\"; Lachmann bracketed it",
+    "orig": "οὐκέτι οὐ μὴ φάγω ἐξ αὐτοῦ",
+    "en": "I will no longer eat of it",
+    "plain": "I will not eat it any more until"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the stronger and older Greek support and is printed by the modern editions. \"No longer\" looks like a scribe's attempt to make clear that Jesus did eat this Passover and would not eat another. Tischendorf kept it, noting that similar witnesses leave \"no longer\" out at Mark 14:25 too, so it need not have been borrowed from there.",
+  "b": "Without \"no longer,\" the saying can be read to mean that Jesus longed to eat this Passover but would not eat it: a vow to fast until the kingdom comes. Joachim Jeremias argued for this reading. Most interpreters still think Jesus shared the meal and speaks of not eating it again; Luke's Greek allows both.",
+  "s": [
+   "tischendorf-nt8",
+   "jeremias-eucharistic"
+  ]
+ },
+ {
+  "v": "22:19",
+  "a": ", which is being given for you. Do this to remember me.",
+  "t": "The longer and the shorter text of the Supper",
+  "p": "Codex Bezae and some Old Latin manuscripts stop at \"This is my body,\" leaving out the rest of 22:19 and all of 22:20. This goes with the variant at 22:20.",
+  "readings": [
+   {
+    "w": "SBLGNT (in brackets), NA28, Tyndale House; Papyrus 75 (about 175–225), Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Washington, nearly all Greek manuscripts, most early versions; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τὸ ὑπὲρ ὑμῶν διδόμενον· τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν.",
+    "en": "which is given for you. Do this for my remembrance.",
+    "plain": ", which is being given for you. Do this to remember me."
+   },
+   {
+    "w": "Codex Bezae (D, about 400) and the Old Latin manuscripts a, d, ff2, i and l (as reported by Metzger); in two other Old Latin manuscripts (b, e) the cup of 22:17–18 follows the bread, and the Syriac versions rearrange the verses in yet other ways",
+    "orig": "(omitted)",
+    "en": "(nothing: the verse ends \"This is my body.\")",
+    "plain": "."
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text is in almost every manuscript and version, including the very early Papyrus 75. Most scholars think the shorter text arose from a scribe's effort to remove the second cup, or from reverence that kept the full words of the rite from outsiders; Westcott and Hort, and later Bart Ehrman, argued the opposite, that the longer text was filled in from Paul (1 Corinthians 11:24–25). See the deep dive on this chapter page.",
+  "b": "The words that the shorter text lacks are almost the same as Paul's in 1 Corinthians 11:24–25. That is the main argument on both sides: either a scribe copied them in from Paul, or Luke himself drew on the same liturgical tradition as Paul.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "ehrman-corruption",
+   "jeremias-eucharistic",
+   "parker-bezae"
+  ]
+ },
+ {
+  "v": "22:20",
+  "a": "And he took the cup in the same way when the meal was over. He said, \"This cup is the new covenant, made in my blood. It is being poured out for you.",
+  "t": "22:20 in the shorter text",
+  "p": "The second half of the variant at 22:19: the shorter text has no cup after supper.",
+  "readings": [
+   {
+    "w": "SBLGNT (in brackets), NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus and nearly all manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ τὸ ποτήριον ὡσαύτως μετὰ τὸ δειπνῆσαι, λέγων· Τοῦτο τὸ ποτήριον ἡ καινὴ διαθήκη ἐν τῷ αἵματί μου, τὸ ὑπὲρ ὑμῶν ἐκχυννόμενον.",
+    "en": "And the cup likewise after supper, saying, \"This cup is the new covenant in my blood, which is poured out for you.\"",
+    "plain": "And he took the cup in the same way when the meal was over. He said, \"This cup is the new covenant, made in my blood. It is being poured out for you."
+   },
+   {
+    "w": "Codex Bezae (D) and several Old Latin manuscripts (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 22:19. With the shorter text, the only cup in Luke is the one before the bread (22:17), and the meal has the order cup, bread.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro"
+  ]
+ },
+ {
+  "v": "22:31",
+  "a": "Simon, Simon,",
+  "t": "\"And the Lord said\"",
+  "p": "Many manuscripts, the KJV and the Tyndale House edition begin the verse \"And the Lord said.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28; Papyrus 75, Codex Vaticanus, Regius (L), the Sinaitic Syriac and the Coptic (as reported by Metzger)",
+    "orig": "Σίμων Σίμων",
+    "en": "Simon, Simon",
+    "plain": "Simon, Simon,"
+   },
+   {
+    "w": "Tyndale House; Codex Sinaiticus, Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Εἶπεν δὲ ὁ κύριος· Σίμων Σίμων",
+    "en": "And the Lord said, \"Simon, Simon",
+    "plain": "The Lord said, \"Simon, Simon,"
+   }
+  ],
+  "follow": 0,
+  "why": "The words break into the middle of a speech that has no break, which is why a scribe might have added them to mark a new start; the SBL and NA28 editors follow the shorter reading of Papyrus 75 and Vaticanus. The Tyndale House editors judge the words original, since the earliest copies may have left them out by accident. The meaning is the same.",
+  "s": [
+   "metzger",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "22:43",
+  "a": "Then an angel appeared to him from heaven and gave him strength.",
+  "t": "The angel and the bloody sweat (1)",
+  "p": "Verses 43–44 are missing from many early manuscripts, including Papyrus 75 and Vaticanus. They are in Sinaiticus and Bezae, and second-century writers knew them. This goes with the variant at 22:44.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand and a later corrector), Bezae, Regius (L), Koridethi (Θ), Ψ, 0171, family 1, the Byzantine majority, most Old Latin, the Vulgate and most Syriac; known to Justin Martyr (about 155), Irenaeus and Hippolytus; Textus Receptus (KJV). The SBLGNT and NA28 print them in double brackets as an addition; the Tyndale House edition prints them",
+    "orig": "ὤφθη δὲ αὐτῷ ἄγγελος ἀπ’ οὐρανοῦ ἐνισχύων αὐτόν.",
+    "en": "And there appeared to him an angel from heaven, strengthening him.",
+    "plain": "Then an angel appeared to him from heaven and gave him strength."
+   },
+   {
+    "w": "Papyrus 75 (about 175–225), probably Papyrus 69, the first corrector of Sinaiticus, Codex Alexandrinus, Vaticanus, Washington, the Sinaitic Syriac, the Sahidic Coptic (as reported by Metzger); Hilary and Jerome knew Greek and Latin copies without them. In the family 13 manuscripts the verses stand after Matthew 26:39",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is divided almost evenly in age. The Plain prints the verses, as nearly all Bibles do, because they were known by about AD 150 and have been read in the church since; the brackets of the critical editions and this note mark that they may not be from Luke's own hand.",
+  "b": "<b>Added:</b> many scholars (Westcott and Hort, Bart Ehrman and Mark Plunkett) think they were added to show that Jesus was truly human against those who said he only seemed to suffer. <b>Removed:</b> others (Raymond Brown, and before him many older critics) think they were cut by scribes who found a Jesus in such distress, needing an angel's help, unworthy of the Son of God. Their vocabulary and style are close to Luke's. See the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "ehrman-plunkett-angel",
+   "brown-death-messiah",
+   "justin-dialogue"
+  ]
+ },
+ {
+  "v": "22:44",
+  "a": "Caught in a struggle, he prayed harder still. His sweat came like clots of blood dripping onto the ground.",
+  "t": "The angel and the bloody sweat (2)",
+  "p": "The second verse of the passage missing in Papyrus 75, Vaticanus and others. See the variant at 22:43.",
+  "readings": [
+   {
+    "w": "The same witnesses as 22:43; Justin Martyr mentions the sweat like drops of blood (<i>Dialogue with Trypho</i> 103)",
+    "orig": "καὶ γενόμενος ἐν ἀγωνίᾳ ἐκτενέστερον προσηύχετο· καὶ ἐγένετο ὁ ἱδρὼς αὐτοῦ ὡσεὶ θρόμβοι αἵματος καταβαίνοντες ἐπὶ τὴν γῆν.",
+    "en": "And being in anguish he prayed more earnestly, and his sweat became like clots of blood falling down upon the earth.",
+    "plain": "Caught in a struggle, he prayed harder still. His sweat came like clots of blood dripping onto the ground."
+   },
+   {
+    "w": "The same witnesses as for the omission at 22:43",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the variant at 22:43: the two verses stand or fall together.",
+  "s": [
+   "metzger",
+   "justin-dialogue"
+  ]
+ },
+ {
+  "v": "22:62",
+  "a": "He went outside and cried bitterly.",
+  "t": "Peter's tears",
+  "p": "Several Old Latin manuscripts leave out this verse, the same words as Matthew 26:75.",
+  "readings": [
+   {
+    "w": "Every Greek manuscript that has the passage, except perhaps 0171; SBLGNT, NA28, Tyndale House; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ ἐξελθὼν ἔξω ἔκλαυσεν πικρῶς.",
+    "en": "And going outside he wept bitterly.",
+    "plain": "He went outside and cried bitterly."
+   },
+   {
+    "w": "The Old Latin manuscripts a, b, e, ff2, i, l (first hand) and r1 (as reported by Metzger), and probably the fragment 0171 (about 300), whose surviving lines seem to skip it",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is in every Greek manuscript except perhaps 0171. Some think it was copied into Luke from Matthew, word for word, but the evidence for leaving it out is too slight; the NA28 committee kept it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "22:64",
+  "a": "They covered his eyes and kept asking him",
+  "t": "\"Struck him on the face\"",
+  "p": "The KJV, following later manuscripts, adds that they \"struck him on the face.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus and other early manuscripts (as reported in NA28)",
+    "orig": "καὶ περικαλύψαντες αὐτὸν ἐπηρώτων",
+    "en": "and having blindfolded him they kept asking",
+    "plain": "They covered his eyes and kept asking him"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ περικαλύψαντες αὐτὸν ἔτυπτον αὐτοῦ τὸ πρόσωπον καὶ ἐπηρώτων αὐτόν",
+    "en": "and having blindfolded him they kept striking his face and asking him",
+    "plain": "They covered his eyes, kept striking his face, and kept asking him"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words fill out the game of \"Who struck you?\" and echo Mark 14:65. The oldest manuscripts lack them.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "22:68",
+  "a": "you will never answer.",
+  "t": "\"Nor let me go\"",
+  "p": "Later manuscripts add \"me, nor let me go\" (KJV).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Regius (L), T (as reported by Metzger)",
+    "orig": "οὐ μὴ ἀποκριθῆτε.",
+    "en": "you will not answer.",
+    "plain": "you will never answer."
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οὐ μὴ ἀποκριθῆτέ μοι ἢ ἀπολύσητε.",
+    "en": "you will not answer me or let me go.",
+    "plain": "you will never answer me or let me go."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition makes the meaning explicit, which is what scribes tended to do; the shorter reading has the earliest support.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:6",
+  "a": "Pilate heard it",
+  "t": "\"Heard this\" or \"heard of Galilee\"",
+  "p": "The KJV says \"When Pilate heard of Galilee.\" The modern editions have only \"heard.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott and Hort (the manuscripts are not checked here)",
+    "orig": "Πιλᾶτος δὲ ἀκούσας",
+    "en": "And Pilate, having heard",
+    "plain": "Pilate heard it"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV) (the manuscripts are not checked here)",
+    "orig": "Πιλᾶτος δὲ ἀκούσας Γαλιλαίαν",
+    "en": "And Pilate, having heard Galilee",
+    "plain": "Pilate heard Galilee named"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference does not change the sense: the accusers had just said Jesus started in Galilee (23:5). \"Galilee\" looks like a word supplied to make the link plain.",
+  "s": [
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "23:15",
+  "a": "since he sent him back to us.",
+  "t": "Who sent whom?",
+  "p": "The KJV reads \"for I sent you to him.\" The oldest manuscripts say Herod \"sent him back to us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Regius (L), T and others (as reported by Metzger)",
+    "orig": "ἀνέπεμψεν γὰρ αὐτὸν πρὸς ἡμᾶς",
+    "en": "for he sent him back to us",
+    "plain": "since he sent him back to us."
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἀνέπεμψα γὰρ ὑμᾶς πρὸς αὐτόν",
+    "en": "for I sent you to him",
+    "plain": "since I sent you to him."
+   }
+  ],
+  "follow": 0,
+  "why": "\"He sent him back to us\" fits the story (23:11) and has the best early support. The other reading changes two small words and may come from a scribe who thought the accusers had gone to Herod.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:17",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "23:17: the release at the festival",
+  "p": "Most manuscripts behind the KJV add a verse explaining the custom of releasing a prisoner. The oldest lack it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Alexandrinus, Vaticanus, Regius (L), T, the Sahidic Coptic and others (as reported by Metzger)",
+    "orig": "(no verse)",
+    "en": "(no verse)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Codex Sinaiticus, Washington, Koridethi (Θ), Ψ, families 1 and 13, the Byzantine majority, Textus Receptus (KJV) after 23:16; Codex Bezae and two Old Syriac versions after 23:19",
+    "orig": "ἀνάγκην δὲ εἶχεν ἀπολύειν αὐτοῖς κατὰ ἑορτὴν ἕνα.",
+    "en": "Now he had to release one man to them at the festival.",
+    "plain": "Now at each festival he had to set one man free for them."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is missing from early and varied witnesses, and where it appears it stands in two different places, after 23:16 or after 23:19, which is the mark of a note added in the margin and then copied into the text at different points. Its wording is close to Mark 15:6 and Matthew 27:15. The Plain keeps the verse number, as Bibles do, and gives the added words here.",
+  "b": "Without the verse, Luke never explains why the crowd can demand Barabbas' release; Mark, Matthew and John do (Mark 15:6; Matthew 27:15; John 18:39). A scribe supplied the explanation.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:23",
+  "a": "and their voices won out.",
+  "t": "\"And of the chief priests\"",
+  "p": "The KJV adds \"and of the chief priests\": \"the voices of them and of the chief priests prevailed.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Regius (L) and others (as reported in NA28)",
+    "orig": "καὶ κατίσχυον αἱ φωναὶ αὐτῶν.",
+    "en": "and their voices prevailed.",
+    "plain": "and their voices won out."
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ κατίσχυον αἱ φωναὶ αὐτῶν καὶ τῶν ἀρχιερέων.",
+    "en": "and their voices and those of the chief priests prevailed.",
+    "plain": "and their voices, and those of the chief priests, won out."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition puts the chief priests back in the scene, as Mark 15:11 and Matthew 27:20 have them stirring up the crowd. The shorter reading is earlier.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "23:34",
+  "a": "And Jesus kept saying, \"Father, forgive them, because they do not know what they are doing.\" ",
+  "t": "\"Father, forgive them\"",
+  "p": "This prayer is missing from Papyrus 75, Vaticanus, Bezae (first hand) and other early witnesses. It is in Sinaiticus and most manuscripts.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (first hand and a later corrector), Alexandrinus, Ephraemi, a later corrector of Bezae, Regius (L), Ψ, families 1 and 13, the Byzantine majority, most Old Latin, the Vulgate, the Curetonian and later Syriac; known to Irenaeus (in Latin) and many later fathers; Textus Receptus (KJV). The SBLGNT and NA28 print it in double brackets; the Tyndale House edition prints it",
+    "orig": "ὁ δὲ Ἰησοῦς ἔλεγεν· Πάτερ, ἄφες αὐτοῖς, οὐ γὰρ οἴδασιν τί ποιοῦσιν.",
+    "en": "And Jesus was saying, \"Father, forgive them, for they do not know what they are doing.\"",
+    "plain": "And Jesus kept saying, \"Father, forgive them, because they do not know what they are doing.\" "
+   },
+   {
+    "w": "Papyrus 75 (about 175–225), the first corrector of Sinaiticus, Codex Vaticanus, Bezae (first hand), Washington, Koridethi (Θ), 0124, 1241, two Old Latin manuscripts, the Sinaitic Syriac and the Sahidic Coptic (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the prayer is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain prints the prayer, as almost all Bibles do. Its absence from early and widespread witnesses is impressive, and Metzger's committee judged it \"probably not part of the original Gospel of Luke,\" yet added that it \"bears self-evident tokens of its dominical origin,\" that is, of coming from Jesus. Others, such as Nathan Eubank, argue that Luke wrote it and that scribes cut it out. Metzger's committee thought it unlikely that scribes cut the prayer out because they took the fall of Jerusalem as proof that God had not forgiven the Jews; Eubank argues for that motive.",
+  "b": "<b>Why would a scribe cut it?</b> Some think second-century Christians, who saw the fall of Jerusalem in AD 70 as God's judgment, could not accept that Jesus had prayed for the forgiveness of those who killed him. If that is so, the omission is an early sign of hostility to Jews. <b>Why would a scribe add it?</b> It fits Stephen's dying prayer in Acts 7:60, which may have been the model, or it may be a true saying of Jesus that circulated by word of mouth. See the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "eubank-forgive",
+   "brown-death-messiah"
+  ]
+ },
+ {
+  "v": "23:35",
+  "a": "The rulers too turned up their noses at him.",
+  "t": "The rulers alone, or the rulers \"with them\"",
+  "p": "The KJV says \"the rulers also with them derided him,\" so the people join the mockery. The oldest manuscripts lack \"with them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott and Hort; Codex Sinaiticus, Vaticanus, Ephraemi, Bezae, Regius (L), Q, X, a few others, the Old Latin b, c, e, ff2 and l, the Coptic, the Sinaitic Syriac and the Ethiopic (as reported by Tischendorf)",
+    "orig": "ἐξεμυκτήριζον δὲ καὶ οἱ ἄρχοντες",
+    "en": "and the rulers also sneered",
+    "plain": "The rulers too turned up their noses at him."
+   },
+   {
+    "w": "Alexandrinus, Γ, Δ, Λ, Π and most later manuscripts, the Old Latin f, the Vulgate, the Curetonian and Peshitta Syriac and the Armenian (as reported by Tischendorf); Byzantine majority, Textus Receptus (KJV). Lachmann bracketed the words",
+    "orig": "ἐξεμυκτήριζον δὲ καὶ οἱ ἄρχοντες σὺν αὐτοῖς",
+    "en": "and the rulers also with them sneered",
+    "plain": "The rulers too, along with them, turned up their noses at him."
+   }
+  ],
+  "follow": 0,
+  "why": "The older and wider witnesses lack \"with them,\" and it is easy to see why a scribe would add it: Mark and Matthew have passers-by mocking, and \"too\" seemed to need a partner. The added words matter: they make the people join the mockery that Luke gives to the rulers alone (see the note on this verse).",
+  "s": [
+   "tischendorf-nt8",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "23:38",
+  "a": "There was a notice over him too:",
+  "t": "\"In Greek, Latin and Hebrew letters\"",
+  "p": "The KJV says the notice was written \"in letters of Greek, and Latin, and Hebrew,\" as in John 19:20. The oldest copies of Luke lack it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, the first corrector of Sinaiticus, Codex Vaticanus, Ephraemi (first hand), Regius (L), the Old Syriac and the Coptic (as reported by Metzger)",
+    "orig": "ἦν δὲ καὶ ἐπιγραφὴ ἐπ’ αὐτῷ·",
+    "en": "There was also an inscription over him:",
+    "plain": "There was a notice over him too:"
+   },
+   {
+    "w": "Codex Sinaiticus (first hand), Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV), with small differences in wording",
+    "orig": "ἦν δὲ καὶ ἐπιγραφὴ γεγραμμένη ἐπ’ αὐτῷ γράμμασιν Ἑλληνικοῖς καὶ Ῥωμαϊκοῖς καὶ Ἑβραϊκοῖς·",
+    "en": "There was also an inscription written over him in Greek and Latin and Hebrew letters:",
+    "plain": "There was a notice over him too, written in Greek, Latin and Hebrew letters:"
+   }
+  ],
+  "follow": 0,
+  "why": "The detail comes from John 19:20, and the different orders of the three languages in the manuscripts suggest that it was added in more than one place.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:39",
+  "a": "\"You are the Messiah, aren't you?\" he said. \"Save yourself, and us!\"",
+  "t": "\"Aren't you\" or \"If you are\"",
+  "p": "The KJV reads \"If thou be Christ, save thyself and us.\" The oldest manuscripts have a question.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L) (as reported in NA28)",
+    "orig": "Οὐχὶ σὺ εἶ ὁ χριστός; σῶσον σεαυτὸν καὶ ἡμᾶς.",
+    "en": "Are you not the Christ? Save yourself and us.",
+    "plain": "\"You are the Messiah, aren't you?\" he said. \"Save yourself, and us!\""
+   },
+   {
+    "w": "Codex Alexandrinus, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Εἰ σὺ εἶ ὁ χριστός, σῶσον σεαυτὸν καὶ ἡμᾶς.",
+    "en": "If you are the Christ, save yourself and us.",
+    "plain": "\"If you are the Messiah,\" he said, \"save yourself, and us!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The \"if\" form matches the taunts in 23:35 and 23:37, which is probably why scribes adopted it. The question is the earlier reading.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "23:42",
+  "a": "\"Jesus, remember me",
+  "t": "\"Jesus\" or \"Lord\"",
+  "p": "The KJV reads \"And he said unto Jesus, Lord, remember me.\" The oldest manuscripts have the man speak to Jesus by name.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L) (as reported by Metzger)",
+    "orig": "Ἰησοῦ, μνήσθητί μου",
+    "en": "Jesus, remember me",
+    "plain": "\"Jesus, remember me"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "τῷ Ἰησοῦ· Μνήσθητί μου, κύριε",
+    "en": "to Jesus, \"Remember me, Lord",
+    "plain": "to Jesus, \"Lord, remember me"
+   }
+  ],
+  "follow": 0,
+  "why": "With the word order of the Greek, <i>Iēsou</i> could be either \"Jesus\" (vocative) or \"to Jesus\"; scribes who took it the second way then added \"Lord\" so that the man would address him properly. The bare \"Jesus\" is the earlier reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "23:42",
+  "a": "in your kingdom",
+  "t": "\"In your kingdom\" or \"into your kingdom\"",
+  "p": "The editions disagree. SBL and Tyndale House read \"in your kingdom\"; NA28 reads \"into your kingdom.\" Bezae has \"on the day of your coming.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House; Codex Sinaiticus, Alexandrinus, Ephraemi, Washington and most later manuscripts; Byzantine majority, Textus Receptus (as reported by Metzger)",
+    "orig": "ἐν τῇ βασιλείᾳ σου",
+    "en": "in your kingdom (in your kingly power)",
+    "plain": "in your kingdom"
+   },
+   {
+    "w": "NA28; Papyrus 75, Codex Vaticanus, Regius (L) and some Old Latin (as reported by Metzger)",
+    "orig": "εἰς τὴν βασιλείαν σου",
+    "en": "into your kingdom",
+    "plain": "into your kingdom"
+   },
+   {
+    "w": "Codex Bezae (D)",
+    "orig": "ἐν τῇ ἡμέρᾳ τῆς ἐλεύσεώς σου",
+    "en": "on the day of your coming",
+    "plain": "on the day of your coming"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL and Tyndale House editions, with the wider support. \"In your kingdom\" means \"when you come as king,\" at the end of days; \"into your kingdom\" means \"when you enter your reign,\" which fits Jesus' going to his glory (24:26). The NA28 committee preferred \"into\" because of Papyrus 75 and Vaticanus. Jesus' answer, \"today,\" speaks to both.",
+  "b": "The KJV translates its Greek (\"in\") as \"into thy kingdom,\" so KJV readers will see no difference here. Matthew 16:28 uses the same phrase as the SBL reading: \"coming in his kingdom.\"",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "23:45",
+  "a": "because the sun had failed.",
+  "t": "\"The sun failed\" or \"the sun was darkened\"",
+  "p": "The oldest manuscripts use the verb for an eclipse. Most later ones, and the KJV, say \"the sun was darkened.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus (with a slightly different form of the verb), Regius (L) and others (as reported by Metzger)",
+    "orig": "τοῦ ἡλίου ἐκλιπόντος",
+    "en": "the sun having failed (or: being eclipsed)",
+    "plain": "because the sun had failed."
+   },
+   {
+    "w": "Codex Alexandrinus, Bezae, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ ἐσκοτίσθη ὁ ἥλιος",
+    "en": "and the sun was darkened",
+    "plain": "and the sun was darkened."
+   }
+  ],
+  "follow": 0,
+  "why": "The harder reading is the earlier one. Because <i>ekleipō</i> was the usual verb for an eclipse, and an eclipse of the sun is impossible at the full moon of Passover, scribes seem to have changed it to the safer \"was darkened.\" See the note on this verse.",
+  "s": [
+   "metzger",
+   "africanus-chronography"
+  ]
+ },
+ {
+  "v": "23:53",
+  "a": "where nobody had been laid yet.",
+  "t": "The stone that twenty men could hardly roll",
+  "p": "Codex Bezae adds that Joseph set a stone over the tomb \"that twenty men could hardly roll.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; nearly all manuscripts; Textus Receptus (KJV)",
+    "orig": "οὗ οὐκ ἦν οὐδεὶς οὔπω κείμενος.",
+    "en": "where no one had yet been laid.",
+    "plain": "where nobody had been laid yet."
+   },
+   {
+    "w": "Codex Bezae (D), with some Old Latin and Sahidic support (as reported by Metzger)",
+    "orig": "οὗ οὐκ ἦν οὐδεὶς οὔπω κείμενος. καὶ θέντος αὐτοῦ ἐπέθηκε τῷ μνημείῳ λίθον ὃν μόγις εἴκοσι ἐκύλιον.",
+    "en": "where no one had yet been laid. And when he had been laid there, he put against the tomb a stone that twenty men could hardly roll.",
+    "plain": "where nobody had been laid yet. When he had been laid there, Joseph put a stone against the tomb that twenty men could hardly roll."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is found only in the Western witnesses and supplies the stone that Luke mentions later without having introduced it (24:2). It is one of Codex Bezae's many expansions.",
+  "b": "The Gospel of Peter, an early Christian work in no church's Bible, also dwells on the stone: a great stone rolled against the door and sealed with seven seals.",
+  "s": [
+   "metzger",
+   "parker-bezae"
+  ]
+ },
+ {
+  "v": "24:1",
+  "a": "carrying the fragrant spices they had gotten ready.",
+  "t": "\"And certain others with them\"",
+  "p": "The KJV adds \"and certain others with them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L) (as reported in NA28)",
+    "orig": "φέρουσαι ἃ ἡτοίμασαν ἀρώματα.",
+    "en": "bringing the spices they had prepared.",
+    "plain": "carrying the fragrant spices they had gotten ready."
+   },
+   {
+    "w": "Codex Alexandrinus, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "φέρουσαι ἃ ἡτοίμασαν ἀρώματα, καί τινες σὺν αὐταῖς.",
+    "en": "bringing the spices they had prepared, and some others with them.",
+    "plain": "carrying the fragrant spices they had gotten ready, and some others with them."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition anticipates 24:10, \"the other women with them.\" The shorter reading is earlier.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "24:3",
+  "a": "the body of the Lord Jesus",
+  "t": "\"Of the Lord Jesus\": a Western non-interpolation",
+  "p": "The SBL edition and Codex Bezae read only \"the body.\" NA28 and Tyndale House read \"the body of the Lord Jesus,\" with Papyrus 75.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House; Papyrus 75 (about 175–225), Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Regius (L), Washington and almost all others; Byzantine majority, Textus Receptus (KJV) (as reported by Metzger)",
+    "orig": "τὸ σῶμα τοῦ κυρίου Ἰησοῦ",
+    "en": "the body of the Lord Jesus",
+    "plain": "the body of the Lord Jesus"
+   },
+   {
+    "w": "SBLGNT; Codex Bezae (D) and Old Latin manuscripts",
+    "orig": "τὸ σῶμα",
+    "en": "the body",
+    "plain": "the body"
+   },
+   {
+    "w": "A few later Greek manuscripts and some Syriac (as reported by Metzger)",
+    "orig": "τὸ σῶμα τοῦ Ἰησοῦ",
+    "en": "the body of Jesus",
+    "plain": "the body of Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and Tyndale House against the SBL edition, because the longer reading is in Papyrus 75 and nearly every other manuscript. Westcott and Hort put the words in double brackets as an addition, and the SBL edition leaves them out. \"The Lord Jesus\" is found nowhere else in the Gospels except the Longer Ending of Mark (Mark 16:19), but it is common in Acts (Acts 1:21; 4:33), which some take as a mark of a later hand and others as Luke's own way of naming the risen one.",
+  "b": "This is the first of Luke 24's \"Western non-interpolations\"; see the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "snodgrass-western"
+  ]
+ },
+ {
+  "v": "24:6",
+  "a": "He isn't here, but he has been raised. ",
+  "t": "\"He isn't here, but he has been raised\"",
+  "p": "Codex Bezae and Old Latin manuscripts lack these words, a Western non-interpolation. All other witnesses have them.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Regius (L), Washington and nearly all others; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οὐκ ἔστιν ὧδε, ἀλλὰ ἠγέρθη.",
+    "en": "He is not here, but he has been raised.",
+    "plain": "He isn't here, but he has been raised. "
+   },
+   {
+    "w": "Codex Bezae (D) and Old Latin manuscripts (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the words are missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are close to Mark 16:6 and Matthew 28:6, so Westcott and Hort thought they were copied in from there. But Luke's form, \"not here, <i>but</i> raised,\" differs from both, and Papyrus 75 has it; most editors now print it.",
+  "b": "See the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "snodgrass-western"
+  ]
+ },
+ {
+  "v": "24:12",
+  "a": "Peter, though, got up and ran to the tomb. He bent down to peer in and saw the linen wrappings, and nothing else. Then he went off home, wondering at what had happened.",
+  "t": "Peter at the tomb (24:12)",
+  "p": "Codex Bezae and Old Latin manuscripts lack the whole verse. Papyrus 75 and almost all others have it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Regius (L), Washington, Koridethi (Θ) and almost all others; Byzantine majority, Textus Receptus (KJV, which adds \"laid\" or \"lying\")",
+    "orig": "Ὁ δὲ Πέτρος ἀναστὰς ἔδραμεν ἐπὶ τὸ μνημεῖον· καὶ παρακύψας βλέπει τὰ ὀθόνια μόνα· καὶ ἀπῆλθεν πρὸς ἑαυτὸν θαυμάζων τὸ γεγονός.",
+    "en": "But Peter got up and ran to the tomb; and stooping down he sees the linen cloths alone; and he went away home, wondering at what had happened.",
+    "plain": "Peter, though, got up and ran to the tomb. He bent down to peer in and saw the linen wrappings, and nothing else. Then he went off home, wondering at what had happened."
+   },
+   {
+    "w": "Codex Bezae (D) and the Old Latin manuscripts a, b, d, e, l, r1 (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse shares rare words with John 20:5–10, so Westcott and Hort and the RSV of 1946 treated it as an addition from John. But it is in Papyrus 75, it has features of Luke's style (\"wondering at what had happened\"), and 24:24 assumes that someone went to the tomb. Most editors and translations now include it.",
+  "b": "If Luke wrote it, the Gospels have two independent reports of a visit by Peter to the empty tomb. See the deep dive.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "snodgrass-western"
+  ]
+ },
+ {
+  "v": "24:13",
+  "a": "sixty stadia",
+  "t": "Sixty or a hundred and sixty stadia?",
+  "p": "Codex Sinaiticus and a few others read \"a hundred and sixty stadia,\" which fits Emmaus-Nicopolis.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Alexandrinus, Vaticanus, Bezae, Washington and most manuscripts; Byzantine majority, Textus Receptus (KJV \"threescore furlongs\")",
+    "orig": "σταδίους ἑξήκοντα",
+    "en": "sixty stadia (about seven miles)",
+    "plain": "sixty stadia"
+   },
+   {
+    "w": "Codex Sinaiticus, Koridethi (Θ), a few other manuscripts and some versions (as reported by Metzger)",
+    "orig": "σταδίους ἑκατὸν ἑξήκοντα",
+    "en": "a hundred and sixty stadia (about eighteen miles)",
+    "plain": "a hundred and sixty stadia"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Sixty\" is far better attested. \"A hundred and sixty\" seems to have been introduced to match the distance to Emmaus-Nicopolis, the site that Eusebius and Jerome identified, though eighteen miles each way is too far for the two to walk back the same evening (24:33).",
+  "b": "See the note on Emmaus at this verse.",
+  "s": [
+   "metzger",
+   "eusebius-onomasticon"
+  ]
+ },
+ {
+  "v": "24:17",
+  "a": "as you walk?\" They stopped, their faces gloomy.",
+  "t": "\"They stood still, looking sad\" or \"and are sad?\"",
+  "p": "The KJV makes the sadness part of Jesus' question: \"as ye walk, and are sad?\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott and Hort, Tregelles; Codex Sinaiticus, Vaticanus, probably Alexandrinus (first hand), Regius (L, \"they stopped\"), the Old Latin manuscript e and the Coptic versions (as reported by Tischendorf); the papyrus evidence is not checked here",
+    "orig": "περιπατοῦντες; καὶ ἐστάθησαν σκυθρωποί.",
+    "en": "as you walk? And they stood still, looking sad.",
+    "plain": "as you walk?\" They stopped, their faces gloomy."
+   },
+   {
+    "w": "Most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "περιπατοῦντες, καί ἐστε σκυθρωποί;",
+    "en": "as you walk, and are sad?",
+    "plain": "as you walk, and why are your faces so gloomy?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is one verb, \"they stood\" against \"you are.\" The earliest manuscripts have \"they stood still,\" a vivid detail.",
+  "s": [
+   "tischendorf-nt8",
+   "na28"
+  ]
+ },
+ {
+  "v": "24:32",
+  "a": "Our hearts were on fire inside us",
+  "t": "\"Burning\" or \"veiled\"",
+  "p": "Codex Bezae reads \"Was not our heart veiled?\" Other early witnesses lack \"inside us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 (with \"inside us\" in brackets), Tyndale House; Codex Sinaiticus, Alexandrinus, Regius (L), Washington, Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἡ καρδία ἡμῶν καιομένη ἦν ἐν ἡμῖν",
+    "en": "our heart was burning within us",
+    "plain": "Our hearts were on fire inside us"
+   },
+   {
+    "w": "Westcott and Hort; Papyrus 75, Codex Vaticanus, Bezae (which also has \"veiled\" for \"burning\"), the Old Latin c and e and the Sinaitic and Curetonian Syriac (as reported by Metzger)",
+    "orig": "ἡ καρδία ἡμῶν καιομένη ἦν",
+    "en": "our heart was burning",
+    "plain": "Our hearts were on fire"
+   },
+   {
+    "w": "Codex Bezae (D), which also lacks \"inside us\" (as reported by Metzger); some Old Latin and Coptic manuscripts have other words, such as \"blinded\" or \"heavy\"",
+    "orig": "ἡ καρδία ἡμῶν κεκαλυμμένη",
+    "en": "our heart was veiled",
+    "plain": "Our hearts were veiled"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Burning\" is in nearly every witness. \"Veiled\" may come from a scribe who thought the image of a burning heart odd, and who remembered the veil over the heart in 2 Corinthians 3:14–16.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "24:36",
+  "a": "he himself stood",
+  "t": "\"Jesus himself stood\"",
+  "p": "The KJV names Jesus: \"Jesus himself stood in the midst of them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Bezae and others",
+    "orig": "αὐτὸς ἔστη",
+    "en": "he himself stood",
+    "plain": "he himself stood"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "αὐτὸς ὁ Ἰησοῦς ἔστη",
+    "en": "Jesus himself stood",
+    "plain": "Jesus himself stood"
+   }
+  ],
+  "follow": 0,
+  "why": "The name was added to make the subject clear, as often happens at the start of a church reading.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "24:36",
+  "a": " and said to them, \"Peace to you.\"",
+  "t": "\"And said to them, Peace to you\": a Western non-interpolation",
+  "p": "The SBL edition and Codex Bezae lack the greeting. NA28 and Tyndale House include it, with Papyrus 75. A few manuscripts add \"It is I; do not be afraid.\"",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Regius (L), Koridethi (Θ), Ψ and almost all others; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ λέγει αὐτοῖς· Εἰρήνη ὑμῖν.",
+    "en": "and he says to them, \"Peace to you.\"",
+    "plain": " and said to them, \"Peace to you.\""
+   },
+   {
+    "w": "SBLGNT; Codex Bezae (D) and Old Latin manuscripts",
+    "orig": "(omitted)",
+    "en": "(the greeting is missing)",
+    "plain": "."
+   },
+   {
+    "w": "Codex Washington (W), some later manuscripts and some Latin and other versions (as reported by Metzger)",
+    "orig": "καὶ λέγει αὐτοῖς· Εἰρήνη ὑμῖν. ἐγώ εἰμι, μὴ φοβεῖσθε.",
+    "en": "and he says to them, \"Peace to you. It is I; do not be afraid.\"",
+    "plain": " and said to them, \"Peace to you. It is I. Do not be afraid.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and Tyndale House against the SBL edition, because the greeting is in Papyrus 75 and nearly all manuscripts. It is the same as John 20:19, which led Westcott and Hort to think it was copied from John; others answer that Luke and John share a common tradition of the appearance. The words \"It is I; do not be afraid\" come from the story of Jesus walking on the water (John 6:20).",
+  "b": "See the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "24:40",
+  "a": "With these words he showed them his hands and his feet.",
+  "t": "He showed them his hands and feet (24:40)",
+  "p": "Codex Bezae, Old Latin manuscripts and two Old Syriac versions lack the verse. The SBL edition prints it in brackets.",
+  "readings": [
+   {
+    "w": "SBLGNT (in brackets), NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Regius (L), Washington and almost all others; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ τοῦτο εἰπὼν ἔδειξεν αὐτοῖς τὰς χεῖρας καὶ τοὺς πόδας.",
+    "en": "And having said this, he showed them his hands and his feet.",
+    "plain": "With these words he showed them his hands and his feet."
+   },
+   {
+    "w": "Codex Bezae (D), Old Latin manuscripts, the Sinaitic and Curetonian Syriac (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the verse is missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is like John 20:20, \"his hands and his side,\" but Luke has \"feet,\" matching 24:39, which a copyist borrowing from John would hardly have changed. With Papyrus 75 in support, most editors print it.",
+  "b": "See the deep dive on this chapter page.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "snodgrass-western"
+  ]
+ },
+ {
+  "v": "24:42",
+  "a": "a piece of grilled fish.",
+  "t": "\"And of an honeycomb\"",
+  "p": "The KJV adds that they gave him \"an honeycomb\" too. The oldest manuscripts have only the fish.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Bezae, Regius (L), Washington (as reported by Metzger)",
+    "orig": "ἰχθύος ὀπτοῦ μέρος",
+    "en": "a piece of broiled fish",
+    "plain": "a piece of grilled fish."
+   },
+   {
+    "w": "Many later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἰχθύος ὀπτοῦ μέρος καὶ ἀπὸ μελισσίου κηρίου",
+    "en": "a piece of broiled fish and of a honeycomb",
+    "plain": "a piece of grilled fish and some honeycomb."
+   }
+  ],
+  "follow": 0,
+  "why": "The honeycomb is absent from the early witnesses of every type. Metzger's committee thought it was added because honey had a place in early Christian rites, such as the milk and honey given to the newly baptized.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "24:46",
+  "a": "So it stands written: the Messiah would suffer,",
+  "t": "\"And thus it behoved\"",
+  "p": "The KJV reads \"Thus it is written, and thus it behoved Christ to suffer.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L) and others (as reported in NA28)",
+    "orig": "οὕτως γέγραπται παθεῖν τὸν χριστὸν",
+    "en": "thus it is written that the Christ should suffer",
+    "plain": "So it stands written: the Messiah would suffer,"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "οὕτως γέγραπται καὶ οὕτως ἔδει παθεῖν τὸν χριστὸν",
+    "en": "thus it is written, and thus it was necessary for the Christ to suffer",
+    "plain": "So it stands written, and so the Messiah had to suffer,"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words repeat 24:26, \"had to suffer.\" The shorter reading is earlier.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "24:47",
+  "a": "repentance and the forgiveness of sins",
+  "t": "\"Repentance and forgiveness\" or \"repentance for forgiveness\"",
+  "p": "The editions differ. SBL and Tyndale House read \"repentance and forgiveness\"; NA28 reads \"repentance for the forgiveness of sins.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House; Codex Alexandrinus, Ephraemi, Bezae, Washington, Koridethi (Θ) and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "μετάνοιαν καὶ ἄφεσιν ἁμαρτιῶν",
+    "en": "repentance and forgiveness of sins",
+    "plain": "repentance and the forgiveness of sins"
+   },
+   {
+    "w": "NA28; Papyrus 75, Codex Sinaiticus, Vaticanus and some versions (as reported by Metzger)",
+    "orig": "μετάνοιαν εἰς ἄφεσιν ἁμαρτιῶν",
+    "en": "repentance for the forgiveness of sins",
+    "plain": "repentance for the forgiveness of sins"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings are early. The Plain follows the SBL and Tyndale House editions. \"For the forgiveness\" matches the description of John's baptism (3:3; Mark 1:4) and Acts 2:38, so scribes may have brought it in from there; or \"and\" may be a smoothing. The meaning hardly changes: repentance and forgiveness go together.",
+  "s": [
+   "metzger",
+   "sblgnt",
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "24:49",
+  "a": "remain in the city",
+  "t": "\"The city of Jerusalem\"",
+  "p": "The KJV reads \"tarry ye in the city of Jerusalem.\" The oldest manuscripts say only \"the city.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi, Regius (L) (as reported in NA28)",
+    "orig": "ἐν τῇ πόλει",
+    "en": "in the city",
+    "plain": "remain in the city"
+   },
+   {
+    "w": "Codex Alexandrinus, Washington and most later manuscripts; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἐν τῇ πόλει Ἱερουσαλήμ",
+    "en": "in the city of Jerusalem",
+    "plain": "remain in the city of Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The name makes explicit what the context already says (24:47).",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "24:51",
+  "a": " and was being carried up into heaven",
+  "t": "\"And was carried up into heaven\": a Western non-interpolation",
+  "p": "Codex Sinaiticus (first hand), Bezae and some Old Latin and Syriac witnesses lack these words. The SBL edition prints them in brackets.",
+  "readings": [
+   {
+    "w": "SBLGNT (in brackets), NA28, Tyndale House; Papyrus 75, a corrector of Sinaiticus, Codex Alexandrinus, Vaticanus, Ephraemi, Regius (L), Washington and almost all others; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ ἀνεφέρετο εἰς τὸν οὐρανόν",
+    "en": "and was carried up into heaven",
+    "plain": " and was being carried up into heaven"
+   },
+   {
+    "w": "Codex Sinaiticus (first hand), Bezae (D), several Old Latin manuscripts and the Sinaitic Syriac (as reported by Metzger)",
+    "orig": "(omitted)",
+    "en": "(the words are missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain prints the words with Papyrus 75 and nearly all manuscripts. Some think scribes removed them to avoid a clash with Acts 1:3, where the ascension comes forty days later, or because the Gospel and Acts would then tell it twice; others, that they were added to make the Gospel end with the ascension. Acts 1:2 says the first book told of Jesus' deeds \"until the day he was taken up,\" which favors their presence.",
+  "b": "Without these words, Jesus simply \"stepped away from them,\" as at Emmaus he vanished (24:31). See the deep dive on this chapter page and the note on this verse.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro",
+   "snodgrass-western",
+   "ehrman-corruption"
+  ]
+ },
+ {
+  "v": "24:52",
+  "a": "They bowed down before him, and they",
+  "t": "\"They bowed down before him\": a Western non-interpolation",
+  "p": "Codex Bezae, Old Latin manuscripts and the Sinaitic Syriac lack \"bowing down before him.\" The SBL edition prints it in brackets.",
+  "readings": [
+   {
+    "w": "SBLGNT (in brackets), NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Regius (L), Washington and almost all others; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "καὶ αὐτοὶ προσκυνήσαντες αὐτὸν ὑπέστρεψαν",
+    "en": "And they, having bowed down to him, returned",
+    "plain": "They bowed down before him, and they"
+   },
+   {
+    "w": "Codex Bezae (D), Old Latin manuscripts and the Sinaitic Syriac (as reported by Metzger)",
+    "orig": "καὶ αὐτοὶ ὑπέστρεψαν",
+    "en": "And they returned",
+    "plain": "They"
+   }
+  ],
+  "follow": 0,
+  "why": "The words go with those of 24:51: if Jesus is carried up into heaven, the disciples bow before him. Most editors print both, with Papyrus 75. See the deep dive.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro"
+  ]
+ },
+ {
+  "v": "24:53",
+  "a": "blessing God.",
+  "t": "\"Blessing,\" \"praising\" or \"praising and blessing\"",
+  "p": "The oldest manuscripts say \"blessing God,\" Bezae \"praising God,\" and the KJV \"praising and blessing God. Amen.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 75, Codex Sinaiticus, Vaticanus, Ephraemi (first hand), Regius (L), the Sinaitic Syriac and the Coptic (as reported by Metzger)",
+    "orig": "εὐλογοῦντες τὸν θεόν.",
+    "en": "blessing God.",
+    "plain": "blessing God."
+   },
+   {
+    "w": "Codex Bezae (D) and Old Latin manuscripts",
+    "orig": "αἰνοῦντες τὸν θεόν.",
+    "en": "praising God.",
+    "plain": "praising God."
+   },
+   {
+    "w": "Codex Alexandrinus, Ephraemi (corrected), Washington, Koridethi (Θ) and most later manuscripts; Byzantine majority, Textus Receptus (KJV), most adding \"Amen\"",
+    "orig": "αἰνοῦντες καὶ εὐλογοῦντες τὸν θεόν. ἀμήν.",
+    "en": "praising and blessing God. Amen.",
+    "plain": "praising and blessing God. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "This is a textbook case of what text critics call conflation: later scribes, knowing both \"blessing\" and \"praising,\" kept both. Westcott and Hort used this very verse to show how the Byzantine text grew. \"Amen\" was added when the Gospel was read aloud in church.",
+  "s": [
+   "metzger",
+   "westcott-hort-intro"
+  ]
+ }
+]

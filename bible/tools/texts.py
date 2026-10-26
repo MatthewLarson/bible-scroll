@@ -92,7 +92,7 @@ SBL = {'Mt': 'Mat', 'Mk': 'Mrk', 'Lk': 'Luk', 'Jn': 'Jhn', 'Ac': 'Act', 'Ro': 'R
        '1Th': '1Th', '2Th': '2Th', '1Ti': '1Ti', '2Ti': '2Ti', 'Tit': 'Tit', 'Phm': 'Phm', 'Heb': 'Heb', 'Jas': 'Jas', '1Pe': '1Pe', '2Pe': '2Pe', '1Jn': '1Jn', '2Jn': '2Jn',
        '3Jn': '3Jn', 'Jud': 'Jud', 'Re': 'Rev'}
 for f in sorted(glob.glob(f'{DL}/sblgnt/*-morphgnt.txt')):
-    b = SBL[re.match(r'.*/\d+-(\w+)-morphgnt', f)[1]]; o = ORIG[b]; o['lang'] = 'grc'; d = o.setdefault('sbl', {})
+    b = SBL[re.match(r'\d+-(\w+)-morphgnt', os.path.basename(f))[1]]; o = ORIG[b]; o['lang'] = 'grc'; d = o.setdefault('sbl', {})
     for line in open(f, encoding='utf-8'):
         p = line.split(); k = f'{int(p[0][2:4])}:{int(p[0][4:6])}'
         d[k] = (d[k] + ' ' if k in d else '') + re.sub('[⸀⸁⸂⸃⸄⸅]', '', p[3])
@@ -111,9 +111,10 @@ ED = [('NA28', 'N'), ('NA27', 'n'), ('SBL', 'S'), ('Tyn', 'Y'), ('WH', 'W'), ('T
 for f in sorted(glob.glob(TA + 'TAGNT*.txt')):
     for line in open(f, encoding='utf-8'):
         col = line.rstrip('\n').split('\t')
-        m = re.match(r'^([1-3]?[A-Z][a-z]{1,2})\.(\d+)\.(\d+)#(\d+)=(\S+)$', col[0])
+        # NRSV numbering; [c.v] = the KJV verse where it differs (our key), (c.v) = NA's, {c.v} = other editions'
+        m = re.match(r'^([1-3]?[A-Z][a-z]{1,2})\.(\d+)\.(\d+)(?:\[(\d+)\.(\d+)\]|\(\d+\.\d+\)|\{\d+\.\d+\})?#(\d+)=(\S+)$', col[0])
         if not m: continue
-        b, c, v, wn, typ = m.groups(); key = f'{c}:{v}'
+        b, c, v, kc, kv, wn, typ = m.groups(); key = f'{kc}:{kv}' if kc else f'{c}:{v}'
         g = re.sub(r'\s*\(.*\)$', '', col[1]).strip()
         strong, morph = (col[3].split('=') + [''])[:2]
         lem = col[4].split('=')[0]

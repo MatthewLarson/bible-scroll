@@ -1,0 +1,195 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the people of Israel (\"many Israelites\" in 1:16, \"Israel, his servant\" in 1:54, \"the God of Israel\" in 1:68), not their ancestor Jacob, whose other name was Israel."
+ },
+ {
+  "c": 2,
+  "drop": [
+   "asher"
+  ],
+  "why": "2:36 says Anna was from Asher's tribe, naming the tribe descended from Jacob's son Asher, not Asher himself."
+ },
+ {
+  "c": 3,
+  "drop": [
+   "philip-2"
+  ],
+  "unmap": [
+   "jordan"
+  ],
+  "why": "This text of 3:19 reads \"his brother's wife\". Some manuscripts, followed by the King James Version, add the name Philip from Mark 6:17 and Matthew 14:3, but the chapter here does not name Herodias's first husband; the Philip of 3:1 is a different brother, the tetrarch. Bible Atlas's Jordan point is near the river's sources in the far north, but John works in \"the region around the Jordan\" (3:3), the lower river near the Judean wilderness, so no dot is drawn."
+ },
+ {
+  "c": 3,
+  "add": {
+   "people": {
+    "judah": {
+     "name": "Judah"
+    }
+   }
+  },
+  "why": "3:33 names Judah, Jacob's son and Perez's father, in Jesus' ancestry; Bible Atlas does not link him in this chapter (its Juda here is the Joda of 3:26)."
+ },
+ {
+  "c": 4,
+  "drop": [
+   "joseph",
+   "simon-6",
+   "wife-of-simon"
+  ],
+  "unmap": [
+   "jordan"
+  ],
+  "why": "\"Joseph's son\" in 4:22 means Joseph of Nazareth, Mary's husband, not the patriarch Joseph. The Simon of 4:38 is Simon Peter; Bible Atlas's second Simon here is Judas Iscariot's father, and Peter's wife is implied but not mentioned. Bible Atlas's Jordan point is near the river's sources in the far north, but Jesus comes back from the Jordan where John baptized (4:1, after 3:3 and 3:21), near the Judean wilderness, so no dot is drawn."
+ },
+ {
+  "c": 4,
+  "add": {
+   "people": {
+    "joseph-6": {
+     "name": "Joseph"
+    },
+    "simon": {
+     "name": "Simon"
+    }
+   }
+  },
+  "why": "4:22 names Joseph, Mary's husband, as the townspeople's idea of Jesus' father, and 4:38 names Simon Peter, whose house and mother-in-law are there."
+ },
+ {
+  "c": 5,
+  "drop": [
+   "simon-6"
+  ],
+  "why": "Every Simon in chapter 5 is Simon Peter (5:3-10), who is already linked; Bible Atlas's second Simon here is Judas Iscariot's father."
+ },
+ {
+  "c": 5,
+  "add": {
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "Lake Gennesaret (5:1) is another name for the Sea of Galilee, where the boats are and the catch is made (5:1-11); Bible Atlas links Gennesaret but not the lake itself."
+ },
+ {
+  "c": 6,
+  "drop": [
+   "sermon-on-the-mount"
+  ],
+  "why": "Luke's sermon (6:20-49) is given after Jesus comes down the mountain and stands \"on a stretch of flat ground\" (6:17), so it is often called the Sermon on the Plain. Many readers take it as Luke's form of the same teaching as Matthew 5-7, others as a separate occasion; either way, the Sermon on the Mount itself is in Matthew."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "simon-6"
+  ],
+  "why": "The Simon of 7:40-44 is the Pharisee who invited Jesus to dinner (7:36). Bible Atlas has no entry for him and links Judas Iscariot's father instead."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "heber",
+   "blind-and-dumb-demoniac-and-following-discourse"
+  ],
+  "why": "No Heber is named in chapter 8; Bible Atlas links Asher's grandson Heber to \"Herod's\" in 8:3. The healing of the mute man and the debate that follows come in 11:14-26, where they are linked; Matthew attaches the visit of Jesus' mother and brothers to that debate, but Luke tells it here (8:19-21) without it."
+ },
+ {
+  "c": 8,
+  "add": {
+   "people": {
+    "herod-antipas": {
+     "name": "Herod Antipas"
+    },
+    "satan": {
+     "name": "Satan"
+    }
+   },
+   "places": {
+    "sea-of-galilee": {
+     "name": "Sea of Galilee",
+     "lat": 32.8138046,
+     "lon": 35.590564
+    }
+   }
+  },
+  "why": "8:3 calls Chuza the steward of Herod, Herod Antipas, ruler of Galilee; 8:12 names the devil. \"The lake\" Jesus crosses and calms (8:22-25), into which the pigs rush (8:33), is the Sea of Galilee. The land of the Gerasenes (8:26, 8:37) has no entry in Bible Atlas, so it cannot be linked."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "seaside-parables-and-miracle"
+  ],
+  "why": "The parables by the lake and the calming of the storm are told in 8:4-25, where they are linked. The would-be followers of 9:57-62, whom Matthew 8:18-22 places just before the storm, come in Luke on the road toward Jerusalem."
+ },
+ {
+  "c": 11,
+  "drop": [
+   "south"
+  ],
+  "why": "In 11:31 \"the queen from the south\" describes where the queen came from; \"south\" is a direction, not a place. Readers usually identify her with the queen of Sheba of 1 Kings 10, but the verse does not name Sheba."
+ },
+ {
+  "c": 13,
+  "drop": [
+   "josiah-2"
+  ],
+  "why": "Bible Atlas links Josiah son of Zephaniah here because he is also called Hen (Zechariah 6:14), and the King James Version of 13:34 speaks of \"a hen\". The verse's mother bird gathering her brood is an image for Jesus; no Josiah is named."
+ },
+ {
+  "c": 19,
+  "drop": [
+   "olivet"
+  ],
+  "why": "Bible Atlas has two entries for the Mount of Olives at the same point, Olivet and Mount of Olives, and links both to 19:29 and 19:37; the duplicate is dropped."
+ },
+ {
+  "c": 20,
+  "add": {
+   "people": {
+    "tiberius": {
+     "name": "Tiberius"
+    }
+   }
+  },
+  "why": "\"Caesar\" in 20:22-25 is the emperor reigning at the time, Tiberius (AD 14-37), whose head and name were on the denarius; 3:1 names him."
+ },
+ {
+  "c": 23,
+  "add": {
+   "people": {
+    "tiberius": {
+     "name": "Tiberius"
+    }
+   },
+   "places": {
+    "arimathea": {
+     "name": "Arimathea",
+     "lat": 31.83273947,
+     "lon": 35.18016286
+    },
+    "judea": {
+     "name": "Judea",
+     "lat": 31.777444,
+     "lon": 35.234935
+    }
+   }
+  },
+  "why": "\"Caesar\" in 23:2 is the reigning emperor, Tiberius. 23:51 names Arimathea, Joseph's home town, and 23:5 names Judea, where Jesus taught; Bible Atlas does not link them here."
+ },
+ {
+  "c": 24,
+  "unmap": [
+   "emmaus"
+  ],
+  "why": "Bible Atlas puts Emmaus at Emmaus-Nicopolis (Imwas, near Latrun), about 160 stadia (18 miles) from Jerusalem. This text of 24:13 follows the great majority of manuscripts, \"sixty stadia\" (about 7 miles); Codex Sinaiticus and a few others read 160, which fits Nicopolis. Several sites about 60 stadia away have been proposed (el-Qubeibeh, Abu Ghosh, Motza), and none is certain, so no dot is drawn."
+ }
+]

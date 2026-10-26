@@ -1,0 +1,413 @@
+[
+ {
+  "v": "18:24",
+  "a": "Jesus looked at him",
+  "t": "\"Saw that he had grown sad\"?",
+  "p": "Some editions and the KJV add that Jesus saw the man had become very sad.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), L, family 1 and the Coptic (as usually reported; not checked here against the NA28 apparatus); printed by SBLGNT, THGNT and Westcott-Hort",
+    "orig": "Ἰδὼν δὲ αὐτὸν ὁ Ἰησοῦς εἶπεν",
+    "en": "Jesus, seeing him, said",
+    "plain": "Jesus looked at him"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ, family 13 and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); printed in square brackets by NA28 and NA27; Textus Receptus (KJV)",
+    "orig": "Ἰδὼν δὲ αὐτὸν ὁ Ἰησοῦς περίλυπον γενόμενον εἶπεν",
+    "en": "Jesus, seeing him become very sad, said",
+    "plain": "Jesus saw that he had grown very sad. He looked at him"
+   }
+  ],
+  "follow": 0,
+  "why": "The editors are split. The words repeat \"very sad\" from 18:23, which is just the kind of addition a copyist makes to smooth a story, and the SBL and Tyndale House editors judged them secondary. NA28 prints them in square brackets, which marks real doubt about whether they belong. The meaning hardly changes.",
+  "s": [
+   "sblgnt",
+   "thgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "18:28",
+  "a": "We left what was ours",
+  "t": "\"Our own things\" or \"everything\"?",
+  "p": "The KJV's \"we have left all\" follows later manuscripts that match Mark and Matthew.",
+  "readings": [
+   {
+    "w": "Sinaiticus as first written (01*), Vaticanus (03), Bezae (05) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἀφέντες τὰ ἴδια ἠκολουθήσαμέν σοι",
+    "en": "leaving our own things, we followed you",
+    "plain": "We left what was ours"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "ἀφήκαμεν πάντα καὶ ἠκολουθήσαμέν σοι",
+    "en": "we left everything and followed you",
+    "plain": "We left everything"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Everything\" (<i>panta</i>) is the word of Mark 10:28 and Matthew 19:27, so copyists who knew those Gospels would naturally bring Luke into line. \"Our own things\" (<i>ta idia</i>) is Luke's distinct wording, the phrase he uses again for the believers' property in Acts 4:32.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "18:30",
+  "a": "many times as much",
+  "t": "\"Many times\" or \"seven times\"?",
+  "p": "A few witnesses promise \"seven times as much\"; Mark and Matthew have \"a hundred times.\"",
+  "readings": [
+   {
+    "w": "Almost all manuscripts; NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "πολλαπλασίονα",
+    "en": "many times more",
+    "plain": "many times as much"
+   },
+   {
+    "w": "Codex Bezae (05) and some Old Latin manuscripts (as usually reported; not checked here against the NA28 apparatus)",
+    "orig": "ἑπταπλασίονα",
+    "en": "seven times more",
+    "plain": "seven times as much"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Seven times\" is supported by only a few witnesses, and looks like a copyist's change to a familiar biblical number (compare Proverbs 6:31, a thief repays sevenfold). Luke's vaguer \"many times\" differs from both Mark's and Matthew's \"a hundred times,\" which is why some scribes tried to make it concrete.",
+  "s": [
+   "na28",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "19:5",
+  "a": "looked up",
+  "t": "\"And saw him\"",
+  "p": "The KJV's \"he looked up, and saw him\" follows the Byzantine text, which adds \"saw him.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, THGNT and the older manuscripts (not named here)",
+    "orig": "ἀναβλέψας ὁ Ἰησοῦς εἶπεν",
+    "en": "looking up, Jesus said",
+    "plain": "looked up"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "ἀναβλέψας ὁ Ἰησοῦς εἶδεν αὐτόν καὶ εἶπεν",
+    "en": "looking up, Jesus saw him and said",
+    "plain": "looked up and saw him"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words spell out what \"looked up\" implies. The shorter text is the one the critical editions print; the meaning is the same.",
+  "s": [
+   "na28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "19:25",
+  "a": "'Master,' they said to him, 'he has ten minas!'",
+  "t": "A verse some witnesses lack",
+  "p": "A few early witnesses leave out the bystanders' protest, so that the king's speech runs straight on.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts, including Sinaiticus (01) and Vaticanus (03); NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "καὶ εἶπαν αὐτῷ· Κύριε, ἔχει δέκα μνᾶς",
+    "en": "and they said to him, 'Lord, he has ten minas'",
+    "plain": "'Master,' they said to him, 'he has ten minas!'"
+   },
+   {
+    "w": "Codex Bezae (05), Washington (W), some Old Latin manuscripts and the Old Syriac (as usually reported; not checked here against the NA28 apparatus)",
+    "orig": "",
+    "en": "(verse absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse breaks the flow between 19:24 and 19:26, which is a reason a copyist might drop it, and the reading that keeps it is far better attested. All the major editions print it as part of Luke's text.",
+  "s": [
+   "na28",
+   "marshall-luke"
+  ]
+ },
+ {
+  "v": "19:38",
+  "a": "the King who comes",
+  "t": "\"The King who comes\" or \"the one who comes\"?",
+  "p": "Manuscripts differ over where, or whether, \"the King\" stands in the disciples' cry.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (03) and others; NA28, SBLGNT, THGNT; Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Εὐλογημένος ὁ ἐρχόμενος βασιλεὺς ἐν ὀνόματι κυρίου",
+    "en": "Blessed is the coming King in the name of the Lord",
+    "plain": "the King who comes"
+   },
+   {
+    "w": "Some manuscripts, in several forms, which bring the line closer to Psalm 118:26 and Mark 11:9 (the NA28 apparatus lists them)",
+    "orig": "Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου",
+    "en": "Blessed is the one who comes in the name of the Lord",
+    "plain": "the one who comes"
+   }
+  ],
+  "follow": 0,
+  "why": "The followed reading is the best attested and the hardest, since the word order is awkward in Greek. The other forms look like copyists either matching the psalm and the other Gospels or moving \"King\" to a smoother place. The word \"King\" fits Luke's story, where the charge on the cross is \"the King of the Jews\" (23:38).",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "19:42",
+  "a": "If only you too had recognized on this day",
+  "t": "\"At least in this your day\"",
+  "p": "The KJV's \"even thou, at least in this thy day\" follows the Byzantine text, which adds a few words.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "Εἰ ἔγνως ἐν τῇ ἡμέρᾳ ταύτῃ καὶ σὺ τὰ πρὸς εἰρήνην",
+    "en": "If you had known on this day, even you, the things for peace",
+    "plain": "If only you too had recognized on this day"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "Εἰ ἔγνως καὶ σύ, καί γε ἐν τῇ ἡμέρᾳ σου ταύτῃ, τὰ πρὸς εἰρήνην σου",
+    "en": "If you had known, even you, at least in this your day, the things for your peace",
+    "plain": "If only you too had recognized, at least on this day of yours,"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text adds \"at least\" and two \"your\"s, emphatic words that heighten the lament. The shorter text is older and its additions are easy to explain as a copyist's emphasis. The meaning is the same.",
+  "s": [
+   "na28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "19:45",
+  "a": "who were selling",
+  "t": "Selling and buying",
+  "p": "The KJV adds \"and them that bought\" from the Byzantine text, as in Mark 11:15.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἐκβάλλειν τοὺς πωλοῦντας",
+    "en": "to drive out those selling",
+    "plain": "who were selling"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "ἐκβάλλειν τοὺς πωλοῦντας ἐν αὐτῷ καὶ ἀγοράζοντας",
+    "en": "to drive out those selling in it and buying",
+    "plain": "who were selling and buying in it"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words match Mark 11:15 and Matthew 21:12, the usual direction of copyists' changes. Luke's own account is shorter.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "19:46",
+  "a": "will be",
+  "t": "\"Will be\" or \"is\" a house of prayer?",
+  "p": "The KJV's \"My house is the house of prayer\" follows the Byzantine text; the critical text has \"will be.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, THGNT and the older manuscripts (not named here)",
+    "orig": "Καὶ ἔσται ὁ οἶκός μου οἶκος προσευχῆς",
+    "en": "And my house will be a house of prayer",
+    "plain": "will be"
+   },
+   {
+    "w": "Byzantine majority, Textus Receptus (KJV)",
+    "orig": "Ὁ οἶκός μου οἶκος προσευχῆς ἐστίν",
+    "en": "My house is a house of prayer",
+    "plain": "is"
+   }
+  ],
+  "follow": 0,
+  "why": "Isaiah 56:7, which Jesus quotes, says the house \"will be called\" a house of prayer, and Mark 11:17 and Matthew 21:13 keep that future. Luke's older text keeps a future too (\"will be\"); the Byzantine \"is\" turns the promise into a statement and is probably a later smoothing. The point is the same: the temple was meant for prayer.",
+  "s": [
+   "na28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "20:23",
+  "a": "and said to them,",
+  "t": "\"Why are you testing me?\"",
+  "p": "The KJV's \"Why tempt ye me?\" comes from the Byzantine text, matching Mark and Matthew.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), L, family 1 and 33 (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "εἶπεν πρὸς αὐτούς",
+    "en": "he said to them",
+    "plain": "and said to them,"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ, family 13 and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "εἶπεν πρὸς αὐτούς, Τί με πειράζετε;",
+    "en": "he said to them, 'Why are you testing me?'",
+    "plain": "and said to them, \"Why are you putting me to the test?\""
+   }
+  ],
+  "follow": 0,
+  "why": "The question appears in Mark 12:15 and Matthew 22:18, and its absence from the older witnesses of Luke is best explained if later copyists added it from there.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "20:30",
+  "a": "Then the second,",
+  "t": "The second brother",
+  "p": "The critical text says only \"and the second\"; the KJV has \"the second took her to wife, and he died childless.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), Bezae (05) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "καὶ ὁ δεύτερος",
+    "en": "and the second",
+    "plain": "Then the second,"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "καὶ ἔλαβεν ὁ δεύτερος τὴν γυναῖκα, καὶ οὗτος ἀπέθανεν ἄτεκνος",
+    "en": "and the second took the wife, and he died childless",
+    "plain": "Then the second took the woman as his wife, and he died childless."
+   }
+  ],
+  "follow": 0,
+  "why": "The short reading is abrupt, which is why copyists filled it out from the pattern of 20:29. Luke's terse \"and the second, and the third took her\" runs 20:30 into 20:31. The meaning is unchanged.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "20:34",
+  "a": "take wives and are given as wives",
+  "t": "Born and giving birth",
+  "p": "Codex Bezae and some Old Latin manuscripts add that the people of this age \"are born and give birth.\"",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts; NA28, SBLGNT, THGNT, Textus Receptus",
+    "orig": "γαμοῦσιν καὶ γαμίσκονται",
+    "en": "marry and are given in marriage",
+    "plain": "take wives and are given as wives"
+   },
+   {
+    "w": "Codex Bezae (05) and some Old Latin manuscripts (as reported by Marshall)",
+    "orig": "γεννῶνται καὶ γεννῶσιν, γαμοῦσιν καὶ γαμίσκονται",
+    "en": "are born and beget, marry and are given in marriage",
+    "plain": "are born and give birth, take wives and are given as wives"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition has little support. It spells out the reason for marriage in this age: people die, so they must have children. That is the point Luke's next verses make (20:36), and a reader probably wrote it in.",
+  "s": [
+   "marshall-luke",
+   "parker-bezae"
+  ]
+ },
+ {
+  "v": "21:4",
+  "a": "put their gifts into the offerings",
+  "t": "\"The offerings of God\"",
+  "p": "The KJV says the rich \"cast in unto the offerings of God,\" following later manuscripts.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ἔβαλον εἰς τὰ δῶρα",
+    "en": "put into the gifts",
+    "plain": "put their gifts into the offerings"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Tregelles; Textus Receptus (KJV)",
+    "orig": "ἔβαλον εἰς τὰ δῶρα τοῦ θεοῦ",
+    "en": "put into the gifts of God",
+    "plain": "put their gifts into God's offerings"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Of God\" explains what the \"gifts\" are, a natural copyist's addition. The shorter reading is older.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "21:19",
+  "a": "Win your lives",
+  "t": "Command or promise?",
+  "p": "Some old manuscripts have a promise, \"you will win your lives,\" instead of a command.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Bezae (05), L, W, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT, Textus Receptus (KJV \"possess ye\")",
+    "orig": "κτήσασθε τὰς ψυχὰς ὑμῶν",
+    "en": "gain your souls",
+    "plain": "Win your lives"
+   },
+   {
+    "w": "Alexandrinus (02), Vaticanus (03), Θ, family 1, family 13 and 33 (as usually reported; not checked here against the NA28 apparatus); printed by Westcott-Hort and Tregelles",
+    "orig": "κτήσεσθε τὰς ψυχὰς ὑμῶν",
+    "en": "you will gain your souls",
+    "plain": "You will win your lives"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek forms differ by one letter. The future is well supported and some translations follow it, but it may have come in from the future tenses of the parallel sayings (Mark 13:13, \"will be saved\"). Either way, endurance and life go together.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "21:35",
+  "a": "like a snare. For it will burst in",
+  "t": "Where the snare goes",
+  "p": "The KJV joins \"as a snare\" to the next clause: \"For as a snare shall it come on all them.\"",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), Bezae (05) and L (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT",
+    "orig": "ὡς παγίς· ἐπεισελεύσεται γὰρ",
+    "en": "like a snare; for it will come in",
+    "plain": "like a snare. For it will burst in"
+   },
+   {
+    "w": "Alexandrinus (02), W, Θ, Ψ and the Byzantine majority (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "ὡς παγὶς γὰρ ἐπελεύσεται",
+    "en": "for like a snare it will come",
+    "plain": "For like a snare it will burst in"
+   }
+  ],
+  "follow": 0,
+  "why": "In the older text, \"like a snare\" ends the warning of 21:34: the day springs on the careless like a trap. The Byzantine text moves the \"for\" so that the snare describes how the day comes on the whole earth. The sense is close either way.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "21:36",
+  "a": "for the strength",
+  "t": "Strength, or counted worthy?",
+  "p": "The KJV's \"that ye may be accounted worthy to escape\" follows the Byzantine text.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), L, W, Ψ, family 1 and 33 (as usually reported; not checked here against the NA28 apparatus); NA28, SBLGNT, THGNT, Westcott-Hort",
+    "orig": "ἵνα κατισχύσητε ἐκφυγεῖν",
+    "en": "that you may have strength to escape",
+    "plain": "for the strength"
+   },
+   {
+    "w": "Alexandrinus (02), C, Bezae (05), Θ, family 13, the Byzantine majority, the Latin and the Syriac (as usually reported; not checked here against the NA28 apparatus); Textus Receptus (KJV)",
+    "orig": "ἵνα καταξιωθῆτε ἐκφυγεῖν",
+    "en": "that you may be counted worthy to escape",
+    "plain": "that you will be counted worthy"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Counted worthy\" may come from 20:35, \"those found worthy to reach that age,\" where the same verb is used. The critical editions print \"have strength.\" The two readings give different pictures of prayer: for power to endure, or for God's verdict of approval. Note that Codex Alexandrinus, despite its name, has \"counted worthy\" here, not the reading of the Alexandrian manuscripts.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ }
+]
