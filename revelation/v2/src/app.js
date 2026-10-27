@@ -85,7 +85,7 @@ page('intro','Opening',`
   <p class="hand muted" style="font-size:1.1rem;margin-top:4px">of Jesus Christ, shown to John on Patmos</p>
   ${ART.intro()}
   <p class="lede">Revelation is the last book of the Bible. A man named John wrote it while exiled on the island of Patmos, probably around AD 95 under the emperor Domitian. Some scholars date it earlier, in the late 60s under Nero, and that date matters a lot for the preterist view.</p>
-  <p>It is three kinds of writing at once: a <b>letter</b> to seven churches (1:4), a <b>prophecy</b> (1:3), and an <b>apocalypse</b>, a Jewish style of writing that shows heaven's view of earth through symbols. It has 22 chapters and 404 verses. It echoes the Old Testament more than any other New Testament book, yet it never once says "as it is written."</p>
+  <p>It is three kinds of writing at once: a <b>letter</b> to seven churches (1:4), a <b>prophecy</b> (1:3), and an <b>apocalypse</b>, a Jewish style of writing that shows heaven's view of earth through symbols. It has 22 chapters and 404 verses. It echoes the Old Testament more than any other New Testament book, yet it never once says "as it is written." Most academic scholars read it first as a message to those churches about Rome in their own day, and some Jewish scholars read it as a Jewish apocalypse by a writer who still saw himself as part of Judaism; Christians have also read it in four main ways, set out on the next page.</p>
   <h3>How to read this scroll</h3>
   <p>Every chapter has two pages. On the left is a <b>commentary</b> page: a summary, the key verse, literal and symbolic readings, and the four main views. On the right is the <b>text</b> of the chapter itself. On a wide screen you see both at once; on a phone, swipe from one to the next.</p>
   <p>The top row jumps to any chapter. The second row lists <b>topic pages</b>: deep dives on people, places, symbols, words and ideas. When you open a chapter, that row narrows to the topics in that chapter.</p>
@@ -107,6 +107,7 @@ page('views','Four ways to read',`
     <li class="F">${lensGlyph('F')}<b>Futurist</b><span>Chapters 4–22 describe events still to come: a tribulation, the Antichrist, Christ's return, and a 1,000-year reign. Most popular American teaching today is a form of this, often dispensational.</span></li>
     <li class="I">${lensGlyph('I')}<b>Idealist</b><span>A symbolic picture of the battle between God and evil in every age, not a timeline. Its roots go back to Augustine. Many modern scholars mix it with other readings.</span></li>
   </ul>
+  <p>Most academic scholars, in universities and many seminaries, read Revelation another way, outside the four: as a message to the churches of John's own day about Rome, written in the style of the Jewish apocalypses, with no claim to map out later history. This is called the historical-critical or contemporary-historical reading (Adela Yarbro Collins, David Aune, Steven Friesen, Craig Koester). It shares the preterist view's first-century setting but not its claim that John foretold AD 70. It is the majority view among academic biblical scholars. Futurists and historicists reject it, and many conservative scholars accept its first-century setting while holding that the book also speaks truly of the future. Some Jewish scholars (John W. Marshall, David Frankfurter) read it as a Jewish apocalypse by a writer who still thought of himself as inside Judaism.</p>
   <p class="small">Use <b>Lens</b> at the top to highlight one view across every chapter.</p>
   <h3>Literal or symbolic?</h3>
   ${spectrum()}
@@ -126,7 +127,7 @@ page('keys','Keys to the code',`
   <p class="small"><b>One after another:</b> 21 events in a row, common in popular futurism. <b>Nested:</b> the seventh seal opens into the trumpets, and the seventh trumpet into the bowls. <b>Retold:</b> each set covers the same period with growing intensity (a third, then all). This view, called recapitulation, goes back to Victorinus around AD 260, author of the oldest surviving commentary on Revelation. Support for it: the sixth seal already sounds like the end (6:12–17), and the seventh of each set ends with thunder, lightning and an earthquake (8:5; 11:19; 16:18).</p>
   <h3>The time markers</h3>
   <ul class="decoder">
-    <li><b>3½ years</b><span>Named five ways: 42 months (11:2; 13:5), 1,260 days (11:3; 12:6), "a time, times and half a time" (12:14), from Daniel 7:25 and 12:7.</span></li>
+    <li><b>3½ years</b><span>Named five ways: 42 months (11:2; 13:5), 1,260 days (11:3; 12:6), "a time, and times, and half a time" (12:14), from Daniel 7:25 and 12:7.</span></li>
     <li><b>3½ days</b><span>The witnesses lie dead (11:9, 11).</span></li>
     <li><b>5 months</b><span>The locusts (9:5, 10).</span></li>
     <li><b>½ hour</b><span>Silence in heaven (8:1).</span></li>
@@ -135,7 +136,7 @@ page('keys','Keys to the code',`
     <li><b>1,000 years</b><span>Satan bound; the saints reign (20:2–7).</span></li>
   </ul>
   <h3>Revelation's own decoder</h3>
-  <p class="small">Sometimes the book explains its own symbols. Start here before guessing. Every time it decodes a symbol, it decodes it into a person, a group or a city, never into a date.</p>
+  <p class="small">Sometimes the book explains its own symbols. Start here before guessing. When it decodes a symbol, it never decodes it into a date.</p>
   <ul class="decoder">${DECODER.map(([r,t])=>`<li><b>${r}</b><span>${t}</span></li>`).join('')}</ul>
   ${topicChips(['structure','sevens','three-and-a-half','daniel'])}
 `);
@@ -195,10 +196,10 @@ CHAPTERS.forEach(c => {
 page('beasts','The beasts',`
   <div class="cart study">Study page</div>
   <h2>The Beasts and What They Stand For</h2>
-  <p class="lede">Revelation's creatures are built from Old Testament pieces, so the best first clue to any beast is where its parts came from. "Strongest reading" is my judgment of what the text supports best; the alternatives are given fairly.</p>
+  <p class="lede">Revelation's creatures are built from Old Testament pieces, so the best first clue to any beast is where its parts came from. "Strongest reading" is Claude's judgment of what the text supports best, not a church's or a consensus; the alternatives are given fairly.</p>
   ${BEASTS.map(b=>`<div class="card"><h4>${b[0]} <span class="small muted" style="font-family:var(--f-body)">${b[1]}</span></h4><dl><dt>What John sees</dt><dd>${b[2]}</dd><dt>Built from</dt><dd>${b[3]}</dd><dt>Strongest reading</dt><dd>${b[4]}</dd><dt>Other readings</dt><dd>${b[5]}</dd></dl></div>`).join('')}
   <h3>The pattern behind them</h3>
-  <p>Every evil figure in Revelation is a cheap copy of something holy. The dragon, the beast and the false prophet imitate the Father, the Son and the Spirit (16:13). The beast has a death-wound "as slaughtered," like the Lamb (13:3; 5:6). The land beast has horns "like a lamb" (13:11). The beast "was, is not, and is to come," mocking God, who "is, was and is to come" (17:8; 1:4). The mark on the forehead copies God's seal (13:16; 7:3). A reader who learns to spot the counterfeit is doing what 13:18 asks: "This calls for wisdom."</p>
+  <p>Every evil figure in Revelation is a cheap copy of something holy. The dragon, the beast and the false prophet imitate the Father, the Son and the Spirit (16:13). The beast has a death-wound "as slaughtered," like the Lamb (13:3; 5:6). The land beast has horns "like a lamb" (13:11). The beast "was, and is not, and is about to come up," mocking God, "who is, who was, and who is coming" (17:8; 1:4). The mark on the forehead copies God's seal (13:16; 7:3). A reader who learns to spot the counterfeit is doing what 13:18 asks: "Here is where wisdom comes in."</p>
   ${topicChips(['dragon','beasts','false-prophet','unholy-trinity','666','mark','antichrist','nero'])}
 `);
 
@@ -211,7 +212,7 @@ page('israel','Church and Israel',`
     <div><h3 style="color:var(--lapis)">For two distinct peoples</h3><ul>
       <li>"Church" appears 19 times in chapters 1–3, then not again until 22:16.</li>
       <li>The 144,000 are listed tribe by tribe (7:4–8).</li>
-      <li>Jerusalem is central: "where their Lord was crucified" (11:8), "the beloved city" (20:9).</li>
+      <li>Jerusalem is central: "where their Lord too was crucified" (11:8), "the beloved city" (20:9).</li>
       <li>The woman of chapter 12 matches Joseph's dream of Israel (Genesis 37:9).</li>
       <li>Paul expects a future turning of Israel (Romans 11:25–26).</li></ul></div>
     <div><h3 style="color:var(--olive)">For one people</h3><ul>
@@ -219,7 +220,7 @@ page('israel','Church and Israel',`
       <li>"Those who say they are Jews and are not" (2:9; 3:9).</li>
       <li>John hears 144,000 from Israel and sees a crowd from every nation (7:4, 9).</li>
       <li>One bride (19:7). One city, with Israel's tribes on the gates and the apostles on the foundations (21:12–14).</li>
-      <li>Paul: "If you belong to Christ, you are Abraham's offspring" (Galatians 3:29).</li></ul></div>
+      <li>Paul: those who belong to Christ are Abraham's offspring and heirs of the promise (Galatians 3:29).</li></ul></div>
   </div>
   <h3>The main positions</h3>
   ${[['Dispensational','Two peoples with two sets of promises. The church is raptured before the tribulation, and God then deals with national Israel.','Chapters 6–19 are Daniel’s 70th week for Israel. The 144,000 are Jewish. The millennium fulfills Israel’s land promises.'],
@@ -229,7 +230,7 @@ page('israel','Church and Israel',`
      ['Preterist','Varies. The focus is judgment on first-century Jerusalem’s leaders, not on the Jewish people.','Babylon may be Jerusalem in AD 70. This has been misused to fuel hostility toward Jews, which careful preterists firmly reject.'],
      ['Messianic Jewish','One body in Messiah, in which Jewish believers keep their Jewish identity and calling.','Reads the tribal names and Jerusalem as lasting signs of God’s faithfulness to Israel.']]
      .map(([a,b,c])=>`<div class="card"><h4>${a}</h4><dl><dt>Israel and church</dt><dd>${b}</dd><dt>Reading Revelation</dt><dd>${c}</dd></dl></div>`).join('')}
-  ${specCard({title:'One tree, with Israel at its root', body:`Revelation never "replaces" Israel. It names the tribes one by one and writes them on the gates of the final city. But it also never keeps two separate peoples in its final picture: one bride, one city, one Lamb. My reading is closest to Paul's single olive tree in Romans 11, where Israel is the trunk and the nations are grafted in. The tribe names on the gates say "you enter through Israel," and the apostles on the foundations say "you stand on the gospel."`, refs:'Romans 11:17–24; 21:12–14; 19:7'})}
+  ${specCard({title:'One tree, with Israel at its root', body:`Revelation never "replaces" Israel. It names the tribes one by one and writes them on the gates of the final city. But it also never keeps two separate peoples in its final picture: one bride, one city, one Lamb. My reading is closest to Paul's single olive tree in Romans 11, where Israel is the trunk and the nations are grafted in. The tribe names on the gates say "you enter through Israel," and the apostles on the foundations say "you stand on the gospel."`, refs:'Romans 11:17–24; Revelation 21:12–14; Revelation 19:7'})}
   <h3>Notes on this question in the text</h3>
   <ul class="ideas">${ISR.map(n=>`<li>${noteLink(n)}<p class="muted">${n.v}</p></li>`).join('')}</ul>
   ${topicChips(['church-israel','144000','twelve-tribes','woman-of-ch12','jerusalem','synagogue-of-satan','temple'])}

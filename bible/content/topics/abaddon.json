@@ -1,9 +1,13 @@
 {
  "id": "abaddon",
- "title": "Abaddon / Apollyon",
- "kind": "People",
- "aka": [],
- "lead": "\"They had as king over them the angel of the abyss. His name in Hebrew is Abaddon, and in Greek it is Apollyon\" (9:11). Abaddon is Hebrew for \"destruction\"; Apollyon is Greek for \"Destroyer.\"",
+ "title": "Abaddon",
+ "kind": "Places",
+ "aka": [
+  "Apollyon",
+  "Destroyer",
+  "place of destruction"
+ ],
+ "lead": "Abaddon, Hebrew for \"destruction,\" is a name for the realm of the dead, paired with Sheol and Death (Job 26:6; Job 28:22; Psalm 88:11; Proverbs 15:11; Proverbs 27:20). Revelation turns the place into a ruler: the king of the locusts, the angel of the abyss, named Abaddon in Hebrew and Apollyon, \"Destroyer,\" in Greek (Revelation 9:11).",
  "sections": [],
  "links": [
   [
@@ -16,5 +20,7 @@
   ]
  ],
  "sources": [],
- "origin": "Rev"
+ "related": [
+  "sheol"
+ ]
 }

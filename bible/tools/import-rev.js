@@ -17,8 +17,8 @@ const appTop = appSrc.slice(0, appSrc.indexOf("const sheet = $('sheet')"));
 const kjv = JSON.parse(read(path.join(ROOT, 'texts/en/Rev.json'))).kjv, gk = JSON.parse(read(path.join(ROOT, 'texts/orig/Rev.json'))).sbl;
 const stub = `var matchMedia = () => ({matches:false}); var localStorage = {getItem(){return null}, setItem(){}}; var document = {getElementById(){return null}};`;
 const code = files.map(read).join('\n') + '\n' + read(S + 'refs.js') + '\nconst KEYV = new Proxy({}, {get:(_, k) => ({kjv:KJV[k]||"", gk:GK[k]||""})});\n' + appTop;
-const X = new Function('KJV', 'GK', stub + code + `;return {CHAPTERS, NOTES, TOPICS, WORDS, STATIONS, EXTRA, BEASTS, DECODER, GLOSSES, PLAIN_SRC, SRC, ART, LENS, KIND, BOOKS, PROMPTS, STYLE, ART_SOURCES, pages, CH_TOPICS, ABOUT, NOTE_TYPES, blockHTML, factsBox: typeof factsBox !== 'undefined' ? factsBox : null};`)(kjv, gk);
-const strip = s => String(s).replace(/<[^>]+>/g, '');
+const X = new Function('KJV', 'GK', stub + code + `;return {CHAPTERS, NOTES, TOPICS, WORDS, STATIONS, EXTRA, BEASTS, DECODER, GLOSSES, PLAIN_SRC, SRC, ART, LENS, KIND, BOOKS, PROMPTS, STYLE, ART_SOURCES, pages, CH_TOPICS, ABOUT, NOTE_TYPES, blockHTML, factsBox: typeof factsBox !== 'undefined' ? factsBox : null, EXTRA_PLACE: typeof EXTRA_PLACE !== 'undefined' ? EXTRA_PLACE : {}};`)(kjv, gk);
+const strip = s => String(s).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
 
 /* plain text: straight quotes, as the writing guide asks */
 W('plain.txt', X.PLAIN_SRC.trim().replace(/[“”]/g, '"').replace(/[‘’]/g, "'") + '\n');
@@ -28,6 +28,8 @@ const fixq = s => s.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
 const notes = X.NOTES.map(n => { const w = n.w ? X.WORDS[n.w] : null;
   const o = {v:n.v, a:fixq(n.a), type:n.type, t:n.t || w.title, p:n.p || '', b:n.b || w.body};
   if(w){ o.orig = w.greek; o.kind = w.kind; }
+  if(n.greek) o.orig = n.greek;
+  if(n.kind) o.kind = n.kind;
   ['r','l','s','top'].forEach(k => { if(n[k]) o[k] = n[k]; });
   if(o.top === 'translations-guide') delete o.top;
   return o; });
@@ -35,27 +37,34 @@ W('notes.json', notes);
 W('glosses.json', X.GLOSSES.map(g => ({v:g.v, a:fixq(g.a), m:g.m})));
 
 /* chapters */
-const STATION_AT = {}; X.STATIONS.forEach(s => { if(!STATION_AT[s.ch[0]]) STATION_AT[s.ch[0]] = s; });
+/* a station spans one or two chapters; EXTRA_PLACE says which chapter page shows each of its extras (default: the first; 0 = hidden).
+   Every station covering a chapter contributes (the ch22 station overlaps ch21's [21,22]). */
+const placeOf = (st, kind, i) => { const p = (X.EXTRA_PLACE[st.id] || {})[kind]; const v = Array.isArray(p) ? p[i] : p; return v === undefined ? st.ch[0] : v; };
 const chapters = X.CHAPTERS.map(c => {
-  const st = STATION_AT[c.n], E = st ? (X.EXTRA[st.id] || {}) : {}, deep = [];
+  const deep = [], links = [];
   (c.deep || []).forEach(d => deep.push(d.spec ? {box:'spec', title:d.title, b:d.body, refs:d.refs} : {b:X.blockHTML(d)}));
-  if(st){
-    if(st.extra) deep.push({box:'fact', b:st.extra.replace(/^<p[^>]*>|<\/p>$/g, '')});
-    (E.facts || []).forEach(f => deep.push({box:'fact', b:f}));
-    (E.myths || []).forEach(m => deep.push({box:'myth', title:m.title, tag:m.culture, note:m.link2, b:m.body, l:[m.link]}));
-    if(st.israel) deep.push({box:'israel', b:st.israel});
-    [st.spec, st.spec2].filter(Boolean).forEach(s => deep.push({box:'spec', title:s.title, b:s.body, refs:s.refs}));
-  }
+  X.STATIONS.filter(st => st.ch.includes(c.n)).forEach(st => {
+    const E = X.EXTRA[st.id] || {}, here = (kind, i) => placeOf(st, kind, i) === c.n;
+    if(st.extra && here('extra')) deep.push({box:'fact', b:st.extra.replace(/^<p[^>]*>|<\/p>$/g, '')});
+    (E.facts || []).forEach((f, i) => { if(here('facts', i)) deep.push({box:'fact', b:f}); });
+    (E.myths || []).forEach((m, i) => { if(here('myths', i)) deep.push({box:'myth', title:m.title, tag:m.culture, note:m.link2, b:m.body, l:[m.link]}); });
+    if(st.israel && here('israel')) deep.push({box:'israel', b:st.israel});
+    if(st.spec && here('spec')) deep.push({box:'spec', title:st.spec.title, b:st.spec.body, refs:st.spec.refs});
+    if(st.spec2 && here('spec2')) deep.push({box:'spec', title:st.spec2.title, b:st.spec2.body, refs:st.spec2.refs});
+    (E.links || []).forEach((l, i) => { if(here('links', i)) links.push(l); });
+  });
   const o = {n:c.n, title:c.title, key:c.key, sum:c.sum, svg:X.ART[c.art](), caption:c.caption || undefined,
     readings:[['Read literally', c.lit], ['Read as symbol', c.sym]], views:c.views, deep,
     echoes:c.echoes.replace(/\s*·\s*/g, '; '), topics:(c.topics || []).filter(t => t !== 'translations-guide')};
-  if(E.links) o.links = E.links;
+  if(links.length) o.links = links;
   return o; });
 /* material written for the whole-Bible site that the original study does not have (who heard each passage, and why)
-   lives in content/overlays/Rev.json: {audience, traditions, settings:{"<chapter>":[...]}, traditions_by_chapter:{"<chapter>":[...]}}, merged in here */
+   lives in content/overlays/Rev.json: {audience, traditions, settings:{"<chapter>":[...]}, traditions_by_chapter:{"<chapter>":[...]}, variants:{"<chapter>":[...]}}, merged in here */
 const OVER = fs.existsSync(path.join(ROOT, 'content/overlays/Rev.json')) ? JSON.parse(read(path.join(ROOT, 'content/overlays/Rev.json'))) : {};
 chapters.forEach(c => { const s = (OVER.settings || {})[c.n], t = (OVER.traditions_by_chapter || {})[c.n]; if(s) c.settings = s; if(t) c.traditions = t; });
 W('chapters.json', chapters);
+/* textual variants: the original study has none in the site's format, so they live in the overlay too, as variants:{"<chapter>":[...]} */
+W('variants.json', Object.keys(OVER.variants || {}).sort((a, b) => a - b).flatMap(n => OVER.variants[n]));
 
 /* the book's opening pages and its own study pages */
 const page = id => X.pages.find(p => p.id === id);
@@ -65,7 +74,7 @@ const descs = {}; [...page('views').html.matchAll(/<li class="(\w)">[\s\S]*?<b>[
 W('book.json', {
   title:'Revelation', subtitle:'of Jesus Christ, shown to John on Patmos', svg:X.ART.intro(),
   lead:paras(intro.html).slice(0, 2),
-  facts:[['Author','John, who calls himself a servant and a prophet (1:1, 9; 22:9). Tradition: the apostle John. Many scholars: another John, a Jewish-Christian prophet of Asia.'],
+  facts:[['Author','John, who calls himself God\'s slave, his readers\' brother, and a fellow slave with the prophets (1:1, 9; 22:9). Tradition: the apostle John. Many scholars: another John, a Jewish-Christian prophet of Asia.'],
          ['Date','Probably about AD 95, under Domitian (Irenaeus). Some date it to the late 60s, under Nero.'],
          ['Setting','Patmos, an island off the coast of modern Turkey; sent to seven churches of the Roman province of Asia'],
          ['Kind of writing','A letter, a prophecy and an apocalypse at once (1:1–4)'], ['Language','Greek'], ['Length','22 chapters, 404 verses']],

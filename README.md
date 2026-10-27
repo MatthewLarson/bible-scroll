@@ -97,7 +97,7 @@ Each book's `bible/content/books/<id>/progress.md` has the full log. `/resume <i
 | Jeremiah (Jer) | Atlas harvested (known problems listed in `notes/bible-site-prophets.md`). Parts 26-31, 46-49, 50-52 have Plain (partly); the other six parts have nothing or only drafts. | `/write-book Jer` for the unfinished parts (brief: `bible/tools/brief-jer.md`). |
 | 2 Maccabees (2Ma) | All 4 parts and book.json reviewed and fixed; check 0/0. | Three small items at the end of its progress.md (1:18 variant, ch. 12 Reformed row, re-quote 1 Maccabees notes), then `reviewed, ready` and publish. |
 | Wisdom (Wis) | Planned only; the writers were cut off before writing files. Plan in `notes/bible-site-noncanon-status.md`. | `/plan-book Wis` using that plan. |
-| Revelation (Rev) | Published from the original scroll. Needs a `variants.json` and a hostile review in the new format; "doulos" should become "slave" (via `content/overlays/Rev.json`) when the nt terms are merged. | `/review-book Rev` after the variants are written. |
+| Revelation (Rev) | Reviewed, ready (2026-10-26): hostile review in five slices, all fixed; Plain rebuilt from `literal.js`; 90 variants (in `content/overlays/Rev.json`); every quote of it synced; check 0/0. | `/publish`. |
 
 **Lead edits not yet published**: back-links in 1 Maccabees (13 notes), the quote checker and poetry-span app
 changes. They are in the files; the next `/publish` includes them.

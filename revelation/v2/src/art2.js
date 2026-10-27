@@ -14,7 +14,7 @@ door(){
     if(lab==='lukewarm') s += K(`M${x-10},140 q10,-6 20,0`,1.4,C.ochre);
     s += T(x,214,lab,10.5,'middle',C.ink2) + T(x,227,city,9.5,'middle',C.ink2);
   });
-  s += T(118,232,'"I stand at the door and knock" (3:20)',11,'middle',C.ink2);
+  s += T(118,232,'"I am standing at the door, knocking" (3:20)',11,'middle',C.ink2);
   return svg('A door standing ajar with light behind it and a cave-stencil hand knocking; beside it three water jars: hot from Hierapolis, lukewarm at Laodicea, cold from Colossae', s);
 },
 scroll(){
