@@ -1,0 +1,428 @@
+[
+ {
+  "v": "9:5",
+  "a": "comes the Christ, who is over everything, God blessed forever",
+  "t": "God over all: where does the sentence stop?",
+  "p": "No ancient copy settles the punctuation. It decides whether Paul calls Christ \"God\" or ends with praise to the Father.",
+  "readings": [
+   {
+    "w": "Comma after \"over all\": SBLGNT and the Byzantine text (Robinson-Pierpont); the words describe Christ. Read this way by Irenaeus, Tertullian and Chrysostom, and by many modern commentators",
+    "orig": "ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων, θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας",
+    "en": "the Christ according to the flesh, who is over all, God blessed forever",
+    "plain": "comes the Christ, who is over everything, God blessed forever"
+   },
+   {
+    "w": "Full stop after \"flesh\": a doxology to God the Father. Discussed by Erasmus; printed in the text of the RSV (1946); reported as an alternative in the NA and UBS apparatus (not checked here); preferred by Käsemann",
+    "orig": "ὁ χριστὸς τὸ κατὰ σάρκα· ὁ ὢν ἐπὶ πάντων θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας",
+    "en": "the Christ according to the flesh. God, who is over all, be blessed forever",
+    "plain": "comes the Christ. God, who is over everything, be blessed forever"
+   },
+   {
+    "w": "Full stop after \"over all\": the Christ is said to be over all, and the praise goes to God (the rarer punctuation, reported by Metzger)",
+    "orig": "ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων· θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας",
+    "en": "the Christ according to the flesh, who is over all. God be blessed forever",
+    "plain": "comes the Christ, who is over everything. God be blessed forever"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the first punctuation, the one in the SBLGNT and in the majority of the church's reading since the second century. This is debated; the other two readings are real possibilities and the Greek letters are the same in all three. The oldest manuscripts have no marks that can be trusted to come from Paul, so the choice rests on grammar, style and context.",
+  "b": "<p>For: the participle \"who is\" (<i>ho on</i>) normally describes the noun before it; \"according to the flesh\" invites a contrast (compare 1:3-4); in Jewish blessings the word for \"blessed\" (<i>eulogetos</i>) comes before the name of God (as in 2 Corinthians 1:3 and in the Septuagint), so a doxology to God would more naturally read \"Blessed be God.\" Against: Paul rarely calls Christ <i>theos</i> (Titus 2:13 is the nearest, in a letter whose authorship is debated; John 20:28 is John, not Paul); a burst of praise to the Father suits the lament of 9:1-5. Metzger wrote a study of the question (cited below) and reports that the editors of the UBS text were divided. See the note on this phrase.</p><p>No manuscript is named here: this entry rests on the editions, the fathers as the commentaries report them, and Metzger's study. The manuscripts and any early punctuation marks in them were not checked.</p>",
+  "s": [
+   "metzger",
+   "metzger-punctuation-rom95",
+   "harris-jesus-god"
+  ]
+ },
+ {
+  "v": "9:11",
+  "a": "good or bad",
+  "t": "Bad or evil?",
+  "p": "The oldest Greek has a word for \"worthless, bad\"; the Byzantine text and the KJV have \"evil.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ἀγαθὸν ἢ φαῦλον",
+    "en": "good or worthless",
+    "plain": "good or bad"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἀγαθὸν ἢ κακόν",
+    "en": "good or evil",
+    "plain": "good or evil"
+   }
+  ],
+  "follow": 0,
+  "why": "The older reading is <i>phaulon</i>, a word Paul uses rarely. Copyists could easily replace it with the common <i>kakon</i> to match \"good or evil.\" The same variation is reported at 2 Corinthians 5:10. The meaning is nearly the same.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "9:28",
+  "a": "For the Lord will carry out his word on the earth, completing it and cutting it short.",
+  "t": "A longer text from the Septuagint",
+  "p": "The Byzantine text and the KJV add words from Isaiah's Greek, so the verse reads more fully.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles (the shorter text)",
+    "orig": "λόγον γὰρ συντελῶν καὶ συντέμνων ποιήσει κύριος ἐπὶ τῆς γῆς",
+    "en": "for the Lord will do his word on the earth, completing and cutting short",
+    "plain": "For the Lord will carry out his word on the earth, completing it and cutting it short."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "λόγον γὰρ συντελῶν καὶ συντέμνων ἐν δικαιοσύνῃ· ὅτι λόγον συντετμημένον ποιήσει κύριος ἐπὶ τῆς γῆς",
+    "en": "for completing and cutting short in righteousness, because the Lord will do a cut-short word on the earth",
+    "plain": "For he is completing the word and cutting it short in righteousness, because the Lord will carry out a shortened word on the earth."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the harder one and is used by the main modern editions. The longer text is close to the Septuagint of Isaiah 10:22-23, and copyists may have filled it out from there.",
+  "b": "<p>Isaiah 10:23 in the Hebrew is difficult, and the Greek renders it freely. The Greek verbs <i>synteleo</i> and <i>syntemno</i> can mean \"complete\" and \"cut short,\" or \"finish\" and \"decide.\"</p><p>Editions only; manuscript lists not checked.</p>",
+  "s": [
+   "metzger",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "9:31",
+  "a": "did not arrive at that law",
+  "t": "\"The law of righteousness\" twice",
+  "p": "The Byzantine text repeats the words \"of righteousness\" and so makes the sentence smoother.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles (the shorter text)",
+    "orig": "εἰς νόμον οὐκ ἔφθασεν",
+    "en": "did not arrive at law",
+    "plain": "did not arrive at that law"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "εἰς νόμον δικαιοσύνης οὐκ ἔφθασεν",
+    "en": "did not arrive at the law of righteousness",
+    "plain": "did not arrive at the law of righteousness"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is harder and explains the other: a copyist would have repeated \"of righteousness\" to avoid the unusual brevity.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "9:32",
+  "a": "as if it came by works",
+  "t": "\"Works,\" or \"works of the law\"?",
+  "p": "The Byzantine text and the KJV add \"of the law.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ὡς ἐξ ἔργων",
+    "en": "as if from works",
+    "plain": "as if it came by works"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ὡς ἐξ ἔργων νόμου",
+    "en": "as if from works of the law",
+    "plain": "as if it came by works of the law"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is better supported, and \"of the law\" looks like an addition from 3:20, 28 and Galatians 2:16. The Byzantine text also adds \"for\" before \"they stumbled,\" which the KJV reflects.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "9:33",
+  "a": "the one who believes in him",
+  "t": "\"Everyone\" in Isaiah's quotation",
+  "p": "The Byzantine text and the KJV say \"everyone who believes\"; the older text has \"the one who believes.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ὁ πιστεύων ἐπ᾽ αὐτῷ",
+    "en": "the one believing in him",
+    "plain": "the one who believes in him"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "πᾶς ὁ πιστεύων ἐπ᾽ αὐτῷ",
+    "en": "everyone believing in him",
+    "plain": "everyone who believes in him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Everyone\" is missing from the earlier text and appears in 10:11, where Paul quotes the same verse. A copyist could have brought it here from there.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "10:1",
+  "a": "on their behalf",
+  "t": "\"For them,\" or \"for Israel\"?",
+  "p": "The Byzantine text says \"for Israel\"; the older text has the plain pronoun \"them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT",
+    "orig": "ὑπὲρ αὐτῶν",
+    "en": "on behalf of them",
+    "plain": "on their behalf"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ὑπὲρ τοῦ Ἰσραήλ",
+    "en": "on behalf of Israel",
+    "plain": "on behalf of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Them\" has the earlier support; \"Israel\" is a natural clarification, since chapter 9 ended without naming the people.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "10:5",
+  "a": "Moses writes that the person who does the righteousness that comes from the law will live by it.",
+  "t": "\"Live by it\" or \"live by them\"?",
+  "p": "Two Greek texts: one has \"the righteousness\" as the thing done and lived by, the other \"these things\" and \"them.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, Westcott-Hort (without \"them\" after \"does\")",
+    "orig": "Μωϋσῆς γὰρ γράφει ὅτι τὴν δικαιοσύνην τὴν ἐκ τοῦ νόμου ὁ ποιήσας ἄνθρωπος ζήσεται ἐν αὐτῇ",
+    "en": "Moses writes that the person who has done the righteousness from the law will live by it",
+    "plain": "Moses writes that the person who does the righteousness that comes from the law will live by it."
+   },
+   {
+    "w": "NA28, NA27, Tyndale House GNT, Tregelles, Textus Receptus (KJV), Byzantine text (with \"them\" after \"does\")",
+    "orig": "Μωϋσῆς γὰρ γράφει τὴν δικαιοσύνην τὴν ἐκ τοῦ νόμου ὅτι ὁ ποιήσας αὐτὰ ἄνθρωπος ζήσεται ἐν αὐτοῖς",
+    "en": "Moses writes about the righteousness from the law that the person who has done them will live by them",
+    "plain": "Moses writes about the righteousness that comes from the law: that the person who does these things will live by them."
+   }
+  ],
+  "follow": 0,
+  "why": "The editions divide, and the difference is small in meaning. The Plain departs from the NA28 and Tyndale House texts here and follows the SBLGNT. The reason is that the second reading matches the Septuagint of Leviticus 18:5 (\"does them ... live by them\") word for word, so a copyist could have brought it into line; the first is the harder text, since it makes \"the righteousness\" the thing done.",
+  "b": "<p>Editions only; manuscript lists not checked.</p>",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:9",
+  "a": "confess Jesus as Lord with your mouth",
+  "t": "\"Confess Jesus as Lord,\" or \"confess the word, that Jesus is Lord\"?",
+  "p": "One text has an object (\"Jesus as Lord\"); another has \"the word ... that Jesus is Lord,\" echoing 10:8.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Tregelles, Textus Receptus, Byzantine text (the KJV renders it \"the Lord Jesus\")",
+    "orig": "ἐὰν ὁμολογήσῃς ἐν τῷ στόματί σου κύριον Ἰησοῦν",
+    "en": "if you confess in your mouth Jesus as Lord",
+    "plain": "confess Jesus as Lord with your mouth"
+   },
+   {
+    "w": "Westcott-Hort; also the base text behind this site's word-by-word line (the TAGNT), which has \"the word\" and the nominative \"Lord Jesus\"",
+    "orig": "ἐὰν ὁμολογήσῃς τὸ ῥῆμα ἐν τῷ στόματί σου ὅτι κύριος Ἰησοῦς",
+    "en": "if you confess the word in your mouth, that Jesus is Lord",
+    "plain": "confess the word with your mouth, that Jesus is Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The accusative \"Jesus as Lord\" is in the editions of nearly every kind, including the Byzantine text. The longer reading echoes the \"word\" of 10:8 and Deuteronomy 30:14, and copyists may have added it for that reason, or dropped it. The meaning is the same: the content of the confession is \"Jesus is Lord.\"",
+  "b": "<p>Editions only; manuscript lists not checked.</p>",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:15",
+  "a": "those who tell the good news of good things",
+  "t": "A longer line about peace",
+  "p": "The Byzantine text and the KJV add \"of peace\" and repeat the verb, echoing the words of Isaiah's Greek.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT (Westcott-Hort and Tregelles also lack the article before \"good things\")",
+    "orig": "τῶν εὐαγγελιζομένων τὰ ἀγαθά",
+    "en": "of those bringing good news of good things",
+    "plain": "those who tell the good news of good things"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "τῶν εὐαγγελιζομένων εἰρήνην, τῶν εὐαγγελιζομένων τὰ ἀγαθά",
+    "en": "of those bringing good news of peace, of those bringing good news of good things",
+    "plain": "those who tell the good news of peace, who tell the good news of good things"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the stronger support. The longer text echoes the \"peace\" and the \"good things\" of Isaiah 52:7, and copyists may have supplied them from there. The Septuagint of Isaiah, like the Hebrew, speaks of one herald; the plural \"those who tell\" is Paul's own.",
+  "s": [
+   "metzger",
+   "rahlfs-lxx"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "10:17",
+  "a": "the word of Christ",
+  "t": "\"Word of Christ\" or \"word of God\"?",
+  "p": "The older Greek says \"Christ\"; the Byzantine text and the KJV say \"God.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "διὰ ῥήματος Χριστοῦ",
+    "en": "through a word of Christ",
+    "plain": "the word of Christ"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "διὰ ῥήματος θεοῦ",
+    "en": "through a word of God",
+    "plain": "the word of God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Christ\" is the harder reading, since the phrase \"word of Christ\" is unusual in Paul (compare Colossians 3:16), and \"word of God\" is the common phrase a copyist would reach for.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "11:6",
+  "a": "If it did, grace would no longer be grace.",
+  "t": "A second half of the verse in the Byzantine text",
+  "p": "Many manuscripts and the KJV add a sentence that says the same thing from the other side.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "εἰ δὲ χάριτι, οὐκέτι ἐξ ἔργων, ἐπεὶ ἡ χάρις οὐκέτι γίνεται χάρις",
+    "en": "if by grace, no longer from works, since grace would no longer be grace",
+    "plain": "If it did, grace would no longer be grace."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "... ἐπεὶ ἡ χάρις οὐκέτι γίνεται χάρις. εἰ δὲ ἐξ ἔργων, οὐκέτι ἐστὶν χάρις· ἐπεὶ τὸ ἔργον οὐκέτι ἐστὶν ἔργον",
+    "en": "... since grace would no longer be grace. But if from works, it is no longer grace; since work would no longer be work",
+    "plain": "If it did, grace would no longer be grace. But if it comes from works, it is no longer grace; otherwise work would no longer be work."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the older and the harder. The extra sentence looks like a balancing second half added by copyists who wanted the argument to be stated from both sides.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "11:13",
+  "a": "Now I am speaking to you Gentiles",
+  "t": "\"Now\" or \"For\"?",
+  "p": "The Byzantine text and the KJV connect the verse to the one before with \"for\" instead of \"but, now.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "Ὑμῖν δὲ λέγω τοῖς ἔθνεσιν",
+    "en": "but to you I speak, the Gentiles",
+    "plain": "Now I am speaking to you Gentiles"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "Ὑμῖν γὰρ λέγω τοῖς ἔθνεσιν",
+    "en": "for to you I speak, the Gentiles",
+    "plain": "For I am speaking to you Gentiles"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Now\" marks the turn to a new address and has the earlier support; \"for\" is a smoother connection that copyists could have preferred.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>The two texts also differ over a small word after \"apostle\" in 11:13: the SBLGNT and others read \"indeed therefore\" (<i>men oun</i>), the Byzantine text only \"indeed\" (<i>men</i>). The Plain does not show it.</p><p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "11:17",
+  "a": "a sharer in the rich root of the olive tree",
+  "t": "\"The rich root,\" or \"the root and the richness\"?",
+  "p": "Some Greek texts have an extra \"and\", which splits one rich root into two things.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort (no \"and\")",
+    "orig": "συγκοινωνὸς τῆς ῥίζης τῆς πιότητος τῆς ἐλαίας",
+    "en": "a fellow-sharer of the root of the richness of the olive tree",
+    "plain": "a sharer in the rich root of the olive tree"
+   },
+   {
+    "w": "Tregelles, Textus Receptus (the KJV has \"the root and fatness\"), Byzantine text (with \"and\")",
+    "orig": "συγκοινωνὸς τῆς ῥίζης καὶ τῆς πιότητος τῆς ἐλαίας",
+    "en": "a fellow-sharer of the root and of the richness of the olive tree",
+    "plain": "a sharer in the root and the richness of the olive tree"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT, which agrees here with the NA28 and the Tyndale House text. \"Root of the richness\" is an odd phrase, and the extra \"and\" smooths it into two plain nouns, so a copyist may have added it. The meaning is close either way: the wild branch shares in the nourishing root.",
+  "b": "<p>Editions only; manuscript lists not checked.</p>",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:21",
+  "a": "he will not spare you either",
+  "t": "\"Perhaps he will not spare you\"?",
+  "p": "The Byzantine text and the KJV add a word that makes the verse a warning (\"take heed lest\").",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (without the word)",
+    "orig": "οὐδὲ σοῦ φείσεται",
+    "en": "neither will he spare you",
+    "plain": "he will not spare you either"
+   },
+   {
+    "w": "NA28 (the word in square brackets) and NA27, Textus Receptus (KJV), Byzantine text",
+    "orig": "μήπως οὐδὲ σοῦ φείσεται",
+    "en": "lest perhaps he will not spare you either",
+    "plain": "he may not spare you either"
+   }
+  ],
+  "follow": 0,
+  "why": "The SBLGNT omits the word; the NA28 prints it in square brackets, showing its editors were unsure. Without it the verse is a flat statement; with it the verse is a caution. The sense is close either way, since 11:22 gives the same warning.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ },
+ {
+  "v": "11:31",
+  "a": "they also may now be shown mercy",
+  "t": "Is there a second \"now\"?",
+  "p": "Some editions have \"now\" twice in the verse; others only once.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 (the word in square brackets), NA27, Westcott-Hort",
+    "orig": "ἵνα καὶ αὐτοὶ νῦν ἐλεηθῶσιν",
+    "en": "so that they also now may be shown mercy",
+    "plain": "they also may now be shown mercy"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Textus Receptus (KJV), Byzantine text",
+    "orig": "ἵνα καὶ αὐτοὶ ἐλεηθῶσιν",
+    "en": "so that they also may be shown mercy",
+    "plain": "they also may be shown mercy"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions divide. The second \"now\" puts Israel's mercy in the same present as the Gentiles' mercy, which suits the argument (see the note on 11:31). It may also have been added to match the first \"now.\" It matters because it bears on whether Israel's turning is future only or already begun.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>Editions only; manuscript lists not checked.</p>"
+ }
+]

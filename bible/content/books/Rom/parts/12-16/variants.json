@@ -1,0 +1,814 @@
+[
+ {
+  "v": "12:11",
+  "a": "the Lord",
+  "t": "Serving the Lord, or serving the time?",
+  "p": "A few Western manuscripts read 'serving the time' instead of 'serving the Lord'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles and the Byzantine text; the KJV ('serving the Lord')",
+    "orig": "τῷ κυρίῳ δουλεύοντες",
+    "en": "serving the Lord",
+    "plain": "the Lord"
+   },
+   {
+    "w": "Codex Claromontanus (D, 500s), Augiensis (F) and Boernerianus (G) in their first hands and some Old Latin copies (as reported by Metzger; manuscript lists not checked here). The STEPBible word list also marks the Textus Receptus with 'the time', although the KJV renders 'the Lord', so printed Textus Receptus editions seem to differ",
+    "orig": "τῷ καιρῷ δουλεύοντες",
+    "en": "serving the time",
+    "plain": "the moment"
+   }
+  ],
+  "follow": 0,
+  "why": "The Lord is the reading of every critical edition and the Byzantine text, and it fits Paul's usual language. 'The time' looks like a copyist's slip (the two words differ by a few letters, and both were abbreviated in manuscripts) or a wish to say 'make the best of your chances'. Origen's commentary (in Rufinus' Latin) mentions copies with 'serving the time', which shows the reading was in circulation early.",
+  "b": "Kyrios and kairos could be abbreviated in ways that look alike in Greek manuscripts. Rufinus' Latin of Origen mentions copies that read tempori servientes, 'serving the time'.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:13",
+  "a": "needs of the saints",
+  "t": "Needs of the saints, or memorials of the saints?",
+  "p": "A Western reading has 'memorials' where most copies have 'needs'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House; Papyrus 46, Sinaiticus, Alexandrinus, Vaticanus and most manuscripts",
+    "orig": "ταῖς χρείαις τῶν ἁγίων",
+    "en": "the needs of the saints",
+    "plain": "needs of the saints"
+   },
+   {
+    "w": "Codex Claromontanus (D), Augiensis (F) and Boernerianus (G), with some Old Latin copies (as reported by Metzger)",
+    "orig": "ταῖς μνείαις τῶν ἁγίων",
+    "en": "the memorials (remembrances) of the saints",
+    "plain": "memorials of the saints"
+   }
+  ],
+  "follow": 0,
+  "why": "'Needs' fits the next line about hospitality and the collection (15:26). 'Memorials' (mneiais) is one letter different from chreiais and probably arose from a copyist's slip in the Western tradition; some later readers took it to mean the remembrance of martyrs.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:20",
+  "a": "Instead",
+  "t": "'Instead' or 'Therefore'?",
+  "p": "The Byzantine text and the KJV begin the next line with 'Therefore if'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἀλλὰ ἐὰν",
+    "en": "but if",
+    "plain": "Instead"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'Therefore if')",
+    "orig": "ἐὰν οὖν",
+    "en": "therefore if",
+    "plain": "Therefore"
+   }
+  ],
+  "follow": 0,
+  "why": "'But' sets the quotation against the ban on revenge in 12:19; 'therefore' is an easier link that later copyists may have supplied. The sense does not change much.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:3",
+  "a": "Rulers are not something to fear for those who do good, but for those who do evil.",
+  "t": "Good conduct or good works?",
+  "p": "The Byzantine text has plurals; the KJV reads 'not a terror to good works, but to the evil'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (singular)",
+    "orig": "τῷ ἀγαθῷ ἔργῳ ... τῷ κακῷ",
+    "en": "to the good work ... to the evil",
+    "plain": "Rulers are not something to fear for those who do good, but for those who do evil."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "τῶν ἀγαθῶν ἔργων ... τῶν κακῶν",
+    "en": "of good works ... of evil",
+    "plain": "Rulers are not something to fear for good works, but for evil."
+   }
+  ],
+  "follow": 0,
+  "why": "The singular, 'the good work', is the reading of the critical editions and the harder one; the plural looks like a smoothing toward 'rulers are a terror to people who do bad things'. The two readings differ in number, not in meaning, and the Plain's 'those who do good' fits either.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "\"Do not steal,\"",
+  "t": "The command against false witness",
+  "p": "The KJV lists 'Thou shalt not bear false witness'; the oldest manuscripts do not have it here.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles and the Robinson-Pierpont Byzantine text",
+    "orig": "οὐ κλέψεις, οὐκ ἐπιθυμήσεις",
+    "en": "You shall not steal, you shall not covet",
+    "plain": "\"Do not steal,\""
+   },
+   {
+    "w": "Textus Receptus (KJV); the Byzantine text does not have it here",
+    "orig": "οὐ κλέψεις, οὐ ψευδομαρτυρήσεις, οὐκ ἐπιθυμήσεις",
+    "en": "You shall not steal, you shall not bear false witness, you shall not covet",
+    "plain": "\"Do not steal,\" \"Do not bear false witness,\""
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions and the Byzantine text lack it, and a copyist could easily fill in the list from Exodus 20. Paul's 'and any other command' makes it plain the list is a sample.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:11",
+  "a": "for you to wake up",
+  "t": "'For you' or 'for us' to wake up?",
+  "p": "Some editions read 'time for us to wake up'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "ὑμᾶς ἐξ ὕπνου ἐγερθῆναι",
+    "en": "for you to be raised from sleep",
+    "plain": "for you to wake up"
+   },
+   {
+    "w": "Tregelles, Byzantine text and Textus Receptus (KJV: 'for us')",
+    "orig": "ἡμᾶς ἐξ ὕπνου ἐγερθῆναι",
+    "en": "for us to be raised from sleep",
+    "plain": "for us to wake up"
+   }
+  ],
+  "follow": 0,
+  "why": "'You' is the reading of the earlier editions; 'us' fits the 'our salvation' that follows and looks like a smoothing. Hymn and sermon use both.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:12",
+  "a": "lay aside",
+  "t": "'Lay aside' or 'throw off'?",
+  "p": "The SBLGNT prints a stronger verb than every other edition.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House, Westcott-Hort, Tregelles, Byzantine text and Textus Receptus (KJV 'cast off')",
+    "orig": "ἀποθώμεθα",
+    "en": "let us lay aside",
+    "plain": "lay aside"
+   },
+   {
+    "w": "SBLGNT",
+    "orig": "ἀποβαλώμεθα",
+    "en": "let us throw off",
+    "plain": "throw off"
+   }
+  ],
+  "follow": 0,
+  "why": "Both verbs fit the picture of taking off clothes. The Plain follows NA28 and Tyndale House against the SBLGNT here: in the STEPBible edition data the SBLGNT stands alone with the stronger verb. Which manuscripts carry each verb was not checked, so this entry gives editions only. The meaning hardly changes.",
+  "s": []
+ },
+ {
+  "v": "14:4",
+  "a": "the Lord has the power to keep him standing",
+  "t": "The Lord or God?",
+  "p": "Byzantine copies and the KJV read 'God is able to make him stand'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "δυνατεῖ γὰρ ὁ κύριος",
+    "en": "for the Lord is able",
+    "plain": "the Lord has the power to keep him standing"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "δυνατὸς γάρ ἐστιν ὁ θεός",
+    "en": "for God is able",
+    "plain": "God has the power to keep him standing"
+   }
+  ],
+  "follow": 0,
+  "why": "'Lord' is the earlier and harder reading (the Lord here is Christ, 14:9); 'God' is the usual word and looks like a smoothing.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:6",
+  "a": "Whoever keeps the day keeps it for the Lord.",
+  "t": "A clause about the one who does not keep the day",
+  "p": "Byzantine copies and the KJV add a clause: 'and the one who does not keep the day does not keep it for the Lord'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House and the early manuscripts",
+    "orig": "ὁ φρονῶν τὴν ἡμέραν κυρίῳ φρονεῖ",
+    "en": "the one who regards the day regards it for the Lord",
+    "plain": "Whoever keeps the day keeps it for the Lord."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "... καὶ ὁ μὴ φρονῶν τὴν ἡμέραν κυρίῳ οὐ φρονεῖ",
+    "en": "... and the one who does not regard the day does not regard it for the Lord",
+    "plain": "Whoever keeps the day keeps it for the Lord. Whoever does not keep the day does not keep it for the Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "The short text has the older witnesses. The added clause balances the sentence with the next two (eating and not eating) and looks like the work of a copyist who wanted the pattern complete.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:9",
+  "a": "died and came to life",
+  "t": "Died and lived, or died, rose and lived again?",
+  "p": "The KJV has three verbs: 'died, and rose, and revived'; the Byzantine text has three of a different kind.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἀπέθανεν καὶ ἔζησεν",
+    "en": "died and lived",
+    "plain": "died and came to life"
+   },
+   {
+    "w": "Byzantine text (ἀπέθανεν καὶ ἀνέστη καὶ ἔζησεν, 'died and rose and lived'); the Textus Receptus and KJV have the same with ἀνέζησεν, 'revived'",
+    "orig": "ἀπέθανεν καὶ ἀνέστη καὶ ἔζησεν (Byzantine); ... ἀνέζησεν (Textus Receptus)",
+    "en": "died and rose and lived (Byzantine); died and rose and lived again (Textus Receptus)",
+    "plain": "died, rose and came to life again"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the earlier support. The longer form spells out 'rose', a word the copyists knew from the creeds.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:10",
+  "a": "God's judgment seat",
+  "t": "God's or Christ's judgment seat?",
+  "p": "Byzantine copies, followed by the KJV, read 'the judgment seat of Christ'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Sinaiticus, Alexandrinus, Vaticanus and early manuscripts (as reported by Metzger)",
+    "orig": "τῷ βήματι τοῦ θεοῦ",
+    "en": "the judgment seat of God",
+    "plain": "God's judgment seat"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "τῷ βήματι τοῦ χριστοῦ",
+    "en": "the judgment seat of Christ",
+    "plain": "Christ's judgment seat"
+   }
+  ],
+  "follow": 0,
+  "why": "'God' is the earlier reading. 'Christ' looks like a copyist's harmony with 2 Corinthians 5:10, 'the judgment seat of Christ'. The verse right after quotes Isaiah about God.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:12",
+  "a": "give an account to God",
+  "t": "'To God' in 14:12",
+  "p": "The SBLGNT leaves out 'to God'; the other editions and the KJV have it.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House, Westcott-Hort, Tregelles, Byzantine text and Textus Receptus (KJV: 'give account of himself to God'). The Plain follows these against the SBLGNT.",
+    "orig": "λόγον δώσει τῷ θεῷ",
+    "en": "will give an account to God",
+    "plain": "give an account to God"
+   },
+   {
+    "w": "SBLGNT",
+    "orig": "λόγον δώσει",
+    "en": "will give an account",
+    "plain": "give an account"
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in every other edition in the data, and the sense is already in 14:10-11: the account is owed to God. Manuscript lists not checked; editions only. The meaning does not change.",
+  "s": []
+ },
+ {
+  "v": "14:21",
+  "a": "makes your brother stumble",
+  "t": "A longer ending of the verse",
+  "p": "The SBLGNT and Tyndale House keep an extra clause that NA28 and Westcott-Hort omit: 'or is offended, or is made weak'.",
+  "readings": [
+   {
+    "w": "NA28 and Westcott-Hort. The Plain follows these two against the SBLGNT and Tyndale House here. Which manuscripts carry the short text was not checked; editions only.",
+    "orig": "ἐν ᾧ ὁ ἀδελφός σου προσκόπτει",
+    "en": "in which your brother stumbles",
+    "plain": "makes your brother stumble"
+   },
+   {
+    "w": "SBLGNT, Tyndale House, Tregelles, Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἐν ᾧ ὁ ἀδελφός σου προσκόπτει ἢ σκανδαλίζεται ἢ ἀσθενεῖ",
+    "en": "in which your brother stumbles or is offended or is made weak",
+    "plain": "makes your brother stumble, or take offense, or become weak"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text spells out the idea with 'offended' and 'weak' from the surrounding verses (14:1, 13), and looks like an expansion. But editors are divided: the SBLGNT and Tyndale House print the longer text, so the question is open, and the meaning is the same either way.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "14:23",
+  "a": "Anything not done out of faith is sin.",
+  "t": "Where the doxology stands: after 14:23?",
+  "p": "Most Greek copies of the Byzantine tradition and the KJV place the closing doxology here (it goes with the entries at 15:33 and 16:25).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (the doxology is not at this point)",
+    "orig": "πᾶν δὲ ὃ οὐκ ἐκ πίστεως ἁμαρτία ἐστίν",
+    "en": "everything that is not from faith is sin",
+    "plain": "Anything not done out of faith is sin."
+   },
+   {
+    "w": "The Byzantine majority text, with manuscripts such as L and Psi (as reported by Metzger); Origen knew copies of this kind. (The Textus Receptus and the KJV print it at the end, 16:25-27.)",
+    "orig": "... Τῷ δὲ δυναμένῳ ὑμᾶς στηρίξαι ...",
+    "en": "... Now to him who is able to strengthen you ...",
+    "plain": "Anything not done out of faith is sin. Now to the one who has the power to make you strong, according to my good news and the preaching of Jesus Christ, according to the unveiling of the mystery kept in silence for long ages, but now brought into the open, and, through the writings of the prophets and by the command of the eternal God, made known to all the Gentiles, to lead them to the obedience of faith, to the only wise God, through Jesus Christ, to whom be the glory for all the ages. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "The doxology is at the end of chapter 16 in the oldest great uncials and in NA28 and Tyndale House; see the full entry at 16:25 and the chapter's deep dive.",
+  "b": "Origen's commentary on Romans (in Rufinus' Latin) knows copies with the doxology at the end of chapter 14 and copies with it at the end of the letter, and says Marcion cut everything after 14:23.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:4",
+  "a": "put in writing in earlier days",
+  "t": "'Written before' once or twice",
+  "p": "The Byzantine text repeats the 'before' verb; the KJV has it once ('written aforetime ... written for our learning').",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; the Textus Receptus and KJV also have the second verb without 'before'",
+    "orig": "ὅσα γὰρ προεγράφη, ... ἐγράφη",
+    "en": "whatever was written before ... was written",
+    "plain": "put in writing in earlier days"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont)",
+    "orig": "ὅσα γὰρ προεγράφη, ... προεγράφη",
+    "en": "whatever was written before ... was written before",
+    "plain": "put in writing in earlier days ... put in writing in earlier days"
+   }
+  ],
+  "follow": 0,
+  "why": "The difference is one prefix, probably a copyist's echo of the first verb. Manuscript lists not checked; editions only. The meaning is the same.",
+  "s": []
+ },
+ {
+  "v": "15:8",
+  "a": "For I say that Christ has become",
+  "t": "'For' or 'now', and 'Christ' or 'Jesus Christ'",
+  "p": "The KJV reads 'Now I say that Jesus Christ was a minister of the circumcision'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "λέγω γὰρ χριστὸν",
+    "en": "for I say that Christ",
+    "plain": "For I say that Christ has become"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "λέγω δὲ Ἰησοῦν χριστὸν",
+    "en": "now I say that Jesus Christ",
+    "plain": "Now I say that Jesus Christ has become"
+   }
+  ],
+  "follow": 0,
+  "why": "'For' links this verse to the 'welcome one another' of 15:7, giving the reason; 'now' is a smoother joint and 'Jesus' is a common copyist's addition.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:19",
+  "a": "Spirit of God",
+  "t": "Spirit, Spirit of God, or Holy Spirit?",
+  "p": "The SBLGNT has only 'Spirit'; NA28, Tyndale House, the Byzantine text and the KJV add 'of God'.",
+  "readings": [
+   {
+    "w": "NA28 (with 'of God' in brackets), Tyndale House, Byzantine text and Textus Receptus (KJV: 'Spirit of God'). The Plain follows these against the SBLGNT.",
+    "orig": "πνεύματος θεοῦ",
+    "en": "the Spirit of God",
+    "plain": "Spirit of God"
+   },
+   {
+    "w": "SBLGNT; in the STEPBible word list also Westcott-Hort and Tregelles",
+    "orig": "πνεύματος",
+    "en": "the Spirit",
+    "plain": "Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "'Of God' is in more editions and fits Paul's wording elsewhere. The bare 'Spirit' could be the earlier text, with 'of God' added by copyists to say which spirit; editors are split, and NA28 itself brackets the words. The meaning is the same.",
+  "s": [
+   "metzger"
+  ],
+  "b": "Metzger's commentary also discusses a third form, 'Holy Spirit' (πνεύματος ἁγίου); the edition data used here does not show which editions or manuscripts print it, so it is not given as a reading."
+ },
+ {
+  "v": "15:24",
+  "a": "when I make my trip to Spain.",
+  "t": "'I will come to you'",
+  "p": "The KJV reads 'whensoever I take my journey into Spain, I will come to you'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ὡς ἂν πορεύωμαι εἰς τὴν Σπανίαν",
+    "en": "whenever I travel to Spain",
+    "plain": "when I make my trip to Spain."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἐὰν πορεύωμαι εἰς τὴν Σπανίαν ἐλεύσομαι πρὸς ὑμᾶς",
+    "en": "if I travel to Spain, I will come to you",
+    "plain": "when I make my trip to Spain, I will come to you."
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is earlier. The main clause 'I will come to you' was probably added to finish the sentence, which in Paul's Greek breaks off and starts again.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:29",
+  "a": "in the fullness of Christ's blessing",
+  "t": "'Of the good news of Christ'",
+  "p": "The KJV reads 'the blessing of the gospel of Christ'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "ἐν πληρώματι εὐλογίας Χριστοῦ",
+    "en": "in the fullness of the blessing of Christ",
+    "plain": "in the fullness of Christ's blessing"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἐν πληρώματι εὐλογίας τοῦ εὐαγγελίου τοῦ Χριστοῦ",
+    "en": "in the fullness of the blessing of the gospel of Christ",
+    "plain": "in the fullness of the blessing of the good news of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is in the earlier manuscripts; 'of the gospel' is a common expansion in Paul's letters.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:31",
+  "a": "my service in Jerusalem",
+  "t": "'My service' or 'my gift-bringing'?",
+  "p": "Two of the oldest witnesses read 'my bringing of gifts'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Sinaiticus, Alexandrinus, Ephraemi and most manuscripts",
+    "orig": "ἡ διακονία μου ἡ εἰς Ἰερουσαλήμ",
+    "en": "my service to Jerusalem",
+    "plain": "my service in Jerusalem"
+   },
+   {
+    "w": "Papyrus 46 (about 200) and Vaticanus (03) (as reported by Metzger)",
+    "orig": "ἡ δωροφορία μου ἡ εἰς Ἰερουσαλήμ",
+    "en": "my bringing of gifts to Jerusalem",
+    "plain": "my gift to Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "'Service' (diakonia) is the reading of the great majority and is Paul's regular word for the collection (2 Corinthians 8:4; 9:1). 'Gift-bringing' (dorophoria) occurs nowhere else in the New Testament, which can be argued either way: a rare word is often the harder reading, but a copyist might also have supplied it to say what the 'service' was. The early support of P46 and B makes the question open; the Plain keeps 'service' because it is the word Paul uses for the collection elsewhere and the meaning is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "15:33",
+  "a": "The God of peace be with all of you. Amen.",
+  "t": "The doxology in Papyrus 46",
+  "p": "In Papyrus 46 the closing doxology appears after this verse.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and most manuscripts: the verse ends here and chapter 16 follows",
+    "orig": "ὁ δὲ θεὸς τῆς εἰρήνης μετὰ πάντων ὑμῶν ἀμήν",
+    "en": "the God of peace be with you all, amen",
+    "plain": "The God of peace be with all of you. Amen."
+   },
+   {
+    "w": "Papyrus 46 (about AD 200)",
+    "orig": "... ὁ δὲ θεὸς τῆς εἰρήνης ... ἀμήν. Τῷ δὲ δυναμένῳ ...",
+    "en": "... the God of peace ... amen. Now to him who is able ...",
+    "plain": "The God of peace be with all of you. Amen. Now to the one who has the power to make you strong, according to my good news and the preaching of Jesus Christ, according to the unveiling of the mystery kept in silence for long ages, but now brought into the open, and, through the writings of the prophets and by the command of the eternal God, made known to all the Gentiles, to lead them to the obedience of faith, to the only wise God, through Jesus Christ, to whom be the glory for all the ages. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "P46, the oldest copy of Romans, puts the doxology here, and then goes on with chapter 16. It is a sign that the letter circulated in forms that ended at 15:33, and that the doxology was moved around. See the entry at 16:25 and the chapter's deep dive.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:5",
+  "a": "firstfruits of Asia",
+  "t": "Asia or Achaia?",
+  "p": "The KJV says Epaenetus was the first fruit of Achaia.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Papyrus 46, Sinaiticus, Alexandrinus and Vaticanus",
+    "orig": "ἀπαρχὴ τῆς Ἀσίας",
+    "en": "firstfruit of Asia",
+    "plain": "firstfruits of Asia"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἀπαρχὴ τῆς Ἀχαΐας",
+    "en": "firstfruit of Achaia",
+    "plain": "firstfruits of Achaia"
+   }
+  ],
+  "follow": 0,
+  "why": "'Asia' has the oldest support. 'Achaia' came by harmony with 1 Corinthians 16:15, where the household of Stephanas is 'the firstfruits of Achaia'; Paul writes from Achaia, which may also have suggested it. A man converted in Asia and living in Rome fits the migration of Prisca and Aquila.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:6",
+  "a": "for you",
+  "t": "'For you' or 'for us'? (Mary)",
+  "p": "The KJV reads 'who bestowed much labour on us'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "εἰς ὑμᾶς",
+    "en": "for you",
+    "plain": "for you"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "εἰς ἡμᾶς",
+    "en": "for us",
+    "plain": "for us"
+   }
+  ],
+  "follow": 0,
+  "why": "'For you' is the reading of the earlier editions and fits a greeting to the Roman church, since Paul did not know her from his own travels; 'for us' would put her in Paul's own circle.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:7",
+  "a": "Junia",
+  "t": "Junia or Junias?",
+  "p": "The accent decides between a woman's name and a man's: Junia or Junias.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles, Textus Receptus and Byzantine text (Ἰουνίαν, a woman); the Greek and Latin fathers who comment, e.g. Chrysostom",
+    "orig": "Ἰουνίαν",
+    "en": "Junia",
+    "plain": "Junia"
+   },
+   {
+    "w": "NA26 (1979), and some English versions that followed it, such as the RSV (Ἰουνιᾶν, a man's name, 'Junias')",
+    "orig": "Ἰουνιᾶν",
+    "en": "Junias",
+    "plain": "Junias"
+   }
+  ],
+  "follow": 0,
+  "why": "The earliest manuscripts have no accents, so the name was read by the reader. 'Junia' is a common Roman woman's name; 'Junias' as a man's name is not found in ancient inscriptions (Epp), and the Greek fathers took her as a woman. A male Junias appears in late lists and then in the Middle Ages. See the note and the card.",
+  "b": "This is a question of reading and accent, not of different manuscripts. Both forms are accusative: Iounian is Junia (accented on the second syllable) and Iounian with a circumflex is Junias.",
+  "s": [
+   "metzger",
+   "epp-junia"
+  ]
+ },
+ {
+  "v": "16:8",
+  "a": "Ampliatus",
+  "t": "Ampliatus or Amplias?",
+  "p": "The KJV spells the name 'Amplias', following the Byzantine text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House and the early manuscripts",
+    "orig": "Ἀμπλιᾶτον",
+    "en": "Ampliatus",
+    "plain": "Ampliatus"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Ἀμπλίαν",
+    "en": "Amplias",
+    "plain": "Amplias"
+   }
+  ],
+  "follow": 0,
+  "why": "'Ampliatus' is the full Latin name; 'Amplias' is a short form that copyists may have preferred.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:16",
+  "a": "All the churches of Christ send you greetings.",
+  "t": "'All the churches' or 'the churches'?",
+  "p": "The KJV reads 'The churches of Christ salute you'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "πᾶσαι αἱ ἐκκλησίαι τοῦ χριστοῦ",
+    "en": "all the churches of Christ",
+    "plain": "All the churches of Christ send you greetings."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "αἱ ἐκκλησίαι τοῦ χριστοῦ",
+    "en": "the churches of Christ",
+    "plain": "The churches of Christ send you greetings."
+   }
+  ],
+  "follow": 0,
+  "why": "'All' is the reading of the earlier editions; its omission may be because copyists found it hard to believe Paul spoke for all the churches.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:18",
+  "a": "our Lord Christ",
+  "t": "'Our Lord Christ' or 'our Lord Jesus Christ'?",
+  "p": "The KJV reads 'our Lord Jesus Christ'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House and the early manuscripts",
+    "orig": "τῷ κυρίῳ ἡμῶν χριστῷ",
+    "en": "our Lord Christ",
+    "plain": "our Lord Christ"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "τῷ κυρίῳ ἡμῶν Ἰησοῦ χριστῷ",
+    "en": "our Lord Jesus Christ",
+    "plain": "our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The short form is earlier; copyists often filled out the title.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:20",
+  "a": "The grace of our Lord Jesus be with you.",
+  "t": "'Christ' added to the benediction",
+  "p": "The SBLGNT, Tregelles, the Byzantine text and the KJV read 'Jesus Christ'; NA28 and Tyndale House read only 'Jesus'.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House, Westcott-Hort. The Plain follows these against the SBLGNT here. Manuscript lists not checked; editions only.",
+    "orig": "ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ μεθ᾽ ὑμῶν",
+    "en": "the grace of our Lord Jesus be with you",
+    "plain": "The grace of our Lord Jesus be with you."
+   },
+   {
+    "w": "SBLGNT, Tregelles, Byzantine text and Textus Receptus (KJV)",
+    "orig": "... Ἰησοῦ χριστοῦ ...",
+    "en": "... of our Lord Jesus Christ ...",
+    "plain": "The grace of our Lord Jesus Christ be with you."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter form is the more likely original, since copyists often filled out the title, though the SBLGNT prints the longer one.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:24",
+  "a": "[The oldest manuscripts do not have this verse.]",
+  "t": "A second benediction: 16:24",
+  "p": "The KJV has a verse here that the oldest manuscripts leave out: 'The grace of our Lord Jesus Christ be with you all. Amen.'",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House and Westcott-Hort leave the verse out; Papyrus 46, Sinaiticus, Alexandrinus, Vaticanus and Ephraemi are reported not to have it at this point (as reported by Metzger and NA28). The STEPBible edition table does list the SBLGNT with this verse; the Plain follows NA28 and Tyndale House.",
+    "orig": "(no verse)",
+    "en": "(no verse)",
+    "plain": "[The oldest manuscripts do not have this verse.]"
+   },
+   {
+    "w": "Tregelles, the Byzantine majority and the Textus Receptus (KJV), with the Western uncials Claromontanus, Augiensis and Boernerianus (as reported by Metzger); the SBLGNT is listed with it in the edition table",
+    "orig": "Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν· ἀμήν.",
+    "en": "The grace of our Lord Jesus Christ be with you all. Amen.",
+    "plain": "The grace of our Lord Jesus Christ be with all of you. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "The verse repeats the benediction of 16:20 and looks like a copyist's closing. Some manuscripts have it at 16:20 only, some at both places, some at the end of the letter. The Plain follows NA28 and Tyndale House, which leave it out, and treats it as the other verses missing from the critical text.",
+  "b": "The Greek numbering follows the KJV: the benediction is verse 24, so that the doxology can be verses 25 to 27.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "16:25",
+  "a": "Now to the one who has the power to make you strong, according to my good news and the preaching of Jesus Christ, according to the unveiling of the mystery kept in silence for long ages,",
+  "t": "The place of the doxology",
+  "p": "The closing doxology (16:25-27) stands at five different places in the manuscripts, and is missing from a few; see the deep dive.",
+  "readings": [
+   {
+    "w": "After 16:23, at the end of the letter: NA28, Tyndale House, Westcott-Hort, Tregelles and the Textus Receptus (the STEPBible table does not mark the SBLGNT at 16:25-27); Sinaiticus (01), Vaticanus (03), Ephraemi (04) and Claromontanus (06) are reported to place it here (as reported by NA28 and Metzger; not checked against images)",
+    "orig": "Τῷ δὲ δυναμένῳ ὑμᾶς στηρίξαι ...",
+    "en": "Now to the one who is able to strengthen you ...",
+    "plain": "Now to the one who has the power to make you strong, according to my good news and the preaching of Jesus Christ, according to the unveiling of the mystery kept in silence for long ages,"
+   },
+   {
+    "w": "After 14:23: the Byzantine majority text, with manuscripts such as L and Psi (as reported by Metzger); Origen knew copies of this kind. The Textus Receptus (KJV) prints it at the end, as the critical text does",
+    "orig": "Τῷ δὲ δυναμένῳ ...",
+    "en": "(the doxology follows 14:23)",
+    "plain": ""
+   },
+   {
+    "w": "After 15:33: Papyrus 46 (about AD 200)",
+    "orig": "Τῷ δὲ δυναμένῳ ...",
+    "en": "(the doxology follows 15:33)",
+    "plain": ""
+   },
+   {
+    "w": "Omitted: Boernerianus (G) and Augiensis (F) are reported to leave it out; Marcion's text, according to Origen, lacked it with the rest of the letter after 14:23",
+    "orig": "(not present)",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "It stands at the end in the great uncials of the critical text and in the Latin Vulgate, and these are the earliest complete copies. The doxology is old, and its movement makes sense if copies of Romans circulated in a form that ended at 14:23 or at 15:33; Paul's authorship is debated (see the deep dive). The Plain translates it where NA28 and Tyndale House print it, after 16:23.",
+  "b": "Alexandrinus (02) and a few others have it twice, after 14:23 and again at the end. The three verses go together: see also 16:26 and 16:27, and the entries at 14:23 and 15:33. The final line of many Byzantine and Textus Receptus copies, 'To the Romans, written from Corinth by Phoebe, servant of the church at Cenchreae', is a subscription added by scribes and is not Paul's.",
+  "s": [
+   "metzger",
+   "gamble-textual",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "16:26",
+  "a": "but now brought into the open, and, through the writings of the prophets and by the command of the eternal God, made known to all the Gentiles, to lead them to the obedience of faith,",
+  "t": "The doxology, continued",
+  "p": "This verse goes with the entry at 16:25 and moves with it.",
+  "readings": [
+   {
+    "w": "After 16:23 (NA28, Tyndale House, Westcott-Hort, Tregelles, Textus Receptus)",
+    "orig": "φανερωθέντος δὲ νῦν ...",
+    "en": "but now made manifest ...",
+    "plain": "but now brought into the open, and, through the writings of the prophets and by the command of the eternal God, made known to all the Gentiles, to lead them to the obedience of faith,"
+   },
+   {
+    "w": "After 14:23, after 15:33, or omitted (see 16:25)",
+    "orig": "—",
+    "en": "(the doxology stands elsewhere or is absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 16:25.",
+  "s": []
+ },
+ {
+  "v": "16:27",
+  "a": "to the only wise God, through Jesus Christ, to whom be the glory for all the ages. Amen.",
+  "t": "The doxology, last verse",
+  "p": "This verse goes with the entry at 16:25 and moves with it.",
+  "readings": [
+   {
+    "w": "After 16:23 (NA28, Tyndale House, Westcott-Hort, Tregelles, Textus Receptus)",
+    "orig": "μόνῳ σοφῷ θεῷ, διὰ Ἰησοῦ χριστοῦ, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας· ἀμήν.",
+    "en": "to the only wise God, through Jesus Christ, to whom be the glory forever, amen",
+    "plain": "to the only wise God, through Jesus Christ, to whom be the glory for all the ages. Amen."
+   },
+   {
+    "w": "After 14:23, after 15:33, or omitted (see 16:25)",
+    "orig": "—",
+    "en": "(the doxology stands elsewhere or is absent)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 16:25.",
+  "b": "The relative 'to whom' (hō) is awkward after 'through Jesus Christ' and has been felt to be a clumsy way to end the sentence that begins at 16:25.",
+  "s": []
+ }
+]

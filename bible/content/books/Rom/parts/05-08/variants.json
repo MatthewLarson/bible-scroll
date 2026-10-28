@@ -1,0 +1,555 @@
+[
+ {
+  "v": "5:1",
+  "a": "we have peace with God",
+  "t": "'We have peace' or 'let us have peace'?",
+  "p": "One letter in Greek: the indicative states a fact, the subjunctive urges the reader. The two go together in 5:1 and 5:11.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, the Byzantine text and Textus Receptus (KJV 'we have peace')",
+    "orig": "ἔχομεν",
+    "en": "we have",
+    "plain": "we have peace with God"
+   },
+   {
+    "w": "Tyndale House GNT, Westcott-Hort and Tregelles. The subjunctive is also the original hand of Sinaiticus and Vaticanus, which later hands corrected to the indicative (as reported by Metzger)",
+    "orig": "ἔχωμεν",
+    "en": "let us have",
+    "plain": "let us have peace with God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the indicative. Metzger reports that the subjunctive has strong external support, but that a majority of the committee preferred the indicative on internal grounds: Paul is stating what Christ's work has done (5:1-11 is full of statements: 'we boast,' 'we have received'), not urging a duty. A subjunctive would mean 'let us enjoy the peace we have,' which is close.",
+  "b": "The Greek letters omicron and omega were pronounced alike by the time of the copyists, so the difference may have begun by ear. The chapter speaks of peace as already given (5:10-11), so the sense is close either way. The Tyndale House editors, Westcott and Hort, and Tregelles printed the subjunctive.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "by faith",
+  "t": "'By faith' in or out?",
+  "p": "Vaticanus, the one early copy that lacks 'by faith' in 5:2, has later Western copies beside it. The meaning hardly changes; faith has just been named in 5:1.",
+  "readings": [
+   {
+    "w": "SBLGNT, Sinaiticus and most other witnesses (reported by Metzger); NA28 prints the words in brackets to show doubt",
+    "orig": "τῇ πίστει",
+    "en": "by faith",
+    "plain": "by faith"
+   },
+   {
+    "w": "Vaticanus, and the later Western copies D, F and G, omit the words (as reported by Metzger)",
+    "orig": "-",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in most witnesses, including Sinaiticus. A scribe might have dropped them as repeating 'by faith' in 5:1, or added them to match it; the editors of NA28 left them in brackets. The sense is the same either way, since the verse says we are led in 'through him.'",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "When we were still weak and helpless",
+  "t": "'Still' twice, once, or 'if indeed'?",
+  "p": "Westcott and Hort printed a different pair of small words at the start of 5:6; the Byzantine text drops the second 'still.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Tregelles",
+    "orig": "ἔτι γὰρ ... ἔτι",
+    "en": "for while ... still",
+    "plain": "When we were still weak and helpless"
+   },
+   {
+    "w": "Westcott-Hort",
+    "orig": "εἴ γε ... ἔτι",
+    "en": "if indeed ... still",
+    "plain": "If indeed we were still weak and helpless"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (second 'still' left out)",
+    "orig": "ἔτι γὰρ ...",
+    "en": "for while ...",
+    "plain": "When we were weak and helpless"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL base and the editions that agree with it. The Westcott-Hort wording would turn the opening into a condition, which Paul's flow from 5:1-5 does not need. The Byzantine variant drops one of two nearly identical words, a common copying slip. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "those who had not sinned the way Adam did",
+  "t": "'Those who did not sin' or 'those who sinned'?",
+  "p": "A few witnesses leave out the small word 'not' in 5:14 and so say the opposite of the usual text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles, the Byzantine text and Textus Receptus (every edition in this site's table)",
+    "orig": "τοὺς μὴ ἁμαρτήσαντας ἐπὶ τῷ ὁμοιώματι τῆς παραβάσεως Ἀδάμ",
+    "en": "those who did not sin in the likeness of Adam's transgression",
+    "plain": "those who had not sinned the way Adam did"
+   },
+   {
+    "w": "A few witnesses omit 'not' (reported by Metzger and the NA28 apparatus; manuscript lists not checked)",
+    "orig": "τοὺς ἁμαρτήσαντας ἐπὶ τῷ ὁμοιώματι τῆς παραβάσεως Ἀδάμ",
+    "en": "those who sinned in the likeness of Adam's transgression",
+    "plain": "those who sinned the way Adam did"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the text with 'not', which every edition prints and which is the harder reading: a scribe who found it hard to see how death could rule over people who had not broken a command like Adam's might drop the word. Without it the verse is easy, saying only that death ruled over people who sinned as Adam did.",
+  "b": "The Plain's wording ('had not sinned the way Adam did') keeps the 'not' and leaves open who is meant: people between Adam and Moses with no command, infants, or everyone who sinned in some other way. Augustine and Calvin are often cited as reading it of infants; the note at 5:14 gives the other construals.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "Should we stay in sin",
+  "t": "'Should we stay?' or 'Will we stay?'",
+  "p": "The first question of chapter 6 comes in three Greek forms, one letter apart.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles (subjunctive)",
+    "orig": "ἐπιμένωμεν",
+    "en": "should we remain",
+    "plain": "Should we stay in sin"
+   },
+   {
+    "w": "Textus Receptus (future)",
+    "orig": "ἐπιμενοῦμεν",
+    "en": "shall we remain",
+    "plain": "Will we stay in sin"
+   },
+   {
+    "w": "Byzantine text (present indicative)",
+    "orig": "ἐπιμένομεν",
+    "en": "do we remain",
+    "plain": "Do we stay in sin"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the subjunctive of the SBL base and NA28: Paul asks what is the right course ('Should we?'), as in the question at 6:15. The other forms differ by a single vowel, which sounded alike to the copyists. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "Christ Jesus",
+  "t": "'Our Lord' added at the end of 6:11",
+  "p": "The Byzantine text and the KJV add 'our Lord,' as in 6:23.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "Χριστῷ Ἰησοῦ",
+    "en": "Christ Jesus",
+    "plain": "Christ Jesus"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV 'through Jesus Christ our Lord')",
+    "orig": "Χριστῷ Ἰησοῦ τῷ κυρίῳ ἡμῶν",
+    "en": "Christ Jesus our Lord",
+    "plain": "Christ Jesus our Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is in the oldest witnesses; the longer closing phrase looks like an assimilation to 5:21, 6:23, 7:25 and 8:39, where 'our Lord' ends each section. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "with you obeying its desires",
+  "t": "'Obey it in its desires' (6:12)",
+  "p": "The Byzantine text adds two small words that change the sentence.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ὑπακούειν ταῖς ἐπιθυμίαις αὐτῆς",
+    "en": "to obey its desires",
+    "plain": "with you obeying its desires"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV 'that ye should obey it in the lusts thereof')",
+    "orig": "ὑπακούειν αὐτῇ ἐν ταῖς ἐπιθυμίαις αὐτοῦ",
+    "en": "to obey it in its desires",
+    "plain": "with you obeying sin in its desires"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one printed by the editions that follow the oldest manuscripts. The longer text makes 'sin' the object of 'obey' and specifies where the desires belong (to the body). The meaning is nearly the same. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:15",
+  "a": "Are we to sin",
+  "t": "'Are we to sin?' or 'Will we sin?'",
+  "p": "The second question of chapter 6 repeats the first, again in subjunctive or future.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles (subjunctive)",
+    "orig": "ἁμαρτήσωμεν",
+    "en": "should we sin",
+    "plain": "Are we to sin"
+   },
+   {
+    "w": "Textus Receptus and the Byzantine text (future)",
+    "orig": "ἁμαρτήσομεν",
+    "en": "shall we sin",
+    "plain": "Will we sin"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the subjunctive, which matches 6:1: Paul asks whether sin is now allowed. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:6",
+  "a": "We have died to the thing that held us",
+  "t": "Who died in 7:6: we, or what held us?",
+  "p": "One Greek ending says we died to what held us. A few Western manuscripts say that what held us died. The Latin Bible has a third wording.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and the Byzantine text; in this site's edition table no edition differs",
+    "orig": "ἀποθανόντες ἐν ᾧ κατειχόμεθα",
+    "en": "having died to that in which we were held",
+    "plain": "We have died to the thing that held us"
+   },
+   {
+    "w": "A few Western manuscripts, reported as D*, F and G (as reported in the NA28 apparatus and Metzger; manuscript lists not checked). The KJV's 'that being dead wherein we were held' follows this reading; printed Textus Receptus editions differ among themselves",
+    "orig": "ἀποθανόντος ἐν ᾧ κατειχόμεθα",
+    "en": "that in which we were held having died",
+    "plain": "The thing that held us has died"
+   },
+   {
+    "w": "The Latin Vulgate",
+    "orig": "a lege mortis in qua detinebamur",
+    "en": "from the law of death in which we were held",
+    "plain": "We have been released from the law of death that held us"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural participle, 'we died,' is the reading of the editions and the great majority of Greek manuscripts, and it fits 7:4 ('you were put to death in relation to the law'). The genitive would make the law the one that died, which Paul avoids saying anywhere. The Latin 'law of death' is a third wording, not a way of reading either Greek form.",
+  "b": "The Vulgate's 'from the law of death in which we were held' is not an ambiguous rendering of either Greek reading; it is a different text, and it is why Douay English reads 'loosed from the law of death.' The KJV, 'that being dead wherein we were held,' follows the genitive reading.",
+  "s": [
+   "metzger",
+   "moo-romans"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "made of flesh",
+  "t": "'Made of flesh' or 'fleshly'?",
+  "p": "Two Greek words differ by a few letters and a shade of meaning.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "σάρκινός",
+    "en": "made of flesh",
+    "plain": "made of flesh"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV 'carnal')",
+    "orig": "σαρκικός",
+    "en": "fleshly, of the flesh in character",
+    "plain": "fleshly"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading with -inos is in the editions that follow the oldest manuscripts. Paul uses -inos for what a thing is made of (2 Corinthians 3:3, tablets 'of flesh') and -ikos for what a thing is like (1 Corinthians 3:3). A scribe could easily have changed an unusual word to the common one. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:18",
+  "a": "but the doing of it is not",
+  "t": "A verb added at the end of 7:18",
+  "p": "The oldest text breaks off: 'but the doing of the good, no.' Later copies added 'I do not find.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and the editions that follow the oldest witnesses",
+    "orig": "τὸ δὲ κατεργάζεσθαι τὸ καλὸν οὔ",
+    "en": "but the doing of the good, no",
+    "plain": "but the doing of it is not"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV 'but how to perform that which is good I find not')",
+    "orig": "τὸ δὲ κατεργάζεσθαι τὸ καλὸν οὐχ εὑρίσκω",
+    "en": "but the doing of the good I do not find",
+    "plain": "but the doing of it I do not find"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter, harsher reading is the more difficult and is found in the earliest witnesses; a scribe would be likely to supply the missing verb. The meaning is the same. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "7:25",
+  "a": "Thanks be to God",
+  "t": "'Thanks be to God' or 'I thank God'?",
+  "p": "The Byzantine text and the KJV read 'I thank God,' which is a small change in English but a different Greek word.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort and Tregelles",
+    "orig": "χάρις τῷ θεῷ",
+    "en": "thanks to God",
+    "plain": "Thanks be to God"
+   },
+   {
+    "w": "Tyndale House GNT, the Byzantine text and Textus Receptus (KJV 'I thank God')",
+    "orig": "εὐχαριστῶ τῷ θεῷ",
+    "en": "I thank God",
+    "plain": "I thank God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL text, 'thanks (be) to God,' which reads like Paul elsewhere (6:17; 1 Corinthians 15:57). Metzger and the NA28 apparatus report further readings, among them 'the grace of God,' which shows how the verse was reshaped. All of them answer the question, 'Who will rescue me?' Tyndale House GNT prints 'I thank God.'",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "So now there is no condemnation for people who are in Christ Jesus.",
+  "t": "The longer ending of 8:1 in the KJV",
+  "p": "The KJV adds 'who do not walk according to the flesh, but according to the Spirit.' The oldest manuscripts do not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "Οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ",
+    "en": "There is now no condemnation for those in Christ Jesus",
+    "plain": "So now there is no condemnation for people who are in Christ Jesus."
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV), which add the clause from 8:4",
+    "orig": "... μὴ κατὰ σάρκα περιπατοῦσιν ἀλλὰ κατὰ πνεῦμα",
+    "en": "who do not walk according to the flesh but according to the Spirit",
+    "plain": "So now there is no condemnation for people who are in Christ Jesus, who do not walk by the flesh but by the Spirit."
+   }
+  ],
+  "follow": 0,
+  "why": "The clause is a copyist's addition from 8:4. Its effect is to make the promise depend on how a person walks. Without it, 8:1 states a verdict that belongs to everyone in Christ, and 8:4 gives the result. The longer text is the one in the KJV, so English readers of older Bibles meet it. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "has set you free",
+  "t": "'You' or 'me' in 8:2",
+  "p": "The earliest text says 'you' (singular). The Byzantine text and the KJV say 'me.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Westcott-Hort",
+    "orig": "ἠλευθέρωσέν σε",
+    "en": "has set you (singular) free",
+    "plain": "has set you free"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, the Byzantine text and Textus Receptus (KJV 'hath made me free')",
+    "orig": "ἠλευθέρωσέν με",
+    "en": "has set me free",
+    "plain": "has set me free"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is divided. 'Me' fits the first-person cry of 7:24-25, a reason for a scribe to change 'you' to 'me'; 'you' is the harder reading, since Paul has been speaking in the first person singular for two chapters, and the singular 'you' is unusual. Either way the sentence says that the Spirit's law frees from the law of sin and death. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "8:11",
+  "a": "because his Spirit lives in you",
+  "t": "'Because of his Spirit' or 'through his Spirit'?",
+  "p": "One letter or two in Greek turns 'because of the Spirit living in you' into 'through the Spirit living in you.'",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT, Tregelles, the Byzantine text and Textus Receptus (accusative case). Vaticanus reads the accusative (as reported by Metzger)",
+    "orig": "διὰ τὸ ἐνοικοῦν αὐτοῦ πνεῦμα",
+    "en": "because of his Spirit who lives in",
+    "plain": "because his Spirit lives in you"
+   },
+   {
+    "w": "NA28, NA27 and Westcott-Hort (genitive case). Sinaiticus, Alexandrinus, C and 81 read the genitive (as reported by Metzger)",
+    "orig": "διὰ τοῦ ἐνοικοῦντος αὐτοῦ πνεύματος",
+    "en": "through his Spirit who lives in",
+    "plain": "through his Spirit who lives in you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL base and Tyndale House GNT, not NA28. The accusative says the new life of the body is given on the ground that the Spirit lives in believers. The genitive, preferred by the NA28 editors and, as Metzger reports, by his committee, makes the Spirit the means. Gordon Fee defends the accusative because Vaticanus has it. The difference is small: in either, the Spirit is the pledge that God will raise mortal bodies as he raised Jesus.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "8:23",
+  "a": "for adoption as children, the redemption of our bodies",
+  "t": "Is 'adoption' original in 8:23?",
+  "p": "A few ancient copies omit 'adoption,' so that the verse reads 'we wait for the redemption of our bodies.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 and the great majority of manuscripts",
+    "orig": "υἱοθεσίαν ἀπεκδεχόμενοι τὴν ἀπολύτρωσιν τοῦ σώματος ἡμῶν",
+    "en": "waiting for adoption, the redemption of our body",
+    "plain": "for adoption as children, the redemption of our bodies"
+   },
+   {
+    "w": "Papyrus 46 (about AD 200) and some Western witnesses omit 'adoption' (reported by Metzger and the NA28 apparatus)",
+    "orig": "ἀπεκδεχόμενοι τὴν ἀπολύτρωσιν τοῦ σώματος ἡμῶν",
+    "en": "waiting for the redemption of our body",
+    "plain": "for the redemption of our bodies"
+   }
+  ],
+  "follow": 0,
+  "why": "The word is in nearly all witnesses. A scribe may have dropped it because 'adoption' already appeared in 8:15 as something present, and the idea of waiting for adoption seemed odd. Paul means both: adoption is given now (8:15) and finished at the resurrection (8:23).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:24",
+  "a": "Who hopes for something he is looking at?",
+  "t": "'Who hopes?' or 'Why does he still hope?'",
+  "p": "The oldest text asks a simple question; the Byzantine text asks 'why does he also hope for it?'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27 and Westcott-Hort ('who hopes')",
+    "orig": "τίς ἐλπίζει",
+    "en": "who hopes",
+    "plain": "Who hopes for something he is looking at?"
+   },
+   {
+    "w": "Tyndale House GNT, the Byzantine text and Textus Receptus (KJV 'why doth he yet hope for?'). Tregelles reads 'why does he hope' without 'also'",
+    "orig": "τί καὶ ἐλπίζει",
+    "en": "why does he also hope",
+    "plain": "Why does he still hope for something he is looking at?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL base, with the shorter question. Tyndale House GNT departs from it here. The longer question is likely a smoothing that gives the sentence a clearer shape. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "in our weakness",
+  "t": "'Weakness' or 'weaknesses', and 'for us'?",
+  "p": "The Textus Receptus and Byzantine text have the plural 'weaknesses' and two extra words after 'pleads.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles (singular 'weakness'; no 'for us' after the verb)",
+    "orig": "τῇ ἀσθενείᾳ ... ὑπερεντυγχάνει",
+    "en": "in our weakness ... pleads",
+    "plain": "in our weakness"
+   },
+   {
+    "w": "Textus Receptus and Byzantine text (plural 'weaknesses'; 'ὑπὲρ ἡμῶν' added)",
+    "orig": "ταῖς ἀσθενείαις ... ὑπερεντυγχάνει ὑπὲρ ἡμῶν",
+    "en": "in our weaknesses ... pleads for us",
+    "plain": "in our weaknesses"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the singular and the shorter text. The verb already has the prefix 'for' in it (hyper-), so 'for us' is in the sense either way. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:28",
+  "a": "all things work together",
+  "t": "Who works in 8:28: 'all things' or 'God'?",
+  "p": "Some early witnesses make God the subject: 'God works all things together for good.'",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, the Byzantine text and Textus Receptus (KJV 'all things work together'); in this site's edition table no edition reads otherwise. Witnesses for 'all things' include C, D, F, G, Psi and the versions (as reported)",
+    "orig": "πάντα συνεργεῖ",
+    "en": "all things work together",
+    "plain": "all things work together"
+   },
+   {
+    "w": "Papyrus 46 (about AD 200), Alexandrinus and Vaticanus (as reported by Metzger and the NA28 apparatus)",
+    "orig": "ὁ θεὸς συνεργεῖ πάντα",
+    "en": "God works all things together",
+    "plain": "God works all things together"
+   }
+  ],
+  "follow": 0,
+  "why": "The text in the editions has 'all things' as the subject. The reading with 'God' has early and weighty witnesses (P46, A, B), and some commentators favor it; others suspect it as an interpretation that makes the subject explicit. The meaning is close: in both, the 'working together' is directed by God, as the next verse shows.",
+  "b": "Several modern translations read 'God works all things' in a footnote or the text. The Plain keeps the text of the SBL and the NA28.",
+  "s": [
+   "metzger",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "8:34",
+  "a": "Christ died",
+  "t": "'Christ' or 'Christ Jesus'?",
+  "p": "The NA28 and Westcott-Hort have 'Christ Jesus'; SBLGNT has 'Christ.'",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT, Tregelles, the Byzantine text and Textus Receptus",
+    "orig": "Χριστὸς ὁ ἀποθανών",
+    "en": "Christ the one who died",
+    "plain": "Christ died"
+   },
+   {
+    "w": "NA28, NA27 and Westcott-Hort",
+    "orig": "Χριστὸς [Ἰησοῦς] ὁ ἀποθανών",
+    "en": "Christ Jesus the one who died",
+    "plain": "Christ Jesus died"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is divided and the sense is the same. The Plain follows the SBL base here, with the shorter reading. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "8:38",
+  "a": "neither things present nor things to come, neither powers",
+  "t": "Where do 'powers' stand in 8:38?",
+  "p": "The KJV puts 'powers' next to 'principalities,' the Byzantine order. The older text puts it after 'things to come.'",
+  "readings": [
+   {
+    "w": "SBLGNT and NA28: 'things present' and 'things to come' come before 'powers'",
+    "orig": "οὔτε ἐνεστῶτα οὔτε μέλλοντα οὔτε δυνάμεις",
+    "en": "nor things present nor things to come nor powers",
+    "plain": "neither things present nor things to come, neither powers"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV 'nor principalities, nor powers, nor things present, nor things to come')",
+    "orig": "οὔτε δυνάμεις οὔτε ἐνεστῶτα οὔτε μέλλοντα",
+    "en": "nor powers nor things present nor things to come",
+    "plain": "neither powers, neither things present nor things to come"
+   }
+  ],
+  "follow": 0,
+  "why": "The older order puts the times between two lists of beings. The Byzantine order groups the angelic beings first (angels, rulers, powers) and then the times, which looks like a copyist's tidying. The meaning is not affected. Editions only; manuscript lists not checked.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

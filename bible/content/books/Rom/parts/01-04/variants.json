@@ -1,0 +1,381 @@
+[
+ {
+  "v": "1:1",
+  "a": "Christ Jesus",
+  "t": "\"Christ Jesus\" or \"Jesus Christ\"?",
+  "p": "Editions differ on the order of the two names. The English changes only in the order.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "Χριστοῦ Ἰησοῦ",
+    "en": "Christ Jesus",
+    "plain": "Christ Jesus"
+   },
+   {
+    "w": "Tyndale House GNT, Westcott-Hort, Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "orig": "Ἰησοῦ Χριστοῦ",
+    "en": "Jesus Christ",
+    "plain": "Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The order does not change the meaning, and Paul uses both orders in his letters. The Plain follows the SBLGNT, which agrees here with NA28; Tyndale House GNT prints the other order.",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "in Rome",
+  "t": "\"In Rome\" or no place named?",
+  "p": "A few witnesses leave out \"in Rome\" here and at 1:15, as if the letter had no fixed address.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Byzantine majority text",
+    "orig": "ἐν Ῥώμῃ",
+    "en": "in Rome",
+    "plain": "in Rome"
+   },
+   {
+    "w": "Codex Boernerianus (G 012, 800s), which is reported to read \"in the love of God\" in its place; a marginal note in minuscule 1739 (900s) is reported to say that Origen's text lacked the words, and Origen as translated by Rufinus is reported to agree. Further witnesses are reported in the standard apparatuses (an Old Latin manuscript among them); this list is not checked beyond those named",
+    "orig": "(omitted; G: ἐν ἀγάπῃ θεοῦ)",
+    "en": "(no place named)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in almost every Greek manuscript. The omission looks deliberate: Metzger suggests a copyist wanted the letter to read as a general one, for any church. The place name also fits the letter's own plan (1:15; 15:23–24).",
+  "b": "This is the first of three places where Romans may have circulated in a shorter or more general form (the others are the omission of chapters 15–16 in some witnesses and the moving of the doxology). The introduction (the section on the text of Romans) sets out those questions and the report about Marcion's text.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "in Rome",
+  "t": "\"In Rome\" again at 1:15",
+  "p": "The same few witnesses leave out Rome here too. This goes with the entry at 1:7.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Byzantine majority text",
+    "orig": "τοῖς ἐν Ῥώμῃ",
+    "en": "to those in Rome",
+    "plain": "in Rome"
+   },
+   {
+    "w": "Codex Boernerianus (G 012, 800s), as reported by NA28 and Metzger. No further witness is named here",
+    "orig": "(omitted)",
+    "en": "(no place named)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Same reasons as 1:7: wide support for the place name, and an easy reason for a general reading to arise.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "the good news",
+  "t": "\"The good news\" or \"the good news of Christ\"?",
+  "p": "The KJV reads \"the gospel of Christ.\" The editions of the Greek text do not have \"of Christ.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "τὸ εὐαγγέλιον",
+    "en": "the good news",
+    "plain": "the good news"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "τὸ εὐαγγέλιον τοῦ χριστοῦ",
+    "en": "the good news of Christ",
+    "plain": "the good news of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one printed by all the critical editions. \"Of Christ\" is a natural addition, the phrase Paul uses in Galatians 1:7 and 1 Corinthians 9:12, which copyists supplied.",
+  "s": [
+   "metzger",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "1:29",
+  "a": "unrighteousness, wickedness",
+  "t": "\"Sexual immorality\" in the list of vices?",
+  "p": "The KJV list includes \"fornication\" after \"unrighteousness.\" The critical editions do not.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "ἀδικίᾳ πονηρίᾳ",
+    "en": "unrighteousness, wickedness",
+    "plain": "unrighteousness, wickedness"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"fornication\")",
+    "orig": "ἀδικίᾳ πορνείᾳ πονηρίᾳ",
+    "en": "unrighteousness, sexual immorality, wickedness",
+    "plain": "unrighteousness, sexual immorality, wickedness"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer list adds a word that is in most lists of vices (1 Corinthians 5:10–11; Galatians 5:19). It is the kind of addition a copyist would make, especially since 1:24–27 has just spoken of sexual sin.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:31",
+  "a": "they have no family love",
+  "t": "\"Implacable\" in the list of vices?",
+  "p": "The KJV adds \"implacable\" (Greek <i>aspondous</i>) in the list of 1:31. The critical editions do not have it.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "ἀστόργους",
+    "en": "without natural affection",
+    "plain": "they have no family love"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"implacable\")",
+    "orig": "ἀστόργους ἀσπόνδους",
+    "en": "without natural affection, irreconcilable",
+    "plain": "they have no family love, they never make peace"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Aspondous</i> (from a word for a peace offering or truce) is found in 2 Timothy 3:3, and a copyist could have carried it over from there. It is also similar in sound to the neighboring <i>asynthetous</i>, \"promise-breakers.\"",
+  "s": [
+   "nestle-aland-28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "anger and fury",
+  "t": "\"Anger and fury\" or \"fury and anger\"?",
+  "p": "The KJV reads \"indignation and wrath,\" in the opposite order.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "ὀργὴ καὶ θυμός",
+    "en": "anger and fury",
+    "plain": "anger and fury"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"indignation [<i>thymos</i>] and wrath [<i>orge</i>]\")",
+    "orig": "θυμὸς καὶ ὀργή",
+    "en": "fury and anger",
+    "plain": "fury and anger"
+   }
+  ],
+  "follow": 0,
+  "why": "The editors follow the order of the critical text. The two words are close in meaning, and the difference changes little. The Byzantine and Textus Receptus texts also add the particle <i>men</i> earlier in the verse, which does not show in English.",
+  "s": [
+   "nestle-aland-28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "God judges",
+  "t": "\"God judges\" or \"God will judge\"? \"Christ Jesus\" or \"Jesus Christ\"?",
+  "p": "The editions split twice in this verse: present or future tense, and the order of the two names. The two splits line up.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Westcott-Hort (editions only; manuscript lists not checked)",
+    "orig": "ὅτε κρίνει ... διὰ Χριστοῦ Ἰησοῦ",
+    "en": "when he judges ... through Christ Jesus",
+    "plain": "God judges"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Textus Receptus (KJV \"by Jesus Christ\"), Byzantine majority text (editions only; manuscript lists not checked)",
+    "orig": "ὅτε κρινεῖ ... διὰ Ἰησοῦ Χριστοῦ",
+    "en": "when he will judge ... through Jesus Christ",
+    "plain": "God will judge"
+   }
+  ],
+  "follow": 0,
+  "why": "The editors are divided. After \"on the day when,\" a future tense is the one a reader would expect, so the present tense is the less expected reading, and it is the one NA28 and the SBLGNT print. The difference is small: Paul means the last judgment either way. Westcott-Hort has \"on the day in which\" in place of \"when,\" which changes nothing in the sense. Tyndale House GNT and Tregelles print the future tense and the other order of the names.",
+  "b": "The Plain keeps this verse tied to 2:15 (\"on the day when God judges\") in the Greek order of thought: the conscience and the thoughts accuse or defend on that day.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "Suppose you are called a Jew.",
+  "t": "\"Behold, you are called a Jew\" or \"But if\"?",
+  "p": "The KJV reads \"Behold, thou art called a Jew,\" and ends the sentence at 2:20 differently.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "Εἰ δὲ σὺ Ἰουδαῖος ἐπονομάζῃ",
+    "en": "But if you are called a Jew",
+    "plain": "Suppose you are called a Jew."
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"Behold\")",
+    "orig": "Ἴδε σὺ Ἰουδαῖος ἐπονομάζῃ",
+    "en": "Look, you are called a Jew",
+    "plain": "Look, you are called a Jew."
+   }
+  ],
+  "follow": 0,
+  "why": "\"If\" starts a long conditional sentence that leaves its main clause unfinished until 2:21, a style of writing that copyists tended to smooth. \"Behold\" (<i>ide</i>) makes the sentence complete. The harder, broken sentence is likely original.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "reaching all who believe",
+  "t": "\"And upon all\"?",
+  "p": "The KJV reads \"unto all and upon all them that believe.\" The critical editions have only \"for all.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "εἰς πάντας τοὺς πιστεύοντας",
+    "en": "to all who believe",
+    "plain": "reaching all who believe"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV)",
+    "orig": "εἰς πάντας καὶ ἐπὶ πάντας τοὺς πιστεύοντας",
+    "en": "to all and upon all who believe",
+    "plain": "reaching all, and resting on all who believe"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one every critical edition prints. \"And upon all\" looks like a fuller statement of the thought (God's righteousness reaches all and rests on them) added by a copyist; the meaning is the same.",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "3:25",
+  "a": "through faith",
+  "t": "\"Through faith\" or \"through the faith\"?",
+  "p": "The Byzantine text has the article in \"through the faith.\" NA28 prints it in brackets, as doubtful.",
+  "readings": [
+   {
+    "w": "SBLGNT (editions only; manuscript lists not checked)",
+    "orig": "διὰ πίστεως",
+    "en": "through faith",
+    "plain": "through faith"
+   },
+   {
+    "w": "NA28 (article in brackets); Byzantine majority text (article printed) (editions only; manuscript lists not checked)",
+    "orig": "διὰ [τῆς] πίστεως",
+    "en": "through [the] faith",
+    "plain": "through faith"
+   }
+  ],
+  "follow": 0,
+  "why": "The article changes the English only slightly: \"through faith\" or \"through the faith.\" The Plain follows the SBLGNT, which has no article; NA28 treats it as doubtful. Either way the sense is the same.",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:28",
+  "a": "For we reckon",
+  "t": "\"For we reckon\" or \"Therefore we reckon\"?",
+  "p": "The KJV reads \"Therefore we conclude.\" The critical editions have \"For.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "orig": "λογιζόμεθα γὰρ",
+    "en": "for we reckon",
+    "plain": "For we reckon"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"therefore\")",
+    "orig": "λογιζόμεθα οὖν",
+    "en": "therefore we reckon",
+    "plain": "Therefore we reckon"
+   }
+  ],
+  "follow": 0,
+  "why": "\"For\" ties the verse to 3:27 as an explanation. \"Therefore\" turns it into a conclusion drawn from 3:21–27. The change from \"for\" to \"therefore\" is the sort of smoothing copyists made. The doctrine is the same either way. (The Byzantine text also puts \"by faith\" before \"to be justified,\" which does not show in English.)",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "Abraham, our forefather according to the flesh, found",
+  "t": "Did Abraham \"find\" something? Three readings",
+  "p": "The editions print three forms of the verse. The KJV has \"that Abraham our father, as pertaining to the flesh, hath found.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Tregelles (the verb \"to have found\" before \"Abraham,\" with \"forefather\") (editions only; manuscript lists not checked)",
+    "orig": "εὑρηκέναι Ἀβραὰμ τὸν προπάτορα ἡμῶν κατὰ σάρκα",
+    "en": "to have found Abraham our forefather according to the flesh",
+    "plain": "Abraham, our forefather according to the flesh, found"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV): \"father\" in place of \"forefather,\" and \"to have found\" after \"our father\"",
+    "orig": "Ἀβραὰμ τὸν πατέρα ἡμῶν εὑρηκέναι κατὰ σάρκα",
+    "en": "Abraham our father to have found according to the flesh",
+    "plain": "Abraham, our father, found according to the flesh"
+   },
+   {
+    "w": "Westcott-Hort (text without the verb) (editions only; manuscript lists not checked)",
+    "orig": "(no εὑρηκέναι)",
+    "en": "What then shall we say of Abraham, our forefather according to the flesh?",
+    "plain": "Abraham, our forefather according to the flesh"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT, with NA28 and Tyndale House GNT. The Byzantine order reads smoothly (\"Abraham our father to have found\"); the other order, with the verb before the name, is the harder one and the one the critical editions print. Westcott-Hort print the verse without the verb. <i>Propator</i>, \"forefather,\" is a word found only here in the New Testament, and the Byzantine \"father\" looks like a simplification. Metzger discusses the forms of this verse.",
+  "b": "The question of the verse is the same in each reading: what did Abraham gain? The omission reading would turn it into \"What shall we say about Abraham, our forefather?\", which is also good Greek.",
+  "s": [
+   "metzger",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "he looked at his own body, which was dead, and at the deadness of Sarah's womb",
+  "t": "Did Abraham look at his body, or not?",
+  "p": "The KJV says Abraham \"considered not his own body\" (a negative that the critical editions do not have).",
+  "readings": [
+   {
+    "w": "SBLGNT (without \"not\" and without \"already\"); NA28 (without \"not,\" with \"already\" in brackets); Tyndale House GNT, Westcott-Hort, Tregelles (without \"not\") (editions only; manuscript lists not checked)",
+    "orig": "κατενόησεν τὸ ἑαυτοῦ σῶμα νενεκρωμένον",
+    "en": "he considered his own body dead",
+    "plain": "he looked at his own body, which was dead, and at the deadness of Sarah's womb"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV \"considered not\")",
+    "orig": "οὐ κατενόησεν τὸ ἑαυτοῦ σῶμα ἤδη νενεκρωμένον",
+    "en": "he did not consider his own body, already dead",
+    "plain": "he did not look at his own body, which was already dead, or at the deadness of Sarah's womb"
+   }
+  ],
+  "follow": 0,
+  "why": "The earlier reading says Abraham looked honestly at his body and Sarah's, and his faith still did not weaken. The added \"not\" makes Abraham a man who did not let himself think about the facts. It is the easier reading and looks like a copyist's tidying, since \"did not grow weak\" seems to need \"did not consider.\" Genesis 17:17 tells the other story, of a man who laughed.",
+  "b": "Both readings keep Paul's point, that Abraham's faith did not fail. The first has him face the facts; the second has him set them aside.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ }
+]

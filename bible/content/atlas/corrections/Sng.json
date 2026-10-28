@@ -1,0 +1,6 @@
+[
+ {"c": 1, "drop": ["kedar", "pharaoh-4"], "why": "Kedar here means the nomadic tribe whose dark tents the woman compares herself to, not the patriarch Kedar as a person. Pharaoh's chariots in 1:9 are a comparison to Egyptian war horses, not any particular pharaoh."},
+ {"c": 4, "drop": ["david"], "why": "'David's tower' in 4:4 names a tower, probably a fortification known to the poet's hearers; the verse does not speak of David the man, and which tower is meant is not known."},
+ {"c": 7, "drop": ["carmel"], "add": {"places": {"mount-carmel": {"name": "Mount Carmel", "lat": 32.72935016, "lon": 35.04978957}}}, "why": "Bible Atlas links the Carmel in the Judean hills near Maon, but 7:5 compares her head to Mount Carmel, the mountain ridge by the northern coast, so the link now points there."},
+ {"c": 8, "unmap": ["baal-hamon"], "why": "Bible Atlas draws Baal-hamon on the same point as Senir, in the Hermon range, but nobody knows where Solomon's vineyard at Baal-hamon was, so no dot is drawn."}
+]

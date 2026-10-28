@@ -1,0 +1,45 @@
+[
+ {
+  "c": 11,
+  "drop": ["jesus-2"],
+  "why": "Chapter 11 never names Jesus or Christ. Christians have long read the \"Deliverer\" of 11:26 as Christ, but the text itself does not say so; that reading is in the chapter's notes."
+ },
+ {
+  "c": 11,
+  "drop": ["israel"],
+  "why": "Here Israel means the people of Israel (and the nation Paul belongs to), not their ancestor Jacob, whose other name was Israel."
+ },
+ {
+  "c": 11,
+  "drop": ["benjamin-5"],
+  "why": "In 11:1 Paul says he is of the tribe of Benjamin. Bible Atlas links the patriarch Benjamin, the son of Jacob; the verse means the tribe."
+ },
+ {
+  "c": 9,
+  "add": {
+   "people": {
+    "rebekah": {"name": "Rebekah"}
+   }
+  },
+  "why": "9:10 names Rebecca (Rebekah), Isaac's wife and the mother of Jacob and Esau; Bible Atlas does not link her here."
+ },
+ {
+  "c": 15,
+  "add": {
+   "places": {
+    "rome": {"name": "Rome", "lat": 41.89262, "lon": 12.4843457}
+   }
+  },
+  "why": "In 15:22-29 Paul plans to visit the Roman believers (\"your city\") on his way to Spain; the passage is headed \"Plans for Rome and Spain\". Bible Atlas links Spain and Jerusalem here but not Rome."
+ },
+ {
+  "c": 16,
+  "add": {
+   "places": {
+    "rome": {"name": "Rome", "lat": 41.89262, "lon": 12.4843457},
+    "corinth": {"name": "Corinth", "lat": 37.906045, "lon": 22.878721}
+   }
+  },
+  "why": "The greetings of 16:3-16 go to friends in Rome, and 16:21-23 are greetings from Paul's companions in Corinth, where Gaius and Erastus lived (the traditional place of writing). Bible Atlas links neither city in this chapter."
+ }
+]

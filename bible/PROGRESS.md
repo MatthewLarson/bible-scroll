@@ -26,6 +26,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Psa | reviewed, published | 13 parts: 001-017, 018-030, 031-041, 042-055, 056-072, 073-080, 081-089, 090-101, 102-106, 107-118, 119-119, 120-137, 138-150 (parts/). book.json lenses fixed:  |
 | Pro | reviewed, published | 6 parts: 01-09 (owns book.json), 10-15, 16-22, 23-24, 25-29, 30-31; lenses H C W J X fixed; brief tools/brief-pro.md. Part 23-24 written 2026-10-24 (--check Pro |
 | Ecc | reviewed, published | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
+| Sng | reviewed, published | Planned 2026-10-28: one part (117 verses, flat folder like Ruth, writer owns book.json); lenses H L J X M; brief tools/brief-sng.md; atlas harvest next. |
 | Isa | writing | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
 | Jer | writing | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
@@ -33,8 +34,9 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Jhn | reviewed, published | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
 | Act | reviewed, published | nt lane, run by the lead session. 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-14, 15-17, 18-20, 21-23, 24-28. Lenses fixed: H C L J T. Briefs: tools/brief |
+| Rom | reviewed, published | nt lane, run by the lead session. 4 parts: 01-04 (owns book.json), 05-08, 09-11, 12-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-rom.md.  |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
-| Rev | reviewed, ready | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
+| Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |
 | Tob | reviewed, published | Outside the 66 (tier dc). Base text Swete: grc = Sinaiticus (longer text), grc_b = Vaticanus (shorter text), KJV apocrypha, Vulgate/Douay (texts/src/Tob.lat.jso |
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |

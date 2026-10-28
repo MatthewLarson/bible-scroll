@@ -1,4 +1,4 @@
-Status: reviewed, ready
+Status: reviewed, published
 
 From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit).
 2026-10-26 hostile review in the new format, in five slices (content/overlays/Rev-review-01-05.md, -06-11, -12-16, -17-22, -book), all fixed:
