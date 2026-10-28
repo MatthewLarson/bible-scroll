@@ -1,0 +1,418 @@
+[
+ {
+  "v": "29:1",
+  "a": "In the tenth year, in the tenth month, on the twelfth day of the month",
+  "t": "Which year and day?",
+  "p": "The Hebrew has the tenth year and the twelfth day. The Greek has the twelfth year and the first day.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "בשנה העשירית בעשירי בשנים עשר לחדש",
+    "en": "in the tenth year, in the tenth month, on the twelfth of the month",
+    "plain": "In the tenth year, in the tenth month, on the twelfth day of the month"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "ἐν τῷ ἔτει τῷ δωδεκάτῳ ἐν δεκάτῳ μηνὶ μιᾷ τοῦ μηνός",
+    "en": "in the twelfth year, in the tenth month, on the first of the month",
+    "plain": "In the twelfth year, in the tenth month, on the first day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew reading fits the siege: the tenth year is the year Egypt's army marched out (Jeremiah 37:5-11) and the oracle looks ahead to the fall. The Greek date would place it after the fall of Jerusalem, which does not suit the message to Egypt.",
+  "b": "Both readings are one day in the tenth month. The Greek year (twelfth) matches the year of 32:1, 17 and 33:21, so the Greek may have copied a nearby date. Which way the error ran is not certain.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "30:5",
+  "a": "the people of the covenant land",
+  "t": "Sons of the land of the covenant, or of my covenant?",
+  "p": "The Hebrew says the covenant land. The Greek says my covenant.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "וּבְנֵי אֶרֶץ הַבְּרִית",
+    "en": "and the sons of the land of the covenant",
+    "plain": "the people of the covenant land"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "καὶ τῶν υἱῶν τῆς διαθήκης μου",
+    "en": "and of the sons of my covenant",
+    "plain": "the people of my covenant"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Hebrew. The Greek could be a smoothing of a hard phrase, and it changes the list's sense: the covenant people of the LORD would be falling with Egypt.",
+  "b": "The whole list in the Greek differs (Persians, Cretans, Lydians, Libyans), so this is one of several differences, not a single clean reading.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "30:17",
+  "a": "those cities",
+  "t": "Cities or women?",
+  "p": "The Hebrew has a feminine \"they,\" the cities. The Greek has the women.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "וְהֵנָּה בַּשֶּׁבִי תֵלַכְנָה",
+    "en": "and they (feminine) will go into captivity",
+    "plain": "those cities"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "αἱ γυναῖκες ἐν αἰχμαλωσίᾳ πορεύσονται",
+    "en": "the women will go into captivity",
+    "plain": "the women"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew pronoun is feminine and the nearest feminine nouns are the cities. The Greek removes the puzzle by naming women.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "30:18",
+  "a": "go dark",
+  "t": "Hold back or go dark?",
+  "p": "The consonants are the same. The Leningrad pointing means \"hold back\"; the Greek means \"go dark.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "חָשַׂךְ",
+    "en": "it will withhold (the day holds back)",
+    "plain": "hold back"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "συσκοτάσει ἡ ἡμέρα",
+    "en": "the day will grow dark",
+    "plain": "go dark"
+   }
+  ],
+  "follow": 1,
+  "why": "The same consonants, pointed with shin (chashakh), mean \"grow dark,\" which fits the cloud of 30:18 and the darkness of the day in 30:3 and 32:7-8, and the Greek agrees. The Masoretic pointing gives a sense that is possible but does not suit \"cloud\" as well.",
+  "b": "Only the pointing differs, not the letters. The Targum and Vulgate were not read for this part.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "31:3",
+  "a": "Assyria was a cedar",
+  "t": "Assyria, or a tree called te'ashur?",
+  "p": "The Hebrew and the Greek both say Assyria. A modern conjecture would read a tree, te'ashur.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "הִנֵּה אַשּׁוּר אֶרֶז",
+    "en": "look, Assyria, a cedar",
+    "plain": "Assyria was a cedar"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "ἰδοὺ Ἀσσοὺρ κυπάρισσος ἐν τῷ Λιβάνῳ",
+    "en": "look, Assyria, a cypress in Lebanon",
+    "plain": "Look, Assyria was a cypress in Lebanon"
+   },
+   {
+    "w": "A modern conjecture (te'ashur, a tree named in Isaiah 41:19 and 60:13, which the site's Isaiah calls the pine); no manuscript read for this part has it",
+    "orig": "הִנֵּה תְאַשּׁוּר אֶרֶז",
+    "en": "look, a te'ashur, a cedar",
+    "plain": "Look, a pine, a cedar"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense: Assyria is the tree that fell, and 32:22 puts Assyria in the Pit. The Greek also has Assyria. Its kuparissos (cypress) stands where the Hebrew has erez (cedar), the same word it uses for the cedars of 31:8, so the Greek agrees with the Hebrew and gives no support to te'ashur. The third reading is only a conjecture.",
+  "b": "Rashi reads \"Behold Assyria\" as Assyria already fallen. The conjecture would remove Assyria from the fable, so that the tree is only a tree from the start. The Targum, Syriac and Vulgate were not read for this part.",
+  "s": [
+   "rashi-ezekiel",
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "31:3",
+  "a": "dense boughs",
+  "t": "Dense boughs or clouds?",
+  "p": "The Hebrew says thick boughs. The Greek says clouds, here and in 31:10, 14.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "בֵּין עֲבֹתִים",
+    "en": "among thick boughs",
+    "plain": "dense boughs"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "εἰς μέσον νεφελῶν",
+    "en": "into the midst of clouds",
+    "plain": "clouds"
+   }
+  ],
+  "follow": 0,
+  "why": "Avot means thick, interwoven foliage (Leviticus 23:40). The Greek translator may have read a word for clouds or simply guessed. Both readings give a tree whose top is out of reach; the Hebrew keeps the picture of a tree.",
+  "b": "The same choice arises in 31:10 and 31:14, where the Plain also follows the Hebrew.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:1",
+  "a": "twelfth month",
+  "t": "The twelfth month or the tenth?",
+  "p": "The Hebrew has the twelfth month. The Greek has the tenth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "בשתי עשרה שנה בשתי עשר חדש",
+    "en": "in the twelfth year, in the twelfth month",
+    "plain": "twelfth month"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "ἐν τῷ δωδεκάτῳ ἔτει ἐν τῷ δεκάτῳ μηνὶ",
+    "en": "in the twelfth year, in the tenth month",
+    "plain": "tenth month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text. The Greek date would be the same month as 33:21, so it may have been shaped by a nearby date.",
+  "b": "In the Hebrew, 32:1 (twelfth month, about March 585 BC) comes after the news of the fall (33:21, tenth month), which is why chapters 32 and 33 are not in strict date order. In the Greek tenth month, it would be about two months earlier.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:9",
+  "a": "your ruin",
+  "t": "Your ruin or your captives?",
+  "p": "The Hebrew has \"your breaking.\" The Greek has \"your captivity,\" which would be one different letter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "שִׁבְרְךָ",
+    "en": "your breaking",
+    "plain": "your ruin"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "ἄγω αἰχμαλωσίαν σου",
+    "en": "I lead your captivity",
+    "plain": "your captives"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew gives sense. In Hebrew writing, resh and yod look much alike, so the Greek could rest on shivyekha (\"your captives\"), but it might also be a free rendering.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:17",
+  "a": "on the fifteenth day of the month",
+  "t": "Which month?",
+  "p": "The Hebrew gives the day but no month. The Greek supplies the first month.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "בשתי עשרה שנה בחמשה עשר יום לחדש",
+    "en": "in the twelfth year, on the fifteenth day of the month",
+    "plain": "on the fifteenth day of the month"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "τοῦ πρώτου μηνὸς πεντεκαιδεκάτῃ",
+    "en": "of the first month, on the fifteenth",
+    "plain": "in the first month, on the fifteenth day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no month, and the Plain says so. The Greek fills the gap with the first month. Which month was meant is not known.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:19",
+  "a": "Are you lovelier than anyone? Go down! Be laid with the uncircumcised!",
+  "t": "Where does the Greek put 32:19?",
+  "p": "Swete's 32:19 is empty, but the words of the Hebrew verse are in the Greek 32:21.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "מִמִּי נָעַמְתָּ רְדָה וְהָשְׁכָּבָה אֶת עֲרֵלִים",
+    "en": "whom do you surpass in loveliness? go down and be laid with the uncircumcised",
+    "plain": "Are you lovelier than anyone? Go down! Be laid with the uncircumcised!"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read); in its numbering this stands in 32:21",
+    "orig": "τίνος κρείττων εἶ; καὶ κατάβηθι καὶ κοιμήθητι μετὰ ἀπεριτμήτων",
+    "en": "whom are you better than? and go down and sleep with the uncircumcised",
+    "plain": "Are you better than anyone? Go down and sleep with the uncircumcised."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek does not lack the sentence; it moves it. In the Greek 32:19 is empty, 32:20 is shorter, and 32:21 begins with the giants speaking (\"Be in the depth of tumult\") and goes on with the words of the Hebrew 32:19. So Greek 32:19-21 are a rearrangement of the Hebrew 32:19-21, not a shorter text. Whether the Greek rearranged the verses or had a different Hebrew order cannot be told from this one codex. The Plain follows the Hebrew order.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:25",
+  "a": "Among the slain they have made a bed for Elam with all her multitude. Their graves are all around it. All of them are uncircumcised, killed by the sword, for their terror was spread in the land of the living. They bear their disgrace with those who go down to the Pit. She was put among the slain.",
+  "t": "A shorter verse in the Greek",
+  "p": "The Greek of 32:25 is only \"in the midst of the wounded.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "בְּתוֹךְ חֲלָלִים נָתְנוּ מִשְׁכָּב לָהּ ...",
+    "en": "among the slain they made a bed for her ...",
+    "plain": "Among the slain they have made a bed for Elam with all her multitude. Their graves are all around it. All of them are uncircumcised, killed by the sword, for their terror was spread in the land of the living. They bear their disgrace with those who go down to the Pit. She was put among the slain."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "ἐν μέσῳ τραυματιῶν",
+    "en": "in the midst of the wounded",
+    "plain": "Among the slain."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verse repeats 32:24 almost word for word. The Greek has the closing line of 32:24 (\"they bore their disgrace with those who go down to the Pit\") at the end of its 32:24 and then only \"in the midst of the wounded\" as its 32:25. Whether the Hebrew is expanded or the Greek abridged cannot be settled from one codex.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:27",
+  "a": "They do not lie with the warriors",
+  "t": "\"They do not lie,\" or \"they lay\"?",
+  "p": "The Hebrew has a negative. The Greek does not: it says they lay with the giants.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "וְלֹא יִשְׁכְּבוּ אֶת גִּבּוֹרִים",
+    "en": "and they do not lie with the warriors",
+    "plain": "They do not lie with the warriors"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "καὶ ἐκοιμήθησαν μετὰ τῶν γιγάντων",
+    "en": "and they lay with the giants",
+    "plain": "They lay with the warriors"
+   }
+  ],
+  "follow": 0,
+  "why": "With the Hebrew negative, Meshech and Tubal are denied the honorable burial of the old heroes, which fits their place among the uncircumcised slain (32:26) and the contrast with Pharaoh's own end (32:28). The Greek has no negative and so makes them share the heroes' rest; but then the verse no longer matches the shame of 32:26 and 32:28. The whole sense of the verse changes with this one word.",
+  "b": "The Plain follows the Hebrew. The two readings reverse each other, so a reader who meets a Bible with the opposite sense is following the Greek or a conjecture built on it.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:27",
+  "a": "who fell from among the uncircumcised",
+  "t": "Fallen from the uncircumcised, or fallen long ago?",
+  "p": "The Hebrew says \"from the uncircumcised.\" The Greek says \"from of old.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "נֹפְלִים מֵעֲרֵלִים",
+    "en": "fallen from the uncircumcised",
+    "plain": "who fell from among the uncircumcised"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition; Ziegler's critical Greek and Papyrus 967 not read)",
+    "orig": "τῶν πεπτωκότων ἀπ᾽ αἰῶνος",
+    "en": "who fell from of old",
+    "plain": "who fell long ago"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew can be read, though awkwardly. The Greek \"from of old\" would correspond to me'olam, which differs from me'arelim by a few letters and gives a smoother sense: heroes of old buried in honor with weapons. me'olam is a conjecture for the Hebrew, since only the Greek has it.",
+  "b": "Some translations follow the sense of the Greek here. The Plain keeps the Hebrew.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:29",
+  "a": "Edom is there, its kings and all its leaders",
+  "t": "Edom or Assyria's rulers?",
+  "p": "In the Greek, Edom is not here. The rulers of Assyria are.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "שָׁמָּה אֱדוֹם מְלָכֶיהָ וְכָל נְשִׂיאֶיהָ",
+    "en": "there is Edom, its kings and all its leaders",
+    "plain": "Edom is there, its kings and all its leaders"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "ἐκεῖ ἐδόθησαν οἱ ἄρχοντες Ἀσσούρ",
+    "en": "there were put the rulers of Assyria",
+    "plain": "The rulers of Assyria are there"
+   }
+  ],
+  "follow": 0,
+  "why": "Edom is in the Hebrew text only. The Greek drops it and repeats Assyria, whose place is already given in 32:22-23. The Hebrew list of six peoples is harder and more likely to be original.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:30",
+  "a": "and all the Sidonians",
+  "t": "Sidonians or Assyria's generals?",
+  "p": "The Hebrew has the Sidonians. The Greek has the generals of Assyria.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); no Dead Sea Scroll preserves this verse",
+    "orig": "וְכָל צִידֹנִי",
+    "en": "and all the Sidonians",
+    "plain": "and all the Sidonians"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed in Swete's edition)",
+    "orig": "πάντες στρατηγοὶ Ἀσσούρ",
+    "en": "all the generals of Assyria",
+    "plain": "all the commanders of Assyria"
+   }
+  ],
+  "follow": 0,
+  "why": "Same reasoning as 32:29: the Greek repeats Assyria, the Hebrew has a wider list.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "32:32",
+  "a": "my terror",
+  "t": "My terror or his terror?",
+  "p": "The Hebrew is written \"his terror\" but read \"my terror.\" The Greek has \"his.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text as read (Qere, \"my terror\"); the Plain follows this",
+    "orig": "חִתִּיתִי",
+    "en": "my terror",
+    "plain": "my terror"
+   },
+   {
+    "w": "Masoretic Text as written (Ketiv, \"his terror\"); the Greek (Swete) also has \"his\"",
+    "orig": "חִתִּיתוֹ / τὸν φόβον αὐτοῦ",
+    "en": "his terror",
+    "plain": "his terror"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings are about equally possible. With the Qere, the LORD is the one who had put terror in the land of the living, in contrast to the terror the nations spread in 32:23-27. With the Ketiv and the Greek, the terror is Pharaoh's, as \"their terror\" is for each other group in the roll, and the LORD had let him spread it. The difference is one letter, yod or waw. The Plain follows the Masoretes' reading.",
+  "b": "The Masoretes kept the written \"his\" in the text and put \"my\" in the margin. Nothing here settles it, so it is not given as certain which terror the verse means.",
+  "s": [
+   "block-ezekiel2"
+  ]
+ }
+]

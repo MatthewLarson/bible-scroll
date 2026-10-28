@@ -19,8 +19,8 @@
    }
   ],
   "follow": 0,
-  "why": "Every manuscript of Isaiah, Hebrew and Greek, names Cyrus, and 44:28 has already named him. The Barnabas reading is a one-letter change in a Christian quotation that makes the verse speak of Christ.",
-  "b": "Barnabas reads: \"The Lord said to Christ, my Lord, whose right hand I have held\", and sets it beside Psalm 110:1. A later corrector of Sinaiticus restored 'Cyrus'. See the note on this verse.",
+  "why": "Every manuscript of Isaiah, Hebrew and Greek, names Cyrus, and 44:28 has already named him. The Barnabas reading is a one-letter change in Christian quotations that makes the verse speak of Christ.",
+  "b": "Barnabas reads: \"The Lord said to Christ, my Lord, whose right hand I have held\", and sets it beside Psalm 110:1. A later corrector of Sinaiticus restored 'Cyrus'. The Latin fathers read it the same way: Tertullian (<i>Against Praxeas</i> 28), Cyprian (<i>Testimonies</i> 1.21) and Lactantius (<i>Institutes</i> 4.12) all have 'to Christ my Lord', so the reading was widespread in the early church. See the note on this verse.",
   "s": [
    "barnabas",
    "swete-lxx"
@@ -99,7 +99,7 @@
    }
   ],
   "follow": 0,
-  "why": "Three other Qumran copies and the Greek have the line; the Great Isaiah Scroll probably lost it by a slip of the eye or shortened the verse.",
+  "why": "Two other Qumran copies (1QIsa-b, 4QIsa-c) and the Greek have the line; the Great Isaiah Scroll probably lost it by a slip of the eye or shortened the verse.",
   "b": "The scroll also has 'Shout, heavens' (<i>har'iu</i>) for 'let it drip', 'who says to the earth' for 'let the earth open', and 'let salvation blossom' for 'bear fruit'.",
   "s": [
    "abegg-dssb"
@@ -165,13 +165,39 @@
   ]
  },
  {
+  "v": "47:10",
+  "a": "You trusted your own evil;",
+  "t": "Your evil or your knowledge?",
+  "p": "The Great Isaiah Scroll reads \"your knowledge\" for \"your evil\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "ברעתך (bera'atekh)",
+    "en": "in your evil",
+    "plain": "You trusted your own evil;"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "בדעתך (bede'atekh)",
+    "en": "in your knowledge",
+    "plain": "You trusted your own knowledge;"
+   }
+  ],
+  "follow": 0,
+  "why": "Resh and dalet look almost the same in Hebrew writing, so the two readings are one letter apart. 'Your knowledge' fits the next lines ('your wisdom and your learning'), but 'your evil' is the harder reading and makes a sharper charge. The Plain keeps the Hebrew.",
+  "s": [
+   "abegg-dssb",
+   "blenkinsopp-isaiah2"
+  ]
+ },
+ {
   "v": "48:10",
   "a": "I have chosen you",
   "t": "Chosen or tested?",
   "p": "The Great Isaiah Scroll reads 'I have tested you', which fits the furnace image.",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-d (4Q58) (damaged)",
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-c (4Q57)",
     "orig": "בחרתיך (bechartikha)",
     "en": "I have chosen you",
     "plain": "I have chosen you"
@@ -313,6 +339,34 @@
   "s": [
    "abegg-dssb",
    "blenkinsopp-isaiah2"
+  ]
+ },
+ {
+  "v": "49:17",
+  "a": "Your children hurry;",
+  "t": "Children or builders?",
+  "p": "The Great Isaiah Scroll and the Greek read \"your builders\" for \"your children\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בניך (banayikh)",
+    "en": "your children",
+    "plain": "Your children hurry;"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC) (written bwnyk); the Greek (Septuagint; Ziegler) (οἰκοδομηθήσῃ, 'you will be built')",
+    "orig": "בוניך (bonayikh)",
+    "en": "your builders",
+    "plain": "Your builders hurry;"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same apart from a waw, so the two readings are the same word divided in two ways. 'Builders' fits the contrast with 'those who tore you down' in the next line; 'children' fits 49:18–21 and 54:13. Some read the next words as a comparison: 'your builders outpace your destroyers'. The ESV and NRSV follow 'builders'; the NIV footnotes it. The Plain keeps 'children' and no longer adds 'home', which the Hebrew does not have.",
+  "b": "The same children-or-builders question comes back in 54:13, where the rabbis read 'your children' as 'your builders' (Berakhot 64a).",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx",
+   "bavli-berakhot"
   ]
  },
  {
@@ -481,6 +535,59 @@
   ]
  },
  {
+  "v": "52:14",
+  "a": "Just as many were horrified at you",
+  "t": "At you or at him?",
+  "p": "The Targum and Syriac have \"at him\"; the Hebrew, the Great Isaiah Scroll and the Greek have \"at you\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Great Isaiah Scroll (1QIsa-a, about 125 BC); 4QIsa-c (4Q57); the Greek (Septuagint; Ziegler)",
+    "orig": "עליך ('alekha)",
+    "en": "at you",
+    "plain": "Just as many were horrified at you"
+   },
+   {
+    "w": "the Targum; the Syriac (Peshitta); many modern versions (the NIV's text)",
+    "orig": "עליו ('alav)",
+    "en": "at him",
+    "plain": "Just as many were horrified at him"
+   }
+  ],
+  "follow": 0,
+  "why": "The harder reading is 'you', which the oldest witnesses share, and the shift from 'you' to 'his look' is the kind of change copyists smooth. 1QIsa-b's 'at him' is restored by its editors and is not counted. See the note.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx",
+   "chilton-isaiah-targum"
+  ]
+ },
+ {
+  "v": "52:15",
+  "a": "so he will startle many nations;",
+  "t": "Startle, or marvel?",
+  "p": "The Greek reads \"many nations will marvel at him\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); all the Qumran copies",
+    "orig": "יזה גוים רבים (yazzeh goyim rabbim)",
+    "en": "he will startle (or sprinkle) many nations",
+    "plain": "so he will startle many nations;"
+   },
+   {
+    "w": "the Greek (Septuagint; Ziegler)",
+    "orig": "θαυμάσονται ἔθνη πολλὰ ἐπ᾽ αὐτῷ",
+    "en": "many nations will marvel at him",
+    "plain": "many nations will marvel at him;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has translated the sense of the parallel line, or read another verb. The Hebrew is the same in every scroll, so the question is what <i>yazzeh</i> means (see the note); the Greek supports 'startle' against 'sprinkle'. The NIV footnotes the Greek.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx"
+  ]
+ },
+ {
   "v": "53:1",
   "a": "Who has believed what we have heard?",
   "t": "\"Lord, who has believed?\"",
@@ -507,6 +614,31 @@
   ]
  },
  {
+  "v": "53:3",
+  "a": "he was despised, and we counted him as nothing.",
+  "t": "\"And we despised him\"",
+  "p": "The Great Isaiah Scroll writes the second \"despised\" as a verb: \"and we despised him\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QIsa-b (1Q8) (the same word, spelled with a yod)",
+    "orig": "נבזה (nivzeh)",
+    "en": "he was despised",
+    "plain": "he was despised, and we counted him as nothing."
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
+    "orig": "ונבוזהו (venavuzehu)",
+    "en": "and we despised him",
+    "plain": "and we despised him."
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll turns the repeated 'despised' (<i>nivzeh</i>) into a verb with 'we' as its subject, which matches the 'we' of the confession. The meaning hardly changes. The Plain keeps the Hebrew.",
+  "s": [
+   "abegg-dssb"
+  ]
+ },
+ {
   "v": "53:8",
   "a": "because my people rebelled",
   "t": "My people or his people?",
@@ -527,7 +659,7 @@
   ],
   "follow": 0,
   "why": "The oldest Greek and one Qumran copy agree with the Hebrew. The two letters waw and yod were easily confused at Qumran, so the scrolls' 'his people' may be a copying change; it could also be original, with the speakers (53:1–10) speaking of the servant's own people.",
-  "b": "The reading matters for the identity question. With 'my people', God or the prophet speaks of Israel, and the servant suffers for Israel's sin, which Origen used against the reading of the servant as Israel. With 'his people', the servant suffers for his own people's sins. See the notes on this verse.",
+  "b": "The reading matters for the identity question. With 'my people', God or the prophet speaks of Israel, and the servant suffers for Israel's sin, which Origen used against the reading of the servant as Israel. With 'his people', the servant suffers for his own people's sins. See the notes on this verse. Jewish interpreters answered Origen's point from this verse by saying that 'my people' is a Gentile king's own people, each of the kings speaking for his nation (Rashi). The Greek also reads <i>ēchthē eis thanaton</i>, 'he was led to death', where the Hebrew has <i>lamo</i>, 'to them' or 'to him'; that is the textual ground of the Christian reply on <i>lamo</i>.",
   "s": [
    "abegg-dssb",
    "origen-celsus",
@@ -536,21 +668,21 @@
  },
  {
   "v": "53:9",
-  "a": "a rich man in his death",
+  "a": "in his deaths",
   "t": "\"In his deaths\"",
   "p": "The Hebrew has 'in his deaths' (plural); the Great Isaiah Scroll has 'rich men' and 'his death', or 'his tomb'.",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QIsa-b (1Q8, first century BC)",
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QIsa-b (1Q8, first century BC); 4QIsa-d (4Q58) (damaged; only 'in his deaths' is visible)",
     "orig": "ואת עשיר במתיו (ve'et-'ashir bemotav)",
     "en": "and with a rich man in his deaths",
-    "plain": "a rich man in his death"
+    "plain": "in his deaths"
    },
    {
     "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC)",
     "orig": "ועמת עשירים בומתו (ve'immat 'ashirim bomato)",
     "en": "and with rich men his tomb (or: in his death)",
-    "plain": "rich men in his death"
+    "plain": "rich men, his tomb (or: in his death)"
    },
    {
     "w": "the Greek (Septuagint; Ziegler)",
@@ -560,7 +692,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Hebrew plural 'deaths' is probably an intensive plural, 'his violent death', as in Ezekiel 28:10, and the Plain renders it as a singular. Ibn Ezra noted the plural; some interpreters read it as the many deaths of a people. The scroll's bwmtw may be 'in his death' with a different spelling, or <i>bamato</i>, 'his burial mound', a reading some scholars prefer.",
+  "why": "The Hebrew plural 'deaths' may be an intensive plural, 'his violent death', as in Ezekiel 28:10, or a true plural (Ibn Ezra; Troki, who read the servant as a people). The Plain keeps the plural so that the reader can see what the debate is about; see the note. The scroll's bwmtw may be 'in his death' with a different spelling, or <i>bamato</i>, 'his burial mound', a reading some scholars prefer.",
   "b": "The scroll also reads 'they gave' (plural) where the Hebrew has 'he (one) gave'; the Plain already says 'They gave'. The Greek makes God the subject: 'I will give the wicked for his burial and the rich for his death'.",
   "s": [
    "abegg-dssb",
@@ -605,10 +737,10 @@
   "v": "53:11",
   "a": "he will see light",
   "t": "\"He will see light\"",
-  "p": "Three Qumran scrolls and the Greek add 'light'; the Hebrew has only 'he will see'.",
+  "p": "Two Qumran scrolls and the Greek add 'light'; the Hebrew has only 'he will see'.",
   "readings": [
    {
-    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); 1QIsa-b (1Q8, first century BC); 4QIsa-d (4Q58) (damaged, restored by its editors); the Greek (Septuagint; Ziegler) (φῶς)",
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); 1QIsa-b (1Q8, first century BC); the Greek (Septuagint; Ziegler) (φῶς)",
     "orig": "יראה אור (yir'eh 'or)",
     "en": "he will see light",
     "plain": "he will see light"
@@ -621,8 +753,8 @@
    }
   ],
   "follow": 0,
-  "why": "'He will see' has no object in the Hebrew, which is awkward. The word 'light' in two independent Qumran scrolls and the Greek suggests it fell out of the Masoretic line. 'Seeing light' means coming alive again (Job 33:28, 30; Psalm 36:9). Most modern versions follow it; the KJV ('He shall see of the travail of his soul') does not.",
-  "b": "The Great Isaiah Scroll also reads 'and by his knowledge' and 'his servant'. The Greek reads 'to show him light and to form him with understanding'.",
+  "why": "'He will see' has no object in the Hebrew, which is awkward. The word 'light' in two independent Qumran scrolls (1QIsa-a and 1QIsa-b) and the Greek suggests it fell out of the Masoretic line. 'Seeing light' means coming alive again (Job 33:28, 30; Psalm 36:9). Most modern versions follow it; the KJV ('He shall see of the travail of his soul') does not.",
+  "b": "4QIsa-d (4Q58) has room for the word, and its editors restore it in brackets; it is not counted as a witness. The Great Isaiah Scroll also reads 'and by his knowledge' and 'his servant'. The Greek reads 'to show him light and to form him with understanding'.",
   "s": [
    "abegg-dssb",
    "ulrich-dss",
@@ -649,7 +781,7 @@
    }
   ],
   "follow": 0,
-  "why": "The meaning is the same: the singular is collective. The Plain keeps the Hebrew, which is also the form Hebrews 9:28 renders with a plural.",
+  "why": "The meaning is the same: the singular is collective. The Plain keeps the Hebrew. Hebrews 9:28 has the plural ('the sins of many'), which agrees with the Greek and the Great Isaiah Scroll, not with the Hebrew.",
   "s": [
    "abegg-dssb"
   ]
@@ -694,7 +826,7 @@
   "p": "Many Hebrew manuscripts and the Latin read 'the days of Noah'.",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-c (4Q57) and 4QIsa-d (4Q58); the Greek (Septuagint; Ziegler)",
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QIsa-d (4Q58); the Greek (Septuagint; Ziegler)",
     "orig": "כי מי נח (ki-me Noach)",
     "en": "for the waters of Noah",
     "plain": "the waters of Noah"

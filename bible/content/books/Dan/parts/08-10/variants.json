@@ -1,0 +1,490 @@
+[
+ {
+  "v": "8:1",
+  "a": "was shown a vision",
+  "t": "A vision, or a word revealed and a vision?",
+  "p": "One Dead Sea copy has an extra word, 'was revealed', before 'a vision appeared'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-b (4Q113, 'a vision appeared to me' visible, no extra word); Theodotion ('a vision appeared to me', Swete)",
+    "orig": "חזון נראה אלי (chazon nir'a elay)",
+    "en": "a vision appeared to me",
+    "plain": "was shown a vision"
+   },
+   {
+    "w": "4QDan-a (4Q112: 'was revealed' (nigla) is visible; the word 'a word' before it is restored by the editors)",
+    "orig": "[דבר] נגלה חזון נראה אלי ([davar] nigla chazon nir'a elay)",
+    "en": "a word was revealed; a vision appeared to me",
+    "plain": "a word was uncovered; I was shown a vision"
+   }
+  ],
+  "follow": 0,
+  "why": "Two scrolls split here. 'Was revealed' is the verb of 10:1 ('a word was uncovered to Daniel'), so 4QDan-a may have borrowed the opening of the last vision, or the Masoretic Text may have shortened it. The Old Greek ('a vision which I, Daniel, saw') has no such word either. The Plain follows the Masoretic Text, which Theodotion, the Old Greek and 4QDan-b support.",
+  "b": "The word 'a word' in 4QDan-a is the editors' restoration, which they presumably made from 10:1; only 'was revealed' is visible. Ulrich reports the scroll's date as late second century BC.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx",
+   "ulrich-daniel-qumran"
+  ]
+ },
+ {
+  "v": "8:3",
+  "a": "one ram",
+  "t": "One ram, or one great ram?",
+  "p": "4QDan-b has 'great' beside 'ram' (the word 'one' is restored there); the Old Greek says 'a great ram'; the Masoretic Text and Theodotion say only 'a ram'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QDan-a (4Q112, 'ayil 'echad visible, 'great' restored by the editors); Theodotion (Swete's printing)",
+    "orig": "אַיִל אֶחָד ('ayil 'echad)",
+    "en": "one ram",
+    "plain": "one ram"
+   },
+   {
+    "w": "4QDan-b (4Q113, as transcribed by Abegg, Bowley and Cook: 'ayil' and 'gadol' are visible, 'echad is restored, so the order of the three words is the editors'); the Old Greek (Swete's Chigi text, 'a great ram')",
+    "orig": "איל [אחד] גדול ('ayil ['echad] gadol)",
+    "en": "one great ram",
+    "plain": "one great ram"
+   }
+  ],
+  "follow": 0,
+  "why": "'Great' may have been added to link the ram with the 'great horn' of the goat (8:8, 21) and the ram's own 'making itself great' (8:4). The only scroll with the word is 4QDan-b, and there 'one' is a restoration; 4QDan-a shows 'one' and has 'great' only in the editors' restoration, which shows what they thought would fit, not what the scroll says. Against the Masoretic Text stand 4QDan-b and the Old Greek; Theodotion agrees with the Masoretic Text. The shorter text is followed.",
+  "b": "The Old Greek text printed by Swete is a single manuscript (Codex Chisianus); the critical Göttingen text was not checked.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:4",
+  "a": "toward the west, the north and the south",
+  "t": "Three directions or four?",
+  "p": "One Dead Sea copy adds 'east'; the Old Greek has four directions too.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-b (4Q113: 'west' then 'north', no 'east' between, 'south' restored); Theodotion (Swete)",
+    "orig": "יָמָּה וְצָפוֹנָה וָנֶגְבָּה (yammah v'tsafonah v'negbah)",
+    "en": "westward, northward and southward",
+    "plain": "toward the west, the north and the south"
+   },
+   {
+    "w": "4QDan-a (4Q112: 'and eastward' and 'northward, southward' visible, 'westward' restored by the editors; the 'and' before 'northward' is absent); the Old Greek (Swete's Chigi text: east, north, west, south)",
+    "orig": "[ימה] ומזרחה צפונה ונגבה",
+    "en": "westward, and eastward, northward and southward",
+    "plain": "toward the west, the east, the north and the south"
+   }
+  ],
+  "follow": 0,
+  "why": "The Dead Sea copies split (4QDan-b agrees with the Masoretic Text where it survives), and 'east' is easy to add once the writer thinks of the empire's reach. The three directions match the text's picture: the conquests of Lydia and Babylon (west), Scythia (north) and Egypt (south).",
+  "b": "The ram's push east is natural for a Persian king, which makes the omission in the Masoretic Text a puzzle; some think the Masoretic Text lost the word. Neither reading changes the sense of the vision.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:9",
+  "a": "the Beautiful Land",
+  "t": "The Beautiful Land, or the power?",
+  "p": "Theodotion says 'toward the south and toward the power'; the Old Greek has no Beautiful Land.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); no Dead Sea copy preserves this verse",
+    "orig": "אל הנגב ואל המזרח ואל הצבי ('el ha-negev ve'el ha-mizrach ve'el ha-tsevi)",
+    "en": "toward the south and toward the east and toward the Beautiful Land",
+    "plain": "the Beautiful Land"
+   },
+   {
+    "w": "Theodotion (Swete: 'toward the south and toward the power', pros ten dynamin)",
+    "orig": "(Greek: πρὸς τὸν νότον καὶ πρὸς τὴν δύναμιν)",
+    "en": "toward the south and toward the power",
+    "plain": "the power"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text: 'toward the south, and toward the east, and toward the north')",
+    "orig": "(Greek: ἐπὶ μεσημβρίαν καὶ ἐπ᾽ ἀνατολὰς καὶ ἐπὶ βορρᾶν)",
+    "en": "toward the south, the east and the north",
+    "plain": "the north"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek versions agree with each other neither in the places named nor in their number. Theodotion's 'power' may reflect another reading of the Hebrew letters (the consonants of 'the Beautiful Land' and of a word for a host or power are close), but that cannot be shown. The Old Greek drops the Beautiful Land and names the north. The Masoretic Text is the only witness for the Beautiful Land, but it is the reading that matches 11:16, 41 and 45.",
+  "b": "The Old Greek is cited from Swete's printing of one manuscript.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:11",
+  "a": "From him the regular offering was lifted away",
+  "t": "Was lifted away, or it lifted away?",
+  "p": "The written Hebrew has an active verb, the read form a passive: 'he removed' or 'was removed'.",
+  "readings": [
+   {
+    "w": "Qere (the form read aloud) and the vowels of the Leningrad Codex; the Old Greek also has a passive verb, 'was taken away' (Swete's Chigi text)",
+    "orig": "הוּרַם (huram)",
+    "en": "was lifted away",
+    "plain": "From him the regular offering was lifted away"
+   },
+   {
+    "w": "Ketiv (the written consonants, marked in the Masoretic margin)",
+    "orig": "הֵרִים (herim)",
+    "en": "it lifted away",
+    "plain": "From him it lifted away the regular offering"
+   }
+  ],
+  "follow": 0,
+  "why": "No Dead Sea copy preserves this verse. The passive follows the Masoretic reading tradition and fits the sudden, unexplained removal in the verse; the active makes the horn the one who acts.",
+  "b": "Both readings say the same thing in effect: the horn is responsible. The Old Greek differs more widely here, with 'the mountains' and a different clause order.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:14",
+  "a": "2,300 evenings and mornings",
+  "t": "Evenings and mornings, or days?",
+  "p": "Both Greek versions read '2,300 days'; the number is the same in the Hebrew and the Greek.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-b (4Q113: 'two thousand and three' visible, the word 'hundreds' restored by the editors)",
+    "orig": "עֶרֶב בֹּקֶר אַלְפַּיִם וּשְׁלֹשׁ מֵאוֹת ('erev boqer 'alpayim ushlosh me'ot)",
+    "en": "evening, morning, two thousand three hundred",
+    "plain": "2,300 evenings and mornings"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text) and Theodotion (Swete): 'until evening and morning, days 2,300'",
+    "orig": "(Greek: ἕως ἑσπέρας καὶ πρωί, ἡμέραι δισχίλιαι τριακόσιαι)",
+    "en": "until evening and morning, 2,300 days",
+    "plain": "until evening and morning, 2,300 days"
+   }
+  ],
+  "follow": 0,
+  "why": "The number 2,300 is the same in the Hebrew and in both Greek versions as Swete prints them, so no textual variant changes the figure. What the Greek adds is the word 'days', which shows how its translators took 'evening and morning' (see the note). The Plain keeps the Hebrew words.",
+  "b": "The Göttingen text and Papyrus 967 were not checked, so the statement is for Swete's print only.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "9:12",
+  "a": "the word he spoke",
+  "t": "His word, or his words?",
+  "p": "The written Hebrew has 'his words', the read form 'his word'.",
+  "readings": [
+   {
+    "w": "Qere (the form read aloud) and the pointing of the Leningrad Codex",
+    "orig": "דְּבָרוֹ (devaro)",
+    "en": "his word",
+    "plain": "the word he spoke"
+   },
+   {
+    "w": "Ketiv (the written consonants, noted in the Masoretic margin); the Greek nouns are plural too, in Theodotion 'his words' (logous) and in the Old Greek 'his ordinances' (prostagmata) (Swete)",
+    "orig": "דְּבָרָיו (devarav)",
+    "en": "his words",
+    "plain": "the words he spoke"
+   }
+  ],
+  "follow": 0,
+  "why": "No Dead Sea copy preserves this word (4QDan-e begins later in the verse). The difference is between one word and many; the verb 'spoke' and the later 'as it is written in the law of Moses' (9:13) fit either. The Greek plurals may reflect the Ketiv, but a Greek translator could also write a plural for a collective 'word', so the Greek is weak evidence. The Plain follows the Qere.",
+  "b": "Both Greek versions are cited from Swete's print.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "9:17",
+  "a": "For the Lord's sake",
+  "t": "For the Lord's sake, or for your own?",
+  "p": "The Hebrew changes from 'you' to 'the Lord'; Theodotion has 'for your sake, Lord'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-e (4Q116) has the words before this clause, but 'for the sake of' and 'the Lord' are restored there",
+    "orig": "לְמַעַן אֲדֹנָי (lema'an Adonay)",
+    "en": "for the Lord's sake",
+    "plain": "For the Lord's sake"
+   },
+   {
+    "w": "Theodotion (Swete: 'for your sake, Lord'); the Old Greek reads 'for the sake of your servants'",
+    "orig": "למענך (lema'ankha, reconstructed)",
+    "en": "for your own sake",
+    "plain": "For your own sake, Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is the harder reading, since it switches to the third person in the middle of a prayer, and the Greek smooths it, as 9:19 has 'for your own sake'. The Old Greek is further away and may rest on a different text.",
+  "b": "The Hebrew given for the second reading is reconstructed from the Greek, not read in any Hebrew manuscript.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "9:24",
+  "a": "your holy city",
+  "t": "The holy city, or the city of Zion?",
+  "p": "Theodotion has 'the holy city'; the Old Greek has 'the city of Zion'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Theodotion (Swete: 'the holy city')",
+    "orig": "עִיר קָדְשֶׁךָ ('ir qodshekha)",
+    "en": "the city of your holiness",
+    "plain": "your holy city"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text: 'the city Zion')",
+    "orig": "(Greek: τὴν πόλιν Σιών)",
+    "en": "the city Zion",
+    "plain": "your city Zion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Old Greek names Zion where the Hebrew says 'holiness' and so may paraphrase. It is the same Greek text that counts the verse's clauses differently (seven, not six; see the variant at 'to finish sin'). The Plain follows the Hebrew, which Theodotion matches.",
+  "b": "No Dead Sea copy preserves this verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "9:24",
+  "a": "to finish sin",
+  "t": "Finish sin, or seal up sins?",
+  "p": "A Ketiv/Qere in the Masoretic tradition: 'to complete sin' or 'to seal up sins'. The Greek versions do not line up with the Hebrew clause by clause.",
+  "readings": [
+   {
+    "w": "The Qere and the pointing of the Leningrad Codex ('to complete sin'); the Latin Vulgate ('let sin receive an end', finem accipiat peccatum)",
+    "orig": "וּלְהָתֵם חַטָּאת (ul'hatem chatta't)",
+    "en": "and to complete sin",
+    "plain": "to finish sin"
+   },
+   {
+    "w": "The Ketiv (the written form, noted in the Masoretic margin: 'to seal sins'); Theodotion has the word 'seal' with 'sins' in the plural (Swete)",
+    "orig": "וּלַחְתֹּם חַטָּאוֹת (ulachtom chatta'ot)",
+    "en": "and to seal up sins",
+    "plain": "to seal up sins"
+   }
+  ],
+  "follow": 0,
+  "why": "No Dead Sea copy preserves 9:24. The Ketiv and the Qere differ by one letter (chet for he), and the Ketiv's verb 'seal' is the verb of the next clause ('seal up vision and prophet'), which may have drawn a scribe's eye. The Plain follows the Qere, the pointed text. The Greek is not clean evidence for either. The Old Greek has seven clauses against the Hebrew's six, and its 'to be completed, the sin' probably answers the first Hebrew clause ('end the rebellion'), not this one. Theodotion has both 'to be completed, sin' and 'to seal sins', and an extra 'wipe out the iniquities'; its 'seal sins' matches the Ketiv's word, but its clauses are not in one-to-one order with the Hebrew.",
+  "b": "The Greek versions are cited as Swete prints them (the Old Greek from Codex Chisianus); the Göttingen text and Papyrus 967 were not checked. For that reason neither Greek version is counted as a witness for one reading.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "jerome-daniel"
+  ]
+ },
+ {
+  "v": "9:24",
+  "a": "to anoint a holy of holies",
+  "t": "Anoint, or gladden?",
+  "p": "Theodotion has 'anoint'; the Old Greek has 'gladden' a holy of holies.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Theodotion (Swete: 'to anoint a holy of holies')",
+    "orig": "וְלִמְשֹׁחַ קֹדֶשׁ קָדָשִׁים (v'limshoach qodesh qodashim)",
+    "en": "and to anoint a holy of holies",
+    "plain": "to anoint a holy of holies"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text: 'to gladden a holy of holies', euphrainai)",
+    "orig": "(Greek: εὐφρᾶναι ἅγιον ἁγίων)",
+    "en": "to gladden a holy of holies",
+    "plain": "to make glad a holy of holies"
+   }
+  ],
+  "follow": 0,
+  "why": "'Gladden' is a different verb from 'anoint'. It could come from a Hebrew form near 'to anoint' in the sound or the letters, from a different Hebrew text, or from a free rendering; scholars do not agree and the Old Greek is a freer text throughout this verse. The Plain follows the Hebrew and Theodotion.",
+  "b": "The Old Greek is cited from Swete's print.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "9:25",
+  "a": "seven sevens, and sixty-two sevens",
+  "t": "Seven sevens and sixty-two, or seven, then sixty-two?",
+  "p": "The Masoretic accent separates the seven from the sixty-two; Theodotion and the Vulgate join them; the Old Greek has no sevens here.",
+  "readings": [
+   {
+    "w": "Masoretic Text with its accents (Leningrad Codex: the main pause, atnach, stands on 'seven')",
+    "orig": "עַד מָשִׁיחַ נָגִיד שָׁבֻעִים שִׁבְעָה ◦ וְשָׁבֻעִים שִׁשִּׁים וּשְׁנַיִם",
+    "en": "until an anointed one, a ruler: seven sevens. And sixty-two sevens it will return and be built",
+    "plain": "seven sevens, and sixty-two sevens"
+   },
+   {
+    "w": "Theodotion (Swete: 'until an anointed ruler, sevens seven and sevens sixty-two'); the Latin Vulgate also runs the numbers together (hebdomades septem et hebdomades sexaginta duae)",
+    "orig": "(Greek: ἕως χριστοῦ ἡγουμένου ἑβδομάδες ἑπτὰ καὶ ἑβδομάδες ἑξήκοντα δύο)",
+    "en": "until an anointed ruler, seven sevens and sixty-two sevens; then it will return and be built",
+    "plain": "seven sevens and sixty-two sevens, then it will be restored"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text): no number of sevens in this verse: 'you will know and understand ... and find commands to be answered, and you will build Jerusalem a city for the Lord'",
+    "orig": "(Greek: καὶ οἰκοδομήσεις Ἰερουσαλὴμ πόλιν Κυρίῳ)",
+    "en": "and you will build Jerusalem, a city for the Lord",
+    "plain": "no count of sevens in this verse"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no verb between the numbers, so the English can keep both readings open, and the Plain does: a colon after 'a ruler', a comma after 'seven sevens', and no full stop between the numbers. The accents are a later Jewish reading tradition; Theodotion and the Vulgate are earlier witnesses to the other division, which makes the anointed one come after sixty-nine sevens (the Christian count to Jesus). The Old Greek puts the numbers elsewhere: 'after seven and seventy and sixty-two' in 9:26 and 'seventy-seven times and 62 years' in 9:27, so it counts and orders the 9:24-27 material differently from both Hebrew and Theodotion.",
+  "b": "No Dead Sea copy preserves 9:25. The Greek versions are cited from Swete's print; the Vulgate is cited as reported in Jerome's commentary tradition.",
+  "s": [
+   "swete-lxx",
+   "jerome-daniel",
+   "collins-daniel",
+   "goldingay-daniel"
+  ]
+ },
+ {
+  "v": "9:26",
+  "a": "there will be none for him",
+  "t": "Cut off, and nothing for him, or no judgment in him?",
+  "p": "Theodotion has 'there is no judgment in him'; the Old Greek 'an anointing will be removed and will not be'; the Vulgate adds a clause about a people who will deny him.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); no Dead Sea copy preserves this verse",
+    "orig": "יִכָּרֵת מָשִׁיחַ וְאֵין לוֹ (yikkaret mashiach ve'ein lo)",
+    "en": "an anointed one will be cut off, and there is nothing/no one for him",
+    "plain": "there will be none for him"
+   },
+   {
+    "w": "Theodotion (Swete: 'an anointing will be destroyed, and there is no judgment in him')",
+    "orig": "(Greek: ἐξολοθρευθήσεται χρίσμα, καὶ κρίμα οὐκ ἔστιν ἐν αὐτῷ)",
+    "en": "an anointing will be destroyed, and there is no judgment in him",
+    "plain": "an anointing will be destroyed, and no judgment is in him"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text: 'after seven and seventy and sixty-two an anointing will be removed, and it will not be; and a kingdom of nations will destroy the city and the holy place with the anointed one')",
+    "orig": "(Greek: ἀποσταθήσεται χρίσμα καὶ οὐκ ἔσται)",
+    "en": "an anointing will be removed, and it will not be",
+    "plain": "an anointing will be removed, and it will not be"
+   },
+   {
+    "w": "Latin Vulgate (reported by Jerome's commentary tradition): adds 'and the people who will deny him will not be his' (populus qui eum negaturus est)",
+    "orig": "(Latin: et non erit eius populus qui eum negaturus est)",
+    "en": "and the people who will deny him will not be his",
+    "plain": "and the people who will deny him will not be his"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 've-ein lo' is bare and is read many ways (see the note). Theodotion and the Old Greek both take 'anointed' as an 'anointing' (chrisma), not a person, which shapes their sense; Theodotion's 'no judgment in him' is its guess at the bare phrase. The Vulgate fills the gap with a Christian reading. The Old Greek's number ('after seven and seventy and sixty-two') belongs to this verse, not 9:25. The Plain keeps the bare Hebrew.",
+  "b": "The Greek versions are cited from Swete's print; the Vulgate wording is as reported for Jerome's text.",
+  "s": [
+   "swete-lxx",
+   "jerome-daniel",
+   "collins-daniel"
+  ]
+ },
+ {
+  "v": "9:27",
+  "a": "On a wing of abominations",
+  "t": "On a wing, or on the temple?",
+  "p": "Both Greek versions read 'on the temple the abomination of desolations' and 'will be given' where the Hebrew has 'will be poured out'; the Old Greek differs far more.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); no Dead Sea copy preserves this verse",
+    "orig": "וְעַל כְּנַף שִׁקּוּצִים מְשֹׁמֵם ... תִּתַּךְ עַל שֹׁמֵם",
+    "en": "and on a wing of abominations one who makes desolate ... is poured out on the desolate one",
+    "plain": "On a wing of abominations"
+   },
+   {
+    "w": "Theodotion (Swete: 'and half of the week my sacrifice and libation will be taken away, and on the temple an abomination of desolations, and until the end of the time an end will be given on the desolation')",
+    "orig": "(Greek: καὶ ἐπὶ τὸ ἱερὸν βδέλυγμα τῶν ἐρημώσεων ... συντέλεια δοθήσεται ἐπὶ τὴν ἐρήμωσιν)",
+    "en": "and on the temple an abomination of desolations ... an end will be given on the desolation",
+    "plain": "On the temple, an abomination of desolations"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text: 'the covenant will rule over many; and again he will return, and it will be rebuilt ... after seventy-seven times and 62 years until the time of the end of war; and the desolation will be taken away as the covenant is strengthened for many weeks; and at the end of the week the sacrifice and libation will be taken away, and on the temple an abomination of desolations will be until the end, and an end will be given on the desolation')",
+    "orig": "(Greek: καὶ δυναστεύσει ἡ διαθήκη εἰς πολλούς ... μετὰ ἑπτὰ καὶ ἑβδομήκοντα καιροὺς καὶ ξβ᾽ ἐτῶν)",
+    "en": "a different order and content, with 'many weeks' where the Hebrew has one seven",
+    "plain": "many weeks; the sacrifice taken away at the end of the week"
+   }
+  ],
+  "follow": 0,
+  "why": "No Dead Sea copy preserves 9:27. Both Greek versions read 'on the temple' where the Hebrew has 'on a wing' and 'will be given' where it has 'will be poured out'. The Greek may reflect a different Hebrew word or the translator's guess at a hard phrase; Theodotion is a revision of an earlier Greek, so the two are not fully independent. The Old Greek reorders the whole verse, has 'many weeks' for 'one seven', and ends the sacrifice 'at the end of the week' (Theodotion: 'half of the week', like the Hebrew). The Plain keeps the harder Hebrew.",
+  "b": "Matthew 24:15 (site Plain: 'the abomination of desolation') and Mark 13:14 quote the Greek rendering (bdelygma tes eremoseos), not the Hebrew words. The Greek versions are cited from Swete's print.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "third year",
+  "t": "Cyrus's third year, or his first?",
+  "p": "The Old Greek puts the vision in Cyrus's first year.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Theodotion (Swete)",
+    "orig": "בִּשְׁנַת שָׁלוֹשׁ לְכוֹרֶשׁ",
+    "en": "in the third year of Cyrus",
+    "plain": "third year"
+   },
+   {
+    "w": "Old Greek (Swete's Chigi text)",
+    "orig": "ἐν τῷ ἐνιαυτῷ τῷ πρώτῳ Κύρου",
+    "en": "in the first year of Cyrus",
+    "plain": "first year"
+   }
+  ],
+  "follow": 0,
+  "why": "No Dead Sea copy preserves 10:1. The Old Greek's 'first year' fits 1:21 and 6:28 and the first year of Cyrus when the exiles were freed, so it may be a smoothing; the Masoretic Text and Theodotion agree on 'third'. The Old Greek of chapter 10 differs from the Hebrew in many other places, so it is a freer text.",
+  "b": "Chigi is a single manuscript printed by Swete; Papyrus 967 and the Göttingen edition were not checked.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "I was left there",
+  "t": "Who was left there?",
+  "p": "Hebrew: 'I was left there'; both Greek versions: 'I left him there'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-c (4Q114), whose text of this clause is visible and the same",
+    "orig": "וַאֲנִי נוֹתַרְתִּי שָׁם",
+    "en": "and I remained there",
+    "plain": "I was left there"
+   },
+   {
+    "w": "Old Greek and Theodotion (Swete: 'I left him there')",
+    "orig": "καὶ αὐτὸν κατέλειπον ἐκεῖ",
+    "en": "and I left him there",
+    "plain": "I left him there"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek rests on a different verb (the Hebrew would be 'I left him', a Hiphil form), or on the translators' effort to make sense of a hard clause. 4QDan-c has the Masoretic wording, so the Greek has no Hebrew support. 6QpapDan (6Q7) is restored at the verb and at 'kings of Persia' and is not cited.",
+  "b": "Both Greek versions agree with each other here but the Old Greek and Theodotion are not independent in every place.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "10:16",
+  "a": "one who looked like a human being",
+  "t": "A human likeness, or a hand?",
+  "p": "One Qumran scroll and the Old Greek have 'a hand' where the Masoretic Text has 'a likeness of human beings'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QDan-c (4Q114: 'bene adam' visible, 'kidmut' restored by the editors) and Theodotion (Swete: 'a likeness of a son of man')",
+    "orig": "כִּדְמוּת בְּנֵי אָדָם (kidmut bene adam; in 4Q114 only 'bene adam' is visible)",
+    "en": "like the likeness of human beings",
+    "plain": "one who looked like a human being"
+   },
+   {
+    "w": "6QpapDan (6Q7: 'yad' ('hand') visible, 'kidmut' restored by the editors); the Old Greek (Swete's Chigi text: 'a likeness of a hand of a man')",
+    "orig": "[כדמות] יד אדם ([kidmut] yad adam)",
+    "en": "like the likeness of a human hand",
+    "plain": "something like a human hand"
+   }
+  ],
+  "follow": 0,
+  "why": "Two witnesses read 'hand', which fits the 'hand' of 10:10 and the verb 'touched', but 4QDan-c (where 'bene adam' is visible) and Theodotion agree with the Masoretic Text, and 'bene adam' may have come from 10:18. The question is open; the Plain keeps the Masoretic Text and notes the other reading.",
+  "b": "The same scroll (6Q7) has other spelling variants in this chapter; they do not change the meaning.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx"
+  ]
+ }
+]

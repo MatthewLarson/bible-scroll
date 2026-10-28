@@ -1,0 +1,531 @@
+[
+ {
+  "v": "33:21",
+  "a": "twelfth year",
+  "t": "Twelfth year or eleventh?",
+  "p": "The Masoretic Text and the Greek read the twelfth year; a few witnesses read the eleventh.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); the Greek (Codex Vaticanus, in Swete)",
+    "orig": "בִּשְׁתֵּי עֶשְׂרֵה שָׁנָה",
+    "en": "in the twelfth year",
+    "plain": "twelfth year"
+   },
+   {
+    "w": "a few Hebrew manuscripts and the Syriac, as reported in the BHS apparatus",
+    "orig": "בעשתי עשרה שנה",
+    "en": "in the eleventh year",
+    "plain": "eleventh year"
+   }
+  ],
+  "follow": 0,
+  "why": "The twelfth year of Jehoiachin's exile (586-585 BC) puts the news about five or six months after the fall of the city in the summer of 586 (2 Kings 25:3-9). The eleventh-year reading would shorten the gap for those who date the fall in 587 BC; with 587 and the twelfth year the gap is about seventeen months. The Greek (Swete) agrees with the Masoretic Text on the year.",
+  "b": "No Dead Sea scroll preserves this verse; the Masada Ezekiel scroll begins at 35:11. The Greek is Codex Vaticanus as printed by Swete; the Hebrew manuscripts and the Syriac are as reported in the BHS apparatus.",
+  "s": [
+   "swete-lxx",
+   "zimmerli-ezekiel2",
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "33:21",
+  "a": "tenth month",
+  "t": "Tenth month or twelfth?",
+  "p": "The Masoretic Text has the tenth month; Codex Vaticanus has the twelfth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בָּעֲשִׂירִי",
+    "en": "in the tenth month",
+    "plain": "tenth month"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): 'in the twelfth month'",
+    "orig": "ἐν τῷ δωδεκάτῳ μηνί",
+    "en": "in the twelfth month",
+    "plain": "twelfth month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is the older Hebrew form and gives a reasonable gap after the fall. The Greek reading, 'twelfth month' in the twelfth year, would be about February-March 585 BC, roughly eight months after the city fell in the summer of 586. It may come from a copyist's slip, since the Greek words for 'tenth' and 'twelfth' (<i>dekatos</i>, <i>dodekatos</i>) differ by one syllable.",
+  "s": [
+   "swete-lxx"
+  ],
+  "b": "The Greek is Codex Vaticanus as printed by Swete."
+ },
+ {
+  "v": "33:25",
+  "a": "You eat meat with the blood still in it. You look up to your filthy idols. You shed blood. And you expect to take possession of the land?",
+  "t": "A shorter Greek in 33:25-26",
+  "p": "Swete's Greek (Codex Vaticanus) has only 'Therefore say to them' in 33:25 and nothing in 33:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אֹכְלִים עַל הַדָּם ... וְהָאָרֶץ תִּירָשׁוּ",
+    "en": "You eat meat with the blood still in it ... And you expect to take possession of the land?",
+    "plain": "You eat meat with the blood still in it. You look up to your filthy idols. You shed blood. And you expect to take possession of the land?"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): the accusations of 25b-26 are not there",
+    "orig": "διὰ τοῦτο εἰπὸν αὐτοῖς",
+    "en": "Therefore say to them",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The accusations belong to the argument against the claim of 33:24, and the Hebrew has them. The shorter Greek in Swete's text (Codex Vaticanus) may be a lost passage or a smoothing of a hard run of sins. The Plain follows the Hebrew.",
+  "b": "This entry and the next go together: the Greek is also silent for 33:26.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "33:26",
+  "a": "You stand on your swords. You do abhorrent things. Each of you makes his neighbor's wife unclean. And you expect to take possession of the land?",
+  "t": "A shorter Greek in 33:25-26",
+  "p": "This goes with the entry at 33:25: Swete's Greek has nothing for 33:26.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֲמַדְתֶּם עַל חַרְבְּכֶם ... וְהָאָרֶץ תִּירָשׁוּ",
+    "en": "You stand on your swords ... take possession of the land?",
+    "plain": "You stand on your swords. You do abhorrent things. Each of you makes his neighbor's wife unclean. And you expect to take possession of the land?"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): verse 26 is empty",
+    "orig": "",
+    "en": "",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See 33:25. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "34:3",
+  "a": "You feast on the fat",
+  "t": "Fat or milk?",
+  "p": "The Masoretic Text has 'fat'; the Greek has 'milk'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַחֵלֶב",
+    "en": "the fat",
+    "plain": "You feast on the fat"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): γάλα 'milk'; the Latin Vulgate has 'lac'",
+    "orig": "הֶחָלָב (chalav)",
+    "en": "the milk",
+    "plain": "You drink the milk"
+   }
+  ],
+  "follow": 0,
+  "why": "'Fat' is the Hebrew and fits the line 'you slaughter the fattest animals'. 'Milk' pairs better with wool (sheep give both without being killed), and the Hebrew letters allow it, since only the vowels differ; the Greek and the Latin both read it. The Plain keeps the Masoretic Text.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "34:16",
+  "a": "the fat one and the strong one I will destroy",
+  "t": "Destroy or watch over?",
+  "p": "The Hebrew says 'destroy'; the Greek and the Latin say 'watch over'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אַשְׁמִיד",
+    "en": "I will destroy",
+    "plain": "the fat one and the strong one I will destroy"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): 'the strong I will guard'; the Latin Vulgate has 'custodiam', 'I will keep'; the Syriac is reported to agree",
+    "orig": "ἰσχυρὸν φυλάξω (Hebrew behind it: אֶשְׁמֹר)",
+    "en": "I will watch over the fat and the strong",
+    "plain": "the fat one and the strong one I will watch over"
+   }
+  ],
+  "follow": 0,
+  "why": "The next lines, 34:17-22, judge the fat sheep who push the weak aside, so 'destroy' fits the flow. 'Watch over' would also fit those who read the sentence as the LORD protecting the strong so they can serve the weak. The two Hebrew forms differ by a letter or two, and <i>d</i> and <i>r</i> are easily confused in handwriting. The Plain follows the Masoretic Text and says so.",
+  "s": [
+   "swete-lxx",
+   "zimmerli-ezekiel2"
+  ]
+ },
+ {
+  "v": "34:25",
+  "a": "I will make a covenant of peace with them",
+  "t": "With them or with David?",
+  "p": "The Hebrew makes the covenant of peace with the flock; the Greek makes it with David.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְכָרַתִּי לָהֶם בְּרִית שָׁלוֹם",
+    "en": "I will make a covenant of peace with them",
+    "plain": "I will make a covenant of peace with them"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): καὶ διαθήσομαι τῷ Δαυείδ διαθήκην εἰρήνης",
+    "orig": "διαθήσομαι τῷ Δαυείδ",
+    "en": "I will make with David a covenant of peace",
+    "plain": "I will make a covenant of peace with David"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek ties the covenant of peace to David, the shepherd of 34:23-24, and so to the Davidic covenant (2 Samuel 7). The Hebrew makes it with the flock, as the same phrase does in 37:26, where David is named in the verses just before. The Plain follows the Masoretic Text; see the note on the covenant of peace.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "34:29",
+  "a": "a planting famous for its name",
+  "t": "Famous or peaceful?",
+  "p": "The Hebrew says a planting 'for a name'; the Greek says 'of peace'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "מַטָּע לְשֵׁם",
+    "en": "a planting famous for its name",
+    "plain": "a planting famous for its name"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): φυτὸν εἰρήνης",
+    "orig": "מטע לשלום (assumed)",
+    "en": "a planting of peace",
+    "plain": "a planting of peace"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense (a garden known far and wide) and is the harder reading. The Greek reading fits 'covenant of peace' (34:25) and may come from reading <i>shalom</i> for <i>shem</i>, or from a translator's smoothing.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "35:9",
+  "a": "your cities will never be lived in again",
+  "t": "'Never lived in' or 'never return'?",
+  "p": "The written Hebrew has 'will not be lived in'; the reading tradition has 'will not return'.",
+  "readings": [
+   {
+    "w": "Written text (Ketiv): taishavnah, 'will be lived in'; the Greek has 'will not be inhabited'",
+    "orig": "תֵּישַׁבְנָה",
+    "en": "will not be lived in",
+    "plain": "your cities will never be lived in again"
+   },
+   {
+    "w": "Reading tradition (Qere), the Masoretic Text as vocalized: tashuvnah, 'will return'",
+    "orig": "תָשֹׁבְנָה",
+    "en": "will not return",
+    "plain": "your cities will never return"
+   }
+  ],
+  "follow": 0,
+  "why": "The written form fits the Greek and gives the natural sense. The Qere 'will return' is a different verb (<i>shuv</i>). The Plain follows the written consonants.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "36:14",
+  "a": "you will not leave your nations childless again",
+  "t": "Childless or stumbling?",
+  "p": "The reading tradition says 'bereave'; the written text and the Masada scroll say 'make stumble'.",
+  "readings": [
+   {
+    "w": "Reading tradition (Qere) of the Masoretic Text, tashakkeli; the Greek (Codex Vaticanus, in Swete) has 'you will not make your nation childless'",
+    "orig": "תְשַׁכְּלִי",
+    "en": "you will bereave",
+    "plain": "you will not leave your nations childless again"
+   },
+   {
+    "w": "Written text (Ketiv) tekhasheli; the Masada Ezekiel scroll (Mas 1d) has 'you will stumble'",
+    "orig": "תכשלי",
+    "en": "you will make stumble",
+    "plain": "you will not make your nations stumble again"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek agrees with the Qere, and the next verse (36:15) separately says 'you will not make your nations stumble'. The Greek agrees with the reading tradition; the Masada scroll has the written form, so both readings are old. The reading tradition fits the childlessness of 36:12-13.",
+  "b": "The scroll Mas 1d (Masada, destroyed AD 73-74) is the oldest Hebrew witness here. Talmon's edition is reported to cover 35:11-38:14; the transcription read here has text through 38:8. The word 'tekhasheli' is fully visible in the transcription.",
+  "s": [
+   "swete-lxx",
+   "talmon-masada",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "36:23",
+  "a": "Then the nations will know that I am the LORD, the Lord GOD declares, when I show myself holy through you in front of them.",
+  "t": "A shorter Greek: 36:23c-38",
+  "p": "Papyrus 967 (about AD 200) is reported to lack the second half of 36:23 and verses 24-38, which stand in Hebrew and in later Greek.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Masada Ezekiel scroll (Mas 1d) has visible words of 36:23-35 in Hebrew; Codex Vaticanus (in Swete) has the verses in Greek",
+    "orig": "בְּהִקָּדְשִׁי בָכֶם לְעֵינֵיהֶם",
+    "en": "when I show myself holy through you before their eyes",
+    "plain": "Then the nations will know that I am the LORD, the Lord GOD declares, when I show myself holy through you in front of them."
+   },
+   {
+    "w": "Papyrus 967 (Chester Beatty IX-X, early third century AD): reported to lack 36:23c-38",
+    "orig": "",
+    "en": "(ends at 'the Lord GOD declares')",
+    "plain": "Then the nations will know that I am the LORD, the Lord GOD declares."
+   }
+  ],
+  "follow": 0,
+  "why": "Papyrus 967 is the oldest Greek witness to Ezekiel, and it is reported to lack 36:23c-38 and to place chapter 37 after chapters 38-39. Visible words of 36:23-35 stand in the Masada scroll before AD 74 (much of 36:25-27, including 'pure water' and 'my own Spirit', is restored there and is not counted), so the section was in Hebrew by then. Three explanations are offered. Lust argued that 967 keeps the earlier form: 36:23c-38 was written later as a bridge, when chapter 37 was moved to follow chapter 36, and the omission could not be an accident (as reported by Hogeterp). Filson argued that the Greek omission was deliberate, the choice of the translator or a reviser who had the full Hebrew (Journal of Biblical Literature 62, 1943). A third possibility is that the Greek translated a Hebrew source that did not yet have the section. The Plain follows the Hebrew and the later Greek and gives this evidence here.",
+  "b": "The Masada letters cited are the visible ones in the ETCBC transcription (restored words are not counted), and the Greek is Codex Vaticanus as printed by Swete. Papyrus 967's contents are as reported by Lust, Filson and Tov.",
+  "s": [
+   "lust-ez36-40",
+   "hogeterp-pseudo-ezekiel",
+   "filson-967",
+   "tov-recensional-ezekiel",
+   "swete-lxx",
+   "talmon-masada"
+  ]
+ },
+ {
+  "v": "36:24",
+  "a": "I will pick you out of the nations, round you up from every country, and bring you back to your own soil.",
+  "t": "A shorter Greek: 36:23c-38",
+  "p": "This goes with the entry at 36:23: the omission reported for Papyrus 967 begins at 36:23c and runs to the end of the chapter.",
+  "readings": [
+   {
+    "w": "Masoretic Text; Mas 1d (visible letters); Codex Vaticanus (Swete)",
+    "orig": "וְלָקַחְתִּי אֶתְכֶם מִן הַגּוֹיִם",
+    "en": "I will take you from the nations",
+    "plain": "I will pick you out of the nations, round you up from every country, and bring you back to your own soil."
+   },
+   {
+    "w": "Papyrus 967: reported absent",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 36:23. The Plain keeps the verse because the Hebrew and the later Greek both have it.",
+  "s": [
+   "lust-ez36-40",
+   "talmon-masada"
+  ]
+ },
+ {
+  "v": "37:4",
+  "a": "Prophesy to these bones.",
+  "t": "'Son of man' in 37:4?",
+  "p": "The Masada scroll has 'Son of man' before 'prophesy'; the Masoretic Text and the Greek do not.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Greek (Codex Vaticanus, in Swete) has no 'son of man' here",
+    "orig": "הִנָּבֵא עַל הָעֲצָמוֹת",
+    "en": "prophesy over the bones",
+    "plain": "Prophesy to these bones."
+   },
+   {
+    "w": "Masada Ezekiel scroll (Mas 1d, before AD 74): a joined form reads 'Son of man, prophesy'",
+    "orig": "בן אדם הנבא",
+    "en": "Son of man, prophesy",
+    "plain": "Son of man, prophesy to these bones."
+   }
+  ],
+  "follow": 0,
+  "why": "Ezekiel has 'son of man' many times (it fills 37:3, 9, 11, 16), so a copyist could add or lose it easily. The Masoretic Text and the Greek agree, so the Plain keeps the shorter form. The Masada reading is the only scroll evidence for this verse.",
+  "b": "The ETCBC transcription prints the Masada words as 'ben' and a joined 'adam-hinnabe'; the joining is the transcription's, not necessarily the scroll's.",
+  "s": [
+   "talmon-masada",
+   "abegg-bowley-cook-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "37:22",
+  "a": "A single king will rule all of them as king.",
+  "t": "King or ruler?",
+  "p": "The Masoretic Text says 'king' in 37:22 and 37:24; the Greek says 'ruler' (archōn).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex): melekh 'king'",
+    "orig": "וּמֶלֶךְ אֶחָד יִהְיֶה לְכֻלָּם לְמֶלֶךְ",
+    "en": "one king will be king over all of them",
+    "plain": "A single king will rule all of them as king."
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): ἄρχων εἷς 'one ruler'",
+    "orig": "ἄρχων εἷς ἔσται αὐτῶν",
+    "en": "one ruler will be over them",
+    "plain": "A single ruler will lead all of them."
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew, David is 'king' in 37:22, 24 and 'leader' (<i>nasi</i>) in 34:24 and 37:25. The Greek smooths all four into 'ruler' (<i>archon</i>: 37:22, 24, 25), its usual word for <i>nasi</i>. The Plain follows the Hebrew, where the difference may be deliberate.",
+  "s": [
+   "swete-lxx",
+   "zimmerli-ezekiel2"
+  ]
+ },
+ {
+  "v": "37:23",
+  "a": "from all the places where they lived and sinned",
+  "t": "Places or lawless acts?",
+  "p": "The Hebrew has 'dwelling places'; the Greek has 'lawless acts'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex): moshevoteihem 'their dwelling places'. The Masada scroll (Mas 1d) has the verse, but this word is restored in the transcription and is not counted as its reading",
+    "orig": "מוֹשְׁבֹתֵיהֶם",
+    "en": "their dwellings",
+    "plain": "from all the places where they lived and sinned"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): ἀπὸ πασῶν τῶν ἀνομιῶν αὐτῶν 'from all their lawless acts'",
+    "orig": "ἀνομιῶν",
+    "en": "their lawless acts",
+    "plain": "from all their lawless acts, the ones they sinned in"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'dwelling places' is hard (the next clause says 'in which they sinned'), and some commentators suspect a copying slip for a similar word meaning 'turnings away' or 'backslidings'. The Greek reads something closer to sins. The Masada scroll cannot decide the question: around the word only 'otam mikkol' and 'asher' are visible, and the word itself is bracketed as restored. The Plain keeps the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "zimmerli-ezekiel2"
+  ],
+  "b": "In the ETCBC transcription of Mas 1d the words 'otam mikkol' ('them from all') and 'asher' ('which') are visible; 'moshevoteihem' and 'chat'u vahem' are in brackets."
+ },
+ {
+  "v": "38:1",
+  "a": "The word of the LORD came to me:",
+  "t": "Where does the Gog oracle belong?",
+  "p": "Papyrus 967 is reported to put chapters 38-39 before chapter 37, so the dry bones come right before the Temple vision.",
+  "readings": [
+   {
+    "w": "Masoretic Text and Codex Vaticanus (Swete): the order is 36, 37, 38-39, 40. The Masada Ezekiel scroll (Mas 1d) has text of chapters 36, 37 and 38; its extent is reported as 35:11-38:14 (Talmon), which runs through chapter 37 into chapter 38 and so fits the Masoretic order",
+    "orig": "",
+    "en": "chapters in the order 36, 37, 38-39",
+    "plain": "The word of the LORD came to me:"
+   },
+   {
+    "w": "Papyrus 967 (early third century AD): reported to give the order 36, 38-39, 37, 40",
+    "orig": "",
+    "en": "chapters in the order 36, 38-39, 37",
+    "plain": "The word of the LORD came to me:"
+   }
+  ],
+  "follow": 0,
+  "why": "Only one Greek papyrus has the different order, and it also lacks 36:23c-38. In the Masoretic order, the vision of the bones (37) answers the despair of the exile, and the Gog oracle (38-39) comes as the last great threat before the Temple (40-48). In 967's order the resurrection chapter stands next to the Temple vision. Lust argued that 967's order is the earlier one and that the Masoretic order, with 36:23c-38 as its bridge, is later (see the entry at 36:23). The Plain keeps the Masoretic order.",
+  "b": "This entry and the one at 36:23 describe the same fact, the order of chapters 36-39. The rest of the Plain does not change either way; only the position of chapter 37 differs. The reading is as reported by Lust, Hogeterp and Filson; the Masada extent is as reported for Talmon's edition.",
+  "s": [
+   "lust-ez36-40",
+   "hogeterp-pseudo-ezekiel",
+   "talmon-masada"
+  ]
+ },
+ {
+  "v": "38:2",
+  "a": "chief leader of Meshech and Tubal",
+  "t": "Rosh: a title or a place?",
+  "p": "The Hebrew can say 'the chief leader of Meshech and Tubal' or 'the leader of Rosh, Meshech and Tubal'; the Greek chose the second.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Masada scroll (Mas 1d, 'nesi rosh meshekh vetuval' fully visible); the Latin Vulgate",
+    "orig": "נְשִׂיא רֹאשׁ מֶשֶׁךְ וְתֻבָל",
+    "en": "chief leader of Meshech and Tubal",
+    "plain": "chief leader of Meshech and Tubal"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): ἄρχοντα Ῥώς, Μέσοχ, καὶ Θοβέλ",
+    "orig": "Ῥώς",
+    "en": "the leader of Rosh, Meshech and Tubal",
+    "plain": "leader of Rosh, Meshech and Tubal"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the same letters either way, so this is a choice of parsing, not a different manuscript. Rosh is not otherwise known as a nation in the Bible (in Genesis 46:21 it is a name in Benjamin's family), and 'chief' is the ordinary meaning of the word. The Plain takes the Masoretic Text as 'chief leader'. The Greek is an early witness to the other reading, which is why English versions are divided.",
+  "s": [
+   "swete-lxx",
+   "talmon-masada",
+   "abegg-bowley-cook-dss",
+   "block-ezekiel2"
+  ]
+ },
+ {
+  "v": "38:14",
+  "a": "Will you not become aware of it",
+  "t": "Know or rise up?",
+  "p": "The Hebrew has 'will you not know'; the Greek reads 'will you not rise up'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex): teda",
+    "orig": "תֵּדָע",
+    "en": "will you know",
+    "plain": "Will you not become aware of it"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): ἐγερθήσῃ 'you will rouse yourself'",
+    "orig": "ἐγερθήσῃ",
+    "en": "will you rise up",
+    "plain": "Will you not rise up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is a normal word for 'to know', and 'Will you not become aware of it?' makes sense of God's knowledge of Gog's plan. The Greek has a different verb. The transcription read here has no scroll text for this verse, although Talmon's edition of the Masada scroll is reported to reach 38:14. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "38:21",
+  "a": "I will summon a sword against him on all my mountains",
+  "t": "A sword on my mountains, or every terror?",
+  "p": "The Hebrew is awkward; the Greek has 'every terror' and no mountains.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex): weqara'ti alav lekhol-harai kherev",
+    "orig": "וְקָרָאתִי עָלָיו לְכָל־הָרַי חֶרֶב",
+    "en": "I will call against him, to all my mountains, a sword",
+    "plain": "I will summon a sword against him on all my mountains"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): καὶ καλέσω ἐπ᾽ αὐτὸ καὶ πᾶν φόβον",
+    "orig": "πᾶν φόβον",
+    "en": "I will call against it every terror",
+    "plain": "I will summon every terror against him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word order is hard: 'to all my mountains' sits between the verb and 'a sword'. The Plain reads it as a sword called against Gog on the mountains of Israel, which fits 38:8 and 39:2, 4. The Greek has no mountains and a different noun; the Hebrew words for 'sword' (<i>cherev</i>) and 'trembling' (<i>chardah</i>) look alike, so a different Hebrew text is possible, but that is a conjecture. The next clause is the same in both: each man's sword against his brother. No scroll text covers this verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "39:6",
+  "a": "I will send fire on Magog",
+  "t": "Magog or Gog?",
+  "p": "The Hebrew has 'Magog'; the Greek (Codex Vaticanus) has 'Gog'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְשִׁלַּחְתִּי אֵשׁ בְּמָגוֹג",
+    "en": "I will send fire on Magog",
+    "plain": "I will send fire on Magog"
+   },
+   {
+    "w": "Greek, Codex Vaticanus (in Swete): ἀποστελῶ πῦρ ἐπὶ Γώγ 'fire on Gog', and κατοικηθήσονται αἱ νῆσοι ἐπ᾽ εἰρήνης 'the islands will be inhabited in peace'",
+    "orig": "בְּגוֹג",
+    "en": "I will send fire on Gog, and the islands will be inhabited in peace",
+    "plain": "I will send fire on Gog, and the islands will be lived in peacefully"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the more difficult text, because the sentence after 39:5 has Gog falling and the fire goes to his land. The Greek has the simpler 'Gog' and also turns 'those who live safely on the islands' into a statement that the islands will be inhabited in peace. The transcription read here has no scroll text for this verse. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ }
+]

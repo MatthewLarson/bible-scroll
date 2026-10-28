@@ -1,0 +1,354 @@
+[
+ {
+  "v": "20:1",
+  "a": "the tenth day of the fifth month",
+  "t": "The fifth month, or no month named?",
+  "p": "The Hebrew says \"the fifth month, the tenth day\"; Codex Vaticanus says only \"the fifteenth of the month\", with no month number.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בַּחֲמִישִׁי בֶּעָשׂוֹר לַחֹדֶשׁ",
+    "en": "in the fifth, on the tenth of the month",
+    "plain": "the tenth day of the fifth month"
+   },
+   {
+    "w": "Greek (Septuagint), Codex Vaticanus in Swete's text",
+    "orig": "τῇ πεντεκαιδεκάτῃ τοῦ μηνός",
+    "en": "on the fifteenth of the month",
+    "plain": "the fifteenth day of the month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has Ezekiel's usual way of giving a day, \"on the tenth of the month\" (24:1; 40:1), and it names the month. The Greek in Codex Vaticanus has a different day (fifteen, not ten) and no month number. No Qumran scroll preserves this verse. The Plain follows the Hebrew.",
+  "b": "Ezekiel's other dates in this part, 24:1 and 40:1, are also the tenth day. A scribe or translator may have been influenced by a nearby date or by a different Hebrew number, and the Greek may have dropped the month. The change moves the date by five days, and without the month it also loses the fifth month. The meaning is not affected. The page of the chapter says which Greek witnesses were read.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "20:37",
+  "a": "bring you into the covenant's bond",
+  "t": "Bond of the covenant, or by number?",
+  "p": "The Hebrew has a rare word \"bond\"; the Greek has \"by number\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהֵבֵאתִי אֶתְכֶם בִּמָסֹרֶת הַבְּרִית",
+    "en": "and I will bring you into the bond of the covenant",
+    "plain": "bring you into the covenant's bond"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "καὶ εἰσάξω ὑμᾶς ἐν ἀριθμῷ",
+    "en": "and I will bring you in by number",
+    "plain": "bring you in by number"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word <i>masoret</i> is found only here and is related to the verb for \"bind\" (<i>asar</i>). The Plain follows the Hebrew, which makes good sense with the \"covenant\" of the rest of the verse. No Qumran scroll preserves this verse.",
+  "b": "The Greek \"by number\" would fit a counting of the flock \"under the rod\" (the first half of the verse), and may reflect a different Hebrew word (a word for \"number\", <i>mispar</i>, has been suggested). The choice is discussed in the commentaries; the Hebrew word has also been tied to the later word for \"tradition\" (<i>masorah</i>), which is a later use.",
+  "s": [
+   "swete-lxx",
+   "greenberg-ezekiel1"
+  ]
+ },
+ {
+  "v": "20:46",
+  "a": "turn your face toward the south",
+  "t": "Three words for \"south\", or names?",
+  "p": "The Hebrew has three words for the south; the Greek turns two of them into place names.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "דֶּרֶךְ תֵּימָנָה... דָּרוֹם... נֶגֶב",
+    "en": "toward the south... the south... the Negev",
+    "plain": "turn your face toward the south"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "ἐπὶ Θαιμάν... ἐπὶ Δαγών... Νάγεβ",
+    "en": "toward Teman... toward Dagon... the Negev",
+    "plain": "turn your face toward Teman"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew uses ordinary words for \"south\" (<i>teimanah</i>, <i>darom</i>) and the region name Negev. The Greek writes <i>Thaiman</i> and <i>Dagon</i> as names, which may come from reading the words as place names. The Plain follows the Hebrew, since the point is the direction.",
+  "b": "In the Greek, the three names are Teman, Dagon and the forest of the Nageb. Teman is also the name of an Edomite region (Amos 1:12), so some ancient readers may have heard an oracle against Edom. No Qumran scroll preserves the verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "21:3",
+  "a": "cut the righteous and the wicked off from you",
+  "t": "The righteous and the wicked, or the lawless?",
+  "p": "The Hebrew has \"the righteous and the wicked\"; Codex Vaticanus has \"the unrighteous and the lawless\". This goes with the next entry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "צַדִּיק וְרָשָׁע",
+    "en": "the righteous and the wicked",
+    "plain": "cut the righteous and the wicked off from you"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "ἄδικον καὶ ἄνομον",
+    "en": "the unrighteous and the lawless",
+    "plain": "cut the unrighteous and the lawless off from you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading, since it sets the sword against chapter 18. The Greek removes the difficulty, which is a reason to suspect the Greek of smoothing. The Plain follows the Hebrew, since the Greek's wording is as likely to be a softening as the sign of a different Hebrew text.",
+  "b": "Rashi on this verse (Hebrew 21:8, as translated on Sefaria) reads \"the righteous and the wicked\" as \"the moist and the dry\", the green and dry trees of 20:47, which shows that Jewish readers felt the problem and answered it inside the Hebrew. The Talmud's discussion of the righteous who die with the wicked (Bavli Shabbat 55a–b) is built on Ezekiel 9:4–6, not on this verse. No Qumran scroll preserves this verse. The Greek repeats its reading in 21:4.",
+  "s": [
+   "swete-lxx",
+   "rashi-ezekiel"
+  ]
+ },
+ {
+  "v": "21:4",
+  "a": "cut the righteous and the wicked off from you",
+  "t": "The righteous and the wicked, or the lawless?",
+  "p": "The same difference as in 21:3. This goes with the previous entry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "צַדִּיק וְרָשָׁע",
+    "en": "the righteous and the wicked",
+    "plain": "cut the righteous and the wicked off from you"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "ἄδικον καὶ ἄνομον",
+    "en": "the unrighteous and the lawless",
+    "plain": "cut the unrighteous and the lawless off from you"
+   }
+  ],
+  "follow": 0,
+  "why": "As in 21:3: the Hebrew is the harder reading, and the Greek gives the easier. No Qumran scroll preserves the verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "21:27",
+  "a": "A ruin, a ruin, a ruin: that is what I will make it. And this too will not remain",
+  "t": "Ruin, or injustice and woe?",
+  "p": "The Hebrew has \"ruin\" three times and \"this too will not remain\"; Codex Vaticanus has \"injustice\" three times, \"woe to her\" and \"such it will be\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עַוָּה עַוָּה עַוָּה אֲשִׂימֶנָּה גַּם־זֹאת לֹא הָיָה עַד־בֹּא אֲשֶׁר־לוֹ הַמִּשְׁפָּט וּנְתַתִּיו",
+    "en": "a ruin, a ruin, a ruin I will make it; this too will not be, until he comes whose is the right, and I will give it to him",
+    "plain": "A ruin, a ruin, a ruin: that is what I will make it. And this too will not remain"
+   },
+   {
+    "w": "Greek (Septuagint), Codex Vaticanus in Swete's text",
+    "orig": "ἀδικίαν ἀδικίαν ἀδικίαν θήσομαι αὐτήν, οὐαὶ αὐτῇ· τοιαύτη ἔσται ἕως οὗ ἔλθῃ ᾧ καθήκει, καὶ παραδώσω αὐτῷ",
+    "en": "injustice, injustice, injustice I will make it, woe to her; such it will be until he comes for whom it is fitting, and I will hand it over to him",
+    "plain": "Injustice, injustice, injustice: that is what I will make it. Woe to her! It will be like this until he comes for whom it is fitting, and I will hand it over to him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek renders the Hebrew rare word for \"ruin\" with the common word for \"injustice\", adds \"woe to her\", and says \"such it will be\" where the Hebrew says \"this too will not be\". The last clause, \"until he comes for whom it is fitting\", matches the Hebrew in sense. The Plain follows the Hebrew, which is the harder text. No Qumran scroll preserves this verse.",
+  "b": "The Greek \"until he comes for whom it is fitting\" is as open as the Hebrew \"whose right it is\": it fits a historical ruler and a messianic reader equally, and it does not name God. See the notes on the verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "22:16",
+  "a": "You will be profaned in yourself",
+  "t": "Profaned, or I will take possession?",
+  "p": "The Hebrew can mean \"be profaned\" or \"take possession\"; the Greek read it as \"take possession\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְנִחַלְתְּ בָּךְ",
+    "en": "and you will be profaned in yourself (from chalal)",
+    "plain": "You will be profaned in yourself"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "καὶ κατακληρονομήσω ἐν σοί",
+    "en": "and I will take possession in you (from nachal)",
+    "plain": "I will take possession in you"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants allow both. The Plain takes the Hebrew as it is vocalized, \"you will be profaned\", which fits the chapter's use of the word (22:8, 26) and the \"scattering\" of 22:15. No Qumran scroll preserves the verse.",
+  "b": "The Greek reads the same consonants from <i>nachal</i>, which gives a sentence about God taking possession. The choice is discussed in the commentaries. The Greek alone has the second reading.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1",
+   "greenberg-ezekiel2"
+  ]
+ },
+ {
+  "v": "22:25",
+  "a": "Her prophets",
+  "t": "Prophets, or leaders?",
+  "p": "The Hebrew has \"her prophets\" here; Codex Vaticanus has \"leaders\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "נְבִיאֶיהָ",
+    "en": "her prophets",
+    "plain": "Her prophets"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "οἱ ἀφηγούμενοι",
+    "en": "the leaders (as if nesi'eha)",
+    "plain": "Her leaders"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew text has prophets, and the list in 22:25–29 names prophets twice (22:25, 28). Prophets and leaders look alike in Hebrew letters (<i>nevi'eha</i> and <i>nesi'eha</i>), so a copy may have gone either way. The Plain follows the Hebrew. No Qumran scroll preserves the verse.",
+  "b": "Zephaniah 3:3–4 has officials, judges, prophets and priests in that order. Here 22:25 and 22:27 would both be officials if the Greek were followed, and the prophets would be named only once (22:28).",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "22:30",
+  "a": "someone to build up a wall and take a stand in the gap in front of me for the land's sake",
+  "t": "Wall and gap, or a man who lives rightly?",
+  "p": "Codex Vaticanus has no wall and no gap: the LORD looks for a man who lives rightly.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "גֹּדֵר־גָּדֵר וְעֹמֵד בַּפֶּרֶץ לְפָנַי בְּעַד הָאָרֶץ",
+    "en": "one who builds a wall and stands in the breach before me for the land",
+    "plain": "someone to build up a wall and take a stand in the gap in front of me for the land's sake"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "ἄνδρα ἀναστρεφόμενον ὀρθῶς καὶ ἑστῶτα πρὸ προσώπου μου ὁλοσχερῶς ἐν καιρῷ τῆς γῆς",
+    "en": "a man living rightly and standing before me completely in the time of the land",
+    "plain": "a man who lived rightly, someone to stand before me completely in the time of the land's trouble"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew picture of a wall and a gap is vivid and fits Ezekiel 13:5. The Greek has a plainer line, which a translator may have made when the image of a wall was hard. No Qumran scroll preserves the verse.",
+  "b": "Some scholars think the Greek translator simplified. The Plain follows the Hebrew, whose image is also known elsewhere (Psalm 106:23).",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "23:34",
+  "a": "and rip at your breasts",
+  "t": "Tearing the breasts, or ending her feasts?",
+  "p": "The Hebrew has her tearing her breasts; Codex Vaticanus has the LORD turning away her feasts.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְשָׁדַיִךְ תְּנַתֵּקִי",
+    "en": "and you will tear your breasts",
+    "plain": "and rip at your breasts"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "τὰς ἑορτὰς καὶ τὰς νεομηνίας αὐτῆς ἀποστρέψω",
+    "en": "I will turn away her feasts and her new moons",
+    "plain": "and I will turn her feasts and her new moons away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the fuller and the harder text. The Greek has a different clause, with \"feasts and new moons\", a phrase known from 45:17 and Hosea 2:11. No Qumran scroll preserves the verse.",
+  "b": "The Greek may reflect a different Hebrew (or a freer rendering of a hard line, since \"gnaw its pieces\" is also missing from the Greek).",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "23:42",
+  "a": "Sabeans from the wilderness",
+  "t": "Sabeans, drunkards, or men of the desert?",
+  "p": "The written Hebrew says \"drunkards\", the reading tradition says \"Sabeans\", and the Greek says neither.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (the reading tradition), printed in the Leningrad Codex",
+    "orig": "סְבָאִים",
+    "en": "Sabeans",
+    "plain": "Sabeans from the wilderness"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (the written consonants)",
+    "orig": "סוֹבְאִים",
+    "en": "drunkards",
+    "plain": "drunkards from the wilderness"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "ἐξ ἐρήμου",
+    "en": "men coming from the wilderness",
+    "plain": "men from the wilderness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qere names a people from Sheba who trade through the desert (Job 1:15; Joel 3:8). The Ketiv, \"drunkards\", is also possible beside \"a carefree crowd\". The Plain follows the Qere, which is the reading of the Leningrad Codex's margin. No Qumran scroll preserves the verse (4Q73 preserves parts of 23:14, 15, 17, 18 and 23:44–47 only).",
+  "b": "The Ketiv and Qere were kept side by side by the scribes. The Greek omits the word.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "23:44",
+  "a": "A man would come to her",
+  "t": "He came, or they came?",
+  "p": "The Masoretic Text has \"he went in\"; a Qumran scroll and the Greek have the plural.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וַיָּבוֹא אֵלֶיהָ",
+    "en": "and he went in to her",
+    "plain": "A man would come to her"
+   },
+   {
+    "w": "4QEzek-a (4Q73, as transcribed by Abegg, Bowley and Cook); Greek (Swete's text)",
+    "orig": "וַיָּבֹאוּ / εἰσεπορεύοντο",
+    "en": "and they went in to her",
+    "plain": "They would come to her"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular is a general statement (\"as a man goes in to a prostitute\") and suits the clause that follows. The plural is possible: the Qumran letters can be read \"they went in\", while the Masoretic letters are singular. The transcription marks the difference as one of waw and yod, so it is a candidate and not a settled variant. The Plain follows the Masoretic Text.",
+  "b": "The Greek verb is plural and imperfect (\"they were going in\"). 4QEzek-a (4Q73) also preserves parts of 23:14, 15, 17, 18 and 23:45–47. The Plain does not rest on a scroll for this verse.",
+  "s": [
+   "abegg-bowley-cook-ezek",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "24:14",
+  "a": "They will judge you by your ways and by your deeds",
+  "t": "They judge you, or I judge you?",
+  "p": "The Hebrew has \"they will judge you\"; the Greek has \"I will judge you\", and says it twice.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "שְׁפָטוּךְ",
+    "en": "they will judge you",
+    "plain": "They will judge you by your ways and by your deeds"
+   },
+   {
+    "w": "Greek (Septuagint), in Swete's text (Codex Vaticanus)",
+    "orig": "κρινῶ σε",
+    "en": "I will judge you",
+    "plain": "I will judge you by your ways and by your deeds"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew third-person plural may be impersonal (\"you will be judged\") or may mean the Babylonians, as in 23:24 (\"they will judge you by their own judgments\"). The Greek puts it in the LORD's own mouth and adds a doublet. 4QEzek-c (4Q75) preserves only 24:2–3, so no scroll bears on this verse.",
+  "b": "The Greek also repeats the sentence in a longer form. The Plain does not rest on the Greek here.",
+  "s": [
+   "swete-lxx"
+  ]
+ }
+]

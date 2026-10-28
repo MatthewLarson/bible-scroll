@@ -1,0 +1,881 @@
+[
+ {
+  "v": "46:11",
+  "a": "You have piled up cures for nothing;",
+  "t": "'I have piled up' or 'you have piled up'",
+  "p": "The written Hebrew says 'I have piled up cures'; the Qere and the sense say 'you'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (Qere)",
+    "orig": "הִרְבֵּית",
+    "en": "you have multiplied cures",
+    "plain": "You have piled up cures for nothing;"
+   },
+   {
+    "w": "Ketiv of the Leningrad Codex",
+    "orig": "הִרְבֵּיתִי",
+    "en": "I have multiplied cures",
+    "plain": "I have piled up cures for nothing;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ketiv ends in -ti, 'I'; the Qere is the feminine 'you', which fits the address to Daughter Egypt. The Greek also has 'you' (26:11). The Plain follows the Qere.",
+  "s": [
+   "bhs-elliger",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "46:15",
+  "a": "Why was your mighty one thrown down?",
+  "t": "Your mighty one, or the bull Apis?",
+  "p": "The Hebrew has 'your mighty ones' with a singular verb. The Greek has the Egyptian bull-god Apis.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מַדּוּעַ נִסְחַף אַבִּירֶיךָ",
+    "en": "Why was your mighty one swept down? (the Hebrew noun is plural, the verb singular)",
+    "plain": "Why was your mighty one thrown down?"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:15)",
+    "orig": "ἔφυγεν ἀπὸ σοῦ ὁ Ἆπις; ὁ μόσχος ὁ ἐκλεκτός σου",
+    "en": "Why did Apis flee from you? Your chosen bull",
+    "plain": "Why did Apis run from you? Your chosen bull"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is a real Hebrew sentence, though the plural noun with a singular verb is odd. The Greek may reflect a different reading or an inner-Greek explanation (abbir means both 'strong one' and 'bull', Psalm 22:12), so the Greek is a possible old reading, not a proof. The Plain keeps the Hebrew; the note at 46:15 explains the Apis wordplay.",
+  "b": "The Greek goes on 'did not stay, for the Lord loosened him'. A few modern versions follow the Greek (the NRSV is one). 2QJer does not preserve this verse.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "46:16",
+  "a": "away from the crushing sword",
+  "t": "The crushing sword or the Greek sword?",
+  "p": "Hebrew hayyonah may be 'oppressing' or may be a spelling of 'Greek'. The Greek has 'Greek sword'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מִפְּנֵי חֶרֶב הַיּוֹנָה",
+    "en": "from the sword of the oppressor",
+    "plain": "away from the crushing sword"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:16)",
+    "orig": "ἀπὸ προσώπου μαχαίρας Ἑλληνικῆς",
+    "en": "from the face of a Greek sword",
+    "plain": "away from the Greek sword"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text has the common verb yanah, 'oppress' (as in 25:38; 50:16). The Greek has 'Greek sword' here and in 50:16 (Swete 27:16), and nowhere else in Jeremiah, so the translator probably read yonah as yevanah/yawan. The Plain follows the Hebrew, which makes good sense; the Greek reading would fit the presence of Greek mercenaries in Egypt (46:21).",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2",
+   "redford-egypt"
+  ]
+ },
+ {
+  "v": "46:17",
+  "a": "There they call out",
+  "t": "Call out there, or 'Call the name'",
+  "p": "The Hebrew vowels give 'They cried there'. The Greek reads the same letters as 'Call the name of Pharaoh'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "קָרְאוּ שָׁם",
+    "en": "they called there",
+    "plain": "There they call out"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:17)",
+    "orig": "καλέσατε τὸ ὄνομα Φαραὼ Νεχαὼ βασιλέως Αἰγύπτου",
+    "en": "Call the name of Pharaoh Neco king of Egypt",
+    "plain": "Call the name of Pharaoh Neco king of Egypt:"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings come from the same consonants, qr'w sm, read as qara'u sham or qir'u shem. The Greek also adds 'Neco' and transliterates the nickname (Saon Esbei Emoed, from sha'on he'evir hammo'ed). The Plain follows the Masoretic vowels, which make a clear sentence, but the Greek reading gives the verse the force of a mocking nickname for Pharaoh.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "46:22",
+  "a": "for they march in with an army;",
+  "t": "With an army, or 'in sand'?",
+  "p": "The Greek has 'because they walk in sand'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי בְחַיִל יֵלֵכוּ",
+    "en": "for they march with an army",
+    "plain": "for they march in with an army;"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:22)",
+    "orig": "ὅτι ἐν ἄμμῳ πορεύονται",
+    "en": "because they walk in sand",
+    "plain": "because they walk in sand;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator probably read or understood chayil ('army') as chol ('sand'). The Masoretic reading gives the better sense, since the next line has the axes that come with the army. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "46:25",
+  "a": "call Amon of Thebes to account, and Pharaoh, and Egypt with her gods and her kings. I will call Pharaoh to account, and everyone who trusts in him",
+  "t": "A longer Hebrew list of Egypt's powers",
+  "p": "The Greek has Amon 'her son' and no gods or kings.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֶל־אָמוֹן מִנֹּא וְעַל־פַּרְעֹה וְעַל־מִצְרַיִם וְעַל־אֱלֹהֶיהָ וְעַל־מְלָכֶיהָ",
+    "en": "Amon from No, Pharaoh, Egypt, her gods, her kings",
+    "plain": "call Amon of Thebes to account, and Pharaoh, and Egypt with her gods and her kings. I will call Pharaoh to account, and everyone who trusts in him"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:25)",
+    "orig": "ἐκδικῶ τὸν Ἀμμὼν τὸν υἱὸν αὐτῆς ἐπὶ Φαραὼ καὶ ἐπὶ τοὺς πεποιθότας ἐπ᾽ αὐτῷ",
+    "en": "I am avenging Ammon her son, on Pharaoh and on those who trust in him",
+    "plain": "I am avenging Ammon, her son, on Pharaoh and on everyone who trusts in him"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one of the places where the Greek is shorter. Most scholars of the two editions (Tov, Bogaert) think the longer Hebrew grew by adding Thebes, the gods and the kings. A minority think the Greek abridged. The Plain follows the Hebrew, as it does for the whole book.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie",
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "46:26",
+  "a": "I will hand them over to those who want them dead, to Nebuchadnezzar king of Babylon and his servants. After that, people will settle there again, as in the days of long ago, the LORD declares.",
+  "t": "Is verse 26 in the Greek?",
+  "p": "The Greek has no verse 26: no handing over to Nebuchadnezzar and no restoration of Egypt.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וּנְתַתִּים בְּיַד מְבַקְשֵׁי נַפְשָׁם ... וְאַחֲרֵי־כֵן תִּשְׁכֹּן כִּימֵי־קֶדֶם",
+    "en": "I will hand them over ... and afterward it will be inhabited as in days of old",
+    "plain": "I will hand them over to those who want them dead, to Nebuchadnezzar king of Babylon and his servants. After that, people will settle there again, as in the days of long ago, the LORD declares."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (26:26 is empty)",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Both editions have the oracle of 46:13-25; only the Hebrew has the naming of Nebuchadnezzar and the promise that Egypt will be inhabited again. Tov and Bogaert take the Hebrew to be later expansion; the minority view that the Greek cut it down also exists. 2QJer does not preserve this verse. The Plain follows the Hebrew.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie",
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "47:1",
+  "a": "before Pharaoh struck Gaza",
+  "t": "'Before Pharaoh struck Gaza'",
+  "p": "The Greek heading is 'Against the foreigners (the Philistines)' with no date clause. 2QJer has the Hebrew clause.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2QJer (2Q13; the clause is partly restored)",
+    "orig": "בְּטֶרֶם יַכֶּה פַרְעֹה אֶת־עַזָּה",
+    "en": "before Pharaoh struck Gaza",
+    "plain": "before Pharaoh struck Gaza"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:1)",
+    "orig": "Ἐπὶ τοὺς ἀλλοφύλους",
+    "en": "Against the foreigners",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek heading lacks the clause. Whether the Hebrew clause is an early historical note or a later addition is unclear. The Plain follows the Hebrew.",
+  "b": "2QJer has the verse in the Hebrew form, but 'Pharaoh' and 'Gaza' are largely restored by the editors, so they are not cited as the scroll's own reading.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "47:4",
+  "a": "to cut off from Tyre and Sidon",
+  "t": "'To cut off' or 'I will cut off'",
+  "p": "2QJer and the Greek have the first person, 'I will cut off'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְהַכְרִית",
+    "en": "to cut off",
+    "plain": "to cut off from Tyre and Sidon"
+   },
+   {
+    "w": "2QJer (2Q13); Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:4, 'I will make Tyre and Sidon vanish')",
+    "orig": "וְהִכְרַתִּי",
+    "en": "and I will cut off",
+    "plain": "I will cut off from Tyre and Sidon"
+   }
+  ],
+  "follow": 0,
+  "why": "The letters differ only slightly (lhkryt against whkrty). Two witnesses, one a Hebrew scroll from Qumran, read the first person; the Masoretic infinitive carries on from the sentence before it. The difference is small; the Plain keeps the Masoretic Text and records the other.",
+  "b": "2QJer is the Qumran copy; the line begins 'concerning the day that is coming' in both. The Greek is freer than the scroll, so the scroll is the closer witness for the Hebrew reading.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "47:4",
+  "a": "the island of Caphtor",
+  "t": "One island or 'islands of Caphtor'?",
+  "p": "2QJer has 'islands' (plural); the Greek has 'islands' and no Caphtor.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אִי כַפְתּוֹר",
+    "en": "island of Caphtor",
+    "plain": "the island of Caphtor"
+   },
+   {
+    "w": "2QJer (2Q13); Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:4, 'the islands')",
+    "orig": "אִיֵּי כַפְתּוֹר",
+    "en": "islands of Caphtor",
+    "plain": "the islands of Caphtor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text has the singular, which can also mean 'coast'; 2QJer has the plural by an added yod (which the Masoretes could also have vowelled as a plural construct). The Greek also has the plural. Evidence is two against one, but the difference is slight in meaning, since an island group is one Aegean homeland. The Plain follows the Masoretic Text.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "47:5",
+  "a": "Remnant of their valley",
+  "t": "Their valley, or the Anakim?",
+  "p": "The Greek has 'Anakim' (the old giants) for 'their valley'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "שְׁאֵרִית עִמְקָם",
+    "en": "remnant of their valley",
+    "plain": "Remnant of their valley"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:5)",
+    "orig": "οἱ κατάλοιποι Ἐνακείμ",
+    "en": "the remnant of the Anakim",
+    "plain": "Remnant of the Anakim"
+   }
+  ],
+  "follow": 0,
+  "why": "'Valley' (emeq) and 'Anakim' (anaqim) are easily confused in Hebrew handwriting; the Greek makes the same exchange at 49:4. The Anakim lived in Gaza, Gath and Ashdod (Joshua 11:22). The Masoretic 'valley' is the coastal plain. The word is restored in 2QJer, so the scroll gives no help. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "47:5",
+  "a": "how long will you gash yourselves?",
+  "t": "'Gash yourselves' or 'dwell'?",
+  "p": "2QJer reads a different verb, from gur, 'live as a guest, gather'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תִּתְגּוֹדָדִי",
+    "en": "will you gash yourselves",
+    "plain": "how long will you gash yourselves?"
+   },
+   {
+    "w": "2QJer (2Q13)",
+    "orig": "תִּתְגּוֹרָרִי",
+    "en": "will you stay as a stranger",
+    "plain": "how long will you stay on?"
+   }
+  ],
+  "follow": 0,
+  "why": "Dalet and resh look nearly alike. Gashing the skin in mourning is the better fit with 'baldness' and 'silence'. The scroll's verb would mean something like 'how long will you linger'. The Plain follows the Masoretic Text. The Greek attaches the question to the sword (29:6: 'how long will you cut?').",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "48:2",
+  "a": "There is no more praise for Moab.",
+  "t": "Praise, or healing, for Moab?",
+  "p": "The Greek has 'there is no more healing for Moab'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֵין עוֹד תְּהִלַּת מוֹאָב",
+    "en": "no more the praise of Moab",
+    "plain": "There is no more praise for Moab."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:2)",
+    "orig": "οὐκ ἔστιν ἔτι ἰατρεία Μωάβ",
+    "en": "there is no more healing for Moab",
+    "plain": "There is no more healing for Moab."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator may have read a different word (arukah, 'healing') in place of tehillah. 'Praise' goes well with 'In Heshbon they planned' and with the boasts that follow. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "48:4",
+  "a": "her little ones have raised a scream.",
+  "t": "Her little ones, or 'toward Zoar'?",
+  "p": "The Greek reads 'announce it to Zoar'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הִשְׁמִיעוּ זְעָקָה צְעִירֶיהָ",
+    "en": "her little ones made a cry heard",
+    "plain": "her little ones have raised a scream."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:4)",
+    "orig": "ἀναγγείλατε εἰς Ζόγορα",
+    "en": "announce it to Zoar",
+    "plain": "tell it in Zoar."
+   }
+  ],
+  "follow": 0,
+  "why": "The written Hebrew (Ketiv) has tso'orehah, 'her small ones'; the Qere, which the Leningrad Codex marks to be read, is tse'ireha, 'her little ones'. The consonants differ by one letter (vav against yod), and the sense is the same. The Greek presupposes tso'arah, 'toward Zoar', which fits the mention of Zoar in 48:34. Neither reading is certain. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2",
+   "bhs-elliger"
+  ]
+ },
+ {
+  "v": "48:6",
+  "a": "Be like a juniper bush in the wilderness.",
+  "t": "Juniper, or wild donkey?",
+  "p": "The Greek has 'wild donkey'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְתִהְיֶינָה כַּעֲרוֹעֵר בַּמִּדְבָּר",
+    "en": "be like a juniper in the wilderness",
+    "plain": "Be like a juniper bush in the wilderness."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:6)",
+    "orig": "θέσθε ὥσπερ ὄνος ἄγριος ἐν ἐρήμῳ",
+    "en": "settle like a wild donkey in the wilderness",
+    "plain": "Live like a wild donkey in the wilderness."
+   }
+  ],
+  "follow": 0,
+  "why": "'Ar'ar is a desert shrub (Jeremiah 17:6) and may also sound like ara', 'to be bare'. The Greek has a different animal: pere' or 'arod, 'wild donkey' (as in Job 39:5). Either way the verb is about running to the wilderness. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "48:7",
+  "a": "your handiwork and your treasures",
+  "t": "Works and treasures, or strongholds?",
+  "p": "2QJer agrees with the Masoretic Text; the Greek has 'strongholds'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2QJer (2Q13)",
+    "orig": "בְּמַעֲשַׂיִךְ וּבְאוֹצְרוֹתַיִךְ",
+    "en": "in your works and in your treasures",
+    "plain": "your handiwork and your treasures"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:7)",
+    "orig": "ἐν ὀχυρώμασίν σου",
+    "en": "in your strongholds",
+    "plain": "your strongholds"
+   }
+  ],
+  "follow": 0,
+  "why": "The Qumran copy has 'your works and your treasures', the same as the Masoretic Text, so the Greek's shorter 'strongholds' is likely the translator's rendering or a different Hebrew. The Plain follows the Hebrew. The scroll spells the endings with an extra -h, which is only spelling.",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "48:9",
+  "a": "Hand Moab wings,",
+  "t": "Wings, a flower, or markers?",
+  "p": "The Hebrew word tsits has three old readings.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "תְּנוּ־צִיץ לְמוֹאָב",
+    "en": "give a tsits to Moab",
+    "plain": "Hand Moab wings,"
+   },
+   {
+    "w": "Latin Vulgate (Jerome, about AD 400)",
+    "orig": "date florem Moab",
+    "en": "give a flower to Moab",
+    "plain": "Hand Moab a flower,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:9)",
+    "orig": "δότε σημεῖα τῇ Μωάβ",
+    "en": "give signs to Moab",
+    "plain": "Set up markers for Moab,"
+   }
+  ],
+  "follow": 0,
+  "why": "Tsits usually means 'blossom' (so the Vulgate). 'Wings' is a guess from the next words ('she will surely fly off'), not a meaning of the word. The Greek's 'signs' probably reads tsiyyun, 'a marker' (as on a grave or road). No reading is clear.",
+  "b": "The three give different pictures: a bird about to fly, a bloom that falls, or a road sign to guide mourners.",
+  "s": [
+   "vulgate-weber",
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "48:29",
+  "a": "We have heard of Moab's pride,",
+  "t": "'We have heard', or 'Hear, please'",
+  "p": "2QJer has the command 'Hear!' where the Masoretic Text has 'we have heard'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Isaiah 16:6 (Masoretic Text)",
+    "orig": "שָׁמַעְנוּ גְּאוֹן־מוֹאָב",
+    "en": "we have heard Moab's pride",
+    "plain": "We have heard of Moab's pride,"
+   },
+   {
+    "w": "2QJer (2Q13)",
+    "orig": "שִׁמְעוּ נָא גְּאוֹן",
+    "en": "hear, please, the pride",
+    "plain": "Listen to the story of Moab's pride,"
+   }
+  ],
+  "follow": 0,
+  "why": "2QJer has 'hear, please' (shim'u na), while the Masoretic Text and Isaiah 16:6 have shama'nu, 'we heard'. The scroll agrees with the Masoretic Text in most other places, so this is a notable difference, but a single scroll against two Masoretic texts is not enough to change. The Plain keeps 'we have heard', which also keeps Jeremiah's line the same as Isaiah's.",
+  "s": [
+   "etcbc-dss",
+   "wildberger-isaiah13-27"
+  ]
+ },
+ {
+  "v": "48:31",
+  "a": "Kir-heres",
+  "t": "Kir-heres or Kir-hareseth?",
+  "p": "2QJer spells the town as Isaiah and 2 Kings do.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "קִיר חָרֶשׂ",
+    "en": "Kir-heres",
+    "plain": "Kir-heres"
+   },
+   {
+    "w": "2QJer (2Q13)",
+    "orig": "קיר חרשת",
+    "en": "Kir-hareseth",
+    "plain": "Kir-hareseth"
+   }
+  ],
+  "follow": 0,
+  "why": "The same town (modern Kerak) is called Kir-hareseth in 2 Kings 3:25 and Isaiah 16:7 and Kir-heres in Isaiah 16:11 and Jeremiah 48:31, 36. 2QJer has the longer spelling in this verse. The difference is spelling only. The Plain follows the Masoretic Text and the Isaiah usage in Isaiah 16:11.",
+  "s": [
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "48:40",
+  "a": "For the LORD says this:",
+  "t": "The eagle verse",
+  "p": "The Greek lacks the eagle: 'For thus says the Lord' goes straight to 'Ekron is taken.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי־כֹה אָמַר יְהוָה הִנֵּה כַנֶּשֶׁר יִדְאֶה וּפָרַשׂ כְּנָפָיו אֶל־מוֹאָב",
+    "en": "For thus says the LORD: See, like an eagle he swoops, and spreads his wings over Moab",
+    "plain": "For the LORD says this:"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:40)",
+    "orig": "ὅτι οὕτως εἶπεν Κύριος",
+    "en": "For thus says the Lord",
+    "plain": "For the LORD says this:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has the opening formula only. The eagle verses are repeated in 49:22 (the Greek has them there, in 29:23), so a copyist may have dropped them here or the Hebrew may have copied them from there. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "48:41",
+  "a": "Kerioth is taken,",
+  "t": "Kerioth, or Ekron?",
+  "p": "The Greek has Akkaron (Ekron), a Philistine town.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "נִלְכְּדָה הַקְּרִיּוֹת",
+    "en": "the towns (Kerioth) is taken",
+    "plain": "Kerioth is taken,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:41)",
+    "orig": "Ἐλήμφθη Ἀκκαρών",
+    "en": "Akkaron (Ekron) was taken",
+    "plain": "Ekron is taken,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has haqqeriyyot, 'the towns', which could be the Moabite town Kerioth (48:24) or just 'the towns'. The Greek has Ekron, which is far from Moab, and so probably a mistake or a different tradition. The Greek also lacks the line about warriors with a woman's heart.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "48:45",
+  "a": "In the shadow of Heshbon",
+  "t": "Verses 45-47 are not in the Greek",
+  "p": "The Greek chapter ends at verse 44. 2QJer has most of verse 45.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 2QJer (2Q13) (through 'and a flame')",
+    "orig": "בְּצֵל חֶשְׁבּוֹן עָמְדוּ מִכֹּחַ נָסִים",
+    "en": "In the shadow of Heshbon those who fled stood without strength",
+    "plain": "In the shadow of Heshbon"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (31:44 is the last verse)",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek lacks verses 45-47: the old song from Numbers 21:28-29 and the promise of restoration. The scroll 2QJer preserves part of verse 45, so the Hebrew form of this verse was read at Qumran. Tov and Bogaert take the Greek to translate an earlier, shorter edition; a minority take it as an abridgment. The Plain follows the Hebrew, and the verses are shown in the Plain.",
+  "b": "Where the scroll reads 'from Kiriath-Sihon' like Numbers 21:28, the editors restored the word in square brackets, so it is not cited as the scroll's reading.",
+  "s": [
+   "etcbc-dss",
+   "tov-jeremiah-editions",
+   "bogaert-jeremie",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "48:46",
+  "a": "Woe to you, Moab!",
+  "t": "Not in the Greek",
+  "p": "The Greek lacks verse 46 with 45 and 47. 2QJer does not preserve it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אוֹי־לְךָ מוֹאָב אָבַד עַם־כְּמוֹשׁ",
+    "en": "Woe to you, Moab! The people of Chemosh is lost",
+    "plain": "Woe to you, Moab!"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See 48:45. The verse copies Numbers 21:29 in the Hebrew. The scroll breaks off before it.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "48:47",
+  "a": "Yet I will turn Moab's fortunes around",
+  "t": "The promise to Moab is not in the Greek",
+  "p": "The Greek chapter ends at verse 44, so it has no promise of restoration for Moab.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְשַׁבְתִּי שְׁבוּת־מוֹאָב בְּאַחֲרִית הַיָּמִים",
+    "en": "I will turn Moab's fortunes in the last days",
+    "plain": "Yet I will turn Moab's fortunes around"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Of the four restorations in 46-49 (Egypt 46:26, Moab here, Ammon 49:6, Elam 49:39), the Greek lacks Egypt's, Moab's and Ammon's, and has Elam's. This is the strongest example of the pattern: the Hebrew edition has more promises to the nations than the Greek.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "49:1",
+  "a": "Why then has Milcom taken over Gad,",
+  "t": "Gad or Gilead? Milcom or 'their king'?",
+  "p": "The Greek has Gilead for Gad, and the god's name Melchol.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מַדּוּעַ יָרַשׁ מַלְכָּם אֶת־גָּד",
+    "en": "Why has malkam taken over Gad",
+    "plain": "Why then has Milcom taken over Gad,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (30:1)",
+    "orig": "διὰ τί παρέλαβεν Μελχὸλ τὴν Γαλαάδ",
+    "en": "Why has Melchol taken Gilead",
+    "plain": "Why then has Milcom taken over Gilead,"
+   }
+  ],
+  "follow": 0,
+  "why": "Gilead is the larger region of which Gad's land was a part (Joshua 13:24-28), and the Greek may have named the better-known region. The Hebrew consonants mlkm are vowelled malkam, 'their king', in verses 1 and 3, but they are the name of Ammon's god Milcom (1 Kings 11:5), as the Greek's Melchol shows (30:1, 3); Amos 1:15 has the same word. The Plain takes it as the god's name and follows 'Gad'.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "49:4",
+  "a": "Why do you brag about your valleys,",
+  "t": "Valleys, or the plains of the Anakim?",
+  "p": "The Greek has 'the plains of the Anakim', as at 47:5.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מַה־תִּתְהַלְלִי בָּעֲמָקִים",
+    "en": "Why do you boast in the valleys",
+    "plain": "Why do you brag about your valleys,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (30:4)",
+    "orig": "τί ἀγαλλιᾶσθε ἐν τοῖς πεδίοις Ἐνακείμ",
+    "en": "Why do you rejoice in the plains of the Anakim",
+    "plain": "Why do you brag about the plains of the Anakim,"
+   }
+  ],
+  "follow": 0,
+  "why": "The same confusion as at 47:5: the Greek reads anaqim for amaqim. The Hebrew 'valleys' is the natural reading for a land of river valleys such as Ammon's.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "49:6",
+  "a": "But afterward I will turn the fortunes of the Ammonites around,",
+  "t": "No promise to Ammon in the Greek",
+  "p": "The Greek ends the oracle at verse 5.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְאַחֲרֵי־כֵן אָשִׁיב אֶת־שְׁבוּת בְּנֵי־עַמּוֹן",
+    "en": "afterward I will bring back the captivity of the Ammonites",
+    "plain": "But afterward I will turn the fortunes of the Ammonites around,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (30:5 ends the oracle)",
+    "orig": "",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See 48:47. 2QJer does not preserve this verse. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "49:13",
+  "a": "that Bozrah will become a waste,",
+  "t": "Bozrah named or not",
+  "p": "The Greek does not name Bozrah in 49:13 or 49:22.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "כִּי לְשַׁמָּה לְחֶרְפָּה לְחֹרֶב וְלִקְלָלָה תִּהְיֶה בָּצְרָה",
+    "en": "that Bozrah will become a waste, a disgrace, a ruin and a curse",
+    "plain": "that Bozrah will become a waste,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:14)",
+    "orig": "εἰς ἄβατον καὶ εἰς ὀνειδισμὸν καὶ εἰς κατάρασιν ἔσῃ ἐν μέσῳ αὐτῆς",
+    "en": "you will be a trackless waste, a disgrace and a curse in her midst",
+    "plain": "you will be a waste, a disgrace and a curse in her midst"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has no 'Bozrah' here and reads 'you' (and no 'ruin'). At 49:22 the Greek (29:23) has 'over her strongholds' where the Hebrew has 'over Bozrah'. Whether the Greek translated a Hebrew without the name or smoothed the text is unclear. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "49:19",
+  "a": "and whoever is chosen, him I will set over it.",
+  "t": "'Whoever is chosen' or 'young men'?",
+  "p": "The Greek has 'set the young men over it'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וּמִי בָחוּר אֵלֶיהָ אֶפְקֹד",
+    "en": "and who is chosen, I will appoint over her",
+    "plain": "and whoever is chosen, him I will set over it."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:20)",
+    "orig": "καὶ τοὺς νεανίσκους ἐπ᾽ αὐτὴν ἐπιστήσατε",
+    "en": "and set the young men over her",
+    "plain": "and set the young men over it."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek takes bachur ('chosen') as the noun bachur, 'young man', and turns the verb into a command. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "49:21",
+  "a": "A cry! Its sound is heard at the Sea of Reeds.",
+  "t": "Heard, or not heard?",
+  "p": "The Greek says the cry of the sea 'was not heard'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "צְעָקָה בְּיַם־סוּף נִשְׁמַע קוֹלָהּ",
+    "en": "A cry! At the Sea of Reeds its sound is heard",
+    "plain": "A cry! Its sound is heard at the Sea of Reeds."
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (29:22)",
+    "orig": "καὶ κραυγὴ θαλάσσης οὐκ ἠκούσθη",
+    "en": "and the cry of the sea was not heard",
+    "plain": "and the cry of the sea was not heard."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has a negative the Hebrew lacks and does not say 'Sea of Reeds'. It may be a free rendering. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "49:25",
+  "a": "How is the city of praise not deserted,",
+  "t": "Whose joy? Whose city?",
+  "p": "The Greek says 'How did she not abandon my city? They loved a village.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֵיךְ לֹא־עֻזְּבָה עִיר תְּהִלָּה קִרְיַת מְשׂוֹשִׂי",
+    "en": "How is the city of praise not deserted, the town of my joy?",
+    "plain": "How is the city of praise not deserted,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (30:14)",
+    "orig": "πῶς οὐχὶ ἐνκατέλιπεν πόλιν ἐμήν; κώμην ἠγάπησαν",
+    "en": "How did she not forsake my city? They loved a village",
+    "plain": "How did she not give up my city? They loved a village instead."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'uzzevah means 'forsaken'. The line is a question and gives no answer, so readers differ on its tone: a cry meaning 'how forsaken she is', or the LORD's regret that the city he loved was not left in time. The Greek turns the verb into an active charge against the city. The Plain keeps the question as the Hebrew has it.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "49:28",
+  "a": "About Kedar and the kingdoms of Hazor,",
+  "t": "Hazor, or 'queen of the court'?",
+  "p": "The Greek translates 'Hazor' as the 'court'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "לְקֵדָר וּלְמַמְלְכוֹת חָצוֹר",
+    "en": "to Kedar and to the kingdoms of Hazor",
+    "plain": "About Kedar and the kingdoms of Hazor,"
+   },
+   {
+    "w": "Greek (Septuagint), as printed by Swete from Codex Vaticanus (30:6)",
+    "orig": "Τῇ Κηδὰρ βασιλίσσῃ τῆς αὐλῆς",
+    "en": "To Kedar, queen of the court",
+    "plain": "About Kedar, queen of the court,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek takes 'kingdoms' as 'queen' (a change of one vowel) and hatsor as aule, 'court' or 'enclosure'. This confirms that hatsor was understood as a common noun, 'settlement'. The Plain keeps Hazor as a place name.",
+  "s": [
+   "swete-lxx",
+   "holladay-jeremiah2"
+  ]
+ },
+ {
+  "v": "49:30",
+  "a": "has laid a plan against you",
+  "t": "Against you, or against them?",
+  "p": "The written text (Ketiv) has 'against them'; the Qere and the Greek have 'against you'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "עֲלֵיכֶם (Qere; Greek ἐφ᾽ ὑμᾶς)",
+    "en": "against you",
+    "plain": "has laid a plan against you"
+   },
+   {
+    "w": "Ketiv of the Leningrad Codex",
+    "orig": "עֲלֵיהֶם",
+    "en": "against them",
+    "plain": "has laid a plan against them"
+   }
+  ],
+  "follow": 0,
+  "why": "A common kind of Ketiv-Qere. The sense is the same: 'you who live in Hazor' is the person addressed, so 'you' is the smoother reading.",
+  "s": [
+   "bhs-elliger",
+   "swete-lxx"
+  ]
+ }
+]

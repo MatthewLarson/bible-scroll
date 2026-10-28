@@ -1,0 +1,284 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "benjamin-5"
+  ],
+  "why": "Verse 1 means the territory of Benjamin where Anathoth lay, not the patriarch Benjamin."
+ },
+ {
+  "c": 2,
+  "drop": [
+   "israel",
+   "kedar"
+  ],
+  "why": "Israel here is the nation and Kedar is the Arabian people or region (verse 10), not the patriarchs of those names."
+ },
+ {
+  "c": 2,
+  "add": {
+   "places": {
+    "tahpanhes": {
+     "name": "Tahpanhes",
+     "lat": 30.860556,
+     "lon": 32.171389
+    }
+   }
+  },
+  "why": "Verse 16 names Memphis and Tahpanhes (Egyptian border cities); Bible Atlas links only Memphis here."
+ },
+ {
+  "c": 3,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 4,
+  "drop": [
+   "dan-13",
+   "ephraim"
+  ],
+  "why": "Verse 15 means the town of Dan and the hill country of Ephraim, which are already linked as places, not the sons of Jacob."
+ },
+ {
+  "c": 5,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 6,
+  "drop": [
+   "benjamin-5"
+  ],
+  "why": "The people of Benjamin are the tribe living around Jerusalem, not the patriarch."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "ephraim"
+  ],
+  "why": "Verse 15 means the northern kingdom, called Ephraim after its leading tribe, not the individual."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "dan-13"
+  ],
+  "why": "Verse 16 means the northern town or territory of Dan, already linked as a place, not the patriarch."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "esau",
+   "moab"
+  ],
+  "why": "Verse 26 lists Edom and Moab as nations, which are linked as places; the patriarchs are not meant."
+ },
+ {
+  "c": 10,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 10,
+  "unmap": [
+   "uphaz"
+  ],
+  "why": "Bible Atlas puts Uphaz in India, but no one knows where this source of gold was, so the map shows no dot."
+ },
+ {
+  "c": 16,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 17,
+  "drop": [
+   "benjamin-5"
+  ],
+  "why": "Verse 26 means the territory of Benjamin, not the patriarch."
+ },
+ {
+  "c": 18,
+  "drop": [
+   "sirion"
+  ],
+  "why": "Verse 14 names only Lebanon's snow; Sirion (a name for Hermon) is not in the text, though some read the Hebrew that way."
+ },
+ {
+  "c": 20,
+  "drop": [
+   "benjamin-5"
+  ],
+  "why": "The Benjamin Gate is a place in Jerusalem, already linked, not the patriarch."
+ },
+ {
+  "c": 23,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 25,
+  "drop": [
+   "esau",
+   "moab"
+  ],
+  "why": "Edom and Moab here are nations, linked as places, not the patriarchs."
+ },
+ {
+  "c": 25,
+  "unmap": [
+   "zimri-4"
+  ],
+  "why": "Bible Atlas draws Zimri on Susa's point, but where Zimri's kingdom lay is uncertain, so the map shows no dot."
+ },
+ {
+  "c": 27,
+  "drop": [
+   "esau",
+   "moab"
+  ],
+  "why": "Edom and Moab here are nations, linked as places, not the patriarchs."
+ },
+ {
+  "c": 30,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 31,
+  "drop": [
+   "ephraim",
+   "israel",
+   "gareb"
+  ],
+  "why": "Ephraim and Israel mean the northern kingdom and the whole people. The Gareb of verse 39 is a hill near Jerusalem, not David's warrior of that name."
+ },
+ {
+  "c": 31,
+  "unmap": [
+   "kidron"
+  ],
+  "why": "Bible Atlas puts the Kidron on the coastal plain near Ekron, but verse 40 means the Kidron Valley east of Jerusalem."
+ },
+ {
+  "c": 32,
+  "drop": [
+   "judah",
+   "israel",
+   "benjamin-5"
+  ],
+  "why": "Judah, Israel and Benjamin here are the kingdom, the people and a territory, not the patriarchs."
+ },
+ {
+  "c": 33,
+  "drop": [
+   "jesus-2",
+   "israel"
+  ],
+  "why": "Many Christians read the Branch of verse 15 as the Messiah, but the verse names only David's line; that reading belongs in the notes. Israel is the nation."
+ },
+ {
+  "c": 37,
+  "drop": [
+   "benjamin-5"
+  ],
+  "why": "The Benjamin Gate is a place in Jerusalem, not the patriarch."
+ },
+ {
+  "c": 38,
+  "drop": [
+   "judah",
+   "benjamin-5"
+  ],
+  "why": "Judah is the kingdom and the Benjamin Gate is a place, not the patriarchs."
+ },
+ {
+  "c": 40,
+  "drop": [
+   "esau",
+   "moab"
+  ],
+  "why": "Edom and Moab here are nations, linked as places, not the patriarchs."
+ },
+ {
+  "c": 46,
+  "drop": [
+   "israel"
+  ],
+  "why": "Israel here is the nation, not the patriarch."
+ },
+ {
+  "c": 46,
+  "unmap": [
+   "lud-2",
+   "carmel"
+  ],
+  "why": "Bible Atlas puts Lud at Lod in Israel, but verse 9 means a distant African people allied with Egypt. Its Carmel is the hill in Judah, but verse 18 means the headland by the sea."
+ },
+ {
+  "c": 48,
+  "drop": [
+   "moab"
+  ],
+  "why": "Moab here is the nation, linked as a place, not the patriarch."
+ },
+ {
+  "c": 48,
+  "unmap": [
+   "bozrah-2"
+  ],
+  "why": "Bible Atlas puts this Bozrah in Syria's Hauran, far north of Moab; verse 24 names a town in Moab whose site is uncertain."
+ },
+ {
+  "c": 49,
+  "drop": [
+   "gad",
+   "esau",
+   "kedar"
+  ],
+  "why": "Gad is the tribe's territory, Esau stands for Edom and Kedar is a people, not the individuals."
+ },
+ {
+  "c": 49,
+  "unmap": [
+   "red-sea"
+  ],
+  "why": "Bible Atlas puts the Red Sea in its middle, but verse 21 means the Gulf of Aqaba at Edom's edge."
+ },
+ {
+  "c": 50,
+  "drop": [
+   "israel",
+   "ephraim"
+  ],
+  "why": "Israel and the hill country of Ephraim mean the people and a region, not the patriarchs."
+ },
+ {
+  "c": 50,
+  "unmap": [
+   "carmel"
+  ],
+  "why": "Bible Atlas's Carmel is the hill in Judah, but verse 19 means Mount Carmel by the sea."
+ },
+ {
+  "c": 51,
+  "drop": [
+   "israel",
+   "ashkenaz"
+  ],
+  "why": "Israel is the nation and Ashkenaz is a kingdom (linked as a place), not the individuals."
+ }
+]

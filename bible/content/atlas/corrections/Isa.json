@@ -1,0 +1,482 @@
+[
+ {
+  "c": 2,
+  "drop": [
+   "israel"
+  ],
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    }
+   }
+  },
+  "why": "Here Israel mean the people or land of that name, not the ancestor. The Philistines are named in 2:6."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "ephraim",
+   "jesus-2"
+  ],
+  "why": "Here Ephraim mean the people or land of that name, not the ancestor. Many Christians read the child Immanuel in 7:14 as pointing to Jesus (Matthew 1:23), while Jewish readers and many scholars see a child born in Ahaz's own time. The verse does not name Jesus; that reading is in the chapter's notes."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "israel",
+   "jesus-2"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor. Bible Atlas links Jesus because Christians read Immanuel (8:8-10) and the stone of stumbling (8:14) in light of the New Testament; the chapter itself does not name him."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "israel",
+   "ephraim",
+   "manasseh",
+   "naphtali",
+   "zebulun",
+   "midian",
+   "jesus-2"
+  ],
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    },
+    "syria": {
+     "name": "Syria",
+     "lat": 37.5,
+     "lon": 37.5
+    }
+   }
+  },
+  "why": "Here Israel, Ephraim, Manasseh, Naphtali, Zebulun and Midian mean the people or land of that name, not the ancestor. Many Christians read the child of 9:6 as Jesus, while Jewish readers usually take a king of David's line in Isaiah's own time. The verse does not name Jesus. The Arameans (Syria) and the Philistines are named in 9:12."
+ },
+ {
+  "c": 10,
+  "drop": [
+   "israel",
+   "midian"
+  ],
+  "why": "Here Israel and Midian mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 11,
+  "drop": [
+   "ephraim",
+   "moab",
+   "esau",
+   "jesus-2"
+  ],
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    }
+   }
+  },
+  "why": "Here Ephraim and Moab mean the people or land of that name, not the ancestor. The chapter names Edom, the land and its people (11:14), not Esau himself; Bible Atlas links Esau because Edom descends from him. Many Christians read the shoot from Jesse's stump (11:1) as Jesus; Jewish readers expect a future king of David's line. The chapter does not name Jesus. The Philistines are named in 11:14."
+ },
+ {
+  "c": 13,
+  "add": {
+   "places": {
+    "chaldea": {
+     "name": "Chaldea",
+     "lat": 30.9620520474569,
+     "lon": 46.10374195774169
+    },
+    "media": {
+     "name": "Media",
+     "lat": 34.5,
+     "lon": 46.5
+    }
+   }
+  },
+  "why": "The Medes (13:17) and the Chaldeans (13:19) are named in this chapter."
+ },
+ {
+  "c": 14,
+  "drop": [
+   "israel",
+   "lucifer"
+  ],
+  "add": {
+   "places": {
+    "assyria": {
+     "name": "Assyria",
+     "lat": 36.50969,
+     "lon": 43.2282
+    }
+   }
+  },
+  "why": "Here Israel mean the people or land of that name, not the ancestor. The Hebrew in 14:12 is \"shining one, son of dawn,\" said of the king of Babylon; \"Lucifer\" is the Latin Vulgate rendering. Many Christians also read the passage as about Satan, but the text does not name him. Assyria is named in 14:25."
+ },
+ {
+  "c": 15,
+  "drop": [
+   "moab"
+  ],
+  "unmap": [
+   "willows"
+  ],
+  "why": "Here Moab mean the people or land of that name, not the ancestor. Bible Atlas draws the Brook of the Willows (15:7) in the Jordan valley north of Jericho, but the chapter has Moabites fleeing through Moab, so no dot is drawn."
+ },
+ {
+  "c": 16,
+  "drop": [
+   "moab"
+  ],
+  "why": "Here Moab mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 17,
+  "drop": [
+   "israel",
+   "ephraim"
+  ],
+  "why": "Here Israel and Ephraim mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 19,
+  "drop": [
+   "canaan"
+  ],
+  "why": "Here Canaan mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 20,
+  "drop": [
+   "sennacherib"
+  ],
+  "why": "This chapter names Sargon's commander at Ashdod (20:1), not Sennacherib, who comes in chapters 36-37."
+ },
+ {
+  "c": 21,
+  "drop": [
+   "kedar"
+  ],
+  "why": "Here Kedar mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 22,
+  "unmap": [
+   "kir"
+  ],
+  "why": "Bible Atlas draws this Kir in Moab, but in 22:6 Kir is a distant land named with Elam, so no dot is drawn."
+ },
+ {
+  "c": 23,
+  "add": {
+   "places": {
+    "chaldea": {
+     "name": "Chaldea",
+     "lat": 30.9620520474569,
+     "lon": 46.10374195774169
+    }
+   }
+  },
+  "why": "The land of the Chaldeans is named in 23:13."
+ },
+ {
+  "c": 25,
+  "drop": [
+   "moab"
+  ],
+  "why": "Here Moab mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 27,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 28,
+  "drop": [
+   "ephraim"
+  ],
+  "why": "Here Ephraim mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 29,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 30,
+  "add": {
+   "places": {
+    "assyria": {
+     "name": "Assyria",
+     "lat": 36.50969,
+     "lon": 43.2282
+    }
+   }
+  },
+  "why": "Assyria is named in 30:31."
+ },
+ {
+  "c": 31,
+  "drop": [
+   "israel"
+  ],
+  "add": {
+   "places": {
+    "assyria": {
+     "name": "Assyria",
+     "lat": 36.50969,
+     "lon": 43.2282
+    }
+   }
+  },
+  "why": "Here Israel mean the people or land of that name, not the ancestor. Assyria is named in 31:8."
+ },
+ {
+  "c": 33,
+  "drop": [
+   "carmel"
+  ],
+  "add": {
+   "places": {
+    "mount-carmel": {
+     "name": "Mount Carmel",
+     "lat": 32.72935016,
+     "lon": 35.04978957
+    }
+   }
+  },
+  "why": "In 33:9 Carmel is the wooded ridge on the northern coast, paired with Sharon and Lebanon. Bible Atlas links the town of Carmel in Judah instead, so Mount Carmel is linked in its place."
+ },
+ {
+  "c": 34,
+  "add": {
+   "places": {
+    "edom": {
+     "name": "Edom",
+     "lat": 31.25,
+     "lon": 34.75
+    }
+   }
+  },
+  "why": "Edom is named in 34:5-6."
+ },
+ {
+  "c": 35,
+  "drop": [
+   "carmel"
+  ],
+  "add": {
+   "places": {
+    "mount-carmel": {
+     "name": "Mount Carmel",
+     "lat": 32.72935016,
+     "lon": 35.04978957
+    }
+   }
+  },
+  "why": "In 35:2 Carmel is the wooded ridge on the northern coast, paired with Sharon and Lebanon. Bible Atlas links the town of Carmel in Judah instead, so Mount Carmel is linked in its place."
+ },
+ {
+  "c": 36,
+  "drop": [
+   "asaph-2",
+   "hilkiah-2"
+  ],
+  "why": "Bible Atlas links two entries each for Asaph and Hilkiah; the chapter names one of each, so the duplicate entries are dropped."
+ },
+ {
+  "c": 37,
+  "unmap": [
+   "telassar"
+  ],
+  "why": "Bible Atlas draws Telassar in southwest Iran, but 37:12 ties it to the people of Eden (Bit-Adini) on the Euphrates in northern Mesopotamia, so no dot is drawn."
+ },
+ {
+  "c": 40,
+  "drop": [
+   "israel",
+   "jesus-2",
+   "holy-spirit"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor. Many Christians connect 40:3 (\"a voice calls: in the wilderness prepare the way\") with John the Baptist and Jesus (Mark 1:3), but the chapter does not name him. The chapter says \"the LORD's Spirit\" (40:13), not \"Holy Spirit\"; Christians often read it as the Holy Spirit, while Jewish readers take it as God's own spirit."
+ },
+ {
+  "c": 41,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 42,
+  "drop": [
+   "israel",
+   "kedar"
+  ],
+  "why": "Here Israel and Kedar mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 43,
+  "drop": [
+   "israel"
+  ],
+  "add": {
+   "places": {
+    "chaldea": {
+     "name": "Chaldea",
+     "lat": 30.9620520474569,
+     "lon": 46.10374195774169
+    }
+   }
+  },
+  "why": "Here Israel mean the people or land of that name, not the ancestor. The Chaldeans are named in 43:14."
+ },
+ {
+  "c": 44,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 45,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 46,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 47,
+  "add": {
+   "places": {
+    "chaldea": {
+     "name": "Chaldea",
+     "lat": 30.9620520474569,
+     "lon": 46.10374195774169
+    }
+   }
+  },
+  "why": "The Chaldeans are named in 47:1."
+ },
+ {
+  "c": 48,
+  "drop": [
+   "israel",
+   "holy-spirit"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor. The chapter says \"his Spirit\" (48:16), which Christians often read as the Holy Spirit and Jewish readers take as God's own spirit. The text does not use the name."
+ },
+ {
+  "c": 49,
+  "drop": [
+   "israel",
+   "jesus-2"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor. Many Christians read the Servant of 49:1-7 as Jesus, while Jewish readers take the Servant as Israel. The chapter does not name Jesus."
+ },
+ {
+  "c": 51,
+  "drop": [
+   "rahab-2"
+  ],
+  "why": "In 51:9 Rahab is the sea monster of ancient myth that God defeated, a picture of chaos (and, for many, of Egypt). It is not a place, and the point Bible Atlas gives lies in Egypt."
+ },
+ {
+  "c": 52,
+  "add": {
+   "places": {
+    "assyria": {
+     "name": "Assyria",
+     "lat": 36.50969,
+     "lon": 43.2282
+    }
+   }
+  },
+  "why": "Assyria is named in 52:4."
+ },
+ {
+  "c": 58,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 59,
+  "drop": [
+   "israel",
+   "holy-spirit"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor. The chapter says \"my Spirit\" (59:21), which Christians often read as the Holy Spirit and Jewish readers take as God's own spirit. The text does not use the name."
+ },
+ {
+  "c": 60,
+  "drop": [
+   "israel",
+   "midian",
+   "kedar",
+   "ephah",
+   "nebajoth"
+  ],
+  "why": "Here Israel, Midian, Kedar, Ephah and Nebaioth mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 61,
+  "drop": [
+   "holy-spirit"
+  ],
+  "why": "The chapter says \"the Spirit of the Lord GOD\" (61:1), which Christians often read as the Holy Spirit (as in Luke 4:18); the text itself does not use the name."
+ },
+ {
+  "c": 62,
+  "drop": [
+   "hephzi-bah"
+  ],
+  "why": "The chapter gives Zion the symbolic name \"My Delight Is in Her\" (Hephzibah, 62:4); it does not mean Hezekiah's wife of that name."
+ },
+ {
+  "c": 63,
+  "drop": [
+   "esau"
+  ],
+  "why": "In 63:1-6 the chapter names Edom, the land and its people, not Esau himself; Bible Atlas links Esau because Edom descends from him."
+ },
+ {
+  "c": 65,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel mean the people or land of that name, not the ancestor."
+ },
+ {
+  "c": 66,
+  "drop": [
+   "israel",
+   "javan",
+   "tubal"
+  ],
+  "unmap": [
+   "lud-2"
+  ],
+  "why": "Here Israel, Javan and Tubal mean the people or land of that name, not the ancestor. Bible Atlas draws Lud at Lod in Israel, but in 66:19 Lud is a distant nation (Lydia in western Asia Minor, or Ludim in Africa; scholars differ), so no dot is drawn."
+ }
+]

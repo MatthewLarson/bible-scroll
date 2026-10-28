@@ -27,8 +27,11 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Pro | reviewed, published | 6 parts: 01-09 (owns book.json), 10-15, 16-22, 23-24, 25-29, 30-31; lenses H C W J X fixed; brief tools/brief-pro.md. Part 23-24 written 2026-10-24 (--check Pro |
 | Ecc | reviewed, published | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
 | Sng | reviewed, published | Planned 2026-10-28: one part (117 verses, flat folder like Ruth, writer owns book.json); lenses H L J X M; brief tools/brief-sng.md; atlas harvest next. |
-| Isa | writing | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
-| Jer | writing | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
+| Isa | reviewed, published | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
+| Jer | reviewed, published | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
+| Lam | reviewed, published | Planned 2026-10-28: prophets lane, one part (154 verses, flat folder like Sng, writer owns book.json); lenses H C J X L (F dropped, justified in the brief); fiv |
+| Ezk | reviewed, published | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-07 (owns book.json), 08-15, 16-19, 20-24, 25-28, 29-32, 33-39, 40-43, 44-48 (parts/, 1,273 verses |
+| Dan | reviewed, published | Prophets lane. 4 parts: 01-03 (owns book.json; 100 vv, Hebrew 1 and 2:1-4a, Aramaic from 2:4b), 04-07 (152 vv, all Aramaic, ends at 7:28), 08-10 (75 vv, Hebrew  |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
 | Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |

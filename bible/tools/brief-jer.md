@@ -82,3 +82,13 @@ Book id `Jer`. This book belongs to the **prophets lane** (tools/lanes.md): you 
 - Run `cd bible && VERBOSE=1 node tools/build.js --check Jer/<part>` until it reports 0 errors and no warnings in your part.
 - Add one line for your part to content/books/Jer/progress.md, leaving its first line "Status: writing" as it is.
 - Report your counts, the parallel or repeated pairs left to align, the terms and works you added, and anything I should know. Be accurate about which reading each verse follows and which witnesses you read yourself.
+
+## Lead decisions (after the writers, before the fixes; every fixer applies these)
+
+- **dever/deber:** "disease" everywhere in Jeremiah ("sword, famine and disease": 14:12; 21:7, 9; 24:10; 27:8, 13; 29:17-18; 32:24, 36; 34:17; 38:2; 42:17, 22; 44:13). 21:9 and 38:2 change from "plague" to "disease". "Plague" is Ezekiel's word (Leviticus 26:25 model) and is not changed there.
+- **"Terror all around"** (magor missaviv): the same English at 6:25, 20:3, 20:10, 46:5, 49:29 (6:25 changes to match the shared term).
+- **Wedding phrase** (7:34; 16:9; 25:10; 33:11): "the sound of the groom and the sound of the bride", every time (qol = "sound").
+- **"The LORD declares" vs "says":** ne'um YHWH is always "the LORD declares"; koh amar YHWH is "The LORD says this". 49:18 (Hebrew `amar`) stays "the LORD says" and 50:40 (Hebrew `ne'um`) stays "the LORD declares": the English follows the Hebrew, so the two differ there on purpose (correction by the lead; an earlier draft of this decision said to change 49:18).
+- **Earlier text is the model** for parallel pairs (6:22-24/50:41-43; 10:12-16/51:15-19; 16:14-15/23:7-8 (16 is model); 23:5-6/33:15-16 (23 is model); 23:19-20/30:23-24 (23 is model); 30:10-11/46:27-28 (30 is model); 49:18/50:40 (49 is model); 39:1-10/52:4-16 (39 is model)). The later part changes its Plain to the earlier's wording where the Hebrew is the same, and each remaining difference is named in a note.
+- **Sources and 'from memory':** a fact that cannot be verified is removed or written as "reported by <named source>". Never "from memory".
+- **Greek:** "the Greek" means Swete's Vaticanus unless Ziegler was read; say so on each part's first chapter page.

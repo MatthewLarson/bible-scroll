@@ -3,12 +3,36 @@
  "title": "The Book of Daniel",
  "kind": "Words",
  "aka": [
-  "Book of Daniel",
-  "seventy weeks",
-  "seventy sevens"
+  "Book of Daniel"
  ],
- "lead": "Daniel tells of a Jewish exile at the courts of Babylon and Persia (Daniel 1–6) and gives his visions of four beasts, seventy \"weeks\" and a final kingdom of God (Daniel 7–12). It was traditionally dated to the 500s BC; many modern scholars date the visions to the persecution under Antiochus IV in the 160s BC, the crisis that 1 and 2 Maccabees tell. Its visions shaped Jewish hope, Jesus's words about the end (Mark 13:14) and, more than any other book, Revelation.",
- "sections": [],
+ "lead": "Daniel tells of a Jewish courtier at Babylon and Persia (Daniel 1–6) and gives visions of four kingdoms and of one like a son of man (Daniel 7–12). It is written in two languages, Hebrew (1:1–2:4a; 8–12) and Aramaic (2:4b–7:28). Tradition dates it to the sixth century BC; most critical scholars date its visions to 167–164 BC, under Antiochus IV, the crisis told in 1 and 2 Maccabees. Catholic and Orthodox Bibles add Greek chapters (Susanna, the Prayer of Azariah and Song of the Three, Bel and the Dragon). Its visions shaped Jewish hope, Jesus's words about the end (Mark 13:14) and Revelation. The angel's prophecy of the seventy sevens has its own page, \"Daniel's Seventy Sevens.\"",
+ "sections": [
+  {
+   "h": "Two languages and a chiasm",
+   "b": "<p>The Hebrew of 1:1–2:4a gives way to Aramaic in the middle of a verse (2:4), and Aramaic runs to the end of chapter 7 (7:28), after which Hebrew resumes at 8:1. Many scholars note that the Aramaic chapters 2–7 are arranged in a chiasm: chapter 2 (four kingdoms) matches chapter 7 (four beasts), chapter 3 (the furnace) matches chapter 6 (the lions' den), and chapters 4 and 5 (Nebuchadnezzar humbled, Belshazzar judged) form the center. The language division and the pattern of the stories therefore cross each other. Why the book uses two languages is not known.</p>",
+   "refs": "Daniel 2:4; Daniel 7:28; Daniel 8:1"
+  },
+  {
+   "h": "Dating the book",
+   "b": "<p>Tradition takes the book as written by Daniel, the exile of 605 BC (Daniel 1:1), in the sixth century. Most critical scholars place the visions in the persecution of Antiochus IV: the history of chapter 11 is exact through his rule and then stops matching events (11:21–45), and Greek loanwords in the Aramaic of chapter 3 are cited as further support. The traditional reading takes the same chapters as prophecy. The crisis itself is told in 1 Maccabees 1:41–64. Which view is held decides whether the visions are read as prediction or as encouragement written in the middle of the persecution.</p>",
+   "refs": "Daniel 1:1; Daniel 8:1–27; Daniel 11:21–45; 1 Maccabees 1:41–64"
+  },
+  {
+   "h": "Daniel in the Hebrew and Christian canons",
+   "b": "<p>The Hebrew Bible places Daniel in the Writings, the third division, after the Prophets. Christian Bibles, following the Greek order, place it among the Prophets after Ezekiel. In Matthew 24:15 Jesus speaks of the abomination that desolates and, in the text of Matthew, names Daniel the prophet, which shows that some Jews of his time called Daniel a prophet.</p>",
+   "refs": "Daniel 1:1; Matthew 24:15"
+  },
+  {
+   "h": "The Greek Daniel and its additions",
+   "b": "<p>Daniel survives in two Greek forms, the Old Greek and the later version called Theodotion's, which the church came to use. Both carry additions that are not in the Hebrew and Aramaic text: the Prayer of Azariah and the Song of the Three (placed after Daniel 3:23), and the stories of Susanna and of Bel and the Dragon (placed at the start or end, depending on the manuscript). They are Scripture for Catholic and Orthodox churches, not for Protestants or Jews.</p>",
+   "refs": "Daniel 3:23; Daniel 1:1"
+  },
+  {
+   "h": "Daniel the man",
+   "b": "<p>Ezekiel names a Daniel (spelled dn'l) with Noah and Job as a man of proven righteousness, and in 28:3 as a model of wisdom (Ezekiel 14:14, 20; 28:3). Since the Ugaritic tale of Aqhat has a wise and righteous king Danel, many scholars think Ezekiel means a figure of old tradition, not the exile of the book; others take it as the same man (see John Day, \"The Daniel of Ugarit and Ezekiel and the Hero of the Book of Daniel,\" Vetus Testamentum 30, 1980).</p>",
+   "refs": "Ezekiel 14:14; Ezekiel 14:20; Ezekiel 28:3"
+  }
+ ],
  "links": [
   [
    "Book of Daniel",
@@ -17,11 +41,16 @@
   [
    "Daniel 7",
    "Daniel 7"
-  ],
-  [
-   "Seventy weeks",
-   "Prophecy of Seventy Weeks"
   ]
  ],
- "sources": []
+ "sources": [],
+ "related": [
+  "seventy-sevens",
+  "four-kingdoms",
+  "ancient-of-days",
+  "gabriel",
+  "belshazzar",
+  "darius-the-mede",
+  "shadrach-meshach-abednego"
+ ]
 }

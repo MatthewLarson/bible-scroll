@@ -1,0 +1,107 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "zion",
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "zion",
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "zion",
+    "sodom",
+    "jerusalem",
+    "edom",
+    "uz-3"
+   ],
+   "people": [
+    "god",
+    "esau"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [
+    "egypt",
+    "zion",
+    "mount-zion"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "sodom": {
+   "name": "Sodom",
+   "lat": 31.19656033,
+   "lon": 35.39648412
+  },
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "uz-3": {
+   "name": "Uz",
+   "lat": 30.0334,
+   "lon": 36.44839
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "mount-zion": {
+   "name": "Mount Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "esau": {
+   "name": "Esau"
+  }
+ },
+ "events": {}
+}

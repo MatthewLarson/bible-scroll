@@ -1,0 +1,392 @@
+[
+ {
+  "v": "25:7",
+  "a": "as plunder",
+  "t": "Two readings of one word: 'plunder' or 'a portion'",
+  "p": "The written text (Ketiv) and the margin (Qere) differ by a letter.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the Masoretic margin (Qere); Greek (Swete)",
+    "orig": "לָבַז",
+    "en": "as plunder",
+    "plain": "as plunder"
+   },
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), the written consonants (Ketiv)",
+    "orig": "לבג",
+    "en": "as a portion (bag)",
+    "plain": "as a portion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretes read 'plunder' (<i>baz</i>) in the margin, which fits the parallel 'plunder' of 26:5 and the Greek's 'plunder' (<i>diarpage</i>). The written <i>bag</i> is a rare word, possibly a Persian loan meaning 'portion', as in Daniel 1:5, and would be an odd choice here.",
+  "b": "The difference is the last letter, <i>zayin</i> or <i>gimel</i>, easily confused in the old script. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "25:8",
+  "a": "Moab and Seir",
+  "t": "Is Seir in the text?",
+  "p": "The Hebrew has 'Moab and Seir'; the Greek in Codex Vaticanus has Moab alone.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מוֹאָב וְשֵׂעִיר",
+    "en": "Moab and Seir",
+    "plain": "Moab and Seir"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "Μωάβ",
+    "en": "Moab",
+    "plain": "Moab"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the only Hebrew witness, and 'Seir' is the hard reading: Seir is Edom's hill country, which has its own oracle in 25:12-14. The Greek may have dropped it for that reason, or the Hebrew may have added it. With one Greek manuscript's witness to the shorter text, the Plain keeps the Hebrew.",
+  "b": "Seir also stands for Edom in chapter 35. Some commentators think the Hebrew reflects a time when Seir people lived in Moab's area. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:20",
+  "a": "And I will set splendor in the land of the living.",
+  "t": "Splendor in the land of the living, or no place there?",
+  "p": "The Hebrew gives a promise to Jerusalem; the Greek continues the threat to Tyre.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְנָתַתִּי צְבִי בְּאֶרֶץ חַיִּים",
+    "en": "and I will set splendor in the land of the living",
+    "plain": "And I will set splendor in the land of the living."
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "μηδὲ ἀναστῇς ἐπὶ γῆς ζωῆς",
+    "en": "and you will not rise (or stand) on the land of the living",
+    "plain": "And you will not rise in the land of the living."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew change of subject is abrupt, but Ezekiel often ends a judgment with a promise to Israel, and 'beauty' (<i>tsevi</i>) is a word used for the land (25:9; Daniel 11:16, 41). The Greek makes the line a final threat to Tyre, and presupposes a verb 'stand' for which there is no clear Hebrew. One word may have been read differently (<i>tetsavi</i>, a rare verb, or <i>tiqqomi</i>), and the Plain follows the Masoretic Text.",
+  "b": "Whether the Hebrew's abrupt turn to Jerusalem is original is a question commentators answer both ways. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "27:4",
+  "a": "your builders",
+  "t": "Builders or sons?",
+  "p": "The Hebrew letters can be read 'your sons' or 'your builders'; the Greek has 'sons'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (pointed bonayikh)",
+    "orig": "בֹּנַיִךְ",
+    "en": "your builders",
+    "plain": "your builders"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "υἱοί σου",
+    "en": "your sons",
+    "plain": "your sons"
+   }
+  ],
+  "follow": 0,
+  "why": "The same consonants can be read either way. In a poem about a ship, 'your builders' is the natural reading (the Masoretic pointing), and the next verses describe the building. The Greek's 'sons' is the other possible reading of the same letters.",
+  "b": "The Greek also has 'in Beelim', which has no Hebrew counterpart here. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "27:11",
+  "a": "your own army",
+  "t": "'Your army' or the place Helech?",
+  "p": "The same consonants can be read as a word for army or as a place name.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), read as 'your army'; Greek (Swete) 'your force'",
+    "orig": "וחילך",
+    "en": "and your army",
+    "plain": "your own army"
+   },
+   {
+    "w": "Read as a place name, Helech, by some translators",
+    "orig": "וחילך",
+    "en": "and Helech",
+    "plain": "Helech"
+   }
+  ],
+  "follow": 0,
+  "why": "Arvad and Gammad are named as the city's defenders, and 'your army' fits the soldiers of Persia, Lud and Put in the verse before. A place name would add a third people to the list. The Greek also reads 'your force'.",
+  "b": "No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "27:15",
+  "a": "The people of Dedan",
+  "t": "Dedan or Rhodes?",
+  "p": "Hebrew has Dedan; the Greek has the sons of Rhodes. The letters daleth and resh are easily confused.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בְּנֵי דְדָן",
+    "en": "the sons of Dedan",
+    "plain": "The people of Dedan"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "υἱοὶ Ῥοδίων",
+    "en": "the sons of the Rhodians",
+    "plain": "The people of Rhodes"
+   }
+  ],
+  "follow": 0,
+  "why": "Dedan is named again in 27:20 as a dealer of saddlecloths, in the Arabian trade, while this verse speaks of 'many islands'. That suits Rhodes (<i>Rodanim</i>) better, and Genesis 10:4 and 1 Chronicles 1:7 themselves differ between Dodanim and Rodanim. The Leningrad Codex reads Dedan, and a few modern commentators emend to Rodan on the Greek's evidence; the Plain follows the Hebrew.",
+  "b": "In Hebrew script daleth and resh differ by a small mark. The two spellings in the Table of Nations suggest the confusion is old. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "27:16",
+  "a": "Aram",
+  "t": "Aram, Edom or 'people'?",
+  "p": "Aram and Edom look nearly alike in Hebrew; the Greek has 'people'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֲרָם",
+    "en": "Aram",
+    "plain": "Aram"
+   },
+   {
+    "w": "Several modern English Bibles read Edom; their footnotes cite some Hebrew manuscripts and the Syriac",
+    "orig": "אֱדוֹם",
+    "en": "Edom",
+    "plain": "Edom"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἀνθρώπους",
+    "en": "people",
+    "plain": "People"
+   }
+  ],
+  "follow": 0,
+  "why": "Aram (<i>aram</i>) and Edom (<i>edom</i>) differ by two letters, resh and daleth, which are easily confused, and the Greek 'people' (<i>anthropous</i>) looks like a third reading of the same letters, <i>adam</i>. Aram, the Syrian kingdom of Damascus, is a fine trading partner, and verse 18 names Damascus separately, so some prefer Edom here. The Plain follows the Masoretic Text.",
+  "b": "Several modern English Bibles read Edom and say in their footnotes that some Hebrew manuscripts and the Syriac support it. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "27:31",
+  "a": "They will shave their heads bald for you",
+  "t": "Is verse 31 in the Greek?",
+  "p": "The Greek of Codex Vaticanus, as printed by Swete, has no text for this verse.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְהִקְרִיחוּ אֵלַיִךְ קָרְחָה",
+    "en": "and they will shave themselves bald for you",
+    "plain": "They will shave their heads bald for you"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "(no text)",
+    "en": "verse 31 is missing",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verse belongs to the same series of mourning rites as verses 30 and 32. In Swete's printing of Codex Vaticanus the verse is simply absent. The Plain follows the Hebrew.",
+  "b": "The Hebrew has the same mourning acts as Jeremiah 48:37 and Micah 1:16. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:12",
+  "a": "the king of Tyre",
+  "t": "'King' or 'ruler' of Tyre?",
+  "p": "The Hebrew has 'king'; Codex Vaticanus calls him 'ruler', as in 28:2.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "מֶלֶךְ צוֹר",
+    "en": "king of Tyre",
+    "plain": "the king of Tyre"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἄρχοντα Τύρου",
+    "en": "ruler of Tyre",
+    "plain": "the ruler of Tyre"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has two titles, <i>nagid</i> in 28:2 and <i>melekh</i> in 28:12, and the Greek uses <i>archon</i> for both, which may be only a translator's choice to treat them as one person. The Plain keeps the difference.",
+  "b": "The Greek uses one word for both titles, which does not by itself show a different Hebrew. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:13",
+  "a": "carnelian, topaz and quartz",
+  "t": "Nine stones or twelve?",
+  "p": "The Hebrew has nine stones; the Greek has the twelve of the high priest's breastpiece.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "אֹדֶם פִּטְדָה וְיָהֲלֹם",
+    "en": "ruby (or carnelian), topaz and a third stone; then six more",
+    "plain": "carnelian, topaz and quartz"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "σάρδιον, τοπάζιον, σμάραγδον ... (twelve)",
+    "en": "sardius, topaz, emerald, then nine more, with silver and gold",
+    "plain": "carnelian, topaz and emerald"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew list is shorter, and a shorter list is more likely to be original than a longer one made to match Exodus 28. The Greek's twelve are in the same order as Exodus 28:17-20 in Swete's Greek, and the three stones the Hebrew lacks are exactly the third row of the breastpiece, which suggests a translator filled out the list.",
+  "b": "The Hebrew nine are the stones of Exodus 28:17-20 minus the third row; the full Greek list is given in the note. The Greek also omits 'the work of your tambourines and settings' and reads 'Eden' as <i>tryphe</i>, 'delight'. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:14",
+  "a": "You were a cherub",
+  "t": "'You were a cherub' or 'with the cherub'?",
+  "p": "The same Hebrew letters can be read 'you' or 'with'. The Greek makes the cherub a second being.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008) (pointed att, the feminine form of 'you')",
+    "orig": "אַתְּ כְּרוּב",
+    "en": "you were a cherub",
+    "plain": "You were a cherub"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete) (reading et, 'with')",
+    "orig": "μετὰ τοῦ χερούβ",
+    "en": "with the cherub",
+    "plain": "You were with a cherub"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants <i>aleph-taw</i> can be read <i>att</i>, 'you', as the Masoretes pointed them, or <i>et</i>, 'with'. The Masoretic form is the feminine 'you' (<i>att</i>, not <i>atta</i>), which is one reason many scholars treat the word as <i>et</i>. The Greek reads 'from the day you were created, with the cherub I set you on the holy mountain', so the king and the cherub are different beings, and in 28:16 the cherub leads the king out. The Hebrew says the king is the cherub. The Plain follows the Hebrew; the Greek is a very old understanding of the same letters.",
+  "b": "The Greek's reading removes the claim that the king himself was a cherub, and fits the Satan reading less easily, since the cherub is then a separate being from the one who falls. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:14",
+  "a": "outspread",
+  "t": "Outspread, anointed or great?",
+  "p": "The Hebrew mimshach has been read three ways.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008), taken as 'stretched out' (Latin Vulgate extentus)",
+    "orig": "מִמְשַׁח",
+    "en": "outspread, stretched out",
+    "plain": "outspread"
+   },
+   {
+    "w": "Masoretic Text, taken as 'anointed' (root mashach, 'anoint')",
+    "orig": "מִמְשַׁח",
+    "en": "anointed",
+    "plain": "anointed"
+   },
+   {
+    "w": "Rashi on Ezekiel 28:14 (Sefaria)",
+    "orig": "מִמְשַׁח",
+    "en": "greatness, largeness",
+    "plain": "great"
+   }
+  ],
+  "follow": 0,
+  "why": "The word occurs only here. 'Outspread' fits the next word, 'the one who covers', which recalls cherub wings. 'Anointed' fits a priest-king. Rashi takes it as 'largeness', a cherub whose wings cover a wide dominion. All three keep the same consonants; they differ only in how the root is understood.",
+  "b": "No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "rashi-ezekiel"
+  ]
+ },
+ {
+  "v": "28:16",
+  "a": "I made you perish, covering cherub",
+  "t": "Who destroyed whom?",
+  "p": "Hebrew: 'I destroyed you, covering cherub'. Greek: 'the cherub led you out'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וָאַבֶּדְךָ כְּרוּב הַסֹּכֵךְ",
+    "en": "and I destroyed you, covering cherub",
+    "plain": "I made you perish, covering cherub"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "καὶ ἤγαγέν σε τὸ χεροὺβ",
+    "en": "and the cherub led you out",
+    "plain": "the covering cherub led you out"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew the cherub is addressed (and is the king); in the Greek the cherub is the one who removes the king. The Greek has also 'you were wounded from the mountain of God' where the Hebrew has 'I profaned you'. These are not just spelling differences. The Plain follows the Hebrew.",
+  "b": "The Greek translator of this chapter may have worked from a Hebrew text with a different pointing, or may have interpreted freely; scholars differ. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "28:18",
+  "a": "you profaned your sanctuaries",
+  "t": "Who profaned the sanctuaries?",
+  "p": "The Hebrew says 'you profaned'; the Greek says 'I profaned'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "חִלַּלְתָּ מִקְדָּשֶׁיךָ",
+    "en": "you profaned your sanctuaries",
+    "plain": "you profaned your sanctuaries"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, as printed by Swete)",
+    "orig": "ἐβεβήλωσα τὰ ἱερά σου",
+    "en": "I profaned your sanctuaries",
+    "plain": "I profaned your sanctuaries"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is second person, and the king is the subject. In the Greek God is the subject, as in 28:16. The Hebrew is the harder and better-explained reading, since it supplies the king's own guilt after God's act in verse 16, and the Plain follows it.",
+  "b": "The Greek's reading removes the third actor in the pattern of three 'profanings' in the chapter. No Dead Sea or Masada scroll preserves this verse (checked with the Abegg, Bowley and Cook transcription).",
+  "s": [
+   "etcbc-dss",
+   "swete-lxx"
+  ]
+ }
+]

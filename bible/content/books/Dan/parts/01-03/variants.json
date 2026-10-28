@@ -1,0 +1,578 @@
+[
+ {
+  "v": "1:1",
+  "a": "In the third year of Jehoiakim's rule over Judah",
+  "t": "Susanna: where does the Greek put it?",
+  "p": "The Greek Daniel has a story of Susanna that is not in the Hebrew. The Greek manuscripts and versions put it in three different places.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Dead Sea Scrolls (no copy has it); Protestant and Jewish Bibles",
+    "orig": "בִּשְׁנַת שָׁלוֹשׁ לְמַלְכוּת יְהוֹיָקִים",
+    "en": "In the third year of the reign of Jehoiakim",
+    "plain": "In the third year of Jehoiakim's rule over Judah"
+   },
+   {
+    "w": "Theodotion's Greek in Codex Vaticanus, Codex Alexandrinus and Codex Q: Susanna stands before Daniel 1:1 (reported by Daubney, The Three Additions to Daniel, 1906)",
+    "orig": "(Σουσάννα) Ἐν ἔτει τρίτῳ...",
+    "en": "[Greek Daniel, in summary: the story of Susanna. Susanna, wife of Joakim, a rich Jew in Babylon, is falsely accused by two elders of the people who tried to seduce her, and is condemned. A young Daniel cries out, has the elders questioned apart, catches them in contradiction about the tree under which they say it happened, and they are put to death. 'From that day Daniel was great in the eyes of the people.'] In the third year of Jehoiakim's rule over Judah",
+    "plain": "[Greek Daniel, in summary: the story of Susanna, who is falsely accused by two elders of the people and saved when the young Daniel cross-examines them.] In the third year of Jehoiakim's rule over Judah"
+   },
+   {
+    "w": "Old Greek in Papyrus 967 (the one early witness): Susanna comes last, after Bel and the Dragon (reported by Bledsoe, Currents in Biblical Research 13.2, 2015, p. 178, and by Geißen on the Cologne papyrology pages)",
+    "orig": "(Βηλ καὶ Δράκων) Σουσάννα",
+    "en": "[Susanna follows Bel and the Dragon at the end of the book]",
+    "plain": "In the third year of Jehoiakim's rule over Judah ... [at the end of the book: Bel and the Dragon, then Susanna]"
+   },
+   {
+    "w": "The Vulgate and the Syro-Hexapla: Susanna follows Daniel 12, as chapter 13 (reported by Daubney, The Three Additions to Daniel, 1906)",
+    "orig": "(Daniel 12) Susanna",
+    "en": "[Susanna follows Daniel 12 as chapter 13]",
+    "plain": "In the third year of Jehoiakim's rule over Judah ... [after chapter 12: Susanna, then Bel and the Dragon]"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew and Aramaic text, the only text this site translates, has no Susanna. It exists only in Greek (and in versions made from Greek), it plays on Greek words (the elders name a tree, and Daniel puns on its name in the Greek), and Jerome set it aside as not in the Hebrew.",
+  "b": "<p>The story of <b>Susanna</b> is one of the Additions to Daniel (works.json: <i>Additions to Daniel</i>; deuterocanonical, Scripture for Catholic and Orthodox churches). The witnesses put it in three places: before Daniel 1 in the Theodotion manuscripts named above, so that Daniel first appears as a young judge; after Daniel 12 (as chapter 13) in the Vulgate and the Syro-Hexapla; and last of all, after Bel and the Dragon, in Papyrus 967. Origen defended it against Julius Africanus' argument that it could not have been written in Hebrew (Letter to Africanus). In the story Daniel is a young man who becomes known as a wise judge; the court tales of the Hebrew and Aramaic book know nothing of it. See the book's opening pages (Where Christians differ).</p>",
+  "s": [
+   "origen-africanus",
+   "rahlfs-lxx",
+   "jerome-daniel",
+   "desilva-apocrypha",
+   "daubney-additions",
+   "bledsoe-daniel-editions",
+   "koeln-p967"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "Ashpenaz",
+  "t": "The name of the chief of the eunuchs",
+  "p": "The Hebrew has Ashpenaz. The Old Greek has a different name, Abiesdri.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion (spelled Asphanez)",
+    "orig": "אַשְׁפְּנַז",
+    "en": "Ashpenaz",
+    "plain": "Ashpenaz"
+   },
+   {
+    "w": "Old Greek (as Swete prints it from Codex Chisianus)",
+    "orig": "Ἀβιεσδρί",
+    "en": "Abiesdri",
+    "plain": "Abiesdri"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew name is the only one in a Semitic text, and Theodotion agrees with it. The Old Greek translator may have been working from a different text or have changed a name he could not read; the Old Greek goes on to use this name for the overseer in 1:11 and 1:16.",
+  "b": "<p>The name is of uncertain origin. Some propose Iranian roots, others an Akkadian title. No Qumran copy preserves this verse. The name does not change the story.</p>",
+  "s": [
+   "collins-daniel",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "plant food",
+  "t": "A rare word and a smoother one",
+  "p": "The Hebrew uses a rare word, zer'onim, in 1:16. One Qumran copy writes the more common zero'im.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QDan-a (4Q112)",
+    "orig": "זֵרְעֹנִים",
+    "en": "plant food",
+    "plain": "plant food"
+   },
+   {
+    "w": "1QDan-a (1Q71; the word is visible in the Abegg, Bowley and Cook transcription)",
+    "orig": "זרעים",
+    "en": "seeds, plant foods",
+    "plain": "plant food"
+   }
+  ],
+  "follow": 0,
+  "why": "The rare form is the harder reading, and the common one in 1:12 explains why a scribe would smooth it. The change does not alter the meaning, so both readings give the same Plain wording.",
+  "b": "<p>The rare form <i>zer'onim</i> occurs nowhere else. The text of 1:12 has the usual <i>hazzero'im</i>. Both words point to foods grown from seed. 4QDan-a agrees with the Masoretic Text here (the word is visible), and 1QDan-a reads the common form. These are two of the oldest witnesses to the verse.</p>",
+  "s": [
+   "djd16",
+   "djd1-qumran-cave-1",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "ten times better than every magician and enchanter",
+  "t": "An Old Greek plus: the king honors them",
+  "p": "The Old Greek adds that the king 'glorified them and made them rulers'. The Hebrew and Theodotion do not.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion",
+    "orig": "וַיִּמְצָאֵם עֶשֶׂר יָדוֹת עַל כָּל־הַחַרְטֻמִּים",
+    "en": "and he found them ten hands above all the magicians",
+    "plain": "ten times better than every magician and enchanter"
+   },
+   {
+    "w": "Old Greek (Swete's print of Codex Chisianus)",
+    "orig": "καὶ ἐδόξασεν αὐτοὺς ὁ βασιλεὺς καὶ κατέστησεν αὐτοὺς ἄρχοντας",
+    "en": "and the king glorified them and made them rulers",
+    "plain": "and the king honored them and made them rulers"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew and Theodotion agree, and the Old Greek verse is longer than both. The added clause gives the four a promotion at once, where the Hebrew waits until 2:48-49.",
+  "b": "<p>In the Old Greek the verse goes on to say that the king showed them wiser than all his officials in the whole land. A Qumran copy of 1:20 (4Q112) has only some words of the verse visible, and nothing there bears on the plus.</p>",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "second",
+  "t": "The year of the dream",
+  "p": "The Hebrew says 'the second year'. Papyrus 967, the oldest Old Greek witness, says 'the twelfth'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion; the Old Greek as Swete prints it (a single manuscript, Codex Chisianus, whose text here agrees with Theodotion)",
+    "orig": "שְׁתַּיִם",
+    "en": "second",
+    "plain": "second"
+   },
+   {
+    "w": "Old Greek in Papyrus 967 (reported by Carson Bay, Journal of Septuagint and Cognate Studies 49, 2016, pp. 110-112, who calls it the only Greek reading that begins Daniel 2:1 in the twelfth year)",
+    "orig": "(Greek: twelfth)",
+    "en": "twelfth",
+    "plain": "twelfth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and Theodotion agree, and so does Swete's print of the Old Greek. 'Twelfth' is the reading of Papyrus 967. It removes the clash between three years of training (1:5) and a dream in the second year, so it may be an old correction; it could also be the original. The Plain follows the Masoretic Text.",
+  "b": "<p>The change would remove the puzzle of three years of training (1:5, 18) against a dream in the second year (see the note at 1:5). Because the Old Greek survives in two main forms (Papyrus 967, and Codex Chisianus with its related witnesses), the site names the witness each time. No Qumran copy preserves 2:1.</p>",
+  "s": [
+   "bay-p967-daniel-2-1",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "Tell the dream to your servants",
+  "t": "'Your servant' or 'your servants'",
+  "p": "The written text (Ketiv) has 'your servants'; the form to be read (Qere) has 'your servant'.",
+  "readings": [
+   {
+    "w": "The written text (Ketiv, plural), as the Plain has it",
+    "orig": "לעבדיך",
+    "en": "to your servants",
+    "plain": "Tell the dream to your servants"
+   },
+   {
+    "w": "The reading tradition (Qere, singular), printed in the Leningrad Codex",
+    "orig": "לְעַבְדָךְ",
+    "en": "to your servant",
+    "plain": "Tell the dream to your servant"
+   }
+  ],
+  "follow": 0,
+  "why": "The Chaldeans speak as a group, and verse 7 repeats the request with 'his servants'. The plural fits. The singular is a courtly way of speaking of oneself.",
+  "b": "<p>In the Qumran copy 1QDan-a (1Q71) the word is restored, so the scroll does not decide between them.</p>",
+  "s": [
+   "etcbc-dss",
+   "djd1-qumran-cave-1"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "the gods, and they do not live among mortal flesh",
+  "t": "'Gods' or 'an angel'",
+  "p": "The Aramaic has gods (plural). The Old Greek, in Swete's print, has a single angel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QDan-a (4Q112, 'their dwelling' is visible); Theodotion",
+    "orig": "אֱלָהִין דִּי מדרהון עִם בִּשְׂרָא לָא אִיתוֹהִי",
+    "en": "the gods, whose dwelling is not with flesh",
+    "plain": "the gods, and they do not live among mortal flesh"
+   },
+   {
+    "w": "Old Greek (Swete's print of Codex Chisianus)",
+    "orig": "εἰ μή τι ἄγγελος, οὗ οὐκ ἔστι κατοικητήριον μετὰ πάσης σαρκός",
+    "en": "unless an angel, whose dwelling is not with all flesh",
+    "plain": "an angel, who does not live among mortal flesh"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural 'their dwelling' is visible in the Qumran copy, and Theodotion agrees. The Old Greek's 'angel' removes the polytheism from the Chaldeans' mouth, as the Greek translator did elsewhere.",
+  "s": [
+   "djd16",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "ask the God of the heavens for compassion about this secret",
+  "t": "A fast in the Old Greek",
+  "p": "The Hebrew has them ask for mercy. The Old Greek adds a fast and has a different divine title.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion",
+    "orig": "וְרַחֲמִין לְמִבְעָא מִן קֳדָם אֱלָהּ שְׁמַיָּא עַל־רָזָה דְּנָה",
+    "en": "and compassions to seek from the God of the heavens about this secret",
+    "plain": "ask the God of the heavens for compassion about this secret"
+   },
+   {
+    "w": "Old Greek (Swete's print of Codex Chisianus)",
+    "orig": "παρήγγειλε νηστείαν καὶ δέησιν καὶ τιμωρίαν ζητῆσαι παρὰ τοῦ κυρίου τοῦ ὑψίστου περὶ τοῦ μυστηρίου τούτου",
+    "en": "he ordered a fast and a prayer and a request to seek from the Lord Most High about this secret",
+    "plain": "proclaim a fast, and ask the Lord Most High for help about this secret"
+   }
+  ],
+  "follow": 0,
+  "why": "The Aramaic and Theodotion agree, and the Old Greek reads like an expansion that makes the friends' prayer a fast, as in Daniel 9:3 and 10:3. No Qumran copy preserves 2:18.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "the name of God",
+  "t": "'the great God' in a Qumran copy and the Old Greek",
+  "p": "4QDan-a reads 'the great God' and the Old Greek 'the great Lord' where the Masoretic Text and Theodotion read 'God'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion (which also has no 'great')",
+    "orig": "שְׁמֵהּ דִּי אֱלָהָא",
+    "en": "the name of God",
+    "plain": "the name of God"
+   },
+   {
+    "w": "4QDan-a (4Q112; 'great' is visible in the transcription); Old Greek (Swete's print of Codex Chisianus: 'the name of the great Lord')",
+    "orig": "שמה די אלהא רבא / τὸ ὄνομα τοῦ κυρίου τοῦ μεγάλου",
+    "en": "the name of the great God / the name of the great Lord",
+    "plain": "the name of the great God"
+   }
+  ],
+  "follow": 0,
+  "why": "Two witnesses, one Aramaic and one Greek, have 'great'; the Masoretic Text and Theodotion do not. The longer text may be the older, with the word lost from the Masoretic line, or both witnesses may have added a common epithet on their own. The Plain follows the Masoretic Text.",
+  "b": "<p>The Qumran reading is given as the transcription has it; the editors' reading in the Discoveries in the Judaean Desert volume (DJD 16) is the fuller authority. The Old Greek wording is from Swete's print, which is a single manuscript.</p>",
+  "s": [
+   "djd16",
+   "etcbc-dss",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "light makes its home with him",
+  "t": "A small difference in 'light'",
+  "p": "The written text has nehira, 'light'; the Leningrad Codex prints the form nehora.",
+  "readings": [
+   {
+    "w": "The written text (Ketiv); 4QDan-a (4Q112, where the word is visible)",
+    "orig": "ונהירא",
+    "en": "and light dwells with him",
+    "plain": "light makes its home with him"
+   },
+   {
+    "w": "The reading tradition (Qere), printed in the Leningrad Codex",
+    "orig": "וּנְהוֹרָא",
+    "en": "and light dwells with him",
+    "plain": "light makes its home with him"
+   }
+  ],
+  "follow": 0,
+  "why": "Both forms mean 'light' and the Plain reads them alike. The Qumran copy has the written form with its yod.",
+  "s": [
+   "etcbc-dss",
+   "djd16"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "Here is your dream and the visions of your head upon your bed:",
+  "t": "'O king, live forever' in 4QDan-a",
+  "p": "One Qumran copy seems to have a short greeting here and no 'visions of your head'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion",
+    "orig": "חֶלְמָךְ וְחֶזְוֵי רֵאשָׁךְ עַל־מִשְׁכְּבָךְ דְּנָה הוּא",
+    "en": "your dream and the visions of your head upon your bed are this",
+    "plain": "Here is your dream and the visions of your head upon your bed:"
+   },
+   {
+    "w": "4QDan-a (4Q112; 'live forever' is visible; 'king' and 'your dream' are restored; no word for 'the visions of your head' stands in the transcription)",
+    "orig": "[מלכא] לעלמין חיי [חלמך] על משכבך דנה הוא",
+    "en": "[O king,] live forever! [Your dream] upon your bed is this",
+    "plain": "[O king,] live forever! [Your dream,] upon your bed, is this."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and Theodotion agree, and the Qumran reading is a single witness known here only from a transcription with restored words. It is listed for completeness, not followed.",
+  "b": "<p>Two things differ in the transcription: the short greeting \"live forever\" is added, and the phrase \"the visions of your head\" (<i>vechezwe re'shakh</i>) is not there. The greeting would be an old expansion by a speaker's formula, like 2:4 and 3:9. No other witness has it. This is the kind of small difference the scrolls show: nearly the same book, copied by hands that sometimes smooth or expand.</p>",
+  "s": [
+   "djd16",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "2:31",
+  "a": "its shine was extraordinary",
+  "t": "'Its brightness' or 'its appearance'",
+  "p": "The Masoretic Text says the statue's ziveh, 'brightness', was great. 4QDan-a reads 'its appearance'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "וְזִיוֵהּ יַתִּיר",
+    "en": "and its brightness was extraordinary",
+    "plain": "its shine was extraordinary"
+   },
+   {
+    "w": "4QDan-a (4Q112; the word is visible in the transcription)",
+    "orig": "חזוה יתירא",
+    "en": "its appearance was extraordinary",
+    "plain": "its look was extraordinary"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Qumran copy differ by one word. 'Brightness' suits the metals of the statue; 'appearance' is the plainer word and could have come in from the end of the verse ('its look was terrifying'). The Plain follows the Masoretic Text.",
+  "b": "<p>Both Greek forms have <i>prosopsis</i>, 'appearance', in the first clause (Theodotion has <i>horasis</i> in the second), which agrees in sense with the Qumran reading. The Greek could also be a loose rendering of <i>ziveh</i>, so the Greek is not counted as a second witness to the Qumran word.</p>",
+  "s": [
+   "djd16",
+   "etcbc-dss",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:34",
+  "a": "a stone was cut out, but not by hands",
+  "t": "'from a mountain' in 2:34",
+  "p": "Both Greek versions say the stone was cut 'from a mountain' already in 2:34. The Hebrew and Aramaic say it only in 2:45.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QDan-a (4Q112; 'a stone ... not by hands' is visible, 'was cut' is restored)",
+    "orig": "אֶתְגְּזֶרֶת אֶבֶן דִּי לָא בִידַיִן",
+    "en": "a stone was cut out which was not by hands",
+    "plain": "a stone was cut out, but not by hands"
+   },
+   {
+    "w": "Old Greek (Swete's print) and Theodotion",
+    "orig": "ἐτμήθη λίθος ἐξ ὄρους ἄνευ χειρῶν / ἀπεσχίσθη λίθος ἐξ ὄρους ἄνευ χειρῶν",
+    "en": "a stone was cut from a mountain without hands",
+    "plain": "a stone was cut out from a mountain, but not by hands"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Qumran copy no word for 'mountain' stands between 'stone' and 'not by hands', as in the Masoretic Text. The Greek translators, or their text, probably made 2:34 match 2:45.",
+  "s": [
+   "djd16",
+   "etcbc-dss",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:40",
+  "a": "it will smash and grind down all these",
+  "t": "'All the earth' in a Qumran copy and the Old Greek",
+  "p": "4QDan-a adds 'all the earth' at the end of the verse. The Old Greek says 'all the earth will be shaken'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Theodotion",
+    "orig": "כל אלין תדק ותרע",
+    "en": "it will smash and grind down all these",
+    "plain": "it will smash and grind down all these"
+   },
+   {
+    "w": "4QDan-a (4Q112; 'all the earth' is visible); Old Greek (Swete's print of Codex Chisianus: 'all the earth will be shaken')",
+    "orig": "תדק ותרע כל ארעא / καὶ σεισθήσεται πᾶσα ἡ γῆ",
+    "en": "it will smash and grind down all these, all the earth / and all the earth will be shaken",
+    "plain": "it will smash and grind down all these, all the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and Theodotion are shorter. The two longer witnesses agree in sense (all the earth) though the Greek verb is different, so the plus may be old. It may also have come in from 2:39 (\"it will rule over all the earth\"). The Plain follows the Masoretic Text.",
+  "s": [
+   "djd16",
+   "etcbc-dss",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "King Nebuchadnezzar made a statue of gold",
+  "t": "'In the eighteenth year' in the Greek",
+  "p": "Both Greek versions date the statue to Nebuchadnezzar's eighteenth year. The Hebrew and Aramaic give no date.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 4QDan-a (4Q112, which begins the verse with the restored name 'Nebuchadnezzar' and has 'the king made a statue' visible)",
+    "orig": "נְבוּכַדְנֶצַּר מַלְכָּא עֲבַד צְלֵם דִּי־דְהַב",
+    "en": "King Nebuchadnezzar made a statue of gold",
+    "plain": "King Nebuchadnezzar made a statue of gold"
+   },
+   {
+    "w": "Old Greek (Swete's print) and Theodotion",
+    "orig": "Ἔτους ὀκτωκαιδεκάτου Ναβουχοδονοσὸρ ὁ βασιλεὺς ἐποίησεν εἰκόνα χρυσῆν",
+    "en": "In the eighteenth year King Nebuchadnezzar made a golden statue",
+    "plain": "In the eighteenth year King Nebuchadnezzar made a statue of gold"
+   }
+  ],
+  "follow": 0,
+  "why": "The date is in both Greek versions, which suggests it is old, but the Greek often adds such details. The Qumran copy begins this verse with a restored king's name, so whatever stood before it is lost and a missing date cannot be shown there. The Aramaic text is followed.",
+  "b": "<p>The eighteenth year (587/586 BC) is the year of the fall of Jerusalem in Jeremiah 52:29. If the date is original, the statue went up while the Judeans' city was burning. The Old Greek adds a longer opening (the king 'ruling cities and countries and all who live on earth from India to Ethiopia'), and the Old Greek is longer than the Hebrew and Aramaic in chapters 3 to 6.</p>",
+  "s": [
+   "djd16",
+   "etcbc-dss",
+   "swete-ot",
+   "jerome-daniel"
+  ]
+ },
+ {
+  "v": "3:17",
+  "a": "If it comes to that, our God, whom we serve, is able to save us",
+  "t": "'If' or 'for there is a God'",
+  "p": "The Aramaic has 'if'. Theodotion has 'for there is a God', and the Old Greek 'there is one God in heaven'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "הֵן אִיתַי אֱלָהַנָא דִּי־אֲנַחְנָא פָלְחִין יָכִל לְשֵׁיזָבוּתַנָא",
+    "en": "if there is, our God whom we serve is able to save us",
+    "plain": "If it comes to that, our God, whom we serve, is able to save us"
+   },
+   {
+    "w": "Theodotion",
+    "orig": "ἔστιν γὰρ θεός, ᾧ ἡμεῖς λατρεύομεν, δυνατὸς ἐξελέσθαι ἡμᾶς",
+    "en": "for there is a God whom we serve, able to deliver us",
+    "plain": "There is a God whom we serve, and he is able to save us"
+   },
+   {
+    "w": "Old Greek (Swete's print)",
+    "orig": "ἔστι γὰρ θεὸς ἐν οὐρανοῖς εἷς κύριος ἡμῶν, ὃν φοβούμεθα, ὅς ἐστι δυνατὸς ἐξελέσθαι",
+    "en": "for there is one God in heaven, our Lord, whom we fear, who is able to save",
+    "plain": "There is one God in heaven, our Lord, whom we fear, and he is able to save us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Aramaic is hard, and the Greek readings are an easier way to read the same words ('there is' instead of 'if'). Both Greek versions treat the clause as a statement of faith; the Plain keeps the conditional of the Aramaic and the note gives the choices. No Qumran copy preserves 3:17.",
+  "s": [
+   "collins-daniel",
+   "goldingay-daniel"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "we do not serve your gods",
+  "t": "'Your god' or 'your gods'",
+  "p": "The written text (Ketiv) has 'your gods' in 3:12 and 3:18; the form to be read (Qere) has 'your god'.",
+  "readings": [
+   {
+    "w": "The written text (Ketiv, plural), as the Plain has it; Theodotion also has 'gods' (Greek 3:12, 3:18)",
+    "orig": "לאלהיך",
+    "en": "your gods",
+    "plain": "we do not serve your gods"
+   },
+   {
+    "w": "The reading tradition (Qere, singular), printed in the Leningrad Codex",
+    "orig": "לֵאלָהָךְ",
+    "en": "your god",
+    "plain": "we do not serve your god"
+   }
+  ],
+  "follow": 0,
+  "why": "The king and his officers speak as polytheists (in 3:14 both Greek forms have 'my gods'), so the plural fits. The singular could be read as the god the king has set up. No Qumran copy preserves 3:12 or 3:18.",
+  "s": [
+   "etcbc-dss",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:23",
+  "a": "fell, still bound, into the middle of the furnace of burning fire",
+  "t": "The Prayer of Azariah and the Song of the Three",
+  "p": "Between 3:23 and 3:24 the Greek Daniel has 67 more verses. The Hebrew and Aramaic text, and the Dead Sea copies, do not.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QDan-b (1Q72) and 4QDan-d (4Q115), which both have the end of 3:23 and the start of 3:24 and nothing between",
+    "orig": "נְפַלוּ לְגוֹא־אַתּוּן נוּרָא יָקִדְתָּא מְכַפְּתִין",
+    "en": "fell into the middle of the furnace of burning fire, bound",
+    "plain": "fell, still bound, into the middle of the furnace of burning fire"
+   },
+   {
+    "w": "Old Greek and Theodotion (Greek Daniel 3:24-90)",
+    "orig": "(Greek: προσηύξατο Ἀζαρίας...)",
+    "en": "(Greek insertion)",
+    "plain": "fell, still bound, into the middle of the furnace of burning fire. [Greek insertion, in summary: the three walk in the flames, praising God. Azariah stands and prays: God is just, for the sin of the people has brought exile and the loss of temple, prophet and sacrifice; he asks for rescue with a broken heart and a humble spirit in place of offerings. The king's servants keep stoking the furnace with naphtha, pitch and tow, and the flame shoots up forty-nine cubits; but the angel of the Lord comes down into the furnace, drives the flame out, and makes the middle of the furnace like a moist wind. Then the three sing the Song, called 'Benedicite': all the works of the Lord, angels, heavens, waters, sun and moon, fire and heat, winter and summer, the earth and its creatures, and Israel's priests and servants are called to bless the Lord and exalt him forever.]"
+   }
+  ],
+  "follow": 0,
+  "why": "The insertion is found in both Greek versions and in translations made from them, but in no Hebrew or Aramaic copy, and Jerome noted that it was not in the Hebrew. It also interrupts the story: verse 24 of the Aramaic follows 23 without a break, and the king hears the three in the fire only after the Greek song. This site translates the Hebrew and Aramaic and treats the Additions as variants and notes.",
+  "b": "<p>The two parts are two poems. The <b>Prayer of Azariah</b> (Greek 3:26-45) is a national confession, close in ideas to Daniel 9:4-19 and Nehemiah 9; it speaks of exile and ruin and so reads naturally after 586 or during the persecution under Antiochus IV. The <b>Song of the Three</b> (Greek 3:52-90) is a litany of praise whose refrain is 'praise and exalt him forever', modeled on Psalm 148. They are Scripture for Catholic and Orthodox churches (deuterocanonical), part of the Greek Daniel; Protestant churches and Judaism do not count them. They probably came into Greek Daniel as an addition; many scholars think the Prayer was first written in Hebrew or Aramaic. Greek verse numbers run 24-90 here and 91-100 for the rest of the chapter.</p>",
+  "s": [
+   "rahlfs-lxx",
+   "jerome-daniel",
+   "collins-daniel",
+   "desilva-apocrypha"
+  ]
+ },
+ {
+  "v": "3:25",
+  "a": "The fourth one's appearance is like that of a son of the gods",
+  "t": "The fourth figure in the Greek",
+  "p": "Theodotion says 'like a son of God' and the Old Greek 'like an angel of God'. The Aramaic says 'like a son of the gods'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QDan-b (1Q72; only 'of a son' (lebar) is visible, 'like' and 'gods' are restored)",
+    "orig": "דְּמֵה לְבַר־אֱלָהִין",
+    "en": "and the appearance of the fourth is like a son of the gods",
+    "plain": "The fourth one's appearance is like that of a son of the gods"
+   },
+   {
+    "w": "Theodotion (Greek 3:92)",
+    "orig": "ὁμοία υἱῷ θεοῦ",
+    "en": "and the appearance of the fourth is like a son of God",
+    "plain": "The fourth one's appearance is like that of a son of God"
+   },
+   {
+    "w": "Old Greek (Swete's print; Greek 3:92)",
+    "orig": "ὁμοίωμα ἀγγέλου θεοῦ",
+    "en": "and the appearance of the fourth is like an angel of God",
+    "plain": "The fourth one's appearance is like that of an angel of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Aramaic is followed. The 'son of the gods' is a pagan king's idiom; the Greek readings turn it into the speech of a believer ('son of God') or into a clear angel. See the note.",
+  "s": [
+   "djd1-qumran-cave-1",
+   "etcbc-dss",
+   "collins-daniel",
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "3:30",
+  "a": "made Shadrach, Meshach and Abednego prosper in the province of Babylon",
+  "t": "Rule over all the Jews",
+  "p": "Theodotion has the king give them rule 'over all the Jews in his kingdom', and the Old Greek 'over the whole country'. The Aramaic says only 'made them prosper'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); 1QDan-b (1Q72, which has 'Shadrach, Meshach and Abednego in the province of Babylon' visible and 'made prosper' restored)",
+    "orig": "הַצְלַח לְשַׁדְרַךְ מֵישַׁךְ וַעֲבֵד נְגוֹא בִּמְדִינַת בָּבֶל",
+    "en": "made Shadrach, Meshach and Abednego prosper in the province of Babylon",
+    "plain": "made Shadrach, Meshach and Abednego prosper in the province of Babylon"
+   },
+   {
+    "w": "Theodotion (Greek 3:97)",
+    "orig": "ἠξίωσεν αὐτοὺς ἡγεῖσθαι πάντων τῶν Ἰουδαίων τῶν ἐν τῇ βασιλείᾳ αὐτοῦ",
+    "en": "and he made them leaders of all the Jews in his kingdom",
+    "plain": "made Shadrach, Meshach and Abednego prosper in the province of Babylon, and put them over all the Jews in his kingdom"
+   },
+   {
+    "w": "Old Greek (Swete's print; Greek 3:97)",
+    "orig": "ἐξουσίαν δοὺς ἐφ᾽ ὅλης τῆς χώρας κατέστησεν αὐτοὺς ἄρχοντας",
+    "en": "he gave them authority over the whole country and set them as rulers",
+    "plain": "gave Shadrach, Meshach and Abednego authority over the whole country and set them as rulers"
+   }
+  ],
+  "follow": 0,
+  "why": "The Aramaic is followed. Both Greek versions spell out what 'prosper' might mean, in different ways: the Old Greek over the whole country, Theodotion over all the Jews.",
+  "s": [
+   "swete-ot",
+   "djd1-qumran-cave-1",
+   "etcbc-dss"
+  ]
+ }
+]

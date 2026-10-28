@@ -1,0 +1,573 @@
+[
+ {
+  "n": 44,
+  "title": "The Shut Gate and the Sons of Zadok",
+  "key": "44:2",
+  "sum": [
+   "The tour of the new Temple turns from measurements to rules. Ezekiel is brought back to the outer east gate, the one the glory of the LORD came through (43:1-5), and is told it will stay shut; only the leader may sit in its gatehouse to eat before the LORD (44:1-3). Then he sees the glory fill the house and falls on his face (44:4).",
+   "The rest of the chapter is a charge to learn the rules of the house. Foreigners who are uncircumcised in heart and flesh are shut out of the sanctuary (44:6-9). The Levites who served at idolatrous shrines are demoted to gatekeepers and slaughterers (44:10-14). The Levite priests of Zadok's line, who stayed faithful, alone come near the altar, and the chapter ends with their rules for dress, hair, wine, marriage, the dead, judging, income and food (44:15-31)."
+  ],
+  "readings": [
+   [
+    "Read as a plan for a real house",
+    "On this reading the rules are for priests who will serve in a rebuilt Temple, and the details (linen, hair, the east gate) are the kind of thing a priest-prophet like Ezekiel would write out for his people to build and keep. The problem is that they differ from the Torah, and the Talmud records the effort to harmonize them (Shabbat 13b)."
+   ],
+   [
+    "Read as an ideal order for the returned exiles",
+    "Ezekiel was a priest, and he writes the rules of a priest's world as it should be after the exile. The demotion of the Levites and the promotion of the Zadokites address a quarrel inside the priesthood, and the shut gate marks that the LORD's return is final. The plan is a vision, not a building permit (Levenson, Block)."
+   ],
+   [
+    "Read as a picture of the Church",
+    "From early on Christians read the Temple rules as pictures of the holiness of God's people and of Christ; the closed gate became a figure of Mary in Catholic and Orthodox tradition (see the card), and the priests' linen a picture of purity in the Church's ministry."
+   ]
+  ],
+  "views": {
+   "H": "Dated to 573 BC, in the twenty-fifth year of the exile, the chapter answers what the exiles most feared: that the Temple and its priests were finished. It also addresses the history behind it. Priests of Judah's country shrines were removed in Josiah's reform in 622 BC (2 Kings 23:8-9), and the Zadokite line held the Jerusalem altar from Solomon on (1 Kings 2:35).",
+   "C": "Wellhausen argued that 44:10-16 shows the priest and Levite divide being created, so that the priestly source in the Torah is later than Ezekiel. Haran and Milgrom reverse the direction: the priestly laws are earlier and Ezekiel works from them. Swete's Greek is close to the Hebrew in this chapter with small differences (44:6, 7, 24). No scroll preserves any verse of the chapter in the transcriptions read.",
+   "J": "The Mishnah (Middot) and Rashi take the shut gate as the little south door of the Temple's great gate. The Talmud (Menachot 45a) asks about Ezekiel's rule on carcasses (44:31), where Rabbi Yochanan says that Elijah will explain the passage, and Hananiah ben Hezekiah is said to have spent three hundred jars of lamp oil reconciling Ezekiel with the Torah (Shabbat 13b).",
+   "X": "Ambrose and many later Catholic and Orthodox writers read the shut gate as Mary. Hebrews 8-10 is the usual Christian key to the priests and sacrifices: Christ is the one priest and the one sacrifice, and the Church is the temple (1 Peter 2:5).",
+   "F": "Dispensationalist writers hold that a real Temple with real priests will stand in the future kingdom, and that the Zadokite rules of 44 will be kept then. Reformed and Catholic readers hold that the Levitical priesthood's work is complete in Christ."
+  },
+  "deep": [
+   {
+    "h": "Which witnesses were read for this part (Ezekiel 44-48)",
+    "b": "<p>The Plain is made from the Hebrew of the Leningrad Codex. \"The Greek\" in this part means Swete's text of Codex Vaticanus; Ziegler's Göttingen edition and Papyrus 967 were not read for this part. The Dead Sea Scrolls were checked in the Abegg, Bowley and Cook transcriptions with tools/dss.py: no Ezekiel scroll preserves any verse of chapters 44 to 48, so every variant here is between the Hebrew and Swete's Greek or between readings inside the Hebrew tradition. Where the two differ, the Plain follows the Hebrew unless a note says otherwise, even where the Greek's numbers make the land sums work (45:1; 48:13).</p>"
+   },
+   {
+    "h": "How the Temple rules differ from the Torah",
+    "b": "<p>Chapters 44 to 46 contain laws that do not match the Torah. A short list: priests may marry widows of priests (44:22; Leviticus 21 differs); the Sabbath and new moon offerings are different (46:4-7; Numbers 28:9-15); the daily offering is once, not twice (46:13-15; Numbers 28:3-8); the festivals have seven bulls and seven rams (45:23; Numbers 28:19); there is no Day of Atonement and no Feast of Weeks; the leader brings a bull for himself and the people at Passover (45:22) and there is no Passover lamb. The Talmud treats this as a real problem (Shabbat 13b; Menachot 45a). A reader should keep three possible explanations in mind: Ezekiel is a different tradition from the Torah's priestly laws; he is giving a new law for a new age; or the differences are pieces of a plan no one meant to follow to the letter.</p>"
+   }
+  ],
+  "echoes": "Ezekiel 43:1-12; Leviticus 10:9; Leviticus 21; Numbers 18; Deuteronomy 18:1-8; 2 Kings 23:8-9; Isaiah 56:3-8; Damascus Document; Hebrews 8-10; 1 Peter 2:5",
+  "topics": [
+   "temple",
+   "zadok",
+   "priesthood",
+   "foreigners",
+   "glory",
+   "holiness",
+   "clean-and-unclean",
+   "kingship"
+  ],
+  "settings": [
+   {
+    "v": "44:1-3",
+    "what": "The shut east gate",
+    "by": "The LORD, speaking through Ezekiel's guide",
+    "to": "Ezekiel, for the exiles who will read or hear his report of the vision",
+    "when": "During the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1), just after the glory re-enters by this gate",
+    "why": "To tell the exiles that the LORD's coming back to the Temple is permanent and that the one door he used is holy. It also marks out the leader as the one lay person with a seat at the gate.",
+    "readers": "Exiles and later readers in a Temple-less or rebuilt Temple world read it as a promise that the glory which left would come back and stay.",
+    "views": [
+     [
+      "Real building",
+      "Some hold that the gate would be a literal gate in a future Temple."
+     ],
+     [
+      "Symbol",
+      "Others hold that it marks the permanence of the LORD's presence, not a rule for a gatekeeper."
+     ]
+    ],
+    "s": [
+     "block-ezekiel2",
+     "zimmerli-ezekiel2"
+    ]
+   },
+   {
+    "v": "44:4-9",
+    "what": "The charge to learn the rules, and the foreigners in the sanctuary",
+    "by": "The LORD",
+    "to": "Ezekiel, to be passed on to 'the rebellious one, the house of Israel' (the book's usual phrase elsewhere is 'rebellious house')",
+    "when": "After the glory fills the house, in the same vision",
+    "why": "To give the exiles a reason for the rules that follow: the old Temple was profaned by people who should not have been in it. It binds whoever supervises entry to the sanctuary.",
+    "readers": "The rules about foreigners were read in the Second Temple period in a world in which foreigners were barred by an inscription from the inner courts (Josephus, War 5.5.2).",
+    "views": [
+     [
+      "Foreign Temple slaves",
+      "The foreigners were non-Israelite temple servants, like the Gibeonites of Joshua 9."
+     ],
+     [
+      "Figure for Israelites",
+      "The 'uncircumcised in heart' are Israelites who acted like foreigners (Jeremiah 9:26)."
+     ]
+    ],
+    "s": [
+     "block-ezekiel2",
+     "levenson-restoration"
+    ]
+   },
+   {
+    "v": "44:10-16",
+    "what": "The Levites demoted and the sons of Zadok promoted",
+    "by": "The LORD",
+    "to": "The Levites and the priests of the future Temple, and through Ezekiel the exiled priestly families",
+    "when": "In the same vision, giving a settlement of a dispute among priests",
+    "why": "To say who may serve at the altar and why: those who served idols bear the cost, and those who kept faith are rewarded. It settles a division of rank inside the tribe of Levi.",
+    "readers": "Priests in the returning community of Judah read it as a charter for the Zadokite line; the Qumran community used the name 'sons of Zadok' for itself.",
+    "views": [
+     [
+      "Wellhausen",
+      "This is where the priest and Levite divide begins."
+     ],
+     [
+      "Haran, Milgrom",
+      "The division is older, and Ezekiel works from it."
+     ]
+    ],
+    "s": [
+     "wellhausen-prolegomena",
+     "haran-temples",
+     "milgrom-studies",
+     "block-ezekiel2"
+    ]
+   },
+   {
+    "v": "44:17-31",
+    "what": "Rules for the priests: dress, hair, wine, marriage, the dead, judging, income and food",
+    "by": "The LORD",
+    "to": "The Zadokite priests who will serve in the inner court",
+    "when": "In the same vision",
+    "why": "To keep holiness from spreading to people and to keep the priests apart from impurity. The rules bind priests only, inside the Temple, and several of them repeat or sharpen Leviticus 10 and 21-22.",
+    "readers": "Priestly readers after the exile used the rules (linen, wine, marriage) as a measure of purity; the Talmud noticed where they differ from the Torah (Shabbat 13b; Menachot 45a).",
+    "s": [
+     "block-ezekiel2",
+     "milgrom-leviticus17-22",
+     "bavli-menachot"
+    ]
+   }
+  ],
+  "traditions": [
+   {
+    "q": "Does the shut gate of Ezekiel 44:2 point to the perpetual virginity of Mary?",
+    "top": "mary",
+    "views": [
+     [
+      "Catholic",
+      "Yes. The Church teaches that Mary was a virgin in conceiving, in giving birth and ever after, and the Catechism calls her 'ever-virgin' (Catechism 499-501). The shut gate is a figure for this in the Fathers, such as Ambrose (Letter 42), and in the liturgy; it is not a defined doctrine, and the teaching rests on the Church's tradition. Jerome defended the perpetual virginity against Helvidius.",
+      [
+       "ccc",
+       "ambrose-letter42",
+       "jerome-helvidius"
+      ]
+     ],
+     [
+      "Orthodox",
+      "Yes. The Church calls Mary the Ever-Virgin (Aeiparthenos), and the Second Council of Constantinople (553) used 'ever-virgin' of her in its anathemas. The shut gate is read in her feasts: Ezekiel 43:27-44:4 is one of the three Old Testament readings at Vespers for the Nativity of the Theotokos (8 September), with Genesis 28:10-17 and Proverbs 9:1-11. The Orthodox Church in America's account of the feast says that the vision of the temple with its east door kept closed and filled with the glory of the Lord 'symbolizes Mary'. It is a figure used in worship, not a separate teaching.",
+      [
+       "oca-nativity-theotokos",
+       "constantinople-553"
+      ]
+     ],
+     [
+      "Lutheran",
+      "The Lutheran confessions call her 'always virgin'. In the Latin text of the Smalcald Articles (1537, Part I, Article 4) Christ is born of the 'pure, holy, and always Virgin Mary' (the German text says 'pure, holy Virgin'). The sentence is a passing statement about Christ's birth and does not use Ezekiel 44:2.",
+      [
+       "smalcald"
+      ]
+     ],
+     [
+      "Reformed",
+      "The Westminster Confession names Mary only for Christ's conception (8.2) and teaches nothing about her later life. Calvin, on Matthew 1:25, held that the words 'till she had brought forth' prove nothing about what came afterward, and rejected Helvidius's argument from them; he did not teach the doctrine there, and his Ezekiel lectures stop at chapter 20, so he did not comment on 44:2.",
+      [
+       "westminster",
+       "calvin-evangelists"
+      ]
+     ],
+     [
+      "Baptist",
+      "Taught by John Gill, a leading Particular Baptist (1697-1771). In his Exposition he says that some of the ancients applied the shut gate of Ezekiel 44:2 to the Virgin Mary, but he preferred to read it as an emblem of Christ's church, which no unregenerate person should enter. On Matthew 1:25 he wrote that Mary's perpetual virginity seems to be no necessary article of faith.",
+      [
+       "gill-exposition"
+      ]
+     ]
+    ],
+    "s": []
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "title": "The Holy District and the Leader's Duty",
+  "key": "45:9",
+  "sum": [
+   "The vision moves out from the Temple to the land. A holy strip of ground is to be set aside for the sanctuary and the priests, another for the Levites, and a smaller one for the city, with land on both sides for the leader (45:1-8). The leaders of Israel are told to stop violence and evictions and to use honest weights and measures (45:9-12).",
+   "The second half is a calendar. The people give the leader a small portion of grain, oil and sheep (45:13-17); he in turn supplies the offerings at festivals, new moons and Sabbaths. The sanctuary is cleansed with a bull's blood at the start of the year and again later in the month (45:18-20). Passover and an autumn festival of seven days follow, each with the leader's bull and seven bulls and seven rams for every day (45:21-25)."
+  ],
+  "readings": [
+   [
+    "Read as law for the future",
+    "The land, measures and offerings are an order to be kept when the exiles return. The numbers, though odd, are given exactly, and the weights and rates are practical."
+   ],
+   [
+    "Read as a program of reform",
+    "The chapter limits the ruler: his land is fixed (45:7-8), his income is a small tax (45:13-16), his sacrifices are paid for rather than taken (45:17), and he is told to stop oppression (45:9). It makes a political point through a religious calendar (Levenson)."
+   ],
+   [
+    "Read as a puzzle",
+    "The numbers do not add up in the Hebrew (45:1), the calendar leaves out the Day of Atonement and Weeks, and the offerings differ from Numbers 28-29. Menachot 45a asks about 45:18 and 45:20, and Rabbi Yochanan says that Elijah will explain the first."
+   ]
+  ],
+  "views": {
+   "H": "Ezekiel speaks of leaders, not kings, because the line of David had ended in exile with Zedekiah's blinding and Jehoiachin's captivity. The chapter's complaint that the leaders evict the people echoes Judah's last kings (Jeremiah 22:13-17; 1 Kings 21).",
+   "C": "Scholars debate whether 45:1-8 and 48:8-22 were written together; the totals of 45:1 and 48:13 add up only with Swete's Greek's 20,000, though the Greek's 20,000 in 45:3 and 45:5 does not fit (see the note at 48:8). Whether the Greek restores the original is disputed. The calendar of 45:18-25 is much discussed because it lacks the Day of Atonement; some think it records an older calendar, some a rite replaced later.",
+   "J": "Menachot 45a asks what the cleansing of 45:18 and the seventh day of 45:20 mean; Rabbi Yochanan leaves the first to Elijah and reads the second as the bull for the community's error. Jewish writers who expect a Third Temple treat the chapter as law for that age.",
+   "X": "Hebrews 9-10 makes the cleansing of the sanctuary a shadow of Christ's one sacrifice. Reformed and Lutheran writers read the offerings as past shadows; The question of future sacrifices is on the card below.",
+   "F": "Dispensationalists such as Scofield, Pentecost and Whitcomb expect these sacrifices in a future Temple, as memorials of Christ's work; the passage's calendar and the leader's bull are read literally."
+  },
+  "echoes": "Leviticus 16; Leviticus 19:35-36; Numbers 18:21-24; Numbers 28-29; Exodus 12; 1 Samuel 8:11-17; 1 Kings 21; Jeremiah 22:13-17; Hebrews 9-10",
+  "topics": [
+   "temple",
+   "sacrifice",
+   "tithe",
+   "feasts",
+   "passover",
+   "kingship",
+   "day-of-atonement",
+   "atonement",
+   "feast-of-booths",
+   "priesthood"
+  ],
+  "settings": [
+   {
+    "v": "45:1-8",
+    "what": "The holy district, the city's land and the leader's land",
+    "by": "The LORD, through the guide",
+    "to": "The exiles, who will one day divide the land again",
+    "when": "In the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1)",
+    "why": "To say where the Temple stands in relation to the land and the people: at the center, with the priests, the Levites and the city arranged around it, and the ruler kept to his own ground. It binds whoever divides the land.",
+    "readers": "Returning exiles and later readers received it as a picture of a land with the LORD at its center; those who had no hope of dividing land read it as an ideal.",
+    "views": [
+     [
+      "Literal map",
+      "The land is to be divided this way."
+     ],
+     [
+      "Ideal",
+      "A schema, not a survey; the numbers do not fit the real land."
+     ]
+    ],
+    "s": [
+     "block-ezekiel2",
+     "zimmerli-ezekiel2"
+    ]
+   },
+   {
+    "v": "45:9-12",
+    "what": "A warning to the leaders and the rule of honest weights",
+    "by": "The LORD",
+    "to": "The leaders of Israel, the line of rulers",
+    "when": "In the same vision, as the land is divided",
+    "why": "To stop the habits that ruined Judah's kings: violence, evictions and false weights. It binds the leader and anyone who weighs goods in trade.",
+    "s": [
+     "block-ezekiel2"
+    ]
+   },
+   {
+    "v": "45:13-17",
+    "what": "The people's contribution and the leader's duty",
+    "by": "The LORD",
+    "to": "All the people of the land, and the leader",
+    "when": "In the same vision",
+    "why": "To fix a small, fair rate for the cost of the public sacrifices and make the leader answer for them. It replaces the king's right to take (1 Samuel 8:15-17) with a limited levy.",
+    "s": [
+     "block-ezekiel2",
+     "levenson-restoration"
+    ]
+   },
+   {
+    "v": "45:18-25",
+    "what": "The calendar of cleansing, Passover and the autumn festival",
+    "by": "The LORD",
+    "to": "The priests, the leader and the people",
+    "when": "In the same vision",
+    "why": "To say when the house is to be purified and the great festivals kept in the new order. It binds the priests (who cleanse the house) and the leader (who supplies the offerings).",
+    "readers": "The Talmud's readers took the differences from the Torah as a problem (Menachot 45a).",
+    "views": [
+     [
+      "Seventh day",
+      "The Hebrew has the seventh day of the first month."
+     ],
+     [
+      "Seventh month",
+      "Swete's Greek has the first day of the seventh month."
+     ]
+    ],
+    "s": [
+     "bavli-menachot",
+     "block-ezekiel2"
+    ]
+   }
+  ],
+  "traditions": [
+   {
+    "q": "Will the festival and daily offerings of Ezekiel 45-46 be kept again in a future Temple?",
+    "top": "sacrifice",
+    "views": [
+     [
+      "Dispensationalist",
+      "Yes, in the coming kingdom, including the cleansing of the sanctuary in 45:18-20, the leader's bull at Passover and the daily lamb of 46:13-15. The Scofield Reference Bible and J. Dwight Pentecost take the offerings as memorials that look back to the cross as the Lord's Supper does. John Whitcomb, also a dispensationalist, argues against the memorial reading: the offerings will not be primarily memorial, and Ezekiel's word \"atonement\" (45:15, 17, 20) means a ceremonial cleansing that keeps Israel in right order with the LORD in his Temple, not a removal of spiritual guilt. Not every dispensationalist takes the sacrifices the same way.",
+      [
+       "scofield",
+       "pentecost-things",
+       "whitcomb-sacrifices-gtj"
+      ]
+     ],
+     [
+      "Reformed",
+      "No. Hebrews 10:1-18 says the one offering of Christ ended the need for others. G. K. Beale reads Ezekiel's temple as fulfilled in Christ and the church (The Temple and the Church's Mission). Reformed premillennialists differ.",
+      [
+       "beale-temple"
+      ]
+     ],
+     [
+      "Catholic",
+      "The fathers read Ezekiel's temple as the church and as the soul: Jerome in his Commentary on Ezekiel, and Gregory the Great in his Homilies on Ezekiel.",
+      [
+       "jerome-ezekiel",
+       "gregory-homilies-ezekiel"
+      ]
+     ],
+     [
+      "Orthodox",
+      "No further bloody sacrifice. The Divine Liturgy of John Chrysostom offers a 'bloodless' service of worship (the card at Ezekiel 43:18-27 gives the same answer).",
+      [
+       "liturgy-chrysostom"
+      ]
+     ]
+    ],
+    "s": []
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "title": "The East Gate, the Daily Lamb and the Kitchens",
+  "key": "46:9",
+  "sum": [
+   "Chapter 46 adds the leader's worship. The east gate of the inner court is shut on working days and opened on the Sabbath and new moon, and the leader stands at its threshold while the priests offer for him; the people bow at its doorway (46:1-3). The Sabbath, new moon and festival offerings are listed (46:4-7, 11), with a rule that worshipers cross the court by one gate and leave by the opposite one (46:8-10). A freewill offering of the leader also opens the gate (46:12).",
+   "The daily offering is a lamb every morning (46:13-15). Next come the leader's land rules: a gift to his sons stays in the family, a gift to a servant returns at the year of release, and he may not take land from the people (46:16-18). The guide then shows Ezekiel the priests' kitchens in the west and the four corner kitchens of the outer court, where the people's sacrifices are cooked (46:19-24)."
+  ],
+  "readings": [
+   [
+    "Read as practical rules",
+    "The gate, the routes through the court and the kitchens are the kind of details a priest would plan for crowds on feast days: a one-way route, separate kitchens, no holy food carried to the people."
+   ],
+   [
+    "Read as a limit on the ruler",
+    "The leader may enter only to the gate's threshold, never to the altar; the priests offer his sacrifices; and he is not allowed to seize land. The chapter keeps him from the kings' faults (2 Chronicles 26:16-21; 1 Kings 21)."
+   ],
+   [
+    "Read as a vision of order",
+    "The gates, the one-way route and the kitchens portray a world in which holiness is kept apart from common life but within reach of everyone. The details need not be a plan to be built."
+   ]
+  ],
+  "views": {
+   "H": "The chapter assumes no king and no Davidic dynasty. It describes the leader's role as patron, not priest, in a restored community, as the Persian-period governors were (Zerubbabel and Nehemiah led without kingship).",
+   "C": "The numbers (six lambs and a ram on the Sabbath, a bull, six lambs and a ram at the new moon) differ from Numbers 28:9-15; Menachot 45a asks about the new moon offering of 46:6-7.",
+   "J": "The Talmud names the Sabbath and new moon offerings among the differences that tempted the sages to withdraw the book (Shabbat 13b). The one-way route resembles the Mishnah's description of how pilgrims circled the Temple Mount (Middot 2:2).",
+   "X": "Christian readers cite Colossians 2:16-17, where the new moon and Sabbath are called a shadow of Christ, and Hebrews 10:1-4 on repeated sacrifices that cannot take away sin.",
+   "F": "Dispensationalists take the Sabbath, new moon and daily offerings as the worship of a future Temple; Reformed readers deny that these rites will return (see the card at chapter 45)."
+  },
+  "echoes": "Exodus 29:38-42; Numbers 28:3-15; Leviticus 22:18-23; Leviticus 25:10; 1 Kings 21; 2 Chronicles 26:16-21; Colossians 2:16-17; Hebrews 10:1-4",
+  "topics": [
+   "sabbath",
+   "sacrifice",
+   "kingship",
+   "jubilee",
+   "temple",
+   "holiness"
+  ],
+  "settings": [
+   {
+    "v": "46:1-15",
+    "what": "The leader's worship at the east gate, and the daily lamb",
+    "by": "The LORD",
+    "to": "The leader, the priests and the people of the land",
+    "when": "In the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1)",
+    "why": "To set the leader's place in worship: patron and worshiper at the gate, never priest. It binds the leader on the Sabbath and the new moon, the people at the appointed times, and the priests every morning.",
+    "readers": "Later readers who had no king saw the leader as a role the community's governor might fill, or as a future figure.",
+    "s": [
+     "block-ezekiel2",
+     "bavli-shabbat"
+    ]
+   },
+   {
+    "v": "46:16-18",
+    "what": "Gifts of land by the leader",
+    "by": "The LORD",
+    "to": "The leader",
+    "when": "In the same vision",
+    "why": "To make sure the leader's gifts never take land from the people and that family land is not lost. It binds the leader in how he gives his own holding.",
+    "s": [
+     "bergsma-jubilee",
+     "block-ezekiel2"
+    ]
+   },
+   {
+    "v": "46:19-24",
+    "what": "The kitchens for the priests and the people",
+    "by": "The guide, as the LORD directs",
+    "to": "Ezekiel, for the priests and the people",
+    "when": "In the same vision",
+    "why": "To show where food from holy offerings is cooked, so that holiness does not spread to the people (44:19). It binds the priests, who cook in their own rooms, and the Temple servants, who cook the people's sacrifices.",
+    "s": [
+     "block-ezekiel2"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 47,
+  "title": "The River from the Threshold",
+  "key": "47:12",
+  "sum": [
+   "Water trickles from under the Temple's east threshold, south of the altar. The guide leads Ezekiel out and around to the east gate and walks east with a measuring line, measuring 1,000 cubits at a time. At each step the water is deeper, to the ankles, the knees, the hips, and then a river too deep to cross (47:1-6). On its banks stand many trees (47:7).",
+   "The river goes down to the Arabah and into the Dead Sea, and heals it. Everything swarming lives, there are fish in great number, fishermen stand from En-gedi to En-eglaim, and only the marshes are left for salt (47:8-11). On both banks grow fruit trees whose leaves do not wither and whose fruit does not fail, bearing a new crop every month, with leaves for healing (47:12). The chapter ends with the borders of the land and the rule that foreigners who live there receive an inheritance (47:13-23)."
+  ],
+  "readings": [
+   [
+    "Read as a future event",
+    "The river will flow from a rebuilt Temple in the last days and heal the Dead Sea. Zechariah 14:8 and Joel 3:18 have similar pictures."
+   ],
+   [
+    "Read as the Church's grace",
+    "The river is the life of God flowing out from Christ and the Church to the world, as John 7:37-39 uses the image; baptism and the Spirit are its signs."
+   ],
+   [
+    "Read as a restored Eden",
+    "The river, the trees and the healing are Ezekiel's way of saying that the garden returns where the glory is. It is a promise that God's presence, not geography, brings life."
+   ]
+  ],
+  "views": {
+   "H": "The Dead Sea and its shore were the best-known place of death in Judah, and En-gedi the best-known place of life beside it. The river reverses that. No one knows of a real spring of this kind under the Temple, but Jerusalem's water came from the Gihon, below the Temple Mount.",
+   "C": "Most commentators treat 47:1-12 as part of the tour, and take the river from the Eden and Zion traditions of a stream from God's mountain (Psalm 46:4). Swete's Greek reads 'Galilee' for 'the eastern district' (47:8).",
+   "J": "Jewish readers who expect a rebuilt Temple read the river as a coming miracle, as Joel 3:18 and Zechariah 14:8 describe; others read it as a picture of blessing.",
+   "X": "John 7:37-39 and Revelation 22:1-2 take the image up for the Spirit and for the new Jerusalem. The Catholic Easter season sings the <i>Vidi aquam</i>, 'I saw water flowing from the right side of the temple'.",
+   "F": "Dispensationalists expect the literal river in the millennial kingdom, with Zechariah 14:4-8; the Dead Sea is healed in that age."
+  },
+  "echoes": "Genesis 2:10-14; Psalm 46:4; Isaiah 33:21; Joel 3:18; Zechariah 14:8; 2 Kings 2:19-22; John 7:37-39; Revelation 22:1-2; Numbers 34:1-15; Leviticus 19:33-34; Isaiah 56:3-8",
+  "topics": [
+   "eden",
+   "tree-of-life",
+   "healing",
+   "temple",
+   "promised-land",
+   "foreigners",
+   "twelve-tribes"
+  ],
+  "settings": [
+   {
+    "v": "47:1-12",
+    "what": "The river from the Temple",
+    "by": "The guide, as the LORD directs, with the LORD's words in 47:8-12",
+    "to": "Ezekiel, for the exiles",
+    "when": "In the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1)",
+    "why": "To promise the exiles that life will flow from the place where the LORD lives, even into the Dead Sea. It does not bind anyone to do anything; it is a promise.",
+    "readers": "People in the Second Temple period read it beside Joel and Zechariah as a hope that had not yet come.",
+    "views": [
+     [
+      "Literal",
+      "A real river in a future age."
+     ],
+     [
+      "Figurative",
+      "A picture of the blessing of God's presence."
+     ]
+    ],
+    "s": [
+     "block-ezekiel2",
+     "zimmerli-ezekiel2"
+    ]
+   },
+   {
+    "v": "47:13-23",
+    "what": "The borders of the land and the inheritance of foreigners",
+    "by": "The Lord GOD",
+    "to": "The exiles, as heirs of the promise to the ancestors",
+    "when": "In the same vision",
+    "why": "To say where the land ends and how it will be divided: equally among the tribes, with two portions for Joseph, and with a share for foreigners who live among them. It binds whoever divides the land.",
+    "s": [
+     "block-ezekiel2",
+     "zimmerli-ezekiel2"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "title": "The Tribes, the District and the City Called 'The LORD Is There'",
+  "key": "48:35",
+  "sum": [
+   "The last chapter lays out the land. Seven tribes, from Dan in the north to Judah, have equal strips running east to west (48:1-7). In the middle comes the holy contribution: 25,000 cubits square, with the priests' strip and the sanctuary, the Levites' strip, and below them a common strip for the city (48:8-22). The leader's land runs along both sides. Five tribes, Benjamin to Gad, have strips in the south (48:23-29).",
+   "The book ends with the city. Each side of it is 4,500 cubits, with a ring of open land around it (48:15-17). It has twelve gates named for the tribes, three on each side (48:30-34). Its circuit is 18,000 cubits, and from that day its name will be 'The LORD Is There' (48:35). It is the answer to the book's opening loss: the glory that left the old Temple (10:18-19) now fills the whole city."
+  ],
+  "readings": [
+   [
+    "Read as a map",
+    "Ezekiel's division is the plan for the land after return, with equal strips. The sums work out only with some of Swete's Greek's numbers (see the note at 48:8), and the tribes stand in a fixed order."
+   ],
+   [
+    "Read as a theology of presence",
+    "The land is arranged around the sanctuary, with the Temple at the center and the city's name as the final word. The point is where the LORD is, not how far the strips run."
+   ],
+   [
+    "Read as a rebuke of old Israel",
+    "The tribes are equal, Judah gets no more than Gad, Levi gets no land but a gate, and the leader gets his own land and no more. The map corrects the old inequalities and the kings' land-grabbing."
+   ]
+  ],
+  "views": {
+   "H": "The tribes of the north had been scattered since 722 BC (2 Kings 17), yet all twelve are on the map, with Dan back in the far north. The ideal includes people who had not been in the land for 150 years.",
+   "C": "Many scholars see 48 as a deliberate schema, not a survey: the strips ignore the real land (the hills, the Dead Sea) and it is not drawn to scale. The figures in 48:9, 48:10 and 48:13 differ between the Hebrew and Swete's Greek, and 48:35 in the Greek has no name.",
+   "J": "The Talmud reads 48:35 to say that Jerusalem will be called by the name of the Holy One (Bava Batra 75b). Jewish tradition kept the hope of the land and the city whatever it made of the details.",
+   "X": "Revelation 21:12-13 takes the twelve gates and the three-by-four layout, and 21:3 and 21:22 take the thought of God's presence while dropping the Temple. Christians read Ezekiel's city as the Church or the new creation, or as a city in the millennium.",
+   "F": "Dispensationalists read the division as the literal settlement of Israel in the millennial kingdom, with Jerusalem renamed. Others read the city as the new Jerusalem of Revelation."
+  },
+  "echoes": "Numbers 34:1-15; Joshua 13-19; Ezekiel 10:18-19; Ezekiel 43:1-5; Isaiah 60:14; Isaiah 62:2-4; Jeremiah 33:16; Zechariah 8:3; Revelation 21:3, 12-13, 22",
+  "topics": [
+   "new-jerusalem",
+   "twelve-tribes",
+   "promised-land",
+   "temple",
+   "zadok",
+   "holiness",
+   "glory"
+  ],
+  "settings": [
+   {
+    "v": "48:1-29",
+    "what": "The equal strips of the tribes and the holy district",
+    "by": "The guide, as the LORD directs",
+    "to": "The exiles of Israel, all twelve tribes",
+    "when": "In the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1)",
+    "why": "To say that every tribe has its place in the land and that the Temple is at its center. It binds the community that will divide the land.",
+    "views": [
+     [
+      "Literal division",
+      "A real division, still to come."
+     ],
+     [
+      "Ideal schema",
+      "A theology in the form of a map."
+     ]
+    ],
+    "s": [
+     "block-ezekiel2",
+     "zimmerli-ezekiel2"
+    ]
+   },
+   {
+    "v": "48:30-35",
+    "what": "The city, its gates and its name",
+    "by": "The guide, as the LORD directs",
+    "to": "The exiles, and later the readers of the book",
+    "when": "At the end of the vision of the twenty-fifth year of the exile, 573 BC, fourteen years after the fall of Jerusalem (40:1)",
+    "why": "To end the book with the answer to the exile: the glory is back, and the city is named for it. Knowing that the book began with the glory's leaving, the name has the weight of a final word.",
+    "readers": "Later readers, in the Second Temple period and after the Temple's fall, held the name as a hope.",
+    "s": [
+     "block-ezekiel2",
+     "bavli-bava-batra"
+    ]
+   }
+  ]
+ }
+]

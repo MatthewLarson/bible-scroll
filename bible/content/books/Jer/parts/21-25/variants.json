@@ -1,0 +1,933 @@
+[
+ {
+  "v": "21:7",
+  "a": "the disease, the sword and the famine",
+  "t": "Is the famine in the list?",
+  "p": "A Qumran copy of the long text lacks \"the famine\" in this list; the Masoretic Text and the Greek have all three.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); the Greek has all three, in the order death, famine, sword (Swete's text)",
+    "orig": "מן הדבר מן החרב ומן הרעב",
+    "en": "from the disease, from the sword and from the famine",
+    "plain": "the disease, the sword and the famine"
+   },
+   {
+    "w": "4QJer-c (4Q72), as transcribed by Abegg, Bowley and Cook (ETCBC); the words for \"the disease\" are restored, the others visible",
+    "orig": "מן [הדבר] ומן החרב ביד",
+    "en": "from the disease and from the sword",
+    "plain": "the disease and the sword"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text has the support of the Greek, and the stock triad of sword, famine and disease runs through the book (24:10; 14:12). The scroll's shorter list may well be a copyist's skip, since \"from the ... and from the ...\" repeats.",
+  "b": "The three-part list appears again in verse 9 (\"by the sword, by famine and by disease\"), where 4QJer-c does have the famine (\"and by famine\"), which makes a slip in verse 7 more likely than a different edition.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "21:8",
+  "a": "I am setting",
+  "t": "\"I am setting\" or \"I have set\"?",
+  "p": "The Masoretic Text has a participle, \"I am putting\"; 4QJer-c and the Greek have a past tense, \"I have put.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "הִנְנִי נֹתֵן",
+    "en": "Look, I am setting",
+    "plain": "I am setting"
+   },
+   {
+    "w": "4QJer-c (4Q72; \"Look\" and the verb visible, \"I\" restored); the Greek has \"I have given\" (Swete's text)",
+    "orig": "הנה אני נתתי",
+    "en": "Look, I have set",
+    "plain": "I have set"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is kept. The two readings differ little in meaning: the choice of life or death is already placed before the people. Two independent witnesses (a scroll and the Greek) agree on the past tense, so it is a real alternative.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "21:13",
+  "a": "Who can come down on us?",
+  "t": "Come down, or terrify?",
+  "p": "The Hebrew has \"come down on us\" (<i>yachat</i>); Swete's Greek has \"terrify us.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "מִי יֵחַת עָלֵינוּ",
+    "en": "Who will come down on us?",
+    "plain": "Who can come down on us?"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "Τίς πτοήσει ἡμᾶς",
+    "en": "Who will terrify us?",
+    "plain": "Who can terrify us?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept. The two readings differ only in the verb: <i>yachat</i> from <i>nachat</i> (\"come down\") against a verb from <i>chatat</i> (\"be terrified, terrify\"). The Greek may read the same letters as the second verb. The sense is close: no one can break into the hiding places.",
+  "b": "No scroll preserves this verse.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "22:15",
+  "a": "cedar",
+  "t": "Cedar, or Ahaz?",
+  "p": "Swete's Greek reads \"Ahaz your father\" where the Hebrew has \"cedar.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-a (4Q70) and 4QJer-c (4Q72) both preserve \"in cedar\"",
+    "orig": "בָּאָרֶז",
+    "en": "in cedar",
+    "plain": "cedar"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "בְּאָחָז",
+    "en": "with Ahaz",
+    "plain": "Ahaz"
+   }
+  ],
+  "follow": 0,
+  "why": "The two scrolls and the Hebrew agree, and the Greek looks like a misreading: the Hebrew letters for \"cedar\" (ארז) and \"Ahaz\" (אחז) differ by one letter. Ahaz was not Jehoiakim's father; Josiah was.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "22:18",
+  "a": " or 'Alas, my sister!'",
+  "t": "\"Alas, my sister!\"",
+  "p": "Swete's Greek lacks \"my sister\"; 4QJer-c has it.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) preserves \"and alas, sister\"",
+    "orig": "וְהוֹי אָחוֹת",
+    "en": "or \"Alas, my sister!\"",
+    "plain": " or 'Alas, my sister!'"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "Verse 18 has two pairs in the Hebrew: \"brother and sister\" and \"lord and his majesty.\" The Greek has one of each.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "22:18",
+  "a": " or 'Alas, his majesty!'",
+  "t": "\"Alas, his majesty!\"",
+  "p": "Swete's Greek lacks the last cry; 4QJer-c preserves the word \"majesty.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) preserves \"majesty\" (hodah, with a final he; \"and alas\" is restored)",
+    "orig": "וְהוֹי הוֹדוֹ",
+    "en": "or \"Alas, his majesty!\"",
+    "plain": " or 'Alas, his majesty!'"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "22:20",
+  "a": "smashed",
+  "t": "Smashed, or poured out?",
+  "p": "A Qumran copy has \"poured out\" where the Masoretic Text and the Greek have \"broken.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); the Greek has \"were crushed\" (Swete's text)",
+    "orig": "נִשְׁבְּרוּ",
+    "en": "have been broken",
+    "plain": "smashed"
+   },
+   {
+    "w": "4QJer-c (4Q72), a clear reading",
+    "orig": "נשפכו",
+    "en": "have been poured out",
+    "plain": "poured out"
+   }
+  ],
+  "follow": 0,
+  "why": "Two witnesses (the Masoretic Text and the Greek) read \"broken.\" The scroll's \"poured out\" changes two letters (a pe for the bet, a kaf for the resh) and looks like a slip, though it makes sense: allies spilled out and gone.",
+  "b": "The same scroll also reads \"in Lebanon\" (בלבנון) for \"Lebanon\" (הלבנון) earlier in the verse.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "22:23",
+  "a": "how you will be pitied",
+  "t": "Pitied, or groan?",
+  "p": "The Masoretic Text has \"how you will be pitied\" (<i>nechant</i>); Swete's Greek has \"you will groan.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) has the same consonants, <i>nchnt</i>, visible (\"how\" before it is restored)",
+    "orig": "מַה נֶּחֱנַתְּ",
+    "en": "how you will be pitied (a passive of <i>chanan</i>, \"show favor\")",
+    "plain": "how you will be pitied"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus; the same sense could come from a Hebrew <i>ne'enachet</i> (from <i>anach</i>, \"sigh\")",
+    "orig": "καταστενάξεις",
+    "en": "you will groan",
+    "plain": "how you will groan"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, which the scroll supports. The form <i>nechant</i> is rare and hard, and \"groan\" is the easy sense, so the Greek may have smoothed it or read a different Hebrew word; only the Greek supports it. Either way the line speaks of the pain of childbirth coming on the proud city.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "22:30",
+  "a": "stripped of children",
+  "t": "Childless, or outlawed?",
+  "p": "The Hebrew says \"childless\" or \"stripped of children\"; Swete's Greek says the man is to be written down as \"proclaimed out\" (outlawed).",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "עֲרִירִי",
+    "en": "childless, stripped (of children)",
+    "plain": "stripped of children"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "ἐκκήρυκτον",
+    "en": "proclaimed out, outlawed, banned",
+    "plain": "outlawed"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Hebrew <i>'ariri</i>, which is rare. It appears in Genesis 15:2 (Abram \"going childless\") and in Leviticus 20:20-21, where being without children is a punishment. The Greek word means someone cried out of the community, which may be the translator's guess.",
+  "b": "The word does not say Jeconiah had no children at all: 1 Chronicles 3:17-18 names sons, and Babylonian ration tablets list five of his sons. It describes a man with no heir who will rule, or who loses his children as the Hebrew idiom suggests. The Greek goes on to say that no one from his seed will \"grow up\" sitting on David's throne.",
+  "s": [
+   "weidner-jojachin",
+   "lundbom-jer2"
+  ]
+ },
+ {
+  "v": "23:6",
+  "a": "The LORD is our righteousness",
+  "t": "The LORD is our righteousness, or Jehozadak?",
+  "p": "Swete's Greek gives the name as \"Josedek\" (Jehozadak), the name of the priest who was Joshua's father.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "יְהוָה צִדְקֵנוּ",
+    "en": "The LORD is our righteousness",
+    "plain": "The LORD is our righteousness"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "Ἰωσεδεκ",
+    "en": "Josedek (Jehozadak)",
+    "plain": "Jehozadak"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is kept: it matches the later copy of the oracle (33:16) and plays on Zedekiah's name. The Greek form reads like a transcription of the Hebrew name <i>yehotsadaq</i> (\"the LORD has made righteous\"), the name of the high priest in Haggai 1:1 and 1 Chronicles 6:15.",
+  "b": "Jehozadak was the father of Joshua the high priest, who is the \"Branch\" figure of Zechariah 3:8 and 6:11-12. Some see a link in the Greek; it is not necessary to explain the Hebrew.",
+  "s": [
+   "lundbom-jer2"
+  ]
+ },
+ {
+  "v": "23:10",
+  "a": "The land is packed with adulterers.",
+  "t": "A line the Greek lacks",
+  "p": "The Greek has no \"For the land is full of adulterers\" and no \"curse.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "כִּי מְנָאֲפִים מָלְאָה הָאָרֶץ",
+    "en": "For the land is full of adulterers",
+    "plain": "The land is packed with adulterers."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (begins \"Because of these the land mourned\")",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "The clause also removes the pun on \"curse\" (<i>alah</i>) in the next line, which the Greek omits too. No scroll preserves verse 10.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "23:27",
+  "a": "my name by their dreams",
+  "t": "Forget \"my name\" or \"my law\"?",
+  "p": "Swete's Greek says the dreams make the people forget \"my law\" where the Hebrew says \"my name.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "אֶת שְׁמִי",
+    "en": "my name",
+    "plain": "my name by their dreams"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "τοῦ νόμου μου",
+    "en": "my law",
+    "plain": "my law by their dreams"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew \"my name\" prepares the second half of the verse, where the ancestors forgot \"my name\" for Baal. The Greek keeps \"name\" in that second half, so \"law\" is probably the Greek or its source smoothing the first.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "23:30",
+  "a": "So look, I am against the prophets, the LORD declares, who steal my words, each from his neighbor.",
+  "t": "Verses 30 and 31 (they go together)",
+  "p": "Swete's Greek has no verses 30 and 31; the numbers are there but the text is empty. See the entry on verse 31.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "הִנְנִי עַל הַנְּבִאִים... מְגַנְּבֵי דְבָרַי",
+    "en": "Look, I am against the prophets... who steal my words",
+    "plain": "So look, I am against the prophets, the LORD declares, who steal my words, each from his neighbor."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "In the Hebrew, verses 30, 31 and 32 each begin \"Look, I am against...\" (<i>hineni 'al</i>). The Greek has only the third, which suggests the first two were added or that the translator's eye skipped between the repeated openings. No scroll preserves these verses.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "23:31",
+  "a": "Look, I am against the prophets, the LORD declares, who wag their tongues and announce, \"He declares.\"",
+  "t": "Verses 30 and 31 (they go together)",
+  "p": "Swete's Greek has no verse 31; it goes with the entry on verse 30.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "הִנְנִי עַל הַנְּבִיאִם... וַיִּנְאֲמוּ נְאֻם",
+    "en": "Look, I am against the prophets... who announce, \"He declares\"",
+    "plain": "Look, I am against the prophets, the LORD declares, who wag their tongues and announce, \"He declares.\""
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "23:33",
+  "a": "What oracle?",
+  "t": "\"What oracle?\" or \"You are the burden\"",
+  "p": "The Hebrew reads \"What oracle?\"; the Greek, and Rashi, read the same letters as \"You are the burden.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "אֶת מָה מַשָּׂא",
+    "en": "What burden? (et-mah massa')",
+    "plain": "What oracle?"
+   },
+   {
+    "w": "Greek (Swete's text): \"You are the burden\"; Rashi's commentary also gives \"You are the burden of the Holy One\"",
+    "orig": "אַתֶּם הַמַּשָּׂא",
+    "en": "You are the burden (attem hammassa')",
+    "plain": "You are the burden!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic reading makes sense as it stands. The other reading takes the same consonants as <i>attem hammassa'</i> and gives the better play on words: the people ask for the burden and become it. Both are old, and scholars divide.",
+  "b": "Rashi gives both: \"What burden? And I will forsake you,\" and \"You are the burden of the Holy One, blessed be He, and He says that He will forsake you.\"",
+  "s": [
+   "rashi-jeremiah",
+   "lundbom-jer2",
+   "holladay-jeremiah"
+  ]
+ },
+ {
+  "v": "23:36",
+  "a": ", and you have twisted the words of the living God, the LORD of Armies, our God",
+  "t": "A clause the Greek lacks",
+  "p": "The Greek verse ends at \"his word.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "וַהֲפַכְתֶּם אֶת דִּבְרֵי אֱלֹהִים חַיִּים יְהוָה צְבָאוֹת אֱלֹהֵינוּ",
+    "en": "and you have twisted the words of the living God, the LORD of Armies, our God",
+    "plain": ", and you have twisted the words of the living God, the LORD of Armies, our God"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "23:37",
+  "a": "This is what you are to say to the prophet",
+  "t": "A much shorter Greek",
+  "p": "Swete's Greek has only \"And why has the LORD our God spoken?\" for verse 37 and a shorter verse 38.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "כֹּה תֹאמַר אֶל הַנָּבִיא מֶה עָנָךְ יְהוָה וּמַה דִּבֶּר יְהוָה",
+    "en": "This is what you are to say to the prophet: What did the LORD answer you? and What has the LORD said?",
+    "plain": "This is what you are to say to the prophet"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "καὶ διὰ τί ἐλάλησεν Κύριος ὁ θεὸς ἡμῶν;",
+    "en": "And why has the LORD our God spoken?",
+    "plain": "(a different question)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek is much shorter through verses 36 to 38 and has a different question. Scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or abridged. No scroll preserves these verses.",
+  "b": "Verse 38 is also shorter in the Greek, which has \"because you said this word, 'Oracle of the LORD,' and I sent word to you not to say it.\"",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "23:39",
+  "a": "utterly forget you",
+  "t": "Forget you, or lift you?",
+  "p": "The pointed Hebrew says \"forget\" (<i>nashah</i>); the Greek has \"I take you up and dash you down.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008) (pointed)",
+    "orig": "וְנָשִׁיתִי אֶתְכֶם נָשֹׁא",
+    "en": "I will surely forget you",
+    "plain": "utterly forget you"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "λαμβάνω καὶ ῥάσσω ὑμᾶς",
+    "en": "I take you up and dash you down",
+    "plain": "take you up and dash you down"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept as pointed. The two readings differ only in the verb: <i>nashah</i> \"forget\" and <i>nasa'</i> \"lift.\" The Greek takes the second, which fits the play on <i>massa'</i> (\"burden,\" from <i>nasa'</i>) in the verses before; but the Hebrew may be a deliberate pun on both verbs.",
+  "s": [
+   "lundbom-jer2",
+   "holladay-jeremiah"
+  ]
+ },
+ {
+  "v": "24:1",
+  "a": "the craftsmen and the smiths",
+  "t": "Craftsmen and smiths, or craftsmen, prisoners and neighbors?",
+  "p": "Swete's Greek lists \"the craftsmen, the prisoners and the neighbors\" where the Hebrew has \"the craftsmen and the smiths.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "הֶחָרָשׁ וְהַמַּסְגֵּר",
+    "en": "the craftsmen and the smiths (or locksmiths)",
+    "plain": "the craftsmen and the smiths"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "τοὺς τεχνίτας καὶ τοὺς δεσμώτας καὶ τοὺς πλησίους",
+    "en": "the craftsmen, the prisoners and the neighbors",
+    "plain": "the craftsmen, the prisoners and the neighbors"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept. The Hebrew pair is the same as in 29:2 and 2 Kings 24:14-16. The Greek's \"prisoners\" may take <i>masger</i> as one who is shut up; \"neighbors\" is not easy to explain. No scroll preserves this verse.",
+  "b": "The Hebrew <i>masger</i> is a rare word; it is read as a metalworker or as a locksmith.",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "24:9",
+  "a": "a disgrace, a byword, a taunt and a curse",
+  "t": "Taunt, or hatred?",
+  "p": "Swete's Greek has \"dispersion,\" \"reproach,\" \"byword,\" \"hatred\" and \"curse\"; the Hebrew has a terror, an evil, a disgrace, a byword, a taunt and a curse.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "לְחֶרְפָּה וּלְמָשָׁל לִשְׁנִינָה וְלִקְלָלָה",
+    "en": "a disgrace, a byword, a taunt and a curse",
+    "plain": "a disgrace, a byword, a taunt and a curse"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "εἰς διασκορπισμὸν... εἰς ὀνειδισμὸν καὶ εἰς παραβολὴν καὶ εἰς μῖσος καὶ εἰς κατάραν",
+    "en": "to dispersion... to reproach, to a byword, to hatred and to a curse",
+    "plain": "to dispersion... to reproach, a byword, hatred and a curse"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept. The Greek swaps \"terror, evil\" for \"dispersion\" and renders <i>shinina</i> (\"taunt\") as \"hatred.\" No scroll preserves this verse. The Greek of 24:10 also differs (see the note on 24:10).",
+  "s": [
+   "swete-lxx",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:1",
+  "a": " That was the first year of Nebuchadnezzar king of Babylon.",
+  "t": "The synchronism with Nebuchadnezzar",
+  "p": "The Greek lacks the sentence that dates the word to Nebuchadnezzar's first year.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "הִיא הַשָּׁנָה הָרִאשֹׁנִית לִנְבוּכַדְרֶאצַּר מֶלֶךְ בָּבֶל",
+    "en": "that was the first year of Nebuchadnezzar king of Babylon",
+    "plain": " That was the first year of Nebuchadnezzar king of Babylon."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "The synchronism is historically right (605-604 BC). Because it is correct and also looks like an editor's note, both the \"later addition\" and \"accurate original\" views have been argued. No scroll preserves verse 1.",
+  "s": [
+   "tov-jeremiah-editions",
+   "grayson-chronicles"
+  ]
+ },
+ {
+  "v": "25:7",
+  "a": ", the LORD declares. You made me angry with the work of your hands, to your own harm",
+  "t": "The end of the verse",
+  "p": "Swete's Greek ends the verse at \"you did not listen to me.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) has \"with the work\" and \"to harm\" visible (\"your hands\" and \"to you\" are restored)",
+    "orig": "נְאֻם יְהוָה לְמַעַן הַכְעִסֵנִי בְּמַעֲשֵׂה יְדֵיכֶם לְרַע לָכֶם",
+    "en": "the LORD declares, so as to make me angry with the work of your hands, to your harm",
+    "plain": ", the LORD declares. You made me angry with the work of your hands, to your own harm"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "4QJer-c preserves only the end of the verse, partly restored: \"with the work\" (<i>bema'aseh</i>) and \"to harm\" (<i>lera'</i>) are visible, \"your hands\" and \"to you\" are restored, and \"so as to make me angry\" is not preserved. It shows that the long ending existed in Hebrew, but only in part.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:9",
+  "a": ", and for Nebuchadnezzar king of Babylon, my servant",
+  "t": "\"Nebuchadnezzar, my servant\"",
+  "p": "Swete's Greek lacks Nebuchadnezzar's name and the title \"my servant\" here.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "וְאֶל נְבוּכַדְרֶאצַּר מֶלֶךְ בָּבֶל עַבְדִּי",
+    "en": "and to Nebuchadnezzar king of Babylon, my servant",
+    "plain": ", and for Nebuchadnezzar king of Babylon, my servant"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (\"I will take a clan from the north\")",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "Most of the Greek's omissions in Jeremiah are names and titles. This one has theological weight, since \"my servant\" is the title that shocked Jeremiah's hearers. The Hebrew has it again at 27:6 and 43:10.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "25:10",
+  "a": "the sound of the hand mill",
+  "t": "The mill, or perfume?",
+  "p": "Swete's Greek has \"the smell of perfume\" where the Hebrew has \"the sound of the mill.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "קוֹל רֵחָיִם",
+    "en": "the sound of millstones",
+    "plain": "the sound of the hand mill"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "ὀσμὴν μύρου",
+    "en": "the smell of perfume",
+    "plain": "the smell of perfume"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept: the other three items are sounds or lights, and Revelation 18:22 echoes the \"sound of a millstone.\" The Greek may have read a different word.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:11",
+  "a": "serve the king of Babylon",
+  "t": "Serve whom?",
+  "p": "The Greek says the people will serve \"among the nations\"; the Hebrew says they will serve the king of Babylon.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "וְעָבְדוּ הַגּוֹיִם הָאֵלֶּה אֶת מֶלֶךְ בָּבֶל",
+    "en": "and these nations will serve the king of Babylon",
+    "plain": "serve the king of Babylon"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "δουλεύσουσιν ἐν τοῖς ἔθνεσιν",
+    "en": "they will serve among the nations",
+    "plain": "serve among the nations"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is kept; \"the king of Babylon\" is the clear object in 27:7 and 29:10, and the seventy years are tied to Babylon. The Greek reads as if the people are exiles in many countries.",
+  "b": "This affects how the seventy years are counted: Babylon's own era in the Hebrew, a general exile in the Greek.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:12",
+  "a": "I will punish the king of Babylon and that nation, the LORD declares, for their guilt, and the land of the Chaldeans.",
+  "t": "Who is punished?",
+  "p": "The Greek says only \"I will punish that nation\"; the king, the guilt and the land of the Chaldeans are not named.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "אֶפְקֹד עַל מֶלֶךְ בָּבֶל וְעַל הַגּוֹי הַהוּא... אֶת עֲוֺנָם וְעַל אֶרֶץ כַּשְׂדִּים",
+    "en": "I will punish the king of Babylon and that nation... for their guilt, and the land of the Chaldeans",
+    "plain": "I will punish the king of Babylon and that nation, the LORD declares, for their guilt, and the land of the Chaldeans."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "ἐκδικήσω τὸ ἔθνος ἐκεῖνο",
+    "en": "I will punish that nation",
+    "plain": "I will punish that nation."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "In the Greek, \"that nation\" is unnamed and follows the oracle about all the nations. This is one of the places where the Hebrew names Babylon and the Greek does not.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "25:13",
+  "a": ", what Jeremiah prophesied against all the nations",
+  "t": "The heading before the nation oracles",
+  "p": "The Greek has this clause as a heading, \"what Jeremiah prophesied against the nations,\" joined to the oracle on Elam, and without \"all.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "אֲשֶׁר נִבָּא יִרְמְיָהוּ עַל כָּל הַגּוֹיִם",
+    "en": "which Jeremiah prophesied against all the nations",
+    "plain": ", what Jeremiah prophesied against all the nations"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Swete's 25:14, the heading before the oracle on Elam)",
+    "orig": "Ἃ ἐπροφήτευσεν Ἰερεμίας ἐπὶ τὰ ἔθνη τὰ Αἰλάμ",
+    "en": "what Jeremiah prophesied against the nations (the heading of the Elam oracle)",
+    "plain": ", what Jeremiah prophesied against the nations"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, which ends the verse with this clause and uses it as the bridge to the nation oracles in chapters 46-51. The Greek has the clause too, but as the title of a block of oracles that follows at once, so its position and its \"all\" differ. Scholars divide on whether the Greek keeps an earlier arrangement (Tov, Bogaert) or rearranged the book.",
+  "b": "Swete numbers the heading 25:14, so his verse numbers here differ from the Hebrew's (the Hebrew 25:14 has no match, see the next entry). The Greek 25:13 itself ends with \"all that is written in this book,\" as the Hebrew does, and the nation oracles follow, starting with Elam (Greek 25:14-31:44 in Swete's numbering).",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "25:14",
+  "a": "For they too will be worked as slaves by many nations and great kings, and I will repay them as their actions deserve and as their hands have worked.",
+  "t": "Verse 14",
+  "p": "Hebrew verse 14 has no match in the Greek. Swete's 25:14 is the heading before the oracle on Elam (see the entry on verse 13).",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "כִּי עָבְדוּ בָם גַּם הֵמָּה גּוֹיִם רַבִּים וּמְלָכִים גְּדוֹלִים",
+    "en": "For many nations and great kings will make slaves of them too",
+    "plain": "For they too will be worked as slaves by many nations and great kings, and I will repay them as their actions deserve and as their hands have worked."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "The verse's \"they\" is probably Babylon (and the nations). Compare 27:7, which says many nations and great kings will enslave Babylon's dynasty in its turn, and 50:29 and 51:24, which speak of repayment. Some see verse 14 as a later addition drawing on those passages.",
+  "s": [
+   "tov-jeremiah-editions",
+   "bogaert-jeremie"
+  ]
+ },
+ {
+  "v": "25:20",
+  "a": " all the kings of the land of Uz;",
+  "t": "The land of Uz",
+  "p": "The Greek lacks \"all the kings of the land of Uz.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "וְאֵת כָּל מַלְכֵי אֶרֶץ הָעוּץ",
+    "en": "and all the kings of the land of Uz",
+    "plain": " all the kings of the land of Uz;"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:6)",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "Uz is the home of Job (Job 1:1) and is tied to Edom in Lamentations 4:21 and Genesis 36:28. No scroll preserves verse 20.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:24",
+  "a": "all the kings of Arabia and ",
+  "t": "\"All the kings of Arabia\" (and no scroll evidence)",
+  "p": "The Greek lacks the kings of Arabia; it has only the mixed peoples in the wilderness.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); no scroll preserves a visible word of this verse (4QJer-c is restored)",
+    "orig": "וְאֵת כָּל מַלְכֵי עֲרָב",
+    "en": "and all the kings of Arabia",
+    "plain": "all the kings of Arabia and "
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:10)",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "4QJer-c has only restored words in this verse (\"who live\" and \"in the wilderness\" are both in brackets), so the scroll gives no evidence here, either way.",
+  "s": [
+   "tov-jeremiah-editions",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "25:25",
+  "a": "all the kings of Zimri, all the kings of Elam and all the kings of Media",
+  "t": "Zimri and Media",
+  "p": "The Greek has \"the kings of Elam and the kings of the Persians\"; it lacks Zimri and Media. 4QJer-c shows Zimri.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) has \"all the kings of Zimri\" and the third \"all the kings of\" visible; \"Elam\" and \"Media\" are restored",
+    "orig": "זִמְרִי... עֵילָם... מָדָי",
+    "en": "Zimri, Elam, Media",
+    "plain": "all the kings of Zimri, all the kings of Elam and all the kings of Media"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:11)",
+    "orig": "Αἰλὰμ... Περσῶν",
+    "en": "Elam... the Persians",
+    "plain": "all the kings of Elam and all the kings of the Persians"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is kept. The scroll shows that Zimri was already in the Hebrew list, so the Greek's shorter list is not simply the older one. The scroll does not prove Media, since its name is restored. The Greek's \"Persians\" is a more recent name for the same region and may be an update by the translator or his source.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:26",
+  "a": "all the kings of the north, near and far",
+  "t": "North, or east?",
+  "p": "Swete's Greek has \"all the kings from the east, near and far\"; the Hebrew and 4QJer-c have \"the north.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) preserves \"the north\"",
+    "orig": "מַלְכֵי הַצָּפוֹן",
+    "en": "the kings of the north",
+    "plain": "all the kings of the north, near and far"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:12, ἀπὸ ἀπηλιώτου)",
+    "orig": "ἀπὸ ἀπηλιώτου",
+    "en": "from the east wind",
+    "plain": "all the kings from the east, near and far"
+   }
+  ],
+  "follow": 0,
+  "why": "Two witnesses (the Masoretic Text and the scroll) read \"north.\" The Greek's \"from the east\" has no obvious Hebrew behind it.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "25:26",
+  "a": " And the king of Sheshach will drink after them.",
+  "t": "Sheshach",
+  "p": "The Greek lacks the sentence about the king of Sheshach; 4QJer-c has it.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008); 4QJer-c (4Q72) preserves \"the king of Sheshach will drink\"",
+    "orig": "וּמֶלֶךְ שֵׁשַׁךְ יִשְׁתֶּה אַחֲרֵיהֶם",
+    "en": "and the king of Sheshach will drink after them",
+    "plain": " And the king of Sheshach will drink after them."
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus",
+    "orig": "(missing)",
+    "en": "(not in the Greek)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Masoretic Text, the full Hebrew text. The Greek here is shorter, and scholars divide on whether it translates an earlier, shorter Hebrew edition (Tov, Bogaert) or whether its translator or his source cut the text. Where a Qumran copy of the longer text survives it is named; it shows only that the longer text already existed.",
+  "b": "The shorter Greek here is a case where a scroll shows the longer text already existed. Some scholars argue the Greek translator dropped the cipher as unintelligible; others think the cipher was added to a shorter text.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:34",
+  "a": "fall like a precious vessel",
+  "t": "A vessel, or rams?",
+  "p": "Swete's Greek has \"fall like the choice rams\" and lacks \"your scattering.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "וּנְפַלְתֶּם כִּכְלִי חֶמְדָּה",
+    "en": "and you will fall like a precious vessel",
+    "plain": "fall like a precious vessel"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:20)",
+    "orig": "ὥσπερ οἱ κριοὶ οἱ ἐκλεκτοί",
+    "en": "like the choice rams",
+    "plain": "fall like choice rams"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept; the broken fine vessel matches the smashed jar of 22:28. The Greek has made the whole verse a figure of the flock, consistently with \"rams\" for \"lords of the flock\" earlier in the verse.",
+  "b": "The Hebrew also says \"and your scattering\" (<i>tefotsotekhem</i>), a word that is hard to explain; some change it to \"I will shatter you\" (compare the Greek, which lacks it).",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ },
+ {
+  "v": "25:38",
+  "a": "the oppressor's fierce anger",
+  "t": "The oppressor's anger, or the great sword?",
+  "p": "Swete's Greek has \"the great sword.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text, Leningrad Codex (AD 1008)",
+    "orig": "חֲרוֹן הַיּוֹנָה",
+    "en": "the fierce anger of the oppressor",
+    "plain": "the oppressor's fierce anger"
+   },
+   {
+    "w": "Greek (Septuagint), as printed in Swete's edition, Codex Vaticanus (Greek 32:24)",
+    "orig": "τῆς μαχαίρας τῆς μεγάλης",
+    "en": "the great sword",
+    "plain": "the great sword"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is kept. \"The sword of the oppressor\" (<i>cherev hayyonah</i>) occurs at 46:16 and 50:16, and the Greek's \"sword\" may reflect that phrase, which suggests a change of one letter from \"anger\" (<i>charon</i>) to \"sword\" (<i>cherev</i>) in 25:38.",
+  "s": [
+   "tov-jeremiah-editions"
+  ]
+ }
+]

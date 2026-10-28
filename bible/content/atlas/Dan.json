@@ -1,0 +1,356 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "babylon",
+    "jerusalem",
+    "shinar"
+   ],
+   "people": [
+    "jehoiakim",
+    "nebuchadnezzar",
+    "god",
+    "ashpenaz",
+    "israel",
+    "azariah-20",
+    "daniel-3",
+    "meshach",
+    "shadrach",
+    "melzar",
+    "cyrus"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "2": {
+   "places": [
+    "babylon"
+   ],
+   "people": [
+    "nebuchadnezzar",
+    "daniel-3",
+    "arioch-2",
+    "azariah-20",
+    "meshach",
+    "shadrach",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "3": {
+   "places": [
+    "babylon",
+    "dura"
+   ],
+   "people": [
+    "nebuchadnezzar",
+    "meshach",
+    "shadrach",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "4": {
+   "places": [
+    "babylon"
+   ],
+   "people": [
+    "nebuchadnezzar",
+    "god",
+    "daniel-3"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "5": {
+   "places": [
+    "jerusalem",
+    "babylon"
+   ],
+   "people": [
+    "belshazzar",
+    "nebuchadnezzar",
+    "god",
+    "daniel-3",
+    "darius-3"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "6": {
+   "places": [
+    "jerusalem"
+   ],
+   "people": [
+    "darius-3",
+    "daniel-3",
+    "god",
+    "cyrus"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "7": {
+   "places": [
+    "babylon"
+   ],
+   "people": [
+    "belshazzar",
+    "daniel-3",
+    "god",
+    "jesus-2"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "8": {
+   "places": [
+    "elam-7",
+    "susa",
+    "ulai",
+    "media",
+    "persia",
+    "greece"
+   ],
+   "people": [
+    "belshazzar",
+    "daniel-3",
+    "god",
+    "gabriel"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "9": {
+   "places": [
+    "jerusalem",
+    "egypt"
+   ],
+   "people": [
+    "ahasuerus",
+    "darius-3",
+    "daniel-3",
+    "god",
+    "jeremiah-6",
+    "moses",
+    "gabriel",
+    "jesus-2"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "10": {
+   "places": [
+    "persia",
+    "hiddekel",
+    "uphaz",
+    "greece"
+   ],
+   "people": [
+    "cyrus",
+    "daniel-3",
+    "god",
+    "michael-11"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "11": {
+   "places": [
+    "greece",
+    "persia",
+    "egypt",
+    "kittim-2",
+    "edom",
+    "moab-2"
+   ],
+   "people": [
+    "darius-3",
+    "esau",
+    "moab",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "michael-11",
+    "daniel-3",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-daniel"
+   ]
+  }
+ },
+ "places": {
+  "babylon": {
+   "name": "Babylon",
+   "lat": 32.53617,
+   "lon": 44.42082
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "shinar": {
+   "name": "Shinar",
+   "lat": 32.53650368616845,
+   "lon": 44.42088287373876
+  },
+  "dura": {
+   "name": "Dura",
+   "lat": 32.53650368616845,
+   "lon": 44.42088287373876
+  },
+  "elam-7": {
+   "name": "Elam",
+   "lat": 31.5,
+   "lon": 49.5
+  },
+  "susa": {
+   "name": "Susa",
+   "lat": 32.19202,
+   "lon": 48.24854
+  },
+  "ulai": {
+   "name": "Ulai",
+   "lat": 32.178696,
+   "lon": 48.22489
+  },
+  "media": {
+   "name": "Media",
+   "lat": 34.5,
+   "lon": 46.5
+  },
+  "persia": {
+   "name": "Persia",
+   "lat": 34.798311,
+   "lon": 48.514966
+  },
+  "greece": {
+   "name": "Greece",
+   "lat": 39.04697922405934,
+   "lon": 22.97947876
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "hiddekel": {
+   "name": "Hiddekel",
+   "lat": 35.983343,
+   "lon": 43.346466
+  },
+  "uphaz": {
+   "name": "Uphaz",
+   "lat": 22,
+   "lon": 77
+  },
+  "kittim-2": {
+   "name": "Kittim",
+   "lat": 35.018306,
+   "lon": 33.207693
+  },
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "moab-2": {
+   "name": "Moab",
+   "lat": 31.499159,
+   "lon": 35.780512
+  }
+ },
+ "people": {
+  "jehoiakim": {
+   "name": "Jehoiakim"
+  },
+  "nebuchadnezzar": {
+   "name": "Nebuchadnezzar"
+  },
+  "god": {
+   "name": "God"
+  },
+  "ashpenaz": {
+   "name": "Ashpenaz"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "azariah-20": {
+   "name": "Azariah"
+  },
+  "daniel-3": {
+   "name": "Daniel"
+  },
+  "meshach": {
+   "name": "Meshach"
+  },
+  "shadrach": {
+   "name": "Shadrach"
+  },
+  "melzar": {
+   "name": "Melzar"
+  },
+  "cyrus": {
+   "name": "Cyrus"
+  },
+  "arioch-2": {
+   "name": "Arioch"
+  },
+  "belshazzar": {
+   "name": "Belshazzar"
+  },
+  "darius-3": {
+   "name": "Darius"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "gabriel": {
+   "name": "Gabriel"
+  },
+  "ahasuerus": {
+   "name": "Ahasuerus"
+  },
+  "jeremiah-6": {
+   "name": "Jeremiah"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "michael-11": {
+   "name": "Michael"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "moab": {
+   "name": "Moab"
+  }
+ },
+ "events": {
+  "prophecies-of-daniel": {
+   "name": "Prophecies of Daniel"
+  }
+ }
+}

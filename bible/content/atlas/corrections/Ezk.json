@@ -1,0 +1,247 @@
+[
+ {
+  "c": 2,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 4,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 6,
+  "drop": [
+   "riblah",
+   "israel"
+  ],
+  "why": "The Hebrew of 6:14 reads Diblah, a place no other passage mentions, and this translation follows it. Some scholars think a copyist changed Riblah (in Syria) to Diblah, but the verse as written does not name Riblah. Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 11,
+  "drop": [
+   "holy-spirit"
+  ],
+  "why": "The verses speak of a new spirit given to people (11:19) and of a spirit that lifts Ezekiel in the vision (11:1, 24). Many Christians read these as the Holy Spirit, but the Hebrew only says \"a spirit\" and \"the spirit of God\"; that reading belongs in the chapter's notes."
+ },
+ {
+  "c": 16,
+  "drop": [
+   "canaan"
+  ],
+  "why": "Here Canaan is the land of the Canaanites (16:3), not Noah's grandson."
+ },
+ {
+  "c": 20,
+  "drop": [
+   "israel",
+   "bamah"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob). Bamah in 20:29 is a wordplay on the Hebrew for \"high place\", not a town, so Bible Atlas's dot near Gibeon does not belong here."
+ },
+ {
+  "c": 25,
+  "drop": [
+   "moab",
+   "esau",
+   "east"
+  ],
+  "why": "Here Moab means the nation and its land, not the ancestor, and Edom is meant, not Esau. \"The people of the east\" in 25:4 are desert tribes, not a place on the map."
+ },
+ {
+  "c": 27,
+  "drop": [
+   "phut",
+   "javan",
+   "meshech",
+   "tubal",
+   "togarmah",
+   "dan-13",
+   "kedar",
+   "helech",
+   "sahar"
+  ],
+  "unmap": [
+   "gamad"
+  ],
+  "add": {
+   "places": {
+    "put": {
+     "name": "Put",
+     "lat": 32.824979,
+     "lon": 21.858301
+    }
+   }
+  },
+  "why": "Phut, Javan, Meshech, Tubal, Togarmah and Kedar are peoples or lands here, not the ancestors, and the places are already linked. \"Dan\" is part of the Hebrew name Vedan (27:19), a trading place, not the son of Jacob. Helech does not appear in the verse (27:11 names Arvad and Gammad), and \"Sahar\" is Bible Atlas reading the Hebrew word for \"white\" (27:18) as a place. Bible Atlas gives Gammad the same point as Arvad, though the site of Gammad is unknown, so no dot is drawn. Put (27:10) is added."
+ },
+ {
+  "c": 28,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 30,
+  "drop": [
+   "pharaoh-4",
+   "libya"
+  ],
+  "why": "Bible Atlas's Pharaoh-4 is the Pharaoh of the Exodus; Ezekiel's Pharaoh (30:21-25) is the king of his own day, already linked as Pharaoh Hophra. Libya is another name for Put, which the verse names, so it has no separate link here."
+ },
+ {
+  "c": 32,
+  "drop": [
+   "esau",
+   "meshech",
+   "tubal"
+  ],
+  "add": {
+   "places": {
+    "meshech-2": {
+     "name": "Meshech",
+     "lat": 46,
+     "lon": 47
+    },
+    "tubal-2": {
+     "name": "Tubal",
+     "lat": 40.905222,
+     "lon": 37.799969
+    }
+   }
+  },
+  "why": "Edom is meant at 32:29, not Esau, and Meshech and Tubal (32:26) are peoples and lands, not ancestors. Bible Atlas gives the combined \"Meshech-Tubal\" a point far from either land; the two lands are linked on their own points instead."
+ },
+ {
+  "c": 35,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 37,
+  "drop": [
+   "ephraim",
+   "joseph",
+   "israel"
+  ],
+  "why": "In the two sticks of 37:16-19, Joseph, Ephraim and Israel mean the northern tribes, the southern kingdom and the nation, not the ancestors."
+ },
+ {
+  "c": 38,
+  "drop": [
+   "magog",
+   "meshech",
+   "tubal",
+   "gomer",
+   "togarmah"
+  ],
+  "add": {
+   "places": {
+    "put": {
+     "name": "Put",
+     "lat": 32.824979,
+     "lon": 21.858301
+    }
+   }
+  },
+  "why": "Magog, Meshech, Tubal, Gomer and Togarmah are lands and peoples here (Gog is the person), and the places are already linked. Put (38:5) is added. This translation reads \"chief leader of Meshech and Tubal\", so Rosh is not added as a place; some translations take Rosh as a third nation."
+ },
+ {
+  "c": 39,
+  "drop": [
+   "magog",
+   "meshech",
+   "tubal",
+   "israel"
+  ],
+  "why": "Magog, Meshech and Tubal are lands and peoples here, not ancestors; Gog is the person. In 39:11 Israel is the land."
+ },
+ {
+  "c": 40,
+  "drop": [
+   "levi"
+  ],
+  "why": "Here the sons of Levi are the priestly tribe, not the ancestor."
+ },
+ {
+  "c": 41,
+  "unmap": [
+   "most-holy-place-2",
+   "holy-place-2"
+  ],
+  "why": "These are rooms in the temple Ezekiel sees in a vision. Bible Atlas places them on the Temple Mount, but readers differ on whether the vision describes a future building, a symbol or an ideal of the first temple, so no dot is drawn."
+ },
+ {
+  "c": 42,
+  "unmap": [
+   "holy-place-2"
+  ],
+  "why": "This is a room term in the temple of Ezekiel's vision. Bible Atlas puts it on the Temple Mount, but readers differ on how the vision relates to any building, so no dot is drawn."
+ },
+ {
+  "c": 43,
+  "drop": [
+   "israel"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob)."
+ },
+ {
+  "c": 44,
+  "drop": [
+   "israel"
+  ],
+  "unmap": [
+   "holy-place-2"
+  ],
+  "why": "Here Israel means the nation or people, not the patriarch Israel (Jacob). The holy place is part of the temple of Ezekiel's vision; readers differ on how it relates to any building, so no dot is drawn."
+ },
+ {
+  "c": 45,
+  "unmap": [
+   "most-holy-place-2",
+   "holy-place-2"
+  ],
+  "why": "These are parts of the temple and its district in Ezekiel's vision. Readers differ on whether it describes a future building, a symbol or an ideal, so no dot is drawn at the Temple Mount."
+ },
+ {
+  "c": 47,
+  "drop": [
+   "joseph",
+   "israel"
+  ],
+  "unmap": [
+   "great-sea"
+  ],
+  "why": "Here Joseph means the two tribes of Ephraim and Manasseh, and Israel the nation and land, not the ancestors. Bible Atlas puts the Great Sea in the middle of the Mediterranean, far west of the coast the text means, so no dot is drawn."
+ },
+ {
+  "c": 48,
+  "drop": [
+   "dan-13",
+   "asher",
+   "naphtali",
+   "manasseh",
+   "reuben",
+   "benjamin-5",
+   "simeon",
+   "issachar",
+   "zebulun",
+   "gad",
+   "levi",
+   "joseph",
+   "israel",
+   "there"
+  ],
+  "unmap": [
+   "great-sea"
+  ],
+  "why": "These are the tribes and their land portions and the city gates named for them, not the ancestors. \"There\" is part of the city's name \"The LORD Is There\" (48:35), not a place. Bible Atlas puts the Great Sea in the middle of the Mediterranean, far west of the coast the text means, so no dot is drawn."
+ }
+]

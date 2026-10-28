@@ -1,0 +1,7 @@
+Status: reviewed, published
+
+Planned 2026-10-28: prophets lane, one part (154 verses, flat folder like Sng, writer owns book.json); lenses H C J X L (F dropped, justified in the brief); five poems with acrostics in chs 1-4 (ch 3 triple) shown by notes, letter headings in ch 3 and a letter table per chapter page, ch 5 not an acrostic; brief tools/brief-lam.md; atlas harvest later by the lead.
+
+Written 2026-10-28 by one book-writer: plain.txt (154 verses), book.json, 137 notes, 14 variants, 36 glosses, 5 chapter pages with 14 settings cards, 4 traditions cards (book: suffering and sin; 3:37 providence; 3:64 prayers for repayment; 5:7 inherited guilt), 45 topic contributions, 5 new topic cores in proposals/prophets (lamentations, ninth-of-av, daughter-zion, five-scrolls, city-laments), 15 new terms in proposals/prophets/terms.json. `--check Lam` 0 errors, 0 warnings. Hostile review, fixes and atlas harvest still to do.
+Fixed 2026-10-28 by review-fixer: 18 review findings applied (5 major, 13 minor); 5:11 now plain (raped); Vulgate preface, 3:22 variant, 4Q111 1:17-18 plus added; first-person admissions removed. `--check Lam` 0 errors, 0 warnings.
+- 2026-10-28: hostile review applied (5 major, 13 minor; see review.md 'Fixes applied'); atlas corrections written (content/atlas/corrections/Lam.json); check Lam 0 errors, 0 warnings. Open for the lead: 5:11 is plain ('raped') while the shared term 'dishonor' covers 'innah elsewhere; see content/proposals/prophets/terms.json.

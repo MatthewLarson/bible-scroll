@@ -1,0 +1,381 @@
+[
+ {
+  "v": "8:1",
+  "a": "in the sixth month",
+  "t": "Sixth month or fifth month?",
+  "p": "Codex Vaticanus gives the fifth month; the Hebrew has the sixth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, AD 1008)",
+    "orig": "בַּשִּׁשִּׁי (bashshishshi)",
+    "en": "in the sixth month",
+    "plain": "in the sixth month"
+   },
+   {
+    "w": "Greek, as printed in Swete's edition from Codex Vaticanus (about AD 350)",
+    "orig": "ἐν τῷ πέμπτῳ μηνί",
+    "en": "in the fifth month",
+    "plain": "in the fifth month"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has \"sixth\". The Greek \"fifth\" has no known source: it may be a copyist's slip, or it may reflect a different Hebrew date. It does not come from the call vision, which is dated to the fourth month (1:1).",
+  "b": "The Greek here is Swete's printed text of Codex Vaticanus; the Göttingen edition may show other manuscripts.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "a form that looked like fire",
+  "t": "Fire or a man?",
+  "p": "The Hebrew says \"fire\" twice; the Greek has \"a man\", as Ezekiel 1:27 suggests.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the KJV",
+    "orig": "אֵשׁ (esh)",
+    "en": "a likeness like the appearance of fire",
+    "plain": "a form that looked like fire"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "ἀνδρός (andros)",
+    "en": "a likeness of a man",
+    "plain": "a form that looked like a man"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading: \"fire\" comes first and then \"his hips\" with no person named. Changing one letter (<i>ish</i> \"man\" for <i>esh</i> \"fire\") would clean it up, and the Greek may have done that. The Hebrew gives a sense, so the Plain keeps it.",
+  "b": "The two words differ by one letter. The call vision (1:26-27) has a figure \"with the appearance of a man\" that is fire from the hips down, which is the picture the Greek reading restores here.",
+  "s": [
+   "swete-lxx",
+   "zimmerli-ezekiel1"
+  ]
+ },
+ {
+  "v": "8:16",
+  "a": "about twenty-five men",
+  "t": "Twenty-five or twenty?",
+  "p": "The Greek of Codex Vaticanus has \"about twenty\" in the scene at the temple door.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֶשְׂרִים וַחֲמִשָּׁה (esrim vachamishah)",
+    "en": "about twenty-five men",
+    "plain": "about twenty-five men"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "ὡς εἴκοσι ἄνδρες",
+    "en": "about twenty men",
+    "plain": "about twenty men"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the only reading with a clear source; the Greek may have dropped \"five\" by accident.",
+  "b": "Twenty-five is also the number of leaders at the east gate in 11:1. The place, \"between the porch and the altar\", is where the priests stand to weep in Joel 2:17, so some think these are priests.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "8:17",
+  "a": "Look, they send the branch to their nose!",
+  "t": "The branch to the nose, or sneering?",
+  "p": "The Hebrew has a puzzling gesture; Codex Vaticanus has a word for turning up the nose.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהִנָּם שֹׁלְחִים אֶת הַזְּמוֹרָה אֶל אַפָּם",
+    "en": "they are sending the branch to their nose",
+    "plain": "Look, they send the branch to their nose!"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "καὶ ἰδοὺ αὐτοὶ ὡς μυκτηρίζοντες",
+    "en": "and look, they are like people sneering",
+    "plain": "Look, they are like people sneering!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder text, and the Greek reads like a guess at an unclear gesture. The Plain keeps the Hebrew.",
+  "b": "Greek <i>mykterizo</i> means \"turn up the nose at, sneer\". The Hebrew gesture is unexplained; see the note on \"the branch\".",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "a scribe's writing case at his hips",
+  "t": "A writing case or a sapphire belt?",
+  "p": "The Hebrew has a scribe's case; the Greek of Codex Vaticanus reads \"a belt of sapphire\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "קֶסֶת הַסֹּפֵר בְּמָתְנָיו (qeset hassofer)",
+    "en": "a scribe's writing case at his hips",
+    "plain": "a scribe's writing case at his hips"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "ζώνη σαπφείρου ἐπὶ τῆς ὀσφύος αὐτοῦ",
+    "en": "a belt of sapphire on his hips",
+    "plain": "a belt of sapphire at his hips"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Qeset</i> is a rare word, probably borrowed from Egyptian (a scribe's palette); the Greek translator seems not to have known it and wrote \"sapphire belt\", the stone of the throne in 1:26. The Hebrew is the only text that makes sense of a man sent to record the faithful, so the Plain follows it.",
+  "b": "The same Hebrew word recurs in 9:3 and 9:11. The Greek has a belt in all three places, so it was a deliberate reading, not a slip.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "10:8",
+  "a": "the shape of a human hand",
+  "t": "One hand or hands of a man?",
+  "p": "The scroll 4Q73 has a yod where the Masoretic Text has \"hand\"; it may be only spelling.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יַד אָדָם (yad adam)",
+    "en": "the hand of a human",
+    "plain": "the shape of a human hand"
+   },
+   {
+    "w": "4QEzek-a (4Q73), Abegg, Bowley and Cook transcription",
+    "orig": "ידי (yadei)",
+    "en": "the hands of (a human), or a longer spelling of \"hand\"",
+    "plain": "the shape of human hands"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's extra letter can mark the plural \"hands of\" or can simply be a fuller spelling; the neighbouring words of the line are restored by the editors and are not cited here. The Plain follows the Masoretic Text.",
+  "b": "4Q73 also differs from the Masoretic Text in spelling at 10:21, where the sense does not change.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "10:14",
+  "a": "Each had four faces. The first face was the face of a cherub, the second was the face of a human, the third was the face of a lion, and the fourth was the face of an eagle.",
+  "t": "Is 10:14 in the Greek?",
+  "p": "Codex Vaticanus has no text for 10:14, the verse that gives \"cherub\" where chapter 1 has \"ox\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QEzek-a (4Q73) preserves parts of this verse but the word \"cherub\" in it is restored by its editors",
+    "orig": "פְּנֵי הַכְּרוּב (penei hakkerub)",
+    "en": "the first face was the face of a cherub",
+    "plain": "Each had four faces. The first face was the face of a cherub, the second was the face of a human, the third was the face of a lion, and the fourth was the face of an eagle."
+   },
+   {
+    "w": "Greek, as printed in Swete's edition from Codex Vaticanus (about AD 350)",
+    "orig": "(no text)",
+    "en": "verse omitted",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verse is the only text of the verse, and the 4Q73 fragment shows that the verse stood in a Hebrew copy centuries before Vaticanus, although the key word is restored there. The Greek omission may be a deliberate or accidental dropping of a puzzling verse that contradicts 1:10.",
+  "b": "This verse is the one place where an \"ox\" of chapter 1 becomes a \"cherub\". The Greek reading of 1:10 and its relation to 10:14 are discussed in the Greek text-critical literature; this Plain reports only what Swete's Vaticanus text shows.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "11:11",
+  "a": "This city will not be a pot for you, and you will not be meat in the middle of it. I will judge you at the border of Israel.",
+  "t": "Is 11:11-12 in the Greek?",
+  "p": "Codex Vaticanus has no 11:11-12; the Hebrew has both. This variant goes with the one at 11:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QEzek-a (4Q73) preserves part of 11:11 and agrees with it",
+    "orig": "הִיא לֹא תִהְיֶה לָכֶם לְסִיר (hi lo tihyeh lakhem lesir)",
+    "en": "This city will not be a pot for you...",
+    "plain": "This city will not be a pot for you, and you will not be meat in the middle of it. I will judge you at the border of Israel."
+   },
+   {
+    "w": "Greek, as printed in Swete's edition from Codex Vaticanus (about AD 350)",
+    "orig": "(no text)",
+    "en": "verses omitted",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The cause of the Greek gap is unknown. The verses around it share the recognition formula (\"you will know that I am the LORD\", 11:10, 12), which could invite a skip, but a skip would not by itself explain the loss of 11:11 as well. The Greek may reflect a shorter Hebrew text. The scroll 4Q73 shows that 11:11 stood in a Hebrew copy centuries before the earliest Greek witness.",
+  "b": "The omitted verses repeat 11:7-10 in other words. The Greek text of 11:13 follows directly on 11:10.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "11:12",
+  "a": "Then you will know that I am the LORD, whose rules you have not followed and whose rulings you have not done. Instead you have acted according to the rulings of the nations around you.\"",
+  "t": "Is 11:11-12 in the Greek?",
+  "p": "Codex Vaticanus has no 11:12 either. This variant goes with the one at 11:11.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וִידַעְתֶּם כִּי אֲנִי יְהוָה (vida'tem ki ani YHWH)",
+    "en": "Then you will know that I am the LORD...",
+    "plain": "Then you will know that I am the LORD, whose rules you have not followed and whose rulings you have not done. Instead you have acted according to the rulings of the nations around you.\""
+   },
+   {
+    "w": "Greek, as printed in Swete's edition from Codex Vaticanus (about AD 350)",
+    "orig": "(no text)",
+    "en": "verse omitted",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "No scroll preserves 11:12, so the Hebrew rests on the Masoretic Text alone. The verse fits 5:7 and 20:18 (you have not walked in my rules). The cause of the Greek gap is unknown; see the entry at 11:11.",
+  "b": "With the two verses missing, the Greek jumps from the sword at the border (11:10) to Pelatiah's death (11:13).",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "11:15",
+  "a": "the men of your redemption",
+  "t": "Redemption or exile?",
+  "p": "The Hebrew has ge'ullah, \"redemption\"; Codex Vaticanus has \"captivity\", which suits the sense.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "גְאֻלָּתֶךָ (ge'ullatekha)",
+    "en": "the men of your redemption",
+    "plain": "the men of your redemption"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "αἰχμαλωσίας σου",
+    "en": "the men of your captivity",
+    "plain": "the men of your exile"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading, and the Greek reads like a repair that fits the context (the exiles). The Plain keeps the Hebrew and explains it.",
+  "b": "The Hebrew <i>ge'ullah</i> and <i>galut</i> (\"exile\") have different consonants. The Greek translator may have read <i>galut</i> or may have chosen a sense he found easier.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "11:19",
+  "a": "one heart",
+  "t": "One heart, another heart, or a new heart?",
+  "p": "The Hebrew says one heart; the Greek and some witnesses say another. 36:26 has new.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); supported by Jeremiah 32:39",
+    "orig": "לֵב אֶחָד (lev echad)",
+    "en": "one heart",
+    "plain": "one heart"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "καρδίαν ἑτέραν",
+    "en": "another heart",
+    "plain": "another heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text has a sense (an undivided heart) with a parallel in Jeremiah 32:39. \"Another\" may come from a copyist who changed one letter (<i>echad</i> to <i>acher</i>) to match 36:26 \"new\".",
+  "b": "The two Hebrew words differ in one letter (dalet and resh look alike). No scroll preserves 11:19.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "12:26",
+  "a": "The word of the LORD came to me:",
+  "t": "Are 12:26-28 in the oldest Greek?",
+  "p": "Papyrus 967 is reported to lack 12:26-28, which repeat 12:21-25.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Greek of Codex Vaticanus as printed in Swete",
+    "orig": "(Hebrew and Greek text)",
+    "en": "verses present",
+    "plain": "The word of the LORD came to me:"
+   },
+   {
+    "w": "Papyrus 967 (early third century AD), reported by Filson (1943) to lack 12:26-28",
+    "orig": "(no text)",
+    "en": "verses omitted",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and Codex Vaticanus both have the verses, and no Hebrew copy lacks them. Some scholars think the shorter text of Papyrus 967 is earlier and that 12:26-28 are a later repetition of 12:21-25; others think it dropped them. Because three whole verses are missing, a copyist's eye skipping between similar phrases is a weaker explanation than a deliberate or editorial cut. The Plain follows the Hebrew.",
+  "b": "No Dead Sea scroll preserves chapter 12. The papyrus is cited as reported by Filson, who first noted the omission; the Greek of Codex Vaticanus (Swete) has the verses. The shorter Greek text of Ezekiel is studied in Tov's article.",
+  "s": [
+   "filson-967",
+   "tov-ezekiel-recensional",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "13:18",
+  "a": "the joints of my hands",
+  "t": "My hands or their hands?",
+  "p": "The Hebrew says my hands; the Greek has the hand and no pronoun.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אַצִּילֵי יָדָי ('atsilei yadai)",
+    "en": "the joints of my hands",
+    "plain": "the joints of my hands"
+   },
+   {
+    "w": "Greek (Codex Vaticanus, in Swete)",
+    "orig": "πάντα ἀγκῶνα χειρός",
+    "en": "every elbow of the hand",
+    "plain": "the joints of the hands"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the only Hebrew text and has a clear but odd sense. \"My\" is likely a slip for \"their\" or for a plural ending, and the Greek has no pronoun, but the Greek is loose in this verse (it also has \"pillows\"). The Plain keeps the Hebrew and flags the problem.",
+  "b": "If \"my hands\" is original, the LORD speaks of his own hands and of the people as his own, so that the bands are put on his people through their hands. Most commentators treat it as a scribal error.",
+  "s": [
+   "swete-lxx",
+   "block-ezekiel1"
+  ]
+ },
+ {
+  "v": "14:4",
+  "a": "when he comes",
+  "t": "\"In it\" or \"he who comes\"?",
+  "p": "The written text (Ketiv) has \"in it\"; the reading tradition (Qere) has \"he who comes\".",
+  "readings": [
+   {
+    "w": "Qere (the Masoretes' reading tradition, Leningrad Codex)",
+    "orig": "בָּא (ba')",
+    "en": "he who comes, as he comes",
+    "plain": "when he comes"
+   },
+   {
+    "w": "Ketiv (the consonants written in the Leningrad Codex)",
+    "orig": "בָּהּ (bah)",
+    "en": "in it, by it",
+    "plain": "in it"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ketiv \"in it\" has no clear referent in the sentence; the Qere \"he who comes\" fits the man who comes to the prophet. The Plain follows the Qere. Compare 14:7, where the Hebrew says the LORD answers \"in my own person\" (<i>bi</i>), a different word.",
+  "b": "This pair is listed because it changes the sense; the other Ketiv and Qere pairs in these chapters are only spelling.",
+  "s": [
+   "block-ezekiel1"
+  ]
+ }
+]

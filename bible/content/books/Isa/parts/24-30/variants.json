@@ -100,16 +100,23 @@
     "plain": "in the water of a manure pit"
    },
    {
-    "w": "Qere (the Masoretic reading tradition), as pointed in the Leningrad Codex",
+    "w": "Qere (the Masoretic reading tradition), as pointed in the Leningrad Codex; the reading most English versions translate",
     "orig": "בְּמוֹ מַדְמֵנָה",
     "en": "in a dung pit",
     "plain": "in a manure pit"
+   },
+   {
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus)",
+    "orig": "ὃν τρόπον πατοῦσιν ἅλωνα ἐν ἁμάξαις",
+    "en": "as they tread a threshing floor with wagons",
+    "plain": "the way a threshing floor is trodden by wagons"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the written text, which 1QIsa-a also has (במי), because the water explains the swimming picture of 25:11. The Qere bemo is a poetic form of \"in.\"",
+  "why": "The Plain follows the written text, which 1QIsa-a also has (במי), because the water explains the swimming picture of 25:11. The Qere bemo is a poetic form of \"in.\" The Qere is what the Leningrad Codex points and what most English versions follow. The Greek differs again (\"with wagons,\" ἐν ἁμάξαις), apparently reading a form of merkavah, \"chariot,\" for madmenah.",
   "s": [
-   "parry-qimron-isaiah"
+   "parry-qimron-isaiah",
+   "swete-lxx"
   ]
  },
  {
@@ -190,7 +197,7 @@
    }
   ],
   "follow": 0,
-  "why": "The command form of the Masoretic Text and 4QIsa-b is the more striking reading, a word spoken directly to the dead, and the scroll and the Greek look like smoothing into a statement that matches \"will live\" and \"will stand up.\"",
+  "why": "The command form of the Masoretic Text and 4QIsa-b is the more striking reading, a word spoken directly to the dead, and the scroll and the Greek look like smoothing into a statement that matches \"will live\" and \"will rise.\"",
   "s": [
    "parry-qimron-isaiah",
    "abegg-dssb",
@@ -201,7 +208,7 @@
   "v": "26:20",
   "a": "your door",
   "t": "One door or two?",
-  "p": "The written Hebrew and two Qumran scrolls have \"your doors\"; the Masoretic reading tradition has \"your door.\"",
+  "p": "The written Hebrew and the Great Isaiah Scroll have \"your doors\"; the Masoretic reading tradition has \"your door.\" (4QIsa-b is restored at this word.)",
   "readings": [
    {
     "w": "Qere (the Masoretic reading tradition), as pointed in the Leningrad Codex; Old Greek",
@@ -210,7 +217,7 @@
     "plain": "your door"
    },
    {
-    "w": "Ketiv (the written consonants of the Masoretic Text); 1QIsa-a; 4QIsa-b (4Q56); KJV",
+    "w": "Ketiv (the written consonants of the Masoretic Text); 1QIsa-a; KJV",
     "orig": "דלתיך",
     "en": "your doors",
     "plain": "your doors"
@@ -227,23 +234,23 @@
   "v": "27:2",
   "a": "A delightful vineyard",
   "t": "A vineyard of delight, or of wine?",
-  "p": "The Masoretic Text has chemed, \"delight\"; the Great Isaiah Scroll and some Hebrew manuscripts have chemer, \"wine\" (KJV \"red wine\").",
+  "p": "The Leningrad Codex has chemed, \"delight\"; the Aleppo Codex, the Great Isaiah Scroll and the printed Rabbinic Bible have chemer, \"wine\" (KJV \"red wine\").",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex); Old Greek (\"a beautiful vineyard\")",
+    "w": "Leningrad Codex (BHS, BHQ); Old Greek (\"a beautiful vineyard\")",
     "orig": "כֶּרֶם חֶמֶד",
     "en": "a vineyard of delight",
     "plain": "A delightful vineyard"
    },
    {
-    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC), written with an extra vowel letter; some medieval Hebrew manuscripts, as reported in BHS; KJV",
+    "w": "Aleppo Codex and the Ben Chayyim Rabbinic Bible (as the STEPBible apparatus reports), hence the KJV; Great Isaiah Scroll (1QIsa-a, about 125 BC), written with an extra vowel letter; many medieval Hebrew manuscripts",
     "orig": "כרם חמר",
     "en": "a vineyard of foaming wine",
     "plain": "A vineyard of red wine"
    }
   ],
   "follow": 0,
-  "why": "The Hebrew letters d and r look almost the same and are often confused. \"Delight\" has the Leningrad Codex and the Greek, and recalls the pleasant planting of 5:7. \"Wine\" fits a vineyard well and has the support of the scroll, so the choice is close.",
+  "why": "The Hebrew letters d and r look almost the same and are often confused, and the Masoretic tradition itself is split. \"Delight\" has the Leningrad Codex and the Greek, and recalls the pleasant planting of 5:7. \"Wine\" fits a vineyard well and has the Aleppo Codex, the scroll and the Hebrew text behind the KJV. The Plain keeps \"delightful\" and so goes against the Aleppo Codex; the choice is close.",
   "s": [
    "parry-qimron-isaiah",
    "bhs-elliger",
@@ -263,7 +270,7 @@
     "plain": "I have laid"
    },
    {
-    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC), meyassed; 1QIsa-b (1Q8), yosed; Romans 9:33; 1 Peter 2:6",
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC), meyassed; 1QIsa-b (1Q8), yosed; Romans 9:33 and 1 Peter 2:6 agree in sense (\"I lay\")",
     "orig": "הנני מיסד",
     "en": "look, I am laying a foundation",
     "plain": "I am laying"
@@ -290,20 +297,20 @@
   "p": "The Hebrew \"will not hurry\" becomes \"will not be put to shame\" in the Greek and in the New Testament.",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 1QIsa-b; 4QIsa-f",
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 4QIsa-f (4Q60)",
     "orig": "לֹא יָחִישׁ",
     "en": "will not hurry (in panic)",
     "plain": "will not hurry"
    },
    {
-    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus); Romans 9:33; Romans 10:11; 1 Peter 2:6",
+    "w": "Old Greek (Septuagint), Swete (Codex Vaticanus); Romans 9:33, Romans 10:11 and 1 Peter 2:6 agree in sense",
     "orig": "οὐ μὴ καταισχυνθῇ",
     "en": "will not be put to shame",
     "plain": "will not be put to shame"
    }
   ],
   "follow": 0,
-  "why": "All the Hebrew witnesses agree. The Greek is either a free rendering (to hurry in panic is to be disgraced) or reflects a different Hebrew verb. Codex Vaticanus has no \"in him\"; Paul and 1 Peter have \"in him,\" which other Greek manuscripts also have, as reported in Ziegler's edition.",
+  "why": "All the Hebrew witnesses agree (the word is restored in 1QIsa-b, so that scroll is not counted). The Greek has the subjunctive \"will not be put to shame,\" while Romans and 1 Peter have the future, so they agree with it in sense, not in exact form. The Greek is either a free rendering (to hurry in panic is to be disgraced) or reflects a different Hebrew verb. Codex Vaticanus has no \"in him\"; Paul and 1 Peter have \"in him,\" which other Greek manuscripts also have, as reported in Ziegler's edition.",
   "b": "The New Testament writers follow the Greek because it was their Bible and because it made the point they wanted: those who trust in the stone will not be disgraced at the judgment.",
   "s": [
    "ziegler-isaiah",
@@ -318,7 +325,7 @@
   "p": "The Masoretic Text has kaddur, \"like a circle\"; a Qumran scroll and the Greek read kedawid, \"like David.\"",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a; 1QIsa-b (1Q8)",
+    "w": "Masoretic Text (Leningrad Codex); 1QIsa-a",
     "orig": "כַדּוּר",
     "en": "like a circle (all around)",
     "plain": "all around you"
@@ -331,12 +338,39 @@
    }
   ],
   "follow": 0,
-  "why": "The Hebrew letters r and d look nearly identical, so the two readings differ by one stroke. \"Like David\" links back to 29:1 (\"the town where David set up camp\") and is the more pointed reading; \"all around\" fits the siege picture and has the larger Hebrew support. The choice is close, and the Plain follows the Masoretic Text.",
+  "why": "The Hebrew letters r and d look nearly identical, so the two readings differ by one stroke. \"Like David\" links back to 29:1 (\"the town where David set up camp\") and is the more pointed reading; \"all around\" fits the siege picture and has the larger Hebrew support (the Leningrad Codex and the Great Isaiah Scroll against 4QIsa-k; 1QIsa-b is restored here). The choice is close, and the Plain follows the Masoretic Text.",
   "b": "If \"like David\" is original, the line says that God will besiege Jerusalem as David once did when he took it from the Jebusites (2 Samuel 5:6–9).",
   "s": [
    "abegg-dssb",
    "swete-lxx",
    "wildberger-isaiah28-39"
+  ]
+ },
+ {
+  "v": "29:5",
+  "a": "the horde of outsiders against you",
+  "t": "\"Your outsiders\" or \"your arrogant ones\"?",
+  "p": "The Leningrad Codex has zarayikh, \"your outsiders\"; the Great Isaiah Scroll has zedayikh, \"your arrogant ones,\" and the Greek \"the ungodly.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QIsa-k (4Q64)",
+    "orig": "הֲמוֹן זָרָיִךְ",
+    "en": "the horde of your outsiders",
+    "plain": "the horde of outsiders against you"
+   },
+   {
+    "w": "Great Isaiah Scroll (1QIsa-a, about 125 BC); Old Greek (\"the wealth of the ungodly\")",
+    "orig": "המון «זדיך»",
+    "en": "the horde of your arrogant ones",
+    "plain": "the horde of your arrogant ones"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters r and d look almost the same and are often confused. The Leningrad Codex and 4QIsa-k agree, and \"outsiders\" matches the foreign attackers of 25:2 and 25:5. \"Arrogant ones\" has the Great Isaiah Scroll and, in sense, the Greek, and some modern versions footnote it. The Plain follows the Masoretic Text.",
+  "s": [
+   "parry-qimron-isaiah",
+   "abegg-dssb",
+   "swete-lxx"
   ]
  },
  {
