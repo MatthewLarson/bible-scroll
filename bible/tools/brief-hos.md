@@ -1,0 +1,36 @@
+# Hosea: brief for the part writers
+
+Read tools/brief-twelve.md first (numbering, lenses, terms, parallels, textual evidence, cards, sources). Book id `Hos`, 14 chapters, 197 verses. Prophets lane. Two parts, written at the same time:
+- `parts/01-07/` (100 verses): superscription and the three marriage chapters (1-3), the LORD's lawsuit (4), priests, rulers and the Syro-Ephraimite crisis (5:1-6:6), Ephraim's mixed loyalty (6:7-7:16). **This writer owns book.json and the topic cores `hosea`, `hosea-and-gomer` and `book-of-the-twelve`.**
+- `parts/08-14/` (97 verses): the trumpet and the calf of Samaria (8), no joy in exile (9), the luxuriant vine and the days of Gibeah (10), "When Israel was a child" (11), Jacob and Ephraim (12), death and the grave (13), the call to return (14).
+
+**Lenses (all five keys):** H (8th-century northern kingdom, Jeroboam II to the Assyrian conquest), C (critical: the hard Hebrew, Judean additions, composition after 722, the marriage and the metaphors), J (Targum, Rashi, Ibn Ezra, Kimhi; Hosea 14 as haftarah before Yom Kippur; 2:19-20 at binding tefillin: check each against a printed source), X (Matthew 2:15; Romans 9:25-26; Jerome, Cyril, Theodoret, Luther, Calvin, Pusey), F (restoration of Israel, 3:4-5; 14; Romans 11).
+
+**Date.** 1:1 names Uzziah, Jotham, Ahaz, Hezekiah of Judah and Jeroboam (II) of Israel. Hosea is the only writing prophet from the north. Give the dating (about 755-722; Tiglath-pileser III; the Syro-Ephraimite war 734-732 for 5:8-6:6; alliances with Assyria and Egypt, 7:11; 8:9). Use 722 BC for Samaria's fall (the site's date; name the 721 view).
+
+**Marriage chapters (1-3).**
+- 1:2 "take a wife of prostitution (*'eshet zenunim*) and children of prostitution": the translation debates (prostitute; an Israelite woman who will be unfaithful; cult prostitution, now much disputed), whether the marriage was real, visionary or allegory, Gomer daughter of Diblaim, the three children's names (Jezreel, Lo-ruhamah, Lo-ammi), 1:4 the blood of Jezreel (2 Kings 9-10).
+- 1:10-2:1 and 2:23 the reversal; the numbering shift; Romans 9:25-26, 1 Peter 2:10. 2:2-13 the lawsuit (*rib*) and the woman's shaming: give the feminist critique and the replies (brief-twelve cautions); do not soften or defend. 2:14-23 wilderness and betrothal, the Valley of Achor as "door of hope" (Joshua 7:24-26), *ishi/ba'li* "my husband/my Baal", the covenant with the animals, betrothal "in righteousness and justice, loyal love and compassion", "I will sow her".
+- 3:1-5 buying back the woman (15 shekels of silver and about 1.5 homers of barley; Exodus 21:32), "many days" without king, prince, sacrifice, pillar, ephod, teraphim, then "David their king" (3:5 held by some critics to be a Judean addition; Jewish and Christian messianic readings, labeled). Same woman as chapter 1 or another: give views.
+
+**Hard Hebrew and places for full treatment.**
+- 4:1-3 "no knowledge of God"; 4:6 "my people are destroyed for lack of knowledge"; 4:7 "I will change their glory into shame" (a rabbinic scribal-correction list; confirm with Tov before saying more); 4:11-14 the sacred trees, men with prostitutes; 4:15 Gilgal, Beth-aven, the oath "as the LORD lives"; 4:17 "Ephraim is joined to idols".
+- 5:8-6:6 the trumpet in Gibeah (Isaiah 7; 2 Kings 15-16); 5:13 "King Jareb"; 6:1-3 "after two days he will revive us, on the third day he will raise us up" (national restoration or resurrection; 1 Corinthians 15:4 and Luke 24:46 cite no text; Targum; Jerome); 6:6 "loyal love I desire, not sacrifice" (Matthew 9:13; 12:7; 1 Samuel 15:22; Micah 6:6-8; Isaiah 1:11-17); 6:7 *ke'adam* ("like Adam", the town Adam of Joshua 3:16, or "like humans"); 6:8-9 Gilead and Shechem.
+- 7:4-7 the baker's oven (uncertain text), 7:8 "a flat loaf unturned", 7:11 "a silly dove", 7:16 "a slack bow".
+- 8:1 the eagle over the LORD's house; 8:4 "they made kings, but not by me"; 8:5-6 the calf of Samaria (1 Kings 12:28-30; topics golden-calf, bethel); 8:7 "sow the wind, reap the whirlwind"; 8:12 the Ketiv/Qere (texts/auto); 8:13-14 return to Egypt.
+- 9:3, 6, 10 (Baal-peor, Numbers 25), 9:7-8 "the prophet is a fool, the man of the spirit is mad" and "a prophet is a watchman" (who speaks? hard text), 9:9 the days of Gibeah (Judges 19), 9:11-16 no children.
+- 10:1 "a luxuriant vine" (*boqeq*: spreading, empty or plundering), 10:5-8 the calf of Beth-aven and "Mountains, cover us!" (Luke 23:30; Revelation 6:16), 10:9, 10:11-12 "sow justice, reap loyal love", 10:14 "Shalman destroyed Beth-arbel" (unidentified).
+- 11:1-11 "When Israel was a child I loved him, and out of Egypt I called my son" (Matthew 2:15; Exodus 4:22-23; the Greek reads "his children"); 11:3-4 Ephraim taught to walk, the cords of human kindness; 11:8-9 "How can I give you up, Ephraim?... my heart turns within me... I am God and not a man" (Admah and Zeboiim, Deuteronomy 29:23; topic gods-regret); 11:12 (Hebrew 12:1) "Judah still runs wild with God" (judgment or praise).
+- 12:2-6 Jacob in the womb and with the angel (Genesis 25:26; 32): the positive and negative readings of Jacob; 12:7 *kena'an* "merchant/Canaan" with false scales; 12:12-13 Jacob in Aram; Moses the prophet who brought Israel from Egypt.
+- 13:1-3 "kiss the calves" (*yishaqun 'agalim*); 13:9-11 "I gave you a king in my anger" (1 Samuel 8-12); 13:14 "Shall I ransom them from the power of Sheol?... Where, Death, are your plagues?" (question or promise; threat or victory; 1 Corinthians 15:55; the Greek, Targum, Jerome, Theodoret: label consensus and dissent); 13:16 (Hebrew 14:1) Samaria's end, told plainly.
+- 14:1-9 (Hebrew 14:2-10) "take words with you" and "the fruit of our lips" (Hebrews 13:15 follows the Greek; the Hebrew reads "bulls of our lips"; check texts/auto and 4QXII); 14:4 "I will heal their unfaithfulness"; 14:5-8 the dew, lily, cedar, olive, vine (14:8 who speaks); 14:9 the wise-man epilogue (a late addition in many scholars' view: label).
+
+**Textual evidence.** Read texts/auto/Hos.json (Ketiv/Qere at 6:10, 8:12 and others), `python tools/lxx.py Hos <ch>`, and `tools/dss.py Hos <ch>` (4QXII scrolls; say only what the printout shows). Variant entries where the sense changes or major versions footnote, for example 1:7, 4:6, 4:7, 4:18, 5:11, 6:5, 6:7, 6:9, 7:4-5, 9:13, 10:1, 10:6, 10:10, 11:2, 11:7, 11:12, 12:11, 13:5, 13:14, 14:2, 14:8. No entry for spelling.
+
+**Cards (plan):** 11:1 and Matthew 2:15 (`top: typology`), 2:23 and Romans 9:25-26 (`top: church-israel`), 13:14 and 6:2 (`top: resurrection`), 6:6 (`top: sacrifice`; only if a real difference). The marriage's nature goes in a `views` note, no card.
+
+**Topics:** cores `hosea`, `hosea-and-gomer` (check `sign-acts`, `marriage` first), `book-of-the-twelve`; contributions to baal, idolatry, golden-calf, bethel, samaria, jeroboam, assyria, egypt, covenant, marriage, hesed, repentance, remnant, resurrection, sheol, vine, church-israel, gods-regret, sin, forgiveness, high-places, teraphim, typology.
+
+**Atlas.** Done (content/atlas/Hos.json). Review: Gilgal point (coastal, wrong), Aram at 12:12, Mizpah at 5:1, nation names as people, `jezreel-2` (child's name), `baal`, `god`.
+
+**Model books:** content/books/Lam, content/books/Jer, content/books/2Ki/parts/09-17.

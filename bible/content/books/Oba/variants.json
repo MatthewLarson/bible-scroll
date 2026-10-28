@@ -1,0 +1,466 @@
+[
+ {
+  "v": "1:1",
+  "a": "We have heard a report",
+  "t": "\"We\" or \"I\" have heard?",
+  "p": "The Hebrew says \"we have heard\"; the Greek and Jeremiah 49:14 say \"I.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Dead Sea scroll 4QXIIg (4Q82), where the word is visible",
+    "orig": "שְׁמוּעָה שָׁמַעְנוּ",
+    "en": "we have heard a report",
+    "plain": "We have heard a report"
+   },
+   {
+    "w": "Greek (as printed by Swete) (Ἀκοὴν ἤκουσα); the same verse in Jeremiah 49:14 (Hebrew shama'ti, \"I have heard\")",
+    "orig": "שְׁמוּעָה שָׁמַעְתִּי",
+    "en": "I have heard a report",
+    "plain": "I have heard a report"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew text and the scroll agree on \"we,\" and \"we\" is the harder reading, since Jeremiah has \"I\" and a copyist or translator would be likely to make the two alike. The Greek may have been brought into line with Jeremiah, or may be a translator's smoothing. The Mur 88 scroll has the word restored in brackets in the printout, so it is not cited.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "raabe-obadiah"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "an envoy was sent among the nations",
+  "t": "\"Envoy\" or \"enclosure\"? (\"of Edom\" or \"to Idumea\")",
+  "p": "The Greek has a word for siege or enclosure where the Hebrew has \"envoy,\" and says \"to Idumea.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "וְצִיר בַּגּוֹיִם שֻׁלָּח",
+    "en": "and an envoy was sent among the nations",
+    "plain": "an envoy was sent among the nations"
+   },
+   {
+    "w": "Greek (as printed by Swete) (περιοχήν)",
+    "orig": "καὶ περιοχὴν εἰς τὰ ἔθνη ἐξαπέστειλεν",
+    "en": "and a siege/enclosure he sent out to the nations",
+    "plain": "a siege was sent out against the nations"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>tsir</i> (messenger) is the same word as in Jeremiah 49:14. The Greek translator seems to have read or guessed a word for a ring of siege, which does not suit the sentence. The Greek also writes \"Idumea,\" the Greek name for Edom, as the translator's own usage. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "your nest is set among the stars",
+  "t": "\"Is set\" or \"you set\"?",
+  "p": "One Dead Sea scroll and the Greek read \"you set your nest\"; the Masoretic Text has a bare form that reads \"is set.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Mur 88 (Wadi Murabba'at Minor Prophets scroll)",
+    "orig": "שִׂים קִנֶּךָ",
+    "en": "your nest is set",
+    "plain": "your nest is set among the stars"
+   },
+   {
+    "w": "4QXIIg (4Q82), as read in the Abegg-Bowley-Cook transcription; the Greek (θῇς) also has a verb \"you set\"",
+    "orig": "תָּשִׂים קִנְּךָ",
+    "en": "you set your nest",
+    "plain": "you set your nest among the stars"
+   }
+  ],
+  "follow": 0,
+  "why": "The meaning is nearly the same either way. The Masoretic reading (an unusual bare verb form) is the harder, and 4Q82 and the Greek may smooth it into a regular \"you set.\" Mur 88 agrees with the Masoretic Text. The printout shows the scroll's word without brackets, so it is a visible reading, but a single letter.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "how ruined you are",
+  "t": "\"How ruined\" or \"where would you be thrown?\"",
+  "p": "The Greek reads this cry as a question about where Edom would be thrown.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); 4QXIIg (4Q82) and Mur 88, which both have the same consonants",
+    "orig": "אֵיךְ נִדְמֵיתָה",
+    "en": "how you have been ruined",
+    "plain": "how ruined you are"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ποῦ ἂν ἀπερρίφης)",
+    "orig": "ποῦ ἂν ἀπερρίφης;",
+    "en": "where would you have been thrown away?",
+    "plain": "where would you have been thrown away"
+   }
+  ],
+  "follow": 0,
+  "why": "Both scrolls agree with the Masoretic Text, and the Hebrew makes good sense as an outcry. The Greek has a different sense, perhaps the translator's reading of the unusual verb <i>nidmeita</i> (from <i>damah</i>, to be cut off) or a freer rendering.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "Those who eat your bread set a trap under you",
+  "t": "\"Your bread\": in the Hebrew, missing in the Greek",
+  "p": "The Greek has no word for \"your bread,\" and takes the next word as \"ambush.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); 4QXIIg (4Q82) and Mur 88, which both have the word for \"your bread\"",
+    "orig": "לַחְמְךָ יָשִׂימוּ מָזוֹר תַּחְתֶּיךָ",
+    "en": "your bread they set a trap under you",
+    "plain": "Those who eat your bread set a trap under you"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ἔθηκαν ἔνεδρα ὑποκάτω σου)",
+    "orig": "ἔθηκαν ἔνεδρα ὑποκάτω σου",
+    "en": "they set an ambush under you",
+    "plain": "They set an ambush under you"
+   }
+  ],
+  "follow": 0,
+  "why": "Two ancient Hebrew scrolls and the Masoretic Text have \"your bread.\" The Greek may have passed over a puzzling phrase. The Plain keeps it and reads it as the men who share Edom's table.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "is cut off by slaughter",
+  "t": "Where does verse 9 end? (goes with verse 10)",
+  "p": "The Hebrew puts \"by slaughter\" at the end of verse 9. The Greek puts it at the start of verse 10.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (verse division); 4Q82 and Mur 88, which have the word in the printout's verse 9, though scrolls carry no verse numbers",
+    "orig": "מִקָּטֶל",
+    "en": "cut off by slaughter",
+    "plain": "is cut off by slaughter"
+   },
+   {
+    "w": "Greek (as printed by Swete) (διὰ τὴν σφαγὴν, in verse 10)",
+    "orig": "διὰ τὴν σφαγήν",
+    "en": "is cut off",
+    "plain": "is cut off"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text ends verse 9 with <i>miqqatel</i>, \"by slaughter,\" and the Plain follows it. The Greek takes the word with the reason clause that begins verse 10 (\"because of the slaughter and the wrongdoing against your brother Jacob\"). The two verses go together; see the entry at verse 10. The scrolls have no verse numbers, so the printout can only follow the Masoretic division.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "You did violence to your brother Jacob",
+  "t": "\"Violence\" or \"slaughter and wrongdoing\"? (goes with verse 9)",
+  "p": "The Greek begins verse 10 with \"because of the slaughter and the wrongdoing.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Mur 88 (words visible only in part); 4Q82 spells \"your brother\" and \"cover you\" with a long ending (-kah)",
+    "orig": "מֵחֲמַס אָחִיךָ יַעֲקֹב",
+    "en": "from violence to your brother Jacob",
+    "plain": "You did violence to your brother Jacob"
+   },
+   {
+    "w": "Greek (as printed by Swete) (διὰ τὴν σφαγὴν καὶ τὴν ἀσέβειαν ἀδελφοῦ σου Ἰακώβ)",
+    "orig": "διὰ τὴν σφαγὴν καὶ τὴν ἀσέβειαν",
+    "en": "because of the slaughter and the wrongdoing against your brother Jacob",
+    "plain": "Because of the slaughter and the wrongdoing against your brother Jacob"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek moves \"slaughter\" over from verse 9 and renders <i>chamas</i> (violence) as <i>asebeia</i> (godlessness, wrongdoing). The Hebrew is clear and the scroll's spelling differences are only spelling. This entry goes with the one at verse 9.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "through his gates",
+  "t": "\"His gate\" or \"his gates\"?",
+  "p": "The text is written \"his gate\" and read \"his gates.\" A Dead Sea scroll has the written form.",
+  "readings": [
+   {
+    "w": "Masoretic Text, Qere (what is read aloud); the Greek (πύλας, plural)",
+    "orig": "שְׁעָרָיו",
+    "en": "his gates",
+    "plain": "through his gates"
+   },
+   {
+    "w": "Masoretic Text, Ketiv (what is written in the Leningrad Codex); Mur 88, which also has the shorter spelling",
+    "orig": "שַׁעֲרוֹ",
+    "en": "his gate",
+    "plain": "through his gate"
+   }
+  ],
+  "follow": 0,
+  "why": "The Leningrad Codex writes \"his gate\" but marks it to be read \"his gates.\" Mur 88 has the shorter spelling, which can also be read as a plural without a yod. The difference is slight: a conquered city's gate or gates. The Plain follows the read form and the Greek. In 4Q82 the word is restored in brackets, so the scroll is not cited.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "the day of his misfortune",
+  "t": "\"His misfortune\" or \"strangers\"?",
+  "p": "The Greek turns the Hebrew \"his misfortune\" into \"the day of strangers.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "בְּיוֹם נָכְרוֹ",
+    "en": "on the day of his misfortune",
+    "plain": "the day of his misfortune"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ἀλλοτρίων)",
+    "orig": "ἐν ἡμέρᾳ ἀλλοτρίων",
+    "en": "on the day of strangers",
+    "plain": "the day of strangers"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>nokhro</i> is related to the root <i>nkr</i>, \"foreign, strange,\" and the Greek translator took it in that sense. This is a difference in how the word was understood, not in its consonants. The Plain follows the sense \"misfortune,\" which fits the parallel lines.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "Do not look with delight at their trouble",
+  "t": "Gate, gathering and help in the attack",
+  "p": "The Greek gives a different sense to three words in verse 13.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "אַל־תֵּרֶא גַם־אַתָּה בְרָעָתוֹ ... אַל־תִּשְׁלַחְנָה בְחֵילוֹ",
+    "en": "do not look, you too, on his calamity ... do not stretch out against his wealth",
+    "plain": "Do not look with delight at their trouble"
+   },
+   {
+    "w": "Greek (as printed by Swete) (συναγωγήν; συνεπιθῇ; δύναμιν)",
+    "orig": "μηδὲ ἐπίδῃς καὶ σὺ τὴν συναγωγὴν αὐτῶν ... μηδὲ συνεπιθῇ ἐπὶ τὴν δύναμιν αὐτῶν",
+    "en": "do not look, you too, on their gathering ... do not join in the attack on their force",
+    "plain": "Do not look, you too, on their gathering ... Do not join in the attack on their force"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has \"their gathering\" for Hebrew <i>ra'ato</i> (his calamity), \"do not join in the attack\" for <i>tishlachnah</i> (stretch out), and \"force\" for <i>chelo</i> (wealth, strength; compare verse 11). The sense of the Hebrew is clear, and the Greek differences look like a translator's interpretation. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "They will drink, they will gulp it down",
+  "t": "\"Gulp\" or \"go down\"?",
+  "p": "The Greek has \"drink and go down\" where the Hebrew has a rare verb.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Mur 88, which has the verse in part",
+    "orig": "וְשָׁתוּ וְלָעוּ",
+    "en": "and they will drink and gulp",
+    "plain": "They will drink, they will gulp it down"
+   },
+   {
+    "w": "Greek (as printed by Swete) (πίονται καὶ καταβήσονται)",
+    "orig": "πίονται καὶ καταβήσονται",
+    "en": "they will drink and come down",
+    "plain": "They will drink and go down"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>la'u</i> is rare and the Greek translator seems to have read or guessed a different verb. \"Gulp\" fits a drinking scene, and the Masoretic Text is the only Hebrew witness. 4Q82 does not preserve this verse.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "take over their own property",
+  "t": "\"Their property\" or \"those who took it from them\"?",
+  "p": "The same consonants can be read \"their possessions\" or \"those who dispossessed them.\" The Greek and a scroll point to the second.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (pointed morasheihem)",
+    "orig": "מוֹרָשֵׁיהֶם",
+    "en": "their possessions",
+    "plain": "take over their own property"
+   },
+   {
+    "w": "Mur 88 (written with a yod, מורישיהם, which allows \"their dispossessors\"); the Greek (τοὺς κατακληρονομήσαντας αὐτούς, \"those who took possession of them\")",
+    "orig": "מוֹרִישֵׁיהֶם",
+    "en": "those who dispossessed them",
+    "plain": "take over those who took them over"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic vowels give a good sense, a repeat of \"take over\" in the same line. But the Greek understood the word as a person who takes possession, and Mur 88 spells it with a yod, which fits that reading and was ambiguous before vowel marks existed. The question cannot be settled from the consonants. The Plain keeps the Masoretic reading, and the other is a real possibility.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "No one will be left of the house of Esau",
+  "t": "\"A survivor\" or \"fire-bearing\"?",
+  "p": "The Greek has a word meaning \"bearing fire\" or \"bearing grain\" where the Hebrew has \"survivor.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "וְלֹא־יִהְיֶה שָׂרִיד לְבֵית עֵשָׂו",
+    "en": "and there will be no survivor to the house of Esau",
+    "plain": "No one will be left of the house of Esau"
+   },
+   {
+    "w": "Greek (as printed by Swete) (πυροφόρος)",
+    "orig": "καὶ οὐκ ἔσται πυροφόρος τῷ οἴκῳ Ἠσαύ",
+    "en": "and there will be no fire-bearer (or grain-bearer) to the house of Esau",
+    "plain": "and there will be no one bearing fire to the house of Esau"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>sarid</i> (survivor, one left) appears in the Greek as <i>pyrophoros</i>, which is probably a loose rendering or a guess at the word. The Plain follows the Hebrew; the fire-word may have been prompted by the verb \"will be burned\" in the same verse.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:19",
+  "a": "the people of the Shephelah",
+  "t": "\"The field of Ephraim\" and the Shephelah",
+  "p": "The Greek reads \"the mountain of Ephraim\" and leaves the Shephelah as a name.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "שְׂדֵה אֶפְרַיִם ... וְהַשְּׁפֵלָה",
+    "en": "the field of Ephraim ... and the Shephelah",
+    "plain": "the people of the Shephelah"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ὄρος Ἐφράιμ; Σεφηλά)",
+    "orig": "τὸ ὄρος Ἐφράιμ ... οἱ ἐν τῇ Σεφηλά",
+    "en": "the mountain of Ephraim ... those in the Shephelah (a name)",
+    "plain": "the mountain of Ephraim ... those in the Shephelah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek reads Hebrew <i>sedeh</i> (\"field, region\") as \"mountain\" and writes the Hebrew <i>shefelah</i> as a name (Sephela) instead of translating it. The differences do not change the map. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "this army of Israelites",
+  "t": "\"This army\" or \"this beginning\"?",
+  "p": "The Greek reads \"the beginning\" where the Hebrew has an unclear word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Mur 88, which has the words visible with the same consonants",
+    "orig": "הַחֵל הַזֶּה",
+    "en": "this host (or rampart)",
+    "plain": "this army of Israelites"
+   },
+   {
+    "w": "Greek (as printed by Swete) (τῆς μετοικεσίας ἡ ἀρχὴ αὕτη)",
+    "orig": "ἡ ἀρχὴ αὕτη",
+    "en": "this beginning",
+    "plain": "this first part of the Israelites"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>hachel</i> is itself unclear, but the Masoretic Text and Mur 88 agree on the consonants. The Greek seems to have understood a different word, \"beginning.\" The Plain follows the Hebrew and treats the verse as one of the book's hardest.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "Sepharad",
+  "t": "Sepharad or Ephrathah?",
+  "p": "The Greek reads \"as far as Ephrathah.\" The Hebrew has the place name Sepharad.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); Mur 88, where the word is visible with the same consonants",
+    "orig": "בִּסְפָרַד",
+    "en": "in Sepharad",
+    "plain": "Sepharad"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ἕως Ἐφράθα)",
+    "orig": "ἕως Ἐφράθα",
+    "en": "as far as Ephrathah",
+    "plain": "Ephrathah"
+   }
+  ],
+  "follow": 0,
+  "why": "Sepharad is a rare, unfamiliar name, and the Greek translator seems to have replaced it with Ephrathah, a name from the Bethlehem area. Mur 88 shows the Hebrew name.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:21",
+  "a": "Rescuers",
+  "t": "\"Rescuers\" or \"those who are saved\"?",
+  "p": "The Greek reads \"those who are saved\"; the Hebrew has a word for \"rescuers.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008) (moshi'im)",
+    "orig": "מוֹשִׁעִים",
+    "en": "rescuers",
+    "plain": "Rescuers"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ἀνασωζόμενοι); Mur 88 has a shorter spelling that could be read either way",
+    "orig": "ἀνασωζόμενοι",
+    "en": "those who are saved, survivors",
+    "plain": "Survivors"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>moshi'im</i> is the word for the judges who saved Israel. The Greek understood a passive form, \"those who have been saved.\" Mur 88 writes the word without a vav (<i>mshy'ym</i>), which does not decide between the readings. The Plain follows the Hebrew, as the active sense suits \"to judge Mount Esau.\"",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "1:21",
+  "a": "to judge Mount Esau",
+  "t": "\"From Mount Zion\" and \"to avenge\"",
+  "p": "The Greek has \"from Mount Zion, to take vengeance on Mount Esau,\" where the Hebrew has \"on Mount Zion, to judge.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "וְעָלוּ מוֹשִׁעִים בְּהַר צִיּוֹן לִשְׁפֹּט אֶת־הַר עֵשָׂו",
+    "en": "and deliverers will go up on Mount Zion to rule Mount Esau",
+    "plain": "to judge Mount Esau"
+   },
+   {
+    "w": "Greek (as printed by Swete) (ἐξ ὄρους Σειών; ἐκδικῆσαι)",
+    "orig": "ἀναβήσονται ἀνασωζόμενοι ἐξ ὄρους Σειὼν τοῦ ἐκδικῆσαι τὸ ὄρος Ἠσαύ",
+    "en": "survivors will go up from Mount Zion to avenge Mount Esau",
+    "plain": "Survivors will go up from Mount Zion to take vengeance on Mount Esau"
+   }
+  ],
+  "follow": 0,
+  "why": "Two differences. The Greek has \"from\" for Hebrew <i>be-</i> (\"on\"), and <i>ekdikesai</i> (\"to avenge, to execute justice on\") for <i>lishpot</i> (\"to judge, rule\"). The Greek verb narrows the Hebrew to vengeance and, with \"survivors\" for \"rescuers\" (see the entry at \"Rescuers\"), points to the saved themselves and not to leaders who act for them. The Hebrew <i>shaphat</i> can mean rule as well as judge, and the Plain follows it. How a reader takes this verse (leaders, a Messiah, or the saved) is affected by the choice.",
+  "s": [
+   "swete-lxx"
+  ]
+ }
+]

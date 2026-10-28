@@ -1,0 +1,44 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "esau",
+   "israel"
+  ],
+  "why": "'Esau' in verses 6, 8, 9, 18, 19 and 21 means Edom, the nation descended from him, and 'Jacob' and 'Israel' mean the nation and its exiles, so these links to the patriarchs are dropped."
+ },
+ {
+  "c": 1,
+  "drop": [
+   "joseph",
+   "ephraim",
+   "benjamin-5"
+  ],
+  "why": "'The house of Joseph', 'Ephraim' and 'Benjamin' in 1:18-19 mean the northern tribes' people and territories, so the patriarchs' links are dropped."
+ },
+ {
+  "c": 1,
+  "unmap": [
+   "sepharad"
+  ],
+  "why": "The location of Sepharad (1:20) is uncertain. Ancient and modern scholars propose Sardis in Anatolia (where Bible Atlas puts it), or Spain in later Jewish tradition, so no dot is drawn."
+ },
+ {
+  "c": 1,
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    },
+    "canaan-2": {
+     "name": "Canaan",
+     "lat": 31.95,
+     "lon": 35.15
+    }
+   }
+  },
+  "why": "Obadiah 1:19 names the land of the Philistines and 1:20 names Canaan, which Bible Atlas does not link in this chapter."
+ }
+]

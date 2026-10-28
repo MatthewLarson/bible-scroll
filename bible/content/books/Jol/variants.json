@@ -1,0 +1,496 @@
+[
+ {
+  "v": "1:12",
+  "a": "The pomegranate, the palm and the apple",
+  "t": "Where does the pomegranate stand?",
+  "p": "The scroll 4Q78 lists the trees in a different order; the sense does not change.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Greek has the same order; Qumran 4Q82 (4QXII-g) keeps it in the words that survive",
+    "orig": "הגפן הובישה והתאנה אמללה רמון גם תמר ותפוח",
+    "en": "the vine is dry, and the fig tree wilts; pomegranate, also palm and apple",
+    "plain": "The pomegranate, the palm and the apple"
+   },
+   {
+    "w": "Qumran 4Q78 (4QXII-c), as in the Abegg, Bowley and Cook transcription: the verb \"wilts\" is restored and stands after the apple",
+    "orig": "הגפן הובישה והתאנה גם תמר ותפוח [אמללה] רמון",
+    "en": "the vine is dry, and the fig tree; also palm and apple; [wilts] pomegranate",
+    "plain": "(The pomegranate comes after the palm and the apple.)"
+   }
+  ],
+  "follow": 0,
+  "why": "The same trees are named in both orders. The scroll's order may be a scribe's change or a different line of copying; the words visible in 4Q78 do not decide it, since the verb \"wilts\" is restored, and 4Q82 and the Greek agree with the Masoretic Text. The Plain follows the Masoretic Text.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "Seeds lie shriveled beneath their clods of earth.",
+  "t": "Seeds under clods, or heifers in stalls?",
+  "p": "The Hebrew has rare words for the seeds and the clods. The Greek reads \"heifers\" and \"mangers\"; the Qumran scroll 4Q78 writes the second word in a way that can be read \"heifers\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008)",
+    "orig": "עָבְשׁוּ פְרֻדוֹת תַּחַת מֶגְרְפֹתֵיהֶם",
+    "en": "the seeds shrivel under their clods",
+    "plain": "Seeds lie shriveled beneath their clods of earth."
+   },
+   {
+    "w": "Qumran 4Q78 (4QXII-c), first two words only, as in the Abegg, Bowley and Cook transcription (the rest of the verse matches the Masoretic Text)",
+    "orig": "עפשו פורות",
+    "en": "'afshu purot: the first word spelled with p; the second without the d (can be read parot, \"heifers\", or perudot with a letter lost)",
+    "plain": "Seeds (or heifers) lie shriveled."
+   },
+   {
+    "w": "Greek (as printed by Swete from Codex Vaticanus)",
+    "orig": "ἐσκίρτησαν δαμάλεις ἐπὶ ταῖς φάτναις αὐτῶν",
+    "en": "the heifers leaped on their mangers",
+    "plain": "Heifers leap about on their mangers."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew gives a clear picture of dry fields: seeds that rot or shrivel in the lumps of earth. The Greek translator probably read the rare word as \"heifers\" (<i>parot</i>) and the clods as \"mangers\", a meaning that does not fit the rest of the verse, which is about stored and sown grain. Jerome's Latin Bible has a third reading, in which the animals rot in their dung. The scroll 4Q78 (4QXII-c) preserves this verse and reads the first word with a <i>p</i> where the Masoretic Text has a <i>b</i> and the second word as <i>purot</i>, without the <i>d</i> of <i>perudot</i>. That second form is exactly one that can be read <i>parot</i>, \"heifers\", which is what the Greek has, so the scroll is the best Hebrew support in the book for a Greek reading; but it can also be <i>perudot</i> spelled with a letter lost, and the scroll does not decide the meaning. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "etcbc-dss",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "Like dawn spread over the mountains",
+  "t": "Like dawn, or like blackness?",
+  "p": "The same letters can be read \"dawn\" or, by some, as a rare word for \"blackness\". Every ancient witness has \"dawn\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran 4Q82 (4QXII-g) preserves the same consonants",
+    "orig": "כְּשַׁחַר פָּרֻשׂ עַל הֶהָרִים",
+    "en": "like dawn spread over the mountains",
+    "plain": "Like dawn spread over the mountains"
+   },
+   {
+    "w": "Greek (Swete's printout, 2:2; Rahlfs 2:2)",
+    "orig": "ὡς ὄρθρος χυθήσεται ἐπὶ τὰ ὄρη",
+    "en": "like dawn will be poured out over the mountains",
+    "plain": "Like dawn it will be poured out over the mountains,"
+   },
+   {
+    "w": "A reading proposed by some scholars, not found in any manuscript: the same consonants taken as a rare word for \"blackness\"",
+    "orig": "כשחר פרש",
+    "en": "like blackness spread over the mountains",
+    "plain": "Like blackness spread over the mountains,"
+   }
+  ],
+  "follow": 0,
+  "why": "The line follows \"a day of darkness\" and \"cloud\", and a swarm of locusts can darken the sky (Exodus 10:15), so \"blackness\" would fit the picture. But the consonants of \"dawn\" are the ones every witness has, and the Hebrew and the Greek both read it so; the Plain keeps \"dawn\", with the sense of a mass that spreads quickly from the edge of the sky. The vowels are not in the scroll, so no ancient manuscript decides between the two.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd15-prophets",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "Every face loses its color.",
+  "t": "Pale faces or blackened pots?",
+  "p": "The rare word paror can mean \"color\" or \"glow\"; the Greek has \"like the scorching of a pot\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, Aleppo Codex and Leningrad Codex; Qumran 4Q82 (4QXII-g) preserves the same words",
+    "orig": "כָּל פָּנִים קִבְּצוּ פָארוּר",
+    "en": "all faces gather paror",
+    "plain": "Every face loses its color."
+   },
+   {
+    "w": "Greek (as printed by Swete from Codex Vaticanus)",
+    "orig": "πᾶν πρόσωπον ὡς πρόσκαυμα χύτρας",
+    "en": "every face like the scorching of a pot",
+    "plain": "Every face is like a blackened pot."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word is the same in Nahum 2:10 and its sense is not certain. \"Lose color\" and \"glow\" are the two old guesses; the Greek translator took the word as the Hebrew for a cooking pot, from the same letters, and read the blackening of the pot as the blackening of faces. Both readings picture faces changed by terror. The Plain follows the Hebrew with the common modern sense. The scroll 4Q82 has the words of the Masoretic Text here.",
+  "s": [
+   "swete-lxx",
+   "crenshaw-joel",
+   "djd15-prophets",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "and you will be full of them.",
+  "t": "\"You will eat\" in the Dead Sea Scroll?",
+  "p": "The Dead Sea Scroll 4Q78 appears to add \"and you will eat\" before \"and you will be full\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex, about AD 1008); the Greek has the same sense",
+    "orig": "וּשְׂבַעְתֶּם אֹתוֹ",
+    "en": "and you will be satisfied with it",
+    "plain": "and you will be full of them."
+   },
+   {
+    "w": "Qumran 4Q78 (4QXII-c), as in the Abegg, Bowley and Cook transcription: an added word before \"be satisfied\", which is itself restored",
+    "orig": "ואכלתמה [ושבעתמה] אותו",
+    "en": "and you will eat and you will be satisfied with it",
+    "plain": "and you will eat and be full of them."
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Greek agree, and the shorter text is the one the Plain follows. The scroll appears to have an extra verb, \"and you will eat\", which may be a scribe's addition from the familiar pair \"eat and be satisfied\" (Joel 2:26; Deuteronomy 6:11), or the original text. The added word is visible in the transcription and marked as differing from the Masoretic Text, but the word after it is restored, so a reader should hold the reading loosely.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "for he has done great things",
+  "t": "Who has done great things?",
+  "p": "The Hebrew leaves out the subject; the Greek makes the northern one the doer, \"he has magnified his works\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran Mur88 preserves the words \"for he has done great things\" in the same form",
+    "orig": "כִּי הִגְדִּיל לַעֲשׂוֹת",
+    "en": "for he has made great to do",
+    "plain": "for he has done great things"
+   },
+   {
+    "w": "Greek (Swete's printout, 2:20; Rahlfs 2:20)",
+    "orig": "ὅτι ἐμεγάλυνεν τὰ ἔργα αὐτοῦ",
+    "en": "for he has magnified his works",
+    "plain": "for he has made his deeds great."
+   }
+  ],
+  "follow": 0,
+  "why": "In 2:21 the same words have \"the LORD\" as the subject; in 2:20 the subject is not stated, so \"he\" may be the LORD or the northern one (compare Jeremiah 48:26). The Greek adds \"his works\" and makes the northern one the doer; the scroll Mur88 has the same words as the Masoretic Text and adds no subject (4Q78 has the clause restored). The Plain keeps the Hebrew and its doubt.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd2-mur-joel",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "the early rain to set things right",
+  "t": "The early rain, the teacher, or food?",
+  "p": "The Hebrew can mean \"the early rain\" or \"the teacher\". The Latin has \"teacher of righteousness\" and the Greek \"food for righteousness\".",
+  "readings": [
+   {
+    "w": "Masoretic Text, with Qumran 4Q78 (4QXII-c), whose consonants are the same",
+    "orig": "אֶת הַמּוֹרֶה לִצְדָקָה",
+    "en": "the early rain for righteousness (or: the teacher for righteousness)",
+    "plain": "the early rain to set things right"
+   },
+   {
+    "w": "Jerome's Vulgate (the 390s AD)",
+    "orig": "doctorem iustitiae",
+    "en": "a teacher of righteousness",
+    "plain": "a teacher of righteousness"
+   },
+   {
+    "w": "Greek (Swete's printout, 2:23; Rahlfs 2:23)",
+    "orig": "τὰ βρώματα εἰς δικαιοσύνην",
+    "en": "the food for righteousness",
+    "plain": "the food for righteousness"
+   }
+  ],
+  "follow": 0,
+  "why": "Both ancient versions read the same Hebrew letters but understood the first word differently. The Hebrew word occurs twice in the verse, and its second use, \"rain, the early rain\", is certainly rain; the second half of the verse then repeats the sense of the first. The fit with the rest of the passage, which is all about the harvest and the rains, makes \"rain\" the most likely reading, with \"teacher\" as a possible play on the word. Qumran's \"Teacher of Righteousness\" is a separate matter: the scroll 4Q78 reads this phrase as the Masoretic Text does and is silent on it.",
+  "s": [
+   "swete-lxx",
+   "jerome-twelve",
+   "etcbc-dss",
+   "djd15-prophets",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "After this, I will pour out my Spirit",
+  "t": "My Spirit, or from my Spirit?",
+  "p": "The Greek, and Acts after it, has \"I will pour out from my Spirit\" where the Hebrew has \"my Spirit\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran Mur88 preserves \"afterward\", \"my Spirit\" and \"all flesh\" in the same form",
+    "orig": "אַחֲרֵי כֵן אֶשְׁפּוֹךְ אֶת רוּחִי עַל כָּל בָּשָׂר",
+    "en": "afterward I will pour out my Spirit on all flesh",
+    "plain": "After this, I will pour out my Spirit"
+   },
+   {
+    "w": "Greek (Swete's printout, 2:28; Rahlfs 3:1)",
+    "orig": "μετὰ ταῦτα καὶ ἐκχεῶ ἀπὸ τοῦ πνεύματός μου ἐπὶ πᾶσαν σάρκα",
+    "en": "after these things I will pour out from my Spirit on all flesh",
+    "plain": "After this, I will pour out some of my Spirit on all flesh."
+   },
+   {
+    "w": "Acts 2:17 (Greek New Testament, quoting the Greek of Joel with changes)",
+    "orig": "ἐν ταῖς ἐσχάταις ἡμέραις ... ἐκχεῶ ἀπὸ τοῦ πνεύματός μου ἐπὶ πᾶσαν σάρκα",
+    "en": "in the last days ... I will pour out from my Spirit on all flesh",
+    "plain": "In the last days, I will pour out some of my Spirit on all flesh."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew object is plain: <i>'et ruchi</i>, \"my Spirit\". The Greek has <i>apo</i>, \"from\", which can mean \"some of\" and may also be only the Greek way of saying the verb with this object; the translator may not have meant a difference of sense. Peter's quotation in Acts 2:17-18 follows the Greek. How much weight the preposition carries in the debate over the Spirit's coming is a matter of interpretation. The Plain translates the Hebrew. (The Plain of Acts 2:17-18 reads \"I will pour out my Spirit\" and does not show the <i>apo</i>.)",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd2-mur-joel",
+   "bock-acts",
+   "fitzmyer-acts"
+  ]
+ },
+ {
+  "v": "2:32",
+  "a": "are the ones the LORD calls",
+  "t": "Survivors, or those who bring good news?",
+  "p": "The Greek ends the verse \"and those who bring good news, whom the LORD has called\" where the Hebrew has \"among the survivors\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); in Qumran Mur88 this word is restored, so no scroll bears on it",
+    "orig": "וּבַשְּׂרִידִים אֲשֶׁר יְהוָה קֹרֵא",
+    "en": "and among the survivors whom the LORD calls",
+    "plain": "are the ones the LORD calls"
+   },
+   {
+    "w": "Greek (Swete's printout, 2:32; Rahlfs 3:5)",
+    "orig": "καὶ εὐαγγελιζόμενοι οὓς Κύριος προσκέκληται",
+    "en": "and those who bring good news, whom the Lord has called",
+    "plain": "and those who bring good news, whom the LORD has called."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read the consonants as a form of the verb <i>basar</i>, \"bring news\", and not as <i>sarid</i>, \"survivor\". The Hebrew parallels the first half of the verse (\"survivors\" on Mount Zion) and Obadiah 17, and the Plain follows it. Paul quotes the first half of the verse in Romans 10:13 and speaks of those who bring good news in Romans 10:15, but he does not quote this clause.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd2-mur-joel",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "turn the fortunes of Judah and Jerusalem around",
+  "t": "I turn, or I bring back? A Ketiv and Qere",
+  "p": "The written Hebrew text has one verb form and the reading tradition another; the sense is the same.",
+  "readings": [
+   {
+    "w": "Qere (the form read aloud; the Masoretic Text as read)",
+    "orig": "אֲשֶׁר אָשִׁיב אֶת שְׁבוּת יְהוּדָה וִירוּשָׁלִָם",
+    "en": "when I bring back (turn around) the fortunes of Judah and Jerusalem",
+    "plain": "turn the fortunes of Judah and Jerusalem around"
+   },
+   {
+    "w": "Ketiv (the form written in the Leningrad Codex); in Qumran Mur88 the verb is restored, so the scroll cannot decide",
+    "orig": "אֲשֶׁר אָשׁוּב אֶת שְׁבוּת יְהוּדָה וִירוּשָׁלִָם",
+    "en": "when I turn back the fortunes of Judah and Jerusalem",
+    "plain": "when I turn back the fortunes of Judah and Jerusalem,"
+   },
+   {
+    "w": "Greek (Swete's printout, 3:1; Rahlfs 4:1)",
+    "orig": "ὅταν ἐπιστρέφω τὴν αἰχμαλωσίαν Ἰούδα καὶ Ἰερουσαλήμ",
+    "en": "when I turn back the captivity of Judah and Jerusalem",
+    "plain": "when I bring back the captives of Judah and Jerusalem,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ketiv <i>'ashuv</i> is the simple verb \"turn back\" and the Qere <i>'ashiv</i> the causative \"bring back, turn\"; with <i>shevut</i> the idiom <i>shuv shevut</i> is the same either way, and the sense is the same. The Plain follows the Qere, as the Masoretic reading tradition does. The Greek renders <i>shevut</i> as \"captivity\" (<i>aichmalosia</i>), which fits the reading \"bring back the captives\"; see the note. The scroll Mur88 writes \"those days\" with a different spelling (<i>hahi</i>) from the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd2-mur-joel",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "They cast lots for my people.",
+  "t": "For my people, or over my people?",
+  "p": "The scroll Mur88 and the Greek have the preposition 'al where the Masoretic Text has 'el. The sense is the same.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְאֶל עַמִּי יַדּוּ גוֹרָל",
+    "en": "and for (to) my people they cast lots",
+    "plain": "They cast lots for my people."
+   },
+   {
+    "w": "Qumran Mur88 (Wadi Murabba'at Twelve), as in the transcription",
+    "orig": "ועל עמי ידו גורל",
+    "en": "and over my people they cast lots",
+    "plain": "They cast lots over my people."
+   },
+   {
+    "w": "Greek (Swete's printout, 3:3; Rahlfs 4:3)",
+    "orig": "καὶ ἐπὶ τὸν λαόν μου ἔβαλον κλήρους",
+    "en": "and upon my people they cast lots",
+    "plain": "They cast lots over my people."
+   }
+  ],
+  "follow": 0,
+  "why": "The two prepositions are often swapped in late Hebrew and mean much the same here. <i>'Al</i> is the one that Obadiah 11 and Nahum 3:10 use with the same phrase \"cast lots\", so Mur88 and the Greek may have the more usual form; either could be original, and one scroll cannot settle it. The Plain's \"for\" fits either.",
+  "s": [
+   "etcbc-dss",
+   "djd2-mur-joel",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "and all the districts of Philistia",
+  "t": "Districts or Galilee?",
+  "p": "The Hebrew gelilot means \"districts\". The Greek read the same word as Galilee.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran Mur88 has the same words; 4Q82 (4QXII-g) has a variant spelling of the first word with the same sense",
+    "orig": "וְכֹל גְּלִילוֹת פְּלָשֶׁת",
+    "en": "and all the districts of Philistia",
+    "plain": "and all the districts of Philistia"
+   },
+   {
+    "w": "Greek (Swete's printout, 3:4; Rahlfs 4:4)",
+    "orig": "καὶ πᾶσα Γαλειλαία ἀλλοφύλων",
+    "en": "and all Galilee of the foreigners",
+    "plain": "and all Galilee of the foreigners"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>galil</i> and <i>gelilah</i> mean a circuit or district (Joshua 13:2 uses <i>gelilot</i> for the Philistine districts), and the name Galilee comes from the same word. The Greek translator read it as the northern region. The context, the coastal cities, favors the Hebrew sense.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "3:8",
+  "a": "For the LORD has spoken.",
+  "t": "\"The LORD of Armies\" in a Qumran scroll?",
+  "p": "In the transcription of 4Q78 a word meaning \"of Armies\" stands after the LORD, but it is a restoration.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran 4Q82 and Mur88 (Wadi Murabba'at Twelve) have the same words",
+    "orig": "כִּי יְהוָה דִּבֵּר",
+    "en": "for the LORD has spoken",
+    "plain": "For the LORD has spoken."
+   },
+   {
+    "w": "Qumran 4Q78 (4QXII-c), as in the Abegg, Bowley and Cook transcription: the word \"of Armies\" is shown as restored",
+    "orig": "כי יהוה [צבאות] דבר",
+    "en": "for the LORD of Armies has spoken",
+    "plain": "For the LORD of Armies has spoken."
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll fragment is damaged at this point, and the transcription marks the word \"of Armies\" as restored by the editors. A restored word cannot be called the scroll's reading, so the Plain does not follow it. If the scroll did have the longer title, it would be an expansion of the kind found elsewhere in the prophets, since \"the LORD of Armies\" is a frequent title; the Masoretic Text, the Greek and the other scrolls have the shorter form.",
+  "s": [
+   "etcbc-dss",
+   "djd15-prophets",
+   "djd2-mur-joel"
+  ]
+ },
+ {
+  "v": "3:11",
+  "a": "LORD, bring down your warriors there.",
+  "t": "\"Bring down\" or \"let the gentle be a fighter\"?",
+  "p": "The Hebrew has an unusual verb. The Greek and the Latin each read something different.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran 4Q82 and Mur88 preserve the words around the verb, but the verb itself is restored in the transcription",
+    "orig": "שָׁמָּה הַנְחַת יְהוָה גִּבּוֹרֶיךָ",
+    "en": "there bring down, LORD, your warriors",
+    "plain": "LORD, bring down your warriors there."
+   },
+   {
+    "w": "Greek (Swete's printout, 3:11; Rahlfs 4:11)",
+    "orig": "ὁ πρᾳὺς ἔστω μαχητής",
+    "en": "let the gentle man be a fighter",
+    "plain": "Let the gentle man be a fighter."
+   },
+   {
+    "w": "Jerome's Vulgate (the 390s AD)",
+    "orig": "ibi occumbere faciet Dominus robustos tuos",
+    "en": "there the Lord will make your strong ones fall",
+    "plain": "There the LORD will make your strong ones fall."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb <i>hanchat</i> is a form that occurs nowhere else; the letters can be divided or vowelled in other ways, which is what the Greek and the Latin did. The Greek reading fits the reversal of values in 3:10 (even the weakest says, \"I am a warrior\"), but it is a stretch from the Hebrew. The Masoretic Text makes a sentence, a prayer that the LORD send his own warriors, and the Plain follows it. The two scrolls that preserve the line give no independent evidence for the verb, since it is restored in both.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd15-prophets",
+   "djd2-mur-joel",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "Come down and tread",
+  "t": "Come down, or tread?",
+  "p": "The Hebrew redu can come from \"go down\" or, some think, from \"tread\". The Greek reads \"enter, tread\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran 4Q78 (4QXII-c) preserves the words \"come, redu\" with the same consonants",
+    "orig": "בֹּאוּ רְדוּ כִּי מָלְאָה גַת",
+    "en": "come, go down (or tread), for the press is full",
+    "plain": "Come down and tread"
+   },
+   {
+    "w": "Greek (Swete's printout, 3:13; Rahlfs 4:13)",
+    "orig": "εἰσπορεύεσθε, πατεῖτε, διότι πλήρης ἡ ληνός",
+    "en": "go in, tread, for the press is full",
+    "plain": "Go in and tread, for the winepress is full."
+   },
+   {
+    "w": "Jerome's Vulgate (the 390s AD)",
+    "orig": "venite et descendite quia plenum est torcular",
+    "en": "come and go down, for the press is full",
+    "plain": "Come and go down, for the press is full."
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants are the same in every witness; what differs is the root the translators heard in <i>redu</i>. The Greek chose \"tread\" and the Latin \"go down\"; the Plain keeps both in \"come down and tread\", because the Hebrew may be doing the same. The Greek also reads the Hebrew \"send in the sickle\" as \"send out sickles\" (plural), the same picture.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd15-prophets",
+   "crenshaw-joel"
+  ]
+ },
+ {
+  "v": "3:21",
+  "a": "I will clear their blood, which I had not cleared.",
+  "t": "Clear, or seek out and not acquit?",
+  "p": "The Hebrew has \"I will clear\" twice. The Greek reads \"I will seek out their blood and not acquit\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); the Vulgate has the same repetition (\"which I had not cleared\"); Qumran 4Q78 (4QXII-c) preserves \"their blood\", the second \"I cleared\" and \"and the LORD lives in Zion\", with the first verb and \"not\" restored",
+    "orig": "וְנִקֵּיתִי דָּמָם לֹא נִקֵּיתִי",
+    "en": "I will hold their blood innocent, which I did not hold innocent",
+    "plain": "I will clear their blood, which I had not cleared."
+   },
+   {
+    "w": "Greek (Swete's printout, 3:21; Rahlfs 4:21)",
+    "orig": "καὶ ἐκζητήσω τὸ αἷμα αὐτῶν καὶ οὐ μὴ ἀθῳώσω",
+    "en": "and I will seek out their blood, and I will by no means acquit",
+    "plain": "I will demand an account for their blood, and I will not acquit."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew repeats the verb, once as a promise and once as a past denial, and the sentence is hard in every way it is read. The Greek turns the first verb into \"seek out\" (the usual verb for demanding an account for blood) and the second into a flat \"I will not acquit\". It may have had a different text, or it may have made a choice. The Masoretic Text is the base of the Plain. The scroll 4Q78 preserves the second \"I cleared\" and the final clause, and agrees with the Masoretic Text in them; the first verb is restored in the transcription, so the scroll does not confirm the doubled \"I will clear\". The Plain keeps the Hebrew and puts the other reading here for the reader.",
+  "s": [
+   "swete-lxx",
+   "etcbc-dss",
+   "djd15-prophets",
+   "crenshaw-joel"
+  ]
+ }
+]

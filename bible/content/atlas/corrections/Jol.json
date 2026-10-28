@@ -1,0 +1,36 @@
+[
+ {
+  "c": 3,
+  "drop": [
+   "esau",
+   "jehoshaphat-3",
+   "israel"
+  ],
+  "why": "In 3:19 and the chapter's Edom lines the nation is meant, not the person Esau; the 'Valley of Jehoshaphat' (3:2, 12) is a name meaning 'the LORD judges', not the king Jehoshaphat; and 'Israel' in 3:2 and 3:16 means the nation (the people and inheritance), not the patriarch Jacob whom Bible Atlas links."
+ },
+ {
+  "c": 3,
+  "unmap": [
+   "valley-of-jehoshaphat"
+  ],
+  "why": "The name means 'the LORD judges' and Joel 3:2, 12 does not locate a valley on a map. The Kidron Valley point comes from a later (fourth-century) tradition, which the note at 3:2 reports, so no dot is drawn."
+ },
+ {
+  "c": 3,
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 31.65,
+     "lon": 34.65
+    },
+    "sheba-kingdom": {
+     "name": "Sheba",
+     "lat": 15.4286,
+     "lon": 45.3267
+    }
+   }
+  },
+  "why": "3:4 names the districts of Philistia (the coastal plain, drawn at its approximate centre) and 3:8 names the people of Sheba in south Arabia (drawn at Marib, the Sabean capital); Bible Atlas links neither here."
+ }
+]

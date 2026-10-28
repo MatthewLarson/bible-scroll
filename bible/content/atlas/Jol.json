@@ -1,0 +1,128 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "god",
+    "joel-17",
+    "pethuel"
+   ],
+   "events": [
+    "prophecies-of-joel"
+   ]
+  },
+  "2": {
+   "places": [
+    "zion",
+    "eden-3",
+    "jerusalem",
+    "mount-zion"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-joel"
+   ]
+  },
+  "3": {
+   "places": [
+    "jerusalem",
+    "valley-of-jehoshaphat",
+    "sidon-2",
+    "tyre",
+    "zion",
+    "valley-of-shittim",
+    "edom",
+    "egypt"
+   ],
+   "people": [
+    "jehoshaphat-3",
+    "god",
+    "israel",
+    "esau"
+   ],
+   "events": [
+    "prophecies-of-joel"
+   ]
+  }
+ },
+ "places": {
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "eden-3": {
+   "name": "Eden",
+   "lat": null,
+   "lon": null
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "mount-zion": {
+   "name": "Mount Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "valley-of-jehoshaphat": {
+   "name": "Valley of Jehoshaphat",
+   "lat": 31.772134,
+   "lon": 35.236596
+  },
+  "sidon-2": {
+   "name": "Sidon",
+   "lat": 33.560243,
+   "lon": 35.371208
+  },
+  "tyre": {
+   "name": "Tyre",
+   "lat": 33.268071,
+   "lon": 35.209358
+  },
+  "valley-of-shittim": {
+   "name": "Valley of Shittim",
+   "lat": 31.85826217905818,
+   "lon": 35.64156652792805
+  },
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "joel-17": {
+   "name": "Joel"
+  },
+  "pethuel": {
+   "name": "Pethuel"
+  },
+  "jehoshaphat-3": {
+   "name": "Jehoshaphat"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "esau": {
+   "name": "Esau"
+  }
+ },
+ "events": {
+  "prophecies-of-joel": {
+   "name": "Prophecies of Joel",
+   "date": -819
+  }
+ }
+}

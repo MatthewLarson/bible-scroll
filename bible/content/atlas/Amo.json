@@ -1,0 +1,414 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "tekoa",
+    "carmel",
+    "jerusalem",
+    "zion",
+    "damascus",
+    "gilead-4",
+    "beth-eden",
+    "kir",
+    "plain-of-aven",
+    "syria",
+    "edom",
+    "gaza",
+    "ashdod",
+    "ashkelon",
+    "ekron",
+    "tyre",
+    "bozrah",
+    "teman-3",
+    "rabbah"
+   ],
+   "people": [
+    "amos-10",
+    "jeroboam-2",
+    "joash-4",
+    "uzziah",
+    "god",
+    "ben-hadad-3",
+    "hazael",
+    "esau"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "2": {
+   "places": [
+    "edom",
+    "moab-2",
+    "kerioth",
+    "jerusalem",
+    "egypt"
+   ],
+   "people": [
+    "esau",
+    "god",
+    "moab",
+    "amorite",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "3": {
+   "places": [
+    "egypt",
+    "ashdod",
+    "samaria",
+    "bethel-of-palestine"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "4": {
+   "places": [
+    "bashan",
+    "samaria",
+    "harmon",
+    "bethel-of-palestine",
+    "gilgal",
+    "egypt",
+    "gomorrah",
+    "sodom"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "5": {
+   "places": [
+    "beersheba",
+    "bethel-of-palestine",
+    "gilgal",
+    "damascus"
+   ],
+   "people": [
+    "god",
+    "joseph"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "6": {
+   "places": [
+    "samaria",
+    "zion",
+    "calneh",
+    "gath",
+    "hamath",
+    "arabah-2",
+    "lebo-hamath"
+   ],
+   "people": [
+    "david",
+    "joseph",
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "7": {
+   "places": [
+    "bethel-of-palestine"
+   ],
+   "people": [
+    "god",
+    "israel",
+    "amos-10",
+    "isaac",
+    "jeroboam-2",
+    "amaziah-4"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "8": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "amos-10",
+    "israel",
+    "dan-13"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  },
+  "9": {
+   "places": [
+    "carmel",
+    "egypt",
+    "caphtor",
+    "kir",
+    "edom"
+   ],
+   "people": [
+    "god",
+    "israel",
+    "david",
+    "esau"
+   ],
+   "events": [
+    "prophecies-of-amos"
+   ]
+  }
+ },
+ "places": {
+  "tekoa": {
+   "name": "Tekoa",
+   "lat": 31.636092,
+   "lon": 35.215353
+  },
+  "carmel": {
+   "name": "Carmel",
+   "lat": 31.422876,
+   "lon": 35.132952
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "damascus": {
+   "name": "Damascus",
+   "lat": 33.511612,
+   "lon": 36.309102
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  },
+  "beth-eden": {
+   "name": "Beth-eden",
+   "lat": 33.519299,
+   "lon": 36.31344999999999
+  },
+  "kir": {
+   "name": "Kir",
+   "lat": 31.1813258,
+   "lon": 35.70214779
+  },
+  "plain-of-aven": {
+   "name": "Plain of Aven",
+   "lat": 34.006944,
+   "lon": 36.203889
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "gaza": {
+   "name": "Gaza",
+   "lat": 31.503959,
+   "lon": 34.46203
+  },
+  "ashdod": {
+   "name": "Ashdod",
+   "lat": 31.756038,
+   "lon": 34.656061
+  },
+  "ashkelon": {
+   "name": "Ashkelon",
+   "lat": 31.66426,
+   "lon": 34.54732
+  },
+  "ekron": {
+   "name": "Ekron",
+   "lat": 31.7776,
+   "lon": 34.85093
+  },
+  "tyre": {
+   "name": "Tyre",
+   "lat": 33.268071,
+   "lon": 35.209358
+  },
+  "bozrah": {
+   "name": "Bozrah",
+   "lat": 30.7318,
+   "lon": 35.60983
+  },
+  "teman-3": {
+   "name": "Teman",
+   "lat": 30.203813,
+   "lon": 35.732568
+  },
+  "rabbah": {
+   "name": "Rabbah",
+   "lat": 31.95522,
+   "lon": 35.94503
+  },
+  "moab-2": {
+   "name": "Moab",
+   "lat": 31.499159,
+   "lon": 35.780512
+  },
+  "kerioth": {
+   "name": "Kerioth",
+   "lat": 31.58333333,
+   "lon": 35.7
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "samaria": {
+   "name": "Samaria",
+   "lat": 32.331417,
+   "lon": 35.228586
+  },
+  "bethel-of-palestine": {
+   "name": "Bethel (of Palestine)",
+   "lat": 31.93053921,
+   "lon": 35.22103275
+  },
+  "bashan": {
+   "name": "Bashan",
+   "lat": 32.80007552505443,
+   "lon": 35.93730130476259
+  },
+  "harmon": {
+   "name": "Harmon",
+   "lat": 32.28023100000001,
+   "lon": 35.19792900000002
+  },
+  "gilgal": {
+   "name": "Gilgal",
+   "lat": 32.1547,
+   "lon": 34.95372
+  },
+  "gomorrah": {
+   "name": "Gomorrah",
+   "lat": 31.15724867,
+   "lon": 35.47395433
+  },
+  "sodom": {
+   "name": "Sodom",
+   "lat": 31.19656033,
+   "lon": 35.39648412
+  },
+  "beersheba": {
+   "name": "Beersheba",
+   "lat": 31.245,
+   "lon": 34.84068
+  },
+  "calneh": {
+   "name": "Calneh",
+   "lat": 32.127213,
+   "lon": 45.229995
+  },
+  "gath": {
+   "name": "Gath",
+   "lat": 31.6935295,
+   "lon": 34.84388289
+  },
+  "hamath": {
+   "name": "Hamath",
+   "lat": 35.1359,
+   "lon": 36.7495
+  },
+  "arabah-2": {
+   "name": "Arabah",
+   "lat": 35.136204,
+   "lon": 36.749488
+  },
+  "lebo-hamath": {
+   "name": "Lebo-hamath",
+   "lat": 34.19744,
+   "lon": 36.34204
+  },
+  "caphtor": {
+   "name": "Caphtor",
+   "lat": 35.171239,
+   "lon": 25.007204
+  }
+ },
+ "people": {
+  "amos-10": {
+   "name": "Amos"
+  },
+  "jeroboam-2": {
+   "name": "Jeroboam"
+  },
+  "joash-4": {
+   "name": "Joash"
+  },
+  "uzziah": {
+   "name": "Uzziah"
+  },
+  "god": {
+   "name": "God"
+  },
+  "ben-hadad-3": {
+   "name": "Ben-hadad"
+  },
+  "hazael": {
+   "name": "Hazael"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "moab": {
+   "name": "Moab"
+  },
+  "amorite": {
+   "name": "Amorite"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "joseph": {
+   "name": "Joseph"
+  },
+  "david": {
+   "name": "David"
+  },
+  "isaac": {
+   "name": "Isaac"
+  },
+  "amaziah-4": {
+   "name": "Amaziah"
+  },
+  "dan-13": {
+   "name": "Dan"
+  }
+ },
+ "events": {
+  "prophecies-of-amos": {
+   "name": "Prophecies of Amos",
+   "date": -787
+  }
+ }
+}

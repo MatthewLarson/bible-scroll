@@ -1,0 +1,202 @@
+[
+ {
+  "c": 1,
+  "drop": [
+   "carmel"
+  ],
+  "add": {
+   "places": {
+    "mount-carmel": {
+     "name": "Mount Carmel",
+     "lat": 32.72935016,
+     "lon": 35.04978957
+    }
+   }
+  },
+  "why": "Bible Atlas places this Carmel in the hills of Judah. Amos 1:2 pairs it with the shepherds' meadows as a mountain whose summit withers, and most readers take it to be the coastal Mount Carmel, so that mountain is linked in its place."
+ },
+ {
+  "c": 1,
+  "drop": [
+   "esau"
+  ],
+  "why": "In 1:11 'Edom' and 'his brother' mean the nation of Edom, so the patriarch Esau is not meant here."
+ },
+ {
+  "c": 1,
+  "unmap": [
+   "kir"
+  ],
+  "why": "Bible Atlas puts Kir at Kir-hareseth in Moab. Amos 1:5 means the Aramean Kir to which Damascus's people go into exile, whose location is unknown, so no dot is drawn."
+ },
+ {
+  "c": 1,
+  "unmap": [
+   "syria"
+  ],
+  "why": "'Syria' is a generic point in northern Syria. Amos 1:3-5 names Damascus and its nearby places, which are mapped separately."
+ },
+ {
+  "c": 1,
+  "add": {
+   "places": {
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    },
+    "ammon": {
+     "name": "Ammon",
+     "lat": 31.95522,
+     "lon": 35.94503
+    }
+   }
+  },
+  "why": "Amos 1:8 names the Philistines and 1:13 names the Ammonites; Bible Atlas does not link these peoples' lands in this chapter."
+ },
+ {
+  "c": 2,
+  "drop": [
+   "esau",
+   "moab"
+  ],
+  "why": "In 2:1 'Moab' is the nation, whose land is already linked as a place, and the 'Edom' of 2:1 is the nation too. The patriarch Esau and the person Moab are not meant here."
+ },
+ {
+  "c": 2,
+  "drop": [
+   "israel"
+  ],
+  "why": "'Israel' in 2:6-11 means the northern kingdom and its people, not the patriarch Jacob/Israel whom Bible Atlas links."
+ },
+ {
+  "c": 3,
+  "drop": [
+   "israel"
+  ],
+  "why": "'Israel' in 3:1, 3:12 and 3:14 means the people or the northern kingdom, not the patriarch."
+ },
+ {
+  "c": 4,
+  "drop": [
+   "israel"
+  ],
+  "why": "'Israel' in 4:5 and 4:12 means the people, not the patriarch."
+ },
+ {
+  "c": 4,
+  "unmap": [
+   "gilgal"
+  ],
+  "why": "Bible Atlas puts this Gilgal on the coastal plain. Amos pairs Gilgal with Bethel as a worship site (4:4), and most scholars look for it near the Jordan or in the hill country, so the dot is omitted."
+ },
+ {
+  "c": 5,
+  "unmap": [
+   "gilgal"
+  ],
+  "why": "Bible Atlas puts this Gilgal on the coastal plain. Amos pairs Gilgal with Bethel as a worship site (5:5), and most scholars look for it near the Jordan or in the hill country, so the dot is omitted."
+ },
+ {
+  "c": 5,
+  "drop": [
+   "joseph"
+  ],
+  "why": "'The house of Joseph' and 'the remnant of Joseph' (5:6, 5:15) mean the northern tribes and kingdom, not the patriarch Joseph."
+ },
+ {
+  "c": 6,
+  "unmap": [
+   "calneh"
+  ],
+  "why": "Bible Atlas places Calneh in southern Iraq. Amos 6:2 names it with Hamath and Gath, which points to Calneh in northern Syria, so the dot is omitted."
+ },
+ {
+  "c": 6,
+  "unmap": [
+   "arabah-2"
+  ],
+  "why": "Bible Atlas gives this 'Arabah' the same point as Hamath, which is wrong. The 'wadi of the Arabah' in 6:14 is the southern limit of the kingdom, in the rift valley south of the Dead Sea."
+ },
+ {
+  "c": 6,
+  "drop": [
+   "joseph",
+   "israel"
+  ],
+  "why": "'Joseph' in 6:6 stands for the northern kingdom (the 'ruin of Joseph'), and 'Israel' in 6:1 and 6:14 means the nation; neither means the patriarch. David in 6:5 is the king, so that link stays."
+ },
+ {
+  "c": 7,
+  "drop": [
+   "israel",
+   "isaac"
+  ],
+  "why": "'Israel' in the chapter means the northern kingdom and its people, not the patriarch. 'The high places of Isaac' and 'the house of Isaac' (7:9, 7:16) are poetic names for the same people, not the patriarch himself."
+ },
+ {
+  "c": 8,
+  "drop": [
+   "israel",
+   "dan-13"
+  ],
+  "why": "'Israel' in 8:2 means the people. 'Dan' in 8:14 is the sacred site where a calf shrine stood (a place), not the son of Jacob."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "carmel"
+  ],
+  "add": {
+   "places": {
+    "mount-carmel": {
+     "name": "Mount Carmel",
+     "lat": 32.72935016,
+     "lon": 35.04978957
+    }
+   }
+  },
+  "why": "Bible Atlas places this Carmel in the hills of Judah. Amos 9:3 means the coastal Mount Carmel, a high place with caves and dense cover, so that mountain is linked in its place."
+ },
+ {
+  "c": 9,
+  "unmap": [
+   "kir"
+  ],
+  "why": "Bible Atlas puts Kir at Kir-hareseth in Moab. Amos 9:7 means the Aramean Kir, whose location is unknown, so no dot is drawn."
+ },
+ {
+  "c": 9,
+  "add": {
+   "places": {
+    "cush-2": {
+     "name": "Cush",
+     "lat": 21.959788,
+     "lon": 31.343557
+    },
+    "philistia": {
+     "name": "Philistia",
+     "lat": 33.56316734135746,
+     "lon": 35.36634649354799
+    }
+   }
+  },
+  "why": "9:7 names the Cushites and the Philistines, whom Bible Atlas does not link in this chapter."
+ },
+ {
+  "c": 9,
+  "drop": [
+   "israel",
+   "esau",
+   "david"
+  ],
+  "why": "'Israel' means the people, 'Esau' in the chapter's Edom reference means the nation, and 'the fallen booth of David' (9:11) is read as David's dynasty or kingdom (some Christians and Jews read it as a messianic promise). The person David and the patriarchs are not named."
+ },
+ {
+  "c": 4,
+  "unmap": [
+   "harmon"
+  ],
+  "why": "The Hebrew word 'Harmon' (4:3) is obscure, and its place is unknown; the translation and the Bible Atlas point are guesses, so no dot is drawn."
+ }
+]

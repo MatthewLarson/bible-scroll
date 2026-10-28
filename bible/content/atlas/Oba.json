@@ -1,0 +1,117 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "edom",
+    "mount-of-esau",
+    "teman-3",
+    "jerusalem",
+    "mount-zion",
+    "esau-2",
+    "gilead-4",
+    "negeb",
+    "samaria",
+    "sepharad",
+    "zarephath"
+   ],
+   "people": [
+    "god",
+    "obadiah-12",
+    "esau",
+    "israel",
+    "joseph",
+    "benjamin-5",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-obadiah"
+   ]
+  }
+ },
+ "places": {
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "mount-of-esau": {
+   "name": "Mount of Esau",
+   "lat": 30.734691,
+   "lon": 35.60625
+  },
+  "teman-3": {
+   "name": "Teman",
+   "lat": 30.203813,
+   "lon": 35.732568
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "mount-zion": {
+   "name": "Mount Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "esau-2": {
+   "name": "Esau",
+   "lat": 30.734691,
+   "lon": 35.60625
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  },
+  "negeb": {
+   "name": "Negeb",
+   "lat": 30.25,
+   "lon": 34.75
+  },
+  "samaria": {
+   "name": "Samaria",
+   "lat": 32.331417,
+   "lon": 35.228586
+  },
+  "sepharad": {
+   "name": "Sepharad",
+   "lat": 38.4768269,
+   "lon": 28.11413119
+  },
+  "zarephath": {
+   "name": "Zarephath",
+   "lat": 33.4333,
+   "lon": 35.3
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "obadiah-12": {
+   "name": "Obadiah"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "joseph": {
+   "name": "Joseph"
+  },
+  "benjamin-5": {
+   "name": "Benjamin"
+  },
+  "ephraim": {
+   "name": "Ephraim"
+  }
+ },
+ "events": {
+  "prophecies-of-obadiah": {
+   "name": "Prophecies of Obadiah",
+   "date": -584
+  }
+ }
+}

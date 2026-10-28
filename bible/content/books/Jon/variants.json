@@ -1,0 +1,628 @@
+[
+ {
+  "v": "1:2",
+  "a": "their wickedness has come up in front of me",
+  "t": "Does a \"cry\" come up from Nineveh?",
+  "p": "The Greek adds \"the cry of\" before \"wickedness,\" which links the verse to Sodom's outcry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (the only scroll that preserves these words without restoration); Vulgate",
+    "orig": "כִּי־עָלְתָה רָעָתָם לְפָנָי",
+    "en": "for their wickedness has come up before me",
+    "plain": "their wickedness has come up in front of me"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "ὅτι ἀνέβη ἡ κραυγὴ τῆς κακίας αὐτῆς πρὸς μέ",
+    "en": "for the cry of its wickedness has come up to me",
+    "plain": "the cry of their wickedness has come up in front of me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the shorter reading, and the Greek addition looks like a translator or reader making the link to Genesis 18:20-21 (the \"outcry\" of Sodom, Hebrew <i>za'aqah</i>) explicit. The Hebrew is supported by Mur88, which preserves these words in full.",
+  "b": "The Greek also has \"its wickedness\" (singular, for the city) where the Hebrew has \"their\" (the people). Neither change affects the story. See the note on the verse for the word <i>ra'ah</i>.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "hurled a great wind",
+  "t": "\"Hurled\" or \"roused\" a wind?",
+  "p": "The Hebrew says the LORD hurled a wind onto the sea. The Greek says he roused a wind.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4QXIIg (4Q82)",
+    "orig": "הטיל רוח גדולה",
+    "en": "hurled a great wind",
+    "plain": "hurled a great wind"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἐξήγειρεν πνεῦμα",
+    "en": "roused a wind",
+    "plain": "roused a wind"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb <i>hetil</i> (from <i>tul</i>) returns for the cargo (1:5), for Jonah (1:12) and for the sailors' act (1:15). The Greek uses a different verb each time, so a Greek reader loses the chain. This is a translator's choice, not a different Hebrew text, and the scroll 4Q82 has the Hebrew verb.",
+  "b": "The scrolls 4Q76 and Mur88 have the verb only as restored. See the note on the verse for the thread.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "magonet-jonah"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "He had lain down and sunk into a deep sleep",
+  "t": "Asleep, or snoring?",
+  "p": "The Hebrew says Jonah lay down and fell into a deep sleep. The Greek says he was sleeping and snoring.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4QXIIg (4Q82); Murabba'at scroll Mur88",
+    "orig": "וַיִּשְׁכַּב וַיֵּרָדַם",
+    "en": "and he lay down and fell fast asleep",
+    "plain": "He had lain down and sunk into a deep sleep"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐκάθευδεν καὶ ἔρεγχεν",
+    "en": "and he was sleeping and snoring",
+    "plain": "He was sleeping and snoring"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is a free rendering of the Hebrew verb <i>radam</i>, \"fall into deep sleep,\" not a different Hebrew text; no Hebrew witness has \"snore.\" The same Greek word returns in 1:6, where the sailor asks, \"Why are you snoring?\".",
+  "b": "This is a translation difference, not a variant reading in the strict sense, but it changes the picture: the Greek Jonah is a man who sleeps heavily and noisily through a storm.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "a Hebrew",
+  "t": "\"A Hebrew\" or \"a servant of the LORD\"?",
+  "p": "The Hebrew says Jonah called himself a Hebrew. The Greek says he called himself a servant of the Lord.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scrolls 4QXIIa (4Q76) and 4QXIIg (4Q82); Murabba'at scroll Mur88; Latin Vulgate (Hebraeus)",
+    "orig": "עִבְרִי אָנֹכִי",
+    "en": "I am a Hebrew",
+    "plain": "a Hebrew"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus: \"doulos\")",
+    "orig": "Δοῦλος Κυρίου ἐγώ εἰμι",
+    "en": "I am a servant of the Lord",
+    "plain": "a servant of the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "Three Hebrew scrolls and the Masoretic Text agree on \"Hebrew,\" and it is the harder reading: foreigners (and Israelites speaking to foreigners) use the word \"Hebrew\" for the people (Genesis 39:14; Exodus 1:15; 1 Samuel 4:6), so it fits a speech to sailors. The Greek could come from a translator or from a Hebrew copy reading <i>'ebed</i> (servant) for <i>'ivri</i> (Hebrew), a mistake or a deliberate change, since the two words look alike in Hebrew script. The change also removes the Hebrews/foreigner contrast and makes Jonah's creed (\"I fear the LORD\") fit \"servant.\"",
+  "b": "The Greek spelling \"servant\" (<i>doulos</i>) is the same word used of the prophets as \"servants\" in 2 Kings 14:25 (\"his servant Jonah\"). The name \"Hebrew\" is rare in the Bible and mostly used between Israelites and outsiders. This is the one reading in Jonah where the Greek differs in a way that changes who Jonah says he is. The Targum on Jonah is later and not used here.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "tov-tchb",
+   "vulgate-weber"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "The men were filled with great fear",
+  "t": "Anything different here?",
+  "p": "The Greek and the Hebrew say the same, with only small differences in wording. The entry records that the verse was checked.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scrolls 4QXIIa (4Q76) and 4QXIIf (4Q81); Murabba'at scroll Mur88",
+    "orig": "וייראו האנשים יראה גדולה",
+    "en": "and the men feared a great fear",
+    "plain": "The men were filled with great fear"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐφοβήθησαν οἱ ἄνδρες φόβον μέγαν",
+    "en": "and the men feared a great fear",
+    "plain": "The men were filled with great fear"
+   }
+  ],
+  "follow": 0,
+  "why": "No difference of sense. The words \"he was running away from the LORD's presence, since he had already told them\" read the same in both, and 4Q81 and Mur88 preserve them.",
+  "b": "Nothing here changes how the verse is translated.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "innocent blood",
+  "t": "\"Innocent\" or \"righteous\" blood?",
+  "p": "The Hebrew says \"innocent blood.\" The Greek says \"righteous blood.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4QXIIf (4Q81)",
+    "orig": "דם נקיא",
+    "en": "innocent blood",
+    "plain": "innocent blood"
+   },
+   {
+    "w": "Murabba'at scroll Mur88 (spelled without the final aleph)",
+    "orig": "דם נקי",
+    "en": "innocent blood",
+    "plain": "innocent blood"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "αἷμα δίκαιον",
+    "en": "righteous blood",
+    "plain": "righteous blood"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew consonants for \"innocent\" (<i>naqi</i>) are clear in 4Q81 and Mur88, so the Greek is a free rendering and not another Hebrew text. \"Innocent\" says the sailors do not want to kill a man who has not been tried; \"righteous\" calls him a just man, which is less natural for a runaway prophet.",
+  "b": "The Greek also begins the prayer with \"By no means, Lord\" where the Hebrew has \"We beg you.\"",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "The LORD appointed a huge fish",
+  "t": "Appointed a fish, or ordered a sea monster?",
+  "p": "The Hebrew says the LORD appointed a great fish. The Greek says he ordered a great sea creature.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4QXIIa (4Q76); Murabba'at scroll Mur88",
+    "orig": "וימן יהוה דג גדול",
+    "en": "and the LORD appointed a great fish",
+    "plain": "The LORD appointed a huge fish"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus; Greek 2:1)",
+    "orig": "καὶ προσέταξεν Κύριος κήτει μεγάλῳ",
+    "en": "and the LORD ordered a great sea creature",
+    "plain": "The LORD ordered a great sea creature"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>dag</i> is a fish, and <i>manah</i> (\"appoint\") is the verb for the plant, the worm and the wind in chapter 4. The Greek <i>ketos</i> is a large sea creature (the word in Matthew 12:40), and its \"ordered\" (<i>prosetaxen</i>) also returns for the plant, the worm and the wind in 4:6-8, so the Greek keeps a chain of orders under a different verb.",
+  "b": "The Plain follows the Hebrew. The site's fixed wording \"a huge fish\" is used; the note on the verse says why it is not \"whale.\"",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "sasson-jonah"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "Even so, I will look again",
+  "t": "A hope or a doubt?",
+  "p": "The Hebrew says \"Yet I will look again\"; the Greek can be read as a question: \"Shall I ever look again?\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אַךְ אוֹסִיף לְהַבִּיט אֶל־הֵיכַל קָדְשֶׁךָ",
+    "en": "surely/yet I will again look toward your holy temple",
+    "plain": "Even so, I will look again"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus: \"ara\" can introduce a question)",
+    "orig": "ἄρα προσθήσω τοῦ ἐπιβλέψαι πρὸς τὸν ναὸν τὸν ἅγιόν σου",
+    "en": "Shall I indeed look again toward your holy temple?",
+    "plain": "Will I ever look again"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>akh</i> (\"yet, surely\") makes the line a statement of confidence, and the context (rescue in 2:6-7) favors it. The Greek particle <i>ara</i> can be an interrogative, which gives a doubtful question, though it can also mean \"then.\" The Hebrew verb <i>yasaf</i> (\"add\") with an infinitive means \"do again\"; the Plain says \"look again,\" not \"keep looking,\" because the point is a return of his gaze to the temple, which he feared he had lost.",
+  "b": "The scroll Mur88 preserves the key words and agrees with the Masoretic Text; in 4QXIIg (4Q82) they are restored and add nothing certain. Both readings fit Jonah's mood: he has been driven from God's sight and does not know whether he will see the temple again.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "My head was bound with seaweed",
+  "t": "\"Seaweed\" or \"the farthest deep\"?",
+  "p": "The Hebrew word suf can mean reeds or seaweed; the Greek takes it as an edge or end, \"the farthest abyss.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (4QXIIg, 4Q82, preserves only the last words)",
+    "orig": "סוּף חָבוּשׁ לְרֹאשִׁי",
+    "en": "reeds/weeds were wrapped around my head",
+    "plain": "My head was bound with seaweed"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus; the Greek divides the verses differently)",
+    "orig": "ἄβυσσος ἐκύκλωσέν με ἐσχάτη, ἔδυ ἡ κεφαλή μου",
+    "en": "the farthest abyss surrounded me; my head sank",
+    "plain": "The farthest deep closed over my head"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word <i>suf</i> means \"reeds\" (it is the first half of <i>yam suf</i>, the Sea of Reeds, in Exodus 15:4); \"seaweed\" is the natural meaning in a sea. The Greek reads it as <i>sof</i>, \"end,\" which has the same consonants. Since the Greek consonantal text was the same, the difference lies in how the word was read.",
+  "b": "The Greek 2:6 (English 2:5-6) puts the clauses in a different order, so Greek \"verse 6\" contains what the Hebrew has in two verses. The scroll Mur88 has <i>suf</i> as in the Masoretic Text; in 4Q82 that word is restored.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "But out of the Pit you brought my life up",
+  "t": "\"You brought up\" or \"let it come up\"?",
+  "p": "The Hebrew says God brought Jonah's life up from the Pit. The Greek has a wish: \"let the ruin of my life come up.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scrolls Mur88, 4QXIIg (4Q82), 4QXIIa (4Q76)",
+    "orig": "וַתַּעַל מִשַּׁחַת חַיַּי",
+    "en": "and you brought up my life from the Pit",
+    "plain": "But out of the Pit you brought my life up"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus: \"phthora\" means corruption or ruin)",
+    "orig": "καὶ ἀναβήτω φθορὰ ζωῆς μου",
+    "en": "and let the corruption of my life come up",
+    "plain": "But let the ruin of my life come up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew consonants <i>w-t-'-l</i> can be read \"you brought up\" (<i>vata'al</i>, as the Masoretes did) or as the Greek understood them, a request. The Hebrew reading fits the context of a thanksgiving (2:9) and echoes Psalm 30:3. The Greek also renders <i>shachat</i>, \"Pit,\" as <i>phthora</i>, \"corruption,\" a word close to the <i>diaphthora</i> (\"decay\") that Acts 2:27, 31 reads in Psalm 16:10, though Acts does not quote Jonah.",
+  "b": "The scroll 4QXIIg (4Q82) has one extra word, <i>nafshi</i>, \"my soul,\" after \"my life\" in this verse (the transcription marks it as different from the Masoretic Text); I build no reading on it. 4QXIIa (4Q76) and Mur88 agree with the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "My prayer came to you",
+  "t": "\"Came\" or \"let it come\"?",
+  "p": "The Hebrew says Jonah's prayer came to God. The Greek has a wish: \"let my prayer come.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "ותבוא אליך תפלתי",
+    "en": "and my prayer came to you",
+    "plain": "My prayer came to you"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἔλθοι πρὸς σὲ ἡ εὐχή μου",
+    "en": "and let my prayer come to you",
+    "plain": "And let my prayer come to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb reads as a past event, which fits a thanksgiving. The Greek takes it as a prayer, as it did at 2:6 (\"let the ruin of my life come up\"). Both scrolls (4Q82 and Mur88) have the word only as restored in the transcription, so they cannot decide; 4Q82 shows a fuller spelling of \"to you.\"",
+  "b": "The Greek also says \"vow\" (<i>euche</i>) for \"prayer\" (<i>tefillah</i>).",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "abandon their loyal love",
+  "t": "Empty nothings, or empty and false things?",
+  "p": "The Greek adds \"false\" and says they forsook \"their mercy.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88; Qumran scroll 4QXIIg (4Q82), with fuller spellings",
+    "orig": "משמרים הבלי שוא חסדם יעזבו",
+    "en": "those who guard empty nothings abandon their loyal love",
+    "plain": "abandon their loyal love"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus; Greek 2:9)",
+    "orig": "φυλασσόμενοι μάταια καὶ ψευδῆ ἔλεος αὐτῶν ἐγκατέλιπον",
+    "en": "those who guard empty and false things forsook their mercy",
+    "plain": "Those who guard empty and false things forsook their mercy"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives two words (<i>mataia</i>, \"empty,\" and <i>pseude</i>, \"false\") for the two Hebrew words <i>hevlei shav</i>, and puts the verb in the past. This reads as a translator spreading the Hebrew over two words, not as another Hebrew text; the scrolls agree with the Masoretic Text.",
+  "b": "See the note on the verse for the three readings of \"their loyal love.\" The Greek \"their mercy\" takes it as the mercy that was theirs to receive.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "sasson-jonah"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "with a voice of thanksgiving",
+  "t": "Where does \"Rescue is the LORD's\" end up?",
+  "p": "The Greek adds \"praise\" to the thanksgiving and joins the last words to the vow: \"a salvation for the Lord.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בקול תודה אזבחה לך אשר נדרתי אשלמה ישועתה ליהוה",
+    "en": "with a voice of thanksgiving I will sacrifice to you; what I vowed I will pay. Rescue is the LORD's",
+    "plain": "with a voice of thanksgiving"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus; Greek 2:10)",
+    "orig": "μετὰ φωνῆς αἰνέσεως καὶ ἐξομολογήσεως θύσω σοι, ὅσα ηὐξάμην ἀποδώσω σοι σωτηρίου τῷ κυρίῳ",
+    "en": "with a voice of praise and confession I will sacrifice to you; what I vowed I will pay you: a salvation for the Lord",
+    "plain": "With a voice of praise and thanksgiving I will sacrifice to you. Whatever I vowed I will pay you, a salvation for the Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew ends with a short cry, \"Rescue belongs to the LORD,\" set off in the Masoretic Text by a paragraph mark. The Greek runs the words into the vow sentence and gives \"salvation\" no verb. The Greek \"praise\" (<i>ainesis</i>) is an extra word beside <i>exomologesis</i>, the usual Greek for <i>todah</i>, \"thanksgiving.\" The scrolls have the ending only as restored text, so they do not decide.",
+  "b": "Psalm 3:8 has the same Hebrew cry (see the note). The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "the announcement I am telling you",
+  "t": "\"The announcement I am telling you\" or \"the former announcement\"?",
+  "p": "The Greek adds \"the former announcement\" (the one Jonah was told before). One scroll has a different word here.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (preserves the last words, \"which I am speaking to you\")",
+    "orig": "אֶת־הַקְּרִיאָה אֲשֶׁר אָנֹכִי דֹבֵר אֵלֶיךָ",
+    "en": "the announcement that I am speaking to you",
+    "plain": "the announcement I am telling you"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "κατὰ τὸ κήρυγμα τὸ ἔμπροσθεν ὃ ἐγὼ ἐλάλησα πρὸς σέ",
+    "en": "according to the former announcement that I spoke to you",
+    "plain": "the announcement I spoke to you before"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is simpler. The Greek \"former\" looks like an attempt to connect this commission with 1:2 or to fill the gap of the unspecified message. If it reflects a Hebrew text, the word would be <i>ri'shonah</i>, \"first,\" which no Hebrew witness has.",
+  "b": "The scroll 4QXIIa (4Q76) has the word <i>kazot</i>, \"like this,\" between \"the announcement\" and \"which\" (the transcription marks it as different from the Masoretic Text, and the neighboring word is restored), so it cannot be read with confidence. 4QXIIg (4Q82) has small spelling differences.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "a walk of three days",
+  "t": "\"A walk of three days,\" or \"about\"?",
+  "p": "The Greek says Nineveh was \"about\" a three-day walk.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88",
+    "orig": "מהלך שלשת ימים",
+    "en": "a walk of three days",
+    "plain": "a walk of three days"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ὡσεὶ πορείας ὁδοῦ ἡμερῶν τριῶν",
+    "en": "about a three-day journey",
+    "plain": "about a three-day walk"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek adds <i>hosei</i>, \"about\" or \"as if.\" This softens the figure, and it does the same at 3:4 (\"about a day's walk\"). The Hebrew has no such word, and Mur88 reads the verse in full. The Greek has \"great to God\" for the Hebrew \"great to God,\" the same phrase.",
+  "b": "The size of the city is discussed in the note on 3:3.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "Forty days more",
+  "t": "Forty days or three?",
+  "p": "The Hebrew says forty days. The Greek says three days.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (clearly reads \"forty\"); Latin Vulgate (quadraginta)",
+    "orig": "עוֹד אַרְבָּעִים יוֹם",
+    "en": "yet forty days",
+    "plain": "Forty days more"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus: \"treis hemerai\")",
+    "orig": "ἔτι τρεῖς ἡμέραι",
+    "en": "yet three days",
+    "plain": "Three days more"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text, the Dead Sea scroll Mur88 and the Vulgate all say \"forty.\" The Greek \"three\" could be a slip or a deliberate change by a translator or copyist: three is the number of days in 3:3 (\"a walk of three days\") and in 1:17; forty is the number for testing and delay (Genesis 7:4; Exodus 24:18; 1 Kings 19:8). Augustine (<i>City of God</i> 18.44) knew both readings and gave each a meaning (forty for the days to the Ascension, three for the days to the resurrection). Jerome's Vulgate follows the Hebrew. Other Greek fathers also discussed the difference; their references are not checked here.",
+  "b": "The Greek text printed by Swete, which is mainly Codex Vaticanus, reads \"three.\" Other Greek manuscripts and the Hexapla witnesses are not examined here, and the critical Greek editions (Rahlfs-Hanhart, Göttingen) were not consulted, so this entry does not say how many Greek witnesses read \"three.\" The other Dead Sea scrolls that preserve parts of Jonah (4Q76, 4Q81, 4Q82) do not preserve this verse, according to the transcription printout.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "augustine-city",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "one who changes his mind about the harm",
+  "t": "Changes his mind, or \"repents of the evils\"?",
+  "p": "The Greek has the plural \"evils\" and the verb \"repenting.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88",
+    "orig": "ונחם על הרעה",
+    "en": "and changes his mind about the harm",
+    "plain": "one who changes his mind about the harm"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ μετανοῶν ἐπὶ ταῖς κακίαις",
+    "en": "and repenting over the evils",
+    "plain": "and repenting over the evils"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek uses <i>metanoeo</i> for <i>nicham</i> here and at 3:9-10, and a plural for the singular \"harm.\" This is a translator's choice, not another Hebrew text; Mur88 reads this line in full. The Plain keeps the site's fixed rendering \"changes his mind.\"",
+  "b": "See the note on 3:10 and the topic <i>gods-regret</i>.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb",
+   "sasson-jonah"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "on its east side",
+  "t": "East of the city, or opposite it?",
+  "p": "The Hebrew says Jonah sat east of the city. The Greek says he sat opposite the city.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (4Q82 has the word restored)",
+    "orig": "וַיֵּשֶׁב מִקֶּדֶם לָעִיר",
+    "en": "and he sat east of the city",
+    "plain": "on its east side"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus: \"apenanti\" means opposite or facing)",
+    "orig": "καὶ ἐκάθισεν ἀπέναντι τῆς πόλεως",
+    "en": "and he sat opposite the city",
+    "plain": "opposite it"
+   }
+  ],
+  "follow": 0,
+  "why": "Hebrew <i>qedem</i> can mean \"east\" (the direction of sunrise) or \"in front of\"; Mur88 and the Masoretic Text have the same consonants, and the Greek chose the second sense. The place is probably east because the city lies east of Israel (Jonah has left the city on its eastern side, the side away from Israel), and a position east of the city gives a view of the whole city; the sun and the east wind of 4:8 add to the picture.",
+  "b": "The Greek also says \"tent\" (<i>skene</i>) for \"booth.\" Nothing in the Dead Sea scrolls differs here beyond spelling.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "The LORD God",
+  "t": "\"The LORD God\" or \"the Lord GOD\"?",
+  "p": "One Qumran scroll has a different divine title here. This is the only place in the book where \"the LORD God\" is used.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint (Kyrios ho theos); Murabba'at scroll Mur88 (the second word is restored there)",
+    "orig": "יְהוָה אֱלֹהִים",
+    "en": "the LORD God",
+    "plain": "The LORD God"
+   },
+   {
+    "w": "Qumran scroll 4QXIIg (4Q82), as transcribed",
+    "orig": "אדוני יהוה",
+    "en": "the Lord the LORD (adonay YHWH, usually \"the Lord GOD\")",
+    "plain": "The Lord GOD"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text and the Greek agree on \"the LORD God\" (Mur88 has the second word restored). The reading of 4Q82 is the transcription's, with the first word marked as differing from the Masoretic Text; it may be a scribe's replacement. The combination \"the LORD God\" (<i>YHWH Elohim</i>) occurs only here in Jonah, between the stretches that use \"the LORD\" (chapters 1-2, 4:2-4, 4:10) and \"God\" (3:5-10; 4:7-9). Some commentators think the shift marks the moment God acts as both.",
+  "b": "The name change is part of the book's pattern: sailors speak of \"the LORD\" in prayer (1:14), the Ninevites of \"God\" (3:5-9), the narrator uses \"God\" for the great acts in chapter 3 and 4:7-9, and \"the LORD God\" only when he creates the plant. I make no claim about why.",
+  "s": [
+   "abegg-dssb",
+   "sasson-jonah"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "a leafy plant",
+  "t": "A castor-oil plant, a gourd, or an ivy?",
+  "p": "The Hebrew word qiqayon names a fast-growing plant that no one can name with certainty.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "קִיקָיוֹן",
+    "en": "a qiqayon, a fast-growing leafy plant",
+    "plain": "a leafy plant"
+   },
+   {
+    "w": "Septuagint (kolokynthe: a gourd or bottle gourd)",
+    "orig": "κολοκύνθῃ",
+    "en": "a gourd",
+    "plain": "a gourd"
+   },
+   {
+    "w": "Latin Vulgate (Jerome: hedera, ivy)",
+    "orig": "hederam",
+    "en": "ivy",
+    "plain": "an ivy"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>qiqayon</i> is found only here in the Bible. It is usually identified with the castor-oil plant (<i>Ricinus communis</i>), which grows very fast, has large leaves and is called <i>kiki</i> in Egyptian (Herodotus, <i>Histories</i> 2.94, mentions its oil). The Plain does not decide: \"a leafy plant\" describes what the text says it did.",
+  "b": "Jerome explains in his Commentary on Jonah that he knew the Hebrew word, that the Greek translator wrote \"gourd,\" and that others (Aquila, Symmachus and Theodotion) had \"ivy\"; he chose <i>hedera</i> for the Vulgate. Augustine, in a letter to Jerome, tells of an uproar in a North African church when the bishop read \"ivy\" (Jerome's word) where the people were used to \"gourd\"; Jerome answers in a later letter. The story shows how much the plant mattered to churches who heard the story each year.",
+  "s": [
+   "swete-lxx",
+   "jerome-jonah",
+   "augustine-jerome-jonah",
+   "vulgate-weber",
+   "herodotus-histories",
+   "abegg-dssb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "rescue him from his misery",
+  "t": "\"To rescue\" or \"to shade\"?",
+  "p": "The Hebrew says the plant was to rescue Jonah from his misery. One scroll spells the verb without a yod, and the Greek says \"to shade him.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88",
+    "orig": "להציל לו מרעתו",
+    "en": "to rescue him from his misery",
+    "plain": "rescue him from his misery"
+   },
+   {
+    "w": "Qumran scroll 4QXIIg (4Q82), as transcribed (the transcription marks the verb as different from the Masoretic Text)",
+    "orig": "להצל לו מרעתו",
+    "en": "to shade (or a short spelling of \"to rescue\") him from his misery",
+    "plain": "shade him from his misery"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τοῦ σκιάζειν αὐτῷ ἀπὸ τῶν κακῶν αὐτοῦ",
+    "en": "to shade him from his evils",
+    "plain": "shade him from his evils"
+   }
+  ],
+  "follow": 0,
+  "why": "The spelling in 4Q82 (<i>lehatsel</i>) lacks the yod of <i>lehatsil</i>. It can be read as \"to shade him,\" which is what the Greek says, or as a short spelling of \"to rescue.\" One missing letter cannot decide between them. The Plain follows the Masoretic Text and Mur88: the line before already says the plant gives shade (\"to be a shade over his head\"), so \"to shade him\" would say the same thing twice, and \"rescue ... from his misery\" fits the book's use of that verb (2:6).",
+  "b": "If the Greek and 4Q82 are right, the plant only shades Jonah, and the link between the plant's \"rescue\" and the fish's \"rescue\" (see the notes on 4:6) would not be in the text.",
+  "s": [
+   "abegg-dssb",
+   "swete-lxx",
+   "sasson-jonah"
+  ]
+ },
+ {
+  "v": "4:11",
+  "a": "And should I not have pity on Nineveh",
+  "t": "Anything different at the end?",
+  "p": "The Greek says the same, with the number written as \"twelve ten-thousands.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88",
+    "orig": "הרבה משתים עשרה רבו אדם",
+    "en": "more than twelve ten-thousands of people",
+    "plain": "And should I not have pity on Nineveh"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "πλείους δώδεκα μυριάδες ἀνθρώπων",
+    "en": "more than twelve ten-thousands of people",
+    "plain": "more than 120,000 people"
+   }
+  ],
+  "follow": 0,
+  "why": "No difference of sense. Mur88 reads the whole verse, ending with \"and many animals,\" and the Greek ends the same way. The transcription of 4Q82 shows the verse as far as \"between their right hand and\" and then stops.",
+  "b": "The question mark at the end (God asks, he does not state) is in the Greek as well.",
+  "s": [
+   "swete-lxx",
+   "abegg-dssb"
+  ]
+ }
+]

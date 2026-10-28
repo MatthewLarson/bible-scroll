@@ -1,0 +1,30 @@
+# Jonah: brief for the writer
+
+Read tools/brief-twelve.md first. Book id `Jon`, 4 chapters, 48 verses (17, 10, 10, 11). Prophets lane. One part, flat folder `content/books/Jon/`. One writer, who owns book.json. One review.md. Notes up to one per verse.
+
+**Numbering.** English 1:17 = Hebrew 2:1 and English 2:1-10 = Hebrew 2:2-11. Verify in texts/orig/Jon.json; explain at 1:17 and in book.json `facts`.
+
+**Form.** The only narrative among the Twelve. Prose, except the psalm in 2:2-9 (poetry, ` / `). Keep the repetitions that carry the book's art and name each in a note at first use: *gadol* "great" (the great city, wind, fish, joy, anger), *ra'ah* "evil/disaster" (1:2; 3:8, 10; 4:1, 2, 6), *yarad* "go down" (1:3, 5; 2:6), *tul* "hurl" (1:4, 5, 12, 15), *yare'* "fear" (1:5, 9, 10, 16), *nacham* "relent" (3:9, 10; 4:2), *manah* "appoint" (1:17; 4:6, 7, 8). Do not turn the story into a sermon.
+
+**Lenses: H, C, J, X, L.** F is dropped on purpose (the book looks back on a finished event; the question is how the reader takes the story), and L, Literary and genre, takes its place. Say so in book.json.
+- H: Jonah son of Amittai of Gath-hepher (2 Kings 14:25, Jeroboam II); Nineveh (size, 3:3; 4:11; capital from Sennacherib, c. 700 BC; Genesis 10:11-12); Assyrian records of plague and an eclipse (cite only if you can name the source); Tarshish (Tartessos? a far western place; Isaiah 23; Ezekiel 27:12; Psalm 72:10).
+- C: date (post-exilic is the common critical view: late language, the use of Exodus 34:6 and Joel 2:13, "Nineveh *was* a great city"; the pre-exilic option), unity (the psalm), Mesopotamian and Greek sea-monster parallels (weak: say so), the relation to Nahum.
+- J: Yom Kippur at minchah (the haftarah, with Micah 7:18-20); Rashi, Ibn Ezra, Kimhi, the Targum, midrash on the fish and on Jonah's flight (verify each citation or label it "later legend"; Pirke de-Rabbi Eliezer 10 and the widow of Zarephath's son: verify).
+- X: the sign of Jonah (Matthew 12:38-42; 16:4; Luke 11:29-32); the fathers' typology (Justin, Irenaeus, Tertullian, Jerome, Augustine, Chrysostom); Jerome and Augustine on the plant (*hedera/cucurbita*); Jonah in early Christian art (cite only a source you can name); Jonah and the mission to the nations (Acts 10; Matthew 28:19); the old reading of Jonah as narrow-minded Israel is a distortion to correct.
+- L: genre (historical report, parable, satire, didactic story, legend: Sasson, Trible, Limburg, Wolff, Simon, Ben Zvi, Allen, Stuart, Alexander, Magonet, Sweeney, Fretheim; cite only works you can name), irony, repetition, reversal, the open ending.
+
+**Places for full treatment.**
+- 1:1-3 the call to "that great city", "their evil has come up before me" (Genesis 18:20-21), flight "from the LORD's presence" (Psalm 139:7-12), Joppa, Tarshish. 1:4-16 the storm, the sailors' gods, Jonah asleep, the lot (Joshua 7; 1 Samuel 14:41-42; Proverbs 16:33; topic casting-lots), 1:9 "I am a Hebrew and I fear the LORD, the God of heaven, who made the sea and the dry land" (the Greek reads *doulos* "servant of the Lord" for "Hebrew": a full variant entry), 1:12 "Pick me up and hurl me into the sea", 1:14-16 the sailors pray, fear, sacrifice and vow.
+- 1:17 (Hebrew 2:1) "the LORD appointed a huge fish" (*dag gadol*, not "whale"; the Greek *ketos* "sea monster", Matthew 12:40); "three days and three nights" (the idiom for parts of days: 1 Samuel 30:12-13; Esther 4:16; 5:1; Hosea 6:2). 2:1-10 the psalm of thanks prayed from inside the fish (the tension, and the echoes: 2:2 Psalm 120:1, 18:6; 2:3 Psalm 42:7, 88:6-7; 2:4 Psalm 31:22; 2:5-6 Psalm 69:1-2, the roots of the mountains, "you brought up my life from the pit," Psalm 30:3; 2:8 Psalm 31:6, whose loyal love is forsaken (hard Hebrew: weigh); 2:9 Psalm 3:8 "Salvation belongs to the LORD"); 2:10 the fish vomits Jonah.
+- 3:1-10 the second call; the city "a three days' walk across" (or three days to cross it, or the whole region of Genesis 10:11-12); "Forty days and Nineveh will be overturned" (*nehpakhet*: a pun on overthrow and turning; the Greek reads "three days": a variant entry); the Ninevites believe God, fast with animals, the king's decree (3:7-9), "Who knows? God may turn and relent" (Joel 2:14); 3:10 "God relented of the disaster" (topic gods-regret; Jeremiah 18:7-10; 26:3, 13, 19).
+- 4:1-11 Jonah's anger; his prayer quoting the creed (Exodus 34:6-7 = Joel 2:13; match the Exodus Plain); 4:3 "take my life" (1 Kings 19:4; Numbers 11:15); 4:4 "Is it right for you to be angry?"; 4:5-8 the booth, the plant (*qiqayon*, castor oil plant, gourd or vine: Jerome and Augustine), the worm, the east wind; 4:9-11 "should I not pity Nineveh... more than 120,000 people who do not know their right hand from their left, and many animals?" The unanswered question; who the 120,000 are (children, or all the people as morally unknowing).
+
+**Textual evidence.** texts/auto/Jon.json; `python tools/lxx.py Jon <ch>`; `tools/dss.py Jon <ch>` (4QXII scrolls; say only what the printout shows). Full variant entries: 1:9 (*'ivri/doulos*), 3:4 (forty/three days in the Greek: verify which Greek witnesses read which), and where the sense changes at 1:5, 1:10, 2:4, 2:7, 2:8, 2:9, 3:3, 4:5, 4:6, 4:11.
+
+**Cards (plan):** the sign of Jonah and genre (historical or parable: `top: sign-acts`; Catholic, Orthodox, Lutheran, Reformed, Baptist/Evangelical, Adventist, Anabaptist; cite the church's own documents only if you can name them), 3:10 and 4:2 (`top: gods-regret`), 3:5-10 (Nineveh and the nations: `top: salvation` or `election`), 3:5-8 (`top: fasting`).
+
+**Topics:** cores `jonah`, `nineveh`, `sign-of-jonah` (check `sign-acts` first and merge there if it fits), `tarshish`; contributions to gods-regret, repentance, fasting, assyria, prophecy, prayer, sea, casting-lots, forgiveness, mercy, hesed, foreigners, election, sheol, resurrection, book-of-the-twelve.
+
+**Atlas.** Done (content/atlas/Jon.json). Review: Tarshish's point; `prophecies-of-jonah` date is Bible Atlas's.
+
+**Model books:** content/books/Rut (short narrative, note density), content/books/Est, content/books/Lam.

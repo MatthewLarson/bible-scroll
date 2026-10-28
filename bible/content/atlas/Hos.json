@@ -1,0 +1,414 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "jezreel-4",
+    "valley-of-jezreel"
+   ],
+   "people": [
+    "ahaz",
+    "beeri-2",
+    "god",
+    "hezekiah",
+    "hosea",
+    "jeroboam-2",
+    "joash-4",
+    "jotham-2",
+    "uzziah",
+    "diblaim",
+    "gomer-2",
+    "jehu-2",
+    "jezreel-2",
+    "lo-ruhamah",
+    "lo-ammi",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "2": {
+   "places": [
+    "egypt",
+    "valley-of-achor",
+    "jezreel-4"
+   ],
+   "people": [
+    "baal",
+    "god",
+    "jezreel-2"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "israel",
+    "david"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "4": {
+   "places": [
+    "beth-aven",
+    "gilgal"
+   ],
+   "people": [
+    "god",
+    "israel",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "5": {
+   "places": [
+    "mizpah",
+    "tabor-mountain",
+    "beth-aven",
+    "gibeah",
+    "ramah",
+    "assyria"
+   ],
+   "people": [
+    "ephraim",
+    "god",
+    "benjamin-5",
+    "tilgath-pilneser"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "6": {
+   "places": [
+    "gilead-4"
+   ],
+   "people": [
+    "god",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "7": {
+   "places": [
+    "samaria",
+    "assyria",
+    "egypt"
+   ],
+   "people": [
+    "ephraim",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "8": {
+   "places": [
+    "samaria",
+    "assyria",
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "9": {
+   "places": [
+    "assyria",
+    "egypt",
+    "memphis",
+    "gibeah",
+    "baal-peor",
+    "gilgal"
+   ],
+   "people": [
+    "god",
+    "ephraim",
+    "baal"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "10": {
+   "places": [
+    "beth-aven",
+    "samaria",
+    "assyria",
+    "aven",
+    "gibeah",
+    "beth-arbel",
+    "bethel-of-palestine"
+   ],
+   "people": [
+    "god",
+    "ephraim",
+    "tilgath-pilneser",
+    "israel",
+    "shalmaneser"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "11": {
+   "places": [
+    "egypt",
+    "assyria",
+    "admah",
+    "zeboiim"
+   ],
+   "people": [
+    "ephraim",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "12": {
+   "places": [
+    "assyria",
+    "egypt",
+    "bethel-of-palestine",
+    "gilead-4",
+    "gilgal",
+    "aram-4"
+   ],
+   "people": [
+    "ephraim",
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "13": {
+   "places": [
+    "egypt",
+    "samaria"
+   ],
+   "people": [
+    "baal",
+    "ephraim",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  },
+  "14": {
+   "places": [
+    "lebanon-2"
+   ],
+   "people": [
+    "god",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-hosea"
+   ]
+  }
+ },
+ "places": {
+  "jezreel-4": {
+   "name": "Jezreel",
+   "lat": 32.502074,
+   "lon": 35.50196
+  },
+  "valley-of-jezreel": {
+   "name": "Valley of Jezreel",
+   "lat": 32.5559631396043,
+   "lon": 35.33078927843792
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "valley-of-achor": {
+   "name": "Valley of Achor",
+   "lat": 31.83689,
+   "lon": 35.399737
+  },
+  "beth-aven": {
+   "name": "Beth-aven",
+   "lat": 31.89571708,
+   "lon": 35.25309825
+  },
+  "gilgal": {
+   "name": "Gilgal",
+   "lat": 32.1547,
+   "lon": 34.95372
+  },
+  "mizpah": {
+   "name": "Mizpah",
+   "lat": 32.56526757,
+   "lon": 36.00555931
+  },
+  "tabor-mountain": {
+   "name": "Tabor (Mountain)",
+   "lat": 32.687114,
+   "lon": 35.390383
+  },
+  "gibeah": {
+   "name": "Gibeah",
+   "lat": 31.82378102,
+   "lon": 35.23100936
+  },
+  "ramah": {
+   "name": "Ramah",
+   "lat": 31.89964,
+   "lon": 35.20422
+  },
+  "assyria": {
+   "name": "Assyria",
+   "lat": 36.50969,
+   "lon": 43.2282
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  },
+  "samaria": {
+   "name": "Samaria",
+   "lat": 32.331417,
+   "lon": 35.228586
+  },
+  "memphis": {
+   "name": "Memphis",
+   "lat": 29.849667,
+   "lon": 31.254278
+  },
+  "baal-peor": {
+   "name": "Baal-peor",
+   "lat": 31.76503129703305,
+   "lon": 35.71856575741812
+  },
+  "aven": {
+   "name": "Aven",
+   "lat": 31.93053921,
+   "lon": 35.22103275
+  },
+  "beth-arbel": {
+   "name": "Beth-arbel",
+   "lat": 32.56101133,
+   "lon": 35.84782997
+  },
+  "bethel-of-palestine": {
+   "name": "Bethel (of Palestine)",
+   "lat": 31.93053921,
+   "lon": 35.22103275
+  },
+  "admah": {
+   "name": "Admah",
+   "lat": 31.1194227,
+   "lon": 35.41253049
+  },
+  "zeboiim": {
+   "name": "Zeboiim",
+   "lat": 31.11942270162137,
+   "lon": 35.41253049195169
+  },
+  "aram-4": {
+   "name": "Aram",
+   "lat": 34.85,
+   "lon": 39.12
+  },
+  "lebanon-2": {
+   "name": "Lebanon",
+   "lat": 33.9215361440169,
+   "lon": 35.89897373
+  }
+ },
+ "people": {
+  "ahaz": {
+   "name": "Ahaz"
+  },
+  "beeri-2": {
+   "name": "Beeri"
+  },
+  "god": {
+   "name": "God"
+  },
+  "hezekiah": {
+   "name": "Hezekiah"
+  },
+  "hosea": {
+   "name": "Hosea"
+  },
+  "jeroboam-2": {
+   "name": "Jeroboam"
+  },
+  "joash-4": {
+   "name": "Joash"
+  },
+  "jotham-2": {
+   "name": "Jotham"
+  },
+  "uzziah": {
+   "name": "Uzziah"
+  },
+  "diblaim": {
+   "name": "Diblaim"
+  },
+  "gomer-2": {
+   "name": "Gomer"
+  },
+  "jehu-2": {
+   "name": "Jehu"
+  },
+  "jezreel-2": {
+   "name": "Jezreel"
+  },
+  "lo-ruhamah": {
+   "name": "Lo-ruhamah"
+  },
+  "lo-ammi": {
+   "name": "Lo-ammi"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "baal": {
+   "name": "Baal"
+  },
+  "david": {
+   "name": "David"
+  },
+  "ephraim": {
+   "name": "Ephraim"
+  },
+  "benjamin-5": {
+   "name": "Benjamin"
+  },
+  "tilgath-pilneser": {
+   "name": "Tilgath-pilneser"
+  },
+  "shalmaneser": {
+   "name": "Shalmaneser"
+  }
+ },
+ "events": {
+  "prophecies-of-hosea": {
+   "name": "Prophecies of Hosea",
+   "date": -784
+  }
+ }
+}

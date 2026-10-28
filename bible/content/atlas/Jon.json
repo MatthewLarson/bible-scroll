@@ -1,0 +1,88 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "nineveh",
+    "joppa",
+    "tarshish-3"
+   ],
+   "people": [
+    "amittai",
+    "god",
+    "jonah-5"
+   ],
+   "events": [
+    "prophecies-of-jonah"
+   ]
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "jonah-5"
+   ],
+   "events": [
+    "prophecies-of-jonah"
+   ]
+  },
+  "3": {
+   "places": [
+    "nineveh"
+   ],
+   "people": [
+    "god",
+    "jonah-5"
+   ],
+   "events": [
+    "prophecies-of-jonah"
+   ]
+  },
+  "4": {
+   "places": [
+    "tarshish-3",
+    "nineveh"
+   ],
+   "people": [
+    "jonah-5",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-jonah"
+   ]
+  }
+ },
+ "places": {
+  "nineveh": {
+   "name": "Nineveh",
+   "lat": 36.34773,
+   "lon": 43.1609
+  },
+  "joppa": {
+   "name": "Joppa",
+   "lat": 32.053722,
+   "lon": 34.752119
+  },
+  "tarshish-3": {
+   "name": "Tarshish",
+   "lat": 36.95299513,
+   "lon": -6.379340234
+  }
+ },
+ "people": {
+  "amittai": {
+   "name": "Amittai"
+  },
+  "god": {
+   "name": "God"
+  },
+  "jonah-5": {
+   "name": "Jonah"
+  }
+ },
+ "events": {
+  "prophecies-of-jonah": {
+   "name": "Prophecies of Jonah",
+   "date": -824
+  }
+ }
+}
