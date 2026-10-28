@@ -1,0 +1,447 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "rome"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "david"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "abraham",
+    "god",
+    "david",
+    "jesus-2",
+    "sarah"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit",
+    "adam",
+    "moses"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [
+    "holy-spirit",
+    "jesus-2",
+    "god"
+   ],
+   "events": []
+  },
+  "9": {
+   "places": [
+    "gomorrah",
+    "sodom",
+    "zion"
+   ],
+   "people": [
+    "holy-spirit",
+    "jesus-2",
+    "god",
+    "abraham",
+    "isaac",
+    "sarah",
+    "esau",
+    "israel",
+    "moses",
+    "pharaoh-4",
+    "hosea",
+    "isaiah"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "moses",
+    "isaiah"
+   ],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "zion"
+   ],
+   "people": [
+    "abraham",
+    "benjamin-5",
+    "god",
+    "elijah",
+    "jesus-2",
+    "baal",
+    "david",
+    "israel"
+   ],
+   "events": []
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "14": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "15": {
+   "places": [
+    "illyricum",
+    "jerusalem",
+    "spain",
+    "achaia",
+    "macedonia",
+    "judea"
+   ],
+   "people": [
+    "jesus-2",
+    "god",
+    "isaiah",
+    "jesse",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "16": {
+   "places": [
+    "cenchreae",
+    "asia"
+   ],
+   "people": [
+    "phebe",
+    "jesus-2",
+    "aquila",
+    "priscilla",
+    "epaenetus",
+    "mary-5",
+    "andronicus",
+    "junia",
+    "amplias",
+    "stachys",
+    "urbane",
+    "apelles",
+    "aristobulus",
+    "herodion",
+    "narcissus",
+    "persis",
+    "tryphena",
+    "tryphosa",
+    "rufus-2",
+    "asyncritus",
+    "hermas",
+    "hermes",
+    "patrobas",
+    "phlegon",
+    "julia",
+    "nereus",
+    "olympas",
+    "philologus",
+    "god",
+    "satan",
+    "jason",
+    "lucius",
+    "sopater",
+    "timotheus",
+    "tertius",
+    "erastus",
+    "gaius-3",
+    "quartus"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "rome": {
+   "name": "Rome",
+   "lat": 41.89262,
+   "lon": 12.4843457
+  },
+  "gomorrah": {
+   "name": "Gomorrah",
+   "lat": 31.15724867,
+   "lon": 35.47395433
+  },
+  "sodom": {
+   "name": "Sodom",
+   "lat": 31.19656033,
+   "lon": 35.39648412
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "illyricum": {
+   "name": "Illyricum",
+   "lat": 43.515484,
+   "lon": 16.071538
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "spain": {
+   "name": "Spain",
+   "lat": 40.481391,
+   "lon": -3.175332
+  },
+  "achaia": {
+   "name": "Achaia",
+   "lat": 37.5,
+   "lon": 22.5
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  },
+  "judea": {
+   "name": "Judea",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "cenchreae": {
+   "name": "Cenchreae",
+   "lat": 37.88239,
+   "lon": 22.992532
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "david": {
+   "name": "David"
+  },
+  "abraham": {
+   "name": "Abraham"
+  },
+  "sarah": {
+   "name": "Sarah"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "adam": {
+   "name": "Adam"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "isaac": {
+   "name": "Isaac"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "pharaoh-4": {
+   "name": "Pharaoh"
+  },
+  "hosea": {
+   "name": "Hosea"
+  },
+  "isaiah": {
+   "name": "Isaiah"
+  },
+  "benjamin-5": {
+   "name": "Benjamin"
+  },
+  "elijah": {
+   "name": "Elijah"
+  },
+  "baal": {
+   "name": "Baal"
+  },
+  "jesse": {
+   "name": "Jesse"
+  },
+  "phebe": {
+   "name": "Phebe"
+  },
+  "aquila": {
+   "name": "Aquila"
+  },
+  "priscilla": {
+   "name": "Priscilla"
+  },
+  "epaenetus": {
+   "name": "Epaenetus"
+  },
+  "mary-5": {
+   "name": "Mary"
+  },
+  "andronicus": {
+   "name": "Andronicus"
+  },
+  "junia": {
+   "name": "Junia"
+  },
+  "amplias": {
+   "name": "Amplias"
+  },
+  "stachys": {
+   "name": "Stachys"
+  },
+  "urbane": {
+   "name": "Urbane"
+  },
+  "apelles": {
+   "name": "Apelles"
+  },
+  "aristobulus": {
+   "name": "Aristobulus"
+  },
+  "herodion": {
+   "name": "Herodion"
+  },
+  "narcissus": {
+   "name": "Narcissus"
+  },
+  "persis": {
+   "name": "Persis"
+  },
+  "tryphena": {
+   "name": "Tryphena"
+  },
+  "tryphosa": {
+   "name": "Tryphosa"
+  },
+  "rufus-2": {
+   "name": "Rufus"
+  },
+  "asyncritus": {
+   "name": "Asyncritus"
+  },
+  "hermas": {
+   "name": "Hermas"
+  },
+  "hermes": {
+   "name": "Hermes"
+  },
+  "patrobas": {
+   "name": "Patrobas"
+  },
+  "phlegon": {
+   "name": "Phlegon"
+  },
+  "julia": {
+   "name": "Julia"
+  },
+  "nereus": {
+   "name": "Nereus"
+  },
+  "olympas": {
+   "name": "Olympas"
+  },
+  "philologus": {
+   "name": "Philologus"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "jason": {
+   "name": "Jason"
+  },
+  "lucius": {
+   "name": "Lucius"
+  },
+  "sopater": {
+   "name": "Sopater"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "tertius": {
+   "name": "Tertius"
+  },
+  "erastus": {
+   "name": "Erastus"
+  },
+  "gaius-3": {
+   "name": "Gaius"
+  },
+  "quartus": {
+   "name": "Quartus"
+  }
+ },
+ "events": {}
+}

@@ -1,0 +1,184 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "jerusalem",
+    "kedar-2",
+    "engedi"
+   ],
+   "people": [
+    "solomon",
+    "kedar",
+    "pharaoh-4"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "saron",
+    "jerusalem"
+   ],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "jerusalem",
+    "lebanon-2",
+    "zion"
+   ],
+   "people": [
+    "solomon"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "gilead-4",
+    "amana",
+    "hermon",
+    "lebanon-2",
+    "senir"
+   ],
+   "people": [
+    "david"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [
+    "jerusalem",
+    "lebanon-2"
+   ],
+   "people": [],
+   "events": []
+  },
+  "6": {
+   "places": [
+    "jerusalem",
+    "tirzah-2",
+    "gilead-4"
+   ],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [
+    "bath-rabbim",
+    "damascus",
+    "heshbon",
+    "lebanon-2",
+    "carmel"
+   ],
+   "people": [],
+   "events": []
+  },
+  "8": {
+   "places": [
+    "jerusalem",
+    "baal-hamon"
+   ],
+   "people": [
+    "solomon"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "kedar-2": {
+   "name": "Kedar",
+   "lat": 27.4,
+   "lon": 37.7
+  },
+  "engedi": {
+   "name": "Engedi",
+   "lat": 31.46017,
+   "lon": 35.38899
+  },
+  "saron": {
+   "name": "Saron",
+   "lat": 32.639068,
+   "lon": 34.945929
+  },
+  "lebanon-2": {
+   "name": "Lebanon",
+   "lat": 33.9215361440169,
+   "lon": 35.89897373
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  },
+  "amana": {
+   "name": "Amana",
+   "lat": 33.68137,
+   "lon": 36.055039
+  },
+  "hermon": {
+   "name": "Hermon",
+   "lat": 33.416111,
+   "lon": 35.8575
+  },
+  "senir": {
+   "name": "Senir",
+   "lat": 33.41615982,
+   "lon": 35.85725618
+  },
+  "tirzah-2": {
+   "name": "Tirzah",
+   "lat": 32.2713687,
+   "lon": 35.29430387
+  },
+  "bath-rabbim": {
+   "name": "Bath-rabbim",
+   "lat": 31.80052000870321,
+   "lon": 35.80901866717255
+  },
+  "damascus": {
+   "name": "Damascus",
+   "lat": 33.511612,
+   "lon": 36.309102
+  },
+  "heshbon": {
+   "name": "Heshbon",
+   "lat": 31.79819,
+   "lon": 35.80986
+  },
+  "carmel": {
+   "name": "Carmel",
+   "lat": 31.422876,
+   "lon": 35.132952
+  },
+  "baal-hamon": {
+   "name": "Baal-hamon",
+   "lat": 33.41615982,
+   "lon": 35.85725618
+  }
+ },
+ "people": {
+  "solomon": {
+   "name": "Solomon"
+  },
+  "kedar": {
+   "name": "Kedar"
+  },
+  "pharaoh-4": {
+   "name": "Pharaoh"
+  },
+  "david": {
+   "name": "David"
+  }
+ },
+ "events": {}
+}

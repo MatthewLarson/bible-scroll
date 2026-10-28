@@ -96,7 +96,8 @@ under a second per book. The full build also prints `skip <id>` for books with e
   sources.json and review.md). The build joins parts in order; the site never sees them.
 - Draft builds and `--check` overlay `content/proposals/<lane>/` (terms, topics, works, points) on the shared
   files; `--publish` ignores proposals, so anything not merged by the lead is absent from `public/`.
-- `--publish` includes a book only when every part's review.md has a non-empty `## Fixes applied` (Rev excepted).
+- `--publish` includes a book only when every part's review.md has a non-empty `## Fixes applied` (Revelation's reviews
+  are `content/overlays/Rev-review-*.md`). The same test sets each book's "reviewed" or "in review" label on the site.
 - The build validates keys (sources, topics, works, TRADITIONS, note types), quote-matching against other books'
   Plain, and atlas data, then writes `site/data/` (per-book JSON, topic shards, reverse "cited by" index) and
   `site/index.html` = `app/shell.html` + `base.css` inlined + `tools/refs.js` + `app/app.js` in one file. The

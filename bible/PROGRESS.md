@@ -34,7 +34,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Jhn | reviewed, published | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
 | Act | reviewed, published | nt lane, run by the lead session. 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-14, 15-17, 18-20, 21-23, 24-28. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
-| Rev | published | From revelation/v2 version 9 (re-imported 2026-10-22 22:40 UTC; re-run tools/import-rev.js after any later Revelation edit). Needs variants.json (only word note |
+| Rev | reviewed, ready | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |
 | Tob | reviewed, published | Outside the 66 (tier dc). Base text Swete: grc = Sinaiticus (longer text), grc_b = Vaticanus (shorter text), KJV apocrypha, Vulgate/Douay (texts/src/Tob.lat.jso |
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
