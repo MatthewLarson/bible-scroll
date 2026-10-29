@@ -1,0 +1,181 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "jerusalem",
+    "fish-gate",
+    "mortar"
+   ],
+   "people": [
+    "amariah-9",
+    "amon-3",
+    "cushi-3",
+    "gedaliah-5",
+    "god",
+    "hizkiah",
+    "josiah",
+    "zephaniah-2",
+    "baal",
+    "malcham"
+   ],
+   "events": [
+    "prophecies-of-zephaniah"
+   ]
+  },
+  "2": {
+   "places": [
+    "ashdod",
+    "ashkelon",
+    "ekron",
+    "gaza",
+    "canaan-2",
+    "moab-2",
+    "gomorrah",
+    "sodom",
+    "assyria",
+    "nineveh"
+   ],
+   "people": [
+    "god",
+    "canaan",
+    "moab"
+   ],
+   "events": [
+    "prophecies-of-zephaniah"
+   ]
+  },
+  "3": {
+   "places": [
+    "cush-2",
+    "jerusalem",
+    "zion"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zephaniah"
+   ]
+  }
+ },
+ "places": {
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "fish-gate": {
+   "name": "Fish Gate",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "mortar": {
+   "name": "Mortar",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "ashdod": {
+   "name": "Ashdod",
+   "lat": 31.756038,
+   "lon": 34.656061
+  },
+  "ashkelon": {
+   "name": "Ashkelon",
+   "lat": 31.66426,
+   "lon": 34.54732
+  },
+  "ekron": {
+   "name": "Ekron",
+   "lat": 31.7776,
+   "lon": 34.85093
+  },
+  "gaza": {
+   "name": "Gaza",
+   "lat": 31.503959,
+   "lon": 34.46203
+  },
+  "canaan-2": {
+   "name": "Canaan",
+   "lat": 31.69352950368834,
+   "lon": 34.84388288576839
+  },
+  "moab-2": {
+   "name": "Moab",
+   "lat": 31.499159,
+   "lon": 35.780512
+  },
+  "gomorrah": {
+   "name": "Gomorrah",
+   "lat": 31.15724867,
+   "lon": 35.47395433
+  },
+  "sodom": {
+   "name": "Sodom",
+   "lat": 31.19656033,
+   "lon": 35.39648412
+  },
+  "assyria": {
+   "name": "Assyria",
+   "lat": 36.50969,
+   "lon": 43.2282
+  },
+  "nineveh": {
+   "name": "Nineveh",
+   "lat": 36.34773,
+   "lon": 43.1609
+  },
+  "cush-2": {
+   "name": "Cush",
+   "lat": 21.959788,
+   "lon": 31.343557
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  }
+ },
+ "people": {
+  "amariah-9": {
+   "name": "Amariah"
+  },
+  "amon-3": {
+   "name": "Amon"
+  },
+  "cushi-3": {
+   "name": "Cushi"
+  },
+  "gedaliah-5": {
+   "name": "Gedaliah"
+  },
+  "god": {
+   "name": "God"
+  },
+  "hizkiah": {
+   "name": "Hizkiah"
+  },
+  "josiah": {
+   "name": "Josiah"
+  },
+  "zephaniah-2": {
+   "name": "Zephaniah"
+  },
+  "baal": {
+   "name": "Baal"
+  },
+  "malcham": {
+   "name": "Malcham"
+  },
+  "canaan": {
+   "name": "Canaan"
+  },
+  "moab": {
+   "name": "Moab"
+  }
+ },
+ "events": {
+  "prophecies-of-zephaniah": {
+   "name": "Prophecies of Zephaniah"
+  }
+ }
+}

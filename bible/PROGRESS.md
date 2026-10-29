@@ -37,6 +37,11 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Amo | reviewed, published | 2026-10-28 prophets lane, one writer, flat folder: plain.txt (146 verses), 133 notes, 18 variants, 32 glosses, 9 chapter pages with 14 settings cards, 4 traditi |
 | Oba | reviewed, published | Written 2026-10-28 (prophets lane, one writer, flat folder): Plain from literal.js with drift audit (18 of 21 verses rebuilt, 3 kept), 42 notes, 12 variants (Gr |
 | Jon | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder; lenses H C J X L (F dropped); briefs tools/brief-jon.md and tools/brief-twelve.md; atlas harvest done  |
+| Mic | reviewed, published | Planned 2026-10-28: prophets lane, two parts (01-04, 05-07), lenses H C J X F; briefs tools/brief-mic.md, brief-twelve.md, brief-twelve2.md; atlas harvest pendi |
+| Nam | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F dropped); briefs tools/brief-nam.md, brief-twelve.md, brief-twelve2.md; atlas harves |
+| Hab | reviewed, published | 2026-10-28 Habakkuk (whole book, flat folder, prophets lane): 56 verses, 79 notes, 28 variants, 18 glosses, 3 chapter pages with 8 settings cards and 3 traditio |
+| Zep | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X F; briefs tools/brief-zep.md, brief-twelve.md, brief-twelve2.md; atlas harvest pending. |
+| Hag | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F only for 2:6-9 and 2:21-23); briefs tools/brief-hag.md, brief-twelve.md, brief-twelv |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
 | Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |

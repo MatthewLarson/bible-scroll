@@ -1,0 +1,458 @@
+[
+ {
+  "v": "1:1",
+  "a": "governor of Judah",
+  "t": "Governor of Judah, or of the tribe of Judah?",
+  "p": "The Hebrew gives Zerubbabel the Persian title. The Greek calls him of the tribe of Judah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 reads the word at 1:14",
+    "orig": "פַּחַת יְהוּדָה",
+    "en": "governor of Judah",
+    "plain": "governor of Judah"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus) (also 1:14; 2:2, 21, and added at 1:12)",
+    "orig": "ἐκ φυλῆς Ἰούδα",
+    "en": "from the tribe of Judah",
+    "plain": "of the tribe of Judah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew title <i>pechah</i> is the Persian-period word for a provincial governor (Ezra 5:3), and Mur88 has it visibly at 1:14. The Greek avoids the title in every place the Hebrew has it, so it is probably the translator's choice (a Persian office meant little to a Greek reader), not a different Hebrew text. The Hebrew word is also in 2:21.",
+  "b": "In 1:1 the scrolls are broken exactly at this word (4Q77 and Mur88 both have it only as a restoration), so they cannot be cited here. The Greek makes Zerubbabel a tribal leader, not an official of the Persian king; the Hebrew shows that the book names the empire's structure openly. The Hebrew of 1:12 has no title for Zerubbabel, so there the Greek adds the phrase. A small spelling difference: 4Q77 writes the king's name Darius as <i>dryhsh</i> (דריהש) at 1:1 where the Masoretic Text has <i>dryvsh</i> (דריוש); this is a spelling variant, not a different name.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "The time has not come, the time for rebuilding the LORD's house",
+  "t": "\"Not the time, the time of the house\"",
+  "p": "The Hebrew repeats the word \"time\" in an awkward clause. The Greek says it once.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the second \"time\" and the end of the verse are visible)",
+    "orig": "לֹא עֶת־בֹּא עֶת־בֵּית יְהוָה לְהִבָּנוֹת",
+    "en": "not the time to come, the time of the LORD's house to be rebuilt",
+    "plain": "The time has not come, the time for rebuilding the LORD's house"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "οὐχ ἥκει ὁ καιρὸς τοῦ οἰκοδομῆσαι τὸν οἶκον Κυρίου",
+    "en": "the time has not come to build the LORD's house",
+    "plain": "The time has not come to rebuild the LORD's house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder text and Mur88 agrees with it. The Greek reads smoothly and could be a tidying of the doubled \"time,\" or could reflect a shorter Hebrew; no Hebrew witness read here supports it. The clumsy Hebrew sounds like a quotation of an excuse.",
+  "b": "The Hebrew has the infinitive <i>bo'</i>, \"to come,\" where a finite \"has come\" would be expected. 4Q77 has \"not time\" (<i>lo' 'et</i>) visibly, with the next word restored, and then breaks off.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "and I will be honored",
+  "t": "\"And I will be honored\": written one way, read another",
+  "p": "A scribal note says the word is written without its last letter, he, and read with it. The meaning is the same.",
+  "readings": [
+   {
+    "w": "Reading tradition (qere) and the vowels of the Leningrad Codex",
+    "orig": "וְאֶכָּבְדָה",
+    "en": "and let me be honored",
+    "plain": "and I will be honored"
+   },
+   {
+    "w": "Written text (ketiv), as the Talmud and the Masoretic notation record it",
+    "orig": "וְאֶכָּבֵד",
+    "en": "and I will be honored",
+    "plain": "and I will be honored"
+   }
+  ],
+  "follow": 0,
+  "why": "Both forms of the verb mean \"be honored.\" The Plain follows the reading tradition, which is what the Leningrad Codex's vowels give. The ketiv/qere difference does not change the sense.",
+  "b": "A Jewish teaching builds on the missing letter. The letter he stands for the number five, so the absent he was taken to mean that five things were missing from the Second Temple: the ark with its cover and cherubim, the fire from heaven, the Shekhinah (the divine presence), the Holy Spirit (prophecy), and the Urim and Thummim (Bavli Yoma 21b; compare the list in Yoma 9b). Rashi gives the same teaching. This is a lesson drawn from spelling, not a claim about the original meaning of the verb. The Murabba'at scroll has the word only in a restored form, so it cannot be cited. The Septuagint renders \"and I will be glorified.\"",
+  "s": [
+   "bavli-yoma",
+   "rashi-twelve",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "the heavens over you have held back dew",
+  "t": "Over you, or because of you?",
+  "p": "The Hebrew has \"over (or on) you,\" which the Greek leaves out.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (\"over you\" is visible)",
+    "orig": "עֲלֵיכֶם כָּלְאוּ שָׁמַיִם מִטָּל",
+    "en": "over you the heavens have held back from dew",
+    "plain": "the heavens over you have held back dew"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἀνέξει ὁ οὐρανὸς ἀπὸ δρόσου",
+    "en": "the sky will hold back from dew",
+    "plain": "the heavens have held back dew"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is supported by Mur88, and \"over you\" fits the covenant curse in which the sky above them stays shut (Deuteronomy 28:23). The Greek has no word for \"you\" and uses the future tense, so it is probably a looser rendering.",
+  "b": "<i>'Alekhem</i> can mean \"over you\" or \"because of you.\" Either way the Hebrew puts the cause on the hearers.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "a drought",
+  "t": "A drought or a sword?",
+  "p": "The consonants of the Hebrew word can be read \"drought\" (<i>choreb</i>) or \"sword\" (<i>chereb</i>). The Masoretes read \"drought\"; the Greek reads \"sword.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex) (vowels of the Masoretes)",
+    "orig": "חֹרֶב (choreb)",
+    "en": "drought",
+    "plain": "a drought"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ῥομφαίαν",
+    "en": "a sword",
+    "plain": "a sword"
+   }
+  ],
+  "follow": 0,
+  "why": "The context is all about dryness and failed crops (1:6, 10-11), and \"drought\" echoes the \"desolate\" house of 1:4 and 1:9. The word \"summoned\" fits both, since God summons a sword elsewhere (Ezekiel 38:21). The Greek is a possible reading of unvowelled letters.",
+  "b": "The Hebrew was written without vowels until the Masoretes pointed it, so the reading \"drought\" is their tradition. Both readings are possible; the Greek translator took the other. The Murabba'at scroll has the word restored only, so it adds nothing.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "the LORD's messenger",
+  "t": "Messenger, or angel?",
+  "p": "The Hebrew calls Haggai the LORD's messenger. The Greek says \"angel of the Lord among the angels of the Lord.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (<i>mal'ak YHWH</i> is visible)",
+    "orig": "מַלְאַךְ יְהוָה בְּמַלְאֲכוּת יְהוָה",
+    "en": "the messenger of the LORD with the message of the LORD",
+    "plain": "the LORD's messenger"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἄγγελος κυρίου ἐν ἀγγέλοις Κυρίου",
+    "en": "the angel of the Lord among the angels of the Lord",
+    "plain": "the angel of the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Mal'ak</i> is the ordinary word for a human messenger as well as for an angel, and the Hebrew's second word (<i>mal'akut</i>, \"message\") makes the human sense clear. The Greek uses the word <i>angelos</i> in both places and reads \"in the angels\" for the unusual Hebrew \"in the message,\" which lets a reader take Haggai for a heavenly being.",
+  "b": "The Greek wording lets a reader take Haggai for a heavenly being; the Hebrew gives no reason for it. I did not find a named ancient writer who read it so, and none is cited. Rashi on 1:13 reads the Hebrew as a messenger of the Omnipresent.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "rashi-twelve"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "the word of the LORD came through Haggai the prophet",
+  "t": "Through Haggai, or to Haggai?",
+  "p": "The Hebrew says \"by the hand of Haggai,\" as in 1:1 and 1:3. The Murabba'at scroll seems to read \"to Haggai.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בְּיַד חַגַּי הַנָּבִיא",
+    "en": "by the hand of Haggai the prophet",
+    "plain": "the word of the LORD came through Haggai the prophet"
+   },
+   {
+    "w": "Murabba'at scroll of the Twelve, Mur88 (early 2nd century AD) (as transcribed by Abegg, Bowley and Cook)",
+    "orig": "אל חגי הנביא",
+    "en": "to Haggai the prophet",
+    "plain": "the word of the LORD came to Haggai the prophet"
+   }
+  ],
+  "follow": 0,
+  "why": "Haggai uses \"by the hand of\" (1:1, 3; 2:1) and \"to\" (2:10, 20). The Masoretic reading is the main witness and keeps the book's own pattern. The scroll's \"to\" could be a leveling to 2:10 and 2:20, or a different habit of its scribe. The meaning is the same.",
+  "b": "The Septuagint has \"spoke\" with \"by the hand of Haggai.\" Mur88 is the only Hebrew manuscript read here that differs.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "As for the word that I cut with you when you came out of Egypt, my spirit is standing among you",
+  "t": "The clause the Greek does not have",
+  "p": "The Hebrew opens with a phrase with no verb about the Exodus covenant. The Greek omits it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the clause is visible)",
+    "orig": "אֶת־הַדָּבָר אֲשֶׁר כָּרַתִּי אִתְּכֶם בְּצֵאתְכֶם מִמִּצְרַיִם וְרוּחִי עֹמֶדֶת בְּתוֹכְכֶם",
+    "en": "the word that I cut with you when you came out of Egypt, and my spirit is standing among you",
+    "plain": "As for the word that I cut with you when you came out of Egypt, my spirit is standing among you"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ τὸ πνεῦμά μου ἐφέστηκεν ἐν μέσῳ ὑμῶν",
+    "en": "and my spirit stands among you",
+    "plain": "My spirit is standing among you"
+   }
+  ],
+  "follow": 0,
+  "why": "Mur88 preserves the clause and the Greek has no known Hebrew behind its shorter text. The Hebrew phrase is hard because it lacks a verb for the object marker and lacks the word \"covenant\" after \"cut\"; the Greek may have dropped it for that reason.",
+  "b": "In the Hebrew the object sign <i>'et</i> introduces a phrase with no verb (compare \"remember\" or \"I keep\" supplied by translators), and \"cut\" without \"covenant\" is a short form of the usual \"cut a covenant\" (Exodus 24:8; Deuteronomy 5:2-3). The Vulgate, a later witness, supplies a verb, <i>pepigi</i>, \"I covenanted.\" The shorter Greek is the text of Swete's edition (mainly Vaticanus); other Greek witnesses, including the Hexaplaric material and the G&ouml;ttingen apparatus, were not checked.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "The prized things of all the nations will come",
+  "t": "The prized things of the nations, the Desired One, or the chosen things?",
+  "p": "A singular noun with a plural verb gave rise to three readings: treasures, a person, and the chosen.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the noun <i>chemdat</i> is visible, the verb is restored)",
+    "orig": "חֶמְדַּת כָּל־הַגּוֹיִם וּבָאוּ",
+    "en": "the desire of all the nations, and they will come",
+    "plain": "The prized things of all the nations will come"
+   },
+   {
+    "w": "Vulgate (Jerome, late 4th century AD)",
+    "orig": "et veniet desideratus cunctis gentibus",
+    "en": "and the Desired of all nations will come",
+    "plain": "The Desired of all the nations will come"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἥξει τὰ ἐκλεκτὰ πάντων τῶν ἐθνῶν",
+    "en": "and the chosen things of all the nations will come",
+    "plain": "The chosen things of all the nations will come"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew noun means \"desire\" or what is desired, and the plural verb makes the best sense if the noun is collective, \"the desirable things\" (the nations' wealth, as the next verse and Isaiah 60:5-11 suggest). A single \"Desired One\" requires a singular verb, which the Hebrew does not have; the Vulgate has one. The Greek's plural noun fits the Hebrew's sense. The Plain follows the Hebrew and the collective reading.",
+  "b": "The Latin reading shaped Christian use of the verse: the Advent hymns and the antiphon \"O King of the nations, and their desire\" (<i>O Rex gentium et desideratus earum</i>) echo it, and so does Charles Wesley's \"Come, Thou long-expected Jesus\" (\"Dear desire of every nation\"). Radak, the medieval commentator, reads the nations' valuables (on 2:7), and the Targum Jonathan keeps the singular noun with a plural verb. No Rashi comment on this verse was found, and whether any Hebrew manuscript has a plural noun was not checked. See the \"Where Christians differ\" card on this chapter. The Hebrew grammar does not forbid reading the noun as a person; it only makes it harder.",
+  "s": [
+   "tov-tchb",
+   "vulgate-clementine",
+   "swete-lxx",
+   "radak-haggai",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat",
+   "targum-jonathan"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "In this place I will give peace, the LORD of Armies declares",
+  "t": "The Greek adds a sentence about peace",
+  "p": "The Greek adds a promise of peace of soul to everyone who builds. No Hebrew witness read here has it.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex) (no scroll preserves this verse)",
+    "orig": "וּבַמָּקוֹם הַזֶּה אֶתֵּן שָׁלוֹם נְאֻם יְהוָה צְבָאוֹת",
+    "en": "and in this place I will give peace, declares the LORD of Armies",
+    "plain": "In this place I will give peace, the LORD of Armies declares"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐν τῷ τόπῳ τούτῳ δώσω εἰρήνην ... καὶ εἰρήνην ψυχῆς εἰς περιποίησιν παντὶ τῷ κτίζοντι τοῦ ἀναστῆσαι τὸν ναὸν τοῦτον",
+    "en": "and in this place I will give peace... and peace of soul as a possession for everyone who builds, to raise up this temple",
+    "plain": "In this place I will give peace, the LORD of Armies declares, and peace of soul as a possession for everyone who builds, to raise up this temple"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no extra clause in the witnesses we can check, and the longer Greek reads like an expansion that spells out what \"peace\" means for the builders. No scroll preserves 2:9, so the plus cannot be tested against an older Hebrew.",
+  "b": "The addition spells out what \"peace\" means for the builders: a settled mind for those who raise the house.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "What they offer there is unclean.",
+  "t": "A long addition in the Greek",
+  "p": "The Greek adds three clauses after \"unclean\" that echo Amos 5:10.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the verse ends with the Masoretic words)",
+    "orig": "וַאֲשֶׁר יַקְרִיבוּ שָׁם טָמֵא הוּא",
+    "en": "and what they offer there is unclean",
+    "plain": "What they offer there is unclean."
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ὃς ἐὰν ἐγγίσῃ ἐκεῖ, μιανθήσεται ἕνεκεν τῶν λημμάτων αὐτῶν τῶν ὀρθρινῶν, ὀδυνηθήσονται ἀπὸ προσώπου πόνων αὐτῶν· καὶ ἐμισεῖτε ἐν πύλαις ἐλέγχοντας",
+    "en": "and whoever comes near there will be made unclean on account of their early gains; they will be in pain at the sight of their labors; and you hated in the gates those who reprove",
+    "plain": "Whoever comes near there will be made unclean because of their early gains. They will be in pain at the sight of their labors. And you hated in the gates those who reprove."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the shorter text, and Mur88 ends the verse where the Masoretic Text does. The Greek's last clause matches the wording of Amos 5:10 about hating the one who reproves in the gate, so it looks like an interpretive expansion drawn from there.",
+  "b": "The Greek expansion turns the verse into a charge of corrupt gain. No Hebrew manuscript is known to have it.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "to draw out fifty measures",
+  "t": "Fifty purah, or fifty metretai?",
+  "p": "The Hebrew counts the vat's yield in purah. The Greek uses a different measure and a different place word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (\"fifty purah\" is visible)",
+    "orig": "לחשף חמשים פורה",
+    "en": "to draw out fifty purah",
+    "plain": "to draw out fifty measures"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἐξαντλῆσαι πεντήκοντα μετρητάς",
+    "en": "to draw out fifty metretai",
+    "plain": "to draw out fifty measures"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Purah</i> occurs only here and in Isaiah 63:3, where it is a winepress or trough, so \"measure\" in this verse is a guess from the context. Some have thought the Hebrew text is damaged here, since the pairing with the first line (twenty, ten) is not exact; nothing in the Mur88 text, which has the Hebrew words, supports a different reading. The Greek names a standard liquid measure, the <i>metretes</i>, and speaks of the lower vat (<i>hypolenion</i>) where the Hebrew has the wine vat, and its first line has barley and <i>sata</i> where the Hebrew has only a heap. The Plain keeps the Hebrew and the general word \"measures.\"",
+  "b": "The proportions are the point: half of the grain and two fifths of the wine (see the note at 2:16). I did not check an apparatus for proposed emendations of <i>purah</i>.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "none of you turned back to me",
+  "t": "The missing verb",
+  "p": "The Hebrew has \"and not you to me,\" with no verb. The Greek and Amos 4:9 supply \"turn back.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְאֵין אֶתְכֶם אֵלָי",
+    "en": "and none of you [turned] to me",
+    "plain": "none of you turned back to me"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ οὐκ ἐπεστρέψατε πρός με",
+    "en": "and you did not turn back to me",
+    "plain": "you did not turn back to me"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings give the same sense. The Hebrew is a shortened form of the refrain \"yet you did not turn back to me\" in Amos 4:6, 8, 9, 10, 11, and the Plain supplies the verb from that refrain. The Greek has no Hebrew behind it that differs.",
+  "b": "The Greek names two of the three afflictions differently (<i>aphoria</i>, \"barrenness,\" and <i>anemophthoria</i>, \"wind damage,\" for blight and mildew); its <i>chalaza</i> is \"hail,\" the same as the Hebrew. The Murabba'at scroll has most of the clause only in restored form.",
+  "s": [
+   "swete-lxx",
+   "wolff-amos"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "Take it to heart",
+  "t": "Where does the verse end?",
+  "p": "The Greek has a different opening verb and puts the last \"Take it to heart\" with the question of 2:19.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 reads the same words (most are visible); 4Q80 has the end of the verse in part",
+    "orig": "שימו נא לבבכם מן היום הזה ומעלה … שימו לבבכם",
+    "en": "set your heart, from this day and upward ... set your heart",
+    "plain": "Take it to heart"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ὑποτάξατε δή τὰς καρδίας ὑμῶν … θέσθε ἐν ταῖς καρδίαις ὑμῶν",
+    "en": "submit your hearts ... put it in your hearts",
+    "plain": "Set your hearts"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew verb is the same \"set your heart\" as in 2:15, and 4Q80 and Mur88 give no sign of a different Hebrew text. The Greek uses a different verb at the start (<i>hypotaxate</i>, \"put under\") and ends the verse with \"put it in your hearts,\" which it joins to the question of 2:19 (\"consider whether...\"); many modern translations also join the last clause to 2:19. The Plain keeps the Hebrew verse division, so the refrain closes the verse.",
+  "b": "No scroll omits the date clause (\"from the twenty-fourth day of the ninth month\"): Mur88 has it. I did not check an apparatus for editors who treat it as an added gloss. For the foundation, see the note at 2:18.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "Is the seed still in the barn?",
+  "t": "The seed, or the threshing floor?",
+  "p": "The Hebrew asks about the seed in the barn. The Greek asks whether it will be known on the threshing floor.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q80 and Mur88 (\"is the seed\" is visible in both)",
+    "orig": "הַעוֹד הַזֶּרַע בַּמְּגוּרָה",
+    "en": "is the seed still in the barn?",
+    "plain": "Is the seed still in the barn?"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "εἰ ἐπιγνωσθήσεται ἐπὶ τῆς ἅλω",
+    "en": "whether it will be known on the threshing floor",
+    "plain": "Will it be known on the threshing floor?"
+   }
+  ],
+  "follow": 0,
+  "why": "Two scrolls from the Judean Desert (4Q80, which is 4QXIIe, and Mur88) read the Masoretic Hebrew, so the Greek is a different reading or a free rendering, not an older Hebrew text we can point to.",
+  "b": "The Greek also joins the final \"Take it to heart\" of 2:18 to this clause (\"consider whether...\"), and many modern translations do the same. See the note at 2:18.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "the throne of kingdoms",
+  "t": "One throne or many?",
+  "p": "The Hebrew has \"the throne of kingdoms.\" The Greek has \"thrones of kings.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the phrase is visible)",
+    "orig": "כִּסֵּא מַמְלָכוֹת",
+    "en": "the throne of kingdoms",
+    "plain": "the throne of kingdoms"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "θρόνους βασιλέων",
+    "en": "thrones of kings",
+    "plain": "the thrones of kings"
+   }
+  ],
+  "follow": 0,
+  "why": "Mur88 reads the singular \"throne\" and the plural \"kingdoms\" as the Masoretic Text does, and the Hebrew is the harder phrase (one throne standing for all kingdoms). The Greek smooths it, and also puts the next phrase in the plural, \"the power of the kings of the nations.\"",
+  "b": "The Greek of the second half of the verse also has plural chariots and riders. The Hebrew has the singular \"chariot,\" which Mur88 also has.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd2-murabbaat"
+  ]
+ }
+]

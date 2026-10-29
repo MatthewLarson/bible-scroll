@@ -1,0 +1,71 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "darius",
+    "god",
+    "haggai",
+    "josedech",
+    "joshua",
+    "shealtiel",
+    "zerubbabel"
+   ],
+   "events": [
+    "prophecies-of-haggai"
+   ]
+  },
+  "2": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "haggai",
+    "josedech",
+    "joshua",
+    "shealtiel",
+    "zerubbabel",
+    "darius"
+   ],
+   "events": [
+    "prophecies-of-haggai"
+   ]
+  }
+ },
+ "places": {
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  }
+ },
+ "people": {
+  "darius": {
+   "name": "Darius"
+  },
+  "god": {
+   "name": "God"
+  },
+  "haggai": {
+   "name": "Haggai"
+  },
+  "josedech": {
+   "name": "Josedech"
+  },
+  "joshua": {
+   "name": "Joshua"
+  },
+  "shealtiel": {
+   "name": "Shealtiel"
+  },
+  "zerubbabel": {
+   "name": "Zerubbabel"
+  }
+ },
+ "events": {
+  "prophecies-of-haggai": {
+   "name": "Prophecies of Haggai"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+[
+ {"c": 1, "drop": ["israel"], "unmap": ["beth-ezel", "shaphir", "zaanan", "maroth", "achzib"],
+  "why": "Here Israel is the nation (\"Israel's house\", \"kings of Israel\"), not the patriarch Jacob. Bible Atlas gives Beth-ezel, Shaphir, Zaanan and Maroth one shared point near the coast by Ashdod, but Micah's towns lie along the Judean foothills, so no dot is drawn. Achzib has only a generic point in the foothills, so no dot is drawn either."},
+ {"c": 2, "drop": ["israel"], "why": "Here Israel is the nation (\"what is left of Israel\"), not the patriarch Jacob."},
+ {"c": 3, "drop": ["israel"], "why": "Here Israel is the nation (\"the house of Israel\"), not the patriarch Jacob."},
+ {"c": 4, "drop": ["israel"], "why": "This chapter's Plain does not name Israel, so the link does not belong here."},
+ {"c": 5, "drop": ["israel", "ephratah", "nimrod"], "unmap": ["nimrod-2"],
+  "why": "Here Israel is the nation, not the patriarch. Ephrathah in 5:2 is the clan and district around Bethlehem, already linked as a place, not the woman Ephrathah. \"The land of Nimrod\" is a name for Assyria, not the person Nimrod. Bible Atlas puts that land at Babylon's point, far south of Assyria, so no dot is drawn."},
+ {"c": 6, "drop": ["moab"], "unmap": ["gilgal"],
+  "why": "Here Moab is the land and kingdom of Balak, linked as a place, not Moab the son of Lot. Bible Atlas puts this Gilgal in the coastal plain, but the Gilgal in Micah 6:5 is the camp by the Jordan near Jericho (Joshua 4-5), reached from Shittim, so no dot is drawn."},
+ {"c": 7, "drop": ["israel"], "unmap": ["river-2"],
+  "why": "This chapter's Plain does not name Israel, so the link does not belong here. \"The River\" in 7:12 is the Euphrates by custom, but Bible Atlas's point is in the Syrian desert away from the river, so no dot is drawn."}
+]

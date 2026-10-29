@@ -1,0 +1,5 @@
+[
+ {"c": 1, "add": {"places": {"chaldea": {"name": "Chaldea", "lat": 30.9620520474569, "lon": 46.10374195774169}}}, "why": "Habakkuk 1:6 names the Chaldeans, the Babylonian people God raises up; Bible Atlas does not link this verse."},
+ {"c": 3, "drop": ["midian"], "why": "Habakkuk 3:7 means the land and people of Midian, not Midian the son of Abraham."},
+ {"c": 3, "unmap": ["cushan"], "why": "Bible Atlas puts Cushan on the same point as Cush in Nubia, but Habakkuk 3:7 sets Cushan in parallel with Midian, so it was probably in northwest Arabia. Its location is uncertain, so no dot is drawn here."}
+]

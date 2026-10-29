@@ -1,0 +1,327 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "jerusalem",
+    "moresheth",
+    "samaria",
+    "beth-le-aphrah",
+    "gath",
+    "beth-ezel",
+    "shaphir",
+    "zaanan",
+    "maroth",
+    "lachish",
+    "zion",
+    "achzib",
+    "moresheth-gath",
+    "adullam",
+    "mareshah"
+   ],
+   "people": [
+    "ahaz",
+    "god",
+    "hezekiah",
+    "jotham-2",
+    "micah-3",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "3": {
+   "places": [
+    "jerusalem",
+    "zion"
+   ],
+   "people": [
+    "israel",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "4": {
+   "places": [
+    "jerusalem",
+    "zion",
+    "mount-zion",
+    "babylon"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "5": {
+   "places": [
+    "bethlehem-ephrathah",
+    "assyria",
+    "nimrod-2"
+   ],
+   "people": [
+    "ephratah",
+    "israel",
+    "god",
+    "nimrod"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "6": {
+   "places": [
+    "egypt",
+    "gilgal",
+    "moab-2",
+    "shittim"
+   ],
+   "people": [
+    "god",
+    "aaron",
+    "miriam",
+    "moses",
+    "balaam",
+    "balak",
+    "beor-2",
+    "moab",
+    "ahab",
+    "omri"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  },
+  "7": {
+   "places": [
+    "assyria",
+    "river-2",
+    "bashan",
+    "gilead-4",
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "abraham",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-micah"
+   ]
+  }
+ },
+ "places": {
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "moresheth": {
+   "name": "Moresheth",
+   "lat": 31.60393321295081,
+   "lon": 34.90237777777779
+  },
+  "samaria": {
+   "name": "Samaria",
+   "lat": 32.331417,
+   "lon": 35.228586
+  },
+  "beth-le-aphrah": {
+   "name": "Beth-le-aphrah",
+   "lat": 31.95378956,
+   "lon": 35.29913578
+  },
+  "gath": {
+   "name": "Gath",
+   "lat": 31.6935295,
+   "lon": 34.84388289
+  },
+  "beth-ezel": {
+   "name": "Beth-ezel",
+   "lat": 31.743719,
+   "lon": 34.694006
+  },
+  "shaphir": {
+   "name": "Shaphir",
+   "lat": 31.743719,
+   "lon": 34.694006
+  },
+  "zaanan": {
+   "name": "Zaanan",
+   "lat": 31.743719,
+   "lon": 34.694006
+  },
+  "maroth": {
+   "name": "Maroth",
+   "lat": 31.743719,
+   "lon": 34.694006
+  },
+  "lachish": {
+   "name": "Lachish",
+   "lat": 31.56522,
+   "lon": 34.84907
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "achzib": {
+   "name": "Achzib",
+   "lat": 31.7,
+   "lon": 35
+  },
+  "moresheth-gath": {
+   "name": "Moresheth-gath",
+   "lat": 31.60393321295081,
+   "lon": 34.90237777777779
+  },
+  "adullam": {
+   "name": "Adullam",
+   "lat": 31.657354,
+   "lon": 34.999242
+  },
+  "mareshah": {
+   "name": "Mareshah",
+   "lat": 31.592963,
+   "lon": 34.898241
+  },
+  "mount-zion": {
+   "name": "Mount Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "babylon": {
+   "name": "Babylon",
+   "lat": 32.53617,
+   "lon": 44.42082
+  },
+  "bethlehem-ephrathah": {
+   "name": "Bethlehem Ephrathah",
+   "lat": 31.70536129,
+   "lon": 35.2102663
+  },
+  "assyria": {
+   "name": "Assyria",
+   "lat": 36.50969,
+   "lon": 43.2282
+  },
+  "nimrod-2": {
+   "name": "Nimrod",
+   "lat": 32.53650368616845,
+   "lon": 44.42088287373876
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "gilgal": {
+   "name": "Gilgal",
+   "lat": 32.1547,
+   "lon": 34.95372
+  },
+  "moab-2": {
+   "name": "Moab",
+   "lat": 31.499159,
+   "lon": 35.780512
+  },
+  "shittim": {
+   "name": "Shittim",
+   "lat": 31.85826218,
+   "lon": 35.64156653
+  },
+  "river-2": {
+   "name": "River",
+   "lat": 34.74942377777777,
+   "lon": 40.93640094
+  },
+  "bashan": {
+   "name": "Bashan",
+   "lat": 32.80007552505443,
+   "lon": 35.93730130476259
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  }
+ },
+ "people": {
+  "ahaz": {
+   "name": "Ahaz"
+  },
+  "god": {
+   "name": "God"
+  },
+  "hezekiah": {
+   "name": "Hezekiah"
+  },
+  "jotham-2": {
+   "name": "Jotham"
+  },
+  "micah-3": {
+   "name": "Micah"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "ephratah": {
+   "name": "Ephratah"
+  },
+  "nimrod": {
+   "name": "Nimrod"
+  },
+  "aaron": {
+   "name": "Aaron"
+  },
+  "miriam": {
+   "name": "Miriam"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "balaam": {
+   "name": "Balaam"
+  },
+  "balak": {
+   "name": "Balak"
+  },
+  "beor-2": {
+   "name": "Beor"
+  },
+  "moab": {
+   "name": "Moab"
+  },
+  "ahab": {
+   "name": "Ahab"
+  },
+  "omri": {
+   "name": "Omri"
+  },
+  "abraham": {
+   "name": "Abraham"
+  }
+ },
+ "events": {
+  "prophecies-of-micah": {
+   "name": "Prophecies of Micah",
+   "date": -753
+  }
+ }
+}

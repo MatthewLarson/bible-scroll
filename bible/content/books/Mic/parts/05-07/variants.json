@@ -1,0 +1,579 @@
+[
+ {
+  "v": "5:1",
+  "a": "Israel's judge",
+  "t": "Judge of Israel, or gates of Israel?",
+  "p": "The Greek says 'they strike the gates of Israel on the cheek'. The Hebrew says the judge of Israel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (the words are visible)",
+    "orig": "אֵת שֹׁפֵט יִשְׂרָאֵל",
+    "en": "the judge of Israel",
+    "plain": "Israel's judge"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "τὰς πύλας τοῦ Ἰσραήλ",
+    "en": "the gates of Israel",
+    "plain": "Israel's gates"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense (a ruler shamed) and Mur88 agrees with it. The Greek reading looks like a mistaken or free rendering of the Hebrew word for judge (a translator may have read a similar word for 'gate'). It is also a harder fit with 'cheek'.",
+  "b": "The Greek of the whole verse is far from the Hebrew ('the daughter will be walled in with a wall'), so the translator may have worked from a damaged or unclear text.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "clans",
+  "t": "Clans, thousands or chiefs?",
+  "p": "The same letters can be 'thousands' (clans) or, with a waw, 'chiefs'. Matthew 2:6 reads 'leaders'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4Q81 (4QXII-f; the transcription prints the word with these consonants); Targum Jonathan (Aramaic)",
+    "orig": "בְּאַלְפֵי יְהוּדָה",
+    "en": "among the clans (thousands) of Judah",
+    "plain": "clans"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus); Vulgate",
+    "orig": "ἐν χιλιάσιν Ἰούδα; in milibus Iuda",
+    "en": "among the thousands of Judah",
+    "plain": "thousands"
+   },
+   {
+    "w": "Matthew 2:6 (a New Testament quotation, not a manuscript of Micah)",
+    "orig": "ἐν τοῖς ἡγεμόσιν Ἰούδα",
+    "en": "among the leaders of Judah",
+    "plain": "leaders"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word with its plain consonants is printed the same way in the 4Q81 transcription and read the same way by the Greek and Latin as 'thousands'. 'Clans' is the sense of 'thousands' in the passages where Judah is divided into units (Judges 6:15; 1 Samuel 10:19). Matthew's 'leaders' is a quotation that gives the sense of the line for his purpose, or it reflects reading the same letters as <i>alluf</i> 'chief' (Genesis 36:15); it is not evidence of a different Hebrew text.",
+  "b": "The Murabba'at scroll is damaged at this word. 'Chief' would need a waw added to the consonants (אלופי), and no Hebrew manuscript has it.",
+  "s": [
+   "tov-tchb",
+   "swete-lxx",
+   "djd15-prophets",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "one will come out",
+  "t": "Does 4Q81 have an extra 'not'?",
+  "p": "The transcription of 4Q81 prints an extra word, 'not', between 'for me' and 'come out'. No translation follows it, and its cause is unexplained.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (these words are visible)",
+    "orig": "לִי יֵצֵא",
+    "en": "for me will go out",
+    "plain": "one will come out"
+   },
+   {
+    "w": "Qumran scroll 4Q81 (4QXII-f), as printed in the Abegg, Bowley and Cook transcription (ETCBC dataset). The word 'not' is printed without restoration brackets; 'for me' and 'come out' beside it are bracketed (restored)",
+    "orig": "לי לא יצא",
+    "en": "for me not will go out",
+    "plain": "one will not come out"
+   }
+  ],
+  "follow": 0,
+  "why": "The extra 'not' would reverse the sense and has no other support (not the Greek, the Latin, the Targum or Mur88). Its cause is unexplained: a scribal slip is one suggestion, but a misreading of the damaged surface, a repeated word or an error in the transcription are also possible. No translation follows it.",
+  "b": "I report only what the transcription prints: one unbracketed word between two bracketed ones. The same scroll appears in the entry above as printing the consonants of <i>alpe</i> as in the Masoretic Text; a scroll can agree with the Masoretic Text in one word and differ in the next, and neither entry settles what the leather itself shows.",
+  "s": [
+   "djd15-prophets",
+   "etcbc-dss"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "eight leaders of men",
+  "t": "Leaders of men, or 'bites of men'?",
+  "p": "The Greek has 'eight bites of men'. It seems to read the Hebrew word for 'princes' as a word for 'bite' or 'sting'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וּשְׁמֹנָה נְסִיכֵי אָדָם",
+    "en": "and eight princes of man",
+    "plain": "eight leaders of men"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ὀκτὼ δήγματα ἀνθρώπων",
+    "en": "and eight bites of men",
+    "plain": "eight bites of men"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Nasikh</i> 'prince' is a known word (Psalm 83:11; Joshua 13:21), and 'princes' fits 'shepherds' as leaders. The Greek <i>dēgmata</i> (bites) probably reflects the Hebrew root <i>nashakh</i> 'to bite', either from a different pointing of the same letters or a guess. It does not fit the context.",
+  "b": "The Vulgate reads 'eight chief men' (<i>octo primates hominum</i>), following the Hebrew sense.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "at its gates",
+  "t": "At its gates, in its trench, or with its spears?",
+  "p": "The Hebrew 'bifthehah' means 'in its entrances'. The Greek has 'in its trench' and the Latin 'with its spears'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בִּפְתָחֶיהָ",
+    "en": "at its entrances",
+    "plain": "at its gates"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἐν τῇ τάφρῳ αὐτῆς",
+    "en": "in its trench (ditch)",
+    "plain": "in its trench"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "in lanceis eius",
+    "en": "with its lances",
+    "plain": "with its spears"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is clear and natural. The Greek word 'trench' is a translator's guess at a rare word, and the Latin appears to read the Hebrew in another way. The Murabba'at scroll has this word only in restored letters, so it cannot be cited.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:7",
+  "a": "like heavy showers on the grass",
+  "t": "Showers on the grass, or lambs on the grass?",
+  "p": "The Greek has 'like lambs on the grass'. The Hebrew has 'like heavy showers'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כִּרְבִיבִים עֲלֵי עֵשֶׂב",
+    "en": "like showers on the grass",
+    "plain": "like heavy showers on the grass"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ὡς ἄρνες ἐπὶ ἄγρωστιν",
+    "en": "and like lambs on the pasture grass",
+    "plain": "like lambs on the grass"
+   }
+  ],
+  "follow": 0,
+  "why": "Showers belong with dew in the same line. The Greek 'lambs' does not match the Hebrew letters well and does not fit 'which put no hope in anyone'. It may be a translator's confusion over a rare word (<i>revivim</i> is found elsewhere only in Deuteronomy 32:2; Psalm 65:10; Jeremiah 3:3; 14:22).",
+  "b": "The Qumran scroll 4Q82 (4QXII-g) preserves 'dew from the LORD' in these verses and differs from the Masoretic Text only in spelling (<i>Ya'aqov</i> with a waw, <i>lo</i> with a waw). The word for 'showers' is restored in both Qumran and Murabba'at texts.",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "Testify against me",
+  "t": "Answer me, or testify against me?",
+  "p": "The Greek and the Latin read 'answer me'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֲנֵה בִי",
+    "en": "testify against me / answer me",
+    "plain": "Testify against me"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus); Vulgate",
+    "orig": "ἀποκρίθητί μοι; responde mihi",
+    "en": "answer me",
+    "plain": "Answer me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the preposition <i>be</i> ('in, against'), which makes the legal reading 'testify against' natural in this courtroom. The Greek and Latin drop the preposition's force and read the plain 'answer'. Both fit; the Plain keeps the Hebrew and gives the other in the note.",
+  "b": "The Greek also adds a third question in verse 3: 'or how have I troubled you?'",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:8",
+  "a": "in humility",
+  "t": "Humbly, or 'ready'?",
+  "p": "The Greek has 'be ready to walk'. The Hebrew has a rare word that is usually taken as 'humbly' or 'modestly'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהַצְנֵעַ לֶכֶת",
+    "en": "and to walk humbly (modestly)",
+    "plain": "in humility"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἕτοιμον εἶναι τοῦ πορεύεσθαι",
+    "en": "to be ready to walk",
+    "plain": "readily"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word is rare but has a known relative (<i>tsanua'</i>, 'modest', Proverbs 11:2), and the Talmud and later Hebrew take it that way. The Greek 'ready' is a guess at the same word or a different text. 'Carefully' is a third rendering, the 'attentive' sense some modern lexicons give.",
+  "b": "The Greek reads 'do judgment and love mercy and be ready to walk', and begins with 'if it has been told to you' as a question. No scroll preserves 6:8.",
+  "s": [
+   "swete-lxx",
+   "bavli-sukkah"
+  ]
+ },
+ {
+  "v": "6:9",
+  "a": "sound wisdom sees your name",
+  "t": "'Wisdom sees your name', or 'he will save those who fear his name'?",
+  "p": "The Greek and Latin turn this phrase into a promise to those who fear God's name.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְתוּשִׁיָּה יִרְאֶה שְׁמֶךָ",
+    "en": "and sound wisdom sees your name",
+    "plain": "sound wisdom sees your name"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ σώσει φοβουμένους τὸ ὄνομα αὐτοῦ",
+    "en": "and he will save those who fear his name",
+    "plain": "he will save those who fear his name"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "et salus erit timentibus nomen tuum",
+    "en": "and salvation will be for those who fear your name",
+    "plain": "salvation will be for those who fear your name"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is the hardest reading and cannot be shown to be a mistake. The Greek and Latin read one letter differently (<i>yir'eh</i> 'sees' becoming <i>yir'e</i> 'those who fear'), a simpler sense; this may be right, but the simpler reading is the kind a translator or copyist would supply. The Plain keeps the Hebrew and marks the line as difficult.",
+  "b": "No scroll preserves 6:9.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "Is there still a wicked house",
+  "t": "A wicked house, or fire in the house?",
+  "p": "The Greek and the Latin read 'fire' in the house of the wicked. The Hebrew can be read 'is there still'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַאִשׁ בֵּית רָשָׁע",
+    "en": "is there still a wicked house",
+    "plain": "Is there still a wicked house"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus); Vulgate",
+    "orig": "μὴ πῦρ καὶ οἶκος ἀνόμου; adhuc ignis in domo impii",
+    "en": "is there not fire in the house of the wicked",
+    "plain": "Is there still fire in a wicked house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew letters <i>ha-esh</i> can be <i>ha-yesh</i> 'is there?' (with a variant spelling) or <i>esh</i> 'fire'. The Masoretic Text reads 'is there', and it fits the question that follows. The Greek and Latin read 'fire' (a figure for judgment), a possible text. The Masoretes' reading is kept because the line is a question about the stored wealth.",
+  "b": "No scroll preserves 6:10.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "Can I be clean with wicked scales",
+  "t": "'Can I be clean', or 'shall I count a cheat clean'?",
+  "p": "The Hebrew has the LORD ask whether he himself can be clean. The Greek and Latin turn it into whether he will acquit a cheat.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַאֶזְכֶּה בְּמֹאזְנֵי רֶשַׁע",
+    "en": "shall I be clean with wicked scales",
+    "plain": "Can I be clean with wicked scales"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "εἰ δικαιωθήσεται ἐν ζυγῷ ἄνομος",
+    "en": "will the lawless be justified in the balance",
+    "plain": "Will someone with wicked scales be counted righteous"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "numquid iustificabo stateram impiam",
+    "en": "shall I justify a wicked balance",
+    "plain": "Shall I count as clean someone with wicked scales"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text reads a first-person verb in the qal ('I be clean'). The Greek and Latin, and many modern versions, change the pointing (<i>ha'ezkeh</i> to <i>ha'azakkeh</i>) to get 'shall I acquit'. The change is easy, and the sense ('I will not acquit a cheat') is clearer. The Plain keeps the Masoretic Text because it makes sense as it stands: the LORD asks whether he can be called clean if he lets the cheating pass.",
+  "b": "The Murabba'at scroll has these words only in restored letters.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "your emptiness",
+  "t": "A rare word: emptiness, darkness or humiliation?",
+  "p": "The Hebrew word 'yeshachakha' appears nowhere else. The Greek says 'it will be dark', the Latin 'your humiliation'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (these letters are visible)",
+    "orig": "וִישֶׁחֲךָ",
+    "en": "and your emptiness",
+    "plain": "your emptiness"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ σκοτάσει ἐν σοί",
+    "en": "and it will be dark in you",
+    "plain": "your darkness"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "humiliatio tua in medio tui",
+    "en": "your humiliation in your midst",
+    "plain": "your humiliation"
+   }
+  ],
+  "follow": 0,
+  "why": "The word is a hapax legomenon (found once). A root that some link with 'be empty, hungry' fits the pairing with 'eat but not be full'. The Greek and Latin are guesses from context. The Murabba'at scroll reads the same consonants as the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:16",
+  "a": "The rules of Omri are kept",
+  "t": "'Are kept' or 'you kept'; Omri or Zimri?",
+  "p": "The Hebrew verb is a rare passive form. The Greek has 'you kept the rules of Zambri' (Zimri).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (these words are visible)",
+    "orig": "וְיִשְׁתַּמֵּר חֻקּוֹת עָמְרִי",
+    "en": "and the statutes of Omri are kept",
+    "plain": "The rules of Omri are kept"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐφύλαξας τὰ δικαιώματα Ζαμβρεί",
+    "en": "and you kept the rules of Zambri",
+    "plain": "You have kept the rules of Zimri"
+   }
+  ],
+  "follow": 0,
+  "why": "The Masoretic Text is supported by Mur88 and is the harder reading (the verb form is unusual). Omri fits the sequel, 'the house of Ahab', his son. The Greek 'Zambri' is the Greek form of Zimri (1 Kings 16:9-20, a king who ruled seven days); in the Greek of Kings, Omri's name is spelled 'Ambri', so the Greek here may be a scribal slip or a different tradition.",
+  "b": "The Greek of the whole line also reads 'you kept' (second person) instead of a passive.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "6:16",
+  "a": "the disgrace of my people",
+  "t": "My people, or the peoples?",
+  "p": "The Greek says 'the disgrace of peoples'. The Hebrew says 'my people'. The Murabba'at scroll agrees with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (these letters are visible)",
+    "orig": "וְחֶרְפַּת עַמִּי תִּשָּׂאוּ",
+    "en": "and the disgrace of my people you will bear",
+    "plain": "the disgrace of my people"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ὀνείδη λαῶν λήψεσθε",
+    "en": "and you will take the reproaches of peoples",
+    "plain": "the disgrace of the peoples"
+   }
+  ],
+  "follow": 0,
+  "why": "Mur88 reads 'my people', so the Masoretic Text is early. The Greek 'peoples' is a different pointing of the same letters (<i>ammim</i> for <i>ammi</i>). 'The disgrace of my people' can mean the shame the people bring on God's name, or the scorn God's people are met with; the Greek 'of the peoples' means scorn from the nations.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "the judge wants a bribe",
+  "t": "A bribe, or smooth words?",
+  "p": "The Hebrew consonants can be read 'bribe' (shillum) or 'peace' (shalom). The Greek reads 'peaceful words'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4Q82 (4QXII-g) and Mur88 (the same consonants, with no vowels)",
+    "orig": "וְהַשֹּׁפֵט בַּשִּׁלּוּם",
+    "en": "and the judge, for the bribe",
+    "plain": "the judge wants a bribe"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "ὁ κριτὴς εἰρηνικοὺς λόγους ἐλάλησεν",
+    "en": "the judge spoke peaceable words",
+    "plain": "the judge speaks smooth words"
+   }
+  ],
+  "follow": 0,
+  "why": "Both Qumran scrolls have the same consonants as the Masoretic Text (no vowels, so they decide nothing about the vowels). The Masoretic pointing gives <i>shillum</i> 'bribe, payment', a known word for 'payment, recompense' (Hosea 9:7), related to <i>shalmonim</i> 'bribes' (Isaiah 1:23), and it fits the courtroom. The Greek takes the consonants as <i>shalom</i> (peace, in the sense of smooth talk). The Plain follows the pointing.",
+  "b": "The Greek also reads the other lines differently ('it is the desire of his soul', and at the end 'I will take away their good things').",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "It will be a day to build your walls",
+  "t": "A day to build walls, or days of smearing brick?",
+  "p": "The Greek text of verses 11 reads quite differently, with 'brick' and 'wiping out'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the words for 'a day to build' are visible)",
+    "orig": "יוֹם לִבְנוֹת גְּדֵרַיִךְ",
+    "en": "a day to build your walls",
+    "plain": "It will be a day to build your walls"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἡμέρας ἀλοιφῆς πλίνθου, ἐξάλειψίς σου ἡ ἡμέρα ἐκείνη",
+    "en": "days of the smearing of brick; that day is your wiping out",
+    "plain": "It will be days of smearing brick"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is not a close rendering and I cannot rebuild its Hebrew with certainty. It does not fit a promise of restoration and is probably a translator's struggle with a hard text. The second half of the verse ('on that day the boundary will lie far away') the Greek reads as 'that day will wipe away your ordinances', again different.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "7:12",
+  "a": "Egypt's cities",
+  "t": "Egypt, a fortress, or Tyre?",
+  "p": "The Hebrew word 'matsor' can mean Egypt, a fortress, or sound like Tyre. The Greek has 'fortified cities' and 'Tyre'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (the second <i>matsor</i> is visible)",
+    "orig": "וְעָרֵי מָצוֹר",
+    "en": "and the cities of Egypt",
+    "plain": "Egypt's cities"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "αἱ πόλεις σου αἱ ὀχυραί ... ἀπὸ Τύρου",
+    "en": "your fortified cities ... from Tyre",
+    "plain": "your fortified cities"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Matsor</i> for Egypt is attested (Isaiah 19:6; 37:25; 2 Kings 19:24), and the sequence Assyria, Egypt, River, sea, mountain (Assyria to Egypt to the Euphrates) is a recognizable list of Israel's neighbors. The Greek reads 'fortified' (the ordinary meaning of the same word) and 'Tyre' (<i>tsor</i>), and makes the cities objects of division; it also reads 'Assyrians' as the people dividing them.",
+  "b": "The Greek of 7:12 is a quite different sentence: 'and your cities will yield to leveling and to division by Assyrians'.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "He will subdue our guilt",
+  "t": "Subdue or sink?",
+  "p": "The Greek says 'he will sink our guilt'. The Latin has 'put away' (Clementine) or 'tread' (Nova Vulgata).",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Murabba'at scroll Mur88 (the verb is visible)",
+    "orig": "יִכְבֹּשׁ עֲוֺנֹתֵינוּ",
+    "en": "he will subdue our guilt",
+    "plain": "He will subdue our guilt"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "καταδύσει τὰς ἀδικίας ἡμῶν",
+    "en": "he will sink our injustices",
+    "plain": "He will sink our guilt"
+   },
+   {
+    "w": "Latin Vulgate. The Clementine edition reads <i>deponet</i>; the Nova Vulgata is reported to read <i>calcabit</i> ('he will tread'). Only the Clementine reading is given here",
+    "orig": "deponet iniquitates nostras",
+    "en": "he will put away our guilt",
+    "plain": "He will put our guilt away"
+   }
+  ],
+  "follow": 0,
+  "why": "Mur88 reads the same verb as the Masoretic Text. <i>Kavash</i> 'subdue' makes a sequence with the sea: first pin the enemy, then throw him in the water. The Greek 'sink' fits the sea picture and may be a translator's smoothing. The Latin editions differ from each other and from the Hebrew verb.",
+  "s": [
+   "swete-lxx",
+   "djd2-murabbaat"
+  ]
+ },
+ {
+  "v": "7:19",
+  "a": "all their sins",
+  "t": "'Their' sins, or 'our' sins?",
+  "p": "The Hebrew says 'all their sins'. The Greek and the Latin say 'all our sins'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כָּל־חַטֹּאתָם",
+    "en": "all their sins",
+    "plain": "all their sins"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus); Latin Vulgate",
+    "orig": "πάσας τὰς ἁμαρτίας ἡμῶν; omnia peccata nostra",
+    "en": "all our sins",
+    "plain": "all our sins"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek and Latin match the 'us' and 'our' of the lines before ('have compassion on us', 'our guilt'), which is the smoother sentence. The Hebrew 'their' is the rougher reading, and a translator or copyist is more likely to even out a sentence than to disturb it, so the Plain keeps 'their'. It may be deliberate: the speaker moves from the community ('us') to the sins of the whole people, or to the nations' sins in the sea. The Greek also makes the sins the subject of a passive verb ('will be thrown'), so the shift from 'he' to 'you' in this verse is a feature of the Hebrew only.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "7:20",
+  "a": "from ancient days",
+  "t": "Ancient days, or 'the days before'?",
+  "p": "The Greek has 'as in the days before'. Two scrolls from the Judean desert preserve this verse and agree with the Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Qumran scroll 4Q82 (4QXII-g); Murabba'at scroll Mur88 (the last words of the verse are visible in both)",
+    "orig": "מִימֵי קֶדֶם",
+    "en": "from the days of old",
+    "plain": "from ancient days"
+   },
+   {
+    "w": "Septuagint (the Greek translation made before Jesus; Swete's text, mainly Codex Vaticanus)",
+    "orig": "κατὰ τὰς ἡμέρας τὰς ἔμπροσθεν",
+    "en": "according to the days before",
+    "plain": "as in the earlier days"
+   }
+  ],
+  "follow": 0,
+  "why": "Two scrolls from the Judean desert agree with the Masoretic Text on the last words of the book, and the Greek differs only by rendering the phrase freely. There is no reason to change it.",
+  "b": "The Septuagint's 'truth to Jacob, mercy to Abraham' is a normal Greek rendering of <i>emet</i> and <i>hesed</i> and reflects the same Hebrew.",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "djd2-murabbaat"
+  ]
+ }
+]

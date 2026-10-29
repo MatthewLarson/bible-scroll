@@ -1,0 +1,84 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "habakkuk",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-habakkuk"
+   ]
+  },
+  "2": {
+   "places": [
+    "lebanon-2"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-habakkuk"
+   ]
+  },
+  "3": {
+   "places": [
+    "mount-paran",
+    "teman-3",
+    "cushan",
+    "midian-2"
+   ],
+   "people": [
+    "habakkuk",
+    "god",
+    "midian"
+   ],
+   "events": [
+    "prophecies-of-habakkuk"
+   ]
+  }
+ },
+ "places": {
+  "lebanon-2": {
+   "name": "Lebanon",
+   "lat": 33.9215361440169,
+   "lon": 35.89897373
+  },
+  "mount-paran": {
+   "name": "Mount Paran",
+   "lat": 29.151667,
+   "lon": 33.541944
+  },
+  "teman-3": {
+   "name": "Teman",
+   "lat": 30.203813,
+   "lon": 35.732568
+  },
+  "cushan": {
+   "name": "Cushan",
+   "lat": 21.959788,
+   "lon": 31.343557
+  },
+  "midian-2": {
+   "name": "Midian",
+   "lat": 28.75,
+   "lon": 34.75
+  }
+ },
+ "people": {
+  "habakkuk": {
+   "name": "Habakkuk"
+  },
+  "god": {
+   "name": "God"
+  },
+  "midian": {
+   "name": "Midian"
+  }
+ },
+ "events": {
+  "prophecies-of-habakkuk": {
+   "name": "Prophecies of Habakkuk"
+  }
+ }
+}

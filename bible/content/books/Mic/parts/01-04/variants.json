@@ -1,0 +1,659 @@
+[
+ {
+  "v": "1:5",
+  "a": "Who is behind Judah's high places?",
+  "t": "Judah's \"high places\" or Judah's \"sin\"?",
+  "p": "The Hebrew says \"high places of Judah\"; the Greek says \"sin of the house of Judah\", matching the first line.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"high places\" (bamot), with \"Judah\" restored",
+    "orig": "וּמִי בָּמוֹת יְהוּדָה",
+    "en": "and who are the high places of Judah?",
+    "plain": "Who is behind Judah's high places?"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ τίς ἡ ἁμαρτία οἴκου Ἰούδα",
+    "en": "and what is the sin of the house of Judah?",
+    "plain": "Who is behind the sin of Judah's house?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading and keeps the sound-play on \"high places\" from 1:3. The Greek makes the second question match the first (\"sin\" for \"sin\"), which looks like smoothing. Mur88 backs the Hebrew word \"high places\".",
+  "b": "The Greek also reads \"impiety\" (<i>asebeia</i>) for \"rebellion\" in the first question, where the Hebrew has <i>pesha'</i>.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "walk around barefoot and stripped bare",
+  "t": "Barefoot, or plundered?",
+  "p": "The written Hebrew and a scroll spell this word differently from the reading tradition; the sense is close.",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere), shulal",
+    "orig": "שׁוֹלָל",
+    "en": "barefoot, stripped",
+    "plain": "walk around barefoot and stripped bare"
+   },
+   {
+    "w": "Written text (Ketiv) and Mur88, which spells it with a yod, shilal",
+    "orig": "שֵׁילָל",
+    "en": "plundered, stripped",
+    "plain": "walk around plundered and stripped bare"
+   }
+  ],
+  "follow": 0,
+  "why": "Both spellings are read as \"stripped\", and \"barefoot\" fits the mourning custom and the parallel word \"naked\". The Ketiv form may be an alternative pointing of the same consonants. The difference is a matter of spelling and vowels, not of meaning.",
+  "b": "The Leningrad Codex's own marginal note (Qere) is the source of the Plain's reading.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "Do not tell it in Gath.",
+  "t": "\"Tell\" or \"boast\"?",
+  "p": "The Hebrew has the line from David's lament (2 Samuel 1:20); the Greek changes one letter and reads \"boast\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"do not tell\" (the name Gath is restored)",
+    "orig": "בְּגַת אַל־תַּגִּידוּ",
+    "en": "in Gath do not tell",
+    "plain": "Do not tell it in Gath."
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "οἱ ἐν Γέθ, μὴ μεγαλύνεσθε",
+    "en": "you in Gath, do not boast (lit. do not magnify yourselves)",
+    "plain": "Do not boast in Gath."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew words are exactly David's in 2 Samuel 1:20 and give the pun on Gath/\"tell\"; the Greek has a different verb, \"magnify\" (the Hebrew taggidu read as tagdilu), probably a misreading or a translator's change.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "Do not weep at all.",
+  "t": "Weep, or a place name?",
+  "p": "The Greek has a name, \"Akeim\", where the Hebrew says \"weep\", and ends in \"do not build\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 preserves \"bakho\" (weep) and \"al\" (do not), with \"tivku\" restored",
+    "orig": "בָּכוֹ אַל־תִּבְכּוּ",
+    "en": "weep, do not weep",
+    "plain": "Do not weep at all."
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "οἱ ἐν Ἀκείμ, μὴ ἀνοικοδομεῖτε",
+    "en": "you in Akeim, do not build/rebuild",
+    "plain": "Do not rebuild in Akeim."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the matching pair \"weep... do not weep\" (a pun on the town names that follows). The Greek gives a name, Akeim, that the Hebrew does not have there; some scholars think it reflects the Hebrew for \"weep\" read as a place name, and \"build\" for \"weep\" is a one-letter change. A common proposal reads the Hebrew <i>bakho</i> as <i>be-'Akko</i>, \"in Acco\" (restoring a letter, ayin, that is not written), which would pair Gath with Acco: \"in Gath do not tell, in Acco do not weep\". The Plain keeps the Masoretic Text, which the scroll Mur88 supports.",
+  "b": "Beth-leaphrah's name is not in the Greek of this verse. Instead it has \"laughingstock\" (<i>katagelota</i>) where the Hebrew has the town name and the word for dust.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "roll around in the dust",
+  "t": "\"Roll yourself\" or \"I have rolled myself\"?",
+  "p": "The reading tradition says \"roll yourself\" (a command); the written text says \"I have rolled myself\".",
+  "readings": [
+   {
+    "w": "Masoretic reading tradition (Qere); Mur88, which agrees",
+    "orig": "הִתְפַּלָּשִׁי",
+    "en": "roll yourself (feminine singular command)",
+    "plain": "roll around in the dust"
+   },
+   {
+    "w": "Written text (Ketiv) of the Leningrad Codex",
+    "orig": "הִתְפַּלָּשְׁתִּי",
+    "en": "I have rolled myself",
+    "plain": "I have rolled around in the dust"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "γῆν καταπάσασθε καταγέλωτα ὑμῶν",
+    "en": "sprinkle yourselves with earth as a laughingstock",
+    "plain": "cover yourselves with earth"
+   }
+  ],
+  "follow": 0,
+  "why": "The command fits the rest of the verse, which is made of commands (\"do not tell... do not weep\"), and Mur88 has it. The Ketiv would make the prophet or the town say what it has already done.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "The people of Zaanan do not come out.",
+  "t": "Zaanan or \"Sennaar\"?",
+  "p": "The Greek has \"the one living in Senaar\" for Zaanan, and \"beautifully\" for Shaphir.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לֹא יָצְאָה יוֹשֶׁבֶת צַאֲנָן",
+    "en": "the inhabitant of Zaanan did not come out",
+    "plain": "The people of Zaanan do not come out."
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "οὐκ ἐξῆλθεν κατοικοῦσα Σενναάρ",
+    "en": "the one living in Sennaar did not come out",
+    "plain": "The one living in Senaar does not come out."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew pun on \"go out\" (yatsa') is the point of the line, and Zenan is a Judean town (Joshua 15:37). The Greek uses Shinar (Babylonia), which makes no sense in a list of Judean towns; it reads the name as a different place. Mur88 preserves \"did not come out\".",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "The people of Maroth ache and wait for good",
+  "t": "Maroth and its \"good\"",
+  "p": "The Greek reads a question, \"Who began pain for the one who lives well?\" instead of the town name Maroth.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q82 (4QXIIg) and Mur88, which both preserve \"for good\" (letov) and \"Maroth\"",
+    "orig": "כִּי־חָלָה לְטוֹב יוֹשֶׁבֶת מָרוֹת",
+    "en": "for the inhabitant of Maroth is in labor/anguish for good",
+    "plain": "The people of Maroth ache and wait for good"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τίς ἤρξατο εἰς ἀγαθὰ κατοικούσῃ ὀδύνας;",
+    "en": "who began pains for the one living well?",
+    "plain": "Who began pain for the one who lives well?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew keeps the pun on Maroth, \"bitter things\", which fits the rest of the town list. The Greek reads \"good\" for the town's name and treats the verb differently. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "hitch the swift horses to the chariot",
+  "t": "Harness the horses, or \"the sound of chariots\"?",
+  "p": "The Greek has \"the noise of chariots and horsemen\" for the Hebrew command to harness the team.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q82 (4QXIIg), which preserves \"harness the chariot to the team\" (ritom hammerkavah larekesh)",
+    "orig": "רְתֹם הַמֶּרְכָּבָה לָרֶכֶשׁ",
+    "en": "harness the chariot to the team",
+    "plain": "hitch the swift horses to the chariot"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ψόφος ἁρμάτων καὶ ἱππευόντων",
+    "en": "the noise of chariots and horsemen",
+    "plain": "hear the noise of chariots and horsemen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has a command and a pun on Lachish/<i>rekesh</i>. The Greek renders a noun phrase, which may reflect a different vowel pattern or a free paraphrase.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "hand over farewell gifts to Moresheth-gath",
+  "t": "Gifts for Moresheth-gath",
+  "p": "The Greek takes the Hebrew for \"farewell gifts\" and \"Moresheth\" as common words: \"those sent away, as far as the inheritance of Gath\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q82 (4QXIIg) and Mur88, which both preserve \"farewell gifts to Moresheth-gath\" (shilluchim al moreshet gat)",
+    "orig": "תִּתְּנִי שִׁלּוּחִים עַל מוֹרֶשֶׁת גַּת",
+    "en": "you will give farewell gifts to Moresheth-gath",
+    "plain": "hand over farewell gifts to Moresheth-gath"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "δώσει ἐξαποστελλομένους ἕως κληρονομίας Γέθ",
+    "en": "he will give those sent away as far as the inheritance of Gath",
+    "plain": "hand over those sent away as far as the possession of Gath"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew uses the town name Moresheth that Micah himself came from (1:1). The Greek reads it as \"inheritance\" (<i>morashah</i>); it also reads \"Achzib\" as \"vain houses\" in the next line.",
+  "b": "The Hebrew has a sound-play on Moresheth and a word for \"betrothed\" (<i>me'orasah</i>) that the Greek loses.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "He hands out our fields to a traitor.",
+  "t": "A traitor, or \"our fields were divided\"?",
+  "p": "The Greek has \"our fields were divided up\" and no \"traitor\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q82 (4QXIIg), which preserves \"to the one who turns away\" (leshovev) in full",
+    "orig": "לְשׁוֹבֵב שָׂדֵינוּ יְחַלֵּק",
+    "en": "to a turner-away our fields he divides",
+    "plain": "He hands out our fields to a traitor."
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "οἱ ἀγροὶ ἡμῶν διεμερίσθησαν",
+    "en": "our fields were divided up",
+    "plain": "Our fields have been divided up."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word <i>shovev</i> is preserved by 4Q82 and is the harder reading. The Greek gives a plainer sentence and a different line before it (\"there was none to stop him turning back\"), so it was probably translating a different or damaged text.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "No one should rant about these things.",
+  "t": "Rant, or weep?",
+  "p": "The Greek has \"Do not weep with tears; let them not weep over these things\": it takes the verb as \"weep\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"disgraces will not be turned back\" and has the verb restored here",
+    "orig": "לֹא יַטִּפוּ לָאֵלֶּה",
+    "en": "they should not drip (preach) about these",
+    "plain": "No one should rant about these things."
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "μηδὲ δακρυέτωσαν ἐπὶ τούτοις",
+    "en": "let them not shed tears over these things",
+    "plain": "No one should weep over these things."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew uses one verb, <i>natap</i>, four times, a deliberate repeated sneer (Amos 7:16 has it). The Greek reads the verb as \"shed (tears)\", a sense the root can have, and so loses the point about preaching.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "Is this what is said, house of Jacob?",
+  "t": "\"Is it said?\" or \"you who say\"?",
+  "p": "The Hebrew has a passive (\"is it said?\"); the Greek reads \"the one who says\" and a different sentence.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the first word is restored, so the scroll does not decide)",
+    "orig": "הֶאָמוּר בֵּית־יַעֲקֹב",
+    "en": "is it said, house of Jacob?",
+    "plain": "Is this what is said, house of Jacob?"
+   },
+   {
+    "w": "Septuagint (Swete's text); many modern scholars emend the Hebrew the same way",
+    "orig": "ὁ λέγων Οἶκος Ἰακώβ",
+    "en": "you who say, house of Jacob",
+    "plain": "You who say, house of Jacob:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew can be read as it stands (a passive participle with an interrogative), though it is unusual. The Greek's \"the one saying\" (<i>ha'omer</i>) is an easy change of one vowel and is adopted by many commentators. The Plain keeps the Hebrew.",
+  "b": "The Greek also has \"the house of Jacob has angered the Spirit of the LORD\" instead of \"Is the LORD's Spirit cut short?\" (see the note).",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:12",
+  "a": "like sheep in an enclosure",
+  "t": "An enclosure, \"Bozrah\" or \"in distress\"?",
+  "p": "The Hebrew word botsrah means a sheepfold (or the town Bozrah); the Greek has \"in distress\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (this word is restored, so the scroll does not decide)",
+    "orig": "כְּצֹאן בָּצְרָה",
+    "en": "like sheep in a fold (or: of Bozrah)",
+    "plain": "like sheep in an enclosure"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ὡς πρόβατα ἐν θλίψει",
+    "en": "like sheep in distress",
+    "plain": "like sheep in distress"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Botsrah</i> as \"fold\" suits the parallel \"flock in the middle of its pasture\" and the Edomite town Bozrah was famous for its sheep (Isaiah 34:6). The Greek reads the same letters as <i>batsarah</i>, \"in distress\", and with it the verse becomes a picture of a flock penned by siege (the judgment reading).",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "The one who breaks through",
+  "t": "A person who breaks through, or a breach?",
+  "p": "The Hebrew has a person, \"the breaker\"; the Greek has a thing, \"the breach\", and no one goes up.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עָלָה הַפֹּרֵץ לִפְנֵיהֶם",
+    "en": "the breaker goes up before them",
+    "plain": "The one who breaks through"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "διὰ τῆς διακοπῆς πρὸ προσώπου αὐτῶν διέκοψαν",
+    "en": "through the breach before them they broke through",
+    "plain": "Through the breach in front of them they broke through."
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>happorets</i> is a participle, \"the one who breaks through\", and it gives the three readings of the note (the LORD, a Davidic king, an unnamed leader, or an enemy). The Greek reads the word as a thing, \"the breach\" (<i>diakope</i>), and puts the breaking in the people's own hands. The Plain follows the Hebrew, which has a leader at the head and fits \"their king\" and \"the LORD\" that follow.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "chop them up as for the pot",
+  "t": "\"As for the pot\" or \"like flesh\"?",
+  "p": "The Hebrew has an odd \"as in the pot\"; the Greek has \"like flesh into a cauldron\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"and they chop up\" (ufarsu) and \"their bones\", with \"as\" (ka'asher) restored",
+    "orig": "וּפָרְשׂוּ כַּאֲשֶׁר בַּסִּיר",
+    "en": "and they spread/chop as in the pot",
+    "plain": "chop them up as for the pot"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἐμέλισαν ὡς σάρκας εἰς λέβητα",
+    "en": "they dismembered like flesh into a cauldron",
+    "plain": "chop them up like flesh for the cauldron"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>ka'asher</i> (\"as\") is hard here; the Greek has \"flesh\", which may reflect <i>she'er</i> (the same letters in another order) or a translator's smoothing. The sense is the same, and the Hebrew is kept.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:8",
+  "a": "As for me, I am full of strength",
+  "t": "\"But I am full\" or \"unless I fill\"?",
+  "p": "The Greek begins \"unless I fill myself with strength\", a different grammar.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 preserves \"strength, with the Spirit of the LORD\" (the opening words are restored, so the scroll does not decide)",
+    "orig": "וְאוּלָם אָנֹכִי מָלֵאתִי כֹחַ",
+    "en": "but as for me, I am filled with strength",
+    "plain": "As for me, I am full of strength"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἐὰν μὴ ἐγὼ ἐμπλήσω ἰσχὺν ἐν πνεύματι Κυρίου",
+    "en": "unless I fill (myself with) strength in the Spirit of the LORD",
+    "plain": "Unless I am filled with strength by the LORD's Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew contrasts the prophet with the lying prophets (\"But as for me\") and reads naturally. The Greek has a conditional that is hard to explain as a translation of these words; it may reflect a different division of the Hebrew letters.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "Zion will be plowed like a field",
+  "t": "Rubble or a watchman's hut? (the Greek of 3:12)",
+  "p": "The Greek has Jerusalem as a hut for a fruit-watcher and the Temple hill as a grove; the Plain follows the Hebrew and Jeremiah.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); same words in Jeremiah 26:18; 4Q82 preserves the last words",
+    "orig": "וִירוּשָׁלִַם עִיִּים תִּהְיֶה וְהַר הַבַּיִת לְבָמוֹת יָעַר",
+    "en": "Jerusalem will be heaps, and the mountain of the house high places of a forest",
+    "plain": "Zion will be plowed like a field"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "Ἰερουσαλὴμ ὡς ὀπωροφυλάκιον ἔσται, καὶ τὸ ὄρος τοῦ οἴκου εἰς ἄλσος δρυμοῦ",
+    "en": "Jerusalem will be like a fruit-watcher's hut, and the mountain of the house a grove of a thicket",
+    "plain": "Jerusalem will be like a hut in an orchard, and the mountain of the house a grove in a thicket."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek word for the hut is the one its Psalm translator uses for the same Hebrew word (<i>'iyyim</i>, \"heaps\") in Psalm 78:1 (Hebrew 79:1), so it is probably a translation choice, not another Hebrew text. The Hebrew of Micah matches Jeremiah 26:18 letter for letter, and the Plain keeps that form so that the two books agree.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "each in the name of its own god",
+  "t": "\"In the name of its god\" or \"its own way\"?",
+  "p": "The Greek says each people walks \"its own way\"; the Hebrew says \"in the name of its god\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אִישׁ בְּשֵׁם אֱלֹהָיו",
+    "en": "each in the name of its god",
+    "plain": "each in the name of its own god"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἕκαστος τὴν ὁδὸν αὐτοῦ",
+    "en": "each his own way",
+    "plain": "each in its own way"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew sets \"the name of its god\" against \"the name of the LORD our God\" in the next line, and that match is lost in the Greek. The Greek may be a free rendering that avoids naming other gods, or it may reflect another Hebrew text; the evidence does not decide. It bears on the \"for\" or \"though\" question in the note: the Hebrew speaks of the peoples' gods, the Greek only of their ways.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "the lame",
+  "t": "The lame and the outcasts, or the crushed and the rejected?",
+  "p": "The Greek reads \"the crushed\" and \"the thrust out\" for \"the lame\" and \"the outcasts\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַצֹּלֵעָה ... וְהַנִּדָּחָה ... וַאֲשֶׁר הֲרֵעֹתִי",
+    "en": "the lame ... the driven-away ... the one I have harmed",
+    "plain": "the lame"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τὴν συντετριμμένην ... τὴν ἐξωσμένην ... οὓς ἀπωσάμην",
+    "en": "the crushed ... the thrust out ... those I rejected",
+    "plain": "the crushed ... the pushed out ... those I turned away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek gives the sense of the three groups but not the word-for-word Hebrew: \"crushed\" for \"lame\", and \"those I rejected\" where the Hebrew has \"those I have harmed\". It softens the Hebrew's open statement that the LORD himself did the harm (see the note). The Plain follows the Hebrew, whose three words are a clear sequence.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "those driven far off",
+  "t": "\"Driven far off\" (hanehla'ah)",
+  "p": "A rare Hebrew word; the Plain takes its sense from the parallel \"outcasts\" of 4:6; the Greek has \"the thrust away\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהַנַּחֲלָאָה לְגוֹי עָצוּם",
+    "en": "and the (one) removed far off for a mighty nation",
+    "plain": "those driven far off"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τὴν ἀπωσμένην εἰς ἔθνος δυνατόν",
+    "en": "the thrust away for a mighty nation",
+    "plain": "the pushed away a mighty nation"
+   }
+  ],
+  "follow": 0,
+  "why": "The word <i>nehla'ah</i> is rare, and its exact sense is uncertain; the word-by-word line renders it as \"straying\", and the usual sense is \"those who were removed far off\". The Plain's \"driven far off\" follows the parallel \"outcasts\" in 4:6 and the Greek \"thrust away\", which treat the word as a second name for the scattered. The Greek again reads \"the crushed\" for \"the lame\" (see 4:6).",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "pound their swords into plowshares",
+  "t": "Plowshares and pruning knives, or plows and sickles?",
+  "p": "The Greek says \"plows\" and \"sickles\"; this is probably a translator's choice for the same Hebrew.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"plowshares\", \"their spears\", \"pruning knives\" and \"they will not learn\"",
+    "orig": "וְכִתְּתוּ חַרְבֹתֵיהֶם לְאִתִּים",
+    "en": "and they will beat their swords into plowshares",
+    "plain": "pound their swords into plowshares"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "κατακόψουσιν τὰς ῥομφαίας αὐτῶν εἰς ἄροτρα",
+    "en": "they will cut up their swords into plows",
+    "plain": "cut their swords into plows"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>'ittim</i> are the blades of plows, and <i>mazmerot</i> the pruning knives. The Greek <i>arotra</i> (\"plows\") and <i>drepana</i> (\"sickles\") are common farm words chosen by the translator; no different Hebrew is needed to explain them. The Greek of Isaiah 2:4 does the same.",
+  "b": "The Hebrew text of Micah 4:3 reads \"and they will not learn\" with a final nun (<i>yilmedun</i>), where Isaiah 2:4 has <i>yilmedu</i>. This is a spelling variant with no effect on meaning.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "hill of Daughter Zion",
+  "t": "Ophel or \"murky\"?",
+  "p": "The Hebrew Ophel (\"hill\") is read by the Greek as a word for dark or dry.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88 (the word is restored)",
+    "orig": "עֹפֶל בַּת־צִיּוֹן",
+    "en": "Ophel (hill) of Daughter Zion",
+    "plain": "hill of Daughter Zion"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "πύργος ποιμνίου αὐχμώδης, θυγάτηρ Σειών",
+    "en": "tower of the flock, dry (or murky), daughter of Zion",
+    "plain": "dry Daughter Zion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>'ofel</i> is a known place in Jerusalem (2 Chronicles 27:3). The Greek seems to take it as the common word <i>'ofel</i> (\"darkness\", Job 10:22) or a related word and attaches it to Zion as a description. The Plain keeps the place name.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "the kingdom of Daughter Jerusalem",
+  "t": "A kingdom for Jerusalem, or from Babylon?",
+  "p": "The Greek says \"a kingdom from Babylon to the daughter of Jerusalem\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Mur88, which preserves \"kingdom\" (mamlekhet) with \"to Daughter\" restored",
+    "orig": "מַמְלֶכֶת לְבַת־יְרוּשָׁלִַם",
+    "en": "kingship for Daughter Jerusalem",
+    "plain": "the kingdom of Daughter Jerusalem"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "βασιλεία ἐκ Βαβυλῶνος τῇ θυγατρὶ Ἰερουσαλήμ",
+    "en": "a kingdom from Babylon to the daughter of Jerusalem",
+    "plain": "a kingdom from Babylon for Daughter Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no mention of Babylon in this verse. The Greek addition seems to import the next verses' mention of Babylon (4:10) into 4:8, a case of harmonizing.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "I will set apart for destruction their stolen gain for the LORD",
+  "t": "Who sets it apart?",
+  "p": "The Hebrew has \"I will\"; the Greek has \"you will dedicate\".",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex; the consonants are the same for \"I\" or \"you\" without vowels and a yod)",
+    "orig": "וְהַחֲרַמְתִּי לַיהוָה בִּצְעָם",
+    "en": "and I will devote to the LORD their gain",
+    "plain": "I will set apart for destruction their stolen gain for the LORD"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ ἀναθήσεις τῷ κυρίῳ τὸ πλῆθος αὐτῶν",
+    "en": "and you will dedicate to the Lord their multitude",
+    "plain": "You will set apart for destruction their stolen gain for the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew the LORD speaks throughout the verse (\"I will make your horn iron\"), so \"I will set apart\" fits. The Greek shifts to \"you\" (Zion) as the one who dedicates the spoil, matching \"you will beat to pieces\". Mur88 is damaged here, so no scroll decides.",
+  "b": "The Greek also reads \"multitude\" (<i>plethos</i>) for \"gain\" (<i>betsa'</i>).",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ }
+]

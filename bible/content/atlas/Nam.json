@@ -1,0 +1,122 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "elkosh",
+    "nineveh",
+    "bashan",
+    "carmel",
+    "lebanon-2"
+   ],
+   "people": [
+    "nahum",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-nahum"
+   ]
+  },
+  "2": {
+   "places": [
+    "nineveh"
+   ],
+   "people": [
+    "god",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-nahum"
+   ]
+  },
+  "3": {
+   "places": [
+    "nineveh",
+    "nile",
+    "thebes",
+    "cush-2",
+    "egypt",
+    "put",
+    "assyria"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-nahum"
+   ]
+  }
+ },
+ "places": {
+  "nineveh": {
+   "name": "Nineveh",
+   "lat": 36.34773,
+   "lon": 43.1609
+  },
+  "bashan": {
+   "name": "Bashan",
+   "lat": 32.80007552505443,
+   "lon": 35.93730130476259
+  },
+  "carmel": {
+   "name": "Carmel",
+   "lat": 31.422876,
+   "lon": 35.132952
+  },
+  "lebanon-2": {
+   "name": "Lebanon",
+   "lat": 33.9215361440169,
+   "lon": 35.89897373
+  },
+  "elkosh": {
+   "name": "Elkosh",
+   "lat": null,
+   "lon": null
+  },
+  "nile": {
+   "name": "Nile",
+   "lat": 19.211408766666665,
+   "lon": 30.56732963
+  },
+  "thebes": {
+   "name": "Thebes",
+   "lat": 25.700025,
+   "lon": 32.639441
+  },
+  "cush-2": {
+   "name": "Cush",
+   "lat": 21.959788,
+   "lon": 31.343557
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "put": {
+   "name": "Put",
+   "lat": 32.824979,
+   "lon": 21.858301
+  },
+  "assyria": {
+   "name": "Assyria",
+   "lat": 36.50969,
+   "lon": 43.2282
+  }
+ },
+ "people": {
+  "nahum": {
+   "name": "Nahum"
+  },
+  "god": {
+   "name": "God"
+  },
+  "israel": {
+   "name": "Israel"
+  }
+ },
+ "events": {
+  "prophecies-of-nahum": {
+   "name": "Prophecies of Nahum"
+  }
+ }
+}

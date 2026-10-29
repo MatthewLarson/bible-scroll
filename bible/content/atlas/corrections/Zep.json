@@ -1,0 +1,5 @@
+[
+ {"c": 2, "drop": ["canaan", "moab"], "why": "Zephaniah 2:5 and 2:8 mean the land and nation of Canaan (here the Philistine coast) and of Moab, not the individuals Canaan and Moab."},
+ {"c": 2, "unmap": ["canaan-2"], "why": "In 2:5 'Canaan' is a name for the land of the Philistines on the coast, so a dot in the middle of the land west of the Jordan would mislead; the Philistia dot marks this verse."},
+ {"c": 2, "add": {"places": {"ammon": {"name": "Ammon", "lat": 31.95522, "lon": 35.94503}, "philistia": {"name": "Philistia", "lat": 33.56316734135746, "lon": 35.36634649354799}, "cush-2": {"name": "Cush", "lat": 21.959788, "lon": 31.343557}}}, "why": "Zephaniah names the Ammonites (2:8-9), the land of the Philistines (2:5) and the Cushites (2:12); Bible Atlas does not link them in this chapter."}
+]
