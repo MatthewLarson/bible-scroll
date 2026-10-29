@@ -80,6 +80,32 @@ Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev. Outside the
 A tip on cost: a large book is 6 to 13 parts, and each part means a writer, a reviewer and a fixer. That is a lot
 of agent time, so you may want to do one book at a time.
 
+## Open tasks (logged 2026-10-29)
+
+Left over from publishing Zechariah, Malachi, 1–2 Corinthians, Galatians and Ephesians and the verification pass
+that followed (STYLE.md rule 2: no detail from memory; briefs `bible/tools/agent-verify.md` and
+`agent-restore-cards.md`).
+
+1. **Restore true material removed for lack of search budget.** During the verification pass some agents ran out of
+   web searches and removed claims they could not check, even where the claim is likely true. Each part's log
+   (`.scratch/<id>-<part>-verify/sources-checked.md`) and its review.md "Verification pass" / "Verification fixes"
+   sections list what was removed. Known examples: Ben Sira 49:10 ("the Twelve Prophets"), Herodotus 8.98,
+   Xenophon and Behistun in Zechariah 01-08; Schleitheim article 3 and Calvin, *Institutes* 4.17.38 in 1 Corinthians
+   09-11; the 1:1 calendar dates in Zechariah were never checked against a table. Restore each only from a page
+   opened in that session. Card views still missing are listed under "Card restoration" in each review.md.
+2. **Run the same verification on the older books.** About 1,060 hedges ("as reported", "not rechecked", "from
+   memory" and the like) remain in books written under the old rule. Find them with
+   `grep -rciE "not rechecked|as reported|from memory|not checked|unverified" bible/content/books --include=*.json`.
+   Run `tools/agent-verify.md` (first round, a hostile check, then the second round) and
+   `tools/agent-restore-cards.md` book by book, as was done for the six books above. Hostile reviewers run on
+   Sonnet at medium effort; the other agents were also run on Sonnet to save cost.
+3. **Sync the 1 Timothy quote.** `1Co/parts/05-08/notes.json`, the note at 5:5, quotes 1 Timothy 1:20 in wording that
+   no longer matches the 1 Timothy Plain, which another session is writing. Once 1 Timothy is finished, update the
+   quote (`VERBOSE=1 node tools/build.js --check 1Co` shows the warning).
+4. **Look at the new pages in a browser.** No one has viewed the six new books or their topic pages yet. Run
+   `node tools/serve.js public 8777` from `bible/` and check the library, a chapter spread of each book, the
+   "Where Christians differ" cards, a topic page with its passage filter, and the browser console.
+
 ## Resume points (where the cloud project paused, 2026-10-24 about 15:00 UTC)
 
 Each book's `bible/content/books/<id>/progress.md` has the full log. `/resume <id>` reads it and checks the files.
