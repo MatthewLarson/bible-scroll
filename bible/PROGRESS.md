@@ -62,6 +62,13 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | 2Ti | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-2ti. |
 | Tit | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-tit. |
 | Phm | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-phm. |
+| Heb | reviewed, published | Plan (2026-10-29): Two parts, 01-07 (owns book.json) and 08-13; lenses H C L J T; tools/brief-general.md and brief-heb.md. |
+| Jas | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-jas.md. |
+| 1Pe | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1pe.md. |
+| 2Pe | reviewed, published | Plan (2026-10-29): One part, flat folder, follows Jude's Plain in 2:1-3:3; lenses H C L J T; tools/brief-general.md and brief-2pe.md. |
+| 1Jn | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1jn.md. |
+| 2Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 3 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
+| 3Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
 | Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |

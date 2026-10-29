@@ -1,0 +1,302 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "holy-spirit",
+    "abraham"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "jesus-2",
+    "moses",
+    "god",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "god",
+    "david",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "god",
+    "aaron",
+    "jesus-2",
+    "melchisedec"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit",
+    "abraham",
+    "melchisedec"
+   ],
+   "events": []
+  },
+  "7": {
+   "places": [
+    "salem"
+   ],
+   "people": [
+    "abraham",
+    "god",
+    "melchisedec",
+    "jesus-2",
+    "levi",
+    "aaron",
+    "moses"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [
+    "egypt"
+   ],
+   "people": [
+    "jesus-2",
+    "god",
+    "moses"
+   ],
+   "events": []
+  },
+  "9": {
+   "places": [
+    "holy-place-2"
+   ],
+   "people": [
+    "aaron",
+    "god",
+    "holy-spirit",
+    "jesus-2",
+    "moses"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "egypt",
+    "red-sea",
+    "jericho"
+   ],
+   "people": [
+    "god",
+    "abel",
+    "cain",
+    "enoch-2",
+    "noah",
+    "abraham",
+    "isaac",
+    "israel",
+    "sarah",
+    "esau",
+    "joseph",
+    "moses",
+    "daughter-of-pharaoh",
+    "pharaoh-4",
+    "jesus-2",
+    "rahab",
+    "barak",
+    "david",
+    "gideon",
+    "jephthah",
+    "samson",
+    "samuel"
+   ],
+   "events": [
+    "enoch-taken-up"
+   ]
+  },
+  "12": {
+   "places": [
+    "jerusalem",
+    "mount-zion"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "esau",
+    "moses",
+    "abel"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [
+    "italy"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "timotheus"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "salem": {
+   "name": "Salem",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "holy-place-2": {
+   "name": "Holy Place",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "red-sea": {
+   "name": "Red Sea",
+   "lat": 19,
+   "lon": 39.5
+  },
+  "jericho": {
+   "name": "Jericho",
+   "lat": 31.8700465,
+   "lon": 35.443876
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "mount-zion": {
+   "name": "Mount Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "italy": {
+   "name": "Italy",
+   "lat": 42.78740074008558,
+   "lon": 12.0810743
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "abraham": {
+   "name": "Abraham"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "david": {
+   "name": "David"
+  },
+  "aaron": {
+   "name": "Aaron"
+  },
+  "melchisedec": {
+   "name": "Melchisedec"
+  },
+  "levi": {
+   "name": "Levi"
+  },
+  "abel": {
+   "name": "Abel"
+  },
+  "cain": {
+   "name": "Cain"
+  },
+  "enoch-2": {
+   "name": "Enoch"
+  },
+  "noah": {
+   "name": "Noah"
+  },
+  "isaac": {
+   "name": "Isaac"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "sarah": {
+   "name": "Sarah"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "joseph": {
+   "name": "Joseph"
+  },
+  "daughter-of-pharaoh": {
+   "name": "Daughter of Pharaoh"
+  },
+  "pharaoh-4": {
+   "name": "Pharaoh"
+  },
+  "rahab": {
+   "name": "Rahab"
+  },
+  "barak": {
+   "name": "Barak"
+  },
+  "gideon": {
+   "name": "Gideon"
+  },
+  "jephthah": {
+   "name": "Jephthah"
+  },
+  "samson": {
+   "name": "Samson"
+  },
+  "samuel": {
+   "name": "Samuel"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  }
+ },
+ "events": {
+  "enoch-taken-up": {
+   "name": "Enoch taken up",
+   "date": -3016
+  }
+ }
+}

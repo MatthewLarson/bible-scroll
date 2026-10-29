@@ -54,7 +54,8 @@ let errors = 0, warnings = 0;
 let errBuf = null;   // while a book loads in a full build, its errors are held back (see run)
 const err = (where, msg) => { errors++; const line = `ERROR ${where}: ${msg}`; if(errBuf) errBuf.push(line); else console.log(line); };
 const warn = (where, msg) => { warnings++; if(CHECK || process.env.VERBOSE) console.log(`warn  ${where}: ${msg}`); };
-const strip = s => String(s == null ? '' : s).replace(/<[^>]+>/g, '');
+/* a block or table-cell tag becomes a space, so text from two cells or paragraphs is never joined into one quote */
+const strip = s => String(s == null ? '' : s).replace(/<\/?(?:td|th|tr|table|thead|tbody|p|br|li|ul|ol|div|h[1-6]|blockquote)\b[^>]*>/gi, ' ').replace(/<[^>]+>/g, '');
 
 /* ---------- shared registries ---------- */
 const SOURCES = exists(P('content/sources.json')) ? json(P('content/sources.json')) : {};

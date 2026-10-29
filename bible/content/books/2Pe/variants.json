@@ -1,0 +1,639 @@
+[
+ {
+  "v": "1:1",
+  "a": "Simeon",
+  "t": "Simeon or Simon?",
+  "p": "Several important early manuscripts have the common Greek name \"Simon\" instead of \"Simeon.\"",
+  "readings": [
+   {
+    "w": "The other manuscripts; NA28, SBLGNT, Tyndale House GNT, Byzantine text, Textus Receptus",
+    "orig": "Συμεών",
+    "en": "Simeon",
+    "plain": "Simeon"
+   },
+   {
+    "w": "Papyrus 72 (third or fourth century), Codex Vaticanus (300s), Ψ, 69, 81 and other minuscules, the Latin Vulgate, Coptic versions; Westcott and Hort",
+    "orig": "Σίμων",
+    "en": "Simon",
+    "plain": "Simon"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Simeon\" is the harder reading: it is the rare, Hebrew-sounding form, used for Peter only here and in Acts 15:14, and copyists would be likely to change it to the familiar \"Simon\" of the Gospels and Acts. Nearly all the editions print \"Simeon.\" The KJV prints \"Simon Peter,\" as English Bibles commonly did.",
+  "b": "The NET Bible's note lists the witnesses for \"Simon\" and calls a few of them very important. It makes no difference to the meaning: both are the same man's name.",
+  "s": [
+   "net-bible-2pet",
+   "wasserman-p72"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "with his own glory and goodness",
+  "t": "\"By his own glory\" or \"to glory\"?",
+  "p": "Some manuscripts, and the KJV, say God called us \"to glory and virtue\" rather than \"by his own glory and goodness.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Tregelles",
+    "orig": "ἰδίᾳ δόξῃ καὶ ἀρετῇ",
+    "en": "by his own glory and excellence",
+    "plain": "with his own glory and goodness"
+   },
+   {
+    "w": "Papyrus 72, Codex Vaticanus, 0209 (probably), Byzantine text, Textus Receptus (KJV \"to glory and virtue\"); Westcott and Hort",
+    "orig": "διὰ δόξης καὶ ἀρετῆς",
+    "en": "through glory and excellence",
+    "plain": "through glory and goodness"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings look alike in Greek capitals (ΙΔΙΑΔΟΞΗ / ΔΙΑΔΟΞΗΣ), so one grew from the other by a copying slip. The editions, including NA28, which follows the Editio Critica Maior here, prefer \"his own glory.\" The KJV's \"to glory\" translates the other reading loosely: the Greek <i>dia</i> means \"through,\" not \"to.\"",
+  "s": [
+   "net-bible-2pet",
+   "na28"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "I will be sure to keep reminding you",
+  "t": "\"I will be sure to\" or \"I will not neglect to\"?",
+  "p": "The KJV's \"I will not be negligent\" follows a different Greek word from the one in the oldest texts.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles",
+    "orig": "μελλήσω",
+    "en": "I will intend, I will be about to",
+    "plain": "I will be sure to keep reminding you"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"I will not be negligent to put you always in remembrance\")",
+    "orig": "οὐκ ἀμελήσω",
+    "en": "I will not neglect",
+    "plain": "I will not fail to keep reminding you"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions all print <i>mellēsō</i>. It is an unusual use of the verb, and copyists may have found it awkward and changed it to the clearer \"I will not neglect.\" The sense is nearly the same."
+ },
+ {
+  "v": "1:17",
+  "a": "\"My Son, my dearly loved one, is this.",
+  "t": "The order of the voice's words",
+  "p": "The critical editions print the unusual order \"My Son, my beloved, this is,\" some with \"my\" twice. Later copies match Matthew: \"This is my beloved Son.\"",
+  "readings": [
+   {
+    "w": "NA28, NA27, SBLGNT, Westcott and Hort",
+    "orig": "Ὁ υἱός μου ὁ ἀγαπητός μου οὗτός ἐστιν",
+    "en": "my Son, my beloved, this is",
+    "plain": "\"My Son, my dearly loved one, is this."
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles",
+    "orig": "Ὁ υἱός μου ὁ ἀγαπητός οὗτός ἐστιν",
+    "en": "my beloved Son, this is",
+    "plain": "\"My dearly loved Son is this."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"This is my beloved Son\")",
+    "orig": "Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός",
+    "en": "this is my beloved Son",
+    "plain": "\"This is my Son, my dearly loved one."
+   }
+  ],
+  "follow": 0,
+  "why": "The unusual order is the harder reading: copyists who knew Matthew 17:5 by heart would tend to bring 2 Peter into line with it, not the reverse. The editions print it. The second \"my\" is printed by NA28, NA27, the SBLGNT and Westcott and Hort, but not by the Tyndale House GNT or Tregelles; it does not change the sense.",
+  "b": "See the note on the voice: 2 Peter's wording differs from all three Gospels in other ways too."
+ },
+ {
+  "v": "1:21",
+  "a": "people borne along by the Holy Spirit spoke from God",
+  "t": "\"Spoke from God\" or \"holy men of God spoke\"?",
+  "p": "The KJV's \"holy men of God\" follows the Byzantine text. The critical editions have \"spoke from God.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort",
+    "orig": "ὑπὸ πνεύματος ἁγίου φερόμενοι ἐλάλησαν ἀπὸ θεοῦ ἄνθρωποι",
+    "en": "borne by the Holy Spirit, people spoke from God",
+    "plain": "people borne along by the Holy Spirit spoke from God"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"holy men of God spake as they were moved by the Holy Ghost\"), Tregelles",
+    "orig": "ὑπὸ πνεύματος ἁγίου φερόμενοι ἐλάλησαν ἅγιοι θεοῦ ἄνθρωποι",
+    "en": "borne by the Holy Spirit, holy people of God spoke",
+    "plain": "holy people of God, borne along by the Holy Spirit, spoke"
+   }
+  ],
+  "follow": 0,
+  "why": "In Greek capitals ΑΠΟ (\"from\") and ΑΓΙΟΙ (\"holy\") look alike, so one could be misread as the other. \"From God\" is a little harder and stresses where prophecy comes from, the point of the verse; \"holy men\" is a natural pious change. Both readings make the same claim about inspiration.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "shameless self-indulgence",
+  "t": "\"Shameless ways\" or \"pernicious ways\"?",
+  "p": "The KJV's \"pernicious ways\" follows the Textus Receptus, which has a word meaning \"ruinous ways.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Byzantine text",
+    "orig": "ταῖς ἀσελγείαις",
+    "en": "their acts of shameless living",
+    "plain": "shameless self-indulgence"
+   },
+   {
+    "w": "Textus Receptus (KJV \"pernicious ways\")",
+    "orig": "ταῖς ἀπωλείαις",
+    "en": "their ruinous ways",
+    "plain": "ruinous ways"
+   }
+  ],
+  "follow": 0,
+  "why": "Every major edition, and even the Byzantine text, reads \"shameless living\" (<i>aselgeiais</i>), the word 2 Peter uses again in 2:7 and 2:18. The Textus Receptus word <i>apōleiais</i> (\"ruin\") probably came in from the end of 2:1, where it appears twice."
+ },
+ {
+  "v": "2:4",
+  "a": "chains of gloom",
+  "t": "Chains or pits?",
+  "p": "Did God hand the angels over to \"chains\" of gloom, as in Jude 6, or to \"pits\" of gloom? The manuscripts split.",
+  "readings": [
+   {
+    "w": "Papyrus 72, P, Ψ, 33, 1739, Byzantine text, Latin Vulgate, Syriac; NA28, SBLGNT, Textus Receptus (KJV \"chains of darkness\")",
+    "orig": "σειραῖς ζόφου",
+    "en": "with chains of gloom",
+    "plain": "chains of gloom"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, 81; Tyndale House GNT, Westcott and Hort, Tregelles",
+    "orig": "σιροῖς (σειροῖς) ζόφου",
+    "en": "in pits of gloom",
+    "plain": "pits of gloom"
+   }
+  ],
+  "follow": 0,
+  "why": "The NET Bible's note calls the evidence roughly balanced. The great early codices read \"pits,\" while the earliest papyrus reads \"chains.\" NA28 and the SBLGNT print \"chains\"; the Tyndale House GNT prints \"pits.\" \"Pits\" (<i>siros</i>, a pit for storing grain) is the rarer word and fits Tartarus as a place; but \"chains\" agrees with Jude 6 (\"everlasting chains\") and with 1 Enoch's binding of the Watchers. A copyist could have changed either way: to the rarer word by a slip of one letter, or to the familiar \"chains\" under Jude's influence. The Plain follows NA28 and the SBLGNT.",
+  "s": [
+   "net-bible-2pet",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "and condemned them to destruction",
+  "t": "\"Condemned them to destruction\" or \"condemned them\"?",
+  "p": "A few important manuscripts lack \"to destruction\" (KJV \"with an overthrow\").",
+  "readings": [
+   {
+    "w": "Most manuscripts; NA28, SBLGNT, Tyndale House GNT, Byzantine text, Textus Receptus (KJV \"condemned them with an overthrow\")",
+    "orig": "τεφρώσας καταστροφῇ κατέκρινεν",
+    "en": "turning them to ash, he condemned them to destruction",
+    "plain": "and condemned them to destruction"
+   },
+   {
+    "w": "Papyrus 72 (first hand), Codex Vaticanus, Ephraemi (first hand), 1241, 1739, 1881; Westcott and Hort",
+    "orig": "τεφρώσας κατέκρινεν",
+    "en": "turning them to ash, he condemned them",
+    "plain": "and condemned them"
+   }
+  ],
+  "follow": 0,
+  "why": "The NET Bible's note judges the omission probably accidental: <i>katastrophē</i> and <i>katekrinen</i> begin with the same letters, and a copyist's eye could skip from one to the other.",
+  "s": [
+   "net-bible-2pet"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "for those who would be ungodly later",
+  "t": "\"For the ungodly to come\" or \"of what is coming to the ungodly\"?",
+  "p": "One letter's difference: an example for people who will be ungodly, or an example of what is coming to the ungodly.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV \"an ensample unto those that after should live ungodly\")",
+    "orig": "ὑπόδειγμα μελλόντων ἀσεβεῖν",
+    "en": "an example for those about to live ungodly",
+    "plain": "for those who would be ungodly later"
+   },
+   {
+    "w": "SBLGNT, NA27, Westcott and Hort",
+    "orig": "ὑπόδειγμα μελλόντων ἀσεβέσιν",
+    "en": "an example of things coming to the ungodly",
+    "plain": "of what is coming to the ungodly"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by a single syllable (<i>asebein</i>, \"to be ungodly,\" and <i>asebesin</i>, \"to the ungodly\"). NA28, which follows the Editio Critica Maior here, changed from the NA27 reading to <i>asebein</i>; the SBLGNT keeps <i>asebesin</i>. For the Catholic Letters the Plain follows NA28 where the editions divide this way. The meaning hardly changes: Sodom warns every later generation.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "against them before the Lord.",
+  "t": "\"Before the Lord,\" \"from the Lord,\" or neither?",
+  "p": "Manuscripts differ: angels do not bring a slanderous judgment \"before the Lord,\" \"from the Lord,\" or with no phrase at all.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, Ephraemi, P, 1739, Byzantine text; NA28, Tyndale House GNT, Textus Receptus (KJV \"before the Lord\")",
+    "orig": "παρὰ κυρίῳ",
+    "en": "before the Lord",
+    "plain": "against them before the Lord."
+   },
+   {
+    "w": "Papyrus 72, 1241, Syriac (Philoxenian and Harklean); NA27",
+    "orig": "παρὰ κυρίου",
+    "en": "from the Lord",
+    "plain": "against them from the Lord."
+   },
+   {
+    "w": "Codex Alexandrinus, Ψ, 33, 81, 1505, 1881, 2464, Latin Vulgate, Coptic; SBLGNT",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": "against them."
+   }
+  ],
+  "follow": 0,
+  "why": "Most manuscripts have \"before the Lord,\" in the Lord's presence, as in a courtroom where the angels would accuse. NA28 prints it. The SBLGNT leaves the phrase out, perhaps because Jude 9 has nothing like it and copyists could have added it. The NET Bible's note prefers \"before the Lord,\" with some hesitation.",
+  "s": [
+   "net-bible-2pet",
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "harmed in return as the pay for the harm they do",
+  "t": "\"Wronged as the pay\" or \"will receive the pay\"?",
+  "p": "Some editions and the KJV read \"they will receive the pay of wrongdoing,\" losing the wordplay.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Westcott and Hort",
+    "orig": "ἀδικούμενοι μισθὸν ἀδικίας",
+    "en": "being wronged as the wage of wrongdoing",
+    "plain": "harmed in return as the pay for the harm they do"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV \"shall receive the reward of unrighteousness\")",
+    "orig": "κομιούμενοι μισθὸν ἀδικίας",
+    "en": "about to receive the wage of wrongdoing",
+    "plain": "they will receive the pay for the harm they do"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Being wronged as the wage of wrongdoing\" is the stranger expression, and copyists may have smoothed it to the plain \"will receive the wage.\" The editions are divided: NA28 and the SBLGNT print the wordplay, the Tyndale House GNT the smoother reading.",
+  "s": [
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "deceptions",
+  "t": "\"Deceptions\" or \"love feasts\"?",
+  "p": "Jude 12 has \"love feasts\" (agapais). Some copies of 2 Peter have the same word in place of \"deceptions\" (apatais).",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Byzantine text, Textus Receptus (KJV \"their own deceivings\")",
+    "orig": "ἐν ταῖς ἀπάταις αὐτῶν",
+    "en": "in their deceptions",
+    "plain": "deceptions"
+   },
+   {
+    "w": "Some manuscripts; printed in Tregelles' edition",
+    "orig": "ἐν ταῖς ἀγάπαις αὐτῶν",
+    "en": "in their love feasts",
+    "plain": "love feasts"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by two letters. Copyists who knew Jude 12 would be likely to change \"deceptions\" into \"love feasts,\" so \"deceptions\" is probably what 2 Peter wrote. It also fits 2 Peter's own wordplay: the teachers \"feast with you\" in the church's meals while delighting in their deceptions."
+ },
+ {
+  "v": "2:17",
+  "a": "waterless springs and mists driven by a squall, for whom the gloom of darkness has been kept.",
+  "t": "\"Mists\" or \"clouds\"; and \"forever\"",
+  "p": "The KJV has \"clouds\" and \"for ever,\" as in Jude 12–13. The critical editions have \"mists\" and no \"forever.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles",
+    "orig": "πηγαὶ ἄνυδροι καὶ ὁμίχλαι ... οἷς ὁ ζόφος τοῦ σκότους τετήρηται",
+    "en": "waterless springs and mists ... for whom the gloom of darkness has been kept",
+    "plain": "waterless springs and mists driven by a squall, for whom the gloom of darkness has been kept."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"wells without water, clouds that are carried with a tempest; to whom the mist of darkness is reserved for ever\")",
+    "orig": "πηγαὶ ἄνυδροι, νεφέλαι ... οἷς ὁ ζόφος τοῦ σκότους εἰς αἰῶνα τετήρηται",
+    "en": "waterless springs, clouds ... for whom the gloom of darkness has been kept forever",
+    "plain": "waterless springs, clouds driven by a squall, for whom the gloom of darkness has been kept forever."
+   }
+  ],
+  "follow": 0,
+  "why": "Both differences look like copyists bringing 2 Peter into line with Jude, which has \"waterless clouds\" (Jude 12) and \"kept forever\" (Jude 13). The critical editions agree on \"mists\" without \"forever.\""
+ },
+ {
+  "v": "2:18",
+  "a": "truly getting away",
+  "t": "\"Truly escaping\" or \"barely escaping\"?",
+  "p": "The teachers bait people who are \"truly\" getting away from paganism, or who are \"barely\" getting away. The editions split.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House GNT",
+    "orig": "τοὺς ὄντως ἀποφεύγοντας",
+    "en": "those truly escaping",
+    "plain": "truly getting away"
+   },
+   {
+    "w": "SBLGNT, NA27, Westcott and Hort, Tregelles",
+    "orig": "τοὺς ὀλίγως ἀποφεύγοντας",
+    "en": "those barely escaping",
+    "plain": "barely getting away"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"those that were clean escaped\")",
+    "orig": "τοὺς ὄντως ἀποφυγόντας",
+    "en": "those who had truly escaped",
+    "plain": "truly gotten away"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Ontōs</i> (\"truly\") and <i>oligōs</i> (\"barely,\" a very rare word) look alike in Greek capitals. NA28 changed from <i>oligōs</i> to <i>ontōs</i>, following the Editio Critica Maior, and the Tyndale House GNT agrees; the SBLGNT keeps \"barely.\" For the Catholic Letters the Plain follows NA28 where the editions divide this way. \"Barely\" would be the rarer and so perhaps the original word; the NET Bible prints \"barely\" in its footnote as an alternative. Either way the victims are new converts.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "the command your apostles passed on",
+  "t": "\"Your apostles\" or \"us the apostles\"?",
+  "p": "The KJV's \"of us the apostles\" follows the Textus Receptus. Nearly all other texts have \"your apostles.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Byzantine text",
+    "orig": "τῆς τῶν ἀποστόλων ὑμῶν ἐντολῆς",
+    "en": "the command of your apostles",
+    "plain": "the command your apostles passed on"
+   },
+   {
+    "w": "Textus Receptus (KJV \"the commandment of us the apostles\")",
+    "orig": "τῆς τῶν ἀποστόλων ἡμῶν ἐντολῆς",
+    "en": "the command of us apostles",
+    "plain": "the command we apostles passed on"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Your\" (<i>hymōn</i>) and \"our\" (<i>hēmōn</i>) sounded almost the same in later Greek, and copyists often confused them. Even the Byzantine text has \"your.\" \"Our\" would suit an apostle writing, which may be why it entered the Textus Receptus."
+ },
+ {
+  "v": "3:3",
+  "a": "mockers will come with their mocking",
+  "t": "\"With their mocking\"",
+  "p": "The KJV lacks \"with mocking\": \"there shall come in the last days scoffers.\"",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles (NA28 and NA27 print ἐν, \"in,\" in brackets)",
+    "orig": "ἐλεύσονται ἐπ’ ἐσχάτων τῶν ἡμερῶν [ἐν] ἐμπαιγμονῇ ἐμπαῖκται",
+    "en": "mockers will come in the last of the days in mocking",
+    "plain": "mockers will come with their mocking"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἐλεύσονται ἐπ’ ἐσχάτου τῶν ἡμερῶν ἐμπαῖκται",
+    "en": "mockers will come at the last of the days",
+    "plain": "mockers will come"
+   }
+  ],
+  "follow": 0,
+  "why": "The doubled \"mockers in mocking\" is a Hebrew-style phrase that copyists could easily have dropped as repetitive. The critical editions include it. NA28 and NA27 put the little word <i>en</i> (\"in, with\") in brackets, a sign that their editors were unsure of it; the meaning is the same either way."
+ },
+ {
+  "v": "3:6",
+  "a": "Through these",
+  "t": "\"Through these\" or \"through which (word)\"?",
+  "p": "NA28 alone prints a singular: the world was flooded \"through which,\" meaning God's word. The other editions have the plural \"these.\"",
+  "readings": [
+   {
+    "w": "NA27, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles, Byzantine text, Textus Receptus (KJV \"Whereby\")",
+    "orig": "δι’ ὧν",
+    "en": "through which things (plural)",
+    "plain": "Through these"
+   },
+   {
+    "w": "NA28",
+    "orig": "δι’ ὅν",
+    "en": "because of which, through which (singular, the word)",
+    "plain": "Through that word"
+   }
+  ],
+  "follow": 0,
+  "why": "Every edition in this site's word list except NA28 prints the plural. The plural is the harder reading: its reference is unclear (the NET Bible's note lists the heavens, the heavens and earth, or, most likely in its view, the water and the word of 3:5), and a copyist who wanted a clear sense could have made it singular, pointing to \"the word of God\" just named. The Plain keeps the plural with the other editions, as at 3:10 it keeps the reading the other editions share. The difference in meaning is small: 3:5 already says the world took shape \"by the word of God,\" and 3:7 says the present world is kept \"by that same word.\"",
+  "b": "This is one of the places where NA28 changed the text of the Catholic Letters from NA27. A secondary note in the Open English Translation's textual notes says that in the NA28 reading the word \"which\" is singular, \"likely referring only to the word.\"",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "net-bible-2pet"
+  ]
+ },
+ {
+  "v": "3:7",
+  "a": "by that same word",
+  "t": "\"By the same word\" or \"by his word\"?",
+  "p": "The critical editions read \"by the same word\"; the Byzantine text, \"by his word.\" The two Greek words differ by one letter.",
+  "readings": [
+   {
+    "w": "NA28, NA27, SBLGNT, Tyndale House GNT, Westcott and Hort (KJV \"by the same word\")",
+    "orig": "τῷ αὐτῷ λόγῳ",
+    "en": "by the same word",
+    "plain": "by that same word"
+   },
+   {
+    "w": "Tregelles, Byzantine text, Textus Receptus",
+    "orig": "τῷ αὐτοῦ λόγῳ",
+    "en": "by his word",
+    "plain": "by his word"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Autō</i> (\"same\") and <i>autou</i> (\"his\") differ by a single letter. The critical editions print \"the same,\" which ties 3:7 back to \"the word of God\" in 3:5: the word that made the world and flooded it now keeps it for fire. The sense is nearly the same either way: it is God's word.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "he bears patiently with you",
+  "t": "\"With you\" or \"with us\"?",
+  "p": "The KJV's \"longsuffering to us-ward\" follows the Byzantine text.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles",
+    "orig": "εἰς ὑμᾶς",
+    "en": "toward you",
+    "plain": "he bears patiently with you"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"to us-ward\")",
+    "orig": "εἰς ἡμᾶς",
+    "en": "toward us",
+    "plain": "he bears patiently with us"
+   }
+  ],
+  "follow": 0,
+  "why": "As in 3:2, \"you\" and \"us\" sounded alike in later Greek. \"You\" fits the direct address of the passage (\"beloved\")."
+ },
+ {
+  "v": "3:10",
+  "a": "will come like a thief.",
+  "t": "\"Like a thief\" or \"like a thief in the night\"?",
+  "p": "The KJV adds \"in the night,\" as in 1 Thessalonians 5:2.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott and Hort, Tregelles",
+    "orig": "ἥξει δὲ ἡμέρα κυρίου ὡς κλέπτης",
+    "en": "the day of the Lord will come like a thief",
+    "plain": "will come like a thief."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"as a thief in the night\")",
+    "orig": "ἥξει δὲ ἡ ἡμέρα κυρίου ὡς κλέπτης ἐν νυκτί",
+    "en": "the day of the Lord will come like a thief in the night",
+    "plain": "will come like a thief in the night."
+   }
+  ],
+  "follow": 0,
+  "why": "\"In the night\" was almost certainly added from 1 Thessalonians 5:2, the best-known form of the saying. The meaning does not change."
+ },
+ {
+  "v": "3:10",
+  "a": "will lie exposed.",
+  "t": "The hardest variant in 2 Peter: \"will be found\" (Plain: \"will lie exposed\")",
+  "p": "Will the earth and its works be \"found,\" \"burned up,\" \"found dissolved,\" \"made to vanish,\" or \"not found\"? The manuscripts give all of these.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Vaticanus, K, P, 0156 (probably), 323, 1241, 1739 (text); SBLGNT, Tyndale House GNT, NA27, Westcott and Hort, Tregelles",
+    "orig": "εὑρεθήσεται",
+    "en": "will be found",
+    "plain": "will lie exposed."
+   },
+   {
+    "w": "Papyrus 72",
+    "orig": "εὑρεθήσεται λυόμενα",
+    "en": "will be found dissolved",
+    "plain": "will be found dissolved."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV \"shall be burned up\")",
+    "orig": "κατακαήσεται",
+    "en": "will be burned up",
+    "plain": "will be burned up."
+   },
+   {
+    "w": "A few other manuscripts",
+    "orig": "ἀφανισθήσονται",
+    "en": "will vanish",
+    "plain": "will vanish."
+   },
+   {
+    "w": "NA28 and the Editio Critica Maior, following versions: the Sahidic Coptic, the Philoxenian Syriac and perhaps a Coptic manuscript in another dialect; no Greek manuscript",
+    "orig": "οὐχ εὑρεθήσεται",
+    "en": "will not be found",
+    "plain": "will not be found."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Will be found\" has by far the best Greek support, from the oldest manuscripts, and it is the hardest reading. Bruce Metzger, as Al Wolters quotes him, said it \"seems to be devoid of meaning in the context.\" That is exactly why copyists changed it: to \"will be burned up\" (to match the fire of 3:7 and 3:12), to \"will vanish,\" to \"found dissolved\" (Papyrus 72), or to \"will not be found.\" The NET Bible's note concludes that on external and internal grounds \"will be found\" is the preferred reading, and so do the SBLGNT and the Tyndale House GNT. The Plain follows it here, against NA28 and the Editio Critica Maior, which print the conjecture \"will not be found\" (see below). Said of the earth and its works, \"will be found\" means found out, laid open to God, so the Plain renders it \"will lie exposed\"; the same verb returns in 3:14, \"be found by him.\"",
+  "b": "<p><b>The Editio Critica Maior (ECM).</b> The ECM, the large critical edition of the Catholic Letters, prints \"will not be found\" (<i>ouch heurethēsetai</i>), and NA28 follows it. As Elijah Hixson points out, this reading is found in no Greek manuscript: the ECM supports it with early translations, the Sahidic Coptic and the Philoxenian Syriac, and possibly a damaged Coptic papyrus in another dialect whose reading at this point Hixson and others doubt can be read at all. In effect the editors adopted a reading that stands only in translations, as a conjecture about the Greek behind them.</p><p><b>What \"will be found\" means.</b> (1) <b>Laid bare for judgment</b>: the earth and human deeds will be \"found,\" exposed before God, with nothing hidden (Richard Bauckham's reading, as Wolters reports it; compare 3:14, \"be found by him\"). (2) <b>Refined, as metal in a furnace</b>: Al Wolters argues that \"found\" is a metalworkers' word for what is left after smelting, so the world will come out of the fire purified, not annihilated. None of these readings needs the world to be annihilated; \"burned up\" (KJV) leans that way. See the chapter page.</p>",
+  "s": [
+   "net-bible-2pet",
+   "hixson-ecm",
+   "wolters-2peter",
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:11",
+  "a": "are to be dissolved like this. So",
+  "t": "\"Like this\" or \"then\"?",
+  "p": "The critical editions read \"since all these things are dissolved like this\"; the Byzantine text, \"since all these things, then, are dissolved.\"",
+  "readings": [
+   {
+    "w": "NA28, NA27, SBLGNT, Westcott and Hort",
+    "orig": "Τούτων οὕτως πάντων λυομένων",
+    "en": "all these being dissolved in this way",
+    "plain": "are to be dissolved like this. So"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV \"Seeing then that all these things shall be dissolved\")",
+    "orig": "Τούτων οὖν πάντων λυομένων",
+    "en": "all these, then, being dissolved",
+    "plain": "are to be dissolved. So"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions divide, and for the Catholic Letters the Plain follows NA28 where they divide this way. <i>Houtōs</i> (\"in this way\") points back to the fire of 3:10; <i>oun</i> (\"then, so\") is the common word for drawing a conclusion. The Plain's \"So\" carries the conclusion either way.",
+  "b": "NA28 and NA27 also print the word <i>hymas</i> (\"you\") in this verse in brackets, a sign that their editors were unsure of it; the Plain keeps it (\"your ways of life\"), and the meaning does not change.",
+  "s": [
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "will twist these",
+  "t": "\"Will twist\" or \"twist\"?",
+  "p": "NA28 has the future \"will twist,\" a prediction. The other editions have the present \"twist.\"",
+  "readings": [
+   {
+    "w": "NA28",
+    "orig": "στρεβλώσουσιν",
+    "en": "they will twist",
+    "plain": "will twist these"
+   },
+   {
+    "w": "SBLGNT, NA27, Tyndale House GNT, Westcott and Hort, Tregelles, Byzantine text, Textus Receptus (KJV \"wrest\")",
+    "orig": "στρεβλοῦσιν",
+    "en": "they twist",
+    "plain": "twist these"
+   }
+  ],
+  "follow": 0,
+  "why": "NA28 changed to the future, following the Editio Critica Maior. The future fits the farewell form of the letter, where the false teachers \"will\" come (2:1). The Plain follows NA28 here, as it does for the Catholic Letters where the editions divide this way. The present would mean the twisting is already going on.",
+  "s": [
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "to the day of eternity.",
+  "t": "\"Amen\" at the end",
+  "p": "Most manuscripts, and the KJV, end with \"Amen.\" A few important ones do not.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, 1241, 1243, 1739 (first hand), 1881, 2298; NA28",
+    "orig": "εἰς ἡμέραν αἰῶνος.",
+    "en": "to the day of eternity",
+    "plain": "to the day of eternity."
+   },
+   {
+    "w": "Papyrus 72, Codex Sinaiticus, Alexandrinus, Ephraemi, P, Ψ, 33, Coptic, Byzantine text, Latin Vulgate, Syriac; SBLGNT, NA27 (in brackets), Tyndale House GNT, Textus Receptus (KJV)",
+    "orig": "εἰς ἡμέραν αἰῶνος. ἀμήν.",
+    "en": "to the day of eternity. Amen.",
+    "plain": "to the day of eternity. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists added \"Amen\" at the end of almost every New Testament book, so its absence in some good manuscripts is significant. The NET Bible's note says the omission \"appears to be original,\" though the early witnesses that have it make the judgment less than certain. NA28, following the Editio Critica Maior, leaves it out, and the Plain follows.",
+  "s": [
+   "net-bible-2pet",
+   "na28"
+  ]
+ }
+]

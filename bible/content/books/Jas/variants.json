@@ -1,0 +1,558 @@
+[
+ {
+  "v": "1:12",
+  "a": "that he promised",
+  "t": "Who promised the crown?",
+  "p": "The oldest manuscripts have no subject. Later ones add \"God\" or \"the Lord\" (KJV).",
+  "readings": [
+   {
+    "w": "P23 (early 200s), Sinaiticus (01, 300s), Alexandrinus (02, 400s), Vaticanus (03, 300s), Ψ, 81, Sahidic and Bohairic Coptic; SBLGNT, NA28, THGNT",
+    "orig": "ὃν ἐπηγγείλατο",
+    "en": "which he promised",
+    "plain": "that he promised"
+   },
+   {
+    "w": "33, 1739 and other minuscules, Old Latin, Vulgate, Peshitta Syriac",
+    "orig": "ὃν ἐπηγγείλατο ὁ θεός",
+    "en": "which God promised",
+    "plain": "that God promised"
+   },
+   {
+    "w": "C (04, 400s, with small differences), K, L, P, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ὃν ἐπηγγείλατο ὁ κύριος",
+    "en": "which the Lord promised",
+    "plain": "that the Lord promised"
+   }
+  ],
+  "follow": 0,
+  "why": "The short reading is in the oldest witnesses, and copyists naturally supplied a subject, some \"God\" and some \"the Lord\". Two different additions point to an original without either. The meaning is the same: God is the one who promised.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "1:17",
+  "a": "no shifting, no shadow cast by turning",
+  "t": "The shadow of turning",
+  "p": "Sinaiticus as first written, Vaticanus and P23 have a genitive that changes the picture slightly.",
+  "readings": [
+   {
+    "w": "Sinaiticus (corrected), Alexandrinus, C, K, L, P, the Byzantine majority, Old Latin, Vulgate, Syriac; SBLGNT, NA28, THGNT",
+    "orig": "παραλλαγὴ ἢ τροπῆς ἀποσκίασμα",
+    "en": "variation or shadow of turning",
+    "plain": "no shifting, no shadow cast by turning"
+   },
+   {
+    "w": "Sinaiticus as first written (01*), Vaticanus (03); P23 reads παραλλαγῆς with the same ending",
+    "orig": "παραλλαγὴ ἢ τροπῆς ἀποσκιάσματος",
+    "en": "variation or (that) of the turning of a shadow",
+    "plain": "no shifting that belongs to the turning of the shadow"
+   },
+   {
+    "w": "614, 1505 and related minuscules",
+    "orig": "παραλλαγὴ ἢ τροπὴ ἀποσκιάσματος",
+    "en": "variation or turning of shadow",
+    "plain": "no shifting, no turning of shadow"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions in this site's word list all print the reading of most manuscripts. The reading of Vaticanus and the first hand of Sinaiticus, with P23, is old; in this site's judgment its grammar is harder to construe. The sense hardly changes: God does not shift as the heavenly lights and their shadows do.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "1:19",
+  "a": "You know this",
+  "t": "\"You know this\" or \"So then\"?",
+  "p": "Most later manuscripts read \"So then\" (KJV \"Wherefore\"), which makes 1:19 a conclusion drawn from 1:18. The older ones read \"You know\" or \"Know this\".",
+  "readings": [
+   {
+    "w": "Sinaiticus as corrected (01², the first hand nearly the same), Vaticanus (03), C (04), 81, 945, 1739, Old Latin, Vulgate, Bohairic Coptic; SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "ἴστε, ἀδελφοί μου ἀγαπητοί· ἔστω δὲ",
+    "en": "you know (or: know this), my beloved brothers; but let",
+    "plain": "You know this"
+   },
+   {
+    "w": "P74 (as far as it can be read), Alexandrinus (02, with small differences), 2464, Sahidic Coptic",
+    "orig": "ἴστε δὲ, ἀδελφοί μου ἀγαπητοί. ἔστω δὲ",
+    "en": "but know this, my beloved brothers. And let",
+    "plain": "But know this"
+   },
+   {
+    "w": "K, L, P (corrected), Ψ, 104, 614, 1505 and the Byzantine majority, Harklean Syriac; Textus Receptus (KJV \"Wherefore, my beloved brethren, let\")",
+    "orig": "ὥστε, ἀδελφοί μου ἀγαπητοί, ἔστω",
+    "en": "so then, my beloved brothers, let",
+    "plain": "So then"
+   }
+  ],
+  "follow": 0,
+  "why": "\"You know\" has the oldest manuscripts, and in capital letters ΙΣΤΕ and ΩΣΤΕ differ by one letter. \"So then\" is the smoother reading, since it joins the verse to what comes before and drops the \"but\" that follows. The Greek <i>iste</i> can be a statement (\"you know\") or a command (\"know this\"); this site's word list parses it as a command, and the Plain reads it as a statement that sums up 1:18.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "Show me your faith apart from the works",
+  "t": "\"Without your works\" or \"by your works\"?",
+  "p": "The KJV's \"shew me thy faith without thy works\" follows one form of the Greek; the Byzantine text has \"by your works\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), Alexandrinus (02, with a small change in word order after); SBLGNT, NA28, THGNT",
+    "orig": "δεῖξόν μοι τὴν πίστιν σου χωρὶς τῶν ἔργων",
+    "en": "show me your faith without the works",
+    "plain": "Show me your faith apart from the works"
+   },
+   {
+    "w": "C (04, 400s); the Textus Receptus as printed by Scrivener (the KJV's Greek)",
+    "orig": "δεῖξόν μοι τὴν πίστιν σου χωρὶς τῶν ἔργων σου",
+    "en": "show me your faith without your works",
+    "plain": "Show me your faith apart from your works"
+   },
+   {
+    "w": "The Byzantine majority; Stephanus' 1550 Textus Receptus",
+    "orig": "δεῖξόν μοι τὴν πίστιν σου ἐκ τῶν ἔργων σου",
+    "en": "show me your faith by your works",
+    "plain": "Show me your faith by your works"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts read \"apart from the works\", which makes the challenge sharp: faith without deeds cannot be shown at all. \"By your works\" makes the two halves of the verse say the same thing, which looks like a copyist's smoothing. The KJV, made from a Textus Receptus that here follows C, reads \"without thy works\".",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "God is one",
+  "t": "\"God is one\" or \"there is one God\"?",
+  "p": "The Greek manuscripts put the words in several orders. Some mean \"God is one\" (the Shema), others \"there is one God\".",
+  "readings": [
+   {
+    "w": "P74 (600s), Sinaiticus (01), Alexandrinus (02), Vulgate, Coptic; SBLGNT, NA28, THGNT",
+    "orig": "εἷς ἐστιν ὁ θεός",
+    "en": "God is one",
+    "plain": "God is one"
+   },
+   {
+    "w": "Vaticanus (03), 614, 1505 and others; Westcott and Hort",
+    "orig": "εἷς θεός ἐστιν",
+    "en": "there is one God",
+    "plain": "there is one God"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"there is one God\")",
+    "orig": "ὁ θεὸς εἷς ἐστιν",
+    "en": "God is one",
+    "plain": "God is one"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions print the reading of P74, Sinaiticus and Alexandrinus. Vaticanus, as old as Sinaiticus, has the order \"there is one God\", and the Byzantine text has a third order. All three say the same thing, the faith of the Shema (Deuteronomy 6:4).",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "idle",
+  "t": "\"Idle\" or \"dead\"?",
+  "p": "Many manuscripts read \"dead\" (KJV), as in 2:17 and 2:26. The oldest have \"idle\", a pun on \"works\".",
+  "readings": [
+   {
+    "w": "Vaticanus (03), C as first written (04*), 945, 1739 and others, Old Latin, Vulgate, Sahidic Coptic; SBLGNT, NA28, THGNT",
+    "orig": "ἀργή",
+    "en": "idle, not working",
+    "plain": "idle"
+   },
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), C (corrected), K, L, P, Ψ, the Byzantine majority, Peshitta; Textus Receptus (KJV)",
+    "orig": "νεκρά",
+    "en": "dead",
+    "plain": "dead"
+   },
+   {
+    "w": "P74 (600s)",
+    "orig": "κενή",
+    "en": "empty",
+    "plain": "empty"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Dead\" is easy to explain as a copyist repeating 2:17 and 2:26. \"Idle\" (<i>arge</i>, \"without work\") is a wordplay on \"works\" (<i>erga</i>) that is likely to be the writer's own.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "how little a flame",
+  "t": "\"How small\" or \"a little\"?",
+  "p": "The KJV's \"how great a matter a little fire kindleth\" follows manuscripts that read \"a little\" (<i>oligon</i>) for the first \"how great\" (<i>helikon</i>).",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03); SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "ἡλίκον πῦρ ἡλίκην ὕλην ἀνάπτει",
+    "en": "how great (or how small) a fire kindles how great a forest",
+    "plain": "how little a flame"
+   },
+   {
+    "w": "Alexandrinus (02, as far as it can be read), C (04), the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ὀλίγον πῦρ ἡλίκην ὕλην ἀνάπτει",
+    "en": "a little fire kindles how great a forest",
+    "plain": "a little flame"
+   }
+  ],
+  "follow": 0,
+  "why": "Using <i>helikos</i> twice, once for a small fire and once for a great forest, is the harder reading; \"a little\" looks like a copyist making the sense plain. The English comes out nearly the same either way. The Plain gives the first <i>helikos</i> the sense \"how small\" (see the note).",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "the Lord and Father",
+  "t": "\"Lord\" or \"God\"?",
+  "p": "The older manuscripts have the unusual \"the Lord and Father\"; most later ones the familiar \"God and Father\" (KJV).",
+  "readings": [
+   {
+    "w": "P20 (200s), Sinaiticus (01), Alexandrinus (02), Vaticanus (03), C (04), P, Ψ, 33, 81, 1739, Old Latin, Peshitta; SBLGNT, NA28, THGNT",
+    "orig": "τὸν κύριον καὶ πατέρα",
+    "en": "the Lord and Father",
+    "plain": "the Lord and Father"
+   },
+   {
+    "w": "K, L, the Byzantine majority, the Clementine Vulgate, Harklean Syriac; Textus Receptus (KJV \"God, even the Father\")",
+    "orig": "τὸν θεὸν καὶ πατέρα",
+    "en": "God and Father",
+    "plain": "God and Father"
+   }
+  ],
+  "follow": 0,
+  "why": "\"God and Father\" is a common New Testament phrase, and copyists would change the rare \"Lord and Father\" toward it, not the other way. The oldest witnesses agree on \"Lord\".",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "4:4",
+  "a": "You adulteresses!",
+  "t": "\"Adulteresses\" or \"adulterers and adulteresses\"?",
+  "p": "The KJV's \"Ye adulterers and adulteresses\" follows later manuscripts that add the masculine word.",
+  "readings": [
+   {
+    "w": "P100 (200s or 300s), Sinaiticus as first written (01*), Alexandrinus (02), Vaticanus (03), 33, 81, 1739, Old Latin, Vulgate, Syriac, Coptic; SBLGNT, NA28, THGNT",
+    "orig": "μοιχαλίδες",
+    "en": "adulteresses",
+    "plain": "You adulteresses!"
+   },
+   {
+    "w": "Sinaiticus (corrector, 600s), K, L, P, Ψ, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "μοιχοὶ καὶ μοιχαλίδες",
+    "en": "adulterers and adulteresses",
+    "plain": "You adulterers and adulteresses!"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is far older. Copyists who took the word literally (as men's and women's adultery) would add \"adulterers\" so that the men were not left out. The feminine alone points to the prophets' picture of God's people as an unfaithful wife (see the note).",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "the spirit he placed to live in us",
+  "t": "\"Made to live\" or \"lives\"?",
+  "p": "Two Greek verbs differ by one letter: \"he caused to dwell\" or \"it dwelt\" (KJV \"the spirit that dwelleth in us\").",
+  "readings": [
+   {
+    "w": "P74 (600s), Sinaiticus (01), Vaticanus (03), Ψ, 1739 and others; SBLGNT, NA28, THGNT",
+    "orig": "ὃ κατῴκισεν ἐν ἡμῖν",
+    "en": "which he caused to dwell in us",
+    "plain": "the spirit he placed to live in us"
+   },
+   {
+    "w": "K, L, P, the Byzantine majority, Old Latin, Vulgate, Syriac, Coptic; Textus Receptus (KJV)",
+    "orig": "ὃ κατῴκησεν ἐν ἡμῖν",
+    "en": "which dwelt in us",
+    "plain": "the spirit that lives in us"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words sounded alike when read aloud, so either could come from the other. The causative \"he made to dwell\" has the oldest Greek support, and the printed editions follow it. With \"dwelt\", it is easier to take the spirit as the subject of \"yearns\", as the KJV does.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "Lawgiver and Judge",
+  "t": "\"And Judge\"",
+  "p": "The Byzantine text and the KJV have only \"one lawgiver\", without \"and Judge\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03) and most manuscripts; SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "νομοθέτης καὶ κριτής",
+    "en": "lawgiver and judge",
+    "plain": "Lawgiver and Judge"
+   },
+   {
+    "w": "The Byzantine text; Textus Receptus (KJV \"There is one lawgiver\")",
+    "orig": "νομοθέτης",
+    "en": "lawgiver",
+    "plain": "Lawgiver"
+   }
+  ],
+  "follow": 0,
+  "why": "\"And Judge\" is in the oldest manuscripts and fits the verse, which is about judging (4:11-12). It may have dropped out because the two words end alike. A separate difference does not change the English: whether \"Lawgiver\" has the article. P74, P100, Vaticanus and P omit it, with SBLGNT and Westcott-Hort; Sinaiticus, Alexandrinus, K, L, Ψ, 33, 81, 1739 and the Byzantine text have it, and NA28 prints it in square brackets.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "You do not know what your life will be like tomorrow.",
+  "t": "One sentence or two?",
+  "p": "Many manuscripts add \"for\", which makes a separate question: \"For what is your life?\" (KJV).",
+  "readings": [
+   {
+    "w": "Sinaiticus as first written (01*), Vaticanus (03), 614, 1505 and others; SBLGNT, NA28",
+    "orig": "οὐκ ἐπίστασθε τὸ τῆς αὔριον ποία ἡ ζωὴ ὑμῶν",
+    "en": "you do not know what your life (will be) tomorrow",
+    "plain": "You do not know what your life will be like tomorrow."
+   },
+   {
+    "w": "P74, P100, Sinaiticus (corrected), Alexandrinus (02), K, L, P, Ψ, the Byzantine majority, Old Latin, Vulgate; Textus Receptus (KJV)",
+    "orig": "οὐκ ἐπίστασθε τὸ τῆς αὔριον. ποία γὰρ ἡ ζωὴ ὑμῶν;",
+    "en": "you do not know (what will be) tomorrow. For what is your life?",
+    "plain": "You do not know about tomorrow. For what is your life?"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses are divided. SBLGNT, NA28 and THGNT leave out \"for\"; Tregelles and the Textus Receptus keep it. Without it, the words run on as one thought; with it, James asks a separate question. Either way, the next sentence answers: a puff of steam.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "the pay you cheated them out of",
+  "t": "\"Held back\" or \"cheated\"?",
+  "p": "SBL follows Sinaiticus and Vaticanus: wages \"held back\". NA28 and most manuscripts: wages \"taken by fraud\".",
+  "readings": [
+   {
+    "w": "Alexandrinus (02), Vaticanus (corrected), K, L, P, Ψ, 1739, the Byzantine majority, Vulgate; NA28, THGNT; Textus Receptus (KJV \"kept back by fraud\")",
+    "orig": "ὁ ἀπεστερημένος ἀφ’ ὑμῶν",
+    "en": "which has been taken away by fraud by you",
+    "plain": "the pay you cheated them out of"
+   },
+   {
+    "w": "Sinaiticus (01), Vaticanus as first written (03*); SBLGNT, Westcott and Hort",
+    "orig": "ὁ ἀφυστερημένος ἀφ’ ὑμῶν",
+    "en": "which has been held back by you",
+    "plain": "the pay you held back from them"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a place where the SBL edition and NA28 differ. NA28, which takes its text of James from the Editio Critica Maior, prints \"defrauded\" (as the edition marks of this site's word list show), the reading of most witnesses, early and late. \"Held back\" is the rarer word and may be original. The Plain follows NA28 here. Either way the wages were never paid, against Deuteronomy 24:15.",
+  "s": [
+   "laparola-gnt",
+   "williams-na28-review",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "5:7",
+  "a": "the early and the late rains",
+  "t": "Rains or fruit?",
+  "p": "The oldest text says only \"the early and the late\". Later manuscripts spell out \"rain\"; Sinaiticus has \"fruit\".",
+  "readings": [
+   {
+    "w": "P74 (600s), Vaticanus (03), 1739 and others, Old Latin, Vulgate, Sahidic Coptic; SBLGNT, NA28, THGNT",
+    "orig": "ἕως λάβῃ πρόϊμον καὶ ὄψιμον",
+    "en": "until it receives early and late",
+    "plain": "the early and the late rains"
+   },
+   {
+    "w": "Alexandrinus (02), K, L, P, Ψ, the Byzantine majority, Syriac; Textus Receptus (KJV \"the early and latter rain\")",
+    "orig": "ἕως λάβῃ ὑετὸν πρώϊμον καὶ ὄψιμον",
+    "en": "until it receives the early and late rain",
+    "plain": "the early and the late rains"
+   },
+   {
+    "w": "Sinaiticus as corrected (01²; the apparatus puts the first hand with it in parentheses), 255, 398, 1175, Old Latin ms ff, the Harklean Syriac margin, Bohairic Coptic in part",
+    "orig": "ἕως λάβῃ καρπὸν πρόϊμον καὶ ὄψιμον",
+    "en": "until it receives early and late fruit",
+    "plain": "the early and the late fruit"
+   }
+  ],
+  "follow": 0,
+  "why": "Every Jewish reader knew \"the early rain and the late rain\" (Deuteronomy 11:14), so the oldest text needed no noun; English does, and the Plain supplies \"rains\". Later copyists supplied it too. The reading \"fruit\" has the farmer wait for an early and a late crop instead of the rains.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "you saw the outcome the Lord gave",
+  "t": "\"You saw\" or \"see\"?",
+  "p": "The Byzantine text reads the command \"see\" for \"you saw\". The two Greek words differ by one letter.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03) and others; SBLGNT, NA28, THGNT, Westcott-Hort, Textus Receptus (KJV \"have seen\")",
+    "orig": "τὸ τέλος κυρίου εἴδετε",
+    "en": "you saw the outcome of the Lord",
+    "plain": "you saw the outcome the Lord gave"
+   },
+   {
+    "w": "Alexandrinus (02), the Byzantine text",
+    "orig": "τὸ τέλος κυρίου ἴδετε",
+    "en": "see the outcome of the Lord",
+    "plain": "see the outcome the Lord gave"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Eidete</i> (\"you saw\") and <i>idete</i> (\"see!\") sounded alike. \"You saw\" pairs with \"you have heard\" just before it: the readers heard of Job's endurance and saw how the Lord ended his story.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "the Lord is very tender-hearted",
+  "t": "\"The Lord\" added or original?",
+  "p": "The Byzantine text has no subject: \"for he is very tender-hearted\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03, with a small difference); SBLGNT, NA28, THGNT, Westcott-Hort, Textus Receptus (KJV \"that the Lord is very pitiful\")",
+    "orig": "πολύσπλαγχνός ἐστιν ὁ κύριος",
+    "en": "the Lord is very compassionate",
+    "plain": "the Lord is very tender-hearted"
+   },
+   {
+    "w": "The Byzantine text",
+    "orig": "πολύσπλαγχνός ἐστιν",
+    "en": "he is very compassionate",
+    "plain": "he is very tender-hearted"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts name \"the Lord\". Without it the subject is still the Lord of the clause before, so the meaning does not change.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "5:12",
+  "a": "so that you do not come under judgment",
+  "t": "\"Under judgment\" or \"into hypocrisy\"?",
+  "p": "The Byzantine text reads \"so that you do not fall into hypocrisy\", a different division of the same letters.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03); SBLGNT, NA28, THGNT; the Textus Receptus as printed by Scrivener (KJV \"lest ye fall into condemnation\")",
+    "orig": "ἵνα μὴ ὑπὸ κρίσιν πέσητε",
+    "en": "so that you do not fall under judgment",
+    "plain": "so that you do not come under judgment"
+   },
+   {
+    "w": "The Byzantine majority; Stephanus' 1550 Textus Receptus",
+    "orig": "ἵνα μὴ εἰς ὑπόκρισιν πέσητε",
+    "en": "so that you do not fall into hypocrisy",
+    "plain": "so that you do not fall into hypocrisy"
+   }
+  ],
+  "follow": 0,
+  "why": "In letters written without spaces, <i>hypo krisin</i> (\"under judgment\") and <i>hypokrisin</i> (\"hypocrisy\") are almost the same. The oldest manuscripts read \"under judgment\", which matches \"or you will be judged\" in 5:9.",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "anointed him with oil",
+  "t": "\"Anointed him\" or \"anointed\"?",
+  "p": "Vaticanus and a few other witnesses have no \"him\". NA28 prints the word in square brackets.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Ψ (with a small difference), 048 (as far as it can be read), the Byzantine majority; SBLGNT, THGNT, NA28 (in brackets), Textus Receptus (KJV \"anointing him with oil\")",
+    "orig": "ἀλείψαντες αὐτὸν ἐλαίῳ",
+    "en": "having anointed him with oil",
+    "plain": "anointed him with oil"
+   },
+   {
+    "w": "Vaticanus (03), P, 1243 and a few others, Old Latin ms ff, some Vulgate manuscripts, Sahidic Coptic in part; Westcott-Hort",
+    "orig": "ἀλείψαντες ἐλαίῳ",
+    "en": "having anointed with oil",
+    "plain": "anointed with oil"
+   }
+  ],
+  "follow": 0,
+  "why": "The pronoun changes nothing: either way the sick person is the one anointed. Square brackets in NA28 mark a word whose place in the text the editors held to be uncertain.",
+  "s": [
+   "laparola-gnt",
+   "stepbible-tagnt"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "So then, confess your sins",
+  "t": "\"Sins\" or \"trespasses\"?",
+  "p": "The KJV's \"Confess your faults one to another\" follows the Byzantine text, which reads \"trespasses\" and has no \"so then\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03); SBLGNT, NA28, THGNT",
+    "orig": "ἐξομολογεῖσθε οὖν ἀλλήλοις τὰς ἁμαρτίας",
+    "en": "so confess your sins to one another",
+    "plain": "So then, confess your sins"
+   },
+   {
+    "w": "The Byzantine majority; Textus Receptus (KJV \"faults\")",
+    "orig": "ἐξομολογεῖσθε ἀλλήλοις τὰ παραπτώματα",
+    "en": "confess your trespasses to one another",
+    "plain": "Confess your trespasses"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts have \"so then\" (<i>oun</i>), which ties the confession to the healing of 5:14-15, and the ordinary word \"sins\".",
+  "s": [
+   "laparola-gnt"
+  ]
+ },
+ {
+  "v": "5:20",
+  "a": "will save his soul from death",
+  "t": "\"His soul\" or \"a soul\"?",
+  "p": "The Byzantine text lacks \"his\": the KJV reads \"shall save a soul from death\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), P, 33, 1739 and others, Vulgate, Syriac; SBLGNT, NA28, THGNT",
+    "orig": "σώσει ψυχὴν αὐτοῦ ἐκ θανάτου",
+    "en": "will save his soul from death",
+    "plain": "will save his soul from death"
+   },
+   {
+    "w": "P74 (600s), Vaticanus (03), 614 and others",
+    "orig": "σώσει ψυχὴν ἐκ θανάτου αὐτοῦ",
+    "en": "will save a soul from his death",
+    "plain": "will save a soul from his death"
+   },
+   {
+    "w": "K, L, Ψ, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "σώσει ψυχὴν ἐκ θανάτου",
+    "en": "will save a soul from death",
+    "plain": "will save a soul from death"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses disagree on where \"his\" stands, or whether it is there at all, which may show that copyists felt the ambiguity of whose soul is meant (see the note). The Plain follows SBLGNT and NA28.",
+  "s": [
+   "laparola-gnt"
+  ]
+ }
+]

@@ -1,0 +1,320 @@
+[
+ {
+  "v": "1:3",
+  "a": "For I was very glad",
+  "t": "\"For\" or no \"for\"?",
+  "p": "Sinaiticus and some other copies have no \"for\" at the start of the verse.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus (KJV \"For I rejoiced greatly\"); Alexandrinus, Vaticanus, Ephraemi, K, P, Ψ, 1739, most later manuscripts; the Syriac",
+    "orig": "ἐχάρην γὰρ λίαν",
+    "en": "for I was very glad",
+    "plain": "For I was very glad"
+   },
+   {
+    "w": "Sinaiticus, 33, 81, 623, 2344 and others; the Latin, the Coptic, the Armenian, the Ethiopic",
+    "orig": "ἐχάρην λίαν",
+    "en": "I was very glad",
+    "plain": "I was very glad"
+   }
+  ],
+  "follow": 0,
+  "why": "\"For\" has the wider support and ties the joy to the prayer of 1:2: the Elder knows Gaius' soul is doing well because of what the brothers said. Without it the verse opens exactly as 2 John 1:4 does.",
+  "s": [
+   "wiki-3jn-variants",
+   "plummer-epistles-john"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "No joy of mine is greater than this",
+  "t": "\"Joy\" or \"grace\"?",
+  "p": "One letter's difference in Greek: charan, \"joy,\" or charin, \"grace, favor.\" Vaticanus and the Latin read \"grace.\"",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Tregelles, Byzantine text, Textus Receptus (KJV); Sinaiticus (01, 300s), Alexandrinus (02, 400s), Ephraemi (04, 400s), K, L, P, Ψ, 33, 81, 1739, most later manuscripts; the Syriac, the Sahidic Coptic",
+    "orig": "μειζοτέραν τούτων οὐκ ἔχω χαράν",
+    "en": "I have no greater joy than these",
+    "plain": "No joy of mine is greater than this"
+   },
+   {
+    "w": "Westcott-Hort; Vaticanus (03, 300s), minuscules 5, 57, 2298, 2492 and others; the Old Latin and the Vulgate (<i>gratiam</i>), the Bohairic Coptic; Hilary",
+    "orig": "μειζοτέραν τούτων οὐκ ἔχω χάριν",
+    "en": "I have no greater grace (favor) than these",
+    "plain": "No grace given me is greater than this"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Joy\" has the wider support, and it fits the Elder's \"I was very glad\" in the verse before. \"Grace\" may be an easy slip of one letter, or a copyist's change to a more common phrase.",
+  "b": "Plummer, following Westcott and Hort, thought \"grace,\" a favor from God, might be right. The ECM and NA28 print \"joy.\"",
+  "s": [
+   "wiki-3jn-variants",
+   "wiki-johannine-mss",
+   "plummer-epistles-john",
+   "wiki-ecm"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "walking in truth",
+  "t": "\"In truth\" or \"in the truth\"?",
+  "p": "NA28 and the KJV have no article; the SBL text prints \"in the truth.\"",
+  "readings": [
+   {
+    "w": "NA28, Byzantine text, Textus Receptus (KJV \"walk in truth\"); Sinaiticus (01, 300s), Ephraemi as corrected, P, Ψ, 1739, most later manuscripts; the Bohairic Coptic",
+    "orig": "ἐν ἀληθείᾳ περιπατοῦντα",
+    "en": "walking in truth",
+    "plain": "walking in truth"
+   },
+   {
+    "w": "SBL, NA27, Tyndale House, Westcott-Hort, Tregelles; Alexandrinus (02, 400s), Vaticanus (03, 300s), Ephraemi (04, first hand), 33, 81",
+    "orig": "ἐν τῇ ἀληθείᾳ περιπατοῦντα",
+    "en": "walking in the truth",
+    "plain": "walking in the truth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28, whose text in the Catholic Letters is the Editio Critica Maior's; the word list shows that it is the only place in 3 John where NA28 and the SBL text differ. Without the article the line matches 1:3 (\"you do walk in truth\") and 2 John 1:4 (\"walking in truth\").",
+  "b": "With the article, \"the truth\" is the faith itself, the road the children walk on; without it, \"truth\" describes how they walk. The difference is slight.",
+  "s": [
+   "wiki-3jn-variants",
+   "wiki-ecm",
+   "sblgnt",
+   "wiki-johannine-mss"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "and strangers at that",
+  "t": "\"Strangers at that,\" or \"and to strangers\"?",
+  "p": "The KJV makes two groups, \"the brethren, and... strangers.\" The oldest copies make one: the brothers were strangers.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort; Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, Ψ, 048, 1739; the Harklean Syriac, the Coptic",
+    "orig": "καὶ τοῦτο ξένους",
+    "en": "and this (to) strangers",
+    "plain": "and strangers at that"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"to the brethren, and to strangers\"); P, most later manuscripts",
+    "orig": "καὶ εἰς τοὺς ξένους",
+    "en": "and to the strangers",
+    "plain": "and for strangers"
+   }
+  ],
+  "follow": 0,
+  "why": "The older reading is the harder Greek, and copyists smoothed it into two groups. With it, Gaius' kindness is greater: the brothers he helped were people he did not know.",
+  "s": [
+   "wiki-3jn-variants",
+   "plummer-epistles-john"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "for the sake of the Name",
+  "t": "\"The Name\" or \"his name\"?",
+  "p": "A few copies read \"his name.\" The KJV also says \"for his name's sake.\"",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts; every printed Greek edition in the word list, including the Byzantine text",
+    "orig": "ὑπὲρ γὰρ τοῦ ὀνόματος",
+    "en": "for the sake of the Name",
+    "plain": "for the sake of the Name"
+   },
+   {
+    "w": "Ψ, 614, 630, 1846, 2495; some Vulgate copies, the Syriac",
+    "orig": "ὑπὲρ γὰρ τοῦ ὀνόματος αὐτοῦ",
+    "en": "for the sake of his name",
+    "plain": "for the sake of his name"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Name\" with no \"his\" is the reading of nearly every witness, and it is the harder phrase. A few copyists supplied \"his\" to say whose name is meant. The KJV's \"his\" is not in any printed Greek edition in the word list, the Textus Receptus included.",
+  "b": "See the note on \"the Name\": the bare phrase is the Jewish way of speaking of God's name.",
+  "s": [
+   "wiki-3jn-variants"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "take such people under our care",
+  "t": "\"Support\" or \"receive\"?",
+  "p": "The KJV says \"we ought to receive such.\" The oldest copies have a word meaning \"take up, support.\"",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort; Sinaiticus, Alexandrinus, Vaticanus, Ephraemi (first hand), Ψ, 33, 81, 1739",
+    "orig": "ὑπολαμβάνειν",
+    "en": "to take up, support",
+    "plain": "take such people under our care"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"receive\"); Ephraemi as corrected, P, most later manuscripts",
+    "orig": "ἀπολαμβάνειν",
+    "en": "to receive",
+    "plain": "receive such people"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek verbs differ by one syllable. The older witnesses have <i>hypolambanein</i>, which plays on <i>lambanontes</i> (\"taking\") in 1:7: they take nothing from pagans, so we must take them up. The Plain's \"take ... under our care\" keeps the play with \"take nothing\" in 1:7.",
+  "s": [
+   "wiki-3jn-variants",
+   "plummer-epistles-john"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "for the truth",
+  "t": "\"For the truth\" or \"with the church\"?",
+  "p": "Two of the oldest copies read \"fellow workers with the church.\"",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus (KJV \"fellowhelpers to the truth\"); most manuscripts",
+    "orig": "τῇ ἀληθείᾳ",
+    "en": "for (or with) the truth",
+    "plain": "for the truth"
+   },
+   {
+    "w": "Sinaiticus (01, first hand), Alexandrinus (02)",
+    "orig": "τῇ ἐκκλησίᾳ",
+    "en": "for (or with) the church",
+    "plain": "for the church"
+   },
+   {
+    "w": "Minuscules 614, 623, 630, 1505; an Old Latin copy and the Vulgate",
+    "orig": "τῆς ἀληθείας",
+    "en": "of the truth",
+    "plain": "of the truth"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The truth\" is the reading of nearly all witnesses and fits the letter, where truth is the key word. \"The church\" in two old copies may come from the word \"church\" in 1:6 and 1:9.",
+  "s": [
+   "wiki-3jn-variants",
+   "wiki-johannine-mss"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "I wrote something",
+  "t": "\"I wrote something,\" \"I would have written,\" or \"I wrote\"?",
+  "p": "Copyists were uneasy that a letter of the Elder had been lost or refused, and changed the words.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort; Sinaiticus (first hand), Alexandrinus, 048, 1739, 2298; some Coptic copies, the Armenian; Jerome",
+    "orig": "ἔγραψά τι",
+    "en": "I wrote something",
+    "plain": "I wrote something"
+   },
+   {
+    "w": "Vaticanus (03); some Coptic copies",
+    "orig": "ἔγραψας τι",
+    "en": "you wrote something",
+    "plain": "You wrote something"
+   },
+   {
+    "w": "Sinaiticus as corrected, 33, 81, 614, 1505 and others; the Latin; Hilary",
+    "orig": "ἔγραψα ἄν",
+    "en": "I would have written",
+    "plain": "I would have written"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"I wrote unto the church\"); Ephraemi, K, L, P, Ψ, most later manuscripts",
+    "orig": "ἔγραψα",
+    "en": "I wrote",
+    "plain": "I wrote"
+   }
+  ],
+  "follow": 0,
+  "why": "\"I wrote something\" has early support and explains the others. Plummer thought \"I would have written\" was a change made to avoid admitting that a letter from the apostle had been lost; dropping \"something\" makes the letter sound weightier. Vaticanus' \"you wrote\" is probably a slip of one letter.",
+  "b": "Which letter is meant is debated. Most scholars, C. H. Dodd among them, think of a lost letter of recommendation, since 3 John says nothing of the dispute over teaching in 2 John; Plummer also ruled out 1 and 2 John. John Painter argues that it was 2 John.",
+  "s": [
+   "wiki-3jn-variants",
+   "plummer-epistles-john",
+   "wiki-3john"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "those who want to",
+  "t": "\"Those who want to\" or \"those who welcome them\"?",
+  "p": "Some copies say Diotrephes blocks those who welcome the brothers, not only those who want to.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus (KJV \"them that would\"); nearly all manuscripts",
+    "orig": "τοὺς βουλομένους",
+    "en": "those who want to",
+    "plain": "those who want to"
+   },
+   {
+    "w": "Ephraemi (04, 400s), 323, 1241, 1243, 1739, 1881, 2298; some Vulgate copies",
+    "orig": "τοὺς ἐπιδεχομένους",
+    "en": "those who welcome (them)",
+    "plain": "those who welcome them"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Those who want to\" is the reading of nearly all witnesses. \"Those who welcome them\" repeats the verb of the same verse (<i>epidechetai</i>, \"welcome\") and makes Diotrephes act against people who had already taken the brothers in.",
+  "s": [
+   "wiki-3jn-variants"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "by the truth itself",
+  "t": "\"By the truth\" or \"by the church\"?",
+  "p": "A few early witnesses say Demetrius has testimony \"from the church,\" or \"from the church and from the truth itself.\"",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus (KJV \"of the truth itself\"); Papyrus 74 as corrected (600s), Sinaiticus, Alexandrinus as corrected, Vaticanus, P, Ψ, 33, 1739, most manuscripts; the Latin, the Coptic",
+    "orig": "ὑπὸ αὐτῆς τῆς ἀληθείας",
+    "en": "by the truth itself",
+    "plain": "by the truth itself"
+   },
+   {
+    "w": "Papyrus 74 and Alexandrinus as first written, where the damaged letters appear to read this (marked <i>vid</i>, \"it appears,\" in the lists)",
+    "orig": "ὑπὸ αὐτῆς τῆς ἐκκλησίας",
+    "en": "by the church itself",
+    "plain": "by the church itself"
+   },
+   {
+    "w": "Ephraemi (04, 400s); the Philoxenian Syriac and the margin of the Harklean",
+    "orig": "ὑπὸ τῆς ἐκκλησίας καὶ ὑπὸ αὐτῆς τῆς ἀληθείας",
+    "en": "by the church and by the truth itself",
+    "plain": "by the church and by the truth itself"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The truth itself\" is the harder phrase, since it is not clear how truth can testify, and copyists eased it with \"the church.\" Nearly all witnesses have it.",
+  "s": [
+   "wiki-3jn-variants",
+   "wiki-johannine-mss",
+   "plummer-epistles-john"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "The friends send you greetings.",
+  "t": "\"Friends\" or \"brothers\"?",
+  "p": "A few copies, including Alexandrinus, read \"the brothers\" in place of \"the friends.\"",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus (KJV \"Our friends salute thee\"); nearly all manuscripts",
+    "orig": "ἀσπάζονταί σε οἱ φίλοι",
+    "en": "the friends greet you",
+    "plain": "The friends send you greetings."
+   },
+   {
+    "w": "Alexandrinus (02), 33, 81, 436, 642; the Philoxenian Syriac and the margin of the Harklean",
+    "orig": "ἀσπάζονταί σε οἱ ἀδελφοί",
+    "en": "the brothers greet you",
+    "plain": "The brothers send you greetings."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Friends\" is the unusual word and has nearly all witnesses; \"brothers\" is the usual Christian word, an easy change. The KJV's \"Our\" is not in the Greek (Plummer). In the Greek editions these words belong to verse 15.",
+  "s": [
+   "wiki-3jn-variants",
+   "plummer-epistles-john"
+  ]
+ }
+]

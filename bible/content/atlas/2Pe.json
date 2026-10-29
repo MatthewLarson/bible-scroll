@@ -1,0 +1,80 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "simon",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "gomorrah",
+    "sodom"
+   ],
+   "people": [
+    "jesus-2",
+    "god",
+    "noah",
+    "lot",
+    "balaam",
+    "beor-2"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "paul"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "gomorrah": {
+   "name": "Gomorrah",
+   "lat": 31.15724867,
+   "lon": 35.47395433
+  },
+  "sodom": {
+   "name": "Sodom",
+   "lat": 31.19656033,
+   "lon": 35.39648412
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "simon": {
+   "name": "Simon"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "noah": {
+   "name": "Noah"
+  },
+  "lot": {
+   "name": "Lot"
+  },
+  "balaam": {
+   "name": "Balaam"
+  },
+  "beor-2": {
+   "name": "Beor"
+  },
+  "paul": {
+   "name": "Paul"
+  }
+ },
+ "events": {}
+}

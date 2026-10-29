@@ -1,0 +1,8 @@
+Status: reviewed, published
+
+Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md.
+
+- 1:1-14 (flat folder, owns book.json): written 2026-10-29 with 2 John by the same writer. 14 verses (KJV numbering; Greek 1:15 under 1:14, with a note), 29 notes, 8 variants, 9 glosses, 1 chapter page (5 settings, 2 deep dives, 1 spec box; no traditions card), 8 topic contributions, book.json with audience and a spec. Plain follows NA28/ECM at 1:4 ("walking in truth") against SBL. Shared lines with 2 John (1:1, 1:3-4, 1:13-14) match word for word where the Greek does. 1 error remains until the `1-john` core exists. Drift audit: 11 of 14 verses rebuilt. Sources checked: .scratch/nt/3Jn/sources-checked.md. Awaiting hostile review.
+- 2026-10-29 review fixes (review-fixer): 13 findings; 6 fixed, 5 partly, 2 declined (see review.md). Plain changed at 1:4 ("than this"), 1:8 ("take such people under our care", keeping the play on "take") and 1:10 ("I will point out the works"). Mitchell list removed; Painter, Dodd and the NET note kept, each checked against Wikipedia pages opened in the fix; Origen and Dionysius quoted from New Advent; Assyrian catechism claim cut; P.Oxy. 292 re-read in the Source Library; 3 new variants (1:3, 1:7, 1:10); 3 John-only source keys moved into 3Jn/sources.json. Now 14 verses, 29 notes, 11 variants, 9 glosses. --check 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections), cross-book term alignment (tools/brief-general.md, lead notes in .scratch/general-lead-notes.md), VERBOSE --check 0/0.

@@ -104,7 +104,18 @@ that followed (STYLE.md rule 2: no detail from memory; briefs `bible/tools/agent
    quote (`VERBOSE=1 node tools/build.js --check 1Co` shows the warning).
 4. **Look at the new pages in a browser.** No one has viewed the six new books or their topic pages yet. Run
    `node tools/serve.js public 8777` from `bible/` and check the library, a chapter spread of each book, the
-   "Where Christians differ" cards, a topic page with its passage filter, and the browser console.
+   "Where Christians differ" cards, a topic page with its passage filter, and the browser console. The same goes for
+   Hebrews, James, 1-2 Peter and 1-3 John (published 2026-10-29, checked only over HTTP: routes, data files and that
+   the page script parses).
+5. **A Remonstrant (Arminian) tradition name.** `TRADITIONS` in `bible/tools/build.js` has no Arminian or
+   Remonstrant entry, so on the 1 John 2:2 card (who Christ died for) the Remonstrants sit in the deep dive, not a
+   row of their own. Decide whether to add the name; if so, give them a row on that card from the Remonstrant
+   Articles (1610), opened in that session.
+6. **Jacob shows as "Israel" in the atlas people lists.** Bible Atlas's id `israel` is the patriarch, and its label
+   reads "Israel" in Genesis and Hebrews 11. A fix in `bible/content/atlas/names.json` (for example "Jacob (Israel)")
+   changes it in every book, so it needs a choice.
+7. **Check the scholars named in the Psalm 45:6 note.** It names Attridge, Lane and Harris for the reading of
+   Hebrews 1:8; the Hebrews fixer could confirm only Harris. Open each or remove the names (STYLE.md rule 2).
 
 ## Resume points (where the cloud project paused, 2026-10-24 about 15:00 UTC)
 

@@ -1,0 +1,8 @@
+Status: reviewed, published
+
+Plan (2026-10-29): One part, flat folder, written with 3 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md.
+
+- 1:1-13 (flat folder, owns book.json): written 2026-10-29 by the nt-lane writer of 2-3 John. 13 verses, 29 notes, 7 variants, 9 glosses, 1 chapter page (4 settings, 2 deep dives, 1 spec box; no traditions card: the church documents searched (the Dordrecht Confession; the Council of Carthage of 256 and Cyprian, Letter 73 in the fix) show the verse used on one side of the 256 rebaptism dispute only, so a deep dive instead), 10 topic contributions, book.json with audience, canon section and a spec. New topic cores in content/proposals/nt/topics: 2-john, 3-john. 1 error remains until the 1Jn writer's `1-john` core exists (2Jn contributes to it). Drift audit: 11 of 13 verses rebuilt. Sources checked: .scratch/nt/2Jn/sources-checked.md. Pairs with 1 John aligned to its Plain at 1:5-6 and 1:12. Awaiting hostile review.
+- 2026-10-29 review fixes (review-fixer): 15 findings; 10 fixed, 4 partly, 1 declined (see review.md). Plain 1:5 rebuilt ("And now I ask you, lady. What I write you is not a new command."). Eusebius quoted from New Advent; Rome's side at Carthage added from Cyprian, Letter 73; Assyrian catechism claim cut (PDF would not open); Lutheran antilegomena stated; Numbers 12:8 / Jeremiah 32:4 Greek corrected; 3 new variants (1:3, 1:11, 1:12); 1:8 and 1:13 variants rewritten. Now 13 verses, 29 notes, 10 variants, 9 glosses. --check 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections), cross-book term alignment (tools/brief-general.md, lead notes in .scratch/general-lead-notes.md), VERBOSE --check 0/0.

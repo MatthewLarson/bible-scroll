@@ -1,0 +1,10 @@
+Status: reviewed, published
+
+Plan (2026-10-29): Two parts, 01-07 (owns book.json) and 08-13; lenses H C L J T; tools/brief-general.md and brief-heb.md.
+08-13 (2026-10-29): written. 174 verses, 165 notes, 23 variants, 94 glosses, 6 chapter pages, 34 topic contributions; card at 10:12 (sacrifice); new topic proposal hall-of-faith; terms proposals diatheke and skene. --check Heb/08-13: 0 warnings; remaining errors only from the missing book.json lenses and the hebrews topic (01-07's).
+
+Part 01-07 (2026-10-29): written. 129 verses, 159 notes, 14 variants, 50 glosses, 7 chapter pages (settings for every section; traditions cards on 6:4-6 perseverance and 7:23-28 priesthood), 24 topic contributions; book.json (whole book); new topic core proposals/nt/topics/hebrews.json. Check Heb/01-07 0/0. Drift audit: 117 of 129 verses rebuilt, 12 kept as forced. Scratch and sources-checked.md in .scratch/nt/Heb-01-07/.
+08-13 review fixes (2026-10-29): 27 findings, 24 accepted, 3 partly (1, 22, 27; the declined parts are explained in review.md). Plain changed at 8:1, 8:12, 9:2, 9:15, 10:1, 10:13, 10:19, 10:25, 10:32, 10:35, 11:6, 11:7, 11:17, 12:18 and the heading before 10:32. Now 174 verses, 165 notes, 30 variants, 94 glosses, 6 chapter pages, 34 topic contributions; hall-of-faith core expanded; diatheke term entry extended. --check Heb/08-13 0/0.
+Fix 01-07 (2026-10-29): hostile review applied (26 findings: 21 accepted, 3 partly, 1 declined, 1 needing no change); Plain changed at 1:2, 1:4, 1:5, 1:13, 1:14, 2:3, 2:9, 3:9, 5:7; new variants 2:14, 6:3, 7:14, 7:17; new note 2:9; cards on 6:4-6 and 7:23-28 resourced; book.json authorship, canon, Jewish-people and spec sections rewritten from opened sources. Now 129 verses, 160 notes, 18 variants, 50 glosses. Check Heb/01-07 and Heb: 0/0.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections), cross-book term alignment (tools/brief-general.md, lead notes in .scratch/general-lead-notes.md), VERBOSE --check 0/0.

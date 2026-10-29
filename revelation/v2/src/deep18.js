@@ -75,7 +75,7 @@ c18.deep = [
   <p>Preterists who read Babylon as Jerusalem lean on these parallels. Others answer that Revelation borrows its words for Babylon mostly from the prophets' songs over Babylon and Tyre (Jeremiah 50–51; Isaiah 47; Ezekiel 26–27), not from the oracles against Jerusalem, and that Jerusalem in AD 70 did not hold royal power "over the kings of the earth" (17:18).</p>
   <p class="small">In later Jewish writing, Rome was the one called "Babylon" and "Edom," never Jerusalem. A caution: reading Babylon as Jerusalem has been misused to justify hostility toward Jewish people. The careful preterists who hold it apply it to first-century temple leaders, not to Jews.</p>`},
  {h:'Has the church been called Babylon?', html:`
-  <p><b>In the New Testament, the church is "in" Babylon, not Babylon itself.</b> 1 Peter 5:13: "She who is in Babylon, chosen together with you, sends you greetings." "She" is the church in Rome, greeting other churches from the capital.</p>
+  <p><b>In the New Testament, the church is "in" Babylon, not Babylon itself.</b> 1 Peter 5:13: "Greetings to you from her who is in Babylon, chosen along with you." "Her" is the church in Rome, greeting other churches from the capital.</p>
   <p><b>Later, yes, often, and usually by one group of Christians about another:</b></p>
   <ul>
    <li><b>Medieval reformers.</b> Followers of Joachim of Fiore and the Spiritual Franciscans (Peter John Olivi, about 1297) called the corrupt, worldly church "the carnal church" and "Babylon." Dante shows the harlot of Revelation 17 seated on the church's chariot (<i>Purgatory</i> 32).</li>

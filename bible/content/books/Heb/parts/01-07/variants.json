@@ -1,0 +1,519 @@
+[
+ {
+  "v": "1:3",
+  "a": "by his word of power. Once he had made a cleansing for sins",
+  "t": "'By himself'? and 'our sins'?",
+  "p": "The KJV reads 'when he had by himself purged our sins'. The oldest witnesses differ on both 'by himself' and 'our'.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Vaticanus (03, 300s), Alexandrinus (02, 400s), 33, 81, the Vulgate; NA28, Tyndale House, Westcott-Hort",
+    "orig": "τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, καθαρισμὸν τῶν ἁμαρτιῶν ποιησάμενος",
+    "en": "by the word of his power, having made cleansing of sins",
+    "plain": "by his word of power. Once he had made a cleansing for sins"
+   },
+   {
+    "w": "P46 (about AD 175-225), 0243, 1739, 1881 before correction; SBL Greek New Testament",
+    "orig": "τῷ ῥήματι τῆς δυνάμεως, δι᾽ αὑτοῦ καθαρισμὸν τῶν ἁμαρτιῶν ποιησάμενος",
+    "en": "by the word of power, having made cleansing of sins through himself",
+    "plain": "by the word of power. Once he had made a cleansing for sins by himself"
+   },
+   {
+    "w": "Codex Claromontanus (06), Byzantine majority, most Syriac and Coptic, Origen, Athanasius, Chrysostom; Textus Receptus (KJV)",
+    "orig": "τῷ ῥήματι τῆς δυνάμεως αὐτοῦ, δι᾽ ἑαυτοῦ καθαρισμὸν ποιησάμενος τῶν ἁμαρτιῶν ἡμῶν",
+    "en": "by the word of his power, having by himself made cleansing of our sins",
+    "plain": "by his word of power. Once he had by himself made a cleansing for our sins"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and Tyndale House, with the great fourth-century codices. The SBL edition follows P46, the oldest witness, which has 'through himself' but not 'his' after 'power'. The Byzantine text has both 'his' and 'by himself', and adds 'our' (which correctors of Sinaiticus and Claromontanus also add). 'Our' looks like a natural addition. 'By himself' is old and could be original, but the codices that lack it are many and early, and the phrase may have been added to stress that the Son needed no help. The sense is the same: he alone made the cleansing.",
+  "b": "La Parola's apparatus also lists a few later witnesses for each reading. The Byzantine form is the source of the KJV's 'when he had by himself purged our sins'.",
+  "s": [
+   "laparola-apparatus",
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "your kingdom's",
+  "t": "Your kingdom or his?",
+  "p": "P46, Sinaiticus and Vaticanus read 'his kingdom'; most witnesses read 'your kingdom', as the psalm does.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (02), Claromontanus (06), 33, 81, 1739, Byzantine majority, the Old Latin and Vulgate, Syriac, Coptic; NA28, SBL, Tyndale House; Textus Receptus (KJV)",
+    "orig": "ῥάβδος τῆς βασιλείας σου",
+    "en": "the scepter of your kingdom",
+    "plain": "your kingdom's"
+   },
+   {
+    "w": "P46 (about AD 175-225), Codex Sinaiticus (01), Vaticanus (03); Westcott-Hort",
+    "orig": "ῥάβδος τῆς βασιλείας αὐτοῦ",
+    "en": "the scepter of his kingdom",
+    "plain": "his kingdom's"
+   }
+  ],
+  "follow": 0,
+  "why": "'Your' matches the psalm (Psalm 45:6 in Greek) and the 'your throne' just before, and it is the reading of NA28, SBL and Tyndale House. 'His' has the three oldest witnesses and is the harder reading. Daniel Stevens (2023) argues on internal grounds that 'his kingdom' is original: in his view the writer changed the psalm on purpose, to point to the Davidic covenant and the Son's reign. If 'his' is original, the verse can be read 'God is your throne forever, and the scepter of fairness is the scepter of his kingdom', which fits reading (2) in the note on 'Your throne, O God'. The Plain follows 'your', with the main editions.",
+  "b": "The critical text also differs from the Byzantine in the word order of the second line ('and the scepter of fairness is the scepter of your kingdom' against 'a scepter of fairness is the scepter of your kingdom'); the meaning is the same.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018",
+   "stevens-heb-1-8"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "and like a coat they will be changed",
+  "t": "'Like a coat' a second time",
+  "p": "The oldest witnesses repeat 'like a coat'; the Byzantine text and the Greek psalm do not.",
+  "readings": [
+   {
+    "w": "P46, Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03), 1739; NA28, SBL",
+    "orig": "ὡς ἱμάτιον καὶ ἀλλαγήσονται",
+    "en": "like a garment they will also be changed",
+    "plain": "and like a coat they will be changed"
+   },
+   {
+    "w": "Byzantine majority, 33, 81, the Vulgate, Syriac Peshitta; Textus Receptus (KJV); the Greek of Psalm 102:26 (101:27)",
+    "orig": "καὶ ἀλλαγήσονται",
+    "en": "and they will be changed",
+    "plain": "and they will be changed"
+   }
+  ],
+  "follow": 0,
+  "why": "The early papyrus and the great codices agree on the repeated 'like a coat'. Copyists probably dropped it to make Hebrews match the psalm. Either way the picture is the same.",
+  "s": [
+   "laparola-apparatus",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "with glory and honor you crowned him.",
+  "t": "'And set him over the works of your hands'",
+  "p": "Many manuscripts and the KJV add a line from Psalm 8:6. P46 and Vaticanus lack it.",
+  "readings": [
+   {
+    "w": "P46, Codex Vaticanus (03), Claromontanus as corrected, Byzantine majority, Chrysostom; NA28, SBL, Tyndale House",
+    "orig": "δόξῃ καὶ τιμῇ ἐστεφάνωσας αὐτόν",
+    "en": "with glory and honor you crowned him",
+    "plain": "with glory and honor you crowned him."
+   },
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Ephraemi (04), Claromontanus before correction (06), 33, 1739, most Latin, Syriac and Coptic; Textus Receptus (KJV); Westcott-Hort in brackets",
+    "orig": "δόξῃ καὶ τιμῇ ἐστεφάνωσας αὐτόν, καὶ κατέστησας αὐτὸν ἐπὶ τὰ ἔργα τῶν χειρῶν σου",
+    "en": "with glory and honor you crowned him, and set him over the works of your hands",
+    "plain": "with glory and honor you crowned him, and you set him over the works of your hands."
+   }
+  ],
+  "follow": 0,
+  "why": "The added line is in the psalm (Psalm 8:6), so copyists who knew the psalm would naturally fill it in; no one would have dropped it on purpose. The shorter text has the oldest papyrus and Vaticanus. Hebrews may have left the line out because its point is the next line, 'everything beneath his feet'. The witnesses are fairly evenly split, so Westcott and Hort kept the line in brackets.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "by God's grace",
+  "t": "'By the grace of God' or 'apart from God'?",
+  "p": "Almost all manuscripts read 'by the grace of God'. A few, and several church fathers, read 'apart from God'. SBL prints it.",
+  "readings": [
+   {
+    "w": "P46, Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ephraemi (04), Claromontanus (06), Byzantine majority, Old Latin and Vulgate, Coptic; Origen (in part), Eusebius, Athanasius, Chrysostom, Jerome; NA28, Tyndale House; Textus Receptus (KJV)",
+    "orig": "χάριτι θεοῦ",
+    "en": "by the grace of God",
+    "plain": "by God's grace"
+   },
+   {
+    "w": "0243, 1739, 424 as corrected, some Vulgate and Peshitta manuscripts; Origen, Theodore of Mopsuestia, Ambrose, Fulgentius, Theodoret in part; the Nestorians according to Pseudo-Oecumenius; manuscripts known to Origen, Ambrose and Jerome; SBL Greek New Testament",
+    "orig": "χωρὶς θεοῦ",
+    "en": "apart from God",
+    "plain": "apart from God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the overwhelming manuscript evidence, with NA28 and Tyndale House, against SBL. But 'apart from God' is the harder reading, and that is why some scholars, and the SBL edition, think it is original: a copyist could easily turn the startling 'apart from God' into the familiar 'by the grace of God' (in Greek <i>chōris</i> and <i>chariti</i> look alike), or a reader's note could have crept into the text. 'Apart from God' could mean that Jesus died abandoned by God (Mark 15:34), or that he died for everyone except God, or that his divine nature had no share in death. Later the reading was linked with the Nestorians, which may have helped it disappear.",
+  "b": "Origen already knew both readings in the early 200s, so the difference is very old. Jerome read 'by the grace of God' himself but knew copies with 'apart from God', which is why lists that only name him can put him on either side. The witness lists are from the La Parola apparatus; Wikipedia's list of textual variants in Hebrews differs slightly (it gives 0121b where La Parola gives 0243).",
+  "s": [
+   "laparola-apparatus",
+   "wiki-heb-variants",
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "blood and flesh in common",
+  "t": "'Blood and flesh' or 'flesh and blood'?",
+  "p": "The critical text has the unusual order 'blood and flesh'; the Byzantine text and the KJV have 'flesh and blood'.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort",
+    "orig": "αἵματος καὶ σαρκός",
+    "en": "blood and flesh",
+    "plain": "blood and flesh in common"
+   },
+   {
+    "w": "Byzantine majority; Textus Receptus (KJV)",
+    "orig": "σαρκὸς καὶ αἵματος",
+    "en": "flesh and blood",
+    "plain": "flesh and blood in common"
+   }
+  ],
+  "follow": 0,
+  "why": "The unusual order is in all the main critical editions; copyists would naturally change it to the familiar 'flesh and blood' (as in Matthew 16:17). The meaning is the same; see the note on 'blood and flesh'.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "of our confession, Jesus.",
+  "t": "Jesus or Christ Jesus?",
+  "p": "The KJV reads 'Christ Jesus'. The critical editions read 'Jesus'.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort (as the word list shows)",
+    "orig": "τῆς ὁμολογίας ἡμῶν Ἰησοῦν",
+    "en": "of our confession, Jesus",
+    "plain": "of our confession, Jesus."
+   },
+   {
+    "w": "Textus Receptus (KJV 'Christ Jesus'); the Byzantine text (Robinson-Pierpont) has 'Jesus Christ'",
+    "orig": "τῆς ὁμολογίας ἡμῶν Χριστὸν Ἰησοῦν",
+    "en": "of our confession, Christ Jesus",
+    "plain": "of our confession, Christ Jesus."
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often filled out the name of Jesus with 'Christ'. Hebrews usually says 'Jesus' alone at key points (2:9; 6:20; 7:22; 12:2), so the short reading fits its style. This site could not check the manuscript witnesses for this place, so only the printed editions are named.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "in his house",
+  "t": "'In his house' or 'in all his house'?",
+  "p": "P13, P46 and Vaticanus lack 'all'; most witnesses have it, matching Numbers 12:7 and 3:5.",
+  "readings": [
+   {
+    "w": "P13 (about AD 225-250), P46 (probably), Codex Vaticanus (03), Coptic; SBL Greek New Testament",
+    "orig": "ἐν τῷ οἴκῳ αὐτοῦ",
+    "en": "in his house",
+    "plain": "in his house"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Ephraemi (04), Claromontanus (06), Byzantine majority, Latin and Syriac; Tyndale House, NA28 (in brackets); Textus Receptus (KJV)",
+    "orig": "ἐν ὅλῳ τῷ οἴκῳ αὐτοῦ",
+    "en": "in all his house",
+    "plain": "in all his house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the two oldest papyri and Vaticanus, as SBL does. 'All' is in Numbers 12:7 and in Hebrews 3:5, so copyists could easily add it here to match. NA28 prints it in brackets because the evidence is divided. The meaning hardly changes.",
+  "s": [
+   "laparola-apparatus",
+   "sblgnt",
+   "na28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:6",
+  "a": "if we hold on to our boldness and to the pride we take in our hope",
+  "t": "'Firm to the end'",
+  "p": "Most manuscripts add 'firm to the end', the same words as 3:14. P13, P46 and Vaticanus lack them.",
+  "readings": [
+   {
+    "w": "P13, P46, Codex Vaticanus (03), Sahidic Coptic, Lucifer, Ambrose; NA28, SBL, Tyndale House",
+    "orig": "ἐὰν τὴν παρρησίαν καὶ τὸ καύχημα τῆς ἐλπίδος κατάσχωμεν",
+    "en": "if we hold fast the boldness and the boast of the hope",
+    "plain": "if we hold on to our boldness and to the pride we take in our hope"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Ephraemi (04), Claromontanus (06), Byzantine majority, Latin, Syriac, Bohairic Coptic, Chrysostom; Textus Receptus (KJV); Westcott-Hort in brackets",
+    "orig": "ἐάνπερ τὴν παρρησίαν καὶ τὸ καύχημα τῆς ἐλπίδος μέχρι τέλους βεβαίαν κατάσχωμεν",
+    "en": "if we hold fast the boldness and the boast of the hope firm to the end",
+    "plain": "if we hold on to our boldness and to the pride we take in our hope, firm to the end"
+   }
+  ],
+  "follow": 0,
+  "why": "The words 'firm to the end' are exactly the words of 3:14 (<i>mechri telous bebaian</i>), and a copyist's eye could easily carry them back to 3:6. The oldest papyri and Vaticanus lack them. The meaning is not affected, since 3:14 says the same.",
+  "b": "The early witnesses also differ between 'which house we are' and 'whose house we are' (both mean that we are his house) and between 'if' and 'if indeed'.",
+  "s": [
+   "laparola-apparatus",
+   "wiki-heb-variants",
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:10",
+  "a": "this generation",
+  "t": "This generation or that one?",
+  "p": "The critical editions read 'this generation'; the Byzantine text and the Greek psalm read 'that generation'.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort (as the word list shows)",
+    "orig": "τῇ γενεᾷ ταύτῃ",
+    "en": "this generation",
+    "plain": "this generation"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont); Textus Receptus (KJV); the Greek of Psalm 95:10 (94:10)",
+    "orig": "τῇ γενεᾷ ἐκείνῃ",
+    "en": "that generation",
+    "plain": "that generation"
+   }
+  ],
+  "follow": 0,
+  "why": "Since the psalm says 'that', a copyist would be likely to correct Hebrews to match it, not the other way. So 'this' is probably what Hebrews wrote. If so, the writer may have changed the word on purpose to bring the warning home to his own readers, as Jesus spoke of 'this generation' (Matthew 23:36). This site could not check the manuscript witnesses here, so only the editions are named.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "robinson-pierpont-2018",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "who heard and yet quarreled bitterly with him? Wasn't it everyone who came out of Egypt under Moses' lead?",
+  "t": "'Who?' or 'some'?",
+  "p": "The same Greek letters can be read as a question or as 'some'. The KJV reads 'For some... howbeit not all'.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House (the accent τίνες, a question)",
+    "orig": "τίνες γὰρ ἀκούσαντες παρεπίκραναν; ἀλλ᾽ οὐ πάντες οἱ ἐξελθόντες ἐξ Αἰγύπτου διὰ Μωϋσέως;",
+    "en": "For who, having heard, provoked? Was it not all who came out of Egypt through Moses?",
+    "plain": "who heard and yet quarreled bitterly with him? Wasn't it everyone who came out of Egypt under Moses' lead?"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont) and Textus Receptus (the accent τινές, 'some'), followed by the KJV",
+    "orig": "τινὲς γὰρ ἀκούσαντες παρεπίκραναν, ἀλλ᾽ οὐ πάντες οἱ ἐξελθόντες ἐξ Αἰγύπτου διὰ Μωϋσέως.",
+    "en": "For some, having heard, provoked, yet not all who came out of Egypt through Moses",
+    "plain": "some who heard quarreled bitterly with him, though not everyone who came out of Egypt under Moses' lead."
+   }
+  ],
+  "follow": 0,
+  "why": "This is not a difference in the letters but in how editors accent and punctuate them; the oldest manuscripts have no accents. The critical editions read three questions in a row (3:16, 17, 18), which fits the writer's style and the next two verses. The Byzantine accent, 'some... not all', thinks of Caleb and Joshua, who did not rebel (Numbers 14:6-9, 30). On the critical reading the answer is 'all of them', which is more severe, and Caleb and Joshua are the exceptions that prove the rule.",
+  "b": "The KJV reads: 'For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses.'",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "since they were not blended by faith with the ones who listened",
+  "t": "Blended with the listeners, or with faith?",
+  "p": "Most manuscripts say the hearers were not joined in faith with those who listened. A few, and the KJV, say the message was not mixed with faith.",
+  "readings": [
+   {
+    "w": "P13 (probably), P46, Codex Alexandrinus (02), Vaticanus (03), Ephraemi (04), Claromontanus (06), Byzantine majority, 33, 81, 1739, the Vulgate; NA28, SBL",
+    "orig": "μὴ συγκεκερασμένους τῇ πίστει τοῖς ἀκούσασιν",
+    "en": "not having been united by faith with those who heard",
+    "plain": "since they were not blended by faith with the ones who listened"
+   },
+   {
+    "w": "Codex Sinaiticus (01), some Old Latin, the Clementine Vulgate, Syriac Peshitta, Lucifer; Textus Receptus (KJV)",
+    "orig": "μὴ συγκεκερασμένος τῇ πίστει τοῖς ἀκούσασιν",
+    "en": "(the word) not being mixed with faith in those who heard",
+    "plain": "since the word was not mixed with faith in those who heard it"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural ('they were not blended') has by far the stronger and older support. It is a little hard to understand, which may be why some copyists changed one letter to make the word, not the people, the subject. On the plural reading, 'the ones who listened' are those who really heard and trusted, such as Caleb and Joshua: the rest did not join them in faith. The KJV's singular gives a simpler sense: hearing did no good because it was not combined with faith.",
+  "b": "The La Parola apparatus prints this place with confused brackets; the witness lists above follow it as closely as the page allows, and name the readings it clearly assigns.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "teaching about washings",
+  "t": "'Teaching' or 'of teaching'",
+  "p": "A small difference in case: is the teaching one of the foundation stones, or a description of them?",
+  "readings": [
+   {
+    "w": "P46, Codex Vaticanus (03), the Latin column of Claromontanus; Westcott-Hort, SBL",
+    "orig": "βαπτισμῶν διδαχήν",
+    "en": "teaching about washings (in apposition to 'foundation')",
+    "plain": "teaching about washings"
+   },
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), Ephraemi (04), Claromontanus (06), Byzantine majority, 33, 81, 1739, Latin, Syriac and Coptic; NA28, Tyndale House; Textus Receptus (KJV)",
+    "orig": "βαπτισμῶν διδαχῆς",
+    "en": "of teaching about washings",
+    "plain": "and of teaching about washings"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows SBL and its two oldest witnesses, in which 'teaching' stands beside 'foundation': the foundation is repentance and faith, which is to say teaching about washings, laying on of hands, resurrection and judgment. The genitive 'of teaching', with most witnesses, makes it one more item on a list. The meaning is almost the same.",
+  "s": [
+   "laparola-apparatus",
+   "sblgnt",
+   "na28"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "we will do it",
+  "t": "'We will do it' or 'let us do it'?",
+  "p": "Two Greek spellings one letter apart: 'we will do' (P46, Sinaiticus, Vaticanus, the KJV) or 'let us do'.",
+  "readings": [
+   {
+    "w": "P46, Codex Sinaiticus (01), Vaticanus (03), 1739, part of the Byzantine tradition, Old Latin and Vulgate; NA28, SBL, Tyndale House, Westcott-Hort; Textus Receptus (KJV, 'this will we do')",
+    "orig": "ποιήσομεν",
+    "en": "we will do",
+    "plain": "we will do it"
+   },
+   {
+    "w": "Codex Alexandrinus (02), Ephraemi (04), Claromontanus (06), part of the Byzantine tradition",
+    "orig": "ποιήσωμεν",
+    "en": "let us do",
+    "plain": "let us do it"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest witnesses read 'we will do', a statement of intent tied to 'if God lets us'. 'Let us do' (one vowel different, <i>o</i> or <i>ō</i>) turns it into another appeal like 6:1. Here the KJV agrees with the critical text.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "the love you showed",
+  "t": "'Labor of love'",
+  "p": "The KJV's 'your work and labour of love' comes from the Byzantine text, which adds 'labor'.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Westcott-Hort (as the word list shows)",
+    "orig": "τοῦ ἔργου ὑμῶν καὶ τῆς ἀγάπης",
+    "en": "your work and the love",
+    "plain": "the love you showed"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont) and Textus Receptus (KJV 'labour of love')",
+    "orig": "τοῦ ἔργου ὑμῶν καὶ τοῦ κόπου τῆς ἀγάπης",
+    "en": "your work and the labor of love",
+    "plain": "the hard work of love you showed"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions lack 'labor'. The phrase 'labor of love' is in 1 Thessalonians 1:3, and copyists who knew it could easily add it here. This site could not check the manuscript witnesses for this place, so only the printed editions are named.",
+  "s": [
+   "sblgnt",
+   "na28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "when he spoke about priests",
+  "t": "'Priests' or 'priesthood'?",
+  "p": "The oldest witnesses say Moses said nothing about priests from Judah; the Byzantine text and the KJV say 'priesthood'.",
+  "readings": [
+   {
+    "w": "P46, Codex Sinaiticus (01, first hand), Alexandrinus (02), Vaticanus (03), Ephraemi (04), Claromontanus (06), 33, 81, 1739, Old Latin and Vulgate; NA28, SBL, Tyndale House, Westcott-Hort",
+    "orig": "περὶ ἱερέων",
+    "en": "about priests",
+    "plain": "when he spoke about priests"
+   },
+   {
+    "w": "Codex Sinaiticus as corrected, Ψ, Byzantine majority; Textus Receptus (KJV, 'spake nothing concerning priesthood')",
+    "orig": "περὶ ἱερωσύνης",
+    "en": "about priesthood",
+    "plain": "when he spoke about priesthood"
+   }
+  ],
+  "follow": 0,
+  "why": "'Priests' has the oldest and most varied witnesses. 'Priesthood' looks like a copyist's adjustment to the word used in 7:11-12 and 7:24. The meaning hardly changes.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "7:17",
+  "a": "The witness given is this",
+  "t": "'It is testified' or 'he testifies'?",
+  "p": "The older witnesses read 'it is testified' (passive); the Byzantine text and the KJV read 'he testifies'.",
+  "readings": [
+   {
+    "w": "P46, Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Claromontanus (06), 33, 81, 1739; NA28, SBL, Tyndale House, Westcott-Hort",
+    "orig": "μαρτυρεῖται",
+    "en": "it is testified",
+    "plain": "The witness given is this"
+   },
+   {
+    "w": "Codex Ephraemi (04), Byzantine majority; Textus Receptus (KJV, 'he testifieth')",
+    "orig": "μαρτυρεῖ",
+    "en": "he testifies",
+    "plain": "He bears witness"
+   }
+  ],
+  "follow": 0,
+  "why": "The passive has the oldest witnesses and matches 7:8 ('one about whom the witness is given'). The active makes God the speaker, as often in Hebrews. Either way Psalm 110:4 is God's word.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "7:21",
+  "a": "You are a priest forever",
+  "t": "'After the pattern of Melchizedek' added",
+  "p": "Most later manuscripts finish the quotation with 'after the pattern of Melchizedek', as in 5:6 and 7:17.",
+  "readings": [
+   {
+    "w": "P46, Codex Vaticanus (03), Ephraemi (04), 33, 81, Old Latin, Vulgate, Sahidic Coptic; NA28, SBL, Westcott-Hort",
+    "orig": "Σὺ ἱερεὺς εἰς τὸν αἰῶνα",
+    "en": "You are a priest forever",
+    "plain": "You are a priest forever"
+   },
+   {
+    "w": "Codex Sinaiticus as corrected, Alexandrinus (02), Claromontanus (06), 1739, Byzantine majority, Syriac, Eusebius, Chrysostom; Textus Receptus (KJV)",
+    "orig": "Σὺ ἱερεὺς εἰς τὸν αἰῶνα κατὰ τὴν τάξιν Μελχισέδεκ",
+    "en": "You are a priest forever after the order of Melchizedek",
+    "plain": "You are a priest forever, after the pattern of Melchizedek"
+   }
+  ],
+  "follow": 0,
+  "why": "The full line is in Psalm 110:4 and in Hebrews 5:6 and 7:17, so copyists would naturally complete it. The shorter text, with P46 and Vaticanus, also fits the writer's point here, which is the oath ('forever'), not Melchizedek.",
+  "s": [
+   "laparola-apparatus",
+   "na28",
+   "sblgnt"
+  ]
+ }
+]

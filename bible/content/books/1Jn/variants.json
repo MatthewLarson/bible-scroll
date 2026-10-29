@@ -1,0 +1,608 @@
+[
+ {
+  "v": "1:4",
+  "a": "We are writing these things",
+  "t": "\"We are writing\" or \"we write to you\"?",
+  "p": "The Byzantine text and the KJV read \"these things write we unto you\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, 300s), Alexandrinus as first written (02, 400s), Vaticanus (03, 300s), P, Ψ, 33, part of the Sahidic Coptic; SBLGNT, NA28 (ECM), Tyndale House GNT, Westcott-Hort",
+    "orig": "καὶ ταῦτα γράφομεν ἡμεῖς",
+    "en": "and these things we write",
+    "plain": "We are writing these things"
+   },
+   {
+    "w": "Alexandrinus as corrected, Ephraemi (C, 04, 400s), K, L, 81, 1739, the Byzantine majority, the Old Latin and Vulgate, the Syriac Peshitta and Harklean, the Bohairic Coptic, Augustine; Textus Receptus (KJV)",
+    "orig": "καὶ ταῦτα γράφομεν ὑμῖν",
+    "en": "and these things we write to you",
+    "plain": "We are writing these things to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest manuscripts have the emphatic \"we\". \"To you\" is the expected phrase in a letter (2:1, 7, 12-14), so copyists were likely to add it, and less likely to replace it with an unusual \"we\".",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "our joy",
+  "t": "\"Our joy\" or \"your joy\"?",
+  "p": "The KJV has \"that your joy may be full\". The evidence is close; NA28 marks both readings as possible.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), L, Ψ, 049, many Byzantine manuscripts, the Sahidic Coptic, the Vulgate in its critical editions, Stephanus' Greek text of 1550; SBLGNT, NA28 (text), Westcott-Hort",
+    "orig": "ἡ χαρὰ ἡμῶν",
+    "en": "our joy",
+    "plain": "our joy"
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (04), K, P, 33, 81, 1739, many Byzantine manuscripts, the Clementine Vulgate, the Harklean Syriac, the Bohairic Coptic, Augustine; Scrivener's Textus Receptus (KJV); NA28 and the ECM give it equal weight (a split line)",
+    "orig": "ἡ χαρὰ ὑμῶν",
+    "en": "your joy",
+    "plain": "your joy"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Our\" has slightly older support and is the less expected reading. \"Your joy\" may have come in from Jesus' words in John 16:24 (\"so that your joy will be filled up\"), which copyists knew well. The NET Bible prefers \"our\" but notes that NA28 and UBS5 now treat \"your\" as equally possible.",
+  "b": "The two words differ by one letter in Greek (<i>hēmōn</i>, <i>hymōn</i>), and the Byzantine manuscripts themselves are split between them.",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn",
+   "intf-na28-changes",
+   "wiki-1jn-variants"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "Jesus his Son",
+  "t": "\"Jesus\" or \"Jesus Christ\"?",
+  "p": "The Byzantine text and the KJV read \"the blood of Jesus Christ his Son\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), Ephraemi (04), P, Ψ, 1739, the Vulgate (Stuttgart edition), the Syriac Peshitta, the Sahidic Coptic, Clement of Alexandria; SBLGNT, NA28, Westcott-Hort",
+    "orig": "Ἰησοῦ τοῦ υἱοῦ αὐτοῦ",
+    "en": "of Jesus his Son",
+    "plain": "Jesus his Son"
+   },
+   {
+    "w": "Alexandrinus (02), 33, the Byzantine majority, the Clementine Vulgate, the Harklean Syriac, the Bohairic Coptic; Textus Receptus (KJV)",
+    "orig": "Ἰησοῦ Χριστοῦ τοῦ υἱοῦ αὐτοῦ",
+    "en": "of Jesus Christ his Son",
+    "plain": "Jesus Christ his Son"
+   }
+  ],
+  "follow": 0,
+  "why": "The fuller name is the kind of addition copyists made to honor Jesus, and the shorter text has the older and wider support.",
+  "s": [
+   "step-varapp-1jn"
+  ],
+  "b": "There is a second, smaller difference here. NA28 leaves out the opening \"But\" (<i>de</i>), while NA27, SBLGNT, the Tyndale House GNT, Westcott-Hort, Tregelles, the Textus Receptus and the Byzantine text have it (the editions marked in this site's word list). The Plain keeps \"But\" with SBLGNT; the contrast with 1:6 is clear either way."
+ },
+ {
+  "v": "2:7",
+  "a": "Beloved",
+  "t": "\"Beloved\" or \"Brothers\"?",
+  "p": "The Byzantine text and the KJV begin \"Brethren\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ephraemi (04), P, the Vulgate, the Syriac, the Coptic; SBLGNT, NA28",
+    "orig": "Ἀγαπητοί",
+    "en": "Beloved",
+    "plain": "Beloved"
+   },
+   {
+    "w": "K, L, 049, 69, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "Ἀδελφοί",
+    "en": "Brothers",
+    "plain": "Brothers"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Beloved\" is the letter's usual address (3:2, 21; 4:1, 7, 11) and has the oldest witnesses; \"Brothers\" occurs only once in the letter as an address (3:13).",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "the word you heard",
+  "t": "\"From the beginning\" a second time?",
+  "p": "The Byzantine text and the KJV repeat \"from the beginning\" at the end of the verse.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ephraemi (04), P, Ψ, 33, 1739, the Old Latin and Vulgate, the Syriac, the Coptic, Augustine; SBLGNT, NA28",
+    "orig": "ὁ λόγος ὃν ἠκούσατε",
+    "en": "the word that you heard",
+    "plain": "the word you heard"
+   },
+   {
+    "w": "K, L, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ὁ λόγος ὃν ἠκούσατε ἀπ' ἀρχῆς",
+    "en": "the word that you heard from the beginning",
+    "plain": "the word you heard from the beginning"
+   }
+  ],
+  "follow": 0,
+  "why": "The phrase is taken from the first half of the verse and from 2:24 and 3:11, where it belongs; the oldest witnesses do not have it here.",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "Children, I have written to you",
+  "t": "\"I have written\" or \"I am writing\"?",
+  "p": "In the Byzantine text and the KJV the third line of 2:13 reads \"I write unto you, little children\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles (the editions marked in this site's word list)",
+    "orig": "ἔγραψα ὑμῖν, παιδία",
+    "en": "I have written to you, children",
+    "plain": "Children, I have written to you"
+   },
+   {
+    "w": "The Byzantine text (Robinson-Pierpont); Textus Receptus (KJV)",
+    "orig": "γράφω ὑμῖν, παιδία",
+    "en": "I am writing to you, children",
+    "plain": "Children, I am writing to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions based on the oldest manuscripts begin the second set of three lines here, with \"I have written\". The Byzantine text makes the third line match the two before it (\"I am writing\"), which gives four \"I am writing\" lines (2:12 and three in 2:13) and two \"I have written\" lines (2:14). The critical text's pattern, three \"I am writing\" and three \"I have written\", is the harder and likelier one.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "every one of you knows",
+  "t": "\"You all know\" or \"you know all things\"?",
+  "p": "The KJV has \"ye know all things\". The oldest manuscripts say \"you all know\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Vaticanus (03), P, Ψ, 1852, the Sahidic Coptic, Jerome; SBLGNT, NA28, Westcott-Hort",
+    "orig": "οἴδατε πάντες",
+    "en": "you all know",
+    "plain": "every one of you knows"
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (04), K, L, 33, 81, 1739, the Byzantine majority, the Old Latin and Vulgate, the Bohairic Coptic; Textus Receptus (KJV)",
+    "orig": "οἴδατε πάντα",
+    "en": "you know all things",
+    "plain": "you know all things"
+   }
+  ],
+  "follow": 0,
+  "why": "The writer's point is that all the readers, not only an inner circle, have knowledge, against teachers who claimed a higher knowledge for a few. Raymond Brown, quoted in the NET Bible note, puts it this way: \"the fact of their knowledge (pantes), not the extent of its object (panta), seems best to fit the reassurance\". \"All things\" may have come from 2:27, \"about all things\".",
+  "b": "The NET Bible judges the evidence \"solidly, though not overwhelmingly, behind the nominative reading\". Compare Jeremiah 31:34, where the Greek (38:34 in the Septuagint) promises that all \"will know\" the Lord.",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn",
+   "brown-epistles-john",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "Anyone who confesses the Son has the Father too.",
+  "t": "Why the KJV printed this sentence in italics",
+  "p": "The Byzantine text skips this sentence. The KJV of 1611 printed it in small type as words not in its Greek.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ephraemi (04), P, Ψ, 33, 1739, the Old Latin and Vulgate, the Syriac, the Coptic, Origen, Cyprian; Scrivener's Textus Receptus; SBLGNT, NA28",
+    "orig": "ὁ ὁμολογῶν τὸν υἱὸν καὶ τὸν πατέρα ἔχει",
+    "en": "the one who confesses the Son has the Father also",
+    "plain": "Anyone who confesses the Son has the Father too."
+   },
+   {
+    "w": "K, L, the Byzantine majority, Stephanus' Greek text of 1550",
+    "orig": "(not present)",
+    "en": "(not present)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The two halves of the verse both end with the words \"has the Father\" (<i>ton patera echei</i>), so a copyist's eye could easily jump from the first ending to the second and drop the sentence between them (haplography). The oldest manuscripts all have it.",
+  "b": "The 1611 KJV printed the whole phrase \"but he that acknowledgeth the Sonne, hath the Father also\" in small type, which it used for words not in the original; later printings use italics for the same purpose (P. J. Williams).",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn",
+   "williams-1jn-223"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": ", and we are!",
+  "t": "\"And we are\"",
+  "p": "The Byzantine text and the KJV do not have \"and we are\".",
+  "readings": [
+   {
+    "w": "Papyrus 74 (600s), Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ephraemi (04), P, Ψ, 33, 81, 1739, the Old Latin and Vulgate, the Syriac, the Coptic, Augustine; SBLGNT, NA28",
+    "orig": "κληθῶμεν, καὶ ἐσμέν",
+    "en": "we should be called; and we are",
+    "plain": ", and we are!"
+   },
+   {
+    "w": "K, L, 049, 69, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "κληθῶμεν",
+    "en": "we should be called",
+    "plain": "!"
+   }
+  ],
+  "follow": 0,
+  "why": "The word before, <i>klēthōmen</i>, ends in the same letters as <i>esmen</i>, so a copyist could skip the two words by accident (homoioteleuton). The words have the oldest and widest support.",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn"
+  ]
+ },
+ {
+  "v": "3:7",
+  "a": "Children",
+  "t": "\"Children\" or \"little children\"?",
+  "p": "NA28 reads <i>paidia</i>, \"children\"; the other editions read <i>teknia</i>, \"little children\".",
+  "readings": [
+   {
+    "w": "NA28 (the editions marked in this site's word list)",
+    "orig": "Παιδία",
+    "en": "Children",
+    "plain": "Children"
+   },
+   {
+    "w": "SBLGNT, NA27, Tyndale House GNT, Westcott-Hort, Tregelles, the Textus Receptus (KJV \"Little children\") and the Byzantine text",
+    "orig": "Τεκνία",
+    "en": "Little children",
+    "plain": "Little children"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 here, as at 5:18. Both words are fond names the letter uses for its readers (<i>teknia</i> at 2:1, 12, 28; <i>paidia</i> at 2:13, 18), so the meaning does not change. Only the editions are listed here."
+ },
+ {
+  "v": "3:5",
+  "a": "to take sins away",
+  "t": "\"Sins\" or \"our sins\"?",
+  "p": "The Byzantine text and the KJV read \"to take away our sins\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles (the editions marked in this site's word list)",
+    "orig": "ἵνα τὰς ἁμαρτίας ἄρῃ",
+    "en": "so that he might take away the sins",
+    "plain": "to take sins away"
+   },
+   {
+    "w": "The Byzantine text (Robinson-Pierpont); Textus Receptus (KJV)",
+    "orig": "ἵνα τὰς ἁμαρτίας ἡμῶν ἄρῃ",
+    "en": "so that he might take away our sins",
+    "plain": "to take our sins away"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Our\" is a natural addition from 1:9, 2:2 and 4:10; the editions built on the oldest manuscripts do not have it. The difference is small, since the readers' sins are included either way.",
+  "s": [
+   "na28"
+  ]
+ },
+ {
+  "v": "3:14",
+  "a": "The one who does not love remains in death.",
+  "t": "\"Does not love\" or \"does not love his brother\"?",
+  "p": "The KJV reads \"He that loveth not his brother abideth in death\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03), 33, 1739, the Old Latin and Vulgate, the Bohairic Coptic, Augustine; SBLGNT, NA28, Westcott-Hort",
+    "orig": "ὁ μὴ ἀγαπῶν μένει ἐν τῷ θανάτῳ",
+    "en": "the one who does not love remains in death",
+    "plain": "The one who does not love remains in death."
+   },
+   {
+    "w": "Ephraemi (04), K, L, 81, the Byzantine majority; Textus Receptus (KJV, \"his brother\" in English)",
+    "orig": "ὁ μὴ ἀγαπῶν τὸν ἀδελφὸν μένει ἐν τῷ θανάτῳ",
+    "en": "the one who does not love the brother remains in death",
+    "plain": "The one who does not love his brother remains in death."
+   },
+   {
+    "w": "P, 614, the Syriac Peshitta and Harklean",
+    "orig": "ὁ μὴ ἀγαπῶν τὸν ἀδελφὸν αὐτοῦ μένει ἐν τῷ θανάτῳ",
+    "en": "the one who does not love his brother remains in death",
+    "plain": "The one who does not love his brother remains in death."
+   }
+  ],
+  "follow": 0,
+  "why": "The short, absolute \"does not love\" has the oldest witnesses; \"the brother\" and \"his brother\" fill in the object from the sentence before and from 2:9-11.",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "does not confess Jesus",
+  "t": "\"Does not confess Jesus\" or \"separates Jesus\"?",
+  "p": "Ancient Latin copies and some fathers read \"every spirit that separates (or dissolves) Jesus\".",
+  "readings": [
+   {
+    "w": "Alexandrinus (02), Vaticanus (03), 1739 (text) and other Greek manuscripts; SBLGNT, NA28, Westcott-Hort. Sinaiticus (01) has \"Jesus as Lord come in the flesh\"",
+    "orig": "μὴ ὁμολογεῖ τὸν Ἰησοῦν",
+    "en": "does not confess Jesus",
+    "plain": "does not confess Jesus"
+   },
+   {
+    "w": "K, L, 049, the Byzantine manuscripts; Textus Receptus (KJV, \"confesseth not that Jesus Christ is come in the flesh\")",
+    "orig": "μὴ ὁμολογεῖ [τὸν] Ἰησοῦν Χριστὸν ἐν σαρκὶ ἐληλυθότα",
+    "en": "does not confess Jesus Christ having come in the flesh",
+    "plain": "does not confess Jesus Christ as having come in the flesh"
+   },
+   {
+    "w": "No Greek manuscript in its text. A note in the margin of 1739 (which credits Irenaeus, Clement and Origen); the Old Latin and the Vulgate (<i>qui solvit Iesum</i>, Clementine edition); Irenaeus in Latin; Tertullian; Origen in Latin; Lucifer; Priscillian; and \"the ancient copies\" known to Socrates the historian",
+    "orig": "λύει τὸν Ἰησοῦν",
+    "en": "separates (dissolves, does away with) Jesus",
+    "plain": "separates Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Does not confess\" is in every Greek manuscript's text and matches the positive \"confesses\" of 4:2. The longer Byzantine wording copies 4:2. \"Separates Jesus\" is old, but it survives almost only in Latin and in the fathers, and it reads like a sharpening of the verse against teachers who split Jesus from the Christ.",
+  "b": "Irenaeus (about 180) quotes it: \"every spirit which separates Jesus Christ is not of God, but is of antichrist\" (Against Heresies 3.16.8). Socrates (400s) says that \"in the ancient copies\" it read \"Every spirit that separates Jesus, is not of God\", and blames the change on those \"who desired to separate the Divine nature from the human economy\" (Church History 7.32). The Catholic Church's Nova Vulgata now reads <i>qui non confitetur Iesum</i>, \"who does not confess Jesus\". The longer wording is close to Polycarp's letter to the Philippians (about 110-135): \"For whosoever does not confess that Jesus Christ has come in the flesh, is antichrist\" (Philippians 7), which shows the phrase in use early, though Polycarp is quoting freely, not copying a manuscript.",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn",
+   "irenaeus-heresies-3",
+   "socrates-history",
+   "vulgate-clementine",
+   "nova-vulgata",
+   "polycarp-philippians"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "We love because",
+  "t": "\"We love\", \"we love him\" or \"we love God\"?",
+  "p": "The KJV reads \"We love him, because he first loved us\".",
+  "readings": [
+   {
+    "w": "Alexandrinus (02), Vaticanus (03), 1739, the Vulgate (critical editions), Augustine (often); SBLGNT, NA28, Westcott-Hort",
+    "orig": "ἡμεῖς ἀγαπῶμεν",
+    "en": "we love",
+    "plain": "We love because"
+   },
+   {
+    "w": "K, L, Ψ, 049, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἡμεῖς ἀγαπῶμεν αὐτόν",
+    "en": "we love him",
+    "plain": "We love him because"
+   },
+   {
+    "w": "Sinaiticus (01), 33, 81, the Clementine Vulgate, the Syriac Peshitta and Harklean, the Bohairic Coptic",
+    "orig": "ἡμεῖς ἀγαπῶμεν τὸν θεόν",
+    "en": "we love God",
+    "plain": "We love God because"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is the source of the other two: copyists supplied an object, some \"him\" and some \"God\". Without an object the sentence says more: all our loving, of God and of each other, starts from his love.",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "4:20",
+  "a": "is not able to love God",
+  "t": "\"Cannot love God\" or \"how can he love God?\"",
+  "p": "The KJV asks \"how can he love God whom he hath not seen?\" NA28 marks both readings as possible.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28 (text), Tyndale House GNT, Westcott-Hort, Tregelles (the editions marked in this site's word list)",
+    "orig": "οὐ δύναται ἀγαπᾶν",
+    "en": "is not able to love",
+    "plain": "is not able to love God"
+   },
+   {
+    "w": "The Byzantine text (Robinson-Pierpont); Textus Receptus (KJV); the ECM and NA28 give it equal weight (a split line)",
+    "orig": "πῶς δύναται ἀγαπᾶν",
+    "en": "how is he able to love",
+    "plain": "how can he love God"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings say the same thing, one as a statement and one as a question. The Plain follows the printed text of NA28 and SBLGNT; the editors of the ECM could not decide between them.",
+  "s": [
+   "intf-na28-changes"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "came through water and blood",
+  "t": "\"Water and blood\" or \"water and blood and Spirit\"?",
+  "p": "Some old manuscripts add \"and Spirit\". The KJV, like the critical text, has \"water and blood\".",
+  "readings": [
+   {
+    "w": "Vaticanus (03), K, L, Ψ, the Byzantine majority, the Old Latin and Vulgate, the Syriac Peshitta, Tertullian; Textus Receptus (KJV); SBLGNT, NA28",
+    "orig": "δι' ὕδατος καὶ αἵματος",
+    "en": "through water and blood",
+    "plain": "came through water and blood"
+   },
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), 104, 1739 as corrected, the Harklean Syriac, the Coptic, Origen",
+    "orig": "δι' ὕδατος καὶ αἵματος καὶ πνεύματος",
+    "en": "through water and blood and Spirit",
+    "plain": "came through water and blood and Spirit"
+   },
+   {
+    "w": "P, 81, 88, and others",
+    "orig": "δι' ὕδατος καὶ πνεύματος καὶ αἵματος",
+    "en": "through water and Spirit and blood",
+    "plain": "came through water and Spirit and blood"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Spirit\" was added, in different places, from the next sentence and from John 3:5 (\"born from water and Spirit\"). The shorter reading explains the others.",
+  "s": [
+   "step-varapp-1jn",
+   "wiki-1jn-variants"
+  ]
+ },
+ {
+  "v": "5:7",
+  "a": "For those who testify are three:",
+  "t": "The Johannine Comma: \"in heaven, the Father, the Word, and the Holy Ghost\"",
+  "p": "The KJV's \"three that bear record in heaven\" is not in any Greek manuscript before the 1300s. It goes with 5:8.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, 300s), Alexandrinus (02, 400s), Vaticanus (03, 300s), every other Greek manuscript before the 1300s, the Byzantine majority; the oldest Vulgate manuscripts (Fuldensis, AD 546, and Amiatinus); the Syriac, Coptic, Ethiopic, Georgian and Arabic versions; Greek and Latin writers including Irenaeus, Tertullian, Athanasius, Basil, Gregory of Nazianzus, Hilary, Jerome and Augustine; SBLGNT, NA28, the Nova Vulgata",
+    "orig": "ὅτι τρεῖς εἰσιν οἱ μαρτυροῦντες",
+    "en": "For there are three who testify",
+    "plain": "For those who testify are three:"
+   },
+   {
+    "w": "Greek, in the text: minuscules 629 (1300s-1400s, Greek and Latin side by side), 918 (1500s), 61 (Codex Montfortianus, about 1520), 2473 (1600s), 2318 (1700s); added in the margin of 221, 177, 88, 429 and 636, mostly by much later hands; first in Greek in the Greek translation of the Acts of the Lateran Council of 1215. Latin: Priscillian's <i>Liber Apologeticus</i> (about 380), Old Latin copies from Spain (the León palimpsest, 600s; the Freising fragments), later Vulgate manuscripts, the Sixtine (1590) and Clementine (1592) Vulgate. In print: the Complutensian Polyglot (Greek and Latin; its New Testament was printed in 1514, but the work was not published until 1520-1521), Erasmus' third edition (1522) and the Textus Receptus (KJV)",
+    "orig": "ὅτι τρεῖς εἰσιν οἱ μαρτυροῦντες ἐν τῷ οὐρανῷ, ὁ πατήρ, ὁ λόγος, καὶ τὸ ἅγιον πνεῦμα, καὶ οὗτοι οἱ τρεῖς ἕν εἰσιν",
+    "en": "For there are three that testify in heaven: the Father, the Word and the Holy Spirit, and these three are one",
+    "plain": "For those who testify in heaven are three: the Father, the Word and the Holy Spirit; and these three are one."
+   }
+  ],
+  "follow": 0,
+  "why": "The added words are missing from every Greek manuscript for over a thousand years, from the oldest Vulgate copies, and from every ancient version except the Latin. Greek fathers of the 300s who wrote at length on the Trinity, such as Athanasius, Basil and Gregory of Nazianzus, never quote the added words: they are listed for the shorter text because of that silence, which would be strange if the words had been in their Bibles. The words first appear in Latin; in the NET Bible's judgment they \"seem to have arisen in a fourth century Latin homily in which the text was allegorized to refer to members of the Trinity\", and moved from there into Vulgate copies. Translations based on the critical text have left them out of the main text since the English Revised Version of 1881, and the Catholic Church's Nova Vulgata leaves them out too.",
+  "b": "The Greek manuscripts that have the words in the text were written after 1300, and Codex 61's wording was translated from the Latin. The NET Bible notes that the marginal note in 177 \"must be dated after 1551\". See the deep dive on the chapter page for the history: Priscillian, Erasmus, the KJV, Newton, and the Catholic rulings of 1897 and 1927.",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn",
+   "wiki-johannine-comma",
+   "wiki-montfortianus",
+   "nova-vulgata",
+   "vulgate-clementine",
+   "wiki-complutensian"
+  ]
+ },
+ {
+  "v": "5:8",
+  "a": "the Spirit, the water and the blood",
+  "t": "The Johannine Comma, second half: \"in earth\"",
+  "p": "In the KJV this verse begins \"And there are three that bear witness in earth\". It goes with 5:7.",
+  "readings": [
+   {
+    "w": "The same witnesses as the shorter text of 5:7: all Greek manuscripts before the 1300s, the oldest Vulgate copies and the other ancient versions; SBLGNT, NA28",
+    "orig": "τὸ πνεῦμα καὶ τὸ ὕδωρ καὶ τὸ αἷμα",
+    "en": "the Spirit and the water and the blood",
+    "plain": "the Spirit, the water and the blood"
+   },
+   {
+    "w": "The same witnesses as the longer text of 5:7; Textus Receptus (KJV)",
+    "orig": "καὶ τρεῖς εἰσιν οἱ μαρτυροῦντες ἐν τῇ γῇ, τὸ πνεῦμα καὶ τὸ ὕδωρ καὶ τὸ αἷμα",
+    "en": "and there are three that testify on earth: the Spirit and the water and the blood",
+    "plain": "And those who testify on earth are three: the Spirit, the water and the blood"
+   }
+  ],
+  "follow": 0,
+  "why": "These words exist only to balance the added heavenly witnesses of 5:7, and they stand or fall with them. In some early Spanish Latin copies the earthly witnesses even come before the heavenly ones.",
+  "s": [
+   "step-varapp-1jn",
+   "wiki-johannine-comma"
+  ]
+ },
+ {
+  "v": "5:13",
+  "a": "I have written these things to you so that you will know that you have eternal life: to you who believe in the name of the Son of God.",
+  "t": "The KJV's longer verse",
+  "p": "The Byzantine text and the KJV move the words about believers forward and add \"and that ye may believe\".",
+  "readings": [
+   {
+    "w": "Sinaiticus as first written (01), Vaticanus (03), 1505, 1852, the Vulgate, the Harklean Syriac; SBLGNT, NA28, Westcott-Hort",
+    "orig": "Ταῦτα ἔγραψα ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ",
+    "en": "These things I have written to you so that you may know that you have eternal life, to those who believe in the name of the Son of God",
+    "plain": "I have written these things to you so that you will know that you have eternal life: to you who believe in the name of the Son of God."
+   },
+   {
+    "w": "P and the Byzantine majority (Ψ and 1739 as corrected have the last clause only); Textus Receptus (KJV)",
+    "orig": "Ταῦτα ἔγραψα ὑμῖν τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ, ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, καὶ ἵνα πιστεύητε εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ",
+    "en": "These things I have written to you who believe in the name of the Son of God, so that you may know that you have eternal life, and so that you may believe in the name of the Son of God",
+    "plain": "I have written these things to you who believe in the name of the Son of God, so that you will know that you have eternal life, and so that you will believe in the name of the Son of God."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the older witnesses. The awkward words at the end (\"to you who believe\") were moved forward to smooth the sentence, and the last clause was added from John 20:31 (\"so that you may believe\").",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "5:18",
+  "a": "keeps himself safe",
+  "t": "\"Keeps himself\" or \"keeps him\"?",
+  "p": "The Greek has \"himself\" or \"him\". With \"him\", the one born from God may be Christ, keeping the believer.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus as corrected, K, L, P, Ψ, 33, 81, 1739, the Byzantine majority, the Syriac Peshitta, Origen; NA28 and the ECM, Tyndale House GNT, Textus Receptus (KJV \"keepeth himself\")",
+    "orig": "τηρεῖ ἑαυτόν",
+    "en": "keeps himself",
+    "plain": "keeps himself safe"
+   },
+   {
+    "w": "Alexandrinus as first written (02), Vaticanus (03), 614, 1505, the Old Latin and Vulgate, the Harklean Syriac, the Bohairic Coptic, Jerome; SBLGNT, Westcott-Hort, NA27",
+    "orig": "τηρεῖ αὐτόν",
+    "en": "keeps him",
+    "plain": "keeps him safe"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28, whose text in the Catholic Letters is taken from the Editio Critica Maior; \"himself\" has the wider support. But the question is close: Peter Head writes that \"both readings are well attested\", and the NET Bible prefers \"him\" as the harder reading, which a copyist might change to \"himself\" to smooth the grammar.",
+  "b": "The Latin versions, among them the Vulgate (<i>generatio Dei conservat eum</i>, Clementine edition), three Greek minuscules (1505, 1852, 2138) and the Bohairic Coptic read \"the birth from God keeps him\"; the NET Bible calls this evidence \"extremely slight\". The reading avoids the question of who \"the one born\" is. On the meaning, see the note on \"the one born from God\".",
+  "s": [
+   "step-varapp-1jn",
+   "intf-na28-changes",
+   "head-ecm",
+   "ecm-1jn",
+   "net-bible-1jn"
+  ]
+ },
+ {
+  "v": "5:20",
+  "a": "a mind able to know the one who is real",
+  "t": "\"The one who is real\" or \"the real God\"?",
+  "p": "Some old manuscripts and the Vulgate read \"so that we may know the true God\".",
+  "readings": [
+   {
+    "w": "Sinaiticus as corrected, Vaticanus (03), K, L, P, 049, 81, the Byzantine majority, the Syriac Peshitta and Harklean, Jerome; Textus Receptus (KJV); SBLGNT, NA28",
+    "orig": "ἵνα γινώσκωμεν τὸν ἀληθινόν",
+    "en": "so that we know the one who is true",
+    "plain": "a mind able to know the one who is real"
+   },
+   {
+    "w": "Alexandrinus (02), Ψ, 33, 1739, the Old Latin and Vulgate, Athanasius, Basil, Augustine",
+    "orig": "ἵνα γινώσκωμεν τὸν ἀληθινὸν θεόν",
+    "en": "so that we know the true God",
+    "plain": "a mind able to know the one who is the real God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"God\" was added to make clear who \"the one who is real\" is. The shorter text is older and leaves the sentence as John wrote it, with the question of 5:20's last sentence open.",
+  "s": [
+   "step-varapp-1jn"
+  ]
+ },
+ {
+  "v": "5:21",
+  "a": "guard yourselves against idols.",
+  "t": "\"Amen\"",
+  "p": "The Byzantine text and the KJV end the letter with \"Amen\".",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Vaticanus (03), Ψ, 33, 1739, the Vulgate (critical editions), the Syriac, the Coptic; SBLGNT, NA28",
+    "orig": "φυλάξατε ἑαυτὰ ἀπὸ τῶν εἰδώλων.",
+    "en": "guard yourselves from idols.",
+    "plain": "guard yourselves against idols."
+   },
+   {
+    "w": "K, L, P, 049, 81, the Byzantine majority, the Clementine Vulgate; Textus Receptus (KJV)",
+    "orig": "φυλάξατε ἑαυτὰ ἀπὸ τῶν εἰδώλων. ἀμήν.",
+    "en": "guard yourselves from idols. Amen.",
+    "plain": "guard yourselves against idols. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Amen\" was added when the letter was read aloud in worship; the oldest manuscripts end abruptly with \"idols\".",
+  "s": [
+   "step-varapp-1jn",
+   "net-bible-1jn"
+  ]
+ }
+]
