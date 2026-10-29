@@ -318,8 +318,12 @@ LANES.forEach(l => { const f = P('content/proposals', l, 'points.json'); if(!exi
 for(const [id, x] of Object.entries(POINTS)){ const w = `atlas/points.json "${id}"`;
   if(!x.why) err(w, 'needs why');
   if((x.lat == null) !== (x.lon == null) || (x.lat != null && !(Math.abs(x.lat) <= 90 && Math.abs(x.lon) <= 180))) err(w, 'needs both lat and lon as numbers, or both null'); }
+/* content/atlas/names.json: a Bible Atlas label that is wrong or old-fashioned in every book ({id: {name, why}}: "Timotheus" -> "Timothy") */
+const NAMES = exists(P('content/atlas/names.json')) ? json(P('content/atlas/names.json')) || {} : {};
+for(const [id, x] of Object.entries(NAMES)) if(!x.name || !x.why) err(`atlas/names.json "${id}"`, 'needs name and why');
 for(const b of CAT.books){ const f = P('content/atlas', b.id + '.json'); if(!exists(f) || (CHECK && b.id !== ONLY)) continue;
   const a = json(f), w = `atlas/${b.id}.json`; if(!a) { err(w, 'does not parse'); continue; }
+  for(const k of ['places','people','events']) for(const id in a[k] || {}) if(NAMES[id]) a[k][id].name = NAMES[id].name;
   const chs = Object.keys(a.chapters || {});
   if(chs.length !== b.vc.length || chs.some(c => !(+c >= 1 && +c <= b.vc.length))) err(w, `needs one entry for each of the ${b.vc.length} chapters`);
   for(const c of chs) for(const k of ['places','people','events']) (a.chapters[c][k] || []).forEach(id => { if(!(a[k] || {})[id]) err(w, `chapter ${c}: ${k} id "${id}" is not in "${k}"`); });

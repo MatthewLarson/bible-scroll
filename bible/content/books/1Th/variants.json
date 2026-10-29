@@ -1,0 +1,423 @@
+[
+ {
+  "v": "1:1",
+  "a": "Grace to you and peace",
+  "t": "Grace and peace \"from God our Father and the Lord Jesus Christ\"?",
+  "p": "The Byzantine text and the Textus Receptus (KJV) add the longer form of the greeting found in Paul's other letters.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles (the short greeting)",
+    "orig": "χάρις ὑμῖν καὶ εἰρήνη",
+    "en": "grace to you and peace",
+    "plain": "Grace to you and peace"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont) and Textus Receptus, the Greek behind the KJV",
+    "orig": "χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ",
+    "en": "grace to you and peace from God our Father and the Lord Jesus Christ",
+    "plain": "Grace to you and peace from God our Father and the Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Every critical edition prints the short greeting. A copyist who knew Paul's usual form (Romans 1:7; 1 Corinthians 1:3; 2 Thessalonians 1:2) could easily add the familiar words; no one would have a reason to drop them.",
+  "b": "The STEPBible word list marks the eight extra words as found only in the Textus Receptus and the Byzantine text. The KJV's \"Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ\" follows them.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "a pattern for every believer",
+  "t": "\"A pattern\" or \"patterns\"?",
+  "p": "The critical editions have the singular; the Byzantine text and the Textus Receptus have the plural.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "τύπον",
+    "en": "a pattern (singular)",
+    "plain": "a pattern for every believer"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: \"ensamples\")",
+    "orig": "τύπους",
+    "en": "patterns (plural)",
+    "plain": "patterns for every believer"
+   }
+  ],
+  "follow": 0,
+  "why": "The singular treats the church as one example; a copyist may have made it plural to agree with \"you\" (plural). The meaning hardly changes.",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "became infants",
+  "t": "\"Infants\" or \"gentle\"?",
+  "p": "One Greek letter separates nepioi, \"infants,\" from epioi, \"gentle\"; the editions disagree.",
+  "readings": [
+   {
+    "w": "NA28, NA27 and Westcott-Hort. Manuscripts: Papyrus 65 (200s), Codex Sinaiticus (300s) as first written, Codex Vaticanus (300s), Codex Ephraemi (400s) as first written, Codex Boernerianus (G), and others; the Old Latin, the Vulgate and the Coptic",
+    "orig": "ἐγενήθημεν νήπιοι",
+    "en": "we became infants",
+    "plain": "became infants"
+   },
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Tregelles, the Byzantine text and the Textus Receptus (KJV: \"we were gentle\"). Manuscripts: a corrector of Sinaiticus, Codex Alexandrinus (400s), a corrector of Ephraemi, a corrector of Claromontanus, minuscules 33, 1739, 1881 and the Byzantine majority",
+    "orig": "ἐγενήθημεν ἤπιοι",
+    "en": "we became gentle",
+    "plain": "became gentle"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Infants\" has the earliest support, in Greek manuscripts and in the Latin and Coptic versions, and it is the harder reading: it makes Paul jump from one picture (infants) to another (a nurse), so copyists had a reason to change it to the smoother \"gentle.\" Most support for \"gentle\" among the early manuscripts comes from later correctors. But the preceding Greek word ends in -n, so either reading can arise from the other by doubling or dropping one letter (ἐγενήθημεν νήπιοι / ἐγενήθημεν ἤπιοι). The SBL and Tyndale House editions print \"gentle,\" which fits the nurse image more smoothly. The evidence is close.",
+  "b": "<p>This site's Plain usually follows the SBL text, but here it follows NA28, as brief-nt.md allows, because the manuscript evidence for \"infants\" is earlier and wider. The witness lists here are secondhand: they are those given in Wikipedia's list of textual variants in 1 Thessalonians and in the NET Bible's note, not taken from the NA28 apparatus, which cites studies by Jeffrey Weima and Timothy Sailors (both 2000) and judges \"little children\" the more likely original.</p><p>The editions also differ on a small word in the next clause, <i>hos ean</i> (NA28, SBL) or <i>hos an</i> (Tyndale House, the Byzantine text, the Textus Receptus), \"like\"; the English is the same.</p><p>Either way, Paul's point is the same: he made no demands (2:6). As an \"infant\" he had no guile and no weight to throw around; as \"gentle\" he was kind. The Greek editions number this phrase as part of verse 7; English Bibles put the preceding clause (\"though as Christ's apostles...\") in verse 6.</p>",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt",
+   "thgnt",
+   "net-bible",
+   "wiki-1th-variants"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "as well as the prophets",
+  "t": "\"The prophets\" or \"their own prophets\"?",
+  "p": "The Byzantine text and the Textus Receptus (KJV) add \"their own.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "καὶ τοὺς προφήτας",
+    "en": "and the prophets",
+    "plain": "as well as the prophets"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: \"their own prophets\")",
+    "orig": "καὶ τοὺς ἰδίους προφήτας",
+    "en": "and their own prophets",
+    "plain": "as well as their own prophets"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions omit \"their own,\" which looks like a copyist's addition that sharpens the charge. Without it, \"the prophets\" may even be Christian prophets persecuted in Judea, though most read the Old Testament prophets.",
+  "b": "No known manuscript leaves out 2:13-16 or places it elsewhere. The theory that these verses were added by a later hand (see the chapter page) is a conjecture based on their content, not a manuscript reading. In the same verse the Textus Receptus alone reads \"chased you out\" (<i>hymas</i>) where every other edition has \"us\"; the KJV still has \"us.\"",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018",
+   "wiki-1th"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "who works together with God",
+  "t": "Timothy: God's co-worker, God's servant, or both?",
+  "p": "The manuscripts give Timothy four different titles; copyists seem to have found \"God's co-worker\" too bold.",
+  "readings": [
+   {
+    "w": "SBLGNT and NA28. Codex Claromontanus (D, 500s) and Latin witnesses",
+    "orig": "καὶ συνεργὸν τοῦ θεοῦ",
+    "en": "and God's co-worker",
+    "plain": "who works together with God"
+   },
+   {
+    "w": "Codex Vaticanus (300s)",
+    "orig": "καὶ συνεργόν",
+    "en": "and co-worker",
+    "plain": "who works with us"
+   },
+   {
+    "w": "Tyndale House (THGNT), Westcott-Hort and Tregelles. Codex Sinaiticus (300s) and Codex Alexandrinus (400s)",
+    "orig": "καὶ διάκονον τοῦ θεοῦ",
+    "en": "and God's servant",
+    "plain": "God's servant"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: \"minister of God, and our fellowlabourer\")",
+    "orig": "καὶ διάκονον τοῦ θεοῦ καὶ συνεργὸν ἡμῶν",
+    "en": "and God's servant and our co-worker",
+    "plain": "God's servant and our co-worker"
+   }
+  ],
+  "follow": 0,
+  "why": "\"God's co-worker\" best explains the rest. A copyist who thought it too bold to call a man God's co-worker could drop \"of God\" (Vaticanus) or change \"co-worker\" to \"servant\" (Sinaiticus, Alexandrinus), and the Byzantine text then combined the two. Paul uses the same bold phrase in 1 Corinthians 3:9: \"For we are God's fellow workers.\"",
+  "b": "Here the editions split: SBLGNT and NA28 print \"co-worker of God,\" while Tyndale House prints \"servant of God.\" The witness lists follow Wikipedia's list of textual variants in 1 Thessalonians, which also lists a fifth form in Codex Boernerianus (\"servant and co-worker of God\").",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "wiki-1th-variants"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "give back to God",
+  "t": "Thanks to God, or to the Lord?",
+  "p": "A few early manuscripts read \"to the Lord.\"",
+  "readings": [
+   {
+    "w": "All the printed editions; a corrector of Sinaiticus, Alexandrinus, Vaticanus and the Byzantine majority",
+    "orig": "τῷ θεῷ",
+    "en": "to God",
+    "plain": "give back to God"
+   },
+   {
+    "w": "Codex Sinaiticus as first written, Codex Claromontanus as first written, Codex Augiensis (F), Codex Boernerianus (G), the Old Latin manuscripts a and b, and the Bohairic Coptic",
+    "orig": "τῷ κυρίῳ",
+    "en": "to the Lord",
+    "plain": "give back to the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "\"To God\" has the wider support and matches \"before our God\" at the end of the verse. \"To the Lord\" may come from the many uses of \"Lord\" around it (3:8, 11-13).",
+  "b": "Witnesses as listed in Wikipedia's list of textual variants in 1 Thessalonians.",
+  "s": [
+   "wiki-1th-variants"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "our Lord Jesus with all his holy ones.",
+  "t": "\"Jesus\" or \"Jesus Christ\"; and an \"Amen\"?",
+  "p": "The Byzantine text adds \"Christ\"; NA28 prints a closing \"Amen\" in brackets.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "τοῦ κυρίου ἡμῶν Ἰησοῦ μετὰ πάντων τῶν ἁγίων αὐτοῦ.",
+    "en": "our Lord Jesus with all his holy ones",
+    "plain": "our Lord Jesus with all his holy ones."
+   },
+   {
+    "w": "NA28 and NA27 (with \"Amen\" in square brackets, a word the editors were unsure of)",
+    "orig": "... τῶν ἁγίων αὐτοῦ. [ἀμήν.]",
+    "en": "with all his holy ones. [Amen.]",
+    "plain": "our Lord Jesus with all his holy ones. Amen."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: \"our Lord Jesus Christ with all his saints\")",
+    "orig": "τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων τῶν ἁγίων αὐτοῦ.",
+    "en": "our Lord Jesus Christ with all his holy ones",
+    "plain": "our Lord Jesus Christ with all his holy ones."
+   }
+  ],
+  "follow": 0,
+  "why": "The SBL and Tyndale House editions have neither addition. \"Christ\" is a natural expansion of the name; an \"Amen\" after a prayer is the kind of word copyists added, which is why NA28 brackets it.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ],
+  "b": "The Byzantine text and the Textus Receptus also add \"Christ\" after \"Lord Jesus\" at 3:11, and the Textus Receptus alone at 2:19; neither changes the sense."
+ },
+ {
+  "v": "4:1",
+  "a": "and that is how you are walking already.",
+  "t": "\"As you are already walking\": missing in the KJV",
+  "p": "The Byzantine text and the Textus Receptus lack Paul's compliment that the readers are already living this way.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "καθὼς καὶ περιπατεῖτε",
+    "en": "just as you are also walking",
+    "plain": "and that is how you are walking already."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "—",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions include the clause. It may have dropped out because the sentence is long and has two \"just as\" clauses, so a copyist's eye could skip from one to the other. Its presence fits Paul's habit in this letter of praising before urging (4:9-10; 5:11).",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "puts his Holy Spirit into you",
+  "t": "\"Puts\" or \"has put\"; \"you\" or \"us\"?",
+  "p": "The editions differ on the tense; the Textus Receptus has \"us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles",
+    "orig": "τὸν καὶ διδόντα τὸ πνεῦμα αὐτοῦ τὸ ἅγιον εἰς ὑμᾶς",
+    "en": "who also gives his Holy Spirit into you",
+    "plain": "puts his Holy Spirit into you"
+   },
+   {
+    "w": "Tyndale House (THGNT) and the Byzantine text",
+    "orig": "τὸν καὶ δόντα τὸ πνεῦμα αὐτοῦ τὸ ἅγιον εἰς ὑμᾶς",
+    "en": "who also gave his Holy Spirit into you",
+    "plain": "has put his Holy Spirit into you"
+   },
+   {
+    "w": "Textus Receptus (KJV: \"who hath also given unto us his holy Spirit\")",
+    "orig": "τὸν καὶ δόντα τὸ πνεῦμα αὐτοῦ τὸ ἅγιον εἰς ἡμᾶς",
+    "en": "who also gave his Holy Spirit into us",
+    "plain": "has put his Holy Spirit into us"
+   }
+  ],
+  "follow": 0,
+  "why": "The present tense \"gives\" is printed by the SBL and NA28 editions and makes the Spirit an ongoing gift. The past tense points to the moment of conversion. \"Us\" in the Textus Receptus is a common copying change between the Greek words for \"you\" and \"us,\" which sounded alike.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "We do not want you to be left without knowing, brothers, about those who are falling asleep.",
+  "t": "\"We\" or \"I\"; \"are falling asleep\" or \"have fallen asleep\"?",
+  "p": "The Textus Receptus has \"I\"; the Byzantine text and the Textus Receptus have the perfect tense \"have fallen asleep.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "Οὐ θέλομεν ... περὶ τῶν κοιμωμένων",
+    "en": "we do not want ... about those falling asleep",
+    "plain": "We do not want you to be left without knowing, brothers, about those who are falling asleep."
+   },
+   {
+    "w": "Byzantine text",
+    "orig": "Οὐ θέλομεν ... περὶ τῶν κεκοιμημένων",
+    "en": "we do not want ... about those who have fallen asleep",
+    "plain": "We do not want you to be left without knowing, brothers, about those who have fallen asleep."
+   },
+   {
+    "w": "Textus Receptus (KJV: \"I would not have you to be ignorant ... concerning them which are asleep\")",
+    "orig": "Οὐ θέλω ... περὶ τῶν κεκοιμημένων",
+    "en": "I do not want ... about those who have fallen asleep",
+    "plain": "I do not want you to be left without knowing, brothers, about those who have fallen asleep."
+   }
+  ],
+  "follow": 0,
+  "why": "The present participle, printed by all the critical editions, speaks of deaths still happening in the church; the perfect looks back on those already dead. \"I\" in the Textus Receptus matches Paul's usual \"I do not want you to be uninformed\" (Romans 1:13; 1 Corinthians 12:1) but goes against the \"we\" of this letter.",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "the way a thief does",
+  "t": "\"Like a thief\" or \"like thieves\"?",
+  "p": "Westcott and Hort printed \"thieves\": the day would catch the readers as if they were the thieves.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Tregelles, the Byzantine text and the Textus Receptus",
+    "orig": "ὡς κλέπτης",
+    "en": "like a thief",
+    "plain": "the way a thief does"
+   },
+   {
+    "w": "Westcott-Hort (1881)",
+    "orig": "ὡς κλέπτας",
+    "en": "like thieves (the readers caught as thieves)",
+    "plain": "as if you were thieves"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Like a thief\" repeats the picture of 5:2 and is printed by nearly every edition. Westcott and Hort chose the plural, which makes a different picture (thieves at work in the dark, caught by the dawn) and is the harder reading; nearly every later edition prints the singular.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "5:13",
+  "a": "among yourselves",
+  "t": "\"Among yourselves\" or \"with them\"?",
+  "p": "Tregelles prints a form that makes Paul say \"be at peace with them,\" that is, with the leaders.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, the Byzantine text and the Textus Receptus",
+    "orig": "ἐν ἑαυτοῖς",
+    "en": "among yourselves",
+    "plain": "among yourselves"
+   },
+   {
+    "w": "Tregelles",
+    "orig": "ἐν αὐτοῖς",
+    "en": "among them, with them",
+    "plain": "with them"
+   }
+  ],
+  "follow": 0,
+  "why": "Nearly every edition prints the reflexive \"among yourselves,\" which makes the command about peace in the whole church. Tregelles's form would tie it to the leaders of 5:12: keep the peace with them. The two Greek words differ by one letter.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "5:27",
+  "a": "to all the brothers",
+  "t": "\"All the brothers\" or \"all the holy brothers\"?",
+  "p": "The Byzantine text and the Textus Receptus (KJV) read \"holy brothers.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "πᾶσιν τοῖς ἀδελφοῖς",
+    "en": "to all the brothers",
+    "plain": "to all the brothers"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: \"unto all the holy brethren\")",
+    "orig": "πᾶσιν τοῖς ἁγίοις ἀδελφοῖς",
+    "en": "to all the holy brothers",
+    "plain": "to all the holy brothers"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions lack \"holy.\" The word may have come in from \"holy kiss\" in the verse before (compare \"holy brothers\" in Hebrews 3:1).",
+  "s": [
+   "sblgnt",
+   "robinson-pierpont-2018"
+  ],
+  "b": "At the start of the verse the Byzantine text and the Textus Receptus have the simple verb <i>horkizo</i> where the critical editions have <i>enorkizo</i>; both mean \"I put under oath,\" so the English is the same."
+ },
+ {
+  "v": "5:28",
+  "a": "be with you.",
+  "t": "The closing \"Amen\" and the note \"written from Athens\"",
+  "p": "Some texts add \"Amen\"; the Textus Receptus adds a note that the letter was written from Athens.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles",
+    "orig": "μεθ’ ὑμῶν.",
+    "en": "with you.",
+    "plain": "be with you."
+   },
+   {
+    "w": "Tyndale House (THGNT) and the Byzantine text",
+    "orig": "μεθ’ ὑμῶν. ἀμήν.",
+    "en": "with you. Amen.",
+    "plain": "be with you. Amen."
+   },
+   {
+    "w": "Textus Receptus, printed at the end of the KJV",
+    "orig": "μεθ’ ὑμῶν. ἀμήν. πρὸς Θεσσαλονικεῖς πρώτη ἐγράφη ἀπὸ Ἀθηνῶν.",
+    "en": "with you. Amen. The first to the Thessalonians was written from Athens.",
+    "plain": "be with you. Amen. [The first letter to the Thessalonians was written from Athens.]"
+   }
+  ],
+  "follow": 0,
+  "why": "An \"Amen\" at the end of a letter is the kind of word readers in worship added. The closing note about Athens is not part of the letter: it is a later scribe's guess, drawn from 3:1. Most scholars think Paul wrote from Corinth, after Timothy came back (3:6; Acts 18:5).",
+  "b": "Notes like this one, called subscriptions, were added at the end of many manuscripts of Paul's letters. Wikipedia's article on the letter names Codex Alexandrinus among the manuscripts that say it was written from Athens.",
+  "s": [
+   "sblgnt",
+   "thgnt",
+   "robinson-pierpont-2018",
+   "wiki-1th"
+  ]
+ }
+]

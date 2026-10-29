@@ -1,0 +1,114 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "achaia",
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "silas",
+    "timotheus",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "philippi",
+    "judea"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "satan"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "athens"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "timotheus"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "holy-spirit"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "achaia": {
+   "name": "Achaia",
+   "lat": 37.5,
+   "lon": 22.5
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  },
+  "philippi": {
+   "name": "Philippi",
+   "lat": 41.01316,
+   "lon": 24.28409
+  },
+  "judea": {
+   "name": "Judea",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "athens": {
+   "name": "Athens",
+   "lat": 37.971687,
+   "lon": 23.726464
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "silas": {
+   "name": "Silas"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "satan": {
+   "name": "Satan"
+  }
+ },
+ "events": {}
+}

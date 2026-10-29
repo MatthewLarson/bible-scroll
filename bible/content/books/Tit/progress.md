@@ -1,0 +1,8 @@
+Status: reviewed, published
+
+Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-tit.md.
+
+- Written 2026-10-29 by the nt-lane writer (one part, flat folder, owns book.json): plain.txt 46 verses, 78 notes, 11 variants (witnesses from the LaParola apparatus, incl. P32 at 2:7, P61 at 3:15, minuscule 460 additions at 1:9 and 1:11), 21 glosses, 3 chapter pages with 9 settings and 4 traditions cards (elders 1:5-7, headship 2:4-5, trinity 2:13, baptism 3:5), 36 topic contributions, 2 new topic cores in content/proposals/nt/topics (letter-to-titus, crete), 9 new source keys; no new terms (follows the 1Ti entries for epiphaneia, eusebeia, pistos ho logos). Drift audit: 46 verses, 30 rebuilt. Checked sources listed in .scratch/nt/Tit/sources-checked.md. Check: 0 errors, 0 warnings in Tit (2 errors elsewhere belong to 2Th). Awaiting hostile review.
+- Review fixes applied 2026-10-29 by the review-fixer: 20 findings (16 fixed, 3 partly, 1 resolved by lead decision); Plain changed at 1:2, 1:3, 1:6, 1:9, 2:1, 3:8; variant witnesses checked against the LaParola apparatus; new variant 1:10; 2:4-5 card broadened to 7 traditions; 2:13 deep dive rebuilt from Edwards (2011). Now 46 verses, 78 notes, 12 variants, 21 glosses, 4 cards. Check: 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections; shared label fixes in content/atlas/names.json), cross-book alignment (greetings, overseer lists, house-church wording, olethros), quote sync across the site, nt proposals merged. VERBOSE --check 0/0.

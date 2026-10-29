@@ -1,0 +1,115 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "ephesus",
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "timotheus",
+    "alexander-4",
+    "hymenaeus",
+    "satan"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "adam",
+    "eve"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "holy-spirit",
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "satan"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "pontius",
+    "timotheus"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "ephesus": {
+   "name": "Ephesus",
+   "lat": 37.941944,
+   "lon": 27.339722
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "alexander-4": {
+   "name": "Alexander"
+  },
+  "hymenaeus": {
+   "name": "Hymenaeus"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "adam": {
+   "name": "Adam"
+  },
+  "eve": {
+   "name": "Eve"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "pontius": {
+   "name": "Pontius"
+  }
+ },
+ "events": {}
+}

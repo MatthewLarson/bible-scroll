@@ -1,0 +1,240 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "asia",
+    "rome",
+    "ephesus"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "timotheus",
+    "eunice",
+    "lois",
+    "holy-spirit",
+    "hermogenes",
+    "phygellus",
+    "onesiphorus"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "david",
+    "god",
+    "hymenaeus",
+    "philetus"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "antioch-pisidia",
+    "iconium",
+    "lystra"
+   ],
+   "people": [
+    "god",
+    "jambres",
+    "jannes",
+    "moses",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "dalmatia",
+    "galatia",
+    "thessalonica",
+    "ephesus",
+    "troas",
+    "corinth",
+    "miletus"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "crescens",
+    "demas",
+    "titus-4",
+    "john-25",
+    "luke-25",
+    "tychicus",
+    "alexander-4",
+    "aquila",
+    "onesiphorus",
+    "priscilla",
+    "erastus",
+    "trophimus",
+    "claudia",
+    "eubulus",
+    "linus",
+    "pudens"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "rome": {
+   "name": "Rome",
+   "lat": 41.89262,
+   "lon": 12.4843457
+  },
+  "ephesus": {
+   "name": "Ephesus",
+   "lat": 37.941944,
+   "lon": 27.339722
+  },
+  "antioch-pisidia": {
+   "name": "Antioch (Pisidia)",
+   "lat": 38.30466,
+   "lon": 31.19049
+  },
+  "iconium": {
+   "name": "Iconium",
+   "lat": 38.1910079,
+   "lon": 32.3745104
+  },
+  "lystra": {
+   "name": "Lystra",
+   "lat": 37.60196,
+   "lon": 32.33849
+  },
+  "dalmatia": {
+   "name": "Dalmatia",
+   "lat": 43.515484,
+   "lon": 16.071538
+  },
+  "galatia": {
+   "name": "Galatia",
+   "lat": 37.5,
+   "lon": 32.5
+  },
+  "thessalonica": {
+   "name": "Thessalonica",
+   "lat": 40.630282,
+   "lon": 22.949569
+  },
+  "troas": {
+   "name": "Troas",
+   "lat": 39.75135,
+   "lon": 26.15765
+  },
+  "corinth": {
+   "name": "Corinth",
+   "lat": 37.906045,
+   "lon": 22.878721
+  },
+  "miletus": {
+   "name": "Miletus",
+   "lat": 37.5292362,
+   "lon": 27.2774885
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "eunice": {
+   "name": "Eunice"
+  },
+  "lois": {
+   "name": "Lois"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "hermogenes": {
+   "name": "Hermogenes"
+  },
+  "phygellus": {
+   "name": "Phygellus"
+  },
+  "onesiphorus": {
+   "name": "Onesiphorus"
+  },
+  "david": {
+   "name": "David"
+  },
+  "hymenaeus": {
+   "name": "Hymenaeus"
+  },
+  "philetus": {
+   "name": "Philetus"
+  },
+  "jambres": {
+   "name": "Jambres"
+  },
+  "jannes": {
+   "name": "Jannes"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "crescens": {
+   "name": "Crescens"
+  },
+  "demas": {
+   "name": "Demas"
+  },
+  "titus-4": {
+   "name": "Titus"
+  },
+  "john-25": {
+   "name": "John"
+  },
+  "luke-25": {
+   "name": "Luke"
+  },
+  "tychicus": {
+   "name": "Tychicus"
+  },
+  "alexander-4": {
+   "name": "Alexander"
+  },
+  "aquila": {
+   "name": "Aquila"
+  },
+  "priscilla": {
+   "name": "Priscilla"
+  },
+  "erastus": {
+   "name": "Erastus"
+  },
+  "trophimus": {
+   "name": "Trophimus"
+  },
+  "claudia": {
+   "name": "Claudia"
+  },
+  "eubulus": {
+   "name": "Eubulus"
+  },
+  "linus": {
+   "name": "Linus"
+  },
+  "pudens": {
+   "name": "Pudens"
+  }
+ },
+ "events": {}
+}

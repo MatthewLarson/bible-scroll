@@ -1,0 +1,383 @@
+[
+ {
+  "v": "1:1",
+  "a": "a prisoner",
+  "t": "\"Prisoner,\" \"apostle\" or \"slave\"?",
+  "p": "A few copies give Paul one of his usual titles here instead of \"prisoner.\"",
+  "readings": [
+   {
+    "w": "All the editions in the word list (NA28, SBL, Tyndale House, Westcott-Hort, Tregelles, Byzantine text, Textus Receptus); the great majority of manuscripts",
+    "orig": "Παῦλος δέσμιος Χριστοῦ Ἰησοῦ",
+    "en": "Paul, a prisoner of Christ Jesus",
+    "plain": "a prisoner"
+   },
+   {
+    "w": "The first hand of Codex Claromontanus (D 06, 400s or 500s)",
+    "orig": "Παῦλος ἀπόστολος Χριστοῦ Ἰησοῦ",
+    "en": "Paul, an apostle of Christ Jesus",
+    "plain": "an apostle"
+   },
+   {
+    "w": "Minuscule 629",
+    "orig": "Παῦλος ἀπόστολος δέσμιος Χριστοῦ Ἰησοῦ",
+    "en": "Paul, an apostle, a prisoner of Christ Jesus",
+    "plain": "an apostle, a prisoner"
+   },
+   {
+    "w": "Minuscules 323 and 945",
+    "orig": "Παῦλος δοῦλος Χριστοῦ Ἰησοῦ",
+    "en": "Paul, a slave of Christ Jesus",
+    "plain": "a slave"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Prisoner\" is the reading of nearly every manuscript, and it is the harder one: Paul opens no other letter this way. The other readings replace it with the titles of his other letters (\"apostle,\" as in 2 Corinthians 1:1; \"slave,\" as in Romans 1:1).",
+  "b": "The note on \"a prisoner of Christ Jesus\" explains why the word matters to the letter.",
+  "s": [
+   "wiki-phm-variants",
+   "wiki-phm-mss"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "our sister",
+  "t": "\"Our sister\" or \"beloved\"?",
+  "p": "The oldest manuscripts call Apphia \"our sister.\" The Byzantine text and the KJV call her \"beloved.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort; Codex Sinaiticus (01, 300s), Alexandrinus (02, 400s), the first hand of Claromontanus (D 06, 400s or 500s), Augiensis (F 010), Boernerianus (G 012), 048, 33, 81, 1739, 1881; Old Latin, Vulgate, Coptic; Pelagius, Jerome",
+    "orig": "τῇ ἀδελφῇ",
+    "en": "the sister",
+    "plain": "our sister"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"beloved Apphia\"); a corrector of Claromontanus, K, L, Ψ; Chrysostom, Theodore of Mopsuestia",
+    "orig": "τῇ ἀγαπητῇ",
+    "en": "the beloved",
+    "plain": "our beloved"
+   },
+   {
+    "w": "629, some Old Latin copies, the Clementine Vulgate, the Harklean Syriac; Ambrosiaster (both words)",
+    "orig": "τῇ ἀδελφῇ τῇ ἀγαπητῇ",
+    "en": "the beloved sister",
+    "plain": "our beloved sister"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Sister\" has the older and wider support, in the Greek manuscripts and in the early translations. \"Beloved\" may have come in to match \"Philemon, whom we love\" (Greek <i>agapētō</i>) in 1:1, and the mixed reading simply combines the two.",
+  "b": "Lightfoot weighed both directions: a copyist might have added \"beloved\" to match 1:1, or replaced it with \"sister\" out of a false delicacy about calling a woman \"beloved.\" Theodore of Mopsuestia, who read \"beloved,\" felt he had to explain that Paul meant nothing improper by it. Lightfoot chose \"sister\" because the ancient evidence is decidedly in its favor.",
+  "s": [
+   "laparola-apparatus",
+   "lightfoot-col-phm",
+   "wiki-phm-mss"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "toward the Lord Jesus",
+  "t": "\"Toward\" or \"in\" the Lord Jesus?",
+  "p": "Some manuscripts use the same preposition (eis) for the Lord and the saints. The English hardly changes.",
+  "readings": [
+   {
+    "w": "NA28, SBL, Tyndale House, Byzantine text, Textus Receptus; Sinaiticus (01), a corrector of Claromontanus, F, G, Ψ",
+    "orig": "πρὸς τὸν κύριον Ἰησοῦν",
+    "en": "toward the Lord Jesus",
+    "plain": "toward the Lord Jesus"
+   },
+   {
+    "w": "Westcott-Hort, Tregelles; Alexandrinus (02), Ephraemi (C 04), 048, 33 (the first hand of Claromontanus adds \"Christ\")",
+    "orig": "εἰς τὸν κύριον Ἰησοῦν",
+    "en": "into the Lord Jesus",
+    "plain": "in the Lord Jesus"
+   },
+   {
+    "w": "Minuscule 629",
+    "orig": "ἐν Χριστῷ Ἰησοῦ",
+    "en": "in Christ Jesus",
+    "plain": "in Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "Paul elsewhere uses <i>eis</i> with faith far more often, so a copyist would easily change the rarer <i>pros</i> to match the <i>eis</i> of the next phrase. The change of preposition in most witnesses is the harder reading.",
+  "b": "Lightfoot explained the change of prepositions: <i>pros</i> for the faith that reaches \"towards\" Christ, <i>eis</i> for the love that is put to work \"upon\" people, and he noted that \"some good copies read <i>eis</i> here in both clauses.\" See the note on the crossed order of this verse.",
+  "s": [
+   "wiki-phm-variants",
+   "laparola-apparatus",
+   "lightfoot-col-phm"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "every good thing that is ours",
+  "t": "\"In us\" or \"in you\"?",
+  "p": "One Greek letter: hēmin, \"us,\" or hymin, \"you.\" The editions print \"us\"; the KJV reads \"you.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Byzantine text; Alexandrinus (02), Ephraemi (C 04), Claromontanus (D 06), K, L, Ψ, 048; Ambrosiaster, Pelagius, Jerome, Theodore",
+    "orig": "τοῦ ἐν ἡμῖν",
+    "en": "that is in us",
+    "plain": "every good thing that is ours"
+   },
+   {
+    "w": "Papyrus 61 (600s-700s), Sinaiticus (01), F, G, P, 33, 104, 1739, 1881; the Vulgate, Syriac and Coptic; Textus Receptus (KJV \"in you\")",
+    "orig": "τοῦ ἐν ὑμῖν",
+    "en": "that is in you",
+    "plain": "every good thing that is yours"
+   }
+  ],
+  "follow": 0,
+  "why": "The witnesses are closely divided, and the two words sounded alike when read aloud. \"Us\" has strong support in both the early and the Byzantine witnesses, and copyists who thought the prayer was only about Philemon's household would be tempted to change \"us\" to \"you\" (Lightfoot's argument).",
+  "b": "Lightfoot granted that \"you\" has slightly better support but preferred \"us\" as the more natural sense: every good thing believers have through the good news. With \"you,\" the good things are those already at work in Philemon's household. The meaning of the prayer changes little.",
+  "s": [
+   "laparola-apparatus",
+   "lightfoot-col-phm",
+   "wiki-phm-mss"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "leading to Christ",
+  "t": "\"Christ\" or \"Christ Jesus\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"Jesus.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "εἰς Χριστόν",
+    "en": "for Christ",
+    "plain": "leading to Christ"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont) and Textus Receptus (KJV \"in Christ Jesus\")",
+    "orig": "εἰς Χριστὸν Ἰησοῦν",
+    "en": "for Christ Jesus",
+    "plain": "leading to Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often lengthened the name of Christ. The shorter text is printed by all the critical editions.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "good thing",
+  "t": "\"Every good thing\" or \"every good work\"?",
+  "p": "Two Greek-Latin manuscripts and the Clementine Vulgate read \"work\" for \"good.\"",
+  "readings": [
+   {
+    "w": "All the editions in the word list; the great majority of manuscripts",
+    "orig": "παντὸς ἀγαθοῦ",
+    "en": "of every good",
+    "plain": "good thing"
+   },
+   {
+    "w": "Augiensis (F 010), Boernerianus (G 012), the Clementine Vulgate",
+    "orig": "παντὸς ἔργου",
+    "en": "of every work",
+    "plain": "good work"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Good\" has nearly all the witnesses. \"Work\" may come from the common phrase \"every good work.\"",
+  "s": [
+   "wiki-phm-variants"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "I have had much joy",
+  "t": "Joy, or thanks?",
+  "p": "Most editions read \"I had much joy.\" The Byzantine text reads \"we have much thanks\"; the KJV \"we have great joy.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "χαρὰν γὰρ πολλὴν ἔσχον",
+    "en": "for I had much joy",
+    "plain": "I have had much joy"
+   },
+   {
+    "w": "Byzantine text (Robinson-Pierpont); Stephanus' Textus Receptus",
+    "orig": "χάριν γὰρ ἔχομεν πολλὴν",
+    "en": "for we have much thanks",
+    "plain": "we have much thankfulness"
+   },
+   {
+    "w": "The Textus Receptus as printed by Scrivener, the Greek behind the KJV (\"For we have great joy\")",
+    "orig": "χαρὰν γὰρ ἔχομεν πολλὴν",
+    "en": "for we have much joy",
+    "plain": "we have much joy"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions agree on \"joy\" and the singular \"I had.\" The letter speaks in Paul's own voice from 1:4 on, and the plural \"we have\" looks like a change toward the plural of 1:1. \"Thanks\" (<i>charin</i>) and \"joy\" (<i>charan</i>) differ by one vowel.",
+  "b": "Lightfoot judged \"thanks\" to be \"absolutely condemned by the paucity of ancient authority,\" and noted that the Textus Receptus itself is divided: Stephanus printed it, but the Elzevir edition did not. That is why the KJV, which follows the Textus Receptus, still says \"joy.\"",
+  "s": [
+   "laparola-apparatus",
+   "lightfoot-col-phm"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "Christ Jesus",
+  "t": "\"Christ Jesus\" or \"Jesus Christ\"?",
+  "p": "The Byzantine text and the KJV put the names the other way round.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "δέσμιος Χριστοῦ Ἰησοῦ",
+    "en": "a prisoner of Christ Jesus",
+    "plain": "Christ Jesus"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"a prisoner of Jesus Christ\")",
+    "orig": "δέσμιος Ἰησοῦ Χριστοῦ",
+    "en": "a prisoner of Jesus Christ",
+    "plain": "Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print the order that matches 1:1, \"a prisoner of Christ Jesus.\" The meaning is the same.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "to you and to me as well",
+  "t": "\"Both to you\"?",
+  "p": "NA28 prints \"both\" (kai) in brackets before \"to you\"; the SBL and most editions leave it out.",
+  "readings": [
+   {
+    "w": "SBL, Tyndale House, Westcott-Hort, Byzantine text, Textus Receptus; a corrector of Sinaiticus, Alexandrinus (02), Ephraemi (C 04), Claromontanus (D 06)",
+    "orig": "νυνὶ δὲ σοὶ καὶ ἐμοὶ εὔχρηστον",
+    "en": "but now useful to you and to me",
+    "plain": "to you and to me as well"
+   },
+   {
+    "w": "NA28 and NA27 (in brackets); the first hand of Sinaiticus, F, G, 33, 104",
+    "orig": "νυνὶ δὲ καὶ σοὶ καὶ ἐμοὶ εὔχρηστον",
+    "en": "but now useful both to you and to me",
+    "plain": "both to you and to me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text, the SBL. The added \"both\" only sharpens the contrast with \"useless to you\"; the meaning is the same.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "him to you, and he is",
+  "t": "Is \"receive him\" in the Greek of 1:12?",
+  "p": "The oldest text breaks off without a main verb. Most later copies add \"you, then, receive him,\" as the KJV does.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort; the first hand of Sinaiticus (01), Alexandrinus (02), 33",
+    "orig": "ὃν ἀνέπεμψά σοι, αὐτόν, τοῦτ’ ἔστιν τὰ ἐμὰ σπλάγχνα",
+    "en": "whom I sent back to you, him, that is, my own heart",
+    "plain": "him to you, and he is"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"thou therefore receive him\"); a corrector of Sinaiticus, a corrector of Claromontanus, K, L, P, Ψ, 81, 1739, 1881; some Old Latin and Vulgate copies; Pelagius, Theodore",
+    "orig": "ὃν ἀνέπεμψα· σὺ δὲ αὐτόν, τοῦτ’ ἔστιν τὰ ἐμὰ σπλάγχνα, προσλαβοῦ",
+    "en": "whom I sent back; you then receive him, that is, my own heart",
+    "plain": "him. You, then, receive him, for he is"
+   },
+   {
+    "w": "The first hand of Ephraemi (C 04)",
+    "orig": "ὃν ἀνέπεμψά σοι, αὐτόν, τοῦτ’ ἔστιν τὰ ἐμὰ σπλάγχνα, προσλαβοῦ",
+    "en": "whom I sent back to you, him, that is, my own heart: receive him",
+    "plain": "him to you. Receive him, for he is"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is the harder reading: its sentence has no main verb, and the command \"welcome him\" does not come until 1:17. Copyists finished the sentence by borrowing the verb of 1:17, and they did it in several different ways, which shows that the words were added.",
+  "b": "Lightfoot agreed that the added words \"give the right construction\" but rejected them for lack of early support: Paul starts a sentence, breaks off into other clauses, and only picks up the main point in 1:17. The many forms of the addition in the manuscripts (with or without \"to you,\" with \"receive him\" in different places) are listed in the apparatus.",
+  "s": [
+   "laparola-apparatus",
+   "lightfoot-col-phm"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "in Christ",
+  "t": "\"In Christ\" or \"in the Lord\"?",
+  "p": "The Byzantine text and the KJV repeat \"in the Lord\" in the second half of the verse.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἐν Χριστῷ",
+    "en": "in Christ",
+    "plain": "in Christ"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV \"refresh my bowels in the Lord\")",
+    "orig": "ἐν κυρίῳ",
+    "en": "in the Lord",
+    "plain": "in the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print \"in Christ,\" which varies the phrase after \"in the Lord\" earlier in the verse. A copyist would easily repeat \"in the Lord.\"",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "the Lord Jesus Christ",
+  "t": "\"The Lord\" or \"our Lord\"?",
+  "p": "Many manuscripts, the Byzantine text and the Tyndale House edition read \"our Lord Jesus Christ.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort; Sinaiticus (01), P, 33, 81, 1739, 1881; some Vulgate copies, the Harklean and Palestinian Syriac; Jerome",
+    "orig": "τοῦ κυρίου Ἰησοῦ Χριστοῦ",
+    "en": "of the Lord Jesus Christ",
+    "plain": "the Lord Jesus Christ"
+   },
+   {
+    "w": "Tyndale House edition, Tregelles, Byzantine text, Textus Receptus (KJV \"our Lord\"); Alexandrinus (02), Ephraemi (C 04), Claromontanus (D 06), K, L, Ψ; Old Latin, Vulgate, Peshitta Syriac, Coptic; Ambrosiaster, Chrysostom",
+    "orig": "τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
+    "en": "of our Lord Jesus Christ",
+    "plain": "our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a close case, and the editions split. The Plain follows the SBL and NA28: \"our\" is easy to add from Paul's usual blessing (Galatians 6:18 has it), and harder to explain as a loss.",
+  "b": "The Tyndale House Greek New Testament prints \"our,\" so a reader of that edition will find it there. The meaning is the same.",
+  "s": [
+   "laparola-apparatus",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:25",
+  "a": "with your spirit",
+  "t": "Does the letter end with \"Amen\"?",
+  "p": "The earliest papyrus of these verses has no \"Amen.\" Sinaiticus, the Byzantine text and the KJV add it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort; Papyrus 87 (about 250), Alexandrinus (02), the first hand of Claromontanus (D 06), 048, 33, 81, 1881; some Coptic copies; Ambrosiaster, Jerome",
+    "orig": "μετὰ τοῦ πνεύματος ὑμῶν.",
+    "en": "with your spirit.",
+    "plain": "with your spirit"
+   },
+   {
+    "w": "Tyndale House edition, Byzantine text, Textus Receptus (KJV); Sinaiticus (01), Ephraemi (C 04), a corrector of Claromontanus, K, L, P, Ψ; Old Latin, Vulgate, Syriac; Chrysostom, Theodore",
+    "orig": "μετὰ τοῦ πνεύματος ὑμῶν. ἀμήν.",
+    "en": "with your spirit. Amen.",
+    "plain": "with your spirit. Amen"
+   }
+  ],
+  "follow": 0,
+  "why": "Papyrus 87, a fragment dated about 250 that holds 1:13-15 and 1:24-25 (now at the University of Cologne), ends without \"Amen,\" with Alexandrinus and others. The word was easily added at the end of a letter read in church.",
+  "b": "After the blessing, many manuscripts add a note (a subscription) that is not part of the letter. Sinaiticus, Ephraemi and 33 have only \"To Philemon.\" Codex K and the Textus Receptus have \"To Philemon, written from Rome by Onesimus a household slave,\" which the KJV prints after the last verse. Later copies make Philemon and Apphia \"the masters of Onesimus\" and Archippus \"the deacon of the church in Colossae,\" and one family adds that Onesimus was martyred in Rome. These notes show what later readers believed, not what Paul wrote.",
+  "s": [
+   "laparola-apparatus",
+   "wiki-phm-mss"
+  ]
+ }
+]

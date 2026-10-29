@@ -1,0 +1,406 @@
+[
+ {
+  "v": "1:11",
+  "a": "a teacher",
+  "t": "\"A teacher\" or \"a teacher of the Gentiles\"?",
+  "p": "The Byzantine text and the KJV add \"of the Gentiles\". The critical editions do not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort; Codex Sinaiticus (01, 300s), first hand",
+    "orig": "καὶ διδάσκαλος",
+    "en": "and a teacher",
+    "plain": "a teacher"
+   },
+   {
+    "w": "Tregelles, Byzantine text, Textus Receptus (KJV 'a teacher of the Gentiles'); Codex Sinaiticus (01, 300s), a later corrector",
+    "orig": "καὶ διδάσκαλος ἐθνῶν",
+    "en": "and a teacher of the Gentiles",
+    "plain": "a teacher of the Gentiles"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is in SBL, NA28, Tyndale House and Westcott-Hort and in the first hand of Codex Sinaiticus; Tregelles prints \"of the Gentiles\". \"Of the Gentiles\" looks like a copyist's addition from 1 Timothy 2:7, where Paul is called a teacher of the Gentiles; it is easier to explain an addition taken from the parallel than an omission.",
+  "b": "In Tischendorf's edition of Codex Sinaiticus, a corrector of the manuscript added \"of the Gentiles\" above the line. Codex Vaticanus does not contain the Pastoral Letters, so it gives no evidence here or anywhere in this letter.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "deposit",
+  "t": "\"Deposit\": a short or a long form",
+  "p": "The Textus Receptus has a longer form of the word for \"deposit\" here. The meaning is the same.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles, Byzantine text; Codex Sinaiticus (01, 300s)",
+    "orig": "τὴν καλὴν παραθήκην",
+    "en": "the good deposit",
+    "plain": "deposit"
+   },
+   {
+    "w": "Textus Receptus (KJV 'that good thing which was committed unto thee')",
+    "orig": "τὴν καλὴν παρακαταθήκην",
+    "en": "the good deposit (a longer form of the same word)",
+    "plain": "entrusted deposit"
+   }
+  ],
+  "follow": 0,
+  "why": "Every edition except the Textus Receptus reads the short form, here and in 1:12, and so does Codex Sinaiticus. The long form, with an extra prefix, is the more common word for a deposit in Greek, and a copyist could easily write it for the rarer short one.",
+  "b": "The word matters to this letter: it is the \"deposit\" of 1:12 and 1:14 and of 1 Timothy 6:20, and the verb of 2:2 (\"entrust\") comes from the same family.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "Suffer hard things along with me",
+  "t": "\"Suffer with me\" or \"You therefore endure\"?",
+  "p": "The critical text has one verb, \"suffer hardship with\". The Byzantine text and the KJV read \"You therefore endure hardness\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "συγκακοπάθησον",
+    "en": "suffer hardship with (me)",
+    "plain": "Suffer hard things along with me"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'Thou therefore endure hardness')",
+    "orig": "σὺ οὖν κακοπάθησον",
+    "en": "you therefore suffer hardship",
+    "plain": "You, then, put up with hard things"
+   }
+  ],
+  "follow": 0,
+  "why": "The compound verb is the rarer word and the one the letter already used in 1:8. A copyist could easily turn it into the common verb with \"you therefore\", which echoes the start of 2:1. The critical editions and Codex Sinaiticus read the compound.",
+  "b": "The Byzantine text also has the order \"Jesus Christ\" for \"Christ Jesus\" in this verse, as the KJV's \"a good soldier of Jesus Christ\" shows.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "The Lord will make you understand",
+  "t": "A promise or a wish?",
+  "p": "The critical text says \"the Lord will give you understanding\" (a promise). The Byzantine text and the KJV say \"the Lord give thee understanding\" (a wish).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "δώσει γάρ σοι ὁ κύριος σύνεσιν",
+    "en": "for the Lord will give you understanding",
+    "plain": "The Lord will make you understand"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'and the Lord give thee understanding')",
+    "orig": "δῴη γάρ σοι ὁ κύριος σύνεσιν",
+    "en": "for may the Lord give you understanding",
+    "plain": "May the Lord make you understand"
+   }
+  ],
+  "follow": 0,
+  "why": "The future \"will give\" has the support of the critical editions and Codex Sinaiticus. The wish form is the kind of change copyists made to sound like a prayer, as in 1:16 and 1:18, where the letter does use the wish form.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "for he cannot",
+  "t": "\"For he cannot deny himself\"",
+  "p": "The critical editions differ over a small \"for\" (gar). SBL leaves it out; NA28 and Tyndale House print it.",
+  "readings": [
+   {
+    "w": "NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s), first hand",
+    "orig": "ἀρνήσασθαι γὰρ ἑαυτὸν οὐ δύναται",
+    "en": "for he cannot deny himself",
+    "plain": "for he cannot"
+   },
+   {
+    "w": "SBLGNT, Byzantine text, Textus Receptus; Codex Sinaiticus (01, 300s), a later corrector",
+    "orig": "ἀρνήσασθαι ἑαυτὸν οὐ δύναται",
+    "en": "he cannot deny himself",
+    "plain": "he cannot"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and the Tyndale House edition against the SBL here. The \"for\" is in the first hand of Codex Sinaiticus and was removed by a corrector; dropping a small word at the end of a hymn-like line is an easy change. The meaning is the same either way: the last line gives the reason Christ stays faithful.",
+  "b": "The KJV also reads \"he cannot deny himself\" without \"for\".",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "Before the Lord",
+  "t": "\"Before the Lord\" or \"before God\"?",
+  "p": "The editions split: SBL, Tyndale House and the Byzantine text read \"the Lord\"; NA28 and Codex Sinaiticus read \"God\".",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House, Byzantine text, Textus Receptus (KJV 'before the Lord')",
+    "orig": "ἐνώπιον τοῦ κυρίου",
+    "en": "before the Lord",
+    "plain": "Before the Lord"
+   },
+   {
+    "w": "NA28, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "ἐνώπιον τοῦ θεοῦ",
+    "en": "before God",
+    "plain": "Before God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text, the SBLGNT, which reads \"the Lord\" here together with the Tyndale House edition and the Byzantine text. NA28 prints \"God\", which is also the reading of Codex Sinaiticus, so the support for \"God\" is strong. \"God\" may have come in from the similar charges in 4:1 and 1 Timothy 5:21, which name God; \"the Lord\" may have come in from the many \"Lord\" titles around it (2:7, 19, 22, 24). The sense hardly changes.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "the Lord's name",
+  "t": "\"The name of the Lord\" or \"of Christ\"?",
+  "p": "The Textus Receptus, and so the KJV, read \"the name of Christ\". The other editions read \"the name of the Lord\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine text; Codex Sinaiticus (01, 300s)",
+    "orig": "τὸ ὄνομα κυρίου",
+    "en": "the name of the Lord",
+    "plain": "the Lord's name"
+   },
+   {
+    "w": "Textus Receptus (KJV 'every one that nameth the name of Christ')",
+    "orig": "τὸ ὄνομα Χριστοῦ",
+    "en": "the name of Christ",
+    "plain": "the name of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The Lord\" is in every edition except the Textus Receptus, which here follows late manuscripts. It is also the wording of the Greek Bible's phrase \"name the name of the Lord\" (Leviticus 24:16). \"Christ\" makes explicit who the Lord is.",
+  "b": "Codex Sinaiticus has two more small differences in this verse in Tischendorf's edition, and the Textus Receptus has the corrector's readings in both places: \"the firm foundation of the Lord\" (a corrector changed it to \"of God\") and \"the Lord knows all those who are his\", with \"all\" (removed by a corrector). No edition prints these.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "3:14",
+  "a": "the people you learned them from",
+  "t": "\"From whom\": one teacher or several?",
+  "p": "The critical text says Timothy learned \"from which people\" (plural). The Byzantine text and the KJV have the singular, \"of whom\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "παρὰ τίνων",
+    "en": "from which people",
+    "plain": "the people you learned them from"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'knowing of whom thou hast learned them')",
+    "orig": "παρὰ τίνος",
+    "en": "from which person",
+    "plain": "the person you learned them from"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural is in the critical editions and in Codex Sinaiticus, and it fits the context: 3:15 speaks of Timothy's childhood and 1:5 names his grandmother and mother. The singular makes Paul the only teacher, which a copyist might expect in a letter from Paul.",
+  "b": "If the plural is right, Timothy's teachers were the women of his family as well as the apostle (1:5).",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "exposing wrong",
+  "t": "Two forms of the word \"exposing\"",
+  "p": "The critical editions read elegmos; the Byzantine text and the Textus Receptus read elenchos. Both mean reproof or proving wrong.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "πρὸς ἐλεγμόν",
+    "en": "for reproof",
+    "plain": "exposing wrong"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'for reproof')",
+    "orig": "πρὸς ἔλεγχον",
+    "en": "for proof, reproof",
+    "plain": "proving wrong"
+   }
+  ],
+  "follow": 0,
+  "why": "The rarer form elegmos is in the critical editions and in Codex Sinaiticus. Elenchos is the common Greek word, and a copyist could easily put it in place of the rare one. The meaning hardly changes.",
+  "b": "This is the only difference in 3:16. The key clause, \"Every Scripture is God-breathed and useful\", reads the same in every edition and in Codex Sinaiticus.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "by his appearing",
+  "t": "\"By his appearing\" or \"at his appearing\"?",
+  "p": "The critical text makes Christ's appearing part of the solemn charge. The Byzantine text and the KJV read \"who shall judge ... at his appearing\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s), first hand",
+    "orig": "καὶ τὴν ἐπιφάνειαν αὐτοῦ",
+    "en": "and (by) his appearing",
+    "plain": "by his appearing"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing'); Codex Sinaiticus (01, 300s), a later corrector",
+    "orig": "κατὰ τὴν ἐπιφάνειαν αὐτοῦ",
+    "en": "according to (at) his appearing",
+    "plain": "at his appearing"
+   }
+  ],
+  "follow": 0,
+  "why": "In the critical text the accusative \"his appearing and his kingdom\" is what Paul swears by, a Greek way of making a solemn charge \"by\" something. That is unusual, and copyists smoothed it by writing \"at\" (kata), which makes the appearing the time of judgment. The harder reading is in the critical editions and the first hand of Sinaiticus.",
+  "b": "The Byzantine text and the Textus Receptus also add \"therefore I\" at the start of the verse and read \"the Lord Jesus Christ\" for \"Christ Jesus\". The KJV's \"the quick and the dead\" means \"the living and the dead\".",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "4:10",
+  "a": "Galatia",
+  "t": "Galatia or Gaul?",
+  "p": "Codex Sinaiticus reads \"Gaul\" (Gallia). The editions all read \"Galatia\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles, Byzantine text, Textus Receptus (KJV 'Galatia')",
+    "orig": "εἰς Γαλατίαν",
+    "en": "to Galatia",
+    "plain": "Galatia"
+   },
+   {
+    "w": "Codex Sinaiticus (01, 300s), as printed by Tischendorf",
+    "orig": "εἰς Γαλλίαν",
+    "en": "to Gaul",
+    "plain": "Gaul"
+   }
+  ],
+  "follow": 0,
+  "why": "All the editions print \"Galatia\", the region in central Asia Minor where Paul founded churches (Galatians 1:2). \"Gaul\" (modern France) is a real reading of Codex Sinaiticus. Greek writers sometimes called the Gauls of the west \"Galatians\", since the Galatians of Asia Minor were descended from Celts, so the word itself could point to either place; a copyist may have written \"Gaul\" to make the western sense clear.",
+  "b": "If Gaul is meant, the verse would show Paul's coworkers carrying the mission to the far west, in line with Paul's hope of going to Spain (Romans 15:24, 28). If Galatia is meant, Crescens went to one of Paul's own mission areas.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "The Lord will pay him back",
+  "t": "\"Will repay\" or \"may he repay\"?",
+  "p": "The critical text states that the Lord will repay. The Byzantine text and the KJV turn it into a wish: \"the Lord reward him\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s)",
+    "orig": "ἀποδώσει αὐτῷ ὁ κύριος",
+    "en": "the Lord will repay him",
+    "plain": "The Lord will pay him back"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'the Lord reward him according to his works')",
+    "orig": "ἀποδῴη αὐτῷ ὁ κύριος",
+    "en": "may the Lord repay him",
+    "plain": "May the Lord pay him back"
+   }
+  ],
+  "follow": 0,
+  "why": "The future tense is in the critical editions and Codex Sinaiticus and matches the Greek of Psalm 62:12 (61:13 in the Greek), which the verse echoes (\"you will repay\"). The wish form may have come from the wish forms of 1:16, 18 and 4:16.",
+  "b": "The difference matters to readers who ask whether Paul here curses an enemy. In the critical text he leaves judgment to God, as in Romans 12:19.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "4:22",
+  "a": "The Lord be",
+  "t": "\"The Lord\" or \"the Lord Jesus Christ\"?",
+  "p": "The critical text ends \"The Lord be with your spirit\". The Byzantine text and the KJV read \"The Lord Jesus Christ\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s), first hand",
+    "orig": "ὁ κύριος",
+    "en": "the Lord",
+    "plain": "The Lord be"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'The Lord Jesus Christ be with thy spirit'); Codex Sinaiticus (01, 300s), a later corrector",
+    "orig": "ὁ κύριος Ἰησοῦς Χριστός",
+    "en": "the Lord Jesus Christ",
+    "plain": "The Lord Jesus Christ be"
+   }
+  ],
+  "follow": 0,
+  "why": "Closing blessings were often filled out with the full name, as Galatians 6:18 and Philemon 1:25 have it. The short form is in the critical editions and the first hand of Codex Sinaiticus.",
+  "b": "This and the next variant go together: the same corrector of Sinaiticus added both \"Jesus Christ\" and \"Amen\".",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ },
+ {
+  "v": "4:22",
+  "a": "Grace be with you.",
+  "t": "\"Amen\" and the KJV's subscription",
+  "p": "The Byzantine text adds \"Amen\". The Textus Receptus also adds a note about where the letter was written; the KJV prints it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles; Codex Sinaiticus (01, 300s), first hand",
+    "orig": "ἡ χάρις μεθ’ ὑμῶν.",
+    "en": "Grace (be) with you.",
+    "plain": "Grace be with you."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'Grace be with you. Amen.'); Codex Sinaiticus (01, 300s), a later corrector",
+    "orig": "ἡ χάρις μεθ’ ὑμῶν. ἀμήν.",
+    "en": "Grace (be) with you. Amen.",
+    "plain": "Grace be with you. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "\"Amen\" was added at the end of many New Testament books as they were read in worship. The critical editions and the first hand of Sinaiticus end without it. This variant goes with the previous one.",
+  "b": "The Textus Receptus, as Tischendorf prints its readings, ends with a subscription: \"To Timothy, the second, who was ordained first overseer of the church of the Ephesians; written from Rome, when Paul stood before Caesar Nero the second time.\" Such notes were added by copyists centuries later and are not part of the letter. Codex Sinaiticus' own subscription reads simply \"To Timothy\". The subscription reflects the tradition, also in Eusebius, of a second Roman trial.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "tischendorf-sinaiticus"
+  ]
+ }
+]

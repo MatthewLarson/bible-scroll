@@ -1,0 +1,8 @@
+Status: reviewed, published
+
+Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-2ti.md.
+
+- 2Ti (chapters 1-4, 83 verses, flat folder; owns book.json): written 2026-10-29 by the nt-lane writer. 114 notes, 12 variants (witnesses checked in Tischendorf's 1865 Sinaiticus edition and the editions word list), 39 glosses, 4 chapter pages with 9 settings and 4 traditions cards (prayer for the dead, ordination and succession, perseverance, inspiration of Scripture), 28 topic contributions, 3 new topic cores in content/proposals/nt/topics (2-timothy, inspiration-of-scripture, jannes-and-jambres), 1 works entry (jannes-and-jambres-book) and 2 terms (theopneustos, paratheke) in content/proposals/nt. Drift audit: 74 of 83 verses reshaped, 9 kept as forced. Sources checked: .scratch/nt/2Ti/sources-checked.md. Check: 0 errors, 0 warnings. Awaiting hostile review.
+- 2Ti review fixes 2026-10-29: 20 findings (18 fixed, 1 fixed by verification, 1 partly accepted). Plain changed at 1:6, 1:9, 1:10, 2:2, 3:17, 4:17, 4:22. Now 114 notes, 14 variants, 40 glosses; traditions cards rebuilt from sources opened this session (Lutheran and Pentecostal added to the 3:16 card). Sources: .scratch/2Ti-fix/sources-checked.md. Check: 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections; shared label fixes in content/atlas/names.json), cross-book alignment (greetings, overseer lists, house-church wording, olethros), quote sync across the site, nt proposals merged. VERBOSE --check 0/0.

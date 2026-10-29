@@ -1,0 +1,342 @@
+[
+ {
+  "v": "1:4",
+  "a": "Grace and peace",
+  "t": "Grace and peace, or grace, mercy and peace?",
+  "p": "The Byzantine text and the KJV add \"mercy\", as in the greetings of 1 and 2 Timothy.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, 300s), Ephraemi (C, 400s, first hand), Claromontanus (D, 500s), Augiensis and Boernerianus (F and G, 800s), Ψ, 088, 1175 and others; the Old Latin and the Vulgate; Ambrosiaster, Chrysostom, Jerome; SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "χάρις καὶ εἰρήνη",
+    "en": "grace and peace",
+    "plain": "Grace and peace"
+   },
+   {
+    "w": "Alexandrinus (02, 400s), a corrector of Ephraemi, K, L, 81, 104, 614 and most later manuscripts (the Byzantine text); the Textus Receptus (KJV \"Grace, mercy, and peace\")",
+    "orig": "χάρις, ἔλεος, εἰρήνη",
+    "en": "grace, mercy, peace",
+    "plain": "Grace, mercy and peace"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter greeting has the older and more varied witnesses. A copyist could easily add \"mercy\" to match 1 Timothy 1:2 and 2 Timothy 1:2, which have all three words; no one would have removed it.",
+  "s": [
+   "laparola-apparatus",
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "and Christ Jesus",
+  "t": "Christ Jesus, or the Lord Jesus Christ?",
+  "p": "The Byzantine text reads \"the Lord Jesus Christ\" in the greeting.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Ephraemi (C), Claromontanus (D, first hand), Ψ, 088, 0240, 33, 81 and others; the Old Latin and the Vulgate; SBLGNT, NA28, Tyndale House",
+    "orig": "καὶ Χριστοῦ Ἰησοῦ",
+    "en": "and Christ Jesus",
+    "plain": "and Christ Jesus"
+   },
+   {
+    "w": "a corrector of Claromontanus, Augiensis (F), Boernerianus (G), the Byzantine text and the Syriac; the Textus Receptus (KJV \"and the Lord Jesus Christ\")",
+    "orig": "καὶ κυρίου Ἰησοῦ Χριστοῦ",
+    "en": "and the Lord Jesus Christ",
+    "plain": "and the Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Christ Jesus\" has the earliest manuscripts of all text types. \"The Lord Jesus Christ\" is the familiar formula of Paul's other greetings (Romans 1:7) and was likely brought in from them.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "I left you behind",
+  "t": "\"I left you\" or \"I was leaving you\"?",
+  "p": "A one-letter difference in Greek gives a past action or an ongoing one. The editions divide.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, first hand), Claromontanus (D, first hand), Ψ, 81, 365, 1739, 1881; SBLGNT, NA28, Tregelles",
+    "orig": "ἀπέλιπον",
+    "en": "I left (you)",
+    "plain": "I left you behind"
+   },
+   {
+    "w": "Alexandrinus (02), Ephraemi (C), Augiensis (F), Boernerianus (G), 088, 0240, 33, 1175; Tyndale House, Westcott-Hort",
+    "orig": "ἀπέλειπον",
+    "en": "I was leaving (you)",
+    "plain": "I was leaving you behind"
+   },
+   {
+    "w": "correctors of Sinaiticus and Claromontanus, the Byzantine text; the Textus Receptus (KJV \"left I thee\")",
+    "orig": "κατέλιπον",
+    "en": "I left behind",
+    "plain": "I left you behind"
+   }
+  ],
+  "follow": 0,
+  "why": "The aorist \"I left\" is the expected form and has early support; the imperfect spelling with -ei- may be only a spelling variant, since ei and i sounded alike. Tyndale House and Westcott-Hort print it; the meaning would hardly change.",
+  "s": [
+   "laparola-apparatus",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "correct those who argue against it.",
+  "t": "A rule against twice-married clergy added in one manuscript",
+  "p": "A thirteenth-century manuscript, 460, adds rules about clergy and unjust rulers after 1:9. It goes with an addition at 1:11.",
+  "readings": [
+   {
+    "w": "All other Greek manuscripts; all editions",
+    "orig": "ἐλέγχειν.",
+    "en": "to refute.",
+    "plain": "correct those who argue against it."
+   },
+   {
+    "w": "Minuscule 460 (1200s) only",
+    "orig": "ἐλέγχειν. Μὴ χειροτονεῖν διγάμους μηδὲ διακόνους αὐτοὺς ποιεῖν, μηδὲ γυναῖκας ἔχειν ἐκ διγαμίας· μηδὲ προσερχέσθωσαν ἐν τῷ θυσιαστηρίῳ λειτουργεῖν τὸ θεῖον. τοὺς ἄρχοντας τοὺς ἀδικοκρίτας καὶ ἅρπαγας καὶ ψεύστας καὶ ἀνελεήμονας ἔλεγχε ὡς θεοῦ διάκονος",
+    "en": "to refute. Do not ordain those who have married twice, or make them deacons, and let them not have wives from a second marriage; let them not come to the altar to perform the divine service. Correct the rulers who are unjust judges, robbers, liars and merciless, as God's servant.",
+    "plain": "correct those who argue against it. Do not ordain men who have married twice, or make them deacons, and they must not have wives from a second marriage. They must not come to the altar to carry out the holy service. Correct the rulers who judge unjustly, rob, lie and show no mercy, as God's servant."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is in one late manuscript and nowhere else. It shows how a later church read \"the husband of one wife\" (1:6): as a bar to anyone married twice. It is a reader's rule written into the text, not part of the letter.",
+  "b": "<p>The words about \"the altar\" and \"the divine service\" belong to the church order of a much later age. The addition is useful as evidence of how 1:6 was read: compare Chrysostom's view that the verse excludes a man who married a second time (note at 1:6).</p>",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "many who are unruly",
+  "t": "\"Many, and unruly\" or \"many unruly\"?",
+  "p": "Some manuscripts lack a small \"and\" after \"many\". The sense is the same.",
+  "readings": [
+   {
+    "w": "Claromontanus (D), Augiensis (F), Boernerianus (G), I, K, L, Ψ, 1739, 1881 and the Byzantine text; several Old Latin manuscripts and the Vulgate; Chrysostom, Jerome; SBLGNT, NA28, the Textus Receptus",
+    "orig": "πολλοὶ καὶ ἀνυπότακτοι",
+    "en": "many, and unruly",
+    "plain": "many who are unruly"
+   },
+   {
+    "w": "Sinaiticus (01), Alexandrinus (02), Ephraemi (C), P, 088, 33, 81, 104; the Syriac and the Coptic; Clement of Alexandria; Tyndale House, Westcott-Hort",
+    "orig": "πολλοὶ ἀνυπότακτοι",
+    "en": "many unruly (people)",
+    "plain": "many unruly people"
+   }
+  ],
+  "follow": 0,
+  "why": "The SBLGNT and NA28 print \"and\"; Tyndale House and Westcott-Hort leave it out, with the oldest Greek codices. Either way the verse says there are many such people and that they are unruly. In the same verse the editions also differ on a \"the\" before \"circumcision\", which English cannot show.",
+  "s": [
+   "laparola-apparatus",
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "for the sake of shameful profit.",
+  "t": "An added rule about children who strike their parents",
+  "p": "The same manuscript, 460, adds a line after 1:11 about rebellious children. It goes with the addition at 1:9.",
+  "readings": [
+   {
+    "w": "All other Greek manuscripts; all editions",
+    "orig": "αἰσχροῦ κέρδους χάριν.",
+    "en": "for the sake of shameful profit.",
+    "plain": "for the sake of shameful profit."
+   },
+   {
+    "w": "Minuscule 460 (1200s) only",
+    "orig": "αἰσχροῦ κέρδους χάριν. τὰ τέκνα οἱ τοὺς ἰδίους γονεῖς ὑβρίζοντες ἢ τύπτοντες ἐπιστόμιζε καὶ ἔλεγχε καὶ νουθέτει ὡς πατὴρ τέκνα",
+    "en": "for the sake of shameful profit. The children who insult or strike their own parents, silence, rebuke and warn, as a father his children.",
+    "plain": "for the sake of shameful profit. As for children who insult or strike their own parents, stop their mouths, correct them and warn them, as a father does his children."
+   }
+  ],
+  "follow": 0,
+  "why": "Found in one late manuscript only; it picks up the verbs \"stop the mouth\" and \"correct\" from 1:9-11 and the elders' children of 1:6.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "workers in the home",
+  "t": "\"Workers at home\" or \"keepers at home\"?",
+  "p": "Two Greek words differ by two letters: oikourgous, working at home, and oikourous, staying at home.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, first hand), Alexandrinus (02), Ephraemi (C), Claromontanus (D, first hand), Augiensis (F), Boernerianus (G), I (400s), Ψ, 33; Clement of Alexandria; SBLGNT, NA28, Tyndale House",
+    "orig": "οἰκουργούς",
+    "en": "workers at home",
+    "plain": "workers in the home"
+   },
+   {
+    "w": "a corrector of Sinaiticus, a corrector of Claromontanus, Coislinianus (H, 500s), L, P and the Byzantine text; the Textus Receptus (KJV \"keepers at home\")",
+    "orig": "οἰκουρούς",
+    "en": "keepers of the house, staying at home",
+    "plain": "keepers of the home"
+   }
+  ],
+  "follow": 0,
+  "why": "The rarer word \"working at home\" has the older and wider support, and a copyist would more likely change it to the common word \"housekeeper, one who stays home\" than the reverse.",
+  "b": "<p>The difference matters to readers of the KJV: \"keepers at home\" can suggest a wife who must stay in the house, while the earlier text praises a woman who works hard at the household's tasks (see the note on this phrase).</p>",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "free of corruption and serious",
+  "t": "Integrity, sincerity, or generosity?",
+  "p": "The Byzantine text adds a third quality, \"sincerity\" in the KJV. The oldest papyrus reads \"generosity\" for the first.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01, first hand), Alexandrinus (02), Ephraemi (C), Claromontanus (D, first hand), 33, 1739 and others; SBLGNT, NA28 (the Byzantine text has the near-synonym ἀδιαφθορίαν here)",
+    "orig": "ἀφθορίαν, σεμνότητα",
+    "en": "incorruption, seriousness",
+    "plain": "free of corruption and serious"
+   },
+   {
+    "w": "a corrector of Claromontanus, Ψ, the Byzantine text, the Harklean Syriac; the Textus Receptus (KJV \"uncorruptness, gravity, sincerity\")",
+    "orig": "ἀδιαφθορίαν, σεμνότητα, ἀφθαρσίαν",
+    "en": "uncorruptness, seriousness, incorruptibility",
+    "plain": "free of corruption, serious and sincere"
+   },
+   {
+    "w": "P32 (about AD 200), Augiensis (F), Boernerianus (G), 88, 1881, the Sahidic Coptic",
+    "orig": "ἀφθονίαν, σεμνότητα",
+    "en": "generosity (freedom from envy), seriousness",
+    "plain": "generous and serious"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Free of corruption\" (aphthoria) is the reading of most early manuscripts. The Byzantine \"sincerity\" (aphtharsia, \"incorruptibility\") looks like an alternative of the same word written in beside it and then copied into the text; 2 Timothy 1:10 uses it. The papyrus reading aphthonia, \"ungrudging\", differs from aphthoria by one letter and is likely a slip, though it is the oldest witness.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "about us",
+  "t": "\"About us\" or \"about you\"?",
+  "p": "One Greek letter: hemon \"us\" or humon \"you\". The KJV follows \"of you\".",
+  "readings": [
+   {
+    "w": "Nearly all manuscripts, including the Byzantine text (which puts the words in a different order); SBLGNT, NA28, Tyndale House, Westcott-Hort",
+    "orig": "περὶ ἡμῶν",
+    "en": "about us",
+    "plain": "about us"
+   },
+   {
+    "w": "Alexandrinus (02) and a few others, one Old Latin manuscript and some Vulgate manuscripts; the Textus Receptus (KJV \"of you\")",
+    "orig": "περὶ ὑμῶν",
+    "en": "about you",
+    "plain": "about you"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Us\" has nearly all the manuscripts; \"you\" is in Alexandrinus and a few others, and the Textus Receptus printed it. In later Greek the two words sounded alike, so they were often confused in copying. \"Us\" also fits the point: the whole community's reputation is at stake.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "God's grace has appeared, with salvation for all people",
+  "t": "\"Grace with salvation\", or \"the grace of God our Savior\"?",
+  "p": "The Byzantine text adds \"the\", making \"the saving grace of God\". Some Latin witnesses read \"God our Savior\".",
+  "readings": [
+   {
+    "w": "A corrector of Sinaiticus, Alexandrinus (02), Ephraemi (C, first hand), Claromontanus (D, first hand), 1739; Clement of Alexandria; SBLGNT, NA28",
+    "orig": "ἡ χάρις τοῦ θεοῦ σωτήριος πᾶσιν ἀνθρώποις",
+    "en": "the grace of God, saving for all people",
+    "plain": "God's grace has appeared, with salvation for all people"
+   },
+   {
+    "w": "a corrector of Claromontanus, Ψ, the Byzantine text; the Textus Receptus (KJV \"the grace of God that bringeth salvation hath appeared to all men\")",
+    "orig": "ἡ χάρις τοῦ θεοῦ ἡ σωτήριος πᾶσιν ἀνθρώποις",
+    "en": "the saving grace of God (has appeared) to all people",
+    "plain": "God's saving grace has appeared to all people"
+   },
+   {
+    "w": "Augiensis (F), Boernerianus (G), some Old Latin and Vulgate manuscripts, the Coptic; Lucifer",
+    "orig": "ἡ χάρις τοῦ θεοῦ τοῦ σωτῆρος ἡμῶν",
+    "en": "the grace of God our Savior",
+    "plain": "the grace of God our Savior has appeared to all people"
+   }
+  ],
+  "follow": 0,
+  "why": "Without the article, \"saving\" goes with \"for all people\": grace brings salvation for everyone. The Byzantine article makes \"saving\" describe grace, and \"to all people\" then goes with \"appeared.\" The older text is followed; the meaning is close. The Latin reading brings in the title \"God our Savior\" from 2:10.",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "Jesus Christ",
+  "t": "Jesus Christ, or Christ Jesus?",
+  "p": "The order of the name differs; it does not change the meaning or the question of 2:13.",
+  "readings": [
+   {
+    "w": "Alexandrinus (02), Ephraemi (C), Claromontanus (D), Ψ, the Byzantine text, some Old Latin, the Vulgate, the Syriac; Clement of Alexandria, Ambrosiaster; SBLGNT, NA28; the Textus Receptus",
+    "orig": "Ἰησοῦ Χριστοῦ",
+    "en": "Jesus Christ",
+    "plain": "Jesus Christ"
+   },
+   {
+    "w": "Sinaiticus (01), Augiensis (F), Boernerianus (G), some Old Latin; Westcott-Hort",
+    "orig": "Χριστοῦ Ἰησοῦ",
+    "en": "Christ Jesus",
+    "plain": "Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "Most early witnesses have \"Jesus Christ\". Neither order bears on whether \"God\" and \"Savior\" name one person (see the note and the chapter page).",
+  "s": [
+   "laparola-apparatus"
+  ]
+ },
+ {
+  "v": "3:15",
+  "a": "Grace be with all of you.",
+  "t": "The closing: \"Amen\", and other forms",
+  "p": "The Byzantine text and the KJV add \"Amen\". Some copies say \"the grace of God\" or \"of the Lord\".",
+  "readings": [
+   {
+    "w": "Probably P61 (about AD 700; damaged at this point), Sinaiticus (01, first hand), Alexandrinus (02), Ephraemi (C), 048, 1739, 1881; some Coptic manuscripts; Greek manuscripts known to Jerome; SBLGNT, NA28, Tyndale House",
+    "orig": "ἡ χάρις μετὰ πάντων ὑμῶν.",
+    "en": "Grace (be) with all of you.",
+    "plain": "Grace be with all of you."
+   },
+   {
+    "w": "a corrector of Sinaiticus, H, K, L, P, Ψ and the Byzantine text, the Syriac; Chrysostom; the Textus Receptus (KJV \"Grace be with you all. Amen.\")",
+    "orig": "ἡ χάρις μετὰ πάντων ὑμῶν. ἀμήν.",
+    "en": "Grace (be) with all of you. Amen.",
+    "plain": "Grace be with all of you. Amen."
+   },
+   {
+    "w": "Augiensis (F), Boernerianus (G), 629, the Old Latin and the Vulgate",
+    "orig": "ἡ χάρις τοῦ θεοῦ μετὰ πάντων ὑμῶν. ἀμήν.",
+    "en": "The grace of God (be) with all of you. Amen.",
+    "plain": "The grace of God be with all of you. Amen."
+   },
+   {
+    "w": "Claromontanus (D, first hand) and some Latin manuscripts",
+    "orig": "ἡ χάρις τοῦ κυρίου μετὰ πάντων ὑμῶν.",
+    "en": "The grace of the Lord (be) with all of you.",
+    "plain": "The grace of the Lord be with all of you."
+   }
+  ],
+  "follow": 0,
+  "why": "The short form has early witnesses of several kinds. \"Amen\" was added naturally when letters were read aloud in worship, and the fuller forms fill in whose grace is meant.",
+  "b": "<p>Many manuscripts also add a closing note after the letter. See the note on \"Greet those who love us in the faith\".</p>",
+  "s": [
+   "laparola-apparatus"
+  ]
+ }
+]

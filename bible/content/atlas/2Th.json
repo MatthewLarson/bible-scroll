@@ -1,0 +1,59 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "silas",
+    "timotheus"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "satan",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "paul"
+   ],
+   "events": []
+  }
+ },
+ "places": {},
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "silas": {
+   "name": "Silas"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  }
+ },
+ "events": {}
+}

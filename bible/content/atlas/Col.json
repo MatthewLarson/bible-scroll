@@ -1,0 +1,123 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "colossae"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "timotheus",
+    "epaphras",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "laodicea"
+   ],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "hierapolis",
+    "laodicea"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "tychicus",
+    "onesimus",
+    "aristarchus",
+    "barnabas",
+    "john-25",
+    "jesus",
+    "epaphras",
+    "demas",
+    "luke-25",
+    "archippus",
+    "paul"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "colossae": {
+   "name": "Colossae",
+   "lat": 37.78333333,
+   "lon": 29.25
+  },
+  "laodicea": {
+   "name": "Laodicea",
+   "lat": 37.83692,
+   "lon": 29.10786
+  },
+  "hierapolis": {
+   "name": "Hierapolis",
+   "lat": 37.924517,
+   "lon": 29.124525
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "epaphras": {
+   "name": "Epaphras"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "tychicus": {
+   "name": "Tychicus"
+  },
+  "onesimus": {
+   "name": "Onesimus"
+  },
+  "aristarchus": {
+   "name": "Aristarchus"
+  },
+  "barnabas": {
+   "name": "Barnabas"
+  },
+  "john-25": {
+   "name": "John"
+  },
+  "jesus": {
+   "name": "Jesus"
+  },
+  "demas": {
+   "name": "Demas"
+  },
+  "luke-25": {
+   "name": "Luke"
+  },
+  "archippus": {
+   "name": "Archippus"
+  }
+ },
+ "events": {}
+}

@@ -1,0 +1,458 @@
+[
+ {
+  "v": "1:11",
+  "a": "the fruit",
+  "t": "Fruit or fruits?",
+  "p": "The critical editions have the singular 'fruit'; the Byzantine text and the KJV have 'fruits'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "καρπὸν δικαιοσύνης τὸν",
+    "en": "the fruit of righteousness",
+    "plain": "the fruit"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'the fruits of righteousness')",
+    "orig": "καρπῶν δικαιοσύνης τῶν",
+    "en": "the fruits of righteousness",
+    "plain": "the fruits"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions read the singular, and Paul speaks of 'the fruit of the Spirit' in the singular too (Galatians 5:22). The plural looks like a scribal smoothing to match the many good deeds in view. The sense hardly changes.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "the word",
+  "t": "'The word' or 'the word of God'?",
+  "p": "Westcott-Hort and Tregelles add 'of God', with Sinaiticus, Alexandrinus and Vaticanus. The current editions have just 'the word'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT); P46; Byzantine majority; Textus Receptus (KJV 'the word')",
+    "orig": "τὸν λόγον",
+    "en": "the word",
+    "plain": "the word"
+   },
+   {
+    "w": "Westcott-Hort, Tregelles; Codex Sinaiticus (01), Alexandrinus (02), Vaticanus (03) and others",
+    "orig": "τὸν λόγον τοῦ θεοῦ",
+    "en": "the word of God",
+    "plain": "the word of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The current critical editions agree with P46 and the Byzantine text on the short reading, though the great fourth- and fifth-century codices add 'of God'. 'The word' alone is Paul's way of naming the message (1 Thessalonians 1:6), and scribes often filled out such phrases: some witnesses (F, G) add 'of the Lord' instead. Two different additions point to an original without either.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "wikipedia-php-variants"
+  ]
+ },
+ {
+  "v": "1:16",
+  "a": "Some announce Christ to push themselves forward, not honestly. They imagine they can make my chains harder to bear.",
+  "t": "The order of 1:16 and 1:17 (1 of 2)",
+  "p": "Goes with 1:17. The oldest manuscripts and modern Bibles put the 'love' sentence first, as 1:16.",
+  "readings": [
+   {
+    "w": "KJV verse numbering, which this site follows; Byzantine majority text and Textus Receptus (KJV 1:16 'The one preach Christ of contention')",
+    "orig": "οἱ μὲν ἐξ ἐριθείας τὸν χριστὸν καταγγέλλουσιν, οὐχ ἁγνῶς, οἰόμενοι θλίψιν ἐπιφέρειν τοῖς δεσμοῖς μου",
+    "en": "the ones proclaim Christ from selfish ambition, not purely, supposing to add affliction to my chains",
+    "plain": "Some announce Christ to push themselves forward, not honestly. They imagine they can make my chains harder to bear."
+   },
+   {
+    "w": "The papyrus P46, Codex Sinaiticus (01, 300s), Codex Vaticanus (03, 300s), Codex Alexandrinus (02, 400s) and others; SBLGNT, NA27/NA28; most modern English Bibles, which number this sentence 1:16",
+    "orig": "οἱ μὲν ἐξ ἀγάπης, εἰδότες ὅτι εἰς ἀπολογίαν τοῦ εὐαγγελίου κεῖμαι",
+    "en": "the ones from love, knowing that I am set for the defense of the gospel",
+    "plain": "Some act from love. They know I have been put here to defend the good news."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain shows the KJV order only because this site keys every verse to the KJV numbers, so that 'Philippians 1:16' means the same verse everywhere on the site; the translation of each sentence is made from the critical Greek. The other order is the older text. It answers 1:15 in a crossing pattern: envy and rivalry, good will (1:15); love, selfish ambition (1:16-17). The Byzantine order, which follows 1:15 in a straight line, is probably a scribal rearrangement to make the two groups come in the same order as in 1:15. Switch to the second reading here and at 1:17 to read the lines in the older order. In the Textus Receptus the ambition sentence also has a slightly different verb ('to add' affliction rather than 'to raise' it).",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "christianlibrary-php-order"
+  ],
+  "b": "The witnesses for the older order are named from a collation page that lists P46, 01, 02, 03, 010, 012, 025, 33, 081, 365, 1739 and 1881, and the editions of Tischendorf, Westcott and Hort, Tregelles and the Nestle and Nestle-Aland texts. The SBL text and the NA27/28 text in the word list used for this site agree."
+ },
+ {
+  "v": "1:17",
+  "a": "Others act from love. They know I have been put here to defend the good news.",
+  "t": "The order of 1:16 and 1:17 (2 of 2)",
+  "p": "Goes with 1:16. In the oldest manuscripts and modern Bibles this verse is the 'selfish ambition' sentence.",
+  "readings": [
+   {
+    "w": "KJV verse numbering, which this site follows; Byzantine majority text and Textus Receptus (KJV 1:17 'But the other of love')",
+    "orig": "οἱ δὲ ἐξ ἀγάπης, εἰδότες ὅτι εἰς ἀπολογίαν τοῦ εὐαγγελίου κεῖμαι",
+    "en": "the others from love, knowing that I am set for the defense of the gospel",
+    "plain": "Others act from love. They know I have been put here to defend the good news."
+   },
+   {
+    "w": "P46, Codex Sinaiticus, Vaticanus, Alexandrinus and others; SBLGNT, NA27/NA28; most modern English Bibles, which number this sentence 1:17",
+    "orig": "οἱ δὲ ἐξ ἐριθείας τὸν Χριστὸν καταγγέλλουσιν, οὐχ ἁγνῶς, οἰόμενοι θλῖψιν ἐγείρειν τοῖς δεσμοῖς μου",
+    "en": "the others proclaim Christ from selfish ambition, not purely, supposing to raise affliction for my chains",
+    "plain": "Others announce Christ to push themselves forward, not honestly. They imagine they can make my chains harder to bear."
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry at 1:16.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "christianlibrary-php-order"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "Think this way among yourselves",
+  "t": "'Think this way' or 'Let this mind be in you'",
+  "p": "The KJV's 'Let this mind be in you' follows the Byzantine 'for let this be thought'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "τοῦτο φρονεῖτε ἐν ὑμῖν",
+    "en": "think this among you",
+    "plain": "Think this way among yourselves"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'Let this mind be in you')",
+    "orig": "τοῦτο γὰρ φρονείσθω ἐν ὑμῖν",
+    "en": "for let this be thought among you",
+    "plain": "For let this way of thinking be among you"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions read the plain command 'think'. The Byzantine passive 'let it be thought' with 'for' is smoother and may have been made to suit the clause that follows, which has no verb (see the note on 2:5). The meaning is close; the Byzantine form leans toward the reading 'the mind which was also in Christ Jesus'.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "gave him, as a gift, the name",
+  "t": "'The name' or 'a name'?",
+  "p": "The critical editions have 'the name'; the Byzantine text and the KJV have 'a name'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "τὸ ὄνομα τὸ ὑπὲρ πᾶν ὄνομα",
+    "en": "the name that is above every name",
+    "plain": "gave him, as a gift, the name"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'a name which is above every name')",
+    "orig": "ὄνομα τὸ ὑπὲρ πᾶν ὄνομα",
+    "en": "a name that is above every name",
+    "plain": "gave him, as a gift, a name"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions print the article. With it, the verse points to one well-known name, which most readers take to be 'Lord' (2:11). Without it the sense is still a name above all others. The difference is one small word, but it shapes how the hymn is heard.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:30",
+  "a": "Christ's work",
+  "t": "The work of Christ, or of the Lord?",
+  "p": "Westcott-Hort print 'the Lord's work', with Sinaiticus as corrected and Alexandrinus; the other editions have 'Christ's work'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Tregelles; P46, Codex Vaticanus (03); Byzantine majority and Textus Receptus ('the work of the Christ'; KJV 'the work of Christ')",
+    "orig": "τὸ ἔργον (τοῦ) Χριστοῦ",
+    "en": "the work of Christ",
+    "plain": "Christ's work"
+   },
+   {
+    "w": "Westcott-Hort; Codex Sinaiticus (corrected), Alexandrinus (02) and others, with the Syriac and Coptic versions",
+    "orig": "τὸ ἔργον Κυρίου",
+    "en": "the work of the Lord",
+    "plain": "the Lord's work"
+   }
+  ],
+  "follow": 0,
+  "why": "P46 and Vaticanus, the two oldest witnesses, read 'Christ', and almost every edition follows them. The meaning is the same either way: the mission of the good news, here served by bringing the church's help to Paul.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "wikipedia-php-variants"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "we worship by the Spirit of God",
+  "t": "'Worship by the Spirit of God' or 'worship God in the spirit'",
+  "p": "The KJV's 'worship God in the spirit' follows the Textus Receptus, which has 'God' in the dative.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles; Byzantine majority",
+    "orig": "πνεύματι θεοῦ λατρεύοντες",
+    "en": "worshiping by the Spirit of God",
+    "plain": "we worship by the Spirit of God"
+   },
+   {
+    "w": "Textus Receptus (KJV 'which worship God in the spirit')",
+    "orig": "πνεύματι θεῷ λατρεύοντες",
+    "en": "worshiping God in spirit",
+    "plain": "we worship God in spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "Both the critical editions and the Byzantine majority read 'of God', so the Holy Spirit is the means of worship. The Textus Receptus makes God the object of worship, a common expression that scribes could easily produce by changing one letter. The change also turns 'Spirit' into the human 'spirit'.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "faith in Christ",
+  "t": "Faith in Christ, or the faithfulness of Christ?",
+  "p": "Not a difference between manuscripts: the Greek 'faith of Christ' can be read two ways.",
+  "readings": [
+   {
+    "w": "Objective genitive: Christ is the one believed in. Most English versions; this site's Plain at Romans 3:22 and Galatians 2:16",
+    "orig": "διὰ πίστεως Χριστοῦ",
+    "en": "through faith in Christ",
+    "plain": "faith in Christ"
+   },
+   {
+    "w": "Subjective genitive: Christ is the one who is faithful. A reading defended by a number of modern scholars (see the topic page); the KJV's 'the faith of Christ' keeps the Greek open",
+    "orig": "διὰ πίστεως Χριστοῦ",
+    "en": "through the faithfulness of Christ",
+    "plain": "the faithfulness of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Following the site's decision at Romans 3:22. Here the phrase is followed at once by 'based on faith', which on the subjective reading names the believer's faith and on the objective reading repeats the first phrase for emphasis. The note on 'is based on faith' sets out both sides.",
+  "b": "In the Greek, 'faith of Christ' is the same kind of phrase as 'the faith of Abraham' (Romans 4:16), where Abraham is the one who believes; that is the main argument for the subjective reading. The main argument for the objective reading is that Paul often makes Christ the object of the verb 'believe' (1:29; Galatians 2:16). See the topic page <i>Faith in Christ or the Faithfulness of Christ?</i>"
+ },
+ {
+  "v": "3:11",
+  "a": "the resurrection out from among the dead",
+  "t": "'From among the dead' or 'of the dead'",
+  "p": "The critical text says 'the resurrection that is out from the dead'; the Byzantine and the KJV 'of the dead'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "τὴν ἐξανάστασιν τὴν ἐκ νεκρῶν",
+    "en": "the resurrection that is out from the dead",
+    "plain": "the resurrection out from among the dead"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'the resurrection of the dead')",
+    "orig": "τὴν ἐξανάστασιν τῶν νεκρῶν",
+    "en": "the resurrection of the dead",
+    "plain": "the resurrection of the dead"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions agree on the fuller phrase. It stresses a rising out of the company of the dead, which some readers connect with a first resurrection of believers; the Byzantine wording is the familiar general phrase 'the resurrection of the dead' and is probably an assimilation to it.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "abbott-smith"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "I have already been made perfect",
+  "t": "'Or already justified'?",
+  "p": "A few early witnesses, P46 among them, add a clause: 'or already been justified'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles; Byzantine majority; Textus Receptus",
+    "orig": "ἢ ἤδη τετελείωμαι",
+    "en": "or have already been made perfect",
+    "plain": "I have already been made perfect"
+   },
+   {
+    "w": "The papyrus P46, as the word list used for this site records it",
+    "orig": "ἢ ἤδη δεδικαίωμαι ἢ ἤδη τετελείωμαι",
+    "en": "or have already been justified, or have already been made perfect",
+    "plain": "I have already been justified, or that I have already been made perfect"
+   }
+  ],
+  "follow": 0,
+  "why": "Every printed edition used here leaves the clause out. It is an addition, not a replacement for 'made perfect': the words 'or already justified' stand beside it. It would have Paul deny that he is already justified, which sits hard with Romans 5:1, and the editions treat it as secondary. It still has a modern student: Ryan Giffin wrote a 2019 dissertation on this 'justification clause' at Asbury Theological Seminary.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "giffin-justification"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "Christ caught hold of me",
+  "t": "'Christ' or 'Christ Jesus'?",
+  "p": "The SBL text reads 'Christ'; NA28 prints 'Jesus' in brackets; the Byzantine and the KJV have 'Christ Jesus'.",
+  "readings": [
+   {
+    "w": "SBLGNT, Westcott-Hort",
+    "orig": "ὑπὸ Χριστοῦ",
+    "en": "by Christ",
+    "plain": "Christ caught hold of me"
+   },
+   {
+    "w": "NA28 and Tyndale House (with Ἰησοῦ; NA28 in brackets); Byzantine majority and Textus Receptus ('by the Christ Jesus'; KJV 'Christ Jesus')",
+    "orig": "ὑπὸ (τοῦ) Χριστοῦ Ἰησοῦ",
+    "en": "by Christ Jesus",
+    "plain": "Christ Jesus caught hold of me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text, the SBLGNT, here. NA28's brackets show its editors were unsure. Scribes tended to lengthen the names of Christ, which favors the shorter reading, but the evidence is close. The meaning does not change.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "I do not count myself",
+  "t": "'Not' or 'not yet'?",
+  "p": "Westcott-Hort and the Textus Receptus read 'not yet'; the other editions and the KJV read 'not'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Tregelles; Byzantine majority; the Greek behind the KJV ('I count not myself'), as the word list used here marks it",
+    "orig": "ἐγὼ ἐμαυτὸν οὐ λογίζομαι",
+    "en": "I do not count myself",
+    "plain": "I do not count myself"
+   },
+   {
+    "w": "Westcott-Hort; the Textus Receptus edition used by the word list",
+    "orig": "ἐγὼ ἐμαυτὸν οὔπω λογίζομαι",
+    "en": "I do not yet count myself",
+    "plain": "I do not yet count myself"
+   }
+  ],
+  "follow": 0,
+  "why": "Most editions read the simple 'not'. 'Not yet' makes explicit what the context already implies (3:12 'already'). The word list used for this site marks 'not yet' for its Textus Receptus but 'not' for the Greek the KJV translated, so the KJV here reads 'not'.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "Only, let us stay in line with the point we have already reached.",
+  "t": "A longer ending to 3:16",
+  "p": "The Byzantine text and the KJV add 'by the same rule, let us think the same thing'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "πλὴν εἰς ὃ ἐφθάσαμεν, τῷ αὐτῷ στοιχεῖν",
+    "en": "only, to what we have reached, by the same to keep in line",
+    "plain": "Only, let us stay in line with the point we have already reached."
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'let us walk by the same rule, let us mind the same thing')",
+    "orig": "πλὴν εἰς ὃ ἐφθάσαμεν, τῷ αὐτῷ στοιχεῖν κανόνι, τὸ αὐτὸ φρονεῖν",
+    "en": "only, to what we have reached, to keep in line by the same rule, to think the same thing",
+    "plain": "Only, let us stay in line with the point we have already reached, by the same rule, and think the same thing."
+   }
+  ],
+  "follow": 0,
+  "why": "The short text is in all the critical editions. The added words look like an explanation drawn from Paul's own language: 'rule' as in Galatians 6:16, and 'think the same thing' as in 2:2 and 4:2. They fill out the very compressed Greek.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "in the one who makes me strong",
+  "t": "'The one' or 'Christ'?",
+  "p": "The critical text says 'in the one who makes me strong'; the Byzantine and the KJV name him: 'Christ'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "ἐν τῷ ἐνδυναμοῦντί με",
+    "en": "in the one who strengthens me",
+    "plain": "in the one who makes me strong"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'through Christ which strengtheneth me')",
+    "orig": "ἐν τῷ ἐνδυναμοῦντί με Χριστῷ",
+    "en": "in Christ who strengthens me",
+    "plain": "in Christ, who makes me strong"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions leave the name unstated, and the word list shows 'Christ' only in the Byzantine text and the Textus Receptus. Scribes often added a name to make the subject clear. The meaning is the same: the one who strengthens Paul is Christ (compare 1 Timothy 1:12).",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "4:23",
+  "a": "with your spirit",
+  "t": "'With your spirit' or 'with you all. Amen'",
+  "p": "The KJV's 'with you all. Amen' follows the Byzantine text; the critical text has 'with your spirit'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles (Tyndale House adds 'Amen')",
+    "orig": "μετὰ τοῦ πνεύματος ὑμῶν",
+    "en": "with your spirit",
+    "plain": "with your spirit"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'be with you all. Amen.')",
+    "orig": "μετὰ πάντων ὑμῶν. ἀμήν.",
+    "en": "with you all. Amen.",
+    "plain": "with you all. Amen"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions read 'with your spirit', the same closing as Galatians 6:18 and Philemon 25. 'With you all' is a common ending elsewhere (2 Corinthians 13:14), and scribes tended to add 'Amen' at the end of a letter, as the Tyndale House edition also prints it here.",
+  "b": "The Textus Receptus also reads 'our Lord' (KJV 'The grace of our Lord') and prints a subscription after the letter: <i>pros Philippesious egraphe apo Romes di' Epaphroditou</i>, 'To the Philippians, written from Rome through Epaphroditus'. Such notes were added by later scribes and are not part of the letter; this one gives the traditional view that Paul wrote from Rome (see the book page).",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:30",
+  "a": "He gambled with his life",
+  "t": "'Gambled with his life' or 'not regarding his life'",
+  "p": "The KJV's 'not regarding his life' follows a Byzantine verb that differs by one letter.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA27/NA28, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "παραβολευσάμενος τῇ ψυχῇ",
+    "en": "having risked his life",
+    "plain": "He gambled with his life"
+   },
+   {
+    "w": "Byzantine majority text; Textus Receptus (KJV 'not regarding his life')",
+    "orig": "παραβουλευσάμενος τῇ ψυχῇ",
+    "en": "having disregarded his life",
+    "plain": "He paid no regard to his life"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions read <i>paraboleuomai</i>, 'risk, expose to danger', found only here in the New Testament. The Byzantine <i>parabouleuomai</i>, 'disregard, take no thought for', is a commoner word and differs by one letter. Epaphroditus risked his life for 'Christ's work', which here means bringing the church's help to Paul. 'What was missing' is not a rebuke: the church could not come in person, so he filled in for them.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ }
+]

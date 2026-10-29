@@ -1,0 +1,7 @@
+Status: reviewed, published
+
+Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-col.md.
+2026-10-29 written (flat folder, one part): 95 verses, 110 notes, 24 variants, 38 glosses, 4 chapter pages, 25 topic contributions, 7 traditions cards; new topic cores proposed: colossians, colossae (proposals/nt/topics). Parallels follow Ephesians' Plain where the Greek matches; Philemon and 2 Timothy pairs listed for the lead. Scratch and sources log: .scratch/nt/Col/. VERBOSE --check Col: 0 errors, 0 warnings.
+2026-10-29 review fixes applied (review.md "Fixes applied", 21 findings: 16 fixed, 5 partly (2, 3, 8, 10, 19), none wholly declined). Correction to the line above: the book has 5 traditions cards, not 7 (1:15, 1:24, 2:11-12, 2:16-17, 2:18), now with Orthodox and Lutheran rows where sourced; no headship, slavery or canon card (the Ephesians 5 and 6 and Philemon cards are referenced). Plain changed: 1:5, 1:9, 1:21, 1:24, 2:2, 2:16, 3:16, 3:17, 3:18, 3:24, 3:25, 4:12. Now 95 verses, 111 notes, 29 variants, 38 glosses, 31 topic contributions. Scratch: .scratch/Col-fix/. VERBOSE --check Col: 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections; shared label fixes in content/atlas/names.json), cross-book alignment (greetings, overseer lists, house-church wording, olethros), quote sync across the site, nt proposals merged. VERBOSE --check 0/0.

@@ -1,0 +1,102 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "philippi"
+   ],
+   "people": [
+    "jesus-2",
+    "paul",
+    "timotheus",
+    "god",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "holy-spirit",
+    "jesus-2",
+    "god",
+    "timotheus",
+    "epaphroditus"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "benjamin-5"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "macedonia",
+    "thessalonica"
+   ],
+   "people": [
+    "jesus-2",
+    "euodias",
+    "syntyche",
+    "clement",
+    "god",
+    "epaphroditus"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "philippi": {
+   "name": "Philippi",
+   "lat": 41.01316,
+   "lon": 24.28409
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  },
+  "thessalonica": {
+   "name": "Thessalonica",
+   "lat": 40.630282,
+   "lon": 22.949569
+  }
+ },
+ "people": {
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "god": {
+   "name": "God"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "epaphroditus": {
+   "name": "Epaphroditus"
+  },
+  "benjamin-5": {
+   "name": "Benjamin"
+  },
+  "euodias": {
+   "name": "Euodias"
+  },
+  "syntyche": {
+   "name": "Syntyche"
+  },
+  "clement": {
+   "name": "Clement"
+  }
+ },
+ "events": {}
+}

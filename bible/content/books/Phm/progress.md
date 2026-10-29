@@ -1,0 +1,8 @@
+Status: reviewed, published
+
+Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-phm.md.
+
+- 1:1-25 (flat folder, owns book.json): written 2026-10-29 by the nt-lane writer. 25 verses, 45 notes, 9 variants, 15 glosses, 1 chapter page with 5 settings, 4 deep dives, a spec box and 1 traditions card (slavery: Orthodox, Catholic, Lutheran, Anglican, Methodist, Reformed, Baptist), 15 topic contributions (the colossae contribution waits for the Col core; text in .scratch/nt/Phm/colossae-contribution-for-lead.json), book.json with audience and spec, 3 new topic cores in content/proposals/nt/topics (philemon, onesimus, house-churches). Drift audit: 20 of 25 verses rebuilt. Sources checked are listed in .scratch/nt/Phm/sources-checked.md. Check: 0 errors, 0 warnings in Phm (the 2 errors --check prints belong to 2Th). Awaiting hostile review.
+- 1:1-25 fixed 2026-10-29 by the review fixer: 13 findings (11 fixed, 2 partly, 0 declined outright). Plain changed: 1:7, 1:15, 1:18. Slavery card rebuilt from opened sources (Chrysostom, Aquinas, Gregory XVI, Catechism, Luther via Lightfoot, Lightfoot, Wesley, Calvin, Jones, Barnes, Fuller 1845, SBC). 4 variants added (13 now). colossae contribution added. Check: 0 errors, 0 warnings.
+
+Aligned and handed over 2026-10-29 (lead): atlas reviewed (corrections; shared label fixes in content/atlas/names.json), cross-book alignment (greetings, overseer lists, house-church wording, olethros), quote sync across the site, nt proposals merged. VERBOSE --check 0/0.

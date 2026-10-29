@@ -1,0 +1,341 @@
+[
+ {
+  "v": "1:2",
+  "a": "God our Father",
+  "t": "'God our Father' or 'God the Father'?",
+  "p": "Some editions leave out 'our'. The meaning hardly changes.",
+  "readings": [
+   {
+    "w": "NA28 and NA27 (in square brackets), Tyndale House (THGNT), Tregelles, Byzantine text, Textus Receptus (KJV)",
+    "orig": "θεοῦ πατρὸς ἡμῶν",
+    "en": "God our Father",
+    "plain": "God our Father"
+   },
+   {
+    "w": "SBLGNT, Westcott and Hort",
+    "orig": "θεοῦ πατρός",
+    "en": "God the Father",
+    "plain": "God the Father"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows NA28 and THGNT, which keep 'our', against the SBL edition used elsewhere as the base. The word is in most editions and matches 1:1; a scribe could add it to match 1:1, or drop it by accident. NA28's brackets show the editors were unsure. No change in meaning.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "a flame of fire",
+  "t": "'A flame of fire' or 'a fire of flame'?",
+  "p": "The editions put the two nouns in a different order. The meaning is the same.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tregelles",
+    "orig": "ἐν φλογὶ πυρός",
+    "en": "in a flame of fire",
+    "plain": "a flame of fire"
+   },
+   {
+    "w": "NA28, NA27, Tyndale House (THGNT), Westcott and Hort, Byzantine text, Textus Receptus (KJV 'in flaming fire')",
+    "orig": "ἐν πυρὶ φλογός",
+    "en": "in a fire of flame",
+    "plain": "a fire of flame"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL edition, its base text, whose order is that of the Greek of Isaiah 66:15, the verse this one borrows from (see the note). Most editions print the other order; either way the picture is the same: the Lord comes in blazing fire.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "the day of the Lord",
+  "t": "'The day of the Lord' or 'the day of Christ'?",
+  "p": "The KJV reads 'the day of Christ'. The older editions read 'the day of the Lord'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "ἡ ἡμέρα τοῦ κυρίου",
+    "en": "the day of the Lord",
+    "plain": "the day of the Lord"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἡ ἡμέρα τοῦ Χριστοῦ",
+    "en": "the day of Christ",
+    "plain": "the day of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "All the critical editions read 'the Lord', the Old Testament phrase 'the day of the LORD' that Paul uses in 1 Thessalonians 5:2. 'Christ' looks like a scribe's way of making clear which Lord is meant. In this letter 'the Lord' is Jesus, so the meaning is the same.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "edwards-2thess"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "the man of lawlessness",
+  "t": "'The man of lawlessness' or 'the man of sin'?",
+  "p": "The KJV's famous 'man of sin' comes from the later manuscripts; the oldest read 'lawlessness'.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01, 300s), Codex Vaticanus (03, 300s), 0278, the minuscules 6, 81, 1739, 1881, the Coptic versions; SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "ὁ ἄνθρωπος τῆς ἀνομίας",
+    "en": "the man of lawlessness",
+    "plain": "the man of lawlessness"
+   },
+   {
+    "w": "Codex Alexandrinus (02, 400s), Codex Claromontanus (06), F (010) and G (012), Psi, the Byzantine majority, the Latin and Syriac versions; Textus Receptus (KJV 'that man of sin')",
+    "orig": "ὁ ἄνθρωπος τῆς ἁμαρτίας",
+    "en": "the man of sin",
+    "plain": "the man of sin"
+   }
+  ],
+  "follow": 0,
+  "why": "The older and better witnesses read 'lawlessness', and the word ties the verse to 'the mystery of lawlessness' (2:7) and 'the lawless one' (2:8). 'Sin' is the more common word, which a scribe might put in its place. The NET Bible's editors judge 'lawlessness' slightly more likely; all the critical editions print it. The meaning is close: in 1 John 3:4 sin is lawlessness.",
+  "b": "<p>The witnesses are those listed in the NET Bible's text-critical note. Both readings were known in the early church; the Westminster Confession's 'that man of sin' (25.6) follows the same reading as the KJV.</p>",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "net-bible-2thess"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "He goes so far as to sit down",
+  "t": "'Sit down' or 'sit down as God'?",
+  "p": "The Byzantine text and the KJV add 'as God': 'he as God sits in the temple of God'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "ὥστε αὐτὸν εἰς τὸν ναὸν τοῦ θεοῦ καθίσαι",
+    "en": "so that he sits in the temple of God",
+    "plain": "He goes so far as to sit down"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'he as God sitteth in the temple of God')",
+    "orig": "ὥστε αὐτὸν εἰς τὸν ναὸν τοῦ θεοῦ ὡς θεὸν καθίσαι",
+    "en": "so that he sits as God in the temple of God",
+    "plain": "He goes so far as to sit down as God"
+   }
+  ],
+  "follow": 0,
+  "why": "The words 'as God' are missing from all the critical editions. They spell out what the verse already says at its end ('claiming that he is God'), the kind of explanation scribes added. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "The Lord Jesus",
+  "t": "'The Lord Jesus' or 'the Lord'?",
+  "p": "Some manuscripts and the KJV have only 'the Lord'.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (01), Alexandrinus (02), the first hand of Claromontanus (06), F (010) and G (012), P, Psi, 0278, 33, 81, 104, 365, 1241, 2464, the Latin, Syriac and Coptic versions; SBLGNT, THGNT, Westcott and Hort, Tregelles; NA28 in square brackets",
+    "orig": "ὁ κύριος Ἰησοῦς",
+    "en": "the Lord Jesus",
+    "plain": "The Lord Jesus"
+   },
+   {
+    "w": "Codex Vaticanus (03), 1739, 1881, the Byzantine majority, Irenaeus; Textus Receptus (KJV)",
+    "orig": "ὁ κύριος",
+    "en": "the Lord",
+    "plain": "The Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "Most of the old witnesses have 'Jesus', and most editions print it. The NET Bible's editors think it may be a scribe's addition, since 'the Lord Jesus' was a common title, and NA28 brackets it; but the word could also have dropped out, because in manuscripts 'Lord' and 'Jesus' were both written as short abbreviations side by side. Either way the Lord is Jesus.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "net-bible-2thess"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "do away with him",
+  "t": "'Do away with' or 'consume'?",
+  "p": "The KJV's 'consume' follows a different verb in the later Greek text.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "ἀνελεῖ",
+    "en": "will do away with, kill",
+    "plain": "do away with him"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'shall consume')",
+    "orig": "ἀναλώσει",
+    "en": "will consume",
+    "plain": "consume him"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions read <i>anelei</i>, the verb of the Greek of Isaiah 11:4 ('with the breath of his lips he will do away with the wicked'), which this verse quotes. <i>Analosei</i>, 'will consume', looks alike in Greek letters and fits the fire of 1:8, so a scribe could easily write one for the other.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "God sends them",
+  "t": "'Sends' or 'will send'?",
+  "p": "The KJV has the future 'shall send'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "πέμπει",
+    "en": "sends",
+    "plain": "God sends them"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'God shall send them')",
+    "orig": "πέμψει",
+    "en": "will send",
+    "plain": "God will send them"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions have the present tense. The present may describe what God is already doing as the mystery of lawlessness works (2:7), or be a present with future meaning. The future is the easier reading, since the scene is still to come, and a scribe may have changed it to that.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "as firstfruits",
+  "t": "'As firstfruits' or 'from the beginning'?",
+  "p": "One letter apart in Greek: APARCHEN 'firstfruit', or AP' ARCHES 'from the beginning'. Editions and manuscripts divide.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (03, 300s), F (010) and G (012), P, 0278, 33, 81, 323, 1739, 1881, the Bohairic Coptic; SBLGNT, NA28, NA27",
+    "orig": "εἵλατο ὑμᾶς ὁ θεὸς ἀπαρχὴν εἰς σωτηρίαν",
+    "en": "God chose you as firstfruits for salvation",
+    "plain": "as firstfruits"
+   },
+   {
+    "w": "Codex Sinaiticus (01, 300s), Codex Claromontanus (06), Psi, the Byzantine majority, the Old Latin and Sahidic Coptic; Tyndale House (THGNT), Westcott and Hort, Tregelles, Textus Receptus (KJV); the NET Bible",
+    "orig": "εἵλατο ὑμᾶς ὁ θεὸς ἀπ' ἀρχῆς εἰς σωτηρίαν",
+    "en": "God chose you from the beginning for salvation",
+    "plain": "from the beginning"
+   }
+  ],
+  "follow": 0,
+  "why": "A close call. The Plain keeps the base text, the SBL edition, which NA28 also prints. Paul uses \"firstfruits\" often (Romans 8:23; Romans 11:16; Romans 16:5; 1 Corinthians 15:20, 23; 1 Corinthians 16:15), while \"from the beginning\" (ap' arches) appears nowhere else in his letters; but that cuts both ways, since scribes could change a rare phrase into a familiar Pauline word, and the NET Bible's editors argue on that ground that \"from the beginning\" is the harder reading and more likely original. Thessalonica was not the first church in Macedonia (Philippi was), so \"firstfruits\" would mean the first of a harvest still to come there, not the first converts of the province. THGNT, Westcott and Hort and Tregelles print \"from the beginning\", and many English Bibles follow it.",
+  "b": "<p>In the early manuscripts, written in capitals without spaces, the two readings differ by a single letter: ΑΠΑΡΧΗΝ and ΑΠΑΡΧΗΣ. 'From the beginning' would mean God chose them before time (compare Ephesians 1:4) or from the start of the gospel's work; 'firstfruits' means they were the first of a harvest still to come (see the note). The witness lists are those of the NET Bible's text-critical note; the editions are those of the STEPBible word list.</p>",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "net-bible-2thess",
+   "edwards-2thess"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "that you do and say",
+  "t": "'Do and say' or 'say and do'?",
+  "p": "The KJV's 'every good word and work' reverses the order and adds 'you'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "ἐν παντὶ ἔργῳ καὶ λόγῳ ἀγαθῷ",
+    "en": "in every good work and word",
+    "plain": "that you do and say"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'stablish you in every good word and work')",
+    "orig": "ὑμᾶς ἐν παντὶ λόγῳ καὶ ἔργῳ ἀγαθῷ",
+    "en": "you in every good word and work",
+    "plain": "that you say and do"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions put 'work' first. The order 'word and work' is the more common pair, so a scribe could have changed to it. The meaning does not change.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:6",
+  "a": "they received",
+  "t": "'They received', 'you received' or 'he received'?",
+  "p": "Three forms of the verb survive. The KJV has 'he received'.",
+  "readings": [
+   {
+    "w": "Original hand of Sinaiticus (01), Alexandrinus (02), Claromontanus (06, first hand), 0278, 33 (the form parelabosan); a later corrector of Sinaiticus, Psi, 1739, 1881 and the Byzantine majority (the form parelabon). SBLGNT, NA28, THGNT",
+    "orig": "ἣν παρελάβοσαν παρ' ἡμῶν",
+    "en": "which they received from us",
+    "plain": "they received"
+   },
+   {
+    "w": "F (010), G (012), 1505, 2464; Westcott and Hort, Tregelles",
+    "orig": "ἣν παρελάβετε παρ' ἡμῶν",
+    "en": "which you received from us",
+    "plain": "you received"
+   },
+   {
+    "w": "Textus Receptus (KJV 'which he received of us')",
+    "orig": "ἣν παρέλαβεν παρ' ἡμῶν",
+    "en": "which he received from us",
+    "plain": "he received"
+   }
+  ],
+  "follow": 0,
+  "why": "'They' is awkward after 'any brother', and that is why scribes changed it to 'you' (matching the readers) or 'he' (matching the brother). The harder reading is most likely to be the original, and it has early support; the NET Bible's editors judge so too. The Plain keeps 'they', meaning the members who live out of line.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt",
+   "net-bible-2thess"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "be with all of you.",
+  "t": "The closing 'Amen'",
+  "p": "The Byzantine text and the KJV end with 'Amen'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott and Hort, Tregelles",
+    "orig": "μετὰ πάντων ὑμῶν.",
+    "en": "with all of you.",
+    "plain": "be with all of you."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "μετὰ πάντων ὑμῶν. ἀμήν.",
+    "en": "with all of you. Amen.",
+    "plain": "be with all of you. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions end without 'Amen'. Scribes often added it, because letters were read aloud in worship, where the congregation answered 'Amen'.",
+  "b": "<p>After the letter the Textus Receptus adds a note, printed at the end of the KJV: 'The second epistle to the Thessalonians was written from Athens.' It is a later scribe's heading and not part of the letter. Acts 18:5 and 1 Thessalonians 3:6 suggest Paul was with Silas and Timothy in Corinth, not Athens.</p>",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ }
+]

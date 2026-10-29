@@ -1,0 +1,790 @@
+[
+ {
+  "v": "1:2",
+  "a": "God our Father",
+  "t": "\"From God our Father\" or \"and the Lord Jesus Christ\"?",
+  "p": "The Byzantine text and the KJV add 'and the Lord Jesus Christ', as in Paul's other greetings.",
+  "readings": [
+   {
+    "w": "B (03, 300s), D (06), K, L, Ψ, 33, 81, 1739, 1881, Sahidic Coptic; SBLGNT, NA28, THGNT",
+    "orig": "ἀπὸ θεοῦ πατρὸς ἡμῶν",
+    "en": "from God our Father",
+    "plain": "God our Father"
+   },
+   {
+    "w": "Sinaiticus (01, 300s), A (02, 400s), C (04), F, G, I, P, 075, the Byzantine majority, Old Latin, Bohairic Coptic; Textus Receptus (KJV)",
+    "orig": "ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ",
+    "en": "from God our Father and the Lord Jesus Christ",
+    "plain": "God our Father and the Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Every other letter of Paul's names the Lord Jesus Christ in the greeting, so copyists would add the words here, but none would remove them. The shorter text is also well supported.",
+  "b": "Witness lists from the NET Bible's text-critical note on this verse.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "God, the Father",
+  "t": "\"God the Father\" or \"the God and Father\"?",
+  "p": "Some editions and the KJV read 'God and the Father of our Lord'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort",
+    "orig": "τῷ θεῷ πατρί",
+    "en": "God the Father",
+    "plain": "God, the Father"
+   },
+   {
+    "w": "Tyndale House (THGNT), Tregelles, Byzantine text, Textus Receptus (KJV 'God and the Father')",
+    "orig": "τῷ θεῷ καὶ πατρί",
+    "en": "the God and Father",
+    "plain": "the God and Father"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions differ. 'God and Father of our Lord Jesus Christ' is Paul's usual phrase (Romans 15:6; 2 Corinthians 1:3; Ephesians 1:3), so a copyist could have added 'and' to match it; the Plain follows the shorter text of SBLGNT and NA28. The meaning is nearly the same.",
+  "b": "The editions are as the STEPBible word list marks them.",
+  "s": [
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "For our sake",
+  "t": "Epaphras serves \"for our sake\" or \"for your sake\"?",
+  "p": "One letter in Greek: ἡμῶν 'our' or ὑμῶν 'your'. The Plain follows SBLGNT and THGNT; NA28 reads 'your'.",
+  "readings": [
+   {
+    "w": "P46 (about 200), Sinaiticus (01) first hand, A (02), B (03), D (06) first hand, F, G, 326 first hand, 1505; SBLGNT, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "ὑπὲρ ἡμῶν",
+    "en": "on our behalf",
+    "plain": "For our sake"
+   },
+   {
+    "w": "Sinaiticus corrector, C (04), D corrector, Ψ, 075, 33, 1175, 1739, 1881, 2464, the Byzantine majority, Latin, Syriac and Coptic versions; NA28, NA27, the Byzantine text, Textus Receptus (KJV 'for you')",
+    "orig": "ὑπὲρ ὑμῶν",
+    "en": "on your behalf",
+    "plain": "For your sake"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows SBLGNT and the Tyndale House edition against NA28. The NET Bible's note weighs both sides. 'Our' could have come from a copyist's slip (the same word stands seventeen letters earlier) or from matching the 'we' around it. 'Your' is, in the NET's words, 'somewhat harder', and it too could have come from a slip after the preceding <i>hyper</i>. Since the internal evidence 'can be variously interpreted', the NET decides on the manuscripts, which strongly support 'our'. On that reading Epaphras serves Christ as Paul's representative among them; on the other he serves Christ for the Colossians' good.",
+  "b": "Witness lists from the NET Bible's note on this verse; editions from the STEPBible word list.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "1:12",
+  "a": "made you fit",
+  "t": "\"Made you fit\" or \"made us fit\"?",
+  "p": "The Byzantine text and the KJV say 'us'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "ἱκανώσαντι ὑμᾶς",
+    "en": "who made you fit",
+    "plain": "made you fit"
+   },
+   {
+    "w": "Tregelles, Byzantine text, Textus Receptus (KJV 'which hath made us meet')",
+    "orig": "ἱκανώσαντι ἡμᾶς",
+    "en": "who made us fit",
+    "plain": "made us fit"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions read 'you', which fits a prayer addressed to the Colossians; 'us' fits the 'us' of 1:13 and could have come from it.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "we have redemption",
+  "t": "\"Redemption\" or \"redemption through his blood\"?",
+  "p": "The Textus Receptus (KJV) adds 'through his blood', the words of Ephesians 1:7.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), A (02), B (03), C (04), D, F, G, Ψ, 075, 0150, 6, 33, 1739, 1881, the Byzantine majority, Latin and Coptic versions; SBLGNT, NA28, THGNT, the Robinson-Pierpont Byzantine text",
+    "orig": "ἔχομεν τὴν ἀπολύτρωσιν",
+    "en": "we have redemption",
+    "plain": "we have redemption"
+   },
+   {
+    "w": "383, 424, 614, 630, 1505, 1912, 2200, 2344 first hand, 2464 and part of the Byzantine tradition, some lectionaries, the Clementine Vulgate, the Harklean Syriac, Armenian and Slavonic; Gregory of Nyssa, Cassiodorus; Textus Receptus (KJV)",
+    "orig": "ἔχομεν τὴν ἀπολύτρωσιν διὰ τοῦ αἵματος αὐτοῦ",
+    "en": "we have redemption through his blood",
+    "plain": "we have redemption through his blood"
+   }
+  ],
+  "follow": 0,
+  "why": "The words were copied in from Ephesians 1:7, where the wording is secure. The Robinson-Pierpont Byzantine edition does not print them here, though part of the Byzantine tradition has them; they reached the KJV through the printed Textus Receptus.",
+  "b": "Witness lists from the NET Bible note and the Wikipedia list of textual variants in Colossians. A clear case of harmonizing one letter to its twin.",
+  "s": [
+   "net-bible-col",
+   "wiki-col-variants",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "through him, whether",
+  "t": "\"Through him\" twice or once?",
+  "p": "SBLGNT and NA28 print the second 'through him' in brackets; the manuscripts are divided.",
+  "readings": [
+   {
+    "w": "P46, Sinaiticus (01), A (02), C (04), D corrector, Ψ, 048, 33, the Byzantine majority, Syriac, Bohairic; SBLGNT and NA28 (both in brackets), THGNT, Westcott-Hort, Textus Receptus",
+    "orig": "δι’ αὐτοῦ εἴτε",
+    "en": "through him, whether",
+    "plain": "through him, whether"
+   },
+   {
+    "w": "B (03), D first hand, F, G, I, 0278, 81, 1175, 1739, 1881, 2464, Latin and Sahidic versions",
+    "orig": "εἴτε",
+    "en": "whether",
+    "plain": "whether"
+   }
+  ],
+  "follow": 0,
+  "why": "The evidence is evenly split. The words could have dropped out because the eye of a copyist jumped from one αὐτοῦ to the next, and a repetition for emphasis suits the hymn's style.",
+  "b": "Witness lists from the NET Bible note, which also prefers the longer text.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "1:21",
+  "a": "But now he has reconciled you",
+  "t": "\"He has reconciled you\" or \"you have been reconciled\"?",
+  "p": "SBLGNT alone among the editions prints the passive 'you were reconciled', the reading of P46 and Vaticanus.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), A (02), C (04), D corrector, Ψ, 048, 075, 0278, 1739, 1881, the Byzantine majority, Latin and Syriac; NA28, THGNT, Westcott-Hort, Tregelles, Textus Receptus",
+    "orig": "νυνὶ δὲ ἀποκατήλλαξεν",
+    "en": "but now he has reconciled",
+    "plain": "But now he has reconciled you"
+   },
+   {
+    "w": "P46 (about 200) and B (03, 300s); SBLGNT (other forms in 33 and in D, F, G)",
+    "orig": "νυνὶ δὲ ἀποκατηλλάγητε",
+    "en": "but now you have been reconciled",
+    "plain": "But now you have been reconciled"
+   }
+  ],
+  "follow": 0,
+  "why": "The active verb has the wider support and gives the clause a subject for 'to present you' in 1:22. The passive, though very old, leaves the sentence without a clear subject, which could be original (a hard reading) or a slip. The Plain follows NA28 and THGNT against SBLGNT here.",
+  "b": "Witness lists from the NET Bible note. Either way God (or Christ) is the one who reconciles.",
+  "s": [
+   "net-bible-col",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:28",
+  "a": "complete in Christ",
+  "t": "\"In Christ\" or \"in Christ Jesus\"?",
+  "p": "The Byzantine text and the KJV add 'Jesus'.",
+  "readings": [
+   {
+    "w": "P46, Sinaiticus (01) first hand, A (02), B (03), C (04), D first hand, F, G, 33, 81, 1241, 1739, 1881, 2464; SBLGNT, NA28",
+    "orig": "ἐν Χριστῷ",
+    "en": "in Christ",
+    "plain": "complete in Christ"
+   },
+   {
+    "w": "Sinaiticus corrector, D corrector, H, Ψ, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἐν Χριστῷ Ἰησοῦ",
+    "en": "in Christ Jesus",
+    "plain": "complete in Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the oldest witnesses; adding 'Jesus' to 'Christ' is a common copyist's habit.",
+  "b": "Witness list from the Wikipedia list of textual variants in Colossians."
+ },
+ {
+  "v": "2:2",
+  "a": "God's mystery, that is, Christ",
+  "t": "\"The mystery of God, Christ\": at least a dozen readings",
+  "p": "Copyists made at least a dozen forms of this phrase. The KJV has 'of God, and of the Father, and of Christ'.",
+  "readings": [
+   {
+    "w": "P46 (about 200), B (03, 300s), Hilary; SBLGNT, NA28",
+    "orig": "τοῦ μυστηρίου τοῦ θεοῦ, Χριστοῦ",
+    "en": "of the mystery of God, Christ",
+    "plain": "God's mystery, that is, Christ"
+   },
+   {
+    "w": "Sinaiticus (01) first hand, A (02), C (04), 048, 1175, Bohairic ('of God, the Father of Christ'); Sinaiticus corrector, Ψ, 365, 945, 1505 ('of the God and Father of Christ'); THGNT",
+    "orig": "τοῦ θεοῦ πατρὸς τοῦ Χριστοῦ",
+    "en": "of God the Father of Christ",
+    "plain": "the mystery of God, the Father of Christ"
+   },
+   {
+    "w": "D corrector, K, L, 075, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "τοῦ θεοῦ καὶ πατρὸς καὶ τοῦ Χριστοῦ",
+    "en": "of God and of the Father and of Christ",
+    "plain": "the mystery of God and of the Father and of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The short, awkward reading of P46 and Vaticanus explains all the others: each later form smooths 'of God, Christ' by adding 'which is', 'Father', 'and', or 'in'. The reverse, a copyist cutting a clear phrase down to an awkward one, is hard to imagine.",
+  "b": "Other forms include 'of God, who is in Christ' (33). Witness lists from the NET Bible's note, which counts 'at least a dozen variants' and judges that 'of God, Christ' best explains the rise of the others.",
+  "s": [
+   "net-bible-col",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "overflow with thanksgiving",
+  "t": "\"Overflow with thanksgiving\" or \"overflow in it\"?",
+  "p": "Westcott-Hort, the Byzantine text and the KJV add 'in it' ('abounding therein').",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, NA27, Tregelles",
+    "orig": "περισσεύοντες ἐν εὐχαριστίᾳ",
+    "en": "overflowing with thanksgiving",
+    "plain": "overflow with thanksgiving"
+   },
+   {
+    "w": "Westcott-Hort, Byzantine text, Textus Receptus (KJV 'abounding therein with thanksgiving')",
+    "orig": "περισσεύοντες ἐν αὐτῇ ἐν εὐχαριστίᾳ",
+    "en": "overflowing in it with thanksgiving",
+    "plain": "overflow in it with thanksgiving"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows SBLGNT and NA28. With the added words the overflowing is 'in it', the faith just named; the sense is nearly the same.",
+  "b": "Editions from the STEPBible word list.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "the body of the flesh",
+  "t": "\"The body of the flesh\" or \"the body of the sins of the flesh\"?",
+  "p": "The Byzantine text and the KJV add 'of the sins'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "τοῦ σώματος τῆς σαρκός",
+    "en": "the body of the flesh",
+    "plain": "the body of the flesh"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'the body of the sins of the flesh')",
+    "orig": "τοῦ σώματος τῶν ἁμαρτιῶν τῆς σαρκός",
+    "en": "the body of the sins of the flesh",
+    "plain": "the body of the sins of the flesh"
+   }
+  ],
+  "follow": 0,
+  "why": "The added words explain that 'the body of the flesh' means sinful human nature, not the physical body; that is an explanation, and the critical editions leave it out.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "or drinking",
+  "t": "\"Eating or drinking\" or \"eating and drinking\"?",
+  "p": "SBLGNT and THGNT read 'or', as in the rest of the verse; NA28 reads 'and'.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House (THGNT), Tregelles, the Byzantine text, Textus Receptus",
+    "orig": "ἢ ἐν πόσει",
+    "en": "or in drinking",
+    "plain": "or drinking"
+   },
+   {
+    "w": "NA28, NA27, Westcott-Hort",
+    "orig": "καὶ ἐν πόσει",
+    "en": "and in drinking",
+    "plain": "and drinking"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows SBLGNT and THGNT, whose 'or' matches the 'or ... or' that runs through the rest of the verse. NA28's 'and' joins eating and drinking as one pair. The meaning hardly changes.",
+  "b": "Editions from the STEPBible word list.",
+  "s": [
+   "sblgnt",
+   "thgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "the things he has seen",
+  "t": "\"What he has seen\" or \"what he has not seen\"?",
+  "p": "The KJV's 'things which he hath not seen' follows a later reading that adds 'not'.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01) first hand, A (02), B (03), D first hand, Old Latin d and e, Coptic, Ethiopic; Tertullian and Origen; SBLGNT, NA28, THGNT",
+    "orig": "ἃ ἑόρακεν ἐμβατεύων",
+    "en": "entering what he has seen",
+    "plain": "the things he has seen"
+   },
+   {
+    "w": "Sinaiticus corrector, C (04), D corrector, K, L, P and most later manuscripts, the Vulgate, the Syriac and Gothic; Chrysostom, Theodore of Mopsuestia, Theodoret; Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἃ μὴ ἑώρακεν ἐμβατεύων",
+    "en": "intruding into what he has not seen",
+    "plain": "the things he has not seen"
+   }
+  ],
+  "follow": 0,
+  "why": "The oldest witnesses lack 'not'. With it, the visionary claims what he never saw, which is easier sense; that is why copyists probably added it. F and G read 'not' with a different Greek word (οὐκ), a sign of separate attempts to fix a hard phrase.",
+  "b": "Witness lists from J. B. Lightfoot's note on the readings (1875), who judged the negative 'a later correction'. Lightfoot even suspected an early copying error behind all the manuscripts (see the note).",
+  "s": [
+   "lightfoot-colossians"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "your life",
+  "t": "\"Your life\" or \"our life\"?",
+  "p": "The Byzantine text and the KJV say 'our life'.",
+  "readings": [
+   {
+    "w": "P46, Sinaiticus (01), C (04), D first hand, F, G, P, Ψ, 075, 33, 81, 1881, Latin, Bohairic; SBLGNT, NA28, THGNT, Tregelles",
+    "orig": "ἡ ζωὴ ὑμῶν",
+    "en": "your life",
+    "plain": "your life"
+   },
+   {
+    "w": "B (03), D corrector, H, 0278, 1175, 1505, 1739, 2464, the Byzantine majority, Syriac, Sahidic; Westcott-Hort, Textus Receptus (KJV)",
+    "orig": "ἡ ζωὴ ἡμῶν",
+    "en": "our life",
+    "plain": "our life"
+   }
+  ],
+  "follow": 0,
+  "why": "'Your' has the stronger early support and matches the 'you' all around it; 'our' may come from a copyist who wanted the line to include every Christian.",
+  "b": "Witness lists from the NET Bible note.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "3:6",
+  "a": "comes on the people who disobey",
+  "t": "Are the words \"on the people who disobey\" original?",
+  "p": "P46 and Vaticanus lack them, and NA28 brackets them. Ephesians 5:6 has them.",
+  "readings": [
+   {
+    "w": "Sinaiticus (01), A (02), C (04), D, F, G, H, I, Ψ, 075, 0278, 33, 1739, 1881, the Byzantine majority, Latin, Syriac, Bohairic; SBLGNT, Textus Receptus",
+    "orig": "ἔρχεται ἡ ὀργὴ τοῦ θεοῦ ἐπὶ τοὺς υἱοὺς τῆς ἀπειθείας",
+    "en": "comes on the sons of disobedience",
+    "plain": "comes on the people who disobey"
+   },
+   {
+    "w": "P46, B (03), Old Latin b, Sahidic",
+    "orig": "ἔρχεται ἡ ὀργὴ τοῦ θεοῦ",
+    "en": "comes",
+    "plain": "comes"
+   }
+  ],
+  "follow": 0,
+  "why": "The words are in most witnesses, but they could have been copied in from Ephesians 5:6, which is word for word the same. The editors keep them with some doubt.",
+  "b": "'Sons of disobedience' is a Hebrew way of saying 'disobedient people'. Witness lists from the NET Bible note.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "the Lord also forgave you",
+  "t": "\"The Lord,\" \"Christ\" or \"God\" forgave you?",
+  "p": "The Byzantine text and the KJV say 'Christ forgave you'.",
+  "readings": [
+   {
+    "w": "P46, A (02), B (03), D first hand, G, Old Latin, Vulgate; Pelagius, Augustine; SBLGNT, NA28",
+    "orig": "ὁ κύριος",
+    "en": "the Lord",
+    "plain": "the Lord also forgave you"
+   },
+   {
+    "w": "Sinaiticus corrector, C (04), D corrector, K, P, Ψ, 81, 1739, 1881, the Byzantine majority, Syriac, Coptic; Textus Receptus (KJV)",
+    "orig": "ὁ Χριστός",
+    "en": "Christ",
+    "plain": "Christ also forgave you"
+   },
+   {
+    "w": "Sinaiticus (01) first hand",
+    "orig": "ὁ θεός",
+    "en": "God",
+    "plain": "God also forgave you"
+   }
+  ],
+  "follow": 0,
+  "why": "'The Lord' is the oldest reading; 'Christ' and 'God' look like copyists making clear who 'the Lord' is. Ephesians 4:32 has 'God ... in Christ'.",
+  "b": "Witness lists from the Wikipedia list of textual variants in Colossians."
+ },
+ {
+  "v": "3:15",
+  "a": "the peace of Christ",
+  "t": "\"The peace of Christ\" or \"the peace of God\"?",
+  "p": "The Byzantine text and the KJV read 'the peace of God', as in Philippians 4:7.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles",
+    "orig": "ἡ εἰρήνη τοῦ Χριστοῦ",
+    "en": "the peace of Christ",
+    "plain": "the peace of Christ"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἡ εἰρήνη τοῦ θεοῦ",
+    "en": "the peace of God",
+    "plain": "the peace of God"
+   }
+  ],
+  "follow": 0,
+  "why": "'The peace of God' is the familiar phrase (Philippians 4:7); 'the peace of Christ' is found only here, so a copyist was more likely to change it to the familiar form than the reverse.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "the word of Christ",
+  "t": "\"The word of Christ,\" \"of God\" or \"of the Lord\"?",
+  "p": "'The word of Christ' occurs only here in the New Testament, and some copyists changed it.",
+  "readings": [
+   {
+    "w": "P46, Sinaiticus corrector, B (03), C corrector, D, F, G, Ψ, 075, 1739, 1881, the Byzantine majority, Latin, Sahidic; all the editions",
+    "orig": "ὁ λόγος τοῦ Χριστοῦ",
+    "en": "the word of Christ",
+    "plain": "the word of Christ"
+   },
+   {
+    "w": "A (02), C (04) first hand, 33, 104 and a few others",
+    "orig": "ὁ λόγος τοῦ θεοῦ",
+    "en": "the word of God",
+    "plain": "the word of God"
+   },
+   {
+    "w": "Sinaiticus (01) first hand, I, 1175, Bohairic",
+    "orig": "ὁ λόγος τοῦ κυρίου",
+    "en": "the word of the Lord",
+    "plain": "the word of the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The unusual phrase invited change toward the familiar 'word of God' or 'word of the Lord'. The evidence for 'of Christ' is early and wide.",
+  "b": "Witness lists from the NET Bible note.",
+  "s": [
+   "net-bible-col"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "Sing to God in your hearts",
+  "t": "Singing \"to God\" or \"to the Lord\"?",
+  "p": "The Byzantine text and the KJV read 'in your heart to the Lord', as in Ephesians 5:19.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles",
+    "orig": "ἐν ταῖς καρδίαις ὑμῶν τῷ θεῷ",
+    "en": "in your hearts to God",
+    "plain": "Sing to God in your hearts"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "ἐν τῇ καρδίᾳ ὑμῶν τῷ κυρίῳ",
+    "en": "in your heart to the Lord",
+    "plain": "Sing to the Lord in your heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine reading matches Ephesians 5:19 ('in your heart to the Lord') and is probably a harmonization to it.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:17",
+  "a": "thank God the Father",
+  "t": "\"God the Father\" or \"God and the Father\"?",
+  "p": "The Byzantine text and the KJV add 'and': 'God and the Father'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles",
+    "orig": "τῷ θεῷ πατρί",
+    "en": "to God the Father",
+    "plain": "thank God the Father"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'God and the Father')",
+    "orig": "τῷ θεῷ καὶ πατρί",
+    "en": "to God and the Father",
+    "plain": "thank God and the Father"
+   }
+  ],
+  "follow": 0,
+  "why": "'God and Father' is Paul's usual phrase (compare 1:3), so a copyist could have added 'and' to match it. The meaning is the same.",
+  "b": "Editions from the STEPBible word list.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:18",
+  "a": "your husbands",
+  "t": "\"Your husbands\" or \"your own husbands\"?",
+  "p": "The Byzantine text and the KJV read 'your own husbands', as in Ephesians 5:22.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles",
+    "orig": "τοῖς ἀνδράσιν",
+    "en": "to the husbands",
+    "plain": "your husbands"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'your own husbands')",
+    "orig": "τοῖς ἰδίοις ἀνδράσιν",
+    "en": "to your own husbands",
+    "plain": "your own husbands"
+   }
+  ],
+  "follow": 0,
+  "why": "Ephesians 5:22 has 'own' ('to your own husbands'), and the word was probably carried over from there. The other editions lack it here.",
+  "b": "Editions from the STEPBible word list.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "fearing the Lord",
+  "t": "\"Fearing the Lord\" or \"fearing God\"?",
+  "p": "The Byzantine text and the KJV read 'fearing God'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "φοβούμενοι τὸν κύριον",
+    "en": "fearing the Lord",
+    "plain": "fearing the Lord"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV)",
+    "orig": "φοβούμενοι τὸν θεόν",
+    "en": "fearing God",
+    "plain": "fearing God"
+   }
+  ],
+  "follow": 0,
+  "why": "'The Lord' carries the play on masters and the Lord through the passage (3:22-4:1); 'God' is the more common phrase and looks like a copyist's change.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "3:24",
+  "a": "The Lord Christ is the one you serve as slaves",
+  "t": "A statement or a command?",
+  "p": "The Byzantine text adds 'for', making the line a reason: 'for you serve the Lord Christ'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "τῷ κυρίῳ Χριστῷ δουλεύετε",
+    "en": "you serve the Lord Christ (or: serve the Lord Christ!)",
+    "plain": "The Lord Christ is the one you serve as slaves"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'for ye serve the Lord Christ')",
+    "orig": "τῷ γὰρ κυρίῳ Χριστῷ δουλεύετε",
+    "en": "for you serve the Lord Christ",
+    "plain": "For the Lord Christ is the one you serve as slaves"
+   }
+  ],
+  "follow": 0,
+  "why": "Without 'for', the Greek verb can be read as a statement or as a command; the added 'for' was probably meant to settle it as a statement.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "so that you may know how we are, and so that he may put courage in your hearts",
+  "t": "\"That you may know about us\" or \"that he may know about you\"?",
+  "p": "Small changes give the KJV 'that he might know your estate'. The manuscripts and editions give four forms.",
+  "readings": [
+   {
+    "w": "A (02), B (03), D first hand, F, G, P, 048, 33, 81, 365, 1175; SBLGNT, NA28, Westcott-Hort, Tregelles",
+    "orig": "ἵνα γνῶτε τὰ περὶ ἡμῶν",
+    "en": "so that you may know the things about us",
+    "plain": "so that you may know how we are, and so that he may put courage in your hearts"
+   },
+   {
+    "w": "P46, Sinaiticus corrector, C (04), D corrector, Ψ, the Byzantine majority; Textus Receptus (KJV)",
+    "orig": "ἵνα γνῷ τὰ περὶ ὑμῶν",
+    "en": "so that he may know the things about you",
+    "plain": "so that he may know how you are, and may put courage in your hearts"
+   },
+   {
+    "w": "Tyndale House (THGNT)",
+    "orig": "ἵνα γνῶ τὰ περὶ ὑμῶν",
+    "en": "so that I may know the things about you",
+    "plain": "so that I may know how you are, and so that he may put courage in your hearts"
+   },
+   {
+    "w": "Sinaiticus (01) first hand",
+    "orig": "ἵνα γνῶτε τὰ περὶ ὑμῶν",
+    "en": "so that you may know the things about you",
+    "plain": "so that you may know how you are, and so that he may put courage in your hearts"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading 'that he may know about you' is old (P46) and is the Byzantine text; the Tyndale House edition reads the same letters as 'that I may know about you'. But 4:7 has just said that Tychicus brings news about Paul, which fits 'that you may know how we are', the reading of Alexandrinus, Vaticanus and the first hand of Bezae, printed by NA28, SBLGNT, Westcott-Hort and Tregelles. In Greek the forms differ by a letter or two.",
+  "b": "Witness lists from the Wikipedia list of textual variants in Colossians, which also gives a fifth form, 'that he may know about us', in minuscule 451 and lectionaries 598 and 1356; editions from the STEPBible word list.",
+  "s": [
+   "wiki-col-variants",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "fully convinced",
+  "t": "\"Fully convinced\" or \"complete\"?",
+  "p": "The Byzantine text and the KJV read 'complete', a different but similar-looking Greek word.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "πεπληροφορημένοι",
+    "en": "fully assured",
+    "plain": "fully convinced"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'complete')",
+    "orig": "πεπληρωμένοι",
+    "en": "filled, complete",
+    "plain": "filled full"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer word is the rarer one; copyists would more easily shorten it to the common 'filled' (as in 2:10) than lengthen it.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "4:12",
+  "a": "a slave of Christ",
+  "t": "\"A slave of Christ\" or \"a slave of Christ Jesus\"?",
+  "p": "NA28 adds 'Jesus' in brackets; SBLGNT and the Byzantine text lack it.",
+  "readings": [
+   {
+    "w": "P46, D (06), F, G, Ψ, 075, 1505, 1739, 1881, the Byzantine majority, Old Latin, Syriac; Ambrosiaster, Jerome; SBLGNT, the Byzantine text, Textus Receptus",
+    "orig": "δοῦλος Χριστοῦ",
+    "en": "a slave of Christ",
+    "plain": "a slave of Christ"
+   },
+   {
+    "w": "Sinaiticus (01), A (02), B (03), C (04), I, L, 0278, 33, 81, 365, 629, 1175, 2464, Latin; NA28 (in brackets), NA27, Tyndale House (THGNT), Westcott-Hort, Tregelles",
+    "orig": "δοῦλος Χριστοῦ Ἰησοῦ",
+    "en": "a slave of Christ Jesus",
+    "plain": "a slave of Christ Jesus"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading has strong early Alexandrian support. But the support for the shorter reading is, in the NET's words, 'diverse ... cutting across all major textual groups', and a copyist had little reason to drop the name of Jesus. The Plain follows SBLGNT and the NET's judgment; NA28 brackets the word to show its doubt.",
+  "b": "Witness lists from the NET Bible's note on this verse; editions from the STEPBible word list.",
+  "s": [
+   "net-bible-col",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "takes great pains",
+  "t": "\"Great pains\" or \"great zeal\"?",
+  "p": "The Byzantine text and the KJV read 'a great zeal'.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "ἔχει πολὺν πόνον",
+    "en": "has much toil",
+    "plain": "takes great pains"
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'a great zeal')",
+    "orig": "ἔχει ζῆλον πολύν",
+    "en": "has great zeal",
+    "plain": "has great zeal"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Ponos</i>, 'toil, pain', is rare in the New Testament, and copyists replaced it with the familiar <i>zēlos</i>, 'zeal'.",
+  "s": [
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "Nympha, and the church that meets in her house",
+  "t": "Nympha or Nymphas: \"her house,\" \"his house\" or \"their house\"?",
+  "p": "A woman's name with 'her', or a man's with 'his'? The manuscripts give all three pronouns.",
+  "readings": [
+   {
+    "w": "B (03), 0278, 6, 1739 first hand, 1881, Sahidic; SBLGNT, NA28, Westcott-Hort",
+    "orig": "Νύμφαν καὶ τὴν κατ’ οἶκον αὐτῆς ἐκκλησίαν",
+    "en": "Nympha and the church at her house",
+    "plain": "Nympha, and the church that meets in her house"
+   },
+   {
+    "w": "D (06), F, G, Ψ, the Byzantine majority; Textus Receptus (KJV 'Nymphas, and the church which is in his house')",
+    "orig": "Νυμφᾶν καὶ τὴν κατ’ οἶκον αὐτοῦ ἐκκλησίαν",
+    "en": "Nymphas and the church at his house",
+    "plain": "Nymphas, and the church that meets in his house"
+   },
+   {
+    "w": "Sinaiticus (01), A (02), C (04), P, 075, 33, 81, 104, 326, 1175, 2464, Bohairic; Tyndale House (THGNT), Tregelles",
+    "orig": "τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν",
+    "en": "the church at their house",
+    "plain": "Nympha, and the church that meets in their house"
+   }
+  ],
+  "follow": 0,
+  "why": "'Her' is the harder reading: copyists were more likely to turn a woman who hosted a church into a man than the reverse. 'Their' may come from uncertainty about the name, or from including the brothers of Laodicea. The Tyndale House edition, which the Plain often follows, prints 'their' here; the Plain follows SBLGNT and NA28.",
+  "b": "The name's gender in Greek depends on an accent (Νύμφαν or Νυμφᾶν), and the oldest manuscripts have no accents, so the pronoun decides. Lightfoot (1875) discussed both forms. Witness lists from the NET Bible note.",
+  "s": [
+   "net-bible-col",
+   "lightfoot-colossians"
+  ]
+ },
+ {
+  "v": "4:18",
+  "a": "Grace be with you.",
+  "t": "Does the letter end with \"Amen\"?",
+  "p": "The Byzantine text adds 'Amen'; the Textus Receptus adds a note on where the letter was written.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort",
+    "orig": "ἡ χάρις μεθ’ ὑμῶν",
+    "en": "Grace be with you",
+    "plain": "Grace be with you."
+   },
+   {
+    "w": "Byzantine text, Textus Receptus (KJV 'Amen')",
+    "orig": "ἡ χάρις μεθ’ ὑμῶν. ἀμήν",
+    "en": "Grace be with you. Amen",
+    "plain": "Grace be with you. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "'Amen' was often added at the end of letters read in worship. The critical editions leave it out.",
+  "b": "The Textus Receptus also prints a closing note, 'Written from Rome to the Colossians by Tychicus and Onesimus', printed in the KJV after the verse. Such subscriptions were added by later copyists and are not part of the letter; this one gives the traditional view that Paul wrote from Rome.",
+  "s": [
+   "sblgnt"
+  ]
+ }
+]

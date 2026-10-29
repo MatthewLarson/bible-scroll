@@ -1,0 +1,81 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "crete"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "titus-4"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "nicopolis"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit",
+    "artemas",
+    "tychicus",
+    "apollos",
+    "zenas"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "crete": {
+   "name": "Crete",
+   "lat": 35.23102579604995,
+   "lon": 24.85162918
+  },
+  "nicopolis": {
+   "name": "Nicopolis",
+   "lat": 39.024033,
+   "lon": 20.73573
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "titus-4": {
+   "name": "Titus"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "artemas": {
+   "name": "Artemas"
+  },
+  "tychicus": {
+   "name": "Tychicus"
+  },
+  "apollos": {
+   "name": "Apollos"
+  },
+  "zenas": {
+   "name": "Zenas"
+  }
+ },
+ "events": {}
+}
