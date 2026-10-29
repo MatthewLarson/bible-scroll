@@ -126,3 +126,54 @@ Applied by the review-fixer, 2026-10-29. Scratch scripts in `.scratch/1Co-05-08-
 23. Accepted. New variant entry at 7:38 (see major 4); the 7:34 entry now states that the Greek has "and" and that the Plain's comma is a choice.
 24. Partly. Notes 12, 15 and 58 shortened or split, and the generalization in note 7:4 changed to "Many readers". Note 59 was split so it stays under 160 words (*hyperakmos* has its own note). Not every long sentence was recast.
 
+
+## Verification pass (2026-10-29)
+
+Checked against agent-verify.md and STYLE.md rule 2. Log: .scratch/1Co-05-08-verify/sources-checked.md.
+- Verified: about 55 items opened this session (Tacitus Annals 12.43, P.Oxy. 110 and 523 via Blue, Didache 6:3, Dordrecht 17, Trent, the canons, most Catechism paragraphs, the Augsburg, Smalcald, Belgic, Westminster, Schleitheim, 1689, Formula of Concord and Baptist Faith and Message citations, the 2002, 2009 and 2024 church decisions, and the books and articles in sources.json).
+- Corrected: about 25 (Catechism 1250, 1579 and 1618-1620; Westminster 30 church officers; Schleitheim 2 and 4; Large Catechism command; BFM articles; Aquinas; Justin Dialogue 35; P.Oxy. numbers and wording; Tacitus date; Easter reading made optional; source years and subtitles).
+- Removed: about 45 (the P46 claims and the 8:3 variant entry, Tosefta Shabbat 15:9, Cyprian, Chrysostom reported, all manuscript-age claims in variants, the metzger and comfort-nttc keys, Brownson on the 6:9 card, the Orthodox views on 8:6 and 8:11, the Baptist views on celibacy and idol meat, every general-summary line or the claim it covered, and the Nicene quotation).
+- Not checked and left unchanged (listed at the end of the log): classical and rabbinic locators in notes (Gaius, Mishnah, Strabo, Plato, Josephus, 1 Maccabees, Athenagoras) and some scholar attributions in notes at 6:9.
+
+## Verification check (2026-10-29)
+
+Second, hostile look at the verification pass. Rule 2 followed here: only what I opened this session (Sefaria and other pages as shown by search results, Wikipedia, `texts/en`, the books' `plain.txt` files). `VERBOSE=1 node tools/build.js --check 1Co/05-08`: 0 errors, 1 warning (the 5:5 note quotes 1 Timothy 1:20 as "that they may learn not to blaspheme", which is not the Plain's wording). The Verification pass section does not mention that warning (finding 6).
+
+**Item (1), hedges and unopenable works.** Grep for the hedge phrases ("as reported", "not rechecked", "from memory", "unverified", "not checked", "reported by"): 0 hits in the part's JSON. No `metzger`, `nestle-aland` or apparatus key (0). "NA28" occurs only as an edition label (variants `w` fields; the ch6 line "the NA28 adds 'Christ' in 6:11"), which rests on the word list. Soft hedges that remain: 7:29 "The letter is thought to date from about AD 53-55" (finding 1) and 7:17 "Beruf ... is often named as a root of his teaching" (finding 5).
+
+**Item (2), 11 claims tried, none in the log's verified list.**
+- 6:1 and ch6: Mishnah Gittin 9:10, Shammai only indecency, Hillel almost any reason. Verified (Sefaria pages in search results; Hillel "even if she burned his dish"; Akiva "any reason").
+- 7:3: Mishnah Ketubot 5:6, how often the marital duty falls depends on work. Verified (search results quoting the Mishnah: leisure daily, laborers twice a week, donkey drivers weekly, camel drivers every thirty days).
+- 7:5: Testament of Naphtali 8:8, a season to embrace a wife and a season to abstain for prayer. Verified (earlychristianwritings.com Charles text via search result). "A time for intercourse" is the note's own paraphrase.
+- 7:18: 1 Maccabees 1:15 and Josephus Antiquities 12.241, Jews hiding circumcision. Verified (bible.usccb.org 1 Maccabees 1; lexundria Josephus 12.237-264, via search results).
+- 7:39: Athenagoras, Plea 33, and "about AD 177". Verified in substance (newadvent.org/fathers/0205.htm chapter 33: a second marriage is "a specious adultery"; date late 176 or 177). The note puts "respectable adultery" in quotation marks, but no page shows that wording (finding 3).
+- 6:15: Plato, Republic 404d, "Corinthian girl". Verified (Perseus Shorey via search result: "a little Corinthian maid", proverbial with Attic pastry; Nielsen reads it as a hetaira).
+- 6:15: Strabo 8.6.20, a thousand temple slaves of Aphrodite. Unverifiable as to Strabo himself (his text not opened). Secondary pages agree on the thousand and that Strabo describes the old Greek city, as the note says (finding 4).
+- 5:7: Mishnah Pesahim 1:1, searching for leaven on the eve of the fourteenth. Verified (Sefaria Pesahim 1:1 via search results).
+- 6:1 and ch6: Gittin 88b (Talmud forbids Gentile courts), Gaius Institutes 1.63 (stepmother barred), Mishnah Sanhedrin 7:4 (father's wife among those stoned). Verified in substance (secondary pages quoting Rabbi Tarfon in Gittin 88b; the Scott and Poste translations of Gaius 1.63; Sefaria Sanhedrin 7:4).
+- 7:23: Gregory of Nyssa's fourth homily on Ecclesiastes "is often called the first known writing to condemn owning slaves outright". Overstated: the pages opened call it unusually forceful and Gregory the only Father to oppose slaveholding outright, and one scholar (Huffmaster, Berkeley Journal of Religion and Theology 5.1) says it does not call for abolition. No page says "first known" (finding 2).
+- Quoted Plains (Psalm 96:5, Isaiah 41:24, Leviticus 18:22, Deuteronomy 32:17, Genesis 1:27, Deuteronomy 24:1 and 25:4, Numbers 25:9, Exodus 12:15). Verified: identical to the books' `plain.txt`.
+
+**Item (3), named modern-scholar attributions not shown as checked in the log** (its "Not checked" line names Hays/Thiselton/Fee and the 6:9 attributions). Locations:
+- notes: 6:1 Winter, Bruce; 6:4 Fee; 6:9 Thiselton, Gagnon (Leviticus LXX coinage), Hays, Boswell (and "the NIV of 1984 used 'male prostitutes'"), Scroggs, Dale Martin; 6:12 Hurd (1965; the book's existence only) and Murphy-O'Connor (1978; CBQ 40, 391-96 confirmed in a search result, the argument not read); 6:15 Murphy-O'Connor (doubts temple prostitution continued); 6:20 Deissmann, Dale Martin; 7:7 Jeremias (Paul a widower); 7:14 Jeremias, Aland; 7:19 Nanos, Fredriksen, Rudolph; 7:21 Bartchy (1973); 7:22 Dale Martin; 7:26 Winter, Bruce; 7:36 Fee, Achelis (1902); 8:1 Blue, Cheung, Gooch; 8:6 Wright, Bauckham, Hurtado, Dunn, Boyarin.
+- chapters: ch5 views (Chow); ch6 settings and deep dive (Bruce, Winter, Garland); ch7 deep dive (Instone-Brewer); ch8 deep dive (Mitchell).
+- topics: `marriage` uncommon (Instone-Brewer); `slavery` uncommon (Bartchy); `same-sex-relations` (Boswell, Scroggs, Martin); uncommon (Dale Martin).
+- About 50 location/name pairs. Also left in content although the log marks them "not checked" and I could not open them either: Josephus Antiquities 14.235 (6:1), Philo Special Laws 3.37-42 (6:9), Luther's German of 1522 "Weichlinge" (6:9).
+
+**Item (4), traditions cards.** 0 cards with fewer than two views (ch5 six, ch6 seven, ch7 five/six/six, ch8 five/five/five). Two cards lost a view the log lists as removed, and the card now has no voice from a tradition that plausibly differs: ch8 card 1 (8:6) has Catholic, Reformed, Unitarian, Jehovah's Witnesses and Oneness Pentecostal, with no Orthodox or Lutheran voice; ch7 card 0 (single life) lost its Baptist view. These are recorded as finding 7, not as errors in what remains.
+
+### Findings
+1. **Major.** 7:29 note: "The letter is thought to date from about AD 53-55." No source was opened for it, and the 01-04 pass removed this very date as unconfirmed. The same sentence recurs in 09-11 (11:23, ch9, ch11). Cut the date or open a source.
+2. **Minor.** 7:23: "often called the first known writing to condemn owning slaves outright" is not stated by any page opened. Cut "first known writing" or say only what the homily argues.
+3. **Minor.** 7:39: "respectable adultery" in quotation marks is not the wording of any page opened ("specious adultery"). Remove the quotation marks or quote a named translation.
+4. **Minor.** 6:15: Strabo 8.6.20 was never opened (log: not checked); the claim rests on secondary pages. Open Strabo or say only what the note's other sources show.
+5. **Minor.** Left in although the log marks them "not checked": Josephus Antiquities 14.235, Philo Special Laws 3.37-42, Luther "Weichlinge", Boswell and the 1984 NIV, and the hedge "often named as a root" at 7:17. agent-verify.md says remove what cannot be opened.
+6. **Minor.** `--check 1Co/05-08` is not at 0 warnings (the 5:5 quotation of 1 Timothy 1:20), and the Verification pass section does not report the result.
+7. **Minor.** ch8 card 1 (no Orthodox view on 8:6) and ch7 card 0 (no Baptist view) lost views that differ from the remaining ones. Restore only from a source that is opened.
+
+## Verification fixes (2026-10-29)
+
+Second round on the Verification check above. Log: `.scratch/1Co-05-08-verify/sources-checked.md` ("Second round").
+- Findings 1-5 and 7 handled. 1: the 7:29 date removed. 2: Gregory of Nyssa rewritten. 3: Athenagoras now quotes "specious adultery" and names the New Advent translation. 4: Strabo 8.6.20 opened on Perseus and quoted in sense. 5: Josephus Antiquities 14.235, Philo Special Laws, Luther "Weichlinge", Boswell/NIV 1984 and the "Beruf" hedge removed. 7: not restored, no source opened (Orthodox on 8:6, Baptist on celibacy). 6: `--check 1Co/05-08` is 0 errors and 1 warning, the 5:5 quotation of 1 Timothy 1:20, left for the lead to sync when 1 Timothy is written.
+- Modern-scholar attributions: about 8 names kept as verified (Wright, Bauckham, Hays, Gagnon, Dale Martin, Instone-Brewer, Cheung, Gooch, Mitchell, Deissmann, Murphy-O'Connor on the 1978 article); about 16 names dropped with the view kept (Winter, Garland, Fee, Thiselton, Hurd, Boswell, Scroggs, Jeremias, Aland, Nanos, Fredriksen, Rudolph, Bartchy, Hurtado, Dunn, Boyarin, Chow, Achelis, plus Martin on three other points).
+- 148 source keys removed from note entries, 22 from chapter entries, and 14 definitions deleted from `sources.json`.

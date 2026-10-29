@@ -21,3 +21,22 @@ Planned 2026-10-29: nt lane, 5 parts: 01-04 (owns book.json), 05-08, 09-11, 12-1
 09-11 fixes applied 2026-10-29 (review-fixer): 28 findings handled (27 accepted, 1 partly: 1; none declined). Now 76 notes (new at 10:30 and 11:33), 24 variants (new at 9:10, 9:22, 10:1, 10:2, 10:11, 10:24, 11:26, 11:31; 10:9 rebuilt, 11:27 corrected), 29 glosses. Plain changed at 9:22, 9:24, 9:26, 9:27, 10:13, 11:2, 11:14, 11:15, 11:17, 11:20, 11:21, 11:26, 11:27, 11:30, 11:33. Manuscript names for most variants could not be confirmed and are stated as not itemized. Check 0 errors, 0 warnings.
 
 Hostile review, fixes and atlas review done 2026-10-29; quote sync across other books done; proposals merged. Ready to publish.
+
+Verification pass 2026-10-29 (12-14): see parts/12-14/review.md. Calvin on 12:13 corrected; unverifiable witness lists and citations removed. Check 0/0.
+
+Verification pass 2026-10-29 (05-08): manuscript witnesses and unchecked traditions-card details removed or corrected; 8:3 P46 variant deleted (now 21 variants); metzger and comfort-nttc keys dropped from variants; 4 new source keys. Log in .scratch/1Co-05-08-verify/. Check: 0 errors, 1 warning from 1 Timothy 1:20 (the new 1Ti Plain, not this part).
+
+01-04 verification pass 2026-10-29: about 72 verified, 24 corrected, 21 removed (see .scratch/1Co-01-04-verify/sources-checked.md); Chrysostom and Calvin 4:6 attributions fixed, Strugnell/4Q169/4Q174/Metzger/NA28 keys removed. Check 0 errors, 0 warnings.
+
+
+09-11 verification pass 2026-10-29: about 70 verified, 15 corrected, 55 removed (see .scratch/1Co-09-11-verify/sources-checked.md); Berakhot 7:5, Bava Metzia 7:4, LCMS Brief Statement, Tosefta and Biblical Antiquities claims removed or fixed; manuscript lists now from the NET Bible notes; metzger keys dropped. Check 0/0 for this part.
+
+15-16 verification pass 2026-10-29 (agent-verify): 62 verified, 17 corrected, 33 removed; manuscript lists and unopened-work attributions dropped, Jerome on Titus 3:13 and Socrates 3.16 claims corrected; log in .scratch/1Co-15-16-verify/. Check 0/0 for the part.
+
+15-16 verification second round 2026-10-29: dates (AD 50, 54/55, 30/33) and unread scholar names removed, Orthodox rapture view added, Fee/Thiselton/Garland keys off entries; --check 0/0.
+- 2026-10-29 verification second round, part 05-08: hedged dates, scholar attributions and unopened citations fixed or dropped (see parts/05-08/review.md "Verification fixes").
+
+Verification fixes 2026-10-29 (12-14, second round): second-check findings applied; about 25 named-scholar attributions cut to what opened pages state, commentary keys removed from unopened entries; Justin/Didache dates softened; ware-orthodox removed. Log in .scratch/1Co-12-14-verify/. Check 0/0 for the part.
+
+09-11 second verification round 2026-10-29: date now 'usually AD 53-57' (Wikipedia); Tertullian cloud, idol-meat card (Catholic, Orthodox, Messianic Jewish sourced) and scholar attributions fixed; Murphy-O'Connor key removed. Check 0/0.
+- 2026-10-29: 1Co 01-04 verification second round (scholar attributions, dates, Orthodox/Ware key, Baur, Josephus): 0 errors, 0 warnings.

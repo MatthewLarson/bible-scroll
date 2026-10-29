@@ -43,10 +43,7 @@
   ],
   "follow": 0,
   "why": "All the critical editions print 'greater,' and it picks up the word used of prophecy and love in the neighboring verses (13:13; 14:5). 'Better' looks like a smoothing: 'greater' might suggest a rank among gifts, and scribes may have wanted to say they are more useful. The sense changes only a little.",
-  "b": "In both readings Paul tells the Corinthians to be eager for gifts that count most for others; chapter 14 explains that prophecy is 'greater' than tongues because it builds up the church.",
-  "s": [
-   "metzger"
-  ]
+  "b": "In both readings Paul tells the Corinthians to be eager for gifts that count most for others; chapter 14 explains that prophecy is 'greater' than tongues because it builds up the church."
  },
  {
   "v": "13:3",
@@ -55,30 +52,30 @@
   "p": "One letter's difference in the Greek gives 'boast' or 'be burned,' and the 'burned' reading has two forms.",
   "readings": [
    {
-    "w": "P46 (about AD 200), Alexandrinus (02) and Vaticanus (03). Sinaiticus (01) is listed with them in some apparatuses and not in others, so its witness is disputed. NA28 and Westcott-Hort print this reading",
+    "w": "P46, Sinaiticus (01), Alexandrinus (02), Vaticanus (03), 048, minuscule 33 and the original hand of minuscule 1739, as listed in the NET Bible's textual note. NA28 and Westcott-Hort print this reading",
     "orig": "ἵνα καυχήσωμαι",
     "en": "that I may boast",
     "plain": "so that I can boast"
    },
    {
-    "w": "A future indicative form, printed by the SBLGNT and Tyndale House. Latin witnesses (the Vulgate, ut ardeam) also read 'burned' but cannot show which Greek form lay behind them",
+    "w": "Codex Ephraemi (C), Claromontanus (D), Augiensis (F), Boernerianus (G), L, minuscules 81, 1175 and the original hand of 1881, and the Latin witnesses (the Vulgate, ut ardeam), as listed in the NET Bible's textual note. The SBLGNT and Tyndale House print this future indicative form",
     "orig": "ἵνα καυθήσομαι",
     "en": "that I will be burned",
     "plain": "so that I will be burned"
    },
    {
-    "w": "The Byzantine text and the Textus Receptus (the King James Version, 'to be burned'); Tregelles also prints it. The ending looks like a subjunctive, but the verb is a future in form, and the NET Bible note and Metzger count it an irregular form",
+    "w": "The Byzantine text (the NET note names Psi and the later hands of 1739 and 1881 with it) and the Textus Receptus (the King James Version, 'to be burned'); Tregelles also prints it. The ending looks like a subjunctive, but the verb is a future in form, and the NET Bible note calls the form impossible in Koine Greek",
     "orig": "ἵνα καυθήσωμαι",
     "en": "that I may be burned",
     "plain": "so that I may be burned"
    }
   ],
   "follow": 0,
-  "why": "The 'boast' reading has the earliest Greek support, and it explains the other two: the Greek letters chi (χ) and theta (θ) are easy to swap, and a copyist who thought of martyrdom by fire could have made the change, which is how Metzger's committee accounts for 'burned.' The two 'burned' forms differ from each other, which fits a later fix of an older text. This is a place where the Plain departs from the SBLGNT base text, which prints the 'burned' form with the omicron.",
-  "b": "'Boast' fits the context of 13:1-3 in which spiritual deeds are used for self-display: giving away one's goods, or even one's body, for the sake of one's own glory. 'Burned' reads as martyrdom by fire (compare Daniel 3), but Christian martyrdom by burning is not attested until after Paul wrote (Nero's persecution of AD 64), and the verse's third example is already the extreme one. A third idea is that the body is handed over into slavery to raise money for the poor; 1 Clement 55:2 reports that some Christians did this.",
+  "why": "The 'boast' reading has the earliest Greek support, and it explains the other two: the Greek letters chi (χ) and theta (θ) are easy to swap, and a copyist who thought of martyrdom by fire could have made the change, which is how Metzger argues 'burned' arose, as Bill Mounce's summary of Metzger states. The two 'burned' forms differ from each other, which fits a later fix of an older text. This is a place where the Plain departs from the SBLGNT base text, which prints the 'burned' form with the omicron.",
+  "b": "'Boast' fits the context of 13:1-3 in which spiritual deeds are used for self-display: giving away one's goods, or even one's body, for the sake of one's own glory. 'Burned' reads as martyrdom by fire (compare Daniel 3), but Christian martyrdom by burning is not attested until after Paul wrote (Nero's persecution of AD 64), and the verse's third example is already the extreme one. A third idea is that the body is handed over into slavery to raise money for the poor; 1 Clement 55 reports that some Christians did this.",
   "s": [
    "metzger",
-   "thiselton-1co-nigtc"
+   "net-bible-notes"
   ]
  },
  {
@@ -154,23 +151,22 @@
   "p": "The Western tradition places verses 34-35 after verse 40; some scholars think they were added later.",
   "readings": [
    {
-    "w": "The great majority of Greek manuscripts, including P46 (about AD 200), Sinaiticus, Alexandrinus and Vaticanus (which carries a marginal mark here whose meaning is disputed); all printed Greek editions",
+    "w": "The great majority of Greek manuscripts; all printed Greek editions",
     "orig": "αἱ γυναῖκες ἐν ταῖς ἐκκλησίαις σιγάτωσαν...",
     "en": "the women should be silent in the churches",
     "plain": "In the churches, the women are to be silent. They are not given permission to speak. Instead, let them submit, as the law also says."
    },
    {
-    "w": "The verses after 14:40: Codex Claromontanus (06), Augiensis (010), Boernerianus (012), minuscule 88 in its original hand (88*), several Old Latin copies, Codex Fuldensis (Vulgate, 546) and Ambrosiaster, as reported by Metzger and in the NA28 apparatus",
+    "w": "The verses after 14:40: Claromontanus (D, 06), Augiensis (F, 010), Boernerianus (G, 012) and minuscule 88, according to the Wikipedia articles on those manuscripts and its list of variants in 1 Corinthians. The Wikipedia article on Codex Boernerianus also says some Latin Vulgate manuscripts share the order. In Codex Fuldensis (the Vulgate, copied between 541 and 546) the scribe wrote verses 34-35 in the margin and gave verses 36-40 before them",
     "orig": "(14:34-35 after 14:40)",
     "en": "(placed after verse 40)",
     "plain": ""
    }
   ],
   "follow": 0,
-  "why": "Every Greek manuscript has 14:34-35, but a group of Western witnesses has them after 14:40, which is where the second reading puts them. The editions (NA28, SBLGNT, Tyndale House) keep them here, because no manuscript omits them and the Western order is generally thought to be a later move by copyists. Gordon Fee and Philip Payne argue that the displacement shows the verses were first a marginal note. See the note on the verse and the deep dive in the chapter notes.",
-  "b": "The Byzantine text and the Textus Receptus (the King James Version) have small differences within the verse: 'your women' (<i>hymon</i>), 'it has been allowed' (<i>epitetraptai</i>) and the infinitive 'to submit' (<i>hypotassesthai</i>) in place of the command 'let them submit.' They do not change the sense. A fuller treatment: Fee, <i>The First Epistle to the Corinthians</i>, pp. 699-708 of the first edition (1987); Payne, <i>Man and Woman, One in Christ</i>, chapter 11; Niccum on the Vaticanus mark.",
+  "why": "Every Greek manuscript has 14:34-35, but a group of Western witnesses has them after 14:40, which is where the second reading puts them. The editions (NA28, SBLGNT, Tyndale House) keep them here, because the Greek manuscripts have them, in one place or the other. Gordon Fee and Philip Payne argue that the displacement shows the verses were first a marginal note. See the note on the verse and the deep dive in the chapter notes.",
+  "b": "The Byzantine text and the Textus Receptus (the King James Version) have small differences within the verse: 'your women' (<i>hymon</i>), 'it has been allowed' (<i>epitetraptai</i>) and the infinitive 'to submit' (<i>hypotassesthai</i>) in place of the command 'let them submit.' They do not change the sense. A fuller treatment: Fee, <i>The First Epistle to the Corinthians</i>; Payne, <i>Man and Woman, One in Christ</i>; Niccum's article on the manuscript evidence.",
   "s": [
-   "metzger",
    "fee-1co-nicnt",
    "payne-man-woman",
    "payne-fuldensis",
@@ -184,7 +180,7 @@
   "p": "This goes with the variant on 14:34: the Western tradition places both verses after verse 40.",
   "readings": [
    {
-    "w": "The great majority of Greek manuscripts, including P46, Sinaiticus, Alexandrinus and Vaticanus; all printed Greek editions",
+    "w": "The great majority of Greek manuscripts; all printed Greek editions",
     "orig": "εἰ δέ τι μαθεῖν θέλουσιν...",
     "en": "if they want to learn anything",
     "plain": "If they want to learn anything, their own husbands are the ones to question at home, since it is shameful for a woman to speak in church."
@@ -198,10 +194,7 @@
   ],
   "follow": 0,
   "why": "This verse goes with 14:34, and the evidence is the same: the Western witnesses move both verses together after 14:40, while every Greek manuscript has them here. See the variant on 14:34 for the witnesses and the arguments.",
-  "b": "The Textus Receptus reads <i>gynaixin</i>, 'in women' (the plural), where the critical text has the singular <i>gynaiki</i>, 'for a woman'. Westcott and Hort read <i>manthanein</i> for <i>mathein</i>, 'to learn.' Neither changes the English.",
-  "s": [
-   "metzger"
-  ]
+  "b": "The Byzantine text and the Textus Receptus read <i>gynaixin</i>, 'in women' (the plural), where the critical text has the singular <i>gynaiki</i>, 'for a woman'. This does not change the English."
  },
  {
   "v": "14:37",
@@ -229,10 +222,7 @@
    }
   ],
   "follow": 0,
-  "why": "Most critical editions print the singular 'command,' and the Plain follows them. The plural of the Byzantine text may come from a wish to make a general statement of everything Paul has written. The shorter text printed by the SBLGNT would mean the same thing, because 'the Lord's' would then carry the sense of 'the Lord's word.' This entry gives the editions; the Greek manuscripts that carry each reading are listed in the NA28 apparatus and in Metzger's Textual Commentary. The English is not much different in any reading.",
-  "s": [
-   "metzger"
-  ]
+  "why": "Most critical editions print the singular 'command,' and the Plain follows them. The plural of the Byzantine text may come from a wish to make a general statement of everything Paul has written. The shorter text printed by the SBLGNT would mean the same thing, because 'the Lord's' would then carry the sense of 'the Lord's word.' This entry gives the editions only and names no manuscripts. The English is not much different in any reading."
  },
  {
   "v": "14:38",
@@ -254,9 +244,6 @@
    }
   ],
   "follow": 0,
-  "why": "Most critical editions print the first reading. It is a wordplay with 'recognize' in 14:37: if anyone does not recognize Paul's authority, he is not recognized, meaning that God (or the church) will not recognize him, as in 8:3. The second is a command, and it makes Paul wash his hands of the matter. The editions are divided, and the manuscript witnesses are listed in the NA28 apparatus. The Plain follows the editions that print the first.",
-  "s": [
-   "metzger"
-  ]
+  "why": "Most critical editions print the first reading. It is a wordplay with 'recognize' in 14:37: if anyone does not recognize Paul's authority, he is not recognized, meaning that God (or the church) will not recognize him, as in 8:3. The second is a command, and it makes Paul wash his hands of the matter. The Plain follows the editions that print the first. This entry names no manuscripts."
  }
 ]

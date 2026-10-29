@@ -178,3 +178,49 @@ Applied by the review-fixer, 2026-10-29. Plain verses changed: 9:22, 9:24, 9:26,
 28. Accepted. Note 7 cites Mishnah Bava Metzia 7:4 (as reported) and drops the hired-worker conflation.
 
 Quotes of changed verses in other books: none found in content/ outside this part (checked by text scan), so nothing for the lead's quote sync.
+
+
+## Verification pass (2026-10-29)
+
+Applied under STYLE.md rule 2 by a verification agent. Counts: about 70 items verified (kept, hedges removed), 15 corrected, about 55 removed. Corrections that mattered: the Mishnah Berakhot 7:5 citation for the cup of blessing was wrong (replaced by Pesachim 10:7); Mishnah Bava Metzia 7:4 does not apply the muzzling ban to other animals (removed); the LCMS Brief Statement has no passage on women (replaced by a 2020 LCMS article); AC 10 and the Formula of Concord quotes, Trent session wording, BFM art. 18 and Herodotus 7.208 were fixed to what the texts say. The 10:9, 9:15, 9:20, 10:2 and 11:2 manuscript lists now come from the NET Bible notes read this session; all metzger and comfort-commentary keys are dropped. Tosefta Sukkah 3:11, Biblical Antiquities 11:15, 1QSa/1QM locators, Pliny, Roebuck, Chrysostom, Calvin and many scholar attributions could not be opened and were removed or cut back to titles. Log: .scratch/1Co-09-11-verify/sources-checked.md.
+
+## Verification check (2026-10-29)
+
+Second, hostile look at the verification pass. Rule 2 followed here: only what I opened this session (search results quoting the pages named, Wikipedia, `texts/en`, the books' `plain.txt` files). `VERBOSE=1 node tools/build.js --check 1Co/09-11`: 0 errors, 0 warnings.
+
+**Item (1), hedges and unopenable works.** Grep for the hedge phrases: 0 hits in the part's JSON. No `metzger`, `nestle-aland`, `comfort` or apparatus key (0). The manuscript lists at 9:15, 9:20, 10:2, 10:9 and 11:2 are each attributed in the `w` field to the NET Bible note, which the log says was read (net9, net10, net11 in the scratch folder). "NA28" and "THGNT" appear only as edition labels. One soft claim remains: 11:23 and the ch9 and ch11 pages carry "about AD 53-55" with no source (finding 1).
+
+**Item (2), 9 claims tried, none in the log's verified list.**
+- 10:2 note: Tertullian, On Baptism 9, reads the cloud and the sea as foreshadowing baptism. Partly verified: chapter 9 is headed "Types of the Red Sea, and the Water from the Rock" and reads the sea crossing as a figure of baptism (tertullian.org ANF page via search result); no page I opened shows the cloud (finding 2).
+- 11:32 note: Westminster Confession 17.3 (believers can fall into grievous sins and bear temporal judgments, yet are kept). Verified (apuritansmind.com, reformedconfessions.com and other pages in search results: "temporal judgments", "for a time").
+- 10:20 note: Baruch 4:7, "sacrificing to demons and not to God". Verified (RSV and NRSV wording; Douay-Rheims "devils" in the Vulgate "immolantes daemoniis, et non Deo").
+- 10:20 note: Psalm 106:37. Verified (`texts/en/Psa.json`, WEB and BSB: sacrificed sons and daughters to demons).
+- 11:34 note: Acts 20:2-3, three months in Greece. Verified (`texts/en/Act.json` 20:3).
+- 9:6 note: Acts 18:3, tentmakers. Verified (`texts/en/Act.json`).
+- 9:5 note: Mark 1:30, Peter's mother-in-law healed. Verified (`texts/en/Mrk.json` 1:30, "Simon's wife's mother").
+- topics `1-corinthians`: Isthmian Games held every two years. Verified (Wikipedia Isthmian Games and other pages in search results: biennial, in Poseidon's honor).
+- Quoted Plains: Deuteronomy 25:4, Numbers 25:9, Exodus 14:22, Deuteronomy 32:17, Genesis 1:27. Verified: identical to `plain.txt`.
+- 11:23 and ch9, ch11: "this letter (about AD 53-55)". Unverifiable: nothing opened gives it, and the 01-04 pass removed this date. Finding 1.
+
+**Item (3), named modern-scholar attributions not shown as checked** (the log's line 56 lists Hock, Marshall, Martin, Hays, Dunn, Nanos, Dodd, Weiss/Schmithals, Fredriksen/Boyarin, Murphy-O'Connor on hair, villas and games, Winter, Walker, Payne, Grudem as "not confirmed"). Locations:
+- notes: 9:6 Hock (title and year only); 9:12 Marshall (title and year only); 9:19 Dale Martin (book only); 9:20 David Rudolph (book only); 10:21 Cheung, Gooch (on idol meat); 11:3 Murphy-O'Connor (view that 11:2-16 is not Pauline: JBL 95, 1976, title not confirmed in the log), Fitzmyer (kephale article: Crossref title only); 11:4 Oster (article title only); 11:5 Wire; 11:10 Fitzmyer (Qumran angels), Hooker (title only).
+- chapters: ch9 deep dive (Marshall); ch9 and ch11 views not naming a scholar but attributing readings to "most scholars" (cannot be checked).
+- About 14 location/name pairs where only a title or year was confirmed, never the position.
+
+**Item (4), traditions cards.** 0 cards with fewer than two views. Cards with fewer than four: ch10 card 2 (market meat and the Jerusalem decree, Acts 15:29) has three views (Lutheran, Reformed, Messianic Jewish). It lost its Orthodox view when "Council in Trullo" was removed, but the Orthodox have a clearly distinct view: Quinisext canon 67 forbids eating blood and cites Acts 15:29 (Encyclopedia.com "Quinisext Synod", parish and canon-law pages in search results; the canon text itself not opened). The card also has no Catholic view. The Messianic Jewish view has no source key (finding 3). ch9 card 0 has four views (Catholic, Orthodox, Lutheran, Anglican), acceptable for clerical marriage.
+
+### Findings
+1. **Major.** "Letter ... about AD 53-55" (11:23 note; ch9 and ch11 pages) has no opened source. The 01-04 pass removed that same date from its part as unconfirmed, so the book now contradicts itself. Cut the date or open a source.
+2. **Minor.** 10:2: Tertullian On Baptism 9 and "the cloud": a page I opened shows only the sea as a figure of baptism. Say "the sea" or open the chapter.
+3. **Minor.** ch10 card 2 has no Catholic or Orthodox view and the Messianic Jewish view has no source. The Orthodox view (Quinisext canon 67) is available from an opened source once the canon text is read. Add it or note the card as incomplete.
+4. **Minor.** 11:3 "Murphy-O'Connor, Journal of Biblical Literature 95, 1976" and the other scholar attributions in item 3 are title-only; the positions were never read. State only the title (as the log did for others) or remove the attribution.
+5. **Minor.** The Verification pass section lists claims "could not be opened and were removed" yet the log (line 56) leaves the scholar positions in place; add a line saying so.
+
+## Verification fixes (2026-10-29)
+
+Second round, applied under STYLE.md rule 2. Findings 1 to 5 of the Verification check handled; about 12 scholar attributions tried: 7 verified on pages opened (Martin, Rudolph, Goppelt, Hock, Wire, Fitzmyer on kephale, Fitzmyer on Qumran angels), 3 kept in the wording a page supports (Marshall, Oster, Hooker), 1 name removed (Murphy-O'Connor and its key; the view stays as "some scholars"); 6 dates or generalizations removed or softened.
+1. The letter's date: Wikipedia (First Epistle to the Corinthians) gives "usually in the range of 53-57 CE", written at Ephesus. "About AD 53-55" and "AD 50-51" replaced everywhere in this part; the founding is now "Acts 18", with no year. Dates dropped from Clement, Tertullian and Philo keys (not opened).
+2. 10:2: Tertullian On Baptism 9 opened on newadvent.org: it mentions the sea and water but not the cloud; the note now says the sea.
+3. Chapter 10 card 2 now has Catholic (Council of Florence 1442, "since the cause ... has ceased, so its effect has ceased", as quoted on the Wikipedia Council of Jerusalem page), Orthodox (Council in Trullo canon 67, text on newadvent.org, Orthodox recognition per Wikipedia), and a Messianic Jewish view cut to what David Wilber's page states, with a new key. The unsourced claim about 10:25-27 being addressed to Gentiles was removed.
+4. Scholar attributions reworded to what pages state; see the log.
+5. The log now lists scholar positions confirmed and not confirmed.

@@ -6,23 +6,22 @@
   "p": "The Spirit is sent into 'our' hearts in the older text and 'your' hearts in the Byzantine text.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles (witness lists as reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here)",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "εἰς τὰς καρδίας ἡμῶν",
     "en": "into our hearts",
     "plain": "into our hearts"
    },
    {
-    "w": "Byzantine text, Textus Receptus (the Greek behind the KJV)",
+    "w": "Byzantine text, Textus Receptus (the Greek behind the KJV); Burton calls 'your' a Western and Syrian reading",
     "orig": "εἰς τὰς καρδίας ὑμῶν",
     "en": "into your hearts",
     "plain": "into your hearts"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows 'our'. It is the reading of the editions built on the oldest manuscripts. It is also the harder reading: after 'you are children' a scribe would smooth the sentence to 'your hearts', while 'our' changes person in mid-sentence. Paul may be including himself and other Jewish believers beside the Gentile 'you' (see the note on 4:6).",
+  "why": "The Plain follows 'our'. It is the reading the critical editions print, and Burton (1921) judges 'our' 'undoubtedly to be preferred' to 'your'. It is also the harder reading: after 'you are sons' a scribe would smooth the sentence to 'your hearts', while 'our' changes person in mid-sentence. Paul may be including himself and other Jewish believers beside the Gentile 'you' (see the note on 4:6).",
   "s": [
-   "metzger",
-   "comfort-nttc"
+   "burton-galatians-icc"
   ]
  },
  {
@@ -32,23 +31,23 @@
   "p": "Older manuscripts say 'an heir through God'; later ones say 'an heir of God through Christ'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; Papyrus 46 (about AD 200) and Codex Vaticanus (300s) among the early manuscripts (Witness lists are those reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here.)",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; the NET Bible's note lists Papyrus 46, Sinaiticus (first hand), A, Vaticanus, C (first hand), 33, 1739, the Latin and Bohairic versions and Clement for 'through God'",
     "orig": "κληρονόμος διὰ θεοῦ",
     "en": "an heir through God",
     "plain": "you are also an heir, through God"
    },
    {
-    "w": "Byzantine text, Textus Receptus (KJV: 'heir of God through Christ')",
+    "w": "Byzantine text, Textus Receptus (KJV: 'heir of God through Christ'); the NET Bible's note lists a later hand of Sinaiticus, a later hand of C, D, the Byzantine majority, an Old Latin copy and the Syriac for 'of God through Christ'",
     "orig": "κληρονόμος θεοῦ διὰ Χριστοῦ",
     "en": "an heir of God through Christ",
     "plain": "you are also an heir of God through Christ"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter, older reading. 'Through God' is odd (Paul would normally write 'of God'), and a scribe would find it easy to fix by writing the familiar 'heir of God through Christ' (Romans 8:17). The longer reading is an easy and natural correction.",
+  "why": "The Plain follows the shorter reading. The NET Bible's note says 'through God' is unusual and 'certainly prompted scribes to alter it', and that its witnesses are among the most important in the New Testament. A scribe would find it easy to fix by writing the familiar 'heir of God through Christ' (Romans 8:17). The longer reading is an easy and natural correction.",
   "b": "The sense is nearly the same either way: God is the one who makes the believer an heir. The KJV reader will find 'heir of God through Christ', which echoes Romans 8:17.",
   "s": [
-   "metzger"
+   "net-bible-tc"
   ]
  },
  {
@@ -58,7 +57,7 @@
   "p": "Did Paul's weakness test the Galatians, or was it his own test? One pronoun changes.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles (witness lists as reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here)",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "τὸν πειρασμὸν ὑμῶν ἐν τῇ σαρκί μου",
     "en": "your test in my flesh",
     "plain": "The test that my body brought you"
@@ -71,11 +70,9 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows 'your test in my flesh', the reading of the oldest manuscripts and the harder one. It means: my body was a test for you, a thing you might have rejected. 'My test' is the easier phrase, and a scribe could have changed 'your' to 'my' because it seems more natural for Paul to speak of his own trial.",
+  "why": "The Plain follows 'your test in my flesh', the reading the critical editions print, and the harder one. It means: my body was a test for you, a thing you might have rejected. 'My test' is the easier phrase, and a scribe could have changed 'your' to 'my' because it seems more natural for Paul to speak of his own trial.",
   "b": "The Plain's 'brought you' tries to keep the unusual 'your test'. The KJV follows the other reading ('my temptation which was in my flesh').",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "4:15",
@@ -84,22 +81,22 @@
   "p": "Two readings of the opening words of 4:15 change a present question into a past one.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; Burton lists Sinaiticus, A, B, C, F, G, P, 33, the Vulgate and Old Latin f g, the Bohairic and Armenian versions, and Jerome",
     "orig": "ποῦ οὖν ὁ μακαρισμὸς ὑμῶν;",
     "en": "Where, then, is your blessedness?",
     "plain": "So where is that joy of yours now?"
    },
    {
-    "w": "Byzantine text, Textus Receptus (the Byzantine also adds 'would' later in the verse)",
+    "w": "Byzantine text, Textus Receptus (the Byzantine also adds 'would' later in the verse); Burton lists D, K, L, most later manuscripts, the Gothic version, Chrysostom, Augustine and others",
     "orig": "τίς οὖν ἦν ὁ μακαρισμὸς ὑμῶν;",
     "en": "What, then, was your blessedness?",
     "plain": "So what was that joy of yours?"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows 'Where, then, is', the reading of the editions built on the oldest manuscripts. Both readings are ancient, but the difference is small in meaning: Paul is asking what has become of the Galatians' early gladness.",
+  "why": "The Plain follows 'Where, then, is', the reading the critical editions print. Both readings are old, but the difference is small in meaning: Paul is asking what has become of the Galatians' early gladness. Burton thinks 'tis' arose by a copyist's slip ('POU' turned into 'TIS') and finds the evidence for 'pou' much the stronger.",
   "s": [
-   "metzger"
+   "burton-galatians-icc"
   ]
  },
  {
@@ -122,11 +119,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows <i>tekna</i>, 'children', which the SBL and NA28 print. The editors who print <i>teknia</i> (the Tyndale House GNT among them) take it as Paul's tender form, used elsewhere (1 John 2:1). The decision is close. Either way, Paul speaks as a parent in labor. The editions are the only evidence reported here; the manuscript support was not rechecked.",
-  "b": "Paul uses <i>teknia</i> only here, and John uses it often, so some scribes may have been influenced by John. The evidence is mixed.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The Plain follows <i>tekna</i>, 'children', which the SBL and NA28 print. The editors who print <i>teknia</i> (the Tyndale House GNT among them) take it as Paul's tender form, used elsewhere (1 John 2:1). The decision is close. Either way, Paul speaks as a parent in labor.",
+  "s": []
  },
  {
   "v": "4:25",
@@ -135,29 +129,29 @@
   "p": "Three forms of the sentence: 'Hagar is Sinai', 'For Hagar is Sinai', and 'For Sinai is in Arabia', with no Hagar.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Westcott-Hort",
+    "w": "SBLGNT, NA28, NA27, Westcott-Hort; Lightfoot (1865) lists A, B, D, E and a few cursives for this form",
     "orig": "τὸ δὲ Ἁγὰρ Σινᾶ ὄρος ἐστὶν ἐν τῇ Ἀραβίᾳ",
     "en": "Now Hagar is Mount Sinai in Arabia",
     "plain": "Now Hagar is Mount Sinai in Arabia."
    },
    {
-    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV: 'For this Agar is mount Sinai in Arabia')",
+    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV: 'For this Agar is mount Sinai in Arabia'); Lightfoot lists K, L, P, most cursives, both Syriac versions and Chrysostom, Theodore, Theodoret and Theophylact",
     "orig": "τὸ γὰρ Ἅγαρ Σινᾶ ὄρος ἐστὶν ἐν τῇ Ἀραβίᾳ",
     "en": "For Hagar is Mount Sinai in Arabia",
     "plain": "For Hagar is Mount Sinai in Arabia."
    },
    {
-    "w": "The Latin Vulgate ('Sina enim mons est in Arabia'); Metzger reports that some Greek witnesses also leave out 'Hagar' (as reported, not rechecked here)",
+    "w": "Lightfoot (1865) lists Sinaiticus, C, F, G, the cursive 17, the Old Latin copies f and g, the Vulgate ('Sina enim mons est in Arabia'), the Ethiopic and Armenian versions, Origen, Epiphanius, Cyril, John of Damascus, and Latin writers including Augustine and Jerome",
     "orig": "τὸ γὰρ Σινᾶ ὄρος ἐστὶν ἐν τῇ Ἀραβίᾳ",
     "en": "For Sinai is a mountain in Arabia",
     "plain": "For Mount Sinai is in Arabia."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the text with 'Hagar', the form the major critical editions print (they differ only between 'Now' and 'For'). Metzger's Commentary discusses all three forms. The Greek witnesses for each form were not rechecked here, so this choice rests on the editions. The omission could be a scribe's fix for an odd sentence (a mountain called Hagar?), but how strong its Greek support is has not been established here, so this is less certain than most choices in the letter.",
+  "why": "The Plain follows the text with 'Hagar', the form the major critical editions print (they differ only between 'Now' and 'For'). The omission is not weakly supported: Lightfoot called it the reading with 'the strongest, because the most varied, testimony', argued that a scribe had added 'Hagar' from the context, and noted that Bentley and Lachmann also preferred the omission, while Westcott and Hort kept it only in their margin. The Plain keeps 'Hagar' with the editions, so this is a close call. Lightfoot's lists are from 1865 and do not include the papyri.",
   "b": "If 'Hagar' is not in the original, Paul would be saying only that Sinai is in Arabia, and the link between Hagar and the mountain would come from the context. The Vulgate itself reads this way. The question matters for the sense: it decides whether Paul himself calls Hagar 'Sinai' or leaves the link to the reader.",
   "s": [
-   "metzger"
+   "lightfoot-galatians"
   ]
  },
  {
@@ -167,7 +161,7 @@
   "p": "The KJV's 'the mother of us all' is in the Byzantine text, not in the older manuscripts.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; Papyrus 46 and Codex Vaticanus among the early manuscripts (Witness lists are those reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here.)",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "ἥτις ἐστὶν μήτηρ ἡμῶν",
     "en": "who is our mother",
     "plain": "She is our mother."
@@ -180,10 +174,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter text. The longer reading 'of all of us' is a natural expansion, perhaps from the thought of Isaiah 54 or Genesis 3:20 ('mother of all living'), and the older manuscripts do not have it.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The Plain follows the shorter text that the critical editions print. The longer reading 'of all of us' is the Byzantine reading, and may be a natural expansion; that is an inference from how the editions split, not something a witness list shows.",
+  "s": []
  },
  {
   "v": "4:28",
@@ -192,22 +184,22 @@
   "p": "The older text says 'you are children of promise'; the Byzantine text says 'we are'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Tregelles",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Tregelles; the NET Bible's note lists Papyrus 46, Vaticanus, the first hand of D, F, G, 33, 1739 and the Sahidic version for 'you'",
     "orig": "ὑμεῖς δέ ... ἐστέ",
     "en": "you ... are",
     "plain": "As for you, brothers, you are children born through the promise, as Isaac was."
    },
    {
-    "w": "Westcott-Hort, Byzantine text, Textus Receptus (KJV: 'Now we, brethren, as Isaac was, are the children of promise')",
+    "w": "Westcott-Hort, Byzantine text, Textus Receptus (KJV: 'Now we, brethren, as Isaac was, are the children of promise'); the NET Bible's note lists Sinaiticus, A, C, a later hand of D, the Byzantine majority, the Latin, Syriac and Bohairic for 'we'",
     "orig": "ἡμεῖς δέ ... ἐσμέν",
     "en": "we ... are",
     "plain": "As for us, brothers, we are children born through the promise, as Isaac was."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows 'you'. The letter has been speaking to the Galatians as 'you' (4:19-21), and the verse that follows addresses them again (4:31 says 'we'). Scribes may have changed 'you' to 'we' to match 4:26 and 4:31. The difference is small.",
+  "why": "The Plain follows 'you'. The letter has been speaking to the Galatians as 'you' (4:19-21), and the verse that follows addresses them again (4:31 says 'we'). Scribes may have changed 'you' to 'we' to match 4:26 and 4:31. The difference is small. The NET Bible's note says most manuscripts read 'we'.",
   "s": [
-   "metzger"
+   "net-bible-tc"
   ]
  },
  {
@@ -232,9 +224,7 @@
   "follow": 0,
   "why": "The Plain follows the older text, in which the first clause stands alone: 'for freedom Christ freed us'. The Byzantine form is smoother, with the relative clause 'in which' and the 'then' placed first. The smoother reading is probably a scribe's tidying. The wording also fits the verses around it: 4:31 says 'we are free', and 5:1 states the purpose.",
   "b": "Some witnesses also move the 'therefore' or the word for 'free' in other ways, and the break between chapters 4 and 5 sits at different places in the manuscripts. The meaning of the verse does not change.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "5:19",
@@ -256,10 +246,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter list. 'Adultery' was easy to add: it is the first of the three sins in lists like Matthew 15:19 and 1 Corinthians 6:9, and a scribe might add it to fill out a familiar pattern. The oldest witnesses do not have it. Adultery is in any case included in 'sexual immorality' (<i>porneia</i>), a broad word.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The Plain follows the shorter list. 'Adultery' was easy to add: it is the first of the three sins in lists like Matthew 15:19 and 1 Corinthians 6:9, and a scribe might add it to fill out a familiar pattern. The critical editions leave it out. Adultery is in any case included in 'sexual immorality' (<i>porneia</i>), a broad word.",
+  "s": []
  },
  {
   "v": "5:21",
@@ -268,48 +256,48 @@
   "p": "The KJV list says 'envyings, murders, drunkenness'. The SBL and NA28 leave out 'murders'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Westcott-Hort; Papyrus 46 (about AD 200) and Codex Vaticanus (300s) among the early manuscripts (Witness lists are those reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here.)",
+    "w": "SBLGNT, NA28, NA27, Westcott-Hort; the NET Bible's note lists Papyrus 46, Sinaiticus, Vaticanus, 33, 81, 323, 945 and the Sahidic version for the shorter text",
     "orig": "φθόνοι, μέθαι",
     "en": "envy, drunkenness",
     "plain": "envy, drunkenness"
    },
    {
-    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV: 'envyings, murders, drunkenness')",
+    "w": "Tyndale House GNT, Tregelles, Byzantine text, Textus Receptus (KJV: 'envyings, murders, drunkenness'); the NET Bible's note lists A, C, D, F, G, Psi, 1739, 1881, the Byzantine majority and the Latin for the longer text",
     "orig": "φθόνοι, φόνοι, μέθαι",
     "en": "envy, murders, drunkenness",
     "plain": "envy, murders, drunkenness"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the SBL and NA28, with the earliest witnesses. The case for 'murders' is real, though: the Greek words <i>phthonoi</i> ('envy') and <i>phonoi</i> ('murders') look and sound almost the same, so a scribe's eye could skip one by accident, and the Tyndale House editors decided that is what happened. The sense of the list does not depend on it, since murder is condemned elsewhere (Romans 1:29).",
+  "why": "The Plain follows the SBL and NA28, the shorter reading. The case for 'murders' is real, though: the Greek words <i>phthonoi</i> ('envy') and <i>phonoi</i> ('murders') look and sound almost the same, so a scribe's eye could skip one by accident. The NET Bible's note says the omitting witnesses are of 'the highest degree' but that this kind of skip may well explain the shorter reading, and the Tyndale House GNT prints the longer one. The sense of the list does not depend on it, since murder is condemned elsewhere (Romans 1:29).",
   "b": "The pair is a play on sound in Greek (<i>phthonoi, phonoi</i>), which suggests that Paul may have written both.",
   "s": [
-   "metzger"
+   "net-bible-tc"
   ]
  },
  {
   "v": "5:24",
   "a": "Those who are Christ's",
   "t": "Is 'Jesus' in the phrase?",
-  "p": "Some editions read 'those of Christ Jesus', others 'those of Christ'. The NA28 prints 'Jesus' in brackets.",
+  "p": "Some editions read 'those of Christ Jesus', others 'those of Christ'.",
   "readings": [
    {
-    "w": "SBLGNT, Byzantine text, Textus Receptus (witness lists not rechecked here)",
+    "w": "SBLGNT, Byzantine text, Textus Receptus; the NET Bible's note lists Papyrus 46, D, F, G, the Latin and Syriac versions and the Byzantine text for 'Christ' without 'Jesus'",
     "orig": "οἱ δὲ τοῦ Χριστοῦ",
     "en": "those of Christ",
     "plain": "Those who are Christ's"
    },
    {
-    "w": "NA28 (with 'Jesus' in brackets), NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "w": "NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; the NET Bible's note lists Sinaiticus, A, B, C, P, Psi, 33, 1739 and the Coptic versions for 'Christ Jesus'",
     "orig": "οἱ δὲ τοῦ Χριστοῦ Ἰησοῦ",
     "en": "those of Christ Jesus",
     "plain": "Those who are Christ Jesus's"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter form. The NA28 editors mark 'Jesus' as doubtful by printing it in brackets, and the editions are split. The meaning does not change. The manuscript support was not rechecked here.",
+  "why": "The Plain follows the shorter form. The editions are split: the SBLGNT, the Byzantine text and the Textus Receptus have the shorter form, and the NA28, NA27, Tyndale House, Westcott-Hort and Tregelles have the longer. The NET Bible's note prefers the shorter form too. The meaning does not change.",
   "s": [
-   "metzger"
+   "net-bible-tc"
   ]
  },
  {
@@ -332,10 +320,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the future 'you will fulfill'. The two readings differ by one vowel, the future indicative <i>anaplerosete</i> against the aorist imperative <i>anaplerosate</i>. Both make sense: the future states the result of carrying each other's loads, the imperative restates the command. The manuscript support was not rechecked here; the editions split as shown, and the Byzantine text has the imperative. One possible reason for the imperative is that a scribe was drawn to the many commands around it (6:1-6), which would make the future the less obvious reading; that is an inference, not a reported fact.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The Plain follows the future 'you will fulfill'. The two readings differ by one vowel, the future indicative <i>anaplerosete</i> against the aorist imperative <i>anaplerosate</i>. Both make sense: the future states the result of carrying each other's loads, the imperative restates the command. The editions split as shown, and the Byzantine text has the imperative. One possible reason for the imperative is that a scribe was drawn to the many commands around it (6:1-6), which would make the future the less obvious reading; that is an inference.",
+  "s": []
  },
  {
   "v": "6:10",
@@ -358,9 +344,7 @@
   ],
   "follow": 0,
   "why": "The Plain follows the reading of nearly every edition. The difference is between an indicative and a subjunctive after <i>hos</i>, and the sense is almost the same: Paul urges them to do good while there is time.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "6:13",
@@ -369,23 +353,23 @@
   "p": "The tense of one word changes who Paul is describing: Gentiles taking circumcision now, or people already circumcised.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Westcott-Hort, Tregelles, Textus Receptus",
+    "w": "SBLGNT, NA28, NA27, Westcott-Hort, Tregelles, Textus Receptus; Burton (1921) lists Sinaiticus, A, C, D, the Old Latin f, the Vulgate, the Syriac, Sahidic and Armenian versions, Marcion, Chrysostom and Theodoret for the present",
     "orig": "οἱ περιτεμνόμενοι",
     "en": "those who are being circumcised",
     "plain": "The very ones who are having themselves circumcised"
    },
    {
-    "w": "Tyndale House GNT, Byzantine text (witness lists as reported by Metzger and the NA28 apparatus; the individual manuscripts were not rechecked here)",
+    "w": "Tyndale House GNT, Byzantine text; Burton lists Vaticanus, L, the Old Latin d and g, the Gothic and Bohairic versions, Victorinus, Augustine and Jerome for the perfect (F and G, he says, have impossible forms that probably witness to the perfect)",
     "orig": "οἱ περιτετμημένοι",
     "en": "those who have been circumcised",
     "plain": "The very ones who have been circumcised"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the present participle, which the SBLGNT, NA28, NA27, Westcott-Hort and Tregelles print. The perfect participle is printed by the Tyndale House GNT and is the Byzantine reading, and Metzger reports early manuscript support for it; that support was not rechecked here. The two readings point to different people. Present: people who are now being circumcised, or who take circumcision on, such as Gentile converts. Perfect: people who have already been circumcised, that is, Jews or earlier converts. The choice affects who the agitators were, but the sentence says the same thing about both groups: they do not keep the law. The note on this verse gives the debate. This is a close call.",
+  "why": "The Plain follows the present participle, which the SBLGNT, NA28, NA27, Westcott-Hort and Tregelles print. The perfect participle is printed by the Tyndale House GNT and is the Byzantine reading. Burton's lists (above) show the witnesses divided, and he calls the external evidence 'not decisive'; he judges that a copyist would find the perfect an unobjectionable reading, so the present is the likelier original. The two readings point to different people. Present: people who are now being circumcised, or who take circumcision on, such as Gentile converts. Perfect: people who have already been circumcised, that is, Jews or earlier converts. The choice affects who the agitators were, but the sentence says the same thing about both groups: they do not keep the law. The note on this verse gives the debate. This is a close call.",
   "b": "This is one of the most discussed variants for deciding who the agitators were. If 'those having been circumcised', the agitators are Jews or Jewish converts. If 'those being circumcised', they may include Gentiles who have accepted circumcision (Munck).",
   "s": [
-   "metzger"
+   "burton-galatians-icc"
   ]
  },
  {
@@ -395,22 +379,22 @@
   "p": "The Byzantine text copies the wording of 5:6 here.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "w": "SBLGNT, NA28, NA27, Tyndale House GNT, Westcott-Hort, Tregelles; the NET Bible's note lists Papyrus 46, Vaticanus, Psi, 33, 1175, 1505, 1739 (first hand) and several church fathers for the shorter form",
     "orig": "οὔτε γὰρ περιτομή τί ἐστιν οὔτε ἀκροβυστία",
     "en": "For neither circumcision is anything nor uncircumcision",
     "plain": "Circumcision is nothing, and so is uncircumcision."
    },
    {
-    "w": "Byzantine text, Textus Receptus (KJV: 'For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision')",
+    "w": "Byzantine text, Textus Receptus (KJV: 'For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision'); the NET Bible's note lists Sinaiticus, A, C, D, F, G, 1881, the Byzantine majority, the Latin and Bohairic for 'in Christ Jesus'",
     "orig": "ἐν γὰρ Χριστῷ Ἰησοῦ οὔτε περιτομή τι ἰσχύει, οὔτε ἀκροβυστία",
     "en": "For in Christ Jesus neither circumcision has any strength nor uncircumcision",
     "plain": "In Christ Jesus, circumcision has no strength, and neither does uncircumcision."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter form. The Byzantine wording is almost exactly 5:6 ('In Christ Jesus, circumcision has no strength and neither does uncircumcision'), so a scribe may have copied it from there. The shorter, different form is also the one that fits the next clause, 'a new creation'.",
+  "why": "The Plain follows the shorter form. The Byzantine wording is almost exactly 5:6 ('In Christ Jesus, circumcision has no strength and neither does uncircumcision'), and the NET Bible's note judges that the longer reading is probably a harmonization to 5:6. The shorter, different form is also the one that fits the next clause, 'a new creation'.",
   "s": [
-   "metzger"
+   "net-bible-tc"
   ]
  },
  {
@@ -433,10 +417,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter title, which the oldest editions have. Scribes liked fuller titles. Paul's plain 'Jesus' is what we might expect from him in speaking of the man who was crucified.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The Plain follows the shorter title, which the critical editions print. Scribes liked fuller titles. Paul's plain 'Jesus' is what we might expect from him in speaking of the man who was crucified.",
+  "s": []
  },
  {
   "v": "6:18",
@@ -460,8 +442,6 @@
   "follow": 0,
   "why": "The Plain stops at 'Amen'. The closing lines in some manuscripts are not Paul's. They are notes added by later copyists, and they differ from manuscript to manuscript. Rome is almost certainly wrong: Paul's own place of writing is not given in the letter, and the suggestions vary from Ephesus to Corinth to Antioch.",
   "b": "Such 'subscriptions' appear after most of Paul's letters in later manuscripts and are of little value as history. See also the introduction to the letter for the date and place of writing.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  }
 ]

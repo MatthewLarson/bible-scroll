@@ -130,3 +130,84 @@ One line per finding (numbers as in the review). Plain verses changed: 1:9, 1:12
 30. FIXED. "Beside Acts and outside history" now "the outside evidence"; ch. 2 readings "within a decade or two" now "some years after it".
 Declined: the optional split of the 1:15-16 sentence (verses are kept whole; the sentence is accurate and already broken by commas).
 Lead decision on 3:26: the Plain already reads "sons of God"; the gloss says "sons and daughters, as heirs" and the 3:26 note says Paul includes women (3:28). No change needed.
+
+## Verification pass (2026-10-29)
+
+Brought to STYLE.md rule 2. Counts (approximate, by item): verified about 55, corrected 17, removed about 45. Log: `.scratch/Gal-01-03-verify/sources-checked.md`.
+
+Main corrections: Galatians 1:6 (P51 reads "of Christ"; the omission is P46vid, F*, G and Latin), 1:15 (Claromontanus reads "God"), and the 2:12, 2:20 and 3:17 witness lists, now taken from the NET Bible notes and Wikipedia's variants page; Menachot 43b ("slave" is not in the Tosefta or Jerusalem Talmud forms); Calvin on 1:19 and 2:11; Augustine and Jerome letter numbering (Jerome's 56 and 67 are Augustine's 28 and 40); CCC 1963 says "tutor"; the Luther Table Talk saying and lecture dates; Charles Wesley's 17 May removed.
+
+Removed: manuscript names at 2:9, 1:18, 2:4, 2:5 and 3:1; scholar placements for the Acts 15 positions and for pistis Christou; the Adventist, Dispensationalist and Messianic Jewish views and every citation to a confession, catechism, article or work that could not be opened (see the log); keys metzger and comfort-nttc from variants; sources fitzmyer-crucifixion, hays-nib-galatians, stern-messianic-manifesto, luedemann-chronology.
+
+`VERBOSE=1 node tools/build.js --check Gal/01-03`: 0 errors, 0 warnings. The hedge grep finds nothing in the part or in book.json.
+
+## Verification check (2026-10-29)
+
+Hostile check of the verification pass. Everything below was opened in this session: word lists in `texts/` (including the KJV Apocrypha and the Greek 2 Maccabees), the scratch copies of Lightfoot (1865) and Burton (1921) in `.scratch/Gal-04-06-verify/`, Wikipedia pages, and search results. Build check: `Gal/01-03` 0 errors, 0 warnings. Counts for this part: (1) 3 items; (2) 4 wrong or unsupported, 6 unverifiable or only partly supported, 5 verified groups; (3) about 27 scholars with unchecked attributions; (4) 0 cards under two views, 2 cards that lost a distinct view, 1 further group of unsourced views.
+
+### (1) Hedges and unopenable works
+
+1. Major. No hedge words and no `metzger` keys remain in this part or in book.json (grep for the brief's list plus "reported", "memory", "recall"). The remaining problem is a claim about an apparatus nobody can open. Variants 1:6 (`p`, `readings[0].w`, `why`) says the NA28 prints "of Christ" in square brackets. The word list in `texts/orig/Gal.json` carries edition letters only, with no bracket marks, and no opened page states it. Drop the bracket claim; the editions the word list shows are enough.
+2. Major. Same claim at 1:15 (`p`, `readings[0].w` "NA28 (in square brackets)", and `why` "which is why the NA28 brackets the word"). Same remedy.
+3. Minor. The "Verification pass" above says the hedge grep finds nothing. That is true only for the brief's exact phrases; the bare word "reported" was not searched (it survives in part 04-06 topics).
+
+### (2) Spot checks (about 15 claims)
+
+Wrong or unsupported by the source opened:
+
+4. Major. notes 3:15 (`diathēkē`) says some scholars "(Burton, Lightfoot) hear 'will' in the picture", and the chapter 3 settings view says "A pun with 'will' in everyday Greek (Burton, Lightfoot)". Both are wrong. Lightfoot (note on 3:15) glosses "a covenant", says the sense "a testament" is "ill suited to the context" and explains how the idea of a testament crept in through the Latin version and Hebrews. Burton (3:15-17) translates "covenant" and says the inheritance word in 3:18 "constitutes no argument for taking diatheke in 3:17 in the sense of 'will'". Fix: name neither as holding the pun.
+5. Major. notes 1:18: "Lightfoot said it implies that Paul wished to learn from Cephas." Lightfoot's note on historesai says it is "somewhat emphatic", quotes Chrysostom ("used by those who go to see great and famous cities") and cites Josephus for visiting a person. Nothing about wishing to learn. Fix or drop.
+6. Minor. notes 3:20: "The count of readings is given as 250 to over 400." Lightfoot says "250 or 300". Burton gives no count. "Over 400" has no opened source.
+7. Minor. book.json section on manuscripts and chapter 1 views.C give Papyrus 51 as "5th century". Wikipedia's Papyrus 51 page gives about 400, "4th or 5th century"; contents Galatians 1:2-10, 13, 16-20 (so "parts of chapter 1" is right). Papyrus 46 "about AD 200": Wikipedia gives c. 175-225 and all of Galatians (verified).
+
+Unverifiable or only partly supported:
+
+8. Minor. chapter 1 deep dive: the Gauls "crossed into Asia Minor in 278 BC". Wikipedia (Galatia) gives 279 BC for the Balkan invasion and 277 BC for raids on Asia Minor, with no crossing year. Burton cites a Koan decree of 278 BC for the invasion of Greece. Say "in the 270s BC" or drop the year.
+9. Minor. notes 2:12 and chapter 2 settings: Jewett "about AD 46-48". A search summary confirms his thesis (Zealot pressure in Judea) but gives no date. Drop the dates.
+10. Minor. notes 1:15 and chapter 1 views.J: Stendahl "argued that Paul was not converted but called". The Wikipedia page for Stendahl does not say it; unverified here. Hays, The Faith of Jesus Christ (1983), chapter 2 deep dive: Wikipedia's Pistis Christou page does not mention Hays; unverified.
+11. Minor. chapter 3 views.T: Galatians 3:27 "is sung in place of the Trisagion on baptismal feasts" and "the epistle read at baptism is Romans 6:3-11". The only page found is one parish encyclical (Resurrection Divine Liturgy and the baptism service). It does not say "baptismal feasts", and Romans 6:3-11 was not seen. Reword to what that page states or drop.
+12. Minor. notes 3:19: Josephus, Antiquities 15.136 is quoted as "messengers sent by God". It is the "angels, or ambassadors" sentence; the Greek word is disputed (W. D. Davies proposed "prophets"). The note leaves that out.
+13. Minor. Betz, Dunn, Longenecker, Wright, Nanos and the rest (see 14-20): the log checked only that the books exist.
+
+Verified (what I opened): 2 Maccabees 2:21, 8:1, 14:38 each have Ioudaismos (Greek in `texts/orig/2Ma.json`); 1 Maccabees 2:44 ("sinful men", "wicked men", KJV Apocrypha in `texts/en/1Ma.json` and usccb.org); Plutarch Table Talk 5.7 is the evil-eye essay (Perseids); Sanders, Paul and Palestinian Judaism, 1977 (Wikipedia); Amyntas died 25 BC and the province included Lycaonia, Isauria, part of Phrygia and part of Pisidia (Wikipedia, Lightfoot); Gallio about AD 51-52 (Wikipedia, Lucius Junius Gallio Annaeanus); Aretas IV died AD 40 (Wikipedia); Lightfoot on metatithesthe (middle voice; desertion or change of philosophy; Dionysius of Heraclea the turncoat) and on heteron versus allo ("a difference of kind"); the word-list edition marks at 1:3 and 1:15 match the variants entries.
+
+### (3) Named modern scholars not shown as checked in the logs
+
+The logs verified only that these books or articles exist (title, publisher, year), not what the notes attribute to them. Positions attributed, by location in this part:
+
+14. Betz: notes 1:6, 1:8, 1:20, 2:2; chapter 1 readings, deep dive, settings (courtroom speech; rebuke-letter genre; curse and blessing; irony about the Jerusalem leaders; the oath; "dependent on Jerusalem" charge).
+15. Wright: notes 2:16, 2:19, 3:7, 3:10, 3:13, 3:16, 3:19, 3:20, 3:28; chapters 1-3 readings, views, deep dives, settings; topic new-perspective-on-paul (including the Climax of the Covenant claim at 3:20).
+16. Dunn: notes 1:4, 1:16, 2:2, 2:12, 2:15-18, 3:7, 3:10, 3:13, 3:28; chapters 1-3 (Paul "lost the argument" at Antioch; ironic quotation at 2:15; works of the law as boundary markers); topic new-perspective-on-paul.
+17. Martyn: notes 1:4, 3:23; chapters 1 and 3 readings; topic galatians.
+18. Longenecker: notes 1:4, 1:16, 2:2, 2:16, 2:17, 3:13; chapter 1 settings.
+19. Hays: notes 2:19, 3:2, 3:11, 3:23; chapter 2 deep dive.
+20. Others: Kennedy (chapter 1 readings, deep dive); Moo and Schreiner (2:16, 3:10, chapter 2 deep dive and settings, topic); Barclay (chapter 1 deep dive; only the 1987 article's title was verified); Sanders (2:20, 3:10, chapter 2 deep dive, beyond the 1977 date); Nanos (1:7, 1:13, 1:16, 2:7, 2:12, 3:7, 3:25, 3:28, chapters 1-3, topic galatians); Gager (2:7, 3:7, 3:25, 3:28, chapters 2-3); Eisenbaum (1:13, 2:7, 3:25, 3:28, chapter 3); Fredriksen (1:13, 1:16, 2:12, 3:7, chapter 2 deep dive); Boyarin (3:28, chapter 3 deep dive); Esler (2:12, chapter 2 deep dive); Jewett (2:12, chapter 2 views); Meeks (3:27, 3:28, chapter 3; the 1974 article exists, the "baptismal formula" claim was not checked); Stendahl (1:15, chapter 1); Westerholm (chapter 2 deep dive); Hengel (1:13, 1:17, 1:21); Gorman (2:20); Baur (2:7); and in book.json: Betz, Wright, Dunn, Martyn, de Boer, Longenecker, Hays, Kennedy, Moo, Schreiner, Barclay, Sanders, Nanos, Campbell, Boyarin, Gager, Eisenbaum, Fredriksen, Stendahl, Westerholm, Levine (audience, lenses, sections, reading list). Severity: major as a class (STYLE rule 2 covers what a named scholar says). Items 4 and 5 show the risk is real: two checked Lightfoot/Burton attributions were wrong.
+
+### (4) Traditions cards
+
+21. No card has fewer than two views.
+22. Major. 3:19-25 "What is the law for now?" has Lutheran, Reformed, Catholic, Orthodox and Methodist. The pass deleted Adventist (Ten Commandments and Sabbath still binding), Dispensationalist (law against grace as ages) and Messianic Jewish (Torah continues for Jewish believers) views, and there is no Baptist one. These are clearly distinct answers to this question. Restore from sources opened, or say on the card that they are not covered.
+23. Major. 3:28 "no Jew and no Greek" has four views (Catholic, Orthodox, Lutheran, Reformed). The Dispensationalist (church distinct from Israel) and Messianic Jewish (Jewish and Gentile believers keep distinct callings) views were removed, though the question rests on that disagreement. The Lutheran view is an ELCA 1994 statement about Luther's writings, which does not answer the verse's question.
+24. Minor. Views with no document, person or paragraph a reader can check: chapter 1 Orthodox ("sons of Joseph from an earlier marriage ... the Orthodox tradition"), Anglican ("Anglo-Catholics follow ...; Evangelical Anglicans usually ...") and Baptist ("usually take 'brother' in its plain sense"); chapter 2 Orthodox ("The Fathers read 'faith working through love' with 2:16"), Baptist justification, the last sentence of the Anglican view; chapter 3 Orthodox baptism (only Romans 6:3-4 cited), Orthodox "priesthood reserved to men according to the tradition", Baptist baptism, Reformed "divided" on women, Reformed "differ on whether Israel has a future as a nation". These are generalizations about groups with nothing opened behind them.
+25. Verified in passing: PNBC ordains women (Wikipedia, PNBC statement found by search).
+
+## Verification fixes (2026-10-29)
+
+Second round, following the Verification check above. Log: `.scratch/Gal-01-03-verify/sources-checked.md`. Counts: scholar attributions verified about 22, corrected or reworded about 14, removed or made anonymous about 40 (plus 15 commentary keys dropped from entries); dates removed 8, corrected 4.
+
+Findings handled:
+- (1, 2) The NA28 square-bracket claims at 1:6 and 1:15 are gone; the entries say only what the word list and the opened NET page show.
+- (4) Lightfoot and Burton at 3:15: both take diathēkē as "covenant"; the note now says so and no longer names them for the "will" pun; the chapter 3 settings card is corrected.
+- (5) Lightfoot on 1:18 now says "somewhat emphatic" and quotes Chrysostom.
+- (6) 3:20: "250 or 300" (Lightfoot); "over 400" removed.
+- (7) Papyrus 51 "about AD 400".
+- (8-12) Gauls "in the 270s BC"; Jewett's dates removed; Stendahl and Hays verified (Hays's year dropped); the Orthodox Trisagion point corrected to the feasts the Divine Liturgy page names, with the Romans 6:3-11 claim removed; the Josephus point needed no change.
+- (13-20) Named scholars: verified Betz (forensic reading, curse and blessing), Kennedy, Martyn, Nanos, Esler, Dunn (boundary markers, 3:10, Antioch food laws), Wright (exile curse, representative Messiah, one family at 3:16 and 3:29), Sanders, Westerholm, Moo and Schreiner as critics, Gager, Eisenbaum, Fredriksen (partly), Boyarin, Meeks, Barclay, Hengel, Gorman, Baur, Stendahl. Attributions not found (Longenecker and Dunn on 1:4, 1:16, 2:2, 2:16, 2:17, 3:13; Wright on 3:19, 3:20 and the "Climax" claim; Hays on 2:19, 3:2, 3:23; Betz's rebuke-letter, irony and oath points; the Hengel and Schwemer persecution motive; Sanders on Deuteronomy 30; Campbell; the "Dutch Radical school") were made anonymous where the view is widely held and removed where it was not (the 3:20 "one God" reading, the Wright and Hays view at 2:19). The 3:20 spec box now says it may overlap with commentary but cites none.
+- (22) 3:19-25 law card: Baptist (Second London Confession 19), Adventist (older Fundamental Beliefs), Dispensationalist (Dallas Theological Seminary statement) and Messianic Jewish (UMJC statement of faith) views restored from pages opened.
+- (23) 3:28 church-and-Israel card: the ELCA 1994 view removed; Dispensationalist (DTS art. XIII) and Messianic Jewish (UMJC) added; Reformed sourced to Westminster ch. 7.
+- (24) Unsourced card views: Orthodox 1:19 now sourced (Wikipedia, Brothers of Jesus); Anglican and Baptist 1:19, Orthodox justification, Orthodox baptism and Reformed women removed; Baptist justification, baptism and women sourced to the Baptist Faith and Message 2000; Orthodox women sourced to the OCA; Pentecostal and "theosis" removed from the book.json card.
+- (3) The hedge grep (including "reported") finds nothing in this part or book.json.
+
+Dates in the part now rest on opened pages: Wikipedia's Epistle to the Galatians (late 40s to early 50s; about AD 48 for the South Galatian view; Romans 56-57), Council of Jerusalem (about AD 48-50) and Paul the Apostle (call 31-36; first visit about 35-36; Jesus' death about 30-33).
+
+`VERBOSE=1 node tools/build.js --check Gal/01-03`: 0 errors, 0 warnings.

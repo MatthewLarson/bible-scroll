@@ -21,8 +21,7 @@
   "follow": 0,
   "why": "This entry names only the editions. The SBL, Tyndale House and Westcott-Hort texts omit \"to God\"; NA28, Tregelles, the Byzantine text and the Textus Receptus have it. The longer wording is the usual opening of such sentences in Paul (1:4), so a scribe could easily have added it. The meaning is the same.",
   "s": [
-   "sblgnt",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  },
  {
@@ -32,25 +31,22 @@
   "p": "The oldest text and the Byzantine text differ by one letter-group.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort; Codex Vaticanus and the first hand of Codex Sinaiticus",
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "ἐβαπτίσθητε",
     "en": "you were baptized",
     "plain": "you were baptized"
    },
    {
-    "w": "Byzantine majority text, Textus Receptus (KJV: \"I had baptized\"); also Alexandrinus and Ephraemi",
+    "w": "Byzantine majority text, Textus Receptus (KJV: \"I had baptized\")",
     "orig": "ἐβάπτισα",
     "en": "I baptized",
     "plain": "I baptized"
    }
   ],
   "follow": 0,
-  "why": "\"You were baptized into my name\" is the reading of the editions used here. \"I baptized in my own name\" looks like a smoothing: it repeats the verb of 1:14. The first reading also gives the stronger line: the Corinthians were baptized into Christ, not into Paul. The two readings differ little in sense.",
+  "why": "\"You were baptized into my name\" is the reading of NA28, SBL, Tyndale House, Westcott-Hort and Tregelles. \"I baptized in my own name\" looks like a smoothing: it repeats the verb of 1:14. The first reading also gives the stronger line: the Corinthians were baptized into Christ, not into Paul. The two readings differ little in sense.",
   "b": "<p>The KJV follows the second reading: \"Lest any should say that I had baptized in mine own name.\" The Greek is a single word either way.</p>",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "1:20",
@@ -73,10 +69,7 @@
   ],
   "follow": 0,
   "why": "The shorter reading has the wide support of the editions, and the longer matches 3:19 (\"the wisdom of this world\"), which suggests a scribe added the word to match.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "1:22",
@@ -99,10 +92,7 @@
   ],
   "follow": 0,
   "why": "The plural has the support of the editions and fits Jewish requests for repeated proofs (Mark 8:11; John 4:48). The singular could echo Matthew 12:38.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "1:23",
@@ -125,10 +115,7 @@
   ],
   "follow": 0,
   "why": "\"Greeks\" repeats the word of 1:22 and is the easier reading, a scribe's matching. \"Gentiles\" is the harder, since \"Jews and Gentiles\" is the pair Paul uses elsewhere. The meaning is nearly the same.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "1:28",
@@ -152,8 +139,7 @@
   "follow": 0,
   "why": "The word list shows \"and\" (kai) in Westcott-Hort, the Byzantine text and the Textus Receptus, and not in SBL, NA28, Tyndale House or Tregelles. The sense is the same. The Plain follows the shorter form.",
   "s": [
-   "sblgnt",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  },
  {
@@ -177,10 +163,7 @@
   ],
   "follow": 0,
   "why": "\"God\" is read by the Greek editions, including the Byzantine text. \"Him\" is found only in the Textus Receptus, and it reads as an easier, smoother line.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "2:1",
@@ -195,7 +178,7 @@
     "plain": "testimony of God"
    },
    {
-    "w": "NA28, Westcott-Hort; Papyrus 46 (about AD 200), the first hand of Sinaiticus, Alexandrinus and Ephraemi",
+    "w": "NA28, Westcott-Hort",
     "orig": "μυστήριον",
     "en": "mystery",
     "plain": "mystery of God"
@@ -204,10 +187,7 @@
   "follow": 0,
   "why": "The Plain follows the SBL here. \"Mystery\" is attractive, because it matches the word at 2:7 and 4:1, but for that reason a scribe could have written it by habit. \"Testimony\" fits 1:6, \"the testimony about Christ\". The modern editions divide: NA28 and Westcott-Hort print \"mystery\"; SBL and Tyndale House print \"testimony\".",
   "b": "<p>The two Greek words look alike (<i>martyrion</i>, <i>mysterion</i>). Either way Paul says he did not announce God's message with clever speech. If \"mystery\" is right, he is already naming the hidden plan he explains in 2:6-10.</p>",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "2:4",
@@ -237,10 +217,7 @@
   "follow": 0,
   "why": "The word list shows \"words\" (logois) in NA28, Tyndale House, Westcott-Hort, Tregelles, the Textus Receptus and the Byzantine text, and only the SBL text omits it. \"Human\" (anthropines) is found only in the Byzantine text and the Textus Receptus, and may be a scribe's addition that matches the \"human wisdom\" of 2:13. The sense is the same in all three: Paul's message did not rest on clever persuasion. The Plain follows the SBL text and says it in the shortest way.",
   "b": "<p>The SBL text reads a noun, <i>peithoi</i> (\"persuasion\"); the other forms read an adjective, <i>peithois</i> (\"persuasive\"), with \"words\". The two differ by a single letter, which is part of why editors disagree.</p>",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "2:10",
@@ -263,10 +240,7 @@
   ],
   "follow": 0,
   "why": "The editions without \"his\" are shorter, and \"his\" reads like a clarifying addition. There is also a small split between \"for\" (SBL) and \"but\" (NA28); the Plain leaves out the joining word and keeps the sense.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "2:13",
@@ -289,10 +263,7 @@
   ],
   "follow": 0,
   "why": "\"Holy\" is a common addition; the shorter reading is widely attested and Paul's usual way of saying it in this passage (2:10-14).",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "3:1",
@@ -314,12 +285,9 @@
    }
   ],
   "follow": 0,
-  "why": "<i>Sarkinos</i> is the harder reading, since it is the rarer word, and <i>sarkikos</i> is the word of 3:3, which a scribe may have copied back. Strictly, <i>-inos</i> means \"made of\" and <i>-ikos</i> means \"given to\", but Paul may not keep the difference strictly (Fee), while Thiselton thinks he does.",
+  "why": "<i>Sarkinos</i> is the harder reading, since it is the rarer word, and <i>sarkikos</i> is the word of 3:3, which a scribe may have copied back. Strictly, <i>-inos</i> means \"made of\" and <i>-ikos</i> means \"given to\", but Paul may not keep the difference strictly, though some commentators think he does.",
   "b": "<p>The same pair appears in Romans 7:14 in the site's Plain: \"made of flesh\" (<i>sarkinos</i>).</p>",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "3:3",
@@ -328,24 +296,21 @@
   "p": "The KJV has a third item, \"divisions\".",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort; Papyrus 46 (about AD 200), Sinaiticus (first hand), Alexandrinus, Vaticanus and Ephraemi",
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "ζῆλος καὶ ἔρις",
     "en": "jealousy and strife",
     "plain": "jealousy and strife"
    },
    {
-    "w": "Byzantine majority text, Textus Receptus (KJV: \"envying, and strife, and divisions\"); Claromontanus (06) and the second hand of Sinaiticus",
+    "w": "Byzantine majority text, Textus Receptus (KJV: \"envying, and strife, and divisions\")",
     "orig": "ζῆλος καὶ ἔρις καὶ διχοστασίαι",
     "en": "jealousy and strife and dissensions",
     "plain": "jealousy and strife and dissensions"
    }
   ],
   "follow": 0,
-  "why": "The shorter reading has the older and more varied support. \"Dissensions\" (<i>dichostasiai</i>) matches the list in Galatians 5:20, which suggests a scribe added it.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "why": "The shorter reading is the one in NA28, SBL, Tyndale House, Westcott-Hort and Tregelles; \"dissensions\" (<i>dichostasiai</i>) is added only in the Byzantine text and the Textus Receptus. It matches the list in Galatians 5:20, which suggests a scribe added it.",
+  "s": []
  },
  {
   "v": "3:4",
@@ -368,10 +333,7 @@
   ],
   "follow": 0,
   "why": "\"Fleshly\" repeats the word of 3:3 and so looks like a scribe's echo. \"Merely human\" is less expected and fits Paul's contrast between human and divine.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "3:5",
@@ -380,13 +342,13 @@
   "p": "The KJV reads \"Who then is Paul, and who is Apollos?\"",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "Τί οὖν ἐστιν Ἀπολλῶς; τί δέ ἐστιν Παῦλος;",
     "en": "What then is Apollos? And what is Paul?",
     "plain": "What then is Apollos? And what is Paul?"
    },
    {
-    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV)",
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV)",
     "orig": "Τίς οὖν ἐστιν Παῦλος, τίς δὲ Ἀπολλώς, ἀλλ᾽ ἢ διάκονοι",
     "en": "Who then is Paul, and who is Apollos, but servants",
     "plain": "Who then is Paul? And who is Apollos?"
@@ -394,10 +356,7 @@
   ],
   "follow": 0,
   "why": "The editions agree on \"what\" (the neuter), which asks about their role. The Byzantine text puts Paul first and uses \"who\", a smoother, more natural order. It is a case where the reading with Apollos first is the harder.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "s": []
  },
  {
   "v": "3:13",
@@ -406,7 +365,7 @@
   "p": "A small word, <i>auto</i>, is missing from the Byzantine text.",
   "readings": [
    {
-    "w": "SBLGNT (NA28 brackets \"itself\")",
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
     "orig": "τὸ πῦρ αὐτὸ δοκιμάσει",
     "en": "the fire itself will test",
     "plain": "the fire itself will test"
@@ -419,11 +378,8 @@
    }
   ],
   "follow": 0,
-  "why": "The longer wording is the one in the SBL; NA28 is unsure and brackets it. The meaning is almost the same, with \"itself\" putting stress on the fire as the test.",
-  "s": [
-   "metzger",
-   "nestle-aland-28"
-  ]
+  "why": "The word list shows \"itself\" (auto) in NA28, SBL, Tyndale House, Westcott-Hort and Tregelles, and not in the Byzantine text or the Textus Receptus. The meaning is almost the same, with \"itself\" putting stress on the fire as the test.",
+  "s": []
  },
  {
   "v": "4:2",
@@ -447,8 +403,7 @@
   "follow": 0,
   "why": "The word list shows \"here\" (hode) in the critical editions and \"and what\" (ho de) in the Byzantine text and the Textus Receptus. The Plain follows the first and keeps \"here\", in the sense \"in this matter\". The KJV does not translate it. The meaning of the verse is not changed.",
   "s": [
-   "sblgnt",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  },
  {
@@ -471,12 +426,8 @@
    }
   ],
   "follow": 0,
-  "why": "The shorter text has no verb and is more puzzling, so scribes probably added \"to think\" (<i>phronein</i>) to make a sentence. Many scholars still suspect the shorter text is itself damaged (Strugnell proposed that the whole phrase was a marginal note).",
-  "s": [
-   "metzger",
-   "nestle-aland-28",
-   "strugnell-conjectural-emendation"
-  ]
+  "why": "The shorter text has no verb and is more puzzling, so scribes probably added \"to think\" (<i>phronein</i>) to make a sentence. Some scholars have also suspected that the shorter text is itself damaged, and have proposed that the whole phrase was a marginal note.",
+  "s": []
  },
  {
   "v": "4:13",
@@ -500,8 +451,7 @@
   "follow": 0,
   "why": "Two near-synonyms: one for speaking ill of someone (dysphemeo), one for abusive speech (blasphemeo). The editions divide as the word list shows. The sense is the same.",
   "s": [
-   "sblgnt",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  },
  {
@@ -526,8 +476,7 @@
   "follow": 0,
   "why": "The word list shows \"Jesus\" in SBL, NA28 and Westcott-Hort, and not in Tyndale House, Tregelles, the Byzantine text or the Textus Receptus. The sense is the same.",
   "s": [
-   "sblgnt",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  }
 ]

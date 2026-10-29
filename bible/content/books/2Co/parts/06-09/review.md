@@ -199,3 +199,42 @@ The note says Paul "does not quote" Deut 22:10 or Lev 19:19 and borrows the pict
 23. PARTLY FIXED. Note 6:18 now says "Florilegium, 4Q174" as in works.json. No source key for the Community Rule or 4Q174 exists, so none was added.
 24. FIXED. Ch. 8 C lens now quotes the Plain's 9:1; the ch. 9 deep dive quote updated too.
 25. FIXED. Note 6:14 `p` now says many think the word recalls Torah rules on mixing kinds, though Paul does not say so.
+
+## Verification pass (2026-10-29)
+
+Verified 38, corrected 14, removed about 40 unverifiable details (scholar positions for Fitzmyer, Harris, Barnett, Garland, Thrall, Windisch, Georgi, Munck, Nickle and others; all Qumran, Jubilees and Testaments references; the Adventist and Hutterite entries; dates; the lectionary sentence). Wrong claims fixed: 7:8 variant (SBLGNT has no gar), Philo ("muse" not "mother" of justice), Jerome (states the Luke identification without doubt), Aquinas, Trent contrition wording, Wesley sermon 40, Schleitheim art. 4, Philo Special Laws, Josephus section numbers, Yoma 86a. The `metzger`, `comfort-nttc` and commentary source keys were removed from entries whose claims were not seen in an opened source. Log: `.scratch/2Co-06-09-verify/sources-checked.md`.
+
+## Verification check (2026-10-29)
+
+Hostile check of the verification pass, from sources opened in this session (`texts/orig` word lists, web search results that state the claim, Wikipedia pages for dates). Counts: item 1 = 3 findings; item 2 = 11 claims tried (8 verified, 1 partly, 2 unverifiable); item 3 = none beyond title-only statements; item 4 = 0 cards below two views, 1 card with a lost distinct view. Severity count for this section: 0 critical, 1 major, 3 minor.
+
+### (1) Hedges, unopened works, commentary keys
+1. No hedge strings, `metzger`, `comfort-nttc` or apparatus claims remain in this part's JSON. Clean. Variants cite only editions shown by the word list.
+2. MAJOR (book-wide). `sources.json` still defines `barnett-2cor-nicnt`, `garland-2cor-nac`, `harris-2cor-nigtc`, `thrall-2cor-icc`, `betz-2cor-8-9` and `fitzmyer-2cor-qumran`. Nothing in this part cites any of them. `garland-2cor-nac`, `barnett-2cor-nicnt` and `thrall-2cor-icc` are cited by 01-05 and book.json with nothing opened behind them (see the 01-05 check, item 1.2). The log says Harris, Barnett and Garland were "not opened", Thrall's positions were removed, and Fitzmyer CBQ 23 was "not found". Define them only if a claim backed by an opened source cites them.
+3. MINOR. `harris-2cor-nigtc`, `betz-2cor-8-9` and `fitzmyer-2cor-qumran` are cited nowhere in the book: orphans.
+4. MINOR. `betz-2cor-fragment` reads "beginning at p. 88": the pass found only the start page. Acceptable as written.
+
+### (2) Spot checks
+1. Charis appears ten times in chapters 8-9: 8:1, 4, 6, 7, 9, 16, 19; 9:8, 14, 15 (notes 8:1). VERIFIED, `texts/orig/2Co.json` (G5485 in exactly those verses).
+2. "Parakaleo and paraklesis appear nearly thirty times in 2 Corinthians, more than in any other letter" (notes 7:6). VERIFIED, word lists: 18 + 11 = 29 in 2 Corinthians; at most 9 in Romans, 1 Corinthians, Galatians, Philippians, 1 Thessalonians, Ephesians or Colossians.
+3. The kauchesis family is more frequent in 2 Corinthians than in any other letter (notes 7:4). VERIFIED, word lists: 31 in 2 Corinthians against 10 or fewer in the same letters.
+4. "Fear and trembling" in Paul at 1 Cor 2:3, Phil 2:12, Eph 6:5 (and 2 Cor 7:15) (notes 7:15). VERIFIED, word lists (G5156 in those four places; dative in 1 Cor 2:3).
+5. Planos used of Jesus at Matthew 27:63 (notes 6:8). VERIFIED, `texts/orig/Mat.json`.
+6. Vulgate renders metanoia with poenitentia (notes 7:9). VERIFIED, Clementine text of 7:10 in search results ("poenitentiam in salutem stabilem operatur"). The tie to the sixteenth-century debate is a general statement.
+7. Macedonia a Roman province "since the 140s BC" (notes 8:2). VERIFIED, Wikipedia pages in search results (148 BC defeat of Andriscus, 146 BC formal date; the pages differ and "140s" fits both).
+8. Corinth "a Roman colony rebuilt in 44 BC" (chapter 6 settings). VERIFIED, search results (Caesar's colony, Colonia Laus Iulia Corinthiensis, hiatus from 146 BC).
+9. Psalm 118:18 in Greek (LXX 117:18), "disciplined me severely, but did not give me over to death" (notes 6:9). VERIFIED, search results for LXX Ps 117:18.
+10. Proverbs 22:8a in the Septuagint only (notes 9:7). PARTLY VERIFIED: search results confirm the Septuagint line and Paul's "blesses" changed to "loves"; no page opened says outright that the line is absent from the Hebrew.
+11. UNVERIFIABLE. Notes 9:15: "Christ himself ... is the most common answer, and it is the oldest," and "Most commentators say Paul means all of these at once". Search results show devotional sites reading Christ and a Clarke-attributed excerpt arguing against "Christ himself"; nothing opened says "oldest" or gives a proportion. Same type, anonymous and unchecked: notes 6:5 "some commentators think Paul means chosen fasts", notes 8:14 "commentators generally stay with fair balance".
+
+### (3) Named modern-scholar attributions not shown as checked
+None beyond title-only statements. Betz (1973), Webb, Fee and Downs appear only through their titles (verified in the log via Crossref). The anonymous generalisations are listed in 2.11.
+
+### (4) Traditions cards
+- All four cards have at least three views.
+- Tithe card (9:7): three bodies only (Catholic, Baptist, Methodist). The disclaimer "This card shows three bodies; Orthodox, Lutheran, Reformed and Anglican teaching on the tithe is not covered here" sits inside the question text, which reads as an editor's note in the card title (MINOR). The Adventist tithe belief, a clearly distinct view, was deleted when adventist.org returned 429.
+- The marriage card (6:14) lost the Hutterite entry but keeps Anabaptist (Schleitheim 4). No distinct view is gone.
+
+## Verification fixes (2026-10-29)
+
+Second round. Findings handled: (2.11) the 9:15 "most common answer ... oldest" and "most commentators" claims were removed and the answers are now listed as proposals; the anonymous "commentators say" lines (notes 6:1, 6:5, 6:7, 7:10, 8:15, 9:5 and in chapters 6 and 9 views) were removed or recast as "a common reading"; the 8:15 "I know of no commentary" line now says it is the site's own reading; the tithe card's disclaimer was taken out of the question text; the orphaned keys `harris-2cor-nigtc`, `betz-2cor-8-9` and `fitzmyer-2cor-qumran` were removed from `sources.json`. Named-scholar sweep: Betz, Webb, Fee and Downs appear by title only (kept); Fitzgerald's position in the 6:4 note was removed (title confirmed by Crossref, position not opened). Commentary definitions `garland-2cor-nac`, `barnett-2cor-nicnt` and `thrall-2cor-icc` were checked against opened listings and reviews (publisher, year, volumes confirmed) and kept because 01-05 and book.json cite them; Fitzmyer's CBQ 23 (1961) 271-280 title was verified in citing sources but the key is no longer cited anywhere. No dates changed. Counts: 12 edits, 3 keys removed, 4 definitions verified. Log: `.scratch/2Co-06-09-verify/sources-checked.md`.

@@ -112,3 +112,50 @@ The writer says about 35 verses were rebuilt; the lines above were not, or were 
 23. Partly. Added Adventist (Fundamental Belief 21) and Latter-day Saints (Doctrine and Covenants 119); Methodist entry says Wesley's rule sets no fixed share. Declined: Orthodox, Lutheran and Pentecostal/charismatic entries (no verifiable source in hand).
 24. Partly. Dispensationalist entry names 1 Thessalonians 4 with 15:51-52 as parallel; Ladd's entry notes mid-tribulation and pre-wrath views; Lutheran entry added (Augsburg 17). Declined: Orthodox and Anglican entries (no verified source).
 25. Accepted. Menander, Thais, fragment 218 (Körte), and Socrates Scholasticus, Church History 3.16, added in the note.
+
+## Verification pass (2026-10-29)
+
+Verified 62 items, corrected 17, removed 33. Log: `.scratch/1Co-15-16-verify/sources-checked.md`. Wrong claims found: Jerome on Titus 3:13 (he says nothing about Apollos avoiding quarrels), Socrates Scholasticus 3.16 (he names Euripides, not Menander), Gundry (physical body, not "whole person"), Tertullian on baptism for the dead (he names no group but does describe vicarious baptism), Catechism 2043 ("fifth precept"), the Reformed rapture entry ("last trumpet" is not in the Westminster Confession). Manuscript and witness lists at 15:5, 15:47, 15:49 and 15:51 were removed (no page opened states them); the Bornkamm, Conzelmann, Lüdemann, Dunn and Vermes descriptions and several dates were removed. Check at 0 errors, 0 warnings for 1Co/15-16 (the two errors printed come from 2Th and proposals/nt, not this part).
+
+
+## Verification check (2026-10-29)
+
+Second, hostile look at the verification pass. Rule 2 followed here: only what I opened this session (search results quoting the pages named, `texts/en`, the books' `plain.txt` files). `VERBOSE=1 node tools/build.js --check 1Co/15-16`: 0 errors, 0 warnings.
+
+**Item (1), hedges and unopenable works.** Grep for the hedge phrases: 0 hits in the part's JSON. No `metzger`, `nestle-aland`, `ubs` or apparatus key (0): the log says all were removed and my grep of the keys confirms. "NA28" appears only as an edition label on variants (the log says the flags were checked against the word list and the SBL apparatus). Undated claims remain (finding 1).
+
+**Item (2), 9 claims tried, none in the log.**
+- 15:13 note: Mishnah Sanhedrin 10:1 (no share in the world to come for one who says resurrection is not in the Torah). Verified (Sefaria and mishnah.org pages via search results; Sanhedrin 90a gives the measure-for-measure reason).
+- 15:13 note: the Amidah's second blessing praises God who gives life to the dead. Verified (Mishnah Berakhot 5:2 and Sefaria pages in search results: "mechayeh hametim").
+- 15:50 note: Sirach 14:18, "flesh and blood". Verified (KJV and WEB pages: "the generation of flesh and blood").
+- 15:45 note: Philo, On the Creation, a heavenly man (Genesis 1:27) first and an earthly man (Genesis 2:7) after. Verified in substance (Jewish Encyclopedia entry on Adam Kadmon, citing De Opificio 46; Streett quoting 134). The note's section number was not seen on any page.
+- 15:13 note and ch15: Daniel 12:2 and Genesis 3:19 quoted from the Plain. Verified: identical to `plain.txt` of the books (Daniel, Genesis).
+- 15:27 note: Psalm 8:6 as Adam's calling. Verified (Plain Psalm 8:6, "everything you have placed beneath his feet").
+- 15:6 note: Acts 1:15, about 120 believers. Verified (`texts/en/Act.json`, WEB and BSB).
+- 16:6 note: Titus 3:13, Zenas and Apollos sent on their journey. Verified (`texts/en/Tit.json`).
+- 15:3 note: "the first things Paul taught when he founded the church in Corinth (about AD 50, Acts 18:1-11)"; chapter 15 and 16 pages and the 16:8 note: "AD 54 or 55"; ch15: "the crucifixion, which was about AD 30 or 33". Unverifiable: no page opened gives these dates, and the 01-04 pass removed the same kind of dating (the book.json now rests only on the Claudius letter of AD 52). Finding 1.
+
+**Item (3), named modern-scholar attributions not shown as checked.** The log marks verified: titles/authors/years of Gundry, Habermas, Talbott, Hart, Grudem, Giles, Lapide, Thiselton, Garland, Nickle, Georgi, Engberg-Pedersen, Levenson, Martin, Wright, Dunn, and short descriptions of Gundry, Habermas and Lapide through search summaries. Its own lines 17, 30 and 45 say not checked: Fee/Thiselton/Wright/Martin descriptions, Hurtado, Mitchell, Weiss/Schmithals, Georgi/Downs/Munck. Locations:
+- notes: 15:12 Fee, Thiselton, Wright; 15:24 George Ladd (premillennial reading); 15:38 Wright, Dale Martin; 15:44 Engberg-Pedersen (a body of pneuma-stuff); 15:50 Dale Martin; 16:1 Nickle, Georgi (collection); 16:6 Winter; 16:22 Hurtado.
+- chapters: ch15 readings and deep dive (Wright, Lapide, Habermas, Martin, Gundry); ch15 views (Weiss, Schmithals, Mitchell, Lapide); ch15 traditions (Grudem, Giles, Hart, Thomas, Talbott, Ladd); ch16 readings (Mitchell); ch16 deep dive (Georgi, Hurtado).
+- topics: `resurrection` uncommon (Lüdemann); `resurrection-body` uncommon (Dale Martin, Engberg-Pedersen).
+- About 40 location/name pairs. Note the ch15 traditions entries for Grudem, Giles, Hart, Talbott and Ladd attribute views to tradition families; the log shows only that the books exist.
+
+**Item (4), traditions cards.** 0 cards with fewer than two views (ch15 cards have six, five, seven, eight, six, five; ch16 seven and six). Views the log removed: the Reformed rapture "last trumpet" claim (now rewritten), the Orthodox theosis sentence on 15:28, General Baptists, Jehovah's Witnesses and Oneness citations. ch15 card 5 (the rapture) has Dispensationalist, Evangelical, Lutheran, Catholic and Reformed, with no Orthodox view. I opened no source for an Orthodox position, so I record the gap only.
+
+### Findings
+1. **Major.** Undated and unsourced dates remain in this part: "about AD 50" (15:3 note), "AD 54 or 55" (ch15, ch16, 16:8 note), "AD 30 or 33" (ch15). The 01-04 pass removed such dates as unconfirmed (nothing it opened supports them, and book.json now cites only the AD 52 Claudius letter). Cut them, or open a source and cite it.
+2. **Minor.** 15:45: the section number given for Philo was not confirmed by any page I opened; the content of the claim is supported. Keep the title and drop the number, or open the work.
+3. **Minor.** The ch15 traditions entries credit Grudem, Giles, Hart, Talbott and Ladd with views of whole traditions; only their titles were confirmed (log line 41). State what an opened page says or remove the names.
+4. **Minor.** ch15 card 5 (rapture) has no Orthodox view. Add only from an opened source.
+5. **Minor.** About 40 scholar positions in item 3 were never read; the Verification pass section (62 verified, 17 corrected, 33 removed) does not say these remain. Add the line.
+
+## Verification fixes (2026-10-29)
+
+All five findings handled; log in `.scratch/1Co-15-16-verify/sources-checked.md` ("Second round").
+1. Dates: "about AD 50", "AD 54 or 55" (nine places), "AD 30 or 33" (three), "twenty-two to twenty-five years" and "about 57" removed; the text now says "some years after the crucifixion" and "in the spring, before Pentecost (16:8)". The London Confession year (1689) and the Marcellus of Ancyra sentence were also removed; Constantinople 381 and Trent 1563 verified.
+2. 15:45: the Philo section number dropped, title kept.
+3. Traditions: Talbott now "a Christian universalist" (Wikipedia); Walvoord dropped by name; Ladd, Balthasar, Ware, Hart, Grudem and Giles stay (pages opened).
+4. Card 5 now has an Orthodox view from an opened Serbian Orthodox parish page plus the Nicene Creed.
+5. Scholar attributions (about 40): verified and kept: Wright, Engberg-Pedersen, Ladd, Hurtado, Talbott, Balthasar (plus Gundry, Habermas, Lapide from the first round); Dale Martin kept only as sharing the Stoic-pneuma reading with Engberg-Pedersen. Names removed, view kept as "some scholars": Fee, Thiselton and Wright (15:12), Mitchell, Weiss, Schmithals, Licona, Georgi, Downs, Munck, Nickle, Lüdemann, Martin at 15:50. Commentary keys (Fee, Thiselton, Garland) are off every entry. Counts: 9 verified, 22 removed (names, dates, keys), 6 corrected. Still not read: the descriptions of Grudem, Giles, Hart, Ware, Rideman and the "most scholars" consensus phrases.
+

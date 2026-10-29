@@ -170,3 +170,65 @@ Count: 0 critical, 5 major, 14 minor.
 19. Fixed. The 13:5 conjecture is labeled as proposed by some modern commentators, not attributed to one.
 
 For the lead: no other book quotes a changed verse of this part (14:18 lost "either"); the new source keys are local to this part (jerome-matthew-27, arrian-anabasis-2, sifre-deuteronomy, rashi-zechariah, mede-works, brown-answering-jewish-3, feinberg-god-remembers). The Brown and Feinberg references and Mede's Works were cited from memory of the works' contents and were not opened here.
+
+
+## Verification pass (2026-10-29)
+
+Counts: verified 38, corrected 11, removed 22. Log: `.scratch/Zec-09-14-verify/sources-checked.md`.
+
+- Corrected (wrong, not just unverified): Augustine on Matthew 27:9 (a slip of memory God allowed, not "the Spirit spoke through both"); Calvin on 14:4 (figurative; he rejects the ascension allegory); Arrian gives no siege lengths (seven months and two months come from Diodorus, per Chinnock's notes); Taanit 9a (well with Miriam, cloud with Aaron, all with Moses); Gundry's view was removed because a snippet says he disagrees with the blend view the card gave him.
+- Removed: Gundry, Feinberg, Michael L. Brown, Theodoret, Walvoord, Hoekema, R. Brown (card), Mede's date and Works, the Damascus Document passages, BHS/Peshitta/Targum witnesses at 11:13, the medieval-manuscript "to him" variant at 12:10, "house of Nathan = prophets" attributed to Sukkah 52a, the Gog and Magog link, the Evangelical and Messianic Jewish card entries, and the source keys tov-tchb, bhs-elliger, gundry-use-of-ot, mede-works, brown-answering-jewish-3, feinberg-god-remembers.
+- Open for the lead: modern-scholar names and claims in the chapter `views` (Stade 1881, Hanson, Redditt, Baldwin, Merrill, Sweeney, Meyers) and the scholarly `s` keys in notes were not opened; Hoehner is cited from a secondary article only; Jerome on 9:9 and on chapter 14 were not opened.
+
+## Verification check (2026-10-29)
+
+Hostile re-check of the verification pass. Everything below was opened in this session (Sefaria API, texts/, tools/lxx.py, Gutenberg 2848, Wikipedia pages and web search results, as named). Nothing was edited.
+
+### Item 1: hedges and unopenable works
+Grep of this part's JSON for the hedge phrases, metzger, NA28, UBS, BHS found none. ("Reported" at note 14:5 is "excavators have reported damage": see Item 2, no. 4. "Memory" hits are ordinary words.) Keys to works nobody opened:
+
+1. MAJOR. `meyers-zech-9-14` (76 notes, 14 chapter entries, 10 variants) and `petersen-zech-9-14` (13 notes, 11 chapter entries) back most notes. The works were never opened; the log's "open for the lead" says the scholarly `s` keys were not opened. Same agent-verify rule 5 problem as in part 01-08.
+2. MAJOR. Keys that point to a removed or wrong source. `cd-damascus` is still in the `s` list of the 13:7-9 setting although the log says the Damascus Document claim was removed and nothing in that setting names it now. `cathcart-gordon-targum-minor` is cited at notes 12:10 and 12:11 and variant 14:21, and the variant text says the Targum is "as in the Cathcart and Gordon translation", but the Targum claims were verified in the Aramaic on Sefaria (the key `targum-jonathan-sefaria` exists in part 01-08 for that), not in Cathcart and Gordon, which no one opened.
+3. MINOR. Other keys to works not opened: `sweeney-twelve` (9:1, 10:6, ch 2), `hanson-dawn` (9:13, 11:4, ch 1), `redditt-haggai-zech-mal` (11:4), `mitchell-zech` (one note), `davies-allison-matthew` (4 notes, 1 chapter, 2 variants), `brown-john`, `brown-john-2`, `brown-death-messiah` (about 10 entries), `menken-matthews-bible` (3 notes, 1 variant), `hoehner-chronological` (ch 1 card). `jerome-twelve` is on note 11:15 and the 11:15-17 setting; the log checks Jerome only for 12:3, 12:10 and 12:11.
+
+### Item 2: claims checked (verified / wrong / unverifiable)
+1. Variant 14:21: the Targum reads "merchant" (tagra). VERIFIED (Sefaria Targum_Jonathan_on_Zechariah.14.21: "...velo yehe avid tagra od bevet maqdasha").
+2. Ch 4 (12:10) H: "Ptolemy I in 320 or 301 BC" attacked Jerusalem. UNVERIFIABLE, and 320 is doubtful. Josephus Antiquities 12.1 (Gutenberg 2848, chapter heading) confirms Ptolemy son of Lagus took Jerusalem by deceit but gives no date. Wikipedia "Ptolemy I Soter" lists his Syrian occupations as 318, 312 and 301 (320 is the year Perdiccas died). MINOR.
+3. Same chapter: Onias III murdered in 171 BC (2 Maccabees 4:33-34). The murder at Daphne by Andronicus at Menelaus's urging is VERIFIED (texts/en/2Ma.json kjva 4:33-34). The year 171 is not stated on the opened pages (Wikipedia "Onias III" gives 175 BC for Jason's usurpation and no year for the murder). UNVERIFIABLE. MINOR.
+4. Note 14:5: quake in the mid-8th century found at Hazor and other sites; Josephus Ant 9.10.4 on the Temple split. VERIFIED (Wikipedia Uzziah: Hazor, Deir 'Alla, Gezer, Lachish, "middle of the 8th century", Gezer 760 BC plus or minus 25, Yadin and Finkelstein date Hazor to 760; it quotes the Josephus passage and notes it is absent from 2 Chronicles 26). Not in the log; holds.
+5. Note 9:1: Hadrach is Hatarikka, north Syria near Hamath; Tiglath-pileser III took it. PARTLY VERIFIED (Wikipedia "Hatarikka": "ancient Hazrek (under Neo-Assyrians Hatarikka)", "in the Bible as Hadrach (Zechariah 9)", occupied "c. 738 BC ... Tiglath-Pileser III", capital of the Kingdom of Hamath; the page does not state the Hadrach identification in one sentence).
+6. Variants 11:7, 11:13, 12:10 (Greek): a Canaanite reading in 11:7, "furnace" in 11:13, "danced in scorn" (katorchesanto) in 12:10. VERIFIED (python tools/lxx.py, Swete). Swete 11:7 reads eis ten Chananitin ("to the Canaanite land"), which is not exactly "Canaanites for the poor"; the single-manuscript warning applies.
+7. Sources: Meyers and Meyers, Zechariah 9-14, Anchor Bible 25C, Doubleday 1993; Petersen, Zechariah 9-14 and Malachi, OTL, Westminster John Knox 1995. VERIFIED (library catalog records, web search).
+8. Source `menken-matthews-bible`: BETL 173, Leuven University Press, 2004. VERIFIED (catalogue results; the imprint is Peeters and Leuven University Press).
+9. Ch 1 C and note 9:13: Hanson put the roots of apocalyptic in Zechariah 9-14. VERIFIED in substance (Fortress Press 1975 page and a reading: apocalyptic eschatology develops in Zech 9-14). Quote-level claims in note 11:4 were not opened.
+10. Ch 1 Dispensationalist card: Hoehner dates the end of the sixty-nine weeks to the triumphal entry. VERIFIED only through secondary pages (ldolphin.org: 444 BC to 30 March AD 33, Nisan 10); the book itself was not opened, as the log says. The card wording matches.
+11. Ch 4 H and note 12:11: Jeremiah lamented for Josiah (2 Chronicles 35:25). VERIFIED (texts/en/2Ch.json).
+12. Ch 3 H: "the breaking of Union may reflect the split between Judah and Samaria in the 5th or 4th century." UNVERIFIABLE; no opened source dates such a split. MINOR.
+13. Sources `mitchell-zech` (Mitchell, Smith, Bewer, ICC 1912) and `sweeney-twelve`: not found by the search I ran. UNVERIFIABLE. MINOR.
+14. Note 12:8: Greek "like the house of God" and 4Q80 "like God". When I ran tools/dss.py here it failed with a Windows encoding error, so 4Q80 was NOT rechecked by me (the log says it was). UNVERIFIABLE by me; no sign of error.
+Wrong claims found: none new in this part.
+
+### Item 3: named modern-scholar attributions not shown as checked in the log
+- chapters.json ch 1 (views C): "Stade (1881) argued from the mention of Greece for a Greek date"; "Hanson put the roots of apocalyptic here"; "Meyers and Meyers keep a Persian date"; "Conservative scholars (Baldwin, Merrill) keep Zechariah as author and read Greece as the western rival of Persia".
+- chapters.json ch 3 (views C): "Hanson reads chapters 9-14 as the work of a group out of power"; "Redditt reads the shepherd passages as a critique of the community's leaders".
+- chapters.json ch 6 (views): "Hanson and others see the roots of apocalyptic in the chapter's cosmic changes".
+- chapters.json ch 1 card (Dispensationalist): Hoehner (secondary only).
+- notes.json: 9:1 and 10:6 (`sweeney-twelve`); 9:9 and 14:21 (`brown-john`, `davies-allison-matthew`); 9:13 and 11:4 (`hanson-dawn`, `redditt-haggai-zech-mal`); 11:12, 11:13 and 13:7 (`brown-death-messiah`, `davies-allison-matthew`); 12:10 and 13:1 (`brown-john-2`, `brown-death-messiah`); plus the blanket Meyers and Petersen keys. (Mede at 11:13 was checked in the log via Owen's note in Calvin's commentary.)
+- variants.json: `meyers-zech-9-14` (10 entries), `menken-matthews-bible`, `davies-allison-matthew`, `brown-john-2`, `brown-death-messiah`.
+- topics.json: Hanson (one entry).
+- Unnamed but checkable: ch 3 deep "scholars who read chapters 9-14 as a single story of a rejected shepherd-king"; ch 4 "Onias III is a candidate for those who favor a Greek date".
+
+### Item 4: traditions cards
+No card has fewer than two views. Cards at the minimum of two: ch 3 (Catholic, Reformed) and the 14:16-21 card (Dispensationalist, Reformed).
+1. MINOR. Ch 3 (Matthew 27:9): the Evangelical entry (Gundry's blend view) was removed, leaving two Western views. The commonest explanation, a composite quotation named for the better-known prophet (note 11:13 calls it the commonest view), has no card voice now. It could be restated as a view of many commentators if the note's own text supports it, with no named teacher.
+2. MINOR. Ch 4 (12:10): the Messianic Jewish entry (Israel recognizing Yeshua; the LORD himself the pierced one) was removed entirely. It is a clearly distinct view. The Jewish readings that remain sit in the chapter `J` view, not on the card. Restore only with a source opened.
+3. MINOR. The 14:4 and 14:16-21 Dispensationalist views and the ch 4 Dispensationalist view now name no teacher or document, so they carry no source key. Not a rule 2 breach (no checkable detail), but the cards are thin.
+
+### Counts
+Item 1: 3 findings (2 major, 1 minor). Item 2: 14 claims: 8 verified (some in part), 0 wrong, 6 unverifiable or unrun (Ptolemy date, Onias year, Samaria split, Mitchell/Sweeney, 4Q80 recheck, Hoehner book). Item 3: 8 groups listed. Item 4: 3 findings (minor). Findings by severity: critical 0, major 2, minor 7.
+
+## Verification fixes (2026-10-29)
+
+Counts: 160 unopened scholarly or commentary source keys removed from entries (Meyers 100, Petersen 24, Davies and Allison 7, Brown 11 across three keys, Menken 4, Sweeney 3, Mitchell, Redditt, Baldwin, Hoehner, `cd-damascus`, Hanson, Jerome on 11:15); 1 key swapped (Cathcart and Gordon to a Sefaria-based Targum key); 6 dates corrected or removed; 5 modern-scholar attributions handled (Stade softened, Meyers and Meyers corrected to the Greco-Persian wars, Hanson kept, Redditt, Baldwin and Merrill names dropped, Hoehner kept without key). Log: `.scratch/Zec-09-14-verify/sources-checked.md`.
+
+Findings handled: Item 1 (keys to works not opened: removed from entries; four definitions local to this part dropped from sources.json), Item 2 (Ptolemy and Onias dates, Samaria split, Gaza "two" months, 4Q80 recheck with `PYTHONUTF8=1`, LXX wording at 11:7), Item 3 (named scholars), Item 4 (cards left as they are: ch 3 and the 14:16-21 card keep two views that still conflict; nothing restored without an opened source).

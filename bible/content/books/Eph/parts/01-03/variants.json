@@ -6,62 +6,52 @@
   "p": "The words 'in Ephesus' are missing from some of the oldest manuscripts, and the letter reads strangely without them.",
   "readings": [
    {
-    "w": "Most Greek manuscripts, including Alexandrinus (02, 400s), Bezae (05, 400s), the Byzantine text and the Textus Receptus (KJV); the later correctors of Sinaiticus (01) and of Vaticanus (03) add it in the margin, and a corrector of 424 (as reported, not rechecked); the Old Latin, Syriac and Coptic versions. SBLGNT and NA28 print it in square brackets (how THGNT prints it was not rechecked)",
+    "w": "The Byzantine text and the SBLGNT (which prints the words in square brackets), and every other edition in this site's word list (NA28, NA27, Tyndale House, Westcott-Hort, Tregelles, Textus Receptus); as listed on Wikipedia's page of Ephesians variants: Alexandrinus (A, 400s), the later correctors of Sinaiticus (01) and Vaticanus (03), the original hand of Claromontanus (D), many later manuscripts, and the Latin, Syriac, Coptic, Gothic and Armenian versions",
     "orig": "τοῖς ἁγίοις τοῖς οὖσιν ἐν Ἐφέσῳ καὶ πιστοῖς",
     "en": "to the saints who are in Ephesus and faithful",
     "plain": "who are in Ephesus, faithful"
    },
    {
-    "w": "P46 (about AD 200), the original hand of Sinaiticus (01, 300s) and Vaticanus (03, 300s), and a few later manuscripts (6, 1739). Origen's comment, which survives only in a medieval catena (edited by Gregg in the Journal of Theological Studies, 1902), and Basil's report of old copies point the same way (as reported by Metzger). Marcion's collection knew the letter as 'to the Laodiceans' (Tertullian, Against Marcion 5.11, 5.17)",
+    "w": "As listed on Wikipedia's page of Ephesians variants: P46 (about AD 200), the original hands of Sinaiticus (01, 300s) and Vaticanus (03, 300s), Minuscule 1739 (900s) and a corrector of Minuscule 424 (1000s). Basil of Caesarea (Against Eunomius 2.19) quotes the verse without the words and says that he found it so in old copies. Marcion's collection knew the letter as 'to the Laodiceans' (Tertullian, Against Marcion 5.11, 5.17)",
     "orig": "τοῖς ἁγίοις τοῖς οὖσιν καὶ πιστοῖς",
     "en": "to the saints who are also faithful",
     "plain": "who are also faithful"
    }
   ],
   "follow": 0,
-  "why": "The Plain keeps 'in Ephesus' because nearly every manuscript has it and the letter has been known by that title since the second century. But the oldest evidence is against it, so the reader should know the words may not be original.",
-  "b": "<p>Without the words, the Greek reads <i>tois hagiois tois ousin kai pistois</i>, \"to the saints who are also faithful\", and this is awkward: \"who are\" seems to need a place. Explanations: the original had a blank space for the name of each church, filled in as copies were made (a circular letter); \"in Ephesus\" was added when the letter was kept at Ephesus; Paul wrote to Laodicea and the copy to Colossae (Colossians 4:16 mentions a letter \"from Laodicea\"); or a later writer sent a general letter to Christians in Asia. Basil of Caesarea (Against Eunomius 2.19) says that in old copies he found the words absent. Hoehner argues that the letter went first to Ephesus; Lincoln, Best and Schnackenburg think the words were added later. See also the note at 1:15.</p>",
+  "why": "The Plain keeps 'in Ephesus' because the Byzantine text and many other witnesses have it, and because Tertullian says the church's title for the letter was 'to the Ephesians'. But the oldest evidence is against it, so the reader should know the words may not be original.",
+  "b": "<p>Without the words, the Greek reads <i>tois hagiois tois ousin kai pistois</i>, \"to the saints who are also faithful\", and this is awkward: \"who are\" seems to need a place. Explanations: the original had a blank space for the name of each church, filled in as copies were made (a circular letter); \"in Ephesus\" was added when the letter was kept at Ephesus; Paul wrote to Laodicea and the copy to Colossae (Colossians 4:16 mentions a letter \"from Laodicea\"); or a later writer sent a general letter to Christians in Asia. Basil of Caesarea (Against Eunomius 2.19) says that in old copies he found the words absent. See also the note at 1:15.</p>",
   "s": [
-   "metzger",
-   "comfort-nttc",
    "sblgnt",
-   "nestle-aland-28",
-   "thgnt",
+   "wikipedia-eph-variants",
    "tertullian-marcion",
-   "basil-eunomius",
-   "origen-ephesians-jts",
-   "lincoln-ephesians",
-   "best-ephesians",
-   "hoehner-ephesians"
+   "basil-eunomius"
   ]
  },
  {
   "v": "1:1",
   "a": "of Christ Jesus",
   "t": "'Christ Jesus' or 'Jesus Christ'?",
-  "p": "The oldest manuscripts have 'Christ Jesus'; the later ones, and the KJV, have 'Jesus Christ'.",
+  "p": "The SBLGNT has 'Christ Jesus'; the Byzantine text, and the KJV, have 'Jesus Christ'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early Alexandrian manuscripts",
+    "w": "SBLGNT and NA28 (checked in this site's source texts)",
     "orig": "Χριστοῦ Ἰησοῦ",
     "en": "of Christ Jesus",
     "plain": "of Christ Jesus"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV)",
+    "w": "Byzantine text (checked in this site's source text); the KJV reads 'Jesus Christ'",
     "orig": "Ἰησοῦ Χριστοῦ",
     "en": "of Jesus Christ",
     "plain": "of Jesus Christ"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the early Alexandrian order, which is also Paul's more usual order in this letter. The meaning is the same.",
-  "b": "<p>The two orders may simply reflect scribes' habit, and the manuscripts split. The same difference occurs at 2:20, and at 3:1, where the name \"Jesus\" itself is in brackets in the NA28 (a few manuscripts leave it out). The meaning does not change: \"Christ\" is a title (see the note at Romans 1:1) that had become part of the name.</p>",
+  "why": "The Plain follows the SBLGNT order. The meaning is the same.",
+  "b": "<p>The two orders differ only in the order of the two words. The meaning does not change: \"Christ\" is a title (see the note at Romans 1:1) that had become part of the name.</p>",
   "s": [
-   "metzger",
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt"
+   "sblgnt"
   ]
  },
  {
@@ -71,25 +61,24 @@
   "p": "Some of the oldest manuscripts leave out the word 'love'.",
   "readings": [
    {
-    "w": "The Byzantine text, the Textus Receptus and most manuscripts; SBLGNT, NA28, THGNT",
+    "w": "The Byzantine text and the SBLGNT (both checked in this site's source texts); most later witnesses, as the NET Bible's note on this verse says",
     "orig": "καὶ τὴν ἀγάπην τὴν εἰς πάντας τοὺς ἁγίους",
     "en": "and the love toward all the saints",
     "plain": "and your love for all the saints"
    },
    {
-    "w": "P46 (about AD 200) and the original hand of Vaticanus (03, 300s); other witnesses are listed in the NA28 apparatus and in Metzger but have not been rechecked here",
+    "w": "As listed in the NET Bible's note on this verse: P46 (about AD 200), the original hand of Sinaiticus (01), Alexandrinus (A), Vaticanus (B), and P, 33, 1739, 1881 and 2464",
     "orig": "καὶ τὴν εἰς πάντας τοὺς ἁγίους",
     "en": "and the [faith] toward all the saints",
     "plain": "and toward all the saints"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the longer text, which is the one the Byzantine text and the standard editions print (some editions bracket the word; this was not rechecked). The shorter text would speak of 'faith... toward all the saints', which is unusual, and the omission is easily explained by a copyist's eye jumping between two identical words (<i>ten</i>).",
-  "b": "<p>The shorter text has early support, but the word may have been lost by accident because <i>tên</i> appears twice. How the editorial committee of the Greek New Testament rated the choice is discussed in Metzger's <i>Textual Commentary</i>; the rating is not restated here because it was not rechecked. Colossians 1:4 has the same phrase with \"love\" present.</p>",
+  "why": "The Plain follows the longer text, which the Byzantine text and the SBLGNT both print. The NET Bible's note says the shorter reading has the stronger external support but is internally the harder one, because the saints would become an object of faith alongside the Lord Jesus, and that a scribe could have supplied the phrase from the parallel in Colossians 1:4.",
+  "b": "<p>The NET Bible's note on this verse lists the witnesses above and says that, externally, the shorter reading is superior. Internally it is a harder reading, since without \"your love\" the saints become an object of faith on a par with the Lord Jesus. A scribe could easily have supplied the phrase from the parallel in Colossians 1:4. The Plain keeps the longer text, which both editions in this site's source texts print.</p>",
   "s": [
-   "metzger",
-   "comfort-nttc",
-   "nestle-aland-28"
+   "sblgnt",
+   "net-bible-eph-1-15"
   ]
  },
  {
@@ -99,13 +88,13 @@
   "p": "One letter changes whether the relative word agrees with the down payment or with the Spirit.",
   "readings": [
    {
-    "w": "SBLGNT and the NA text (this reading agrees with the neuter word 'down payment', arrabon)",
+    "w": "SBLGNT, NA28, Tyndale House and Westcott-Hort (checked in this site's word list; this reading agrees with the neuter word 'down payment', arrabon)",
     "orig": "ὅ ἐστιν ἀρραβών",
     "en": "which is a down payment",
     "plain": "This Spirit is a down payment"
    },
    {
-    "w": "Byzantine text (checked in this site's source text); the Textus Receptus (as reported, not rechecked)",
+    "w": "Byzantine text, Tregelles and the Textus Receptus (checked in this site's word list)",
     "orig": "ὅς ἐστιν ἀρραβών",
     "en": "who is a down payment",
     "plain": "This Spirit is a down payment"
@@ -115,237 +104,136 @@
   "why": "The Plain follows the neuter 'which', which agrees with the word for down payment. Either way the sentence says that the Spirit is the down payment, so the English is the same.",
   "b": "<p>The relative pronoun is <i>ho</i> (neuter, \"which\") in the SBLGNT and <i>hos</i> (masculine, \"who\") in the Byzantine text. The masculine agrees with the Spirit as a person, though the Greek word for Spirit is neuter; the neuter agrees with <i>arrabon</i>. The sense does not change.</p>",
   "s": [
-   "sblgnt",
-   "nestle-aland-28",
-   "metzger"
-  ]
- },
- {
-  "v": "1:18",
-  "a": "heart",
-  "t": "'Heart' or 'understanding'?",
-  "p": "The KJV's 'eyes of your understanding' follows a different Greek word.",
-  "readings": [
-   {
-    "w": "All the critical editions (SBLGNT, NA28, THGNT) and the Byzantine text; the early papyri and uncials",
-    "orig": "καρδίας",
-    "en": "heart",
-    "plain": "heart"
-   },
-   {
-    "w": "Textus Receptus (the printed Greek behind the KJV)",
-    "orig": "διανοίας",
-    "en": "mind, understanding",
-    "plain": "mind"
-   }
-  ],
-  "follow": 0,
-  "why": "The Plain follows 'heart', the reading of the early witnesses and of the Byzantine text itself. 'Mind' looks like a later smoothing or a borrowing from 4:18 or 2:3.",
-  "b": "<p>\"The eyes of your heart\" is an unusual image, and a copyist or editor may have replaced \"heart\" with a more expected word. The Textus Receptus is a printed text from the 1500s that follows a few late manuscripts here; the KJV translated it as \"understanding\".</p>",
-  "s": [
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt",
-   "metzger"
+   "sblgnt"
   ]
  },
  {
   "v": "2:15",
   "a": "in him one new humanity",
   "t": "'In him' or 'in himself'?",
-  "p": "The editions split on a breathing mark: some print 'in him', others 'in himself'.",
+  "p": "The Plain reads 'in him'; the SBLGNT and the Byzantine text print the reflexive 'in himself'.",
   "readings": [
    {
-    "w": "NA28 (THGNT as reported, not rechecked). The oldest manuscripts have no breathing marks, so they cannot tell the two readings apart; this is an editors' choice",
+    "w": "NA28, NA27, Tyndale House and Tregelles (checked in this site's word list); the reading the Plain follows",
     "orig": "ἐν αὐτῷ",
     "en": "in him",
     "plain": "in him one new humanity"
    },
    {
-    "w": "SBLGNT (checked in this site's source text; the Westcott-Hort reading), the Byzantine text and the Textus Receptus (KJV 'in himself')",
+    "w": "SBLGNT (ἐν αὑτῷ), Westcott-Hort, the Textus Receptus and the Byzantine text (ἐν ἑαυτῷ), checked in this site's word list; the KJV reads 'in himself'",
     "orig": "ἐν ἑαυτῷ (SBLGNT prints ἐν αὑτῷ)",
     "en": "in himself",
     "plain": "in himself one new humanity"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the NA28 reading, 'in him', which matches the letter's refrain 'in him' and 'in Christ' (1:3-14; 2:13, 21-22). The SBLGNT, which the site otherwise leans on, prints the reflexive 'in himself'. Either way the new humanity is created in Christ; the reflexive would stress that Christ is the one acting.",
-  "b": "<p>The Greek letters are the same in the earliest manuscripts, which were written without breathing marks: <i>autoi</i> (\"in him\") and <i>hautoi</i> (\"in himself\") differ only by a breathing, so editors decide. The reflexive reading points to Christ as the subject of the sentence; the other keeps the \"in him\" phrase that the letter loves. The Byzantine text and the Textus Receptus spell the reflexive <i>heautoi</i>.</p>",
+  "why": "The Plain reads 'in him', which matches the letter's refrain 'in him' and 'in Christ' (1:3-14; 2:13, 21-22). The SBLGNT and the Byzantine text print the reflexive 'in himself'; NA28 prints 'in him'. Either way the new humanity is created in Christ; the reflexive would stress that Christ is the one acting.",
+  "b": "<p>The Greek letters are the same either way: <i>autoi</i> (\"in him\") and <i>hautoi</i> (\"in himself\") differ only by a breathing mark, so the choice is the editor's. The reflexive reading points to Christ as the subject of the sentence; the other keeps the \"in him\" phrase that the letter loves. The Byzantine text spells the reflexive <i>heautoi</i>.</p>",
   "s": [
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt",
-   "metzger"
-  ]
- },
- {
-  "v": "2:21",
-  "a": "the whole building",
-  "t": "'The whole building' or 'every building'?",
-  "p": "A small word in front of 'building' changes the sense of the Greek.",
-  "readings": [
-   {
-    "w": "SBLGNT and the Byzantine text, as printed in this site's source texts (checked)",
-    "orig": "πᾶσα οἰκοδομή",
-    "en": "every building, or the whole building",
-    "plain": "the whole building"
-   },
-   {
-    "w": "Some manuscripts and the Textus Receptus (KJV 'all the building'), as reported, not rechecked",
-    "orig": "πᾶσα ἡ οἰκοδομή",
-    "en": "the whole building",
-    "plain": "the whole building"
-   }
-  ],
-  "follow": 0,
-  "why": "The Plain reads one building under construction, as the context (the temple of 2:21-22) suggests. Without the article the Greek can also mean 'every building' or 'each building', as if each local church were a temple.",
-  "b": "<p>Greek usually puts the article between <i>pasa</i> and its noun when it means \"the whole\". The article is missing in the editions printed here, so some interpreters take it as \"each building\". Most commentators still read one temple, since the picture runs on into the \"home for God\" of 2:22.</p>",
-  "s": [
-   "sblgnt",
-   "nestle-aland-28",
-   "lincoln-ephesians",
-   "hoehner-ephesians"
+   "sblgnt"
   ]
  },
  {
   "v": "2:17",
   "a": "and peace for those who were near",
   "t": "Is 'peace' said twice?",
-  "p": "The Byzantine text says 'peace' once; the older text says it twice, as in Isaiah 57:19.",
+  "p": "The Byzantine text says 'peace' once; the SBLGNT says it twice, as in Isaiah 57:19.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early manuscripts",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (checked in this site's word list)",
     "orig": "καὶ εἰρήνην τοῖς ἐγγύς",
     "en": "and peace to those who were near",
     "plain": "and peace for those who were near"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV)",
+    "w": "Byzantine text (checked in this site's source text); the KJV reads 'and to them that were nigh'",
     "orig": "καὶ τοῖς ἐγγύς",
     "en": "and to those who were near",
     "plain": "and for those who were near"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the early text, which repeats 'peace' as Isaiah 57:19 does ('Peace, peace'). A copyist could easily drop the second one as unneeded.",
+  "why": "The Plain follows the SBLGNT, which repeats 'peace' as Isaiah 57:19 does ('Peace, peace').",
   "b": "<p>The meaning is unchanged, since 'peace' still governs the clause, but the repetition recalls the prophet's doubled word.</p>",
   "s": [
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt"
+   "sblgnt"
   ]
  },
  {
   "v": "3:3",
   "a": "how the mystery became known to me through a revelation",
   "t": "'Was made known' or 'he made known'?",
-  "p": "The oldest manuscripts have a passive verb; the Byzantine text has an active verb with 'that'.",
+  "p": "The SBLGNT has a passive verb; the Byzantine text has an active verb with 'that'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early Alexandrian manuscripts",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (checked in this site's word list)",
     "orig": "κατὰ ἀποκάλυψιν ἐγνωρίσθη μοι τὸ μυστήριον",
     "en": "by revelation the mystery was made known to me",
     "plain": "how the mystery became known to me through a revelation"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV 'he made known unto me the mystery')",
+    "w": "Byzantine text and the Textus Receptus (checked in this site's word list); the KJV reads 'he made known unto me the mystery'",
     "orig": "ὅτι κατὰ ἀποκάλυψιν ἐγνώρισέν μοι τὸ μυστήριον",
     "en": "that by revelation he made known to me the mystery",
     "plain": "that through a revelation he made known to me the mystery"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the early passive. The active 'he made known' is a clearer smoothing, with God as the subject, and the added 'that' fits the grammar of 'you have heard'.",
+  "why": "The Plain follows the SBLGNT passive. The active 'he made known' makes God the subject, and the Byzantine text adds 'that' before it.",
   "b": "<p>The meaning is almost the same: either way the mystery was a gift from God by revelation.</p>",
   "s": [
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt",
-   "metzger"
-  ]
- },
- {
-  "v": "3:9",
-  "a": "the plan of the mystery",
-  "t": "'Plan' or 'fellowship'?",
-  "p": "The KJV's 'fellowship of the mystery' follows one Greek word; nearly everything else has another.",
-  "readings": [
-   {
-    "w": "SBLGNT, NA28, THGNT, the Byzantine text, and the early uncials and papyri",
-    "orig": "οἰκονομία",
-    "en": "administration, plan",
-    "plain": "the plan of the mystery"
-   },
-   {
-    "w": "Textus Receptus (KJV 'fellowship'), from a small number of manuscripts",
-    "orig": "κοινωνία",
-    "en": "fellowship, sharing",
-    "plain": "the fellowship of the mystery"
-   }
-  ],
-  "follow": 0,
-  "why": "The Plain follows 'plan', the reading of the great majority and of the early witnesses. 'Fellowship' seems to be a scribe's mistake or a reminiscence of Philemon 1:6 and similar phrases. 'Plan' also links with 1:10 and 3:2.",
-  "b": "<p>The word <i>oikonomia</i> is used three times in the letter (1:10; 3:2; 3:9). The KJV's \"fellowship\" depends on the Textus Receptus, which here follows a reading found in only a few Greek manuscripts.</p>",
-  "s": [
-   "metzger",
-   "comfort-nttc",
-   "nestle-aland-28",
-   "thgnt"
+   "sblgnt"
   ]
  },
  {
   "v": "3:9",
   "a": "the creator of all things",
   "t": "'Through Jesus Christ' added?",
-  "p": "The KJV adds 'by Jesus Christ' at the end of the verse; the oldest manuscripts do not.",
+  "p": "The KJV adds 'by Jesus Christ' at the end of the verse; the SBLGNT does not.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early Alexandrian manuscripts",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (checked in this site's word list)",
     "orig": "τῷ τὰ πάντα κτίσαντι",
     "en": "who created all things",
     "plain": "the creator of all things"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV 'by Jesus Christ')",
+    "w": "Byzantine text and the Textus Receptus (checked in this site's word list); the KJV reads 'by Jesus Christ'",
     "orig": "τῷ τὰ πάντα κτίσαντι διὰ Ἰησοῦ Χριστοῦ",
     "en": "who created all things through Jesus Christ",
     "plain": "the creator of all things through Jesus Christ"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter, early text. The longer reading looks like an addition to bring the verse in line with Colossians 1:16 and John 1:3, which say all things were made through him.",
-  "b": "<p>Metzger reports that the longer text was probably added by copyists under the influence of Colossians 1:16. The doctrine is found elsewhere, but not here, in the earliest text.</p>",
+  "why": "The Plain follows the shorter SBLGNT text. The longer reading says 'through Jesus Christ', words that echo Colossians 1:16 and John 1:3, where all things are made through him.",
+  "b": "<p>The doctrine that all things were made through Christ is found in Colossians 1:16 and John 1:3, but these words are not in the SBLGNT text of this verse.</p>",
   "s": [
-   "metzger",
-   "comfort-nttc",
-   "nestle-aland-28"
+   "sblgnt"
   ]
  },
  {
   "v": "3:14",
   "a": "I kneel before the Father",
   "t": "'Father of our Lord Jesus Christ'?",
-  "p": "The KJV adds 'of our Lord Jesus Christ' after 'Father'.",
+  "p": "The KJV adds 'of our Lord Jesus Christ' after 'Father'; the SBLGNT does not.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early Alexandrian manuscripts (P46, Sinaiticus original hand, Alexandrinus, Vaticanus; as reported in NA28)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (checked in this site's word list)",
     "orig": "κάμπτω τὰ γόνατά μου πρὸς τὸν πατέρα",
     "en": "I bend my knees to the Father",
     "plain": "I kneel before the Father"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV 'of our Lord Jesus Christ'); a few early correctors",
+    "w": "Byzantine text and the Textus Receptus (checked in this site's word list); the KJV reads 'of our Lord Jesus Christ'",
     "orig": "πρὸς τὸν πατέρα τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
     "en": "to the Father of our Lord Jesus Christ",
     "plain": "I kneel before the Father of our Lord Jesus Christ"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the shorter text. The longer one is a familiar phrase from 1:3, and it fits copyists' habit of expanding.",
-  "b": "<p>The words \"the Father of our Lord Jesus Christ\" are the opening of 1:3, so a scribe could add them here by memory. Without them 'the Father' is emphasized, in a verse about every family getting its name from him (3:15).</p>",
+  "why": "The Plain follows the shorter SBLGNT text. The longer one repeats a familiar phrase from 1:3.",
+  "b": "<p>The words \"the Father of our Lord Jesus Christ\" are the opening of 1:3, so they could be added here by memory. Without them 'the Father' is emphasized, in a verse about every family getting its name from him (3:15).</p>",
   "s": [
-   "metzger",
-   "nestle-aland-28",
    "sblgnt"
   ]
  },
@@ -353,28 +241,26 @@
   "v": "3:21",
   "a": "in the church and in Christ Jesus",
   "t": "'In the church and in Christ Jesus' or 'in the church in Christ Jesus'?",
-  "p": "The KJV has 'in the church by Christ Jesus'; the early text has an 'and'.",
+  "p": "The KJV has 'in the church by Christ Jesus'; the SBLGNT has an 'and'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, THGNT and the early manuscripts",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (checked in this site's word list)",
     "orig": "ἐν τῇ ἐκκλησίᾳ καὶ ἐν Χριστῷ Ἰησοῦ",
     "en": "in the church and in Christ Jesus",
     "plain": "in the church and in Christ Jesus"
    },
    {
-    "w": "Byzantine text and Textus Receptus (KJV 'in the church by Christ Jesus')",
+    "w": "Byzantine text and the Textus Receptus (checked in this site's word list); the KJV reads 'in the church by Christ Jesus'",
     "orig": "ἐν τῇ ἐκκλησίᾳ ἐν Χριστῷ Ἰησοῦ",
     "en": "in the church in Christ Jesus",
     "plain": "in the church in Christ Jesus"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the early text. Without the 'and' the church and Christ are no longer two places of glory, and the sentence is smoother, which suggests the shorter text is a smoothing.",
-  "b": "<p>With \"and\", glory is given in two places side by side: the church and Christ. The KJV's \"by Christ Jesus\" is the Textus Receptus text read as \"through\".</p>",
+  "why": "The Plain follows the SBLGNT, with 'and', so glory is given in two places, the church and Christ Jesus.",
+  "b": "<p>With \"and\", glory is given in two places side by side: the church and Christ. The KJV's \"by Christ Jesus\" reads the phrase without the \"and\".</p>",
   "s": [
-   "nestle-aland-28",
-   "sblgnt",
-   "thgnt"
+   "sblgnt"
   ]
  }
 ]

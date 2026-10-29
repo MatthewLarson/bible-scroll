@@ -6,13 +6,13 @@
   "p": "Editions differ on the order of the two names. The meaning does not change.",
   "readings": [
    {
-    "w": "NA28, SBLGNT (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT (editions only)",
     "orig": "Χριστοῦ Ἰησοῦ",
     "en": "Christ Jesus",
     "plain": "Christ Jesus"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "Ἰησοῦ Χριστοῦ",
     "en": "Jesus Christ",
     "plain": "Jesus Christ"
@@ -32,13 +32,13 @@
   "p": "The editions arrange the clauses of this verse in two orders, and the KJV follows the other one.",
   "readings": [
    {
-    "w": "NA28, SBLGNT, Westcott-Hort (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, Westcott-Hort (editions only)",
     "orig": "εἴτε δὲ θλιβόμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως καὶ σωτηρίας· εἴτε παρακαλούμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως τῆς ἐνεργουμένης ἐν ὑπομονῇ …",
     "en": "If we are in trouble, it is for your comfort and salvation. If we are comforted, it is for your comfort, which does its work in you as you patiently endure",
     "plain": "If we are in trouble, it is for your comfort and salvation. If we are comforted, it is for your comfort, which does its work in you as you patiently endure the very sufferings we also suffer."
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text; the Tyndale House GNT and Tregelles also depart from the SBLGNT order (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text; the Tyndale House GNT and Tregelles also depart from the SBLGNT order (editions only)",
     "orig": "εἴτε δὲ θλιβόμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως καὶ σωτηρίας τῆς ἐνεργουμένης ἐν ὑπομονῇ … εἴτε παρακαλούμεθα, ὑπὲρ τῆς ὑμῶν παρακλήσεως καὶ σωτηρίας",
     "en": "If we are in trouble, it is for your comfort and salvation, which does its work in you as you patiently endure the same sufferings we suffer. If we are comforted, it is for your comfort and salvation.",
     "plain": "If we are in trouble, it is for your comfort and salvation, which does its work in you as you patiently endure the very sufferings we also suffer. If we are comforted, it is for your comfort and salvation."
@@ -58,13 +58,13 @@
   "p": "The KJV reads \"doth deliver,\" a present tense. Most editions read the future.",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ῥύσεται",
     "en": "will deliver",
     "plain": "and he will rescue us"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ῥύεται",
     "en": "does deliver",
     "plain": "and he does rescue us"
@@ -85,13 +85,13 @@
   "p": "The Byzantine text has \"your\" where the other editions have \"our.\" The KJV agrees with the SBLGNT.",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles, Textus Receptus (KJV) (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles, Textus Receptus (KJV) (editions only)",
     "orig": "εὐχαριστηθῇ ὑπὲρ ἡμῶν",
     "en": "thanks be given on our behalf",
     "plain": "on our behalf"
    },
    {
-    "w": "Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Byzantine majority text (editions only)",
     "orig": "εὐχαριστηθῇ ὑπὲρ ὑμῶν",
     "en": "thanks be given on your behalf",
     "plain": "on your behalf"
@@ -111,25 +111,24 @@
   "p": "Editions differ on one word: holiness (SBLGNT) or simplicity, openness (NA28, KJV, per this project's edition marks).",
   "readings": [
    {
-    "w": "SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ἐν ἁγιότητι",
     "en": "in holiness",
     "plain": "a holiness"
    },
    {
-    "w": "NA28, Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "NA28, Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ἐν ἁπλότητι",
     "en": "in simplicity",
     "plain": "an openness"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the SBLGNT and so departs from the word-for-word line, which reads \"openness\" (haplotes). The reasons for \"holiness\" are outside the verse: the manuscript evidence is said to favor it, and \"simplicity\" may have come in from the same word in 8:2, 9:11 and 11:3, where Paul does use it. The two Greek words (hagiotes, haplotes) also look alike when written. Both fit the context, and \"single-hearted openness\" is the sense of the other reading. Manuscript witnesses for each side are given in the NA28/UBS5 apparatus and in Metzger's Textual Commentary; they were not rechecked here.",
+  "why": "The Plain follows the SBLGNT and so departs from the word-for-word line, which reads \"openness\" (haplotes). \"Simplicity\" may have come in from the same word in 8:2, 9:11 and 11:3, where Paul does use it, and the two Greek words (hagiotes, haplotes) look alike when written. Both fit the context, and \"single-hearted openness\" is the sense of the other reading. The site's word list shows only which editions print each reading; it names no manuscripts.",
   "s": [
    "sblgnt",
    "nestle-aland-28",
-   "thgnt",
-   "metzger"
+   "thgnt"
   ]
  },
  {
@@ -139,13 +138,13 @@
   "p": "Some editions leave out \"our.\" The KJV reads \"the day of the Lord Jesus.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, Westcott-Hort (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, Westcott-Hort (editions only)",
     "orig": "τοῦ κυρίου ἡμῶν Ἰησοῦ",
     "en": "our Lord Jesus",
     "plain": "our Lord Jesus"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text, Tyndale House GNT, Tregelles (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text, Tyndale House GNT, Tregelles (editions only)",
     "orig": "τοῦ κυρίου Ἰησοῦ",
     "en": "the Lord Jesus",
     "plain": "the Lord Jesus"
@@ -165,13 +164,13 @@
   "p": "Westcott-Hort print \"joy\" where the other editions print \"grace.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Tregelles, Textus Receptus, Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Tregelles, Textus Receptus, Byzantine majority text (editions only)",
     "orig": "δευτέραν χάριν",
     "en": "a second grace",
     "plain": "a second gift of grace"
    },
    {
-    "w": "Westcott-Hort (editions only; manuscript lists not checked)",
+    "w": "Westcott-Hort (editions only)",
     "orig": "δευτέραν χαράν",
     "en": "a second joy",
     "plain": "a second joy"
@@ -192,13 +191,13 @@
   "p": "The KJV reads \"and in him Amen.\" The oldest text has a stronger link: \"therefore.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "διὸ καὶ δι' αὐτοῦ τὸ Ἀμήν",
     "en": "therefore also through him the Amen",
     "plain": "That is why the \"Amen\" also goes up to God through him"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "καὶ ἐν αὐτῷ τὸ Ἀμήν",
     "en": "and in him the Amen",
     "plain": "And in him is the \"Amen\" to God"
@@ -219,13 +218,13 @@
   "p": "The Byzantine text reads \"the rest\" where the other editions, and the Textus Receptus behind the KJV, read \"the many.\"",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles, Textus Receptus (KJV) (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles, Textus Receptus (KJV) (editions only)",
     "orig": "οἱ πολλοί",
     "en": "the many",
     "plain": "the many"
    },
    {
-    "w": "Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Byzantine majority text (editions only)",
     "orig": "οἱ λοιποί",
     "en": "the rest",
     "plain": "the rest"
@@ -245,13 +244,13 @@
   "p": "The Textus Receptus (and so the KJV) has \"of the heart\" in the singular; the other editions have the plural \"hearts\" in apposition to \"tablets.\"",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles, Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles, Byzantine majority text (editions only)",
     "orig": "… καρδίαις σαρκίναις",
     "en": "tablets, hearts of flesh",
     "plain": "tablets that are hearts of flesh"
    },
    {
-    "w": "Textus Receptus (KJV) (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV) (editions only)",
     "orig": "… καρδίας σαρκίναις",
     "en": "tablets of the heart, of flesh",
     "plain": "tablets of flesh, those of the heart"
@@ -271,13 +270,13 @@
   "p": "The editions differ on the grammar of \"glory\" in the first half of 3:9. The KJV follows the Byzantine form.",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Tregelles (editions only)",
     "orig": "εἰ γὰρ τῇ διακονίᾳ τῆς κατακρίσεως δόξα",
     "en": "for if to the ministry of condemnation [there was] glory",
     "plain": "had glory"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (which also add \"in\" before \"glory\" in the second half) (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (which also add \"in\" before \"glory\" in the second half) (editions only)",
     "orig": "εἰ γὰρ ἡ διακονία τῆς κατακρίσεως δόξα",
     "en": "for if the ministry of condemnation [is] glory",
     "plain": "was glory"
@@ -298,13 +297,13 @@
   "p": "One small difference decides what is being set aside. The critical editions read \"because\"; the Textus Receptus and Byzantine text read \"which,\" and the KJV follows them.",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ὅτι ἐν Χριστῷ καταργεῖται",
     "en": "because in Christ it is being set aside",
     "plain": "because in Christ it is being set aside"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ὅ τι ἐν Χριστῷ καταργεῖται",
     "en": "which in Christ is being set aside",
     "plain": "which is set aside in Christ"
@@ -324,13 +323,13 @@
   "p": "The KJV has God commanding light to shine out of darkness. The older text has a future verb inside the quotation.",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ὁ εἰπών· Ἐκ σκότους φῶς λάμψει",
     "en": "who said, \"Out of darkness light will shine\"",
     "plain": "who said, \"Out of darkness light will shine,\""
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ὁ εἰπὼν ἐκ σκότους φῶς λάμψαι",
     "en": "who commanded light to shine out of darkness",
     "plain": "who commanded light to shine out of darkness,"
@@ -350,13 +349,13 @@
   "p": "The KJV reads \"the face of Jesus Christ.\" The editions are split.",
   "readings": [
    {
-    "w": "SBLGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "SBLGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ἐν προσώπῳ Χριστοῦ",
     "en": "in the face of Christ",
     "plain": "the face of Christ"
    },
    {
-    "w": "NA28, NA27, Tyndale House GNT, Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, Tyndale House GNT, Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ἐν προσώπῳ Ἰησοῦ Χριστοῦ",
     "en": "in the face of Jesus Christ",
     "plain": "the face of Jesus Christ"
@@ -377,13 +376,13 @@
   "p": "The KJV reads \"the dying of the Lord Jesus.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "τὴν νέκρωσιν τοῦ Ἰησοῦ",
     "en": "the dying of Jesus",
     "plain": "the dying of Jesus"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "τὴν νέκρωσιν τοῦ κυρίου Ἰησοῦ",
     "en": "the dying of the Lord Jesus",
     "plain": "the dying of the Lord Jesus"
@@ -403,13 +402,13 @@
   "p": "The KJV reads \"raise up us also by Jesus.\" The better-attested text says \"with.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "σὺν Ἰησοῦ",
     "en": "with Jesus",
     "plain": "with Jesus"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "διὰ Ἰησοῦ",
     "en": "through Jesus",
     "plain": "through Jesus"
@@ -429,23 +428,22 @@
   "p": "One letter changes the sense: \"if we are clothed\" or \"if we have taken it off.\" The editions are split.",
   "readings": [
    {
-    "w": "SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles, Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles, Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "εἴ γε καὶ ἐνδυσάμενοι",
     "en": "if indeed also having put on",
     "plain": "If we are indeed dressed"
    },
    {
-    "w": "NA27 and NA28 (editions; support for it is given in their apparatus and discussed by Metzger)",
+    "w": "NA27 and NA28 (editions only)",
     "orig": "εἴ γε καὶ ἐκδυσάμενοι",
     "en": "if indeed also having taken off",
     "plain": "If indeed we have taken it off"
    }
   ],
   "follow": 0,
-  "why": "The editions are divided. NA27 and NA28 print \"having taken off\"; the SBLGNT, Tyndale House, the Textus Receptus and most English Bibles have \"having put on.\" The Plain follows the SBLGNT, and so departs from the word-for-word line, which was built on the NA text and reads \"having put off.\" Two arguments are made. For \"taken off\": it is the harder reading, since it makes the sentence say very little (\"if we have taken it off, we will not be found naked\"), and scribes would have smoothed it into \"put on.\" For \"put on\": \"taken off\" may itself be an early change made to avoid the near-tautology \"if we are clothed, we will not be found naked\" (this is how Metzger's Textual Commentary is usually reported on the point; not rechecked here), and \"put on\" fits \"dressed over\" in 5:4. The manuscript witnesses for each side are in the NA28/UBS5 apparatus and in Metzger; they were not rechecked here. On either reading Paul's fear is of being unclothed.",
+  "why": "The editions are divided. NA27 and NA28 print \"having taken off\"; the SBLGNT, Tyndale House and the Textus Receptus (the KJV) have \"having put on.\" The Plain follows the SBLGNT, and so departs from the word-for-word line, which was built on the NA text and reads \"having put off.\" Two arguments can be made. For \"taken off\": it is the harder reading, since it makes the sentence say very little (\"if we have taken it off, we will not be found naked\"), and a scribe may have smoothed it into \"put on.\" For \"put on\": \"taken off\" may itself be an early change made to avoid the near-tautology \"if we are clothed, we will not be found naked,\" and \"put on\" fits \"dressed over\" in 5:4. No scholar is cited for either argument, and the site's word list names no manuscripts. On either reading Paul's fear is of being unclothed.",
   "b": "Many commentators note that the two readings differ by a single pair of letters (en- or ek-) and that the scribes could easily have confused them.",
   "s": [
-   "metzger",
    "sblgnt",
    "nestle-aland-28",
    "thgnt"
@@ -458,13 +456,13 @@
   "p": "The Textus Receptus and Byzantine text have a different word for the second term.",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "εἴτε ἀγαθὸν εἴτε φαῦλον",
     "en": "whether good or bad (worthless)",
     "plain": "whether good or bad"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "εἴτε ἀγαθὸν εἴτε κακόν",
     "en": "whether good or evil",
     "plain": "whether good or evil"
@@ -484,13 +482,13 @@
   "p": "The Textus Receptus and Byzantine text add \"for\" at the start of the verse and read \"not\" for \"and not\" near the end.",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "οὐ πάλιν ἑαυτοὺς συνιστάνομεν",
     "en": "not again are we commending ourselves",
     "plain": "we are not vouching for ourselves to you"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "οὐ γὰρ πάλιν ἑαυτοὺς συνιστάνομεν",
     "en": "for not again are we commending ourselves",
     "plain": "for we are not vouching for ourselves to you again"
@@ -510,13 +508,13 @@
   "p": "The KJV reads \"if one died for all, then were all dead,\" a conditional. The critical editions state it as a fact.",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ὅτι εἷς ὑπὲρ πάντων ἀπέθανεν· ἄρα οἱ πάντες ἀπέθανον",
     "en": "that one died for all; therefore all died",
     "plain": "one died for all, and so all died"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ὅτι εἰ εἷς ὑπὲρ πάντων ἀπέθανεν, ἄρα οἱ πάντες ἀπέθανον",
     "en": "that if one died for all, then all died",
     "plain": "if one died for all, then all died"
@@ -536,13 +534,13 @@
   "p": "The KJV reads \"behold, all things are become new.\" The older text has no \"all things.\"",
   "readings": [
    {
-    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "ἰδοὺ γέγονεν καινά",
     "en": "behold, new things have come",
     "plain": "new things have come into being"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "ἰδοὺ γέγονεν καινὰ τὰ πάντα",
     "en": "behold, all things have become new",
     "plain": "all things have become new"
@@ -563,13 +561,13 @@
   "p": "The KJV reads \"by Jesus Christ.\"",
   "readings": [
    {
-    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only; manuscript lists not checked)",
+    "w": "NA28, NA27, SBLGNT, THGNT, Westcott-Hort, Tregelles (editions only)",
     "orig": "διὰ Χριστοῦ",
     "en": "through Christ",
     "plain": "Through Christ he reconciled us to himself"
    },
    {
-    "w": "Textus Receptus (KJV), Byzantine majority text (editions only; manuscript lists not checked)",
+    "w": "Textus Receptus (KJV), Byzantine majority text (editions only)",
     "orig": "διὰ Ἰησοῦ Χριστοῦ",
     "en": "through Jesus Christ",
     "plain": "Through Jesus Christ he reconciled us to himself"

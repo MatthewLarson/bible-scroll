@@ -252,3 +252,72 @@ Fixes applied 2026-10-29 (review-fixer; lead decisions on nepios/huios/teknon, 4
 31. Drift reviewed, no change. 4:12 is near-literal; 5:1 differs in wording from the common versions.
 32. Accepted. 4:4 note says the Plain uses "born" for both ginomai and gennao.
 33. No change needed.
+
+## Verification pass (2026-10-29)
+
+Counts (claim groups in the log): about 95 verified, 31 corrected, 22 removed. The log is `.scratch/Gal-04-06-verify/sources-checked.md`.
+
+- Wrong claims found: the Genesis Rabbah 53:11 attributions (4:29), Lightfoot and the eye theory (4:15, 6:11), Lightfoot on 4:17, Burton on 6:16, the Reformed 'not from this verse' (Heidelberg Q&A 35 cites Gal 4:4), and the 'thin support' for omitting Hagar at 4:25 (Lightfoot lists strong witnesses).
+- Every `metzger` key and every manuscript list not found in an opened page was removed; witness lists now come from Burton (1921), Lightfoot (1865) and the NET Bible notes.
+- Hardin, Hodge, Murray, Mussner, the ELCA Declaration and the unsourced Dispensationalist and Messianic Jewish card views were removed; the unsourced Orthodox views were replaced with Chrysostom's commentary.
+
+## Verification check (2026-10-29)
+
+Hostile check of the verification pass. Everything below was opened in this session: `texts/` word lists (edition marks), the scratch copies of Burton (1921) and Lightfoot (1865), Aristotle's Politics (MIT), Charles's Jubilees (pseudepigrapha.com) and 1 Enoch (Wikisource), the KJV Apocrypha in `texts/en/Wis.json`, Wikipedia pages and search results. Build check: `Gal/04-06` 0 errors, 0 warnings. Counts for this part: (1) 4 items; (2) 1 wrong or partly wrong, 5 unverifiable or only secondary, 7 verified groups; (3) about 25 scholars with unchecked attributions; (4) 0 cards under two views, 5 cards that lost a distinct view.
+
+### (1) Hedges and unopenable works
+
+1. Major. No `metzger` key and none of the brief's hedge phrases remain. The bare word "reported" does remain: topic `abraham` ("Mishnah Bikkurim 1:4, reported") and topic `love-your-neighbor` ("Genesis Rabbah 24:7, reported"; the log says 24:7 was verified, so only the word is left over). The pass's statement that no hedges are left is not accurate.
+2. Major. Mishnah Bikkurim 1:4 (topic `abraham`, "Jewish teachers also debated whether a convert could call Abraham 'our father'"): the Mishnah, opened on Sefaria, does not mention Abraham. It says a convert whose mother was not Israelite cannot say "which the Lord swore to our fathers" when bringing first fruits, and may say "God of the fathers of Israel" in private prayer. Not a debate about Abraham. Reword to what the Mishnah says, or drop.
+3. Minor. variants 5:24 (`p`, `readings[1].w` "NA28 (with 'Jesus' in brackets)", `why` "The NA28 editors mark 'Jesus' as doubtful by printing it in brackets"): the word list marks Ἰησοῦ as present in NA28 but shows no brackets, and no opened page states them. Drop the bracket claims.
+4. Minor. 1QS 3-4, 4:2-6 and 4:9-11 (notes 5:16, 5:19, 5:22 and the chapter 5 deep dive): the Wikipedia Community Rule page names only 1QS ix 9-11, V, VIII-IX; no opened page gives the column and line numbers of the two spirits and their lists. Keep "Community Rule, the teaching of two spirits" and cut the line numbers, or open a translation.
+
+### (2) Spot checks (about 15 claims)
+
+Wrong or partly wrong:
+
+5. Major. notes 4:1 (`b`): "Burton, Betz and Longenecker lay out the evidence" on Roman, Greek and Egyptian guardianship. Burton (4:2) does discuss it (Roman law: tutor to fourteen, curator to twenty-five; "no other instance of ... the two terms together"; his own view is that Paul's "until the day set by the father" does not fit Roman law). Betz and Longenecker are not in any opened source. Name Burton only.
+
+Unverifiable or only secondary:
+
+6. Minor. notes 4:16 (`b`): "Plutarch ... says the friend risks the other's anger by telling the truth". Searches confirm the essay's theme (the flatterer imitates frank speech; frankness belongs to the friend) but nothing found says "risks anger". Reword to the theme.
+7. Minor. notes 4:13: malaria "which Ramsay linked to a trip from the hot coast up to the high country of Pisidia". Secondary pages state it (Perga, higher ground), Ramsay's own text was not opened; the log left it "not checked". Acceptable as a broad, widely repeated claim, but it is not verified from Ramsay.
+8. Minor. notes 6:14: "Hengel's study of crucifixion shows how shameful it was": not opened (logged as not checked). Plain-language, low risk.
+9. Minor. notes 4:24 (`b`): "Origen and the Alexandrian fathers took the passage as license for allegory in general": nothing opened states it (a search result on Philo notes only that Philo shaped how fathers such as Origen treated Hagar, via a scholar's comment). Same sentence in topic `allegory`.
+10. Minor. notes 5:23 (`b`): Aristotle's locator "1284a". The opened MIT text gives the sentence ("for men of pre-eminent virtue there is no law, they are themselves a law") without Bekker numbers, so "1284a" was not seen. Keep "Politics 3.13".
+
+Verified (what I opened): Aristotle Politics 3.13, the quoted sentence (classics.mit.edu); Mishnah Berakhot 2:2, the yoke of the kingdom of heaven, then the yoke of the commandments (Sefaria); Jubilees 1:29 ("the day of the new creation when the heavens and the earth shall be renewed") and 4:26 ("sanctified in the new creation") in Charles's translation; 1 Enoch 72:1 ("till the new creation is accomplished", Charles); Wisdom 14:25-26 is a vice list (KJV Apocrypha in `texts/en/Wis.json`); Philo, On Mating with the Preliminary Studies: Sarah as wisdom and virtue, Hagar as the preliminary studies (CCEL/Yonge via search; Sefaria page exists); Burton on 4:2, 4:6 and on Gal 1:18; edition marks at 4:14, 4:15, 4:19, 5:21, 5:24 and 6:13 in `texts/orig/Gal.json` all match the variants entries.
+
+### (3) Named modern scholars not shown as checked in the logs
+
+The 04-06 log says so itself ("Not checked (left in place; they were not hedged in the original)": Betz, Wright, Dunn, Martyn, de Boer, Longenecker, Hays, Munck, Schmithals, Gager, Boyarin, Campbell, Ramsay, Davies, Dodd). It also stays silent on others. Locations in this part:
+
+11. Betz: notes 4:1, 4:9, 4:12 (the friendship-letter pattern), 4:15 (proverb parallels), 4:16, 4:25 (Jerusalem = church leaders), 5:10, 5:17, 6:11 (signature gives authority), 6:13 (hypocrisy charge).
+12. Wright: notes 4:4, 5:5 (two-stage justification), 6:2 (law of Christ is the law written on hearts).
+13. Dunn: notes 4:4, 4:9, 4:17, 6:2; chapter 4 deep dive and settings; chapter 5 readings.
+14. Martyn: notes 4:3, 4:4, 4:9, 4:25, 4:30 (expel the agitators), 5:10; chapter 4 readings and deep dive; topic elements-of-the-world.
+15. de Boer: notes 4:4, 4:9; chapter 4 readings. Longenecker: notes 4:1, 4:12, 4:17, 6:2; chapter 4 settings; chapter 5 and 6 readings. Hays: note 6:2.
+16. Munck: notes 5:10, 6:13 (the agitators are circumcised Gentiles) and the variant at 6:13. Schmithals: note 5:10 (Gnostic opponents). Davies: note 6:2. Dodd: note 6:2.
+17. Moo (5:5); Barclay (4:17, chapter 5 readings and deep dive, chapter 6 readings; only the article title was verified); Nanos (4:9, 4:12, 4:17, 4:25, 5:10, 5:11, 5:18, 6:12; chapters 4-5; topic law-of-moses); Gager (4:9, 4:12, 4:25, 5:18; chapters 4-5; topic law-of-moses); Eisenbaum (4:9, 5:18, chapter 4); Fredriksen (4:4, 4:12, 5:11, chapter 5); Boyarin (4:4, 4:25); Campbell (4:25); Levine (4:4); Jewett (5:10, 6:12; the date claim is unverified, see the 01-03 review item 9); Arnold (4:3; article exists); Gaventa (4:19, chapter 6 deep dive; "the maternity of Paul" is the verified title); Barrett (4:24, chapter 4 settings: "turning the opponents' story back on them" not checked); Hengel (6:14).
+18. Severity of the group: major as a class. Note that in this part the checks that were done found several wrong attributions (Lightfoot on the eye theory, Genesis Rabbah 53:11, Burton on 6:16), so the unchecked ones should be assumed risky. 5:10 in particular names Munck, Schmithals, Jewett, Nanos, Betz and Martyn in one note.
+
+### (4) Traditions cards
+
+19. No card has fewer than two views.
+20. Major. ch6 "Who is the Israel of God?" is left with Catholic, Orthodox and Reformed, all of which read it as the church or all believers (Lumen Gentium, Chrysostom, Calvin). The Lutheran, Dispensationalist (ethnic Israel, with the future in Romans 11) and Messianic Jewish views were removed, so the card no longer shows any view that the phrase means the Jewish people. The notes mention that reading (Burton, Romans 11:26) but the card, which is the "side by side" place for it, does not.
+21. Major. ch4 Hagar and Sarah (4:21-31): Dispensationalist and Messianic Jewish views removed. Five views remain (Catholic, Orthodox, Lutheran, Reformed, Anglican).
+22. Minor. ch4 days, months, seasons (4:10): Messianic Jewish view removed; Adventist, Reformed, Catholic, Orthodox, Lutheran and Baptist remain. Messianic Jewish observance of the feasts and Sabbath as a matter of Torah for Jewish believers is the clearest missing view on this question.
+23. Minor. ch5 falling from grace (5:4): General and Free Will Baptist views removed (a Baptist view that believers can fall away). The card keeps Baptist (endure to the end), Methodist, Anglican and Catholic as "Yes", so the range survives, but "Baptists divided" is lost.
+24. Minor. ch5 flesh against the Spirit (5:17): Assemblies of God view removed; Holiness Pentecostal bodies still represent that family.
+25. Minor. The ch6 card lacks Anglican, Methodist and Baptist views altogether (an Anglican or Baptist document was never added); three views is thin for a question on which church bodies split sharply.
+
+## Verification fixes (2026-10-29)
+
+Second round, following the Verification check above. Log: `.scratch/Gal-04-06-verify/sources-checked.md`, section "Second round". Counts: about 12 attributions verified (Nanos, Munck, Jewett, Schmithals, Hays, Betz on friendship, Arnold, Barclay, Gaventa, Lightfoot, Burton, Calvin; some only through a secondary page), 10 corrected, about 60 name attributions and their source keys removed (views kept as "some scholars" or cut), 11 source keys deleted from this part's sources.json, 3 card views added.
+
+- Check 1 (hedges): "reported" removed from topics `abraham` and `love-your-neighbor`; Mishnah Bikkurim 1:4 reworded to what Sefaria's text says (a convert and "our fathers"); no hedge phrase is left in the part's JSON.
+- Check 3 (5:24): NA28 bracket claims removed. Check 4 (1QS): column and line numbers removed. Check 5 (4:1): Burton only. Checks 6 to 10: Plutarch reworded to the theme; Ramsay, Hengel, Origen and "Alexandrian fathers" removed; Aristotle's "1284a" removed.
+- Checks 11 to 18 (modern scholars): a name stays only where an opened page states the position (Nanos at 4:17, 5:10 and 6:12; Munck; Jewett; Schmithals; Hays at 6:2; Betz on friendship at 4:16). Every other name (Betz elsewhere, Wright, Dunn, Martyn, de Boer, Longenecker, Moo, Davies, Dodd, Gager, Eisenbaum, Fredriksen, Boyarin, Campbell, Levine, Barrett, Hengel, Bruce, Witherington, Barclay) is dropped and the view stays without the name. Spec boxes no longer claim overlap with named scholars.
+- Check 20: the chapter 6 Israel of God card now has Dispensationalist (Ryrie) and Messianic Jewish (UMJC) views beside Catholic, Orthodox and Reformed. Check 22: Messianic Jewish view added to the days card. Checks 21, 23, 24 and 25 (Hagar card Dispensationalist and Messianic Jewish views; General and Free Will Baptist at 5:4; Assemblies of God at 5:17; Anglican, Methodist and Baptist at 6:16) stay open: no source could be opened.
+
+Check: `Gal/04-06` 0 errors, 0 warnings.

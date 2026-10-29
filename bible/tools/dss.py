@@ -36,7 +36,8 @@ else:
             if ws and ws[-1][2]: ws[-1] = (ws[-1][0] + g, ws[-1][1] or '[' in full or ']' in full, F.after.v(w) is None)
             else: ws.append((g, '[' in full or ']' in full, F.after.v(w) is None))
     pickle.dump(rows, open(cache, 'wb'))
-orig = json.load(open(os.path.join(ROOT, 'texts/orig', bid + '.json')))
+sys.stdout.reconfigure(encoding='utf-8')   # Windows consoles default to cp1252 and cannot print Hebrew
+orig = json.load(open(os.path.join(ROOT, 'texts/orig', bid + '.json'), encoding='utf-8'))
 heb = orig.get('heb', {})
 c, _, vr = sel.partition(':')
 v1, v2 = (list(map(int, vr.split('-'))) + [None])[:2] if vr else (0, 999)

@@ -7,3 +7,7 @@ Fixed 2026-10-29 (part 01-08, review-fixer): hostile review applied (17 fixed or
 Review fixes 2026-10-29 (parts/09-14): hostile review applied (Jerome on Matthew 27:9, 14:17-18 LXX and Plain, LXX 11:7/11:11, Jewish readings of 12:10, source keys, pointing slips, glosses, new variants at 9:1, 14:14, 14:17). Now 87 notes, 22 variants. --check Zec/09-14: 0 errors, 0 warnings.
 
 Hostile review, fixes and atlas review done 2026-10-29; quote sync across other books done; proposals merged. Ready to publish.
+Verification pass 2026-10-29 (parts/09-14): 38 verified, 11 corrected, 22 removed; log in .scratch/Zec-09-14-verify/sources-checked.md. --check Zec/09-14: 0 errors, 0 warnings.
+Verification pass 2026-10-29 (parts/01-08 and book.json): checked against opened sources, unverifiable details removed, --check Zec/01-08 at 0/0; log in .scratch/Zec-01-08-verify/.
+Verification second round 2026-10-29 (parts/01-08 and book.json): commentary keys and unverified scholar attributions removed, dates made exact only where a page gave them, two traditions cards made into notes; --check Zec/01-08 at 0/0.
+- 2026-10-29 verification second round on 09-14: unopened commentary keys removed from entries, dates and scholar names checked (see parts/09-14/review.md).

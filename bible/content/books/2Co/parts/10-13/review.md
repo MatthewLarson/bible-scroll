@@ -174,3 +174,45 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 22. Accepted by dropping the sentence: the Tertullian and Jerome references could not be verified.
 
 Plain verses changed: 10:8, 10:14, 11:1, 11:4, 11:5, 11:19, 12:7, 12:11. Quotes of these verses in other books: none found. Counts now: 86 verses, 64 notes, 16 variants, 33 glosses, 4 chapter pages, 21 topic contributions; check 0 errors, 0 warnings.
+
+## Verification pass (2026-10-29)
+
+Counts: verified 38 (kept; hedges removed where present), corrected 17 (Georgi, Sumney, 1 Clement wording, Life of Adam and Eve date, Thrall and Barnett wording, Calvin on 10:4 and the thorn and 12:2, Aquinas/Augustine, Luther, Palamas, Testament of Levi, Apocalypse of Moses, Trent, Westminster, Pentecostal, Lutheran, Baptist, Trinity cards), removed 22 (12:9 witness list, 11:3 NA28 bracket claim and hedges, Kasemann, Barrett and Schmithals as holders of views, Baur, three ware-orthodox Orthodox cites and the Holy Unction line, 4 Maccabees 18:7-8 and the seduction claim, 16 `metzger` source keys, Formula of Concord, Baptist Faith and Message, Divine Liturgy and Lossky claims, source keys kasemann, barrett-opponents, schmithals, barrett-2cor). Not opened and left in the part: Segal, Himmelfarb, Morray-Jones, 3 Enoch, Ramsay, Fredriksen, and the boasting scholars (Betz, Forbes, Judge, Plutarch). Log: .scratch/2Co-10-13-verify/sources-checked.md. Check 0 errors, 0 warnings; no hedges remain.
+
+## Verification check (2026-10-29)
+
+Hostile check of the verification pass, from sources opened in this session (Crossref API pages, publisher and library records and Wikipedia pages in search results, newadvent.org, Perseus catalogue). Counts: item 1 = 3 findings; item 2 = 12 claims tried (8 verified, 4 unverifiable or partly); item 3 = 11 names or groups not shown as checked; item 4 = 0 cards below two views, 3 cards with a lost distinct view. Severity count for this section: 0 critical, 2 major, 5 minor.
+
+### (1) Hedges, unopened works, commentary keys
+1. MAJOR. variants.json, 12:1 entry ("It is certainly not good for me to boast", about line 183): "Metzger's committee judged the critical text the likelier original". Metzger cannot be opened here and the pass removed the `metzger` key from all 16 entries, but this sentence survived. Remove it, or say only what the word list shows.
+2. MAJOR. sources.json keys `harris-2cor-1013`, `garland-2cor-1013`, `barnett-2cor-1013` and `thrall-2cor-1013` sit on several notes (entries 0, 4, 7, 9, 11, 17 and 18 of notes.json: the opening note on 10:1, and the notes on 10:10 and the opponents). The log says Harris, Garland and Barnett were "listed under unified letter (course-notes list)", never opened, and Thrall rests on search excerpts of a review. A key tells the reader the claim is in that book; no opened page states the claims at those verses. Drop the keys, or support them.
+3. MINOR. `calvin-2cor-1013` reads "(1548)" and `chrysostom-2cor-1013` "(late fourth century)". Calvin's date was found nowhere; for Chrysostom the NPNF editor says the date is not exactly known (see 2.11, 2.12).
+
+### (2) Spot checks
+1. Forbes, "Comparison, Self-Praise and Irony", NTS 32 (1986) 1-30. VERIFIED, Crossref.
+2. Morray-Jones, "Paradise Revisited (2 Cor 12:1-12)", HTR 86 (1993) 177-217 and 265-292. VERIFIED, Crossref (two parts, as the key states).
+3. Judge, "Paul's Boasting in Relation to Contemporary Professional Practice", ABR 16 (1968) 37-50. VERIFIED, ABR index and a Cambridge citation in search results.
+4. Malherbe, "Antisthenes and Odysseus, and Paul at War", HTR 76 (1983) 143-173. VERIFIED, Cambridge Core listing and citations in search results.
+5. Betz, Der Apostel Paulus und die sokratische Tradition (Mohr, 1972), on 2 Cor 10-13. VERIFIED, Mohr Siebeck catalogue in search results.
+6. Fitzgerald, Cracks in an Earthen Vessel, SBLDS 99 (1988); Marshall, Enmity in Corinth, WUNT 2.23 (1987); Hock, Social Context of Paul's Ministry (Fortress, 1980). VERIFIED for title, series and date (library and publisher records in search results). UNVERIFIED: the note's claim that Marshall and Hock "explain this background" (notes 11:7); no opened page states their argument.
+7. Aretas IV ruled about 9 BC to AD 40; defeated Herod Antipas after Antipas's divorce of his daughter (notes 11:32). VERIFIED, Wikipedia pages in search results. MINOR: the cited "Josephus, Antiquities 18.109-115" could not be confirmed; the pages cite 18.109-118.
+8. Acts of Paul describes Paul as small, bald-headed and bandy-legged, late second century (notes 10:10). VERIFIED, University of Oregon text and a scholarly essay in search results.
+9. Plutarch's essay on self-praise (notes 11:16, 12:2). VERIFIED for existence and title (Perseus catalogue: peri tou heauton epainein anepiphthonos). UNVERIFIED: the note's claim that Plutarch called self-praise rude "unless forced on you, for example by an attack"; the passage I found does not say that, and the Cambridge abstract says only that Chrysostom defends Paul on grounds Plutarch allowed.
+10. Mishnah Makkot 3:10 and Josephus Antiquities 4.238, thirty-nine stripes. Logged as verified; not retried.
+11. UNVERIFIABLE. Calvin, Commentary on Second Corinthians "(1548)" (sources.json). Search returned nothing on the date. The log verified Calvin's wording on biblehub, not the date.
+12. PARTLY. Chrysostom "late fourth century" (sources.json). The NPNF editor, in search results, says the date is not exactly known and the place (Antioch or Constantinople) was disputed; nothing opened gives "late fourth century".
+
+### (3) Named modern-scholar attributions not shown as checked
+Harris, Garland and Barnett as defenders of unity (chapters l.22, l.30, notes entry 0; log: kept from a course-notes list); Harris and Barnett as holders of "Judaizing Jewish Christians" (chapters l.105, notes l.214, topics l.23); Winter (notes 10:10, "measuring Paul against the sophists"); Marshall and Hock (notes 11:7); Betz on Socratic irony and Forbes and Judge on rhetoric (notes 11:16; the titles and Judge's article are verified, the use is not); Segal, Himmelfarb and Morray-Jones on ascent traditions (chapters l.218, notes l.443; Morray-Jones's title supports the Jewish mystical background only); Ramsay on malaria (chapters l.205, l.213); Hengel, Schwemer and Murphy-O'Connor on the Damascus escape (notes l.367); Fredriksen on "Paul within Judaism" (notes l.306). Count: 11 names or groups. Also: notes 11:24 offers "the Paul within Judaism reading" as a scholarly view with no name and no source.
+
+### (4) Traditions cards
+- No card has fewer than two views. Signs of an apostle has three (Reformed, Pentecostal, Catholic); healing, assurance and the Trinity card have five each; third heaven has three.
+- Lost a clearly distinct view: signs of an apostle (Orthodox deleted; the Orthodox answer on whether apostolic signs continue is now absent); assurance (Orthodox deleted, so no Eastern view of "examine yourselves"); third heaven (only Catholic, Orthodox, Reformed remain, no Lutheran or Pentecostal voice on visions, though the log does not show what was written there before). Count: 3 cards. The deletions follow rule 2 because "ware-orthodox" pages could not be opened; the gap should be filled with a source opened later (a church's own site, a catechism).
+
+## Verification fixes (2026-10-29)
+
+Findings handled: the surviving Metzger sentence at 12:1 (removed); the four commentary keys (harris, garland, barnett removed everywhere and from sources.json; thrall kept only on the 10:1 note and setting where a review states her view); Calvin and Chrysostom dates (removed); Marshall (name and key removed; Hock kept as verified); Plutarch (rewritten to what the essay's translations state: self-praise allowed against slander or in misfortune; the "distance" claim removed); Josephus 18.109-115 (checked on lexundria, kept); signs-of-an-apostle and assurance cards (Orthodox view restored from oca.org pages; third-heaven card left at three views).
+
+Second-round attributions: verified and kept: Thrall (separate letter), Hausrath, Georgi, Sumney, Forbes, Judge (title), Segal, Morray-Jones, Ramsay, Hengel and Schwemer, Fitzgerald (rewritten, no "Stoic"), Hock. Names removed: Harris, Garland, Barnett, Winter, Marshall, Betz, Himmelfarb, Fredriksen, Murphy-O'Connor (views kept unnamed). Dates: letter "AD 55-56", "AD 41-42", "AD 33-34" and "winter 56-57" were not supported by any opened page (sources give 57 and a conversion between 34 and 36) and became "the 50s AD", "the early AD 40s" and "the mid-30s"; Aretas now "after AD 37, before his death about AD 40"; Didache "first or second century"; Justin about AD 155-157.
+
+Counts: verified 17, corrected 13, removed 17 (9 names, 6 source keys, Metzger sentence, two source dates). Log: .scratch/2Co-10-13-verify/sources-checked.md. Check 0 errors, 0 warnings.

@@ -12,3 +12,9 @@ Part 06-09: review fixes applied (25 findings: 20 fixed, 5 partly, 0 declined; 9
 - 01-05 review fixes applied (2026-10-29, review-fixer): 41 fixed, 3 partly, 0 declined; Plain changed at 1:4, 1:18, 1:20, 1:22, 2:17, 3:3, 3:7, 3:11, 3:13, 3:14, 4:17, 5:2, 5:5, 5:7, 5:10 (katargeo = set aside; arrabon = down payment); 22 variants, 72 notes, 31 glosses; --check 0/0. Topic core new-covenant retitled; book.json topics list updated.
 
 Hostile review, fixes and atlas review done 2026-10-29; quote sync across other books done; proposals merged. Ready to publish.
+- 2Co 10-13 verification pass (2026-10-29): 14 verified, 4 corrected, 10 removed (see review.md and .scratch/2Co-10-13-verify/); check 0/0.
+- 01-05 verification pass (2026-10-29): named scholars and card views not openable were removed, 14 details corrected; check 0/0. See parts/01-05/review.md.
+- 06-09 verification pass (2026-10-29): hedges removed, unverifiable scholar and Qumran details cut; see review.md.
+- 2Co 06-09: second verification round done (anonymous commentator claims removed, orphan keys dropped, tithe card cleaned).
+- 2Co 01-05: second verification round done (unopened commentary keys and unverified scholar names removed, 4:4 card made a sentence, Baptist views added to two cards); check 0/0.
+- 2026-10-29 verification fixes (third pass) on part 10-13: commentary keys and unverified names/dates removed, Orthodox views restored on two cards; see review.md.

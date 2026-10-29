@@ -3,27 +3,25 @@
   "v": "15:5",
   "a": "the Twelve",
   "t": "The Twelve or the eleven?",
-  "p": "A few Western witnesses, including the Latin Bible, read 'the eleven', which fits the story after Judas but not Paul's creed.",
+  "p": "The Latin Vulgate reads 'the eleven', which fits the story after Judas but not Paul's creed.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Byzantine text and the Textus Receptus (KJV); the great majority of Greek manuscripts",
+    "w": "SBLGNT, NA28, Tyndale House, Byzantine text and the Textus Receptus (KJV)",
     "orig": "τοῖς δώδεκα",
     "en": "the Twelve",
     "plain": "the Twelve"
    },
    {
-    "w": "Codex Claromontanus (D, 500s), Old Latin copies and the Latin Vulgate (<i>undecim</i>), as reported by Metzger and the NA28 apparatus",
-    "orig": "τοῖς ἕνδεκα",
+    "w": "Latin Vulgate (<i>et post haec undecim</i>, \"and after that the eleven\")",
+    "orig": "et post haec undecim",
     "en": "the eleven",
     "plain": "the eleven"
    }
   ],
   "follow": 0,
-  "why": "\"The Twelve\" is the reading of nearly all Greek manuscripts and of every critical edition. \"The eleven\" is a Western reading (the Greek-Latin copy and the Latin Bible) and looks like a scribe's correction: after Judas, only eleven remained (Luke 24:33; Acts 1:26). Paul uses \"the Twelve\" as the name of a group, whatever its exact count on a given day. A Catholic reader will find \"eleven\" in the Vulgate, but that wording reflects the Western Latin copies, not Paul's Greek.",
+  "why": "\"The Twelve\" is the reading of every Greek edition in the word list. \"The eleven\" is the wording of the Latin Vulgate and looks like a correction: after Judas, only eleven remained (Luke 24:33; Acts 1:26). Paul uses \"the Twelve\" as the name of a group, whatever its exact count on a given day. A Catholic reader will find \"eleven\" in the Vulgate; it is not the wording of the Greek editions.",
   "b": "Paul's creed gives titles of groups (the Twelve, the apostles). A title can stay when a number changes; Acts 1:15-26 shows the group was refilled to twelve.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:10",
@@ -46,9 +44,7 @@
   ],
   "follow": 0,
   "why": "The article makes \"with me\" a description of the grace: \"the grace of God that is with me.\" Without it the phrase can be read as \"God's grace, together with me.\" Both readings keep the Greek <i>syn</i>, \"with,\" on which the Catholic and Orthodox contrast with the Reformed rests (see the note), so the article shifts the emphasis a little and does not decide between the churches. The Plain follows the editions that print it.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:29",
@@ -57,7 +53,7 @@
   "p": "The oldest editions end the verse 'for them'; the Textus Receptus repeats 'for the dead'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (the manuscripts behind each edition are given in the NA28 apparatus and are not listed here)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "ὑπὲρ αὐτῶν",
     "en": "for them",
     "plain": "for them"
@@ -71,9 +67,7 @@
   ],
   "follow": 0,
   "why": "\"For them\" is the harder reading and the shorter; \"for the dead\" looks like a copyist repeating the phrase from the first half of the verse to make the sense plain. The meaning does not change.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:31",
@@ -82,7 +76,7 @@
   "p": "The address 'brothers' stands in some editions of this oath and not in others.",
   "readings": [
    {
-    "w": "NA28 and Tyndale House",
+    "w": "NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "ἀδελφοί",
     "en": "brothers",
     "plain": "brothers"
@@ -95,10 +89,8 @@
    }
   ],
   "follow": 0,
-  "why": "The meaning is the same either way. The Plain keeps \"brothers\" because NA28 and Tyndale House print it and Paul often adds the address when he presses a point (15:50, 15:58). The KJV does not have it. The manuscripts on each side are in the NA28 apparatus and are not listed here.",
-  "s": [
-   "metzger"
-  ]
+  "why": "The meaning is the same either way. The Plain keeps \"brothers\" because NA28, Tyndale House, Westcott-Hort and Tregelles print it and Paul often adds the address when he presses a point (15:50, 15:58). The KJV does not have it.",
+  "s": []
  },
  {
   "v": "15:44",
@@ -121,33 +113,30 @@
   ],
   "follow": 0,
   "why": "The critical text has the \"If\" and the shorter ending; the Byzantine form states both bodies as facts and repeats \"body.\" The argument is the same: the existence of the natural body is the ground for the spiritual one.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:47",
   "a": "from heaven",
   "t": "'The second man is from heaven' or 'the Lord from heaven'",
-  "p": "The KJV reads 'the Lord from heaven'; the older manuscripts do not have 'the Lord'.",
+  "p": "The KJV reads 'the Lord from heaven'; the critical editions do not have 'the Lord'.",
   "readings": [
    {
-    "w": "P46 (about AD 200), Sinaiticus (first hand), Vaticanus, Ephraemi and several others, as reported by Metzger; SBLGNT, NA28, Tyndale House",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "ἐξ οὐρανοῦ",
     "en": "from heaven",
     "plain": "from heaven"
    },
    {
-    "w": "Byzantine text, Textus Receptus (KJV); some later correctors and early writers. Metzger reports that the longer wording may come from a text used by Marcion; Tertullian argues against Marcion on this verse in <i>Against Marcion</i> 5.10",
+    "w": "Byzantine text and Textus Receptus (KJV). Tertullian also quotes the verse with \"the Lord\" in <i>Against Marcion</i> 5.10",
     "orig": "ὁ κύριος ἐξ οὐρανοῦ",
     "en": "the Lord from heaven",
     "plain": "the Lord from heaven"
    }
   ],
   "follow": 0,
-  "why": "The shorter reading has the best and oldest witnesses. \"The Lord\" looks like an addition to make the contrast with Adam explicit. Paul's argument does not depend on it: the \"second man\" is already Christ.",
+  "why": "Every critical edition in the word list prints the shorter reading. \"The Lord\" looks like an addition to make the contrast with Adam explicit. Paul's argument does not depend on it: the \"second man\" is already Christ.",
   "s": [
-   "metzger",
    "tertullian-marcion"
   ]
  },
@@ -158,33 +147,31 @@
   "p": "One Greek letter separates a promise ('we will wear') from an exhortation ('let us wear').",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Textus Receptus (KJV); Codex Vaticanus and a few others, as reported by Metzger",
+    "w": "SBLGNT, NA28, Textus Receptus (KJV)",
     "orig": "φορέσομεν",
     "en": "we will wear",
     "plain": "we will wear"
    },
    {
-    "w": "Tyndale House, Westcott-Hort, Tregelles, Byzantine text; P46, Sinaiticus, Alexandrinus, Ephraemi and many others, as reported by Metzger (the full list is in the NA28 apparatus)",
+    "w": "Tyndale House, Westcott-Hort, Tregelles, Byzantine text",
     "orig": "φορέσωμεν",
     "en": "let us wear",
     "plain": "let us wear"
    }
   ],
   "follow": 0,
-  "why": "The subjunctive has wide and early support, and Tyndale House follows it. The NA28 and SBL editors prefer the future, because \"let us wear\" would be a sudden exhortation in the middle of a statement about the future (Metzger notes the committee knew the external support favored the subjunctive). The letters omicron and omega were pronounced almost alike in later Greek, so a scribe could write either by ear. The Plain follows the future; the exhortation is not far from Paul's mind in any case.",
+  "why": "The subjunctive is printed by Tyndale House, Westcott-Hort, Tregelles and the Byzantine text; the future is printed by SBL, NA28 and the Textus Receptus. The usual argument for the future is that \"let us wear\" would be a sudden exhortation in the middle of a statement about the future. The Plain follows the future; the exhortation is not far from Paul's mind in any case.",
   "b": "The English difference is small, but it is one of the best-known textual puzzles in the chapter: does Paul promise that believers will bear Christ's image, or urge them to take it up now?",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:51",
   "a": "not all of us will sleep, but all of us will be changed",
   "t": "Who sleeps and who is changed?",
-  "p": "Early copies and the Latin Bible differ on where the 'not' falls in this famous line. The first three readings give the same meaning.",
+  "p": "The editions, Jerome and the Latin Bible differ on this famous line. The first two readings give the same meaning.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "πάντες οὐ κοιμηθησόμεθα, πάντες δὲ ἀλλαγησόμεθα",
     "en": "we will not all sleep, but we will all be changed",
     "plain": "not all of us will sleep, but all of us will be changed"
@@ -196,29 +183,22 @@
     "plain": "not all of us will sleep, but all of us will be changed"
    },
    {
-    "w": "A group of early Alexandrian witnesses reported by Metzger and the NA28 apparatus, with \"not\" placed before \"all\": the order most English readers know",
-    "orig": "οὐ πάντες κοιμηθησόμεθα, πάντες δὲ ἀλλαγησόμεθα",
-    "en": "not all of us will sleep, but we will all be changed",
-    "plain": "not all of us will sleep, but all of us will be changed"
-   },
-   {
-    "w": "Other early Greek witnesses reported by Metzger and the NA28 apparatus, which turn the second half around. Jerome (Letter 119) says the Greek copies he knew read \"we shall all sleep\"",
-    "orig": "πάντες κοιμηθησόμεθα, οὐ πάντες δὲ ἀλλαγησόμεθα",
+    "w": "Jerome, <i>Letter</i> 119, prefers this wording (the Greek is not printed here)",
+    "orig": "(not printed here)",
     "en": "we will all sleep, but not all will be changed",
     "plain": "all of us will sleep, but not all of us will be changed"
    },
    {
-    "w": "Latin Vulgate. This is a Latin reading only; the Greek that lies behind it is not printed here",
-    "orig": "omnes quidem resurgemus, non omnes immutabimur",
+    "w": "Latin Vulgate. This is a Latin reading only; no Greek is printed for it here",
+    "orig": "omnes quidem resurgemus sed non omnes inmutabimur",
     "en": "we will all rise, but not all will be changed",
     "plain": "all of us will rise, but not all of us will be changed"
    }
   ],
   "follow": 0,
-  "why": "The first reading has the best combined support among the editors and fits the context: Paul has just said that the living and the dead alike must be changed (verses 50 and 52). The Byzantine particle and the Alexandrian order, \"not all of us will sleep,\" give the same meaning, so the English is the same for all three. The last two readings say that not everyone is changed, which goes against verse 52, \"we ourselves will be changed.\" They probably arose from the worry that Paul had expected to be alive at Christ's return and some of those who heard him had already died. Jerome mentions the difference between the Latin and the Greek in his Letter 119.",
-  "b": "Metzger, <i>Textual Commentary</i>, sets out these and further forms. The oldest Greek copy of the chapter is P46 (about AD 200).",
+  "why": "The first reading is the one the editions print, and it fits the context: Paul has just said that the living and the dead alike must be changed (verses 50 and 52). The Byzantine particle gives the same meaning, so the English is the same for both. The last two readings say that not everyone is changed, which goes against verse 52, \"we ourselves will be changed.\" They probably arose from the worry that Paul had expected to be alive at Christ's return and some of those who heard him had already died. Jerome, in Letter 119, prefers \"we shall all sleep, but we shall not all be changed\"; the Vulgate has \"we shall all rise, but not all be changed.\"",
+  "b": "The oldest Greek copy of the chapter that the site's sources date is P46 (about AD 175 to 225).",
   "s": [
-   "metzger",
    "jerome-letters"
   ]
  },
@@ -243,9 +223,7 @@
   ],
   "follow": 0,
   "why": "The longer text has the wider support among the editions. A scribe's eye may have jumped from the first \"puts on\" to the second, which would give the shorter form. Either way the meaning is the same, since verse 53 has already said both.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "15:55",
@@ -254,7 +232,7 @@
   "p": "The KJV says 'O grave'; the older manuscripts say 'Death' twice and put 'victory' first.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (the manuscripts are given in the NA28 apparatus and are not listed here)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
     "orig": "ποῦ σου, θάνατε, τὸ νῖκος; ποῦ σου, θάνατε, τὸ κέντρον;",
     "en": "Where, Death, is your victory? Where, Death, is your sting?",
     "plain": "Death, where is your victory? Death, where is your sting?"
@@ -268,9 +246,7 @@
   ],
   "follow": 0,
   "why": "The older text repeats \"Death\" and keeps the order victory then sting, which matches the order of the quotations in verse 54. The Byzantine text seems to have borrowed \"Hades\" from the Greek of Hosea 13:14 and swapped the two clauses. Both readings mean the same thing: the final defeat of the power of death.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "16:19",
@@ -279,7 +255,7 @@
   "p": "Paul uses the short form 'Prisca'; later copies and the KJV use 'Priscilla', as Acts does.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (manuscripts as in the NA28 apparatus)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "Πρίσκα",
     "en": "Prisca",
     "plain": "Prisca"
@@ -293,9 +269,7 @@
   ],
   "follow": 0,
   "why": "Paul uses \"Prisca\" in every letter in which he names her. Copyists changed it to \"Priscilla\" (the form in Acts) to make the letters agree. Both are the same woman.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "16:22",
@@ -317,10 +291,9 @@
    }
   ],
   "follow": 0,
-  "why": "The early manuscripts were written without breaks between words, so the choice was made later by editors. The Greek of Revelation 22:20, \"Come, Lord Jesus,\" supports the prayer, and the Didache (10:6) closes its eucharistic prayers with the same Aramaic words. The division <i>marana tha</i> is the one most scholars favor, but <i>maran atha</i> was the usual reading in the Latin and Greek churches.",
+  "why": "The early manuscripts were written without breaks between words, so the choice was made later by editors. The Greek of Revelation 22:20, \"Come, Lord Jesus,\" supports the prayer, and the Didache (10:6) closes its eucharistic prayers with the same Aramaic words. The word list shows SBLGNT and NA28 dividing it <i>marana tha</i> and the other editions <i>maran atha</i>.",
   "s": [
-   "didache",
-   "metzger"
+   "didache"
   ]
  },
  {
@@ -330,7 +303,7 @@
   "p": "The KJV adds 'Jesus Christ' to the curse; the older manuscripts do not.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (manuscripts as in the NA28 apparatus)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "τὸν κύριον",
     "en": "the Lord",
     "plain": "the Lord"
@@ -344,9 +317,7 @@
   ],
   "follow": 0,
   "why": "The shorter reading has the better evidence, and the longer one is the sort of expansion copyists often made in sacred titles.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "16:23",
@@ -355,7 +326,7 @@
   "p": "The final blessing is longer in the KJV, which adds 'Christ'.",
   "readings": [
    {
-    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (manuscripts as in the NA28 apparatus)",
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles",
     "orig": "τοῦ κυρίου Ἰησοῦ",
     "en": "of the Lord Jesus",
     "plain": "the Lord Jesus"
@@ -369,9 +340,7 @@
   ],
   "follow": 0,
   "why": "The shorter blessing is the older. \"Christ\" was added in later copies, a common lengthening of the name.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  },
  {
   "v": "16:24",
@@ -394,8 +363,6 @@
   ],
   "follow": 0,
   "why": "A closing \"Amen\" was a common liturgical addition by copyists. The Textus Receptus goes further and adds a scribal postscript: \"The first letter to the Corinthians was written from Philippi through Stephanas, Fortunatus, Achaicus and Timothy.\" Such postscripts come from late scribes and are not part of the letter. This one is plainly wrong, because 16:8 puts Paul in Ephesus, and Philippi is not mentioned anywhere in the letter.",
-  "s": [
-   "metzger"
-  ]
+  "s": []
  }
 ]
