@@ -22,8 +22,20 @@ deeply, and wants every view presented fairly. Matt, who commissioned this, want
    (NIV, ESV, NASB, NLT, CSB, NRSV, NET, NKJV...): do not recall or lean on their wording while you translate,
    because familiar phrasing creeps in. Build each verse from the original words, then compare. A reviewer checks
    every verse against the ESV and NIV, and close matches have to be redone.
-2. Never invent a source, a quotation, a manuscript reading or an archaeological find. Cite works you know
-   exist. If you are unsure of a detail, leave it out or say it is uncertain. A reviewer will check.
+2. Never invent a source, a quotation, a manuscript reading or an archaeological find. **Never rely on memory
+   for a checkable detail.** A manuscript or edition reading, a witness list, a page, section, canon, article,
+   paragraph or letter number, a quotation, a date, a coordinate, or what a named scholar, father, rabbi or church
+   says goes into content only if you checked it in this session in something you actually opened: `texts/` (the
+   word lists, `tools/lxx.py`, `tools/dss.py`), the Source Library MCP, the Bible Atlas MCP, or a reliable page you
+   fetched (Sefaria, Perseus, CCEL, a church's own catechism or confession, a publisher's or journal's page).
+   "Reported by X" is allowed only when you read X's report (or a page quoting it) in this session. Keep a list of
+   what you checked and where in your scratch folder (`sources-checked.md`), so the reviewer can follow it.
+   If you cannot check a detail, leave it out and say only what you could check (for example, the editions the
+   word list shows, with no manuscript names). Never publish an unchecked detail behind a hedge: "as reported",
+   "not rechecked", "from memory" and the like are not allowed in content. Broad, well-known facts (Augustine
+   opposed Pelagius; Luther lectured on Galatians) need no locator, but never add a number, a quotation or a
+   wording you have not seen. Writers, reviewers and fixers all follow this rule: a reviewer does not confirm a
+   claim from memory, and a fixer does not correct one from memory.
 3. Fairness: when views differ, give each in its strongest form, name who holds it, and do not caricature.
    When there is a scholarly consensus, say so plainly, and say who dissents.
 4. Your own ideas go only in `spec` notes and `spec` boxes, labeled as yours, with the verses they rest on,

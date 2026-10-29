@@ -148,6 +148,10 @@ books written before those features existed.
 - A note that quotes another book's verse uses that verse's current Plain exactly; the build warns otherwise.
 - Write the book name on every reference to another book; a bare `c:v` means the current book.
 - Never invent a source, quotation, manuscript reading or find. Source keys are global; reuse existing keys.
+- Never rely on memory for a checkable detail (witnesses, numbers, quotations, dates, coordinates, what a named
+  scholar or church says): check it in this session in something actually opened, or leave it out. Hedges such as
+  "as reported" or "not rechecked" are not allowed in content (STYLE.md rule 2). This binds writers, reviewers,
+  fixers and the lead. The earlier briefs allowed such hedges, so about 1,300 are already in content.
 - Writings outside the 66 are named as in `content/works.json`, never presented as Scripture without saying for whom.
 - Tradition names are fixed: TRADITIONS in `tools/build.js`.
 - Write long JSON with a script (`json.dump(..., ensure_ascii=False, indent=1)`) and re-read it.

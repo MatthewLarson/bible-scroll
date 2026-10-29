@@ -36,11 +36,14 @@ This lane does not edit shared files. Instead:
   an English reader would notice gets a variant entry, so KJV readers can see why their Bible differs.
 - Name real witnesses with dates: papyri (P45, P46, P52, P66, P75...), Codex Sinaiticus (01, 300s), Vaticanus (03,
   300s), Alexandrinus (02, 400s), Bezae (05, 400s), Washington (W, 400s), the Old Latin, the Syriac, the Coptic,
-  church fathers. Draw them from what Metzger's Textual Commentary, Comfort, the NA28/UBS5 apparatus and the
-  standard commentaries report, and attribute: "reported by Metzger". Never invent a manuscript reading.
-  Tischendorf's eighth edition (1869–72), with the largest open apparatus, is in the Source Library MCP (search
-  "Novum Testamentum Graece" Tischendorf, book 6953a88c77f38f6761bd19d6); use it to confirm a witness when its page
-  reads clearly.
+  church fathers, but only witnesses you checked in this session (STYLE.md rule 2). Metzger's Textual Commentary,
+  Comfort and the NA28/UBS5 apparatus cannot be opened here, so never cite their readings or witness lists from
+  memory, and never write "reported by Metzger" unless you read Metzger's words (or a page quoting them) this
+  session. Never invent a manuscript reading. Tischendorf's eighth edition (1869–72) is in the Source Library MCP
+  (search "Novum Testamentum Graece" Tischendorf, book 6953a88c77f38f6761bd19d6), but that volume holds the Gospels
+  only: use it to confirm a Gospel witness when its page reads clearly. For Acts to Revelation, look for a reliable
+  apparatus page with web search; where no witness list can be checked, name the editions the word list shows and
+  stop there (no "as reported", no "not rechecked").
 - Most manuscript websites (NTVMR, codexsinaiticus.org) are blocked by the network proxy. Do not spend time on them.
 
 ## Verses the critical text leaves out

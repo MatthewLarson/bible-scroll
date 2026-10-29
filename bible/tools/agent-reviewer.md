@@ -21,6 +21,10 @@ owe it nothing. Do NOT edit the content files: you write a report; the writer fi
 3. Facts: every historical, archaeological, linguistic and manuscript claim. Flag anything invented, garbled or
    doubtful: citations to works that do not exist or do not say that, wrong dates, wrong manuscript names,
    misattributed quotations, Hebrew/Greek words wrongly spelled or glossed. Use web search to verify when unsure.
+   STYLE.md rule 2 binds you too: never confirm a claim from your own memory. Check it in a source you open now,
+   and say in the finding whether you verified it (and where) or could not. Every detail the writer hedged ("as
+   reported", "not rechecked", "from memory") or could not have checked is a finding: verify it, or recommend
+   removing it. Compare the writer's `sources-checked.md` in their scratch folder.
 4. Variants: every significant difference between witnesses that a careful reader should know (compare
    texts/auto, and what you know of BHS/BHQ, the LXX, DSS, Samaritan Pentateuch, NA28/UBS5, the KJV/TR):
    missing entries, wrong witnesses, wrong "follow" choices or weak reasons.

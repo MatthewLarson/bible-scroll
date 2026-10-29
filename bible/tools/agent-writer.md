@@ -77,7 +77,8 @@ Pentecostal, Anabaptist, Adventist, Dispensationalist, Messianic Jewish, and oth
 where the answers really conflict and matter: sacraments, baptism, the Lord's Supper, grace and works,
 predestination and free will, church and Israel, the end times, Mary and the saints, the canon, law and Sabbath,
 women in ministry, creation. State each tradition's answer as its own teachers state it (cite catechisms,
-confessions and named theologians where you can), say where a tradition is itself divided, and never rank them.
+confessions and named theologians, checked in this session: STYLE.md rule 2), say where a tradition is itself
+divided, and never rank them. A view you cannot source from a document you opened is dropped, not hedged.
 Most chapters need none; a book of the Bible usually has a few.
 
 ## Books outside the 66

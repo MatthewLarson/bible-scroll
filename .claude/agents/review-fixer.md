@@ -14,6 +14,8 @@ You apply the findings in one hostile review of the Bible Scroll. Work from the 
 ## Do
 - Work through every finding, most serious first. Verify each one against the sources before changing anything;
   a reviewer can be wrong. Accept, partly accept, or decline with a reason.
+- Never fix from memory (`bible/STYLE.md` rule 2). A corrected detail needs a source you opened in this session.
+  If you cannot verify a detail, remove it; never keep it behind "as reported" or "not rechecked".
 - A rebuilt verse starts again from `node tools/literal.js <id> <c:v>` and gets a fresh drift audit (in your head
   only; never write out NIV/ESV text).
 - When you change a verse that other notes quote, update those quotes. List quotes of it in other books for the

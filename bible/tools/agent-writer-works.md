@@ -63,8 +63,8 @@ Alexandrinus). The Plain follows Sinaiticus, as most modern scholars do, because
 Aramaic, 4Q200 in Hebrew) agree with it. Sinaiticus is missing 4:7-19 and 13:6-10 (see `gap`; Swete shows 4:7-18 and
 13:7-9 as empty, and 4:6, 4:19 and 13:6 as partial). There the Plain follows Vaticanus, with a variant entry. Report
 the Old Latin, which scholars use to fill those gaps, only as quoted by a named scholar. The Qumran readings are
-published by J. A. Fitzmyer (DJD 19, 1995; <i>Tobit</i>, 2003): cite them as "as reported by Fitzmyer" unless you can
-check them. Jerome's Vulgate Tobit was made in one day from an Aramaic copy, as he says in his preface. It differs in many places,
+published by J. A. Fitzmyer (DJD 19, 1995; <i>Tobit</i>, 2003): cite a Qumran reading only if you read it (or
+Fitzmyer's report of it) in this session; otherwise leave it out (STYLE.md rule 2). Jerome's Vulgate Tobit was made in one day from an Aramaic copy, as he says in his preface. It differs in many places,
 such as the three nights of prayer in 6:16-22 and 8:4-5 Vulgate. It was the Catholic Church's text until modern times,
 and the Douay-Rheims follows it, so give its readings where they matter for Catholic practice or art.
 
@@ -155,7 +155,8 @@ by hand against the current Plain. One card per question across the whole book: 
 writing yours, and point to them. NFC-normalize all Greek you write.
 Lessons from the 1 Enoch reviews: never adopt a Charles emendation silently (add a variant); say "conflicts" when a
 passage really conflicts with the 66 books; source every statement of a church's view, or soften it to what you can
-source; mark Aramaic, Greek-papyrus and manuscript-family readings you could not check as "as reported by ...".
+source; leave out Aramaic, Greek-papyrus and manuscript-family readings you could not check in this session
+(STYLE.md rule 2: no "as reported by ..." for a reading you did not see).
 Milik's <i>Books of Enoch</i> (1976) and Bonner's <i>Last Chapters of Enoch in Greek</i> (1937) were reachable with web
 fetch (archive.org item MILIKEnochInAramaicQumranCave4; bib.seveleu.com/books/hanokh/last_gr.pdf): both are under
 copyright, so use them to check readings and quote only a few words. Report as agent-writer.md says, and update the book's line in
