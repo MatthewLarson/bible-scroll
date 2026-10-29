@@ -1,0 +1,582 @@
+[
+ {
+  "v": "4:6",
+  "a": "and in all",
+  "t": "\"In all,\" \"in you all\" or \"in us all\"?",
+  "p": "The shortest text ends \"in all\"; the Textus Receptus adds \"you\" and the Byzantine text \"us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and Tregelles (the shorter text; the oldest manuscripts, as reported by Metzger; individual lists not rechecked here)",
+    "orig": "καὶ ἐν πᾶσιν",
+    "en": "and in all",
+    "plain": "and in all"
+   },
+   {
+    "w": "Textus Receptus, the base of the KJV ('in you all')",
+    "orig": "καὶ ἐν πᾶσιν ὑμῖν",
+    "en": "and in you all",
+    "plain": "and in all of you"
+   },
+   {
+    "w": "Byzantine text, Robinson-Pierpont ('in us all')",
+    "orig": "καὶ ἐν πᾶσιν ἡμῖν",
+    "en": "and in us all",
+    "plain": "and in all of us"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text has the best early support, and the added pronouns look like copyists making \"all\" mean \"all of us believers\" or \"all of you.\" The short text leaves \"all\" open between people and things, which fits the verse.",
+  "b": "The addition changes the sense from \"all things\" or \"all people\" to \"all of you.\" The KJV reads \"in you all.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "came down",
+  "t": "\"Came down\" or \"came down first\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"first.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (without \"first\")",
+    "orig": "κατέβη",
+    "en": "came down",
+    "plain": "came down"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'first descended')",
+    "orig": "κατέβη πρῶτον",
+    "en": "came down first",
+    "plain": "came down first"
+   }
+  ],
+  "follow": 0,
+  "why": "The word \"first\" is missing from the text that the critical editions choose, and it looks like an explanation: he came down first, then went up.",
+  "b": "The STEPBible edition comparison shows \"first\" only in the Textus Receptus and the Byzantine text; I have not listed manuscripts. The reading with \"first\" tilts the sense toward a descent that comes before the ascent, which suits the reading of the phrase as the realm of the dead.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "lower parts",
+  "t": "\"The lower parts\" or \"the lower [places]\" of the earth?",
+  "p": "NA28 prints the word for \"parts\" in brackets, because some witnesses leave it out.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House and the Byzantine text (with \"parts\"); NA28 prints the word in brackets",
+    "orig": "τὰ κατώτερα μέρη τῆς γῆς",
+    "en": "the lower parts of the earth",
+    "plain": "lower parts"
+   },
+   {
+    "w": "Witnesses without the word, as the brackets in NA28 imply (I have not listed them)",
+    "orig": "τὰ κατώτερα τῆς γῆς",
+    "en": "the lower [places] of the earth, or the places lower than the earth",
+    "plain": "lower places"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions are unsure. \"Parts\" is the reading of the larger body of manuscripts and of SBLGNT, and the shorter wording could have come from a copyist who found \"parts\" an odd addition, or the longer from one who wanted to fill out a short phrase. The brackets in NA28 record that doubt.",
+  "b": "Whichever reading is chosen, the phrase can still mean the realm of the dead, the earth, or the regions lower than the earth; the word \"parts\" does not settle it. See the note at 4:9.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "the Gentiles walk",
+  "t": "\"The Gentiles\" or \"the rest of the Gentiles\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"the rest of\" (the KJV's \"other Gentiles\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort (without \"the rest\")",
+    "orig": "τὰ ἔθνη περιπατεῖ",
+    "en": "the Gentiles walk",
+    "plain": "the Gentiles walk"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'other Gentiles')",
+    "orig": "τὰ λοιπὰ ἔθνη περιπατεῖ",
+    "en": "the rest of the Gentiles walk",
+    "plain": "the rest of the Gentiles walk"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the older support, and \"the rest of\" looks like a copyist's softening. With \"the rest,\" Paul's readers are themselves Gentiles who are told not to walk like the other Gentiles. Without it, \"the Gentiles\" are the outside world and the readers, Gentile by birth, are set against it, which fits 2:11-22.",
+  "b": "The difference is small in English but matters for who Paul thinks his readers are (see the note at 4:17). The STEPBible edition comparison shows \"the rest\" only in the Textus Receptus and the Byzantine text; I do not list manuscripts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:28",
+  "a": "his own hands",
+  "t": "\"With his own hands\" or \"with the hands\"?",
+  "p": "The word for \"own\" is in brackets in the NA28 and missing from the Byzantine text, which also changes the word order.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House and Tregelles; NA28 prints \"own\" (ἰδίαις) in brackets",
+    "orig": "ταῖς ἰδίαις χερσὶν τὸ ἀγαθόν",
+    "en": "with his own hands what is good",
+    "plain": "his own hands"
+   },
+   {
+    "w": "Byzantine text (without \"own\"; the words for \"the good\" come before \"with the hands\")",
+    "orig": "τὸ ἀγαθὸν ταῖς χερσίν",
+    "en": "the good with the hands",
+    "plain": "his hands"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions keep \"own\" and the word order that sets \"the good\" last. \"Own\" could be an addition in the spirit of 1 Thessalonians 4:11 (\"work with your own hands\"), or a word that copyists dropped; the NA28 brackets show the editors' doubt. The meaning is nearly the same.",
+  "b": "\"Own hands\" sharpens the contrast with the thief, who took what others had made. I have not listed manuscripts; the STEPBible edition comparison supports the split between the critical editions and the Byzantine text.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "4:32",
+  "a": "forgave you",
+  "t": "\"Forgave you\" or \"forgave us\"?",
+  "p": "Two manuscript traditions differ by one pronoun.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort, Tregelles and the Textus Receptus",
+    "orig": "ὑμῖν",
+    "en": "forgave you",
+    "plain": "forgave you"
+   },
+   {
+    "w": "Byzantine text and Tyndale House GNT",
+    "orig": "ἡμῖν",
+    "en": "forgave us",
+    "plain": "forgave us"
+   }
+  ],
+  "follow": 0,
+  "why": "\"You\" is the reading of most critical editions. \"Us\" may be a copyist's change that makes Paul include himself, as in the nearby 5:2. The meaning is the same.",
+  "b": "Both pronouns are possible in Paul's style. The KJV reads \"you.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "loved us",
+  "t": "\"Loved us\" or \"loved you\"?",
+  "p": "A few editions read \"you\" where most read \"us.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Textus Receptus and Byzantine text",
+    "orig": "ἠγάπησεν ἡμᾶς",
+    "en": "loved us",
+    "plain": "loved us"
+   },
+   {
+    "w": "Westcott-Hort and Tregelles read \"you\" for the first pronoun (the STEPBible edition comparison; manuscript lists are not given here)",
+    "orig": "ἠγάπησεν ὑμᾶς",
+    "en": "loved you",
+    "plain": "loved you"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading \"us\" has the support of the editions' large majority. In the letter the pronoun often switches between \"we\" and \"you\" (1:11-13; 2:1-3), so a copyist could easily change either one.",
+  "b": "Only Westcott-Hort also reads \"for you\" (ὑμῶν) in the second pronoun of the verse; Tregelles reads \"you ... for us\" (ὑμᾶς ... ἡμῶν), and all the other editions read \"us ... for us.\" Metzger discusses the manuscripts.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "and greed is idolatry",
+  "t": "\"Which is idolatry\" or \"who is an idolater\"?",
+  "p": "One letter separates \"greed, which is idolatry\" from \"a greedy man, who is an idolater.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles ('which', neuter)",
+    "orig": "ὅ ἐστιν εἰδωλολάτρης",
+    "en": "which is an idolater (greed is idolatry)",
+    "plain": "and greed is idolatry"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus ('who', masculine; KJV: 'covetous man, who is an idolater')",
+    "orig": "ὅς ἐστιν εἰδωλολάτρης",
+    "en": "who is an idolater",
+    "plain": "and the greedy person is an idolater"
+   }
+  ],
+  "follow": 0,
+  "why": "The neuter \"which\" is the reading of the critical editions and matches Colossians 3:5, where greed is itself idolatry. The masculine looks like a copyist's tidying so that the word agrees with \"covetous man.\"",
+  "b": "The verse has a second small difference: the critical text has \"you know\" (<i>iste</i>), while the Byzantine text and Textus Receptus have \"you are\" (<i>este</i>), giving \"you are knowing.\" The English is nearly the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:9",
+  "a": "the fruit of the light",
+  "t": "\"Fruit of the light\" or \"fruit of the Spirit\"?",
+  "p": "The Byzantine text and the Textus Receptus have \"Spirit,\" echoing Galatians 5:22.",
+  "readings": [
+   {
+    "w": "The oldest manuscripts and the critical editions (SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles), as reported by Metzger; manuscript list not rechecked here",
+    "orig": "ὁ καρπὸς τοῦ φωτός",
+    "en": "the fruit of the light",
+    "plain": "the fruit of the light"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'fruit of the Spirit')",
+    "orig": "ὁ καρπὸς τοῦ πνεύματος",
+    "en": "the fruit of the Spirit",
+    "plain": "the fruit of the Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Light\" fits the surrounding verses (5:8, 5:13-14), and \"Spirit\" looks like a copyist's recall of Galatians 5:22. \"Light\" is also the harder reading in Paul's habits.",
+  "b": "Both readings are sound in thought. Metzger explains the likely origin of \"Spirit.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:21",
+  "a": "the fear of Christ",
+  "t": "\"Fear of Christ\" or \"fear of God\"?",
+  "p": "The Textus Receptus, followed by the KJV, has \"God.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles and the Byzantine text",
+    "orig": "ἐν φόβῳ Χριστοῦ",
+    "en": "in the fear of Christ",
+    "plain": "the fear of Christ"
+   },
+   {
+    "w": "Textus Receptus (KJV: 'the fear of God'); the STEPBible comparison finds this reading only in the Textus Receptus",
+    "orig": "ἐν φόβῳ θεοῦ",
+    "en": "in the fear of God",
+    "plain": "the fear of God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Christ\" is the reading of the critical editions and the Byzantine text, and it is the harder one, since \"fear of God\" is the usual Old Testament expression. \"Fear of Christ\" appears nowhere else in Paul.",
+  "b": "\"Fear of Christ\" is rare in Paul, which is a reason to think it is the original wording.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:22",
+  "a": "to your own husbands, as to the Lord",
+  "t": "Does 5:22 have its own verb?",
+  "p": "The earliest text has no verb in 5:22. Later copies add \"submit.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort (no verb; the verb is carried over from 5:21). Metzger reports the verb is missing in P46 (about AD 200) and Vaticanus, with the verb added in other manuscripts",
+    "orig": "αἱ γυναῖκες τοῖς ἰδίοις ἀνδράσιν ὡς τῷ κυρίῳ",
+    "en": "wives, to your own husbands, as to the Lord",
+    "plain": "to your own husbands, as to the Lord"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (ὑποτάσσεσθε, 'submit'); Tyndale House and Tregelles have ὑποτασσέσθωσαν ('let them submit')",
+    "orig": "ὑποτάσσεσθε",
+    "en": "submit to your own husbands, as to the Lord",
+    "plain": "submit to your own husbands, as to the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb-less text has the earliest support (P46, Vaticanus), and the added verb looks like a copyist making the sentence stand alone. The shorter text means that the instruction to wives is part of the sentence that began with \"submitting to one another\" in 5:21, which matters to the debate over the household code.",
+  "b": "The Plain follows the shorter text and shows it: 5:22 has no verb of its own and 5:23 begins with \"because,\" as the Greek does. The longer text reads as an independent command to wives; I did not choose it, because it would sharpen the very point the churches dispute.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:24",
+  "a": "to their husbands",
+  "t": "\"To the husbands\" or \"to their own husbands\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"own\" in 5:24, as 5:22 has it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (without \"own\")",
+    "orig": "τοῖς ἀνδράσιν",
+    "en": "to the husbands",
+    "plain": "to their husbands"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'their own husbands')",
+    "orig": "τοῖς ἰδίοις ἀνδράσιν",
+    "en": "to their own husbands",
+    "plain": "to their own husbands"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the reading of the critical editions, and \"own\" looks like a copyist matching the wording of 5:22.",
+  "b": "The Plain says \"their husbands\" for the Greek article, which English turns into \"their\"; it does not add \"own.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:27",
+  "a": "he himself might present the church to himself in glory",
+  "t": "\"He himself\" or \"it\" in 5:27?",
+  "p": "The Byzantine text and the Textus Receptus read \"present it to himself, a glorious church.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles ('he himself')",
+    "orig": "ἵνα παραστήσῃ αὐτὸς ἑαυτῷ ἔνδοξον τὴν ἐκκλησίαν",
+    "en": "that he himself might present to himself the church in glory",
+    "plain": "he himself might present the church to himself in glory"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus ('it'; KJV: 'present it to himself a glorious church')",
+    "orig": "ἵνα παραστήσῃ αὐτὴν ἑαυτῷ ἔνδοξον τὴν ἐκκλησίαν",
+    "en": "that he might present it to himself, a glorious church",
+    "plain": "he might present it to himself, a glorious church"
+   }
+  ],
+  "follow": 0,
+  "why": "\"He himself\" is the critical reading and is emphatic: it is Christ who does the presenting. \"It\" looks like a smoothing of the Greek.",
+  "b": "The meaning is the same; the difference is emphasis.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:29",
+  "a": "Christ",
+  "t": "\"Christ\" or \"the Lord\" in 5:29?",
+  "p": "The Byzantine text and the Textus Receptus say \"the Lord\" where the critical text says \"Christ.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ὁ Χριστός",
+    "en": "Christ",
+    "plain": "Christ"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'the Lord')",
+    "orig": "ὁ κύριος",
+    "en": "the Lord",
+    "plain": "the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Christ\" matches \"Christ\" in 5:23-25 and has the stronger early support; \"the Lord\" looks like a copyist's change.",
+  "b": "The meaning is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:30",
+  "a": "parts of his body",
+  "t": "Is \"from his flesh and his bones\" original?",
+  "p": "The Byzantine text and the Textus Receptus add \"of his flesh and of his bones.\"",
+  "readings": [
+   {
+    "w": "The oldest manuscripts and the critical editions, including P46 (about AD 200), the first hand of Sinaiticus, Alexandrinus and Vaticanus, as reported in the NA28 apparatus and by Metzger",
+    "orig": "μέλη ἐσμὲν τοῦ σώματος αὐτοῦ",
+    "en": "we are members of his body",
+    "plain": "parts of his body"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'of his flesh, and of his bones')",
+    "orig": "ἐκ τῆς σαρκὸς αὐτοῦ καὶ ἐκ τῶν ὀστέων αὐτοῦ",
+    "en": "of his flesh and of his bones",
+    "plain": "parts of his body, made from his flesh and his bones"
+   }
+  ],
+  "follow": 0,
+  "why": "The short text has the earlier support, and the addition looks like a copyist drawing on Genesis 2:23 (\"bone from my bones and flesh from my flesh\") to link the church to Christ as Eve to Adam. The longer text is the one behind the KJV.",
+  "b": "In the longer text, the church comes from Christ as Eve from Adam, a reading some church fathers developed; the shorter text only calls the church his body.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:31",
+  "a": "his father and mother",
+  "t": "\"Father and mother\" or \"his father and mother\"?",
+  "p": "The Byzantine text adds \"of him\" after \"father\"; NA28 puts the articles in brackets.",
+  "readings": [
+   {
+    "w": "SBLGNT and Tyndale House (the NA28 puts the articles in brackets)",
+    "orig": "τὸν πατέρα καὶ τὴν μητέρα",
+    "en": "the father and the mother",
+    "plain": "his father and mother"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (the Septuagint of Genesis 2:24 has \"his father and his mother\")",
+    "orig": "τὸν πατέρα αὐτοῦ καὶ τὴν μητέρα",
+    "en": "the father of him and the mother",
+    "plain": "his father and his mother"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter wording is the reading of the critical editions; the extra \"his\" looks like a copyist bringing the quotation into line with the Greek of Genesis 2:24.",
+  "b": "English needs \"his\" either way, so the Plain reads the same. The point is that Paul's quotation differs from the Septuagint in small ways.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "5:31",
+  "a": "be joined to his wife",
+  "t": "\"Joined to the wife\" with the dative, or \"joined to the wife\" with \"pros\"?",
+  "p": "One Greek preposition decides between two ways of saying \"joined to his wife.\"",
+  "readings": [
+   {
+    "w": "SBLGNT and Tregelles (the dative, as in the Septuagint of Genesis 2:24)",
+    "orig": "προσκολληθήσεται τῇ γυναικὶ αὐτοῦ",
+    "en": "will be joined to his wife",
+    "plain": "be joined to his wife"
+   },
+   {
+    "w": "NA28, Tyndale House, Westcott-Hort, Textus Receptus and Byzantine text (with the preposition)",
+    "orig": "προσκολληθήσεται πρὸς τὴν γυναῖκα αὐτοῦ",
+    "en": "will be joined to his wife",
+    "plain": "be joined to his wife"
+   }
+  ],
+  "follow": 0,
+  "why": "The dative is how the Septuagint of Genesis 2:24 puts it, and the longer \"pros\" wording looks like a copyist's smoothing or a change toward everyday Greek. Most editions disagree with SBLGNT here, so the choice is not firm.",
+  "b": "The English is the same either way. The variant shows how close Paul's quotation is to the Septuagint.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "in the Lord",
+  "t": "Is \"in the Lord\" original in 6:1?",
+  "p": "The words are bracketed in the NA28 and missing from some witnesses.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House, Byzantine text, Textus Receptus (KJV); NA28 prints the words in brackets",
+    "orig": "ἐν κυρίῳ",
+    "en": "in the Lord",
+    "plain": "in the Lord"
+   },
+   {
+    "w": "Some early witnesses, including Vaticanus, the first hand of Bezae and Boernerianus (the Western Greek-Latin codices), as reported by Metzger and the NA28 apparatus",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The words are the reading of most editions and most manuscripts, and \"in the Lord\" suits the letter's habit of putting every duty \"in the Lord.\" The NA28 editors put them in brackets to show their doubt. If the words were not original, they would have been added to match Colossians 3:20 (\"in the Lord\") or the other household duties.",
+  "b": "The phrase can mean that children obey as part of their duty to the Lord, or that they obey only in what is consistent with the Lord. The text does not decide.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "Finally",
+  "t": "\"From now on,\" \"finally\" or \"finally, my brothers\"?",
+  "p": "The critical text begins \"from now on\" (Tou loipou); the Byzantine text and the Textus Receptus read \"finally\" (To loipon) and add \"my brothers.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (Τοῦ λοιποῦ, literally \"from now on\"; early support reported by Metzger)",
+    "orig": "Τοῦ λοιποῦ",
+    "en": "from now on",
+    "plain": "Finally"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (Τὸ λοιπὸν ἀδελφοί μου; KJV: 'Finally, my brethren')",
+    "orig": "Τὸ λοιπὸν ἀδελφοί μου",
+    "en": "finally, my brothers",
+    "plain": "Finally, my brothers"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has the better support. Two things differ: Τοῦ λοιποῦ (literally \"from now on\") against Τὸ λοιπόν (\"finally\"), and the added \"my brothers.\" \"My brothers\" is Paul's usual way to start a new section (Philippians 3:1; 4:8), and copyists likely added it here, where it appears nowhere else in Ephesians.",
+  "b": "\"Finally\" is the usual English for either wording; the 6:10 note gives the literal \"from now on.\" In the critical text Ephesians addresses its readers as \"brothers\" only in the farewell (6:23).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "this darkness",
+  "t": "\"This darkness\" or \"the darkness of this age\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"of this age.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "τοῦ σκότους τούτου",
+    "en": "of this darkness",
+    "plain": "this darkness"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV: 'the darkness of this world')",
+    "orig": "τοῦ σκότους τοῦ αἰῶνος τούτου",
+    "en": "of the darkness of this age",
+    "plain": "the darkness of this age"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the reading of the critical editions. The addition \"of this age\" spells out what \"this darkness\" means, in line with 2:2 and 1 Corinthians 2:6.",
+  "b": "The KJV's \"world\" renders the Greek <i>aion</i>, \"age.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:16",
+  "a": "On top of all these",
+  "t": "\"In all these\" or \"above all\"?",
+  "p": "One Greek preposition decides between \"besides all this\" and \"above everything.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles (ἐν)",
+    "orig": "ἐν πᾶσιν",
+    "en": "in all these (besides all this)",
+    "plain": "On top of all these"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (ἐπί; KJV: 'Above all')",
+    "orig": "ἐπὶ πᾶσιν",
+    "en": "above all",
+    "plain": "Above all these"
+   }
+  ],
+  "follow": 0,
+  "why": "Both prepositions can mean \"in addition to all of these.\" The KJV's \"Above all\" suggests that faith is the most important piece, which the Greek does not say.",
+  "b": "The difference in English is a matter of ranking: \"above all\" can be heard as \"most important.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "6:24",
+  "a": "with an undying love",
+  "t": "Does the letter end with \"Amen\"?",
+  "p": "The Byzantine text and the Textus Receptus add \"Amen,\" and later copies add a note about Rome and Tychicus.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἐν ἀφθαρσίᾳ.",
+    "en": "in incorruption.",
+    "plain": "with an undying love"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus ('Amen'); the Textus Receptus also prints a later note, 'Written to the Ephesians from Rome by Tychicus'",
+    "orig": "ἐν ἀφθαρσίᾳ. Ἀμήν.",
+    "en": "in incorruption. Amen.",
+    "plain": "with an undying love. Amen"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Amen\" at the end of a letter was added in many copies for use in church reading. The subscription about Rome and Tychicus is a later scribal note, not part of Paul's text, and its claim that the letter was written from Rome is a copyist's guess from 6:21.",
+  "b": "The subscriptions in Greek manuscripts vary: some have only \"To the Ephesians.\" None is part of the letter.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

@@ -1,0 +1,156 @@
+# Hostile review: 1 Corinthians 1-4 (part 01-04) and book.json
+
+## Verdict
+
+The Plain is accurate and readable. I found no mistranslation of substance in the 91 verses, and the variant entries are mostly right. The weak points are in the supporting material. One Talmud attribution is plainly wrong (Rosh Hashanah 16b-17a). Several tradition summaries are unfair or mis-cited: Reformed natural theology, the Catholic citation at 4:5, the Calvin and "all believers build" attribution at 3:10-17, and the readings line that lumps Augustine and the Orthodox at ch. 3. Edition claims in the variants disagree with the Greek word list (1:14, 2:4). Some patristic and Qumran claims have no source key. Several Plain lines sit close to ESV or NIV wording. The "temple" choice for *naos* conflicts with the existing terms entry for the Synoptics and Acts. `node tools/build.js --check 1Co/01-04` reports 0 warnings and 2 errors. Both errors are in `proposals/nt/topics/new-covenant.json` (the name "new covenant" also leads to topic `covenant`), which is another writer's file and not this part's. This part is otherwise clean. I did not edit any content.
+
+Findings: 0 critical, 7 major, 21 minor.
+
+## Major
+
+1. **Major. chapters.json ch. 3, `views.J` and the deep dive "The Jewish side" (Rosh Hashanah 16b-17a). The Talmud schools are swapped.**
+   - What is wrong: `views.J` says "the School of Hillel's view ... was that those in the middle go down and come up". The deep dive says Beth Hillel's view is that God "leans toward mercy" for the middle group, who "go down to Gehenna and are raised up". In the baraita the middle group going down to Gehenna, squealing and rising (Zech 13:9) is **Beth Shammai's** view. Beth Hillel says God, "abounding in kindness" (Ex 34:6), inclines the scale toward mercy, so the middle group does not go down. The deep dive also merges the two schools into one view.
+   - Fix: reassign. Shammai: the middle group goes down and comes up. Hillel: mercy tips the scale, so they do not descend. Check against Sefaria's text of b. Rosh Hashanah 16b-17a.
+   - Related: the same dive says these texts are "later than Paul". `views.J` says "a Jewish reader of his day would know it". Drop that claim or say the school traditions may be pre-70 but are recorded later.
+
+2. **Major. notes.json 1:21 ("How the world fails to know God"). Reformed teaching is caricatured.**
+   - The note says "Karl Barth and many Reformed writers reject a natural theology". Calvin (Institutes 1.3-5), the Belgic Confession art. 2 and Westminster 1.1 affirm a natural knowledge of God and deny only that it saves. Barth's *Nein!* is an exception within the tradition, not "many".
+   - Fix: "Barth and his followers reject natural theology. The older Reformed confessions (Belgic art. 2; Westminster 1.1) affirm a real but insufficient knowledge from creation." Name the Catholic pole (Vatican I, Dei Filius) next to CCC 36.
+
+3. **Major. notes.json 4:5 ("Judgment of believers' works"). The Catholic position is mis-cited and mis-stated.**
+   - CCC 1021-1022 is the **particular judgment at death**, not "a single final judgment of the whole person". The note also reduces Reformed, Baptist and Lutheran teaching to "a judgment of works alone".
+   - Fix: cite the right paragraphs. CCC 1038-1041 covers the Last Judgment and works. CCC 1021-1022 is the judgment at death. Westminster Larger Catechism 90 (and Confession 33) covers the judgment of the righteous. Re-state each view in its own words, or cut the comparison. Paul's text does not require it.
+
+4. **Major. chapters.json ch. 3 `settings` 3:10-17, view "The builders are all believers".**
+   - It is attributed to "some Reformed and Lutheran writers, following Calvin's emphasis". Calvin (commentary on 3:10-15) reads the builders as teachers and the materials as doctrines. The attribution is unsourced and, as far as I can tell, wrong.
+   - Fix: name a real proponent, or say "some interpreters" with no tradition label.
+   - Also verify the card and deep-dive claim that Calvin reads the fire as "the troubles of this life". My recollection is that the commentary reads it as the Spirit's testing of doctrine. Institutes 3.5.6-10 is about purgatory and the Fathers. If this cannot be confirmed in the text, weaken it.
+
+5. **Major. chapters.json ch. 3 `readings` ("Read as a text about the afterlife"). Inaccurate and inconsistent.**
+   - It says "Origen, Augustine, Gregory the Great and the Catholic tradition find in it a basis for purgatory". Its own `views.T` says Augustine "did not decide" (*City of God* 21.26). The same entry says "Protestant and Orthodox readers find only the final judgment", but the card and deep dive say Orthodox practice and thought on the fire is divided.
+   - Also in the `purgatory` topic text in topics.json: "Orthodox ... read the fire as the judgment itself". This flattens the card.
+   - Fix: state the real spread. Origen is a cleansing-fire reading. Augustine is "possible, undecided". Gregory is a purifying fire for small faults. Many Greek Fathers (Chrysostom and others) read it as judgment. Orthodox views are varied. Keep it consistent across the readings entry, the topic text and the card.
+
+6. **Major. variants.json, 1:14 and 2:4. Edition claims contradict the SBL word list (`texts/orig/1Co.json`).**
+   - 1:14: the entry says "NA28 and Tyndale House bracket 'to God'". The word flags show τῷ θεῷ is in NA28, NA27, Tregelles, TR and Byz, and **not** in SBL, THGNT or WH. THGNT omits it. Say so (and whether NA28 prints brackets). No manuscript witnesses are named for a variant that appears in the text on the page.
+   - 2:4: the entry puts "Tyndale House GNT" with the shorter SBL reading. The flags show λόγοις is in NA28, THGNT, WH, Tregelles, TR and Byz. So SBL alone omits "words", and THGNT reads a longer form. The two-reading layout hides a third reading (πειθοῖς σοφίας λόγοις). Rebuild it as three readings and name the witnesses. The "why" ("scribes added 'human' and 'words' from 2:13") needs the same correction.
+   - Fix: re-derive each edition claim from the `w` flags. Remove "brackets" claims unless confirmed from NA28.
+
+7. **Major. notes.json 2:9 ("Where does this quotation come from?"). The Origen and Jerome claims are from memory and unsourced.**
+   - Origen (Comm. Matt. 27:9, ser. 117) does ascribe the words to the apocryphal Elijah writing. He does so himself rather than reporting "some thought" it. The note's wording understates this.
+   - Jerome rejects that origin and says Paul took the words from Isaiah. His comment on Isaiah 64:4 is the sure reference; the Epistle number is uncertain (my memory says Ep. 57.9, one search source says Ep. 101).
+   - There is no source key for either claim. The listed `s` (hays-echoes, clement-1, nag-hammadi-thomas) do not support them.
+   - Fix: cite *Commentary on Isaiah* 17 on 64:4 only if the passage is confirmed. Otherwise hedge ("Origen, as Jerome reports it"). Add source keys or drop the specifics.
+
+## Minor
+
+8. **Minor. Term conflict: "temple" for ναός at 3:16-17 (and 6:19 etc., cross-part).**
+   - `content/terms.json` (entry for ναός / ἱερόν) sets "sanctuary" for ναός and "temple" for ἱερόν in Matthew, Mark, Luke and Acts. John is the single exception, and the entry says why.
+   - 1 Cor 3:16-17 uses "temple". The note says "naos is the inner sanctuary ... not the whole temple area". The gloss at 3:16 says "the sanctuary". Topic `temple` text says "God's sanctuary ... this temple". The part is split between two words.
+   - No Pauline entry exists in `proposals/nt/terms.json`.
+   - Fix is a lead decision for all Pauline parts (3:16-17, 6:19, 2 Cor 6:16, Eph 2:21): either follow the Synoptic "sanctuary" or add a Pauline entry that says why not. Also check 1 Cor 9:13 (ἱερόν) so that "temple" does not mean two words in one letter.
+
+9. **Minor. Drift toward ESV/NIV.**
+   - 3:15 "If someone's work is burned up, he will suffer loss. He himself will be saved, but only as if through fire." is nearly the ESV phrasing ("suffer loss ... himself will be saved, but only as through fire").
+   - 2:14 "A natural person does not accept the things of the Spirit of God" is word for word the ESV's first clause. The note itself lists the alternatives ("unspiritual", "worldly").
+   - 4:13 "we answer gently" is close to NIV's "we answer kindly". παρακαλοῦμεν is "we appeal, we urge, we comfort", not "answer". Check the project's παρακαλέω entry in `proposals/nt/terms.json` ("urge", "appeal").
+   - 4:9 "last of all, like people sentenced to death ... a spectacle to the world, to angels and to ... human beings" tracks ESV closely.
+   - 3:13 ("will test what kind of work each one has done") echoes ESV's frame.
+   - These are mostly forced by the Greek. Rewrite 3:15, 2:14 and 4:13 at least.
+
+10. **Minor. variants.json, missing entries.**
+   - 4:2: Plain has "moreover" but drops *hōde*. SBL/NA28 read ὧδε λοιπόν. Byz reads ὃ δὲ λοιπόν (KJV "Moreover it is required"). Add an entry. A KJV reader sees the difference, and "here" is not in the Plain.
+   - 1:28: καὶ before "τὰ μὴ ὄντα" (WH, TR, Byz; KJV "and things which are not"). The Plain has no "and". Add an entry.
+   - 4:13: δυσφημούμενοι (NA/SBL) against βλασφημούμενοι (Byz/TR; KJV "defamed"). Minor in sense, but KJV readers notice.
+   - 4:17: "Christ Jesus" against "Christ" (NA28, SBL, WH vs THGNT).
+   - 1:2: τε in TR and Byz. Optional.
+
+11. **Minor. variants.json, 2:1.** Witness lists are from memory. "Metzger reports that the question was close" is unverified. The word-list flags show NA28, NA27 and WH read μυστήριον, so "NA28 ... chose 'mystery'" is consistent. Give a Metzger reference, or soften. The same applies to the manuscript lists at 1:15 (Vaticanus, Sinaiticus first hand, Alexandrinus, Ephraemi), 3:3 (P46, Claromontanus, second hand of Sinaiticus) and 3:5 ("main Alexandrian witnesses"). They are plausible, but "as reported by NA28" cannot be confirmed here. Tischendorf is available in the Source Library per brief-nt.md. 3:5 should list actual witnesses.
+
+12. **Minor. notes.json 2:6 / chapters.json ch. 2 `settings`.** Several statements about the Corinthians are given as fact: "To correct the idea that Paul's message is simple and unlearned"; "Members who now compared Paul's plain style with Apollos' polish". These are inferences. Add "may" or a view line. The 2:6 `views` also lists no scholar for the "wisdom is the cross" reading beyond Fee and Thiselton, and ironic readings (Corinthians' own slogan) are mentioned only in the note.
+
+13. **Minor. notes.json 1:7.** "This matters later in the chapter" should be "later in the letter" (4:8 and 15:12 are not in chapter 1).
+
+14. **Minor. notes.json 1:13.** "Paul's three questions all expect 'No'" is overstated. The first question has no negative particle, and many take μεμέρισται ὁ Χριστός as a statement ("Christ is divided"). The note also cites 6:11 and Matthew 28:19 as baptism "into the name of the Lord Jesus"; 6:11 is "washed ... in the name" and Matt 28:19 names the Father, Son and Spirit. Adjust.
+
+15. **Minor. notes.json 1:2 ("theirs and ours").** "Most take it with 'place'" is an unsupported consensus label. Commentators are split (Fee, Barrett, Garland and others differ). Say "commentators divide" or give a count with sources. The Plain follows the "place" reading, so keep the note.
+
+16. **Minor. notes.json 1:20.** The "wise = Greek sage, scribe = Jewish, debater = public disputer" division is given as the sense. Add the view that all three terms are Jewish or all one class (the title asks "or one figure in three words?" but the body does not answer). "Found only here in the Bible" for συζητητής: true of the NT; fine, but say "New Testament".
+
+17. **Minor. notes.json 1:17 and sources.** Winter's claim that Paul faced Corinthian sophists is made in *Philo and Paul among the Sophists* (1997), not in *After Paul Left Corinth* (2001, a study of civic and ethical culture). Add the right source key or change the book.
+
+18. **Minor. notes.json 2:7.** 1QS 3:23 mentions God's "mysteries of understanding" but does not speak of mysteries "shown to the community". Cite 1QS 11:3-6 or 1QpHab 7:4-5, or soften.
+
+19. **Minor. notes.json 2:10.** The Athanasius and Basil claim (true: *Ad Serapionem* 1.22ff; *On the Holy Spirit* 16) has only `fee-empowering` as its source, which does not support it. Add patristic sources or cut the names.
+
+20. **Minor. notes.json 4:1.** "The Latin church translated *mysterion* as *sacramentum*" is true of Eph 1:9, 3:3, 5:32 and Col 1:27, but the Vulgate has *mysteriorum* at 1 Cor 4:1. Say so. The Catholic and Orthodox reading of "mysteries" as including the sacraments needs a source.
+
+21. **Minor. notes.json 4:17.** "'Ways' (hodoi) is the Greek for the Hebrew *derekh* ... the root of later Jewish *halakhah*". *Halakhah* comes from the verb *halakh* ("walk"), not from *derekh*. Fix (3:3 has it right).
+
+22. **Minor. notes.json 4:21.** "The 'rod' is mentioned again at 5:3-5" is false: ῥάβδος does not appear in chapter 5. Say "a case of discipline at 5:3-5 shows what coming with a rod might mean".
+
+23. **Minor. notes.json 3:15 and 3:14, chapters.json ch. 3.** The Maccabees reference is 2 Macc 12:45 in the notes and echoes and 12:46 on the card. CCC 1032 cites 12:46. Unify. Also *houtōs de hōs dia pyros* is quoted as "Houtos hos dia pyros"; add *de*.
+
+24. **Minor. Cards without sources.**
+   - ch. 2 "Evangelical" view (Chafer): `[]`. The facts are right (Chafer, *He That Is Spiritual*, 1918, the natural / carnal / spiritual scheme). Add a source key.
+   - book.json "Baptist" card: `[]` and vague ("Baptists have differed"). Add BFM 2000.
+   - ch. 4 card: the sentences "The phrase in 4:6 is not a statement about the canon" (Catholic) and "The phrase is a warning against going beyond what the apostles taught" (Orthodox) read as the author's verdict and are not tied to any Catholic or Orthodox author. Attribute them or move them out of the tradition voice.
+   - ch. 2 card: no Pentecostal or Baptist view of "spiritual person", though the book's own lens T names Pentecostal readings. Optional.
+   - ch. 1 card: the Anglican "Chicago-Lambeth Quadrilateral" is not backed by the source key given. Add one.
+   - `purgatory` topic and `final-judgment` topic (proposals): both have `"sources": []`. Add CCC 1030-1032 and Calvin, Institutes 3.5.
+
+25. **Minor. Counts and consistency.**
+   - ch. 1 `views.L` says *sophia* occurs "16 times in 1:17-2:13"; the word list gives 15 (G4678). Recheck, and recheck "11 times" for *pneuma* in 2:10-16 (the same list shows only 3 forms of the adjective G4152 in that range, so the count depends on what is counted).
+   - book.json says Paul's stay was "about AD 50-52" and the Gallio stone "about AD 51-52"; make one of them. The proconsulship dates Gallio, not Paul's stay.
+   - book.json says "Nothing in chapters 1-4 is seriously suspected" but then names Walker on 2:6-16, and ch. 4 and the 4:6 notes treat Strugnell's gloss theory as live. Reword to "few doubt".
+
+26. **Minor. Claims stated as settled that are debated.**
+   - ch. 3 `views.H`: "A 'human court' (4:3) was a Roman court day". It is a possible sense of ἀνθρωπίνη ἡμέρα, not established. The note says the same more carefully.
+   - ch. 4 `views.H`: Paul's manual work and refusal of support as "a refusal of a patron's claim" is Marshall's thesis. Label it a view.
+   - note 4:12: "The refusal is another reason for the quarrel" should be "may be".
+
+27. **Minor. Reading level.** The Plain at 2:4 ("not in the persuasion of wisdom, but in the proof of the Spirit") and 1:10 ("one mind and one view") read stiffly for 8th grade. The notes explain them, but consider "not in persuasive wisdom". Not a correctness matter.
+
+28. **Minor. Missing material.**
+   - No note on "call on the name of our Lord" (1:2; Joel 2:32, YHWH language applied to Jesus). Note 1:8 covers a nearby point.
+   - No note on whether Peter had been to Corinth (Cephas, 1:12). The Peter topic text does not say.
+   - 2:10: the Plain drops γάρ/δέ ("the Plain avoids both words"). Say so in the note as well as in the variant.
+
+## Checked and found sound
+
+- Verse-by-verse translation against the SBL and Byz text, 1:1-4:21: no omissions, wrong tenses, wrong names or number errors found. Key terms (flesh, boast, wisdom, servant, bring to nothing, puffed up, brothers, saints, justify, the good news) are consistent with `terms.json`.
+- Cicero, *Pro Rabirio* 16; Josephus *Ant.* 20.97-98 and 20.167-168; Seneca *Letter* 7; Seneca *Ben.* 7; Mishnah *Eduyot* 2:10 (twelve months); 4Q169 (hanged men); 4Q174 (temple of men); 1QS 8:5 (planting); Justin, *Dialogue* 89-90; Baur 1831; Walker on 2:6-16; Pearson on *psychikos*; Welborn; Fitzgerald; Symeon of Emesa; Wesley sermon 9; Chafer 1918; CCC 1031 footnote citing 1 Cor 3:15; Westminster 1.6, 32.1; Article 22. All real and accurately described.
+- Every verse has a Plain line. Settings cards cover each section. The `spec` boxes are labeled and modest.
+
+## Fixes applied
+
+Applied 2026-10-29 (review-fixer). Source keys added in this part's sources.json: belgic-confession-art2, chafer-he-that-is-spiritual, lambeth-1888, athanasius-serapion, basil-holy-spirit. Existing keys reused: dei-filius, westminster-larger-catechism, jerome-isaiah, origen-comm-matthew-series, winter-sophists-1013, pesher-habakkuk, eusebius-history, bfm-2000.
+
+1. Accepted. Shammai and Hillel reassigned in `views.J` and the "Jewish side" deep dive (Shammai: middle group goes down and comes up, Zech 13:9; Hillel: mercy tips the scale, Ex 34:6). "Later than Paul" and "a Jewish reader would know it" replaced: the schools are first-century but recorded later.
+2. Accepted. Note 1:21 now has Barth and followers as the exception; older Reformed confessions (Belgic art. 2, Westminster 1.1, Calvin Institutes 1.3-5) affirm a real but insufficient knowledge; Catholic pole is Dei Filius plus CCC 36.
+3. Accepted. Note 4:5 rewritten: CCC 1021-1022 as the particular judgment, CCC 1038-1041 for the Last Judgment, Westminster Larger Catechism 90 and Confession 33 for the righteous. The works-alone comparison is cut.
+4. Accepted. The Calvin attribution for "all believers build" is dropped (view now "some interpreters", with a note that Calvin read the builders as teachers). The "troubles of this life" attribution to Calvin is removed from the deep dive and the Reformed card; Calvin is now given as reading the fire as the Lord's testing of teachers' doctrine (commentary on 3:13), with Institutes 3.5.6 for "deadly fiction". Augustine named as allowing the affliction reading as one possibility. I could not re-read Calvin here; the commentary wording is hedged to "the Lord's testing of their doctrine".
+5. Accepted. Readings entry rewritten to the real spread (Origen, Augustine undecided, Gregory, Greek fathers incl. Chrysostom, Orthodox divided, main Protestant churches final judgment only); deep dive, Orthodox card and the `purgatory` topic text made consistent; purgatory and final-judgment proposals now carry sources.
+6. Accepted. 1:14 re-derived from the word flags (SBL, THGNT, WH omit "to God"; NA28, Tregelles, TR, Byz have it); bracket claims removed; entry says it names editions only. 2:4 rebuilt as three readings. The "Metzger notes peithoi is not found elsewhere" line is replaced by a plain statement of the noun/adjective difference.
+7. Partly accepted. Origen now "traced the words to a lost writing he called the Secrets of Elijah" (key origen-comm-matthew-series); Jerome cited only for his commentary on Isaiah 64:4 (key jerome-isaiah); the Epistle number is not used. Not independently re-read in this pass.
+8. Accepted per the lead decision. "Temple" kept for naos; note 3:16 now says the Greek is naos (the inner house of the god), that Matthew-Acts use "sanctuary", and why Paul's image takes "temple"; gloss and `temple` topic text brought into line (no "sanctuary" as the part's word).
+9. Partly accepted. Rewrote 3:15 ("forfeit it ... yet like one who comes through fire"), 2:14 ("welcome") and 4:13 ("we appeal to them", with the new variant). 4:9 and 3:13 left: close wording is forced by the Greek. Anchors, glosses and note text for 3:15 updated.
+10. Accepted: new variants for 1:28 (kai), 4:2 (hode; Plain now keeps "Here, moreover"), 4:13 (dysphemoumenoi / blasphemoumenoi), 4:17 ("Jesus"). 1:2 (te) declined as optional and not visible in English.
+11. Partly accepted. The Metzger claim at 2:1 is replaced by the plain fact that the editions divide; the 3:5 witness list reduced to editions; "(as reported by NA28)" removed from 1:15 and 3:3. The manuscript lists at 1:15, 2:1 and 3:3 are unchanged and not re-checked against the apparatus (flag for the lead).
+12. Accepted. 2:6 note and ch. 2 settings hedged ("possibly", "may"); an "irony / the Corinthians' own words" view added to the 2:6-16 card.
+13. Accepted ("later in the letter").
+14. Accepted. Note 1:13 no longer says all three questions expect "No"; the first has no negative word and may be a statement; 6:11 and Matthew 28:19 described correctly.
+15. Accepted ("commentators divide"; "many take it").
+16. Accepted. Note 1:20 gives the one-class view and says "New Testament".
+17. Accepted. Winter's claim now cites Philo and Paul among the Sophists (winter-sophists-1013).
+18. Accepted. 1QS 3:23 replaced with 1QpHab 7:4-5 (key pesher-habakkuk).
+19. Accepted. Athanasius (Letters to Serapion 1) and Basil (On the Holy Spirit 16) get source keys.
+20. Accepted. Note 4:1 says the Vulgate has mysteriorum at 4:1 and names the places where it has sacramentum; the sacramental reading is attributed to "many" Catholic and Orthodox writers.
+21. Accepted. halakhah now from the verb halakh, not derekh.
+22. Accepted. 4:21 note no longer says the rod returns at 5:3-5.
+23. Accepted. All Maccabees cites unified to 2 Maccabees 12:45-46 (notes, echoes, card; also the purgatory proposal); "houtos de hos dia pyros" corrected.
+24. Accepted. Chafer key added; book.json Baptist card now cites BFM 2000 arts. 1 and 6; ch. 4 Catholic and Orthodox sentences attributed to "Catholic writers" and "Orthodox writers"; Anglican quadrilateral key lambeth-1888 added; purgatory and final-judgment proposals sourced. The optional Pentecostal/Baptist view of the "spiritual person" at ch. 2 was not added.
+25. Accepted. sophia count is 15; pneuma wording now "8 pneuma plus 3 pneumatikos = 11"; the Gallio date and Paul's stay are separated in book.json facts and ch. 1; "few doubt" replaces "nothing ... seriously suspected" and Strugnell is named.
+26. Accepted. "A Roman court day" softened to "may point to"; Marshall named as the source of the patron view; "may have been another reason" at 4:12.
+27. Partly accepted. 2:4 is now "persuasive wisdom". 1:10 "one mind and one view" left: "view" renders gnome and is plain enough.
+28. Accepted. New note on "call on the name of our Lord" (1:2, Joel 2:32); Peter and Corinth added to the 1:12 note (Dionysius of Corinth via Eusebius); the 2:10 note now says the Plain drops gar/de.

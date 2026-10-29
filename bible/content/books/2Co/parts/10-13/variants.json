@@ -1,0 +1,410 @@
+[
+ {
+  "v": "11:1",
+  "a": "If only you would bear with me in a little foolishness!",
+  "t": "A little foolishness, or my folly?",
+  "p": "The critical text has \"a little of foolishness\"; the Byzantine text has \"in my folly\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort and the other critical editions",
+    "orig": "μικρόν τι ἀφροσύνης",
+    "en": "a little of foolishness",
+    "plain": "If only you would bear with me in a little foolishness!"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (the Greek behind the KJV)",
+    "orig": "μικρὸν τῇ ἀφροσύνῃ",
+    "en": "a little in my folly",
+    "plain": "If only you would bear with me a little in my foolishness!"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical editions follow the reading whose form is less smooth. The Byzantine reading is easier, since it supplies the article and gives a plain \"in my folly\". The meaning is nearly the same, and the KJV (\"a little in my folly\") follows the Byzantine reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "simple, pure loyalty owed to Christ",
+  "t": "\"Simple and pure\" or only \"simple\"?",
+  "p": "NA28 puts \"and the purity\" in brackets because some witnesses lack it.",
+  "readings": [
+   {
+    "w": "SBLGNT; NA27 and NA28 (in square brackets); Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "τῆς ἁπλότητος καὶ τῆς ἁγνότητος τῆς εἰς τὸν Χριστόν",
+    "en": "the simplicity and the purity toward Christ",
+    "plain": "simple, pure loyalty owed to Christ"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (the Greek behind the KJV)",
+    "orig": "τῆς ἁπλότητος τῆς εἰς τὸν χριστόν",
+    "en": "the simplicity that is in Christ",
+    "plain": "simple loyalty owed to Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The NA28 editors print \"and the purity\" in brackets, which means they were not sure. In this site's Greek word list, the words are in the SBLGNT, NA27, NA28, Tyndale House, Westcott-Hort and Tregelles texts, and absent only from the Textus Receptus and the Byzantine text. The manuscripts behind each side were not rechecked here. The Plain keeps it: the words fit Paul's picture of a \"pure virgin\" (11:2) and a copyist could easily have dropped them as a repeat. The shorter reading is the KJV's \"simplicity that is in Christ\". The meaning of the verse hardly changes.",
+  "b": "<p>The same verse has a Byzantine word-order change (\"Eve\" before the verb) and an added \"so\" (<i>houtōs</i>) before \"your minds\". These do not change the English.</p>",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:4",
+  "a": "you put up with it wonderfully well!",
+  "t": "\"You put up with it\" or \"you would put up with him\"?",
+  "p": "A one-letter difference changes the verb from a fact into a possibility.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "καλῶς ἀνέχεσθε",
+    "en": "you put up with it well (present)",
+    "plain": "you put up with it wonderfully well!"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "καλῶς ἠνείχεσθε",
+    "en": "you might well put up with him (imperfect)",
+    "plain": "you would do well to put up with him!"
+   }
+  ],
+  "follow": 0,
+  "why": "The present tense matches the sarcasm of the next verses, where Paul says the Corinthians really do put up with abuse (11:19-20). The imperfect would be a milder wish that they would put up with the rivals' false Jesus. The KJV (\"ye might well bear with him\") follows the Byzantine reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:6",
+  "a": "We have made that plain to you in every way, in everything.",
+  "t": "\"We have made plain\" or \"we have been made plain\"",
+  "p": "Active or passive: Paul's team made it clear, or it was made clear.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "φανερώσαντες",
+    "en": "having made [it] plain (active)",
+    "plain": "We have made that plain to you in every way, in everything."
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "φανερωθέντες",
+    "en": "having been made plain (passive)",
+    "plain": "In every way we have been shown plainly to you, in everything."
+   }
+  ],
+  "follow": 0,
+  "why": "The critical text has the active participle. The passive participle gives \"we have been thoroughly made manifest among you\" in the KJV. In both cases the sense is that Paul's knowledge has been on display; the grammar of the whole verse is rough in Greek, which probably led to the change.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:28",
+  "a": "there is the pressure on me every day",
+  "t": "\"Pressure on me\" or \"a crowd gathering against me\"?",
+  "p": "The KJV \"that which cometh upon me daily\" follows the Byzantine reading.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "ἡ ἐπίστασίς μοι ἡ καθ᾽ ἡμέραν",
+    "en": "the pressure [or: care] on me every day",
+    "plain": "there is the pressure on me every day"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "ἡ ἐπισύστασίς μου ἡ καθ᾽ ἡμέραν",
+    "en": "the gathering [or: crowding] against me every day",
+    "plain": "there is the crowd that gathers against me every day"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek nouns differ by a few letters. The critical editions read <i>epistasis</i>, which suits Paul's own explanation, \"my worry for all the churches\". The Byzantine <i>episystasis</i> can mean a gathering, even a mob, but the word is rare and its sense here is debated. The Plain follows the critical text. The manuscripts behind each word were not rechecked here.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "The God and Father of the Lord Jesus",
+  "t": "\"Lord Jesus\" or \"Lord Jesus Christ\"",
+  "p": "The Byzantine text adds \"Christ\"; the Textus Receptus (KJV) also adds \"our\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "τοῦ κυρίου Ἰησοῦ",
+    "en": "of the Lord Jesus",
+    "plain": "The God and Father of the Lord Jesus"
+   },
+   {
+    "w": "Byzantine text (adds \"Christ\")",
+    "orig": "τοῦ κυρίου Ἰησοῦ χριστοῦ",
+    "en": "of the Lord Jesus Christ",
+    "plain": "The God and Father of the Lord Jesus Christ"
+   },
+   {
+    "w": "Textus Receptus (KJV) (adds \"our\" and \"Christ\")",
+    "orig": "τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ",
+    "en": "of our Lord Jesus Christ",
+    "plain": "The God and Father of our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Copyists often lengthened titles of Jesus, so the shorter reading is more likely to be older. It is the reading of the critical editions. The meaning is not affected. The word \"our\" is found only in the Textus Receptus, not in the Byzantine text.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:32",
+  "a": "so that he could seize me.",
+  "t": "Did the governor want to arrest Paul?",
+  "p": "The Byzantine text adds \"wanting\" (KJV \"desirous\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "πιάσαι με",
+    "en": "to seize me",
+    "plain": "so that he could seize me."
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "πιάσαι με θέλων",
+    "en": "wanting to seize me",
+    "plain": "wanting to seize me."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is the older text in the critical editions. The extra word \"wanting\" adds nothing to the sense, since a purpose clause already implies desire.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:1",
+  "a": "I have to boast. Nothing good comes of it, but I will go on",
+  "t": "\"I have to boast\" or \"it is not good for me to boast\"",
+  "p": "The critical text and the Byzantine text divide the sentence differently.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "Καυχᾶσθαι δεῖ· οὐ συμφέρον μέν, ἐλεύσομαι δὲ",
+    "en": "I must boast; it is not helpful, but I will go on",
+    "plain": "I have to boast. Nothing good comes of it, but I will go on"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "Καυχᾶσθαι δὴ οὐ συμφέρει μοι· ἐλεύσομαι γὰρ",
+    "en": "It is certainly not good for me to boast; for I will go on",
+    "plain": "It is certainly not good for me to boast. For I will go on"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical text is harder: Paul says he must boast, then says it does not help. The Byzantine text smooths the sentence into a simple \"it is not good for me\". The KJV (\"It is not expedient for me doubtless to glory\") follows the Byzantine text. Metzger's committee judged the critical text the likelier original, though the verse is rough in either form.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": "and because of the extraordinary greatness of the revelations. So,",
+  "t": "Does \"therefore\" start a new sentence?",
+  "p": "The Byzantine text lacks the word \"therefore\" and runs the revelations into the purpose clause.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House (full stop after \"revelations\", then \"therefore\")",
+    "orig": "τῶν ἀποκαλύψεων. διὸ ἵνα μὴ ὑπεραίρωμαι",
+    "en": "of the revelations. Therefore, so that I might not be exalted",
+    "plain": "and because of the extraordinary greatness of the revelations. So,"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "τῶν ἀποκαλύψεων ἵνα μὴ ὑπεραίρωμαι",
+    "en": "of the revelations, so that I might not be exalted",
+    "plain": "and because of the extraordinary greatness of the revelations,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine text has no \"therefore\" and makes \"the greatness of the revelations\" part of the reason for the thorn: \"lest I should be exalted above measure through the abundance of the revelations\" (KJV). The critical text starts a new sentence with \"therefore\". The difference is about the sentence structure, not about what the thorn was.",
+  "s": [
+   "metzger"
+  ],
+  "b": "<p>The opening \"and\" (Greek <i>kai</i>) ties 12:7 to the end of 12:6, and the sentence is hard Greek. Where the break falls after \"revelations\" is the editors' choice, and the Plain follows it.</p>"
+ },
+ {
+  "v": "12:9",
+  "a": "Power is made complete in weakness",
+  "t": "\"Power\" or \"my power\"?",
+  "p": "The critical text says \"power\" and \"is completed\"; the Byzantine text says \"my power\" and \"is made perfect\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἡ γὰρ δύναμις ἐν ἀσθενείᾳ τελεῖται",
+    "en": "for power is completed in weakness",
+    "plain": "Power is made complete in weakness"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "ἡ γὰρ δύναμίς μου ἐν ἀσθενείᾳ τελειοῦται",
+    "en": "for my power is made perfect in weakness",
+    "plain": "My power is made complete in weakness"
+   }
+  ],
+  "follow": 0,
+  "why": "\"My\" is the more natural addition, since it makes the speaker clear and matches \"my grace\". The critical editions follow the shorter text. The meaning is the same: the power is Christ's. The Byzantine text also has a different verb form, <i>teleioutai</i> (\"is made perfect\") for the critical <i>teleitai</i> (\"is completed\"); the meaning is the same. A published witness list reports that the original hands of Sinaiticus, Vaticanus and Claromontanus and the Sahidic version lack \"my\", and that a later corrector of Sinaiticus, Alexandrinus, the Byzantine tradition and Chrysostom have it. That list is given as reported; it was not rechecked against the NA28 apparatus.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:11",
+  "a": "I have become a fool!",
+  "t": "\"A fool\" or \"a fool in boasting\"",
+  "p": "The Byzantine text adds \"in boasting\" (KJV).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "Γέγονα ἄφρων",
+    "en": "I have become a fool",
+    "plain": "I have become a fool!"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "Γέγονα ἄφρων καυχώμενος",
+    "en": "I have become a fool boasting",
+    "plain": "I have become a fool in boasting!"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading is the critical text. The longer one makes explicit what the context already says. The KJV has \"I am become a fool in glorying\".",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "12:19",
+  "a": "Have you been thinking all this time",
+  "t": "\"All this time\" or \"again\"",
+  "p": "Two Greek words that look alike: palai (long ago) and palin (again).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "Πάλαι δοκεῖτε",
+    "en": "Have you long been thinking",
+    "plain": "Have you been thinking all this time"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "Πάλιν δοκεῖτε",
+    "en": "Again, do you think",
+    "plain": "Are you thinking once more"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Palai</i> (\"for a long time\") and <i>palin</i> (\"again\") differ by one letter. The critical editions read <i>palai</i>, which fits Paul's complaint that the Corinthians have been judging him all along. The KJV has \"Again, think ye that we excuse ourselves\".",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:2",
+  "a": "Now I am away, and I say it to those who sinned before",
+  "t": "\"I say\" or \"I write\"?",
+  "p": "The Byzantine text adds the verb \"I write\" (KJV: \"I write to them which heretofore have sinned\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "ἀπὼν νῦν τοῖς προημαρτηκόσιν",
+    "en": "being absent now, to those who sinned before",
+    "plain": "Now I am away, and I say it to those who sinned before"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "ἀπὼν νῦν γράφω τοῖς προημαρτηκόσιν",
+    "en": "being absent now, I write to those who sinned before",
+    "plain": "Now I am away, and I write to those who sinned before"
+   }
+  ],
+  "follow": 0,
+  "why": "The critical text has no verb, and a copyist could easily have supplied one to complete the sentence. The meaning hardly changes: the warning reaches the sinners by letter. The KJV follows the longer reading.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:4",
+  "a": "For he was crucified out of weakness",
+  "t": "\"For he was crucified\" or \"For though he was crucified\"",
+  "p": "The Byzantine text adds \"if\" (\"if he was crucified\").",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "καὶ γὰρ ἐσταυρώθη ἐξ ἀσθενείας",
+    "en": "for he was crucified out of weakness",
+    "plain": "For he was crucified out of weakness"
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "καὶ γὰρ εἰ ἐσταυρώθη ἐξ ἀσθενείας",
+    "en": "for even if he was crucified out of weakness",
+    "plain": "For even if he was crucified out of weakness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Byzantine text adds \"if\", which turns the statement into a concession (\"though he was crucified through weakness\", KJV). The critical text states the crucifixion as a fact, which suits Paul's point that the cross really was weakness. The same verse also differs on \"we shall live\" (<i>zēsomen</i> / <i>zēsometha</i>), a spelling difference.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:7",
+  "a": "We pray to God that you do nothing wrong.",
+  "t": "\"We pray\" or \"I pray\"?",
+  "p": "The critical text has the plural \"we pray\"; the Byzantine text and the KJV have \"I pray\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House, Westcott-Hort, Tregelles",
+    "orig": "εὐχόμεθα",
+    "en": "we pray",
+    "plain": "We pray to God that you do nothing wrong."
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV)",
+    "orig": "εὔχομαι",
+    "en": "I pray",
+    "plain": "I pray to God that you do nothing wrong."
+   }
+  ],
+  "follow": 0,
+  "why": "The plural fits the \"we\" of the surrounding verses (13:6, 8, 9), and a copyist could easily have changed it to the singular, since Paul often writes \"I\" in these chapters. The meaning is much the same either way. The KJV has \"Now I pray to God\".",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "13:14",
+  "a": "be with all of you.",
+  "t": "Is there an \"Amen\"?",
+  "p": "The Byzantine text adds \"Amen\". Only the Textus Receptus adds a note on where the letter was written.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House",
+    "orig": "μετὰ πάντων ὑμῶν.",
+    "en": "with all of you.",
+    "plain": "be with all of you."
+   },
+   {
+    "w": "Byzantine text; Textus Receptus (KJV). The Philippi note is in the Textus Receptus only.",
+    "orig": "μετὰ πάντων ὑμῶν· ἀμήν",
+    "en": "with all of you. Amen.",
+    "plain": "be with all of you. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "Many copyists added \"Amen\" to the end of a letter. The Textus Receptus (not the Byzantine text) goes on: \"The second epistle to the Corinthians was written from Philippi, a city of Macedonia, by Titus and Luke.\" This is a later copyist's note, not Paul's, and it is not in the critical editions. It is probably a guess from 2:12-13 and 7:5.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

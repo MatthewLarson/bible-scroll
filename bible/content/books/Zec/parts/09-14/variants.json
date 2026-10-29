@@ -1,0 +1,623 @@
+[
+ {
+  "v": "9:1",
+  "a": "Every human eye",
+  "t": "The eye of humankind, or the cities of Aram?",
+  "p": "The Hebrew says 'the eye of humankind'; the Greek has the LORD watching people; a modern guess changes the letters to 'cities of Aram.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֵין אָדָם",
+    "en": "the eye of humankind",
+    "plain": "Every human eye"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "Κύριος ἐφορᾷ ἀνθρώπους",
+    "en": "the Lord looks on people",
+    "plain": "the LORD watches people"
+   },
+   {
+    "w": "A conjecture of some modern commentators (not attributed to one here)",
+    "orig": "עָרֵי אֲרָם",
+    "en": "the cities of Aram",
+    "plain": "the cities of Aram"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is read two ways without any change (people look to the LORD, or the LORD watches people; see the note). The conjecture takes the phrase as a place name in the list of Syrian cities and has no manuscript behind it. The Plain follows the first sense of the Hebrew; the Greek 'Sedrach' for Hadrach in the same verse shows how hard the line was.",
+  "s": [
+   "swete-lxx",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "10:11",
+  "a": "sea of distress",
+  "t": "A sea of distress, or a narrow sea?",
+  "p": "The Hebrew says 'sea of trouble'; the Greek has 'narrow sea,' which recalls the Sea of Reeds.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בַּיָּם צָרָה",
+    "en": "the sea of distress",
+    "plain": "sea of distress"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "θαλάσσῃ στενῇ",
+    "en": "a narrow sea",
+    "plain": "narrow sea"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense on its own (the 'sea of distress' the exiles pass through), and the Greek can be explained as a different reading of the same letters (<i>yam tsar</i>, 'narrow sea,' for <i>yam tsarah</i>). Both fit the Exodus echo. The Plain follows the Hebrew.",
+  "b": "The scroll 4Q82 (4QXII-g) starts this verse in a gap: the printout shows only the word 'waves' and what follows, with 'in the sea' restored, so it does not preserve the phrase. The Plain follows the Masoretic Text.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "10:12",
+  "a": "they will go about in his name",
+  "t": "Walk about, or boast, in his name?",
+  "p": "The Hebrew says 'walk about'; the Greek has 'boast,' which one letter would change.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יִתְהַלָּכוּ",
+    "en": "they will walk about",
+    "plain": "they will go about in his name"
+   },
+   {
+    "w": "Septuagint (Swete's text), probably reading yithallelu",
+    "orig": "κατακαυχήσονται",
+    "en": "they will boast",
+    "plain": "they will boast in his name"
+   }
+  ],
+  "follow": 0,
+  "why": "'Walk about in his name' is an unusual phrase but fits Micah 4:5 ('we will walk in the name of the LORD our God'). 'Boast' is a very small change in Hebrew letters (a lamed for a kaf) and matches Psalm 105:3 and 1 Chronicles 16:10 ('boast in his holy name'). The Plain follows the Hebrew.",
+  "b": "The scroll 4Q82 has this word in brackets, so the editors restore it (they read <i>yithallelu</i>, 'they will boast'); a restored word does not count as a reading of the scroll, and it is not cited here.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "the forest no one could enter",
+  "t": "The forest of the vintage, or the forest no one could enter?",
+  "p": "The written text and the margin of the Masoretic Text differ by one letter.",
+  "readings": [
+   {
+    "w": "Margin (Qere) of the Masoretic Text; Septuagint 'the dense forest'",
+    "orig": "הַבָּצוּר",
+    "en": "the inaccessible forest",
+    "plain": "the forest no one could enter"
+   },
+   {
+    "w": "Written text (Ketiv) of the Masoretic Text",
+    "orig": "הַבָּצִיר",
+    "en": "the forest of the vintage",
+    "plain": "the forest of the vintage"
+   }
+  ],
+  "follow": 0,
+  "why": "The margin (<i>habbatsur</i>, 'fortified, inaccessible') fits the poem: oaks of Bashan and a forest too thick to enter fall. 'The vintage forest' makes no sense next to cedar and oak. The Septuagint 'the dense forest' agrees with the margin.",
+  "b": "4Q82 breaks off just before this word. The King James Version has 'the forest of the vintage' (the written form).",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "11:7",
+  "a": "the poor of the flock",
+  "t": "The poor of the flock, or the Canaanite land?",
+  "p": "The Hebrew word can be read 'poor'; the Greek reads the same letters as 'Canaanite.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֲנִיֵּי הַצֹּאן",
+    "en": "the poor of the flock",
+    "plain": "the poor of the flock"
+   },
+   {
+    "w": "Septuagint (Swete's text), probably reading the consonants as lik'na'ani",
+    "orig": "καὶ ποιμανῶ τὰ πρόβατα τῆς σφαγῆς εἰς τὴν Χαναανῖτιν",
+    "en": "and I will shepherd the flock for slaughter into the Canaanite land",
+    "plain": "I shepherded the flock meant for killing, in the land of Canaan"
+   }
+  ],
+  "follow": 0,
+  "why": "'The poor of the flock' fits 9:9 (the same word) and 11:11, and the Qumran Damascus Document applies the phrase to the faithful of its community. The Greek read the consonants of <i>lakhen 'aniyye</i> as <i>lik'na'ani</i>, a Canaanite, and made it a land or people. The Hebrew word <i>kena'ani</i> also means 'trader' (as in 14:21), which would bring in the sheep dealers of 11:5, but the Greek itself says 'Canaanite land,' not 'traders.' The Plain follows the Hebrew.",
+  "b": "The Hebrew begins with <i>lakhen</i>, 'therefore,' a particle the Plain absorbs into 'So I shepherded.' The Greek has no 'therefore' because it read those letters differently. See also 11:11, where the Septuagint again has 'Canaanites.'",
+  "s": [
+   "swete-lxx",
+   "meyers-zech-9-14",
+   "cd-damascus"
+  ]
+ },
+ {
+  "v": "11:11",
+  "a": "the poor of the flock",
+  "t": "The poor of the flock, or the Canaanites?",
+  "p": "As in 11:7, the Greek has 'Canaanites' where the Hebrew has 'the poor.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֲנִיֵּי הַצֹּאן",
+    "en": "the poor of the flock",
+    "plain": "the poor of the flock"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "γνώσονται οἱ Χαναναῖοι τὰ πρόβατα τὰ φυλασσόμενά μοι",
+    "en": "the Canaanites will know the sheep that are kept for me",
+    "plain": "the Canaanites will know the sheep kept for me"
+   }
+  ],
+  "follow": 0,
+  "why": "Same reasoning as 11:7: the Hebrew reading matches the earlier use of the phrase and gives a good sense (the humble sheep know that it is the word of the LORD). The Greek makes the Canaanites the ones who will know the sheep that are being kept for the LORD, probably reading the same letters as <i>kena'ani</i>; it does not say they tend the sheep. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "11:13",
+  "a": "Throw it to the potter",
+  "t": "The potter or the treasury?",
+  "p": "One letter separates 'potter' (yotser) from 'treasury' (otsar); the Greek has 'furnace.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַיּוֹצֵר",
+    "en": "to the potter",
+    "plain": "Throw it to the potter"
+   },
+   {
+    "w": "Syriac Peshitta; the apparatus of BHS also lists the Targum",
+    "orig": "הָאוֹצָר",
+    "en": "to the treasury",
+    "plain": "Throw it to the treasury"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τὸ χωνευτήριον",
+    "en": "into the furnace (smelter)",
+    "plain": "Put it in the furnace"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has 'potter' and is the only form in any Hebrew manuscript. 'Treasury' is easier (the house of the LORD had a treasury, and 2 Kings 12:4-16 shows money paid into it) and is the common modern emendation; the Greek 'furnace' may read <i>yotser</i> as 'a caster of metal.' But 'potter' is the harder reading, and Matthew 27:7, 10 (the Potter's Field) shows that a potter stood in the tradition Matthew knew. The Plain follows the Hebrew; see the note on Matthew's quotation.",
+  "b": "The same word recurs in the last words of the verse ('to the potter'). The Septuagint reads 'furnace' both times. Matthew 27:6 says the priests would not put the money 'in the Temple treasury,' which has led some to think Matthew knew the reading 'treasury' and played on it.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "bhs-elliger",
+   "menken-matthews-bible",
+   "davies-allison-matthew"
+  ]
+ },
+ {
+  "v": "11:16",
+  "a": "the young one",
+  "t": "The young one, or the scattered one?",
+  "p": "The Greek has 'the scattered' where the Hebrew has na'ar, 'young.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַנַּעַר",
+    "en": "the young one",
+    "plain": "the young one"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τὸ ἐσκορπισμένον",
+    "en": "the scattered one",
+    "plain": "the scattered one"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew list is hard in any case. 'The young one' is unusual beside the perishing, broken and healthy sheep; the Greek 'scattered' makes a neat list and may read <i>hanniddach</i>. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "12:2",
+  "a": "a bowl",
+  "t": "A bowl or a threshold?",
+  "p": "The Hebrew word saf can mean either; the Greek chose 'threshold.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "סַף־רַעַל",
+    "en": "a bowl of reeling",
+    "plain": "a bowl"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ὡς πρόθυρα σαλευόμενα",
+    "en": "like shaking doorways",
+    "plain": "a shaking doorway"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Saf</i> is a basin or bowl (Exodus 12:22, a basin for blood) and also a threshold or doorsill (Judges 19:27, 1 Kings 14:17). With <i>ra'al</i>, 'reeling,' the picture of a cup (Isaiah 51:17) is the better fit and matches the 'stone' of the next verse. The Plain follows the Hebrew.",
+  "b": "4Q82 preserves this verse in part and has <i>saf ra'al</i>; the printout shows the same consonants as the Masoretic Text for these words, so the scroll agrees with the Plain's reading.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "12:10",
+  "a": "to me",
+  "t": "To me, or to him?",
+  "p": "God speaks: 'they will look to me.' Some manuscripts and the New Testament have 'him.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q80 (4QXII-e), where 'to me' is visible; Septuagint 'to me'",
+    "orig": "אֵלַי",
+    "en": "to me",
+    "plain": "to me"
+   },
+   {
+    "w": "A number of medieval Hebrew manuscripts (reported in the apparatus of BHS); John 19:37 and Revelation 1:7 speak in the third person",
+    "orig": "אֵלָיו",
+    "en": "to him",
+    "plain": "to him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'to me' is the harder reading, since the LORD says he is the one pierced, and it is the only form in the old witnesses, including the Qumran scroll 4Q80, which has <i>elay</i> in clear letters. 'To him' smooths the sense and matches the verb that follows ('mourn over him'). The Plain follows 'to me.'",
+  "b": "In the scroll the word 'they pierced' is in brackets, so it is restored by the editors; the scroll's reading of the verb is not known. John 19:37 does not quote the Hebrew pronoun: it says 'they will look at the one they pierced.'",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "bhs-elliger",
+   "swete-lxx",
+   "brown-john-2"
+  ]
+ },
+ {
+  "v": "12:10",
+  "a": "the one they pierced through",
+  "t": "Pierced, or mocked?",
+  "p": "The Greek has 'because they danced in scorn'; John 19:37 has 'pierced.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); John 19:37 and Revelation 1:7 use the Greek verb for 'pierce'",
+    "orig": "אֵת אֲשֶׁר דָּקָרוּ",
+    "en": "the one whom they pierced through",
+    "plain": "the one they pierced through"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἀνθ᾽ ὧν κατωρχήσαντο",
+    "en": "because they danced in triumph over (mocked)",
+    "plain": "because they mocked"
+   }
+  ],
+  "follow": 0,
+  "why": "The Septuagint translator probably read the Hebrew letters of <i>daqaru</i> (pierced) in another order, <i>raqedu</i> (danced), and gave 'danced against, mocked.' The Hebrew 'pierced' is the reading of the Masoretic Text, and John 19:37 has 'pierced' too. (Reports that other ancient Greek versions read 'pierced' are not checked here.) Rashi and the Targum take the Hebrew verb differently again; see the note on Jewish readings. The Plain follows the Hebrew. Whether the piercing is real or figurative, and who the pierced one is, is argued in the note.",
+  "b": "The scroll 4Q80 has the word <i>daqaru</i> in brackets: restored, so it does not testify to this reading.",
+  "s": [
+   "swete-lxx",
+   "brown-john-2",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "12:11",
+  "a": "the mourning of Hadad-rimmon in the plain of Megiddo",
+  "t": "Hadad-rimmon, or a pomegranate grove cut down?",
+  "p": "The Greek does not read a name; it takes Rimmon as 'pomegranate.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q80 has 'Hadad' visible and 'Rimmon' and 'Megiddo' restored",
+    "orig": "כְּמִסְפַּד הֲדַדְרִמּוֹן בְּבִקְעַת מְגִדּוֹן",
+    "en": "like the mourning of Hadad-rimmon in the plain of Megiddo",
+    "plain": "the mourning of Hadad-rimmon in the plain of Megiddo"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "κοπετὸς ῥοῶνος ἐν πεδίῳ ἐκκοπτομένου",
+    "en": "the mourning of a pomegranate grove in a plain being cut down",
+    "plain": "the mourning for a pomegranate grove cut down in the plain"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek understood <i>rimmon</i> as 'pomegranate' and found a verb in the rest; it gives a picture instead of a name, probably because the translator did not know the mourning referred to. The Hebrew names a mourning the readers knew. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "13:5",
+  "a": "a man has owned me since I was young",
+  "t": "Who owned the man, and what does he say?",
+  "p": "The Hebrew verb is rare; the Greek reads 'a man fathered me.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אָדָם הִקְנַנִי מִנְּעוּרָי",
+    "en": "a man has acquired me since my youth",
+    "plain": "a man has owned me since I was young"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἄνθρωπος ἐγέννησέν με ἐκ νεότητός μου",
+    "en": "a man begot me from my youth",
+    "plain": "a man fathered me when I was young"
+   },
+   {
+    "w": "A conjecture proposed by some modern commentators (not attributed to one here)",
+    "orig": "אֲדָמָה הִקְנַנִי",
+    "en": "the ground has owned me since my youth",
+    "plain": "the ground has been mine since I was young"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>hiqnani</i> is a Hiphil of <i>qanah</i> ('acquire'), 'made me a possession,' a form that needs a note: he is owned like a slave or has been bought as a laborer. The Greek takes it as 'fathered,' the conjecture changes one letter to say 'the ground has been my possession.' The Plain follows the Hebrew, which says he is someone's property.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "13:7",
+  "a": "Strike the shepherd, and let the sheep be scattered",
+  "t": "Strike the shepherd, or the shepherds?",
+  "p": "The Hebrew has one shepherd and a command; the Greek has two plurals; Matthew has 'I will strike.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַךְ אֶת־הָרֹעֶה וּתְפוּצֶינָה הַצֹּאן",
+    "en": "strike the shepherd, and let the sheep be scattered",
+    "plain": "Strike the shepherd, and let the sheep be scattered"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "πατάξατε τοὺς ποιμένας καὶ ἐκσπάσατε τὰ πρόβατα",
+    "en": "strike the shepherds, and draw out the sheep",
+    "plain": "Strike the shepherds, and pull the sheep away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is one imperative and a second verb (<i>utefutsenah</i>, 'and let them be scattered'). The Greek plural imperatives make the command general. The Hebrew is the older and harder reading, and the Plain follows it. Matthew 26:31 and Mark 14:27 use the first person, 'I will strike the shepherd,' which follows neither.",
+  "b": "The printout shows no Qumran scroll for this verse. The Greek plural begins in the first colon: 'Sword, wake up against my shepherds and against a man, a citizen of mine' (<i>epi tous poimenas mou</i>), where the Hebrew has 'my shepherd.'",
+  "s": [
+   "swete-lxx",
+   "davies-allison-matthew",
+   "brown-death-messiah"
+  ]
+ },
+ {
+  "v": "14:2",
+  "a": "rape the women",
+  "t": "Raped, or lain with?",
+  "p": "The written text has the harsh verb; the reader's margin has a gentler one.",
+  "readings": [
+   {
+    "w": "Written text (Ketiv) of the Masoretic Text, as the notes of the printout record",
+    "orig": "תִּשָּׁגַלְנָה",
+    "en": "will be raped",
+    "plain": "rape the women"
+   },
+   {
+    "w": "Margin (Qere), the form in the Leningrad text",
+    "orig": "תִּשָּׁכַבְנָה",
+    "en": "will be lain with",
+    "plain": "lie with the women"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "μολυνθήσονται",
+    "en": "will be defiled",
+    "plain": "defile the women"
+   }
+  ],
+  "follow": 0,
+  "why": "The Jewish reading tradition replaced <i>shagal</i> with the milder <i>shakhav</i> in every place that has it (Deuteronomy 28:30; Isaiah 13:16; Jeremiah 3:2; here). In a conquest scene both words mean sexual violence, so the Plain says what the writer means. The Septuagint 'defiled' is a softer rendering of the same fact.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "14:5",
+  "a": "You will flee by the valley of my mountains",
+  "t": "You will flee, or it will be blocked?",
+  "p": "The same consonants can be read 'you will flee' or 'it will be blocked up.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְנַסְתֶּם גֵּי־הָרַי",
+    "en": "and you will flee by the valley of my mountains",
+    "plain": "You will flee by the valley of my mountains"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ φραχθήσεται ἡ φάραγξ ὀρέων μου",
+    "en": "and the valley of my mountains will be blocked",
+    "plain": "The valley of my mountains will be blocked"
+   }
+  ],
+  "follow": 0,
+  "why": "The consonants <i>wnstm</i> can be pointed <i>venastem</i> ('and you will flee') or <i>venistam</i> ('and it will be stopped up'). The Septuagint reads the second and makes the new valley a closed one. The Hebrew reading gives an escape route and matches the second 'you fled' of the same verse. The Plain follows it.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:5",
+  "a": "with you",
+  "t": "With you, or with him?",
+  "p": "The Hebrew speaks to 'you'; the Greek has 'with him.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עִמָּךְ",
+    "en": "with you",
+    "plain": "with you"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "μετ᾽ αὐτοῦ",
+    "en": "with him",
+    "plain": "with him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading, since the speaker has just said 'the LORD my God will come,' and 'with you' turns to address the prophet or the people. 'With him' is the smoother form and is read by the Greek and many modern translators. The Plain follows the Hebrew; the sense is the same either way: the holy ones come with the LORD.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:6",
+  "a": "cold and frost",
+  "t": "Cold and frost, or 'the bright ones will thicken'?",
+  "p": "The written text and the margin differ; the whole line is among the hardest in the book.",
+  "readings": [
+   {
+    "w": "Margin (Qere) of the Masoretic Text; Septuagint 'cold and frost'",
+    "orig": "יְקָרוֹת וְקִפָּאוֹן",
+    "en": "cold(?) and frost",
+    "plain": "cold and frost"
+   },
+   {
+    "w": "Written text (Ketiv) of the Masoretic Text",
+    "orig": "יְקָרוֹת יִקְפְּאוּן",
+    "en": "the bright ones will thicken",
+    "plain": "the bright ones will grow thick"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Yeqarot</i> can mean 'precious things' (the bright lights of the sky); the margin and the Septuagint take it as 'cold' (from <i>qar</i>). With the margin's 'and frost,' the line says: no light, but cold and frost. The written text instead says 'the bright ones will thicken (congeal).' Another common reading is 'no light, no cold or frost,' which needs a different word division. The Plain follows the margin and the Septuagint, which agree.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "14:14",
+  "a": "fighting at Jerusalem",
+  "t": "At Jerusalem, or against it?",
+  "p": "The same Hebrew preposition can mean 'in' or 'against.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint 'in Jerusalem'",
+    "orig": "תִּלָּחֵם בִּירוּשָׁלִַם",
+    "en": "will fight at/in Jerusalem",
+    "plain": "fighting at Jerusalem"
+   },
+   {
+    "w": "The same Hebrew, read with 'against' (as in some English versions, for example the NRSV)",
+    "orig": "תִּלָּחֵם בִּירוּשָׁלִַם",
+    "en": "will fight against Jerusalem",
+    "plain": "fighting against Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "This is one text read two ways, not two manuscripts. The Septuagint has 'in Jerusalem.' The note on this verse sets out why the Plain takes Judah on Jerusalem's side; 12:2 is the passage that favors 'against.'",
+  "s": [
+   "swete-lxx",
+   "meyers-zech-9-14"
+  ]
+ },
+ {
+  "v": "14:17",
+  "a": "no rain will fall on them",
+  "t": "No rain, or 'these will be added to those'?",
+  "p": "The Hebrew ends with the threat of no rain; the Greek has no rain at all.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְלֹא עֲלֵיהֶם יִהְיֶה הַגָּשֶׁם",
+    "en": "and not on them will be the rain",
+    "plain": "no rain will fall on them"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ οὗτοι ἐκείνοις προστεθήσονται",
+    "en": "and these will be added to those",
+    "plain": "and these will be added to those"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew names the penalty of no rain, which is a real threat to Judah's farm country (see 10:1). The Greek has no rain and says only that those who do not go up 'will be added to those,' which seems to join them to the enemies of 14:12-15, or to those already punished; it may reflect a different Hebrew line or a free rendering. The Plain follows the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:18",
+  "a": "no rain will fall on them. The plague will strike them",
+  "t": "No rain and a plague, or the plague only?",
+  "p": "The Hebrew has an extra 'not'; the Greek leaves it out.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4Q76 (4QXII-a) has the 'and not' visible",
+    "orig": "וְלֹא עֲלֵיהֶם תִּהְיֶה הַמַּגֵּפָה",
+    "en": "and not on them [rain]; there will be the plague",
+    "plain": "no rain will fall on them. The plague will strike them"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἐπὶ τούτους ἔσται ἡ πτῶσις",
+    "en": "on these will be the plague",
+    "plain": "the plague will strike them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew 'and not on them' has nothing to attach to; most read it as 'there will be no rain on them' continuing 14:17 (the Plain, which supplies the word 'rain' from 14:17), others as irony, since Egypt lives off the Nile, or as a copyist's addition. The Greek has no 'not' and makes it a plain threat of plague. The Plain follows the Hebrew, as 4Q76 supports.",
+  "b": "The Qumran scroll 4Q76 (4QXII-a) has the end of the verse. The printout shows the second 'and not' in clear letters before the restored 'on them,' so the scroll agrees with the Masoretic Text on the extra 'not.' This is the only variant in the part with a clearly readable scroll against the Greek.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "14:21",
+  "a": "no Canaanite",
+  "t": "A Canaanite, or a trader?",
+  "p": "The Hebrew says 'Canaanite'; the Aramaic Targum reads 'merchant.'",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint 'a Canaanite'",
+    "orig": "כְּנַעֲנִי",
+    "en": "a Canaanite",
+    "plain": "no Canaanite"
+   },
+   {
+    "w": "Aramaic Targum of the Prophets (an interpretive rendering, as in the Cathcart and Gordon translation)",
+    "orig": "תַּגָּר",
+    "en": "a merchant",
+    "plain": "no trader"
+   }
+  ],
+  "follow": 0,
+  "why": "'Canaanite' is the word in all the Hebrew and Greek witnesses. It is also the Hebrew word for 'trader' (Proverbs 31:24; Zephaniah 1:11; Hosea 12:7), because the Canaanites (Phoenicians) were the great merchants. The Targum spells out the second sense. The Plain keeps 'Canaanite' and explains it in the note on the Temple.",
+  "s": [
+   "cathcart-gordon-targum-minor",
+   "swete-lxx"
+  ]
+ }
+]

@@ -1,0 +1,227 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "achaia",
+    "corinth",
+    "asia",
+    "judea",
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "timotheus",
+    "silas",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "troas",
+    "macedonia"
+   ],
+   "people": [
+    "jesus-2",
+    "satan",
+    "god",
+    "titus-4"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "god",
+    "holy-spirit",
+    "jesus-2",
+    "israel",
+    "moses"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "god",
+    "holy-spirit",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "god",
+    "holy-spirit",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "7": {
+   "places": [
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "titus-4"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "titus-4"
+   ],
+   "events": []
+  },
+  "9": {
+   "places": [
+    "achaia",
+    "macedonia"
+   ],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "paul",
+    "god"
+   ],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "macedonia",
+    "achaia",
+    "damascus"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "eve",
+    "satan",
+    "abraham",
+    "aretas"
+   ],
+   "events": []
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "satan",
+    "titus-4"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "holy-spirit"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "achaia": {
+   "name": "Achaia",
+   "lat": 37.5,
+   "lon": 22.5
+  },
+  "corinth": {
+   "name": "Corinth",
+   "lat": 37.906045,
+   "lon": 22.878721
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "judea": {
+   "name": "Judea",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  },
+  "troas": {
+   "name": "Troas",
+   "lat": 39.75135,
+   "lon": 26.15765
+  },
+  "damascus": {
+   "name": "Damascus",
+   "lat": 33.511612,
+   "lon": 36.309102
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "silas": {
+   "name": "Silas"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "titus-4": {
+   "name": "Titus"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "eve": {
+   "name": "Eve"
+  },
+  "abraham": {
+   "name": "Abraham"
+  },
+  "aretas": {
+   "name": "Aretas"
+  }
+ },
+ "events": {}
+}

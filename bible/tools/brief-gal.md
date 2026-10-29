@@ -1,0 +1,16 @@
+# Galatians: brief for the part writers
+
+Read tools/brief-nt.md, brief-pauline.md and brief-rom.md first. Book id `Gal`. 6 chapters, 149 verses (24, 21, 29, 31, 26, 18). Lenses H C L J T. Two parts:
+
+| Part | Chapters | Verses | Contents |
+|---|---|---|---|
+| 01-03 | 1-3 | 74 | No other gospel (1:6-9), Paul's call, Jerusalem visits (1:18-2:10), Antioch and Cephas (2:11-21), justification and "works of the law", the Spirit, Abraham, the curse of the law (3:10-14), the law as guardian (3:23-25), "neither Jew nor Greek" (3:28). **Owns book.json** |
+| 04-06 | 4-6 | 75 | Heirs and children, Hagar and Sarah (4:21-31), freedom, "faith working through love", flesh and Spirit, the fruit of the Spirit, bear one another's burdens, "the Israel of God" (6:16), the marks of Jesus |
+
+**Setting (H):** North Galatian (Ankara area) against South Galatian (Pisidian Antioch, Iconium, Lystra, Derbe; Acts 13-14) theories, with the date; Acts 15 and Gal 2:1-10 (the same meeting? views); the Antioch incident; the "agitators" and the circumcision demand. **C:** the rhetorical genre (Betz judicial; Kennedy deliberative), mirror-reading the opponents, *pistis Christou* (2:16, 20; 3:22, 26), "the elements of the world" (*stoicheia*, 4:3, 9), "the Israel of God", P46, P51, Sinaiticus, Vaticanus. **L:** the narrative-argument-exhortation movements, the Abraham argument, the Hagar allegory. **J:** the New Perspective and Paul within Judaism, fully (Sanders, Dunn, Wright, Nanos, Gager, Eisenbaum, Campbell, Boyarin); circumcision, covenant and Torah; "works of the law" (4QMMT: reuse the key already proposed in proposals/nt/works.json or Rom); God-fearers; Genesis 15 and 17 (the Plain is the model); Hab 2:4; Deut 21:23 at 3:13; Jewish readings of Hagar and Ishmael; Antioch table fellowship. **T:** Origen, Chrysostom, Augustine and Jerome on 2:11-14 (Jerome's "feigned dispute" against Augustine; the letters between them: verify before citing), Luther's 1535 lectures, Calvin, Wesley, Orthodox, Catholic (Trent session 6; the 1999 Joint Declaration).
+
+**Places for full treatment:** 1:6-9 (anathema); 1:13-14 (*Ioudaismos*); 1:15-17 (Arabia); 1:18-19 (James the Lord's brother: Catholic, Orthodox, Protestant views); 2:1-10; 2:11-14; 2:16 (*pistis Christou*, "works of the law", justification: a full variant and note); 2:19-20; 3:1; 3:10-14; 3:15-18 (seed singular); 3:19-20; 3:23-29; 3:28; 4:3-9; 4:4 ("born of a woman"); 4:21-31; 5:2-6; 5:11; 5:12; 5:16-26; 6:2 ("the law of Christ"); 6:15; 6:16; 6:17 (*stigmata*).
+
+**Cards (plan 8 to 10):** 2:16 (justification: Catholic, Orthodox, Lutheran, Reformed, Baptist, New Perspective), 2:11-14, 3:10-14, 3:19-25 (the role of the law), 3:28 (women, Jew and Greek), 4:4 (the Virgin), 4:21-31, 5:4 (falling from grace: perseverance), 6:16 (the Israel of God), 1:19 (brothers of the Lord).
+
+**Topics:** new cores `galatians`, `works-of-the-law`, `judaizers` (check `circumcision`), `fruit-of-the-spirit`, `galatia`, `law-of-christ`, `hagar-and-sarah`; contributions to justification, faith, grace, law, circumcision, abraham, covenant, paul, peter, james, barnabas, antioch, holy-spirit, flesh, freedom, adoption, curse, sons-of-god, jerusalem-council (check). Atlas: Galatia, Antioch (Syria and Pisidia), Jerusalem, Damascus, Arabia, Tarsus, Lystra, Derbe, Iconium, Sinai.

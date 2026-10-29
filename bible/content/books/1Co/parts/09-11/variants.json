@@ -1,0 +1,613 @@
+[
+ {
+  "v": "9:1",
+  "a": "Am I not free? Am I not an apostle?",
+  "t": "Which question comes first?",
+  "p": "The oldest manuscripts ask about being free first; the later Byzantine text asks about being an apostle first (KJV).",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Οὐκ εἰμὶ ἐλεύθερος; οὐκ εἰμὶ ἀπόστολος;",
+    "en": "Am I not free? Am I not an apostle?",
+    "plain": "Am I not free? Am I not an apostle?"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV); supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Οὐκ εἰμὶ ἀπόστολος; οὐκ εἰμὶ ἐλεύθερος;",
+    "en": "Am I not an apostle? Am I not free?",
+    "plain": "Am I not an apostle? Am I not free?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the order of the SBLGNT and NA28. The order in the Byzantine text puts the apostle question first, as it is in the next verse and in the rest of the chapter, which looks like a smoothing. The difference does not change the argument.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "Jesus our Lord",
+  "t": "\"Jesus Christ our Lord\"?",
+  "p": "The Byzantine text and the KJV add \"Christ\" after Jesus.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Ἰησοῦν τὸν κύριον ἡμῶν",
+    "en": "Jesus our Lord",
+    "plain": "Jesus our Lord"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Ἰησοῦν Χριστὸν τὸν κύριον ἡμῶν",
+    "en": "Jesus Christ our Lord",
+    "plain": "Jesus Christ our Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is in the critical editions. Scribes often lengthened names into the full title \"Jesus Christ.\"",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:10",
+  "a": "thresh in hope of a share",
+  "t": "\"His hope\" in the Byzantine text",
+  "p": "The Byzantine text and the KJV add \"his hope\" and move \"in hope.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ὁ ἀλοῶν ἐπ᾽ ἐλπίδι τοῦ μετέχειν",
+    "en": "the one who threshes in hope of sharing",
+    "plain": "thresh in hope of a share"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ὁ ἀλοῶν τῆς ἐλπίδος αὐτοῦ μετέχειν ἐπ᾽ ἐλπίδι",
+    "en": "the one who threshes to share in his hope, in hope",
+    "plain": "thresh in hope, to share in his hope"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT and NA28. Their short phrase (\"in hope of sharing\") is the harder, more compressed Greek, and the Byzantine text spells out \"his hope,\" which looks like a smoothing. The sense is close either way: the thresher shares in the crop he hopes for.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:15",
+  "a": "I would rather die than have anyone make my boast empty.",
+  "t": "A broken sentence, or a repaired one?",
+  "p": "The best text breaks off in mid-sentence. Later copies smooth it.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles: the sentence breaks off (anacoluthon); supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "καλὸν γάρ μοι μᾶλλον ἀποθανεῖν ἢ τὸ καύχημά μου οὐδεὶς κενώσει",
+    "en": "it is better for me to die than-- my boast no one will make empty",
+    "plain": "I would rather die than have anyone make my boast empty."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV); Metzger reports other smoothing readings",
+    "orig": "ἢ τὸ καύχημά μου ἵνα τις κενώσῃ",
+    "en": "than that anyone should make my boast empty",
+    "plain": "I would rather die than that anyone should make my boast empty."
+   }
+  ],
+  "follow": 0,
+  "why": "The harder reading is the broken sentence, which is the one a scribe would be tempted to fix. The Plain smooths it for English, as every translation must, and the note says so.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:18",
+  "a": "my right in the good news",
+  "t": "\"The good news of Christ\"",
+  "p": "The Byzantine text adds \"of Christ.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "τῇ ἐξουσίᾳ μου ἐν τῷ εὐαγγελίῳ",
+    "en": "my right in the good news",
+    "plain": "my right in the good news"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἐν τῷ εὐαγγελίῳ τοῦ Χριστοῦ",
+    "en": "in the good news of Christ",
+    "plain": "my right in the good news of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the better attested; \"of Christ\" is a common scribal addition, and 9:12 has the same phrase in the genuine text.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:20",
+  "a": "like one under the law, though I am not myself under the law",
+  "t": "\"Though I am not myself under the law\"",
+  "p": "Paul's clause about himself is missing from the Byzantine text and the KJV.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ὡς ὑπὸ νόμον, μὴ ὢν αὐτὸς ὑπὸ νόμον",
+    "en": "as under the law, though not myself under the law",
+    "plain": "like one under the law, though I am not myself under the law"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ὡς ὑπὸ νόμον",
+    "en": "as under the law",
+    "plain": "like one under the law"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading is in the critical editions and is hard to explain as an addition. The eye of a copyist could easily skip from one \"under the law\" to the next, which would produce the shorter text. The clause matters because it shows that Paul does not count himself bound by the law as a Jew would be.",
+  "s": [
+   "metzger",
+   "rudolph-jew-to-jews"
+  ]
+ },
+ {
+  "v": "9:21",
+  "a": "though I am not outside God's law but under Christ's law",
+  "t": "\"To God\" or \"of God\"?",
+  "p": "The Byzantine text says Paul is not \"without law toward God\" but \"under law toward Christ.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles (genitives); supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "μὴ ὢν ἄνομος θεοῦ ἀλλ᾽ ἔννομος Χριστοῦ",
+    "en": "not being without God's law but within Christ's law",
+    "plain": "though I am not outside God's law but under Christ's law"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV) (datives)",
+    "orig": "μὴ ὢν ἄνομος θεῷ ἀλλ᾽ ἔννομος Χριστῷ",
+    "en": "not being without law toward God but under law toward Christ",
+    "plain": "though I am not outside the law toward God but under the law toward Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The genitives are in the oldest editions' text. The datives are the more natural Greek for \"toward God,\" which suggests a smoothing. The change is small, but the genitive makes \"Christ's law\" a thing and not just a direction.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:22",
+  "a": "To the weak I became weak",
+  "t": "\"Weak\" or \"as weak\"?",
+  "p": "The Byzantine text and the KJV say Paul became \"as weak,\" not simply weak.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ἐγενόμην τοῖς ἀσθενέσιν ἀσθενής",
+    "en": "I became to the weak, weak",
+    "plain": "To the weak I became weak"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἐγενόμην τοῖς ἀσθενέσιν ὡς ἀσθενής",
+    "en": "I became to the weak as weak",
+    "plain": "To the weak I became as weak"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the critical editions. The Byzantine \"as\" (<i>hos</i>) brings the line into the pattern of 9:20-21, \"like a Jew,\" \"like one under the law,\" and so looks like a harmonizing addition. It changes the sense: with \"as,\" Paul acts like the weak without being weak; without it, he says he became weak himself.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "9:23",
+  "a": "I do everything for the sake of the good news",
+  "t": "\"All things\" or \"this\"?",
+  "p": "The critical text says \"all things\"; the Byzantine text, behind the KJV, says \"this.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "πάντα δὲ ποιῶ διὰ τὸ εὐαγγέλιον",
+    "en": "all things I do for the sake of the good news",
+    "plain": "I do everything for the sake of the good news"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "τοῦτο δὲ ποιῶ διὰ τὸ εὐαγγέλιον",
+    "en": "this I do for the sake of the good news",
+    "plain": "I do this for the sake of the good news"
+   }
+  ],
+  "follow": 0,
+  "why": "\"All things\" fits the whole section on becoming all things to all (9:19-22), and the Byzantine \"this\" would be a natural narrowing by copyists.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "Brothers, I want you to know this",
+  "t": "\"For\" or \"now\"?",
+  "p": "The critical editions open 10:1 with \"for\"; the Byzantine text and the KJV open with \"moreover.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Οὐ θέλω γὰρ ὑμᾶς ἀγνοεῖν, ἀδελφοί",
+    "en": "for I do not want you to be ignorant, brothers",
+    "plain": "Brothers, I want you to know this"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί",
+    "en": "now I do not want you to be ignorant, brothers",
+    "plain": "Now, brothers, I want you to know this"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the critical editions, in which \"for\" gives the wilderness story as the reason for the warning of 9:24-27. \"Now\" starts a new topic, which looks like a smoothing. The Plain leaves the connective out of the English and starts a new sentence.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:2",
+  "a": "baptized into Moses in the cloud and in the sea",
+  "t": "\"Were baptized\" or \"had themselves baptized\"",
+  "p": "NA28 has a passive verb; the SBLGNT and the other editions have a middle. The English is the same.",
+  "readings": [
+   {
+    "w": "SBLGNT, THGNT, Westcott-Hort, Tregelles, Textus Receptus and Byzantine text (middle); supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "εἰς τὸν Μωϋσῆν ἐβαπτίσαντο",
+    "en": "they had themselves baptized into Moses",
+    "plain": "baptized into Moses in the cloud and in the sea"
+   },
+   {
+    "w": "NA28 (as in NA27): passive",
+    "orig": "εἰς τὸν Μωϋσῆν ἐβαπτίσθησαν",
+    "en": "they were baptized into Moses",
+    "plain": "baptized into Moses in the cloud and in the sea"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBLGNT, but both verbs read the same in English: Israel was baptized into Moses. The passive is the usual form for baptism elsewhere in Paul (Romans 6:3; 1 Corinthians 12:13), so it may be a change toward the familiar wording, though NA28 prints it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:9",
+  "a": "put the Christ to the test",
+  "t": "Christ, Lord or God?",
+  "p": "Manuscripts divide over whom Israel tested in the wilderness: Christ, the Lord, or God.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Byzantine text and Textus Receptus (KJV). As reported in published apparatus summaries (the NET Bible's note), also P46 (about AD 200), D F G, 1739 and 1881; not rechecked against the NA28 apparatus",
+    "orig": "ἐκπειράζωμεν τὸν Χριστόν",
+    "en": "let us not test the Christ",
+    "plain": "put the Christ to the test"
+   },
+   {
+    "w": "THGNT, Westcott-Hort and Tregelles. As reported, also Sinaiticus, Vaticanus, C, P, 33, 104 and 1175; not rechecked",
+    "orig": "ἐκπειράζωμεν τὸν κύριον",
+    "en": "let us not test the Lord",
+    "plain": "put the Lord to the test"
+   },
+   {
+    "w": "As reported, Alexandrinus (A) and 81; not rechecked",
+    "orig": "ἐκπειράζωμεν τὸν θεόν",
+    "en": "let us not test God",
+    "plain": "put God to the test"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows \"the Christ,\" the reading of the SBLGNT and NA28 as well as the Byzantine text. The Christ reading is the hardest, since it puts Christ in the wilderness, and it matches 10:4 (\"that rock was the Christ\"). \"Lord\" or \"God\" is what a scribe would be tempted to write, since Numbers 21 says Israel spoke against God. The case for \"Lord\" is not weak: it is reported to have strong support from the great Alexandrian uncials, and that is why the editors of THGNT, Westcott-Hort and Tregelles judged otherwise. The witness lists above come from published summaries and are marked as not rechecked. The Numbers story: \"the LORD sent the burning snakes among the people\" (Numbers 21:6). Compare Jude 5, where manuscripts also divide over Jesus, the Lord and God.",
+  "s": [
+   "metzger",
+   "comfort-commentary",
+   "fee-1cor"
+  ]
+ },
+ {
+  "v": "10:11",
+  "a": "These things kept happening to them as examples",
+  "t": "\"As examples\": adverb or noun?",
+  "p": "The critical editions have the adverb \"typologically\"; the Byzantine text and the KJV have \"all\" and the noun \"examples.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ταῦτα δὲ τυπικῶς συνέβαινεν ἐκείνοις",
+    "en": "now these things were happening to them as a pattern",
+    "plain": "These things kept happening to them as examples"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ταῦτα δὲ πάντα τύποι συνέβαινον ἐκείνοις",
+    "en": "now all these things were happening to them as examples",
+    "plain": "All these things happened to them as examples"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the critical editions. The adverb <i>typikos</i> is found only here in the New Testament, and the Byzantine noun <i>typoi</i> repeats 10:6, which looks like a smoothing toward the earlier verse. The Plain's sense is the same either way.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:20",
+  "a": "what they sacrifice",
+  "t": "\"What the Gentiles sacrifice\"",
+  "p": "The Gentiles are named in some manuscripts and in the KJV. The SBLGNT and NA28 leave them out.",
+  "readings": [
+   {
+    "w": "SBLGNT and NA28 (shorter text); supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ἃ θύουσιν, δαιμονίοις καὶ οὐ θεῷ θύουσιν",
+    "en": "what they sacrifice, they sacrifice to demons and not to God",
+    "plain": "what they sacrifice"
+   },
+   {
+    "w": "THGNT, Westcott-Hort, Tregelles, Byzantine text and Textus Receptus (KJV)",
+    "orig": "ἃ θύουσιν τὰ ἔθνη, δαιμονίοις καὶ οὐ θεῷ θύουσιν",
+    "en": "what the Gentiles sacrifice, they sacrifice to demons and not to God",
+    "plain": "what the Gentiles sacrifice"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the shorter SBLGNT, which is the text of the SBL and NA28. The longer text adds the subject the sentence already implies from verse 18, and the editors who prefer it (THGNT, Westcott-Hort, Tregelles) take the omission to be an accident. The meaning is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:23",
+  "a": "\"Everything is lawful,\" but not everything is helpful. \"Everything is lawful,\" but not everything builds up.",
+  "t": "\"Lawful for me\"?",
+  "p": "The Byzantine text and the KJV add \"for me\" both times, as at 6:12.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Πάντα ἔξεστιν ἀλλ᾽ οὐ πάντα συμφέρει· πάντα ἔξεστιν ἀλλ᾽ οὐ πάντα οἰκοδομεῖ",
+    "en": "all things are lawful, but not all things are helpful; all things are lawful, but not all things build up",
+    "plain": "\"Everything is lawful,\" but not everything is helpful. \"Everything is lawful,\" but not everything builds up."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Πάντα μοι ἔξεστιν ἀλλ᾽ οὐ πάντα συμφέρει· πάντα μοι ἔξεστιν ἀλλ᾽ οὐ πάντα οἰκοδομεῖ",
+    "en": "all things are lawful for me, but not all things are helpful; all things are lawful for me, but not all things build up",
+    "plain": "\"Everything is lawful for me,\" but not everything is helpful. \"Everything is lawful for me,\" but not everything builds up."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one the critical editions print. \"For me\" is in the genuine text of 6:12, and copyists would easily bring 10:23 into line with it.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:24",
+  "a": "No one should look for his own good, but for the good of the other person.",
+  "t": "\"Each\" in the Byzantine text",
+  "p": "The Byzantine text and the KJV add \"each\" at the end.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "μηδεὶς τὸ ἑαυτοῦ ζητείτω ἀλλὰ τὸ τοῦ ἑτέρου",
+    "en": "let no one seek his own, but that of the other",
+    "plain": "No one should look for his own good, but for the good of the other person."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "μηδεὶς τὸ ἑαυτοῦ ζητείτω, ἀλλὰ τὸ τοῦ ἑτέρου ἕκαστος",
+    "en": "let no one seek his own, but each that of the other",
+    "plain": "No one should look for his own good, but each one for the good of the other."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one the critical editions print. \"Each\" (<i>hekastos</i>) completes the second clause and is the kind of smoothing a scribe adds.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:28",
+  "a": "because of conscience.",
+  "t": "Psalm 24:1 repeated in some copies",
+  "p": "The Byzantine text and the KJV add a second quotation of Psalm 24:1 at the end of 10:28.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "καὶ τὴν συνείδησιν",
+    "en": "and because of conscience",
+    "plain": "because of conscience."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "καὶ τὴν συνείδησιν· τοῦ γὰρ κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς",
+    "en": "and because of conscience; for the earth is the Lord's and its fullness",
+    "plain": "because of conscience. For the earth and all that fills it belong to the Lord."
+   }
+  ],
+  "follow": 0,
+  "why": "The Psalm is already quoted in 10:26 where it fits. The copyists most likely repeated it to give a reason for the host's rule.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "10:28",
+  "a": "This is from a sacrifice",
+  "t": "\"Offered to idols\" in the Byzantine text",
+  "p": "The Byzantine text and KJV replace \"from a sacrifice\" with \"offered to idols.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ἱερόθυτόν",
+    "en": "sacrificed in a holy rite",
+    "plain": "This is from a sacrifice"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "εἰδωλόθυτόν",
+    "en": "offered to idols",
+    "plain": "This is offered to idols"
+   }
+  ],
+  "follow": 0,
+  "why": "The rarer pagan word is the one found in the critical texts. Scribes would naturally bring the sentence into line with Paul's own term in chapters 8-10.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "I praise you that you remember me in everything",
+  "t": "\"Brothers\" in the Byzantine text",
+  "p": "The Byzantine text and the KJV add \"brothers\" in 11:2.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "Ἐπαινῶ δὲ ὑμᾶς ὅτι πάντα μου μέμνησθε",
+    "en": "I praise you that you remember me in everything",
+    "plain": "I praise you that you remember me in everything"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Ἐπαινῶ δὲ ὑμᾶς, ἀδελφοί, ὅτι πάντα μου μέμνησθε",
+    "en": "I praise you, brothers, that you remember me in everything",
+    "plain": "I praise you, brothers, that you remember me in everything"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the better attested. \"Brothers\" is a typical addition at the start of a new section, which is why it is easy to add and hard to explain as an omission.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:24",
+  "a": "he gave thanks, broke it, and said, \"This is my body, which is for you.",
+  "t": "\"Take, eat\" and \"broken\" in the KJV",
+  "p": "The KJV has \"Take, eat\" and \"which is broken for you.\" The oldest manuscripts do not.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT and the oldest witnesses (P46, Sinaiticus, Vaticanus, as reported by Metzger)",
+    "orig": "εὐχαριστήσας ἔκλασεν καὶ εἶπεν· Τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν",
+    "en": "having given thanks he broke it and said: this is my body that is for you",
+    "plain": "he gave thanks, broke it, and said, \"This is my body, which is for you."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "εὐχαριστήσας ἔκλασεν καὶ εἶπεν· Λάβετε φάγετε· τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν κλώμενον",
+    "en": "having given thanks he broke it and said: take, eat; this is my body that is for you, broken",
+    "plain": "he gave thanks, broke it, and said, \"Take, eat. This is my body, which is broken for you."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the better attested. \"Take, eat\" comes from Matthew 26:26, and \"broken\" fits the breaking of the bread; both are what a copyist would add from the Gospel and from the action. The shorter reading is the one the Plain follows.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "11:26",
+  "a": "drink the cup",
+  "t": "\"This cup\" in the Byzantine text",
+  "p": "The Byzantine text and the KJV say \"this cup.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "καὶ τὸ ποτήριον πίνητε",
+    "en": "and drink the cup",
+    "plain": "drink the cup"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "καὶ τὸ ποτήριον τοῦτο πίνητε",
+    "en": "and drink this cup",
+    "plain": "drink this cup"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one the critical editions print. \"This\" matches \"this bread\" in the same sentence and is an easy addition. The meaning is the same.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:27",
+  "a": "eats the bread",
+  "t": "\"This bread\" in the Byzantine text",
+  "p": "The Byzantine text and the KJV say \"this bread\" in 11:27.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT",
+    "orig": "ὃς ἂν ἐσθίῃ τὸν ἄρτον",
+    "en": "whoever eats the bread",
+    "plain": "eats the bread"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ὃς ἂν ἐσθίῃ τὸν ἄρτον τοῦτον",
+    "en": "whoever eats this bread",
+    "plain": "eats this bread"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the one the critical editions print; \"this\" is an easy addition from verse 26 (\"this bread\"). The meaning is the same. Note that every Greek edition on this site, the Textus Receptus included, reads \"or\" (<i>e</i>) between the bread and the cup; the KJV's \"and\" is its rendering. Apparatus summaries report that some manuscripts read \"and\" (<i>kai</i>), which I have not rechecked. The point matters for the debate over communion in one kind or both: \"or\" lets a person offend by eating or drinking alone, and has been read as treating either half as enough, while \"and\" would join them. The churches' views are on the card at 11:27-29.",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "11:29",
+  "a": "For the one who eats and drinks eats and drinks judgment on himself if he does not discern the body.",
+  "t": "\"Unworthily\" and \"the Lord's\" in verse 29",
+  "p": "The Byzantine text and the KJV add \"unworthily\" and \"the Lord's\" in 11:29.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "ὁ γὰρ ἐσθίων καὶ πίνων κρίμα ἑαυτῷ ἐσθίει καὶ πίνει μὴ διακρίνων τὸ σῶμα",
+    "en": "for the one who eats and drinks eats and drinks judgment on himself, not discerning the body",
+    "plain": "For the one who eats and drinks eats and drinks judgment on himself if he does not discern the body."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ὁ γὰρ ἐσθίων καὶ πίνων ἀναξίως κρίμα ἑαυτῷ ἐσθίει καὶ πίνει μὴ διακρίνων τὸ σῶμα τοῦ κυρίου",
+    "en": "for the one who eats and drinks unworthily eats and drinks judgment on himself, not discerning the Lord's body",
+    "plain": "For the one who eats and drinks in an unworthy way eats and drinks judgment on himself if he does not discern the Lord's body."
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the better attested. Both additions are natural expansions from verse 27, and the editors judged them to come from there. They do change the sense: with \"the Lord's body\" the eucharistic reading is easier to hear; the shorter text leaves the \"body\" open.",
+  "s": [
+   "metzger",
+   "comfort-commentary"
+  ]
+ },
+ {
+  "v": "11:31",
+  "a": "But if we judged ourselves, we would not come under judgment.",
+  "t": "\"But\" or \"for\"?",
+  "p": "The critical editions have \"but\"; the Byzantine text and the KJV have \"for.\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles; supporting manuscripts are not itemized here (see the NA28 apparatus and Metzger)",
+    "orig": "εἰ δὲ ἑαυτοὺς διεκρίνομεν",
+    "en": "but if we judged ourselves",
+    "plain": "But if we judged ourselves, we would not come under judgment."
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "Εἰ γὰρ ἑαυτοὺς διεκρίνομεν",
+    "en": "for if we judged ourselves",
+    "plain": "For if we judged ourselves, we would not come under judgment."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the critical editions, where \"but\" sets self-judgment against the judgment of 11:30. \"For\" reads as a smoother explanation of the verse before it, which looks like a smoothing.",
+  "s": [
+   "metzger"
+  ]
+ }
+]

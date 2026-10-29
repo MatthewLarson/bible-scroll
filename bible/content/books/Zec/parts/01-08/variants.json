@@ -1,0 +1,606 @@
+[
+ {
+  "v": "1:8",
+  "a": "the myrtle trees in the hollow",
+  "t": "Myrtles in a hollow, or shady mountains?",
+  "p": "The Greek has \"the shady mountains\" in 1:8, 1:10 and 1:11 where the Hebrew has myrtles in a hollow.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַהֲדַסִּים אֲשֶׁר בַּמְּצֻלָה",
+    "en": "the myrtle trees that are in the hollow",
+    "plain": "the myrtle trees in the hollow"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τῶν ὀρέων τῶν κατασκίων",
+    "en": "the shady mountains",
+    "plain": "the shady mountains"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the better-attested and the harder text: <i>metsulah</i> (\"the deep place, hollow\") is rare, and the Greek looks like a smoothing toward a more usual scene.",
+  "b": "At 1:10 the Aleppo Codex points \"myrtles\" a little differently (<i>haddasim</i>), which changes nothing in English. The Greek has \"mountains\" again at 1:10 and 1:11. The Dead Sea scroll 4Q80 is restored at these words (in 1:10 the phrase is wholly restored), so it is not cited.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "red horses, reddish-brown horses and white horses",
+  "t": "Three colors of horses or four?",
+  "p": "The Hebrew names three colors of horses behind the rider. The Greek names four.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "סוּסִים אֲדֻמִּים שְׂרֻקִּים וּלְבָנִים",
+    "en": "horses red, sorrel, and white",
+    "plain": "red horses, reddish-brown horses and white horses"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἵπποι πυρροὶ καὶ ψαροὶ καὶ ποικίλοι καὶ λευκοί",
+    "en": "horses red, speckled, dappled and white",
+    "plain": "red, speckled, dappled and white horses"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the shorter text and has no other support. The Greek may have added a color to match the four teams of 6:2-3 (red, black, white, dappled), which is a guess; the colors do not match chapter 6 exactly in either text.",
+  "b": "The Greek words are colors of horses: <i>pyrros</i> \"fire-red,\" <i>psaros</i> \"speckled like a starling,\" <i>poikilos</i> \"many-colored.\" The Dead Sea scroll 4Q80 is restored at these words and is not cited.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "1:21",
+  "a": "Those are the horns that scattered Judah",
+  "t": "Horns that scattered, or horns that were broken?",
+  "p": "The Greek says the horns that scattered Judah \"and Israel\" were broken. The Hebrew says no one lifted up his head.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "אֵלֶּה הַקְּרָנוֹת אֲשֶׁר־זֵרוּ אֶת־יְהוּדָה",
+    "en": "these are the horns that scattered Judah",
+    "plain": "Those are the horns that scattered Judah"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τὰ κέρατα τὰ διασκορπίσαντα τὸν Ἰούδαν καὶ τὸν Ἰσραὴλ κατέαξαν",
+    "en": "the horns that scattered Judah and Israel, they broke",
+    "plain": "the horns that scattered Judah and Israel were broken"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the base text and the Greek verse is much freer throughout (it also ends the verse differently). The Greek \"Israel\" is taken from 1:19, where the Hebrew has \"Judah, Israel and Jerusalem.\" The verb \"broke\" (<i>kateaxan</i>) has nothing matching it in the Hebrew of this verse.",
+  "b": "The Greek of the second half also differs (\"to sharpen them\" for \"to terrify them\"). The difference does not change the vision: the horns are defeated.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "the pupil of his eye",
+  "t": "His eye or my eye?",
+  "p": "The Hebrew, a Dead Sea scroll and the Greek say \"his eye\"; Jerome's Latin has \"my eye.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Dead Sea scroll 4Q80 (4QXIIe); Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "בְּבָבַת עֵינוֹ",
+    "en": "in the pupil of his eye",
+    "plain": "the pupil of his eye"
+   },
+   {
+    "w": "Latin Vulgate (Jerome, about AD 400)",
+    "orig": "pupillam oculi mei",
+    "en": "the pupil of my eye",
+    "plain": "the pupil of my eye"
+   }
+  ],
+  "follow": 0,
+  "why": "Three Hebrew and Greek witnesses agree on \"his eye.\" The Latin \"my eye\" may be an interpretive smoothing, since in the oracle the LORD is the speaker, or it may rest on a different Hebrew text; the Vulgate reading shaped the older English \"apple of my eye\" in the Douay-Rheims Bible.",
+  "b": "",
+  "s": [
+   "vulgate-clementine",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "his holy dwelling place",
+  "t": "A holy dwelling place or holy clouds?",
+  "p": "The Greek says the LORD has risen \"from his holy clouds.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "מִמְּעוֹן קָדְשׁוֹ",
+    "en": "from his holy dwelling place",
+    "plain": "his holy dwelling place"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἐκ νεφελῶν ἁγίων αὐτοῦ",
+    "en": "from his holy clouds",
+    "plain": "his holy clouds"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>me'on</i> (\"dwelling\") is the usual word for God's heavenly home (Deuteronomy 26:15; Psalm 68:5). The Greek may reflect a different Hebrew word or a free rendering.",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "I said, \"Have them set a clean turban on his head.\"",
+  "t": "Does Zechariah speak here?",
+  "p": "The Hebrew has the prophet interrupt, \"Then I said.\" The Greek has no \"I said\" and runs on from the angel's command.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Dead Sea scroll 4Q80 (4QXIIe)",
+    "orig": "וָאֹמַר יָשִׂימוּ צָנִיף טָהוֹר עַל־רֹאשׁוֹ",
+    "en": "And I said, 'Let them put a clean turban on his head'",
+    "plain": "I said, \"Have them set a clean turban on his head.\""
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐπίθετε κίδαριν καθαρὰν ἐπὶ τὴν κεφαλὴν αὐτοῦ",
+    "en": "and put a clean turban on his head",
+    "plain": "Set a clean turban on his head."
+   }
+  ],
+  "follow": 0,
+  "why": "4Q80 has the word \"and I said\" (<i>ve'omar</i>) visible, and the Hebrew is the harder reading, since a prophet's own words in the middle of a vision are unexpected. The Greek may have taken it as a continuation of the angel's speech.",
+  "b": "The consonants <i>w'mr</i> could be read \"and he said\" or \"and I said\"; the Masoretic vowels give \"I said.\"",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "abegg-bowley-cook-dss"
+  ]
+ },
+ {
+  "v": "3:8",
+  "a": "my servant, the Branch",
+  "t": "The Branch or the Rising?",
+  "p": "The Hebrew name is Tsemach, \"Sprout.\" The Greek has Anatole, \"Rising\" or \"East,\" here and at 6:12.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עַבְדִּי צֶמַח",
+    "en": "my servant, Sprout",
+    "plain": "my servant, the Branch"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τὸν δοῦλόν μου Ἀνατολήν",
+    "en": "my servant, Rising (East, Dawn)",
+    "plain": "my servant, the Dawn"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is a translation of the Hebrew word, not a different Hebrew text: <i>anatole</i> can mean the sprouting of a plant as well as a sunrise, and the Greek of Jeremiah 23:5 and 33:15 also uses it for <i>tsemach</i>. The Hebrew name is kept because 6:12 plays on it (<i>yitsmach</i>, \"will branch out\").",
+  "b": "The same Greek word lies behind \"the Dawn from on high\" in Luke 1:78. The note at 3:8 gives the identifications of the Branch.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "I am about to carve its inscription",
+  "t": "Carve an inscription or dig a pit?",
+  "p": "The Hebrew has the LORD carving an inscription on the stone. The Greek has \"I dig a pit.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הִנְנִי מְפַתֵּחַ פִּתֻּחָהּ",
+    "en": "I am about to carve its engraving",
+    "plain": "I am about to carve its inscription"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἰδοὺ ἐγὼ ὀρύσσω βόθρον",
+    "en": "see, I dig a pit",
+    "plain": "I am about to dig a pit"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew uses one root twice (<i>pittuach</i> is also the word for engraving on the high priest's plate in Exodus 28:36) and fits \"stone\" and \"eyes.\" The Greek is an odd rendering of the root, and the reason for it is not known. The Greek also has \"I will probe all the injustice of that land\" for \"I will remove the guilt of this land.\"",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "I said",
+  "t": "\"I said\" or \"he said\"?",
+  "p": "The written text (Ketiv) says \"he said\"; the reading tradition (Qere) says \"I said.\"",
+  "readings": [
+   {
+    "w": "Qere (reading tradition) of the Masoretic Text; Septuagint (Swete's text, mainly Codex Vaticanus); Dead Sea scroll 4Q80 (4QXIIe)",
+    "orig": "וָאֹמַר",
+    "en": "and I said",
+    "plain": "I said"
+   },
+   {
+    "w": "Ketiv (written text) of the Masoretic Text",
+    "orig": "וַיֹּאמֶר",
+    "en": "and he said",
+    "plain": "he said"
+   }
+  ],
+  "follow": 0,
+  "why": "The surrounding verses have the prophet answering the angel, and the Greek and 4Q80 read \"I said,\" so the Qere is the natural reading. The Ketiv is a likely slip after the \"he said\" that opens the verse.",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "djd15-prophets",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:7",
+  "a": "the top stone",
+  "t": "The top stone or the stone of the inheritance?",
+  "p": "The Hebrew has an unusual form, \"the head (or first) stone.\" The Greek has \"the stone of the inheritance.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הָאֶבֶן הָרֹאשָׁה",
+    "en": "the head stone",
+    "plain": "the top stone"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τὸν λίθον τῆς κληρονομίας",
+    "en": "the stone of the inheritance",
+    "plain": "the stone of the inheritance"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is read as \"the top stone\" (or \"first stone\"), though the form <i>ha-ro'shah</i> is unusual. The Greek \"inheritance\" may come from a different Hebrew word that looks similar, but that is a guess.",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "a scroll flying",
+  "t": "A flying scroll or a flying sickle?",
+  "p": "The Hebrew has a scroll; the Greek has a sickle.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "מְגִלָּה עָפָה",
+    "en": "a flying scroll",
+    "plain": "a scroll flying"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "δρέπανον πετόμενον",
+    "en": "a flying sickle",
+    "plain": "a sickle flying"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>megillah</i> (\"scroll\") fits the curse written on both sides (5:3); the Greek \"sickle\" would come from a Hebrew word for a sickle (<i>maggal</i>), which looks a little like <i>megillah</i>. The Greek keeps the same size (20 by 10 cubits) and the curse against the thief and the false swearer, so the sickle is a reading of the same object.",
+  "b": "The Greek repeats \"sickle\" in 5:2.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "This is how they look in all the land",
+  "t": "Their appearance or their guilt?",
+  "p": "The Hebrew says \"their eye\"; the Greek says \"their injustice,\" which fits a similar Hebrew word.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֵינָם",
+    "en": "their eye (appearance)",
+    "plain": "This is how they look in all the land"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἡ ἀδικία αὐτῶν",
+    "en": "their injustice",
+    "plain": "This is their guilt in all the land"
+   }
+  ],
+  "follow": 0,
+  "why": "In unpointed Hebrew, <i>'eynam</i> (\"their eye\") and <i>'avonam</i> (\"their guilt\") differ by one letter. Many commentators think the Greek kept the original. The Hebrew as it stands is possible (\"this is what they look like,\" or \"this is their eye on the land\") and is the harder reading.",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:5",
+  "a": "going out after standing before the Lord of all the earth",
+  "t": "After standing, or to stand?",
+  "p": "The Hebrew says the winds go out from standing before the Lord. The Greek says they go out to stand before him. The Dead Sea scroll 4Q80 seems to lack the words.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "יוֹצְאוֹת מִתְיַצֵּב עַל־אֲדוֹן כָּל־הָאָרֶץ",
+    "en": "going out from standing before the lord of all the earth",
+    "plain": "going out after standing before the Lord of all the earth"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "ἐκπορεύονται παραστῆναι τῷ κυρίῳ πάσης τῆς γῆς",
+    "en": "they go out to present themselves to the lord of all the earth",
+    "plain": "going out to stand before the Lord of all the earth"
+   },
+   {
+    "w": "Dead Sea scroll 4Q80 (4QXIIe), as transcribed",
+    "orig": "יוצאות אדון כול [הארץ]",
+    "en": "going out ... lord of all [the earth]",
+    "plain": "(the words for \"after standing before\" are not in the transcription)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>mi-</i> (\"from\") before a verb of standing is the harder text, and the Greek smooths it into a purpose. In the Abegg, Bowley and Cook transcription of 4Q80 the words <i>mitytsev 'al</i> do not appear between <i>yots'ot</i> and <i>'adon</i>, and the words around them are restored. It was not checked whether the scroll omits them or the leather is damaged there, so this is a candidate difference only; DJD XV would settle it. The scroll's <i>kwl</i> for <i>kol</i> is a spelling difference.",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "6:10",
+  "a": "from Heldai, from Tobiah and from Jedaiah",
+  "t": "Three names or three descriptions?",
+  "p": "The Greek turns the three names into \"the rulers, her useful ones and those who know her.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "מֵחֶלְדַּי וּמֵאֵת טוֹבִיָּה וּמֵאֵת יְדַעְיָה",
+    "en": "from Heldai, from Tobiah and from Jedaiah",
+    "plain": "from Heldai, from Tobiah and from Jedaiah"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "παρὰ τῶν ἀρχόντων καὶ παρὰ τῶν χρησίμων αὐτῆς καὶ παρὰ τῶν ἐπεγνωκότων αὐτήν",
+    "en": "from the rulers, from her useful ones and from those who know her",
+    "plain": "from the rulers, from its useful ones and from those who know it"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew names are ordinary Hebrew names (\"Tobiah\" means \"the LORD is good\"; \"Jedaiah\" \"the LORD knows\"), and the Greek translator seems to have translated their meanings. The Hebrew is the more likely original; the delegation is a real group (see the note).",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "He will also be a priest on that throne",
+  "t": "A priest on his throne or at his right?",
+  "p": "The Hebrew has a priest \"on his throne\"; the Greek has the priest \"at his right.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהָיָה כֹהֵן עַל־כִּסְאוֹ",
+    "en": "and he will be a priest on his throne",
+    "plain": "He will also be a priest on that throne"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἔσται ὁ ἱερεὺς ἐκ δεξιῶν αὐτοῦ",
+    "en": "and the priest will be on his right",
+    "plain": "The priest will be at his right"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the only Hebrew reading known and the harder text. The Greek reads two figures, a king and a priest beside him, which makes \"the two of them\" in the next clause easy; it may be a smoothing or a different Hebrew text.",
+  "b": "See the views note at 6:13.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "6:13",
+  "a": "He will bear majesty",
+  "t": "Bear majesty, or take excellence?",
+  "p": "The Hebrew says he will bear (carry, wear) majesty. The Greek says he will \"take excellence.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהוּא יִשָּׂא הוֹד",
+    "en": "and he will bear majesty",
+    "plain": "He will bear majesty"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ αὐτὸς λήμψεται ἀρετήν",
+    "en": "and he himself will take excellence (virtue)",
+    "plain": "He himself will take on excellence"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek renders the same Hebrew verb (<i>nasa'</i>, \"lift, bear, take\") and picks a different sense of <i>hod</i> (\"splendor, majesty\"). There is no different Hebrew text to prefer. The Plain keeps \"bear\" so that the line matches the Hebrew verb.",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "Helem, Tobiah, Jedaiah and Hen son of Zephaniah",
+  "t": "Names or descriptions again",
+  "p": "The Hebrew gives four names, two of which differ from 6:10 (Heldai, Josiah). The Greek gives descriptions again.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לְחֶלֶם וּלְטוֹבִיָּה וְלִידַעְיָה וּלְחֵן בֶּן־צְפַנְיָה",
+    "en": "to Helem and to Tobiah and to Jedaiah and to Hen son of Zephaniah",
+    "plain": "Helem, Tobiah, Jedaiah and Hen son of Zephaniah"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "τοῖς ὑπομένουσιν καὶ τοῖς χρησίμοις αὐτῆς καὶ τοῖς ἐπεγνωκόσιν αὐτήν, καὶ εἰς χάριτα υἱοῦ Σοφονίου",
+    "en": "to those who remain, her useful ones, those who know her, and for the favor of the son of Zephaniah",
+    "plain": "those who remain, its useful ones, those who know it, and the favor shown to the son of Zephaniah"
+   }
+  ],
+  "follow": 0,
+  "why": "In the Hebrew the same men seem to have two names each: Heldai/Helem and Josiah/Hen (a nickname, or a scribal change). The Greek translates \"Hen\" as <i>charis</i> (\"favor\"), the meaning of the Hebrew word <i>chen</i>. The Hebrew reading is kept.",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:14",
+  "a": "as a memorial in the LORD's temple",
+  "t": "A memorial or a psalm?",
+  "p": "The Hebrew says the crowns will be \"a memorial\" in the temple. The Greek says they are \"for a psalm\" in the house of the LORD.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לְזִכָּרוֹן בְּהֵיכַל יְהוָה",
+    "en": "for a memorial in the temple of the LORD",
+    "plain": "as a memorial in the LORD's temple"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "εἰς ψαλμὸν ἐν οἴκῳ Κυρίου",
+    "en": "for a psalm in the house of the LORD",
+    "plain": "for a psalm in the LORD's house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>zikkaron</i> is kept: crowns set up as a reminder of the givers fit the sign act. The Greek may have read a similar-looking Hebrew word for singing or may have paraphrased; which is not known.",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "Bethel sent Sharezer and Regem-melech, with his men",
+  "t": "Who sent whom?",
+  "p": "The Hebrew says Bethel sent men; the Greek says the men sent to Bethel.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וַיִּשְׁלַח בֵּית־אֵל שַׂר־אֶצֶר וְרֶגֶם מֶלֶךְ וַאֲנָשָׁיו",
+    "en": "and Bethel sent Sharezer and Regem-melech and his men",
+    "plain": "Bethel sent Sharezer and Regem-melech, with his men"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ ἐξαπέστειλεν εἰς Βαιθὴλ Σαράσαρ καὶ Ἀρβεσεὲρ ὁ βασιλεὺς καὶ οἱ ἄνδρες αὐτοῦ",
+    "en": "and Sarasar and Arbeseer the king and his men sent to Bethel",
+    "plain": "Sharezer and Arbeseer the king and his men sent to Bethel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is hard (see the note), but it is the reading followed by most modern translations. The Greek makes the king and his men the senders and Bethel the destination. The Greek name \"Arbeseer\" appears to stand for Regem-melech, with \"the king\" as a title.",
+  "b": "The Hebrew has \"his men\" (<i>va'anashav</i>), singular, so the men belong to Regem-melech or, if Bethel is the sender, to the town. The Greek also has \"his men.\"",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "Am I to go on weeping in the fifth month and keeping myself apart, as I have done all these years?",
+  "t": "A question about mourning, or a statement?",
+  "p": "The Greek has \"The holy thing has come in here in the fifth month.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַאֶבְכֶּה בַּחֹדֶשׁ הַחֲמִשִּׁי הִנָּזֵר כַּאֲשֶׁר עָשִׂיתִי זֶה כַּמָּה שָׁנִים",
+    "en": "Should I weep in the fifth month, keeping apart, as I have done these so many years?",
+    "plain": "Am I to go on weeping in the fifth month and keeping myself apart, as I have done all these years?"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "Εἰσελήλυθεν ὧδε ἐν τῷ μηνὶ τῷ πέμπτῳ τὸ ἁγίασμα, καθότι ἐποίησεν ἤδη ἱκανὰ ἔτη",
+    "en": "The sanctuary has come in here in the fifth month, as it has done for many years",
+    "plain": "The holy thing has come in here in the fifth month, as it has done for many years."
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek translator seems to have read different words (\"has come\" for \"should I weep,\" and \"the sanctuary\" for \"keep apart\"). The Hebrew gives a clear question that matches the answer (7:5).",
+  "b": "",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "will it also seem too wonderful to me?",
+  "t": "A question marked in the scroll",
+  "p": "The Dead Sea scroll 4Q80 appears to have a question marker (he) in front of \"also.\" The Greek also reads a question. The Masoretic Text has the same words without the marker.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "גַּם־בְּעֵינַי יִפָּלֵא",
+    "en": "also in my eyes will it be too wonderful",
+    "plain": "will it also seem too wonderful to me?"
+   },
+   {
+    "w": "Dead Sea scroll 4Q80 (4QXIIe), as transcribed",
+    "orig": "הגם [בעיני] יפלא",
+    "en": "will it also in my eyes be too wonderful?",
+    "plain": "will it also seem too wonderful to me?"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "μὴ καὶ ἐνώπιον ἐμοῦ ἀδυνατήσει;",
+    "en": "will it also be impossible before me?",
+    "plain": "will it also be too hard for me?"
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence is a question in sense whether or not the Hebrew marks it: the Masoretic Text lets the \"if\" clause before it carry the question, and the scroll and the Greek make it explicit. The Plain asks the question, so it agrees with the sense of all three. This is a small real difference between the witnesses and not only spelling, though the he is read from a transcription and part of the line in the scroll is restored.",
+  "b": "The scroll's other words in this verse differ only in spelling or are restored. The reading was taken from the transcription and not checked against DJD XV.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "The residents of one city will go to another",
+  "t": "One city to another, or five into one?",
+  "p": "The Greek has \"the residents of five cities will gather in one city.\"",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהָלְכוּ יֹשְׁבֵי אַחַת אֶל־אַחַת",
+    "en": "and the inhabitants of one will go to another",
+    "plain": "The residents of one city will go to another"
+   },
+   {
+    "w": "Septuagint (Swete's text, mainly Codex Vaticanus)",
+    "orig": "καὶ συνελεύσονται κατοικοῦντες πέντε πόλεις εἰς μίαν πόλιν",
+    "en": "and the inhabitants of five cities will gather into one city",
+    "plain": "The residents of five cities will gather in one city"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>achat el-achat</i> (\"one to one\") is idiomatic. The Greek \"five\" may be a free reading or a different Hebrew word (<i>chamesh</i>); the Hebrew is kept. Isaiah 19:18 speaks of \"five cities in the land of Egypt\" speaking the language of Canaan, but the connection here is unproven.",
+  "b": "",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ }
+]

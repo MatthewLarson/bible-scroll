@@ -1,0 +1,488 @@
+[
+ {
+  "v": "1:3",
+  "a": "from God our Father",
+  "t": "'God our Father' or 'God the Father'?",
+  "p": "The Plain follows the NA28 here against its SBL base: 'God our Father and the Lord Jesus Christ', not 'God the Father and our Lord Jesus Christ'.",
+  "readings": [
+   {
+    "w": "NA28, NA27 and Westcott-Hort (the witnesses are not named here; the word data mark only the editions)",
+    "orig": "ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ",
+    "en": "from God our Father and the Lord Jesus Christ",
+    "plain": "from God our Father"
+   },
+   {
+    "w": "SBLGNT, Tyndale House GNT, Tregelles, the Byzantine text and the Textus Receptus (KJV)",
+    "orig": "ἀπὸ θεοῦ πατρὸς καὶ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
+    "en": "from God the Father and our Lord Jesus Christ",
+    "plain": "from God the Father"
+   }
+  ],
+  "follow": 0,
+  "why": "Both forms are ordinary in Paul's openings (Romans 1:7; 1 Corinthians 1:3; Philippians 1:2 have 'God our Father'), and the difference is only the place of 'our'. The Plain follows the NA28 and Westcott-Hort, who judged 'God our Father' to be Paul's usual wording; the SBL, Tyndale House and the KJV place 'our' before 'Lord'. The manuscript witnesses are not named because the data here mark only the editions. The meaning does not change.",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "by the grace of Christ",
+  "t": "'Grace of Christ' or just 'grace'?",
+  "p": "The words 'of Christ' are in square brackets in the NA28 because the evidence is divided.",
+  "readings": [
+   {
+    "w": "All the editions in this site's word list print it (NA28 in square brackets), and the Byzantine text and the Textus Receptus (KJV)",
+    "orig": "ἐν χάριτι Χριστοῦ",
+    "en": "in the grace of Christ",
+    "plain": "by the grace of Christ"
+   },
+   {
+    "w": "Reported for Papyrus 51 (about AD 400, where the line is damaged) and some Western and Latin evidence (as reported by Metzger and the NA28 apparatus; names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "ἐν χάριτι",
+    "en": "in grace",
+    "plain": "by grace"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer reading has the wider support, and no edition here drops the words; the NA28 brackets them because the shorter text is early and the question is open. It is not easy to say which way a scribe would err: sacred names were often expanded in copying, but 'of Christ' could also have been dropped as heavy. Either way the sense is the same: the Galatians were called by God's free gift, and 'of Christ' is how 1:3-4 already described it.",
+  "s": [
+   "nestle-aland-28",
+   "sblgnt",
+   "metzger"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "Right now, am I trying to win people over",
+  "t": "'For' at the start of 1:10",
+  "p": "The Byzantine text and the KJV begin the verse with 'For': 'For do I now persuade men...'",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ἄρτι γὰρ ἀνθρώπους πείθω ἢ τὸν θεόν; (without γάρ: ἄρτι ἀνθρώπους πείθω)",
+    "en": "Right now, do I persuade people, or God?",
+    "plain": "Right now, am I trying to win people over"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV)",
+    "orig": "ἄρτι γὰρ ἀνθρώπους πείθω",
+    "en": "For right now, do I persuade people?",
+    "plain": "For right now, am I trying to win people over"
+   }
+  ],
+  "follow": 0,
+  "why": "The extra 'for' joins the verse tightly to 1:9, as a scribe would; the shorter text is the one in the editions and leaves the question to stand on its own. The sense is almost the same.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "I want you to know",
+  "t": "'For' or 'But' at 1:11?",
+  "p": "The Byzantine text and the KJV read 'But I certify you'; most editions read 'For I make known to you'.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Westcott-Hort, Tregelles",
+    "orig": "Γνωρίζω γὰρ ὑμῖν",
+    "en": "For I make known to you",
+    "plain": "I want you to know"
+   },
+   {
+    "w": "Tyndale House GNT, the Byzantine text and the Textus Receptus (KJV)",
+    "orig": "Γνωρίζω δὲ ὑμῖν",
+    "en": "But I make known to you",
+    "plain": "I want you to know (with 'But')"
+   }
+  ],
+  "follow": 0,
+  "why": "'For' ties the new section to the curse before it, 'But' sets it against it. Both are possible, and the Plain leaves out the little word in both cases. The editions are divided here, and Tyndale House goes with the Byzantine text.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "it pleased God",
+  "t": "Does verse 15 say 'God'?",
+  "p": "The SBL text says 'the one who set me apart was pleased'; NA28 and the others add 'God'. The Plain departs from its SBL base here.",
+  "readings": [
+   {
+    "w": "NA28 (in square brackets), Tyndale House GNT, Westcott-Hort, Tregelles, the Byzantine text and the Textus Receptus (KJV); the great majority of manuscripts",
+    "orig": "εὐδόκησεν [ὁ θεὸς] ὁ ἀφορίσας",
+    "en": "God, who set me apart, was pleased",
+    "plain": "it pleased God"
+   },
+   {
+    "w": "SBLGNT, which leaves out 'God'; the omission is reported for Papyrus 46 (about AD 200), Codex Vaticanus and the Western bilingual manuscripts Claromontanus (first hand), Augiensis and Boernerianus (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "εὐδόκησεν ὁ ἀφορίσας",
+    "en": "the one who set me apart was pleased",
+    "plain": "it pleased him"
+   }
+  ],
+  "follow": 0,
+  "why": "Counting editions is not evidence: most editions print 'God', but the omission is reported in the oldest and best witnesses, which is why the NA28 brackets the word and the SBL leaves it out. The Plain follows the longer text against its own SBL base, because 'God' is the one who set Paul apart in any case and the word makes the sentence clear in English. The sense does not change.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt",
+   "sblgnt"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "to meet Cephas",
+  "t": "'Cephas' or 'Peter'?",
+  "p": "Paul's own name for him was Cephas; the Byzantine text and the KJV say Peter.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus, Codex Vaticanus and the great majority of early witnesses, as the NA28 apparatus reports; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "Κηφᾶν",
+    "en": "Cephas",
+    "plain": "to meet Cephas"
+   },
+   {
+    "w": "Byzantine majority and the Textus Receptus (KJV)",
+    "orig": "Πέτρον",
+    "en": "Peter",
+    "plain": "to meet Peter"
+   }
+  ],
+  "follow": 0,
+  "why": "Cephas is the older and harder reading, and the name appears this way in Paul's other letters. A scribe would more easily replace Aramaic Cephas with the familiar Peter than the other way round.",
+  "b": "The same change occurs at 2:11 and 2:14 (not at 2:9, where the Byzantine text keeps Cephas). At 2:7-8 the best text reads Peter, which is the one place where Paul uses it in Galatians.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "so that they will make us slaves",
+  "t": "'They will enslave' or 'they might enslave'?",
+  "p": "A tiny difference in the Greek ending; the KJV has 'that they might bring us into bondage'.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (the manuscript witnesses are not named in the word data this site works from)",
+    "orig": "ἵνα ἡμᾶς καταδουλώσουσιν",
+    "en": "so that they will enslave us (future)",
+    "plain": "so that they will make us slaves"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV); the manuscript names are not given here",
+    "orig": "ἵνα ἡμᾶς καταδουλώσωνται",
+    "en": "so that they might enslave us (subjunctive)",
+    "plain": "so that they might make us slaves"
+   }
+  ],
+  "follow": 0,
+  "why": "The future after 'so that' is unusual in classical Greek, which makes it the harder reading; scribes would smooth it into the regular subjunctive. The sense changes very little.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "We did not give way",
+  "t": "Did Paul give way for an hour? ('Not' left out)",
+  "p": "A few Western witnesses leave out 'to whom... not', which would say Paul did yield about Titus.",
+  "readings": [
+   {
+    "w": "Nearly all Greek manuscripts; NA28, SBLGNT, Tyndale House GNT, Byzantine text, Textus Receptus (KJV)",
+    "orig": "οἷς οὐδὲ πρὸς ὥραν εἴξαμεν",
+    "en": "to whom we did not give way even for an hour",
+    "plain": "We did not give way"
+   },
+   {
+    "w": "Some Western witnesses, among them the Old Latin and Latin writers such as Irenaeus (in the Latin translation), Tertullian and Ambrosiaster, as Metzger reports",
+    "orig": "οἷς πρὸς ὥραν εἴξαμεν (without οὐδέ)",
+    "en": "to whom we gave way for an hour",
+    "plain": "We gave way"
+   }
+  ],
+  "follow": 0,
+  "why": "The long reading has overwhelming manuscript support, and the argument of the passage (the truth of the good news was to be kept 'with you') asks for a refusal. The short reading is probably an attempt to explain Titus' circumcision (as Acts 16:3 shows Paul circumcising Timothy), but the grammar of 2:3-5 is awkward either way.",
+  "b": "Metzger discusses this one at length: the Western reading would make Paul say he yielded briefly to the demand for Titus' circumcision, for the sake of peace. The Plain follows the reading of NA28 and nearly all Greek manuscripts, which says he refused entirely.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "James, Cephas and John",
+  "t": "The order of the three pillars",
+  "p": "The earliest manuscripts name James first; Western manuscripts put Peter first.",
+  "readings": [
+   {
+    "w": "The best early witnesses, reported to include Papyrus 46, Sinaiticus, Alexandrinus, Vaticanus and Ephraemi; NA28, SBLGNT, Tyndale House GNT, Byzantine text (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "Ἰάκωβος καὶ Κηφᾶς καὶ Ἰωάννης",
+    "en": "James and Cephas and John",
+    "plain": "James, Cephas and John"
+   },
+   {
+    "w": "Western witnesses, reported to be Claromontanus (first hand), Augiensis and Boernerianus and the Old Latin (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης",
+    "en": "Peter and James and John",
+    "plain": "Peter, James and John"
+   }
+  ],
+  "follow": 0,
+  "why": "James first is the harder reading. Metzger's argument is that later Christians would not have moved Peter from first place, so the order 'James, Cephas, John' is the one a scribe would not create. It also fits the situation: James led the Jerusalem church (Acts 15:13; 21:18).",
+  "s": [
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:12",
+  "a": "when they came",
+  "t": "'When they came' or 'when he came'?",
+  "p": "An early reading has the singular, 'when he came': after 'some people from James', one man arrives.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Byzantine text, Textus Receptus (KJV); reported for Alexandrinus, Ephraemi, the corrector of Claromontanus and the Byzantine tradition (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "ὅτε δὲ ἦλθον",
+    "en": "but when they came (plural)",
+    "plain": "when they came"
+   },
+   {
+    "w": "Tregelles' edition, which is the only edition here to print it; reported for Sinaiticus and Vaticanus, and also for Papyrus 46, the first hands of the Western bilinguals (Claromontanus, Augiensis, Boernerianus) and Origen (the sigla differ between sources; names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "ὅτε δὲ ἦλθεν",
+    "en": "but when he came (singular)",
+    "plain": "when he came"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural is read by most editions and sits naturally after 'some people'. But the singular is a serious reading, since it has early support, and it is the harder one: who is the 'he'? Suggestions are one leader of the delegation (some think James himself), Cephas, or a slip of the pen leveled to the singular verbs around it. The question bears on how many men came from Jerusalem and what Cephas was reacting to. The sense of the verse, that the arrival of these people made Cephas withdraw, is the same either way.",
+  "s": [
+   "nestle-aland-28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "faith in Jesus Christ",
+  "t": "Faith in Jesus Christ, or the faithfulness of Jesus Christ?",
+  "p": "Not a difference between manuscripts: the Greek 'faith of Jesus Christ' can be read in two ways. (The small manuscript differences in this verse are in the next entry.)",
+  "readings": [
+   {
+    "w": "Objective genitive: Christ is the one believed in. Most English versions; Luther and Calvin; Dunn, Moo, Fitzmyer, Schreiner (Romans 3:22 in this site's Plain)",
+    "orig": "πίστεως Ἰησοῦ Χριστοῦ",
+    "en": "faith in Jesus Christ",
+    "plain": "faith in Jesus Christ"
+   },
+   {
+    "w": "Subjective genitive: Christ is the one who is faithful. Hays, Wright (in part), Campbell, Longenecker, Martyn; the KJV's 'faith of Jesus Christ' keeps the Greek ambiguity",
+    "orig": "πίστεως Ἰησοῦ Χριστοῦ",
+    "en": "the faithfulness of Jesus Christ",
+    "plain": "the faithfulness of Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Following Romans 3:22 and the lead decision for this site. The verse itself says 'we also believed in Christ Jesus', which makes faith in Christ the natural sense of the first phrase; but the other reading is serious, and the notes and the chapter page lay out the arguments.",
+  "b": "Arguments for the objective reading: the next clause ('we believed in Christ Jesus'), which would be redundant if 'faith of Christ' already meant human faith; and Paul's use of the verb 'believe' with Christ as object. For the subjective reading: the ordinary sense of the genitive in 'the faith of Abraham' (Romans 4:12, 16); the way 3:22-26 speaks of faith 'coming' and being 'revealed'; and the picture of Christ's obedient death (Philippians 2:8). Philippians 3:9 is cited by both sides and settles nothing: its 'faith of Christ' sits beside 'the righteousness from God on the basis of faith', which each side reads its own way. Greek grammar alone does not settle it. See the topic page <i>Faith in Christ or the Faithfulness of Christ?</i>",
+  "s": [
+   "hays-faith",
+   "dunn-new-perspective",
+   "campbell-deliverance",
+   "longenecker-galatians",
+   "moo-romans",
+   "fitzmyer-romans"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "A person, we know",
+  "t": "Small differences in 2:16 (and the order of the names)",
+  "p": "The KJV's 'Knowing that' and 'for by the works of the law' come from small differences in the Greek, as does the order 'Jesus Christ' or 'Christ Jesus'.",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles for the opening 'then' (δέ) and for 'since' (ὅτι)",
+    "orig": "εἰδότες δὲ ὅτι ... ὅτι ἐξ ἔργων νόμου",
+    "en": "Knowing then that ... since by works of the law",
+    "plain": "A person, we know"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV): without δέ and with a different word for 'since' (διότι is the usual form, as reported; the word data mark only that ὅτι is not read)",
+    "orig": "εἰδότες ὅτι ... διότι ἐξ ἔργων νόμου",
+    "en": "Knowing that ... because by works of the law",
+    "plain": "We know that a person"
+   }
+  ],
+  "follow": 0,
+  "why": "None of these changes the sense. In the same verse the word data show that 'Jesus' is not at the same position in the Westcott-Hort and Tregelles texts, which print 'Christ Jesus' in the first phrase; the other editions, the Byzantine text and the KJV have 'Jesus Christ'. The names are the same persons either way.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "by faith in the Son of God",
+  "t": "Faith in 'the Son of God', or in 'God and Christ'?",
+  "p": "A few early manuscripts read 'by faith in God and Christ'.",
+  "readings": [
+   {
+    "w": "Most Greek manuscripts, among them Sinaiticus and Alexandrinus, as the NA28 apparatus reports; Byzantine text, Textus Receptus (KJV); NA28, SBLGNT, Tyndale House GNT",
+    "orig": "ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ",
+    "en": "I live in the faith of the Son of God",
+    "plain": "by faith in the Son of God"
+   },
+   {
+    "w": "Papyrus 46 (about AD 200), Codex Vaticanus and the Western manuscript Codex Claromontanus (first hand), as reported by Metzger and Comfort",
+    "orig": "ἐν πίστει ζῶ τῇ τοῦ θεοῦ καὶ Χριστοῦ",
+    "en": "I live in the faith of God and Christ",
+    "plain": "by faith in God and Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading 'the Son of God' is in the great majority of manuscripts and is the one the editions print. The shorter 'God and Christ' is supported by early witnesses (P46 and B) and is unusual for Paul, since he does not elsewhere speak of the faith of 'God and Christ'; scribes may have changed it from the more common 'Son of God'. The Greek 'faith of the Son of God' also carries the same objective or subjective question as 2:16.",
+  "s": [
+   "metzger",
+   "comfort-nttc",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "Who has put a spell on you?",
+  "t": "The Byzantine addition 'that you should not obey the truth'",
+  "p": "The KJV adds 'that ye should not obey the truth' and 'among you'; the earliest manuscripts do not.",
+  "readings": [
+   {
+    "w": "Papyrus 46, Sinaiticus, Alexandrinus, Vaticanus and the early witnesses; NA28, SBLGNT, Tyndale House GNT",
+    "orig": "τίς ὑμᾶς ἐβάσκανεν",
+    "en": "Who has bewitched you?",
+    "plain": "Who has put a spell on you?"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV)",
+    "orig": "τίς ὑμᾶς ἐβάσκανεν τῇ ἀληθείᾳ μὴ πείθεσθαι",
+    "en": "Who has bewitched you, that you should not obey the truth?",
+    "plain": "Who has put a spell on you, so that you do not obey the truth?"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text appears to be borrowed from 5:7 ('who stopped you from obeying the truth?'); the shorter reading is in the earliest witnesses and is the harder, since it leaves the bewitching unexplained. The Byzantine text also adds 'among you' after 'crucified'.",
+  "b": "The Byzantine text also reads 'crucified among you' (<i>en hymin</i>), another smoothing.",
+  "s": [
+   "metzger",
+   "nestle-aland-28",
+   "comfort-nttc"
+  ]
+ },
+ {
+  "v": "3:12",
+  "a": "The one who does them will live by them",
+  "t": "'The man that doeth them' in 3:12",
+  "p": "The Byzantine text and the KJV add the word 'man' (<i>anthrōpos</i>): 'The man that doeth them shall live in them.'",
+  "readings": [
+   {
+    "w": "NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ὁ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς",
+    "en": "The one who does them will live by them",
+    "plain": "The one who does them will live by them"
+   },
+   {
+    "w": "Byzantine text and Textus Receptus (KJV)",
+    "orig": "ὁ ποιήσας αὐτὰ ἄνθρωπος ζήσεται ἐν αὐτοῖς",
+    "en": "The man who does them will live by them",
+    "plain": "The person who does them will live by them"
+   }
+  ],
+  "follow": 0,
+  "why": "The extra 'man' looks like a fill-in from the Greek Leviticus 18:5, which has 'a man who does them will live by them' (Romans 10:5 has the same). The shorter text is the one in the editions. The sense is unchanged.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt"
+  ]
+ },
+ {
+  "v": "3:14",
+  "a": "the promise of the Spirit",
+  "t": "'Promise' or 'blessing' of the Spirit?",
+  "p": "The oldest manuscript of Galatians reads 'the blessing of the Spirit', matching the first half of the verse.",
+  "readings": [
+   {
+    "w": "Reported for Sinaiticus, Alexandrinus, Vaticanus, Ephraemi, the corrector of Claromontanus, Psi, 33 and the Byzantine text; NA28, SBLGNT, Tyndale House GNT, Textus Receptus (KJV) (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "τὴν ἐπαγγελίαν τοῦ πνεύματος",
+    "en": "the promise of the Spirit",
+    "plain": "the promise of the Spirit"
+   },
+   {
+    "w": "Papyrus 46 (about AD 200), with the first hands of the Western bilinguals (Claromontanus, Augiensis, Boernerianus), minuscule 88 (first hand) and some Old Latin (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "τὴν εὐλογίαν τοῦ πνεύματος",
+    "en": "the blessing of the Spirit",
+    "plain": "the blessing of the Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "No edition here prints 'blessing', but the lead witness for it is Papyrus 46, the oldest manuscript of Galatians, so the case is not trivial. Editors prefer 'promise' because it is the reading of the wide spread of other manuscripts and because 'blessing' may be an echo of 'the blessing of Abraham' earlier in the verse. That echo argument is not one-sided: a scribe could just as well have written 'promise' under the influence of 3:16-22 and 3:29, where the word runs through the chapter, and 'blessing' is the more repetitive reading, the one scribes would be less likely to choose. In both readings the Spirit is what Abraham's blessing brings to the Gentiles.",
+  "s": [
+   "nestle-aland-28",
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:17",
+  "a": "confirmed beforehand by God",
+  "t": "'In Christ' added to the covenant",
+  "p": "The Byzantine text and the KJV say the covenant was confirmed 'in Christ'; the earliest witnesses do not.",
+  "readings": [
+   {
+    "w": "The earliest witnesses, reported to include Sinaiticus, Alexandrinus, Vaticanus, Ephraemi and the corrector of Claromontanus; NA28, SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "προκεκυρωμένην ὑπὸ τοῦ θεοῦ",
+    "en": "confirmed beforehand by God",
+    "plain": "confirmed beforehand by God"
+   },
+   {
+    "w": "Byzantine majority and Textus Receptus (KJV); reported for the first hand of Codex Claromontanus (names as reported in the NA28 apparatus and the commentaries, not rechecked here)",
+    "orig": "προκεκυρωμένην ὑπὸ τοῦ θεοῦ εἰς Χριστόν",
+    "en": "confirmed beforehand by God in Christ",
+    "plain": "confirmed beforehand by God in Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is the older and the harder: 'in Christ' reads as a clarifying addition drawn from 3:16 and 3:14. The sense is not wrong, but Paul's argument in 3:15-18 turns on God's earlier covenant, not on Christ's presence in it.",
+  "s": [
+   "nestle-aland-28",
+   "thgnt",
+   "metzger"
+  ]
+ },
+ {
+  "v": "3:22",
+  "a": "faith in Jesus Christ",
+  "t": "Faith in Jesus Christ, or the faithfulness of Jesus Christ? (3:22)",
+  "p": "Not a difference between manuscripts: the Greek 'faith of Jesus Christ' can be read in two ways, as at 2:16, and here the choice is hardest.",
+  "readings": [
+   {
+    "w": "Objective genitive: Christ is the one believed in. Most English versions; Luther and Calvin; Dunn, Moo, Fitzmyer, Schreiner (Romans 3:22 in this site's Plain)",
+    "orig": "ἐκ πίστεως Ἰησοῦ Χριστοῦ",
+    "en": "from faith in Jesus Christ",
+    "plain": "faith in Jesus Christ"
+   },
+   {
+    "w": "Subjective genitive: Christ is the one who is faithful. Hays, Campbell, Longenecker, Martyn; Wright in part; the KJV's 'faith of Jesus Christ' keeps the Greek ambiguity",
+    "orig": "ἐκ πίστεως Ἰησοῦ Χριστοῦ",
+    "en": "from the faithfulness of Jesus Christ",
+    "plain": "the faithfulness of Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Following Romans 3:22 and the lead decision for this site. But 3:22 is where the objective reading is hardest: the verse already says the promise is given 'to those who believe', so 'faith in Jesus Christ' makes the verse say 'faith' twice, while 'the faithfulness of Jesus Christ' gives the two halves different subjects (his faithfulness, their believing). The reading also fits 3:23-25, where 'the faith' comes as an event. The case for the objective reading rests chiefly on 2:16 and on Paul's use of 'believe' with Christ as object. A reader who takes the subjective reading here does not have to take it everywhere.",
+  "b": "See the note at 3:22 and the topic page <i>Faith in Christ or the Faithfulness of Christ?</i> The same question is in 2:16, 2:20 and 3:26 (where the Greek has 'in' and the reading is not in doubt).",
+  "s": [
+   "hays-faith",
+   "dunn-new-perspective",
+   "campbell-deliverance",
+   "longenecker-galatians",
+   "moo-romans",
+   "fitzmyer-romans"
+  ]
+ }
+]

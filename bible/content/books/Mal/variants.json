@@ -1,0 +1,705 @@
+[
+ {
+  "v": "1:1",
+  "a": "through Malachi",
+  "t": "Malachi or 'his messenger'?",
+  "p": "The Hebrew has the name or title 'Malachi'. The Greek reads 'by the hand of his messenger' and adds a call to take it to heart.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "בְּיַד מַלְאָכִי",
+    "en": "by the hand of Malachi",
+    "plain": "through Malachi"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἐν χειρὶ ἀγγέλου αὐτοῦ",
+    "en": "by the hand of his messenger",
+    "plain": "through his messenger"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has no pronoun ('his') and the same word is used as a name in later tradition. The Greek translators read the word as a title, 'messenger', and added 'his'. The Plain keeps the Hebrew name and puts the title in the note.",
+  "b": "The Greek verse also ends with an addition: 'Set it on your hearts' (<i>thesthe de epi tas kardias hymon</i>), which has no counterpart in the Hebrew. It echoes the 'take to heart' of Haggai 1:5 and Malachi 2:2. No Dead Sea scroll in the Abegg, Bowley and Cook transcription preserves 1:1.",
+  "s": [
+   "swete-lxx",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "the jackals of the wilderness",
+  "t": "Jackals or gifts?",
+  "p": "The Hebrew has a rare plural meaning jackals. The Greek has a word for gifts.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "לְתַנּוֹת מִדְבָּר",
+    "en": "for jackals of the wilderness",
+    "plain": "the jackals of the wilderness"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "εἰς δόματα ἐρήμου",
+    "en": "for gifts of the wilderness",
+    "plain": "gifts of the wilderness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew word <i>tannot</i> (jackals) fits the ruin images in Isaiah 34:13 and Jeremiah 49:33. The Greek translator probably did not know the rare plural and read it as a word for gifts; that is a guess.",
+  "s": [
+   "swete-lxx",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "I made his mountains a waste",
+  "t": "Mountains or borders?",
+  "p": "The Hebrew has 'his mountains'. The Greek has 'his borders'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וָאָשִׂים אֶת־הָרָיו שְׁמָמָה",
+    "en": "and I made his mountains a desolation",
+    "plain": "I made his mountains a waste"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ ἔταξα τὰ ὅρια αὐτοῦ εἰς ἀφανισμόν",
+    "en": "and I set his borders for destruction",
+    "plain": "I set his borders for destruction"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>harav</i>, 'his mountains', fits Edom's hill country (Obadiah 1:8-9). The Greek <i>horia</i> is the word it also uses for 'territory' in 1:4 and 1:5, so the translator may have rendered freely, or read another word; I cannot tell which.",
+  "s": [
+   "swete-lxx",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "turn up your nose at it",
+  "t": "At it, at me, or I blew on them?",
+  "p": "The Hebrew has 'you puff at it'. A scribal tradition says 'at me'. The Greek has the LORD blowing.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וְהִפַּחְתֶּם אוֹתוֹ",
+    "en": "and you puff at it",
+    "plain": "turn up your nose at it"
+   },
+   {
+    "w": "Tiqqune Sopherim tradition (a tradition about the text, not a manuscript)",
+    "orig": "וְהִפַּחְתֶּם אוֹתִי",
+    "en": "and you puff at me",
+    "plain": "and you turn up your nose at me"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ ἐξεφύσησα αὐτά",
+    "en": "and I blew on them",
+    "plain": "and I blew them away"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew as we have it makes sense: the people scorn the offering. The Greek has the LORD as the one who blows, after a first clause 'these things come from hardship'. The tradition that the original said 'at me' is not backed by a manuscript. The Plain follows the Hebrew.",
+  "b": "See the note at 1:13 on the Tiqqune Sopherim.",
+  "s": [
+   "swete-lxx",
+   "mccarthy-tiqqune",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "I am about to rebuke your offspring",
+  "t": "Offspring or shoulder?",
+  "p": "The same Hebrew letters, read with different vowels, give 'offspring' or 'arm'. The Greek and Latin chose the arm.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "גֹּעֵר לָכֶם אֶת־הַזֶּרַע",
+    "en": "rebuking your seed",
+    "plain": "I am about to rebuke your offspring"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἀφορίζω ὑμῖν τὸν ὦμον",
+    "en": "I will cut off the shoulder from you",
+    "plain": "I am about to cut off the shoulder from you"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "proiciam vobis brachium",
+    "en": "I will throw the arm at you",
+    "plain": "I am about to throw the arm at you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew makes sense as it stands: the LORD rebukes the priests' descendants or their crops (the 'seed'). The Greek and Latin read the same consonants as <i>zero'a</i>, 'arm' or 'shoulder', perhaps the priests' share of the sacrifice (Leviticus 7:32-34), which would then be taken away. Both fit the section on priests' dues.",
+  "b": "The Hebrew also has <i>go'er</i>, 'rebuking', where the Greek has a verb of setting apart. The Syriac and the Targum are not cited here.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "and has become the husband of the daughter of a foreign god",
+  "t": "A foreign god's daughter or foreign gods?",
+  "p": "The Hebrew says Judah married the daughter of a foreign god. The Greek says Judah loved and pursued foreign gods.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וּבָעַל בַּת־אֵל נֵכָר",
+    "en": "and has married the daughter of a foreign god",
+    "plain": "and has become the husband of the daughter of a foreign god"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἐν οἷς ἠγάπησεν καὶ ἐπετήδευσεν εἰς θεοὺς ἀλλοτρίους",
+    "en": "in which he delighted, and pursued foreign gods",
+    "plain": "and has gone after foreign gods"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is the harder reading and the one the Greek can be explained from: the Greek has turned a vivid and difficult phrase into a general charge of idolatry. 4QXIIa (4Q76) preserves this verse, but the word 'house' that the printout shows is restored in brackets, so it is not cited as a reading. Whether any of its letters are visible on the leather is a question for the editors' text (Fuller, DJD XV); the printout does not settle it.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "2:12",
+  "a": "the one who wakes and the one who answers",
+  "t": "A hard pair of words",
+  "p": "The Hebrew is 'one who wakes and one who answers'. A scroll reads 'witness'. The Greek has 'until he is humbled'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "עֵר וְעֹנֶה",
+    "en": "one who wakes and one who answers",
+    "plain": "the one who wakes and the one who answers"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll",
+    "orig": "עד וענה",
+    "en": "a witness and one who answers",
+    "plain": "a witness and one who answers"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἕως καὶ ταπεινωθῇ",
+    "en": "until he is humbled",
+    "plain": "until he is humbled"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "magistrum et discipulum",
+    "en": "teacher and student",
+    "plain": "the teacher and the student"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew is hard, but a reading that is hard in this way is likelier than one that smooths it. The scroll's <i>'ed</i> ('witness') differs only in the last letter (<i>d</i> for <i>r</i>, two letters easily confused) and gives a clear sense, which makes it a possible original. The Greek and Latin are guesses at the same letters.",
+  "b": "The printout shows the scroll's <i>'ed</i> without brackets, so the reading is visible on the leather. The rest of the verse is partly restored.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx",
+   "tov-tchb",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "You betrayed her, though she is your companion",
+  "t": "A shorter text in a scroll",
+  "p": "The Hebrew says 'whom you betrayed' before 'she is your companion'. A scroll goes straight to 'she is your companion'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint",
+    "orig": "אֲשֶׁר אַתָּה בָּגַדְתָּה בָּהּ וְהִיא חֲבֶרְתֶּךָ",
+    "en": "to whom you were treacherous, though she is your companion",
+    "plain": "You betrayed her, though she is your companion"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll",
+    "orig": "והיא חברתך",
+    "en": "and she is your companion",
+    "plain": "She is your companion"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer text matches the repeated 'betray' of 2:10-16 and is in the Greek too. The scroll is shorter; either a scribe skipped the clause, or the longer reading was added. The scroll is damaged around this line, so the printout cannot rule out a gap in the transcription.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "Did he not make one?",
+  "t": "'Did he not make one?'",
+  "p": "The Hebrew asks if God made one. The Greek asks if he did well. Both are hard.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76) in this phrase, partly restored",
+    "orig": "וְלֹא אֶחָד עָשָׂה",
+    "en": "and not one he made",
+    "plain": "Did he not make one?"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ οὐ καλὸν ἐποίησεν",
+    "en": "and did he not do well",
+    "plain": "Did he not do well?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has an unusual verse structure and no certain meaning; the Greek made a smoother sentence by reading a different word for 'one'. The Plain keeps the Hebrew words and says in the note that the sense is unsure.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "And what was the one seeking?",
+  "t": "'And you say' added",
+  "p": "A scroll and the Greek add 'And you say' before the question, making it one of the people's objections.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וּמָה הָאֶחָד מְבַקֵּשׁ",
+    "en": "and what is the one seeking",
+    "plain": "And what was the one seeking?"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll; Septuagint (Swete's text)",
+    "orig": "ואמרתם מה האחד מבקש",
+    "en": "and you say: what is the one seeking",
+    "plain": "And you say, 'What was the one seeking?'"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's added word matches the book's usual 'and you say' (1:2, 6, 7; 2:17; 3:7, 8, 13). The Greek has it too. That is early support, but it could also be a scribe making the verse fit the pattern. The Hebrew without it is the harder text.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "For he hates sending away, says the LORD, the God of Israel, and covering one's garment with violence",
+  "t": "Hate divorce, or divorce if you hate?",
+  "p": "The Hebrew can say the LORD hates divorce. The Greek and the Latin say: if you hate her, send her away. A Dead Sea scroll shows only the first words of that reading.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כִּי־שָׂנֵא שַׁלַּח אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל וְכִסָּה חָמָס עַל־לְבוּשׁוֹ",
+    "en": "for he hates sending away, says the LORD, the God of Israel, and covers violence over his garment",
+    "plain": "For he hates sending away, says the LORD, the God of Israel, and covering one's garment with violence"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll: the words visible on the leather",
+    "orig": "כי אם שנתה שלח",
+    "en": "but if you hate, send away",
+    "plain": "If you hate her, send her away"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ἀλλὰ ἐὰν μισήσας ἐξαποστείλῃς, λέγει Κύριος ὁ θεὸς τοῦ Ἰσραήλ, καὶ καλύψει ἀσέβεια ἐπὶ τὰ ἐνθυμήματά σου",
+    "en": "but if you hate and send away, says the LORD, the God of Israel, then ungodliness will cover your thoughts",
+    "plain": "If you hate her and send her away, says the LORD, the God of Israel, then ungodliness will cover your thoughts"
+   },
+   {
+    "w": "Latin Vulgate (Jerome)",
+    "orig": "cum odio habueris, dimitte, dicit Dominus Deus Israel; operiet autem iniquitas vestimentum eius",
+    "en": "when you hate her, send her away, says the LORD God of Israel; but wrongdoing will cover his garment",
+    "plain": "When you hate her, send her away, says the LORD, the God of Israel; but wrongdoing will cover his garment"
+   }
+  ],
+  "follow": 0,
+  "why": "The three witnesses do not agree on the whole verse. The Hebrew consonants <i>sn' shlh</i> can be read 'he hates sending away' (the Plain), 'I hate sending away', or 'the one who hates sends away', so the Hebrew is not decisive. The Greek and the Vulgate agree on a conditional, 'if/when you hate, send away', and differ in the second half. Of the scroll, only 'if', 'you hated' and 'send away' (<i>'im</i>, <i>shnth</i>, <i>shlh</i>) are visible; the 'cover' verb is marked as differing in its vowel letters (it begins with yod and ends with waw, where the Masoretic Text has waw and he), and the words 'my garment' and 'says' are restored, so the scroll cannot be cited for the Greek's or the Latin's second half. Whether the Greek really supports a divorce reading is disputed; Russell Fuller, who edited the scroll (DJD XV) and wrote on the passage (JBL 1991), is the place to follow that argument. The scroll, Greek and Latin are early witnesses, but only the scroll is a Hebrew one. The Plain follows the Hebrew; the note lists all the readings.",
+  "b": "Rashi and the Targum Jonathan also read 'if you hate her, send her away', and Rashi sends the reader to the dispute in Gittin 90b; the Talmud (Gittin 90a-b) records both ways of reading the line. The consonants <i>sn'</i> can also be read 'I hate', which several modern translations adopt; that is a choice of vowels, not a different manuscript. Matthew 19:3-9 and Mark 10:2-12 are on this site and are the New Testament side of the question.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "fuller-malachi-2",
+   "swete-lxx",
+   "bavli-gittin",
+   "rashi-twelve",
+   "targum-mal",
+   "tov-tchb",
+   "hugenberger-marriage",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "Look, I am about to send my messenger",
+  "t": "'Therefore' at the start",
+  "p": "A scroll begins this verse with 'therefore', tying it to the question of 2:17.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); Septuagint",
+    "orig": "הִנְנִי שֹׁלֵחַ מַלְאָכִי",
+    "en": "here I am sending my messenger",
+    "plain": "Look, I am about to send my messenger"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll",
+    "orig": "לכן הנני שולח מלאכי",
+    "en": "therefore here I am sending my messenger",
+    "plain": "Therefore, look, I am about to send my messenger"
+   }
+  ],
+  "follow": 0,
+  "why": "The scroll's 'therefore' is a small connecting word and makes the answer to 2:17 explicit. It may be an addition by a scribe who saw the link, or the original. The Hebrew without it is the shorter text and is in the later witnesses.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "live through the day he comes",
+  "t": "A word the scroll seems to lack",
+  "p": "The printout shows a Dead Sea scroll with a different word where the Hebrew has 'the day of'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וּמִי מְכַלְכֵּל אֶת־יוֹם בּוֹאוֹ",
+    "en": "and who can sustain the day of his coming",
+    "plain": "live through the day he comes"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll",
+    "orig": "מכלכל אותם באו",
+    "en": "who can endure 'otam (them?), their/his coming",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Where the Masoretic Text has <i>'et yom</i>, 'the day of', the printout shows the scroll with <i>'otam</i>, 'them', and a different spelling of 'his coming'. If the scroll really lacks 'day', the sense changes slightly; but this is my reading of a transcription, not the editors', and the text is damaged enough that I do not follow it. The Greek has 'the day of his entry', like the Hebrew.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:6",
+  "a": "have not come to an end",
+  "t": "'Have not come to an end' or 'do not keep away'?",
+  "p": "The Greek ends 3:6 at 'I do not change' and begins 3:7 with 'you do not keep away from the wrongs of your fathers'. The Hebrew says the sons of Jacob 'have not come to an end'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76) and 4QXIIc (4Q78), in the words visible",
+    "orig": "וְאַתֶּם בְּנֵי־יַעֲקֹב לֹא כְלִיתֶם",
+    "en": "and you, sons of Jacob, have not come to an end",
+    "plain": "have not come to an end"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ ὑμεῖς, υἱοὶ Ἰακώβ, οὐκ ἀπέχεσθε ἀπὸ τῶν ἀδικιῶν τῶν πατέρων ὑμῶν",
+    "en": "and you, sons of Jacob, do not keep away from the wrongs of your fathers",
+    "plain": "And you, sons of Jacob, do not keep away from the wrongs of your fathers."
+   }
+  ],
+  "follow": 0,
+  "why": "A reader with the Greek in front of them gets the opposite sense: in the Hebrew the sons of Jacob survive because the LORD does not change; in the Greek they are blamed for not leaving their fathers' wrongs. I do not know how the Greek translator understood the Hebrew verb. The Plain follows the Hebrew, which the scrolls support where they are visible.",
+  "b": "4QXIIa shows the verb <i>klythm</i> in 3:6 and 'from the days of your fathers, you turned aside from my statute' in 3:7 as in the Masoretic Text, with <i>ya'aqov</i> spelled with a waw. 4QXIIc (4Q78), which preserves parts of 3:6-7, shows <i>ya'aqov</i> in 3:6 and <i>mechuqqay</i> ('from my statutes') and <i>shemartem</i> ('you kept') in 3:7, also as the Masoretic Text; its other words in these lines are restored and not cited. In 3:7 4QXIIa has the singular <i>wa'amarta</i> ('and you say') where the Masoretic Text has the plural.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "3:8",
+  "a": "Can a person rob God?",
+  "t": "Rob or trip up?",
+  "p": "The Hebrew verb means rob. The Greek has the verb used of Jacob's supplanting his brother.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76), reading the same word",
+    "orig": "הֲיִקְבַּע אָדָם אֱלֹהִים",
+    "en": "will a person rob God",
+    "plain": "Can a person rob God?"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "μήτι πτερνιεῖ ἄνθρωπος θεόν",
+    "en": "will a person trip up God",
+    "plain": "Can a person trip up God?"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb <i>qava'</i> is rare and was misread or paraphrased in antiquity. The Greek <i>pternizō</i> is the verb of Genesis 27:36, 'to supplant, to trip up'. Rob suits the context (tithes withheld); the Greek may reflect an old word play on Jacob (see the note).",
+  "b": "4QXIIa preserves this verse and agrees with the Masoretic Text in the word. The Greek verse 3:9-10 differs widely from the Hebrew.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "tov-tchb",
+   "hill-malachi"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "the proud and everyone who does evil",
+  "t": "Proud or foreigners?",
+  "p": "The Hebrew has 'the proud'. The Greek has 'foreigners'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כָּל־זֵדִים",
+    "en": "all the proud",
+    "plain": "the proud and everyone who does evil"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "πάντες οἱ ἀλλογενεῖς",
+    "en": "all the foreigners",
+    "plain": "the foreigners and everyone who does evil"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has 'foreign' for the Hebrew <i>zedim</i> ('proud') here and at 3:15, where 4QXIIa visibly reads <i>zdym</i>, so the scroll supports the Hebrew. The Greek translator probably read <i>zarim</i> ('strangers'), since dalet and resh are easily confused; that is a guess. The Hebrew fits 3:15, where the people call 'the proud' happy. The scroll's 4:1 word is restored and not cited.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "calves released from the stall",
+  "t": "Stall or bonds?",
+  "p": "The Hebrew has 'stall' (fattening pen). The Greek has 'bonds'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "כְּעֶגְלֵי מַרְבֵּק",
+    "en": "like calves of the stall",
+    "plain": "calves released from the stall"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ὡς μοσχάρια ἐκ δεσμῶν ἀνειμένα",
+    "en": "like calves loosed from bonds",
+    "plain": "calves released from their bonds"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>marbeq</i> (stall or fattening pen) is used for well-fed calves in Amos 6:4. The Greek 'loosed from bonds' is a free rendering of the same picture of freedom. The sense is the same: joy at being let out.",
+  "s": [
+   "swete-lxx",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "you will trample the wicked",
+  "t": "A different letter in the scroll",
+  "p": "The printout shows a different consonant in the verb 'trample'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "וַעֲסוֹתֶם רְשָׁעִים",
+    "en": "and you will trample the wicked",
+    "plain": "you will trample the wicked"
+   },
+   {
+    "w": "4QXIIa (4Q76), an Abegg, Bowley and Cook transcription of a Dead Sea scroll",
+    "orig": "ועוצותם רשעים",
+    "en": "(the verb is spelled with tsade where the Masoretic Text has samekh)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The printout marks the scroll's verb as differing from the Masoretic Text by a consonant, not only by a vowel letter. The two sibilants can interchange in spelling, and the sense 'trample' or 'crush' is probably the same, but I cannot tell from a transcription whether the scribe meant another verb. The Greek has 'trample' (<i>katapatesete</i>), like the Hebrew.",
+  "b": "Other differences the printout marks in 4QXIIa are spelling-level or tiny: 2:13 <i>me'on</i> for <i>me'ayin</i>; 2:17 <i>'osey</i> for <i>'oseh</i>; 3:10 <i>bzwt</i> for <i>bzt</i>, and an added object marker before 'the blessing'. None changes the sense.",
+  "s": [
+   "abegg-bowley-cook-dss",
+   "djd15-prophets",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:4",
+  "a": "Remember the law of Moses my servant. At Horeb I gave him commands for all Israel, rules and rulings.",
+  "t": "Where does Moses stand? (goes with 4:6)",
+  "p": "In the Hebrew the call to remember Moses comes first. In the Greek it comes last. This entry and the one on 4:6 go together.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "זִכְרוּ תּוֹרַת מֹשֶׁה עַבְדִּי",
+    "en": "remember the law of Moses my servant",
+    "plain": "Remember the law of Moses my servant. At Horeb I gave him commands for all Israel, rules and rulings."
+   },
+   {
+    "w": "Septuagint (Swete's text), where this verse comes last, after the Elijah verses",
+    "orig": "μνήσθητε νόμου Μωσῆ τοῦ δούλου μου",
+    "en": "remember the law of Moses my servant (as the last verse of the book)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew order puts Moses first, then Elijah and the final threat. The Greek order ends the book on Moses, so the last words are 'rules and rulings' and not 'ban'. Which order is older is uncertain; the Hebrew order is the order of the Masoretic Text and the medieval Hebrew manuscripts, and gives the book its stern ending, which Jewish reading practice later softened by repeating 4:5.",
+  "b": "The printout lists the scroll's text verse by verse, so it cannot show the order of the verses on the leather; the scroll is not cited for either order.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "Elijah the prophet",
+  "t": "Elijah the prophet, or the Tishbite?",
+  "p": "The Greek adds a name: Elijah the Tishbite, the title of 1 Kings 17:1.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76), which spells the name with a final waw (אליהו)",
+    "orig": "אֵלִיָּה הַנָּבִיא",
+    "en": "Elijah the prophet",
+    "plain": "Elijah the prophet"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "Ἠλίαν τὸν Θεσβίτην",
+    "en": "Elijah the Tishbite",
+    "plain": "Elijah the Tishbite"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew has the shorter and more general title; the Greek supplied the full name from 1 Kings 17:1. The scroll's longer spelling of the name is a spelling difference only.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "djd15-prophets"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "the great and awesome day",
+  "t": "'Awesome' or 'manifest'?",
+  "p": "The Hebrew has 'awesome'. The Greek has a word meaning 'manifest' or 'notable'.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex)",
+    "orig": "הַגָּדוֹל וְהַנּוֹרָא",
+    "en": "the great and awesome",
+    "plain": "the great and awesome day"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "τὴν μεγάλην καὶ ἐπιφανῆ",
+    "en": "the great and manifest",
+    "plain": "the great and notable day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew <i>nora'</i> is the word of Joel 2:31, and the Greek Malachi has the same word as the Greek Joel as Acts 2:20 quotes it (<i>epiphane</i>). The Greek may have been influenced by that verse, or the translator may have softened 'awesome'; the Hebrew is the likelier original. The scroll's word is restored and not cited.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "and the hearts of sons back to their fathers",
+  "t": "Sons to fathers, or a person to his neighbor?",
+  "p": "The Greek has the heart of a person turned to his neighbor, in place of the sons turned to their fathers.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76), partly restored",
+    "orig": "וְלֵב בָּנִים עַל־אֲבוֹתָם",
+    "en": "and the heart of sons to their fathers",
+    "plain": "and the hearts of sons back to their fathers"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "καὶ καρδίαν ἀνθρώπου πρὸς τὸν πλησίον αὐτοῦ",
+    "en": "and the heart of a person to his neighbor",
+    "plain": "and the heart of a person back to his neighbor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Hebrew phrase is the same in all Hebrew witnesses. The Greek broadens it, perhaps to make the turning a matter of every kind of neighbor and not only the family; the sense of 'sons' in the Hebrew is the likely original.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "Otherwise I will come and strike the land and put it under the ban.",
+  "t": "The last verse and the Greek order (goes with 4:4)",
+  "p": "The Greek adds the verse on Moses after this one, so the book ends on the law and not on the threat. This entry goes with the one on 4:4.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76), partly restored",
+    "orig": "פֶּן־אָבוֹא וְהִכֵּיתִי אֶת־הָאָרֶץ חֵרֶם",
+    "en": "lest I come and strike the land with a ban",
+    "plain": "Otherwise I will come and strike the land and put it under the ban."
+   },
+   {
+    "w": "Septuagint (Swete's text), where the verse on Moses follows",
+    "orig": "μὴ ἔλθω καὶ πατάξω τὴν γῆν ἄρδην· μνήσθητε νόμου Μωσῆ",
+    "en": "lest I come and strike the land utterly. Remember the law of Moses...",
+    "plain": "Otherwise I will come and strike the land and put it under the ban. Remember the law of Moses my servant. At Horeb I gave him commands for all Israel, rules and rulings."
+   }
+  ],
+  "follow": 0,
+  "why": "See 4:4. The Greek 'utterly' (<i>ardēn</i>) renders the Hebrew <i>cherem</i>. The Hebrew order ends the book on the threat, a fact that explains why the Jewish reading practice repeats 4:5.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "He will turn the hearts of fathers back to their sons",
+  "t": "'Turn' or 'restore'?",
+  "p": "The Greek verb is 'will restore', and the first noun is singular: the heart of a father to a son.",
+  "readings": [
+   {
+    "w": "Masoretic Text (Leningrad Codex); 4QXIIa (4Q76), partly restored",
+    "orig": "וְהֵשִׁיב לֵב־אָבוֹת עַל־בָּנִים",
+    "en": "and he will turn back the heart of fathers to sons",
+    "plain": "He will turn the hearts of fathers back to their sons"
+   },
+   {
+    "w": "Septuagint (Swete's text)",
+    "orig": "ὃς ἀποκαταστήσει καρδίαν πατρὸς πρὸς υἱόν",
+    "en": "who will restore the heart of a father to a son",
+    "plain": "He will restore the heart of a father to a son"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek verb <i>apokatastesei</i> is the verb of Matthew 17:11, where Jesus says that Elijah 'will restore all things', so the Greek Malachi is part of the background of that saying. Sirach 48:10 says that Elijah will 'restore the tribes of Jacob' (with a related verb), and Luke 1:17 follows the Hebrew 'turn' (<i>epistrepsai</i>) with plural hearts, not the Greek's singular 'restore'. The Hebrew <i>heshiv</i> can also mean 'restore', so the Greek is a fair rendering; the Plain keeps 'turn' for the Hebrew and the note on 4:6 carries the double meaning. The next entry (a person to his neighbor) is the other Greek difference in this verse.",
+  "s": [
+   "swete-lxx",
+   "abegg-bowley-cook-dss",
+   "tov-tchb",
+   "hill-malachi"
+  ]
+ }
+]

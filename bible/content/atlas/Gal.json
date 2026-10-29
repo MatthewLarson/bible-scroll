@@ -1,0 +1,182 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "galatia",
+    "arabia",
+    "damascus",
+    "jerusalem",
+    "cilicia",
+    "syria",
+    "judea"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "simon",
+    "james-3"
+   ],
+   "events": [
+    "paul-writes-galatians"
+   ]
+  },
+  "2": {
+   "places": [
+    "jerusalem",
+    "antioch-syria"
+   ],
+   "people": [
+    "barnabas",
+    "titus-4",
+    "jesus-2",
+    "god",
+    "simon",
+    "james-3",
+    "john-23"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "holy-spirit",
+    "abraham",
+    "god"
+   ],
+   "events": [
+    "sojourn-in-canaan-and-egypt"
+   ]
+  },
+  "4": {
+   "places": [
+    "mount-sinai",
+    "arabia",
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit",
+    "abraham",
+    "hagar",
+    "isaac"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "paul",
+    "holy-spirit",
+    "god"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god",
+    "holy-spirit"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "galatia": {
+   "name": "Galatia",
+   "lat": 37.5,
+   "lon": 32.5
+  },
+  "arabia": {
+   "name": "Arabia",
+   "lat": 27.4,
+   "lon": 37.7
+  },
+  "damascus": {
+   "name": "Damascus",
+   "lat": 33.511612,
+   "lon": 36.309102
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "cilicia": {
+   "name": "Cilicia",
+   "lat": 36.91802695356275,
+   "lon": 34.89153398422567
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "judea": {
+   "name": "Judea",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "antioch-syria": {
+   "name": "Antioch (Syria)",
+   "lat": 36.200663,
+   "lon": 36.165318
+  },
+  "mount-sinai": {
+   "name": "Mount Sinai",
+   "lat": 28.58771,
+   "lon": 33.921682
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "simon": {
+   "name": "Simon"
+  },
+  "james-3": {
+   "name": "James"
+  },
+  "barnabas": {
+   "name": "Barnabas"
+  },
+  "titus-4": {
+   "name": "Titus"
+  },
+  "john-23": {
+   "name": "John"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "abraham": {
+   "name": "Abraham"
+  },
+  "hagar": {
+   "name": "Hagar"
+  },
+  "isaac": {
+   "name": "Isaac"
+  }
+ },
+ "events": {
+  "paul-writes-galatians": {
+   "name": "Paul Writes Galatians"
+  },
+  "sojourn-in-canaan-and-egypt": {
+   "name": "Sojourn in Canaan and Egypt",
+   "date": -1920
+  }
+ }
+}

@@ -1,0 +1,533 @@
+[
+ {
+  "v": "1:14",
+  "a": "I give thanks that",
+  "t": "\"I thank God\" or just \"I give thanks\"",
+  "p": "The Byzantine text names God as the one thanked.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT, Westcott-Hort",
+    "orig": "εὐχαριστῶ ὅτι",
+    "en": "I give thanks that",
+    "plain": "I give thanks that"
+   },
+   {
+    "w": "NA28, Tregelles, Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV)",
+    "orig": "εὐχαριστῶ τῷ θεῷ ὅτι",
+    "en": "I thank God that",
+    "plain": "I thank God that"
+   }
+  ],
+  "follow": 0,
+  "why": "This entry names only the editions. The SBL, Tyndale House and Westcott-Hort texts omit \"to God\"; NA28, Tregelles, the Byzantine text and the Textus Receptus have it. The longer wording is the usual opening of such sentences in Paul (1:4), so a scribe could easily have added it. The meaning is the same.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "you were baptized",
+  "t": "\"You were baptized\" or \"I baptized\"",
+  "p": "The oldest text and the Byzantine text differ by one letter-group.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort; Codex Vaticanus and the first hand of Codex Sinaiticus",
+    "orig": "ἐβαπτίσθητε",
+    "en": "you were baptized",
+    "plain": "you were baptized"
+   },
+   {
+    "w": "Byzantine majority text, Textus Receptus (KJV: \"I had baptized\"); also Alexandrinus and Ephraemi",
+    "orig": "ἐβάπτισα",
+    "en": "I baptized",
+    "plain": "I baptized"
+   }
+  ],
+  "follow": 0,
+  "why": "\"You were baptized into my name\" is the reading of the editions used here. \"I baptized in my own name\" looks like a smoothing: it repeats the verb of 1:14. The first reading also gives the stronger line: the Corinthians were baptized into Christ, not into Paul. The two readings differ little in sense.",
+  "b": "<p>The KJV follows the second reading: \"Lest any should say that I had baptized in mine own name.\" The Greek is a single word either way.</p>",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:20",
+  "a": "the wisdom of the world",
+  "t": "\"Of the world\" or \"of this world\"",
+  "p": "The Byzantine text adds \"this\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "τοῦ κόσμου",
+    "en": "of the world",
+    "plain": "the wisdom of the world"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV)",
+    "orig": "τοῦ κόσμου τούτου",
+    "en": "of this world",
+    "plain": "the wisdom of this world"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the wide support of the editions, and the longer matches 3:19 (\"the wisdom of this world\"), which suggests a scribe added the word to match.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:22",
+  "a": "signs",
+  "t": "\"Signs\" or \"a sign\"",
+  "p": "A one-letter difference changes plural to singular.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "σημεῖα",
+    "en": "signs",
+    "plain": "signs"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV)",
+    "orig": "σημεῖον",
+    "en": "a sign",
+    "plain": "a sign"
+   }
+  ],
+  "follow": 0,
+  "why": "The plural has the support of the editions and fits Jewish requests for repeated proofs (Mark 8:11; John 4:48). The singular could echo Matthew 12:38.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:23",
+  "a": "Gentiles",
+  "t": "\"Gentiles\" or \"Greeks\"",
+  "p": "The KJV reads \"Greeks\" here.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ἔθνεσιν",
+    "en": "to Gentiles",
+    "plain": "Gentiles"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"unto the Greeks\")",
+    "orig": "Ἕλλησιν",
+    "en": "to Greeks",
+    "plain": "Greeks"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Greeks\" repeats the word of 1:22 and is the easier reading, a scribe's matching. \"Gentiles\" is the harder, since \"Jews and Gentiles\" is the pair Paul uses elsewhere. The meaning is nearly the same.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:28",
+  "a": "the things that are not",
+  "t": "\"The things that are not\" or \"and the things that are not\"",
+  "p": "Some texts add \"and\" before the last group.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Tregelles",
+    "orig": "τὰ μὴ ὄντα",
+    "en": "the things that are not",
+    "plain": "the things that are not"
+   },
+   {
+    "w": "Westcott-Hort, Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV: \"and things which are not\")",
+    "orig": "καὶ τὰ μὴ ὄντα",
+    "en": "and the things that are not",
+    "plain": "and the things that are not"
+   }
+  ],
+  "follow": 0,
+  "why": "The word list shows \"and\" (kai) in Westcott-Hort, the Byzantine text and the Textus Receptus, and not in SBL, NA28, Tyndale House or Tregelles. The sense is the same. The Plain follows the shorter form.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "1:29",
+  "a": "before God",
+  "t": "\"Before God\" or \"in his presence\"",
+  "p": "The Textus Receptus has \"him\" where the others have \"God\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Byzantine majority text",
+    "orig": "ἐνώπιον τοῦ θεοῦ",
+    "en": "before God",
+    "plain": "before God"
+   },
+   {
+    "w": "Textus Receptus (KJV: \"in his presence\")",
+    "orig": "ἐνώπιον αὐτοῦ",
+    "en": "before him",
+    "plain": "before him"
+   }
+  ],
+  "follow": 0,
+  "why": "\"God\" is read by the Greek editions, including the Byzantine text. \"Him\" is found only in the Textus Receptus, and it reads as an easier, smoother line.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "testimony of God",
+  "t": "\"Testimony\" or \"mystery\" of God",
+  "p": "One Greek letter-group separates the two words.",
+  "readings": [
+   {
+    "w": "SBLGNT, Tyndale House GNT, Tregelles; Byzantine majority text, Textus Receptus (KJV: \"the testimony of God\")",
+    "orig": "μαρτύριον",
+    "en": "testimony",
+    "plain": "testimony of God"
+   },
+   {
+    "w": "NA28, Westcott-Hort; Papyrus 46 (about AD 200), the first hand of Sinaiticus, Alexandrinus and Ephraemi",
+    "orig": "μυστήριον",
+    "en": "mystery",
+    "plain": "mystery of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the SBL here. \"Mystery\" is attractive, because it matches the word at 2:7 and 4:1, but for that reason a scribe could have written it by habit. \"Testimony\" fits 1:6, \"the testimony about Christ\". The modern editions divide: NA28 and Westcott-Hort print \"mystery\"; SBL and Tyndale House print \"testimony\".",
+  "b": "<p>The two Greek words look alike (<i>martyrion</i>, <i>mysterion</i>). Either way Paul says he did not announce God's message with clever speech. If \"mystery\" is right, he is already naming the hidden plan he explains in 2:6-10.</p>",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "persuasive wisdom",
+  "t": "\"Persuasive wisdom\", \"persuasive words of wisdom\" or \"persuasive words of human wisdom\"",
+  "p": "Three forms of the phrase are printed. The KJV reads \"enticing words of man's wisdom\".",
+  "readings": [
+   {
+    "w": "SBLGNT (the only edition listed here that omits \"words\")",
+    "orig": "πειθοῖ σοφίας",
+    "en": "persuasion of wisdom",
+    "plain": "persuasive wisdom"
+   },
+   {
+    "w": "NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "πειθοῖς σοφίας λόγοις",
+    "en": "persuasive words of wisdom",
+    "plain": "persuasive words of wisdom"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV: \"enticing words of man's wisdom\")",
+    "orig": "πειθοῖς ἀνθρωπίνης σοφίας λόγοις",
+    "en": "persuasive words of human wisdom",
+    "plain": "persuasive words of human wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The word list shows \"words\" (logois) in NA28, Tyndale House, Westcott-Hort, Tregelles, the Textus Receptus and the Byzantine text, and only the SBL text omits it. \"Human\" (anthropines) is found only in the Byzantine text and the Textus Receptus, and may be a scribe's addition that matches the \"human wisdom\" of 2:13. The sense is the same in all three: Paul's message did not rest on clever persuasion. The Plain follows the SBL text and says it in the shortest way.",
+  "b": "<p>The SBL text reads a noun, <i>peithoi</i> (\"persuasion\"); the other forms read an adjective, <i>peithois</i> (\"persuasive\"), with \"words\". The two differ by a single letter, which is part of why editors disagree.</p>",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:10",
+  "a": "God revealed these things to us through the Spirit",
+  "t": "\"Through the Spirit\" or \"through his Spirit\"",
+  "p": "The KJV reads \"by his Spirit\" and \"But\".",
+  "readings": [
+   {
+    "w": "SBLGNT: \"for ... through the Spirit\" (γάρ); NA28 and Tyndale House GNT: \"but ... through the Spirit\" (δέ)",
+    "orig": "διὰ τοῦ πνεύματος",
+    "en": "through the Spirit",
+    "plain": "God revealed these things to us through the Spirit"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"But God hath revealed them unto us by his Spirit\")",
+    "orig": "διὰ τοῦ πνεύματος αὐτοῦ",
+    "en": "through his Spirit",
+    "plain": "God revealed these things to us through his Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions without \"his\" are shorter, and \"his\" reads like a clarifying addition. There is also a small split between \"for\" (SBL) and \"but\" (NA28); the Plain leaves out the joining word and keeps the sense.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "words taught by the Spirit",
+  "t": "\"The Spirit\" or \"the Holy Spirit\"",
+  "p": "The Byzantine text adds \"Holy\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "διδακτοῖς πνεύματος",
+    "en": "taught by the Spirit",
+    "plain": "words taught by the Spirit"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"which the Holy Ghost teacheth\")",
+    "orig": "διδακτοῖς πνεύματος ἁγίου",
+    "en": "taught by the Holy Spirit",
+    "plain": "words taught by the Holy Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Holy\" is a common addition; the shorter reading is widely attested and Paul's usual way of saying it in this passage (2:10-14).",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "people made of flesh",
+  "t": "\"Made of flesh\" or \"fleshly\"",
+  "p": "Two Greek words, <i>sarkinos</i> and <i>sarkikos</i>, look almost the same.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "σαρκίνοις",
+    "en": "made of flesh",
+    "plain": "people made of flesh"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"carnal\")",
+    "orig": "σαρκικοῖς",
+    "en": "fleshly",
+    "plain": "fleshly people"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Sarkinos</i> is the harder reading, since it is the rarer word, and <i>sarkikos</i> is the word of 3:3, which a scribe may have copied back. Strictly, <i>-inos</i> means \"made of\" and <i>-ikos</i> means \"given to\", but Paul may not keep the difference strictly (Fee), while Thiselton thinks he does.",
+  "b": "<p>The same pair appears in Romans 7:14 in the site's Plain: \"made of flesh\" (<i>sarkinos</i>).</p>",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "jealousy and strife",
+  "t": "\"Strife\" or \"strife and divisions\"",
+  "p": "The KJV has a third item, \"divisions\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort; Papyrus 46 (about AD 200), Sinaiticus (first hand), Alexandrinus, Vaticanus and Ephraemi",
+    "orig": "ζῆλος καὶ ἔρις",
+    "en": "jealousy and strife",
+    "plain": "jealousy and strife"
+   },
+   {
+    "w": "Byzantine majority text, Textus Receptus (KJV: \"envying, and strife, and divisions\"); Claromontanus (06) and the second hand of Sinaiticus",
+    "orig": "ζῆλος καὶ ἔρις καὶ διχοστασίαι",
+    "en": "jealousy and strife and dissensions",
+    "plain": "jealousy and strife and dissensions"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter reading has the older and more varied support. \"Dissensions\" (<i>dichostasiai</i>) matches the list in Galatians 5:20, which suggests a scribe added it.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "are you not merely human?",
+  "t": "\"Merely human\" or \"fleshly\"",
+  "p": "The KJV reads \"are ye not carnal?\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "οὐκ ἄνθρωποί ἐστε",
+    "en": "are you not merely human",
+    "plain": "are you not merely human?"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"are ye not carnal?\")",
+    "orig": "οὐχὶ σαρκικοί ἐστε",
+    "en": "are you not fleshly",
+    "plain": "are you not fleshly?"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Fleshly\" repeats the word of 3:3 and so looks like a scribe's echo. \"Merely human\" is less expected and fits Paul's contrast between human and divine.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "What then is Apollos? And what is Paul?",
+  "t": "Whose name first, and \"what\" or \"who\"?",
+  "p": "The KJV reads \"Who then is Paul, and who is Apollos?\"",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "Τί οὖν ἐστιν Ἀπολλῶς; τί δέ ἐστιν Παῦλος;",
+    "en": "What then is Apollos? And what is Paul?",
+    "plain": "What then is Apollos? And what is Paul?"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV)",
+    "orig": "Τίς οὖν ἐστιν Παῦλος, τίς δὲ Ἀπολλώς, ἀλλ᾽ ἢ διάκονοι",
+    "en": "Who then is Paul, and who is Apollos, but servants",
+    "plain": "Who then is Paul? And who is Apollos?"
+   }
+  ],
+  "follow": 0,
+  "why": "The editions agree on \"what\" (the neuter), which asks about their role. The Byzantine text puts Paul first and uses \"who\", a smoother, more natural order. It is a case where the reading with Apollos first is the harder.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "the fire itself will test",
+  "t": "\"The fire itself\" or just \"the fire\"",
+  "p": "A small word, <i>auto</i>, is missing from the Byzantine text.",
+  "readings": [
+   {
+    "w": "SBLGNT (NA28 brackets \"itself\")",
+    "orig": "τὸ πῦρ αὐτὸ δοκιμάσει",
+    "en": "the fire itself will test",
+    "plain": "the fire itself will test"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"the fire shall try\")",
+    "orig": "τὸ πῦρ δοκιμάσει",
+    "en": "the fire will test",
+    "plain": "the fire will test"
+   }
+  ],
+  "follow": 0,
+  "why": "The longer wording is the one in the SBL; NA28 is unsure and brackets it. The meaning is almost the same, with \"itself\" putting stress on the fire as the test.",
+  "s": [
+   "metzger",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "Here, moreover",
+  "t": "\"Here, moreover\" or \"moreover\"",
+  "p": "The Byzantine text has a different pair of small words.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort, Tregelles",
+    "orig": "ὧδε λοιπὸν",
+    "en": "here, moreover",
+    "plain": "Here, moreover"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV: \"Moreover it is required in stewards\")",
+    "orig": "ὃ δὲ λοιπόν",
+    "en": "and as for what is left",
+    "plain": "Moreover"
+   }
+  ],
+  "follow": 0,
+  "why": "The word list shows \"here\" (hode) in the critical editions and \"and what\" (ho de) in the Byzantine text and the Textus Receptus. The Plain follows the first and keeps \"here\", in the sense \"in this matter\". The KJV does not translate it. The meaning of the verse is not changed.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "4:6",
+  "a": "Not beyond what is written",
+  "t": "\"Not beyond what is written\" or \"not to think beyond\"",
+  "p": "The Byzantine text adds a verb.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "τό· Μὴ ὑπὲρ ἃ γέγραπται",
+    "en": "the saying \"Not beyond what is written\"",
+    "plain": "Not beyond what is written"
+   },
+   {
+    "w": "Byzantine majority text (Robinson-Pierpont), Textus Receptus (the Greek behind the KJV) (KJV: \"not to think of men above that which is written\")",
+    "orig": "τὸ μὴ ὑπὲρ ὃ γέγραπται φρονεῖν",
+    "en": "not to think beyond what is written",
+    "plain": "not to think beyond what is written"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text has no verb and is more puzzling, so scribes probably added \"to think\" (<i>phronein</i>) to make a sentence. Many scholars still suspect the shorter text is itself damaged (Strugnell proposed that the whole phrase was a marginal note).",
+  "s": [
+   "metzger",
+   "nestle-aland-28",
+   "strugnell-conjectural-emendation"
+  ]
+ },
+ {
+  "v": "4:13",
+  "a": "slandered",
+  "t": "\"Slandered\" or \"defamed\" (a different Greek word)",
+  "p": "The KJV reads \"defamed\", which renders the other reading.",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Tyndale House GNT, Westcott-Hort",
+    "orig": "δυσφημούμενοι",
+    "en": "being slandered",
+    "plain": "slandered"
+   },
+   {
+    "w": "Tregelles, Byzantine majority text (Robinson-Pierpont), Textus Receptus (KJV: \"Being defamed\")",
+    "orig": "βλασφημούμενοι",
+    "en": "being reviled",
+    "plain": "reviled"
+   }
+  ],
+  "follow": 0,
+  "why": "Two near-synonyms: one for speaking ill of someone (dysphemeo), one for abusive speech (blasphemeo). The editions divide as the word list shows. The sense is the same.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "my ways in Christ Jesus",
+  "t": "\"In Christ Jesus\" or \"in Christ\"",
+  "p": "Some texts leave out \"Jesus\".",
+  "readings": [
+   {
+    "w": "SBLGNT, NA28, Westcott-Hort",
+    "orig": "ἐν Χριστῷ Ἰησοῦ",
+    "en": "my ways in Christ Jesus",
+    "plain": "my ways in Christ Jesus"
+   },
+   {
+    "w": "Tyndale House GNT, Tregelles, Byzantine majority text (Robinson-Pierpont), Textus Receptus",
+    "orig": "ἐν Χριστῷ",
+    "en": "my ways in Christ",
+    "plain": "my ways in Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The word list shows \"Jesus\" in SBL, NA28 and Westcott-Hort, and not in Tyndale House, Tregelles, the Byzantine text or the Textus Receptus. The sense is the same.",
+  "s": [
+   "sblgnt",
+   "nestle-aland-28"
+  ]
+ }
+]

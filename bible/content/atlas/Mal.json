@@ -1,0 +1,108 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "edom"
+   ],
+   "people": [
+    "god",
+    "malachi",
+    "esau",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-malachi"
+   ]
+  },
+  "2": {
+   "places": [
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "levi",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-malachi"
+   ]
+  },
+  "3": {
+   "places": [
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "levi",
+    "israel"
+   ],
+   "events": [
+    "prophecies-of-malachi"
+   ]
+  },
+  "4": {
+   "places": [
+    "horeb"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "moses",
+    "elijah"
+   ],
+   "events": [
+    "prophecies-of-malachi"
+   ]
+  }
+ },
+ "places": {
+  "edom": {
+   "name": "Edom",
+   "lat": 31.25,
+   "lon": 34.75
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "horeb": {
+   "name": "Horeb",
+   "lat": 28.58771,
+   "lon": 33.921682
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "malachi": {
+   "name": "Malachi"
+  },
+  "esau": {
+   "name": "Esau"
+  },
+  "israel": {
+   "name": "Israel"
+  },
+  "levi": {
+   "name": "Levi"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "elijah": {
+   "name": "Elijah"
+  }
+ },
+ "events": {
+  "prophecies-of-malachi": {
+   "name": "Prophecies of Malachi",
+   "date": -441
+  }
+ }
+}

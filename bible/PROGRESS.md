@@ -42,12 +42,18 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Hab | reviewed, published | 2026-10-28 Habakkuk (whole book, flat folder, prophets lane): 56 verses, 79 notes, 28 variants, 18 glosses, 3 chapter pages with 8 settings cards and 3 traditio |
 | Zep | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X F; briefs tools/brief-zep.md, brief-twelve.md, brief-twelve2.md; atlas harvest pending. |
 | Hag | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F only for 2:6-9 and 2:21-23); briefs tools/brief-hag.md, brief-twelve.md, brief-twelv |
+| Zec | reviewed, published | Planned 2026-10-29: prophets lane, 2 parts (01-08 owns book.json, 09-14); lenses H C J X F; briefs tools/brief-zec.md, brief-twelve3.md; atlas harvest started. |
+| Mal | reviewed, published | Planned 2026-10-29: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-mal.md, brief-twelve3.md; atlas harvest started. |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
 | Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Jhn | reviewed, published | nt lane. 6 parts: 01-04 (owns book.json), 05-06, 07-10, 11-12, 13-17, 18-21. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-jhn.md. Part 11-12  |
 | Act | reviewed, published | nt lane, run by the lead session. 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-14, 15-17, 18-20, 21-23, 24-28. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Rom | reviewed, published | nt lane, run by the lead session. 4 parts: 01-04 (owns book.json), 05-08, 09-11, 12-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-rom.md.  |
+| 1Co | reviewed, published | Planned 2026-10-29: nt lane, 5 parts: 01-04 (owns book.json), 05-08, 09-11, 12-14, 15-16. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-1 |
+| 2Co | reviewed, published | Planned 2026-10-29: nt lane, 3 parts: 01-05 (owns book.json), 06-09, 10-13. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-2co.md. |
+| Gal | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-gal.md. |
+| Eph | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-eph.md. |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
 | Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |

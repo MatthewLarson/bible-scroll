@@ -1,0 +1,277 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "corinth"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "paul",
+    "sosthenes",
+    "chloe",
+    "apollos",
+    "simon",
+    "crispus",
+    "gaius-3",
+    "stephanas"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "apollos",
+    "paul",
+    "god",
+    "holy-spirit",
+    "simon"
+   ],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2",
+    "apollos",
+    "timotheus"
+   ],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "satan",
+    "god"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [
+    "god",
+    "holy-spirit",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [
+    "satan",
+    "god",
+    "jesus-2",
+    "holy-spirit"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "simon",
+    "barnabas",
+    "god",
+    "moses"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [
+    "moses",
+    "jesus-2",
+    "god"
+   ],
+   "events": []
+  },
+  "11": {
+   "places": [],
+   "people": [
+    "jesus-2",
+    "god"
+   ],
+   "events": []
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "god",
+    "holy-spirit",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "14": {
+   "places": [],
+   "people": [
+    "god",
+    "jesus-2"
+   ],
+   "events": []
+  },
+  "15": {
+   "places": [
+    "ephesus"
+   ],
+   "people": [
+    "jesus-2",
+    "simon",
+    "james-3",
+    "god",
+    "adam"
+   ],
+   "events": []
+  },
+  "16": {
+   "places": [
+    "galatia",
+    "jerusalem",
+    "macedonia",
+    "ephesus",
+    "achaia",
+    "asia"
+   ],
+   "people": [
+    "jesus-2",
+    "timotheus",
+    "apollos",
+    "stephanas",
+    "achaicus",
+    "fortunatus",
+    "aquila",
+    "priscilla",
+    "paul"
+   ],
+   "events": []
+  }
+ },
+ "places": {
+  "corinth": {
+   "name": "Corinth",
+   "lat": 37.906045,
+   "lon": 22.878721
+  },
+  "ephesus": {
+   "name": "Ephesus",
+   "lat": 37.941944,
+   "lon": 27.339722
+  },
+  "galatia": {
+   "name": "Galatia",
+   "lat": 37.5,
+   "lon": 32.5
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "macedonia": {
+   "name": "Macedonia",
+   "lat": 40.73291797607738,
+   "lon": 22.9351994
+  },
+  "achaia": {
+   "name": "Achaia",
+   "lat": 37.5,
+   "lon": 22.5
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  }
+ },
+ "people": {
+  "god": {
+   "name": "God"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "sosthenes": {
+   "name": "Sosthenes"
+  },
+  "chloe": {
+   "name": "Chloe"
+  },
+  "apollos": {
+   "name": "Apollos"
+  },
+  "simon": {
+   "name": "Simon"
+  },
+  "crispus": {
+   "name": "Crispus"
+  },
+  "gaius-3": {
+   "name": "Gaius"
+  },
+  "stephanas": {
+   "name": "Stephanas"
+  },
+  "holy-spirit": {
+   "name": "Holy Spirit"
+  },
+  "timotheus": {
+   "name": "Timotheus"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "barnabas": {
+   "name": "Barnabas"
+  },
+  "moses": {
+   "name": "Moses"
+  },
+  "james-3": {
+   "name": "James"
+  },
+  "adam": {
+   "name": "Adam"
+  },
+  "achaicus": {
+   "name": "Achaicus"
+  },
+  "fortunatus": {
+   "name": "Fortunatus"
+  },
+  "aquila": {
+   "name": "Aquila"
+  },
+  "priscilla": {
+   "name": "Priscilla"
+  }
+ },
+ "events": {}
+}

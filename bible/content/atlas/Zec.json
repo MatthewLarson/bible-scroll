@@ -1,0 +1,476 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "jerusalem",
+    "zion"
+   ],
+   "people": [
+    "berechiah-6",
+    "darius",
+    "god",
+    "iddo-4",
+    "zechariah-14"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "2": {
+   "places": [
+    "jerusalem",
+    "babylon",
+    "zion"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "3": {
+   "places": [
+    "jerusalem"
+   ],
+   "people": [
+    "god",
+    "joshua",
+    "satan"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "4": {
+   "places": [],
+   "people": [
+    "god",
+    "zerubbabel"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "5": {
+   "places": [
+    "shinar"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "6": {
+   "places": [
+    "babylon"
+   ],
+   "people": [
+    "god",
+    "helem",
+    "jedaiah-6",
+    "josiah-2",
+    "tobijah-2",
+    "zephaniah-3",
+    "josedech",
+    "joshua",
+    "jesus-2"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "7": {
+   "places": [
+    "bethel-of-palestine",
+    "jerusalem",
+    "south"
+   ],
+   "people": [
+    "darius",
+    "god",
+    "zechariah-14",
+    "regem-melech",
+    "sherezer"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "8": {
+   "places": [
+    "zion",
+    "jerusalem"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "9": {
+   "places": [
+    "damascus",
+    "hadrach",
+    "hamath",
+    "sidon-2",
+    "tyre",
+    "ashkelon",
+    "ekron",
+    "gaza",
+    "ashdod",
+    "jerusalem",
+    "zion",
+    "river-2",
+    "greece"
+   ],
+   "people": [
+    "god",
+    "jesus-2",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "10": {
+   "places": [
+    "assyria",
+    "egypt",
+    "gilead-4",
+    "lebanon-2",
+    "nile"
+   ],
+   "people": [
+    "god",
+    "joseph",
+    "ephraim"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "11": {
+   "places": [
+    "lebanon-2",
+    "bashan",
+    "jordan"
+   ],
+   "people": [
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "12": {
+   "places": [
+    "jerusalem",
+    "hadad-rimmon",
+    "megiddo"
+   ],
+   "people": [
+    "god",
+    "david",
+    "nathan",
+    "levi",
+    "shimei-16"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "13": {
+   "places": [
+    "jerusalem"
+   ],
+   "people": [
+    "david",
+    "god"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  },
+  "14": {
+   "places": [
+    "jerusalem",
+    "mount-of-olives",
+    "mount-of-olives-2",
+    "azal",
+    "corner-gate",
+    "gate-of-benjamin",
+    "geba",
+    "rimmon-3",
+    "tower",
+    "egypt"
+   ],
+   "people": [
+    "god",
+    "uzziah",
+    "benjamin-5"
+   ],
+   "events": [
+    "prophecies-of-zechariah"
+   ]
+  }
+ },
+ "places": {
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "zion": {
+   "name": "Zion",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "babylon": {
+   "name": "Babylon",
+   "lat": 32.53617,
+   "lon": 44.42082
+  },
+  "shinar": {
+   "name": "Shinar",
+   "lat": 32.53650368616845,
+   "lon": 44.42088287373876
+  },
+  "bethel-of-palestine": {
+   "name": "Bethel (of Palestine)",
+   "lat": 31.93053921,
+   "lon": 35.22103275
+  },
+  "south": {
+   "name": "South",
+   "lat": null,
+   "lon": null
+  },
+  "damascus": {
+   "name": "Damascus",
+   "lat": 33.511612,
+   "lon": 36.309102
+  },
+  "hadrach": {
+   "name": "Hadrach",
+   "lat": 33.519299,
+   "lon": 36.31345
+  },
+  "hamath": {
+   "name": "Hamath",
+   "lat": 35.1359,
+   "lon": 36.7495
+  },
+  "sidon-2": {
+   "name": "Sidon",
+   "lat": 33.560243,
+   "lon": 35.371208
+  },
+  "tyre": {
+   "name": "Tyre",
+   "lat": 33.268071,
+   "lon": 35.209358
+  },
+  "ashkelon": {
+   "name": "Ashkelon",
+   "lat": 31.66426,
+   "lon": 34.54732
+  },
+  "ekron": {
+   "name": "Ekron",
+   "lat": 31.7776,
+   "lon": 34.85093
+  },
+  "gaza": {
+   "name": "Gaza",
+   "lat": 31.503959,
+   "lon": 34.46203
+  },
+  "ashdod": {
+   "name": "Ashdod",
+   "lat": 31.756038,
+   "lon": 34.656061
+  },
+  "river-2": {
+   "name": "River",
+   "lat": 34.74942377777777,
+   "lon": 40.93640094
+  },
+  "greece": {
+   "name": "Greece",
+   "lat": 39.04697922405934,
+   "lon": 22.97947876
+  },
+  "assyria": {
+   "name": "Assyria",
+   "lat": 36.50969,
+   "lon": 43.2282
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "gilead-4": {
+   "name": "Gilead",
+   "lat": 32.75,
+   "lon": 35.75
+  },
+  "lebanon-2": {
+   "name": "Lebanon",
+   "lat": 33.9215361440169,
+   "lon": 35.89897373
+  },
+  "nile": {
+   "name": "Nile",
+   "lat": 19.211408766666665,
+   "lon": 30.56732963
+  },
+  "bashan": {
+   "name": "Bashan",
+   "lat": 32.80007552505443,
+   "lon": 35.93730130476259
+  },
+  "jordan": {
+   "name": "Jordan",
+   "lat": 33.1864496,
+   "lon": 35.6191595
+  },
+  "hadad-rimmon": {
+   "name": "Hadad-rimmon",
+   "lat": 32.524106,
+   "lon": 35.205136
+  },
+  "megiddo": {
+   "name": "Megiddo",
+   "lat": 32.58505,
+   "lon": 35.18452
+  },
+  "mount-of-olives": {
+   "name": "Mount of Olives",
+   "lat": 31.77809503,
+   "lon": 35.24719761
+  },
+  "mount-of-olives-2": {
+   "name": "Mount of Olives",
+   "lat": 31.77809503,
+   "lon": 35.24719761
+  },
+  "azal": {
+   "name": "Azal",
+   "lat": 31.77809503341373,
+   "lon": 35.2471976093501
+  },
+  "corner-gate": {
+   "name": "Corner Gate",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "gate-of-benjamin": {
+   "name": "Gate of Benjamin",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "geba": {
+   "name": "Geba",
+   "lat": 31.85787804,
+   "lon": 35.25975522
+  },
+  "rimmon-3": {
+   "name": "Rimmon",
+   "lat": 34.353071,
+   "lon": 36.385705
+  },
+  "tower": {
+   "name": "Tower",
+   "lat": 31.777444,
+   "lon": 35.234935
+  }
+ },
+ "people": {
+  "berechiah-6": {
+   "name": "Berechiah"
+  },
+  "darius": {
+   "name": "Darius"
+  },
+  "god": {
+   "name": "God"
+  },
+  "iddo-4": {
+   "name": "Iddo"
+  },
+  "zechariah-14": {
+   "name": "Zechariah"
+  },
+  "joshua": {
+   "name": "Joshua"
+  },
+  "satan": {
+   "name": "Satan"
+  },
+  "zerubbabel": {
+   "name": "Zerubbabel"
+  },
+  "helem": {
+   "name": "Helem"
+  },
+  "jedaiah-6": {
+   "name": "Jedaiah"
+  },
+  "josiah-2": {
+   "name": "Josiah"
+  },
+  "tobijah-2": {
+   "name": "Tobijah"
+  },
+  "zephaniah-3": {
+   "name": "Zephaniah"
+  },
+  "josedech": {
+   "name": "Josedech"
+  },
+  "jesus-2": {
+   "name": "Jesus"
+  },
+  "regem-melech": {
+   "name": "Regem-melech"
+  },
+  "sherezer": {
+   "name": "Sherezer"
+  },
+  "ephraim": {
+   "name": "Ephraim"
+  },
+  "joseph": {
+   "name": "Joseph"
+  },
+  "david": {
+   "name": "David"
+  },
+  "nathan": {
+   "name": "Nathan"
+  },
+  "levi": {
+   "name": "Levi"
+  },
+  "shimei-16": {
+   "name": "Shimei"
+  },
+  "uzziah": {
+   "name": "Uzziah"
+  },
+  "benjamin-5": {
+   "name": "Benjamin"
+  }
+ },
+ "events": {
+  "prophecies-of-zechariah": {
+   "name": "Prophecies of Zechariah",
+   "date": -519
+  }
+ }
+}
