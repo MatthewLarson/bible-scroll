@@ -224,3 +224,14 @@ Second round, applied under STYLE.md rule 2. Findings 1 to 5 of the Verification
 3. Chapter 10 card 2 now has Catholic (Council of Florence 1442, "since the cause ... has ceased, so its effect has ceased", as quoted on the Wikipedia Council of Jerusalem page), Orthodox (Council in Trullo canon 67, text on newadvent.org, Orthodox recognition per Wikipedia), and a Messianic Jewish view cut to what David Wilber's page states, with a new key. The unsourced claim about 10:25-27 being addressed to Gentiles was removed.
 4. Scholar attributions reworded to what pages state; see the log.
 5. The log now lists scholar positions confirmed and not confirmed.
+
+## Card restoration (2026-10-29)
+
+Following `tools/agent-restore-cards.md`. 5 views added (Methodist x3, Anglican x2), 5 extended (Orthodox 9:5; Reformed on 10:16, 11:2-16, 11:3 and 11:27). Each restored view cites a page opened in this session; the URLs are in `.scratch/1Co-09-11-verify/sources-checked.md` ("Card restoration"). No card was re-created: none had been turned into a note sentence.
+
+Views still missing: Lutheran and Anglican on the 11:2-16 head-covering card (no formulary or document found that addresses it); Methodist on 11:3 (Wesley's note does not address the question).
+
+`VERBOSE=1 node tools/build.js --check 1Co/09-11`: 0 errors, 0 warnings in this part.
+
+
+Second card pass (unkeyed views): 16 views newly sourced from opened pages (Orthodox x5 from the OCA adult manual and Q&A; Methodist 9:27; Catholic, Orthodox, Lutheran, Anabaptist, Baptist, Evangelical and Pentecostal on head covering from Wikipedia, Christian head covering; Methodist and Pentecostal on 11:3; Anabaptist on 11:27-29), 2 views removed (Anglican and Oneness Pentecostal on head covering: no opened page states them). Details in `.scratch/1Co-09-11-verify/sources-checked.md`, "Unkeyed views".

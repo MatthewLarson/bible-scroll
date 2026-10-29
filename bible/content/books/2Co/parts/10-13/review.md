@@ -216,3 +216,7 @@ Findings handled: the surviving Metzger sentence at 12:1 (removed); the four com
 Second-round attributions: verified and kept: Thrall (separate letter), Hausrath, Georgi, Sumney, Forbes, Judge (title), Segal, Morray-Jones, Ramsay, Hengel and Schwemer, Fitzgerald (rewritten, no "Stoic"), Hock. Names removed: Harris, Garland, Barnett, Winter, Marshall, Betz, Himmelfarb, Fredriksen, Murphy-O'Connor (views kept unnamed). Dates: letter "AD 55-56", "AD 41-42", "AD 33-34" and "winter 56-57" were not supported by any opened page (sources give 57 and a conversion between 34 and 36) and became "the 50s AD", "the early AD 40s" and "the mid-30s"; Aretas now "after AD 37, before his death about AD 40"; Didache "first or second century"; Justin about AD 155-157.
 
 Counts: verified 17, corrected 13, removed 17 (9 names, 6 source keys, Metzger sentence, two source dates). Log: .scratch/2Co-10-13-verify/sources-checked.md. Check 0 errors, 0 warnings.
+
+## Card restoration (2026-10-29)
+Views restored (2): the Orthodox third-heaven view now carries the essence-energies teaching; the Pentecostal signs-and-apostles row now states the Assemblies of God position on apostolic function. Cards re-created: none.
+Views still missing: the Palamas claim that no one sees God's essence, stated as Paul's case (no page opened ties it to Paul or states it); any further third-heaven views (nothing opened).

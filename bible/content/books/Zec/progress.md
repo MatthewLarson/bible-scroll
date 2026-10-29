@@ -11,3 +11,4 @@ Verification pass 2026-10-29 (parts/09-14): 38 verified, 11 corrected, 22 remove
 Verification pass 2026-10-29 (parts/01-08 and book.json): checked against opened sources, unverifiable details removed, --check Zec/01-08 at 0/0; log in .scratch/Zec-01-08-verify/.
 Verification second round 2026-10-29 (parts/01-08 and book.json): commentary keys and unverified scholar attributions removed, dates made exact only where a page gave them, two traditions cards made into notes; --check Zec/01-08 at 0/0.
 - 2026-10-29 verification second round on 09-14: unopened commentary keys removed from entries, dates and scholar names checked (see parts/09-14/review.md).
+Card restoration (2026-10-29): Zec ch 6 and ch 8 cards re-created, Matthew 27:9 Evangelical view added; Messianic Jewish 12:10 and 6:13 still missing.

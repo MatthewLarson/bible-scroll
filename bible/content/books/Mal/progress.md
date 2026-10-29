@@ -11,3 +11,4 @@ Hostile review, fixes and atlas review done 2026-10-29; quote sync across other 
 Verification pass 2026-10-29: details checked against opened sources or removed (33 corrected, 22 removed, 181 source keys dropped); check at 0 errors, 0 warnings. Log in .scratch/Mal-flat-verify/sources-checked.md.
 
 Verification fixes 2026-10-29 (second round): Edom, Fuller, tithe and Elijah cards, named scholars and dates brought to rule 2; check at 0 errors, 0 warnings.
+Card restoration pass 2026-10-29: tithe (Reformed, Pentecostal), pure offering (Orthodox) and Elijah (Orthodox) views restored.

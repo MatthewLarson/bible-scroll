@@ -12,3 +12,4 @@ Hostile review, fixes and atlas review done 2026-10-29; quote sync across other 
 - 01-03: verification pass 2026-10-29 (agent-verify): hedges and unverifiable details removed or checked, 3 variant cards deleted, traditions-card citations checked against opened texts; log in .scratch/Eph-01-03-verify/sources-checked.md. Check: 0 errors, 0 warnings in this part.
 - 04-06 verification second round 2026-10-29: Verification check findings applied (dates, NA28 bracket claims, card rows, named-scholar attributions, commentary keys); log in .scratch/Eph-04-06-verify/sources-checked.md. Check: 0 errors, 0 warnings in this part.
 - 01-03: verification second round 2026-10-29 (names, dates, card rows, NA28 consistency); log in .scratch/Eph-01-03-verify/. Check: 0 errors, 0 warnings in this part.
+Card restoration 2026-10-29: views restored, see review.md.

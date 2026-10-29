@@ -159,3 +159,14 @@ All five findings handled; log in `.scratch/1Co-15-16-verify/sources-checked.md`
 4. Card 5 now has an Orthodox view from an opened Serbian Orthodox parish page plus the Nicene Creed.
 5. Scholar attributions (about 40): verified and kept: Wright, Engberg-Pedersen, Ladd, Hurtado, Talbott, Balthasar (plus Gundry, Habermas, Lapide from the first round); Dale Martin kept only as sharing the Stoic-pneuma reading with Engberg-Pedersen. Names removed, view kept as "some scholars": Fee, Thiselton and Wright (15:12), Mitchell, Weiss, Schmithals, Licona, Georgi, Downs, Munck, Nickle, Lüdemann, Martin at 15:50. Commentary keys (Fee, Thiselton, Garland) are off every entry. Counts: 9 verified, 22 removed (names, dates, keys), 6 corrected. Still not read: the descriptions of Grudem, Giles, Hart, Ware, Rideman and the "most scholars" consensus phrases.
 
+
+## Card restoration (2026-10-29)
+
+Following `tools/agent-restore-cards.md`. 1 view added (Lutheran, Son-subject), 2 extended (Reformed x2). Each restored view cites a page opened in this session; the URLs are in `.scratch/1Co-15-16-verify/sources-checked.md` ("Card restoration"). No card was re-created: none had been turned into a note sentence.
+
+Views still missing: Lutheran on perseverance from the Formula of Concord Solid Declaration 11 (the claim was not found when checked earlier and was not re-found); Wesley on perseverance (Serious Thoughts was not opened); Racovian Catechism, Oneness and other keys dropped in the pass, not re-opened.
+
+`VERBOSE=1 node tools/build.js --check 1Co/15-16`: 0 errors, 0 warnings in this part.
+
+
+Second card pass (unkeyed views): 1 view kept from the log (Orthodox rapture, reworded to its page); 9 newly sourced and restated (Orthodox and Methodist on 15:2; Reformed on baptism for the dead; Jehovah's Witnesses, Unitarian and Oneness Pentecostal on 15:24-28; Jehovah's Witnesses on the resurrection body; Dispensationalist and Evangelical on the rapture). None removed. See `.scratch/1Co-15-16-verify/sources-checked.md`, "Unkeyed views".

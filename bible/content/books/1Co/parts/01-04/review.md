@@ -199,3 +199,11 @@ Second round, following the findings of `## Verification check (2026-10-29)`. Lo
 3. Baur (note 1:12, chapter 1 views and settings, topic): corrected. The 1831 essay reduces the four slogans to two real groups (a Petrine party including the "Christ party", a Pauline party including Apollos), not four parties.
 4. book.json Pentecostal view: kept, with new key `wikipedia-cessation-continuation` (a page that states the Pentecostal tradition holds the gifts continue).
 5. The "Not checked" scholar list of the first pass is now closed: each name was either verified, stripped to an unnamed view, or removed (see the log). Counts of the first pass stand.
+
+## Card restoration (2026-10-29)
+
+Following `tools/agent-restore-cards.md`. 1 view restored (Pentecostal), 2 views extended (Catholic, Lutheran on 3:15); book.json unchanged. Each restored view cites a page opened in this session; the URLs are in `.scratch/1Co-01-04-verify/sources-checked.md` ("Card restoration"). No card was re-created: none had been turned into a note sentence.
+
+Views still missing: Catholic and Orthodox added sentences on the 4:6 card; Anglican prayer for the departed on the 3:15 card; Baptist 'loss of reward' reading of 3:15 (the Baptist Faith and Message does not say it); Reformed Calvin on splitting a church (not found). The book.json Orthodox views were already re-sourced and stand.
+
+`VERBOSE=1 node tools/build.js --check 1Co/01-04`: 0 errors, 0 warnings in this part.

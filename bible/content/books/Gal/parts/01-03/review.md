@@ -211,3 +211,7 @@ Findings handled:
 Dates in the part now rest on opened pages: Wikipedia's Epistle to the Galatians (late 40s to early 50s; about AD 48 for the South Galatian view; Romans 56-57), Council of Jerusalem (about AD 48-50) and Paul the Apostle (call 31-36; first visit about 35-36; Jesus' death about 30-33).
 
 `VERBOSE=1 node tools/build.js --check Gal/01-03`: 0 errors, 0 warnings.
+
+## Card restoration (2026-10-29)
+Views restored (5): Anglican and Baptist on 1:19 (Lightfoot; Gill); Orthodox on justification (2:16) and on baptism (3:27) from Chrysostom's homilies; Reformed on women's ordination (3:28), shown as a divided tradition (PCA Book of Church Order; WCRC declaration). No cards re-created (none had been converted). Still missing (not in the known list, not sought): Lutheran on the 3:28 church-Israel card. Orthodox on 2:16 uses Chrysostom, not an Orthodox church document, so it states no modern Orthodox statement.
+Unkeyed views (3 views): Lutheran and Pentecostal on women's ordination (3:28) keyed to wikipedia-ordination-women and restated to the page; the Methodist view on the book.json card keyed to wikipedia-john-wesley and wikipedia-charles-wesley. None removed. Scan: 0 unsourced.

@@ -192,3 +192,7 @@ Counts for the second round: 11 findings applied or settled (check items 1 to 5 
 - Dates: 29 August to 18 December 520 (Wikipedia Haggai), 21 September 520 and 15 February 519 (search results quoting commentaries) kept. 17 October 520 removed (one source only). The Temple's completion is now "Darius's sixth year (3 Adar, Ezra 6:15), about 516-515 BC" because opened pages give both 516 and 515, not "12 March 515". Simon's confirmation is "140 or 141 BC". Darius's end date (486) and Alexander's 332 removed.
 - Item 4.1: the chapter 6 and chapter 8 cards, whose remaining views agreed, are now sentences in the notes at 6:13 and 8:23.
 Log: .scratch/Zec-01-08-verify/sources-checked.md ("Second round").
+
+## Card restoration (2026-10-29)
+Views restored: 7 across two re-created cards. Chapter 6 (Branch, 6:13): Catholic, Reformed, Dispensationalist (Gaebelein; DTS Article VI). Chapter 8 (8:23): Catholic, Reformed, Dispensationalist (DTS Articles XIII, XX; Gaebelein), Messianic Jewish (UMJC Statement of Faith, which does not mention the verse). The two note sentences were trimmed to point to the cards.
+Still missing: Messianic Jewish at 6:13 (no opened page states a view on the Branch as priest-king); Reformed "future turning of the Jewish people" at 8:23 (nothing opened); the Satan card (Catholic, Orthodox, Reformed and Adventist all identify Satan with the devil, so no church conflict; the note at 3:2 keeps it).

@@ -177,3 +177,11 @@ Second round on the Verification check above. Log: `.scratch/1Co-05-08-verify/so
 - Findings 1-5 and 7 handled. 1: the 7:29 date removed. 2: Gregory of Nyssa rewritten. 3: Athenagoras now quotes "specious adultery" and names the New Advent translation. 4: Strabo 8.6.20 opened on Perseus and quoted in sense. 5: Josephus Antiquities 14.235, Philo Special Laws, Luther "Weichlinge", Boswell/NIV 1984 and the "Beruf" hedge removed. 7: not restored, no source opened (Orthodox on 8:6, Baptist on celibacy). 6: `--check 1Co/05-08` is 0 errors and 1 warning, the 5:5 quotation of 1 Timothy 1:20, left for the lead to sync when 1 Timothy is written.
 - Modern-scholar attributions: about 8 names kept as verified (Wright, Bauckham, Hays, Gagnon, Dale Martin, Instone-Brewer, Cheung, Gooch, Mitchell, Deissmann, Murphy-O'Connor on the 1978 article); about 16 names dropped with the view kept (Winter, Garland, Fee, Thiselton, Hurd, Boswell, Scroggs, Jeremias, Aland, Nanos, Fredriksen, Rudolph, Bartchy, Hurtado, Dunn, Boyarin, Chow, Achelis, plus Martin on three other points).
 - 148 source keys removed from note entries, 22 from chapter entries, and 14 definitions deleted from `sources.json`.
+
+## Card restoration (2026-10-29)
+
+Following `tools/agent-restore-cards.md`. 3 views restored (Orthodox 8:6, Orthodox 8:11, Baptist idol food). Each restored view cites a page opened in this session; the URLs are in `.scratch/1Co-05-08-verify/sources-checked.md` ("Card restoration"). No card was re-created: none had been turned into a note sentence.
+
+Views still missing: Baptist on celibacy (7:7): searches found no Baptist confession or document on the question; Orthodox reading of 5:5 (not looked for beyond a Chrysostom Homily 15 page that was opened but not needed).
+
+`VERBOSE=1 node tools/build.js --check 1Co/05-08`: 0 errors, 0 warnings in this part.

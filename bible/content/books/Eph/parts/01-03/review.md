@@ -231,3 +231,6 @@ Second round, applying the `## Verification check` findings and the rule for nam
 - NA28 (book-wide decision): the variant cards now name editions only as this site's word list shows them (NA28, NA27, Tyndale House, Westcott-Hort, Tregelles, SBLGNT, Textus Receptus, Byzantine), with no apparatus or bracket claims; same style as 04-06. 2:15: NA28, NA27, Tyndale House and Tregelles read "in him"; SBLGNT, Westcott-Hort, Textus Receptus and Byzantine read "in himself".
 - Also fixed: "in the Bible" for atheoi and sussoma now "New Testament"; the unsupported "we were chosen" reading (1:11), huiothesia "not in the Greek Old Testament", 2 Maccabees politeia and Josephus Antiquities decrees removed; Kirby citation removed from the baptism spec.
 - Not changed: 1:4 and 2:15 cards keep six and five rows with a real conflict. Source keys wikipedia-ephesus, wikipedia-temple-artemis and wikipedia-epistle-ephesians added; six keys no longer cited were removed from sources.json (wikipedia-theosis stays: 1 Corinthians cites it).
+
+## Card restoration (2026-10-29)
+Restored 6 views: Orthodox on 1:4 (Chrysostom), Baptist on 1:13 (BFM 2000), Orthodox, Anglican, Methodist and Baptist on 2:15, Messianic Jewish on 3:6. No cards re-created (none were converted). Still missing: none of the listed ones; Dispensationalist, Messianic and other 2:15 rows unchanged.

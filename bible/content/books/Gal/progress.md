@@ -19,3 +19,4 @@ Verification pass 2026-10-29 (04-06): witness lists rebuilt from Burton, Lightfo
 Verification second round 2026-10-29 (04-06): "reported" and the Mishnah Bikkurim claim fixed, NA28 brackets and 1QS line numbers cut, unverified modern-scholar names and keys removed (Nanos, Munck, Jewett, Schmithals, Hays kept), Israel-of-God and days cards regained Dispensationalist and Messianic Jewish views; log in .scratch/Gal-04-06-verify/. Check 0/0.
 
 01-03 verification round 2 (2026-10-29): named-scholar attributions, dates and traditions cards checked against opened pages; unfound claims made anonymous or removed; law and church-Israel cards restored with sourced Baptist, Adventist, Dispensationalist and Messianic Jewish views. See parts/01-03/review.md.
+Card restoration 2026-10-29: 5 views restored (Gal 1-3), 7 (Gal 4-6); see review.md.

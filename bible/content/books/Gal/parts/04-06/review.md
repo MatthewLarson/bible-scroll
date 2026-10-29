@@ -321,3 +321,6 @@ Second round, following the Verification check above. Log: `.scratch/Gal-04-06-v
 - Check 20: the chapter 6 Israel of God card now has Dispensationalist (Ryrie) and Messianic Jewish (UMJC) views beside Catholic, Orthodox and Reformed. Check 22: Messianic Jewish view added to the days card. Checks 21, 23, 24 and 25 (Hagar card Dispensationalist and Messianic Jewish views; General and Free Will Baptist at 5:4; Assemblies of God at 5:17; Anglican, Methodist and Baptist at 6:16) stay open: no source could be opened.
 
 Check: `Gal/04-06` 0 errors, 0 warnings.
+
+## Card restoration (2026-10-29)
+Views restored (7): Dispensationalist (Scofield) and Messianic Jewish (UMJC Vision, general position only) on the Hagar card; Free Will Baptist at 5:4 (inside the Baptist view); Assemblies of God at 5:17 (inside the Pentecostal view, general position only); Anglican (Ellicott), Methodist (Wesley) and Baptist (Gill) at 6:16. No cards re-created. Still missing: Lutheran at 6:16 (not sought), General Baptist at 5:4 (no source found), and a dispensational reading of who Hagar's children are (the Scofield note found speaks only to the audience of the allegory).

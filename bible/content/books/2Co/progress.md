@@ -18,3 +18,4 @@ Hostile review, fixes and atlas review done 2026-10-29; quote sync across other 
 - 2Co 06-09: second verification round done (anonymous commentator claims removed, orphan keys dropped, tithe card cleaned).
 - 2Co 01-05: second verification round done (unopened commentary keys and unverified scholar names removed, 4:4 card made a sentence, Baptist views added to two cards); check 0/0.
 - 2026-10-29 verification fixes (third pass) on part 10-13: commentary keys and unverified names/dates removed, Orthodox views restored on two cards; see review.md.
+- 2026-10-29: card restoration done (see parts' review.md); check 0/0.
