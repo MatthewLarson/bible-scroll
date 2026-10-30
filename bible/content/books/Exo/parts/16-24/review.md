@@ -6,7 +6,7 @@ Reviewer: agent reviewer, 2026-10-23. Scope: chapters 16–24 only (plain.txt, n
 
 The study material is strong. I checked well over 100 rabbinic, patristic, classical and modern citations, and almost all are right. This includes the Mekhilta on Jethro's seven names, Sanhedrin 56b on Marah, Makkot 23b–24a, Shabbat 88a–b, Bava Kamma 79b and 83b–84a, Kiddushin 22b, Berakhot 5a and 17a, Mishnah Makkot 1:10, Yadayim 4:4, Rosh Hashanah 3:8, Middot 3:3–4 and Chullin 115b. It also includes Maimonides on coveting and on the qualities of a judge, Philo's <i>Special Laws</i> 3.108, Augustine's <i>Questions</i> 2.80, Ratner and Zuckerman on KTU 1.23, Greenberg's 1951 and 1960 articles, Speiser on <i>pelilim</i>, the Mesad Hashavyahu ostracon, and Eshnunna §53. The views are mostly fair, and the slavery and witch-trial material is honest.
 
-The Ten Commandments themselves (20:2–17) are a fresh translation. The translation problem lies elsewhere. In the case laws of chapters 21–23, in Jethro's chapter, and in parts of 19 and 24, the Plain English follows the NIV, or in places the ESV, verse after verse. I count about 50 verses, and I confirmed 46 of them against the ESV and NIV texts today. Quotations of other books inside the notes show the same habit.
+The Ten Commandments themselves (20:2–17) are a fresh translation. The translation problem lies elsewhere. In the case laws of chapters 21–23, in Jethro's chapter, and in parts of 19 and 24, the Plain English Translation follows the NIV, or in places the ESV, verse after verse. I count about 50 verses, and I confirmed 46 of them against the ESV and NIV texts today. Quotations of other books inside the notes show the same habit.
 
 There are also several factual errors on points readers will check:
 - the Lutheran numbering of the commandments;
@@ -33,7 +33,7 @@ Findings: **1 critical, 10 major, 13 minor** (24 in all). Item 25 lists checks t
 
 **Evidence.** Readings marked † were checked today against the ESV and NIV (2011) texts at bibleserver.com. The rest are from memory and should be checked, but the pattern is clear.
 
-| Verse | Plain English | Modern version |
+| Verse | Plain English Translation | Modern version |
 |---|---|---|
 | 18:9 | "Jethro was delighted at all the good the LORD had done for Israel, rescuing them out of the hand of Egypt" | NIV† "Jethro was delighted to hear about all the good things the Lord had done for Israel in rescuing them from the hand of..." (Hebrew <i>vayyichad</i>, "rejoiced") |
 | 18:12 | "Jethro, Moses' father-in-law, then took a burnt offering and other sacrifices for God... to share a meal with Moses' father-in-law" | NIV† "Then Jethro, Moses' father-in-law, brought a burnt offering and other sacrifices to God" ("other" is not in the Hebrew <i>olah uzevachim</i>) |
@@ -92,7 +92,7 @@ Lighter echoes: 16:13 ("a layer of dew," NIV†), 16:14 ("a thin, flaky stuff, a
 
 **Fix:** redo the listed verses from the Hebrew, then compare them again with the ESV and NIV. The writer can model them on the good chapters: 16, 17, 19:10–20 and the Decalogue.
 
-### 2. MAJOR: quotations of other books in notes, chapters and topics follow the NIV or ESV and sometimes contradict the site's own Plain English
+### 2. MAJOR: quotations of other books in notes, chapters and topics follow the NIV or ESV and sometimes contradict the site's own Plain English Translation
 
 **Where and evidence** (from memory; please check each):
 - 19:12: "if even an animal touches the mountain, it must be stoned" (Hebrews 12:20). This is the NIV word for word.
@@ -113,9 +113,9 @@ Lighter echoes: 16:13 ("a layer of dew," NIV†), 16:14 ("a thin, flaky stuff, a
 
 Some notes quote Exodus itself in wording the site's own translation does not use:
 - 20:5 quotes 34:14 as "the LORD, whose name is Jealous" (ESV and NIV). The site's 34:14 reads "the LORD's name is Jealous."
-- 24:17 quotes Deuteronomy 4:24 as "a consuming fire," but this very verse's Plain English says "a fire that eats everything."
+- 24:17 quotes Deuteronomy 4:24 as "a consuming fire," but this very verse's Plain English Translation says "a fire that eats everything."
 
-**Fix:** retranslate every quotation from the Hebrew or Greek. Where the site already has a Plain English for the verse (Genesis and Exodus 25–40 so far), use it.
+**Fix:** retranslate every quotation from the Hebrew or Greek. Where the site already has a Plain English Translation for the verse (Genesis and Exodus 25–40 so far), use it.
 
 ### 3. MAJOR: the Lutheran numbering of the commandments is wrong in four places
 
@@ -206,7 +206,7 @@ The `r`, `refs` and `echoes` lists are otherwise clean: I found no other bare re
 
 ### 8. MAJOR: 23:15 translates a reconstructed reading, not the Masoretic Text, with no variant entry
 
-**Where:** plain.txt 23:15, "No one is to come to see me with empty hands," and note 23:15 ("The Plain English keeps the older idiom").
+**Where:** plain.txt 23:15, "No one is to come to see me with empty hands," and note 23:15 ("The Plain English Translation keeps the older idiom").
 
 **What is wrong:** the Masoretic vowels read <i>yera'u fanai</i>, "they shall be seen before me" or "appear before me." "See me" follows a proposed earlier vocalization (<i>yir'u</i>). That may well be right, but the site translates the Masoretic Text, and it does so at 23:17 ("appear before the Lord"). Part 25–40 renders the same Hebrew at 34:20 as "No one is to come before my face with empty hands." A reconstructed reading belongs in variants.json, where the reader can see it.
 
@@ -237,7 +237,7 @@ The `r`, `refs` and `echoes` lists are otherwise clean: I found no other bare re
 
 **Where:** notes 21:2, 21:4, 21:20–21; chapter 21 deep 1; the slavery topic.
 
-**What is wrong:** the word <i>eved</i> is "servant" in the KJV and NIV ("If you buy a Hebrew servant") and "slave" in the ESV and the Plain English. That choice is the center of the modern debate, and the site never explains it. STYLE asks for "common misreadings" and for each view in its strongest form with its holders named. The notes say "some defenders note" and "others say the text should not be defended," but name only Noll and Douglass.
+**What is wrong:** the word <i>eved</i> is "servant" in the KJV and NIV ("If you buy a Hebrew servant") and "slave" in the ESV and the Plain English Translation. That choice is the center of the modern debate, and the site never explains it. STYLE asks for "common misreadings" and for each view in its strongest form with its holders named. The notes say "some defenders note" and "others say the text should not be defended," but name only Noll and Douglass.
 
 The evangelical case that the Hebrew debt-servant was closer to indentured service is not named. Walter Kaiser and Paul Copan, <i>Is God a Moral Monster?</i> (2011), make it. So does the stronger critical case: for example, Hector Avalos, <i>Slavery, Abolitionism, and the Ethics of Biblical Scholarship</i> (2011), and the point that Leviticus 25:44–46 allows permanent chattel slavery of foreigners. Jewish scholarship on <i>eved Ivri</i> and <i>eved Kena'ani</i> is missing too. Chirichigno is cited but not described.
 
@@ -392,7 +392,7 @@ The part has one Claude's-theory box, the good "mountain that walks" box in chap
 - **Ancient law:** Hammurabi §§8, 117, 195–199, 209–214, 250–252, 266; Eshnunna §§18A, 53–55; the Hittite laws on miscarriage; Wright and Westbrook on how the parallels arose.
 - **22:18:** the Septuagint <i>pharmakous</i>, Sanhedrin 67a, Salem and the scale of the witch hunts are fair.
 - **Mount Sinai:** Jebel Musa at 2,285 meters, Egeria, Justinian, Har-El, Anati, and the caution about Jebel al-Lawz.
-- **Genesis quotations:** every quotation from Genesis in this site's Plain English matches the Genesis parts (2:2–3, 9:6, 15:18, 28:18, 31:39, 40:15).
+- **Genesis quotations:** every quotation from Genesis in this site's Plain English Translation matches the Genesis parts (2:2–3, 9:6, 15:18, 28:18, 31:39, 40:15).
 - **The spec box:** correctly labeled.
 
 ## Fixes applied
@@ -407,7 +407,7 @@ Writer, 2026-10-23. `node tools/build.js --check Exo/16-24`: 0 errors, 0 warning
    - 24:11 "Against the nobles of the Israelites he did not put out his hand. They looked upon God"
 
    Every note, gloss and variant anchor in those verses was moved to the new wording. 20:6 now reads "I show loyal love to thousands", to match *oseh*.
-2. **Quotations of other books** are now fresh wording, for every item listed. Exodus quotations use this part's Plain wording. Examples:
+2. **Quotations of other books** are now fresh wording, for every item listed. Exodus quotations use this part's Plain English Translation wording. Examples:
    - "the LORD's name is Jealous" (34:14)
    - "a fire that eats" (Deuteronomy 4:24 and Hebrews 12:29)
    - the Mark 1:2 quotation

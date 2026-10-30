@@ -4,26 +4,26 @@
 - texts/orig/2Ma.json `grc` (Swete's text of Alexandrinus, in NFC), read verse by verse beside the KJV Apocrypha (texts/en);
 - Swete's apparatus in texts/src/2Ma.app.json, for every verse of chapters 4–7;
 - the Vulgate and the Douay in texts/src/2Ma.lat.json;
-- parts 01-03, 08-11 and 12-15, book.json, content/terms.json and content/proposals/works/terms.json, the site's Plain for the 66 books, and every `traditions` card on the site.
+- parts 01-03, 08-11 and 12-15, book.json, content/terms.json and content/proposals/works/terms.json, the site's Plain English Translation for the 66 books, and every `traditions` card on the site.
 
 **Build.** `VERBOSE=1 node tools/build.js --check 2Ma/04-07` reports 150 verses, 124 notes, 25 variants, 40 glosses, 4 chapter pages, 10 topic contributions. There is **1 error and 0 warnings, and the error is not in this part.** It is in content/books/Isa/parts/56-66/sources.json, where the key `westermann-isaiah40-66` is defined differently from the one in 40-44.
 
 **Quotations checked by script.**
 - **Greek.** Every Greek string in notes.json, variants.json, chapters.json, topics.json and glosses.json is NFC. Each one is in Swete's text *of the verse it is attached to* (whole-word match) or, for the apparatus quotations, letter for letter in the apparatus file. **I found no invented or garbled Greek quotation.** Two *descriptions* of Swete's sigla are wrong, though (finding 10).
 - **Latin and Douay.** All 25 Latin quotations are in the right Vulgate verse. Five of them write "ae" where the file has "æ" (finding 14).
-- **The 66 books.** I checked by hand every quotation of a book the site has translated. Three do not match the site's Plain (2 Kings 6:17, John 4:14, and Psalm 36:9 used for Jeremiah's wording), and two quotations of sibling Maccabees parts do not match either (finding 11). The rest match: Genesis 1:2, 2:7, 15:16, 17:17; Leviticus 11:7, 26:44; Deuteronomy 4:35, 8:5, 31:21, 32:36, 32:39; Psalm 7, 44:22, 94:14, 113:9, 139:13; Proverbs 3:11, 3:12; Job 10:11; Isaiah 14:13, 14:19, 53:5, 54:7, 65:4; Matthew 5:11–12, 10:28, 10:32, 23:32; John 4:23, 5:29, 8:20, 11:24–25, 11:48; 1 Maccabees 1:15, 1:29, 1:60–61; 1 Enoch 90:8. Daniel, Jeremiah, Mark, Luke, Acts and Paul are not yet on the site, so fresh wording there is allowed.
+- **The 66 books.** I checked by hand every quotation of a book the site has translated. Three do not match the site's Plain English Translation (2 Kings 6:17, John 4:14, and Psalm 36:9 used for Jeremiah's wording), and two quotations of sibling Maccabees parts do not match either (finding 11). The rest match: Genesis 1:2, 2:7, 15:16, 17:17; Leviticus 11:7, 26:44; Deuteronomy 4:35, 8:5, 31:21, 32:36, 32:39; Psalm 7, 44:22, 94:14, 113:9, 139:13; Proverbs 3:11, 3:12; Job 10:11; Isaiah 14:13, 14:19, 53:5, 54:7, 65:4; Matthew 5:11–12, 10:28, 10:32, 23:32; John 4:23, 5:29, 8:20, 11:24–25, 11:48; 1 Maccabees 1:15, 1:29, 1:60–61; 1 Enoch 90:8. Daniel, Jeremiah, Mark, Luke, Acts and Paul are not yet on the site, so fresh wording there is allowed.
 - **Terms.** The part follows the works-lane proposals throughout: the Master, the Almighty, impious against ungodly, "the Greek way" and "foreign ways", "their fathers' tongue", "the laws of our fathers", a Friend, the sacrificial organs and the sacrificial meal, resurrection and raise, way of life (πολιτεία), and the council of elders (γερουσία).
 
 ## Verdict
 
 This is a learned and mostly careful part:
-- The Plain is fresh, plain English. It follows Swete's Alexandrinus closely and keeps hard readings where they make sense: 5:10 "his fathers' law", 5:26 "posted large forces", 6:23 "way of life" and 7:36 "fallen under".
+- The Plain English Translation is fresh, plain English. It follows Swete's Alexandrinus closely and keeps hard readings where they make sense: 5:10 "his fathers' law", 5:26 "posted large forces", 6:23 "way of life" and 7:36 "fallen under".
 - Twenty-five variant entries give A against Venetus, the Latin and the KJV fairly. They read Swete's apparatus correctly in almost every place, and the three declared departures (5:3, 7:11, 7:37) are real and argued.
 - The notes are rich and mostly accurate. Every Josephus, 4 Maccabees, Augustine, Gregory, Apology and Westminster claim I could open checks out.
 - The book is never called Scripture in the site's own voice.
 
 The weaknesses:
-- **At the very verse the first card is built on (7:37–38), the Plain has drifted silently to Venetus and the KJV** (finding 1).
+- **At the very verse the first card is built on (7:37–38), the Plain English Translation has drifted silently to Venetus and the KJV** (finding 1).
 - There are two more silent departures, at 5:20 and 7:2 (findings 2–3).
 - **The 7:28 scholarship is misreported.** Winston and May are made into opponents of Goldstein, although May, and probably Winston, agree that the verse does not teach the later doctrine (finding 4).
 - **The 7:37–38 card has no Orthodox row.** Three of its rows give one Protestant answer, and two rows lean on indulgences and Article 22, which is the ground of the 12-15 purgatory card (finding 5).
@@ -41,14 +41,14 @@ Swete (Alexandrinus) reads:
 > ἐγὼ δὲ … προδίδωμι … ἐπικαλούμενοι τὸν θεὸν ἵλεων ταχὺ τῷ ἔθνει γενέσθαι … (38) ἐν ἐμοὶ δὲ καὶ τοῖς ἀδελφοῖς μου **στῆσαι** τὴν τοῦ παντοκράτορος ὀργήν …
 
 - **The verb.** στῆσαι is transitive, and it depends on ἐπικαλούμενοι: "[we] calling on God … **to stop**, in me and my brothers, the anger of the Almighty". The apparatus has `στησαι] στηναι V`. Venetus's intransitive στῆναι, "(that the anger) may stand still, cease", is the reading behind the KJV ("may cease") and the Vulgate (*desinet*).
-- **The Plain**, "In me and my brothers may the anger of the Almighty come to a stop", is the intransitive reading: V and the KJV.
-- **The number.** The Plain's 7:37 "I call on God" is singular. Swete's text has the plural ἐπικαλούμενοι, which takes in the brothers ("like my brothers … calling"). The singular is Venetus's (`επικαλουμενος V`).
+- **The Plain English Translation**, "In me and my brothers may the anger of the Almighty come to a stop", is the intransitive reading: V and the KJV.
+- **The number.** The Plain English Translation's 7:37 "I call on God" is singular. Swete's text has the plural ἐπικαλούμενοι, which takes in the brothers ("like my brothers … calling"). The singular is Venetus's (`επικαλουμενος V`).
 
 This matters beyond grammar.
 - In A, *God* is asked to stop his anger. That is exactly the "Prayer, not payment" view that the 7:30–38 setting and the card set against van Henten.
 - In V and the KJV, the anger simply ceases in the martyrs, which leans toward the opposite view.
 
-The Plain's wording is quoted again in topics.json (martyrs) and in the card's question. Neither departure has a variant entry.
+The Plain English Translation's wording is quoted again in topics.json (martyrs) and in the card's question. Neither departure has a variant entry.
 
 **Fix:** "…I call, as they did, on God to be gracious soon to the nation, and by torments and blows to make you admit that he alone is God, (38) and in me and my brothers to stop the anger of the Almighty that has rightly come down on our whole race." Add a 7:38 entry (A στῆσαι; V στῆναι, KJV "may cease", Vulgate *desinet*), mention the singular of 7:37 in it, and update the quotations.
 
@@ -126,16 +126,16 @@ Following the Tobit lesson, each `readers` line should name who the first reader
 ### 8. MINOR: plain.txt 6:2 and 4:24: RSV/NRSV wording
 
 - **6:2, "Zeus the Friend of Strangers … as suited the people who lived in that place".** "Friend of Strangers" is the RSV/NRSV's own rendering of ξένιος, and the NRSV's clause also ends "the people who lived in that place". The KJV has "the Defender of strangers". Write "Zeus, Protector of Guests" or "Zeus of Strangers", and change it in the topic and in N70.
-- **4:24, "with the air of a man of power".** This is close to the NRSV's "with an air of authority" for τῷ προσώπῳ τῆς ἐξουσίας. N27 shows the Plain chose that interpretation. Consider "with a show of authority".
+- **4:24, "with the air of a man of power".** This is close to the NRSV's "with an air of authority" for τῷ προσώπῳ τῆς ἐξουσίας. N27 shows the Plain English Translation chose that interpretation. Consider "with a show of authority".
 
-Elsewhere I compared the Plain in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and found no dependence. Where it agrees with them (5:19, 6:16, 7:37), the Greek forces it.
+Elsewhere I compared the Plain English Translation in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and found no dependence. Where it agrees with them (5:19, 6:16, 7:37), the Greek forces it.
 
 ### 9. MINOR: differences from Venetus and the KJV, and places where Swete corrects A, with no entry
 
 The lessons ask for an entry for every difference in meaning from the other Greek or from the KJV.
 - **7:5 "useless in every limb".** A has τοῖς λοιποῖς, "in the rest (of his body)"; V has ὅλοις, "wholly" (KJV "in all his members"). "Every limb" leans toward V. Write "useless in the rest of his body", or add an entry.
-- **7:14.** A has ἀπὸ ἀνθρώπων, "from among men" (the Plain). V has ὑπ᾽ ἀνθρώπων, "at men's hands", which is the reading of the KJV ("being put to death by men") and the Latin.
-- **7:20.** A has ἀγαθή, "good" (the Plain); V has θαυμαστή, KJV "marvellous".
+- **7:14.** A has ἀπὸ ἀνθρώπων, "from among men" (the Plain English Translation). V has ὑπ᾽ ἀνθρώπων, "at men's hands", which is the reading of the KJV ("being put to death by men") and the Latin.
+- **7:20.** A has ἀγαθή, "good" (the Plain English Translation); V has θαυμαστή, KJV "marvellous".
 - **7:34, "quivering with hopes".** Swete's φρυττόμενος is obscure. The apparatus has `φρυαττομενος V`, "insolent, puffed up", the KJV's "puffed up". "Quivering" needs a note saying what it takes the word to mean, and an entry.
 - **Swete's text against A, called "Swete's text" elsewhere in this part (4:4, 4:13, 6:4) but not here:**
   - 5:21: A τὴν πρώτην for γῆν πλωτήν;
@@ -145,20 +145,20 @@ The lessons ask for an entry for every difference in meaning from the other Gree
   - 4:36: Swete follows V's ἀπεκτονῆσθαι.
 
   One entry each (or a single grouped note) is enough.
-- **6:21 "pressed him".** Swete has ἐνεκάλουν; V has παρεκάλουν, "urged". The Plain is nearer to V. Say so in a note, or write "called on him".
+- **6:21 "pressed him".** Swete has ἐνεκάλουν; V has παρεκάλουν, "urged". The Plain English Translation is nearer to V. Say so in a note, or write "called on him".
 
 ### 10. MINOR: variants 6:4 and 6:8: Swete's sigla misread
 
 - **6:4.** The note reads `εταιρων (? ἑταίρων)] ετερων AV`. The "(? ἑταίρων)" asks whether the unaccented word should be read as the masculine ἑταίρων, "companions", rather than ἑταιρῶν, "courtesans". It is a query about the accent. It does not put a question mark on the correction. The `p` ("Swete prints a correction") and the `why` ("Swete prints the correction, with a question mark") misdescribe it. **Fix:** "Swete prints ἑταιρῶν, 'courtesans', against the codices' ἑτέρων, 'others', and asks in his note whether ἑταίρων, 'companions', is meant." The `why` already mentions "companions"; tie it to the siglum.
 - **6:8.** The `why` says that in Alexandrinus "the words run 'the neighboring Greek cities of Ptolemy'". The note reads `αστυγειτονας] αστυγεις A | … | πολις Πτολεμαιου· (sic) A`. A has the singular πόλις, with a stop after Πτολεμαίου, which can be read as "the neighbouring Greek **city** of Ptolemy[ais]". That is close to the Latin's *Ptolemæis*, and the entry should say so.
 
-### 11. MINOR: quotations that do not match the site's Plain
+### 11. MINOR: quotations that do not match the site's Plain English Translation
 
 - **N46**, "horses and chariots of fire" (2 Kings 6:17). The site has "horses and fiery chariots".
 - **N118**, "a spring of water inside him, leaping up into eternal life" (John 4:14). The site has "a spring inside him, of water leaping up into eternal life".
 - **N118**, "the spring of living waters" (Jeremiah 2:13; Psalm 36:9). The site's Psalm 36:9 has "the spring of life". Cite the phrase to Jeremiah only.
-- **N90**, "to die in battle" (1 Maccabees 3:59). The 1 Maccabees Plain has "to die fighting".
-- **Variant 7:37 `why`**, Razis "risked body and soul for Judaism" (14:38). The 12-15 Plain has "staked body and soul on Judaism".
+- **N90**, "to die in battle" (1 Maccabees 3:59). The 1 Maccabees Plain English Translation has "to die fighting".
+- **Variant 7:37 `why`**, Razis "risked body and soul for Judaism" (14:38). The 12-15 Plain English Translation has "staked body and soul on Judaism".
 
 ### 12. MINOR: smaller factual points
 
@@ -170,7 +170,7 @@ The lessons ask for an entry for every difference in meaning from the other Gree
 - **N93 and N123:** "Miriam, daughter of the baker" translates the patronymic. Give the name as it stands, Miriam bat Nahtom ("daughter of Nahtom", which means "baker"). Also say that "Hannah" comes from the longer Josippon (confirmed).
 - **N33:** the transliteration "pareklisen" should be *pareklеisen* (παρέκλεισεν).
 - **N102:** "Most Christian traditions teach the second; some, such as Adventists and Jehovah's Witnesses, teach that the wicked are finally destroyed." Adventists also teach that the wicked are raised to judgment, and are then destroyed. The contrast as written is muddled. Separate the two questions: will the wicked rise, and is their punishment endless?
-- **N22:** "The writer's 'as if' shows his contempt." The ὡς of ὡς ἀπὸ Ἰεροσολύμων Ἀντιοχέας can simply mean "as (being)", and V reads "being Antiochenes". The Plain's "as if" and the note together overread it. Write "as Antiochenes from Jerusalem".
+- **N22:** "The writer's 'as if' shows his contempt." The ὡς of ὡς ἀπὸ Ἰεροσολύμων Ἀντιοχέας can simply mean "as (being)", and V reads "being Antiochenes". The Plain English Translation's "as if" and the note together overread it. Write "as Antiochenes from Jerusalem".
 - **Ch. 6 views.J:** "in a time of persecution, a Jew must give his life rather than break even a minor custom *in public*". In Bavli Sanhedrin 74a–b (R. Dimi's report), a time of royal decree requires martyrdom even for a minor precept, with no limit to public acts. The "in public" condition belongs to ordinary times (Rabin's report). Rephrase.
 - **N107:** "and, later, beside Mary at the cross" has no source. Add one, or cut it.
 - **Gloss 4:21:** "Apollonius son of Menestheus: the governor named in 4:4". That identification exists only through Hort's conjecture, which the 4:4 entry itself doubts. Write "named also in 4:4 (Swete's text)".
@@ -203,7 +203,7 @@ Ch. 7 lists `wrath`, `song-of-moses`, `church-and-state`, `monotheism`, `food-la
 
 ### 17. MINOR: smaller translation points
 
-- **4:1, "had set upon Heliodorus".** In English this means "attacked". N2 rightly says ἐπισεσεικώς is debated ("incited" or "had him beaten"). Use a neutral rendering such as "had stirred things up against Heliodorus", or "had set Heliodorus on", so that the Plain does not settle a `deb` note.
+- **4:1, "had set upon Heliodorus".** In English this means "attacked". N2 rightly says ἐπισεσεικώς is debated ("incited" or "had him beaten"). Use a neutral rendering such as "had stirred things up against Heliodorus", or "had set Heliodorus on", so that the Plain English Translation does not settle a `deb` note.
 - **4:12, "the strongest men among us".** κρατίστους is "the best, the noblest", and "strongest" narrows it.
 - **4:34, "came to Onias with deceit in mind".** This drops πεισθείς, "having been persuaded (to treachery)". Write "won over to the treachery, Andronicus came to Onias".
 - **4:38, "tore his tunic off him".** The Greek τοὺς χιτῶνας is plural: "his tunics", or "his clothes".
@@ -265,12 +265,12 @@ Ch. 7 lists `wrath`, `song-of-moses`, `church-and-state`, `monotheism`, `food-la
 
 ## Fixes applied
 
-1. **7:37–38 (finding 1).** I changed the Plain to follow Swete. 7:37 now reads "I call, as they did, on God … and by torments and whippings to make you admit…", and 7:38 reads "and in me and my brothers to stop the anger of the Almighty…".
+1. **7:37–38 (finding 1).** I changed the Plain English Translation to follow Swete. 7:37 now reads "I call, as they did, on God … and by torments and whippings to make you admit…", and 7:38 reads "and in me and my brothers to stop the anger of the Almighty…".
    - New variant entries: 7:37 for the plural against V's singular (Vulgate *invocans*), and 7:38 for στῆσαι against V's στῆναι (KJV "may cease", Vulgate *desinet*).
    - The 7:38 canon note now says that in A God is asked to stop his anger.
    - The 7:30–38 setting, its two views, the martyrs topic and the card's question now quote the new wording.
-2. **5:20 (finding 2).** The Plain now reads "Overtaken when the Almighty was angry". New entry: καταληφθείς (A, and V corrected) against καταλειφθείς (later editions, *derelictus*, KJV "forsaken").
-3. **7:2 (finding 3).** The Plain now reads "Are you going to question us and find out from us?". New entry for V's pr τι (KJV, *Quid quæris*).
+2. **5:20 (finding 2).** The Plain English Translation now reads "Overtaken when the Almighty was angry". New entry: καταληφθείς (A, and V corrected) against καταλειφθείς (later editions, *derelictus*, KJV "forsaken").
+3. **7:2 (finding 3).** The Plain English Translation now reads "Are you going to question us and find out from us?". New entry for V's pr τι (KJV, *Quid quæris*).
 4. **Goldstein, Winston and May (finding 4).** I rewrote N113 (the 7:28 word note), the creation topic, the 7:27–29 setting (`readers` and views) and the ch. 7 deep section. They now say:
    - May finds only God's sovereign act in the verse; a rejection of eternal matter lies outside the text's horizon (with the Xenophon parallel).
    - Goldstein (1984) also denies that the verse teaches *ex nihilo*.
@@ -296,10 +296,10 @@ Ch. 7 lists `wrath`, `song-of-moses`, `church-and-state`, `monotheism`, `food-la
    - 7:22–23: 2 Maccabees 1:24 and Wisdom 7:1–2.
    - 7:27–29: Wisdom 11:17.
 8. **Minor findings.**
-   - **Finding 8:** 6:2 now reads "Zeus, Protector of Guests, as befitted those who dwelt there", in the Plain, N70, the ch. 6 sum and the abomination topic. 4:24 now reads "with a show of authority".
-   - **Finding 9:** new entries for 7:5 (the Plain now reads "useless in the rest of his body"), 7:14, 7:20, 7:34 (with a note on "quivering"), 4:26, 4:36, 5:21, 6:18, 6:21 (the Plain now reads "called on him") and 6:25, and for 7:1, grouped with 6:18. The 4:36 entry also reports the digital apparatus's typo απεκτοοησθαι.
+   - **Finding 8:** 6:2 now reads "Zeus, Protector of Guests, as befitted those who dwelt there", in the Plain English Translation, N70, the ch. 6 sum and the abomination topic. 4:24 now reads "with a show of authority".
+   - **Finding 9:** new entries for 7:5 (the Plain English Translation now reads "useless in the rest of his body"), 7:14, 7:20, 7:34 (with a note on "quivering"), 4:26, 4:36, 5:21, 6:18, 6:21 (the Plain English Translation now reads "called on him") and 6:25, and for 7:1, grouped with 6:18. The 4:36 entry also reports the digital apparatus's typo απεκτοοησθαι.
    - **Finding 10:** I corrected the 6:4 and 6:8 sigla descriptions. 6:8 is now labeled "Swete's text", and A's singular πόλις is explained.
-   - **Finding 11:** I matched the quotations to the current Plain: 2 Kings 6:17, John 4:14, 1 Maccabees 3:59 and 14:38. Psalm 36:9 is dropped.
+   - **Finding 11:** I matched the quotations to the current Plain English Translation: 2 Kings 6:17, John 4:14, 1 Maccabees 3:59 and 14:38. Psalm 36:9 is dropped.
    - **Finding 12:**
      - N105: now "his own words on his deathbed".
      - N5: now "the same verb".
@@ -309,7 +309,7 @@ Ch. 7 lists `wrath`, `song-of-moses`, `church-and-state`, `monotheism`, `food-la
      - N93 and N123: now Miriam bat Nahtom, with Hannah from the longer Josippon.
      - N33: now *parekleisen*.
      - N102: the two questions are now separated.
-     - N22: the "as if" claim is withdrawn, and the Plain now reads "as Antiochenes from Jerusalem".
+     - N22: the "as if" claim is withdrawn, and the Plain English Translation now reads "as Antiochenes from Jerusalem".
      - Ch. 6 views.J: now the R. Dimi ruling (royal decree, no public limit).
      - N107: the Mary sentence is cut.
      - Gloss 4:21: now "named also in 4:4, in Swete's text".

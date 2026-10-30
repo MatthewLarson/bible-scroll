@@ -5,7 +5,7 @@ Reviewer: hostile-reviewer agent, 2026-10-25. This replaces the partial review c
 ## Verdict
 
 This is a strong part. The translation keeps close to the Leningrad text. The hard places the brief names (5:1–7, 7:16, 7:20, 7:26–29) are covered fairly, and the reading that Qohelet quotes a view in order to reject it is given in full. I checked these claims and found them right: the Rashi, Ecclesiastes Rabbah and Talmud attributions (Rashi on 5:5, 7:26–28 and 8:2; Ecclesiastes Rabbah 7:28; Nedarim 9a, Yoma 22b, Gittin 56b, Bava Batra 10a); the Herodotus passages; the Intef song; and the bibliography. I also re-ran tools/dss.py, and the Qumran readings hold: at 5:17, 4QQoh-a has no "he eats" and reads ka'as without "and", and at 7:19 it reads "helps". I found no invented source, reading or fragment. The problems are smaller but real:
-- Two places in the Plain match the ESV word for word in an interpretive choice (5:1 and 8:1).
+- Two places in the Plain English Translation match the ESV word for word in an interpretive choice (5:1 and 8:1).
 - One verse turns "perishes" into the churchy "lost" (7:15).
 - The KJV is credited with the wrong reading in the 5:1 note.
 - The count of the "joy" passages is wrong, and wrong in different ways, in three places.
@@ -32,7 +32,7 @@ These seven words are the ESV's, and "hardness" is the ESV's choice for עֹז, 
 **Fix:** "There is a righteous man who dies in his righteousness" or "who comes to ruin in his righteousness". Update the notes[54] anchor and the retribution topic wording ("a righteous man lost in his righteousness").
 
 ### 4. Major: notes[3] at 5:1 credits the KJV with the wrong reading
-The note gives reading (2), the ironic "they know nothing except doing evil", "as the KJV does with 'they consider not that they do evil'". But the KJV's "they consider not that they do evil" is reading (1), the same as the Plain: they sin without noticing. Reading (2) is a different supply; it is the line of the Targum and of some medieval readers, and Fox discusses it.
+The note gives reading (2), the ironic "they know nothing except doing evil", "as the KJV does with 'they consider not that they do evil'". But the KJV's "they consider not that they do evil" is reading (1), the same as the Plain English Translation: they sin without noticing. Reading (2) is a different supply; it is the line of the Targum and of some medieval readers, and Fox discusses it.
 **Fix:** move the KJV to reading (1). For reading (2), name a holder you can verify, or drop the attribution.
 
 ### 5. Major: the count of the "calls to enjoy" is wrong and inconsistent
@@ -57,16 +57,16 @@ A bare c:v always means the current book (STYLE.md; agent-writer "References"). 
 
 The checker gap is in the cross-part items below.
 
-### 7. Major: the 9:9 quote does not match part 09-12's Plain (the known build warning)
-notes[65] (7:26) and the chapter 7 deep section "The woman more bitter than death" quote "with the woman you love" (9:9). Part 09-12's Plain reads "See life with a woman you love". This is the only cause of the part's two warnings, and the book cannot be 0/0 until it is fixed.
+### 7. Major: the 9:9 quote does not match part 09-12's Plain English Translation (the known build warning)
+notes[65] (7:26) and the chapter 7 deep section "The woman more bitter than death" quote "with the woman you love" (9:9). Part 09-12's Plain English Translation reads "See life with a woman you love". This is the only cause of the part's two warnings, and the book cannot be 0/0 until it is fixed.
 **Fix:** quote "life with a woman you love" (9:9) in both places. Note that the article also matters to the argument: 9:9 has no article (אִשָּׁה), while 7:26 has "the woman" (הָאִשָּׁה). The deep section's point about the article is stronger if it says so.
 
 ### 8. Major: Orthodox view in the chapter 7 traditions card (7:20)
 "no one but Christ is called sinless" does not give the Orthodox position fairly. Orthodox liturgy calls the Theotokos "all-holy" and "spotless" (Panagia, achrantos), and most Orthodox teachers hold that she committed no personal sin, though they reject the Catholic dogma of the Immaculate Conception. The funeral service line "there is no one who lives and does not sin; you alone are without sin" is the right source for the Christ-only phrasing, but say that it is a liturgical text and name the Theotokos exception.
 **Fix:** for example: "...the Church prays daily for forgiveness, and its funeral service says that God alone is without sin. Orthodox teachers commonly hold that the Theotokos was kept free of personal sin, without accepting the Catholic doctrine of the Immaculate Conception." Keep ware-orthodox, or add a better source.
 
-### 9. Minor: plain.txt 5:4 should match the Deuteronomy 23:21 Plain it reproduces
-notes[6] says Qohelet "takes over the wording" of Deuteronomy 23:21. The Hebrew is almost identical (כַּאֲשֶׁר תִּדֹּר נֶדֶר לֵאלֹהִים אַל־תְּאַחֵר לְשַׁלְּמוֹ against Deuteronomy's כִּי־תִדֹּר נֶדֶר ... לֹא תְאַחֵר לְשַׁלְּמוֹ). Yet the Plain has "When you vow something to God" where Deuteronomy's Plain has "When you make a vow to the LORD your God". The brief says the earlier verse is the model when the Hebrew repeats, and the reader should see the borrowing.
+### 9. Minor: plain.txt 5:4 should match the Deuteronomy 23:21 Plain English Translation it reproduces
+notes[6] says Qohelet "takes over the wording" of Deuteronomy 23:21. The Hebrew is almost identical (כַּאֲשֶׁר תִּדֹּר נֶדֶר לֵאלֹהִים אַל־תְּאַחֵר לְשַׁלְּמוֹ against Deuteronomy's כִּי־תִדֹּר נֶדֶר ... לֹא תְאַחֵר לְשַׁלְּמוֹ). Yet the Plain English Translation has "When you vow something to God" where Deuteronomy's Plain English Translation has "When you make a vow to the LORD your God". The brief says the earlier verse is the model when the Hebrew repeats, and the reader should see the borrowing.
 **Fix:** "When you make a vow to God, do not be slow to pay it." The overlap with the NIV here is forced by the Hebrew and by alignment; say so in the drift log.
 
 ### 10. Minor: plain.txt 6:2, "His appetite goes without nothing it craves"
@@ -92,7 +92,7 @@ STYLE.md asks for sentences mostly under 20 words. Split it, for example: "...is
 **Fix:** "all the days of his life..." or "in the days of his life...", or log the overlap as Hebrew-forced. See also cross-part item C.
 
 ### 16. Minor: notes[11] (5:6) misquotes Leviticus 5:4
-It says the law covers a person who "speaks rashly with his lips". The Leviticus Plain reads "speaking rashly with his lips".
+It says the law covers a person who "speaks rashly with his lips". The Leviticus Plain English Translation reads "speaking rashly with his lips".
 **Fix:** quote it exactly ("speaking rashly with his lips", Leviticus 5:4), or remove the quotation marks.
 
 ### 17. Minor: notes[66] (7:26) preview misdescribes Bava Batra 10a
@@ -100,7 +100,7 @@ The preview says "Death is the bitterest thing the rabbis could name". Bava Batr
 **Fix:** "The Talmud names death the hardest of ten hard things (Bava Batra 10a); Rashi cites it here."
 
 ### 18. Minor: notes[45] (7:3) on Shabbat 30b needs one more clause
-The Talmud's contradiction with 2:2 works only because it reads מְהֻלָּל as "praiseworthy" ("of laughter I said, it is praiseworthy"). Part 01-04's Plain of 2:2 says "It is madness", so a reader sees no contradiction. Also, the Talmud's resolution speaks of God's anger (ka'as) toward the righteous in this world, not "grief".
+The Talmud's contradiction with 2:2 works only because it reads מְהֻלָּל as "praiseworthy" ("of laughter I said, it is praiseworthy"). Part 01-04's Plain English Translation of 2:2 says "It is madness", so a reader sees no contradiction. Also, the Talmud's resolution speaks of God's anger (ka'as) toward the righteous in this world, not "grief".
 **Fix:** add "reading 2:2 as 'laughter is praiseworthy'" and change "grief" to "anger".
 
 ### 19. Minor: notes[87] (8:15) gets the chronology wrong
@@ -153,7 +153,7 @@ A. **9:9 quote**: finding 7. Part 05-08 should change its two quotes to part 09-
 
 B. **11:7 and 12:13 quotes** in this part match part 09-12 ("light is sweet", "fear God and keep his commands"); no change needed. Quotes of 1:15, 1:16, 2:2, 2:23, 3:1, 3:11, 3:17 and 3:20 also match part 01-04.
 
-C. **The joy refrain at 8:15**: terms.json lists 8:15 in the refrain set of 2:24 ("later forms keep the same words where the Hebrew is the same"). 8:15 has אֵין־טוֹב לָאָדָם ... כִּי אִם־לֶאֱכוֹל וְלִשְׁתּוֹת וְלִשְׂמוֹחַ; 2:24 has "There is nothing good for a person but to eat and drink...". The Plain of 8:15, "a human being has nothing good under the sun except to eat and drink and be glad", changes the frame. Suggested: "There is nothing good for a person under the sun but to eat and drink and be glad."
+C. **The joy refrain at 8:15**: terms.json lists 8:15 in the refrain set of 2:24 ("later forms keep the same words where the Hebrew is the same"). 8:15 has אֵין־טוֹב לָאָדָם ... כִּי אִם־לֶאֱכוֹל וְלִשְׁתּוֹת וְלִשְׂמוֹחַ; 2:24 has "There is nothing good for a person but to eat and drink...". The Plain English Translation of 8:15, "a human being has nothing good under the sun except to eat and drink and be glad", changes the frame. Suggested: "There is nothing good for a person under the sun but to eat and drink and be glad."
 
 D. **"Who can tell him what will be after him"**: 3:22 (01-04), 6:12 and 8:7 (05-08) and 10:14 (09-12) render near-identical Hebrew (מִי יַגִּיד לוֹ / לָאָדָם מַה־יִּהְיֶה אַחֲרָיו) in four different ways: "what will come after him", "what is going to be after him", "how it will come", "what will come after him, who can tell him". notes[41] cites them as the same question. Decide one form for 6:12 and 10:14 at least.
 
@@ -179,7 +179,7 @@ Applied 2026-10-25 by the review-fixer for 05-08, with the lead's cross-part dec
 6. Accepted. The book name is now on every reference the reviewer listed (notes[14], [39], [51], [65], [70], [77], [82] and the chapter 8 "Obeying the king" section). notes[14] r now reads "2:8; 4:1; Ezra 2:1; ... Esther 1:1; Esther 1:22", with Ecclesiastes 2:8 and 4:1 placed first. A script check then found 12 more `r`/`echoes` lists where this book's own references came after another book's. Under the lead's item 14 those link to the other book, so I moved this book's references to the front in all of them.
 7. Accepted (lead item 1). notes[65] and the chapter 7 deep section now quote "life with a woman you love" (9:9). Both also say that 9:9 has no article and 7:26 has "the woman".
 8. Accepted. The Orthodox view in the chapter 7 card now names the funeral service as a liturgical text, says God alone is without sin, and states the Theotokos exception without the Immaculate Conception. Source kept as ware-orthodox.
-9. Accepted. 5:4 now "When you make a vow to God, do not be slow to pay it", matching the Deuteronomy 23:21 Plain. The NIV overlap is forced by the Hebrew and by that alignment, and is logged in the drift log. The notes[6] anchor and the vows topic were updated.
+9. Accepted. 5:4 now "When you make a vow to God, do not be slow to pay it", matching the Deuteronomy 23:21 Plain English Translation. The NIV overlap is forced by the Hebrew and by that alignment, and is logged in the drift log. The notes[6] anchor and the vows topic were updated.
 10. Accepted. 6:2 now "His appetite lacks nothing of all it craves."
 11. Accepted. 6:10 now "Whatever has been was given its name long ago." This keeps "Whatever has been" (lead item 8) and renders kevar once.
 12. Accepted. 5:18 is split into three sentences, "through the numbered days" is kept (lead item 6), and the 3:13 wording "eat and drink and see good in all his toil" is kept. The opening was also re-shaped ("what I myself have seen as good and beautiful") to break a 7-word ESV run. The notes[26] anchor moved.
@@ -198,6 +198,6 @@ Applied 2026-10-25 by the review-fixer for 05-08, with the lead's cross-part dec
 25. Accepted. The sentence in chapter 6 views.W is rewritten as the reviewer suggested.
 26. Accepted. tools/dss.py shows both [יהולל] and [ויעוה] in brackets. notes[47] now says the verb is "only partly preserved; the editors restore it as wy'wh". djd16 is kept as the source.
 27. Accepted after checking. The Targum's false prophets and sorcerers are at Hebrew 5:6 (English 5:7), not at 5:3. notes[5] now gives what the Targum says at 5:3, and notes[13] (5:7) now gives the false prophets and sorcerers.
-28. Accepted. Added a variant at 8:12 on "a hundred times": MT me'at against the Greek ἀπὸ τότε (Rahlfs, and Swete/Vaticanus, both checked), which implies me'az. The Plain follows the MT.
+28. Accepted. Added a variant at 8:12 on "a hundred times": MT me'at against the Greek ἀπὸ τότε (Rahlfs, and Swete/Vaticanus, both checked), which implies me'az. The Plain English Translation follows the MT.
 
 Cross-part items. A: done (finding 7). B: no change needed. C: done (finding 15, lead 4). D: done under lead 7. 6:12 now reads "Who can tell a person what will come after him under the sun?" and its first clause also uses "a person". 8:7 already had "who can tell him". The notes[41] anchor moved. E: done under lead 8. 7:24 is "Whatever has been", and notes[63] now says exactly what is the same: the Hebrew mah-shehayah in 1:9, 3:15 and 6:10. F: done under lead 11. The global djd16 key in content/sources.json now names the volume with 4QProv-a, 4QProv-b, 4QQoh-a and 4QQoh-b, so every citing book keeps working. G: done under lead 9. 7:25 is now "wisdom and a reckoning" and 7:27 "adding one to one to find the reckoning". notes[64], the gloss and the chapter 7 spec box were updated, and 09-12 should quote these forms. H: for the lead (checker). I: done under lead 12. I created content/topics/fear-of-the-lord.json ("The fear of the LORD"; aka fear of God, fear God, fear of the Lord). I removed the alias "the fear of the LORD" from topics/wisdom.json, because the build errors on a duplicate name, and added fear-of-the-lord to its related list. notes[13] (5:7), [58] (7:18) and [83] (8:12) are tagged with it (notes[83] moved from retribution, which already covers 8:12–13 in its topic section), and a topic contribution was added. Lead 13: notes[0] and [2] at 5:1 are re-anchored inside their variants ("Keep watch", "Coming close to listen"), and notes[67] at 7:27 beside its variant ("See, this is what I have found"). Lead 5: 7:28 keeps "One man" for 'adam on purpose, because it stands against "a woman", and notes[68] explains this.

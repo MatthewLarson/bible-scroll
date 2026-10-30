@@ -27,7 +27,7 @@ There are no critical errors, but five things must be fixed before publication. 
 doxology is wrong: the oldest Latin (k) and the Sahidic Coptic do have a short doxology. (2) The divorce material
 leaves out the oldest and most widely held traditional reading: separation for *porneia* but no remarriage. (3)
 The note that the binding term list requires at the first "Amen, I tell you" (5:18) is missing. (4) 7:19 is said
-to repeat 3:10 "word for word", but the two Plain verses differ. (5) The Wink reading is wrongly said to have
+to repeat 3:10 "word for word", but the two Plain English Translation verses differ. (5) The Wink reading is wrongly said to have
 shaped Martin Luther King Jr.'s movement. The minor findings are mostly about precision. **Verdict: pass after
 revision** (0 critical, 5 major, 27 minor).
 
@@ -81,7 +81,7 @@ revision** (0 critical, 5 major, 27 minor).
 
 **4. Major: 7:19 does not match 3:10, though the note says it repeats it "word for word" (plain.txt 7:19; notes.json 7:19)**
 - *Problem:* The Greek of 7:19 is that of 3:10 without οὖν. The brief says the same Greek gets the same English,
-  and the note tells readers they are identical. The Plain differs. 3:10 (part 01-04) reads "Any tree that fails
+  and the note tells readers they are identical. The Plain English Translation differs. 3:10 (part 01-04) reads "Any tree that fails
   to produce good fruit is being cut down and thrown into the fire." 7:19 reads "Any tree that fails to yield
   good fruit gets chopped down and thrown into a fire."
 - *Fix:* Make 7:19 match 3:10 ("Any tree that fails to produce good fruit is being cut down and thrown into the
@@ -101,14 +101,14 @@ revision** (0 critical, 5 major, 27 minor).
 
 **6. Minor: 7:13, wrong word for "leads" and a missing "for" (plain.txt 7:13; variants.json 7:13)**
 The Greek is ὅτι πλατεῖα ἡ πύλη καὶ εὐρύχωρος ἡ ὁδὸς ἡ ἀπάγουσα εἰς τὴν ἀπώλειαν. The participle "leading"
-goes with the road, as the Plain correctly has it in 7:14 ("the road leading to life"). In 7:13 the Plain says
+goes with the road, as the Plain English Translation correctly has it in 7:14 ("the road leading to life"). In 7:13 the Plain English Translation says
 "The gate that leads to ruin is wide, and its road is roomy", and it drops ὅτι. *Fix:* "For the gate is wide,
 and the road that leads to ruin is roomy, and many are going in through it." Update the anchor and both
 readings' `plain` in the 7:13 variant.
 
 **7. Minor: 7:6 changes number and mood ("Holy things are not for dogs, so do not give them any")**
 The Greek is a single command with a singular object: Μὴ δῶτε τὸ ἅγιον τοῖς κυσίν, "Do not give the holy thing
-to the dogs." The Plain adds a statement that is not in the text and makes the object plural. The note's
+to the dogs." The Plain English Translation adds a statement that is not in the text and makes the object plural. The note's
 suggestion that "the holy thing" may be sacrificial meat depends on the singular. *Fix:* "Do not give what is
 holy to the dogs, and do not toss your pearls ..." Update the anchors of the note, the gloss and the traditions
 card quotation.
@@ -148,10 +148,10 @@ entry wherever the KJV reads differently in a way readers notice. *Fix:* Add an 
 See finding 1. Also give the Didache's form in `orig` or `b`, not only in prose.
 
 **13. Minor: the build warns about two quotations (notes.json 6:13 "Testing or temptation?", 7:29 "Authority, and 'their' scribes")**
-The 6:13 note quotes 26:41 as "pray that you may not come into testing". The Plain of the 26-28 part reads "Keep
+The 6:13 note quotes 26:41 as "pray that you may not come into testing". The Plain English Translation of the 26-28 part reads "Keep
 awake and keep praying, so that you do not walk into testing." The 7:29 note quotes 28:18 as "All authority in
-heaven and on earth has been given to me". The Plain reads "I have been given all authority, in heaven and on
-earth." *Fix:* Quote the site's Plain exactly.
+heaven and on earth has been given to me". The Plain English Translation reads "I have been given all authority, in heaven and on
+earth." *Fix:* Quote the site's Plain English Translation exactly.
 
 **14. Minor: the Kimhi claim is overstated and has no source (notes.json 5:22 Gehenna note; topics.json gehenna; proposals gehenna.json)**
 The note says the garbage-dump idea "comes from a medieval commentator (David Kimhi, about 1200)". What can be
@@ -307,7 +307,7 @@ Aufbau der Bergpredigt", *New Testament Studies* 24 (1978).
 10. Fixed. The witness is now "P64+67 (fragments of one codex, about AD 200, as cited in the UBS and NA28 apparatus)". Tregelles added to the εἰκῇ reading.
 11. Fixed for 7:2: new variant (μετρηθήσεται vs the TR's ἀντιμετρηθήσεται, from Luke 6:38). Not done for 5:11 or 6:28: I could not verify those witnesses myself.
 12. Fixed with 1.
-13. Fixed. 26:41 and 28:18 are now quoted in the site Plain wording.
+13. Fixed. 26:41 and 28:18 are now quoted in the site Plain English Translation wording.
 14. Fixed. The note and topic now say Kimhi on Psalm 27:13 is the earliest known source. Cites bailey-gehenna (new key; also added to the gehenna core's sources).
 15. Fixed. The saying is credited to Augustine (Letter 194.19; Catechism 2006) and shown as used by both sides; the difference on merit is stated, citing Augsburg Confession 20 and Calvin, Institutes 3.18.
 16. Fixed. Now reads "and Pope Francis supported the change".
@@ -319,7 +319,7 @@ Aufbau der Bergpredigt", *New Testament Studies* 24 (1978).
 22. Fixed. Both Greek forms of Tobit 12:8 are distinguished (Sinaiticus longer, Vaticanus "prayer with fasting").
 23. Fixed. Shabbat 105b for anger, Bava Metzia 58b for shaming.
 24. Fixed. Now "birds still search for food".
-25. Fixed. Tobit 4:15 uses the site Plain wording in both places; Luke 11:4 is "for we ourselves forgive" in both; Luke 13:24 is translated fresh ("Struggle to get in through the narrow door").
+25. Fixed. Tobit 4:15 uses the site Plain English Translation wording in both places; Luke 11:4 is "for we ourselves forgive" in both; Luke 13:24 is translated fresh ("Struggle to get in through the narrow door").
 26. Fixed. All three glosses changed as suggested.
 27. Fixed. 7:12 now cites bavli-shabbat.
 28. Fixed. Now "whatsoever".

@@ -18,12 +18,12 @@ written at the same time (list the 1 Peter 1:1 / 2 Peter 1:1 and 3:1 pair in you
 
 **Terms (with brief-general.md):** ἐκλεκτοί "chosen"; παρεπίδημοι / πάροικοι / παροικία (1:1, 17; 2:11) "temporary
 residents" / "resident aliens" / "your time as resident aliens"; ἀναγεννάω "give new birth" (1:3, 23; topic `new-birth`);
-ἀναστροφή "way of life"; λυτρόω (1:18) "ransom" (check Titus 2:14 and Mark 10:45 Plain); ἀκρογωνιαῖος "cornerstone"
-(Isaiah 28:16 Plain "cornerstone"; Ephesians 2:20 Plain: quote); βασίλειον ἱεράτευμα "a royal priesthood" (Exodus
-19:6 Plain: check its wording and say where the Greek differs); ὑποτάσσω "submit" / "be subject" (check Ephesians 5:21-24
-and Colossians 3:18 Plain and follow them); ἀγαθοποιέω "do good"; ἐπίσκοπος at 2:25 "Overseer" (terms.json lists the
+ἀναστροφή "way of life"; λυτρόω (1:18) "ransom" (check Titus 2:14 and Mark 10:45 Plain English Translation); ἀκρογωνιαῖος "cornerstone"
+(Isaiah 28:16 Plain English Translation "cornerstone"; Ephesians 2:20 Plain English Translation: quote); βασίλειον ἱεράτευμα "a royal priesthood" (Exodus
+19:6 Plain English Translation: check its wording and say where the Greek differs); ὑποτάσσω "submit" / "be subject" (check Ephesians 5:21-24
+and Colossians 3:18 Plain English Translation and follow them); ἀγαθοποιέω "do good"; ἐπίσκοπος at 2:25 "Overseer" (terms.json lists the
 verse; capital as a title of Christ) and ἐπισκοπέω (5:2, variant); συμπρεσβύτερος "fellow elder"; ἀρχιποίμην "Chief
-Shepherd"; Χριστιανός "Christian" (4:16; Acts 11:26; 26:28 Plain: check); πύρωσις "fiery ordeal"; ἀντίτυπον (3:21)
+Shepherd"; Χριστιανός "Christian" (4:16; Acts 11:26; 26:28 Plain English Translation: check); πύρωσις "fiery ordeal"; ἀντίτυπον (3:21)
 "corresponding to this" or "as a pattern of this" (the writer decides with a note; Hebrews 9:24 uses the same word, being
 written now: list it).
 
@@ -40,15 +40,15 @@ Septuagint quotations, the date (before Peter's death about AD 64-68 or AD 70-95
 its critics, the household code's purpose (Balch's assimilation reading against Elliott's "a home for the homeless":
 verify both). **L:** the inclusio of "resident aliens", the catena of stone texts (2:4-8), the hymn-like 2:21-25 and
 3:18-22 (creedal fragments: views), chiasm in 1:3-12. **J:** Israel's titles given to the church (2:9-10; Exodus 19:6;
-Isaiah 43:20-21; Hosea 1:6, 9; 2:23: quote the site's Plain), the Dispersion, Isaiah 53 in 2:22-25 (quote the Plain),
+Isaiah 43:20-21; Hosea 1:6, 9; 2:23: quote the site's Plain English Translation), the Dispersion, Isaiah 53 in 2:22-25 (quote the Plain English Translation),
 Noah and the Watchers (1 Enoch 6-16; 21; the "spirits in prison" as the fallen angels: the Enochic reading (Dalton:
-verify)), the righteous sufferer, Sarah calling Abraham "lord" (Genesis 18:12 Plain). **T:** Peter in Rome (1 Clement 5;
+verify)), the righteous sufferer, Sarah calling Abraham "lord" (Genesis 18:12 Plain English Translation). **T:** Peter in Rome (1 Clement 5;
 Ignatius, *Romans* 4.3; Eusebius on Peter's death: verify each), the descent into Hades in the creeds (the Apostles'
 Creed "he descended into hell": the history of the clause, verify), the icon of the Anastasis, Calvin on 3:19, Luther.
 
 **Places for full treatment:** 1:1-2 (the Trinity in the greeting; foreknowledge, election: top `election` only if a
 real verified divergence; else a note); 1:3-5; 1:10-12 (the prophets searched; "the Spirit of Christ in them"); 1:16
-(Leviticus 11:44-45; 19:2 Plain); 1:18-20; 1:23-25 (Isaiah 40:6-8 Septuagint against the Hebrew); **2:4-10** (the stone
+(Leviticus 11:44-45; 19:2 Plain English Translation); 1:18-20; 1:23-25 (Isaiah 40:6-8 Septuagint against the Hebrew); **2:4-10** (the stone
 texts; the spiritual house; **2:5, 9 royal priesthood**: a `traditions` card, top `priesthood`: the priesthood of all
 believers (Luther, *To the Christian Nobility* 1520: verify) against the ministerial priesthood (Catechism 1546-1547;
 Orthodox teaching; Vatican II, *Lumen Gentium* 10: verify), Anglican, Baptist; or point to Hebrews' card if the Heb
@@ -70,7 +70,7 @@ of Christ) against the symbolic reading (Baptist, many evangelicals); point to a
 this exact question, else write it); **4:6** ("the gospel was preached even to the dead": the same dead as 3:19 or
 Christians who have died since: views); 4:8 (Proverbs 10:12; James 5:20 being written now: list); 4:14 (variant: "of
 glory and power"); 4:17-18 (Proverbs 11:31 Septuagint "if the righteous is barely saved", against the Hebrew: quote
-Proverbs 11:31 Plain); **5:1** (Peter "a fellow elder and a witness of Christ's sufferings": the papacy question, point
+Proverbs 11:31 Plain English Translation); **5:1** (Peter "a fellow elder and a witness of Christ's sufferings": the papacy question, point
 to the `peter` topic and an existing Matthew 16 card if one exists, else a note); 5:2 (variant "exercising oversight");
 5:5 (Proverbs 3:34; James 4:6 being written now: list); 5:8; **5:13** (Babylon, Mark).
 

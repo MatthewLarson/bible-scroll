@@ -37,11 +37,11 @@ WORKS = [
         'about': {'grc': ('Greek: Codex Sinaiticus (the longer text)', 'Greek (Sinaiticus)',
                           'The longer Greek text (often called GII), from Codex Sinaiticus (300s AD), as printed by H. B. '
                           'Swete (1907), public domain. Most modern translations follow it. Sinaiticus has two gaps '
-                          '(4:7-19 and 13:6-10), where the Plain follows the shorter text.'),
+                          '(4:7-19 and 13:6-10), where the Plain English Translation follows the shorter text.'),
                   'grc_b': ('Greek: Codex Vaticanus (the shorter text)', 'Greek (Vaticanus)',
                             'The shorter Greek text (often called GI), from Codex Vaticanus (300s AD), as printed by '
                             'H. B. Swete (1907), public domain. The KJV and older Bibles follow it.')},
-        'en_note': 'It follows the shorter Greek text, so its verses do not always match the Plain.',
+        'en_note': 'It follows the shorter Greek text, so its verses do not always match the Plain English Translation.',
         'lat_note': 'Jerome made his Tobit in one day from an Aramaic copy, and its verses do not line up with the Greek.'}),
     ('Jdt', 'Judith', 'judith', 'septuagint', {'grc': 'Jdt', 'en': 'Judith', 'f1k': 'tlg020', 'lat': 'Judith',
         'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)',

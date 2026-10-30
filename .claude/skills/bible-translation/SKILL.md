@@ -1,9 +1,9 @@
 ---
 name: bible-translation
-description: How the Bible Scroll makes and checks its Plain English translation (literal line first, 8th-grade English, drift audit, terms, variants, quoting). Use whenever writing, revising or reviewing a verse of plain.txt or quoting a verse in a note.
+description: How the Bible Scroll makes and checks its Plain English Translation (literal line first, 8th-grade English, drift audit, terms, variants, quoting). Use whenever writing, revising or reviewing a verse of plain.txt or quoting a verse in a note.
 ---
 
-# Making a Plain English verse
+# Making a Plain English Translation verse
 
 1. Start from the literal line, never from memory: `cd bible && node tools/literal.js <id> <chapter>` (or
    `<id> <c:v-v>`, any book). For books outside the 66 without a gloss list (1 Enoch's Ge'ez), build your own
@@ -28,9 +28,9 @@ description: How the Bible Scroll makes and checks its Plain English translation
   Byzantine). Every Byzantine/TR difference an English reader would notice gets a variant. See `tools/brief-nt.md`.
 - Septuagint books: Swete (`grc`, `grc_b`), apparatus in `texts/src/<id>.app.json`. Dead Sea Scrolls:
   `tools/dss.py`; Swete per verse: `tools/lxx.py` (setup in their headers).
-- Every variant entry: two or more readings with witnesses, original text, English, the Plain each would give,
+- Every variant entry: two or more readings with witnesses, original text, English, the Plain English Translation each would give,
   which is followed and why. Never invent a reading; attribute ("reported by Metzger").
 
 # Quoting
-A note quoting a verse of a book already on the site uses that verse's current Plain exactly (the build warns
+A note quoting a verse of a book already on the site uses that verse's current Plain English Translation exactly (the build warns
 otherwise). Write the book name on every reference to another book.

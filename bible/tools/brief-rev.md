@@ -21,13 +21,13 @@ it.** Edit the source, then run `node tools/import-rev.js` and `node tools/build
 `traditions_by_chapter`, `variants`, each keyed by chapter number (string) where per-chapter.
 
 Use `grep -rn` over `revelation/` to find any string. Source rules: write straight `"` quotes (the app curls them);
-a note or gloss anchor must be an exact substring of the verse's Plain; glosses may nest inside note anchors but not
+a note or gloss anchor must be an exact substring of the verse's Plain English Translation; glosses may nest inside note anchors but not
 partly overlap them; variants may not overlap notes or glosses at all (the build checks).
 
 ## Reviews and fixes
 
 Revelation is long (404 verses), so it is reviewed in five slices, each with its own file in `content/overlays/`:
-`Rev-review-01-05.md`, `Rev-review-06-11.md`, `Rev-review-12-16.md`, `Rev-review-17-22.md` (Plain, notes,
+`Rev-review-01-05.md`, `Rev-review-06-11.md`, `Rev-review-12-16.md`, `Rev-review-17-22.md` (Plain English Translation, notes,
 glosses, variants, chapter pages, settings and traditions for those chapters) and `Rev-review-book.md`
 (book.json and its pages, topic contributions and Rev-origin topic cores, sources). Each ends with
 `## Fixes applied`.
@@ -49,14 +49,14 @@ Fixers share source files (plain.js, notes*.js, the overlay). So:
   "servant". Notes, glosses, topics and settings that quote those verses change with them.
 - The three old translation-watch notes of kind `var` (11:15, 13:18, 22:14) become proper variants in the overlay;
   remove the notes (or move what is not about the variant to a note on a different anchor) so nothing overlaps.
-- Quote warnings: a quote of another book's verse uses that verse's current Plain exactly (Isaiah and Jeremiah are
+- Quote warnings: a quote of another book's verse uses that verse's current Plain English Translation exactly (Isaiah and Jeremiah are
   now written; take their wording from `content/books/<id>/`'s plain or parts). Revelation's own quotes of
-  itself must match Revelation's Plain too.
+  itself must match Revelation's Plain English Translation too.
 - οἱ ἅγιοι "the saints" (gloss "God's holy people" at 5:8); μετανοέω "repent" (gloss at 2:5); εὐαγγελ- "the good
   news" / "tell the good news" (note at 10:7); πνεῦμα ἀκάθαρτον "unclean spirit"; Χριστός "Christ" in "Jesus
   Christ" and 20:4, 6, "his Messiah" at 11:15 and 12:10 (Psalm 2:2); σφάζω "slaughter" everywhere.
 - Hymns and songs are poetry (` / ` line breaks). Verse division follows the SBL (2:28 begins "just as I
   received"), with a note.
 - "Where Christians differ": final punishment once, at chapter 20; the state of the dead at 6:9–11.
-- The 2026-10 review found the Plain leaning on the NIV throughout, so every verse was rebuilt from literal.js.
+- The 2026-10 review found the Plain English Translation leaning on the NIV throughout, so every verse was rebuilt from literal.js.
   Any future change starts from literal.js too.

@@ -4,11 +4,11 @@ Reviewer: Claude (hostile reviewer, per tools/agent-reviewer.md). Part 07-10 not
 
 ## Verdict
 
-This is a strong part. `node tools/build.js --check Ezr/01-06` passes (157 verses, 106 notes, 14 variants, 48 glosses, 6 chapter pages, 23 topic contributions, 0 errors, 0 warnings). I checked all 157 verses against `tools/literal.js` for the Hebrew and the Aramaic, and every name and number in chapter 2 against the Leningrad text. Every number in 2:3–69 is right. I recomputed the totals myself: the family numbers add to 29,818 in Ezra and 31,089 in Nehemiah 7, and the vessels in 1:9–10 add to 2,499. The Nehemiah 7 table matches the Hebrew of Nehemiah line for line. The parallel rule holds for 1:1–3a: the English matches the site's 2 Chronicles 36:22–23 word for word wherever the Hebrew is the same. It differs only at מִפִּי/בְּפִי ("from"/"by") and יְהִי/יְהוָה ("May his God"/"The LORD his God"). Every quotation of a book the site has already translated matches that book's Plain wording. The citations I spot-checked are real and say what they are cited for: Bava Batra 14b–15a, Sanhedrin 21b and 38a, Yoma 9b and 21b, Megillah 3a and 11b, Zevachim 62a, Mishnah Sotah 9:12 and Kiddushin 4:1, the Masoretic midpoint at Nehemiah 3:32, Xenophon's *Cyropaedia* 8.6.22, Herodotus 1.98, 1.178 and 3.159, the VS 4 152 tablet for Tattenai, Lachish 6, and Elephantine. So are the 18 new Ezra–Nehemiah keys in content/sources.json and the 11 keys in the part's sources.json.
+This is a strong part. `node tools/build.js --check Ezr/01-06` passes (157 verses, 106 notes, 14 variants, 48 glosses, 6 chapter pages, 23 topic contributions, 0 errors, 0 warnings). I checked all 157 verses against `tools/literal.js` for the Hebrew and the Aramaic, and every name and number in chapter 2 against the Leningrad text. Every number in 2:3–69 is right. I recomputed the totals myself: the family numbers add to 29,818 in Ezra and 31,089 in Nehemiah 7, and the vessels in 1:9–10 add to 2,499. The Nehemiah 7 table matches the Hebrew of Nehemiah line for line. The parallel rule holds for 1:1–3a: the English matches the site's 2 Chronicles 36:22–23 word for word wherever the Hebrew is the same. It differs only at מִפִּי/בְּפִי ("from"/"by") and יְהִי/יְהוָה ("May his God"/"The LORD his God"). Every quotation of a book the site has already translated matches that book's Plain English Translation wording. The citations I spot-checked are real and say what they are cited for: Bava Batra 14b–15a, Sanhedrin 21b and 38a, Yoma 9b and 21b, Megillah 3a and 11b, Zevachim 62a, Mishnah Sotah 9:12 and Kiddushin 4:1, the Masoretic midpoint at Nehemiah 3:32, Xenophon's *Cyropaedia* 8.6.22, Herodotus 1.98, 1.178 and 3.159, the VS 4 152 tablet for Tattenai, Lachish 6, and Elephantine. So are the 18 new Ezra–Nehemiah keys in content/sources.json and the 11 keys in the part's sources.json.
 
 The real problems are these:
-- **A drift case.** In 6:8 the Plain reproduces the ESV's double rendering "in full and without delay".
-- **A false method claim.** The front page says the Plain follows the Qere only at 4:2 and 4:9. In fact it follows the Qere silently at several more places, including three names in chapter 2.
+- **A drift case.** In 6:8 the Plain English Translation reproduces the ESV's double rendering "in full and without delay".
+- **A false method claim.** The front page says the Plain English Translation follows the Qere only at 4:2 and 4:9. In fact it follows the Qere silently at several more places, including three names in chapter 2.
 - **Missing setting cards.** Two of the chapter's letters (4:6 and 4:7) have no card, and some cards state debated dates as settled.
 - **Smaller problems.** The rest are small factual slips and gaps in the variants, mostly around 1 Esdras 5 and Josephus.
 
@@ -20,17 +20,17 @@ There are no critical findings.
 
 ### 1. Major: 6:8 follows the ESV and over-translates אָסְפַּרְנָא
 - **Where:** plain.txt 6:8, "these men are to be paid the full cost without delay, so that they are not stopped."
-- **Evidence:** The Aramaic is אָסְפַּרְנָא נִפְקְתָא תֶּהֱוֵא מִתְיַהֲבָא לְגֻבְרַיָּא אִלֵּךְ דִּי־לָא לְבַטָּלָא. That is one adverb, *asparna* ("exactly, diligently"), plus "that there be no stopping." The Plain renders *asparna* twice ("full" and "without delay") and then renders *di-la lebattala* as well. The pair "full ... without delay" is the ESV's "in full and without delay." Elsewhere the Plain renders *asparna* "with care" (5:8, 6:12) and "with all care" (6:13). So 6:8 is the only place the word turns into "without delay."
+- **Evidence:** The Aramaic is אָסְפַּרְנָא נִפְקְתָא תֶּהֱוֵא מִתְיַהֲבָא לְגֻבְרַיָּא אִלֵּךְ דִּי־לָא לְבַטָּלָא. That is one adverb, *asparna* ("exactly, diligently"), plus "that there be no stopping." The Plain English Translation renders *asparna* twice ("full" and "without delay") and then renders *di-la lebattala* as well. The pair "full ... without delay" is the ESV's "in full and without delay." Elsewhere the Plain English Translation renders *asparna* "with care" (5:8, 6:12) and "with all care" (6:13). So 6:8 is the only place the word turns into "without delay."
 - **Fix:** Redraft from the Aramaic, for example: "From the king's funds, from the tribute of Beyond the River, the cost is to be paid to these men exactly, so that the work is not stopped." Keep one English word for *asparna* across 5:8, 6:8, 6:12 and 6:13, and add a short `word` note on *asparna* (a Persian loanword, "exactly, diligently").
 
 ### 2. Major: the Qere is followed silently, contrary to book.json and the name policy
 - **Where:** book.json sections, "About the translations," which says "with the Masoretes' marked readings (Qere) at 4:2 and 4:9." The verses affected are plain.txt 2:46, 2:50, 3:3, 4:7 and 4:11.
 - **Evidence (texts/auto/Ezr.json):**
-  - **2:46, a name:** the Ketiv is שַׁמְלַי *Shamlai*. The Plain's "Shalmai" is the Qere.
-  - **2:50, two names:** the Ketiv has מְעִינִים *Meinim* and נְפִיסִים *Nephisim*. The Plain's "Meunim" and "Nephusim" are the Qere.
-  - **3:3:** the Ketiv is וַיַּעַל "he offered" and the Qere is "they offered." The Plain has "they offered."
-  - **4:7:** the Ketiv is כנותו "his colleague" and the Qere is "his colleagues." The Plain has "the rest of his colleagues."
-  - **4:11:** the Ketiv is plural "your servants" and the Qere is singular collective עַבְדָךְ. Here the Plain follows the Ketiv sense.
+  - **2:46, a name:** the Ketiv is שַׁמְלַי *Shamlai*. The Plain English Translation's "Shalmai" is the Qere.
+  - **2:50, two names:** the Ketiv has מְעִינִים *Meinim* and נְפִיסִים *Nephisim*. The Plain English Translation's "Meunim" and "Nephusim" are the Qere.
+  - **3:3:** the Ketiv is וַיַּעַל "he offered" and the Qere is "they offered." The Plain English Translation has "they offered."
+  - **4:7:** the Ketiv is כנותו "his colleague" and the Qere is "his colleagues." The Plain English Translation has "the rest of his colleagues."
+  - **4:11:** the Ketiv is plural "your servants" and the Qere is singular collective עַבְדָךְ. Here the Plain English Translation follows the Ketiv sense.
 
   The rest of the Ketiv/Qere pairs are spelling only and need no entry: 2:1, 4:4, 4:12, 5:1, 5:12, 5:15, 6:14 and 6:17. The name policy is each name "in the Hebrew form of that verse, with no silent normalizing." The three temple-servant names in 2:46 and 2:50 are exactly that kind of silent choice. Nehemiah 7:48 and 7:52 read Shalmai and Meunim, so the choice is defensible, but it is not disclosed.
 - **Fix:**
@@ -75,7 +75,7 @@ There are no critical findings.
 
 ### 7. Minor: 6:6 "your colleagues" stands for Aramaic "their colleagues"
 - **Where:** plain.txt 6:6.
-- **Evidence:** The Aramaic is וּכְנָוָתְהוֹן "and their colleagues," and the Greek of Ezra has καὶ οἱ σύνδουλοι αὐτῶν (checked in the Swete/Rahlfs text at sacred-texts.com). The Plain changes the person to fit the direct address. That is the same smoothing as the KJV and ESV, and it is not marked.
+- **Evidence:** The Aramaic is וּכְנָוָתְהוֹן "and their colleagues," and the Greek of Ezra has καὶ οἱ σύνδουλοι αὐτῶν (checked in the Swete/Rahlfs text at sacred-texts.com). The Plain English Translation changes the person to fit the direct address. That is the same smoothing as the KJV and ESV, and it is not marked.
 - **Fix:** Either keep "their colleagues" (the address is formulaic, as in 5:6) or keep "your" and add a `nu` note.
 
 ### 8. Minor: the chapter 5 spec box cites Arnold with no source key, and its claim to originality needs checking
@@ -165,7 +165,7 @@ There are no critical findings.
 - **Where and evidence:**
   - **4:12** "that rebellious and evil city": the Aramaic קִרְיְתָא מָרָדְתָּא וּבִאישְׁתָּא has only the article. "That" matches the ESV and NIV ("that rebellious and wicked city").
   - **4:15** "harmful to kings and provinces ... stirred up revolt": this is close to the ESV ("hurtful to kings and provinces ... sedition was stirred up").
-  - **5:3/5:9** "this structure": *ushsharna* is the same word as the ESV/NIV "structure." The Plain's own note favors "materials/fittings."
+  - **5:3/5:9** "this structure": *ushsharna* is the same word as the ESV/NIV "structure." The Plain English Translation's own note favors "materials/fittings."
   - **6:21** "everyone who had joined them ... in order to seek": "who had joined them" interprets עֲלֵיהֶם as the ESV does, and "in order to seek" is the NIV's phrasing.
   - **4:9** follows the ESV's sequence of renderings, "the judges, the ... the officials, the Persians, the ... of Erech, the Babylonians, the ... of Susa, that is, the Elamites," and differs only in "envoys" and "people."
 
@@ -178,7 +178,7 @@ There are no critical findings.
 
 ### 20. Minor: "haggolah" is rendered inconsistently with terms.json
 - **Where:** plain.txt 1:11 "as the exiles were led up"; 2:1 "from captivity among the exiles."
-- **Evidence:** terms.json gives *haggolah* as "the exile" (the community) and *bene haggolah* as "the people of the exile." The Plain follows this at 4:1, 6:16, 6:19, 6:20 and 6:21, but not at 1:11 or 2:1.
+- **Evidence:** terms.json gives *haggolah* as "the exile" (the community) and *bene haggolah* as "the people of the exile." The Plain English Translation follows this at 4:1, 6:16, 6:19, 6:20 and 6:21, but not at 1:11 or 2:1.
 - **Fix:**
   - 1:11: "as the exile was brought up from Babylon."
   - 2:1: "who came up from the captivity of the exile."
@@ -225,7 +225,7 @@ There are no critical findings.
   - Facts, Length: add "most printed Hebrew Bibles, like the Talmud, end with Chronicles."
 
 ## Checked and found sound (no action)
-- **Translation:** All 157 verses agree with literal.js in content, names, numbers, tenses and who does what, apart from the items above. Some verses noted as possible ESV matches turned out to track the Aramaic more closely than the ESV, so there is no drift there: 1:6, 2:62, 4:14 and 6:11, where the Plain keeps "lifted up" and "for this," which the ESV drops. Chapter 2 names and numbers: all correct apart from item 5.
+- **Translation:** All 157 verses agree with literal.js in content, names, numbers, tenses and who does what, apart from the items above. Some verses noted as possible ESV matches turned out to track the Aramaic more closely than the ESV, so there is no drift there: 1:6, 2:62, 4:14 and 6:11, where the Plain English Translation keeps "lifted up" and "for this," which the ESV drops. Chapter 2 names and numbers: all correct apart from item 5.
 - **Parallel rule:** 1:1–3a against the site's 2 Chronicles 36:22–23 is correct in both directions.
 - **Terms:** The renderings agree with terms.json apart from item 20. Checked: YHWH, *hesed* "loyal love," *bene Yisra'el* "the Israelites," *olah*, *hatta't* (with the "purification offering" note), *re'ach nichoach*, *shachat*, *netinim*, *nasi*, *eved* (noted), *torah* (noted) and *avar-nahara*.
 - **Variants:**
@@ -254,7 +254,7 @@ There are no critical findings.
 Fixes applied by the part 01-06 writer, 2026-10-23. Every rewritten verse was re-audited for drift against recall of the NIV and ESV (verse and outcome only, logged in scratch); all came out clean.
 
 1. **6:8:** redrafted from the Aramaic as "Out of the king's funds, from the tribute of Beyond the River, the expenses are to be given to these men with care, so that they are not held up." *Asparna* is now "with care" in 5:8, 6:8 and 6:12, and "with all care" in 6:13. Added a `word` note on *asparna* at 6:8.
-2. **Ketiv/Qere:** added variants for 2:46 (Shalmai/Shamlai), 2:50 (Meunim and Nephusim / Meinim and Nephisim), 3:3 (they/he offered), 4:7 (colleagues/colleague) and 4:11 (Ketiv "your servants" followed). In doing this I found that the existing 4:9 entry had Ketiv and Qere swapped. The written text is "that is" and the Qere is "Dehavites", so the Plain follows the Ketiv at 4:9. The entry is corrected. The book.json sentence now reads: the Plain follows the Qere except at 4:9 and 4:11, with every pair that changes a name or the English listed; the remaining pairs are spelling only.
+2. **Ketiv/Qere:** added variants for 2:46 (Shalmai/Shamlai), 2:50 (Meunim and Nephusim / Meinim and Nephisim), 3:3 (they/he offered), 4:7 (colleagues/colleague) and 4:11 (Ketiv "your servants" followed). In doing this I found that the existing 4:9 entry had Ketiv and Qere swapped. The written text is "that is" and the Qere is "Dehavites", so the Plain English Translation follows the Ketiv at 4:9. The entry is corrected. The book.json sentence now reads: the Plain English Translation follows the Qere except at 4:9 and 4:11, with every pair that changes a name or the English listed; the remaining pairs are spelling only.
 3. **Setting cards:** added 4:6 (the accusation under Ahasuerus, with views), 4:7 (the letter of Mithredath and Tabeel, with views) and 5:3–4 (Tattenai's question).
 4. **Hedged cards:** the 4:2 `when` now gives both views (with a new view pair), the 2:63 `when` is hedged, the 4:3 card has three `views`, and the 5:11–16 `why` says "perhaps".
 5. **2:61:** "Hobaiah", in the verse and on the 2:63 card.

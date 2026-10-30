@@ -9,7 +9,7 @@ Part of [[bible-site]]. Published in canonical order through Job by 2026-10-23; 
 
 Terms (content/terms.json is authoritative): torah 'law', chuqqim 'rules', edot 'decrees'; 'innah 'dishonor'; nokhri 'foreigner', zar 'outsider', ger 'foreigner who lives among you'; hesed 'loyal love'; kana' (Niphal) 'humble oneself'; seganim 'deputies' (sarim 'officials'); Neh 5:19/13:31 "My God, remember me for good".
 
-Text policies: Leningrad base; TAHOT type-X words are reconstructions (variants only). Names in each verse's Hebrew form, with a note. Ketiv in names only when it has other support (Greek or a parallel list), unless a parallel list in the book shows the Qere is meant. Parallel passages (Chronicles/Kings, Ezra 2/Neh 7) reuse the site's Plain where the Hebrew matches. In 2 Sam 11 to 1 Kgs 2:11 and all of 2 Kings the Vaticanus Greek is kaige; the Lucianic is the better Old Greek. Esther: the Greek Additions and Alpha Text are variants and notes, never the Plain.
+Text policies: Leningrad base; TAHOT type-X words are reconstructions (variants only). Names in each verse's Hebrew form, with a note. Ketiv in names only when it has other support (Greek or a parallel list), unless a parallel list in the book shows the Qere is meant. Parallel passages (Chronicles/Kings, Ezra 2/Neh 7) reuse the site's Plain English Translation where the Hebrew matches. In 2 Sam 11 to 1 Kgs 2:11 and all of 2 Kings the Vaticanus Greek is kaige; the Lucianic is the better Old Greek. Esther: the Greek Additions and Alpha Text are variants and notes, never the Plain English Translation.
 
 Safety: a writer brief that asked agents to write out recalled NIV/ESV text tripped an API safeguard; the drift audit compares in the head and logs only verse/outcome/reason.
 

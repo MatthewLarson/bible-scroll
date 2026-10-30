@@ -4,7 +4,7 @@ Reviewer's scratch: /tmp/claude-0/-home-user/73d75830-9c6c-5165-83cd-5d43110d5bc
 
 ## Verdict
 
-This is a strong part. The Plain is faithful to the Leningrad text verse by verse. The title forms follow terms.json ("A psalm.", "Of David. A psalm.", "A psalm for the thank offering."). Every psalm has a settings card with `readers`. Every summary gives the Greek number. The numbering note appears once, at 90:0. Psalm 96 reuses the site's Plain of 1 Chronicles 16. The from-memory items I could check mostly hold up:
+This is a strong part. The Plain English Translation is faithful to the Leningrad text verse by verse. The title forms follow terms.json ("A psalm.", "Of David. A psalm.", "A psalm for the thank offering."). Every psalm has a settings card with `readers`. Every summary gives the Greek number. The numbering note appears once, at 90:0. Psalm 96 reuses the site's Plain English Translation of 1 Chronicles 16. The from-memory items I could check mostly hold up:
 
 - the Targum readings at 90:3, 90:12, 90:17, 92:1, 92:15, 101:1 and 101:2 (checked against Cook's translation);
 - the 11QPs-a "Hallelujah" at 93:1;
@@ -60,11 +60,11 @@ The second reading's `w` gives "Jerome's Gallican Psalter and his Psalter from t
 ### 6. Minor: notes.json 101:2 "A puzzling question": broken cross-reference
 "On *tamim*, 'blameless,' see the note on 18:23." Part 018-030 has no note at 18:23. The *tamim* notes are at 15:2 ("Wholehearted") and 7:8. Fix: "see the note on 15:2". Note also that 15:2 renders *holekh tamim* "walks with a whole heart" while 101:6 has "walks the blameless way". terms.json allows either by context, but the 101:6 note says these are "the same words", so a reader will see two renderings. Add a few words to the note about why 101 uses "blameless".
 
-### 7. Minor: quotations that do not match the site's Plain
-- 91:3 note: Psalm 124:7 "the trap is broken, and we escaped." The Plain reads "The trap snapped, / and we got loose."
-- 94:11 note: Job 5:13 "he catches the wise in their cleverness." The Plain reads "He snares the wise in their own cunning".
-- 95:10 note "Disgust": Job 10:1 "My soul is sick of my life." The Plain reads "My whole being is sick of living."
-- topics.json `cherubim`: "the LORD of armies, who sits on the cherubim" (1 Samuel 4:4). The Plain and terms.json have "the LORD of Armies".
+### 7. Minor: quotations that do not match the site's Plain English Translation
+- 91:3 note: Psalm 124:7 "the trap is broken, and we escaped." The Plain English Translation reads "The trap snapped, / and we got loose."
+- 94:11 note: Job 5:13 "he catches the wise in their cleverness." The Plain English Translation reads "He snares the wise in their own cunning".
+- 95:10 note "Disgust": Job 10:1 "My soul is sick of my life." The Plain English Translation reads "My whole being is sick of living."
+- topics.json `cherubim`: "the LORD of armies, who sits on the cherubim" (1 Samuel 4:4). The Plain English Translation and terms.json have "the LORD of Armies".
 
 The build misses these because the reference comes before the quotation. Fix: use the site's wording.
 
@@ -99,7 +99,7 @@ The note says "The Greek of Psalm 95:4 adds the same words". The variant says on
 "Psalm 92:15 uses the same words: *yashar*, 'straight,' *tsur*, 'rock,' and *ein avel*, 'no wrong.'" Deuteronomy 32:4 has *ve'ein avel*. Psalm 92:16 (Hebrew) has *velo-avlatah bo*, a different form (and has a Ketiv/Qere, see texts/auto). Fix: "the same three ideas, and nearly the same words (*avel* / *avlatah*)".
 
 ### 18. Minor: chapter 93 `sum`, and book.json: "The LORD is King!" psalms listed as 93; 95–99
-Only 93, 97 and 99 open with *YHWH malakh*, and 96:10 has the cry inside the psalm. Psalm 95 says "a great King" and 98 "the King, the LORD". The chapter 93 deep section gets this right. Fix the summary: "the first of the psalms of the LORD's kingship (93–99)". For the 001-017 owner of book.json: it writes "the LORD is king" in lower case, where the Plain has "King". Its outline labels for 90, 91 and 93 ("teach us to number our days", "Under the shadow of the Almighty", "robed in majesty") are the familiar KJV/ESV/NIV wording, not this site's Plain ("count our days", "in the shadow", "dressed in majesty").
+Only 93, 97 and 99 open with *YHWH malakh*, and 96:10 has the cry inside the psalm. Psalm 95 says "a great King" and 98 "the King, the LORD". The chapter 93 deep section gets this right. Fix the summary: "the first of the psalms of the LORD's kingship (93–99)". For the 001-017 owner of book.json: it writes "the LORD is king" in lower case, where the Plain English Translation has "King". Its outline labels for 90, 91 and 93 ("teach us to number our days", "Under the shadow of the Almighty", "robed in majesty") are the familiar KJV/ESV/NIV wording, not this site's Plain English Translation ("count our days", "in the shadow", "dressed in majesty").
 
 ### 19. Minor: variants: Greek 90:3 is missing
 Greek 89:3 reads "Do not turn a human being back to lowliness" (μὴ ἀποστρέψῃς ἄνθρωπον εἰς ταπείνωσιν), as if from *al tashev* for *tashev*. This turns the statement into a plea, and Jerome's Gallican follows it (*ne avertas*). The KJV follows the Hebrew, but the reading changes the sense and belongs in variants.json, or at least in the 90:3 note.
@@ -152,7 +152,7 @@ The verses I spot-checked and found clean include 90:1–2, 90:4, 90:10, 90:12, 
 - 4: verified. Swete's apparatus at Greek 94:10 reads "προσωχθισα] pr διο R*". The note now cites it and adds the other explanation, that the Psalter may have been made to match Hebrews. The forty-years remark is now credited to Lane and Attridge.
 - 5: split the two Latin readings at 92:10. The Gallican "in misericordia uberi" is its own reading, with the *eleos*/*elaion* explanation.
 - 6: changed the cross-reference to 15:2. The 101:6 note explains that *derekh*, "way," is why this verse has "the blameless way".
-- 7: all four quotations now use the site's Plain (124:7, Job 5:13, Job 10:1, 1 Samuel 4:4).
+- 7: all four quotations now use the site's Plain English Translation (124:7, Job 5:13, Job 10:1, 1 Samuel 4:4).
 - 8: the 95:11 note now says the "if" is kept by the Greek and by the KJV of Hebrews 4:3 and 4:5.
 - 9: the 90:12 note now says the 1662 service reads the psalm in church before the burial.
 - 10: chapter 93 `views.L` now gives the Roman Breviary before 1911 and the current Roman lectionary, Year B.
@@ -170,7 +170,7 @@ The verses I spot-checked and found clean include 90:1–2, 90:4, 90:10, 90:12, 
 - 22: the 97:7 variant now says "nearly the same words" and gives the exact form in Odes 2:43.
 - 23: Rashi on 99:8 does name Samuel's sons (checked), so it stays and is cited as Rashi on 99:8. Cut the Sanctus sentence from chapter 99. Rewrote the line in chapter 94 `views.L`. Removed the Radak aside from the 96:13 note.
 - 24: the numbering note now says the Greek gives "each of them" a title.
-- 25: reworded 98:5, 97:2 (first line only; the second line stays as the 89:14 Plain), 90:9, 92:14, 91:14 and 94:22. 93:1 and 96:10 now read "Surely the world is set firm", and 1 Chronicles 16:30 must follow.
+- 25: reworded 98:5, 97:2 (first line only; the second line stays as the 89:14 Plain English Translation), 90:9, 92:14, 91:14 and 94:22. 93:1 and 96:10 now read "Surely the world is set firm", and 1 Chronicles 16:30 must follow.
 - Lead decisions:
   - Yah: 94:7 and 94:12 now read "Yah", with a note at its first use (94:7).
   - Selah: none occurs in this part.

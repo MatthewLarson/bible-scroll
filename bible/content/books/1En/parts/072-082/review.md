@@ -39,7 +39,7 @@ the other number words, and the brief says that needs no entry). The quoted orig
 "Fourteenths" is a fair interpretation of "seven-seven" (7 + 7, or halves of sevenths), but it is an interpretation,
 not a reading.
 **Fix:** delete the variant. Move the point into a `word`/`deb` note on 74:3: both texts say "seven-seven parts."
-Charles took it as "single seventh parts"; the Plain takes it as fourteenths, following Neugebauer's scheme. Then check
+Charles took it as "single seventh parts"; the Plain English Translation takes it as fourteenths, following Neugebauer's scheme. Then check
 every other `orig` in variants.json against `gez`/`eotc` character by character.
 
 ### Major
@@ -50,7 +50,7 @@ text." But the EOTC text has the words, unbracketed: `ነፋሳት፡ ዘመን�
 Only Dillmann brackets them. The other reading's witness, "Words Dillmann prints in brackets, from some manuscripts,"
 gives no source for "from some manuscripts."
 **Fix:** reading 0 is "Dillmann (bracketed as doubtful)"; reading 1 is "EOTC printed Bible; Dillmann's bracketed
-words." Restate `why` honestly: the Plain drops words the EOTC prints. If you keep dropping them, give a reason that
+words." Restate `why` honestly: the Plain English Translation drops words the EOTC prints. If you keep dropping them, give a reason that
 does not depend on the EOTC.
 
 **3. Major. notes.json 81:1 and terms.json "heavenly tablets": false claim about the Ge'ez.**
@@ -64,8 +64,8 @@ the term is shared.
 
 **4. Major. plain.txt 73:6: mistranslated fraction, inconsistent with 73:7, 73:8 and 74:3.**
 Dillmann reads `ይከውን ፡ ብርሃኑ ፡ ፯ወ፯እደ ፡ አሐቲ ፡ ወመንፈቃ` and the EOTC reads `ሰብዐቱ፡ ሰብዐተ፡ እድ፡ አሐቲ፡ ወመንፈቃ`:
-"its light becomes one [part] of seven-and-seven parts, and its half." The Plain renders it "its light amounts to one
-seventh and a half." Yet the Plain reads the same ፯ወ፯ as fourteen in 73:8 ("its fourteen parts"), and as 7 + 7 in the
+"its light becomes one [part] of seven-and-seven parts, and its half." The Plain English Translation renders it "its light amounts to one
+seventh and a half." Yet the Plain English Translation reads the same ፯ወ፯ as fourteen in 73:8 ("its fourteen parts"), and as 7 + 7 in the
 73:7 variant ("seven and seven ... fourteen and a half"). 74:3 makes "seven-seven" into fourteenths. 73:6 alone gives
 "seventh," which also breaks the scheme the 73:5 note and the ch. 73 deep section teach (steps of one fourteenth).
 **Fix:** "its light amounts to one fourteenth part and a half" (or "one part of fourteen, and a half"). Add a short
@@ -73,10 +73,10 @@ note: Charles has "one-seventh part and the half thereof"; Neugebauer reads four
 
 **5. Major. notes.json 72:10: false arithmetic explanation, and 72:12 is left unexplained.**
 The note says "In 72:12 and 72:18 the change is again counted as the gap between day and night." That is true for
-72:18 (10:8, a gap of 2) but false for 72:12 (11:7, a gap of 4). In 72:12 the Plain says the day "grows longer by two
+72:18 (10:8, a gap of 2) but false for 72:12 (11:7, a gap of 4). In 72:12 the Plain English Translation says the day "grows longer by two
 parts and becomes eleven," but the day was 10 at the end of the previous month (72:10), so it grew by one. The mirror
 verse 72:16 correctly says "shorter by exactly one part." The Ge'ez of 72:12 does say "two" (EOTC `ክልኤተ፡ እደ`;
-Dillmann's digitized `፳` is evidently ፪), so the Plain is faithful. But the reader is given a wrong reason, and the
+Dillmann's digitized `፳` is evidently ፪), so the Plain English Translation is faithful. But the reader is given a wrong reason, and the
 reader the user cares most about (someone checking the arithmetic) will catch it.
 **Fix:** drop the sentence. Add a note on 72:12: the Ge'ez says "two parts," though the day grows from 10 to 11. The
 "two" is probably counted from the equinox (9 to 11), as 72:18 counts from midsummer (12 to 10), or it is a slip;
@@ -133,7 +133,7 @@ confused is supported by this very file: Dillmann's digitized text prints ፷ wh
 **11. Minor. plain.txt 74:14, "62 days are added to the thousand", and its note.** "The thousand" is not in the Ge'ez:
 `እስመ ፡ በጸአቱ ፡ ይትዌሰክ ፡ ዲበ ፡ [60]ወ፪መዋዕል` says "for by its going out it is added upon 62 days." The note's claim
 that "most translators" take it as spelling out 1,000 + 62 is unsourced. Charles reads it another way (1,770 is added
-to 1,062 to make 2,832, as 74:15 goes on to say). Keep the Plain close to the Ge'ez ("for in its count it is added to
+to 1,062 to make 2,832, as 74:15 goes on to say). Keep the Plain English Translation close to the Ge'ez ("for in its count it is added to
 the 62 days"), and give both readings in the note, naming who holds each.
 
 **12. Minor. notes.json 75:2 ("World" or "year"?): miscount.** ʿaläm stands three times in 75:2, not twice:
@@ -176,7 +176,7 @@ figure and the Jerusalem figure (about 14 hours) check out.
 manuscripts, as Charles reports"; add Knibb if you can check him. In 81:3 the EOTC also adds `ዐቢይ`, "great" (the
 "great Lord" that Charles has). Mention it alongside "and I wept."
 
-**20. Minor. plain.txt 81:4: possible drift toward Knibb.** The Plain's "Blessed is the man who dies righteous and good,
+**20. Minor. plain.txt 81:4: possible drift toward Knibb.** The Plain English Translation's "Blessed is the man who dies righteous and good,
 / about whom no book of wrongdoing has been written, / and against whom no guilt has been found" runs very close to
 Knibb's wording (from memory; check against Knibb). Much of it is forced by the Ge'ez (`ወኢተረክበ ፡ ጌጋይ ፡ ላዕሌሁ`),
 but the drift audit should look at it. A fresher shape is possible: "Blessed is the one who dies righteous and good, /
@@ -186,7 +186,7 @@ with no book of wrongs written against him / and no sin found on him."
 the writer's own note says. "Into" adds an inspiration theology the text does not state, and the gloss "inspired me
 with them" pushes it further. Use "breathed on me."
 
-**22. Minor. Machine verse cut, 76:2–4: not reported.** The Plain moves "three on the left" from Dillmann's 76:3 into
+**22. Minor. Machine verse cut, 76:2–4: not reported.** The Plain English Translation moves "three on the left" from Dillmann's 76:3 into
 76:2, and "three are in the west" from 76:4 into 76:3. That follows the sense, which is right, but the writer's brief
 says to report such moves. Report them, or add a one-line note.
 
@@ -227,17 +227,17 @@ how time is reckoned; feasts = the holy days themselves). Ask the feasts owner t
 
 ## Fixes applied
 
-1. **Fixed.** Checked `gez`/`eotc`: both read "seven-seven parts" (Dillmann ፯፯እድ, EOTC ሰብዐተ ሰብዐተ እደ). I deleted the 74:3 variant and added a `word`/`deb` note on 74:3 that gives both texts, Charles's "single seventh parts" and the Plain's fourteenths (Neugebauer). I then checked every `orig` in variants.json and notes.json, token by token, against `gez`/`eotc` with a script. I corrected the origs in 72:7, 72:25, 72:26, 72:28, 73:7 (ወንፍቃ, not ወመንፈቃ), 81:5 and 82:13 (ወህልእምሜሌክ ወሜልኤየል), and the note origs on 72:1, 72:3, 72:35, 73:5, 75:2 and 75:4.
-2. **Fixed.** Confirmed: the EOTC prints ዘስሙ ባሕር unbracketed. Reading 0 is now "Dillmann, leaving out the words he brackets as doubtful," and reading 1 is "EOTC printed Bible (unbracketed); Dillmann's bracketed words." I dropped "from some manuscripts." `why` now says plainly that the Plain drops words the EOTC prints. It rests on Dillmann's editorial judgment and on the sense, not on the EOTC.
+1. **Fixed.** Checked `gez`/`eotc`: both read "seven-seven parts" (Dillmann ፯፯እድ, EOTC ሰብዐተ ሰብዐተ እደ). I deleted the 74:3 variant and added a `word`/`deb` note on 74:3 that gives both texts, Charles's "single seventh parts" and the Plain English Translation's fourteenths (Neugebauer). I then checked every `orig` in variants.json and notes.json, token by token, against `gez`/`eotc` with a script. I corrected the origs in 72:7, 72:25, 72:26, 72:28, 73:7 (ወንፍቃ, not ወመንፈቃ), 81:5 and 82:13 (ወህልእምሜሌክ ወሜልኤየል), and the note origs on 72:1, 72:3, 72:35, 73:5, 75:2 and 75:4.
+2. **Fixed.** Confirmed: the EOTC prints ዘስሙ ባሕር unbracketed. Reading 0 is now "Dillmann, leaving out the words he brackets as doubtful," and reading 1 is "EOTC printed Bible (unbracketed); Dillmann's bracketed words." I dropped "from some manuscripts." `why` now says plainly that the Plain English Translation drops words the EOTC prints. It rests on Dillmann's editorial judgment and on the sense, not on the EOTC.
 3. **Fixed.** Confirmed: 93:2, 103:2 and 106:19 all have ጸፍጸፈ ሰማይ, and no verse has ጽላት. The 81:1 note now says "the same phrase returns in 93:2, 103:2 and 106:19," and its `r` adds 106:19. In terms.json I re-read the file, changed only that entry to `["ṣäfṣäfä sämay (1 Enoch 81:1–2; 93:2; 103:2; 106:19)", "the heavenly tablets"]`, and told the coordinator.
 4. **Fixed.** 73:6 now reads "its light amounts to one part of fourteen, and a half." I added a `deb` note on 73:6 with both texts, Charles's rendering and Neugebauer's. The 73:5 note now points to "seven and seven parts" in 73:6, 73:8 and 74:3.
 5. **Fixed.** I dropped the false sentence from the 72:10 note; it now says only that 72:18 counts the same way. I added a 72:12 `deb` note: the Ge'ez says "two parts" although the day grows from 10 to 11. The "two" is perhaps counted from the equinox (9 to 11), as 72:18 counts from midsummer, or it is a slip. The note compares 72:16.
 6. **Fixed.** The ch. 82 deep section now says that in the 5 April 2007 homily Benedict XVI called the Qumran-calendar solution highly plausible. In *Jesus of Nazareth* (2011) he set Jaubert aside and held, with J. P. Meier, that Jesus ate a farewell meal before Passover, as John's dating implies.
 7. **Fixed.** The Orthodox view now reads: "honors the archangels at the Synaxis of the Archangels (8 November), and common Orthodox use names seven, including Raphael and Uriel." It cites a new key, `menaion-november`. I added keys for Catholic (`aquinas-summa`, `ccc`) and Reformed (`calvin-institutes`), and put the Directory on Popular Piety §217 in the Catholic text.
-8. **Partly fixed.** I added a 77:1 variant: Ge'ez "will come down" against the Aramaic "dwells." Its witness reads "4Q209 fragment 23 with 4Q210, as read and restored by Milik (1976) and reported by Nickelsburg and VanderKam (2012); known here only from their report, not checked against the edition." The Aramaic is not quoted, only its reported sense. The Plain follows the Ge'ez, and `why` explains the choice. I declined the other suggested entries (76:3–10, 76:13–77:4, 78:6–8, 79:2–5, 82:9–13). I cannot check the readings in Milik or Drawnel here, and the brief forbids reporting readings I only half remember. The 76:1 history note now says once that the Aramaic of 76–79 is often fuller and sometimes worded differently, and that this edition records only 77:1, from report.
+8. **Partly fixed.** I added a 77:1 variant: Ge'ez "will come down" against the Aramaic "dwells." Its witness reads "4Q209 fragment 23 with 4Q210, as read and restored by Milik (1976) and reported by Nickelsburg and VanderKam (2012); known here only from their report, not checked against the edition." The Aramaic is not quoted, only its reported sense. The Plain English Translation follows the Ge'ez, and `why` explains the choice. I declined the other suggested entries (76:3–10, 76:13–77:4, 78:6–8, 79:2–5, 82:9–13). I cannot check the readings in Milik or Drawnel here, and the brief forbids reporting readings I only half remember. The 76:1 history note now says once that the Aramaic of 76–79 is often fuller and sometimes worded differently, and that this edition records only 77:1, from report.
 9. **Fixed.** The orig on 72:1 is now መጽሐፈ ሚጠተ ብርሃናተ ሰማይ (*miṭätä*, "turnings").
 10. **Fixed.** The 72:35 word note now gives the facts only. It notes that the digitized Dillmann has ፷ where the EOTC spells out "six" in 72:6 and 72:14, so 6 and 60 are easily confused. The suggestion moved to a new `spec` note, labeled as Claude's and not found in print, with the corrected count: 60 days in gates 2 and 5, and 61 in gates 1, 3, 4 and 6.
-11. **Fixed.** The Plain is now "For in its course, it is added to the 62 days." "The thousand" is gone. The note gives Charles's reading (1,770 + 1,062 = 2,832, see 74:15) and the "restates 1,062" reading, with the unsourced "most translators" removed.
+11. **Fixed.** The Plain English Translation is now "For in its course, it is added to the 62 days." "The thousand" is gone. The note gives Charles's reading (1,770 + 1,062 = 2,832, see 74:15) and the "restates 1,062" reading, with the unsourced "most translators" removed.
 12. **Fixed.** The 75:2 note now counts three uses of ʿaläm and labels the ʿolam explanation as a guess.
 13. **Fixed.** The 77:7 note now says Knibb and others doubt the 77–78 identification more than Milik's identifications for 85–87. I added the key `milik-pox2069` for Milik's 1971 *Chronique d'Égypte* article.
 14. **Fixed.** The 77:1 note and the ch. 77 deep section now give Milik's reading as a report ("the Great One dwells," *dar* explaining *darom*), name the fragment as Milik numbers it, say it was not checked against the edition, and present *dar rom* as the older Hebrew wordplay.
@@ -248,7 +248,7 @@ how time is reckoned; feasts = the holy days themselves). Ask the feasts owner t
 19. **Fixed.** The 81:5 "seven" witness is now "Ethiopic manuscripts followed by Charles, as reported in his edition (1912) and English (1917)." I could not check Knibb, so he is not named. The 81:3 `why` now mentions the EOTC's ዐቢይ "great" and ወበከይኩ "and I wept."
 20. **Fixed.** 81:4 is rebuilt as "Blessed is the man who dies righteous and good, / with no book of wrongdoing written about him / and no guilt found against him." The variant anchor and readings are updated, the book-of-life topic quote is updated, and the drift audit is updated.
 21. **Fixed.** 82:7 now says "breathed on me." The note is retitled; it no longer claims inspiration and only lists the parallels. I removed the gloss "inspired me with them."
-22. **Fixed (reported).** Dillmann's verse cut in 76:2–4 still differs from the EOTC breaks after the re-cut: "and three on the left" stands in Dillmann's 76:3, and "and three in the west" in Dillmann's 76:4. The Plain follows the EOTC breaks and the sense. This is reported here and in the part report, with no note added.
+22. **Fixed (reported).** Dillmann's verse cut in 76:2–4 still differs from the EOTC breaks after the re-cut: "and three on the left" stands in Dillmann's 76:3, and "and three in the west" in Dillmann's 76:4. The Plain English Translation follows the EOTC breaks and the sense. This is reported here and in the part report, with no note added.
 23. **Fixed.** In calendar.json the temple claim now reads "Most scholars think ... some, such as VanderKam, think the 364-day year was once the temple's own priestly calendar." I added a "Christian calendars" section: Sunday, the Easter rule of Nicaea, the Julian and Gregorian split, and the Ethiopian Alexandrian year and computus.
 24. **Partly declined.** I may not edit `content/topics/feasts.json`, another writer's core file. I scoped calendar.json instead: its lead now begins "How the Bible and its readers reckon time." I have asked the coordinator to have the feasts owner add `calendar` to its `related` list.
 

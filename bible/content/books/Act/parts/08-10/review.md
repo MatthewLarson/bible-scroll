@@ -21,7 +21,7 @@ witnesses, and the 10:19 split three ways (three: P74 ℵ A C E; two: B; no numb
 Following NA28/THGNT's "three men" at 10:19 against the SBLGNT is defensible. The entry says openly that it departs from
 the SBL, and "three" fits 10:7 and 11:11. I recommend keeping it, but the entry misquotes the SBL Greek (finding 5).
 
-There is one real structural error. The words "speaking boldly in the name of the Lord" belong to KJV 9:29, and the Plain
+There is one real structural error. The words "speaking boldly in the name of the Lord" belong to KJV 9:29, and the Plain English Translation
 puts them in 9:28 (finding 1). The other findings are small factual slips, a broken cross-reference, a few near-matches
 with modern translations, and gaps in the variant entries and settings cards. I found nothing invented.
 
@@ -32,8 +32,8 @@ with modern translations, and gaps in the variant entries and settings cards. I 
 - **What's wrong:** the site keys every verse by KJV numbering (STYLE.md, PLAN.md "Keys"). In KJV, ASV, YLT and WEB
   (`texts/en/Act.json`), 9:28 is only "And he was with them coming in and going out at Jerusalem." The clause
   παρρησιαζόμενος ἐν τῷ ὀνόματι τοῦ κυρίου [Ἰησοῦ] opens 9:29. The regenerated word list now prints it under 9:29 as well
-  (`literal.js Act 9:28-29`: "[29] and speaking boldly in the name of the Lord Jesus ..."). The Plain puts "and he spoke out
-  boldly in the Lord's name" in 9:28. Worse, the variant's `why` justifies this choice ("the Plain follows the modern
+  (`literal.js Act 9:28-29`: "[29] and speaking boldly in the name of the Lord Jesus ..."). The Plain English Translation puts "and he spoke out
+  boldly in the Lord's name" in 9:28. Worse, the variant's `why` justifies this choice ("the Plain English Translation follows the modern
   editions"), which breaks the site's own rule. A reader who opens 9:29 from a cross reference gets the wrong words.
 - **Fix:**
   - Make 9:28 read "He was with them, coming and going in Jerusalem."
@@ -91,7 +91,7 @@ with modern translations, and gaps in the variant entries and settings cards. I 
 
 ### 8. MINOR: missing KJV-visible variants at 9:5 and 9:12
 - **9:5:** the Byzantine text and the TR read Ὁ δὲ κύριος εἶπεν, giving the KJV's "And the Lord said." The SBL has only
-  ὁ δέ, and the Plain has "He replied." The existing 9:5 entry covers only the goads addition. Add the Lord-said reading,
+  ὁ δέ, and the Plain English Translation has "He replied." The existing 9:5 entry covers only the goads addition. Add the Lord-said reading,
   either as a separate small entry anchored on "He replied" or in the same entry's `b`.
 - **9:12:** "in a vision" (ἐν ὁράματι) is absent from P74, ℵ, A and others, and is printed in brackets in NA27/28.
   TAGNT does not mark it as N. Metzger discusses the place. Add an entry anchored on "in a vision", or at least a sentence
@@ -112,13 +112,13 @@ with modern translations, and gaps in the variant entries and settings cards. I 
 - **Fix:** keep Luke 8:43 as a parallel in sense but drop the claim that it uses *ex*. Luke 8:27 (χρόνῳ ἱκανῷ) or a plain
   "the Greek can mean either" will do.
 
-### 11. MINOR: 9:7 note quotes 22:9 in wording that is not the site's Plain
+### 11. MINOR: 9:7 note quotes 22:9 in wording that is not the site's Plain English Translation
 - **Where:** notes.json 9:7.
 - **What's wrong:** the note quotes "those with me saw the light, but they did not hear the voice of the one speaking to
-  me." The 21-23 part's Plain of 22:9 reads "The men with me did see the light, but the voice of the one who spoke to me
-  they did not hear." STYLE requires quotations of a translated verse to use its Plain exactly. The build does not catch
+  me." The 21-23 part's Plain English Translation of 22:9 reads "The men with me did see the light, but the voice of the one who spoke to me
+  they did not hear." STYLE requires quotations of a translated verse to use its Plain English Translation exactly. The build does not catch
   quotes within the same book.
-- **Fix:** quote the current 22:9 Plain exactly, or paraphrase without quotation marks. Recheck after part 21-23's fixes.
+- **Fix:** quote the current 22:9 Plain English Translation exactly, or paraphrase without quotation marks. Recheck after part 21-23's fixes.
 
 ### 12. MINOR: 10:11 and 11:5 render identical Greek differently
 - **Where:** plain.txt 10:11 against part 11-14's 11:5.
@@ -204,13 +204,13 @@ STYLE.md and brief-nt.md ask for a card on every speech in Acts.
 2. Fixed. The 10:15 note now ends "See the card at Matthew 15:11." Matthew 15:11 was added to `r`. No new card: the Matthew card already covers Catholic, Orthodox, Lutheran, Reformed, Adventist and Evangelical views.
 3. Fixed. The body now says Galilee "appears nowhere else in Acts as a place with a church."
 4. Fixed. The 10:25 `b` now reads "Bezae's pages for 8:29–10:14 are lost; from 10:15 on it can be heard again (see 10:19)."
-5. Fixed. 10:19 reading 3 is split into "SBLGNT: Ἰδοὺ ἄνδρες ζητοῦντές σε" and "Bezae (D), Ψ (044), Byzantine: ἄνδρες ζητοῦσίν σε". The `p` and `why` were adjusted, and the Plain still follows "three".
+5. Fixed. 10:19 reading 3 is split into "SBLGNT: Ἰδοὺ ἄνδρες ζητοῦντές σε" and "Bezae (D), Ψ (044), Byzantine: ἄνδρες ζητοῦσίν σε". The `p` and `why` were adjusted, and the Plain English Translation still follows "three".
 6. Fixed. Bezae, the Tyndale House GNT and Tregelles were added to reading 2 of 8:5, and Westcott-Hort to reading 1. The `why` now says THGNT judged the article secondary.
 7. Partly accepted. NA28 did not revise the text of Acts (only the Catholic Letters changed from NA27), so it should read οὐδέν. However, the TAGNT/auto data list NA28 with οὐδένα. Reading 1 now adds Tregelles, and a `b` states this conflict and counts NA28 on neither side until it is checked against a printed NA28.
-8. Fixed. New 9:5 entry anchored on "He replied" (ὁ δέ vs Byzantine/TR Ὁ δὲ κύριος εἶπεν, KJV "And the Lord said"). New 9:12 entry anchored on "a man in a vision": NA28 brackets ἐν ὁράματι, which P74, ℵ and A lack (reported by Metzger), and the Plain keeps it.
+8. Fixed. New 9:5 entry anchored on "He replied" (ὁ δέ vs Byzantine/TR Ὁ δὲ κύριος εἶπεν, KJV "And the Lord said"). New 9:12 entry anchored on "a man in a vision": NA28 brackets ἐν ὁράματι, which P74, ℵ and A lack (reported by Metzger), and the Plain English Translation keeps it.
 9. Fixed. The quotation is now cited as Against Heresies 3.12.8, with "compare 4.23.2" paraphrased, and `irenaeus-heresies-3` was added.
 10. Fixed. The note now says the Greek can mean either, citing Acts 24:10 (ἐκ πολλῶν ἐτῶν) for *ex* and Luke 8:43 only as a parallel in sense with *apo*.
-11. Fixed. The note now quotes the current 22:9 Plain exactly: "The men with me did see the light, but the voice of the one who spoke to me they did not hear." If 21-23's fixes change 22:9, the lead should recheck this quote.
+11. Fixed. The note now quotes the current 22:9 Plain English Translation exactly: "The men with me did see the light, but the voice of the one who spoke to me they did not hear." If 21-23's fixes change 22:9, the lead should recheck this quote.
 12. Declined here, for the lead. Per the lead decision, 08-10 is the model for Peter's vision, and its 10:11 wording ("like a great linen sheet let down by its four corners") stays. Part 11-14's 11:5 should align to it.
 13. Fixed, all six. Each verse was rebuilt from literal.js with a fresh drift audit. 10:26 "I am a human being myself." 9:40 "Peter sent them all outside. He knelt and prayed, then turned toward the body..." 10:28 "But to me God has shown that no human being is to be called common or unclean." 9:26 "Saul kept trying to attach himself to the disciples. They all feared him and did not believe he was a disciple." 9:21 "the man who ravaged the people in Jerusalem..." (the note anchor is now "ravaged", and the note explains the aorist and paraphrases Galatians rather than quoting it). 10:39 "both in the land of the Jews and in Jerusalem." I updated the quotes of 10:26 and 10:28 in the 10:15 note, the 10:26–29 settings card and the 10:25–26 traditions card.
 14. Fixed. 8:20–23 is widened to 8:18–24 to cover Simon's request and reply. 8:30–35 is widened to 8:30–36 to cover the eunuch's questions and request. New cards at 9:38 (the Joppa plea) and 10:21–23 (Peter and the messengers). 10:28–29 is widened to 10:26–29 to cover Peter at the door. The 10:3–6 `readers` now says "perhaps many of them" and points to the book's audience views.
@@ -218,4 +218,4 @@ STYLE.md and brief-nt.md ask for a card on every speech in Acts.
 16. Fixed. views.T now says "to its land, Ethiopia". The 8:28 note and gloss now say "probably" a traveling carriage or wagon. The 8:5 gloss is now "God's promised anointed deliverer". The 10:12 note now says "many think". The 10:1 note now says "Luke's centurions are friendly figures" (Luke 7, Luke 23:47, Julius 27:3). The Temple Scroll is already in proposals/nt/works.json as `temple-scroll` (05-07), so nothing was added. I split 8:27 after "the Ethiopians" and after "treasure", and also split 8:1 and 10:38.
 17. Fixed. paul.json now dates the seven letters to "in the 50s (Philippians and Philemon perhaps later, about 60–62...)", and it has no bare "Saul" aka. In eunuchs.json I dropped the aka "court official" and kept "chamberlain". Its Deuteronomy 23:1 explanation now gives both views, adding the rejection of pagan cult castration (the galli of Cybele).
 
-Lead decisions applied: 9:28/29 versification (above). "temple" is now lowercase throughout the part's notes, glosses and chapters, with the Temple Scroll and Temple Mount left as they are. The goads proverb in the 9:5 TR variant reading now uses the lead's new wording, "Kicking against the goads is hard on you." I also updated five note quotations of Luke (24:26, 5:24, 7:5, 22:25, 24:39) to Luke's current Plain, which the build had begun flagging. Check: 0 errors, 0 warnings.
+Lead decisions applied: 9:28/29 versification (above). "temple" is now lowercase throughout the part's notes, glosses and chapters, with the Temple Scroll and Temple Mount left as they are. The goads proverb in the 9:5 TR variant reading now uses the lead's new wording, "Kicking against the goads is hard on you." I also updated five note quotations of Luke (24:26, 5:24, 7:5, 22:25, 24:39) to Luke's current Plain English Translation, which the build had begun flagging. Check: 0 errors, 0 warnings.

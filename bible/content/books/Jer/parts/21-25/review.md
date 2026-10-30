@@ -2,12 +2,12 @@
 
 ## Verdict
 
-Sound, carefully built part with no invented sources. Every item the writer was unsure of checks out (Esarhaddon's seventy years, Ramat Rahel/Aharoni, Lachish Letter 6, Rashi on 23:6 and 23:33, the Targum on 23:5, Trent/Catechism/Wesley/Article 11, the Calvin and Formula of Concord citations), and no reader-facing text says "from memory". The Plain is close to the Hebrew and mostly clear of NIV/ESV sentence shape. The problems are mainly witness evidence and a few translation choices:
+Sound, carefully built part with no invented sources. Every item the writer was unsure of checks out (Esarhaddon's seventy years, Ramat Rahel/Aharoni, Lachish Letter 6, Rashi on 23:6 and 23:33, the Targum on 23:5, Trent/Catechism/Wesley/Article 11, the Calvin and Formula of Concord citations), and no reader-facing text says "from memory". The Plain English Translation is close to the Hebrew and mostly clear of NIV/ESV sentence shape. The problems are mainly witness evidence and a few translation choices:
 
 - The 25:13 variant says the Greek lacks a clause that it actually has.
 - Restored words are cited as 4QJer-c readings (Media at 25:25, the whole of 25:24).
 - 22:23 "groan" departs from the Masoretic Text without saying so.
-- The 22:30 Plain flattens a participle that the Jeconiah debate depends on.
+- The 22:30 Plain English Translation flattens a participle that the Jeconiah debate depends on.
 - The 23:6 traditions card omits the Orthodox.
 - The cross-part pairs are not aligned.
 
@@ -37,16 +37,16 @@ Counts: critical 0, major 5, minor 15.
 
 **3. [major] plain.txt 22:23, with a missing note or variant: "how you will groan" is undisclosed.**
 - The Masoretic Text reads `מה נחנת` (niphal of *ḥnn*, "how you will be pitied / shown favor"). 4QJer-c has the same consonants (`נחנת`, visible).
-- "Groan" follows the Greek (καταστενάξεις) or an emendation to *ne'enaḥt*. The Plain does not say this anywhere.
-- The Plain's sentence shape ("how you will groan when the pains come on you, agony like a woman giving birth") matches the NIV's wording, which is the same emendation.
+- "Groan" follows the Greek (καταστενάξεις) or an emendation to *ne'enaḥt*. The Plain English Translation does not say this anywhere.
+- The Plain English Translation's sentence shape ("how you will groan when the pains come on you, agony like a woman giving birth") matches the NIV's wording, which is the same emendation.
 - Fix: add a variant or note. Either follow the Masoretic Text ("how you will be pitied" or "how pitiable you will be") or keep "groan" and say plainly that it follows the Greek and Syriac, with the scroll on the Masoretic side.
 
 **4. [major] plain.txt 22:30, against the deep section and the note: the participle is flattened.**
 - Hebrew: `כי לא יצלח מזרעו איש ישב על כסא דוד ומשל עוד ביהודה`, "no one of his seed will prosper, sitting on David's throne and ruling again".
-- The Plain breaks this into "none will do well, none will sit ... and rule again". That gives a flat ban on sitting and drops the link with "prosper" (*yitslaḥ*).
-- The writer's own deep section reads "none of his offspring will 'do well' by sitting on David's throne". The Plain does not support that wording.
+- The Plain English Translation breaks this into "none will do well, none will sit ... and rule again". That gives a flat ban on sitting and drops the link with "prosper" (*yitslaḥ*).
+- The writer's own deep section reads "none of his offspring will 'do well' by sitting on David's throne". The Plain English Translation does not support that wording.
 - The Matthew 1 debate (Radak, the conditional-curse view, Haggai 2:23) turns on exactly this construction.
-- Fix: a Plain that keeps the participle ("none of his offspring will do well as one who sits on David's throne and rules again in Judah"). Add a note on the construction, and note that 36:30 (a different oracle) is also a throne ban.
+- Fix: a Plain English Translation that keeps the participle ("none of his offspring will do well as one who sits on David's throne and rules again in Judah"). Add a note on the construction, and note that 36:30 (a different oracle) is also a throne ban.
 
 **5. [major] chapters.json ch. 23, `traditions` card on 23:6: a tradition with a distinct view is missing.**
 - Card text: "How does 'The LORD is our righteousness' make sinners right with God?" It covers Catholic, Lutheran, Reformed, Methodist and Anglican.
@@ -90,7 +90,7 @@ Counts: critical 0, major 5, minor 15.
 **11. [minor] Pair 25:14 and 27:7: a small mismatch.** The Hebrew verbs are the same (*'avdu / we'avdu b-*). The Plains read "worked as slaves by" (25:14) and "make him their slave" (27:7). The note compares them correctly but does not list the wording difference.
 
 **12. [minor] Note accuracy.**
-- Note 22:3 says "The Plain follows 7:6: 'the foreigner, the fatherless and the widow'". Plain 22:3 reads "the foreigner, the fatherless or the widow". Either match 7:6 or drop the claim.
+- Note 22:3 says "The Plain English Translation follows 7:6: 'the foreigner, the fatherless and the widow'". Plain English Translation 22:3 reads "the foreigner, the fatherless or the widow". Either match 7:6 or drop the claim.
 - Note 21:12 says 22:2-3 "repeats it almost word for word". Only "pull the robbed out of the oppressor's hand" is shared, so "partly repeats" is more accurate.
 
 **13. [minor] Required statement of the witnesses read is missing.** The brief requires one statement, on the first chapter page, of which witnesses the writer read. Chapter 21's page has none. It should name Swete's Greek, the Abegg-Bowley-Cook transcriptions of 4QJer-a and -c (4Q70 and 4Q72), the Targum and Rashi, with the Greek as Swete's codex and not the critical text. Also, 4Q70 preserves 21:1 and 22:3-16, and 4QJer-a is never named for these verses.
@@ -105,7 +105,7 @@ Counts: critical 0, major 5, minor 15.
 - 21:5 ("in anger, in rage and in great wrath") and 23:5 ("raise up for David a righteous Branch") are forced by the Hebrew and may stand.
 
 **15. [minor] Translation precision.**
-- 23:14 "All of them are Sodom to me ... are Gomorrah": the Hebrew has a simile (*kisdom*, *ka'amorah*), and the Plain makes a metaphor. Restore "like".
+- 23:14 "All of them are Sodom to me ... are Gomorrah": the Hebrew has a simile (*kisdom*, *ka'amorah*), and the Plain English Translation makes a metaphor. Restore "like".
 - 23:1 "who lose and scatter": *ma'bidim* is "destroy / cause to perish" (the Greek has ἀπολλύοντες). "Lose" softens it.
 - 22:15 "racing others in cedar" for *mitḥareh*: "racing" is not what the verb means. Use "competing" or "vying" (compare 12:5).
 - 22:4 "take David's seat on his throne" drops *le-David*. Better: "sit on David's throne".
@@ -159,7 +159,7 @@ Counts: critical 0, major 5, minor 15.
 
 ## Fixes applied
 
-1. Accepted. The 25:13 variant, the 25:13 note, the 25:14 variant and the chapter 25 "Two editions at 25:13" section now say the Greek has the clause as a heading before the Elam oracle (Swete's 25:14), with "the nations" and no "all". Verified in Swete (tools/lxx.py). Ziegler was not read, so the Plain-side statement is limited to Swete's numbering.
+1. Accepted. The 25:13 variant, the 25:13 note, the 25:14 variant and the chapter 25 "Two editions at 25:13" section now say the Greek has the clause as a heading before the Elam oracle (Swete's 25:14), with "the nations" and no "all". Verified in Swete (tools/lxx.py). Ziegler was not read, so the Plain English Translation-side statement is limited to Swete's numbering.
 2. Accepted. Checked every place with dss.py. 25:25: only "Zimri" and the third "kings of" are visible; Media is restored and no longer used as evidence (variant, chapter 25 C view, `textual-history` topic). 25:24: all restored, so the variant now says the scroll gives no evidence. 25:7: now says "with the work" and "to harm" are visible, the rest restored or absent. Also corrected chapter 24 C view (24:6-7 partly restored).
 3. Accepted. 22:23 now follows the Masoretic Text and the scroll (visible nchnt): "how you will be pitied". New variant gives the Greek "groan" (Swete). I did not cite the Syriac, which I could not check.
 4. Accepted. 22:30 now keeps the participle ("prosper as one who sits on David's throne and rules again in Judah"); the deep section matches; a new note explains the construction and cites 36:30 as a separate oracle.

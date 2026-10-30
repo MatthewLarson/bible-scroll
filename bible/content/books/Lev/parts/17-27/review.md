@@ -2,7 +2,7 @@
 
 Reviewer: agent reviewer, 2026-10-23. Scope: chapters 17–27 only (plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json in `parts/17-27/`), and the ten new topic cores blood, molech, same-sex-relations, love-your-neighbor, capital-punishment, feasts, feast-of-booths, vows, jubilee, exile. `node tools/build.js --check Lev/17-27` reports 0 errors and 0 warnings (369 verses, 201 notes, 10 variants, 106 glosses, 11 chapter pages, 31 topic contributions).
 
-Method. I printed every verse of 17–27 three ways: the literal line (`tools/literal.js`), the Plain English, and the BSB. I checked the Plain line by line against the Hebrew, and against the ESV and NIV. Some of those checks were confirmed today on biblehub, bibliavida and esv.org (marked †); the rest are from memory. I read all 201 notes, all 10 variants, all glosses, all 11 chapter pages, all 31 topic contributions and the 10 new cores. I also checked about 120 rabbinic, patristic, classical and modern citations.
+Method. I printed every verse of 17–27 three ways: the literal line (`tools/literal.js`), the Plain English Translation, and the BSB. I checked the Plain English Translation line by line against the Hebrew, and against the ESV and NIV. Some of those checks were confirmed today on biblehub, bibliavida and esv.org (marked †); the rest are from memory. I read all 201 notes, all 10 variants, all glosses, all 11 chapter pages, all 31 topic contributions and the 10 new cores. I also checked about 120 rabbinic, patristic, classical and modern citations.
 
 ## Verdict
 
@@ -24,7 +24,7 @@ Almost all the citations I checked are correct, including every one you asked ab
 
 ## Findings
 
-### 1. MAJOR: about 15–20 Plain English verses still follow the ESV or NIV, mostly in chapters 26–27
+### 1. MAJOR: about 15–20 Plain English Translation verses still follow the ESV or NIV, mostly in chapters 26–27
 
 **Where:** plain.txt 26:6, 10, 17, 36, 39, 41; 27:21, 26, 32; 23:40; 20:4–5; 21:2, 5; 19:35. Weaker cases: 26:5, 26; 27:8, 10, 28; 19:32; 23:36.
 
@@ -32,14 +32,14 @@ Almost all the citations I checked are correct, including every one you asked ab
 
 **Evidence.** † = checked today against the published text.
 
-| Verse | Plain English | Modern version | Hebrew / literal line |
+| Verse | Plain English Translation | Modern version | Hebrew / literal line |
 |---|---|---|---|
 | 26:6 | "I will give peace in the land. You will lie down, and no one will make you afraid. I will put an end to harmful beasts" | ESV† "I will give peace in the land, and you shall lie down, and none shall make you afraid. And I will remove harmful beasts" | <i>chayyah ra'ah</i>, "evil beast"; NIV† "wild beasts". "Harmful beasts" is the ESV's (and NASB's "harmful animals") |
 | 26:10 | "You will eat from last year's grain, grown old in store, and carry out the old to make room for the new" | NIV "last year's harvest... move it out to make room for the new"; ESV† "old store long kept... to make way for the new" | an NIV/ESV splice |
 | 26:17 | "you will be struck down in front of your enemies. Those who hate you will rule over you, and you will run when no one is chasing you" | ESV† "you shall be struck down before your enemies. Those who hate you shall rule over you, and you shall flee when none pursues you" | the same four-clause shape and "struck down" (<i>niggaftem</i>; NIV "defeated") |
 | 26:36 | "As for those of you who are left, I will bring fear and faintness into their hearts in their enemies' lands... They will run as men run from a sword" | ESV† "And as for those of you who are left, I will send faintness into their hearts in the lands of their enemies... flee as one flees from the sword" | literal "I will bring despair (<i>morekh</i>) in their heart" |
-| 26:41 | "so that I too walked against them and brought them into the land of their enemies. If at that time their uncircumcised heart is humbled, and they make up for their guilt" | ESV† "so that I walked contrary to them and brought them into the land of their enemies—if then their uncircumcised heart is humbled and they make amends for their iniquity" | Hebrew <i>af ani elekh</i> is an imperfect ("I too will walk"); the Plain takes the ESV's past tense and its "if then" |
-| 26:39 | "Those of you who are left will rot away in their enemies' lands because of their guilt, and because of their fathers' guilt as well they will rot away with them" | ESV "And those of you who are left shall rot away in your enemies' lands because of their iniquity, and also because of the iniquities of their fathers they shall rot away like them" | the ESV's shape. The Plain also changes the Hebrew <i>oyeveikhem</i> "your enemies" to "their" (see finding 11) |
+| 26:41 | "so that I too walked against them and brought them into the land of their enemies. If at that time their uncircumcised heart is humbled, and they make up for their guilt" | ESV† "so that I walked contrary to them and brought them into the land of their enemies—if then their uncircumcised heart is humbled and they make amends for their iniquity" | Hebrew <i>af ani elekh</i> is an imperfect ("I too will walk"); the Plain English Translation takes the ESV's past tense and its "if then" |
+| 26:39 | "Those of you who are left will rot away in their enemies' lands because of their guilt, and because of their fathers' guilt as well they will rot away with them" | ESV "And those of you who are left shall rot away in your enemies' lands because of their iniquity, and also because of the iniquities of their fathers they shall rot away like them" | the ESV's shape. The Plain English Translation also changes the Hebrew <i>oyeveikhem</i> "your enemies" to "their" (see finding 11) |
 | 27:32 | "every tenth animal that passes under the shepherd's rod, will be holy to the LORD" | NIV† "every tenth animal that passes under the shepherd's rod—will be holy to the LORD" (the BSB† also has "shepherd's rod") | Hebrew <i>tachat hashshavet</i>, "under the rod"; "shepherd's" is added (ESV† "herdsman's staff") |
 | 27:21 | "like a field that has been devoted" | ESV "like a field that has been devoted" | <i>kisdeh hacherem</i> |
 | 27:26 | "a firstborn among the animals, which as a firstborn already belongs to the LORD. Whether ox or sheep, it is the LORD's" | ESV "a firstborn of animals, which as a firstborn belongs to the LORD... whether ox or sheep, it is the LORD's" | |
@@ -69,9 +69,9 @@ Several of these are partly forced by the Hebrew (for example 26:37 "power to st
 - 19:18 note: "love is the fulfilling of the law" is ESV Romans 13:10. The chapter 19 page has "fulfillment," so the site is also inconsistent with itself.
 - Weaker cases: 19:13 note, James 5:4 (NIV); 26:11 note, Ezekiel 37:27 (NIV "My dwelling place will be with them; I will be their God, and they will be my people"); 25:21 note, Matthew 6:31–33 (NIV); 23:44 note, Colossians 2:17 (NIV); 21:23 note, Hebrews 7:26 (NASB/ESV); 17:11 note, Hebrews 9:22 (NIV/ESV).
 
-Some of these are short and almost forced by the Greek ("By no means!"), but together they show that quotations were written from memory. The brief says quotations must be in the site's own Plain wording, or in fresh wording made the same way.
+Some of these are short and almost forced by the Greek ("By no means!"), but together they show that quotations were written from memory. The brief says quotations must be in the site's own Plain English Translation wording, or in fresh wording made the same way.
 
-**Fix:** rebuild each New Testament quotation from the SBLGNT with `node tools/literal.js <book> <c:v>`, and each Old Testament one from the WLC. Use the site's Plain text where that book already exists (Genesis, Exodus, Ruth, Jude, Revelation).
+**Fix:** rebuild each New Testament quotation from the SBLGNT with `node tools/literal.js <book> <c:v>`, and each Old Testament one from the WLC. Use the site's Plain English Translation text where that book already exists (Genesis, Exodus, Ruth, Jude, Revelation).
 
 ### 3. MAJOR (fairness): Molech. The dedication reading is never given in its strongest form, and the evidence on both sides is not set out
 
@@ -325,12 +325,12 @@ Applied by the part writer, 2026-10-23. Checks: `--check Lev/17-27` and `--check
 - "the people of Israel" is now "the Israelites" in all 29 places in plain.txt, and in the notes, pages and topics.
 - *tamim* is now "flawless" in 22:19, 22:21, 23:12 and 23:18. In 23:15 *temimot* (seven "full" weeks) stays "full", because it describes weeks, not animals.
 - The other terms (offering, present, splash, slaughter, token portion, humble yourselves) already matched.
-- Lev 24:2 now uses the same words as the Plain text of Exodus 27:20.
+- Lev 24:2 now uses the same words as the Plain English Translation text of Exodus 27:20.
 
 1. **Accepted.** These verses were redone from literal.js: 26:5, 6, 10, 17, 26, 36, 39, 41; 27:8, 10, 21, 26, 28, 29, 32; 23:36, 40; 20:4–5; 21:2, 3, 5, 10, 12; 19:32, 35. Notes, glosses and topic quotations were changed to match.
    - *Cherem* is now "under the ban" in 27:21, 27:28 and 27:29.
    - **Partly rejected, 26:41.** The past tense stays, because 26:41a reads most naturally as part of what the people confess in 26:40 ("and that I too walked against them"; the KJV and NJPS read it this way too). The ESV's "if then" is gone. The verse now reads "And when their uncircumcised heart is brought low at last".
-2. **Accepted.** About 60 quotations of other books were rebuilt from literal.js in fresh wording. This includes every item listed, plus Mark 12, John 8:7, Hebrews 7:26 and 9:14, 2 Corinthians 6:16, Revelation 21:3, Ezekiel 20:37 and 37:27, Lamentations 4:10 and Ezekiel 18:2. Quotations of Numbers now use the site's Numbers Plain text (6:25, 23:23).
+2. **Accepted.** About 60 quotations of other books were rebuilt from literal.js in fresh wording. This includes every item listed, plus Mark 12, John 8:7, Hebrews 7:26 and 9:14, 2 Corinthians 6:16, Revelation 21:3, Ezekiel 20:37 and 37:27, Lamentations 4:10 and Ezekiel 18:2. Quotations of Numbers now use the site's Numbers Plain English Translation text (6:25, 23:23).
 3. **Accepted.**
    - The 18:21 note is now a views note built on three questions (god or offering; killed or dedicated; foreign or Israelite). It gives the dedication reading (Mishnah Sanhedrin 7:7; Sanhedrin 64b; Maimonides, *Avodah Zarah* 6:3; Snaith; Weinfeld). It gives the sacrifice reading (Deuteronomy 12:31; Jeremiah 7:31; Ezekiel 16:20–21; Ezekiel 23:37–39; Psalm 106:37–38; Day; Heider; Morton Smith).
    - The dedication view has moved out of "uncommon".
@@ -393,4 +393,4 @@ Applied by the part writer, 2026-10-23. Checks: `--check Lev/17-27` and `--check
     - The Hillel, Akiva and Ben Azzai material is now on the chapter 19 page. The 19:18 note is short and refers to it.
 18. **Accepted.** Boethusians, Karaites, dispensationalists and the talion principle are now explained where they first appear. The note checker now flags any note over 160 words, and none is flagged.
 
-**For book.json (owned by the 01-16 writer):** VERBOSE flags two quotations of this part that do not match the Plain text: 19:18 "love your neighbor like yourself" (now "as yourself") and 27:34 "...for the people of Israel..." (now "the Israelites").
+**For book.json (owned by the 01-16 writer):** VERBOSE flags two quotations of this part that do not match the Plain English Translation text: 19:18 "love your neighbor like yourself" (now "as yourself") and 27:34 "...for the people of Israel..." (now "the Israelites").

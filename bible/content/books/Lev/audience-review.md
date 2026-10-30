@@ -13,7 +13,7 @@ one is rendered correctly. Priests and people are never swapped. The writer corr
 Leviticus to Aaron alone (10:8) and the speeches to Aaron in Numbers 18. Camp and land are kept apart well: the
 "when you come into the land" laws (Lev 14:34; 19:23; 23:10; 25:2; Num 15:2, 18; 33:51; 34:2; 35:10) are all
 flagged as for the future, and Lev 17 is placed in the camp. Every card gives a real purpose, and no block of law, song or
-major speech is missing (finding 14 lists three short ones). All the quotes match the Plain, and all the source keys resolve. The weak spots
+major speech is missing (finding 14 lists three short ones). All the quotes match the Plain English Translation, and all the source keys resolve. The weak spots
 are the scholarship in the `views`. Four attributions are wrong or garbled: Olyan on Lev 18:22, Snaith on Molech,
 North and Bergsma on the Jubilee, and a claim about Nehemiah 10:38 that the site's own Numbers notes contradict.
 The Numbers 31 card also leaves out the most troubling verse. There are no critical findings, 5 major and
@@ -41,7 +41,7 @@ earlier priestly law". That field was out of scope, but it should be fixed with 
 **2. Major: Num 31:14–18 leaves out 31:18.**
 Location: Num/parts/22-36/chapters.json, setting 31:14–18.
 Problem: The "why" says that Moses "orders the boys and the women who had slept with men killed." It does not
-mention 31:18: "every girl among the women who has not slept with a man, keep alive for yourselves" (Plain).
+mention 31:18: "every girl among the women who has not slept with a man, keep alive for yourselves" (Plain English Translation).
 Many readers find this the hardest part of the text. Leaving it out softens the passage, and the reader cannot
 see what the views are arguing about. The views are also thin. They do not mention the traditional reading that
 ties the girls' fate to the law on captive women in Deuteronomy 21:10–14. Labeling Niditch "a text to be
@@ -211,7 +211,7 @@ with the fix in finding 2.)
 - `node tools/build.js --check Lev`: 0 errors, 1 warning. The warning is the old Ezra 4:14 quote in notes[20],
   ignored as instructed.
 - `node tools/build.js --check Num`: 0 errors, 0 warnings.
-- All 22 quoted phrases in the settings checked against the Plain of Lev and Num: all match.
+- All 22 quoted phrases in the settings checked against the Plain English Translation of Lev and Num: all match.
 - All source keys in `s` resolve to content/sources.json or a parts' sources.json. No key was invented.
 - Every addressee formula in Lev 1–27 and Num 1–36 checked against `tools/literal.js`: the formulas are rendered
   correctly. Finding 6 covers only the places where no formula is present.

@@ -1,9 +1,9 @@
 # Hostile review: Revelation 12–16
 
-Reviewer: hostile-reviewer (not the writer). Scope: Plain (plain.txt) 12:1–16:21 checked verse by verse against the
+Reviewer: hostile-reviewer (not the writer). Scope: Plain English Translation (plain.txt) 12:1–16:21 checked verse by verse against the
 SBLGNT and Byzantine text in `texts/orig/Rev.json` (with the edition markers in `w`); notes, glosses, chapter pages
 12–16 (including `settings` and `traditions` from `content/overlays/Rev.json`); variants (none yet). Source locations
-are given for the fixer: `revelation/v2/src/plain.js` (Plain 12:1 is line 221, 16:21 is line 313),
+are given for the fixer: `revelation/v2/src/plain.js` (Plain English Translation 12:1 is line 221, 16:21 is line 313),
 `revelation/v2/src/notes3.js` (notes 12–16 are lines 6–54), `revelation/v2/src/glosses.js`, `revelation/v2/src/chdeep.js`,
 `revelation/src/3-data.js`, `revelation/src/3b-extra.js`, and the overlay.
 
@@ -14,12 +14,12 @@ mismatches. The ones in or about this slice are in finding 16.
 
 The notes and chapter pages for Revelation 12–16 are strong. They are well sourced, mostly accurate, and fair to the
 four schools of reading, and the cards from the audience review are in place. The translation is the weak point. The
-Plain was not built from the literal line, and in about 40 of the 92 verses it follows the NIV's sentence shape and
+Plain English Translation was not built from the literal line, and in about 40 of the 92 verses it follows the NIV's sentence shape and
 wording closely, in places word for word for a whole clause (12:7, 12:12, 13:4, 13:10b, 14:11, 14:18, 16:2–3, 16:10,
 16:12, 16:19–21). Under the project's rules every one of those verses has to be rebuilt. The same NIV dependence
 brings in NIV interpretive choices the Greek does not support: "on its behalf" for ἐνώπιον (13:12), "so much that
 they were afraid to die" (12:11), "and yet lived" for ἔζησεν (13:14), "kept themselves pure" for παρθένοι (14:4),
-"evil spirits" for ἀκάθαρτα (16:13), and miles for stadia (14:20). The Plain also breaks three binding terms ("the
+"evil spirits" for ἀκάθαρτα (16:13), and miles for stadia (14:20). The Plain English Translation also breaks three binding terms ("the
 saints", "repent", "unclean spirit") and the lead's δοῦλος decision (15:3). The slice has no variant entries, even
 though it holds some of the most important variants in the New Testament (616, 13:7a, 13:10, 15:3, 15:6, the KJV's
 "and shalt be" at 16:5). Smaller problems: material from chapter 16 shows on chapter 15's page, bare references point
@@ -114,7 +114,7 @@ adds nothing and must be removed anyway for the 13:7 variant (finding 11).
 ### 4. Major. plain.txt 16:13, note 16:13 (notes3.js line 51), gloss 16:13, chapter 16 `sum`: "evil spirits" for πνεύματα ἀκάθαρτα
 
 terms.json: `["δαιμόνιον / πνεῦμα ἀκάθαρτον", "demon / unclean spirit"]`. "Evil spirits" is also the NIV 1984 reading
-word for word. The note itself says frogs were unclean animals (Leviticus 11), and the Plain throws away the word
+word for word. The note itself says frogs were unclean animals (Leviticus 11), and the Plain English Translation throws away the word
 that makes that point. Fix: "three unclean spirits like frogs". Change the note anchor, the gloss anchor and the
 chapter-16 summary ("Three evil spirits like frogs") with it.
 
@@ -155,13 +155,13 @@ commentators (Aune, Koester) note that the victory comes "because of" the Lamb's
 
 ### 9. Major. plain.txt 14:20, note 14:20 (notes3.js line 39), chapter 14 page: stadia changed to miles, which the note itself warns against
 
-The Plain reads "for about 184 miles". The note says: "Converting it to miles hides the pattern, so most literal
-translations keep 'stadia'." The Plain does the very thing its own note warns against, and it adds "about", which the
+The Plain English Translation reads "for about 184 miles". The note says: "Converting it to miles hides the pattern, so most literal
+translations keep 'stadia'." The Plain English Translation does the very thing its own note warns against, and it adds "about", which the
 Greek (ἀπὸ σταδίων χιλίων ἑξακοσίων) does not have. Revelation's numbers carry meaning. 21:16 has the same problem ("about 1,400 miles" for 12,000 stadia), so tell the
 17–22 slice and the lead, and treat both the same way. Fix: "for 1,600 stadia", with the miles in a gloss. The note anchor
 changes to "1,600 stadia". The numbers also disagree: the note says 184 miles, the chapter-14 deep section
 (chdeep.js line 94) "about 180 miles". Use one figure. The deep section's quote "as high as a horse's bridle for
-1,600 stadia" (14:20) is a build warning; quote the new Plain exactly ("as high as horses' bridles for 1,600 stadia").
+1,600 stadia" (14:20) is a build warning; quote the new Plain English Translation exactly ("as high as horses' bridles for 1,600 stadia").
 
 ### 10. Major. plain.txt 12:17: σπέρμα becomes "children", which hides Genesis 3:15
 
@@ -175,7 +175,7 @@ Genesis 3:15's word (LXX σπέρμα).
 The overlay has no `variants` key yet. Each entry below goes in `content/overlays/Rev.json` →
 `variants: {"12": [...], ...}`. Check the anchors: a variant may not overlap any note or gloss at all. I give the
 readings, the witnesses as Metzger's *Textual Commentary*, the NA28 apparatus and the standard commentaries (Aune,
-Koester) report them, which reading the Plain follows, and why. **Before writing `w`, confirm each witness list in
+Koester) report them, which reading the Plain English Translation follows, and why. **Before writing `w`, confirm each witness list in
 Metzger (key `metzger`) or the NA28 apparatus.** Where I am not certain of a witness, I say so. Never add a witness
 that cannot be confirmed.
 
@@ -216,15 +216,15 @@ Essential (they change the English or a major translation footnotes them):
    minority of late manuscripts. Nearly all witnesses have the longer text (P47, Sinaiticus, Alexandrinus, Ephraemi,
    the Byzantine text). Follow the longer reading. The KJV's "a Lamb" (no article) can go in `b`.
 6. **14:3 ὡς "as it were a new song"** (anchor "a new song"). SBLGNT prints ὡς (Alexandrinus, Ephraemi and others;
-   check whether NA28 brackets it). P47, Sinaiticus and the Byzantine text omit it. The Plain silently follows the
+   check whether NA28 brackets it). P47, Sinaiticus and the Byzantine text omit it. The Plain English Translation silently follows the
    omission, against its own base text. Either translate it ("what sounded like a new song") or keep the omission
    and explain why.
 7. **14:5 "before the throne of God"** (anchor "They are without fault."). The TR adds ἐνώπιον τοῦ θρόνου τοῦ θεοῦ
    (KJV "for they are without fault before the throne of God"), a late addition. γάρ ("for") is Byzantine and TR.
 8. **15:3 "King of the nations / ages / saints"** (anchor "nations"). (a) ἐθνῶν, "nations": Sinaiticus (corrector),
-   Alexandrinus, 046, 051, most manuscripts; NA28, THGNT, and the Plain. (b) αἰώνων, "ages": P47, Sinaiticus
+   Alexandrinus, 046, 051, most manuscripts; NA28, THGNT, and the Plain English Translation. (b) αἰώνων, "ages": P47, Sinaiticus
    (first hand), Ephraemi and some minuscules; **SBLGNT and Westcott-Hort print this**. (c) ἁγίων, "saints": a very
-   few late manuscripts and some Latin copies; TR, KJV "King of saints". The Plain departs from its base text here,
+   few late manuscripts and some Latin copies; TR, KJV "King of saints". The Plain English Translation departs from its base text here,
    so it must say why: Jeremiah 10:7 ("King of the nations"), which the song quotes; 15:4's "all nations will come";
    and NA28's choice. Give the strength of "ages" honestly (P47 with א* and C is very old).
 9. **15:6 "linen" or "stone"** (anchor "clean, shining linen"). (a) λίνον "linen": P (025), 051, the Byzantine
@@ -247,7 +247,7 @@ entry):
   ὄνομα (P47, Sinaiticus, Ephraemi?; THGNT, TR, KJV "the name of blasphemy"). The edition markers show THGNT has
   the singular, so this one counts under brief-nt's rule "where SBL, NA28 and THGNT disagree".
 - 13:5 Byzantine (RP) adds πόλεμον, "to make war 42 months"; TR and KJV "to continue".
-- 13:6 TR adds καί, "and them that dwell in heaven", which changes the apposition the Plain shows with "that is".
+- 13:6 TR adds καί, "and them that dwell in heaven", which changes the apposition the Plain English Translation shows with "that is".
 - 13:17 TR "the mark, or the name" (KJV), against "the mark, the name".
 - 14:8 the Byzantine text has "fallen" once; TR, KJV "that great city".
 - 15:2 TR adds "over his mark" (KJV).
@@ -330,27 +330,27 @@ made") is a classic text in the election debate (compare 3:5), and the book has 
 ### 16. Major. Quote warnings in this slice, and quotes that do not match but are not flagged
 
 Build warnings (each must reach 0 before the book is done):
-- notes[115] 12:5 (notes3.js line 6): quotes 12:5 as "caught up to God and to his throne"; the Plain says "snatched
+- notes[115] 12:5 (notes3.js line 6): quotes 12:5 as "caught up to God and to his throne"; the Plain English Translation says "snatched
   up to God and to his throne".
-- notes[140] 14:8 (notes3.js line 35): Isaiah 21:9 and Jeremiah 51:7. The current Isaiah Plain is "Fallen! Fallen is
+- notes[140] 14:8 (notes3.js line 35): Isaiah 21:9 and Jeremiah 51:7. The current Isaiah Plain English Translation is "Fallen! Fallen is
   Babylon!"; Jeremiah 51:7 is "A cup of gold, that was Babylon, / in the hand of the LORD, / getting the whole earth
   drunk." Quote those exactly, without the " / " marks, or with "..." for skipped words. The note's `p` ("Babylon has
   fallen, has fallen!") must change too.
-- chapters 14 (chdeep.js lines 94–95): 14:20 (see finding 9) and 14:4 "first fruits to God and the Lamb" (Plain:
-  "firstfruits to God and to the Lamb"; the heading "First fruits" is also inconsistent with the Plain's
+- chapters 14 (chdeep.js lines 94–95): 14:20 (see finding 9) and 14:4 "first fruits to God and the Lamb" (Plain English Translation:
+  "firstfruits to God and to the Lamb"; the heading "First fruits" is also inconsistent with the Plain English Translation's
   "firstfruits").
 - Slices 1–5 and 17–22 quote 14:5 as "no lie in their mouths" (notes[242] at 3:9, chapters 21, topic say-are-not).
-  The Plain reads "No lie was found in their mouths". If 14:5 is rebuilt, those quotes follow it; the lead's
+  The Plain English Translation reads "No lie was found in their mouths". If 14:5 is rebuilt, those quotes follow it; the lead's
   alignment pass handles them.
 
 Not flagged, because no reference follows the quote, but still wrong:
-- Chapter 15 deep table (chdeep.js line 97): "Great and wonderful are your works" (Plain: "Great and amazing"), "All
-  nations will come and worship before you" (Plain: "in front of you"), "Your righteous acts have been revealed"
-  (Plain: "your acts of justice have been made known").
-- Chapter 12 deep "Exodus again": "the two wings of the great eagle" (Plain: "a great eagle"; the deep section is
-  closer to the Greek, which supports changing the Plain, finding 1). The cast table writes "the devil" where the
-  Plain has "the Devil".
-- Note [141] quotes Isaiah 34:10 as "rises forever"; the Isaiah Plain is "its smoke will keep going up forever".
+- Chapter 15 deep table (chdeep.js line 97): "Great and wonderful are your works" (Plain English Translation: "Great and amazing"), "All
+  nations will come and worship before you" (Plain English Translation: "in front of you"), "Your righteous acts have been revealed"
+  (Plain English Translation: "your acts of justice have been made known").
+- Chapter 12 deep "Exodus again": "the two wings of the great eagle" (Plain English Translation: "a great eagle"; the deep section is
+  closer to the Greek, which supports changing the Plain English Translation, finding 1). The cast table writes "the devil" where the
+  Plain English Translation has "the Devil".
+- Note [141] quotes Isaiah 34:10 as "rises forever"; the Isaiah Plain English Translation is "its smoke will keep going up forever".
 
 ### 17. Minor. plain.txt 12:10 "his Christ"
 
@@ -394,7 +394,7 @@ the link shows.
 
 ### 24. Minor. plain.txt 12:10–12, 15:3–4, 16:5–7: hymns without poetry line breaks
 
-STYLE: songs are poetry and get " / " line breaks. The whole Revelation Plain has none (grep finds 0), so this is
+STYLE: songs are poetry and get " / " line breaks. The whole Revelation Plain English Translation has none (grep finds 0), so this is
 book-wide; within this slice, the victory song (12:10–12), the song of Moses and the Lamb (15:3–4), and the angel's
 and altar's praise (16:5–7) should be set as poetry. Lead decision.
 
@@ -468,12 +468,12 @@ The observation that the song never mentions the singers' own victory, and the c
 Bauckham's in *The Climax of Prophecy* (chapter 9), key `climax`, as the chapter-15 page correctly cites. The note uses
 `bauckham` (*The Theology of the Book of Revelation*). Use `climax`, or both.
 
-### 34. Minor. note [129] 13:8: the word-order statement leans toward the Plain's choice
+### 34. Minor. note [129] 13:8: the word-order statement leans toward the Plain English Translation's choice
 
 "The Greek word order allows" both readings. In fact the phrase ἀπὸ καταβολῆς κόσμου comes right after τοῦ ἀρνίου
 τοῦ ἐσφαγμένου, so word order favors "the Lamb slain from the foundation of the world" (KJV, NIV), and the parallel
-in 17:8 favors "written from the foundation" (ESV, NRSV), which the Plain follows. Say it that way, so the reader sees
-that the Plain chose the reading word order does not favor, and why.
+in 17:8 favors "written from the foundation" (ESV, NRSV), which the Plain English Translation follows. Say it that way, so the reader sees
+that the Plain English Translation chose the reading word order does not favor, and why.
 
 ### 35. Minor. chapters.json 13, settings 13:16–18: "as Irenaeus already noted"
 
@@ -500,7 +500,7 @@ the views (grain = gathering of believers, or judgment). Low priority.
 ### 38. Minor. plain.txt 16:16: "Then the spirits gathered the kings"
 
 συνήγαγεν is singular. With a neuter plural subject (πνεύματα) that is normal Greek, so "the spirits" is the likely
-subject, but some read God as the one who gathers (compare 17:17; 20:8). The Plain names the subject outright.
+subject, but some read God as the one who gathers (compare 17:17; 20:8). The Plain English Translation names the subject outright.
 "Then they gathered them" keeps the Greek's openness; or add half a sentence to note [154].
 
 ### 39. Minor. Outside this slice, found while checking: topic "antichrist"
@@ -551,12 +551,12 @@ chapters.js, chdeep.js; revelation/src/3-data.js, 3b-extra.js; content/overlays/
 8. Fixed. 12:11 "and they did not love their lives / even to the point of death"; "because of" for διά + accusative,
    with a new `deb` word note giving both senses (Aune, Koester); the spec note points to it; gloss re-anchored.
 9. Fixed. 14:20 "for 1,600 stadia"; gloss "about 184 miles"; note anchor "1,600 stadia"; deep section now says 184
-   miles and quotes the new Plain. 21:16 is the 17-22 slice's (tell the lead to treat it the same way).
+   miles and quotes the new Plain English Translation. 21:16 is the 17-22 slice's (tell the lead to treat it the same way).
 10. Fixed. 12:17 "the rest of her offspring"; the 12:9 note now says 12:17 uses Genesis 3:15's σπέρμα.
 11. Fixed. 22 variant entries in the overlay: 12:12, 12:17; 13:1 (he/I stood, with the 12:18 numbering and the
     names/name difference in `b`), 13:5, 13:6, 13:7, 13:10 (two entries), 13:17, 13:18 (666/616/665; the old `var`
     note n616 removed from notes3.js, its content moved to the variant and a new views note on "a human number");
-    14:1 (note re-anchored to "written on their foreheads"), 14:3 (the Plain now translates SBLGNT's ὡς), 14:5, 14:8
+    14:1 (note re-anchored to "written on their foreheads"), 14:3 (the Plain English Translation now translates SBLGNT's ὡς), 14:5, 14:8
     (with the TR's "city" in `b`); 15:2, 15:3 (follows NA28/THGNT "nations" against SBLGNT, with reasons), 15:6;
     16:5 (Beza's conjecture), 16:7, 16:14, 16:17, 16:18 (NA28 singular). Edition evidence checked against the `w`
     markers in texts/orig/Rev.json and texts/auto/Rev.json (e.g. NA28's brackets at 13:1 and 14:3). Manuscript
@@ -608,7 +608,7 @@ chapters.js, chdeep.js; revelation/src/3-data.js, 3b-extra.js; content/overlays/
     16:16 "Mount Megiddo, the old battlefield"; 16:21 as finding 28.
 32. Fixed. "Wisdom of Solomon 2:24, Scripture for Catholics and Orthodox".
 33. Fixed. 15:3 note cites `climax` (and `bauckham`; the book fixer has since renamed them `bauckham-climax` and `bauckham-theology`), naming <i>The Climax of Prophecy</i>.
-34. Fixed. The 13:8 note says word order favors "the Lamb slain from the foundation" and that the Plain follows 17:8
+34. Fixed. The 13:8 note says word order favors "the Lamb slain from the foundation" and that the Plain English Translation follows 17:8
     against it.
 35. Fixed. 13:16–18 card: Lateinos as one of Irenaeus's names (he preferred Teitan; no papacy then).
 36. Fixed. New cards: 14:14–20 (the two harvests, with views) and 16:1–21 (the voice from the temple, "Go!" and "It is

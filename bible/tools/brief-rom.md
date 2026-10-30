@@ -79,11 +79,11 @@ the other parts contribute through their topics.json):
 
 - **Galatians, 1 and 2 Corinthians, Philippians** are not written yet in this project. Cite them by reference
   (Galatians 3:6–14 with Romans 4; 1 Corinthians 12 with Romans 12:3–8; 1 Corinthians 8–10 with Romans 14) and do not quote
-  a Plain that does not exist. List the pairs in your report so the lead aligns them when those letters are written.
+  a Plain English Translation that does not exist. List the pairs in your report so the lead aligns them when those letters are written.
 - **Acts** is written. Where a note quotes Acts (18:2 the edict; 20:2–3 the winter in Greece; 21:17–26 the visit to
-  Jerusalem; 28:14–31 Paul reaches Rome), use its Plain exactly.
+  Jerusalem; 28:14–31 Paul reaches Rome), use its Plain English Translation exactly.
 - **Old Testament quotations**: translate Paul's Greek as it stands (often the Septuagint). In a note, say where it differs
-  from the Hebrew and from this site's Plain of the Old Testament verse, and quote the site's Plain exactly. The main
+  from the Hebrew and from this site's Plain English Translation of the Old Testament verse, and quote the site's Plain English Translation exactly. The main
   ones: Genesis 15:6 (4:3, 9, 22); Psalm 32:1–2 (4:7–8); Habakkuk 2:4 (1:17); Psalm 51:4 (3:4); the catena of 3:10–18
   (Psalms 14:1–3; 5:9; 140:3; 10:7; Isaiah 59:7–8; Psalm 36:1); Leviticus 18:5 (10:5); Deuteronomy 30:12–14 (10:6–8);
   Isaiah 52:5 (2:24); Genesis 21:12 (9:7); Genesis 25:23 and Malachi 1:2–3 (9:12–13); Exodus 33:19 and 9:16 (9:15, 17);
@@ -100,7 +100,7 @@ variants.json entry wherever the English changes. Names to weigh, as reported by
 (never invent a reading; attribute): P46 (about 200), Sinaiticus (01), Vaticanus (03), Alexandrinus (02), Ephraemi (04),
 Claromontanus (06), Boernerianus (012), the Byzantine text and the Textus Receptus. Places that matter:
 
-- 1:7 and 1:15: "in Rome" omitted by Boernerianus (G 012) and a few others, with Origen's comment; the Plain follows the
+- 1:7 and 1:15: "in Rome" omitted by Boernerianus (G 012) and a few others, with Origen's comment; the Plain English Translation follows the
   great majority.
 - 3:22 "and upon all" (Byzantine; P40, Sinaiticus corrector); 3:28 "for / therefore we reckon"; 4:1 "found"
   (εὑρηκέναι) or not; 4:19 "not weak in faith" or "without being weak" (οὐ); 5:1 ἔχομεν "we have peace" (indicative, the
@@ -130,7 +130,7 @@ Claromontanus (06), Boernerianus (012), the Byzantine text and the Textus Recept
 ## The omitted and moved verses
 
 - 16:24 (the Byzantine "The grace of our Lord Jesus Christ be with you all. Amen"): the SBL does not print it as a verse.
-  Follow the policy in brief-nt.md: the Plain line is exactly `16:24 [The oldest manuscripts do not have this verse.]`, with a
+  Follow the policy in brief-nt.md: the Plain English Translation line is exactly `16:24 [The oldest manuscripts do not have this verse.]`, with a
   variants.json entry (reading 1 gives its Greek from `byz` and your translation).
 - 16:25–27: the doxology is in the SBL after 16:23. Translate it where it stands. Give its variant entry and the section
   "The place of the doxology" a deep dive (positions: after 14:23 in the Byzantine majority; after 16:23 in Sinaiticus,
@@ -146,7 +146,7 @@ Read content/terms.json and content/proposals/nt/terms.json. Already fixed: δι
 nations), ἐκκλησία "church", βῆμα "judgment seat" (14:10), κοινός "common" with ἀκάθαρτος "unclean" (14:14), ἀγάπη "love",
 διάκονος "servant" (Phoebe: gloss and note, the view "deacon"), ἐπίσκοπος "overseer". Decided here, so every part agrees:
 
-- **πίστις Χριστοῦ / Ἰησοῦ Χριστοῦ (3:22, 26; the term entry says it is decided here):** the Plain reads "faith in Jesus
+- **πίστις Χριστοῦ / Ἰησοῦ Χριστοῦ (3:22, 26; the term entry says it is decided here):** the Plain English Translation reads "faith in Jesus
   Christ" (3:22) and "the one who has faith in Jesus" (3:26), the objective-genitive reading found in most translations. Each
   place gets a gloss and a note giving the other reading, "the faithfulness of Jesus Christ" (Hays, Wright in part,
   Campbell; against it Dunn, Fitzmyer, Moo), with the arguments (the grammar, Paul's other uses, Romans 4's emphasis on
@@ -154,7 +154,7 @@ nations), ἐκκλησία "church", βῆμα "judgment seat" (14:10), κοι�
   This is a lead decision for Matt to override; if he does, the term and these places change together.
 - **δικαιοσύνη θεοῦ (1:17; 3:5, 21, 22, 25, 26; 10:3):** "God's righteousness", a gloss on first use, and a note listing the
   readings (a gift God gives, God's own justice, God's covenant faithfulness, God's saving power). Never "justice" in the
-  Plain except where the sense is clear (3:5, 8 with "unjust").
+  Plain English Translation except where the sense is clear (3:5, 8 with "unjust").
 - **ἱλαστήριον (3:25):** "God put him forward as the place of atonement, through faith, by his blood", with a gloss
   "where sin is covered over" and a note on the readings: propitiation (turning away God's anger: Morris, Stott, Packer),
   expiation (removing sin: Dodd), the atonement lid of the ark (Hebrews 9:5; Leviticus 16; the Septuagint's use; Luther's
@@ -204,7 +204,7 @@ nations), ἐκκλησία "church", βῆμα "judgment seat" (14:10), κοι�
   faithfulness", Paul "by faith"; Hebrews 10:38 and Galatians 3:11 by reference; DSS 1QpHab 8, if known, labeled as such).
 - **1:18–32** God's anger at humanity: general revelation (card top `natural-revelation`; Catholic Vatican I and the
   Catechism §36, Reformed and Barthian rejections, Orthodox), the exchange of the glory of God for images (idolatry; the
-  parallel with Wisdom 13–14, Plain exists in Wis; verify), 1:26–27 (same-sex relations: card top `same-sex-relations` with
+  parallel with Wisdom 13–14, Plain English Translation exists in Wis; verify), 1:26–27 (same-sex relations: card top `same-sex-relations` with
   the churches' teachings and the scholars' readings: Brooten, Hays, Gagnon, Boswell, Fredriksen on Paul and Jewish
   views of Gentiles; the Torah's Leviticus 18:22 and 20:13 by reference; "natural" and "unnatural", with the fair statement
   that the churches differ and that some read it as about excess, idolatry or Roman practices); 1:28–32 the vice list.
@@ -326,7 +326,7 @@ nations), ἐκκλησία "church", βῆμα "judgment seat" (14:10), κοι�
   the household of Aristobulus and of Narcissus (Roman names; the Herodian and imperial households; their identification is
   uncertain), Rufus (Mark 15:21 by reference, with its tradition that Rufus' mother was a mother to Paul), Hermes and others
   (a "name list" gloss for the reader, kept short), Tryphaena and Tryphosa, Persis, Julia and Nereus, Olympas, "a holy kiss" (16:16),
-  16:17–20 the warning about divisions (the Plain translates it; note on the interpolation view, honestly labeled), Timothy,
+  16:17–20 the warning about divisions (the Plain English Translation translates it; note on the interpolation view, honestly labeled), Timothy,
   Lucius, Jason and Sosipater (Acts 17:5 by reference), Tertius the scribe (16:22), Gaius, Erastus, Quartus (the Erastus
   inscription in Corinth: the Latin "ERASTVS PRO AED S P STRAVIT", reported in the commentaries; the identification uncertain: labeled),
   and 16:25–27 the doxology ("the mystery kept secret", "the obedience of faith" returns).

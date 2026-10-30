@@ -2,12 +2,12 @@
 
 ## Verdict
 
-This part is solid. I checked the Plain verse by verse against the SBLGNT, the Byzantine text and the word list. It is faithful and readable, and where the Greek matches it follows Mark's reviewed Plain and Matthew's published Plain closely and correctly. Examples: 18:15–19, 18:31, 18:39, 18:41, 19:29–31, 19:45, 20:4–10, 20:17–18, 20:37–38, 20:47, 21:6–10, 21:17, 21:21, 21:26, 21:33. Luke 20:42–43 matches Acts 2:34–35, and 18:14 matches Luke 14:11. It also differs from Mark and Matthew exactly where Luke's Greek differs. Examples: 18:24 present tense, 18:28 τὰ ἴδια, 18:38 word order, 21:27 singular cloud, 21:3 Ἀληθῶς against ἀμήν, 21:32 πάντα against ταῦτα πάντα.
+This part is solid. I checked the Plain English Translation verse by verse against the SBLGNT, the Byzantine text and the word list. It is faithful and readable, and where the Greek matches it follows Mark's reviewed Plain English Translation and Matthew's published Plain English Translation closely and correctly. Examples: 18:15–19, 18:31, 18:39, 18:41, 19:29–31, 19:45, 20:4–10, 20:17–18, 20:37–38, 20:47, 21:6–10, 21:17, 21:21, 21:26, 21:33. Luke 20:42–43 matches Acts 2:34–35, and 18:14 matches Luke 14:11. It also differs from Mark and Matthew exactly where Luke's Greek differs. Examples: 18:24 present tense, 18:28 τὰ ἴδια, 18:38 word order, 21:27 singular cloud, 21:3 Ἀληθῶς against ἀμήν, 21:32 πάντα against ταῦτα πάντα.
 
 Notes are dense and mostly accurate. These citations check out: Josephus *Ant.* 10.83, *War* 5.491–511 and 6.420; Berakhot 28b; Bava Batra 4a; Yoma 39b; Mishnah Shekalim 6:5; Didache 8:1; Psalms of Solomon 17:21; 4 Maccabees 7:19; CCC 674, 2559 and 2613; Trent Session 6 chapter 7; *Life of Antony* 2; Dodd 1947; Reicke 1972.
 
 The problems are these:
-- One softened crux in the Plain (19:27).
+- One softened crux in the Plain English Translation (19:27).
 - A traditions card that repeats the Genesis 15:6 card.
 - Variant entries that name editions but not manuscripts, and one witness list that is wrong (21:36).
 - A false "Luke alone" claim (19:38).
@@ -30,7 +30,7 @@ On the points the lead asked me to judge:
 ### Major
 
 **1. (major) plain.txt 19:27: "cut them down" softens κατασφάξατε.**
-κατασφάζω means "slaughter, butcher" (BDAG; it is used of sacrificial animals and massacres). "Cut them down" can be read as merely "defeat". The brief names this verse as a crux, and note 19:27 itself speaks of "the slaughtered enemies", so the Plain and its note disagree. Fix: "bring them here and slaughter them in front of me." Keep note 19:27 as it is.
+κατασφάζω means "slaughter, butcher" (BDAG; it is used of sacrificial animals and massacres). "Cut them down" can be read as merely "defeat". The brief names this verse as a crux, and note 19:27 itself speaks of "the slaughtered enemies", so the Plain English Translation and its note disagree. Fix: "bring them here and slaughter them in front of me." Keep note 19:27 as it is.
 
 **2. (major) chapters.json ch. 18 traditions card (top `justification`): it repeats the Genesis 15:6 card.**
 The Genesis 12-25 card asks "what did justification mean?" with the same five traditions (Catholic, Orthodox, Lutheran, Reformed, Methodist) and the same sources: Trent Session 6 chapter 7, Augsburg Confession 4, Westminster 11.1, Ware and Wesley. Luke already has justification cards at 10:28 and 17:10. brief-luk.md allows an 18:14 card "only if a card on that verse adds to the main justification cards elsewhere"; this one does not.
@@ -61,13 +61,13 @@ I cannot confirm that Metzger's *Textual Commentary* (2nd ed.) has an entry on L
 ### Minor
 
 **8. (minor) plain.txt 19:44: "the season when God came to visit you" adds "God".**
-The Greek is τὸν καιρὸν τῆς ἐπισκοπῆς σου, "the time of your visitation". Naming the visitor is interpretation in the text, which STYLE forbids. It is the majority reading (1:68; 7:16), but the note should carry it, not the Plain. Fix: "the season of your visitation" or "the season when you were visited". The gloss can keep "God came to rescue and to judge you".
+The Greek is τὸν καιρὸν τῆς ἐπισκοπῆς σου, "the time of your visitation". Naming the visitor is interpretation in the text, which STYLE forbids. It is the majority reading (1:68; 7:16), but the note should carry it, not the Plain English Translation. Fix: "the season of your visitation" or "the season when you were visited". The gloss can keep "God came to rescue and to judge you".
 
 **9. (minor) plain.txt 21:12: "hound you" for διώξουσιν.**
-The Acts lead decision is "διώκω always 'persecute'", and Luke-Acts is one work. Note 21:12 makes the link explicit ("Fulfilled in Acts"), and Acts 9:4–5 and 26:14 read "persecuting". Matthew's Plain also uses "persecute" (Matthew 5:10–12, 44). Fix: "people will lay hands on you and persecute you." (11:49 "hunt down" belongs to another part; mention it to the lead.)
+The Acts lead decision is "διώκω always 'persecute'", and Luke-Acts is one work. Note 21:12 makes the link explicit ("Fulfilled in Acts"), and Acts 9:4–5 and 26:14 read "persecuting". Matthew's Plain English Translation also uses "persecute" (Matthew 5:10–12, 44). Fix: "people will lay hands on you and persecute you." (11:49 "hunt down" belongs to another part; mention it to the lead.)
 
 **10. (minor) plain.txt 21:23: the word order differs from Mark 13:17, though the Greek is the same.**
-Luke has οὐαὶ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις, identical to Mark apart from Mark's δέ. Mark's Plain reads "In those days, woe to women who are expecting, and to mothers nursing babies!" and Matthew 24:19 agrees. Fix: use that wording, then "For there will be great distress...".
+Luke has οὐαὶ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις, identical to Mark apart from Mark's δέ. Mark's Plain English Translation reads "In those days, woe to women who are expecting, and to mothers nursing babies!" and Matthew 24:19 agrees. Fix: use that wording, then "For there will be great distress...".
 
 **11. (minor) plain.txt 19:11: "God's kingdom" for ἡ βασιλεία τοῦ θεοῦ.**
 Everywhere else in this part (18:16, 17, 24, 25, 29; 21:31) and in Mark it is "the kingdom of God". Fix: "they supposed the kingdom of God was about to show itself at any moment."
@@ -86,25 +86,25 @@ The Greek is "threw into the gifts", meaning the offering chests or offerings. "
 Luke says the parable was told "to the people" (20:9). Matthew 21:33, 45 and Mark 12:1, 12 aim it at the chief priests and elders. brief-nt.md says to state such differences on the card. Fix: add a views entry, "Mark and Matthew: told to the leaders who had challenged him; Luke: told to the people, with the leaders overhearing."
 
 **16. (minor) notes.json 19:38 ("The angels' song answered"): Mark's and Matthew's wording is not mentioned.**
-The note should say that Mark 11:10 and Matthew 21:9 have the same phrase (ἐν τοῖς ὑψίστοις), rendered "in the highest" on this site, and that Luke's Plain keeps "in the heights above" to match Luke 2:14. Then a reader comparing the Gospels knows the Greek is the same.
+The note should say that Mark 11:10 and Matthew 21:9 have the same phrase (ἐν τοῖς ὑψίστοις), rendered "in the highest" on this site, and that Luke's Plain English Translation keeps "in the heights above" to match Luke 2:14. Then a reader comparing the Gospels knows the Greek is the same.
 
 **17. (minor) notes.json 18:14 ("The great reversal"): Matthew 23:12 is not "in the same words".**
-Matthew has ὅστις δὲ ὑψώσει ἑαυτὸν ... (a relative clause with a future verb), and its Plain reads "Anyone who raises himself up...". Luke 14:11 is the identical saying. Fix: "in nearly the same words".
+Matthew has ὅστις δὲ ὑψώσει ἑαυτὸν ... (a relative clause with a future verb), and its Plain English Translation reads "Anyone who raises himself up...". Luke 14:11 is the identical saying. Fix: "in nearly the same words".
 
 **18. (minor) notes.json 18:18 ("A rich young leader"): the question is not "word for word" the same as 10:25.**
 18:18 adds ἀγαθέ, "Good teacher". Fix: "the same question as the lawyer's in 10:25, except for 'good'".
 
 **19. (minor) notes.json 19:3 ("Who was short?") misquotes 2:52.**
-It quotes 2:52 as "Jesus grew in wisdom and in stature". Luke's Plain at 2:52 reads "kept moving forward in wisdom and in maturity", which is the 01-02 writer's choice for ἡλικία. Quote the site's Plain and make the point from it: Luke renders ἡλικία "maturity" there.
+It quotes 2:52 as "Jesus grew in wisdom and in stature". Luke's Plain English Translation at 2:52 reads "kept moving forward in wisdom and in maturity", which is the 01-02 writer's choice for ἡλικία. Quote the site's Plain English Translation and make the point from it: Luke renders ἡλικία "maturity" there.
 
 **20. (minor) chapters.json ch. 20 deep dive "Luke's changes to the temple debates" misquotes Mark.**
-It quotes Mark's rebuke as "you are badly mistaken". Mark 12:27's Plain is "You have gone far astray." Fix the quote.
+It quotes Mark's rebuke as "you are badly mistaken". Mark 12:27's Plain English Translation is "You have gone far astray." Fix the quote.
 
 **21. (minor) chapters.json ch. 18 views J misquotes the prayer.**
-It quotes "God, be gracious to me, a sinner". The Plain (18:13) reads "the sinner", and note 18:13 makes a point of the article. Fix the quote.
+It quotes "God, be gracious to me, a sinner". The Plain English Translation (18:13) reads "the sinner", and note 18:13 makes a point of the article. Fix the quote.
 
 **22. (minor) chapters.json ch. 21 sum[1]: "with power and great glory".**
-The Plain (21:27) says "much glory". Fix.
+The Plain English Translation (21:27) says "much glory". Fix.
 
 **23. (minor) notes.json 21:36 ("Standing before the Son of Man"): wrong place for where the journey began.**
 It says "Luke's discourse ends, as the Gospel's journey section began, with prayer (18:1)". The journey section begins at 9:51. Fix: "as this last stretch began with a parable on prayer (18:1)".
@@ -112,8 +112,8 @@ It says "Luke's discourse ends, as the Gospel's journey section began, with pray
 **24. (minor) notes.json 21:26: the text and `r` cite different verses.**
 The text says the οἰκουμένη is Luke's word "(2:1; Acts 17:6)", but `r` lists "Acts 17:31". Make them match; the word is in both verses, so list both.
 
-**25. (minor) notes.json 21:24 ("Death and captivity in AD 70"): refers to wording the Plain does not have.**
-It cites "the phrase 'by the edge of the sword'", but the Plain says "cut down by the sword". Fix: "The Greek 'by the mouth of the sword' (Plain: 'cut down by the sword')...". Alternatively render στόματι μαχαίρης "by the edge of the sword" in the Plain, which is closer.
+**25. (minor) notes.json 21:24 ("Death and captivity in AD 70"): refers to wording the Plain English Translation does not have.**
+It cites "the phrase 'by the edge of the sword'", but the Plain English Translation says "cut down by the sword". Fix: "The Greek 'by the mouth of the sword' (Plain English Translation: 'cut down by the sword')...". Alternatively render στόματι μαχαίρης "by the edge of the sword" in the Plain English Translation, which is closer.
 
 **26. (minor) notes.json 19:20 ("Wrapped in a cloth"): the rule about the cloth is credited to the wrong source.**
 b. Bava Metzia 42a gives the rule that burial is the safe keeping. The liability of one who ties money in a cloth comes from the Mishnah, Bava Metzia 3:10, and Jeremias cites both. Fix: cite "Mishnah Bava Metzia 3:10; Babylonian Talmud, Bava Metzia 42a" and add or reuse a Mishnah source key.
@@ -181,13 +181,13 @@ Critical: 0. Major: 7 (1–7). Minor: 31 (8–38).
 16. Accepted. Note 19:38 ("The angels' song answered") now says Mark 11:10 and Matthew 21:9 have the same Greek, rendered "in the highest" on this site.
 17. Accepted. "in nearly the same words".
 18. Accepted. "except that this man adds 'good'".
-19. Accepted. Note 19:3 quotes the Plain of 2:52 ("maturity") and makes the point from it.
+19. Accepted. Note 19:3 quotes the Plain English Translation of 2:52 ("maturity") and makes the point from it.
 20. Accepted. The deep dive quotes Mark 12:27 as "You have gone far astray".
 21. Accepted. The J view quote now reads "the sinner".
 22. Accepted. sum[1] "much glory".
 23. Accepted. Changed to "as this last stretch of teaching began with a parable on prayer (18:1)".
 24. Accepted. Text and `r` both give Acts 17:6, 31.
-25. Accepted (note side). The note now reads "The Greek 'by the mouth of the sword' (Plain: 'cut down by the sword')". I kept the Plain, because "fall by the edge of the sword" is the ESV wording.
+25. Accepted (note side). The note now reads "The Greek 'by the mouth of the sword' (Plain English Translation: 'cut down by the sword')". I kept the Plain English Translation, because "fall by the edge of the sword" is the ESV wording.
 26. Partly accepted. Note 19:20 cites "Mishnah Bava Metzia 3:10; Babylonian Talmud, Bava Metzia 42a" (existing key `mishnah-bava-metzia`). Jeremias stays as the scholar who made the link.
 27. Accepted. Changed to "No church teaches that the verse permits killing unbelievers."
 28. Accepted. Both notes use the NRSV numbering and say so: Sirach 35:17–22 and 35:22.

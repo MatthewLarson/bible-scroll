@@ -83,7 +83,7 @@ All six writers work at the same time and cannot see each other's notes.
 - One page per subject. The build errors on a title or alias collision.
 
 **Shared rules learned from Psalms.**
-- When a part quotes a verse of another part or book, use that verse's current Plain exactly. The build warns otherwise.
+- When a part quotes a verse of another part or book, use that verse's current Plain English Translation exactly. The build warns otherwise.
 - When the same Hebrew saying appears twice in Proverbs, the earlier verse is the model and the later one matches it unless the Hebrew differs. Examples are 14:12 and 16:25, 18:8 and 26:22, 19:1 and 28:6, and 20:16 and 27:13. Writers of later parts read the earlier part's plain.txt for these once it exists. If it does not exist yet, write the later verse and list the pair in your report.
 - Notes typed `spec` are only Claude's own theory. Published observations are `com` or `views` notes with a source.
 - Write the book name in every reference to another book, including inside tables and lists.
@@ -98,7 +98,7 @@ All six writers work at the same time and cannot see each other's notes.
 - Report your counts, any repeated-saying pairs left to align, and anything I should know. Be accurate about which reading each verse follows.
 
 **Lead decisions** (apply these when fixing; they override a part's own choice):
-- 'eshet chayil is "a woman of strength" in Proverbs (12:4, 31:10), keeping the play on chayil in 31:3 and 31:29. Ruth 3:11 keeps "a woman of worth", paired with Boaz as "a man of great worth" (Ruth 2:1). This split is deliberate and recorded in terms.json; any Proverbs page that quotes Ruth 3:11 quotes Ruth's Plain and says it is the same Hebrew.
+- 'eshet chayil is "a woman of strength" in Proverbs (12:4, 31:10), keeping the play on chayil in 31:3 and 31:29. Ruth 3:11 keeps "a woman of worth", paired with Boaz as "a man of great worth" (Ruth 2:1). This split is deliberate and recorded in terms.json; any Proverbs page that quotes Ruth 3:11 quotes Ruth's Plain English Translation and says it is the same Hebrew.
 - 28:21a follows 24:23b (same Hebrew); 24:20b follows 13:9b.
 - 13:9b and 24:20b: "the lamp of the wicked will go out" (both; matches 20:20). The earlier wording copied the NIV.
 - 'atsel follows terms.json: "the lazy one" or "a lazy person" ("you lazy one" in address), never "lazy man" or "sluggard". The Hebrew has no "man".

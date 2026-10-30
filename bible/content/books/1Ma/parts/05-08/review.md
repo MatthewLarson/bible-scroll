@@ -4,18 +4,18 @@
 - texts/orig/1Ma.json `grc` (Swete's Alexandrinus, compared in NFC), read verse by verse beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/1Ma.app.json, for every verse of chapters 5–8;
 - the Vulgate and Douay in texts/src/1Ma.lat.json;
-- parts 01-04, 09-11 and 12-16, book.json, content/terms.json, the site's Plain for the 66 books, and every `traditions` card on the site.
+- parts 01-04, 09-11 and 12-16, book.json, content/terms.json, the site's Plain English Translation for the 66 books, and every `traditions` card on the site.
 
 **Build.** `VERBOSE=1 node tools/build.js --check 1Ma/05-08` gives **0 errors, 0 warnings** (213 verses, 121 notes, 26 variants, 63 glosses, 4 chapter pages, 14 topic contributions).
 
 **Quotations checked by script.**
 - **Greek.** Every Greek string in notes.json, variants.json, chapters.json, topics.json and glosses.json is in Swete's text (as a whole-word match) or, for the apparatus quotations, letter for letter in the apparatus file. **I found no invented or garbled Greek quotation.** Three *reports* of what a manuscript reads are wrong, though the quoted Greek is right (finding 4).
 - **Latin and Douay.** Every Latin and Douay quotation matches the file, under the Vulgate's own numbering (5:21 for "usque ad portam" is correctly flagged).
-- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain except one (finding 15). Checked: Genesis 11:4, 49:11; Exodus 11:3; Leviticus 25:4; Numbers 10:9, 20:17, 21:22, 31:49; Deuteronomy 2:28, 4:2, 7:5, 20:10, 20:13, 32:14; Joshua 23:13; Judges 3:11; 1 Samuel 5:12, 14:10, 17:51, 17:54, 31:10; 1 Kings 8:43, 12:10; 2 Kings 19:35; 2 Chronicles 16:7, 29:30; Ezra 6:10, 7:6; Esther 6:1; Psalms 74:18, 74:22, 79:2–3, 83:4, 146:3. Daniel, Isaiah and the New Testament are not yet on the site, so fresh wording there is allowed.
+- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain English Translation except one (finding 15). Checked: Genesis 11:4, 49:11; Exodus 11:3; Leviticus 25:4; Numbers 10:9, 20:17, 21:22, 31:49; Deuteronomy 2:28, 4:2, 7:5, 20:10, 20:13, 32:14; Joshua 23:13; Judges 3:11; 1 Samuel 5:12, 14:10, 17:51, 17:54, 31:10; 1 Kings 8:43, 12:10; 2 Kings 19:35; 2 Chronicles 16:7, 29:30; Ezra 6:10, 7:6; Esther 6:1; Psalms 74:18, 74:22, 79:2–3, 83:4, 146:3. Daniel, Isaiah and the New Testament are not yet on the site, so fresh wording there is allowed.
 
 ## Verdict
 
-This is a careful, well-researched part. The Plain follows the Greek of Alexandrinus closely, verse by verse. Names, numbers and who does what are right almost everywhere. The eight departures the writer declared (5:3, 5:22, 5:43, 5:56, 6:43, 6:49, 7:25, 7:31) are all real, and Swete's apparatus supports each one. The Latin is quoted exactly. The traditions card is broad and unranked, and the `readers` lines are specific and rest on evidence.
+This is a careful, well-researched part. The Plain English Translation follows the Greek of Alexandrinus closely, verse by verse. Names, numbers and who does what are right almost everywhere. The eight departures the writer declared (5:3, 5:22, 5:43, 5:56, 6:43, 6:49, 7:25, 7:31) are all real, and Swete's apparatus supports each one. The Latin is quoted exactly. The traditions card is broad and unranked, and the `readers` lines are specific and rest on evidence.
 
 The weaknesses:
 - **One fact is turned upside down.** Josephus says Nicanor *beat* Judas at Capharsalama. The part says Josephus has Judas win, twice (finding 1).
@@ -46,7 +46,7 @@ Josephus says the opposite. *Antiquities* 12.405 (Whiston): Nicanor, "upon joini
 
 Every departure from the base text needs a variant entry (the Tobit lesson). These have none:
 
-- **5:50, "The fighting men took their positions".** Alexandrinus reads καὶ παρενέβαλον οἱ ἄνδρες **τῆς πόλεως**, "the men *of the town* camped", then "attacked the town". The apparatus has `50 πολεως] δυναμεως ℵV`. The Plain follows ℵV ("the men of the army"), as the KJV does ("the soldiers"). The choice is right, because A makes the townsmen attack their own town, but it is a departure in sense and needs an entry.
+- **5:50, "The fighting men took their positions".** Alexandrinus reads καὶ παρενέβαλον οἱ ἄνδρες **τῆς πόλεως**, "the men *of the town* camped", then "attacked the town". The apparatus has `50 πολεως] δυναμεως ℵV`. The Plain English Translation follows ℵV ("the men of the army"), as the KJV does ("the soldiers"). The choice is right, because A makes the townsmen attack their own town, but it is a departure in sense and needs an entry.
 - **5:38, "All the nations around you have gathered to him".** A has πρὸς **αὐτοὺς**, "to them". "To him" is ℵ's reading (`αυτους] αυτον ℵ`) and the Latin's (*ad eum*). Add an entry, or write "to them".
 - **7:31, "he went out to meet Judas in battle".** "In battle" is ℵV's addition (`Ιουδα] + εν πολεμω ℵV`); A has only εἰς συνάντησιν, "to meet". Drop "in battle" or add an entry.
 - **Names that follow ℵ, V or the Latin rather than A, with no note or entry:**
@@ -59,8 +59,8 @@ Every departure from the base text needs a variant entry (the Tobit lesson). The
 
 ### 3. MAJOR: plain.txt 6:35–41 leans on the RSV/NRSV
 
-Elsewhere I compared the Plain in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and found no dependence. This one passage is the exception. Several of its choices are the RSV/NRSV's own, where the Greek does not force them:
-- **6:38.** "to harass the enemy while they were shielded by the phalanxes". This is the RSV/NRSV interpretation of the obscure κατασείοντες καὶ καταφρασσόμενοι, with the RSV/NRSV clause shape ("to harass the enemy while being themselves protected by the phalanxes"). N57 admits the Greek is uncertain and the KJV reads it quite differently ("giving them signs … being harnessed"). The Plain should not take over another version's resolution of that uncertainty along with its sentence.
+Elsewhere I compared the Plain English Translation in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and found no dependence. This one passage is the exception. Several of its choices are the RSV/NRSV's own, where the Greek does not force them:
+- **6:38.** "to harass the enemy while they were shielded by the phalanxes". This is the RSV/NRSV interpretation of the obscure κατασείοντες καὶ καταφρασσόμενοι, with the RSV/NRSV clause shape ("to harass the enemy while being themselves protected by the phalanxes"). N57 admits the Greek is uncertain and the KJV reads it quite differently ("giving them signs … being harnessed"). The Plain English Translation should not take over another version's resolution of that uncertainty along with its sentence.
 - **6:40.** "advanced steadily and in good order" is the RSV/NRSV's exact phrase. ἀσφαλῶς is "securely, safely" (KJV "safely"); "steadily" is their choice.
 - **6:36.** "Wherever it went, they went with it, and they never left it" matches the NRSV word for word. The Greek has οὐκ ἀφίσταντο ἐπ᾽ αὐτοῦ, "they did not stand away from it"; "never" is added.
 - **6:35 and 6:37.** "five hundred picked horsemen were assigned to each beast", and "strapped on with harness … its Indian driver" (μηχαναῖς, "with devices"; "driver" is supplied). Each could arise independently, but together they continue the run.
@@ -123,18 +123,18 @@ In English, "gave himself up" usually means "surrendered", the opposite of what 
 
 ### 13. MINOR: plain.txt 6:49 "a sabbath year"
 
-The site's Plain capitalizes Sabbath (Leviticus 25:4, "a Sabbath of complete rest"), and so does the rest of 1 Maccabees (1:43, 2:32–41, 9:34). N63 and the sabbath topic quote 6:49 with a lower-case s. Use "a Sabbath year".
+The site's Plain English Translation capitalizes Sabbath (Leviticus 25:4, "a Sabbath of complete rest"), and so does the rest of 1 Maccabees (1:43, 2:32–41, 9:34). N63 and the sabbath topic quote 6:49 with a lower-case s. Use "a Sabbath year".
 
 ### 14. MINOR: smaller translation points
 
 - **8:7, "and hand over land".** διαστολήν is obscure; the KJV has "that which was agreed upon". "Hand over land" is one interpretation, and it also matches the RSV/NRSV's linking of this clause to the provinces in 8:8. Add a `deb` note, or render it neutrally ("and a set portion").
 - **6:6, "had gone at the head of a strong force".** ἐν πρώτοις is "at first, in the first place" (KJV "went forth first"; Latin *in primis*), not "at the head". Write "Lysias had gone first with a strong force".
-- **7:24, "on the men who had deserted".** The Greek has two groups, "on the men and on those who had deserted". The Plain merges them.
+- **7:24, "on the men who had deserted".** The Greek has two groups, "on the men and on those who had deserted". The Plain English Translation merges them.
 - **6:48, "camped against Judea".** εἰς τὴν Ἰουδαίαν is "in Judea". "Against" comes from the KJV.
 
 ### 15. MINOR: variant 7:16 `why`, and other variant details
 
-- **7:16 why:** "(Asaph, 2 Chronicles 29:30, 'Asaph the seer')". The site's Plain has "Asaph the visionary". Use the site's wording.
+- **7:16 why:** "(Asaph, 2 Chronicles 29:30, 'Asaph the seer')". The site's Plain English Translation has "Asaph the visionary". Use the site's wording.
 - **7:16 witnesses:** ℵ and V read the singular τὸν λόγον ὅν ("the word which"), and ℵ* adds αὐτόν. The first reading lists "Sinaiticus, first hand" as agreeing with A's κατὰ τοὺς λόγους οὓς, which it does not. Note the singular, which is also the Latin's *verbum*.
 - **5:41:** the entry credits the addition to ℵ and V but quotes only V's abbreviation (`+ κ. δ. αυτον V`). Quote ℵ's fuller form too: `+ και δυνησομεθα προς αυτο ℵ`.
 - **6:20 and 6:24:** the `orig` keeps Swete's line-break bars inside words (συνηχθησα | αμα; περιεκα- θη | το), with no comment. Add "(line breaks as in Swete's note)".
@@ -248,9 +248,9 @@ All checked with `VERBOSE=1 node tools/build.js --check 1Ma/05-08`: 0 errors. Th
    - 5:38 "to him" (ℵ, Latin);
    - 5:50 "the fighting men" (ℵV);
    - 7:19 Beth-zaith (A Βηζέθ);
-   - 7:31: "in battle" dropped from the Plain to follow A, with an entry for the ℵV addition.
+   - 7:31: "in battle" dropped from the Plain English Translation to follow A, with an entry for the ℵV addition.
 
-   On the two trivial points, the Plain now follows A: 5:33 "He sounded the trumpets, and they cried out" and 5:68 without "with fire". Both are mentioned in N19 and N36.
+   On the two trivial points, the Plain English Translation now follows A: 5:33 "He sounded the trumpets, and they cried out" and 5:68 without "with fire". Both are mentioned in N19 and N36.
 3. **Agreed.** 6:35–41 rebuilt from a fresh literal line:
    - 6:36 "they did not stray from it";
    - 6:37 "girded on with gear… and each beast had its Indian";
@@ -258,7 +258,7 @@ All checked with `VERBOSE=1 node tools/build.js --check 1Ma/05-08`: 0 errors. Th
    - 6:39 "glittered… blazed";
    - 6:40 "came on securely, in ranks".
 
-   N55–N58 and the glosses were re-anchored. N57 no longer claims that the Plain chose one resolution.
+   N55–N58 and the glosses were re-anchored. N57 no longer claims that the Plain English Translation chose one resolution.
 4. **Agreed, all six.**
    - N56 now reports ℵ δυνάμεως (without δύο) and V's reading, with a new 6:37 variant entry.
    - N59 and the 6:43 entry: Auran in ℵ (and Josephus), Auaran in V. The sigma explanation is replaced by the -ς of Ἐλεάζαρος, marked "probably".

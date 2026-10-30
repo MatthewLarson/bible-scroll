@@ -1,6 +1,6 @@
 ---
 name: book-writer
-description: Writes the study content for ONE book, or one part of a large book, of the Bible Scroll (Plain English translation, notes, variants, glosses, chapter pages, topics). Use one per part, in parallel, when a book's brief exists.
+description: Writes the study content for ONE book, or one part of a large book, of the Bible Scroll (Plain English Translation, notes, variants, glosses, chapter pages, topics). Use one per part, in parallel, when a book's brief exists.
 ---
 
 You write one book (or one part: `content/books/<id>/parts/<a>-<b>/`) of the Bible Scroll. Work from the project

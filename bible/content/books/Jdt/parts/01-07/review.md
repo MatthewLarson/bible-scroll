@@ -1,19 +1,19 @@
 # Hostile review: Judith 1–7, part 01-07
 
-Reviewer's scope: plain.txt (146 verses), notes.json (127), variants.json (36), glosses.json (50), chapters.json (7 pages), topics.json (18 contributions) and sources.json in this folder. I checked them against texts/orig/Jdt.json (`grc`, Swete's Vaticanus), Swete's apparatus (texts/src/Jdt.app.json), the Clementine Vulgate and Douay (texts/src/Jdt.lat.json), the KJV Apocrypha (texts/en/Jdt.json), the site's Plain of the 66 books where written, part 08-16 and book.json. `node tools/build.js --check Jdt/01-07` gives **0 errors, 0 warnings**.
+Reviewer's scope: plain.txt (146 verses), notes.json (127), variants.json (36), glosses.json (50), chapters.json (7 pages), topics.json (18 contributions) and sources.json in this folder. I checked them against texts/orig/Jdt.json (`grc`, Swete's Vaticanus), Swete's apparatus (texts/src/Jdt.app.json), the Clementine Vulgate and Douay (texts/src/Jdt.lat.json), the KJV Apocrypha (texts/en/Jdt.json), the site's Plain English Translation of the 66 books where written, part 08-16 and book.json. `node tools/build.js --check Jdt/01-07` gives **0 errors, 0 warnings**.
 
-By script I compared every Greek string in notes.json and variants.json (`orig`, `b`, `why`, `p`) with `grc` of the same verse and with the apparatus. **Every Greek reading is real; I found no invented reading.** The mismatches are all apparatus line breaks, abbreviations or Swete's unaccented forms (for example Χε. βρων printed as Χεβρων at 2:24, συ|μικτος at 1:16). Every Vulgate and Douay quotation matches texts/src/Jdt.lat.json (1:5, 2:1, 4:5, 4:11, 5:9–15, 6:20–21, 7:2, 7:11, 7:24). I also checked every quotation of a written book of the 66 against the site's Plain (finding 13 lists the few exceptions).
+By script I compared every Greek string in notes.json and variants.json (`orig`, `b`, `why`, `p`) with `grc` of the same verse and with the apparatus. **Every Greek reading is real; I found no invented reading.** The mismatches are all apparatus line breaks, abbreviations or Swete's unaccented forms (for example Χε. βρων printed as Χεβρων at 2:24, συ|μικτος at 1:16). Every Vulgate and Douay quotation matches texts/src/Jdt.lat.json (1:5, 2:1, 4:5, 4:11, 5:9–15, 6:20–21, 7:2, 7:11, 7:24). I also checked every quotation of a written book of the 66 against the site's Plain English Translation (finding 13 lists the few exceptions).
 
 I used web search for: the Catholic Encyclopedia article "Judith" (Vigouroux, Calmet, Conder); Diodorus 16.47 (Thayer's text) and the Orophernes/Holophernes evidence (Livius); the PBC reply of 23 June 1905; Torrey's 1899 JAOS article; Aqraba/Akrabeta; the LXX of Exodus 1:10 and 1:14; Josephus Ant. 13.254–262; Genesis Rabbah 38:13; m. Yadayim 4:4; the medieval Hebrew Hanukkah midrash; Enslin on the original language. I could not open Moore, Gera, Grintz, Otzen, Enslin–Zeitlin or Hanhart's Göttingen edition. Points that rest on them are marked.
 
 ## Verdict
 
-This is careful work. The Plain is built from the Greek, verse by verse, and reads as fresh English. It is not a smoothed RSV or NRSV. Notes and variants quote the Greek and Latin correctly, and the large historical claims are fair and mostly right. These include Nebuchadnezzar and Nineveh, Phraortes in Herodotus, Holophernes and Bagoas, earth and water, the gerousia, and Hyrcanus in Samaria and Idumea. The catechism, Talmud and Mishnah references all check out. The book is never called Scripture in the site's own voice.
+This is careful work. The Plain English Translation is built from the Greek, verse by verse, and reads as fresh English. It is not a smoothed RSV or NRSV. Notes and variants quote the Greek and Latin correctly, and the large historical claims are fair and mostly right. These include Nebuchadnezzar and Nineveh, Phraortes in Herodotus, Holophernes and Bagoas, earth and water, the gerousia, and Hyrcanus in Samaria and Idumea. The catechism, Talmud and Mishnah references all check out. The book is never called Scripture in the site's own voice.
 
 Four of the five announced departures from Vaticanus are justified and correctly reported: 2:5, 2:7, 2:28 and 7:3. The fifth, 1:16, rightly takes the longer text of Alexandrinus and Sinaiticus. But it also adds "to Nineveh" from Alexandrinus alone, with no argument, and its note implies that Rahlfs prints it.
 
 The serious problems are these:
-- **6:1–2.** The Plain invents a line of speech ("And this goes for all you Moabites") to save a phrase the writer believes is misplaced. Swete's apparatus also shows that phrase was written by a corrector over an erasure.
+- **6:1–2.** The Plain English Translation invents a line of speech ("And this goes for all you Moabites") to save a phrase the writer believes is misplaced. Swete's apparatus also shows that phrase was written by a corrector over an erasure.
 - **7:2.** There is one silent departure from Vaticanus, and per the writer's own Lessons it needs an entry.
 - **Seven variant entries.** They credit "the Greek text behind the KJV" with readings no one has shown in any Greek manuscript.
 - **Readers lines.** All 14 `readers` lines open with the same stock line and state a debated date and audience as settled, which is the very fault the Tobit and 1 Enoch reviews flagged.
@@ -26,13 +26,13 @@ Counts: **critical 0, major 5, minor 12.**
 
 ### 1. MAJOR: plain.txt 6:2 and variants 6:1, 6:2: an invented line of speech, built on a corrector's text
 
-**What the Plain says.** "Who are you, Achior? And this goes for all you Moabites, and you hirelings of Ephraim."
+**What the Plain English Translation says.** "Who are you, Achior? And this goes for all you Moabites, and you hirelings of Ephraim."
 
 **What Vaticanus has.** Καὶ τίς εἶ σὺ Ἀχιὼρ καὶ πρὸς πάντας υἱοὺς Μωὰβ καὶ οἱ μισθωτοὶ Ἐφράιμ.
 
-**What the variant admits.** The second 6:2 variant's own `why` says the phrase "is a phrase for the narrator, not for Holofernes; the Plain turns it into speech." So the Plain translates words it believes are displaced, and it adds "this goes for", which is in no witness.
+**What the variant admits.** The second 6:2 variant's own `why` says the phrase "is a phrase for the narrator, not for Holofernes; the Plain English Translation turns it into speech." So the Plain English Translation translates words it believes are displaced, and it adds "this goes for", which is in no witness.
 
-**The apparatus is worse than the entry says.** Swete has "Μωαβ και sup ras Bᵃᵇ". The words "Moab and" in 6:2 stand *on an erasure, written by the corrector Bᵃᵇ*. So the reading the Plain follows "as printed by Swete" is not Vaticanus as first written. It is a corrector's text, and we cannot see what the first hand had there. The 6:1 entry's `b` softens this to "stand on an erasure made by a corrector", and the 6:2 entry labels the reading simply "Codex Vaticanus (B, 300s AD)".
+**The apparatus is worse than the entry says.** Swete has "Μωαβ και sup ras Bᵃᵇ". The words "Moab and" in 6:2 stand *on an erasure, written by the corrector Bᵃᵇ*. So the reading the Plain English Translation follows "as printed by Swete" is not Vaticanus as first written. It is a corrector's text, and we cannot see what the first hand had there. The 6:1 entry's `b` softens this to "stand on an erasure made by a corrector", and the 6:2 entry labels the reading simply "Codex Vaticanus (B, 300s AD)".
 
 Elsewhere (2:5, 2:7, 2:28, 6:6) the writer is careful to separate B* from its correctors. Here the same care would show that the only witness with the phrase inside the speech is a corrector of B. Alexandrinus puts it in verse 1, and it is the order Rahlfs and Hanhart print, as far as I recall (I could not check Hanhart).
 
@@ -58,7 +58,7 @@ Elsewhere (2:5, 2:7, 2:28, 6:6) the writer is careful to separate B* from its co
 
 ### 3. MAJOR: plain.txt 7:2: a silent departure from Vaticanus
 
-**What the Plain says.** "not counting the baggage and the men who went with it on foot".
+**What the Plain English Translation says.** "not counting the baggage and the men who went with it on foot".
 
 **What Vaticanus has.** χωρὶς τῆς ἀποσκευῆς τῶν ἀνδρῶν οἳ ἦσαν πεζοὶ ἐν αὐτοῖς, "apart from the baggage *of* the men who were on foot among them".
 
@@ -88,16 +88,16 @@ I checked all seven KJV readings against texts/en/Jdt.json: Israel (2:23), Arbon
 
 The departure itself is right. The long text of ℵA ("…και πας ο συμμικτος αυτου πληθος ανδρων πολεμιστων πολυ σφοδρα· και ην εκει ραθυμων και ευωχουμενος") explains the 120 days, and the eye-skip from αὐτός to αὐτός is a sound explanation.
 
-**The problem: "to Nineveh".** The Plain also adds "to Nineveh", which stands in Alexandrinus alone ("εις Νινευη αυτος A"). The entry admits this ("The words 'to Nineveh' stand only in Alexandrinus; Sinaiticus lacks them"), but the `why` gives no reason to follow the single witness against B and ℵ together. The `b` then says "The longer reading is printed by Rahlfs and by most modern editions", which a reader will take to include "to Nineveh". As far as I recall, Rahlfs prints the long text *without* εἰς Νινευή. The KJV has "to Nineve".
+**The problem: "to Nineveh".** The Plain English Translation also adds "to Nineveh", which stands in Alexandrinus alone ("εις Νινευη αυτος A"). The entry admits this ("The words 'to Nineveh' stand only in Alexandrinus; Sinaiticus lacks them"), but the `why` gives no reason to follow the single witness against B and ℵ together. The `b` then says "The longer reading is printed by Rahlfs and by most modern editions", which a reader will take to include "to Nineveh". As far as I recall, Rahlfs prints the long text *without* εἰς Νινευή. The KJV has "to Nineve".
 
 **Smaller faults.**
 - **The `orig` is shortened silently.** It drops Swete's parenthetical corrector readings "(πολυν A¹⁽ᵛⁱᵈ⁾)" and "(ραμυθων A*)" without an ellipsis.
 
 **Fix.** Either drop "to Nineveh" and follow ℵ's form of the long text, or argue for A in the `why` (sense: "went back with them" needs a place) and say that Rahlfs lacks it. Mark the shortening of the `orig` with "…".
 
-### 6. MINOR: variants: reasoning that contradicts the Plain or the evidence
+### 6. MINOR: variants: reasoning that contradicts the Plain English Translation or the evidence
 
-- **4:1 (temples or territories).** The `why` says "'Temples' fits 3:8, where Holofernes destroys the shrines of the nations." But the Plain of 3:8 says "laid waste all their *territory*" (ὅρια), and N41 explains why the Plain keeps "territory". Rephrase: "fits 3:8, where he destroys the gods of the land (and where many scholars read 'shrines' for 'territory', see the note)".
+- **4:1 (temples or territories).** The `why` says "'Temples' fits 3:8, where Holofernes destroys the shrines of the nations." But the Plain English Translation of 3:8 says "laid waste all their *territory*" (ὅρια), and N41 explains why the Plain English Translation keeps "territory". Rephrase: "fits 3:8, where he destroys the gods of the land (and where many scholars read 'shrines' for 'territory', see the note)".
 - **5:11 (labor or clay).** "The two Greek words differ by one letter" is false. πόνῳ and πηλῷ differ in two letters (ο/η and ν/λ). The entry also leaves out that the Vulgate 5:10 has *in luto et latere*, "in clay and brick". That is the reading of Sinaiticus, in a version made from a different Semitic copy, and it weakens "'Labor' is attested by more witnesses". Correct both.
 - **7:14 (hunger or fire).** The `why` explains the KJV's "fire" by *limos* being "close to words for 'plague'" (*loimos*). Plague is not fire, so the explanation does not touch the reading it is meant to explain. Drop it, or say the KJV's source is unknown (finding 4).
 - **2:5 (twelve thousand).** The label "Codex Sinaiticus as corrected (ℵc.a)" understates the case. Swete has "χειλιαδες ℵ* (-δας ℵc.ᵃ)": the first hand of Sinaiticus already had "thousands", and the corrector only fixed the ending. The reason "perhaps from the 120,000 earlier in the verse" is weak, since that figure uses χιλιάδας. The likelier source is 2:15, μυριάδας δέκα δύο (120,000 picked men).
@@ -131,13 +131,13 @@ The key describes "book 16 (the Persian campaigns of Artaxerxes III, with Holoph
 ### 9. MINOR: plain.txt: small additions, softenings and ambiguities
 
 - **5:18 "they were badly beaten in many wars".** The Greek is ἐξωλεθρεύθησαν ἐν πολλοῖς πολέμοις ἐπὶ πολὺ σφόδρα, "they were utterly destroyed in many wars, very greatly". "Badly beaten" softens the book's own verb for annihilation (the same verb as 1:15; 2:3; 6:2; 6:8). Use "they were destroyed, again and again, in many wars".
-- **4:8.** The Plain reads "The Israelites did as Joakim the high priest had ordered them, and the council of elders…". It reads as if the council also obeyed. The Greek makes the council the second subject of συνέταξεν. Use "…as Joakim the high priest and the council of elders… had ordered them".
+- **4:8.** The Plain English Translation reads "The Israelites did as Joakim the high priest had ordered them, and the council of elders…". It reads as if the council also obeyed. The Greek makes the council the second subject of συνέταξεν. Use "…as Joakim the high priest and the council of elders… had ordered them".
 - **4:14 "wore sackcloth around their waists. So they offered…".** The Greek has a participle, σάκκους περιεζωσμένοι … προσέφερον, "with sackcloth around their waists they offered". "So" adds a cause. Use "and in sackcloth they offered…".
 - **1:3 "he laid their foundations".** The Greek τὸ πλάτος αὐτῆς ἐθεμελίωσεν has a feminine singular pronoun: "its" (the city's or the gate's), not the towers'. Use "its foundations", or note the choice.
 - **2:24 and 3:6 "high walled towns".** The Greek τὰς πόλεις τὰς ὑψηλάς is "the high towns". "Walled" is added in both places. Use "hilltop towns" or "high towns".
 - **6:5 "this breed that came out of Egypt".** γένος is "race, people". "Breed" sharpens the sneer beyond the Greek. Use "this people".
 - **θεράπων is rendered three ways in this part:** "officials" (2:2), "servants" (6:6) and "officers" (7:16). Part 08-16 has "servants" throughout. Unify on "servants" or "attendants".
-- **2:2.** N20 calls the clause κακίαν τῆς γῆς "obscure" and gives only the Plain's reading. The common alternative, that the king recounted the land's *wickedness*, its disobedience (compare 2:3; 2:6), should be named in the note.
+- **2:2.** N20 calls the clause κακίαν τῆς γῆς "obscure" and gives only the Plain English Translation's reading. The common alternative, that the king recounted the land's *wickedness*, its disobedience (compare 2:3; 2:6), should be named in the note.
 
 ### 10. MINOR: N7 (1:6 "Rallied to whom?"): the decisive witness is left out
 
@@ -160,12 +160,12 @@ Swete has "προς αυτον] εις πολεμον ℵ* προς αυτον �
 
 ### 13. MINOR: quotations: of Judith 8–16 and of the 66
 
-- **N88.** It says "Judith's song will say the Lord 'crushes wars' (16:2)". Part 08-16's Plain of 16:2 reads "a God who *shatters* wars". Quote it as written.
-- **N40.** It says "Israel's women will crown Judith with garlands and dance before her (15:12–13)". In the Greek and in part 08-16's Plain, the women dance; Judith and her companions crown *themselves* with olive leaves, and she leads the dance. Restate.
-- **N107.** "God 'looks on the lowliness' of his servants (1 Samuel 1:11; Luke 1:48)" is quoted as a phrase, but the site's Plain of 1 Samuel 1:11 says "really look at the misery of your servant". Quote the Plain, or drop the quotation marks and say the Septuagint's word is *tapeinōsis*.
+- **N88.** It says "Judith's song will say the Lord 'crushes wars' (16:2)". Part 08-16's Plain English Translation of 16:2 reads "a God who *shatters* wars". Quote it as written.
+- **N40.** It says "Israel's women will crown Judith with garlands and dance before her (15:12–13)". In the Greek and in part 08-16's Plain English Translation, the women dance; Judith and her companions crown *themselves* with olive leaves, and she leads the dance. Restate.
+- **N107.** "God 'looks on the lowliness' of his servants (1 Samuel 1:11; Luke 1:48)" is quoted as a phrase, but the site's Plain English Translation of 1 Samuel 1:11 says "really look at the misery of your servant". Quote the Plain English Translation, or drop the quotation marks and say the Septuagint's word is *tapeinōsis*.
 - **N85.** The LXX of Deuteronomy 28:25 is καὶ ἔσῃ ἐν διασπορᾷ ἐν πάσαις ταῖς βασιλείαις, "you will be *in dispersion*", not "a diaspora". This is a small point.
-- **Numbers 23:19.** N29, N92 and N97 quote different lines of it. All are in the site's Plain, so this is only a reminder.
-- All other quotations of written books match the site's Plain, including multi-reference ones the build does not check: Joshua 3:11, Deuteronomy 7:16, 2 Kings 18:19, 2 Kings 18:35, Deuteronomy 32:39, Exodus 6:9 and Nehemiah 12:26.
+- **Numbers 23:19.** N29, N92 and N97 quote different lines of it. All are in the site's Plain English Translation, so this is only a reminder.
+- All other quotations of written books match the site's Plain English Translation, including multi-reference ones the build does not check: Joshua 3:11, Deuteronomy 7:16, 2 Kings 18:19, 2 Kings 18:35, Deuteronomy 32:39, Exodus 6:9 and Nehemiah 12:26.
 
 ### 14. MINOR: notes: small factual slips
 
@@ -181,7 +181,7 @@ Swete has "προς αυτον] εις πολεμον ℵ* προς αυτον �
 
 ### 16. MINOR: dependence on copyrighted translations (checked in my head)
 
-I compared the Plain against the RSV, NRSV and NABRE as I recall them at 1:1–16, 2:1–13, 3:2–8, 4:3–15, 5:5–24, 6:2–9, 6:19, 7:4, 7:9–15, 7:23–32. Most shared shapes are forced by the Greek, for example "lick (clean) the face of the whole land" (7:4) and "five more days" (7:30). Two phrases may be the NRSV's, though I am not certain of its wording:
+I compared the Plain English Translation against the RSV, NRSV and NABRE as I recall them at 1:1–16, 2:1–13, 3:2–8, 4:3–15, 5:5–24, 6:2–9, 6:19, 7:4, 7:9–15, 7:23–32. Most shared shapes are forced by the Greek, for example "lick (clean) the face of the whole land" (7:4) and "five more days" (7:30). Two phrases may be the NRSV's, though I am not certain of its wording:
 - **1:6 "rallied to him".** The Greek only says "came to meet him". "Joined him" or "came to him" would be closer, and would also fit finding 10.
 - **5:10 "as long as they had food".** The Greek μέχρις οὗ διετράφησαν means "while they were kept fed". "As long as they could live there" or "while they found food" would avoid the risk.
 
@@ -258,16 +258,16 @@ Counts: critical 0, major 5 (findings 1–5), minor 12 (findings 6–17).
 
 ## Fixes applied
 
-1. Agreed. The Plain now follows Alexandrinus in 6:1–2 (a sixth departure): 6:1 "…in front of the whole crowd of foreigners, and to all the Moabites:", 6:2 "Who are you, Achior, and you hirelings of Ephraim, to play the prophet…". "This goes for" is gone. Both variants were rewritten: A's reading is given in A's own order (after ἀλλοφύλων), and the Vaticanus reading is labeled as having "Moab and" written by Bᵃᵇ over an erasure. The 6:1 and 6:2 notes were adjusted.
+1. Agreed. The Plain English Translation now follows Alexandrinus in 6:1–2 (a sixth departure): 6:1 "…in front of the whole crowd of foreigners, and to all the Moabites:", 6:2 "Who are you, Achior, and you hirelings of Ephraim, to play the prophet…". "This goes for" is gone. Both variants were rewritten: A's reading is given in A's own order (after ἀλλοφύλων), and the Vaticanus reading is labeled as having "Moab and" written by Bᵃᵇ over an erasure. The 6:1 and 6:2 notes were adjusted.
 2. Agreed. All 14 `readers` lines were rewritten and no longer share an opening. The 1:12 card says no early copy or quotation names the readers (first sure use 1 Clement 55), gives the Hasmonean date as the majority view, says kings only from 104 BC, and names the Greek-reading audience. The 1:12 and 5:5–21 cards carry the date debate in `views` (Hasmonean, Maccabean war, Persian period/Grintz). "Kings" before 104 BC was dropped throughout.
 3. Agreed. 7:2 now follows Vaticanus ("the baggage of the men on foot among them"), and a new variant gives ℵA's "and the men" (KJV). 4:6 now reads "who was then in Jerusalem", matching B's ἐν ταῖς ἡμέραις, and the note's anchor was updated.
 4. Agreed. All seven KJV-only witnesses are relabeled "King James Version (1611); its source is not identified, and Swete's apparatus has no such Greek", with `orig` "(English only)". The guesses were removed: *katapatēsomen*/"later manuscripts" (6:4), *kōmas* (4:4), "a slip in the Greek it followed" (2:23), "a slip" (3:9), *limos*/plague (7:14) and "a Greek text that added them" (7:27). The 6:4 note no longer says "a different Greek text".
-5. Agreed. "To Nineveh" was dropped from the Plain, which now follows Sinaiticus's form of the long text. The variant gives A ("to Nineveh", KJV) as a separate reading and argues against it as a single-witness gloss. The Rahlfs claim and the rahlfs-lxx key were removed. `orig` now gives Swete's whole note verbatim, corrector readings included.
+5. Agreed. "To Nineveh" was dropped from the Plain English Translation, which now follows Sinaiticus's form of the long text. The variant gives A ("to Nineveh", KJV) as a separate reading and argues against it as a single-witness gloss. The Rahlfs claim and the rahlfs-lxx key were removed. `orig` now gives Swete's whole note verbatim, corrector readings included.
 6. Agreed. 4:1 `why` restated, with a pointer to the 3:8 note. 5:11 now says "differ in two letters", cites the Vulgate's *in luto et latere* (Vulgate 5:10) for Sinaiticus, and no longer claims "more witnesses". 7:14's plague explanation was dropped. 2:5 now says ℵ's first hand already had "thousands", and the likely source of the slip is 2:15.
 7. Agreed. The diodorus-library-16-31 description was corrected (book 16 for Bagoas, book 31 for Holophernes). N22 now gives 343 BC with each citation placed correctly, and the persia topic says the 340s BC.
 8. Checked and not agreed. The Catholic Encyclopedia (newadvent 08554a) says: "Calmet insists that the Biblical Nabuchodonosor is meant, while in Arphaxad he sees Phraortes." Vigouroux identifies Nebuchadnezzar with Ashurbanipal, "the contemporary of Phraortes". N1, N3 and the ch. 1 deep are therefore right on Calmet. N3 and the deep now quote the Encyclopedia's attribution exactly and add Vigouroux's pairing. book.json's identical statements also stand.
 9. Agreed. 5:18 "utterly destroyed in many wars"; 4:8 reordered so the council gives the order; 4:14 "with sackcloth around their waists, offered"; 1:3 "its foundations"; 2:24 and 3:6 "high towns"; 6:5 "this people" (anchors in the note and the balaam topic updated); θεράπων is "servants" at 2:2 and 7:16. N20 now names the reading "the land's wickedness".
-10. Agreed. N7 now cites Swete's "προς αυτον] εις πολεμον ℵ* προς αυτον εις πολ. ℵc.a" and what it implies, and its anchor follows the new Plain "came to meet him".
+10. Agreed. N7 now cites Swete's "προς αυτον] εις πολεμον ℵ* προς αυτον εις πολ. ℵc.a" and what it implies, and its anchor follows the new Plain English Translation "came to meet him".
 11. Agreed. New settings cards for 1:7–10 (the summons), 2:1–3 (the council) and 6:16–17 (Achior's report), for 17 cards in all. The 6:2–9 `to` now reads "hirelings of Ephraim".
 12. Agreed. Ch. 1 P: WCF 1.3 is cited only for the denial of inspiration, and the argument from errors is credited to Archibald Alexander (1826), as in book.json. Orthodox views are cut to what can be sourced: ch. 1 cites the Confession of Dositheus (1672) and Ware and says no Orthodox treatment of the history was found; ch. 4 cites Ware on fasting; the O rows of ch. 2, 3, 5, 6 and 7 were removed. Ch. 3 H now says "is known to have demanded". N4 names Joosten for the minority view and no longer cites Zeitlin or Gera for the majority. Ch. 1 J names the Midrash for Hanukkah ("the king of the Greeks") in Jellinek's <i>Bet ha-Midrasch</i>; I could not confirm the volume, so none is given.
 13. Agreed. N88 quotes 16:2 as "a God who shatters wars". N40 now says the women dance and Judith and her companions, crowned with olive leaves, lead the dance (15:12–13). N107 drops the quotation and names *tapeinōsis* in 1 Samuel 1:11 and Luke 1:48. N85 reads "in dispersion (<i>en diaspora</i>)".

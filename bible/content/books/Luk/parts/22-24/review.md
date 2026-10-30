@@ -8,8 +8,8 @@ Reviewer: hostile-reviewer agent (not the writer). Date: 2026-10-26.
 This is a strong part. The translation follows the SBLGNT closely and departs from it openly, with reasons, at 24:3 and 24:36. All eight Western non-interpolations, 22:43–44, 23:17 and 23:34a have honest variant entries with real witnesses. Each side gets its best case: Ehrman and Plunkett against Brown, Metzger's committee against Eubank. The three spec boxes rest on real word counts (ἐκλείπω three times, διανοίγω four times, προσδέχομαι), and the four traditions cards quote their confessions accurately. Every "see the card or deep dive at Matthew/Mark/Luke 16" pointer I checked exists.
 
 The flaws are concentrated and fixable:
-- one Plain verse (23:1) undercuts the part's own careful line between the people and the council;
-- one parallel (23:51) breaks Mark's Plain and lands on the NIV's wording, while a note claims the opposite;
+- one Plain English Translation verse (23:1) undercuts the part's own careful line between the people and the council;
+- one parallel (23:51) breaks Mark's Plain English Translation and lands on the NIV's wording, while a note claims the opposite;
 - one phrase (23:45) is the ESV/RSV wording word for word;
 - there are internal contradictions about Westcott and Hort and about 0171, a misattribution of James to Luke, and a cluster of small parallel-wording slips against Mark.
 
@@ -26,8 +26,8 @@ Findings: 0 critical, 3 major, 27 minor.
 
 ### 2. Major: 23:51 "waiting for the kingdom of God" breaks the Mark parallel, matches the NIV, and the note says the opposite
 - **Where:** plain.txt 23:51; notes.json 23:51 ("Those who waited"); chapters.json 23 spec box "the ones who waited."
-- **Problem:** προσεδέχετο τὴν βασιλείαν τοῦ θεοῦ is the same phrase as Mark 15:43, whose reviewed Plain reads "was looking for the kingdom of God." The note claims "The Plain follows Mark 15:43 here with 'waiting for'," which is false. "Waiting for the kingdom of God" is also the NIV's wording of this verse. Luke's own Plain has "looking forward to" at 2:25 and "looking for" at 2:38.
-- **Fix:** Plain "he was looking for the kingdom of God," as Mark 15:43 has it. Correct the note ("The Plain follows Mark 15:43 with 'looking for'"). Adjust the spec box wording to "looking for" (its title can stay).
+- **Problem:** προσεδέχετο τὴν βασιλείαν τοῦ θεοῦ is the same phrase as Mark 15:43, whose reviewed Plain English Translation reads "was looking for the kingdom of God." The note claims "The Plain English Translation follows Mark 15:43 here with 'waiting for'," which is false. "Waiting for the kingdom of God" is also the NIV's wording of this verse. Luke's own Plain English Translation has "looking forward to" at 2:25 and "looking for" at 2:38.
+- **Fix:** Plain English Translation "he was looking for the kingdom of God," as Mark 15:43 has it. Correct the note ("The Plain English Translation follows Mark 15:43 with 'looking for'"). Adjust the spec box wording to "looking for" (its title can stay).
 
 ### 3. Major: 23:45 "the sun's light failed" is the ESV (and RSV/NRSV) wording
 - **Where:** plain.txt 23:45; the anchors of the 23:45 variant, the 23:45 word note, and the gloss at 23:44 (check it).
@@ -49,14 +49,14 @@ Findings: 0 critical, 3 major, 27 minor.
 - **Problem:** "Luke uses it for the clothes of the angel ... (Acts 10:30) and the fine clothes of the rich (James 2:2)." James is not Luke.
 - **Fix:** "Luke uses it for the angel's clothes (Acts 10:30); James for the fine clothes of the rich (James 2:2); compare the rich man who feasted 'splendidly' (λαμπρῶς, 16:19)."
 
-### 7. Minor: 22:39 note names "Olive Grove," but 21:37's Plain says "the Mount of Olives, as it is called"
+### 7. Minor: 22:39 note names "Olive Grove," but 21:37's Plain English Translation says "the Mount of Olives, as it is called"
 - **Where:** notes.json 22:39.
 - **Fix:** "spent the nights on the Mount of Olives (21:37)."
 
 ### 8. Minor: 23:34 echo note says "Luke uses the same words as Matthew 27:35"
 - **Where:** notes.json 23:34.
-- **Problem:** The Plain is identical, but the Greek is not. Luke has διαμεριζόμενοι ... ἔβαλον κλήρους; Matthew has διεμερίσαντο ... βάλλοντες κλῆρον.
-- **Fix:** "Luke's wording is close to Matthew 27:35, and the Plain renders both alike."
+- **Problem:** The Plain English Translation is identical, but the Greek is not. Luke has διαμεριζόμενοι ... ἔβαλον κλήρους; Matthew has διεμερίσαντο ... βάλλοντες κλῆρον.
+- **Fix:** "Luke's wording is close to Matthew 27:35, and the Plain English Translation renders both alike."
 
 ### 9. Minor: parallel slip at 22:53, καθ' ἡμέραν
 - **Where:** plain.txt 22:53.
@@ -65,13 +65,13 @@ Findings: 0 critical, 3 major, 27 minor.
 
 ### 10. Minor: 22:22 drops "For" (ὅτι)
 - **Where:** plain.txt 22:22.
-- **Problem:** SBL has ὅτι, and Mark 14:21's Plain begins "For the Son of Man goes his way."
+- **Problem:** SBL has ὅτι, and Mark 14:21's Plain English Translation begins "For the Son of Man goes his way."
 - **Fix:** "For the Son of Man goes his way, as it has been marked out."
 
 ### 11. Minor: 22:11–12 drift from Mark 14:14–15 where the Greek matches
 - **Where:** plain.txt 22:11–12.
 - **Problem:**
-  - Λέγει σοι ὁ διδάσκαλος is "The Teacher asks you." Mark's Plain has "The Teacher says." Luke adds σοι, so "The Teacher says to you" keeps the parallel.
+  - Λέγει σοι ὁ διδάσκαλος is "The Teacher asks you." Mark's Plain English Translation has "The Teacher says." Luke adds σοι, so "The Teacher says to you" keeps the parallel.
   - φάγω is "where I can eat" here, against Mark's "where I will eat."
   - 22:12 "He will show you, himself, a big room" is awkward English for κἀκεῖνος ("that man"). Mark 14:15 (καὶ αὐτός) has "He himself will show you."
 - **Fix:** "That man will show you a big room upstairs, laid out with couches." The κατάλυμα choice ("guest room," for 2:7) differs from Mark's "the room for me to stay." Defend it in the 22:11 note, or raise it with the lead as a cross-book term.
@@ -233,14 +233,14 @@ Findings: 0 critical, 3 major, 27 minor.
 
 Applied 2026-10-26 by the review-fixer (not the writer or the reviewer). `VERBOSE=1 --check Luk/22-24`: 0 errors, 0 warnings.
 
-1. Accepted in substance: 23:1 now "Then their whole assembly got up and took him to Pilate" (πλῆθος as an assembly, not "crowd"; "council" avoided because the Plain keeps "council of elders"/"Sanhedrin" for other words at 22:66).
+1. Accepted in substance: 23:1 now "Then their whole assembly got up and took him to Pilate" (πλῆθος as an assembly, not "crowd"; "council" avoided because the Plain English Translation keeps "council of elders"/"Sanhedrin" for other words at 22:66).
 2. Accepted: 23:51 "he was looking for the kingdom of God" (= Mark 15:43); note anchor, preview and body corrected ("follows Mark 15:43 with 'looking for,' as at 2:38"); spec box quote updated, title kept.
 3. Accepted: 23:45 rebuilt from the literal line, "because the sun had failed." Variant anchor and reading, word-note anchor and body, chapter 22 spec box, chapter 23 summary and the topic contribution updated. The 23:44 gloss needed no change.
 4. Accepted: 24:3 `why` now says Westcott and Hort put the words in double brackets and the SBL edition leaves them out.
 5. Accepted: 22:62 reading 0 "except perhaps 0171"; reading 1 names the Old Latin a, b, e, ff2, i, l*, r1 (Metzger) and "probably 0171 (about 300), whose surviving lines seem to skip it"; `why` matches.
 6. Accepted: 23:11 note now gives Acts 10:30 to Luke and James 2:2 to James, and adds λαμπρῶς at 16:19.
 7. Accepted: 22:39 note now says "the Mount of Olives, as it is called (21:37)".
-8. Accepted: 23:34 echo note says Luke's Greek is close to Matthew 27:35, with both forms, and that the Plain renders both alike.
+8. Accepted: 23:34 echo note says Luke's Greek is close to Matthew 27:35, with both forms, and that the Plain English Translation renders both alike.
 9. Accepted: 22:53 "Day by day" (= Mark 14:49; Matthew 26:55). "Lift a hand against me" kept, since Luke's ἐκτείνω τὰς χεῖρας differs from Mark's κρατέω.
 10. Accepted: 22:22 begins "For the Son of Man goes his way" (ὅτι; = Mark 14:21).
 11. Accepted: 22:11 "The Teacher says to you: ... where I will eat" (Mark 14:14 plus Luke's σοι); 22:12 "That man will show you a big room upstairs". "Guest room" for κατάλυμα kept and defended in the 22:11 note: Mark has "my" room, Luke does not, and the 2:7 link is the point. 22:11 is still close to one modern version, but the Greek, the Mark parallel and the brief's "guest room" force it.
@@ -264,4 +264,4 @@ Applied 2026-10-26 by the review-fixer (not the writer or the reviewer). `VERBOS
 29. Accepted: all 11 listed previews were trimmed to 120 characters or fewer.
 30. Accepted: the 23:34 variant `why` and the chapter 23 deep dive now say that Metzger's committee thought the anti-Jewish excision motive unlikely and that Eubank argues for it.
 
-Lead items also applied: `bailey-middle-eastern-eyes` was replaced by `bailey-middle-eastern` (22:11 note); "temple" was lowercased in the chapter 22 H view; κωλύω is "hinder" at 23:2 ("He hinders people from paying taxes to Caesar"), and the note anchor was updated. For the lead's quote sync: Luk 18-21 notes.json and topics.json quote 23:2 as "He forbids paying taxes to Caesar"; Luk book.json (01-02) quotes 24:49 as "stay seated in the city", which is now "remain in the city". Mark 13-16's note on Mark 15:43 still says "waiting for the kingdom of God", against Mark's own Plain "looking for".
+Lead items also applied: `bailey-middle-eastern-eyes` was replaced by `bailey-middle-eastern` (22:11 note); "temple" was lowercased in the chapter 22 H view; κωλύω is "hinder" at 23:2 ("He hinders people from paying taxes to Caesar"), and the note anchor was updated. For the lead's quote sync: Luk 18-21 notes.json and topics.json quote 23:2 as "He forbids paying taxes to Caesar"; Luk book.json (01-02) quotes 24:49 as "stay seated in the city", which is now "remain in the city". Mark 13-16's note on Mark 15:43 still says "waiting for the kingdom of God", against Mark's own Plain English Translation "looking for".

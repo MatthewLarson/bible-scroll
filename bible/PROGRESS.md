@@ -35,7 +35,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Hos | reviewed, published | Planned 2026-10-28: prophets lane, 2 parts (01-07 owns book.json, 08-14); lenses H C J X F; briefs tools/brief-hos.md and tools/brief-twelve.md; atlas harvest d |
 | Jol | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-jol.md and tools/brief-twelve.md; atlas harvest done (content/atl |
 | Amo | reviewed, published | 2026-10-28 prophets lane, one writer, flat folder: plain.txt (146 verses), 133 notes, 18 variants, 32 glosses, 9 chapter pages with 14 settings cards, 4 traditi |
-| Oba | reviewed, published | Written 2026-10-28 (prophets lane, one writer, flat folder): Plain from literal.js with drift audit (18 of 21 verses rebuilt, 3 kept), 42 notes, 12 variants (Gr |
+| Oba | reviewed, published | Written 2026-10-28 (prophets lane, one writer, flat folder): Plain English Translation from literal.js with drift audit (18 of 21 verses rebuilt, 3 kept), 42 no |
 | Jon | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder; lenses H C J X L (F dropped); briefs tools/brief-jon.md and tools/brief-twelve.md; atlas harvest done  |
 | Mic | reviewed, published | Planned 2026-10-28: prophets lane, two parts (01-04, 05-07), lenses H C J X F; briefs tools/brief-mic.md, brief-twelve.md, brief-twelve2.md; atlas harvest pendi |
 | Nam | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F dropped); briefs tools/brief-nam.md, brief-twelve.md, brief-twelve2.md; atlas harves |
@@ -65,7 +65,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Heb | reviewed, published | Plan (2026-10-29): Two parts, 01-07 (owns book.json) and 08-13; lenses H C L J T; tools/brief-general.md and brief-heb.md. |
 | Jas | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-jas.md. |
 | 1Pe | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1pe.md. |
-| 2Pe | reviewed, published | Plan (2026-10-29): One part, flat folder, follows Jude's Plain in 2:1-3:3; lenses H C L J T; tools/brief-general.md and brief-2pe.md. |
+| 2Pe | reviewed, published | Plan (2026-10-29): One part, flat folder, follows Jude's Plain English Translation in 2:1-3:3; lenses H C L J T; tools/brief-general.md and brief-2pe.md. |
 | 1Jn | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1jn.md. |
 | 2Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 3 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
 | 3Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |

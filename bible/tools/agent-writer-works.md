@@ -29,14 +29,14 @@ few gaps. `texts/auto/<id>.json`: machine-found differences between Dillmann and
 folded away; numerals vs. number words remain and need no entry).
 There is no word-by-word gloss list for Ge'ez, so `tools/literal.js` does not work for these books. Build each verse
 from the Ge'ez itself: read `gez` (with `tr`), make a literal working line in your scratch folder in the Ge'ez word
-order, and smooth that into Plain English, then check against Charles and the Greek. Where the Greek survives, read it
+order, and smooth that into Plain English Translation, then check against Charles and the Greek. Where the Greek survives, read it
 too: for 1 Enoch the Greek and the Aramaic (Dead Sea Scrolls) are older than the Ethiopic, so where the Ethiopic is
 plainly corrupt and scholars agree the older witness is right, follow it, with a variant entry that says so.
 
 Copyrighted modern translations you must not copy or lean on (the drift audit compares against these, in your head,
 the same way agent-writer.md describes for the NIV/ESV): for 1 Enoch, Nickelsburg and VanderKam (2004, 2012),
 Knibb (1978), Isaac in Charlesworth's <i>Old Testament Pseudepigrapha</i> (1983), Black (1985), Olson (2004), Sparks'
-<i>Apocryphal Old Testament</i> (1984). Charles (1912/1917) is public domain, but the Plain is fresh 8th-grade English,
+<i>Apocryphal Old Testament</i> (1984). Charles (1912/1917) is public domain, but the Plain English Translation is fresh 8th-grade English,
 not a modernized Charles: never keep a Charles sentence shape the Ge'ez does not force.
 
 ### Septuagint books (the deuterocanon and the Orthodox extras)
@@ -51,17 +51,17 @@ readings of Codex Alexandrinus A, Sinaiticus ℵ, Vaticanus B and later correcto
 its page begins, and the verse numbers are inside the note. `texts/src/<id>.lat.json`: the Clementine Vulgate and the
 Douay-Rheims made from it, under the Vulgate's own verse numbers.
 There is no gloss list, so build each verse from the Greek as for 1 Enoch: a literal working line in your scratch
-folder, then Plain English. Quotations of the 66 books inside these books: where the Greek quotes the Septuagint of a
-passage, use the site's Plain if it fits, otherwise say in a note that the Greek differs from the Hebrew.
+folder, then Plain English Translation. Quotations of the 66 books inside these books: where the Greek quotes the Septuagint of a
+passage, use the site's Plain English Translation if it fits, otherwise say in a note that the Greek differs from the Hebrew.
 Copyrighted translations you must not copy or lean on (drift audit in your head, as above): NRSV/NRSVue, RSV and RSV-CE,
 NABRE, NJB/JB, CEB, GNT/TEV, NETS, ESV and NKJV with Apocrypha, the Lexham English Septuagint, and modern commentaries'
-own translations (e.g. Fitzmyer and Moore for Tobit). KJV, Douay-Rheims and Brenton are public domain, but the Plain is
+own translations (e.g. Fitzmyer and Moore for Tobit). KJV, Douay-Rheims and Brenton are public domain, but the Plain English Translation is
 fresh English, not a modernized KJV.
 
 Tobit (id Tob): `grc` is the longer text of Codex Sinaiticus (GII) and `grc_b` the shorter text of Vaticanus (GI, with
-Alexandrinus). The Plain follows Sinaiticus, as most modern scholars do, because the Qumran fragments (4Q196-199 in
+Alexandrinus). The Plain English Translation follows Sinaiticus, as most modern scholars do, because the Qumran fragments (4Q196-199 in
 Aramaic, 4Q200 in Hebrew) agree with it. Sinaiticus is missing 4:7-19 and 13:6-10 (see `gap`; Swete shows 4:7-18 and
-13:7-9 as empty, and 4:6, 4:19 and 13:6 as partial). There the Plain follows Vaticanus, with a variant entry. Report
+13:7-9 as empty, and 4:6, 4:19 and 13:6 as partial). There the Plain English Translation follows Vaticanus, with a variant entry. Report
 the Old Latin, which scholars use to fill those gaps, only as quoted by a named scholar. The Qumran readings are
 published by J. A. Fitzmyer (DJD 19, 1995; <i>Tobit</i>, 2003): cite a Qumran reading only if you read it (or
 Fitzmyer's report of it) in this session; otherwise leave it out (STYLE.md rule 2). Jerome's Vulgate Tobit was made in one day from an Aramaic copy, as he says in his preface. It differs in many places,
@@ -94,9 +94,9 @@ secondary report, say whose report. If you are unsure a fragment covers a verse,
   the first time. Key terms across all parts (add new ones to content/terms.json and report them):
   təguhan / Greek egrēgoroi / Aramaic 'irin "the Watchers"; "the Holy Great One"; ʾƎgziʾa Mänafəst "the Lord of
   Spirits"; rəʾsä mäwaʿəl "the Head of Days"; ḫəruy "the Chosen One"; the three Ge'ez phrases for "son of man"
-  (wäldä säbʾ, wäldä bəʾəsi, wäldä ʾəgʷalä ʾəmmäḥəyaw) are all "the Son of Man" in the Plain, with a note at the
+  (wäldä säbʾ, wäldä bəʾəsi, wäldä ʾəgʷalä ʾəmmäḥəyaw) are all "the Son of Man" in the Plain English Translation, with a note at the
   first of each saying which phrase stands there.
-- Quotations of the 66 books: in the site's Plain wording where the book is written (STYLE.md), otherwise fresh.
+- Quotations of the 66 books: in the site's Plain English Translation wording where the book is written (STYLE.md), otherwise fresh.
 - References to this book from its own pages are bare "c:v". Name other works by their works.json names.
 - Names (Septuagint books): the form English Bibles use (Tobit, Tobias, Raphael, Asmodeus, Raguel, Ecbatana,
   Nineveh, Ahiqar), with the Greek in a note the first time where it differs (e.g. Enemessar for Shalmaneser, 1:2).
@@ -139,7 +139,7 @@ Bible Atlas has no data for books outside the 66, so these books have no atlas h
 `node tools/build.js --check <id>/<part>` until 0 errors. Then `python3 tools/works-check.py <id>`: it lists every variant
 reading credited to Dillmann or the EOTC whose Ge'ez is not in that verse. Copy Ge'ez quotations from the texts file by
 script, never by hand: every review of 1 Enoch found invented or garbled Dillmann/EOTC readings.
-Lessons from the Tobit reviews: every place where the Plain departs from the base text, even to fix a plain
+Lessons from the Tobit reviews: every place where the Plain English Translation departs from the base text, even to fix a plain
 slip or follow the other Greek, needs a variant entry (a note is not enough); also enter every difference in meaning
 from the other Greek or from the KJV's text; when copying quotations by script, match whole words (a quote ending in
 ἦν once matched the tail of ἐκοιμήθην); don't splice two witnesses into a sentence neither has; `readers` must name
@@ -147,11 +147,11 @@ who the first readers really were, by evidence (e.g. copies found at Qumran), no
 needs a source that addresses the question itself, and a row with nothing distinct to say is better dropped.
 Lessons from the 1 Maccabees reviews: check every Josephus (and Polybius, Talmud, church father) claim against an
 open text (lexundria.com/j_aj, Perseus, Sefaria, New Advent), never from memory; three parts misreported Josephus. The
-Plain drifts toward Sinaiticus/Venetus or the KJV without anyone noticing: after drafting, diff every verse against the
+Plain English Translation drifts toward Sinaiticus/Venetus or the KJV without anyone noticing: after drafting, diff every verse against the
 base Greek by script and give each departure a variant. Swete's printed text is not always the codex: where he corrects
 A or B from another witness, call it "Swete's text". Read Swete's sigla exactly ("]" marks a replacement, not an
 addition). The build checks only quotations of five words or more in a few shapes, so check every quotation of the 66
-by hand against the current Plain. One card per question across the whole book: read your sibling parts' cards before
+by hand against the current Plain English Translation. One card per question across the whole book: read your sibling parts' cards before
 writing yours, and point to them. NFC-normalize all Greek you write.
 Lessons from the 1 Enoch reviews: never adopt a Charles emendation silently (add a variant); say "conflicts" when a
 passage really conflicts with the 66 books; source every statement of a church's view, or soften it to what you can

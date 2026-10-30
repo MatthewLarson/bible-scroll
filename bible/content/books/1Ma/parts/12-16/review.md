@@ -4,18 +4,18 @@
 - texts/orig/1Ma.json `grc` (Swete's text, which prints Codex Alexandrinus) and its `fixed` list, verse by verse beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/1Ma.app.json, read note by note for chapters 12–16;
 - the Vulgate and Douay in texts/src/1Ma.lat.json;
-- parts 01-04, 05-08 and 09-11, book.json, content/terms.json, the site's Plain for the 66 books, and every `traditions` card on the site.
+- parts 01-04, 05-08 and 09-11, book.json, content/terms.json, the site's Plain English Translation for the 66 books, and every `traditions` card on the site.
 
 **Build.** `VERBOSE=1 node tools/build.js --check 1Ma/12-16` gives **0 errors, 0 warnings** (220 verses, 122 notes, 20 variants, 68 glosses, 5 chapter pages, 15 topic contributions). The foreign-alliances topic now exists.
 
 **Quotations checked by script.**
 - **Greek.** Every Greek string in notes.json, variants.json and chapters.json is in Swete's text or apparatus. The only exceptions are reconstructions that are labeled as such (ΠΑΡΑΔΑΡΕΙΟΥ, παρὰ Δαρείου, ΟΝΕΙΑΑΡΗΣ in the 12:7 and 12:19 entries), and accented forms of apparatus words (ἐγγενοῦς, ὡς αὐτοῦ, ἀθεσία). **I found no invented Greek reading.**
 - **Latin and Douay.** All of them match the Vulgate and Douay files: *ab Ario* and *Arius*, *Caphetetha*, *intra regionem*, *bahem* / "the palm", *in Asaramel*, *actum Simonis*, *in loco celebri*, *mnarum mille*, *Ariarathi*, *Lampsaco*, *Gedorem* and *obstruere portas*, *sacris tubis*, *duo millia*, *succendit eas*, *duos filios* and *deceptionem magnam*.
-- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain except one, 1 Kings 22:4 (finding 7). I checked Ezra 6:10 and 7:10; 1 Kings 11:41, 16:9, 19:4 and 19:10, 14; Leviticus 26:4, 6 and 13; Judges 3:11 and 11:24; Genesis 25:8 and 44:4; Numbers 10:9 and 25:13; 2 Samuel 13:28; and Psalms 35:12, 83:4, 110:4 and 146:3. Micah and Zechariah are not yet on the site, so "in fresh translation" is correct there.
+- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain English Translation except one, 1 Kings 22:4 (finding 7). I checked Ezra 6:10 and 7:10; 1 Kings 11:41, 16:9, 19:4 and 19:10, 14; Leviticus 26:4, 6 and 13; Judges 3:11 and 11:24; Genesis 25:8 and 44:4; Numbers 10:9 and 25:13; 2 Samuel 13:28; and Psalms 35:12, 83:4, 110:4 and 146:3. Micah and Zechariah are not yet on the site, so "in fresh translation" is correct there.
 
 ## Verdict
 
-This is a learned, well-organized part with dense and mostly accurate history. Its Plain is generally close to the Greek, and the settings cover every speech and letter.
+This is a learned, well-organized part with dense and mostly accurate history. Its Plain English Translation is generally close to the Greek, and the settings cover every speech and letter.
 
 **What it does well.**
 - Seventeen of the twenty variant entries are sound.
@@ -26,7 +26,7 @@ This is a learned, well-organized part with dense and mostly accurate history. I
 **Four major problems.**
 1. **Four silent departures from Swete's text toward Sinaiticus and Venetus** (12:45, 12:52, 13:33, 15:31).
 2. **A cluster of phrases that track the NRSV** where the Greek does not force them, above all "the help that comes from Heaven" (12:15; 16:3) and "crushed and removed from Israel" (13:51).
-3. **Two places that put Antiochus IV in 1:3**, which is about Alexander the Great. Both also misquote the book's own Plain.
+3. **Two places that put Antiochus IV in 1:3**, which is about Alexander the Great. Both also misquote the book's own Plain English Translation.
 4. **Witness labels that call Swete's printed text "Alexandrinus"** where Swete has corrected A from ℵ or V. Because of this, the missing siege engine of 13:43–44 in A has no entry.
 
 **Minor points.** The rest are minor:
@@ -46,13 +46,13 @@ This is a learned, well-organized part with dense and mostly accurate history. I
 
 ### 1. MAJOR: plain.txt: four silent departures from Swete's text toward ℵ and V
 
-The base text is Swete's printed Greek. In each of these verses the Plain follows the reading of Sinaiticus and Venetus, and there is no variant entry or note.
+The base text is Swete's printed Greek. In each of these verses the Plain English Translation follows the reading of Sinaiticus and Venetus, and there is no variant entry or note.
 
-- **12:45.** Swete reads καὶ τὰς δυνάμεις τὰς πολλάς, "and the many troops". The apparatus has `πολλας] λοιπας ℵV`. The Plain's "the rest of the troops" is ℵV's λοιπάς.
-- **12:52.** Swete reads καὶ ἐπένθησεν Ἰσραὴλ πένθος μέγα. The apparatus has `Ισραηλ] pr πας ℵV`. The Plain's "All Israel mourned" follows ℵV, and so does the KJV.
-- **13:33.** Swete reads ᾠκοδόμησεν Σίμων τὸ ὀχύρωμα τῆς Ἰουδαίας (singular). The apparatus has `το οχυρωμα] τα οχυρωματα ℵV`. The Plain's "built up the strongholds of Judea. He walled them around" follows ℵV. The singular may be a collective, but then the Plain should say so.
-- **15:31.** Swete reads εἰ δὲ μή, παραγενόμενοι ἐκπολεμήσουσιν ὑμᾶς, "they will come and make war on you" (the king's forces). The apparatus has `εκπολεμησωμε ℵ -σομιν V` (first person plural). The Plain's "we will come and make war on you" follows ℵV and the KJV. This changes who makes the threat.
-- **Borderline: 15:6.** Swete has a bare infinitive, ποιῆσαι κόμμα ἴδιον. ℵV add καὶ ἐπέτρεψά σοι, "and I permit you" (`ποιησαι] pr και επετρεψα σοι ℵV`). The Plain's "I permit you" is a fair way to construe A, but it is also exactly ℵV's words. Add a short `deb` note or an entry.
+- **12:45.** Swete reads καὶ τὰς δυνάμεις τὰς πολλάς, "and the many troops". The apparatus has `πολλας] λοιπας ℵV`. The Plain English Translation's "the rest of the troops" is ℵV's λοιπάς.
+- **12:52.** Swete reads καὶ ἐπένθησεν Ἰσραὴλ πένθος μέγα. The apparatus has `Ισραηλ] pr πας ℵV`. The Plain English Translation's "All Israel mourned" follows ℵV, and so does the KJV.
+- **13:33.** Swete reads ᾠκοδόμησεν Σίμων τὸ ὀχύρωμα τῆς Ἰουδαίας (singular). The apparatus has `το οχυρωμα] τα οχυρωματα ℵV`. The Plain English Translation's "built up the strongholds of Judea. He walled them around" follows ℵV. The singular may be a collective, but then the Plain English Translation should say so.
+- **15:31.** Swete reads εἰ δὲ μή, παραγενόμενοι ἐκπολεμήσουσιν ὑμᾶς, "they will come and make war on you" (the king's forces). The apparatus has `εκπολεμησωμε ℵ -σομιν V` (first person plural). The Plain English Translation's "we will come and make war on you" follows ℵV and the KJV. This changes who makes the threat.
+- **Borderline: 15:6.** Swete has a bare infinitive, ποιῆσαι κόμμα ἴδιον. ℵV add καὶ ἐπέτρεψά σοι, "and I permit you" (`ποιησαι] pr και επετρεψα σοι ℵV`). The Plain English Translation's "I permit you" is a fair way to construe A, but it is also exactly ℵV's words. Add a short `deb` note or an entry.
 
 **Fix.** Either translate Swete (12:45 "the many troops"; 12:52 "Israel mourned"; 13:33 "the stronghold of Judea… walled it around"; 15:31 "they will come and make war on you") or add a variant entry for each, following the 12:43 model. By the Tobit lesson, each one counts as a departure.
 
@@ -78,7 +78,7 @@ I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS
 - **N115** says: "Antiochus IV's pride opened the book (1:3, 'his heart was lifted up'). The book ends as it began, with a proud man."
 - **The deep section** says: "the same pride that opened the book in Antiochus IV (1:3)".
 
-1 Maccabees 1:1–7 is about Alexander. Antiochus IV enters at 1:10. Part 01-04's own Plain for 1:3 is "…and he was raised high, and his heart swelled with pride", so the quoted wording, "his heart was lifted up", is not the site's Plain for this book either. The literary point still works, and arguably better: the book opens with Alexander's swollen heart (1:3) and Antiochus's arrogance (ἐν ὑπερηφανίᾳ, 1:21; Plain "In his arrogance").
+1 Maccabees 1:1–7 is about Alexander. Antiochus IV enters at 1:10. Part 01-04's own Plain English Translation for 1:3 is "…and he was raised high, and his heart swelled with pride", so the quoted wording, "his heart was lifted up", is not the site's Plain English Translation for this book either. The literary point still works, and arguably better: the book opens with Alexander's swollen heart (1:3) and Antiochus's arrogance (ἐν ὑπερηφανίᾳ, 1:21; Plain English Translation "In his arrogance").
 
 **Fix.** "Alexander's pride opened the book ('his heart swelled with pride', 1:3), and Antiochus IV entered the sanctuary 'in his arrogance' (1:21)." Make the same correction in the deep section.
 
@@ -90,7 +90,7 @@ Swete prints A, but in a number of places he corrects it silently from ℵ or V,
   - **Fix:** in reading 0 the witness should be "Swete's text, dividing the letters as Sinaiticus' first hand does"; move A to reading 1.
 - **13:43–44: the siege engine.** The apparatus reads `παρενεβαλλεν ελεπολιν ℵ (-λεις V)] om A` at 13:43, and `ελεοπολει ℵV πολει A` at 13:44. Swete has supplied ἑλέπολιν ("siege tower") from ℵ. In A the verse has no siege tower, and in 13:44 it is "those in the city" who leap into the city. This is a real difference in meaning, it is in Swete's base manuscript, and the KJV has the engine. N50 builds a whole note on the *helepolis* without saying that A lacks it.
   - **Fix:** add a variant at 13:43, or at least a sentence in N50.
-- **Smaller places.** In these the Plain rightly follows Swete, but the labels or notes should not imply A:
+- **Smaller places.** In these the Plain English Translation rightly follows Swete, but the labels or notes should not imply A:
   - 12:18, A ἐποιήσατε;
   - 15:17, A ὑμᾶς;
   - 15:23, A Παρτιάταις and Βασιλείδαν for Σπαρτιάταις and Φασήλιδα;
@@ -100,7 +100,7 @@ Swete prints A, but in a number of places he corrects it silently from ℵ or V,
 
 ### 5. MINOR: N24 (12:45): who offered Ptolemais
 
-"Alexander Balas had offered it to the Temple (10:39)." In 10:39 the speaker is Demetrius I, in his letter of 10:25–45, and part 09-11's Plain says so: "Ptolemais and the land belonging to it I have given as a gift to the sanctuary". Also, 10:56–60 is Alexander's wedding at Ptolemais, where Jonathan was honored, so it is not evidence that the city was "hostile to the Jews".
+"Alexander Balas had offered it to the Temple (10:39)." In 10:39 the speaker is Demetrius I, in his letter of 10:25–45, and part 09-11's Plain English Translation says so: "Ptolemais and the land belonging to it I have given as a gift to the sanctuary". Also, 10:56–60 is Alexander's wedding at Ptolemais, where Jonathan was honored, so it is not evidence that the city was "hostile to the Jews".
 
 **Fix.** Say "Demetrius I had offered it to the sanctuary (10:39)", and cite 5:15, 22 and 12:48 for the hostility.
 
@@ -113,7 +113,7 @@ The note offers only L. Caecilius Metellus Calvus (consul 142). It then says "no
 ### 7. MINOR: N12 (12:23): a 1 Kings 22:4 misquotation and a wrong attribution
 
 The note quotes "I am as you are, my people as your people, my horses as your horses" and attributes it to "1 Kings 22:4, in the words of 2 Chronicles 18:3".
-- The site's Plain of 1 Kings 22:4 is "I am one with you, my people one with your people, my horses one with your horses."
+- The site's Plain English Translation of 1 Kings 22:4 is "I am one with you, my people one with your people, my horses one with your horses."
 - 2 Chronicles 18:3 has no horses at all ("…and we will be with you in the battle").
 
 The build did not catch this because of the extra words inside the parentheses. **Fix:** quote the site's 1 Kings 22:4, drop "in the words of 2 Chronicles 18:3", and change the `p` ("I am one with you").
@@ -201,14 +201,14 @@ The Luther preface is given twice, in ch. 13 views.P and ch. 14 views.P. Keep it
 ### 17. MINOR: notes: small accuracy points
 
 - **N95 (15:11).** "lead sling bullets that some connect with this siege" undersells the evidence. One sling bullet from Tel Dor is inscribed "For the victory of Tryphon" and dated to 138/137 BC (Dov Gera, "Tryphon's Sling Bullet from Dor," *IEJ* 35, 1985, 153–163). Say so.
-- **N91 (15:5).** "beside 'whatever other gifts they released'" quotes ℵV's δόματα, not Swete's text (ὅσα ἄλλα ἀφαιρέματα, Plain "any other exemptions"). Quote the Plain.
+- **N91 (15:5).** "beside 'whatever other gifts they released'" quotes ℵV's δόματα, not Swete's text (ὅσα ἄλλα ἀφαιρέματα, Plain English Translation "any other exemptions"). Quote the Plain English Translation.
 - **N101 (15:27).** "Demetrius I, 10:1–46" promised much, but the Jews refused his offer (10:46), and he never got strong enough to take it back. Use another example, or cite only Demetrius II (11:53).
 - **N48 and N92.** Both explain the coins in full (once credited to Simon, now dated to AD 66–70; the first Hasmonean coins from Yehohanan or Jannaeus). Keep the full point in N92 and cut N48 back to a cross-reference.
 - **N83 and the ch. 14 deep section.** The card at 2 Chronicles 26 asks "What power may rulers have over the church?". The part describes it twice, in different words ("Whether one man should hold religious and civil power together…" and "Whether the church should be ruled by, or rule over, the state…"), and neither matches the card. Use the card's own question.
 
 ### 18. MINOR: glosses.json
 
-- **Synonyms, not glosses.** These give the Plain back in other words. Cut them, or replace them with glosses on customs or offices:
+- **Synonyms, not glosses.** These give the Plain English Translation back in other words. Cut them, or replace them with glosses on customs or offices:
   - 12:31 "took their plunder → seized their goods as war booty";
   - 12:50 "marched in close order → kept together in tight ranks";
   - 13:7 "their spirit came alive again → they took heart again";
@@ -305,7 +305,7 @@ Applied 2026-10-24 by the part writer. I accepted every finding, apart from the 
 
 1. **Silent departures (major).**
    - 12:52 ("Israel mourned"), 13:33 ("the stronghold of Judea… walled it around") and 15:31 ("they will come…") now follow Swete's text.
-   - At 12:45 the Plain now reads "the many troops", which is Swete's text.
+   - At 12:45 the Plain English Translation now reads "the many troops", which is Swete's text.
    - New variant entries: 12:45, 12:52, 13:33, 15:31, 15:6 (A's bare infinitive against ℵV's "and I permit you") and, from finding 16, 14:23 ("they wrote" against ℵ*V "we wrote") and 15:30 (ℵ's ἐκτός).
    - Each entry gives the Latin where I checked it.
 2. **NRSV-tracking wording (major).** Rebuilt from the Greek:
@@ -318,7 +318,7 @@ Applied 2026-10-24 by the part writer. I accepted every finding, apart from the 
    - 14:5 "made an entry to the islands";
    - 14:36 "struck a great blow at its holiness".
    - I kept 15:32 "sideboard": it is the lexicon meaning, and the reviewer accepts it.
-3. **1:3 (major).** The 16:13 note and the ch. 16 section "Three brothers, three deaths" now say that the book opened with Alexander, whose "heart swelled with pride" (1:3, quoted exactly from the 01-04 Plain), and with Antiochus IV, who entered the sanctuary "in his arrogance" (1:21).
+3. **1:3 (major).** The 16:13 note and the ch. 16 section "Three brothers, three deaths" now say that the book opened with Alexander, whose "heart swelled with pride" (1:3, quoted exactly from the 01-04 Plain English Translation), and with Antiochus IV, who entered the sanctuary "in his arrogance" (1:21).
 4. **Witness labels (major).**
    - 12:7: reading 0 is now "Swete's text", the letters are given as ΠΑΡΑΔΑΡΙΟΥ, and the reconstruction "παρὰ Δαρείου" is removed.
    - 12:7 also has a `b` line saying that Swete corrects A from ℵ or V in a few places (12:18, 12:21, 13:43–44, 15:17, 15:23), so that the other places are covered.
@@ -350,7 +350,7 @@ Applied 2026-10-24 by the part writer. I accepted every finding, apart from the 
     - 14:23 and 15:30 are handled by new entries (see 1).
 17. **Notes.**
     - 15:11 now names the inscribed "For the victory of Tryphon" sling bullet (Gera, *IEJ* 35, 1985).
-    - 15:5 now quotes the Plain ("any other exemptions").
+    - 15:5 now quotes the Plain English Translation ("any other exemptions").
     - 15:27 now cites Demetrius II and Tryphon in place of Demetrius I.
     - The 13:42 coin passage is cut back to a pointer to 15:6.
     - Both pointers to 2 Chronicles 26 now use the card's own question.

@@ -272,9 +272,9 @@ ids.forEach(id => { const e0 = errors; errBuf = CHECK ? null : [];
 /* --publish builds the public site: a book appears only once its hostile reviews are answered */
 const PUBLISH = args.includes('--publish'), DRAFTS = [];
 if(PUBLISH) for(const id in B) if(!reviewed(id)) { delete B[id]; DRAFTS.push(id); }
-/* quotations of a book this site has translated must use the site's own Plain wording: a quoted sentence
-   followed by its reference, "..." (Exodus 34:6), is looked up in that book's Plain text */
-{ /* the Plain of every translated book: in check mode the other books are read for this alone, quietly */
+/* quotations of a book this site has translated must use the site's own Plain English Translation wording: a quoted sentence
+   followed by its reference, "..." (Exodus 34:6), is looked up in that book's Plain English Translation text */
+{ /* the Plain English Translation of every translated book: in check mode the other books are read for this alone, quietly */
   const PV = {}; for(const id in B) PV[id] = B[id].plain.v;
   if(CHECK) for(const id of bookDirs) if(!PV[id] || (id === ONLY && PART)){ const e0 = errors, w0 = warnings; errBuf = [];
     try { PV[id] = parsePlain(id, dirsOf(id, null).map(d => path.join(d, 'plain.txt')).filter(exists).map(read).join('\n')).v; } catch(e) {}
@@ -286,7 +286,7 @@ if(PUBLISH) for(const id in B) if(!reviewed(id)) { delete B[id]; DRAFTS.push(id)
                 [new RegExp('\\b' + REF + ',? ((?:also |then |later )?(?:says|said|has|puts it|adds|declares|promises|commands|tells|warns|asks|cries|sings|prays|records|writes|answers|replies)(?: (?:him|her|them|us|Israel|Moses|David))?)(?: [^".;:!?()]{1,60}?)?[,:]? "([^"]{15,}?)[,.!?;:]?"', 'g'), 3, 1, 2],   // "2 Kings 23:21 says Josiah kept a Passover "..."": a short gap, within the sentence
                 [new RegExp('"([^"]{15,}?),?" ((?:as|in) )' + REF + '\\b(?![:\\d])', 'g'), 1, 3, 2],   // the quote must be tied to the reference by "as" or "in", not just followed by a new sentence
                 [new RegExp('\\b' + REF + '(?: \\(|,? ?((?: [^".;:!?()]{1,40})?): |, )"([^"]{15,}?)[,.!?;:]?"', 'g'), 3, 1, 2]];   // Psalm 121:4 ("..."); Psalm 121:4: "..."; 1 Kings 20:23 uses the same idea: "..."; (compare 18:22, "...")
-  const OTHER = /\b(KJV|NIV|ESV|NRSV|RSV|NASB|NJPS|JPS|BSB|YLT|LXX|Septuagint|Vulgate|Targum|Samaritan|Greek|Latin|Hebrew|Aramaic|Syriac|literally|lit\.)\b/;   // a quotation of another version, not of the Plain
+  const OTHER = /\b(KJV|NIV|ESV|NRSV|RSV|NASB|NJPS|JPS|BSB|YLT|LXX|Septuagint|Vulgate|Targum|Samaritan|Greek|Latin|Hebrew|Aramaic|Syriac|literally|lit\.)\b/;   // a quotation of another version, not of the Plain English Translation
   const quoteCheck = (where, text, ctx) => { if(!text) return; const t = strip(text); const seen = new Set();
     for(const [re, qi, ri, wi] of QRES){ let m; re.lastIndex = 0;
     while((m = re.exec(t))){ const q = m[qi], rt = m[ri]; if(seen.has(q)) continue; seen.add(q);
@@ -297,7 +297,7 @@ if(PUBLISH) for(const id in B) if(!reviewed(id)) { delete B[id]; DRAFTS.push(id)
       const plain = norm(keys.map(k => pv[k] || '').join(' ')); if(!plain) continue;
       if(q.trim().split(/\s+/).length < 5 || !(/^\d/.test(rt) || Object.keys(R.OF).some(n => rt.startsWith(n + ' ')))) continue;   // short phrases are usually a word study; (Rashi on 2:1) cites a commentator
       const parts = q.replace(/\s*\([^()]*\)/g, '').split(/\s*(?:\.\.\.|…)\s*/).map(norm).filter(Boolean);
-      if(!parts.every(p => plain.includes(p))) warn(where, `quotes ${r.label} as "${q.slice(0, 70)}", which is not the site's Plain wording`); } } };
+      if(!parts.every(p => plain.includes(p))) warn(where, `quotes ${r.label} as "${q.slice(0, 70)}", which is not the site's Plain English Translation wording`); } } };
   const walk = (where, o, ctx) => { if(typeof o === 'string') quoteCheck(where, o, ctx); else if(o && typeof o === 'object') Object.values(o).forEach(v => walk(where, v, ctx)); };
   /* a bare c:v inside the brackets of another book's reference, "(Psalm 93:1; compare 96:10)", reads as the current book: ask for the name */
   const LISTS = new Set(['r', 'refs', 'echoes', 'v', 'a', 'top', 's']);

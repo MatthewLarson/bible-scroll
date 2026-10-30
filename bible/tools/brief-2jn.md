@@ -1,6 +1,6 @@
 # 2 John and 3 John: brief for the writer (one writer, both books)
 
-Read tools/brief-nt.md, brief-pauline.md, brief-pauline2.md and brief-general.md first, then the Gospel of John's Plain
+Read tools/brief-nt.md, brief-pauline.md, brief-pauline2.md and brief-general.md first, then the Gospel of John's Plain English Translation
 and tools/brief-1jn.md (1 John is being written at the same time by another writer: list every pair in your report).
 Book ids `2Jn` (13 verses) and `3Jn` (KJV numbering 14 verses; the Greek editions number 15: 3 John 14 in the KJV is
 14-15 in NA28. Follow the KJV numbering the site uses (texts/en and texts/orig keys: check them) and put the words of
@@ -36,7 +36,7 @@ members (the majority), a real woman, a woman named Kyria or Electa (Clement of 
 χαίρειν λέγειν "greet" (gloss "say 'Welcome'"); εὐοδοῦσθαι (3 John 2) "go well" or "prosper": the writer decides with a
 note on the prosperity-gospel use of the verse and the ordinary letter formula (papyrus letters' health wish: verify an
 example); ὑπὲρ τοῦ ὀνόματος "for the sake of the Name"; φιλοπρωτεύων "who loves to be first"; οἱ φίλοι "the friends"
-(John 15:13-15 Plain: check); ἀγαπητέ "beloved" (brief-general.md).
+(John 15:13-15 Plain English Translation: check); ἀγαπητέ "beloved" (brief-general.md).
 
 **Setting (H):** traveling teachers and the house churches that received them (the Didache 11-12 on testing traveling
 prophets: verify), the hospitality network, letter-carriers (Demetrius may carry 3 John), the length (each fits one
@@ -53,7 +53,7 @@ Cerinthus: verify; the top `church-discipline` card only if a real documented di
 deep dive), 3 John 2 and the prosperity gospel (Oral Roberts' use of the verse: verify), Diotrephes and church order
 (Catholic and Orthodox episcopacy, congregational readings).
 
-**Places for full treatment:** 2 John 1 (the Elder; the chosen lady), 3, 5 (old commandment: John 13:34 Plain; 1 John
+**Places for full treatment:** 2 John 1 (the Elder; the chosen lady), 3, 5 (old commandment: John 13:34 Plain English Translation; 1 John
 2:7-8 being written now), **7** (coming in the flesh: present participle ἐρχόμενον "coming" against 1 John 4:2's perfect
 "has come": the readings, including a reference to the second coming), 8 (variant "you" / "we" lose), **9-11** (going
 ahead; not receiving into the house: a house church, not a private home?; "do not greet"), 12; 3 John 2 (health wish),

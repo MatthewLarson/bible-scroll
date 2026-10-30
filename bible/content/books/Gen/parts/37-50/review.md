@@ -16,9 +16,9 @@ The commentary is the strongest part of this work. It is dense, mostly accurate,
 
 STYLE rule 1 says "close matches have to be redone." The NIV text is not in the repo, so I compared from my knowledge of the NIV 2011. The writer should check each verse against a printed copy, but many of these matches run to whole verses and are not in doubt. Matches that only follow the Hebrew word order (such as "Pharaoh said to Joseph") do not count. What counts is the NIV's own choices: its added words, its idioms, its order of clauses and its connectives ("After all", "Besides", "as well as", "Very well", "on their way to").
 
-Examples (Plain first, then the NIV):
+Examples (Plain English Translation first, then the NIV):
 
-| Verse | Plain English | NIV 2011 |
+| Verse | Plain English Translation | NIV 2011 |
 |---|---|---|
 | 37:2 | "Joseph, a young man of seventeen, was tending the flock with his brothers" | "Joseph, a young man of seventeen, was tending the flocks with his brothers" |
 | 37:25 | "they saw a caravan of Ishmaelites coming from Gilead. Their camels were loaded with spices, balm and myrrh, and they were on their way to take them down to Egypt." | verbatim (NIV: "…coming from Gilead. Their camels were loaded with spices, balm and myrrh, and they were on their way to take them down to Egypt.") |
@@ -81,7 +81,7 @@ STYLE rule 3 and the brief say these two pages must give each view in its strong
 The KJV has "in their selfwill they **digged down a wall**." It reads *shur* ("wall") for MT *shor* ("ox"), like Targum Onkelos ("they destroyed the wall of their enemy"), Aquila, Symmachus and the Vulgate (*suffoderunt murum*). The LXX has "hamstrung a bull" (ἐνευροκόπησαν ταῦρον), as the MT does. STYLE requires an entry wherever the KJV reads differently from modern versions. The note at 49:6 mentions the reading but leaves out the KJV and Onkelos. **Fix:** add a variant (MT/LXX "ox", followed; Onkelos/Aquila/Symmachus/Vulgate/KJV "wall"), with `plain` "they tore down a wall".
 
 ### 4. Major: the redivided text at 49:19–20 departs from the MT but is only a note (notes.json 49:20 `kind:"var"`)
-The Plain English has "at their heels" (*'aqevam*) and "Asher's food." This takes the *m* of MT *me'asher* back into 49:19, as the LXX, Peshitta and Vulgate do. When the Plain English leaves the MT, that is exactly what variants.json is for, and STYLE says to prefer variants.json over a `var` note. **Fix:** make it a two-verse variant pair, one entry per verse that say they belong together (MT "heel" / "From Asher" against the redivision), and shorten the note.
+The Plain English Translation has "at their heels" (*'aqevam*) and "Asher's food." This takes the *m* of MT *me'asher* back into 49:19, as the LXX, Peshitta and Vulgate do. When the Plain English Translation leaves the MT, that is exactly what variants.json is for, and STYLE says to prefer variants.json over a `var` note. **Fix:** make it a two-verse variant pair, one entry per verse that say they belong together (MT "heel" / "From Asher" against the redivision), and shorten the note.
 
 ### 5. Major: missing Septuagint and Samaritan differences
 None of these has an entry or a note:
@@ -164,25 +164,25 @@ The chariot reached Egypt with the Hyksos (about the 1600s BC). So if Joseph is 
 ### 21. 46:27 symbol note: Deuteronomy 32:8 needs its textual problem
 The note uses MT "according to the number of the sons of Israel" to link the seventy to the nations. 4QDeut-j reads "sons of God," and the LXX "angels of God." Most modern versions (ESV, NRSV) follow the scroll. **Fix:** add a clause saying so.
 
-### 22. 38:5 Plain: subject added
+### 22. 38:5 Plain English Translation: subject added
 "Judah was at Kezib" adds "Judah." The Hebrew has only "and he was in Kezib," and the LXX reads "she was in Chasbi." **Fix:** "He was at Kezib", or "It was at Kezib…", with a short note.
 
-### 23. 45:12 Plain flattens "my mouth"
-The Hebrew reads "that it is my mouth that is speaking to you" (כִּי־פִי הַמְדַבֵּר). Chapter 45 view J cites Rashi's reading of exactly this word (Joseph speaks Hebrew without an interpreter). Yet the Plain English has the NIV's "that it is really I who am speaking to you." **Fix:** "that it is my own mouth speaking to you."
+### 23. 45:12 Plain English Translation flattens "my mouth"
+The Hebrew reads "that it is my mouth that is speaking to you" (כִּי־פִי הַמְדַבֵּר). Chapter 45 view J cites Rashi's reading of exactly this word (Joseph speaks Hebrew without an interpreter). Yet the Plain English Translation has the NIV's "that it is really I who am speaking to you." **Fix:** "that it is my own mouth speaking to you."
 
-### 24. 49:14 Plain "bony donkey"
+### 24. 49:14 Plain English Translation "bony donkey"
 In English "bony" suggests thin. The Hebrew "donkey of bone" means strong-boned, as the note itself says. **Fix:** "a strong-boned donkey."
 
-### 25. 48:14 Plain "He crossed his hands on purpose"
+### 25. 48:14 Plain English Translation "He crossed his hands on purpose"
 This merges the two competing senses of *sikkel*: "crossed" (from a root meaning to interlace) and "acted wisely, on purpose." That gives both readings at once instead of the most likely one. **Fix:** choose one and leave the other to the note.
 
-### 26. 43:34 Plain "were merry"
+### 26. 43:34 Plain English Translation "were merry"
 *Vayyishkeru* means they drank deeply, even became drunk. "Were merry" (the KJV's phrase) softens it. **Fix:** "drank freely" or "drank their fill."
 
-### 27. 41:8 Plain "his dreams"
-The MT says "his dream" (singular), then "interpret them." The Plain English smooths this silently. **Fix:** keep "his dream", or add a short note (the singular treats the two dreams as one, as 41:25 does).
+### 27. 41:8 Plain English Translation "his dreams"
+The MT says "his dream" (singular), then "interpret them." The Plain English Translation smooths this silently. **Fix:** keep "his dream", or add a short note (the singular treats the two dreams as one, as 41:25 does).
 
-### 28. 37:2 Plain "He was a helper to the sons of Bilhah"
+### 28. 37:2 Plain English Translation "He was a helper to the sons of Bilhah"
 The Hebrew is "and he was a *na'ar* with the sons of Bilhah." "Helper" is one interpretation; "youth" or "lad" is another. It has a gloss but no note. **Fix:** "He was a young helper with…", or add a sentence to an existing 37:2 note.
 
 ### 29. 39:2 note "The LORD's name returns": missing fields
@@ -247,7 +247,7 @@ All 35 findings were accepted. Two were carried out in a modified form, noted un
 - The NIV connectives are gone ("After all", "Besides", "Very well", "on their way to").
 - 37:2 now reads "This is the family history of Jacob", following the coordinator's ruling on *toledot*.
 - 79 note anchors and 48 gloss anchors were moved. Twelve glosses that only repeated the new wording were deleted.
-- A script then compared every quotation in notes, chapters, topics and the seven cores with the old and new verse text. Each Genesis quotation that still had old wording now uses the new Plain wording, including "God sent me here before you to keep people alive", "Truly we are guilty over our brother", "The scepter will not leave Judah" and "few and full of trouble". 49:10 also quotes 28:15 from the 26-36 Plain.
+- A script then compared every quotation in notes, chapters, topics and the seven cores with the old and new verse text. Each Genesis quotation that still had old wording now uses the new Plain English Translation wording, including "God sent me here before you to keep people alive", "Truly we are guilty over our brother", "The scepter will not leave Judah" and "few and full of trouble". 49:10 also quotes 28:15 from the 26-36 Plain English Translation.
 - The one exception is "May God make you like Ephraim and Manasseh" in the 48:20 note and the chapter 48 J view. That is the wording of the Friday-night blessing as Jews say it, so it is deliberately left as is.
 
 **Critical 2 (messiah, typology, 49:10).**

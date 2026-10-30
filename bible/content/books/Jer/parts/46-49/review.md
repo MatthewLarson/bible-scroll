@@ -1,12 +1,12 @@
 # Hostile review: Jeremiah 46-49 (part 46-49)
 
-Reviewer: hostile-reviewer agent (not the writer). Checked against texts/orig/Jer.json (via tools/literal.js), texts/auto/Jer.json (Ketiv/Qere), Swete's Greek (tools/lxx.py), 2QJer (tools/dss.py, ETCBC transcription), and the site Plain of Isaiah 15-16 and 24, Numbers 21 and 24, Jeremiah 25, 30, 40, 43 and 50. `VERBOSE=1 node tools/build.js --check Jer/46-49` gives 0 errors, 1 warning (the warning is about Jer/book.json 1:1, part 01-06's file, not this part).
+Reviewer: hostile-reviewer agent (not the writer). Checked against texts/orig/Jer.json (via tools/literal.js), texts/auto/Jer.json (Ketiv/Qere), Swete's Greek (tools/lxx.py), 2QJer (tools/dss.py, ETCBC transcription), and the site Plain English Translation of Isaiah 15-16 and 24, Numbers 21 and 24, Jeremiah 25, 30, 40, 43 and 50. `VERBOSE=1 node tools/build.js --check Jer/46-49` gives 0 errors, 1 warning (the warning is about Jer/book.json 1:1, part 01-06's file, not this part).
 
 ## Verdict
 
-The Plain is mostly faithful and readable. Chapter 48 follows the site's Isaiah 15-16, Isaiah 24:17-18 and Numbers 21:28-29 closely wherever the Hebrew is the same. I found no invented source or fabricated manuscript reading. The Greek claims I checked in Swete are right (the Apis reading in 26:15, no Tahpanhes in 26:14, no verse 26, no 30:10-11, "Ekron" in 31:41, the Elam block at 25:14-19). The facts the writer took from memory also hold up: Ashkelon in Kislev 604 BC with Stager's article, Herodotus 3.8 on the Arab haircut, the Chronicle's year-6 raid on the Arabs, the Tell el-'Umeiri seal, Baruch 3:22-23, and the NRSV's "Apis". The part still has real problems:
+The Plain English Translation is mostly faithful and readable. Chapter 48 follows the site's Isaiah 15-16, Isaiah 24:17-18 and Numbers 21:28-29 closely wherever the Hebrew is the same. I found no invented source or fabricated manuscript reading. The Greek claims I checked in Swete are right (the Apis reading in 26:15, no Tahpanhes in 26:14, no verse 26, no 30:10-11, "Ekron" in 31:41, the Elam block at 25:14-19). The facts the writer took from memory also hold up: Ashkelon in Kislev 604 BC with Stager's article, Herodotus 3.8 on the Arab haircut, the Chronicle's year-6 raid on the Arabs, the Tell el-'Umeiri seal, Baruch 3:22-23, and the NRSV's "Apis". The part still has real problems:
 
-- **Parallel pairs.** The pairs 46:27-28 with 30:10-11, 49:18 with 50:40 and 49:19-20 with 50:44-45 are not aligned. One note says they are ("the Plain gives them the same English"), and that is false.
+- **Parallel pairs.** The pairs 46:27-28 with 30:10-11, 49:18 with 50:40 and 49:19-20 with 50:44-45 are not aligned. One note says they are ("the Plain English Translation gives them the same English"), and that is false.
 - **2QJer and wording.** One 2QJer claim is false ("only spelling" at 48:30). The chapter-48 text says 2QJer covers "25-45", but the scroll has no 40-42. The date "about 100 BC" for 2QJer has no source.
 - **Reader-facing admissions.** Several admit work not done ("Ziegler's critical text not checked", "I have not checked them verse by verse", "in the transcription I read"). Two of these sit beside Jewish commentators' views that were asserted without being read.
 - **Wrong source.** One source key (kitchen-tip for Neco II) does not cover the subject.
@@ -16,7 +16,7 @@ Findings: 0 critical, 9 major, 17 minor.
 
 ## Major
 
-1. **Major. 46:27-28 vs 30:10-11 (plain.txt; Jer 26-31 plain.txt).** The Hebrew is the same except for the points listed in the note (46:28 lacks "to save you" and has "driven" for "scattered"). The Plain differs in almost every line:
+1. **Major. 46:27-28 vs 30:10-11 (plain.txt; Jer 26-31 plain.txt).** The Hebrew is the same except for the points listed in the note (46:28 lacks "to save you" and has "driven" for "scattered"). The Plain English Translation differs in almost every line:
    - "So you" / "As for you".
    - "do not be terrified" / "do not be shattered", both from `ve'al tehat`.
    - "I am about to save you" / "See, I am the one who will save you", both from `hinneni moshi'aka`.
@@ -28,7 +28,7 @@ Findings: 0 critical, 9 major, 17 minor.
    - "discipline you with justice; I will not let you off as innocent" / "discipline you fairly, and I will not simply let you off". The Hebrew `vyassartikha lamishpat venaqqeh lo 'anakkekka` is identical in both.
    - Fix: pick one wording (the 30:10-11 part is the earlier verse and is the model) and make 46:27-28 identical except at the real differences: the missing `ne'um YHWH` in 46:27, the missing `lehoshi'ekha` in 46:28, and `hiddachtikha` against `hafitsotikha`. Say the Greek has 46:27-28 and lacks 30:10-11 only once.
 
-2. **Major. 49:19-20 vs 50:44-45; note 49:19 claims the opposite.** The note says "the Plain gives them the same English". It does not. The Hebrew of 49:19-20 and 50:44-45 is identical except for `argia'ah aritsenu` against `arga'ah arutsem` (singular/plural "him/them") and `Edom/Teman` against `Babel/Kasdim`. Differences that are not in the Hebrew:
+2. **Major. 49:19-20 vs 50:44-45; note 49:19 claims the opposite.** The note says "the Plain English Translation gives them the same English". It does not. The Hebrew of 49:19-20 and 50:44-45 is identical except for `argia'ah aritsenu` against `arga'ah arutsem` (singular/plural "him/them") and `Edom/Teman` against `Babel/Kasdim`. Differences that are not in the Hebrew:
    - "Look" / "See" (`hinneh`).
    - "thick brush" / "thickets" (`ge'on`).
    - "never runs dry" / "never fails" (`'eitan`).
@@ -40,7 +40,7 @@ Findings: 0 critical, 9 major, 17 minor.
    - 49:20 / 50:45: "That is why you should hear" / "So listen to" (`laken shim'u`); "planned/purposes ... purposed" / "drawn up ... worked out" (`ya'ats`, `chashav`); "dragged off" / "dragged away"; "made a ruin" / "left in horror". The last uses the same Hebrew in both.
    - Fix: align the pair, using the 50:44-45 wording where it is closer to the Hebrew, and correct the note.
 
-3. **Major. 49:18 vs 50:40.** Differences not in the Hebrew: "their neighbor towns" / "the towns around them" (`shekheneyha` in both) and "no human being" / "no human" (`ben 'adam` in both). The real differences are only `elohim` (50:40 only) and `'amar` / `ne'um`, which the Plain already handles. Fix: align.
+3. **Major. 49:18 vs 50:40.** Differences not in the Hebrew: "their neighbor towns" / "the towns around them" (`shekheneyha` in both) and "no human being" / "no human" (`ben 'adam` in both). The real differences are only `elohim` (50:40 only) and `'amar` / `ne'um`, which the Plain English Translation already handles. Fix: align.
 
 4. **Major. Reader-facing statements of work not done (rule: no "not checked", no "I have seen it").**
    - Every Greek reading label repeats "Ziegler's critical text not checked" (about 25 variants), and chapters.json says "I did not have Ziegler's critical text".
@@ -64,7 +64,7 @@ Findings: 0 critical, 9 major, 17 minor.
 
 11. **Minor. 46:5 "do not look around".** `lo hifnu` is "did not turn" (back). "Look around" is an added sense. Also 46:6 "cannot" for the jussive `'al` (ESV/NIV shape); "Let not the fast run away" is closer.
 
-12. **Minor. 46:15 plural/singular.** The Hebrew is `'abbirekha`, plural, with a singular verb. The Plain and the variant's `en` line say "mighty one". The variant's `p` says "your mighty ones". Fix `en`, or add a gloss. The variant's "why" says the Plain "notes the Apis wordplay", but no note at 46:15 exists (the note at 46:20 sends the reader back to "46:15"). Add the Apis note (Apis bull of Memphis; Hebrew `'abbir` = "strong one"/"bull"; the NRSV reads "Apis", verified).
+12. **Minor. 46:15 plural/singular.** The Hebrew is `'abbirekha`, plural, with a singular verb. The Plain English Translation and the variant's `en` line say "mighty one". The variant's `p` says "your mighty ones". Fix `en`, or add a gloss. The variant's "why" says the Plain English Translation "notes the Apis wordplay", but no note at 46:15 exists (the note at 46:20 sends the reader back to "46:15"). Add the Apis note (Apis bull of Memphis; Hebrew `'abbir` = "strong one"/"bull"; the NRSV reads "Apis", verified).
 
 13. **Minor. 48:9 "Hand Moab a pair of wings".** "A pair" is added. The site's literal gives "salt" for `tsits`; the Hebrew means "blossom/plate". "Wings" is a conjecture (Targum, KJV, ESV, NRSV have "wings"; NIV has "salt"). The variant's why says the reading "matches the Masoretic pointing". It does not; `tsits` is a noun with no pointing issue. Say plainly that "wings" is a guess from context.
 
@@ -76,7 +76,7 @@ Findings: 0 critical, 9 major, 17 minor.
 
 17. **Minor. Variant 48:4 mislabels the Ketiv/Qere.** texts/auto shows Ketiv `tze'orehah` (צעוריה) and Qere `tse'ireha`. The card says "same consonants with vowels for a different spelling". The consonants differ (vav / yod). Also the Greek "Zoar" explanation is fine.
 
-18. **Minor. Variant 49:25's "why" is garbled** ("a lament that the city was not left in time ('how is it she has not been saved by flight')"). The Hebrew `'ezavah` means "forsaken". The Plain "How is she not deserted" is a woodenly literal sentence that a reader cannot parse. Say what the line means (she should have been abandoned, and was not / a cry of regret) and keep the Ketiv `tehillah` against Qere `tehillat` as a one-line mention.
+18. **Minor. Variant 49:25's "why" is garbled** ("a lament that the city was not left in time ('how is it she has not been saved by flight')"). The Hebrew `'ezavah` means "forsaken". The Plain English Translation "How is she not deserted" is a woodenly literal sentence that a reader cannot parse. Say what the line means (she should have been abandoned, and was not / a cry of regret) and keep the Ketiv `tehillah` against Qere `tehillat` as a one-line mention.
 
 19. **Minor. Greek differences left without variant entries or notes** (all in Swete; check Ziegler for each):
     - 46:22 Greek "because they walk in sand" (`en ammo`) for "with an army".
@@ -87,7 +87,7 @@ Findings: 0 critical, 9 major, 17 minor.
     - 46:11 Ketiv `hirbeti` (I have multiplied), not recorded.
     - 49:1, 3 `malkam` against `Milkom` is listed only as a `word` note, though it is a vocalization variant (Greek "Melchol"; Amos 1:15). It could carry a variant entry.
 
-20. **Minor. 46:25 variant.** The Greek is "I am avenging Ammon, her son, on Pharaoh". The Plain line given for the Greek restructures it ("call Ammon, her son, to account, and Pharaoh"). Keep the Greek's own construction.
+20. **Minor. 46:25 variant.** The Greek is "I am avenging Ammon, her son, on Pharaoh". The Plain English Translation line given for the Greek restructures it ("call Ammon, her son, to account, and Pharaoh"). Keep the Greek's own construction.
 
 21. **Minor. Note 49:9 "nearly word for word Obadiah 5".** The order is reversed (Jeremiah: grape pickers, then thieves; Obadiah: thieves, then pickers), Obadiah adds "how you are destroyed!" and has `yignevu` ("steal") against Jeremiah's `hishchitu`. The note's own body says "different details". Change the `p`.
 
@@ -105,9 +105,9 @@ Findings: 0 critical, 9 major, 17 minor.
 
 ## Checked and found sound (no action)
 
-- **Isaiah 15-16 against Jeremiah 48:** 48:5, 29-31, 33-34, 36-38 match the site Plain in every line where the Hebrew is the same. Where they differ, the Hebrew differs.
+- **Isaiah 15-16 against Jeremiah 48:** 48:5, 29-31, 33-34, 36-38 match the site Plain English Translation in every line where the Hebrew is the same. Where they differ, the Hebrew differs.
 - **Isaiah 24:17-18 against Jeremiah 48:43-44:** matches.
-- **Numbers 21:28-29 against Jeremiah 48:45-46:** the Hebrew differs and the Plain follows it; the note quotes the Numbers Plain exactly.
+- **Numbers 21:28-29 against Jeremiah 48:45-46:** the Hebrew differs and the Plain English Translation follows it; the note quotes the Numbers Plain English Translation exactly.
 - **Jeremiah 49:22 against 48:40-41:** the same words.
 - **Verified claims:**
   - Ashkelon in Kislev 604 BC, with Stager 1996 (BAR 22:1, pp. 56-69, 76-77).
@@ -131,7 +131,7 @@ Findings: 0 critical, 9 major, 17 minor.
 ## Fixes applied
 
 1. Accepted. 46:27-28 now has the wording of 30:10-11 (As for you / do not be shattered / See, I am the one who will save you / your children / land of their captivity / rest undisturbed / scare / finish off / fairly / not simply let you off), differing only at the real Hebrew differences; note 46:27 lists them; gloss and note anchors updated.
-2. Partly accepted. 49 is the model (lead decision), so 50:44-45 must follow it. In 49:19 only "whomever I choose" changed to "whoever is chosen, him I will set over it" (closer to the Hebrew); the note no longer claims the Plain is already identical and states the true differences (him/them, Edom/Teman against Babylon/Chaldeans). 50:44-45 still has to be conformed in part 50-52.
+2. Partly accepted. 49 is the model (lead decision), so 50:44-45 must follow it. In 49:19 only "whomever I choose" changed to "whoever is chosen, him I will set over it" (closer to the Hebrew); the note no longer claims the Plain English Translation is already identical and states the true differences (him/them, Edom/Teman against Babylon/Chaldeans). 50:44-45 still has to be conformed in part 50-52.
 3. Accepted. 49:18 is the model; "the LORD says" became "the LORD declares" as the lead decided; the note names the two Hebrew differences (God named in 50:40; amar against ne'um). 50:40 must be conformed in part 50-52 ("their neighbor towns", "no human being").
 4. Accepted. "Ziegler not checked" removed from every Greek label; the witnesses read (Leningrad, Swete's Vaticanus, Abegg-Bowley-Cook 2QJer, Radak on Sefaria) are stated once on the chapter 46 page; "the transcription I read" and "I rely on the scroll" replaced by "2QJer does not preserve this verse" and plain statements; the ch 46 and 47 J lines rewritten.
 5. Accepted. Read Radak on Sefaria at 46:2, 46:13 and 47:2 and now state only what he says (Carchemish then Nebuchadnezzar's later attack on Egypt; the waters are the Chaldean army). Rashi's page for 46:2 has no comment and the Targum was not read, so those claims are deleted. Unverifiable Jewish generalities removed.

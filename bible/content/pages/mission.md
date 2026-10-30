@@ -40,7 +40,7 @@ the Hebrew alone does not settle it. Wherever a choice like that comes up, the n
 
 ## What you'll find in each writing
 
-- **A Plain English translation** made from the original Hebrew, Aramaic, Greek or Ge'ez, checked against
+- **A Plain English Translation** made from the original Hebrew, Aramaic, Greek or Ge'ez, checked against
   well-known English translations.
 - **Color-coded notes** woven into the text: original words, history and culture, connections to other
   scripture, symbols, and the main schools of interpretation.

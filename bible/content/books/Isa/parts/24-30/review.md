@@ -1,6 +1,6 @@
 # Hostile review: Isaiah 24–30 (part 24-30)
 
-Reviewer: rev-isa-24-30. Files read: plain.txt, notes.json (172), variants.json (15), glosses.json (62), chapters.json (7), topics.json (25), sources.json, and the new cores content/proposals/prophets/topics/cornerstone.json and messianic-banquet.json. Checked against `node tools/literal.js Isa 24–30`, texts/orig and texts/auto, the scrolls through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q57, 4Q60, 4Q64), Swete through `tools/lxx.py`, the other Isaiah parts' plain.txt, the site's Matthew Plain, works.json and the lane's proposals. `node tools/build.js --check Isa/24-30`: 0 errors, 0 warnings.
+Reviewer: rev-isa-24-30. Files read: plain.txt, notes.json (172), variants.json (15), glosses.json (62), chapters.json (7), topics.json (25), sources.json, and the new cores content/proposals/prophets/topics/cornerstone.json and messianic-banquet.json. Checked against `node tools/literal.js Isa 24–30`, texts/orig and texts/auto, the scrolls through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q57, 4Q60, 4Q64), Swete through `tools/lxx.py`, the other Isaiah parts' plain.txt, the site's Matthew Plain English Translation, works.json and the lane's proposals. `node tools/build.js --check Isa/24-30`: 0 errors, 0 warnings.
 
 ## Verdict
 
@@ -10,7 +10,7 @@ This is a strong part. The translation is built from the Hebrew. I compared the 
 
 ### 1. Major: 26:19 renders qum differently from 26:14, hiding the reversal the notes depend on
 - **Where:** plain.txt 26:14 and 26:19; the notes on 26:14 (myth) and 26:19 (views, word); chapter 26 sum and DEEP "Resurrection in the Hebrew Bible"; topics.json `resurrection`.
-- **Problem:** 26:14 has רְפָאִים בַּל־יָקֻמוּ, Plain "shades do not rise". 26:19 has נְבֵלָתִי יְקוּמוּן, the same verb qum, Plain "My corpses will stand up!" Every note and the chapter page say that 26:19 "answers 26:14" and that the dead oppressors "do not rise" while God's dead "will rise". The DEEP even lists "stand up" among its "bodily words". The English reader cannot see the verbal echo, which is the central exegetical point. The site already uses "rise" for this verb in 26:14.
+- **Problem:** 26:14 has רְפָאִים בַּל־יָקֻמוּ, Plain English Translation "shades do not rise". 26:19 has נְבֵלָתִי יְקוּמוּן, the same verb qum, Plain English Translation "My corpses will stand up!" Every note and the chapter page say that 26:19 "answers 26:14" and that the dead oppressors "do not rise" while God's dead "will rise". The DEEP even lists "stand up" among its "bodily words". The English reader cannot see the verbal echo, which is the central exegetical point. The site already uses "rise" for this verb in 26:14.
 - **Fix:** Use "My corpses will rise!" (or "...will rise up!") in 26:19. Then update the 26:19 word-note anchor, the chapter 26 sum and DEEP, and the resurrection topic section that quote the line.
 
 ### 2. Major: 29:14 note gets wrong which text Paul follows in 1 Corinthians 1:19
@@ -29,7 +29,7 @@ This is a strong part. The translation is built from the Hebrew. I compared the 
   - The "why" ("'Delight' has the Leningrad Codex and the Greek") therefore weighs the evidence wrongly.
 - **Fix:**
   - Put the readings as "Leningrad Codex (BHS, BHQ); Old Greek" against "Aleppo Codex; Second Rabbinic Bible (1524/25), hence KJV; Great Isaiah Scroll (חומר); many medieval manuscripts".
-  - Reconsider the follow. If the Plain keeps "delightful", say plainly that this goes against the Aleppo Codex.
+  - Reconsider the follow. If the Plain English Translation keeps "delightful", say plainly that this goes against the Aleppo Codex.
 
 ### 4. Major: Three variant entries cite restored words as scroll readings
 - **Problem:** The dss.py header and the brief both say that a word in [brackets] is restored and "never a scroll's reading". Three entries break that rule:
@@ -70,12 +70,12 @@ This is a strong part. The translation is built from the Hebrew. I compared the 
 - **Fix:** "a command made by humans and learned by heart" (or "a human command, learned by rote"). Then update every quotation of it.
 
 ### 8. Minor: 26:3 supplies "on you"
-- **Problem:** The Hebrew is יֵצֶר סָמוּךְ תִּצֹּר שָׁלוֹם שָׁלוֹם כִּי בְךָ בָּטוּחַ. There is no "on you" after סָמוּךְ. The Plain's "The mind that rests firm *on you*" follows the KJV and ESV wording ("stayed on thee / on you"). The NIV lacks it. The word note does not say the phrase is supplied.
+- **Problem:** The Hebrew is יֵצֶר סָמוּךְ תִּצֹּר שָׁלוֹם שָׁלוֹם כִּי בְךָ בָּטוּחַ. There is no "on you" after סָמוּךְ. The Plain English Translation's "The mind that rests firm *on you*" follows the KJV and ESV wording ("stayed on thee / on you"). The NIV lacks it. The word note does not say the phrase is supplied.
 - **Fix:** "The mind that is held steady you guard in peace, peace, / for it trusts in you". Or keep "on you" and say in the note that it is supplied from the last clause.
 
 ### 9. Minor: 25:9 turns an open verb into a past rescue and a noun into a clause
 - **Problem:**
-  - וְיוֹשִׁיעֵנוּ is a simple waw with the imperfect (not a past-tense waw-consecutive): "that he might save us" or "and he will save us". The Greek has σώσει. The Plain's "We hoped in him, and he rescued us" matches the NIV's past tense.
+  - וְיוֹשִׁיעֵנוּ is a simple waw with the imperfect (not a past-tense waw-consecutive): "that he might save us" or "and he will save us". The Greek has σώσει. The Plain English Translation's "We hoped in him, and he rescued us" matches the NIV's past tense.
   - The last line, בִּישׁוּעָתוֹ, "in his rescue", becomes "because he has rescued us".
   - The gloss "he has rescued us" → "he has saved us" adds nothing.
 - **Fix:** "We hoped in him, that he would rescue us ... Let us shout and celebrate in his rescue." Drop the gloss.
@@ -85,16 +85,16 @@ This is a strong part. The translation is built from the Hebrew. I compared the 
 - 24:23: "pale" moon and "hot" sun are explanatory additions to levanah and chammah. The note covers this, so keep it if the writer prefers, but the adjectives are interpretation inside the text.
 
 ### 11. Minor: Familiar ESV wording in titles, headings and quotations
-- Chapter 30 title "Rahab Who Sits Still", the 30:7 note title "Rahab who sits still" and the 30:6–7 setting "Rahab who sits still" are the ESV and RSV wording of 30:7. The Plain itself says "Rahab, who just sits there".
-- The plain.txt heading before 30:18, "The LORD waits to be gracious", and the 30:18–26 setting `what` are the ESV wording. The Plain verse says "is waiting to show you favor".
+- Chapter 30 title "Rahab Who Sits Still", the 30:7 note title "Rahab who sits still" and the 30:6–7 setting "Rahab who sits still" are the ESV and RSV wording of 30:7. The Plain English Translation itself says "Rahab, who just sits there".
+- The plain.txt heading before 30:18, "The LORD waits to be gracious", and the 30:18–26 setting `what` are the ESV wording. The Plain English Translation verse says "is waiting to show you favor".
 - Chapter 29 DEEP renders Mark 7:7 as "in vain they worship me, teaching as doctrines the commands of humans". That is the ESV's Mark 7:7 with one word changed. The site's own Matthew 15:9 has "Their worship of me is empty; the teachings they teach are human commands."
-- **Fix:** Use the Plain wording ("Rahab, Who Just Sits There"; "The LORD waits to show favor"), and render Mark 7:7 in the site's style.
+- **Fix:** Use the Plain English Translation wording ("Rahab, Who Just Sits There"; "The LORD waits to show favor"), and render Mark 7:7 in the site's style.
 
 ### 12. Minor: Misquotes of other Isaiah parts
 The build does not catch these because the reference comes before the quotation.
-- **28:16 echo note:** "recalls 7:9: 'If you do not hold firm in faith, you will not hold firm at all.'" Part 07-12's Plain 7:9 is "If you will not hold firm, you will not be held firm."
-- **30:31 note:** "In 10:5 Assyria was 'the rod of my anger, the stick in whose hand is my rage.'" Part 07-12's Plain 10:5 is "Woe to Assyria, the rod of my anger! / It is a stick, and my rage is in their hand."
-- **Fix:** Quote the current Plain exactly.
+- **28:16 echo note:** "recalls 7:9: 'If you do not hold firm in faith, you will not hold firm at all.'" Part 07-12's Plain English Translation 7:9 is "If you will not hold firm, you will not be held firm."
+- **30:31 note:** "In 10:5 Assyria was 'the rod of my anger, the stick in whose hand is my rage.'" Part 07-12's Plain English Translation 10:5 is "Woe to Assyria, the rod of my anger! / It is a stick, and my rage is in their hand."
+- **Fix:** Quote the current Plain English Translation exactly.
 
 ### 13. Minor: 24:23 says the Targum reveals God's "might", where the site's own source has "kingdom"
 - **Where:** notes 24:23 (echo "The LORD becomes King"); chapter 24 VIEW J.
@@ -107,7 +107,7 @@ The build does not catch these because the reference comes before the quotation.
 - **Fix:** Add a sentence to the views note, or a reading to the variant.
 
 ### 15. Minor: 25:7 "face-cloth" reads as "washcloth" in American English
-- **Problem:** The Plain has "the face-cloth that lies over all the peoples" (פְּנֵי־הַלּוֹט, "the surface of the covering"). In American English a "facecloth" is a washcloth, which is not the shroud or veil meant.
+- **Problem:** The Plain English Translation has "the face-cloth that lies over all the peoples" (פְּנֵי־הַלּוֹט, "the surface of the covering"). In American English a "facecloth" is a washcloth, which is not the shroud or veil meant.
 - **Fix:** "the shroud that lies over all the peoples" or "the covering spread over the face of all the peoples". Update the gloss and the note anchor.
 
 ### 16. Minor: The 25:10 variant should say who follows which reading
@@ -176,7 +176,7 @@ The build does not catch these because the reference comes before the quotation.
 
 1. Accepted. 26:19 now reads "My corpses will rise!", echoing 26:14 "shades do not rise". Updated the word-note anchor, the chapter 26 sum and DEEP (the "bodily words" now say the same verb "rise" is denied to the oppressors in 26:14), the resurrection topic quotation and the variant "why".
 2. Accepted. The 29:14 note now says Paul quotes the Greek's "I will destroy" (the Hebrew says the wisdom "will perish") and changes only the last verb to "set aside", perhaps from Psalm 33:10 in the Greek; Psalm 33:10 added to `r`.
-3. Accepted. The 27:2 variant now sets the Leningrad Codex and Old Greek against the Aleppo Codex, the Ben Chayyim Rabbinic Bible (hence the KJV), the Great Isaiah Scroll and many medieval manuscripts, and says plainly that the Plain's "delightful" goes against the Aleppo Codex. I worded the Aleppo and Rabbinic Bible witnesses as "as the STEPBible apparatus reports" because I could check them only there (texts/auto, sigla AH).
+3. Accepted. The 27:2 variant now sets the Leningrad Codex and Old Greek against the Aleppo Codex, the Ben Chayyim Rabbinic Bible (hence the KJV), the Great Isaiah Scroll and many medieval manuscripts, and says plainly that the Plain English Translation's "delightful" goes against the Aleppo Codex. I worded the Aleppo and Rabbinic Bible witnesses as "as the STEPBible apparatus reports" because I could check them only there (texts/auto, sigla AH).
 4. Accepted. Removed 4QIsa-b from 26:20 (restored), 1QIsa-b from 28:16 "will not hurry" (restored; I checked all three with dss.py), and 1QIsa-b from 29:3, with the "why" rewritten on the Leningrad Codex and 1QIsa-a against 4QIsa-k.
 5. Partly accepted. Most of the works were already registered by the lead (Book of Mormon, Community Rule/1QS, Rule of the Congregation/1QSa, Nahum Pesher/4QpNah, Damascus Document). Proposed `pearl-of-great-price` in content/proposals/prophets/works.json; changed "CD I, 18" to "Damascus Document 1:18"; took "2 Nephi" out of the Bible `r` lists (28:10, 29:11) and now name "Book of Mormon, 2 Nephi ..." and "Pearl of Great Price, Joseph Smith-History ..." in the body. For the lead: the Book of Mormon entry in content/works.json lists only "3 Nephi" in aka; add "2 Nephi" if the site should mark it.
 6. Accepted. The 28:16 echo note now has one sentence for each use: Romans 9:33 (merged with 8:14, close to the Greek in sense), Romans 10:11 (adds "everyone", which Paul's next sentence uses), 1 Peter 2:6 ("chosen" has no Hebrew match). The variants cite Romans and 1 Peter as "agree in sense" and note the Greek subjunctive against their future. Inscription claim labeled (see 24). Chapter 28 DEEP and the cornerstone topic only had the inscription wording, which is fixed.
@@ -184,8 +184,8 @@ The build does not catch these because the reference comes before the quotation.
 8. Accepted. 26:3 now "The mind that is held steady / you guard in peace, peace"; the word note says the Hebrew has no "on you".
 9. Accepted. 25:9 now "We hoped in him, that he would rescue us ... Let us shout and celebrate in his rescue."; the useless gloss is removed and the chapter 25 sum updated.
 10. Partly accepted. 28:9 now "Who does he think he is teaching knowledge to?" (note anchor updated). Declined the 24:23 "pale"/"hot" change: the word note already explains levanah and chammah.
-11. Partly accepted. Chapter 30 title, the 30:7 note title and the 30:6-7 setting now use the Plain wording ("Rahab, Who Just Sits There"); the 30:18 heading, the setting and the other mentions now say "waits to show favor". Declined the Mark 7:7 point for the chapter 29 DEEP: it already uses the site's Matthew 15:9 wording; the one ESV-like Greek rendering was in the 29:13 echo note, now reworded ("empty is their worship of me, as they teach human commands and teachings").
-12. Accepted. The 28:16 note quotes the current Plain of 7:9; the 30:31 note quotes "Woe to Assyria, the rod of my anger!" from the current Plain of 10:5.
+11. Partly accepted. Chapter 30 title, the 30:7 note title and the 30:6-7 setting now use the Plain English Translation wording ("Rahab, Who Just Sits There"); the 30:18 heading, the setting and the other mentions now say "waits to show favor". Declined the Mark 7:7 point for the chapter 29 DEEP: it already uses the site's Matthew 15:9 wording; the one ESV-like Greek rendering was in the 29:13 echo note, now reworded ("empty is their worship of me, as they teach human commands and teachings").
+12. Accepted. The 28:16 note quotes the current Plain English Translation of 7:9; the 30:31 note quotes "Woe to Assyria, the rod of my anger!" from the current Plain English Translation of 10:5.
 13. Accepted. The 24:23 note and chapter 24 VIEW J now say the Targum has "the kingdom of the LORD of hosts will be revealed" (Chilton), note that some older renderings have "power" or "might", and link it to the feast of 25:6 and Matthew 8:11 / Luke 13:28-29. I took the "kingdom" reading from the reviewer's report of Chilton and did not re-read the Targum.
 14. Accepted. The 26:19 views note adds the Old Greek's "the dead will rise, and those in the tombs will be raised" (Swete, checked with lxx.py).
 15. Accepted. 25:7 now "the shroud that lies over all the peoples"; note anchor, body, gloss and the topic sentence updated.

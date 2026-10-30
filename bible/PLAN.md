@@ -1,6 +1,6 @@
 # The Bible Scroll: architecture
 
-A study website for all 66 books, built the way the Revelation scroll was built: a Plain English translation
+A study website for all 66 books, built the way the Revelation scroll was built: a Plain English Translation
 made from the original languages, color-coded notes woven into the text, chapter commentary, every Bible
 reference clickable, all interpretive views presented fairly, and the hand-drawn scroll look.
 
@@ -30,9 +30,9 @@ bible/
     topics/<topic-id>.json   one file per topic: its core (title, kind, lead, overview sections)
     books/<id>/
       book.json        the book's front pages: intro, authorship views, outline, lenses
-      plain.txt        the Plain English translation
+      plain.txt        the Plain English Translation
       chapters.json    one commentary page per chapter
-      notes.json       notes anchored to phrases in the Plain English text
+      notes.json       notes anchored to phrases in the Plain English Translation text
       variants.json    textual variants: the readings, where each comes from, which is followed and why
       glosses.json     "Today's words": modern paraphrases under hard phrases
       topics.json      this book's contributions to shared topic pages (never a copy of a topic)
@@ -68,11 +68,11 @@ chapter and verse across the Bible that is tagged with the topic, grouped by boo
 
 ## Variants
 
-`variants.json` entries are anchored to a phrase in the Plain English text, like notes. Each gives two or more
+`variants.json` entries are anchored to a phrase in the Plain English Translation text, like notes. Each gives two or more
 readings: the witness (e.g. "Masoretic Text, Leningrad Codex", "Septuagint", "Dead Sea Scrolls 4QSam-a",
 "SBLGNT / NA28", "Byzantine majority", "Textus Receptus (KJV)"), the original-language text, an English
-rendering, and the Plain English wording the verse would have with that reading. The reader can switch the
-verse to any reading in place. Each entry says which reading the Plain English follows and why.
+rendering, and the Plain English Translation wording the verse would have with that reading. The reader can switch the
+verse to any reading in place. Each entry says which reading the Plain English Translation follows and why.
 
 ## Site
 

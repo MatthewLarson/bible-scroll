@@ -25,7 +25,7 @@ The parts are written in two waves. Parts in the same wave cannot see each other
 - Use the existing entries too: hesed "loyal love", "the LORD of Armies", torah "law" with its note.
 - Add a term only after checking that another Psalms writer has not just added it.
 
-**Poetry.** Keep one verse per line, with ` / ` between poetic lines. Write the Plain as English poetry should read: parallel lines kept parallel, short clauses, no padding. Show acrostics in a note, and name the Hebrew letter in the chapter page: 9–10, 25, 34, 37, 111, 112, 119, 145. Psalm 119 gets its letter headings as section headings. Where the Hebrew is uncertain, say so in a note whose `kind` is `mis` or `com` (its `type` stays one of the note types, usually `word`), and do not hide it in smooth English.
+**Poetry.** Keep one verse per line, with ` / ` between poetic lines. Write the Plain English Translation as English poetry should read: parallel lines kept parallel, short clauses, no padding. Show acrostics in a note, and name the Hebrew letter in the chapter page: 9–10, 25, 34, 37, 111, 112, 119, 145. Psalm 119 gets its letter headings as section headings. Where the Hebrew is uncertain, say so in a note whose `kind` is `mis` or `com` (its `type` stays one of the note types, usually `word`), and do not hide it in smooth English.
 
 **Textual evidence.**
 - The Leningrad Codex is the base. Use texts/auto/Psa.json.
@@ -36,7 +36,7 @@ The parts are written in two waves. Parts in the same wave cannot see each other
 - Known places that need full treatment:
   - 2:12, "kiss the son" or "kiss his feet / do homage purely";
   - 14 and 53, the same psalm twice, with the LORD and God;
-  - 18, set beside 2 Samuel 22, using the site's Plain of 2 Samuel;
+  - 18, set beside 2 Samuel 22, using the site's Plain English Translation of 2 Samuel;
   - 22:16 (Hebrew 22:17), "like a lion" or "they pierced/dug";
   - 40:6, "ears you have dug" or the Greek "a body you prepared" (Hebrews 10:5);
   - 45:6, "your throne, O God";
@@ -44,7 +44,7 @@ The parts are written in two waves. Parts in the same wave cannot see each other
   - 110:3;
   - 145:13, the missing nun line, which 11QPs-a and the Greek have;
   - 151, which is not in the Hebrew. It goes in book.json and on the works page, not in plain.txt.
-- Psalms 105, 96 and 106 appear in 1 Chronicles 16. Reuse the site's Plain of 1 Chronicles 16 where the Hebrew matches, and note the differences. Psalm 132:8–10 appears in 2 Chronicles 6:41–42. Psalm 108 = 57:7–11 + 60:5–12, and 70 = 40:13–17. The writers of the later wave handle 105, 106 and 108. A first-wave writer whose psalm is quoted later quotes as usual.
+- Psalms 105, 96 and 106 appear in 1 Chronicles 16. Reuse the site's Plain English Translation of 1 Chronicles 16 where the Hebrew matches, and note the differences. Psalm 132:8–10 appears in 2 Chronicles 6:41–42. Psalm 108 = 57:7–11 + 60:5–12, and 70 = 40:13–17. The writers of the later wave handle 105, 106 and 108. A first-wave writer whose psalm is quoted later quotes as usual.
 
 **Who it was for, and why.** Every psalm gets a settings card, and a long psalm may need more than one. Each card says:
 - who speaks;
@@ -80,12 +80,12 @@ Use `readers` for the collected Psalter's later readers, Israelites after the ex
 - The doxologies that close Books I–IV (41:13, 72:18–19, 89:52, 106:48) use the same English wherever the Hebrew is the same.
 - 'edut/'edot is "decrees" in Psalms (terms.json). Exodus's "the testimony" (the tablets in the ark) is a different use; do not claim the site uses "decrees" in every book.
 - The refrain: "for he is good; / his loyal love is forever" (106:1, 107:1, 118:1, 118:29, as 1 Chronicles 16:34) stays; Psalm 136 keeps "for his loyal love is forever" in every line, its refrain form.
-- When a part quotes a verse of another part, use that part's Plain exactly; the build warns otherwise.
+- When a part quotes a verse of another part, use that part's Plain English Translation exactly; the build warns otherwise.
 - Selah ends the poetic line it follows (`... my glory. Selah`), never a line of its own after " / ".
 - 29:1–2 use "Give the LORD", matching 96:7–8 and 1 Chronicles 16:28–29 (same Hebrew).
 - Each part says once (in its first chapter page or the numbering note) which witnesses the writer checked personally.
 - Traditions cards on the state of the dead or prayer for the dead use top `sheol`.
-- Psalm 70 reuses the site's 40:13–17 Plain wherever the Hebrew is the same (Psalm 40 is the model); differences only where the Hebrew differs, listed in the 70:1 note. 60:9 and 108:10 both say "fortified city".
+- Psalm 70 reuses the site's 40:13–17 Plain English Translation wherever the Hebrew is the same (Psalm 40 is the model); differences only where the Hebrew differs, listed in the 70:1 note. 60:9 and 108:10 both say "fortified city".
 - "The Greek" means the critical Old Greek text (Rahlfs or Göttingen). A reading found only in one codex (Vaticanus, Sinaiticus, Alexandrinus) is named by that codex. No reader-facing text may say "from memory", "not rechecked" or "I have seen it myself"; verify, or write "reported by <source>".
 - Standalone Yah (the short divine name, e.g. 68:4, 77:11, 94:7, 102:18, 115:17–18, 118:5–19, 130:3, 135:4, 150:6) is "Yah", as in the site's Exodus 15:2, with a note at its first use in each part; hallelu-yah stays "Praise the LORD!". Notes typed `spec` must be Claude's own theory; published observations are `com`/`views` with a source.
-- When the same Hebrew appears in two psalms, the earlier psalm's Plain is the model and the later one matches it (38:1 follows 6:1; 36:0 follows 18:0; 71:1–3 follows 31:1–3; chinnam in 69:4 follows 35:19). The exception is 40:13–17 and 70: the 031-041 writer settles 40:13–17 first, using the table in its review, and Psalm 70 then follows it.
+- When the same Hebrew appears in two psalms, the earlier psalm's Plain English Translation is the model and the later one matches it (38:1 follows 6:1; 36:0 follows 18:0; 71:1–3 follows 31:1–3; chinnam in 69:4 follows 35:19). The exception is 40:13–17 and 70: the 031-041 writer settles 40:13–17 first, using the table in its review, and Psalm 70 then follows it.

@@ -31,7 +31,7 @@ Not flagged: "Festival of Unleavened Bread" (26:17) is required by the binding t
 Fix: rebuild these verses from the Greek and update the drift log honestly.
 
 ### 2. Major: binding term for προσκυνέω broken (28:9, 28:17; note on 28:9)
-proposals/nt/terms.json requires "bow down to / bow down before (in every Gospel scene, including ... 28:9, 17)". It allows "worship" only where no bodily act is in view. The Plain has "bowed down to worship him" (28:9) and "bowed down in worship" (28:17), so it adds the interpretation the term rule keeps out. The worship card in this very chapter asks whether this is worship of God, so the Plain should not settle it. The 28:17 gloss, "fell at his feet in worship", also adds "at his feet", which 28:17 does not have.
+proposals/nt/terms.json requires "bow down to / bow down before (in every Gospel scene, including ... 28:9, 17)". It allows "worship" only where no bodily act is in view. The Plain English Translation has "bowed down to worship him" (28:9) and "bowed down in worship" (28:17), so it adds the interpretation the term rule keeps out. The worship card in this very chapter asks whether this is worship of God, so the Plain English Translation should not settle it. The 28:17 gloss, "fell at his feet in worship", also adds "at his feet", which 28:17 does not have.
 Fix: 28:9 "...held on to his feet and bowed down before him"; 28:17 "There they saw him and bowed down before him" (SBL has no object, so "bowed down" alone is also possible). Move "worship" into the note and the card. Re-anchor the note on 28:9 and the gloss on 28:17.
 
 ### 3. Major: Nicene Creed line misapplied (chapters.json 28, traditions card "Is Jesus to be worshiped as God?", Orthodox view)
@@ -134,12 +134,12 @@ The other proposals pass: anti-judaism.json is accurate and fair, with no duplic
 - Otherwise the six cards are fair and the citations check out: Trent 13 "truly, really, and substantially"; Augsburg X, XXII, XVI, IX; Formula of Concord VII; Westminster 29, 29.4, 23.2, 28.4, 8.2, 21.2; Articles 28, 30, 37; Schleitheim 1 and 6; the 1661 Quaker declaration; Baptist Faith and Message VII; Second London Confession 29–30; Catechism 1374–1377, 1390, 1250–1252, 1240, 1256, 2263–2265, 2307–2317; Heidelberg 74; UPCI; the New World Translation's "did obeisance".
 
 ### 23. Minor: quotations that do not match the site's own wording
-- The 27:56 note quotes 13:55 as "James and Joseph and Simon and Judas". The site's Plain reads "James, Joseph, Simon and Judas".
-- The 28:10 note gives Psalm 22:22 (via Hebrews 2:12) as "I will declare your name to my brothers". The site's Plain of Psalm 22:22 reads "I will spread the news of your name to my brothers". Either label the line as Hebrews' Greek or use the Psalm's Plain.
-- The `jesus` topic contribution quotes "lets his spirit go" (27:50). The Plain reads "let his spirit go".
+- The 27:56 note quotes 13:55 as "James and Joseph and Simon and Judas". The site's Plain English Translation reads "James, Joseph, Simon and Judas".
+- The 28:10 note gives Psalm 22:22 (via Hebrews 2:12) as "I will declare your name to my brothers". The site's Plain English Translation of Psalm 22:22 reads "I will spread the news of your name to my brothers". Either label the line as Hebrews' Greek or use the Psalm's Plain English Translation.
+- The `jesus` topic contribution quotes "lets his spirit go" (27:50). The Plain English Translation reads "let his spirit go".
 
 ### 24. Minor: possessive spelling differs from the rest of Matthew
-This part writes "Jesus's" 84 times, including the Plain at 27:32 ("Jesus's cross"). Every other Matthew part writes "Jesus'" (45 to 98 times each).
+This part writes "Jesus's" 84 times, including the Plain English Translation at 27:32 ("Jesus's cross"). Every other Matthew part writes "Jesus'" (45 to 98 times each).
 Fix: use "Jesus'" throughout, or have the lane lead set one style.
 
 ### 25. Minor: a "Claude's theory" box that is not original (topics.json, judas-iscariot `claude`)
@@ -157,7 +157,7 @@ Fix: present it as a traditional reading, or say where it overlaps with publishe
 Fix: cite the homily, or attribute the comment to *Homilies on Matthew* 86.
 
 ### 28. Minor: book.json quotations to fix (for the 01-04 owner)
-The build warns that book.json quotes 27:25 as "His blood be on us and on our children" and 28:19 as "in the name of the Father and of the Son and of the Holy Spirit". This part's Plain reads "His blood on us, and on our children!" and "into the name of...". Pass this to the book.json owner.
+The build warns that book.json quotes 27:25 as "His blood be on us and on our children" and 28:19 as "in the name of the Father and of the Son and of the Holy Spirit". This part's Plain English Translation reads "His blood on us, and on our children!" and "into the name of...". Pass this to the book.json owner.
 
 ### 29. Minor: confusing framing (chapters.json 26, view L)
 "The chapter is framed by two 'handings over': the Son of Man handed over ... (26:2) and Peter's denial ... (26:75)." A denial is not a handing over.
@@ -190,8 +190,8 @@ Caiaphas (Josephus, *Antiquities* 18.35, 95; the 1990 ossuary); Cumanus' Passove
 20. Fixed. Added variants at 27:4 (innocent/righteous), 27:5 (εἰς τὸν ναόν / ἐν τῷ ναῷ), 27:57 (ἐμαθητεύθη / ἐμαθήτευσεν; Tischendorf puts B with the active) and 28:17 ("him"). D is added for "new" at 26:28.
 21. Fixed in proposals/nt/topics/pontius-pilate.json and the topic contribution: "the Ethiopian Church honors him and his wife as saints, and the Coptic tradition once did".
 22. Fixed. Orthodox: Synod of Jerusalem 1672 (Dositheus, decree 17) and μετουσίωσις, new key `dositheus-decree-17`. Catholic cup view: Trent Session 21 ch. 1 ("all of you" said to the apostles). LDS: D&C 20:73 (`doctrine-covenants`) and the CDF 2001 response (new key `cdf-lds-baptism-2001`). Added a Methodist real-presence view (Articles of Religion XVIII; Wesley, *Hymns on the Lord's Supper*, new key `wesley-hymns-lords-supper`).
-23. Fixed. 13:55 is now "James, Joseph, Simon and Judas", Psalm 22:22 is now "I will spread the news of your name to my brothers", and the jesus contribution reads "let his spirit go". The 13:52 quote also now matches the site's Plain.
-24. Fixed. "Jesus'" is used throughout (0 "Jesus's" in the part and in my two proposal topics), including Plain 27:32.
+23. Fixed. 13:55 is now "James, Joseph, Simon and Judas", Psalm 22:22 is now "I will spread the news of your name to my brothers", and the jesus contribution reads "let his spirit go". The 13:52 quote also now matches the site's Plain English Translation.
+24. Fixed. "Jesus'" is used throughout (0 "Jesus's" in the part and in my two proposal topics), including Plain English Translation 27:32.
 25. Fixed. The box now opens by naming the pairing as traditional (Chrysostom; Davies and Allison) and limits the claim to one added observation (whom each man turns to), labeled as building on that tradition.
 26. Fixed. 27:19 has its own card (by Pilate's wife; to Pilate; why: to warn him off), and the 27:15–26 card no longer lists her. 26:14–16 why: "to sell the priests the moment of arrest...". 26:36–46 to: now includes the disciples told to sit while he prays.
 27. Fixed. The deep dive now attributes the reading of 27:25 to Chrysostom's *Homilies on Matthew* 86 and states the Adversus Judaeos point separately. Key `chrysostom-hom-matthew` (identical to the 01-04 definition); `chrysostom-homilies-matthew` is removed.

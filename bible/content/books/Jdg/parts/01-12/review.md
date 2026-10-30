@@ -4,17 +4,17 @@ Reviewer brief: tools/agent-reviewer.md. Build: `node tools/build.js --check Jdg
 
 ## Verdict
 
-The study apparatus is strong. The notes, chapter pages and topics are dense and mostly accurate, and nearly every rabbinic and ancient citation the writer flagged checks out. The Plain English is a different matter. From chapter 1 to chapter 12 it repeatedly reproduces NIV wording: whole clauses, the NIV's distinctive word choices ("held court under the Palm of Deborah", "bread without yeast", "Fire flared", "taught the men of Succoth a lesson", "If only this people were under my command! Then I would get rid of..."), and words the NIV adds that are not in the Hebrew ("the names of", "to fight", "the gold", "already"). Some verses also follow the ESV word for word, and a few join the two. STYLE.md says close matches must be redone, so chapters 1–12 need a fresh drafting pass from the Hebrew before this part can be published. The book.json claim that the Plain was "built line by line from the Hebrew words rather than adapted from another English version" is not true as things stand. Beyond that there are three textual problems: one Greek reading is misreported (1:36), the Greek additions at 2:1 are left out, and the Greek "angel" at 6:14 is not mentioned. One rabbinic source is misattributed (3:20). The dedication reading of Jephthah's vow is not given in its strongest form, and several places state her death as fact. There is also a handful of smaller slips. The set of 25 new source keys is clean.
+The study apparatus is strong. The notes, chapter pages and topics are dense and mostly accurate, and nearly every rabbinic and ancient citation the writer flagged checks out. The Plain English Translation is a different matter. From chapter 1 to chapter 12 it repeatedly reproduces NIV wording: whole clauses, the NIV's distinctive word choices ("held court under the Palm of Deborah", "bread without yeast", "Fire flared", "taught the men of Succoth a lesson", "If only this people were under my command! Then I would get rid of..."), and words the NIV adds that are not in the Hebrew ("the names of", "to fight", "the gold", "already"). Some verses also follow the ESV word for word, and a few join the two. STYLE.md says close matches must be redone, so chapters 1–12 need a fresh drafting pass from the Hebrew before this part can be published. The book.json claim that the Plain English Translation was "built line by line from the Hebrew words rather than adapted from another English version" is not true as things stand. Beyond that there are three textual problems: one Greek reading is misreported (1:36), the Greek additions at 2:1 are left out, and the Greek "angel" at 6:14 is not mentioned. One rabbinic source is misattributed (3:20). The dedication reading of Jephthah's vow is not given in its strongest form, and several places state her death as fact. There is also a handful of smaller slips. The set of 25 new source keys is clean.
 
 Counts: 1 critical, 6 major, 18 minor.
 
 ## Findings
 
-### 1. CRITICAL: the Plain English copies the NIV, and sometimes the ESV, across all twelve chapters
+### 1. CRITICAL: the Plain English Translation copies the NIV, and sometimes the ESV, across all twelve chapters
 **Location:** plain.txt, throughout. The worst cases are listed below.
 **What is wrong:** Many verses match the NIV word for word or nearly so. They often keep the NIV's own additions to the Hebrew and its distinctive vocabulary. Some match the ESV, and a few join the two. These are not just cases where any literal rendering would agree. The giveaway is the shared additions and the shared non-literal word choices. I checked the NIV and ESV texts directly for 3:21, 8:14, 8:26, 9:29 and 9:43; the rest I compared from close knowledge of both versions.
-**Evidence (Plain, then NIV or ESV):**
-- 1:7 "with their thumbs and big toes cut off ... God has paid me back for what I did". NIV: "with their thumbs and big toes cut off ... Now God has paid me back for what I did to them." The Hebrew has no object for "gathering". Plain adds "crumbs", which echoes the NIV's "scraps".
+**Evidence (Plain English Translation, then NIV or ESV):**
+- 1:7 "with their thumbs and big toes cut off ... God has paid me back for what I did". NIV: "with their thumbs and big toes cut off ... Now God has paid me back for what I did to them." The Hebrew has no object for "gathering". Plain English Translation adds "crumbs", which echoes the NIV's "scraps".
 - 1:8 "attacked Jerusalem and took it". NIV: "attacked Jerusalem also and took it".
 - 1:24–25 "Please show us how to get into the town ... So he showed them how to get in. They put the town to the sword". NIV: "Show us how to get into the city ... So he showed them, and they put the city to the sword".
 - 2:10 "who knew neither the LORD nor the work he had done for Israel". NIV: "who knew neither the LORD nor what he had done for Israel".
@@ -89,7 +89,7 @@ Counts: 1 critical, 6 major, 18 minor.
 - 12:9 "to marry outside his clan". NIV: "to those outside his clan". "To marry" and "his clan" are the NIV's additions.
 - Glosses show the same drift. 10:15 "Do whatever you think best with us" is close to the NIV's "Do with us whatever you think best."
 
-**Fix:** Redraft chapters 1–12 from `node tools/literal.js` without any English version open. Then check each verse against the NIV and ESV and change every clause that matches. Remove the NIV's additions: "names of", "to fight", "the gold", "already", "herd", "also", "really", "with her", "to marry outside his clan". Afterwards, re-check every note, gloss and variant anchor, because many anchors will move. Finally, either soften the book.json sentence about how the Plain was made or make it true.
+**Fix:** Redraft chapters 1–12 from `node tools/literal.js` without any English version open. Then check each verse against the NIV and ESV and change every clause that matches. Remove the NIV's additions: "names of", "to fight", "the gold", "already", "herd", "also", "really", "with her", "to marry outside his clan". Afterwards, re-check every note, gloss and variant anchor, because many anchors will move. Finally, either soften the book.json sentence about how the Plain English Translation was made or make it true.
 
 ### 2. MAJOR: the Greek at 1:36 is misreported
 **Location:** variants.json 1:36, reading 1; notes.json 1:36.
@@ -122,7 +122,7 @@ The note also names only Kimchi. Ibn Ezra discusses the "or" reading too, and Ch
 (c) Several places assert her death as fact. book.json: "Jephthah's daughter is sacrificed for her father's vow". Note 1:15: "Jephthah's daughter dies by her father's vow".
 **Fix:** Add the 11:40 "talk with her" sense to the 11:40 note. In chapter 11 deep, give each side its best three arguments with named holders. In book.json and note 1:15, write "is offered up, or on some readings given to lifelong service, because of her father's vow".
 
-### 6. MAJOR: the Plain departs from the Masoretic Text without saying so
+### 6. MAJOR: the Plain English Translation departs from the Masoretic Text without saying so
 **Location:** plain.txt 6:18, 9:44, 11:37, 11:3, 1:7, 11:10.
 **What is wrong:** STYLE requires translating the MT and putting departures in a note or a variant. These places do neither:
 - 6:18 "The LORD said". The Hebrew is <i>vayyomar</i>, "he said", with no subject. The NIV supplies "the LORD"; the note on 6:14 discusses this exact shift between speakers, which makes the silent addition worse. Fix: "He said".
@@ -150,7 +150,7 @@ The note also names only Kimchi. Ibn Ezra discusses the "or" reading too, and Ch
 
 ### 10. MINOR: the Joshua parallels are not consistent with the site's Joshua
 **Location:** plain.txt 2:6–8; notes.json 1:12.
-**What is wrong:** Where the Hebrew is identical, the Plain should match the site's Joshua.
+**What is wrong:** Where the Hebrew is identical, the Plain English Translation should match the site's Joshua.
 - 2:6 "Joshua had sent the people off" is the same Hebrew (<i>vayshallach Yehoshua et-ha'am</i>) that Joshua 24:28 renders "Joshua then let the people go". The note at 2:6 even quotes the Joshua wording.
 - 2:7 "They served him as long as" against Joshua 24:31 "They went on serving him as long as". The Hebrew is identical.
 - 2:8 "He was a hundred and ten years old" against Joshua 24:29 "He had lived a hundred and ten years". The Hebrew is identical.
@@ -159,17 +159,17 @@ The note also names only Kimchi. Ibn Ezra discusses the "or" reading too, and Ch
 
 ### 11. MINOR: Othniel is called Caleb's nephew in some places and his brother in others
 **Location:** chapters.json chapter 3 (sum, views.H); topics.json caleb.
-**What is wrong:** The Plain (1:13; 3:9) and note 1:13 render "Caleb's younger brother" and present nephew as one of two readings. Chapter 3 and the caleb topic state "Caleb's nephew" as fact.
+**What is wrong:** The Plain English Translation (1:13; 3:9) and note 1:13 render "Caleb's younger brother" and present nephew as one of two readings. Chapter 3 and the caleb topic state "Caleb's nephew" as fact.
 **Fix:** Write "Caleb's younger brother (or nephew; see 1:13)".
 
 ### 12. MINOR: barbs and thorns at 2:3, and the site's Numbers 33:55
 **Location:** plain.txt 2:3; variants.json 2:3 `why`; notes.json 2:3.
-**What is wrong:** The Plain has "barbs in your sides", taken from the site's Numbers 33:55, "thorns in your eyes and barbs in your sides". The Hebrew of Numbers 33:55 is the other way round: <i>lesikkim be'enekhem velitsninim betsiddekhem</i>, barbs in the eyes and thorns in the sides. The variant's `why` field says "thorns in your sides", so the part contradicts itself.
+**What is wrong:** The Plain English Translation has "barbs in your sides", taken from the site's Numbers 33:55, "thorns in your eyes and barbs in your sides". The Hebrew of Numbers 33:55 is the other way round: <i>lesikkim be'enekhem velitsninim betsiddekhem</i>, barbs in the eyes and thorns in the sides. The variant's `why` field says "thorns in your sides", so the part contradicts itself.
 **Fix:** Use "thorns in your sides" in 2:3, and make the note and the variant agree. Tell the Numbers writer that their 33:55 swaps the two nouns.
 
 ### 13. MINOR: the 7:8 emendation is described wrongly
 **Location:** notes.json 7:8.
-**What is wrong:** The note says that "with a small change of vowels" <i>tsedah</i> becomes <i>kaddei</i>, "jars". These words differ in their consonants, not their vowels. The note also does not mention that the Plain makes "the three hundred" the subject where the Hebrew has "the people".
+**What is wrong:** The note says that "with a small change of vowels" <i>tsedah</i> becomes <i>kaddei</i>, "jars". These words differ in their consonants, not their vowels. The note also does not mention that the Plain English Translation makes "the three hundred" the subject where the Hebrew has "the people".
 **Fix:** "With a change of letters (<i>kaddei</i> for <i>tsedat</i>)...". Add one sentence on who "the people" are.
 
 ### 14. MINOR: overstatements about Rahlfs and the Greek of Judges
@@ -205,7 +205,7 @@ The note also names only Kimchi. Ibn Ezra discusses the "or" reading too, and Ch
 ### 19. MINOR: book.json
 - Prompts: STYLE asks for "sketched-on-a-scroll style (ancient manuscript, cave drawing and modern art mixed; soft edges, never a hard rectangle)". The prompts ask for "realistic" scenes and invent details ("a woman in her forties"). Fix: rewrite them in the house style.
 - Lead: "The book follows twelve of them, from Othniel to Samson, along with Deborah the prophet..." This reads as though Deborah were outside the twelve. Fix: "...twelve of them, among them Deborah the prophet...".
-- Lens L quotes the refrain as "'everyone did what was right in their own eyes'". The Plain reads "Everyone did what looked right in his own eyes" (17:6; 21:25). Fix: quote the Plain.
+- Lens L quotes the refrain as "'everyone did what was right in their own eyes'". The Plain English Translation reads "Everyone did what looked right in his own eyes" (17:6; 21:25). Fix: quote the Plain English Translation.
 - "No book of the Bible gives more space to women" is a superlative that cannot be defended against Ruth, Esther or Genesis. Fix: "Few books give more space to women".
 - See finding 1 on "built line by line from the Hebrew words".
 
@@ -218,7 +218,7 @@ The note also names only Kimchi. Ibn Ezra discusses the "or" reading too, and Ch
 **What is wrong:** The ethical question gets one sentence ("debated whether God approved"). The strongest defense is not stated. The LORD "raised him up" as a rescuer (3:15). This was a war of liberation against an occupying king who held tribute. Ancient Israel, like other cultures, allowed deceit against enemies in war (compare the midwives in Exodus 1 and Rahab in Joshua 2). The strongest critique is not stated either: Ehud uses God's name as bait (3:20). Nor is it said who holds which view.
 **Fix:** Add a short `views` note on 3:21 that gives both cases with named holders: Calvin on Ehud's special calling, against modern critics such as Lillian Klein and Susan Niditch.
 
-### 22. MINOR: awkward or ambiguous English in the Plain
+### 22. MINOR: awkward or ambiguous English in the Plain English Translation
 - 2:17 "They did not do the same." It is unclear the same as what. Fix: "They did not do as their ancestors had done."
 - 12:14 "Forty sons and thirty grandsons were his." This is inverted. Fix: "He had forty sons and thirty grandsons, who rode..."
 - 5:11 "Hear the voices of..." "Hear" is not in the Hebrew (<i>miqqol</i>, "from the sound of"). Fix: "Louder than the voices of..." or "At the sound of...", with the note.
@@ -293,7 +293,7 @@ These were checked against the sources, on the web where possible:
 
 Fix round by the part 01-12 writer. All 25 findings were addressed; parts of two (12 and 15) and one sub-point of 22 are declined, with reasons below. Final counts: 375 verses, 233 notes, 18 variants, 122 glosses, 12 chapter pages, 32 topic contributions. `--check Jdg/01-12`: 0 errors, 0 warnings. `--check Jdg`: 0 errors, 0 warnings (618 verses). Full build: 0 errors (98 warnings, none in Judges).
 
-1. **Critical (Plain copies NIV/ESV).** Fixed. Every verse listed was rebuilt from `node tools/literal.js Jdg <ch>`, with a new sentence shape. Then the drift audit from tools/agent-writer.md was run on all 375 verses of chapters 1–12: for each verse I wrote what I recall of the NIV and ESV and rebuilt the verse if it had a 5-word run that the Hebrew does not force, words the Hebrew lacks, or an NIV/ESV interpretive choice. **165 of 375 verses were changed** (per chapter, changed/audited: 1: 17/36, 2: 12/23, 3: 16/31, 4: 10/24, 5: 12/31, 6: 20/40, 7: 11/25, 8: 16/35, 9: 16/57, 10: 7/18, 11: 20/40, 12: 8/15). Examples: 4:5 "the Israelites would go up to her for judgment"; 6:21 "the meat and the flat bread"; 8:16 "with them he made the men of Succoth learn"; 9:29 "Then I would remove Abimelech"; 3:29 "every one of them fat and strong". Where a verse repeats Joshua (1:28 = Joshua 17:13; 2:6–9 = Joshua 24:28–31), it now matches the site's Joshua wording. 68 note anchors and 57 gloss anchors were remapped to the new wording, and every note, chapter page, topic and book.json quote of a changed verse was updated. book.json's "built line by line from the Hebrew words rather than adapted from another English version" now reads "drafted from a word-by-word gloss of the Hebrew and then checked verse by verse against other English versions, and redrafted wherever it followed one of them too closely", which describes what was done.
+1. **Critical (Plain English Translation copies NIV/ESV).** Fixed. Every verse listed was rebuilt from `node tools/literal.js Jdg <ch>`, with a new sentence shape. Then the drift audit from tools/agent-writer.md was run on all 375 verses of chapters 1–12: for each verse I wrote what I recall of the NIV and ESV and rebuilt the verse if it had a 5-word run that the Hebrew does not force, words the Hebrew lacks, or an NIV/ESV interpretive choice. **165 of 375 verses were changed** (per chapter, changed/audited: 1: 17/36, 2: 12/23, 3: 16/31, 4: 10/24, 5: 12/31, 6: 20/40, 7: 11/25, 8: 16/35, 9: 16/57, 10: 7/18, 11: 20/40, 12: 8/15). Examples: 4:5 "the Israelites would go up to her for judgment"; 6:21 "the meat and the flat bread"; 8:16 "with them he made the men of Succoth learn"; 9:29 "Then I would remove Abimelech"; 3:29 "every one of them fat and strong". Where a verse repeats Joshua (1:28 = Joshua 17:13; 2:6–9 = Joshua 24:28–31), it now matches the site's Joshua wording. 68 note anchors and 57 gloss anchors were remapped to the new wording, and every note, chapter page, topic and book.json quote of a changed verse was updated. book.json's "built line by line from the Hebrew words rather than adapted from another English version" now reads "drafted from a word-by-word gloss of the Hebrew and then checked verse by verse against other English versions, and redrafted wherever it followed one of them too closely", which describes what was done.
 2. **1:36.** Fixed. Reading 0 is now the MT with the Septuagint B text, Targum and Vulgate. Reading 1 is the A text, <i>καὶ τὸ ὅριον τοῦ Αμορραίου ὁ Ιδουμαῖος</i>, with plain "The border of the Amorites, the Edomites,". The `why` explains the doublet as an early correction and names Moore and Boling. The note was updated to match. (Checked against Rahlfs A on sacred-texts.)
 3. **2:1.** Fixed. A new variant, anchored on "I am the one who brought you up from Egypt", has three readings: the MT; the B text <i>τάδε λέγει κύριος ἀνεβίβασα ὑμᾶς</i>; and the A text <i>κύριος κύριος ἀνεβίβασεν ὑμᾶς</i>. The 2:1 views note now says that the Greek, like the Targum, has the messenger quote God. One correction to the review: in Rahlfs only the A text adds <i>τοῦ δοῦναι ὑμῖν</i> ("to give you"). The B text has <i>ἣν ὤμοσα τοῖς πατράσιν ὑμῶν</i> without it. The entry says so.
 4. **3:20.** Fixed with the reviewer's wording: Sanhedrin 60a for respect; Ruth Rabbah 2:9 for the reward; Nazir 23b for the Balak line. Sources are now `bavli-sanhedrin`, `ruth-rabbah` (an existing key, from Rut) and `bavli-nazir`. Chapter 3's J view now cites only Ruth Rabbah 2:9.
@@ -304,7 +304,7 @@ Fix round by the part 01-12 writer. All 25 findings were addressed; parts of two
    - Note 11:40 adds Kimchi's "to talk with / console her".
    - Chapter 11 deep gives each side three arguments with named holders. Its "dedication" reading and the jephthah and vows topics name the holders too.
    - book.json ("Women in Judges") and note 1:15 now say she "is offered up, or on some readings given to lifelong service, because of her father's vow". book.json's leadership section says "a vow that costs him his daughter". The Claude theory in the jephthah topic no longer assumes her death.
-6. **Plain departures from the MT.** Fixed.
+6. **Plain English Translation departures from the MT.** Fixed.
    - 6:18 "He said".
    - 9:44 "the companies with him", plural as in the MT.
    - 11:37 "go down into the hills", with a new note on the emendation to <i>rud</i>.
@@ -316,8 +316,8 @@ Fix round by the part 01-12 writer. All 25 findings were addressed; parts of two
 9. **Shechem temple.** Fixed. Note 9:46 now gives the Middle Bronze dating, Wright's Late Bronze phase, and Stager's Iron I re-dating; it cites the new key `stager-shechem-temple` (BAR 29:4, 2003, in parts/01-12/sources.json). The shechem topic has the same point. Chapter 9 H now says "fits", and adds that the temple's date is disputed.
 10. **Joshua parallels.** Fixed. 2:6 "Joshua then let the people go"; 2:7 "They went on serving him as long as"; 2:8 "He had lived a hundred and ten years". The real Hebrew differences are kept. Note 1:12 now says "Judges adds 'younger'".
 11. **Othniel.** Fixed. Chapter 3 (sum, H) and the caleb topic now say "Caleb's younger brother (or nephew; see 1:13)".
-12. **2:3 barbs/thorns.** Partly declined, on the coordinator's direction. The Plain keeps "barbs in your sides" so that the verse echoes the site's Numbers 33:55 exactly. The variant `why` and the note now agree with it: the `why` says "barbs in your sides" in the site's Plain English, and the note explains that the Hebrew of Numbers 33:55 has <i>sikkim</i> (barbs) in the eyes and <i>tsninim</i> (thorns) in the sides. The swap in the site's Numbers 33:55 has been reported to the coordinator for the Numbers writer. Judges does not change it.
-13. **7:8.** Fixed in the first pass of this round: the note now says "change of letters (<i>kaddei</i> for <i>tsedat</i>)" and explains who "they" are. The Plain now keeps the unstated subject: "They took the people's food".
+12. **2:3 barbs/thorns.** Partly declined, on the coordinator's direction. The Plain English Translation keeps "barbs in your sides" so that the verse echoes the site's Numbers 33:55 exactly. The variant `why` and the note now agree with it: the `why` says "barbs in your sides" in the site's Plain English Translation, and the note explains that the Hebrew of Numbers 33:55 has <i>sikkim</i> (barbs) in the eyes and <i>tsninim</i> (thorns) in the sides. The swap in the site's Numbers 33:55 has been reported to the coordinator for the Numbers writer. Judges does not change it.
+13. **7:8.** Fixed in the first pass of this round: the note now says "change of letters (<i>kaddei</i> for <i>tsedat</i>)" and explains who "they" are. The Plain English Translation now keeps the unstated subject: "They took the people's food".
 14. **Rahlfs.** Fixed. The 5:2 `b` now says "Rahlfs prints the whole book in both forms; here they differ in meaning", and the topic says "one of the books where".
 15. **10:12.** Checked and declined. Rahlfs B (as printed at sacred-texts, jdb010) reads <i>καὶ Σιδωνίων καὶ Αμαληκ καὶ Μαδιαμ</i>, so both texts have Μαδιαμ and Χανααν is not in Rahlfs B. The entry keeps "A and B texts". It now adds that the two texts give the names in a different order, and the note says "Both Greek texts".
 16. **Terms.** Fixed. There is a new 'eved note at 2:8 ("Servant of the LORD"). 11:24 reads "has driven out", and 6:13 reads "Our ancestors". There is a new note at 1:1 on "the LORD" that points to the book introduction.

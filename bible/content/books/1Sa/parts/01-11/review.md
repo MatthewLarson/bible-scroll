@@ -6,7 +6,7 @@ this part uses. Parts 12-20 and 21-31 were not reviewed, except where this part'
 
 ## Verdict
 
-This is a strong part. All 248 verses were compared with `node tools/literal.js 1Sa <ch>`, and the Plain is close to the
+This is a strong part. All 248 verses were compared with `node tools/literal.js 1Sa <ch>`, and the Plain English Translation is close to the
 Hebrew. It keeps word plays such as *sha'al* and *kaved*, sets Hannah's song in poetic lines, and its NIV/ESV drift is low.
 I checked well-known verses against what I recall of the NIV and ESV, and found only a handful of residues, so the drift
 claim mostly holds up. The audit log that is supposed to support it, though, is boilerplate and cannot be checked (finding 10).
@@ -20,7 +20,7 @@ readings that the writer was unsure of, or did not look for:
 
 The Greek at 2:11 is also misreported. Two cross-book problems need fixing:
 - The new term *nagid* = "ruler" is already broken by the other two parts, and the book page claims it is consistent.
-- The Plain flattens the "listen to the voice" refrain of chapter 8, though book.json's own spec box rests on *shama'*.
+- The Plain English Translation flattens the "listen to the voice" refrain of chapter 8, though book.json's own spec box rests on *shama'*.
 
 The book page's "history" section states the Philistine iron monopoly as an archaeological fact, which it is not, and it
 overstates what the inscriptions confirm. Fairness is good on Hannah and the Magnificat, though it misses the key verbal
@@ -68,7 +68,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 
 ### 1. Major: 2:31–32 have no variant entry, though 4QSam-a and the Greek lack much of them
 - **Location:** `variants.json` (missing); `notes.json` 2:32 "A hard verse"; `plain.txt` 2:31–32.
-- **Problem:** The Plain prints the full Masoretic Text of 2:31b and 2:32, and the only comment is a note saying "much of it
+- **Problem:** The Plain English Translation prints the full Masoretic Text of 2:31b and 2:32, and the only comment is a note saying "much of it
   is missing from many Greek manuscripts." That is vague, and it is not where the reader can switch readings.
 - **Evidence:** 4QSam-a lacks 2:31b, "so that there will be no old man in your house." Both 4QSam-a and LXX(B) lack 2:32a,
   וְהִבַּטְתָּ צַר מָעוֹן בְּכֹל אֲשֶׁר־יֵיטִיב אֶת־יִשְׂרָאֵל. They keep 2:32b, "there will not be an old man in your house
@@ -110,7 +110,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 ### 4. Major: The Greek of 2:11 is misreported, and its original-language text is empty
 - **Location:** `variants.json` 2:11 "Who went home?"
 - **Problem:** The `p` says the Greek reads "And she left him there before the LORD and went away to Armathaim," and the
-  alternate Plain is "She left him there ... and went away to Ramah." The Greek reading's `orig` is literally `None`.
+  alternate Plain English Translation is "She left him there ... and went away to Ramah." The Greek reading's `orig` is literally `None`.
 - **Evidence:** Rahlfs reads Καὶ κατέλιπον αὐτὸν ἐκεῖ ἐνώπιον κυρίου καὶ ἀπῆλθον εἰς Αρμαθαιμ: plural, "they left ... they
   went away." The "she" reading is the 4QSam-a reading at 1:28, ותעזבהו, not the Greek of 2:11.
 - **Fix:**
@@ -122,7 +122,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 
 ### 5. Major: Chapter 8 flattens the "listen to the voice" refrain, which the book's own spec box depends on
 - **Location:** `plain.txt` 8:7, 8:9, 8:22, compared with 8:19.
-- **Problem:** The Plain has God say "Do what the people say" (8:7), "So do what they say" (8:9) and "Do what they say"
+- **Problem:** The Plain English Translation has God say "Do what the people say" (8:7), "So do what they say" (8:9) and "Do what they say"
   (8:22). Only 8:19 keeps "The people would not listen to Samuel's voice." STYLE says to "keep the original's ... repetitions
   ... where English can carry them," and English can carry this one.
 - **Evidence:** The Hebrew uses the same phrase four times: שְׁמַע בְּקוֹל הָעָם (8:7), שְׁמַע בְּקוֹלָם (8:9, 8:22),
@@ -137,7 +137,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 ### 6. Major: The new term nagid = "ruler" is already broken in the other parts, and two notes claim it is consistent
 - **Location:**
   - `content/terms.json` entry `nagid`.
-  - `notes.json` 9:16 "Ruler, not king": "for David (13:14; 2 Samuel 5:2; 2 Samuel 7:8) ... The Plain keeps 'ruler' for
+  - `notes.json` 9:16 "Ruler, not king": "for David (13:14; 2 Samuel 5:2; 2 Samuel 7:8) ... The Plain English Translation keeps 'ruler' for
     *nagid*."
   - book.json "About the translations": "nagid is 'ruler'."
 - **Problem:** The claim of consistency is false within this same book.
@@ -156,7 +156,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
   example, which is in chapter 1, not chapter 2.
 - **Evidence:** In the Greek, Hannah prays ἐὰν ἐπιβλέπων ἐπιβλέψῃς ἐπὶ τὴν ταπείνωσιν τῆς δούλης σου (1:11), and Mary sings
   ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ (Luke 1:48). The verb, the noun "lowliness" and "his servant" are the
-  same. It is the strongest single link between the two women, and the Plain's own wording, "look at the misery of your
+  same. It is the strongest single link between the two women, and the Plain English Translation's own wording, "look at the misery of your
   servant," carries it.
 - **Fix:** Add an `echo` note at 1:11 anchored on "look at the misery of your servant," citing Luke 1:48. In the chapter 2
   deep section, replace "borrows words" with this example and with 2:7–8 and Luke 1:52.
@@ -214,11 +214,11 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 - 6:20 "Where can it go up from here, and to whom?": "Where" is added. Use "To whom will it go up from us?"
 - 2:10 "The LORD rules the ends of the earth as judge" adds "rules." Use "The LORD will judge the ends of the earth."
 
-### 12. Minor: 6:18 reads poorly, and the topic contradicts the Plain
+### 12. Minor: 6:18 reads poorly, and the topic contradicts the Plain English Translation
 - **Location:** `plain.txt` 6:18; `variants.json` 6:18; `topics.json` standing-stones.
 - **Problem:** The sentence "The gold mice were as many as all the towns ... as far as the big stone where they set down the
   LORD's ark" makes a stone the far end of a list of towns. The standing-stones section says the stone "also served as a
-  witness." That is the reading of עֵד ("witness") for עַד ("as far as"), which the Plain does not follow.
+  witness." That is the reading of עֵד ("witness") for עַד ("as far as"), which the Plain English Translation does not follow.
 - **Fix:** Either adopt the common emendation, "The big stone, on which they set down the LORD's ark, is a witness to this
   day in the field of Joshua the Beth-shemeshite," and add the עֵד/עַד point to the variant, or drop "witness" from the
   topic. Also split the verse: at 38 words it is too long for the reading level.
@@ -244,7 +244,7 @@ fix is for the owner of `lot.json` (or the coordinator) to remove "Ammonites" fr
 These do not all need their own entries, but several are footnoted in major English translations:
 - **2:27:** "belonging to Pharaoh's household." 4QSam-a and the Greek add "slaves" (עבדים; δούλων): "slaves to Pharaoh's
   house." The NRSV and ESV follow it, so it needs an entry.
-- **2:31:** "your arm" (זְרֹעֲךָ). The Greek reads "your seed" (τὸ σπέρμα σου, from זרעך). Worth an entry, since the Plain
+- **2:31:** "your arm" (זְרֹעֲךָ). The Greek reads "your seed" (τὸ σπέρμα σου, from זרעך). Worth an entry, since the Plain English Translation
   and its gloss build on "arm."
 - **6:3:** "you will find out why." 4QSam-a and the Greek appear to read "and atonement will be made for you" (ונכפר לכם;
   ἐξιλασθήσεται ὑμῖν). Verify in DJD 17 and add an entry.
@@ -263,7 +263,7 @@ These do not all need their own entries, but several are footnoted in major Engl
 - **Location:** `variants.json` 2:22.
 - **Problem:** The entry says "The shorter text is very likely older" and "Most text critics ... regard the clause as a
   later addition," yet it follows the Masoretic Text "because it is the text most readers know." Elsewhere the part follows
-  4QSam-a with the Greek on weaker evidence (2:20, 2:33). The Plain must be consistent in method.
+  4QSam-a with the Greek on weaker evidence (2:20, 2:33). The Plain English Translation must be consistent in method.
 - **Fix:** Either follow the shorter text (reading "") and keep the clause as the alternate, or give a text-critical reason
   for keeping it, not familiarity.
 
@@ -388,7 +388,7 @@ These do not all need their own entries, but several are footnoted in major Engl
 ### 33. Minor: Undebated renderings that need a note
 - **2:24:** מַעֲבִרִים עַם־יְהוָה is rendered "passing around." The KJV and many commentators take it as "you make the LORD's
   people transgress." It needs a `deb` note.
-- **2:12–13:** The Masoretic accents join "the custom of the priests with the people" to 2:13, which the Plain follows. The
+- **2:12–13:** The Masoretic accents join "the custom of the priests with the people" to 2:13, which the Plain English Translation follows. The
   BSB and others join it to 2:12: "they did not know the LORD or the priests' due." The 2:13 note could mention this in a
   sentence.
 
@@ -404,13 +404,13 @@ These do not all need their own entries, but several are footnoted in major Engl
 Applied by the part 01-11 writer, 2026-10-23. All findings were accepted, except for the partial rejections noted at 2, 6, 12 and 16.
 
 1. **2:31–32.** Added three variants:
-   - 2:31a: "arm" against the Greek's "seed". The Plain keeps the Hebrew.
-   - 2:31b: 4QSam-a lacks the line. The Plain keeps the Hebrew, since the Greek supports it.
-   - 2:32: 4QSam-a and LXX(B) lack 2:32a. The Plain now **follows the shorter text**: two witnesses agree, and the line is an obscure doublet of 2:31b.
+   - 2:31a: "arm" against the Greek's "seed". The Plain English Translation keeps the Hebrew.
+   - 2:31b: 4QSam-a lacks the line. The Plain English Translation keeps the Hebrew, since the Greek supports it.
+   - 2:32: 4QSam-a and LXX(B) lack 2:32a. The Plain English Translation now **follows the shorter text**: two witnesses agree, and the line is an obscure doublet of 2:31b.
 
    Each `p` says the entries go together. The 2:32 note is rewritten and re-anchored, and it names the witnesses exactly.
 2. **11:8.** Added 4QSam-a's seventy thousand for Judah as its own reading. Josephus's 700,000 and 70,000 (Antiquities 6.78) are named. `why` is rewritten to say the case is close.
-   - Partly rejected: the Plain still keeps the Masoretic numbers. The scroll's figure for Israel is lost and the Greek's 600,000 looks inflated, so following the scroll would mean building a mixed count from a damaged scroll and an inflated Greek total.
+   - Partly rejected: the Plain English Translation still keeps the Masoretic numbers. The scroll's figure for Israel is lost and the Greek's 600,000 looks inflated, so following the scroll would mean building a mixed count from a damaged scroll and an inflated Greek total.
 3. **4QSam-a "ninety-eight" at 2:22.** Added as a new entry, which keeps the Hebrew. The 4:15 entry now states the facts: Rahlfs (B) has "ninety", and the Hebrew and 4QSam-a have ninety-eight.
 4. **2:11.**
    - The Greek `orig` is filled in with the plural, and `p`, `en` and `plain` now read "They left him there ... and went away."
@@ -437,7 +437,7 @@ Applied by the part 01-11 writer, 2026-10-23. All findings were accepted, except
       - Psalm 78:60–61 and Luke 1:53 are now quoted from literal.js wording.
     - Rewrote the drift-audit log as a real record. The old boilerplate log is kept beside it as drift-audit.original-boilerplate.txt, and **its count of 194 is withdrawn**. The new log is at /tmp/claude-0/-home-user/73d75830-9c6c-5165-83cd-5d43110d5bc5/scratchpad/1sa-01-11/drift-audit.txt.
     - Totals in the new log:
-      - 85 verses were audited against wording I could recall, giving the recalled wording, then the Plain, then the action.
+      - 85 verses were audited against wording I could recall, giving the recalled wording, then the Plain English Translation, then the action.
       - 15 of them were changed in this round.
       - 61 already differ in wording and shape.
       - 9 were kept close for a stated reason, such as literal Hebrew or a fixed formula.
@@ -459,14 +459,14 @@ Applied by the part 01-11 writer, 2026-10-23. All findings were accepted, except
 14. **"Coin".** 2:36 now reads "a bit of silver". The 9:8 gloss is now "a small piece of silver, about 3 grams".
 15. **Long sentences.** 1:11, 6:18 and 11:7 are split. 1:11 is still one conditional, but now in two clauses.
 16. **Smaller variants.**
-    - Added entries for 2:27 (the Plain now **follows 4QSam-a and LXX "slaves"**), 2:31, 6:3, 9:16 and the Greek plus at 3:21.
+    - Added entries for 2:27 (the Plain English Translation now **follows 4QSam-a and LXX "slaves"**), 2:31, 6:3, 9:16 and the Greek plus at 3:21.
     - The 3:21 note now points to that entry.
     - The 1:11 entry now notes the scroll's probable support, with the weaker basis stated, and the Greek "as a gift until the day of his death".
     - The 1:24 entry mentions "and bread".
     - Partly rejected:
       - 2:17 and 2:24 did not get entries.
       - At 6:3 the scroll's reading is reported but not relied on, since I could not verify it.
-17. **2:22 consistency.** The Plain now **follows the shorter text**, without the clause about the women. The reason is text-critical: two witnesses lack it, its wording is borrowed from Exodus 38:8, and it uses "tent of meeting" where these chapters say "temple". The old note on the clause has been folded into the variant.
+17. **2:22 consistency.** The Plain English Translation now **follows the shorter text**, without the clause about the women. The reason is text-critical: two witnesses lack it, its wording is borrowed from Exodus 38:8, and it uses "tent of meeting" where these chapters say "temple". The old note on the clause has been folded into the variant.
 18. **10:27 reason.** The invented trigger is removed. The entry now says the loss is generally taken as a scribe's accident whose trigger is debated (Cross; Tov), and it gives both restorations of the damaged clause.
 19. **3:4 note.** The count of "Here I am" is corrected.
 20. **Philistine cities.**

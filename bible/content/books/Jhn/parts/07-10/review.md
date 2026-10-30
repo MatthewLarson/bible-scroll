@@ -4,7 +4,7 @@ Reviewer: hostile reviewer (nt lane), 2026-10-24. Checked: plain.txt verse by ve
 
 ## Verdict
 
-The part is good on substance. The research is broad and mostly accurate. 7:53–8:11 is translated faithfully from the NA28 form in TAGNT, with honest headings and a solid evidence section. The "I am" sayings at 8:24, 28 and 58 are handled correctly. The treatment of "the Jews" and of 8:44 is fair and does not soften the text. The six traditions cards are mostly fair and sourced. It cannot be published as it stands, for four reasons. (1) It breaks a binding term: σκηνοπηγία must be "the Festival of Shelters", never "Feast of Booths". The part also uses the ESV's "feast" for ἑορτή, while every other part of John says "festival". (2) Modern-version wording is still in the text. 8:25 is word for word the NRSV, and about twenty more verses follow the NIV or ESV where the Greek does not force it. (3) Several manuscript and edition claims are wrong. SBLGNT does not print 7:53–8:11, and THGNT puts it in the apparatus, not after John 21. THGNT is listed under the wrong reading at 7:39. The witness lists at 9:4 contradict each other. The 10:29 entry translates a reading that no edition prints. (4) At 8:38 the Plain settles a debated reading while its note says it leaves the question open. None of these is hard to fix.
+The part is good on substance. The research is broad and mostly accurate. 7:53–8:11 is translated faithfully from the NA28 form in TAGNT, with honest headings and a solid evidence section. The "I am" sayings at 8:24, 28 and 58 are handled correctly. The treatment of "the Jews" and of 8:44 is fair and does not soften the text. The six traditions cards are mostly fair and sourced. It cannot be published as it stands, for four reasons. (1) It breaks a binding term: σκηνοπηγία must be "the Festival of Shelters", never "Feast of Booths". The part also uses the ESV's "feast" for ἑορτή, while every other part of John says "festival". (2) Modern-version wording is still in the text. 8:25 is word for word the NRSV, and about twenty more verses follow the NIV or ESV where the Greek does not force it. (3) Several manuscript and edition claims are wrong. SBLGNT does not print 7:53–8:11, and THGNT puts it in the apparatus, not after John 21. THGNT is listed under the wrong reading at 7:39. The witness lists at 9:4 contradict each other. The 10:29 entry translates a reading that no edition prints. (4) At 8:38 the Plain English Translation settles a debated reading while its note says it leaves the question open. None of these is hard to fix.
 
 Counts: 1 critical, 7 major, 17 minor.
 
@@ -12,13 +12,13 @@ Counts: 1 critical, 7 major, 17 minor.
 
 ### 1. Critical: binding term broken; ESV festival vocabulary throughout
 - **Location:** plain.txt 7:2, 7:8 (twice), 7:10, 7:11, 7:14, 7:37, 10:22; section headings "Teaching at the Feast of Booths" and the 10:22 heading; notes 7:2 (t "The Feast of Booths"), 7:14, 7:37, 8:12, 10:22; glosses 7:2, 7:37; chapters.json sums, readings, deep "The Feast of Booths in Jesus' day", settings `when` fields; topics.json feast-of-booths section heading.
-- **Problem:** content/proposals/nt/terms.json requires `ἡ σκηνοπηγία (John 7:2)` → "the Festival of Shelters (Sukkot; never 'Feast of Booths' or 'Tabernacles' in the Plain; note gives those names)". The Plain says "the Feast of Booths". That is the ESV's exact name, and the ESV also has "Feast of Dedication" at 10:22. The other terms point to "festival" for ἑορτή ("the Festival of Unleavened Bread"). Every other part of John already uses "festival": 2:23, 4:45, 5:1 ("a festival of the Jews"), 6:4, 11:56, 12:12, 12:20, 13:1, 13:29. Here 7:2 reads "a feast of the Jews", which sits badly against 5:1, and 2:8–9 uses "feast" for a wedding banquet. The term entry was saved at 10:31, five minutes after this part's last write (10:26), so the writer may not have seen it. It binds all the same.
+- **Problem:** content/proposals/nt/terms.json requires `ἡ σκηνοπηγία (John 7:2)` → "the Festival of Shelters (Sukkot; never 'Feast of Booths' or 'Tabernacles' in the Plain English Translation; note gives those names)". The Plain English Translation says "the Feast of Booths". That is the ESV's exact name, and the ESV also has "Feast of Dedication" at 10:22. The other terms point to "festival" for ἑορτή ("the Festival of Unleavened Bread"). Every other part of John already uses "festival": 2:23, 4:45, 5:1 ("a festival of the Jews"), 6:4, 11:56, 12:12, 12:20, 13:1, 13:29. Here 7:2 reads "a feast of the Jews", which sits badly against 5:1, and 2:8–9 uses "feast" for a wedding banquet. The term entry was saved at 10:31, five minutes after this part's last write (10:26), so the writer may not have seen it. It binds all the same.
 - **Evidence:** 7:2 ἡ ἑορτὴ τῶν Ἰουδαίων ἡ σκηνοπηγία; 10:22 τὰ ἐγκαίνια.
 - **Fix:** 7:2 "a festival of the Jews was coming near, the Festival of Shelters"; "festival" for every ἑορτή (7:2, 8, 10, 11, 14, 37); 10:22 "the Festival of Dedication". The note on 7:2 should give "Booths", "Tabernacles" and "Sukkot", as the term asks. Update anchors and every prose mention in notes, glosses, chapters, settings and topics. The topic id `feast-of-booths` can stay as an id.
 
 ### 2. Major: 8:25 is word for word the NRSV
 - **Location:** plain.txt 8:25.
-- **Problem:** The Plain reads "...'Who are you?' Jesus said to them, 'Why do I speak to you at all?'" That is the NRSV verse word for word, except for an opening "So". STYLE.md bans the NRSV like the NIV and ESV. The question reading is fine and follows the SBL punctuation. The wording is the problem.
+- **Problem:** The Plain English Translation reads "...'Who are you?' Jesus said to them, 'Why do I speak to you at all?'" That is the NRSV verse word for word, except for an opening "So". STYLE.md bans the NRSV like the NIV and ESV. The question reading is fine and follows the SBL punctuation. The wording is the problem.
 - **Evidence:** Τὴν ἀρχὴν ὅ τι καὶ λαλῶ ὑμῖν; (SBL). NRSV 8:25 as printed at biblestudytools.com/nrs/john/8-25.html.
 - **Fix:** Rebuild the sentence from the Greek, for example "Why am I even talking to you?" or "Why should I speak to you at all?" Move the note anchor (`a`: "Why do I speak to you at all?") with it.
 
@@ -49,9 +49,9 @@ This part rebuilt fewer verses than the other parts of John, and it shows. I com
 
 ### 4. Major: 10:29 translates a reading that no edition prints, and the variant entry misdescribes the readings
 - **Location:** plain.txt 10:29; variants.json 10:29.
-- **Problem:** The Plain reads "My Father, the one who gave them to me, is greater than all". That is the reading ὅς ... μείζων of P66, the Byzantine text and the TR. The entry says the Plain follows SBL and THGNT. Their text is ὃ ... μείζων, with a neuter relative, and TAGNT confirms `ὃ` NnSYWG and `μεῖζόν` NnWG. In that reading ὃ is the object of δέδωκεν ("My Father, as to what he has given me, is greater than all"), so it does not mean "who". The entry's R0 has the orig ὃ ... μείζων with the English "who has given", and it adds P66/Byz/TR's ὅς in the witness note. That merges two readings into one. The reading of Codex Alexandrinus, ὅς ... μεῖζον, is missing. Burgon's survey lists ὅς ... μεῖζον for A (and X), ὃ ... μείζων for ℵ L, and ὃ ... μεῖζον for B alone with the Latin.
+- **Problem:** The Plain English Translation reads "My Father, the one who gave them to me, is greater than all". That is the reading ὅς ... μείζων of P66, the Byzantine text and the TR. The entry says the Plain English Translation follows SBL and THGNT. Their text is ὃ ... μείζων, with a neuter relative, and TAGNT confirms `ὃ` NnSYWG and `μεῖζόν` NnWG. In that reading ὃ is the object of δέδωκεν ("My Father, as to what he has given me, is greater than all"), so it does not mean "who". The entry's R0 has the orig ὃ ... μείζων with the English "who has given", and it adds P66/Byz/TR's ὅς in the witness note. That merges two readings into one. The reading of Codex Alexandrinus, ὅς ... μεῖζον, is missing. Burgon's survey lists ὅς ... μεῖζον for A (and X), ὃ ... μείζων for ℵ L, and ὃ ... μεῖζον for B alone with the Latin.
 - **Evidence:** `w` 10:29: ὃ NnSYWG, μεῖζόν NnWG (so S and Y have μείζων); `byz` Ὁ πατήρ μου ὃς δέδωκέν μοι, μείζων πάντων ἐστίν.
-- **Fix:** List the readings separately: (a) ὃ ... μεῖζον, B* lat (NA28); (b) ὃ ... μείζων, ℵ L W (SBL, THGNT); (c) ὅς ... μείζων, P66 Θ f1 f13 Byz TR; (d) ὅς ... μεῖζον, A. Check each witness against the NA28 apparatus or Tischendorf. Say plainly that the Plain's English renders (c), or that it treats SBL's ὃ as "who", which is how most English versions take the sentence. Either change "follow" or say so in `why`. Do not label (b) "who".
+- **Fix:** List the readings separately: (a) ὃ ... μεῖζον, B* lat (NA28); (b) ὃ ... μείζων, ℵ L W (SBL, THGNT); (c) ὅς ... μείζων, P66 Θ f1 f13 Byz TR; (d) ὅς ... μεῖζον, A. Check each witness against the NA28 apparatus or Tischendorf. Say plainly that the Plain English Translation's English renders (c), or that it treats SBL's ὃ as "who", which is how most English versions take the sentence. Either change "follow" or say so in `why`. Do not label (b) "who".
 
 ### 5. Major: wrong claims about how SBLGNT and THGNT print 7:53–8:11
 - **Location:** variants.json 7:53, R0 `w` ("NA28 and SBLGNT print it in double brackets ...; THGNT prints it after John 21"); chapters.json chapter 8, deep "A later addition", last paragraph ("in brackets (NA28, SBL), at the end of John (THGNT)"); topics.json textual-history ("in brackets, at the end of John, or in place").
@@ -71,7 +71,7 @@ This part rebuilt fewer verses than the other parts of John, and it shows. I com
 - **Fix:** Check THGNT. Move it to the reading it prints (R1, or R3 if it also has δεδομένον) and correct `b`/`why`. Then say that THGNT departs from NA28 and SBL here, as brief-nt.md requires.
 
 ### 8. Major: 8:38 settles a debated reading while the note says it stays open
-- **Location:** plain.txt 8:38; notes.json 8:38 ("The Plain keeps the ambiguity with a lower-case 'father'"); variants.json 8:38 R0 `en`.
+- **Location:** plain.txt 8:38; notes.json 8:38 ("The Plain English Translation keeps the ambiguity with a lower-case 'father'"); variants.json 8:38 R0 `en`.
 - **Problem:** A lowercase "father" means the devil, which reads ποιεῖτε as a statement. That is one of the two readings the note describes, so the ambiguity is not kept. "So you, too, do what you heard from the father" is also unclear English: it can be heard as a command, which would need "the Father". In the SBL text, with no "your", many take ποιεῖτε as a command and πατρός as God. The NRSV reads it that way, and the note itself gives both readings.
 - **Fix:** Choose one reading and make the English clear. Either "And you do what you heard from your father" (statement; supply "your" with a note that the Greek lacks it), or "So you too must do what you heard from the Father" (command). Rewrite the note to say which reading was chosen and why. Do not claim the case removes the ambiguity.
 
@@ -91,23 +91,23 @@ This part rebuilt fewer verses than the other parts of John, and it shows. I com
 - **Fix:** Use "before the 1100s (Euthymius Zigabenus)" everywhere, and change "7:52" to "7:44" in `why`.
 
 ### 12. Minor: missing variant entries that KJV readers would notice
-- **10:13:** the Byzantine text and TR add ὁ δὲ μισθωτὸς φεύγει (KJV "The hireling fleeth"); TAGNT has μισθωτὸς and φεύγει marked TB. The Plain starts "That is because he works for pay", so a KJV reader will notice.
-- **7:40:** the Byzantine text and TR have Πολλοὶ (KJV "Many of the people"); the Plain has "Some in the crowd".
+- **10:13:** the Byzantine text and TR add ὁ δὲ μισθωτὸς φεύγει (KJV "The hireling fleeth"); TAGNT has μισθωτὸς and φεύγει marked TB. The Plain English Translation starts "That is because he works for pay", so a KJV reader will notice.
+- **7:40:** the Byzantine text and TR have Πολλοὶ (KJV "Many of the people"); the Plain English Translation has "Some in the crowd".
 - **8:11:** the Byzantine text has κρίνω, "judge", where NA28 and TR have κατακρίνω. Add this to the existing 8:11 entry.
 - **8:25:** P66* adds εἶπον ὑμῖν ("I told you at the beginning..."). The writer flagged this and the note mentions it, but there is no entry. Add one. The note credits Metzger; also cite the NA28 apparatus or Comfort.
 - **Optional:** 8:28 and 10:32, where THGNT and the Byzantine text read "my Father" (μου YTB, YGTB).
 
-### 13. Minor: chapter 8 summary misquotes the Plain
+### 13. Minor: chapter 8 summary misquotes the Plain English Translation
 - **Location:** chapters.json chapter 8 `sum[0]`: "Go, and from now on, do not sin any more."
-- **Problem:** The Plain of 8:11 is "do not keep on sinning", deliberately matched to 5:14. The topic capital-punishment also says "sin no more".
-- **Fix:** Quote the Plain exactly.
+- **Problem:** The Plain English Translation of 8:11 is "do not keep on sinning", deliberately matched to 5:14. The topic capital-punishment also says "sin no more".
+- **Fix:** Quote the Plain English Translation exactly.
 
 ### 14. Minor: small additions and losses in the translation
 - **7:15** "the sacred writings": "sacred" is interpretation. γράμματα is "letters, learning", and the writer's own note says the point is formal study. Use "letters" or "learning".
 - **7:17** "truly wants": "truly" is not in the Greek (θέλῃ).
 - **7:22** "Consider this." does not translate διὰ τοῦτο ("for this reason, that is why"). It also hides an old punctuation question: many take διὰ τοῦτο with 7:21 ("you are all astonished because of it"). Translate it and add a short note.
 - **8:18** "I testify about myself" flattens ἐγώ εἰμι ὁ μαρτυρῶν ("I am the one who testifies"). In this chapter of "I am" sayings, keep it.
-- **8:19** "Where is this father of yours?" puts a sneer into the text. The Greek is Ποῦ ἐστιν ὁ πατήρ σου; ("Where is your father?"). The note discusses the possible taunt; the Plain should stay neutral.
+- **8:19** "Where is this father of yours?" puts a sneer into the text. The Greek is Ποῦ ἐστιν ὁ πατήρ σου; ("Where is your father?"). The note discusses the possible taunt; the Plain English Translation should stay neutral.
 
 ### 15. Minor: σπέρμα rendered two ways
 - **Location:** 7:42 "the family line of David"; 8:33 and 8:37 "Abraham's seed".
@@ -167,26 +167,26 @@ This part rebuilt fewer verses than the other parts of John, and it shows. I com
 - The didascalia-apostolorum entry is accurate: a Syrian church order of the 200s, kept in Syriac with Latin fragments, which tells the story in chapter 7 to urge mercy toward penitents.
 
 ## Checked and found sound (no action)
-- 7:53–8:11 Plain against TAGNT NA28 words: faithful (8:4 ἐπ’ αὐτοφώρῳ; 8:5 ἡμῖν; 8:6 κατέγραφεν; 8:9 without the TR additions; 8:11 [καὶ] ἀπὸ τοῦ νῦν). Its heading and evidence section meet brief-nt.md.
+- 7:53–8:11 Plain English Translation against TAGNT NA28 words: faithful (8:4 ἐπ’ αὐτοφώρῳ; 8:5 ἡμῖν; 8:6 κατέγραφεν; 8:9 without the TR additions; 8:11 [καὶ] ἀπὸ τοῦ νῦν). Its heading and evidence section meet brief-nt.md.
 - 7:8 ("not"), 7:37–38 (punctuation, with a fair note on both readings and Brown's view), 8:24, 28 and 58 (bare "I am"), and 8:25 punctuation (follows SBL; only the wording is a problem, finding 2).
 - P66* "the Prophet" at 7:52 and P66 "I told you" at 8:25 are real readings. 10:8 witnesses agree with `byz` (the Byzantine text has no πρὸ ἐμοῦ) and with Metzger.
 - Citations spot-checked and correct: Josephus *Ant.* 8.100, 12.325, 18.23, 18.116–119, 20.221; *War* 3.375; m. Sukkah 4:9, 5:1–4; m. Shabbat 7:2, 18:3; b. Yoma 85b (R. Eleazar); m. Ketubot 2:9; m. Shekalim 6:5; m. Avot 1:1, 2:5, 5:19; b. Sukkah 27b; b. Megillah 31a; b. Avodah Zarah 5a; b. Sanhedrin 43a; Justin *Dial.* 8, 69; 1 Enoch 48:6; 4 Ezra 3:14, 13:52; Origen *C. Cels.* 1.28, 32; Irenaeus *AH* 2.22.6, 5.15.2; Augustine *Tract.* 33.5, 36.9 and *De adulterinis coniugiis* 2.7.6; Jerome *Adv. Pelag.* 2.17; Eusebius *HE* 3.39.17; Pliny *NH* 28.7; Tacitus *Hist.* 4.81; Calvin on John 8; Trent session 4; Augsburg Confession 12; Formula of Concord 11; 3 Nephi 15:21; NWT 2013 at 8:58; the 2004 Siloam pool (Reich and Shukron); T. W. Manson on 8:6.
 - No em-dashes; reading level suitable; 16 setting cards, each with `readers`; the spec box is labeled and names its overlap with Brown.
 
 ## Fixes applied
-1. Critical (festival vocabulary): Fixed. The Plain now says "festival" for every ἑορτή, "the Festival of Shelters" at 7:2 and "the Festival of Dedication" at 10:22, and both headings are renamed. The 7:2 note gives "Tabernacles", "Booths" and "Sukkot". "Feast" is changed to "festival" in every note, gloss, chapter page, setting card and topic contribution; the topic id `feast-of-booths` stays.
+1. Critical (festival vocabulary): Fixed. The Plain English Translation now says "festival" for every ἑορτή, "the Festival of Shelters" at 7:2 and "the Festival of Dedication" at 10:22, and both headings are renamed. The 7:2 note gives "Tabernacles", "Booths" and "Sukkot". "Feast" is changed to "festival" in every note, gloss, chapter page, setting card and topic contribution; the topic id `feast-of-booths` stays.
 2. Major (8:25): Rebuilt as "Why am I even talking to you?" and moved the note anchor with it.
 3. Major (drift): Rebuilt from the literal lines with new sentence shapes: 7:5, 7:22, 7:30, 7:32, 7:45, 7:49, 7:50, 8:3, 8:6, 8:9, 8:14, 8:16, 8:22, 8:44, 9:8, 9:9, 9:27, 9:32, 9:35, 9:37, 10:40 and 10:22. Also redone after rechecking the rest: 7:15, 7:17, 7:42, 7:46, 8:18, 8:19, 8:59, 9:25, 9:34, 10:32 and 10:34. ὑπηρέται is now "guards", matching 18:3. 41 verses in all; logged in the scratch drift audit.
-4. Major (10:29): The variant now lists four separate readings: ὅς…μείζων (P66, Byzantine text, TR), ὃ…μείζων (SBL, THGNT), ὃ…μεῖζον (NA28, B*), and ὅς…μεῖζον (A), with witnesses credited to Metzger. The Plain and `follow` both give reading (a). The `why` says so and explains how SBL's ὃ is usually read.
+4. Major (10:29): The variant now lists four separate readings: ὅς…μείζων (P66, Byzantine text, TR), ὃ…μείζων (SBL, THGNT), ὃ…μεῖζον (NA28, B*), and ὅς…μεῖζον (A), with witnesses credited to Metzger. The Plain English Translation and `follow` both give reading (a). The `why` says so and explains how SBL's ὃ is usually read.
 5. Major (how editions print 7:53–8:11): Corrected in the variant, the chapter 8 deep dive and the textual-history topic. NA28 prints it in double brackets; SBLGNT and THGNT give it only in the apparatus.
 6. Major (9:4): Removed P66 and P75 from "we…us". That reading is now ℵ*, L, W and the Sahidic, as reported by Metzger. Every reading is credited.
 7. Major (7:39): THGNT moved to "Holy Spirit", following the TAGNT data. P66 corrected was added to the short reading. The `why` now says THGNT departs from NA28 and SBL.
-8. Major (8:38): The Plain now reads the statement, "You, in the same way, do the things you heard from your father." The note says this reading was chosen and why, that "your" is supplied, and that the command reading exists (Brown).
+8. Major (8:38): The Plain English Translation now reads the statement, "You, in the same way, do the things you heard from your father." The note says this reading was chosen and why, that "your" is supplied, and that the command reading exists (Brown).
 9. Minor (7:8): `b` now says ESV, NIV and NRSV print "not" with a footnote, and KJV, NKJV and the 1984 NIV print "not yet".
 10. Minor (8:54): The entry now names editions only (NA28, SBLGNT and Byzantine against THGNT, WH and TR). The `why` says Metzger reports the manuscripts are closely divided. I could not check a manuscript list in the NA28 or Tischendorf apparatus (the Source Library Tischendorf covers only Matthew and Mark), so I named none.
 11. Minor (7:53 evidence): The variant, the note and the deep dive all say "before Euthymius Zigabenus in the 1100s" and "after 7:36, 7:44 or 21:25, or after Luke 21:38".
 12. Minor (missing variants): Added 7:40 (πολλοί), 10:13 (ὁ δὲ μισθωτὸς φεύγει) and 8:25 (P66* εἶπον ὑμῖν, Metzger and Comfort). Split 8:11 into NA28, TR and Byzantine (κρίνω). Did not add the optional 8:28 and 10:32 "my Father" entries.
-13. Minor (8:11 quoted): The chapter 8 summary now quotes the Plain exactly. The capital-punishment topic says "the command to stop sinning".
+13. Minor (8:11 quoted): The chapter 8 summary now quotes the Plain English Translation exactly. The capital-punishment topic says "the command to stop sinning".
 14. Minor (small additions): 7:15 "such book learning"; 7:17 "truly" removed; 7:22 "That is why", with a new note on the punctuation question; 8:18 "I am the one who testifies about myself"; 8:19 "Where is your father?"
 15. Minor (σπέρμα): "seed" is now used in 7:42 ("David's seed"), 8:33 and 8:37, with a gloss.
 16. Minor ("the Jews"): New notes at 7:11, at 9:18, and at 10:24 (which also covers 10:31 and 10:33).

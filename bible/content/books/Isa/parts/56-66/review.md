@@ -1,6 +1,6 @@
 # Hostile review: Isaiah 56–66 (part 56-66)
 
-Reviewer's checks: every verse of plain.txt against `node tools/literal.js Isa 56`–`66` and texts/orig/Isa.json; the scrolls through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q58, 4Q62a, 4Q66, 4Q67 and 4Q57 where they survive); Swete's Greek through `tools/lxx.py`; texts/auto/Isa.json; terms.json and the prophets' terms; the other Isaiah parts' Plain for the parallel lines (11:6–9, 40:3, 40:10, 41:19, 48:22, 49:18, 49:23, 49:26, 51:5, 53:12). `node tools/build.js --check Isa/56-66` reports 0 errors and 0 warnings (193 verses, 163 notes, 40 variants, 87 glosses, 11 chapter pages, 20 topic contributions). Sources checked online: Sefaria (Rashi on 66:21; Bavli Shabbat 89b; Mishnah Eduyot 2:10; Genesis Rabbah 85:1; Targum Jonathan on 61:8 and 66:7), New Advent (Gregory of Nazianzus, Oration 45), the BKV text of Cyprian's letters, and the Vulgate of 65:16.
+Reviewer's checks: every verse of plain.txt against `node tools/literal.js Isa 56`–`66` and texts/orig/Isa.json; the scrolls through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q58, 4Q62a, 4Q66, 4Q67 and 4Q57 where they survive); Swete's Greek through `tools/lxx.py`; texts/auto/Isa.json; terms.json and the prophets' terms; the other Isaiah parts' Plain English Translation for the parallel lines (11:6–9, 40:3, 40:10, 41:19, 48:22, 49:18, 49:23, 49:26, 51:5, 53:12). `node tools/build.js --check Isa/56-66` reports 0 errors and 0 warnings (193 verses, 163 notes, 40 variants, 87 glosses, 11 chapter pages, 20 topic contributions). Sources checked online: Sefaria (Rashi on 66:21; Bavli Shabbat 89b; Mishnah Eduyot 2:10; Genesis Rabbah 85:1; Targum Jonathan on 61:8 and 66:7), New Advent (Gregory of Nazianzus, Oration 45), the BKV text of Cyprian's letters, and the Vulgate of 65:16.
 
 ## Verdict
 
@@ -27,9 +27,9 @@ Totals: **0 critical, 4 major, 22 minor.**
 **Where:** variants.json 61:8; notes.json 61:8 ("Robbery with crookedness"); the brief's list of departures.
 
 **What is wrong:**
-- The variant labels the Plain's reading "Revocalized as be'avlah" and makes the MT "vocalized be'olah... robbery with a burnt offering". The note says the MT vowels give "burnt offering".
+- The variant labels the Plain English Translation's reading "Revocalized as be'avlah" and makes the MT "vocalized be'olah... robbery with a burnt offering". The note says the MT vowels give "burnt offering".
 - But the MT pointing בְּעוֹלָה is itself a known spelling of 'awlah, "injustice". The entry's own "why" admits this. texts/orig/Isa.json tags this very word H5766B עַוְלָה, glossed "with injustice".
-- So the Masoretic vowels allow both senses. The Plain follows the MT, read as most lexicons read it. It does not follow a revocalization.
+- So the Masoretic vowels allow both senses. The Plain English Translation follows the MT, read as most lexicons read it. It does not follow a revocalization.
 
 **Evidence:**
 - The orig data: `["בְּעוֹלָ֑ה", "with injustice", "עַוְלָה", "H5766B", ...]`.
@@ -92,7 +92,7 @@ None is serious alone, but the site rule is to redo close matches where the Hebr
 - **64:6:** "All of us have become like someone unclean" uses the NIV's order. The Hebrew puts "all of us" after the comparison.
 - **64:8:** "But now, LORD, you are our Father" has KJV precedent too, so it is acceptable.
 
-62:4 ("My Delight Is in Her... Married") matches the RSV/NRSV/ESV family, but it is the literal meaning of *Cheftsi-vah* and *Be'ulah*, so it may stay. One option is to keep the Hebrew names in the Plain, with the meanings in the gloss.
+62:4 ("My Delight Is in Her... Married") matches the RSV/NRSV/ESV family, but it is the literal meaning of *Cheftsi-vah* and *Be'ulah*, so it may stay. One option is to keep the Hebrew names in the Plain English Translation, with the meanings in the gloss.
 
 ### 6. Minor: 65:15 turns a statement into a quoted curse without giving the other reading
 **Where:** plain.txt 65:15 ("'So may the Lord GOD kill you!'"); notes.json 65:15.
@@ -101,7 +101,7 @@ None is serious alone, but the site rule is to redo close matches where the Hebr
 - The Hebrew *vehemitkha Adonai YHWH* reads most simply as the LORD's statement, "and the Lord GOD will put you to death". The KJV and most versions take it that way.
 - Putting it in quotation marks as the curse formula follows the NJPS interpretation. The note states it as fact ("The curse here is...").
 
-**Fix:** make the note `word`/`deb`. Give both readings, and say that the Plain takes the line as the formula people will use.
+**Fix:** make the note `word`/`deb`. Give both readings, and say that the Plain English Translation takes the line as the formula people will use.
 
 ### 7. Minor: 66:7 "Rabbinic tradition sometimes read the boy as the Messiah" has no source
 **Where:** notes.json 66:7.
@@ -196,12 +196,12 @@ The brief asks for this, and Luke 4, Romans 10–11, Romans 3 and Mark 11 alread
 
 ### 18. Minor: "word for word" and "same words" claims that are not exact
 - **60:9:** the note says "The islands wait for me" "repeats 51:5 word for word". The Hebrew differs: כִּי־לִי אִיִּים יְקַוּוּ here against אֵלַי אִיִּים יְקַוּוּ in 51:5. Write "nearly word for word". (The English match is fine.)
-- **65:25:** the note says the last line uses "the same Hebrew" as 11:9 "and the Plain uses the same words". But 11:9 reads "No one will hurt or ruin anything", and 65:25 "They will not hurt or ruin anything". The Hebrew לֹא־יָרֵעוּ וְלֹא־יַשְׁחִיתוּ is identical. Align 65:25 with 11:9, the model under the brief: "No one will hurt or ruin anything / anywhere on my holy mountain".
+- **65:25:** the note says the last line uses "the same Hebrew" as 11:9 "and the Plain English Translation uses the same words". But 11:9 reads "No one will hurt or ruin anything", and 65:25 "They will not hurt or ruin anything". The Hebrew לֹא־יָרֵעוּ וְלֹא־יַשְׁחִיתוּ is identical. Align 65:25 with 11:9, the model under the brief: "No one will hurt or ruin anything / anywhere on my holy mountain".
 
-### 19. Minor: quotations of the site's own Plain that do not match it
-- **56:1 note ("Two kinds of righteousness"):** quotes "for my righteousness is about to be revealed". The Plain has "and my righteousness to being revealed".
-- **Luke 4:18's added line from 58:6** is rendered three ways: "to send forth the oppressed in release" (58:6 note); "to send off the oppressed in release" (61:2 note and the chapter 61 table); and, in the table's Isaiah column, "to let the oppressed go free", where the Plain 58:6 is "to send the crushed away free". Use one rendering of Luke's Greek, and the exact Plain for Isaiah.
-- **topics.json `intercession`:** quotes 53:12 as "interceded for the rebels". The 45-55 Plain is "he will step in for the rebels".
+### 19. Minor: quotations of the site's own Plain English Translation that do not match it
+- **56:1 note ("Two kinds of righteousness"):** quotes "for my righteousness is about to be revealed". The Plain English Translation has "and my righteousness to being revealed".
+- **Luke 4:18's added line from 58:6** is rendered three ways: "to send forth the oppressed in release" (58:6 note); "to send off the oppressed in release" (61:2 note and the chapter 61 table); and, in the table's Isaiah column, "to let the oppressed go free", where the Plain English Translation 58:6 is "to send the crushed away free". Use one rendering of Luke's Greek, and the exact Plain English Translation for Isaiah.
+- **topics.json `intercession`:** quotes 53:12 as "interceded for the rebels". The 45-55 Plain English Translation is "he will step in for the rebels".
 
 ### 20. Minor: the Mishnah Eduyot 2:10 claim (66:23) needs a small correction
 **Where:** notes.json 66:23: "The Mishnah used this verse and the next in a debate..."
@@ -269,17 +269,17 @@ Each claim below was checked again against tools/literal.js, tools/dss.py, tools
    - Reworded: 56:7 ("I will bring them..."), 57:15 ("the One who lives for all time, and Holy is his name"), 62:6 (Hebrew order) and 64:6 ("all of us" after the comparison).
    - 59:16 and 63:5 were reworded together and still match each other.
    - Kept: 64:8, which has KJV precedent, and the 62:4 names, which give the literal meaning of the Hebrew. The 62:4 glosses are now real glosses.
-6. **65:15.** The note is now word/deb. It gives God's statement ("will put you to death", KJV and most versions) and the curse-formula reading (NJPS), and says the Plain follows the second.
+6. **65:15.** The note is now word/deb. It gives God's statement ("will put you to death", KJV and most versions) and the curse-formula reading (NJPS), and says the Plain English Translation follows the second.
 7. **66:7.** The note now cites the Targum ("her king will be revealed") and Genesis Rabbah 85:1, using the keys chilton-isaiah-targum and genesis-rabbah.
 8. **Ch. 61 views.J.** The haftarah of Nitzavim is now 61:10–63:9.
 9. **Restored scroll words.**
    - 61:1: 1Q8 is cited only for אלהים עלי, "God... on me", with the words before it marked as lost.
    - 66:19: 1QIsa-a is cited only for "Tarshish, Pul and Lud" and for "signs".
 10. **66:17 and 63:9.**
-    - 66:17 now follows the Qere, with "one" as the Plain for both forms and the difference explained. It also notes that 1QIsa-a lacks "will come to an end".
+    - 66:17 now follows the Qere, with "one" as the Plain English Translation for both forms and the difference explained. It also notes that 1QIsa-a lacks "will come to an end".
     - 63:9's "why" now speaks of the written consonants, not an "older spelling".
 11. **60:21.** 1QIsa-b's "his plantings... his hands" is added to the Ketiv reading. 4Q66 is not cited.
-12. **62:5.** The conjecture is now יִבְעָלוּךְ בֹּנָיִךְ, "your Builder" as a plural of majesty, compared with the plurals of 54:5. The note quotes 54:5 in the site's Plain.
+12. **62:5.** The conjecture is now יִבְעָלוּךְ בֹּנָיִךְ, "your Builder" as a plural of majesty, compared with the plurals of 54:5. The note quotes 54:5 in the site's Plain English Translation.
 13. **63:3.** The omission now has one entry for each of the three skipped lines, all with the same preview.
 14. **Text basis of NT quotations.**
     - 64:4: Paul follows neither the Hebrew nor the Greek, and "for those who love him" may echo other texts.
@@ -291,9 +291,9 @@ Each claim below was checked again against tools/literal.js, tools/dss.py, tools
 18. **Parallel wording.**
     - 60:9 now says "nearly word for word".
     - 65:25 now ends "No one will hurt or ruin anything / anywhere on my holy mountain", matching 11:9 exactly where the Hebrew is identical.
-19. **Quotations of the site's Plain.**
-    - The 56:1 note quotes the Plain exactly.
-    - Luke's line from 58:6 is now always "to send off the oppressed in release". The Isaiah column of the table gives the Plain, "to send the crushed away free".
+19. **Quotations of the site's Plain English Translation.**
+    - The 56:1 note quotes the Plain English Translation exactly.
+    - Luke's line from 58:6 is now always "to send off the oppressed in release". The Isaiah column of the table gives the Plain English Translation, "to send the crushed away free".
     - The intercession topic quotes 53:12 as "he will step in for the rebels".
 20. **66:23.** The note now cites only 66:23 for Eduyot 2:10 and adds Rabbi Yohanan ben Nuri's "from Sabbath to Sabbath" as seven weeks.
 21. **Secrets of Elijah.** The 64:4 note now reads "a writing he called the Secrets of Elijah (now lost)". apocalypse-of-elijah, with the aka "Secrets of Elijah", is proposed in content/proposals/prophets/works.json, since no works file had it.

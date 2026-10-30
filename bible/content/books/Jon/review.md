@@ -4,7 +4,7 @@ Reviewer: separate hostile-reviewer agent. Files read: plain.txt, book.json, not
 
 ## Verdict
 
-This is a strong, careful book, and the Plain is clean. Verse by verse the translation follows the Hebrew closely. I found no dropped or invented clause, no wrong number or name, and no copying of NIV or ESV beyond wording the Hebrew forces. The one NIV-shaped phrase is "huge fish", which is a lead-fixed site term. The book's quotes of Exodus 34:6, Nehemiah 9:17, Psalm 69:1, 31:6, 31:22, 3:8, Jeremiah 18:8, 36:3 and Joel 2:13 all match the site's Plain. `nacham` as "change his mind" matches Exodus 32:14, Jeremiah 18:8-10, 26:3, 13, 19 and Joel 2:13-14 exactly. That correctly overrides the brief's "relent", and the writer says why in the terms proposals. The weaknesses are in the apparatus.
+This is a strong, careful book, and the Plain English Translation is clean. Verse by verse the translation follows the Hebrew closely. I found no dropped or invented clause, no wrong number or name, and no copying of NIV or ESV beyond wording the Hebrew forces. The one NIV-shaped phrase is "huge fish", which is a lead-fixed site term. The book's quotes of Exodus 34:6, Nehemiah 9:17, Psalm 69:1, 31:6, 31:22, 3:8, Jeremiah 18:8, 36:3 and Joel 2:13 all match the site's Plain English Translation. `nacham` as "change his mind" matches Exodus 32:14, Jeremiah 18:8-10, 26:3, 13, 19 and Joel 2:13-14 exactly. That correctly overrides the brief's "relent", and the writer says why in the terms proposals. The weaknesses are in the apparatus.
 
 - **Greek readings.** The variants and book.json say the Greek was read in "Swete and Rahlfs". The only Greek tool on this machine prints Swete (Vaticanus), and it warns that this is not the critical text. The 3:4 "forty or three" entry, which the brief required, does not say which Greek witnesses read which.
 - **Missed variant.** One real variant was missed: 4Q82 at 4:6 matches the Greek "to shade him".
@@ -27,12 +27,12 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 
 **2. [major] variants.json 3:4 (forty or three days): the Greek witnesses are not identified, and the entry is thin for a brief-required full entry.**
 - **Evidence.** The brief said "verify which Greek witnesses read which". The entry says "I checked the Greek in Swete and Rahlfs... I did not check other Greek manuscripts." Swete's Vaticanus text reads "ἔτι τρεῖς ἡμέραι". The tradition is also not given: Origen, Theodoret and Augustine all discussed the discrepancy, and Greek manuscripts and Hexapla witnesses are involved. I could not confirm the manuscript-by-manuscript picture in the time available, and neither did the writer.
-- **Fix.** State what the Plain's source can show: Codex Vaticanus (Swete) has "three". Add the patristic witnesses that can be named exactly (Augustine, *City of God* 18.44, which is verified; Theodoret; Origen, which needs a precise reference). Say plainly that the other Greek manuscripts and the Hexapla evidence are not examined here. Drop the first-person "I checked / I did not check" wording in reader-facing text and name the edition instead.
+- **Fix.** State what the Plain English Translation's source can show: Codex Vaticanus (Swete) has "three". Add the patristic witnesses that can be named exactly (Augustine, *City of God* 18.44, which is verified; Theodoret; Origen, which needs a precise reference). Say plainly that the other Greek manuscripts and the Hexapla evidence are not examined here. Drop the first-person "I checked / I did not check" wording in reader-facing text and name the edition instead.
 
 **3. [major] variants.json / notes.json 4:6: a real variant is missing, 4Q82 "to shade" against MT "to rescue".**
 - **Evidence.** The dss printout reads `4Q82 ... צל על [ראשו] ‹להצל› לו מרעתו`. The Masoretic Text has *lehatsil*, "to deliver". 4Q82 has *lehatsel*, which can read as "to shade". Swete's Greek reads "τοῦ εἶναι σκιὰν ὑπεράνω τῆς κεφαλῆς αὐτοῦ, τοῦ σκιάζειν αὐτῷ ἀπὸ τῶν κακῶν", "to shade him from his evils". The Greek and 4Q82 therefore agree against the Masoretic Text and Mur88 (*lehatsil*). The printout marks the difference as a candidate only (a yod), so the entry must be cautious.
-- **Why it matters.** The Plain's "rescue him from his misery" and the note's mirror of the fish's "rescue" (and the second-fish theory) lean on *hatsil*.
-- **Fix.** Add a 4:6 entry (the verb), stating that 4Q82's spelling and the Greek "shade" both allow "to shade him", that the Masoretic Text and Mur88 read "to rescue", and why the Plain follows the Masoretic Text (the "shade ... to shade" doubling is odd, and "rescue" fits 2:6). Soften the "rescue by a plant mirrors rescue by a fish" claims in the notes and the spec box until then.
+- **Why it matters.** The Plain English Translation's "rescue him from his misery" and the note's mirror of the fish's "rescue" (and the second-fish theory) lean on *hatsil*.
+- **Fix.** Add a 4:6 entry (the verb), stating that 4Q82's spelling and the Greek "shade" both allow "to shade him", that the Masoretic Text and Mur88 read "to rescue", and why the Plain English Translation follows the Masoretic Text (the "shade ... to shade" doubling is odd, and "rescue" fits 2:6). Soften the "rescue by a plant mirrors rescue by a fish" claims in the notes and the spec box until then.
 
 **4. [major] variants.json: variant entries required by the brief are missing (1:10, 2:7, 2:8, 2:9, 3:3, 4:11), and two of them are substantive.**
 - **Evidence.** The brief lists "where the sense changes at 1:5, 1:10, 2:4, 2:7, 2:8, 2:9, 3:3, 4:5, 4:6, 4:11". The file has 1:5, 2:4, 4:5 and 4:6 (twice), but not the rest. Swete's Greek differs in sense at:
@@ -58,22 +58,22 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 ## Minor
 
 **7. [minor] plain.txt 2:4 and variants.json 2:4: "I will keep looking" departs from "again".**
-- `אוֹסִיף לְהַבִּיט` is "I will again look" (*yasaf* + infinitive). The variant entry's own summary says "Yet I will look again" and the Greek is "shall I again look", but the Plain says "keep looking", which shifts the sense to continuing rather than looking at the temple again.
+- `אוֹסִיף לְהַבִּיט` is "I will again look" (*yasaf* + infinitive). The variant entry's own summary says "Yet I will look again" and the Greek is "shall I again look", but the Plain English Translation says "keep looking", which shifts the sense to continuing rather than looking at the temple again.
 - Fix: "Even so, I will look again toward your holy temple", or explain in the note why "keep" is chosen.
 
 **8. [minor] plain.txt 3:9: "turn" against "turn back".**
-- The Hebrew `יָשׁוּב ... וְשָׁב` is the same verb twice, and Joel 2:14 (same words) is "turn back". The Plain has "God may turn and change his mind, and turn back". The same verb is "turned back" in 3:8 and 3:10. The note on 3:8 says "*shuv*, 'turn back', is used here and in 3:9 and 3:10".
-- Fix: "God may turn back and change his mind, and turn back from his burning anger", or a variant of that. The pun between Nineveh's turning and God's turning is the book's art, and the Plain should keep it visible, as the brief and the Jeremiah pattern require.
+- The Hebrew `יָשׁוּב ... וְשָׁב` is the same verb twice, and Joel 2:14 (same words) is "turn back". The Plain English Translation has "God may turn and change his mind, and turn back". The same verb is "turned back" in 3:8 and 3:10. The note on 3:8 says "*shuv*, 'turn back', is used here and in 3:9 and 3:10".
+- Fix: "God may turn back and change his mind, and turn back from his burning anger", or a variant of that. The pun between Nineveh's turning and God's turning is the book's art, and the Plain English Translation should keep it visible, as the brief and the Jeremiah pattern require.
 
 **9. [minor] plain.txt 1:14: "do not make us perish".**
-- `אַל־נָא נֹאבְדָה` is "let us not perish". The Plain adds a causing of the perishing that the Hebrew does not have. Fix: "do not let us perish for the life of this man".
+- `אַל־נָא נֹאבְדָה` is "let us not perish". The Plain English Translation adds a causing of the perishing that the Hebrew does not have. Fix: "do not let us perish for the life of this man".
 
 **10. [minor] plain.txt 1:17: purpose becomes result.**
-- `לִבְלֹעַ אֶת־יוֹנָה` is "to swallow Jonah" (purpose), against the Plain's "and it swallowed Jonah up". The "up" is not in the Hebrew. Fix: "appointed a huge fish to swallow Jonah." The fish is therefore the first of the "appointed" things.
+- `לִבְלֹעַ אֶת־יוֹנָה` is "to swallow Jonah" (purpose), against the Plain English Translation's "and it swallowed Jonah up". The "up" is not in the Hebrew. Fix: "appointed a huge fish to swallow Jonah." The fish is therefore the first of the "appointed" things.
 
 **11. [minor] plain.txt 3:8: two small additions.**
 - "sits in the palms of his hands" (`אֲשֶׁר בְּכַפֵּיהֶם`, "which is in their palms") adds "sits". "with all their strength" (`בְּחָזְקָה`) adds "all". Fix: "the violence in their hands", "with strength" or "urgently".
-- Also 2:8 "their own loyal love": "own" is not in `חַסְדָּם`. If the Plain chooses reading (1), the note says it keeps the Hebrew "hard", so drop "own".
+- Also 2:8 "their own loyal love": "own" is not in `חַסְדָּם`. If the Plain English Translation chooses reading (1), the note says it keeps the Hebrew "hard", so drop "own".
 
 **12. [minor] chapters.json 4 `views.L`: the count of "appointments" is wrong.**
 - It says "four 'appointments', three 'great' words (evil, anger, joy)". Chapter 4 has three (plant, worm, wind). The fish is in 1:17. The note at 4:8 says the wind is "the fourth thing", counting from the book.
@@ -93,7 +93,7 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 - The Greek is `λελύπησαι` (*lelypēsai*), not "lelypese". Fix the spelling.
 
 **17. [minor] notes.json 2:3 ("You hurled me"): *shalakh* is called "related" to *tul*.**
-- *Shalakh* ("cast") and *tul* ("hurl") are different verbs, not related. Fix: "with a different verb of throwing (*shalakh*)". The Plain's "hurled" for both hides that the Hebrew changes verbs at 2:3. The note should say so.
+- *Shalakh* ("cast") and *tul* ("hurl") are different verbs, not related. Fix: "with a different verb of throwing (*shalakh*)". The Plain English Translation's "hurled" for both hides that the Hebrew changes verbs at 2:3. The note should say so.
 
 **18. [minor] notes.json 1:2 history (Nineveh): garbled sentence.**
 - "Genesis 10:11-12 says it was built from Babylonia and calls the area 'the great city'." The text says he (Nimrod) went out from Shinar to Assyria and built Nineveh, and "that is the great city" (probably the Nineveh-Calah complex). Fix: "Genesis 10:11-12 says it was built by Nimrod's people, who came out from Shinar (Babylonia), and calls the group of cities 'the great city'." The 1:2 note says elsewhere "Nineveh... became Assyria's capital under Sennacherib", which is fine.
@@ -111,8 +111,8 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 **22. [minor] chapters.json 2 `views.X`: duplicated clause and a stray capital.**
 - "The fathers read the fish as the tomb and the psalm as the voice of the Savior from Sheol; Some fathers hear in it the voice of Christ in his descent." The two halves say the same thing, and "Some" is capitalized mid-sentence. Fix: one clause. Similar slips: ch3 `views.C` begins lowercase ("the past tense of..."); ch3 `views.L` has "a King".
 
-**23. [minor] chapters.json 1 settings 1:8-12: the quoted question does not match the Plain.**
-- The card quotes ("What people are you from?"), but the Plain 1:8 is "which people do you belong to?". Match the Plain. Also the 1:1-3 card asserts "Jonah hears it as a call to speak to an enemy and runs", but the text gives no reason until 4:2 (and the note at 1:3 says so). Soften: "Why he runs is not said until 4:2."
+**23. [minor] chapters.json 1 settings 1:8-12: the quoted question does not match the Plain English Translation.**
+- The card quotes ("What people are you from?"), but the Plain English Translation 1:8 is "which people do you belong to?". Match the Plain English Translation. Also the 1:1-3 card asserts "Jonah hears it as a call to speak to an enemy and runs", but the text gives no reason until 4:2 (and the note at 1:3 says so). Soften: "Why he runs is not said until 4:2."
 
 **24. [minor] chapters.json 2 settings: "from inside the fish, on the third day (1:17)".**
 - The text does not date the prayer within the three days; "on the third day" is Pirkei de-R. Eliezer-type inference. Say "during the three days (1:17)".
@@ -140,7 +140,7 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 - **Numbering.** `heb` map is right (1:17 = Hebrew 2:1; English 2:1-10 = Hebrew 2:2-11).
 - **Scroll claims.** All Dead Sea scroll claims in the notes and variants check against the printout (4:6 `אדוני` in 4Q82; 3:2 `כזות` in 4Q76; 2:6 `נפשי` in 4Q82; 1:8 `בשלמי` in 4Q76; 1:9 `עברי` in 4Q76, 4Q82 and Mur88; 3:4 "forty" in Mur88; 1:14 *naqi*; 2:8 and 2:10).
 - **Greek readings read from Swete.** 1:2 *kraugē*, 1:5-6 *rhenchō*, 1:9 *doulos*, 2:5 *ara*, 2:6 *phthora*, 3:2 *emprosthen*, 3:4 *treis*, 4:5 *apenanti*, 4:6 *kolokynthē*.
-- **Quotes of other books.** All quotes of other books match the site's Plain.
+- **Quotes of other books.** All quotes of other books match the site's Plain English Translation.
 - **Assyrian record facts.** The eponym facts are real: plague in 765 and 759, the Bur-Sagale eclipse in 763 BC. The page states that no source links them to Jonah.
 - **Mekhilta.** The Mekhilta point that Jonah would go outside the land, where the Shekhinah does not rest, because the Gentiles are near to repenting, is in the Mekhilta (Pisha 1, on Exodus 12:1) and is quoted by Rashi. The "honor of the son/honor of the Father" saying, which the 1:12 note's "gave themselves up for God's honor" draws on, is in the Mekhilta's opening section too. Both can stay; give the edition (Lauterbach) if a number is wanted.
 - **Mishnah Ta'anit 2:1.** Matches ("not said of the men of Nineveh that God saw their sackcloth and fasting, but that he saw their works").
@@ -151,21 +151,21 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 
 1. Fixed. Rahlfs dropped everywhere: witness lines now read "Septuagint (Swete's text, mainly Codex Vaticanus)", `rahlfs-lxx` is removed from every entry and note, and book.json "Numbering, text and witnesses" says the Greek was read in Swete only and that Rahlfs-Hanhart and the Gottingen edition were not consulted. The Greek readings were re-read in the `tools/lxx.py` output for all four chapters.
 2. Fixed. 3:4 now says what Swete's text shows (three, mainly Codex Vaticanus), names Augustine (City of God 18.44, the reference the reviewer confirmed) and the Vulgate, states that other Greek manuscripts, the Hexapla and the other Greek fathers were not examined, and drops "I checked / I did not check". Origen and Theodoret are not named because no exact reference could be verified here.
-3. Fixed. New 4:6 entry on the verb (rescue or shade): 4Q82 `להצל` as transcribed (re-read with dss.py; the printout marks it as differing), Mur88 `להציל`, Greek "to shade him from his evils". The entry says one missing yod cannot decide, and why the Plain follows the Masoretic Text. The 4:6 "Misery" note and the spec box now say the mirror with the fish depends on the Masoretic reading and weakens if 4Q82 and the Greek are right. The book.json list of Greek differences mentions it too.
+3. Fixed. New 4:6 entry on the verb (rescue or shade): 4Q82 `להצל` as transcribed (re-read with dss.py; the printout marks it as differing), Mur88 `להציל`, Greek "to shade him from his evils". The entry says one missing yod cannot decide, and why the Plain English Translation follows the Masoretic Text. The 4:6 "Misery" note and the spec box now say the mirror with the fish depends on the Masoretic reading and weakens if 4Q82 and the Greek are right. The book.json list of Greek differences mentions it too.
 4. Fixed. Added entries for 1:4 (hurled/roused), 1:10 (no change of sense, stated), 1:14 (innocent/righteous blood), 1:17 (appointed a fish/ordered a sea creature), 2:7 (came/let it come), 2:8 (adds "false", "forsook their mercy"), 2:9 (adds "praise", "salvation" joined to the vow), 3:3 (Greek "about"), 4:2 (Greek "repenting over the evils") and 4:11 (no change of sense, stated). All were checked against the lxx.py and dss.py printouts. 4:1 (Greek "grief") stays in the 4:1 note only. Variants now 22 (was 11).
 5. Fixed. The 2:5 note now says Jonah 2:5 and Psalm 69:1 have the same words "water ... up to the throat" (same preposition) and that only the verb differs (`afafuni` against `ba'u`).
 6. Fixed. Chapter 3 "Read as history" now says some commentators suggest the eponym-list plague and eclipse (765-759 BC) could have left the city anxious, and that no text connects them to Jonah. The book.json H lens description is aligned.
-7. Fixed. 2:4 Plain is "Even so, I will look again toward your holy temple" (yasaf + infinitive); the variant entry, anchor and "why" are updated.
-8. Fixed. 3:9 Plain is "God may turn back and change his mind, and turn back from his burning anger", matching Joel 2:14 and keeping the repeated shuv visible.
-9. Fixed. 1:14 Plain is "do not let us perish for the life of this man".
-10. Fixed. 1:17 Plain is "The LORD appointed a huge fish to swallow Jonah." ("a huge fish" is the lead's fixed site term and stays); the note anchor is updated.
-11. Fixed. 3:8 Plain is "the violence in his hands" and "call out to God with strength"; 2:8 drops "own" ("abandon their loyal love"). Notes, anchors, the chapter 2 summary and the topic quotes (prayer, hesed) are updated.
+7. Fixed. 2:4 Plain English Translation is "Even so, I will look again toward your holy temple" (yasaf + infinitive); the variant entry, anchor and "why" are updated.
+8. Fixed. 3:9 Plain English Translation is "God may turn back and change his mind, and turn back from his burning anger", matching Joel 2:14 and keeping the repeated shuv visible.
+9. Fixed. 1:14 Plain English Translation is "do not let us perish for the life of this man".
+10. Fixed. 1:17 Plain English Translation is "The LORD appointed a huge fish to swallow Jonah." ("a huge fish" is the lead's fixed site term and stays); the note anchor is updated.
+11. Fixed. 3:8 Plain English Translation is "the violence in his hands" and "call out to God with strength"; 2:8 drops "own" ("abandon their loyal love"). Notes, anchors, the chapter 2 summary and the topic quotes (prayer, hesed) are updated.
 12. Fixed. The chapter 4 L view says three appointments (plant, worm, wind) and two "great" words (evil, joy). "Great anger" is removed from the 1:2 note, the 4:1 note (which now says the Hebrew has no "great" before "burned") and the book.json "How to read Jonah" list.
 13. Fixed. Mur88 is now the "Murabba'at scroll" in every variant entry and in the 4:11 note; Qumran is used only for 4Q76, 4Q81 and 4Q82.
 14. Fixed. The Bavli Megillah 31a reference now follows "Jonah is read at minchah" only, and Micah 7:18-20 is described as a later custom of many communities, in book.json, chapters 2 and 4, the 4:11 note, the lens description and the day-of-atonement contribution.
 15. Fixed. The 3:7 sentence that claimed the Greek differs is replaced by a statement that the Greek agrees ("his nobles").
 16. Fixed. `lelypesai`.
-17. Fixed, at the cause. The 1:4 note now calls `shalakh` a different verb of throwing, not a related one, and the Plain at 2:3 is changed from "hurled" to "threw" so the English shows the change from `tul`. The 2:3 note title and anchor are updated; there is no fixed site term for `shalakh`.
+17. Fixed, at the cause. The 1:4 note now calls `shalakh` a different verb of throwing, not a related one, and the Plain English Translation at 2:3 is changed from "hurled" to "threw" so the English shows the change from `tul`. The 2:3 note title and anchor are updated; there is no fixed site term for `shalakh`.
 18. Fixed. Genesis 10:11-12 is now described as Nimrod going out from Shinar to Assyria, with "the great city" naming the group of cities.
 19. Fixed. The book.json sentence names the closest parallel (Heracles and the sea monster of Hesione: three days, comes out bald; Lycophron, Alexandra, and later writers), says it is late and differs in point, and says none shares both the shape and the point. The Lycophron detail comes from the reviewer and was not re-checked here.
 20. Fixed. "Jerome wrote a commentary; Augustine wrote on it in letters (71 and 82) and in the City of God (18.30 and 18.44)". The letter and chapter numbers come from the reviewer.
@@ -178,4 +178,4 @@ No critical findings. Findings by severity: 0 critical, 6 major, 17 minor.
 27. Fixed. 2:6 says the Greek is close to `diaphthora` ("decay") in Acts 2:27, 31 and that Acts does not quote Jonah; 4:5 says Jonah has left the city on its eastern side, away from Israel.
 28. Fixed. A sentence in book.json lists the unlisted forms (4Q76 `יפא` at 1:3 and `לים` at 1:5, 4Q82 `כעלות` at 4:7, Mur88 `על` for `אל` at 3:8) and says they change no sense; the 1:7 note points to it.
 
-Declined: none. Lead decisions kept: "change his mind" for nacham and "a huge fish". Plain verses changed: 1:14, 1:17, 2:3, 2:4, 2:8, 3:8, 3:9. No other book's notes quote these verses (the build reports no quote warnings).
+Declined: none. Lead decisions kept: "change his mind" for nacham and "a huge fish". Plain English Translation verses changed: 1:14, 1:17, 2:3, 2:4, 2:8, 3:8, 3:9. No other book's notes quote these verses (the build reports no quote warnings).

@@ -4,19 +4,19 @@
 - texts/orig/2Ma.json `grc` (Swete's text, Alexandrinus with Venetus in the notes) and its `fixed` list, verse by verse beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/2Ma.app.json (A, V and their correctors);
 - the Vulgate and Douay in texts/src/2Ma.lat.json;
-- book.json, the other three parts of 2 Maccabees, content/terms.json and content/proposals/works/terms.json, the site's Plain for every book of the 66 it has translated, and every `traditions` card on the site.
+- book.json, the other three parts of 2 Maccabees, content/terms.json and content/proposals/works/terms.json, the site's Plain English Translation for every book of the 66 it has translated, and every `traditions` card on the site.
 
 **Build.** `VERBOSE=1 node tools/build.js --check 2Ma/08-11` gives **0 errors, 0 warnings** (141 verses, 79 notes, 35 variants, 52 glosses, 4 chapter pages, 8 topic contributions). The build caught none of the problems below.
 
 **Quotations checked by script.**
-- **The 66 books (and 1 Maccabees, Judith).** I paired every quoted phrase in notes, chapters, topics and variants with the reference after it and compared it with the site's Plain. **Every quotation of a book on the site matches**: Genesis 4:10, 37:28, 49:9; Exodus 23:20, 23:22; Leviticus 23:36, 23:40; Deuteronomy 14:29, 20:2–4, 20:8, 28:10; Joshua 5:14; 1 Samuel 30:24; 2 Kings 5:15, 6:17, 6:18, 19:35; 2 Chronicles 21:18–19, 32:8; Esther 8:17; Psalm 20:7, 34:7; Isaiah 14:13, 40:12; John 10:22–23, 12:13; Revelation 7:9, 19:11–14; and the 1 Maccabees and Judith quotations (1 Maccabees 3:4, 3:38–41, 3:47–48, 3:56, 4:15, 4:24, 4:28, 4:38, 4:47, 4:54, 4:59, 4:61, 5:3, 5:8, 5:44, 6:1, 6:15, 6:49, 6:59, 6:63, 11:70, 13:51; Judith 14:10, 16:17). The quotations from books not yet on the site (Joel, Daniel, Acts, Hebrews) could not be checked.
+- **The 66 books (and 1 Maccabees, Judith).** I paired every quoted phrase in notes, chapters, topics and variants with the reference after it and compared it with the site's Plain English Translation. **Every quotation of a book on the site matches**: Genesis 4:10, 37:28, 49:9; Exodus 23:20, 23:22; Leviticus 23:36, 23:40; Deuteronomy 14:29, 20:2–4, 20:8, 28:10; Joshua 5:14; 1 Samuel 30:24; 2 Kings 5:15, 6:17, 6:18, 19:35; 2 Chronicles 21:18–19, 32:8; Esther 8:17; Psalm 20:7, 34:7; Isaiah 14:13, 40:12; John 10:22–23, 12:13; Revelation 7:9, 19:11–14; and the 1 Maccabees and Judith quotations (1 Maccabees 3:4, 3:38–41, 3:47–48, 3:56, 4:15, 4:24, 4:28, 4:38, 4:47, 4:54, 4:59, 4:61, 5:3, 5:8, 5:44, 6:1, 6:15, 6:49, 6:59, 6:63, 11:70, 13:51; Judith 14:10, 16:17). The quotations from books not yet on the site (Joel, Daniel, Acts, Hebrews) could not be checked.
 - **Greek.** Every Greek `orig` in notes.json is in `grc`. In variants.json, four strings do not match the texts files (finding 4). I found **no invented Greek reading**. All Greek is NFC.
 - **Latin.** Every Latin `orig` in variants.json is in the Vulgate file. One Latin phrase in a note (N36) and three Douay phrases do not match (finding 4).
 - **book.json** gives the death of Antiochus in words that agree with this part, except for the goddess's name (finding 7).
 
 ## Verdict
 
-The Plain is fresh, careful work, built from Swete's Alexandrinus. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS, Goldstein and Schwartz. I found two places where the Plain takes a construal those versions share and the Greek does not force (11:29 in finding 3; 10:28 in finding 9), and no copied sentence shapes. Numbers, names and who-does-what are right throughout. The 21 departures from Alexandrinus that have variant entries are all real, and each entry reads Swete's sigla correctly, including the hard ones: "om και 1° AV" at 8:33, where Swete's printed "and" is in neither codex; "ερρωσθαι AV* (-σθε Vᵃ)" at 9:20; and "ευγενισας coniecer Grimm Fritzsch" at 10:13. The repentance card is the best thing in the part: its Trent, Catechism 1453, Smalcald and Westminster 15.2 quotations are exact, and it ranks no church. The three deaths of Antiochus are presented fairly, and in substance as book.json and part 01-03 present them.
+The Plain English Translation is fresh, careful work, built from Swete's Alexandrinus. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS, Goldstein and Schwartz. I found two places where the Plain English Translation takes a construal those versions share and the Greek does not force (11:29 in finding 3; 10:28 in finding 9), and no copied sentence shapes. Numbers, names and who-does-what are right throughout. The 21 departures from Alexandrinus that have variant entries are all real, and each entry reads Swete's sigla correctly, including the hard ones: "om και 1° AV" at 8:33, where Swete's printed "and" is in neither codex; "ερρωσθαι AV* (-σθε Vᵃ)" at 9:20; and "ευγενισας coniecer Grimm Fritzsch" at 10:13. The repentance card is the best thing in the part: its Trent, Catechism 1453, Smalcald and Westminster 15.2 quotations are exact, and it ranks no church. The three deaths of Antiochus are presented fairly, and in substance as book.json and part 01-03 present them.
 
 **The weaknesses:**
 - **Two notes state false facts about the Greek** (N37 and N26). These are critical.
@@ -44,24 +44,24 @@ Both mean roughly "to give up hope", but they are different verbs. The contrast 
 ### 2. CRITICAL: N26 (9:5) gives 7:35 a title that is not there
 
 N26: "'The Lord who sees everything' (<i>pantepoptēs</i>) is the title the youngest brother used when he warned the king of God's judgment (7:35)."
-- 7:35 reads τὴν τοῦ παντοκράτορος **ἐπόπτου** θεοῦ κρίσιν. The word is <i>epoptēs</i>, "overseer", next to <i>pantokratōr</i>. The site's Plain there has "the Almighty, who sees all".
+- 7:35 reads τὴν τοῦ παντοκράτορος **ἐπόπτου** θεοῦ κρίσιν. The word is <i>epoptēs</i>, "overseer", next to <i>pantokratōr</i>. The site's Plain English Translation there has "the Almighty, who sees all".
 - By script, παντεπόπτης occurs in `grc` only at 9:5. (Swete's note shows V has πανεποπτης at 9:5. Rahlfs prints the word at 15:2, but Swete's text there should be checked before it is cited.)
 
 **Fix:** "The youngest brother had warned the king of the judgment of 'the Almighty, who sees all' (<i>epoptēs</i>, 7:35); here the writer uses the fuller title <i>pantepoptēs</i>, 'who sees everything'."
 
 ### 3. MAJOR: silent departures toward Venetus, the Latin and the KJV, and one missing variant
 
-**9:24 (silent).** The Plain has "if something surprising took place **or bad news arrived**". That is Venetus: Swete's note reads `και προσαπελθη τι δυσχερες] η και προσαγγελθη δυσχ. τι V`.
+**9:24 (silent).** The Plain English Translation has "if something surprising took place **or bad news arrived**". That is Venetus: Swete's note reads `και προσαπελθη τι δυσχερες] η και προσαγγελθη δυσχ. τι V`.
 - Alexandrinus (Swete's text): ἐάν τι παράδοξον ἀποβαίη **καὶ προσαπέλθῃ τι δυσχερές**, "if anything unexpected should turn out **and** some further trouble come".
 - The Vulgate (*aut difficile nuntiaretur*) and the KJV ("or if any tidings were brought that were grievous") follow V.
 - There is no variant entry and no note. This is the Venetus/KJV drift the 1 Maccabees lessons warn about.
 
 **Fix:** either render A ("and some further trouble came"), or keep V and add an entry. The entry should give A καὶ προσαπέλθῃ τι δυσχερές against V ἢ καὶ προσαγγελθῇ δυσχερές τι, with the Latin and the KJV.
 
-**11:29 (silent drift in construal).** Greek: ἐνεφάνισεν ἡμῖν Μενέλαος **βουλόμενος** κατελθόντας ὑμᾶς γίνεσθαι πρὸς τοῖς ἰδίοις. The participle is nominative singular, so it goes with Menelaus: Menelaus "wishing that you return and attend to your own affairs". The Plain's "Menelaus has brought us word that **you wish** to return" follows the Latin (*dicens velle vos descendere*), the KJV ("your desire was") and the NRSV/RSV construal.
-- **Fix:** "Menelaus has told us that he wants you to come home and take up your own affairs again." Or keep the Plain and add a `deb` note or variant explaining the nominative. Swete also notes ημας A for υμας, which a note could mention.
+**11:29 (silent drift in construal).** Greek: ἐνεφάνισεν ἡμῖν Μενέλαος **βουλόμενος** κατελθόντας ὑμᾶς γίνεσθαι πρὸς τοῖς ἰδίοις. The participle is nominative singular, so it goes with Menelaus: Menelaus "wishing that you return and attend to your own affairs". The Plain English Translation's "Menelaus has brought us word that **you wish** to return" follows the Latin (*dicens velle vos descendere*), the KJV ("your desire was") and the NRSV/RSV construal.
+- **Fix:** "Menelaus has told us that he wants you to come home and take up your own affairs again." Or keep the Plain English Translation and add a `deb` note or variant explaining the nominative. Swete also notes ημας A for υμας, which a note could mention.
 
-**8:35 (missing variant).** The Plain follows A's ὑπὲρ ἅπαν **εὐημερηκώς**, "having succeeded above all" (ironic): "His one great success was the ruin of his own army."
+**8:35 (missing variant).** The Plain English Translation follows A's ὑπὲρ ἅπαν **εὐημερηκώς**, "having succeeded above all" (ironic): "His one great success was the ruin of his own army."
 - The Vulgate reads *summam infelicitatem … consecutus*, "having met the greatest misfortune".
 - The KJV reads "having very great dishonour".
 - Both reflect the opposite word, δυσημερ- (Rahlfs prints δυσημερήσας; I give that from memory, so check it).
@@ -121,7 +121,7 @@ Whether the epitome was written for Egypt or for Judea is debated. The letters w
 
 ### 7. MAJOR: "Nanea" against "Nanaia" in the rest of the book
 
-N23, N40 and the ch. 9 deep say "Nanea". The Plain of 1:13–16, the 01-03 notes and chapters, and book.json (four times) all say "Nanaia", with "Nanaya" as the link name.
+N23, N40 and the ch. 9 deep say "Nanea". The Plain English Translation of 1:13–16, the 01-03 notes and chapters, and book.json (four times) all say "Nanaia", with "Nanaya" as the link name.
 
 **Fix:** "Nanaia" throughout.
 
@@ -157,7 +157,7 @@ N23, N40 and the ch. 9 deep say "Nanea". The Plain of 1:13–16, the 01-03 notes
 
 ### 10. MINOR: factual slips
 
-- **N47 (10:6).** "Hezekiah's cleansing of the Temple took eight days." 2 Chronicles 29:17 gives eight days to reach the porch and eight more for the house: sixteen in all. The site's Plain says so. Write "two spans of eight days".
+- **N47 (10:6).** "Hezekiah's cleansing of the Temple took eight days." 2 Chronicles 29:17 gives eight days to reach the porch and eight more for the house: sixteen in all. The site's Plain English Translation says so. Write "two spans of eight days".
 - **N48 (10:6).** "Its verse just before draws on the martyrs (Hebrews 11:35)." 11:35 is three verses before 11:38. Write "a few verses earlier".
 - **N66 (11:6).** "Raphael travels with Tobias unseen (Tobit 5:4)." He is seen, but not recognized ("he did not know that he was an angel of God"). Write "unrecognized".
 - **N0 (8:1).** The title "a word this book coined" claims more than "first found in 2 Maccabees", which is all the evidence supports. Retitle: "'Judaism': a word first found here".
@@ -207,7 +207,7 @@ The `why` reconstructs ΤΑΣΔΕΤΑΣ (τάσδε τάς). That is the reading
 
 ### 17. MINOR: glosses
 
-- 9:4 "his charioteer → the driver of his war chariot or carriage" and 11:12 "stripped of their arms → having thrown away their weapons as they fled" only restate the Plain.
+- 9:4 "his charioteer → the driver of his war chariot or carriage" and 11:12 "stripped of their arms → having thrown away their weapons as they fled" only restate the Plain English Translation.
 - 11:30 "Xanthicus, about March to April" and 10:5 "Kislev" are good. 11:5 "schoinoi … about three and a half miles" is right at 30 stades.
 
 ### 18. MINOR: cross-references back from the 66 books (for the coordinator)
@@ -309,8 +309,8 @@ The web-fetch budget for the session ran out partway through. Items marked "not 
 **Fixed (writer, 2026-10-24):**
 - **1 (critical), N37 (9:22).** The note now says the narrator uses *apelpisas* (9:18) and the king uses *ouk apoginōskōn* (9:22): two different verbs.
 - **2 (critical), N26 (9:5).** It now says that 7:35 has *epoptēs* beside "the Almighty", and that *pantepoptēs* is the fuller title used here. The uniqueness claim is gone.
-- **3, 9:24.** The Plain now follows A: "and some further trouble came". There is a new variant against V (ἢ καὶ προσαγγελθῇ), with the Latin, the KJV and the Douay.
-- **3, 11:29.** The Plain now follows A's nominative: "Menelaus has told us that he wants you to come home". There is a new variant for V's βουλεσθαι, the Latin, the KJV and the Douay, which also reports A's ημας and its first-hand Ιουδαιοις. N76 was adjusted to match.
+- **3, 9:24.** The Plain English Translation now follows A: "and some further trouble came". There is a new variant against V (ἢ καὶ προσαγγελθῇ), with the Latin, the KJV and the Douay.
+- **3, 11:29.** The Plain English Translation now follows A's nominative: "Menelaus has told us that he wants you to come home". There is a new variant for V's βουλεσθαι, the Latin, the KJV and the Douay, which also reports A's ημας and its first-hand Ιουδαιοις. N76 was adjusted to match.
 - **3, 8:35.** New variant: A εὐημερηκώς against the Latin *summam infelicitatem … consecutus*, the KJV "very great dishonour" and the Douay. A is kept. I did not cite δυσημερήσας, because I could not check it.
 - **4, quotations.** I re-copied these from the current `grc` and the apparatus by script:
   - 9:15 ἐκτρῖψαι and 11:28 εἴη ἂν;

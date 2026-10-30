@@ -39,11 +39,11 @@ if(!old){
   items.push({kind:'topic', text:`${Object.keys(now.topics).length} topic pages, each gathering one subject from across the collection.`});
 } else {
   for(const [id, b] of Object.entries(now.books)){ const o = old.books[id], at = `/${id}`;
-    if(!o){ items.push({kind:'new', link:at, text:`Added ${b.name}: a Plain English translation of ${b.chapters === 1 ? 'the whole book' : `all ${b.chapters} chapters`}, with ${plural(b.nn, 'study note')}${b.nv ? ` and ${plural(b.nv, 'manuscript difference')} explained` : ''}.`}); continue; }
+    if(!o){ items.push({kind:'new', link:at, text:`Added ${b.name}: a Plain English Translation of ${b.chapters === 1 ? 'the whole book' : `all ${b.chapters} chapters`}, with ${plural(b.nn, 'study note')}${b.nv ? ` and ${plural(b.nv, 'manuscript difference')} explained` : ''}.`}); continue; }
     const pc = Object.keys(b.plain).filter(c => b.plain[c] !== o.plain[c]);
     const nc = [...new Set([...Object.keys(b.notes), ...Object.keys(o.notes)])].filter(c => b.notes[c] !== o.notes[c]);
     const ch = b.chapters === 1 ? '' : ' ';
-    if(pc.length) items.push({kind:'revised', link:at, text:`Revised the Plain English translation of ${b.name}${ch ? ch + runs(pc) : ''}.`});
+    if(pc.length) items.push({kind:'revised', link:at, text:`Revised the Plain English Translation of ${b.name}${ch ? ch + runs(pc) : ''}.`});
     if(nc.length) items.push({kind:'revised', link:at, text:`${b.nn > o.nn ? `Added ${plural(b.nn - o.nn, 'study note')} and updated others` : 'Updated the study notes'} in ${b.name}${ch ? ch + runs(nc) : ''}.`});
     if(b.nv > o.nv) items.push({kind:'revised', link:at, text:`${plural(b.nv - o.nv, 'more manuscript difference')} explained in ${b.name}.`});
   }

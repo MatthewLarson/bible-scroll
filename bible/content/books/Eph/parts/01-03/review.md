@@ -1,14 +1,14 @@
 # Hostile review: Ephesians 1-3 (part 01-03) and book.json
 
-Reviewed against texts/orig/Eph.json (SBL and Byzantine columns), the brief set, and `node tools/build.js --check Eph/01-03` (0 errors, 0 warnings). The review covers the Plain, notes, variants, glosses, chapter pages, topics, sources and book.json. Outside sources were not re-fetched, so items marked "verify" rest on memory.
+Reviewed against texts/orig/Eph.json (SBL and Byzantine columns), the brief set, and `node tools/build.js --check Eph/01-03` (0 errors, 0 warnings). The review covers the Plain English Translation, notes, variants, glosses, chapter pages, topics, sources and book.json. Outside sources were not re-fetched, so items marked "verify" rest on memory.
 
 ## Verdict
 
-This is a careful, mostly sound part. The Plain tracks the Greek closely, the authorship question is handled even-handedly (both camps get their strongest arguments and named scholars), the settings cover every unit, and the cards are generally sourced to real documents. I found no invented sources. The real problems are:
+This is a careful, mostly sound part. The Plain English Translation tracks the Greek closely, the authorship question is handled even-handedly (both camps get their strongest arguments and named scholars), the settings cover every unit, and the cards are generally sourced to real documents. I found no invented sources. The real problems are:
 
-- One false claim in a note about what the Plain does (3:5 "hos").
+- One false claim in a note about what the Plain English Translation does (3:5 "hos").
 - One mis-reported variant witness (2:15: SBLGNT prints the reflexive).
-- Several topic-page quotations that are not the Plain's wording and match ESV/NASB wording.
+- Several topic-page quotations that are not the Plain English Translation's wording and match ESV/NASB wording.
 - A few unverified witness lists and a few factual slips (Gen 12:3 LXX, 3:2-7 word count, Polycarp "as Scripture").
 - Fairness issues in three cards (Lutheran election, Orthodox new Israel, Lutheran/Luther aside) and in the East/West theosis line.
 - Some drift toward NIV/ESV phrasing.
@@ -19,18 +19,18 @@ Counts: 0 critical, 7 major, 17 minor.
 
 ### Major
 
-1. **Major. notes.json 3:5 ("it was not made known to human beings") and plain.txt 3:5.** The note says "The Plain keeps the Greek *hos*, 'as'." The Plain does not: "In other generations it was not made known to human beings. Now it has been unveiled to his holy apostles and prophets." The Greek is `οὐκ ἐγνωρίσθη τοῖς υἱοῖς τῶν ἀνθρώπων ὡς νῦν ἀπεκαλύφθη`. Dropping "as" and starting a new sentence at "Now" turns a comparison into an absolute contrast, so the Plain makes the reading the note itself calls the correct one harder (and settles the covenant versus dispensational question in the dispensationalists' favor). Fix: restore "as", for example "was not made known to human beings in the way it has now been unveiled to...". Otherwise correct the note, but the sharpening is a translation defect.
+1. **Major. notes.json 3:5 ("it was not made known to human beings") and plain.txt 3:5.** The note says "The Plain English Translation keeps the Greek *hos*, 'as'." The Plain English Translation does not: "In other generations it was not made known to human beings. Now it has been unveiled to his holy apostles and prophets." The Greek is `οὐκ ἐγνωρίσθη τοῖς υἱοῖς τῶν ἀνθρώπων ὡς νῦν ἀπεκαλύφθη`. Dropping "as" and starting a new sentence at "Now" turns a comparison into an absolute contrast, so the Plain English Translation makes the reading the note itself calls the correct one harder (and settles the covenant versus dispensational question in the dispensationalists' favor). Fix: restore "as", for example "was not made known to human beings in the way it has now been unveiled to...". Otherwise correct the note, but the sharpening is a translation defect.
 
-2. **Major. variants.json 2:15.** The entry says SBLGNT, NA28 and THGNT all read `ἐν αὐτῷ` ("in him") and the Byzantine text `ἐν ἑαυτῷ`. In texts/orig/Eph.json the SBLGNT column reads `ἐν αὑτῷ`, the reflexive "in himself" (the Westcott-Hort reading). So the editions themselves split: SBLGNT and Byzantine/TR both read "in himself", while NA28 and (I believe, verify) THGNT read "in him". The "why" calls the reflexive "a natural smoothing" of later manuscripts, which misdescribes the situation. The difference is a breathing, which is an editorial choice since the uncials have none. The Plain follows NA28, not the SBLGNT the site otherwise leans on. Fix: restate the witnesses as "NA28 and THGNT `αὐτῷ`; SBLGNT, WH, Byzantine and TR `αὑτῷ`/`ἑαυτῷ`", say that the manuscripts cannot distinguish the breathings, and give the real reason (the "in him" refrain of 1:3-14, versus the reflexive pointing to Christ as subject). Also check the 2:15 `b` note, which repeats the smoothing claim.
+2. **Major. variants.json 2:15.** The entry says SBLGNT, NA28 and THGNT all read `ἐν αὐτῷ` ("in him") and the Byzantine text `ἐν ἑαυτῷ`. In texts/orig/Eph.json the SBLGNT column reads `ἐν αὑτῷ`, the reflexive "in himself" (the Westcott-Hort reading). So the editions themselves split: SBLGNT and Byzantine/TR both read "in himself", while NA28 and (I believe, verify) THGNT read "in him". The "why" calls the reflexive "a natural smoothing" of later manuscripts, which misdescribes the situation. The difference is a breathing, which is an editorial choice since the uncials have none. The Plain English Translation follows NA28, not the SBLGNT the site otherwise leans on. Fix: restate the witnesses as "NA28 and THGNT `αὐτῷ`; SBLGNT, WH, Byzantine and TR `αὑτῷ`/`ἑαυτῷ`", say that the manuscripts cannot distinguish the breathings, and give the real reason (the "in him" refrain of 1:3-14, versus the reflexive pointing to Christ as subject). Also check the 2:15 `b` note, which repeats the smoothing claim.
 
-3. **Major. topics.json: quotations that are not the Plain and that match ESV/NASB wording.**
-   - `grace`: "the surpassing riches of his grace" (2:7). The Plain says "how very rich his grace is". "Surpassing riches" is NASB/RSV wording.
-   - `grace`, `faith`, `salvation`: "by grace you have been saved". The Plain reads "It is by grace that you have been saved".
-   - `temple`: "grows into a holy temple in the Lord". The Plain reads "it is growing up as a temple that is holy in the Lord"; the quoted phrase is the ESV's.
-   - `paul`: "the unsearchable riches of Christ". The Plain says "riches no one can trace out"; "unsearchable riches" is the KJV/ESV rendering.
-   - `glory`: "riches of the glory" (1:18). The Plain says "the wealth of the glory".
+3. **Major. topics.json: quotations that are not the Plain English Translation and that match ESV/NASB wording.**
+   - `grace`: "the surpassing riches of his grace" (2:7). The Plain English Translation says "how very rich his grace is". "Surpassing riches" is NASB/RSV wording.
+   - `grace`, `faith`, `salvation`: "by grace you have been saved". The Plain English Translation reads "It is by grace that you have been saved".
+   - `temple`: "grows into a holy temple in the Lord". The Plain English Translation reads "it is growing up as a temple that is holy in the Lord"; the quoted phrase is the ESV's.
+   - `paul`: "the unsearchable riches of Christ". The Plain English Translation says "riches no one can trace out"; "unsearchable riches" is the KJV/ESV rendering.
+   - `glory`: "riches of the glory" (1:18). The Plain English Translation says "the wealth of the glory".
 
-   STYLE and CLAUDE.md require note and topic quotes to be the Plain verbatim, and copyrighted translation text is not allowed in content. Fix: replace each with the Plain's exact words.
+   STYLE and CLAUDE.md require note and topic quotes to be the Plain English Translation verbatim, and copyrighted translation text is not allowed in content. Fix: replace each with the Plain English Translation's exact words.
 
 4. **Major. chapters.json ch.1 election card, Lutheran entry.** "God has chosen to save all who come to Christ in faith" blurs the Lutheran position into foreseen-faith election. Formula of Concord SD XI teaches that election is "in Christ", is a cause of salvation (a comfort for the believer), and does not rest on anything in the person; it is the later orthodox *intuitu fidei* line that speaks of faith foreseen. The card's closing line ("decline to say why some believe and others do not") is accurate, but the first sentence makes the Lutheran answer look the same as the Methodist one. Fix: state what the Epitome and Solid Declaration actually say (election revealed in Christ, applied only to the called, no speculation about the rest), and say that some Lutheran orthodox writers added "in view of faith".
 
@@ -70,7 +70,7 @@ Counts: 0 critical, 7 major, 17 minor.
 
 19. **Minor. plain.txt 3:14-15.** `3:14 ... before the Father,` ends in a comma and 3:15 starts a new capitalized sentence ("Every family..."). A comma before a capital is a punctuation fault and breaks the relative sense of Greek `ἐξ οὗ`. Use a period at 3:14 or a dash, or "from whom every family...".
 
-20. **Minor. plain.txt 3:12.** "Through faith in him we have freedom of speech and access" drops `ἐν ᾧ` ("in whom"), one of the letter's "in him" refrains. Restore ("In him we have..."). The pistis note itself is fair and consistent with the Romans 3:22 Plain ("faith in Jesus Christ"); it correctly names Hays, Campbell, Dunn, Moo and Fitzmyer. One gap: most Ephesians commentators (Lincoln, Hoehner, Best, O'Brien) take the objective sense here, which could be stated.
+20. **Minor. plain.txt 3:12.** "Through faith in him we have freedom of speech and access" drops `ἐν ᾧ` ("in whom"), one of the letter's "in him" refrains. Restore ("In him we have..."). The pistis note itself is fair and consistent with the Romans 3:22 Plain English Translation ("faith in Jesus Christ"); it correctly names Hays, Campbell, Dunn, Moo and Fitzmyer. One gap: most Ephesians commentators (Lincoln, Hoehner, Best, O'Brien) take the objective sense here, which could be stated.
 
 21. **Minor. plain.txt drift toward published translations.** The wording is mostly the literal line, but several clauses follow the NIV or ESV closely, enough to fix:
     - 2:8-9: "It is by grace that you have been saved, through faith ... so that no one can boast" (the NIV has "by grace you have been saved, through faith ... so that no one can boast").
@@ -97,11 +97,11 @@ Counts: 0 critical, 7 major, 17 minor.
 
 29. **Minor. notes.json 2:3.** Augustine's source key is `augustine-spirit-letter` (*On the Spirit and the Letter*), but the classic citations of Eph 2:3 against Pelagius are *On Marriage and Concupiscence* 2 and *On Forgiveness of Sins* 1. Add or substitute, and give the Pelagian reading's source (Pelagius's own Ephesians commentary, or Julian).
 
-30. **Minor. notes.json 2:2.** The note leaves out the grammatical oddity that `τοῦ πνεύματος` is genitive and cannot be in apposition to `τὸν ἄρχοντα` (accusative); the Plain ("the ruler..., the spirit who is now active") resolves it silently. Say so.
+30. **Minor. notes.json 2:2.** The note leaves out the grammatical oddity that `τοῦ πνεύματος` is genitive and cannot be in apposition to `τὸν ἄρχοντα` (accusative); the Plain English Translation ("the ruler..., the spirit who is now active") resolves it silently. Say so.
 
 31. **Minor. topics.json `faith`.** "Faith is Christ's gift to the readers" is unsupported; 2:8 says the gift is "God's" and the antecedent of "this" is debated (the note itself). Remove.
 
-32. **Minor. book.json "Where this book stands" versus the 1:1 note.** The Plain "calls it Paul's letter, as the text does" while the brief and the facts say "traditionally Paul". The wording is slightly inconsistent between "treats Paul as the letter's author" and "traditionally Paul"; use one formula.
+32. **Minor. book.json "Where this book stands" versus the 1:1 note.** The Plain English Translation "calls it Paul's letter, as the text does" while the brief and the facts say "traditionally Paul". The wording is slightly inconsistent between "treats Paul as the letter's author" and "traditionally Paul"; use one formula.
 
 33. **Minor. notes.json 1:21.** "This is one reason some scholars see here a later, more settled view" for the two-ages scheme is weak (2 Cor 5:17 and Gal 1:4 already show the age to come touching the present). Either give a scholar or drop. Also "they are 'above' nothing" is garbled.
 
@@ -111,16 +111,16 @@ Counts: 0 critical, 7 major, 17 minor.
 
 - Greek counts: 1:3-14 is 202 words and 1:15-23 is 169 (SBL).
 - Variants 1:18, 2:17, 3:3, 3:9 and 3:14 are consistent with the repo's SBL and Byzantine columns; 3:3's "added that" (ὅτι) is right per texts/orig.
-- Quoted verses (Exodus 25:8, Psalm 132:13, Isaiah 28:16) and Romans 3:22 match the current Plain.
+- Quoted verses (Exodus 25:8, Psalm 132:13, Isaiah 28:16) and Romans 3:22 match the current Plain English Translation.
 - Confessional references checked from memory and found accurate: WCF 1.1, 3.5, 11, 14.1, 18.2, 19, 25; Augsburg Confession IV and VII; Formula of Concord Epitome summary quotation; Articles 6, 11, 12, 17, 19; CCC 66-67, 153, 861, 1037, 1295-1296, 1961-1964, 1996, 2008-2011; LG 7-9, 20; NA 4; Dei Verbum 4; BFM 2000 articles 1, 4, 5, 6 (election wording correct).
 - Josephus *War* 5.193-194 and 6.124-126 (Temple warning), Martyrdom of Polycarp 3:2 and 9:2, Ignatius to the Ephesians 12:2, 17:1 and 19:1, Tertullian *Against Marcion* 5.11 and 5.17, Basil *Against Eunomius* 2.19, Pesahim 54a, 1QS 8, the Ara Pacis date (9 BC), Augustus as *pater patriae* (2 BC), and the Priene calendar inscription (about 9 BC) are plausible and match what I know.
 - `--check Eph/01-03` shows 0 errors and 0 warnings; no em-dashes in the content.
 
 ## Fixes applied
 
-1. Accepted. Plain 3:5 now reads "not made known to human beings in the way it has now been unveiled to his holy apostles and prophets"; the note says the Plain keeps the comparison ("as").
+1. Accepted. Plain English Translation 3:5 now reads "not made known to human beings in the way it has now been unveiled to his holy apostles and prophets"; the note says the Plain English Translation keeps the comparison ("as").
 2. Accepted. Checked against texts/orig/Eph.json: SBLGNT prints ἐν αὑτῷ, Byzantine ἐν ἑαυτῷ. The variant now gives NA28 "in him" (THGNT marked "as reported, not rechecked") against SBLGNT, Byzantine and TR "in himself", says the manuscripts cannot show a breathing, and drops the "smoothing" claim in the why and the note.
-3. Accepted. All five topic-page quotes now use the Plain's wording (grace, faith, temple, paul, glory); "by grace you have been saved" became "It is by grace that you have been saved".
+3. Accepted. All five topic-page quotes now use the Plain English Translation's wording (grace, faith, temple, paul, glory); "by grace you have been saved" became "It is by grace that you have been saved".
 4. Accepted. Lutheran election card rewritten from Formula of Concord SD XI: election in Christ, known through the gospel, a cause of salvation and a comfort, resting on nothing in the person, no speculation about why some believe; the later "in view of faith" (intuitu fidei) line is named as a later addition (marked as reported, not rechecked).
 5. Accepted. The 3:19 note, the ch.3 T lens and the theosis topic no longer set East against West: the Orthodox theosis reading, Catholic divinization (CCC 460, quoting Athanasius and Aquinas), the maturity reading and the Wesleyan perfect-love reading are all given; "none" removed. CCC 1988 left out (not stated with confidence); no new source keys added; Athanasius is cited only as quoted in CCC 460.
 6. Accepted. Lutheran church/Israel row now gives the Lutheran view in its own terms (Augsburg Confession VII; teachers differ on Romans 9-11); the Luther/ELCA aside is removed rather than matched in other rows.
@@ -147,13 +147,13 @@ Counts: 0 critical, 7 major, 17 minor.
 27. Accepted. 1:14 note: "an engagement".
 28. Accepted. Ch.2 T lens: 2:20 "is cited in support of" apostolic succession.
 29. Partly accepted. 2:3 note names the anti-Pelagian writings (On Marriage and Concupiscence, marked as reported, not rechecked) and Pelagius's commentary on Paul. No new source keys added (none verifiable here).
-30. Accepted. 2:2 note explains the genitive "spirit" and that the Plain smooths it.
+30. Accepted. 2:2 note explains the genitive "spirit" and that the Plain English Translation smooths it.
 31. Accepted. "Faith is Christ's gift to the readers" removed from the faith topic.
-32. Accepted. book.json now says the Plain "follows the text, which names Paul as the writer" and that the book page says "traditionally Paul".
+32. Accepted. book.json now says the Plain English Translation "follows the text, which names Paul as the writer" and that the book page says "traditionally Paul".
 33. Accepted. 1:21 notes: scholar-less claim reworded with 2 Corinthians 5:17 and Galatians 1:4, and "above nothing" fixed.
 34. No change needed (acceptable per the review).
 
-Quotes of changed Plain verses in other books: none found for 1:4, 2:15, 3:1, 3:5, 3:12 or 3:14-15 (searched the exact new and old wording). Plain verses changed: 1:4, 3:1, 3:5, 3:12, 3:14, 3:15. Check: 0 errors, 0 warnings.
+Quotes of changed Plain English Translation verses in other books: none found for 1:4, 2:15, 3:1, 3:5, 3:12 or 3:14-15 (searched the exact new and old wording). Plain English Translation verses changed: 1:4, 3:1, 3:5, 3:12, 3:14, 3:15. Check: 0 errors, 0 warnings.
 
 ## Verification pass (2026-10-29)
 

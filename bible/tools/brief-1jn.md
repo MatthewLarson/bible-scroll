@@ -1,7 +1,7 @@
 # 1 John: brief for the writer
 
 Read tools/brief-nt.md, brief-pauline.md, brief-pauline2.md and brief-general.md first, then the Gospel of John's
-Plain (content/books/Jhn/: 1 John's wording must follow John's wherever the Greek is the same) and the `john` and
+Plain English Translation (content/books/Jhn/: 1 John's wording must follow John's wherever the Greek is the same) and the `john` and
 `gospel-of-john` topics. Book id `1Jn`. 5 chapters, 105 verses. Lenses H C L J T. One part, flat folder
 `content/books/1Jn/`, one writer, owns book.json. 2 and 3 John are being written at the same time by another writer:
 list every 1 John / 2 John pair in your report (2:7-8 / 2 John 5; 4:1-3 / 2 John 7; 2:18-23 / 2 John 7-9; 1:4 / 2 John
@@ -27,7 +27,7 @@ entry); ἀντίχριστος lower case; χρῖσμα (2:20, 27) "anointing"
 τεκνία / παιδία "little children" / "children"; ὁμολογέω "confess" (1:9; 2:23; 4:2-3, 15); σπέρμα (3:9) "seed" (the
 readings in a note); ὁ πονηρός "the evil one"; ἀνομία "lawlessness" (3:4; brief-pauline2.md "the man of lawlessness"
 for 2 Thessalonians 2:3); κόσμος "the world"; ὁ ἀληθινός "the true one"; ἐξ ἀρχῆς / ἀπ' ἀρχῆς "from the beginning"
-(John 1:1 "In the beginning"; 8:44 "from the beginning": follow the Gospel's Plain); μονογενής (4:9) as John 3:16 Plain
+(John 1:1 "In the beginning"; 8:44 "from the beginning": follow the Gospel's Plain English Translation); μονογενής (4:9) as John 3:16 Plain English Translation
 ("his only Son"; check John 1:14, 18 and follow them); ἡ ζωὴ ἡ αἰώνιος "eternal life".
 
 **Present tense and sin (3:6-9; 5:18 against 1:8-10).** Decide one rendering for the habitual present and keep it:
@@ -47,10 +47,10 @@ greeting, no ending: a tract or homily), the date (90s, traditionally; earlier o
 structure (no agreed outline: views), antithesis (light and darkness, truth and lie, love and hate), the "if we say"
 lines (1:6, 8, 10), the "by this we know" sayings, the six "I am writing" lines (2:12-14: the readings of the two sets of
 three), the ending without a farewell. **J:** the Dead Sea Scrolls' light and darkness, the spirit of truth and the spirit
-of error (1QS 3:13-4:26, the Two Spirits: verify; topic: check `dead-sea-scrolls`), Cain (Genesis 4 Plain; the Jewish
+of error (1QS 3:13-4:26, the Two Spirits: verify; topic: check `dead-sea-scrolls`), Cain (Genesis 4 Plain English Translation; the Jewish
 tradition of Cain as the devil's offspring: Targum Pseudo-Jonathan Genesis 4:1: verify), the sin that leads to death
-(Numbers 15:30-31 "high-handed" sin; Leviticus 4 unintentional sins: quote the Plain), idols (5:21), confession of sin
-(Leviticus 16:21; Psalm 32:5 Plain). **T:** 4:8, 16 "God is love" in the fathers and Augustine (*Homilies on 1 John*:
+(Numbers 15:30-31 "high-handed" sin; Leviticus 4 unintentional sins: quote the Plain English Translation), idols (5:21), confession of sin
+(Leviticus 16:21; Psalm 32:5 Plain English Translation). **T:** 4:8, 16 "God is love" in the fathers and Augustine (*Homilies on 1 John*:
 verify), the Johannine Comma in the Latin church and Erasmus (the history: Erasmus' editions of 1516 and 1519 without it,
 1522 with it, after Codex 61 (Montfortianus): verify every date and fact in an opened source; the Vulgate manuscripts;
 the 1897 Holy Office decree and its 1927 qualification: verify), 2:2 and limited atonement (Calvin's comment on 2:2:
@@ -65,16 +65,16 @@ use with James 5:16 and John 20:23): check whether the Jas writer's 5:16 card co
 **2:1-2** (the Advocate; ἱλασμός; "not only for ours but also for the sins of the whole world": a `traditions` card, top
 `election` or a new id only if needed (check `atonement`): unlimited atonement (Catholic, Orthodox, Lutheran, Arminian,
 Wesleyan) against particular redemption (Dort, Westminster, Particular Baptists), with the Amyraldian and
-hypothetical-universalist middle (verify each source); never rank); 2:7-8 (old and new commandment; John 13:34 Plain);
+hypothetical-universalist middle (verify each source); never rank); 2:7-8 (old and new commandment; John 13:34 Plain English Translation);
 2:12-14 (the tenses: "I am writing" and "I wrote"); 2:15-17 ("the desire of the flesh, the desire of the eyes, the pride
 in possessions": readings); **2:18-27** (antichrist; "the last hour"; "you all know" or "you know all things": the
 variant οἴδατε πάντες / πάντα; the anointing; topic `antichrist`); 2:28-3:3 ("we will be like him, because we will see him
 as he is": theosis in Orthodox reading, the beatific vision in Catholic teaching: a note, card only if documented);
-3:4; 3:8-12 (Cain; "the children of the devil"); 3:15; 3:16 ("he laid down his life": John 10:11; 15:13 Plain);
+3:4; 3:8-12 (Cain; "the children of the devil"); 3:15; 3:16 ("he laid down his life": John 10:11; 15:13 Plain English Translation);
 3:19-20; **4:1-3** (testing the spirits; variant **4:3 λύει "dissolves / does away with Jesus"** (Latin *solvit*,
 Irenaeus, Origen per Socrates' *Church History* 7.32: verify) against μὴ ὁμολογεῖ "does not confess"); 4:8, 16; 4:9-10;
 4:18; 4:19 ("we love him" (KJV) / "we love"); 4:20; 5:4-5; **5:6-8** (water and blood: Jesus' baptism and death, the
-sacraments, John 19:34 (Plain); the readings) and **5:7-8 the Johannine Comma** (the Plain follows the critical text:
+sacraments, John 19:34 (Plain English Translation); the readings) and **5:7-8 the Johannine Comma** (the Plain English Translation follows the critical text:
 "For there are three that testify: the Spirit, the water and the blood, and these three agree." The KJV's added words
 "in heaven, the Father, the Word, and the Holy Ghost: and these three are one. And there are three that bear witness in
 earth" go in a variants.json entry with their witnesses (only those verified: no Greek manuscript before the

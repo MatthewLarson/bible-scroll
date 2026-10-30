@@ -4,7 +4,7 @@ Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.j
 
 ## Verdict
 
-This is a strong, careful part. The Plain is rebuilt from the Hebrew, reads as poetry, and keeps the hard places hard: 138:2, 139:11, 139:16, 139:20, 141:5–7, 143:9 and 144:12–14 all have honest notes. I found no close NIV/ESV drift. Most witness claims check out against the data: the 11QPs-a readings at 138:2, 139:11, 139:16, 140:3 (*'akkavish*), 141:5, 141:7, 144:2, 145:0, 145:5, 145:13, 145:20, 146:9, 149:9 and 150:6, and the Swete/Vaticanus readings at 137:8, 138:12, 138:16, 140:6, 142:10, 148:14 and in the Greek titles. Most of the liturgical claims I could test also hold up. Every psalm has a settings card with `readers`, a Greek number in its summary, and the Hebrew numbering note appears once (138:0). The Greek split of 147 at 147:12 is handled correctly. The problems are these:
+This is a strong, careful part. The Plain English Translation is rebuilt from the Hebrew, reads as poetry, and keeps the hard places hard: 138:2, 139:11, 139:16, 139:20, 141:5–7, 143:9 and 144:12–14 all have honest notes. I found no close NIV/ESV drift. Most witness claims check out against the data: the 11QPs-a readings at 138:2, 139:11, 139:16, 140:3 (*'akkavish*), 141:5, 141:7, 144:2, 145:0, 145:5, 145:13, 145:20, 146:9, 149:9 and 150:6, and the Swete/Vaticanus readings at 137:8, 138:12, 138:16, 140:6, 142:10, 148:14 and in the Greek titles. Most of the liturgical claims I could test also hold up. Every psalm has a settings card with `readers`, a Greek number in its summary, and the Hebrew numbering note appears once (138:0). The Greek split of 147 at 147:12 is handled correctly. The problems are these:
 - The 145:13 case rests partly on a first-person "I have seen it myself" claim about a damaged fourteenth-century Christian quadrilingual psalter, and it gives that witness more weight than it can bear.
 - A "(cited from memory, not rechecked)" remark was left in the published 143:10 note, and the chapter page states the opposite of the main Greek text.
 - A `spec` note presents a published observation (k-l-m = *mlk*) as Claude's own.
@@ -30,7 +30,7 @@ None of this is critical. Severity count: **0 critical, 5 major, 17 minor.**
 - Remove the first person. Write something like "the Hebrew column of Cambridge University Library MS Or. 929, a fourteenth-century Hebrew–Greek–Syriac–Arabic psalter, has the line at a damaged line-start (Source Library transcription)", and describe it as dependent and late.
 - Correct "some medieval Hebrew manuscripts" to one (Kennicott 142).
 - Add 11QPs-a's expansionist character to the `why`.
-- Keep the Plain's choice. Printing the line is defensible, and most modern versions do so.
+- Keep the Plain English Translation's choice. Printing the line is defensible, and most modern versions do so.
 
 The deep section's Talmud summary (Berakhot 4b) is accurate, and so is the 145:14 "In the West" reading.
 
@@ -82,7 +82,7 @@ The 139:12 and 148:14 notes do correctly say "Vaticanus". That is the model to f
 **Where:** variants.json 144:2 `why`, `w`.
 
 **What is wrong:**
-- The `why` quotes Psalm 18:47 as God "brings peoples down beneath me". The site's Plain of 18:47 reads "who brings nations down beneath me", and the part's own 144:1 note quotes it that way. 2 Samuel 22:48 on the site reads "who lays nations low beneath me".
+- The `why` quotes Psalm 18:47 as God "brings peoples down beneath me". The site's Plain English Translation of 18:47 reads "who brings nations down beneath me", and the part's own 144:1 note quotes it that way. 2 Samuel 22:48 on the site reads "who lays nations low beneath me".
 - The witness list leaves out 11QPs-b (11Q6), which also reads עמים in dss.txt, and the Syriac.
 - The rejected reading's best defense is not given. Some readers (and the MT as it stands) understand "my people" as subjects God makes obedient to the king, as in 18:43 (2 Samuel 22:44 "my own people's feuds").
 
@@ -105,22 +105,22 @@ The 139:12 and 148:14 notes do correctly say "Vaticanus". That is the model to f
 ### 9. Minor: the 139:11 note contradicts itself and leaves out a Greek difference.
 **Where:** notes.json 139:11.
 
-**What is wrong:** The note ends "The Plain keeps the Hebrew, which has the support of every early witness", yet it has just said Jerome's Hebrew Psalter reads *operient me*, "will cover me". The same note skips the Greek's very different second line, "and night is light in my delight" (ἐν τῇ τρυφῇ μου, Swete 138:11).
+**What is wrong:** The note ends "The Plain English Translation keeps the Hebrew, which has the support of every early witness", yet it has just said Jerome's Hebrew Psalter reads *operient me*, "will cover me". The same note skips the Greek's very different second line, "and night is light in my delight" (ἐν τῇ τρυφῇ μου, Swete 138:11).
 
 **Fix:** Write "the support of the Greek, the Gallican Latin and 11QPs-a". Optionally add the *tryphē* reading.
 
 ### 10. Minor: 140:7, the list of reversed YHWH Adonai is incomplete.
 **Where:** notes.json 140:7.
 
-**What is wrong:** The note says "Here, and in 109:21 and 141:8, the order is reversed, *YHWH Adonai*". The same order is in 68:20 (Hebrew 68:21), which the site's Plain renders "to the LORD, the Lord", and in Habakkuk 3:19.
+**What is wrong:** The note says "Here, and in 109:21 and 141:8, the order is reversed, *YHWH Adonai*". The same order is in 68:20 (Hebrew 68:21), which the site's Plain English Translation renders "to the LORD, the Lord", and in Habakkuk 3:19.
 
 **Fix:** Add both, and note how the site renders 68:20.
 
-### 11. Minor: quotations that do not match the site's Plain.
+### 11. Minor: quotations that do not match the site's Plain English Translation.
 **Where:** notes.json 142:5 and 139:11.
 
 **What is wrong:**
-- 142:5 puts "The LORD is my allotted share" in quotation marks for 16:5; 73:26; 119:57; Lamentations 3:24. None of the site's Plain matches: 16:5 "The LORD is the share I was given"; 73:26 "my share, is God forever"; 119:57 "My share is the LORD".
+- 142:5 puts "The LORD is my allotted share" in quotation marks for 16:5; 73:26; 119:57; Lamentations 3:24. None of the site's Plain English Translation matches: 16:5 "The LORD is the share I was given"; 73:26 "my share, is God forever"; 119:57 "My share is the LORD".
 - 139:11 quotes Genesis 3:15 as "he will crush your head"; the site's Genesis reads "He will strike you on the head".
 
 The build did not warn, probably because of the multi-reference lists, but STYLE.md requires the site's wording.
@@ -160,9 +160,9 @@ The build did not warn, probably because of the multi-reference lists, but STYLE
 ### 16. Minor: a gloss and a summary go past their notes.
 **Where:**
 - glosses.json 144:14, "no breach and no going out" => "no break in the walls and no going into exile". The 144:14 note gives two readings (military, or farming: no miscarriage), and the gloss quietly picks one.
-- chapters.json 138 `sum`: "he must not let go of the works of his hands". The Plain has "do not let them fall".
+- chapters.json 138 `sum`: "he must not let go of the works of his hands". The Plain English Translation has "do not let them fall".
 
-**Fix:** Hedge the gloss ("no break in the walls and no one carried off; or, of the herds, no miscarriage"). Make the summary and the Plain agree. *'Al-tereph* is "do not let go, do not abandon", so "do not let go of them" may be the better Plain.
+**Fix:** Hedge the gloss ("no break in the walls and no one carried off; or, of the herds, no miscarriage"). Make the summary and the Plain English Translation agree. *'Al-tereph* is "do not let go, do not abandon", so "do not let go of them" may be the better Plain English Translation.
 
 ### 17. Minor: small translation sharpenings and softenings.
 **Where:** plain.txt.
@@ -223,7 +223,7 @@ The build did not warn, probably because of the multi-reference lists, but STYLE
 Sources consulted for verification: [Working Preacher on Psalm 145:10–18](https://www.workingpreacher.org/commentaries/revised-common-lectionary/ordinary-17-2/commentary-on-psalm-14510-18-6); [TBS, "The Supposed Missing נ Verse in Psalm 145"](https://www.tbsbibles.org/page/psalm145); [Fihrist: Cambridge UL Or. 929](https://www.fihrist.org.uk/catalog/manuscript_15247); [Source Library, Quadrilingual Psalter, p. 365](https://sourcelibrary.org/book/69a5e65ce751f06e74b89aa5?page=365); [Septuagint Psalm 142 (Greek)](https://sacred-texts.com/bib/sep/psa142.htm), [Psalm 140](https://sacred-texts.com/bib/sep/psa140.htm), [Psalm 138](https://sacred-texts.com/bib/sep/psa138.htm).
 
 ## Fixes applied
-- **1 (145:13).** The first-person claims are gone from the note, the chapter page and the variant. Or. 929 is now described as a fourteenth-century psalter in Hebrew, Greek, Syriac and Arabic, copied by one scribe. Its Hebrew column is said to be dependent on the Greek and Syriac columns, not an independent witness, and its damaged first letters are noted. The medieval Hebrew support is now one manuscript, Kennicott 142, as reported in BHS; the Syriac is also given as reported in BHS. The `why` now covers the scroll's expansionist habits in this psalm (the refrain, "A prayer" at 145:0, "fear" at 145:20, the additions at 146:9 and 149:9). It also covers the 145:17b repetition and the three different wordings of the line. The copyist's eye-skip claim is dropped. The Plain's choice is kept.
+- **1 (145:13).** The first-person claims are gone from the note, the chapter page and the variant. Or. 929 is now described as a fourteenth-century psalter in Hebrew, Greek, Syriac and Arabic, copied by one scribe. Its Hebrew column is said to be dependent on the Greek and Syriac columns, not an independent witness, and its damaged first letters are noted. The medieval Hebrew support is now one manuscript, Kennicott 142, as reported in BHS; the Syriac is also given as reported in BHS. The `why` now covers the scroll's expansionist habits in this psalm (the refrain, "A prayer" at 145:0, "fear" at 145:20, the additions at 146:9 and 149:9). It also covers the 145:17b repetition and the three different wordings of the line. The copyist's eye-skip claim is dropped. The Plain English Translation's choice is kept.
 - **2 (143:10).** The "from memory" parenthesis is deleted. The note now gives Vaticanus "holy" and "in the level (way)", the other copies in Swete's apparatus "good" and "in a level land", and the Gallican *spiritus tuus bonus*. The Targum was checked: it reads *ruach qudshakh tava*, "your holy spirit, the good one", and the note says so. The chapter's X view and the settings card now name Vaticanus.
 - **3 (145:11).** The note now says the kaf-lamed-mem = *melekh* pattern is a well-known observation in commentary on this psalm. Only the inference about the missing nun line is labeled as Claude's guess. No commentator is cited by name, because I could not check which one (Berlin or Kimelman) makes the point.
 - **4.** New variant entries are 138:1, 141:7, 143:9, 147:8 and 145:12, plus title variants at 139:0 (Alexandrinus), 143:0, 144:0 and 146:1 (Haggai and Zechariah, also covering 147:1, 147:12 and 148:1). That brings variants.json to 22 entries. The 141:7 note is now a pointer of kind `com`, and the notes at 143:9, 145:12 and 147:9 point to the new entries. The 141:7 entry gives "their bones" from Swete's apparatus: a corrector of B, the correctors of Sinaiticus and Alexandrinus, and the Verona and Zurich Psalters.
@@ -238,8 +238,8 @@ Sources consulted for verification: [Working Preacher on Psalm 145:10–18](http
 - **13.** The "as reported" is dropped from Berakhot 61a on the 139 page. The Chrysostom sentence on 141 and the thirteen-praises claim on 150 are removed, not cited: I had no source in hand to check either. 145:9 now cites Bavli Bava Metzia 85a (Rabbi and the weasels).
 - **14.** The 148 X view now says "very much in the order of this psalm".
 - **15.** A section, "The daily Hallel: Psalms 145–150", is added to the `hallel` topic.
-- **16.** The 144:14 gloss now gives both readings. The 138 summary now matches the Plain ("must not let the works of his hands fall"); the Plain of 138:8 is unchanged.
-- **17.** The Plain now has 140:2 "they stir up wars", 142:7 "the prison", 147:13 "within you" and 150:5 "cymbals of the loud shout". The anchors and the music topic are updated to match.
+- **16.** The 144:14 gloss now gives both readings. The 138 summary now matches the Plain English Translation ("must not let the works of his hands fall"); the Plain English Translation of 138:8 is unchanged.
+- **17.** The Plain English Translation now has 140:2 "they stir up wars", 142:7 "the prison", 147:13 "within you" and 150:5 "cymbals of the loud shout". The anchors and the music topic are updated to match.
 - **18.** The 138:2 note now says "The Greek has the same line".
 - **19.** The 144:4 note is rewritten as Rashi's comment (Solomon in Ecclesiastes 6:12; his father David's "passing shadow", the shadow of a bird in flight). I checked this against Rashi; the bird image is not in the Midrash Tehillim text I have.
 - **20.** "Second Isaiah" is explained as Isaiah 40–55. "Eschatological" is replaced with "a hymn about the end of the age". "Doxology" is explained at its first use on the 146 and 150 pages and in the psalms topic.

@@ -1,16 +1,16 @@
 # Hostile review: Micah, part 01-04 (chapters 1-4) and book.json
 
-Reviewer: separate agent, 2026-10-28. Checked against `texts/orig/Mic.json`, `tools/literal.js`, `tools/dss.py Mic 1-4`, `tools/lxx.py`, the Isaiah 2:2-5, Jeremiah 26:16-19, Amos 7:16 and 2 Samuel 1:20 Plain, content/terms.json, and the briefs. `VERBOSE=1 node tools/build.js --check Mic/01-04` gives 0 errors, 0 warnings (54 verses, 89 notes, 19 variants, 27 glosses, 4 chapters, 34 topic contributions).
+Reviewer: separate agent, 2026-10-28. Checked against `texts/orig/Mic.json`, `tools/literal.js`, `tools/dss.py Mic 1-4`, `tools/lxx.py`, the Isaiah 2:2-5, Jeremiah 26:16-19, Amos 7:16 and 2 Samuel 1:20 Plain English Translation, content/terms.json, and the briefs. `VERBOSE=1 node tools/build.js --check Mic/01-04` gives 0 errors, 0 warnings (54 verses, 89 notes, 19 variants, 27 glosses, 4 chapters, 34 topic contributions).
 
 ## Verdict
 
-This is a strong, careful part. The Plain follows the Hebrew closely and I found no mistranslation of substance. Isaiah 2:2-4 and Micah 4:1-3 are handled correctly (the differences listed in the note and the "deep" box match the Hebrew, including `'alav` vs `'elav` and the final nun of `yilmedun`). Micah 3:12 matches the Jeremiah 26:18 Plain word for word. The scroll claims for 4Q82 and Mur88 all check out against the dss.py printout, including every "restored, so the scroll does not decide" caveat. The Septuagint readings match Swete. The five-view treatment of 1:13 and the 4:10 Babylon debate are fair. The weaknesses are:
+This is a strong, careful part. The Plain English Translation follows the Hebrew closely and I found no mistranslation of substance. Isaiah 2:2-4 and Micah 4:1-3 are handled correctly (the differences listed in the note and the "deep" box match the Hebrew, including `'alav` vs `'elav` and the final nun of `yilmedun`). Micah 3:12 matches the Jeremiah 26:18 Plain English Translation word for word. The scroll claims for 4Q82 and Mur88 all check out against the dss.py printout, including every "restored, so the scroll does not decide" caveat. The Septuagint readings match Swete. The five-view treatment of 1:13 and the 4:10 Babylon debate are fair. The weaknesses are:
 - book.json states the 5:1 numbering rule in a way that contradicts itself.
 - The two traditions cards contain unsourced attributions to churches, and the second card gives the Fathers to the wrong traditions and leaves out Lutherans and Baptists.
 - The 2:12-13 treatment has no Jewish reading at all, and its one patristic claim (Jerome) is unconfirmed.
 - Several scholar attributions cannot be confirmed from here.
 - A few notes carry speculative or unsupported side-claims.
-- The Plain echoes the NIV's phrasing in two places.
+- The Plain English Translation echoes the NIV's phrasing in two places.
 - The required formula notes (messenger formula, `ne'um`) are missing.
 
 Nothing is invented outright. Most fixes are softening or small additions.
@@ -22,7 +22,7 @@ Nothing is invented outright. Most fixes are softening or small additions.
 **1. book.json `facts` "Verse numbers": self-contradictory numbering rule.**
 - Text: "Chapters 1 to 4 and 6 to 7 are numbered alike in both" appears in the same entry that says "Hebrew chapter 4 has 14 [verses]". English chapter 4 has 13. Hebrew 4:14 is English 5:1, so chapter 4 is not numbered alike.
 - Evidence: `texts/orig/Mic.json` `wlc` has 4:1-13 and 5:1-15 (the English scheme), and the `heb` block covers chapter 5.
-- Fix: write "Chapters 1 to 3 and 6 to 7 are numbered alike. Hebrew chapter 4 has 14 verses; its last verse is English 5:1. English 4:1-13 equals Hebrew 4:1-13." Say once that the Plain, notes and cross-references use English numbers. The rule is also not stated at 4:13 in the chapter or the notes, though the brief says the 01-04 writer states it. Add a one-line note at 4:13 or in the chapter 4 summary, because a reader following a Hebrew-numbered commentary hits the shift at the end of this part.
+- Fix: write "Chapters 1 to 3 and 6 to 7 are numbered alike. Hebrew chapter 4 has 14 verses; its last verse is English 5:1. English 4:1-13 equals Hebrew 4:1-13." Say once that the Plain English Translation, notes and cross-references use English numbers. The rule is also not stated at 4:13 in the chapter or the notes, though the brief says the 01-04 writer states it. Add a one-line note at 4:13 or in the chapter 4 summary, because a reader following a Hebrew-numbered commentary hits the shift at the end of this part.
 
 **2. Traditions card 1 (4:3, `swords-into-plowshares`): attributions that no cited source makes.**
 - Catholic: "The passage describes the peace Christ's reign brings, not a ban on defense now." The Catechism paragraphs cited (2305, 2306, 2308-2309) say nothing about Micah 4:3 or Isaiah 2:4. This sentence is the writer's inference, labeled as the church's teaching. Remove it, or cite an actual Catholic exegete or document that says it.
@@ -44,18 +44,18 @@ Nothing is invented outright. Most fixes are softening or small additions.
 **4. 2:12-13: fairness and sourcing.**
 - The Jewish lens is missing for the passage. Chapter 2 `views.J` talks about "do not covet" and Makkot 23b-24a, not about the one place in the chapter that Jewish commentators, Targum, Rashi and Radak read directly. Add what they say about the breaker, or state that the Jewish reading has not been checked. I could not verify the Rashi, Radak or Targum wording from here, so do not put in specifics that were not read.
 - The Christian reading rests on "Jerome read 2:12-13 as the church gathered by Christ, the 'breaker' who goes ahead". The Vulgate renders the Hebrew with `pandens iter` ("opening the way"), and secondary sources attribute a Christological reading to Jerome. I could not confirm the Latin of his commentary. Per the writer's unverified list, soften to "Jerome, as reported in later commentaries, is said to have read..." or give the CCSL 76 page reference. The same claim appears in note 2:13, chapter 2 `views.X`, and the `jerome-twelve` key.
-- The Septuagint at 2:13 reads "through the breach (diakope) before them they broke through", with no person called "the breaker" (`tools/lxx.py Mic 2:13`). That is a textual point behind the three readings the writer lists, and there is no variant entry for it. Add a 2:13 variant: MT `happorets` (a person who breaks through) against the Greek "through the breach". The Plain follows the Hebrew.
+- The Septuagint at 2:13 reads "through the breach (diakope) before them they broke through", with no person called "the breaker" (`tools/lxx.py Mic 2:13`). That is a textual point behind the three readings the writer lists, and there is no variant entry for it. Add a 2:13 variant: MT `happorets` (a person who breaks through) against the Greek "through the breach". The Plain English Translation follows the Hebrew.
 - The third reading ("a minority reads 2:12-13 as judgment: ... the breaker is the enemy or the LORD breaking down the wall") is attributed to "some commentators" without names. Name two or label it as unattributed. The Greek "sheep in distress" (`ἐν θλίψει`) is cited as the support, and that is fine.
 - Scholar attributions to confirm or soften: "Wolff and Mays date 2:12-13 to the exile" and "Waltke ... a promise given in the crisis of 701 BC" (chapter 2 settings; note 2:13). I could not verify these page by page. Phrase them as "for example ... (check the commentary at 2:12-13)" or word them as "commentators such as Wolff and Mays regard it as later".
-- The Plain itself is neutral. "The place will be loud with people" leans to the salvation reading, but the Hebrew `tehimenah` allows either, and the notes say so.
+- The Plain English Translation itself is neutral. "The place will be loud with people" leans to the salvation reading, but the Hebrew `tehimenah` allows either, and the notes say so.
 
 ### Minor
 
 **5. Drift from NIV phrasing (describe only, no reproduction).**
-- 4:4: "Each person will sit under their own vine and under their own fig tree, and no one will terrify them". The run "under their own vine and under their own fig tree" matches the 2011 NIV's rendering with its singular "their". Hebrew "each man under his vine and fig tree" does not force "their own". Vary it, for example "Each person will have a vine and a fig tree to sit under". The Plain of 1 Kings 4:25 ("his own vine and his own fig tree") shows the site's usual form.
+- 4:4: "Each person will sit under their own vine and under their own fig tree, and no one will terrify them". The run "under their own vine and under their own fig tree" matches the 2011 NIV's rendering with its singular "their". Hebrew "each man under his vine and fig tree" does not force "their own". Vary it, for example "Each person will have a vine and a fig tree to sit under". The Plain English Translation of 1 Kings 4:25 ("his own vine and his own fig tree") shows the site's usual form.
 - 4:10: "for now you must leave the city and camp in open country ... There you will be rescued. There the LORD will redeem you". The sequence "now you must leave the city" and the closing pair "There you will be rescued. There ... redeem you" follow the NIV's shape. The Hebrew has no "must" (`ki 'attah tetsi'i`, "for now you will go out"). Use "for now you will leave the city". Keep the pair of "There" lines only if reworded.
 - 3:1-3: the run "tear/rip ... the flesh off their bones ... eat the flesh of my people ... strip off their skin ... break/smash their bones ... chop them up ... pot ... flesh" tracks the NIV's sequence. The Hebrew order forces most of it, so leave this unless the writer wants a cleaner break. This is a note, not a required fix.
-- Not flagged: 4:1-3 deliberately match the Isaiah Plain; 3:12 deliberately matches Jeremiah.
+- Not flagged: 4:1-3 deliberately match the Isaiah Plain English Translation; 3:12 deliberately matches Jeremiah.
 
 **6. Missing formula notes required by content/terms.json.**
 - "The LORD says this" (`koh amar YHWH`) first use in the book is 2:3 and again at 3:5. terms.json asks for a note at first use in each book. None is anchored on the formula.
@@ -63,10 +63,10 @@ Nothing is invented outright. Most fixes are softening or small additions.
 - The `YHWH tseva'ot` note at 4:4 is present. In it, "the closing formula ... also ends Isaiah 1:20 and 40:5" is misleading: those verses end "the mouth of the LORD has spoken" without "of Armies". Say so.
 
 **7. Missing or thin variant entries.**
-- 4:5: Greek (Swete) reads "each his own way" where the Hebrew has "in the name of its god". This is a relevant difference for the "for/though" note and the Plain's "in the name of its own god".
-- 4:6-7: Greek reads "the crushed" and "the rejected" for "the lame" and "the driven out". The Hebrew `hatsola'ah` and `hannehla'ah` are the basis of the Plain's "lame" and "driven far off". The literal line glosses 4:7 `hanehla'ah` as "straying" while the Plain says "driven far off". Add a note or variant for 4:7.
+- 4:5: Greek (Swete) reads "each his own way" where the Hebrew has "in the name of its god". This is a relevant difference for the "for/though" note and the Plain English Translation's "in the name of its own god".
+- 4:6-7: Greek reads "the crushed" and "the rejected" for "the lame" and "the driven out". The Hebrew `hatsola'ah` and `hannehla'ah` are the basis of the Plain English Translation's "lame" and "driven far off". The literal line glosses 4:7 `hanehla'ah` as "straying" while the Plain English Translation says "driven far off". Add a note or variant for 4:7.
 - 1:10: the common emendation `bakko` ("in Acco, do not weep", pairing Gath and Acco) is not mentioned. The variant entry says only that the Greek name "Akeim" "may reflect the Hebrew for weep read as a place name". Name the Acco proposal explicitly.
-- 3:12: the Greek differs (Jerusalem as an orchard-watcher's hut, "grove of a forest") from the Hebrew-and-Jeremiah form the Plain follows. A short variant would complete the chapter's key verse, since the Jeremiah comparison depends on it.
+- 3:12: the Greek differs (Jerusalem as an orchard-watcher's hut, "grove of a forest") from the Hebrew-and-Jeremiah form the Plain English Translation follows. A short variant would complete the chapter's key verse, since the Jeremiah comparison depends on it.
 - 8HevXIIgr (the Nahal Hever Greek Minor Prophets scroll) and the proto-Theodotionic tradition are named in brief-mic.md as a source to check. book.json "Found in the Dead Sea Scrolls" lists only the Hebrew scrolls. Say whether 8HevXIIgr was checked for chapters 1-4, or drop the implication that the list is complete.
 
 **8. Dating slip: "more than a century".**
@@ -76,7 +76,7 @@ Nothing is invented outright. Most fixes are softening or small additions.
 - 1:7 P-line: "wages (the temple's rich gifts)". The body does not support "temple's rich gifts"; `'etnannim` is a prostitute's hire. Delete the parenthesis.
 - 1:7 body: "they will go back to the same kind of use, as pay for foreign temples or soldiers". No source. Mark as one proposal or cut.
 - 1:13: "a fortified chariot base". 2 Chronicles 11:9 says Lachish was fortified. The "chariot base" idea comes from the Micah verse itself and is circular as support for the first view. Say "Lachish was a fortified city (2 Chronicles 11:9); the verse's horses and chariot may refer to its military role".
-- 1:10: "This is the only place where the Plain's wording is exactly David's: the Hebrew words match." The Hebrew word order differs (`be-Gat 'al-taggidu` vs `'al-taggidu be-Gat`). Say "the same words in a different order".
+- 1:10: "This is the only place where the Plain English Translation's wording is exactly David's: the Hebrew words match." The Hebrew word order differs (`be-Gat 'al-taggidu` vs `'al-taggidu be-Gat`). Say "the same words in a different order".
 - 3:3 note P-line and body: "Ezekiel and the Psalms use the same picture" is true of Psalm 14:4 and Ezekiel 11:3 and 24, but "Nobody thinks the rulers literally ate people" is an overstatement. Say "The picture is figurative."
 - 3:5: "Jewish and Christian readers note that Micah does not say these men are unbelievers." No source. Drop or name one.
 - 3:6: "an image of daylight failing before they can read the omens". Unsourced. Reword as a plain reading of "the sun will go down on the prophets".
@@ -118,7 +118,7 @@ Nothing is invented outright. Most fixes are softening or small additions.
 
 - Verse-by-verse comparison of all 54 verses against the Hebrew: no omissions or additions of substance. Small interpretive choices are disclosed in notes: 2:6 "rant", 3:5 "declare a holy war", 1:16 "vulture", 4:7 "driven far off".
 - Place-name puns at 1:10-16: the Hebrew names are kept and the English meanings are in the glosses and the "deep" list. The meanings given (house of dust; pleasant; going out; next-door/side; bitter things; team of horses; betrothed/parting gifts; deceptive; the one who takes possession) are the standard readings. The Taylor Prism figures (46 walled cities, 200,150 people, "like a bird in a cage") and the Lachish relief in the British Museum are correct.
-- Isaiah 2:2-4 against Micah 4:1-3: the Plain reuses the Isaiah English where the Hebrew is the same and differs exactly where the Hebrew differs ("peoples" vs "all the nations"; "many nations" vs "peoples in great numbers"; "mighty nations, however far away"; the extra "It" for `hu`). Micah 4:4-5 are correctly flagged as absent from Isaiah.
+- Isaiah 2:2-4 against Micah 4:1-3: the Plain English Translation reuses the Isaiah English where the Hebrew is the same and differs exactly where the Hebrew differs ("peoples" vs "all the nations"; "many nations" vs "peoples in great numbers"; "mighty nations, however far away"; the extra "It" for `hu`). Micah 4:4-5 are correctly flagged as absent from Isaiah.
 - Micah 3:12 against Jeremiah 26:18: identical English.
 - Scroll evidence: 4Q82 and Mur88 claims at 1:5, 1:7, 1:8, 1:10, 1:11, 1:12, 1:13, 1:14, 2:4, 3:12, 4:1, 4:2, 4:3, 4:10 and 4:13 all agree with the dss.py output.
 - Septuagint readings (Swete) quoted in the variants are accurate, including "Senaar", "Akeim", "dismembered", "unless I fill", "a kingdom from Babylon".
@@ -147,4 +147,4 @@ Critical: 0. Major: 4. Minor: 9 numbered findings (5-13), most holding several s
 12. Chapters and settings (minor): fixed. 1:1 "Probably after the events"; 3:9-12 "if their report is accurate"; the Isaiah Wall is "across the street"; the unclear sentence in the 4:5 note rewritten. The "century" lines in chapter 3 kept as the reviewer advised, in the "about a hundred years" form.
 13. Lens text in book.json (minor): fixed. Wellhausen dropped from lens C (he is not in the authorship block); authorship says "Wolff and Mays" only (Hillers stays in the lens list as a debater); Date fact says "foretold in 1:6". The haftarot lens and the spec were accepted as sound.
 
-Plain changed: 4:4 and 4:10 only. Quote sync: nothing in other books quotes the old 4:4 or 4:10 wording (searched all content); Isaiah 2:2-4, Jeremiah 26:18, 2 Samuel 1:20 and Amos 7:16 are unchanged and still match. Counts after fixes: 54 verses, 91 notes, 24 variants, 27 glosses, 4 chapters, 34 topic contributions; check 0 errors, 0 warnings.
+Plain English Translation changed: 4:4 and 4:10 only. Quote sync: nothing in other books quotes the old 4:4 or 4:10 wording (searched all content); Isaiah 2:2-4, Jeremiah 26:18, 2 Samuel 1:20 and Amos 7:16 are unchanged and still match. Counts after fixes: 54 verses, 91 notes, 24 variants, 27 glosses, 4 chapters, 34 topic contributions; check 0 errors, 0 warnings.

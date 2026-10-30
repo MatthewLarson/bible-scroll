@@ -30,8 +30,8 @@ Verification notes. Sefaria was read through WebFetch, which returns summaries a
 
 ### 2. MAJOR: The lead decision "the Beautiful Land" is not applied at 20:6 and 20:15
 - Location: plain.txt 20:6 and 20:15 ("the finest of all lands"); notes.json at 20:6; glosses.json.
-- What is wrong: The decision is binding and the Plain still has "the finest of all lands." The note at 20:6 explains "The finest" and then says "(compare Daniel 8:9; 11:16, 41, 'the Beautiful Land')," which contradicts the Plain.
-- Second problem at 20:6: the sentence shape is that of the NIV and ESV. "On that day ... I swore to them that I would bring them out of the land of Egypt into a land I/that I had searched out for them, a land flowing with milk and honey, the most [beautiful/glorious] of all lands." The Plain matches the clause order and the superlative. Only "raised my hand" and "scouted" were swapped in.
+- What is wrong: The decision is binding and the Plain English Translation still has "the finest of all lands." The note at 20:6 explains "The finest" and then says "(compare Daniel 8:9; 11:16, 41, 'the Beautiful Land')," which contradicts the Plain English Translation.
+- Second problem at 20:6: the sentence shape is that of the NIV and ESV. "On that day ... I swore to them that I would bring them out of the land of Egypt into a land I/that I had searched out for them, a land flowing with milk and honey, the most [beautiful/glorious] of all lands." The Plain English Translation matches the clause order and the superlative. Only "raised my hand" and "scouted" were swapped in.
 - Fix: Use "the Beautiful Land" in both verses and make the note say so, with the tsevi "gazelle/beauty" point. Rebuild 20:6, for example as "On that day I lifted my hand to them: I would take them out of Egypt and into a land I had scouted, flowing with milk and honey, the Beautiful Land." Also fix the 20:15 gloss.
 
 ### 3. MAJOR: 21:27 Greek has no variant, and the notes misdescribe it; Christian and Jewish readings are unnamed
@@ -76,7 +76,7 @@ Describe only. Rebuild these.
 - **22:30**: "someone to build a wall ... stand in the gap before me and speak for the land, so that I would not wreck it. I found no one" has the NIV's order (wall, gap, before me, for the land, so I would not destroy it, found no one).
 - **23:23**: "young men to desire, governors and deputies, officers and men of renown, all of them riding on horses" matches the ESV's "officers and men of renown, all of them riding on horses" nearly word for word.
 - **23:41**: "You took your seat on a magnificent couch. A table had been laid in front of it, and you set my incense and my oil upon it" is close to the ESV's "sat on a stately couch, with a table spread before it, and set on it my incense and my oil."
-- **24:16-17**: "Groan quietly. Hold no mourning for the dead. Keep your turban ... and your sandals on your feet. Do not cover your mustache, and do not eat the food of mourners." The sequence and "Groan quietly" follow the NIV. "Food of mourners" (also 24:22) is the NIV's paraphrase. The Hebrew is lechem anashim, "bread of men" (Hosea 9:4 is a different phrase, lechem onim). The Plain should say what the Hebrew says and put the "mourners" sense in the note and gloss.
+- **24:16-17**: "Groan quietly. Hold no mourning for the dead. Keep your turban ... and your sandals on your feet. Do not cover your mustache, and do not eat the food of mourners." The sequence and "Groan quietly" follow the NIV. "Food of mourners" (also 24:22) is the NIV's paraphrase. The Hebrew is lechem anashim, "bread of men" (Hosea 9:4 is a different phrase, lechem onim). The Plain English Translation should say what the Hebrew says and put the "mourners" sense in the note and gloss.
 - **22:2-4** and **23:3** are close to the ESV but forced by the Hebrew; leave them.
 - Fix: rebuild the sentences above from node tools/literal.js Ezk 20-24, keeping the Hebrew meaning.
 
@@ -87,7 +87,7 @@ Describe only. Rebuild these.
   - Rashi himself cites Targum Jonathan on 20:25 ("they made decrees that were not good"). The note names the Targum only at 21:27. Add it here.
   - Jerome and the fathers (Paul's "the commandment is holy and good," Romans 7:12) are missing from the Christian side. The chapter's `X` view says the rules "have been read as ... a hard saying about the Torah" with no name.
   - Reading (3), "the nations' customs," is attributed to no one. "Many hold readings 1 and 2 together" is unsourced.
-  - The note on 20:26 says the Greek has God "passing through" and "so that I destroy them." That is right (ἐν τῷ διαπορεύεσθαί με ... ὅπως ἀφανίσω), but the Plain's "horrified" for ʾashimmem is not weighed against "devastate," and Joyce and Block are not named.
+  - The note on 20:26 says the Greek has God "passing through" and "so that I destroy them." That is right (ἐν τῷ διαπορεύεσθαί με ... ὅπως ἀφανίσω), but the Plain English Translation's "horrified" for ʾashimmem is not weighed against "devastate," and Joyce and Block are not named.
 - Fix: Name the holders of each reading and add the Targum, Jerome, Block and Joyce, or drop the weak attributions. Do not add a source that was not opened.
 
 ### 9. MINOR (factual): Wrong cross-reference at 21:28
@@ -140,14 +140,14 @@ Describe only. Rebuild these.
 - Note on 23:17-18: the Hebrew verb for "pulled away" is spelled both יקע and נקע in the text; the note says only naqa'. Add the root note or say "the verb (yaqa'/naqa')."
 
 ### 19. MINOR: The 23 rendering against Galambush, Weems and Block
-- "Prostitute" for zanah in every place is defensible and consistent, but the chapter page should say that Galambush and others argue zanah in a marriage means "be unfaithful," not paid prostitution, and that the Plain's "prostitute" (23:44, "as one comes to a prostitute") translates a different word, zonah. The Plain neither softens nor adds coarseness, and 23:20 "flesh/flow" follows the Hebrew. The cross-reference to Ezekiel 16 (the Plain's handling) is consistent.
+- "Prostitute" for zanah in every place is defensible and consistent, but the chapter page should say that Galambush and others argue zanah in a marriage means "be unfaithful," not paid prostitution, and that the Plain English Translation's "prostitute" (23:44, "as one comes to a prostitute") translates a different word, zonah. The Plain English Translation neither softens nor adds coarseness, and 23:20 "flesh/flow" follows the Hebrew. The cross-reference to Ezekiel 16 (the Plain English Translation's handling) is consistent.
 - Fix: One sentence in the chapter page or a note at 23:3.
 
 ### 20. MINOR: Traditions cards
 The choice of no `traditions` cards for this part is mostly right. The brief's nine candidate cards are about other chapters (18, 28, 33, 36-48), and the open splits in 20-24 (the "not good" rules, the green and dry tree, 21:27, the stand in the gap) are interpretive splits inside every church, not differences in church teaching. One candidate deserves a decision: 20:11, the Leviticus 18:5 line that Paul quotes in Romans 10:5 and Galatians 3:12. Lutheran (law and gospel, Formula of Concord), Reformed (covenant of works, Westminster Confession 7 and 19), Catholic (Trent session 6) and recent Pauline scholarship do differ in how they use it. That could be a card sourced to those texts. If the fixer cannot source each from the church's own text, a `views` note is the right choice. Say so in the progress line.
 
 ## Checked and found sound (no action)
-- Plain 20-24 against the Hebrew: no omissions or additions found beyond the points above. Terms are consistent: "rage" for chemah and "fury" for ʾevrah, "abhorrent things," "detestable things," "filthy idols," "the city of bloodshed," "leader" for nasi, "the people of the land."
+- Plain English Translation 20-24 against the Hebrew: no omissions or additions found beyond the points above. Terms are consistent: "rage" for chemah and "fury" for ʾevrah, "abhorrent things," "detestable things," "filthy idols," "the city of bloodshed," "leader" for nasi, "the people of the land."
 - Josephus, Antiquities 10.9.7, on Ammon and Moab: correct.
 - Targum Jonathan on 21:32 names Ishmael son of Nethaniah: correct.
 - Rashi on 20:25: "delivered them into the hands of their temptation": correct.

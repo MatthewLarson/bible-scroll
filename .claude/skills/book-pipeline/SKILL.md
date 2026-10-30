@@ -24,7 +24,7 @@ generated from those files by the build; never edit it.
 - Parts of about 100–200 verses on natural breaks, `parts/<a>-<b>/` zero-padded (`parts/001-017/` for Psalms).
 - Lenses (the color-coded note kinds) are fixed in the brief before any part starts. One part owns book.json.
 - Parts cannot see each other while they run: the brief must settle shared terms, parallel passages (the earlier
-  book's Plain is the model: Kings for Chronicles, Matthew for Mark and Luke, Jude for 2 Peter, 2 Kings 18–20 for
+  book's Plain English Translation is the model: Kings for Chronicles, Matthew for Mark and Luke, Jude for 2 Peter, 2 Kings 18–20 for
   Isaiah 36–39) and which part writes which topic core.
 
 ## Lead decisions
@@ -40,4 +40,4 @@ an agent prompt, so every future agent gets it.
 
 ## When agents get cut off
 A usage limit can stop agents mid-part. Restart a fresh agent on the same part, told to continue from the files
-already written (check which chapters have Plain, notes and pages) and to finish the remaining steps.
+already written (check which chapters have Plain English Translation, notes and pages) and to finish the remaining steps.

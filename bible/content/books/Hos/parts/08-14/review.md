@@ -12,7 +12,7 @@ Count: critical 0, major 5, minor 24.
 
 1. **Major. 8:12, plain.txt, variants.json (8:12), notes #16.**
    - The variant says the Qere is "I wrote" and the Ketiv is "I write". The data (texts/auto/Hos.json) shows the verb Ketiv אֶכְתּוֹב and Leningrad אֶכְתָּב are the same imperfect "I write / I would write", differing only in spelling. Only "ten thousand" (רִבּוֹ) versus "many things" (רֻבֵּי) is a real difference.
-   - The Plain "I wrote out" turns a Hebrew imperfect into a simple past with no argument. Note #16 admits the verb is imperfect and can mean "though I write".
+   - The Plain English Translation "I wrote out" turns a Hebrew imperfect into a simple past with no argument. Note #16 admits the verb is imperfect and can mean "though I write".
    - The sentence shape ("I wrote ... the many [things] of my law", then "something foreign") follows one very familiar modern version closely. Only "points" and "foreign" differ. This is a drift.
    - Fix: say in the variant that the verb is the same in Ketiv and Qere. Rebuild the verse so the tense is defended or hedged ("Though I write out for him the many points of my law, they are counted as something foreign"). Alter the shape, not just the nouns.
 
@@ -20,10 +20,10 @@ Count: critical 0, major 5, minor 24.
    - The variant says the Greek read nashaq "kiss" "as a rare verb meaning 'fail, be gone' (as if from nashaq II)". I know of no such root. BDB/HALOT give nashaq I "kiss" and nashaq II "be armed" (Ps 78:9). Unless the writer can source this, it is an invented mechanism.
    - Fix: say "the Greek's 'have run out' (ἐκλελοίπασιν) may translate a different verb or text; the reason is uncertain". Cite Wolff only if the claim is in him.
    - The note's readings are muddled. (1) "let them kiss calves" and (2) "sacrificers of men kiss calves" are the same reading. The real alternative, adam as subject ("men who sacrifice kiss calves"), is not set out clearly.
-   - The Plain commits to "sacrifice human beings", the most violent reading, and invents a jussive ("Let ... kiss"). Either keep a descriptive sentence or put the choice plainly in the note and the `why`.
+   - The Plain English Translation commits to "sacrifice human beings", the most violent reading, and invents a jussive ("Let ... kiss"). Either keep a descriptive sentence or put the choice plainly in the note and the `why`.
 
 3. **Major. Missing variant entries (variants.json has 20 entries).** Each of these has a real difference in the Greek or a scroll, and several are mentioned elsewhere in the part as "variants" without an entry.
-   - **13:8.** Note #93 has `kind: var`. 4Q78 has a plus «כלבי היער» ("lions of the forest"), and the Greek has σκύμνοι δρυμοῦ. This is the clearest case where a Hebrew scroll and the Greek agree against the MT. There is no entry. The Plain also follows the MT here.
+   - **13:8.** Note #93 has `kind: var`. 4Q78 has a plus «כלבי היער» ("lions of the forest"), and the Greek has σκύμνοι δρυμοῦ. This is the clearest case where a Hebrew scroll and the Greek agree against the MT. There is no entry. The Plain English Translation also follows the MT here.
    - **13:5.** The Greek reads ἐποίμαινόν σε "I shepherded you" for "I knew you". 4Q78 preserves ‹ידעתיכה› and so supports the MT. The note mentions the Greek, but there is no variant and the scroll is not cited. The brief named 13:5.
    - **14:4.** The Greek (14:5) reads "I will heal their dwellings" for "turning away" (a meshuvah/moshav reading). It is mentioned in the chapter page only.
    - **10:11.** The Greek has "I will keep silent about Judah". 4Q82 preserves יחרוש יהודה ישדד לו יעקב and agrees with the MT. The chapter page calls it "Judah will be silent", which is not quite the Greek.
@@ -37,16 +37,16 @@ Count: critical 0, major 5, minor 24.
 
 5. **Major. 13:14, notes #98 and #99, the `ehi` reading.**
    - Note #98's `p` says "The first echoes Hosea, the second the Greek." Its `b` says Paul takes the "second line" from the Greek and changes "penalty" to "victory". These contradict each other. Also, the Greek's second line is "sting", which Paul uses in his own second question, not first.
-   - No note says that Hebrew אֱהִי can be "where" (the Plain) or "I will be" (Vulgate "ero mors tua", Luther "ein Gift sein"). The Catholic and Lutheran cards depend on it, and 4Q78's איה at 13:10 is evidence for "where". The reader of the notes never learns that the two readings differ at the word level. The chapter-page claim that "the Greek, the Latin and the Syriac also read 'where'" at 13:10 is true for 13:10 only. At 13:14 the Latin reads "I will be".
+   - No note says that Hebrew אֱהִי can be "where" (the Plain English Translation) or "I will be" (Vulgate "ero mors tua", Luther "ein Gift sein"). The Catholic and Lutheran cards depend on it, and 4Q78's איה at 13:10 is evidence for "where". The reader of the notes never learns that the two readings differ at the word level. The chapter-page claim that "the Greek, the Latin and the Syriac also read 'where'" at 13:10 is true for 13:10 only. At 13:14 the Latin reads "I will be".
    - Fix: rewrite the `p` line. Add a word note on אֱהִי at 13:14.
 
 ## Minor
 
-6. **Verse-order and rule inconsistencies in the Plain.** The note at 14:1 states the rule "turn back" for repentance and "return" for a physical return. At 11:5 the second shuv ("refused to return") is repentance, so the rule is broken. It also mismatches the gloss "would not turn back". Fix the Plain or the rule.
+6. **Verse-order and rule inconsistencies in the Plain English Translation.** The note at 14:1 states the rule "turn back" for repentance and "return" for a physical return. At 11:5 the second shuv ("refused to return") is repentance, so the rule is broken. It also mismatches the gloss "would not turn back". Fix the Plain English Translation or the rule.
 
 7. **11:8, notes #64 and #100, term "pity".** The note says "pity" separates nichumim from rachamim "compassion". But the part-1 and book.json name Lo-ruhamah is glossed "Not Pitied", which is the rachamim root. The `p` of note #110 says "Not Shown Compassion" and its `b` says "Not Pitied". Make the gloss of the name one way everywhere, or drop the claim that "pity" is kept apart.
 
-8. **14:4, note #111.** The note quotes "my anger has turned away from them". The Plain says "from him". The build only checks other books' quotes, so this was not caught.
+8. **14:4, note #111.** The note quotes "my anger has turned away from them". The Plain English Translation says "from him". The build only checks other books' quotes, so this was not caught.
 
 9. **11:1, note #55.** "It is the only passage in the Old Testament that tells the Exodus from the side of a parent's love." This is an overclaim (Deut 1:31; 32:10-12; Jer 31:9). Soften it.
 
@@ -56,7 +56,7 @@ Count: critical 0, major 5, minor 24.
 
 12. **13:12, note #96.** "Some Jewish and Christian readers" take the stored guilt as kept for later forgiveness. No one is named and there is no source. Name the reader or drop it.
 
-13. **13:2, variants.json `why`.** The sentence about the Greek verb being an imperative is fine. The Plain given as "Sacrifice human beings, for the calves have run out" is fine too. Only the lexical claim in finding 2 is the problem.
+13. **13:2, variants.json `why`.** The sentence about the Greek verb being an imperative is fine. The Plain English Translation given as "Sacrifice human beings, for the calves have run out" is fine too. Only the lexical claim in finding 2 is the problem.
 
 14. **13:4, variants.json `b`.** "A word bṣr in the first words that is unclear and may be a copyist's slip" is speculation. The printout shows «בצר שמים» as part of the plus. Either print the 4Q78 Hebrew plus as a reading of its own (it is the most important scroll witness in the part) or cut the speculation.
 
@@ -82,9 +82,9 @@ Count: critical 0, major 5, minor 24.
 
 23. **Lectionary claim.** Hosea 14:2-10 is the first reading for Friday of the Third Week of Lent (confirmed), so "reads Hosea 14 in Lent" is true. Name the day.
 
-24. **8:12, glosses.** "Pleaded with him for mercy" (12:4) in the Plain is "begged him for a blessing" in the gloss. Hebrew `chen` is "favor". Make Plain and gloss agree.
+24. **8:12, glosses.** "Pleaded with him for mercy" (12:4) in the Plain English Translation is "begged him for a blessing" in the gloss. Hebrew `chen` is "favor". Make Plain English Translation and gloss agree.
 
-25. **12:4, 12:5 settings.** "At Bethel he found him" leaves the subject open. Note #75 handles it but the Plain could say "found us" or "found him" and not leave an unclear "he ... him".
+25. **12:4, 12:5 settings.** "At Bethel he found him" leaves the subject open. Note #75 handles it but the Plain English Translation could say "found us" or "found him" and not leave an unclear "he ... him".
 
 26. **Chapter 12 settings.** One card (12:9-14) overlaps chapter 11's 11:12-12:14 card. Merge them or limit the first to 12:1-8.
 
@@ -94,15 +94,15 @@ Count: critical 0, major 5, minor 24.
 
 29. **Terms.** "Luxuriant" is used both for boqeq (10:1) and ra'anan (14:8). Note #117 says the echo is deliberate; that is acceptable but not a fixed term. "Pity" is also used for the 13:14 `nocham`, which is also Lead's decision `nacham` "change his mind". The part never says why the noun forms stay "pity".
 
-30. **Quote matching.** The NT quotes (Matthew 2:15, Luke 23:29-30, Revelation 6:16, 3:17, Romans 2:5; 1 Corinthians 15:55 and Hebrews 13:15 marked "my rendering from the Greek") are consistent with the site Plain or are labelled as the writer's. I found no mismatch there. Luke 23:30's order is reversed from Hosea 10:8; note #46 says so correctly.
+30. **Quote matching.** The NT quotes (Matthew 2:15, Luke 23:29-30, Revelation 6:16, 3:17, Romans 2:5; 1 Corinthians 15:55 and Hebrews 13:15 marked "my rendering from the Greek") are consistent with the site Plain English Translation or are labelled as the writer's. I found no mismatch there. Luke 23:30's order is reversed from Hosea 10:8; note #46 says so correctly.
 
 ## Cross-part mismatches
 
 - **book.json outline (other reviewer to fix).** For 8-14:
-  - "11:1-11: When Israel was a child I loved him; how can I give you up?". The Plain says "youth" and "give you away".
-  - "14:1-9: ... I will heal their unfaithfulness". The Plain says "turning away". "Take words with you" is "Bring words with you" in the Plain.
-  - "10:1-15: sow justice and reap loyal love". The Plain says "righteousness" in 10:12.
-  - "13:1-16: death and the grave". The Plain says "Sheol".
+  - "11:1-11: When Israel was a child I loved him; how can I give you up?". The Plain English Translation says "youth" and "give you away".
+  - "14:1-9: ... I will heal their unfaithfulness". The Plain English Translation says "turning away". "Take words with you" is "Bring words with you" in the Plain English Translation.
+  - "10:1-15: sow justice and reap loyal love". The Plain English Translation says "righteousness" in 10:12.
+  - "13:1-16: death and the grave". The Plain English Translation says "Sheol".
 - **Checked and consistent with 01-07.** "Case" at 4:1 and 12:2; "King Jareb" at 5:13 and 10:6; the Shameful Thing at Jeremiah 3:24 and Hosea 9:10; 6:4 and 13:3; 12:9 and 13:4; 8:13 and 9:9; "turn back" at 3:5, 5:4, 6:1, 12:6, 14:1.
 - book.json `facts` names "4QXII-c, -d and -g". Part 8-14 shows only 4QXIIc and 4QXIIg, so -d is not used here. Check against 01-07.
 
@@ -117,15 +117,15 @@ Count: critical 0, major 5, minor 24.
 
 ## Fixes applied
 
-Counts: 30 findings plus cross-part items. Fixed 26, partly 3 (6 resolved by changing the Plain, 21, 29), declined 1 (25). Plain verses changed: 8:12, 11:5, 12:4, 13:2. Variants 20 to 28 entries (new: 10:1, 10:6, 10:11, 11:7, 12:11, 13:5, 13:8, 13:10, 14:4; 13:4 gains a 4QXIIc reading).
+Counts: 30 findings plus cross-part items. Fixed 26, partly 3 (6 resolved by changing the Plain English Translation, 21, 29), declined 1 (25). Plain English Translation verses changed: 8:12, 11:5, 12:4, 13:2. Variants 20 to 28 entries (new: 10:1, 10:6, 10:11, 11:7, 12:11, 13:5, 13:8, 13:10, 14:4; 13:4 gains a 4QXIIc reading).
 
-1. Fixed. 8:12 variant now says the Ketiv and Qere verb is the same (spelling only) and only "ten thousand / many things" differs; Plain rebuilt from the literal line as "Though I write for him the many points of my law, / they are counted as something foreign" (imperfect kept, shape changed); note 16 and the variant `why` rewritten.
-2. Fixed. The "nashaq II" claim is removed from the 13:2 variant (it now says the Hebrew behind the Greek "run out" is unclear, and cites only Psalm 78:9 for the other root); note 87 now sets out three readings clearly; the Plain drops the invented "Let" and is a descriptive sentence ("Those who sacrifice human beings kiss calves"), with the choice stated in the note.
+1. Fixed. 8:12 variant now says the Ketiv and Qere verb is the same (spelling only) and only "ten thousand / many things" differs; Plain English Translation rebuilt from the literal line as "Though I write for him the many points of my law, / they are counted as something foreign" (imperfect kept, shape changed); note 16 and the variant `why` rewritten.
+2. Fixed. The "nashaq II" claim is removed from the 13:2 variant (it now says the Hebrew behind the Greek "run out" is unclear, and cites only Psalm 78:9 for the other root); note 87 now sets out three readings clearly; the Plain English Translation drops the invented "Let" and is a descriptive sentence ("Those who sacrifice human beings kiss calves"), with the choice stated in the note.
 3. Fixed. New variant entries at 13:8 (4Q78 "like lions of the forest" against MT "like a lioness", Greek "young lions of the forest"; note 93 corrected, since it was a different word, not a plus), 13:5 (4Q78 preserves "I knew you"), 14:4 (4Q78 preserves meshuvatam; Greek "dwellings"), 10:11 (4Q82 preserves "Judah will plow"; Greek "I will keep silent about Judah"), 12:11, 10:1, 10:6, 13:10 (4Q78 'ayyeh), and 11:7. Chapter pages 10, 12, 13 and 14 corrected to match ("Judah will be silent" gone).
 4. Fixed. 10:10 `why` now says 4Q82 keeps only "and they will be gathered against them"; "peoples", "bound", "two" and "iniquities" are restored and not cited. Re-checked against dss.py.
 5. Fixed. Note 98 `p` and `b` no longer contradict (Paul's "sting" is from the Greek's second line; "victory" replaces "penalty"; KJV/later manuscripts note added). New word note on אֱהִי ("where" or "I will be") at 13:14; note 99 now anchors on the first question and points to it; the chapter 13 witnesses text says the Greek and Latin read "where" at 13:10 only and the Latin reads "I will be" at 13:14. The Syriac claim was dropped (not verified).
-6. Fixed by changing the Plain: 11:5 now ends "because they refused to turn back", matching the stated rule and the gloss; notes 60 and 115, the gloss and the Assyria topic text follow.
-7. Partly. The Plain uses "compassion" for the rachamim root, so the note 64 claim that "pity" is kept apart is true in this book; the mismatch was note 110's "Not Pitied", now "Not Shown Compassion" like its `p`. book.json (01-07 side) still has "Not Pitied" in the 1:1 outline line: reported to the lead.
+6. Fixed by changing the Plain English Translation: 11:5 now ends "because they refused to turn back", matching the stated rule and the gloss; notes 60 and 115, the gloss and the Assyria topic text follow.
+7. Partly. The Plain English Translation uses "compassion" for the rachamim root, so the note 64 claim that "pity" is kept apart is true in this book; the mismatch was note 110's "Not Pitied", now "Not Shown Compassion" like its `p`. book.json (01-07 side) still has "Not Pitied" in the 1:1 outline line: reported to the lead.
 8. Fixed. Note 111 now quotes "from him".
 9. Fixed. Note 55 softened to "Few passages ... compare Deuteronomy 1:31 and 32:10-12".
 10. Fixed. Note 117 now "the only tree the LORD is compared to in Hosea"; the jacob topic text no longer says "the Bible's only".
@@ -142,11 +142,11 @@ Counts: 30 findings plus cross-part items. Fixed 26, partly 3 (6 resolved by cha
 21. Partly. Resurrection card: Reformed added from Calvin's lecture (checked: Calvin reads the lines as conditional and part of the threat); Orthodox rewritten to say the homily depends on Paul. Baptist and Pentecostal are not added: no source was found for a distinct view, and the Evangelical entry (Hubbard, Stuart, Garrett) covers them. Typology card: Lutheran claim replaced by what the Preface says; Orthodox "Ware" removed; Dispensationalist reduced to "some", gloss removed. gods-regret: Lutheran entry now says the confessions do not address impassibility; "Most evangelicals" became "Many". church-and-state: the question now says Hosea does not address government in general.
 22. Fixed. Chapter 12 J names both haftarah ranges.
 23. Fixed. Chapter 14 X names the Friday of the Third Week of Lent and the Hebrew and English ranges.
-24. Fixed. 12:4 Plain "pleaded with him for his favor" and the gloss agree (this keeps the Genesis 26-36 quote "wept and pleaded with him" valid).
-25. Not fixed. "He found him" mirrors an open Hebrew subject; note 75 now says so (and that the consonants can be read "found us"). Naming "God" in the Plain would decide a debated point.
+24. Fixed. 12:4 Plain English Translation "pleaded with him for his favor" and the gloss agree (this keeps the Genesis 26-36 quote "wept and pleaded with him" valid).
+25. Not fixed. "He found him" mirrors an open Hebrew subject; note 75 now says so (and that the consonants can be read "found us"). Naming "God" in the Plain English Translation would decide a debated point.
 26. Fixed. Chapter 11's second setting now covers 11:12-12:8; chapter 12's covers 12:9-14.
 27. Fixed. Note 72 says Micah 6 addresses "my people".
 28. Fixed. Note 86 reworded (Jehu wiped out Ahab's Baal worship, 2 Kings 10:28).
 29. Partly. Note 100 now says why the nouns stay "pity" while the verb is "change his mind". "Luxuriant" is left as a deliberate echo (note 117 says so); it is not a fixed term.
 30. Nothing to fix.
-Cross-part: book.json 8-14 outline lines changed ("righteousness", "youth", "give you away", "Sheol", "bring words", "turning away"). 4QXII-d is not used in 08-14. Amos 3:2 quote in note 89 updated to the current Amos Plain.
+Cross-part: book.json 8-14 outline lines changed ("righteousness", "youth", "give you away", "Sheol", "bring words", "turning away"). 4QXII-d is not used in 08-14. Amos 3:2 quote in note 89 updated to the current Amos Plain English Translation.

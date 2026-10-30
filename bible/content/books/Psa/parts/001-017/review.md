@@ -3,11 +3,11 @@
 Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json in
 parts/001-017/, and content/books/Psa/book.json where it touches these psalms or the whole book. Checked against
 texts/orig/Psa.json (Leningrad), texts/auto/Psa.json, `node tools/literal.js`, the 042-055 part (Psalm 53), and the
-site's Plain of the books quoted. `node tools/build.js --check Psa/001-017`: 0 errors, 0 warnings.
+site's Plain English Translation of the books quoted. `node tools/build.js --check Psa/001-017`: 0 errors, 0 warnings.
 
 ## Verdict
 
-This is a strong part. The Plain is rebuilt from the Hebrew, keeps the poetry parallel, and I found no verse that
+This is a strong part. The Plain English Translation is rebuilt from the Hebrew, keeps the poetry parallel, and I found no verse that
 leans on NIV or ESV wording beyond what the Hebrew forces. Every psalm has a settings card with `readers` and the
 Greek number in the summary. The Hebrew verse-numbering note appears once (3:0), and the 9–10 acrostic letters are
 named. The hard places (2:12, 8:5, 10:10, 16:3, 17:14) are honest about uncertainty, and the Ketiv/Qere items in
@@ -24,7 +24,7 @@ Count: 0 critical, 5 major, 18 minor.
 ## Findings
 
 ### 1. Major: variants.json 16:2, "the ancient versions all read 'I said'" is false
-- What is wrong: the `why` says "the ancient versions all read 'I said', so the Plain follows them", and the
+- What is wrong: the `why` says "the ancient versions all read 'I said', so the Plain English Translation follows them", and the
   reading list leaves the Targum out. The Targum of Psalms supports the Masoretic "you said" and names the soul it
   is said to. Sefaria's translation of the Targum reads: "You have spoken – you, my soul – in the presence of the
   LORD." That is the reading the KJV supplies ("O my soul, thou hast said"). Rashi reads it the same way.
@@ -51,16 +51,16 @@ Count: 0 critical, 5 major, 18 minor.
 ### 3. Major: notes.json 14:5 and chapters.json Psalm 14 `deep`: Psalm 53 misquoted, and the name count is off
 - What is wrong:
   - The 14:5 note "quotes" 53:5 as "There they were in great terror, where there was no terror, for God scattered
-    the bones of the one encamped against you; you put them to shame, for God rejected them." The site's Plain of
+    the bones of the one encamped against you; you put them to shame, for God rejected them." The site's Plain English Translation of
     53:5 (part 042-055) reads: "There they shook with dread, / where no dread had been. / For God has scattered the
     bones of your besieger. / You have put them to shame, because God has thrown them away." The 042-055 writer
     deliberately kept 53's wording identical to 14 where the Hebrew agrees: the shared opening *sham pachadu fachad*
     is "There they shook with dread" in both 14:5 and 53:5. This note now gives the same Hebrew two English forms.
-  - The deep box says "where there was no terror", again not the Plain of 53:5.
+  - The deep box says "where there was no terror", again not the Plain English Translation of 53:5.
   - The deep box and the 14:2 note say that 53 has *Elohim* "in each place" where 14 has YHWH (14:2, 14:4, 14:6,
     14:7). But 14:6 has no counterpart in 53: it falls in the rewritten verse. The 042-055 deep box gets this
     right ("the fourth 'LORD' (14:6) falls in the rewritten verse"). The two parts now disagree.
-- Fix: quote the 53:5 Plain exactly in both places, or mark a literal rendering as "literally". Say "in 14:2, 14:4
+- Fix: quote the 53:5 Plain English Translation exactly in both places, or mark a literal rendering as "literally". Say "in 14:2, 14:4
   and 14:7 Psalm 53 has 'God'; 14:6 falls in the verse that 53 rewrites." Tag 14:2 and the deep box with the
   existing topic `elohistic-psalter` (see finding 19).
 
@@ -128,17 +128,17 @@ Count: 0 critical, 5 major, 18 minor.
   marks, or cite the exact place (Calvin, Commentary on Psalms, on 13:5).
 
 ### 14. Minor: notes.json 13:3: 1 Samuel 14:27 quoted as "his eyes brightened"
-- The site's Plain of 1 Samuel 14:27 reads "his eyes lit up". The STYLE rule is to use the site's Plain when you
+- The site's Plain English Translation of 1 Samuel 14:27 reads "his eyes lit up". The STYLE rule is to use the site's Plain English Translation when you
   quote a translated book. Fix: "his eyes lit up" (1 Samuel 14:27, 29).
 
-### 15. Minor: chapters.json Psalm 6 traditions `q` does not quote the Plain
-- The card asks about "'in death no one remembers you' (6:5)", but the Plain reads "For among the dead no one calls
-  you to mind." Quote the Plain. (The Plain's "among the dead" for <i>ba-mavet</i>, "in death", is acceptable, but the
+### 15. Minor: chapters.json Psalm 6 traditions `q` does not quote the Plain English Translation
+- The card asks about "'in death no one remembers you' (6:5)", but the Plain English Translation reads "For among the dead no one calls
+  you to mind." Quote the Plain English Translation. (The Plain English Translation's "among the dead" for <i>ba-mavet</i>, "in death", is acceptable, but the
   note at 6:5 could give the literal phrase.)
 
-### 16. Minor: notes.json 15:2: the note does not match the Plain or terms.json
-- The note says "The Plain renders it 'wholehearted' for people (see the shared terms)." The Plain of 15:2 has
-  "walks with a whole heart". terms.json gives "wholehearted" or "blameless" for a person. Either change the Plain
+### 16. Minor: notes.json 15:2: the note does not match the Plain English Translation or terms.json
+- The note says "The Plain English Translation renders it 'wholehearted' for people (see the shared terms)." The Plain English Translation of 15:2 has
+  "walks with a whole heart". terms.json gives "wholehearted" or "blameless" for a person. Either change the Plain English Translation
   to "One who walks wholehearted" (or "who lives blameless") or change the note.
 
 ### 17. Minor: the Matthew 7:23 point is made three times
@@ -159,7 +159,7 @@ Count: 0 critical, 5 major, 18 minor.
   83 [82] and 109 [108]". Use that form in the Catholic view and in the "The curse psalms" section.
 
 ### 21. Minor: book.json: title forms and dates are inconsistent
-- The "Titles, music" section has "on stringed instruments" and "on the doe of the dawn", but the Plain titles
+- The "Titles, music" section has "on stringed instruments" and "on the doe of the dawn", but the Plain English Translation titles
   read "With stringed instruments." (4:0; 6:0) and 'On "The Doe of the Dawn."' (22:0). Match them.
 - The "Text" section dates the Old Greek Psalter "probably in the 100s BC", while every variant in this part says
   "200s–100s BC". Pick one.
@@ -179,7 +179,7 @@ Count: 0 critical, 5 major, 18 minor.
 ## Checked and found sound (no action)
 - 2:12 "Kiss the son": all four readings are given, with witnesses; the choice is argued; Rashi ("arm yourselves
   with purity") and Ibn Ezra ("son") are stated fairly; Jerome's Apology against Rufinus is correctly cited.
-- Psalm 14 against Psalm 53: apart from finding 3, the Plain of 14:1–4, 14:7 and 53:1–4, 53:6 agrees wherever the
+- Psalm 14 against Psalm 53: apart from finding 3, the Plain English Translation of 14:1–4, 14:7 and 53:1–4, 53:6 agrees wherever the
   Hebrew does, and both parts list the same differences (*alilah*/*avel*, *sar*/*sag*, "all").
 - Talmud and Midrash checked: Berakhot 9b–10a (R. Shmuel b. Nachmani in the name of R. Yohanan); Berakhot 7b and
   10a (Psalm 3); Berakhot 4b–5a (4:4 and the bedtime Shema); Sukkah 52a (2:7–8); Moed Katan 16b (Cush = Saul);
@@ -199,9 +199,9 @@ Count: 0 critical, 5 major, 18 minor.
 
 ## Fixes applied
 
-- 1 (16:2): the Masoretic reading now lists the Targum ("you said, my soul", as reported) and Rashi. The `why` now says the Greek, Syriac, Jerome and some Hebrew manuscripts read "I said" while the Targum and the medieval Jewish commentators keep "you said", and calls the Plain's "I said" a choice between witnesses. Fixed the PROGRESS line too.
+- 1 (16:2): the Masoretic reading now lists the Targum ("you said, my soul", as reported) and Rashi. The `why` now says the Greek, Syriac, Jerome and some Hebrew manuscripts read "I said" while the Targum and the medieval Jewish commentators keep "you said", and calls the Plain English Translation's "I said" a choice between witnesses. Fixed the PROGRESS line too.
 - 2: the exclusive-psalmody Reformed view now names the Reformed Presbyterian churches (the RPCNA and others), the Free Presbyterian Church of Scotland and the Free Church of Scotland (Continuing), and says the Free Church of Scotland held the view until 2010.
-- 3: 14:5 note and Psalm 14 deep box now quote the site's Plain of 53:5 exactly. The 14:2 note and the deep box now say that 53 has "God" at 53:2, 53:4 and 53:6 (matching 14:2, 14:4, 14:7), and that 14:6 falls in the verse 53 rewrites.
+- 3: 14:5 note and Psalm 14 deep box now quote the site's Plain English Translation of 53:5 exactly. The 14:2 note and the deep box now say that 53 has "God" at 53:2, 53:4 and 53:6 (matching 14:2, 14:4, 14:7), and that 14:6 falls in the verse 53 rewrites.
 - 4: Lutheran view on Psalm 6 rewritten as suggested (Apology of the Augsburg Confession 24 does not forbid prayers for the dead), and its source is now the existing key `apology-augsburg` instead of `formula-concord`.
 - 5: added a "Which witnesses were checked for Psalms 1–17" box to the Psalm 1 chapter page. It also covers the lead decision on stating the witnesses checked. It lists the five scrolls with parts of Psalms 1–17: 4QPs-a (5:8–12; 6:1, 3, 5), 4QPs-c (16:6–10; 17:1), 8QPs (17:5–9, 14), 11QPs-c (2:1–8; 9:2–7; 12:4–8; 13:1–2, 4–5; 14:1–6; 17:9–15) and 5/6HevPs (7:12–16:1). It gives their reported differences (5:9; 15:3; 17:9; 17:11) and says that none is reported at 2:12, 12:7, 14:3, 16:2 or 16:10. These contents come from the scroll-by-scroll pages of dssenglishbible.com. They were not checked against Flint's list or the printed DSSB, so the box marks them all "as reported". I added no DSS witness to a variant, because no reported scroll reading touches a variant in this part. 4Q174 (chapter 2 and the messiah topic) and the "about forty" scrolls and 11QPs-a contents (book.json and the psalms topic) are now also marked "as reported".
 - 6 (16:10): the note now points to the variant. The variant says that Leningrad writes the singular with no note, that much of the Masoretic tradition has the plural spelling as Ketiv with the singular as Qere, that medieval Jewish writers used the plural spelling against the Christian one-person reading (as reported, Delitzsch), and that the New Testament argument rests on the singular.
@@ -212,15 +212,15 @@ Count: 0 critical, 5 major, 18 minor.
 - 11: the 10:7 note and the Psalm 10 summary now say that 10:7 begins with <i>alah</i>, and that <i>pe</i> and <i>ayin</i> can be traced only if the word order is changed (the Greek and Romans 3:14 put "mouth" first). The summary also says that 10:3–11 has lost the pattern.
 - 12: "some Greek manuscripts add 'and night'" deleted. I could not verify it.
 - 13: Calvin is now paraphrased without quotation marks and placed "on this verse".
-- 14: "his eyes lit up" (1 Samuel 14:27, 29), as in the site's Plain.
-- 15: the Psalm 6 traditions question now quotes the Plain ("For among the dead no one calls you to mind"). The 6:5 note now gives the literal "in death" (<i>ba-mavet</i>).
-- 16: I changed the 15:2 note rather than the Plain. The note now says that terms.json gives "wholehearted" for people and that the Plain says "walks with a whole heart", the same sense.
+- 14: "his eyes lit up" (1 Samuel 14:27, 29), as in the site's Plain English Translation.
+- 15: the Psalm 6 traditions question now quotes the Plain English Translation ("For among the dead no one calls you to mind"). The 6:5 note now gives the literal "in death" (<i>ba-mavet</i>).
+- 16: I changed the 15:2 note rather than the Plain English Translation. The note now says that terms.json gives "wholehearted" for people and that the Plain English Translation says "walks with a whole heart", the same sense.
 - 17: the Matthew 7:23 sentence and reference are removed from 5:5. The point stays at 6:8. 1:6 keeps only the "I never knew you" sense of <i>yada'</i>.
 - 18: NAB removed from the "kiss his feet" reading. NRSV only.
 - 19: the 14:2 note `top` and the Psalm 14 deep box now point to `elohistic-psalter`, and the topic is added to the Psalm 14 chapter topics. The names-of-god contribution has no link field, so it is unchanged.
 - 20: GILH 131 is now cited as "Psalms 58 [57], 83 [82] and 109 [108]" in the Catholic view and in "The curse psalms" section.
-- 21: book.json now uses "with stringed instruments" and 'on "The Doe of the Dawn"' to match the Plain titles. The Old Greek date is now "200s–100s BC" everywhere.
-- 22: Plain 6:4 now reads "pull my life free" (the 6:3 note is updated to match). Plain 10:14 now reads "You have been the orphan's helper." (the 10:14 note anchor is updated to match).
+- 21: book.json now uses "with stringed instruments" and 'on "The Doe of the Dawn"' to match the Plain English Translation titles. The Old Greek date is now "200s–100s BC" everywhere.
+- 22: Plain English Translation 6:4 now reads "pull my life free" (the 6:3 note is updated to match). Plain English Translation 10:14 now reads "You have been the orphan's helper." (the 10:14 note anchor is updated to match).
 - 23: added variants for 4:7 (the Greek and Latin add "and oil") and 16:4 (Greek "their weaknesses were multiplied; afterward they hurried"). Both were checked on the sacred-texts.com polyglot pages.
 - Lead decisions: <i>aleph</i>/<i>vav</i> are now <i>alef</i>/<i>waw</i> (9:1 note, Psalm 9 summary, 9:20 variant). "Harp" is now "lyre" for Psalm 151's instrument (book.json), and the 3:0 note now says "plucked strings". Selah already ended its line everywhere. The witness statement is in the Psalm 1 box, and the book.json text section points to it. I checked the Greek and Latin of Psalms 3, 5 and 6 on the polyglot pages too, so all of 1–17 is now checked directly. The coordinator's period-form titles and capitalized anchors are kept: every fix edited the files in place.
-- Coordinator additions: in book.json I rewrote the outline headings that echoed NIV/ESV or departed from the parts' Plain: 42, 46, 62, 67, 69, 71, and also 19, 22, 24, 26, 27, 31, 37, 39, 40, 47, 51, 56, 61, 63, 66, 70, 80, 84–86, 88, 90, 91, 93, 95, 97, 99, 100, 110, 114, 116–118, 121–130, 133, 136, 137, 139–141, 143–147, 149 and 150. Each now uses the wording of its part's Plain or chapter title.
+- Coordinator additions: in book.json I rewrote the outline headings that echoed NIV/ESV or departed from the parts' Plain English Translation: 42, 46, 62, 67, 69, 71, and also 19, 22, 24, 26, 27, 31, 37, 39, 40, 47, 51, 56, 61, 63, 66, 70, 80, 84–86, 88, 90, 91, 93, 95, 97, 99, 100, 110, 114, 116–118, 121–130, 133, 136, 137, 139–141, 143–147, 149 and 150. Each now uses the wording of its part's Plain English Translation or chapter title.

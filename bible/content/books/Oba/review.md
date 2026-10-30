@@ -2,13 +2,13 @@
 
 Reviewer: separate hostile-reviewer agent. Content files were not edited.
 
-Checked: all 21 verses against `node tools/literal.js Oba 1` and `texts/orig/Oba.json`; the Greek against `tools/lxx.py Oba 1` (Swete); the scrolls against `tools/dss.py Oba 1` (4Q82 and Mur88); texts/auto (only the 1:11 ketiv/qere); the Jeremiah 49 parallels against the Jer 46-49 Plain; quoted verses against the Plain of Psalms, Lamentations, Amos, Isaiah, Deuteronomy, Joel, Judges, Nehemiah and Job; `VERBOSE=1 node tools/build.js --check Oba` (0 errors, 0 warnings).
+Checked: all 21 verses against `node tools/literal.js Oba 1` and `texts/orig/Oba.json`; the Greek against `tools/lxx.py Oba 1` (Swete); the scrolls against `tools/dss.py Oba 1` (4Q82 and Mur88); texts/auto (only the 1:11 ketiv/qere); the Jeremiah 49 parallels against the Jer 46-49 Plain English Translation; quoted verses against the Plain English Translation of Psalms, Lamentations, Amos, Isaiah, Deuteronomy, Joel, Judges, Nehemiah and Job; `VERBOSE=1 node tools/build.js --check Oba` (0 errors, 0 warnings).
 
 ## Verdict
 
-The Plain is mostly faithful and the book is carefully hedged. Facts I could verify hold up. I confirmed Bavli Sanhedrin 39b, Jerome on Ahab's steward, the Sardis/Sparda inscription, Sephardic Obadiah for Vayishlach, the Rosh Hashanah kingship use of 1:21, the Greek and Latin readings at 1:20, the scroll readings at 1:4, 1:11, 1:15, 1:17 and 1:21, the "ten days" count, the seven uses of "Esau", and the Catechism, Dordrecht, Westminster and Augsburg citations. No invented source, scroll reading or fragment found, so there are no critical findings. There are real faults.
+The Plain English Translation is mostly faithful and the book is carefully hedged. Facts I could verify hold up. I confirmed Bavli Sanhedrin 39b, Jerome on Ahab's steward, the Sardis/Sparda inscription, Sephardic Obadiah for Vayishlach, the Rosh Hashanah kingship use of 1:21, the Greek and Latin readings at 1:20, the scroll readings at 1:4, 1:11, 1:15, 1:17 and 1:21, the "ten days" count, the seven uses of "Esau", and the Catechism, Dordrecht, Westminster and Augsburg citations. No invented source, scroll reading or fragment found, so there are no critical findings. There are real faults.
 
-- The Jeremiah 49 comparison table misstates Jeremiah 49:16, and the Plain renders the same Hebrew phrase differently in the two books.
+- The Jeremiah 49 comparison table misstates Jeremiah 49:16, and the Plain English Translation renders the same Hebrew phrase differently in the two books.
 - One note makes a false claim about the Hebrew verb for "cast lots".
 - The Targum is credited with "Zarephath = France" without support.
 - Several Greek differences, including a significant one at 1:21, are missing from the variants.
@@ -20,7 +20,7 @@ Findings: 0 critical, 6 major, 10 minor.
 ## Major
 
 **1. Major. chapters.json `deep` "Obadiah 1-9 and Jeremiah 49" table, row 3-4; plain.txt 1:3; glosses 1:3.**
-The table says Jeremiah 49:16 has "the terror you cause has fooled you" and that Obadiah has "the arrogance of your heart", as if Jeremiah lacked that phrase. Jeremiah 49:16 has both: `tiflatzteka hishi'ekha zedon libbekha`. Obadiah 3 reads `zedon libbekha hishi'ekha`. Jeremiah adds only `tiflatzteka` and ends with `tofsi merom givah`. The Jer Plain says "the pride of your heart"; the Oba Plain says "The arrogance of your heart" for the identical Hebrew. This breaks the brief's rule (follow Jeremiah's English where the Hebrew is the same), and the gloss "your own stuck-up pride" shows the writer meant "pride".
+The table says Jeremiah 49:16 has "the terror you cause has fooled you" and that Obadiah has "the arrogance of your heart", as if Jeremiah lacked that phrase. Jeremiah 49:16 has both: `tiflatzteka hishi'ekha zedon libbekha`. Obadiah 3 reads `zedon libbekha hishi'ekha`. Jeremiah adds only `tiflatzteka` and ends with `tofsi merom givah`. The Jer Plain English Translation says "the pride of your heart"; the Oba Plain English Translation says "The arrogance of your heart" for the identical Hebrew. This breaks the brief's rule (follow Jeremiah's English where the Hebrew is the same), and the gloss "your own stuck-up pride" shows the writer meant "pride".
 Fix: render Ob 3 "The pride of your heart has fooled you" (and update the gloss). Correct the table: Jeremiah adds "the terror you cause" and "who hold the height of the hill", and shares "pride of your heart", "cracks of the cliff" and "I will bring you down". Obadiah alone has the boast "Who will lower me to the ground?" and the stars. Note 1:3 ("Jeremiah 49:16 has the same Hebrew words") should say which words.
 
 **2. Major. notes.json 1:11 "Casting lots for a city" (`b`).**
@@ -56,21 +56,21 @@ Fix: rewrite the Reformed row with both streams; soften the F sentence to match 
 ## Minor
 
 **7. Minor. plain.txt 1:14, 1:17, 1:18 (survivor/escape word family).**
-`peliṭav` (14, "fugitives") and `peletah` (17, "survivors") share a root, and `sarid` (14, "survivors"; 18, "No one will be left") is a different word. The Plain swaps them: Zion's "survivors" (17) are not the "fugitives" Edom cut off (14), and the `sarid` link between 14 and 18 is hidden by "No one will be left". The book's reversal is lost, and no note explains it.
+`peliṭav` (14, "fugitives") and `peletah` (17, "survivors") share a root, and `sarid` (14, "survivors"; 18, "No one will be left") is a different word. The Plain English Translation swaps them: Zion's "survivors" (17) are not the "fugitives" Edom cut off (14), and the `sarid` link between 14 and 18 is hidden by "No one will be left". The book's reversal is lost, and no note explains it.
 Fix: use one English family for `peleṭ` (14 and 17, "escapees" or "those who escaped") and "survivor" for `sarid` (14 and 18), or add a note. Check the effect on Joel 2:32, which also uses "survivors".
 
 **8. Minor. plain.txt 1:5, 1:19, 1:20, 1:21: words added without a signal.**
-- 1:5 "a few gleanings": Hebrew `'olelot` has no "few", and the Jer Plain 49:9 says "gleanings". The anchor and note repeat "a few".
+- 1:5 "a few gleanings": Hebrew `'olelot` has no "few", and the Jer Plain English Translation 49:9 says "gleanings". The anchor and note repeat "a few".
 - 1:19 "The people of the Negev", "the land of the Philistines": the Hebrew has "the Negev", "the Philistines". The Greek supplies the people ("those in the Negev"). The gloss glosses only "the dry south country". The notes should say that "people" and "land" are supplied.
 - 1:20 "Canaan's land": supplied; note 1:20 does mention it.
 - 1:21 "go up Mount Zion": Hebrew `be-har Tsiyyon`, "on".
 Fix: delete "a few"; add a short supplied-words remark to the notes at 1:19 and 1:21.
 
 **9. Minor. notes.json 1:12 (eight "do nots").**
-The brief says weigh and state. The note says "the Plain keeps the plain commands and lets the reader hear either", so it leaves the question open. It also calls all eight "a short verb form" after `'al`, but `tavo` and `tishlachnah` (with the added `-nah`) are not clearly short forms, and 14b `tasgér` is.
+The brief says weigh and state. The note says "the Plain English Translation keeps the plain commands and lets the reader hear either", so it leaves the question open. It also calls all eight "a short verb form" after `'al`, but `tavo` and `tishlachnah` (with the added `-nah`) are not clearly short forms, and 14b `tasgér` is.
 Fix: state a leaning (v11 and v15 look back, so the retrospective reading is natural) or say plainly that the writer does not choose. Correct "short verb" to "jussive" or "an `'al` + imperfect form".
 
-**10. Minor. Plain 1:11 and 1:13 sentence shape.**
+**10. Minor. Plain English Translation 1:11 and 1:13 sentence shape.**
 1:11 follows the shape of the ESV (stood aloof / strangers / carried off wealth / foreigners entered gates / cast lots for Jerusalem / "you too were like one of them") very closely, and 1:13 follows its opening ("enter the gate of my people / in the day of their calamity"). Much of that is forced by the Hebrew. "you yourself were like one of them" and "Do not walk in through the gate" differ only slightly. 1:16 "drink and drink" renders `tamid` ("continually") but matches a familiar rendering. I flag these for the drift audit; the writer should consider restructuring 1:11 (for example, start with "You stood aside on that day...").
 
 **11. Minor. Dating stated as settled (chapters.json `deep` "Who was Edom?"; book.json `audience`).**
@@ -78,7 +78,7 @@ Fix: state a leaning (v11 and v15 look back, so the retrospective reading is nat
 Fix: "On the commonest dating, Obadiah deals with the Edom of the 500s."
 
 **12. Minor. notes.json 1:3 (Who will lower me).**
-Quotes Isaiah 14:13 as "above the stars of God"; the Isaiah Plain says "higher than the stars of God". The rule is that a note quoting another book's verse uses the Plain exactly.
+Quotes Isaiah 14:13 as "above the stars of God"; the Isaiah Plain English Translation says "higher than the stars of God". The rule is that a note quoting another book's verse uses the Plain English Translation exactly.
 Fix: use "higher than the stars of God".
 
 **13. Minor. notes.json 1:18 ("No one left").**
@@ -109,7 +109,7 @@ Fix: give a passage, name the source, or soften.
 - Sephardic haftarah for Vayishlach, and Obadiah 21 in the Rosh Hashanah malkhuyot.
 - Catechism paragraph numbers, Lumen Gentium 9, Nostra Aetate 4, Dordrecht 14, Westminster Confession 1.9 and 23.1, Augsburg XVI, London Baptist 1.9 (Orthodox and Reformed rows aside, as in finding 6).
 - 4Q82 and Mur88 readings as printed by dss.py (1:4, 1:11, 1:15, 1:17, 1:21); the ketiv/qere at 1:11 matches texts/auto.
-- The quotes of Psalm 22:28, Joel 2:32, Amos 1:11, Deuteronomy 23:7, Lamentations 4:21 and Job 2:11 match the Plain on the site.
+- The quotes of Psalm 22:28, Joel 2:32, Amos 1:11, Deuteronomy 23:7, Lamentations 4:21 and Job 2:11 match the Plain English Translation on the site.
 - The count of ten "day" in verses 11-14, the eight "do nots", and seven "Esau" and two "Edom" in the book.
 - No em-dashes in any file. Settings cards cover all three speech units.
 - The atlas review (drop `esau`, `israel` and other people entries; the Sepharad point) is still to be done after this review, as the brief states.
@@ -124,7 +124,7 @@ Fix: give a passage, name the source, or soften.
 6. Fixed. Reformed row now has both streams (fulfilled in Christ and church; future turning of Jewish people, Romans 11, WLC 191) and drops Galatians 6:16; F view softened to match the cards; Orthodox and Messianic rows labeled as short summaries with no source cited; Lutheran and Baptist rows added (no separate teaching; Baptists split between the two readings).
 7. Fixed. 14a "survivors" (palit, same root as peletah in 17), 14b "those who are left" (sarid, like 18 "No one will be left", and Joel 2:32); notes 1:14 and 1:17 explain the link.
 8. Fixed. "a few" deleted at 1:5 (note anchor "gleanings"); notes at 1:19 and 1:21 say which words are supplied; 1:21 now "go up on Mount Zion".
-9. Fixed. Note 1:12 states a lean (retrospective reading slightly more natural), says the Plain does not choose, and replaces "short verb" with the correct description (imperfect/jussive; 13c added ending).
+9. Fixed. Note 1:12 states a lean (retrospective reading slightly more natural), says the Plain English Translation does not choose, and replaces "short verb" with the correct description (imperfect/jussive; 13c added ending).
 10. Fixed. 1:11 and 1:13 restructured ("You stood aside on that day ... You were just like one of them"; "Do not enter my people's gate"; "Do not reach out a hand for their wealth"); 1:16 "drink on and on". Notes, glosses and the table anchors updated.
 11. Fixed. "On the commonest dating" added to the Edom-of-the-500s sentence, audience `to`/`why` and the Setting fact.
 12. Fixed. The stars quote is now "higher than the stars of God" (it was in the 1:4 eagle note).

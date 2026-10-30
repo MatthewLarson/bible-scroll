@@ -1,12 +1,12 @@
 # Hostile review: Proverbs 30–31 (part 30-31)
 
-Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in content/books/Pro/parts/30-31/, plus the parts of book.json that touch Proverbs 30–31. Checked against texts/orig, texts/auto, `node tools/literal.js Pro 30` and `31`, terms.json, the Plain of the other five Proverbs parts and of Ruth, Psalms, Job, Genesis–Deuteronomy, Joshua and Judges, and (in my head only) the NIV and ESV. `node tools/build.js --check Pro/30-31` and `--check Pro` both report 0 errors and 0 warnings. The build's quotation check misses several mismatches listed below, because the quotation is tied to its reference by "compare" or comes before it.
+Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in content/books/Pro/parts/30-31/, plus the parts of book.json that touch Proverbs 30–31. Checked against texts/orig, texts/auto, `node tools/literal.js Pro 30` and `31`, terms.json, the Plain English Translation of the other five Proverbs parts and of Ruth, Psalms, Job, Genesis–Deuteronomy, Joshua and Judges, and (in my head only) the NIV and ESV. `node tools/build.js --check Pro/30-31` and `--check Pro` both report 0 errors and 0 warnings. The build's quotation check misses several mismatches listed below, because the quotation is tied to its reference by "compare" or comes before it.
 
 ## Verdict
 
-This is a strong part. The translation is close to the Hebrew and keeps the couplet and tricolon shapes. The full-treatment places (30:1, 31:1, 31:10–31 with Ruth 3:11) are handled carefully. The lead decision on 'eshet chayil is followed, and the chapter page quotes Ruth 3:11 in Ruth's own Plain and says it is the same Hebrew. The Greek, the Latin and the Ketiv/Qere readings are accurate wherever I could check them. Most of the citations the writer gave from their own knowledge hold up: Bauer, Augustine Letter 102 (by way of ACCS), Matthew Henry, Franklyn, Yael Levine's EJ article, Midrash Mishlei on 31:29, the Assemblies of God paper, Sanhedrin 43a and 70b, Hammurabi, KTU 1.4 iii, Ahiqar, SBC 2006, BFM 2000, Ordinatio Sacerdotalis, CCC 2290 and the Year A lectionary. Five problems need fixing before this part is final:
+This is a strong part. The translation is close to the Hebrew and keeps the couplet and tricolon shapes. The full-treatment places (30:1, 31:1, 31:10–31 with Ruth 3:11) are handled carefully. The lead decision on 'eshet chayil is followed, and the chapter page quotes Ruth 3:11 in Ruth's own Plain English Translation and says it is the same Hebrew. The Greek, the Latin and the Ketiv/Qere readings are accurate wherever I could check them. Most of the citations the writer gave from their own knowledge hold up: Bauer, Augustine Letter 102 (by way of ACCS), Matthew Henry, Franklyn, Yael Levine's EJ article, Midrash Mishlei on 31:29, the Assemblies of God paper, Sanhedrin 43a and 70b, Hammurabi, KTU 1.4 iii, Ahiqar, SBC 2006, BFM 2000, Ordinatio Sacerdotalis, CCC 2290 and the Year A lectionary. Five problems need fixing before this part is final:
 - 31:26 renders torah as "law", against terms.json.
-- Five quotations of other Proverbs verses do not use those verses' current Plain, and two of them are word-for-word NIV/ESV.
+- Five quotations of other Proverbs verses do not use those verses' current Plain English Translation, and two of them are word-for-word NIV/ESV.
 - Several New Testament quotations reproduce NIV or ESV wording.
 - 30:4b drifts to the NIV.
 - The wine card is the third near-duplicate in the book, and it leaves out two of the traditions the brief names.
@@ -19,23 +19,23 @@ Counts: **0 critical, 5 major, 19 minor.**
 
 ### 1. Major: 31:26 renders torah as "law", against terms.json
 - **Where:** plain.txt 31:26; notes.json 31:26 ("Torat chesed"); topics.json `woman-of-strength`, `women-in-ministry` and `hesed` (all quote "the law of loyal love").
-- **Problem:** terms.json, "torah (Proverbs)", says: "teaching, for a parent's or a sage's torah (1:8; 3:1; 4:2; 6:20, 23; 7:2; 13:14; **31:26**)". book.json's "Key terms" also says "a parent's torah is 'teaching'". 01-09 follows this (1:8 "your mother's teaching"). The note at 31:26 even says that in Proverbs torah "is usually the instruction a parent gives", and then the Plain uses "law" anyway. Its sentence "Torah is 'law' on this site" is wrong for Proverbs.
-- **Fix:** Plain 31:26b "and the teaching of loyal love is on her tongue", or "teaching marked by loyal love" (watch for drift: ESV has "the teaching of kindness"). Then:
+- **Problem:** terms.json, "torah (Proverbs)", says: "teaching, for a parent's or a sage's torah (1:8; 3:1; 4:2; 6:20, 23; 7:2; 13:14; **31:26**)". book.json's "Key terms" also says "a parent's torah is 'teaching'". 01-09 follows this (1:8 "your mother's teaching"). The note at 31:26 even says that in Proverbs torah "is usually the instruction a parent gives", and then the Plain English Translation uses "law" anyway. Its sentence "Torah is 'law' on this site" is wrong for Proverbs.
+- **Fix:** Plain English Translation 31:26b "and the teaching of loyal love is on her tongue", or "teaching marked by loyal love" (watch for drift: ESV has "the teaching of kindness"). Then:
   - rewrite the note's first sentence to point to the 1:8 note and the Proverbs entry in terms.json;
   - update the three topic quotations;
   - update the note's anchor to match the new wording.
 
-### 2. Major: quotations of other Proverbs verses do not match their current Plain, and two copy NIV/ESV
+### 2. Major: quotations of other Proverbs verses do not match their current Plain English Translation, and two copy NIV/ESV
 The build does not catch any of these.
-- **notes.json 31:10 ("Worth more than red coral"):** "compare 18:22, 'he who finds a wife finds good'". The Plain of 18:22 is "Find a wife and you have found something good". The quoted wording is close to NIV/ESV ("He who finds a wife finds…").
-- **notes.json 31:30 ("Beauty is hevel"):** "'a beautiful woman without sense' is like a gold ring in a pig's snout (11:22)". The Plain is "a lovely woman who has turned her back on good sense". The quoted phrase echoes ESV ("a beautiful woman without discretion").
-- **variants.json 30:17, "why":** "(compare 23:22, 'do not despise your mother when she is old')". These are NIV's exact words, and nearly ESV's. The Plain is "Do not look down on your mother because she has grown old".
-- **notes.json 30:20 ("Eating as a picture of sex"):** the strange woman "who 'forgets the covenant of her God' (see 2:17…)". These are ESV's exact words. The Plain is "the covenant of her God has slipped from her mind".
+- **notes.json 31:10 ("Worth more than red coral"):** "compare 18:22, 'he who finds a wife finds good'". The Plain English Translation of 18:22 is "Find a wife and you have found something good". The quoted wording is close to NIV/ESV ("He who finds a wife finds…").
+- **notes.json 31:30 ("Beauty is hevel"):** "'a beautiful woman without sense' is like a gold ring in a pig's snout (11:22)". The Plain English Translation is "a lovely woman who has turned her back on good sense". The quoted phrase echoes ESV ("a beautiful woman without discretion").
+- **variants.json 30:17, "why":** "(compare 23:22, 'do not despise your mother when she is old')". These are NIV's exact words, and nearly ESV's. The Plain English Translation is "Do not look down on your mother because she has grown old".
+- **notes.json 30:20 ("Eating as a picture of sex"):** the strange woman "who 'forgets the covenant of her God' (see 2:17…)". These are ESV's exact words. The Plain English Translation is "the covenant of her God has slipped from her mind".
 - **notes.json 31:18 ("Taste and see"):** "for the wicked, 'the lamp… will go out' (compare 13:9; 20:20; 24:20)". 13:9 and 24:20 say "will be snuffed out", and only 20:20 says "your lamp will go out".
-- **Fix:** quote each verse's current Plain exactly, or paraphrase without quotation marks.
+- **Fix:** quote each verse's current Plain English Translation exactly, or paraphrase without quotation marks.
 
 ### 3. Major: New Testament quotations reproduce NIV or ESV wording
-The NT books have no site Plain yet, so these must be the writer's own renderings. Some are copies:
+The NT books have no site Plain English Translation yet, so these must be the writer's own renderings. Some are copies:
 - **notes.json 30:8 ("My allotted bread"):** 1 Timothy 6:8, "if we have food and clothing, with these we will be content". This is ESV word for word.
 - **notes.json 31:28 ("Call her happy"):** Luke 1:48, "from now on all generations will call me blessed". This is NIV word for word, and ESV except its opening.
 - **notes.json 30:4 ("Who has gone up to heaven?"):** Romans 10:6, "'Who will go up into heaven?' (that is, to bring Christ down)". This is ESV except for "go up" in place of "ascend".
@@ -64,7 +64,7 @@ The NT books have no site Plain yet, so these must be the writer's own rendering
 - **Fix:** correct row 1. Verify the starting number in Swete itself, or drop Swete's numbers and give MT references only.
 
 ### 7. Minor: 30:4 adds "Tell me", and is inconsistent with Job 38:5
-- **Problem:** the Hebrew is only ki teda'. "Tell me" is padding, an echo of KJV "tell, if thou canst tell". The note at 30:4 ("If you know") sets the line beside Job 38:5, whose Plain renders the same two words "You must know!". A reader cannot see the parallel the note describes.
+- **Problem:** the Hebrew is only ki teda'. "Tell me" is padding, an echo of KJV "tell, if thou canst tell". The note at 30:4 ("If you know") sets the line beside Job 38:5, whose Plain English Translation renders the same two words "You must know!". A reader cannot see the parallel the note describes.
 - **Fix:** "Surely you know!" or "You must know!", matching Job, or "if you know!" without "Tell me".
 
 ### 8. Minor: small translation points
@@ -78,19 +78,19 @@ The NT books have no site Plain yet, so these must be the writer's own rendering
 - **Problem:** terms.json, 'atsel, says "never 'sluggard'". The 31:27 note also attaches "eats the bread of laziness" to a sluggard, but 31:27 says it of the woman, and the lazy one is not mentioned there.
 - **Fix:** "the lazy one".
 
-### 10. Minor: quotations of other books' Plain
-- **notes.json 30:11:** "Psalm 14:5 'the generation of the righteous'". The Psalm Plain is "the circle of the righteous". Give the Hebrew bedor tsaddiq and say the Psalms Plain has "circle".
-- **notes.json 31:17:** "the verb of 'be strong and courageous', Joshua 1:6". The Joshua Plain is "Be strong and bold".
-- **Fix:** match the Plain or drop the quotation marks.
+### 10. Minor: quotations of other books' Plain English Translation
+- **notes.json 30:11:** "Psalm 14:5 'the generation of the righteous'". The Psalm Plain English Translation is "the circle of the righteous". Give the Hebrew bedor tsaddiq and say the Psalms Plain English Translation has "circle".
+- **notes.json 31:17:** "the verb of 'be strong and courageous', Joshua 1:6". The Joshua Plain English Translation is "Be strong and bold".
+- **Fix:** match the Plain English Translation or drop the quotation marks.
 
 ### 11. Minor: wrong verse for "God's works"
 - **Where:** notes.json 30:18.
-- **Problem:** "The verb nifle'u… is used of God's works (Psalm 139:6)". Psalm 139:6 is about knowledge that is "a wonder beyond me", a phrase the Plain of 30:18 shares, which is a nice link. God's works are Psalm 139:14 ("Your works are wonders").
+- **Problem:** "The verb nifle'u… is used of God's works (Psalm 139:6)". Psalm 139:6 is about knowledge that is "a wonder beyond me", a phrase the Plain English Translation of 30:18 shares, which is a nice link. God's works are Psalm 139:14 ("Your works are wonders").
 - **Fix:** cite both verses correctly.
 
 ### 12. Minor: 'oz and chayil are blurred
 - **Where:** notes.json 31:10 ('eshet chayil).
-- **Problem:** "The Plain says 'strength' because the poem keeps returning to her strength (31:17, 25)". Those verses use 'oz, a different word, and the Plain also renders it "strength". The English reader therefore cannot tell chayil (31:3, 10, 29) from 'oz (31:17, 25).
+- **Problem:** "The Plain English Translation says 'strength' because the poem keeps returning to her strength (31:17, 25)". Those verses use 'oz, a different word, and the Plain English Translation also renders it "strength". The English reader therefore cannot tell chayil (31:3, 10, 29) from 'oz (31:17, 25).
 - **Fix:** say so, or consider "might" for 'oz.
 
 ### 13. Minor: inaccurate claim about the tsade line
@@ -162,21 +162,21 @@ None of these is a copy, but each repeats a familiar rendering where the Hebrew 
 - **Rabbinic sources:** Sanhedrin 43a (frankincense in wine, the women of Jerusalem), Sanhedrin 70b (Bathsheba, the pillar, the reading of "more than a man" as Noah), Numbers Rabbah 10:4, and Kohelet Rabbah 1:1's list of Solomon's names.
 - **Ancient Near Eastern texts:** the Hammurabi epilogue ("that the strong might not oppress the weak"), KTU 1.4 iii 17–21, and Ahiqar's "two things… a third pleasing to Shamash".
 - **Church documents and practice:** SBC 2006, BFM 2000 articles 6 and 18, Ordinatio Sacerdotalis, CCC 2290, the Catholic Year A 33rd Sunday reading with Matthew 25, and Augustine's Sermon 37.
-- **Lead decision on Ruth 3:11:** the chapter 31 deep section and the `ruth` topic quote Ruth's Plain exactly and say it is the same Hebrew. "A woman of strength" is kept at 12:4 and 31:10, with chayil carried into 31:3 and 31:29.
+- **Lead decision on Ruth 3:11:** the chapter 31 deep section and the `ruth` topic quote Ruth's Plain English Translation exactly and say it is the same Hebrew. "A woman of strength" is kept at 12:4 and 31:10, with chayil carried into 31:3 and 31:29.
 - **Leningrad Codex order:** Ruth follows Proverbs.
 - **Ketiv/Qere:** at 30:10, 31:4, 31:16 and 31:18 they are reported correctly from texts/auto.
 - **Cross-part items:** none of the repeated-saying pairs falls in 30–31. 31:10 matches 12:4 and 3:15 ("red coral").
 
 ## Fixes applied
 
-1. Done. Plain 31:26b now reads "and on her tongue is the teaching of loyal love". The note anchor is updated, and its first sentence now says torah is a parent's or sage's teaching in Proverbs, as at 1:8. All three topic sections (woman-of-strength, women-in-ministry, hesed, including the hesed heading) now say "the teaching of loyal love".
-2. Done. These quotations now use the current Plain:
+1. Done. Plain English Translation 31:26b now reads "and on her tongue is the teaching of loyal love". The note anchor is updated, and its first sentence now says torah is a parent's or sage's teaching in Proverbs, as at 1:8. All three topic sections (woman-of-strength, women-in-ministry, hesed, including the hesed heading) now say "the teaching of loyal love".
+2. Done. These quotations now use the current Plain English Translation:
    - 18:22: "Find a wife and you have found something good".
    - 11:22: "a lovely woman who has turned her back on good sense".
    - 23:22 (variant 30:17): "Do not look down on your mother because she has grown old".
    - 2:17: "the covenant of her God has slipped from her mind".
    - 13:9 and 24:20: "the lamp of the wicked will go out", cited with "compare 20:20".
-   - Also fixed: 9:17 is now "is a delight", following the current 01-09 Plain, and Matthew 6:11 now follows the Matthew Plain ("Give us today our bread for the coming day").
+   - Also fixed: 9:17 is now "is a delight", following the current 01-09 Plain English Translation, and Matthew 6:11 now follows the Matthew Plain English Translation ("Give us today our bread for the coming day").
 3. Done. Each passage is rendered fresh from the SBLGNT in the site texts:
    - 1 Timothy 6:8: "if we have food and something to wear, that will be enough for us".
    - Luke 1:48: "every generation from now on will call me happy".
@@ -200,9 +200,9 @@ None of these is a copy, but each repeats a familiar rendering where the Hebrew 
    - The 31:4 note now says the spelling Lemo'el is a variant of Lemu'el in 31:1.
    - The 30:18 note now gives the Ketiv/Qere (arba' / arba'ah), checked in texts/auto.
 9. Done. Both notes say "the lazy one" (6:9–11; 6:6–11). The 31:27 note now says, correctly, that the line itself says she never eats the bread of laziness. "Sluggard" no longer appears anywhere in the part.
-10. Done. Psalm 14:5 gives bedor tsaddiq and the Psalms Plain "the circle of the righteous". Joshua 1:6 is quoted as "Be strong and bold".
+10. Done. Psalm 14:5 gives bedor tsaddiq and the Psalms Plain English Translation "the circle of the righteous". Joshua 1:6 is quoted as "Be strong and bold".
 11. Done. The 30:18 note now cites Psalm 139:6 ("Knowing like this is a wonder beyond me") for the root and Psalm 139:14 ("Your works are wonders") for God's works.
-12. Done. 'oz is now "might" in the Plain at 31:17 and 31:25, so "strength" belongs to chayil alone (31:3, 10, 29).
+12. Done. 'oz is now "might" in the Plain English Translation at 31:17 and 31:25, so "strength" belongs to chayil alone (31:3, 10, 29).
    - The 31:10 note says this.
    - The 31:11 and 31:17 notes and the woman-of-strength topic say "might".
    - The alphabet table now has 'oz = "might" and gimel = "she pays him back".

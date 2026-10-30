@@ -4,14 +4,14 @@ Reviewer: independent hostile reviewer. Scope: all 348 verses of 1:1–11:32, ch
 `node tools/literal.js Deu <ch>` and the BSB, with NIV/ESV wording checked from memory; notes.json (215),
 variants.json (15), glosses.json (108), chapters.json (11), topics.json (30), sources.json; Deu/book.json;
 content/topics/shema, monotheism, giants, deuteronomistic-history, blessings-and-curses; the 13 Deuteronomy
-terms in content/terms.json, compared with the Genesis–Numbers Plain. Chapters 12–34 were not reviewed.
+terms in content/terms.json, compared with the Genesis–Numbers Plain English Translation. Chapters 12–34 were not reviewed.
 `node tools/build.js --check Deu/01-11`: 0 errors, 0 warnings (quotation check included).
 
 ## Verdict
 
 This is a strong, careful part. The translation is built from the Hebrew, keeps Deuteronomy's repetitions and
 word order (for example "Bread I did not eat, and water I did not drink," 9:9, which matches Exodus 34:28), and
-renders Deuteronomy's legal vocabulary consistently. The Ten Words (5:6–21) match the Exodus 20 Plain wherever
+renders Deuteronomy's legal vocabulary consistently. The Ten Words (5:6–21) match the Exodus 20 Plain English Translation wherever
 the Hebrew is the same, and they mark every real difference (no "or" in 5:8, "empty witness" in 5:20,
 "crave/long for" in 5:21). The notes are dense, fair and almost all accurate. I checked each fact the writer
 asked about, and all of them hold up: Millard's title, the Marduk bed, Alalakh *sikiltu*, the Syriac "Sirion,"
@@ -30,8 +30,8 @@ items).
 - **Location:** plain.txt 4:37, "he chose their descendants after them."
 - **Problem:** The MT reads וַיִּבְחַר בְּזַרְעוֹ אַחֲרָיו, "and he chose *his* offspring after *him*" (the literal
   line has "offspring his | after him"). The plural "their... them" is the reading of the Samaritan Pentateuch,
-  the Septuagint, the Syriac and the Vulgate, and the NRSV and ESV footnote it. The Plain follows that reading,
-  but variants.json has no entry and no note mentions it. That breaks the rule that the Plain follows the MT
+  the Septuagint, the Syriac and the Vulgate, and the NRSV and ESV footnote it. The Plain English Translation follows that reading,
+  but variants.json has no entry and no note mentions it. That breaks the rule that the Plain English Translation follows the MT
   unless a variant explains why.
 - **Fix:** Either render the MT ("he chose his descendants after him," with a note that "his" probably means
   Abraham's, or each ancestor's), or keep the plural and add a variants.json entry that names the witnesses
@@ -39,7 +39,7 @@ items).
 
 ### 2. Major: 3:24 copies ESV and NIV and adds "only"
 - **Location:** plain.txt 3:24, and the chapter 3 "Read as a prayer" paragraph, which quotes the same words.
-- **Problem:** The Plain has "Lord GOD, you have only begun to show your servant your greatness and your strong
+- **Problem:** The Plain English Translation has "Lord GOD, you have only begun to show your servant your greatness and your strong
   hand. What god is there in heaven or on earth who can do works like yours...". The Hebrew is
   אַתָּה הַחִלּוֹתָ לְהַרְאוֹת אֶת־עַבְדְּךָ, "you have begun to show your servant," with no "only." "You have only begun
   to show your servant your greatness" is the ESV word for word. "Your strong hand. For what god is there in
@@ -67,7 +67,7 @@ items).
 
 ### 4. Major: the new term *torah* = "law" contradicts Genesis–Leviticus, and "decrees" is already taken
 - **Location:** content/terms.json, the entries `torah` and `edot`; book.json "About the translations."
-- **Problem:** The term says *torah* is "law (note 'instruction' at first use in each book)." But the Plain of the
+- **Problem:** The term says *torah* is "law (note 'instruction' at first use in each book)." But the Plain English Translation of the
   earlier books renders *torah* "teaching": Genesis 26:5 "my teachings," Exodus 12:49 "One teaching," Exodus
   24:12 "the teaching," Leviticus 26:46 "the teachings." So a term "shared with the rest of the site" (book.json)
   is in fact new and conflicts with three books. Also, Genesis 26:5 renders *chuqqotai* as "my decrees," while
@@ -132,19 +132,19 @@ These are weaker than findings 2–3, but a reviewer comparing versions will fla
 - **padah** (7:8; 9:26) is "set you free," but Exodus 13:13 renders *padah* "ransom," and the 7:8 note is titled
   "Ransomed." Use "ransomed you."
 - **be-fanav** (4:37) is "He himself," the Septuagint's interpretation, as the note says. The note quotes Exodus
-  33:14, "My face will go," which the Exodus Plain renders literally. Consider "he brought you out with his own
+  33:14, "My face will go," which the Exodus Plain English Translation renders literally. Consider "he brought you out with his own
   presence (literally 'his face')," or at least keep the translation consistent with how the note argues.
 - **5:12** "Keep the Sabbath day" against Exodus 20:8 "Remember the day of the Sabbath." The Hebrew is
-  אֶת־יוֹם הַשַּׁבָּת in both. To match the Exodus Plain: "Keep the day of the Sabbath, and set it apart as holy."
+  אֶת־יוֹם הַשַּׁבָּת in both. To match the Exodus Plain English Translation: "Keep the day of the Sabbath, and set it apart as holy."
 - **dabaq**: the term "hold on to" is limited to "(to God)," so it is allowed, but the 4:4 note links it to
-  Genesis 2:24 and Ruth 1:14, which the Plain renders "sticks close" and "clung." Add "(the same verb rendered
+  Genesis 2:24 and Ruth 1:14, which the Plain English Translation renders "sticks close" and "clung." Add "(the same verb rendered
   'sticks close' in Genesis 2:24 and 'clung' in Ruth 1:14)" so the reader can see the link.
 - **Name forms:** "Emim, Rephaim, Zamzummim, Avvim, Caphtorim" sit beside "Anakites" in the same verses
   (2:10–11, 2:21). Either is fine, but the mix looks careless. Check what Numbers 13 and Joshua use and pick one
   pattern.
 
 ### 10. Minor: smaller translation points
-- 1:42: לֹא תִנָּגְפוּ is a purpose clause ("so that you are not struck down before your enemies"). The Plain turns
+- 1:42: לֹא תִנָּגְפוּ is a purpose clause ("so that you are not struck down before your enemies"). The Plain English Translation turns
   it into a prediction ("Your enemies will beat you").
 - 3:11: "Is it not *still* in Rabbah": "still" is not in the Hebrew (הֲלֹה הִוא). The note already argues the
   point, so leave it out of the text.
@@ -221,9 +221,9 @@ Septuagint and."
 
 ### 16. Minor: chapter pages and book.json
 - Chapter 1 deep section "Judges for the people" quotes "wise, discerning and well-known men," which is not the
-  Plain of 1:13 ("men who are wise, who have understanding and who are known") and is close to the NIV. Quote the
-  Plain.
-- book.json "About the translations" gives "3:9–11" as an aside in parentheses. In the Plain, 3:9 and 3:11 are in
+  Plain English Translation of 1:13 ("men who are wise, who have understanding and who are known") and is close to the NIV. Quote the
+  Plain English Translation.
+- book.json "About the translations" gives "3:9–11" as an aside in parentheses. In the Plain English Translation, 3:9 and 3:11 are in
   parentheses but 3:10 is not, while 3:13b–14 is. Change it to "3:9, 3:11, 3:13–14."
 - book.json is otherwise accurate: 959 verses; de Wette 1805; Noth 1943; Mendenhall 1955; Bava Batra 14b–15a;
   eleven synagogue portions; about thirty Qumran copies; Kaufman on the order of chapters 12–26 following the Ten
@@ -259,7 +259,7 @@ Septuagint and."
 
 Writer of part 01-11, fix round. Every finding was accepted except where noted.
 
-1. **4:37**: the Plain now follows the Masoretic Text: "Because he loved your ancestors and chose his descendants after him, he brought you out of Egypt with his own presence, by his great power," and 4:38 continues "to drive out nations...". A variant entry (Samaritan Pentateuch, Septuagint, Syriac, Vulgate; KJV, NRSV, ESV "their... them") explains the choice, and the 4:37 election note now mentions it. *be-fanav* is now "with his own presence" (finding 9), and the note's anchor and wording were changed to match.
+1. **4:37**: the Plain English Translation now follows the Masoretic Text: "Because he loved your ancestors and chose his descendants after him, he brought you out of Egypt with his own presence, by his great power," and 4:38 continues "to drive out nations...". A variant entry (Samaritan Pentateuch, Septuagint, Syriac, Vulgate; KJV, NRSV, ESV "their... them") explains the choice, and the 4:37 election note now mentions it. *be-fanav* is now "with his own presence" (finding 9), and the note's anchor and wording were changed to match.
 2. **3:24** is retranslated from the literal line: "Lord GOD, you have begun to let your servant see your greatness and your strong hand. Who is a god in the heavens or on the earth who can do works like yours, mighty deeds like yours?" The note anchor and the chapter 3 quotation were updated.
 3. **Retranslated from the literal lines:** 4:9–10 (4:9 now ends with a colon, and 4:10 reads "the day you stood before the LORD your God at Horeb, when the LORD said to me..."); 1:31 ("and in the wilderness, where you saw that the LORD your God carried you..."); 2:7 ("He knows every step of your journey through this huge wilderness. For forty years now the LORD your God has been with you."); and 10:16 ("and do not harden your neck any longer"). The 9:6 note and the circumcision topic were updated to match.
 4. **Settled by the coordinator** (torah is "law", torot is "laws", chuqqim are "rules", edot are "decrees", applied across Genesis–Numbers). No change here beyond keeping "instruction" noted at first use.
@@ -271,7 +271,7 @@ Writer of part 01-11, fix round. Every finding was accepted except where noted.
    - *padah* is now "ransomed" (7:8, 9:26), as in Exodus 13:13. The 9:12 note quotation was updated.
    - 5:12 and 5:15 now read "the day of the Sabbath", as in Exodus 20:8. The 5:12 note anchor and the 5:15 variant were updated.
    - *dabaq*: the 4:4 note now says it is the same verb rendered "sticks close" in Genesis 2:24 and "clung" in Ruth 1:14. terms.json does not need to change: "hold on to (to God)" stays a separate use.
-   - Name forms: Hebrew *-im* plurals are kept as in Genesis 14:5 (Emim, Rephaim, Zamzummim, Avvim, Caphtorim, and now Anakim). The single-form name *ha-Chori* stays "Horites". The Plain, notes, chapter pages, topics and the giants core title were changed from "Anakites" to "Anakim". "Anakites" stays an alias.
+   - Name forms: Hebrew *-im* plurals are kept as in Genesis 14:5 (Emim, Rephaim, Zamzummim, Avvim, Caphtorim, and now Anakim). The single-form name *ha-Chori* stays "Horites". The Plain English Translation, notes, chapter pages, topics and the giants core title were changed from "Anakites" to "Anakim". "Anakites" stays an alias.
 10. **Smaller translation points:** 1:42 is now a purpose clause ("Then you will not be struck down in front of your enemies."); "still" was removed from 3:11; 4:21 now reads "because of your words"; 8:19 now reads "I testify against you today".
 11. **7:20:** "The Septuagint and" was removed ("Many modern commentators read it...").
 12. **2:11 note:** now says that in Genesis 14:5 and Joshua 12:4 the Septuagint has "giants", while in Deuteronomy it keeps the name Rephaim.
@@ -282,7 +282,7 @@ Writer of part 01-11, fix round. Every finding was accepted except where noted.
     - The Millard citation now adds "JSOTSup 67".
 14. **New variant entries:** 1:44 "in Seir" against "from Seir"; 6:13 "Him alone you must serve, and you must hold on to him" (Septuagint; Matthew 4:10; Luke 4:8); 4:33 "the living God" (Samaritan Pentateuch and Septuagint, as generally cited). This makes 20 variants in all.
 15. **Note slips:** 5:16 (Kiddushin 30b–31a, honoring parents compared with honoring God); 5:18 (the commands after "You must not murder"); 6:3 (about fifteen times in the Torah, about twenty in the Old Testament); the chapter 9 deep section (Moses goes down at once, and his prayers come after); 7:8 (the "scandal of particularity" is credited to theologians, with Levenson as one who explores it); chapter 1 views.J (the cause is now the yearly cycle).
-16. **Chapter 1 deep section:** it now quotes the Plain of 1:13. book.json now lists the asides as "3:9, 3:11, 3:13–14".
+16. **Chapter 1 deep section:** it now quotes the Plain English Translation of 1:13. book.json now lists the asides as "3:9, 3:11, 3:13–14".
 17. **Glosses:** 9:6 "stubborn, refusing the yoke"; 5:9 "the guilt of the fathers comes home to the children".
 18. **Topic cores:**
     - giants: "Rephaim", "Rephaites" and "Avvim" added to `aka`. "Rephaim" no longer collides with any other alias. "Nephilim" was not added.

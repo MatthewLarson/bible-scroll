@@ -28,7 +28,7 @@ I found no invented source, reading or find. Three things still need fixing befo
 - a false claim, made twice, that Stephen is the only person besides Jesus to use "the Son of Man";
 - two settings cards that state a post-70 date for Acts as settled, which contradicts the book's own "Date" fact.
 
-The rest are minor: quotations that are not the site's Plain, a few small factual slips, works naming, two KJV-visible
+The rest are minor: quotations that are not the site's Plain English Translation, a few small factual slips, works naming, two KJV-visible
 variants left out, and some wording.
 
 Judgment on the two questions the lead asked:
@@ -36,7 +36,7 @@ Judgment on the two questions the lead asked:
   and the entry is honest about it: it gives NA28's harder-reading argument and the suspicion that scribes
   harmonized to Psalm 132:5.
 - **χάρις as "favor" at 7:10 and 7:46.** This is right: "find favor before" is the Septuagint idiom, and "grace" at
-  6:8 is a fair contextual difference. But the Plain of 7:46 recasts the clause (see finding 12).
+  6:8 is a fair contextual difference. But the Plain English Translation of 7:46 recasts the clause (see finding 12).
 
 ## Findings
 
@@ -58,7 +58,7 @@ Judgment on the two questions the lead asked:
 ### 2. Major: Stephen is not "the only person in the New Testament besides Jesus" to use "the Son of Man"
 - **Where:** notes.json 7:56 ("The Son of Man from someone else's lips"); topics.json `son-of-man` ("Stephen is the
   only person in the New Testament besides Jesus to call Jesus 'the Son of Man'").
-- **Evidence:** In John 12:34 the crowd uses the full title twice. This site's Plain reads: "Then how can you say
+- **Evidence:** In John 12:34 the crowd uses the full title twice. This site's Plain English Translation reads: "Then how can you say
   the Son of Man has to be lifted up? Who is this Son of Man?" The angels at the tomb also use it (Luke 24:7), though
   they are repeating Jesus' words.
 - **Fix:** Say that this is the only place outside the Gospels where anyone but Jesus uses the title, and the only
@@ -75,23 +75,23 @@ Judgment on the two questions the lead asked:
   Luke's readers knew the temple had fallen; if it was written about 62, the speech read as a warning." Or add a
   `views` pair to the 7:2–53 card for the two datings.
 
-### 4. Minor: quotations that are not the site's Plain
+### 4. Minor: quotations that are not the site's Plain English Translation
 The build's checker misses these because of their form (same-book references, or a reference that does not directly
-follow the quote). Each should quote the Plain exactly, or be reworded so it is not a quotation.
-- **6:5 note "Philip the evangelist":** quotes "Philip the evangelist, one of the Seven" (21:8–9). The 21:8 Plain
+follow the quote). Each should quote the Plain English Translation exactly, or be reworded so it is not a quotation.
+- **6:5 note "Philip the evangelist":** quotes "Philip the evangelist, one of the Seven" (21:8–9). The 21:8 Plain English Translation
   reads "the home of Philip the evangelist ... He was one of the Seven."
-- **7:25 note:** "in ignorance" (3:17). The 3:17 Plain reads "you did not understand what you were doing".
-- **7:54 note:** "cut to the heart" (2:37). The Plain reads "These words pierced their hearts."
-- **7:48 note:** "made with hands" / "not made with hands" (Mark 14:58). The Mark Plain reads "that human hands
+- **7:25 note:** "in ignorance" (3:17). The 3:17 Plain English Translation reads "you did not understand what you were doing".
+- **7:54 note:** "cut to the heart" (2:37). The Plain English Translation reads "These words pierced their hearts."
+- **7:48 note:** "made with hands" / "not made with hands" (Mark 14:58). The Mark Plain English Translation reads "that human hands
   made ... that no hands made".
-- **6:15 note:** "like an angel of God" for 1 Samuel 29:9 and 2 Samuel 14:17. The Plain has "as good as an angel of
+- **6:15 note:** "like an angel of God" for 1 Samuel 29:9 and 2 Samuel 14:17. The Plain English Translation has "as good as an angel of
   God" and "like God's angel".
-- **5:42 note:** "from house to house" (as in 2:46). The 2:46 Plain has "In one house after another". Present it as
+- **5:42 note:** "from house to house" (as in 2:46). The 2:46 Plain English Translation has "In one house after another". Present it as
   a gloss on κατ' οἶκον, not tied to 2:46.
 - **7:55 note "Why is Jesus standing?":** "(Isaiah 3:13 in the Greek, 'the Lord stands to judge')". The Septuagint
   has καταστήσεται εἰς κρίσιν ("will take his place for judgment"); it is the Hebrew that has "stands". The site's
   Isaiah 3:13 reads "The LORD has risen to argue his case; / he is on his feet to judge the peoples." Cite that
-  Plain instead, and add Isaiah 3:13 to `r`.
+  Plain English Translation instead, and add Isaiah 3:13 to `r`.
 
 ### 5. Minor: the dating of Isaiah 66 is stated as fact
 - **Where:** notes.json 7:49: "Isaiah spoke to people rebuilding the temple after the exile".
@@ -140,12 +140,12 @@ follow the quote). Each should quote the Plain exactly, or be reworded so it is 
   the truth." Mention the other Bezae changes in `b`.
 
 ### 10. Minor: officers and jail guards blur in 5:22–26
-- **What is wrong:** The Plain uses "guards" for both ὑπηρέται (5:22, 26, the temple officers, per the nt term) and
+- **What is wrong:** The Plain English Translation uses "guards" for both ὑπηρέται (5:22, 26, the temple officers, per the nt term) and
   φύλακες (5:23, the sentries at the jail doors). As a result the guards report that "the guards were posted at the
   doors".
 - **Fix:** Keep "guards" for ὑπηρέται as the term requires, and make φύλακες "the sentries" or "the jailers" in 5:23.
 
-### 11. Minor: wording and drift in the Plain
+### 11. Minor: wording and drift in the Plain English Translation
 - **5:39 "You might even find yourselves fighting against God":** the last five words match the NIV's phrasing. The
   Greek θεομάχοι εὑρεθῆτε also allows "be found to be God-fighters" / "be found fighting God". Recast, for example
   "You might even turn out to be fighting God."
@@ -163,7 +163,7 @@ follow the quote). Each should quote the Plain exactly, or be reworded so it is 
 ### 12. Minor: 7:46 loses the find / find word play
 - **The Greek:** ὃς εὗρεν χάριν ἐνώπιον τοῦ θεοῦ καὶ ᾐτήσατο εὑρεῖν σκήνωμα, "who found favor ... and asked to
   find a dwelling".
-- **What is wrong:** The Plain changes the subject ("God looked on David with favor"). That loses both the Old
+- **What is wrong:** The Plain English Translation changes the subject ("God looked on David with favor"). That loses both the Old
   Testament idiom "find favor before" (as at 7:10) and the echo between the two forms of "find".
 - **Fix:** "David found favor with God, and he asked that he might find a dwelling for the God of Jacob."
 - **The variant entry itself is sound.** Optionally, add Westcott-Hort and Tischendorf to the readings' witness
@@ -212,14 +212,14 @@ follow the quote). Each should quote the Plain exactly, or be reworded so it is 
 
 ## Fixes applied
 1. Fixed. The 5:3 note now names the two verbs (plēroō in 5:3, pimplēmi in 4:31). Chapter 5 `views.L` and the spec box now speak of Luke's "filling words" and name plēroō (5:3, 5:28), pimplēmi (4:31, 5:17) and the adjective plērēs (6:3, 5, 8; 7:55). The spec is kept as a theory about vocabulary.
-2. Fixed. The 7:56 note now says the Gospel exceptions repeat Jesus' words (John 12:34, quoted from the site's Plain; Luke 24:7). It says Stephen is the only one outside the Gospels and the only believer to use the title to confess Jesus. Both are added to `r`. The son-of-man topic section is corrected the same way.
+2. Fixed. The 7:56 note now says the Gospel exceptions repeat Jesus' words (John 12:34, quoted from the site's Plain English Translation; Luke 24:7). It says Stephen is the only one outside the Gospels and the only believer to use the title to confess Jesus. Both are added to `r`. The son-of-man topic section is corrected the same way.
 3. Fixed. The readers on the 6:11–14 and 7:2–53 settings cards and the 6:14 note are now conditional ("If Acts was written after AD 70, as most scholars think ... if about 62 ..."). This matches book.json "Date".
 4. Fixed, all seven:
-   - 6:5 now quotes the 21:8 Plain ("Philip the evangelist", "was one of the Seven").
+   - 6:5 now quotes the 21:8 Plain English Translation ("Philip the evangelist", "was one of the Seven").
    - 7:25 paraphrases 3:17.
    - 7:54 quotes "pierced their hearts".
-   - 7:48 quotes the Mark 14:58 Plain.
-   - 6:15 quotes the 1 Samuel 29:9 and 2 Samuel 14:17 Plain.
+   - 7:48 quotes the Mark 14:58 Plain English Translation.
+   - 6:15 quotes the 1 Samuel 29:9 and 2 Samuel 14:17 Plain English Translation.
    - 5:42 no longer quotes 2:46; κατ' οἶκον is explained as a gloss.
    - 7:55 drops the wrong Greek claim, quotes the site's Isaiah 3:13 and adds it to `r`.
 5. Fixed. The 7:49 note gives both the critical view (post-exilic) and the traditional one (Isaiah himself).
@@ -240,7 +240,7 @@ follow the quote). Each should quote the Plain exactly, or be reworded so it is 
    - 5:38: "plan".
    - 6:13: "keeps on talking against the holy place and the law". "He never stops" is dropped, and the variant readings and note anchor are updated.
    - 7:23: "he made up his mind to go and see how his brothers, the Israelites, were doing".
-12. Fixed, per the lead's decision ("favor" and "the God of Jacob" stay). The 7:46 Plain is now "David found favor with God. He asked to be allowed to find a dwelling for the God of Jacob." This restores the find/find echo and the 7:10 idiom. Westcott-Hort and Tregelles are added to the "God" witnesses (from TAGNT). Tischendorf is not added: it is not in our data.
+12. Fixed, per the lead's decision ("favor" and "the God of Jacob" stay). The 7:46 Plain English Translation is now "David found favor with God. He asked to be allowed to find a dwelling for the God of Jacob." This restores the find/find echo and the 7:10 idiom. Westcott-Hort and Tregelles are added to the "God" witnesses (from TAGNT). Tischendorf is not added: it is not in our data.
 13. Declined. The lead decided that `elders` will be retitled at publish as a whole-Bible "Elders" topic. The issue is already raised in proposals/nt/topics.md, so the `related` link stays.
 14. Fixed.
    - Catholic trinity card: the unsupported clause is dropped. The 5:4 note already gives the fathers' reading.

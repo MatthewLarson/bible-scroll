@@ -10,9 +10,9 @@ Book id `Sng` (USFM `SNG`). 8 chapters, 117 verses in English numbering (17, 17,
 - The Song is heavily quoted at weddings and in sermons ("I am my beloved's and my beloved is mine", "Many waters cannot quench love", "Set me as a seal", "Arise, my love, my fair one", "Rose of Sharon"). Rebuild every verse from `node tools/literal.js Sng <ch>`. A familiar line stays only where the Hebrew forces it. Audit honestly, line by line; a script may not mark lines "changed".
 - Reading level is 8th grade and the readers include teens. Translate the erotic imagery honestly and plainly, neither coy nor crude. Keep the images (breasts like fawns, a garden, fruit, the hand through the opening) and explain them in notes; do not swap in a euphemism and do not add one the Hebrew lacks.
 
-**Plain layout.**
+**Plain English Translation layout.**
 - All poetry: one verse per line, ` / ` between poetic lines.
-- The Hebrew marks the speaker by gender and person, but the text has no labels. The Plain adds none inside verse lines. Use section headings of 2–6 words that name the unit and, where clear, the voice ("Her longing", "His answer"). Where the speaker or the break is debated, say so in a note and give the views. The chapter settings cards (`by`, `to`) carry the voices: the woman, the man, the "daughters of Jerusalem" (chorus), her brothers (1:6; 8:8–9), the watchmen (3:3; 5:7), and the unnamed voice of 5:1c, 8:5a and 8:11–12.
+- The Hebrew marks the speaker by gender and person, but the text has no labels. The Plain English Translation adds none inside verse lines. Use section headings of 2–6 words that name the unit and, where clear, the voice ("Her longing", "His answer"). Where the speaker or the break is debated, say so in a note and give the views. The chapter settings cards (`by`, `to`) carry the voices: the woman, the man, the "daughters of Jerusalem" (chorus), her brothers (1:6; 8:8–9), the watchmen (3:3; 5:7), and the unnamed voice of 5:1c, 8:5a and 8:11–12.
 
 **Lenses (fixed; use these keys in every chapter's `views`).**
 - `H` History and setting: Solomon and the title (1:1), the date (the she- relative, Persian pardes, Greek or Persian 'appiryon, Tirzah beside Jerusalem at 6:4, place names from Lebanon to En-gedi), the setting of the poems, why a book with no divine name and no mention of covenant was kept.
@@ -49,9 +49,9 @@ Book id `Sng` (USFM `SNG`). 8 chapters, 117 verses in English numbering (17, 17,
 - *nerd* "nard", *mor* "myrrh", *kofer* "henna blossoms", *karkom* "saffron", *qaneh* "calamus", *qinnamon* "cinnamon", *levonah* "frankincense", *ahalot* "aloes", *besamim* "spices", *pardes* "orchard" (4:13, a Persian loanword; also Ecclesiastes 2:5). One spice is one English word across the book.
 - *shoshannah* "lily" (2:1–2, 16; 4:5; 5:13; 6:2–3; 7:2 [Hebrew 7:3]), *chavatselet hasharon* "a crocus of the Sharon plain" with a note on the "rose of Sharon" and the hymn "Lily of the Valley" (the speaker is the woman, not Christ). *tappuach* "apple tree" (2:3, 5; 7:8; 8:5) with a note that it may be apricot or quince.
 - *shalhevetyah* (8:6) "a flame of Yah" with the superlative reading ("a raging flame") in a note and both views in `views` (the one possible divine name in the book); *reshef* "flames" (8:6), *qin'ah* "jealousy" with a note that the word covers fierce loyalty (it is used of God's jealousy), *'az kamavet ahavah* "love is as strong as death", Sheol as in terms.json (gloss at first use).
-- *tirtsah* "Tirzah" (6:4), *Hermon, Senir, Amanah* (4:8), *En-gedi* (1:14), *Heshbon, Bat-rabbim* (7:4 [Hebrew 7:5]), *Baal-hamon* (8:11), *Kedar* (1:5), *Gilead* (4:1; 6:5): place names as in the Plain of the books already written; Lebanon is "Lebanon".
+- *tirtsah* "Tirzah" (6:4), *Hermon, Senir, Amanah* (4:8), *En-gedi* (1:14), *Heshbon, Bat-rabbim* (7:4 [Hebrew 7:5]), *Baal-hamon* (8:11), *Kedar* (1:5), *Gilead* (4:1; 6:5): place names as in the Plain English Translation of the books already written; Lebanon is "Lebanon".
 - Euphemism and body words get one fixed English each time and a note on the sense: *shadayim* "breasts", *beten* "belly" (7:2; 5:14), *shorer* (7:2) "navel" with the alternatives in a note, *yarkeikh* "thighs", *yad* "hand" (5:4), *me'ay* "my insides", *gan* "garden", *kerem* "vineyard" (1:6; 8:12), *peri* "fruit".
-- Plant and animal words: *ofer ha'ayyalim* "young deer", *ofer* and *tsevi*, *yonah* "dove", *'orev* "raven", *tomer*/*gefen* as in the Plain; *shoshannah*; *dudaim* "mandrakes" (7:13 [Hebrew 7:14]; compare Genesis 30:14–16).
+- Plant and animal words: *ofer ha'ayyalim* "young deer", *ofer* and *tsevi*, *yonah* "dove", *'orev* "raven", *tomer*/*gefen* as in the Plain English Translation; *shoshannah*; *dudaim* "mandrakes" (7:13 [Hebrew 7:14]; compare Genesis 30:14–16).
 - "The LORD" does not occur in the Song; no note should claim it does.
 
 **Textual evidence.**
@@ -83,7 +83,7 @@ Book id `Sng` (USFM `SNG`). 8 chapters, 117 verses in English numbering (17, 17,
 - 8:11–12: Solomon's vineyard at Baal-hamon and "my own vineyard": the Song's last argument.
 - 8:14: the last word, "Hurry, my lover", and the Aramaic and Christian readings of it as the longing for the Messiah or Christ's return.
 
-**Parallels with books already written (earlier Plain is the model; quote it exactly).**
+**Parallels with books already written (earlier Plain English Translation is the model; quote it exactly).**
 - Proverbs 5:15–20 (drink water from your own cistern, "you will always be drunk with her love"); Proverbs 7:6–23 (the window, the bed with myrrh, aloes and cinnamon: the other side of the same imagery); Proverbs 30:18–19; Proverbs 31:10–31; Ecclesiastes 9:9; Ecclesiastes 7:26–29.
 - Ruth 3 (night, a threshing floor, a man and a woman; "uncover his feet" / "spread your wing"), Ruth 2:1 for Boaz.
 - 1 Kings 4:32–34; 1 Kings 5; 1 Kings 7:2; 1 Kings 10 (Sheba's spices); 1 Kings 11:1–3 against Song 6:8–9; 1 Kings 1:1–4 (Abishag the Shunammite).
@@ -105,7 +105,7 @@ Book id `Sng` (USFM `SNG`). 8 chapters, 117 verses in English numbering (17, 17,
 **Atlas.** Tell the atlas-harvester that Bible Atlas links some Song names by name and not by sense ("Solomon" appears in the title and the body; "Lebanon", "Hermon", "Gilead", "Kedar", "En-gedi", "Tirzah", "Heshbon", "Carmel", "Damascus", "Sharon", "Amana", "Senir", "Shunem", "Baal-hamon", "Mahanaim" are real places; the "Shulammite" may be linked to Shunem or Abishag, which is a view and not a fact). The reviewer decides corrections.
 
 **Shared rules learned from Psalms, Proverbs and Ecclesiastes.**
-- When the book quotes a verse of another book, use that verse's current Plain exactly; the build warns otherwise. Books not on the site are quoted in your own rendering from the Leningrad Codex or the SBLGNT, never NIV or ESV wording.
+- When the book quotes a verse of another book, use that verse's current Plain English Translation exactly; the build warns otherwise. Books not on the site are quoted in your own rendering from the Leningrad Codex or the SBLGNT, never NIV or ESV wording.
 - Where the same Hebrew appears twice, the earlier verse is the model and the later one matches it unless the Hebrew differs: the refrain at 2:7, 3:5, 8:4; "my lover is mine and I am his" at 2:16, 6:3, 7:10 (the Hebrew changes the order and the third time changes the second half: note it); the "until the day breathes" couplet at 2:17 and 4:6; the oath-like "daughters of Jerusalem" calls; "gazelle or young stag" at 2:9, 2:17, 8:14; "I am sick with love" at 2:5 and 5:8; the wasf images repeated at 4:1–5, 6:5–7 and 7:1–9.
 - Notes typed `spec` are only Claude's own theory. Published observations are `com` or `views` notes with a source.
 - Write the book name in every reference to another book, including inside tables and lists.
@@ -117,6 +117,6 @@ Book id `Sng` (USFM `SNG`). 8 chapters, 117 verses in English numbering (17, 17,
 **When you finish.**
 - Run `VERBOSE=1 node tools/build.js --check Sng` until it reports 0 errors and 0 warnings.
 - Update `content/books/Sng/progress.md` (`Status: written`).
-- Report your counts, any repeated phrases left to align, the verses where the Plain follows a reading other than the Masoretic text, and anything I should know. Be accurate about which reading each verse follows.
+- Report your counts, any repeated phrases left to align, the verses where the Plain English Translation follows a reading other than the Masoretic text, and anything I should know. Be accurate about which reading each verse follows.
 
 **Model books.** `content/books/Rut` for a short, much-studied book with about one note per verse; `content/books/Ecc` and `tools/brief-ecc.md` for poetry, wisdom and a contested book with many readings; `tools/brief-pro.md` for the Wisdom/Torah and acrostic handling and the lead-decision format; `content/books/Rev` for the depth of a chapter page.

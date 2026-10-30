@@ -9,7 +9,7 @@ This is a strong part. The translation is built from the Hebrew, not from memory
 But the part is not ready:
 - 18:22b does not follow 8:35b, though the Hebrew is the same.
 - The 18:22 variant makes a false claim about the Vulgate. That casts doubt on the "witnesses checked directly" statement.
-- The notes quote unwritten books in wording lifted from the ESV/NIV, and quote already-written books in wording that is not the site's Plain.
+- The notes quote unwritten books in wording lifted from the ESV/NIV, and quote already-written books in wording that is not the site's Plain English Translation.
 - Three key words break terms.json.
 - One note points to a variant that does not exist.
 - 16:16–33 has no settings card.
@@ -26,11 +26,11 @@ No finding is critical. There are 9 major and 20 minor findings.
 - 8:35b and 18:22b are the same Hebrew: וַיָּפֶק רָצוֹן מֵיְהוָה (vayyafeq ratson meYHWH).
 - 01-09 renders 8:35b "and he draws favor from the LORD". 18:22b has "you have received a gift of favor from the LORD", which adds "a gift".
 - 18:22a is also turned into a second-person command ("Find a wife and..."), where the Hebrew is the same third-person shape as 8:35a (מָצָא ... מָצָא, "he finds ... he finds"). The 18:22 note itself says "the wording closely matches" 8:35.
-- The same note then misquotes 8:35 as "whoever finds me finds life and receives favor from the LORD", which is not the 01-09 Plain.
+- The same note then misquotes 8:35 as "whoever finds me finds life and receives favor from the LORD", which is not the 01-09 Plain English Translation.
 - **Fix:**
   - Change 18:22 to "The one who finds a wife has found something good, / and he draws favor from the LORD."
   - Update the 18:22 variant anchor and readings ("Find a wife" becomes "finds a wife"), the note anchor, and the `marriage` topic quote.
-  - Quote 8:35 in its Plain wording.
+  - Quote 8:35 in its Plain English Translation wording.
 
 **2. Major. variants.json 18:22 and notes.json 18:22: false Vulgate evidence.**
 - The variant lists "Vulgate ('mulierem')" as agreeing with the Hebrew, without "good", and its `why` says "the Vulgate agrees".
@@ -58,18 +58,18 @@ STYLE and agent-writer require fresh wording built from `literal.js` for books n
 
 **Fix:** rebuild each quotation from `node tools/literal.js <book> <c:v>`, or paraphrase without quotation marks.
 
-**4. Major. Quotations of verses already on the site do not use their Plain.**
+**4. Major. Quotations of verses already on the site do not use their Plain English Translation.**
 The build misses these because the reference comes before the quote, or because there is none.
-- 21:31 note, Psalm 20:7: "some trust in chariots and some in horses, but we trust in the name of the LORD". This is not the Psalms Plain ("These have chariots, and those have horses, / but we call on the name of the LORD our God"), and it is close to the familiar NIV/ESV line.
-- 17:15 note, Exodus 23:7: "I will not justify the wicked". The Plain is "I will not count the wicked as righteous".
-- 20:6 note, Psalm 12:1: "the faithful have vanished". The Plain is "the faithful have disappeared from among humankind".
-- 18:22 note, Genesis 2:18: "to be alone". The Plain is "to be by himself".
+- 21:31 note, Psalm 20:7: "some trust in chariots and some in horses, but we trust in the name of the LORD". This is not the Psalms Plain English Translation ("These have chariots, and those have horses, / but we call on the name of the LORD our God"), and it is close to the familiar NIV/ESV line.
+- 17:15 note, Exodus 23:7: "I will not justify the wicked". The Plain English Translation is "I will not count the wicked as righteous".
+- 20:6 note, Psalm 12:1: "the faithful have vanished". The Plain English Translation is "the faithful have disappeared from among humankind".
+- 18:22 note, Genesis 2:18: "to be alone". The Plain English Translation is "to be by himself".
 - 18:22 note, 8:35: see finding 1.
-- 20:29 note quotes 16:31 as "a crown of glory", but 16:31 Plain is "a crown of beauty". See also finding 14.
-- chapters.json 17 `views.X` quotes 17:22 as "a glad heart is good medicine", but the Plain is "A glad heart does as much good as a cure". That is the ESV/NIV form of the saying.
+- 20:29 note quotes 16:31 as "a crown of glory", but 16:31 Plain English Translation is "a crown of beauty". See also finding 14.
+- chapters.json 17 `views.X` quotes 17:22 as "a glad heart is good medicine", but the Plain English Translation is "A glad heart does as much good as a cure". That is the ESV/NIV form of the saying.
 - Mishnah Avot 4:1 is rendered "One who conquers his urge" in the 16:32 note and "One who subdues his impulse" on the chapter-16 page. Use one rendering.
 
-**Fix:** quote each verse's current Plain exactly, or mark the version used ("(Psalm 20:7, KJV)").
+**Fix:** quote each verse's current Plain English Translation exactly, or mark the version used ("(Psalm 20:7, KJV)").
 
 **5. Major. chapters.json 16 `settings`: 16:16–33 has no settings card.**
 - The brief requires a card for every collection, with readers, so every verse should be covered.
@@ -77,16 +77,16 @@ The build misses these because the reference comes before the quote, or because 
 - **Fix:** add a card for 16:16–33 (by: the collectors of "the proverbs of Solomon"; to: young men at home and at court; readers), or widen the 16:1–9 card to cover 16:1–9 and 16:16–33 in its range.
 
 **6. Major. plain.txt: three key words break terms.json.**
-- **'atsel** (19:24; 20:4; 21:25; 22:13). The Plain has "the lazy man" or "a lazy man". terms.json says "lazy one (in address 'you lazy one'); otherwise 'the lazy one' or 'a lazy person'". It does not allow "lazy man".
+- **'atsel** (19:24; 20:4; 21:25; 22:13). The Plain English Translation has "the lazy man" or "a lazy man". terms.json says "lazy one (in address 'you lazy one'); otherwise 'the lazy one' or 'a lazy person'". It does not allow "lazy man".
   - The same drift runs through 10-15 (10:26; 13:4; 15:19), 23-24 (24:30) and 25-29 (26:13–16). Only 01-09 follows terms.json.
   - This is the known "lazy man / lazy one" item. It needs a lead decision: either change terms.json to "lazy man", or change every part. Do not fix one part alone.
-- **'evil** at 17:28 (גַּם אֱוִיל מַחֲרִישׁ). The Plain has "Even a fool". terms.json and this part's own usage (16:22; 20:3) give "stubborn fool". Fix: "Even a stubborn fool, if he stays silent, ...".
-- **chasar lev** at 17:18. The Plain has "Someone short of sense". terms.json gives "senseless" and lists 17:18 by name. Fix: "A senseless man strikes palms ...".
+- **'evil** at 17:28 (גַּם אֱוִיל מַחֲרִישׁ). The Plain English Translation has "Even a fool". terms.json and this part's own usage (16:22; 20:3) give "stubborn fool". Fix: "Even a stubborn fool, if he stays silent, ...".
+- **chasar lev** at 17:18. The Plain English Translation has "Someone short of sense". terms.json gives "senseless" and lists 17:18 by name. Fix: "A senseless man strikes palms ...".
 
 **7. Major. notes.json 18:19 says "See the variant", but variants.json has no 18:19 entry.**
 - The Greek reads ἀδελφὸς ὑπὸ ἀδελφοῦ βοηθούμενος ὡς πόλις ὀχυρὰ καὶ ὑψηλή, and the Vulgate reads *frater qui adiuvatur a fratre quasi civitas firma*. Both imply נוֹשָׁע (nosha', "helped") for נִפְשָׁע (nifsha', "offended"). Some modern versions follow them.
 - The auto file also has a Ketiv/Qere at 18:19 (מדונים / מדינים), though that one is only spelling.
-- **Fix:** add a variant entry (Masoretic Text "offended", followed; Greek and Vulgate "helped", with the Plain wording "A brother helped by his brother is like a strong town"), with a reason.
+- **Fix:** add a variant entry (Masoretic Text "offended", followed; Greek and Vulgate "helped", with the Plain English Translation wording "A brother helped by his brother is like a strong town"), with a reason.
 
 **8. Major. Amenemope (and Ani) quoted word for word as "Budge's translation", unverified.**
 - Notes 22:17, 22:18, 22:20, 22:21, 22:22, 22:24, 22:28 and 22:29, the chapter-16 W lens, the chapter-20 W lens (Ani) and the chapter-22 deep section all quote archaic English in quotation marks and attribute it to Budge. Examples:
@@ -125,8 +125,8 @@ The build misses these because the reference comes before the quote, or because 
 - 18:21b "those who love **to use** it": the Hebrew is just וְאֹהֲבֶיהָ (ve'ohaveha, "and those who love it"). The note already gives the interpretation.
 - **Fix:** drop the added words.
 
-**13. Minor. 22:14b: Plain and note disagree.**
-- The Plain has "the man the LORD **has cursed**". The note glosses זְעוּם יְהוָה (ze'um YHWH) as "The one the LORD is angry with".
+**13. Minor. 22:14b: Plain English Translation and note disagree.**
+- The Plain English Translation has "the man the LORD **has cursed**". The note glosses זְעוּם יְהוָה (ze'um YHWH) as "The one the LORD is angry with".
 - Za'am is anger or denunciation, not the curse verbs (arar, qalal).
 - **Fix:** "the one the LORD is angry with", and quote it exactly in the note.
 
@@ -201,13 +201,13 @@ These were apparently written from memory, and several look doubtful:
 - Chapter topics list `speech`, but the part makes no `speech` contribution, though chapter 18 is the book's main chapter on the tongue. Add a short section there (18:21; 16:24, 28; 17:27–28).
 
 **27. Minor. The 22:20 variant and the 22:17–29 settings card.**
-- The variant is fair: it says plainly that "thirty" is "a scholarly proposal, not attested in any manuscript". But the followed reading's `w` leads with "The same consonants read as ...". Put "Conjectural emendation (no manuscript)" first in `w`, and say on the chapter-22 page that this is the only verse in 16–22 where the Plain leaves the Masoretic Text.
+- The variant is fair: it says plainly that "thirty" is "a scholarly proposal, not attested in any manuscript". But the followed reading's `w` leads with "The same consonants read as ...". Put "Conjectural emendation (no manuscript)" first in `w`, and say on the chapter-22 page that this is the only verse in 16–22 where the Plain English Translation leaves the Masoretic Text.
 - In the 22:17–29 settings `views`, the label "Egyptian dependence" describes the view that Amenemope depends on a Semitic original. Relabel it "Amenemope borrowed from Israel".
 - Chapter 18 `views.X` says "18:22 is read at many weddings" without a source. Source it or drop it.
 
 **28. Minor. Missing notes on two ambiguities.**
-- 16:12: תּוֹעֲבַת מְלָכִים עֲשׂוֹת רֶשַׁע (to'avat melakhim 'asot resha') can mean "kings abhor wickedness" (the Plain) or "wickedness done by kings is abhorrent". Neither the 16:5 note nor any other says so.
-- 16:13 has plural "kings" with a singular verb, and the Plain silently makes it singular ("a king's favor").
+- 16:12: תּוֹעֲבַת מְלָכִים עֲשׂוֹת רֶשַׁע (to'avat melakhim 'asot resha') can mean "kings abhor wickedness" (the Plain English Translation) or "wickedness done by kings is abhorrent". Neither the 16:5 note nor any other says so.
+- 16:13 has plural "kings" with a singular verb, and the Plain English Translation silently makes it singular ("a king's favor").
 - **Fix:** add one short `deb` note covering both verses.
 
 **29. Minor. Settings cards for chapters 17–21 are the same text five times.**
@@ -222,16 +222,16 @@ These were apparently written from memory, and several look doubtful:
 - 'atsel across 10-15, 16-22, 23-24 and 25-29. Finding 6 (lead decision).
 - 22:13 with 26:13: the Hebrew differs (אֲרִי בַחוּץ, ari vachuts, against שַׁחַל בַּדֶּרֶךְ, shachal badderekh), so the different English is correct. Only "lazy man" needs settling.
 - 19:13b with 27:15, and nirgan "gossip" at 16:28, 18:8, 26:20, 26:22: aligned.
-- mahir at 22:29 ("quick at his work"): acceptable. The note explains the different context of Ezra 7:6 and Psalm 45:1, and quotes both in their Plain.
+- mahir at 22:29 ("quick at his work"): acceptable. The note explains the different context of Ezra 7:6 and Psalm 45:1, and quotes both in their Plain English Translation.
 
 ## Fixes applied
-1. Fixed. 18:22 now reads "The one who finds a wife has found something good, / and he draws favor from the LORD." Line b matches 8:35b, and line a takes the same third-person shape. The note, the variant anchor and readings, and the `marriage` topic were updated, and 8:35 is now quoted in its Plain.
+1. Fixed. 18:22 now reads "The one who finds a wife has found something good, / and he draws favor from the LORD." Line b matches 8:35b, and line a takes the same third-person shape. The note, the variant anchor and readings, and the `marriage` topic were updated, and 8:35 is now quoted in its Plain English Translation.
 2. Fixed, with a correction to the finding. My Vulgate text is the Stuttgart critical edition, and it does read "qui invenit mulierem invenit bonum", with no "bonam" and no added couplet. The reading quoted in the review is the Clementine Vulgate's. The variant now lists the Stuttgart Vulgate with the Hebrew and the Clementine (as reported) with the Greek, and the `why` explains the difference. Every Vulgate citation in variants.json now names the Stuttgart edition. All of them were taken from that text, so none needed changing. The witness box names the edition and says the Clementine is cited only as reported.
 3. Fixed. Quotations of books not yet on the site are now my own renderings from the Hebrew or Greek, or paraphrases without quotation marks:
    - my own renderings: Micah 7:18, Hosea 6:6, Hosea 8:7, Galatians 6:7, 2 Thessalonians 3:10;
    - paraphrased: 1 Corinthians 4:4, Romans 12:17–21, Ephesians 4:28, 1 Corinthians 15:33, James 2:13, Lamentations 3:16, Lamentations 4:7, Ecclesiastes 7:20, Ecclesiastes 5:4–6, Jeremiah 10:23, Romans 10:2, 1 Timothy 5:20, Sirach 11:8, 1 John 1:8;
    - kept, because the Greek forces the wording: "if the Lord wills" (James 4:15), "justifies the ungodly" (Romans 4:5), "God loves a cheerful giver" (2 Corinthians 9:7).
-4. Fixed. Published verses are now quoted in their current Plain: Psalm 20:7, Exodus 23:7, Psalm 12:1, Genesis 2:18, Proverbs 8:35, Proverbs 16:31 (in the 20:29 note), Proverbs 17:22 and 17:17 (chapter 17), Deuteronomy 13:11, 2 Samuel 14:17, Psalm 37:23, Isaiah 16:5, Matthew 5:8, 6:22, 7:20 and 10:16, and Proverbs 3:5, 11:8, 13:4, 13:20 and 7:9. Mishnah Avot 4:1 is now rendered "The one who subdues his impulse" in both places.
+4. Fixed. Published verses are now quoted in their current Plain English Translation: Psalm 20:7, Exodus 23:7, Psalm 12:1, Genesis 2:18, Proverbs 8:35, Proverbs 16:31 (in the 20:29 note), Proverbs 17:22 and 17:17 (chapter 17), Deuteronomy 13:11, 2 Samuel 14:17, Psalm 37:23, Isaiah 16:5, Matthew 5:8, 6:22, 7:20 and 10:16, and Proverbs 3:5, 11:8, 13:4, 13:20 and 7:9. Mishnah Avot 4:1 is now rendered "The one who subdues his impulse" in both places.
 5. Fixed. Chapter 16 now has a 16:16–33 settings card, with readers.
 6. Fixed. 'atsel is "the lazy one" (19:24, 20:4, 22:13) or "a lazy person" (21:25), following the lead decision; notes, chapter pages and anchors were updated to match. 17:28 now reads "Even a stubborn fool", and 17:18 "A senseless person".
 7. Fixed. Added an 18:19 variant: the Masoretic Text "offended" is followed, with the Targum and Rashi; the Greek and Stuttgart Vulgate "helped" is given as the other reading.
@@ -275,6 +275,6 @@ These were apparently written from memory, and several look doubtful:
 24. Fixed. The 22:15 note no longer makes the unnamed claim. It points to the full treatment at 13:24 and the chapter 13 page.
 25. No change, per the lead decision. Egyptian works are cited as sources, not added to works.json.
 26. Fixed. The `egypt` contribution is now a short pointer to `ancient-near-east`. The `marriage` quotation is updated, and a new `speech` contribution covers 18:21, 18:2, 8, 13, 17, 16:24, 28 and 17:27–28.
-27. Fixed. The 22:20 reading now begins its `w` with "Conjectural emendation (no manuscript)". Chapter 22 C says this is the only place in 16–22 where the Plain leaves the Masoretic Text. The view is relabeled "Amenemope borrowed from Israel". The unsourced "read at many weddings" is dropped.
+27. Fixed. The 22:20 reading now begins its `w` with "Conjectural emendation (no manuscript)". Chapter 22 C says this is the only place in 16–22 where the Plain English Translation leaves the Masoretic Text. The view is relabeled "Amenemope borrowed from Israel". The unsourced "read at many weddings" is dropped.
 28. Fixed. Added a `deb` note at 16:12 that covers both readings of 16:12 and the plural "kings" with a singular verb in 16:13.
 29. Fixed. The cards for chapters 17–21 now each have their own `by`, `to` and `when`; 19 names the father's voice at 19:27. Their `views` are now a one-line pointer to the full debate on the 16:1–9 card.

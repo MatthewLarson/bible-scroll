@@ -7,7 +7,7 @@ Reviewer's checks: plain.txt rebuilt line by line against `node tools/literal.js
 This is a strong part. The couplets keep their shape, the key-word renderings mostly follow terms.json, the Ketiv/Qere entries are complete, and the rod (13:24) gets the full, unsoftened treatment the brief asks for. The settings cards cover every chapter, and the 15:8 traditions card is well sourced and is a real case where churches differ. The repeated sayings that touch other parts already match (14:12/16:25, 10:15a/18:11a, 11:13a/20:19a, 11:21a/16:5b, 12:11a/28:19a, 15:33b/18:12b, 11:14b/24:6b, 14:31a/17:5a, 12:2a/8:35b).
 
 Six things need fixing:
-- One note gets the Masoretic vowels at 14:1 backwards. As a result the Plain follows a re-pointed reading with no variant entry, and the 14:1 line in terms.json is wrong too.
+- One note gets the Masoretic vowels at 14:1 backwards. As a result the Plain English Translation follows a re-pointed reading with no variant entry, and the 14:1 line in terms.json is wrong too.
 - One Greek claim, at 10:13, is false, even though the witness line calls the Greek "checked".
 - A few lines are still too close to the NIV. The worst are 12:25b, and 13:9b together with its copy at 24:20b.
 - The terms.json rendering for 'atsel ("lazy one") is not followed.
@@ -19,18 +19,18 @@ Count: critical 0, major 6, minor 16.
 
 ## Findings
 
-### 1. Major: 14:1, the note reverses the Masoretic reading, and the Plain follows a re-pointing with no variant (notes.json 14:1; plain.txt 14:1; terms.json; topics.json "marriage")
+### 1. Major: 14:1, the note reverses the Masoretic reading, and the Plain English Translation follows a re-pointing with no variant (notes.json 14:1; plain.txt 14:1; terms.json; topics.json "marriage")
 - **What is wrong.** The note says the Hebrew has *chokhmot*, "the form used of Lady Wisdom in 1:20 and 9:1", and that "many scholars change the vowels to *chakhmot*, 'wise women'".
 - **The evidence.** The Leningrad text is the reverse. texts/orig 14:1 reads חַכְמ֣וֹת נָ֭שִׁים, with patach under the chet. That is *chakhmot nashim*, "the wise ones of women", the same form as Judges 5:29 *chakhmot sarotehah*, "the wisest of her ladies". This is the form the note itself cites as the emended reading. 9:1 has חָכְמוֹת (*chokhmot*), and 14:1 does not.
-  - So the Plain's "Wisdom among women" depends on re-pointing the consonants to *chokhmot*. Usually *nashim* is then deleted as a gloss.
-  - The Plain also keeps *nashim* ("among women"), which makes a hybrid of the two readings.
+  - So the Plain English Translation's "Wisdom among women" depends on re-pointing the consonants to *chokhmot*. Usually *nashim* is then deleted as a gloss.
+  - The Plain English Translation also keeps *nashim* ("among women"), which makes a hybrid of the two readings.
   - The `orig` field pairs the patach form with the transliteration "chokhmot", which contradicts itself.
 - **Knock-on problems.**
   - terms.json ("9:1 and 14:1 chokmot ... are also 'Wisdom'") repeats the mistake.
-  - The marriage topic says "the wise woman who builds her house (Proverbs 14:1)", which contradicts the Plain.
+  - The marriage topic says "the wise woman who builds her house (Proverbs 14:1)", which contradicts the Plain English Translation.
 - **Fix.**
   - Correct the note: the MT has *chakhmot*, "the wisest of women".
-  - Either translate the MT ("The wisest of women builds her house"), or keep "Wisdom" and add a variants.json entry. That entry should give MT *chakhmot nashim* "the wisest of women", the re-pointing *chokhmot* "Wisdom" (with *nashim* as a gloss), and the Greek σοφαὶ γυναῖκες ᾠκοδόμησαν οἴκους. Its `why` should say plainly that the Plain does not follow the MT vowels here.
+  - Either translate the MT ("The wisest of women builds her house"), or keep "Wisdom" and add a variants.json entry. That entry should give MT *chakhmot nashim* "the wisest of women", the re-pointing *chokhmot* "Wisdom" (with *nashim* as a gloss), and the Greek σοφαὶ γυναῖκες ᾠκοδόμησαν οἴκους. Its `why` should say plainly that the Plain English Translation does not follow the MT vowels here.
   - Correct the terms.json clause; that is a 01-09 or lead edit.
   - Make the marriage topic match whichever reading is chosen.
 
@@ -144,7 +144,7 @@ The "Family and village" view names Claus Westermann, but his work is not in the
 
 ### 22. Minor: one ambiguous sentence and one mismatch in wording (chapters.json 13 sum; 12:4 note)
 - **Chapter 13 sum.** "the first verses of Proverbs preserved in the Dead Sea Scroll 4QProv-b" reads as if 4QProv-b had the book's earliest surviving verses. 4QProv-a has 1:27–2:1. Write "the first of the verses preserved in 4QProv-b".
-- **12:4 note.** It quotes Ruth's Plain correctly, as the lead decision requires. But "this site renders the phrase there by context" should say outright that it is the same Hebrew, *'eshet chayil*, kept as "a woman of worth" in Ruth on purpose.
+- **12:4 note.** It quotes Ruth's Plain English Translation correctly, as the lead decision requires. But "this site renders the phrase there by context" should say outright that it is the same Hebrew, *'eshet chayil*, kept as "a woman of worth" in Ruth on purpose.
 
 ## Cross-part items checked
 - **Known item "10-15: 'lazy man' vs 01-09 'lazy one'".** Confirmed; see finding 5.
@@ -198,6 +198,6 @@ The "Family and village" view names Claus Westermann, but his work is not in the
 21. Fixed. westermann-roots was added to every settings card that has the "Family and village" view.
 22. Fixed. The chapter 13 summary now reads "the first of the verses preserved in 4QProv-b". The 12:4 note says outright that Ruth 3:11 is the same Hebrew, *'eshet chayil*, kept as "a woman of worth" on purpose, paired with Boaz in Ruth 2:1.
 Also fixed:
-- quotations of Matthew 25:40 (note 14:31) and Matthew 5:5 (note 10:30), changed to the site's Plain now that Matthew is published;
+- quotations of Matthew 25:40 (note 14:31) and Matthew 5:5 (note 10:30), changed to the site's Plain English Translation now that Matthew is published;
 - the 13:9 note preview.
 `node tools/build.js --check Pro/10-15`: 0 errors, 0 warnings.

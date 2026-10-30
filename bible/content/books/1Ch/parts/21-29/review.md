@@ -1,6 +1,6 @@
 # Hostile review: 1 Chronicles 21–29 (part 21-29)
 
-Reviewed: `plain.txt` (all 260 verses against `node tools/literal.js 1Ch 21`–`29`), `notes.json` (156), `variants.json` (14), `glosses.json` (71), `chapters.json` (9), `topics.json` (22 contributions), `sources.json` (9 keys), and the new core topic `content/topics/priestly-divisions.json`. Chapter 21 was checked line by line against `node tools/literal.js 2Sa 24` and the site's 2 Samuel 24 Plain, notes and variants; 29:22–28 against the site's 1 Kings 1–2. Greek readings were checked where possible in Brenton's English Septuagint (Vaticanus-based) at blueletterbible.org and the Brenton Greek at freely-given.org. `node tools/build.js --check 1Ch/21-29`: 0 errors, 0 warnings (quotation check included).
+Reviewed: `plain.txt` (all 260 verses against `node tools/literal.js 1Ch 21`–`29`), `notes.json` (156), `variants.json` (14), `glosses.json` (71), `chapters.json` (9), `topics.json` (22 contributions), `sources.json` (9 keys), and the new core topic `content/topics/priestly-divisions.json`. Chapter 21 was checked line by line against `node tools/literal.js 2Sa 24` and the site's 2 Samuel 24 Plain English Translation, notes and variants; 29:22–28 against the site's 1 Kings 1–2. Greek readings were checked where possible in Brenton's English Septuagint (Vaticanus-based) at blueletterbible.org and the Brenton Greek at freely-given.org. `node tools/build.js --check 1Ch/21-29`: 0 errors, 0 warnings (quotation check included).
 
 ## Verdict
 
@@ -11,11 +11,11 @@ This is a strong, careful part. The translation is faithful and readable, follow
 ### Major
 
 **1. Major: plain.txt 26:28 (and variants.json 26:25 `why`). Shelomith silently changed to Shelomoth.**
-The Hebrew of 26:28 reads עַל־יַד־שְׁלֹמִית וְאֶחָיו, "under the hand of Shelomith and his relatives." It has no Ketiv/Qere here (texts/auto lists K/Q only at 23:9 and 26:25). The Plain prints "Shelomoth." The only disclosure is a sentence in the `why` of the 26:25 variant ("The Plain English uses Shelomoth throughout 26:25–28"), and no entry is anchored at 26:28. The site's policy is to give each name in the Hebrew form of that verse, with no silent normalizing. 26:25 is a different case: there the Ketiv שלמות really is in the text and is disclosed. The writer's reason (to let readers see one person) is good, but it belongs in a note, not in a changed name. Evidence that makes a variant worthwhile: Brenton's Greek has "Salomoth" at both 26:25 and 26:28, so "Shelomoth" at 26:28 does have a witness.
+The Hebrew of 26:28 reads עַל־יַד־שְׁלֹמִית וְאֶחָיו, "under the hand of Shelomith and his relatives." It has no Ketiv/Qere here (texts/auto lists K/Q only at 23:9 and 26:25). The Plain English Translation prints "Shelomoth." The only disclosure is a sentence in the `why` of the 26:25 variant ("The Plain English Translation uses Shelomoth throughout 26:25–28"), and no entry is anchored at 26:28. The site's policy is to give each name in the Hebrew form of that verse, with no silent normalizing. 26:25 is a different case: there the Ketiv שלמות really is in the text and is disclosed. The writer's reason (to let readers see one person) is good, but it belongs in a note, not in a changed name. Evidence that makes a variant worthwhile: Brenton's Greek has "Salomoth" at both 26:25 and 26:28, so "Shelomoth" at 26:28 does have a witness.
 *Fix:* Either print "Shelomith" at 26:28 and add a variant giving the Greek "Salomoth" (with a note that 26:25–28 is one man), or add a 26:28 variant that follows the Greek openly and list it among the departures from the MT. Then reword the 26:25 `why` so it no longer describes a normalization.
 
 **2. Major: variants.json 25:3 "The missing sixth son." The witness for adding Shimei is overstated.**
-The entry credits "One Hebrew manuscript and the Greek (Septuagint), as reported in BHS" and cites `rahlfs-lxx`. Brenton's Vaticanus-based Greek has only five names: "Godolias, and Suri, and Iseas, and Asabias, and Matthathias, six after their father." The BSB footnote says "some LXX manuscripts." This entry is one of only three places where the Plain departs from the MT, so its witness list has to be right.
+The entry credits "One Hebrew manuscript and the Greek (Septuagint), as reported in BHS" and cites `rahlfs-lxx`. Brenton's Vaticanus-based Greek has only five names: "Godolias, and Suri, and Iseas, and Asabias, and Matthathias, six after their father." The BSB footnote says "some LXX manuscripts." This entry is one of only three places where the Plain English Translation departs from the MT, so its witness list has to be right.
 *Fix:* Change the witness to "one Hebrew manuscript and some Greek manuscripts." Name them (Alexandrinus is usually cited) only after you have checked. Add "Codex Vaticanus (Brenton)" to the MT side, and drop or check the `rahlfs-lxx` citation. The decision to add Shimei can stand on 25:17 and the count "six."
 
 **3. Major: notes.json 21:30 "Too afraid to go." Wrong Hebrew for 1 Samuel 28:21.**
@@ -43,14 +43,14 @@ This was the writer's "unsure" item, and Brenton confirms it: "for Juda, Eliab o
 **8. Minor: missing Greek variants in the lists of chapters 26–27.** I confirmed each of these in Brenton:
 - **26:16** "Shuppim." Greek: "They gave the lot for the second to Osa westward." It has Hosah alone and no Shuppim. The note on 26:16 argues for dittography from *ha'asuppim* but never mentions this witness, which is the best evidence for the note's own case. Make it a variant (MT followed), or at least cite the Greek in the note.
 - **26:17** "On the east were six Levites." Greek: "Eastward were six watchmen in the day," which gives "a day" for the east as for the other sides. NRSV follows it.
-- **27:24** "the record of the events." MT בְּמִסְפַּר דִּבְרֵי הַיָּמִים, "in the number of the chronicles." Greek: "not recorded in the **book** of the chronicles" (ספר for מספר). The Plain's "record" blurs the point. Add a variant, MT followed, and render the MT more literally ("never entered in the count of the annals of King David" or similar), or say that you follow the Greek.
+- **27:24** "the record of the events." MT בְּמִסְפַּר דִּבְרֵי הַיָּמִים, "in the number of the chronicles." Greek: "not recorded in the **book** of the chronicles" (ספר for מספר). The Plain English Translation's "record" blurs the point. Add a variant, MT followed, and render the MT more literally ("never entered in the count of the annals of King David" or similar), or say that you follow the Greek.
 
 **9. Minor: variants.json 25:9 "Joseph's twelve." The Greek is misdescribed, and the switch text is inconsistent.**
 The entry says the Greek adds "he, his sons and his brothers, twelve" for Joseph. Brenton's Greek is arranged differently: "the first lot of his sons and of his brethren came forth to Asaph the son of Joseph, namely, Godolias: the second Heneia, his sons and his brethren being twelve." The Greek does have "his sons and his brothers" with the first lot, but the clean "…twelve" for Joseph is the BHS reconstruction. Also, the reading's `orig` and `en` give the order "he and his brothers and his sons," while its `plain` reads "he, his sons and his relatives."
 *Fix:* Label the reading "Greek (partly) and BHS reconstruction," describe the Greek arrangement briefly, and make `plain` follow the `orig` order ("he, his relatives and his sons, twelve").
 
-**10. Minor: variants.json 21:20 and 26:20. Update with readings now verified, and fix the 21:20 Plain.**
-At 21:20, Brenton reads "Orna turned and saw the king; and he hid himself and his four sons with him." So the "not checked in an edition" disclaimer can go, and the Greek's other difference (Ornan himself hides) should be mentioned. At 26:20, Brenton confirms "the Levites their brethren," so drop "as reported." Separately, the Plain at 21:20 reads "the four sons with him," but the Hebrew is אַרְבַּעַת בָּנָיו, "**his** four sons."
+**10. Minor: variants.json 21:20 and 26:20. Update with readings now verified, and fix the 21:20 Plain English Translation.**
+At 21:20, Brenton reads "Orna turned and saw the king; and he hid himself and his four sons with him." So the "not checked in an edition" disclaimer can go, and the Greek's other difference (Ornan himself hides) should be mentioned. At 26:20, Brenton confirms "the Levites their brethren," so drop "as reported." Separately, the Plain English Translation at 21:20 reads "the four sons with him," but the Hebrew is אַרְבַּעַת בָּנָיו, "**his** four sons."
 *Fix:* "and his four sons with him were hiding."
 
 **11. Minor: variants.json 23:9. Weak reason for following the Ketiv.**
@@ -99,7 +99,7 @@ The note correctly says the first sentence matches the 4QSam-a plus given in the
 *Fix:* "every plan the mind forms."
 
 **20. Minor: 21:22–25. "Silver" against the gold payment is not explained.**
-The Plain twice has David offer "full price in **silver**" (בְּכֶסֶף מָלֵא), then pay in gold (21:25). *Kesef* also means "money." Keeping "silver" is right for the Genesis 23:9 echo, but a reader will see a contradiction.
+The Plain English Translation twice has David offer "full price in **silver**" (בְּכֶסֶף מָלֵא), then pay in gold (21:25). *Kesef* also means "money." Keeping "silver" is right for the Genesis 23:9 echo, but a reader will see a contradiction.
 *Fix:* Add one sentence to the 21:22 note: "<i>Kesef</i> means both 'silver' and 'money'; David then pays in gold (21:25)."
 
 **21. Minor: notes.json 29:29.** "The three titles … the very titles 1 Samuel 9:9 explains." 1 Samuel 9:9 explains only *ro'eh* and *navi*. *Chozeh* is not there.
@@ -128,7 +128,7 @@ Related point: the temple-topic Claude box says the site–mercy link "is often 
 **28. Minor: glosses.json.**
 - **21:8** "I acted like a complete idiot" is flippant next to David's confession. "I acted very foolishly" or "I've been a total fool" is better.
 - **26:18** "the Parbar => the colonnade" presents a debated word as settled. Use "the outer court (meaning uncertain)."
-- **29:15** "there is no hope => nothing lasts" glosses the KJV's alternative ("none abiding"), not the Plain's chosen sense, which the note gives as "no hope of staying on earth." Use "no hope of staying."
+- **29:15** "there is no hope => nothing lasts" glosses the KJV's alternative ("none abiding"), not the Plain English Translation's chosen sense, which the note gives as "no hope of staying on earth." Use "no hope of staying."
 
 **29. Minor: sources and topic mechanics.**
 (a) STYLE puts Josephus in the shared `content/sources.json`. `josephus-life` should go there, beside `josephus-ant`, not in this part's file. The other eight keys are real works with correct details (Sailhamer TrinJ 10, 1989; Stokes JBL 128, 2009; Williamson VT 26, 1976 and VTSup 30, 1979; McCarthy JBL 90, 1971; Kleinig JSOTSup 156; Avi-Yonah IEJ 12, 1962; Maisler JNES 10, 1951).
@@ -164,12 +164,12 @@ Applied 2026-10-23 by the 21-29 writer. Greek readings marked "as translated by 
 8. New variants, MT followed in each:
    - 26:16: Greek lacks Shuppim; the note now cites it.
    - 26:17: Greek "six a day".
-   - 27:24: Greek "book". The Plain is now literal: "was never entered into the count in the annals of King David".
+   - 27:24: Greek "book". The Plain English Translation is now literal: "was never entered into the count in the annals of King David".
 9. 25:9: the Greek is labeled "in part" plus the BHS reconstruction, and its arrangement is described. `plain` now follows the `orig` order.
-10. 21:20: the "not checked" text is removed and the Greek's "he hid himself" is added. The Plain restores "his four sons", and the note now says it is Ornan's sons who hide. 26:20: "as reported" dropped.
+10. 21:20: the "not checked" text is removed and the Greek's "he hid himself" is added. The Plain English Translation restores "his four sons", and the note now says it is Ornan's sons who hide. 26:20: "as reported" dropped.
 11. 23:9: the `why` is rewritten. The forms alternate for one man; the Ketiv is followed because it is the text itself.
 12. 21:23: now "the threshing sledges for firewood".
-13. 2 Samuel 24 Plain, edited in part 2Sa/19-24 as the coordinator allowed:
+13. 2 Samuel 24 Plain English Translation, edited in part 2Sa/19-24 as the coordinator allowed:
    - 24:24: "No. I will surely buy it from you for a price."
    - 24:2: "I want to know the number of the people."
    No 2Sa note, gloss or variant anchor touched these words.

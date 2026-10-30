@@ -2,19 +2,19 @@
 
 Reviewer: hostile-reviewer agent (not the writer). Checked: plain.txt verse by verse against the SBLGNT, Byzantine
 text and TAGNT edition marks in `texts/orig/Mrk.json`; every variant entry against `w` and `texts/auto/Mrk.json`;
-parallel wording against Matthew's published Plain (Matthew 19:1–23:14); notes, glosses, chapters.json (settings
-and the two traditions cards), topics.json and sources.json; quotations against the Plain of Genesis, Deuteronomy,
+parallel wording against Matthew's published Plain English Translation (Matthew 19:1–23:14); notes, glosses, chapters.json (settings
+and the two traditions cards), topics.json and sources.json; quotations against the Plain English Translation of Genesis, Deuteronomy,
 Psalms, Isaiah and Matthew. `VERBOSE=1 node tools/build.js --check Mrk/10-12` gives 0 errors and 0 warnings.
 
 ## Verdict
 
 This is a strong part. The translation is faithful to the SBLGNT, it reads at the right level, and I found no
 NIV/ESV drift: the verses most at risk (10:9, 10:15, 10:25, 10:45, 11:9, 12:10, 12:17, 12:27, 12:31, 12:44) all
-have their own sentence shapes. Mark follows Matthew's Plain word for word where the Greek matches (10:7–9 // Matthew
+have their own sentence shapes. Mark follows Matthew's Plain English Translation word for word where the Greek matches (10:7–9 // Matthew
 19:5–6; 10:19; 10:22; 10:42; 12:10–11; 12:14–17; 12:36 // Matthew 22:44) and differs exactly where the Greek
 differs (10:28 "have followed" for the perfect against Matthew's aorist; 10:40 "or" against "and"; 10:43 "is" against
 "will be"; 10:44 "everyone's slave"; 12:37 πόθεν "in what sense" against Matthew's πῶς). That is careful work.
-The two departures from the SBLGNT are both defensible. At 10:2 the Plain prints the Pharisees with NA28 and THGNT
+The two departures from the SBLGNT are both defensible. At 10:2 the Plain English Translation prints the Pharisees with NA28 and THGNT
 (the TAGNT marks confirm the SBL alone leaves them out). At 11:31 the SBL alone prints "What should we say?". But the
 11:31 entry names no witnesses at all, against the rule. The 10:2 entry gives the SBL editor a line of reasoning
 he never published. I checked the cited facts and sources and they hold up:
@@ -59,11 +59,11 @@ I found no invented source, reading or find, so there are no critical findings. 
 
 ### 2. Major: 12:23 has no variant entry for "when they rise", which NA28 brackets and THGNT leaves out
 - **Where:** plain.txt and variants.json, 12:23
-- **What is wrong:** The Plain reads "At the resurrection, when they rise, which of them will she be wife to?". The
+- **What is wrong:** The Plain English Translation reads "At the resurrection, when they rise, which of them will she be wife to?". The
   TAGNT marks for ὅταν ἀναστῶσιν are `NnSTB`. The phrase is in the SBL, the TR and the Byzantine text. It is
   bracketed in NA27/28 (texts/auto: "NA27/28 [ὅταν ἀναστῶσιν]"). It is absent from the Tyndale House edition,
   Westcott-Hort and Tregelles. This is exactly the case brief-nt.md requires an entry for: SBL, NA28 and THGNT
-  disagree in a way that changes the English. The Plain silently follows the SBL. The phrase is commonly reported as
+  disagree in a way that changes the English. The Plain English Translation silently follows the SBL. The phrase is commonly reported as
   missing from Sinaiticus, Vaticanus, C, D, L, W and Δ. Verify that list in the NA28 apparatus or Metzger before you
   cite it.
 - **Fix:** Add an entry anchored on `when they rise`.
@@ -135,7 +135,7 @@ I found no invented source, reading or find, so there are no critical findings. 
 ### 8. Minor: the 11:3 variant `p` misstates who makes the promise
 - **Where:** variants.json, 11:3, `p`
 - **What is wrong:** "In the oldest manuscripts the disciples promise to send the colt back." In the Greek the
-  subject of ἀποστέλλει is "the Lord", and the disciples pass on his promise. The `why` and the Plain ("He will send
+  subject of ἀποστέλλει is "the Lord", and the disciples pass on his promise. The `why` and the Plain English Translation ("He will send
   it straight back here") have it right.
 - **Fix:** "In the oldest manuscripts the disciples promise, for the Lord, that the colt will be sent back."
 
@@ -157,24 +157,24 @@ I found no invented source, reading or find, so there are no critical findings. 
 ### 11. Minor: one Greek verb, two English words, and a note that depends on the link
 - **Where:** plain.txt 10:14 and 10:41; notes.json, 10:14, "Jesus is indignant"
 - **What is wrong:** The note's point is that Mark uses ἀγανακτέω of the disciples (10:41; 14:4) but only here of
-  Jesus. The Plain renders it "grew angry" at 10:14 and "annoyed" at 10:41, so the English reader cannot see the
+  Jesus. The Plain English Translation renders it "grew angry" at 10:14 and "annoyed" at 10:41, so the English reader cannot see the
   link the note draws. The note's own title says "indignant".
 - **Fix:** Use one word in both verses, for example "was indignant" or "became indignant". Matthew 20:24
   ("annoyed") is the model for 10:41, so either use "annoyed" in 10:14 too, or keep the two and change the note to
   say the English differs.
 
-### 12. Minor: the note on 10:27 promises the same word "possible" at 14:36, but the Plain there does not use it
+### 12. Minor: the note on 10:27 promises the same word "possible" at 14:36, but the Plain English Translation there does not use it
 - **Where:** notes.json, 10:27, "Nothing is impossible for God"
 - **What is wrong:** The note says "Mark uses the same word, 'possible,' again in Jesus' prayer in Gethsemane
-  (14:36)". The Plain of 14:36 in part 13-16 reads "for you all things can be done". 9:23 does read "anything is
+  (14:36)". The Plain English Translation of 14:36 in part 13-16 reads "for you all things can be done". 9:23 does read "anything is
   possible".
 - **Fix:** Cross-part alignment: ask the lead to render πάντα δυνατά σοι at 14:36 with "possible", or reword this
   note ("the same Greek word").
 
-### 13. Minor: the 10:21 variant's "take up the cross" does not match the Plain of 8:34
+### 13. Minor: the 10:21 variant's "take up the cross" does not match the Plain English Translation of 8:34
 - **Where:** variants.json, 10:21
 - **What is wrong:** The Byzantine addition ἄρας τὸν σταυρόν is rendered "take up the cross", and the `p` says it
-  comes "from 8:34". The Plain of 8:34 reads "pick up his cross".
+  comes "from 8:34". The Plain English Translation of 8:34 reads "pick up his cross".
 - **Fix:** Reading 1 `plain`: "And come, pick up the cross and follow me." Change `p` and `t` to match.
 
 ### 14. Minor: settings and notes state a debated location as settled
@@ -198,9 +198,9 @@ I found no invented source, reading or find, so there are no critical findings. 
   as fact. Note 12:41 rightly says "probably" about the location. Make them agree.
 
 ### 16. Minor: Byzantine/TR differences a KJV reader will notice, with no entry
-- **12:32:** The TR (KJV "for there is one God") adds θεός; TAGNT marks it `T`. The Plain reads "he is one". A
+- **12:32:** The TR (KJV "for there is one God") adds θεός; TAGNT marks it `T`. The Plain English Translation reads "he is one". A
   KJV reader will notice. Add a short entry: SBL, NA28 and Byzantine "he is one"; TR "there is one God".
-- **12:22:** The Byzantine/TR text reads "And the seven had her, and left no seed". The Plain reads "None of the
+- **12:22:** The Byzantine/TR text reads "And the seven had her, and left no seed". The Plain English Translation reads "None of the
   seven left descendants". This is optional and small.
 - **10:50:** The Byzantine/TR text has "rose" (ἀναστάς); NA and SBL have "leaped up" (ἀναπηδήσας). This is optional.
 - **10:7:** Westcott-Hort, like Sinaiticus and Vaticanus, leave the clause out (TAGNT marks it `NnSYGTB`, with no W).
@@ -234,18 +234,18 @@ I found no invented source, reading or find, so there are no critical findings. 
 - **Gloss 10:11:** "commits adultery" glossed as "breaks the marriage bond". This softens the saying and changes
   its sense: Jesus says remarriage is adultery, not that it breaks a bond. Use "is unfaithful in marriage", or
   remove the gloss.
-- **Plain 12:41:** "watched the crowd dropping copper coins into the treasury. Many rich people were dropping in a
+- **Plain English Translation 12:41:** "watched the crowd dropping copper coins into the treasury. Many rich people were dropping in a
   lot." χαλκός here is the ordinary word for money (BDAG), and "copper coins" makes the rich drop in large amounts
   of copper. Write "dropping money into the treasury". Note 12:41 can keep the literal sense.
-- **Note 10:45 and the Plain "in place of many":** The Plain follows Matthew 20:28's established rendering, so
-  this is not a parallel problem. But the Plain takes the substitutionary sense of ἀντί into the text, while the
+- **Note 10:45 and the Plain English Translation "in place of many":** The Plain English Translation follows Matthew 20:28's established rendering, so
+  this is not a parallel problem. But the Plain English Translation takes the substitutionary sense of ἀντί into the text, while the
   card beside it records traditions that reject substitution. Note 10:45 already explains ἀντί. Flag this for the
   lead as a book-wide decision, and add a sentence that "for many" (as in most English Bibles) keeps both senses
   open.
 
 ## Fixes applied
 1. Fixed. 11:31 re-anchored on `They talked it over among themselves. "Suppose we say,` so reading 1 runs on ("What should we say? Suppose we say,") with balanced quotes. No apparatus was reachable, so per the lead's ruling each reading names the editions that print it (from the TAGNT edition marks: SBLGNT alone for the question; NA28, NA27, THGNT, WH, Tregelles, Byzantine, TR without it); no manuscripts invented, the gap is stated in `w`, and the old "has not been able to confirm" line is gone from `why`.
-2. Fixed. New 12:23 entry anchored on "At the resurrection, when they rise,": SBLGNT, NA27/28 (brackets), Byzantine, TR vs THGNT, WH, Tregelles (edition marks). The Plain keeps following the SBLGNT, with reasons in `why` (Markan doubling, compare 1:32). The uncial list the reviewer recalled is not cited because it could not be verified.
+2. Fixed. New 12:23 entry anchored on "At the resurrection, when they rise,": SBLGNT, NA27/28 (brackets), Byzantine, TR vs THGNT, WH, Tregelles (edition marks). The Plain English Translation keeps following the SBLGNT, with reasons in `why` (Markan doubling, compare 1:32). The uncial list the reviewer recalled is not cited because it could not be verified.
 3. Fixed. The parables topic now says "the one story parable in Mark told to Jesus' opponents (the short sayings of 3:23-27 also answer opponents)".
 4. Fixed. Added Anglican (Article 31, `thirty-nine-articles`) and Baptist (divided: 1689 Confession 8.5, 8.8; General and Free Will Baptists; BF&M II.B; keys `london-1689`, `fwb-treatise`, `bfm-2000`, all existing). The Methodist view now says Article 20 keeps the Anglican wording. Pentecostal not added (optional).
 5. Fixed. 10:2 `why` now reports the argument of "those who prefer" the shorter text, and says Metzger sets out the problem; the claim about the SBL editor's reasoning is gone. `p` now says "with Codex Bezae", not "following".
@@ -254,7 +254,7 @@ I found no invented source, reading or find, so there are no critical findings. 
 8. Fixed. 11:3 `p`: "the disciples promise, for the Lord, that the colt will be sent back."
 9. Fixed. Note 10:22 now reads "of people appalled at a disaster (Ezekiel 27:35; Ezekiel 32:10)", and `r` is updated.
 10. Fixed. The Catholic view quotes Catechism 615 exactly in the past tense ("atoned ... made satisfaction").
-11. Partly. Plain not changed. 10:41 "annoyed" follows Matthew 20:24, and 10:14 "grew angry" matches 14:4 in part 13-16. Following the lead's ἐπιτιμάω ruling, the note now names the Greek verb and says which English each verse uses.
+11. Partly. Plain English Translation not changed. 10:41 "annoyed" follows Matthew 20:24, and 10:14 "grew angry" matches 14:4 in part 13-16. Following the lead's ἐπιτιμάω ruling, the note now names the Greek verb and says which English each verse uses.
 12. Fixed by the lead's decision that 14:36 becomes "for you anything is possible" (part 13-16). The note now says "the same Greek word, dunata, 'possible'", so it holds either way.
 13. Fixed. 10:21 reading 1 is "And come, pick up the cross and follow me." (as 8:34 and Matthew 16:24); `t` and `p` are updated.
 14. Fixed. Setting 10:2-9 `when` says "probably in Perea (Antipas' territory) or in Judea; Mark does not say where", and `why` is made conditional. Note 10:2 says "Jesus may be in the land of Herod Antipas" ("has already told" replaces "has just told"). Chapter 10 views.H is softened to match.
@@ -262,4 +262,4 @@ I found no invented source, reading or find, so there are no critical findings. 
 16. Partly. Added 12:32 (TR "there is one God") and 10:50 (Byzantine/TR "rose" vs "leaped up"), with edition support from the TAGNT marks. Added Westcott-Hort to 10:7 reading 1. 12:22 is declined: the Byzantine wording does not change the sense, and the reviewer marked it optional.
 17. Fixed. The chapter 11 deep dive now points to Matthew 21's "Why did Jesus overturn the tables?" for the three standard views. It keeps what Mark adds: the fig-tree sandwich with 11:23 and 14:58, the vessels of 11:16 (Mishnah Berakhot 9:5), "for all the nations", Horsley and Myers, and Fredriksen. Per the lead's road ruling, the chapter 10 road deep dive is also cut to what chapter 10 adds and points to the Mark 8 deep dive and the 8:27 note. Note 10:52 is likewise trimmed to what is new (others are sent home, 5:19 and 8:26; Bartimaeus follows; sesōken).
 18. Partly. Note 10:38 now uses `ccc` (the only Catechism key in the part). `bauer-colt` was added (W. Bauer, JBL 72, 1953; no page numbers given because they could not be verified) and cited on note 11:2. collins-mark, france-mark, hooker-mark and hengel-studies-mark are left byte-identical to 01-03's text, which the lead's ruling allows; the lead can drop the copies when the book is joined.
-19. Partly. Note 12:18: "most clearly in Daniel 12:2 (compare Isaiah 26:19)". Gloss 10:11 "commits adultery" removed (no gloss is better than a softening one). Plain 12:41 now reads "dropping money into the treasury", and note 12:41 explains chalkos. On 10:45: the Plain stays "in place of many" by lead decision; note 10:45 now says that most English Bibles have "for many", which leaves substitution or benefit open, and points to the card.
+19. Partly. Note 12:18: "most clearly in Daniel 12:2 (compare Isaiah 26:19)". Gloss 10:11 "commits adultery" removed (no gloss is better than a softening one). Plain English Translation 12:41 now reads "dropping money into the treasury", and note 12:41 explains chalkos. On 10:45: the Plain English Translation stays "in place of many" by lead decision; note 10:45 now says that most English Bibles have "for many", which leaves substitution or benefit open, and points to the card.

@@ -4,7 +4,7 @@ Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.j
 
 ## Verdict
 
-This part is good. The translation is faithful and rebuilt from the Hebrew. I found no NIV/ESV drift that the Hebrew does not force: the closest runs, "I will open my mouth in a parable" (78:2) and "We will not keep them hidden from their children" (78:4), are word-for-word Hebrew. The poetry keeps its line breaks. Every psalm has a settings card with `readers`, every chapter summary gives the Greek number, and the Hebrew verse-numbering note appears once (73:0) and is correct. Quotations of Exodus, Deuteronomy, 1 Samuel, Job and the other Psalms parts match the site's Plain almost everywhere. The hard places (73:4, 73:10, 74:5, 76:10, 77:10, 80:15) are marked as uncertain, not smoothed over. The weak spots are in the textual evidence. The Dead Sea Scrolls are never mentioned, although copies exist for Psalms 76, 77 and 78. Fifteen variant witness labels tell readers that the Greek was "recalled, not rechecked". One Greek reading (74:8) contradicts itself between note and variant. The rest are minor: a mis-assigned traditions `top`, a few quotations out of line with the site's Plain, some missing variants, and a handful of loose facts.
+This part is good. The translation is faithful and rebuilt from the Hebrew. I found no NIV/ESV drift that the Hebrew does not force: the closest runs, "I will open my mouth in a parable" (78:2) and "We will not keep them hidden from their children" (78:4), are word-for-word Hebrew. The poetry keeps its line breaks. Every psalm has a settings card with `readers`, every chapter summary gives the Greek number, and the Hebrew verse-numbering note appears once (73:0) and is correct. Quotations of Exodus, Deuteronomy, 1 Samuel, Job and the other Psalms parts match the site's Plain English Translation almost everywhere. The hard places (73:4, 73:10, 74:5, 76:10, 77:10, 80:15) are marked as uncertain, not smoothed over. The weak spots are in the textual evidence. The Dead Sea Scrolls are never mentioned, although copies exist for Psalms 76, 77 and 78. Fifteen variant witness labels tell readers that the Greek was "recalled, not rechecked". One Greek reading (74:8) contradicts itself between note and variant. The rest are minor: a mis-assigned traditions `top`, a few quotations out of line with the site's Plain English Translation, some missing variants, and a handful of loose facts.
 
 **Counts: 0 critical, 3 major, 17 minor.**
 
@@ -49,12 +49,12 @@ This part is good. The translation is faithful and rebuilt from the Hebrew. I fo
 
 ### 8. Minor: 78:65 quotes Psalm 121:4 in non-site wording
 - **Location:** notes.json 78:65 ("God wakes up").
-- **Problem:** "Psalm 121:4 says he 'neither slumbers nor sleeps'" is the familiar KJV/ESV-type wording. The site's Plain (part 120-137) is "does not doze and does not sleep". The build does not catch this because the reference comes before the quotation.
-- **Fix:** Use the site's Plain: Psalm 121:4 says he "does not doze and does not sleep".
+- **Problem:** "Psalm 121:4 says he 'neither slumbers nor sleeps'" is the familiar KJV/ESV-type wording. The site's Plain English Translation (part 120-137) is "does not doze and does not sleep". The build does not catch this because the reference comes before the quotation.
+- **Fix:** Use the site's Plain English Translation: Psalm 121:4 says he "does not doze and does not sleep".
 
 ### 9. Minor: 74:0 quotes Psalm 47:7 loosely
 - **Location:** notes.json 74:0 ("Maskil").
-- **Problem:** The note has "sing a maskil"; the site's Plain is "sing praise with a maskil".
+- **Problem:** The note has "sing a maskil"; the site's Plain English Translation is "sing praise with a maskil".
 - **Fix:** Quote it exactly, or drop the quotation marks.
 
 ### 10. Minor: 78:48, "hail or plague" is called only a proposal
@@ -63,7 +63,7 @@ This part is good. The translation is faithful and rebuilt from the Hebrew. I fo
 - **Fix:** If confirmed, name the witnesses and move the point to variants.json, with the MT followed and the same reason as now.
 
 ### 11. Minor: missing variants
-- **79:7.** MT has a singular verb (אָכַל); the Greek (κατέφαγον), the Syriac, several Hebrew manuscripts and Jeremiah 10:25 have the plural. The Plain's "they have eaten" in fact follows the plural, and the 79:6 note explains it only as a "collective singular". Add a variant, or at least name the witnesses.
+- **79:7.** MT has a singular verb (אָכַל); the Greek (κατέφαγον), the Syriac, several Hebrew manuscripts and Jeremiah 10:25 have the plural. The Plain English Translation's "they have eaten" in fact follows the plural, and the 79:6 note explains it only as a "collective singular". Add a variant, or at least name the witnesses.
 - **75:5.** MT "with a neck" (בְצַוָּאר); the Greek has λαλεῖτε κατὰ τοῦ θεοῦ ἀδικίαν, "speak injustice against God", reading בְּצוּר, "against the Rock". This affects the sense and is often footnoted.
 - **80:6.** MT "mock among themselves" (לָמוֹ); the Greek ἐμυκτήρισαν ἡμᾶς, "mocked us" (לָנוּ). Many versions follow the Greek.
 - **74:11.** The Ketiv is חוקך, "your decree", against the Qere "your bosom". texts/auto flags it; one line in the 74:11 material would do.
@@ -84,7 +84,7 @@ This part is good. The translation is faithful and rebuilt from the Hebrew. I fo
 - **Problem:** Kiddushin 30a (the middle letter of Psalms) and Rashi are right. Leviticus Rabbah 13:5 has the boar as Edom, but I could not confirm that the "fish from the river" reading of the suspended ayin is in Leviticus Rabbah 13:5. Rashi gives it, and it may come from another midrash (for example Midrash Tehillim). Sefaria would not load for me.
 - **Fix:** Check the passage. If it is not there, write "a midrash, repeated by Rashi" and keep Leviticus Rabbah 13:5 only for boar = Edom.
 
-### 15. Minor: unclear lines in the Plain
+### 15. Minor: unclear lines in the Plain English Translation
 - **73:8.** "They jeer and speak in evil of crushing people" is hard to parse. Try "They jeer and speak of evil; / from on high they talk of crushing others."
 - **73:2.** "my steps had nearly poured away" is not natural English. "my steps had all but slid out from under me" keeps the verb's sense of spilling.
 - **73:14.** "my rebuke comes" can be read as a rebuke the singer gives. Try "I am rebuked morning after morning."
@@ -130,14 +130,14 @@ This part is good. The translation is faithful and rebuilt from the Hebrew. I fo
 5. 74:19: now says "one letter differently (dalet for resh)".
 6. 74:2: Acts 20:28 now "may echo" this verse, with Isaiah 43:21 added in the text and in `r`.
 7. 74:12: the list of the seven *attah* lines is corrected.
-8. 78:65: Psalm 121:4 is now quoted in the site's Plain.
+8. 78:65: Psalm 121:4 is now quoted in the site's Plain English Translation.
 9. 74:0: Psalm 47:7 is now quoted exactly ("sing praise with a maskil").
 10. 78:48: now a variant (MT and the Greek "hail"; a few Hebrew manuscripts and Symmachus "plague", as reported in BHS), with MT followed. The note is updated to match.
-11. New variants at 79:7 (plural followed; the 79:6 note names the witnesses), 75:5 (Greek "against God") and 80:6 (Greek "mocked us"). For 80:6 the Plain now reads "mock among themselves", following the MT, and the unwarranted "us" is removed. 74:11 has a new Ketiv/Qere note.
+11. New variants at 79:7 (plural followed; the 79:6 note names the witnesses), 75:5 (Greek "against God") and 80:6 (Greek "mocked us"). For 80:6 the Plain English Translation now reads "mock among themselves", following the MT, and the unwarranted "us" is removed. 74:11 has a new Ketiv/Qere note.
 12. The 79 traditions card is now specific to 79:6–7 and 79:12 and names the omitted verses. Its Reformed view is sourced to `rpcna-testimony`. 79 `views.L` and the 79:12 note give the Liturgy of the Hours facts.
 13. 75:1: now says "The Greek and the Syriac read".
 14. 80:13: now "a midrash, repeated by Rashi". Leviticus Rabbah 13:5 is kept only for boar = Edom.
-15. Plain: 73:2 is now "slid out from under me", 73:8 is recast as suggested, 73:14 is now "I am rebuked", and 74:8 is now "Let's crush them". The glosses are re-anchored.
+15. Plain English Translation: 73:2 is now "slid out from under me", 73:8 is recast as suggested, 73:14 is now "I am rebuked", and 74:8 is now "Let's crush them". The glosses are re-anchored.
 16. 73 `views.C`: the variant reference is fixed ("see the variants and the note on 73:10").
 17. 76:10: the Greek is now glossed "the remnant of (angry) thought" in the variant and the note.
 18. Glosses: 74:11 is now "stop holding back" and 78:29 is now "ate until they were stuffed".
