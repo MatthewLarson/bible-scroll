@@ -52,5 +52,42 @@
    "name": "Jewish reception",
    "desc": "x"
   }
- ]
+ ],
+ "canon": {
+  "tier": "dc",
+  "work": "wisdom-of-solomon",
+  "summary": "The Wisdom of Solomon is in the Old Testament of the Catholic Church and the Orthodox churches. Anglicans and Lutherans place it among the Apocrypha; most other Protestant churches and Judaism do not count it as Scripture.",
+  "accepted_by": [
+   [
+    "Catholic Church",
+    "Scripture, one of the deuterocanonical books."
+   ],
+   [
+    "Eastern Orthodox churches",
+    "In the Old Testament, read in the Greek of the Septuagint."
+   ]
+  ],
+  "provenance": [
+   {
+    "h": "Written in Greek",
+    "b": "A Jewish writer composed it in Greek; this page is being written."
+   }
+  ],
+  "rejected_why": [
+   {
+    "h": "Not in the Hebrew Bible",
+    "b": "It is not among the books of the Jewish Bible; this page is being written."
+   }
+  ],
+  "cited_in": [],
+  "reliability": {
+   "verdict": "This page is being written."
+  },
+  "how_to_read": [
+   {
+    "h": "Being written",
+    "b": "This page is being written."
+   }
+  ]
+ }
 }
