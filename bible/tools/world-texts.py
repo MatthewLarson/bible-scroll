@@ -27,7 +27,7 @@ WORKS = [
         ('I', '1'), ('I', '39'), ('I', '174'), ('I', '261'), ('I', '352'),
         ('II', 'Seg. A 1'), ('II', 'Seg. E 1'), ('II', 'Seg. E 79'), ('II', 'Seg. G 1'),
         ('III', 'col. i'), ('III', 'col. iii'), ('III', 'col. v')],
-     {1518: 'Old Babylonian, from Larsa (the Schøyen tablet), Tablets II-III', 1520: 'Old Babylonian: the Ark Tablet',
+     {1518: 'Old Babylonian, from Larsa (the Schøyen tablet), Tablets II-III', 1520: 'Middle Babylonian: the Ark Tablet',
       1559: 'Middle Babylonian, from Hattusa', 1561: 'Middle Babylonian, from Ugarit', 1562: 'Middle Babylonian, from Nippur'}),
 ]
 ABOUT = {'Atr': {'akk': {'name': 'Akkadian (transliteration)', 'short': 'Akkadian', 'script': 'latin',
@@ -39,10 +39,13 @@ ABOUT = {'Atr': {'akk': {'name': 'Akkadian (transliteration)', 'short': 'Akkadia
             'written by the junior scribe Ipiq-Aya at Sippar in the reign of Ammi-saduqa, king of Babylon (its '
             'colophons give 1,245 lines for the three tablets); later copies, down to Neo-Assyrian and Late Babylonian times, fill its gaps.'}}}
 
+# A word's opening tag; its ln attribute can hold markup or quotes (ln="D<sub>0</sub> obv. 1", ln="C1 ii 32''"") that end a
+# plain <[^>]+> match early, so the tag is matched through to me="...">, always its last attribute.
+WORDTAG = re.compile(r'<span class="_ts_wd" .*?\bme="[^"]*">', re.S)
 def clean(s):
+    s = WORDTAG.sub('', s)
     s = re.sub(r'<sup>(.*?)</sup>', r'{\1}', s, flags=re.S)
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
-LEAK = re.compile(r'\b[A-Z][\w+\-]* (?:[ivx]+ )?\d+[a-z]? ?\'?" ts="[^"]*" me="[^"]*">')   # broken ln="C1 i 1"" attributes
 WORD = re.compile(r'<span class="_ts_wd" lm="([^"]*)" ln="(.*?)" ts="([^"]*)" me="([^"]*)">(.*?)</span>(?=\s|<|$)', re.S)
 def seal(n):
     """A SEAL score page -> [{line, wit:[{sig, text, words:[[form, lemma, gloss]]}]}], in page order."""
@@ -57,7 +60,7 @@ def seal(n):
         mm = re.match(r'\s*<td class="_ts_ln">(.*?)</td><td>(.*?)</td>\s*$', r, flags=re.S)
         if mm and cur is not None:
             words = [[clean(w.group(5)), w.group(1), html.unescape(w.group(4))] for w in WORD.finditer(mm.group(2))]
-            cur['wit'].append({'sig': clean(mm.group(1)), 'text': re.sub(r'\s+', ' ', LEAK.sub('', clean(mm.group(2)))).strip(), 'words': words})
+            cur['wit'].append({'sig': clean(mm.group(1)), 'text': clean(mm.group(2)), 'words': words})
     return out
 
 def legible(text):
