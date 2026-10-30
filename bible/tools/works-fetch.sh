@@ -16,3 +16,9 @@ if [ ! -d bible_databases ]; then   # KJV Apocrypha, Clementine Vulgate, Douay-R
   git clone --depth 1 --filter=blob:none --sparse https://github.com/scrollmapper/bible_databases
   (cd bible_databases && git sparse-checkout set --no-cone formats/json/KJVA.json formats/json/VulgClementine.json formats/json/DRC.json)
 fi
+if [ ! -d brenton ]; then   # Brenton's English Septuagint (1851), public domain, from eBible.org (3 Maccabees has no KJV)
+  mkdir brenton && (cd brenton && curl -sSf -o b.zip https://ebible.org/Scriptures/eng-Brenton_usfm.zip && unzip -q b.zip && rm b.zip)
+fi
+if [ ! -d sefaria ]; then   # Kahana's Hebrew Ben Sira (Warsaw 1912), from Sefaria (CC BY-SA); chapters it lacks return an error object
+  mkdir sefaria && for c in $(seq 1 51); do curl -sSf -o sefaria/$c.json "https://www.sefaria.org/api/v3/texts/Ben_Sira.$c?version=hebrew" || echo '{}' > sefaria/$c.json; done
+fi
