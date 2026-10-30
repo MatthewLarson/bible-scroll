@@ -1,6 +1,6 @@
 # Hostile review: Atrahasis (Atr), book-level files
 
-Files reviewed: `content/books/Atr/book.json`, `topics.json`, `sources.json`. Reviewer: separate agent, 2026-10-30. `node tools/build.js --check Atr` was run: the 3 `famine` topic errors and the "3 chapters, should be 12" error come from the unfinished parts 07-09 and 04-06/10-12, not from the book-level files; book.json itself raises no error or warning.
+Files reviewed: `content/books/Atr/book.json`, `topics.json`, `sources.json`. Reviewer: separate agent, 2026-10-30. `VERBOSE=1 node tools/build.js --check Atr` was run after all four parts were written and the verses renumbered: 0 errors, 0 warnings.
 
 Method: every date, colophon detail, witness and quotation below was compared this session with SEAL's saved pages (`.cache/dl/seal/node1515, node1517, node39732, node1520`), the downloads in `.scratch/Atr-book/dl/` (Millard's Tyndale Bulletin PDF, Heidel 1949, Clay 1922, Hasel 1974, Heiser 2001), the site's own Plain, and pages opened by web fetch (vatican.va Humani generis, Josephus on Gutenberg, Justin on New Advent, defendinginerrancy.com, egwwritings.org, Andrews University's repository page for Hasel). Where I could not open a source I say so.
 
