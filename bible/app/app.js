@@ -850,6 +850,10 @@ track.addEventListener('wheel', e => {
 const bookOrder = id => CAT.books.findIndex(b => b.id === id);
 async function openTopic(r){
   setMode('topic'); document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === 'topics' ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  if(!TIDX[r.id]){   // an old address after a merge (/topic/cherubim): the one topic that has that name as its title or another name
+    const slug = s => strip(s).toLowerCase().replace(/[^\p{L}\d]+/gu, '-').replace(/^-|-$/g, '');
+    const hit = Object.keys(TIDX).filter(id => [TIDX[id][0], ...(TIDX[id][3] || [])].some(n => slug(n) === r.id || slug(n).replace(/^the-/, '') === r.id));
+    if(hit.length === 1){ history.replaceState(null, '', location.pathname.replace(/[^/]+$/, hit[0]) + location.search); return openTopic(Object.assign({}, r, {id:hit[0]})); } }
   const meta = TIDX[r.id]; if(!meta){ $('leaf').innerHTML = `<h2>Topic not found</h2><p><button class="pill" data-link="/topics">All topics</button></p>`; return; }
   const T = (await load(`topics/${meta[5]}.json`))[r.id];
   const from = r.from ? r.from.split('/') : null, fb = from && BYID[from[0]] ? from[0] : null, fc = fb && from[1] ? +from[1] : null;
