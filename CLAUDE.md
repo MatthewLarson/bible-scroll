@@ -110,7 +110,8 @@ under a second per book. The full build also prints `skip <id>` for books with e
   front end is a single page routed by real paths (`/Rut/3/9`, `/topic/<id>?from=Rut/3`, `/topics`, `/library`;
   `<base href="/">` keeps `data/` and `img/` working at any depth, and Render rewrites every other path to index.html); `refs.js` is shared by the
   build and the browser to parse references.
-- The public site is **Codex Collection** (codexcollection.com). Its own pages come from `content/pages/home.md` and
+- The public site is **Codex Collection** (codexcollection.com), a free study tool that is not commercial and never will be
+  (Matt, 2026-10-30). So sources under non-commercial terms (such as CC BY-NC) can be used, and SEAL's Akkadian is shown with credit. Its own pages come from `content/pages/home.md` and
   `mission.md`, `content/articles/<id>.md` (Markdown under a `key: value` header; `status: draft` stays out of
   `public/`; `_template.md` shows the fields) and `content/releases/<date>.json`, written by `tools/release.js` at each
   `/publish`. The full build validates them (`--check` does not).
