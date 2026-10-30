@@ -500,7 +500,7 @@ function introPage(bk){
 /* "Where Christians differ": one question, each tradition's answer beside the others */
 const tradAt = ([b, c]) => `${BYID[b].name}${c ? ' ' + c : ''}`, tradPath = ([b, c]) => `/${b}${c ? '/' + c : ''}`;
 const tradCards = list => (list || []).map(x => `<div class="box trad"><div class="tag">Where Christians differ</div><h5>${x.q}</h5><dl class="facts">${x.views.map(([k, v, s]) => `<dt>${k}</dt><dd>${v}${s && s.length ? srcList(s) : ''}</dd>`).join('')}</dl>${srcList(x.s)}`
-  + ((x.also||[]).length || x.top ? `<p class="small also">${(x.also||[]).length ? `Asked again at ${x.also.map(a => `<button class="linkish" data-link="${tradPath(a)}" title="${esc(a[2])}">${tradAt(a)}</button>`).join(', ')}. ` : ''}${x.top && B.data.topics[x.top] ? `Topic: <button class="linkish" data-topic="${x.top}">${B.data.topics[x.top][0]}</button>` : ''}</p>` : '') + `</div>`).join('');
+  + ((x.also||[]).length || x.top ? `<p class="small also">${(x.also||[]).length ? `Asked again at ${x.also.map(a => `<button class="linkish" data-link="${tradPath(a)}" title="${esc(strip(a[2]))}">${tradAt(a)}</button>`).join(', ')}. ` : ''}${x.top && B.data.topics[x.top] ? `Topic: <button class="linkish" data-topic="${x.top}">${B.data.topics[x.top][0]}</button>` : ''}</p>` : '') + `</div>`).join('');
 function viewsList(c){
   if(!c.views || !B.lenses.length) return '';
   const L = B.lenses.map((l,i) => [l,i]).filter(([l]) => c.views[l.k]);
@@ -608,12 +608,12 @@ function studyPages(bk){
     ${words.filter(n => n.kind).map(n => `<div class="box word"><div class="tag"><span class="kindb k-${n.kind}">${KIND[n.kind]}</span><i>${n.v}</i></div><h5>${n.t}</h5>${n.orig?`<p class="greek small">${n.orig}</p>`:''}${para(n.b)}<p class="small"><button class="pill" data-verse="${n.v}">See it in the text, ${n.v}</button></p></div>`).join('') || '<p class="muted">No entries yet.</p>'}`);
   page('variants', 'Manuscript differences', `<div class="cart study">Study page</div><h2>Where the Manuscripts Differ</h2>
     <p class="lede">No original manuscript of any biblical book survives; we have copies of copies. Usually they agree. Where they differ in a way that matters, the Plain English marks the place. Each entry gives the readings, the manuscripts behind each, and why this translation follows the one it does.</p>
-    ${d.variants.map(x => `<div class="card"><h4><button class="linkish" data-variant="${x.id}">${x.t}</button> <span class="small muted" style="font-family:var(--f-body)">${x.v}</span></h4><p class="small">${esc(x.p||'')}</p></div>`).join('') || '<p class="muted">No significant differences are noted for this book.</p>'}`);
+    ${d.variants.map(x => `<div class="card"><h4><button class="linkish" data-variant="${x.id}">${x.t}</button> <span class="small muted" style="font-family:var(--f-body)">${x.v}</span></h4><p class="small">${x.p||''}</p></div>`).join('') || '<p class="muted">No significant differences are noted for this book.</p>'}`);
   const specN = d.notes.filter(n => n.type === 'spec'), specC = d.chapters.flatMap(c => (c.deep||[]).filter(x => x.box === 'spec' || x.spec).map(x => [c, x]));
   page('ideas', 'Claude’s theories', `<div class="cart study">Study page</div><h2>Claude's Theories</h2>
     <p class="lede">New ideas, not just a summary of what others have said. Each rests on real verses and says where it overlaps with published scholarship. None of them is established teaching. Weigh them the way the Bereans did (Acts 17:11).</p>
     ${(bk.spec||[]).map(s => specCard(s)).join('')}
-    <h3>In the text</h3><ul class="ideas">${specN.map(n => `<li><button class="linkish" data-note="${n.id}">${n.t}</button><p class="muted">${n.v} · ${esc(n.p||'')}</p></li>`).join('') || '<li class="muted">None yet.</li>'}</ul>
+    <h3>In the text</h3><ul class="ideas">${specN.map(n => `<li><button class="linkish" data-note="${n.id}">${n.t}</button><p class="muted">${n.v} · ${n.p||''}</p></li>`).join('') || '<li class="muted">None yet.</li>'}</ul>
     <h3>On the chapter pages</h3><ul class="ideas">${specC.map(([c, x]) => `<li><button class="linkish" data-go="c${c.n}">${x.title}</button><p class="muted">${name} ${c.n}</p></li>`).join('') || '<li class="muted">None yet.</li>'}</ul>`);
   if((bk.prompts||[]).length) page('prompts', 'Image prompts', `<div class="cart study">Study page</div><h2>Image Prompts</h2>
     <p class="lede">Every drawing here is original. These prompts are for making more in the same scroll-sketch style: paste one into ChatGPT's image tool.</p>
@@ -649,7 +649,7 @@ function plainVerse(key){
   const lines = []; for(let s = 0;;){ const i = t.indexOf(' / ', s); lines.push([s, i < 0 ? t.length : i]); if(i < 0) break; s = i + 3; }
   const wrap = (c, inner, note) => c.k==='n' ? `<span class="nt t-${c.x.type}" role="button" tabindex="0" data-note="${c.x.id}">${inner}</span>`
     : c.k==='v' ? `<span class="vr${c.x.pick !== (c.x.follow||0) ? ' alt' : ''}" role="button" tabindex="0" data-variant="${c.x.id}">${inner}</span>`
-    : `<span class="gl" style="--gn:${c.x.m.length + 2}"><span class="gl-o${note ? ' nt-in t-'+note.type : ''}">${inner}</span><span class="gl-m">${esc(c.x.m)}</span></span>`;
+    : `<span class="gl" style="--gn:${strip(c.x.m).length + 2}"><span class="gl-o${note ? ' nt-in t-'+note.type : ''}">${inner}</span><span class="gl-m">${c.x.m}</span></span>`;
   const draw = ([ls, le]) => {
     const spans = all.filter(sp => sp.s < le && sp.e > ls).map(sp => ({x:sp.x, k:sp.k, s:Math.max(sp.s, ls), e:Math.min(sp.e, le), first:sp.s >= ls, kids:[]}))
       .sort((a,c) => a.s-c.s || c.e-a.e || (a.k==='g' ? -1 : 1));
@@ -663,7 +663,7 @@ function plainVerse(key){
     return render(root); };
   return lines.length > 1 ? lines.map(l => `<span class="ln">${draw(l)}</span>`).join('') : draw(lines[0]);
 }
-const markers = key => B.data ? (B.NAT[key]||[]).map(n=>`<button class="nm t-${n.type}" data-note="${n.id}" aria-label="${esc(NOTE_TYPES[n.type].label+': '+n.t)}"></button>`).join('') : '';
+const markers = key => B.data ? (B.NAT[key]||[]).map(n=>`<button class="nm t-${n.type}" data-note="${n.id}" aria-label="${esc(NOTE_TYPES[n.type].label+': '+strip(n.t))}"></button>`).join('') : '';
 function verseHTML(ver, key, T){
   const [c, v] = key.split(':').map(Number);
   const num = v === 0 ? '' : `<button class="vn${v===1?' cv':''}" data-vpanel="${key}" aria-label="Verse ${key}: all translations and cross references">${v===1?c:v}</button>`;
@@ -789,7 +789,7 @@ function applyBookUI(){
   tsel.innerHTML = b.vers.map(v => `<option value="${v}">${VERS[v].short}</option>`).join(''); tsel.value = b.ver;
   const study = d ? [['words','translation watch'],['variants','manuscripts'],['ideas','Claude’s theories'],...(d.book.prompts||[]).length?[['prompts','image prompts']]:[],['sources','sources'],['topics','topics']] : [];
   chapNav.innerHTML = `<button data-go="intro" title="Opening">✦</button>${(d && d.book.pages || []).map(p => `<button data-go="${p.id}" class="study">${esc(p.label.toLowerCase())}</button>`).join('')}<span class="sep"></span>`
-    + b.meta.vc.map((_, i) => `<button data-go="${d?'c':'t'}${i+1}" data-ch="${i+1}" title="${b.meta.name} ${i+1}${d?': '+esc(d.chapters[i].title):''}">${i+1}</button>`).join('')
+    + b.meta.vc.map((_, i) => `<button data-go="${d?'c':'t'}${i+1}" data-ch="${i+1}" title="${b.meta.name} ${i+1}${d?': '+esc(strip(d.chapters[i].title)):''}">${i+1}</button>`).join('')
     + (study.length ? `<span class="sep"></span>` + study.map(([id,l]) => `<button data-go="${id}" class="study">${l}</button>`).join('') : '');
   const lensBox = $('lenses');
   lensBox.innerHTML = b.lenses.length ? `<button class="chip" data-lens="" aria-pressed="true">All views</button>` + b.lenses.map((l,i) => `<button class="chip" data-lens="${l.k}" aria-pressed="false">${lensGlyph(i,12)}${l.name}</button>`).join('') : '';
@@ -860,7 +860,7 @@ async function openTopic(r){
   const rel = s => chKey && (s.ch||[]).includes(chKey) ? 2 : fb && (s.book === fb || (s.ch||[]).some(k => k.startsWith(fb + ' '))) ? 1 : 0;
   const ctxOf = s => s.book || fb || 'Gen';
   const secHTML = s => `<div class="tsec" data-ctx="${ctxOf(s)}"><h3>${s.h}</h3>${para(s.b)}${s.refs?`<p class="small reflist from">${s.refs}</p>`:''}</div>`;
-  const noteHTML = n => `<li><button class="linkish" data-link="/${n.book}/${n.v.replace(':','/')}">${BYID[n.book].name} ${n.v} · ${n.t}</button><p class="muted">${esc(n.p)}</p></li>`;
+  const noteHTML = n => `<li><button class="linkish" data-link="/${n.book}/${n.v.replace(':','/')}">${BYID[n.book].name} ${n.v} · ${n.t}</button><p class="muted">${n.p||''}</p></li>`;
   const core = T.sections.filter(s => !s.book);
   let h = `<div class="cart kind" style="--kc:var(--k-${T.kind})">${T.kind}</div><h2>${T.title}</h2>`;
   if(fb) h += `<p><button class="pill" data-link="/${fb}${fc?'/'+fc:''}">← Back to ${here}</button></p>`;
@@ -903,9 +903,9 @@ async function openTopic(r){
 const tip = $('tip');
 function tipFor(el){
   if(el.dataset.note && B && B.data){ const n = B.data.notes[el.dataset.note], t = NOTE_TYPES[n.type];
-    return {c:t.color, html:`<span class="tt"><i></i>${t.label}${n.kind?' · '+KIND[n.kind]:''}</span><b>${n.t}</b>${esc(n.p||'')}`}; }
+    return {c:t.color, html:`<span class="tt"><i></i>${t.label}${n.kind?' · '+KIND[n.kind]:''}</span><b>${n.t}</b>${n.p||''}`}; }
   if(el.dataset.variant && B && B.data){ const x = B.data.variants[el.dataset.variant];
-    return {c:'var(--n-variant)', html:`<span class="tt"><i></i>Manuscript difference</span><b>${x.t}</b>${esc(x.p||'')}`}; }
+    return {c:'var(--n-variant)', html:`<span class="tt"><i></i>Manuscript difference</span><b>${x.t}</b>${x.p||''}`}; }
   if(el.dataset.ref){ const r = parseRef(el.dataset.ref); const txt = refPreview(r);
     if(txt === undefined) refTexts(r.book).then(() => { if(tip.dataset.for === el.dataset.ref && !tip.hidden) showTip(el); }).catch(()=>{});
     return {c:'var(--lapis)', html:`<b>${refName(r)}</b>${txt === undefined ? 'Loading…' : esc(txt)}`}; }
@@ -1006,8 +1006,8 @@ function noteView(id){
 }
 function variantView(id){
   const x = B.data.variants[id], f = x.follow || 0, he = B.meta.t === 'OT';
-  let h = `<h3 id="mtitle">${x.t}</h3><p>${esc(x.p||'')}</p>`;
-  h += x.readings.map((r, i) => `<div class="rdg${x.pick===i?' on':''}"><div class="w">${r.w}${i===f?'<span class="follow">FOLLOWED HERE</span>':''}</div>${r.orig?`<div class="o${he?' heb':''}">${esc(r.orig)}</div>`:''}${r.en?`<div>${esc(r.en)}</div>`:''}
+  let h = `<h3 id="mtitle">${x.t}</h3><p>${x.p||''}</p>`;
+  h += x.readings.map((r, i) => `<div class="rdg${x.pick===i?' on':''}"><div class="w">${r.w}${i===f?'<span class="follow">FOLLOWED HERE</span>':''}</div>${r.orig?`<div class="o${he?' heb':''}">${esc(r.orig)}</div>`:''}${r.en?`<div>${r.en}</div>`:''}
     <p class="small" style="margin:6px 0 0"><button class="pill" data-pick="${id}:${i}"${x.pick===i?' disabled':''}>${x.pick===i?'Shown in the text':'Read the verse this way'}</button></p></div>`).join('');
   h += `<h4 style="margin-top:12px">Why this reading</h4>${para(x.why)}`;
   if(x.b) h += para(x.b);
@@ -1041,7 +1041,7 @@ async function verseView(key){
   if(orig.sbl && orig.sbl[cv]) h += `<div class="vlab">Greek (SBLGNT)</div><p class="vrow greek">${esc(orig.sbl[cv])}</p>`;
   if(orig.byz && orig.byz[cv] && orig.byz[cv] !== orig.sbl[cv]) h += `<div class="vlab">Greek (Byzantine)</div><p class="vrow greek">${esc(orig.byz[cv])}</p>`;
   const by = links.by[cv] || [];
-  if(by.length) h += `<div class="vlab">Discussed on this site</div><ul class="cites">${by.map(e => e[0]==='n' ? `<li><button class="linkish" data-link="/${e[1]}/${e[3].replace(':','/')}">${BYID[e[1]].name} ${e[3]}</button> · note: ${esc(e[4])}</li>`
+  if(by.length) h += `<div class="vlab">Discussed on this site</div><ul class="cites">${by.map(e => e[0]==='n' ? `<li><button class="linkish" data-link="/${e[1]}/${e[3].replace(':','/')}">${BYID[e[1]].name} ${e[3]}</button> · note: ${e[4]}</li>`
     : e[0]==='c' ? `<li><button class="linkish" data-link="/${e[1]}/${e[2]}">${BYID[e[1]].name} ${e[2]}</button> · chapter page: ${esc(e[3])}</li>`
     : `<li><button class="linkish" data-topic="${e[1]}">Topic: ${esc(e[3])}</button></li>`).join('')}</ul>`;
   const xr = links.x[cv] || [];
