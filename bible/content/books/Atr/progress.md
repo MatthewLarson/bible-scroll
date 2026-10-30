@@ -1,4 +1,4 @@
-Status: writing
+Status: reviewed, ready
 
 Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md).
 The first book of the "Other peoples and religions" group. Base text: the Akkadian of SEAL's score editions (tools/world-texts.py),
@@ -15,3 +15,4 @@ Parts: 01-03, 04-06, 07-09, 10-12; book.json by a separate writer (lenses C H M 
 - 2026-10-30: part 10-12 review applied (33 findings: 29 accepted, 3 partly, 1 no action; L1/L2 for the lead): 10:83 and 12:104 scribe's counts in the new form, colophon 12:104-115 in Tablet I's wording, "?" and unparalleled restorations made gaps with notes (10:37, 10:39, 11:58, 12:65, 12:77-78), 11:40-43 and 11:46-48 rebuilt, 12:32-33 aligned with 9:28-29, 12:40 and 12:49 corrected, holders named or claims cut (Heidel pp. 88, 260, 261, 268; Millard; Justin; Heiser; Sanhedrin 56a), Lilith and Masoretes claims cut. Now 280 verses, 116 notes, 6 variants, 74 glosses. --check Atr/10-12: 0 warnings, no errors in the part. Log in .scratch/Atr-10-12/sources-checked.md.
 - 2026-10-30: part 07-09 review fixes applied: 28 findings (22 accepted, 3 partly, 1 declined, 2 no change); 38 Plain verses rebuilt (now 416 verses, 128 notes, 60 glosses); 51 fill variants folded to 14 (41 variants); readers fields rebuilt from the copies.
 - 2026-10-30: part 01-03 review fixes applied (34 findings: 31 accepted, 1 partly, 2 declined; lead decisions 1, 3, 7, 9, 10, 12 applied): 25 Plain verses changed (2:85 and 3:55 now scribe's line counts; We at 2:11 and 3:48; parṣu "decree" at 2:149/2:151; 2:145 "his brother Anu"); fill variants folded per run (32 variants), 92 notes, 60 glosses. --check Atr: 0 errors, 0 warnings. Fixes in parts/01-03/review.md; checks in .scratch/Atr-01-03/sources-checked.md.
+- 2026-10-30 (lead): generator fixes (leaked markup, sub-lines, a phantom lost line, scribe's counts) with the verses renumbered; hostile reviews of all four parts and book.json, fixes applied; alignment (one rendering of ilqe têrtam, the We term row); full build 0/0. No atlas: Bible Atlas has no data for books outside the 66.

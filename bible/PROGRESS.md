@@ -43,7 +43,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Zep | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X F; briefs tools/brief-zep.md, brief-twelve.md, brief-twelve2.md; atlas harvest pending. |
 | Hag | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F only for 2:6-9 and 2:21-23); briefs tools/brief-hag.md, brief-twelve.md, brief-twelv |
 | Zec | reviewed, published | Planned 2026-10-29: prophets lane, 2 parts (01-08 owns book.json, 09-14); lenses H C J X F; briefs tools/brief-zec.md, brief-twelve3.md; atlas harvest started. |
-| Mal | reviewed, published | Planned 2026-10-29: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-mal.md, brief-twelve3.md; atlas harvest started. |
+| Mal | reviewed, published | Planned 2026-10-29: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-mal.md, brief-twelve3.md; atlas harvest started. |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
 | Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |
@@ -52,7 +52,7 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Rom | reviewed, published | nt lane, run by the lead session. 4 parts: 01-04 (owns book.json), 05-08, 09-11, 12-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-rom.md.  |
 | 1Co | reviewed, published | Planned 2026-10-29: nt lane, 5 parts: 01-04 (owns book.json), 05-08, 09-11, 12-14, 15-16. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-1 |
 | 2Co | reviewed, published | Planned 2026-10-29: nt lane, 3 parts: 01-05 (owns book.json), 06-09, 10-13. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-2co.md. |
-| Gal | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-gal.md. |
+| Gal | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-gal.md. |
 | Eph | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-eph.md. |
 | Php | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-php. |
 | Col | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-col. |
@@ -76,4 +76,4 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
 | 1Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus; Vaticanus lacks Maccabees), KJV apocrypha, Vulgate/Douay. 23 typos in the digital Swete corrected |
 | 2Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |
-| Atr | writing | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
+| Atr | reviewed, ready | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
