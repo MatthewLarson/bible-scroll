@@ -79,7 +79,13 @@ the 66-book writers check the BSB, but the Plain must come from the literal line
   variants.json every difference that changes the meaning, naming the copies by SEAL's sigla with what they are
   ("A, the Old Babylonian copy of Ipiq-Aya from Sippar"; read SEAL's sigla list for each), the Akkadian, an English
   rendering, and the Plain wording with that reading. Where the base copy is broken and the Plain follows another
-  copy, that is a variant entry too. Spelling differences need no entry.
+  copy that agrees wherever both survive, the reader still needs to know which copy the words rest on, but that is
+  not a difference: give one entry per run of such lines, on the run's first verse, naming the verses and the copy,
+  not an entry per verse. Spelling differences need no entry.
+- A scribe's line count (a bare number such as "37" at the end of a column, or the tablet's total) is a verse:
+  "(The scribe's count of lines for this column: 37.)" or "(The scribe's count of lines for the whole tablet: 416.)",
+  with what survives of a broken number ("50 and more"), and a note saying where it stands and, if SEAL completes
+  it, SEAL's reading. Colophons follow Tablet I's wording (Atrahasis 5:85-91) in every tablet.
 - Names: the forms English readers know (Anu, Enlil, Enki, Ea, Nusku, the Igigi, the Anunnaki, Mami, Nintu,
   Belet-ili, Namtar, Adad, Atrahasis), with the Akkadian in a note at first use, and the book brief's choices for
   names that change between copies. Lowercase "god" and "gods" for these gods; "God" and "the LORD" only for the God

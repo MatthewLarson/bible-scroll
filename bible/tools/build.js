@@ -48,7 +48,7 @@ LANES.forEach(l => { const f = P('content/proposals', l, 'works.json'); if(!exis
   for(const id in w) if(WORKS_ALL[id] && JSON.stringify(WORKS_ALL[id]) !== JSON.stringify(w[id])) err(`proposals/${l}/works.json ${id}`, 'already defined differently; propose a change in topics.md or build.md instead'); else WORKS_ALL[id] = w[id]; });
 const NOTE_TYPES = ['word','history','echo','symbol','views','israel','myth','spec','canon'];
 const KINDS = ['mis','var','com','deb','nu'];
-const TOPIC_KINDS = ['Ideas','People','Places','Symbols','Words','Events','Studies'];
+const TOPIC_KINDS = ['Ideas','People','Places','Symbols','Words','Events','Studies','Science','Creatures'];
 
 let errors = 0, warnings = 0;
 let errBuf = null;   // while a book loads in a full build, its errors are held back (see run)
@@ -526,6 +526,8 @@ for(const id in B){ const x = B[id];
   W(`books/${id}.json`, clean({id, name:x.name, t:x.t, book:x.book, plain:x.plain, notes:x.notes, variants:x.variants, glosses:x.glosses,
     chapters:x.chapters, chTopics:x.chTopics, topics:tops, sources:src}));
 }
+/* Matt's rule: the site never shows exactly 666 topics (the number of the beast, Revelation 13:18); add or merge a topic */
+if(Object.keys(TOPICS).length === 666) err('content/topics', 'this build would publish exactly 666 topics; Matt does not want the site to show that number, so add or merge a topic');
 const tindex = {}, shards = {};
 for(const id in TOPICS){ const T = TOPICS[id];
   tindex[id] = [T.title, T.kind, strip(T.lead).slice(0, 220), T.aka, T.books, shard(id)];

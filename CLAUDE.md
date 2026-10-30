@@ -25,7 +25,9 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 - The most trustworthy original-language sources, with variant notation: the readings, their witnesses, which
   one the Plain follows and why.
 - One topic page per subject across the whole Bible, filterable to the passage just read, with a full-view
-  toggle. Maximum cross-referencing.
+  toggle. Maximum cross-referencing. Topic kinds: Ideas, People, Places, Symbols, Words, Events, Studies, Science,
+  Creatures. The site must never show exactly 666 topics (Matt, 2026-10-30: the number's religious weight); the full
+  build errors on it, so add or merge a topic rather than publish that count.
 - Likely mistranslations and common misreadings pointed out, with the Hebrew or Greek.
 - Original theories and cross-references welcome, always clearly labeled as Claude's theory (`spec`).
 - Three tiers of canon: (1) the 66 books; (2) books some churches hold as Scripture (deuterocanon, Orthodox
@@ -110,7 +112,8 @@ under a second per book. The full build also prints `skip <id>` for books with e
   front end is a single page routed by real paths (`/Rut/3/9`, `/topic/<id>?from=Rut/3`, `/topics`, `/library`;
   `<base href="/">` keeps `data/` and `img/` working at any depth, and Render rewrites every other path to index.html); `refs.js` is shared by the
   build and the browser to parse references.
-- The public site is **Codex Collection** (codexcollection.com). Its own pages come from `content/pages/home.md` and
+- The public site is **Codex Collection** (codexcollection.com), a free study tool that is not commercial and never will be
+  (Matt, 2026-10-30). So sources under non-commercial terms (such as CC BY-NC) can be used, and SEAL's Akkadian is shown with credit. Its own pages come from `content/pages/home.md` and
   `mission.md`, `content/articles/<id>.md` (Markdown under a `key: value` header; `status: draft` stays out of
   `public/`; `_template.md` shows the fields) and `content/releases/<date>.json`, written by `tools/release.js` at each
   `/publish`. The full build validates them (`--check` does not).

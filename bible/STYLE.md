@@ -204,7 +204,8 @@ reuse an existing id if one fits (check `aka`). If none fits, create `content/to
  "lead":"One or two sentences that describe the topic across the whole Bible, not just your book.",
  "sections":[], "links":[["Go'el","Go'el"]], "sources":[]}
 ```
-Kinds: Ideas, People, Places, Symbols, Words, Events, Studies (long articles). A core file may list `"related"`
+Kinds: Ideas, People, Places, Symbols, Words, Events, Studies (long articles), Science (the natural world: sky and
+earth, time, the body and healing, faith and science), Creatures (animals and strange creatures, real and visionary). A core file may list `"related"`
 topic ids for "See also" links between close subjects (e.g. hesed and mercy). Never rewrite another book's
 topic file; add your book's material in your own `topics.json`:
 ```json

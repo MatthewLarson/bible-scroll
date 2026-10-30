@@ -1,13 +1,29 @@
 {
  "id": "living-creatures",
- "title": "Cherubim and Living Creatures",
- "kind": "People",
+ "title": "Cherubim, Seraphim and the Living Creatures",
+ "kind": "Creatures",
  "aka": [
+  "cherub",
+  "cherubim",
+  "keruvim",
+  "kerubim",
+  "kerub",
   "four living creatures",
-  "seraphim"
+  "seraphim",
+  "seraph",
+  "hayyot",
+  "chayyot",
+  "zoa"
  ],
- "lead": "Winged beings who guard and carry God's presence: the cherubim at Eden's gate (Genesis 3:24) and on the ark (Exodus 25:18–22), the four living creatures of Ezekiel 1, the seraphim of Isaiah 6, and the four creatures around the throne who never stop praising God (Revelation 4:6–8).",
- "sections": [],
+ "lead": "Cherubim and seraphim are winged beings who guard and carry God's presence. Cherubim guard the way to the tree of life (Genesis 3:24) and spread their wings over the ark (Exodus 25:18–22). Seraphim cry \"Holy, holy, holy\" above the throne (Isaiah 6:2–3). Ezekiel's four living creatures carry God's throne, and he says, \"I knew that they were cherubim\" (Ezekiel 10:20). In Revelation four living creatures praise God day and night (Revelation 4:6–8). They are fierce, not the baby angels of later art.",
+ "related": [
+  "angels",
+  "ark",
+  "throne",
+  "tabernacle",
+  "bronze-serpent",
+  "sea-of-glass"
+ ],
  "links": [
   [
    "Living creatures",
@@ -26,6 +42,29 @@
    "Tetramorph"
   ]
  ],
- "sources": [],
- "origin": "shared"
+ "sections": [
+  {
+   "h": "Cherubim across the Bible",
+   "b": "<p>Cherubim guard the way back to the tree of life (Genesis 3:24). Two gold cherubim shelter the ark, and cherubim are woven into the tabernacle's curtains (Exodus 25:18–22; 26:1, 31). Solomon carves them on the temple walls. He also sets two huge olive-wood cherubim, ten cubits high, in the inner room (1 Kings 6:23–29). God is the one \"who sits on the cherubim as his throne\" (1 Samuel 4:4; compare Psalm 80:1; Psalm 99:1), and he rides on a cherub in a storm (Psalm 18:10). Ezekiel sees four-faced cherubim carrying God's throne-chariot as the glory leaves the temple (Ezekiel 1; 10). In the Hebrew text he also calls the king of Tyre a guardian cherub in Eden (Ezekiel 28:14–16). The Greek of Codex Vaticanus reads differently: there the king was placed \"with the cherub,\" a separate being. Hebrews 9:5 mentions \"the cherubim of glory.\" Revelation's four living creatures recall Ezekiel's.</p>",
+   "refs": "Genesis 3:24; Exodus 25:18–22; 1 Kings 6:23–29; 1 Samuel 4:4; Psalm 80:1; Psalm 99:1; Psalm 18:10; Ezekiel 1:4–28; Ezekiel 10:1–22; Ezekiel 28:14–16; Hebrews 9:5; Revelation 4:6–8"
+  },
+  {
+   "h": "Seraphim, the burning ones",
+   "b": "<p>Seraphim appear by that name only in Isaiah 6. They stand above the Lord's throne, and each has six wings. Two cover the face, two cover the feet, and two are for flying (Isaiah 6:2). They call to one another, \"Holy, holy, holy is the LORD of Armies\" (Isaiah 6:3). One of them touches Isaiah's lips with a hot stone from the altar (Isaiah 6:6–7). The Hebrew <i>saraf</i> comes from a verb meaning \"to burn.\" The same word names the \"burning snakes\" that bit Israel in the desert (Numbers 21:6; compare Deuteronomy 8:15), where the KJV has \"fiery serpents.\" It also names the \"flying burning serpent\" of Isaiah 14:29 and Isaiah 30:6. Isaiah describes only the seraphim's wings, faces, feet and hands. Jewish and Christian tradition has taken them as a high order of angels (see below). Revelation's living creatures borrow from both visions. They have six wings like Isaiah's seraphim. Like the living creatures of Ezekiel 1:10, they have the faces of a lion, an ox, a human and an eagle. And they give the same cry, \"Holy, holy, holy\" (Revelation 4:7–8).</p>",
+   "refs": "Isaiah 6:1–7; Numbers 21:6–9; Deuteronomy 8:15; Isaiah 14:29; Isaiah 30:6; Ezekiel 1:10; Revelation 4:6–8"
+  },
+  {
+   "h": "One subject, several names",
+   "b": "<p>Ezekiel first calls the beings of his vision \"living creatures\" (Hebrew <i>chayyot</i>, Ezekiel 1:5). Later he says, \"This was the living creature I had seen under the God of Israel at the Kebar canal, and I knew that they were cherubim\" (Ezekiel 10:20). Revelation uses the Greek <i>zoa</i>, \"living ones\" (Revelation 4:6). The KJV has \"beasts\" there, but they are not the beasts (<i>theria</i>) of Revelation 13. Maimonides lists ten ranks of angels (Mishneh Torah, Foundations of the Torah 2:7). The holy <i>chayyot</i> are highest, and the <i>ofannim</i> (the \"wheels\" of Ezekiel 1) are second. The seraphim are fifth and the cherubim ninth. Christian tradition follows Dionysius the Areopagite and Gregory the Great, as Thomas Aquinas sets them out (<i>Summa Theologiae</i> I, question 108, article 6). It places the seraphim, the cherubim and the thrones together in the highest of three groups (\"hierarchies\") of angels.</p>",
+   "refs": "Ezekiel 1:5–21; Ezekiel 10:15–22; Revelation 4:6–8; Revelation 13:1"
+  }
+ ],
+ "sources": [
+  "haran-temples",
+  "propp-exodus19-40",
+  "stepbible-tbesh",
+  "swete-lxx",
+  "maimonides-yesodei",
+  "aquinas-summa"
+ ]
 }

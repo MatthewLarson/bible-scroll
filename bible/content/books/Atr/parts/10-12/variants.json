@@ -1,0 +1,157 @@
+[
+ {
+  "v": "10:13",
+  "a": "Wall, listen to me closely!",
+  "t": "The wall speech in the Ark Tablet",
+  "p": "The Ark Tablet doubles the call, \"Wall, wall! Reed wall, reed wall!\", and names Atrahasis.",
+  "readings": [
+   {
+    "w": "C2, one of the two pieces (C1 and C2) of Ipiq-Aya's Old Babylonian copy of Tablet III from Sippar (SEAL Ms. C: BM 78942+78971+80385 (+) MAH 16064)",
+    "orig": "i-ga-ru ši-ta-am-mi-a-an-ni",
+    "en": "Wall, listen to me carefully!",
+    "plain": "Wall, listen to me closely!"
+   },
+   {
+    "w": "The Ark Tablet (Douglas Simmonds Collection, provenance unknown; ed. I. Finkel 2014; SEAL files it with the Middle Babylonian versions), lines 1-3",
+    "orig": "i-ga-ar i-ga-a[r k]i-ki-iš ki-ki-iš / {m}At-ra-am-ḫa-si-i[s] a-na mi-il-ki-ia qú-ul-[ma] / ta-ba-al-lu-uṭ [d]a-ri-iš",
+    "en": "Wall, wall! Reed wall, reed wall! Atrahasis, pay attention to my counsel, and you will live forever!",
+    "plain": "Wall, wall! Reed wall, reed wall! Atrahasis, heed my counsel, and you will live forever!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Ipiq-Aya's copy, the base text of Tablet III. The Ark Tablet is a separate, shorter version of the flood story with its own wording; it is given here because it fills out the same speech.",
+  "b": "The Ark Tablet names Atrahasis inside the speech to the wall, which spoils the pretense that Enki is only talking to a wall, and promises him life \"forever,\" as Ziusudra and Utnapishtim receive life like the gods in the Sumerian and Gilgamesh versions. Ipiq-Aya's copy keeps up the pretense.",
+  "s": [
+   "seal-atrahasis",
+   "sumerian-flood-story"
+  ]
+ },
+ {
+  "v": "10:17",
+  "a": "and keep life alive!",
+  "t": "Keep life alive, or keep it safe",
+  "p": "Ipiq-Aya's copy says bulliṭ, \"keep alive\"; the Ark Tablet says šullim, \"keep safe, whole.\"",
+  "readings": [
+   {
+    "w": "C2, Ipiq-Aya's Old Babylonian copy from Sippar",
+    "orig": "⌈na⌉-pí-iš-ta bu-ul-li-iṭ",
+    "en": "keep life alive",
+    "plain": "and keep life alive!"
+   },
+   {
+    "w": "The Ark Tablet, line 5",
+    "orig": "na-pí-iš-tam šu-ul-lim",
+    "en": "keep life whole",
+    "plain": "and keep life safe and whole!"
+   }
+  ],
+  "follow": 0,
+  "why": "The base copy is followed. The meaning is close; the Ark Tablet's verb šullum (related to Hebrew shalom) stresses keeping life unharmed.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "10:19",
+  "a": "... equal ...",
+  "t": "The boat's plan",
+  "p": "Ipiq-Aya's copy keeps only \"equal.\" The Ark Tablet has the full line: length and breadth equal.",
+  "readings": [
+   {
+    "w": "C2, Ipiq-Aya's Old Babylonian copy (broken)",
+    "orig": "[. . .] mi-it-ḫ[u-ra-at . . .]",
+    "en": "... equal ...",
+    "plain": "... equal ..."
+   },
+   {
+    "w": "The Ark Tablet, lines 6-8",
+    "orig": "eleppam(MÁ) te-ep-pu-šu e-[ṣ]e-er-ši-ma / e-ṣe-er-ti ki-[i]p-pa-tim / lu mi-it-ḫa-ar ši-id-da-[š]a ù pu-u[s-sa]",
+    "en": "the boat you will make, draw it out: a plan of a circle; let its length and its breadth be equal",
+    "plain": "its length and its width must be equal"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain gives only what survives in the base copy. The Ark Tablet's line is a different version, not a restoration of this copy, though both say the boat's sides are equal; the next surviving word in Ipiq-Aya's copy, \"a circle\" (10:21), matches the Ark Tablet's round plan.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "10:64",
+  "a": "the wild creatures of the open country.",
+  "t": "Two by two in the Ark Tablet",
+  "p": "The Ark Tablet says the wild animals went into the boat \"two by two,\" like Genesis.",
+  "readings": [
+   {
+    "w": "C1, Ipiq-Aya's Old Babylonian copy from Sippar",
+    "orig": "na-[ma-aš-še]-⌈e?⌉ ṣe-ri",
+    "en": "the moving creatures of the steppe",
+    "plain": "the wild creatures of the open country."
+   },
+   {
+    "w": "The Ark Tablet, lines 51-52",
+    "orig": "ù na-ma-aš-t[um i-na ṣe]-ri-i[m (. . .)] / ⌈ša⌉-na eleppa(MÁ) ⌈lu?⌉-[ú . . .]",
+    "en": "and the wild animals from the steppe, two by two, into the boat ...",
+    "plain": "the wild creatures of the open country, two by two."
+   }
+  ],
+  "follow": 0,
+  "why": "The base copy is followed; it does not say how many of each animal went in. The Ark Tablet's ša-na, \"two each,\" is a separate version's wording, and the following signs are broken.",
+  "b": "\"Two by two\" is the language of Genesis 6:19-20 and 7:9, 15. Ipiq-Aya's copy does not have it; among the versions compared on this page, only the Ark Tablet does. It does not decide whether Genesis borrowed: Genesis also has \"seven and seven\" of the clean animals (Genesis 7:2), which no Babylonian version has.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "10:78",
+  "a": "Pitch was brought, and he sealed his door.",
+  "t": "Who seals the door",
+  "p": "In the Ark Tablet the hero tells it himself: \"When I went in: seal the frame of her door!\"",
+  "readings": [
+   {
+    "w": "C1, Ipiq-Aya's Old Babylonian copy (third person)",
+    "orig": "[k]u-up-ru ba-bi-il i-pé-eḫ-ḫi ba-ab-šu",
+    "en": "pitch was brought; he sealed his door",
+    "plain": "Pitch was brought, and he sealed his door."
+   },
+   {
+    "w": "The Ark Tablet, lines 59-60 (first person, the hero speaking)",
+    "orig": "⌈i⌉-nu-ma a-na-ku e-ru-bu-ma / pi-ḫi pít ba-bi-⌈ša⌉",
+    "en": "when I went in, (I said:) seal the frame of her door!",
+    "plain": "When I went in, I said, \"Seal the frame of her door!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The base copy is followed. The Ark Tablet tells the building and boarding in the hero's own voice, as Utnapishtim does in Gilgamesh XI.",
+  "s": [
+   "seal-atrahasis",
+   "heidel-gilgamesh"
+  ]
+ },
+ {
+  "v": "12:20",
+  "a": "that Anu had hung up long before:",
+  "t": "Corrected signs",
+  "p": "The tablet's signs here are garbled; SEAL corrects two words. The sense \"hung up\" depends on it.",
+  "readings": [
+   {
+    "w": "C1 as edited by SEAL, with corrections",
+    "orig": "ša A-nu i-lu!(ŠU)-lu!(MA) i-pa-an qá-a[d!-mi!]",
+    "en": "which Anu had hung up in front of former time (or: in front of the ancient ones)",
+    "plain": "that Anu had hung up long before:"
+   },
+   {
+    "w": "C1 as the signs are written (ŠU and MA where SEAL reads lu and lu)",
+    "orig": "ša A-nu i-ŠU-MA i-pa-an qá-a[(x)-(x)]",
+    "en": "which Anu ... in front of ... (no clear sense)",
+    "plain": "that Anu ...:"
+   }
+  ],
+  "follow": 0,
+  "why": "Read as written the signs make no clear word; SEAL's correction gives the verb alālu, \"to hang up,\" which fits the necklace that follows (12:27-28) and the matching line in Gilgamesh XI, where Anu made the goddess's jewels.",
+  "s": [
+   "seal-atrahasis",
+   "heidel-gilgamesh"
+  ]
+ }
+]

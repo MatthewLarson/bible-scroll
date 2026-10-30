@@ -94,6 +94,7 @@ Each book's data loads only when the book is opened; translations load when chos
 | English | Berean Standard Bible | CC0 |
 | English | KJV (1769), ASV (1901), YLT (1898), World English Bible | Public domain |
 | Cross references | OpenBible.info | CC BY |
+| Akkadian (Atrahasis and other tier `world` books) | SEAL score editions (Streck, Wasserman; Leipzig and Hebrew University) | None stated; shown line by line, credited to SEAL, because Codex Collection is non-commercial |
 
 The Septuagint (Rahlfs, Göttingen), the Dead Sea Scrolls and the Samaritan Pentateuch are not openly licensed as
 full texts, so they are cited in variant notes where they differ, with the reading given.
