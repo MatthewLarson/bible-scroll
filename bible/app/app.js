@@ -302,7 +302,8 @@ function openLibrary(r){
 const TOPIC_KINDS = {Ideas:'Beliefs and themes traced through the whole collection.', People:'The people of the Bible and the writings around it.',
   Places:'Lands, cities and landmarks, with what happened there.', Events:'What happened, and how each book tells it.',
   Symbols:'Images and signs, where they come from and what they mean.', Words:'Key Hebrew and Greek words, and how they are translated.',
-  Studies:'Longer studies of a question that crosses many books.'};
+  Studies:'Longer studies of a question that crosses many books.', Science:'The natural world in the Bible: the sky and the earth, time, the body and healing, and how faith and science meet.',
+  Creatures:'Animals and strange creatures, real and visionary: beasts, monsters, living creatures and how translations name them.'};
 function openTopics(){
   sitePage('topics', 'Topics');
   const bare = t => t.replace(/^[^\p{L}\d]+/u, ''), ids = Object.keys(TIDX).sort((a, b) => bare(TIDX[a][0]).localeCompare(bare(TIDX[b][0])));

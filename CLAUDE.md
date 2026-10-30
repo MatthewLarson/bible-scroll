@@ -25,7 +25,9 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 - The most trustworthy original-language sources, with variant notation: the readings, their witnesses, which
   one the Plain follows and why.
 - One topic page per subject across the whole Bible, filterable to the passage just read, with a full-view
-  toggle. Maximum cross-referencing.
+  toggle. Maximum cross-referencing. Topic kinds: Ideas, People, Places, Symbols, Words, Events, Studies, Science,
+  Creatures. The site must never show exactly 666 topics (Matt, 2026-10-30: the number's religious weight); the full
+  build errors on it, so add or merge a topic rather than publish that count.
 - Likely mistranslations and common misreadings pointed out, with the Hebrew or Greek.
 - Original theories and cross-references welcome, always clearly labeled as Claude's theory (`spec`).
 - Three tiers of canon: (1) the 66 books; (2) books some churches hold as Scripture (deuterocanon, Orthodox
