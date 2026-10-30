@@ -1,5 +1,80 @@
 [
  {
+  "v": "4:7",
+  "a": "seven days",
+  "t": "Seven days, or nine?",
+  "p": "The Nineveh version of the birth rules has seven days for the brick; the Old Babylonian copies, at 4:40, nine.",
+  "readings": [
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
+    "orig": "7 ūmī(U4{meš}) li-na-di libittu(SIG4)",
+    "en": "for seven days let the brick be laid down",
+    "plain": "seven days"
+   },
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943); E, an Old Babylonian copy from Sippar (British Museum 92608) (at 4:40)",
+    "orig": "9 ⌈u4⌉-[mi] ⌈li⌉-in-na-di li-bi-⌈it-tum⌉ (E)",
+    "en": "for nine days let the brick be laid down",
+    "plain": "nine days"
+   }
+  ],
+  "follow": 0,
+  "why": "Lines 4:6-11 survive only in the Nineveh copy S+T+, so the Plain gives its number here, and the Old Babylonian number at 4:40. SEAL's editors treat 4:6-11 as a later scribe's version of 4:36-41.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "in the house of the woman in labor",
+  "t": "The woman in labor, or the holy woman?",
+  "p": "Where the Old Babylonian copies have the qadištu, the \"holy woman\" (4:36), the Nineveh version has the woman in labor.",
+  "readings": [
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
+    "orig": "ša-ab-su-tu-um-ma ina bīt(É) ḫa-riš-ti li-iḫ-du",
+    "en": "let the midwife rejoice in the house of the woman in confinement",
+    "plain": "in the house of the woman in labor"
+   },
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943); E, an Old Babylonian copy from Sippar (British Museum 92608) (at 4:36)",
+    "orig": "tap-sú-⌈tum⌉ i-na bi-⌈it⌉ qá-di-iš-ti li-iḫ-du (E)",
+    "en": "let the midwife rejoice in the house of the qadištu",
+    "plain": "in the house of the holy woman"
+   }
+  ],
+  "follow": 0,
+  "why": "The line at 4:9 exists only in S+T+. SEAL's editors explain that the later scribe replaced the old word qadištu with ḫarištu, \"woman in confinement\" (see the note at 4:6).",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "4:35",
+  "a": "I created! My own hands made it!",
+  "t": "4:35-48: copy E fills copy A's gaps",
+  "p": "In 4:35-48 copy A is broken in places; copy E, another Old Babylonian tablet from Sippar, keeps the missing words.",
+  "readings": [
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "[a-na-ku-m]i ab-ni i-pu-ša qá-t[a-ia] (4:35); ⌈9? u4⌉-[mi ...] (4:40); i ta-[ad-di] ki-ta-am (4:46); i-na bi-[...] de-e e-er-ši (4:47)",
+    "en": "[I] created, made with [my] hands ...; nine(?) days ...; let her [lay down] the reed mat; ... the [lay]ing of the bed",
+    "plain": "... created! My own hands made it! ..."
+   },
+   {
+    "w": "E, an Old Babylonian copy from Sippar (British Museum 92608)",
+    "orig": "a-na-ku-mi ab-ni i-pu-ša qá-ta-ia (4:35); 9 ⌈u4⌉-[mi] (4:40); i ta-ad-⌈di ki⌉-tam (4:46); [... i-n]a ⌈na⌉-de-e erši (4:47)",
+    "en": "I created, my hands made it; nine days; let her lay down the reed mat; at the laying of the bed",
+    "plain": "I created! My own hands made it!"
+   }
+  ],
+  "follow": 1,
+  "why": "The two copies agree wherever both survive, except for the goddess's name at 4:41 (see that variant). The Plain takes from copy E the words that copy A has lost in 4:35-48, as SEAL does.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
   "v": "4:41",
   "a": "Nintu",
   "t": "Nintu or Belet-ili?",
@@ -26,7 +101,7 @@
  },
  {
   "v": "4:46",
-  "a": "spread out the reed mat",
+  "a": "lay down the reed mat",
   "t": "The reed mat, or the city of Kesh?",
   "p": "A Nineveh copy has kēša, which older editions read as the city of Kesh.",
   "readings": [
@@ -34,17 +109,67 @@
     "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943); E, an Old Babylonian copy from Sippar (British Museum 92608)",
     "orig": "i ta-ad-⌈di ki⌉-tam",
     "en": "let her lay down the reed mat",
-    "plain": "spread out the reed mat"
+    "plain": "lay down the reed mat"
    },
    {
     "w": "P(+)R(+)KB, a Neo-Assyrian copy from Nineveh (K.7816 and joins)",
     "orig": "[...] ke-e-šá",
     "en": "... Kesh (as read by Lambert and Millard, and Foster)",
-    "plain": "praise ... at Kesh"
+    "plain": "praise ... Kesh"
    }
   ],
   "follow": 0,
   "why": "SEAL's editors show that the Old Babylonian copies read kītam, a reed mat, which the next line confirms with \"laying the bed.\" They explain the Nineveh scribe's ke-e-šá as a misreading of an older ki-ta, modernized, not the city of Kesh. Older editions (Lambert and Millard 1969; Foster) read the verb as \"praise\" and the noun as Kesh.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "... their noise.",
+  "t": "Their noise, or no sleep?",
+  "p": "Copy A ends this line with \"their noise\"; the Nineveh copy has a different line: \"in their uproar sleep did not seize him.\"",
+  "readings": [
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "[...] ⌈ri-gi-im-ši-in⌉",
+    "en": "... their noise",
+    "plain": "... their noise."
+   },
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
+    "orig": "[i-na] ḫu-bu-ri-ši-na la i-ṣa-ba-ta-[šu ši-tu]",
+    "en": "in their uproar [sleep] did not seize [him]",
+    "plain": "In their uproar sleep did not take hold of him."
+   }
+  ],
+  "follow": 0,
+  "why": "Copy A is the Old Babylonian base text. SEAL's translation follows the Nineveh line and gives copy A's words as the variant; the Plain keeps the older copy, as everywhere in this chapter.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "Enlil called his assembly together.",
+  "t": "5:6-21: the Nineveh and late copies fill copy A's gaps",
+  "p": "Copy A is broken through most of Enlil's decree and lacks some of its lines; the Plain reads them from S+T+, with z, V and bd.",
+  "readings": [
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "lacks 5:6, 5:9, 5:12 and 5:16-21; keeps only parts of 5:7-8, 5:10-11, 5:13-15",
+    "en": "(broken)",
+    "plain": "..."
+   },
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins); z, a Late Babylonian copy of unknown origin (Metropolitan Museum, MMA 86.11.378A); V, a Neo-Assyrian copy from Nineveh (K.6634); bd, a Late Babylonian tablet from Sippar that quotes a few lines (Iraq Museum 132665)",
+    "orig": "e.g. [{d}en]-líl il-ta-kan pu-ḫur-[š]u (S+T+, 5:6); [ki-m]a me-ḫe-e li-zi-qa-ši-na-ti-ma (S+T+, 5:14); [iq-b]u-ma šu-ru-pu-u ib-ši (S+T+, 5:18)",
+    "en": "Enlil called his assembly; like a storm let it blow on them; they spoke, and chills came",
+    "plain": "Enlil called his assembly together."
+   }
+  ],
+  "follow": 1,
+  "why": "Where copy A survives, the later copies agree with it, apart from the differences listed at 5:7, 5:10 and 5:13 (and 5:15, where the verb stands in a different line). Lines 5:16-17 come only from z, and 5:19-21 only from S+T+.",
   "s": [
    "seal-atrahasis"
   ]
@@ -70,6 +195,31 @@
   ],
   "follow": 0,
   "why": "The Old Babylonian copy is older and agrees with the repeated line in Tablet II (6:6, copies B and D).",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "5:10",
+  "a": "Their uproar robs me of sleep.",
+  "t": "Robbed of sleep, or sleep will not come?",
+  "p": "Copy A says Enlil is deprived of sleep; the Nineveh copy says sleep does not seize him.",
+  "readings": [
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "[... ḫu-bu-ri-ši]-⌈na ú-za-am⌉-ma ⌈ši-it⌉-ta",
+    "en": "[in their uproar] I am deprived of sleep",
+    "plain": "Their uproar robs me of sleep."
+   },
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
+    "orig": "[i-na ḫ]u-b[u]-⌈ri-ši⌉-na la i-ṣa-ba-ta-ni ši-tu",
+    "en": "in their uproar sleep does not seize me",
+    "plain": "In their uproar sleep will not take hold of me."
+   }
+  ],
+  "follow": 0,
+  "why": "Copy A is the Old Babylonian base text, and Tablet II's Old Babylonian copies have the same words (6:10). The meaning is close.",
   "s": [
    "seal-atrahasis"
   ]
@@ -106,31 +256,6 @@
   ]
  },
  {
-  "v": "5:14",
-  "a": "Like a storm let them blow on them:",
-  "t": "The storm line",
-  "p": "Copy z keeps only the first words; the Nineveh copy has the whole line.",
-  "readings": [
-   {
-    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
-    "orig": "[ki-m]a me-ḫe-e li-zi-qa-ši-na-ti-ma",
-    "en": "like a storm let it blow on them",
-    "plain": "Like a storm let them blow on them:"
-   },
-   {
-    "w": "z, a Late Babylonian copy of unknown origin (Metropolitan Museum, MMA 86.11.378A)",
-    "orig": "ki-ma me-ḫe-e [...]",
-    "en": "like a storm ...",
-    "plain": "Like a storm ..."
-   }
-  ],
-  "follow": 0,
-  "why": "The base copy z is broken after two words. The Plain follows the Nineveh copy, which matches the narrative line 5:20.",
-  "s": [
-   "seal-atrahasis"
-  ]
- },
- {
   "v": "5:15",
   "a": "sickness, head pain, chills, the Asakku",
   "t": "The list of plagues",
@@ -157,31 +282,6 @@
   ],
   "follow": 0,
   "why": "Copy A is broken after its first word. The Plain follows the Nineveh copy, the only one that keeps the whole line, which also matches the narrative at 5:21. In copy A the verb \"blow\" stood in this line; in the Nineveh copy it stands in the line before.",
-  "s": [
-   "seal-atrahasis"
-  ]
- },
- {
-  "v": "5:18",
-  "a": "They gave the word, and chills came.",
-  "t": "The order carried out",
-  "p": "Copy z breaks off after the first word; the Nineveh copy has the whole line.",
-  "readings": [
-   {
-    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
-    "orig": "[iq-b]u-ma šu-ru-pu-u ib-ši",
-    "en": "they spoke, and chills came",
-    "plain": "They gave the word, and chills came."
-   },
-   {
-    "w": "z, a Late Babylonian copy of unknown origin (Metropolitan Museum, MMA 86.11.378A)",
-    "orig": "iq-bu-⌈ú⌉-[ma ...]",
-    "en": "they spoke ...",
-    "plain": "They gave the word ..."
-   }
-  ],
-  "follow": 0,
-  "why": "The base copy z is broken; the Plain follows the Nineveh copy, which carries out the order of 5:11 in the same words.",
   "s": [
    "seal-atrahasis"
   ]
@@ -232,6 +332,31 @@
   ],
   "follow": 0,
   "why": "SEAL restores copy A from the Nineveh copy. The Plain follows the Nineveh words for the end of the line but keeps the name Enki from copy A, as everywhere in this book.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "5:24",
+  "a": "He spoke with his god,",
+  "t": "5:24-31: the Nineveh copy fills copy A's gaps",
+  "p": "Copy A breaks off after the first words of 5:24-27 and lacks 5:28-31; the Plain reads them from S+T+.",
+  "readings": [
+   {
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "i-ta-mu ⌈it⌉-[ti ...] (5:24); ù šu-ú il-šu it-t[i-šu ...] (5:25); {I}⌈at⌉-ra-am-ḫa-si-is p[í]-⌈a⌉-[šu ...] (5:26); iz-za-kàr a-⌈na⌉ [...] (5:27)",
+    "en": "he speaks wi[th ...]; and he, his god, wi[th him ...]; Atram-hasis [his] mouth ...; said to ...",
+    "plain": "He spoke with ..."
+   },
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
+    "orig": "[i-t]a-mu it-ti ili(DINGIR)-šu (5:24); [ù š]u {d}é-a it-ti-šú i-ta-mu (5:25); ... a-na {d}é-a bēli(EN)-šu (5:27); 5:28-31",
+    "en": "he speaks with his god; and he, Ea, speaks with him; ... to Ea, his lord; the complaint of 5:28-31",
+    "plain": "He spoke with his god,"
+   }
+  ],
+  "follow": 1,
+  "why": "The two copies agree wherever both survive, except that the Nineveh copy names the god Ea, where the Plain keeps Enki, the name in copy A (5:23). Lines 5:28-31 are only in S+T+.",
   "s": [
    "seal-atrahasis"
   ]
@@ -313,15 +438,15 @@
  },
  {
   "v": "5:47",
-  "a": "wipe his hand across them",
-  "t": "Wipe, or put, his hand",
+  "a": "pass his hand over them",
+  "t": "Pass, or put, his hand",
   "p": "The Nineveh copy has \"put his hand.\"",
   "readings": [
    {
     "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
     "orig": "li-ša-⌈ak-ki-il qá-as-su⌉",
-    "en": "let him wipe his hand (over the gift)",
-    "plain": "wipe his hand across them"
+    "en": "let him pass (literally \"wipe\") his hand (over the gift)",
+    "plain": "pass his hand over them"
    },
    {
     "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
@@ -362,26 +487,26 @@
   ]
  },
  {
-  "v": "5:81",
-  "a": "shone again",
-  "t": "Their looks shone again",
-  "p": "Copy A keeps \"their good looks\"; copy Q keeps the verb \"shone.\"",
+  "v": "5:77",
+  "a": "Their days of well-being came back.",
+  "t": "5:77-81: copy Q fills copy A's gaps",
+  "p": "Copy A is broken at the start of 5:77-81 and lacks 5:78-79; the Nineveh copy Q keeps the missing words.",
   "readings": [
    {
-    "w": "Q, a Neo-Assyrian copy from Nineveh (Sm.292)",
-    "orig": "[dam-qú-tum zi-mu-ši-na] it-tam-ru",
-    "en": "[their good looks] shone",
-    "plain": "shone again"
+    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
+    "orig": "[...]-na it-tu-ru (5:77); [...]-⌈ru-ú?⌉ (5:80); ⌈da⌉-am-qú-⌈tum⌉ z[i?-mu-ši]-n[a ....] (5:81)",
+    "en": "... came back; ...; their good looks ...",
+    "plain": "... came back. ... Their fine looks ..."
    },
    {
-    "w": "A, the Old Babylonian copy written by Ipiq-Aya at Sippar (British Museum 78941+78943)",
-    "orig": "⌈da⌉-am-qú-⌈tum⌉ z[i?-mu-ši]-n[a ....]",
-    "en": "their good looks ...",
-    "plain": "..."
+    "w": "Q, a Neo-Assyrian copy from Nineveh (Sm.292)",
+    "orig": "[u4-me šu-ul-me-ši-na] it-tu-ru (5:77); [...] u ne-e-ši (5:78); [... i-b]an-ni šer-ra (5:79); [it-tab-ši maḫ-ru]-⌈ú⌉ ri-gim-ši-na (5:80); [dam-qú-tum zi-mu-ši-na] it-tam-ru (5:81)",
+    "en": "... came back; ... and life; ... formed a baby; their noise became as before; [their good looks] became bright",
+    "plain": "Their days of well-being came back."
    }
   ],
-  "follow": 0,
-  "why": "Each copy keeps a different half of the line. SEAL joins them, as the Plain does; SEAL's editors explain the verb as nawāru \"to shine\" (commentary on II E 59).",
+  "follow": 1,
+  "why": "Each copy keeps a different part of these lines, and they agree where both survive. SEAL joins them, as the Plain does; SEAL's editors explain the verb of 5:81 as nawāru, \"to shine\" (commentary on II E 59). Copy Q puts \"their noise\" after \"as before\" in 5:80, which does not change the sense.",
   "s": [
    "seal-atrahasis"
   ]
@@ -418,7 +543,7 @@
   "p": "The Nineveh copy Q counts in šār, units of 3,600 years.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889)",
     "orig": "[ú]-ul il-⌈li⌉-ik [600]+600 šanātum (MU{ḫi.}⌈{a}⌉)",
     "en": "600+600 years",
     "plain": "1,200 years"
@@ -426,7 +551,7 @@
    {
     "w": "Q, a Neo-Assyrian copy from Nineveh (Sm.292)",
     "orig": "[... šá-á]r ša-na-a-tim",
-    "en": "... šār (3,600) years",
+    "en": "... šār years (a šār is 3,600; the number before it is lost, and SEAL's translation restores 3,600)",
     "plain": "3,600 years"
    }
   ],
@@ -443,7 +568,7 @@
   "p": "A Nineveh scribe misread this line.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "[i-n]a ḫu-bu-ri-ši-na i-lu it-ta-aḫ-da-ar",
     "en": "the god grew gloomy",
     "plain": "the god grew gloomy"
@@ -468,7 +593,7 @@
   "p": "The Nineveh copies have the line of 5:6 here.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "[{d}en-lí]l iš-te-me ri-g[i-i]m-ši-in",
     "en": "Enlil heard their noise",
     "plain": "Enlil heard their noise."
@@ -493,7 +618,7 @@
   "p": "The Nineveh copies say \"the gods, his sons,\" as at 5:7.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "iz-⌈za-kàr⌉ a-na i-li ra-bu-[tim]",
     "en": "to the great gods",
     "plain": "the great gods"
@@ -513,15 +638,15 @@
  },
  {
   "v": "6:9",
-  "a": "The noise of humankind has grown too heavy for me.",
+  "a": "The noise of humankind has grown heavy.",
   "t": "Heavy noise, or gloom?",
   "p": "The Nineveh copy S+T+ has the line of 5:9 here.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "ik-ta-ab-ta ri-gi-im a-wi-lu-t[i]",
     "en": "the noise of humankind has grown heavy",
-    "plain": "The noise of humankind has grown too heavy for me."
+    "plain": "The noise of humankind has grown heavy."
    },
    {
     "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
@@ -537,13 +662,63 @@
   ]
  },
  {
+  "v": "6:11",
+  "a": "Cut off the people's food!",
+  "t": "6:11-24: copy D fills copy B's gaps",
+  "p": "Copy B, the base text, is broken at the start of many lines of the drought decree and breaks off after 6:22; copy D keeps the words.",
+  "readings": [
+   {
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889)",
+    "orig": "[pu]-⌈ur⌉-sa (6:11); [a-na bu-bu]-ti-ši-na (6:12); [ti-ku] a-ia it-tu-uk (6:19); [li-iš-šu]-ur (6:20); [... r]i-iš-tum (6:22)",
+    "en": "cut off ...; for their hunger ...; [a drop] let it not drip; let ... reduce; ... rejoicing",
+    "plain": "... Let them have no joy."
+   },
+   {
+    "w": "D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "orig": "[p]u-ur-⌈sa⌉ (6:11); [a]-⌈na bu⌉-bu-ti-ši-na (6:12); ti-ku a-ia it-tu-uk (6:19); ⌈li-iš⌉-šu-ur (6:20); a-⌈ia⌉ ib-ši-ši-na-ši r[i-iš-tum] (6:22); 6:23-24",
+    "en": "cut off; for their hunger; let no drop drip; let it reduce; let there be no rejoicing for them; and the broken lines 6:23-24",
+    "plain": "Cut off the people's food!"
+   }
+  ],
+  "follow": 1,
+  "why": "Both are Old Babylonian copies and agree wherever both survive. Lines 6:23-25 are only in copy D.",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "for their hunger",
+  "t": "For their hunger, or in their bellies?",
+  "p": "The Old Babylonian copies say \"for their hunger\"; the later copies say \"for (or in) their bellies,\" as the narrative does at 6:33.",
+  "readings": [
+   {
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "orig": "[a]-⌈na bu⌉-bu-ti-ši-na li-wi!-ṣú ša-am-mu (D)",
+    "en": "for their hunger let the plants be too few",
+    "plain": "for their hunger"
+   },
+   {
+    "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins); bd, a Late Babylonian tablet from Sippar that quotes a few lines (Iraq Museum 132665)",
+    "orig": "[a-n]a kar-ši-ši-na li-me-ṣu šam-mu (S+T+); ak-ka-ar-ši-ši-na ... (bd)",
+    "en": "for their bellies let the plants be too few",
+    "plain": "in their bellies"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Old Babylonian copies in the order. The narrative of 6:32-43 survives only in S+T+, so there the Plain has \"in their bellies\" (6:33).",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
   "v": "6:13",
   "a": "Let Adad keep back his rain.",
   "t": "Adad's rain",
   "p": "The Nineveh copy adds \"above\" and a clearer verb.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "zu-un-ni-šu {d}adad(IŠKUR) li-ša-ak-ki-il",
     "en": "let Adad keep back (?) his rain",
     "plain": "Let Adad keep back his rain."
@@ -563,15 +738,15 @@
  },
  {
   "v": "6:14",
-  "a": "Let it not rise up kindly,",
+  "a": "Let it not come up kindly,",
   "t": "The waters below",
   "p": "The Nineveh copy: \"Below, let it be blocked; let it not rise.\"",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "ṭà-bi-iš a-ia il-li-ka",
     "en": "let it not come pleasantly",
-    "plain": "Let it not rise up kindly,"
+    "plain": "Let it not come up kindly,"
    },
    {
     "w": "S+T+, a Neo-Assyrian copy from Nineveh (K.3399 and joins)",
@@ -593,7 +768,7 @@
   "p": "The Nineveh copy has \"turn away,\" as in the narrative at 6:37.",
   "readings": [
    {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
+    "w": "B, an Old Babylonian copy from Sippar (MLC 1889); D, an Old Babylonian copy (Istanbul, Ni 2552+)",
     "orig": "⌈li-te-ed-di⌉-li-ir-ta-š[a{d}nisaba]",
     "en": "let Nisaba shut her breast",
     "plain": "shut her breast"
@@ -607,31 +782,6 @@
   ],
   "follow": 0,
   "why": "The Old Babylonian copies are the base text. The narrative (6:37) survives only in the Nineveh copy, which uses \"turn away\" both times.",
-  "s": [
-   "seal-atrahasis"
-  ]
- },
- {
-  "v": "6:22",
-  "a": "Let them have no joy.",
-  "t": "No joy for them",
-  "p": "Copy B keeps only the last word; copy D has the whole line.",
-  "readings": [
-   {
-    "w": "D, an Old Babylonian copy (Istanbul, Ni 2552+)",
-    "orig": "a-⌈ia⌉ ib-ši-ši-na-ši r[i-iš-tum]",
-    "en": "let there be no rejoicing for them",
-    "plain": "Let them have no joy."
-   },
-   {
-    "w": "B, an Old Babylonian copy from Sippar (Yale, MLC 1889)",
-    "orig": "[... r]i-iš-tum",
-    "en": "... rejoicing",
-    "plain": "... joy."
-   }
-  ],
-  "follow": 0,
-  "why": "Copy B, the base text, is broken; the Plain follows copy D, another Old Babylonian copy.",
   "s": [
    "seal-atrahasis"
   ]

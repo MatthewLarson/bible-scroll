@@ -165,3 +165,41 @@ Verified in Millard (Tyndale Bulletin 18, 1967, the 1966 Tyndale lecture), opene
 - No sneer or polemic found. The Christian answers are given in strong form (Millard, 2 Peter 2:5, Psalm 50, Acts 17:25).
 
 ## Fixes applied
+
+Fixer: separate agent, following the lead's decisions (.scratch/Atr-review-notes.md). Checks logged in .scratch/Atr-10-12/sources-checked.md (fixer section); scripts in .scratch/Atr-10-12-fix/.
+
+1. Accepted. Chapter 12 reading, deep box and topic `flood` now say the elements are shared but the order is not, and that much is broken; the box follows Genesis's own order (promise, blessing and law, then the bow). "Scholars of every kind" replaced by named holders: Heidel pp. 260, 261, 268 and Millard (opened). The 12:28 note says where the sign falls in each story.
+2. Accepted, applied by the lead's rule 4. 12:77 is now "Set up ..." and 12:78 is "... and ..." (naditu?, šugitu with no parallel, qadištu?); the note gives SEAL's readings and says the qedeshah comparison cannot rest on them. 12:65 is "(Only the end of a word survives.)", and the 12:64 note now gives the right reason for the gap (no copy or repeated passage). 10:37 keeps its gap and has a new note with SEAL's "[my city/land]". 12:45 "sage" stays: it rests on the parallel Gilgamesh XI line (Rogers p. 99), and a note says so. 12:7-8 stay as text: SEAL restores them with no "?" from Gilgamesh XI (Rogers p. 98); the 12:7 note now says both are restorations.
+3. Accepted, lead rule 1. 10:83 "(The scribe's count of lines for this column: 55.)" with a note: SEAL's "Lo. Edge 55" stands after ii 55'', the column's last line.
+4. Accepted. 11:40-43 rebuilt from akk-literal in SEAL's sense: "Against my own self and my own body, / I listened to what was said against their noise. / The blame is mine: like flies / the offspring have become." The 11:41 note gives the literal wording and SEAL's reading; 11:35 now names Millard instead of "Scholars".
+5. Accepted. 12:49 "pull tight, then loosen." (no "rope"); the note cites Rogers p. 99 for the Gilgamesh verbs and Heidel p. 88 n. 202 for the sense. 12:40 is now "He made the reed wall let the word out." (the Š-stem with two objects), with a note on SEAL's "[to a reed wall]". The 10:13 quote is updated.
+6. Accepted. Each one is verified and given a page, or cut: Heidel "most widely accepted" (p. 261, "directly or through intermediaries" cut); caprice (p. 268); genetic (pp. 260, 268); 12:49 sense (p. 88 n. 202); 12:50 now quotes Heidel p. 268 ("without discrimination between the just and the unjust"). Ch11 readings, 11:35, 12:11, 12:28: the unnamed "scholars/readers" are removed or replaced by Millard. Topic `flood` common is now Heidel and Millard. Lilith is cut (12:70, ch12 S, echoes). The Noahide line now cites Sanhedrin 56a (opened on Sefaria): seven commandments for "the descendants of Noah". It no longer says the rabbis drew them from Genesis 9, because the Talmud derives them from Genesis 2:16. 11:74 now quotes Millard's "timing" sentence.
+7. Accepted. "On the central questions (who sends the flood and who saves, whether the gods need food, whether human numbers are the problem), Genesis gives the opposite answer."
+8. Accepted: "Leave the house, build a boat!"
+9. Partly accepted. The 10:36 note already gives both readings. A variants.json entry is declined: the brief keeps variants for differences between copies, and here one copy is read two ways.
+10. Accepted (see 2).
+11. Accepted. 10:38 now uses "Since". 10:39 is "... this word ..." because the verb is wholly restored and SEAL's text ("I spoke") and its English ("he told me") differ. A new note covers this and the restored "Enki" (Gilgamesh XI "Ea, my lord", Rogers p. 92).
+12. Accepted. The unnamed alternative is cut, and the gloss no longer says "dreams".
+13. Accepted. The inference is cut from the 10:23 myth note.
+14. Accepted. The 10:30 note now just sets out the differing numbers and leaves the borrowing question to chapter 12.
+15. Accepted: "the same idiom". The unsourced "shared ... not borrowing" is cut.
+16. Accepted. 11:58 ends with a gap ("drifted up against ...;"), and the note gives SEAL's saḫḫu? and "drenched land".
+17. Accepted. 11:64 is now "all that was in her cried out." A new note gives SEAL's glosses and SEAL's other sense.
+18. Accepted. 11:46-48 is now "I have gone up into the sky; / it is as if I were living / in a storehouse." ("but" dropped, tuša "as if"). The "prison" and "some readers/others" lines are cut.
+19. Accepted: "comes near".
+20. Accepted, with the lead's rule 5 (same Akkadian, same English). 12:32-33 now match 9:28-29: "All of us, the great Anunnaki, / bound ourselves together by oath." 12:17 is "You gave your word for total destruction:", like 7:12's "given their word". A new note at 12:17 ties the idiom together.
+21. Accepted. The 10:16 spec and 12:30 notes say SEAL glosses ma-ku-ra both ways. The hedge is replaced by a checked statement (none of the works opened makes the point).
+22. Accepted. 12:30 now gives the verdict "unlikely" as the site's own, and says Millard holds "the same Flood" without identifying the gods.
+23. Accepted, lead rule 2. Colophon 12:104-115 now follows Tablet I's wording. The note gives máš, SEAL's urīṣu "male goat", SEAL's English "lamb" and "uttering a greeting", and SEAL's year 12. The Plain keeps 5:89-91's "young goat" and "raising his hand in blessing".
+24. Accepted. 12:104 is "Finished. (The scribe's count of lines for this column: 19.)", with a note linking it to 10:83.
+25. Accepted. The Masoretes sentence is cut.
+26. Accepted. SEAL's MB filing is now stated at 10:18. Finkel's date is not given, since no source for it was opened (lead rule 11). The "only Mesopotamian flood text" claim (10:64 variant) is narrowed to the versions compared on the page.
+27. Accepted. The full `readers` text stays on 10:1-7, 11:30-52 and the colophon. The other 10 settings get their own short line that points back to it.
+28. Accepted. Changed glosses: "a home full of crying", "a supply room", "the great lord", "a jar that measured time by dripping water". The 12:104 and 12:76 glosses are removed (12:76 is now plain: "Put a stop to childbirth!").
+29. Accepted. The S lens in chapters 10, 11 and 12 names Justin Martyr (First Apology 5, opened) and Michael Heiser (Deut 32:8 article, opened). The "nothing" view is given as a reading of Psalm 96:5, not as unnamed readers.
+30. Accepted, lead rule 8. Topic `noah` now says what Millard says ("the same Flood"). "Very likely" is labeled as the site's own verdict, and the mismatches are noted.
+31. Accepted. It now reads "the oldest dated tablets of a Babylonian flood story" (Heidel p. 261) plus SEAL's year 12.
+32. No action needed.
+33. Partly accepted. 12:76 is simplified. 11:23 keeps "understanding" (the ṭēmu thread, a proposed term), and the gloss "lost his head" carries it. 12:18 and 12:21-23 are unchanged.
+L1, L2: for the lead. This part has no "six days and seven nights": 11:74's note gives Heidel's "six days and [six] nights", also in Rogers p. 96.
+No term changes for content/proposals/world/terms.json. The "holy woman" for qadištu is no longer used in this part (12:78 is now a gap).

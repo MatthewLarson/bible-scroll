@@ -42,12 +42,13 @@
   "type": "views",
   "t": "The gods' court",
   "p": "The gods meet as a court and give a ruling. Christians read such councils in more than one way.",
-  "b": "<i>Dīnu</i> is a court case or verdict, and <i>puḫru</i> is the gods' assembly. In Babylon the high gods ran the world like a council of elders. The Bible also pictures God surrounded by a heavenly court: \"among the gods he passes judgment\" (Psalm 82:1). Christian readers take that picture in different ways: some see only angels; some, the \"divine council\" readers, see in the gods of the nations real spiritual powers set under God and judged by him (Psalm 82:6–7). In Atrahasis there is no one above the council. Its rulings are made by vote and can be dodged.",
+  "b": "<i>Dīnu</i> is a court case or verdict, and <i>puḫru</i> is the gods' assembly. In this poem the high gods rule as a council: they hear a case, bind themselves by oath and give orders (7:11–12; 9:77–80). The Bible also pictures God surrounded by a heavenly court: \"among the gods he passes judgment\" (Psalm 82:1). Christian readers take that picture in different ways. Michael Heiser lists the readings of Psalm 82's \"gods\": Israel's own rulers and judges, the rulers of the nations, or divine beings; he holds that they are divine beings who rule the nations under God and are judged by him (Psalm 82:6–7). In Atrahasis there is no one above the council. Its rulings are sworn by oath, and still a god can find a way around them.",
   "orig": "di-nu šá-kín pu-uḫ-ru (dīnu šakin puḫru), 'the case, the assembly is set'",
   "r": "Psalm 82:1–7; 1 Kings 22:19; Job 1:6",
   "top": "divine-council",
   "s": [
-   "seal-atrahasis"
+   "seal-atrahasis",
+   "heiser-deut32"
   ]
  },
  {
@@ -110,9 +111,9 @@
   "type": "history",
   "t": "Adad, the storm god",
   "p": "Adad was the Babylonian god of storm and rain. His name lives on in the Bible as Hadad.",
-  "b": "Adad (written with the sign IŠKUR) was the god of storms, thunder and rain. In a land that lived by rivers and canals, rain still decided the harvest in the north and the pasture everywhere. His name, Hadad in the West, appears in the Bible inside Aramean royal names such as \"Ben-hadad\" (1 Kings 15:18) and in the place or rite of \"Hadad-rimmon\" (Zechariah 12:11). To 'look for his door' is to go to his temple with gifts.",
+  "b": "Adad (written with the sign IŠKUR) was the god of storms, thunder and rain. In a land that lived by rivers and canals, rain still decided the harvest in the north and the pasture everywhere. His name, Hadad in the West, appears in the Bible inside Aramean royal names such as \"Ben-hadad\" (1 Kings 15:18) and in the place or rite of \"Hadad-rimmon\" (Zechariah 12:11). To 'look for his door' is to go to his temple with gifts. The line stresses the name with the particle <i>-ma</i>: Adad and no other, so the Plain says 'and his alone'. The matching line against the plague in Tablet I has no <i>-ma</i>: 'Look for Namtar's door' (5:42).",
   "orig": "{d}adad(IŠKUR)-ma (Adad)",
-  "r": "1 Kings 15:18; Zechariah 12:11; Jeremiah 14:22",
+  "r": "5:42; 1 Kings 15:18; Zechariah 12:11; Jeremiah 14:22",
   "s": [
    "seal-atrahasis"
   ],
@@ -128,8 +129,8 @@
   "a": "baked loaf",
   "type": "history",
   "t": "Feeding the gods",
-  "p": "Babylonians fed their gods with bread, flour and drink. The Bible's God needs no food.",
-  "b": "<i>Epītu</i> is a baked loaf, and the next line adds <i>maṣḫatu</i>, a flour used in offerings. In Mesopotamia the gods' statues were served meals every day in their temples, and Atrahasis shows why that mattered: when humans suffer, the gods' tables are empty. The Bible keeps offerings of bread and flour (Leviticus 2), but it denies that God eats them: \"Do I feed on the flesh of strong bulls? / Do I drink goats' blood?\" (Psalm 50:13).",
+  "p": "The people feed the rain god with bread and flour. The Bible's God needs no food.",
+  "b": "<i>Epītu</i> is a baked loaf, and the next line adds <i>maṣḫatu</i>, a flour used in offerings. The poem shows the god fed like a guest: the loaf is set before him and the flour goes to him (7:20–21, 7:51–52). The Bible keeps offerings of bread and flour (Leviticus 2), but it denies that God eats them: \"Do I feed on the flesh of strong bulls? / Do I drink goats' blood?\" (Psalm 50:13).",
   "orig": "ye-pí-tam (epītam), 'a baked loaf'",
   "r": "Leviticus 2:1–4; Psalm 50:12–13",
   "top": "sacrifice",
@@ -193,16 +194,17 @@
  },
  {
   "v": "7:39",
-  "a": "wipe his hand across them",
+  "a": "pass his hand over them",
   "type": "word",
-  "t": "Wiping a hand across the gifts",
-  "p": "The gesture is not certain: probably Adad accepts the gifts by touching them.",
-  "b": "The verb <i>šukkulu</i> is rare. The site renders it 'wipe', as in Tablet I (5:47). SEAL understands the gesture as the god passing his hand over the gift, a sign that he accepts it; it notes that dictionaries derive the verb in different ways. The point is clear either way: the god takes the gifts, and the rain follows.",
+  "t": "A hand passed over the gifts",
+  "p": "The god passes his hand over the gifts: probably a sign that he accepts them.",
+  "b": "The verb is <i>šukkulu</i>, which SEAL's commentary (on Tablet II, A 11) calls 'to wipe'. SEAL's own translation of this line has the god pass his hand over the gift, a sign that he takes it. The site renders the line the same way wherever it comes: 'let him pass his hand over them' in Enki's advice (5:47, 5:63 and here) and 'he passed his hand over them' when it is done (5:75, 7:54). The point is clear either way: the god takes the gifts, and the rain follows.",
   "orig": "li-ša-⌈ak⌉-[ki-il] qá-a[s-sú] (lišakkil qāssu), 'let him pass his hand'",
   "kind": "deb",
   "s": [
    "seal-atrahasis"
-  ]
+  ],
+  "r": "5:47; 5:63; 5:75; 7:54"
  },
  {
   "v": "7:45",
@@ -318,8 +320,8 @@
   "a": "their noise",
   "type": "views",
   "t": "What was the noise?",
-  "p": "Was humanity's noise a sin, or just the sound of too many people? Readers differ.",
-  "b": "The poem never calls the noise a sin; it is the sound of crowded life that keeps Enlil awake. Some readers have taken it as rebellion or wrongdoing, to bring it closer to Genesis. Alan Millard thought it unlikely that the poem's 'din' equals the violence of Genesis 6, but held that 'the idea of disturbing deity' is common to both stories as the cause of the Flood. A Christian reading notes the gap: Genesis names the cause plainly, \"the earth was full of violence\" (Genesis 6:11).",
+  "p": "Was humanity's noise a sin, or just the sound of too many people? The poem never says it was a sin.",
+  "b": "The poem never calls the noise a sin; it is the sound of crowded life that keeps Enlil awake. Alan Millard thought it unlikely that the poem's 'din' equals the violence of Genesis 6, but held that 'the idea of disturbing deity' is common to both stories as the cause of the Flood. A Christian reading notes the gap: Genesis names the cause plainly, \"the earth was full of violence\" (Genesis 6:11).",
   "r": "Genesis 6:5; Genesis 6:11–13; Genesis 18:20–21",
   "top": "flood",
   "s": [
@@ -346,11 +348,12 @@
   "type": "views",
   "t": "Gods of the nations: nothing or demons?",
   "p": "Enlil's 'sons' are the gods of Babylon. Christians have read such gods in three ways.",
-  "b": "The Bible speaks of the gods of the nations in three ways, and Christian readers weigh them together. They are nothing, made by hands: \"Their idols are silver and gold\" (Psalm 115:4). Yet worship given to them goes to evil spirits: \"they sacrifice to demons and not to God\" (1 Corinthians 10:20; Deuteronomy 32:17). And some read Psalm 82, where God judges \"sons of the Most High,\" as a council of spiritual powers that went wrong. Justin Martyr held that demons had once made people worship them as gods (First Apology 5). These are readings, not the poem's meaning.",
+  "b": "The Bible speaks of the gods of the nations in three ways, and Christian readers weigh them together. They are nothing, made by hands: \"Their idols are silver and gold\" (Psalm 115:4). Yet worship given to them goes to evil spirits: \"they sacrifice to demons and not to God\" (1 Corinthians 10:20; Deuteronomy 32:17). And Michael Heiser reads Psalm 82, where God judges \"sons of the Most High,\" as a council of divine beings set over the nations who went wrong. Justin Martyr held that demons had once made people worship them as gods (First Apology 5). These are readings, not the poem's meaning.",
   "r": "Psalm 115:4–8; Deuteronomy 32:17; 1 Corinthians 10:20; Psalm 82:6–7",
   "top": "divine-council",
   "s": [
-   "justin-1apology"
+   "justin-1apology",
+   "heiser-deut32"
   ]
  },
  {
@@ -505,8 +508,8 @@
   "a": "But he, Atrahasis the man,",
   "type": "canon",
   "t": "Atrahasis and Noah",
-  "p": "Are Atrahasis and Noah the same man? A Christian who believes the Flood happened weighs it.",
-  "b": "Both are told of a coming flood by heaven, build a boat, save life and offer a sacrifice after. Both are men, not gods. Alan Millard, a Christian Assyriologist, judged that 'the two accounts undoubtedly describe the same Flood', which the Babylonians could only tell 'in their own polytheistic language' while the Hebrews 'understood the action of God in it'. On that view the survivor remembered in Babylon is Noah, renamed and refashioned. Critical scholars treat both as figures of story. Verdict (as in the book's opening pages): very likely the same man, on the view that the Flood is history; the stories told of him differ.",
+  "p": "Are Atrahasis and Noah the same man? The site weighs it from a Christian standpoint.",
+  "b": "Both are told of a coming flood by heaven, build a boat, save life and offer a sacrifice after. Both are men, not gods. The Assyriologist Alan Millard, writing in <i>Tyndale Bulletin</i>, called Atrahasis 'the Babylonian Noah', argued that he was saved for his piety 'just as Noah was saved for his righteousness', and judged that 'the two accounts undoubtedly describe the same Flood', which the Babylonians could only tell 'in their own polytheistic language' while the Hebrews 'understood the action of God in it'. Against the match, the names differ and the two men are saved for different reasons; the book's opening pages weigh both sides. The site's verdict, from its Christian standpoint: very likely the same man, for anyone who takes the Flood as history; the stories told of him differ.",
   "r": "Genesis 6:8–9; Genesis 6:22; Hebrews 11:7; 2 Peter 2:5",
   "top": "noah",
   "s": [
@@ -528,11 +531,11 @@
  },
  {
   "v": "8:5",
-  "a": "He set out on foot from the city.",
+  "a": "He set out ... the city.",
   "type": "word",
   "t": "Out of the city",
-  "p": "The start of the line is broken. Most scholars restore 'out of the city'.",
-  "b": "Only '... city, his foot he set' survives. SEAL restores [ina], here 'out of', as W. G. Lambert and A. R. Millard did, because Atrahasis goes to the river (8:14, 8:28). SEAL rejects W. von Soden's restoration, which had Atrahasis stepping 'up' somewhere. The Plain follows the common restoration.",
+  "p": "The start of the line is broken. SEAL, with Lambert and Millard, restores 'out of' the city.",
+  "b": "Only '... city, his foot he set' survives; 'he set his foot' is a way of saying 'he set out'. SEAL restores [ina], here 'out of', as W. G. Lambert and A. R. Millard did, because Atrahasis goes to the river (8:14, 8:28), and it rejects W. von Soden's restoration, which had Atrahasis stepping 'up' somewhere. The restoration fits the story but rests on no other copy, so the Plain leaves the gap.",
   "orig": "a?⌉-li še-ep-šu iš-ku-un (āli šēpšu iškun), 'city, his foot he set'",
   "kind": "deb",
   "s": [
@@ -555,11 +558,11 @@
  },
  {
   "v": "8:7",
-  "a": "He carried incense offerings",
+  "a": "He carried incense",
   "type": "echo",
   "t": "Incense with prayer",
   "p": "Incense went up with prayer in Babylon and in Israel.",
-  "b": "<i>Muššakku</i> is an incense offering burned for a god. The Bible pairs incense with prayer too: \"Let my prayer be set up as incense in front of you\" (Psalm 141:2), and in Revelation \"the smoke of the incense went up before God, along with the prayers of the saints\" (Revelation 8:4). The later copies send Atrahasis to the river at this point (see the variant).",
+  "b": "<i>Muššakku</i> is incense, burned for a god. The Bible pairs incense with prayer too: \"Let my prayer be set up as incense in front of you\" (Psalm 141:2), and in Revelation \"the smoke of the incense went up before God, along with the prayers of the saints\" (Revelation 8:4). The later copies send Atrahasis to the river at this point (see the variant).",
   "orig": "[m]u-uš-ša-ak-ki (muššakki), 'incense'",
   "r": "Psalm 141:2; Luke 1:9–10; Revelation 8:3–4",
   "top": "incense",
@@ -569,11 +572,11 @@
  },
  {
   "v": "8:9",
-  "a": "He pleaded on oath with the sage of the gods,",
+  "a": "He pleaded on oath with ... of the gods,",
   "type": "word",
   "t": "Swearing, or being sworn?",
-  "p": "The broken start of 8:9–12 is read in several ways. Was Atrahasis pleading, or was the god under oath?",
-  "b": "SEAL restores [ap]kal, 'the sage of the gods', with W. von Soden, because Enki is named in the matching line (8:11), but notes problems and suggests 'name' instead. William Moran (1987) read the lines as Atrahasis' own words: his god speaks to him but, being under oath, must tell him things in dreams. SEAL thinks that unlikely, since Atrahasis does not speak in the first person here. The Plain gives SEAL's reading: Atrahasis presses his god by oath to answer him in a dream.",
+  "p": "The start of 8:9-12 is broken and read in several ways. Was Atrahasis pleading, or was the god under oath?",
+  "b": "The first word is broken. SEAL restores [ap]kal, 'the sage of the gods', only tentatively, following W. von Soden, because Enki is named in the matching line (8:11); but it notes that the verb does not take 'with' for the power called on, and suggests 'name' instead. The Plain leaves the word as a gap. William Moran (1987) read the lines as Atrahasis' own words: his god speaks to him but, being under oath, must tell him things in dreams. SEAL thinks that unlikely, since Atrahasis does not speak in the first person here. The Plain gives SEAL's reading: Atrahasis presses his god by oath to answer him in a dream.",
   "orig": "ap?]-kal? i-li ta-mi-ma (apkal ilī tamīma), 'sage of the gods, he swore'",
   "kind": "deb",
   "r": "8:11",
@@ -587,7 +590,7 @@
   "type": "echo",
   "t": "Asking for a dream",
   "p": "Atrahasis offers gifts and sleeps by the water hoping for a dream. Solomon received one after sacrifice.",
-  "b": "Mesopotamians sought messages from their gods in dreams, sometimes by sleeping near a holy place after an offering. Atrahasis does this at the river (8:18–26). The Bible tells of God speaking in dreams: Jacob at Bethel (Genesis 28:12–16), and Solomon after his sacrifices: \"It was at Gibeon, in a dream in the night, that the LORD showed himself to Solomon\" (1 Kings 3:5). But in the Bible the dream is God's free gift, not something a person can make a god give.",
+  "b": "Atrahasis asks his god to answer him in dreams (8:10, 8:12), and later makes an offering by the river and asks for a dream in the night (8:18–26). The Bible tells of God speaking in dreams: Jacob at Bethel (Genesis 28:12–16), and Solomon after his sacrifices: \"It was at Gibeon, in a dream in the night, that the LORD showed himself to Solomon\" (1 Kings 3:5). But in the Bible the dream is God's free gift, not something a person can make a god give.",
   "orig": "i-na šu-na-a-ti (ina šunāti), 'in dreams'",
   "r": "Genesis 28:12–16; 1 Kings 3:4–5; Numbers 12:6",
   "top": "dreams",
@@ -628,7 +631,7 @@
   "type": "word",
   "t": "A twin sleep",
   "p": "The word tūʾamtu means 'twin'. Its sense with sleep is not certain.",
-  "b": "The line pairs <i>šittu</i>, 'sleep', with <i>tūʾamtu</i>, 'twin'. SEAL takes it as a second sleep, after midnight and after the offering, and notes that 'sleep came' is a known way of speaking (Wasserman). Others have understood a sleep that comes in two parts. Either way, Atrahasis falls asleep by the water, hoping for a dream (8:26).",
+  "b": "The line pairs <i>šittu</i>, 'sleep', with <i>tūʾamtu</i>, 'twin'. SEAL takes it as a second sleep, after midnight and after the offering, and notes that 'sleep came' is a known way of speaking (Wasserman). Atrahasis falls asleep by the water, hoping for a dream (8:26).",
   "orig": "t]u!?-a-am-⸢tum⸣!? (tūʾamtum), 'twin'",
   "kind": "deb",
   "r": "8:49",
@@ -680,7 +683,7 @@
   "type": "history",
   "t": "The quay of the Apsu",
   "p": "A place in the god's world and in his temple at Eridu.",
-  "b": "SEAL explains that the 'quay of the Apsu' is a place in the cosmos and also part of Ea's temple at Eridu, often named in Sumerian spells (citing George 2016). The messengers come from the god's realm across 'the wide sea' (8:37) to the edge of the human world. Temples in Mesopotamia were built to stand for the gods' homes in the cosmos, so a place could be both at once.",
+  "b": "SEAL explains that the 'quay of the Apsu' is a place in the cosmos and also part of Ea's temple at Eridu, often named in Sumerian spells (citing George 2016). The messengers come from the god's realm across 'the wide sea' (8:37) to the edge of the human world. Temples in Mesopotamia were built to stand for the gods' homes in the cosmos, so a place could be both at once. In the late copy be the verb after 'the quay of the Apsu' is read 'they reached' only with a question mark on every sign, so the Plain leaves it as a gap; the other copies are broken.",
   "orig": "ina kar apsî(ABZU) (ina kār apsî), 'at the quay of the Apsu'",
   "s": [
    "seal-atrahasis"
@@ -715,11 +718,11 @@
  },
  {
   "v": "8:46",
-  "a": "Was it the water?",
+  "a": "by water, by the river",
   "type": "word",
   "t": "Water or 'what'",
   "p": "The old copy has 'water ... in the night'; the late copies heard it as 'what ... in the night'.",
-  "b": "The Old Babylonian copy I has mê ina mūši, 'water in the night'. The Middle and Late Babylonian copies X and be have mīnam, 'what?', which SEAL calls a hearing mistake: the words sound alike. The Plain follows the old copy, read as a question.",
+  "b": "The Old Babylonian copy I has <i>mê ina mūši ušābil nāra</i>, word for word 'water, in the night I made carry, the river'. The line has no word that marks a question. SEAL's translation reads it as a second question, as if Atrahasis asked whether he had sent it by water and river; the Plain reads it as his own account of what he did, after the question of 8:45. The Middle and Late Babylonian copies X and be have <i>mīnam</i>, 'what?', which SEAL calls a hearing mistake: the words sound alike. The Plain follows the old copy.",
   "orig": "me-e i-na mu-ši ú-ša-bi-il na-ra (mê ina mūši ušābil nāra), 'water in the night, I made the river carry'",
   "kind": "var",
   "s": [
@@ -746,7 +749,7 @@
   "type": "canon",
   "t": "Bowing before messengers",
   "p": "Atrahasis bows and kisses the ground before the god's messengers. John was told not to.",
-  "b": "Kissing the ground was how one greeted a king or a god's envoy in the ancient Near East. Atrahasis treats the hairy ones as the god's own presence. When John fell down before the angel who showed him the visions, the angel stopped him: \"Do not do it! I am a fellow slave with you ... Worship God!\" (Revelation 22:9). The Bible keeps worship for God alone.",
+  "b": "Atrahasis bows low and kisses the ground in front of the hairy ones, as if before the god himself. When John fell down before the angel who showed him the visions, the angel stopped him: \"Do not do it! I am a fellow slave with you ... Worship God!\" (Revelation 22:9). The Bible keeps worship for God alone.",
   "orig": "iš-šiq qaq-qa-ru (iššiq qaqqaru), 'he kissed the ground'",
   "r": "Revelation 22:8–9; Acts 10:25–26; Genesis 33:3",
   "top": "angels",
@@ -783,12 +786,12 @@
  },
  {
   "v": "8:66",
-  "a": "lies thrown face down",
+  "a": "face down",
   "type": "symbol",
   "t": "The land as a fallen man",
-  "p": "The land is pictured as a young man thrown down on his face.",
-  "b": "The broken lines 8:63–68 are hard to read; SEAL marks much as uncertain. The image is clear: the land, 'like a young man', has been thrown face down and laid flat. The Bible pictures a ruined land or city as a person too, as when Jerusalem sits \"like a widow\" (Lamentations 1:1).",
-  "orig": "bu-up-pa-ni-šá (buppānīša), 'face down'",
+  "p": "The land lies face down. SEAL reads 'like a young man ... overwhelmed', with both words uncertain.",
+  "b": "The broken lines 8:63–68 are hard to read. SEAL reads this one 'the land, like a young man ..., is overwhelmed, face down', but marks 'young man' and 'overwhelmed' as uncertain, so the Plain keeps only 'face down'. The picture seems to be the land fallen on its face. The Bible pictures a ruined land or city as a person too, as when Jerusalem sits \"like a widow\" (Lamentations 1:1).",
+  "orig": "kīma eṭ-lu?-x (x) x bu-up-pa-ni-šá saḫ?-(pat?) (kīma eṭlu? ... buppānīša saḫpat?), 'like a young man(?) ... face down, overwhelmed(?)'",
   "r": "Lamentations 1:1; Isaiah 1:5–7",
   "s": [
    "seal-atrahasis"
@@ -863,11 +866,11 @@
  },
  {
   "v": "8:81",
-  "a": "malt kept covered",
+  "a": "their faces were hidden",
   "type": "word",
   "t": "Faces like malt",
   "p": "Malt is sprouted barley for beer. The picture is of faces hidden and dull with hunger.",
-  "b": "<i>Buqlu</i> is malt, barley sprouted and dried for brewing. SEAL explains the covered face as a sign of misery and weakness, and discusses whether malt was kept covered with earth (Stol held so; Sallaberger says tests rule it out). The Assyrian copy says 'dead malt' (variant). Either way, hungry faces look grey and lifeless, like spoiled grain.",
+  "b": "<i>Buqlu</i> is malt, barley sprouted and dried for brewing. The line says the faces were <i>katmu</i>, 'hidden' or 'covered', like hidden malt; the Plain says 'hidden' both times, as at 7:102. SEAL explains the covered face as a sign of misery and weakness, and discusses whether malt was kept covered with earth (Stol held so; Sallaberger says tests rule it out). The Assyrian copy says 'dead malt' (variant). Either way, hungry faces look grey and lifeless, like spoiled grain.",
   "orig": "ki-ma bu-uq-li (kīma buqli), 'like malt'",
   "kind": "nu",
   "s": [
@@ -902,11 +905,11 @@
  },
  {
   "v": "8:91",
-  "a": "the scales that weighed out her mother's price",
+  "a": "her mother's scales",
   "type": "history",
   "t": "Sold for food",
-  "p": "Families sold their own members for silver to buy grain. Nehemiah heard the same complaint.",
-  "b": "SEAL explains the scales: mother and daughter are sold into slavery for silver, weighed out on a balance. In famine, families in the ancient Near East sold or pledged their own people. The Jews of Nehemiah's day said: \"we are handing over our sons and daughters to be slaves\" (Nehemiah 5:5). In Revelation a rider on a black horse holds \"a balance scale in his hand\" (Revelation 6:5), a sign of famine prices.",
+  "p": "The line names only 'the scales of the mother'. SEAL reads it as a sale into slavery for silver.",
+  "b": "The line says only that the daughter looks at 'the scales of the mother', and the next line at 'the scales of the daughter'; who watches there is lost. SEAL explains the scales: mother and daughter are sold into slavery for silver, weighed out on a balance. The Jews of Nehemiah's day made the same complaint: \"we are handing over our sons and daughters to be slaves\" (Nehemiah 5:5). In Revelation a rider on a black horse holds \"a balance scale in his hand\" (Revelation 6:5), a sign of famine prices.",
   "orig": "zi-ba-ni-it umme(AMA) (zibānīt ummi), 'the scales of the mother'",
   "r": "Nehemiah 5:2–5; 2 Kings 4:1; Revelation 6:5–6",
   "top": "slavery",
@@ -995,6 +998,33 @@
   ]
  },
  {
+  "v": "8:107",
+  "a": "took up the message",
+  "type": "word",
+  "t": "Message or instructions",
+  "p": "Tertu means both an order given and a message carried. The Plain uses two words for it.",
+  "b": "<i>Tertu</i> covers an order given by a god and a message carried between god and man. The Plain says 'instructions' where Atrahasis receives his god's command (7:25, as at 5:48) and 'message' where messengers carry words (8:35, 8:39, 8:110, 9:60, and here), as Nusku 'took the message' in Tablet I (2:104).",
+  "orig": "il-qú-ú te-er-[ta-am] (ilqû tertam), 'they took the message'",
+  "kind": "nu",
+  "r": "7:25; 8:35; 8:110; 2:104",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "8:108",
+  "a": "in front of the sea",
+  "type": "word",
+  "t": "In front of the sea",
+  "p": "The line says they crossed 'in front of the sea'. SEAL reads: from the middle of the sea to the shore.",
+  "b": "The line says they crossed <i>qudmiš tâmtim</i>, 'in front of the sea'. SEAL notes that the verb 'to cross' needs an object and this phrase cannot be one; it understands the messengers crossing from the middle of the sea to the shore, where Atrahasis is. The Assyrian copy has 'they entered' instead, perhaps because its scribe met the same problem. The Plain keeps the words of the line.",
+  "orig": "qú-ud-mi-iš ta-a[m-tim] i-t[e-eb-ru] (qudmiš tâmtim ītebrū), 'in front of the sea they crossed'",
+  "kind": "deb",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
   "v": "8:110",
   "a": "Enki the prince",
   "type": "word",
@@ -1018,6 +1048,19 @@
   "orig": "te⌉-te-ez-ba-an-ni (tetezbanni), 'you have left me'",
   "r": "Psalm 22:1; Psalm 22:24; Matthew 27:46; Lamentations 5:20",
   "top": "lament",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "8:113",
+  "a": "let it be",
+  "type": "word",
+  "t": "A broken wish",
+  "p": "Only 'let it be ...' survives clearly. The last word is read in more than one way.",
+  "b": "Only the end of the line survives: <i>lū ṣirimka</i>. SEAL follows W. von Soden's reading, 'may it be your wish'; B. Groneberg read the words differently, as 'I will take pains for you'. Since the meaning of <i>ṣirimka</i> is not certain, the Plain keeps only 'let it be'.",
+  "orig": "lu ṣi-ri-im-ka (lū ṣirimka)",
+  "kind": "deb",
   "s": [
    "seal-atrahasis"
   ]
@@ -1049,12 +1092,12 @@
  },
  {
   "v": "8:120",
-  "a": "When the gods were like men",
+  "a": "When the gods were like man",
   "type": "word",
   "t": "The poem's title",
-  "p": "The Assyrian copy names the poem 'When the gods were like men' and calls this its first tablet.",
-  "b": "Babylonian poems were named by their first words. The Old Babylonian title is <i>inūma ilū awīlum</i>, 'When the gods were man' (see 1:1 for that hard line, and the colophon at 9:172). The Assyrian copy writes <i>enūma ilū kī amēli</i>, with <i>kī</i>, 'like': 'When the gods were like men'. It also calls this tablet 'Tablet 1', though it ends deep in the old Tablet II, so the Assyrian edition divided the poem differently.",
-  "orig": "e-n[u-ma i]lū(d]ingir{meš}) ki-i a-mé-li (enūma ilū kī amēli), 'when the gods like men'",
+  "p": "The Assyrian copy names the poem 'When the gods were like man' and calls this its first tablet.",
+  "b": "Babylonian poems were named by their first words. The Old Babylonian title is <i>inūma ilū awīlum</i>, 'When the gods were man' (see 1:1 for that hard line, and the colophon at 9:172). The Assyrian copy writes <i>enūma ilū kī amēli</i>, adding <i>kī</i>, 'like': 'When the gods were like man'. <i>Amēli</i> is singular, as <i>awīlum</i> is, so the Plain keeps 'man'; SEAL's translation prints 'like men'. The copy also calls this tablet 'Tablet one', though it ends deep in the old Tablet II, so the Assyrian edition divided the poem differently.",
+  "orig": "e-n[u-ma i]lū(d]ingir{meš}) ki-i a-mé-li (enūma ilū kī amēli), 'when the gods like man'",
   "kind": "nu",
   "r": "1:1; 9:172",
   "s": [
@@ -1117,8 +1160,8 @@
   "a": "apricot",
   "type": "word",
   "t": "A scent of apricot?",
-  "p": "The word armannu may be 'apricot'. Its sense here is unclear.",
-  "b": "<i>Armannu</i> is glossed 'apricot (tree)?' and the verb is 'to smell'. SEAL cites W. von Soden, who understood 'apricot perfume they smelled' again and again. The lines before are broken, so it is not known who smells what. Perhaps the scent of food and plenty reaches Enlil and stirs his anger (9:13).",
+  "p": "Someone smells 'apricot'. Who, and why, is lost with the lines before.",
+  "b": "<i>Armannu</i> is glossed 'apricot (tree)', with a question mark, and the verb is 'to smell'. The verb is singular, but its subject is lost with the broken lines before (9:2–11); SEAL's translation has 'he smelled', and it cites W. von Soden, who understood 'apricot perfume they smelled' again and again. So it is not known who smells what. One possibility is that the scent of food and plenty reaches Enlil and stirs his anger (9:13).",
   "orig": "ar-ma-na i-te-⸢ṣi⸣-i[n (armana iteṣin), 'apricot, he smelled'",
   "kind": "deb",
   "s": [
@@ -1129,9 +1172,9 @@
   "v": "9:13",
   "a": "He was full of rage",
   "type": "canon",
-  "t": "Anger at plenty",
-  "p": "Enlil is angry because people have food. The God of the Bible is angry at evil, and gives food.",
-  "b": "SEAL follows von Soden in taking Enlil as the speaker of the next lines. His rage is at the end of the famine: someone has fed the people. Genesis gives the LORD's anger a moral cause: \"every plan their hearts shaped was nothing but evil all day long\" (Genesis 6:5). And the Psalms praise the God who feeds: \"You open your hand / and fill every living thing with what it longs for\" (Psalm 145:16).",
+  "t": "Anger, probably at plenty",
+  "p": "Enlil is angry, probably because people have food. The God of the Bible is angry at evil, and gives food.",
+  "b": "SEAL follows von Soden in taking Enlil as the speaker of the next lines. His rage is probably at the end of the famine: the lines that follow accuse Enki of letting food loose for the people (9:18–20), though 9:2–11 are almost all lost. Genesis gives the LORD's anger a moral cause: \"every plan their hearts shaped was nothing but evil all day long\" (Genesis 6:5). And the Psalms praise the God who feeds: \"You open your hand / and fill every living thing with what it longs for\" (Psalm 145:16).",
   "orig": "li-ib-⸢ba⸣-ti ma-l[i (libbāti mali), 'full of rage'",
   "r": "Genesis 6:5; Psalm 145:15–16; Psalm 104:27–28",
   "top": "wrath",
@@ -1156,12 +1199,25 @@
  },
  {
   "v": "9:19",
+  "a": "untied the yoke",
+  "type": "word",
+  "t": "Yoke or collar",
+  "p": "The word for what Enki untied is ulla. SEAL's glossary calls it a garment; its translation varies.",
+  "b": "The word is <i>ulla</i>. SEAL's glossary gives only '(a garment)'. Its translation prints 'collar' here and 'yoke' in the repeats of the same line (9:35, 9:109). The Plain says 'yoke' every time, as at 3:78, because the line is about release from a burden. <i>Andurāru</i> is 'freedom, release'.",
+  "orig": "ip-ṭú-ur ul-l[a (ipṭur ulla), 'he untied the ulla'",
+  "kind": "deb",
+  "r": "3:78; 9:35; 9:109",
+  "s": [
+   "seal-atrahasis"
+  ]
+ },
+ {
+  "v": "9:19",
   "a": "set up a release",
   "type": "spec",
   "t": "Release: Claude's comparison",
   "p": "Enki 'set up a release', a word for setting people free. The Bible proclaims release as God's own work.",
-  "b": "My own comparison, not the poem's meaning. <i>Andurāru</i> is 'freedom, release', and <i>ulla</i> a collar or yoke. Enlil uses them as charges: Enki untied the yoke and freed the people from hunger. The Bible's year of Jubilee commands the same kind of act: \"proclaim release in the land for all who live in it\" (Leviticus 25:10), and Jesus read in Nazareth that he was sent \"to proclaim release to the captives\" (Luke 4:18). In Atrahasis release is a crime against the high god. In the Bible it is what God himself proclaims.",
-  "orig": "ul-l[a (ulla), 'yoke'",
+  "b": "My own comparison, not the poem's meaning. Enlil uses 'yoke' and 'release' as charges: Enki untied the yoke and freed the people from hunger. The Bible's year of Jubilee commands the same kind of act: \"proclaim release in the land for all who live in it\" (Leviticus 25:10), and Jesus read in Nazareth that he was sent \"to proclaim release to the captives\" (Luke 4:18). In Atrahasis release is a crime against the high god. In the Bible it is what God himself proclaims.",
   "r": "Leviticus 25:10; Isaiah 61:1; Luke 4:18–19",
   "top": "freedom",
   "s": []
@@ -1172,7 +1228,7 @@
   "type": "echo",
   "t": "Fish for the hungry",
   "p": "Enki sets free the fish of the sea to feed the starving. The Bible's God feeds crowds with bread and fish.",
-  "b": "<i>Mišertu</i> is the produce of sea and rivers: fish. SEAL notes the play of sound in the line (umaššer ... mišerta). The famine ends with a flood of fish (9:51–54). Moses once asked, \"If all the fish of the sea were gathered for them, would there be enough for them?\" (Numbers 11:22). Jesus fed thousands with loaves and fish (Matthew 14:19; John 6:11) and filled his disciples' net (John 21:6). In the Bible the giver of food is not breaking the rules of heaven; he is heaven's King.",
+  "b": "<i>Mišertu</i> is glossed 'produce (of the sea and rivers)'. The line itself does not say 'sea'; the Plain's 'the sea's' comes from that gloss and from the fish that break out of the sea in 9:51–54. SEAL notes the play of sound in the line (umaššer ... mišerta). The famine ends with a flood of fish (9:51–54). Moses once asked, \"If all the fish of the sea were gathered for them, would there be enough for them?\" (Numbers 11:22). Jesus fed thousands with loaves and fish (Matthew 14:19; John 6:11) and filled his disciples' net (John 21:6). In the Bible the giver of food is not breaking the rules of heaven; he is heaven's King.",
   "orig": "ni-ši mi-še-er-ta (nišī mišerta), 'for the people, the sea's produce'",
   "r": "Numbers 11:22; Matthew 14:19; John 6:11–13; John 21:6",
   "s": [
@@ -1292,8 +1348,8 @@
   "a": "his sons swore with him",
   "type": "history",
   "t": "Who swore",
-  "p": "The gods swear by rank: Anu, then Enlil and his sons. Enki will refuse.",
-  "b": "The order follows the gods' rank: Anu, the father in the sky; Enlil, lord of the earth; then Enlil's sons. Only the Middle Babylonian copy X keeps 9:77–80. Enki is not named among those who swore here. In 9:136–141 the gods try to bind him too, and he refuses. In Tablet III he keeps the oath's letter by speaking to a reed wall instead of to Atrahasis (chapter 10).",
+  "p": "Anu swears first, then Enlil and his sons. Enki will refuse.",
+  "b": "Anu swears first; then Enlil, and Enlil's sons with him. Only the Middle Babylonian copy X keeps 9:77–80. Enki is not named among those who swore here. In 9:136–141 the gods try to bind him too, and he refuses. In Tablet III he keeps the oath's letter by speaking to a reed wall instead of to Atrahasis (chapter 10).",
   "orig": "it-ta-mi mārū(DUMU{meš})-šú it-ti-šú ta-mu-ni (ittami mārūšu ittišu tamûni), 'he swore, his sons with him swore'",
   "r": "9:136–141",
   "s": [
@@ -1339,11 +1395,11 @@
  },
  {
   "v": "9:95",
-  "a": "bitter laughter ate at him",
+  "a": "laughter ate at him",
   "type": "word",
   "t": "Laughter or vexation?",
-  "p": "Ṣīḫtu usually means laughter. Some read it here as vexation or bitter laughter.",
-  "b": "The line says <i>ṣīḫtum</i> 'ate' Enki in the gods' assembly. Andrew George took it as 'vexation'; W. von Soden kept 'laughter', a bitter one; SEAL follows George. The line before has a related debate: B. R. Foster, after von Soden, has Enki 'fretting at sitting idle', while SEAL takes 'sitting' as the setting, not the cause. Either way Enki sits in the council, angry, and laughs or seethes. The Bible has God laugh at rebels from his throne: \"Seated in the heavens, he laughs\" (Psalm 2:4).",
+  "p": "Ṣīḫtu usually means laughter. Some read it here as vexation, others as bitter laughter.",
+  "b": "The line says <i>ṣīḫtum</i>, 'laughter', 'ate' Enki in the gods' assembly. SEAL's commentary points to Andrew George, who took the word here as 'vexation'; W. von Soden kept 'laughter', taking it as a bitter one; SEAL's own translation prints '(bitter) laughter'. The Plain gives the word as it stands. The line before has a related debate: B. R. Foster, after von Soden, has Enki 'fretting at sitting idle', while SEAL takes 'sitting' as the setting, not the cause. Either way Enki sits in the council, troubled. The Bible has God laugh at rebels from his throne: \"Seated in the heavens, he laughs\" (Psalm 2:4).",
   "orig": "ṣi-iḫ-tum i-ku-ul-šu (ṣīḫtum īkulšu), 'laughter ate him'",
   "kind": "deb",
   "r": "Psalm 2:4; Psalm 37:13",
@@ -1366,11 +1422,11 @@
  },
  {
   "v": "9:117",
-  "a": "my arm was placed there by all of you",
+  "a": "by all of you my arm was ...",
   "type": "word",
-  "t": "My arm was placed",
-  "p": "Enki says the gods put him in charge; the broken verb is read in different ways.",
-  "b": "The copy reads 'my arm by all of you was pl[aced]'. SEAL takes it as Enki saying that he acted with authority given by all the gods, and restores <i>šaknat</i>. Andrew George read 'my arm was tugged' (<i>šadat</i>), which SEAL finds hard to fit. The point is Enki's defense: I did my part as you assigned it.",
+  "t": "My arm, by all of you",
+  "p": "The verb is broken. SEAL restores 'was placed'; Andrew George read 'was tugged'.",
+  "b": "The copy reads 'my arm, by all of you, was ...', and the verb is broken off at the edge. SEAL restores <i>šaknat</i>, 'was placed', though it says the space is limited, and takes the line as Enki saying that he acted with authority given by all the gods. Andrew George read 'my arm was tugged' (<i>šadat</i>), which SEAL finds hard to fit. The Plain leaves the verb as a gap. Either way the point is Enki's defense: I did my part as you all assigned it.",
   "orig": "a-ḫi!(text: IḪ) i-na ka-li-ku-nu (aḫi ina kalīkunu), 'my arm by all of you'",
   "kind": "deb",
   "s": [
@@ -1433,11 +1489,11 @@
  },
  {
   "v": "9:135",
-  "a": "Let it go back into its socket.",
+  "a": "Let it go back into ...",
   "type": "word",
   "t": "Undo it",
-  "p": "Uppu is a tube or socket: 'let it go back into its hole' means 'let it be undone'.",
-  "b": "SEAL follows W. von Soden in restoring <i>uppīša</i>, 'its socket', and in taking the line to mean that something should vanish completely. What is to be undone is broken in the line before (perhaps a decree or plan). The speaker wants the gods to reverse course and bind Enki (9:136).",
+  "p": "Something is to 'go back into' a broken word. SEAL, after von Soden, reads 'its hole': let it be undone.",
+  "b": "SEAL follows W. von Soden in restoring <i>uppīša</i>, 'its socket' or 'hole', and takes the line to mean 'let this disappear'. Only the first sign of the word survives and no other copy has it, so the Plain leaves it as a gap. The pronoun is <i>šī</i>, 'she' or 'this'; SEAL's translation takes it as the instruction of the line before (9:134), a feminine word in Akkadian, and English says 'it'. The speaker wants the gods to undo a decision and to bind Enki (9:136).",
   "orig": "a-na up-[pí-ša] (ana uppīša), 'to its socket'",
   "kind": "deb",
   "s": [
@@ -1464,7 +1520,7 @@
   "type": "canon",
   "t": "Enki refuses",
   "p": "Enki will not swear to destroy the people he made. Who in the Bible both judges and saves?",
-  "b": "Enki calls humans 'my people' (<i>nišīya</i>): he planned their making (chapter 3). He refuses to harm them, and leaves the flood to Enlil (9:145). The poem splits the roles: one god destroys, another warns. In Genesis one God does both. He says, \"I am going to bring the flood\" (Genesis 6:17), and in the same speech, \"But with you I will set up my covenant\" (Genesis 6:18). Abraham could ask him, \"Will the Judge of all the earth not do what is just?\" (Genesis 18:25), because judging and saving belong to one just God, who takes \"no pleasure in the death of a wicked man\" (Ezekiel 33:11).",
+  "b": "Enki calls humans 'my people' (<i>nišīya</i>): he planned their making (chapter 3). He refuses to harm them, and leaves the flood to Enlil (9:145). The poem splits the roles: one god destroys, another warns. In Genesis one God does both. He says, \"I am going to bring the flood\" (Genesis 6:17), and in the same speech, \"But with you I will set up my covenant\" (Genesis 6:18). Abraham could ask him, \"Will the Judge of all the earth not do what is just?\" (Genesis 18:25), because judging and saving belong to one just God, who takes \"no pleasure in the death of a wicked man\" (Ezekiel 33:11). Word for word the line says 'I bring my hand to my people'; it has no word that marks a question. The question is read from what follows, as in SEAL's translation, and the same holds for 9:144.",
   "orig": "ú-ub-ba-al qá-ti a-na n[i-ši-ia(-ma)] (ubbal qāti ana nišīya), 'I bring my hand to my people'",
   "r": "Genesis 6:17–18; Genesis 18:25; Ezekiel 33:11; 2 Peter 3:9",
   "top": "flood",
@@ -1492,7 +1548,7 @@
   "type": "myth",
   "t": "The gods who go before the flood",
   "p": "Shullat and Hanish lead the storm here and in the Epic of Gilgamesh, Tablet XI.",
-  "b": "SEAL lists 9:147–151 as parallel to lines 100–103 of the Epic of Gilgamesh, Tablet XI, where the gods Shullat and Hanish also go before the storm and the same order of gods follows. Alan Millard judged that Tablet XI of Gilgamesh drew its Flood story from Atrahasis: 'a case of literary borrowing cannot be doubted'. Verdict: a direct literary link between the two Babylonian poems.",
+  "b": "SEAL lists 9:147–151 as parallel to lines 100–103 of the Epic of Gilgamesh, Tablet XI, and notes that Shullat and Hanish themselves are named in line 99 of that tablet, also with the flood. Alan Millard held that the Flood story was taken into the Gilgamesh cycle with some editing ('editorial redaction when the story was inserted into the Gilgamesh cycle'), and that there 'a case of literary borrowing cannot be doubted'. Verdict: a direct literary link between the two Babylonian poems.",
   "orig": "{d}šu-ul-la-at ù {d}[ḫa-ni-iš] (Šullat u Ḫaniš), 'Shullat and Hanish'",
   "r": "9:24",
   "s": [
@@ -1535,11 +1591,11 @@
  },
  {
   "v": "9:155",
-  "a": "new-moon day",
+  "a": "the moon's day",
   "type": "echo",
   "t": "A day set for the flood",
-  "p": "The flood is set for the day of the new moon. Genesis gives the Flood a date too.",
-  "b": "<i>Ūm warḫim</i> is the day of the new moon, the start of a month. Enki names the day the work will be done. Genesis also dates the Flood to a day: \"In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month\" (Genesis 7:11).",
+  "p": "The flood is set for 'the day of the moon'. SEAL reads the new moon. Genesis gives the Flood a date too.",
+  "b": "<i>Ūm warḫim</i> is 'the day of the moon' or 'of the month': SEAL's glossary gives <i>warḫum</i> as 'the moon; month'. SEAL's translation reads 'the day of the new moon', the first day of a month. Enki names the day the work will be done. Genesis also dates the Flood to a day: \"In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month\" (Genesis 7:11).",
   "orig": "a-na ú-um wa-⌈ar⌉-ḫ[i-im] (ana ūm warḫim), 'for the day of the month'",
   "r": "Genesis 7:11; Genesis 8:4–5; Genesis 8:13–14",
   "s": [
@@ -1577,8 +1633,8 @@
   "a": "Do not listen to evil",
   "type": "word",
   "t": "Evil",
-  "p": "SEAL reads the sign as 'evil'; earlier editors read it differently.",
-  "b": "Copy D has 'do not listen to ...' followed by a sign SEAL reads as ḪUL, 'evil', with caution, where Lambert and Millard read other signs. SEAL compares the Epic of Gilgamesh, Tablet XI, where a speaker regrets having 'spoken evil' in the assembly of the gods. The speaker here is not known; perhaps it is Enki, telling Atrahasis what the gods have done.",
+  "p": "SEAL reads the sign as 'evil', with caution. The speaker is lost, and the words are said to more than one hearer.",
+  "b": "Copy D has 'do not listen to ...' followed by a sign SEAL reads, with caution, as ḪUL, 'evil', where Lambert and Millard read other signs. SEAL compares the Epic of Gilgamesh, Tablet XI, where a speaker regrets having 'spoken evil' in the assembly of the gods. The speaker here is not known, and the verb (<i>tašmiā</i>) is plural, so the words are said to more than one hearer, perhaps the assembly named in 9:165.",
   "orig": "e ta-aš-mi-a a-na Ḫ[UL (ē tašmiā ana lemutti), 'do not listen to evil'",
   "kind": "deb",
   "s": [
@@ -1604,8 +1660,8 @@
   "a": "Enlil has done an evil work against the people.\"",
   "type": "canon",
   "t": "Whose evil?",
-  "p": "In the poem the evil is the god's. In Genesis the evil is humanity's, and God is just.",
-  "b": "Tablet II ends with a plain verdict: Enlil's work against the people is evil. The poem does not hide that its high god is unjust. Genesis puts the evil elsewhere: \"every plan their hearts shaped was nothing but evil all day long\" (Genesis 6:5), and the earth was \"full of violence\" (Genesis 6:11). The Bible's Judge does what is right (Genesis 18:25), and grieves (Genesis 6:6). Asked who sends the Flood and who warns the survivor, the poem names two gods at odds; Genesis names one God, just and merciful at once.",
+  "p": "A voice in the poem calls Enlil's flood decree evil. In Genesis the evil is humanity's, and God is just.",
+  "b": "Tablet II ends with a voice calling Enlil's work <i>lemnu</i>, 'bad, harmful, evil' for the people. Who speaks is lost (see 9:166): it may be a god who disagrees, or a god regretting the decision, as a speaker regrets 'evil' spoken in the assembly in the Epic of Gilgamesh, Tablet XI (SEAL's comparison). What the line says is that the decree does harm to people, and the tablet does not answer the charge. Genesis puts the evil elsewhere: \"every plan their hearts shaped was nothing but evil all day long\" (Genesis 6:5), and the earth was \"full of violence\" (Genesis 6:11). The Bible's Judge does what is right (Genesis 18:25), and grieves (Genesis 6:6). Asked who sends the Flood and who warns the survivor, the poem names two gods at odds; Genesis names one God, just and merciful at once.",
   "orig": "[ši-i]p-ra l[e-em-n]a a-na ni-ši (šipra lemna ana nišī), 'an evil work against the people'",
   "r": "Genesis 6:5–8; Genesis 6:11–13; Genesis 18:25",
   "top": "flood",
@@ -1627,14 +1683,15 @@
  },
  {
   "v": "9:171",
-  "a": "(37 lines in this column.)",
+  "a": "(The scribe's count of lines for this column: 37.)",
   "type": "history",
   "t": "The scribe's count",
-  "p": "Copy B ends its last column with a line count, the title, the scribe and the date.",
-  "b": "Copy B's last column notes '37' lines. SEAL works out from this that the first 34 lines of the column are lost. Then comes the colophon, the scribe's signature at the end of the tablet: the title, the total of 439 lines for Tablet II, the scribe's name and the date. The generated text marks this line as lost, but SEAL's score of B shows the number.",
+  "p": "Copy B ends its last column with a line count, then the title, the scribe and the date.",
+  "b": "After the last lines of the poem, copy B has the bare number 37. SEAL explains that it gives the length of column viii, the last column of B, so the first 34 lines of that column are lost. Then comes the colophon, the scribe's note at the end of the tablet: the title, the total of 439 lines for Tablet II, the scribe's name and the date, in the same order as at the end of Tablet I (5:85–91).",
   "s": [
    "seal-atrahasis"
-  ]
+  ],
+  "r": "5:85–91"
  },
  {
   "v": "9:172",
@@ -1642,7 +1699,7 @@
   "type": "word",
   "t": "The title again",
   "p": "The Old Babylonian copy names the poem by its first line, inūma ilū awīlum.",
-  "b": "The title is the first line of the poem, <i>inūma ilū awīlum</i>. On how to translate it, see 1:1. The Assyrian copy gave a smoother form, 'When the gods were like men' (8:120). Titles taken from first lines are also how the Hebrew Bible names its books: Genesis is <i>Bereshit</i>, 'In the beginning'.",
+  "b": "The title is the first line of the poem, <i>inūma ilū awīlum</i>. On how to translate it, see 1:1. The Assyrian copy gave a smoother form, 'When the gods were like man' (8:120). Titles taken from first lines are also how the Hebrew Bible names its books: Genesis is <i>Bereshit</i>, 'In the beginning'.",
   "orig": "i-nu-ma i-lu a-wi-lum (inūma ilū awīlum), 'when the gods man'",
   "kind": "nu",
   "r": "1:1; 8:120",

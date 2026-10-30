@@ -210,3 +210,53 @@ No em-dashes in any file. Sentences are short and at about 8th grade. Poetry lin
 - Genesis quotations, 1 Enoch 8:1 and 80:2 match the site's Plain; works.json names ("Atrahasis", "1 Enoch") are used correctly.
 
 ## Fixes applied
+
+Applied by the review-fixer, 2026-10-30, under the lead's cross-part decisions (.scratch/Atr-review-notes.md). Sources opened this session are logged in .scratch/Atr-04-06/sources-checked.md ("Review fixes").
+
+1. Accepted. S readings now name holders from sources opened this session: the Bible's own voice for "nothing" (Psalm 115; Isaiah 44); Justin Martyr (Second Apology 5) and Augustine (City of God 8.22) for "demons"; Michael Heiser (Deuteronomy 32:8 paper, key heiser-deut32) for the divine-council reading. Changed: note 5:71 (now with s), note 5:13 last sentence, ch4/ch5/ch6 views.S.
+2. Accepted. "Schøyen" removed everywhere in this part (note 6:51, ch6 views.H, ch6 setting 6:58-61): now "MS 2950 (copy D0), edited by Andrew George", as SEAL's table has it. Also removed the unverified "Yale" from B (variants, note 6:1) and "Ashurbanipal's library"/"600s BC"/"a thousand years" (SEAL lists the copies only as "Nineveh"; note 4:1, 4:6, ch4 deep, settings).
+3. Accepted. Heading "Before 1,200 years had passed"; ch6 summary "Before twelve hundred years have passed"; setting 6:6-31 when "before 1,200 years have passed".
+4. Partly accepted. Opened Markind's TheTorah.com article myself: she makes the Pharaoh/Enlil comparison ("Like Enlil, Pharaoh also hatches several failed plots ...": slavery, midwives, the Nile) and reads Exodus as a polemic counterpoint. She does not compare the midwives with anything in Atrahasis (the review's claim that she compares them with Enki's Tablet III solution is not what the page says: she ties Pharaoh's orders to Enki's miscarriage and infant mortality). Note 6:8 and the ch6 spec box now credit her, label Claude's addition (the parallel rounds), give the believing reading beside the polemic one without deciding, and drop "not seen in print". New key markind-exodus-atrahasis.
+5. Accepted. (a) Heffron dropped as a holder and her key deleted. (b) Bible History Daily feature opened: the household-god line is an incantation it quotes; the note now says that and quotes it, and gives the feature's statement on infant mortality; key renamed bhd-ancient-lullabies naming the work opened. (c) Kilmer and Moran are cited through Frymer-Kensky in the text (notes 5:2, 5:5, topic flood); key kilmer-overpopulation deleted; only frymer-kensky-bar-flood is cited.
+6. Accepted. Note 4:36: "many scholars" sentence replaced by a pointer to the Deuteronomy 23:17 and Hosea 4:14 notes.
+7. Accepted (lead decision 8). Note 5:26 rewritten: Millard's own words ("the Babylonian Noah", Uta-napishtim = Atrahasis, "the same Flood", "polytheistic language") and what he does not argue; against side adds Heidel's genealogy point (Ubara-Tutu vs Lamech) and that the tenth-king detail is Berossus's (Heidel, opened this session); verdict "very likely" labeled as the site's own. Note 5:49 "priest-king" corrected to Millard's "a priest".
+8. Partly accepted. No dictionary for li-iḫ-ta-an-ni-ma was found; SEAL's translation (opened) reads the clouds "grow thicker". Plain 6:18 now "Let the clouds grow thick," (no iterative "keep gathering"), with a new word note giving the basis; note 6:44 and the baal topic updated.
+9. Accepted. Glosses 4:6, 4:7, 4:8, 4:39, 4:47, 5:90, 6:7 corrected; "as an offering" removed from note 5:89.
+10. Accepted. Plain 4:16 "Let the young woman take her charm." (both readings open); note and gloss rewritten.
+11. Accepted (lead decision 5). "pass his hand over them" at 5:47, 5:63, "passed" at 5:75; note 5:47 retitled and explains the choice; variant 5:47 and topic idolatry updated. 07-09's 7:39 and 7:54 are for that fixer.
+12. Accepted. Note 6:7 says the pun is Claude's and the spelling has no divine determinative, so "fate" is primary; gloss fixed.
+13. Accepted (lead decision 1, wording from agent-writer-world.md). 4:63 "(The scribe's count of lines for this column: 50 and more.)", 5:83 "...: 26.)", 5:84 "(The scribe's count of lines for the whole tablet: 416.)"; checked on SEAL's page that 4:63 (A vi 54), 5:53 (A vii 57) and 5:83 (A viii 28) stand at the foot of a column. Note 4:63 gives SEAL's 54; new note at 5:83.
+14. Accepted. 5:53 now "(The scribe's count of lines for this column: 56.)" (it ends column vii); note says so.
+15. Accepted (a): variant 6:1 en now explains the šār and SEAL's restored 3,600. (b) nothing said in content, as advised.
+16. Partly accepted. Not a difference between copies, so a word note (kind var) at 5:1 instead of a variant: both copies' 600, SEAL's "Six(?)" and its open question. Ch5 summary "Some six hundred years pass (the number is damaged)".
+17. Accepted. Variants added at 4:7 (seven vs nine days) and 4:9 (woman in labor vs qadištu).
+18. Accepted. Note added at 5:83 (finding 13); 4:43 left as is.
+19. Accepted (lead decision 5). 5:43 and 5:60 "Bring a baked loaf and set it before him."; 5:72 "they brought a baked loaf and set it before him." (SEAL's translation restores "[They brought]").
+20. Accepted. 5:46-47 and 5:62-63 "Let the gifts put him to shame, / and let him pass his hand over them."
+21. Partly accepted. SEAL's translation does restore these words in brackets from the parallel ([the heralds], [in the land], [at his gate], [They brought]), so the Plain keeps them; notes added at 5:54 (5:54-63) and 5:65 (5:65-75) saying the fill rests on the repeated speech.
+22. No change here (07-09's 7:67); for the lead.
+23. Accepted. 5:8 and 6:9 "The noise of humankind has grown heavy." (anchors of note 5:8, variant 6:9 and gloss updated). 07-09's 7:70 still has "too heavy for me": for the lead.
+24. Accepted. 5:81 "Their fine looks shone." (Q has it-tam-ru, "became bright"; "again" deleted).
+25. Accepted. 6:14-15 "Let it not come up kindly, / the high water from the springs under the ground."; 6:45 "... the springs ..."; Genesis 7:11 comparison kept in note 6:15 only; gloss and variant 6:14 updated.
+26. Accepted. "green" deleted at 6:29 and 6:41; note 6:29 says so.
+27. Accepted. 6:54 "The animal swelled;" 6:56 "Humankind swelled; its noise was weeping." (note anchor updated).
+28. Accepted. Variant added at 6:12 (B, D "for their hunger" vs S+T+, bd "bellies"); note 6:32 points to it.
+29. Accepted. 4:24 "and Nintu was seated,"; 4:34 "She drew in flour and laid down the brick."; 4:46 "Let her lay down the reed mat." (variant anchor and gloss updated).
+30. Accepted. 4:47 "In ..., when the bed is laid," (SEAL marks "house" with "?").
+31. Partly accepted. Plain stays "to feed ..." (a restoration with no parallel); note 4:69 summary now says SEAL restores "the gods" and the body keeps "If that is right".
+32. Accepted. 4:25 "ten lunar months" and "nine months reach into a tenth" removed; 4:7 "the mother crouched over it" removed (now "SEAL's editors point to Stol's study"); 5:89 "of the year before" and Esther 3:7 removed (note now points to Tablet II's year name, 9:176); 5:6 cross-check: 2:65-70 is Enlil's assembly, so the reference stands.
+33. Accepted. Each `readers` now names the copies that actually carry that speech (5:7-15 S+T+ with z and V; 5:26-33 A with S+T+ alone for 5:28-31; 5:34-47 A with S+T+'s different lines; 5:50-63 A only); "Ashurbanipal's library" replaced by "Nineveh".
+34. Accepted. Ch5 views.H no longer says "rebellion" (now Kilmer/Moran via Frymer-Kensky, and Millard's "disturbing deity"); topic flood `uncommon` now names Millard; note 5:5 summary drops rebellion.
+35. Accepted. Ch5 deep box quotes Millard's conditional ("If parallelism of scheme is allowed ...") and drops "a limit is set".
+36. Declined here: a traditions card needs tradition-by-tradition sources and belongs to the book-level traditions (book.json, the book fixer's file; lead decision 14). The S lens and note 5:71 now carry named holders. For the lead/book fixer.
+37. No change needed: no copied sentence; the listed phrases rest on the glosses; drift risk low as the reviewer says. The rebuilt verses (all listed here) were re-audited in head against the literal lines.
+38. Not this part (01-03 fixer, lead decision 10); this part already uses millard-tynbul-1967 only.
+39. Applied as findings 11, 19, 20, 23, 24, 25. For the lead: 07-09 should take "pass his hand over" (7:39, 7:54), "grown heavy" (7:70), "they brought a baked loaf and set it before him" (7:51 has "set"), and check 7:60 "shone again" against its own Akkadian (04-06's 5:81 has no "again"). 6:27/6:39 keep "wide plain" (8:76 should match). tertu is "instructions" (5:48 = 7:25).
+40. Declined: no source on the antediluvian apkallu was opened this session, and the reviewer asks for none to be added from memory.
+41. No change needed (both judgments are followed by what the scribes asked, notes 5:23-24).
+42. Accepted. 5:14 "Like a storm let them blow upon the people:" and, to keep command and fulfillment the same, 5:20 "Like a storm they blew upon the people:".
+
+Lead decision 3 (folded fills): added one entry per run: 4:35 (4:35-48, E fills A), 5:6 (5:6-21, S+T+ with z, V, bd), 5:24 (5:24-31, S+T+), 5:77 (5:77-81, Q; replaces the old 5:81 entry), 6:11 (6:11-24, D fills B; replaces the old 6:22 entry); the old fill-only entries 5:14 and 5:18 are folded into 5:6. Two real differences found while doing this got their own entries: 5:5 (A "their noise" vs S+T+ "sleep did not seize him") and 5:10 (A "deprived of sleep" vs S+T+ "sleep does not seize me").
+Colophon 5:85-91 kept unchanged as the model for 9:172-176 and 12:105-113.
+No term changes. For the lead: part 10-12 defines frymer-kensky-bar1978 for the same article as this part's frymer-kensky-bar-flood (and Genesis has frymer-kensky-atrahasis); 07-09 still says "Schøyen" (SEAL's table gives no collection name); the S readings here use the existing keys justin-2apology, augustine-city, heiser-deut32 and heidel-gilgamesh.
+Counts after fixes: 234 verses, 102 notes, 31 variants, 60 glosses, 3 chapter pages, 9 topic contributions. `VERBOSE=1 node tools/build.js --check Atr`: 0 errors and 0 warnings in 04-06 (remaining errors are in other parts and book.json, being fixed in parallel).
