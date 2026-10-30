@@ -314,9 +314,10 @@ def septuagint(bid, a):
 cat = json.load(open(f'{OUT}/catalog.json'))
 TIER = {k: w['tier'] for k, w in json.load(open(os.path.join(ROOT, 'content', 'works.json'))).items() if not k.startswith('_')}
 order = [t for t in GROUPS if any(TIER[w] == t for _, _, w, *_ in WORKS)]
-cat['groups'] = [g for g in cat['groups'] if g.get('t') != 'X'] + [
-    {'id': t, 'name': GROUPS[t], 't': 'X', 'books': [[i, n] for i, n, w, *_ in WORKS if TIER[w] == t]} for t in order]
-cat['books'] = [b for b in cat['books'] if b.get('t') != 'X']
+keep = [g for g in cat['groups'] if g['id'] not in GROUPS]   # other X groups (tools/world-texts.py) stay, after these
+cat['groups'] = [g for g in keep if g.get('t') != 'X'] + [
+    {'id': t, 'name': GROUPS[t], 't': 'X', 'books': [[i, n] for i, n, w, *_ in WORKS if TIER[w] == t]} for t in order] + [g for g in keep if g.get('t') == 'X']
+cat['books'] = [b for b in cat['books'] if b.get('t') != 'X' or b.get('group') not in GROUPS]
 for d in ('orig', 'en', 'auto', 'src'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
 for bid, name, work, builder, args in WORKS:
     o, en_o, auto, vc, src = globals()[builder](bid, args)

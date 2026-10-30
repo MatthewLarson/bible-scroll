@@ -32,6 +32,10 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
   extras, 1 Enoch and Jubilees for the Ethiopian church), always labeled with who accepts them; (3) works in no
   church's Bible, with the full "not widely accepted" treatment (provenance, why rejected, where the Bible
   uses them, a labeled reliability analysis, how to read them). Non-canonical works are styled differently.
+- Writings of other peoples and religions (tier `world`, starting with Atrahasis), translated from their own
+  languages for context, interest and to show how other cultures told the Bible's stories. Read from a Christian
+  standpoint: described fairly, judged with the Bible as the measure, connections and possible same-person
+  identifications weighed, never arguing against the LORD being God or Jesus his Son (`tools/agent-writer-world.md`).
 - After each book (or part), a SEPARATE agent does a hostile review, and the fixes are applied before publishing.
 - Look: ancient manuscript, hieroglyphics, cave drawings and modern art, everything sketched onto a scroll, no
   sharp-edged square images. Openly licensed art when available; otherwise original inline SVG, or ChatGPT image
@@ -71,12 +75,14 @@ Book ids are STEPBible three-letter codes (Gen Exo ... Rev). Judith is `Jdt` bec
 - `node tools/serve.js` (or `node tools/serve.js public 8777`): view the site at http://localhost:8766. Use this, not a
   plain static server: addresses are real paths (/Gen/1/2, /topics), so every path must be answered with index.html.
 - `node tools/literal.js <id> <chapter>` or `<id> <c:v-v>`: the word-by-word literal line every verse starts from.
+  For Akkadian books (Atrahasis): `python tools/akk-literal.py <id> <chapter>`.
 - `node tools/atlas-verses.js <id>`: verse lists for the atlas harvest.
 - `python tools/logos.py`: remake the site's logos and icons (`app/img/`, WebP; PNG only for the iOS icon and link
   preview) from the designer's files in `images/Logos/`. Rerun after a logo changes; the build copies `app/img/` to `img/`.
 - `node tools/import-rev.js`: re-import Revelation after editing `revelation/` or `content/overlays/Rev.json`.
 - Regenerating `texts/` is rarely needed: `sh tools/fetch.sh && python3 tools/texts.py` (66 books),
-  `sh tools/works-fetch.sh && python3 tools/works-texts.py` (books outside the 66). Downloads go to `.cache/dl`
+  `sh tools/works-fetch.sh && python3 tools/works-texts.py` (books outside the 66),
+  `sh tools/world-fetch.sh && python tools/world-texts.py` (writings of other religions, from SEAL). Downloads go to `.cache/dl`
   (override with `DL=/path`). `tools/dss.py` and `tools/lxx.py` have one-time setup steps in their headers.
 
 There is no test suite and no package to install: `--check` is the test. It exits 1 on any error and takes well

@@ -1,6 +1,6 @@
 ---
 name: canon-tiers
-description: How the Bible Scroll treats books and writings outside the 66 (three tiers, works.json, the canon block, reliability analysis, how they are named and styled). Use when citing, writing or reviewing any deuterocanonical, Orthodox, Ethiopian, pseudepigraphal, early Christian or lost work.
+description: How the Bible Scroll treats books and writings outside the 66 (three tiers, works.json, the canon block, reliability analysis, how they are named and styled). Use when citing, writing or reviewing any deuterocanonical, Orthodox, Ethiopian, pseudepigraphal, early Christian or lost work, or a writing of another religion (Atrahasis, Gilgamesh).
 ---
 
 # Three tiers (Matt's decision, 2026-10-23)
@@ -10,6 +10,15 @@ description: How the Bible Scroll treats books and writings outside the 66 (thre
    Presented as Scripture FOR those churches, always naming them and who does not accept them (and why).
 3. **Works in no church's Bible**: tiers `other`, `early` (early Christian), `lost` (named in the Bible, lost).
    Full "not widely accepted" treatment.
+
+# Writings of other peoples and religions (Matt's decision, 2026-10-30)
+Tier `world`, catalog group "Other peoples and religions" (texts from `tools/world-texts.py`; Atrahasis first).
+Neither Jewish nor Christian; translated for context, interest, and to show how other peoples told and changed the
+Bible's stories. Read from a Christian standpoint: described fairly, judged with the Bible as the measure, every
+borrowing theory given with the believing answers, spiritual readings labeled, figures who may be the same as
+someone in the Bible weighed in `canon.matches`; never arguing against the LORD being God or Jesus his Son. The
+canon block adds `christian_view` and `matches`, and `cited_in` may use kind `parallel`. Rules:
+`bible/tools/agent-writer-world.md`, `agent-reviewer-world.md`.
 
 # Every book outside the 66 needs
 - A works.json entry with `"book": "<id>"`, and book.json `canon` (validated by the build): who accepts it,

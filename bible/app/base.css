@@ -365,7 +365,9 @@ body.nogloss .gl{display:inline; margin:0; min-width:0 !important} body.nogloss 
 .work{display:inline; border:none; background:none; padding:0; font:inherit; color:inherit; cursor:pointer; text-decoration:underline dashed var(--w-c); text-decoration-thickness:1.3px; text-underline-offset:3px}
 .work::after{content:attr(data-tag); font-family:var(--f-hand); font-size:.62em; color:var(--w-c); margin-left:3px; vertical-align:.45em; letter-spacing:.03em; white-space:nowrap}
 .w-dc{--w-c:var(--w-dc)} .w-orth{--w-c:var(--w-orth)} .w-eth{--w-c:var(--w-eth)}
-.w-other{--w-c:var(--w-other); text-decoration-style:wavy} .w-early{--w-c:var(--w-early); text-decoration-style:wavy} .w-lost{--w-c:var(--w-lost); text-decoration-style:dotted}
+.w-other{--w-c:var(--w-other); text-decoration-style:wavy} .w-early{--w-c:var(--w-early); text-decoration-style:wavy} .w-lost{--w-c:var(--w-lost); text-decoration-style:dotted} .w-world{--w-c:var(--w-world); text-decoration-style:double}
+.matches .likely{font-family:var(--f-hand); font-size:.8rem; padding:0 6px; margin-right:4px; border:1.2px solid currentColor; border-radius:var(--wobble); white-space:nowrap}
+.likely.l-very-likely{color:#2f7a55} .likely.l-likely{color:#5a7a2f} .likely.l-possible{color:#8a6a1f} .likely.l-unlikely{color:#8a3b3b}
 .box.trad{border-color:var(--n-trad); background:color-mix(in srgb, var(--n-trad) 6%, transparent)}
 .box.trad .tag{color:var(--n-trad)}
 .box.trad .facts{border:none; background:none; padding:0; margin:6px 0; grid-template-columns:9.5em 1fr}

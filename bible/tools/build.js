@@ -216,9 +216,18 @@ function loadBook(id, part){
     const bookVerses = new Set([...Object.keys(plain.v), ...Object.values(json(P('texts/en', id + '.json')) || {}).flatMap(o => o && typeof o === 'object' ? Object.keys(o) : [])]);
     if(!Array.isArray(cn.cited_in)) err(cw, 'needs cited_in: [{ref, at?, kind, b}] (an empty list if the Bible never refers to it)');
     else cn.cited_in.forEach((x, j) => { const cj = `${cw} cited_in[${j}]`;
-      if(!['quotation','allusion','shared tradition','disputed'].includes(x.kind)) err(cj, 'kind must be quotation, allusion, shared tradition or disputed');
+      const kinds = ['quotation','allusion','shared tradition','disputed'].concat(cn.tier === 'world' ? ['parallel'] : []);
+      if(!kinds.includes(x.kind)) err(cj, `kind must be ${kinds.join(', ')}`);
       if(!x.ref || !R.findRefs(String(x.ref), null, true).length) err(cj, 'ref must be a passage of the 66 books');
       if(x.at && !bookVerses.has(x.at)) err(cj, `at ${x.at} is not a verse of ${id}`); if(!x.b) err(cj, 'needs b'); });
+    /* another religion's writing is read from where Matt reads it, as a Christian (tools/agent-writer-world.md): it says how,
+       and weighs every figure that may be someone the Bible names */
+    if(cn.tier === 'world'){ hb('christian_view');
+      if(!Array.isArray(cn.matches) || !cn.matches.length) err(cw, 'needs matches: [{name, bible, likely, b, refs?}] for figures who may be the same as someone in the Bible');
+      else cn.matches.forEach((m, j) => { const mj = `${cw} matches[${j}]`;
+        ['name','bible','b'].forEach(k => { if(!m[k]) err(mj, `needs ${k}`); });
+        if(!['very likely','likely','possible','unlikely'].includes(m.likely)) err(mj, 'likely must be very likely, likely, possible or unlikely');
+        if(m.refs) refCheck(mj, m.refs, id, true); }); }
     const rl = cn.reliability || {}; if(!rl.verdict) err(cw, 'needs reliability.verdict'); (rl.sections || []).forEach((x, j) => { if(!x.h || !x.b) err(cw, `reliability.sections[${j}] needs h and b`); });
     srcCheck(cw, cn.s); }
   if(book){ tradCheck(id + "/book.json", book.traditions, srcCheck); (book.topics||[]).forEach(t => topCheck(id + '/book', t)); srcCheck(id + '/book', book.sources);
@@ -482,12 +491,12 @@ const catalog = {groups:CAT.groups, books:CAT.books.map(b => ({id:b.id, name:b.n
   status: B[b.id] ? (reviewed(b.id) ? 'reviewed' : 'draft') : 'text', ...(ATLAS[b.id] ? {atlas:1} : {})}))};
 /* writings outside the 66 books (content/works.json): the site marks every mention by tier, so a reader can tell them from Scripture at a glance */
 const WORKS = WORKS_ALL;
-const TIERS = ['dc','orth','eth','other','early','lost'];
+const TIERS = ['dc','orth','eth','other','early','lost','world'];   // world: another people's or religion's writing (tools/world-texts.py)
 for(const [id, w] of Object.entries(WORKS)) { if(!w.name || !TIERS.includes(w.tier)) err(`works.json ${id}`, `needs a name and a tier (${TIERS.join(', ')})`);
   if((w.aka || []).some(a => /^2 Esdras/.test(a))) err(`works.json ${id}`, '"2 Esdras" is the Greek Ezra-Nehemiah on this site, not a separate work'); }
 catalog.works = WORKS;
 /* books outside the 66: their works.json entry gives the tier; the catalog lists which of their texts exist */
-const ORIG_NAMES = {gez:'Ge’ez (classical Ethiopic) text', grc:'Greek text', heb:'Hebrew text', syr:'Syriac text', lat:'Latin text'};
+const ORIG_NAMES = {gez:'Ge’ez (classical Ethiopic) text', grc:'Greek text', heb:'Hebrew text', syr:'Syriac text', lat:'Latin text', akk:'Akkadian text'};
 for(const b of catalog.books.filter(b => b.t === 'X')){
   const w = Object.values(WORKS).find(w => w.book === b.id); if(!w) err(`works.json`, `book ${b.id} needs a works.json entry with "book": "${b.id}"`);
   const o = json(P('texts/orig', b.id + '.json')) || {}, e = json(P('texts/en', b.id + '.json')) || {};

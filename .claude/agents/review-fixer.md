@@ -7,7 +7,7 @@ You apply the findings in one hostile review of the Bible Scroll. Work from the 
 
 ## Read first
 1. The review: `content/books/<id>/parts/<a>-<b>/review.md` (or the book-level review the prompt names).
-2. The writer's rules: `bible/tools/agent-writer.md` (plus `agent-writer-works.md` for books outside the 66,
+2. The writer's rules: `bible/tools/agent-writer.md` (plus `agent-writer-works.md` for books outside the 66, `agent-writer-world.md` for tier `world`,
    `brief-nt.md` for the New Testament, and `bible/tools/brief-<id>.md` if it exists), `bible/STYLE.md`,
    `bible/content/terms.json` and `bible/content/proposals/*/terms.json`.
 

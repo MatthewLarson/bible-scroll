@@ -91,8 +91,11 @@ const TIER = {
   eth:{tag:'Eth.', name:'Ethiopian Scripture', about:'Scripture in the Ethiopian and Eritrean Orthodox Tewahedo churches (and reportedly among Ethiopia’s Beta Israel), but not in other Bibles. Some of these books, such as 1 Enoch and Jubilees, were widely read in Jesus’ day.'},
   other:{tag:'non-canon', name:'Not in any Bible', about:'An ancient Jewish or Christian writing that no church counts as Scripture today. It helps show what people believed, but it is not Scripture.'},
   early:{tag:'early church', name:'Early Christian writing', about:'Written by early Christians, valued by the early church, and in no Bible today (a few old manuscripts included some of these).'},
-  lost:{tag:'lost', name:'Lost book', about:'A book the Bible itself names and quotes that has not survived. Later books with the same title are not the original.'}
+  lost:{tag:'lost', name:'Lost book', about:'A book the Bible itself names and quotes that has not survived. Later books with the same title are not the original.'},
+  world:{tag:'other faith', name:'From another religion', about:'A writing of another people or religion, neither Jewish nor Christian. It is here for context and comparison, and this site reads it as Christians do: it is not Scripture, and where it tells a story the Bible also tells, the Bible is the measure.'}
 };
+/* the study page that says where a book outside the 66 stands: for another religion's writing it is about how a Christian reads it */
+const canonTitle = tier => tier === 'world' ? 'Reading it as a Christian' : 'Is this Scripture?';
 let WORK_RX;
 function markWorks(root){
   const W = CAT.works || {};
@@ -117,16 +120,19 @@ const workOf = book => { const e = Object.entries(CAT.works || {}).find(([, w]) 
 function tierBand(){
   if(!B || B.meta.t !== 'X') return ''; const w = workOf(B.id), t = TIER[w.tier];
   const sum = B.data && B.data.book.canon && B.data.book.canon.summary;
-  return `<div class="tierband w-${w.tier}"><b>${t.name}.</b> ${sum || t.about}${B.data && B.data.book.canon ? ' <button class="linkish" data-go="canon">Is this Scripture?</button>' : ''}</div>`;
+  return `<div class="tierband w-${w.tier}"><b>${t.name}.</b> ${sum || t.about}${B.data && B.data.book.canon ? ` <button class="linkish" data-go="canon">${canonTitle(w.tier)}</button>` : ''}</div>`;
 }
 function canonPage(c){
   const sec = xs => (xs || []).map(x => `<h4>${x.h}</h4>${para(x.b)}${x.refs ? `<p class="small reflist">${x.refs}</p>` : ''}`).join('');
-  const KIND_LABEL = {quotation:'Quoted', allusion:'Alluded to', 'shared tradition':'Shared tradition', disputed:'Disputed link'};
-  return `<div class="cart study">Is this Scripture?</div><h2>${B.meta.name}: Is It Scripture?</h2>${tierBand()}
-    <h3>Who accepts it, and who does not</h3><dl class="facts">${(c.accepted_by || []).map(([k, v, s]) => `<dt>${k}</dt><dd>${v}${s && s.length ? srcList(s) : ''}</dd>`).join('')}</dl>
+  const KIND_LABEL = {quotation:'Quoted', allusion:'Alluded to', 'shared tradition':'Shared tradition', disputed:'Disputed link', parallel:'Parallel'};
+  const world = c.tier === 'world', title = canonTitle(c.tier);
+  return `<div class="cart study">${title}</div><h2>${B.meta.name}: ${world ? 'Reading It as a Christian' : 'Is It Scripture?'}</h2>${tierBand()}
+    <h3>${world ? 'Who held it sacred, and who does not' : 'Who accepts it, and who does not'}</h3><dl class="facts">${(c.accepted_by || []).map(([k, v, s]) => `<dt>${k}</dt><dd>${v}${s && s.length ? srcList(s) : ''}</dd>`).join('')}</dl>
     <h3>Where it came from</h3>${sec(c.provenance)}
-    <h3>Why most churches set it aside</h3>${sec(c.rejected_why)}
-    <h3>Where the Bible refers to it</h3>${(c.cited_in || []).length ? `<ul class="outline">${c.cited_in.map(x => `<li><b>${KIND_LABEL[x.kind]}</b><span>${x.ref}${x.at ? ` (here at <button class="ref rv" data-verse="${x.at}">${x.at}</button>)` : ''}. ${x.b}</span></li>`).join('')}</ul>` : '<p>No book of the 66 quotes or clearly refers to it.</p>'}
+    <h3>${world ? 'Why Jews and Christians do not accept it' : 'Why most churches set it aside'}</h3>${sec(c.rejected_why)}
+    ${world ? `<h3>Reading it as a Christian</h3>${sec(c.christian_view)}` : ''}
+    <h3>${world ? 'Where it touches the Bible' : 'Where the Bible refers to it'}</h3>${(c.cited_in || []).length ? `<ul class="outline">${c.cited_in.map(x => `<li><b>${KIND_LABEL[x.kind]}</b><span>${x.ref}${x.at ? ` (here at <button class="ref rv" data-verse="${x.at}">${x.at}</button>)` : ''}. ${x.b}</span></li>`).join('')}</ul>` : '<p>No book of the 66 quotes or clearly refers to it.</p>'}
+    ${(c.matches || []).length ? `<h3>The same people under other names?</h3><ul class="outline matches">${c.matches.map(m => `<li><b>${m.name} and ${m.bible}</b><span><span class="likely l-${m.likely.replace(' ', '-')}">${m.likely}</span> ${m.b}${m.refs ? ` <span class="small reflist">${m.refs}</span>` : ''}</span></li>`).join('')}</ul>` : ''}
     <div class="box spec"><div class="tag">AI analysis (Claude): not a church’s judgment</div><h5>How reliable is it, measured by the Bible?</h5>${para((c.reliability || {}).verdict)}${sec((c.reliability || {}).sections)}</div>
     <h3>How to read it</h3>${sec(c.how_to_read)}${srcList(c.s)}`;
 }
@@ -447,7 +453,7 @@ function buildPages(){
   } else {
     const bk = d.book;
     page('intro', name, introPage(bk));
-    if(b.meta.t === 'X' && bk.canon) page('canon', 'Is this Scripture?', canonPage(bk.canon));
+    if(b.meta.t === 'X' && bk.canon) page('canon', canonTitle(bk.canon.tier), canonPage(bk.canon));
     (bk.pages || []).forEach(p => page(p.id, p.label, `<div class="pagehtml">${p.html}</div>`));
     if(d.chapters.length > 1) page('contents', 'Contents', `<div class="cart study">Contents</div><h2>The Chapters of ${name}</h2>
       <ul class="outline">${d.chapters.map(c => `<li><b>${name.replace(/^Psalms$/,'Psalm')} ${c.n}</b><span><button class="linkish" data-go="c${c.n}">${c.title}</button></span></li>`).join('')}</ul>`);

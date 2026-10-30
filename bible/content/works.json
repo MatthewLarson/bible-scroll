@@ -1,5 +1,5 @@
 {
- "_about": "Writings outside the 66 books that the site cites. tier: dc = deuterocanonical (Scripture for Catholic and Orthodox Christians, the Apocrypha for Protestants, not in the Jewish Bible); orth = Scripture for Orthodox Christians only; eth = Scripture only in the Ethiopian Orthodox Tewahedo Church; other = in no Bible today; early = an early Christian writing, in no Bible today; lost = a book the Bible names that has not survived. aka: other names the site may use; a name ending in # matches only before a chapter number (\"Judith 9\", not Judith the wife of Esau). Never list \"2 Esdras\": the site uses it for the Greek translation of Ezra-Nehemiah, which is not a separate book; the apocalypse is \"4 Ezra\". topic: the site topic page about the work, if there is one. book: the site book id once the work has its own pages.",
+ "_about": "Writings outside the 66 books that the site cites. tier: dc = deuterocanonical (Scripture for Catholic and Orthodox Christians, the Apocrypha for Protestants, not in the Jewish Bible); orth = Scripture for Orthodox Christians only; eth = Scripture only in the Ethiopian Orthodox Tewahedo Church; other = in no Bible today; early = an early Christian writing, in no Bible today; lost = a book the Bible names that has not survived; world = a writing of another people or religion, neither Jewish nor Christian, read on this site from a Christian standpoint (tools/agent-writer-world.md). aka: other names the site may use; a name ending in # matches only before a chapter number (\"Judith 9\", not Judith the wife of Esau). Never list \"2 Esdras\": the site uses it for the Greek translation of Ezra-Nehemiah, which is not a separate book; the apocalypse is \"4 Ezra\". topic: the site topic page about the work, if there is one. book: the site book id once the work has its own pages.",
  "tobit": {
   "name": "Tobit",
   "tier": "dc",
@@ -974,5 +974,60 @@
    "Apocryphon of Jannes and Jambres"
   ],
   "note": "A Jewish book about Pharaoh's two magicians. Origen says there was an apocryphal book of this name; Greek fragments survive in the Chester Beatty Papyri (no. XVI, edited by Albert Pietersma), and an Ethiopic fragment was found in 2014. Not Scripture in any church. It shows how Jewish storytellers expanded Exodus 7, and gives no independent knowledge of the magicians. The names appear in 2 Timothy 3:8, the Damascus Document, Targum Pseudo-Jonathan and the Talmud."
+ },
+ "atrahasis": {
+  "name": "Atrahasis",
+  "tier": "world",
+  "aka": [
+   "Epic of Atrahasis",
+   "Atrahasis Epic",
+   "Atrahasis epic",
+   "Atra-hasis epic",
+   "Atrahasis#"
+  ],
+  "book": "Atr",
+  "note": "A Babylonian poem in three tablets that runs from the making of humankind to the Flood. Its hero, Atrahasis, survives the Flood in a boat."
+ },
+ "epic-of-gilgamesh": {
+  "name": "Epic of Gilgamesh",
+  "tier": "world",
+  "aka": [
+   "Epic of Gilgamesh",
+   "Gilgamesh Epic",
+   "Gilgamesh epic",
+   "epic of Gilgamesh"
+  ],
+  "note": "The Babylonian poem about Gilgamesh, king of Uruk, and his search for life without death. Its Tablet XI tells the Flood story, close to Atrahasis."
+ },
+ "enuma-elish": {
+  "name": "Enuma Elish",
+  "tier": "world",
+  "aka": [
+   "Enuma Elish"
+  ],
+  "note": "The Babylonian creation poem, which praises the god Marduk."
+ },
+ "sumerian-flood-story": {
+  "name": "Sumerian Flood Story",
+  "tier": "world",
+  "aka": [
+   "Sumerian Flood Story",
+   "Sumerian flood story",
+   "Eridu Genesis"
+  ]
+ },
+ "sumerian-king-list": {
+  "name": "Sumerian King List",
+  "tier": "world",
+  "aka": [
+   "Sumerian King List"
+  ]
+ },
+ "babyloniaca": {
+  "name": "Babyloniaca of Berossus",
+  "tier": "world",
+  "aka": [
+   "Babyloniaca"
+  ]
  }
 }

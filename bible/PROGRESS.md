@@ -76,3 +76,4 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
 | 1Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus; Vaticanus lacks Maccabees), KJV apocrypha, Vulgate/Douay. 23 typos in the digital Swete corrected |
 | 2Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |
+| Atr | writing | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
