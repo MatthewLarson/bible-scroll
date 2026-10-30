@@ -1,10 +1,10 @@
 # Hostile review: Psalms 120–137 (part 120-137)
 
-Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in this folder, plus the parts of content/books/Psa/book.json that touch Psalms 120–137. Checked against texts/orig and texts/auto (via `node tools/literal.js`), the other twelve Psalms parts, the site's Plain of 1–2 Chronicles, Exodus, Numbers, Deuteronomy and Ruth, and outside sources (Sefaria texts of Rashi, the Targum, the Bavli and Midrash Tehillim; Brenton's and Rahlfs-type LXX texts online; dssenglishbible.com for the Qumran readings; the 1979 BCP Daily Office Lectionary). `node tools/build.js --check Psa/120-137` reports 0 errors, 0 warnings.
+Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in this folder, plus the parts of content/books/Psa/book.json that touch Psalms 120–137. Checked against texts/orig and texts/auto (via `node tools/literal.js`), the other twelve Psalms parts, the site's Plain English Translation of 1–2 Chronicles, Exodus, Numbers, Deuteronomy and Ruth, and outside sources (Sefaria texts of Rashi, the Targum, the Bavli and Midrash Tehillim; Brenton's and Rahlfs-type LXX texts online; dssenglishbible.com for the Qumran readings; the 1979 BCP Daily Office Lectionary). `node tools/build.js --check Psa/120-137` reports 0 errors, 0 warnings.
 
 ## Verdict
 
-This is a strong part. The Plain is rebuilt from the Hebrew, reads as poetry, keeps the stair-step repetitions, and I found no verse that leans on NIV or ESV wording. The jussive/indicative shift in 121:3–4, the `nefesh` = throat point in 124:4, the passive `hashedudah` in 137:8, the `'im lo'` oath in 131:2 and the uncertain `shalaf` in 129:6 are all handled honestly. Every psalm has a settings card with `readers`, the Greek number opens every summary, the Hebrew numbering note appears once (120:0), the 132:8–10 table matches the site's 2 Chronicles 6:41–42 Plain word for word, and the 136 "Claude's theory" is labeled and hedged. I spot-checked the citations the writer flagged as from memory. Makkot 10a, Taanit 5a and 23a, Berakhot 8a and 10b, Kiddushin 30b, Arakhin 15b, Menachot 110a, Shabbat 30a, Sukkah 53a, Pesachim 118a, Bava Batra 60b, Mishnah Middot 1:1 and 2:5, Sukkah 5:4, Tamid 3:2, Taanit 3:9, Rashi on 121:1 (Sifre Ekev 47), 128:1 ("every" includes women), 128:6 and 131:1 ("my son"), the Targum on 120:3–6, 121:1, 5, 6, 8, 131:2 and 133:1, and the Midrash Tehillim heifer parable on 129 all say what the part claims. The weaknesses are in the textual evidence. The Dead Sea Scrolls are almost absent, though these psalms are well attested at Qumran. "Swete's text" (which here is Codex Sinaiticus) is sometimes treated as "the Greek", which produces at least one wrong claim (136:26). The book.json outline headings for these psalms copy NIV/ESV wording. The other findings are smaller: a few errors, internal inconsistencies, cross-part mismatches and missed tradition cards.
+This is a strong part. The Plain English Translation is rebuilt from the Hebrew, reads as poetry, keeps the stair-step repetitions, and I found no verse that leans on NIV or ESV wording. The jussive/indicative shift in 121:3–4, the `nefesh` = throat point in 124:4, the passive `hashedudah` in 137:8, the `'im lo'` oath in 131:2 and the uncertain `shalaf` in 129:6 are all handled honestly. Every psalm has a settings card with `readers`, the Greek number opens every summary, the Hebrew numbering note appears once (120:0), the 132:8–10 table matches the site's 2 Chronicles 6:41–42 Plain English Translation word for word, and the 136 "Claude's theory" is labeled and hedged. I spot-checked the citations the writer flagged as from memory. Makkot 10a, Taanit 5a and 23a, Berakhot 8a and 10b, Kiddushin 30b, Arakhin 15b, Menachot 110a, Shabbat 30a, Sukkah 53a, Pesachim 118a, Bava Batra 60b, Mishnah Middot 1:1 and 2:5, Sukkah 5:4, Tamid 3:2, Taanit 3:9, Rashi on 121:1 (Sifre Ekev 47), 128:1 ("every" includes women), 128:6 and 131:1 ("my son"), the Targum on 120:3–6, 121:1, 5, 6, 8, 131:2 and 133:1, and the Midrash Tehillim heifer parable on 129 all say what the part claims. The weaknesses are in the textual evidence. The Dead Sea Scrolls are almost absent, though these psalms are well attested at Qumran. "Swete's text" (which here is Codex Sinaiticus) is sometimes treated as "the Greek", which produces at least one wrong claim (136:26). The book.json outline headings for these psalms copy NIV/ESV wording. The other findings are smaller: a few errors, internal inconsistencies, cross-part mismatches and missed tradition cards.
 
 Counts: 0 critical, 3 major, 21 minor.
 
@@ -31,10 +31,10 @@ Counts: 0 critical, 3 major, 21 minor.
 
 **Fix:** Rewrite the 136:26 variant. Reading 0 is the Masoretic Text, Jerome *iuxta Hebraeos* and (if verified) Sinaiticus. Reading 1 is the Old Greek (Rahlfs, Alexandrinus and most witnesses) and the Gallican. Fix "Lord of heaven", reword the 136:4 note, and in the spec box say that the Greek has 27 refrains. Generally, wherever the part writes "Swete's text", say plainly that this means Codex Sinaiticus (Vaticanus is lost here). Where Rahlfs differs, cite Rahlfs (`rahlfs-lxx`) for "the Greek". Recheck the readings attributed to the first hand of Sinaiticus (135:14 οἰκτειρεῖ; 122:0 "of David" in ℵ but not in A; 132:15 χήραν in ℵ* and A) against the codexsinaiticus.org transcription. I could not verify them.
 
-### 3. Major: the book.json outline lines for these psalms reproduce NIV/ESV wording and do not match the site's Plain
+### 3. Major: the book.json outline lines for these psalms reproduce NIV/ESV wording and do not match the site's Plain English Translation
 **Location:** content/books/Psa/book.json `outline`, entries 121–136 (owner: 001-017 writer).
-**Problem:** "If the LORD had not been on our side" (124) and "As the mountains surround Jerusalem" (125) are the NIV's own lines word for word. "I lift my eyes to the hills" (121) is ESV/NIV wording. "Unless the LORD builds the house" (127) is NIV/ESV. "Out of the depths" (130) is ESV/KJV. The site's Plain reads "I raise my eyes toward the mountains", "Were it not the LORD who stood with us", "Jerusalem: mountains are all around her", "If the LORD does not build a house" and "From the depths". "His loyal love lasts forever" (136) is not the Plain's "his loyal love is forever". The part's own section heading "Unless the LORD builds the house" (plain.txt, before 127:1) and the 127 chapter title have the same problem.
-**Fix:** Rebuild the outline labels for 121–137 from the Plain or from neutral summaries ("Eyes on the mountains", "Were it not the LORD", "Mountains around Jerusalem", "If the LORD does not build", "From the depths", "His loyal love is forever"). Change the 127 heading and chapter title to something like "If the LORD Does Not Build".
+**Problem:** "If the LORD had not been on our side" (124) and "As the mountains surround Jerusalem" (125) are the NIV's own lines word for word. "I lift my eyes to the hills" (121) is ESV/NIV wording. "Unless the LORD builds the house" (127) is NIV/ESV. "Out of the depths" (130) is ESV/KJV. The site's Plain English Translation reads "I raise my eyes toward the mountains", "Were it not the LORD who stood with us", "Jerusalem: mountains are all around her", "If the LORD does not build a house" and "From the depths". "His loyal love lasts forever" (136) is not the Plain English Translation's "his loyal love is forever". The part's own section heading "Unless the LORD builds the house" (plain.txt, before 127:1) and the 127 chapter title have the same problem.
+**Fix:** Rebuild the outline labels for 121–137 from the Plain English Translation or from neutral summaries ("Eyes on the mountains", "Were it not the LORD", "Mountains around Jerusalem", "If the LORD does not build", "From the depths", "His loyal love is forever"). Change the 127 heading and chapter title to something like "If the LORD Does Not Build".
 
 ### 4. Minor: the 136:1 refrain is rendered differently from the same Hebrew elsewhere on the site
 **Location:** plain.txt 136:1 against 106:1, 107:1, 118:1, 118:29 and 1 Chronicles 16:34.
@@ -69,19 +69,19 @@ Counts: 0 critical, 3 major, 21 minor.
 **Problem:** 113:2 and 125:2 are not the last verses of their psalms.
 **Fix:** Change to "also comes in".
 
-### 11. Minor: "Remember, LORD" is quoted, but the Plain does not say it
+### 11. Minor: "Remember, LORD" is quoted, but the Plain English Translation does not say it
 **Location:** chapters.json 137 `sum` ("'Remember, LORD' the people of Edom") and `deep` ("'Remember, LORD' (137:7; compare Romans 12:19)"); plain.txt section heading "## Remember, LORD".
-**Problem:** The Plain of 137:7 reads "LORD, hold the day of Jerusalem against the people of Edom". *Zekhor* is translated as "hold … against", so the quoted words never appear in the verse.
-**Fix:** Either change the Plain to keep "Remember" (e.g. "Remember, LORD, against the people of Edom / the day of Jerusalem"), which is closer to the Hebrew and keeps the link with "remember" in 137:1 and 6, or stop quoting "Remember, LORD" and add a note on *zakhar* + *le-*.
+**Problem:** The Plain English Translation of 137:7 reads "LORD, hold the day of Jerusalem against the people of Edom". *Zekhor* is translated as "hold … against", so the quoted words never appear in the verse.
+**Fix:** Either change the Plain English Translation to keep "Remember" (e.g. "Remember, LORD, against the people of Edom / the day of Jerusalem"), which is closer to the Hebrew and keeps the link with "remember" in 137:1 and 6, or stop quoting "Remember, LORD" and add a note on *zakhar* + *le-*.
 
-### 12. Minor: quotations of other psalms do not match the site's Plain
-**Location:** notes.json 135:3 quotes 147:1 as "it is good to make music to our God; it is lovely". The site's Plain of 147:1 is "Making music to our God is good; / it is sweet, and praise is what fits". Notes.json 121:2 lists 146:6 among the verses with "maker of heaven and earth". The site's Plain of 146:6 has "who made the heavens and the earth" for the same Hebrew (*'oseh shamayim va'arets*).
-**Fix:** Quote 147:1 in the site's Plain. Flag 146:6 to the 138-150 writer: the same phrase should be rendered the same way in 115:15, 121:2, 124:8, 134:3 and 146:6.
+### 12. Minor: quotations of other psalms do not match the site's Plain English Translation
+**Location:** notes.json 135:3 quotes 147:1 as "it is good to make music to our God; it is lovely". The site's Plain English Translation of 147:1 is "Making music to our God is good; / it is sweet, and praise is what fits". Notes.json 121:2 lists 146:6 among the verses with "maker of heaven and earth". The site's Plain English Translation of 146:6 has "who made the heavens and the earth" for the same Hebrew (*'oseh shamayim va'arets*).
+**Fix:** Quote 147:1 in the site's Plain English Translation. Flag 146:6 to the 138-150 writer: the same phrase should be rendered the same way in 115:15, 121:2, 124:8, 134:3 and 146:6.
 
 ### 13. Minor: a "fresh rendering" of a book the site has already translated
 **Location:** notes.json 128:2: "A people you do not know will eat the fruit of your ground" (Deuteronomy 28:33, fresh rendering).
-**Problem:** Deuteronomy is on the site. Its Plain reads "A people you have never known will eat what your soil grows…". STYLE requires quoting the site's Plain.
-**Fix:** Quote the Deuteronomy Plain (it may be shortened with "…").
+**Problem:** Deuteronomy is on the site. Its Plain English Translation reads "A people you have never known will eat what your soil grows…". STYLE requires quoting the site's Plain English Translation.
+**Fix:** Quote the Deuteronomy Plain English Translation (it may be shortened with "…").
 
 ### 14. Minor: the other David titles in the Greek get no entry
 **Location:** variants.json 122:0 `why` says "The Greek copies do not agree on these names" for 122, 124, 131 and 133, but only 122 and 127 have entries.
@@ -128,8 +128,8 @@ Counts: 0 critical, 3 major, 21 minor.
 
 ### 23. Minor: the 2 Chronicles part's quotation of Psalm 132 is now out of date
 **Location:** content/books/2Ch/parts/01-12/notes.json 6:41 ("Solomon sings Psalm 132").
-**Problem:** That note gives Psalm 132:8–10 "in a fresh rendering" ("Up, LORD, to your resting place… sing out for joy… For your servant David's sake"). The site now has a Psalms Plain ("place of rest… shout for joy… For the sake of David your servant"). Readers will see two English versions of the same Hebrew.
-**Fix:** For the 2 Chronicles writer: quote Psalm 132:8–10 from the Psalms Plain and drop "fresh rendering". The 132 `deep` table here is already correct.
+**Problem:** That note gives Psalm 132:8–10 "in a fresh rendering" ("Up, LORD, to your resting place… sing out for joy… For your servant David's sake"). The site now has a Psalms Plain English Translation ("place of rest… shout for joy… For the sake of David your servant"). Readers will see two English versions of the same Hebrew.
+**Fix:** For the 2 Chronicles writer: quote Psalm 132:8–10 from the Psalms Plain English Translation and drop "fresh rendering". The 132 `deep` table here is already correct.
 
 ### 24. Minor: small renderings to look at again
 - **127:2** "and put off going to bed". *Me'acharei shevet* is "who delay sitting (resting)", and "going to bed" narrows it. "and sit down to rest late" is closer, or add a gloss.
@@ -157,7 +157,7 @@ Counts: 0 critical, 3 major, 21 minor.
   - The Syriac is stated as not consulted. At 137:8, Symmachus and the Syriac "plunderer" are reported from BHS.
   - Not taken over: the reviewer's "4Q95 adds the refrain in 135:12". That line is only restored in the ETCBC text, so I did not adopt it. Readings that survive only in restored text (for example 122:4 'adat, and 131:0 in 11QPs-a) are left out.
 - **2 (136:26 and the Greek).** The 136:26 variant is rewritten. The Old Greek in Rahlfs and Brenton, as reported, and the Gallican have the 27th line. The Masoretic Text, Jerome's Psalter from the Hebrew and Sinaiticus lack it. "The Lord of heaven" is now attributed to Sinaiticus' first hand; Swete's apparatus has "26 κυριω] θω ℵc.aRT". The 136:4 note now says the Greek has "alone" in 136:7. The 136:1 box gives 27 refrains for the Greek. Other "Swete's text" places now say "the Greek" where Swete's apparatus shows Alexandrinus and the Verona and Zurich Psalters agreeing, and name the codex where it does not: 127:0, 130:4, 132:15, 135:14, 137:0.
-- **3.** Stays with the coordinator for book.json. In my part, the 127 heading is now "If the LORD does not build" and the 127 title "If the LORD Does Not Build". The 135 heading and title are also changed, because "The LORD chose Jacob" no longer matches the Plain.
+- **3.** Stays with the coordinator for book.json. In my part, the 127 heading is now "If the LORD does not build" and the 127 title "If the LORD Does Not Build". The 135 heading and title are also changed, because "The LORD chose Jacob" no longer matches the Plain English Translation.
 - **4.** Left as is, per the lead decision. Psalm 136 keeps its refrain form.
 - **5.** The 1979 Episcopal Prayer Book lectionary is named in the 137 card and in the curse-psalms topic, with the new key `bcp-1979`.
 - **6.** 137 `deep` and the curse-psalms topic now say that Jews recite the whole psalm on weekdays before the grace after meals. They also give the Targum's Michael (137:7) and Gabriel (137:8) and the later reading of Edom as Rome.
@@ -165,9 +165,9 @@ Counts: 0 critical, 3 major, 21 minor.
 - **8.** Meshech is "central Anatolia, far to the north" and Kedar "the north Arabian desert, to the south-east" in the note, variant, gloss and chapter.
 - **9.** Both places now read *cum terribilis sis*, as in the Vulgate file checked.
 - **10.** "Closes" is now "also comes in".
-- **11.** The Plain of 137:7 is rebuilt in Hebrew order: "Remember, LORD, against the people of Edom / the day of Jerusalem, / those who kept saying ...". The 137 `sum` is reworded.
-- **12.** 147:1 is now quoted in the 138-150 part's Plain. 146:6 is flagged to the coordinator: 138-150 has "maker of heaven and earth" there, so it already matches.
-- **13.** The Deuteronomy 28:33 quote now uses the site's Plain.
+- **11.** The Plain English Translation of 137:7 is rebuilt in Hebrew order: "Remember, LORD, against the people of Edom / the day of Jerusalem, / those who kept saying ...". The 137 `sum` is reworded.
+- **12.** 147:1 is now quoted in the 138-150 part's Plain English Translation. 146:6 is flagged to the coordinator: 138-150 has "maker of heaven and earth" there, so it already matches.
+- **13.** The Deuteronomy 28:33 quote now uses the site's Plain English Translation.
 - **14.** A new note at 124:0 gives the Greek and Qumran evidence for "of David" in 122, 123, 124, 131 and 133, and "of Solomon" for 127, from Swete's apparatus.
 - **15.** The phrase is now cited to *Gaudium et Spes* 50 and Catechism 2378, with the new key `gaudium-et-spes`. *Humanae Vitae* 10–16 is kept for the teaching.
 - **16.** The Methodist view is dropped. A new card with top `sheol` asks whether the living may pray for the departed: Catholic, Orthodox, Lutheran (Smalcald Articles II.2) and Reformed (Westminster Confession 21.4).

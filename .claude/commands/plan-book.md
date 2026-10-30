@@ -14,7 +14,7 @@ Plan book `$ARGUMENTS` for the Bible Scroll. Use the `book-pipeline` skill.
    which part owns book.json. Fix the lenses (keys and labels) for every part now.
 3. Write `bible/tools/brief-<id lowercase>.md`: parts, lenses, book.json owner, original-language base text and
    witnesses to weigh, key terms (check `content/terms.json` and `content/proposals/*/terms.json`), parallels
-   with books already written (the earlier book's Plain is the model), places that need full treatment
+   with books already written (the earlier book's Plain English Translation is the model), places that need full treatment
    (variants, traditions cards, settings, topics), and the model books.
 4. Create `bible/content/books/<id>/progress.md` with `Status: writing` and the plan in one line.
 5. Run the atlas harvest with the `atlas-harvester` agent (canonical books only; Bible Atlas has no data for books

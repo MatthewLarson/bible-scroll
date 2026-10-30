@@ -4,15 +4,15 @@ Reviewer: num-11-21 reviewer agent, 2026-10-23. Scope: chapters 11–21 only (pl
 
 ## Verdict
 
-This is a strong part. I compared all 351 verses of the Plain with the literal line. The translation sticks closely to the Hebrew: names, numbers and who-does-what are right, the book's terms are mostly kept, and the poetry is set out. I found only a few NIV/ESV echoes in the main text. The notes are dense and usually accurate, and they treat Jewish, Christian and critical readers fairly. The weak spot is the variants file. Its Plain English for the Samaritan and 4QNum-b additions follows the ESV's wording of Deuteronomy closely. Those readings were never checked against a Samaritan text, and the notes say so to the reader in "we could not check" language. One quotation is taken from a hobbyist website but cited to Abegg, Flint and Ulrich. Three Samaritan additions the writer knew about, and a major Septuagint plus at 14:23, have no entry. Other problems: several quotations of Exodus, Leviticus, Genesis and Numbers 1–10 don't match those books' Plain wording, some terms are rendered differently from Leviticus and the other Numbers parts, a handful of rabbinic citations are wrong or vague, and the notes on the Cushite wife and on Heshbon each leave out a major view. Note also that `build.js --check` never runs the quotation check, VERBOSE or not (finding 6), so the writer's clean check proves nothing about quotations.
+This is a strong part. I compared all 351 verses of the Plain English Translation with the literal line. The translation sticks closely to the Hebrew: names, numbers and who-does-what are right, the book's terms are mostly kept, and the poetry is set out. I found only a few NIV/ESV echoes in the main text. The notes are dense and usually accurate, and they treat Jewish, Christian and critical readers fairly. The weak spot is the variants file. Its Plain English Translation for the Samaritan and 4QNum-b additions follows the ESV's wording of Deuteronomy closely. Those readings were never checked against a Samaritan text, and the notes say so to the reader in "we could not check" language. One quotation is taken from a hobbyist website but cited to Abegg, Flint and Ulrich. Three Samaritan additions the writer knew about, and a major Septuagint plus at 14:23, have no entry. Other problems: several quotations of Exodus, Leviticus, Genesis and Numbers 1–10 don't match those books' Plain English Translation wording, some terms are rendered differently from Leviticus and the other Numbers parts, a handful of rabbinic citations are wrong or vague, and the notes on the Cushite wife and on Heshbon each leave out a major view. Note also that `build.js --check` never runs the quotation check, VERBOSE or not (finding 6), so the writer's clean check proves nothing about quotations.
 
 Counts: 0 critical, 10 major, 17 minor.
 
 ## Findings
 
-### 1. Major: the added readings' Plain English follows the ESV's Deuteronomy
+### 1. Major: the added readings' Plain English Translation follows the ESV's Deuteronomy
 **Where:** variants.json at 12:16, 20:13, 21:11, 21:12 and 21:20 (the `plain` of each Samaritan or 4QNum-b reading).
-**What:** These readings copy Deuteronomy 1:20–23, 3:24–28, 2:9, 2:17–19 and 2:24–25 into Numbers. Deuteronomy has no site Plain yet. The writer did not build these verses from the Hebrew with the literal-line method, and they track the ESV:
+**What:** These readings copy Deuteronomy 1:20–23, 3:24–28, 2:9, 2:17–19 and 2:24–25 into Numbers. Deuteronomy has no site Plain English Translation yet. The writer did not build these verses from the Hebrew with the literal-line method, and they track the ESV:
 - 12:16 reading: "You have come to the hill country of the Amorites, which the LORD our God is giving us. See, the LORD your God has set the land before you." The ESV of Deuteronomy 1:20–21 is word for word the same.
 - 21:20 reading: "Rise up, set out, and cross the Arnon Valley. See, I have given into your hand Sihon the Amorite, king of Heshbon, and his land. Begin to take possession of it, and fight him in battle. Today I will begin to put the dread and the fear of you on the peoples under all the heavens." Compare the ESV of Deuteronomy 2:24–25: "Rise up, set out on your journey and go over the Valley of the Arnon. Behold, I have given into your hand Sihon the Amorite, king of Heshbon, and his land. Begin to take possession, and contend with him in battle. This day I will begin to put the dread and fear of you on the peoples who are under the whole heaven."
 - 20:13 reading: "...look with your own eyes, for you will not cross this Jordan. Command Joshua, and encourage him and strengthen him, for he will cross over at the head of this people." The ESV of Deuteronomy 3:27–28 has the same clause order and wording.
@@ -49,17 +49,17 @@ Counts: 0 critical, 10 major, 17 minor.
 **What:** In `--check` mode the script prints its summary and calls `process.exit` (about line 215). That happens before the quotation check block at line 237. So `VERBOSE=1 node tools/build.js --check Num/11-21` can never warn about a quotation. In addition, only the book being checked is loaded, so quotations of other books are skipped even if the check did run. The writer's "0 warnings" does not mean the quotations match.
 **Fix:** Move the quotation check above the CHECK exit, and in check mode load the plain texts of all books. I ran an equivalent script, and finding 7 lists what it found.
 
-### 7. Major: quotations that don't match the site's Plain wording
+### 7. Major: quotations that don't match the site's Plain English Translation wording
 Checked with my own script against every book's plain.txt, including all parts:
 - note 16:13: "Who made you a prince and judge over us?" (Exodus 2:14). The site has "Who put you as a chief and a judge over us?"
 - note 20:26: "Aaron's holy garments will belong to his sons after him" (Exodus 29:29–30). The site has "Aaron's holy clothes will go to his sons after him."
 - note 16:6: "fire went out from before the LORD and ate them up" (Leviticus 10:1–2). The site has "Fire came out from before the LORD and ate them up."
 - note 18:2: "This time my husband will join himself to me" (Genesis 29:34). The site has "This time, now, my husband will join himself to me." Use "..." or the full wording.
-- note 14:44: "Rise up, LORD, and let your enemies be scattered" (10:35). Part 01-10's Plain has "Rise up, LORD! / Let your enemies scatter."
-- chapters.json 14, deep "Claude's theory": "if only we had died in this wilderness" (14:2). The Plain has "Or in this wilderness, if only we had died!"
-- topics.json caleb: "The land is very, very good" (14:6–9) and "my servant Caleb, because a different spirit was with him and he followed me fully" (14:24). Neither is the Plain wording. The Plain has "a good land, very, very good" and "my servant Caleb had a different spirit with him, and he followed me fully."
+- note 14:44: "Rise up, LORD, and let your enemies be scattered" (10:35). Part 01-10's Plain English Translation has "Rise up, LORD! / Let your enemies scatter."
+- chapters.json 14, deep "Claude's theory": "if only we had died in this wilderness" (14:2). The Plain English Translation has "Or in this wilderness, if only we had died!"
+- topics.json caleb: "The land is very, very good" (14:6–9) and "my servant Caleb, because a different spirit was with him and he followed me fully" (14:24). Neither is the Plain English Translation wording. The Plain English Translation has "a good land, very, very good" and "my servant Caleb had a different spirit with him, and he followed me fully."
 - note 17:10: "Listen, you rebels (hammorim)" (20:10) drops "please". Add "...".
-**Fix:** Quote each passage exactly from the site's Plain, or mark it as a paraphrase without quotation marks.
+**Fix:** Quote each passage exactly from the site's Plain English Translation, or mark it as a paraphrase without quotation marks.
 
 ### 8. Major: terms rendered differently from Leviticus and the other Numbers parts
 **Where:** plain.txt.
@@ -106,7 +106,7 @@ Also, the "skin made white" irony appears three times: note 12:1, note 12:10 and
 
 ### 13. Minor: 14:33 flattens the image of prostitution
 **Where:** plain.txt 14:33, "They will bear your unfaithfulness".
-**What:** The Hebrew is זְנוּתֵיכֶם, "your acts of prostitution". At 15:39 the Plain keeps the image ("like a prostitute"), and note 14:33 explains it. STYLE says to keep images English can carry.
+**What:** The Hebrew is זְנוּתֵיכֶם, "your acts of prostitution". At 15:39 the Plain English Translation keeps the image ("like a prostitute"), and note 14:33 explains it. STYLE says to keep images English can carry.
 **Fix:** "They will bear your prostitution" or "your whoring ways".
 
 ### 14. Minor: phrasings that are hard to read at an 8th-grade level
@@ -123,14 +123,14 @@ Also, the "skin made white" irony appears three times: note 12:1, note 12:10 and
 - 18:23 "The Levites, they are the ones who..." (a doubled subject).
 - 16:50 "for the plague had been held back": the Hebrew has "and", not "for".
 
-### 15. Minor: other closeness to the ESV or NIV in the Plain
+### 15. Minor: other closeness to the ESV or NIV in the Plain English Translation
 - 15:39 "It will be a tassel for you to look at" is the ESV's phrase. The Hebrew is "it will be a tassel for you, and you will see it."
 - 14:21 "But as I live, and as all the earth will be filled with the LORD's glory" follows the ESV's sentence frame. The Hebrew allows it, but consider "As surely as I live, and the LORD's glory will fill all the earth..."
 - 12:6 "I make myself known to him in a vision; / I speak with him in a dream" matches the ESV. It is literal, so it is acceptable, but note it.
 **Fix:** Recast 15:39 at least.
 
 ### 16. Minor: 20:26 adds "to his people"
-The Hebrew is וְאַהֲרֹן יֵאָסֵף וּמֵת שָׁם, "Aaron will be gathered and die there." The Plain adds "to his people" from 20:24, as the ESV and NIV do. Drop it, or put it in a note.
+The Hebrew is וְאַהֲרֹן יֵאָסֵף וּמֵת שָׁם, "Aaron will be gathered and die there." The Plain English Translation adds "to his people" from 20:24, as the ESV and NIV do. Drop it, or put it in a note.
 
 ### 17. Minor: 12:7 loses the word that Hebrews quotes
 "In all my house he is the one I trust" hides נֶאֱמָן, the "faithful" of Hebrews 3:2, 5. The note explains it, but "in all my house he is faithful" or "he is trusted" would keep the link visible.
@@ -164,7 +164,7 @@ The `why` says "the RSV and NRSV adopt" the Greek "swallowed". As I recall, the 
 - 16:14 "Will you gouge out the eyes of these men?" => "Do you take us for fools?" picks one of the two readings the note keeps open. Use something neutral, such as "Do you think you can blind us?"
 
 ### 24. Minor: Ketiv/Qere at 21:32 not noted
-texts/auto marks 21:32 (written וַיִּירַשׁ, "he took possession"; read וַיּוֹרֶשׁ, "he drove out"). The Plain follows the Qere ("drove out"). This needs at most a one-line note, or nothing. It is here only for completeness.
+texts/auto marks 21:32 (written וַיִּירַשׁ, "he took possession"; read וַיּוֹרֶשׁ, "he drove out"). The Plain English Translation follows the Qere ("drove out"). This needs at most a one-line note, or nothing. It is here only for completeness.
 
 ### 25. Minor: chapter 14's reading on Olson has no source
 chapters.json 14, "Read as the turning point of Numbers", names Dennis Olson's "death of the old and birth of the new". Add a source key (Olson, *The Death of the Old and the Birth of the New*, 1985) if one exists, or add it to sources.json.
@@ -200,7 +200,7 @@ Writer's fix round, 2026-10-23. After it, `node tools/build.js --check Num/11-21
 4. **Agreed.** Every "we could not check" and "could not be verified" is gone from the notes and variants.
 5. **Agreed.** 14:34 now reads "Then you will learn what it means when I oppose you." The note is re-anchored.
 6. Tool finding. The coordinator has fixed it.
-7. **Agreed.** Every quotation now uses the site's Plain wording: Exodus 2:14, Exodus 29:29, Leviticus 10:2, Genesis 29:34, Numbers 10:35, 14:2, 14:7, 14:24 and 20:10 ("Listen, please, you rebels!"), plus 14:21 in the glory topic.
+7. **Agreed.** Every quotation now uses the site's Plain English Translation wording: Exodus 2:14, Exodus 29:29, Leviticus 10:2, Genesis 29:34, Numbers 10:35, 14:2, 14:7, 14:24 and 20:10 ("Listen, please, you rebels!"), plus 14:21 in the glory topic.
 8. **Agreed.** *isheh* is now "offering by fire" throughout. *torah* is "law" (15:16, 29; 19:14). 19:2 is "the rule of the law," matching 31:21. 19:13 and 19:20 now read "splashed." Following content/terms.json, I also changed 19:2 to "flawless" (*tamim*), 14:29 to "enrolled" (*paqad*), and cultic *hiqriv* to "present" (15:4, 7, 9, 10, 13, 27; 16:17, 38, 39; 18:15).
 9. **Agreed.**
    - The 12:1 note now names Felder and Bailey and gives the objection (skin is never mentioned, the complaint is about authority, Israel had no modern idea of race).
@@ -235,7 +235,7 @@ Writer's fix round, 2026-10-23. After it, `node tools/build.js --check Num/11-21
     - Note 13:22 is untagged.
     - I created a new `prophecy` core after checking it did not exist. Numbers 11–12 contributes a section to it, and chapters 11 and 12 link to it.
 23. **Agreed.** I deleted the glosses at 17:10 and 14:41 and reworded 12:8 and 16:14.
-24. **Not done.** A note needs at least 40 words, and the Plain already follows the Qere, so a note would add little.
+24. **Not done.** A note needs at least 40 words, and the Plain English Translation already follows the Qere, so a note would add little.
 25. **Agreed.** Chapter 14 now cites `olson-numbers`.
 26. **Agreed.** 11:15 and 12:12 are now kind `deb`.
 27. **Partly.** "Book of the Wars of the Lord" is confirmed as a Wikipedia title. I could not confirm "Tall Hisban", so the 21:26 link now points to "Heshbon".

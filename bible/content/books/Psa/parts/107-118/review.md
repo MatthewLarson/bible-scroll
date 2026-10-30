@@ -2,9 +2,9 @@
 
 ## Verdict
 
-This is a strong part. `node tools/build.js --check Psa/107-118` reports 0 errors and 0 warnings (202 verses, 134 notes, 18 variants, 72 glosses, 12 chapter pages, 16 topic contributions). I rebuilt every verse against `literal.js` and found no mistranslation, no omitted line and no close copying of the NIV or ESV. Where the Hebrew is hard, the Plain keeps it hard and says so: 107:3 "and from the sea", 107:17 "fools", 110:3, 110:7, 116:1 "I love", 116:10, 116:15, 118:24, 118:27.
+This is a strong part. `node tools/build.js --check Psa/107-118` reports 0 errors and 0 warnings (202 verses, 134 notes, 18 variants, 72 glosses, 12 chapter pages, 16 topic contributions). I rebuilt every verse against `literal.js` and found no mistranslation, no omitted line and no close copying of the NIV or ESV. Where the Hebrew is hard, the Plain English Translation keeps it hard and says so: 107:3 "and from the sea", 107:17 "fools", 110:3, 110:7, 116:1 "I love", 116:10, 116:15, 118:24, 118:27.
 
-Psalm 108 matches the site's Plain of 57:7–11 and 60:5–12 word for word. It differs only where the Hebrew differs: 108:3 "and", 108:4 "higher than", 108:5 "And", 108:8 without "and", 108:9, 108:10, 108:11. The deep-dive table lists every one of these. The cross-part items all hold:
+Psalm 108 matches the site's Plain English Translation of 57:7–11 and 60:5–12 word for word. It differs only where the Hebrew differs: 108:3 "and", 108:4 "higher than", 108:5 "And", 108:8 without "and", 108:9, 108:10, 108:11. The deep-dive table lists every one of these. The cross-part items all hold:
 - The refrain at 107:1, 118:1 and 118:29 matches 106:1 and 1 Chronicles 16:34. 136:1 uses the second *ki*, which is defensible, and I do not flag it.
 - 110:1 keeps lowercase "my lord" throughout.
 - `hallel` and `hallelujah` are separate topics with separate subjects.
@@ -81,28 +81,28 @@ The chapter claim is right: Psalm 117 is chapter 595 of 1,189. But the verse cla
 **Fix:** Retype 111:1 and 112:1 as `word` (with `orig`) or `history`. Retype 117:1 as `history` (see finding 3).
 
 ### 5. Minor: Yah rendered two ways inside the part
-**Locations:** plain.txt 115:17 (*yehallelu-Yah*, Plain "sing the LORD's praise") and 115:18 (*nevarekh Yah*, Plain "we will bless the LORD"); compare 118:5, 14, 17, 18, 19, where the Plain has "Yah".
+**Locations:** plain.txt 115:17 (*yehallelu-Yah*, Plain English Translation "sing the LORD's praise") and 115:18 (*nevarekh Yah*, Plain English Translation "we will bless the LORD"); compare 118:5, 14, 17, 18, 19, where the Plain English Translation has "Yah".
 
 **What is wrong:** The 118:5 note explains why Psalm 118 keeps "Yah" (118:14 quotes Exodus 15:2). Nothing tells the reader that 115:17–18 also has Yah and renders it "the LORD". The other parts are mixed as well: "Yah" at 68:4 and 150:6, "the LORD" at 68:18, 77:11, 89:8, 94:7, 94:12, 102:18, 122:4, 130:3 and 135:4.
 
-**Fix:** Either render 115:18 "we, we will bless Yah", or add one sentence to the 118:5 note: "Yah also stands in 115:17–18, where the Plain has 'the LORD'." Also raise the cross-part rule with the lead, as a possible terms.json entry.
+**Fix:** Either render 115:18 "we, we will bless Yah", or add one sentence to the 118:5 note: "Yah also stands in 115:17–18, where the Plain English Translation has 'the LORD'." Also raise the cross-part rule with the lead, as a possible terms.json entry.
 
-### 6. Minor: quotations of this book that do not match its own Plain
+### 6. Minor: quotations of this book that do not match its own Plain English Translation
 These quotations are not followed directly by a reference, so the build does not check them:
-- **111:9 note:** "holy and awesome is his name". The Plain has "His name is holy and to be feared."
-- **112:5 note:** "Conducts his affairs with justice". The Plain has "he manages his affairs with justice".
-- **114:7 note:** "the God of Jacob". The Plain has "Jacob's God".
+- **111:9 note:** "holy and awesome is his name". The Plain English Translation has "His name is holy and to be feared."
+- **112:5 note:** "Conducts his affairs with justice". The Plain English Translation has "he manages his affairs with justice".
+- **114:7 note:** "the God of Jacob". The Plain English Translation has "Jacob's God".
 - **116:6 note:** the Torah "makes the simple wise" in 19:7. The site's 19:7 has "it gives wisdom to the simple".
 - **117:2 note:** 103:11, where God's loyal love is "mighty". The site's 103:11 has "stands strong over". The Hebrew (*gavar 'al*) is the same as 117:2's "mighty over us", so either align the two renderings across parts or quote 103:11 as it stands.
 
-**Fix:** Quote the Plain exactly, or drop the quotation marks.
+**Fix:** Quote the Plain English Translation exactly, or drop the quotation marks.
 
 ### 7. Minor: *ish* rendered "the man" in 112:1, and the note implies Psalm 1 has another word
 **Locations:** plain.txt 112:1; notes.json 112:10 ("Both poems begin 'Happy is the man' (in Psalm 1, 'the person')").
 
-**What is wrong:** 1:1 has *ashrei ha'ish* and 112:1 has *ashrei-ish*: the same noun. The 001-017 Plain chose "the person". This part chose "the man", which is defensible because of the masculine singulars that follow. But the note's parenthesis makes it sound as if the Hebrew differs.
+**What is wrong:** 1:1 has *ashrei ha'ish* and 112:1 has *ashrei-ish*: the same noun. The 001-017 Plain English Translation chose "the person". This part chose "the man", which is defensible because of the masculine singulars that follow. But the note's parenthesis makes it sound as if the Hebrew differs.
 
-**Fix:** Either align with 1:1, or change the note to "(the same Hebrew word, which the Plain of Psalm 1 renders 'the person')".
+**Fix:** Either align with 1:1, or change the note to "(the same Hebrew word, which the Plain English Translation of Psalm 1 renders 'the person')".
 
 ### 8. Minor: wrong transliteration
 **Location:** notes.json 112:10: "the poem's last word is <i>tovd</i>".
@@ -183,7 +183,7 @@ These quotations are not followed directly by a reference, so the build does not
 - **variants.json 110:3 (second entry), first `w`:** "Masoretic Text (Leningrad Codex, AD 1008) (Leningrad Codex)" repeats the name.
 - **notes.json 118:1:** "Jesus and his disciples, "sang the hymn"" has a stray comma before the quotation. The note also says the Hallel is "sung after the last cup". Mishnah Pesachim 10:7 has it completed over the fourth cup.
 - **plain.txt 118:25:** "save us now!" adds "us", which is not in *hoshi'ah na*. This is defensible, but the Hosanna note should say so.
-- **glosses.json 112:7:** "evil tidings" is older English than the Plain it explains. Use "bad news" or "terrible news".
+- **glosses.json 112:7:** "evil tidings" is older English than the Plain English Translation it explains. Use "bad news" or "terrible news".
 - **topics `hallel` core:** "at the start of Book Five's second half" is not accurate for Psalm 113, since Book Five is 107–150. Write "in the first part of Book Five".
 
 ## Fixes applied
@@ -200,7 +200,7 @@ These quotations are not followed directly by a reference, so the build does not
 - **3 (middle of the Bible):** Rewrote the 117:1 note as `history`. Psalm 117 is the 595th of 1,189 chapters; there is no single middle verse, and the two middle verses are 103:1–2; the 118:8 claim is called mistaken. Updated the 118:8 note to match.
 - **4 (`spec`):** 111:1 and 112:1 are now `word` notes (with orig and kind `nu`), and 117:1 is `history`. The part has no `spec` notes left.
 - **5 (Yah):** Followed the lead decision. 115:17 now reads "The dead do not praise Yah" and 115:18 "But we, we will bless Yah", with a first-use note at 115:17. Updated the 118:5 note, the sheol topic, the 115 summary and the traditions card.
-- **6 (quotations):** Requoted the Plain exactly in the notes on 111:9, 112:5, 114:7 and 116:6 (19:7). The 117:2 note now quotes 103:11 as it stands, and says the Hebrew is the same.
+- **6 (quotations):** Requoted the Plain English Translation exactly in the notes on 111:9, 112:5, 114:7 and 116:6 (19:7). The 117:2 note now quotes 103:11 as it stands, and says the Hebrew is the same.
 - **7 (*ish*):** 112:1 and 112:5 now say "the person", as in 1:1. The 112:10 note now says "(the same Hebrew)". The chapter 112 text is updated.
 - **8:** *tovd* is corrected to *to'ved*.
 - **9:** The 109:10 explanation now says only the first letter differs (gimel for dalet).
@@ -221,7 +221,7 @@ These quotations are not followed directly by a reference, so the build does not
 - **18 (small points):**
   - Removed the duplicate "(Leningrad Codex)" in the 110:3 variant.
   - Removed the stray comma in the 118:1 note, which now says the Hallel was "completed over the fourth cup".
-  - The Hosanna note now says the Plain adds "us", which the Hebrew does not have.
+  - The Hosanna note now says the Plain English Translation adds "us", which the Hebrew does not have.
   - The 112:7 gloss now reads "terrible news".
   - The hallel core now says "in the first part of Book Five".
 - **Lead decisions:**

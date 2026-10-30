@@ -7,7 +7,7 @@ poverty, interest-and-debt, prophet-like-moses, hanged-on-a-tree, firstfruits), 
 
 ## Verdict
 
-This is a strong part. The Plain English was built from the Hebrew. I read all 345 verses against
+This is a strong part. The Plain English Translation was built from the Hebrew. I read all 345 verses against
 `node tools/literal.js Deu <ch>` and found nothing added, dropped or mistranslated in a way that changes a law, and the key
 terms (to'evah "abhorrent", cherem "the ban", segullah "own private treasure", "sweep the evil out", ov/yidde'oni,
 tsara'at, ger "foreigner") are rendered the same way every time. They also match Exodus 21–23 and Leviticus 11, 17, 19, 20
@@ -37,7 +37,7 @@ the mainstream Jewish reading of 18:15 as "uncommon". None of these is critical.
   she is stoned "because she did not cry for help". "He violated his neighbor's wife" therefore contradicts the case that
   the verse itself sets out. The Hebrew says he dishonored the betrothed woman, and so wronged her future husband
   (אֲשֶׁר־עִנָּה אֶת־אֵשֶׁת רֵעֵהוּ). In 21:14 and 22:29 "violated" settles the debated questions (was the captive raped? is
-  22:28 a rape?) inside the translation. The 21:11 note then quotes the Plain's own word as textual evidence for one side
+  22:28 a rape?) inside the translation. The 21:11 note then quotes the Plain English Translation's own word as textual evidence for one side
   of the debate, which makes the argument circular.
 - **Fix:** Render 'innah one way in all three verses, e.g. "dishonored" or "humbled". Add one `word`/`deb` note at 21:14
   that explains the range of the word, from "shame" to "force" (Genesis 34:2; 2 Samuel 13:14). Reword the 21:11 note so
@@ -181,7 +181,7 @@ outside the land varied.) **Fix:** "the Mishnah applies it in the land and abroa
 
 ### 12. 24:5 note: the KJV is misdescribed
 The note says *vesimmach* means he makes her glad, "not that he is to enjoy her (as the KJV's 'cheer up his wife'
-understood)". "Cheer up his wife" *is* "make her glad", so the KJV agrees with the Plain. The contrast belongs to readings
+understood)". "Cheer up his wife" *is* "make her glad", so the KJV agrees with the Plain English Translation. The contrast belongs to readings
 like "rejoice with his wife" (the Qal vocalization that some translations follow). **Fix:** Say that, or drop the
 parenthesis.
 
@@ -253,7 +253,7 @@ followed. Check also whether the SP joins the LXX in adding the Girgashites at 2
 - 23:4 "they hired Balaam": the Hebrew וַאֲשֶׁר שָׂכַר is singular (Moab, or Balak). "he hired" or "Moab hired" is more exact.
 - 19:3 "Prepare the roads": the Hebrew has the singular הַדֶּרֶךְ, "the road".
 - 25:19 "So the LORD your God will give you rest": וְהָיָה בְּהָנִיחַ is temporal, "When the LORD ... gives you rest ... then
-  wipe out". The Plain turns the clause into a statement. 26:12 does the same ("In the third year ... you will finish"
+  wipe out". The Plain English Translation turns the clause into a statement. 26:12 does the same ("In the third year ... you will finish"
   for כִּי תְכַלֶּה, "When you have finished").
 - 16:18–20: צֶדֶק is "right" in 16:18 and "justice" in 16:20, while מִשְׁפָּט is also "justice" in 16:19. The 16:20 note says
   tsedeq also means "right", but a reader cannot tell the two Hebrew words apart. Consider "Do not bend judgment" in 16:19,
@@ -284,13 +284,13 @@ do not "say where they overlap with published scholarship". **Fix:** Add one lin
 modern environmental readings of *bal tashchit*. chosen-place overlaps with McConville's reading of the unnamed place.
 
 ### 26. 18:11 note quotes 1 Samuel 28:3 in terms that clash with terms.json
-"Saul had removed the necromancers and the soothsayers" renders the same הָאֹבוֹת וְאֶת־הַיִּדְּעֹנִים that the Plain and
+"Saul had removed the necromancers and the soothsayers" renders the same הָאֹבוֹת וְאֶת־הַיִּדְּעֹנִים that the Plain English Translation and
 terms.json fix as "ghosts of the dead / spirits that know things" (also Leviticus 19:31; 20:6, 27 on the site). 1 Samuel is
 not yet on the site, so the quotation is the writer's own. **Fix:** "Saul had removed the ghosts of the dead and the
 spirits that know things from the land", or mark it as a paraphrase. The 18:10 note itself is consistent.
 
 ### 27. terms.json: check of the added terms
-- she'arim "your towns": followed throughout. Where the gate as court is meant (17:5; 21:19; 22:15, 24; 25:7), the Plain
+- she'arim "your towns": followed throughout. Where the gate as court is meant (17:5; 21:19; 22:15, 24; 25:7), the Plain English Translation
   rightly keeps "gate". Fine.
 - "the place the LORD will choose": followed in every occurrence. Fine.
 - "sweep the evil out from among you": followed in 13:5; 17:7, 12; 19:19; 21:21; 22:21, 22, 24; 24:7, and adapted rightly
@@ -388,7 +388,7 @@ All checks after the fixes: `--check Deu/12-26` 0 errors, 0 warnings (345 verses
 9. justice core: "elders" removed; justice and poverty now relate to each other.
 10. prophet-like-moses added to `related` in prophecy.json and messiah.json. "release of debts" dropped from interest-and-debt. I did not add a link from feast-of-weeks to firstfruits, because that core belongs to another book; this is left for the coordinator.
 11. 18:3: Mishnah Chullin 10:1 now "in the land and abroad, with or without a temple".
-12. 24:5: rewritten; the KJV agrees with the Plain, and the other pointing is "rejoice with his wife".
+12. 24:5: rewritten; the KJV agrees with the Plain English Translation, and the other pointing is "rejoice with his wife".
 13. 13:5: nine laws, plus two "innocent blood" forms (19:13; 21:9).
 14. 13:15 and ch 13 VIEW J: Mishnah Sanhedrin 4:1 dropped; border town (Sanhedrin 16b), Jerusalem (Bava Kamma 82b).
 15. 21:2: navel or nose (Mishnah Sotah 9:4); end of the rite (9:9).

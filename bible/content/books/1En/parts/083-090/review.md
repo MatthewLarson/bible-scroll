@@ -3,17 +3,17 @@
 Reviewed: plain.txt, notes.json (135), variants.json (10), glosses.json (57), chapters.json (83–90), topics.json,
 sources.json, the new topic files content/topics/animal-apocalypse.json and content/topics/maccabean-revolt.json,
 and the two new entries in content/terms.json (ʾƎgziʾä ʾäbagʿ "the Lord of the sheep"; nolawyan / nolot "shepherds").
-I checked every verse of the Plain against Dillmann's Ge'ez (`gez` + `tr`), the EOTC text, `texts/auto`, the
+I checked every verse of the Plain English Translation against Dillmann's Ge'ez (`gez` + `tr`), the EOTC text, `texts/auto`, the
 Vatican Greek of 89:42–49 and Charles (texts/en). `node tools/build.js --check 1En/083-090` now reports
 **0 errors, 0 warnings** (the book.json cited_in errors did not show up on this run).
 
 ## Verdict
 
-This is a careful, mostly faithful part. The Plain follows the Ge'ez closely, keeps the vision's repetitions, and
+This is a careful, mostly faithful part. The Plain English Translation follows the Ge'ez closely, keeps the vision's repetitions, and
 follows the EOTC verse breaks where the old machine cut of `gez` was wrong (89:22/23 "wäkbər", 90:1/2, 90:5/6).
 It avoids Charles's mistakes where the Ge'ez is against him (87:4 "They said", 89:20 "began to strike", 90:3 "I
 cried out", 90:7 "did not cry"). The animal-by-animal decoding is accurate and fair. But the handling of the
-witnesses is weaker than the translation. At 87:2 the Plain says "Four" where both Ge'ez texts say "one", and
+witnesses is weaker than the translation. At 87:2 the Plain English Translation says "Four" where both Ge'ez texts say "one", and
 nothing tells the reader. The 90:38 "word / wild ox" entry credits Charles with a conjecture he did not print:
 the site's own Charles text reads "lamb." There is no evidence at all from the Ethiopic manuscript families or
 the Aramaic fragments. The canon notes never once say "conflicts," even where 1 Enoch plainly contradicts Haggai
@@ -25,11 +25,11 @@ Genesis 6) may be wrong. None of this is fabricated, and all of it can be fixed.
 ### 1. Major: plain.txt 87:2 "Four came out", against both Ge'ez texts, with no variant or note
 - Dillmann: `wä[1]wäṣʾä ʾəmwəʾtu mäkan wä[3]məslehu` ("and **one** came out from that place, and three with him").
   EOTC: `ወአሐዱ፡ ወፅአ … ወሠለስቱ፡ ምስሌሆሙ` ("and **one** came out … and three with them"). Charles has "four."
-- The Plain takes Charles's "four" (which the story needs for "one of those four" in 88:1, 88:3 and 89:1, and for
+- The Plain English Translation takes Charles's "four" (which the story needs for "one of those four" in 88:1, 88:3 and 89:1, and for
   "seven" in 90:21) and says nothing about it. Note 36 (87:2) and the chapter 85 table ("87:2 Four white men")
-  present it as the text. This is the one place in the part where the Plain silently leaves its own source.
+  present it as the text. This is the one place in the part where the Plain English Translation silently leaves its own source.
 - Fix: add a variant at 87:2 (Dillmann and EOTC "one … and three"; "four" from Charles, giving his grounds, or the
-  manuscripts if Knibb or Charles report any, marked "from memory" if it is). Explain why the Plain follows
+  manuscripts if Knibb or Charles report any, marked "from memory" if it is). Explain why the Plain English Translation follows
   "four" (88:1 and 89:1 say "one of those four"). Mention it in note 36.
 
 ### 2. Major: variants.json 90:38 and note 131 credit the wrong conjecture to Charles, and leave out "lamb"
@@ -75,14 +75,14 @@ Genesis 6) may be wrong. None of this is fabricated, and all of it can be fixed.
   against the andəmta tradition. If both readings exist in the church, say so.
 
 ### 5. Major: missing variant entries where the witnesses differ in meaning
-`texts/auto`, Dillmann, the EOTC text and Charles differ in these places. The Plain or the notes take a side
+`texts/auto`, Dillmann, the EOTC text and Charles differ in these places. The Plain English Translation or the notes take a side
 without an entry:
-- **85:3**: Ge'ez (both texts) `wämsəleha wäṣʾä kalʾ ṭaʿwa`, "with her came out **another** calf." The Plain says
+- **85:3**: Ge'ez (both texts) `wämsəleha wäṣʾä kalʾ ṭaʿwa`, "with her came out **another** calf." The Plain English Translation says
   "with her came two more calves," Charles's "two bulls." Readers need to know the Ge'ez has one more calf.
 - **86:3**: Dillmann `wäʾälhəmt konu məslehomu` ("[among those calves] and cattle they were with them"), followed
-  by the Plain. EOTC `ወአልሕምተ፡ ኮኑ` (accusative) gives "they **became bulls** among those calves," which is
+  by the Plain English Translation. EOTC `ወአልሕምተ፡ ኮኑ` (accusative) gives "they **became bulls** among those calves," which is
   Charles's reading. Whether the stars take the form of bulls matters for how the vision pictures the Watchers.
-  The chapter 86 summary even uses the reading the Plain rejects (finding 6).
+  The chapter 86 summary even uses the reading the Plain English Translation rejects (finding 6).
 - **89:1**: "taught him a secret, **while he trembled**" against Charles "without his being terrified." Note 42
   mentions it, but this is a manuscript difference that belongs in variants.json, with its witnesses.
 - **89:39**: Ge'ez `ʾäbagʿ kʷilomu`, "all" the sheep, against Charles's "the two sheep." Note 69 mentions it. Give
@@ -104,9 +104,9 @@ without an entry:
   writer cannot check, say in the textual-history note that the Ethiopic family evidence has not been weighed
   here. Silence suggests the evidence agrees when nobody has checked.
 
-### 7. Minor: chapters.json 86 summary contradicts the Plain
-"They become like bulls among the cattle" uses the EOTC/Charles reading. Plain 86:3 follows Dillmann: "They were
-among those calves and cattle." Fix: make the summary match the Plain, or switch the Plain and add the variant
+### 7. Minor: chapters.json 86 summary contradicts the Plain English Translation
+"They become like bulls among the cattle" uses the EOTC/Charles reading. Plain English Translation 86:3 follows Dillmann: "They were
+among those calves and cattle." Fix: make the summary match the Plain English Translation, or switch the Plain English Translation and add the variant
 (finding 5).
 
 ### 8. Minor: plain.txt 86:2 "large black cattle" drops the Ge'ez "and"
@@ -124,8 +124,8 @@ read two groups here. Fix: "large and black cattle."
 
 ### 10. Minor: plain.txt 84:3 and note 15 analyze the same Ge'ez differently
 Note 15 says the masculine and the feminine "one" (`wäʾi[1] wäʾiʾäḥäti`) together mean "not one, not one," going
-with "deed." The Plain uses the masculine for the deed ("not even one") and the feminine again for wisdom ("Not
-one bit of wisdom"). Pick one analysis and make the note and the Plain agree.
+with "deed." The Plain English Translation uses the masculine for the deed ("not even one") and the feminine again for wisdom ("Not
+one bit of wisdom"). Pick one analysis and make the note and the Plain English Translation agree.
 
 ### 11. Minor: variant `orig` fields do not reproduce the texts they name
 - 84:5, Dillmann reading: the entry gives `ወይኩን ፡ ሀጕል`. Dillmann's text is `ወይከውን ፡ ሐጒል`. The given form
@@ -213,14 +213,14 @@ works.json name is better.
   `kind: "nu"`, which belongs only on `word` notes.
 - Note 48 and the chapter 85 "Why animals?" section rest on Leviticus 11's clean and unclean animals, but neither
   is tagged with the existing `food-laws` topic.
-- terms.json: the two new entries are accurate, and the Plain follows them throughout. Every "Lord of the sheep"
+- terms.json: the two new entries are accurate, and the Plain English Translation follows them throughout. Every "Lord of the sheep"
   renders `ʾƎgziʾä ʾäbagʿ` or `ʾƎgziʾomu läʾäbagʿ`, and "shepherd" is never used for God or the kings. One thing
   for the book owner: the existing `täklä ṣədq` "the plant of righteousness" entry cites 84:6, where the Ge'ez is
-  `täklä zärʾ` ("plant of seed"), and the Plain rightly does not say "plant of righteousness."
+  `täklä zärʾ` ("plant of seed"), and the Plain English Translation rightly does not say "plant of righteousness."
 
 ## Checked and found sound
 - The new `gez` cut agrees with the EOTC breaks the writer followed. Where the machine cut still runs a word over
-  (89:23 `wäkbər`, 90:2 `nolawyan bäbägizehu`, 90:6 `bäbägizehomu [50]wä[8]gizeyatä`), the Plain puts the words
+  (89:23 `wäkbər`, 90:2 `nolawyan bäbägizehu`, 90:6 `bäbägizehomu [50]wä[8]gizeyatä`), the Plain English Translation puts the words
   in the right verse.
 - Vatican Greek (89:42–49): its description (Byzantine shorthand, Mai 1844, Gildemeister ZDMG 1855, a quotation
   with "next to these it is written…") and the four variant entries match the Greek in texts/orig.
@@ -229,7 +229,7 @@ works.json name is better.
   Pseudo-Jonathan Deuteronomy 32:8, Jubilees 4:17–20, Damascus Document 1:9–11, Tertullian and Hippolytus on Enoch
   and Elijah. All of these are accurately reported.
 - No em-dashes; the poetry in 84:2–6 is marked with " / "; reading level is close to 8th grade.
-- No sentence shapes copied from a modern copyrighted translation turned up. The Plain is close to Charles only
+- No sentence shapes copied from a modern copyrighted translation turned up. The Plain English Translation is close to Charles only
   where the Ge'ez word order forces it (except 89:1, finding 9).
 
 ## Fixes applied
@@ -249,18 +249,18 @@ Fixed 23 findings and partly fixed 2 (6 and 18). None declined outright; one ite
    - In the notes, the unsourced claims at 83:8, 83:11, 89:29, 89:58, 90:37 and 90:38 now say "readers who receive the book as Scripture," or cite Asale.
    - Assefa is now cited at 90:37, only for what his title shows he studies (the question of military propaganda). I made no claim about his conclusion. He is not used as a voice of the church.
 5. **Missing variants:** fixed, with new entries at 85:3, 86:3, 89:1 and 89:39. 90:20 got a `deb` note instead, because only a supplied subject is involved.
-   - 85:3: the Ge'ez has "another calf." The Plain keeps "two" because the story needs it, and ካልእ "another" and ክልኤ "two" are easily confused.
+   - 85:3: the Ge'ez has "another calf." The Plain English Translation keeps "two" because the story needs it, and ካልእ "another" and ክልኤ "two" are easily confused.
    - 86:3: Dillmann against the EOTC's accusative (the stars "became cattle").
    - 89:1 and 89:39: Charles's English against both Ge'ez texts. Each entry says Charles's manuscript basis was not checked.
 6. **Ethiopic families and Aramaic readings:** partly fixed. I cannot check Knibb's apparatus or the fragments' readings here, and I will not report readings from memory. Instead, the chapter 85 fact box now says plainly that the variants compare Dillmann, the EOTC, the Vatican Greek and Charles, and that the Ethiopic manuscript families and the Aramaic readings have not been weighed. The 89:1 note and the 86:3 variant say the same for 4Q206 and 4Q207.
-7. **Chapter 86 summary:** fixed; it now matches the Plain (the stars are "living among the calves and cattle").
+7. **Chapter 86 summary:** fixed; it now matches the Plain English Translation (the stars are "living among the calves and cattle").
 8. **86:2:** fixed; the verse now reads "large and black cattle."
 9. **Small additions:** fixed.
    - 83:1: "one by one" removed.
    - 89:29: "back" removed.
    - 89:63: now "so that I may hand them over," with a new `deb` note on who "them" are.
    - 89:1: now "That bull was born, and he became a man." The drift audit log was updated.
-10. **84:3:** fixed. The note now says "not one" (masculine) goes with "deed," and the feminine "one" goes with "wisdom," which is how the Plain already reads.
+10. **84:3:** fixed. The note now says "not one" (masculine) goes with "deed," and the feminine "one" goes with "wisdom," which is how the Plain English Translation already reads.
 11. **Variant `orig` fields:** fixed. 84:5 now gives Dillmann's own spelling (ወይከውን ፡ ሐጒል); 90:1 gives Dillmann ፴ወ፯ and the EOTC spelled-out number separately; Charles was moved out of the 89:42 witnesses and into `why`.
 12. **89:43:** fixed; the `why` now uses the reviewer's reasoning.
 13. **89:55:** fixed. The claim that tigers were unknown in the Near East is removed, "tigers" is now called a looser rendering, and the kind is `nu`.

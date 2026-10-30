@@ -10,7 +10,7 @@ Method notes.
 
 ## Verdict
 
-The translation is strong, and the writer's drift claim stands up. I found no verse that leans on the NIV or ESV. None of the 43 sampled verses shares a run of six words with the ESV, except where the Hebrew forces it: "as his name is, so is he" (25:25), "the bundle of the living" (25:29), "the LORD's anointed" (24:6; 26:9) and "the king of Israel has come out" (26:20). The Plain is built from the Hebrew, keeps hard images ("A dead dog. One flea."; "he flew at them screaming"; "the cup of a sling"), and follows the reading each variant entry claims. Reading level is right, with an average sentence of 12 words and no em-dashes anywhere. Most Jewish-source citations check out: Megillah 14a/15a, Sanhedrin 10:2, Arakhin 15b, Berakhot 12b and 62b, Hagigah 4b, Shabbat 152b, Ketubot 110b, Menachot 95b, Mishnah Sanhedrin 7:7, Genesis Rabbah 34:13, Numbers Rabbah 14:1 and Leviticus Rabbah 26:7. The Endor chapter gives all three views (real Samuel, demon, fraud) seriously and with real sources.
+The translation is strong, and the writer's drift claim stands up. I found no verse that leans on the NIV or ESV. None of the 43 sampled verses shares a run of six words with the ESV, except where the Hebrew forces it: "as his name is, so is he" (25:25), "the bundle of the living" (25:29), "the LORD's anointed" (24:6; 26:9) and "the king of Israel has come out" (26:20). The Plain English Translation is built from the Hebrew, keeps hard images ("A dead dog. One flea."; "he flew at them screaming"; "the cup of a sling"), and follows the reading each variant entry claims. Reading level is right, with an average sentence of 12 words and no em-dashes anywhere. Most Jewish-source citations check out: Megillah 14a/15a, Sanhedrin 10:2, Arakhin 15b, Berakhot 12b and 62b, Hagigah 4b, Shabbat 152b, Ketubot 110b, Menachot 95b, Mishnah Sanhedrin 7:7, Genesis Rabbah 34:13, Numbers Rabbah 14:1 and Leviticus Rabbah 26:7. The Endor chapter gives all three views (real Samuel, demon, fraud) seriously and with real sources.
 
 But it is not ready.
 - **Terms.** *Nagid* in 25:30 is "leader," which breaks terms.json and the rendering of part 01-11.
@@ -25,7 +25,7 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
 ### Major
 
 1. **major. plain.txt 25:30 and note 25:30: *nagid* rendered "leader," against terms.json.**
-   - Hebrew: וְצִוְּךָ לְנָגִיד עַל־יִשְׂרָאֵל. The Plain has "He will make you leader over Israel."
+   - Hebrew: וְצִוְּךָ לְנָגִיד עַל־יִשְׂרָאֵל. The Plain English Translation has "He will make you leader over Israel."
    - terms.json: *nagid* = "ruler (Saul and David are 'ruler over the LORD's people'; *melekh* is 'king')."
    - Part 01-11 follows the rule: 9:16 "anoint him as ruler over my people Israel," 10:1 "anointed you as ruler." The note on 25:30 points readers to exactly those verses ("God told Samuel to anoint Saul as *nagid* (9:16; 10:1)"), so a reader will see "ruler" there and "leader" here for the same word. The note is also titled "'Leader' (nagid)" and glosses it "leader, prince."
    - Fix: "He will appoint you ruler over Israel." Retitle the note "'Ruler' (nagid)."
@@ -42,12 +42,12 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
    - The `textual-history` contribution says "the Dead Sea Scrolls (especially 4QSam-a) frequently preserve a better text," but the part never uses them.
    - Fix: make a DJD 17 pass over every preserved verse. Add entries where the scrolls differ in sense, and add the scrolls to the `w` lists of existing entries where they agree with the Masoretic Text or the Greek.
 
-3. **major. Missing variant entries for differences the major English versions follow.** STYLE requires an entry wherever a major translation follows or footnotes a different reading. In each case below the Plain follows the Masoretic Text silently (or supplies words without a note).
-   - **30:2.** The Masoretic Text has וַיִּשְׁבּוּ אֶת־הַנָּשִׁים אֲשֶׁר־בָּהּ, "they took captive the women who were in it." The Greek adds "and all" ("the women and all who were in it"). The ESV ("the women and all who were in it"), NIV, NRSV and BSB ("the women and all who were there") follow the Greek. The KJV follows the Masoretic Text. The Plain ("the women who were in it, from the youngest to the oldest") follows the Masoretic Text with no entry. 4QSam-a is not extant here; the Greek alone carries it.
-   - **22:4.** The Masoretic Text has וַיַּנְחֵם אֶת־פְּנֵי מֶלֶךְ מוֹאָב, "he led them before the king of Moab." The Syriac, Targum and Vulgate read וַיַּנִּחֵם, "he left them." The NIV and ESV ("he left them with the king of Moab") and the BSB follow that reading. The Plain ("He brought them into the presence of the king of Moab") follows the Masoretic vowels without a note.
+3. **major. Missing variant entries for differences the major English versions follow.** STYLE requires an entry wherever a major translation follows or footnotes a different reading. In each case below the Plain English Translation follows the Masoretic Text silently (or supplies words without a note).
+   - **30:2.** The Masoretic Text has וַיִּשְׁבּוּ אֶת־הַנָּשִׁים אֲשֶׁר־בָּהּ, "they took captive the women who were in it." The Greek adds "and all" ("the women and all who were in it"). The ESV ("the women and all who were in it"), NIV, NRSV and BSB ("the women and all who were there") follow the Greek. The KJV follows the Masoretic Text. The Plain English Translation ("the women who were in it, from the youngest to the oldest") follows the Masoretic Text with no entry. 4QSam-a is not extant here; the Greek alone carries it.
+   - **22:4.** The Masoretic Text has וַיַּנְחֵם אֶת־פְּנֵי מֶלֶךְ מוֹאָב, "he led them before the king of Moab." The Syriac, Targum and Vulgate read וַיַּנִּחֵם, "he left them." The NIV and ESV ("he left them with the king of Moab") and the BSB follow that reading. The Plain English Translation ("He brought them into the presence of the king of Moab") follows the Masoretic vowels without a note.
    - **30:27 and 30:29.** For Bethel, the Greek has Βαιθσουρ (Beth-zur). For Racal, it has Καρμηλος (Carmel), and McCarter adopts Carmel, which suits Abigail's town. The Greek also adds towns in 30:28. The note on 30:31 discusses Bethuel but never mentions the Greek. 4QSam-a is extant here (30:22–31).
    - **27:8.** For אֲשֶׁר מֵעוֹלָם ("from of old"), the Greek reads a place name (Γελαμψουρ, usually taken as "from Telam," compare 15:4). Many commentators adopt it, since "from of old" is grammatically awkward. 4QSam-a is extant here.
-   - **24:10.** The Masoretic Text has וַתָּחָס עָלֶיךָ, "and (it, feminine) spared you," with no subject. The Plain supplies "my eye." The Greek, Targum and Vulgate have "I spared you" (ESV "but I spared you"). A one-line note is enough, but the reader should know "my eye" is supplied.
+   - **24:10.** The Masoretic Text has וַתָּחָס עָלֶיךָ, "and (it, feminine) spared you," with no subject. The Plain English Translation supplies "my eye." The Greek, Targum and Vulgate have "I spared you" (ESV "but I spared you"). A one-line note is enough, but the reader should know "my eye" is supplied.
    - Fix: add variant entries for 30:2 and 22:4. Add an entry for 30:27–29 (or fold the Greek into the 30:31 note). Add a note or entry for 27:8 and a short `word` note for 24:10.
 
 4. **major. variants.json 25:3: the Septuagint is listed as a witness for the written form "like his heart," which it does not support.**
@@ -68,8 +68,8 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
      - She is "of Jezreel," a Judahite town, not "daughter of Ahimaaz."
      - 2 Samuel 12:8 may be stock language for inheriting a royal house.
    - "Most commentators find this possible" overstates support. Most mention it and reject it, or leave it open.
-   - Also, the `polygamy` contribution says that "after Nabal dies, David marries Abigail and also Ahinoam," which contradicts the Plain's "David had already taken Ahinoam" (25:43).
-   - Fix: give both cases in the note, with 60–100 words a side. Replace "this is a guess" with a neutral sentence. Make the topic match the Plain's pluperfect, or note that the Hebrew order allows either.
+   - Also, the `polygamy` contribution says that "after Nabal dies, David marries Abigail and also Ahinoam," which contradicts the Plain English Translation's "David had already taken Ahinoam" (25:43).
+   - Fix: give both cases in the note, with 60–100 words a side. Replace "this is a guess" with a neutral sentence. Make the topic match the Plain English Translation's pluperfect, or note that the Hebrew order allows either.
 
 6. **major. The suicide topic (`content/topics/suicide.json`, its contribution in topics.json, and the views note on 31:4) is not yet handled responsibly or fully.**
    - Audience. The site's readers include teens, and this is a "Studies" page on suicide. It has no word for a reader who is struggling. One plain line would do, set apart at the end of the core: "If you are thinking about ending your life, please talk to someone now; in the US you can call or text 988." It should not preach.
@@ -82,8 +82,8 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
      - People who wished to die and were met with care instead of rebuke: Moses (Numbers 11:15), Elijah, who is fed and allowed to rest (1 Kings 19:4–8), Jonah (Jonah 4:3, 8–11) and Job (Job 3).
      - Paul stopping the Philippian jailer: "Do not harm yourself" (Acts 16:27–28).
    - Samson is listed as a case with no word that many readers class his death as an act of war, not suicide.
-   - The topic contribution says Saul was "badly wounded by archers." The Plain deliberately says "anguish" and the 31:3 note explains why (see item 11).
-   - Fix: add a short section on despair and God's response with the verses above, and a short section on modern Jewish and Christian pastoral teaching. Mark Samson as debated, align the wording with the Plain, and add the one-line help notice.
+   - The topic contribution says Saul was "badly wounded by archers." The Plain English Translation deliberately says "anguish" and the 31:3 note explains why (see item 11).
+   - Fix: add a short section on despair and God's response with the verses above, and a short section on modern Jewish and Christian pastoral teaching. Mark Samson as debated, align the wording with the Plain English Translation, and add the one-line help notice.
 
 7. **major. The "Claude's theory" items: one rests on a false claim, and two claim originality that the writer's own notes contradict (STYLE rule 4).**
    - **Chapter 21 box and the `david` topic, "the bread and the sword."** The box claims the sword is "never mentioned again" and that "the sword drops out of the story." The topic says "The sword never appears again." Both are false. Doeg names it in 22:10 ("he handed him the sword of Goliath the Philistine"), and Saul repeats it in 22:13 ("You handed him bread and a sword"). In fact 22:13 pairs the bread and the sword, which could support the theory, but only if it is stated correctly. Fix: say that David never uses the sword, note 22:10 and 22:13, and rework the argument.
@@ -95,7 +95,7 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
 
 8. **minor. variants.json 27:10: the account of the ancient versions is doubtful and incomplete.**
    - The `why` says "the Targum and medieval commentators read it as 'where'."
-   - The Vulgate reads *In quem irruistis hodie?*, "against whom did you rush in today?", the same as the Greek ἐπὶ τίνα. The entry does not mention it, though it adds an independent witness for the reading the Plain follows.
+   - The Vulgate reads *In quem irruistis hodie?*, "against whom did you rush in today?", the same as the Greek ἐπὶ τίνα. The entry does not mention it, though it adds an independent witness for the reading the Plain English Translation follows.
    - Driver (on this verse) lists the Targum with the Greek as well, if I remember it rightly. That should be checked before the claim stands.
    - 4QSam-a preserves 27:8–12 (item 2).
    - Fix: check Driver, the Targum and DJD 17; add the Vulgate; and correct the Targum claim if it is wrong.
@@ -111,9 +111,9 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
     - The `why` itself rightly says *wytw*.
     - Fix: "written *wytw*, read *wytyw*."
 
-11. **minor. Note 31:3 and the topics: misstated evidence for "wounded," and wording that contradicts the Plain.**
+11. **minor. Note 31:3 and the topics: misstated evidence for "wounded," and wording that contradicts the Plain English Translation.**
     - The note says "1 Chronicles 10:3 also has 'wounded'." But the Hebrew of 1 Chronicles 10:3 has the same ambiguous verb, וַיָּחַל מִן־הַיּוֹרִים. Only English versions such as the KJV render it "wounded." The Greek is the only real witness to "wounded in the abdomen."
-    - The `saul` contribution says "wounded on Gilboa" and the `suicide` contribution says "Badly wounded by archers." Both state as fact the reading the Plain chose not to follow.
+    - The `saul` contribution says "wounded on Gilboa" and the `suicide` contribution says "Badly wounded by archers." Both state as fact the reading the Plain English Translation chose not to follow.
     - Fix: "the Greek says he was wounded; Chronicles repeats the same Hebrew verb." Make the topics say "in anguish" or "hard pressed by the archers."
 
 12. **minor. plain.txt 26:19: "'Go, worship other gods'" for לֵךְ עֲבֹד אֱלֹהִים אֲחֵרִים.**
@@ -138,7 +138,7 @@ Counts: **critical 0, major 7, minor 24**. Item 32 lists checks that passed and 
 
 16. **minor. plain.txt 31:10, chapter 31 summary and the `hanged-on-a-tree` contribution: "nailed up."**
     - תָּקְעוּ means "thrust, fastened," as with a tent peg (the note says so). "Nailed" is a guess, and the chapter page and topic repeat it as fact ("nail his body," "nail the bodies").
-    - Fix: "fastened his corpse to the wall" in the Plain. Or keep "nailed" and say in the note that the method is not stated.
+    - Fix: "fastened his corpse to the wall" in the Plain English Translation. Or keep "nailed" and say in the note that the method is not stated.
 
 17. **minor. Endor fairness: small overstatements in an otherwise fair treatment.**
     - The `medium-of-endor` contribution's "common" line reads "Most Jewish and Christian readers through history have held that Samuel really appeared." For Christians this is doubtful: the demon view dominated Protestant interpretation from Luther and Calvin into the 1800s, and many church fathers held it. Fix: "Most Jewish readers, and many Christians, especially today, ..."
@@ -258,17 +258,17 @@ Applied 2026-10-23 by the part writer. Afterwards `--check 1Sa/21-31` and `--che
 **Major**
 1. *Nagid.* 25:30 now reads "He will appoint you ruler over Israel." The note is retitled "'Ruler' (nagid)" and points back to 9:16 and 13:14. The leftover "leader" at 13:14 belongs to part 12-20 and is passed on to that writer.
 2. *Dead Sea Scrolls.* Accepted in part.
-   - DJD 17, Ulrich and the Dead Sea Scrolls Bible could not be opened from this container. Only one significant reading could be confirmed from secondary reports: 28:1. It now has its own entry, "to fight Israel" against 4QSam-a "to fight at Jezreel," labeled "as reported by Ulrich and in the Dead Sea Scrolls Bible (reconstruction in DJD 17 not checked here)." The Plain keeps the Hebrew and Greek, because the scroll's text is fragmentary and known here only from reports.
+   - DJD 17, Ulrich and the Dead Sea Scrolls Bible could not be opened from this container. Only one significant reading could be confirmed from secondary reports: 28:1. It now has its own entry, "to fight Israel" against 4QSam-a "to fight at Jezreel," labeled "as reported by Ulrich and in the Dead Sea Scrolls Bible (reconstruction in DJD 17 not checked here)." The Plain English Translation keeps the Hebrew and Greek, because the scroll's text is fragmentary and known here only from reports.
    - The entries for 27:8, 27:10 and 30:27 say that 4QSam-a preserves those verses (as listed in DJD 17), and that its reading there is not reported in the works used here.
    - The textual-history topic now gives the verses the scrolls cover and the 28:1 reading.
    - Not done: the reading of each fragment at 23:11–12 and 31:3–4. No unconfirmed scroll reading was added. A pass with DJD 17 in hand is still needed.
-3. *Missing entries.* Added entries for 22:4 ("brought them before" against "left them with"), 24:10 ("my eye" supplied, against "I spared you"), 27:8 ("from long ago" against Greek "from Telam"), 30:2 ("and all"), 30:27 (Bethel against Beth-zur, with the Greek additions in 30:28 noted) and 30:29 (Racal against Carmel). The Plain follows the Masoretic Text in all six, and each `why` gives the reason.
+3. *Missing entries.* Added entries for 22:4 ("brought them before" against "left them with"), 24:10 ("my eye" supplied, against "I spared you"), 27:8 ("from long ago" against Greek "from Telam"), 30:2 ("and all"), 30:27 (Bethel against Beth-zur, with the Greek additions in 30:28 noted) and 30:29 (Racal against Carmel). The Plain English Translation follows the Masoretic Text in all six, and each `why` gives the reason.
 4. *25:3.* Now three readings: Qere "Calebite"; Ketiv *kelibbo* "like his heart" (no ancient version follows it); Greek *kynikos*, reading the Qere consonants as *kalbi*. The `why` was rewritten to match.
 5. *Ahinoam.* The 25:43 note now gives each side in its strongest form.
    - For: the name occurs for only these two women; 2 Samuel 12:8; taking a ruler's women as a claim to his throne (2 Samuel 3:7; 16:21–22; 1 Kings 2:22); and 25:43–44 set side by side.
    - Against: Jonathan's age, "of Jezreel" rather than "daughter of Ahimaaz," and 12:8 as stock language.
    - The note now says "most commentators mention it and set it aside, or leave it open," and adds the source `levenson-halpern-marriages` (JBL 99, 1980).
-   - The polygamy contribution now follows the Plain ("had already taken"). It sums up both sides neutrally and drops "this is a guess." Chapter 25 has a new short deep section, "Ahinoam and Michal."
+   - The polygamy contribution now follows the Plain English Translation ("had already taken"). It sums up both sides neutrally and drops "this is a guess." Chapter 25 has a new short deep section, "Ahinoam and Michal."
 6. *Suicide.*
    - The core now has a section on people who wished to die and were met with care: Moses, Elijah, Jonah, Job, and the Philippian jailer.
    - A section on modern pastoral teaching: Jewish *anus* and burial, Catechism 2282–2283, and Protestant writers. It cites `catechism-catholic`.

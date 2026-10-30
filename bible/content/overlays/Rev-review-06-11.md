@@ -1,6 +1,6 @@
 # Hostile review: Revelation 6–11
 
-Reviewer: hostile-reviewer (separate agent; did not write Revelation). Scope: Plain 6:1–11:19 against the SBLGNT
+Reviewer: hostile-reviewer (separate agent; did not write Revelation). Scope: Plain English Translation 6:1–11:19 against the SBLGNT
 (`texts/orig/Rev.json`), notes, glosses, chapter pages 6–11 (including `settings` and `traditions` from
 `content/overlays/Rev.json`), and variants (none exist yet). `node tools/import-rev.js` was run, then
 `VERBOSE=1 node tools/build.js --check Rev`: 0 errors, 104 warnings in the book. The warnings that fall in these
@@ -16,7 +16,7 @@ Chapters 6–11 have good bones: the notes are lively, the views notes are mostl
 useful, and the facts I checked mostly hold up (Suetonius on Domitian's vines, Carrhae and Rhandeia, Josephus on
 the siege famine, Irenaeus *Against Heresies* 5.30.2 on Dan, Eusebius 3.5.3 on Pella, CCC 1138 on the 144,000,
 Sibylline Oracles 4.130–136 on Vesuvius, Hal Lindsey's 200-million militia, the twelve uses of "a third" in
-chapter 8). But the Plain English is not an independent translation. Verse after verse it follows the NIV's
+chapter 8). But the Plain English Translation is not an independent translation. Verse after verse it follows the NIV's
 sentence shapes and its distinctive word choices, and in places (9:11 "Destroyer", 11:1 "count the worshipers")
 the NIV's own additions have come into the text. Under the site's rules that is the most serious kind of
 failure, and the whole slice has to be redone from `literal.js`. On top of that:
@@ -28,13 +28,13 @@ failure, and the whole slice has to be redone from `literal.js`. On top of that:
   the build.
 - An import bug silently drops the Greek (`orig`) from three word notes.
 
-This slice is not ready to publish until the Plain is redone and the variants are written.
+This slice is not ready to publish until the Plain English Translation is redone and the variants are written.
 
 Findings: 1 critical, 14 major, 16 minor.
 
 ## Findings
 
-### 1. Critical. plain.txt 6:1–11:19 (source `plain.js` lines 113–219): the Plain follows the NIV closely and throughout
+### 1. Critical. plain.txt 6:1–11:19 (source `plain.js` lines 113–219): the Plain English Translation follows the NIV closely and throughout
 
 I checked every verse against the Greek and then against the NIV and ESV from memory. Most verses in 6–11 keep the
 NIV's clause order, its supplied words and its distinctive vocabulary even where the Greek suggests something
@@ -72,7 +72,7 @@ else. These are the closest (I describe them and quote only a few words):
   earthquake … The survivors were terrified and gave glory to the God of heaven"; "The kingdom of the world has
   become the kingdom of our Lord".
 
-Evidence that this is dependence and not chance: the Plain takes over the NIV's additions to the Greek (9:11, see
+Evidence that this is dependence and not chance: the Plain English Translation takes over the NIV's additions to the Greek (9:11, see
 finding 4; 11:1, see finding 5; "full number" in 6:11; "his legs" in 10:1) and its idiosyncratic choices ("Praise"
 for εὐλογία, "rumblings" for φωναί, "the shaft of the abyss" for τοῦ φρέατος τῆς ἀβύσσου, "God's people" for
 ἅγιοι).
@@ -86,7 +86,7 @@ redoing the verses.
 ### 2. Major. Lead decision on δοῦλος not applied: 6:11, 7:3, 10:7, 11:18 and the material that quotes them
 
 The brief (`tools/brief-rev.md`, Lead decisions) says δοῦλος becomes "slave(s)":
-- 6:11 σύνδουλοι → "fellow slaves" (Plain has "fellow servants").
+- 6:11 σύνδουλοι → "fellow slaves" (Plain English Translation has "fellow servants").
 - 7:3 τοὺς δούλους τοῦ θεοῦ ἡμῶν → "the slaves of our God".
 - 10:7 τοὺς ἑαυτοῦ δούλους τοὺς προφήτας → "his own slaves the prophets" (note ἑαυτοῦ, "his own").
 - 11:18 τοῖς δούλοις σου τοῖς προφήταις → "your slaves the prophets" (and see variant V14).
@@ -115,11 +115,11 @@ Two existing notes are manuscript notes and collide with this:
 ### 4. Major. 9:11 "which means Destroyer" is added to the text
 
 The Greek says only ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων, "in Greek he has the name Apollyon". The gloss on the
-name is the NIV's parenthesis "(that is, Destroyer)" carried into the Plain. STYLE.md: "Do not add interpretation
+name is the NIV's parenthesis "(that is, Destroyer)" carried into the Plain English Translation. STYLE.md: "Do not add interpretation
 to the text." The meaning already sits in gloss #114 ("The Destroyer") and note #91.
 
 The tense is also off: the Greek is present, ἔχουσιν ἐπ' αὐτῶν βασιλέα, "they have over them as king", while the
-Plain says "Their king was".
+Plain English Translation says "Their king was".
 
 Fix: "They have as king over them the angel of the abyss. His name in Hebrew is Abaddon, and in Greek he has the
 name Apollyon." (or similar).
@@ -136,9 +136,9 @@ gloss or note instead of changing the verb.
 
 ### 6. Major. 6:9 (and 6:4): σφάζω "slaughter" is flattened to "kill", so the link to the slaughtered Lamb is lost
 
-In 6:9 τῶν ἐσφαγμένων is the same participle used for the Lamb in 5:6, 5:12 and 13:8, where the Plain rightly says
+In 6:9 τῶν ἐσφαγμένων is the same participle used for the Lamb in 5:6, 5:12 and 13:8, where the Plain English Translation rightly says
 "slaughtered" (5:9 has the verb ἐσφάγης, "you were slaughtered"). John deliberately pictures the martyrs as sharing
-the Lamb's death. Note #67 even says "The martyrs are pictured as sacrifices", but the Plain hides the word that
+the Lamb's death. Note #67 even says "The martyrs are pictured as sacrifices", but the Plain English Translation hides the word that
 makes the point. The same verb σφάξουσιν stands in 6:4 ("so that they would slaughter one another").
 
 Fix: 6:9 "the souls of those who had been slaughtered because of the word of God…", and 6:4 "slaughter one
@@ -149,10 +149,10 @@ another". terms.json already renders Hebrew shachat "slaughter", so this is cons
 
 These are book-wide habits of the original Revelation study, so the lead should decide once for the whole book.
 In this slice:
-- **οἱ ἅγιοι** → terms: "the saints" (gloss at first use, "God's holy people"). The Plain has "God's people" in
+- **οἱ ἅγιοι** → terms: "the saints" (gloss at first use, "God's holy people"). The Plain English Translation has "God's people" in
   8:3 and 8:4 and "your people" in 11:18. The same NIV habit appears in 5:8, 13:7, 13:10, 14:12, 17:6, 18:20,
   18:24, 19:8 and 20:9.
-- **μετανοέω** → terms: "repent" (gloss at first use, "turn your life around"). The Plain has "did not turn away
+- **μετανοέω** → terms: "repent" (gloss at first use, "turn your life around"). The Plain English Translation has "did not turn away
   from" in 9:20 and 9:21, and the same pattern in 2:5, 2:22 and 16:9. Note #94's title and topic are "repentance",
   and the chapter-9 deep section is headed "They did not repent", so the page contradicts its own text.
 - **εὐαγγελίζομαι** → terms: "tell the good news" (note at first use). 10:7 ὡς εὐηγγέλισεν becomes "just as he
@@ -167,7 +167,7 @@ In this slice:
 ### 8. Major. Notes and chapter pages quote copyrighted translations (mostly the NIV), several flagged by the build
 
 CLAUDE.md: "No copyrighted translation text in content." STYLE.md: when the quoted book is on the site, use its
-Plain exactly. Where the quoted book is not yet translated, quote your own fresh rendering, or paraphrase without
+Plain English Translation exactly. Where the quoted book is not yet translated, quote your own fresh rendering, or paraphrase without
 quotation marks.
 
 | Place | Source line | Quoted | Problem |
@@ -176,15 +176,15 @@ quotation marks.
 | note #66 6:8 | notes2.js 16 | Ezekiel 14:21 "my four dreadful judgments…" | NIV wording |
 | note #69 6:12 | notes2.js 19 | Joel 2:31 | NIV verbatim |
 | note #70 6:16 | notes2.js 20 | Hosea 10:8 "…'Cover us!' and to the hills, 'Fall on us!'" | NIV verbatim; also check Luke 23:30, which is on site: "'Fall on us,' and the hills, 'Cover us'" |
-| note #79 7:14 | notes2.js 31 | Isaiah 1:18 "though your sins are like scarlet…" | NIV; site Plain is "If your sins are scarlet, / like snow they will turn white" |
-| note #80 7:17 (build warning) | notes2.js 32 | Isaiah 25:8 "The Sovereign LORD will wipe away…" | NIV; site Plain: "The Lord GOD will wipe the tears off every face" |
+| note #79 7:14 | notes2.js 31 | Isaiah 1:18 "though your sins are like scarlet…" | NIV; site Plain English Translation is "If your sins are scarlet, / like snow they will turn white" |
+| note #80 7:17 (build warning) | notes2.js 32 | Isaiah 25:8 "The Sovereign LORD will wipe away…" | NIV; site Plain English Translation: "The Lord GOD will wipe the tears off every face" |
 | note #99 10:7 | notes2.js 57 | Amos 3:7 "God does nothing without revealing his plan…" | NIV wording, with "God" put in for "the Sovereign LORD" |
 | note #100 10:10 (build warning) | notes2.js 58 | Ezekiel 3:1–3; "lament and mourning and woe" (2:10) | NIV verbatim; also the bare "(2:10)" is read as Revelation 2:10 (finding 23) |
 | note #104 11:4 | notes2.js 64 | Zechariah 4:14 "the two anointed ones who serve…" | NIV/ESV blend. The Hebrew is literally "the two sons of oil": a good mistranslation-watch point to add |
-| ch7 deep "Every tear wiped away" (2 build warnings) | chdeep.js 62 | Isaiah 49:10; Isaiah 25:8 | NIV verbatim; use site Plain (Isaiah 49:10: "They will not go hungry or thirsty; / no scorching wind or sun will strike them") |
+| ch7 deep "Every tear wiped away" (2 build warnings) | chdeep.js 62 | Isaiah 49:10; Isaiah 25:8 | NIV verbatim; use site Plain English Translation (Isaiah 49:10: "They will not go hungry or thirsty; / no scorching wind or sun will strike them") |
 | ch8 deep "Silence, then trumpets" | chdeep.js 66 | Zephaniah 1:7 "Be silent before the Sovereign LORD…" | NIV verbatim |
-| ch9 deep Joel table | chdeep.js 69 | "With a noise like that of chariots" (Joel 2:5); "It has the teeth of a lion" (Joel 1:6) | NIV verbatim. Proverbs 30:27 matches site Plain ("The locusts have no king"), fine |
-| ch9 deep "Two hundred million" (build warning) | chdeep.js 71 | "twice ten thousand times ten thousand" (9:16) | RSV/NIV wording presented as Revelation's; quote the Plain or label the Greek ("literally 'double myriads of myriads'") |
+| ch9 deep Joel table | chdeep.js 69 | "With a noise like that of chariots" (Joel 2:5); "It has the teeth of a lion" (Joel 1:6) | NIV verbatim. Proverbs 30:27 matches site Plain English Translation ("The locusts have no king"), fine |
+| ch9 deep "Two hundred million" (build warning) | chdeep.js 71 | "twice ten thousand times ten thousand" (9:16) | RSV/NIV wording presented as Revelation's; quote the Plain English Translation or label the Greek ("literally 'double myriads of myriads'") |
 | ch10 deep table | chdeep.js 74 | Amos 3:8 "The lion has roared… the Sovereign LORD has spoken"; Daniel 12:7 "it will be for a time, times and half a time" | NIV verbatim |
 | ch10 fact box | 3b-extra.js ch10 | Malachi 4:5 "before the great and dreadful day of the Lord" | NIV/KJV; label "(KJV)" or paraphrase |
 
@@ -219,7 +219,7 @@ branch. Then give 9:11 and 9:21 a `kind` (`nu` and `com` respectively) in notes2
 
 ### 11. Major. 9:21: the note and the chapter page name the wrong Greek word, and the gloss contradicts the note
 
-The SBL/NA text followed by the Plain reads φαρμάκων (from φάρμακον, "drug, potion, spell"). φαρμακειῶν
+The SBL/NA text followed by the Plain English Translation reads φαρμάκων (from φάρμακον, "drug, potion, spell"). φαρμακειῶν
 ("sorceries", pharmakeia) is the Byzantine reading (see V12). Yet note #95's title is "'Sorceries': pharmakeia" and
 its body explains *pharmakeia*. The ch9 deep section (chdeep.js 72) says "The word for magic is *pharmakeia*". The
 note's own (dropped) Greek field correctly says φαρμάκων.
@@ -286,10 +286,10 @@ books 1–2 and others Christian-edited), and the note keeps that name.
 ### 16. Minor. 10:6: the KJV quotation on the chapter page is unlabeled
 
 The ch10 deep section quotes "that there should be time no longer" (10:6) without "(KJV)" inside the parentheses,
-so the build compares it to the Plain and warns. Write "(10:6, KJV)". The same fix applies wherever a KJV wording
+so the build compares it to the Plain English Translation and warns. Write "(10:6, KJV)". The same fix applies wherever a KJV wording
 is quoted on purpose.
 
-### 17. Minor. Interpretive supplements and small omissions in the Plain
+### 17. Minor. Interpretive supplements and small omissions in the Plain English Translation
 
 - **6:11**: "until the full number … was complete" supplies "number". The Greek ἕως πληρωθῶσιν καὶ οἱ σύνδουλοι
   αὐτῶν means "until their fellow slaves too are completed/filled up". Fine to supply, but a note should say so
@@ -298,11 +298,11 @@ is quoted on purpose.
 - **9:5**: drops ὅταν παίσῃ ἄνθρωπον, "when it strikes a person".
 - **10:7**: drops "in the days of the sound of" (ἐν ταῖς ἡμέραις τῆς φωνῆς). ἐτελέσθη is an aorist used with
   future meaning: "will be finished", or more literally "is finished", deserves a word note.
-- **7:14**: οἱ ἐρχόμενοι is present, "the ones coming out of the great suffering". The Plain's "who have come
+- **7:14**: οἱ ἐρχόμενοι is present, "the ones coming out of the great suffering". The Plain English Translation's "who have come
   out" removes the ongoing sense that idealist readers cite. Note #78 should mention it. Κύριέ μου is "My lord";
   "Sir" drops "my" (minor, and an NIV match).
 - **10:1**: πόδες is "feet". "Legs" is a defensible sense but an NIV/ESV choice. Note #96's preview says "feet like
-  fire", contradicting the Plain, and wrongly says this "matches Jesus in chapter 1", where 1:15 has feet like
+  fire", contradicting the Plain English Translation, and wrongly says this "matches Jesus in chapter 1", where 1:15 has feet like
   bronze and 1:14 eyes like fire.
 - **11:8–9**: τὸ πτῶμα is singular twice ("their corpse"), then plural; **11:13** ὀνόματα ἀνθρώπων is "names of
   people". Neither needs a change, but both are good `nu` word notes for a study site.
@@ -343,7 +343,7 @@ STYLE.md: a spec says "where they overlap with published scholarship".
 - **#107 (11:10)**: Beale (NIGTC) and others already note the allusion to Esther 9:19, 22. Only the "inversion of
   Purim" reading is Claude's. "In exactly those words" is too strong: LXX Esther has ἀποστέλλοντες μερίδας,
   Revelation δῶρα πέμψουσιν. The quotation "feasting and sending gifts to one another" is not the site's Esther
-  Plain ("sending portions of food to one another"), so quote that.
+  Plain English Translation ("sending portions of food to one another"), so quote that.
 - **ch7 spec box (Dan)**: fine, but it duplicates topic material (`topics2.js` line 236). Keep it in one place.
 
 ### 22. Minor. Factual overstatements
@@ -389,7 +389,7 @@ them by the chapter their refs point to.
 ### 25. Minor. Hymns are printed as prose
 
 STYLE.md: songs and poetry take ` / ` line breaks. 7:10, 7:12, 7:15–17 (a hymn built from Isaiah 49 and 25) and
-11:15, 11:17–18 are hymns. Revelation's Plain has no line breaks anywhere (`grep -c " / "` = 0), so this is a
+11:15, 11:17–18 are hymns. Revelation's Plain English Translation has no line breaks anywhere (`grep -c " / "` = 0), so this is a
 book-wide decision for the lead. In this slice at least 7:15–17 and 11:17–18 should be set as poetry.
 
 ### 26. Minor. Gloss details
@@ -428,7 +428,7 @@ In this slice:
 - `chapters 9`: Revelation 9:16 "twice ten thousand…" (finding 8).
 - `chapters 10`: Revelation 10:6 "time no longer" (finding 16).
 
-Elsewhere, quoting these chapters; leave these for the lead's alignment pass and re-check after the Plain is
+Elsewhere, quoting these chapters; leave these for the lead's alignment pass and re-check after the Plain English Translation is
 redone:
 - topics `wrath` and `bowls` (6:10)
 - `martyrs` (6:11, "fellow servants")
@@ -439,7 +439,7 @@ redone:
 - `euphrates` (9:19)
 - `trumpets` (9:20–21)
 - `two-witnesses` (11:4, 11:13)
-- `chapters 18` and `book.json` (11:8 "where their Lord was crucified": the Plain has "was also crucified").
+- `chapters 18` and `book.json` (11:8 "where their Lord was crucified": the Plain English Translation has "was also crucified").
 
 ### 31. Minor. Topic and density check (no action needed beyond the above)
 
@@ -450,7 +450,7 @@ for its weight (Daniel 12, the seven thunders, the little scroll's identity). Ad
 ## Variants needed in 6–11
 
 Format: as in `content/books/Jud/variants.json`, in overlay `variants["6"]` … `variants["11"]`. Each entry needs
-`v`, `a` (exact Plain after the redo), `t`, `p`, `readings` (`w`, `orig`, `en`, `plain`), `follow`, `why`, and `s`
+`v`, `a` (exact Plain English Translation after the redo), `t`, `p`, `readings` (`w`, `orig`, `en`, `plain`), `follow`, `why`, and `s`
 (`metzger`, plus `aune` or `koester` where useful).
 
 Background for every `why` in Revelation, worth one sentence in each entry or a book-level note:
@@ -511,15 +511,15 @@ Replaces note #87 (finding 3).
 
 **V8. 9:13 "the four horns" (τεσσάρων) / "the horns"**: SBL, Tyndale House, WH and Tregelles omit τεσσάρων. NA28
 prints it in brackets; the Byzantine text and TR have it (`w`: NnTB). Omitted, as I recall, by P47 A and others;
-included by א* and the Byzantine text *(confirm both)*. The Plain follows the bracketed NA/Byzantine reading
+included by א* and the Byzantine text *(confirm both)*. The Plain English Translation follows the bracketed NA/Byzantine reading
 against its own base text, so the entry is required, with a reason. The one usually given: the shorter text may
 have dropped the word because "horns of the altar" already implies four; "four" also makes the four horns answer
-the four angels of 9:14. Or the Plain should follow SBL/THGNT and drop "four". Either way, say which and why.
+the four angels of 9:14. Or the Plain English Translation should follow SBL/THGNT and drop "four". Either way, say which and why.
 
 **V9. 9:16 "two hundred million" (δισμυριάδες μυριάδων) / "myriads of myriads" / "two myriads of myriads"**:
 - NA28/SBL/WH: δισμυριάδες.
 - Byzantine: μυριάδες μυριάδων, "tens of thousands of tens of thousands", that is, countless.
-- TR: δύο μυριάδες μυριάδων (KJV "two hundred thousand thousand", the same number as the Plain).
+- TR: δύο μυριάδες μυριάδων (KJV "two hundred thousand thousand", the same number as the Plain English Translation).
 
 The Byzantine reading removes the exact figure that futurist readers build on, so it bears on note #93.
 
@@ -595,12 +595,12 @@ Fixer: review-fixer for 6–11 (2026-10-26), working under the lead's decisions 
 5. Fixed. 11:1: "measure the temple of God and the altar, and the people who worship in it." The one verb governs all three objects.
 6. Fixed. "slaughter" in 6:4 ("so that people would slaughter one another") and 6:9 ("had been slaughtered"). Note 6:9 now points to the shared word with 5:6, 9, 12. 18:24 is left for the 17–22 fixer.
 7. Fixed. "the saints" in 8:3, 8:4 and 11:18. "repent" in 9:20–21. 10:7 "he told the good news", with a new word note (εὐαγγελίζω, the word behind "gospel"). 11:15 "his Messiah's", with a new word note (Psalm 2:2, mashiach). 6:10 δεσπότης is "Master" (terms.json). 12:10 is left to the 12–16 fixer.
-8. Fixed. Every listed quotation was replaced with the site's Plain (Psalm 79:10, Luke 23:30, Isaiah 1:18, 25:8, 49:10, 11:12, Jeremiah 51:25, Esther 9:19, Matthew 24:8, Luke 10:18, 21:24), or with a paraphrase without quote marks where the book is not on the site yet (Ezekiel 14:21, Joel 2:31, Hosea 10:8, Jeremiah 9:15, Amos 3:7–8, Ezekiel 2:10, 3:1–3, Zechariah 4:14, Zephaniah 1:7, the Joel table, Daniel 12:7, Malachi 4:5). The NIV quotation in the `penny` word note is removed. The false NKJV/NASB attribution in the `time` word note is now "most modern translations", and 9:16 is labeled as Greek ("double myriads of myriads"). Zechariah 4:14 now has the "sons of oil" mistranslation point.
+8. Fixed. Every listed quotation was replaced with the site's Plain English Translation (Psalm 79:10, Luke 23:30, Isaiah 1:18, 25:8, 49:10, 11:12, Jeremiah 51:25, Esther 9:19, Matthew 24:8, Luke 10:18, 21:24), or with a paraphrase without quote marks where the book is not on the site yet (Ezekiel 14:21, Joel 2:31, Hosea 10:8, Jeremiah 9:15, Amos 3:7–8, Ezekiel 2:10, 3:1–3, Zechariah 4:14, Zephaniah 1:7, the Joel table, Daniel 12:7, Malachi 4:5). The NIV quotation in the `penny` word note is removed. The false NKJV/NASB attribution in the `time` word note is now "most modern translations", and 9:16 is labeled as Greek ("double myriads of myriads"). Zechariah 4:14 now has the "sons of oil" mistranslation point.
 9. Fixed. The 11:17 variant (V15) puts the omission of "and who is coming" in its `b`. It also has a 11:18 echo note and the 11:16–18 setting ("he has come").
 10. Fixed by the lead in import-rev.js: notes' own `greek:` now lands as `orig` (confirmed for 9:11, 9:21 and the new notes). Not fully fixed: import-rev.js still drops a non-WORDS note's `kind`. I gave 9:11 (`nu`), 9:21 (`com`) and the new word notes a `kind` in notes2.js, but none of them reaches notes.json. The lead should add `if(n.kind) o.kind = n.kind;` next to the `n.greek` line.
 11. Fixed. Note 9:21 is now titled "Spells and potions: pharmaka" (kind `com`) and says the Byzantine text/KJV read pharmakeia, as at 18:23. The gloss is now "their witchcraft and spells", the ch9 deep section is corrected, and the variant is written (V10).
 12. Fixed. Card added at overlay `traditions_by_chapter["6"]` (`top: "sheol"`): Catholic (CCC 1023–1029), Orthodox (Dositheus 18), Lutheran (Apology XXI), Reformed (Westminster 32.1), Baptist (2LCF 31.1), Adventist (FB 26, the Abel reading), Jehovah's Witnesses. Declined the optional second `curse-psalms` card: the 6:9–11 setting already has the "prayer for revenge?" view, and two cards on three verses would crowd the page.
-13. Fixed. New settings: 6:1–8 (the four "Come!"s and the voice of 6:6, with both views of who is addressed), 9:13–15 (the altar voice, tied to 6:9–10, 8:3–5 and 16:7) and 11:12. The 11:15–18 card is split into 11:15 (a proclamation, to heaven and earth) and 11:16–18 (the elders, to God). 7:9–17 `by`/`to` now name each speaker and hearer. Existing cards were updated to the new Plain.
+13. Fixed. New settings: 6:1–8 (the four "Come!"s and the voice of 6:6, with both views of who is addressed), 9:13–15 (the altar voice, tied to 6:9–10, 8:3–5 and 16:7) and 11:12. The 11:15–18 card is split into 11:15 (a proclamation, to heaven and earth) and 11:16–18 (the elders, to God). 7:9–17 `by`/`to` now name each speaker and hearer. Existing cards were updated to the new Plain English Translation.
 14. Partly. The notes name it "Sibylline Oracles", as finding 14 asks. The works.json entry is the book fixer's (lead decision 20); not edited here.
 15. Fixed. 7:4 gloss is now "a full muster, with every tribe of Israel accounted for" (no verdict). The 9:16 gloss moves to "I heard how many there were" ("I heard the official head count"). The views note now says the host is counted, unlike 7:9.
 16. Fixed. The ch10 deep section now has "(10:6, KJV)".
@@ -608,7 +608,7 @@ Fixer: review-fixer for 6–11 (2026-10-26), working under the lead's decisions 
 18. Fixed. πικραίνω is "bitter" throughout: 8:11 "had been made bitter", 10:9 "make your stomach bitter", 10:10 "my stomach turned bitter". 8:11 is now "turned into wormwood". Note 10:10 and the ch10 deep section point out the link.
 19. Fixed. "denarius" in both halves of 6:6. The gloss "for a denarius" reads "for a whole day's wages", and the `penny` note is re-anchored.
 20. Fixed. New echo notes: 11:18 (Psalm 2:1 and the Greek of Psalm 99:1), 11:11 (Ezekiel 37), and 7:16 (Isaiah 49:10, where the Lamb takes the shepherd's role). Psalm 2:1–9, Psalm 99:1 and Esther 9:19–22 are added to the ch11 echoes. Note 11:19 now gives the Catholic/Orthodox ark–Mary pairing (Assumption liturgy, CCC 2676) and points to the ch12 card, which itself is left to 12–16.
-21. Fixed. Note 8:1 rewritten: what Hagigah 12b actually says (and the `bavli-hagigah` key), the overlap with Charles and Bauckham, and the half-hour labeled as a guess with no ancient support. Note 11:10 rewritten: Beale already notes the allusion, the Greek of Esther differs, Esther 9:19 is quoted from the site's Plain, and only the "inverted Purim" is Claude's. Declined the duplicate Dan spec box: the topic copy (topics2.js) is the book fixer's material, and the station box is the chapter page's only spec; flagged for the book fixer.
+21. Fixed. Note 8:1 rewritten: what Hagigah 12b actually says (and the `bavli-hagigah` key), the overlap with Charles and Bauckham, and the half-hour labeled as a guess with no ancient support. Note 11:10 rewritten: Beale already notes the allusion, the Greek of Esther differs, Esther 9:19 is quoted from the site's Plain English Translation, and only the "inverted Purim" is Claude's. Declined the duplicate Dan spec box: the topic copy (topics2.js) is the book fixer's material, and the station box is the chapter page's only spec; flagged for the book fixer.
 22. Fixed. ch8 deep caption now says "some modern scholars". The note 8:8 preview drops the vague "writer of the time" and says no ancient reader is known to make the link. The 11:19 preview is now "Lost with the Babylonian destruction of the temple, or earlier". Note 9:5 now cites `gregg-four-views` for the preterist claims. The ch7 Israel box gives the calves at Dan and Bethel and Jeroboam as an Ephraimite. The ch10 table note and note 10:1 now agree (many older historicists, and Beale). The ch11 table row is now "The Old and New Testaments", held by many historicists including Ellen White, *The Great Controversy* ch. 15.
 23. Fixed. "Zechariah 1:8; Zechariah 6:1–3", "(Matthew 24:9)", "(Matthew 24:29)", "(Ezekiel 48:32)", and "Ezekiel 2:10" in note 10:10. Also "Psalm 79:5; Psalm 79:10" in the ch6 table.
 24. Fixed by the lead (EXTRA_PLACE in chdeep.js and import-rev.js placeOf). Confirmed: the Apollyon fact box is now on the ch9 page, and the Moses/Elijah fact and the olive-tree spec are on ch11.
@@ -620,4 +620,4 @@ Fixer: review-fixer for 6–11 (2026-10-26), working under the lead's decisions 
 30. Fixed for this slice: `VERBOSE=1 --check Rev` shows no warning from the notes, glosses, variants or chapter pages of 6–11. Warnings elsewhere that quote these chapters are left for the lead's quote sync: chapters 18 and book.json (11:8); topics day-of-the-lord (6:17), wrath and bowls (6:10), martyrs (6:11), repentance (9:20–21, 11:13), angels (8:2, 10:1), two-witnesses (11:4, 11:8, 11:13), abaddon (9:11), 144000 and twelve-tribes (7:9), rome (6:4), jerusalem (11:8), three-and-a-half (11:6), trumpets (11:15, 9:20–21), ark (11:19), little-scroll (10:6).
 31. No action needed. Chapter 10 gained three notes (10:7 twice, 10:11).
 
-Variants: written, with witnesses limited to what could be confirmed (edition sigla from `texts/orig/Rev.json` `w`, the KJV from `texts/en`). V1 (6:1, 6:3, 6:5, 6:7). V2 6:8. V3 6:11: the Tyndale House reading is given, and the TR's Greek form is left unnamed because it could not be confirmed. V4 6:9. V5 6:17: the manuscript names were not confirmed, so the entry says "important early manuscripts". V6 8:7: the eye-skip is stated as "most likely". V7 8:13: the "angel like an eagle" reading was not confirmed and is left out. V8 9:13: the Plain now follows its base text, SBLGNT ("the horns"), with NA28's bracketed "four" as the other reading. V9 9:16. V10 9:21. V13 11:15. V15 11:17. V16 11:4. V17 11:1. V18 11:12. Smaller places: 7:5, 10:1, 10:8 and 11:19. Declined, because the witnesses could not be confirmed and no edition in `w` reads them: V11 (9:21 πονηρίας), V12 (10:6, the omitted sea clause), V14 (11:18 "and the prophets") and 11:2 ἔσωθεν.
+Variants: written, with witnesses limited to what could be confirmed (edition sigla from `texts/orig/Rev.json` `w`, the KJV from `texts/en`). V1 (6:1, 6:3, 6:5, 6:7). V2 6:8. V3 6:11: the Tyndale House reading is given, and the TR's Greek form is left unnamed because it could not be confirmed. V4 6:9. V5 6:17: the manuscript names were not confirmed, so the entry says "important early manuscripts". V6 8:7: the eye-skip is stated as "most likely". V7 8:13: the "angel like an eagle" reading was not confirmed and is left out. V8 9:13: the Plain English Translation now follows its base text, SBLGNT ("the horns"), with NA28's bracketed "four" as the other reading. V9 9:16. V10 9:21. V13 11:15. V15 11:17. V16 11:4. V17 11:1. V18 11:12. Smaller places: 7:5, 10:1, 10:8 and 11:19. Declined, because the witnesses could not be confirmed and no edition in `w` reads them: V11 (9:21 πονηρίας), V12 (10:6, the omitted sea clause), V14 (11:18 "and the prophets") and 11:2 ἔσωθεν.

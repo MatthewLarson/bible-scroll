@@ -1,5 +1,5 @@
 /* Print a literal, word-for-word English line per verse, built only from the source glosses, as the starting
-   draft for the Plain English. Translating by smoothing this line (rather than writing a verse from scratch)
+   draft for the Plain English Translation. Translating by smoothing this line (rather than writing a verse from scratch)
    keeps the wording tied to the Hebrew or Greek and away from remembered modern translations.
      node tools/literal.js Exo 32          all of chapter 32
      node tools/literal.js Exo 32:7-14     a verse range

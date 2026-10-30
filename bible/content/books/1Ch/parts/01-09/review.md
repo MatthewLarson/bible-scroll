@@ -1,14 +1,14 @@
 # Hostile review: 1 Chronicles 1–9 (part 01-09)
 
-Reviewed: plain.txt (all 407 verses against `node tools/literal.js 1Ch <ch>` and the Leningrad text), notes.json (188), variants.json (25), glosses.json (80), chapters.json (9), topics.json (29 contributions), the part's sources.json, the new topic cores `content/topics/jabez.json` and `zerubbabel.json`, and the new shared keys `bavli-temurah`, `bavli-zevachim` and `ginzberg-legends`. Parallels were checked against this site's Plain of Genesis 5, 10, 11, 25, 36 and 46, Exodus 6, Numbers 26, Joshua 19 and 21, Ruth 4, 1–2 Samuel and Kings. Greek readings were checked against Brenton's translation (ebible.org/eng-Brenton) and, for 3:19, Rahlfs' Greek text as given on blueletterbible.org. English-version readings were checked on biblehub.com. `node tools/build.js --check 1Ch/01-09` gives 0 errors and 0 warnings. `--check 1Ch` gives 0 errors and 2 warnings, both in other parts (10:14, 14:12).
+Reviewed: plain.txt (all 407 verses against `node tools/literal.js 1Ch <ch>` and the Leningrad text), notes.json (188), variants.json (25), glosses.json (80), chapters.json (9), topics.json (29 contributions), the part's sources.json, the new topic cores `content/topics/jabez.json` and `zerubbabel.json`, and the new shared keys `bavli-temurah`, `bavli-zevachim` and `ginzberg-legends`. Parallels were checked against this site's Plain English Translation of Genesis 5, 10, 11, 25, 36 and 46, Exodus 6, Numbers 26, Joshua 19 and 21, Ruth 4, 1–2 Samuel and Kings. Greek readings were checked against Brenton's translation (ebible.org/eng-Brenton) and, for 3:19, Rahlfs' Greek text as given on blueletterbible.org. English-version readings were checked on biblehub.com. `node tools/build.js --check 1Ch/01-09` gives 0 errors and 0 warnings. `--check 1Ch` gives 0 errors and 2 warnings, both in other parts (10:14, 14:12).
 
 ## Verdict
 
-The translation is careful and faithful. I compared every name and number in the 407 verses with the Hebrew and found no wrong or dropped name and no wrong number. The Plain keeps the Hebrew spelling of each verse (Diphath, Rodanim, Sabta, Alian, Homam, Hamran, Jaakan, Dishon, Hadad, Pai, Salma, Dara, Tilgath-pilneser, Non, Gershom/Gershon, Eliphalet/Eliphelet), and where the Hebrew is the same as Genesis 10, 25 and 36, Genesis 46:17 or Joshua 21, it uses this site's wording almost exactly. I found no NIV/ESV drift in 4:9–10, 4:39–43, 5:18–26 or 7:21–24, and only a small interpretive "again" in 9:2. Terms follow terms.json (ma'al, cherem, nagid, ro'eh, eved, nasi, tabernacle, tent of meeting). The weak spots are the apparatus and some facts:
+The translation is careful and faithful. I compared every name and number in the 407 verses with the Hebrew and found no wrong or dropped name and no wrong number. The Plain English Translation keeps the Hebrew spelling of each verse (Diphath, Rodanim, Sabta, Alian, Homam, Hamran, Jaakan, Dishon, Hadad, Pai, Salma, Dara, Tilgath-pilneser, Non, Gershom/Gershon, Eliphalet/Eliphelet), and where the Hebrew is the same as Genesis 10, 25 and 36, Genesis 46:17 or Joshua 21, it uses this site's wording almost exactly. I found no NIV/ESV drift in 4:9–10, 4:39–43, 5:18–26 or 7:21–24, and only a small interpretive "again" in 9:2. Terms follow terms.json (ma'al, cherem, nagid, ro'eh, eved, nasi, tabernacle, tent of meeting). The weak spots are the apparatus and some facts:
 
 - One variant entry misreports what the Greek says (2:24), and another gets the Greek wrong in its reason (8:38).
 - Seven entries say the wrong thing about which English versions follow which reading.
-- One departure from the Leningrad Codex (6:58 "Hilen") is made silently in the Plain and contradicts the part's own statement that 6:28 is "the one place" it leaves the Masoretic Text.
+- One departure from the Leningrad Codex (6:58 "Hilen") is made silently in the Plain English Translation and contradicts the part's own statement that 6:28 is "the one place" it leaves the Masoretic Text.
 - Two readings that major English versions print (Darda at 2:6, Bathsheba at 3:5) have no variant entry.
 - The headline claim of the 1:29 note ("the only toledot in Chronicles") is false. The word occurs nine times in 1 Chronicles.
 - A Talmud citation (Berakhot 4a at 3:1) is attributed to the wrong source.
@@ -39,11 +39,11 @@ STYLE requires the writer to "be honest about ... which translations follow whic
 **Fix:** Correct each list. While doing so, recheck every version credit in the file.
 
 **3. Major: plain.txt 6:58 and notes 6:58. "Hilen" departs from the Leningrad Codex without a variant entry, against the part's own rule.**
-The Leningrad Codex reads חִילֵז, *Hilez* (literal.js: "Hilez"). The Plain prints "Hilen," and only a note explains the choice. The variant on 6:28 says "This is the one place in these chapters where the Plain leaves the Masoretic Text," so the two entries contradict each other. The note's claim that "most Hebrew manuscripts of Chronicles have Hilen" has no source. Hilen is the reading of the printed Rabbinic Bible, which the KJV and BSB follow, and Joshua 21:15 has Holon. Calling the base text's *zayin* "a slip" may be right, but the policy is to follow the Leningrad Codex and record departures.
+The Leningrad Codex reads חִילֵז, *Hilez* (literal.js: "Hilez"). The Plain English Translation prints "Hilen," and only a note explains the choice. The variant on 6:28 says "This is the one place in these chapters where the Plain English Translation leaves the Masoretic Text," so the two entries contradict each other. The note's claim that "most Hebrew manuscripts of Chronicles have Hilen" has no source. Hilen is the reading of the printed Rabbinic Bible, which the KJV and BSB follow, and Joshua 21:15 has Holon. Calling the base text's *zayin* "a slip" may be right, but the policy is to follow the Leningrad Codex and record departures.
 **Fix (preferred):** Print "Hilez" and add a variants.json entry: Leningrad Hilez (followed) / other Masoretic manuscripts and printed editions Hilen (KJV, BSB) / Joshua 21:15 Holon. If the writer keeps "Hilen," add the variant entry anyway, cite a source for "most manuscripts" (BHS/BHQ or Barthélemy), and remove "the one place" from the 6:28 entry.
 
 **4. Major: notes 1:29 ("The only toledot in Chronicles"). The claim is false.**
-The note says "Chronicles uses the word only here." The word תֹּלְדוֹת occurs in 1 Chronicles at 1:29, 5:7, 7:2, 7:4, 7:9, 8:28, 9:9, 9:34 and 26:31 (lemma H8435 in texts/orig). Six of those are in this part, where the Plain renders the word "family lines."
+The note says "Chronicles uses the word only here." The word תֹּלְדוֹת occurs in 1 Chronicles at 1:29, 5:7, 7:2, 7:4, 7:9, 8:28, 9:9, 9:34 and 26:31 (lemma H8435 in texts/orig). Six of those are in this part, where the Plain English Translation renders the word "family lines."
 **Fix:** Rewrite the note. This is the only place Chronicles uses *toledot* as a Genesis-style heading ("This is their family history"). Elsewhere it uses *le-toledotam*, "by their family lines," in its muster lists (5:7; 7:2, 4, 9; 8:28; 9:9, 34). Change the title.
 
 **5. Major: variants.json. No entry for 2:6 Dara or Darda.**
@@ -86,14 +86,14 @@ The note calls the first Elishama "very likely a copying slip" but does not say 
 The brief says the Qere is followed throughout, but only 1:46, 1:51, 3:24, 4:7, 4:41, 6:26, 7:1, 7:31, 7:34 and 9:35 mention it. The most significant silent one is 9:4: the Ketiv בִּנְיָמִן ("Benjamin"), the Qere בָּנִי מִן ("Bani, of"). The Ketiv would make Uthai's ancestor "Benjamin," a son of Perez. Also unmentioned: 6:35 (Ketiv Ziph, Qere Zuph), 1:11, 2:55, 4:20, 8:25, 9:33. **Fix:** Add a short note at 9:4. Add 6:35 to the Ketiv/Qere list in the 1:46 note or the ketiv-qere topic section.
 
 **15. Minor: names harmonized or rendered inconsistently.**
-- 2:16: The Hebrew is אַבְשַׁי, *Abshai*, and the Plain has "Abishai" with no note. The same form recurs in 11:20, 18:12 and 19:11, 15. Either print Abshai or add a note, as was done for Ishai/Jesse at 2:13.
-- 7:2: "Shemuel" stands for שְׁמוּאֵל, which the Plain renders "Samuel" in 6:28 and 6:33 and which is the site's spelling of that Hebrew form. Use Samuel, or explain why not.
-- 6:78: The Plain has "Jahzah," but Joshua 21:36 has the same Hebrew form (יַהְצָה) and the site's Joshua prints "Jahaz." The brief's rule is to use the established site spelling for the same Hebrew form. Choose one spelling and align the two books.
+- 2:16: The Hebrew is אַבְשַׁי, *Abshai*, and the Plain English Translation has "Abishai" with no note. The same form recurs in 11:20, 18:12 and 19:11, 15. Either print Abshai or add a note, as was done for Ishai/Jesse at 2:13.
+- 7:2: "Shemuel" stands for שְׁמוּאֵל, which the Plain English Translation renders "Samuel" in 6:28 and 6:33 and which is the site's spelling of that Hebrew form. Use Samuel, or explain why not.
+- 6:78: The Plain English Translation has "Jahzah," but Joshua 21:36 has the same Hebrew form (יַהְצָה) and the site's Joshua prints "Jahaz." The brief's rule is to use the established site spelling for the same Hebrew form. Choose one spelling and align the two books.
 - 2:3 and 3:5: The same Hebrew, בַּת־שׁוּעַ, is "Shua's daughter" in 2:3 but "Bath-shua" in 3:5. The 2:3 note's point about the echo depends on readers seeing one name. Render it alike in both verses, or have the notes say plainly that it is the same Hebrew.
 - 2:13: Jesse for *Ishai* is acceptable with the note. Weigh it against the strict "Hebrew form of that verse" rule applied elsewhere (Non, Homam, Sabta).
 
 **16. Minor: plain.txt 3:2. The parallel wording differs where the Hebrew is the same.**
-The Plain has "The fourth was Adonijah son of Haggith." 2 Samuel 3:4 on this site has "The fourth was Adonijah, Haggith's son," and the Hebrew is identical (אֲדֹנִיָּה בֶן־חַגִּית). **Fix:** Use the 2 Samuel wording.
+The Plain English Translation has "The fourth was Adonijah son of Haggith." 2 Samuel 3:4 on this site has "The fourth was Adonijah, Haggith's son," and the Hebrew is identical (אֲדֹנִיָּה בֶן־חַגִּית). **Fix:** Use the 2 Samuel wording.
 
 **17. Minor: plain.txt 9:2 ("The first to live again in their own holdings"). An interpretive "again," close to the NIV's "resettle."**
 The Hebrew הַיּוֹשְׁבִים הָרִאשֹׁנִים means "the first (or former) inhabitants." "Live again" decides a debated point, whether *ha-rishonim* means the first to return or the former, pre-exilic, inhabitants, and it echoes the NIV's interpretive "the first to resettle." Chapter 9's summary repeats "settle again." **Fix:** "The first inhabitants who lived in their own holdings, in their towns, were..." Add a deb note giving both senses (compare Nehemiah 11:3).
@@ -191,7 +191,7 @@ Tiglath-pileser III's Hagaranu are listed among Aramean tribes along the Tigris 
    - 6:60: MT is KJV; Gibeon is NIV, BSB.
    - 9:41: the KJV is no longer listed for the MT; the entry says it supplies "and Ahaz" in italics.
    - Every unverified NRSV credit was removed, except the 2:24 conjecture.
-3. 6:58 now prints Hilez, as the Leningrad Codex has it. A new variant gives Hilez (followed), Hilen (other Masoretic manuscripts and the printed editions; KJV, BSB) and Holon (Joshua 21:15). The old 6:58 note and its "most manuscripts" claim were removed. The 6:28 entry now says it is the one place the Plain does not follow the Leningrad Codex read with its Qere.
+3. 6:58 now prints Hilez, as the Leningrad Codex has it. A new variant gives Hilez (followed), Hilen (other Masoretic manuscripts and the printed editions; KJV, BSB) and Holon (Joshua 21:15). The old 6:58 note and its "most manuscripts" claim were removed. The 6:28 entry now says it is the one place the Plain English Translation does not follow the Leningrad Codex read with its Qere.
 4. 1:29 note retitled ("A heading borrowed from Genesis"). It now says this is the only Genesis-style *toledot* heading, and lists the *le-toledotam* uses in the muster lists (5:7; 7:2, 4, 9; 8:28; 9:9, 34).
 5. New variant at 2:6: Dara (MT; KJV, ESV; followed) / Darda (many Hebrew manuscripts, Syriac, Targum, 1 Kings 4:31; Greek Darad; NIV). The 2:6 note points to it.
 6. New variant at 3:5: Bath-shua (MT; KJV, ESV; followed) / Bathsheba (one Hebrew manuscript as reported, Greek, Vulgate, 2 Samuel 11:3; NIV, BSB). The "why" explains the echo of 2:3.
@@ -212,7 +212,7 @@ Tiglath-pileser III's Hagaranu are listed among Aramean tribes along the Tigris 
   - 2:3/3:5: the 2:3 note now says plainly that 3:5 has exactly the same Hebrew, *bat-shua*.
   - 2:13 Jesse: kept, with the existing note. Jesse is the established site name of a major figure, and Ishai is a spelling of the same name. Rejected for that reason.
 - 16 (3:2): now "The fourth was Adonijah, Haggith's son," matching the site's 2 Samuel 3:4.
-- 17 (9:2): Plain is now "The first inhabitants who lived in their own holdings, in their towns, were..." A new deb note gives both senses of *ha-rishonim* (Nehemiah 11:3). Chapter 9 summary and the exile topic no longer say "settle again".
+- 17 (9:2): Plain English Translation is now "The first inhabitants who lived in their own holdings, in their towns, were..." A new deb note gives both senses of *ha-rishonim* (Nehemiah 11:3). Chapter 9 summary and the exile topic no longer say "settle again".
 - 18 (9:1 note): reference changed to "2 Chronicles 28:19". Also fixed: "(2 Samuel 4:4; 9:6)" is now "2 Samuel 4:4; 2 Samuel 9:6" in 8:34.
 - 19 (Luke):
   - The 2:11 note now says NA28/oldest manuscripts read Sala and later ones Salmon.

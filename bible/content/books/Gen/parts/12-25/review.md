@@ -6,7 +6,7 @@ Reviewer: agent reviewer, 2026-10-23. Scope: chapters 12–25 only (plain.txt, n
 
 The study apparatus is strong. The notes are dense, readable and mostly accurate. I checked about 90 rabbinic, patristic, Qur'anic and archaeological citations and nearly all are right: Genesis Rabbah 38:13, 39:14, 42:7, 43:2, 44:17, 55:7, 56:3, 56:10, 58:5, 60:8, 61:4, 79:7; Bava Metzia 86b–87a; Shabbat 127a; Yevamot 65b; Rosh Hashanah 16a–b; Sanhedrin 89b, 109b; Nedarim 32a–b; Taanit 4a; Bava Kamma 38b and 92a; Barnabas 9:8; Sefire; Karatepe; Greengus 1975; Tucker 1966; Weinfeld 1970; the Council of Sirmium. The views are mostly fair to all sides, including Islam.
 
-The translation is the problem. From chapter 16 on, and above all in chapters 18–21 and 23–25, the Plain English follows the ESV and the NIV verse after verse. Often it is word for word, or it splices an ESV half-verse onto an NIV half-verse. STYLE.md rule 1 forbids exactly this, so those verses must be redone from the Hebrew. The same habit shows in the quotations of other books inside notes and topics.
+The translation is the problem. From chapter 16 on, and above all in chapters 18–21 and 23–25, the Plain English Translation follows the ESV and the NIV verse after verse. Often it is word for word, or it splices an ESV half-verse onto an NIV half-verse. STYLE.md rule 1 forbids exactly this, so those verses must be redone from the Hebrew. The same habit shows in the quotations of other books inside notes and topics.
 
 There are other problems as well:
 - In 15:6 the translation settles a famous ambiguity that the notes themselves call open.
@@ -29,7 +29,7 @@ Findings: **1 critical, 10 major, 15 minor** (26 in all; item 27 lists checks th
 
 **Evidence.** The ESV and NIV readings marked † were checked online today (esv.org; the NIV at sermoncentral.com and biblehub.com). The others are quoted from memory and the writer should check them, but the pattern is beyond doubt.
 
-| Verse | Plain English | Matching modern version |
+| Verse | Plain English Translation | Matching modern version |
 |---|---|---|
 | 19:26 | "But Lot's wife, behind him, looked back, and she became a pillar of salt." | ESV, identical. The Hebrew says "his wife"; "Lot's" and the word order are the ESV's. |
 | 19:29 | "So it was that when God destroyed the cities of the plain, God remembered Abraham, and he sent Lot out of the middle of the overthrow when he overthrew the cities where Lot had lived." | ESV ("So it was that, when God destroyed the cities of the valley, God remembered Abraham and sent Lot out of the midst of the overthrow when he overthrew the cities in which Lot had lived") |
@@ -86,9 +86,9 @@ Findings: **1 critical, 10 major, 15 minor** (26 in all; item 27 lists checks th
 - 23:4 and 12:10 (Hebrews 11:13, "strangers and exiles on the earth," ESV)
 - 25:34 (Hebrews 12:16, "who sold his birthright for a single meal," ESV)
 - the chapter 24 spec box (Hebrews 11:13, "not having received the things promised, but having seen them... from afar," ESV)
-- topic `faith` lead and section ("Abraham/He believed the LORD, and he counted it to him as righteousness," the ESV of 15:6, which also contradicts the part's own Plain English); topic `hospitality` lead (Hebrews 13:2)
+- topic `faith` lead and section ("Abraham/He believed the LORD, and he counted it to him as righteousness," the ESV of 15:6, which also contradicts the part's own Plain English Translation); topic `hospitality` lead (Hebrews 13:2)
 
-**What is wrong:** STYLE rule 1 applies to every rendering on the site, not only to plain.txt. The `sarah` topic also quotes "Is anything too hard for the LORD?" (ESV/NIV), while the Plain English reads "too wonderful."
+**What is wrong:** STYLE rule 1 applies to every rendering on the site, not only to plain.txt. The `sarah` topic also quotes "Is anything too hard for the LORD?" (ESV/NIV), while the Plain English Translation reads "too wonderful."
 
 **Fix:** translate every quotation from the Hebrew or Greek in the site's own plain style. Quote Genesis verses exactly as plain.txt has them.
 
@@ -123,7 +123,7 @@ Findings: **1 critical, 10 major, 15 minor** (26 in all; item 27 lists checks th
 **Where:** plain.txt 16:12, 25:18, 14:14, 14:16, 22:18; note on 20:12; cross-part consistency with 26:4.
 
 - **16:12 and 25:18.** Both verses have the same Hebrew phrase, עַל־פְּנֵי כָל־אֶחָיו. It is rendered "in the face of all his brothers" in 16:12 but "in defiance of all his brothers" in 25:18. The 25:18 note says the verse "closes the circle" with 16:12, which the reader cannot see. The 16:12 note says most modern commentators read fierce independence and that Muslim readers object to the hostile reading, yet 25:18 prints the hostile reading as the text. **Fix:** use one rendering in both places, "in the face of" or "alongside/east of," and keep the alternatives in the notes. Use the same wording in the gloss on 16:12.
-- **"Brother" in chapters 13–14.** 13:8 keeps אַחִים as "we are brothers," but 14:14 and 14:16 turn אָחִיו into "kinsman." The note on 20:12 then says "Lot is called Abraham's 'brother' (14:14)," and the Plain English there does not say so. **Fix:** "his brother" (Lot is his nephew, and a note or gloss can say so), or change the 20:12 note.
+- **"Brother" in chapters 13–14.** 13:8 keeps אַחִים as "we are brothers," but 14:14 and 14:16 turn אָחִיו into "kinsman." The note on 20:12 then says "Lot is called Abraham's 'brother' (14:14)," and the Plain English Translation there does not say so. **Fix:** "his brother" (Lot is his nephew, and a note or gloss can say so), or change the 20:12 note.
 - **22:18 against 26:4.** The Hithpael וְהִתְבָּרְכוּ is "will find blessing" in 22:18 (this part) and "will bless themselves" in 26:4 (part 26-36). The 12:3 note stresses that 22:18 and 26:4 share the clearly reflexive form. **Fix:** agree one rendering with the 26-36 writer. "Find blessing" can stay for the Niphal of 12:3 and 18:18.
 
 ### 7. MAJOR: the Akedah is missing strong views, and it deserves its own topic page
@@ -197,7 +197,7 @@ Findings: **1 critical, 10 major, 15 minor** (26 in all; item 27 lists checks th
 
 **Where:** plain.txt 16:13; note 16:13 ("The God who sees"); variant 16:13.
 
-**What is wrong:** the Hebrew is הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי. The word אַחֲרֵי means "after," not "back." "Back" would be אָחוֹר, as in Exodus 33:23 (אֲחֹרָי). The Plain English "Have I really seen here the back of the One who sees me?" builds a specific interpretation into the verse. The note calls it "one old reading" but cites no ancient or medieval source for it. As far as I recall, it is the rendering of Wenham's WBC (a copyrighted modern translation); the writer should check. KJV, NJPS, Alter and most commentators read "after," for example "Have I really gone on seeing after he saw me?"
+**What is wrong:** the Hebrew is הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי. The word אַחֲרֵי means "after," not "back." "Back" would be אָחוֹר, as in Exodus 33:23 (אֲחֹרָי). The Plain English Translation "Have I really seen here the back of the One who sees me?" builds a specific interpretation into the verse. The note calls it "one old reading" but cites no ancient or medieval source for it. As far as I recall, it is the rendering of Wenham's WBC (a copyrighted modern translation); the writer should check. KJV, NJPS, Alter and most commentators read "after," for example "Have I really gone on seeing after he saw me?"
 
 **Fix:** translate the plain sense ("Have I really seen here, after the One who sees me?" or "...gone on seeing, after he saw me?"). Give "back," the Septuagint and Wellhausen's conjecture as alternatives, and cite who holds the "back" view.
 
@@ -261,7 +261,7 @@ Findings: **1 critical, 10 major, 15 minor** (26 in all; item 27 lists checks th
 
 **Where:** plain.txt 22:17 and 24:60.
 
-**What is wrong:** the Hebrew has a singular suffix: שַׁעַר אֹיְבָיו, "the gate of *his* enemies," and שֹׂנְאָיו, "those who hate *him*." The Plain English has "their" and "them." Translating the collective meaning is defensible, but readers lose the singular on which messianic and Pauline "seed" readings rest (Galatians 3:16, cited in the 22:18 note).
+**What is wrong:** the Hebrew has a singular suffix: שַׁעַר אֹיְבָיו, "the gate of *his* enemies," and שֹׂנְאָיו, "those who hate *him*." The Plain English Translation has "their" and "them." Translating the collective meaning is defensible, but readers lose the singular on which messianic and Pauline "seed" readings rest (Galatians 3:16, cited in the 22:18 note).
 
 **Fix:** add a short `nu` note at 22:17.
 
@@ -341,7 +341,7 @@ Writer, 2026-10-23. I accepted all 26 findings; none were rejected. `node tools/
    - 15:5 "Look toward the sky and number the stars"
    - 15:15 "go in peace to your fathers"
 
-   Every broken anchor was moved; 7 glosses that no longer added anything were deleted. A second script found every quotation of Genesis in the notes, chapter pages, topics and cores that still used the old wording, and all of them now match the new Plain English. Literal glosses of a Hebrew phrase (for example *ger vetoshav*, "a foreigner and a settler") are left as they are on purpose.
+   Every broken anchor was moved; 7 glosses that no longer added anything were deleted. A second script found every quotation of Genesis in the notes, chapter pages, topics and cores that still used the old wording, and all of them now match the new Plain English Translation. Literal glosses of a Hebrew phrase (for example *ger vetoshav*, "a foreigner and a settler") are left as they are on purpose.
 2. **Other books quoted in ESV/NIV wording.** All of them are retranslated, including:
    - Hebrews 6:13–19, 7:3, 7:16, 11:11, 11:13, 11:19, 12:16 and 13:2
    - Psalm 76:2, Romans 4:19, Romans 8:32, Amos 3:7, John 15:15, Ezekiel 16:49–50, 2 Peter 2:9 and Jeremiah 19:5

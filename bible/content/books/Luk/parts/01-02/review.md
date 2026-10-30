@@ -6,13 +6,13 @@ content/proposals/nt/terms.json.
 
 ## Verdict
 
-This is a strong, careful part. Every verse was checked against the SBLGNT. The Plain is faithful, it reads at about
+This is a strong, careful part. Every verse was checked against the SBLGNT. The Plain English Translation is faithful, it reads at about
 the target level, and it is free of NIV/ESV copying except for a few unavoidable or near-unavoidable phrases. The
 notes are dense and mostly accurate. Every claim the writer flagged as uncertain checks out: Josephus, *Antiquities*
 5.348 (Samuel prophesying at twelve); Ulpian on the Syrian poll tax for women from twelve (*Digest* 50.15.3); the
 Arsinoe epitaph from Tell el-Yehudiyeh (5 BC); the 2009 Israel Antiquities Authority house at Nazareth; Bonhoeffer's
 Magnificat sermon of Advent 1933; and the Beza origin of "born of you" at 1:35. Old Testament quotations match the
-site's Plain wherever that Plain exists (1 Samuel, Isaiah, Leviticus 12, Genesis, Psalms, 2 Samuel, Judith,
+site's Plain English Translation wherever that Plain English Translation exists (1 Samuel, Isaiah, Leviticus 12, Genesis, Psalms, 2 Samuel, Judith,
 1 Maccabees, Acts). The Marian cards are fair and sourced to each tradition's own documents. The census is handled
 fairly, and no view is presented as settled.
 
@@ -34,7 +34,7 @@ Counts: critical 0, major 6, minor 19.
 ### 1. Major: 1:13 and 1:31 do not follow Matthew 1:21 where the Greek is identical, and they sit close to the NIV
 - Location: plain.txt 1:13 "and you are to name him John"; 1:31 "and you are to name him Jesus".
 - Evidence: Luke 1:31 has καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν, word for word the Greek of Matthew 1:21. Matthew's
-  published Plain reads "Name him Jesus". brief-luk.md says that where Luke's Greek matches Matthew's, Luke's Plain
+  published Plain English Translation reads "Name him Jesus". brief-luk.md says that where Luke's Greek matches Matthew's, Luke's Plain English Translation
   matches it word for word. Luke's "you are to name/call him" also reproduces the NIV's shape for both verses ("you are
   to call him ...").
 - Fix: 1:31 "...have a son. Name him Jesus." 1:13 has the same construction (καλέσεις τὸ ὄνομα αὐτοῦ Ἰωάννην), so make
@@ -44,7 +44,7 @@ Counts: critical 0, major 6, minor 19.
 - Location: plain.txt 1:32. Related: notes 41 (4Q246) and 120 (2:23 echoes 1:35); 1:76 "will be named a prophet".
 - Evidence: the verb is κληθήσεται, the same verb as in 1:35 ("will be called holy, God's Son"), 2:23 ("will be called
   holy") and 1:76 (κληθήσῃ). Note 41 builds its case on the 4Q246 wording "will be called son of the Most High" and
-  calls the match with 1:32–35 "striking". The Plain then hides that match, and also the 1:32/1:35 step that note 46
+  calls the match with 1:32–35 "striking". The Plain English Translation then hides that match, and also the 1:32/1:35 step that note 46
   and the son-of-god topic describe. "Will be his name" is also a shade stronger than "will be called".
 - Fix: 1:32 "He will be great and will be called Son of the Most High." This phrasing is unavoidable, being literal and
   shared with the 4Q246 quote. Consider "will be called a prophet" at 1:76 for the same reason.
@@ -116,9 +116,9 @@ Counts: critical 0, major 6, minor 19.
 
 ### 9. Minor: note 9 (1:4) misquotes Acts 18:25
 - Location: notes.json 1:4 "Taught as a believer, or informed by rumors?".
-- Evidence: the note quotes Apollos "had been instructed in the Way of the Lord". The Acts Plain reads "He had received
+- Evidence: the note quotes Apollos "had been instructed in the Way of the Lord". The Acts Plain English Translation reads "He had received
   instruction in the way of the Lord." The build's quote check missed it because of the sentence form.
-- Fix: quote the Acts Plain exactly: "had received instruction in the way of the Lord" (Acts 18:25).
+- Fix: quote the Acts Plain English Translation exactly: "had received instruction in the way of the Lord" (Acts 18:25).
 
 ### 10. Minor: Simeon is "elderly" in some places and "not called old" in others
 - Location: note 119 (2:22) "elderly Simeon in Jerusalem"; topics.json `hannah` "an aged man blesses the parents";
@@ -174,7 +174,7 @@ Counts: critical 0, major 6, minor 19.
 
 ### 17. Minor: "Temple" and "temple" are mixed in prose
 - Location: chapters.json (12 uses of "Temple"), book.json (7), notes.json (3: notes 12, 15, 118), against "temple" in
-  the Plain and most notes.
+  the Plain English Translation and most notes.
 - Evidence: Lead decisions (Mark, Acts) fix lowercase "temple". Part 18-21's log also flags 24:53.
 - Fix: lowercase "temple" in prose throughout this part and book.json, unless the lead rules otherwise for prose.
 
@@ -182,7 +182,7 @@ Counts: critical 0, major 6, minor 19.
 - 1:3 "since I have followed all these things closely": the ESV has the same three-word core ("followed all things
   closely"). Suggest "since I have traced everything carefully from the start", or "kept close track of it all
   accurately".
-- 2:11 "For today, in David's town, a Savior was born for you": the Plain moves "in David's town" before "a Savior",
+- 2:11 "For today, in David's town, a Savior was born for you": the Plain English Translation moves "in David's town" before "a Savior",
   which is the NIV's order, against the Greek order (σήμερον σωτὴρ ... ἐν πόλει Δαυίδ). Suggest "For today a Savior
   was born for you in David's town. He is Messiah and Lord."
 
@@ -238,7 +238,7 @@ Counts: critical 0, major 6, minor 19.
 
 ## Fixes applied
 
-1. Fixed. 1:13 "...a son for you. Name him John." and 1:31 "...have a son. Name him Jesus." (= Matthew 1:21 Plain); anchors of notes 20 and 40 moved; note 40 says the Greek is the same as Matthew's.
+1. Fixed. 1:13 "...a son for you. Name him John." and 1:31 "...have a son. Name him Jesus." (= Matthew 1:21 Plain English Translation); anchors of notes 20 and 40 moved; note 40 says the Greek is the same as Matthew's.
 2. Fixed. 1:32 "He will be great, and he will be called Son of the Most High."; 1:76 "will be called a prophet" (lead decision: κληθήσεται "will be called" at 1:32, 35, 76; 2:23). Note 41 anchor and text updated to show the 4Q246 and 1:35 match.
 3. Fixed. New 2:37 variant (ἕως / ὡς, KJV "about fourscore and four years"), witnesses given by edition only (SBLGNT, NA28, THGNT, WH, Tregelles vs Byzantine and TR) with the manuscripts marked unchecked, since the NA28 apparatus could not be consulted; note 134 re-anchored on "eighty-four" and points to it.
 4. Partly. Third reading now credits the printed editions (Complutensian, Stephanus, Beza, Elzevir; KJV) and says Greek manuscript support is doubtful or absent; added `hatch-luke-2-22` (the article was confirmed to exist and to treat the Complutensian/Erasmus history). The specific claim about minuscule 76 could not be confirmed, so it is hedged ("the manuscript once cited for it has been questioned"), not stated. D kept for "his".
@@ -246,7 +246,7 @@ Counts: critical 0, major 6, minor 19.
 6. Fixed per the lead decision. The term entry now reads "(Matthew, Mark, Luke, Acts)", states John keeps its published decision (ἱερόν "temple grounds", ναός "temple", John 2:14–21) with a why, pagan ναοί "shrines" (Acts 17:24), and lowercase "temple" in prose. Acts 19:24 ("silver temples") is left to the Acts lane; the entry names only 17:24 as the lead decided.
 7. Partly. The 1:35 witness line now gives Beza 1598 and Scrivener for the TR (KJV "born of thee") and says Stephanus 1550 lacks it; the Greek minuscules the reviewer lists were not confirmable here, so the line says "as reported in the NA28 apparatus; not individually checked" instead of naming them.
 8. Fixed. The `why` now says only that a single final sigma is easily dropped or added; the Coptic is reported as divided rather than assigned to one reading.
-9. Fixed. Note 9 quotes the Acts Plain exactly: "had received instruction in the way of the Lord" (Acts 18:25).
+9. Fixed. Note 9 quotes the Acts Plain English Translation exactly: "had received instruction in the way of the Lord" (Acts 18:25).
 10. Fixed. Note 119: "Old Eli ... and Simeon ..., who expects to die soon (2:29)"; hannah topic section likewise.
 11. Fixed. Setting 1:13–20 `when` "At the hour of the incense offering (morning or evening; many think evening, as in Daniel 9:21)"; gloss 1:10 "at the prayer hour"; chapter 1 H lens "the daily incense offering"; note 17 summary hedged ("If it was the evening incense...").
 12. Fixed. Chapter 1 C lens rewritten as suggested (Brown, Fitzmyer; some think an earlier form began at 3:1; Minear, Tannehill stress unity).

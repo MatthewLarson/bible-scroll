@@ -1,10 +1,10 @@
 # Hostile review: Micah 5-7 (parts/05-07)
 
-Checked: plain.txt against `node tools/literal.js Mic 5|6|7`, `texts/orig`, `tools/lxx.py`, `tools/dss.py` (4Q81, 4Q82, Mur88), the Matthew, Exodus, Jonah, Joel and Nahum Plain, sources, notes, variants, chapter pages, cards and topics. `VERBOSE=1 node tools/build.js --check Mic/05-07` gives 51 verses, 0 errors, 0 warnings.
+Checked: plain.txt against `node tools/literal.js Mic 5|6|7`, `texts/orig`, `tools/lxx.py`, `tools/dss.py` (4Q81, 4Q82, Mur88), the Matthew, Exodus, Jonah, Joel and Nahum Plain English Translation, sources, notes, variants, chapter pages, cards and topics. `VERBOSE=1 node tools/build.js --check Mic/05-07` gives 51 verses, 0 errors, 0 warnings.
 
 ## Verdict
 
-This is a careful, mostly accurate part. The Plain follows the Hebrew closely, and the 5:1 numbering is stated correctly (Hebrew 4:14, then 5:2-15 = Hebrew 5:1-14; the Greek follows the English numbering, which `lxx.py` confirms). Matthew 2:6, 10:35-36 and 23:23 are quoted exactly, and the seven listed differences at 5:2 are accurate (one small omission, below). The scroll readings match the `dss.py` printout, and the Exodus-creed vocabulary (guilt, rebellion, loyal love, faithfulness) agrees with the Exodus, Jonah, Joel and Nahum Plain. The problems are mostly in the unverified list. One Talmud list is misreported (Sukkah 52b), one Vulgate reading is probably wrong, a manuscript detail (the Aleppo Codex at 7:3) looks invented, and the lectionary and doctrinal claims on the cards lack sourcing. The 5:2 card is thin and has no Baptist entry. Several flat statements should become "reported by" or be softened. There is no wholesale drift from NIV/ESV, but the 5:2 and 6:1 sentence shapes follow them and are worth recasting.
+This is a careful, mostly accurate part. The Plain English Translation follows the Hebrew closely, and the 5:1 numbering is stated correctly (Hebrew 4:14, then 5:2-15 = Hebrew 5:1-14; the Greek follows the English numbering, which `lxx.py` confirms). Matthew 2:6, 10:35-36 and 23:23 are quoted exactly, and the seven listed differences at 5:2 are accurate (one small omission, below). The scroll readings match the `dss.py` printout, and the Exodus-creed vocabulary (guilt, rebellion, loyal love, faithfulness) agrees with the Exodus, Jonah, Joel and Nahum Plain English Translation. The problems are mostly in the unverified list. One Talmud list is misreported (Sukkah 52b), one Vulgate reading is probably wrong, a manuscript detail (the Aleppo Codex at 7:3) looks invented, and the lectionary and doctrinal claims on the cards lack sourcing. The 5:2 card is thin and has no Baptist entry. Several flat statements should become "reported by" or be softened. There is no wholesale drift from NIV/ESV, but the 5:2 and 6:1 sentence shapes follow them and are worth recasting.
 
 Count: 1 critical, 7 major, 15 minor.
 
@@ -25,8 +25,8 @@ The variant gives the Latin as *subiciet iniquitates nostras* ("he will put our 
 **Fix:** change the Vulgate reading to *deponet* ("he will put away") or to "reported by the editions as *deponet* (Clementine) and *calcabit* (Nova Vulgata)". Only name the edition used.
 
 ### 4. MAJOR. 7:19: "our" versus "their" sins is never flagged
-MT has "all **their** sins" (*chatotam*). The Plain keeps "their" right after "our guilt" and "us", with no note. The Greek (`lxx.py`) reads "our sins" (*pasas tas hamartias hemon*), and the Vulgate also has "our" (*peccata nostra*); NIV and ESV follow "our". The variant entry covers only *kavash*/*katadysei* and omits this, although 7:19 is an assigned variant slot and the card text rests on it. The LXX also makes the sins the subject of a passive ("will be thrown"), so the "he, then you" shift the note describes is MT only.
-**Fix:** add a second reading to the 7:19 variant, or a note: MT "their", LXX and Vulgate "our", and why the Plain follows MT.
+MT has "all **their** sins" (*chatotam*). The Plain English Translation keeps "their" right after "our guilt" and "us", with no note. The Greek (`lxx.py`) reads "our sins" (*pasas tas hamartias hemon*), and the Vulgate also has "our" (*peccata nostra*); NIV and ESV follow "our". The variant entry covers only *kavash*/*katadysei* and omits this, although 7:19 is an assigned variant slot and the card text rests on it. The LXX also makes the sins the subject of a passive ("will be thrown"), so the "he, then you" shift the note describes is MT only.
+**Fix:** add a second reading to the 7:19 variant, or a note: MT "their", LXX and Vulgate "our", and why the Plain English Translation follows MT.
 
 ### 5. MAJOR. 5:2 tradition card: weak sourcing, no Baptist, one tradition overreaches
 - **Missing tradition:** Baptist is absent, though `brief-mic.md` names it. The card also leaves out the typological/double-reference reading and the Jewish readings (Hezekiah or another king) the brief asked for; these appear only in notes.
@@ -49,12 +49,12 @@ Entry 2 lists 4Q81 as a witness to the plain MT reading of *be'alpe*. Entry 3 sa
 The brief asks for Targum Jonathan, Rashi, Ibn Ezra and Kimhi. The Targum rendering (the Messiah will come out "before me"; "whose name was spoken from of old") is accurate, and Rashi's messianic reading is correct. But the note gives no Jewish view other than "Messiah", no reading of a historical king (Hezekiah, Zerubbabel), and no Jewish response to Matthew's use. The unverified list asked for "reported by" language. The Targum and Rashi are given as flat facts with no page; `rashi-micah` is defined but no passage is given.
 **Fix:** add Ibn Ezra and Kimhi with what each says (verify first), or state that they were not checked. Use "reported by" for Targum and Rashi unless the text is read.
 
-### 9. MINOR. 5:2 Plain follows NIV/ESV sentence shape
+### 9. MINOR. 5:2 Plain English Translation follows NIV/ESV sentence shape
 "But you, Bethlehem Ephrathah, ... clans of Judah. From you one will come out for me to be ruler over Israel. His origins are from ancient times" tracks the NIV order and diction (*clans of Judah*, *for me*, *ruler over Israel*, *origins*, *ancient times*). Most of this is the literal line, but "His origins are from ancient times" repeats NIV's final words. The same applies to 6:1 ("bring a case in front of the mountains, and let the hills hear you speak") against the ESV/NIV "plead your case before the mountains". The Hebrew *et* is "with", so "in front of" is also a decision the notes never mention.
 **Fix:** for 5:2 use something like "His roots go back to the far past, to days long ago". For 6:1 consider "argue your case with the mountains" and note the "with/before" ambiguity.
 
 ### 10. MINOR. 5:3 has no note on the first clause
-"So he will hand them over" has no antecedent in the Plain. The note covers the woman in labor and the brothers, but not who "he" and "them" are (the LORD gives up Israel, which is the usual reading, or the ruler). The dispensationalist card builds on the clause.
+"So he will hand them over" has no antecedent in the Plain English Translation. The note covers the woman in labor and the brothers, but not who "he" and "them" are (the LORD gives up Israel, which is the usual reading, or the ruler). The dispensationalist card builds on the clause.
 **Fix:** add a short note on "he" and "them", with the readings and the Greek ("he will give them").
 
 ### 11. MINOR. 5:3 note: "Matthew finds Mary in both"
@@ -86,19 +86,19 @@ The note says Micah's "full name is *Mikhayahu*" and that Jeremiah 26:18's *keti
 **Fix:** "the name appears as *Mikhayah* (Jeremiah 26:18, *ketiv*) and in the longer form *Mikhayahu* elsewhere".
 
 ### 18. MINOR. 7:18 creed note omits that Nahum swaps "loyal love" for "power"
-Nahum 1:3 in this site's Plain reads "slow to anger, his power is great", not "great in loyal love". The note says only that Nahum "adds" the unpunished clause. Jonah 4:2 and Joel 2:13 also add "changes his mind about the harm", which Micah does not. Micah also uses the "compassion" root (7:19) that the creed has in 34:6, which the note could mention.
+Nahum 1:3 in this site's Plain English Translation reads "slow to anger, his power is great", not "great in loyal love". The note says only that Nahum "adds" the unpunished clause. Jonah 4:2 and Joel 2:13 also add "changes his mind about the harm", which Micah does not. Micah also uses the "compassion" root (7:19) that the creed has in 34:6, which the note could mention.
 **Fix:** one sentence on Nahum's substitution and on 7:19's *rachem*.
 
 ### 19. MINOR. 7:19 note: the tashlich sentence and gloss
 "Where Jews say Micah 7:18-20 and symbolically cast away sins" and the gloss "cast crumbs into water" are fine as folk practice, but the Maharil (Jacob Moellin, c. 1365-1427) is reported as the earliest written source and objected to feeding the fish; the crumbs belong to later practice. Sources differ on his dates.
 **Fix:** "described by the Maharil (in the Sefer Maharil, as quoted by Moses Isserles), later with crumbs". Mark the lectionary line "Roman lectionary: Saturday of Lent week 2 (Micah 7:14-15, 18-20 with Luke 15:1-3, 11-32)", which I confirmed.
 
-### 20. MINOR. 5:12 note: "The Plain uses 'sorcery' and 'reads signs' in both places"
-The Micah Plain says "sorceries" and "sign-readers". The note claims Deuteronomy 18:10 and 14 use "sorcery" and "reads signs" in this site's Plain. I did not find a matching Plain wording (`Deu` 18:10, 14), so this is a consistency claim that needs checking.
+### 20. MINOR. 5:12 note: "The Plain English Translation uses 'sorcery' and 'reads signs' in both places"
+The Micah Plain English Translation says "sorceries" and "sign-readers". The note claims Deuteronomy 18:10 and 14 use "sorcery" and "reads signs" in this site's Plain English Translation. I did not find a matching Plain English Translation wording (`Deu` 18:10, 14), so this is a consistency claim that needs checking.
 **Fix:** check `Deu/parts/*/plain.txt` 18:10-14 and align either place.
 
-### 21. MINOR. 7:3 gloss and 7:14 note disagree with the Plain
-The 7:14 note says the flock lives "in a forest, in the middle of rich land" while the Plain says "orchards". Also the 7:4 chapter note leaves out the Greek's first-person "I will take away their good things" (noted in the variant but not the note).
+### 21. MINOR. 7:3 gloss and 7:14 note disagree with the Plain English Translation
+The 7:14 note says the flock lives "in a forest, in the middle of rich land" while the Plain English Translation says "orchards". Also the 7:4 chapter note leaves out the Greek's first-person "I will take away their good things" (noted in the variant but not the note).
 **Fix:** use "orchards" in the note.
 
 ### 22. MINOR. Same phrase, two verbs
@@ -125,20 +125,20 @@ The settings are generally good. Two small issues: 7:18-20 `by: The people, led 
 ---
 
 ## Checked and found sound (do not change)
-- Plain: 5:1-6:16 and 7:1-20 match the literal line in sense and word order, with the open questions noted (the hard verses 6:9-14 are marked as difficult).
-- Matthew 2:5-6, 10:35-36 and 23:23 are quoted exactly from the Plain.
+- Plain English Translation: 5:1-6:16 and 7:1-20 match the literal line in sense and word order, with the open questions noted (the hard verses 6:9-14 are marked as difficult).
+- Matthew 2:5-6, 10:35-36 and 23:23 are quoted exactly from the Plain English Translation.
 - 6:8 "in humility" is defensible and fully noted (Sukkah 49b, the Greek "ready", *tsana'* hapax, Proverbs 11:2); Makkot 23b-24a (613 reduced to eleven, six, three, two, one, one) is reported accurately.
 - Orthodox Nativity Vespers and Roman Lent lectionary pairings, the Lutheran Advent 4C reading, Pesachim 54a (name of the Messiah), Gunkel 1924, de Roche 1983, the Greek of 6:3, 6:9, 6:10, 6:13, 6:14, 6:16 ("Zambri"), 7:11-12, the Murabba'at and Qumran visibility claims (all except 7:3 Aleppo and 5:2 4Q81 wording).
 - No em-dashes; no NIV/ESV verse is reproduced.
 
 ## Fixes applied
 
-Plain verses changed: 5:2, 5:6, 6:1. No other book quotes these Plain verses (checked by search), so no quote sync is needed; Matthew 2:6, Exodus 34, Nahum 1:3 and Jonah 4:2 are unchanged. The `messiah` topic contribution that quoted 5:2 was updated.
+Plain English Translation verses changed: 5:2, 5:6, 6:1. No other book quotes these Plain English Translation verses (checked by search), so no quote sync is needed; Matthew 2:6, Exodus 34, Nahum 1:3 and Jonah 4:2 are unchanged. The `messiah` topic contribution that quoted 5:2 was updated.
 
 1. Fixed (critical). Aleppo clause removed from the 7:3 variant and the 7:3 note; the variant now says only that 4Q82 and Mur88 carry the same consonants with no vowels.
 2. Fixed. Sukkah 52b list corrected (Adam, Seth, Methuselah, Abraham, Jacob, Moses, David in the middle) in the 5:5 note and the chapter 5 Jewish lens; "some editions read Zedekiah for Hezekiah" added; `bavli-sukkah` added to this part's sources.json. Rashi's remark not added (not verified).
 3. Fixed. Vulgate reading is now Clementine "deponet" ("he will put away"); Nova Vulgata "calcabit" given as "reported"; the entry names the edition used.
-4. Fixed. New 7:19 variant on "all their sins" (MT) against "all our sins" (Greek, Vulgate), with the reason the Plain keeps "their" and the point that the Greek passive removes the he/you shift. The 7:19 subdue note points to it.
+4. Fixed. New 7:19 variant on "all their sins" (MT) against "all our sins" (Greek, Vulgate), with the reason the Plain English Translation keeps "their" and the point that the Greek passive removes the he/you shift. The 7:19 subdue note points to it.
 5. Partly fixed. The 5:2 card is rebuilt. Catechism 437 removed; Catholic now cites the Lectionary for Mass (reported), Jerome and CCC 115-119 (stated not to name Micah). Orthodox cites the Festal Menaion (reported) and Cyril instead of Ware. Lutheran cites the Lutheran Service Book lectionary (reported) and the unsourced "inspired summary" sentence is cut. Reformed says "reported", no page given. Baptist: no source checked, said plainly. Dispensationalist: framed as the usual pattern, section of Pentecost not checked, jab sentence cut. Each of Catholic, Orthodox and Lutheran states that no statement on Matthew's wording is cited. Not done: a separate typological/double-reference entry (no tradition name fits and no source was verified); it is stated in the 5:2 "Who is the ruler?" note instead.
 6. Partly fixed. No Micah 6:8 commentary could be verified for the five churches, so the card is relabeled: the question now says none of the texts comments on the verse and that they show each church's doctrine of good works. Orthodox says "as Ware describes" and that no Orthodox teacher is cited; the Baptist gloss is cut back to what 1689 chapter 16 says.
 7. Fixed. The two 4Q81 entries are reconciled: the first now says the transcription prints the word; the second says the "not" is unbracketed between bracketed words, its cause is unexplained (the "slip" guess is no longer the stated cause), and no translation follows it. Source key changed from `abegg-dssb` to `etcbc-dss`. 4Q81 could not be re-run in this environment (the dss.py setup is absent), so the printout description is taken from the review; the book.json owner should add 4Q81 (4QXII-f).
@@ -154,7 +154,7 @@ Plain verses changed: 5:2, 5:6, 6:1. No other book quotes these Plain verses (ch
 17. Fixed. Name forms stated as Mikhah (1:1), Mikhayah (Jeremiah 26:18 ketiv), Mikhayahu for other men of the name (Judges 17); the 7:18 note, the chapter 7 deep note and the `names-of-god` topic are corrected.
 18. Fixed. The 7:18 creed note adds Nahum's swap of "loyal love" for "power", the "changes his mind about the harm" clause in Jonah and Joel, and the "compassion" root at 7:19.
 19. Fixed. Tashlich now "reported in the customs of the Maharil ... and in the notes of Moses Isserles", crumbs as later practice, dates "differ"; the lectionary line is "Saturday of the second week of Lent (Micah 7:14-15, 18-20 with Luke 15:1-3, 11-32)" in the note and chapter 7.
-20. Fixed. Checked the Deuteronomy Plain (18:10 "works sorcery", "read signs"); the note now states the real wording and calls Micah's forms the matching nouns.
+20. Fixed. Checked the Deuteronomy Plain English Translation (18:10 "works sorcery", "read signs"); the note now states the real wording and calls Micah's forms the matching nouns.
 21. Fixed. The 7:14 note now says "orchards"; the 7:4 note now mentions the Greek first-person line and points to the 7:3 variant.
 22. Fixed. 5:6 now uses "enters" as in 5:5 ("when it enters our land").
 23. Partly fixed. `numerical-sayings` added to the chapter 5 topics and the 5:5 note names it; the 7:8 note moved from `babylon` to `lament`. No `dew` or `bribery` topic pages exist, so none were added (7:3 bribes stay under `justice`); `child-sacrifice` is covered by `molech` at 6:7.

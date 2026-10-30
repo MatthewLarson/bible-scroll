@@ -99,8 +99,8 @@ Drift note: I describe the NIV/ESV shapes below and quote only a few words.
 ### Minor and mixed
 
 **13. variants: Ketiv/Qere and Qumran items missing or misdescribed.** (minor to major)
-- 17:13: the note says the written text is `yesurai` and the margin `vesurai`. `texts/auto/Jer.json` says Ketiv *yisorai*, Leningrad *yesurai* (vowels and doubling, not a waw). The Greek (`aphestekotes epi tes ges`) differs from both, and the Plain's "turn away from me" is the only place in the verse with a first-person shift. There is no variant entry although the note discusses a variant.
-- 17:10: Ketiv *kidarko* ("his way") against Qere *kidrakhav*; 4QJer-a reads the singular (‹כדרכו›). The Plain follows the Qere and the entry is missing.
+- 17:13: the note says the written text is `yesurai` and the margin `vesurai`. `texts/auto/Jer.json` says Ketiv *yisorai*, Leningrad *yesurai* (vowels and doubling, not a waw). The Greek (`aphestekotes epi tes ges`) differs from both, and the Plain English Translation's "turn away from me" is the only place in the verse with a first-person shift. There is no variant entry although the note discusses a variant.
+- 17:10: Ketiv *kidarko* ("his way") against Qere *kidrakhav*; 4QJer-a reads the singular (‹כדרכו›). The Plain English Translation follows the Qere and the entry is missing.
 - 17:19: 4QJer-a has no article on "people" and agrees with the Ketiv (see 1).
 - 20:4: 4QJer-c reads `magor` without the lamed that the Masoretic Text has (`lemagor`). The 20:4 entry says only that the scroll "agrees". The entry should say "agrees on the word, lacks the prefix".
 - 19:5: the Greek also lacks "I never spoke of it" (`welo dibbarti`), not mentioned. (Minor.)
@@ -149,7 +149,7 @@ Drift note: I describe the NIV/ESV shapes below and quote only a few words.
 - "Enticed" is used consistently at 20:7 and 20:10, with a real note.
 - 16:14-15 versus 23:7-8: the two Hebrew texts differ (16:15 `ha`aleh ... benei yisra'el`; 23:8 `ha`aleh weasher heVi'`), so the different renderings are defensible. They share "As the LORD lives ... brought the Israelites up from the land of Egypt" exactly. The Greek has both passages in place.
 - 15:13-14 and 17:3-4 correspond closely and are cross-referenced.
-- 11:20 and 20:12: the Hebrew differs in the first two lines; the Plain matches the Hebrew.
+- 11:20 and 20:12: the Hebrew differs in the first two lines; the Plain English Translation matches the Hebrew.
 - Haftarah: Jeremiah 16:19-17:14 is read with Bechukotai. Confirmed. (When Behar and Bechukotai are joined, the Behar reading is used; the part need not say so.)
 - 13:3-8 and the other Qumran claims (4QJer-a at 13:1-7, 13:22-23, 14:4-7, 15:1-2, 17:8-26, 18:15-23 and 19:1; 4QJer-c at 19:8-9 and 20:2-18): the statements "preserves" and "does not preserve" are accurate where I compared the transcriptions. Only the 17:19 and 20:4 points above are wrong or incomplete.
 - Sources checked: Rashi on 20:7 confirmed from Sefaria.
@@ -174,10 +174,10 @@ Drift note: I describe the NIV/ESV shapes below and quote only a few words.
 15. Accepted. 13:11 note now paraphrases Deuteronomy 26:19 as "praise, name and splendor" with the three Hebrew words.
 16. Accepted. 18:6 now says commentators usually think Paul draws on Isaiah 29:16 and 45:9, and adds Wisdom 15:7.
 17. Accepted. The 17:25-26 "king and servant" is now "from the king to the common person"; "longest" became "one of the longest" (chapter 17 deep note and topic, naming Nehemiah 13 and Isaiah 58); "Chief Shepherd" became "the LORD the shepherd".
-18. Accepted. 20:7 note: "the Greek and the older English versions ... read 'deceived'", with the Vulgate seduxisti, and Rashi's "you overcame me against my will" added. I could not check Radak, so the Radak summary is removed from the 20:7 note and the chapter 20 J view, and radak-jeremiah is dropped from this part. 20:10 "beat him" left (it is the Plain's wording of an uncertain verb; the note carries the sense).
+18. Accepted. 20:7 note: "the Greek and the older English versions ... read 'deceived'", with the Vulgate seduxisti, and Rashi's "you overcame me against my will" added. I could not check Radak, so the Radak summary is removed from the 20:7 note and the chapter 20 J view, and radak-jeremiah is dropped from this part. 20:10 "beat him" left (it is the Plain English Translation's wording of an uncertain verb; the note carries the sense).
 19. Accepted. Chapter 13 X no longer says Paul uses the loincloth idea; it says no New Testament writer quotes the sign and that Galatians 3:27 is a different image. Chapter 15 J replaced with Psalm 99:6 and Ezekiel 14:14. The deep note on witnesses no longer reads like a work log or mentions unchecked sources.
 20. Accepted. Gloss for 18:22 is now "a raiding band" (17:6 gloss anchor moved to "a land of salt").
 21. Partly accepted. 15:11 and 15:18 reworded ("Surely I will free you for good ... come to you with a plea in an evil time"; "Why is my pain unending, my wound beyond curing, unwilling to heal?"). 14:14 beyond the fix at 6, 14:22 and 16:19-20 left, as the Hebrew forces them.
 22. Partly accepted. No new cards in 13, 14, 16, 19, 20, as the review allows. The Catholic answer at 17:9 now cites CCC 405-406. The 16:2 and 14:11 cross-references were already in the notes.
 
-Also applied from the lead's decisions: 20:3 "Terror all around" (variant and notes follow); 18:21 "killed by plague" became "put to death" (the Hebrew is hargei mavet, not dever). No dever occurs elsewhere in this part's Plain except 14:12 ("disease"), already correct.
+Also applied from the lead's decisions: 20:3 "Terror all around" (variant and notes follow); 18:21 "killed by plague" became "put to death" (the Hebrew is hargei mavet, not dever). No dever occurs elsewhere in this part's Plain English Translation except 14:12 ("disease"), already correct.

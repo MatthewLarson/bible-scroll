@@ -23,14 +23,14 @@ Counts: **critical 0, major 8, minor 23** (item 32 is a list of checks that pass
 ### Major
 
 1. **major. plain.txt 28:35, 29:2, 34:11: NIV wording copied nearly word for word.**
-   - 28:35 Plain: "...with bad boils that nothing can cure, spreading from the soles of your feet to the top of your head." NIV: "...painful boils that cannot be cured, spreading from the soles of your feet to the top of your head." The Hebrew has no verb "spreading": מִכַּף רַגְלְךָ וְעַד קָדְקֳדֶךָ, "from the sole of your foot to your scalp." "Spreading" is the NIV's addition, and the Plain copies it.
-   - 34:11 Plain: "...the signs and wonders the LORD sent him to do in the land of Egypt, to Pharaoh, to all his officials and to his whole land." NIV: "...all those signs and wonders the LORD sent him to do in Egypt—to Pharaoh and to all his officials and to his whole land."
+   - 28:35 Plain English Translation: "...with bad boils that nothing can cure, spreading from the soles of your feet to the top of your head." NIV: "...painful boils that cannot be cured, spreading from the soles of your feet to the top of your head." The Hebrew has no verb "spreading": מִכַּף רַגְלְךָ וְעַד קָדְקֳדֶךָ, "from the sole of your foot to your scalp." "Spreading" is the NIV's addition, and the Plain English Translation copies it.
+   - 34:11 Plain English Translation: "...the signs and wonders the LORD sent him to do in the land of Egypt, to Pharaoh, to all his officials and to his whole land." NIV: "...all those signs and wonders the LORD sent him to do in Egypt—to Pharaoh and to all his officials and to his whole land."
    - 29:2 repeats the same "to Pharaoh, to all his officials and to his whole land."
    - "Officials" for עֲבָדָיו is the NIV/BSB choice. terms.json says *eved* is "servant or slave by context (note at first use in each book)." Courtiers can be "servants," as in the KJV and ASV.
    - Fix: rebuild all three verses from the Hebrew, for example 28:35 "from the soles of your feet to the crown of your head" and "his servants" (or "his courtiers") in 29:2 and 34:11.
 
 2. **major. plain.txt: further NIV drift (one finding, many verses).** Each line below matches the NIV in a way the Hebrew does not force. Rebuild each from the Hebrew.
-   - 29:18 "to go and worship the gods of those nations". This is NIV word for word. The Hebrew is לָלֶכֶת לַעֲבֹד, "to go to serve." The same NIV-style "worship" for *avad* appears in 28:36 ("There you will worship other gods made of wood and stone"; NIV "There you will worship other gods, gods of wood and stone"). Elsewhere (28:14, 28:64, 29:26, 30:17) the Plain uses "serve." Make it consistent.
+   - 29:18 "to go and worship the gods of those nations". This is NIV word for word. The Hebrew is לָלֶכֶת לַעֲבֹד, "to go to serve." The same NIV-style "worship" for *avad* appears in 28:36 ("There you will worship other gods made of wood and stone"; NIV "There you will worship other gods, gods of wood and stone"). Elsewhere (28:14, 28:64, 29:26, 30:17) the Plain English Translation uses "serve." Make it consistent.
    - 28:29 "Day after day you will be crushed and robbed, with no one to rescue you." NIV: "day after day you will be oppressed and robbed, with no one to rescue you."
    - 29:4 "a mind that knows, eyes that see or ears that hear." NIV: "a mind that understands or eyes that see or ears that hear." Hebrew לֵב לָדַעַת, "a heart to know"; consider keeping "heart."
    - 29:9 "the terms of this covenant." This is the NIV's distinctive phrase; the Hebrew is דִּבְרֵי הַבְּרִית, "the words of this covenant." The gloss on 29:9 ("the terms of this agreement") then only restates the NIV.
@@ -72,7 +72,7 @@ Counts: **critical 0, major 8, minor 23** (item 32 is a list of checks that pass
 
 8. **major. plain.txt 28:46: "as a sign and a warning" translates away the very phrase the note is about.**
    - The Hebrew is לְאוֹת וּלְמוֹפֵת, "a sign and a wonder."
-   - The writer's own note (28:46, "Israel becomes the sign") and chapter 28 deep section ("Exodus in reverse") rest on this being the plague phrase of 4:34, 6:22 and 34:11. But the reader of the Plain sees "warning," and the echo disappears.
+   - The writer's own note (28:46, "Israel becomes the sign") and chapter 28 deep section ("Exodus in reverse") rest on this being the plague phrase of 4:34, 6:22 and 34:11. But the reader of the Plain English Translation sees "warning," and the echo disappears.
    - "Warning" is interpretation added to the text, against STYLE ("Do not add interpretation to the text").
    - Fix: "as a sign and a wonder," and let the note and gloss explain it.
 
@@ -96,13 +96,13 @@ Counts: **critical 0, major 8, minor 23** (item 32 is a list of checks that pass
 
 12. **minor. variants missing on smaller differences that a careful reader would want, at least as notes.**
     - 31:23: the LXX makes Moses the subject ("Moses commanded Joshua ... which the Lord swore ... he will be with you"). The note "Who speaks?" should mention it.
-    - 32:13: the Plain's "and fed him" follows the SP/LXX causative. The MT is וַיֹּאכַל, "and he ate." Either translate the MT or add an entry.
+    - 32:13: the Plain English Translation's "and fed him" follows the SP/LXX causative. The MT is וַיֹּאכַל, "and he ate." Either translate the MT or add an entry.
     - 33:6: the LXX reads "and let him be many in number," the opposite of "few." The note mentions only the Simeon plus.
     - 33:13: מִטַּל, "from the dew," is often emended to מֵעָל, "above," after Genesis 49:25.
     - 33:26: this is a vocalization choice ("none like God, O Jeshurun" or "none like the God of Jeshurun"). See finding 13.
 
 13. **minor. 33:26 inconsistent.**
-    - The Plain reads "No one is like God, Jeshurun!", which is the MT pointing. The section heading ("None like the God of Jeshurun") and chapter 33 sum ("no one is like the God of Jeshurun") use the other vocalization.
+    - The Plain English Translation reads "No one is like God, Jeshurun!", which is the MT pointing. The section heading ("None like the God of Jeshurun") and chapter 33 sum ("no one is like the God of Jeshurun") use the other vocalization.
     - Pick one, and if you keep both, add a word note.
 
 14. **minor. notes.json 33:17 ("Not a unicorn"): "the Latin and the KJV followed with 'unicorn'."**
@@ -136,7 +136,7 @@ Counts: **critical 0, major 8, minor 23** (item 32 is a list of checks that pass
 
 23. **minor. notes.json 28:27 ("Written one way, read another").**
     - The glosses are muddled. Traditionally the ketiv עפלים is the crude word, usually understood as hemorrhoids or swellings. The qere טְּחֹרִים is the decent word for the same affliction ("emerods," KJV).
-    - The note calls the qere "tumors" as though it were the milder sense, while the Plain says "tumors."
+    - The note calls the qere "tumors" as though it were the milder sense, while the Plain English Translation says "tumors."
     - State plainly that both words likely mean the same ailment and only the register differs.
 
 24. **minor. plain.txt: smaller translation points.**
@@ -165,7 +165,7 @@ Counts: **critical 0, major 8, minor 23** (item 32 is a list of checks that pass
     - The authorship notes (31:9, 34:6) could link `pentateuch-sources`.
 
 28. **minor. Topic core song-of-moses.json.**
-    - (a) Its lead quotes Revelation 15:3 as "the song of Moses, the servant of God, and the song of the Lamb." The site's own Revelation Plain reads "the song of God's servant Moses and the song of the Lamb" (used correctly in topics.json and the 34:5 note). Quote the site's wording.
+    - (a) Its lead quotes Revelation 15:3 as "the song of Moses, the servant of God, and the song of the Lamb." The site's own Revelation Plain English Translation reads "the song of God's servant Moses and the song of the Lamb" (used correctly in topics.json and the 34:5 note). Quote the site's wording.
     - (b) `kind: "Events"` fits poorly for a text; "Studies" or "Ideas" is better.
     - (c) `sections` is empty. A short whole-Bible overview section (Exodus 15 and Deuteronomy 32 compared, with refs) would let the page stand on its own, as the lead claims both songs.
 
@@ -240,11 +240,11 @@ Writer's response. All 31 counted findings were accepted, three of them in part 
     - 33:26: a new `deb` word note explains the vocalization choice.
 
     These are smaller points than the existing variants, so no new variants.json entries were added for them.
-13. **Accepted.** The Plain keeps the MT pointing, "No one is like God, Jeshurun!" The section heading is now "None like God, Jeshurun," and the chapter 33 sum was reworded to match. The new note (see 12) gives the other vocalization.
+13. **Accepted.** The Plain English Translation keeps the MT pointing, "No one is like God, Jeshurun!" The section heading is now "None like God, Jeshurun," and the chapter 33 sum was reworded to match. The new note (see 12) gives the other vocalization.
 14. **Accepted.** The note now says the KJV has "unicorns" and Jerome here has "rhinoceros."
 15. **Accepted.** The note, the law-of-moses topic and chapter 31 view J now give Sefer HaChinukh 613 for the "last commandment" and Maimonides positive 18.
 16. **Accepted.** The note now matches all three clauses to the Talmud's three cases: the year's grain, the week's grain and the baker.
-17. **Accepted.** The note now says the Greek and Latin keep "me," as the Plain does, and that several modern versions have "him."
+17. **Accepted.** The note now says the Greek and Latin keep "me," as the Plain English Translation does, and that several modern versions have "him."
 18. **Accepted.** The note now says the Greek "rulers" supports "princes," and that the KJV "revenges" follows Rashi and Ibn Ezra. Both are added as sources.
 19. **Accepted.** The 34:6 note and the law-of-moses topic now say Ibn Ezra held that Joshua wrote from 34:1 on. The note adds that he hinted at other later additions in his comment on 1:2.
 20. **Accepted.** The note now says "twice in this chapter (31:6, 8)," adds God's pledge in 31:23 and puts 31:23 in its references. Chapter 31's readings say "twice promises."

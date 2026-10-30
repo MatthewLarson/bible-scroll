@@ -2,7 +2,7 @@
 
 Scope: `content/books/Ecc/book.json` only (lead, facts, authorship, audience, outline, lenses, sections, spec,
 prompts, topics, sources, reading, the book-level traditions card). The parts' own files belong to other
-reviewers. Checked against the current Plain in `parts/*/plain.txt`, `tools/brief-ecc.md`, STYLE.md and the
+reviewers. Checked against the current Plain English Translation in `parts/*/plain.txt`, `tools/brief-ecc.md`, STYLE.md and the
 sources it cites. `VERBOSE=1 node tools/build.js --check Ecc`: 0 errors, 2 warnings. Both warnings are in part
 05-08 (7:26 note and chapter 7 quote 9:9 as "with the woman you love"); book.json causes neither. The build does
 not check book.json's quotes of Ecclesiastes itself, so finding 1 is not flagged by the build.
@@ -16,7 +16,7 @@ Hillel), Shabbat 30b (contradictions, but Torah at the beginning and end), Levit
 heresy", saved by 11:9), Tosefta Yadayim 2:14 (Solomon's own wisdom), Bava Batra 15a (Hezekiah's company) and
 Song Rabbah 1:1 all say what the page says. So do Jerome's report and his Blaesilla preface, Whybray's seven joy
 passages, Wright's 222/37/111 numbers, the 4QQoh-a date and the lectionary pairing with Luke 12. Delitzsch's 1875
-remark is also correctly reported. The problems are a quote of 12:9 that no longer matches the Plain, in two
+remark is also correctly reported. The problems are a quote of 12:9 that no longer matches the Plain English Translation, in two
 places, and one misattribution: Fox is cited for the "later editors" view, when he is its best-known opponent.
 There is also a factual slip about the Imitation of Christ and an imprecise summary of Mishnah Yadayim 3:5.
 Finally, the opening page never explains the book's two names, Qohelet and Ecclesiastes. Everything else is
@@ -28,8 +28,8 @@ Counts: critical 0, major 4, minor 13.
 
 ### 1. Major: the 12:9 quote is out of date (two places)
 Location: `audience.views` ("A scribal school") and `sections` "Who Qohelet is, and the voice that frames him".
-Both quote Qohelet as one who "taught the people knowledge" (12:9). The current Plain for 12:9 says "he kept on
-teaching knowledge to the people". Fix: quote the Plain exactly, for example `"kept on teaching knowledge to the
+Both quote Qohelet as one who "taught the people knowledge" (12:9). The current Plain English Translation for 12:9 says "he kept on
+teaching knowledge to the people". Fix: quote the Plain English Translation exactly, for example `"kept on teaching knowledge to the
 people" (12:9)`, in both places.
 
 ### 2. Major: Fox is cited for the view he argues against
@@ -149,7 +149,7 @@ specific key.
   over Israel in Jerusalem". Fix: cite (1:1; compare 1:12).
 - `facts` Kind of writing lists the poems as "1:4–11; 3:1–8; 7:1–14; 12:1–7". The "About the translations"
   section lists "1:4–11; 3:1–8; parts of 7, 10 and 11; 12:1–7". Make them agree.
-- `facts` Date and "Date and language" gloss <i>pitgam</i> (8:11) as "sentence", but the Plain renders it "ruling".
+- `facts` Date and "Date and language" gloss <i>pitgam</i> (8:11) as "sentence", but the Plain English Translation renders it "ruling".
   Use "ruling" (or "sentence, ruling") so a reader finds the word in the verse.
 - "Date and language" lists <i>le'olamim</i> among "words and forms known from Aramaic". The plural of 'olam is a
   late Hebrew feature, not clearly an Aramaism. Separate it ("late forms such as <i>le'olamim</i>").
@@ -157,7 +157,7 @@ specific key.
   Ecclesiastes is Aquila's own work, while most now call it kaige-like. That matches the brief ("close to
   Aquila's style (kaige)").
 - "About the translations" gives the refrain as "'eat and drink and see good in his toil', 2:24; 3:13". This
-  matches neither verse's Plain ("let himself see good in his toil", 2:24; "sees good in all his toil", 3:13). The
+  matches neither verse's Plain English Translation ("let himself see good in his toil", 2:24; "sees good in all his toil", 3:13). The
   Hebrew of the two verses differs, so fix the sentence rather than the verses: say the refrain is aligned where
   the Hebrew agrees, and quote one verse exactly.
 - `audience.why` ends "Knowing that the book was written for comfortable, thoughtful people ...", which states a
@@ -217,4 +217,4 @@ Fixer: the 01-04 review-fixer (owner of book.json), 2026-10-25, with the lead's 
 15. For the lead / the 05-08 fixer (lead decision 11). The global djd16 entry is not mine to edit. Part 01-04's 1:16 variant now cites djd16 as well.
 16. Accepted, all items: Author "(1:1; compare 1:12)"; the poems list now matches "About the translations" (1:4–11; 3:1–8; parts of 7, 10 and 11; 12:1–7); pitgam is "ruling" in both places; le'olamim is dropped rather than relabelled, because part 01-04's review (finding 14) shows the plural is also classical Hebrew, and shabbach (4:2) takes its place, so on this item I disagree with the reviewer's "late Hebrew feature" wording; Barthélemy (Aquila's own work) against the kaige view; the refrain sentence now says the wording follows the Hebrew and quotes 3:13 exactly; audience.why softened ("If, as most scholars think"); audience.to "(11:9; compare 12:1)"; "no Greek loanwords", with the calque claim and its answer, in the audience view and the neighbors section; Romans 8:20 explained as Paul's mataiotēs, the Greek translation's word for hevel.
 17. Accepted. One sentence: the New Testament never quotes the book, but 7:20 is read with Romans 3:10–12 and 12:14 with 2 Corinthians 5:10.
-Coordinator items: the contradictions section now paraphrases 9:4 as "whoever is joined to the living has something to trust in" (09-12's Plain) instead of "the living have hope". book.json has no quote of 12:8. The lead's 1:2 quote did not match the Plain of 1:2, and is now exact: "Vapor of vapors," says Qohelet, "vapor of vapors! Everything is vapor" (1:2).
+Coordinator items: the contradictions section now paraphrases 9:4 as "whoever is joined to the living has something to trust in" (09-12's Plain English Translation) instead of "the living have hope". book.json has no quote of 12:8. The lead's 1:2 quote did not match the Plain English Translation of 1:2, and is now exact: "Vapor of vapors," says Qohelet, "vapor of vapors! Everything is vapor" (1:2).

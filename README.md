@@ -100,7 +100,7 @@ that followed (STYLE.md rule 2: no detail from memory; briefs `bible/tools/agent
    `tools/agent-restore-cards.md` book by book, as was done for the six books above. Hostile reviewers run on
    Sonnet at medium effort; the other agents were also run on Sonnet to save cost.
 3. **Sync the 1 Timothy quote.** `1Co/parts/05-08/notes.json`, the note at 5:5, quotes 1 Timothy 1:20 in wording that
-   no longer matches the 1 Timothy Plain, which another session is writing. Once 1 Timothy is finished, update the
+   no longer matches the 1 Timothy Plain English Translation, which another session is writing. Once 1 Timothy is finished, update the
    quote (`VERBOSE=1 node tools/build.js --check 1Co` shows the warning).
 4. **Look at the new pages in a browser.** No one has viewed the six new books or their topic pages yet. Run
    `node tools/serve.js public 8777` from `bible/` and check the library, a chapter spread of each book, the
@@ -127,14 +127,14 @@ Each book's `bible/content/books/<id>/progress.md` has the full log. `/resume <i
 
 | Book | Where it stopped | Next step |
 |---|---|---|
-| Ecclesiastes (Ecc) | All 3 parts written and passing; the hostile reviews were cut off (no review.md yet). Atlas done. | `/review-book Ecc`, then align 05-08's quotes of 9:9, 11:7, 12:13 and book.json's 12:9 quote to part 09-12's Plain; check shows 2 warnings. |
+| Ecclesiastes (Ecc) | All 3 parts written and passing; the hostile reviews were cut off (no review.md yet). Atlas done. | `/review-book Ecc`, then align 05-08's quotes of 9:9, 11:7, 12:13 and book.json's 12:9 quote to part 09-12's Plain English Translation; check shows 2 warnings. |
 | Matthew (Mat) | Reviewed, ready: all 8 parts reviewed and fixed, atlas corrected. Not yet published. | `/check Mat` (2 warnings appeared after the last edit), then `/publish` (needs the nt proposals merged: its topics live in `content/proposals/nt/topics/`). |
 | John (Jhn) | All 6 parts written, reviewed and fixed; atlas corrected; check 0/0. Part 01-04 still owes the "## Second review" fixes in its review.md, plus 6:2 and 6:5 "huge crowd", 6:12–13 "pieces", 13:38 "three times". | Apply those, then mark `reviewed, ready`. |
 | Isaiah (Isa) | All 8 parts written and reviewed. Fixes done for 01-06, 07-12, 13-23, 40-44, 56-66. Fixes interrupted for 24-30, 31-39 (also update the 36:10 note to the new 10:5) and 45-55 (just started; re-derive the lead decisions from its review.md). | Finish those three fixes, alignment pass, atlas review, `reviewed, ready`. Check shows 1 warning. |
-| Jeremiah (Jer) | Atlas harvested (known problems listed in `notes/bible-site-prophets.md`). Parts 26-31, 46-49, 50-52 have Plain (partly); the other six parts have nothing or only drafts. | `/write-book Jer` for the unfinished parts (brief: `bible/tools/brief-jer.md`). |
+| Jeremiah (Jer) | Atlas harvested (known problems listed in `notes/bible-site-prophets.md`). Parts 26-31, 46-49, 50-52 have Plain English Translation (partly); the other six parts have nothing or only drafts. | `/write-book Jer` for the unfinished parts (brief: `bible/tools/brief-jer.md`). |
 | 2 Maccabees (2Ma) | All 4 parts and book.json reviewed and fixed; check 0/0. | Three small items at the end of its progress.md (1:18 variant, ch. 12 Reformed row, re-quote 1 Maccabees notes), then `reviewed, ready` and publish. |
 | Wisdom (Wis) | Planned only; the writers were cut off before writing files. Plan in `notes/bible-site-noncanon-status.md`. | `/plan-book Wis` using that plan. |
-| Revelation (Rev) | Reviewed, ready (2026-10-26): hostile review in five slices, all fixed; Plain rebuilt from `literal.js`; 90 variants (in `content/overlays/Rev.json`); every quote of it synced; check 0/0. | `/publish`. |
+| Revelation (Rev) | Reviewed, ready (2026-10-26): hostile review in five slices, all fixed; Plain English Translation rebuilt from `literal.js`; 90 variants (in `content/overlays/Rev.json`); every quote of it synced; check 0/0. | `/publish`. |
 
 **Lead edits not yet published**: back-links in 1 Maccabees (13 notes), the quote checker and poetry-span app
 changes. They are in the files; the next `/publish` includes them.

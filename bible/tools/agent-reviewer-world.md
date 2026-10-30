@@ -21,7 +21,7 @@ Matt's decision on the viewpoint) and the book's brief `tools/brief-<id>.md`.
 5. Who's who: every proposed identification (in notes and `canon.matches`) weighs evidence both ways, names who argued
    it, and has a verdict the evidence supports. Overclaiming ("Enki is Satan") and missed strong candidates are both
    findings.
-6. Cross-references: the Genesis 1-11 Plain quoted exactly; works named as in content/works.json; links to the
+6. Cross-references: the Genesis 1-11 Plain English Translation quoted exactly; works named as in content/works.json; links to the
    topics flood, noah, ancient-near-east, creation, divine-council, fallen-angels, giants, idolatry, sacrifice where
    they fit.
 

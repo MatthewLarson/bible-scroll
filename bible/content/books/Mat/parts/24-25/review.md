@@ -100,7 +100,7 @@ are minor corrections of fact, attribution and consistency.
 ### 4. Major: 24:22 renders "saved" as "come out alive", with no note
 - **Location:** plain.txt 24:22 "no one at all would come out alive".
 - **Problem:** The Greek is οὐκ ἂν ἐσώθη πᾶσα σάρξ, "no flesh would be saved." The same verb σῴζω appears nine
-  verses earlier: "whoever holds out to the end, that person will be saved" (24:13). The Plain keeps "saved" there.
+  verses earlier: "whoever holds out to the end, that person will be saved" (24:13). The Plain English Translation keeps "saved" there.
   Turning 24:22 into physical survival breaks the link and quietly favors the preterist reading of the siege. That
   is also the NIV's interpretive choice ("no one would survive"). Readers who take "saved" as final salvation, and
   futurists who read it of the last tribulation, lose their reading without being told. (Compare the binding term
@@ -190,7 +190,7 @@ are minor corrections of fact, attribution and consistency.
     25:11 note should say it is deliberate.
 - **Fix:** add a short 25:2 variant entry. Add one sentence to the 25:11 note.
 
-### 14. Minor: small additions or softenings in the Plain
+### 14. Minor: small additions or softenings in the Plain English Translation
 - **Location:** plain.txt 24:26, 24:33, 24:38, 24:39.
 - **Problem:**
   - 24:26 "He's hidden in the back rooms": "hidden" is not in the Greek (Ἰδοὺ ἐν τοῖς ταμείοις, "Look, in the
@@ -207,7 +207,7 @@ are minor corrections of fact, attribution and consistency.
 - **Location:** plain.txt 25:24, 25:26 "scattered seed"; 24:12 "most people's love"; 24:19.
 - **Problem:**
   - διασκορπίζω means "scatter." Many commentators take it of winnowing (scattering chaff to gather grain), not of
-    sowing. "Scattered seed" is the NIV's interpretive supplement, and the Plain repeats it.
+    sowing. "Scattered seed" is the NIV's interpretive supplement, and the Plain English Translation repeats it.
   - "Most people's" for τῶν πολλῶν follows the NIV's "most." The Greek is "the many."
   - 24:19 follows the ESV's sentence frame ("women who are pregnant… those who are nursing… in those days")
     closely.

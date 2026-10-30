@@ -1,10 +1,10 @@
 # Hostile review: Isaiah 31–39
 
-Reviewer's checks: every verse of 31–39 against `node tools/literal.js Isa 31–39` and the Leningrad consonants; Isaiah 36–39 compared word by word, by script, with the Hebrew and the Plain of 2 Kings 18:13–20:19; every Dead Sea Scroll reading through `tools/dss.py` (1QIsa-a, 1Q8, 4Q55, 4Q56, 4Q57); Swete's Greek through `tools/lxx.py`; `VERBOSE=1 node tools/build.js --check Isa/31-39` (0 errors, 1 warning); the cross-part quotations against the other seven parts' plain.txt; and web checks on Stromberg (DSD 16, 2009) and on the 33:22 founders claim.
+Reviewer's checks: every verse of 31–39 against `node tools/literal.js Isa 31–39` and the Leningrad consonants; Isaiah 36–39 compared word by word, by script, with the Hebrew and the Plain English Translation of 2 Kings 18:13–20:19; every Dead Sea Scroll reading through `tools/dss.py` (1QIsa-a, 1Q8, 4Q55, 4Q56, 4Q57); Swete's Greek through `tools/lxx.py`; `VERBOSE=1 node tools/build.js --check Isa/31-39` (0 errors, 1 warning); the cross-part quotations against the other seven parts' plain.txt; and web checks on Stromberg (DSD 16, 2009) and on the 33:22 founders claim.
 
 ## Verdict
 
-This is a strong part, and the 36–39 parallel is the best-handled part of it. The word-by-word comparison with Kings found that almost every place where the Hebrew differs gets a different English, and that almost every place where the Hebrew agrees keeps the Kings Plain to the letter, including the line breaks of 37:22–35. 37:27 is the one place the Plain leaves the Masoretic Text, and it says so openly. The Assyrian, Herodotean, Babylonian and Lilith material is accurate and well sourced, and the two traditions cards are real conflicts, fairly answered with real confessional sources. The 33:22 note gets the founders legend right. The faults are of four kinds:
+This is a strong part, and the 36–39 parallel is the best-handled part of it. The word-by-word comparison with Kings found that almost every place where the Hebrew differs gets a different English, and that almost every place where the Hebrew agrees keeps the Kings Plain English Translation to the letter, including the line breaks of 37:22–35. 37:27 is the one place the Plain English Translation leaves the Masoretic Text, and it says so openly. The Assyrian, Herodotean, Babylonian and Lilith material is accurate and well sourced, and the two traditions cards are real conflicts, fairly answered with real confessional sources. The 33:22 note gets the founders legend right. The faults are of four kinds:
 
 - the lead decision on nes ("flag") is missed at 31:9;
 - there is NIV/ESV drift in several poetic lines of 32–34 and in Hezekiah's psalm (38:17, 38:19);
@@ -35,7 +35,7 @@ Each item below gives the line, how it matches, and why the Hebrew does not forc
 - **34:11, "The desert owl ... the raven will nest in it".**
   - This follows NIV's line ("The desert owl...", "...and the raven will nest there").
   - Hebrew יִשְׁכְּנוּ־בָהּ is "will dwell in it", not "nest".
-  - The Plain also uses "screech owl" for yanshuf, which is the KJV's word for lilit in 34:14 three verses later. That invites confusion, and the note on 34:11 offers "owl or ibis" for yanshuf.
+  - The Plain English Translation also uses "screech owl" for yanshuf, which is the KJV's word for lilit in 34:14 three verses later. That invites confusion, and the note on 34:11 offers "owl or ibis" for yanshuf.
   - Re-derive: "...the owl and the raven will live in it".
 - **34:13, "nettles and brambles in its strongholds".**
   - This is NIV's phrase ("nettles and brambles her strongholds").
@@ -50,11 +50,11 @@ Each item below gives the line, how it matches, and why the Hebrew does not forc
 ### 3. Major: drift in Hezekiah's psalm (38:9–20)
 - **38:17a, "Look! It was for my peace / that I had bitterness on bitterness."**
   - The cleft "It was for my ___ that I had ___ bitterness" is the ESV/NRSV construal. Hebrew הִנֵּה לְשָׁלוֹם מַר־לִי מָר has no "it was ... that" and no "my".
-  - The phrase can also mean "instead of peace I had bitter bitterness" (KJV "for peace I had great bitterness"), which the Plain does not even mention.
+  - The phrase can also mean "instead of peace I had bitter bitterness" (KJV "for peace I had great bitterness"), which the Plain English Translation does not even mention.
   - Translate the Hebrew ("Look, for peace I had bitterness, bitterness") and give the readings in a note.
 - **38:17b, "But you, in your love, pulled me / from the pit".**
   - "In your love" is NIV's exact phrase, and like NIV/ESV it supplies a rescue verb that the Hebrew lacks.
-  - חָשַׁקְתָּ נַפְשִׁי מִשַּׁחַת בְּלִי is "you loved my life out of the pit of nothingness" (MT). Many emend to חָשַׂכְתָּ, "you held back" (compare the Greek εἵλου "you chose"). The Plain has neither: "pulled" renders no word in the text.
+  - חָשַׁקְתָּ נַפְשִׁי מִשַּׁחַת בְּלִי is "you loved my life out of the pit of nothingness" (MT). Many emend to חָשַׂכְתָּ, "you held back" (compare the Greek εἵλου "you chose"). The Plain English Translation has neither: "pulled" renders no word in the text.
   - Render "you loved my life up from the pit..." or follow the emendation openly with a note or variant.
 - **38:19, "as I am doing today".**
   - This is NIV verbatim. Hebrew כָּמוֹנִי הַיּוֹם is "like me today". Use "as I do today" or "like me, today".
@@ -84,7 +84,7 @@ Each item below gives the line, how it matches, and why the Hebrew does not forc
 - **Fix:** in the 38:1 note and the chapter 38/39 pages, state the problem plainly: the fourteenth year, the fifteen added years and Merodach-baladan's two reigns. Then give both datings, about 703 and about 713–711, as views rather than "probably". Point to the note on 2 Kings 18:13 for the reign chronology.
 
 ### 6. Minor: 36:5 changes the Kings wording more than the Hebrew requires
-- **What is wrong:** the only Hebrew difference from 2 Kings 18:20 is אָמַרְתִּי "I say" for אָמַרְתָּ "you say". But the Plain also adds "your" twice ("your plan and your strength"), which neither book has (עֵצָה וּגְבוּרָה).
+- **What is wrong:** the only Hebrew difference from 2 Kings 18:20 is אָמַרְתִּי "I say" for אָמַרְתָּ "you say". But the Plain English Translation also adds "your" twice ("your plan and your strength"), which neither book has (עֵצָה וּגְבוּרָה).
 - **Fix:** "I say: a plan and strength for war are mere words from your lips." This keeps Kings' "mere words from your lips". The variant's anchor will need the same change.
 
 ### 7. Minor: some differences from 2 Kings are not noted anywhere
@@ -94,7 +94,7 @@ The rule is "note every difference". The 36:11 list covers only 36:3–22, and t
 - 37:15: "to the LORD ... saying" for "in the LORD's presence and said".
 - 37:17: "the whole message" (Isaiah adds כל).
 - 37:20: no "please" (נא).
-- 39:2: "all" moves from "his whole treasure house" (Kings) to "his whole arsenal" (Isaiah). The Plain handles this exactly, but nothing says so.
+- 39:2: "all" moves from "his whole treasure house" (Kings) to "his whole arsenal" (Isaiah). The Plain English Translation handles this exactly, but nothing says so.
 - 39:3: "came to me" (Isaiah adds אלי).
 - 39:5: "the word of the LORD of Armies" (Isaiah adds צבאות). This is notable because 37:16 gets a note for the same title.
 
@@ -102,7 +102,7 @@ The rule is "note every difference". The 36:11 list covers only 36:3–22, and t
 
 ### 8. Minor: 37:27 claims more support from the Great Isaiah Scroll than it gives
 - **Where:** the 37:27 echo note says "The last line here follows Kings and the Great Isaiah Scroll".
-- **What is wrong:** 1QIsa-a reads `הנשדפ לפני קדימ`, "scorched before the east wind". It supports "scorched" but not "before it can stand tall" (qamah), which the Plain takes from Kings.
+- **What is wrong:** 1QIsa-a reads `הנשדפ לפני קדימ`, "scorched before the east wind". It supports "scorched" but not "before it can stand tall" (qamah), which the Plain English Translation takes from Kings.
 - **Assessment:** the departure from MT is itself defensible and openly declared (variant `follow: 1`), so it is not a parallel-rule error.
 - **Fix:** say "follows Kings; the Great Isaiah Scroll also has 'scorched', but 'before the east wind'".
 
@@ -126,28 +126,28 @@ The rule is "note every difference". The 36:11 list covers only 36:3–22, and t
 - **What is wrong:** Swete's Greek reads καὶ πάντα τὰ ἄστρα πεσεῖται, "all the stars will fall". This supports the scroll's יפולו "will fall" (and Revelation 6:13's falling stars). The "why" calls the scroll's form a scribe's expansion and cites only the Greek "melt" for MT.
 - **Fix:** add the Greek "fall" to the scroll's reading, or mention it in the "why".
 
-### 13. Minor: 34:5 variant quotes 34:7 in words the Plain does not use, and the wordplay is lost
-- **What is wrong:** the "why" says "34:7, where the land 'drinks deep' of blood", but Plain 34:7 has "Their ground will be soaked with blood". The Hebrew uses the same verb in both verses (רִוְּתָה ... וְרִוְּתָה).
-- **Fix:** Plain 34:7 "Their land will drink deep of blood", which also restores the echo of 34:5.
+### 13. Minor: 34:5 variant quotes 34:7 in words the Plain English Translation does not use, and the wordplay is lost
+- **What is wrong:** the "why" says "34:7, where the land 'drinks deep' of blood", but Plain English Translation 34:7 has "Their ground will be soaked with blood". The Hebrew uses the same verb in both verses (רִוְּתָה ... וְרִוְּתָה).
+- **Fix:** Plain English Translation 34:7 "Their land will drink deep of blood", which also restores the echo of 34:5.
 
 ### 14. Minor: some scroll readings that change the meaning are not mentioned
 Found by dss.py and not mentioned anywhere:
 - 36:11, 1QIsa-a: "do not speak **these words** in the ears of **the men sitting** on the wall" (`את הדברים האלה ... האנשים היושבים`). This is a sizable difference from MT "the people who are on the wall".
 - 37:29, 1QIsa-a: lacks the opening "Since you storm against me" (a skip from the identical words ending 37:28).
-- 38:11, 1QIsa-a: one "Yah" where MT has "Yah, Yah". The Plain keeps the doubled name with no remark.
+- 38:11, 1QIsa-a: one "Yah" where MT has "Yah, Yah". The Plain English Translation keeps the doubled name with no remark.
 - 39:1, 4Q56 (4QIsa-b): `כי שמע`, agreeing with 2 Kings 20:12 against Isaiah's MT `וישמע`. This is worth a witness line in the 39:1 variant.
 - 33:3, 1QIsa-a: `מדממתך` for `מרוממתך` ("at your silence"? for "when you rise up").
-- 34:13, 1QIsa-a: `חצר` "court" for MT `חציר`. The Plain's "a yard for ostriches" in fact reads it this way without saying so.
+- 34:13, 1QIsa-a: `חצר` "court" for MT `חציר`. The Plain English Translation's "a yard for ostriches" in fact reads it this way without saying so.
 
 **Fix:** a short note or variant for 36:11 and 38:11, and a witness line for 39:1. The others are optional.
 
-### 15. Minor: quotations that do not match the site's Plain
-- 36:3 note quotes 22:20 as "I will summon my servant Eliakim son of Hilkiah". Plain 22:20 (part 13-23) reads "I will call my servant Eliakim son of Hilkiah."
-- 31:6 note: those who "go deep" (29:15). Plain 29:15 has "burrow deep".
+### 15. Minor: quotations that do not match the site's Plain English Translation
+- 36:3 note quotes 22:20 as "I will summon my servant Eliakim son of Hilkiah". Plain English Translation 22:20 (part 13-23) reads "I will call my servant Eliakim son of Hilkiah."
+- 31:6 note: those who "go deep" (29:15). Plain English Translation 29:15 has "burrow deep".
 - 36:4 note: the KJV wording of 30:15 triggers the only build warning. Write the reference as "(30:15, KJV)", as STYLE.md says.
 
 ### 16. Minor: key terms rendered differently, with no note
-- **34:14 "a wild goat":** 13:21 (part 13-23) renders se'irim "goat-demons". The 34:14 note debates exactly this choice, but it should say that 13:21's Plain has "goat-demons", and why 34:14 differs (the singular, and the parallel animals).
+- **34:14 "a wild goat":** 13:21 (part 13-23) renders se'irim "goat-demons". The 34:14 note debates exactly this choice, but it should say that 13:21's Plain English Translation has "goat-demons", and why 34:14 differs (the singular, and the parallel animals).
 - **32:6:** nabal is "godless fool" (the site term), and in the same verse chonef is "acting godlessly". In 33:14 chanefim is "the godless". Readers cannot tell the two Hebrew words apart. Consider "acting like a hypocrite / the impious" for chonef, or a note.
 
 ### 17. Minor: small factual slips
@@ -189,12 +189,12 @@ Found by dss.py and not mentioned anywhere:
 - 34:10 card: the Catholic answer's last sentence ("Isaiah's picture of Edom is read as a type of that final judgment") is not catechism teaching. Mark it as how Catholic commentators read it, or drop it.
 - 38:18 card: consider a Lutheran view. Luther often spoke of death as a sleep without teaching soul-sleep, a distinct nuance between the Reformed and Adventist answers. This is optional.
 
-### 23. Minor (for the 2 Kings writer, not this part): 2 Kings 18:35 Plain adds "these"
-2 Kings 18:35 has מי בכל אלהי הארצות with no הָאֵלֶּה, yet its Plain says "these lands". Isaiah 36:20 has האלה, so Isaiah's identical English is correct. Pass this to the 2 Kings 18–25 writer.
+### 23. Minor (for the 2 Kings writer, not this part): 2 Kings 18:35 Plain English Translation adds "these"
+2 Kings 18:35 has מי בכל אלהי הארצות with no הָאֵלֶּה, yet its Plain English Translation says "these lands". Isaiah 36:20 has האלה, so Isaiah's identical English is correct. Pass this to the 2 Kings 18–25 writer.
 
 ## Fixes applied
 
-I re-checked each finding against the literal line (literal.js), dss.py, lxx.py and the current site Plain before changing anything. Build: `VERBOSE=1 node tools/build.js --check Isa/31-39` gives 0 errors, 0 warnings (170 verses, 135 notes, 33 variants, 53 glosses, 9 chapter pages, 17 topic contributions).
+I re-checked each finding against the literal line (literal.js), dss.py, lxx.py and the current site Plain English Translation before changing anything. Build: `VERBOSE=1 node tools/build.js --check Isa/31-39` gives 0 errors, 0 warnings (170 verses, 135 notes, 33 variants, 53 glosses, 9 chapter pages, 17 topic contributions).
 
 1. **31:9 nes.** Applied the lead decision: "and his officers will lose their nerve at the flag"; gloss re-anchored on "lose their nerve at the flag".
 2. **Drift in 32–34.** Every flagged line, and every other verse in 32–34 whose shape was close to a modern version, was rebuilt from the literal line with a new sentence shape (52 verses in all with finding 3 and the small fixes; listed in the scratch audit). Examples: 32:7 "He thinks up schemes / to wreck the poor with false words, / even when the needy man speaks for what is just"; 32:20 "you who sow beside every water"; 34:11 "Desert owl and hedgehog will take it over; / ibis and raven will settle in it" (no "nest", no "screech owl"; the note explains the ibis); 34:13 "nettles and thistles in its forts". Smaller echoes: 32:10 "the vintage will be over"; 32:19 rebuilt; 34:5 "Look, it will come down"; 33:24 rebuilt; 32:11 "tie a cloth around your hips" (no "sackcloth"). Anchors of notes, variants and glosses were moved to match.
@@ -208,9 +208,9 @@ I re-checked each finding against the literal line (literal.js), dss.py, lxx.py 
 10. **39:8.** "Adds 'he went on'" deleted; the note says both books have it.
 11. **33:15.** Makkot 24a now includes Amos 5:4, with Habakkuk 2:4 as Rav Nahman bar Yitzhak's alternative.
 12. **34:4.** The Greek "all the stars will fall" (lxx.py) is added beside the scroll's reading.
-13. **34:5/34:7.** Plain 34:7 "Their land will drink deep of blood"; the variant's "why" now quotes it.
-14. **Scroll readings.** Added a 36:11 variant (1QIsa-a "these words ... the men sitting on the wall", with the Greek), a 38:11 note on the single "Yah" in 1QIsa-a, a 4Q56 witness line in the 39:1 variant ("for he had heard"), and a 34:13 variant for chatser "court" (Plain now "a haunt of ostriches", following MT). 37:29 is covered in the chapter 37 note. **Not applied:** 33:3 (mdmmtk). It is optional in the review; I judge it a probable graphic slip (d/r) with no clear sense, and left it out.
-15. **Quotations.** 22:20 now quoted as the Plain has it ("I will call my servant Eliakim son of Hilkiah"); 29:15 "burrow deep"; the 36:4 note now quotes Plain 30:15 instead of the KJV. Also fixed: two new quote warnings (10:5, whose Plain was changed by part 07-12; and the Kings wording in the chapter 37 note, now referenced to 2 Kings 19:15 and 19:17).
+13. **34:5/34:7.** Plain English Translation 34:7 "Their land will drink deep of blood"; the variant's "why" now quotes it.
+14. **Scroll readings.** Added a 36:11 variant (1QIsa-a "these words ... the men sitting on the wall", with the Greek), a 38:11 note on the single "Yah" in 1QIsa-a, a 4Q56 witness line in the 39:1 variant ("for he had heard"), and a 34:13 variant for chatser "court" (Plain English Translation now "a haunt of ostriches", following MT). 37:29 is covered in the chapter 37 note. **Not applied:** 33:3 (mdmmtk). It is optional in the review; I judge it a probable graphic slip (d/r) with no clear sense, and left it out.
+15. **Quotations.** 22:20 now quoted as the Plain English Translation has it ("I will call my servant Eliakim son of Hilkiah"); 29:15 "burrow deep"; the 36:4 note now quotes Plain English Translation 30:15 instead of the KJV. Also fixed: two new quote warnings (10:5, whose Plain English Translation was changed by part 07-12; and the Kings wording in the chapter 37 note, now referenced to 2 Kings 19:15 and 19:17).
 16. **Key terms.** 34:14 now "a goat-demon", matching 13:21 (lead decision); the note gives the "wild goat" reading and the site's "goat idols" at Leviticus 17:7; the evil-spirit and edom topics are updated to match. Chonef in 32:6 is now "act impiously", and the 32:5 note separates it from nabal "godless fool".
 17. **Factual slips.** Herodotus "travelled in Egypt about 450–440 BC"; Lachish "the only Assyrian siege ramp yet excavated"; the Dutch analogy dropped from 33:19; the 39:1 note says 21:9 "perhaps" refers to one of Assyria's sieges, and gives the 539 BC view.
 18. **33:22.** Split into a `deb` word note ("Commander or lawgiver?") and a `com` note ("Three branches of government?"), which quotes Federalist No. 47 on Montesquieu and places the claim in popular "Christian heritage" books and sermons. **Partly not applied:** I could not verify a named originator or a historian's discussion in the sources available to me, so I name none rather than risk a wrong attribution.

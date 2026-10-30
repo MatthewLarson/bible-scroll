@@ -1,6 +1,6 @@
 # Hostile review: Romans book.json (written by part 01-04)
 
-Checked against the briefs, `works.json`, the parts of Romans, the Plain of the Old Testament books that exist, and web checks where noted. `--check Rom/01-04` is clean (0/0).
+Checked against the briefs, `works.json`, the parts of Romans, the Plain English Translation of the Old Testament books that exist, and web checks where noted. `--check Rom/01-04` is clean (0/0).
 
 ## Verdict
 
@@ -44,14 +44,14 @@ Fix: fill the cells, or put "agrees with both" in them, and add Psalm 143:2 and 
 
 **11. `prompts`.** (a) Prompt 1 gives Paul "a small man with a lined, serious face and a hooked nose": this is from the late *Acts of Paul and Thecla* (about AD 180-200), not from Paul. Mark it as tradition or leave the face unspecified. (b) Prompt 2 puts "Jews in prayer shawls" in first-century Rome; the tallit as a prayer garment is a later development (fringes on the cloak are attested). Use "fringed cloaks". (c) Prompt 4 has a "single wooden cross" as a watermark "behind the veil" of the ark; the cross is not in Romans 3:25's picture in an obvious way. Reasonable as art; no fix needed beyond (a) and (b). The style paragraphs meet the "no hard rectangle" rule.
 
-**12. `facts` and `authorship`.** (a) The `Place` entry is correct (Cenchreae, Gaius, Erastus). (b) "Almost every critic, even those who reject other letters, accepts Romans; only a few radical critics of the 19th century (Bruno Bauer and the Dutch Radical school) denied it" is correct. (c) "Cicero's Tiro" is an apt example (shorthand notes); fine. (d) The textual note on 16:24 says "the Plain marks it as the policy of this site requires"; check at merge that the other parts' Plain shows `16:24 [The oldest manuscripts do not have this verse.]` exactly.
+**12. `facts` and `authorship`.** (a) The `Place` entry is correct (Cenchreae, Gaius, Erastus). (b) "Almost every critic, even those who reject other letters, accepts Romans; only a few radical critics of the 19th century (Bruno Bauer and the Dutch Radical school) denied it" is correct. (c) "Cicero's Tiro" is an apt example (shorthand notes); fine. (d) The textual note on 16:24 says "the Plain English Translation marks it as the policy of this site requires"; check at merge that the other parts' Plain English Translation shows `16:24 [The oldest manuscripts do not have this verse.]` exactly.
 
 ---
 
 ## Checks that passed
 
 - Facts: author, date (with the year-or-two hedge), place, scribe Tertius, Phoebe of Cenchreae, Gaius, Erastus, length 433 verses.
-- Edict of Claudius: Suetonius, *Claudius* 25.4 and Acts 18:2 are quoted correctly (Acts 18:2 matches the site's Plain exactly); Dio and Orosius reported correctly.
+- Edict of Claudius: Suetonius, *Claudius* 25.4 and Acts 18:2 are quoted correctly (Acts 18:2 matches the site's Plain English Translation exactly); Dio and Orosius reported correctly.
 - Reception history: Augustine (*Confessions* 8.12, Rom 13:13-14), Luther (preface to the Latin works, 1545), Wesley (24 May 1738, Luther's preface), Barth (*Römerbrief* 1919, 2nd ed. 1922), Pelagius (about 405-410), Chrysostom (32 homilies), Calvin (1540), Trent (1547), Joint Declaration (1999) are all accurate.
 - `reading` list: all titles, series and dates are correct (Cranfield ICC 1975-79; Moo NICNT 1996, 2nd ed. 2018; Dunn WBC 1988; Fitzmyer AB 1993; Jewett Hermeneia 2007; Wright NIB 2002; Käsemann 1980; Stowers 1994; Donfried rev. 1991; Barclay 2015; Levine and Brettler 2nd ed. 2017).
 - Lenses H C L J T present, with the five names and descriptions in the brief.

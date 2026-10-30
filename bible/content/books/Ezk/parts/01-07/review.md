@@ -26,7 +26,7 @@ Findings: 0 critical, 9 major, 14 minor.
    - 5:7 ("more turbulent than the nations... not even acted by the rulings of the nations") has ESV's "more turbulent" and "have not even acted according to the rules of the nations".
    - Minor drift: 3:21 ("because he took the warning, and you will have saved your own life"), 3:27, 5:2, 6:2-4.
 
-5. **6:14 "more than the wilderness toward Diblah" is the KJV reading, and the note's reason for the Riblah conjecture is incomplete.** Hebrew mimmidbar Diblatah is read by most modern versions as a span "from the wilderness to Diblah/Riblah", the whole land from south to north. The Plain makes min comparative without saying so. The note says Riblah is suggested because Nebuchadnezzar judged Zedekiah there, which is not the argument. The gloss "a desert place" fits neither reading. Fix: note the span reading, state which one the Plain follows and why, give the real reason for the Riblah conjecture, and rewrite the gloss.
+5. **6:14 "more than the wilderness toward Diblah" is the KJV reading, and the note's reason for the Riblah conjecture is incomplete.** Hebrew mimmidbar Diblatah is read by most modern versions as a span "from the wilderness to Diblah/Riblah", the whole land from south to north. The Plain English Translation makes min comparative without saying so. The note says Riblah is suggested because Nebuchadnezzar judged Zedekiah there, which is not the argument. The gloss "a desert place" fits neither reading. Fix: note the span reading, state which one the Plain English Translation follows and why, give the real reason for the Riblah conjecture, and rewrite the gloss.
 
 6. **3:15 Ketiv/Qere entry misprints the Qere.** Where: variants.json 3:15. The data (texts/auto) shows that the Qere is "va'esheb" (K = "va'asher"). The Leningrad text is therefore "wa'esheb hemmah yoshevim sham" with no "asher". The entry's Qere line "va'esheb asher hemmah yoshevim sham" contains an "asher" that no witness has and joins the two readings. Correct the Hebrew, the "en" line and the plain. Also add the Greek, which has no Tel-abib at all (it reads "I went around those living by the Chobar") and has a different construction.
 
@@ -67,7 +67,7 @@ Findings: 0 critical, 9 major, 14 minor.
 
 21. **Gloss 6:14 and unconventional glosses.** "terebinth ... a big oak-like tree" is fine. "Diblah ... a desert place" see item 5. Glosses on 1:22 ("so bright it was scary") and 3:7 ("bullheaded") are slangy but acceptable.
 
-22. **Plain 1:22 "the heads of the living creature"** keeps the Hebrew singular but reads oddly for an 8th grader beside plural "their heads"; add a note (the singular is in note 1:20) or a gloss.
+22. **Plain English Translation 1:22 "the heads of the living creature"** keeps the Hebrew singular but reads oddly for an 8th grader beside plural "their heads"; add a note (the singular is in note 1:20) or a gloss.
 
 23. **Cross-book alignment (for the lead).** The Ezekiel term "dever = plague" conflicts with the Jeremiah proposal "deber = disease (14:12)", while Jeremiah's own text uses "plague" at 21:6 and 24:10. Reconcile.
 

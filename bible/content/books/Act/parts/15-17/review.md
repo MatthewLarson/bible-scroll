@@ -8,7 +8,7 @@ Reviewer: hostile-reviewer (not the writer). Scope: plain.txt, notes.json, varia
 
 ## Verdict
 
-This is a strong part. I checked the Plain against the SBLGNT verse by verse and it is faithful. It keeps the
+This is a strong part. I checked the Plain English Translation against the SBLGNT verse by verse and it is faithful. It keeps the
 Greek's wordplay (the spirit "came out" and the owners' hope "had gone out", 16:18–19; "cast in their lot", 17:4;
 "seed-picker", 17:18), handles the neuter of 17:23 correctly, and gives the decree consistently ("keep away
 from", "sexual sin", "what is strangled"). "Sexual sin" for πορνεία matches Matthew 5:32 and 19:9, and
@@ -113,7 +113,7 @@ every such place gets an entry).
 - **16:6.** The Byzantine text and TR have Διελθόντες ("Now when they had gone throughout", KJV). The SBL/NA have
   the finite Διῆλθον ("They crossed"). This bears directly on the North/South Galatia argument in the 16:6 note,
   which turns on the order of the participle. Add an entry and mention it in the note.
-- **15:7.** SBL/NA ἐν ὑμῖν ("among you") against Byzantine/TR ἐν ἡμῖν (KJV "God made choice among us"). The Plain
+- **15:7.** SBL/NA ἐν ὑμῖν ("among you") against Byzantine/TR ἐν ἡμῖν (KJV "God made choice among us"). The Plain English Translation
   says "among you", and KJV readers will see a different pronoun. Add an entry.
 - **Smaller ones.** Consider adding:
   - 15:37: ἐβουλεύσατο, KJV "determined to take" against "wanted";
@@ -174,10 +174,10 @@ later. Write "The church Paul founded at Corinth soon after had the same doubt a
 15:12)."
 
 **14. Minor: notes.json 16:18 "In the name of Jesus Christ" misquotes 19:13.** It quotes "the Jesus whom Paul
-preaches". 18-20's Plain reads "Jesus, the one Paul preaches". Quote the current Plain.
+preaches". 18-20's Plain English Translation reads "Jesus, the one Paul preaches". Quote the current Plain English Translation.
 
-**15. Minor: chapters.json ch. 15 spec box "three witnesses" quotes James as "I rule" (15:19).** The Plain reads "my
-decision is this". Quote the Plain, or mark "I rule" as a literal rendering of κρίνω.
+**15. Minor: chapters.json ch. 15 spec box "three witnesses" quotes James as "I rule" (15:19).** The Plain English Translation reads "my
+decision is this". Quote the Plain English Translation, or mark "I rule" as a literal rendering of κρίνω.
 
 **16. Minor: variants.json 15:18 reading 1's `plain` ends with a closing quote: "...are all his works.'"** The anchor
 "things known from ages past." does not include the verse's closing ', so switching to that reading would show two
@@ -233,8 +233,8 @@ notes), Galatians is earlier. Write "probably Paul's first surviving letter".
   Eastern Patriarchs) would strengthen it.
 
 **25. Minor: chapters.json ch. 15 deep "James and Amos" puts quotation marks around a rendering of the Hebrew of Amos
-9:12, followed by "(Amos 9:12, put plainly)".** The site has no Amos Plain yet. When Amos is written, this will
-trip the quote check or disagree with the Amos Plain. The 15:17 note does the same. Flag both for the lead to align
+9:12, followed by "(Amos 9:12, put plainly)".** The site has no Amos Plain English Translation yet. When Amos is written, this will
+trip the quote check or disagree with the Amos Plain English Translation. The 15:17 note does the same. Flag both for the lead to align
 when Amos is done, or drop the quotation marks now.
 
 **26. Minor: glosses.json 15:2 "apostles and elders => the Twelve and the senior leaders of the Jerusalem church".** By
@@ -251,7 +251,7 @@ Twelve. Write "the apostles (Jesus' first envoys) and the senior leaders of the 
   knows the decree without "strangled". All correct as reported by Metzger.
 - **Bezae elsewhere.** The readings at 15:1, 15:2, 17:4, 17:12 and 17:34 are correctly reported, and Witherington's
   JBL 1984 article is correctly cited.
-- **Quotations of other books.** All the Old Testament quotations I checked match the current Plain of Genesis,
+- **Quotations of other books.** All the Old Testament quotations I checked match the current Plain English Translation of Genesis,
   Deuteronomy, 1 Samuel, 1 Kings, Psalms and Isaiah. So do the Revelation 2:14 wording and Matthew 11:30 ("kind to
   wear"). "In the right way" at 17:31 matches Psalms 9:8, 96:13 and 98:9, so the departure from terms.json
   ("righteousness") is justified by the Psalm allusion. A short note saying so would help.
@@ -297,6 +297,6 @@ Twelve. Write "the apostles (Jesus' first envoys) and the senior leaders of the 
 22. Accepted. "Probably Paul's first surviving letter (unless Galatians is earlier)".
 23. Accepted. 15:23–29 `why` no longer states the shared-meals view as fact; 17:22–31 `to` is "The Athenians gathered at the Areopagus, perhaps the council itself ..."; added settings cards for 15:12 (Barnabas and Paul's report) and 17:17 (the daily debates).
 24. Accepted. Added an Anglican view (Article 21, `thirty-nine-articles`); the Orthodox view now cites the 1848 Encyclical of the Eastern Patriarchs (new key `encyclical-1848`).
-25. Accepted. Removed the quotation marks around the rendering of Amos 9:12 in the "James and Amos" deep section and the 15:17 note (now paraphrase); the lead may quote the Amos Plain when Amos is written.
+25. Accepted. Removed the quotation marks around the rendering of Amos 9:12 in the "James and Amos" deep section and the 15:17 note (now paraphrase); the lead may quote the Amos Plain English Translation when Amos is written.
 26. Accepted. Gloss now "the apostles (Jesus' first envoys) and the senior leaders of the Jerusalem church".
 Also: 17:31 note now says why "in the right way" departs from the term ("righteousness"): the Psalms allusion. The 15:29 decree wording is unchanged and remains the model for 21:25.

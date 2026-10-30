@@ -4,16 +4,16 @@ Reviewed: `content/books/2Ma/book.json` (title, subtitle, lead, facts, authorshi
 
 Checked against:
 - the Greek in `texts/orig/2Ma.json` (Swete, Alexandrinus), Swete's apparatus `texts/src/2Ma.app.json`, and the Vulgate and Douay in `texts/src/2Ma.lat.json`;
-- the Plain in the four part folders. A script took every quotation in book.json and looked for it in the parts' plain.txt. All 89 quotations that should be 2 Maccabees Plain match the current Plain word for word. I then checked by hand that each one is cited at the right verse;
+- the Plain English Translation in the four part folders. A script took every quotation in book.json and looked for it in the parts' plain.txt. All 89 quotations that should be 2 Maccabees Plain English Translation match the current Plain English Translation word for word. I then checked by hand that each one is cited at the right verse;
 - the part variants, notes, chapters.json and the works lane's proposed terms (`content/proposals/works/terms.json`);
 - every traditions card on the site (`content/books/*/chapters.json`, `*/parts/*/chapters.json`, `*/book.json`), and `app/app.js` for the headings that book.json points to;
-- the Plain of the 66 books where book.json quotes them (John 10:22, Matthew 16:14 and Exodus 20:13 match), and the 66 books' notes for pointers back to 2 Maccabees.
+- the Plain English Translation of the 66 books where book.json quotes them (John 10:22, Matthew 16:14 and Exodus 20:13 match), and the 66 books' notes for pointers back to 2 Maccabees.
 
 `VERBOSE=1 node tools/build.js --check 2Ma` gives **0 errors and 1 warning**: 555 verses, 401 notes, 117 variants, 183 glosses, 15 chapter pages and 42 topic contributions. The warning comes from part 04-07 (notes[220], 7:36, John 4:14 not in the site's wording), not from book.json. Every source key resolves. There are no em-dashes. The verse count, 555, matches the lead and the facts.
 
 ## Verdict
 
-This is careful, well-built work. In the site's own voice, 2 Maccabees is never called Scripture or "the Bible". The churches are not ranked. The reliability analysis is labeled as Claude's and keeps its four parts. Every 2 Maccabees quotation matches the parts' current Plain, and I found no NRSV wording in it.
+This is careful, well-built work. In the site's own voice, 2 Maccabees is never called Scripture or "the Bible". The churches are not ranked. The reliability analysis is labeled as Claude's and keeps its four parts. Every 2 Maccabees quotation matches the parts' current Plain English Translation, and I found no NRSV wording in it.
 
 Most of the claims the writer marked as resting on memory check out (see "Verified"). The weak points are these:
 - **Two scholars are misreported.** Doran's words, "very little evidence that the work was known by Philo, Josephus, or the rabbinic tradition", are credited twice to Schwartz. And Doran is listed among those who date the letter of 11:27–33 to spring 164 BC, when his own chronology puts it in February or March 165.
@@ -122,12 +122,12 @@ cited_in is printed under "Where the Bible refers to it". The five entries are a
 ### Minor
 
 **6. Minor: sections "Names and words to know": *epiphaneiai* "(2:21; 3:24; 12:22; 15:27)".**
-- *The problem:* at 15:27 Swete prints ἐπιμελείᾳ, "care". The apparatus has "επιμελεια] επιφανεια V", and the Plain says "God's care for them". The 12-15 variant records this. So 15:27 is an epiphany only in Venetus, which is the quiet drift toward Venetus that the lessons warn about.
+- *The problem:* at 15:27 Swete prints ἐπιμελείᾳ, "care". The apparatus has "επιμελεια] επιφανεια V", and the Plain English Translation says "God's care for them". The 12-15 variant records this. So 15:27 is an epiphany only in Venetus, which is the quiet drift toward Venetus that the lessons warn about.
 - *What the terms say:* the works terms proposal lists "2:21; 3:24; 5:4; 12:22; 14:15; at 15:27 only in Venetus".
 - *Fix:* "(2:21; 3:24; 5:4; 12:22; 14:15)".
 
 **7. Minor: sections "Two books about the same war": "2 Maccabees never names Mattathias".**
-14:19 names a Mattathias, one of Nicanor's envoys (Ματταθίαν; Plain "Posidonius, Theodotus and Mattathias"). *Fix:* "never names Judas's father, Mattathias".
+14:19 names a Mattathias, one of Nicanor's envoys (Ματταθίαν; Plain English Translation "Posidonius, Theodotus and Mattathias"). *Fix:* "never names Judas's father, Mattathias".
 
 **8. Minor: reliability §3, "The numbers": "120,000 Galatians killed by 6,000 Jews and Macedonians (8:20)".**
 - *What 8:20 says:* 8,000 Jews fought with 4,000 Macedonians. The Macedonians were "at their wits' end", and "the six thousand" destroyed 120,000. The 08-11 variant records the 6,000/8,000 problem.
@@ -171,7 +171,7 @@ cited_in is printed under "Where the Bible refers to it". The five entries are a
 
 **16. Minor: card 2, Catholic row: Calmet "comparing Paul, 'unskilled in speech' (2 Corinthians 11:6)".**
 - *Not Haydock's English.* Haydock gives the comparison in Latin only (*imperitus sermone sed non scientia*), so the English in quotation marks is the site's, not Calmet's.
-- *Close to RSV and ESV.* "Unskilled in speech" is very close to RSV/ESV ("unskilled in speaking"). 2 Corinthians has no site Plain yet.
+- *Close to RSV and ESV.* "Unskilled in speech" is very close to RSV/ESV ("unskilled in speaking"). 2 Corinthians has no site Plain English Translation yet.
 - *Fix:* fresh wording outside Calmet's quotation, e.g. comparing Paul, who admits he is "no trained speaker" (2 Corinthians 11:6).
 
 **17. Minor: sources.json and the commentators' names.**
@@ -202,7 +202,7 @@ cited_in is printed under "Where the Bible refers to it". The five entries are a
 - reliability §1: "the oldest account of the feasts of Hanukkah (10:5–8)". 1 Maccabees 4:52–59 is at least as old. Say "with 1 Maccabees 4, the oldest account".
 - sections, "In the early church": the martyrs "became the first saints of the church's calendar who died before Christ" is unsourced, and "first" is unclear. Say "the only saints from before Christ with a feast in the general calendar of the West (August 1)", sourced, or drop it.
 - The term "Day of Nicanor" (6 times in book.json) against "Nicanor's Day" (4 times in book.json, 12 in the parts). Use one form.
-- The site's Hebrews 11:35–36 wording ("had their trial in mockings and whippings, and besides that in chains and prison") keeps the KJV's sentence shape ("had trial of ... mockings and scourgings, yea, moreover of bonds and imprisonment"). It also differs from the 1Ma book.json's paraphrase of the same verse ("tortured and turned down release to win a better resurrection"). Make one fresh rendering for both books until Hebrews has a Plain.
+- The site's Hebrews 11:35–36 wording ("had their trial in mockings and whippings, and besides that in chains and prison") keeps the KJV's sentence shape ("had trial of ... mockings and scourgings, yea, moreover of bonds and imprisonment"). It also differs from the 1Ma book.json's paraphrase of the same verse ("tortured and turned down release to win a better resurrection"). Make one fresh rendering for both books until Hebrews has a Plain English Translation.
 
 **22. Minor: reliability §4 (c), Nehemiah, "one later manuscript reads 'managed'".**
 - *Correct, but unsourced.* It is Bechtel's Codex 125 (Mosquensis), οἰκονομήσας. Name it and Bechtel: "one later manuscript (Codex 125, as Bechtel reports) reads 'managed'".
@@ -221,7 +221,7 @@ cited_in is printed under "Where the Bible refers to it". The five entries are a
 - *(a) A debated destination stated as settled.* "So the book was meant to bind Jews far from Jerusalem to its Temple and its feasts." The Egyptian address belongs to the letters, which most scholars think were joined to the summary later (authorship, "The letters at the head"). For the summary itself, the Egyptian readership is Momigliano's and Doran's inference.
   - *Fix:* "In its present form, with the letters at its head, the book addresses the Jews of Egypt". Add the evidence for real early readers: 4 Maccabees (first century AD) and Hebrews 11, both Greek-speaking.
 - *(b) Back-pointers missing from the 66.* book.json and the parts draw these links, but the 66 books do not point back:
-  - **Deuteronomy 32:36** has no pointer to 7:6, where the brothers quote it in the site's own Plain wording;
+  - **Deuteronomy 32:36** has no pointer to 7:6, where the brothers quote it in the site's own Plain English Translation wording;
   - **2 Kings 19:35 / Isaiah 37:36** have none to 8:19 and 15:22;
   - **Isaiah 14:12–15** has none to chapter 9.
 
@@ -229,7 +229,7 @@ cited_in is printed under "Where the Bible refers to it". The five entries are a
 
 ## Fixes applied
 
-All fixes were made in the book writer's generator. book.json was regenerated, and it adds nothing to the build: `VERBOSE=1 node tools/build.js --check 2Ma` gives 0 errors and 0 warnings. The quote check was re-run against the current Plain of all four parts, and every 2 Maccabees quotation matches. The quotations it does not find are from other sources (Calvin, Luther, Leipzig, Dositheus) or are my own short renderings of Galatians and Acts, which have no site Plain yet.
+All fixes were made in the book writer's generator. book.json was regenerated, and it adds nothing to the build: `VERBOSE=1 node tools/build.js --check 2Ma` gives 0 errors and 0 warnings. The quote check was re-run against the current Plain English Translation of all four parts, and every 2 Maccabees quotation matches. The quotations it does not find are from other sources (Calvin, Luther, Leipzig, Dositheus) or are my own short renderings of Galatians and Acts, which have no site Plain English Translation yet.
 
 **Major findings**
 
@@ -251,7 +251,7 @@ All fixes were made in the book writer's generator. book.json was regenerated, a
 
 6. Fixed: the list is now (2:21; 3:24; 5:4; 12:22; 14:15). The Venetus-only reading at 15:27 is dropped.
 7. Fixed: "never names Judas's father, Mattathias".
-8. Fixed. The text now quotes the Plain, "the six thousand destroyed a hundred and twenty thousand", and notes that the verse has just said 8,000 Jews fought with 4,000 Macedonians.
+8. Fixed. The text now quotes the Plain English Translation, "the six thousand destroyed a hundred and twenty thousand", and notes that the verse has just said 8,000 Jews fought with 4,000 Macedonians.
 9. Fixed in all three places. Calvin "said he would not stoop to answer", then argued that Judas is praised only for his hope of the resurrection. The rejected_why passage quotes his sentence verbatim.
 10. Fixed:
     - "only" is added, citing the English rendering.

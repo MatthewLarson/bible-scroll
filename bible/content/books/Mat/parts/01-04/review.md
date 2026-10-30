@@ -25,8 +25,8 @@ Counts: critical 0, major 7, minor 15.
 
 ### 1. Major: book.json misquotes 27:25 and 28:19 (build warnings)
 - **Location:** book.json, section "Matthew and the Jewish people" (27:25) and section "Matthew in the church" (28:19).
-- **Problem:** The 27:25 quotation reads "His blood be on us and on our children". The Plain at 27:25 is "His blood on us, and on our children!". The 28:19 quotation reads "in the name of the Father..." but the Plain has "into the name of the Father and of the Son and of the Holy Spirit". The build warns on both. brief-nt requires 0 warnings. The 13:52 quotation that the build flagged earlier now matches its Plain.
-- **Fix:** Quote the Plain exactly: "His blood on us, and on our children!" (27:25) and "baptizing them into the name of the Father and of the Son and of the Holy Spirit" (28:19). If the familiar wording is wanted, label it as the KJV. Also check "You have heard ... but I tell you" (5:21–48) in "Matthew and the Law": the Plain at 5:22 says "But I myself tell you."
+- **Problem:** The 27:25 quotation reads "His blood be on us and on our children". The Plain English Translation at 27:25 is "His blood on us, and on our children!". The 28:19 quotation reads "in the name of the Father..." but the Plain English Translation has "into the name of the Father and of the Son and of the Holy Spirit". The build warns on both. brief-nt requires 0 warnings. The 13:52 quotation that the build flagged earlier now matches its Plain English Translation.
+- **Fix:** Quote the Plain English Translation exactly: "His blood on us, and on our children!" (27:25) and "baptizing them into the name of the Father and of the Son and of the Holy Spirit" (28:19). If the familiar wording is wanted, label it as the KJV. Also check "You have heard ... but I tell you" (5:21–48) in "Matthew and the Law": the Plain English Translation at 5:22 says "But I myself tell you."
 
 ### 2. Major: the Mary card misstates the Reformed confessions; the 1:25 note overstates Calvin
 - **Location:** chapters.json ch. 1, `traditions` card (top `mary`), Reformed view; notes.json 1:25 "until".
@@ -103,7 +103,7 @@ Counts: critical 0, major 7, minor 15.
 
 ### 8. Minor: the tense in 2:18 is wrong
 - **Location:** plain.txt 2:18.
-- **Problem:** "She will not be comforted." The Greek is the imperfect οὐκ ἤθελεν παρακληθῆναι: she refused, or would not be comforted. The Plain turns a past refusal into a future statement.
+- **Problem:** "She will not be comforted." The Greek is the imperfect οὐκ ἤθελεν παρακληθῆναι: she refused, or would not be comforted. The Plain English Translation turns a past refusal into a future statement.
 - **Fix:** "She would not be comforted" or "She refused to be comforted." The phrase also appears in the rachel topic contribution.
 
 ### 9. Minor: small losses and additions against the Greek
@@ -128,14 +128,14 @@ Counts: critical 0, major 7, minor 15.
 - **Problem:** "Matthew uses the word thirteen times for people before Jesus." Matthew uses προσκυνέω 13 times in all: 2:2, 8, 11; 4:9, 10; 8:2; 9:18; 14:33; 15:25; 18:26; 20:20; 28:9, 17. Of these, 10 are people before Jesus. 4:9–10 refer to the devil and to God, and 18:26 is a slave in a parable.
 - **Fix:** "Matthew uses the word thirteen times, ten of them for people kneeling before Jesus."
 
-### 12. Minor: quotations that do not match the site's Plain, or are garbled
+### 12. Minor: quotations that do not match the site's Plain English Translation, or are garbled
 - **Location:** notes 1:1, 3:15, 4:23; ch. 4 deep "Three tests"; book.json (see 1).
 - **Problem:**
   - The 1:1 note gives "This is the book of the family history of Adam" as the wording of both Genesis 2:4 and 5:1. Genesis 2:4 is "the family history of the heavens and the earth," and only the Septuagint has *biblos* there.
-  - The 3:15 note quotes Isaiah 53:12 as "was counted among the rebels." The Plain has "was counted with the rebels."
-  - The 4:23 note quotes Isaiah 52:7 as "Your God reigns." The Plain has "Your God is King!"
-  - The ch. 4 deep section quotes Genesis 3:6 as "good for food," "to make one wise." The Plain has "good to eat," "attractive for making a person wise."
-- **Fix:** Use the site's Plain wording exactly (STYLE: quoting a book the site has translated). Split the 1:1 quotation: Genesis 2:4 in the Septuagint, "the book of the origin of heaven and earth"; Genesis 5:1, "This is the book of the family history of Adam."
+  - The 3:15 note quotes Isaiah 53:12 as "was counted among the rebels." The Plain English Translation has "was counted with the rebels."
+  - The 4:23 note quotes Isaiah 52:7 as "Your God reigns." The Plain English Translation has "Your God is King!"
+  - The ch. 4 deep section quotes Genesis 3:6 as "good for food," "to make one wise." The Plain English Translation has "good to eat," "attractive for making a person wise."
+- **Fix:** Use the site's Plain English Translation wording exactly (STYLE: quoting a book the site has translated). Split the 1:1 quotation: Genesis 2:4 in the Septuagint, "the book of the origin of heaven and earth"; Genesis 5:1, "This is the book of the family history of Adam."
 
 ### 13. Minor: variants that should have entries
 - **Location:** variants.json.
@@ -227,7 +227,7 @@ Counts: critical 0, major 7, minor 15.
 - **Fix:** 1:3: "Tamar was probably a Canaanite (Genesis does not say)." 1:19: "Most commentators think the angel's words fit the first view best." 2:6: correct the transliteration. 3:7: add "most historians now agree."
 
 ## Fixes applied
-1. Fixed: book.json now quotes 27:25 ("His blood on us, and on our children!"), 28:19 ("into the name of ...") and 5:21–48 ("But I myself tell you") in the current Plain; 13:52 already matched.
+1. Fixed: book.json now quotes 27:25 ("His blood on us, and on our children!"), 28:19 ("into the name of ...") and 5:21–48 ("But I myself tell you") in the current Plain English Translation; 13:52 already matched.
 2. Fixed: Reformed view rewritten (Zwingli, Bullinger, Second Helvetic Confession ch. 11 "ever virgin", Calvin non-committal, Westminster "virgin"; new key second-helvetic-11); Anglican view added; 1:25 note now says Luther, Zwingli and Wesley held it and Calvin declined to argue from the verse.
 3. Fixed: 4:10 witnesses rebuilt from Tischendorf as reported (C* with the addition, Justin, most Old Latin, Curetonian and Peshitta; omission B ℵ K Δ f1 f13 vg cop Irenaeus Origen); preview and why rewritten (oldest Greek omit, harmonization to 16:23).
 4. Fixed in part, per lane decision that 01-04 is the model: 3:10 now "is being cut down and thrown into a fire" (article removed) and its note says "the same Greek line" instead of "word for word"; 4:24 now "moonstruck" to match 17:15, note rewritten; 2:2 note now states the terms rule ("bow down to" in every scene). Kept as model wording: 3:2/4:17 "has drawn near" (10:7 already matches), 4:17 "From then on Jesus began" (16:21 to align), 4:23 "cured every kind of disease and illness" (9:35 already matches), 4:3/4:6 "God's Son" (27:40 to align). Pairs reported to the lane.
@@ -238,7 +238,7 @@ Counts: critical 0, major 7, minor 15.
 9. Fixed: 1:20 gar restored ("because the child..."); 2:1 "After that" removed; 2:12 and 2:22 "Warned by God in a dream"; 4:7 "It is also written"; 4:9 "fall down and bow down to me".
 10. Fixed: 1:20 rebuilt ("take Mary, your wife, into your home"); 4:24 "moonstruck" (see 4).
 11. Fixed: 2:2 note now "thirteen times, ten of them for people kneeling before Jesus" with the list.
-12. Fixed: 1:1 note separates Genesis 2:4 (Septuagint wording) from Genesis 5:1 (Plain); 3:15 "counted with the rebels"; 4:23 "Your God is King!"; ch. 4 deep uses Genesis 3:6 Plain wording.
+12. Fixed: 1:1 note separates Genesis 2:4 (Septuagint wording) from Genesis 5:1 (Plain English Translation); 3:15 "counted with the rebels"; 4:23 "Your God is King!"; ch. 4 deep uses Genesis 3:6 Plain English Translation wording.
 13. Fixed: new variants at 1:6 ("David the king") and 4:23 ("Jesus", an SBL/NA28 vs THGNT difference), whose b covers 4:12, 4:18 and 3:8 ("fruits"); the 1:11 Jehoiakim addition is mentioned in the 1:17 note; the 1:18 "of Christ"/"of Christ Jesus" readings are in the 1:18 variant b.
 14. Fixed: 1:16 reading 2 adds the Curetonian Syriac (in part); 1:25 b cites the Arsinoe epitaph as CIJ 1510 (key frey-cij); 3:16 why no longer cites Mark 1:10; 4:17 why now "most editors keep the word, and the UBS committee rates the longer text as certain."
 15. Fixed: 1:23 note adds the traditional argument from the other uses of 'almah and Wenham on betulah (key wenham-betulah).

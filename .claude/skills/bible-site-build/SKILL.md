@@ -28,7 +28,7 @@ description: Building, checking, previewing and publishing the Bible Scroll site
 - anchor not found / partial overlap: a note, gloss or variant anchor is not an exact substring of the verse, or
   two anchors overlap partly (nesting is fine). A note cannot share its anchor with a variant.
 - unknown source key: define it in the part's sources.json, or reuse the existing key for that work.
-- `quotes X as "...", which is not the site's Plain wording`: update the quote to the current Plain.
+- `quotes X as "...", which is not the site's Plain English Translation wording`: update the quote to the current Plain English Translation.
 - bare reference inside another book's brackets: write the book name on every reference.
 Fix the cause (in content, or in build.js/app if the tool is wrong); never hide a real problem.
 

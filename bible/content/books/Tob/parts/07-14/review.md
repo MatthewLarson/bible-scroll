@@ -4,7 +4,7 @@
 - texts/orig/Tob.json: `grc` (Sinaiticus, the base) and `grc_b` (Vaticanus), read verse by verse;
 - Swete's apparatus in texts/src/Tob.app.json;
 - the Vulgate and Douay in texts/src/Tob.lat.json;
-- part 01-06, the site's Plain for the 66 books it has translated, and every chapters.json and book.json traditions card on the site.
+- part 01-06, the site's Plain English Translation for the 66 books it has translated, and every chapters.json and book.json traditions card on the site.
 
 **Build.** `node tools/build.js --check Tob/07-14` gives **0 errors, 0 warnings** (131 verses, 90 notes, 31 variants, 35 glosses, 8 chapter pages, 16 topic contributions).
 
@@ -14,7 +14,7 @@
 
 This is careful, honest work. The translation is built from the Sinaiticus Greek, not from a modern version. I compared every verse in my head with the NRSV, NABRE and NETS and found no sentence shape that depends on them. Where the Greek forces the wording (for example 7:11 "She is given to you from today"), any likeness is the Greek's.
 
-The four places where the Plain leaves Sinaiticus are all handled openly and well:
+The four places where the Plain English Translation leaves Sinaiticus are all handled openly and well:
 - 11:4, the dog;
 - 11:12 and 11:19, the two missing verses;
 - 13:6b–10a, the gap.
@@ -23,7 +23,7 @@ So are the hard places in Sinaiticus: Tobias/Tobit (7:2), Nabad (11:18), Athēr 
 
 The weaknesses:
 - **Two traditions cards** (ch. 12 and ch. 13) are thinly sourced on the points that matter. In places they dodge the question or repeat a card the site already has.
-- **One corrupt Sinaiticus line (13:16)** and several small additions are smoothed into the Plain without a variant or note.
+- **One corrupt Sinaiticus line (13:16)** and several small additions are smoothed into the Plain English Translation without a variant or note.
 - **Several meaningful Vaticanus/KJV differences** have no entry, above all 14:9 and 13:1.
 
 Nothing is critical. Fix the four major findings before publishing.
@@ -34,7 +34,7 @@ Nothing is critical. Fix the four major findings before publishing.
 
 ### 1. MAJOR: plain.txt 13:16 and elsewhere: silent smoothing of Sinaiticus
 
-**13:16.** Sinaiticus reads ὅτι Ἰερουσαλὴμ οἰκοδομηθήσεται τῇ πόλει οἶκος αὐτοῦ εἰς πάντας τοὺς αἰῶνας. The Greek is garbled: a bare dative "the city", then a nominative "his house", and no πάλιν. The Plain gives "for Jerusalem will be built again, / and in the city, his house, for all the ages." That adds "again" and "and in", and makes a choice about a corrupt line, with no note or variant. Vaticanus has a different line (οἰκοδομηθήσεται Ἰερουσαλὴμ σαπφείρῳ καὶ σμαράγδῳ…). This is exactly the kind of silent correction the brief forbids.
+**13:16.** Sinaiticus reads ὅτι Ἰερουσαλὴμ οἰκοδομηθήσεται τῇ πόλει οἶκος αὐτοῦ εἰς πάντας τοὺς αἰῶνας. The Greek is garbled: a bare dative "the city", then a nominative "his house", and no πάλιν. The Plain English Translation gives "for Jerusalem will be built again, / and in the city, his house, for all the ages." That adds "again" and "and in", and makes a choice about a corrupt line, with no note or variant. Vaticanus has a different line (οἰκοδομηθήσεται Ἰερουσαλὴμ σαπφείρῳ καὶ σμαράγδῳ…). This is exactly the kind of silent correction the brief forbids.
 
 Smaller additions of the same kind, none recorded:
 - **12:14.** "to heal you and Sarah." Sinaiticus has ἰάσασθαι καὶ Σάρραν, with no σε. Either "you" is supplied, or καί means "Sarah too".
@@ -43,7 +43,7 @@ Smaller additions of the same kind, none recorded:
 - **13:10.** "and love every sufferer in you / **through** all the generations." In Sinaiticus πάσας τὰς γενεὰς τοῦ αἰῶνος is a second object of ἀγαπήσαι ("love… all the generations"). "Through" follows Vaticanus's εἰς πάσας.
 - **13:11.** "the name of the chosen one **will stand**." There is no verb in the Greek.
 
-**Fix:** add a `word` note (kind `var` or `deb`) or a variant at 13:16 that gives the Greek and the choice made. For the rest, either italicize the supplied sense in a short note or bring the Plain back to the Greek.
+**Fix:** add a `word` note (kind `var` or `deb`) or a variant at 13:16 that gives the Greek and the choice made. For the rest, either italicize the supplied sense in a short note or bring the Plain English Translation back to the Greek.
 
 ### 2. MAJOR: variants.json: meaningful Vaticanus/KJV differences with no entry
 
@@ -90,12 +90,12 @@ N71 rightly says ἐκλεκτῆς is feminine and means Jerusalem. But the sit
 
 ### 6. MINOR: 14:15 and 14:10: the names Achiacharus and Ahiqar
 
-- **The Plain's policy is inconsistent.** It corrects Sinaiticus elsewhere (Nabad becomes Nadab, Athēr becomes Assyria, κύριος becomes the dog, με becomes Ahiqar). Here it prints "Achiacharus king of Media", a form the variant itself calls a confusion with Ahiqar's name. Either print "Cyaxares", with the Sinaiticus form as a reading (as many translations do), or keep Achiacharus and say in the `p` that the Plain prints the manuscript's error on purpose.
+- **The Plain English Translation's policy is inconsistent.** It corrects Sinaiticus elsewhere (Nabad becomes Nadab, Athēr becomes Assyria, κύριος becomes the dog, με becomes Ahiqar). Here it prints "Achiacharus king of Media", a form the variant itself calls a confusion with Ahiqar's name. Either print "Cyaxares", with the Sinaiticus form as a reading (as many translations do), or keep Achiacharus and say in the `p` that the Plain English Translation prints the manuscript's error on purpose.
 - **The 14:10 readings clash with it.** R1 and R2 render Vaticanus's Ἀχιαχάρῳ as "Achiacharus." A reader who switches readings then sees the king of Media's name used for Ahiqar. Use "Ahiqar" in those `plain` strings.
 
 ### 7. MINOR: plain.txt 11:3 "for the ones coming behind"
 
-ἐν ᾧ ἔρχονται means "while they are coming". The Plain turns a time clause into a beneficiary.
+ἐν ᾧ ἔρχονται means "while they are coming". The Plain English Translation turns a time clause into a beneficiary.
 
 ### 8. MINOR: plain.txt 7:11 "Seven men from our own kin have had her as their bride"
 
@@ -107,7 +107,7 @@ The Greek is ἔδωκα αὐτὴν ζ᾽ ἀνδράσιν, "I gave her to se
 
 ### 10. MINOR: plain.txt 14:4 "For I know and believe"
 
-The Greek is διὸ γινώσκω, "therefore I know." The Plain reverses the logic.
+The Greek is διὸ γινώσκω, "therefore I know." The Plain English Translation reverses the logic.
 
 ### 11. MINOR: inconsistent key terms within and across parts
 
@@ -127,10 +127,10 @@ These lines are inside the hymn but are set as prose. The 13:6b sentence runs 44
 - **11:18.** The entry leaves out Swete's note that a corrector of Sinaiticus changed Αχεικαρ to Αχιαχαρος and οἱ ἐξάδελφοι to the singular. That bears on finding 6.
 - **13:9 `why`.** It says ἁγίου echoes "the glory of the Holy One" in Vaticanus 12:12 and 12:15. Vaticanus 12:12 has only ἐνώπιον τοῦ ἁγίου; the "glory" is in 12:15.
 
-### 14. MINOR: notes N20 and N74: quotations not in the site's Plain wording (the build missed them)
+### 14. MINOR: notes N20 and N74: quotations not in the site's Plain English Translation wording (the build missed them)
 
-- **N20.** "we have become a laughingstock and a mockery" (Psalm 44:13–14; Psalm 79:4). The site's Plain is "a disgrace to our neighbors, / something to laugh at and sneer at."
-- **N74.** "Bless the LORD, O my soul." The site's Plain is "Bless the LORD, my soul" (Psalm 103:1).
+- **N20.** "we have become a laughingstock and a mockery" (Psalm 44:13–14; Psalm 79:4). The site's Plain English Translation is "a disgrace to our neighbors, / something to laugh at and sneer at."
+- **N74.** "Bless the LORD, O my soul." The site's Plain English Translation is "Bless the LORD, my soul" (Psalm 103:1).
 - **N74.** "the city of the great King." The site's Psalm 48:2 has "the town of the great King."
 
 ### 15. MINOR: N16 "Some manuscripts of Vaticanus put the words in a different order"
@@ -159,7 +159,7 @@ Otherwise the card is good. It is fair and unranked, and its sources are real: C
 
 ### 20. MINOR: inconsistency across parts on 12:9
 
-The Tobit 4 card in part 01-06 quotes this part's verse as "almsgiving purges every sin" (12:9). The Plain here reads "Alms… cleanse away every sin." One of the two should change. Tell the 01-06 writer.
+The Tobit 4 card in part 01-06 quotes this part's verse as "almsgiving purges every sin" (12:9). The Plain English Translation here reads "Alms… cleanse away every sin." One of the two should change. Tell the 01-06 writer.
 
 ### 21. MINOR: chapters.json `settings`
 
@@ -192,7 +192,7 @@ The claim is right in substance: *Natural History* 32 gives fish gall for scars 
   - 13:6 and 13:9: the readings of Alexandrinus (στόματι; ἁγία) match Swete.
 - **Ages.** The ages in 14:1, 14:2 and 14:14 (Sinaiticus, Vaticanus, Alexandrinus's εἴκοσι, Vulgate 102, 56/60 and 99) all match the files.
 - **Vulgate and Douay.** The citations at 6:16–22, 8:4–5, 8:9–10, 12:9, 12:13, 12:15, 12:19 and 13:22 all match. (The file's Vulgate 12:9 has "viam æternam"; the note copies the file correctly.)
-- **Quotations of the 66.** These match the site's Plain, apart from finding 14: Genesis, Deuteronomy, 1 Samuel, the Psalms, Judges, Job and Revelation.
+- **Quotations of the 66.** These match the site's Plain English Translation, apart from finding 14: Genesis, Deuteronomy, 1 Samuel, the Psalms, Judges, Job and Revelation.
 - **Status.** Tobit is never called Scripture in the site's own voice. Every such statement is attributed to the Catholic or Orthodox churches.
 - **Cross-references.** The links in both directions to Revelation 8:2–4, Revelation 21, Matthew 6, Acts 10:4, Luke 24:36 and 24:41–43, Luke 1:19 and 1 John 1:7 are present and accurate.
 - **Cross-cards.** Every card the notes point to exists: chapter 2 (burial), chapter 4 (alms, close-kin marriage), chapter 6 (exorcism), 1 Enoch 20 and 99, Joshua 21 and Numbers 34.
@@ -221,12 +221,12 @@ The claim is right in substance: *Natural History* 32 gives fish gall for scars 
 
 ## Fixes applied
 
-1. Agreed. 13:16 now reads "for Jerusalem will be built, / the city that is his house, for all the ages" (no "again"), with a variant giving the Greek, both ways of taking it, and Vaticanus. Variants added for 12:14 ("you" supplied), 11:13 (object supplied), 13:10 (Plain now "and all the generations", following Sinaiticus) and 13:11 (13:11 entry rebuilt). 13:12 brought back to the Greek ("A curse on all who speak harsh words!") and 13:11 made verbless ("and the name of the chosen city, for all the ages").
+1. Agreed. 13:16 now reads "for Jerusalem will be built, / the city that is his house, for all the ages" (no "again"), with a variant giving the Greek, both ways of taking it, and Vaticanus. Variants added for 12:14 ("you" supplied), 11:13 (object supplied), 13:10 (Plain English Translation now "and all the generations", following Sinaiticus) and 13:11 (13:11 entry rebuilt). 13:12 brought back to the Greek ("A curse on all who speak harsh words!") and 13:11 made verbless ("and the name of the chosen city, for all the ages").
 2. Agreed. Variants added for 14:9, 13:1, 11:15, 14:8, 12:13, 7:1, 14:7, 14:11 and 14:4 (counted/scattered).
 3. Agreed. The card now has two rows: Catholic (Aquinas I q.51 a.3, replies 1 and 5; Challoner, Calmet and Menochius as gathered in Haydock's note on Tobit 5) and Reformed (Whitaker, as Haydock reports him: "would have this to be a lie"). The Orthodox, Lutheran and Anglican rows are dropped. The question points to the Joshua 2 Rahab card. Whitaker's Question and chapter are still unverified, because the monergism copy stops at Question I, chapter IV. New source key: haydock-commentary.
 4. Agreed; per the coordinator, the card is dropped. Its content is now a ch. 13 deep section, "An earthly Jerusalem, or the Church?", with the Catholic view corrected (literal sense kept; Liturgy of the Hours canticle of thanksgiving) and pointers to the millennium (Revelation 20, Psalm 72) and promised-land (Numbers 34, Joshua 21) cards. Topics millennium and promised-land are added to ch. 13. Views.C was reworded the same way.
 5. Agreed: "the chosen city"; note anchor and text updated.
-6. Agreed in part. Achiacharus is kept, and the 14:15 `p` now says the Plain prints the first scribe's form on purpose. The 14:10 readings now use "Ahiqar" in their `plain`.
+6. Agreed in part. Achiacharus is kept, and the 14:15 `p` now says the Plain English Translation prints the first scribe's form on purpose. The 14:10 readings now use "Ahiqar" in their `plain`.
 7. Agreed: "make the house ready while they are on their way."
 8. Agreed: "I have given her to seven men from our own kin."
 9. Agreed: "and so bless and sing praise to his name."
@@ -234,7 +234,7 @@ The claim is right in substance: *Natural History* 32 gives fish gall for scars 
 11. Agreed. σωτηρία is now "keep ... safe" throughout (8:4, 8:5, 8:17), matching 6:18. 8:2 reads "the ashes of the incense", as in 6:17 (now revised in 01-06). χειρόγραφον is "the handwritten document" (9:2, 9:5, ch. 9 summary), after 5:3's "a document in his own hand"; N25 explains.
 12. Agreed: 13:6b–13:9 set as poetry lines; the variant anchors are now each passage's first line.
 13. Agreed, all five. 13:11 Vaticanus reading has real text; 14:10 R3 is "Because Manasseh gave alms"; 8:15 `why` names Bᵃᵇᵐᵍ and A and notes that ℵ has καθαρᾷ; 11:18 adds the ℵc.a corrector reading; 13:9 `why` corrected.
-14. Agreed: N20 and N74 now quote the site's Plain (Psalm 79:4; Psalm 103:1; Psalm 47:2; Psalm 48:2 "the town of the great King").
+14. Agreed: N20 and N74 now quote the site's Plain English Translation (Psalm 79:4; Psalm 103:1; Psalm 47:2; Psalm 48:2 "the town of the great King").
 15. Agreed: "Vaticanus puts the words in a different order (βοηθὸν Εὕαν στήριγμα)."
 16. Agreed: N85 now says the Elephantine copy breaks off after the officer hides Ahiqar, and that the restoration and Nadin's end come from the later versions. "In a pit" is removed.
 17. Agreed: N41 narrowed to Reformed and many other Protestants, noting the feast of St Michael and All Angels kept by Anglicans and Lutherans.

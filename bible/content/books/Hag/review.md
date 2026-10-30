@@ -1,6 +1,6 @@
 # Hostile review: Haggai (whole book, flat folder)
 
-Reviewer: hostile-reviewer agent. `VERBOSE=1 node tools/build.js --check Hag` gives 0 errors, 0 warnings (38 verses, 63 notes, 14 variants, 18 glosses, 29 topic contributions). I checked the Plain against the literal line (`node tools/literal.js Hag 1` and `2`), against `texts/orig/Hag.json`, `tools/lxx.py` and `tools/dss.py` output, and I checked the Jewish citations on the web.
+Reviewer: hostile-reviewer agent. `VERBOSE=1 node tools/build.js --check Hag` gives 0 errors, 0 warnings (38 verses, 63 notes, 14 variants, 18 glosses, 29 topic contributions). I checked the Plain English Translation against the literal line (`node tools/literal.js Hag 1` and `2`), against `texts/orig/Hag.json`, `tools/lxx.py` and `tools/dss.py` output, and I checked the Jewish citations on the web.
 
 ## Verdict
 
@@ -25,7 +25,7 @@ Counts: critical 0, major 5, minor 16.
    - The 2:23 card has Catholic, Reformed and Dispensationalist only. Add Orthodox, Lutheran or Baptist, or say plainly that these did not diverge, and add the Jewish reading (Rashi) as a "what the first readers' heirs said" note.
    - Fix: add named teachers and `s` keys to every view; label any claim that cannot be sourced.
 
-5. **major. Internal contradiction on whether a foundation existed before 520.** Locations: notes.json 2:15 "Stone on stone" (`B`: "It says that building proper had not begun before 520") against notes 1:14 ("The foundation was already there"), note 2:18 (views 1 and 2 left open) and the book's own "Why the work had stopped" deep note. Also notes.json 1:8 ("The Temple's foundation was laid; what the builders lacked was timber"). The Plain at 2:15 and 2:18 is deliberately neutral about it (the note says "the Plain keeps the two phrases side by side and does not decide"), and the cards and deep notes disagree with each other. Fix: state the debate once (Ezra 3 foundation in 538 against a refounding in 520, Bedford's minority view) and make every note consistent, labeling each unsettled claim "debated".
+5. **major. Internal contradiction on whether a foundation existed before 520.** Locations: notes.json 2:15 "Stone on stone" (`B`: "It says that building proper had not begun before 520") against notes 1:14 ("The foundation was already there"), note 2:18 (views 1 and 2 left open) and the book's own "Why the work had stopped" deep note. Also notes.json 1:8 ("The Temple's foundation was laid; what the builders lacked was timber"). The Plain English Translation at 2:15 and 2:18 is deliberately neutral about it (the note says "the Plain English Translation keeps the two phrases side by side and does not decide"), and the cards and deep notes disagree with each other. Fix: state the debate once (Ezra 3 foundation in 538 against a refounding in 520, Bedford's minority view) and make every note consistent, labeling each unsettled claim "debated".
 
 ### Minor
 
@@ -33,7 +33,7 @@ Counts: critical 0, major 5, minor 16.
 
 7. **minor. Olives in December.** notes.json 2:19: "In December these trees stand bare". The olive is evergreen and its fruit is gathered in autumn and early winter, so "bare" is wrong for it. Fix: say the vine, fig and pomegranate are bare in December, and that in the olive's case the harvest was still due.
 
-8. **minor. "Three uses" of overturn.** notes.json 2:22 "Overturn": "The Plain keeps 'overturn' for the three uses in the verse". The Hebrew has `hafakhti` twice (throne, chariot) and `hishmadti` ("wipe out") once. The Plain uses "overturn" twice. Fix: "both uses".
+8. **minor. "Three uses" of overturn.** notes.json 2:22 "Overturn": "The Plain English Translation keeps 'overturn' for the three uses in the verse". The Hebrew has `hafakhti` twice (throne, chariot) and `hishmadti` ("wipe out") once. The Plain English Translation uses "overturn" twice. Fix: "both uses".
 
 9. **minor. Date inconsistency in note 1:15.** Title "Twenty-four days after the message" while the body (and the lead, the chapter summary and note 1:8) say 23 days. Pick one count and say how it is counted. The sentence "time to ... let the grape and fig harvest of late summer come in" is a guess presented as fact.
 
@@ -61,18 +61,18 @@ Counts: critical 0, major 5, minor 16.
 
 21. **minor. "Haggai is the only prophet called 'messenger of the LORD' outright."** notes.json 1:13. Plausible and widely stated, but unsourced; add the commentary or soften to "the only prophet so called in the Hebrew Bible, as far as I know".
 
-22. **minor. Translation resemblances.** The Plain is literal-driven and I found no copying, but several verses have the same sentence shape as the common modern versions: 2:19 "From this day on I will bless you" (identical), 2:9 "In this place I will give peace", 2:23 "I will take you, Zerubbabel son of Shealtiel, my servant ... and I will make you like a seal ring, for I have chosen you", 1:6 "You have sown much, but you bring in little. You eat, but never ... full", and 2:22 "Horses and their riders will go down, each by the sword of his brother". In every one the Hebrew order dictates the shape, so I do not call it drift. If the fixer wants distance, possible alternatives are "I will bless you starting today" (2:19) and "Horses and riders will fall, each at his brother's sword" (2:22), but the literal line supports the current wording and I recommend leaving it.
+22. **minor. Translation resemblances.** The Plain English Translation is literal-driven and I found no copying, but several verses have the same sentence shape as the common modern versions: 2:19 "From this day on I will bless you" (identical), 2:9 "In this place I will give peace", 2:23 "I will take you, Zerubbabel son of Shealtiel, my servant ... and I will make you like a seal ring, for I have chosen you", 1:6 "You have sown much, but you bring in little. You eat, but never ... full", and 2:22 "Horses and their riders will go down, each by the sword of his brother". In every one the Hebrew order dictates the shape, so I do not call it drift. If the fixer wants distance, possible alternatives are "I will bless you starting today" (2:19) and "Horses and riders will fall, each at his brother's sword" (2:22), but the literal line supports the current wording and I recommend leaving it.
 
 23. **minor. Wording and counting in book.json.** The lead says Haggai "brings five messages" but the book has four oracles plus a narrative report (1:12-15); the brief says four. The deep note is titled "The six dates" but lists five distinct dates (six references). "Kind of writing" has the garbled sentence "It is not poetry, with a rhetorical lift at 2:6-9 and 2:21-23". Fix the wording so each count and sentence is clear.
 
 ## Checked and found sound
 
-- The Plain follows the literal line verse by verse, including "houses covered with wood" (1:4), "held back dew" (1:10), "roused the spirit" (1:14), "the word that I cut with you" (2:5), "prized things" (2:7), "seal ring" (2:23), and the formulas "The LORD of Armies says this" and "Take your ways to heart"/"Take it to heart" (1:5, 7; 2:15, 18).
+- The Plain English Translation follows the literal line verse by verse, including "houses covered with wood" (1:4), "held back dew" (1:10), "roused the spirit" (1:14), "the word that I cut with you" (2:5), "prized things" (2:7), "seal ring" (2:23), and the formulas "The LORD of Armies says this" and "Take your ways to heart"/"Take it to heart" (1:5, 7; 2:15, 18).
 - Counts in the notes: "LORD of Armies" 14 times and "declares" 12 times.
 - Dates: 29 August, 21 September, 17 October and 18 December 520 BC; the temple completed on 3 Adar in Darius's sixth year (Ezra 6:15), about March 515.
 - Talmud: Yoma 9b (the Holy Spirit left after Haggai, Zechariah, Malachi), Yoma 21b (five things, from the missing he of 1:8, and Rashi on 1:8 says the same, checked), Megillah 3a (the Targum of the Prophets "from the mouths of" Haggai, Zechariah and Malachi; the book's phrase "is said to come from" is fine), Bava Batra 15a (Men of the Great Assembly wrote the Twelve).
 - Josephus, Antiquities 15.11 for Herod's Temple; Sirach 49:11-12 and 1 Esdras 3:1-5:6 for Zerubbabel; Charles Wesley's hymn and the O Rex Gentium antiphon; Luther's "aller Heiden Trost"; Calvin taking the plural at 2:7 and Zerubbabel as a type; Gill reading 2:7 of Christ.
-- Joshua/Jeshua: the lead's decision stands, with the 1:1 note spelling out the Ezra and Nehemiah form. The Ezra Plain's "Jeshua" is explained, not hidden.
+- Joshua/Jeshua: the lead's decision stands, with the 1:1 note spelling out the Ezra and Nehemiah form. The Ezra Plain English Translation's "Jeshua" is explained, not hidden.
 - 2:23 seal ring: the Jeremiah 22:24-25 link, "servant" and "chosen" as David's words, and the claim that Haggai does not call Zerubbabel "king" or "anointed" are accurate and fairly balanced.
 - No em-dashes anywhere in the book's files; no NIV or ESV text reproduced; the audience, `views` and settings cards name the hearers precisely (governor, high priest, remnant, then "this people").
 

@@ -4,7 +4,7 @@ Reviewer: separate agent. Content files were not edited. `VERBOSE=1 node tools/b
 
 ## Verdict
 
-The Plain is mostly faithful to the surviving Akkadian. Broken stretches are counted correctly, the speech formulas are consistent, and the copy sigla, the Ipiq-Aya colophon, the line counts (390 / 1,245) and the Millard quotations I could open all match. Most of the Genesis quotations match the site Plain. The Christian viewpoint is generally charitable and not sneering, and the critical view is given. The part has no invented source, reading or fragment, so I found nothing critical. The serious problems are these:
+The Plain English Translation is mostly faithful to the surviving Akkadian. Broken stretches are counted correctly, the speech formulas are consistent, and the copy sigla, the Ipiq-Aya colophon, the line counts (390 / 1,245) and the Millard quotations I could open all match. Most of the Genesis quotations match the site Plain English Translation. The Christian viewpoint is generally charitable and not sneering, and the critical view is given. The part has no invented source, reading or fragment, so I found nothing critical. The serious problems are these:
 
 - (a) The treatment of restorations is inconsistent. Some SEAL restorations are dropped, while others that SEAL marks with "?" are translated as certain, and one note builds a "mistranslation" argument on such a reading.
 - (b) A stated order-parallel between Atrahasis and Genesis 8-9 is false as to order, and it is repeated in three places.
@@ -30,34 +30,34 @@ Count: **0 critical, 7 major, 26 minor** (items 8-33), plus two notes for the le
 
 **2. 12:77-78 and 12:64-65: restorations are handled inconsistently, and one note rests on a "?" reading.**
 - The brief: a restoration SEAL marks "?" or that rests on no parallel gets "..." or a note.
-- 12:77: SEAL has `[n]a?-di-tam`, and the Plain says "the naditu" as text.
-- 12:78: `[šu-gi-tam]` is wholly restored, with no parallel cited. SEAL has `[qá-di?]-iš-tam`, with "?". The Plain gives "the shugitu and the holy woman" as certain.
+- 12:77: SEAL has `[n]a?-di-tam`, and the Plain English Translation says "the naditu" as text.
+- 12:78: `[šu-gi-tam]` is wholly restored, with no parallel cited. SEAL has `[qá-di?]-iš-tam`, with "?". The Plain English Translation gives "the shugitu and the holy woman" as certain.
 - The `mis` note at 12:78 builds an argument on Hebrew *qedeshah* (Genesis 38:21; Deuteronomy 23:17; Hosea 4:14) from this question-marked word. The note itself admits "SEAL restores *šugītu*, and reads *qadištu* with a question mark." A mistranslation claim about the Bible should not hang on a doubtful reading.
 - Meanwhile 12:64-65 are the opposite: the writer omits SEAL's `[šuknī mūta]` "[set death]" on the stated ground that "no other copy or repeated line supports them." That is contradicted by the writer's own note at 12:63, which quotes Gilgamesh ("when the gods created mankind, they allotted death to mankind"). Also, 12:65 prints "... lie down ..." for `[... šuṣ]-⌈li⌉-li`, where only the last two signs survive, so a restored word is being translated as certain while its neighbour is dropped.
 - Judgment on the flagged omissions: leaving "death" out of the verse is defensible. But the stated reason is wrong, and the policy must be applied evenly.
 - Fix:
   - Pick one rule and apply it to 12:45, 12:64-65, 12:77-78 and 10:37.
   - Print "... (naditu?)" or show the doubtful names in the note only.
-  - Move the *qedeshah* comparison out of the Plain-dependent chain, or say plainly that the reading is uncertain, so that the comparison does not depend on it.
-  - At 12:64, replace the false reason with: "SEAL restores 'set death'; the Gilgamesh line at 12:63 and the next line ('put a man to sleep') support it; the Plain leaves it as a gap because the verb is lost." Or translate it with a marked restoration.
+  - Move the *qedeshah* comparison out of the Plain English Translation-dependent chain, or say plainly that the reading is uncertain, so that the comparison does not depend on it.
+  - At 12:64, replace the false reason with: "SEAL restores 'set death'; the Gilgamesh line at 12:63 and the next line ('put a man to sleep') support it; the Plain English Translation leaves it as a gap because the verb is lost." Or translate it with a marked restoration.
 
 **3. 10:83 (the lower edge) is wrong.**
 - SEAL's row is `Lo. Edge | 55`, a separate row from `C 1 ii 55''`. Line 55'' (10:82) is already translated in full. So 10:82 does not "run onto the lower edge."
 - "55" is a bare number with no Akkadian and no gloss. It equals the last line number SEAL gives column ii.
 - The colophon at 12:104 (`al-til 19`, SEAL "19 (lines). Complete.") is a column count in the same style: column viii has 19 lines. So "55" is best read as the scribe's count of the lines of column ii.
 - I did not find a second source that says so. I verified from SEAL's page (node1517) only the facts above: separate row, bare number, same style as the colophon count.
-- The Plain's "(Here the column ends on the lower edge of the tablet.)" asserts a physical fact that SEAL does not show.
+- The Plain English Translation's "(Here the column ends on the lower edge of the tablet.)" asserts a physical fact that SEAL does not show.
 - Fix: "(On the lower edge is the number 55. It matches the last line of this column, and is probably the scribe's count of its lines.)" Add a note: the colophon's "19" (12:104) is the same kind of count. Drop the claim about the column ending.
 
 **4. 11:40-43 (Mami's speech) is unreadable, and the note omits SEAL's reading.**
-- Plain: "Against my own self, against my own body, / I heard their noise come upon me. / Above me, like flies, / the offspring have become."
+- Plain English Translation: "Against my own self, against my own body, / I heard their noise come upon me. / Above me, like flies, / the offspring have become."
 - The Akkadian is `ana ramāniya u pagriya / ina ṣērīyama rigimšina ešme / elēnuya kīma zubbī / iwû lillidū`. The renderings "Against" and "Above me ... have become" are word-for-word and not English at an 8th-grade level. A reader cannot tell who is doing what.
 - SEAL's English reads the pair as a confession: "Contrary to my own nature ... I have listened to ... their noise. It is my blame that my offspring have become like flies!"
-- The note at 11:43 lists only "beyond me / without me" for *elēnuya* and omits SEAL's "it is my blame," which is the reading that fits her self-accusation at 11:34-37. The note at 11:41 does give SEAL's first reading. The Plain follows neither.
-- Fix: choose a sense, state it in the Plain in plain words, and put the literal Akkadian ("above me", "upon me") in the note, with SEAL's reading named. Suggested shape: "I listened to their noise, against my own self and body. ... The offspring have become like flies, and it is on me." Check the sense before using it.
+- The note at 11:43 lists only "beyond me / without me" for *elēnuya* and omits SEAL's "it is my blame," which is the reading that fits her self-accusation at 11:34-37. The note at 11:41 does give SEAL's first reading. The Plain English Translation follows neither.
+- Fix: choose a sense, state it in the Plain English Translation in plain words, and put the literal Akkadian ("above me", "upon me") in the note, with SEAL's reading named. Suggested shape: "I listened to their noise, against my own self and body. ... The offspring have become like flies, and it is on me." Check the sense before using it.
 - The note at 11:35 says "Scholars read the speech as the poem's own judgment." No holder is named. See item 6.
 
-**5. 12:49 and 12:40: additions and shifts in the Plain.**
+**5. 12:49 and 12:40: additions and shifts in the Plain English Translation.**
 - 12:49 "pull the **rope** tight": the Akkadian is `šuddid ù rummi`, "pull/drag, and slacken," with no noun "rope." SEAL's English reads "pull tight, then slack." The note adds "like handling a rope or a bow" and attributes this to SEAL, which does not say it.
 - 12:40 "He let the word out **through** the reed wall": the Akkadian is `[kikiš]a ušapta zikra`, the wall is the object or addressee. SEAL has "revealed [to a reed wall]." "Through" turns the wall into a channel of leakage. The note at 10:13 repeats the phrase.
 - The reading of 12:40 changes who is told, and so bears on the oath's loophole that the chapter is built on. It should be "to," or the note should explain why "through."
@@ -88,13 +88,13 @@ Verified in Millard (Tyndale Bulletin 18, 1967, the 1966 Tyndale lecture), opene
 
 ## Minor
 
-**8. 10:15 "Break away from the house".** The verb is `upud` (the Ark Tablet 4 has the same words; confirmed in `Atr.flood.json`). SEAL's word list says "to separate, cut off," and SEAL's English is "Depart from (your) house." The Plain wording is not natural English and reads like "break out of the house" or "break the house." The sense "leave" is supported by SEAL. Fix: "Leave the house, build a boat!" Keep the note, which is honest about "tear down" (Gilgamesh XI 24, Heidel) as the other view.
+**8. 10:15 "Break away from the house".** The verb is `upud` (the Ark Tablet 4 has the same words; confirmed in `Atr.flood.json`). SEAL's word list says "to separate, cut off," and SEAL's English is "Depart from (your) house." The Plain English Translation wording is not natural English and reads like "break out of the house" or "break the house." The sense "leave" is supported by SEAL. Fix: "Leave the house, build a boat!" Keep the note, which is honest about "tear down" (Gilgamesh XI 24, Heidel) as the other view.
 
-**9. 10:36 `itetezizū`.** SEAL's word list gives "to stand" (*izuzzu*), while SEAL's own English says "became steadily angry." The note at 10:36 reports both correctly. The Plain follows SEAL's English. That is defensible, but record it in `variants.json` as a reading choice (the other reading is "have taken a stand against each other"), since it changes the meaning.
+**9. 10:36 `itetezizū`.** SEAL's word list gives "to stand" (*izuzzu*), while SEAL's own English says "became steadily angry." The note at 10:36 reports both correctly. The Plain English Translation follows SEAL's English. That is defensible, but record it in `variants.json` as a reading choice (the other reading is "have taken a stand against each other"), since it changes the meaning.
 
-**10. 10:37 `[āliya/mātiya]` left as "...".** SEAL gives "[my city/land]". The Plain's "from ..." drops information that SEAL gives with an either/or. There is no note at 10:37. Fix: "from [my city or my land]", or add a note saying the noun is restored as city/land.
+**10. 10:37 `[āliya/mātiya]` left as "...".** SEAL gives "[my city/land]". The Plain English Translation's "from ..." drops information that SEAL gives with an either/or. There is no note at 10:37. Fix: "from [my city or my land]", or add a note saying the noun is restored as city/land.
 
-**11. 10:38-39.** `ištuma aptanallaḫu Enki awātam annītam aqbi`. The Plain, "Because I always stand in awe of Enki, I have spoken this word," takes `aqbi` as "I spoke." The word is wholly restored in brackets. SEAL's English reads "[he told (me)] of this matter." `ištuma` is "since / after." Note the difference; "Since" fits the Akkadian better than "Because."
+**11. 10:38-39.** `ištuma aptanallaḫu Enki awātam annītam aqbi`. The Plain English Translation, "Because I always stand in awe of Enki, I have spoken this word," takes `aqbi` as "I spoke." The word is wholly restored in brackets. SEAL's English reads "[he told (me)] of this matter." `ištuma` is "since / after." Note the difference; "Since" fits the Akkadian better than "Because."
 
 **12. 10:10 "You ask, 'Must I go searching in the bedroom?'"** matches SEAL's sense (SEAL: "Should you say: 'How am I to search (for it) in (my) bedroom?'"), so there is no dependence problem. But the note says "Some take it as Enki's own rhetorical question," with no holder. Name one or cut. The gloss "dig for the answer in my dreams" is an interpretation.
 
@@ -104,7 +104,7 @@ Verified in Millard (Tyndale Bulletin 18, 1967, the 1966 Tyndale lecture), opene
 
 **15. 11:11 note.** "matched word for word by Exodus 10:23" is overstated, since these are different languages (Hebrew *lo ra'u ish et-achiv*). The idiom "shared by the languages of the region" and "not borrowing" is asserted with no source. Reword: "the same idiom."
 
-**16. 11:58.** `a-na ⌈sa-ḫi?⌉` is "(water-)meadow" with "?" in SEAL's text. SEAL's English reads "drenched land." The Plain says "marshland" with no caution and no note. Fix: a note that the word is uncertain, or "the ... bank."
+**16. 11:58.** `a-na ⌈sa-ḫi?⌉` is "(water-)meadow" with "?" in SEAL's text. SEAL's English reads "drenched land." The Plain English Translation says "marshland" with no caution and no note. Fix: a note that the word is uncertain, or "the ... bank."
 
 **17. 11:64 "her longing cried out."** `lalāša iṣrup`: SEAL's gloss is "plenty, exuberance," and "be loud." SEAL's English reads "brought her feelings to exhaustion," which is a different sense. "Longing" is not in either gloss. Add a note, or use "...".
 
@@ -118,7 +118,7 @@ Verified in Millard (Tyndale Bulletin 18, 1967, the 1966 Tyndale lecture), opene
 
 **22. 12:30 Enlil note, 12:39 Enki note, 12:21 note.** All are fair. One wording issue: "Enlil is not the God of the Bible; at most his role in the story is a distorted memory of the judge of the earth" is the site's verdict. That is allowed by the brief, but "unlikely" should be the label (the book `matches` entry should agree), and the note should say that the believing view (Millard) also treats the flood as one event and does not identify the gods.
 
-**23. 12:113 "young goat" against SEAL's "lamb".** The Sumerian is `máš`. SEAL's English has "a lamb clasping <his> breast," and the whole line is in brackets (restored from the year-name list). I could not open the CDLI year-name page (blocked), so I cannot verify which animal. `máš` is the standard sign for "kid"; "lamb" would normally be `sila₄`/`udu`. The Plain is defensible, but it departs from SEAL, and the note says only "(Sumerian máš)." Fix: give the Sumerian, say SEAL translates "lamb," and say why the Plain differs, or follow SEAL. Note too that the Plain gives "raising his hand in greeting" for `šu silim-ma ab-bé-e-a`, where SEAL has "uttering a greeting." All of 12:112-115 is restored; the Plain should say so, as the note does.
+**23. 12:113 "young goat" against SEAL's "lamb".** The Sumerian is `máš`. SEAL's English has "a lamb clasping <his> breast," and the whole line is in brackets (restored from the year-name list). I could not open the CDLI year-name page (blocked), so I cannot verify which animal. `máš` is the standard sign for "kid"; "lamb" would normally be `sila₄`/`udu`. The Plain English Translation is defensible, but it departs from SEAL, and the note says only "(Sumerian máš)." Fix: give the Sumerian, say SEAL translates "lamb," and say why the Plain English Translation differs, or follow SEAL. Note too that the Plain English Translation gives "raising his hand in greeting" for `šu silim-ma ab-bé-e-a`, where SEAL has "uttering a greeting." All of 12:112-115 is restored; the Plain English Translation should say so, as the note does.
 
 **24. 12:104 "Nineteen lines. Finished."** `al-til 19`. SEAL: "19 (lines). Complete." There is no note saying the 19 counts the lines of this last column (viii). A reader may think the poem has 19 lines. Add one sentence and link it to item 3.
 
@@ -136,7 +136,7 @@ Verified in Millard (Tyndale Bulletin 18, 1967, the 1966 Tyndale lecture), opene
 
 **31. Topics `flood` and others.** "The oldest dated telling of the flood outside the Bible" mixes two claims. The Sumerian Flood Story and the Ark Tablet may be older but undated. Say "oldest dated copy of a Babylonian flood story" if that is what SEAL's colophon shows.
 
-**32. Cross-reference check.** Verified exact matches with the site Plain: Genesis 6:6, 7:24, 9:15, 38:21; Deuteronomy 23:17; Isaiah 34:14, 65:20; Psalm 96:5; Colossians 2:15; 1 Enoch 10:1-2 (Uriel is named, so the chapter 10 J claim is right). Berossus's "voice from the air" and "reverence the gods" are verified in Rogers 1912, p. 111 [scan 141]. All other quotations should be rechecked by the build's long-quote test, which passes.
+**32. Cross-reference check.** Verified exact matches with the site Plain English Translation: Genesis 6:6, 7:24, 9:15, 38:21; Deuteronomy 23:17; Isaiah 34:14, 65:20; Psalm 96:5; Colossians 2:15; 1 Enoch 10:1-2 (Uriel is named, so the chapter 10 J claim is right). Berossus's "voice from the air" and "reverence the gods" are verified in Rogers 1912, p. 111 [scan 141]. All other quotations should be rechecked by the build's long-quote test, which passes.
 
 **33. Reading level.** Lines 11:23 ("Anu's understanding was shaken"), 12:18, 12:76 ("Cut off their childbearing!") and 12:21-23 are heavy for an 8th-grade reader. Consider plainer words ("Anu was beside himself", "Their faces are dark").
 
@@ -190,7 +190,7 @@ Fixer: separate agent, following the lead's decisions (.scratch/Atr-review-notes
 20. Accepted, with the lead's rule 5 (same Akkadian, same English). 12:32-33 now match 9:28-29: "All of us, the great Anunnaki, / bound ourselves together by oath." 12:17 is "You gave your word for total destruction:", like 7:12's "given their word". A new note at 12:17 ties the idiom together.
 21. Accepted. The 10:16 spec and 12:30 notes say SEAL glosses ma-ku-ra both ways. The hedge is replaced by a checked statement (none of the works opened makes the point).
 22. Accepted. 12:30 now gives the verdict "unlikely" as the site's own, and says Millard holds "the same Flood" without identifying the gods.
-23. Accepted, lead rule 2. Colophon 12:104-115 now follows Tablet I's wording. The note gives máš, SEAL's urīṣu "male goat", SEAL's English "lamb" and "uttering a greeting", and SEAL's year 12. The Plain keeps 5:89-91's "young goat" and "raising his hand in blessing".
+23. Accepted, lead rule 2. Colophon 12:104-115 now follows Tablet I's wording. The note gives máš, SEAL's urīṣu "male goat", SEAL's English "lamb" and "uttering a greeting", and SEAL's year 12. The Plain English Translation keeps 5:89-91's "young goat" and "raising his hand in blessing".
 24. Accepted. 12:104 is "Finished. (The scribe's count of lines for this column: 19.)", with a note linking it to 10:83.
 25. Accepted. The Masoretes sentence is cut.
 26. Accepted. SEAL's MB filing is now stated at 10:18. Finkel's date is not given, since no source for it was opened (lead rule 11). The "only Mesopotamian flood text" claim (10:64 variant) is narrowed to the versions compared on the page.

@@ -9,7 +9,7 @@
 I checked them against:
 - texts/orig/1Ma.json `grc` (Swete's Alexandrinus), word by word beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/1Ma.app.json, and the Vulgate and Douay in texts/src/1Ma.lat.json;
-- book.json, the other three parts, content/terms.json and the site's Plain for every translated book;
+- book.json, the other three parts, content/terms.json and the site's Plain English Translation for every translated book;
 - every `traditions` card on the site (all `chapters.json` and `book.json` files).
 
 **Build.** `VERBOSE=1 node tools/build.js --check 1Ma/01-04` gives **0 errors, 0 warnings** (255 verses, 141 notes, 33 variants, 72 glosses, 4 chapter pages, 14 topic contributions). VERBOSE adds nothing when there are no warnings. The build's quotation check only catches quotations of five words or more that are tied to a reference in set ways, so I ran a looser check of my own (finding 9).
@@ -17,7 +17,7 @@ I checked them against:
 **Quotations checked by script** (both sides NFC):
 - **Greek.** All 131 Greek strings in notes, variants, chapters, topics and glosses match, as whole words, either the `grc` of the verse in question or a neighbour, or Swete's apparatus. **No invented Greek word.** Several apparatus quotations are sloppy (finding 13). One variant entry misreads what its witness says (finding 2).
 - **Latin and Douay.** Every Vulgate and Douay quotation matches the file, allowing for the Vulgate's own verse numbers. These include *qui primus regnavit in Graecia*, *sicut homo ignobilis*, *ipse Dominus conteret eos*, *nisi tu, Deus, adjuves nos*, *miserebitur nostri Dominus*, *benedicebant Deum in cælum*, *abominandum idolum desolationis* (Vulg. 1:57) and Douay 1:62, 3:48 and 4:59.
-- **The 66 books.** Most quotations use the site's Plain. Twelve do not (finding 9).
+- **The 66 books.** Most quotations use the site's Plain English Translation. Twelve do not (finding 9).
 
 **Typos in the digital Swete, chapters 1–4.** These are not in the `fixed` list. Report them to tools/works-texts.py; they are not variants, and no content file quotes them:
 - 2:16 πολλοί ἀπὸ → πολλοὶ;
@@ -28,7 +28,7 @@ I checked them against:
 
 ## Verdict
 
-**Overall.** This is careful, well-informed work. The Plain is fresh and close to the Greek. I compared it in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS and Goldstein and found no sentence shape that depends on them. Where wording coincides, the Greek forces it: 1:36 "an ambush against the sanctuary, an evil adversary", 3:19 "strength comes from Heaven", and "renegades" and "a sinful root" at 1:10–11. The capital H on "Heaven" is a site rule in terms.json.
+**Overall.** This is careful, well-informed work. The Plain English Translation is fresh and close to the Greek. I compared it in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS and Goldstein and found no sentence shape that depends on them. Where wording coincides, the Greek forces it: 1:36 "an ambush against the sanctuary, an evil adversary", 3:19 "strength comes from Heaven", and "renegades" and "a sinful root" at 1:10–11. The capital H on "Heaven" is a site rule in terms.json.
 
 **What is sound.**
 - The named departures from Alexandrinus at 1:62, 2:5, 2:8, 3:16 and 4:47 all have entries.
@@ -40,7 +40,7 @@ I checked them against:
 **The weaknesses.**
 - **A Chrysostom claim I could not find.** The abomination card has Chrysostom "drawing on" Luke 21:20. That is not in Homilies 75–76 on Matthew.
 - **A misread apparatus note.** The 3:43 entry turns a Sinaiticus replacement into an addition, so two of its readings exist in no witness.
-- **Silent drift toward Sinaiticus and Venetus.** In a cluster of verses the Plain follows ℵV, or the KJV's number, without an entry (1:55, 3:28, 3:35, 4:33, and smaller ones).
+- **Silent drift toward Sinaiticus and Venetus.** In a cluster of verses the Plain English Translation follows ℵV, or the KJV's number, without an entry (1:55, 3:28, 3:35, 4:33, and smaller ones).
 - **A false claim at 4:47.** The entry's reasoning rests on "every other verb is plural", but 4:48 ἡγίασεν is singular in the printed text.
 - **Both traditions cards need work.** The abomination card overlaps the chapter 6 card and gives a one-sided Orthodox row. The calendar card's Reformed row covers only Westminster and repeats the 1 Enoch 82 card.
 - **Cross-references missing both ways.** The dedication texts Numbers 7:10–88 and 1 Kings 8:63, and Psalm 30's title, point to this part, but this part does not point back.
@@ -76,14 +76,14 @@ So the AD 70 reading is correct, but it comes from Homily 75. The Luke 21:20 cla
 **Fix:**
 - Reading 2 (ℵ*): "Let us raise up our people from their ruin, and let us fight for our people and the peoples."
 - Reading 3 (ℵ¹, KJV, Vulgate): "…and let us fight for our people and the holy place."
-- Rewrite the `why`: ℵ has a different second half, not an addition. The Plain keeps Alexandrinus.
+- Rewrite the `why`: ℵ has a different second half, not an addition. The Plain English Translation keeps Alexandrinus.
 
 ### 3. MAJOR: silent departures from Alexandrinus toward ℵV (and the KJV)
 
 Each place below follows the reading of Sinaiticus and/or Venetus in Swete's apparatus with no variant entry. The lesson in agent-writer-works.md is that every departure needs one.
 
 - **1:55, "at the doors of the houses".** A has θυρίδων, which is normally "windows" (θυρίς). The apparatus has `θυριδων] θυρων ℵV`, "doors", and the KJV agrees. Either render A ("at the windows of the houses") or add an entry that follows ℵV with a reason.
-- **3:28, "paid his troops for a year, telling them to be ready for whatever was needed".** A has εἰς ἐνιαυτόν twice: pay for a year, and ordered "to be ready for a year for every need". The apparatus has `om εις ενιαυτον ℵV`. The Plain drops the second phrase, which is exactly ℵV's text. Restore it ("to be ready for a year, for whatever was needed"), or add an entry.
+- **3:28, "paid his troops for a year, telling them to be ready for whatever was needed".** A has εἰς ἐνιαυτόν twice: pay for a year, and ordered "to be ready for a year for every need". The apparatus has `om εις ενιαυτον ℵV`. The Plain English Translation drops the second phrase, which is exactly ℵV's text. Restore it ("to be ready for a year, for whatever was needed"), or add an entry.
 - **3:35, "to crush and wipe out".** A has τοῦ ἐκρίψαι, "to cast out, uproot" (KJV "root out"). "Crush" renders ℵ's ἐκτρῖψαι (`του εκριψαι] και του εκτριφαι ℵ`). Use "to drive out and wipe out", or add an entry.
 - **4:33, "all who know your name".** A has ἰδόντες, "who have seen". "Know" is ℵV's εἰδότες (`ειδοτες ℵV`). Render A, or add an entry.
 - **4:48, "and the courts were made holy".** The printed text has ἡγίασεν, singular ("he consecrated the courts"); ℵ has ἡγίασαν. The English passive hides the singular, which matters because of finding 4. Use "and he consecrated the courts", with a `deb` note that "he" is presumably Judas.
@@ -166,11 +166,11 @@ This bears on the dating of 4:52 against 2 Maccabees.
 
 **Fix:** "A Babylonian king list records that the news of his death was heard in Babylon in year 148, probably in Kislev (the month is restored)." Make the same change in chapter 4 views.H.
 
-### 9. MINOR: quotations of the 66 books not in the site's Plain wording
+### 9. MINOR: quotations of the 66 books not in the site's Plain English Translation wording
 
 The build missed these because they are short, or not tied to the reference in a pattern it recognizes:
 
-| Where | The part has | The site's Plain |
+| Where | The part has | The site's Plain English Translation |
 |---|---|---|
 | N42 | Genesis 25:22, "why am I living?" | "why am I alive?" |
 | N61 | "gathered to his ancestors (2:69; Genesis 49:33)" | Genesis has "gathered to his people"; say "as Jacob was gathered to his people" |
@@ -221,7 +221,7 @@ Check Kappler's Göttingen edition and Rahlfs for ἄδοξος, conjectured or 
 - **N3:** "Both make sense; the history fits either." It also says Venetus "supports" the reading "first".
 - **The variant:** "the history fits it [the adverb]", against Venetus.
 
-The two should agree. The note is also an anchor for the "deb" view, so give the reason for the Plain's choice there too.
+The two should agree. The note is also an anchor for the "deb" view, so give the reason for the Plain English Translation's choice there too.
 
 ### 13. MINOR: apparatus quotations copied loosely in variants.json
 
@@ -235,7 +235,7 @@ The two should agree. The note is also an anchor for the "deb" view, so give the
 
 ### 14. MINOR: smaller translation points
 
-- **1:61.** "They hung the babies… and also their families and those who had circumcised them" makes the families and circumcisers hanged too. The accusatives can just as well depend on ἐθανάτωσαν in 1:60 ("they put to death… their families and those who circumcised them"), with the hanging as an aside. N36 states the Plain's reading as the Greek's. Add a `deb` note, or write "and they also killed their families…".
+- **1:61.** "They hung the babies… and also their families and those who had circumcised them" makes the families and circumcisers hanged too. The accusatives can just as well depend on ἐθανάτωσαν in 1:60 ("they put to death… their families and those who circumcised them"), with the hanging as an aside. N36 states the Plain English Translation's reading as the Greek's. Add a `deb` note, or write "and they also killed their families…".
 - **1:51.** "He wrote words like these" — κατὰ πάντας τοὺς λόγους τούτους means "in accordance with all these words". "Like these" softens it into a paraphrase. Use "He wrote all this to his whole kingdom".
 - **2:51.** "and you will win great glory" turns the imperative δέξασθε into a result. Use "and receive great glory".
 - **3:58.** "to wipe out us and our holy place" is awkward English. Use "to wipe out both us and our holy place".
@@ -342,7 +342,7 @@ All fixes were made 2026-10-24. Afterwards `VERBOSE=1 node tools/build.js --chec
    - Reading 3 (ℵ¹, KJV, Vulgate): the same, ending "and the holy place". The KJV is quoted as confirmation.
    - The `why` is rewritten.
 3. **Silent departures: fixed.**
-   - The Plain now follows Alexandrinus at:
+   - The Plain English Translation now follows Alexandrinus at:
      - 1:32 "He took … captive, and they seized";
      - 1:55 "at the windows";
      - 2:45 "their altars";
@@ -377,7 +377,7 @@ All fixes were made 2026-10-24. Afterwards `VERBOSE=1 node tools/build.js --chec
    - The chapter 4 echoes and the note's `r` now include Numbers 7, 1 Kings 8:63–66 and Psalm 30:1. Psalm 30:0 is left out because the reference checker may not accept a verse 0.
    - The 3:16 note now cites 2 Chronicles 8:5.
 8. **The Babylonian king list: fixed** in the 3:31 note and in chapter 4 views.H. Both now say that the news was "heard" in Babylon in year 148, probably in Kislev, and that the month is restored.
-9. **Quotations of the 66: all twelve fixed** to the current Plain.
+9. **Quotations of the 66: all twelve fixed** to the current Plain English Translation.
    - Daniel 7:25 is now given one way, "plan to change times and law".
    - My own whole-text check found more quotations of books translated since I wrote, and I fixed those too:
      - Matthew 6:10 (twice), 7:23 and 16:22;
@@ -403,7 +403,7 @@ All fixes were made 2026-10-24. Afterwards `VERBOSE=1 node tools/build.js --chec
     - "The name of Heaven": Avot 4:4.
     - The Scroll of Antiochus: "whose date is debated".
     - πέδας: now described as spelled differently but pronounced alike, with Josephus, *Antiquities* 12.299, cited for "bonds".
-12. **N3 and the 1:1 variant: fixed.** Both now say that the history fits either reading, and that the Plain keeps the adverb found in A and ℵ.
+12. **N3 and the 1:1 variant: fixed.** Both now say that the history fits either reading, and that the Plain English Translation keeps the adverb found in A and ℵ.
 13. **Apparatus quotations: fixed.**
     - 1:43: Venetus is named, and the digitized Greek Α is marked [sic].
     - 1:61: the verse number is dropped from the `orig`, and the witness line is now "ℵ as first written and V".

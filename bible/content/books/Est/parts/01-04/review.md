@@ -4,7 +4,7 @@ Scope: `parts/01-04/` (plain, notes, variants, glosses, chapters, topics, source
 
 ## Verdict
 
-This is careful, well-informed work. The Plain follows the Leningrad Codex in all 77 verses, with nothing added, dropped or slanted in any way that matters. The Esther terms in terms.json are used consistently, with one slip at 2:12. Both deliberate echoes match the site's Plain exactly. At 3:4, "Day after day they spoke to him, but he would not listen to them" matches Genesis 39:10. At 3:10, "slipped the signet ring off his hand" matches Genesis 41:42. Every quotation of 1 Samuel 15, Exodus 17 and Deuteronomy 25 matches the site's Plain. Almost all of the rabbinic, classical and Persian facts check out. The problems are of five kinds:
+This is careful, well-informed work. The Plain English Translation follows the Leningrad Codex in all 77 verses, with nothing added, dropped or slanted in any way that matters. The Esther terms in terms.json are used consistently, with one slip at 2:12. Both deliberate echoes match the site's Plain English Translation exactly. At 3:4, "Day after day they spoke to him, but he would not listen to them" matches Genesis 39:10. At 3:10, "slipped the signet ring off his hand" matches Genesis 41:42. Every quotation of 1 Samuel 15, Exodus 17 and Deuteronomy 25 matches the site's Plain English Translation. Almost all of the rabbinic, classical and Persian facts check out. The problems are of five kinds:
 
 1. One verse, 3:12, is stitched together from NIV and ESV phrasing, and a few famous lines lean on the NIV.
 2. The Greek evidence is incomplete. The Alpha Text reads "thirteenth" at 3:7, which the variant does not know. The Septuagint has unlisted differences at 2:19 and 2:21. A claim about the Additions is false: the Old Greek of 6:1 also has God act directly.
@@ -18,7 +18,7 @@ Counts: 0 critical, 5 major, 20 minor.
 
 ## Facts checked and confirmed (no change needed)
 
-- **Echoes.** Genesis 39:10 and Genesis 41:42 match the Plain of 3:4 and 3:10. 1 Samuel 15:3, 8, 28 and 33, Exodus 17:16, Deuteronomy 25:17 and 25:19 are all quoted exactly as the site's Plain has them. The 1 Samuel 15:28 "neighbor ... better than" echo at 1:19 is reproduced word for word. Also exact: Genesis 23:7, 27:34, 37:25, 37:34, 39:1, 41:34–37, 43:14 and 50:20; 1 Samuel 9:1 and 24:8; 2 Samuel 12:22 and 13:28; Numbers 24:7; Deuteronomy 4:27, 7:3 and 31:18; 1 Chronicles 12:32; Nehemiah 1:4 and 13:24; Ezra 4:15 and 8:21.
+- **Echoes.** Genesis 39:10 and Genesis 41:42 match the Plain English Translation of 3:4 and 3:10. 1 Samuel 15:3, 8, 28 and 33, Exodus 17:16, Deuteronomy 25:17 and 25:19 are all quoted exactly as the site's Plain English Translation has them. The 1 Samuel 15:28 "neighbor ... better than" echo at 1:19 is reproduced word for word. Also exact: Genesis 23:7, 27:34, 37:25, 37:34, 39:1, 41:34–37, 43:14 and 50:20; 1 Samuel 9:1 and 24:8; 2 Samuel 12:22 and 13:28; Numbers 24:7; Deuteronomy 4:27, 7:3 and 31:18; 1 Chronicles 12:32; Nehemiah 1:4 and 13:24; Ezra 4:15 and 8:21.
 - **Terms.** The fortress at Susa (1:2, 1:5, 2:3, 2:5, 2:8, 3:15), "the city of Susa" (3:15), "If the king thinks it good" (1:19, 3:9, as in Nehemiah 2:5, 2:7 and Ezra 5:17), "the king's gate" (2:19, 2:21, 3:2–3, 4:2, 4:6), "the runners" (3:13, 3:15), the satraps, governors and officials (3:12), "annihilate, kill and destroy", with *hashmid* and *'abbed* kept apart (3:6, 3:9, 3:13, 4:7, 4:8), "pole" (2:23), "Pur, that is, the lot" (3:7), "the enemy of the Jews" (3:10) and "eunuchs" are all used as listed. *Dat* is "law" everywhere except 2:12 (finding 14).
 - **Greek readings, Rahlfs, checked on blueletterbible.org.** All checked and correct:
   - 1:1 Ἀρταξέρξης.
@@ -126,7 +126,7 @@ Counts: 0 critical, 5 major, 20 minor.
 
 **Location.** notes.json 2:9, "Hesed from Hegai".
 
-**Problem.** The note says "This site renders *hesed* as 'loyal love' everywhere". It then quotes Genesis 39:21 as "loyal love". The site's Genesis 39:21 reads "He showed him steady love". That is an inconsistency in Genesis (tell the Genesis 37–50 owner), but the quotation here does not match the Plain. There is also a point of substance. In Esther, *nasa' chesed lifne* is closer to "won his favor" (compare *chen vachesed* in 2:17). "She won his loyal love" from a eunuch she has just met reads oddly.
+**Problem.** The note says "This site renders *hesed* as 'loyal love' everywhere". It then quotes Genesis 39:21 as "loyal love". The site's Genesis 39:21 reads "He showed him steady love". That is an inconsistency in Genesis (tell the Genesis 37–50 owner), but the quotation here does not match the Plain English Translation. There is also a point of substance. In Esther, *nasa' chesed lifne* is closer to "won his favor" (compare *chen vachesed* in 2:17). "She won his loyal love" from a eunuch she has just met reads oddly.
 
 **Fix.** Drop "everywhere". Quote Genesis 39:21 as the site has it. Add a sentence saying that in Esther the phrase means winning favor, and that the site keeps "loyal love" so readers can see the word.
 
@@ -178,7 +178,7 @@ Counts: 0 critical, 5 major, 20 minor.
 
 **Fix.** Use Judges 19:1 (*vayhi bayyamim hahem*) or drop Judges from the note.
 
-### 14. Minor: small faults in the Plain
+### 14. Minor: small faults in the Plain English Translation
 
 **Location.** plain.txt 4:4, 2:15, 2:12, 3:6.
 
@@ -192,7 +192,7 @@ Counts: 0 critical, 5 major, 20 minor.
 **Location.** plain.txt 4:13–14, 2:15, 1:8, 2:18 and 1:7.
 
 **Problem.**
-- 4:14 follows the NIV's arrangement: "relief and deliverance for the Jews will arise from another place". The Plain has the same order, with *for the Jews* before the verb, and NIV's "your father's family". The Hebrew order is *revach vehatsalah ya'amod layyehudim mimmaqom acher*, with the verb before "for the Jews".
+- 4:14 follows the NIV's arrangement: "relief and deliverance for the Jews will arise from another place". The Plain English Translation has the same order, with *for the Jews* before the verb, and NIV's "your father's family". The Hebrew order is *revach vehatsalah ya'amod layyehudim mimmaqom acher*, with the verb before "for the Jews".
 - 4:13 "you, of all the Jews" echoes NIV's "you alone of all the Jews".
 - 2:15 "suggested" is the NIV word (finding 14).
 - 1:8 "For the king had instructed every ... to give each guest what he wanted" follows NIV's "the king instructed all the wine stewards to serve each man what he wished".
@@ -324,7 +324,7 @@ All 25 findings addressed (2026-10-23). `--check Est/01-04`: 0 errors, 0 warning
 11. **Uncited keys.** stanton-womans-bible is now cited in the 1:12 note. gerleman-esther is now cited in the 4:17 note, which names Gerleman's Exodus thesis.
 12. **Talent weight.** "About 30 to 34 kilograms ... roughly 300 to 340 metric tons", in the note and the gloss.
 13. **1:1 note.** Judges 1:1 replaced by Judges 19:1 ("in a close form").
-14. **Plain.**
+14. **Plain English Translation.**
     - 4:4: "She sent clothes for Mordecai to put on ... but he refused them."
     - 2:15: "She asked for nothing except what Hegai said she should take. He was the king's eunuch, the keeper of the women."
     - 2:12: "under the law for the women" (*dat* term kept).
@@ -335,7 +335,7 @@ All 25 findings addressed (2026-10-23). `--check Est/01-04`: 0 errors, 0 warning
     - 1:8: "The king had laid this down for every head steward in his palace: do as each man pleases."
     - 1:7 and 2:18: "as the king's hand allowed".
     - All rebuilt lines were re-audited. Notes, glosses and topic or book quotations of the old wording were updated: "from somewhere else", "the house of your father", "hold your tongue completely".
-16. **3:7 Plain**: "Pur, that is, the lot, was thrown before Haman, day by day and month by month, down to the twelfth month, the month of Adar." One subject; only "down to" is supplied, and the variant's "why" says so. The note and gloss anchors were updated.
+16. **3:7 Plain English Translation**: "Pur, that is, the lot, was thrown before Haman, day by day and month by month, down to the twelfth month, the month of Adar." One subject; only "down to" is supplied, and the variant's "why" says so. The note and gloss anchors were updated.
 17. **Settings.**
     - New 3:2 card: the king's command to bow, to the servants in the king's gate.
     - The 2:2–4 card extended to 2:2–8, to include the king's word and law (2:8).
@@ -365,5 +365,5 @@ All 25 findings addressed (2026-10-23). `--check Est/01-04`: 0 errors, 0 warning
 **For part 05-10 (coordinator to sync):**
 - 8:9 repeats the formula of 1:22 and 3:12. For consistency it could use "province by province in its writing and people by people in its tongue".
 - The 6:1 variant should give Greek "the Lord" and Alpha Text "the Mighty One", in line with the corrected 4:17 `b`.
-- Any quotation of 4:13–14 must use the new Plain: "relief and rescue will spring up for the Jews from somewhere else, while you and the house of your father perish". "For a time like this" is unchanged. `--check Est` currently shows no warnings, so no such quotation exists now.
+- Any quotation of 4:13–14 must use the new Plain English Translation: "relief and rescue will spring up for the Jews from somewhere else, while you and the house of your father perish". "For a time like this" is unchanged. `--check Est` currently shows no warnings, so no such quotation exists now.
 - Any quotation of 3:7 must use "Pur, that is, the lot, was thrown before Haman, day by day and month by month".

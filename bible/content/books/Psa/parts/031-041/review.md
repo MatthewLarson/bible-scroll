@@ -29,7 +29,7 @@ Counts: **0 critical, 6 major, 19 minor.**
 plain.txt 38:2, 38:4, 38:5, 38:7, 38:10, 38:13, 38:15, 38:17, 38:20 (also 38:6, 38:11, 38:12, 38:16). In
 the scratch drift-audit.tsv, every one of these except 38:15 is logged "clean: no 5-word run".
 - 38:2 is the ESV verse word for word ("your arrows have sunk into me ... has come down on me"). The Hebrew
-  *nichatu* / *wattinchat* is a wordplay ("came down into me" / "came down on me") that the Plain could keep in
+  *nichatu* / *wattinchat* is a wordplay ("came down into me" / "came down on me") that the Plain English Translation could keep in
   its own shape.
 - 38:4 has the ESV shape, with only two nouns changed. The 7-word run "have gone over my head; like a heavy"
   is followed by "they are too heavy for me".
@@ -140,7 +140,7 @@ both parts, and note 124 must then match.
   le'olam*, *hatteh elai oznekha*, *ki-sal'i umtsudati atta*. This part has "I take shelter in you, LORD; /
   never let me end up in shame", "Turn your ear toward me" and "my cliff and my stronghold". 71 has "LORD, I
   have run to you for shelter. / Let me never be ashamed", "Bend down your ear to me" and "my crag and my
-  stronghold are you". Note 3 tells readers the lines are "almost word for word" the same, but the Plain
+  stronghold are you". Note 3 tells readers the lines are "almost word for word" the same, but the Plain English Translation
   hides it. Align them. Also, inside Psalm 31, *metsudah* is "fortress" in 31:2 but "stronghold" in 31:3,
   and 18:2 has "fortress". Pick one.
 - The title of 36:0, "Of the servant of the LORD, of David.", against 18:0, "Of David, the LORD's servant".
@@ -157,11 +157,11 @@ both parts, and note 124 must then match.
   "lie" or "falsely" word for *sheqer*. Then update the typology topic quote.
 
 ### 7. Minor: build warning, 39:4 note 105
-The note quotes 90:12 as "teach us to count our days". The site's Plain is "Teach us, then, to count our
+The note quotes 90:12 as "teach us to count our days". The site's Plain English Translation is "Teach us, then, to count our
 days". Quote it exactly or use "...".
 
 ### 8. Minor: 35:7 follows a conjectural word order with no variant entry
-The Plain moves *shachat* ("pit") to the second line, which no witness does (the LXX keeps the MT order). Note
+The Plain English Translation moves *shachat* ("pit") to the second line, which no witness does (the LXX keeps the MT order). Note
 58 says so, but the reader cannot switch to the MT order. The PROGRESS line says the MT is followed "except
 36:1", which is inaccurate. Add a variants.json entry with the MT order as a reading, or print the MT order.
 
@@ -211,7 +211,7 @@ lamed 34:11, pe 34:22) together spell *alef*. The deep box says it right, so fix
 
 ### 18. Minor: note 13 (31:16)
 "The Aaronic blessing asks that the LORD 'May the LORD make his face shine ...'" is ungrammatical. The preview
-quotes Numbers 6:25 as "on you", but the site's Plain is "toward you".
+quotes Numbers 6:25 as "on you", but the site's Plain English Translation is "toward you".
 
 ### 19. Minor: facts stated as settled
 - Note 101 says Jeduthun "is also called Ethan". That is a common identification, not a statement of the text
@@ -299,7 +299,7 @@ note.
 - **18.** Note 13 is fixed: the grammar is corrected and "toward you" is used in both the preview and the body.
 - **19.** Note 101 now says "perhaps the same man as Ethan", with the 1 Chronicles refs. Note 133 now says "perhaps because". The chaplains sentence in note 51 is cut.
 - **20.** The hidden-light midrash is cut from note 77 and ch. 36 J. "Some rabbis" is cut from ch. 33 H. Ch. 33 L now names Lauds, Tuesday of Week I. `rashi-psalms` is added to note 100.
-- **21.** Note 9 keeps only *manod*. The Plain keeps the Hebrew "very much so".
+- **21.** Note 9 keeps only *manod*. The Plain English Translation keeps the Hebrew "very much so".
 - **22.** The ch. 37 card now labels both views "Dispensationalist", with "Classic" and "Progressive (Blaising and Bock)" in the text. The build allows only listed tradition labels.
 - **23.** Hebrew numbering is cut from note 117 and kept in the ch. 40 deep box.
 - **24.** 40:16 "But" is dropped. 41:13 now reads "Amen and amen". *Nega'* is "blow" in both 38:11 and 39:10, and note 97 points to 39:10. Gloss 41:8 is now "he is done for".
@@ -366,5 +366,5 @@ Count: 11 (7 lines still close to a modern version, 4 errors in the new wording)
   - 37:15 "the sword they hold will end up in their own heart": the sword is now the agent.
   - 38:6 "utterly bent double": "to the ground" is dropped.
   - 39:11b "like a moth you melt away what he holds dear": God is now the agent.
-- I updated the anchors and quotes that these changes affected: notes on 31:23, 37:25 and 39:11, the gloss on 37:31, and the ch. 37 H view. Note 37:25 now quotes the Plain "left on his own".
+- I updated the anchors and quotes that these changes affected: notes on 31:23, 37:25 and 39:11, the gloss on 37:31, and the ch. 37 H view. Note 37:25 now quotes the Plain English Translation "left on his own".
 - `node tools/build.js --check Psa/031-041`: 0 errors, 0 warnings.

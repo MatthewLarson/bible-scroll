@@ -80,9 +80,9 @@ Catholic, Orthodox, Anglican, Presbyterian, Congregational and Baptist churches;
   not call common" (κοινός "common", ἀκάθαρτος "unclean"; keep both English words). 11-14 follows 08-10 for shared Greek;
   since they run in parallel, both use these fixed wordings and list differences in reports.
 - Old Testament quotations: translate the Greek of Acts (often Septuagint: Amos 9:11–12 at 15:16–18, Joel 2:28–32 at
-  2:17–21 with "in the last days", Psalm 16 at 2:25–28, Isaiah 53:7–8 at 8:32–33). Quote the site's Old Testament Plain
+  2:17–21 with "in the last days", Psalm 16 at 2:25–28, Isaiah 53:7–8 at 8:32–33). Quote the site's Old Testament Plain English Translation
   exactly in notes and say where it differs.
-- Paul's letters are not written yet: cite them by reference, do not quote a Plain that does not exist.
+- Paul's letters are not written yet: cite them by reference, do not quote a Plain English Translation that does not exist.
 
 ## The Greek text
 
@@ -183,4 +183,4 @@ what the speech was meant to do in the scene and what Luke meant it to do for re
 - **Versification:** words sit under the KJV verse (4:6 "in Jerusalem"; 9:29 "spoke out boldly"); tools/texts.py was fixed so the word list now does this.
 - **Editions:** NA27 and NA28 print the same text of Acts (NA28 changed only the Catholic Letters); never claim they differ.
 - **One card per question:** Spirit after faith / initial evidence lives at 2:4; the blood rule at Leviticus 17; Acts points to them. "Messianic Jewish" was added to the tradition names for 21:20–26.
-- **Quotes:** Paul's letters have no Plain yet, so Acts paraphrases them with references; re-quote them when the letters are written.
+- **Quotes:** Paul's letters have no Plain English Translation yet, so Acts paraphrases them with references; re-quote them when the letters are written.

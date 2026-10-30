@@ -91,18 +91,18 @@ In 18:7 the MT has *im-adam*, "with anyone", while the LXX A text reads μετ�
 
 **13. Minor: Wrong witnesses in the 20:33 variant.** Only the A text reads ἀπὸ δυσμῶν τῆς Γαβαα, "from the west of Gibeah". The B text transliterates ἀπὸ Μααραγαβε. **Fix:** Correct `w`. Note that A reads "Gibeah", not "Geba".
 
-**14. Minor: The 20:9 note gets the Greek backwards.** The note says "The Septuagint reads 'we will go up against it by lot' just as the Hebrew does." The Hebrew has no verb (*aleha begoral*, "against it by lot"). Both Greek forms add ἀναβησόμεθα, "we will go up". **Fix:** "The Hebrew is clipped, 'against it, by lot'; the Greek supplies 'we will go up', as the Plain English does."
+**14. Minor: The 20:9 note gets the Greek backwards.** The note says "The Septuagint reads 'we will go up against it by lot' just as the Hebrew does." The Hebrew has no verb (*aleha begoral*, "against it by lot"). Both Greek forms add ἀναβησόμεθα, "we will go up". **Fix:** "The Hebrew is clipped, 'against it, by lot'; the Greek supplies 'we will go up', as the Plain English Translation does."
 
-**15. Minor: Geba and Gibeah are handled inconsistently.** The Plain at 20:10 silently changes the Hebrew *Geva* to "Gibeah" (there is a note), but at 20:33 it keeps "Geba", and the 20:33 variant then says "'Geba' is probably Gibeah, as in 20:10". **Fix:** Choose one policy for both verses and say so in both places.
+**15. Minor: Geba and Gibeah are handled inconsistently.** The Plain English Translation at 20:10 silently changes the Hebrew *Geva* to "Gibeah" (there is a note), but at 20:33 it keeps "Geba", and the 20:33 variant then says "'Geba' is probably Gibeah, as in 20:10". **Fix:** Choose one policy for both verses and say so in both places.
 
 **16. Minor: "Rabbinic sources" without a name.** (notes.json 20:23; chapters.json ch. 20 view J)
 The tradition exists. In Sanhedrin 103b, God says "You did not protest for My honor [Micah's idol], yet you protested for the honor of one of flesh and blood" (Sefaria). It also appears in Seder Eliyahu Rabbah (ch. 11/12), and in a form linking it to Micah in Pseudo-Philo, *Biblical Antiquities* 45–47. **Fix:** Cite Sanhedrin 103b (`bavli-sanhedrin`, already used on 17:13) and Pseudo-Philo.
 
 **17. Minor: 16:20 "the LORD had turned away from him".** *sar me'alav* means "had departed / left him", as in 1 Samuel 16:14 and 18:12, which the note itself cites. "Turned away" adds a sense of aversion. **Fix:** "the LORD had left him", and update the anchors in the note, chapter summary, deep section and topics.
 
-**18. Minor: 19:25 and 19:29 render the same verb differently.** The Plain has "grabbed" in 19:25 and "seized" in 19:29. The note on 19:25 argues that the identical verb (*vayyachazeq*) links the two acts. **Fix:** Use the same English in both verses, for example "seized".
+**18. Minor: 19:25 and 19:29 render the same verb differently.** The Plain English Translation has "grabbed" in 19:25 and "seized" in 19:29. The note on 19:25 argues that the identical verb (*vayyachazeq*) links the two acts. **Fix:** Use the same English in both verses, for example "seized".
 
-**19. Minor: Who shaved Samson?** The chapter 16 summary says "She has his braids shaved", but the Plain and the 16:19 note insist on "she shaved". **Fix:** Make them agree.
+**19. Minor: Who shaved Samson?** The chapter 16 summary says "She has his braids shaved", but the Plain English Translation and the 16:19 note insist on "she shaved". **Fix:** Make them agree.
 
 **20. Minor: Brettler's argument is misreported.** (notes 17:6) "the Levites come from David's Bethlehem". Only the first Levite (17:7) does. The second Levite is from Ephraim (19:1), and Bethlehem is the concubine's home and the place of excessive hospitality. **Fix:** Reword.
 
@@ -112,7 +112,7 @@ The tradition exists. In Sanhedrin 103b, God says "You did not protest for My ho
 - notes 14:15 "Lure": "Both women nag Samson with tears and words 'day after day' (14:17; 16:16)". "Day after day" appears only in 16:16. 14:17 has "the seven days".
 - notes 18:27: "That phrase, 'no rescuer,' is the language of the judges stories (3:9; 6:36)". 18:28 uses *matsil* (from *natsal*), but 3:9 and 6:36 use *moshia'* (from *yasha'*). **Fix:** Cite *matsil* parallels such as Deuteronomy 32:39 or Psalm 50:22, or drop the claim.
 
-**23. Minor: The Joshua 22:9 quotation does not match the site.** (notes 21:12) The note says Joshua 22:9 "uses the same phrase, 'Shiloh, which is in the land of Canaan'". The site's Joshua Plain reads "at Shiloh in the land of Canaan". The build did not catch this because the reference does not directly follow the quotation. **Fix:** Quote the site's wording, or tell the Joshua owner that the Hebrew *asher be'erets kena'an* is identical in both verses and the two Plains could align.
+**23. Minor: The Joshua 22:9 quotation does not match the site.** (notes 21:12) The note says Joshua 22:9 "uses the same phrase, 'Shiloh, which is in the land of Canaan'". The site's Joshua Plain English Translation reads "at Shiloh in the land of Canaan". The build did not catch this because the reference does not directly follow the quotation. **Fix:** Quote the site's wording, or tell the Joshua owner that the Hebrew *asher be'erets kena'an* is identical in both verses and the two Plains could align.
 
 **24. Minor: The wrong Bal book is cited.** (notes 16:15; chapters.json ch. 16 deep "Delilah through the centuries") Bal's reading of Delilah is in *Lethal Love: Feminist Literary Readings of Biblical Love Stories* (1987), not *Death and Dissymmetry* (`bal-death`). **Fix:** Add a key `bal-lethal`.
 
@@ -141,7 +141,7 @@ The tradition exists. In Sanhedrin 103b, God says "You did not protest for My ho
 - 16:25 "Their hearts were in a good mood" is awkward. Try "When their hearts were merry" or "In high spirits", avoiding the NIV.
 - 15:11 "They did it to me first": "first" is added. The Hebrew is "As they did to me, so I did to them".
 
-**33. Minor: Glosses.** 21:21 "festival line dances" contradicts the Plain and the note ("circle dances"). 16:25 "They were having a great time, and drinking" adds drinking, which the text does not mention.
+**33. Minor: Glosses.** 21:21 "festival line dances" contradicts the Plain English Translation and the note ("circle dances"). 16:25 "They were having a great time, and drinking" adds drinking, which the text does not mention.
 
 **34. Minor: Transliteration and name consistency.** 13:18 note `orig` "vehu-feli" should be *vehu-fel'i* (פֶלִאי). The 13:18 note renders Isaiah 9:6 "Wonder of a Counselor", but the chapter 13 deep section has "Wonderful Counselor". Pick one.
 
@@ -172,7 +172,7 @@ All eight works are real and correctly described. Alter 2013; Exum 1993; Dothan 
 - **"Rabbinic sources" at 20:23:** they exist (Sanhedrin 103b and others). Cite them. See finding 16.
 - **Shabbat 13a:** confirmed. "Go around, go around, and do not approach the vineyard, they say to the nazirite" (Ulla, Sefaria).
 - **18:30 and Bava Batra 109b:** the Manasseh/Moses identification is correct, but the honor-of-Moses motive is Rashi's. See finding 5.
-- **Echoes of Genesis 19 and Numbers 6:** they match the site's Plain. 13:5 "No razor is to touch his head" = Numbers 6:5. 13:7 "keep away from wine and other strong drink" = Numbers 6:3. 13:14 matches Numbers 6:4. 19:22 "so we can know him" = Genesis 19:5. 19:24 "Let me bring them out to you… whatever looks good to you" = Genesis 19:8. The quotations in the notes on 13:4, 13:5 and 19:22 are exact.
+- **Echoes of Genesis 19 and Numbers 6:** they match the site's Plain English Translation. 13:5 "No razor is to touch his head" = Numbers 6:5. 13:7 "keep away from wine and other strong drink" = Numbers 6:3. 13:14 matches Numbers 6:4. 19:22 "so we can know him" = Genesis 19:5. 19:24 "Let me bring them out to you… whatever looks good to you" = Genesis 19:8. The quotations in the notes on 13:4, 13:5 and 19:22 are exact.
 - **Terms (content/terms.json):** followed. *'edah* is "community", *cherem* is "under the ban", *'innah* (of a woman) is "dishonor", *u-vi'arta ha-ra'* is "sweep the evil out", *nokhri* is "foreigner" (19:12), *shelamim* is "peace offering", *nachalah* is "inheritance", and *Adonai YHWH* is "Lord GOD".
 - **Style:** no em-dashes and no curly quotes. The reading level is appropriate. Poetry line breaks are present at 14:14, 14:18, 15:16 and 16:24.
 
@@ -234,7 +234,7 @@ The NIV's "the whole army" (20:26) is now "all the people", and "fields" (19:16)
 
 22. **Misplaced quotations.** The 14:15 quotations have been fixed. In the 18:27 note, the claim about *moshia'* has been replaced: *matsil* is now linked to Deuteronomy 32:39 and Psalm 50:22.
 
-23. **Joshua 22:9.** The 21:12 Plain now reads "at Shiloh in the land of Canaan", and the note cites the site's Joshua wording. I then scanned every note, chapter, topic and variant in this part for a reference followed by a quotation, checking each against the site's Plain. The only other hit was the Genesis 22:10 quotation in the 19:29 note, and it matches. That scan also turned up and fixed these Judges self-quotations: 13:22, 14:18, 15:11, 18:10 and 19:28.
+23. **Joshua 22:9.** The 21:12 Plain English Translation now reads "at Shiloh in the land of Canaan", and the note cites the site's Joshua wording. I then scanned every note, chapter, topic and variant in this part for a reference followed by a quotation, checking each against the site's Plain English Translation. The only other hit was the Genesis 22:10 quotation in the 19:29 note, and it matches. That scan also turned up and fixed these Judges self-quotations: 13:22, 14:18, 15:11, 18:10 and 19:28.
 
 24. **Bal.** The 16:15 note now cites `bal-lethal`. The `bal-death` citations elsewhere are about the Timnite and chapters 19–21, which is correct.
 

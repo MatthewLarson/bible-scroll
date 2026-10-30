@@ -1,7 +1,7 @@
 # Hostile review: "who it was for, and why" in 2 Kings, 1 Chronicles and 2 Chronicles
 
 Scope: book.json `audience` and chapters.json `settings` only (2Ki 62 cards, 1Ch 41, 2Ch 70). Checked against
-tools/agent-audience.md, tools/agent-reviewer.md item 7, STYLE.md, the site's Plain (plain.txt), the 1 Kings
+tools/agent-audience.md, tools/agent-reviewer.md item 7, STYLE.md, the site's Plain English Translation (plain.txt), the 1 Kings
 settings, the books' authorship sections, and web sources where noted.
 
 ## Verdict
@@ -36,17 +36,17 @@ keys to each book.json `sources` as a stopgap.
 **2. Major (2Ki 8:10–13 views): the Ketiv/Qere view is garbled, and the "why" takes one side.**
 The view labeled "Elisha tells Hazael to lie" cites "the written text (Ketiv 'not'): 'Tell him you will not
 live'". But the Ketiv *lo'* ("not") is the reading in which Elisha does **not** tell a lie ("say: you will not
-live"). The "lie" reading is the Qere *lo* ("to him"): "say to him, 'You will surely live'". The site's Plain
+live"). The "lie" reading is the Qere *lo* ("to him"): "say to him, 'You will surely live'". The site's Plain English Translation
 follows that Qere ("Go and tell him, 'You are sure to live.'"). Neither quoted wording in the view matches the
-Plain. Then the "why" states the "two truths" reading as fact ("the sickness will not kill him, but he will
-die"), though the second view offers it as only one view. *Fix:* rewrite the views as (a) Qere, the Plain's
+Plain English Translation. Then the "why" states the "two truths" reading as fact ("the sickness will not kill him, but he will
+die"), though the second view offers it as only one view. *Fix:* rewrite the views as (a) Qere, the Plain English Translation's
 reading: Elisha tells Hazael to report recovery, which is true of the illness or is a test that Hazael bends
 into murder; (b) Ketiv: "tell him, 'You will not live'", with no lie at all. Make the "why" neutral: "Elisha's
 answer is double...".
 
 **3. Major (2Ch 10:3–15): a false contrast with Kings, which also disagrees with the 1 Kings card.**
 The card says "Kings tells it as the start of the north's sin. Chronicles ... stresses that God brought it about
-to keep the word to Jeroboam (10:15)". But 1 Kings 12:15 has the same sentence (Plain: "The LORD had brought
+to keep the word to Jeroboam (10:15)". But 1 Kings 12:15 has the same sentence (Plain English Translation: "The LORD had brought
 about this turn, so that he could make good the word..."). The 1 Kings card on 12:13–15 says so itself ("The
 narrator adds that the LORD brought this about"). "The north's sin" in Kings begins at 12:26–33, not at
 Shechem. Neither book "praises the split". *Fix:* name the real differences. Chronicles copies the scene almost
@@ -54,7 +54,7 @@ unchanged but leaves out Jeroboam's crowning over Israel (1 Kings 12:20) and the
 split is told only as Judah's loss, and Abijah (13) and Hezekiah (30) frame it as a breach to be healed.
 
 **4. Major (2Ch 8:11): "Chronicles keeps only this one foreign wife of Solomon" is false.**
-2 Chronicles 12:13 names Rehoboam's mother: "His mother was Naamah the Ammonite" (Plain). *Fix:* "Chronicles
+2 Chronicles 12:13 names Rehoboam's mother: "His mother was Naamah the Ammonite" (Plain English Translation). *Fix:* "Chronicles
 leaves out Solomon's many foreign wives (1 Kings 11:1–8). Pharaoh's daughter is the only one it shows living
 with him, and it gives a reason of holiness for keeping her apart." Also soften the Ezra 9–10 link. The 1Ch card
 on 2:1–4:23 says Chronicles takes a relaxed view of mixed descent (2:34–35), so this card should not suggest
@@ -128,10 +128,10 @@ twenty, which is the real link to the readers. *Fix:* name the tension and Ezra 
 - 2Ch 28:23: Ahaz's "The gods of Aram's kings help them... To them I will sacrifice".
 - 2Ch 23:11: "Long live the king!" 2Ki 11:12 has a card for the same acclamation. Add one here or drop that one.
 
-**14. Quotes that do not match the Plain.**
-- 1Ch 17:3–14: 'my house and my kingdom for all time'. The Plain has "in my house and in my kingdom for all time".
-- 2Ki 19:15–19: 'so that every kingdom on earth will know'. The Plain has "Then every kingdom on earth will know".
-- 2Ch 15:2–7 views: 'days without God' is in quotation marks but is not the text. The Plain has "Israel had no
+**14. Quotes that do not match the Plain English Translation.**
+- 1Ch 17:3–14: 'my house and my kingdom for all time'. The Plain English Translation has "in my house and in my kingdom for all time".
+- 2Ki 19:15–19: 'so that every kingdom on earth will know'. The Plain English Translation has "Then every kingdom on earth will know".
+- 2Ch 15:2–7 views: 'days without God' is in quotation marks but is not the text. The Plain English Translation has "Israel had no
   God of truth".
 - 2Ch 1:7–12: 'to judge this great people' paraphrases "who can judge this great people of yours?".
 - 2Ch 12:5–8: 'serve the kingdoms' stops before "of the lands".
@@ -242,7 +242,7 @@ All edits were made by script on book.json `audience` and chapters.json `setting
 1. Build bug: the coordinator fixed it in tools/build.js. Nothing to do here.
 2. 2Ki 8:10–13: I checked the Hebrew with `literal.js` and the site's 2Ki 8:10 variant.
    - The "why" is now neutral ("Elisha's answer is double...").
-   - The views are now (a) the Qere, which the Plain follows ("You are sure to live"), true of the illness or a test that Hazael bends into murder; and (b) the Ketiv lo' ("You will certainly not live"), with no lie, possibly a scribal change.
+   - The views are now (a) the Qere, which the Plain English Translation follows ("You are sure to live"), true of the illness or a test that Hazael bends into murder; and (b) the Ketiv lo' ("You will certainly not live"), with no lie, possibly a scribal change.
    - Added `tov-tchb`.
 3. 2Ch 10:3–15: I rewrote the comparison. Both books say God brought the split about (10:15; 1 Kings 12:15). The real difference is that Chronicles leaves out Jeroboam's crowning (1 Kings 12:20) and the north's history. So the split is told only as Judah's loss, and Abijah and Hezekiah treat it as a breach to be healed.
 4. 2Ch 8:11: I used the wording you suggested: Chronicles leaves out Solomon's many foreign wives, and Pharaoh's daughter is the only one it shows living with him. I removed the Ezra 9–10 link and kept "holiness of the place".
@@ -264,7 +264,7 @@ All edits were made by script on book.json `audience` and chapters.json `setting
     - 2Ki 4:1–7, 4:28, 5:3 and 14:25–27
     - 1Ch 11:17–19, 19:2–3, 21:8 and 21:18
     - 2Ch 23:11 and 28:23
-14. Quotes now match the Plain:
+14. Quotes now match the Plain English Translation:
     - 1Ch 17:14 ("make him stand in my house and in my kingdom for all time")
     - 2Ki 19:19 ("Then every kingdom on earth will know...")
     - 2Ch 15:3 ("Israel had no God of truth")

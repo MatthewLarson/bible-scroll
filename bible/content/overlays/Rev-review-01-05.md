@@ -1,6 +1,6 @@
 # Hostile review: Revelation 1–5
 
-Scope: Plain (plain.txt 1:1–5:14) checked verse by verse against texts/orig/Rev.json (SBLGNT, with the Byzantine
+Scope: Plain English Translation (plain.txt 1:1–5:14) checked verse by verse against texts/orig/Rev.json (SBLGNT, with the Byzantine
 text and the word list's edition marks); notes, glosses and variants for 1:1–5:14; chapters.json pages 1–5,
 including the overlay's settings and traditions for chapters 1–5. Book-level material (book.json, topic cores,
 sources.json) belongs to Rev-review-book.md and is mentioned here only where a chapter 1–5 item depends on it.
@@ -25,11 +25,11 @@ Other problems:
 - The lead's binding decisions have not been applied: δοῦλος is still "servants", and there are no variants.
 - The shared terms are broken in two places: "turn back" instead of "repent", and "God's people" instead of
   "the saints".
-- The Plain silently follows NA28 against its SBL base at 5:10.
+- The Plain English Translation silently follows NA28 against its SBL base at 5:10.
 - 1:19 and 3:14 settle famous cruxes in the text itself.
 - 4:10 leaves out two phrases.
 - 2:27–28 does not use KJV versification.
-- About 20 quotations of other verses do not match the site's Plain.
+- About 20 quotations of other verses do not match the site's Plain English Translation.
 - Several "my reading" spec items are published scholarship (Bauckham above all).
 - One note cites Koester for a view he argues against.
 
@@ -41,7 +41,7 @@ Other problems:
   0 errors, 104 warnings, 0 variants. The warnings in chapters 1–5 are listed in finding 14.
 - Verse-by-verse check of 1:1–5:14 against `sbl`, `byz` and the `w` edition marks. The drift audit was done
   against NIV 2011 and ESV from memory, and no long text is reproduced here.
-- Cross-book quotations in the 1–5 notes and pages were checked against the site's current Plain
+- Cross-book quotations in the 1–5 notes and pages were checked against the site's current Plain English Translation
   (content/books/<id>/plain.txt and parts).
 - The witness claims below are from NA28/UBS5 and Metzger as I know them. Where I am not certain, the entry
   says **verify**. Tischendorf's volume in the Source Library did not return Revelation pages.
@@ -71,7 +71,7 @@ matches (a few words only), and why the Greek does not require it.
 | 3:2 | "I have not found your works complete in the sight of my God", a 12-word exact ESV run | "in the sight of" is ESV's choice for ἐνώπιον |
 | 3:3 | the whole "If you do not wake up… at what hour I will come to you", near-exact ESV | — |
 | 3:4 | the whole verse near-exact NIV, with "stained" for "soiled" (and chapters.js still says "soiled") | — |
-| 3:7 | "who holds the key of David. What he opens no one can shut, and what he shuts no one can open" | NIV's shape. The site's Isaiah 22:22 Plain gives a ready, non-NIV model: "When he opens, no one will shut; when he shuts, no one will open." |
+| 3:7 | "who holds the key of David. What he opens no one can shut, and what he shuts no one can open" | NIV's shape. The site's Isaiah 22:22 Plain English Translation gives a ready, non-NIV model: "When he opens, no one will shut; when he shuts, no one will open." |
 | 3:8 | from "I have placed in front of you an open door" to the end, NIV with two words changed | δέδωκα is "I have given/set" |
 | 3:10 | the first 17 words are exact NIV, including its paraphrase "my command to endure patiently" | See finding 7 |
 | 3:12 | the second half, about 35 words, exact NIV, including "I will also write on them" | The Greek has only καὶ τὸ ὄνομά μου τὸ καινόν, "and my new name" |
@@ -105,14 +105,14 @@ Watch the knock-on anchors: notes on 2:4, 2:23, 3:1, 3:10, 3:20, 5:1, and the gl
 chapters 1–5.**
 Several places change what the KJV says or what a reader understands (1:5, 1:6, 1:8, 1:11, 2:20, 4:11, 5:9,
 5:10, 5:14). The NT brief requires an entry for every place where the KJV/TR differs noticeably, and for every
-place where the Plain leaves SBL (5:10). The full list, with witnesses, the reading the Plain follows and the
+place where the Plain English Translation leaves SBL (5:10). The full list, with witnesses, the reading the Plain English Translation follows and the
 reasons, is in the section **Variants needed in chapters 1–5** below. It counts as one finding.
 
 ### Major
 
 **3. Major. plain.js:5 (1:1), plain.js:50 (2:20); notes1.js (1:1 notes); overlay settings["1"] 1:1–3 `why`;
 deep2.js:~20 (ch2 deep "Is Jezebel called a prostitute?"): δοῦλος is still "servants".**
-- The lead decision and terms.json make δοῦλος "slave", with a word note at first use. The Plain still has
+- The lead decision and terms.json make δοῦλος "slave", with a word note at first use. The Plain English Translation still has
   "his servants… his servant John" (1:1) and "my servants" (2:20).
 - No note on slavery exists at 1:1.
 - The 1:1–3 setting quotes "to show his servants".
@@ -120,16 +120,16 @@ deep2.js:~20 (ch2 deep "Is Jezebel called a prostitute?"): δοῦλος is stil
 - The ch22 page (another slice) quotes 1:1 the same way.
 
 Fix:
-- Use "slaves" and "his slave John" in the Plain.
+- Use "slaves" and "his slave John" in the Plain English Translation.
 - Add a `word` note at 1:1 on δοῦλος, kind `nu`: Greek and Roman slavery; "slave of God" as an honor title for
   Moses and the prophets in the Septuagint; why many English Bibles say "servant".
 - Update the 1:1–3 setting and the ch2 deep section. Tell the lead about the ch22 quote in Fixes applied.
 
-**4. Major. plain.js:107 (5:10); notes2.js:8 (note "Will rule" or "rule?"): the Plain leaves its base text
+**4. Major. plain.js:107 (5:10); notes2.js:8 (note "Will rule" or "rule?"): the Plain English Translation leaves its base text
 without a variant, and a variant is disguised as a note.**
 - SBL reads βασιλεύουσιν, "they reign". The `w` edition mark shows the future βασιλεύσουσιν only in NA28/NA27,
   THGNT and the Byzantine text.
-- The Plain's "they will rule" follows NA28 and never says so.
+- The Plain English Translation's "they will rule" follows NA28 and never says so.
 - The existing note is a variant in all but name. The lead's rule is that variant-notes become variants.
 - The note's history is right as far as it goes. The KJV's "we shall reign" goes with the TR's ἡμᾶς and
   βασιλεύσομεν.
@@ -138,9 +138,9 @@ Fix: Make this a variant entry (see the list below). Move the millennial point (
 future, and 20:4–6; the present fits 1:6) into the entry's `b`. Then delete the note, or re-anchor it on "a
 kingdom and priests" so it does not overlap the variant.
 
-**5. Major. plain.js:25 (1:19); notes1.js:36: the Plain decides a crux by its punctuation.**
+**5. Major. plain.js:25 (1:19); notes1.js:36: the Plain English Translation decides a crux by its punctuation.**
 - The Greek is a plain series: γράψον οὖν ἃ εἶδες καὶ ἃ εἰσὶν καὶ ἃ μέλλει γίνεσθαι μετὰ ταῦτα.
-- The Plain writes "what you have seen: what is happening now, and what will happen after this". That colon
+- The Plain English Translation writes "what you have seen: what is happening now, and what will happen after this". That colon
   builds in the two-part reading, which is Beale's.
 - This is the very reading the dispensational three-part outline rejects, and the note itself (and the ch1
   `readings`) presents the three-part outline as the main futurist view.
@@ -149,13 +149,13 @@ kingdom and priests" so it does not overlap the variant.
 - "You have seen" is aorist εἶδες, "you saw".
 
 Fix:
-- Plain: "So write what you saw, what is, and what is going to happen after this."
+- Plain English Translation: "So write what you saw, what is, and what is going to happen after this."
 - Add the "what they mean" option (Aune, Beale) to the note.
 - Note that "what must happen after this" echoes Daniel 2:28–29, 45 in the Greek (see finding 13).
 
 **6. Major. Terms broken: μετανοέω and οἱ ἅγιοι (plain.js 2:5, 2:16, 2:21, 2:22, 3:3, 3:19, 5:8).**
 - terms.json fixes μετανοέω as "repent / repentance", with a gloss at first use ("turn your life around"). The
-  Plain says "turn back" (2:5 twice, 2:16, 3:3, 3:19) and "turn away from" (2:21, 2:22).
+  Plain English Translation says "turn back" (2:5 twice, 2:16, 3:3, 3:19) and "turn away from" (2:21, 2:22).
 - terms.json fixes οἱ ἅγιοι as "the saints", with a gloss at first use. 5:8 says "God's people".
 - The 5:8 traditions card quotes "the prayers of God's people". The card's question is about the saints, so
   the term matters there more than anywhere.
@@ -170,11 +170,11 @@ Fix:
 - τὸν λόγον τῆς ὑπομονῆς μου is "the word of my endurance".
 - It may mean "my word about endurance", or "the message of Christ's own endurance" (Beale, Aune).
 - "My command to endure patiently" is the NIV's choice, word for word.
-- This is the rapture proof-text, so the Plain must not tilt it. "Keep you from" is fine; note #41 covers the
+- This is the rapture proof-text, so the Plain English Translation must not tilt it. "Keep you from" is fine; note #41 covers the
   τηρέω ἐκ debate well.
 
 Fix:
-- Plain: "Because you have kept my word about endurance…" or "the word of my endurance".
+- Plain English Translation: "Because you have kept my word about endurance…" or "the word of my endurance".
 - Add a line to note #41 on the genitive.
 
 **8. Major. plain.js:76 (3:14); notes1.js (3:14 "the Amen" note): ἡ ἀρχὴ τῆς κτίσεως τοῦ θεοῦ is settled as
@@ -184,13 +184,13 @@ Fix:
   answer is Colossians 1:15–18 and Revelation 21:6, 22:13, where ἀρχή is God's title.
 - The only mention is a parenthesis in the "Amen" note.
 
-Fix: Add a `word` note (kind `deb`) on "the ruler of God's creation", or on "beginning" if the Plain changes,
-with the three senses and the history of the debate. Consider "the source of God's creation" in the Plain.
+Fix: Add a `word` note (kind `deb`) on "the ruler of God's creation", or on "beginning" if the Plain English Translation changes,
+with the three senses and the history of the debate. Consider "the source of God's creation" in the Plain English Translation.
 
 **9. Major. plain.js:95 (4:10): two phrases are left out.**
 - The Greek says the elders fall ἐνώπιον τοῦ καθημένου ἐπὶ τοῦ θρόνου ("before the one sitting on the throne")
   and worship τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων ("the one who lives forever and ever").
-- The Plain has "in front of him and worship him". The repetition of 4:9 is deliberate liturgical style, and
+- The Plain English Translation has "in front of him and worship him". The repetition of 4:9 is deliberate liturgical style, and
   both phrases must stay.
 
 Fix: "the twenty-four elders fall down before the one who sits on the throne and worship the one who lives
@@ -199,7 +199,7 @@ forever and ever. They throw their crowns down in front of the throne, saying:" 
 **10. Major. plain.js:15 (1:9) against 1:2: "my testimony about Jesus" adds "my" and decides the genitive.**
 - The Greek is τὴν μαρτυρίαν Ἰησοῦ, the same phrase rendered "the testimony of Jesus Christ" in 1:2.
 - "The testimony of Jesus" (1:2, 9; 12:17; 19:10; 20:4) is a debated phrase: the testimony Jesus gave, or
-  testimony about him. The Plain should not answer it in one verse and not in the other.
+  testimony about him. The Plain English Translation should not answer it in one verse and not in the other.
 - 1:2's "John reports" also hides ἐμαρτύρησεν, "bore witness". The μάρτυς family (witness, testimony, Antipas
   the "witness", the faithful "witness" of 1:5 and 3:14) is a main thread of the book.
 
@@ -250,28 +250,28 @@ STYLE requires a note on every major OT allusion and every likely mistranslation
   the Greek, where it is "in the last days". John's change to "soon" (1:1) is Beale's and Bauckham's key point
   about the book's time frame. The note on "soon" (notes1.js) should cite it.
 - **1:7.** ἐξεκέντησαν, "pierced", agrees with John 19:37 ("They will look at the one they pierced", the site's
-  Plain) against the Septuagint of Zechariah 12:10, which has "mocked/danced". Also, note #8 says "Jesus used the
+  Plain English Translation) against the Septuagint of Zechariah 12:10, which has "mocked/danced". Also, note #8 says "Jesus used the
   same verses at his trial (Matthew 26:64)". The verse that joins Daniel 7:13 with Zechariah 12:10–12 is
   Matthew 24:30 ("all the tribes of the earth will mourn"). The trial uses Daniel 7:13 and Psalm 110.
 - **1:15 / 2:18, "polished bronze".** χαλκολίβανον occurs nowhere else in Greek and its meaning is unknown.
-  The Plain's "polished bronze" needs a `deb` note.
+  The Plain English Translation's "polished bronze" needs a `deb` note.
 - **2:27.** ποιμανεῖ: the Septuagint read Hebrew *tero'em* ("you will break them", Psalm 2:9) as *tir'em*
   ("you will shepherd them"). Note #34 says only "literally shepherd". It should say why the Greek differs from
   the site's Psalm 2:9 ("You will crush them").
 - **2:23.** "Kidneys and hearts" (Jeremiah 17:10, already in the ch2 echoes) has no note.
 - **3:5.** "I will acknowledge his name before my Father" echoes Jesus's saying in Matthew 10:32 (the site's
-  Plain "I too will declare for that person in front of my Father"). The Plain's "say that name out loud" hides
+  Plain English Translation "I too will declare for that person in front of my Father"). The Plain English Translation's "say that name out loud" hides
   ὁμολογέω. Use "declare" or "acknowledge", and add an echo note.
-- **3:19.** Proverbs 3:12 (the site's Plain "whoever the LORD loves, he rebukes") is in the ch3 echoes but has
+- **3:19.** Proverbs 3:12 (the site's Plain English Translation "whoever the LORD loves, he rebukes") is in the ch3 echoes but has
   no note. Hebrews 12:6 quotes it too.
 - **4:6, "sea of glass".** Covered only in a chapter table. Ancient cosmology, Exodus 24:10, the bronze Sea of
   1 Kings 7:23, and 15:2's "sea of glass mixed with fire" need a symbol note.
 
-**14. Major. Quotations that do not match the site's Plain (build warnings in chapters 1–5, plus ones the build
+**14. Major. Quotations that do not match the site's Plain English Translation (build warnings in chapters 1–5, plus ones the build
 does not catch).**
 A book is done only at 0 warnings.
 - Build warnings, notes:
-  - 1:1 note (src/3-data.js:4): "the revelation of Jesus Christ" (1:1). The Plain says "unveiling".
+  - 1:1 note (src/3-data.js:4): "the revelation of Jesus Christ" (1:1). The Plain English Translation says "unveiling".
   - 1:6 (notes1.js:25): "from every tribe and language" (5:9–10).
   - 1:16 (notes1.js): Isaiah 49:2 and 11:4.
   - 1:17: Isaiah 44:6 ("I am first, and I am last, / and except for me there is no god").
@@ -279,36 +279,36 @@ A book is done only at 0 warnings.
   - 3:9: Isaiah 60:14 ("bow at the soles of your feet"), and Revelation 14:5 (another slice's verse, "No lie
     was found in their mouths").
   - 5:9 (notes2.js:7): "by their clans, languages, lands, and nations" is printed "(10:5, 20, 31)", so the build
-    reads it as **Revelation** 10:5. Write "Genesis 10:5, 20, 31" and quote Genesis 10:5's Plain ("by their
+    reads it as **Revelation** 10:5. Write "Genesis 10:5, 20, 31" and quote Genesis 10:5's Plain English Translation ("by their
     clans, in their nations").
 - Build warnings, chapters.json:
   - Ch2: Revelation 2:18, Isaiah 23:17, Revelation 18:3, 3:17, 3:12.
   - Ch3: 3:20, 3:4 (NIV's "soiled"), 3:12, 3:17–18.
-  - Ch4: 5:5 ("of the tribe" against Plain "from the tribe").
-  - Ch5: 5:1 ("on the inside and on the back" against Plain "on both sides").
-- Not caught by the build (verified against the site's Plain):
-  - notes1.js:25 Exodus 19:6, "a kingdom of priests and a holy nation". The Plain says "a kingdom of priests, a
+  - Ch4: 5:5 ("of the tribe" against Plain English Translation "from the tribe").
+  - Ch5: 5:1 ("on the inside and on the back" against Plain English Translation "on both sides").
+- Not caught by the build (verified against the site's Plain English Translation):
+  - notes1.js:25 Exodus 19:6, "a kingdom of priests and a holy nation". The Plain English Translation says "a kingdom of priests, a
     holy nation".
-  - notes1.js:24 Psalm 89, "highest of the kings of the earth" (Plain: "most high over the kings of the earth").
-  - notes1.js:76 Isaiah 6:3, "the LORD of hosts". The site's term and Plain say "the LORD of Armies". Note #10
+  - notes1.js:24 Psalm 89, "highest of the kings of the earth" (Plain English Translation: "most high over the kings of the earth").
+  - notes1.js:76 Isaiah 6:3, "the LORD of hosts". The site's term and Plain English Translation say "the LORD of Armies". Note #10
     (1:8) also says "LORD of hosts".
-  - notes1.js:63 John 17:15, "keep them from the evil one" (Plain: "keep them safe from the evil one").
-  - deep2.js:27 Numbers 25:1–2, "commit sexual immorality with the women of Moab. They invited…" (Plain:
+  - notes1.js:63 John 17:15, "keep them from the evil one" (Plain English Translation: "keep them safe from the evil one").
+  - deep2.js:27 Numbers 25:1–2, "commit sexual immorality with the women of Moab. They invited…" (Plain English Translation:
     "commit sexual sin with the daughters of Moab. The women invited…").
-  - deep2.js:59 2 Kings 9:33, "Throw her down!" (Plain: "Let her drop!").
-  - deep2.js:58 Revelation 18:23, "your sorcery deceived all the nations" (Plain: "all the nations were led
+  - deep2.js:59 2 Kings 9:33, "Throw her down!" (Plain English Translation: "Let her drop!").
+  - deep2.js:58 Revelation 18:23, "your sorcery deceived all the nations" (Plain English Translation: "all the nations were led
     astray by your magic spells").
   - deep2.js:~38 (2:22 note) James 4:4. James is not yet written, but the wording is NIV's ("You adulterous
     people… friendship with the world means…"). Rebuild it from literal.js.
 
-Fix: Quote the current Plain, or name the version ("(KJV)"). Quotes of chapters 1–5 that sit in other slices
+Fix: Quote the current Plain English Translation, or name the version ("(KJV)"). Quotes of chapters 1–5 that sit in other slices
 (ch22 page on 1:1, 1:3, 1:4; topics; book.json "is, was and is to come") go to the lead's alignment pass.
 
 **15. Major. plain.js:57–58 (2:27–28): not in KJV versification.**
 - The site keys every verse to KJV numbering (STYLE).
 - KJV 2:27 ends "even as I received of my Father", and 2:28 is only "And I will give him the morning star". The
   Byzantine text divides the same way.
-- The Plain follows the SBL/NA division, putting "just as I received authority from my Father" in 2:28.
+- The Plain English Translation follows the SBL/NA division, putting "just as I received authority from my Father" in 2:28.
 
 Fix: Move the clause to 2:27. 2:28 becomes "And I will give him the morning star", rebuilt as part of the
 finding 1 drift fix. Check note #34's anchor "iron rod" and note #35.
@@ -328,7 +328,7 @@ refused to put God's name in another case."
 - ὄνομα ἔχεις ὅτι ζῇς, "you have a name that you are alive" (3:1).
 - ὀλίγα ὀνόματα, "a few names", meaning people (3:4).
 - "I will not erase his name… I will acknowledge his name" (3:5).
-- The four uses are the spine of the letter. The Plain's "reputation" and "a few people", taken from NIV/ESV,
+- The four uses are the spine of the letter. The Plain English Translation's "reputation" and "a few people", taken from NIV/ESV,
   erase it.
 
 Fix: "You have a name for being alive, but you are dead", and "you have a few names in Sardis", with a gloss
@@ -344,15 +344,15 @@ Fix: "You have a name for being alive, but you are dead", and "you have a few na
 - The ch1 summary says flatly "he showed it in signs".
 
 Fix:
-- Plain "made it known".
+- Plain English Translation "made it known".
 - Note: "Some (Beale) hear 'sign-ified', made known by symbols, as in Daniel 2:45 in the Greek."
 - Hedge the summary.
 
-**19. Minor. plain.js:46–47 (2:22): the Plain chooses an interpretation that its own note and spec say the Greek
+**19. Minor. plain.js:46–47 (2:22): the Plain English Translation chooses an interpretation that its own note and spec say the Greek
 does not have, and loses a book-wide phrase.**
 - "Sickbed": κλίνη is only "bed". The note (deep2.js:110) and the spec (deep2.js:59) both make the bed/couch
-  pun the point, but the Plain kills it.
-- "Will suffer greatly" hides εἰς θλῖψιν μεγάλην, "into great suffering". 7:14's Plain says "the great
+  pun the point, but the Plain English Translation kills it.
+- "Will suffer greatly" hides εἰς θλῖψιν μεγάλην, "into great suffering". 7:14's Plain English Translation says "the great
   suffering".
 
 Fix: "I am throwing her onto a bed, and those who commit adultery with her into great suffering, unless they
@@ -367,7 +367,7 @@ Fix: "will never be harmed by the second death".
 **22. Minor. plain.js 1:15: "the roar of rushing waters".** πολλῶν is "many", and "rushing" is NIV's.
 Fix: "the sound of many waters" (Ezekiel 43:2).
 
-**23. Minor. plain.js 1:18: "Hades, the world of the dead" puts a definition into the Plain.** STYLE says no
+**23. Minor. plain.js 1:18: "Hades, the world of the dead" puts a definition into the Plain English Translation.** STYLE says no
 interpretation in the text.
 Fix: Move it to a gloss on "Hades".
 
@@ -379,7 +379,7 @@ Fix: Keep the Greek image, perhaps with a gloss.
 5:6, then "When he took it" in 5:8.
 Fix: Choose one and say why in note #56. "He" fits 5:9's "you".
 
-**26. Minor. plain.js 5:12–13 against chdeep (ch5 table): εὐλογία.** The Plain says "praise", but the chapter
+**26. Minor. plain.js 5:12–13 against chdeep (ch5 table): εὐλογία.** The Plain English Translation says "praise", but the chapter
 table lists "blessing".
 Fix: Use "blessing" in both. The word is not the same as αἶνος.
 
@@ -415,7 +415,7 @@ Fix: Hedge the claims and merge the two notes.
 Fix: Move them to chapter 3 and keep the fact once.
 
 **32. Minor. notes1.js:76 (4:8) and notes1.js:28 (1:8): the term for παντοκράτωρ.**
-- The Plain says "the All-Powerful".
+- The Plain English Translation says "the All-Powerful".
 - The note's preview says "Almighty".
 - Everywhere else the site uses "the Almighty" (Shaddai; Judith; 2 Maccabees, per terms.json).
 
@@ -449,7 +449,7 @@ question.
 - 1:4 "Grace": terms.json asks for a gloss at first use, and none is there.
 - 2:20 "that woman Jezebel" will need re-anchoring after the drift fix.
 
-**38. Minor. chapters.js ch1 `sum`: "the stars are the messengers of seven churches".** The Plain and 1:20 say
+**38. Minor. chapters.js ch1 `sum`: "the stars are the messengers of seven churches".** The Plain English Translation and 1:20 say
 "angels".
 
 **39. Minor. chdeep.js (ch1 table): "Isaiah 11:4; 49:2".** A bare "49:2" reads as Revelation.
@@ -465,7 +465,7 @@ to John and the eagle to Mark. The topic text (topics2.js:53) has the same mix-u
 say Irenaeus "matched them".
 
 **42. Minor. chapters.js:37 (ch5 `sum`): "John turns to see a lion".** The text does not say John turns or
-expects a lion. The quote "The Lion of the tribe of Judah has won" must match the Plain.
+expects a lion. The quote "The Lion of the tribe of Judah has won" must match the Plain English Translation.
 
 **43. Minor. ch2 deep "What was happening in Thyatira?" (deep2.js): Schürer's essay.** "Die Prophetin Isabel in
 Thyatira" appeared in the Weizsäcker *Festschrift* (*Theologische Abhandlungen*, 1892), not 1893. **Verify** and
@@ -550,7 +550,7 @@ Entries in **bold** are needed. The rest are optional, for KJV readers.
       One".
     - (b) ἦσαν, "they existed": A and most, NA28. The TR reads εἰσί, "they are" (KJV "they are and were
       created"). A few manuscripts read "they were not, and were created" (046 reported; **verify**).
-    - Say why the Plain has "they exist" (a smoothing of ἦσαν), or better, render "they were, and were
+    - Say why the Plain English Translation has "they exist" (a smoothing of ἦσαν), or better, render "they were, and were
       created", with the order puzzle in `b`.
 18. **5:1 "on the back" (with punctuation).**
     - ἔσωθεν καὶ ὄπισθεν, "inside and on the back": A and others, NA28, SBL, TR (KJV "within and on the
@@ -558,11 +558,11 @@ Entries in **bold** are needed. The rest are optional, for KJV readers.
     - ἔσωθεν καὶ ἔξωθεν, "inside and outside": the Byzantine (RP) and others.
     - ἔμπροσθεν καὶ ὄπισθεν, "front and back": ℵ and Origen (reported; **verify**).
     - Some (Zahn, and others since) punctuate "written inside, and sealed on the back with seven seals".
-    - If the Plain keeps "on both sides", the note on the double document needs the readings. Better: "written
+    - If the Plain English Translation keeps "on both sides", the note on the double document needs the readings. Better: "written
       inside and on the back".
 19. 5:4 (optional). The TR adds "and to read" (KJV "to open and to read the book").
 20. **5:9 "people" / "us".**
-    - No object at all: A (alone among Greek witnesses, with the Ethiopic); NA28, SBL. The Plain supplies
+    - No object at all: A (alone among Greek witnesses, with the Ethiopic); NA28, SBL. The Plain English Translation supplies
       "people".
     - ἡμᾶς, "us": ℵ, 046, the Byzantine majority, TR (KJV "redeemed us"). The `w` marks show THGNT and
       Tregelles also print it.
@@ -572,10 +572,10 @@ Entries in **bold** are needed. The rest are optional, for KJV readers.
 21. **5:10 three readings in one verse.** Make one entry per word, or one entry with full-verse readings.
     - αὐτούς, "them" (NA, SBL, RP) against ἡμᾶς, "us" (TR, a few late manuscripts; KJV "made us").
     - βασιλείαν, "a kingdom" (ℵ, A, NA, SBL) against βασιλεῖς, "kings" (Byzantine/RP, TR; KJV "kings").
-    - βασιλεύσουσιν, "they will reign": ℵ, P, the Byzantine majority; NA28, THGNT. The Plain follows this.
+    - βασιλεύσουσιν, "they will reign": ℵ, P, the Byzantine majority; NA28, THGNT. The Plain English Translation follows this.
     - βασιλεύουσιν, "they reign": A, 046; SBL, Westcott-Hort.
     - βασιλεύσομεν, "we will reign": TR, with very few manuscripts (KJV).
-    - The Plain must state that here it follows NA28 against its SBL base, and why: the future fits 20:4–6 and
+    - The Plain English Translation must state that here it follows NA28 against its SBL base, and why: the future fits 20:4–6 and
       22:5, and has wide support. The present is A's reading, often strong in Revelation, which is SBL's reason.
 22. 5:13 (optional). The Byzantine (RP) adds a final "Amen".
 23. **5:14.** The TR (KJV) adds "twenty-four" and "him that lives forever and ever" ("worshipped him that liveth
@@ -592,7 +592,7 @@ Fixer for chapters 1–5, 2026-10-26. Scratch and drift-audit list: .scratch/Rev
 1. Fixed. All 106 verses of 1:1–5:14 rebuilt from `literal.js` (SBL base) and drift-audited in the head: 101 changed, 2:8 and 2:12 kept as already own wording, 1:8 kept as forced. Every listed run is gone ("the right to", "that person", "I will also", NIV re-orderings in 5:2 and 5:11, "my command to endure patiently", "ruler", "writing on both sides"). Hymns set as poetry with ` / ` (4:8, 4:11, 5:9–10, 5:12–13). All notes, glosses, settings and chapter-page quotes of these verses re-anchored or re-quoted.
 2. Fixed. 25 variants written to the overlay for chapters 1–5 (1:5 ×2, 1:6, 1:8, 1:9, 1:11, 1:18; 2:7, 2:13, 2:15, 2:20, 2:22; 3:2, 3:5, 3:7; 4:11 ×2; 5:1, 5:4, 5:9, 5:10 ×3, 5:13, 5:14). Witnesses checked where possible (1:5, 1:6 and 5:9 confirmed from the published apparatus lists; 5:9 against Malik, ZNW 2017). Where a witness could not be confirmed it is not named: 1:8 (ℵ* not named), 2:22 (A not named; the "prison/furnace" readings for "bed" left out), 4:11 (046's "they were not" given without a witness), 5:1 ("front and back" given without ℵ/Origen). Entry 16 (4:8, extra "holy") declined: the counts could not be verified.
 3. Fixed. δοῦλος is "slave(s)" at 1:1 and 2:20; new `word` note at 1:1 ("Slaves," not just "servants", top `slavery`); 1:1–3 setting and the ch2 deep section updated. For the lead: the ch22 page's quote of 1:1 is in another slice (it no longer warns, but check it says "slaves").
-4. Fixed. 5:10 is now three variants ("made them", "a kingdom", "they will rule"); the last says the Plain follows NA28/THGNT against SBL and why, with the millennial point in `b`. The old note "Will rule or rule?" is deleted.
+4. Fixed. 5:10 is now three variants ("made them", "a kingdom", "they will rule"); the last says the Plain English Translation follows NA28/THGNT against SBL and why, with the millennial point in `b`. The old note "Will rule or rule?" is deleted.
 5. Fixed. 1:19 "So write what you saw, what is, and what is going to happen after this." Note #18 re-anchored, with the "what they mean" reading (Aune, Beale) and the Daniel 2:28–29, 45 echo.
 6. Fixed. "Repent" throughout (2:5 ×2, 2:16, 2:21–22, 3:3, 3:19), gloss "Turn your life around" at 2:5; "the saints" at 5:8 with gloss "God's holy people"; the 5:8 traditions question now quotes "These are the prayers of the saints."
 7. Fixed. 3:10 "Because you kept the word of my endurance"; note #41 gains a line on the genitive; the 3:10 traditions question re-quoted.
@@ -601,8 +601,8 @@ Fixer for chapters 1–5, 2026-10-26. Scratch and drift-audit list: .scratch/Rev
 10. Fixed. 1:9 "the testimony of Jesus," 1:2 "who testified to the word of God and to the testimony of Jesus Christ"; new `deb` note at 1:9 on the genitive, cross-linked to 12:17, 19:10, 20:4.
 11. Fixed. WORDS `lukewarm` now gives three readings (traditional; Rudwick/Green and Hemer; Koester's dining customs), Koester no longer cited for the water view, Colossae hedged, `com` warning kept only for the strong form; ch3 deep section brought into line.
 12. Fixed. 5:5 spec credits Bauckham for the 7:4–9 pattern and keeps only a small addition; 2:24 spec credits the standard "deep things of God" proposal; ch2 "couch" spec credits the commentators and claims only the 2 Kings 9:33 echo; the "two churches with no rebuke" spec credits Hemer, Aune and Koester.
-13. Fixed. Daniel 2:28–29, 45 added to the "soon" note (and 1:19); new 1:7 echo note on "pierced" (John 19:37, Septuagint of Zechariah 12:10) and Matthew 24:30 replaces 26:64 as the joined text; new notes on "polished bronze" (1:15), "kidneys and hearts" (2:23, Jeremiah 17:10 paraphrased, not yet on the site), "I will declare his name" (3:5, Matthew 10:32, with "declare" now in the Plain), Proverbs 3:12 (3:19), "a sea of glass" (4:6); the 2:27 note explains tero'em/tir'em and the Plain now says "shepherd" as in 12:5.
-14. Fixed for chapters 1–5. Every listed quote now matches the site's Plain or is paraphrased without quote marks (Isaiah 49:2, 11:4, 44:6, 22:22, 60:14; Genesis 10:5; Exodus 19:6; Psalm 89; Isaiah 6:3 "LORD of Armies"; John 17:15; Numbers 25:1–2; 2 Kings 9:33; Revelation 18:3, 18:23, 14:5; James 4:4 and 2 Peter 3:9 paraphrased; Ezekiel 1:28, 2:9–10, Daniel 7:10, 12:4, Zechariah 4:10 paraphrased because those books are not on the site yet). For the lead (quotes of 1–5 in other slices, topics and book.json, all flagged by the build): 21:27 note (5:9); ch18 page (3:17); ch21 page (2:11); topics tribulation (1:9), book-of-life (3:5 ×2), worship (5:8), martyrs (2:13), repentance (2:5), lamb (5:6), angels (1:20 ×2), living-creatures (5:5), balaam (2:14), ephesus (2:2), sardis (3:3), philadelphia (3:12 ×2, 3:8), throne (4:10, 5:6), sea (4:6), lampstands (1:20, 2:5), second-death (2:11), say-are-not (3:9, 3:12 ×2, 3:7, 3:14, 2:17, 3:5); book.json (1:9). Also 17:11's note quoting 1:4 if it still differs.
+13. Fixed. Daniel 2:28–29, 45 added to the "soon" note (and 1:19); new 1:7 echo note on "pierced" (John 19:37, Septuagint of Zechariah 12:10) and Matthew 24:30 replaces 26:64 as the joined text; new notes on "polished bronze" (1:15), "kidneys and hearts" (2:23, Jeremiah 17:10 paraphrased, not yet on the site), "I will declare his name" (3:5, Matthew 10:32, with "declare" now in the Plain English Translation), Proverbs 3:12 (3:19), "a sea of glass" (4:6); the 2:27 note explains tero'em/tir'em and the Plain English Translation now says "shepherd" as in 12:5.
+14. Fixed for chapters 1–5. Every listed quote now matches the site's Plain English Translation or is paraphrased without quote marks (Isaiah 49:2, 11:4, 44:6, 22:22, 60:14; Genesis 10:5; Exodus 19:6; Psalm 89; Isaiah 6:3 "LORD of Armies"; John 17:15; Numbers 25:1–2; 2 Kings 9:33; Revelation 18:3, 18:23, 14:5; James 4:4 and 2 Peter 3:9 paraphrased; Ezekiel 1:28, 2:9–10, Daniel 7:10, 12:4, Zechariah 4:10 paraphrased because those books are not on the site yet). For the lead (quotes of 1–5 in other slices, topics and book.json, all flagged by the build): 21:27 note (5:9); ch18 page (3:17); ch21 page (2:11); topics tribulation (1:9), book-of-life (3:5 ×2), worship (5:8), martyrs (2:13), repentance (2:5), lamb (5:6), angels (1:20 ×2), living-creatures (5:5), balaam (2:14), ephesus (2:2), sardis (3:3), philadelphia (3:12 ×2, 3:8), throne (4:10, 5:6), sea (4:6), lampstands (1:20, 2:5), second-death (2:11), say-are-not (3:9, 3:12 ×2, 3:7, 3:14, 2:17, 3:5); book.json (1:9). Also 17:11's note quoting 1:4 if it still differs.
 15. Declined, by lead decision 3: the SBL verse division stays (2:28 begins "just as I myself have received it from my Father"), with a new `word` note at 2:28 explaining that the KJV and most English Bibles end 2:27 with that clause.
 16. Fixed. The ch1 deep section now says John breaks grammar often, in patterns, many think on purpose, with 1:5, 2:13, 2:20 and 4:8 as examples.
 17. Fixed. 3:1 "You have a name for being alive," 3:4 "a few names" with gloss "a few people," 3:5 "declare his name"; new `nu` note at 3:1 on the four uses of "name."
@@ -616,7 +616,7 @@ Fixer for chapters 1–5, 2026-10-26. Scratch and drift-audit list: .scratch/Rev
 25. Fixed. The Lamb is "he" throughout 5:6–8; the `lamb` word note says why (the masculine ἔχων after neuter ἀρνίον in 5:6).
 26. Fixed. "blessing" in 5:12–13, matching the ch5 table.
 27. Fixed. 5:13 "on the sea"; ch5 summary too.
-28. Fixed. The title note now says "so the title is 'Revelation,' not 'Revelations'" and quotes 1:1's Plain.
+28. Fixed. The title note now says "so the title is 'Revelation,' not 'Revelations'" and quotes 1:1's Plain English Translation.
 29. Fixed. The Patmos note now separates Irenaeus (date of the vision), Clement (unnamed "tyrant"), Eusebius and Victorinus (Domitian's banishment).
 30. Fixed. The two 2:9 notes are merged into one (sayare.js, now type `israel`), with the exemption hedged as a tolerated custom, "many of them Jewish" dropped, the later misuse kept, and Martyrdom of Polycarp 12–13 cited with care.
 31. Partly. The lead had already hidden the ch2 Laodicea and Sardis fact boxes and moved the Philadelphia one to chapter 3; the 3:18 note now points to the 3:17 note instead of repeating Tacitus; the ch3 table keeps a one-line summary. The ch2 `links` (Laodicea, Hierapolis, Sardis) stay: the station's links can only go to one chapter page.
@@ -630,6 +630,6 @@ Fixer for chapters 1–5, 2026-10-26. Scratch and drift-audit list: .scratch/Rev
 39. Fixed. "Isaiah 11:4; Isaiah 49:2."
 40. Fixed. The ch2 summary says "Three times" and "most of them taken from the vision in chapter 1."
 41. Fixed in the ch4 fact box (3b-extra.js): Jerome's scheme, with Irenaeus's different one. For the book fixer: topics2.js (the living-creatures topic text) has the same mix-up.
-42. Fixed. ch5 summary: "John looks, and instead of a lion he sees a Lamb," with 5:5 quoted from the Plain. The ch4 station spec also quotes "the Lion from the tribe of Judah."
+42. Fixed. ch5 summary: "John looks, and instead of a lion he sees a Lamb," with 5:5 quoted from the Plain English Translation. The ch4 station spec also quotes "the Lion from the tribe of Judah."
 43. Fixed. Schürer's essay dated 1892, in the Weizsäcker Festschrift (Theologische Abhandlungen), in both the deep section and its source entry.
 44. Fixed. New settings card for 4:1 ("The call to come up," with the rapture view); Orthodox and Baptist views added to the 1:10 Lord's day card; the 5:8 card re-quoted; the 2:1–7 card now says "if the later date of Revelation is right, that temple was new when the letter was read."

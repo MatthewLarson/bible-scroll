@@ -4,10 +4,10 @@ Reviewer: hostile review per `tools/agent-reviewer.md`. `node tools/build.js --c
 
 ## Verdict
 
-This is a strong part. The translation is built from the Hebrew, not borrowed. I read all 391 verses against the WLC word list. Nearly every high-similarity verse is high because the Hebrew is plain narrative or a name list, and in those verses the Plain is often closer to the WEB/KJV than to the BSB. I found no real BSB dependence. The rabbinic apparatus is unusually accurate for something written from memory. I checked about 45 Midrash, Talmud, Mishnah, Rashi, Ramban, Targum and Sifre citations, and almost all are right down to the section or folio. Chapter 34 is handled honestly and fairly. The serious problems are elsewhere:
+This is a strong part. The translation is built from the Hebrew, not borrowed. I read all 391 verses against the WLC word list. Nearly every high-similarity verse is high because the Hebrew is plain narrative or a name list, and in those verses the Plain English Translation is often closer to the WEB/KJV than to the BSB. I found no real BSB dependence. The rabbinic apparatus is unusually accurate for something written from memory. I checked about 45 Midrash, Talmud, Mishnah, Rashi, Ramban, Targum and Sifre citations, and almost all are right down to the section or folio. Chapter 34 is handled honestly and fairly. The serious problems are elsewhere:
 
 - One build-breaking data-type error in `topics.json`.
-- Chapter pages and topic sections that quote Genesis in ESV wording instead of the site's own Plain English.
+- Chapter pages and topic sections that quote Genesis in ESV wording instead of the site's own Plain English Translation.
 - Source keys shared with the other Genesis parts that will display the wrong folios.
 - Six real Samaritan and Septuagint variants that are missing, or are mentioned only with an "this edition could not check" hedge.
 - A handful of factual slips.
@@ -26,31 +26,31 @@ Findings: **1 critical, 7 major, 24 minor.**
   - Make each `claude` an object: `{"title":"Claude's theory: ...","body":"...","refs":"Genesis 32:27; Genesis 27:19"}`.
   - Then run the full build, not just `--check`.
 
-### 2. MAJOR: Chapter pages and topic sections quote Genesis and the NT in ESV/NIV wording, not the Plain English
+### 2. MAJOR: Chapter pages and topic sections quote Genesis and the NT in ESV/NIV wording, not the Plain English Translation
 - **Where (`chapters.json`):**
-  - ch. 28 sum: "Surely the LORD is in this place, and I did not know it." This is the ESV word for word. The Plain has "The LORD really is in this place."
+  - ch. 28 sum: "Surely the LORD is in this place, and I did not know it." This is the ESV word for word. The Plain English Translation has "The LORD really is in this place."
   - ch. 29 sum: "behold, it was Leah" (ESV).
-  - ch. 30 sum: "Give me sons, or I am dead." The Plain has "Give me children!"
+  - ch. 30 sum: "Give me sons, or I am dead." The Plain English Translation has "Give me children!"
   - ch. 32 sum:
-    - "I am too small for all your steadfast love". The Plain has "faithful love".
-    - "you have striven with God and with men, and you have prevailed" (ESV). The Plain has "struggled ... humans ... have won".
-    - "my life has been spared" (NIV-like). The Plain has "still my life was rescued".
-  - ch. 34 sum: "Should he treat our sister like a prostitute?" (ESV word for word). The Plain has "Like a prostitute, is that how he should treat our sister?"
+    - "I am too small for all your steadfast love". The Plain English Translation has "faithful love".
+    - "you have striven with God and with men, and you have prevailed" (ESV). The Plain English Translation has "struggled ... humans ... have won".
+    - "my life has been spared" (NIV-like). The Plain English Translation has "still my life was rescued".
+  - ch. 34 sum: "Should he treat our sister like a prostitute?" (ESV word for word). The Plain English Translation has "Like a prostitute, is that how he should treat our sister?"
 - **Where (`topics.json`):**
   - jacob: "for you have striven with God and with men and have prevailed" (ESV).
   - jacob core: "leaning on the top of his staff" (NIV Hebrews 11:21).
-  - bethel: "Surely the LORD is in this place ..." and "this is nothing other than the house of God, and this is the gate of heaven". The ESV has "none other than". The Plain has "nothing but the house of God, and this is heaven's gate".
+  - bethel: "Surely the LORD is in this place ..." and "this is nothing other than the house of God, and this is the gate of heaven". The ESV has "none other than". The Plain English Translation has "nothing but the house of God, and this is heaven's gate".
   - isaac: "trembles 'very violently'" (ESV 27:33).
   - dinah: "Should he treat our sister like a prostitute?" (ESV).
   - foreigners: "We have plainly seen that the LORD has been with you" (ESV-like).
-  - polygamy: "I have wrestled mighty wrestlings with my sister". This contradicts the Plain's deliberate "God's wrestlings" and note 30:8.
+  - polygamy: "I have wrestled mighty wrestlings with my sister". This contradicts the Plain English Translation's deliberate "God's wrestlings" and note 30:8.
   - grace: "all the acts of steadfast love".
   - hesed: "abounding in steadfast love and faithfulness" (ESV Exodus 34:6).
   - blessing: "sold his birthright for a single meal" and "found no chance to repent, though he sought it with tears" (ESV Hebrews 12:16–17 word for word).
   - election: "not because of works but because of him who calls" (ESV Romans 9:11 word for word).
 - **Problem:** STYLE rule 1 bars leaning on copyrighted wording. These passages also make the site contradict its own translation, sometimes on the very word a note discusses ("God's wrestlings", "children").
 - **Fix:**
-  - Quote Genesis only in the Plain English text of this part.
+  - Quote Genesis only in the Plain English Translation text of this part.
   - For other books, use your own fresh rendering, or the WEB/KJV where a set wording is needed.
 
 ### 3. MAJOR: Source keys shared with the other Genesis parts are defined differently, and the last loaded definition wins
@@ -86,7 +86,7 @@ The 10 entries present are accurate. I checked the witnesses and Greek for 26:12
   - LXX 35:16 begins with the camp "beyond the tower of Gader" (= 35:21).
   - It transliterates *kivrat* as Χαβραθα.
   - Add a variant or state this plainly, and delete the hedge.
-- **g. 36:26.** The Plain prints "Dishon", but the MT (Leningrad) has דִּשָׁן, Dishan. Note 36:26 explains this. But the Plain departs from its base text without a variant, while at 36:39 it keeps the MT "Hadar" on the principle of following the Leningrad Codex. Pick one policy. Either keep "Dishan" and offer "Dishon" (1 Chronicles 1:41) as a reading, or keep "Dishon" and add the variant.
+- **g. 36:26.** The Plain English Translation prints "Dishon", but the MT (Leningrad) has דִּשָׁן, Dishan. Note 36:26 explains this. But the Plain English Translation departs from its base text without a variant, while at 36:39 it keeps the MT "Hadar" on the principle of following the Leningrad Codex. Pick one policy. Either keep "Dishan" and offer "Dishon" (1 Chronicles 1:41) as a reading, or keep "Dishon" and add the variant.
 - **h. Lesser candidates worth a line in a note or variant:**
   - 27:27: SP and LXX "a full field" (שדה מלא / πλήρους).
   - 31:49: LXX ἡ ὅρασις ("the vision") for Mizpah; SP reportedly "the pillar".
@@ -105,7 +105,7 @@ The 10 entries present are accurate. I checked the witnesses and Greek for 26:12
 - **Evidence:** אַחַד עָשָׂר יְלָדָיו. The same word is "children" in 33:1–2, 5–7.
 - **Problem:** The note says "Only sons are counted," but the Hebrew says "children." That is exactly why Rashi and Genesis Rabbah ask where Dinah was. The translation hides the point the note discusses.
 - **Fix:**
-  - Plain: "his eleven children".
+  - Plain English Translation: "his eleven children".
   - Note: "The Hebrew says 'children,' yet counts eleven: the sons. Rashi asks where Dinah was ...".
 
 ### 7. MAJOR: Claude's-theory boxes claim originality that the scholarship already has (STYLE rule 4)
@@ -119,7 +119,7 @@ The 10 entries present are accurate. I checked the witnesses and Greek for 26:12
 - **Fix:** "... when Mordecai 'cried a great and bitter cry' at the decree of Haman, a descendant of Esau (Esther 4:1; Genesis Rabbah 67:4)."
 
 ### 9. MINOR: 27:44 "a little while" breaks the repetition that note 29:20 builds on
-- **Problem:** Note 29:20 says *yamim achadim* in 29:20 "is exactly what Rebekah promised in 27:44: stay with Laban 'a few days'." But the Plain has "a little while" in 27:44 and "a few days" in 29:20. STYLE asks for repetitions to be kept.
+- **Problem:** Note 29:20 says *yamim achadim* in 29:20 "is exactly what Rebekah promised in 27:44: stay with Laban 'a few days'." But the Plain English Translation has "a little while" in 27:44 and "a few days" in 29:20. STYLE asks for repetitions to be kept.
 - **Fix:** 27:44 "Stay with him a few days". The gloss on 27:44 can then go or be re-anchored.
 
 ### 10. MINOR: 32:25 and 32:32 "struck" for נָגַע (*naga'*, "touched")
@@ -189,7 +189,7 @@ The handling is honest:
 - Note 34:12 frankly admits that Shechem's offer matches the later legal remedy.
 
 Small items to tidy:
-- **a. Heading.** The section heading "The rape of Dinah" decides the debate that the notes keep open, and the Plain itself says "violated." Use "The violation of Dinah" to match the chapter title, or keep the heading and say in note 34:2 why.
+- **a. Heading.** The section heading "The rape of Dinah" decides the debate that the notes keep open, and the Plain English Translation itself says "violated." Use "The violation of Dinah" to match the chapter title, or keep the heading and say in note 34:2 why.
 - **b. Note 34:3.** It says "throughout the negotiations she was being held there." That is an inference from 34:26; say "the text implies".
 - **c. Missing traditions.** Add the tradition that Simeon married Dinah (Genesis Rabbah 80:11) to the "Dinah after Genesis 34" section.
 - **d. Missing echo.** Add Jacob's later "Shechem (*shekhem*), which I took ... with my sword and my bow" (48:22) to the echoes and to note 34:30.
@@ -284,9 +284,9 @@ All fixes below were applied by the part writer on 2026-10-23. `node tools/build
 0. **Toledot.** Following the coordinator's final instruction, toledot is rendered "family history" at 36:1 and 36:9, and in note and gloss 36:1.
 1. **topics.json shape.** The coordinator fixed this. I kept the claude box titles ("The two blessing scenes mirror each other", "Returning the stolen blessing"); both fit.
 2. **Quotes in ESV or NIV wording.**
-   - Every flagged Genesis quote in chapters.json, topics.json and the new core files now uses this part's Plain wording. That includes "faithful love", "struggled with God and with humans and have won", "still my life was rescued", "Like a prostitute, is that how he should treat our sister?", "Give me children!", "God's wrestlings", "This is nothing but the house of God", "shook with a great trembling" and "listened to my voice".
+   - Every flagged Genesis quote in chapters.json, topics.json and the new core files now uses this part's Plain English Translation wording. That includes "faithful love", "struggled with God and with humans and have won", "still my life was rescued", "Like a prostitute, is that how he should treat our sister?", "Give me children!", "God's wrestlings", "This is nothing but the house of God", "shook with a great trembling" and "listened to my voice".
    - New Testament and other quotes are now fresh renderings: Hebrews 12:16–17, Romans 9:11, Exodus 34:6, Hosea 12:4, 1 Samuel 10:2 and Hebrews 11:21.
-   - I ran a script that compares every quoted string with the Plain of all four parts. What is left over is non-Genesis wording or paraphrase.
+   - I ran a script that compares every quoted string with the Plain English Translation of all four parts. What is left over is non-Genesis wording or paraphrase.
 3. **Shared source keys.** The coordinator handled the shared keys. I also removed 4 keys that nothing cites (hendel-epic, fishbane-jacob, zakovitch-jacob, cranfield-romans). The other keys you listed now live in content/sources.json.
 4. **Variants.** I added 8 entries, bringing the total to 18:
    - **(a) 30:36:** the Samaritan addition of the 31:11–13 dream, with 4Q364.
@@ -299,7 +299,7 @@ All fixes below were applied by the part writer on 2026-10-23. `node tools/build
    - **(h) lesser candidates:** 27:27 "full field" became a variant entry. The LXX "the vision" at 31:49, the LXX future at 32:28 and the LXX *Iamin* at 36:24 were added to the notes. I left out the Samaritan reading at 31:49 because I could not confirm it.
    - All the "could not check" hedges on these verses have been removed. The notes now point to the variants.
 5. **Ibn Ezra.** Corrected in the ch. 36 L view and in the edom `uncommon` line.
-6. **32:22.** The Plain now reads "his eleven children", and the note has been rewritten to match.
+6. **32:22.** The Plain English Translation now reads "his eleven children", and the note has been rewritten to match.
 7. **Claude boxes.**
    - The ch. 28 spec box is gone. Its point now appears in the deep section, credited to Fokkelman and Sarna.
    - The jacob box credits Fokkelman, Sarna and Alter, and keeps only a small added point: the two questions about who Jacob is (27:18; 32:27).
@@ -323,7 +323,7 @@ All fixes below were applied by the part writer on 2026-10-23. `node tools/build
     - (c) The rebellion is now placed under Jehoram, citing 2 Kings 8:20 and Rashi on 36:31.
 22. **Glosses.** 34:3 is now "became deeply attached", and 35:6 "the town also called Bethel". 29:1 is "set out on his journey", with Rashi's reading labeled as his.
 23. **Chapter 34.**
-    - (a) The Plain heading is now "The violation of Dinah". The sexual-violence section is retitled "Dinah (Genesis 34)".
+    - (a) The Plain English Translation heading is now "The violation of Dinah". The sexual-violence section is retitled "Dinah (Genesis 34)".
     - (b) Note 34:3 now says "the text implies".
     - (c) Simeon's promise to marry Dinah (Genesis Rabbah 80:11) is added to the ch. 34 deep section and to the dinah topic.
     - (d) 48:22 is added to the ch. 34 echoes, to note 34:30 and to note 33:19.

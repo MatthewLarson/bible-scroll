@@ -15,13 +15,13 @@ and is the model for 2:1-3:3: read content/books/Jud/ in full (plain.txt, notes,
 | 3:14-18 | "Our beloved brother Paul" and "his letters", "hard to understand", which the ignorant twist "as they do the other Scriptures"; grow in grace |
 
 **Parallel with Jude (brief-nt.md rule).** Line up 2 Peter 2:1-3:3 with Jude 1:4-18 Greek word by word: where the Greek
-matches, use Jude's Plain wording exactly; where it differs, differ exactly there. Notes give the parallel and what
+matches, use Jude's Plain English Translation wording exactly; where it differs, differ exactly there. Notes give the parallel and what
 2 Peter changed (no Enoch quotation and no Michael-and-the-devil dispute named, "angels" of 2:11 against Michael in Jude
-1:9, the added Noah and Lot as the rescued righteous, the order made chronological). Quote Jude's Plain exactly.
+1:9, the added Noah and Lot as the rescued righteous, the order made chronological). Quote Jude's Plain English Translation exactly.
 Contribute the comparison to `jude-and-2-peter` (do not create a new topic); views of which used which (Jude first: the
 majority; 2 Peter first; a common source), with named scholars checked this session.
 
-**Terms (with brief-general.md):** Συμεών (1:1, variant Σίμων) "Simeon" (as Acts 15:14 Plain: check); θείας
+**Terms (with brief-general.md):** Συμεών (1:1, variant Σίμων) "Simeon" (as Acts 15:14 Plain English Translation: check); θείας
 κοινωνοὶ φύσεως "sharers in the divine nature" (topic `theosis`, aka "partakers of the divine nature"); ἀρετή
 "goodness" (gloss "excellence, virtue": the writer checks 1 Peter 2:9's use, being written now: list); ἐπίγνωσις
 "knowledge" (gloss "full knowledge"); εὐσέβεια "godliness" (terms entry from 1 Timothy); ἐγκράτεια "self-control";
@@ -32,7 +32,7 @@ majority; 2 Peter first; a common source), with named scholars checked this sess
 Jude 1:6 has "chains"); στοιχεῖα (3:10, 12) "the elements" (terms.json has στοιχεῖα τοῦ κόσμου for Paul; here the
 phrase is not Paul's: a note with the readings: the physical elements, the heavenly bodies, the powers; topic
 `elements-of-the-world`); ἡμέρα κυρίου "the day of the Lord" (topic `day-of-the-lord`); κλέπτης "thief" (1 Thessalonians
-5:2 Plain: quote); αἱ λοιπαὶ γραφαί "the other Scriptures" (3:16).
+5:2 Plain English Translation: quote); αἱ λοιπαὶ γραφαί "the other Scriptures" (3:16).
 
 **Setting (H):** the farewell testament genre (Jacob, Moses, Testaments of the Twelve Patriarchs: verify), the scoffers
 and the delay of the coming ("since the fathers fell asleep": the first Christian generation dead?), Epicurean denial
@@ -46,33 +46,33 @@ style: verify), the rare words. **J:** the Watchers (1 Enoch 10; Tartarus in 1 E
 of righteousness" (Jewish tradition of Noah preaching: Josephus, *Antiquities* 1.74; Sibylline Oracles 1: verify), Lot
 "righteous" (Wisdom 10:6: verify), Balaam son of Bosor (2:15; the variant Beor; Balaam's donkey; Jewish Balaam
 traditions), the world's destruction by fire (the Stoic *ekpyrosis*; Jewish texts: 1QH, the Life of Adam and Eve 49:3,
-Sibylline Oracles: verify each; Malachi 4:1; Isaiah 34:4; 66:15-16 Plain), Psalm 90:4 (quote the Plain) and its Jewish
+Sibylline Oracles: verify each; Malachi 4:1; Isaiah 34:4; 66:15-16 Plain English Translation), Psalm 90:4 (quote the Plain English Translation) and its Jewish
 use (Jubilees 4:30: verify). **T:** the canon (2 Peter's late acceptance; Calvin's doubts about Peter as writer while
 holding the book canonical (verify); Luther), 1:4 and theosis (Athanasius, *On the Incarnation* 54: verify; Orthodox
 teaching; the Catechism 460 quoting 2 Peter 1:4: verify; Wesley; Protestant hesitations), 1:20-21 and the authority
 to interpret (the Catholic Magisterium and *Dei Verbum*: verify; the Reformation's Scripture interpreting Scripture).
 
-**Places for full treatment:** 1:1 ("our God and Savior Jesus Christ": the Granville Sharp rule; Titus 2:13 Plain
+**Places for full treatment:** 1:1 ("our God and Savior Jesus Christ": the Granville Sharp rule; Titus 2:13 Plain English Translation
 (published: quote it)); **1:4** (a `traditions` card, top `theosis`: Orthodox deification, Catholic, Lutheran (the
 Finnish school, Mannermaa: verify), Wesleyan, Reformed (union with Christ, Calvin on 2 Peter 1:4: verify), Latter-day
 Saint readings are outside the scope of "Christians differ" only if the site has not already included them: check the
 existing theosis topic and cards first); 1:5-7; 1:10 ("make your calling and election sure"; top `perseverance` or
-`election` only if a documented divergence on this verse exists); 1:16-18 (the transfiguration: Matthew 17:5 Plain:
-quote; the voice's words differ: note); 1:19 (the morning star, *phosphoros*; Revelation 22:16 Plain); **1:20-21**
+`election` only if a documented divergence on this verse exists); 1:16-18 (the transfiguration: Matthew 17:5 Plain English Translation:
+quote; the voice's words differ: note); 1:19 (the morning star, *phosphoros*; Revelation 22:16 Plain English Translation); **1:20-21**
 (the readings of "no prophecy of Scripture is a matter of one's own interpretation": the prophet's own explanation, or
 the reader's private interpretation; "carried along by the Holy Spirit"; a `traditions` card, top
 `scripture-and-tradition`, or point to an existing one: the Catholic and Orthodox reading (interpretation within the
 Church), the Reformation reading (perspicuity, the Spirit's witness), with documents verified); 2:1 ("denying the
 Master who bought them": limited atonement debate; a note, card only if documented); **2:4** (Tartarus; chains or
 pits); 2:5 (Noah "the eighth"); 2:7-8 (righteous Lot); 2:11 (angels and "glorious ones"); 2:15-16 (Bosor); 2:20-22
-(apostasy: top `perseverance`, point to Hebrews 6:4-6's card, being written now: list); 2:22 (Proverbs 26:11 Plain;
+(apostasy: top `perseverance`, point to Hebrews 6:4-6's card, being written now: list); 2:22 (Proverbs 26:11 Plain English Translation;
 the sow and the mud: the Story of Ahiqar: verify); **3:8-9** ("not wanting anyone to perish": the universal-salvific-will
 debate, a note; Psalm 90:4 and the day-age readings of Genesis 1 and millennial counting (Barnabas 15: verify): a note);
 **3:10** (the major variant: εὑρεθήσεται "will be found / laid bare" (Sinaiticus, Vaticanus: verify) against
 κατακαήσεται "will be burned up" (KJV) and the other readings; the ECM's conjecture "will not be found" (verify that the
 ECM prints a conjecture with the negative before saying so); a full note and a deep dive: annihilation and renewal
 readings of the world's end; top `new-creation` card only if the churches really divide); 3:12 ("hastening the day");
-3:13 (Isaiah 65:17; 66:22 Plain); **3:15-16** (Paul's letters as Scripture: the canon topic, the C lens).
+3:13 (Isaiah 65:17; 66:22 Plain English Translation); **3:15-16** (Paul's letters as Scripture: the canon topic, the C lens).
 
 **Variants (verify each):** 1:1 Simeon / Simon; 1:3 "by his own glory and excellence" / "to glory and excellence"
 (KJV); 1:17 word order of the voice; 1:21 "holy men of God" (KJV) / "men spoke from God"; 2:4 chains / pits; 2:6

@@ -8,7 +8,7 @@ after Mark, so Matthew and Mark are both models.
 |---|---|---|---|
 | 01-02 | 1–2 | 132 | Prologue, the births of John and Jesus foretold, the Magnificat and the Benedictus, the birth, the shepherds, Simeon and Anna, the boy in the Temple. **Owns book.json.** |
 | 03-05 | 3–5 | 121 | John the Baptist, the baptism, the genealogy, the testing, the Nazareth sermon, Capernaum, the catch of fish, the paralyzed man, Levi, fasting |
-| 06-08 | 6–8 | 155 | Sabbath, the Twelve, the Sermon on the Plain, the centurion, the widow at Nain, John's question, the woman who anointed his feet, the women who followed, parables, the storm, the Gerasene man, Jairus |
+| 06-08 | 6–8 | 155 | Sabbath, the Twelve, the Sermon on the Plain English Translation, the centurion, the widow at Nain, John's question, the woman who anointed his feet, the women who followed, parables, the storm, the Gerasene man, Jairus |
 | 09-10 | 9–10 | 104 | The Twelve sent, the 5,000, Peter's confession, the transfiguration, "he set his face to go to Jerusalem" (9:51), the Samaritan village, the seventy(-two), the good Samaritan, Martha and Mary |
 | 11-13 | 11–13 | 148 | The Lord's Prayer, Beelzebul, signs, woes, the rich fool, "do not worry", readiness, Galileans and Siloam, the bent woman, the narrow door, the lament over Jerusalem |
 | 14-17 | 14–17 | 135 | The banquet, the cost, the lost sheep, coin and son, the shrewd manager, the rich man and Lazarus, the ten with skin disease, the coming of the kingdom |
@@ -66,14 +66,14 @@ Topics: create `content/proposals/nt/topics/luke.json` (title "Luke and Luke-Act
 
 ## Parallels with Matthew and Mark (the models)
 
-Matthew's Plain is published; Mark's Plain is written before Luke starts (content/books/Mrk/parts/*/plain.txt). Where
-Luke's Greek matches Mark's or Matthew's, Luke's Plain matches theirs word for word; where it differs, it differs
+Matthew's Plain English Translation is published; Mark's Plain English Translation is written before Luke starts (content/books/Mrk/parts/*/plain.txt). Where
+Luke's Greek matches Mark's or Matthew's, Luke's Plain English Translation matches theirs word for word; where it differs, it differs
 exactly there. Read the parallel's plain.txt before writing each pericope. Matthew's fixed wordings (Mat/progress.md) and
 any Mark lead decisions (tools/brief-mrk.md, "Lead decisions") are binding. Luke's own Greek often improves Mark's style
 (Cadbury): say so in a C note where it matters.
 
 Shared Greek with Acts (Luke 24:36–53 and Acts 1:1–11; Jesus' and Stephen's dying prayers, Luke 23:34, 46 and Acts
-7:59–60): read the Acts Plain (content/books/Act/parts/*/plain.txt) and match where the Greek matches.
+7:59–60): read the Acts Plain English Translation (content/books/Act/parts/*/plain.txt) and match where the Greek matches.
 
 Luke's double tradition with Matthew (the Beatitudes 6:20–23 / Matthew 5:3–12; the Lord's Prayer 11:2–4 / Matthew 6:9–13;
 the lost sheep 15:4–7 / Matthew 18:12–14 with different settings, per brief-nt.md): keep shared Greek the same.
@@ -181,9 +181,9 @@ the talents), say so on Luke's card.
 
 ## Lead decisions
 
-- **Parallels (2026-10-26, review):** Luke follows Mark's and Matthew's reviewed Plain where the Greek matches (e.g. 3:17 "gather", 4:5 "showed", 5:37 "burst", 7:8 = Matthew 8:9, 8:5 = Mark 4:3, 9:49 "hinder", 23:51 "looking for"), and differs exactly where Luke's Greek differs.
+- **Parallels (2026-10-26, review):** Luke follows Mark's and Matthew's reviewed Plain English Translation where the Greek matches (e.g. 3:17 "gather", 4:5 "showed", 5:37 "burst", 7:8 = Matthew 8:9, 8:5 = Mark 4:3, 9:49 "hinder", 23:51 "looking for"), and differs exactly where Luke's Greek differs.
 - **Terms:** ὁ λόγος τοῦ θεοῦ "the word of God" (5:1; 8:11, 21; 11:28), and in 8:11–15 "the word" (Mark has "the message"; Luke says "the word of God" at 8:11); ἀληθῶς λέγω ὑμῖν "I tell you truly" (9:27; 12:44; 21:3), ἀμήν "Amen, I tell you"; ἐπιστάτης and δεσπότης both "Master", each glossed with its Greek word; ναός "sanctuary", ἱερόν "temple" (lowercase); κωλύω "hinder"; διώκω "persecute"; φρόνιμος "sensible" for good sense, "shrewd" for worldly cleverness (16:8); κληθήσεται "will be called"; "a son / a daughter of Abraham" (13:16; 19:9); "At that very hour" (10:21; 13:31); "glory in the heights above" (2:14; 19:38).
 - **Luke 24:51 / Acts 1:11:** the same Greek is "into heaven" in Luke and "into the sky" in Acts on purpose (Acts is about watching the sky); notes link them.
-- **Western non-interpolations:** the Plain follows the longer text everywhere (P75, NA28, THGNT), against SBL at 24:3 and 24:36; 22:43–44 and 23:34a are printed with full variant entries.
+- **Western non-interpolations:** the Plain English Translation follows the longer text everywhere (P75, NA28, THGNT), against SBL at 24:3 and 24:36; 22:43–44 and 23:34a are printed with full variant entries.
 - **Cards:** one card per question across the site: the intermediate state lives at 16:19–31; justification at Genesis 15:6 (18:14 asks only what it adds); interest at Psalm 15:5; no card at 14:23 (all churches now reject compulsion). Settings cards say where Matthew or Mark set the scene differently; `readers` never states Luke's date as settled.
 - **Witnesses:** Tischendorf's 8th edition for Luke is in the Source Library (book 6952e4cc77f38f6761bc8c0b); never attribute a reading to Metzger unless his commentary discusses that verse.

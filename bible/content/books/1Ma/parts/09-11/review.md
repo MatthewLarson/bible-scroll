@@ -4,19 +4,19 @@
 - texts/orig/1Ma.json `grc` (Swete's text of Codex Alexandrinus), read verse by verse beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/1Ma.app.json (ℵ, V and the correctors);
 - the Vulgate and Douay in texts/src/1Ma.lat.json;
-- book.json, the other three parts, content/terms.json, the site's Plain for every book of the 66 it has translated, and every `traditions` card on the site.
+- book.json, the other three parts, content/terms.json, the site's Plain English Translation for every book of the 66 it has translated, and every `traditions` card on the site.
 
 **Build.** `VERBOSE=1 node tools/build.js --check 1Ma/09-11` gives **0 errors, 0 warnings** (236 verses, 124 notes, 24 variants, 95 glosses, 3 chapter pages, 18 topic contributions). The build's quotation check did not catch the mismatches in finding 5.
 
 **Quotations checked by script.**
 - **Greek.** Every Greek `orig` string in notes.json and variants.json is in Swete's text or apparatus once Unicode is normalized. **I found no invented Greek reading.** But 69 of the 148 entries use different accent code points from the texts file (finding 18).
 - **Latin, Douay and KJV.** Every Latin `orig` in variants.json is in the Vulgate file. The Latin and English quoted in notes and chapters also match: 9:46 *clamate in cælum*; 9:54 "the walls of the inner holy house"; the Douay and KJV at 10:31; *moriamur in virtute propter fratres nostros* (9:10).
-- **The 66 books.** Six quotations do not match the site's Plain (finding 5). The rest match: Numbers 10:9, 2 Samuel 1:19, 1 Kings 11:41, Psalm 74:9, Joshua 7:6, Joshua 11:4, Genesis 45:8, Psalm 146:3 and Judges 3:9 ("a rescuer").
-- **book.json** quotes 9:10, 9:21 and 9:27, and all three match this part's Plain.
+- **The 66 books.** Six quotations do not match the site's Plain English Translation (finding 5). The rest match: Numbers 10:9, 2 Samuel 1:19, 1 Kings 11:41, Psalm 74:9, Joshua 7:6, Joshua 11:4, Genesis 45:8, Psalm 146:3 and Judges 3:9 ("a rescuer").
+- **book.json** quotes 9:10, 9:21 and 9:27, and all three match this part's Plain English Translation.
 
 ## Verdict
 
-The Plain is careful, fresh work built from Alexandrinus. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS and Goldstein, and found no sentence shape that depends on them. Where wording coincides, the Greek forces it (10:70, for example). At 9:29 the Plain reads "those of our own nation who hate us", which agrees with the RSV, but the KJV construes the Greek the same way, so it is not a sign of dependence. Names and terms agree with terms.json and the other parts: the Citadel, Friends, First Friends and Kinsmen, the lawless and renegades, Heaven, Modein, Gazara, Beth-zur, Azotus, Jamnia.
+The Plain English Translation is careful, fresh work built from Alexandrinus. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT, NETS and Goldstein, and found no sentence shape that depends on them. Where wording coincides, the Greek forces it (10:70, for example). At 9:29 the Plain English Translation reads "those of our own nation who hate us", which agrees with the RSV, but the KJV construes the Greek the same way, so it is not a sign of dependence. Names and terms agree with terms.json and the other parts: the Citadel, Friends, First Friends and Kinsmen, the lawless and renegades, Heaven, Modein, Gazara, Beth-zur, Azotus, Jamnia.
 
 **Departures from Alexandrinus.** The five flagged departures (9:1, 9:42, 10:84, 11:3, 11:67) are all real, and each has a full variant entry that says so. I checked each against Swete's apparatus.
 
@@ -24,7 +24,7 @@ The Plain is careful, fresh work built from Alexandrinus. I compared every verse
 - **Two notes credit Josephus with statements he does not make, or contradicts** (N46 and N74). These are critical.
 - **Josephus is misreported** in three more places (the two crowns, and the wings at 10:49).
 - **One silent departure from the base text**, at 9:13, plus two smaller unrecorded ones.
-- **Six quotations of the 66 books** do not use the site's Plain.
+- **Six quotations of the 66 books** do not use the site's Plain English Translation.
 - **Several `readers` lines** drift to later Christian or Greek-speaking readers instead of the book's first readers.
 
 There are no `traditions` cards in this part. That is defensible, because chapters 9–11 raise no question on which the churches really split. Every pointer to a card on another page leads to a card that exists: Deuteronomy 20 ("May Christians fight in war?"), Numbers 11 ("Do the gifts of prophecy and tongues continue today?") and the book.json card on 4:46, 9:27 and 14:41.
@@ -37,7 +37,7 @@ There are no `traditions` cards in this part. That is defensible, because chapte
 
 The note says: "Most readers, with Josephus (<i>Antiquities</i> 13.24), take them as Jonathan's men and Jonathan, who struck first at the plotters."
 
-Josephus says the reverse. At *Antiquities* 13.25 (13.1.6), Bacchides, angry with the renegades who had misled him and the king, seized and killed about fifty of their leaders. Checked in Whiston (lexundria, 13.1–34) and in the attalus.org translation: "Bacchides … slew fifty of their leaders." The Plain at 9:61 is right to keep the Greek ambiguous. The error is the note's account of who supports which reading.
+Josephus says the reverse. At *Antiquities* 13.25 (13.1.6), Bacchides, angry with the renegades who had misled him and the king, seized and killed about fifty of their leaders. Checked in Whiston (lexundria, 13.1–34) and in the attalus.org translation: "Bacchides … slew fifty of their leaders." The Plain English Translation at 9:61 is right to keep the Greek ambiguous. The error is the note's account of who supports which reading.
 
 **Fix:**
 - Say that Josephus (*Ant.* 13.25) makes Bacchides the killer, turning on the renegades whose plot had failed.
@@ -69,17 +69,17 @@ The note ends: "Josephus, retelling it, says the same (<i>Antiquities</i> 13.58)
 
 ### 4. MAJOR: a silent departure from Alexandrinus at 9:13, and two smaller ones
 
-**9:13.** The Plain reads "The ground shook with the noise of the armies". Alexandrinus has ἐσείσθη ἡ γῆ ἀπὸ τῶν παρεμβολῶν αὐτῶν, "the ground shook from their armies". "The noise" is the reading of ℵ and V: Swete's note reads `των παρεμβ. pr της φωνης ℵV | om αυτων ℵV`. The KJV has it too ("at the noise of the armies"). So the Plain follows ℵV, without a variant entry or a note. That is the silent departure the Tobit lesson forbids.
+**9:13.** The Plain English Translation reads "The ground shook with the noise of the armies". Alexandrinus has ἐσείσθη ἡ γῆ ἀπὸ τῶν παρεμβολῶν αὐτῶν, "the ground shook from their armies". "The noise" is the reading of ℵ and V: Swete's note reads `των παρεμβ. pr της φωνης ℵV | om αυτων ℵV`. The KJV has it too ("at the noise of the armies"). So the Plain English Translation follows ℵV, without a variant entry or a note. That is the silent departure the Tobit lesson forbids.
 
 **Fix for 9:13:** either "The ground shook from their armies", or keep "noise" and add a variant: A ἀπὸ τῶν παρεμβολῶν αὐτῶν against ℵV (with the KJV, and the Vulgate *a voce exercituum*) ἀπὸ τῆς φωνῆς τῶν παρεμβολῶν.
 
 **9:60.** "But they could not" follows ℵV ἠδύναντο. A has the singular οὐκ ἠδύνατο: "he could not", meaning Bacchides, or impersonal "it could not be done". The difference is who failed: Bacchides or his allies. Add a short variant entry, or write "But it could not be done".
 
-**9:33.** The Plain's "Asphar" is ℵV's Ασφαρ, while A has Ἀσφάλ. N27 says so, which may be enough for a name. By the lesson, though, a one-line variant entry would be safer.
+**9:33.** The Plain English Translation's "Asphar" is ℵV's Ασφαρ, while A has Ἀσφάλ. N27 says so, which may be enough for a name. By the lesson, though, a one-line variant entry would be safer.
 
-### 5. MAJOR: quotations of the 66 books that do not use the site's Plain
+### 5. MAJOR: quotations of the 66 books that do not use the site's Plain English Translation
 
-| Where | The part has | The site's Plain has |
+| Where | The part has | The site's Plain English Translation has |
 |---|---|---|
 | N83 (10:70) | "Their gods are gods of the hills." (1 Kings 20:23) | "Their god is a god of the mountains." |
 | Ch. 10 setting 10:70–73 | "god of the hills" (paraphrase) | the same wording as above |
@@ -91,7 +91,7 @@ The note ends: "Josephus, retelling it, says the same (<i>Antiquities</i> 13.58)
 
 For the 1 Kings paraphrase in the setting, match the site's wording or drop the quotation-like phrase. In N120, N52's reference list also points to Joshua 11:1–11 rather than 11:10.
 
-**Fix:** copy each quotation from the site's Plain by script. In N64 use "for glory and for beauty". For "savior", say "the judges' role as 'rescuers' (Judges 3:9)", or mark the word as the Greek (σωτήρ in Judges 3:9 LXX).
+**Fix:** copy each quotation from the site's Plain English Translation by script. In N64 use "for glory and for beauty". For "savior", say "the judges' role as 'rescuers' (Judges 3:9)", or mark the word as the Greek (σωτήρ in Judges 3:9 LXX).
 
 ### 6. MAJOR: chapters.json `readers` lines that are not about the first readers, or rest on assumption
 
@@ -114,17 +114,17 @@ No evidence is given for where the Greek translation was made or read. These lin
 
 **Sound lines:** 9:28–30, 9:37 (Medeba taken by Hyrcanus, *Ant.* 13.255), 9:58 (*Ant.* 13.376–379), 10:16 (no copy at Qumran), 10:70–73 (*Ant.* 13.356–364), 11:22 (Megillat Taanit) and 11:57 are concrete and evidenced.
 
-### 7. MAJOR: N116 (11:60) contradicts itself, and the Plain decides the question
+### 7. MAJOR: N116 (11:60) contradicts itself, and the Plain English Translation decides the question
 
 - **The preview** says "Not the Persian name for Syria here, but most likely the land west of the Jordan, or across it".
 - **The body** ends the other way: "many think the phrase has the old Persian sense of the whole province of Syria".
-- **The Plain** decides the matter in the translation itself by capitalizing "the land Beyond the River", which is the province name (as at 7:8).
+- **The Plain English Translation** decides the matter in the translation itself by capitalizing "the land Beyond the River", which is the province name (as at 7:8).
 
 **Fix:** pick one view for the preview and make the body agree. If the question is truly open, write "beyond the river" in lower case and let the `deb` note give both views.
 
 ### 8. MINOR: 9:57 "had peace" breaks a rendering used elsewhere in the book
 
-ἡσύχασεν ἡ γῆ is translated "the land was quiet" at 7:50, 11:38, 11:52 and 14:4, and the site's Judges Plain uses the same wording. At 9:57 alone the Plain has "the land of Judah had peace for two years". The echo of Judges that N45 is built on is then lost in the English.
+ἡσύχασεν ἡ γῆ is translated "the land was quiet" at 7:50, 11:38, 11:52 and 14:4, and the site's Judges Plain English Translation uses the same wording. At 9:57 alone the Plain English Translation has "the land of Judah had peace for two years". The echo of Judges that N45 is built on is then lost in the English.
 
 **Fix:** "and the land of Judah was quiet for two years", with N45 and the period-of-judges topic updated (see finding 5).
 
@@ -206,7 +206,7 @@ This part's writer cannot edit those books. The coordinator should pass these to
 
 ### 17. MINOR: the period-of-judges topic and N45 both rest on the "rest" wording
 
-These are the same quotation problem as finding 5, but they also shape the argument: the topic says the brothers' story uses "the language of Judges". With the site's Judges Plain ("the land was quiet") and a corrected 9:57 (finding 8), that point is clearer still. Update both together.
+These are the same quotation problem as finding 5, but they also shape the argument: the topic says the brothers' story uses "the language of Judges". With the site's Judges Plain English Translation ("the land was quiet") and a corrected 9:57 (finding 8), that point is clearer still. Update both together.
 
 ### 18. MINOR: Greek copied with different code points
 
@@ -315,8 +315,8 @@ Josephus was re-checked against the Whiston text on lexundria.com (Antiquities 1
 1. **N46 (9:61), accepted.** Rewritten: Josephus (Ant. 13.25) makes Bacchides kill the fifty; "some readers" take "they seized" as Jonathan's men. "Most readers, with Josephus" and the 13.24 locus removed; the preview now says the same.
 2. **N74 (10:46), accepted.** The invented Josephus sentence is cut and replaced with the true point: Josephus passes over the people's answer and goes straight to the battle (13.58–61).
 3. **Crowns and 10:49, accepted.** N94 and ch. 11 views.H and views.J now say Josephus too has Ptolemy put on both diadems, then give up Syria for fear of Rome (13.113–115); Diodorus 32.9c has him decline. Variant 10:49 now gives Demetrius's left wing winning and his right, with the king, beaten (13.59–61). Also corrected in passing: N95 (Josephus gives the same name, Zabdiel, 13.118; the "different names" claim dropped); N81 (the Lasthenes wording is now a paraphrase, with Cilicia from 13.86); N108 and the 11:49–50 setting (13.133–142); N109 (the fire, 13.139); N104 and the samaritans topic (Gerizim "laid waste" when Hyrcanus took it, 13.255–256, not "destroyed ... 111 BC").
-4. **Silent departures, accepted.** New variants at 9:13 (A "from their armies" against ℵV "the noise of the armies"), 9:60 (A οὐκ ἠδύνατο against ℵV ἠδύναντο) and 9:33 (A Ἀσφάλ against ℵV Ασφαρ). Greek copied by script from grc and the apparatus. The Plain keeps the ℵV readings.
-5. **Quotations of the 66, accepted.** Now copied from the site's Plain: 1 Kings 20:23 "Their god is a god of the mountains" (N83 and the 10:70–73 setting); Joshua 11:10 "had been the head of all these kingdoms" (N120, with 11:10 added to its refs); Ezra 5:1 and 6:14 (N42); Judges 3:11 "So the land was quiet for forty years" (N45, N52, period-of-judges topic, ch. 9 readings); Judges 3:9 "a rescuer" (lament topic, ch. 9 deep, 9:20–21 setting, period-of-judges topic); Exodus 28:2 "for glory and for beauty" (N64). N89 (10:61) now says what the Greek of 1 Samuel 2:12 reads and gives υἱοὶ λοιμοί. I also checked every quotation in the part by a script that pairs each quoted phrase with the references near it. What it still flags are this book's own words, Greek idioms, or books not yet on the site.
+4. **Silent departures, accepted.** New variants at 9:13 (A "from their armies" against ℵV "the noise of the armies"), 9:60 (A οὐκ ἠδύνατο against ℵV ἠδύναντο) and 9:33 (A Ἀσφάλ against ℵV Ασφαρ). Greek copied by script from grc and the apparatus. The Plain English Translation keeps the ℵV readings.
+5. **Quotations of the 66, accepted.** Now copied from the site's Plain English Translation: 1 Kings 20:23 "Their god is a god of the mountains" (N83 and the 10:70–73 setting); Joshua 11:10 "had been the head of all these kingdoms" (N120, with 11:10 added to its refs); Ezra 5:1 and 6:14 (N42); Judges 3:11 "So the land was quiet for forty years" (N45, N52, period-of-judges topic, ch. 9 readings); Judges 3:9 "a rescuer" (lament topic, ch. 9 deep, 9:20–21 setting, period-of-judges topic); Exodus 28:2 "for glory and for beauty" (N64). N89 (10:61) now says what the Greek of 1 Samuel 2:12 reads and gives υἱοὶ λοιμοί. I also checked every quotation in the part by a script that pairs each quoted phrase with the references near it. What it still flags are this book's own words, Greek idioms, or books not yet on the site.
 6. **Readers lines, accepted.** These now rest on the first, Judean readers:
    - 9:8–10: the decree praising the brothers who "put themselves in danger" (14:29).
    - 9:44–46: "Heaven" for God, as in Daniel and the rabbis.
@@ -328,8 +328,8 @@ Josephus was re-checked against the Whiston text on lexundria.com (Antiquities 1
    - 11:49–50: Antioch as the capital that had sent armies against Jerusalem.
    - 11:71: Joshua 7:6 and 3:47; 4:39.
    The lectionary, Vulgate and Thirty-Nine Articles material has been taken out of the readers lines.
-7. **N116 (11:60), accepted.** The Plain now reads "the land beyond the River" (lower-case "beyond"). Preview and body now agree: probably the Persian name for the land west of the Euphrates, as at 7:8, with the Jordan view given as the minority reading.
-8. **9:57, accepted.** The Plain now reads "the land of Judah was quiet for two years". N45 is retitled "The land was quiet" and updated, along with the period-of-judges topic.
+7. **N116 (11:60), accepted.** The Plain English Translation now reads "the land beyond the River" (lower-case "beyond"). Preview and body now agree: probably the Persian name for the land west of the Euphrates, as at 7:8, with the Jordan view given as the minority reading.
+8. **9:57, accepted.** The Plain English Translation now reads "the land of Judah was quiet for two years". N45 is retitled "The land was quiet" and updated, along with the period-of-judges topic.
 9. **Translation points.**
    - Accepted: 9:8 "He lost heart"; 9:9 "We are few"; 10:74 "he was stirred in his mind" (the gloss on it is cut); 11:5 "to discredit him"; 10:47 "they stayed his allies always".
    - **Rejected:** στρατηγός at 10:65 and 11:59. terms.json renders the word "by context". At 10:65 it stands beside μεριδάρχης, the civil governor, so it means "general". At 11:59 it is a regional command from Tyre to Egypt, so it means "governor". Both follow the rule.
@@ -351,7 +351,7 @@ Josephus was re-checked against the Whiston text on lexundria.com (Antiquities 1
     - Ch. 9 views.C: now "Western readers from Ambrose on".
     - N65: the Melchizedek sentence and its refs are cut.
     - N91: softened to "some historians".
-13. **Synonym glosses, accepted.** All ten are cut, plus the 10:74 gloss, which no longer matched the Plain.
+13. **Synonym glosses, accepted.** All ten are cut, plus the 10:74 gloss, which no longer matched the Plain English Translation.
 14. **Source descriptions, accepted.** polybius-histories now covers books 31–33 and 39; strabo-geography covers book 16. A new key, bickerman-institutions (*Institutions des Séleucides*, 1938), replaces *The God of the Maccabees* for court ranks, asylum, inscriptions, the letters' terms and the 10:25–45 setting.
 15. **jonathan topic, accepted.** The section is retitled "The second Jonathan at Michmash (1 Maccabees 9)".
 16. **Back-links.** Passed to the coordinator; this part cannot edit those books.

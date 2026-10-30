@@ -4,7 +4,7 @@ Reviewer brief: `tools/agent-reviewer.md`. Scope: `parts/12-20/` (plain, notes, 
 
 ## Verdict
 
-The translation is careful, independent and faithful. I found no verse that misreads the Hebrew in a way that matters. Where the Plain follows the Greek (12:11, 13:5, 14:41, 14:47, 17:52) it has a variant entry and says so, with three silent exceptions (13:20, 17:12, 12:15). Remaining NIV/ESV wording is low and almost all forced by the Hebrew. The variant work is large and mostly accurate, but it has real problems:
+The translation is careful, independent and faithful. I found no verse that misreads the Hebrew in a way that matters. Where the Plain English Translation follows the Greek (12:11, 13:5, 14:41, 14:47, 17:52) it has a variant entry and says so, with three silent exceptions (13:20, 17:12, 12:15). Remaining NIV/ESV wording is low and almost all forced by the Hebrew. The variant work is large and mostly accurate, but it has real problems:
 - **Wrong or misquoted Greek.** The LXX at 13:3 is described wrongly, and the Greek at 15:12 is quoted wrongly.
 - **Gaps.** Five Old Greek minuses in chapter 18 have no entries, and neither has the long LXX plus at 14:42.
 - **17:4.** The case for keeping "six cubits" misstates Billington and gives no real text-critical reason.
@@ -28,7 +28,7 @@ Verdict: **solid translation; needs a revision pass on variants, rabbinic citati
   - `audit.md` has 271 entries, and 267 of them are marked "(changed)".
   - 41 verses are not in the audit at all: 12:4, 12:12, 12:14, 13:1, 13:9, 13:11, 13:18, 13:21, 13:23, 14:3, 14:5, 14:18, 14:21, 14:25, 14:26, 14:28, 14:31, 14:40, 14:49, 14:51, 15:10, 15:34, 16:9, 16:15, 16:17, 16:19, 17:14, 17:21, 17:27, 17:30, 17:58, 18:15, 18:24, 19:14, 19:19, 20:10, 20:11, 20:28, 20:32, 20:39, 20:40.
   - The per-chapter drafts `p12.txt`–`p20.txt` were last modified 07:51–08:05. That is no later than `audit.md` (08:05) and before `plain.txt` (08:13).
-  - Those drafts differ from the published Plain in only 2 verses: 16:13 and 18:10, where "came rushing on" became "swept down on". That change is a terms change, not a drift fix.
+  - Those drafts differ from the published Plain English Translation in only 2 verses: 16:13 and 18:10, where "came rushing on" became "swept down on". That change is a terms change, not a drift fix.
   - So no saved draft shows a pass that rebuilt 266 verses. At most the audit records changes made while drafting, and those cannot be checked.
 - The good news: the final text is largely clean (see finding 19 for what remains). Most of the 41 unaudited verses are also clean, but 14:28 and 12:4 are among them and do keep NIV wording.
 - Fix: in the report, describe the audit accurately: drift was checked while drafting, and there was no later pass. Audit the 41 missing verses. Apply finding 19.
@@ -45,7 +45,7 @@ Verdict: **solid translation; needs a revision pass on variants, rabbinic citati
   - The entry leaves out "and he turned his chariot".
   - It leaves out "to Saul" after Gilgal. With those words, the one going down to Gilgal is most naturally Samuel.
   - It inserts καὶ παρεγένετο Σαμουηλ πρὸς Σαουλ, which is the start of 15:13 in the Greek.
-- Fix: quote 15:12 as it stands in the Greek and translate it: "...set up a monument for himself, turned his chariot, and went down to Gilgal. [Samuel came down] to Saul, and look, he was offering a burnt offering to the LORD, the first of the plunder he had brought from Amalek." Mention the chariot. Note that the Greek's "the first of the plunder" is stronger than the Plain reading's "the best".
+- Fix: quote 15:12 as it stands in the Greek and translate it: "...set up a monument for himself, turned his chariot, and went down to Gilgal. [Samuel came down] to Saul, and look, he was offering a burnt offering to the LORD, the first of the plunder he had brought from Amalek." Mention the chariot. Note that the Greek's "the first of the plunder" is stronger than the Plain English Translation reading's "the best".
 
 **4. Major: the Old Greek minuses in chapter 18 are incomplete. Five have no entry, including one that changes the story.**
 - Location: variants.json; the 17:12 entry `b` names them only in passing.
@@ -63,7 +63,7 @@ Verdict: **solid translation; needs a revision pass on variants, rabbinic citati
 - Evidence:
   - (a) **Billington is misrepresented.** The entry says he argues "that the scroll is damaged at this point". His published argument is different (JETS 50 [2007] 489–508; summarized in Hays's reply, JETS 50 [2007] 509–16). He holds that Alexandrian translators converted Goliath's height into royal cubits, and that 4QSam-a was either corrected toward the Greek or copied by an Alexandrian. Hays treats the scroll's "four" as clearly attested.
   - (b) "**Most** Greek manuscripts" read four, but Billington cites Codex Alexandrinus and Codex Venetus for "six". State which Greek witnesses read what, or say "the Old Greek (Vaticanus, Lucianic)".
-  - (c) **The `why` gives no text-critical reason**, only "as most translations do". Elsewhere the Plain follows the Greek on weaker evidence: Barak at 12:11, three thousand chariots at 13:5, Gath at 17:52. At 13:5 its stated reason is that the larger number "is not believable", and that reason applies here too. Three witnesses agree on "four" (4QSam-a, the Old Greek, Josephus), and the Hebrew number is the larger one. The usual rule is that numbers grow in copying. So the "harder reading" argument for "six" is weak, and the entry does not answer that.
+  - (c) **The `why` gives no text-critical reason**, only "as most translations do". Elsewhere the Plain English Translation follows the Greek on weaker evidence: Barak at 12:11, three thousand chariots at 13:5, Gath at 17:52. At 13:5 its stated reason is that the larger number "is not believable", and that reason applies here too. Three witnesses agree on "four" (4QSam-a, the Old Greek, Josephus), and the Hebrew number is the larger one. The usual rule is that numbers grow in copying. So the "harder reading" argument for "six" is weak, and the entry does not answer that.
   - (d) The NET Bible already follows "four", so "most translations keep six" needs that qualifier.
 - Fix: either follow "four cubits and a span" (my recommendation), or give a real reason for keeping "six" and say why the 13:5 logic does not apply. Rewrite Billington's position accurately. Correct the Greek witness list. Update the ch17 deep box and the giants topic section to match.
 
@@ -137,7 +137,7 @@ Verdict: **solid translation; needs a revision pass on variants, rabbinic citati
 - "Two centuries before the scrolls were copied" is too much. Ben Sira dates to about 190–180 BC and 4QSam-a to about 50–25 BC, which is about 140 years.
 - I could not confirm online whether 4QSam-a actually preserves the letters of נעלים or whether DJD 17 reconstructs them. "As most editors read it" is a fair hedge, but check DJD 17 and say "preserved" or "reconstructed".
 
-**18. Minor: 12:15, the Plain adds a comparison that is not in the Hebrew.**
+**18. Minor: 12:15, the Plain English Translation adds a comparison that is not in the Hebrew.**
 - "As it did on your ancestors" turns "against you **and** against your ancestors" into "as ... on". It also matches the NIV ("as it was against your ancestors").
 - Translate "on you and on your ancestors" and leave the comparison to the variant `b`. Or keep the smoothing and add a word note.
 
@@ -235,7 +235,7 @@ All findings accepted; none rejected. Two were handled in a different form from 
 2. 13:3: rewritten. In the Greek, Saul still proclaims "The slaves have revolted." Wellhausen and McCarter are named as the scholars who move the cry to the Philistines. Follow = Hebrew.
 3. 15:12: the Greek is now quoted as it stands in Rahlfs, with "turned his chariot" and "to Saul," and without the start of 15:13. The `b` explains why Samuel is the natural subject, and that "the first of the plunder" is stronger than "the best."
 4. Chapter 18 minuses: new entries for 18:6a, with its own `p` on "to meet David" and the Greek quoted; 18:8 (two entries, "This burned Saul up" and the kingship line); 18:12b; 18:21b; 18:26b; and 18:27 ("handed over in full count"). Note 18:12 now says its words are absent from the Old Greek. The 17:12 summary lists them.
-5. 17:4: the Plain now follows "four cubits and a span." Its stated reason matches 13:5: numbers grow in copying, and three old witnesses agree. Billington's real argument is restated: the royal-cubit conversion by Alexandrian translators, and 4QSam-a corrected toward the Greek. Codex Alexandrinus and others are listed for "six," Vaticanus and the Lucianic text for "four," and the NET is noted as also reading four. Hays's 2007 reply is added (`hays-reply-goliath`). The gloss, the ch17 "How tall?" box, and the giants and david-and-goliath topic sections now match.
+5. 17:4: the Plain English Translation now follows "four cubits and a span." Its stated reason matches 13:5: numbers grow in copying, and three old witnesses agree. Billington's real argument is restated: the royal-cubit conversion by Alexandrian translators, and 4QSam-a corrected toward the Greek. Codex Alexandrinus and others are listed for "six," Vaticanus and the Lucianic text for "four," and the NET is noted as also reading four. Hays's 2007 reply is added (`hays-reply-goliath`). The gloss, the ch17 "How tall?" box, and the giants and david-and-goliath topic sections now match.
 6. 14:42: new entry for the long Greek plus. Follow = Hebrew. The `b` gives both the lost-with-14:41 view and the later-expansion view, and names NAB and NJB.
 7. 14:10 (Hullin 95b): corrected. Rav takes these signs as the model of forbidden omen-taking, and Tosafot and Ran explain why they were allowed. New key `bavli-hullin-95b-commentaries`.
 8. Ch13 J view: now says what Yoma 22b says. Saul sinned once, over Agag, and lost the kingdom; David sinned twice and kept it.
@@ -250,7 +250,7 @@ All findings accepted; none rejected. Two were handled in a different form from 
 15. 17:12: handled with a word note of kind `var` on "well on in years" rather than a variant, because the whole verse is already the anchor of the Old Greek minus entry.
 16. 17:52: Ashkelon added to the `b`.
 17. 12:3: "about 140 years." 4QSam-a is now described as "partly preserved and partly reconstructed (DJD 17)". I could not check the exact letters in DJD 17 itself.
-18. 12:15: the Plain now reads "on you and on your ancestors." The variant `b` explains the KJV-style smoothing.
+18. 12:15: the Plain English Translation now reads "on you and on your ancestors." The variant `b` explains the KJV-style smoothing.
 19. Drift: 14:28 and 12:4 rebuilt from the literal line. The 14:14 gloss is now "half the length of a plowed row." The heading "Panic from God" is now "The ground shakes."
 20. 16:6: the added words are removed ("Surely the LORD's anointed stands here before him"). 20:13 is untangled. 18:26 now ends with a period and 18:27 starts its own sentence. The 18:26 gloss and variant anchors are updated.
 21. Dates: one approximate chronology throughout (Saul about 1030–1010 BC). The ch12, 15, 16, 17 and 18 H views were changed, and "two years in" was dropped from ch13.
@@ -280,7 +280,7 @@ All findings accepted; none rejected. Two were handled in a different form from 
 32. 13:15: the Greek is now quoted in full, with both "from Gilgal" phrases.
 
 **Also in this round (coordinator)**
-- 13:14: *nagid* is now "ruler" (Plain and note anchor), matching terms.json and part 01-11.
+- 13:14: *nagid* is now "ruler" (Plain English Translation and note anchor), matching terms.json and part 01-11.
 - My Sternberg key is renamed `sternberg-poetics-samuel`, and the duplicate `augustine-lying` is dropped in favour of Exo's.
 
 **Checks**

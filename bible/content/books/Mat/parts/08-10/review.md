@@ -10,7 +10,7 @@ The weaknesses fall in four areas:
 - **Matthew's formulas.** The writer broke the book's consistency where Matthew repeats himself on purpose. 8:17 turns the fulfillment purpose clause into a result. The kingdom announcement and the 4:23/9:35 frame differ from the other parts, while the notes claim these lines are identical.
 - **Witness lists.** Several are wrong or empty. Sinaiticus at 8:25 and 8:18 is wrong, and 9:4 names no manuscripts at all.
 - **Missing variants.** Three variant places a KJV reader or a careful reader would notice have no entry: 8:9, 8:13 and 9:36.
-- **Rejected readings in the Plain.** In two places the Plain quietly renders the reading it does not follow.
+- **Rejected readings in the Plain English Translation.** In two places the Plain English Translation quietly renders the reading it does not follow.
 
 No finding is critical. **5 major, 11 minor.**
 
@@ -18,7 +18,7 @@ No finding is critical. **5 major, 11 minor.**
 
 ### 1. Major: 8:17 fulfillment formula rendered as result, unlike every other part
 - **Location:** plain.txt 8:17.
-- **Problem:** The Greek is ὅπως πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου, a purpose clause ("so that ... would be fulfilled"). The Plain has "In this way the word spoken through Isaiah the prophet came true". That flattens the purpose into a result, and it breaks the book-wide rendering of Matthew's signature formula. The book's L lens and the 08-10 notes themselves lean on this formula.
+- **Problem:** The Greek is ὅπως πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου, a purpose clause ("so that ... would be fulfilled"). The Plain English Translation has "In this way the word spoken through Isaiah the prophet came true". That flattens the purpose into a result, and it breaks the book-wide rendering of Matthew's signature formula. The book's L lens and the 08-10 notes themselves lean on this formula.
 - **Evidence:** Every other ὅπως/ἵνα πληρωθῇ in Matthew has the purpose form:
   - 1:22 "so that what the Lord spoke through the prophet would be fulfilled"
   - 2:23 and 4:14 (the same Greek, ὅπως πληρωθῇ ... Ἠσαΐου) "so that what was spoken through Isaiah the prophet would be fulfilled"
@@ -31,11 +31,11 @@ No finding is critical. **5 major, 11 minor.**
 ### 2. Major: repeated formulas translated differently from the other parts, while the notes say they are the same words
 - **Location:** plain.txt 10:7, 9:35, 10:1, 9:13 and 9:34; notes [0] (8:1) and [68] (10:8).
 - **Problem:** Matthew repeats these lines on purpose, and the brief requires the same English for the same Greek.
-  - **10:7.** ἤγγικεν ἡ βασιλεία τῶν οὐρανῶν is "has come near" here but "has drawn near" in 3:2 and 4:17 (part 01-04). Note [68] says "Their message is his too" and quotes 4:17 as "has come near", which is not the 4:17 Plain.
+  - **10:7.** ἤγγικεν ἡ βασιλεία τῶν οὐρανῶν is "has come near" here but "has drawn near" in 3:2 and 4:17 (part 01-04). Note [68] says "Their message is his too" and quotes 4:17 as "has come near", which is not the 4:17 Plain English Translation.
   - **9:35 and 10:1.** θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν is "cured every disease and every illness", but 4:23 has "cured every kind of disease and illness among the people". Note [0] calls the two summaries "nearly identical" and quotes "every disease and every illness" as the wording of both. 4:23 really does have ἐν τῷ λαῷ, so its end differs. The shared core still should not.
   - **9:13.** Hosea 6:6 (Ἔλεος θέλω καὶ οὐ θυσίαν) reads "Mercy is what I want, not sacrifice". In 12:7 (part 11-13) it is "Mercy is what I want, and not sacrifice". The Greek is identical, and note [41] stresses that Matthew quotes it twice.
   - **9:34.** "the ruler of the demons" here, but 12:24 has "the ruler over the demons". The topics.json `satan` entry ties the two together.
-- **Fix:** Align with the model wording, or list these pairs for the lane lead in the report: 10:7 with 3:2 and 4:17; 9:35 and 10:1 with 4:23; 9:13 with 12:7; 9:34 with 12:24. Make notes [0] and [68] quote the actual Plain.
+- **Fix:** Align with the model wording, or list these pairs for the lane lead in the report: 10:7 with 3:2 and 4:17; 9:35 and 10:1 with 4:23; 9:13 with 12:7; 9:34 with 12:24. Make notes [0] and [68] quote the actual Plain English Translation.
 
 ### 3. Major: witness errors in variants.json (8:25, 8:18, 9:4)
 - **8:25.** Reading 0 (no "his disciples") lists "Codex Sinaiticus and Vaticanus". Tischendorf's apparatus at 8:25 shows Sinaiticus first hand with "his disciples" (*videtur habuisse* πρ. αὐτῷ οἱ μ. αὐτοῦ). The omission is in B, a c f ff¹ l, the Vulgate manuscripts, sah and cop. The NA28 apparatus agrees that ℵ has οἱ μαθηταί. **Fix:** Remove Sinaiticus from reading 0, and list it with the longer subject (Sinaiticus, Ephraemi corrector, the Byzantine majority). Keep "us" as a separate point: ℵ B C omit ἡμᾶς.
@@ -46,9 +46,9 @@ No finding is critical. **5 major, 11 minor.**
 
   The Byzantine text also adds ὑμεῖς, so KJV readers see "Wherefore think ye evil". **Fix:** Name these witnesses with dates.
 
-### 4. Major: the Plain renders readings it does not follow (8:9, 9:36)
+### 4. Major: the Plain English Translation renders readings it does not follow (8:9, 9:36)
 - **8:9.** "I am a man placed under authority myself". "Placed" is τασσόμενος, which stands in ℵ B and Westcott-Hort, imported from Luke 7:8. SBLGNT, NA28, THGNT and the Byzantine text all omit it (TAGNT gives τασσόμενος only for W, that is, WH). The English thus carries the Lukan reading. **Fix:** "I myself am a man under authority, with soldiers under me", and see finding 5.
-- **9:36.** "They were worn out and thrown aside". ἐσκυλμένοι (σκύλλω) means harassed, troubled, mistreated. "Worn out" is the sense of the TR's ἐκλελυμένοι (KJV "they fainted"), which the Plain does not follow. Also, ἐρριμμένοι is better "lying helpless" or "thrown down" than "thrown aside", which suggests rejection. **Fix:** Use "harassed and helpless", or "troubled and lying helpless", in the writer's own words.
+- **9:36.** "They were worn out and thrown aside". ἐσκυλμένοι (σκύλλω) means harassed, troubled, mistreated. "Worn out" is the sense of the TR's ἐκλελυμένοι (KJV "they fainted"), which the Plain English Translation does not follow. Also, ἐρριμμένοι is better "lying helpless" or "thrown down" than "thrown aside", which suggests rejection. **Fix:** Use "harassed and helpless", or "troubled and lying helpless", in the writer's own words.
 
 ### 5. Major: missing variant entries
 - **8:13.** ℵ\* C (N) Θ f1 33 syʰ and others add at the end: "And the centurion went back to his house in that same hour and found the servant well". Tischendorf has the addition at 8:13 (page 313), and Metzger discusses it. It is an early, notable harmonization with Luke 7:10. Add an entry.
@@ -61,7 +61,7 @@ No finding is critical. **5 major, 11 minor.**
 
 ### 6. Minor: smaller inaccuracies in existing variant entries
 - **8:15.** "Them" is not only "some later manuscripts". Tischendorf has αὐτοῖς in M\* L Δ, the Old Latin, the Vulgate and the Curetonian Syriac. Name them.
-- **10:8.** Reading 0 lumps the Textus Receptus with the critical text. The TR places "raise the dead" after "cleanse the lepers" (KJV order: heal the sick, cleanse the lepers, raise the dead, cast out devils). The Plain anchor of reading 0 is therefore not the TR text. Say so in `w` or `b`.
+- **10:8.** Reading 0 lumps the Textus Receptus with the critical text. The TR places "raise the dead" after "cleanse the lepers" (KJV order: heal the sick, cleanse the lepers, raise the dead, cast out devils). The Plain English Translation anchor of reading 0 is therefore not the TR text. Say so in `w` or `b`.
 - **10:23.**
   - Reading 0's Greek φεύγετε εἰς τὴν ἑτέραν is attributed to the "Byzantine majority ... Textus Receptus", but Byzantine and TR read εἰς τὴν ἄλλην (auto/Mat.json). This does not change the English, but the `orig` is mislabeled.
   - Check reading 1's Greek against Metzger or NA28. The commonly cited forms are κἂν ἐκ ταύτης διώκωσιν ὑμᾶς, φεύγετε εἰς τὴν ἄλλην (Θ f1 and others) and a different D form. The Greek given (κἂν ἐν τῇ ἑτέρᾳ ...) may match no manuscript.
@@ -81,10 +81,10 @@ No finding is critical. **5 major, 11 minor.**
 ### 9. Minor: build warnings and misquotations
 - `VERBOSE=1 node tools/build.js --check Mat/08-10` reports 2 errors and 2 warnings.
   - **Errors:** topics/church-discipline.json ("the ban") and topics/peter.json ("Simon"). Both come from other writers' proposals, not this part, but the check does not pass.
-  - **Warning in this part:** notes[24] (8:24) quotes 12:41 as "something greater than Jonah is here". The 12:41 Plain is "here is something greater than Jonah". Fix the quotation.
-- Two other quotations of other verses do not match the site's Plain, although the build did not flag them:
-  - Note [4] quotes Isaiah 42:2 (via 12:19) as "will not quarrel or shout". The 12:19 Plain has "He will not argue, and he will not shout", and Isaiah 42:2 Plain has "He will not cry out".
-  - Note [45] quotes 13:52 as "new things and old". The Plain has "things that are new and things that are old".
+  - **Warning in this part:** notes[24] (8:24) quotes 12:41 as "something greater than Jonah is here". The 12:41 Plain English Translation is "here is something greater than Jonah". Fix the quotation.
+- Two other quotations of other verses do not match the site's Plain English Translation, although the build did not flag them:
+  - Note [4] quotes Isaiah 42:2 (via 12:19) as "will not quarrel or shout". The 12:19 Plain English Translation has "He will not argue, and he will not shout", and Isaiah 42:2 Plain English Translation has "He will not cry out".
+  - Note [45] quotes 13:52 as "new things and old". The Plain English Translation has "things that are new and things that are old".
 - `luz-matthew-8-20` is defined both here and in parts/14-18/sources.json. The two definitions are identical; the lead should keep one.
 
 ### 10. Minor: glosses that interpret
@@ -133,7 +133,7 @@ No finding is critical. **5 major, 11 minor.**
 2. **Major, repeated formulas. Fixed.**
    - 10:7 now matches 3:2 and 4:17: "The kingdom of heaven has drawn near."
    - 9:35 and 10:1 now match 4:23: "cured every kind of disease and illness". 9:35 has no "among the people", which a variant entry explains.
-   - Notes [0] and [68] and the chapter 10 `sum` now quote the actual Plain.
+   - Notes [0] and [68] and the chapter 10 `sum` now quote the actual Plain English Translation.
    - 9:13 ("Mercy is what I want, not sacrifice") and 9:34 ("the ruler of the demons") are kept as the models for 12:7 and 12:24, by lane rule.
 3. **Major, witness errors. Fixed.** Every variant's witness list was rewritten from Tischendorf's 8th edition apparatus (pages 313–324), and `tischendorf-nt8` was added to each entry.
    - 8:25: Sinaiticus moved to the longer reading. "Us" is treated separately, in `b`.
@@ -141,7 +141,7 @@ No finding is critical. **5 major, 11 minor.**
    - 9:4: witnesses named for both readings, and the Byzantine ὑμεῖς (KJV "think ye") added.
    - "Reported by Metzger" claims that could not be checked were removed throughout. Only the 9:14 corrector reading still cites Metzger by name.
    - Washington, Koridethi and the Sinaitic Syriac are no longer cited, since Tischendorf could not report them.
-4. **Major, Plain rendered the unfollowed reading. Fixed.**
+4. **Major, Plain English Translation rendered the unfollowed reading. Fixed.**
    - 8:9 is now "under someone's authority", with no "placed". A new variant gives τασσόμενος.
    - 9:36 is now "battered and lying helpless". A new variant gives ἐκλελυμένοι ("worn out", KJV "fainted").
 5. **Major, missing variants. Fixed.** New entries:
@@ -156,7 +156,7 @@ No finding is critical. **5 major, 11 minor.**
    - 8:15: witnesses named (M* L Δ, Old Latin, Vulgate, Curetonian Syriac).
    - 10:8: `b` now says the TR places "raise the dead" after "cleanse the lepers", and reading 0 no longer lists the TR.
    - 10:23: reading 0 notes that the Byzantine text and the TR have ἄλλην. Reading 1's Greek matches the form Tischendorf prints for D L 1 13 22 118 and others, and `b` gives the ἐκ ταύτης form.
-   - 8:21 Plain is now "one of the disciples".
+   - 8:21 Plain English Translation is now "one of the disciples".
 7. **Minor, `top` choices. Fixed.**
    - 10:28 note, traditions card and topics.json now use `gehenna`, and so does the 8:12 note.
    - The 9:8 card uses `church-discipline`, and the 9:2 note uses `forgiveness`.
@@ -166,7 +166,7 @@ No finding is critical. **5 major, 11 minor.**
    - miracles.json: retitled "Miracles", with a whole-Bible lead and "Before Jesus" and "After Jesus" sections. `related` is now healing, plagues, elijah and elisha.
    - apostles.json: Romans 16:7 now says "probably" and names the debate over both the phrase and the name. Barnabas is now credited to Acts, not Paul.
 9. **Minor, build warnings and misquotations. Fixed.**
-   - The 12:41, 12:19 and 13:52 quotations now match the Plain.
+   - The 12:41, 12:19 and 13:52 quotations now match the Plain English Translation.
    - The 7:29 and 10:22 quotations in chapters.json were also realigned.
    - The `luz-matthew-8-20` definition is identical in both parts and is left for the lead to merge.
    - The church-discipline and peter errors were in other writers' files and no longer appear.

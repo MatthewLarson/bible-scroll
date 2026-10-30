@@ -1,6 +1,6 @@
 # Hostile review: Revelation 17–22
 
-Scope: Plain (plain.txt 17:1–22:21) checked verse by verse against the SBLGNT and the Byzantine text in
+Scope: Plain English Translation (plain.txt 17:1–22:21) checked verse by verse against the SBLGNT and the Byzantine text in
 `texts/orig/Rev.json`; notes, glosses and chapter pages 17–22 (including `settings` and `traditions` from
 `content/overlays/Rev.json`); variants (none exist yet). Everything in `content/books/Rev/` is generated, so each
 finding names the source file too (paths under `revelation/` unless marked `bible/`).
@@ -13,11 +13,11 @@ Nero", the Targum "second death" texts, Augustine, the Augsburg Confession artic
 card is fair and well sourced.
 
 The slice is not ready to publish, for six reasons:
-- **No variants at all.** The Plain silently picks sides in at least ten places where the readings differ. In
+- **No variants at all.** The Plain English Translation silently picks sides in at least ten places where the readings differ. In
   three of them it leaves its own base text, the SBLGNT: 18:3 "drunk", 21:3 "and be their God", and the "Amen"
   in 22:21.
 - **The lead's δοῦλος decision is not applied.** The verses still say "servants", in six places.
-- **Copyrighted wording.** The Plain has four close matches with copyrighted translations: NIV at 21:4 and
+- **Copyrighted wording.** The Plain English Translation has four close matches with copyrighted translations: NIV at 21:4 and
   19:8, ESV at 18:13 and NRSV at 21:7. 21:7 also loses the singular "son" of the 2 Samuel 7:14 promise. The
   notes quote the Old Testament in NIV wording throughout, which is the cause of most of the quote warnings.
 - **Glosses settle cruxes.** Three glosses settle debates that the notes present as open: the millennium as "a
@@ -44,14 +44,14 @@ One scholarly attribution (Caird on 19:13) is very probably wrong.
   - Rev-origin topic cores quoting this slice: martyrs 17:6, dating 17:10, white-throne 20:11, new-creation
     21:1, overcomer 22:5, bride 19:8 and 21:10. These belong to the book-level review, but the wording they
     must match is in this slice.
-- A script printed every verse with its SBL and Byzantine text and the Plain, chapter by chapter.
+- A script printed every verse with its SBL and Byzantine text and the Plain English Translation, chapter by chapter.
 - Prose em-dashes: none. The only two are empty table cells in the ch17 kings table, which is fine.
 
 ## Findings
 
 ### Major
 
-**1. Major. Variants: none exist for chapters 17–22, and the Plain silently takes sides.**
+**1. Major. Variants: none exist for chapters 17–22, and the Plain English Translation silently takes sides.**
 Overlay `content/overlays/Rev.json` has no `variants` key, so the generated variants.json is empty. The brief
 requires entries wherever the meaning changes, a major translation footnotes the difference, or the KJV reads
 differently.
@@ -75,7 +75,7 @@ and must not add any that cannot be confirmed. Where I say "check", I am not sur
      Textus Receptus (πέπωκε) and KJV also say "have drunk".
    - πέπτωκαν / πεπτώκασιν, "have fallen (by the wine...)": Alexandrinus, Ephraemi and the Byzantine text,
      with Sinaiticus close; Westcott-Hort, **SBLGNT** (the site's base text).
-   - The Plain follows "drunk". It must say so, and why: the image of 14:8 and 17:2 ("made all nations drink"),
+   - The Plain English Translation follows "drunk". It must say so, and why: the image of 14:8 and 17:2 ("made all nations drink"),
      and the transcriptional ease of dropping one letter (τ). It should also admit that the better-attested
      reading is "fallen", which the SBLGNT prints.
 3. **19:13, "dipped in blood".**
@@ -99,7 +99,7 @@ and must not add any that cannot be confirmed. Where I say "check", I am not sur
 6. **21:3, "and be their God".**
    - Present (αὐτῶν θεός, or θεὸς αὐτῶν): Alexandrinus and others; NA28 [in brackets]; Textus Receptus, KJV.
    - Absent: Sinaiticus and the Byzantine text; **SBLGNT**.
-   - The Plain prints it. That departs from the SBLGNT and needs a variant saying so. Alternatively, drop the
+   - The Plain English Translation prints it. That departs from the SBLGNT and needs a variant saying so. Alternatively, drop the
      words to follow the SBLGNT and offer them as the other reading.
 7. **21:24, "The nations will walk".**
    - Textus Receptus and KJV add "of them which are saved" (τῶν σωζομένων). This comes from a minority of late
@@ -139,7 +139,7 @@ and must not add any that cannot be confirmed. Where I say "check", I am not sur
     - μετὰ πάντων ὑμῶν, "with you all": Textus Receptus and KJV. This is Erasmus's back-translation; it has
       almost no Greek manuscript support.
     - "Amen": added in Sinaiticus, 046 and the Byzantine text; absent from Alexandrinus; not in NA28 or SBLGNT.
-    - The Plain adds "Amen" against its own base text. Either drop it, or keep it with a variant explaining the
+    - The Plain English Translation adds "Amen" against its own base text. Either drop it, or keep it with a variant explaining the
       choice; I recommend dropping it. Also give the reader the KJV's "our Lord Jesus Christ" (Byzantine "Lord
       Jesus Christ").
     - Two entries are cleanest: one on "with everyone" and one on "Amen".
@@ -147,23 +147,23 @@ and must not add any that cannot be confirmed. Where I say "check", I am not sur
 **B. Should have (the KJV differs visibly, or a modern footnote exists):**
 
 11. **18:2.** The NA28 brackets a third clause, "a haunt of every unclean beast" (καὶ φυλακὴ παντὸς θηρίου
-    ἀκαθάρτου). SBLGNT prints it. The Byzantine text and KJV lack it and attach "hated" to the bird. The Plain
+    ἀκαθάρτου). SBLGNT prints it. The Byzantine text and KJV lack it and attach "hated" to the bird. The Plain English Translation
     follows the longer text. Also, "Fallen! Fallen!" is doubled in SBL and Textus Receptus but single in the
     Byzantine text.
-12. **18:6.** Textus Receptus and KJV: "as she rewarded *you*" (ὑμῖν). It is not in NA28 or SBLGNT. The Plain's
+12. **18:6.** Textus Receptus and KJV: "as she rewarded *you*" (ὑμῖν). It is not in NA28 or SBLGNT. The Plain English Translation's
     "as she has paid others" supplies "others" as an object; either note it or drop "others".
 13. **18:13.** "Spice" (ἄμωμον, amomum): Sinaiticus, Alexandrinus and others; NA28, SBLGNT. Missing from the
     Byzantine text, Textus Receptus and KJV.
 14. **18:17.** "Everyone who travels by ship" (ὁ ἐπὶ τόπον πλέων, literally "who sails to a place") versus the
     Textus Receptus "all the company in ships" (ἐπὶ τῶν πλοίων ὁ ὅμιλος, KJV).
 15. **19:6.** "Our Lord God": ἡμῶν is in brackets in the NA28, absent from SBLGNT and from the Textus Receptus
-    (KJV "the Lord God omnipotent"), and present in the Byzantine text. The Plain follows the bracketed or
+    (KJV "the Lord God omnipotent"), and present in the Byzantine text. The Plain English Translation follows the bracketed or
     Byzantine word against the SBLGNT. Either follow SBL ("the Lord God, the All-Powerful, rules") or add a
     variant.
 16. **20:9.** "Fire came down from heaven": SBL and NA28. The Byzantine text and Textus Receptus have "from God
     out of heaven" (KJV); other witnesses put "from God" after "heaven".
 17. **20:14.** The final "the lake of fire" in "This is the second death, the lake of fire" is missing from the
-    Textus Receptus (KJV ends "This is the second death"). The Plain restructures the verse ("The lake of fire is
+    Textus Receptus (KJV ends "This is the second death"). The Plain English Translation restructures the verse ("The lake of fire is
     the second death"), so check that the anchor still works.
 18. **21:6.** "It is done": γέγοναν, "they have come to pass" (plural) in NA28 and SBL. The Byzantine text reads
     γέγονα, "I have become (the Alpha and the Omega)". Textus Receptus γέγονε gives KJV "It is done".
@@ -180,22 +180,22 @@ Optional, at the fixer's judgment:
 Every entry needs the full fields (`t`, `p`, `readings` with `w`/`orig`/`en`/`plain`, `follow`, `why`, `s`:
 `metzger`). They go in the overlay under `variants["17"]` through `variants["22"]`.
 
-**2. Major. Plain 19:2, 19:5, 19:10, 22:3, 22:6, 22:9 still say "servant(s)" for δοῦλος / σύνδουλος.**
+**2. Major. Plain English Translation 19:2, 19:5, 19:10, 22:3, 22:6, 22:9 still say "servant(s)" for δοῦλος / σύνδουλος.**
 Lead decision (brief-rev.md, terms.json δοῦλος): use "slave(s)".
 - In 19:10 and 22:9, "I am a servant with you" should be "I am a fellow slave with you" (σύνδουλός σού εἰμι).
 - Source: `v2/src/plain.js` lines 362, 365, 371, 435, 439, 442.
 - Everything that quotes these verses changes with them:
   - the ch22 deep table (`v2/src/chdeep.js:121`), which quotes 1:1 and 22:6 "his servants";
   - settings 19:1–10, if it is reworded.
-- This also brings the Plain into line with 18:13 and 19:18, which already say "slave(s)" for other Greek words.
+- This also brings the Plain English Translation into line with 18:13 and 19:18, which already say "slave(s)" for other Greek words.
 
-**3. Major. Plain 21:4 "the old order of things has passed away" is the NIV's exact phrase.**
+**3. Major. Plain English Translation 21:4 "the old order of things has passed away" is the NIV's exact phrase.**
 The Greek is τὰ πρῶτα ἀπῆλθαν, "the first things have gone". Write "the first things have passed away" or "the
 former things are gone". The latter keeps the echo of Isaiah 65:17 "what came before" and of 21:1 "the first
 heaven". Source: `v2/src/plain.js:406`. The same line also has πένθος as "sadness", against "grief" in 18:7–8
 (see finding 30).
 
-**4. Major. Plain 21:7 "I will be their God, and they will be my children" matches the NRSV word for word. It
+**4. Major. Plain English Translation 21:7 "I will be their God, and they will be my children" matches the NRSV word for word. It
 also loses the Greek's singular "son".**
 The Greek reads ἔσομαι αὐτῷ θεὸς καὶ αὐτὸς ἔσται μοι υἱός: "I will be his God, and he will be my son." This is
 the royal adoption formula of 2 Samuel 7:14 ("I will be his father, and he will be my son"), now given to every
@@ -211,7 +211,7 @@ Fix:
 - Source: `v2/src/plain.js:409`. Chapter text: `v2/src/chapters.js` (ch21) or `deep21.js`; grep "I will be
   their God".
 
-**5. Major. Plain 18:13 "and slaves, that is, human lives" follows the ESV's structure. The note's title
+**5. Major. Plain English Translation 18:13 "and slaves, that is, human lives" follows the ESV's structure. The note's title
 quotes the KJV.**
 The ESV has "and slaves, that is, human souls". Four of the five words match, and so does the choice to read καί
 as "that is". The Greek is σωμάτων, καὶ ψυχὰς ἀνθρώπων: "bodies, and human souls/lives". Note #168 itself says
@@ -223,7 +223,7 @@ as do the ch18 `sum` and settings 18:9–24, which quote the phrase.
 
 **6. Major. Notes and chapter pages quote the Old Testament and Paul in NIV wording.**
 These quotes are NIV text word for word, or near it (I checked against my knowledge of the NIV and against the
-site's Plain):
+site's Plain English Translation):
 - Jeremiah 51:7, 13, 45, 63–64 and 29:5–7:
   - notes `v2/src/notes3.js` 17:1, 18:4, 18:21;
   - `deep18.js` spec box and symbols list;
@@ -237,7 +237,7 @@ site's Plain):
 - 1 Corinthians 6:9–11 (note at 21:8 and the ch21 deep section).
 - Ezekiel 16:37–41 (note at 18:16): check it.
 
-The project bars copyrighted translation text in content. For books already on the site, use the site's Plain
+The project bars copyrighted translation text in content. For books already on the site, use the site's Plain English Translation
 exactly; this also clears the build warnings:
 - Isaiah: `content/books/Isa/parts/*`. For example:
   - Isaiah 54:11–12: "lay your foundations with lapis lazuli... your gates of sparkling stones".
@@ -258,7 +258,7 @@ phrase two ways.**
 - testimony about Jesus (objective genitive);
 - or both.
 
-The Plain has "testimony of Jesus Christ" at 1:2, "testimony about Jesus" at 1:9, 12:17, 19:10 and 20:4, and the
+The Plain English Translation has "testimony of Jesus Christ" at 1:2, "testimony about Jesus" at 1:9, 12:17, 19:10 and 20:4, and the
 gloss "all true prophecy points to Jesus" picks one side. Nothing anywhere in the book discusses it (I searched
 all notes).
 
@@ -300,15 +300,15 @@ read it as the blood of the martyrs.**
   Try "the place of final judgment".
 - 19:13: see finding 8.
 
-**11. Major. 20:4: the Plain resolves two debated points without a note, and the third is under-noted.**
-- (a) καὶ κρίμα ἐδόθη αὐτοῖς, "and judgment was given to them". It can mean authority to judge (Plain), or a
+**11. Major. 20:4: the Plain English Translation resolves two debated points without a note, and the third is under-noted.**
+- (a) καὶ κρίμα ἐδόθη αὐτοῖς, "and judgment was given to them". It can mean authority to judge (Plain English Translation), or a
   verdict given in their favor, as in Daniel 7:22 "judgment was given for the holy ones of the Most High".
-- (b) καὶ οἵτινες οὐ προσεκύνησαν... The Plain begins a new sentence, "They had not worshiped...", which makes
+- (b) καὶ οἵτινες οὐ προσεκύνησαν... The Plain English Translation begins a new sentence, "They had not worshiped...", which makes
   one group: the beheaded. Many read the καί as adding a second, wider group: all who refused the beast, martyred
   or not. Beale and Aune discuss both.
 - (c) ἔζησαν "came to life" against amillennial "lived (and reigned)". Note #182 has the 2:8 parallel, which
-  supports the Plain, but it never states the other reading.
-- The Plain also adds "their" ("their testimony").
+  supports the Plain English Translation, but it never states the other reading.
+- The Plain English Translation also adds "their" ("their testimony").
 - Fix: add one `word` note, kind `deb`, at 20:4 covering (a) and (b), and add (c) to #182. Daniel 7:9, 22 is
   already in the ch20 echoes.
 
@@ -342,64 +342,64 @@ the two traditions with the most distinct historic answers. Its Reformed entry i
 **14. Major. οἱ ἅγιοι is "God's people" throughout. terms.json fixes "the saints" (with the gloss "God's holy
 people" at first use).**
 - In this slice: 17:6, 18:20, 18:24, 19:8, 20:9. Elsewhere in the book: 5:8, 8:3–4, 13:7, 13:10, 14:12.
-- Note #173 even calls them "saints" while the Plain says "God's people".
+- Note #173 even calls them "saints" while the Plain English Translation says "God's people".
 - This needs a lead decision for the whole book: either apply the term, or log Revelation as an exception in
-  terms.json with a why. Until then, 19:8's note and Plain contradict each other.
+  terms.json with a why. Until then, 19:8's note and Plain English Translation contradict each other.
 - If "saints" is adopted, 20:9 becomes "the camp of the saints and the beloved city". That also fixes finding 21.
 
 ### Minor
 
-**15. Minor. Plain 19:8 "(Fine linen stands for the right things God's people have done.)" copies the NIV's
+**15. Minor. Plain English Translation 19:8 "(Fine linen stands for the right things God's people have done.)" copies the NIV's
 form**: a parenthesis that opens "Fine linen stands for". Rephrase, for example: "The fine linen is the right
 deeds of the saints." The Greek τὸ γὰρ βύσσινον τὰ δικαιώματα τῶν ἁγίων ἐστίν is part of the voice's sentence
 in many editions, so the parenthesis is itself an interpretation. Source: `plain.js:369`.
 
-**16. Minor. Plain 18:2 "a prison for every evil spirit".** πνεῦμα ἀκάθαρτον is "unclean spirit" in terms.json,
-and the Greek sets it in a row with "unclean bird" and "unclean animal", which the Plain keeps. Write "every
+**16. Minor. Plain English Translation 18:2 "a prison for every evil spirit".** πνεῦμα ἀκάθαρτον is "unclean spirit" in terms.json,
+and the Greek sets it in a row with "unclean bird" and "unclean animal", which the Plain English Translation keeps. Write "every
 unclean spirit". Source: `plain.js:336`.
 
-**17. Minor. Plain 17:16 "They will strip her, leave her naked".** ἠρημωμένην ποιήσουσιν αὐτὴν καὶ γυμνήν means
+**17. Minor. Plain English Translation 17:16 "They will strip her, leave her naked".** ἠρημωμένην ποιήσουσιν αὐτὴν καὶ γυμνήν means
 "they will make her desolate and naked". "Strip" is not in the Greek, and "desolate" is lost. The same verb
-returns in 18:17 and 18:19 (ἠρημώθη, "laid waste"), which the Plain renders "destroyed". Use "lay her waste and
+returns in 18:17 and 18:19 (ἠρημώθη, "laid waste"), which the Plain English Translation renders "destroyed". Use "lay her waste and
 leave her naked", and "laid waste" in 18:17 and 18:19, so the reader hears the chain. Source: `plain.js:331`.
 Gloss 17:16's anchor changes with it.
 
-**18. Minor. Plain 18:14 adds "They will say,".** The Greek turns abruptly to address the city in the second
+**18. Minor. Plain English Translation 18:14 adds "They will say,".** The Greek turns abruptly to address the city in the second
 person, and the speaker is not named (it may be the heavenly voice of 18:4). Drop the added words, or bracket
 them and add a note. Source: `plain.js:349`.
 
 **19. Minor. Versification.** STYLE.md keys verses by the KJV. KJV 17:10 begins "And there are seven kings". The
-Plain puts "They are also seven kings" in 17:9, following the NA/SBL division. Move it to 17:10, or record in
+Plain English Translation puts "They are also seven kings" in 17:9, following the NA/SBL division. Move it to 17:10, or record in
 brief-rev.md that Revelation follows NA verse divisions. Source: `plain.js:324`.
 
-**20. Minor. Plain 17:11 "is an eighth king".** The Greek is αὐτὸς ὄγδοός ἐστιν, "he himself is an eighth".
+**20. Minor. Plain English Translation 17:11 "is an eighth king".** The Greek is αὐτὸς ὄγδοός ἐστιν, "he himself is an eighth".
 "King" is a reasonable inference, but it is supplied. Write "is himself an eighth", or note it. Spec note #161
 then anchors on "an eighth".
 
-**21. Minor. Plain 20:9 "the camp of God's people, the city he loves".** The Greek joins them with καί ("the
-camp of the saints *and* the beloved city"). The Plain's comma makes them one place, which some readers hold, but
+**21. Minor. Plain English Translation 20:9 "the camp of God's people, the city he loves".** The Greek joins them with καί ("the
+camp of the saints *and* the beloved city"). The Plain English Translation's comma makes them one place, which some readers hold, but
 the Greek leaves it open. The ch20 israel box quotes "The camp of God's people and the beloved city", which is
-the build warning. Fix the Plain to "and", and "the beloved city" (ἠγαπημένην, passive, "loved"), and the warning
+the build warning. Fix the Plain English Translation to "and", and "the beloved city" (ἠγαπημένην, passive, "loved"), and the warning
 clears. Gloss 20:9 and `topics3.js:135` change with it.
 
-**22. Minor. Plain 20:10 "where the beast and the false prophet had also been thrown".** The Greek has no verb
+**22. Minor. Plain English Translation 20:10 "where the beast and the false prophet had also been thrown".** The Greek has no verb
 (ὅπου καὶ τὸ θηρίον καὶ ὁ ψευδοπροφήτης). The KJV supplies "are", which matters for the eternal-punishment
 debate. Write "where the beast and the false prophet are too", or add a note that the verb is supplied.
 
-**23. Minor. Plain 19:15 drops "the wine of".** The Greek is "the winepress of the wine of the fury of the wrath
+**23. Minor. Plain English Translation 19:15 drops "the wine of".** The Greek is "the winepress of the wine of the fury of the wrath
 of God". Keep "wine" (compare 14:10, 16:19 "the wine of his furious anger"): "the winepress of the wine of God's
 furious anger".
 
-**24. Minor. Small Plain departures from the SBL text.**
+**24. Minor. Small Plain English Translation departures from the SBL text.**
 - 17:6 drops the καί before the second "blood", following the Byzantine text; restore it with "and the blood of
   those who bore witness".
 - 18:11 is present tense in SBL ("weep and mourn").
 - 18:8 κρίνας is aorist, "who has judged her".
-- 17:8 ὑπάγει is "is going to destruction"; the Plain's "and go" follows the Byzantine infinitive.
+- 17:8 ὑπάγει is "is going to destruction"; the Plain English Translation's "and go" follows the Byzantine infinitive.
 None of these changes the sense much. Align them with the SBL, or note them.
 
-**25. Minor. 21:16: the Plain gives "about 1,400 miles" and drops the symbolic 12,000.** The number is the point
-(12 × 1,000), as notes #191 and #220 say. Write "12,000 stadia (about 1,400 miles)" in the Plain, matching the
+**25. Minor. 21:16: the Plain English Translation gives "about 1,400 miles" and drops the symbolic 12,000.** The number is the point
+(12 × 1,000), as notes #191 and #220 say. Write "12,000 stadia (about 1,400 miles)" in the Plain English Translation, matching the
 note. 14:20 does the same, so it belongs to the alignment pass; at least make 21:16 keep the number. The ch21
 `sum` also calls the city "a cube" as fact. The Greek says only that length, width and height are equal, and
 some read a pyramid; say "as tall as it is wide".
@@ -481,22 +481,22 @@ and 21:96, *Völuspá*, Azi Dahaka, Westminster Confession 25.6, Augsburg Confes
 and Message article 10 wording, Charles Fitch 1843, Petrarch and Avignon, Olivi, Dante *Purgatorio* 32, Dyer
 1991, and the Babylon UNESCO listing in 2019. The settings the audience review led to (17:7–18 with the
 historicist view, 18:1–8 hedged, 18:9–24 with `climax`, 19:1–10, 19:17–18, 20:6 as the fifth beatitude, 21:3–8,
-22:6–21) are accurate and quote the current Plain. Only 22:6–21 needs no change, and 19:1–10 changes only if
+22:6–21) are accurate and quote the current Plain English Translation. Only 22:6–21 needs no change, and 19:1–10 changes only if
 "servants" is quoted (finding 2).
 
 ## Fixes applied
 
 All 126 verses of 17–22 were rebuilt from `literal.js` with a fresh drift audit (118 changed, 8 kept where the Greek forces the wording; list in `.scratch/Rev-17-22-fix/drift-audit.md`). Every note, gloss and chapter-page quote of a changed verse was re-anchored or re-quoted. Witnesses marked "checked" were read in Tischendorf's 1865 edition of Codex Sinaiticus (Source Library), which also collates the Textus Receptus; the rest are given as "reported by Metzger" or as editions taken from `texts/orig`.
 
-1. Fixed. 21 variants in the overlay (`variants["17"]` to `["22"]`): 17:8; 18:2, 3, 6, 13, 17; 19:6, 13; 20:5, 9, 14; 21:3 (two entries), 6, 10, 24; 22:1, 11, 14, 19, 21. Where the Plain leaves the SBLGNT (18:3 "drunk", 19:6 "our", 21:3 "and be their God"), the entry says so and why. 22:21 now follows the SBLGNT ("with all", no "Amen"), with all four endings in one entry. The 22:14 and 22:19 notes are deleted and their content moved into the variants (the Erasmus/2814/Complutensian history corrected as asked; ἐλθέ in 22:17 confirmed in the TR collation). Optional 19:12, 19:15, 20:2 not added (no KJV difference); 22:1 and 22:11 added.
+1. Fixed. 21 variants in the overlay (`variants["17"]` to `["22"]`): 17:8; 18:2, 3, 6, 13, 17; 19:6, 13; 20:5, 9, 14; 21:3 (two entries), 6, 10, 24; 22:1, 11, 14, 19, 21. Where the Plain English Translation leaves the SBLGNT (18:3 "drunk", 19:6 "our", 21:3 "and be their God"), the entry says so and why. 22:21 now follows the SBLGNT ("with all", no "Amen"), with all four endings in one entry. The 22:14 and 22:19 notes are deleted and their content moved into the variants (the Erasmus/2814/Complutensian history corrected as asked; ἐλθέ in 22:17 confirmed in the TR collation). Optional 19:12, 19:15, 20:2 not added (no KJV difference); 22:1 and 22:11 added.
 2. Fixed. 19:2, 19:5, 22:3, 22:6 "slaves"; 19:10 and 22:9 "a fellow slave with you". The ch22 table no longer quotes 1:1.
 3. Fixed. 21:4 rebuilt: "Death will be gone, and grief and crying and pain will be gone too. The first things have gone away." (the SBL has no "because"); πένθος is "grief" as in 18:7–8.
 4. Fixed. 21:7 "I will be his God, and he will be my son"; new word note (2 Samuel 7:14 in the site's wording, Psalm 2:7, 2 Corinthians 6:18, Romans 8:14–17; "son" includes daughters); ch21 page updated.
 5. Fixed. 18:13 "horses and carriages and bodies, and human souls"; the note, the gloss (now on "bodies"), the ch18 summary and symbols list, and settings 18:9–24 changed with it.
-6. Fixed. All Old Testament quotes in 17–22's notes and pages now use the site's Plain (Jeremiah 51:7, 13, 45, 63–64; 29:5–7; Isaiah 1:21; 24:22; 25:8; 40:10; 43:19; 47:7–9; 54:5; 54:11–12; 55:1; 60:11; 60:19–20; 63:3; 65:17, 19; Deuteronomy 4:2; 10:17; 2 Samuel 7:14). Books not on the site (Daniel 4:30; 7:10, 11; 12:4; Ezekiel 16:37–41; 27:32; 39:17; 40:2; Hosea 2:19–20; Zechariah 14:11; 1 Corinthians 6:9–11; 15:26) are translated fresh from the Hebrew, Aramaic or Greek, or paraphrased without quote marks. The 20:2 note and the ch20 fact box now say "after many days they will be called to account."
+6. Fixed. All Old Testament quotes in 17–22's notes and pages now use the site's Plain English Translation (Jeremiah 51:7, 13, 45, 63–64; 29:5–7; Isaiah 1:21; 24:22; 25:8; 40:10; 43:19; 47:7–9; 54:5; 54:11–12; 55:1; 60:11; 60:19–20; 63:3; 65:17, 19; Deuteronomy 4:2; 10:17; 2 Samuel 7:14). Books not on the site (Daniel 4:30; 7:10, 11; 12:4; Ezekiel 16:37–41; 27:32; 39:17; 40:2; Hosea 2:19–20; Zechariah 14:11; 1 Corinthians 6:9–11; 15:26) are translated fresh from the Hebrew, Aramaic or Greek, or paraphrased without quote marks. The 20:2 note and the ch20 fact box now say "after many days they will be called to account."
 7. Fixed. 19:10 and 20:4 now read "the testimony of Jesus" (as 12:17 already does), with a new `deb` note at 19:10 giving both readings (Bauckham and Koester for Jesus's own witness; the objective reading is given without a name I could not check). The gloss that picked a side is removed. For the lead: 1:2 ("testimony of Jesus Christ") and 1:9 ("my testimony about Jesus") are in the 01–05 slice.
 8. Partly. Caird's view could not be confirmed either way (web searches found only his remark that the robe is bloodied before the battle), so his name is removed from the note and from the ch19 page rather than moved to another view. The note now gives three readings (the enemies' blood: Aune, Osborne; the martyrs' blood, unattributed; his own: Bauckham), with my lean labeled as mine. The gloss is now "a blood-soaked robe".
-9. Fixed. The 22:3 note is rebuilt around Zechariah 14:11 (ḥerem; Septuagint anathema; Revelation's katathema), fresh from the Hebrew. Plain: "Nothing will be under a curse any longer."
+9. Fixed. The 22:3 note is rebuilt around Zechariah 14:11 (ḥerem; Septuagint anathema; Revelation's katathema), fresh from the Hebrew. Plain English Translation: "Nothing will be under a curse any longer."
 10. Fixed. 20:2 gloss "chained him up for a thousand years, a full, set time". The 20:14 gloss "final destruction" is gone ("the lake of fire" now occurs twice in 20:14); 20:15 has "the place of final judgment". 19:13: see 8.
 11. Fixed. 20:4 keeps "judgment was given to them" and the "and" before "those who had not worshiped" (no new sentence), and drops "their". New `deb` note at 20:4 on (a) and (b); (c) added to the 20:5 note (ezēsan, 2:8, and the amillennial "they lived").
 12. Fixed. One "Where Christians differ" card at chapter 20, `top: lake-of-fire`, unranked: Catholic (CCC 1033–1037, with von Balthasar's hope), Orthodox (Ware, Gregory of Nyssa, Isaac the Syrian), Lutheran (Augsburg 17), Reformed (Westminster 33.2), Anglican (The Mystery of Salvation, Stott), Baptist (BFM 2000 art. 10, 1689 London 32.2, Fudge), Adventist (Fundamental Beliefs 26–27). The new 20:10 note points to it.
@@ -525,4 +525,4 @@ All 126 verses of 17–22 were rebuilt from `literal.js` with a fresh drift audi
 35. Partly. Tobit 13:16–17 is labeled (Catholic and Orthodox Old Testament) and added to `r`; the Targums' later written form is stated in the 21:8 note and on the ch21 page. Sibylline Oracles is left as cited: works.json belongs to the book fixer (lead decision 20).
 36. Partly. The ch19 views now say "Many partial preterists" and name Chilton's reading. The two optional cards (19:9 and the Mass; renewal or replacement at 21:1) are not added: optional, and lead decision 17 limits this slice to the final-punishment card. Left for the lead.
 
-For the lead's quote sync, quotes of 17–22 outside this slice that no longer match the Plain: topics white-throne (20:11), new-creation (21:1, 21:3, 21:5), martyrs (17:6), overcomer (20:6, 21:7, 22:5), dating (17:10), beasts, unholy-trinity and nero (17:8), bride (19:7, 19:8, 19:9, 21:10), gog-magog (20:8), patmos and sea (21:1, 20:13), babylon (17:10, 17:18, 18:4), jerusalem (20:9; topics3.js:135), new-jerusalem (21:3, 21:24), temple (21:22), second-death (21:4, and the TP in deep21.js quoting 20:6 and 2:11), book.json (17:18) and the BEASTS table in src/3-data.js (17:18). The overlay settings for 17–22 were updated in this slice.
+For the lead's quote sync, quotes of 17–22 outside this slice that no longer match the Plain English Translation: topics white-throne (20:11), new-creation (21:1, 21:3, 21:5), martyrs (17:6), overcomer (20:6, 21:7, 22:5), dating (17:10), beasts, unholy-trinity and nero (17:8), bride (19:7, 19:8, 19:9, 21:10), gog-magog (20:8), patmos and sea (21:1, 20:13), babylon (17:10, 17:18, 18:4), jerusalem (20:9; topics3.js:135), new-jerusalem (21:3, 21:24), temple (21:22), second-death (21:4, and the TP in deep21.js quoting 20:6 and 2:11), book.json (17:18) and the BEASTS table in src/3-data.js (17:18). The overlay settings for 17–22 were updated in this slice.

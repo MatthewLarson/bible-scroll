@@ -1,7 +1,7 @@
 # Hostile review: Mark 7–9 (part 07-09)
 
 Reviewer: hostile-reviewer (not the writer). Checked against: texts/orig/Mrk.json (SBL, Byzantine, TAGNT edition marks)
-verse by verse; Matthew 15–18 published Plain; Metzger's <i>Textual Commentary</i> as I know it; brief-nt.md, brief-mrk.md,
+verse by verse; Matthew 15–18 published Plain English Translation; Metzger's <i>Textual Commentary</i> as I know it; brief-nt.md, brief-mrk.md,
 STYLE.md, terms.json and proposals/nt/terms.json, works.json; part 10-12's chapters and notes for overlap.
 `VERBOSE=1 node tools/build.js --check Mrk/07-09`: 0 errors, 0 warnings.
 
@@ -55,7 +55,7 @@ with unclean hands!".
 
 **Problem:** content/proposals/nt/terms.json has `κοινός / ἀκάθαρτος` → "common / unclean (both kept...)", and it
 names Mark 7:2, 5 explicitly. The writer's own 7:2 note says the word is koinos, "common", and that Mark uses a
-different word, akathartos, for "unclean" spirits (7:25). The Plain then erases the distinction the note explains, and
+different word, akathartos, for "unclean" spirits (7:25). The Plain English Translation then erases the distinction the note explains, and
 Acts 10:14 and 28 ("common") will not match Mark.
 
 **Fix:** 7:2 "eating their bread with common hands, that is, unwashed hands"; 7:5 "with common hands". Keep a gloss
@@ -103,7 +103,7 @@ Use "True, Lord" so the switched reading matches the parallel.
 **Where:** notes 9:41 "You are Christ's". The preview says "Mark's only use of 'Christ' as if it were a name", and
 the body says "Elsewhere in Mark Christos has the article and means 'the Messiah'".
 
-**Evidence:** Mark 1:1 Ἰησοῦ Χριστοῦ has no article, and this site's Plain renders it "Jesus Christ".
+**Evidence:** Mark 1:1 Ἰησοῦ Χριστοῦ has no article, and this site's Plain English Translation renders it "Jesus Christ".
 
 **Fix:** "The only place in Jesus' own words where Mark uses Christ without the article, as a name. Compare 1:1, the
 title." Then adjust the body.
@@ -170,10 +170,10 @@ seven Hellenist leaders (Acts 6:3) and completeness. Seventy is a different numb
 
 **Fix:** Give the usual links, with a source (Marcus discusses them), or drop the Genesis 10 claim.
 
-### 14. Minor: 8:17 note quotes 6:52 in wording the Plain does not use
-**Problem:** The note puts 6:52 in quotes as "were hardened". Part 04-06's Plain is "their hearts had turned hard".
+### 14. Minor: 8:17 note quotes 6:52 in wording the Plain English Translation does not use
+**Problem:** The note puts 6:52 in quotes as "were hardened". Part 04-06's Plain English Translation is "their hearts had turned hard".
 
-**Fix:** Quote the Plain.
+**Fix:** Quote the Plain English Translation.
 
 ### 15. Minor: 7:21 note preview, "Matthew shortens it to the Ten Words"
 **Problem:** Overstated. Matthew 15:19 lists six items that follow the order of the second table of the commandments
@@ -215,14 +215,14 @@ listing names you cannot match.
 
 ### 21. Minor: 9:12 turns the Greek question into a statement plus "How can that be?"
 **Problem:** The Greek is καὶ πῶς γέγραπται ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου ἵνα πολλὰ πάθῃ..., "and how is it written of
-the Son of Man that he must suffer...?" The Plain states the Scripture and then asks "How can that be?", which can
+the Son of Man that he must suffer...?" The Plain English Translation states the Scripture and then asks "How can that be?", which can
 read as Jesus doubting it.
 
 **Fix:** "Then how is it that Scripture says of the Son of Man that he must suffer much and be counted as nothing?"
 
 ### 22. Minor: 9:49 makes fire the subject
 **Problem:** Πᾶς γὰρ πυρὶ ἁλισθήσεται is passive with an instrumental dative: "For everyone will be salted with fire."
-The Plain "For fire will salt everyone" moves the agency, while the heading and notes say "Salted with fire".
+The Plain English Translation "For fire will salt everyone" moves the agency, while the heading and notes say "Salted with fire".
 
 **Fix:** Use the passive. Update the anchors of the variant (all three `plain`s) and of the "fire will salt" note.
 
@@ -266,7 +266,7 @@ identical, so the build does not complain, but brief-nt says to reuse existing k
 **Fix:** Use "the valley of fire, the place of final judgment", or similar.
 
 ### 28. Minor: the 8:30 note's "same English each time" claim, across parts
-**Problem:** The note's `r` cites 10:13 and 10:48 alongside "the Plain keeps the same English each time". Part 10-12
+**Problem:** The note's `r` cites 10:13 and 10:48 alongside "the Plain English Translation keeps the same English each time". Part 10-12
 renders ἐπιτιμάω as "scolded" (10:13) and "sternly told him to hush" (10:48). The claim is true only of 8:30–33, as
 the body says, but the cross-references invite a comparison that fails.
 
@@ -280,9 +280,9 @@ appears three times in one chapter.
 
 ## Checked and found sound (no action)
 - **Omitted verses.** 7:16, 9:44 and 9:46 bracket lines are exact. Each has a variant anchored on the whole bracket,
-  with reading 0 the critical text and reading 1 from `byz`. The 7:16 reading-1 Plain matches 4:23, and 9:44/46 match
+  with reading 0 the critical text and reading 1 from `byz`. The 7:16 reading-1 Plain English Translation matches 4:23, and 9:44/46 match
   9:48. This follows brief-nt.md.
-- **7:19.** The Plain's parenthesis, the variant witnesses (ℵ A B L Δ f1 f13 28 565 against Byz καθαρίζον, D
+- **7:19.** The Plain English Translation's parenthesis, the variant witnesses (ℵ A B L Δ f1 f13 28 565 against Byz καθαρίζον, D
   καθαρίζει) and the views note (Marcus, Collins, France; Boyarin; Rudolph) are all sound. So is the pointer to the
   Matthew 15 food-laws card, which exists.
 - **The four witness claims the writer flagged.** 7:3 πυκνά in ℵ W matches Metzger. 7:24 has D L W Δ Θ 28 565 it
@@ -315,7 +315,7 @@ appears three times in one chapter.
 
 ## Fixes applied
 1. Accepted (lead decision: the full road treatment stays here). The ch. 8 deep dive "Two blind men frame the road" is now the complete treatment (table, blind-men frame, hodos as road/way, Acts 9:2 and 24:14 "the Way", pointer to 10:45). The 8:27 note is cut to the hodos word study (no pattern, no Acts); the 8:24 and 8:31 notes and ch. 8 view L now point to the chapter page instead of restating the pattern. Part 10-12 trims its version (lead coordinates).
-2. Accepted (lead decision). 7:2 "with common hands, which means unwashed hands"; 7:5 "with common hands". 7:2 note re-anchored on "common hands" and says why the Plain keeps "common" (Acts 10:14, 28); gloss added at 7:5 ("hands not rinsed in the ritual way"). κοινόω stays "make unclean" as Matthew 15.
+2. Accepted (lead decision). 7:2 "with common hands, which means unwashed hands"; 7:5 "with common hands". 7:2 note re-anchored on "common hands" and says why the Plain English Translation keeps "common" (Acts 10:14, 28); gloss added at 7:5 ("hands not rinsed in the ritual way"). κοινόω stays "make unclean" as Matthew 15.
 3. Accepted. New variants at 7:2 (ἐμέμψαντο, KJV "they found fault") and 9:31 ("after three days" / "the third day"), witnesses attributed cautiously; 8:31 note now says "in the oldest manuscripts" and points to the variants. Smaller Byzantine differences: new 7:14 note (palin/panta, with 7:35 "straightway"); sentences added to the 9:38 note (doubled "who does not follow us") and the 9:47 note ("the fire of Gehenna", as Matthew 18:9).
 4. Partly accepted. 7:28: witnesses now named (D, W, Θ, f13, some Old Latin for the omission; WH/Tregelles/THGNT with ℵ B A and Byz for "Yes"), and the switched reading is "True, Lord" as Matthew 15:27. 8:21: the claim that THGNT and Tregelles read the Byzantine form is removed (TAGNT shows only their πῶς); manuscripts are not named because no source available here (Tischendorf's digitized apparatus stops before Mark 7) lets me verify them, and the entry says so.
 5. Accepted. 9:41 note: preview now "The only place in Jesus' own words where Mark uses 'Christ' without the article... Compare 1:1"; body names the arthrous uses (8:29; 12:35; 13:21; 14:61; 15:32) and 1:1 as the title.
@@ -327,7 +327,7 @@ appears three times in one chapter.
 11. Accepted. 9:1 note preview "Five main answers". The ch. 9 deep dive is replaced by a new one, "Three sayings about the time (9:1; 13:30; 13:32)", which does not re-list the views but shows how each handles 13:30 and 13:32.
 12. Accepted. 8:1 note: "On the numbers of baskets, see 8:19."
 13. Accepted. 8:19 note: the seven nations of Canaan (Deuteronomy 7:1; Acts 13:19), the seven helpers of Acts 6:3, or completeness; Genesis 10 dropped from text and `r`.
-14. Accepted. 8:17 note quotes 6:52's Plain: "their hearts had turned hard".
+14. Accepted. 8:17 note quotes 6:52's Plain English Translation: "their hearts had turned hard".
 15. Accepted. 7:21 preview: "Matthew trims it and orders it like the commandments"; body says what Matthew keeps.
 16. Accepted. 7:27 note: the diminutive "many read as 'house dogs'... whether it still softened the word is debated".
 17. Accepted. vermes-jesus-jew replaced in the 7:15 note and 7:14–15 setting by new keys vermes-religion-jesus (The Religion of Jesus the Jew, 1993) and dunn-ritual-purity (Dunn, "Jesus and Ritual Purity... Mark 7,15", in Jesus, Paul and the Law, 1990); Dunn named in both.
@@ -336,11 +336,11 @@ appears three times in one chapter.
 20. Accepted. 8:10 variant lists D, Θ, f1, f13 and the forms (Melegada, Magaida, Magdala) as reported by Metzger, without matching form to witness.
 21. Accepted. 9:12 "Then how is it that Scripture says of the Son of Man that he must suffer much and be counted as nothing?"
 22. Accepted. 9:49 "For everyone will be salted with fire." Variant `a` and all three `plain`s, the note anchor and the 9:42–50 setting quote updated.
-23. Accepted all six. 7:18 "Everything that enters a person from outside" (= Matthew 15:17); 7:21 "For it is from inside, from people's hearts, that the evil plans come out" (note re-anchored); 8:38 "when he comes" (note re-anchored); 7:31 "in the middle of the Decapolis territory" (note re-anchored); 7:25 "But at once a woman heard about him"; 9:38 "We kept trying to hinder him" with 9:39 "Stop hindering him" (= Luke 9:50 Plain).
+23. Accepted all six. 7:18 "Everything that enters a person from outside" (= Matthew 15:17); 7:21 "For it is from inside, from people's hearts, that the evil plans come out" (note re-anchored); 8:38 "when he comes" (note re-anchored); 7:31 "in the middle of the Decapolis territory" (note re-anchored); 7:25 "But at once a woman heard about him"; 9:38 "We kept trying to hinder him" with 9:39 "Stop hindering him" (= Luke 9:50 Plain English Translation).
 24. Accepted (lead decision). The Rome setting is stated in full once (7:6–13, with Syria/Galilee named as alternatives); the other 18 `readers` go straight to the point, and 8:34–9:1 and 9:42–50 say "if, as most think, they were in Rome". Every card whose saying Matthew or Luke sets differently now says so in `why` (15 cards).
 25. Accepted. "Jesus persuaded" view names Sharon Ringe (new key ringe-gentile-woman, "A Gentile Woman's Story", 1985), also in the 7:27 note.
 26. Accepted. collins-mark, france-mark and hooker-mark removed from this part's sources.json; the build finds 01-03's.
 27. Accepted. Gloss: "the valley of fire, the place of final judgment".
-28. Accepted. 8:30 note: "in 8:30–33 the Plain keeps 'rebuke' all three times", and says 10:13 and 10:48 fit the English to the scene (lead decision: no forced single word).
+28. Accepted. 8:30 note: "in 8:30–33 the Plain English Translation keeps 'rebuke' all three times", and says 10:13 and 10:48 fit the English to the scene (lead decision: no forced single word).
 29. Covered by 11 (the 9:1 view list now appears once, in the note).
-Also: two Luke quotes in this part's notes (9:6 note, Luke 9:33; 9:13 note, Luke 1:17) were brought to Luke's new Plain. Check: VERBOSE=1 --check Mrk/07-09, 0 errors, 0 warnings.
+Also: two Luke quotes in this part's notes (9:6 note, Luke 9:33; 9:13 note, Luke 1:17) were brought to Luke's new Plain English Translation. Check: VERBOSE=1 --check Mrk/07-09, 0 errors, 0 warnings.

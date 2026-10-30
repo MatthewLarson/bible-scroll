@@ -52,8 +52,8 @@ through their topics.json.
 
 ## Parallels with Matthew (the model)
 
-Matthew's Plain is published and is the model (brief-nt.md, "Parallel passages"). Where Mark's Greek matches
-Matthew's, Mark's Plain matches Matthew's word for word; where the Greek differs, the English differs exactly there.
+Matthew's Plain English Translation is published and is the model (brief-nt.md, "Parallel passages"). Where Mark's Greek matches
+Matthew's, Mark's Plain English Translation matches Matthew's word for word; where the Greek differs, the English differs exactly there.
 Read the Matthew parallel's plain.txt before writing each pericope (`content/books/Mat/parts/*/plain.txt`) and give the
 parallels in notes or chapter `echoes`. Matthew's model wording already fixed (Mat/progress.md): "Repent, because the
 kingdom of heaven has drawn near" (Mark has "kingdom of God" and "The time has been fulfilled", 1:15); "tripped up"
@@ -149,9 +149,9 @@ setting differs from Matthew's, say so.
 
 ## Lead decisions
 
-- **Parallels (2026-10-25, review):** Mark follows Matthew's published Plain where the Greek matches; where Matthew varies its English for one Greek verb (ἐπιτιμάω "spoke sternly / strict orders / rebuke"; κηρύσσω "preach / announce / proclaim"), Mark follows the parallel and the notes that argue from the link name the Greek word.
+- **Parallels (2026-10-25, review):** Mark follows Matthew's published Plain English Translation where the Greek matches; where Matthew varies its English for one Greek verb (ἐπιτιμάω "spoke sternly / strict orders / rebuke"; κηρύσσω "preach / announce / proclaim"), Mark follows the parallel and the notes that argue from the link name the Greek word.
 - **Fixed wordings:** πάντα δυνατά "anything is possible" (9:23; 10:27; 14:36 = Matthew 19:26); κοινός "common" at 7:2, 5 (κοινόω stays "make unclean"); σχίζω "torn" (1:10 "tearing open"; 15:38) but διαρρήγνυμι "ripped" (14:63); ἐξίστημι "beside themselves"; "a ransom in place of many" (10:45 = Matthew 20:28); "pick up his cross"; "the message" for ὁ λόγος; "Be muzzled"; "John the Baptizer" / "the Baptist" kept distinct; "real nard"; "forecourt"; lowercase "temple".
-- **1:41:** the Plain follows SBL's "angry" (ὀργισθείς) as the harder reading; the variant gives the far stronger manuscript support for "moved with compassion". (The first brief wrongly said SBL reads "compassion".)
+- **1:41:** the Plain English Translation follows SBL's "angry" (ὀργισθείς) as the harder reading; the variant gives the far stronger manuscript support for "moved with compassion". (The first brief wrongly said SBL reads "compassion".)
 - **The road (8:22–10:52):** the full treatment is the Mark 8 deep dive; chapter 10 points to it.
 - **Settings:** each card says where Matthew or Luke set the saying differently; the Roman-church setting is stated once with its alternatives, not on every card.
 - **Luke** follows these wordings where its Greek matches Mark's.

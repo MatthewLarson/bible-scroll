@@ -6,7 +6,7 @@ Checks run: `node tools/build.js --check Lev/01-16` gives 0 errors and 0 warning
 
 ## Verdict
 
-The literal-line method worked for the translation itself. I read all 490 verses against `tools/literal.js`, and against the ESV and NIV wording I know. I found no run of NIV or ESV phrasing in Plain English 1–16. The few exact matches (for example "Whatever touches them will become holy," 6:18) are the only natural rendering of the Hebrew, and they do not need redoing. This is a real improvement on earlier parts. The method has moved the risk to two other places:
+The literal-line method worked for the translation itself. I read all 490 verses against `tools/literal.js`, and against the ESV and NIV wording I know. I found no run of NIV or ESV phrasing in Plain English Translation 1–16. The few exact matches (for example "Whatever touches them will become holy," 6:18) are the only natural rendering of the Hebrew, and they do not need redoing. This is a real improvement on earlier parts. The method has moved the risk to two other places:
 
 - **The notes still quote other books in ESV or NIV wording.** Most of the Hebrews quotes, plus 1 Peter, Acts, Mark, Malachi and others, are ESV or NIV word for word. Some also disagree with the site's own Genesis, Exodus, Numbers and Leviticus text.
 - **The literalness hurts readability.** Sentences average 19.7 words, and 116 run over 30 words. Hebrew word order is copied ("Its insides and its legs he is to wash"). Calques like "If his hand cannot reach as far as a sheep" are left in the text. At four places in chapters 4–5, "does one of the LORD's commands, things that are not to be done" reads in English as obeying God.
@@ -35,7 +35,7 @@ Location: plain.txt (30 verses), notes, glosses, chapters, topics, book.json.
 
 Evidence: STYLE ("'offering' for korban") and Numbers book.json `terms` (`["korban","offering"]`). Part 17-27 uses "offering" (17:4; 22:18). book.json itself announces the split: "In chapters 1–16 the general word korban ... is 'gift'; in 17–27 it is usually 'offering.'"
 
-Every Plain English place where קׇרְבָּן (H7133) is "gift" (checked word by word against `texts/orig`):
+Every Plain English Translation place where קׇרְבָּן (H7133) is "gift" (checked word by word against `texts/orig`):
 1:2 (twice), 1:3, 1:10, 1:14 (twice), 2:1 (twice), 2:4, 2:5, 2:7, 2:12, 2:13 (twice), 3:1, 3:2, 3:6, 3:7, 3:8, 3:12, 3:14, 4:23, 4:28, 4:32, 5:11, 6:20, 7:13, 7:14, 7:15, 7:16, 7:29, 7:38, 9:7, 9:15.
 
 Several verses need recasting, not a word swap. "a gift of grain offering" (2:1, 2:4) would become "an offering of grain offering." Suggested shape:
@@ -107,7 +107,7 @@ Fix: retranslate each quotation from the Greek or Hebrew, as the main text was d
 
 Location: plain.txt 4:13, 4:22, 4:27, 5:17.
 
-Evidence: The Hebrew is וְעָשׂוּ אַחַת מִכׇּל־מִצְוֺת יְהוָה אֲשֶׁר לֹא־תֵעָשֶׂינָה, "do one of all the LORD's commands [about things] which are not to be done." The Plain English reads "they do one of the LORD's commands, things that are not to be done" (4:13), and the same in 4:22, 4:27 and 5:17. An 8th-grade reader hears "do one of the LORD's commands" as obeying. 4:2 is safe only because it has "sins ... against."
+Evidence: The Hebrew is וְעָשׂוּ אַחַת מִכׇּל־מִצְוֺת יְהוָה אֲשֶׁר לֹא־תֵעָשֶׂינָה, "do one of all the LORD's commands [about things] which are not to be done." The Plain English Translation reads "they do one of the LORD's commands, things that are not to be done" (4:13), and the same in 4:22, 4:27 and 5:17. An 8th-grade reader hears "do one of the LORD's commands" as obeying. 4:2 is safe only because it has "sins ... against."
 
 Fix: for example 4:13, "and they do any one of the things the LORD commanded not to be done." Apply the same in 4:22, 4:27 and 5:17.
 
@@ -435,7 +435,7 @@ Writer of part 01-16, 2026-10-23. `--check Lev/01-16`, `--check Lev` (859 verses
 16. Done. "Coined" is changed to "made standard" (1:4).
 17. Done. The 1:2 note adds that the Talmud derives the ruling from 22:18.
 18. Done. Eruvin 63a is added to the 10:1 note, the ch10 deep section and the nadab-and-abihu topic.
-19. Done. Leviticus, Genesis, Exodus and Numbers are now quoted in the site's Plain wording: 17:11, 5:5, 15:31, Genesis 6:9, Genesis 17:1, Exodus 24:10–11, Exodus 32:4, Numbers 6:24–25 and Numbers 12:12.
+19. Done. Leviticus, Genesis, Exodus and Numbers are now quoted in the site's Plain English Translation wording: 17:11, 5:5, 15:31, Genesis 6:9, Genesis 17:1, Exodus 24:10–11, Exodus 32:4, Numbers 6:24–25 and Numbers 12:12.
 20. Done. Changed to "Hebrews 10:1" and "Mark 5:25–34; Mark 5:41".
 21. Done. The siglum is now 4QpapLXXLev-b in book.json and the topic.
 22. Done. 16:2 is now "not to come at just any time"; 6:2 "his neighbor"; 12:4 "the sanctuary"; and 13:55 "the back side or the front side", with a gloss. 10:3 is marked as two lines with " / ". At 10:6 the text says "let your hair hang loose", and a gloss gives the literal "let your heads go loose".

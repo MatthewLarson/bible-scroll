@@ -2,7 +2,7 @@
 
 ## Verdict
 
-This is a strong part. The Plain English holds close to the Hebrew in all 237 verses, which I compared with `node tools/literal.js 2Sa 1`–`10`. Names, numbers and who-does-what are right. Key terms follow `content/terms.json`: "loyal love," "the LORD of Armies," "the LORD's anointed," "ruler" for *nagid*, "Lord GOD," "skin disease" and "resident foreigner." The two laments and the oracle in chapter 7 are set as faithful poetry and prose. I found no real NIV/ESV dependence, only four short, natural overlaps. The builds pass: `--check 2Sa/01-10` and `--check 2Sa` both give 0 errors and 0 warnings.
+This is a strong part. The Plain English Translation holds close to the Hebrew in all 237 verses, which I compared with `node tools/literal.js 2Sa 1`–`10`. Names, numbers and who-does-what are right. Key terms follow `content/terms.json`: "loyal love," "the LORD of Armies," "the LORD's anointed," "ruler" for *nagid*, "Lord GOD," "skin disease" and "resident foreigner." The two laments and the oracle in chapter 7 are set as faithful poetry and prose. I found no real NIV/ESV dependence, only four short, natural overlaps. The builds pass: `--check 2Sa/01-10` and `--check 2Sa` both give 0 errors and 0 warnings.
 
 The weak point is the Greek evidence. Several claims about the Septuagint are wrong, and I checked them against Brenton's English LXX (blueletterbible.org/bes/2sa/1, /3, /6, and biblehub.com/sep/2_samuel/6.htm):
 - the variant at 6:13 says the Greek agrees with the Masoretic Text, and it does not;
@@ -45,7 +45,7 @@ The 4QSam-a reading "seven bulls and seven rams" also appears as a plain fact in
 
 ### 2. Major. variants.json 6:7 (and 6:6 "Nacon"): the reading followed is a reconstruction, and the Greek evidence is left out
 
-The Plain follows "because he had reached out his hand to the ark" on the strength of 4QSam-a "as reported" and 1 Chronicles 13:10. Two problems:
+The Plain English Translation follows "because he had reached out his hand to the ark" on the strength of 4QSam-a "as reported" and 1 Chronicles 13:10. Two problems:
 - The scroll is broken at this point, so the longer clause there is a reconstruction based on spacing.
 - The LXX, which the entry never mentions, has neither the MT's *al-hashshal* nor the Chronicles clause. Brenton: "God smote him there: and he died there by the ark of the Lord before God." The Greek also adds "before God," which matches 1 Chronicles 13:10 and 4QSam-a.
 
@@ -91,7 +91,7 @@ But 21:8 names two sons of Saul by Rizpah, Armoni and a second Mephibosheth, sti
 
 ### 7. Major. notes.json 6:20 "'Honor' and 'lowness'": two different Hebrew words are confused, and one reference points nowhere
 
-Michal's word is *hareqim*, "the empty ones," as in Judges 9:4 and 11:3. The note says the insult is the one "used of the troublemakers in 1 Samuel 25:25 and 30:22." Those verses use *beliyya'al*, which `terms.json` renders "worthless." So the Plain uses "worthless" for two different Hebrew words, and the note teaches the reader that they are the same.
+Michal's word is *hareqim*, "the empty ones," as in Judges 9:4 and 11:3. The note says the insult is the one "used of the troublemakers in 1 Samuel 25:25 and 30:22." Those verses use *beliyya'al*, which `terms.json` renders "worthless." So the Plain English Translation uses "worthless" for two different Hebrew words, and the note teaches the reader that they are the same.
 
 Also, "and 30:22" is a bare reference, so it reads as 2 Samuel 30:22, a chapter that does not exist.
 
@@ -102,7 +102,7 @@ Also, "and 30:22" is a bare reference, so it reads as 2 Samuel 30:22, a chapter 
 
 ### 8. Minor. 3:7: the speaker's name is supplied without a variants.json entry, and a Greek plus is missing
 
-The MT has only "and he said." The Plain supplies "Ish-bosheth," and the explanation sits only in a `word/var` note. STYLE asks for variants.json in such cases.
+The MT has only "and he said." The Plain English Translation supplies "Ish-bosheth," and the explanation sits only in a `word/var` note. STYLE asks for variants.json in such cases.
 
 Brenton's Greek reads "Jebosthe son of Saul said to Abner." Vaticanus reads "Memphibosthe." The Lucianic Greek, and 4QSam-a as reported, also add "and Abner took her" after Rizpah's name. The chapter 3 summary relies on exactly that point ("Abner takes Saul's concubine").
 
@@ -183,7 +183,7 @@ Each needs a source or should go. The best-known rabbinic passage on these chapt
 
 - **9:4 "Lo-debar."** Typed `word` but has no `orig` or `kind`.
 - **2:8 Ish-bosheth name note.** Tagged `top: abner`, which only works because of the alias problem in finding 19.
-- **3:12 and 3:7.** The *ketiv/qere* notes are correct. At 1:16 (*dameka/dameyka*) and 3:15 (*Lush/Laish*), the Plain silently follows the Qere. That is fine, but one line in the 1:8 Ketiv/Qere note saying it is the practice throughout would help.
+- **3:12 and 3:7.** The *ketiv/qere* notes are correct. At 1:16 (*dameka/dameyka*) and 3:15 (*Lush/Laish*), the Plain English Translation silently follows the Qere. That is fine, but one line in the 1:8 Ketiv/Qere note saying it is the practice throughout would help.
 
 ### 21. Minor. Shared and part sources
 
@@ -196,7 +196,7 @@ Each needs a source or should go. The best-known rabbinic passage on these chapt
 Accurate and balanced. Checked: Bava Batra 15a, Shabbat 56a, Tel Dan, the KJV subtitle "the Second Book of the Kings," 695 verses, and the dates of the reading list.
 
 Two suggestions:
-- **"About the translations"** lists the places where the Plain follows the Greek or the scroll. After findings 1–5, add 1:18/1:19 (Greek shown as an alternative) and adjust the 6:7 wording.
+- **"About the translations"** lists the places where the Plain English Translation follows the Greek or the scroll. After findings 1–5, add 1:18/1:19 (Greek shown as an alternative) and adjust the 6:7 wording.
 - **Image prompts.** The Mephibosheth prompt gives him crutches, which the text never mentions. Harmless, but "a young man who cannot walk, seated with help" would follow the text more closely.
 
 ## Fixes applied
@@ -204,7 +204,7 @@ Two suggestions:
 All fixes applied 2026-10-23 by the part writer. `--check 2Sa/01-10` and `--check 2Sa` both report 0 errors and 0 warnings.
 
 - **1 (6:13).** Rewrote the variant with three readings: the MT "an ox and a fat calf"; the LXX "a calf and lambs", with its "seven dancing groups"; and 4QSam-a "seven bulls and seven rams", labeled "as reported (Ulrich; DJD 17)". The new reason keeps the MT as the shortest reading and the one that fits the "six steps". Note 6:13 and the textual-history topic now use the same "as reported" label. The ch. 6 summary now says "after six steps".
-- **2 (6:7, 6:6).** Took the coordinator's lean: the Plain returns to the MT, "for his offense".
+- **2 (6:7, 6:6).** Took the coordinator's lean: the Plain English Translation returns to the MT, "for his offense".
   - The variant now has three readings: MT; LXX, with no reason given and "before God"; and 1 Chronicles 13:10 with 4QSam-a "as restored". It says plainly that the scroll's words are restored, not read.
   - The 6:7 note explains all three, and its anchor moved so it does not overlap the variant.
   - Added the Greek "Nachor" to the 6:6 name variant.
@@ -251,9 +251,9 @@ All fixes applied 2026-10-23 by the part writer. `--check 2Sa/01-10` and `--chec
 - **20 (note mechanics).**
   - 9:4: added the orig and kind fields.
   - 2:8: the `abner` tag now fits the retitled topic.
-  - 1:8: the Ketiv/Qere note now says the Plain follows the Qere throughout (1:16, 3:15).
+  - 1:8: the Ketiv/Qere note now says the Plain English Translation follows the Qere throughout (1:16, 3:15).
 - **21 (dss-english-bible).** Dropped the unverified "based on the World English Bible" wording.
 - **22 (book.json).**
-  - "About the translations" now names 1:18, 1:19 and 6:7 as places where the Plain keeps the Hebrew and shows the Greek. It also explains the Vaticanus/kaige point, which matches the 11–18 and 19–24 parts.
+  - "About the translations" now names 1:18, 1:19 and 6:7 as places where the Plain English Translation keeps the Hebrew and shows the Greek. It also explains the Vaticanus/kaige point, which matches the 11–18 and 19–24 parts.
   - The Mephibosheth prompt now has "a young man who cannot walk ... seated with help" in place of crutches.
 - **Drift audit.** I re-audited only the rewritten verses (5:24, 6:7, 6:20, 7:14, 7:18): all 5 changed, and the log records the reason for each. Totals for the part are now 35 variants, 79 glosses and 180 notes.

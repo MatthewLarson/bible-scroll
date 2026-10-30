@@ -1,6 +1,6 @@
 # Hostile review: Luke 9–10 (part 09-10)
 
-Reviewer: a separate hostile-review agent, not the writer. I checked every verse of plain.txt against the SBLGNT, the Byzantine text and the TAGNT edition marks in `texts/orig/Luk.json`. I compared each shared pericope with Matthew's published Plain and Mark's reviewed Plain (`content/books/Mrk/parts/*/plain.txt`). I also read all 96 notes, 17 variants, 38 glosses, both chapter pages (20 settings cards, 3 traditions cards, 2 theory boxes), the 25 topic contributions, `proposals/nt/topics/discipleship.json` and the `letter-of-aristeas` entry in `proposals/nt/works.json`. Then I ran `VERBOSE=1 node tools/build.js --check Luk/09-10`.
+Reviewer: a separate hostile-review agent, not the writer. I checked every verse of plain.txt against the SBLGNT, the Byzantine text and the TAGNT edition marks in `texts/orig/Luk.json`. I compared each shared pericope with Matthew's published Plain English Translation and Mark's reviewed Plain English Translation (`content/books/Mrk/parts/*/plain.txt`). I also read all 96 notes, 17 variants, 38 glosses, both chapter pages (20 settings cards, 3 traditions cards, 2 theory boxes), the 25 topic contributions, `proposals/nt/topics/discipleship.json` and the `letter-of-aristeas` entry in `proposals/nt/works.json`. Then I ran `VERBOSE=1 node tools/build.js --check Luk/09-10`.
 
 ## Verdict
 
@@ -81,11 +81,11 @@ Counts: **0 critical, 7 major, 27 minor.**
 
 The witness lists above are what I recall from NA28 and Metzger. Verify each against NA28 or Metzger before writing it in, and attribute it ("as reported by NA28"). Do not copy my lists blind.
 
-**5. Major: the 9:35 variant switch produces a garbled verse.** The anchor is "the Chosen One" and the other reading's `plain` is "my dearly loved Son". A reader who switches gets "This is my Son, my dearly loved Son." The `b` field admits this instead of fixing it, against the project rule to fix causes. *Fix:* anchor "my Son, the Chosen One" (follow 0) with alternative plain "my dearly loved Son". This matches Mark 9:7's Plain, "This is my dearly loved Son." Remove the apology from `b`.
+**5. Major: the 9:35 variant switch produces a garbled verse.** The anchor is "the Chosen One" and the other reading's `plain` is "my dearly loved Son". A reader who switches gets "This is my Son, my dearly loved Son." The `b` field admits this instead of fixing it, against the project rule to fix causes. *Fix:* anchor "my Son, the Chosen One" (follow 0) with alternative plain "my dearly loved Son". This matches Mark 9:7's Plain English Translation, "This is my dearly loved Son." Remove the apology from `b`.
 
-**6. Major: 9:49 breaks the Mark parallel and the link to 9:50.** Luke's ἐκωλύομεν is Mark 9:38's ἐκωλύομεν, and Mark's Plain reads "We kept trying to hinder him." Luke has "We kept trying to stop him," then "Stop hindering him" in 9:50 (μὴ κωλύετε, = Mark 9:39 "Stop hindering him"). The exchange turns on John's verb being thrown back at him, and the Plain loses that while breaking the parallel. *Fix:* "We kept trying to hinder him, since he does not follow along with us." The second clause differs correctly from Mark (Luke: present tense, μεθ' ἡμῶν).
+**6. Major: 9:49 breaks the Mark parallel and the link to 9:50.** Luke's ἐκωλύομεν is Mark 9:38's ἐκωλύομεν, and Mark's Plain English Translation reads "We kept trying to hinder him." Luke has "We kept trying to stop him," then "Stop hindering him" in 9:50 (μὴ κωλύετε, = Mark 9:39 "Stop hindering him"). The exchange turns on John's verb being thrown back at him, and the Plain English Translation loses that while breaking the parallel. *Fix:* "We kept trying to hinder him, since he does not follow along with us." The second clause differs correctly from Mark (Luke: present tense, μεθ' ἡμῶν).
 
-**7. Major: Bezae's reading at 10:41–42 is misrepresented.** The third reading says Codex Bezae and some Old Latin simply omit "There is need of only one thing." As reported by Metzger and NA28, D and Old Latin witnesses omit more: "you are worried and in a turmoil over many things" plus the need clause, reading roughly "Martha, Martha, you are troubled; Mary has chosen ...". Switching to that reading shows a 10:41 that Bezae does not have. *Fix:* describe Bezae's wording accurately in `w`/`b` (verify against Metzger), give its Greek instead of "(omitted)", and say that the switch only removes the 10:42 clause. Also: the followed text (NA28) has Μαριὰμ γάρ, and the Plain drops the "for" (see 15).
+**7. Major: Bezae's reading at 10:41–42 is misrepresented.** The third reading says Codex Bezae and some Old Latin simply omit "There is need of only one thing." As reported by Metzger and NA28, D and Old Latin witnesses omit more: "you are worried and in a turmoil over many things" plus the need clause, reading roughly "Martha, Martha, you are troubled; Mary has chosen ...". Switching to that reading shows a 10:41 that Bezae does not have. *Fix:* describe Bezae's wording accurately in `w`/`b` (verify against Metzger), give its Greek instead of "(omitted)", and say that the switch only removes the 10:42 clause. Also: the followed text (NA28) has Μαριὰμ γάρ, and the Plain English Translation drops the "for" (see 15).
 
 ### Minor
 
@@ -93,9 +93,9 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 
 **9. Minor: μένω is rendered inconsistently.** 9:4 has "remain there," 10:7 has "Stay in that same house," and Mark 6:10 has "stay there." *Fix:* "stay there" at 9:4.
 
-**10. Minor: 9:7 loses the "because."** The Greek has διηπόρει διὰ τὸ λέγεσθαι: he was at a loss *because* some were saying. The Plain makes two unconnected sentences. *Fix:* "...and he could not make sense of it, because some people were saying ...".
+**10. Minor: 9:7 loses the "because."** The Greek has διηπόρει διὰ τὸ λέγεσθαι: he was at a loss *because* some were saying. The Plain English Translation makes two unconnected sentences. *Fix:* "...and he could not make sense of it, because some people were saying ...".
 
-**11. Minor: 9:32 διαγρηγορήσαντες.** It can mean "having stayed awake" or "when they became fully awake." The Plain takes one sense silently, and the note at 9:32 builds on it ("they nearly missed it, but they stayed awake"). *Fix:* add the other reading to that note.
+**11. Minor: 9:32 διαγρηγορήσαντες.** It can mean "having stayed awake" or "when they became fully awake." The Plain English Translation takes one sense silently, and the note at 9:32 builds on it ("they nearly missed it, but they stayed awake"). *Fix:* add the other reading to that note.
 
 **12. Minor: 10:18 "I was watching Satan, fallen like lightning."** After a verb of seeing, the aorist participle πεσόντα normally means "watching Satan fall." "Fallen" turns the event into a state. *Fix:* "I was watching Satan fall like lightning out of heaven." Update the note and the `satan` topic heading, which quote it.
 
@@ -111,11 +111,11 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 
 10:11 "unto you" is handled in a note, which is fine. Add short entries at least for 9:57 and 10:19, or one note that names the rest.
 
-**15. Minor: dropped γάρ.** At 9:50 (ὃς γὰρ οὐκ ἔστιν) and 10:42 (Μαριὰμ γάρ, in NA28 as well as SBL) the Plain drops "for." In 10:42 the "for" gives the reason why one thing is enough. *Fix:* "...is on your side, for anyone ..." or start with "For"; at 10:42 "...only one thing, for Mary has picked out the good share ...".
+**15. Minor: dropped γάρ.** At 9:50 (ὃς γὰρ οὐκ ἔστιν) and 10:42 (Μαριὰμ γάρ, in NA28 as well as SBL) the Plain English Translation drops "for." In 10:42 the "for" gives the reason why one thing is enough. *Fix:* "...is on your side, for anyone ..." or start with "For"; at 10:42 "...only one thing, for Mary has picked out the good share ...".
 
 **16. Minor: NIV/ESV wording outside plain.txt.**
 - The gloss on 9:62, "fit to serve in God's kingdom," brings in the NIV's interpretive "for service," which the Greek does not have.
-- The chapter 10 theory box says "Jesus himself has nowhere to lay his head (9:58)," which is the NIV/ESV phrasing. The site's Plain is "does not have anywhere to rest his head."
+- The chapter 10 theory box says "Jesus himself has nowhere to lay his head (9:58)," which is the NIV/ESV phrasing. The site's Plain English Translation is "does not have anywhere to rest his head."
 
 *Fix:* gloss "good enough for God's kingdom," and use the site's wording in the box.
 
@@ -143,7 +143,7 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 
 **28. Minor: note 9:33 ("Master") mischaracterizes the speakers.** It says the title always comes "from disciples or people near him." In 17:13 it comes from men with skin disease who "stood at a distance." *Fix:* "from disciples and from people asking his help."
 
-**29. Minor: note 10:6 (A son of peace) quotes Luke differently from Luke's own Plain.** It gives "sons of this age" (16:8; 20:34) and "sons of light" (16:8). Luke's Plain at 16:8 and 20:34 reads "children of this age" and "children of light." *Fix:* "literally 'sons of this age' (16:8, 'children of this age')."
+**29. Minor: note 10:6 (A son of peace) quotes Luke differently from Luke's own Plain English Translation.** It gives "sons of this age" (16:8; 20:34) and "sons of light" (16:8). Luke's Plain English Translation at 16:8 and 20:34 reads "children of this age" and "children of light." *Fix:* "literally 'sons of this age' (16:8, 'children of this age')."
 
 **30. Minor: the chapter 10 J lens misplaces Hillel and Akiva.** It says love of God and neighbor was joined in "later Hillel and Akiva." Hillel was active before and during Jesus' youth, and neither saying joins the two commandments. Hillel's summary is the negative golden rule (Babylonian Talmud, Shabbat 31a). Akiva calls Leviticus 19:18 "a great principle of the Torah" (Sifra). *Fix:* name them as summarizing the law through love of neighbor, not as joining the two.
 
@@ -153,7 +153,7 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 
 **33. Minor: two loose attributions in the variants.**
 - 9:55 `why` says Metzger judged the words "perhaps a saying of Jesus known in oral tradition." I could not confirm that wording in Metzger. Check it, or attribute it more loosely ("some scholars").
-- 9:3 `p` says the plural "staves" is "as in Matthew 10:10." That is true only of the Byzantine/TR text of Matthew. The critical text of Matthew 10:10, like this site's Matthew Plain ("no staff"), is singular. *Fix:* "as in the Byzantine text of Matthew 10:10."
+- 9:3 `p` says the plural "staves" is "as in Matthew 10:10." That is true only of the Byzantine/TR text of Matthew. The critical text of Matthew 10:10, like this site's Matthew Plain English Translation ("no staff"), is singular. *Fix:* "as in the Byzantine text of Matthew 10:10."
 
 **34. Minor: the first theory box claims too much originality, and the second needs a named overlap.**
 - Chapter 9, "fire refused, Spirit given in Samaria": the John of 9:54 / John of Acts 8:14 pairing is commonly drawn in commentaries on Luke-Acts (e.g. Tannehill's *Narrative Unity of Luke-Acts*). Calling the "deliberate pair" reading "my own" claims more than it should. *Fix:* say the pairing is widely noted, and that the box's own contribution is only the claim that Luke designed it through John.
@@ -181,7 +181,7 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 12. Fixed: 10:18 "I was watching Satan fall like lightning out of heaven"; note anchor and grammar line, the 9:29 note's quote and the `satan` topic heading updated.
 13. Fixed: the 9:56 reading now closes its quotation.
 14. Fixed: new variant entries for 9:1 (TR "his twelve disciples"), 9:7 (Byz/TR "by him", not listed by the reviewer but the same kind), 9:43 ("which Jesus did"), 9:57 ("Lord"), 10:19 ("I give"), 10:20 (TR "rather"; the KJV's "are written" mentioned) and 10:35 ("when he departed"), from the edition marks in texts/orig; manuscripts marked unchecked.
-15. Partly: 10:42 now "For Mary has picked out the good share". Declined at 9:50: Mark 9:40's Plain (same Greek, ὃς γάρ) also leaves the "for" unexpressed, and Luke follows Mark where the Greek matches; the lead may want both changed together.
+15. Partly: 10:42 now "For Mary has picked out the good share". Declined at 9:50: Mark 9:40's Plain English Translation (same Greek, ὃς γάρ) also leaves the "for" unexpressed, and Luke follows Mark where the Greek matches; the lead may want both changed together.
 16. Fixed: gloss on 9:62 "good enough for God's kingdom"; the chapter 10 theory box quotes the site's 9:58.
 17. Fixed: gloss on 9:5 "as a warning that will count against them".
 18. Fixed: "Paul refers to the Lord's command behind its saying about the worker's pay (1 Corinthians 9:14)".
@@ -195,7 +195,7 @@ The witness lists above are what I recall from NA28 and Metzger. Verify each aga
 26. Fixed: "Paul echoes the same verse".
 27. Fixed: Wisdom of Solomon 3:2–3, "thought an affliction and their leaving a disaster".
 28. Fixed: "from disciples or from people asking his help".
-29. Fixed: "literally 'sons of this age' (16:8; 20:34, where the Plain has 'children of this age')" and "children of light".
+29. Fixed: "literally 'sons of this age' (16:8; 20:34, where the Plain English Translation has 'children of this age')" and "children of light".
 30. Fixed: chapter 10 J lens no longer says Hillel and Akiva joined the two commandments: Hillel's negative golden rule (Shabbat 31a), Akiva on Leviticus 19:18 (Sifra).
 31. Fixed: note 9:2 `r` now has Acts 4:30 and Acts 8:6–7.
 32. Fixed: Origen dropped; "Many interpreters, such as Fitzmyer".

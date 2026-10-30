@@ -2,7 +2,7 @@
 
 ## Verdict
 
-The Plain is accurate and readable. I found no mistranslation of substance in the 91 verses, and the variant entries are mostly right. The weak points are in the supporting material. One Talmud attribution is plainly wrong (Rosh Hashanah 16b-17a). Several tradition summaries are unfair or mis-cited: Reformed natural theology, the Catholic citation at 4:5, the Calvin and "all believers build" attribution at 3:10-17, and the readings line that lumps Augustine and the Orthodox at ch. 3. Edition claims in the variants disagree with the Greek word list (1:14, 2:4). Some patristic and Qumran claims have no source key. Several Plain lines sit close to ESV or NIV wording. The "temple" choice for *naos* conflicts with the existing terms entry for the Synoptics and Acts. `node tools/build.js --check 1Co/01-04` reports 0 warnings and 2 errors. Both errors are in `proposals/nt/topics/new-covenant.json` (the name "new covenant" also leads to topic `covenant`), which is another writer's file and not this part's. This part is otherwise clean. I did not edit any content.
+The Plain English Translation is accurate and readable. I found no mistranslation of substance in the 91 verses, and the variant entries are mostly right. The weak points are in the supporting material. One Talmud attribution is plainly wrong (Rosh Hashanah 16b-17a). Several tradition summaries are unfair or mis-cited: Reformed natural theology, the Catholic citation at 4:5, the Calvin and "all believers build" attribution at 3:10-17, and the readings line that lumps Augustine and the Orthodox at ch. 3. Edition claims in the variants disagree with the Greek word list (1:14, 2:4). Some patristic and Qumran claims have no source key. Several Plain English Translation lines sit close to ESV or NIV wording. The "temple" choice for *naos* conflicts with the existing terms entry for the Synoptics and Acts. `node tools/build.js --check 1Co/01-04` reports 0 warnings and 2 errors. Both errors are in `proposals/nt/topics/new-covenant.json` (the name "new covenant" also leads to topic `covenant`), which is another writer's file and not this part's. This part is otherwise clean. I did not edit any content.
 
 Findings: 0 critical, 7 major, 21 minor.
 
@@ -59,8 +59,8 @@ Findings: 0 critical, 7 major, 21 minor.
    - These are mostly forced by the Greek. Rewrite 3:15, 2:14 and 4:13 at least.
 
 10. **Minor. variants.json, missing entries.**
-   - 4:2: Plain has "moreover" but drops *hōde*. SBL/NA28 read ὧδε λοιπόν. Byz reads ὃ δὲ λοιπόν (KJV "Moreover it is required"). Add an entry. A KJV reader sees the difference, and "here" is not in the Plain.
-   - 1:28: καὶ before "τὰ μὴ ὄντα" (WH, TR, Byz; KJV "and things which are not"). The Plain has no "and". Add an entry.
+   - 4:2: Plain English Translation has "moreover" but drops *hōde*. SBL/NA28 read ὧδε λοιπόν. Byz reads ὃ δὲ λοιπόν (KJV "Moreover it is required"). Add an entry. A KJV reader sees the difference, and "here" is not in the Plain English Translation.
+   - 1:28: καὶ before "τὰ μὴ ὄντα" (WH, TR, Byz; KJV "and things which are not"). The Plain English Translation has no "and". Add an entry.
    - 4:13: δυσφημούμενοι (NA/SBL) against βλασφημούμενοι (Byz/TR; KJV "defamed"). Minor in sense, but KJV readers notice.
    - 4:17: "Christ Jesus" against "Christ" (NA28, SBL, WH vs THGNT).
    - 1:2: τε in TR and Byz. Optional.
@@ -73,7 +73,7 @@ Findings: 0 critical, 7 major, 21 minor.
 
 14. **Minor. notes.json 1:13.** "Paul's three questions all expect 'No'" is overstated. The first question has no negative particle, and many take μεμέρισται ὁ Χριστός as a statement ("Christ is divided"). The note also cites 6:11 and Matthew 28:19 as baptism "into the name of the Lord Jesus"; 6:11 is "washed ... in the name" and Matt 28:19 names the Father, Son and Spirit. Adjust.
 
-15. **Minor. notes.json 1:2 ("theirs and ours").** "Most take it with 'place'" is an unsupported consensus label. Commentators are split (Fee, Barrett, Garland and others differ). Say "commentators divide" or give a count with sources. The Plain follows the "place" reading, so keep the note.
+15. **Minor. notes.json 1:2 ("theirs and ours").** "Most take it with 'place'" is an unsupported consensus label. Commentators are split (Fee, Barrett, Garland and others differ). Say "commentators divide" or give a count with sources. The Plain English Translation follows the "place" reading, so keep the note.
 
 16. **Minor. notes.json 1:20.** The "wise = Greek sage, scribe = Jewish, debater = public disputer" division is given as the sense. Add the view that all three terms are Jewish or all one class (the title asks "or one figure in three words?" but the body does not answer). "Found only here in the Bible" for συζητητής: true of the NT; fine, but say "New Testament".
 
@@ -109,18 +109,18 @@ Findings: 0 critical, 7 major, 21 minor.
    - ch. 4 `views.H`: Paul's manual work and refusal of support as "a refusal of a patron's claim" is Marshall's thesis. Label it a view.
    - note 4:12: "The refusal is another reason for the quarrel" should be "may be".
 
-27. **Minor. Reading level.** The Plain at 2:4 ("not in the persuasion of wisdom, but in the proof of the Spirit") and 1:10 ("one mind and one view") read stiffly for 8th grade. The notes explain them, but consider "not in persuasive wisdom". Not a correctness matter.
+27. **Minor. Reading level.** The Plain English Translation at 2:4 ("not in the persuasion of wisdom, but in the proof of the Spirit") and 1:10 ("one mind and one view") read stiffly for 8th grade. The notes explain them, but consider "not in persuasive wisdom". Not a correctness matter.
 
 28. **Minor. Missing material.**
    - No note on "call on the name of our Lord" (1:2; Joel 2:32, YHWH language applied to Jesus). Note 1:8 covers a nearby point.
    - No note on whether Peter had been to Corinth (Cephas, 1:12). The Peter topic text does not say.
-   - 2:10: the Plain drops γάρ/δέ ("the Plain avoids both words"). Say so in the note as well as in the variant.
+   - 2:10: the Plain English Translation drops γάρ/δέ ("the Plain English Translation avoids both words"). Say so in the note as well as in the variant.
 
 ## Checked and found sound
 
 - Verse-by-verse translation against the SBL and Byz text, 1:1-4:21: no omissions, wrong tenses, wrong names or number errors found. Key terms (flesh, boast, wisdom, servant, bring to nothing, puffed up, brothers, saints, justify, the good news) are consistent with `terms.json`.
 - Cicero, *Pro Rabirio* 16; Josephus *Ant.* 20.97-98 and 20.167-168; Seneca *Letter* 7; Seneca *Ben.* 7; Mishnah *Eduyot* 2:10 (twelve months); 4Q169 (hanged men); 4Q174 (temple of men); 1QS 8:5 (planting); Justin, *Dialogue* 89-90; Baur 1831; Walker on 2:6-16; Pearson on *psychikos*; Welborn; Fitzgerald; Symeon of Emesa; Wesley sermon 9; Chafer 1918; CCC 1031 footnote citing 1 Cor 3:15; Westminster 1.6, 32.1; Article 22. All real and accurately described.
-- Every verse has a Plain line. Settings cards cover each section. The `spec` boxes are labeled and modest.
+- Every verse has a Plain English Translation line. Settings cards cover each section. The `spec` boxes are labeled and modest.
 
 ## Fixes applied
 
@@ -135,7 +135,7 @@ Applied 2026-10-29 (review-fixer). Source keys added in this part's sources.json
 7. Partly accepted. Origen now "traced the words to a lost writing he called the Secrets of Elijah" (key origen-comm-matthew-series); Jerome cited only for his commentary on Isaiah 64:4 (key jerome-isaiah); the Epistle number is not used. Not independently re-read in this pass.
 8. Accepted per the lead decision. "Temple" kept for naos; note 3:16 now says the Greek is naos (the inner house of the god), that Matthew-Acts use "sanctuary", and why Paul's image takes "temple"; gloss and `temple` topic text brought into line (no "sanctuary" as the part's word).
 9. Partly accepted. Rewrote 3:15 ("forfeit it ... yet like one who comes through fire"), 2:14 ("welcome") and 4:13 ("we appeal to them", with the new variant). 4:9 and 3:13 left: close wording is forced by the Greek. Anchors, glosses and note text for 3:15 updated.
-10. Accepted: new variants for 1:28 (kai), 4:2 (hode; Plain now keeps "Here, moreover"), 4:13 (dysphemoumenoi / blasphemoumenoi), 4:17 ("Jesus"). 1:2 (te) declined as optional and not visible in English.
+10. Accepted: new variants for 1:28 (kai), 4:2 (hode; Plain English Translation now keeps "Here, moreover"), 4:13 (dysphemoumenoi / blasphemoumenoi), 4:17 ("Jesus"). 1:2 (te) declined as optional and not visible in English.
 11. Partly accepted. The Metzger claim at 2:1 is replaced by the plain fact that the editions divide; the 3:5 witness list reduced to editions; "(as reported by NA28)" removed from 1:15 and 3:3. The manuscript lists at 1:15, 2:1 and 3:3 are unchanged and not re-checked against the apparatus (flag for the lead).
 12. Accepted. 2:6 note and ch. 2 settings hedged ("possibly", "may"); an "irony / the Corinthians' own words" view added to the 2:6-16 card.
 13. Accepted ("later in the letter").
@@ -153,7 +153,7 @@ Applied 2026-10-29 (review-fixer). Source keys added in this part's sources.json
 25. Accepted. sophia count is 15; pneuma wording now "8 pneuma plus 3 pneumatikos = 11"; the Gallio date and Paul's stay are separated in book.json facts and ch. 1; "few doubt" replaces "nothing ... seriously suspected" and Strugnell is named.
 26. Accepted. "A Roman court day" softened to "may point to"; Marshall named as the source of the patron view; "may have been another reason" at 4:12.
 27. Partly accepted. 2:4 is now "persuasive wisdom". 1:10 "one mind and one view" left: "view" renders gnome and is plain enough.
-28. Accepted. New note on "call on the name of our Lord" (1:2, Joel 2:32); Peter and Corinth added to the 1:12 note (Dionysius of Corinth via Eusebius); the 2:10 note now says the Plain drops gar/de.
+28. Accepted. New note on "call on the name of our Lord" (1:2, Joel 2:32); Peter and Corinth added to the 1:12 note (Dionysius of Corinth via Eusebius); the 2:10 note now says the Plain English Translation drops gar/de.
 
 ## Verification pass (2026-10-29)
 
@@ -172,8 +172,8 @@ Second, hostile look at the verification pass. Rule 2 followed here: only what I
 - 1:24 note, Wisdom of Solomon 7:25 "a breath of God's power". Verified (RSV/KJV pages: "breath of the power of God").
 - 4:7 note, Calvin cites Augustine against the Pelagians on 4:7. Verified (Calvin's comment as reproduced at biblehub.com/commentaries/calvin/1_corinthians/4.htm, read through a search result).
 - 1:2 note, Gaius (Romans 16:23) hosts "the whole church". Verified (`texts/en/Rom.json`: WEB "host of the whole assembly", BSB "hosted me and all the church").
-- 3:15 note, Amos 4:11 and Zechariah 3:2 "firewood snatched from the fire". Verified (`texts/en/Amo.json`, `Zec.json`: WEB "burning stick plucked out of the fire"; BSB "firebrand snatched"). The Plain's own words were not compared, only the sense.
-- 1:19 note, the quoted Plain of Isaiah 29:14. Verified: identical to `content/books/Isa/parts/24-30/plain.txt`.
+- 3:15 note, Amos 4:11 and Zechariah 3:2 "firewood snatched from the fire". Verified (`texts/en/Amo.json`, `Zec.json`: WEB "burning stick plucked out of the fire"; BSB "firebrand snatched"). The Plain English Translation's own words were not compared, only the sense.
+- 1:19 note, the quoted Plain English Translation of Isaiah 29:14. Verified: identical to `content/books/Isa/parts/24-30/plain.txt`.
 - 1:22 note, Josephus Antiquities 20.97-98 and 20.167-168, men leading crowds into the desert "promising signs of freedom". Partly wrong: a search result quoting Whiston gives 20.167-168 as impostors promising "wonders and signs", and puts the "deliverance and freedom" wording at 20.188 (the Festus passage). 20.97-98 (Theudas, Jordan) was verified in the log, but nothing opened has "freedom" there. See finding 2.
 - 1:12 note, "F. C. Baur (1831) read these as four parties". Unverifiable as written: the Wikipedia Baur page states the 1831 essay on the "Christ-party" and Jewish-Christian opposition; it does not mention four parties, Apollos or Cephas. See finding 3.
 

@@ -8,13 +8,13 @@ Reviewer: agent reviewer for Exo/01-15. Files reviewed: `parts/01-15/` plain.txt
 
 This is a strong part. The translation is accurate to the Hebrew almost everywhere. I found no omissions and no real mistranslations. Its key choices are good and consistent: "serve" for *'avad*, "Sea of Reeds," the three heart verbs kept apart (*chazaq* "stubborn," *kaved* "heavy," *qashah* "hard"), "I will be who I will be" tied to "I will be with you" (3:12), "made sport of," "sharpen its tongue." The Song of the Sea and the famous verses (3:14, 12:13, 14:14) are the writer's own work. The commentary is dense, well sourced and mostly accurate. I checked the rabbinic citations and nearly all are right: Sotah 11a–13a, 37a; Berakhot 3b–4a, 9b; Pesachim 50a, 53b; Sanhedrin 91a, 91b, 101a, 111a; Nedarim 31b–32a; Bekhorot 5b; Menachot 34b; Megillah 10b, 16b; Chagigah 12a; Shabbat 133b; Exodus Rabbah 1:26, 1:28, 2:5; Rashi throughout; Onkelos at 4:16, 8:22(26), 14:8, 15:2. The Egyptology also checks out: Papyrus Leiden 348, the Louvre Leather Roll, Anastasi IV and VI, Rekhmire, Soleb, the Brooklyn Papyrus Shiphrah, Wegner's birth brick, Drews and Han.
 
-The translation still has a dependence problem, though it is smaller than in Genesis. It runs mostly toward the **ESV**, not the NIV. Because the Plain is word-for-word in style, it often lands on the ESV's exact wording. By my count about 60 verses track the ESV closely and about 25 are verbatim or nearly so. A few match the NIV word for word (14:15, 12:27). The worst runs are 2:8–10, 2:16–17, 2:24–25, 7:21, 9:20–21, 9:31–33, 12:22–23, 12:30–31, 12:40–42, 13:13–15 and 14:19–22. After that, the main problems are these:
+The translation still has a dependence problem, though it is smaller than in Genesis. It runs mostly toward the **ESV**, not the NIV. Because the Plain English Translation is word-for-word in style, it often lands on the ESV's exact wording. By my count about 60 verses track the ESV closely and about 25 are verbatim or nearly so. A few match the NIV word for word (14:15, 12:27). The worst runs are 2:8–10, 2:16–17, 2:24–25, 7:21, 9:20–21, 9:31–33, 12:22–23, 12:30–31, 12:40–42, 13:13–15 and 14:19–22. After that, the main problems are these:
 
 1. A *spec* box (chapter 7) claims as original an idea that Wisdom of Solomon 11:6–7 states outright.
 2. Variants are missing: LXX "fifth generation" at 13:18, SP/LXX at 15:3 kept only as a note, 4QGen-Exod-a at 1:5, and no entry for the 7:18 expansion.
 3. The seven new topic cores have no sections. There is also a firstborn/blessing duplicate, and two topic links point the wrong way (`ark`, `dating`).
 4. The hardening material leaves out Sforno and names no Arminian.
-5. Quotations of other books (Revelation, John, Romans, Isaiah) are in NIV/ESV wording, not the site's own Plain.
+5. Quotations of other books (Revelation, John, Romans, Isaiah) are in NIV/ESV wording, not the site's own Plain English Translation.
 6. Major cross-references are missing (Luke 9:31, Psalm 114, Jude 5).
 7. About a dozen small factual slips need fixing.
 
@@ -30,9 +30,9 @@ book.json is accurate and fair, with a handful of small corrections.
 
 STYLE rule 1 says: "A reviewer checks every verse against the ESV and NIV, and close matches have to be redone." The ESV and NIV are not in the repo, so I compared from memory of the ESV (2016) and NIV (2011). The writer should confirm each one against a printed copy. Many short matches are forced by the Hebrew ("The LORD said to Moses," the genealogy of 6:14–25), and I have not counted those. What I count is a match where the ESV has made a choice the Hebrew does not force: its clause order, its connectives ("so that," "for"), its participles ("the waters being a wall to them"), its tense choices (the pluperfect "had done"), and its exact phrasing of an idiom. Matches with the BSB count too. The BSB is a source for checking, not for copying, and 8:6 is the BSB word for word.
 
-The clearest cases (Plain first, then the ESV or NIV):
+The clearest cases (Plain English Translation first, then the ESV or NIV):
 
-| Verse | Plain English | ESV / NIV |
+| Verse | Plain English Translation | ESV / NIV |
 |---|---|---|
 | 1:6 | "Then Joseph died, and all his brothers, and that whole generation." | ESV "Then Joseph died, and all his brothers and all that generation." |
 | 2:6 | "She felt pity for him and said, 'This is one of the Hebrews' children.'" | ESV "She took pity on him and said, 'This is one of the Hebrews' children.'" |
@@ -41,7 +41,7 @@ The clearest cases (Plain first, then the ESV or NIV):
 | 2:9 | "Take this child away and nurse him for me, and I will pay your wages myself.' So the woman took the child and nursed him." | ESV "Take this child away and nurse him for me, and I will give you your wages.' So the woman took the child and nursed him." |
 | 2:10 | "When the child was older, she brought him to Pharaoh's daughter, and he became her son. She named him Moses. 'Because,' she said, 'I drew him out of the water.'" | ESV "When the child grew older, she brought him to Pharaoh's daughter, and he became her son. She named him Moses, 'Because,' she said, 'I drew him out of the water.'" (whole verse) |
 | 2:16–17 | "They came and drew water and filled the troughs to water their father's flock. Then the shepherds came and drove them away. But Moses got up and saved them, and he watered their flock." | ESV "…they came and drew water and filled the troughs to water their father's flock. The shepherds came and drove them away, but Moses stood up and saved them, and watered their flock." |
-| 2:24–25 | "God heard their groaning, and God remembered his covenant with Abraham, with Isaac and with Jacob. God saw the people of Israel, and God knew." | ESV verbatim, including "the people of Israel," which the Plain otherwise renders "Israelites" |
+| 2:24–25 | "God heard their groaning, and God remembered his covenant with Abraham, with Isaac and with Jacob. God saw the people of Israel, and God knew." | ESV verbatim, including "the people of Israel," which the Plain English Translation otherwise renders "Israelites" |
 | 4:19 | "…because all the men who were seeking your life are dead." | ESV "for all the men who were seeking your life are dead." |
 | 4:20 | "So Moses took his wife and his sons, put them on the donkey and went back to the land of Egypt. And Moses took the staff of God in his hand." | ESV "So Moses took his wife and his sons and had them ride on a donkey, and went back to the land of Egypt. And Moses took the staff of God in his hand." |
 | 4:27 | "The LORD said to Aaron, 'Go into the wilderness to meet Moses.' So he went and met him at the mountain of God and kissed him." | ESV verbatim |
@@ -86,7 +86,7 @@ The clearest cases (Plain first, then the ESV or NIV):
 
 Other close matches worth another look: 2:13 ("the one in the wrong," NIV/BSB), 2:15, 2:20–21, 3:10, 3:12, 3:21–22, 4:9, 4:12, 4:16, 7:17, 7:23, 8:28 ("Plead for me," ESV), 9:11, 9:30, 9:33, 10:13, 11:8, 12:8, 12:12, 12:35–36, 12:43, 12:46, 13:2, 13:16, 14:2, 14:4, 14:7, 14:25 ("drove heavily"), 14:26, 15:22–23.
 
-**Fix:** Do another pass over chapters 2, 4, 7, 9 and 12–14, starting from the Hebrew. In the legal passages of 12–13, the ESV's sentence shapes come through. Break the "for whoever eats … that person will be cut off" frame, the "Take … dip … touch … with the blood that is in the basin" sequence, and the "the waters being a wall to them" participle. A useful check: the Plain says "the Israelites" for *bene Yisra'el* everywhere except where the ESV says "the people of Israel" (2:25). That is a sign of where the ESV crept in. The Song of the Sea and the famous verses (3:14, 12:13, 14:13–14) are the writer's own and need no change.
+**Fix:** Do another pass over chapters 2, 4, 7, 9 and 12–14, starting from the Hebrew. In the legal passages of 12–13, the ESV's sentence shapes come through. Break the "for whoever eats … that person will be cut off" frame, the "Take … dip … touch … with the blood that is in the basin" sequence, and the "the waters being a wall to them" participle. A useful check: the Plain English Translation says "the Israelites" for *bene Yisra'el* everywhere except where the ESV says "the people of Israel" (2:25). That is a sign of where the ESV crept in. The Song of the Sea and the famous verses (3:14, 12:13, 14:13–14) are the writer's own and need no change.
 
 ---
 
@@ -124,12 +124,12 @@ The box says framing the plague cycle as "measure for measure," with the Nile th
 - **No Arminian is named.** Calvinists are named (Augustine, Calvin; Beale is cited), but "Arminian and Orthodox readers" appear as a faceless group. Name some: Arminius's own treatment of Romans 9, John Wesley, or a modern exegete such as Brian Abasciano on Romans 9. For the Orthodox, John Chrysostom's homily on Romans 9 is the standard text. The chapter 9 view X claim, that Arminians read Paul "as speaking of God's purposes in history rather than of individual damnation," describes the corporate reading. Arminians also argue for conditional election, and it should be said that both views are held.
 - **Accuracy.** Chapter 9's "Read as theology of hardening" says that "from the sixth, God hardens." But 9:34 (seventh plague) has *Pharaoh* make his heart heavy, and 9:35 is neutral. The chapter's own deep section lists these correctly. Fix the reading line.
 
-### 6. Major: quotations of other books follow NIV/ESV wording, not the site's own Plain (notes, chapters, topics)
+### 6. Major: quotations of other books follow NIV/ESV wording, not the site's own Plain English Translation (notes, chapters, topics)
 
-Quotations of Genesis follow the Genesis Plain exactly. That is good. Quotations of Revelation do not, although its Plain exists:
-- 6:7 note: Revelation 21:3 "God himself will be with them as their God" is the ESV. The Rev Plain has "God himself will be with them and be their God."
-- 15:18 note: Revelation 11:15 "he will reign forever and ever." The Rev Plain has "he will rule forever and ever."
-- Chapter 15 view X: "the song of Moses the servant of God and the song of the Lamb." The Rev Plain has "the song of God's servant Moses and the song of the Lamb."
+Quotations of Genesis follow the Genesis Plain English Translation exactly. That is good. Quotations of Revelation do not, although its Plain English Translation exists:
+- 6:7 note: Revelation 21:3 "God himself will be with them as their God" is the ESV. The Rev Plain English Translation has "God himself will be with them and be their God."
+- 15:18 note: Revelation 11:15 "he will reign forever and ever." The Rev Plain English Translation has "he will rule forever and ever."
+- Chapter 15 view X: "the song of Moses the servant of God and the song of the Lamb." The Rev Plain English Translation has "the song of God's servant Moses and the song of the Lamb."
 
 Books not yet translated are quoted in NIV or ESV wording:
 - 12:46 note: John 19:36 "These things happened so the Scripture would be fulfilled, 'Not one of his bones will be broken'" is the NIV almost verbatim.
@@ -171,7 +171,7 @@ In Sanhedrin 67b, Rabbi Akiva says there was one frog "and it filled the land of
 "Occurs about thirty-six times in the Torah" confuses two things. The number thirty-six is the Mishnah's count of **offenses** punishable by *karet* (Keritot 1:1). It is not a count of the phrase. **Fix:** "The Mishnah lists thirty-six offenses that carry this penalty (Keritot 1:1)."
 
 ### 12. 3:14 note: KJV wording
-"The KJV, ESV and NIV have 'I am who I am'." The KJV reads "I AM THAT I AM." Correct it. You might also add that the NJPS leaves *Ehyeh-Asher-Ehyeh* untranslated, with "I Will Be What I Will Be" in its note. That supports the Plain's choice from a major Jewish translation.
+"The KJV, ESV and NIV have 'I am who I am'." The KJV reads "I AM THAT I AM." Correct it. You might also add that the NJPS leaves *Ehyeh-Asher-Ehyeh* untranslated, with "I Will Be What I Will Be" in its note. That supports the Plain English Translation's choice from a major Jewish translation.
 
 ### 13. 12:37 note "How many left Egypt?": Egypt's population
 "Two to three million people, more than Egypt's own estimated population then." The usual estimates for New Kingdom Egypt are about 2.5 to 4.5 million (Butzer). **Fix:** "close to the whole estimated population of Egypt."
@@ -196,7 +196,7 @@ I could not confirm these, and they should be checked or softened:
 - Chapter 15, "why the Song does not mention the walls": the observation goes back to Noth and George Coats, and Childs discusses it.
 - book.json spec 1, the *'avad* reading: Fretheim and others have made it, and the writer's own 3:12 note credits Fretheim. Say so in the box.
 
-### 18. Small Plain English points
+### 18. Small Plain English Translation points
 - 2:12 "buried him in the sand": *vayyitmenehu* is "hid him," as in 2:2–3 (*tsafan*, "hide," is a different verb). "Hid" keeps the theme of hiding and fits 2:14, "the matter is known."
 - 11:1 "it will be all of you": *kalah* most likely means "completely," with "he will drive you out" (Rashi also offers "with everything"). "All of you" is one reading among several. Prefer "When he lets you go, he will drive you out completely" and move the alternatives to a note.
 - 14:5 "turned against the people": *vayyehafekh … el ha'am* is "was changed toward the people." "Against" sharpens it.
@@ -224,7 +224,7 @@ The plagues material (7:17 note, chapter 7 deep, plagues topic) gives Hort and H
 - Facts, "Date": "Set in the 1400s or 1200s BC (scholars and traditions differ)" is fine, but "Critical: written from the 900s to the 400s BC" should say "most critical scholars."
 - Authorship: the traditional view would be stronger with the medieval Jewish nuance, Ibn Ezra's "secret of the twelve" hints at post-Mosaic lines. It shows that the question is old and not only modern.
 
-I checked the outline: all 40 chapters are present, the verse ranges match the catalog (22, 25, 22, 31, 23, 30, 25, 32, 35, 29, 10, 51, 22, 31, 27, 36, 16, 27, 25, 26, 36, 31, 33, 18, 40, 37, 21, 43, 46, 38, 18, 35, 23, 35, 35, 38, 29, 31, 43, 38), and every title matches its chapter page in the three parts. The lead quotes 34:6 exactly as the 25-40 Plain has it. The lenses are fair and are used consistently.
+I checked the outline: all 40 chapters are present, the verse ranges match the catalog (22, 25, 22, 31, 23, 30, 25, 32, 35, 29, 10, 51, 22, 31, 27, 36, 16, 27, 25, 26, 36, 31, 33, 18, 40, 37, 21, 43, 46, 38, 18, 35, 23, 35, 35, 38, 29, 31, 43, 38), and every title matches its chapter page in the three parts. The lead quotes 34:6 exactly as the 25-40 Plain English Translation has it. The lenses are fair and are used consistently.
 
 ### 25. Glosses: below density, and several are other translations' words
 There are 85 glosses for 415 verses, one per 4.9 verses. STYLE asks for one per 2–4. Several glosses only swap in the ESV, NIV or BSB word instead of giving the modern feel. Rework these:
@@ -289,7 +289,7 @@ Writer's response, applied 2026-10-23. All 30 findings accepted. Two were handle
    - every verse in the table;
    - every verse in the "other close matches" list;
    - the finding-18 verses (2:12, 3:18, 5:3, 11:1, 14:5, 1:5);
-   - 1:9, 3:9 and 6:5, which said "people of Israel." The Plain now says "Israelites" everywhere.
+   - 1:9, 3:9 and 6:5, which said "people of Israel." The Plain English Translation now says "Israelites" everywhere.
 
    The specific changes the review asked for:
    - The "for whoever eats … cut off" frame is broken up.
@@ -305,7 +305,7 @@ Writer's response, applied 2026-10-23. All 30 findings accepted. Two were handle
 3. **Variants.** Four entries are new:
    - 13:18, LXX "fifth generation." It is cross-referenced from the 13:18 and 6:20 notes and tied to the 12:40 count.
    - 15:3, with three readings: MT, the SP "mighty in war," and the LXX "crushes wars" with its echo in Judith 9:7 and 16:2.
-   - 7:18, the expansion as a real variant entry. Its added paragraph is rendered from this edition's own Plain of 7:16–18, and the entry says the scroll preserves the paragraph only in part. The 7:18 note now points to the entry and lists the other places with expansions.
+   - 7:18, the expansion as a real variant entry. Its added paragraph is rendered from this edition's own Plain English Translation of 7:16–18, and the entry says the scroll preserves the paragraph only in part. The 7:18 note now points to the entry and lists the other places with expansions.
 
    Changes to existing entries:
    - 1:5 adds 4QGen-Exod-a and dates 4QExod-b to the middle of the first century BC.
@@ -326,7 +326,7 @@ Writer's response, applied 2026-10-23. All 30 findings accepted. Two were handle
    - Named voices, in the 9:16 and 4:21 notes, the chapter 9 view X and the topic: Arminius on Romans 9, John Wesley, Brian Abasciano (corporate election) and John Chrysostom.
    - The chapter 9 reading now notes 9:34.
 6. **Quotations.**
-   - Revelation 21:3, 11:15, 15:3 and 16:13 now use the Rev Plain.
+   - Revelation 21:3, 11:15, 15:3 and 16:13 now use the Rev Plain English Translation.
    - John 19:36, Isaiah 30:15, 2 Corinthians 12:9, Romans 9:17–18, Luke 11:20, Luke 12:14 and Psalm 51:7 are now in fresh wording. So are Hebrews 11:29 and the quotations in the topic cores (Psalm 95:8, Hebrews 3:7, Romans 11:25 and 8:29, Hebrews 12:23).
 7. **Cross-references.**
    - Luke 9:31: the 1:1 note, chapter 1 echoes, book.json and exodus-pattern.
@@ -348,7 +348,7 @@ Writer's response, applied 2026-10-23. All 30 findings accepted. Two were handle
     - Softened: chapter 10 view X now says "some Christian readers."
     - Seder: credited to Stein (symposium forms) and Bokser (the response to AD 70).
 17. **Spec boxes.** Chapter 1 now credits Sarna, Exum and Fretheim, and claims only the name-erasing link as new. Chapter 15 credits Noth, Coats and Childs. book.json spec 1 credits Fretheim.
-18. **Small Plain points.** Done; see item 1.
+18. **Small Plain English Translation points.** Done; see item 1.
 19. **7:3 counts.** They now match the deep section exactly: God 10, Pharaoh 3, plus 13:15.
 20. **Last Supper.** John P. Meier's view is added beside Jeremias, and the *Exsultet* is mentioned (chapter 12 deep and the passover topic).
 21. **Az Yashir.** Corrected in the chapter 15 reading and in book.json "How Jews read Exodus."

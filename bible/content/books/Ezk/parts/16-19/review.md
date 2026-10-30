@@ -1,6 +1,6 @@
 # Hostile review: Ezekiel 16-19 (part 16-19)
 
-Reviewer read plain.txt, notes, variants, glosses, chapters, topics and sources against `texts/orig/Ezk.json`, `node tools/literal.js Ezk 16..19`, `texts/auto/Ezk.json`, `tools/dss.py Ezk 16..19`, `tools/lxx.py Eze 16..19` (Swete), and the site's Jeremiah, Ruth, Exodus, Deuteronomy, Lamentations and Genesis Plain. Rashi and Radak on 17:22 and Bavli Makkot 24a were read on Sefaria. `VERBOSE=1 node tools/build.js --check Ezk/16-19` gives 0 errors, 0 warnings.
+Reviewer read plain.txt, notes, variants, glosses, chapters, topics and sources against `texts/orig/Ezk.json`, `node tools/literal.js Ezk 16..19`, `texts/auto/Ezk.json`, `tools/dss.py Ezk 16..19`, `tools/lxx.py Eze 16..19` (Swete), and the site's Jeremiah, Ruth, Exodus, Deuteronomy, Lamentations and Genesis Plain English Translation. Rashi and Radak on 17:22 and Bavli Makkot 24a were read on Sefaria. `VERBOSE=1 node tools/build.js --check Ezk/16-19` gives 0 errors, 0 warnings.
 
 ## Verdict
 
@@ -11,7 +11,7 @@ The translation is mostly honest and follows the Hebrew, and the commentary inve
 - Makkot 24a is described as saying more than it says.
 - "The Greek" is claimed from Swete alone.
 - Several verses still carry NIV/ESV sentence shape or an NIV-only rendering ("mountain shrines").
-- 19:7 and 19:10 are hard Hebrew with an unflagged choice in the Plain.
+- 19:7 and 19:10 are hard Hebrew with an unflagged choice in the Plain English Translation.
 - The ch. 18 cards attribute readings of Ezekiel 18 to churches whose cited texts do not say them.
 
 Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic file is intact and sensible (finding 22). No reader-facing "from memory" was found.
@@ -29,10 +29,10 @@ Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic fil
 - Fix: use "reported by <source>" or verify, and drop the first person. Say once, impersonally, which witnesses were read. Keep the Swete limitation, but state it as "Swete's text (Codex Vaticanus)" and not as a confession.
 
 **2. Major. 18:2 against Jeremiah 31:29 on the site.**
-- Jer 31:29 Plain: "The fathers ate sour grapes, and the children's teeth go numb."
-- Ezk 18:2 Plain: "The fathers eat sour grapes, and the children's teeth go numb."
+- Jer 31:29 Plain English Translation: "The fathers ate sour grapes, and the children's teeth go numb."
+- Ezk 18:2 Plain English Translation: "The fathers eat sour grapes, and the children's teeth go numb."
 - The Hebrew is the same in both: `avot yokhelu boser ve-shinnei habbanim tiqhenah`.
-- Note 18:2 (second note) says "The Plain matches the wording of Jeremiah 31:29", and the first note quotes Jeremiah with "ate". The tense is not matched.
+- Note 18:2 (second note) says "The Plain English Translation matches the wording of Jeremiah 31:29", and the first note quotes Jeremiah with "ate". The tense is not matched.
 - The brief says to match where the Hebrew is the same and to list each difference.
 - Fix: choose one tense and apply it to both. Ezekiel's own "you keep reciting" favors the present for both, but Jeremiah's part is not this reviewer's to change, so flag it to the lead. Otherwise use "ate" in Ezekiel and add a note.
 
@@ -61,16 +61,16 @@ Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic fil
 - 19:4. "was trapped in their pit" and "Nations heard of him" are NIV-shaped.
 - Fix: rebuild these from `literal.js`. At 18:20, "A son will not bear the guilt of his father" is forced by the Hebrew. Check that the neighbouring clauses are not.
 
-**6. Major. 19:7 and 19:10: unflagged choices in the Plain.**
-- 19:7. The Hebrew is `vayyeda' almenotav ve-'areyhem heḥerib` ("he knew his widows, and laid waste their cities"). The Plain writes "He preyed on their widows". That renders `yada'` as "preyed" and the suffix "his" as "their". Neither is in the Hebrew. There is no note; the variant argues for "widows" but the body text invents the verb.
+**6. Major. 19:7 and 19:10: unflagged choices in the Plain English Translation.**
+- 19:7. The Hebrew is `vayyeda' almenotav ve-'areyhem heḥerib` ("he knew his widows, and laid waste their cities"). The Plain English Translation writes "He preyed on their widows". That renders `yada'` as "preyed" and the suffix "his" as "their". Neither is in the Hebrew. There is no note; the variant argues for "widows" but the body text invents the verb.
 - The note b-text says `yada'` "can mean 'deal with, take notice of'. A lion that 'knew widows' is a predator who finds the helpless". This is unsupported speculation. A sexual sense of `yada'` ("violated") and the emendation `almenotav` to `armenotav` ("his strongholds/palaces") are the real options. Also mention the suffix mismatch ("his" widows against "their" cities) as the reason for the emendation.
 - Fix: translate closer ("he knew their widows" with a note, or follow a stated emendation) and mark it `deb`.
-- 19:10. "Like a vine in your blood" is the Hebrew (`bedamkha`) and the Plain flags it only through the variant. Add a note too, since the Plain is unintelligible without one. The variant is right that Greek `anthos en rhoa` ("flower in a pomegranate") exists.
+- 19:10. "Like a vine in your blood" is the Hebrew (`bedamkha`) and the Plain English Translation flags it only through the variant. Add a note too, since the Plain English Translation is unintelligible without one. The variant is right that Greek `anthos en rhoa` ("flower in a pomegranate") exists.
 - 19:5. "a second cub" for `echad` ("one"). 19:3 says "One of her cubs" for the same Hebrew. Use "another" or keep "one of her cubs", and add a clause in the note.
-- 19:12. The Hebrew verbs are plural ("they were plucked/dried up") with the singular "branch of her strength". The Plain smooths it to a singular passive without comment.
+- 19:12. The Hebrew verbs are plural ("they were plucked/dried up") with the singular "branch of her strength". The Plain English Translation smooths it to a singular passive without comment.
 
 **7. Major. 18:11 imports "the father".**
-- Plain: "though the father did none of these things". Hebrew: `ve-hu et kol elleh lo asah` ("and he, all these he did not do"). `hu` is not "the father".
+- Plain English Translation: "though the father did none of these things". Hebrew: `ve-hu et kol elleh lo asah` ("and he, all these he did not do"). `hu` is not "the father".
 - The variant's `p` ("The Hebrew says the father did none of these things") states as fact what is an interpretive resolution. This is also the NIV's parenthetical reading.
 - The Greek ("did not walk in the way of his righteous father") takes the son as the subject, which the variant calls "says in other words what the Hebrew implies". That is not accurate: it is the opposite reading of `hu`.
 - Fix: translate "though he himself did none of these things" (as the variant's own English does) and give both referents in a note (father: ESV/NIV, Block; son: Greek).
@@ -96,11 +96,11 @@ Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic fil
 
 **11. Variant 18:17 "a change from me'avel to me'ani is one letter" is false.** `מֵעָוֶל` (18:8) to `מֵעָנִי` differ in two letters (vav/nun, lamed/yod). Say "two letters" or "close in form".
 
-**12. Note 16:46 (second sentence of `p`) is wrong.** "Hebrew has no word for north that does not also mean 'left'" is false (`tsafon` is north). The Hebrew here is `al semolekh`, "on your left". Fix the `p` line. The Plain's "north"/"south" for "left"/"right" is a defensible choice but needs the note to say it is an interpretation of orientation.
+**12. Note 16:46 (second sentence of `p`) is wrong.** "Hebrew has no word for north that does not also mean 'left'" is false (`tsafon` is north). The Hebrew here is `al semolekh`, "on your left". Fix the `p` line. The Plain English Translation's "north"/"south" for "left"/"right" is a defensible choice but needs the note to say it is an interpretation of orientation.
 
 **13. 16:21 note.** It says Ezekiel says outright in 20:26 and 20:31 that they were passed "through the fire". 20:26 has only `ha'avir` ("causing to pass"); only 20:31 has "in the fire". The `molech` topic repeats the same (20:26, 31). Correct both.
 
-**14. 16:25 and 16:26.** The Plain "parted your legs" renders `vattefasseqi et raglayikh`, literally "you opened wide your feet" (a euphemism for the legs/genitals). This is acceptable and restrained. But 16:25 has no note, while 16:26 does. Add a short note, as the brief asks for explicit wording. Note 16:26 is fine. 16:36 "lust spilled out" is fine.
+**14. 16:25 and 16:26.** The Plain English Translation "parted your legs" renders `vattefasseqi et raglayikh`, literally "you opened wide your feet" (a euphemism for the legs/genitals). This is acceptable and restrained. But 16:25 has no note, while 16:26 does. Add a short note, as the brief asks for explicit wording. Note 16:26 is fine. 16:36 "lust spilled out" is fine.
 
 **15. "By my life" (16:48) against "As I live" (17:16, 17:19, 18:3).** The same oath formula (`chai ani`) is rendered two ways. Unify.
 
@@ -108,14 +108,14 @@ Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic fil
 - The note says "turn away from" is for leaving something and "turn back" for returning to God. But 18:23 reads "turns back from his ways" (leaving), 18:24 "walks away from his righteousness", 18:26 "leaves his righteousness behind", 18:27 "leaves behind the wickedness", 18:28 "turned away", and 18:32 "turn back".
 - Decide on a rule and apply it, or say in the note that Ezekiel's single verb is rendered by context.
 
-**17. Samaria topic arithmetic.** "Ezekiel says Jerusalem sinned more than half again as much as she did (16:51)" is wrong. 16:51 says Samaria did not sin half as much, so Jerusalem sinned more than twice as much. Also the `marriage` topic quotes "the judgments for women who commit adultery and shed blood" in quotation marks, while the Plain says "sentences". Quote the Plain exactly.
+**17. Samaria topic arithmetic.** "Ezekiel says Jerusalem sinned more than half again as much as she did (16:51)" is wrong. 16:51 says Samaria did not sin half as much, so Jerusalem sinned more than twice as much. Also the `marriage` topic quotes "the judgments for women who commit adultery and shed blood" in quotation marks, while the Plain English Translation says "sentences". Quote the Plain English Translation exactly.
 
-**18. Other-book quotes.** Note 18:68 quotes Genesis 18:25 as "Will the Judge of all the earth not do justice?" The site's Plain is "Will the Judge of all the earth not do what is just?" Align.
+**18. Other-book quotes.** Note 18:68 quotes Genesis 18:25 as "Will the Judge of all the earth not do justice?" The site's Plain English Translation is "Will the Judge of all the earth not do what is just?" Align.
 
 **19. Small facts and spellings in the notes.**
 - Note 16:36 `p` says "Nechoshtekh may mean ... 'your menstrual flow'". The body never explains or sources that third reading. Source or remove.
 - Transliteration is inconsistent: "Zalmei zakhar" (`p`) and "Tzalmei" (`b`) for `tsalmei`; "Nechoshtekh/Nechoshet/nechushtekh".
-- Note 17:4 says Ezekiel calls Babylon "a city of traders"; the Plain at 17:4 says "city of merchants".
+- Note 17:4 says Ezekiel calls Babylon "a city of traders"; the Plain English Translation at 17:4 says "city of merchants".
 - Note 16:30 mentions only the Greek; the Targum and Vulgate differ too, as the brief says. Add or remove the claim.
 - Note 18:4 says Jehovah's Witnesses and Seventh-day Adventists cite the verse for soul mortality. It is plausible but has no source. Add one or soften.
 
@@ -137,24 +137,24 @@ Findings: 0 critical, 8 major, 14 minor. The individual-responsibility topic fil
 ## Fixes applied
 
 1. Accepted. All "I did not check", "not checked by the writer", "known to me" and "reported; not checked" lines removed or replaced by a named source (variants at 16:4, 16:15, 16:57, 18:11, 18:17, 18:32, 19:1, 19:7, 19:10; notes at 16:6 and 18:20). The unverified Mekhilta (Pisha) link at 16:6 was deleted, because Sefaria could not be read for it. The chapter 16 deep paragraph "Which witnesses were read" is now impersonal and states once what was read: Leningrad, 3Q1 (via dss.py), Swete's Vaticanus (via lxx.py), and Rashi, Radak, the Targum, Makkot 24a and Berakhot 7a as read on Sefaria.
-2. Accepted. 18:2 now reads "The fathers ate sour grapes", the same as Jeremiah 31:29 on the site. The note on "go numb" says the Hebrew is identical, that yokhelu can be past or present, and that the Plain keeps Jeremiah's "ate"; the Vaticanus verb is also past. Nothing to change in Jeremiah.
+2. Accepted. 18:2 now reads "The fathers ate sour grapes", the same as Jeremiah 31:29 on the site. The note on "go numb" says the Hebrew is identical, that yokhelu can be past or present, and that the Plain English Translation keeps Jeremiah's "ate"; the Vaticanus verb is also past. Nothing to change in Jeremiah.
 3. Accepted. Makkot 24a is now cited only for what Sefaria's text says (Moses: Exodus 34:7; Ezekiel "revoked" it). The "children who adopt their ancestors' actions" answer is cited to Berakhot 7a, which cites Exodus 34:7, Deuteronomy 24:16 and Exodus 20:5 and does not mention Ezekiel. Note 18:20, the J lens and the deep paragraph are corrected; the unsourced "Days of Repentance" claim is cut. Source bavli-berakhot added.
 4. Accepted. Every "the Greek" in notes, variants, chapter pages and cards is now "Codex Vaticanus", with Swete named in the witness paragraph and the variant labels. Ziegler and Papyrus 967 are stated as not consulted. The 16:6 note now says the Greek has one clause "from your blood, life" where the Hebrew has two commands. Also checked against Swete and corrected: 19:2 (Vaticanus "what was your mother? a cub").
 5. Accepted. Rebuilt from literal.js: 16:23-24, 17:3, 17:5 (many waters), 17:7-10, 17:17-18, 17:24, 18:20-29, 19:4, 19:5, 19:12 (also 16:21, 16:36, 18:6, 18:11, 18:15). "Mountain shrines" is now "on the mountains" at 18:6, 11 and 15, with its gloss, note and the idolatry topic changed. Notes and glosses re-anchored to the new wording.
-6. Accepted. 19:7 now reads "He knew his widows / and laid waste their cities" (the suffix mismatch kept), with a new deb note (sexual sense per Rashi, the one-letter emendation to armenotav, Targum "palaces", Vaticanus) and a variant with three readings. New deb note at 19:10 (the Hebrew "in your blood"; Vaticanus rhoa). 19:5 now "another of her cubs" with the echad / allon point in the note. New deb note at 19:12 on the plural verbs with a singular branch, and the Plain keeps them.
+6. Accepted. 19:7 now reads "He knew his widows / and laid waste their cities" (the suffix mismatch kept), with a new deb note (sexual sense per Rashi, the one-letter emendation to armenotav, Targum "palaces", Vaticanus) and a variant with three readings. New deb note at 19:10 (the Hebrew "in your blood"; Vaticanus rhoa). 19:5 now "another of her cubs" with the echad / allon point in the note. New deb note at 19:12 on the plural verbs with a singular branch, and the Plain English Translation keeps them.
 7. Accepted. 18:11 is "though he himself did none of these things"; new note and rewritten variant give both referents (father: Block and many versions; son: Vaticanus) and no longer say the Hebrew "says the father".
 8. Accepted. All three ch. 18 cards rewritten so that each answer is that church's own text and says whether it cites Ezekiel 18 (none does). Catholic: Trent 5 and CCC 404, "Ezekiel 18 speaks of personal sins" removed. Orthodox: Dositheus Decree 6 (hereditary sin) plus Romanides named as one voice; no more "many Orthodox teachers". Reformed perseverance: WCF 17 and Dort 5 stated only for what they say; the "not truly righteous" reading is labelled a proposed reading. Orthodox answers added to the perseverance and election cards (Dositheus Decrees 3 and 14, read at crivoice.org; key dositheus-decrees-ezk). The Wesley "tyrant" wording is removed; Free Grace is described only as arguing against unconditional election. Topic the-fall softened to what the card shows.
 9. Accepted. 16:36 now "all your filthy idols, your abhorrent things"; note 16:36 re-anchored.
 10. Accepted. Note 16:31: 3Q1 hyyty agrees with the written Ketiv of the Leningrad Codex; the Qere reads hyyt. The rest of the note stands.
 11. Accepted. Variant 18:17 now says the two words are close in form, with two of the three letters different.
-12. Accepted. The false "no word for north" claim is deleted. The Plain now says "on your left hand / on your right hand" (the Hebrew words), and the note says that tsafon exists, that left = north facing east is an interpretation, and that the Plain leaves the Hebrew words.
-13. Accepted. Note 16:21 and the molech topic: only 20:31 has "through the fire"; 20:26 has the same verb without it. The Plain at 16:21 is "making them pass over".
+12. Accepted. The false "no word for north" claim is deleted. The Plain English Translation now says "on your left hand / on your right hand" (the Hebrew words), and the note says that tsafon exists, that left = north facing east is an interpretation, and that the Plain English Translation leaves the Hebrew words.
+13. Accepted. Note 16:21 and the molech topic: only 20:31 has "through the fire"; 20:26 has the same verb without it. The Plain English Translation at 16:21 is "making them pass over".
 14. Accepted. New note at 16:25 on "opened wide your feet" (Judges 3:24, Isaiah 7:20).
 15. Accepted. 16:48 now "As I live", as in 17:16, 17:19 and 18:3 (and 20:31 in Ezk 20-24).
-16. Accepted. One rule: shuv followed by "from" is "turn away from" (18:21, 23, 24, 26, 27, 28, 30b); shuv alone is "turn back" (18:30a, 32). Plain and note 18:30 rewritten to match.
-17. Accepted. The samaria topic now says Samaria did not commit half of Jerusalem's sins, so Jerusalem sinned more than twice as much; the marriage topic quotes the Plain exactly ("the sentences given to women who commit adultery and shed blood").
+16. Accepted. One rule: shuv followed by "from" is "turn away from" (18:21, 23, 24, 26, 27, 28, 30b); shuv alone is "turn back" (18:30a, 32). Plain English Translation and note 18:30 rewritten to match.
+17. Accepted. The samaria topic now says Samaria did not commit half of Jerusalem's sins, so Jerusalem sinned more than twice as much; the marriage topic quotes the Plain English Translation exactly ("the sentences given to women who commit adultery and shed blood").
 18. Accepted. Note 18:25 quotes Genesis 18:25 as on the site ("do what is just").
-19. Accepted in part. "Nechoshtekh" third reading ("menstrual flow") removed as unsourced; spellings unified (tsalmei, nechushtekh); note 17:4/16:29 now say "land of traders" and "city of merchants" as the Plain does; 18:4 soul-mortality groups no longer named (no source). The Targum and Vulgate at 16:30 were not read, so no claim is made about them (the note never made one).
+19. Accepted in part. "Nechoshtekh" third reading ("menstrual flow") removed as unsourced; spellings unified (tsalmei, nechushtekh); note 17:4/16:29 now say "land of traders" and "city of merchants" as the Plain English Translation does; 18:4 soul-mortality groups no longer named (no source). The Targum and Vulgate at 16:30 were not read, so no claim is made about them (the note never made one).
 20. Accepted. Chapter 19 J lens rewritten from Rashi (sons of Josiah, Jehoahaz and Jehoiakim, "the congregation of Israel") and the Targum (the lioness and the vine are Israel), both read on Sefaria; they also feed notes 19:2, 19:5 and 19:7.
 21. Accepted. The chapter 19 setting now says a 592-591 date fits Jehoiachin or Jehoiakim as the second cub, and that Zedekiah (586) requires a date after the fall.
 22. Accepted. "repentance" added to related in content/proposals/prophets/topics/individual-responsibility.json.

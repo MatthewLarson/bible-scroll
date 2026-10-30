@@ -4,7 +4,7 @@ Reviewer: separate hostile-review agent (not the writer). Scope: plain.txt, note
 chapters.json, topics.json, sources.json of `parts/01-04/` (book.json is reviewed separately). Checked against
 `texts/orig/Ecc.json` (literal.js, chapters 1–4), Rahlfs' Greek (the CCAT morphological text, read verse by verse
 for every Greek claim in this part), a second printed Greek text, Ibn Ezra's commentary and Leviticus Rabbah (Sefaria
-Hebrew texts), and the shared terms, topics and other two parts' Plain. `VERBOSE=1 node tools/build.js --check Ecc/01-04`:
+Hebrew texts), and the shared terms, topics and other two parts' Plain English Translation. `VERBOSE=1 node tools/build.js --check Ecc/01-04`:
 0 errors, 0 warnings. `--check Ecc`: 0 errors, 2 warnings, both in part 05-08 (its quote of 9:9).
 
 ## Verdict
@@ -46,7 +46,7 @@ is good for human beings to do under the heavens through the numbered days of th
 **3. Major. plain.txt 4:3: NIV ten-word run, and the term *ma'aseh* dropped.** "...who has not seen the evil that is done
 under the sun" is the NIV's wording exactly. The Hebrew is *'et-hamma'aseh hara' 'asher na'asah tachat hashamesh*,
 "the evil *work* that is done" (Rahlfs also has *to poiema to poneron*). The NIV leaves out *ma'aseh*, and so does
-the Plain, against the part's own term ("ma'aseh ... what is done / the things that are done", terms.json). *Fix:*
+the Plain English Translation, against the part's own term ("ma'aseh ... what is done / the things that are done", terms.json). *Fix:*
 "...who has not seen the evil things that are done under the sun" (matching 1:14 "the things that are done").
 
 **4. Major. plain.txt 4:16: an ESV interpretive choice, and probably the wrong sense.** "There was no end to all the
@@ -69,7 +69,7 @@ Aramaic "if"). *Fix:* "Woe to the one who falls alone, with no second person to 
 "has an extra line: 'I spoke too much in my heart, for the fool speaks out of excess'", and gives as the Greek's
 `plain`: "Why then have I been so very wise? I spoke too much in my heart, for a fool speaks out of excess." In
 Rahlfs the words *tote perisson* render the Hebrew *'az yoter* ("then ... more"), and *elalesa en kardia mou*, "I
-spoke in my heart", renders the Hebrew *vedibbarti velibbi*, which the Plain already has as "And I told myself". The
+spoke in my heart", renders the Hebrew *vedibbarti velibbi*, which the Plain English Translation already has as "And I told myself". The
 only Greek plus is *dioti aphron ek perisseumatos lalei*, "because a fool speaks out of excess". So if a reader
 switches, the verse says "I spoke ... in my heart" and then "And I told myself". The `why` (yoter "read twice")
 rests on the same misreading. *Fix:* anchor the variant on "And I told myself that this too is vapor" (or on the
@@ -123,7 +123,7 @@ variant (MT as is / with *mi-* as in 3:12 and 3:22, and versions that supply it)
 
 **12. Minor. variants: 2:12 is missing the singular verb.** The Hebrew has *'asuhu*, "they have done it"; Rahlfs has
 *epoiesen auten*, "he did it" (singular), and the Syriac and Targum are usually reported with a singular too. The
-Plain's "what people have already done" follows the Masoretic Text, which is fine, but readers should see the
+Plain English Translation's "what people have already done" follows the Masoretic Text, which is fine, but readers should see the
 difference in a verse the note calls "hard". *Fix:* add a short variant, or a sentence in the 2:12 note.
 
 **13. Minor. notes.json 3:18: the Greek's "to show" is left out.** The note says *lir'ot* could, "with other vowels",
@@ -227,7 +227,7 @@ set season".
   says "the thinnest of mists").
 - 1:16 runs to two long sentences inside one quotation; consider splitting the second.
 
-**32. Minor. Quotes of other parts' verses that do not match their Plain (the build does not catch these, because the
+**32. Minor. Quotes of other parts' verses that do not match their Plain English Translation (the build does not catch these, because the
 words are in quotation marks without a parenthesized reference).** See the cross-part items for the full list. Fix
 them here once the lead confirms the other parts' wording.
 
@@ -235,14 +235,14 @@ them here once the lead confirms the other parts' wording.
 
 - **Quotes of 09-12 and 05-08 in this part:**
   - "the spirit returns to God who gave it" (3:21 note, ch. 3 deep, traditions card Catholic answer, 3:19 note in
-    paraphrase). 12:7 Plain: "the spirit goes back to God, who gave it".
+    paraphrase). 12:7 Plain English Translation: "the spirit goes back to God, who gave it".
   - "the dead 'know nothing'" (ch. 3 deep; traditions card, Jehovah's Witnesses answer, "9:5 shows that 'the dead
-    know nothing'"). 9:5 Plain: "the dead do not know a thing". The JW answer may quote their own Bible on purpose;
+    know nothing'"). 9:5 Plain English Translation: "the dead do not know a thing". The JW answer may quote their own Bible on purpose;
     if so, name it ("NWT").
-  - "a living dog is better off than a dead lion" (4:2 note; ch. 4 deep). 9:4 Plain: "It is better to be a living
+  - "a living dog is better off than a dead lion" (4:2 note; ch. 4 deep). 9:4 Plain English Translation: "It is better to be a living
     dog than a dead lion". This is a paraphrase without quotes, but better aligned.
-  - "compare 7:14, 'in a day of good, be in good'" (3:12 note). 7:14 Plain: "On a good day, enjoy the good". Either
-    quote the Plain or mark this as "literally".
+  - "compare 7:14, 'in a day of good, be in good'" (3:12 note). 7:14 Plain English Translation: "On a good day, enjoy the good". Either
+    quote the Plain English Translation or mark this as "literally".
 - **"Fate" and its verb.** 2:14–15 "one fate meets"; 3:19 "share one fate"; 9:2–3 "One fate comes to". All are
   faithful to their Hebrew, but the 2:14 note promises "always with the verb 'meet'". Decide whether 9:2–3 should be
   "One fate meets" (the Hebrew has no verb), or fix the note (finding 17).
@@ -280,20 +280,20 @@ Fixer: separate review-fixer agent, 2026-10-25. Lead decisions in `.scratch/Ecc-
 8. Accepted. "Earth = humanity (Ibn Ezra)" dropped; Ibn Ezra's four-elements reading given instead (earth, the sun's fire, wind as air, water; the earth as the mother to which all returns, compare Genesis 3:19).
 9. Accepted. 1:2 note and the hevel core: Seow "beyond human grasp" (keeps "vanity"); Miller for "vapor" as one symbol of the insubstantial, fleeting and foul, named as the reading this site follows.
 10. Accepted. `to` fields of 1:12–18, 2:1–11, 3:16–22, 4:1–6, 4:7–12 and 4:13–16 now name the historical first readers (students of the wise; educated, propertied Judeans of Persian or early Greek Judea); the moral types moved into `why`, and 4:1–6's "people with some means" softened to "If, as most scholars think".
-11. Partly accepted (lead decision 4: 2:24 keeps "but"). No variant, since no witness differs (Rahlfs agrees with the Hebrew); the 2:24 note now says the Greek reads the same, that the Plain's "but" reads an unstated comparison without emending, and gives the other reading (enjoyment is not in a person's power; it comes from God's hand).
+11. Partly accepted (lead decision 4: 2:24 keeps "but"). No variant, since no witness differs (Rahlfs agrees with the Hebrew); the 2:24 note now says the Greek reads the same, that the Plain English Translation's "but" reads an unstated comparison without emending, and gives the other reading (enjoyment is not in a person's power; it comes from God's hand).
 12. Accepted as a sentence in the 2:12 note (Rahlfs epoiesen, singular, confirmed). Syriac and Targum not added: not checked.
 13. Accepted. 3:18 note: "as the Greek reads ('to show', tou deixai)", confirmed in Rahlfs.
 14. Accepted. 1:10 note: the plural is found in older Hebrew too (1 Kings 8:13; Isaiah 26:4). Ch. 1 views.C now uses 'inyan as the example. Same fix made in book.json (book review 16).
 15. Accepted ("usually after 'vapor'").
 16. Accepted (Siegfried's several later hands).
-17. Accepted with lead decision 3: 2:14 Plain "one fate meets them all"; the note says "meet" is used where the Hebrew has qarah (2:14–15). The topics.json sheol quote of 2:14 updated.
+17. Accepted with lead decision 3: 2:14 Plain English Translation "one fate meets them all"; the note says "meet" is used where the Hebrew has qarah (2:14–15). The topics.json sheol quote of 2:14 updated.
 18. Accepted (sam: a change of the dot over the shin).
 19. Accepted ("One of many"; 4:3 added to the list).
 20. Accepted in the 4:1 note and the ch. 4 deep section: "Five times Lamentations says that ruined Jerusalem has no one to comfort her".
 21. Accepted (old word, 1 Kings 20:14–19, common in the Persian-period books).
 22. Accepted (mending marked as later Jewish custom, in body and preview).
 23. Accepted ("Several of the same verbs and nouns appear ... though not in the same order").
-24. Rechecked with `tools/dss.py Ecc 1` (Abegg, Bowley and Cook transcription). Neither listing was quite right: 1:7 has only restored letters, and visible letters run from 1:8 to 1:16, best preserved in 1:10–14. The ch. 1 witnesses section now says so. The 1:14 'asher na'asu reading is visible (not restored) and stands. New: 4QQoh-b visibly reads בירושלם "in Jerusalem" at 1:16 with the Greek; added to the 1:16 variant (witness, p, why) and to the witnesses section. The Plain still follows the Leningrad Codex there (harder reading).
+24. Rechecked with `tools/dss.py Ecc 1` (Abegg, Bowley and Cook transcription). Neither listing was quite right: 1:7 has only restored letters, and visible letters run from 1:8 to 1:16, best preserved in 1:10–14. The ch. 1 witnesses section now says so. The 1:14 'asher na'asu reading is visible (not restored) and stands. New: 4QQoh-b visibly reads בירושלם "in Jerusalem" at 1:16 with the Greek; added to the 1:16 variant (witness, p, why) and to the witnesses section. The Plain English Translation still follows the Leningrad Codex there (harder reading).
 25. Accepted. 2:7 now "beyond all who were before me in Jerusalem", the 2:9 form.
 26. Accepted. 2:26 rebuilt: "good in God's sight" at both ends. The fresh audit also caught an NIV run ("God gives wisdom, knowledge and ... but to the sinner he gives the task of gathering"); the second sentence now reads "To the sinner he gives a task: to gather and pile up, so as to hand it to the one who is good in God's sight." 2:26 note quote updated.
 27. Partly accepted. 1:17 "I came to know that this too is chasing the wind"; 2:9 "Even so, my wisdom stood by me" (avoids the NIV's "my wisdom stayed with me"); 4:9 "since their toil earns them a good wage"; 4:13 split: "...than a king who is old and a fool. That king no longer knows how to be warned."; 4:14 "even though he was born poor in his kingdom". Declined: 3:1 (terms.json fixes zeman "season", the line's structure differs from the ESV, and the reviewer called it borderline); 3:11 (the shared words "find out the work God has done" and "from the beginning to the end" are forced by the Hebrew, the line is aligned with 8:17, and part 05-08's 8:17 note quotes 3:11 exactly).
@@ -303,4 +303,4 @@ Fixer: separate review-fixer agent, 2026-10-25. Lead decisions in `.scratch/Ecc-
 31. Partly accepted. "the vaporest vapor" became "the thinnest of vapors" or "utter vapor". 1:16 left as is: its sentences are 6, 18 and 11 words long.
 32. Accepted with lead decision 1. 12:7 is quoted as "the spirit goes back to God, who gave it" (3:19 and 3:21 notes, ch. 3 deep, Catholic answer). 9:5 is quoted as "the dead do not know a thing" in ch. 3 deep, and the Jehovah's Witnesses answer quotes their own Bible by name, "'the dead know nothing at all' (New World Translation)". 9:4 is quoted as "It is better to be a living dog than a dead lion" (4:2 note, ch. 4 deep), and 7:14 is marked "literally" in the 3:12 note.
 Lead decisions also applied: (8) 3:15 "Whatever has been already is, and what is to be has already been" (the syntax allows it; the 1:9 note quotes it). (12) The 3:14 note is tagged fear-of-the-lord. (13) The 2:25 note moved off the variant's anchor onto "who can enjoy" (chush), and its "apart from me / more than I" point went into the variant's `b`. (14) Scanned: no bare reference inside another book's brackets in this part. (15) In the ch. 3 card, the Adventist and Jehovah's Witness answers now cite sda-beliefs and jw-insight, the keys 09-12's 9:5–6 card uses; Westminster 32.1 was already named.
-Plain verses changed (14): 1:17, 2:3, 2:7, 2:9, 2:14, 2:20, 2:26, 3:15, 4:3, 4:9, 4:10, 4:13, 4:14, 4:16. No other book quotes any of the changed wording (searched all content/).
+Plain English Translation verses changed (14): 1:17, 2:3, 2:7, 2:9, 2:14, 2:20, 2:26, 3:15, 4:3, 4:9, 4:10, 4:13, 4:14, 4:16. No other book quotes any of the changed wording (searched all content/).

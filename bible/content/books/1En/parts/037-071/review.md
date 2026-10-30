@@ -4,7 +4,7 @@ Reviewer's check: `node tools/build.js --check 1En/037-071` gives "295 verses, 1
 
 ## Verdict
 
-The Plain is mostly a careful reading of Dillmann's Ge'ez. In many places it rightly keeps the manuscript reading where Charles emended: 39:5–7, 45:3 "my Chosen One", 48:9 and 48:10 "before him", 51:3, 53:1 "him", 59:2, 62:3, 65:3, 65:10, 69:13, 71:5 and 71:14–16. A five-word overlap test against Charles averages about 14% per verse. Only 48:2 and 70:3 go above 60%, and the Ge'ez forces the wording in both. So the formulaic matches were not taken too far. Charles's influence shows up somewhere else: in emendations the Plain adopts silently (67:13, 46:8, 62:12, 67:4).
+The Plain English Translation is mostly a careful reading of Dillmann's Ge'ez. In many places it rightly keeps the manuscript reading where Charles emended: 39:5–7, 45:3 "my Chosen One", 48:9 and 48:10 "before him", 51:3, 53:1 "him", 59:2, 62:3, 65:3, 65:10, 69:13, 71:5 and 71:14–16. A five-word overlap test against Charles averages about 14% per verse. Only 48:2 and 70:3 go above 60%, and the Ge'ez forces the wording in both. So the formulaic matches were not taken too far. Charles's influence shows up somewhere else: in emendations the Plain English Translation adopts silently (67:13, 46:8, 62:12, 67:4).
 
 The serious problems are in the apparatus and the scholarship around the text:
 - One Dillmann reading is invented (45:1).
@@ -31,12 +31,12 @@ The entry says "Dillmann's text just says 'parable'" and gives Dillmann's readin
 - R1 says the EMML 2080 reading is "as reported by Nickelsburg and VanderKam (2012), who follow it." That is wrong. The main defender of the shorter EMML 2080 text, which makes Enoch's name "that Son of Man", is Daniel Olson (JSP 18, 1998). In "'Enoch and the Son of Man' Revisited" (JSP 18.3, 2009) Olson defends his translation of 70:1–2 *against* Nickelsburg and VanderKam's. He also concedes there that the question "cannot be determined by manuscript evidence alone." Nickelsburg and VanderKam keep the longer text.
 - The `why` repeats the error ("Nickelsburg and VanderKam follow it").
 - The R1 `plain` ("that Son of Man was lifted up alive") replaces the anchor "into the presence of that Son of Man". With the switch on, the verse reads "his name was lifted up that Son of Man was lifted up alive and into the presence of the Lord of Spirits", which is not English.
-- The Plain does follow Dillmann correctly, but Dillmann differs from the EOTC text: Dillmann has *bäḫäbä ʾƎgziʾa Mänafəst* with no "and", where the EOTC has *wäḫäbä*. That is worth a word in `b`.
+- The Plain English Translation does follow Dillmann correctly, but Dillmann differs from the EOTC text: Dillmann has *bäḫäbä ʾƎgziʾa Mänafəst* with no "and", where the EOTC has *wäḫäbä*. That is worth a word in `b`.
 
 **Fix:** reattribute R1 to "EMML 2080 (15th century, Ethiopic I), as reported by Knibb (1978) and argued by Olson (1998; 2009)". Say that Nickelsburg and VanderKam keep the longer text. Rewrite R1's `plain` so that the whole verse reads correctly when switched, for example by anchoring "his name was lifted up into the presence of that Son of Man and". Add `olson-revisited` (JSP 18.3, 2009) to sources.
 
 ### 3. Major: plain.txt 67:13 adopts Charles's emendation without saying so ("the kings", "the lust")
-The Plain says the waters "serve to heal the bodies of the kings and the lust of their bodies." Neither Ge'ez text has "kings" or "lust":
+The Plain English Translation says the waters "serve to heal the bodies of the kings and the lust of their bodies." Neither Ge'ez text has "kings" or "lust":
 - Dillmann: እስመ ፡ እሉ ፡ ማያተ ፡ ኲነኔ ፡ ለፈውሰ ፡ ዚአሆሙ ፡ ለመላእክት ፡ ወለሞተ ፡ ሥጋሆሙ, "for these waters of judgment are for *their* healing, for the angels, and for the *death* of their body."
 - EOTC: ለፈውሰ ፡ ሥጋሆሙ ፡ ለመላእክት ፡ ወለሞተ ፡ ሥጋሆሙ, "for the healing of their body, for the angels, and for the death of their body."
 
@@ -73,14 +73,14 @@ R1 reads "Charles's edition (1912), a conjecture | in the life of Noah", and the
 - The R1 `orig` (ኅሩየ ፡ ጽድቅ) leaves out ወሃይማኖት, which its own `en` translates ("and faith").
 - Dillmann (ማኅደሪሆሙ) and EOTC (ማኅደሮሙ) are both plural at 39:7, so the singular has to be credited to particular manuscripts.
 
-**Fix:** name the witnesses from Knibb's or Nickelsburg–VanderKam's apparatus, or mark the entry "as reported by Charles; families not checked." Add linked entries at 39:6 ("their days") and 39:7 ("their homes"), with `p` saying the three go together. Reconsider which reading the Plain follows if Ethiopic I has the singular.
+**Fix:** name the witnesses from Knibb's or Nickelsburg–VanderKam's apparatus, or mark the entry "as reported by Charles; families not checked." Add linked entries at 39:6 ("their days") and 39:7 ("their homes"), with `p` saying the three go together. Reconsider which reading the Plain English Translation follows if Ethiopic I has the singular.
 
 ### 8. Major: no variant at 50:3, where the EOTC removes the "no"
 Dillmann reads ወኢይከውን ፡ ሎሙ ፡ ክብር, "they will have *no* honor". The EOTC reads ወይከውን ፡ ሎሙ ፡ ክብር, "they *will* have honor" (texts/auto: wäʾiykäwn → wäykäwn). This flips the status of "the others" in a passage the part itself treats as theologically important: the 50:2 and 50:3 notes and the ch. 50 views build on "no honor."
 **Fix:** add a variant entry. The 50:3 note and the ch. 50 summary should say that the EOTC text gives the penitents honor.
 
 ### 9. Major: the dating views are incomplete, and Hindley is misstated
-The Plain does not need to change here, but fairness does. Where the views appear:
+The Plain English Translation does not need to change here, but fairness does. Where the views appear:
 - ch. 37 setting `views`: "A minority: after AD 70" (no name);
 - ch. 46 deep section;
 - ch. 62 deep section: "The interpolation or late-date view... so the influence runs from Matthew to Enoch (Milik; earlier, Hindley)";
@@ -108,10 +108,10 @@ What is wrong:
 **Fix:** drop "strongest evidence." Cut or relabel the three weak rows ("shared biblical imagery, not evidence of dependence"). Add the redactional argument and John 5:27. Separate "date" from "dependence." Soften the 45:3 "only two" claim.
 
 ### 11. Major: plain.txt 62:2 keeps "sat", leaving "on him" and "his mouth" as God
-The choice to follow the manuscripts' ወነበረ is defensible and recorded. But the Plain then reads: "The Lord of Spirits sat on the throne of his glory. The spirit of righteousness was poured out on him. The word of his mouth kills all the sinners." That says God received the spirit.
+The choice to follow the manuscripts' ወነበረ is defensible and recorded. But the Plain English Translation then reads: "The Lord of Spirits sat on the throne of his glory. The spirit of righteousness was poured out on him. The word of his mouth kills all the sinners." That says God received the spirit.
 - The 49:3 note says "62:2 adds Isaiah 11:4: the word of his mouth kills the wicked. So the Chosen One is also the king," which assumes the emended text.
-- The 62:3 Plain ("they will see... him as he sits") and the 62:5 Plain ("that Son of a Woman sitting on the throne of his glory") both need the Chosen One on the throne.
-- The variant's suggestion, "God taking his seat and then acting through the Chosen One," is not something a reader can find in the Plain.
+- The 62:3 Plain English Translation ("they will see... him as he sits") and the 62:5 Plain English Translation ("that Son of a Woman sitting on the throne of his glory") both need the Chosen One on the throne.
+- The variant's suggestion, "God taking his seat and then acting through the Chosen One," is not something a reader can find in the Plain English Translation.
 
 **Fix:** add a word note on "on him" saying who the referent is under each reading, and that most translators (Charles; Nickelsburg–VanderKam with angle brackets) emend. Alternatively, follow the emendation as the clearly better sense and keep the variant. Make the 49:3 note match whichever is chosen.
 
@@ -137,10 +137,10 @@ The Ge'ez is መጥባሕቱ... ትሰክር ፡ እምኔሆሙ, "is drunk *fro
 The verb ወየዐፅውዎሙ is third person plural ("they will shut them up"). Charles's "He will imprison" is the source. **Fix:** "They will lock up those angels...", or a note if a passive is intended.
 
 ### 16. Minor: plain.txt 71:6/71:7 moves the seraphim, cherubim and ophanim into the wrong verse
-Dillmann and the EOTC both open 71:7 with ወዐውዱ ፡ ሱራፌል ፡ ወኪሩቤል ፡ ወኦፍኒን. Charles has them at 71:7 too. This is not one of the known machine-cut edges. The Plain puts "Around it were seraphim, cherubim and ophanim" at the end of 71:6, so 71:7's "These are the ones who never sleep" has no antecedent in its own verse. The 61:10 note and the angels topic cite 71:7 for the three. **Fix:** move the sentence back to the start of 71:7. Also record the EOTC order (cherubim first).
+Dillmann and the EOTC both open 71:7 with ወዐውዱ ፡ ሱራፌል ፡ ወኪሩቤል ፡ ወኦፍኒን. Charles has them at 71:7 too. This is not one of the known machine-cut edges. The Plain English Translation puts "Around it were seraphim, cherubim and ophanim" at the end of 71:6, so 71:7's "These are the ones who never sleep" has no antecedent in its own verse. The 61:10 note and the angels topic cite 71:7 for the three. **Fix:** move the sentence back to the start of 71:7. Also record the EOTC order (cherubim first).
 
 ### 17. Minor: notes.json 39:12 cites 40:2 for "those who never sleep"
-At 40:2 the Ge'ez (and the Plain) has "different from those who stand there." "Those who sleep not" is only Charles's emendation. **Fix:** drop 40:2 from the list.
+At 40:2 the Ge'ez (and the Plain English Translation) has "different from those who stand there." "Those who sleep not" is only Charles's emendation. **Fix:** drop 40:2 from the list.
 
 ### 18. Minor: notes.json 69:2 says Azazel "is not in the Ethiopic list of 6:7"
 That is literally true but misleading. Tenth place in 6:7 is ʾAsaʾel (Aramaic ʿAsaʾel), the figure whom 8:1 (Ethiopic) and the Parables call Azazel. **Fix:** say so.
@@ -167,13 +167,13 @@ The card says the church honors Uriel, Raguel and Phanuel "with their own feast 
 STYLE.md rule 4 requires this. The idea (Ethiopian scribes read *wäldä bəʾəsi* in the ordinary sense, so the debate is partly modern) overlaps with the generic reading (Casey) and with Olson's interest in the Ethiopic reception. Also, "Christian copyists had a reason to change it, and none... did" overstates. EMML 2080 at 70:1 shows the passage did vary in copying. **Fix:** add the overlap sentence and qualify the claim.
 
 ### 24. Minor: the singular "the Righteous One" at 47:1 and 47:4 has no note
-The Ge'ez has the singular ወደመ ፡ ጻድቅ (47:1) and ወደሙ ፡ ለጻድቅ (47:4), "the blood of the righteous (one)." terms.json makes *ṣadq* as a title "the Righteous One," and Christian readers (and some scholars) have read 47:1–4 as the blood of the Righteous One. The Plain takes it collectively ("the righteous"), which is defensible, but the choice needs a note.
+The Ge'ez has the singular ወደመ ፡ ጻድቅ (47:1) and ወደሙ ፡ ለጻድቅ (47:4), "the blood of the righteous (one)." terms.json makes *ṣadq* as a title "the Righteous One," and Christian readers (and some scholars) have read 47:1–4 as the blood of the Righteous One. The Plain English Translation takes it collectively ("the righteous"), which is defensible, but the choice needs a note.
 
 ### 25. Minor: plain.txt 69:1 drops "After this"
-The Ge'ez begins ወእምድኅረዝ ፡ ኲነኔ, "and after this, judgment...". The Plain begins "This judgment." **Fix:** restore it.
+The Ge'ez begins ወእምድኅረዝ ፡ ኲነኔ, "and after this, judgment...". The Plain English Translation begins "This judgment." **Fix:** restore it.
 
 ### 26. Minor: plain.txt 48:7 last line is open to dispute and has no note
-Ge'ez: ወፈቃዴ ፡ ኮነ ፡ ለሕይወቶሙ. The Plain's "it is his will that they live" follows Charles's "according to his good pleasure." Several modern versions take *fäqade* as an agent noun, "he is the one who requires (avenges) their lives." **Fix:** add a word note.
+Ge'ez: ወፈቃዴ ፡ ኮነ ፡ ለሕይወቶሙ. The Plain English Translation's "it is his will that they live" follows Charles's "according to his good pleasure." Several modern versions take *fäqade* as an agent noun, "he is the one who requires (avenges) their lives." **Fix:** add a word note.
 
 ### 27. Minor: glosses
 - 65:2 "three times" → "again and again" is simply wrong. The text stresses three.
@@ -195,7 +195,7 @@ The term entries are accurate and follow the brief: *təguhan* / *egrēgoroi* / 
 Pick one system.
 
 ### 31. Minor: the notes.json 60:6 note and the variant claim the unemended text "makes sense"
-As the Plain stands, the "power, punishment and judgment" prepared "for those who bow to the righteous judgment" is hard to read as anything but punishment for the faithful. The proposed sense (a covenant for the first group) needs the end of the verse to apply to each group in turn. The entry should say the plain reading is awkward and that most translators supply "not."
+As the Plain English Translation stands, the "power, punishment and judgment" prepared "for those who bow to the righteous judgment" is hard to read as anything but punishment for the faithful. The proposed sense (a covenant for the first group) needs the end of the verse to apply to each group in turn. The entry should say the plain reading is awkward and that most translators supply "not."
 
 ### 32. Minor: notes.json 71:14 says "That a Christian forger would never write this verse is the strongest argument that the Parables are Jewish"
 "Strongest" is the writer's opinion in the site's voice. Equally weighty arguments are the absence of any Christian marker (no cross, resurrection or name of Jesus) and the Herodian allusions. "Forger" is loaded. **Fix:** "One of the main arguments..." and "a Christian writer."
@@ -216,20 +216,20 @@ As the Plain stands, the "power, punishment and judgment" prepared "for those wh
 - **39:6:** finding 7.
 - **62:2:** finding 11.
 - **Gospels comparison:** finding 10. It both overstates (weak parallels, "strongest evidence," "only two books") and understates (the redactional evidence, John 5:27).
-- **Overlap with Charles:** not too far, as the verdict explains. Charles's influence shows in the emendations the Plain adopts silently (findings 3, 13, 14, 15, 26), not in its sentence shapes.
+- **Overlap with Charles:** not too far, as the verdict explains. Charles's influence shows in the emendations the Plain English Translation adopts silently (findings 3, 13, 14, 15, 26), not in its sentence shapes.
 - **Status:** the part never calls the book Scripture in its own voice. Lens E is always framed as the Ethiopian Orthodox reading.
 
 ## Fixes applied
 
-Writer's response. All 32 findings were checked against texts/orig/1En.json and texts/auto/1En.json before any change. 31 are fixed. 1 is partly declined (finding 7, the reading the Plain follows), for the reason given there. After the fixes, `node tools/build.js --check 1En/037-071` gives 295 verses, 166 notes, 24 variants, 110 glosses, 35 chapter pages, 18 topic contributions, 0 errors and 0 warnings.
+Writer's response. All 32 findings were checked against texts/orig/1En.json and texts/auto/1En.json before any change. 31 are fixed. 1 is partly declined (finding 7, the reading the Plain English Translation follows), for the reason given there. After the fixes, `node tools/build.js --check 1En/037-071` gives 295 verses, 166 notes, 24 variants, 110 glosses, 35 chapter pages, 18 topic contributions, 0 errors and 0 warnings.
 
 1. **Fixed.** I checked texts/orig 45:1 and it reads ወዝካልእ ፡ ምሳሌ, as the reviewer says. I deleted the variant and added a word note on how Dillmann writes *wäzkalʾ*. Every Dillmann or EOTC `orig` in variants.json is now copied from texts/orig by script (`gz()` in the scratch variants file). The same file checks each one against the text it is credited to, and the build stops if a string is missing. That check also turned up 60:6, where the EOTC spells the word ለኵነኔ. The witness label now says so.
 2. **Fixed.** R1 now reads "EMML 2080 (15th century, Ethiopic I), as reported in Knibb's apparatus (1978) and argued by Olson (1998; 2009)". The `why` now says Nickelsburg and VanderKam keep the longer text, and that Olson grants manuscripts cannot settle the question. The anchor is now the whole phrase "his name was lifted up into the presence of that Son of Man and into the presence of the Lord of Spirits", so R1 reads as a full sentence when switched on. `b` notes Dillmann's *bäḫäbä* against the EOTC's *wäḫäbä*. I added the source `olson-revisited`. The 70:1 note anchor was shortened so it does not partly overlap the new anchor.
-3. **Fixed.** I checked both texts and neither has "kings" or "lust". The Plain now reads "for the healing of the angels and for the death of their bodies". I added a 67:13 variant (Dillmann, the EOTC, and Charles's emendation) and a word note on the crux.
+3. **Fixed.** I checked both texts and neither has "kings" or "lust". The Plain English Translation now reads "for the healing of the angels and for the death of their bodies". I added a 67:13 variant (Dillmann, the EOTC, and Charles's emendation) and a word note on the crux.
 4. **Fixed.** In the 71:14 note, Collins and Nickelsburg now hold view (2) and VanderKam and Olson view (1). The chapter page and its settings already said this.
 5. **Fixed.** The 71:14 note now says we know of no official Ethiopian Orthodox statement. The setting view is now "A righteous human (wäldä bəʾəsi in its ordinary sense; Casey)". I removed the parenthesis that credited Charles with "you are a man". The ch. 71 reading now separates Casey's generic reading from Charles's emendation. I removed the unused key `cowley-interpretation`, and also the unused `isaac-enoch`.
 6. **Fixed.** texts/en Charles 60:1 reads "Enoch", so the reviewer is right. I deleted the 60:1 variant. The note now says Charles suggested in his commentary that Noah was meant, but printed "Enoch".
-7. **Partly fixed.** R1 is now credited "as reported by Charles; which manuscript family reads it was not checked here". Its `orig` no longer gives Ge'ez I could not check. I added linked entries at 39:6 ("Righteousness will fill their days") and 39:7 ("I saw their homes"), each saying the entries go together. The 39:7 entry records the Dillmann/EOTC noun forms. **Declined:** I did not switch the Plain to the singular. Both texts available to me are plural, and I could not check the Ethiopic I witnesses. The `why` says that if Ethiopic I reads the singular, the singular should be preferred.
+7. **Partly fixed.** R1 is now credited "as reported by Charles; which manuscript family reads it was not checked here". Its `orig` no longer gives Ge'ez I could not check. I added linked entries at 39:6 ("Righteousness will fill their days") and 39:7 ("I saw their homes"), each saying the entries go together. The 39:7 entry records the Dillmann/EOTC noun forms. **Declined:** I did not switch the Plain English Translation to the singular. Both texts available to me are plural, and I could not check the Ethiopic I witnesses. The `why` says that if Ethiopic I reads the singular, the singular should be preferred.
 8. **Fixed.** I added a 50:3 variant (ወኢይከውን against ወይከውን). The 50:2 note, the 50:3 note and the ch. 50 summary now say that the EOTC text gives "the others" honor.
 9. **Fixed.**
    - The ch. 37 setting now gives five separately sourced views: the Enoch Seminar majority (Boccaccini 2007), Knibb and Mearns (later first century AD, Jewish), Hindley (AD 115–117, Jewish, Trajan's war), Milik (Christian, about AD 270) and the Ethiopian Orthodox view.
@@ -246,9 +246,9 @@ Writer's response. All 32 findings were checked against texts/orig/1En.json and 
     - The 45:3 note now mentions Ezekiel the Tragedian, the Testament of Abraham, 1 Samuel 2:8 and Sirach 47:11. Chapter 62's view N and the son-of-man topic were softened in the same way.
 11. **Fixed.** I kept "sat" and added a word note on "on him": read strictly, the referent is God, and most translators emend. The 49:3 and 62:2 notes now say "if it speaks of the Chosen One". The variant's `why` points to the new note.
 12. **Fixed.** Each count claim is now credited to the edition that reports it, or is worded "Dillmann's text and the EOTC Bible", in 38:2, 60:6, 62:2, 62:5, 65:10, 70:1, 71:14, and in the notes on 60:1, 71:14 and 59:2 and the ch. 71 deep section. I deleted "who had the older manuscripts" (48:10). The 51:3 entry now says it was not checked whether Charles followed a manuscript.
-13. **Fixed.** The Plain now reads "the houses of his congregation". The note now says the Ge'ez is singular and that Charles made it plural.
-14. **Fixed.** The Plain now reads "is drunk on them". The note says "blood" is supplied in many versions.
-15. **Fixed.** The Plain now reads "They will lock up". The note explains the plural verb.
+13. **Fixed.** The Plain English Translation now reads "the houses of his congregation". The note now says the Ge'ez is singular and that Charles made it plural.
+14. **Fixed.** The Plain English Translation now reads "is drunk on them". The note says "blood" is supplied in many versions.
+15. **Fixed.** The Plain English Translation now reads "They will lock up". The note explains the plural verb.
 16. **Fixed.** I moved the seraphim, cherubim and ophanim to the start of 71:7. I added a 71:7 variant for the EOTC order.
 17. **Fixed.** I removed 40:2 from the 39:12 note.
 18. **Fixed.** The 69:2 note now says Azazel is tenth in 6:7 as *ʾAsaʾel* (Aramaic *ʿAsaʾel*).
@@ -258,7 +258,7 @@ Writer's response. All 32 findings were checked against texts/orig/1En.json and 
 22. **Fixed.** The ch. 40 card now says the church "honors the archangels it names, including Uriel, Raguel and Phanuel, among the seven archangels". The feast-day claim is gone. I did not add the day of Uriel's monthly feast, because I could not confirm it.
 23. **Fixed.** The spec box now names its overlap with Casey and Olson and gives EMML 2080 at 70:1 as a limit on its argument.
 24. **Fixed.** I added a word note at 47:4 on the singular *ṣadq* in 47:1 and 47:4 and the collective reading.
-25. **Fixed.** The Plain 69:1 now begins "After this, the judgment will terrify them".
+25. **Fixed.** The Plain English Translation 69:1 now begins "After this, the judgment will terrify them".
 26. **Fixed.** I added a word note at 48:7 on *fäqade*.
 27. **Fixed.** The 65:2, 40:8, 71:17 and 67:8 glosses were rewritten ("exactly three times, for urgency"; the angel of peace who guides Enoch; "literally length of days"; "as healing baths").
 28. **Fixed.** The nine settings that cover Noah material now have a two-layer `readers` line: the older Noah source, then the Parables' readers. The 37:1–5 date view now names its holders (see 9).
@@ -267,4 +267,4 @@ Writer's response. All 32 findings were checked against texts/orig/1En.json and 
 31. **Fixed.** The 60:6 note and variant now say the unemended reading is awkward and that most translators supply "not".
 32. **Fixed.** The note now reads "One of the main arguments..." and "a Christian writer".
 
-The Plain verses changed by these fixes: 46:8, 62:12, 67:4, 67:13, 69:1, 71:6 and 71:7. Each one moves back from a Charles wording to the Ge'ez. They are logged in the scratch drift audit.
+The Plain English Translation verses changed by these fixes: 46:8, 62:12, 67:4, 67:13, 69:1, 71:6 and 71:7. Each one moves back from a Charles wording to the Ge'ez. They are logged in the scratch drift audit.

@@ -59,14 +59,14 @@ who also writes the `canon` block and the book's `traditions`. Part writers writ
 - Key words: *dullu* "the work" (the forced labor, "toil" where the line is about its weight); *tupšikku* "the work
   basket" (gloss: the basket for carrying earth, the mark of forced labor); *šapšāqu* "hardship"; *rigmu* "noise";
   *ḫubūru* "uproar"; *ṭēmu* "understanding" and *eṭemmu* "ghost" (note the wordplay at first use, I 223-230); *abūbu*
-  "the flood" (lowercase, as the Genesis Plain); *eleppu* "the boat" (never "ark", which is the site's word for
+  "the flood" (lowercase, as the Genesis Plain English Translation); *eleppu* "the boat" (never "ark", which is the site's word for
   Noah's *tevah*; a note compares them); *šassūru* "birth goddess" (plural "the birth goddesses"); *Apsu* "the Apsu"
   (note: the fresh waters under the earth, Enki's home).
 - Repeated passages are rendered word for word the same: the strike speech (ch2), the plague, drought and famine
   cycles (I 352-416 = II A, II E; SEAL's notes list the parallels), and the formula lines. Part 04-06's wording of
   I 352-416 is the model; part 07-09 reads it if it exists when it reaches II E and otherwise follows the Akkadian,
   and the lead makes them agree afterward.
-- Quote Genesis from the site's current Plain exactly (e.g. Genesis 6:14 "Make yourself an ark of gopher wood.").
+- Quote Genesis from the site's current Plain English Translation exactly (e.g. Genesis 6:14 "Make yourself an ark of gopher wood.").
 
 ## Places needing full treatment
 - I 1 *inūma ilū awīlum*: "When the gods were man" / "like men" / "were human"; the crux and every reading.

@@ -1,6 +1,6 @@
 # Hostile review: Acts 18–20 (part 18-20)
 
-Reviewer: hostile-reviewer (not the writer). Checked: plain.txt verse by verse against `texts/orig/Act.json` (SBL, Byzantine and the word list), notes, variants, glosses, chapters (settings, traditions, deep dives), topics.json, sources.json, the proposal topics `corinth`, `apollos`, `priscilla-and-aquila` and `agrapha`, and the proposed terms ἐπίσκοπος, βῆμα and ἀνθύπατος. `VERBOSE=1 node tools/build.js --check Act/18-20` gives 0 errors and 0 warnings. Quotations of other books (Isaiah 41:10, 43:5, 40:3; Matthew 3:11, 7:15, 10:16; John 7:39, 21:16; 2 Samuel 1:16; 1 Samuel 12:3; Numbers 6:18, 16:15; Acts 13:25, 16:19) match their current Plain.
+Reviewer: hostile-reviewer (not the writer). Checked: plain.txt verse by verse against `texts/orig/Act.json` (SBL, Byzantine and the word list), notes, variants, glosses, chapters (settings, traditions, deep dives), topics.json, sources.json, the proposal topics `corinth`, `apollos`, `priscilla-and-aquila` and `agrapha`, and the proposed terms ἐπίσκοπος, βῆμα and ἀνθύπατος. `VERBOSE=1 node tools/build.js --check Act/18-20` gives 0 errors and 0 warnings. Quotations of other books (Isaiah 41:10, 43:5, 40:3; Matthew 3:11, 7:15, 10:16; John 7:39, 21:16; 2 Samuel 1:16; 1 Samuel 12:3; Numbers 6:18, 16:15; Acts 13:25, 16:19) match their current Plain English Translation.
 
 ## Verdict
 
@@ -38,7 +38,7 @@ None of these is hard to fix.
 
 ### 4. Major: the proposed βῆμα term contradicts the published Matthew and John
 - **Location:** content/proposals/nt/terms.json, βῆμα entry (added by this part).
-- **Problem:** The entry lists Matthew 27:19 and John 19:13 under "judgment seat". The published Plain reads "the judge's bench" at Matthew 27:19 and "the judge's platform" at John 19:13. A binding term that cites verses rendered otherwise is wrong on its face, and later writers (Romans 14:10, 2 Corinthians 5:10) will not know which rendering to follow. Acts 25:6, 10 and 17 (part 24-28) do use "judgment seat", so Acts agrees with itself.
+- **Problem:** The entry lists Matthew 27:19 and John 19:13 under "judgment seat". The published Plain English Translation reads "the judge's bench" at Matthew 27:19 and "the judge's platform" at John 19:13. A binding term that cites verses rendered otherwise is wrong on its face, and later writers (Romans 14:10, 2 Corinthians 5:10) will not know which rendering to follow. Acts 25:6, 10 and 17 (part 24-28) do use "judgment seat", so Acts agrees with itself.
 - **Fix:** Either (a) state the term as "judgment seat in Acts and Paul's letters; Matthew 27:19 'judge's bench' and John 19:13 'judge's platform' (already published)" and say why, or (b) propose in topics.md/build.md that the lead align Matthew and John. Do not leave the entry claiming verses it does not govern.
 
 ### 5. Major: the rebaptism card (19:3–5) leaves out the Reformed view
@@ -62,14 +62,14 @@ None of these is hard to fix.
   - 20:19: KJV "with **many** tears" (πολλῶν, TR and Byzantine).
   - 20:32: KJV "**brethren**, I commend you" (ἀδελφοί) and "to give **you** an inheritance" (δοῦναι ὑμῖν), plus ἐποικοδομῆσαι.
   - 19:39: KJV "concerning **other matters**" (περὶ ἑτέρων) against "beyond that" (περαιτέρω).
-  - 19:33: KJV "they **drew Alexander out** of the multitude" (προεβίβασαν) against "briefed/instructed" (συνεβίβασαν). The Plain's "briefed" is the debated NA reading, and readers deserve to see both.
+  - 19:33: KJV "they **drew Alexander out** of the multitude" (προεβίβασαν) against "briefed/instructed" (συνεβίβασαν). The Plain English Translation's "briefed" is the debated NA reading, and readers deserve to see both.
   - Smaller ones that could share one entry: 20:28 KJV "Take heed **therefore**"; 20:29 KJV "For I know this"; 19:27 KJV "her magnificence should be destroyed" (τὴν μεγαλειότητα against τῆς μεγαλειότητος).
 - **Fix:** Add entries for at least 20:19, 20:32, 19:39 and 19:33, with witnesses as Metzger, NA28 or Tischendorf report them.
 
-### 8. Minor: 20:28, the Plain's "his own blood" and the claim about Metzger
+### 8. Minor: 20:28, the Plain English Translation's "his own blood" and the claim about Metzger
 - **Location:** notes.json 20:28 ("'His own blood' or 'the blood of his own'?"); variants.json 20:28 `b`.
-- **Problem:** Both say "Metzger's committee thought the second likely" ("the blood of his Own" meaning his Son). As far as I recall, Metzger's Textual Commentary says only that it is *possible* "his Own" was an early title for Jesus. The committee's decision was the reading θεοῦ, not the sense of ἰδίου. If the committee did prefer reading (2), the Plain is also inconsistent: "through his own blood" in English excludes (2), and the note does not say why the Plain chose (1).
-- **Fix:** Check Metzger's wording and write "thought the second possible" (or quote him exactly). Add one sentence on why the Plain says "his own blood": it is the natural sense of the words and what most English versions print, with "the blood of his own Son" given as the alternative.
+- **Problem:** Both say "Metzger's committee thought the second likely" ("the blood of his Own" meaning his Son). As far as I recall, Metzger's Textual Commentary says only that it is *possible* "his Own" was an early title for Jesus. The committee's decision was the reading θεοῦ, not the sense of ἰδίου. If the committee did prefer reading (2), the Plain English Translation is also inconsistent: "through his own blood" in English excludes (2), and the note does not say why the Plain English Translation chose (1).
+- **Fix:** Check Metzger's wording and write "thought the second possible" (or quote him exactly). Add one sentence on why the Plain English Translation says "his own blood": it is the natural sense of the words and what most English versions print, with "the blood of his own Son" given as the alternative.
 
 ### 9. Minor: variant entries with no manuscripts named
 - **Location:** variants.json 20:4 ("as far as Asia"), 20:8 ("we" or "they") and 20:21.
@@ -83,7 +83,7 @@ None of these is hard to fix.
 
 ### 11. Minor: 20:32 supplies "you" twice, and "That word" decides an open point
 - **Location:** plain.txt 20:32.
-- **Problem:** The SBL has οἰκοδομῆσαι καὶ δοῦναι τὴν κληρονομίαν with no object for either verb. The Plain's "to build you up and to give you the inheritance among all" supplies "you" twice, which gives a 9-word run identical to a familiar modern version. The second "you" is the Byzantine/TR ὑμῖν that the Plain otherwise does not follow. "That word has power" also settles the antecedent of τῷ δυναμένῳ (God or the word). The note admits this, but the text does not need to settle it.
+- **Problem:** The SBL has οἰκοδομῆσαι καὶ δοῦναι τὴν κληρονομίαν with no object for either verb. The Plain English Translation's "to build you up and to give you the inheritance among all" supplies "you" twice, which gives a 9-word run identical to a familiar modern version. The second "you" is the Byzantine/TR ὑμῖν that the Plain English Translation otherwise does not follow. "That word has power" also settles the antecedent of τῷ δυναμένῳ (God or the word). The note admits this, but the text does not need to settle it.
 - **Fix:** Rebuild it, for example "...to God and to the message of his grace, which can build up and can give the inheritance among all who have been made holy." Keep the note on the antecedent.
 
 ### 12. Minor: 20:24 "All I want is" is interpretive
@@ -166,15 +166,15 @@ None of these is hard to fix.
 
 1. Accepted (lead decision). Notes 18:11, 18:12 and 20:31 now `top: "paul"`; the `dating` contribution moved into the `paul` contribution as a section "Gallio and the dates of Paul" ("nearly every" chronology, plus the Orosius caveat); `dating` dropped from chapter 18 topics and `paul` added.
 2. Accepted (lead decision). Dropped the 19:2–6 Spirit/tongues card; the Acts 2:4 card (part 01-04) is the one card. Notes 19:1, 19:2 and 19:6 (laying on of hands), the chapter 19 deep dive and the `holy-spirit` topic section now point to the card at Acts 2:4. The lead re-points part 08-10's "card at 19:2–6" at alignment. The suggested Lutheran view belongs on the Acts 2:4 card (part 01-04): passed to the lead.
-3. Accepted. 20:9 Plain now "he fell from the third story to the ground"; the contradictory gloss deleted; note 20:9 "falls from the third story".
+3. Accepted. 20:9 Plain English Translation now "he fell from the third story to the ground"; the contradictory gloss deleted; note 20:9 "falls from the third story".
 4. Accepted (lead decision). βῆμα term entry now governs Acts and Paul's letters only, lists Acts 12:21 "platform" as the exception, and says Matthew 27:19 "the judge's bench" and John 19:13 "the judge's platform" are outside it (lead may align them).
 5. Accepted. Reformed view added to the 19:3–5 rebaptism card: baptism once only (Westminster 28.7); Calvin on John's baptism (Institutes 4.15.7–8) and his reading of 19:5 (4.15.18); keys `calvin-institutes`, `westminster`.
-6. Accepted. No entry now claims NA27 and NA28 differ. 18:7: STEPBible sentence removed; NA27/28 named together; unconfirmed manuscript claims replaced by editions (the Vulgate's "Titi Iusti" kept as a witness to "Titus"). 20:5: rebuilt; "came" is the reading of SBLGNT, Tyndale House, WH, Tregelles and the Byzantine text, "went ahead" the TR; the entry says the electronic data is inconsistent on Nestle-Aland and cites it for neither reading; Plain now "These men came and were waiting for us in Troas." 20:21: NA27/28 print [Christ] in brackets; editions named (the site's Byzantine text, Robinson-Pierpont, lacks "Christ", so that claim was corrected too). Manuscripts not named: I could not verify Metzger's lists, and the lead's rule is to name editions instead.
+6. Accepted. No entry now claims NA27 and NA28 differ. 18:7: STEPBible sentence removed; NA27/28 named together; unconfirmed manuscript claims replaced by editions (the Vulgate's "Titi Iusti" kept as a witness to "Titus"). 20:5: rebuilt; "came" is the reading of SBLGNT, Tyndale House, WH, Tregelles and the Byzantine text, "went ahead" the TR; the entry says the electronic data is inconsistent on Nestle-Aland and cites it for neither reading; Plain English Translation now "These men came and were waiting for us in Troas." 20:21: NA27/28 print [Christ] in brackets; editions named (the site's Byzantine text, Robinson-Pierpont, lacks "Christ", so that claim was corrected too). Manuscripts not named: I could not verify Metzger's lists, and the lead's rule is to name editions instead.
 7. Accepted. New entries for 19:27 (μεγαλειότητος/-α), 19:33 (συνεβίβασαν/προεβίβασαν), 19:39 (περαιτέρω/περὶ ἑτέρων), 20:19 (πολλῶν), 20:28 (οὖν), 20:29 (γὰρ … τοῦτο) and 20:32 (ἀδελφοί, ἐποικοδομῆσαι, ὑμῖν). The witnesses are given as editions, checked against the SBL and Byzantine texts and the word list.
-8. Accepted. Note 20:28 and variant 20:28 now say Metzger judged "his Own" as a title *possible*; the note adds why the Plain says "his own blood" (the natural sense, and what most English versions print), with "his own Son" as the alternative.
+8. Accepted. Note 20:28 and variant 20:28 now say Metzger judged "his Own" as a title *possible*; the note adds why the Plain English Translation says "his own blood" (the natural sense, and what most English versions print), with "his own Son" as the alternative.
 9. Partly accepted. The 20:4, 20:8 and 20:21 witnesses are now named precisely as editions (NA27/28 together; Robinson-Pierpont for the Byzantine text), and 20:8's "why" is rewritten. Manuscript lists were not added because I could not verify them (lead's rule: never invent a witness).
 10. Accepted. New variant entries at 19:1 (Western addition: P38, D, Harclean margin, per Metzger) and 19:14 (D "a priest"). Note 19:1 now names P38 and the Harclean margin.
-11. Accepted. 20:32 rebuilt: "...and of the word of his grace, able to build up and to give the inheritance among all who have been made holy." No supplied "you", antecedent left open; the note now says the Plain leaves it open.
+11. Accepted. 20:32 rebuilt: "...and of the word of his grace, able to build up and to give the inheritance among all who have been made holy." No supplied "you", antecedent left open; the note now says the Plain English Translation leaves it open.
 12. Accepted. 20:24 now "...as if it were precious to me, if only I can finish my race and the service the Lord Jesus gave me. That service is to bear witness...". The variant's anchor and readings and the note anchor ("finish my race") were updated to match.
 13. Accepted. 19:19 "who had practiced magic" (gloss updated); 20:1 "he said goodbye to them".
 14. Accepted. Split 18:14, 19:26 (and dropped the added "from us"), 19:27, 19:34, 19:35 (as suggested), 20:3, 20:24 and 20:35.

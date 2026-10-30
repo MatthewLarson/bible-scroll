@@ -1,8 +1,8 @@
 # Hostile review: Esther 5–10 (part 05-10)
 
-Scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json (including the settings cards), topics.json for this part, the Esther terms in content/terms.json, and the shared source keys this part uses in content/sources.json. book.json and part 01-04 are out of scope, except where this part has to match part 01-04's Plain.
+Scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json (including the settings cards), topics.json for this part, the Esther terms in content/terms.json, and the shared source keys this part uses in content/sources.json. book.json and part 01-04 are out of scope, except where this part has to match part 01-04's Plain English Translation.
 
-Checks run: `node tools/build.js --check Est/05-10` and `--check Est` (both 0 errors, 0 warnings). I compared all 90 verses with `node tools/literal.js Est 5`–`10` and checked them against the NIV and ESV. I checked quotations against the site's Plain for Genesis, Exodus, Deuteronomy, Joshua, 1–2 Samuel, 1 Kings, Nehemiah and Esther 1–4. I verified the Septuagint (Rahlfs) for all of chapter 9 on blueletterbible.org (9:1–9:28a) and on bibelkommentare.de (9:28–32). I checked the Alpha Text and the Additions against the NETS Esther translation (Göttingen IOSCS PDF), checked Harbona in the Jewish Encyclopedia, and read Esther Rabbah 10:1 on Sefaria.
+Checks run: `node tools/build.js --check Est/05-10` and `--check Est` (both 0 errors, 0 warnings). I compared all 90 verses with `node tools/literal.js Est 5`–`10` and checked them against the NIV and ESV. I checked quotations against the site's Plain English Translation for Genesis, Exodus, Deuteronomy, Joshua, 1–2 Samuel, 1 Kings, Nehemiah and Esther 1–4. I verified the Septuagint (Rahlfs) for all of chapter 9 on blueletterbible.org (9:1–9:28a) and on bibelkommentare.de (9:28–32). I checked the Alpha Text and the Additions against the NETS Esther translation (Göttingen IOSCS PDF), checked Harbona in the Jewish Encyclopedia, and read Esther Rabbah 10:1 on Sefaria.
 
 ## Verdict
 
@@ -58,12 +58,12 @@ The Septuagint text of all of chapter 9 is available: blueletterbible.org/lxx/es
   - Mark 6:1 (Alpha Text, "the Mighty One") as verified.
   - Delete every "in this session" or "online" remark.
 
-### 5. Major: close NIV/ESV matches in the Plain
+### 5. Major: close NIV/ESV matches in the Plain English Translation
 STYLE says close matches have to be redone. I quote only a few words of each version.
-- **8:11.** Plain "of any people or province that might attack them" is word for word the ESV ("any people or province that might attack them"). Plain "the right to come together" also follows the NIV's "granted ... the right to assemble". Hebrew: *hatsarim otam*. Try "of any people or province that comes against them".
-- **10:3.** Plain "He worked for the good of his people" is the NIV exactly ("he worked for the good of his people"). Hebrew: *doresh tov le'ammo*, "seeking good for his people". Try "He looked out for his people's good".
-- **8:10.** Plain "the swift horses of the king's service, born of the royal mares" combines the ESV ("swift horses that were used in the king's service, bred from the royal stud") with the BSB ("bred from the royal mares"). "Royal" is not in the Hebrew for *ramakhim*, and the line now says "royal" twice. Try "They rode swift horses of the royal post, sired by fine mares", or similar.
-- **Lesser echoes:** 5:1 "facing its entrance" (NIV and BSB "facing the entrance"). 7:4 "sold as slaves, men and women ... a loss to the king" (ESV "sold merely as slaves, men and women ... the loss to the king"). The 7:4 slave phrase is defensible, because it deliberately matches the site's Plain of Deuteronomy 28:68, and the note says so. But "a loss to the king" should go anyway, because the clause is also opaque at an 8th-grade level. A clearer line would be "since that trouble would not have been worth bothering the king".
+- **8:11.** Plain English Translation "of any people or province that might attack them" is word for word the ESV ("any people or province that might attack them"). Plain English Translation "the right to come together" also follows the NIV's "granted ... the right to assemble". Hebrew: *hatsarim otam*. Try "of any people or province that comes against them".
+- **10:3.** Plain English Translation "He worked for the good of his people" is the NIV exactly ("he worked for the good of his people"). Hebrew: *doresh tov le'ammo*, "seeking good for his people". Try "He looked out for his people's good".
+- **8:10.** Plain English Translation "the swift horses of the king's service, born of the royal mares" combines the ESV ("swift horses that were used in the king's service, bred from the royal stud") with the BSB ("bred from the royal mares"). "Royal" is not in the Hebrew for *ramakhim*, and the line now says "royal" twice. Try "They rode swift horses of the royal post, sired by fine mares", or similar.
+- **Lesser echoes:** 5:1 "facing its entrance" (NIV and BSB "facing the entrance"). 7:4 "sold as slaves, men and women ... a loss to the king" (ESV "sold merely as slaves, men and women ... the loss to the king"). The 7:4 slave phrase is defensible, because it deliberately matches the site's Plain English Translation of Deuteronomy 28:68, and the note says so. But "a loss to the king" should go anyway, because the clause is also opaque at an 8th-grade level. A clearer line would be "since that trouble would not have been worth bothering the king".
 
 ### 6. Minor: the settings for the counter-decree (8:8–14)
 - **Missing hearers:** The `to` field leaves out "all the peoples". 8:13 says a copy was to be "shown openly to all the peoples", so the would-be attackers were the decree's public audience, not only the Jews and the officials.
@@ -113,15 +113,15 @@ By 5:8 the king has promised twice (5:3 and 5:6, the second in front of Haman). 
 ### 15. Minor: the 8:6 note places Judah's plea "at Pharaoh's court"
 Judah pleads in Joseph's house (Genesis 44:14–34). The note could also point out the strongest verbal link, "the evil that will find" (*hara'ah asher yimtsa*), which Genesis 44:34 shares with Esther 8:6.
 
-### 16. Minor: four quotations do not match the site's Plain
-- **7:10 note:** quotes 2:1 as "the king's rage cooled". Part 01-04's Plain of 2:1 reads "King Ahasuerus calmed down from his anger". Either quote 2:1 as it stands, or ask the 01-04 writer to align 2:1 with 7:10. The Hebrew verb is the same (*shakhakh*), so aligning them is the better fix.
-- **9:31 note:** quotes 4:3 as "weeping and crying aloud". The Plain of 4:3 is "They fasted, wept and cried aloud".
-- **8:9 note:** quotes Nehemiah 13:24 as "the language of Judah". The site's Nehemiah Plain is "They could not speak Judean".
-- **5:10 note:** says Saul "forced himself" (1 Samuel 13:12). The site's Plain is "So I pushed myself to do it".
+### 16. Minor: four quotations do not match the site's Plain English Translation
+- **7:10 note:** quotes 2:1 as "the king's rage cooled". Part 01-04's Plain English Translation of 2:1 reads "King Ahasuerus calmed down from his anger". Either quote 2:1 as it stands, or ask the 01-04 writer to align 2:1 with 7:10. The Hebrew verb is the same (*shakhakh*), so aligning them is the better fix.
+- **9:31 note:** quotes 4:3 as "weeping and crying aloud". The Plain English Translation of 4:3 is "They fasted, wept and cried aloud".
+- **8:9 note:** quotes Nehemiah 13:24 as "the language of Judah". The site's Nehemiah Plain English Translation is "They could not speak Judean".
+- **5:10 note:** says Saul "forced himself" (1 Samuel 13:12). The site's Plain English Translation is "So I pushed myself to do it".
 
 ### 17. Minor: the same Hebrew is rendered differently from part 01-04
-- **8:2 against 3:10.** Plain 8:2 "pulled off his signet ring"; Plain 3:10 (and Genesis 41:42) "slipped the signet ring off". The Hebrew is the same (*vayyasar ... et-tabba'to*), and the 8:2 note says "The same words opened 3:10". Use "slipped ... off" in 8:2.
-- **8:11 against 3:13.** 3:13 "Their property was to be taken as plunder"; 8:11 "take their spoil as plunder". The Hebrew is identical (*ushlalam lavoz*), and the 8:11 note and the chapter 8 deep section say the wording is "copied". Use one English for both. Also reconsider "with" in "with little children and women". It is not in the Hebrew, and it leans the line toward the majority reading, while the note says the Plain keeps the ambiguity.
+- **8:2 against 3:10.** Plain English Translation 8:2 "pulled off his signet ring"; Plain English Translation 3:10 (and Genesis 41:42) "slipped the signet ring off". The Hebrew is the same (*vayyasar ... et-tabba'to*), and the 8:2 note says "The same words opened 3:10". Use "slipped ... off" in 8:2.
+- **8:11 against 3:13.** 3:13 "Their property was to be taken as plunder"; 8:11 "take their spoil as plunder". The Hebrew is identical (*ushlalam lavoz*), and the 8:11 note and the chapter 8 deep section say the wording is "copied". Use one English for both. Also reconsider "with" in "with little children and women". It is not in the Hebrew, and it leans the line toward the majority reading, while the note says the Plain English Translation keeps the ambiguity.
 - **6:2 against 2:21.** 6:2 "who kept watch at the door"; 2:21 "who kept watch at the entrance". Same Hebrew (*mishomre hassaf*).
 - **7:8.** "the hall where the wine was served" for *beit mishteh hayyayin*. terms.json sets *mishteh hayyayin* as "the wine feast". "The hall of the wine feast" keeps the term.
 
@@ -130,7 +130,7 @@ Judah pleads in Joseph's house (Genesis 44:14–34). The note could also point o
 - **9:25.** "he and his sons must be hanged". The 9:13 note sets up "hung" for dead bodies and "hanged" for executions, and the sons were already dead (9:10). Use "hung", or drop the distinction.
 - **6:2.** "They came to the entry that told how" loses *vayyimmatse katuv*, "it was found written", which is the language of 2:23. Use "It was found written there that ...".
 - **9:24.** "thrown Pur ... to throw them into panic". The English pun on "throw" is not in the Hebrew (*hippil* ... *lehummam*). Meanwhile the real sound-play, Haman and *hummam*, which most commentators note, goes unmentioned. Use "cast Pur" or "to crush them in panic", and mention the Haman/*hummam* play in the 9:24 note.
-- **10:3 note.** It argues that *zera'* means "the whole race" because "the seed of the Jews" means that in 6:13 and 9:27–28. But in 9:27–28 *zar'am* means descendants, and the Plain itself renders it "their children". Keep only 6:13 as support.
+- **10:3 note.** It argues that *zera'* means "the whole race" because "the seed of the Jews" means that in 6:13 and 9:27–28. But in 9:27–28 *zar'am* means descendants, and the Plain English Translation itself renders it "their children". Keep only 6:13 as support.
 
 ### 19. Minor: the persia topic contradicts part 01-04 on irrevocable law
 - **Problem:** persia, section "Persian law and the royal post", says "the irrevocable law is not attested outside the Bible". Part 01-04's note on 1:19 cites Diodorus, *Library* 17.30: Darius III regretted an execution but could not undo it.
@@ -179,8 +179,8 @@ The 5:1 history note again explains the French excavations, the apadana and Arta
 - **Other facts:** Athanasius, Festal Letter 39; 2 Maccabees 15:36; Paton's "not one noble character"; Luther's *Table Talk*; Gordis, JBL 95 (1976), which the NIV 2011 follows at 8:11; Mendenhall; the Nuremberg/5707 note, stated carefully; Esther 8:9 is 43 Hebrew words.
 - **Source keys:** All the keys this part uses resolve, and every citation is a real work with correct series, volume and year details. That covers athanasius-festal-39, baldwin-esther, berg-esther, berlin-esther, bickerman-colophon, briant-cyrus-alexander, bush-ruth-esther, clines-esther-scroll, clines-historical-mordecai, day-three-faces, de-troyer-alpha-end, esther-rabbah, fox-esther, fox-redaction-esther, gaster-purim, genesis-rabbah, goldstein-2macc, gordis-esther-studies, hallo-first-purim, hanhart-esther, jobes-esther, kuhrt-persian-corpus, levenson-esther, livy-history, luther-table-talk, mendenhall-tenth, moore-additions, moore-esther, nets-lxx, paton-esther, plutarch-artaxerxes, rahlfs-lxx, thucydides-history, yamauchi-mordecai, yamauchi-persia, zimmern-purim, and the Bavli keys. kent-old-persian, maimonides-mishneh-torah, mishnah-megillah and xenophon-cyropaedia resolve through other books' sources.json files.
 - **Terms:** The terms.json entries for Esther (lines 75–92) are followed throughout chapters 5–10: pole, the fortress at Susa, If the king thinks it good, the enemy of the Jews, annihilate/kill/destroy, raise a hand against, holiday, and sending portions of food. The exceptions are in findings 17–18.
-- **Quotations matching the site's Plain:** 1 Samuel 15:9, 15:19 and 15:21; 1 Samuel 20:7 and 20:33; Genesis 41:43, 43:31, 44:34 and 45:1; Exodus 15:16 and 17:14; Deuteronomy 2:25, 21:23, 25:17, 25:19, 28:68 and 31:18; Joshua 2:9; 2 Samuel 5:10 and 15:30; 1 Kings 15:31; Nehemiah 8:10 and 8:12; Esther 1:13, 2:5, 2:10, 3:15, 4:3 (in the 8:16 note) and 4:16.
-- **The chapter 9 spec box** ("It was the people who took from the spoil", 1 Samuel 15:21) is clearly labeled as Claude's reading. It names its overlap with Levenson, Berlin and Jewish tradition, and limits its own claim to the link with 15:21 and the threefold report. Its quotation of 1 Samuel 15:21 matches the site's Plain. It is plausible and acceptable as it stands.
+- **Quotations matching the site's Plain English Translation:** 1 Samuel 15:9, 15:19 and 15:21; 1 Samuel 20:7 and 20:33; Genesis 41:43, 43:31, 44:34 and 45:1; Exodus 15:16 and 17:14; Deuteronomy 2:25, 21:23, 25:17, 25:19, 28:68 and 31:18; Joshua 2:9; 2 Samuel 5:10 and 15:30; 1 Kings 15:31; Nehemiah 8:10 and 8:12; Esther 1:13, 2:5, 2:10, 3:15, 4:3 (in the 8:16 note) and 4:16.
+- **The chapter 9 spec box** ("It was the people who took from the spoil", 1 Samuel 15:21) is clearly labeled as Claude's reading. It names its overlap with Levenson, Berlin and Jewish tradition, and limits its own claim to the link with 15:21 and the threefold report. Its quotation of 1 Samuel 15:21 matches the site's Plain English Translation. It is plausible and acceptable as it stands.
 
 ## Fixes applied
 
@@ -194,7 +194,7 @@ All 27 findings are fixed. Both checks (`--check Est/05-10` and `--check Est`) s
    - Witness fields now name only the witness, for example "Septuagint ... (Rahlfs; Göttingen edition, Hanhart)" or "Greek Alpha Text (Hanhart; NETS)".
    - The 8:12 and 10:3 contradictions are gone.
    - The 6:1 Alpha Text reading "the Mighty One" now cites nets-esther, and the Old Greek reading is "the Lord".
-5. **Plain:**
+5. **Plain English Translation:**
    - 8:11 redrafted: "to gather and to stand up for their lives ... every army of any people or province that comes against them, little children and women, and their property could be taken as plunder". There is no "with", and the plunder clause now matches 3:13.
    - 10:3: "He looked out for his people's good".
    - 8:10: "They rode fast steeds that served the crown, foals of the mares".
@@ -217,14 +217,14 @@ All 27 findings are fixed. Both checks (`--check Est/05-10` and `--check Est`) s
    - In the 9:13 note, "the rabbis do not fault her" is removed and the Greek readings are added.
 9. **Harbona (7:9):** his part in the plot is now attributed to R. Eleazar in Bavli Megillah 16a, and Elijah to Esther Rabbah 10:9. "Remembered for good" is cited to Yerushalmi Megillah 3:7.
 10. **8:3:** "the first time she speaks of 'the Jews' to the king (8:5)".
-11. **8:13:** the example is now 1 Samuel 18:25, quoted from the site's Plain.
+11. **8:13:** the example is now 1 Samuel 18:25, quoted from the site's Plain English Translation.
 12. **6:6:** five occurrences of the full phrase, with the corrected breakdown.
 13. **Ch. 5 deep:** "promised twice", which agrees with the 5:8 note.
 14. **6:8:** "The KJV took it as the king's own crown."
 15. **8:6:** the plea is set in Joseph's house (Genesis 44:14–34), and the note adds the shared *hara'ah asher yimtsa*.
 16. **Quotations:**
-    - 2:1 is handled by aligning my 7:10 Plain to 2:1's form ("calmed down from his rage"), so the 7:10 note quotes 2:1 exactly as part 01-04 has it. I did not ask 01-04 to change.
-    - 4:3, Nehemiah 13:24 ("could not speak Judean") and 1 Samuel 13:12 ("So I pushed myself to do it") are now quoted as the site's Plain has them.
+    - 2:1 is handled by aligning my 7:10 Plain English Translation to 2:1's form ("calmed down from his rage"), so the 7:10 note quotes 2:1 exactly as part 01-04 has it. I did not ask 01-04 to change.
+    - 4:3, Nehemiah 13:24 ("could not speak Judean") and 1 Samuel 13:12 ("So I pushed myself to do it") are now quoted as the site's Plain English Translation has them.
 17. **Consistency with part 01-04:**
     - 8:2 now reads "slipped off the signet ring", like 3:10.
     - 8:11's plunder clause matches 3:13.
@@ -249,7 +249,7 @@ All 27 findings are fixed. Both checks (`--check Est/05-10` and `--check Est`) s
     - 7:4 "we've been sold off".
     - 9:1 "everything flipped".
     - 10:3 "looked after the well-being of".
-    - Glosses that lost their anchors after the Plain changes were re-anchored: 8:10 is now "foals of the mares", and the 7:10 gloss was dropped.
+    - Glosses that lost their anchors after the Plain English Translation changes were re-anchored: 8:10 is now "foals of the mares", and the 7:10 gloss was dropped.
 24. **5:1 note:** shortened to the throne-room point, with a pointer to the 1:2 note.
 25. **7:7 preview:** rewritten as "The same Hebrew describes Saul's settled plan to kill David (1 Samuel 20:33)."
 26. **9:31:** the note names the She'iltot and Soferim, and says that the Septuagint has no fasts. The fasting topic has the same change.

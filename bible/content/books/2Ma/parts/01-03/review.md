@@ -10,7 +10,7 @@ I checked them against:
 - texts/orig/2Ma.json `grc` (Swete's Alexandrinus), word by word, beside the KJV Apocrypha in texts/en;
 - Swete's apparatus in texts/src/2Ma.app.json, and the Vulgate and Douay in texts/src/2Ma.lat.json;
 - book.json, the sibling parts 04-07, 08-11 and 12-15, content/terms.json and content/proposals/works/terms.json;
-- the site's Plain for every translated book the part quotes;
+- the site's Plain English Translation for every translated book the part quotes;
 - every `traditions` card on the site (all `chapters.json` and `book.json` files).
 
 **Build.** `VERBOSE=1 node tools/build.js --check 2Ma/01-03` gives **0 errors, 0 warnings** (108 verses, 103 notes, 19 variants, 35 glosses, 3 chapter pages, 7 topic contributions). VERBOSE adds nothing when there are no warnings. The progress line says there was one warning, for book.json's John 10:22 quotation. It is gone now.
@@ -18,13 +18,13 @@ I checked them against:
 **Quotations checked by script** (NFC on both sides):
 - **Greek.** Every Greek string in notes, variants, chapters and topics occurs, as whole words (ignoring punctuation), in the `grc` of the book or in Swete's apparatus. **No invented Greek word.** One `orig` gives the wrong words for its note (finding 6), and some apparatus strings are copied loosely (finding 16).
 - **Latin.** Every Vulgate quotation matches the file: *utpote qui adversus talem regem dimicavimus*, *Anno centesimo octogesimo octavo, populus qui est Jerosolymis*, *qui datus est quando Nehemias*, *vocatur autem apud plures Nephi*, *iniquum aliquid in civitate moliri*, *Tharsææ filium*, *procurrebant ad Oniam* and *Sed spiritus omnipotentis Dei*. The one exception is N31's *Nehemiae erat oratio*, which the file spells *Nehemiæ* (finding 16). The KJV and Douay quotations in the variant witness lines also match.
-- **The 66 books.** I checked every quotation of a book the site has translated against the current Plain, by hand. About 40 match exactly; the misses are listed in finding 8. Daniel, Jeremiah, Ezekiel, Zechariah, Mark, Luke, Acts and the Epistles other than Jude are not translated yet, so their quotations could not be checked.
+- **The 66 books.** I checked every quotation of a book the site has translated against the current Plain English Translation, by hand. About 40 match exactly; the misses are listed in finding 8. Daniel, Jeremiah, Ezekiel, Zechariah, Mark, Luke, Acts and the Epistles other than Jude are not translated yet, so their quotations could not be checked.
 
 **Greek accents.** I ran a script for acute accents on a final syllable before another word in chapters 1–3. Every hit is before an enclitic (τε, τις, σου, ἐσμεν, ποτε), so it is correct. I found no new typo in `grc`. There is one probable digitization slip in the apparatus (finding 7).
 
 ## Verdict
 
-**Overall.** This is careful and mostly faithful work. The Plain is fresh and stays close to the Greek. I compared it in my head with the RSV, NRSV, NABRE, NJB, CEB, GNT, NETS, Goldstein and Schwartz and found no dependence. The one exact match, "the Sovereign of spirits and of all authority" at 3:24 (RSV/NRSV), is forced by the Greek and by the shared term for δυνάστης.
+**Overall.** This is careful and mostly faithful work. The Plain English Translation is fresh and stays close to the Greek. I compared it in my head with the RSV, NRSV, NABRE, NJB, CEB, GNT, NETS, Goldstein and Schwartz and found no dependence. The one exact match, "the Sovereign of spirits and of all authority" at 3:24 (RSV/NRSV), is forced by the Greek and by the shared term for δυνάστης.
 
 **What is sound.**
 - The two declared departures from Swete (188 at 1:10, "glory" at 3:26) have entries.
@@ -35,10 +35,10 @@ I checked them against:
 - Almost all the history I was asked to check holds up (see "Claims verified").
 
 **The weaknesses.**
-- **A silent departure at 3:18.** The Plain drops Alexandrinus's μή and reads with Venetus and the KJV, with no entry.
+- **A silent departure at 3:18.** The Plain English Translation drops Alexandrinus's μή and reads with Venetus and the KJV, with no entry.
 - **Confusion over the 1:10 date.**
   - The notes and chapter 1 say "Swete prints… 188", but Swete prints 88.
-  - The Plain's heading puts the date at the head of the second letter. That is the reading the variant rejects.
+  - The Plain English Translation's heading puts the date at the head of the second letter. That is the reading the variant rejects.
 - **A false negative at 3:28.** The variant says the KJV's "weapons" and "they acknowledged" match no reading. In fact they match the Göttingen text (τῶν ὅπλων) and Rahlfs (ἐπεγνωκότες). The apparatus string "χολ. A" is left unexplained.
 - **The Babylonian king list is overstated again.** This repeats the 1 Maccabees error, which that part has since fixed.
 - **No `canon` note for Jeremiah's role in 2:1–8.** In the book of Jeremiah he stays in Judah and is then taken to Egypt.
@@ -54,13 +54,13 @@ I checked them against:
 
 **What the apparatus says:** `om μη V`.
 
-**What the Plain says:** "because the place was about to be treated with contempt". That renders the text without μή. It is exactly Venetus, the KJV ("because the place was like to come into contempt"), the Vulgate (*pro eo quod in contemptum locus esset venturus*) and Rahlfs, which also lacks μή (checked online).
+**What the Plain English Translation says:** "because the place was about to be treated with contempt". That renders the text without μή. It is exactly Venetus, the KJV ("because the place was like to come into contempt"), the Vulgate (*pro eo quod in contemptum locus esset venturus*) and Rahlfs, which also lacks μή (checked online).
 
-With μή, A's sense is "so that the place should not come into contempt". That is either a purpose clause or an awkward negative after a verb of fearing. Either way the Plain has followed another witness without saying so. The lesson in agent-writer-works.md is that every departure needs an entry.
+With μή, A's sense is "so that the place should not come into contempt". That is either a purpose clause or an awkward negative after a verb of fearing. Either way the Plain English Translation has followed another witness without saying so. The lesson in agent-writer-works.md is that every departure needs an entry.
 
-**Fix:** either render A ("to join a prayer of the whole people that the place might not be treated with contempt"), or keep the Plain and add an entry. The entry should give A (μή), V/KJV/Vulgate, and a reason: the μή is hard to construe, and editors drop it.
+**Fix:** either render A ("to join a prayer of the whole people that the place might not be treated with contempt"), or keep the Plain English Translation and add an entry. The entry should give A (μή), V/KJV/Vulgate, and a reason: the μή is hard to construe, and editors drop it.
 
-### 2. MAJOR: the date at 1:10: what Swete prints, and where the Plain puts it
+### 2. MAJOR: the date at 1:10: what Swete prints, and where the Plain English Translation puts it
 
 **(a) The writer misreports Swete's own text.**
 - N11 says: "Swete prints 'Year 188, in Jerusalem' as the closing date of the first letter".
@@ -69,9 +69,9 @@ With μή, A's sense is "so that the place should not come into contempt". That 
 
 Swete prints ἔτους ὀγδοηκοστοῦ καὶ ὀγδόου, **88**. The 188 is Venetus's (`pr εκατοστου και V`), as the 1:10 variant itself says correctly.
 
-**Fix:** "Swete's punctuation puts the date (88 in his text; 188 in Venetus, which the Plain follows) at the close of the first letter".
+**Fix:** "Swete's punctuation puts the date (88 in his text; 188 in Venetus, which the Plain English Translation follows) at the close of the first letter".
 
-**(b) The Plain's layout contradicts the reading it follows.**
+**(b) The Plain English Translation's layout contradicts the reading it follows.**
 - The second 1:10 variant follows Swete's punctuation: the date ends the first letter, as Bickerman and most editors hold. Rahlfs prints the date at the end of 1:9 (checked online).
 - But plain.txt puts `## The second letter to Egypt` *before* "In the year 188, at Jerusalem." So a reader sees the date at the head of the second letter. That is Venetus's, the Vulgate's and the KJV's reading, the one the entry rejects.
 - The chapter 1 settings also give the first letter as "1:1–9" while dating it "by the date at its close (1:10a)".
@@ -140,14 +140,14 @@ The `orig` is "τὴν θυσίαν ὑπὲρ παντὸς τοῦ λαοῦ �
   - The reading "many call it Nephthai" is Rahlfs's text. Correct V's `en` and `plain`, and add Rahlfs as a witness for πολλοῖς … νεφθαι.
   - The `orig` also has a Latin capital N in "Nεφθαι".
 
-### 8. MINOR: quotations and wording that do not match the site's Plain or the sibling parts
+### 8. MINOR: quotations and wording that do not match the site's Plain English Translation or the sibling parts
 
 | Where | The part has | The site / sibling part has |
 |---|---|---|
 | N10 | John 10:22 "the Feast of Dedication" | "The Festival of Dedication" |
-| N64 | 12:22 "the appearance of the one who watches over all" | 08-11 Plain: "the appearance of the one who sees all things" |
-| N64 | 15:27 listed among the *epiphaneiai* | Swete has ἐπιμελείᾳ there (proposals/works/terms.json: "at 15:27 only in Venetus"), and 12-15's Plain reads "God's care". Drop 15:27 or say "in Venetus". |
-| N65 | *Hellēnismos*, "Hellenism" (4:13) | 04-07 Plain and terms: "the Greek way" |
+| N64 | 12:22 "the appearance of the one who watches over all" | 08-11 Plain English Translation: "the appearance of the one who sees all things" |
+| N64 | 15:27 listed among the *epiphaneiai* | Swete has ἐπιμελείᾳ there (proposals/works/terms.json: "at 15:27 only in Venetus"), and 12-15's Plain English Translation reads "God's care". Drop 15:27 or say "in Venetus". |
+| N65 | *Hellēnismos*, "Hellenism" (4:13) | 04-07 Plain English Translation and terms: "the Greek way" |
 | N18, N17, ch. 1 | "Nanaia" | 1 Maccabees 05-08 notes: "Nanea" (twice). Agree a single form across the books. |
 | N8 | 1 Maccabees 4:38 "the gates burned" | "the gates burned down" |
 | N23 | "2 Maccabees 10:5 … counts two years" | The two years are at 10:3 ("the first in two years") |
@@ -157,7 +157,7 @@ The `orig` is "τὴν θυσίαν ὑπὲρ παντὸς τοῦ λαοῦ �
 
 - **N5.** "The verb *katallagē*" — *katallagē* is the noun. The verb is *katallassō*.
 - **N14.** The *gerousia* "later meets with the high priest (4:44; 11:27)". At 4:44 it sends three men to the king; 11:27 is a letter addressed to it. Neither involves the high priest. Say "it sends envoys to the king (4:44) and receives a royal letter (11:27)".
-- **N66.** "calls the Seleucid army 'barbarian' (also 4:25; 5:22; 10:4)". The references at 4:25 (Menelaus, "a wild beast") and 5:22 (Philip, "more savage") are about individual rulers, and the sibling Plain does not say "barbarian" there. Only 10:4 ("barbarian nations") fits. Say "and uses the word again of Israel's enemies (10:4; compare 4:25; 5:22)".
+- **N66.** "calls the Seleucid army 'barbarian' (also 4:25; 5:22; 10:4)". The references at 4:25 (Menelaus, "a wild beast") and 5:22 (Philip, "more savage") are about individual rulers, and the sibling Plain English Translation does not say "barbarian" there. Only 10:4 ("barbarian nations") fits. Say "and uses the word again of Israel's enemies (10:4; compare 4:25; 5:22)".
 - **Ch. 2 setting 2:7–8 `readers`.** It speaks of "other Jewish works of the time, such as 2 Baruch 6". 2 Baruch is from about AD 100, two centuries later. Say "a later Jewish work".
 - **Traditions card, Catholic row.** "Christ is present in the tabernacle (Catechism 1179, 1197–1199)". Those paragraphs speak of churches as holy places, not of the tabernacle; the tabernacle is at 1183 and 1379. Add 1183.
 - **N80.** "A Benjaminite could not be a priest" is true, but the note leaves out the view of the handbook it cites. Bullard and Hatton take "Benjamin" as a *priestly* family name (Miniamin, Nehemiah 12:17, 41) and prefer "of the Benjamin family" (UBS notes on 3:4, checked). Give that view in N80 and in the 3:4 variant's `why`.
@@ -231,7 +231,7 @@ Other pages point here, and this part does not point back, or misses an obvious 
 ## Checked and found sound
 
 - **Translation.** It is faithful verse by verse, apart from findings 1 and 12. Numbers and names are right: 169; 188 (with an entry); 25 Kislev; five books; 400 talents of silver and 200 of gold; Apollonius son of Thrasaeus; Hyrcanus son of Tobias.
-- **Who does what.** Swete's corrections of A are followed silently and correctly; none needs an entry, since the Plain follows the base text:
+- **Who does what.** Swete's corrections of A are followed silently and correctly; none needs an entry, since the Plain English Translation follows the base text:
   - 1:18 ὑμῖν (A ἡμῖν);
   - 1:19 ἔχοντος (A ἔχοντες);
   - 2:31 τῷ… ποιουμένῳ;
@@ -246,8 +246,8 @@ Other pages point here, and this part does not point back, or misses an obvious 
   - Judaism (2:21), with a note at first use.
 - **Status.** The book is never called Scripture or the Bible in the site's own voice.
 - **Book cards.** Pointers to the book cards ("the first card", "the second card") match book.json.
-- **Consistency with book.json.** The two letters (1:1–10a, 1:10b–2:18), 124 BC, "the second letter has no date", and Jason of Cyrene all agree with book.json. Quoted sibling verses (5:19, 8:33, 10:6, 15:38 "thin and middling", 15:39) match the sibling Plain.
-- **Quotations of the 66 that match the Plain** include:
+- **Consistency with book.json.** The two letters (1:1–10a, 1:10b–2:18), 124 BC, "the second letter has no date", and Jason of Cyrene all agree with book.json. Quoted sibling verses (5:19, 8:33, 10:6, 15:38 "thin and middling", 15:39) match the sibling Plain English Translation.
+- **Quotations of the 66 that match the Plain English Translation** include:
   - Exodus 2:24, 15:17, 19:6, 22:7, 22:22, 25:30, 30:6 and 40:34;
   - Leviticus 6:13, 9:24 and 10:16–17;
   - Deuteronomy 30:4, 32:9 and 34:1;
@@ -314,9 +314,9 @@ Sources: Livius (Appian, *Syrian Wars* 66); Wikipedia "Heliodorus stele"; *Faven
 
 (Writer of part 01-03, 2026-10-24.) `--check 2Ma/01-03` gives 0 warnings and 0 errors of this part. Two errors remain, both in `topics/new-covenant.json`, a proposal from another lane ("The New Covenant" and "new covenant" also lead to `covenant`). They are not this part's, and I did not touch them.
 
-1. **3:18 (accepted).** Kept the Plain, which follows Venetus. Added a variant: Venetus, Rahlfs, the KJV and the Vulgate against A's μή. The `why` explains that διὰ τό with μή cannot be construed, and that the Plain departs from Swete here.
+1. **3:18 (accepted).** Kept the Plain English Translation, which follows Venetus. Added a variant: Venetus, Rahlfs, the KJV and the Vulgate against A's μή. The `why` explains that διὰ τό with μή cannot be construed, and that the Plain English Translation departs from Swete here.
 2. **1:10 date (accepted).**
-   - N11, ch. 1 `sum` and the ch. 1 deep section now say that Swete's text has 88, Venetus 188, and that the Plain follows Venetus.
+   - N11, ch. 1 `sum` and the ch. 1 deep section now say that Swete's text has 88, Venetus 188, and that the Plain English Translation follows Venetus.
    - The heading before 1:10 is now "The first letter's date, and the second letter". N11 says that the first sentence of 1:10 closes the first letter.
    - The first setting is now 1:1–10a.
    - The second setting stays at 1:10–2:18, because the build refuses "1:10b". Its `what` now says it starts at the second sentence of 1:10.
@@ -337,7 +337,7 @@ Sources: Livius (Appian, *Syrian Wars* 66); Wikipedia "Heliodorus stele"; *Faven
    - John 10:22 now reads "The Festival of Dedication".
    - 12:22 now reads "the one who sees all things". At 15:27 the reading now says "in Venetus", and 15:27 is taken off the refs.
    - "the Greek way" replaces "Hellenism".
-   - "Nanea" now appears throughout: Plain 1:13 and 1:15, the notes and the chapter pages.
+   - "Nanea" now appears throughout: Plain English Translation 1:13 and 1:15, the notes and the chapter pages.
    - 1 Maccabees 4:38 now reads "the gates burned down".
    - The two years now point to 10:3.
    - Nehemiah 9:6 is now given to the Levites, with Ezra named only in the Septuagint.

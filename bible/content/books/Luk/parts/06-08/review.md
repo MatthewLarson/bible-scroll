@@ -1,8 +1,8 @@
 # Hostile review: Luke 6–8 (part 06-08)
 
 Reviewer: separate hostile-review agent (not the writer). Checked: plain.txt verse by verse against the SBLGNT, Byzantine
-text and TAGNT word list (texts/orig/Luk.json, KJV numbering), Matthew's published Plain (5–7, 8–9, 11–13), Mark's
-reviewed Plain (2–5), every note, variant, gloss, chapter page, settings card, traditions card, topic contribution and
+text and TAGNT word list (texts/orig/Luk.json, KJV numbering), Matthew's published Plain English Translation (5–7, 8–9, 11–13), Mark's
+reviewed Plain English Translation (2–5), every note, variant, gloss, chapter page, settings card, traditions card, topic contribution and
 source key, the proposed term νομικός, and `VERBOSE=1 node tools/build.js --check Luk/06-08` (0 errors, 0 warnings).
 
 ## Verdict
@@ -34,7 +34,7 @@ the weeping woman; the choking crowd) are labeled, plausible, and say where they
 
 ### 1. Major: NIV/ESV runs in plain.txt that the Greek does not force
 - **7:9.** The first nine words are identical to the NIV's opening of this verse (beginning "When Jesus heard this"), and
-  "turned to the crowd following him" follows the NIV's next clause. Matthew 8:10's Plain avoided this shape. Rebuild it
+  "turned to the crowd following him" follows the NIV's next clause. Matthew 8:10's Plain English Translation avoided this shape. Rebuild it
   from the literal line, for example: "Jesus was amazed at him when he heard these words. He turned around and said to
   the crowd that was following him, 'I tell you, I have not met faith this great even in Israel.'" (Keep the closing
   clause, which matches Matthew's model.)
@@ -47,7 +47,7 @@ the weeping woman; the choking crowd) are labeled, plausible, and say where they
   Matthew 5:11's "on account of", which is a fair reason, but the whole run still matches. Break it up: "...and toss out
   your name as something evil, because of the Son of Man", or recast it as a separate sentence.
 - **7:8.** "I myself am a man placed under authority" takes the NIV's opening order. It also departs from Matthew 8:9's
-  Plain ("I am a man under someone's authority myself"), although Luke's Greek is Matthew's plus τασσόμενος. Use
+  Plain English Translation ("I am a man under someone's authority myself"), although Luke's Greek is Matthew's plus τασσόμενος. Use
   "I am a man placed under someone's authority myself, and I have soldiers under me."
 Shorter runs are listed in finding 12.
 
@@ -82,8 +82,8 @@ to each of these cards:
 - **8:16–18:** Matthew 5:15 uses the lamp in the Sermon on the Mount, of disciples as light.
 - **8:19–21:** Mark 3:20–21, 31–35 places this before the parables, after the family has set out to seize him.
 - **7:18–23:** the "readers" layer can stay; add that Matthew 11:2 says John heard of "the Messiah's works."
-Also on 8:40–56: the card says Jesus tells Jairus to "keep believing." Luke has the aorist πίστευσον, which the Plain
-renders "Just believe"; "keep believing" is Mark's present tense. Match the Plain.
+Also on 8:40–56: the card says Jesus tells Jairus to "keep believing." Luke has the aorist πίστευσον, which the Plain English Translation
+renders "Just believe"; "keep believing" is Mark's present tense. Match the Plain English Translation.
 
 ### 5. Major: the 6:35 interest card duplicates two existing cards
 The question "Does 'lend, without hoping for anything back' forbid charging interest?" (top `interest-and-debt`) is the
@@ -96,7 +96,7 @@ the lead prefers Luke 6:35 as the main home, because it was historically the mai
 Proverbs 28 cards to point here. One way or the other, there should be one card.
 
 ### 6. Major: missing variant entries for differences a KJV reader will notice
-- **7:7 ἰαθήτω / ἰαθήσεται.** The Plain says "let my servant be healed," following the imperative printed by NA28, SBL
+- **7:7 ἰαθήτω / ἰαθήσεται.** The Plain English Translation says "let my servant be healed," following the imperative printed by NA28, SBL
   and THGNT. The KJV says "my servant shall be healed," as do the Byzantine text, the TR and Matthew 8:8. According to
   Metzger, the imperative has narrow support (P75, B, L, a few others), while the future is read by ℵ, A, C, D, W and
   the Byzantine majority. That makes it worth an entry: it is one of the places where NA28 follows P75 and B against
@@ -125,7 +125,7 @@ manuscripts."
 
 ### 9. Minor: 7:29 "proved God right" overstates ἐδικαίωσαν τὸν θεόν
 The people did not prove anything. They acknowledged or declared that God was in the right, by accepting John's baptism.
-The gloss on the same phrase ("admitted God was right") contradicts the Plain. **Fix:** "they declared God in the
+The gloss on the same phrase ("admitted God was right") contradicts the Plain English Translation. **Fix:** "they declared God in the
 right" or "they owned that God was right." Keep "proved right" at 7:35, where the passive (wisdom vindicated) supports
 it, and adjust note #68's title.
 
@@ -203,7 +203,7 @@ or `deb`.
 - Note #71: the Septuagint of Deuteronomy 21:20 uses different words (συμβολοκοπῶν οἰνοφλυγεῖ). Say "words of similar
   meaning."
 - Note #2: Jesus' David argument is an argument from scriptural precedent, not "from the greater to the lesser."
-- Note #21: the body says "throw out your name" but the Plain reads "toss out."
+- Note #21: the body says "throw out your name" but the Plain English Translation reads "toss out."
 - Note #86 has "apostle to the apostles" and the chapter 7 deep dive has "apostle of the apostles." Use one form (the
   usual English for *apostolorum apostola* is "apostle to the apostles").
 
@@ -239,7 +239,7 @@ Moses" decides that question in advance. Drop Titus 3:13 from the entry, or add 
 
 ### 29. Minor: 6:32–34 "why should anyone thank you"
 This narrows χάρις to human thanks, while the parallel μισθός (6:35; Matthew 5:46) points to God's credit or reward.
-Note #30 explains it, but the Plain could keep both senses, for example "what thanks do you have coming?", while avoiding
+Note #30 explains it, but the Plain English Translation could keep both senses, for example "what thanks do you have coming?", while avoiding
 the NIV's "what credit" wording.
 
 ## Counts
@@ -249,9 +249,9 @@ Critical 0, major 7, minor 22.
 1. Fixed. Rebuilt from the literal line with a fresh drift audit: 7:9 ("Jesus was amazed at him when he heard these words..."), 7:25 ("the people who wear fine clothes and live pampered lives"), 8:31 ("not to order them off into the Abyss"), 6:22 (split in two; "as something evil because of the Son of Man"), 7:8 (= Matthew 8:9 plus "placed"). Note anchors at 6:22 and 7:8 updated.
 2. Fixed. 8:5 "There was a sower who went out to scatter his seed... It was trampled" (= Mark 4:3 / Matthew 13:3 plus "his seed"); second sentence = Mark 4:4. Note on 8:5 anchor and body updated.
 3. Partly, per lead decision: ὁ λόγος in 8:11–15 stays "the word of God" / "the word" (Luke names it "the word of God" at 8:11). The 8:11 note now says Mark 4:14–20 and Matthew 13:19–23 render the same Greek "the message" and why Luke differs. 8:21 stays "the word of God".
-4. Fixed. Settings cards 6:20–49, 6:27–38, 6:43–49, 7:3–8, 7:18–23, 8:4–8, 8:16–18, 8:19–21 now say where Matthew or Mark set the material differently; 8:40–56 says "Just believe" as the Plain.
+4. Fixed. Settings cards 6:20–49, 6:27–38, 6:43–49, 7:3–8, 7:18–23, 8:4–8, 8:16–18, 8:19–21 now say where Matthew or Mark set the material differently; 8:40–56 says "Just believe" as the Plain English Translation.
 5. Fixed. The 6:35 interest card is dropped; the 6:34 note now carries what Luke adds (the Vulgate's mutuum date, nihil inde sperantes, Urban III's Consuluit, Vix pervenit, Luther, Calvin's 1545 letter) and points to the Psalm 15:5 card. The 6:35 variant now points to that note.
-6. Fixed. New variants 7:7 (imperative vs future; editions and the witnesses usually reported, no new manuscripts invented), 7:10 (Byzantine "who had been ill") and 7:11 (Byzantine ἱκανοί "many"). 7:7 Plain now "let my servant get well" (Matthew 8:8's verb).
+6. Fixed. New variants 7:7 (imperative vs future; editions and the witnesses usually reported, no new manuscripts invented), 7:10 (Byzantine "who had been ill") and 7:11 (Byzantine ἱκανοί "many"). 7:7 Plain English Translation now "let my servant get well" (Matthew 8:8's verb).
 7. Fixed. 8:45 split into three readings: SBL/NA28 shorter; THGNT/Tregelles καὶ οἱ σὺν αὐτῷ; Byzantine/TR καὶ οἱ μετ' αὐτοῦ (the word list's flags confirm THGNT lacks μετ' αὐτοῦ). Manuscripts for the σὺν form marked as not checked against NA28.
 8. Fixed by hedging: the word list gives τῷ to NA28, SBL, THGNT, WH, Tregelles and Byzantine; the τῇ entry now says TR and "a number of manuscripts, some of them early", marked as unchecked against NA28. No witnesses named that I could not confirm.
 9. Fixed. 7:29 "they declared that God was in the right"; gloss, note (anchor, title, body) and the topics.json quote updated; 7:35 keeps "proved right".

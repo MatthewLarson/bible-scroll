@@ -4,7 +4,7 @@ Reviewer's sources: `node tools/literal.js Isa 40`–`44` and texts/orig/Isa.jso
 
 ## Verdict
 
-This part is strong. The Plain is built from the Hebrew and is not a copy of the NIV or ESV. The memorized passages (40:1–11, 40:28–31, 43:1–3) differ from both in wording and line shape, and the few matches are mostly ones the Hebrew forces. The authorship crux is handled well: chapter 40's deep section and chapter 44's "strongest case for each view" both give five real arguments per side, label the critical view as the consensus and do not settle the question. The 40:22 "circle" note is careful. The 40:6 and 44:24 choices against the vowels and the Qere are flagged and argued. The 40:7–8 short text is described correctly from the scroll and the Greek. Almost every source exists and says what is claimed. Four things need fixing before this is clean. (1) The Jewish readings of the servant in 42:1 are misattributed: Kimchi reads 42:1 of the King Messiah and Ibn Ezra of the prophet, not Israel. This error is repeated in four places. (2) Every settings card repeats one boilerplate "Traditional view" that never says what these words meant to their first hearers in Hezekiah's Judah, and several "why" fields treat the exilic audience as settled. (3) 41:25 needs a variant: the Great Isaiah Scroll's "by his name" is passed off in the note as a scholar's emendation. (4) The 44:24 variant wrongly says the Greek lacks the words, when Swete's "who else?" is a witness to the written text. The rest are minor findings.
+This part is strong. The Plain English Translation is built from the Hebrew and is not a copy of the NIV or ESV. The memorized passages (40:1–11, 40:28–31, 43:1–3) differ from both in wording and line shape, and the few matches are mostly ones the Hebrew forces. The authorship crux is handled well: chapter 40's deep section and chapter 44's "strongest case for each view" both give five real arguments per side, label the critical view as the consensus and do not settle the question. The 40:22 "circle" note is careful. The 40:6 and 44:24 choices against the vowels and the Qere are flagged and argued. The 40:7–8 short text is described correctly from the scroll and the Greek. Almost every source exists and says what is claimed. Four things need fixing before this is clean. (1) The Jewish readings of the servant in 42:1 are misattributed: Kimchi reads 42:1 of the King Messiah and Ibn Ezra of the prophet, not Israel. This error is repeated in four places. (2) Every settings card repeats one boilerplate "Traditional view" that never says what these words meant to their first hearers in Hezekiah's Judah, and several "why" fields treat the exilic audience as settled. (3) 41:25 needs a variant: the Great Isaiah Scroll's "by his name" is passed off in the note as a scholar's emendation. (4) The 44:24 variant wrongly says the Greek lacks the words, when Swete's "who else?" is a witness to the written text. The rest are minor findings.
 
 ## Findings
 
@@ -46,14 +46,14 @@ The brief asks for the Jewish readings of the messianic passages to be given fai
 - 40:29 "He gives strength to the tired" has the NIV's word order, with one word different. It is mostly forced, but it could be varied (for example, "To the tired he gives strength").
 - 40:22 "and spreads them wide, a tent to live in" is close to the NIV's ending ("like a tent to live in").
 - 40:6 "A voice says ... And I said, 'What shall I ...'" matches the ESV's frame. It is largely forced, so it can stay.
-- 42:6 "a covenant for the people" matches both versions exactly. The Hebrew is berit 'am, "a covenant of people", and the writer's own note is titled that way. The Plain should say "a covenant of the people" or "a people's covenant", so that the text does not decide what the note leaves open.
+- 42:6 "a covenant for the people" matches both versions exactly. The Hebrew is berit 'am, "a covenant of people", and the writer's own note is titled that way. The Plain English Translation should say "a covenant of the people" or "a people's covenant", so that the text does not decide what the note leaves open.
 - 43:2 "If you cross the rivers" adds a second verb that the Hebrew lacks (uvanneharot lo' yishtefukha, "and the rivers, they will not wash over you"). The NIV also adds one.
 
 **Fix:** Revise 40:31, 42:6 and 43:2 as above. Optionally vary 40:22 and 40:29.
 
 ### 6. Minor: "tire" and "wear out" are not rendered the same way, though the note says they are
 **Where:** plain.txt 43:22; notes.json 40:28 "He never tires, and he never wears out." and 43:24 "Instead you made me slave over your sins".
-**What:** The 40:28 note says ya'af = "tire" and yaga' = "wear out", rendered the same each time. But 43:22 renders yaga'ta bi as "you were tired of me". The 43:24 note then calls the pair "tire" and "slave", while the Plain of 43:23–24 has "wear you out" and "wore me out".
+**What:** The 40:28 note says ya'af = "tire" and yaga' = "wear out", rendered the same each time. But 43:22 renders yaga'ta bi as "you were tired of me". The 43:24 note then calls the pair "tire" and "slave", while the Plain English Translation of 43:23–24 has "wear you out" and "wore me out".
 **Fix:** 43:22 "for you were worn out with me, Israel"; in the 43:24 note write "'wear out' and 'slave'".
 
 ### 7. Minor: the yatsar ("shape") thread breaks at 44:9
@@ -66,7 +66,7 @@ The brief asks for the Jewish readings of the messianic passages to be given fai
 
 ### 9. Minor: 40:12 "measuring bowl" drops "a third", and its gloss gives a wrong size
 **Where:** plain.txt 40:12; glosses.json 40:12 "a measuring bowl".
-**What:** The Hebrew is bashalish, "in a third (of a measure)", and the Plain loses the "third". The gloss "about a third of a bushel" (about 12 liters) has no basis. A third of an ephah, the usual guess, is about 7 liters or a fifth of a bushel. **Fix:** "in a third-measure", with the gloss "a small dry measure, perhaps a third of an ephah (about 7 liters)", or drop the size.
+**What:** The Hebrew is bashalish, "in a third (of a measure)", and the Plain English Translation loses the "third". The gloss "about a third of a bushel" (about 12 liters) has no basis. A third of an ephah, the usual guess, is about 7 liters or a fifth of a bushel. **Fix:** "in a third-measure", with the gloss "a small dry measure, perhaps a third of an ephah (about 7 liters)", or drop the size.
 
 ### 10. Minor: three glosses that mislead
 **Where:** glosses.json 40:3, 41:21, 44:6.
@@ -158,5 +158,5 @@ All findings applied. I re-checked each claim against the witnesses or the sourc
 21. 41 traditions card: the Reformed answer adds Hodge and Murray on a future turning of Israel (`hodge-systematic`, new `murray-romans`). The Evangelical answer is now the historic premillennial view, sourced to Ladd (new `ladd-theology-nt`), to set it apart from the Dispensationalist answer. I added no Orthodox or Lutheran answer, because I had no source that states one on this question.
 22. Mechanics fixed: the period at 40:13, "to its last use (60:14)", the semicolon in the 44:8 quotation, and 5Q3 added to the witnesses section. The 44:20 word note no longer makes the ashes and shepherd point; it stays only in the Claude box on the shepherd topic, and the note points there.
 
-Also fixed while checking: the 40:5 variant quoted 52:10 in words not on the site, and now uses the 45-55 Plain ("will see how our God saves").
-Alignment for the lead: 42:6 now reads "a covenant of the people", while the 45-55 Plain of 49:8 has "a covenant for the people". One of the two should change so the phrase reads the same in both.
+Also fixed while checking: the 40:5 variant quoted 52:10 in words not on the site, and now uses the 45-55 Plain English Translation ("will see how our God saves").
+Alignment for the lead: 42:6 now reads "a covenant of the people", while the 45-55 Plain English Translation of 49:8 has "a covenant for the people". One of the two should change so the phrase reads the same in both.

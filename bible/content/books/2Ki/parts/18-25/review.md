@@ -4,7 +4,7 @@ Reviewed: plain.txt (all 228 verses against `node tools/literal.js 2Ki 18`–`25
 
 ## Verdict
 
-This is a strong part. The translation is close to the Hebrew throughout. I found no verse that copies the NIV or ESV, and the key terms follow terms.json. The variant work on Isaiah 36–39 and Jeremiah 52 is careful, and the history (the Prism, Lachish, the Babylonian Chronicle, the ration tablets, Siloam) is mostly accurate and well sourced. The problems are of four kinds. (1) One variant entry gets its facts backwards: Hamutal, 23:31. (2) Some quotations use ESV/RSV wording or do not match the site's own Plain. (3) The Claude's-theory material does not meet rule 4: no box says where it overlaps with published work, one claims a published idea as Claude's, and one is stated as fact in an ordinary note. There are also fewer boxes than the brief describes. (4) The site's reference parser sends several 2 Kings references to Deuteronomy or 1 Kings. There is also a group of missing variants (Abi/Abijah, the Greek "anger" at 24:3, "messengers/servants" at 19:23, 1QIsa-a at Isaiah 37:27 and 37:9, the Greek at 23:7). A few dating and attribution claims are also off: the 20:1 and 20:12 chronology, Josephus and Berossus, and Luke's genealogy. None of this is critical. Everything can be fixed in place.
+This is a strong part. The translation is close to the Hebrew throughout. I found no verse that copies the NIV or ESV, and the key terms follow terms.json. The variant work on Isaiah 36–39 and Jeremiah 52 is careful, and the history (the Prism, Lachish, the Babylonian Chronicle, the ration tablets, Siloam) is mostly accurate and well sourced. The problems are of four kinds. (1) One variant entry gets its facts backwards: Hamutal, 23:31. (2) Some quotations use ESV/RSV wording or do not match the site's own Plain English Translation. (3) The Claude's-theory material does not meet rule 4: no box says where it overlaps with published work, one claims a published idea as Claude's, and one is stated as fact in an ordinary note. There are also fewer boxes than the brief describes. (4) The site's reference parser sends several 2 Kings references to Deuteronomy or 1 Kings. There is also a group of missing variants (Abi/Abijah, the Greek "anger" at 24:3, "messengers/servants" at 19:23, 1QIsa-a at Isaiah 37:27 and 37:9, the Greek at 23:7). A few dating and attribution claims are also off: the 20:1 and 20:12 chronology, Josephus and Berossus, and Luke's genealogy. None of this is critical. Everything can be fixed in place.
 
 Severity count: critical 0, major 10, minor 33.
 
@@ -16,12 +16,12 @@ Severity count: critical 0, major 10, minor 33.
 The site's Leningrad data (texts/orig/2Ki.json, texts/auto/2Ki.json) has no Ketiv at 23:31. There the text reads חֲמוּטַל with no marking. The Ketiv חֲמִיטַל / Qere חֲמוּטַל is at **24:18** only. The entry also says "Jeremiah 52:1 has Hamutal in both its written and read forms." That is wrong. texts/auto/Jer.json gives Jeremiah 52:1 the same pair: `Q(K) חֲמוּטַל … K= חֲמִיטַל`. The brief's list of Qere places ("23:31, 24:18") repeats the first error.
 *Fix:* move the entry to 24:18. Say that 23:31 reads Hamutal with no Ketiv in the Leningrad Codex, and that Jeremiah 52:1 has the same Ketiv/Qere as 24:18. Rewrite the `p` and `why` to match.
 
-**2. major: quotations in another version's wording, or not in the site's Plain.**
-- notes 19:15 (echo): "the LORD is God; there is no other besides him" (Deuteronomy 4:35). The words "there is no other besides him" match the ESV word for word. They also differ from the site's Plain, which reads "the LORD is God. Apart from him there is no other." *Fix:* quote the site's Plain.
+**2. major: quotations in another version's wording, or not in the site's Plain English Translation.**
+- notes 19:15 (echo): "the LORD is God; there is no other besides him" (Deuteronomy 4:35). The words "there is no other besides him" match the ESV word for word. They also differ from the site's Plain English Translation, which reads "the LORD is God. Apart from him there is no other." *Fix:* quote the site's Plain English Translation.
 - notes 20:7: "The Lord created medicines from the earth, and a sensible man will not despise them" (Sirach 38:4) is the RSV wording. *Fix:* translate it yourself from the Greek, or name the RSV in the parentheses as STYLE allows.
 - notes 19:3: "Shall I bring to the point of birth and not cause to give birth?" (Isaiah 66:9). "Bring to the point of birth" is the ESV phrase. *Fix:* translate it afresh, e.g. "Would I open the womb and not let the child be born?"
-- notes 21:2: "the abhorrent ways of those nations" (Deuteronomy 18:9). The site's Plain says "the abhorrent things those nations do." *Fix:* use the Plain.
-- notes 19:19: "all the peoples of the earth" (1 Kings 8:43, 8:60). The site's Plain says "all the earth's peoples" (8:43) and "every people on earth" (8:60). *Fix:* use the Plain.
+- notes 21:2: "the abhorrent ways of those nations" (Deuteronomy 18:9). The site's Plain English Translation says "the abhorrent things those nations do." *Fix:* use the Plain English Translation.
+- notes 19:19: "all the peoples of the earth" (1 Kings 8:43, 8:60). The site's Plain English Translation says "all the earth's peoples" (8:43) and "every people on earth" (8:60). *Fix:* use the Plain English Translation.
 
 **3. major: the Claude's-theory material does not meet STYLE rule 4.**
 The labels are clear: every box is titled "Claude's theory: …" and ends with a disclaimer. But:
@@ -54,14 +54,14 @@ These are differences that a major translation footnotes, or that change the mea
 - **18:2, Abi.** The NIV prints "Abijah" with a footnote ("Hebrew Abi"); 2 Chronicles 29:1 reads אֲבִיָּה. There is no variant and no note. *Fix:* add a short variant (MT Kings אֲבִי; 2 Chronicles 29:1 אֲבִיָּה), following MT.
 - **24:3, "by the LORD's own word".** MT has עַל־פִּי יְהוָה. The Greek is reported (for example in the Pulpit Commentary, giving πλὴν θυμὸς κυρίου ἦν ἐπὶ τὸν Ιουδαν) to read "the LORD's anger was on Judah", as if from עַל־אַף יְהוָה, the phrase used in 24:20. BHS and several commentators prefer it. Note that Brenton's English here has "the purpose of the Lord", so check this in Rahlfs or the Göttingen edition before you cite it.
 - **19:23, "Through your messengers".** Kings has בְּיַד מַלְאָכֶיךָ; Isaiah 37:24 has בְּיַד עֲבָדֶיךָ, "your servants". This is a real Kings–Isaiah difference that the list of Isaiah variants misses.
-- **20:12.** The Greek of Kings reads "Marodach" (Brenton: "Marodach Baladan"). It supports the Plain's choice, so add it as a witness to reading 0 instead of resting only on Isaiah 39:1.
+- **20:12.** The Greek of Kings reads "Marodach" (Brenton: "Marodach Baladan"). It supports the Plain English Translation's choice, so add it as a witness to reading 0 instead of resting only on Isaiah 39:1.
 - **19:26.** The writer is unsure about 1QIsa-a at Isaiah 37:27. The Great Isaiah Scroll is reported (DJD 32; *Dead Sea Scrolls Bible*) to read הנשדף לפני קדים, "scorched before the east wind". It is a third reading, and it supports Kings' "scorched" against Masoretic Isaiah's "field". Add it as a reading or in `b`, citing `djd32-isaiah`.
 - **19:9.** 1QIsa-a at Isaiah 37:9 is widely reported to combine both verbs ("he heard, and turned, and sent"). This bears directly on the "seam" argument in the `why`. Check it in DJD 32 and add it.
 - **23:7, "coverings" (בָּתִּים).** The writer is unsure about the Greek here. Codex Vaticanus just transliterates the word (χεττιιν). The Lucianic text is reported to have στολάς, "robes", which supports the common emendation בַּדִּים, "linen garments". That reading lies behind note 23:7's "probably robes or hangings." Name it in the note, or add a variant.
 - **24:6.** The Greek of 2 Chronicles 36:8, and the Lucianic text of Kings as reported, add that Jehoiakim was buried "in the garden of Uzza (Ganoza)". This bears on note 24:6 ("How did Jehoiakim die?"). Mention it there, with a hedge.
-- **25:19.** MT has הַסֹּפֵר שַׂר הַצָּבָא, "the scribe, the commander of the army". Jeremiah 52:25 has סֹפֵר שַׂר הַצָּבָא, "the scribe of the commander". The Plain ("the secretary of the army commander") follows Jeremiah's sense without saying so. Add a sentence to the 25:19 variant.
-- **25:24.** Kings has "Don't fear the Chaldeans' servants"; Jeremiah 40:9 has "Don't be afraid to serve the Chaldeans" (מֵעֲבוֹד). This is a meaning difference in a passage the Plain already compares with Jeremiah.
-- **24:10.** The Ketiv is עָלָה, "he went up"; the Qere and the Plain have עָלוּ, "they went up". A one-line variant would explain why 24:11 then says Nebuchadnezzar came "himself". This one is optional.
+- **25:19.** MT has הַסֹּפֵר שַׂר הַצָּבָא, "the scribe, the commander of the army". Jeremiah 52:25 has סֹפֵר שַׂר הַצָּבָא, "the scribe of the commander". The Plain English Translation ("the secretary of the army commander") follows Jeremiah's sense without saying so. Add a sentence to the 25:19 variant.
+- **25:24.** Kings has "Don't fear the Chaldeans' servants"; Jeremiah 40:9 has "Don't be afraid to serve the Chaldeans" (מֵעֲבוֹד). This is a meaning difference in a passage the Plain English Translation already compares with Jeremiah.
+- **24:10.** The Ketiv is עָלָה, "he went up"; the Qere and the Plain English Translation have עָלוּ, "they went up". A one-line variant would explain why 24:11 then says Nebuchadnezzar came "himself". This one is optional.
 - **25:3.** Add that the Greek of Kings also lacks the month ("on the ninth of the month"). That shows the gap is old.
 
 **10. major: notes 18:34 and variants 18:34 (Lucianic plus) need sharper wording and support.**
@@ -70,7 +70,7 @@ The `why` says, "This reading is given as commentators report it; it has not bee
 ### Minor
 
 **11. minor: plain 18:20 is close in shape to the NIV.**
-The Plain's "You say you have a plan and the might to make war, but that is just talk from your lips" follows the NIV's structure ("You say you have … but you speak only …"). The Hebrew is elliptical: אָמַרְתָּ אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה. *Fix:* rebuild it from the Hebrew, e.g. "You think mere words from your lips are a plan and strength for war?"
+The Plain English Translation's "You say you have a plan and the might to make war, but that is just talk from your lips" follows the NIV's structure ("You say you have … but you speak only …"). The Hebrew is elliptical: אָמַרְתָּ אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה. *Fix:* rebuild it from the Hebrew, e.g. "You think mere words from your lips are a plan and strength for war?"
 
 **12. minor: plain 18:14, "I have offended", softens חָטָאתִי ("I have sinned / done wrong").**
 Note 18:14 explains the word, but the English is weaker than the Hebrew. *Fix:* "I have done wrong."
@@ -82,13 +82,13 @@ Note 18:14 explains the word, but the English is weaker than the Hebrew. *Fix:* 
 The Hebrew is just קִנְאַת. *Fix:* "The zeal of the LORD of Armies". The gloss can carry the feel.
 
 **15. minor: plain 22:13 flattens a repetition that note 22:13 relies on.**
-The note says "the words of this scroll" comes back again and again in 22:11–23:3. But the Plain renders דִּבְרֵי הַסֵּפֶר at 22:13 (twice) as "what this scroll says." STYLE asks the Plain to keep repetitions. *Fix:* "about the words of this scroll … did not listen to the words of this scroll."
+The note says "the words of this scroll" comes back again and again in 22:11–23:3. But the Plain English Translation renders דִּבְרֵי הַסֵּפֶר at 22:13 (twice) as "what this scroll says." STYLE asks the Plain English Translation to keep repetitions. *Fix:* "about the words of this scroll … did not listen to the words of this scroll."
 
 **16. minor: רָעָה is translated inconsistently.**
 It is "a disaster" at 21:12 but "evil" at 22:16 and 22:20 ("bringing evil on this place"). In 22:16 and 22:20 it means calamity, not moral evil. *Fix:* "disaster" in 22:16 and 22:20.
 
 **17. minor: plain 25:7 uses passives that hide who acted.**
-The Hebrew has "he blinded … he bound him … he brought him", meaning the king of Babylon. The Plain has "Zedekiah's eyes were put out. He was chained … and taken". *Fix:* keep the active verbs.
+The Hebrew has "he blinded … he bound him … he brought him", meaning the king of Babylon. The Plain English Translation has "Zedekiah's eyes were put out. He was chained … and taken". *Fix:* keep the active verbs.
 
 **18. minor: plain 24:10, "Then", drops בָּעֵת הַהִיא, "At that time".**
 
@@ -168,11 +168,11 @@ This overstates the text: John compares the lifting up of the serpent with the S
 - 23:5 "the zodiac" is a little anachronistic for מַזָּלוֹת. *Fix:* "the constellations."
 
 **43. minor: variants.json 25:3's `why` claims too much.**
-It says it is "the only place in this part where the Plain follows a reading not in the Hebrew of Kings." But 20:12 follows Isaiah's "Merodach," and 25:4 supplies a verb. *Fix:* "the only place where the Plain adds words from another book."
+It says it is "the only place in this part where the Plain English Translation follows a reading not in the Hebrew of Kings." But 20:12 follows Isaiah's "Merodach," and 25:4 supplies a verb. *Fix:* "the only place where the Plain English Translation adds words from another book."
 
 ## Things checked and found sound
 
-- The Plain follows its stated readings at 18:27 (Ketiv), 19:23, 19:31, 19:37, 20:4, 23:33, 23:36 and 24:18 (Qere), 20:9 (MT vowels), 25:3, 25:4, and 18:29, 20:13, 23:16 and 18:34 (Kings kept). It handles 18:14–16 (only in Kings) in the 18:14 note.
+- The Plain English Translation follows its stated readings at 18:27 (Ketiv), 19:23, 19:31, 19:37, 20:4, 23:33, 23:36 and 24:18 (Qere), 20:9 (MT vowels), 25:3, 25:4, and 18:29, 20:13, 23:16 and 18:34 (Kings kept). It handles 18:14–16 (only in Kings) in the 18:14 note.
 - The Isaiah and Jeremiah readings I checked are accurately quoted. 18:29 is in Rahlfs as stated. Brenton confirms Greek "rejoiced" at 20:13. The NRSV does follow the Greek at 23:16. The 1QIsa-a marginal addition of Isaiah 38:21–22 is correct.
 - Term use matches terms.json: hold on to, abhorrent, under the ban, decrees and rules, being, ghosts of the dead and spirits that know things, ruler, the LORD of Armies, inheritance.
 - I found no NIV/ESV drift in the translation apart from item 11.
@@ -187,9 +187,9 @@ All 10 major findings and all 33 minor findings were fixed. None was rejected.
 **Major**
 1. Hamutal: the variant now sits at 24:18. It says that 23:31 is written Hamutal with no Ketiv, and that Jeremiah 52:1 has the same Ketiv/Qere pair as 24:18. The `p` and `why` are rewritten.
 2. Quotations:
-   - 19:15 now quotes the site's Plain of Deuteronomy 4:35 ("compare 4:39").
-   - 21:2 quotes the Plain of Deuteronomy 18:9.
-   - 19:19 quotes the Plain of 1 Kings 8:43 and 8:60 separately.
+   - 19:15 now quotes the site's Plain English Translation of Deuteronomy 4:35 ("compare 4:39").
+   - 21:2 quotes the Plain English Translation of Deuteronomy 18:9.
+   - 19:19 quotes the Plain English Translation of 1 Kings 8:43 and 8:60 separately.
    - Sirach 38:4 (20:7) and Isaiah 66:9 (19:3) are now in fresh wording.
    - The same pass reworded, in fresh wording, Isaiah 31:1 (18:21), 2 Chronicles 32:25, 32:31 (20:13) and 32:30 (20:20), Jeremiah 15:4 (24:3) and Ezekiel 12:13 (25:7).
 3. Theory boxes (STYLE rule 4):
@@ -217,13 +217,13 @@ All 10 major findings and all 33 minor findings were fixed. None was rejected.
    - 19:23 messengers/servants.
    - 23:7 battim/baddim (Vaticanus χεττιιν; Lucianic "robes" as reported). Note 23:7 points to it.
    - 24:6 Ganoza in the Greek of 2 Chronicles 36:8 and the Lucianic text as reported. Note 24:6 mentions it, hedged.
-   - 25:19 the secretary. The Plain follows Jeremiah's sense, as the variant now says.
+   - 25:19 the secretary. The Plain English Translation follows Jeremiah's sense, as the variant now says.
    - 25:24 fear the Chaldeans' servants / fear to serve.
    - 24:10 Ketiv/Qere.
    - 18:11 "mountains of the Medes", the Greek reading also found at 17:6.
    - 1QIsa-a at Isaiah 37:27 (19:26) and 37:9 (19:9), both marked "as reported".
    - 25:3 now notes that the Greek of Kings also lacks the month.
-   - 20:12: per the coordinator's rule on Hebrew-form king names, the Plain now reads **Berodach-baladan** (MT Kings), as the site keeps Hebrew name forms elsewhere in 2 Kings. The variant now follows MT, and Isaiah 39:1 and the Greek "Marodach" are reading 1. Note 20:12's anchor is updated.
+   - 20:12: per the coordinator's rule on Hebrew-form king names, the Plain English Translation now reads **Berodach-baladan** (MT Kings), as the site keeps Hebrew name forms elsewhere in 2 Kings. The variant now follows MT, and Isaiah 39:1 and the Greek "Marodach" are reading 1. Note 20:12's anchor is updated.
 10. 18:34: the Lucianic reading now cites Burney, Montgomery and the Fernández Marcos–Busto Saiz edition, and the "not checked" sentence is removed.
 
 **Minor**
@@ -262,7 +262,7 @@ All 10 major findings and all 33 minor findings were fixed. None was rejected.
 - 40: "as Josiah's reprieve later is (22:20)".
 - 41: the jerusalem topic is hedged. The assyria topic now says "one of the best-documented".
 - 42: the 18:23 gloss is removed. 23:3 is now "a pillar in the temple court where kings stood (11:14)". 23:5 is now "the constellations".
-- 43: 25:3 `why` now says "the only place where the Plain adds words from another book".
+- 43: 25:3 `why` now says "the only place where the Plain English Translation adds words from another book".
 
 **Re-audit and check**
 - Drift re-audit of the 12 rewritten verses (18:11, 18:14, 18:20, 19:4, 19:23, 19:31, 20:12, 22:13, 22:16, 22:20, 24:10, 25:7): 6 changed, 6 kept as forced. The log is in scratch and records only verse, outcome and reason.

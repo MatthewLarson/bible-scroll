@@ -40,8 +40,8 @@ Nothing is critical. Every fix is local.
   article titles in `l` and `links` as they are.
 
 ### 2. Major: 21:25 does not use the decree wording of 15:29 (plain.txt 21:25; glosses; topics.json)
-- **Where:** The Plain says "meat offered to idols, against blood, against anything strangled, and against sexual
-  immorality". 15:29's Plain says "food sacrificed to idols, from blood, from what is strangled and from sexual sin".
+- **Where:** The Plain English Translation says "meat offered to idols, against blood, against anything strangled, and against sexual
+  immorality". 15:29's Plain English Translation says "food sacrificed to idols, from blood, from what is strangled and from sexual sin".
 - **Evidence:** The Greek items are the same as 15:29: εἰδωλόθυτον, αἷμα, πνικτόν, πορνεία. The lead has ruled that
   21:25 must follow 15:29.
 - **Fix:** Rewrite the line, for example: "...they must keep away from food sacrificed to idols, from blood, from what
@@ -55,20 +55,20 @@ Nothing is critical. Every fix is local.
 ### 3. Major: 22:6–16 does not match chapters 9 and 26 where the Greek is the same (plain.txt; note 22:14)
 The fixed sayings are right: "Saul, Saul, why are you persecuting me?", "Who are you, Lord?", and the voice's reply
 with "the Nazarene" added. Other shared Greek is rendered differently:
-- **22:6, περιαστράψαι φῶς:** The Plain says "a powerful light blazed out of heaven all around me". 9:3 has the same
+- **22:6, περιαστράψαι φῶς:** The Plain English Translation says "a powerful light blazed out of heaven all around me". 9:3 has the same
   verb (περιήστραψεν) and says "flashed all around him", and 26:13 also says "flashed all around". Use "flashed all
   around me".
-- **22:13, Σαοὺλ ἀδελφέ:** The Plain says "Saul, my brother". 9:17 has identical Greek and says "Brother Saul". Use
+- **22:13, Σαοὺλ ἀδελφέ:** The Plain English Translation says "Saul, my brother". 9:17 has identical Greek and says "Brother Saul". Use
   "Brother Saul".
-- **22:13, ἀνάβλεψον … ἀνέβλεψα:** The Plain says "look up and see! … I looked up and saw him". In context (22:11 "unable
+- **22:13, ἀνάβλεψον … ἀνέβλεψα:** The Plain English Translation says "look up and see! … I looked up and saw him". In context (22:11 "unable
   to see") the main sense is recovery of sight. 9:12, 17 and 18 render the verb "your sight will come back". The
-  Plain line as it stands never says Paul was healed; only note 50 does. Suggested fix: "Brother Saul, see again!" At
+  Plain English Translation line as it stands never says Paul was healed; only note 50 does. Suggested fix: "Brother Saul, see again!" At
   that same instant I could see, and I looked at him." Keep the double meaning in the note.
-- **22:14, προεχειρίσατο:** The Plain says "picked you out ahead of time". 24-28 renders the same verb at 26:16 as "to
+- **22:14, προεχειρίσατο:** The Plain English Translation says "picked you out ahead of time". 24-28 renders the same verb at 26:16 as "to
   choose you". BDAG gives "choose for oneself, select, appoint". The προ- does not here carry "in advance" (compare
   3:20, προκεχειρισμένον, "appointed"). "Ahead of time" over-translates toward a predestinarian reading and breaks the
   parallel. Use "chose you" or "appointed you". Correct note 51, which glosses the verb as "appoint in advance".
-- **22:4, ἐδίωξα:** The Plain says "I hounded this Way". This is the same verb as "why are you persecuting me" three
+- **22:4, ἐδίωξα:** The Plain English Translation says "I hounded this Way". This is the same verb as "why are you persecuting me" three
   verses later, and the speech plays on the repeat ("I persecuted… why are you persecuting me?"). Use "I persecuted
   this Way to the death", or add a nu note if "hounded" stays.
 
@@ -134,7 +134,7 @@ List the pairs in the report for the lead's alignment pass.
 
 ### 9. Minor: The 21:25 variant has the wrong edition attribution and misses the Western reading (variants.json 21:25)
 - **Edition attribution:** Reading 0 gives ἀπεστείλαμεν ("we sent") for "SBLGNT, NA28 and THGNT". The TAGNT marks
-  show NA28 and Tyndale House read ἐπεστείλαμεν ("we wrote"); only SBL (with WH and Tregelles) has ἀπ-. The Plain's
+  show NA28 and Tyndale House read ἐπεστείλαμεν ("we wrote"); only SBL (with WH and Tregelles) has ἀπ-. The Plain English Translation's
   "we wrote" actually follows NA28 and THGNT. Correct the `w` line and mention the SBL form.
 - **Witnesses for the longer reading:** These are C, D, E, Ψ, 33 and the Byzantine text, against P74, ℵ, A and B.
   Name the early ones.
@@ -186,8 +186,8 @@ List the pairs in the report for the lead's alignment pass.
   These state the copyists' motive as fact. The variant's own `why` correctly says the change "looks like a
   correction". Hedge the note and topic the same way.
 
-### 15. Minor: Paul's letters are quoted though they have no Plain yet (notes and chapters)
-- **Problem:** brief-act says to cite Paul's letters by reference and not to quote a Plain that does not exist. These
+### 15. Minor: Paul's letters are quoted though they have no Plain English Translation yet (notes and chapters)
+- **Problem:** brief-act says to cite Paul's letters by reference and not to quote a Plain English Translation that does not exist. These
   will raise quote-mismatch warnings once Romans to Philemon are written.
 - **Where:**
   - note 21:21 ("to the Jews I became as a Jew", 1 Corinthians 9:20);
@@ -276,8 +276,8 @@ Critical 0. Major 8 (1–8). Minor 13 (9–21).
 5. Fixed. Note 21:20 rewritten: Phinehas zeal is tied to Numbers 25:11 and 1 Maccabees 2:26, and the Zealots as a named party to the war years (Josephus, Jewish War 4). Added hengel-zealots and josephus.
 6. Fixed. The chapter 23 deep dive cites Josephus (Antiquities 18.12–14; Jewish War 2.163) only for the soul's survival and reward or punishment, and Acts 23:8 for resurrection, angels and spirits.
 7. Partly fixed. Added the card at 21:20–26 (top `law-of-moses`) with Catholic (Florence, Cantate Domino; Aquinas; Nostra Aetate 4; Catechism 839), Orthodox (Chrysostom), Lutheran (Augsburg 28; Formula of Concord 10), Reformed (Westminster 19.3; Calvin on Acts) and Dispensationalist (Scofield; Ryrie) views. The Messianic Jewish view (Kinzer) is written but not on the card yet, because "Messianic Jewish" is not in TRADITIONS and the build errors on it. Requested in proposals/nt/build.md; the text is ready in .scratch/Act-21-23-fix/messianic_view.json. Adventist left out because its line is about the moral law and the Sabbath, not Jewish believers.
-8. Mostly fixed. Reading 0 now says "Nearly all Greek manuscripts". Reading 1 adds minuscules 614 and 2147 with gig, p, the Clementine Vulgate and the Harclean Syriac "in its text marked with an asterisk", as reported by Metzger. The Latin is corrected to "tamquam accepturus pecuniam", checked against the Clementine text at drbo.org, which prints the clause as 23:25, as the Douay-Rheims does (both said in `b` and `w`). The English is now "as if he would take money", and the Plain reading "as if he meant to take a bribe". Not done: the Greek wording of the minuscules is not given as `orig`, because I could not check it against Metzger here, so the verified Latin stays as `orig`. The lead may add the Greek after checking it.
-9. Fixed. Reading 0 is now credited to NA28 and THGNT (ἐπεστείλαμεν "we wrote", which the Plain follows), and the SBL/WH/Tregelles ἀπεστείλαμεν is noted. TAGNT marks confirmed this. Witnesses are named: P74 ℵ A B against C D E Ψ 33 Byz. Bezae's three-item decree without "strangled" is pointed out in `b`, with a reference to Metzger at 15:20, instead of a third reading.
+8. Mostly fixed. Reading 0 now says "Nearly all Greek manuscripts". Reading 1 adds minuscules 614 and 2147 with gig, p, the Clementine Vulgate and the Harclean Syriac "in its text marked with an asterisk", as reported by Metzger. The Latin is corrected to "tamquam accepturus pecuniam", checked against the Clementine text at drbo.org, which prints the clause as 23:25, as the Douay-Rheims does (both said in `b` and `w`). The English is now "as if he would take money", and the Plain English Translation reading "as if he meant to take a bribe". Not done: the Greek wording of the minuscules is not given as `orig`, because I could not check it against Metzger here, so the verified Latin stays as `orig`. The lead may add the Greek after checking it.
+9. Fixed. Reading 0 is now credited to NA28 and THGNT (ἐπεστείλαμεν "we wrote", which the Plain English Translation follows), and the SBL/WH/Tregelles ἀπεστείλαμεν is noted. TAGNT marks confirmed this. Witnesses are named: P74 ℵ A B against C D E Ψ 33 Byz. Bezae's three-item decree without "strangled" is pointed out in `b`, with a reference to Metzger at 15:20, instead of a third reading.
 10. Fixed. 21:22 now names P74, 01, 02, 05, E, Ψ, 33 and 1739 with Byz for the longer reading, and 03 and 04* for the shorter. The `why` explains why the evidence is divided.
 11. Fixed. New variant at 22:30 ("he released him" against Byz/TR "from his chains", with "all their council" in `b`). The 23:9 entry's `b` now covers οἱ γραμματεῖς against τινὲς τῶν γραμματέων. New variant at 21:16 for Bezae's village stop and the name "Nason", with D's Greek as Metzger reports it; the note on that verse is re-anchored inside the variant and points to it. 21:1: P41 is added to Bezae for "and Myra", confirmed by the Papyrus 41 article, which cites the NA apparatus.
 12. Fixed. Note 22:16 now reads "Catholic, Orthodox and Lutheran readers ...; Churches of Christ, who do not use the word 'sacrament', also teach that sins are forgiven at baptism."

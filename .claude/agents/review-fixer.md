@@ -29,4 +29,4 @@ You apply the findings in one hostile review of the Bible Scroll. Work from the 
 - `VERBOSE=1 node tools/build.js --check <id>/<part>`: 0 errors, no warnings in your part.
 - Add a line to `content/books/<id>/progress.md`.
 
-Report: findings fixed / partly / declined, the Plain verses changed, new counts, and anything for the lead.
+Report: findings fixed / partly / declined, the Plain English Translation verses changed, new counts, and anything for the lead.

@@ -43,4 +43,4 @@ Never run `node tools/build.js --publish`, and never publish the site Artifact y
 
 ## Quotes between books
 
-When a note quotes a verse from another book, use that verse's current Plain exactly; the build warns otherwise. If a lead or lane later changes a verse that you quote, the build's quote warning will show it, and the lead re-syncs quotes before each publish.
+When a note quotes a verse from another book, use that verse's current Plain English Translation exactly; the build warns otherwise. If a lead or lane later changes a verse that you quote, the build's quote warning will show it, and the lead re-syncs quotes before each publish.

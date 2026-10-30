@@ -4,7 +4,7 @@ Reviewed: plain.txt (all 266 verses against `node tools/literal.js 1Ki 9`–`16`
 
 ## Verdict
 
-This is a strong part. The Plain is built closely on the Hebrew: it follows the MT reading it claims throughout, and it keeps the hard spots (9:8 "high as it is", 12:10 "my smallest part", 14:14, 16:13 "puffs of air"). Notes are dense, fair and mostly accurate. The Queen of Sheba, Solomon's apostasy, the causes of the split, Shishak and Omri are all handled with named views from several sides, and every theory of Claude's own is labeled. The flagged Greek readings I could check against the Vaticanus text (Brenton/Swete) are all right: 11:25 Edom, 11:33 singular, the omission of 11:39, 15:5 (Uriah clause) and 15:6, the pluses at 13:31, 16:22 and 12:30 ("left the house of the Lord"), and the absence of 14:1–20. The weaknesses are of four kinds:
+This is a strong part. The Plain English Translation is built closely on the Hebrew: it follows the MT reading it claims throughout, and it keeps the hard spots (9:8 "high as it is", 12:10 "my smallest part", 14:14, 16:13 "puffs of air"). Notes are dense, fair and mostly accurate. The Queen of Sheba, Solomon's apostasy, the causes of the split, Shishak and Omri are all handled with named views from several sides, and every theory of Claude's own is labeled. The flagged Greek readings I could check against the Vaticanus text (Brenton/Swete) are all right: 11:25 Edom, 11:33 singular, the omission of 11:39, 15:5 (Uriah clause) and 15:6, the pluses at 13:31, 16:22 and 12:30 ("left the house of the Lord"), and the absence of 14:1–20. The weaknesses are of four kinds:
 - One garbled verse (9:7).
 - One note that names the wrong witnesses (12:10).
 - A muddled account of the chronology systems that contradicts itself between notes.
@@ -17,7 +17,7 @@ None of this is critical. Fix the nine major items before publishing.
 ### Major
 
 **1. Major: plain.txt 9:7, garbled sentence.**
-The verse reads "Israel will become a warning people quote and a joke among all the peoples." That is not English; a word or phrase has dropped out. The Hebrew is לְמָשָׁל וְלִשְׁנִינָה (lemashal velishninah), "a byword and a taunt." The 9:7 note says this is "the same pair" as Deuteronomy 28:37, where the site's Plain reads "an example in their sayings and a target of their jokes."
+The verse reads "Israel will become a warning people quote and a joke among all the peoples." That is not English; a word or phrase has dropped out. The Hebrew is לְמָשָׁל וְלִשְׁנִינָה (lemashal velishninah), "a byword and a taunt." The 9:7 note says this is "the same pair" as Deuteronomy 28:37, where the site's Plain English Translation reads "an example in their sayings and a target of their jokes."
 Fix: render it to match Deuteronomy, e.g. "Israel will become an example in people's sayings and a target of their jokes among all the peoples." Then update the note's anchor.
 
 **2. Major: notes.json 12:10, "My smallest part…", wrong witnesses.**
@@ -39,7 +39,7 @@ At 11:36 the Greek also has θέσις, "an establishment" (Brenton), not "lamp.
 Fix: add variants at 11:32 and 11:36 (MT "one tribe" vs LXX "two tribes"). Mention them in the 11:13 note. Correct the witnesses in the 11:36 note.
 
 **5. Major: missing variant at 16:29 (and 16:8, 16:15), the Greek dates of Ahab.**
-In the Greek, Ahab becomes king "in the second year of Josaphat king of Juda" (16:29, Brenton), not in Asa's 38th year. The Greek also has no Asa synchronism at 16:8 ("Ela son of Baasa reigned over Israel two years in Thersa") or at 16:15. The 16:28 note mentions the Greek Jehoshaphat date (Omri's 11th year, confirmed), but the verse that actually changes in the Plain is 16:29, and it has no entry. With 16:28a this is the core evidence for the "different chronology in the Old Greek" that the note and the regnal-chronology topic invoke.
+In the Greek, Ahab becomes king "in the second year of Josaphat king of Juda" (16:29, Brenton), not in Asa's 38th year. The Greek also has no Asa synchronism at 16:8 ("Ela son of Baasa reigned over Israel two years in Thersa") or at 16:15. The 16:28 note mentions the Greek Jehoshaphat date (Omri's 11th year, confirmed), but the verse that actually changes in the Plain English Translation is 16:29, and it has no entry. With 16:28a this is the core evidence for the "different chronology in the Old Greek" that the note and the regnal-chronology topic invoke.
 Fix: add a 16:29 variant (anchor "in the thirty-eighth year of Asa king of Judah"). Add brief entries or a combined note for the missing synchronisms at 16:8 and 16:15.
 
 **6. Major: missing Greek variants in the split narrative (12:12, 12:20).**
@@ -73,11 +73,11 @@ Fix: add 2 Chronicles 9:13.
 Fix: "mostly in curses on a royal house; first in David's oath against Nabal."
 
 **12. Minor: notes.json 14:4, misquotation of 1 Samuel 3:1.**
-The note quotes "visions were rare" (1 Samuel 3:1). The site's Plain reads "The LORD's word was rare in those days; no vision was breaking out." My quotation script caught this one; the build's check did not.
-Fix: quote the Plain wording.
+The note quotes "visions were rare" (1 Samuel 3:1). The site's Plain English Translation reads "The LORD's word was rare in those days; no vision was breaking out." My quotation script caught this one; the build's check did not.
+Fix: quote the Plain English Translation wording.
 
 **13. Minor: chapters.json ch. 12, spec box "the baby who was not divided".**
-The box quotes 3:26 as "Neither mine nor yours: cut it." The 1 Kings 3:26 Plain reads "He won't be mine or yours. Cut!" Quotations of this book should use its own Plain.
+The box quotes 3:26 as "Neither mine nor yours: cut it." The 1 Kings 3:26 Plain English Translation reads "He won't be mine or yours. Cut!" Quotations of this book should use its own Plain English Translation.
 
 **14. Minor: sources, `gooding-relics` is the wrong Gooding work.**
 It is cited for 12:24a–z (note 12:24, ch. 12). *Relics of Ancient Exegesis* (1976) is about the miscellanies in 3 Reigns 2. Gooding's study of 12:24a–z is "The Septuagint's Rival Versions of Jeroboam's Rise to Power," *Vetus Testamentum* 17 (1967): 173–189.
@@ -150,7 +150,7 @@ The Greek calls Asa's mother "Ana" (15:10 "Ana daughter of Abessalom"; 15:13 "he
 Fix: mention it there, or add a variant.
 
 **31. Minor: the big Greek pluses and minuses are only in notes (12:24a–z, 14:1–20, 16:28a–h).**
-I agree with treating them as notes. They are too long to switch in place, and the Plain rightly follows the MT. But give each a short variants.json entry (anchor 12:24 "as the LORD had said", 14:1 "About that time", 16:28 "His son Ahab became king in his place") with the witness and a pointer to the note. Otherwise the site's variant view, which readers will use to see "where the manuscripts differ," will not list the three largest differences in the book.
+I agree with treating them as notes. They are too long to switch in place, and the Plain English Translation rightly follows the MT. But give each a short variants.json entry (anchor 12:24 "as the LORD had said", 14:1 "About that time", 16:28 "His son Ahab became king in his place") with the witness and a pointer to the note. Otherwise the site's variant view, which readers will use to see "where the manuscripts differ," will not list the three largest differences in the book.
 
 ## Notes on what I checked and judged sound
 
@@ -202,7 +202,7 @@ I agree with treating them as notes. They are too long to switch in place, and t
   - the Ketiv Shushaq at 14:25
   - "shuv sixteen times" in ch. 13, counted from the Hebrew word list: 13:4, 6×2, 9, 10, 16, 17, 18, 19, 20, 22, 23, 26, 29, 33×2
   - the 3,850 overseer totals
-- Quotations of earlier books checked against the site's Plain and matching: Exodus 32:4, 32:11 and 34:16; Deuteronomy 7:3, 12:2, 13:3, 16:21, 17:16–17, 28:37, 29:24–25, 32:21 and 23:17; Joshua 6:26, 23:8 and 23:12; 1 Samuel 8:11, 8:17, 9:7 and 28:8; 2 Samuel 7:14, 7:16 and 20:1. The exceptions are items 12 and 13.
+- Quotations of earlier books checked against the site's Plain English Translation and matching: Exodus 32:4, 32:11 and 34:16; Deuteronomy 7:3, 12:2, 13:3, 16:21, 17:16–17, 28:37, 29:24–25, 32:21 and 23:17; Joshua 6:26, 23:8 and 23:12; 1 Samuel 8:11, 8:17, 9:7 and 28:8; 2 Samuel 7:14, 7:16 and 20:1. The exceptions are items 12 and 13.
 - Terms checked against terms.json and consistent: cherem "under the ban", to'evah "abhorrent", nasi "leader", nagid "ruler", rules/rulings/commands, olah/shelamim, Yam Suf "Sea of Reeds", dabaq "hold on", nokhri "foreign". The one inconsistency is item 9.
 - Fairness. The Queen of Sheba page gives the Sabaean, Ethiopian, Islamic, rabbinic (including Bava Batra 15b) and critical views without caricature. Solomon's apostasy gets the plain reading, the Talmud's defense, repentance via Ecclesiastes, and the political reading. The split gets divine judgment, royal folly and tribal politics. Shishak and Karnak are presented with Wilson's caution. All four spec boxes and the queen-of-sheba "claude" field are labeled as Claude's, cite their verses, and state their overlap with scholarship.
 
@@ -234,8 +234,8 @@ All 9 major findings are fixed. Of the 22 minor findings, 21 are fixed as asked 
 ### Minor
 - **10:** 2 Chronicles 9:13 is added to the 666 note.
 - **11:** The 14:10 note now says "mostly in curses on a royal house," and that the phrase first appears in David's oath against Nabal's household.
-- **12:** The 14:4 note now quotes the 1 Samuel 3:1 Plain.
-- **13:** The ch. 12 spec box now quotes the 3:26 Plain, "He won't be mine or yours. Cut!"
+- **12:** The 14:4 note now quotes the 1 Samuel 3:1 Plain English Translation.
+- **13:** The ch. 12 spec box now quotes the 3:26 Plain English Translation, "He won't be mine or yours. Cut!"
 - **14:** New key `gooding-rival` (Vetus Testamentum 17, 1967). It replaces `gooding-relics` in the 12:24 note and the new 12:24 variant.
 - **15:** Augustine is dropped from note 11:4 and ch. 11 view X, because I could not give the exact place. Both now cite Cyril of Jerusalem, *Catecheses* 2.13 (new key `cyril-catecheses`). Ch. 11 view X also gives Ben Sira's verdict.
 - **16:** The Lucianic claim is dropped from the 14:1 note. Only the confirmed Vaticanus omission remains.
@@ -247,7 +247,7 @@ All 9 major findings are fixed. Of the 22 minor findings, 21 are fixed as asked 
   - 12:3: the anchor now includes "They said to Rehoboam,"; the alternative is "The people spoke to King Rehoboam:".
   - 12:2 (found while checking): the Greek omission no longer leaves a stray ", ."; the anchor now covers the whole verse.
 - **20:** The kaige sentence is removed from all 8 variant entries. It is stated once, more fully, in the ch. 12 deep section.
-- **21:** Plain fixes:
+- **21:** Plain English Translation fixes:
   - 10:2 "a very large company"; 11:27 "the breach of the City of David" (note anchor updated).
   - 12:31 "a house of high places", with a new `nu` note. The high-places topic contribution is updated to match.
   - 12:32 "went up on the altar", matching 12:33.

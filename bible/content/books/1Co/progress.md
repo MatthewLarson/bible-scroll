@@ -12,19 +12,19 @@ Planned 2026-10-29: nt lane, 5 parts: 01-04 (owns book.json), 05-08, 09-11, 12-1
 
 05-08 (chapters 5-8, 86 verses): written. 78 notes, 20 variants, 58 glosses, 4 chapter pages with 13 settings cards and 9 traditions cards (church discipline 5:1; same-sex terms 6:9; celibacy 7:1-9, 7:25-40; divorce 7:10-16; children and baptism 7:14; idol meat 8:1; the Shema and the Son 8:6; perseverance 8:11), 30 topic contributions, new topic proposal idol-meat (content/proposals/nt/topics/idol-meat.json). Awaiting hostile review.
 
-15-16 reviewed and fixed: hostile review applied (see parts/15-16/review.md, Fixes applied). Now 79 notes, 15 variants (new at 15:10, 15:31, 15:44, 15:54; 15:5 and 15:51 rebuilt), 32 glosses, 8 traditions cards (new perseverance card at 15:2); 10 Plain verses reworded for drift. Check 0 errors, 0 warnings.
+15-16 reviewed and fixed: hostile review applied (see parts/15-16/review.md, Fixes applied). Now 79 notes, 15 variants (new at 15:10, 15:31, 15:44, 15:54; 15:5 and 15:51 rebuilt), 32 glosses, 8 traditions cards (new perseverance card at 15:2); 10 Plain English Translation verses reworded for drift. Check 0 errors, 0 warnings.
 
-01-04 fixes applied 2026-10-29 (review-fixer): all 28 findings handled (24 accepted, 4 partly: 7, 9, 11, 27; none declined outright). Now 78 notes, 20 variants, 36 glosses. Plain changed at 2:4, 2:14, 3:15, 4:2, 4:13. check 0/0.
+01-04 fixes applied 2026-10-29 (review-fixer): all 28 findings handled (24 accepted, 4 partly: 7, 9, 11, 27; none declined outright). Now 78 notes, 20 variants, 36 glosses. Plain English Translation changed at 2:4, 2:14, 3:15, 4:2, 4:13. check 0/0.
 
-05-08 fixes applied 2026-10-29 (review-fixer): 9 major (8 accepted, 1 partly: no manuscript names added, witnesses stated as not rechecked) and 24 minor (22 accepted, 2 partly: 21, 24); none declined. Now 79 notes, 22 variants (new at 7:1 and 7:38; 5:13 rebuilt as three readings), 58 glosses. Plain changed at 5:1, 5:7, 5:8, 6:19, 6:20, 7:11, 7:19, 7:32, 7:38, 8:7, 8:13. Check 0 errors, 0 warnings.
+05-08 fixes applied 2026-10-29 (review-fixer): 9 major (8 accepted, 1 partly: no manuscript names added, witnesses stated as not rechecked) and 24 minor (22 accepted, 2 partly: 21, 24); none declined. Now 79 notes, 22 variants (new at 7:1 and 7:38; 5:13 rebuilt as three readings), 58 glosses. Plain English Translation changed at 5:1, 5:7, 5:8, 6:19, 6:20, 7:11, 7:19, 7:32, 7:38, 8:7, 8:13. Check 0 errors, 0 warnings.
 
-09-11 fixes applied 2026-10-29 (review-fixer): 28 findings handled (27 accepted, 1 partly: 1; none declined). Now 76 notes (new at 10:30 and 11:33), 24 variants (new at 9:10, 9:22, 10:1, 10:2, 10:11, 10:24, 11:26, 11:31; 10:9 rebuilt, 11:27 corrected), 29 glosses. Plain changed at 9:22, 9:24, 9:26, 9:27, 10:13, 11:2, 11:14, 11:15, 11:17, 11:20, 11:21, 11:26, 11:27, 11:30, 11:33. Manuscript names for most variants could not be confirmed and are stated as not itemized. Check 0 errors, 0 warnings.
+09-11 fixes applied 2026-10-29 (review-fixer): 28 findings handled (27 accepted, 1 partly: 1; none declined). Now 76 notes (new at 10:30 and 11:33), 24 variants (new at 9:10, 9:22, 10:1, 10:2, 10:11, 10:24, 11:26, 11:31; 10:9 rebuilt, 11:27 corrected), 29 glosses. Plain English Translation changed at 9:22, 9:24, 9:26, 9:27, 10:13, 11:2, 11:14, 11:15, 11:17, 11:20, 11:21, 11:26, 11:27, 11:30, 11:33. Manuscript names for most variants could not be confirmed and are stated as not itemized. Check 0 errors, 0 warnings.
 
 Hostile review, fixes and atlas review done 2026-10-29; quote sync across other books done; proposals merged. Ready to publish.
 
 Verification pass 2026-10-29 (12-14): see parts/12-14/review.md. Calvin on 12:13 corrected; unverifiable witness lists and citations removed. Check 0/0.
 
-Verification pass 2026-10-29 (05-08): manuscript witnesses and unchecked traditions-card details removed or corrected; 8:3 P46 variant deleted (now 21 variants); metzger and comfort-nttc keys dropped from variants; 4 new source keys. Log in .scratch/1Co-05-08-verify/. Check: 0 errors, 1 warning from 1 Timothy 1:20 (the new 1Ti Plain, not this part).
+Verification pass 2026-10-29 (05-08): manuscript witnesses and unchecked traditions-card details removed or corrected; 8:3 P46 variant deleted (now 21 variants); metzger and comfort-nttc keys dropped from variants; 4 new source keys. Log in .scratch/1Co-05-08-verify/. Check: 0 errors, 1 warning from 1 Timothy 1:20 (the new 1Ti Plain English Translation, not this part).
 
 01-04 verification pass 2026-10-29: about 72 verified, 24 corrected, 21 removed (see .scratch/1Co-01-04-verify/sources-checked.md); Chrysostom and Calvin 4:6 attributions fixed, Strugnell/4Q169/4Q174/Metzger/NA28 keys removed. Check 0 errors, 0 warnings.
 

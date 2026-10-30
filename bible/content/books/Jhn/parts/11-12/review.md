@@ -2,7 +2,7 @@
 
 Reviewer: Claude (hostile review, nt lane), 2026-10-24. Checked against the SBLGNT and the TAGNT edition marks in
 texts/orig/Jhn.json, the Byzantine text, content/terms.json and content/proposals/nt/terms.json, the sibling John
-parts, the site's Plain of the books quoted, and the ESV and NIV (compared in the head only; at most a few words are
+parts, the site's Plain English Translation of the books quoted, and the ESV and NIV (compared in the head only; at most a few words are
 quoted below). `VERBOSE=1 node tools/build.js --check Jhn/11-12`: 1 error, which belongs to another book
 (Num/parts/11-21 `tosefta-sukkah`), and 1 warning in this part (finding 18).
 
@@ -18,7 +18,7 @@ errors, but nine major problems need fixing before this part is marked reviewed.
 line states Martyn's synagogue-expulsion hypothesis and an Asian audience as settled fact, against book.json and
 against this part's own note on 12:42. (2) 12:27 goes against the punctuation of its own base text without saying
 so. (3) 11:22 follows the SBL against NA28, Tyndale House and the Byzantine text with no variant entry. (4) Two
-verses are not aligned with Matthew's Plain where the Greek is nearly the same. (5) 12:39 and (6) 12:49 soften or
+verses are not aligned with Matthew's Plain English Translation where the Greek is nearly the same. (5) 12:39 and (6) 12:49 soften or
 change the Greek; 12:49 matches a modern paraphrase. (7) The chapter 11 spec box misreads 11:34. (8) The
 soul-sleep card uses a `top` that keeps it apart from the six cards on the same question elsewhere on the site.
 (9) The 11:50 and 12:25 witness lists leave out the papyri. The two proposed topics are sound and do not duplicate
@@ -44,19 +44,19 @@ in `views`, next to the Bauckham "all the churches" view.
 ### 2. Major: 12:27 goes against its own base text's punctuation without saying so
 **Location:** plain.txt 12:27; notes.json 12:27 "John's Gethsemane".
 **Problem:** The SBLGNT, the stated base text, prints πάτερ, σῶσόν με ἐκ τῆς ὥρας ταύτης**.** with a period, as a
-real petition. The Plain makes it a question ("'Father, rescue me from this hour'?"). That is a defensible choice,
+real petition. The Plain English Translation makes it a question ("'Father, rescue me from this hour'?"). That is a defensible choice,
 but the note says only "The KJV prints it as a prayer. Most modern editions and versions print it as a question".
 It never says that the site's own base edition prints it as a statement, and it names no scholar on either side.
 Both the ESV and the NIV also use the question form, so the reader cannot tell this from following them.
 **Fix:** In the note, say plainly that the SBLGNT punctuates it as a petition and that NA28 and most English versions
 print a question (confirm NA28's punctuation against a printed copy). Name commentators on each side; Brown and
-Lincoln are already cited, so say which reading each takes. Add one sentence on why the Plain chose the question:
+Lincoln are already cited, so say which reading each takes. Add one sentence on why the Plain English Translation chose the question:
 the following ἀλλά answers a proposal it has just rejected.
 
 ### 3. Major: 11:22 follows the SBL against NA28, Tyndale House and the Byzantine text, with no entry
 **Location:** plain.txt 11:22; variants.json (missing).
 **Evidence:** TAGNT marks ἀλλὰ (καὶ νῦν οἶδα) with the editions `NnYTB`: it is in NA28, NA27, Tyndale House, the TR
-and the Byzantine text, and missing only from the SBL, WH and Tregelles. The Plain "And even now I know" follows the
+and the Byzantine text, and missing only from the SBL, WH and Tregelles. The Plain English Translation "And even now I know" follows the
 SBL. The difference changes the English ("But even now", the KJV's "But I know, that even now"), and brief-nt.md
 requires an entry wherever the SBL and NA28/THGNT differ in a way that changes the English. Smaller case of the same
 kind: at 12:9, NA28, Tyndale House and WH read ὁ ὄχλος πολύς ("the great crowd", TAGNT `NnYW`), and the SBL lacks
@@ -66,16 +66,16 @@ House, Byzantine, TR; with ℵ² A C² and others, per the NA28 apparatus) and �
 to be confirmed in the apparatus). Then decide: "But even now" has the support of two of the three critical
 editions. Mention 12:9 in a short entry or in the `b` of a nearby entry.
 
-### 4. Major: parallels are not aligned with Matthew's Plain
+### 4. Major: parallels are not aligned with Matthew's Plain English Translation
 **Location:** plain.txt 12:8 and 12:15.
 **Evidence:** brief-nt.md says parallels are "translated the same way where the Greek is the same", with the earlier
 book as the model.
 - At 12:8 the Greek, τοὺς πτωχοὺς γὰρ πάντοτε ἔχετε μεθ᾽ ἑαυτῶν, ἐμὲ δὲ οὐ πάντοτε ἔχετε, is word for word
-  Matthew 26:11 with one word moved. Matthew's Plain has "You always have poor people among you. But you do not
-  always have me." John's Plain has "The poor are always with you, but I will not always be with you." That also
+  Matthew 26:11 with one word moved. Matthew's Plain English Translation has "You always have poor people among you. But you do not
+  always have me." John's Plain English Translation has "The poor are always with you, but I will not always be with you." That also
   changes "you do not always have me" into a statement about Jesus' presence.
-- At 12:15, ἰδοὺ ὁ βασιλεύς σου ἔρχεται is the same as Matthew 21:5. Matthew's Plain has "Look, your king is
-  coming"; John's Plain has "Look! Here comes your king".
+- At 12:15, ἰδοὺ ὁ βασιλεύς σου ἔρχεται is the same as Matthew 21:5. Matthew's Plain English Translation has "Look, your king is
+  coming"; John's Plain English Translation has "Look! Here comes your king".
 **Fix:** Follow Matthew's wording where the Greek matches: at 12:8, "For you always have poor people among you, but
 you do not always have me." (keep γάρ). At 12:15, "Look, your king is coming, sitting on a donkey's foal." Update the
 anchors of the 12:8 note and variant to match.
@@ -83,9 +83,9 @@ anchors of the 12:8 note and variant to match.
 ### 5. Major: 12:39 weakens a causal ὅτι at the hardest point of the chapter
 **Location:** plain.txt 12:39.
 **Evidence:** διὰ τοῦτο οὐκ ἠδύναντο πιστεύειν, ὅτι πάλιν εἶπεν Ἠσαΐας. Here, as in 5:16, 18; 8:47; 10:17 and 12:18,
-John's διὰ τοῦτο ... ὅτι points forward: "This is why they could not believe: because Isaiah also said". The Plain
+John's διὰ τοῦτο ... ὅτι points forward: "This is why they could not believe: because Isaiah also said". The Plain English Translation
 has "That is why they were unable to believe. As Isaiah said in another place," which (a) turns διὰ τοῦτο back onto
-12:38 and (b) changes the causal ὅτι into a comparison ("As"). The text claims a reason. The Plain makes it a loose
+12:38 and (b) changes the causal ὅτι into a comparison ("As"). The text claims a reason. The Plain English Translation makes it a loose
 comparison. This is exactly the verse the free-will card turns on, so softening it is the kind of interpretation
 in the text that STYLE forbids.
 **Fix:** "This is why they were unable to believe: because, as Isaiah said in another place," (or "...believe, for
@@ -94,7 +94,7 @@ Isaiah also said,"). If the backward reading is kept as an option, put it in a n
 ### 6. Major: 12:49 "how I should speak it" is not in the Greek and matches a modern paraphrase
 **Location:** plain.txt 12:49.
 **Evidence:** τί εἴπω καὶ τί λαλήσω is "what I should say and what I should speak", with the same interrogative τί
-twice. The Plain's "what I should say and how I should speak it" turns the second τί into "how". That is the
+twice. The Plain English Translation's "what I should say and how I should speak it" turns the second τί into "how". That is the
 distinctive rendering of the NLT, which has the words "what to say and how to say it" (and, as I recall, the 1984
 NIV). Under the agent-writer rules, a close match that departs from the Greek has to be redone.
 **Fix:** "gave me a command about what I should say and what I should speak", or, to avoid the repetition, "what to
@@ -148,7 +148,7 @@ pronoun. Metzger describes D as adding the 17:5 clause to the text's reading. On
 
 ### 11. Minor: 11:33, the reflexive and the fairness of the anger note
 **Location:** plain.txt 11:33; notes.json 11:33.
-**Problem:** (a) καὶ ἐτάραξεν ἑαυτόν is active and reflexive, "he troubled himself"; the Plain's passive "he was
+**Problem:** (a) καὶ ἐτάραξεν ἑαυτόν is active and reflexive, "he troubled himself"; the Plain English Translation's passive "he was
 shaken" loses Jesus as the actor, which the note itself says some fathers made much of. (b) The note gives three
 answers to "anger at what?" but not the strongest case for the "deeply moved" reading it rejects (for example, the
 claim that in Hellenistic Greek the verb with τῷ πνεύματι can express strong inward emotion). (c) "Some fathers"
@@ -160,17 +160,17 @@ himself" in the note, as it already does. Give the "deeply moved" case in a sent
 
 ### 12. Minor: 12:7, an interpretive past tense; the chapter summary follows the rejected reading
 **Location:** plain.txt 12:7; chapters.json ch. 12 `sum[0]`.
-**Problem:** Ἄφες αὐτήν, ἵνα ... τηρήσῃ αὐτό ties the ἵνα clause to "Let her be". The Plain cuts that link and puts in
+**Problem:** Ἄφες αὐτήν, ἵνα ... τηρήσῃ αὐτό ties the ἵνα clause to "Let her be". The Plain English Translation cuts that link and puts in
 a past "She was to keep this", the same interpretation (not the same words) as the NIV's paraphrase. The note
 handles the options well, but option (3), "keep the memory", has no named holder. The chapter 12 summary says "she
 has kept it for his burial", which is the Byzantine τετήρηκεν that variants.json rejects.
-**Fix:** Either keep the Plain and name who holds each option (Brown, Barrett and Michaels are cited, so say who
+**Fix:** Either keep the Plain English Translation and name who holds each option (Brown, Barrett and Michaels are cited, so say who
 takes which), or translate closer to the Greek ("Let her be, so that she may keep it for the day of my burial")
 and leave the interpretation to the note. In the summary, use "it is for the day of his burial".
 
 ### 13. Minor: the end of 12:40 matches the ESV, is unclear, and the note skips ἰάσομαι
 **Location:** plain.txt 12:40; notes.json 12:40.
-**Problem:** The Plain's last clause, "and turn, and I would heal them", is the ESV's exact wording. In the Plain's
+**Problem:** The Plain English Translation's last clause, "and turn, and I would heal them", is the ESV's exact wording. In the Plain English Translation's
 sentence ("so they would not ... turn, and I would heal them") an 8th-grade reader may take the healing as a
 promise. The Greek has a future indicative, καὶ ἰάσομαι (SBL, NA28; the Byzantine has ἰάσωμαι), which some
 commentators read as breaking out of the ἵνα μή clause ("...and turn. And I will heal them."). This bears directly
@@ -204,9 +204,9 @@ them." Add two sentences to the note on ἰάσομαι and the two ways to take
 - 12:17 ἐμαρτύρει is "kept telling about it". Every other John part renders μαρτυρέω "testify" or "give testimony"
   (1:7; 3:11; 4:39; 5:31), and this part's own variant reading for the verse says "kept testifying". Use "kept
   testifying" so the witness theme stays visible.
-- The note on 11:12 tells readers that σῴζω comes back at 12:27 and 12:47, but the Plain renders it three ways
+- The note on 11:12 tells readers that σῴζω comes back at 12:27 and 12:47, but the Plain English Translation renders it three ways
   ("pull through", "rescue", "save"), so readers cannot see it. Either align the wording or say in the note that
-  the Plain hides it.
+  the Plain English Translation hides it.
 - δοξάζω is "will be given glory" (11:4) and "bring glory to your name" (12:28), but "glorified" elsewhere (12:16,
   23, 28b). terms.json gives "glorify". At 12:28 use "Father, glorify your name!"
 - 12:17 "from death" against "from the dead" at 12:1 and 12:9 (ἐκ νεκρῶν in all three).
@@ -220,7 +220,7 @@ them." Add two sentences to the note on ἰάσομαι and the two ways to take
 - 12:24 "it stays alone, just itself" is redundant. Use "it stays a single grain".
 - 11:56 "How does it look to you?" is acceptable, but "What do you think?" is plainer.
 
-### 18. Minor: quotations that do not match the site's Plain
+### 18. Minor: quotations that do not match the site's Plain English Translation
 - 11:48 note: 2 Maccabees 5:19. Build warning. The site reads "But the Lord did not choose the nation for the sake of
   the place; he chose the place for the sake of the nation."
 - 12:29 note: "God answered Moses 'in thunder' (Exodus 19:19)". The site's Exodus has "God kept answering him with
@@ -228,9 +228,9 @@ them." Add two sentences to the note on ἰάσομαι and the two ways to take
 - 11:41 note: "so that this people may know" (1 Kings 18:36–37). The site has "Then this people will know".
 - 12:41 note: Isaiah 6:1, 5 paraphrased in quotation marks. The site has "He was sitting on a throne, high and lifted
   up" and "with my own eyes I have seen the King, the LORD of Armies".
-- 12:38 note: brief-nt.md asks the note to say where the NT quotation differs from the site's Plain of the OT verse.
-  The site's Isaiah 53:1 reads "Who has believed what we have heard?", and John's Plain reads "the report we gave".
-  Say that ἀκοή can be either, and why the Plain chose one.
+- 12:38 note: brief-nt.md asks the note to say where the NT quotation differs from the site's Plain English Translation of the OT verse.
+  The site's Isaiah 53:1 reads "Who has believed what we have heard?", and John's Plain English Translation reads "the report we gave".
+  Say that ἀκοή can be either, and why the Plain English Translation chose one.
 
 ### 19. Minor: factual wording to tighten
 - 11:3 note: "the Beloved Disciple appears at the Last Supper among the Twelve". John 13 does not say that only the
@@ -314,8 +314,8 @@ mourners' remarks at 11:32–37, which are a distinct exchange with different he
 ## Fixes applied
 
 1. Major, readers lines: removed the stock opening from every card; each `readers` line now speaks of the passage's meaning for readers "late in the first century, perhaps around Ephesus" without the expulsion setting as fact; the 12:37–43 card gives Martyn's synagogue-expulsion reading as one view beside Bauckham's "all the churches" (martyn-history, bauckham-gospels-all).
-2. Major, 12:27: the note now says the SBLGNT prints a real request with a period, the KJV a prayer, many editions and most English versions a question, that commentators divide, and why the Plain prints a question (the following "but", alla). No commentators named, because I could not confirm Brown's or Lincoln's position.
-3. Major, 11:22: the Plain now follows NA28 and Tyndale House ("But even now"), with a new variant entry naming the editions (SBLGNT, WH, Tregelles against NA28, THGNT, Byzantine, TR). The 12:9 article difference is in its `b`.
+2. Major, 12:27: the note now says the SBLGNT prints a real request with a period, the KJV a prayer, many editions and most English versions a question, that commentators divide, and why the Plain English Translation prints a question (the following "but", alla). No commentators named, because I could not confirm Brown's or Lincoln's position.
+3. Major, 11:22: the Plain English Translation now follows NA28 and Tyndale House ("But even now"), with a new variant entry naming the editions (SBLGNT, WH, Tregelles against NA28, THGNT, Byzantine, TR). The 12:9 article difference is in its `b`.
 4. Major, Matthew parallels: 12:8 now matches Matthew 26:11 ("For you always have poor people among you, but you do not always have me."); 12:15 has "Look, your king is coming", as in Matthew 21:5. The note and variant anchors were updated, and the 12:8 and 12:15 notes say so.
 5. Major, 12:39: "This is why they were unable to believe: because, as Isaiah said in another place," which keeps the forward-pointing reason.
 6. Major, 12:49: "about what I should say and what I should speak."
@@ -323,14 +323,14 @@ mourners' remarks at 11:32–37, which are a distinct exchange with different he
 8. Major, soul-sleep card: `top` is now "sheol" (resurrection, sheol still in the chapter topics). Sources added: Orthodox (Confession of Dositheus, decree 18: new key dositheus-decrees), later Lutheran (Pieper: new key pieper-dogmatics), Jehovah's Witnesses (jw-insight). The Catholic gloss is now marked as explanation, and the WCF 32.1 "which neither die nor sleep" is quoted.
 9. Major, 11:50 and 12:25 witnesses: per the lane decision, these now name editions only (SBLGNT, NA28, THGNT, WH, Tregelles against Byzantine/TR) and refer readers to the NA28 apparatus. The unverified third reading at 11:50 (omission) is dropped, which also removes the ungrammatical `plain`.
 10. Minor, 12:28 Bezae: the reading is now given as the text's "your name" with words added from 17:5, as Metzger reports, so `p`, `orig`, `en` and `plain` agree. No Greek pronoun is claimed beyond that.
-11. Minor, 11:33: the Plain now has "Anger stirred deep in his spirit, and he let himself be shaken" (keeps the reflexive). The note now gives the case for "deeply moved" and names Augustine, Tractates on John 49.18.
-12. Minor, 12:7: the Plain now keeps the hina link ("Let her be, so that she can keep it for the day of my burial."); the note gives the three readings without names I could not verify; the variant anchor is ", so that she can keep it"; the chapter summary now says "it is for the day of his burial."
+11. Minor, 11:33: the Plain English Translation now has "Anger stirred deep in his spirit, and he let himself be shaken" (keeps the reflexive). The note now gives the case for "deeply moved" and names Augustine, Tractates on John 49.18.
+12. Minor, 12:7: the Plain English Translation now keeps the hina link ("Let her be, so that she can keep it for the day of my burial."); the note gives the three readings without names I could not verify; the variant anchor is ", so that she can keep it"; the chapter summary now says "it is for the day of his burial."
 13. Minor, 12:40: "...and turn back for me to heal them." The note now explains the future kai iasomai and the two ways to take it.
 14. Minor, ESV/NIV echoes: 11:9 "the light of this world"; 12:5 "and given to the poor"; 11:38 "The tomb was a cave. A stone lay on it." (note updated). 11:44 and 11:28 kept, being the natural Greek, as the reviewer allowed.
 15. Minor, additions and losses: 12:48 "already" deleted; 11:53 "So from that day on they were set on killing him."; 11:54 "He left there"; 11:4 purpose clause restored ("so that through it the Son of God may be glorified"); 12:47 "I do not judge him."
-16. Minor, term consistency: 12:17 "kept testifying"; 11:12 note now says the Plain uses three English words for sozo; 12:28 "Father, glorify your name!" and 11:4 "glorified"; 12:17 "from the dead"; 12:35 "take hold of you" (as at 1:5), with its gloss moved.
+16. Minor, term consistency: 12:17 "kept testifying"; 11:12 note now says the Plain English Translation uses three English words for sozo; 12:28 "Father, glorify your name!" and 11:4 "glorified"; 12:17 "from the dead"; 12:35 "take hold of you" (as at 1:5), with its gloss moved.
 17. Minor, style: 11:20 "stayed sitting in the house"; 11:50 "And you don't stop to think"; 12:24 "it stays a single grain"; 11:56 "What do you think?" The two glosses on the old wording were removed.
-18. Minor, quotations: 11:48 quotes the site's 2 Maccabees 5:19; 12:29 quotes Exodus 19:19 ("God kept answering him with a voice") and explains qol; 11:41 quotes 1 Kings 18:37; 12:41 quotes Isaiah 6:1 and 6:5 in the site's wording; 12:38 note now quotes the site's Isaiah 53:1 and explains akoe and the Plain's "the report we gave".
+18. Minor, quotations: 11:48 quotes the site's 2 Maccabees 5:19; 12:29 quotes Exodus 19:19 ("God kept answering him with a voice") and explains qol; 11:41 quotes 1 Kings 18:37; 12:41 quotes Isaiah 6:1 and 6:5 in the site's wording; 12:38 note now quotes the site's Isaiah 53:1 and explains akoe and the Plain English Translation's "the report we gave".
 19. Minor, wording: 11:3 note now says "where the other Gospels place only the Twelve"; 11:55 "only one Passover during the ministry"; litra given everywhere as about 11.5 ounces; 12:20 preview matches the body ("probably God-fearers"); 11:52 now cites Sirach 36:13–16 and Psalms of Solomon 17:26–28; ch. 12 deep says "these and similar verses"; 11:26 "will soon plan".
 20. Minor, Vulgate omnia: softened in the 12:32 variant `b` and ch. 12 views.T; both now say Western readers had to explain omnia and that Augustine took it of all kinds of people (Tractates on John 52.11).
 21. Minor, 12:41 Metzger: the attribution is dropped; the `b` now says only that no modern edition follows those readings.

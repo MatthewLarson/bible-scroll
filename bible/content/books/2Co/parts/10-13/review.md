@@ -4,7 +4,7 @@ Reviewer: hostile-reviewer agent (not the writer). Checked against `texts/orig/2
 
 ## Verdict
 
-The Plain is faithful and mostly well judged. I found no verse where the sense is wrong, no invented source and no fabricated reading. Mishnah Makkot 3:10, Josephus Ant. 4.238, 1 Clement 5:6, Aretas IV (about 9 BC to AD 40) and the Josephus Ant. 18.109-115 war with Antipas all check out, as do the Jeremiah 1:10 and 9:24, Deuteronomy 19:15 and 25:3, Genesis 3:13 and 1 Corinthians 1:31 quotations against the site's own Plain. The weak points are these.
+The Plain English Translation is faithful and mostly well judged. I found no verse where the sense is wrong, no invented source and no fabricated reading. Mishnah Makkot 3:10, Josephus Ant. 4.238, 1 Clement 5:6, Aretas IV (about 9 BC to AD 40) and the Josephus Ant. 18.109-115 war with Antipas all check out, as do the Jeremiah 1:10 and 9:24, Deuteronomy 19:15 and 25:3, Genesis 3:13 and 1 Corinthians 1:31 quotations against the site's own Plain English Translation. The weak points are these.
 
 - Several scholar attributions are wrong or unverified, above all Thrall as a defender of unity.
 - The variants file names no manuscripts at all, and it misses three or four KJV-visible differences.
@@ -28,8 +28,8 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 
 ### 3. "Apostles of the highest rank" (11:5; 12:11) hides the sarcasm and prejudges the identification (major)
 - **Where:** plain.txt 11:5, 12:11; set against notes, cards, settings, topic titles and book.json, which all say "super-apostles".
-- **Evidence:** Greek ὑπερλίαν is the adverb "super-extra", used for ridicule. "Rank" and "highest" are not in the Greek. "Of the highest rank" makes them sound like an official body, which tilts toward the Jerusalem-apostles reading (view 1) in the very Plain text, before any note speaks. A reader who then meets "super-apostles" in the note title, the chapter views and the topic page has no link back to the verse. No gloss in glosses.json explains it. The brief's `aka` lists both forms, but the text itself never uses "super-apostles". "Super-apostles" is a coined label, so it is not drift to use it.
-- **Fix:** Render it in a neutral, sarcastic way ("the super-apostles", or "those 'extra-special apostles'") and add a gloss at 11:5. Or keep the current wording and add a gloss saying it is "super-apostles" in many Bibles. Make the Plain, notes, cards and topic use one term.
+- **Evidence:** Greek ὑπερλίαν is the adverb "super-extra", used for ridicule. "Rank" and "highest" are not in the Greek. "Of the highest rank" makes them sound like an official body, which tilts toward the Jerusalem-apostles reading (view 1) in the very Plain English Translation text, before any note speaks. A reader who then meets "super-apostles" in the note title, the chapter views and the topic page has no link back to the verse. No gloss in glosses.json explains it. The brief's `aka` lists both forms, but the text itself never uses "super-apostles". "Super-apostles" is a coined label, so it is not drift to use it.
+- **Fix:** Render it in a neutral, sarcastic way ("the super-apostles", or "those 'extra-special apostles'") and add a gloss at 11:5. Or keep the current wording and add a gloss saying it is "super-apostles" in many Bibles. Make the Plain English Translation, notes, cards and topic use one term.
 
 ### 4. None of the 13 variants names a manuscript (major)
 - **Where:** variants.json, every entry (`w` lists editions only; `s` is just `metzger`).
@@ -39,16 +39,16 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 ### 5. KJV-visible differences missing from variants.json (major)
 - **Where:** 11:28, 13:7, 13:2 (plus 11:31 below).
 - **Evidence:**
-  - 11:28: SBL ἡ ἐπίστασίς μοι ("pressure/care on me") against Byzantine ἐπισύστασίς μου ("a mob/riot or gathering against me", compare the KJV "that which cometh upon me daily"). The Plain follows the first, and the meaning differs.
+  - 11:28: SBL ἡ ἐπίστασίς μοι ("pressure/care on me") against Byzantine ἐπισύστασίς μου ("a mob/riot or gathering against me", compare the KJV "that which cometh upon me daily"). The Plain English Translation follows the first, and the meaning differs.
   - 13:7: critical εὐχόμεθα ("we pray") against Byzantine/TR εὔχομαι ("I pray"; KJV "Now I pray"). The mark on εὐχόμεθα is N n S Y W G.
   - 13:2: the Byzantine text adds γράφω ("I write", KJV "I write to them which heretofore have sinned").
   - 10:12: the Western text is, as I recall, shorter at "οὐ συνιᾶσιν ἡμεῖς δέ". I could not confirm it; check the apparatus.
 - **Fix:** Add entries for 11:28, 13:7 and 13:2 at least, and check 10:12.
 
-### 6. "Second visit" in 13:2 is settled in the Plain and the note, but the Greek allows another reading (major)
+### 6. "Second visit" in 13:2 is settled in the Plain English Translation and the note, but the Greek allows another reading (major)
 - **Where:** plain.txt 13:2 ("as I did on my second visit"); notes.json 12:14 ("13:2 speaks of a 'second visit' as past, which favors the first reading").
 - **Evidence:** The Greek is ὡς παρὼν τὸ δεύτερον καὶ ἀπὼν νῦν. This can mean "as when I was present the second time" or "as if present a second time, though absent now" (the KJV reading). The count of visits (two or three) depends on it, and the note uses 13:2 as its decisive proof.
-- **Fix:** Add a note or a variant-style views entry at 13:2 stating both renderings, and soften the note at 12:14. The Plain may keep its choice, but the choice must be flagged.
+- **Fix:** Add a note or a variant-style views entry at 13:2 stating both renderings, and soften the note at 12:14. The Plain English Translation may keep its choice, but the choice must be flagged.
 
 ### 7. Healing card: two attributions the cited source does not support (major)
 - **Where:** chapters.json ch. 12, card "Does God sometimes refuse to heal"; topics.json `healing` contribution.
@@ -67,25 +67,25 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 
 ### 9. Aretas and the date from Damascus are overstated (minor)
 - **Where:** chapters.json ch. 11 `views.H` ("fixes a date in the late 30s"); plain.txt 11:32; notes.json 11:32.
-- **Evidence:** The note itself says the form of Aretas's control is unclear, and that is an honest hedge. The chapter line then says it "fixes a date". The Plain says "governor under King Aretas", while ἐθνάρχης may mean the head of the Nabatean community in the city. The note mentions both but never says that the Plain picks the first. The usual supporting evidence (no Damascus city coins of Tiberius's later years, AD 34 to 62, which suggests Nabatean rule about 37-40) is not given.
-- **Fix:** Change "fixes" to "points to". Add a line that the Plain's "governor" is one of two readings.
+- **Evidence:** The note itself says the form of Aretas's control is unclear, and that is an honest hedge. The chapter line then says it "fixes a date". The Plain English Translation says "governor under King Aretas", while ἐθνάρχης may mean the head of the Nabatean community in the city. The note mentions both but never says that the Plain English Translation picks the first. The usual supporting evidence (no Damascus city coins of Tiberius's later years, AD 34 to 62, which suggests Nabatean rule about 37-40) is not given.
+- **Fix:** Change "fixes" to "points to". Add a line that the Plain English Translation's "governor" is one of two readings.
 
 ### 10. 10:16 "the lands beyond you likely means Rome and Spain" (minor)
 - **Where:** notes.json 10:16.
 - **Evidence:** Romans 15:20-24 says Paul would not build on another's foundation, and Rome already had a church. Spain is the aim. Rome is a stopover.
 - **Fix:** Say "probably Spain, by way of Rome".
 
-### 11. Gal 4:15 quoted in a way that differs from the site's Plain (minor)
+### 11. Gal 4:15 quoted in a way that differs from the site's Plain English Translation (minor)
 - **Where:** chapters.json ch. 12 deep dive "What was the thorn?" ('you would have torn out your eyes').
-- **Evidence:** Gal 4:15 in the site's Plain reads "you would have dug out your own eyes and given them to me".
-- **Fix:** Use the Plain's wording exactly, as the site requires.
+- **Evidence:** Gal 4:15 in the site's Plain English Translation reads "you would have dug out your own eyes and given them to me".
+- **Fix:** Use the Plain English Translation's wording exactly, as the site requires.
 
 ### 12. 11:1 imperative against indicative is not noted (minor)
 - **Where:** plain.txt 11:1 ("Actually, you are bearing with me already").
-- **Evidence:** ἀλλὰ καὶ ἀνέχεσθέ μου can be indicative ("indeed you do") or imperative ("do bear with me!"); the ESV takes the imperative. The Plain takes the indicative, with "already" added, close to the NIV's idea. No note or variant covers it.
+- **Evidence:** ἀλλὰ καὶ ἀνέχεσθέ μου can be indicative ("indeed you do") or imperative ("do bear with me!"); the ESV takes the imperative. The Plain English Translation takes the indicative, with "already" added, close to the NIV's idea. No note or variant covers it.
 - **Fix:** Add a short note on the two readings, and drop "already" (not in the Greek).
 
-### 13. Small interpretive additions in the Plain (minor)
+### 13. Small interpretive additions in the Plain English Translation (minor)
 - **Where:** plain.txt 10:14 ("we got there first"; ἐφθάσαμεν means "reached", and "first" is one reading); 10:8 ("a bit too much"; the Greek is only "somewhat more"); 11:19 ("and so" makes the wisdom the cause); 12:7 ("or because of" for καί; the whole clause is hard Greek); 12:16 ("some say" is supplied); 11:4 ("Look at it this way" has no Greek); 13:11 χαίρετε ("be glad"; KJV "farewell" is possible).
 - **Fix:** Remove the connectors or add a short note at the first two and the last; 12:7 should say that "and" and the break are the writer's reading.
 
@@ -141,10 +141,10 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 
 ## Checked and found sound
 - **Dating:** AD 55-56 for the letter, so "fourteen years" gives AD 41-42, consistent with the notes' own arithmetic.
-- **Quotation rule:** all site quotations match the current Plain (Jer 1:10, 9:24; Deut 19:15, 25:3; Gen 3:13; 1 Cor 1:31; Acts 2:42).
-- **Numbering:** the 13:14 numbering note is correct: the English 13:12b-13 correspond to the Greek 13:12b, and the benediction is Greek 13:13. The Plain follows the KJV numbering and finds all the words.
+- **Quotation rule:** all site quotations match the current Plain English Translation (Jer 1:10, 9:24; Deut 19:15, 25:3; Gen 3:13; 1 Cor 1:31; Acts 2:42).
+- **Numbering:** the 13:14 numbering note is correct: the English 13:12b-13 correspond to the Greek 13:12b, and the benediction is Greek 13:13. The Plain English Translation follows the KJV numbering and finds all the words.
 - **Drift:** I found no sentence copied from the NIV or ESV beyond stock wording ("when I am weak, then I am strong"; the benediction). 13:5 and 12:14 follow the syntax of the Greek, not of those versions.
-- **Style:** no em-dashes in any content file; reading level is suitable in the Plain.
+- **Style:** no em-dashes in any content file; reading level is suitable in the Plain English Translation.
 - **Settings:** every speech, quotation, prayer and answer has a settings card, and the five traditions cards each have 4 or 5 named traditions, with no ranking.
 - **Build check:** 0 errors, 0 warnings.
 
@@ -152,15 +152,15 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 
 1. Accepted. Thrall moved out of the one-letter list everywhere (note 10:1, chapter 10 `views.C`, deep dive); her ICC view (a separate letter after 1-9, not the severe letter) is now stated as a fourth position. Furnish removed from the 10:1 note and setting `s` (his position was not verified); Lambrecht and Bornkamm removed (no verified source key). Harris, Garland, Barnett stay as unity.
 2. Partly accepted. Unverified placements removed: no attribution to Harris, Thrall or Furnish in the note, chapter 11 `views.C`, deep dive or topic; "early Barrett" dropped (Barrett 1971, 1973); view (2) is now "many recent commentators". Added the strongest case for the two-group view (separate labels in 11:5 and 11:13; the guarded tone of Gal 2:6) and made the rebuttal fair; fixed the deep dive's slip that 11:13 describes the "super-apostles". Barnett, Georgi, Schmithals stay for who the intruders were.
-3. Accepted (lead decision). Plain 11:5 and 12:11 now read "super-apostles" in quotation marks; gloss added at 11:5 on Greek huperlian ("beyond the limit", a sarcastic coinage); note, deep dive and the nt topic lead/aka use the same term.
+3. Accepted (lead decision). Plain English Translation 11:5 and 12:11 now read "super-apostles" in quotation marks; gloss added at 11:5 on Greek huperlian ("beyond the limit", a sarcastic coinage); note, deep dive and the nt topic lead/aka use the same term.
 4. Partly accepted. Edition marks corrected and named (N n S Y W G for the critical readings, T and B for the TR/Byzantine). 12:9 now also records the verb difference teleioutai/teleitai, and the manuscript list the reviewer found is given as "reported, not rechecked"; 11:3 names only the editions and drops the vague Metzger claim. Other entries have no manuscript lines added: I could not verify them and was told not to add unverifiable citations.
 5. Accepted in part. New variants at 11:28 (epistasis/episystasis), 13:7 (euchometha/euchomai) and 13:2 (added grapho). 10:12: the texts/auto data show only a verb-form difference (synias/synious), no Western shortening, so no entry was added.
-6. Accepted. New note at 13:2 gives both readings of "second visit"; the Plain keeps its choice, flagged; the 12:14 note no longer calls 13:2 decisive.
+6. Accepted. New note at 13:2 gives both readings of "second visit"; the Plain English Translation keeps its choice, flagged; the 12:14 note no longer calls 13:2 decisive.
 7. Accepted. Lutheran card no longer says the Disputation treats the thorn; Pentecostal thorn split removed here and in the healing topic contribution. Orthodox lines on healing and apostolic succession now cite `ware-orthodox` (general, no page given); no unction text was found to cite.
 8. Accepted. Corona muralis note now credits Judge as proposer and Furnish (Anchor Bible) as developer, calls it a suggestion, adds Aulus Gellius 5.6 for the award, and drops Barnett and Garland as the route. Pawlak not cited (could not state the argument accurately).
-9. Accepted. "fixes a date" became "points to a date ... if Aretas then ruled the city"; the note says the Plain's "governor" is one of two readings and the date holds only on that reading. The coin evidence was not added (unverified).
+9. Accepted. "fixes a date" became "points to a date ... if Aretas then ruled the city"; the note says the Plain English Translation's "governor" is one of two readings and the date holds only on that reading. The coin evidence was not added (unverified).
 10. Accepted. 10:16 note: probably Spain, with Rome a stop on the way.
-11. Accepted. Gal 4:15 now quoted as in the Galatians Plain.
+11. Accepted. Gal 4:15 now quoted as in the Galatians Plain English Translation.
 12. Accepted. "already" dropped from 11:1; new note on indicative versus imperative.
 13. Accepted. Removed "a bit too much" (now "somewhat more"), "we got there first", "Look at it this way" (now a plain "If ..."), and the causal "and so" at 11:19; 12:7 now "and because of" with a note on the hard clause; "some say" at 12:16 flagged in the note as supplied; gloss added for 13:11 "be glad" (also "farewell").
 14. Accepted. Catholic card now cites CCC 77 and 861-862 for succession and keeps 156 and 799-801 only for signs of credibility and charisms; Orthodox line given `ware-orthodox`. Lutheran and Anglican voices not added: no verified sources.
@@ -173,7 +173,7 @@ Findings by severity: 0 critical, 7 major, 15 minor.
 21. Accepted. Tapeinos note says "often/usually".
 22. Accepted by dropping the sentence: the Tertullian and Jerome references could not be verified.
 
-Plain verses changed: 10:8, 10:14, 11:1, 11:4, 11:5, 11:19, 12:7, 12:11. Quotes of these verses in other books: none found. Counts now: 86 verses, 64 notes, 16 variants, 33 glosses, 4 chapter pages, 21 topic contributions; check 0 errors, 0 warnings.
+Plain English Translation verses changed: 10:8, 10:14, 11:1, 11:4, 11:5, 11:19, 12:7, 12:11. Quotes of these verses in other books: none found. Counts now: 86 verses, 64 notes, 16 variants, 33 glosses, 4 chapter pages, 21 topic contributions; check 0 errors, 0 warnings.
 
 ## Verification pass (2026-10-29)
 

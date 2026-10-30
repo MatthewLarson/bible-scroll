@@ -4,14 +4,14 @@ Reviewer: hostile-reviewer agent (did not write this part). Date: 2026-10-25.
 Checked: plain.txt verse by verse against the SBLGNT, the Byzantine text and the TAGNT edition marks in
 `texts/orig/Mrk.json`; `texts/auto/Mrk.json`; notes, variants, glosses, chapters (settings, traditions, deep dives,
 views), topics.json; the proposal `content/proposals/nt/topics/decapolis.json`; the four entries in
-`content/proposals/nt/terms.json` (τέκτων, ὁ βαπτίζων, ἀρχισυνάγωγος, δυνάμεις); Matthew's published Plain for every
-parallel (Matthew 8:18–34; 9:18–26, 36; 10:1–15; 13:1–35, 53–58; 14:1–36); the sibling Mark parts' Plain where this part
+`content/proposals/nt/terms.json` (τέκτων, ὁ βαπτίζων, ἀρχισυνάγωγος, δυνάμεις); Matthew's published Plain English Translation for every
+parallel (Matthew 8:18–34; 9:18–26, 36; 10:1–15; 13:1–35, 53–58; 14:1–36); the sibling Mark parts' Plain English Translation where this part
 claims alignment. `VERBOSE=1 node tools/build.js --check Mrk/04-06`: 0 errors, 0 warnings.
 
 ## Verdict
 
 This is a strong part. The translation is faithful to the SBLGNT, keeps Mark's roughness (the "could not" of 6:5, the
-disciples' "doesn't it matter to you" of 4:38, "I am" at 6:50), follows Matthew's Plain closely where the Greek
+disciples' "doesn't it matter to you" of 4:38, "I am" at 6:50), follows Matthew's Plain English Translation closely where the Greek
 matches, and shows very little NIV/ESV drift. The notes are dense, mostly accurate and fair to Jewish readings (Levine
 on the bleeding woman is well handled). I found no invented sources: Tzaferis 1989 (BAR 15:2, 44–51), b. Shabbat
 110a–b, Origen's Against Celsus 6.36, Justin's Dialogue 88, PGM IV.3019–20, Juvenal 3.14 and 6.542, Josephus Ant.
@@ -20,7 +20,7 @@ on the bleeding woman is well handled). I found no invented sources: Tzaferis 19
 rests on a false claim about Matthew's Greek; the 6:3 "son of the carpenter" reading is reconstructed wrongly; an
 English-changing disagreement between SBL and NA28/THGNT at 6:2 has no variant entry; the chapter 4 Critical view
 says Luke softens Mark's "so that", which Luke does not; the Catholic answer on the 6:3 card misreports what
-Catechism 500 cites; and the note on 4:39 claims an English link with 1:25, 3:12 and 9:25 that the site's Plain does
+Catechism 500 cites; and the note on 4:39 claims an English link with 1:25, 3:12 and 9:25 that the site's Plain English Translation does
 not show. The 6:22 choice of SBL/THGNT over NA28 is defensible, but its reasoning needs one fair sentence added.
 No critical findings.
 
@@ -31,7 +31,7 @@ Counts: critical 0, major 6, minor 20.
 ### 1. Major: variants.json 4:40, the "why" rests on a false claim about Matthew 8:26
 The `why` says scribes softened Mark "perhaps under the influence of Matthew 8:26 (which has 'so')". Matthew's Greek
 has no "so": SBL Matthew 8:26 reads Τί δειλοί ἐστε, ὀλιγόπιστοι; with no οὕτως. The "so" is only in this site's English
-Plain of Matthew ("Why are you so timid"). So the assimilation argument as stated is invalid. The Byzantine οὕτως; πῶς
+Plain English Translation of Matthew ("Why are you so timid"). So the assimilation argument as stated is invalid. The Byzantine οὕτως; πῶς
 οὐκ is not from Matthew (nor from Luke 8:25, Ποῦ ἡ πίστις ὑμῶν;).
 Also, the witness list is shaky (the writer flagged it): reading 0 names "Bezae" and nothing is said of P45 or W,
 both extant here, which are commonly reported with a mixed reading (οὕτως with οὔπω). I could not confirm these from
@@ -39,7 +39,7 @@ an open source.
 Fix: rewrite the `why`: the oldest witnesses have οὔπω, "not yet", which is harsher; the Byzantine "How is it that
 you have no faith?" smooths the rebuke. Drop the Matthew claim. Name only witnesses you can attribute ("as reported by
 Metzger" for ℵ B D L Δ Θ and the versions, or simply "the earliest Greek manuscripts"), or add P45 and W only if the
-NA28 apparatus confirms their reading. Separately, tell the lead that Matthew 8:26's Plain "so timid" adds a word the
+NA28 apparatus confirms their reading. Separately, tell the lead that Matthew 8:26's Plain English Translation "so timid" adds a word the
 Greek does not have (see 18e).
 
 ### 2. Major: variants.json 6:3, the "builder's son" reading is reconstructed wrongly
@@ -83,7 +83,7 @@ another Mary; the Catechism makes the same point from Matthew's parallels (Catec
 Joseph's sons; Baptist and many Reformed: a different Mary, the brothers being Mary's later sons; Lutheran: divided).
 Or reframe the question as what Mark adds to the Matthew 12 card and point to that card.
 
-### 6. Major: notes.json 4:39 "Be muzzled!" (and topic `sea`), English link to the exorcisms that the site's Plain does not show
+### 6. Major: notes.json 4:39 "Be muzzled!" (and topic `sea`), English link to the exorcisms that the site's Plain English Translation does not show
 The note says "'spoke sternly' (<i>epetimēsen</i>) is his word for rebuking demons (1:25; 3:12; 9:25)". In this site
 ἐπιτιμάω is "gave it a strict order" (1:25), "kept giving them strict orders" (3:12), "rebuked" (9:25, 8:30, 8:33) and
 "spoke sternly" (4:39, following Matthew 8:26). A reader who checks the three references finds three other English
@@ -125,13 +125,13 @@ were completely beside themselves," (and update the 6:51 variant anchor and read
 
 ### 11. Minor: notes.json 5:18 "to be with him", claimed English link that does not hold
 The note says the man is sent with "the same verb Mark uses for apostles' preaching, 'announce' (<i>kēryssein</i>,
-5:20; compare 3:14)". 3:14's Plain says "to preach"; 1:39 and 1:45 also "preaching"; 1:4 "proclaimed"; this part
+5:20; compare 3:14)". 3:14's Plain English Translation says "to preach"; 1:39 and 1:45 also "preaching"; 1:4 "proclaimed"; this part
 uses "announce" (5:20; 6:12). Fix: name the Greek and drop "announce" as the shared English, or ask the lead to
 align κηρύσσω across the Mark parts.
 
-### 12. Minor: quotations of Mark 8:17 that do not match the site's Plain
+### 12. Minor: quotations of Mark 8:17 that do not match the site's Plain English Translation
 Note [127] (6:52 "their hearts had turned hard") and the `hardening-of-heart` contribution quote 8:17 as "Are your
-hearts hardened?". Part 07-09's Plain reads "Have your hearts turned hard?". Fix: quote it exactly.
+hearts hardened?". Part 07-09's Plain English Translation reads "Have your hearts turned hard?". Fix: quote it exactly.
 
 ### 13. Minor: topics.json `aramaic`, 5:41 misquoted
 "'Talitha koum,' 'Little girl, get up' (Mark 5:41)" drops "I tell you" without an ellipsis, and the note on 5:41
@@ -166,7 +166,7 @@ turn back"), so change both together or not at all. Fix if the lead agrees: "oth
 forgiven", in both books.
 
 ### 18. Minor: parallels with Matthew where the Greek is the same but the English differs
-brief-nt.md: Mark follows Matthew's Plain where the Greek matches.
+brief-nt.md: Mark follows Matthew's Plain English Translation where the Greek matches.
 - (a) 6:34 ἐξελθὼν εἶδεν πολὺν ὄχλον: Mark "He came ashore and saw a huge crowd"; Matthew 14:14 "As he stepped out of
   the boat he saw a huge crowd". Pick one.
 - (b) 6:45 ἠνάγκασεν τοὺς μαθητὰς ... ἐμβῆναι εἰς (τὸ) πλοῖον καὶ προάγειν: Mark "made his disciples board the boat and
@@ -224,7 +224,7 @@ Daniel 12:2 in note [72]).
 ## Checked and found sound (no action)
 - Tzaferis 1989 exists as cited (BAR 15:2, March/April 1989, 44–51); the Kursi excavations (1970s) are correctly
   described. b. Shabbat 110a–b does list remedies for a woman's flow. Gadara's ship coins are real.
-- 6:22: SBL and THGNT both read αὐτῆς τῆς Ἡρῳδιάδος; NA28 and WH αὐτοῦ (TAGNT marks confirm). The Plain follows the
+- 6:22: SBL and THGNT both read αὐτῆς τῆς Ἡρῳδιάδος; NA28 and WH αὐτοῦ (TAGNT marks confirm). The Plain English Translation follows the
   reading it claims.
 - 6:14 "People were saying": NA28/SBL/WH ἔλεγον against THGNT/Byzantine ἔλεγεν, correctly stated.
 - 4:15: NA28 and THGNT do read ἐν αὐτοῖς (TAGNT confirms), as the variant says.
@@ -243,10 +243,10 @@ Daniel 12:2 in note [72]).
 ## Fixes applied
 1. Fixed. 4:40 `why` rewritten (oupō harsher; Byzantine smooths; Matthew claim dropped, neither Matthew 8:26 nor Luke 8:25 has the Byzantine wording); reading 0 witnesses now ℵ B D L Δ Θ and versions "as reported by Metzger"; P45 and W not named (unconfirmed). Matthew 8:26 "so timid" reported to the lead (18e).
 2. Fixed. 6:3 anchor extended to "This is the builder, isn't it, the son of Mary,"; reading 1 now ὁ τοῦ τέκτονος υἱὸς καὶ τῆς Μαρίας, "This is the son of the builder and of Mary, isn't it," (P45 damaged/uncertain, f13, 33, 565, 700, Old Latin, as reported by Metzger and NA28); `why` and note on "the son of Mary" say the reading removes the bare "son of Mary".
-3. Fixed by following NA28/THGNT: 6:2 Plain "Many of those listening were stunned."; new variant entry (NA28, THGNT, Tregelles, Byzantine, TR against SBLGNT, WH with B L as reported in NA28).
+3. Fixed by following NA28/THGNT: 6:2 Plain English Translation "Many of those listening were stunned."; new variant entry (NA28, THGNT, Tregelles, Byzantine, TR against SBLGNT, WH with B L as reported in NA28).
 4. Fixed. Ch. 4 view C: Matthew 13:13 "because"; Luke 8:10 keeps "so that" but drops the last clause; both soften 4:38.
 5. Fixed. Card reframed to the 15:40 question and pointed to the Matthew 12:46–50 card; Catholic answer now cites Jerome for Mark 15:40 and Catechism 500 for Matthew 13:55; 27:56; 28:1 (key `ccc`, the site's single Catechism key); every other view answers the 15:40 question (Orthodox: not the Theotokos, brothers Joseph's sons; Lutheran: divided; Reformed: mostly a different woman, Mary's own sons; Baptist: no).
-6. Fixed per lead decision (no forced English): 4:39 note and the `sea` contribution now name ἐπιτιμάω and give 1:25 ("gave it a strict order"), 3:12, 8:30, 32, 33, 9:25 ("rebuked") with their English, saying the Plain follows Matthew's parallels; 4:39 "spoke sternly" kept (= Matthew 8:26).
+6. Fixed per lead decision (no forced English): 4:39 note and the `sea` contribution now name ἐπιτιμάω and give 1:25 ("gave it a strict order"), 3:12, 8:30, 32, 33, 9:25 ("rebuked") with their English, saying the Plain English Translation follows Matthew's parallels; 4:39 "spoke sternly" kept (= Matthew 8:26).
 7. Fixed. 6:22 `why` states the opposing argument (agreement with Matthew and Josephus could be correction; why NA28/WH print αὐτοῦ) and restates Metzger's committee accurately.
 8. Fixed. Family 1 dropped from the 5:41 "koumi" reading.
 9. Fixed. 6:18 card `when` "on most reckonings (some date it later from Josephus)"; 6:22–25 card `when` says Josephus places John's imprisonment and death at Machaerus (no banquet); 4:35–41 card widened to the disciples' cry (with Matthew 8:25 / Luke 8:24 and Matthew's different placement of the storm); new card 5:22–23 for Jairus' plea (with Matthew 9:18's difference).

@@ -34,7 +34,7 @@ The build passes: 0 errors, and 4 warnings (no `top` on any traditions card).
 
 7. **major. book.json `topics` and the part topics.json: the `suffering` and `jobs-friends` topics are missing.** Both core files now exist in content/topics/ (`suffering`, "Why God Allows Suffering", with aka theodicy; `jobs-friends`). Neither is in book.json `topics` or in any chapter's `topics`. Chapters 1–2 (the prologue's hidden cause), 2:11–13 (the friends arrive) and 4–5 (Eliphaz) are where both subjects begin. `behemoth`, `dreams`, `sevens`, `casting-lots` and `elihu` are also missing from book.json `topics`. **Fix:** Add `suffering` and `jobs-friends` (plus the others) to book.json `topics`. Add `suffering` to ch1–2 and `jobs-friends` to ch2 and ch4–5. Write a `jobs-friends` section on 2:11–13 and Eliphaz's first speech, and a `suffering` section on the prologue's answer.
 
-8. **major. plain.txt 2:10 against notes.json 2:10 ("Not 'foolish' but godless"): the Plain contradicts its own note.** The note (kind `mis`) argues that *naval* means morally reckless, "not stupid": "Job does not call his wife a fool; he says she is talking like the godless." Yet the Plain says "a senseless woman", which in English means stupid. The gloss ("someone who has stopped caring what God thinks") follows the note, not the Plain. **Fix:** Render it "the way a godless woman talks", or "a woman with no regard for God", or change the note.
+8. **major. plain.txt 2:10 against notes.json 2:10 ("Not 'foolish' but godless"): the Plain English Translation contradicts its own note.** The note (kind `mis`) argues that *naval* means morally reckless, "not stupid": "Job does not call his wife a fool; he says she is talking like the godless." Yet the Plain English Translation says "a senseless woman", which in English means stupid. The gloss ("someone who has stopped caring what God thinks") follows the note, not the Plain English Translation. **Fix:** Render it "the way a godless woman talks", or "a woman with no regard for God", or change the note.
 
 ### Minor
 
@@ -48,7 +48,7 @@ The build passes: 0 errors, and 4 warnings (no `top` on any traditions card).
     - The 1:10 note says God "fenced in" the sea at 38:8, but 38-42 has "Who closed doors to hold back the sea".
     - The ch7 spec says Job will say God "hates" him (16:9; 30:21), but those parts have "holds a grudge" and "nurse a grudge".
 
-    **Fix:** Quote the other parts' Plain exactly, or paraphrase without quotation marks.
+    **Fix:** Quote the other parts' Plain English Translation exactly, or paraphrase without quotation marks.
 
 12. **minor. Cross-part term: *tsava*.** 7:1 has "a soldier's tour of duty". 14:14 (08-14) has "my hard duty". The 7:1 note says "He uses the word again in 14:14". **Fix:** Agree on one English word (for example "hard duty" in both, or "tour of duty" in both).
 
@@ -65,7 +65,7 @@ The build passes: 0 errors, and 4 warnings (no `top` on any traditions card).
 18. **minor. variants.json: a Greek plus is missing at 1:5.** The Old Greek adds that Job offered "one calf for sin for their souls" (μόσχον ἕνα περὶ ἁμαρτίας περὶ τῶν ψυχῶν αὐτῶν). It matters for the note on Job as family priest. **Fix:** Add a short variant, or a sentence in the 1:5 history note.
 
 19. **minor. Unresolved Hebrew difficulties with no note.** The brief says not to hide them.
-    - **7:15** "these bones": the Hebrew is "my bones". Many emend to *atsvotai*, "my pains". "These" is the Plain's own addition.
+    - **7:15** "these bones": the Hebrew is "my bones". Many emend to *atsvotai*, "my pains". "These" is the Plain English Translation's own addition.
     - **3:22** "glad to the point of shouting": *gil* or *gal* ("rejoice over the burial mound").
     - **6:7** "like disease in my bread": the meaning of *kidvei* is obscure.
     - **7:4** *middad 'erev*.
@@ -139,10 +139,10 @@ All 29 findings accepted. None rejected. Two were accepted with limits, noted at
    - book.json `topics` adds suffering, jobs-friends, resurrection, behemoth, elihu, dreams, sevens, casting-lots, worship and communion-of-saints.
    - Chapters 1–2 and 4–5 list `suffering`, and chapters 2 and 4–5 list `jobs-friends`.
    - New contributions: a `suffering` section on the prologue's answer, and a `jobs-friends` section on 2:11–5:27.
-8. 2:10: the Plain now has "the way a godless woman talks". The note, gloss and chapter summary match it.
+8. 2:10: the Plain English Translation now has "the way a godless woman talks". The note, gloss and chapter summary match it.
 9. 5:19 `r`: now "Amos 1:3–2:6".
 10. 4:13: no longer quotes English; it says "the same Hebrew phrase" returns in 33:15. Agreeing one rendering with the 32-37 writer is still open.
-11. Quotations now use the other parts' Plain exactly: 16:13 "His bowmen ring me in"; 9:17 "piles up my wounds for no reason"; 16:9 "he holds a grudge against me" and 30:21 "you nurse a grudge against me" in the chapter 7 spec. 38:8 is paraphrased without quotation marks.
+11. Quotations now use the other parts' Plain English Translation exactly: 16:13 "His bowmen ring me in"; 9:17 "piles up my wounds for no reason"; 16:9 "he holds a grudge against me" and 30:21 "you nurse a grudge against me" in the chapter 7 spec. 38:8 is paraphrased without quotation marks.
 12. *tsava*: 7:1 now reads "a term of hard duty", which matches 14:14's "hard duty". The note, gloss and summary are updated.
 13. 1:15 note: "Chaldean tribes" replaces "Aramean tribes", and "from south, east and above" replaces "all four directions".
 14. Fishbane: the 3:4 note and the `creation` section now say he "argued" that the poem "takes up the creation days of Genesis 1 one by one to undo them".
@@ -173,7 +173,7 @@ All 29 findings accepted. None rejected. Two were accepted with limits, noted at
 
 New shared source keys: djd6-4qtgjob, walton-job, jw-insight, jw-all-scripture and divino-afflante.
 
-The six Plain verses that changed (1:10, 2:10, 5:24, 6:27, 7:1, 7:15) were re-audited for drift:
+The six Plain English Translation verses that changed (1:10, 2:10, 5:24, 6:27, 7:1, 7:15) were re-audited for drift:
 - five are clean;
 - 6:27 "cast lots over" shares three words with one version, and the Hebrew *tappilu* forces them, so it was kept.
 

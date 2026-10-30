@@ -8,10 +8,10 @@ variants.json, glosses.json, chapters.json, topics.json, sources.json), the new 
 
 ## Verdict
 
-This is strong work. I compared all 216 verses of the Plain with `node tools/literal.js 1Ki 17`–`22` and found no
+This is strong work. I compared all 216 verses of the Plain English Translation with `node tools/literal.js 1Ki 17`–`22` and found no
 omissions, no wrong numbers or names, and no case where who does what is changed. The translation is faithful and
 readable. Leftover NIV/ESV phrasing is light and mostly where the Hebrew forces it. The one real exception is 18:37,
-where the Plain takes the NIV's reading of a debated clause and drops a Hebrew word. The notes are accurate to a
+where the Plain English Translation takes the NIV's reading of a debated clause and drops a Hebrew word. The notes are accurate to a
 high standard. Almost every Talmud, Midrash, Josephus, Ugaritic, Assyrian and modern citation I could check is real
 and says what the note claims, and every new source key is a real work with correct details. The Rahlfs readings the
 writer recalled from memory (17:21, 18:36–37, 19:2, 21:1, 21:16, 21:19, 22:28, 22:30, 22:38) are all confirmed by
@@ -29,7 +29,7 @@ section). I found no critical problems.
 
 ### 1. Major: plain.txt 18:37, "you are the one turning their hearts around"
 The Hebrew is וְאַתָּה הֲסִבֹּתָ אֶת־לִבָּם אֲחֹרַנִּית: a perfect verb ("you have turned / you turned") plus the adverb
-*achoranit*, "backward". The Plain turns the perfect into a present progressive and drops "backward". That is
+*achoranit*, "backward". The Plain English Translation turns the perfect into a present progressive and drops "backward". That is
 exactly the NIV's interpretation ("you are turning their hearts back again"). It is also the very point note #41
 says is debated: "Literally Elijah says, 'you turned their heart backward'". So the text settles the question and
 the note then opens it again. The rabbinic reading (God let them turn away, Berakhot 31b) and the "turning back to
@@ -53,7 +53,7 @@ Drop the claim about Greek and Latin copies unless a witness can be named.
 The note says Paul quotes "in a form close to the Greek but changed". But the LXX of 3 Kingdoms 19:18 reads
 "*you* will leave (καταλείψεις) in Israel seven thousand men" and "every mouth which had not *worshipped* him"
 (Brenton). Paul has "*I have kept for myself* (κατέλιπον ἐμαυτῷ) seven thousand men". His first person is closer to
-the Hebrew (וְהִשְׁאַרְתִּי, "I will leave / I have left") than to the LXX. Paul also changes the tense. The Plain
+the Hebrew (וְהִשְׁאַרְתִּי, "I will leave / I have left") than to the LXX. Paul also changes the tense. The Plain English Translation
 "I will keep... left" follows the MT's waw-perfect as future, which is defensible. But a reader comparing Romans 11:4
 needs to know that the Hebrew form allows "I have left", that the LXX has "you will leave", and that the LXX has
 "worshipped" where the Hebrew has "kissed". The feminine article τῇ Βάαλ point is correct.
@@ -119,7 +119,7 @@ make them match (ἐνεφύσησεν τῷ παιδαρίῳ is "breathed on/i
 **Fix:** Add a variant at 17:22 and align the 17:21 wording.
 
 ### 11. Minor: plain.txt 18:26 "the altar that had been made" quietly smooths the Hebrew
-The MT has אֲשֶׁר עָשָׂה, "which *he* had made" (singular), and the LXX has "which they had made". The Plain's passive
+The MT has אֲשֶׁר עָשָׂה, "which *he* had made" (singular), and the LXX has "which they had made". The Plain English Translation's passive
 avoids the problem without saying so. **Fix:** Add a short `word/var` note (the singular may be impersonal, or an
 error for the plural, as the Greek reads).
 
@@ -156,7 +156,7 @@ it as volume (a trench that would hold two seahs). Both readings are defended, a
 
 ### 15. Minor: glosses.json: one contradiction, two flippant or misaimed glosses
 - 18:45 "Little by little" is glossed "in no time", which says the opposite. The idiom עַד־כֹּה וְעַד־כֹּה usually
-  means "meanwhile / in a little while". Pick one meaning and make the Plain and the gloss agree.
+  means "meanwhile / in a little while". Pick one meaning and make the Plain English Translation and the gloss agree.
 - 18:29 "Nobody was listening" glossed "no one was home" trivializes a solemn refrain. 17:6 "bread and meat"
   glossed "breakfast and supper" glosses the food as if it were the time words. The anchor also occurs twice in the
   verse.
@@ -171,7 +171,7 @@ with a named scholar if one is used).
 
 ### 17. Minor: topics.json (jezebel): "fed 850 prophets of Baal and Asherah at her table"
 In 18:19 the clause "who eat at Jezebel's table" follows the 400 prophets of Asherah, and it may cover only them.
-The Plain itself attaches it to them. **Fix:** "fed the prophets of Asherah, and perhaps of Baal, at her table".
+The Plain English Translation itself attaches it to them. **Fix:** "fed the prophets of Asherah, and perhaps of Baal, at her table".
 
 ### 18. Minor: notes.json #94 (20:34): 15:20 is not "the cities taken by Ben-hadad's father" from Ahab's father
 In 15:20 Ben-hadad took cities from Baasha, not from Omri. The Bible records no Aramean conquest from Omri, and
@@ -218,7 +218,7 @@ add Hebrews 11:37 to chapter 19's echoes.
   by characters (and 19:14 and 2 Kings 9:7 also mention the killings). Reword it.
 - plain.txt 22:38 "just as the LORD had spoken his word" is awkward. Use "just as the LORD had said", or "according
   to the word the LORD had spoken".
-- *Nachal* is "the Kerith Brook" (17:3–7) but "the Kishon River" (18:40). This follows Judges' Plain for the
+- *Nachal* is "the Kerith Brook" (17:3–7) but "the Kishon River" (18:40). This follows Judges' Plain English Translation for the
   Kishon, so it is defensible, but say so or make it consistent.
 
 ### 25. Minor: mechanics
@@ -281,7 +281,7 @@ Writer's response, 2026-10-23. All 6 major findings are fixed. Of the 19 minor f
 12. **Drift.** 22:6 and 22:15 now read "march on Ramoth-gilead to fight, or ... let it be". 22:8 and 22:18 are rebuilt, without the supplied "He is". 22:23 now reads "all your prophets here", and 22:34 "the man at the reins". 22:35 now reads "pooled in the bottom of the chariot", and 22:36 "Each man to his city!" At 20:34 the speaker is no longer supplied ("came the reply"). The 19:15 and 18:46 glosses are reworded. The re-audit is logged by verse only.
 13. **20:23.** A deb note is added. The singular is kept because the LORD quotes the Arameans in the singular in 20:28.
 14. **18:32.** A deb note gives the area and capacity readings.
-15. **Glosses.** Fixed in part. The 18:45 gloss is now "bit by bit, slowly", which agrees with the Plain's "Little by little". The Plain itself is kept, as a literal reading of "until thus and until thus". The 18:29 gloss is reworded, and the 17:6 gloss is deleted.
+15. **Glosses.** Fixed in part. The 18:45 gloss is now "bit by bit, slowly", which agrees with the Plain English Translation's "Little by little". The Plain English Translation itself is kept, as a literal reading of "until thus and until thus". The 18:29 gloss is reworded, and the 17:6 gloss is deleted.
 16. **Jezebel's homeland.** Note #104 and the chapter 21 deep section now present this as the story's portrayal and a scholarly suggestion, with the evidence called thin.
 17. **Jezebel topic.** Now reads "fed the prophets of Asherah, and perhaps those of Baal too".
 18. **20:34 note.** The 15:20 claim is replaced: no conquest from Omri is recorded, and "my father ... your father" may be loose.

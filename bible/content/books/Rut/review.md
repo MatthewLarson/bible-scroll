@@ -2,7 +2,7 @@
 
 ## Verdict
 
-The Ruth pilot is strong. The translation is faithful to the Masoretic Text, keeps the key-word echoes (shuv, hesed, go'el, kanaf, chayil, dabaq, reqam), and has no theological slant added. Almost every fact the writer flagged as doubtful checks out: the Septuagint wordings at 1:14, 1:21, 2:7 and 4:8; the Syriac and Vulgate "she went" at 3:15; the 4:4 witnesses; the Qumran sigla; the Targum's glove; Rashi on 3:3; Ruth Rabbah 2:14; the Talmud passages; Speiser; Danel; Beattie; Fisch; Bauckham; and the Trible paraphrase. The problems are of four kinds. (1) The Plain English follows the BSB too closely: 31 of 85 verses are 80% or more the same string, and a few also echo the NIV. (2) The source keys break the STYLE naming rule and will collide with other books. (3) There are a few real factual slips: the claim that go'el is used "more than in any other book", the Yevamot 47b mapping, the Psalm 23:3 phrase, the weight of "six seahs", and the missing Septuagint double reading at 4:5. (4) The notes are padded: 93 notes for 85 verses, with about ten clear repeats. The 22 new topic cores are accurate but thin. They have no whole-Bible sections, several aliases collide with other topics, and three leads present one view as settled. `node tools/build.js --check Rut` passes (0 errors, 0 warnings).
+The Ruth pilot is strong. The translation is faithful to the Masoretic Text, keeps the key-word echoes (shuv, hesed, go'el, kanaf, chayil, dabaq, reqam), and has no theological slant added. Almost every fact the writer flagged as doubtful checks out: the Septuagint wordings at 1:14, 1:21, 2:7 and 4:8; the Syriac and Vulgate "she went" at 3:15; the 4:4 witnesses; the Qumran sigla; the Targum's glove; Rashi on 3:3; Ruth Rabbah 2:14; the Talmud passages; Speiser; Danel; Beattie; Fisch; Bauckham; and the Trible paraphrase. The problems are of four kinds. (1) The Plain English Translation follows the BSB too closely: 31 of 85 verses are 80% or more the same string, and a few also echo the NIV. (2) The source keys break the STYLE naming rule and will collide with other books. (3) There are a few real factual slips: the claim that go'el is used "more than in any other book", the Yevamot 47b mapping, the Psalm 23:3 phrase, the weight of "six seahs", and the missing Septuagint double reading at 4:5. (4) The notes are padded: 93 notes for 85 verses, with about ten clear repeats. The 22 new topic cores are accurate but thin. They have no whole-Bible sections, several aliases collide with other topics, and three leads present one view as settled. `node tools/build.js --check Rut` passes (0 errors, 0 warnings).
 
 Counts: 0 critical, 8 major, 27 minor.
 
@@ -46,7 +46,7 @@ Counts: 0 critical, 8 major, 27 minor.
 
 ## Findings
 
-### 1. Major: the Plain English follows the BSB too closely, and in places the NIV
+### 1. Major: the Plain English Translation follows the BSB too closely, and in places the NIV
 **Location:** plain.txt, many verses.
 **Problem:** STYLE rule 1 says English versions are "for checking, never for copying". Measured against `texts/en/Rut.json` (BSB), the average string similarity is 0.70, and 31 of 85 verses score 0.80 or higher. Some clauses are taken word for word:
 - 3:3: "do not let the man know you are there until he has finished eating and drinking" (BSB, identical).
@@ -55,9 +55,9 @@ Counts: 0 critical, 8 major, 27 minor.
 - 2:7: "Please let me glean and gather among the sheaves ... except for resting a little in the shelter" (BSB: "except that she rested a short time in the shelter").
 - 3:6, 1:18, 3:14, 4:3, 4:14, 4:13 (0.86 to 0.92).
 
-The BSB is CC0, so this is not a copyright breach in itself. But the BSB often runs close to the NIV, and some Plain verses land on NIV wording:
-- 2:12: NIV "May the LORD repay you for what you have done. May you be richly rewarded by the LORD, the God of Israel, under whose wings you have come to take refuge." The Plain text is the same except for "receive a full reward".
-- 4:15: NIV "He will renew your life and sustain you in your old age. For your daughter-in-law, who loves you and who is better to you than seven sons..." The Plain text keeps this sentence shape.
+The BSB is CC0, so this is not a copyright breach in itself. But the BSB often runs close to the NIV, and some Plain English Translation verses land on NIV wording:
+- 2:12: NIV "May the LORD repay you for what you have done. May you be richly rewarded by the LORD, the God of Israel, under whose wings you have come to take refuge." The Plain English Translation text is the same except for "receive a full reward".
+- 4:15: NIV "He will renew your life and sustain you in your old age. For your daughter-in-law, who loves you and who is better to you than seven sons..." The Plain English Translation text keeps this sentence shape.
 
 **Fix:** Re-render the 15 to 20 highest-scoring verses fresh from the Hebrew, keeping the Hebrew order where English allows. For example:
 - 2:12: "The LORD repay your deed! May your wages be paid in full by the LORD, the God of Israel, under whose wings you came to shelter."

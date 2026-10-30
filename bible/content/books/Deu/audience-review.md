@@ -2,7 +2,7 @@
 
 Scope: only book.json `audience` and chapters.json `settings`. That covers Deuteronomy (72 settings), Joshua (42),
 Judges (52) and Ruth (18). Checks run: `node tools/build.js --check` on Deu, Jos, Jdg and Rut (0 errors and 0
-warnings for each); every quoted string in the audience and settings compared against the site's Plain by script
+warnings for each); every quoted string in the audience and settings compared against the site's Plain English Translation by script
 (the build's quote check only catches quotes tied to a reference in certain patterns); hearers checked with
 `node tools/literal.js` for the doubtful cards; source keys looked up in content/sources.json and the books' parts;
 the eight named claims checked on the web.
@@ -160,10 +160,10 @@ deterrence and no pity: "The rest will hear and be afraid ... Do not let your ey
 punishment is the general argument about the talion, not this law's reason. Fix: give the text's own reason
 first, then "Many readers think the talion also set a limit."
 
-**15. Deuteronomy 16:1–17, view "Josiah's Passover": the quote does not match the Plain.** The card quotes
-2 Kings 23:21–23 as "as written in this book of the covenant." The site's Plain of 2 Kings 23:21 reads "by what is
+**15. Deuteronomy 16:1–17, view "Josiah's Passover": the quote does not match the Plain English Translation.** The card quotes
+2 Kings 23:21–23 as "as written in this book of the covenant." The site's Plain English Translation of 2 Kings 23:21 reads "by what is
 written in this covenant scroll." The build missed it because the quote is not tied to the reference in a pattern
-the checker reads. Fix: use the Plain wording.
+the checker reads. Fix: use the Plain English Translation wording.
 
 **16. Deuteronomy 31:9–13, view "The king reads": the source is incomplete.** Verified: the Agrippa story is in
 the Mishnah itself (Sotah 7:8), where Agrippa weeps at 17:15 and the people say "You are our brother," and the
@@ -197,8 +197,8 @@ shows that an outsider who confesses the LORD can join Israel," then the New Tes
 clause for the rabbinic tradition.
 
 **23. Joshua 17:14–18: misstates the promise.** The card says "promises they will drive out even the chariots."
-The Plain of 17:18 reads "You will drive out the Canaanites, even though they have iron chariots." Fix: follow the
-Plain.
+The Plain English Translation of 17:18 reads "You will drive out the Canaanites, even though they have iron chariots." Fix: follow the
+Plain English Translation.
 
 **24. Joshua audience: a view the settings use is missing, and a name lacks a key.** Card 22:10–34 gives a
 Second Temple "Priestly material" view, and the authorship section speaks of priestly material in chapters 13–22
@@ -219,11 +219,11 @@ from the Greek addition (in the site's variants.json) and from the "oak of weepi
 perhaps near Bethel."
 
 **28. Judges 10:10–16: a debated reading is stated as settled.** "God can no longer bear its misery ... God's
-mercy is still greater than his anger." The Plain of 10:16 reads "the LORD had had enough of Israel's misery,"
+mercy is still greater than his anger." The Plain English Translation of 10:16 reads "the LORD had had enough of Israel's misery,"
 which can mean impatience as well as compassion (Webb, for one, argues that God is exasperated here). Fix: add a
-two-sided view, and bring the why into line with the Plain's own wording.
+two-sided view, and bring the why into line with the Plain English Translation's own wording.
 
-**29. Judges 15:18: "God splits the rock" does not match the Plain.** The Plain of 15:19 reads "God broke open the
+**29. Judges 15:18: "God splits the rock" does not match the Plain English Translation.** The Plain English Translation of 15:19 reads "God broke open the
 hollow at Lehi." "Rock" imports Exodus 17. Fix: "God breaks open the hollow at Lehi."
 
 **30. Judges 8:22–23: Block is named but not cited.** The view "A polite refusal" names Block and Webb, but `s`
@@ -298,8 +298,8 @@ Fix: one clause each.
 
 Writer's response. All edits went through load-add-dump scripts touching only `audience` and `settings`. Afterward,
 `--check` gives 0 errors and 0 warnings for Deu, Jos, Jdg and Rut. Settings now: Deu 73, Jos 40, Jdg 50, Rut 18.
-Every quoted string of three or more words was compared by script with the book's Plain. The only ones left that
-are not in the Plain are labeled as another text: the Targum and Haggadah reading of Deuteronomy 26:5, the Ketiv
+Every quoted string of three or more words was compared by script with the book's Plain English Translation. The only ones left that
+are not in the Plain English Translation are labeled as another text: the Targum and Haggadah reading of Deuteronomy 26:5, the Ketiv
 "I acquire Ruth", and the gloss of the name Abimelech.
 
 1. Added Judges 19:22–30 (the men of Gibeah and the old man, with the Sodom echo; 19:30 folded in), 16:4–20
@@ -331,11 +331,11 @@ are not in the Plain are labeled as another text: the Targum and Haggadah readin
 13. Deuteronomy 15:12–18: now "Many scholars think ...; others think Exodus 21:7–11 deals with a different case."
 14. Deuteronomy 19:14–21: the text's own reason comes first (19:20, no pity). The limit on punishment is now
     "many readers think".
-15. The 2 Kings 23:21 quote now follows the Plain: "by what is written in this covenant scroll" (2 Kings 23:21).
+15. The 2 Kings 23:21 quote now follows the Plain English Translation: "by what is written in this covenant scroll" (2 Kings 23:21).
     The old sentence was: 2 Kings 23:21–23 says Josiah kept a Passover "as written in this book of the covenant,"
     the first like it since the judges. The checker missed it for two reasons. In the "REF says" pattern, the words
     between "says" and the quote ("Josiah kept a Passover") break the match. And no "(ref)" followed the quote.
-    The same script also found "book of the law" in the Deuteronomy audience. 2 Kings 22:8 in the Plain has
+    The same script also found "book of the law" in the Deuteronomy audience. 2 Kings 22:8 in the Plain English Translation has
     "scroll of the law", so I changed it.
 16. Not done. Mishnah Sotah 7:8 is now named in the view's text, but there is no mishnah-sotah key, and the brief
     does not let me add source keys. bavli-sotah stays.
@@ -350,13 +350,13 @@ are not in the Plain are labeled as another text: the Targum and Haggadah readin
 22. Joshua 2:9–13: now "an outsider who confesses the LORD can join Israel (6:25)". Added views for the rabbis
     (Bavli Megillah 14b: eight prophet-priests, Jeremiah among them) and for the New Testament. `s` adds
     bavli-megillah.
-23. Joshua 17:14–18 now quotes 17:18 from the Plain.
+23. Joshua 17:14–18 now quotes 17:18 from the Plain English Translation.
 24. Joshua audience: added the view "Later priestly editing" (Persian and Hellenistic Yehud). `s` adds kitchen-ot
     and tov-growth-joshua. The 22:10–34 priestly view now names Nelson and Butler, the cited keys.
 25. Judges 2:20–22: `to` now says the narrator reports God's decision in the third person.
 26. Judges 19:30: folded into 19:22–30, with a view on the Hebrew and Greek speakers.
 27. Judges 2:1–5: now "Bochim, perhaps near Bethel (the Greek adds Bethel)".
-28. Judges 10:10–16 now quotes 10:16 from the Plain. Added two views, compassion and exasperation (Webb). `s`
+28. Judges 10:10–16 now quotes 10:16 from the Plain English Translation. Added two views, compassion and exasperation (Webb). `s`
     adds webb-judges.
 29. Judges 15:18: now "God breaks open the hollow at Lehi".
 30. Judges 8:22–23: `s` adds block-ruth.

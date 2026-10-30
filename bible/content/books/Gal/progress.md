@@ -8,7 +8,7 @@ Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C 
 
 04-06 reviewed and fixed 2026-10-29 (review-fixer): nepios/huios/teknon kept distinct (minor/son/child), 4:13, 5:15, 6:14, 6:2 variant, Strabo (new key strabo-geography-12), unverifiable witnesses and tradition sources trimmed; new variants 5:24 and 6:10; 75 verses, 73 notes, 18 variants, 31 glosses, 44 topic contributions. Check: 0 errors, 0 warnings.
 
-01-03 review fixes applied (fixer pass): 30 findings fixed, 1 optional declined; Plain changed at 1:9, 1:12, 1:19; variants 12 to 18 (new 1:3, 1:10, 1:11, 2:16 second entry, 3:12, 3:22), notes 117 to 118 (new 3:22), new source keys luedemann-chronology, wesley-use-of-law, stern-messianic-manifesto, cofe-general-synod-2014, umc-discipline; check 0 errors, 0 warnings. 04-06 not touched.
+01-03 review fixes applied (fixer pass): 30 findings fixed, 1 optional declined; Plain English Translation changed at 1:9, 1:12, 1:19; variants 12 to 18 (new 1:3, 1:10, 1:11, 2:16 second entry, 3:12, 3:22), notes 117 to 118 (new 3:22), new source keys luedemann-chronology, wesley-use-of-law, stern-messianic-manifesto, cofe-general-synod-2014, umc-discipline; check 0 errors, 0 warnings. 04-06 not touched.
 
 Hostile review, fixes and atlas review done 2026-10-29; quote sync across other books done; proposals merged. Ready to publish.
 

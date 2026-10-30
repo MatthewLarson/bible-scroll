@@ -1,10 +1,10 @@
 # Hostile review: Nehemiah 8–13 (part 08-13)
 
-Reviewed: plain.txt (209 verses, each compared with `node tools/literal.js Neh <ch>` and the Leningrad text in texts/orig/Neh.json), notes.json (132), variants.json (13), glosses.json (61), chapters.json (6 chapters, 20 settings cards), topics.json (27 contributions), sources.json (4 keys). Greek 2 Esdras checked at sacred-texts.com/bib/sep/ (es2018, es2020, es2021, es2022, es2023; es2019 could not be loaded, so 9:22 in the Greek is unverified). Quotations checked against the site's Plain of Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, 2 Samuel, 1–2 Kings, 1–2 Chronicles and Ezra. `node tools/build.js --check Neh/08-13` and `--check Neh` both report 0 errors, 0 warnings.
+Reviewed: plain.txt (209 verses, each compared with `node tools/literal.js Neh <ch>` and the Leningrad text in texts/orig/Neh.json), notes.json (132), variants.json (13), glosses.json (61), chapters.json (6 chapters, 20 settings cards), topics.json (27 contributions), sources.json (4 keys). Greek 2 Esdras checked at sacred-texts.com/bib/sep/ (es2018, es2020, es2021, es2022, es2023; es2019 could not be loaded, so 9:22 in the Greek is unverified). Quotations checked against the site's Plain English Translation of Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, 2 Samuel, 1–2 Kings, 1–2 Chronicles and Ezra. `node tools/build.js --check Neh/08-13` and `--check Neh` both report 0 errors, 0 warnings.
 
 ## Verdict
 
-This is a careful, well-sourced part. The translation is close to the Hebrew in all 209 verses. Names in the lists of 10–12 follow the Hebrew of each verse and agree with the site's Ezra 2, 8 and 10 and 1 Chronicles 9 wherever the Hebrew agrees. The English verse numbering (9:38 = Hebrew 10:1) is used consistently. Chapter 9 and 13:1–2 reuse the site's Plain of Exodus 15 and 34, Leviticus 18:5, Deuteronomy 6, 7, 8, 10 and 23 and Numbers 14 almost word for word. Every Talmud and Mishnah citation I was asked to check is real and says roughly what the notes claim. The reform chapters are treated fairly, with named defenders and critics. The problems are in the variants and the settings. The 8:10 entry misreports the Greek: 2 Esdras has no "joy of the LORD." The entries miss the Greek's lack of "and in the days of Nehemiah" at 12:47, which bears directly on the 12:47 note. The Ketiv reading offered at 12:46 produces a garbled verse. The "why" given for following the Qere in names contradicts the policy in book.json. The ten-clause pledge of 10:28–39 has one generic settings card, so it never says whom each clause binds. Neither "Claude's reading" box says where published work overlaps. There are also a few factual slips about the text itself: the claim that God "did not desert" his people at 9:28, "three weeks after the feast," and "forty verses." No critical findings. **8 major, 26 minor.**
+This is a careful, well-sourced part. The translation is close to the Hebrew in all 209 verses. Names in the lists of 10–12 follow the Hebrew of each verse and agree with the site's Ezra 2, 8 and 10 and 1 Chronicles 9 wherever the Hebrew agrees. The English verse numbering (9:38 = Hebrew 10:1) is used consistently. Chapter 9 and 13:1–2 reuse the site's Plain English Translation of Exodus 15 and 34, Leviticus 18:5, Deuteronomy 6, 7, 8, 10 and 23 and Numbers 14 almost word for word. Every Talmud and Mishnah citation I was asked to check is real and says roughly what the notes claim. The reform chapters are treated fairly, with named defenders and critics. The problems are in the variants and the settings. The 8:10 entry misreports the Greek: 2 Esdras has no "joy of the LORD." The entries miss the Greek's lack of "and in the days of Nehemiah" at 12:47, which bears directly on the 12:47 note. The Ketiv reading offered at 12:46 produces a garbled verse. The "why" given for following the Qere in names contradicts the policy in book.json. The ten-clause pledge of 10:28–39 has one generic settings card, so it never says whom each clause binds. Neither "Claude's reading" box says where published work overlaps. There are also a few factual slips about the text itself: the claim that God "did not desert" his people at 9:28, "three weeks after the feast," and "forty verses." No critical findings. **8 major, 26 minor.**
 
 ## Findings
 
@@ -20,7 +20,7 @@ The variant lists "Septuagint, 2 Esdras ... (ὅτι ἐστὶν ἰσχὺς �
 The Ketiv reading's plain, "Asaph was head of the singers," replaces the anchor "there were heads of the singers." The verse then reads "in the days of David and Asaph, Asaph was head of the singers," which says Asaph twice and reproduces neither form of the Hebrew. The Ketiv רֹאשׁ still has "and Asaph" (וְאָסָף) before it, and its natural sense is "in the days of David and Asaph of old there was a chief of the singers." Reading "Asaph was head" needs a further change, dropping the "and." The entry also misses that 2 Esdras 22:46 has the singular, "ἀπ᾽ ἀρχῆς πρῶτος τῶν ᾀδόντων," "from the beginning, first of the singers," which supports the Ketiv. **Fix:** make the Ketiv plain "there was a chief of the singers." Mention the "Asaph was head" reading (with the "and" dropped) in `b` as an emendation, and add the Greek as a witness for the Ketiv.
 
 **4. Major: the variants contradict book.json's stated Qere policy (10:19, 12:14, 12:16).**
-book.json says the Plain follows the Qere "except in names where the written form has other support." The 10:19 and 12:14 "why" fields say instead that the Plain follows the Qere "as the site does for names." At 10:19 the Ketiv Nobai has Greek support (Νωβαι, as the entry itself says). At 12:16 the Ketiv Adaia has Greek support (Αδαι). By the book's own rule both should follow the Ketiv, or the rule needs an exception. **Fix:** either follow the Ketiv at 10:19 and 12:16, or write a "why" that explains the exception (for example, that at 12:16 the list order shows Iddo's house is meant). Ask the book.json owner to reword the policy so the two files agree. The topic contribution ketiv-qere should then match.
+book.json says the Plain English Translation follows the Qere "except in names where the written form has other support." The 10:19 and 12:14 "why" fields say instead that the Plain English Translation follows the Qere "as the site does for names." At 10:19 the Ketiv Nobai has Greek support (Νωβαι, as the entry itself says). At 12:16 the Ketiv Adaia has Greek support (Αδαι). By the book's own rule both should follow the Ketiv, or the rule needs an exception. **Fix:** either follow the Ketiv at 10:19 and 12:16, or write a "why" that explains the exception (for example, that at 12:16 the list order shows Iddo's house is meant). Ask the book.json owner to reword the policy so the two files agree. The topic contribution ketiv-qere should then match.
 
 **5. Major: chapters.json ch 10, settings: one card for the whole pledge of 10:28–39 (item 7: law blocks).**
 The pledge is a block of law with at least seven clauses, but the "10:28–39" card only says the terms "bind every family." STYLE asks, for each law, whom it binds, where and when, and what problem it answers. Here those differ clause by clause:
@@ -66,17 +66,17 @@ Both readings are "Masoretic Text," which is a question of interpretation, and t
 2 Esdras 23:29 reads "ἐπὶ ἀγχιστείᾳ τῆς ἱερατείας," "for the kinship (right of redemption) of the priesthood." The translator read the consonants of גָּאֳלֵי, "defilements," as the root *ga'al* "redeem, act as kinsman" rather than *ga'al* "defile." The sense changes from "how they stained the priesthood" to "the kinship of the priesthood." That fits the marriage of 13:28. **Fix:** add a short entry following the MT. (13:22–31 is otherwise close in the Greek. 13:31 has "our God" for "my God," which needs no entry.)
 
 **12. Minor: there is no note on 12:38, "set off the other way."**
-The Hebrew לְמוֹאל, "opposite, in front," is widely emended to לִשְׂמֹאל, "to the left," to match "to the right" in 12:31. The BSB has "to the left," and the Greek has "συναντῶσα αὐτοῖς," "meeting them." **Fix:** a `deb` word note with the three readings. The Plain's "the other way" is a fair hedge.
+The Hebrew לְמוֹאל, "opposite, in front," is widely emended to לִשְׂמֹאל, "to the left," to match "to the right" in 12:31. The BSB has "to the left," and the Greek has "συναντῶσα αὐτοῖς," "meeting them." **Fix:** a `deb` word note with the three readings. The Plain English Translation's "the other way" is a fair hedge.
 
 **13. Minor: plain.txt 9:22 silently smooths the Hebrew.**
-The Hebrew has "the land of Sihon *and* the land of the king of Heshbon" (וְאֶת־אֶרֶץ). The Plain makes it an apposition, "Sihon's land, the land of the king of Heshbon," which is the ASV/WEB "even" reading. That is defensible: Sihon was king of Heshbon, and the "and" is often taken as a copying slip. But nothing tells the reader. **Fix:** add one line to note 9:22. I could not load 2 Esdras 19 to check whether the Greek has the second "land of"; check it.
+The Hebrew has "the land of Sihon *and* the land of the king of Heshbon" (וְאֶת־אֶרֶץ). The Plain English Translation makes it an apposition, "Sihon's land, the land of the king of Heshbon," which is the ASV/WEB "even" reading. That is defensible: Sihon was king of Heshbon, and the "and" is often taken as a copying slip. But nothing tells the reader. **Fix:** add one line to note 9:22. I could not load 2 Esdras 19 to check whether the Greek has the second "land of"; check it.
 
 **14. Minor: small translation points.**
-- **8:14:** "which the LORD gave by Moses' hand." The Hebrew is צִוָּה, "commanded," as in 8:1, where the Plain has "commanded." Use "commanded" in both.
+- **8:14:** "which the LORD gave by Moses' hand." The Hebrew is צִוָּה, "commanded," as in 8:1, where the Plain English Translation has "commanded." Use "commanded" in both.
 - **10:31:** "The peoples of the land may bring their wares ..." reads as permission. The Hebrew is a conditional relative ("the peoples of the land who bring ... we will not take"). Use "If the peoples of the land bring ...".
 - **13:21:** "I will use force on you" flattens יָד אֶשְׁלַח בָּכֶם, "I will lay a hand on you." Keep the hand, or keep "force" and drop the gloss's "I'll have you arrested," which is more than the text says.
 
-**15. Minor: quotations in chapter 9 differ from the site's Plain where the Hebrew is the same.**
+**15. Minor: quotations in chapter 9 differ from the site's Plain English Translation where the Hebrew is the same.**
 The main echoes match exactly: Exodus 15:5, 10; Exodus 34:6; Leviticus 18:5; Deuteronomy 6:11; 7:9; 8:4; 10:17; 23:3–5; Numbers 14:4. A few smaller ones do not:
 - 9:12 has "you guided them" (from נחה) where Exodus 13:21 has "to lead them." Nehemiah itself has "leading them" at 9:19 for the same verb.
 - 9:26 has "flung ... behind their backs" where 1 Kings 14:9 has "threw behind your back," for the same verb הִשְׁלִיךְ.
@@ -106,7 +106,7 @@ The prose cites Psalm 89:52, Lamentations 2:19 and 2 Chronicles 7:3, which are n
 Deuteronomy 16:13 calls it the Feast of Booths (*sukkot*). **Fix:** "names the Feast of Booths but does not command living in booths."
 
 **22. Minor: notes.json 13:2 implies that Deuteronomy differs.**
-"Nehemiah's 'he hired' is singular" suggests Nehemiah differs from Deuteronomy. Deuteronomy 23:5 (Hebrew) also has the singular אֲשֶׁר שָׂכַר. The site's Deuteronomy Plain supplies "Moab" as subject. **Fix:** "As in Deuteronomy, the verb is singular: Moab, or its king Balak."
+"Nehemiah's 'he hired' is singular" suggests Nehemiah differs from Deuteronomy. Deuteronomy 23:5 (Hebrew) also has the singular אֲשֶׁר שָׂכַר. The site's Deuteronomy Plain English Translation supplies "Moab" as subject. **Fix:** "As in Deuteronomy, the verb is singular: Moab, or its king Balak."
 
 **23. Minor: notes.json 9:37 contradicts the part's account of who prays.**
 The note ends "Nehemiah, the governor, was himself the king's officer: the community's leader prays as a subject." Nehemiah is not mentioned in chapter 9, and the part's own setting card and variant give the prayer to the Levites. **Fix:** drop the sentence, or say "the community's governor was himself the king's officer."
@@ -175,7 +175,7 @@ All findings were fixed at the source (the scratch generators in neh-08-13/ now 
    - 12:14 now follows the Ketiv, Malluchi, which is closer to Malluch of 12:2 and to the Greek Μαλουχ.
    - 12:16 keeps the Qere, Iddo. The "why" explains the exception: the parallel list of 12:4 outweighs the Greek Αδαι.
    - The ketiv-qere topic and PROGRESS were updated to match.
-   - **Proposed book.json wording** (for the owner): replace "the Plain follows the Qere, except in names where the written form has other support;" with "the Plain follows the Qere, except in names where the written form has other support (the Greek or a parallel list), unless a parallel list in the book itself shows the Qere's name is meant (as at 12:16);"
+   - **Proposed book.json wording** (for the owner): replace "the Plain English Translation follows the Qere, except in names where the written form has other support;" with "the Plain English Translation follows the Qere, except in names where the written form has other support (the Greek or a parallel list), unless a parallel list in the book itself shows the Qere's name is meant (as at 12:16);"
 5. The 10:28–39 card was replaced by seven cards:
    - 10:28–29, the oath;
    - 10:30, marriage (fathers; Deuteronomy 7:3);
@@ -197,12 +197,12 @@ All findings were fixed at the source (the scratch generators in neh-08-13/ now 
 11. New 13:29 variant ("kinship of the priesthood"). It also mentions "our God" in 13:31.
 12. New `deb` note at 12:38 on *lemo'l* / *lismo'l* / the Greek "meeting them."
 13. 9:22: the note now explains the "and." I checked 2 Esdras 19:22 myself (blueletterbible): it has "the land of Sihon king of Heshbon," with no second "land of."
-14. Plain:
+14. Plain English Translation:
    - 8:14 "had commanded."
    - 10:31 "If the peoples of the land bring ..."
    - 13:21 keeps "force"; the gloss is now "I'll lay hands on you."
-15. Plain: 9:12 "led"; 9:26 "threw" (note and gloss updated). 9:6 keeps "the heavens of the heavens," which the note explains. I disagree that this needs a terms.json entry: the literal phrase is deliberate here, and I leave the cross-book harmonization to the coordinator.
-16. Plain: 9:38 "we are making a firm agreement and writing it down"; 8:4 "built for the occasion." Both were logged in the drift audit.
+15. Plain English Translation: 9:12 "led"; 9:26 "threw" (note and gloss updated). 9:6 keeps "the heavens of the heavens," which the note explains. I disagree that this needs a terms.json entry: the literal phrase is deliberate here, and I leave the cross-book harmonization to the coordinator.
+16. Plain English Translation: 9:38 "we are making a firm agreement and writing it down"; 8:4 "built for the occasion." Both were logged in the drift audit.
 17. 9:32: "more than twenty verses of history."
 18. 11:17: "two of the three singer families ... Heman's line is not named."
 19. Chapter 10 summary: "Nehemiah the governor and Zedekiah, twenty-one priests, ..."
@@ -223,7 +223,7 @@ All findings were fixed at the source (the scratch generators in neh-08-13/ now 
    - 10:1–27 `to` now describes the sealed archive record.
    - 13:15–22 now mentions the prayer of 13:22.
    - New 11:23 card, with two views (the Persian king or David).
-33. Plain:
+33. Plain English Translation:
    - 10:28–29 split ("As for the rest of the people, ... understand." / "They now stand firmly ...");
    - 13:5 split ("... by command. The priests' contributions were kept there too.");
    - 13:25 split.

@@ -1,6 +1,6 @@
 # Hostile review: Psalms part 119-119 (Psalm 119)
 
-Reviewer's scope: `content/books/Psa/parts/119-119/` (plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json) and the places in `content/books/Psa/book.json` that touch Psalm 119. Checked against `texts/orig/Psa.json` (word by word, with a script that maps every Strong's number for the eight law words to the Plain), `node tools/literal.js Psa 119`, `texts/auto/Psa.json`, the Lake facsimile transcription of Codex Sinaiticus on sourcelibrary.org (pp. 359–363), and a Rahlfs-based LXX text online (bibelkommentare.de, Psalm 118). `node tools/build.js --check Psa/119-119`: 0 errors, 0 warnings.
+Reviewer's scope: `content/books/Psa/parts/119-119/` (plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json) and the places in `content/books/Psa/book.json` that touch Psalm 119. Checked against `texts/orig/Psa.json` (word by word, with a script that maps every Strong's number for the eight law words to the Plain English Translation), `node tools/literal.js Psa 119`, `texts/auto/Psa.json`, the Lake facsimile transcription of Codex Sinaiticus on sourcelibrary.org (pp. 359–363), and a Rahlfs-based LXX text online (bibelkommentare.de, Psalm 118). `node tools/build.js --check Psa/119-119`: 0 errors, 0 warnings.
 
 ## Verdict
 
@@ -45,13 +45,13 @@ The allusion (*dilatato corde... curritur via mandatorum Dei*) is Prologue 49. P
 ### 10. Minor: Job 10:8 does not use "the same words" (notes.json 119:73)
 Job 10:8 has יָדֶיךָ עִצְּבוּנִי וַיַּעֲשׂוּנִי ("molded me and made me"). Psalm 119:73 has עָשׂוּנִי וַיְכוֹנְנוּנִי ("made me and shaped/established me"). Only "your hands ... made me" is shared. The exact pair *'asah* + *kun* is in Deuteronomy 32:6, which the note already cites. Fix: "Job uses nearly the same words..." and point to Deuteronomy 32:6 as the exact match.
 
-### 11. Minor: section headings that disagree with the Plain (plain.txt headings at 119:121 and 119:81)
-- Ayin, "Time for the LORD to Act": the Plain of 119:126 reads "It is time to act for the LORD", and the note says the Plain's wording deliberately allows both readings. The heading picks one of them. Fix: a heading that does not decide the crux, such as "Stand Surety for Your Servant" or "A Time to Act".
+### 11. Minor: section headings that disagree with the Plain English Translation (plain.txt headings at 119:121 and 119:81)
+- Ayin, "Time for the LORD to Act": the Plain English Translation of 119:126 reads "It is time to act for the LORD", and the note says the Plain English Translation's wording deliberately allows both readings. The heading picks one of them. Fix: a heading that does not decide the crux, such as "Stand Surety for Your Servant" or "A Time to Act".
 - Kaf, "A Wineskin in the Smoke": the verse says "skin bottle". Fix: make the two match.
 
-### 12. Minor: Plain wording (plain.txt)
+### 12. Minor: Plain English Translation wording (plain.txt)
 - 119:42 "I will answer the man who mocks me with a word" can be read as the mocker using the word. The Hebrew is "answer my taunter (with) a word". Fix: "I will have a word to answer the one who mocks me".
-- 119:93 "Forever I will not forget" is not idiomatic English. The Plain keeps "Forever" in front only to echo the *lamed*, and the note at 119:1 already admits English cannot keep the pattern. Fix: "I will never forget your orders".
+- 119:93 "Forever I will not forget" is not idiomatic English. The Plain English Translation keeps "Forever" in front only to echo the *lamed*, and the note at 119:1 already admits English cannot keep the pattern. Fix: "I will never forget your orders".
 - 119:14 "I am glad on the way of your decrees": "on" is odd. Fix: "in the way".
 - 119:13 "My lips tell over" is archaic, above the 8th-grade target even with the gloss. Fix: "My lips recount" or "I repeat aloud".
 - 119:83 "hung" is not in the Hebrew ("like a skin in smoke"). It is a fair inference, but the history note already explains it. Fix: drop "hung" or mark it in the note.
@@ -88,7 +88,7 @@ The count of 23 includes 119:84 ("judgment"), 121 ("justice") and 132 ("what is 
 - Every first word in the acrostic table matches the Leningrad Codex.
 - Counts: torah 25, *'edot/'edwot* 23 (14 + 9), *piqqudim* 21, *chuqqim* 22 (21 + *chuqqot* at 16), *mitsvot* 22, *davar* 24, *'imrah* 19, *derekh* 13, *'orach* 5, the 11 "love" verses, and the 9 *chayyeni* verses.
 - The four verses without a law word (3, 37, 90, 122) are counted correctly.
-- Quotations of other books match the site's Plain: 1 Chronicles 29:15, Job 4:15, Job 10:8, Job 32:9, Numbers 6:25, Numbers 18:20, Nehemiah 10:29, Deuteronomy 4:6, 1 Kings 18:21, and Psalm 12:6, 18:30 and 69:9.
+- Quotations of other books match the site's Plain English Translation: 1 Chronicles 29:15, Job 4:15, Job 10:8, Job 32:9, Numbers 6:25, Numbers 18:20, Nehemiah 10:29, Deuteronomy 4:6, 1 Kings 18:21, and Psalm 12:6, 18:30 and 69:9.
 - The torah words are consistent with 19:7–9 (part 018-030) and with *piqqudim* at 111:7 (part 107-118).
 - Talmud and Mishnah citations: Berakhot 3b, 4b, 5a and 40b; Sotah 35a; Gittin 60a; Temurah 14b; Mishnah Berakhot 9:5; Avot 4:1; Bava Batra 14b–15a.
 - Liturgy: Benedict's Rule ch. 16 and 18; the Roman breviary's little hours until 1911; Kathisma 17, *Amomos*, the Midnight Office, Saturday matins, funerals and the Holy Saturday Lamentations; BCP days 24–26; Liturgy of the Hours Daytime Prayer.
@@ -120,7 +120,7 @@ The count of 23 includes 119:84 ("judgment"), 121 ("justice") and 132 ("what is 
 9. **119:28.** Softened to "Later monastic writers"; the preview now says "Some Greek copies and the Latin".
 10. **119:73.** Now: Job uses nearly the same words, and Deuteronomy 32:6 is the exact pair.
 11. **Headings.** Now "Kaf: A Skin Bottle in the Smoke" and "Ayin: Stand Surety for Your Servant", in plain.txt and in the chapter table.
-12. **Plain wording.** Changes:
+12. **Plain English Translation wording.** Changes:
     - 119:42 "And I will have a word to answer the one who mocks me" (the gloss and note anchors were updated);
     - 119:93 "I will never forget your orders";
     - 119:14 "in the way of your decrees";
