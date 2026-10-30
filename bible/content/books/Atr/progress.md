@@ -1,4 +1,4 @@
-Status: reviewed, ready
+Status: reviewed, published
 
 Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md).
 The first book of the "Other peoples and religions" group. Base text: the Akkadian of SEAL's score editions (tools/world-texts.py),
