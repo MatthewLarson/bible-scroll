@@ -626,7 +626,7 @@ function studyPages(bk){
   const all = Object.keys(d.topics || {});
   page('topics', 'All topics', `<div class="cart study">Topic pages</div><h2>Topics in ${name}</h2>
     <p class="lede">Each topic has one page for the whole Bible. Opened from here, it shows what relates to ${name} first.</p>
-    ${['Ideas','People','Places','Events','Symbols','Words','Studies'].map(k => { const ids = all.filter(id => TIDX[id] && TIDX[id][1] === k); return ids.length ? `<h3 style="color:var(--k-${k})">${k}</h3>${topicChips(ids)}` : ''; }).join('')}`);
+    ${Object.keys(TOPIC_KINDS).map(k => { const ids = all.filter(id => TIDX[id] && TIDX[id][1] === k); return ids.length ? `<h3 style="color:var(--k-${k})">${k}</h3>${topicChips(ids)}` : ''; }).join('')}`);
 }
 
 /* ---------- text pages ---------- */
