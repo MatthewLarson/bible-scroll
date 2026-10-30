@@ -71,9 +71,14 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | 3Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
 | Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
+| Atr | reviewed, published | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |
 | Tob | reviewed, published | Outside the 66 (tier dc). Base text Swete: grc = Sinaiticus (longer text), grc_b = Vaticanus (shorter text), KJV apocrypha, Vulgate/Douay (texts/src/Tob.lat.jso |
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
 | 1Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus; Vaticanus lacks Maccabees), KJV apocrypha, Vulgate/Douay. 23 typos in the digital Swete corrected |
 | 2Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |
-| Atr | reviewed, published | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
+| Wis | writing | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-10, 11-15, 16-19; book.json and sources.json by a sep |
+| Bar | writing | Outside the 66 (tier dc). Baruch 1-5 and the Letter of Jeremiah (ch. 6). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-06; bo |
+| Sir | writing | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
+| 1Es | writing | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a |
+| 3Ma | writing | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; |
