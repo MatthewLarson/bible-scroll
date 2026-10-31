@@ -3,10 +3,10 @@
   "v": "1:4",
   "a": "With her hair let down",
   "t": "Her hair, or the wars?",
-  "p": "Swete prints \"with her hair let down\" from Venetus; Alexandrinus itself has \"the wars let loose.\"",
+  "p": "Swete prints \"with her hair let down\"; his footnote says Codex Alexandrinus has \"the wars let loose.\"",
   "readings": [
    {
-    "w": "Swete's printed text (from Codex Venetus), and Rahlfs",
+    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935). Swete's footnote gives no reading of Codex Venetus here",
     "orig": "τοὺς πλοκάμους λελυμένη",
     "en": "having let loose her locks",
     "plain": "With her hair let down"
@@ -19,7 +19,7 @@
    }
   ],
   "follow": 0,
-  "why": "Loosened hair is the sign of a woman in mourning or pleading, and it fits the tears and wailing beside it. \"The wars\" (polemous, a few letters from plokamous) makes no sense with \"let loose\" said of a woman, so Swete corrected Alexandrinus from Venetus.",
+  "why": "Loosened hair is the sign of a woman in mourning or pleading, and it fits the tears and wailing beside it. \"The wars\" (polemous) makes no sense with \"let loose\" said of a woman begging her troops. Here Swete's printed text is not the codex: he did not follow Alexandrinus.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx"
@@ -38,7 +38,7 @@
     "plain": "the faithful God"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton's English (\"the Greatest God\")",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935); Brenton's English (\"the Greatest God\")",
     "orig": "τῷ μεγίστῳ θεῷ",
     "en": "to the greatest God",
     "plain": "the Most Great God"
@@ -49,23 +49,23 @@
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851"
   ]
  },
  {
   "v": "1:9",
-  "a": "devotion",
-  "t": "Devotion or splendor?",
-  "p": "Alexandrinus says the king was struck by the place's devotion; Venetus and Rahlfs say by its splendor.",
+  "a": "godliness",
+  "t": "Godliness or splendor?",
+  "p": "Alexandrinus says the king was struck by the place's godliness; Venetus and Rahlfs say by its splendor.",
   "readings": [
    {
     "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
     "orig": "σπουδαιότητι καὶ εὐσεβείᾳ",
     "en": "by the earnestness and piety",
-    "plain": "devotion"
+    "plain": "godliness"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935)",
     "orig": "σπουδαιότητι καὶ εὐπρεπείᾳ",
     "en": "by the earnestness and beauty",
     "plain": "beauty"
@@ -91,23 +91,24 @@
     "plain": "No Gentile may go in"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (\"of the nation\"); Rahlfs's edition of the Septuagint (1935), read in its digital text (adds \"is allowed\"); Brenton (\"none of the nation\")",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (\"of the nation\"); Rahlfs's edition of the Septuagint (1935) (adds \"is allowed\"); Brenton (\"none of the nation\"); Emmet's translation (1913) follows it",
     "orig": "μηδὲ τοῖς ἐκ τοῦ ἔθνους ἐξεῖναι εἰσιέναι",
     "en": "because not even those of the nation are allowed to enter",
     "plain": "No one of our nation may go in"
    }
   ],
   "follow": 0,
-  "why": "The Plain keeps the base text, but the other reading may well be older: the point of the answer is that even most Jews, and most priests, may not enter, so how much less a Gentile king. In Alexandrinus the steps run Gentiles, then priests, then the high priest.",
+  "why": "The Plain keeps the base text, but the other reading may well be older: on that reading the answer is that not even Jews, and not all the priests, may enter, so how much less a Gentile king. In Alexandrinus the steps run Gentiles, then priests, then the high priest.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851",
+   "emmet-3macc-apot1913"
   ]
  },
  {
   "v": "1:15",
-  "a": "what reason is there that I should not enter all of them",
+  "a": "why should I not go into every shrine",
   "t": "\"Enter all of them\" or \"enter anyway\"?",
   "p": "Swete's Greek has \"of all\"; Rahlfs reads \"by all means,\" one letter different.",
   "readings": [
@@ -115,20 +116,21 @@
     "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete (Codex Venetus has a third form, pantes, all people, from Swete's footnotes)",
     "orig": "διὰ τίνα αἰτίαν οὐχὶ πάντων εἰσελεύσεσθαι",
     "en": "for what reason (should I) not enter of all",
-    "plain": "what reason is there that I should not enter all of them"
+    "plain": "why should I not go into every shrine"
    },
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Rahlfs's edition of the Septuagint (1935); Emmet's translation (1913, \"why should I not enter in any case\")",
     "orig": "διά τινα αἰτίαν οὐχὶ πάντως εἰσελεύσεσθαι",
     "en": "for what reason (should I) not by all means enter",
-    "plain": "what reason is there that I should not go in anyway"
+    "plain": "why should I not go in anyway"
    }
   ],
   "follow": 0,
-  "why": "Pantōn (\"of all\") and pantōs (\"by all means\") differ by one letter. Swete's text is awkward Greek, which may be why Rahlfs corrected it; the king's point is the same: no one will stop him.",
+  "why": "Pantōn (\"of all\") and pantōs (\"by all means\") differ by one letter. Swete's text is awkward Greek, and the Plain makes \"all\" refer to the shrines of 1:13. The king's point is the same either way: no one will stop him.",
   "s": [
    "swete-lxx",
-   "rahlfs-lxx"
+   "rahlfs-lxx",
+   "emmet-3macc-apot1913"
   ]
  },
  {
@@ -144,44 +146,45 @@
     "plain": "They even made the streets full of groaning"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935); Emmet's apparatus (1913) adds cursives 44, 55, 74 and the Armenian",
     "orig": "γόου τε καὶ στεναγμῶν ἐνεπίμπλων τὰς πλατείας",
     "en": "and they filled the streets with wailing and groans",
     "plain": "They made the streets full of wailing and groaning"
    }
   ],
   "follow": 0,
-  "why": "The two readings look alike in Greek capitals (POUGE, GOOUTE). Venetus's \"wailing\" pairs well with \"groans\" and is probably right, but the base text is readable, so the Plain keeps it.",
+  "why": "Venetus's \"wailing\" pairs well with \"groans,\" and Emmet's apparatus shows it in more witnesses, but the base text is readable, so the Plain keeps it.",
   "s": [
    "swete-lxx",
-   "rahlfs-lxx"
+   "rahlfs-lxx",
+   "emmet-3macc-apot1913"
   ]
  },
  {
   "v": "1:19",
-  "a": "deserted the wedding rooms prepared for them",
-  "t": "Wedding rooms, or \"everything\"?",
-  "p": "Swete's text has no noun here; Rahlfs prints \"the bridal chambers prepared for the wedding procession.\" The Plain follows Rahlfs.",
+  "a": "left behind the bridal rooms made ready for the wedding",
+  "t": "Bridal rooms, or \"everything\"?",
+  "p": "Alexandrinus and Venetus have no noun here; Rahlfs and Emmet print \"the bridal chambers made ready for the meeting.\" The Plain follows them.",
   "readings": [
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"left their bridal chambers\")",
+    "w": "Rahlfs's edition of the Septuagint (1935); C. W. Emmet's text (1913), which defends the noun from the parallel in 4:6",
     "orig": "τοὺς πρὸς ἀπάντησιν διατεταγμένους παστοὺς",
-    "en": "the bridal chambers prepared for the meeting",
-    "plain": "deserted the wedding rooms prepared for them"
+    "en": "the bridal chambers made ready for the meeting",
+    "plain": "left behind the bridal rooms made ready for the wedding"
    },
    {
-    "w": "Swete's printed text (A, with Swete's spelling of the last word; Swete's footnotes give no other word for V)",
+    "w": "Codex Alexandrinus and Codex Venetus, and cursive 55, from Emmet's apparatus; Swete prints this reading, but his footnote shows that Alexandrinus itself ends the last word in the feminine singular (δια- τεταγμενην (sic) A), so his masculine plural is his own correction",
     "orig": "τοὺς πρὸς ἅπαν νῦν διατεταγμένους",
-    "en": "those (masculine) now arranged for everything",
-    "plain": "left behind all that had been arranged for them"
+    "en": "those (masculine) now made ready for everything",
+    "plain": "left behind everything now made ready"
    }
   ],
   "follow": 0,
-  "why": "In Swete's Greek the article \"those\" is masculine but has no noun to go with it, which suggests a word has dropped out. Rahlfs's text supplies it (pastous, \"bridal chambers\") and reads \"for the meeting\" (the wedding procession) where Swete has \"for everything now.\" This is a departure from the base text.",
+  "why": "In Swete's Greek the article \"those\" is masculine but has no noun with it, which suggests a word has dropped out. Emmet notes that the bridal room of 4:6 confirms pastous, and that Alexandrinus's feminine ending suggests apantēsin (\"meeting\") stood in the original. This is a departure from the base text.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "emmet-3macc-apot1913"
   ]
  },
  {
@@ -191,7 +194,7 @@
   "p": "Venetus and Rahlfs add \"in the city\"; Alexandrinus says only that they ran in disorder. Goes with the variant before it.",
   "readings": [
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935)",
     "orig": "δρόμον ἄτακτον ἐν τῇ πόλει",
     "en": "a disorderly race in the city",
     "plain": "all over the city"
@@ -223,7 +226,7 @@
     "plain": "by their fathers' law"
    },
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Rahlfs's edition of the Septuagint (1935)",
     "orig": "ὑπὲρ τοῦ πατρῴου νόμου",
     "en": "on behalf of the ancestral law",
     "plain": "for their fathers' law"
@@ -238,30 +241,64 @@
  },
  {
   "v": "2:1",
-  "a": "Then Simon the high priest knelt down facing the sanctuary. He stretched out his hands in the proper way and prayed like this:",
-  "t": "A verse missing from Alexandrinus",
-  "p": "Swete's text, from Alexandrinus, has no verse 2:1, so Simon's prayer begins with no speaker. Rahlfs's text and Brenton have it.",
+  "a": "So the high priest Simon knelt down, facing the sanctuary. He held his hands out in an orderly way and prayed like this:",
+  "t": "A verse not in Alexandrinus or Venetus",
+  "p": "Swete's text, Alexandrinus and Venetus have no verse 2:1; the Lucianic text has it. The Plain gives it in brackets.",
   "readings": [
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton's English has the same verse",
+    "w": "The Lucianic text (NETS's introduction; Emmet names cursives 19, 62, 64, 93 as Lucianic); Rahlfs's edition of the Septuagint (1935). NETS keeps it in square brackets; Brenton's English has it",
     "orig": "ὁ μὲν οὖν ἀρχιερεὺς Σιμων ἐξ ἐναντίας τοῦ ναοῦ κάμψας τὰ γόνατα καὶ τὰς χεῖρας προτείνας εὐτάκτως ἐποιήσατο τὴν δέησιν τοιαύτην",
     "en": "So the high priest Simon, facing the sanctuary, bending his knees and stretching out his hands in good order, made a prayer like this",
-    "plain": "Then Simon the high priest knelt down facing the sanctuary. He stretched out his hands in the proper way and prayed like this:"
+    "plain": "So the high priest Simon knelt down, facing the sanctuary. He held his hands out in an orderly way and prayed like this:"
    },
    {
-    "w": "Swete's printed text (Codex Alexandrinus); Swete's footnotes say nothing at 2:1",
+    "w": "Codex Alexandrinus and Codex Venetus (NETS's introduction; Emmet's apparatus adds cursives 55 and 71); Swete's printed text, whose footnotes say nothing at 2:1; Hanhart's Göttingen edition (1980) leaves it out, as NETS's footnote says",
     "orig": "(no verse)",
     "en": "(no verse)",
     "plain": ""
+   },
+   {
+    "w": "Cursives 44 and 74, from Emmet's apparatus",
+    "orig": "καὶ εἶπον ὁμοθυμαδόν",
+    "en": "and they said with one accord",
+    "plain": "And they said together:"
    }
   ],
   "follow": 0,
-  "why": "Without the verse the prayer of 2:2-20 has no speaker, and 2:21 speaks of \"the prayer\" as if someone had been named. So the Plain translates the verse from Rahlfs's Greek.",
-  "b": "Swete's printed page, the digital copies of it, and his footnotes all skip 2:1 (the texts file marks it as a gap). Brenton's English (1844) has the verse: \"Now was it that the high priest Simon bowed his knees over against the holy place\" and prayed.",
+  "why": "The textual evidence is against the verse: it is missing from both great codices, and NETS's translator, Cameron Boyd-Taylor, says it \"is most readily explained as an addition.\" But without it the prayer of 2:2-20 has no speaker, and 2:21 speaks of \"the prayer\" as offered rightly. Boyd-Taylor kept it for that literary reason, in square brackets, and the Plain does the same.",
+  "b": "Emmet's apparatus also reports that the Armenian version has \"they began to pray and said.\" The Greek here is quoted from Rahlfs's edition. The Plain's brackets mark a verse that is not in the base text.",
+  "s": [
+   "nets-3macc",
+   "emmet-3macc-apot1913",
+   "rahlfs-lxx",
+   "swete-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "daring and power",
+  "t": "Power, or weakness?",
+  "p": "Alexandrinus has \"weakness\" where Swete prints \"power\"; Swete corrected the codex.",
+  "readings": [
+   {
+    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935)",
+    "orig": "θράσει καὶ σθένει",
+    "en": "with boldness and strength",
+    "plain": "daring and power"
+   },
+   {
+    "w": "Codex Alexandrinus, from Swete's footnote (\"σθενει] ασθενει (sic) A\")",
+    "orig": "θράσει καὶ ἀσθενεῖ",
+    "en": "with boldness and weakness",
+    "plain": "daring and weakness"
+   }
+  ],
+  "follow": 0,
+  "why": "Asthenei (\"weakness\") is one letter longer than sthenei (\"strength\") and makes no sense of a proud king. Here Swete's printed text is not the codex.",
   "s": [
    "swete-lxx",
-   "rahlfs-lxx",
-   "brenton-lxx"
+   "rahlfs-lxx"
   ]
  },
  {
@@ -271,7 +308,7 @@
   "p": "Alexandrinus says the Sodomites became \"unseen\" in their wickedness; Venetus and Rahlfs say \"conspicuous.\" The Plain follows Venetus.",
   "readings": [
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (as far as the page can be read); Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"notorious\")",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (\"διαδηλους V vid,\" that is, as far as the page can be read); Rahlfs's edition of the Septuagint (1935); Emmet's translation (1913, \"known of all\"); Brenton (\"notorious\")",
     "orig": "διαδήλους ταῖς κακίαις γενομένους",
     "en": "having become conspicuous in their vices",
     "plain": "their wicked ways were plain for all to see"
@@ -288,7 +325,8 @@
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "emmet-3macc-apot1913",
+   "brenton-1851"
   ]
  },
  {
@@ -298,7 +336,7 @@
   "p": "Venetus lacks the words \"your power ... you made known,\" so its Pharaoh line says it once.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete; Rahlfs's edition of the Septuagint (1935); Emmet's apparatus adds the Armenian and most cursives",
     "orig": "ἐγνώρισας τὴν σὴν δύναμιν, ἐφ᾽ αἷς ἐγνώρισας τὸ μέγα σου κράτος",
     "en": "you made known your power, by which you made known your great might",
     "plain": "made your power known. By them you made your great might known."
@@ -311,11 +349,12 @@
    }
   ],
   "follow": 0,
-  "why": "Venetus's copyist probably skipped from the first \"you made known\" to the second, an easy slip. The doubled line is the harder text and is kept.",
+  "why": "Venetus's copyist may have skipped from the first \"you made known\" to the second. Emmet (1913) took the longer text instead as a probable conflation of two readings. The Plain keeps the base text.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851",
+   "emmet-3macc-apot1913"
   ]
  },
  {
@@ -331,7 +370,7 @@
     "plain": "our place"
    },
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"this house\")",
+    "w": "Rahlfs's edition of the Septuagint (1935); Brenton (\"this house\")",
     "orig": "εἰς τὸν τόπον τοῦτον",
     "en": "into this place",
     "plain": "this place"
@@ -342,7 +381,33 @@
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "come quickly to meet us",
+  "t": "\"To meet us\"",
+  "p": "Swete's Greek has no \"us\"; Rahlfs and the Greek of Psalm 78:8, which this line quotes, have it.",
+  "readings": [
+   {
+    "w": "Rahlfs's edition of the Septuagint (1935); the Septuagint of Psalm 78:8 (Psalm 79:8 in English), as printed by Swete",
+    "orig": "ταχὺ προκαταλαβέτωσαν ἡμᾶς οἱ οἰκτιρμοί σου",
+    "en": "let your mercies quickly come to meet us",
+    "plain": "come quickly to meet us"
+   },
+   {
+    "w": "Swete's printed text (Codex Alexandrinus); Swete's footnotes give no other reading of V here",
+    "orig": "ταχὺ προκαταλαβέτωσαν οἱ οἰκτιρμοί σου",
+    "en": "let your mercies be quick to come first",
+    "plain": "be quick to come first"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb needs an object in English, and the line is a quotation of Psalm 78:8 in the Septuagint, which has \"us.\" This is a small departure from the base text.",
+  "s": [
+   "rahlfs-lxx",
+   "swete-lxx"
   ]
  },
  {
@@ -352,7 +417,7 @@
   "p": "Alexandrinus and Venetus both say \"others\"; Swete and Rahlfs print \"companions,\" a one-letter change.",
   "readings": [
    {
-    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935)",
     "orig": "ἑταίρων",
     "en": "companions",
     "plain": "companions"
@@ -365,37 +430,120 @@
    }
   ],
   "follow": 0,
-  "why": "Hetairōn (\"companions\") and heterōn (\"others\") sounded alike when the Greek was copied. \"Drinking partners and companions\" is a natural pair; \"drinking partners and others\" is weak. Here Swete's printed text is not the codex: he corrected both manuscripts.",
+  "why": "Hetairōn (\"companions\") and heterōn (\"others\") differ by one letter. \"Drinking partners and companions\" is a natural pair; \"drinking partners and others\" is weak. Here Swete's printed text is not the codex: he corrected both manuscripts.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx"
   ]
  },
  {
-  "v": "3:4",
-  "a": "some of them came to be seen as hateful",
-  "t": "Some seemed hateful, or seemed hateful to some?",
-  "p": "Swete's text says \"some appeared hateful\"; Rahlfs reads \"they appeared hateful to some.\"",
+  "v": "2:29",
+  "a": "the mark of Dionysus, an ivy leaf",
+  "t": "Swete's text: \"of Dionysus\" or \"for Dionysus\"",
+  "p": "Both codices have \"for Dionysus\" (dative); Swete prints \"of Dionysus\" (genitive).",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete (V agrees, as far as Swete's footnotes show)",
-    "orig": "ἔνιοι ἀπεχθεῖς ἐφαίνοντο",
-    "en": "some appeared hateful",
-    "plain": "some of them came to be seen as hateful"
+    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935)",
+    "orig": "παρασήμῳ Διονύσου κισσοφύλλῳ",
+    "en": "with the ivy-leaf emblem of Dionysus",
+    "plain": "the mark of Dionysus, an ivy leaf"
    },
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"some persons held them in odium\")",
-    "orig": "ἐνίοις ἀπεχθεῖς ἐφαίνοντο",
-    "en": "they appeared hateful to some",
-    "plain": "some people came to see them as hateful"
+    "w": "Codex Alexandrinus and Codex Venetus, from Swete's footnote (\"Διονυσω AV\")",
+    "orig": "παρασήμῳ Διονύσῳ κισσοφύλλῳ",
+    "en": "with an ivy-leaf emblem for Dionysus",
+    "plain": "a mark for Dionysus, an ivy leaf"
    }
   ],
   "follow": 0,
-  "why": "The two differ by one letter (enioi, eniois). Rahlfs's reading fits the next verse better (\"everyone thought well of them\"), since it limits the hatred to a few outsiders; the base text is kept and can mean the same thing loosely.",
+  "why": "Swete's genitive is his own correction of both codices. The meaning hardly changes: the brand is the god's emblem either way, and the Plain's wording would fit both.",
+  "b": "Swete's footnotes record more in this verse. Venetus seems to read \"and Sophyllus\" for \"ivy leaf\" (\"κισσοφυλλω] και Σοφυλλω Vvid\"), a copying slip. For \"to be listed\" Swete prints <i>prokatachōrisai</i> (\"to be listed beforehand\"), as Alexandrinus has; Venetus has <i>katachōrēsai</i> (\"προκαταχωρισαι] καταχωρησαι V\"), and Rahlfs prints <i>katachōrisai</i>, \"to be listed,\" without \"beforehand.\" The Plain's \"already set\" belongs to the next word, which all of them share.",
+  "s": [
+   "swete-lxx",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "2:31",
+  "a": "Some gave themselves up readily and lightly",
+  "t": "\"Lightly,\" or \"over the city\"?",
+  "p": "Venetus first wrote \"over the city\"; its corrector and Swete have \"lightly.\" Brenton follows the first.",
+  "readings": [
+   {
+    "w": "Swete's printed text; the corrector of Codex Venetus; Codex Alexandrinus in another spelling (\"επιπολειως A\"); Rahlfs's edition of the Septuagint (1935)",
+    "orig": "Ἔνιοι μὲν ἐπιπολαίως",
+    "en": "some, lightly (or superficially)",
+    "plain": "Some gave themselves up readily and lightly"
+   },
+   {
+    "w": "The first hand of Codex Venetus, from Swete's footnote (\"επι πολεως V* (επιπολαιως Vᵃ)\"); Brenton (\"Some of those who were over the city\")",
+    "orig": "Ἔνιοι μὲν ἐπὶ πόλεως",
+    "en": "some over the city",
+    "plain": "Some of those over the city gave themselves up readily"
+   }
+  ],
+  "follow": 0,
+  "why": "Epipolaiōs (\"on the surface, lightly\") and epi poleōs (\"over the city\") sound almost the same. Emmet (1913) keeps \"lightly\" as the best attested reading and takes it as \"obviously.\" See the note on the next words.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851",
+   "emmet-3macc-apot1913"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "some people found them hateful",
+  "t": "Hateful to some, or some hateful?",
+  "p": "Emmet and Rahlfs read \"they seemed hateful to some\"; Alexandrinus, which Swete prints, says \"some seemed hateful.\" The Plain follows the first.",
+  "readings": [
+   {
+    "w": "C. W. Emmet's text (1913) and Rahlfs's edition of the Septuagint (1935); Brenton (\"some persons held them in odium\")",
+    "orig": "ἐνίοις ἀπεχθεῖς ἐφαίνοντο",
+    "en": "they appeared hateful to some",
+    "plain": "some people found them hateful"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), printed by Swete; Emmet's apparatus names A for this reading, and Swete's footnotes give no other reading of V",
+    "orig": "ἔνιοι ἀπεχθεῖς ἐφαίνοντο",
+    "en": "some (of them) appeared hateful",
+    "plain": "some of them came to be seen as hateful"
+   }
+  ],
+  "follow": 0,
+  "why": "The two differ by one letter (enioi, eniois), but the subject changes. On Alexandrinus's reading the narrator says some Jews were hateful and then at once that everyone thought well of them (3:5-6). The dative limits the hatred to some outsiders, which is what the next verses say. This is a departure from the base text.",
+  "s": [
+   "swete-lxx",
+   "emmet-3macc-apot1913",
+   "rahlfs-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "in the matter of food",
+  "t": "Swete's text: food, or ruin?",
+  "p": "Alexandrinus has a word meaning \"ruin\"; Swete prints \"in the matter of food,\" as Venetus has.",
+  "readings": [
+   {
+    "w": "Swete's printed text; Codex Venetus and cursives 62 and 64, from Emmet's apparatus; Rahlfs's edition of the Septuagint (1935)",
+    "orig": "ἐπὶ τῷ κατὰ τὰς τροφάς",
+    "en": "in the matter of food",
+    "plain": "in the matter of food"
+   },
+   {
+    "w": "Codex Alexandrinus, from Swete's footnote (\"καταστροφας A\") and Emmet's apparatus",
+    "orig": "ἐπὶ τῷ καταστροφάς",
+    "en": "(on account of) overthrow",
+    "plain": "over ruin"
+   }
+  ],
+  "follow": 0,
+  "why": "Kata tas trophas (\"as to foods\") and katastrophas (\"overthrow\") are the same letters run together. Only \"food\" makes sense with 3:7, where the Jews keep apart in worship and food. Here Swete's printed text is not the codex.",
+  "s": [
+   "swete-lxx",
+   "emmet-3macc-apot1913",
+   "rahlfs-lxx"
   ]
  },
  {
@@ -411,7 +559,7 @@
     "plain": "no small fear"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"much odium\")",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes; Rahlfs's edition of the Septuagint (1935); Emmet (\"no small opprobrium\"); Brenton (\"much odium\")",
     "orig": "οὐ τῷ τυχόντι περιῆψαν ψόγῳ",
     "en": "they attached no ordinary blame",
     "plain": "no small blame"
@@ -422,7 +570,8 @@
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851",
+   "emmet-3macc-apot1913"
   ]
  },
  {
@@ -432,7 +581,7 @@
   "p": "Both codices read a phrase that makes no sense here; Swete and Rahlfs print \"gladly.\"",
   "readings": [
    {
-    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935), read in its digital text",
+    "w": "Swete's printed text; Rahlfs's edition of the Septuagint (1935)",
     "orig": "εὖ ποιήσαντες ἀσμένως",
     "en": "doing good gladly",
     "plain": "we were glad to be good to them"
@@ -445,7 +594,33 @@
    }
   ],
   "follow": 0,
-  "why": "Asmenōs (\"gladly\") lost its first letters in both manuscripts, leaving men hōs (\"indeed as\"), which breaks the sentence. Swete's printed text is not the codex here.",
+  "why": "Asmenōs (\"gladly\") makes sense; men hōs (\"indeed as\") breaks the sentence, and the two share most of their letters. Swete's printed text is not the codex here.",
+  "s": [
+   "swete-lxx",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "We were also led up to Jerusalem",
+  "t": "\"Led up\" or \"moved\"?",
+  "p": "Venetus and Rahlfs have a verb meaning \"we were moved\" (to go up); Alexandrinus has \"we were brought.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "προσήχθημεν",
+    "en": "we were brought (there)",
+    "plain": "We were also led up to Jerusalem"
+   },
+   {
+    "w": "Codex Venetus, from Swete's footnote (\"προηχθημεν V\"); Rahlfs's edition of the Septuagint (1935)",
+    "orig": "προήχθημεν",
+    "en": "we were moved, induced",
+    "plain": "We were also moved to go up to Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The verbs differ by one letter. Either way the king presents his visit as an act of honor; the Plain keeps the base text.",
   "s": [
    "swete-lxx",
    "rahlfs-lxx"
@@ -464,13 +639,13 @@
     "plain": "to make them partners with our priests for all time"
    },
    {
-    "w": "Rahlfs's edition of the Septuagint (1935), read in its digital text; Brenton (\"the everlasting rites of our solemnities\")",
+    "w": "Rahlfs's edition of the Septuagint (1935); Emmet reports that earlier editors translate \"eternal religious rites\"; Brenton (\"the everlasting rites of our solemnities\")",
     "orig": "μετόχους τῶν ἀεὶ ἱερῶν",
     "en": "sharers in the perpetual rites",
     "plain": "to make them sharers in our rites for all time"
    },
    {
-    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (\"om και μετοχους…καταστησαι V\")",
+    "w": "Codex Venetus (V, 700s–800s AD), from Swete's footnotes (\"om και μετοχους…καταστησαι V\"); Emmet's apparatus adds cursives 62 and 64 and the Armenian",
     "orig": "(no words)",
     "en": "(no words)",
     "plain": ""
@@ -481,7 +656,60 @@
   "s": [
    "swete-lxx",
    "rahlfs-lxx",
-   "brenton-lxx"
+   "brenton-1851",
+   "emmet-3macc-apot1913"
+  ]
+ },
+ {
+  "v": "3:27",
+  "a": "the most loathsome tortures",
+  "t": "Most hateful or most shameful?",
+  "p": "Alexandrinus says \"most hateful\" tortures; Venetus and Rahlfs say \"most shameful.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐχθίσταις βασάνοις",
+    "en": "with most hateful tortures",
+    "plain": "the most loathsome tortures"
+   },
+   {
+    "w": "Codex Venetus, from Swete's footnote (\"εχθισταις] αισχισταις V\"); Rahlfs's edition of the Septuagint (1935)",
+    "orig": "αἰσχίσταις βασάνοις",
+    "en": "with most shameful tortures",
+    "plain": "the most shameful tortures"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words look much alike. Both make the same threat; the Plain keeps the base text.",
+  "s": [
+   "swete-lxx",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "3:28",
+  "a": "out of the royal treasury",
+  "t": "The royal treasury or the royal silver",
+  "p": "Venetus and Rahlfs say \"from the royal silver\"; Alexandrinus says \"from the royal (treasury).\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete",
+    "orig": "ἐκ τοῦ βασιλείου",
+    "en": "from the royal (treasury)",
+    "plain": "out of the royal treasury"
+   },
+   {
+    "w": "Codex Venetus, from Swete's footnote (\"βασιλειον] βασιλικου αργυριου V\"); Rahlfs's edition of the Septuagint (1935)",
+    "orig": "ἐκ τοῦ βασιλικοῦ ἀργυρίου",
+    "en": "from the royal silver",
+    "plain": "out of the royal silver"
+   }
+  ],
+  "follow": 0,
+  "why": "The sense is the same: the king pays the informer from his own funds. The Plain keeps the base text.",
+  "s": [
+   "swete-lxx",
+   "rahlfs-lxx"
   ]
  }
 ]
