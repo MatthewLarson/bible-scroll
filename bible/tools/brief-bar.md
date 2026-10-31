@@ -10,6 +10,9 @@ Parts (both write at the same time and cannot see each other):
 - 06-06 (72 vv): the Letter of Jeremiah, against the idols of Babylon.
 - book.json and `content/books/Bar/sources.json` (book-wide keys): a separate book-level writer, who covers BOTH works.
 
+## Numbering (lead decision, 2026-10-31)
+The site numbers this book as Swete's Greek does (texts/orig, the catalog). The KJV divides some chapters differently; texts/en shows each KJV line beside the Greek verse that holds it, marked "[KJV c:v]". **Verse ranges in this brief were written in KJV numbers: find each place by its content and cite Swete's numbers.** Never cite a KJV number as this book's verse.
+
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). Build every verse from the
   Greek in `texts/orig/Bar.json` (Swete, Codex Vaticanus) with a literal working line in `.scratch/bar-<part>/`, then
