@@ -59,7 +59,7 @@ None. The nearest case is finding 1, which I rate major because the Greek is a r
    - 8:10: Greek "Do not fan the coals of a sinner into flame" against Hebrew "Do not profit through the possessions of the wicked lest you be burned in the flame of his fire" (3r:18). No note, no variant.
    - 9:7: Hebrew "Your eyes will make a fool of you over a beautiful woman and your house will become desolate" (3v:5) against the Greek street scene. No note, no variant.
    - 7:9 and 7:16-17: the Greek 7:9 ("He will notice how many gifts I bring") has no counterpart in MS A at that point, and the Hebrew of 7:17b is "Do not be hasty to say 'for a breakthrough'..." (2v:20). Say so.
-   - 12:5-7: MS A reads 12:7 with a word in the place of the Greek "to the ungodly"; Kahana prints `לְזֵר` "stranger", MS A 5r:6 shows its letters as uncertain. A note on the ambiguity is needed if the "kele lechem" note stays.
+   - 12:7 (Kahana 12:7, MS A 5r:6): the last word of the Hebrew line is where the Greek has "the ungodly"; Kahana prints `לְזֵר`, "stranger", while MS A's transcription shows two uncertain letters there (`לז֯ד֯` in Abegg's dotting, which is zayin and dalet, as at 10:22). Put this beside the "kele lechem" note at 12:5, since both are doubtful words in the same advice.
    - Also 10:14 (Hebrew "the thrones of the proud", MS A 4r:3, against Greek "thrones of rulers", with Fritzsche's `ἀρχόντων ὑπερηφάνων H. Vet. Lat.`) and 10:20 (MS A reads "and he will see God with [his ey]es" at 4r:7, in a damaged line; Kahana prints `וִירֵא אֱלֹהִים בְּעַמּוֹ`).
    - Fix: add variant entries for the first four at least, with MS A cited, and fix the H view of chapter 7.
 
