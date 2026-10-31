@@ -1,0 +1,89 @@
+{
+ "title": "Sirach",
+ "subtitle": "The wisdom of Jesus son of Sirach",
+ "lead": [
+  "Sirach is a long book of wisdom written in Hebrew in Jerusalem by a teacher named Jesus son of Sirach, and translated into Greek by his grandson in Egypt."
+ ],
+ "facts": [
+  [
+   "Language",
+   "Hebrew, translated into Greek"
+  ],
+  [
+   "Length",
+   "51 chapters and a prologue"
+  ]
+ ],
+ "audience": {
+  "to": "Young men studying with a Jerusalem teacher in the early 100s BC.",
+  "why": "To teach them to live by the fear of the Lord and the law of Moses."
+ },
+ "lenses": [
+  {
+   "k": "C",
+   "name": "Catholic",
+   "desc": "The Catholic Church counts Sirach (Ecclesiasticus) among the deuterocanonical books of the Old Testament and reads it often in the liturgy."
+  },
+  {
+   "k": "O",
+   "name": "Orthodox",
+   "desc": "The Eastern Orthodox churches read Sirach in their Old Testament from the Septuagint, in the Greek order of chapters."
+  },
+  {
+   "k": "P",
+   "name": "Protestant",
+   "desc": "Protestants place Sirach among the Apocrypha: read for example of life by Anglicans and Lutherans, given no authority by Reformed churches."
+  },
+  {
+   "k": "H",
+   "name": "Historical-critical",
+   "desc": "Scholars read Sirach as the work of a Jerusalem scribe, Jesus son of Sirach, written in Hebrew in the early 100s BC and translated into Greek by his grandson in Egypt."
+  },
+  {
+   "k": "J",
+   "name": "Jewish reception",
+   "desc": "Sirach is not in the Jewish Bible, but the rabbis quoted it, and its Hebrew was copied by Jews into the Middle Ages, as the Cairo Genizah showed."
+  }
+ ],
+ "canon": {
+  "tier": "dc",
+  "work": "sirach",
+  "summary": "Sirach is in the Old Testament of Catholic and Orthodox Bibles. Protestant churches place it among the Apocrypha, and it is not in the Jewish Bible.",
+  "accepted_by": [
+   [
+    "Catholic Church",
+    "Scripture, among the deuterocanonical books"
+   ],
+   [
+    "Eastern Orthodox churches",
+    "Read in the Septuagint Old Testament"
+   ],
+   [
+    "Protestant churches",
+    "Among the Apocrypha, not Scripture"
+   ]
+  ],
+  "provenance": [
+   {
+    "h": "Who wrote it",
+    "b": "<p>A Jerusalem teacher, Jesus son of Sirach, wrote it in Hebrew; his grandson translated it into Greek.</p>"
+   }
+  ],
+  "rejected_why": [
+   {
+    "h": "Not in the Jewish Bible",
+    "b": "<p>The book is not among the books of the Hebrew Bible.</p>"
+   }
+  ],
+  "cited_in": [],
+  "reliability": {
+   "verdict": "Draft in progress."
+  },
+  "how_to_read": [
+   {
+    "h": "A book of wisdom",
+    "b": "<p>Read it as a teacher's collected instruction.</p>"
+   }
+  ]
+ }
+}
