@@ -806,16 +806,16 @@
   "v": "36:9",
   "a": "eight years old",
   "t": "Eight or eighteen?",
-  "p": "Chronicles' Hebrew says Jehoiachin was eight. Kings, Rahlfs' Greek and 1 Esdras say eighteen.",
+  "p": "Chronicles' Hebrew says Jehoiachin was eight. Kings, Rahlfs' Greek and Codex Alexandrinus of 1 Esdras say eighteen.",
   "readings": [
    {
-    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Vaticanus (Brenton: 'eight')",
+    "w": "Masoretic Text (Leningrad Codex, AD 1008); Codex Vaticanus (Brenton: 'eight'); Codex Vaticanus of 1 Esdras 1:41 (Swete)",
     "orig": "בֶּן־שְׁמוֹנֶה שָׁנִים",
     "en": "eight years old",
     "plain": "eight years old"
    },
    {
-    "w": "2 Kings 24:8; Septuagint (Rahlfs, with Alexandrinus and the Lucianic manuscripts); Syriac; 1 Esdras 1:41; some Hebrew manuscripts",
+    "w": "2 Kings 24:8; Septuagint (Rahlfs, with Alexandrinus and the Lucianic manuscripts); Syriac; Codex Alexandrinus of 1 Esdras 1:41 (Swete's notes; the KJV follows it); some Hebrew manuscripts",
     "orig": "υἱὸς ὀκτωκαίδεκα ἐτῶν",
     "en": "eighteen years old",
     "plain": "eighteen years old"
@@ -826,7 +826,9 @@
   "s": [
    "allen-greek-chronicles",
    "rahlfs-lxx",
-   "klein-2chron"
+   "klein-2chron",
+   "swete-ot",
+   "kjv-apocrypha"
   ]
  },
  {
