@@ -92,8 +92,10 @@ WORKS = [
         'en_note': 'It follows the longer text, and in chapters 30–36 the Hebrew and Latin order; there each line is shown '
                    'beside the Greek verse that holds it, marked with the KJV’s own number.',
         'lat_note': 'The Vulgate keeps the Old Latin of Sirach, which Jerome did not revise, with many additions.'}),
-    ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017',   # no 'lat': the
+    ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017', 'en_order': '1es-numbers.tsv',   # no 'lat': the
         'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)',   # scrollmapper Vulgate and Douay have its verses empty
+        'en_note': 'It divides chapters 1, 2, 3, 5, 6 and 8 more finely; there each line is shown beside the Greek verse that '
+                   'holds it, marked with the KJV’s own number.',
         'fix': {'1:16': ('βασιγέως', 'βασιλέως', 'a misspelling no Greek word has'), '1:22': ('ἔοτιν', 'ἔστιν', 'the First1KGreek text of Swete reads ἔστιν'),
                 '1:25': [('μετ᾽ ἑμοῦ ἐμοῦ ἐστιν', 'μετ᾽ ἐμοῦ ἐστιν', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐστιν'), ('μετ᾽ ἐπισπεύδων', 'μετ᾽ ἐμοῦ ἐπισπεύδων', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐπισπεύδων')],
                 '1:33': ('Αἱγύπτου', 'Αἰγύπτου', 'the First1KGreek text of Swete reads Αἰγύπτου'), '1:35': ('ἀδελφόν αὐτοῦ', 'ἀδελφὸν αὐτοῦ', 'an acute for the grave before another word'),
@@ -259,7 +261,9 @@ def swete():
         _swete = collections.defaultdict(dict)
         for (a, ref), (z, _) in zip(starts, starts[1:] + [(max(w) + 1, '')]):
             book, cv = ref.split('.', 1)
-            _swete[book][cv] = unicodedata.normalize('NFC', clean(' '.join(w.get(n, '') for n in range(a, z))))   # one accent form (the file mixes oxia and tonos)
+            text = ' '.join(w.get(n, '') for n in range(a, z))
+            text = re.sub(r'[⸂⸃⸆]', '', text)   # Swete's page marks (where a codex begins or stops: First1KGreek has "§ C" there), not words
+            _swete[book][cv] = unicodedata.normalize('NFC', clean(text))   # one accent form (the file mixes oxia and tonos)
     return _swete
 
 def parts(spec):
@@ -369,7 +373,8 @@ def septuagint(bid, a):
                 auto.append({'v': cv, 'kind': 'Sinaiticus vs Vaticanus', 'grc': x, 'grc_b': y})
     src = {'app': {'_about': 'H. B. Swete’s footnotes to his printed text: the readings of the other great codices (A '
                              'Alexandrinus, B Vaticanus, ℵ Sinaiticus, and others where they survive) and later hands. "at" '
-                             'is the verse where each page’s footnotes begin; the verse numbers are inside each note. From '
+                             'is the verse where a page’s footnotes stand in the digital text, usually at the end of the page '
+                             'they belong to; the verse numbers are inside each note, and a page the digital text lacks has none. From '
                              'First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
                    'notes': apparatus(a['f1k'])} if a.get('f1k') else None,
            'lat': {'_about': 'The Latin Vulgate (Clementine, 1592) and the Douay-Rheims English made from it (Challoner, '

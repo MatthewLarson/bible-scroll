@@ -1,0 +1,546 @@
+[
+ {
+  "v": "1:5",
+  "a": "discipline",
+  "t": "Discipline or wisdom?",
+  "p": "Codex Alexandrinus calls it 'the holy spirit of wisdom.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B) and Codex Sinaiticus",
+    "orig": "παιδείας",
+    "en": "of discipline",
+    "plain": "discipline"
+   },
+   {
+    "w": "Codex Alexandrinus (A)",
+    "orig": "σοφίας",
+    "en": "of wisdom",
+    "plain": "wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus and Sinaiticus agree, and 'wisdom' looks like a scribe's change to match 1:4 and 1:6. The KJV and the Vulgate also have 'discipline.'",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "goes off empty",
+  "t": "Empty or new?",
+  "p": "Two great codices read 'new' for 'empty': the two words sounded alike.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "κενόν",
+    "en": "empty",
+    "plain": "goes off empty"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Alexandrinus",
+    "orig": "καινόν",
+    "en": "new",
+    "plain": "goes off new"
+   }
+  ],
+  "follow": 0,
+  "why": "In later Greek κενόν and καινόν were pronounced almost alike, so scribes confused them. 'Empty' (without effect) gives the sense the line needs; 'new' makes little sense.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "is immortal",
+  "t": "A longer Latin verse",
+  "p": "The Latin reads 'is lasting and immortal.'",
+  "readings": [
+   {
+    "w": "Swete's Greek; KJV",
+    "orig": "ἀθάνατός ἐστιν",
+    "en": "is immortal",
+    "plain": "is immortal"
+   },
+   {
+    "w": "Latin Vulgate (Clementine), Douay-Rheims",
+    "orig": "perpetua est, et immortalis",
+    "en": "is perpetual and immortal",
+    "plain": "is lasting forever and immortal"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Latin of Wisdom is an old translation that adds words here and there.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:5",
+  "a": "Our life is a shadow",
+  "t": "Life or time?",
+  "p": "Swete prints 'life'; a corrector of Vaticanus, Sinaiticus and the KJV have 'time.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B), first hand, and a corrector of Alexandrinus",
+    "orig": "βίος",
+    "en": "life",
+    "plain": "Our life is a shadow"
+   },
+   {
+    "w": "Correctors of Vaticanus, Codex Sinaiticus, Codex Alexandrinus (first hand); KJV, Latin",
+    "orig": "καιρός",
+    "en": "time",
+    "plain": "Our time is a shadow"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's printed text. The sense hardly changes; 'life' repeats the word of 2:1 and 2:4.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "spring blossom",
+  "t": "Flower of spring or of the air?",
+  "p": "The Plain departs from Swete here, reading 'spring' with Codex Alexandrinus.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A); KJV 'flower of the spring'",
+    "orig": "ἄνθος ἔαρος",
+    "en": "flower of spring",
+    "plain": "spring blossom"
+   },
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "ἄνθος ἀέρος",
+    "en": "flower of the air",
+    "plain": "blossom of the air"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words differ by the order of two letters (ἔαρος, ἀέρος), an easy slip. 'Flower of spring' fits the young men's feast and the rosebuds of 2:8, and the Latin's 'flower of the season' points the same way. 'Flower of the air' is hard to make sense of.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "before they wilt.",
+  "t": "A line only in Latin",
+  "p": "The Latin adds 'let no meadow escape our riot.'",
+  "readings": [
+   {
+    "w": "Swete's Greek; KJV",
+    "orig": "πρὶν ἢ μαρανθῆναι",
+    "en": "before they wither",
+    "plain": "before they wilt."
+   },
+   {
+    "w": "Latin Vulgate (Clementine); Douay-Rheims 'let no meadow escape our riot'",
+    "orig": "antequam marcescant: nullum pratum sit, quod non pertranseat luxuria nostra",
+    "en": "before they wither; let there be no meadow that our riot does not pass through",
+    "plain": "before they wilt. Let no meadow be left that our wild partying does not run through."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The extra line is found in the Latin; it is not in Swete's text or apparatus.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "we can judge",
+  "t": "Judge or test?",
+  "p": "Sinaiticus and Alexandrinus say 'test his endurance'; Vaticanus says 'judge.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "δικάσωμεν",
+    "en": "let us judge",
+    "plain": "we can judge"
+   },
+   {
+    "w": "Codex Sinaiticus and Codex Alexandrinus; KJV 'prove'",
+    "orig": "δοκιμάσωμεν",
+    "en": "let us test",
+    "plain": "we can test"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. 'Judge' leads into the court language of 2:20, 'sentence him'; 'test' repeats 2:17. The meaning is close.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:22",
+  "a": "his mysteries",
+  "t": "His mysteries, or God's?",
+  "p": "Several witnesses spell out 'the mysteries of God.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B), first hand",
+    "orig": "μυστήρια αὐτοῦ",
+    "en": "his mysteries",
+    "plain": "his mysteries"
+   },
+   {
+    "w": "Codex Sinaiticus, Codex Alexandrinus, a corrector in the margin of Vaticanus; KJV",
+    "orig": "μυστήρια θεοῦ",
+    "en": "mysteries of God",
+    "plain": "God's mysteries"
+   }
+  ],
+  "follow": 0,
+  "why": "'His' means God in any case; the other copies make that plain. The Plain keeps Swete's shorter reading.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:23",
+  "a": "eternity",
+  "t": "Eternity, or his own nature?",
+  "p": "The Plain departs from Swete here: most manuscripts read 'eternity.'",
+  "readings": [
+   {
+    "w": "Most manuscripts, as reported by Bullard and Hatton; KJV 'his own eternity'",
+    "orig": "ἀϊδιότητος",
+    "en": "eternity",
+    "plain": "eternity"
+   },
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "ἰδιότητος",
+    "en": "proper nature, own being",
+    "plain": "own nature"
+   }
+  ],
+  "follow": 0,
+  "why": "With 'eternity' the two lines match: made 'for incorruption' and in the image of God's 'eternity.' Swete's reading, 'image of his own nature,' recalls Genesis 1:26-27 and is also good sense. In the Greek the words are 'τῆς ἰδίας ἀϊδιότητος'; a copyist could easily drop the first letter of the second word after the same letters in the first. The Latin, 'the image of his own likeness,' points to neither directly.",
+  "s": [
+   "swete-ot",
+   "bullard-hatton-wisdom-1-5",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "because grace and mercy are what his chosen receive",
+  "t": "An extra line in the KJV",
+  "p": "The KJV adds 'and he hath care for his elect,' words found in 4:15.",
+  "readings": [
+   {
+    "w": "Swete's Greek",
+    "orig": "ὅτι χάρις καὶ ἔλεος τοῖς ἐκλεκτοῖς αὐτοῦ",
+    "en": "because grace and mercy (are) for his chosen",
+    "plain": "because grace and mercy are what his chosen receive"
+   },
+   {
+    "w": "KJV",
+    "orig": "(Greek source not named in Swete)",
+    "en": "for grace and mercy is to his saints, and he hath care for his elect",
+    "plain": "because grace and mercy are what his holy ones receive, and he watches over his chosen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete. Swete prints no such line at 3:9 and no footnote for it in the copy used here; the KJV's line is close to the end of 4:15, so it may have come into some copies from there.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "It is better to have no children and have virtue.",
+  "t": "The Latin praises the chaste",
+  "p": "The Vulgate opens the chapter: 'How beautiful is the chaste generation with glory.'",
+  "readings": [
+   {
+    "w": "Swete's Greek; KJV 'Better it is to have no children, and to have virtue'",
+    "orig": "κρείσσων ἀτεκνία μετὰ ἀρετῆς",
+    "en": "better is childlessness with virtue",
+    "plain": "It is better to have no children and have virtue."
+   },
+   {
+    "w": "Latin Vulgate (Clementine); Douay-Rheims",
+    "orig": "O quam pulchra est casta generatio cum claritate!",
+    "en": "how beautiful is the chaste generation with glory",
+    "plain": "How beautiful is a chaste generation in its glory!"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Latin seems to have read or understood the line differently and made it a praise of chastity; in Catholic tradition it was long read of virginity.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "with his chosen, / and his visitation is with his holy ones",
+  "t": "Which words go where?",
+  "p": "Codex Alexandrinus swaps 'chosen' and 'holy ones', and the KJV follows that order.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "ἐν τοῖς ἐκλεκτοῖς αὐτοῦ καὶ ἐπισκοπὴ ἐν τοῖς ὁσίοις αὐτοῦ",
+    "en": "with his chosen, and visitation with his holy ones",
+    "plain": "with his chosen, / and his visitation is with his holy ones"
+   },
+   {
+    "w": "Codex Alexandrinus; KJV 'with his saints ... unto his chosen'",
+    "orig": "ἐν τοῖς ὁσίοις αὐτοῦ ... ἐν τοῖς ἐκλεκτοῖς αὐτοῦ",
+    "en": "with his holy ones, and visitation with his chosen",
+    "plain": "with his holy ones, / and his visitation is with his chosen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Sinaiticus. The meaning is the same either way.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "4:16",
+  "a": "who has died",
+  "t": "Worn out, or dead?",
+  "p": "Vaticanus and Sinaiticus have a poetic word for the dead; Alexandrinus has the plain word.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B), first hand, and Codex Sinaiticus",
+    "orig": "καμών",
+    "en": "who has toiled (poetic Greek: the dead)",
+    "plain": "who has died"
+   },
+   {
+    "w": "Codex Alexandrinus and a corrector of Vaticanus; KJV 'that is dead'",
+    "orig": "θανών",
+    "en": "who has died",
+    "plain": "who is dead"
+   }
+  ],
+  "follow": 0,
+  "why": "Kamōn means 'worn out,' and in Greek poetry 'those who are worn out' are the dead. Copyists replaced it with the ordinary word. The sense is the same; the Plain follows the older, harder word.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "a salvation",
+  "t": "Whose salvation?",
+  "p": "Codex Sinaiticus and the KJV say 'his salvation.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "τῆς σωτηρίας",
+    "en": "the salvation",
+    "plain": "a salvation"
+   },
+   {
+    "w": "Codex Sinaiticus; KJV 'his salvation'",
+    "orig": "τῆς σωτηρίας αὐτοῦ",
+    "en": "his salvation",
+    "plain": "his salvation"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text is followed. The context makes clear it is the righteous man's rescue.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "no sun rose for us",
+  "t": "The sun, or the sun of righteousness?",
+  "p": "The Latin says 'the sun of understanding'; the KJV 'the sun of righteousness.'",
+  "readings": [
+   {
+    "w": "Swete's Greek",
+    "orig": "ὁ ἥλιος οὐκ ἀνέτειλεν ἡμῖν",
+    "en": "the sun did not rise for us",
+    "plain": "no sun rose for us"
+   },
+   {
+    "w": "Latin Vulgate (Clementine), Douay-Rheims",
+    "orig": "sol intelligentiae non est ortus nobis",
+    "en": "the sun of understanding has not risen for us",
+    "plain": "no sun of understanding rose for us"
+   },
+   {
+    "w": "KJV",
+    "orig": "(no Greek source named in Swete)",
+    "en": "the sun of righteousness rose not upon us",
+    "plain": "no sun of righteousness rose for us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek, which has only 'the sun.' The Latin adds 'of understanding'; the KJV's 'of righteousness' repeats the word of the line before and recalls Malachi 4:2.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:7",
+  "a": "until we were stuffed full",
+  "t": "Filled or wearied?",
+  "p": "The Greek says they were 'filled'; the Latin and the KJV say they 'wearied' themselves.",
+  "readings": [
+   {
+    "w": "Swete's Greek",
+    "orig": "ἐνεπλήσθημεν",
+    "en": "we were filled",
+    "plain": "until we were stuffed full"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 'lassati sumus'; Douay-Rheims and KJV 'we wearied ourselves'",
+    "orig": "lassati sumus",
+    "en": "we grew weary",
+    "plain": "until we were worn out"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The KJV here agrees with the Latin.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "For the hope",
+  "t": "A line only in Latin",
+  "p": "The Vulgate adds a verse before this one: 'Such things the sinners said in hell.'",
+  "readings": [
+   {
+    "w": "Swete's Greek; KJV",
+    "orig": "ὅτι ἐλπίς",
+    "en": "for the hope",
+    "plain": "For the hope"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 5:14; Douay-Rheims",
+    "orig": "Talia dixerunt in inferno hi qui peccaverunt. Quoniam spes",
+    "en": "Such things those who sinned said in the underworld. For the hope",
+    "plain": "Such things the sinners said in Hades. For the hope"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The added line tells the reader that the speech of 5:3-13 is spoken by the dead in the underworld. Because of it, the Vulgate's verse numbers in the rest of chapter 5 are one higher than the Greek's.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "ungodly",
+  "t": "Ungodly, or Godly?",
+  "p": "The KJV text used here prints 'Godly,' the opposite of the Greek.",
+  "readings": [
+   {
+    "w": "Swete's Greek; Latin 'impii'",
+    "orig": "ἀσεβοῦς",
+    "en": "of the ungodly",
+    "plain": "ungodly"
+   },
+   {
+    "w": "KJV text in the file used on this site (1769 text)",
+    "orig": "—",
+    "en": "of the Godly",
+    "plain": "Godly"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek is plain: ἀσεβοῦς, 'of the ungodly,' as the whole passage requires. The KJV text here reads 'Godly,' which cannot be right.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "thin frost",
+  "t": "Frost, foam or a spider's web?",
+  "p": "Swete's text says 'frost'; other copies have 'foam' or 'spider's web,' three look-alike Greek words.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B)",
+    "orig": "πάχνη ... λεπτή",
+    "en": "thin frost",
+    "plain": "thin frost"
+   },
+   {
+    "w": "Other manuscripts, as reported by Bullard and Hatton; Latin 'spuma'; KJV 'a thin froth'",
+    "orig": "ἄχνη",
+    "en": "foam",
+    "plain": "thin foam"
+   },
+   {
+    "w": "Other manuscripts, as reported by Bullard and Hatton",
+    "orig": "ἀράχνη",
+    "en": "spider's web",
+    "plain": "a thin spider's web"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete. Bullard and Hatton think 'foam' makes the best sense, and the Latin and KJV agree with it. But frost blown off by a storm is also a fair picture, and it is the reading of the text the site follows.",
+  "s": [
+   "swete-ot",
+   "bullard-hatton-wisdom-1-5",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:23",
+  "a": "the whole earth",
+  "t": "All lawlessness, or the whole earth?",
+  "p": "The Plain departs from Swete here, following the corrected Vaticanus, Sinaiticus and Alexandrinus.",
+  "readings": [
+   {
+    "w": "Correctors of Vaticanus, Codex Sinaiticus, Codex Alexandrinus; KJV 'the whole earth'",
+    "orig": "πᾶσαν τὴν γῆν",
+    "en": "the whole earth",
+    "plain": "the whole earth"
+   },
+   {
+    "w": "Swete's text (Codex Vaticanus, B), first hand",
+    "orig": "πᾶσα τὴν γῆν",
+    "en": "all (lawlessness) ... the earth",
+    "plain": "the earth"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints πᾶσα, which does not agree with 'earth' in Greek; it would have to go with 'lawlessness' ('all lawlessness will lay waste the earth'), which is awkward. The correctors of Vaticanus and the other two codices read πᾶσαν, 'the whole earth.' The difference is one letter, and the meaning is nearly the same.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ }
+]
