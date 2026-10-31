@@ -12,8 +12,8 @@
     "plain": "a proud man"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864, folio A V recto), in Kahana's edition (1912)",
-    "orig": "וְחוֹבֵר אֶל לֵץ יִלְמַד דַּרְכּוֹ",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864), folio V recto, line 22 (Abegg's transcription)",
+    "orig": "וחובר אל לץ ילמד דרכו",
     "en": "whoever joins a scoffer will learn his way",
     "plain": "a scoffer"
    }
@@ -23,7 +23,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -40,55 +39,62 @@
     "plain": "for your fall walks right beside you"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864, folio A V verso), in Kahana's edition (1912)",
-    "orig": "וְאַל תִּתְהַלֵּךְ עִם אַנְשֵׁי חָמָס",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864), folio V verso, lines 7-8 (Abegg's transcription)",
+    "orig": "ואל תהלך עם אנשי חמס",
     "en": "and do not walk with men of violence",
     "plain": "and do not walk with men of violence"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909) (106 and 253 have the line too, with small differences); KJV \"when thou hearest these things, awake in thy sleep\"",
-    "orig": "ὅτι μετὰ τῆς πτώσεώς σου περιπατεῖς. ἀκούων ταῦτα ἐν ὕπνῳ σου γρηγόρησον",
-    "en": "for you walk with your fall; hearing these things in your sleep, wake up",
-    "plain": "for your fall walks right beside you. / When you hear this, wake up from your sleep"
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); Hart's commentary names 106 and 253 with it, with small differences; KJV \"when thou hearest these things, awake in thy sleep\"",
+    "orig": "ὅτι μετὰ τῆς πτώσεώς σου περιπατεῖς. ἀκούων ταῦτα ἐν ὕπνῳ σου γρηγόρησον πάσῃ ζωῇ.",
+    "en": "for you walk with your fall. Hearing these things in your sleep, keep awake all your life.",
+    "plain": "for your fall walks right beside you. / When you hear this in your sleep, keep awake all your life"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus. The Hebrew may be the older sense (\"men of violence\" is a common Hebrew phrase); the Greek of Vaticanus reads like a free rendering. The longer Greek line, which the KJV translates, is not in Vaticanus, Sinaiticus or Alexandrinus.",
+  "why": "The Plain follows Vaticanus. The Hebrew may be the older sense (\"men of violence\" is a common Hebrew phrase); the Greek of Vaticanus reads like a free rendering. The longer Greek line is not in Vaticanus, and Swete's notes record none in Sinaiticus or Alexandrinus. In Hart's text of 248 \"all your life\" ends this added line (\"keep awake all your life\"), with a full stop before \"Love the Lord\" (13:14); the Latin puts \"all thy life\" with the loving instead (Vulgate 13:18, \"Omni vita tua dilige Deum\"), and the KJV follows the Latin division.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
  },
  {
   "v": "13:14",
-  "a": "[Love the Lord all your life,",
+  "a": "[Love the Lord,",
   "t": "A verse found only in the longer text",
-  "p": "Vaticanus has no line here. The longer Greek and the Latin have it; both lines of the verse go together.",
+  "p": "Vaticanus has no line here. The longer Greek and the Latin have it, but they divide the words differently.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Swete's notes record no line in Sinaiticus or Alexandrinus either; Hebrew manuscript A (Kahana) also lacks it",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Swete's notes record no line in Sinaiticus or Alexandrinus either; the Hebrew of manuscript A has no such line (folio V verso, line 8, runs from 13:13 straight to 13:15)",
     "orig": "",
     "en": "(no line)",
     "plain": ""
    },
    {
-    "w": "Minuscules 106, 248 and 253, in J. H. A. Hart's edition of 248 (1909); Latin Vulgate 13:18 \"Omni vita tua dilige Deum, et invoca illum in salute tua\"; KJV",
-    "orig": "πάσῃ ζωῇ ἀγάπα τὸν κύριον καὶ ἐπικαλοῦ αὐτὸν εἰς σωτηρίαν σου",
-    "en": "all your life love the Lord and call on him for your salvation",
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image), after the added line at the end of 13:13; Hart's commentary names 106 and 253 with it",
+    "orig": "ἀγάπα τὸν κύριον καὶ ἐπικαλοῦ αὐτὸν εἰς σωτηρίαν σου.",
+    "en": "love the Lord and call on him for your salvation",
+    "plain": "[Love the Lord,"
+   },
+   {
+    "w": "Latin Vulgate 13:18 \"Omni vita tua dilige Deum, et invoca illum in salute tua\" (Douay \"Love God all thy life, and call upon him for thy salvation\"); KJV 13:14 \"Love the Lord all thy life\"",
+    "orig": "Omni vita tua dilige Deum, et invoca illum in salute tua",
+    "en": "all your life love God, and call on him in your salvation",
     "plain": "[Love the Lord all your life,"
    }
   ],
   "follow": 1,
-  "why": "Every verse number needs a line, so the Plain gives this one in square brackets, translated from Hart's text of minuscule 248 and the Vulgate, which agree. The brackets show it is not in Codex Vaticanus, the base text. Hart notes that the line looks like a reworking of the next verse's \"every living thing loves\"; it is a pious addition of the longer text, not part of the grandson's translation.",
-  "b": "<p>Hart's commentary gives the longer reading as part of an addition at the end of 13:13: \"hearing these things in your sleep, wake up; all your life love the Lord...\" (minuscules 106, 248, 253). The Latin has the same two lines as its 13:17-18.</p>",
+  "why": "Every verse number needs a line, so the Plain gives this one in square brackets, translated from Hart's text of minuscule 248. The brackets show it is not in Codex Vaticanus, the base text. Hart prints a full stop after \"all your life\" (πάσῃ ζωῇ), which ends the added line of 13:13, so the Plain does not carry \"all your life\" into this verse; the Latin and the KJV put it here. Hart's commentary suggests that \"all your life love\" (πάσῃ ζωῇ ἀγάπα) was adapted from \"every living thing loves\" (πᾶν ζῷον ἀγαπᾷ) in 13:15. It is an addition of the longer text, not part of the grandson's translation.",
+  "b": "<p>Hart's commentary gives the longer reading as one addition at the end of 13:13: \"hearing these things in your sleep, wake up ... love the Lord and call on him for your salvation\" (minuscules 106, 248, 253). The Latin has the same two lines as its 13:17-18.</p>",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
    "vulgate-clementine",
-   "kjv-apocrypha"
+   "douay-rheims",
+   "kjv-apocrypha",
+   "rendsburg-binstein-bensira"
   ]
  },
  {
@@ -104,31 +110,90 @@
     "plain": "in the mouth of the godly"
    },
    {
-    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), as in Swete's notes; KJV \"in the mouth of the ungodly\"",
+    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), as in Swete's notes; minuscule 248 as Hart prints it (page image); KJV \"in the mouth of the ungodly\"",
     "orig": "ἀσεβοῦς",
     "en": "of the ungodly",
     "plain": "in the mouth of the ungodly"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864, folio A V verso), in Kahana's edition (1912)",
-    "orig": "וְרַע הָעוֹנִי עַל פִּי זָדוֹן",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864), folio V verso, lines 18-19 (Abegg's transcription)",
+    "orig": "ורע העוני על פי זדון",
     "en": "and poverty is evil in the mouth (or: by the measure) of the insolent",
     "plain": "in the mouth of the insolent"
    }
   ],
   "follow": 1,
-  "why": "This is one of the few places where the Plain leaves Swete's Vaticanus. \"Godly\" makes poor sense: the couplet sets wealth without sin against poverty as the arrogant see it, and the Hebrew \"insolent\" supports Sinaiticus and Alexandrinus. A single letter (eusebous / asebous) separates the two Greek words, an easy slip for a copyist.",
+  "why": "This is one of the few places where the Plain leaves Swete's Vaticanus. \"Godly\" makes poor sense: the couplet sets wealth without sin against poverty as the arrogant see it, and the Hebrew \"insolent\" supports Sinaiticus and Alexandrinus. The two Greek words differ only in their first letters (eusebous / asebous), an easy slip for a copyist. Hart prints \"ungodly\" (ἀσεβοῦς) in minuscule 248 as well (page image).",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
  },
  {
+  "v": "14:1",
+  "a": "stung with grief over sin",
+  "t": "Grief over sin, or many sins?",
+  "p": "Vaticanus says \"grief of sin\"; Sinaiticus and Alexandrinus \"grief of sins\"; minuscule 248 and the KJV \"the multitude of sins.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ οὐ κατενύγη ἐν λύπῃ ἁμαρτίας",
+    "en": "and was not stung in grief of sin",
+    "plain": "stung with grief over sin"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), as in Swete's notes",
+    "orig": "ἁμαρτιῶν",
+    "en": "of sins",
+    "plain": "stung with grief over sins"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); KJV \"is not pricked with the multitude of sins\"",
+    "orig": "καὶ οὐ κατενύγη ἐν πλήθει ἁμαρτιῶν",
+    "en": "and was not stung in a multitude of sins",
+    "plain": "stung by a mass of sins"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. \"Grief\" is the pain of conscience that the next verse goes on to describe; 248's \"multitude\" turns the line into a statement about how much a person has sinned.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "14:2",
+  "a": "who has not fallen away from his hope",
+  "t": "His hope, or his hope in the Lord?",
+  "p": "Minuscule 248 and the KJV add \"in the Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ὃς οὐκ ἔπεσεν ἀπὸ τῆς ἐλπίδος αὐτοῦ",
+    "en": "and who did not fall from his hope",
+    "plain": "who has not fallen away from his hope"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); in Hart's commentary also 106 and 253; KJV \"from his hope in the Lord\"",
+    "orig": "καὶ ὃς οὐκ ἔπεσεν ἀπὸ τῆς ἐλπίδος αὐτοῦ τῆς ἐπὶ Κύριον",
+    "en": "and who did not fall from his hope that is in the Lord",
+    "plain": "who has not fallen away from his hope in the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The addition names what the hope rests on; it does not change the sense.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
+  ]
+ },
+ {
   "v": "14:7",
-  "a": "it happens when he forgets himself",
+  "a": "he does it in a moment of forgetting",
   "t": "By forgetting, or unwillingly?",
   "p": "Vaticanus says he does good \"in forgetfulness\"; minuscule 248, followed by the KJV, says \"unwillingly.\"",
   "readings": [
@@ -136,21 +201,20 @@
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus and Alexandrinus agree",
     "orig": "ἐν λήθῃ ποιεῖ",
     "en": "he does it in forgetfulness",
-    "plain": "it happens when he forgets himself"
+    "plain": "he does it in a moment of forgetting"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"he doeth it unwillingly\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"he doeth it unwillingly\"",
     "orig": "οὐχ ἑκὼν ποιεῖ",
     "en": "he does it not willingly",
     "plain": "it is against his will"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus: the miser does a good deed only by a slip, when he forgets his own rule. Hart prints 248's \"not willingly,\" which the KJV translates. The Hebrew manuscript A has no 14:7-8 (its folio runs from 14:6 to 14:9).",
+  "why": "The Plain follows Vaticanus: the miser does a good deed only by a slip, when he forgets his own rule. Hart prints 248's \"not willingly,\" which the KJV translates. The Hebrew manuscript A has no 14:7-8: folio V verso, line 26, runs from 14:6 straight to 14:9.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
@@ -168,8 +232,8 @@
     "plain": "he goes short at his own table"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864, folio A V verso), in Kahana's edition (1912)",
-    "orig": "עַיִן טוֹבָה מַרְבֶּה הַלָּחֶם, וּמַעְיָן יָבֵשׁ יִזַּל מַיִם עַל הַשֻּׁלְחָן",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.864), folio V verso, line 28 (Abegg's transcription)",
+    "orig": "עין טובה מרבה הלחם ומעין יבש יזל מים על השלחן",
     "en": "a good eye makes the bread plenty, and a dry spring will pour water on the table",
     "plain": "he goes short at his own table. / A good eye makes bread plenty, / and a dry spring pours water on the table"
    }
@@ -179,7 +243,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -196,8 +259,8 @@
     "plain": "bring the Lord the offerings he deserves"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "וּלְאֵל יָדְךָ הִדָּשֵׁן",
+    "w": "Hebrew: Cairo Genizah manuscript A, folio V verso, line 29 (T-S 12.864), to folio VI recto, line 1 (T-S 12.863) (Abegg's transcription)",
+    "orig": "ולאל ידך הדשן",
     "en": "and as far as your hand can, make yourself fat (enjoy plenty)",
     "plain": "as far as your hand can reach, enjoy plenty"
    }
@@ -208,7 +271,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -216,7 +278,7 @@
   "v": "14:16",
   "a": "treat yourself",
   "t": "Treat yourself, or make yourself holy?",
-  "p": "Vaticanus says \"beguile your soul\" (cheer yourself up); a corrector of Sinaiticus wrote \"sanctify,\" which the KJV follows.",
+  "p": "Vaticanus says \"beguile your soul\" (cheer yourself up); a corrector of Sinaiticus and several later copies have \"sanctify,\" which the KJV follows.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -225,7 +287,7 @@
     "plain": "treat yourself"
    },
    {
-    "w": "A later corrector of Codex Sinaiticus (ℵc.a), as in Swete's notes; KJV \"sanctify thy soul\"",
+    "w": "A later corrector of Codex Sinaiticus (ℵc.a), as in Swete's notes; minuscule 248 as Hart prints it (page image), and in Hart's commentary also 106, 253 and 296; KJV \"sanctify thy soul\"",
     "orig": "ἁγίασον τὴν ψυχήν σου",
     "en": "sanctify your soul",
     "plain": "make your soul holy"
@@ -237,18 +299,17 @@
     "plain": "put your soul right"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "וּפַנֵּק נַפְשֶׁךָ",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 5 (Abegg's transcription)",
+    "orig": "ופניק נפשך",
     "en": "and pamper yourself",
     "plain": "pamper yourself"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus, which the Hebrew \"pamper yourself\" supports. Greek apataō usually means \"deceive,\" but with \"your soul\" it means to divert or cheer yourself. Later copyists and translators found that worldly and changed it to \"sanctify\" or \"justify.\"",
+  "why": "The Plain follows Vaticanus, which the Hebrew \"pamper yourself\" supports; Alexandrinus has a misspelled form of the same verb (ἀποτησον, in Swete's notes). Greek apataō usually means \"deceive,\" but with \"your soul\" it means to divert or cheer yourself. \"Sanctify\" and the Latin \"justify\" read the line as a call to holiness instead.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "vulgate-clementine",
    "douay-rheims",
@@ -259,40 +320,40 @@
   "v": "14:20",
   "a": "whose thoughts dwell on Wisdom",
   "t": "Meditates on wisdom, or dies in wisdom?",
-  "p": "Vaticanus reads \"will die in wisdom.\" A corrector of Sinaiticus and the Hebrew read \"meditates.\" The Plain departs from Vaticanus.",
+  "p": "Vaticanus, with Sinaiticus and Alexandrinus as first written, reads \"will die in wisdom.\" A corrector of Sinaiticus, most later copies and the Hebrew read \"meditates.\" The Plain departs from Vaticanus.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Swete's notes record no other reading for the first hand of Sinaiticus or for Alexandrinus; the Latin \"morietur\" (\"will die\")",
     "orig": "ὃς ἐν σοφίᾳ τελευτήσει",
     "en": "who will die in wisdom",
     "plain": "who dies in Wisdom"
    },
    {
-    "w": "A later corrector of Codex Sinaiticus (ℵc.a), as in Swete's notes; KJV \"doth meditate good things in wisdom\"",
+    "w": "A later corrector of Codex Sinaiticus (ℵc.a), as in Swete's notes; in Hart's commentary also minuscules 70, 106, 248 and 253 (Hart prints 248 as μελετήσει καλά, \"will meditate on good things,\" page image); KJV \"doth meditate good things in wisdom\"",
     "orig": "ὃς ἐν σοφίᾳ μελετήσει",
     "en": "who will meditate on wisdom",
     "plain": "whose thoughts dwell on Wisdom"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "אַשְׁרֵי אֱנוֹשׁ בְּחָכְמָה יֶהְגֶּה",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 9 (Abegg's transcription)",
+    "orig": "אשרי אנוש בחכמה יהגה",
     "en": "happy is the man who meditates on wisdom",
     "plain": "whose thoughts dwell on Wisdom"
    }
   ],
   "follow": 1,
-  "why": "Here the Plain leaves Vaticanus. Its teleutēsei, \"will die,\" differs from meletēsei, \"will meditate,\" by a few letters and breaks the parallel with the second line (\"reasons things out\"). The Hebrew yehgeh, \"meditates,\" confirms the corrector's reading.",
+  "why": "Here the Plain leaves Vaticanus. Its teleutēsei, \"will die,\" differs from meletēsei, \"will meditate,\" by a few letters and breaks the parallel with the second line (\"reasons things out\"). The Hebrew yehgeh, \"meditates,\" confirms the corrector and the later copies. Hart notes that the Latin, which has \"will die,\" keeps the other reading too in an added line, \"and he that shall meditate in his justice\" (Vulgate 14:22).",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "vulgate-clementine"
   ]
  },
  {
   "v": "15:10",
-  "a": "the Lord will guide it on its way",
+  "a": "the Lord will make it prosper",
   "t": "Who makes praise prosper?",
   "p": "The Greek says the Lord will prosper praise; the Hebrew says the one who masters wisdom will teach it.",
   "readings": [
@@ -300,11 +361,11 @@
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
     "orig": "καὶ ὁ κύριος εὐοδώσει αὐτόν",
     "en": "and the Lord will make it prosper",
-    "plain": "the Lord will guide it on its way"
+    "plain": "the Lord will make it prosper"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "וּמשֵׁל בָּהּ יִלַמְּדֶנָּה",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 21 (Abegg's transcription)",
+    "orig": "ומשל בה ילמדנה",
     "en": "and the one who rules over it will teach it",
     "plain": "the one who is master of it will teach it"
    }
@@ -314,7 +375,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -331,8 +391,8 @@
     "plain": "for what he hates you are not to do"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "כִּי אֶת אֲשֶׁר שָׂנֵא לֹא עָשָה",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 22 (Abegg's transcription)",
+    "orig": "כי את אשר שנא לא עשה",
     "en": "for what he hates he did not do (or: make)",
     "plain": "for what he hates he did not do"
    }
@@ -342,7 +402,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -359,14 +418,14 @@
     "plain": "He himself sent me off course"
    },
    {
-    "w": "Minuscules 55, 106, 157, 248, 296 and 307, as listed in Hart's textual commentary (1909)",
+    "w": "Minuscules 55, 106, 157, 248, 296 and 307, as listed in Hart's textual commentary (1909); Hart prints ἐπλάνησεν in his text of 248 and notes the manuscript's ἔπλασεν at the foot of the page (page image)",
     "orig": "Αὐτός με ἔπλασεν",
     "en": "he himself formed me",
     "plain": "He himself made me this way"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "הוּא הִתְקִילָנִי",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 23 (Abegg's transcription)",
+    "orig": "הוא התקילני",
     "en": "he himself made me stumble",
     "plain": "He himself made me stumble"
    }
@@ -376,7 +435,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
@@ -393,8 +451,8 @@
     "plain": "left him in the hand of his own choice"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "וַיְשִׁיתֵהוּ בְּיַד חוֹתְפוֹ, וַיִּתְּנֵהוּ בְּיַד יִצְרוֹ",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, line 25 (Abegg's transcription)",
+    "orig": "וישתיהו ביד חותפו ויתנהו ביד יצרו",
     "en": "and put him in the hand of his robber, and gave him into the hand of his inclination (yetser)",
     "plain": "put him in the hand of his robber / and gave him into the hand of his inclination"
    }
@@ -404,37 +462,71 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
   ]
  },
  {
   "v": "15:15",
-  "a": "keeping faith is for you to choose",
+  "a": "acting faithfully is a matter of good will",
   "t": "A line only in the Hebrew: \"If you trust in him, you will live\"",
   "p": "The Hebrew adds a third line close to Habakkuk 2:4.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
     "orig": "καὶ πίστιν ποίησαι εὐδοκίας",
-    "en": "and make faithfulness (your) good pleasure",
-    "plain": "keeping faith is for you to choose"
+    "en": "and to act faithfully is (a matter) of good will",
+    "plain": "acting faithfully is a matter of good will"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI recto), in Kahana's edition (1912)",
-    "orig": "וְתָבִינָה לַעֲשׂוֹת רְצוֹנוֹ אִם תַּאֲמִין בּוֹ גַּם אַתָּה, תִּחְיֶה",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI recto, lines 26-27 (Abegg's transcription)",
+    "orig": "ותבונה לעשות רצונו אם תאמין בו גם אתה תחיה",
     "en": "and understanding to do his will. If you trust in him, you too will live",
     "plain": "understanding is doing his will. / If you trust in him, you too will live"
    }
   ],
   "follow": 0,
-  "why": "The Plain translates the Greek. Hart (1909) suggests that the Greek \"faith\" (pistis) comes from a Hebrew word for faithfulness read where manuscript A has \"understanding,\" and that the Hebrew third line (\"if you trust in him, you too will live\") grew from the same variant, recalling Habakkuk 2:4, \"the righteous will live by his faithfulness.\" The Latin adds \"he added his commandments and precepts\" before this verse, which Luther quotes in his reply to Erasmus.",
+  "why": "The Plain translates the Greek. Its last word, eudokias, \"of good will (good pleasure),\" does not say whose: the line may mean that faithfulness is your own free choice, or that it is what pleases God; the Plain keeps the Greek's openness. Hart (1909) suggests that the Greek \"faith\" (pistis) comes from a Hebrew word for faithfulness read where manuscript A has \"understanding,\" and that the Hebrew third line (\"if you trust in him, you too will live\") grew from the same variant, recalling Habakkuk 2:4, \"the righteous will live by his faithfulness.\" The Latin adds \"He added his commandments and precepts\" before this verse (Vulgate 15:15), and Luther quotes that line in his reply to Erasmus.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "15:15",
+  "a": "you will keep the commandments",
+  "t": "\"You will keep\" or \"to keep\"?",
+  "p": "Vaticanus has a promise, \"you will keep the commandments\"; some later copies and the KJV have an infinitive; the Latin adds \"they will keep you.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; minuscule 248 as Hart prints it (page image)",
+    "orig": "ἐὰν θέλῃς, συντηρήσεις ἐντολάς",
+    "en": "if you wish, you will keep the commandments",
+    "plain": "If you are willing, you will keep the commandments"
+   },
+   {
+    "w": "Minuscules 55, 157, 253 and 254, as listed in Hart's textual commentary (1909); KJV \"If thou wilt, to keep the commandments\"",
+    "orig": "συντηρῆσαι ἐντολάς",
+    "en": "to keep the commandments",
+    "plain": "If you are willing to keep the commandments"
+   },
+   {
+    "w": "Latin Vulgate 15:16 \"Si volueris mandata servare, conservabunt te\" (Douay \"If thou wilt keep the commandments ... they shall preserve thee\")",
+    "orig": "Si volueris mandata servare, conservabunt te",
+    "en": "if you are willing to keep the commandments, they will keep you",
+    "plain": "If you are willing to keep the commandments, they will keep you safe"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus: the line promises that the willing person will keep the commandments, which is Ben Sira's point against the excuse of 15:11-12. The Latin's \"they will keep you\" is the form Luther quotes (\"they shall preserve thee\") in his reply to Erasmus.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha",
+   "luther-bondage-vaughan"
   ]
  },
  {
@@ -450,8 +542,8 @@
     "plain": "no one has his leave to sin"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "וְלֹא הֶחֱלִים אַנְשֵׁי כָזָב וְלֹא מְרַחֵם עַל עֹשֶׂה שָׁוְא, וְעַל מְגַלֶּה סוֹד",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, lines 1-2 (Abegg's transcription)",
+    "orig": "ולא החלים אנשי כזב ולא מרחם על עושה שוא ועל מגלה סוד",
     "en": "and he did not strengthen men of falsehood; and he has no pity on one who does what is false, or on one who reveals a secret",
     "plain": "he did not give strength to liars. / He has no pity on one who does what is false / or on one who tells a secret"
    }
@@ -461,7 +553,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "vulgate-clementine"
   ]
@@ -479,14 +570,14 @@
     "plain": "do not count on their place"
    },
    {
-    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), as in Swete's notes; KJV \"neither respect their multitude\"",
+    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), as in Swete's notes; minuscule 248 as Hart prints it (page image); KJV \"neither respect their multitude\"",
     "orig": "καὶ μὴ ἔπεχε ἐπὶ τὸ πλῆθος αὐτῶν",
     "en": "and do not rely on their number",
     "plain": "do not count on their numbers"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "וְאַל תִּבְטַח בְּעִקְבוֹתָם",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, lines 4-5 (Abegg's transcription)",
+    "orig": "ואל תבטח בעקבותם",
     "en": "and do not trust in their future (their \"heels,\" what comes after them)",
     "plain": "do not trust in what comes after them"
    }
@@ -496,7 +587,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
@@ -514,8 +604,8 @@
     "plain": "the giants of long ago"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "לֲנְסִיכֵי קֶדֶם, הַמּוֹרִים עוֹלָם בִּגְבוּרָתָם",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, line 10 (Abegg's transcription)",
+    "orig": "לנסיכי קדם המורים עולם בגבורתם",
     "en": "the princes of old, who rebelled (against) the world in their might",
     "plain": "the princes of old"
    }
@@ -525,15 +615,67 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira"
+  ]
+ },
+ {
+  "v": "16:7",
+  "a": "who broke away from him in their strength",
+  "t": "\"In the strength of their folly\"",
+  "p": "Minuscule 248 and the KJV add \"of their folly.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "οἳ ἀπέστησαν τῇ ἰσχύι αὐτῶν",
+    "en": "who rebelled in their strength",
+    "plain": "who broke away from him in their strength"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); in Hart's commentary also 70 and 106; KJV \"who fell away in the strength of their foolishness\"",
+    "orig": "οἳ ἀπέστησαν ἐν τῇ ἰσχύι τῆς ἀφροσύνης αὐτῶν",
+    "en": "who rebelled in the strength of their folly",
+    "plain": "who broke away from him in the strength of their folly"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The addition makes the giants' strength a fool's strength, the moral the later Jewish books drew from them (see the note).",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "the nation marked for destruction",
+  "t": "\"The nation of destruction\" or \"Canaan\"?",
+  "p": "A corrector of Sinaiticus writes \"Canaan\" and adds a line of his own.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; minuscule 248 as Hart prints it (page image)",
+    "orig": "οὐκ ἠλέησεν ἔθνος ἀπωλείας",
+    "en": "he did not pity the nation of destruction",
+    "plain": "the nation marked for destruction"
+   },
+   {
+    "w": "A later corrector of Codex Sinaiticus (ℵc.a), as in Swete's notes",
+    "orig": "ἔθνος Χανααν ... ταῦτα πάντα ἐποίησεν ἔθνεσιν σκληροκαρδίοις, καὶ ἐπὶ πλήθει ἁγίων αὐτοῦ οὐ παρεκλήθη",
+    "en": "the nation Canaan ... all these things he did to hard-hearted nations, and he was not moved to pity by the number of his holy ones",
+    "plain": "the nation of Canaan"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The corrector names the nation the verse means (the peoples of Canaan) and adds a summing-up line. Hart (1909) reads the added line as a reference to Abraham's plea for Sodom: \"the number of his saints\" did not reach the ten righteous of Genesis 18:32. The corrector's Greek is given here as Swete's notes spell it, with accents added.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248"
   ]
  },
  {
   "v": "16:14",
   "a": "each one will find according to his works",
   "t": "Works, or the merit of works?",
-  "p": "The Latin reads \"according to the merit of his works,\" a wording that mattered in later Catholic teaching.",
+  "p": "The Latin reads \"according to the merit of his works,\" a wording that mattered in later Catholic teaching; the Hebrew has a different first line.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -548,18 +690,17 @@
     "plain": "each one will find according to the merit of his works"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "כָּל הָעֹשֶׁה צְדָקָה, יִשׁ לוֹ שָׂכָר",
-    "en": "everyone who does righteousness has a reward",
-    "plain": "everyone who does what is right has a reward"
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, line 17 (Abegg's transcription)",
+    "orig": "כל העושה צדקה יש לו שכר וכל אדם כמעשיו יצא לפניו",
+    "en": "everyone who does righteousness has a reward, and every person according to his deeds will go out before him",
+    "plain": "everyone who does what is right has a reward, / and each person will come out before him according to his deeds"
    }
   ],
   "follow": 0,
-  "why": "The Plain translates the Greek. The Latin (the Old Latin that Jerome left unrevised) adds \"merit\" and \"according to the understanding of his sojourning.\" The Hebrew has a single short line about reward.",
+  "why": "The Plain translates the Greek. The Latin adds \"merit\" and \"according to the understanding of his sojourning\" (Vulgate 16:15); Hart (1909) remarks that the Latin of this book \"has suffered much at the hands of a drastic reviser.\" The Hebrew of manuscript A has two lines: its first, \"everyone who does tsedaqah has a reward,\" differs from the Greek's first line, and its second, \"every person according to his deeds will go out before him,\" runs parallel to the Greek's \"each one will find according to his works.\"",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "vulgate-clementine",
    "douay-rheims"
@@ -578,14 +719,14 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscule 106 (Hart's commentary); KJV",
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); Hart's commentary gives the reading of 16:15-16 together with the sigla 106 and 248; KJV",
     "orig": "Κύριος ἐσκλήρυνε Φαραὼ μὴ εἰδέναι αὐτόν, ὅπως ἂν γνωσθῇ ἐνεργήματα αὐτοῦ τῇ ὑπ᾽ οὐρανόν",
     "en": "The Lord hardened Pharaoh not to know him, so that his works might be known to the (world) under heaven",
     "plain": "[The Lord hardened Pharaoh so that he would not know him,"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "יְהֹוָה הִקְשָׁה אֶת לֵב פַּרְעֹה, אֲשֶׁר לֹא יְדָעוֹ, שֶׁמַעֲשָׂיו מְגֻלִּין תַּחַת הַשָּׁמַיִם",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, lines 18-19 (Abegg's transcription; a repeated \"not\" in line 18 is struck out)",
+    "orig": "ייי הקשה את לב פרעה אשר לא ידעו שמעשיו מגולין תחת השמים",
     "en": "The LORD hardened the heart of Pharaoh, who did not know him, whose works were revealed under heaven",
     "plain": "[The LORD hardened Pharaoh's heart, who did not know him,"
    }
@@ -595,7 +736,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
@@ -613,24 +753,23 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscule 106 (Hart's commentary); KJV \"he hath separated his light from the darkness with an adamant\"",
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image), with minuscule 106 (Hart's commentary); KJV \"he hath separated his light from the darkness with an adamant\"",
     "orig": "πάσῃ τῇ κτίσει τὸ ἔλεος αὐτοῦ φανερόν· καὶ τὸ φῶς αὐτοῦ καὶ τὸ σκότος ἐμέρισε τῷ ἀδάμαντι",
     "en": "his mercy is plain to all creation, and his light and the darkness he divided with adamant",
     "plain": "[His mercy is plain to all creation,"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "רַחֲמָיו יֵרָאוּ לְכָל בִּרְיוֹתָיו, וְאוֹרוֹ וְשִׁבְחוֹ חָלַק לִבְנֵי אָדָם",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, lines 19-20 (Abegg's transcription)",
+    "orig": "רחמיו יראו לכל בריותיו ואורו ושבחו חלק לבני אדם",
     "en": "his mercies are seen by all his creatures, and his light and his praise he gave out to the children of Adam",
     "plain": "[His mercies are seen by all his creatures,"
    }
   ],
   "follow": 1,
-  "why": "The Plain gives the line in brackets from Hart's 248. Its strange \"adamant\" (adamas, the hardest metal) looks like a mistake: Hart (1909) points out that the Hebrew reads \"to the sons of Adam,\" so the Greek adamanti probably began as a misreading of Adam. The light of 16:16 recalls Genesis 1:4, \"God divided the light from the darkness.\"",
+  "why": "The Plain gives the line in brackets from Hart's 248. Its strange \"adamant\" (adamas, the hardest metal) looks like a mistake: Hart (1909) points out that the Hebrew reads \"to the sons of Adam,\" so the Greek adamanti probably began as a misreading of Adam. The light of 16:16 recalls Genesis 1:4, \"God divided the light from the darkness.\" Hart's commentary also records the Syriac reading \"his darkness\" where manuscript A has \"his praise.\"",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
@@ -648,7 +787,7 @@
     "plain": "will shake when he visits them"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"and all that therein is, shall be moved when he shall visit\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"and all that therein is, shall be moved when he shall visit\"",
     "orig": "ἄβυσσος καὶ γῆ καὶ τὰ ἐν αὐτοῖς, ἐν τῇ ἐπισκοπῇ αὐτοῦ σαλευθήσεται, ἅπας ὁ κόσμος γεγονὼς καὶ γινόμενος ἐν θελήματι αὐτοῦ",
     "en": "the deep and the earth and what is in them will be shaken at his visitation, the whole world that was made and is being made by his will",
     "plain": "and all that is in them will shake when he visits them, / the whole world that was made and is being made by his will"
@@ -659,8 +798,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
-   "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
  },
@@ -677,14 +814,14 @@
     "plain": "The covenant is a long way off"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"and the trial of all things is in the end\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"and the trial of all things is in the end\"",
     "orig": "μακρὰν γὰρ ἡ διαθήκη· καὶ ἐξέτασις ἁπάντων ἐν τελευτῇ",
     "en": "for the covenant is far off, and the examination of all is at the end",
     "plain": "The covenant is a long way off, / and the testing of everyone comes at the end"
    },
    {
-    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863, folio A VI verso), in Kahana's edition (1912)",
-    "orig": "וְתִקְוַת מָּה כִי אָצוּק חוֹק",
+    "w": "Hebrew: Cairo Genizah manuscript A (Cambridge, T-S 12.863), folio VI verso, lines 26-27 (Abegg's transcription)",
+    "orig": "ותקות מה כי אצוק חוק",
     "en": "and what hope (is there), that I should hold fast to a decree?",
     "plain": "And what hope is there, that I should keep a rule?"
    }
@@ -694,7 +831,6 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
-   "kahana-ben-sira",
    "rendsburg-binstein-bensira",
    "kjv-apocrypha"
   ]
@@ -727,6 +863,32 @@
   ]
  },
  {
+  "v": "17:4",
+  "a": "masters over beasts and birds",
+  "t": "\"In his likeness\"",
+  "p": "Minuscules 70 and 248 add \"in likeness\" to the rule over the creatures.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ κατακυριεύειν θηρίων καὶ πετεινῶν",
+    "en": "and to be lord over beasts and birds",
+    "plain": "masters over beasts and birds"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); in Hart's commentary also 70",
+    "orig": "καὶ κατακυριεύειν θηρίων καὶ πετεινῶν ἐν ὁμοιώματι",
+    "en": "and to be lord over beasts and birds in likeness",
+    "plain": "masters over beasts and birds, in his likeness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The addition ties the rule over the creatures to the likeness of Genesis 1:26; Hart's commentary compares the Latin, which adds the making of a helper \"like to himself\" at 17:5.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248"
+  ]
+ },
+ {
   "v": "17:5",
   "a": "[He gave them a mind as a sixth gift, sharing it out to them,",
   "t": "A verse missing from Vaticanus: the sixth and seventh gifts",
@@ -739,8 +901,8 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscule 70; the KJV follows 70's fuller form",
-    "orig": "ἕκτον δὲ νοῦν αὐτοῖς ἐδωρήσατο μερίζων, καὶ τὸν ἕβδομον λόγον ἑρμηνέα τῶν ἐνεργημάτων αὐτοῦ",
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image), with minuscule 70; Hart's commentary says the manuscript has ἑρμηνεία, \"interpretation,\" and prints ἑρμενέα, \"interpreter,\" as his correction; the KJV follows 70's fuller form",
+    "orig": "ἕκτον δὲ νοῦν αὐτοῖς ἐδωρήσατο μερίζων, καὶ τὸν ἕβδομον λόγον ἑρμενέα τῶν ἐνεργημάτων αὐτοῦ",
     "en": "as the sixth he gave them mind as a gift, sharing it, and as the seventh speech, the interpreter of his workings",
     "plain": "[He gave them a mind as a sixth gift, sharing it out to them,"
    }
@@ -766,7 +928,7 @@
     "plain": "so that they would tell the wonders of his works"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"He gave them to glory in his marvellous acts for ever, that they might declare his works with understanding\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"He gave them to glory in his marvellous acts for ever, that they might declare his works with understanding\"",
     "orig": "ἔδωκε δι᾽ αἰώνων καυχᾶσθαι ἐπὶ τοῖς θαυμασίοις αὐτοῦ, ἵνα διηγῶνται τὰ ἔργα αὐτοῦ συνετῶς",
     "en": "he gave them to boast for ages in his wonders, so that they might tell his works with understanding",
     "plain": "he gave them to boast forever in his wonders, / so that they would tell his works with understanding"
@@ -781,28 +943,55 @@
   ]
  },
  {
+  "v": "17:11",
+  "a": "gave them the law of life to inherit",
+  "t": "\"So that they would know they are mortal\"",
+  "p": "Minuscule 248 adds a line: the law was given so that they would understand they are mortal.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ νόμον ζωῆς ἐκληροδότησεν αὐτοῖς",
+    "en": "and the law of life he gave them as an inheritance",
+    "plain": "gave them the law of life to inherit"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); Hart's commentary names no other witness",
+    "orig": "καὶ νόμον ζωῆς ἐκληροδότησεν αὐτοῖς, εἰς τὸ νοῆσαι ὅτι θνητοὶ ὄντες ὑπάρχουσι νῦν",
+    "en": "and the law of life he gave them as an inheritance, so that they would understand that they are now mortal",
+    "plain": "gave them the law of life to inherit, / so that they would understand that they are mortal now"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The KJV does not follow this addition. Hart's commentary compares 14:17, \"All flesh wears out like a garment.\"",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248"
+  ]
+ },
+ {
   "v": "17:13",
   "a": "the glory of his voice",
   "t": "His voice or their voice?",
   "p": "Vaticanus reads \"the glory of their voice\"; Sinaiticus and Ephraemi read \"his voice.\" The Plain departs from Vaticanus.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; minuscule 248 also reads \"their,\" as Hart prints it (page image)",
     "orig": "δόξαν φωνῆς αὐτῶν",
     "en": "the glory of their voice",
     "plain": "the glory of their voice"
    },
    {
-    "w": "Codex Sinaiticus (ℵ) and Ephraemi (C), as in Swete's notes; KJV \"his glorious voice\"",
+    "w": "Codex Sinaiticus (ℵ) and Ephraemi (C), as in Swete's notes; in Hart's commentary also minuscules 70, 155, 253, 254, 296 and 307; KJV \"his glorious voice\"",
     "orig": "δόξαν φωνῆς αὐτοῦ",
     "en": "the glory of his voice",
     "plain": "the glory of his voice"
    }
   ],
   "follow": 1,
-  "why": "Here the Plain leaves Vaticanus. \"Their voice\" gives no clear sense (Israel did not hear its own voice at Sinai); the change of one ending (autōn for autou) is a common copying slip after the many \"their\"s in the verse. Deuteronomy 5:24, which the verse echoes, has \"his voice.\"",
+  "why": "Here the Plain makes a reasoned departure from Vaticanus, the base text, for a reading with good support in other witnesses. \"Their voice\" is hard to make sense of: Israel heard God's voice at Sinai, not its own. A change of one ending (autōn for autou) is an easy copying slip after the many \"their\"s in the verse. Deuteronomy 5:24, which the verse echoes, has \"his voice.\"",
   "s": [
    "swete-ot",
+   "hart-ecclesiasticus-248",
    "kjv-apocrypha"
   ]
  },
@@ -819,7 +1008,7 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
     "orig": "πᾶς δὲ ἄνθρωπος ἐκ νεότητος ἐπὶ τὰ πονηρά· καὶ οὐκ ἴσχυσαν τὰς καρδίας αὐτῶν ἀντὶ λιθίνων ποιῆσαι σαρκίνας",
     "en": "every person from youth is toward evil things, and they could not make their hearts fleshly instead of stony",
     "plain": "[Every person from youth up is bent on evil,"
@@ -846,7 +1035,7 @@
     "plain": "For each nation he appointed a ruler,"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"For in the division of the nations of the whole earth he set a ruler over every people\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"For in the division of the nations of the whole earth he set a ruler over every people\"",
     "orig": "ἐν γὰρ μερισμῷ τῶν ἐθνῶν τῆς γῆς πάσης ἑκάστῳ ἔθνει κατέστησεν ἡγούμενον",
     "en": "for in the dividing of the nations of all the earth he appointed a ruler for each nation",
     "plain": "For when the nations of all the earth were divided, he appointed a ruler for each nation,"
@@ -873,7 +1062,7 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
     "orig": "ὃν πρωτόγονον ὄντα τιθηνεῖ παιδείᾳ, καὶ μερίζων φῶς ἀγαπήσεως οὐκ ἀνίησιν αὐτόν",
     "en": "whom, being firstborn, he nurses with discipline, and sharing the light of love he does not let him go",
     "plain": "[He brings him up as his firstborn with discipline,"
@@ -881,6 +1070,33 @@
   ],
   "follow": 1,
   "why": "The Plain gives the line in brackets from Hart's text of 248 (also in minuscules 70 and 106). It expands 17:17's \"Israel is the Lord's share\" with Exodus 4:22 and Deuteronomy 32:10.",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "17:19",
+  "a": "Everything they do is like the sun in front of him",
+  "t": "\"Therefore\"",
+  "p": "Minuscule 248 and the KJV begin the verse with \"Therefore.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἅπαντα τὰ ἔργα αὐτῶν ὡς ὁ ἥλιος ἐναντίον αὐτοῦ",
+    "en": "all their works are like the sun before him",
+    "plain": "Everything they do is like the sun in front of him"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); in Hart's commentary also 70 and 106; KJV \"Therefore all their works are as the sun before him\"",
+    "orig": "διὸ πάντα τὰ ἔργα αὐτῶν ὡς ὁ ἥλιος ἐναντίον αὐτοῦ ἐστι",
+    "en": "therefore all their works are like the sun before him",
+    "plain": "Therefore everything they do is like the sun in front of him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. In 248 the verse follows the added lines of 17:16-18, and \"therefore\" links it to them.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
@@ -900,7 +1116,7 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
     "orig": "Κύριος δὲ χρηστὸς ὢν καὶ εἰδὼς τὸ πλάσμα αὐτοῦ οὔτε ἀνῆκεν αὐτοὺς οὔτε ἐγκατέλιπε φειδόμενος αὐτῶν",
     "en": "but the Lord, being kind and knowing his creature, neither let them go nor abandoned them, sparing them",
     "plain": "[But the Lord, being kind and knowing what he had shaped,"
@@ -927,7 +1143,7 @@
     "plain": "he will guard a person's kindness like the pupil of the eye"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"and give repentance to his sons and daughters\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"and give repentance to his sons and daughters\"",
     "orig": "καὶ χάριν ἀνθρώπου ὡς κόρην συντηρήσει, μερίζων υἱοῖς αὐτοῦ καὶ θυγατράσι μετάνοιαν",
     "en": "and he will keep a person's favor like the pupil, sharing repentance with his sons and daughters",
     "plain": "he will guard a person's kindness like the pupil of the eye, / and he gives repentance to his sons and daughters"
@@ -954,7 +1170,7 @@
     "plain": "turn from what is unjust"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"for he will lead thee out of darkness into the light of health\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"for he will lead thee out of darkness into the light of health\"",
     "orig": "καὶ ἀπόστρεφε ἀδικίας, αὐτὸς γὰρ ὁδηγήσει ἐκ σκότους εἰς φωτισμὸν ὑγείας",
     "en": "and turn from wrongdoing, for he will lead (you) out of darkness into the light of health",
     "plain": "turn from what is unjust, / for he will lead you out of darkness into the light of health"
@@ -981,7 +1197,7 @@
     "plain": "The Lord's mercy is so great"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscule 106; KJV \"How great is the lovingkindness of the Lord our God, and his compassion unto such as turn unto him in holiness!\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscule 106; KJV \"How great is the lovingkindness of the Lord our God, and his compassion unto such as turn unto him in holiness!\"",
     "orig": "ὡς μεγάλη ἡ ἐλεημοσύνη τοῦ κυρίου θεοῦ ἡμῶν",
     "en": "how great is the mercy of the Lord our God",
     "plain": "The mercy of the Lord our God is so great"
@@ -1034,7 +1250,7 @@
     "plain": "The Lord alone will be proven right."
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"The Lord only is righteous, and there is none other but he\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"The Lord only is righteous, and there is none other but he\"",
     "orig": "Κύριος μόνος δίκαιος καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ",
     "en": "the Lord alone is righteous, and there is no other besides him",
     "plain": "The Lord alone is righteous, / and there is no other besides him."
@@ -1069,7 +1285,7 @@
     "plain": ""
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV",
     "orig": "οἰακίζων τὸν κόσμον ἐν σπιθαμῇ χειρὸς αὐτοῦ, καὶ πάντα ὑπακούει τῷ θελήματι αὐτοῦ· αὐτὸς γὰρ βασιλεὺς πάντων ἐν κράτει αὐτοῦ διαστέλλων ἐν αὐτοῖς ἅγια ἀπὸ βεβήλων",
     "en": "steering the world in the span of his hand, and all things obey his will; for he is king of all in his might, separating among them holy things from common",
     "plain": "[He steers the world with the span of his hand,"
@@ -1080,6 +1296,41 @@
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "18:4",
+  "a": "He has allowed no one to tell his works in full",
+  "t": "\"No one\" or \"To whom?\"",
+  "p": "Vaticanus makes a statement, \"he allowed no one\"; minuscule 248 and the KJV ask \"To whom has he given power?\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus (corrector), Alexandrinus and Ephraemi spell the word οὐδενί (Swete's notes)",
+    "orig": "οὐθενὶ ἐξεποίησεν ἐξαγγεῖλαι τὰ ἔργα αὐτοῦ",
+    "en": "he allowed no one to declare his works",
+    "plain": "He has allowed no one to tell his works in full"
+   },
+   {
+    "w": "Minuscule 248 (Vatican codex 346), as J. H. A. Hart prints it (1909, page image); KJV \"To whom hath he given power to declare his works?\"",
+    "orig": "τίνι ἐξεποίησεν ἐξαγγεῖλαι τὰ ἔργα αὐτοῦ;",
+    "en": "to whom has he allowed (it) to declare his works?",
+    "plain": "To whom has he given the power to tell his works?"
+   },
+   {
+    "w": "Latin Vulgate 18:2 \"Quis sufficit enarrare opera illius?\" (Douay \"Who is able to declare his works?\")",
+    "orig": "Quis sufficit enarrare opera illius?",
+    "en": "who is able to tell his works?",
+    "plain": "Who is able to tell his works?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The question and the statement say the same thing: no one can tell all God's works. The question form matches the next line, \"who will track down all his great deeds?\"",
+  "s": [
+   "swete-ot",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine",
+   "douay-rheims",
    "kjv-apocrypha"
   ]
  },
@@ -1096,7 +1347,7 @@
     "plain": "that is how few the years are within the day of eternity"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"so are a thousand years to the days of eternity\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"so are a thousand years to the days of eternity\"",
     "orig": "οὕτως χίλια ἔτη ἐν ἡμέραις αἰῶνος",
     "en": "so are a thousand years in the days of eternity",
     "plain": "that is what a thousand years are within the days of eternity"
@@ -1141,7 +1392,7 @@
   "v": "18:23",
   "a": "Get yourself ready before you make a vow,",
   "t": "Prepare yourself, or prepare your vow?",
-  "p": "The Greek says \"prepare yourself\"; the Hebrew says \"prepare your vow\"; a corrector of Sinaiticus has \"your prayer.\"",
+  "p": "The Greek says \"prepare yourself\"; a corrector of Sinaiticus has \"prepare your prayer (vow).\"",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -1154,19 +1405,12 @@
     "orig": "πρὶν εὔξασθαί σε ἑτοίμασον τὴν εὐχήν σου",
     "en": "before you pray (vow), prepare your prayer (vow)",
     "plain": "Before you make a vow, get your vow ready,"
-   },
-   {
-    "w": "Hebrew: a Cairo Genizah manuscript, in Kahana's edition (1912), numbered 18:16 there",
-    "orig": "בְּטֶרֶם תִּדּוֹר הָכֵן נִדְרֶךָ",
-    "en": "before you vow, prepare your vow",
-    "plain": "Before you vow, get your vow ready,"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus. The Hebrew and the corrector agree that the thing to prepare is the vow itself; the sense is the same: think before you promise God anything.",
+  "why": "The Plain follows Vaticanus. The corrector of Sinaiticus makes the vow itself the thing to prepare; the sense is the same either way: think before you promise God anything.",
   "s": [
-   "swete-ot",
-   "kahana-ben-sira"
+   "swete-ot"
   ]
  },
  {
@@ -1182,7 +1426,7 @@
     "plain": "in days of sinning he keeps clear of guilty acts"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909); KJV \"but a fool will not observe time\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909); KJV \"but a fool will not observe time\"",
     "orig": "καὶ ἐν ἡμέραις ἁμαρτιῶν προσέξει ἀπὸ πλημμελείας, καὶ ἄφρων οὐ συντηρήσει καιρόν",
     "en": "and in days of sins he will guard against trespass, and a fool will not keep the time",
     "plain": "in days of sinning he keeps clear of guilty acts, / but a fool does not watch the time"
@@ -1200,7 +1444,7 @@
   "v": "18:33",
   "a": "while there is nothing in your money bag",
   "t": "A longer ending, and the Hebrew \"glutton and drunkard\"",
-  "p": "The longer Greek and the KJV add \"for you will plot against your own life\"; the Hebrew has \"glutton and drunkard.\"",
+  "p": "The longer Greek and the KJV add \"for you will plot against your own life\"; the Hebrew of manuscript C has \"glutton and drunkard.\"",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -1209,25 +1453,26 @@
     "plain": "while there is nothing in your money bag"
    },
    {
-    "w": "Minuscule 248 (a Vatican manuscript of the 1300s), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"for thou shalt lie in wait for thine own life, and be talked on\"",
+    "w": "Minuscule 248 (Vatican codex 346), in J. H. A. Hart's edition (1909), with minuscules 70 and 106; KJV \"for thou shalt lie in wait for thine own life, and be talked on\"",
     "orig": "καὶ οὐδέν σοι ἐστὶν ἐν μαρσιππίῳ· ἔσῃ γὰρ ἐπίβουλος τῆς ἰδίας ζωῆς λαλητός",
     "en": "and there is nothing in the purse, for you will be a plotter against your own life, talked about",
     "plain": "while there is nothing in your money bag, / for you will be plotting against your own life, and people will talk"
    },
    {
-    "w": "Hebrew: a Cairo Genizah manuscript, in Kahana's edition (1912)",
-    "orig": "אַל תּהִי זוֹלֵל וְסוֹבֵא, וּמְאוּמָה אֵין בַּכִּים",
+    "w": "Hebrew: Cairo Genizah manuscript C, folio V recto, lines 3-4 (Abegg's transcription; the last letter of \"anything\" is lost and restored in brackets)",
+    "orig": "אל תהי זולל וסובא ומאומ[ה] אין בכיס",
     "en": "do not be a glutton and a drunkard, when there is nothing in the purse",
     "plain": "while there is nothing in your purse, like a glutton and a drunkard"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus. The Hebrew uses the words of Deuteronomy 21:20 and Proverbs 23:20-21 for the glutton and the drunkard, which the grandson rendered with the Septuagint's verb for feasting (see the note).",
+  "why": "The Plain follows Vaticanus. The Hebrew of manuscript C uses the words of Deuteronomy 21:20 and Proverbs 23:20-21 for the glutton and the drunkard, which the grandson rendered with the Septuagint's verb for feasting (see the note). Kahana's edition (1912) prints the last word as bakkim, a misprint for bakkis, \"in the purse,\" which the manuscript has.",
   "s": [
    "swete-ot",
    "hart-ecclesiasticus-248",
    "kahana-ben-sira",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "rendsburg-binstein-bensira"
   ]
  }
 ]

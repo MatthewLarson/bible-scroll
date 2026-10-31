@@ -52,6 +52,33 @@
   ]
  },
  {
+  "v": "37:30",
+  "a": "brings pain",
+  "t": "Pain, or sickness?",
+  "p": "Vaticanus has \"pain\"; Sinaiticus, Alexandrinus and both Hebrew copies have \"sickness.\"",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "ἔσται πόνος",
+    "en": "there will be pain",
+    "plain": "brings pain"
+   },
+   {
+    "w": "Greek: Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), νόσος, as Swete's notes give them; the Latin Vulgate (its 37:33), \"infirmitas\"; the KJV (\"sickness\"); Hebrew: manuscript B (folio VIII recto, line 4) and manuscript D (folio II verso, lines 18-19) of the Cairo Genizah, חולי",
+    "orig": "ἔσται νόσος",
+    "en": "there will be sickness",
+    "plain": "brings sickness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text. \"Sickness\" has wide support, in two codices, the Latin and both Hebrew copies, and it fits the doctor passage that follows; the two Greek words differ by two letters.",
+  "s": [
+   "swete-ot-vol2",
+   "rendsburg-binstein-bensira",
+   "vulgate-clementine"
+  ]
+ },
+ {
   "v": "38:11",
   "a": "as though you were no more",
   "t": "\"As though you were no more,\" or \"as your means allow\"?",
@@ -71,7 +98,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain keeps the Greek, which may mean \"as one who is about to die,\" giving generously because life is at stake. The Hebrew is clearer and fits Ben Sira's advice at 14:11, \"My child, as much as you have, do yourself good, / and bring the Lord the offerings he deserves.\" The Greek translator may have misread the Hebrew phrase.",
+  "why": "The Plain keeps the Greek, which may mean \"as one who is about to die,\" giving generously because life is at stake. The Hebrew is clearer and fits Ben Sira's advice at 14:11, \"My child, as much as you have, do yourself good, / and bring the Lord the offerings he deserves.\"",
   "s": [
    "swete-ot-vol2",
    "kahana-ben-sira"
@@ -195,20 +222,72 @@
     "w": "Greek: a corrector of Codex Sinaiticus (ℵ c.a), as Swete's notes print it; the KJV has \"They shall not be sought for in publick counsel\"",
     "orig": "καὶ οὐ παροικήσουσιν οὐδὲ περιπατήσουσιν, ἀλλ᾽ εἰς βουλὴν λαοῦ ζητηθήσονται",
     "en": "and they will not sojourn or walk about, but they will be sought for the people's council",
-    "plain": "no one could live there as a stranger or walk about. / But they are not sought out for the people's council"
+    "plain": "no one could live there as a stranger or walk about, / but they will be sought out for the people's council"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus, which lacks the line. Swete's note gives the added words without \"not,\" while the KJV's line has it; the Plain of the second reading follows the sense of the passage (38:33), which says these workers do not lead in public life.",
+  "why": "The Plain follows Vaticanus, which lacks the line. Swete's note gives the added words without \"not,\" so in Sinaiticus's corrected text the workers are sought for the council, and 38:33 then says the opposite. The KJV's line, at its 38:33, has the \"not\": \"They shall not be sought for in publick counsel.\"",
   "s": [
    "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "38:33",
+  "a": "make righteousness and justice plain",
+  "t": "Righteousness, or instruction?",
+  "p": "Vaticanus has \"righteousness and justice\"; Sinaiticus and Alexandrinus have \"instruction and justice.\"",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "ἐκφάνωσιν δικαιοσύνην καὶ κρίμα",
+    "en": "make righteousness and judgment plain",
+    "plain": "make righteousness and justice plain"
+   },
+   {
+    "w": "Greek: Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), παιδείαν (written παιδιαν), as Swete's notes give them; no Hebrew survives for this verse",
+    "orig": "ἐκφάνωσιν παιδείαν καὶ κρίμα",
+    "en": "make instruction and judgment plain",
+    "plain": "make instruction and justice plain"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text. Either way the line says that workers do not teach or give rulings; the other codices make the teaching explicit.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "39:26",
+  "a": "fine flour, wheat",
+  "t": "Fine flour and wheat, or fine wheat flour?",
+  "p": "Vaticanus lists \"fine flour, wheat\" as two things; Sinaiticus has \"fine flour of wheat,\" one thing.",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "σεμίδαλις, πυρὸς",
+    "en": "fine flour, wheat",
+    "plain": "fine flour, wheat"
+   },
+   {
+    "w": "Greek: Codex Sinaiticus (ℵ), πυροῦ, as Swete's notes give it (Codex Ephraemi has πῦρ, \"fire\"); the KJV (\"flour of wheat\"); compare the Latin Vulgate (its 39:31), \"panis similagineus,\" \"bread of fine flour\"",
+    "orig": "σεμίδαλις πυροῦ",
+    "en": "fine flour of wheat",
+    "plain": "fine wheat flour"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text, which lists eleven things. With Sinaiticus the list has ten. The Hebrew of manuscript B is damaged at this point.",
+  "s": [
+   "swete-ot-vol2",
+   "vulgate-clementine",
+   "rendsburg-binstein-bensira"
   ]
  },
  {
   "v": "39:28",
   "a": "in their fury they lay on their whips harder",
   "t": "Whips, or moving mountains?",
-  "p": "The Greek has the winds harden their whips; the Hebrew has them move mountains in their anger.",
+  "p": "The Greek has the winds harden their whips; Kahana's Hebrew has them move mountains in their anger.",
   "readings": [
    {
     "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
@@ -217,14 +296,14 @@
     "plain": "in their fury they lay on their whips harder"
    },
    {
-    "w": "Hebrew manuscript B of the Cairo Genizah (Kahana's edition), ובאפם הרים יעתיקו; the Masada scroll (before AD 73) keeps the end of the line, יעתיקו, \"they move\"",
+    "w": "Hebrew: Kahana's edition of manuscript B of the Cairo Genizah, ובאפם הרים יעתיקו. The leaf itself (folio IX recto, line 17, in Abegg's transcription) keeps only ם יעתיק, with the last letter restored. The Masada scroll (first century BC), column I, line 3, keeps the letters ים יע, then a gap, then יקו with a doubtful ת before it: scraps that fit the same verb",
     "orig": "ובאפם הרים יעתיקו",
     "en": "and in their anger they move mountains",
     "plain": "in their anger they move mountains"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew, now partly confirmed by the Masada scroll, pictures the storm winds tearing at the mountains.",
+  "why": "The Plain follows the Greek. The Hebrew pictures the storm winds tearing at the mountains. Only the verb, \"they move,\" survives on manuscript B, and the Masada letters fit it, so the rest of the Hebrew line rests on Kahana's edition.",
   "s": [
    "swete-ot-vol2",
    "kahana-ben-sira",
@@ -348,7 +427,7 @@
     "plain": "Kindness is like a paradise rich in blessings"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), חסד כעד לא תכרת; manuscript B of the Cairo Genizah has וחסד לעולם לא ימוט, \"loyal love will never totter\"",
+    "w": "Hebrew: the Masada scroll (first century BC), חסד כעד לא תכרת; manuscript B of the Cairo Genizah has וחסד לעולם לא ימוט, \"loyal love will never totter\"",
     "orig": "חסד כעד לא תכרת",
     "en": "loyal love, like eternity, will not be cut off",
     "plain": "Loyal love, like eternity, will never be cut off"
@@ -362,26 +441,65 @@
   ]
  },
  {
+  "v": "40:18",
+  "a": "the one who has enough and for the worker",
+  "t": "Enough and wages, or wine and strong drink?",
+  "p": "The Greek speaks of the self-sufficient and the worker; the Masada scroll of plenty and wages; manuscript B of wine and strong drink.",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete, with no difference in Swete's notes",
+    "orig": "ζωὴ αὐτάρκους ἐργάτου",
+    "en": "the life of the self-sufficient, of the worker",
+    "plain": "the one who has enough and for the worker"
+   },
+   {
+    "w": "Hebrew: the Masada scroll (first century BC), column II, line 8, חיי יתר שכר, which Eric Reymond translates \"A life of plenty <and> (a life) of wages\"",
+    "orig": "חיי יתר שכר",
+    "en": "a life of plenty and of wages",
+    "plain": "the one who has plenty and for the wage-earner"
+   },
+   {
+    "w": "Hebrew: manuscript B of the Cairo Genizah (folio X recto, line 9), חיי יין ושכר, with יותר שכל, \"excess and good sense,\" in its margin",
+    "orig": "חיי יין ושכר",
+    "en": "a life of wine and strong drink",
+    "plain": "the one who has wine and strong drink"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Its two words stand side by side with no \"and\"; the Plain takes them as two people, because \"better than both\" needs two, as the KJV does (\"To labour, and to be content\") and as Reymond's translation of the Masada line does. The Latin takes them as one, \"a worker content with what he has.\" The Masada scroll is closest to the Greek; manuscript B has the pair \"wine and strong drink,\" which also stands at 40:20.",
+  "s": [
+   "swete-ot-vol2",
+   "rendsburg-binstein-bensira",
+   "vulgate-clementine"
+  ]
+ },
+ {
   "v": "40:20",
   "a": "the love of wisdom",
   "t": "Love of wisdom, or love of friends?",
-  "p": "The Greek has \"love of wisdom\"; the Hebrew has \"love of friends\" (dodim).",
+  "p": "The Greek has \"love of wisdom\" (Ephraemi: \"finding wisdom\"); the Hebrew has \"love of friends\" (dodim).",
   "readings": [
    {
-    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete and the other Greek copies",
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete and Codex Alexandrinus (A); in Codex Sinaiticus (ℵ) the words are written over an erasure by a corrector, as Swete's notes say",
     "orig": "ἀγάπησις σοφίας",
     "en": "love of wisdom",
     "plain": "the love of wisdom"
    },
    {
-    "w": "Hebrew manuscript B of the Cairo Genizah, אהבת דודים",
+    "w": "Greek: Codex Ephraemi (C), as Swete's notes give it",
+    "orig": "εὕρησις σοφίας",
+    "en": "finding of wisdom",
+    "plain": "finding wisdom"
+   },
+   {
+    "w": "Hebrew manuscript B of the Cairo Genizah (folio X recto, line 12), אהבת דודים",
     "orig": "אהבת דודים",
     "en": "love of beloved ones",
     "plain": "the love of friends"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. Dodim can mean friends or lovers, as in the Song of Songs (Song of Songs 5:1); the grandson, or the Hebrew text he had, made it the love of wisdom.",
+  "why": "The Plain follows the Greek. The Hebrew of manuscript B reads \"love of dodim,\" a word that can mean friends or lovers, as in the Song of Songs (Song of Songs 5:1).",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
@@ -389,29 +507,30 @@
  },
  {
   "v": "40:25",
-  "a": "a wife who is valued",
-  "t": "A wife, or good advice?",
-  "p": "The first hand of Vaticanus has \"a wife\"; the other codices and the Hebrew have \"counsel.\"",
+  "a": "advice held in high regard",
+  "t": "Advice, or a wife?",
+  "p": "The Plain follows the correctors of Vaticanus and the other codices, with the Latin: \"counsel.\" The first hand of Vaticanus, which Swete prints, has \"a wife.\"",
   "readings": [
    {
-    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete (first hand)",
-    "orig": "ὑπὲρ ἀμφότερα γυνὴ εὐδοκιμεῖται",
-    "en": "above both a wife is esteemed",
-    "plain": "a wife who is valued"
-   },
-   {
-    "w": "Greek: a corrector of Codex Vaticanus, Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C); Hebrew manuscript B of the Cairo Genizah in Kahana's edition, עצה טובה (the leaf is now damaged there); the KJV (\"counsel\")",
+    "w": "Greek: the correctors of Codex Vaticanus (B), Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C), βουλή, as Swete's notes give them; the Latin Vulgate (its 40:25), \"consilium beneplacitum\"; the KJV (\"counsel\"); Hebrew: Kahana's edition of manuscript B of the Cairo Genizah, עצה טובה, \"good counsel\" (Kahana's reading only: the leaf is now lost at this word, and Abegg's transcription of folio X recto, line 17, keeps only the start of the line, זהב וכס]ף)",
     "orig": "ὑπὲρ ἀμφότερα βουλὴ εὐδοκιμεῖται",
     "en": "above both counsel is esteemed",
-    "plain": "good advice, which is valued"
+    "plain": "advice held in high regard"
+   },
+   {
+    "w": "Greek: the first hand of Codex Vaticanus (B, 300s AD), as Swete prints it",
+    "orig": "ὑπὲρ ἀμφότερα γυνὴ εὐδοκιμεῖται",
+    "en": "above both a wife is esteemed",
+    "plain": "a wife held in high regard"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text, but the evidence for \"counsel\" is strong: every other Greek witness in Swete's notes and the Hebrew have it. The first hand of Vaticanus may have repeated \"wife\" from 40:19 and 40:23.",
+  "why": "The Plain departs from Swete's printed text here, as it does at 43:8, 43:9, 43:23 and 43:26. Every other Greek witness in Swete's notes, including the correctors of Vaticanus itself, has \"counsel,\" and so does the Latin; the only Hebrew is Kahana's, and it agrees. \"A wife\" looks like a slip from 40:19 and 40:23, where a wife is the better thing.",
   "s": [
    "swete-ot-vol2",
    "kahana-ben-sira",
-   "rendsburg-binstein-bensira"
+   "rendsburg-binstein-bensira",
+   "vulgate-clementine"
   ]
  },
  {
@@ -427,7 +546,7 @@
     "plain": "and they have covered him with more than any glory"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), damaged, and Kahana's edition of manuscript B of the Cairo Genizah (the leaf now reads וכן, \"and so,\" for ועל)",
+    "w": "Hebrew: the Masada scroll (first century BC), damaged, and Kahana's edition of manuscript B of the Cairo Genizah (the leaf now reads וכן, \"and so,\" for ועל)",
     "orig": "ועל כל כבוד חפתה",
     "en": "and over all glory is its canopy",
     "plain": "and its canopy is spread over all glory"
@@ -445,23 +564,29 @@
   "v": "41:2",
   "a": "who resists everyone and can bear no more",
   "t": "Contrary, or blind?",
-  "p": "The Greek says \"disobedient\"; the Masada scroll and the margin of manuscript B say his sight is gone.",
+  "p": "The Greek says \"disobedient,\" like the main text of manuscript B; the Masada scroll and the margin of B speak of sight that is gone.",
   "readings": [
    {
-    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete; Hebrew: the main text of manuscript B of the Cairo Genizah (folio X verso, line 10), סרב ואבד תקוה, \"contrary, and has lost hope\"",
     "orig": "ἀπειθοῦντι καὶ ἀπολωλεκότι ὑπομονήν",
     "en": "disobedient and having lost patience",
     "plain": "who resists everyone and can bear no more"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), אפס המרה ואבוד תקוה, and the margin of manuscript B of the Cairo Genizah, אפס המראה ואבד תקוה",
+    "w": "Hebrew: the Masada scroll (first century BC), column III, line 2, אפס המרה ואבוד תקוה, which Eric Reymond translates \"one lacking vision, void of hope.\" It spells המרה without the alef of the margin's המראה",
+    "orig": "אפס המרה ואבוד תקוה",
+    "en": "lacking sight, void of hope",
+    "plain": "whose sight is gone and who has lost hope"
+   },
+   {
+    "w": "Hebrew: two notes in the margin of manuscript B (folio X verso, line 10), אפס המראה ואבד תקוה",
     "orig": "אפס המראה ואבד תקוה",
     "en": "whose sight is gone and who has lost hope",
     "plain": "whose sight is gone and who has lost hope"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek, which matches the main text of manuscript B, סרב, \"contrary.\" The older Masada scroll has the reading about sight.",
+  "why": "The Plain follows the Greek, which agrees in sense with the main text of manuscript B, סרב, \"contrary.\" The margin of B has \"sight is gone\" (המראה). The Masada scroll writes המרה, without the alef; Reymond's translation takes it as \"vision,\" the margin's meaning.",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
@@ -506,7 +631,7 @@
     "plain": "but the name of sinners, which is not good, will be wiped out"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), שם חסד ללא יכרת, and manuscript B of the Cairo Genizah, אך שם חסד לא יכרת",
+    "w": "Hebrew: the Masada scroll (first century BC), שם חסד ללא יכרת, and manuscript B of the Cairo Genizah, אך שם חסד לא יכרת",
     "orig": "אך שם חסד לא יכרת",
     "en": "but a name of loyal love will not be cut off",
     "plain": "but a name of loyal love will never be cut off"
@@ -532,17 +657,44 @@
     "plain": "before the truth of God and the covenant"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), מהפר אלה וברית; manuscript B of the Cairo Genizah is damaged at the start but has אלה וברית",
+    "w": "Hebrew: the Masada scroll (first century BC), מהפר אלה וברית; manuscript B of the Cairo Genizah is damaged at the start but has אלה וברית",
     "orig": "מהפר אלה וברית",
     "en": "of breaking an oath and a covenant",
     "plain": "of breaking an oath and a covenant"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew makes the shameful act clear: going back on a sworn agreement. The Greek translator may have read 'alah, \"oath,\" as 'el, \"God.\"",
+  "why": "The Plain follows the Greek. The Hebrew makes the shameful act clear: going back on a sworn agreement.",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
+  ]
+ },
+ {
+  "v": "41:20",
+  "a": "eyeing a courtesan",
+  "t": "A courtesan, or another woman?",
+  "p": "Vaticanus has hetaira, \"courtesan\"; Sinaiticus, Alexandrinus, Ephraemi and the Masada scroll have \"another\" or \"a strange\" woman.",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete; the Latin Vulgate (its 41:25), \"mulieris fornicariae\"; the KJV (\"an harlot\")",
+    "orig": "ὁράσεως γυναικὸς ἑταίρας",
+    "en": "looking at a courtesan",
+    "plain": "eyeing a courtesan"
+   },
+   {
+    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C), ἑτέρας, as Swete's notes give them; Hebrew: the Masada scroll (first century BC), column IV, line 1, ומהתבונן אל זרה, which Eric Reymond translates \"and of noticing a foreign woman\" (manuscript B is damaged here)",
+    "orig": "ὁράσεως γυναικὸς ἑτέρας",
+    "en": "looking at another woman",
+    "plain": "eyeing another woman"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text. The two Greek words differ by one letter. The other codices and the Masada scroll agree on \"another\" or \"strange\" woman, the \"strange woman\" of Proverbs (Proverbs 5:20).",
+  "s": [
+   "swete-ot-vol2",
+   "rendsburg-binstein-bensira",
+   "vulgate-clementine"
   ]
  },
  {
@@ -558,7 +710,7 @@
     "plain": "the very old man who quarrels with young men"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), ב כושל ענה בזנות, and the margin of manuscript B of the Cairo Genizah, ושב כושל ועונה בזנות",
+    "w": "Hebrew: the Masada scroll (first century BC), ב כושל ענה בזנות, and the margin of manuscript B of the Cairo Genizah, ושב כושל ועונה בזנות",
     "orig": "ושב כושל ועונה בזנות",
     "en": "an old man who stumbles, busied with fornication",
     "plain": "the old man who stumbles into sexual sin"
@@ -566,6 +718,44 @@
   ],
   "follow": 0,
   "why": "The Plain follows the Greek. Both Hebrew copies speak of an old man and sexual sin; the main text of manuscript B has a longer form of the same idea.",
+  "s": [
+   "swete-ot-vol2",
+   "rendsburg-binstein-bensira"
+  ]
+ },
+ {
+  "v": "42:14",
+  "a": "a woman who brings shame brings disgrace",
+  "t": "A woman, a house, or a daughter?",
+  "p": "The second line differs in every copy. The Masada scroll and the margin of manuscript B speak of a daughter.",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete, with no difference in Swete's notes; the Latin Vulgate",
+    "orig": "καὶ γυνὴ καταισχύνουσα εἰς ὀνειδισμόν",
+    "en": "and a woman who shames, to reproach",
+    "plain": "a woman who brings shame brings disgrace"
+   },
+   {
+    "w": "Hebrew: the margin of manuscript B of the Cairo Genizah (folio XII recto, line 4), ובת מחרפת תביע חרפה",
+    "orig": "ובת מחרפת תביע חרפה",
+    "en": "and a daughter who shames pours out disgrace",
+    "plain": "a daughter who brings shame brings disgrace"
+   },
+   {
+    "w": "Hebrew: the Masada scroll (first century BC), column IV, line 25, ובת מפחדת מבול חרפה, which Eric Reymond translates \"(better even) than the daughter who dreads every (read מכול) reproach\"",
+    "orig": "ובת מפחדת מבול חרפה",
+    "en": "than a daughter who dreads every reproach",
+    "plain": "better even than a daughter who fears every disgrace"
+   },
+   {
+    "w": "Hebrew: the main text of manuscript B (folio XII recto, line 4), ובית מחרפת תביע אשה, which Abegg and Parker translate \"And a woman pours out a houseful of reproach\"",
+    "orig": "ובית מחרפת תביע אשה",
+    "en": "and a woman pours out a houseful of reproach",
+    "plain": "a woman pours out a houseful of disgrace"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The first line is the same in the Greek, manuscript B and the Masada scroll. In the second line the Masada scroll, copied in the first century BC, and the margin of B have \"daughter,\" which ties the saying to the father's worry over his daughter in 42:9-11.",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
@@ -584,7 +774,7 @@
     "plain": "I have pondered"
    },
    {
-    "w": "Greek: Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), διενοήθη; Hebrew: the Masada scroll (before AD 73) and manuscript B of the Cairo Genizah, ובמערמיהם יתבונן",
+    "w": "Greek: Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), διενοήθη; Hebrew: the Masada scroll (first century BC) and manuscript B of the Cairo Genizah, ובמערמיהם יתבונן",
     "orig": "καὶ ἐν πανουργεύμασιν αὐτῶν διενοήθη",
     "en": "and he understood their cunning",
     "plain": "he has understood"
@@ -610,14 +800,14 @@
     "plain": "the Lord knows"
    },
    {
-    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and probably the first hand of Codex Ephraemi (C); Hebrew: the Masada scroll (before AD 73), כי ידע עליון",
+    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and probably the first hand of Codex Ephraemi (C); Hebrew: the Masada scroll (first century BC), כי ידע עליון",
     "orig": "ἔγνω γὰρ ὁ ὕψιστος",
     "en": "for the Most High knew",
     "plain": "the Most High knows"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the base text. The difference does not change the meaning; it is entered because the Masada scroll, the oldest copy, agrees with the other Greek codices.",
+  "why": "The Plain follows the base text. The difference does not change the meaning; it is entered because the Masada scroll agrees with the other Greek codices.",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
@@ -625,25 +815,25 @@
  },
  {
   "v": "43:8",
-  "a": "It is a signal for the camps on high",
+  "a": "It is an instrument for the camps on high",
   "t": "Camps, or parables?",
   "p": "The Plain departs from Vaticanus's \"parables\" to follow the other codices and the Hebrew: \"camps.\"",
   "readings": [
    {
-    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C), παρεμβολῶν; Hebrew: the Masada scroll (before AD 73) and manuscript B of the Cairo Genizah, כלי צבא, \"an instrument of the army\"",
+    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C), παρεμβολῶν; Hebrew: the Masada scroll (first century BC) and manuscript B of the Cairo Genizah, כלי צבא, \"an instrument of the army\"",
     "orig": "σκεῦος παρεμβολῶν ἐν ὕψει",
     "en": "an instrument of the camps on high",
-    "plain": "It is a signal for the camps on high"
+    "plain": "It is an instrument for the camps on high"
    },
    {
     "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
     "orig": "σκεῦος παραβολῶν ἐν ὕψει",
     "en": "an instrument of parables on high",
-    "plain": "It is a signal of likenesses on high"
+    "plain": "It is an instrument of likenesses on high"
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from the base text here. Vaticanus's paraboloon differs from paremboloon by two letters and gives no clear sense; the Hebrew \"army\" (tsava') shows that the grandson wrote \"camps,\" meaning the stars as God's army.",
+  "why": "The Plain departs from the base text here. Vaticanus's paraboloon differs from paremboloon by two letters and gives no clear sense; the Hebrew \"army\" (tsava') agrees with \"camps,\" the stars as God's army. The Plain renders skeuos \"instrument\" here, as at 43:2.",
   "s": [
    "swete-ot-vol2",
    "rendsburg-binstein-bensira"
@@ -676,6 +866,63 @@
   ]
  },
  {
+  "v": "43:10",
+  "a": "by holy words",
+  "t": "Holy words, or the Holy One's words?",
+  "p": "Vaticanus has \"holy words\"; the other codices have \"the words of the Holy One\"; the Hebrew has \"the word of the Lord.\"",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "ἐν λόγοις ἁγίοις",
+    "en": "by holy words",
+    "plain": "by holy words"
+   },
+   {
+    "w": "Greek: Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and Codex Ephraemi (C), ἁγίου, as Swete's notes give them; the KJV (\"At the commandment of the Holy One\")",
+    "orig": "ἐν λόγοις ἁγίου",
+    "en": "by the words of the Holy One",
+    "plain": "by the Holy One's words"
+   },
+   {
+    "w": "Hebrew: the Masada scroll (first century BC), column VI, line 3, בדבר אדני; manuscript B of the Cairo Genizah (folio XII verso, line 12), בדבר אל",
+    "orig": "בדבר אדני",
+    "en": "by the word of the Lord",
+    "plain": "by the Lord's word"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text. The other codices and the Hebrew agree that the word is God's; in Vaticanus \"holy\" describes the words themselves.",
+  "s": [
+   "swete-ot-vol2",
+   "rendsburg-binstein-bensira"
+  ]
+ },
+ {
+  "v": "43:13",
+  "a": "makes the snow settle",
+  "t": "Settles the snow, or hurries it?",
+  "p": "Swete prints \"settled\" (katepausen); a corrector of Vaticanus, Alexandrinus and Ephraemi have \"hurried\" (katespeusen).",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B, 300s AD), apparently the first hand, and Codex Sinaiticus (ℵ), as Swete prints them",
+    "orig": "κατέπαυσεν χιόνα",
+    "en": "he made the snow rest",
+    "plain": "makes the snow settle"
+   },
+   {
+    "w": "Greek: the correctors of Codex Vaticanus, writing over an erasure, Codex Alexandrinus (A) and Codex Ephraemi (C), κατέσπευσεν, as Swete's notes give them",
+    "orig": "κατέσπευσεν χιόνα",
+    "en": "he hurried the snow",
+    "plain": "makes the snow hurry"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text. The two verbs differ by one letter. The Hebrew copies do not have snow here at all (see the note on this verse).",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
   "v": "43:17",
   "a": "His thunder's roar reproaches the earth",
   "t": "Reproaches, or makes the earth writhe?",
@@ -688,7 +935,7 @@
     "plain": "His thunder's roar reproaches the earth"
    },
    {
-    "w": "Greek: Codex Alexandrinus (A), ὠδίνησεν; Hebrew: the Masada scroll (before AD 73) and manuscript B of the Cairo Genizah, קול רעמו יחיל ארצו",
+    "w": "Greek: Codex Alexandrinus (A), ὠδίνησεν; Hebrew: the Masada scroll (first century BC) and manuscript B of the Cairo Genizah, קול רעמו יחיל ארצו",
     "orig": "φωνὴ βροντῆς αὐτοῦ ὠδίνησεν γῆν",
     "en": "the voice of his thunder made the earth writhe",
     "plain": "His thunder's roar makes the earth writhe"
@@ -708,7 +955,7 @@
   "p": "Here the Plain departs from Swete's text, \"Jesus (Joshua) planted it,\" and follows the Hebrew and Latin, \"islands.\"",
   "readings": [
    {
-    "w": "Hebrew manuscript B of the Cairo Genizah, ויט בתהום איים, \"and he spread out islands in the deep\"; the Masada scroll (before AD 73) keeps the last word, איים; the Latin Vulgate, plantavit in illa Dominus insulas, \"the Lord planted islands in it\"; the KJV (\"planteth islands therein\")",
+    "w": "Hebrew manuscript B of the Cairo Genizah, ויט בתהום איים, \"and he spread out islands in the deep\"; the Masada scroll (first century BC) keeps the last word, איים; the Latin Vulgate, plantavit in illa Dominus insulas, \"the Lord planted islands in it\"; the KJV (\"planteth islands therein\")",
     "orig": "איים",
     "en": "islands",
     "plain": "and in it he planted islands"
@@ -748,7 +995,7 @@
     "plain": "and herds of cattle"
    },
    {
-    "w": "Hebrew: the Masada scroll (before AD 73), גבורת רהב; manuscript B of the Cairo Genizah has וגבורות רבה, \"and mighty things of the deep\"",
+    "w": "Hebrew: the Masada scroll (first century BC), גבורת רהב; manuscript B of the Cairo Genizah has וגבורות רבה, \"and mighty things of the deep\"",
     "orig": "גבורת רהב",
     "en": "the might of Rahab",
     "plain": "and the might of Rahab"
