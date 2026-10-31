@@ -30,8 +30,9 @@ Parts (all write at the same time and cannot see each other):
 - **Base text: the Greek** in `texts/orig/Sir.json` (Swete, Codex Vaticanus), the grandson's translation, which is the
   form Catholic and Orthodox churches received. The Hebrew original survives for about two-thirds of the book; it is a
   witness, not the base. Wherever the Hebrew differs in meaning, give a variant entry (and a note where it matters).
-- **Numbering: Swete's Greek order and verse numbers everywhere** (the order of the Greek manuscripts, also used by
-  Rahlfs, the Göttingen edition and Orthodox Bibles). In chapters 30-36 the Hebrew and Latin order, which the KJV and
+- **Numbering: Swete's Greek order and verse numbers everywhere** (the order of the Greek manuscripts as Swete prints
+  them; Ziegler's Göttingen edition restores the Hebrew/Latin order, as the NETS introduction says; do not claim what any
+  other edition or Bible does without opening it). In chapters 30-36 the Hebrew and Latin order, which the KJV and
   most English Bibles follow, has two long blocks the other way round, and English Bibles do not agree with each other
   on verse numbers there. Every Plain verse is one Greek verse; never merge, split or reorder. `texts/en/Sir.json`
   shows the KJV under the Greek verse that holds each line, marked "[KJV c:v]", from `tools/sir-numbers.tsv` (read
