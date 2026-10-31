@@ -89,7 +89,7 @@ that followed (STYLE.md rule 2: no detail from memory; briefs `bible/tools/agent
 1. **Restore true material removed for lack of search budget.** During the verification pass some agents ran out of
    web searches and removed claims they could not check, even where the claim is likely true. Each part's log
    (`.scratch/<id>-<part>-verify/sources-checked.md`) and its review.md "Verification pass" / "Verification fixes"
-   sections list what was removed. Known examples: Ben Sira 49:10 ("the Twelve Prophets"), Herodotus 8.98,
+   sections list what was removed. Known examples: Herodotus 8.98,
    Xenophon and Behistun in Zechariah 01-08; Schleitheim article 3 and Calvin, *Institutes* 4.17.38 in 1 Corinthians
    09-11; the 1:1 calendar dates in Zechariah were never checked against a table. Restore each only from a page
    opened in that session. Card views still missing are listed under "Card restoration" in each review.md.

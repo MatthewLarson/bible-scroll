@@ -25,16 +25,18 @@ function makeRefs(books){
 
   /* -> [{start, end, book, c, v, c2, v2, label}] */
   function findRefs(text, ctx, listMode, pre='', onAmb=null){
-    const out = []; let book = null, lastEnd = -1, namedAt = -1, m;
+    const out = []; let book = null, lastEnd = -1, namedAt = -1, skipping = false, m;   // skipping: a list begun after "KJV" etc.
     RE.lastIndex = 0;
     while((m = RE.exec(text))){
       const [all, bname, c, v, x, y] = m; const start = m.index; let amb = false;
       if(bname && /\d\s$/.test(pre + text.slice(0, start))) { lastEnd = -1; continue; }   // "4 Ezra 8:3", "4 Maccabees 1:1": a numbered work outside the 66, not Ezra
-      if(bname){ book = OF[bname.replace(/\s+/g,' ')]; namedAt = start; }
+      if(bname){ book = OF[bname.replace(/\s+/g,' ')]; namedAt = start; skipping = false; }
       else {
         const before = (pre + text.slice(0, start)).slice(-30);   // pre: text just before this one on the page, e.g. an <i>title</i>
         const gap = lastEnd >= 0 ? text.slice(lastEnd, start) : null;
         const continues = gap !== null && /^\s*(?:[;,]|and|,\s*and)\s*$/.test(gap);
+        if(skipping && continues){ lastEnd = start + all.length; continue; }   // "KJV 33:16; 34:1": the whole list is KJV
+        skipping = false;
         if(!v){   // a bare number only counts as ", 37" continuing a verse list: "Psalm 89:27, 37"
           if(!(continues && /^\s*,\s*$/.test(gap) && out.length && out[out.length-1].v)) continue;
           const p = out[out.length-1];
@@ -42,8 +44,8 @@ function makeRefs(books){
           if(!valid(r)) continue;
           r.label = label(r); out.push(r); lastEnd = r.end; continue;
         }
-        const w = (before.match(/([A-Z][a-z']+)\.?\s$/)||[])[1];
-        if(w && !PLAIN_WORDS.has(w) && !OF[w]) { lastEnd = -1; continue; }
+        const w = (before.match(/([A-Z][A-Za-z']+)\.?\s$/)||[])[1];   // also "KJV 34:18", "LXX 3:4", "CD 6:5": another numbering or work
+        if(w && !PLAIN_WORDS.has(w) && !OF[w]) { skipping = /^[A-Z]{2,}/.test(w); lastEnd = skipping ? start + all.length : -1; continue; }
         if(/[\d.]$/.test(before)) continue;
         const paren = text.lastIndexOf('(', start), sameParen = paren >= 0 && text.lastIndexOf(')', start) < paren && namedAt > paren;
         amb = !listMode && !continues && sameParen && book && book !== ctx;   // "(Psalm 93:1; compare 96:10)": which book is 96:10 in? the build asks for the name
