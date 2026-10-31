@@ -1,5 +1,38 @@
 [
  {
+  "v": "30:7",
+  "a": "Over his sons' lives",
+  "t": "'Sons' or 'son'?",
+  "p": "Vaticanus has 'sons' in the plural; a corrector of Sinaiticus and Alexandrinus have 'son', which suits reading the first words as 'one who cherishes'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "περὶ ψυχῶν υἱῶν καταδεσμεύσει τραύματα αὐτοῦ",
+    "en": "for the lives of sons he will bind up his wounds",
+    "plain": "Over his sons' lives"
+   },
+   {
+    "w": "A corrector of Sinaiticus (ℵc.a) and Codex Alexandrinus (Swete's notes: υιον)",
+    "orig": "περὶ ψυχῶν υἱὸν καταδεσμεύσει τραύματα αὐτοῦ",
+    "en": "(read as περιψύχων υἱόν) one who cherishes a son will bind up his wounds",
+    "plain": "Whoever coddles his son"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 30:7; the KJV (\"He that maketh too much of his son shall bind up his wounds\")",
+    "orig": "Pro animabus filiorum colligabit vulnera sua",
+    "en": "for the souls of his sons he will bind up his own wounds",
+    "plain": "For his sons' lives"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text. With the singular 'son' the letters read most easily as one word, 'cherishing' (see the note); the KJV's sense rests on that reading.",
+  "s": [
+   "swete-ot-vol2",
+   "vulgate-org",
+   "lsj-perseus-sir30-36"
+  ]
+ },
+ {
   "v": "30:11",
   "a": "Do not give him free rein in his youth",
   "t": "A second line in the Hebrew and Latin",
@@ -12,8 +45,8 @@
     "plain": "Do not give him free rein in his youth"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:11",
-    "orig": "אל תמשילהו בנעוריו, ואל תשא לשחיתותיו",
+    "w": "Hebrew of the Cairo Genizah manuscript B, folio III recto, line 1 (Abegg's transcription)",
+    "orig": "אל תמשילהו בנעוריו ואל תשא לשחיתותיו",
     "en": "Do not let him rule in his youth, and do not overlook his corruptions",
     "plain": "Do not give him free rein in his youth, / and do not wink at his wrongdoing"
    },
@@ -25,18 +58,18 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain translates the Greek, the base text of this site's Sirach. The Hebrew line is probably original and fell out of the Greek tradition early, since it is in the Latin made from a longer Greek text.",
+  "why": "The Plain translates the Greek, the base text of this site's Sirach. The Hebrew's second line is also in the Latin, so it was in at least one other form of the text.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "30:12",
   "a": "Bruise his ribs while he is still small",
   "t": "A longer verse in the Hebrew and Latin",
-  "p": "The Hebrew and Latin begin with 'Bow his head (neck) in his youth'. The variant at the end of the verse goes with this one.",
+  "p": "The Hebrew of MS B and the Latin begin with 'Bow his head (neck) in his youth'. The variant at the end of the verse goes with this one.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with Sinaiticus and Alexandrinus",
@@ -45,8 +78,8 @@
     "plain": "Bruise his ribs while he is still small"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:12",
-    "orig": "כוף ראשו בנערותו, ובקע מתניו כשהוא קטן",
+    "w": "Hebrew of MS B, folio III recto, line 3 (line 2 gives another form: \"pound his loins while he is still a youth\")",
+    "orig": "כיף ראשו בנערותו ובקע מתניו כשהוא קטן",
     "en": "Bend his head in his youth, and split his loins while he is small",
     "plain": "Bow his head down while he is young, / and beat his sides while he is still small"
    },
@@ -58,18 +91,18 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew's extra line is a common Hebrew pairing (head and loins); the Greek translator, or the copyists after him, kept only one line.",
+  "why": "The Plain follows the Greek. The Hebrew's extra line is a common Hebrew pairing (head and loins); the Greek has only one line.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "30:12",
   "a": "or he may grow hard and refuse to obey you",
   "t": "A closing line: 'grief to you from him'",
-  "p": "The Hebrew and Latin end the verse with grief for the father. It goes with the variant at the start of the verse.",
+  "p": "The Hebrew of MS B and the Latin end the verse with grief for the father. It goes with the variant at the start of the verse.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
@@ -78,8 +111,8 @@
     "plain": "or he may grow hard and refuse to obey you"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:12; similarly the Latin Vulgate (Clementine) 30:12 and the KJV",
-    "orig": "למה ישקה ומרה בך, ונולד ממנו מפח נפש",
+    "w": "Hebrew of MS B, folio III recto, line 4 (in the margin יקשיח, \"become stubborn\"); similarly the Latin Vulgate (Clementine) 30:12 and the KJV",
+    "orig": "למה ישקה ומרה בך ונולד ממנו מפח נפש",
     "en": "lest he grow stubborn and rebel against you, and grief of soul be born to you from him",
     "plain": "or he may grow hard and refuse to obey you, / and you will have grief from him"
    }
@@ -88,8 +121,8 @@
   "why": "The Plain follows the Greek, its base text.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
@@ -122,7 +155,7 @@
   "v": "30:17",
   "a": "or than a sickness that never leaves",
   "t": "'Eternal rest' in some witnesses",
-  "p": "A corrector of Sinaiticus, the Hebrew and the Latin read 'and eternal rest' is better than lasting sickness.",
+  "p": "A corrector of Sinaiticus, the Hebrew of MS B and the Latin read 'and eternal rest' is better than lasting sickness.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete; first hand of Sinaiticus; Alexandrinus; Ephraemi; the KJV",
@@ -131,25 +164,25 @@
     "plain": "or than a sickness that never leaves"
    },
    {
-    "w": "A corrector of Sinaiticus (ℵc.a), adding καὶ ἀνάπαυσις αἰώνιος; Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:17; Latin Vulgate (Clementine) 30:17 (requies aeterna)",
+    "w": "A corrector of Sinaiticus (ℵc.a), adding καὶ ἀνάπαυσις αἰώνιος; Hebrew of MS B, folio III recto, line 9 (ונוחת עולם); Latin Vulgate (Clementine) 30:17 (requies aeterna)",
     "orig": "καὶ ἀνάπαυσις αἰώνιος ... ἢ ἀρρώστημα ἔμμονον",
     "en": "and eternal rest (is better) than a lasting illness",
     "plain": "and eternal rest than a sickness that never leaves"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows its base text. The Hebrew shows that 'eternal rest' was in Ben Sira's original; the corrector of Sinaiticus brought the Greek closer to it. 'Eternal rest' here means the sleep of death, not a heavenly reward.",
+  "why": "The Plain follows its base text. The Hebrew of MS B has 'everlasting rest' too, so the corrector of Sinaiticus brought the Greek in line with a reading the Hebrew also has. 'Eternal rest' here means the sleep of death, not a heavenly reward.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "30:19",
   "a": "So it is with the one whom the Lord is hounding.",
   "t": "The sick man, or the rich man?",
-  "p": "The Greek compares the sick man to an idol at a feast; the Hebrew compares a rich man who cannot enjoy his wealth.",
+  "p": "The Greek compares the sick man to an idol at a feast; the Hebrew of MS B compares a rich man who cannot enjoy his wealth.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices",
@@ -158,8 +191,8 @@
     "plain": "So it is with the one whom the Lord is hounding."
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:20",
-    "orig": "כן מי שיש לו עושר, ואין נהנה ממנו",
+    "w": "Hebrew of MS B, folio III recto, line 11 (the second line of the verse, with some letters damaged and the opening words restored by Abegg)",
+    "orig": "כן מי שיש לו עושר ואין נהנה ממנו",
     "en": "So is one who has wealth and does not enjoy it",
     "plain": "So it is with one who has wealth / and gets no pleasure from it."
    },
@@ -171,18 +204,18 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek, which Catholic and Orthodox churches received. The Hebrew line fits the setting of food (30:18) and may be Ben Sira's own; the Greek turns it toward sickness as God's punishment.",
+  "why": "The Plain follows the Greek, its base text. The Hebrew line fits the setting of food (30:18); the Greek points toward sickness as God's punishment.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "30:20",
   "a": "like a eunuch who holds a young woman in his arms and groans",
   "t": "An added line: 'so is one who does justice by force'",
-  "p": "A later hand in Vaticanus and the Hebrew add the line found at 20:4.",
+  "p": "A later hand in Vaticanus and the Hebrew of MS B add the line found at 20:4.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete (the first hand), with Sinaiticus and Alexandrinus",
@@ -191,24 +224,24 @@
     "plain": "like a eunuch who holds a young woman in his arms and groans"
    },
    {
-    "w": "A corrector of Vaticanus (Bᵇ) in the margin; Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 30:22",
+    "w": "A corrector of Vaticanus (Bᵇ) in the margin; Hebrew of MS B, folio III recto, line 12",
     "orig": "+ οὕτως ὁ ποιῶν ἐν βίᾳ κρίματα (Hebrew כן עושה באונס משפט)",
     "en": "so is the one who does justice by force",
     "plain": "like a eunuch who holds a young woman in his arms and groans. / So is the one who does justice by force"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the first hand. The added line is the end of 20:4 and probably came in from there, though the Hebrew has it here too.",
+  "why": "The Plain follows the first hand. The added line is the end of 20:4 and may have come in from there, though MS B has it here too.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira"
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "30:39",
   "a": "treat him like yourself",
   "t": "'Like yourself' or 'like a brother'?",
-  "p": "Vaticanus repeats 'like yourself'; Sinaiticus, Alexandrinus, Ephraemi, the Latin and the KJV say 'like a brother'.",
+  "p": "Vaticanus repeats 'like yourself'; Sinaiticus, Alexandrinus, Ephraemi, the Hebrew of MS E, the Latin and the KJV say 'like a brother'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
@@ -217,17 +250,18 @@
     "plain": "treat him like yourself"
    },
    {
-    "w": "Codex Sinaiticus, Alexandrinus and Ephraemi, as Swete's notes give them; Latin Vulgate (Clementine) 33:31 (quasi fratrem); the KJV (33:31, \"entreat him as a brother\")",
+    "w": "Codex Sinaiticus, Alexandrinus and Ephraemi, as Swete's notes give them; Hebrew of MS E, folio I verso, line 19 (אחד עבדך כאח, \"Have you one slave? Like a brother...\"); Latin Vulgate (Clementine) 33:31 (quasi fratrem); the KJV (33:31, \"entreat him as a brother\")",
     "orig": "ἄγε αὐτὸν ὡς ἀδελφόν",
     "en": "treat him as a brother",
     "plain": "treat him like a brother"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows its base text. 'Brother' may be original, since Vaticanus's 'yourself' repeats the first line; but both readings say the same thing.",
+  "why": "The Plain follows its base text. 'Brother' has the Hebrew of MS E on its side, and Vaticanus's 'yourself' repeats the first line; but both readings say the same thing.",
   "s": [
    "swete-ot-vol2",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-mse"
   ]
  },
  {
@@ -243,7 +277,7 @@
     "plain": "A well-taught man knows many things"
    },
    {
-    "w": "Codex Sinaiticus and, it seems, the first hand of Alexandrinus (Swete's notes); the KJV (34:9, \"A man that hath travelled\")",
+    "w": "Codex Sinaiticus and the first hand of Alexandrinus (Swete reads A's first hand with a query: A*vid); the KJV (34:9, \"A man that hath travelled\")",
     "orig": "Ἀνὴρ πεπλανημένος ἔγνω πολλά",
     "en": "A man who has wandered knew many things",
     "plain": "A man who has traveled knows many things"
@@ -313,10 +347,38 @@
   ]
  },
  {
+  "v": "32:1",
+  "a": "Whoever keeps the law piles up contributions;",
+  "t": "'Contributions' or 'offerings'?",
+  "p": "Swete prints symphoras, 'things brought together'; Sinaiticus and Alexandrinus read prosphoras, 'offerings', as the Latin and the KJV do.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "Ὁ συντηρῶν νόμον πλεονάζει συμφοράς",
+    "en": "The one who keeps the law multiplies contributions",
+    "plain": "Whoever keeps the law piles up contributions;"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (Swete's notes); Latin Vulgate (Clementine) 35:1 (multiplicat oblationem); the KJV (35:1, \"bringeth offerings enough\")",
+    "orig": "Ὁ συντηρῶν νόμον πλεονάζει προσφοράς",
+    "en": "The one who keeps the law multiplies offerings",
+    "plain": "Whoever keeps the law brings offerings in plenty;"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's word. Liddell, Scott and Jones give symphora first as 'a bringing together' and, in a later writer, 'a contribution', though its common sense is 'event' or 'misfortune'; 'contributions' is the sense that fits a list of offerings (32:2–4). The 'offerings' of Sinaiticus, Alexandrinus and the Latin say it more plainly. No Hebrew manuscript read for this site covers the verse: MS B has a gap here, and its next leaf begins at 32:11.",
+  "s": [
+   "swete-ot-vol2",
+   "vulgate-org",
+   "lsj-perseus-sir30-36",
+   "abegg-bensira-msb-iii-vii"
+  ]
+ },
+ {
   "v": "33:1",
   "a": "Have mercy on us, Master, God of all",
   "t": "'Have mercy' or 'Save us'?",
-  "p": "Alexandrinus leaves out 'Master'; the Hebrew begins 'Save us, God of all'.",
+  "p": "Alexandrinus leaves out 'Master'; the Hebrew of MS B begins 'Save us, God of all'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with Sinaiticus",
@@ -331,7 +393,7 @@
     "plain": "Have mercy on us, God of all"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:1",
+    "w": "Hebrew of MS B, folio VI verso, line 1",
     "orig": "הושיענו אלהי הכל",
     "en": "Save us, God of all",
     "plain": "Save us, God of all"
@@ -341,18 +403,18 @@
   "why": "The Plain follows its base text. The Hebrew 'save us' is the cry of Psalm 106:47; the Greek 'have mercy' is the opening of many prayers.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "33:2",
   "a": "cast the fear of you on all the nations",
   "t": "'The nations that have not sought you'",
-  "p": "The Latin and the KJV add 'that have not sought you'. The Greek and the Hebrew do not.",
+  "p": "The Latin and the KJV add 'that have not sought you'. The Greek and the Hebrew of MS B do not.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:1 (\"lift up your terror over all the nations\")",
+    "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Hebrew of MS B, folio VI verso, line 1 (\"...your fear on all the nations,\" the verb damaged)",
     "orig": "ἐπίβαλε τὸν φόβον σου ἐπὶ πάντα τὰ ἔθνη",
     "en": "cast your fear on all the nations",
     "plain": "cast the fear of you on all the nations"
@@ -365,18 +427,18 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek; the Hebrew agrees with it in having no limit. The Latin narrows the prayer to the nations that do not seek God.",
+  "why": "The Plain follows the Greek; the Hebrew of MS B agrees with it in having no limit. The Latin narrows the prayer to the nations that do not seek God.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "33:10",
   "a": "Hurry the time and remember your oath",
   "t": "'Your oath' or 'the set time'?",
-  "p": "The Hebrew asks God to hurry 'the end' and appoint 'the set time'; the Latin says 'remember the end'.",
+  "p": "The Hebrew of MS B asks God to hurry 'the end' and appoint 'the set time'; the Latin says 'remember the end'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices",
@@ -385,8 +447,8 @@
     "plain": "Hurry the time and remember your oath"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:7",
-    "orig": "החיש קץ ופקוד מועד, כי מי יאמר לך מה תעשה",
+    "w": "Hebrew of MS B, folio VI verso, line 7",
+    "orig": "החיש קץ ופקוד מועד כי מי יאמר לך מה תעשה",
     "en": "Hasten the end and appoint the set time, for who can say to you, 'What are you doing?'",
     "plain": "Hurry the end and appoint the set time"
    },
@@ -401,15 +463,15 @@
   "why": "The Plain follows the Greek. The Hebrew's 'end' (qets) and 'set time' (mo'ed) are the words of Habakkuk 2:3 and Daniel 8:19; the Hebrew also adds a line that the Greek lacks.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "33:12",
   "a": "Smash the heads of the enemy's rulers",
   "t": "'The enemy's rulers' or 'Moab'?",
-  "p": "Where the Greek has 'rulers of the enemies', the Hebrew names Moab, in the words of Balaam's oracle.",
+  "p": "Where the Greek has 'rulers of the enemies', the Hebrew of MS B names Moab, in the words of Balaam's oracle; its margin reads 'enemy'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Latin Vulgate (Clementine) 36:12; the KJV (36:10, \"the rulers of the heathen\")",
@@ -418,19 +480,19 @@
     "plain": "Smash the heads of the enemy's rulers"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:8",
+    "w": "Hebrew of MS B, folio VI verso, line 8 (the margin reads אויב, \"enemy,\" for \"Moab\")",
     "orig": "השבת ראש פאתי מואב",
     "en": "Put an end to the head of the brows of Moab",
     "plain": "Make an end of the brows of Moab"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew takes up Numbers 24:17, \"It will smash the brows of Moab,\" with 'Moab' as a name for Israel's enemies; its second line is singular, \"who says, 'There is no one but me.'\" The grandson, writing for readers in Egypt, made the prayer general.",
-  "b": "<p>Moab had long ceased to be a power in Ben Sira's time, so the Hebrew uses it as a code name, as Isaiah 25:10 and Balaam's oracle do. Some scholars think it stands for the Seleucid empire.</p>",
+  "why": "The Plain follows the Greek. The Hebrew takes up Numbers 24:17, \"It will smash the brows of Moab,\" with 'Moab' standing for Israel's enemies; its second line is singular, \"who says, 'There is no one but me.'\" The margin of MS B reads 'enemy' in place of 'Moab', the word the Greek has.",
+  "b": "<p>Moab had long ceased to be a power in Ben Sira's time, so the Hebrew uses it as a name for the enemy, as Isaiah 25:10 and Balaam's oracle do.</p>",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
@@ -453,61 +515,109 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows its base text. The two Greek words differ by one letter; 'mad about it' (the root of English 'enthusiasm') may be the grandson's word, but 'sacrifice' fits the picture of gold as an idol.",
+  "why": "The Plain follows its base text. The two Greek words differ by one letter; 'mad about it' gives English its 'enthusiasm', but 'sacrifice' fits the picture of gold as an idol.",
   "s": [
    "swete-ot-vol2"
   ]
  },
  {
-  "v": "35:14",
-  "a": "will accept discipline",
-  "t": "A spelling slip in Vaticanus",
-  "p": "Swete prints Vaticanus's spelling paidian, 'play'; the corrected Vaticanus and Alexandrinus spell paideian, 'discipline'.",
+  "v": "34:21",
+  "a": "get up halfway through the meal",
+  "t": "'Halfway', a misspelling, or 'vomit'?",
+  "p": "Swete prints mesoporōn, the reading of a corrector of Sinaiticus; Vaticanus, Alexandrinus and Ephraemi spell mesopōrōn; the Latin says 'vomit'.",
   "readings": [
    {
-    "w": "Codex Vaticanus, first hand, as printed by Swete",
-    "orig": "ἐκδέξεται παιδίαν",
-    "en": "will receive play",
-    "plain": "will accept play"
+    "w": "Swete's text, the reading of a corrector of Sinaiticus (ℵc.a)",
+    "orig": "ἀνάστα μεσοπορῶν",
+    "en": "get up, being halfway",
+    "plain": "get up halfway through the meal"
    },
    {
-    "w": "Correctors of Vaticanus (Bᵃᵇ) and Codex Alexandrinus (Swete's notes); the KJV (32:14, \"his discipline\"); Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 32:14 (מוסר)",
+    "w": "Codex Vaticanus, Alexandrinus and Ephraemi (Swete's notes: μεσοπωρων); the first hand of Sinaiticus has μεσοπωρον",
+    "orig": "ἀνάστα μεσοπωρῶν",
+    "en": "get up (a spelling of the same word with ω)",
+    "plain": "get up halfway through the meal"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 31:25; the KJV (31:21, \"arise, go forth, vomit\"); compare the second form of the line in the Hebrew of MS B, folio IV verso, line 2",
+    "orig": "surge e medio, evome",
+    "en": "get up from the middle, vomit",
+    "plain": "get up and leave the table, and vomit"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints the corrected reading of Sinaiticus against Vaticanus, Alexandrinus and Ephraemi; their mesopōrōn is not a known Greek word and reads as a misspelling of mesoporōn, which Liddell, Scott and Jones give as 'be halfway', used of a meal at this verse. The Plain follows Swete. 'Vomit' is in the Latin and in one line of MS B, not in the Greek.",
+  "s": [
+   "swete-ot-vol2",
+   "vulgate-org",
+   "lsj-perseus-sir30-36",
+   "abegg-bensira-msb-iii-vii"
+  ]
+ },
+ {
+  "v": "35:14",
+  "a": "will accept discipline",
+  "t": "Vaticanus's first hand: paidian",
+  "p": "Swete prints the first hand of Vaticanus, spelling paidian; the corrected Vaticanus and Alexandrinus spell paideian, 'discipline'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, first hand, as Swete prints it (his notes give the spelling παιδείαν for the correctors of B and for A, and nothing for Sinaiticus)",
+    "orig": "ἐκδέξεται παιδίαν",
+    "en": "will receive paidian, a spelling of paideian",
+    "plain": "will accept discipline"
+   },
+   {
+    "w": "Correctors of Vaticanus (Bᵃᵇ) and Codex Alexandrinus (Swete's notes); the KJV (32:14, \"his discipline\"); Hebrew of MS B, folio V verso, line 1 (יקח מוסר)",
     "orig": "ἐκδέξεται παιδείαν",
     "en": "will receive discipline",
     "plain": "will accept discipline"
+   },
+   {
+    "w": "A corrector of Vaticanus (Bᵇ), in Swete's notes",
+    "orig": "ἐκλέξεται",
+    "en": "will choose",
+    "plain": "will choose discipline"
    }
   ],
   "follow": 1,
-  "why": "In the codices of this period the letters ει and ι were pronounced alike and often confused, so the first hand's paidian is a spelling of paideian. The Hebrew musar, 'discipline', confirms the sense.",
+  "why": "The Plain here departs from the letters Swete prints. In the codices of this period the letters ει and ι were pronounced alike and often confused, so the first hand's paidian can be read as a spelling of paideian, 'discipline', the reading of B's correctors and of A. The Hebrew musar, 'discipline', in MS B confirms the sense.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira"
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "35:22",
-  "a": "and watch out for your own children",
+  "a": "and guard yourself against your own children",
   "t": "'Your children' or 'your paths'?",
-  "p": "The Greek says 'guard yourself from your children'; the Hebrew says 'be careful in your paths'.",
+  "p": "The Greek says 'guard yourself against your children'; the Hebrew says 'beware of your end'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Latin Vulgate (Clementine) 32:26; the KJV (32:22)",
     "orig": "καὶ ἀπὸ τῶν τέκνων σου φύλαξαι",
     "en": "and guard yourself from your children",
-    "plain": "and watch out for your own children"
+    "plain": "and guard yourself against your own children"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 32:22 (the line is also given at his 32:21 as \"guard your end\")",
-    "orig": "ובארחותיך הזהר",
+    "w": "Hebrew of MS B, folio V verso, line 11; MS E, folio I recto, line 8, and MS F, folio I verso, line 12, read ובאחריתך היה זהיר, 'and be careful about your end'",
+    "orig": "ובאחריתך השמר",
+    "en": "and beware of your end",
+    "plain": "and beware of what comes after you"
+   },
+   {
+    "w": "Hebrew of MS B, folio V verso, line 12 (a second form of the saying)",
+    "orig": "ובארחתיך הזהר",
     "en": "and be careful in your paths",
     "plain": "and be careful on your paths"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew fits the road picture of 35:20–21 better and is probably Ben Sira's own; see the note on the word.",
+  "why": "The Plain follows the Greek. The Hebrew fits the road picture of 35:20–21 better; its acharit, 'end', can also mean descendants, which may lie behind the Greek 'children'. See the note on the word.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
+   "abegg-bensira-msb-iii-vii",
+   "abegg-bensira-mse",
+   "abegg-bensira-msf",
    "vulgate-org"
   ]
  },
@@ -524,24 +634,24 @@
     "plain": "In everything you do, trust yourself"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 32:22–23",
+    "w": "Hebrew of MS B, folio V verso, line 14 (line 13 has \"in all your ways\")",
     "orig": "בכל מעשיך שמור נפשך",
     "en": "in all your deeds guard yourself",
     "plain": "In everything you do, guard yourself"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew 'guard' fits the warnings of 35:20–22; in Greek the verbs for 'guard' and 'trust' are not alike, so the grandson probably read a different Hebrew word, or chose to say it differently.",
+  "why": "The Plain follows the Greek. The Hebrew 'guard' fits the warnings of 35:20–22; in Greek the verbs for 'guard' and 'trust' are not alike, so the difference goes back to the Hebrew wording or to the translation.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira"
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "36:3",
   "a": "as an inquiry made by the righteous",
   "t": "'Of the righteous' or 'of the Urim'?",
-  "p": "Vaticanus reads 'of the righteous'; Sinaiticus and Alexandrinus read the Septuagint word for the Urim; the Hebrew names the Urim.",
+  "p": "Vaticanus reads 'of the righteous'; Sinaiticus and Alexandrinus read the Septuagint's word for the Urim.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
@@ -554,29 +664,27 @@
     "orig": "ὡς ἐρώτημα δήλων",
     "en": "as an inquiry of the Urim",
     "plain": "as an inquiry made by the Urim"
-   },
-   {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 33:3",
-    "orig": "ותורתו כאורים בחשן",
-    "en": "and his law is like the Urim in the breastpiece",
-    "plain": "as the Urim in the breastpiece"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows its base text. Sinaiticus and Alexandrinus are very likely right: their δήλων is the Septuagint's word for the Urim (Numbers 27:21), and the Hebrew says so plainly. Δικαίων, 'of the righteous', looks like a copyist's change to a commoner word.",
+  "why": "The Plain follows its base text. The reading of Sinaiticus and Alexandrinus has much in its favor: their δήλων is the Septuagint's word for the Urim (Numbers 27:21), while δικαίων, 'of the righteous', is a commoner word a copyist could have put in its place.",
   "s": [
    "swete-ot-vol2",
+   "abegg-bensira-msb-iii-vii",
+   "abegg-bensira-mse",
+   "abegg-bensira-msf",
    "kahana-ben-sira"
-  ]
+  ],
+  "b": "<p>The Hebrew of MS B breaks off after \"and his law\" (folio V verso, line 18), and MS E and MS F leave out the verse. Kahana's 1912 edition prints the line as ending \"like the Urim in the breastpiece\"; those words are not in Abegg's transcription of the leaf, so they are not given here as a reading of the manuscript.</p>"
  },
  {
   "v": "36:16",
   "a": "and you will give them their inheritance as at the beginning",
   "t": "'You will give them' or 'I gave them'?",
-  "p": "Swete prints a corrected text here; Vaticanus, Sinaiticus and Alexandrinus read 'I gave them their inheritance'.",
+  "p": "Swete prints 'you will give them', with a pointer to his preface; Vaticanus, Sinaiticus and Alexandrinus read 'I gave them their inheritance'.",
   "readings": [
    {
-    "w": "Swete's text (a correction he explains in his preface); Latin Vulgate (Clementine) 36:13 (et hæreditabis eos); the KJV (36:11, \"and inherit thou them\")",
+    "w": "Swete's text, which his note marks \"vid praef\" (see the preface; the preface was not read for this site); Latin Vulgate (Clementine) 36:13 (et hæreditabis eos); the KJV (36:11, \"and inherit thou them\")",
     "orig": "καὶ κατακληρονομήσεις αὐτοὺς καθὼς ἀπ᾽ ἀρχῆς",
     "en": "and you will give them inheritance as from the beginning",
     "plain": "and you will give them their inheritance as at the beginning"
@@ -588,25 +696,25 @@
     "plain": "and I gave them their inheritance as at the beginning"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:9",
+    "w": "Hebrew of MS B, folio VI verso, line 9",
     "orig": "ויתנחלו כימי קדם",
     "en": "and let them take their inheritance as in days of old",
     "plain": "and let them take their inheritance as in days of old"
    }
   ],
   "follow": 0,
-  "why": "The three great codices have 'I', which came in because this half-line now follows 'I too kept watch' (see the note). Swete's correction to 'you' restores the prayer's sense, which the Hebrew and the Latin confirm.",
+  "why": "The best Greek witnesses, Vaticanus, Sinaiticus and Alexandrinus, all read 'I gave them'; the printed 'you will give them' is Swete's text against them. The Plain follows Swete, and the Hebrew of MS B and the Latin agree with his sense. A guess, not a shown fact: the 'I' may have come from the first half of the verse, 'I too kept watch', which the swapped blocks set beside this half-line.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "36:19",
   "a": "with the praise of your mighty deeds",
   "t": "'Praise of your deeds', 'lift up your oracles' or 'your majesty'?",
-  "p": "Vaticanus reads one rare word; correctors and other codices split it into 'to lift up your oracles'; the Hebrew says 'your majesty'.",
+  "p": "Vaticanus reads one rare word; correctors and other codices split it into 'to lift up your oracles'; the Hebrew of MS B says 'your majesty'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete (first hand)",
@@ -627,7 +735,7 @@
     "plain": "with your words beyond telling"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:12",
+    "w": "Hebrew of MS B, folio VI verso, line 12 (margin: מהדריך, \"your splendors\")",
     "orig": "מלא ציון את הודך",
     "en": "Fill Zion with your majesty",
     "plain": "with your majesty"
@@ -637,15 +745,15 @@
   "why": "The Plain follows its base text. Aretalogia, the recital of a god's mighty deeds, was a rare word; later copyists divided its letters into commoner words, which gave the KJV's 'oracles'.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "36:19",
   "a": "fill your people with your glory",
   "t": "'Your people' or 'your temple'?",
-  "p": "The Greek has 'your people'; the Hebrew has 'your temple'.",
+  "p": "The Greek has 'your people'; the Hebrew of MS B has 'your temple'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Latin Vulgate (Clementine) 36:16; the KJV",
@@ -654,25 +762,25 @@
     "plain": "fill your people with your glory"
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:12",
+    "w": "Hebrew of MS B, folio VI verso, line 12",
     "orig": "ומכבודך את היכלך",
     "en": "and your temple with your glory",
     "plain": "fill your temple with your glory"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. In Greek 'people' (laon) and 'temple' (naon) differ by one letter, so a copyist's slip early in the Greek is likely; the Hebrew, with Zion in the first line, points to the temple, as in Haggai 2:7.",
+  "why": "The Plain follows the Greek. In Greek 'people' (laon) and 'temple' (naon) differ by one letter, so a copyist's slip early in the Greek may explain it; the Hebrew, with Zion in the first line, speaks of the temple, as in Haggai 2:7.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "36:22",
   "a": "the prayer of those who plead with you",
   "t": "'Suppliants' or 'servants'?",
-  "p": "Vaticanus reads 'suppliants'; Sinaiticus and Alexandrinus read 'servants', as do the Latin, the Hebrew and the KJV.",
+  "p": "Vaticanus reads 'suppliants'; Sinaiticus and Alexandrinus read 'servants', as do the Latin, the Hebrew of MS B and the KJV.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
@@ -681,7 +789,7 @@
     "plain": "the prayer of those who plead with you"
    },
    {
-    "w": "Codex Sinaiticus and Alexandrinus (Swete's notes); Latin Vulgate (Clementine) 36:18 (servorum tuorum); Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:15 (עבדיך); the KJV (36:17)",
+    "w": "Codex Sinaiticus and Alexandrinus (Swete's notes); Latin Vulgate (Clementine) 36:18 (servorum tuorum); Hebrew of MS B, folio VI verso, line 15 (עבדיך); the KJV (36:17)",
     "orig": "δεήσεως τῶν οἰκετῶν σου",
     "en": "the prayer of your servants",
     "plain": "the prayer of your servants"
@@ -691,15 +799,15 @@
   "why": "The Plain follows its base text. The two Greek words differ by one letter, and the Hebrew 'your servants' supports the reading of Sinaiticus and Alexandrinus.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
   ]
  },
  {
   "v": "36:22",
   "a": "as Aaron blessed your people.",
   "t": "'Aaron's blessing' or 'your goodwill'?",
-  "p": "The Greek and the Latin speak of the blessing of Aaron; the Hebrew says 'according to your goodwill toward your people'.",
+  "p": "The Greek and the Latin speak of the blessing of Aaron; the Hebrew of MS B says 'according to your goodwill toward your people'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD) as printed by Swete, with the other codices; Latin Vulgate (Clementine) 36:19; the KJV (36:17)",
@@ -708,18 +816,60 @@
     "plain": "as Aaron blessed your people."
    },
    {
-    "w": "Hebrew of the Cairo Genizah copies, in Kahana's edition (1912), his 35:15",
+    "w": "Hebrew of MS B, folio VI verso, line 15 (margin: ברצונך, \"in your goodwill\")",
     "orig": "כרצונך על עמך",
     "en": "according to your goodwill toward your people",
     "plain": "in your goodwill toward your people."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew is simpler; the Greek may come from a Hebrew copy that read birkat, 'blessing', or from the grandson's wish to name the priestly blessing.",
+  "why": "The Plain follows the Greek. The Hebrew of MS B is simpler; the Greek may come from a Hebrew copy that read birkat, 'blessing', in place of the word for goodwill.",
   "s": [
    "swete-ot-vol2",
-   "kahana-ben-sira",
-   "vulgate-org"
+   "vulgate-org",
+   "abegg-bensira-msb-iii-vii"
+  ]
+ },
+ {
+  "v": "36:31",
+  "a": "who strays from town to town?",
+  "t": "'Strays' or 'leaps'?",
+  "p": "Swete prints sphallomenō, 'going astray'; Sinaiticus and Alexandrinus read aphallomenō, 'leaping off'; the Hebrew has 'skipping'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD) as printed by Swete",
+    "orig": "εὐζώνῳ λῃστῇ σφαλλομένῳ ἐκ πόλεως εἰς πόλιν",
+    "en": "a well-girded robber going astray from city to city",
+    "plain": "who strays from town to town?"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (Swete's notes: αφαλλομενω)",
+    "orig": "εὐζώνῳ λῃστῇ ἀφαλλομένῳ ἐκ πόλεως εἰς πόλιν",
+    "en": "a well-girded robber springing off from city to city",
+    "plain": "who leaps from town to town?"
+   },
+   {
+    "w": "Hebrew of MS B, folio VII recto, line 8; also MS D, folio II recto, lines 2–3, and MS C, folio VIII verso, lines 7–9 (damaged)",
+    "orig": "מי יאמין בגדוד צבא המדלג מעיר אל עיר",
+    "en": "who will trust a band of soldiers that skips from city to city?",
+    "plain": "that skips from town to town?"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 36:28; the KJV (36:26, \"a thief well appointed, that skippeth from city to city\")",
+    "orig": "quasi succinctus latro exiliens de civitate in civitatem",
+    "en": "like a robber girded up, leaping out from city to city",
+    "plain": "who leaps from town to town?"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text. Liddell, Scott and Jones give sphallomai as 'be tripped up, fall' and 'err, go astray', and aphallomai as 'spring off'. The reading of Sinaiticus and Alexandrinus agrees with the Hebrew's 'skips' and the Latin's 'leaping', and the two Greek words differ by a letter or two.",
+  "s": [
+   "swete-ot-vol2",
+   "vulgate-org",
+   "lsj-perseus-sir30-36",
+   "abegg-bensira-msb-iii-vii",
+   "abegg-bensira-msc-viii",
+   "abegg-bensira-msd-ii"
   ]
  }
 ]

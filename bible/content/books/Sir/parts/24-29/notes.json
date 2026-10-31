@@ -4,8 +4,8 @@
   "a": "Wisdom will sing her own praise",
   "type": "word",
   "t": "Wisdom speaks about herself",
-  "p": "The Greek says Wisdom will \"praise her soul\", a Hebrew way of saying \"praise herself\".",
-  "b": "The chapter opens with a heading, \"The praise of Wisdom\", and then lets Wisdom speak in her own voice, as in Proverbs 8, where Wisdom calls out at the city gates (Proverbs 8:1–3). The Greek <i>ainesēsei psychēn autēs</i>, \"she will praise her soul\", follows a Hebrew idiom in which \"my soul\" means \"myself\". The Plain writes \"Wisdom\" with a capital where she speaks or acts as a person, as the site does in Proverbs and the Wisdom of Solomon. No Hebrew copy of chapter 24 has been found, so the Greek of Ben Sira's grandson is the oldest text.",
+  "p": "The Greek says Wisdom will \"praise her soul\", probably a Hebrew way of saying \"praise herself\".",
+  "b": "The chapter opens with a heading, \"The praise of Wisdom\", and then lets Wisdom speak in her own voice, as in Proverbs 8, where Wisdom calls out at the city gates (Proverbs 8:1–3). The Greek <i>ainesēsei psychēn autēs</i>, \"she will praise her soul\", probably reflects a Hebrew idiom in which \"my soul\" means \"myself\"; no Hebrew of this chapter survives to show it. The Plain writes \"Wisdom\" with a capital where she speaks or acts as a person, as the site does in Proverbs and the Wisdom of Solomon. No Hebrew copy of chapter 24 has been found, so the text translated here is the Greek of Ben Sira's grandson.",
   "orig": "Ἡ σοφία αἰνέσει ψυχὴν αὐτῆς (hē sophia ainesei psychēn autēs), 'Wisdom will praise her soul'",
   "kind": "nu",
   "r": "Proverbs 8:1–3; Proverbs 9:1–6; Proverbs 1:20–33; Wisdom of Solomon 7:22–8:1; Baruch 3:9–4:4",
@@ -72,20 +72,28 @@
   "type": "echo",
   "t": "\"Pitch your tent in Jacob\" and John 1:14",
   "p": "God tells Wisdom to pitch her tent in Israel. John says the Word \"pitched his tent among us\".",
-  "b": "The command uses the same tent verb as 24:4, <i>kataskēnōson</i>. John's Gospel says of the Word: \"the Word became flesh and pitched his tent among us. We gazed at his glory\" (John 1:14). John's verb, <i>eskēnōsen</i>, is the same word without the prefix. Wisdom comes from God's mouth (24:3), exists from the beginning (24:9), lives with God's people and serves in his tent; John's Word was in the beginning with God and lived among people. Many scholars think John drew on this Jewish picture of Wisdom when he wrote his prologue. The difference is just as clear: Ben Sira says Wisdom became the book of the law (24:23); John says the Word \"became flesh\".",
+  "b": "The command uses the same tent verb as 24:4, <i>kataskēnōson</i>. John's Gospel says of the Word: \"the Word became flesh and pitched his tent among us. We gazed at his glory\" (John 1:14). John's verb, <i>eskēnōsen</i>, is the same word without the prefix. Wisdom comes from God's mouth (24:3), exists from the beginning (24:9), lives with God's people and serves in his tent; John's Word was in the beginning with God and lived among people. Whether John had this passage itself in mind cannot be proved, but the pattern and the tent word are close. The difference is just as clear: Ben Sira says Wisdom became the book of the law (24:23); John says the Word \"became flesh\". Both the Catholic <i>Lectionary for Mass</i> (24:1–2, 8–12) and the Revised Common Lectionary (24:1–12) read this chapter on the Second Sunday after Christmas, with John 1.",
   "orig": "Ἐν Ἰακὼβ κατασκήνωσον (en Iakōb kataskēnōson), 'in Jacob pitch your tent'",
   "r": "John 1:1–14; Baruch 3:37–38; Proverbs 8:22–31; 24:4; 24:23; Exodus 25:8",
-  "top": "word-of-god"
+  "top": "word-of-god",
+  "s": [
+   "just-lectionary-deuterocanonicals",
+   "sir2429-rcl-christmas2"
+  ]
  },
  {
   "v": "24:9",
-  "a": "He created me before the ages",
+  "a": "He created me before time began",
   "type": "canon",
   "t": "\"He created me\"",
   "p": "Like the Greek of Proverbs 8:22, Ben Sira calls Wisdom created. That mattered once Christians read Wisdom as Christ.",
-  "b": "<b>Agrees:</b> Proverbs has Wisdom say, \"The LORD acquired me, the first of his way, before his works of long ago\" (Proverbs 8:22), and the Greek of Proverbs renders the verb \"created\". Ben Sira says the same plainly (24:9; compare 1:4). Wisdom is the first and oldest of God's works, not a second God. <b>A question for Christian readers:</b> once the church read the Wisdom of Proverbs 8 as the Son of God (1 Corinthians 1:24; Colossians 1:15), the word \"created\" became a point of dispute in the controversy over Arius in the 300s, and the Nicene Creed confesses the Son \"begotten, not made\". Ben Sira himself identifies Wisdom with the law (24:23), so most readers today take his \"created\" of God's wisdom given to Israel, not of a person beside the Father.",
+  "b": "<b>Agrees:</b> Proverbs has Wisdom say, \"The LORD acquired me, the first of his way, before his works of long ago\" (Proverbs 8:22), and the Greek of Proverbs renders the verb \"created\". Ben Sira says the same plainly (24:9; compare 1:4). Wisdom is the first and oldest of God's works, not a second God. <b>A question for Christian readers:</b> once the church read the Wisdom of Proverbs 8 as the Son of God (1 Corinthians 1:24; Colossians 1:15), the word \"created\" became a point of dispute in the controversy over Arius in the 300s, and the Nicene Creed confesses the Son \"begotten, not made\". Ben Sira himself identifies Wisdom with the law (24:23), so most readers today take his \"created\" of God's wisdom given to Israel, not of a person beside the Father. The Latin of this verse, <i>Ab initio et ante saecula creata sum</i>, \"From the beginning and before the ages I was created\" (Vulgate 24:14), opens the Lesson of a Mass of the Virgin Mary in the traditional Latin Missal, <i>Salve, sancta Parens</i> (Ecclesiasticus 24:14–16 in the Vulgate's numbers, Greek 24:9–12).",
   "r": "Proverbs 8:22–23; 1:4; 24:23; 1 Corinthians 1:24; Colossians 1:15; John 1:3",
-  "top": "wisdom"
+  "top": "wisdom",
+  "s": [
+   "vulgate-clementine",
+   "sir2429-missale-salve-sancta-parens"
+  ]
  },
  {
   "v": "24:10",
@@ -115,7 +123,7 @@
   "type": "echo",
   "t": "The Lord's portion",
   "p": "Israel is the Lord's own share among the nations, as the Song of Moses says.",
-  "b": "The phrase takes up Deuteronomy 32:9: \"For the LORD's own share is his people; Jacob is the inheritance measured out for him.\" The nations each had their share (Deuteronomy 32:8), but Israel was the Lord's. Wisdom roots herself in that people, and the word \"inheritance\" ties the passage together: she asks in whose inheritance to camp (24:7), receives Israel as her inheritance (24:8), is herself an inheritance (24:20), and becomes the law, \"the heritage of the assemblies of Jacob\" (24:23), the same Greek word.",
+  "b": "The phrase takes up Deuteronomy 32:9: \"For the LORD's own share is his people; Jacob is the inheritance measured out for him.\" The nations each had their share (Deuteronomy 32:8), but Israel was the Lord's. Wisdom roots herself in that people, and the word \"inheritance\" ties the passage together: she asks in whose inheritance to camp (24:7), receives Israel as her inheritance (24:8), is herself an inheritance (24:20), and becomes the law, \"the inheritance of the assemblies of Jacob\" (24:23), the same Greek word each time.",
   "r": "Deuteronomy 32:8–9; 17:17; 24:7–8; 24:20; 24:23",
   "top": "election"
  },
@@ -154,8 +162,8 @@
   "a": "the mother of beautiful love",
   "type": "views",
   "t": "\"Mother of Fair Love\"",
-  "p": "This line, missing from Vaticanus, is in the Latin. Catholic devotion took it as a title of Mary.",
-  "b": "The verse belongs to the longer Greek text and the Latin (see the variant). In the Clementine Vulgate it is 24:24, <i>Ego mater pulchrae dilectionis, et timoris, et agnitionis, et sanctae spei</i>, which the Douay-Rheims renders \"I am the mother of fair love, and of fear, and of knowledge, and of holy hope.\" Because the Church has long read the wisdom passages \"in relation to Mary\" (Catechism 721), the line became a Marian title, \"Mother of Fair Love\". St. Josemaría Escrivá had a strong devotion to Mary under this title, and Opus Dei keeps a feast of Mary, Mother of Fairest Love on February 14. In Ben Sira's own context the speaker is Wisdom, the mother of love, fear and hope in those who seek her.",
+  "p": "This line, missing from Vaticanus, is in codex 248 and the Latin. Catholic devotion took it as a title of Mary.",
+  "b": "The verse is in codex 248 and, in its first half, in the Latin (see the variant). In the Clementine Vulgate it is 24:24, <i>Ego mater pulchrae dilectionis, et timoris, et agnitionis, et sanctae spei</i>, which the Douay-Rheims renders \"I am the mother of fair love, and of fear, and of knowledge, and of holy hope.\" Because the Church has long read the wisdom passages \"in relation to Mary\" (Catechism 721), the line became a Marian title, \"Mother of Fair Love\". The St. Josemaría Institute, an Opus Dei site, traces the title to this line (\"I am the mother of fair love\", Vulgate 24:24) and says that \"by a decree of the Holy See\" the Prelature of Opus Dei celebrates the Feast and Mass of Mary, Mother of Fairest Love on February 14. In Ben Sira's own context the speaker is Wisdom, the mother of love, fear and hope in those who seek her.",
   "r": "24:9; Proverbs 8:17; Luke 1:48",
   "top": "mary",
   "s": [
@@ -207,23 +215,29 @@
  },
  {
   "v": "24:23",
-  "a": "the heritage of the assemblies of Jacob",
+  "a": "the inheritance of the assemblies of Jacob",
   "type": "echo",
   "t": "Quoting Deuteronomy 33:4",
-  "p": "The last line quotes the Greek of Deuteronomy 33:4 word for word. \"Assemblies\" is <i>synagōgai</i>, later \"synagogue\".",
-  "b": "Moses' blessing begins, \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4), and the Greek of Deuteronomy has the very words Ben Sira's grandson uses, <i>klēronomian synagōgais Iakōb</i>. The Plain follows Deuteronomy's English. The word rendered \"heritage\" is the same Greek word as \"inheritance\" in 24:7–20: Wisdom, who looked for an inheritance, is now Israel's inheritance. <i>Synagōgē</i> means a gathering; in the grandson's day Jews in Egypt and elsewhere met in houses of prayer, and the word came to name the building, the synagogue, as in the Gospels.",
+  "p": "The last line takes up Deuteronomy 33:4, in the same Greek words: \"an inheritance for the assemblies of Jacob\".",
+  "b": "Moses' blessing begins, \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4), and the Greek of Deuteronomy, as Swete prints it, ends with the very words Ben Sira's grandson uses, <i>klēronomian synagōgais Iakōb</i>. The Plain says \"inheritance\" here, as it does for the same Greek word in 24:7, 8, 12 and 20, so the thread of the poem holds: Wisdom, who looked for an inheritance, is now Israel's inheritance. Deuteronomy's Plain says \"heritage\" because it translates the Hebrew <i>morashah</i>, a different word, and \"assembly\" because the Hebrew is singular. <i>Synagōgē</i> means a gathering; in the grandson's day Jews in Egypt and elsewhere met in houses of prayer, and the word came to name the building, the synagogue, as in the Gospels.",
   "orig": "κληρονομίαν συναγωγαῖς Ἰακώβ (klēronomian synagōgais Iakōb)",
   "r": "Deuteronomy 33:4; Deuteronomy 4:6; 24:7–8; 24:12; 24:20; Luke 4:16; Acts 15:21",
-  "top": "law-of-moses"
+  "top": "law-of-moses",
+  "s": [
+   "swete-lxx"
+  ]
  },
  {
   "v": "24:24",
   "a": "no other savior",
   "type": "echo",
   "t": "No other savior",
-  "p": "This longer-text line echoes Isaiah's \"There is no one but me who saves.\"",
-  "b": "The line is not in Vaticanus (see the variant). It takes up the words of Isaiah: \"I myself, I am the LORD. There is no one but me who saves\" (Isaiah 43:11), and \"There is no other god besides me, a God who is righteous and saves\" (Isaiah 45:21). Coming right after the law of Moses, it reminds the reader that the law points to the one God who rescues.",
-  "r": "Isaiah 43:11; Isaiah 45:21–22; Deuteronomy 4:35; Hosea 13:4"
+  "p": "This line, found in codex 248 and minuscule 70, echoes Isaiah's \"There is no one but me who saves.\"",
+  "b": "The line is not in Vaticanus or the Latin (see the variant). It takes up the words of Isaiah: \"I myself, I am the LORD. There is no one but me who saves\" (Isaiah 43:11), and \"There is no other god besides me, a God who is righteous and saves\" (Isaiah 45:21). Coming right after the law of Moses, it reminds the reader that the law points to the one God who rescues.",
+  "r": "Isaiah 43:11; Isaiah 45:21–22; Deuteronomy 4:35; Hosea 13:4",
+  "s": [
+   "hart-ecclesiasticus-248"
+  ]
  },
  {
   "v": "24:25",
@@ -231,9 +245,13 @@
   "type": "echo",
   "t": "The rivers of Eden",
   "p": "The law fills like the four rivers of paradise, with the Jordan added: Eden's water flows in Israel.",
-  "b": "Genesis says that \"a river goes out from Eden to water the garden\" and divides into four: the Pishon, the Gihon, the Tigris and the Euphrates (Genesis 2:10–14). Ben Sira names all four and adds the Jordan, Israel's own river, which \"runs full over all its banks the whole harvest season\" (Joshua 3:15). Each river is tied to a season of flood: new fruit in spring, the grain harvest, the grape harvest in autumn. \"It\" is the law of 24:23: the masculine participles in the Greek point back to <i>nomos</i>, \"law\". Eden's abundance, lost in Genesis, flows again through the law in Israel.",
+  "b": "Genesis says that \"a river goes out from Eden to water the garden\" and divides into four: the Pishon, the Gihon, the Tigris and the Euphrates (Genesis 2:10–14). Ben Sira names all four and adds the Jordan, Israel's own river, which \"runs full over all its banks the whole harvest season\" (Joshua 3:15). Each river is tied to a season: new fruit, the grain harvest, the grape harvest. The Greek participles (\"the one who fills\", \"the one who makes rise\") have no named subject. They can be read of the law of 24:23, <i>nomos</i>, a masculine word, or of God; the Plain's \"It\" takes the first reading. The season words are also a reading: <i>en hēmerais neōn</i> is \"in the days of new things\", and <i>neōn</i> can mean \"new fruit\" or \"young people\"; the Latin has <i>novorum</i>, \"of new things\". The Plain takes it as the season of new fruit, beside harvest and vintage. Eden's abundance, lost in Genesis, flows again through the law in Israel.",
   "r": "Genesis 2:10–14; Joshua 3:15; Ezekiel 47:1–12; Revelation 22:1–2; 24:23",
-  "top": "eden"
+  "top": "eden",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine"
+  ]
  },
  {
   "v": "24:27",
@@ -241,7 +259,7 @@
   "type": "word",
   "t": "Light, or the Nile?",
   "p": "The Greek says \"like light\". The Hebrew probably said \"like the Nile\", one letter different.",
-  "b": "Every other line in 24:25–27 names a river, so \"like light\" stands out. Bullard and Hatton note that the Hebrew word for the Nile could easily be mistaken for the Hebrew word for \"light\", and that the Syriac version has the river. The Hebrew <i>ye'or</i>, \"Nile\" (also any stream), and <i>'or</i>, \"light\", differ by one small letter, so the grandson, or the copy he used, probably read the second. The Plain keeps the Greek, since it is the text translated here. The Gihon in the next line is one of Eden's rivers, and the Greek of Jeremiah 2:18 already used the name Gihon for the Nile.",
+  "b": "Every other line in 24:25–27 names a river, so \"like light\" stands out. Bullard and Hatton note that the Hebrew word for the Nile could easily be mistaken for the Hebrew word for \"light\", and that the Syriac version has the river. No Hebrew of this chapter survives, but <i>ye'or</i>, \"Nile\" (also any stream), and <i>'or</i>, \"light\", differ by one small letter, so Bullard and Hatton's explanation is a likely one: the Hebrew had \"Nile\", and the Greek translator, or the copy he used, read \"light\". The Plain keeps the Greek, since it is the text translated here. The Gihon in the next line is one of Eden's rivers, and the Greek of Jeremiah 2:18 already used the name Gihon for the Nile.",
   "orig": "ὡς φῶς (hōs phōs), 'like light'; Hebrew probably כַּיְאֹר (kay'or), 'like the Nile', read as כָּאוֹר (ka'or), 'like light'",
   "kind": "deb",
   "r": "Genesis 2:13; Jeremiah 2:18; Amos 8:8",
@@ -296,7 +314,7 @@
   "type": "canon",
   "t": "Teaching like prophecy",
   "p": "Ben Sira compares his teaching to prophecy. He does not claim to be a prophet, but he claims his words will last.",
-  "b": "<b>Agrees:</b> wisdom teachers in Israel spoke with God-given insight (Proverbs 2:6), and Ben Sira's teaching rests on the law and the prophets. <b>Goes beyond:</b> he compares his own teaching to prophecy and expects it to last for every generation. A generation or two later, 1 Maccabees speaks of \"the day a prophet was last seen among them\" (1 Maccabees 9:27). Churches that read Sirach as Scripture take the line as fulfilled in the book's inspired authority. Anglicans read it, in Article VI's words, \"for example of life and instruction of manners\" but not \"to establish any doctrine\"; the Westminster Confession counts it among \"other human writings\".",
+  "b": "<b>Agrees:</b> wisdom teachers in Israel spoke with God-given insight (Proverbs 2:6), and Ben Sira's teaching rests on the law and the prophets. <b>Goes beyond:</b> he compares his own teaching to prophecy and expects it to last for every generation. A generation or two later, 1 Maccabees speaks of \"the day a prophet was last seen among them\" (1 Maccabees 9:27). Anglicans read it, in Article VI's words, \"for example of life and instruction of manners\" but not \"to establish any doctrine\"; the Westminster Confession counts it among \"other human writings\".",
   "r": "Proverbs 2:6; 1 Maccabees 9:27; 39:6; 50:27–29",
   "top": "prophecy",
   "s": [
@@ -309,8 +327,8 @@
   "a": "instruction",
   "type": "word",
   "t": "Instruction, or discipline?",
-  "p": "The Greek <i>paideia</i> is the training of a child. In this part the Plain says \"instruction\" for it.",
-  "b": "<i>Paideia</i> covers everything a teacher or father does to form a young person: teaching, training, correction and the discipline that goes with them. In Wisdom's poem and the teacher's words that follow (24:27, 24:32) it is the content of Ben Sira's school, so the Plain says \"instruction\", as the Wisdom of Solomon does where the sense is education. Where God's correction or punishment is meant, the site uses \"discipline\". The same word gives English \"pedagogy\", and the grandson's prologue uses it for what the whole book offers.",
+  "p": "The Greek <i>paideia</i> is the training of a child. Here it means teaching, so the Plain says \"instruction\".",
+  "b": "<i>Paideia</i> covers everything a teacher or father does to form a young person: teaching, training, correction and the discipline that goes with them. In Wisdom's poem and the teacher's words that follow (24:27, 24:32) it is the content of Ben Sira's school, so the Plain says \"instruction\" (24:27, 24:32, and \"well-instructed\" at 26:14). Across Sirach the site's rule is \"discipline\" by default and \"instruction\" where the sense is teaching. The same word gives English \"pedagogy\", and the grandson's prologue uses it for what the whole book offers.",
   "orig": "παιδείαν (paideian), 'instruction, training'",
   "kind": "nu",
   "r": "24:27; Proverbs 1:2–3; Proverbs 1:7; Wisdom of Solomon 6:17; Hebrews 12:5–11",
@@ -357,7 +375,7 @@
   "type": "canon",
   "t": "Glad when enemies fall?",
   "p": "Ben Sira counts it happy to see enemies fall. Proverbs warns against cheering, and Jesus says to love enemies.",
-  "b": "<b>Agrees:</b> the Psalms often hope to see God's justice on the wicked (Psalm 54:7; Psalm 92:11). <b>Tension:</b> Proverbs warns, \"When your enemy falls, do not be glad, and when he trips, keep your heart from cheering\" (Proverbs 24:17), and Ben Sira himself says a trap will catch \"those who are glad when godly people fall\" (27:29). Jesus goes further: \"keep loving your enemies\" (Matthew 5:44). The Hebrew of this line (Manuscript C) reads \"happy is the man who rejoices in his latter end, who lives and sees the breaking of his foes\": the stress is on living long enough to see wrong set right.",
+  "b": "<b>Agrees:</b> the Psalms often hope to see God's justice on the wicked (Psalm 54:7; Psalm 92:11). <b>Tension:</b> Proverbs warns, \"When your enemy falls, do not be glad, and when he trips, keep your heart from cheering\" (Proverbs 24:17), and Ben Sira himself says a trap will catch \"those who are glad when godly people fall\" (27:29). Jesus goes further: \"keep loving your enemies\" (Matthew 5:44). The Hebrew of this verse (Manuscript C, folio VI verso, lines 11–12) reads \"happy is the man who rejoices in his latter end, who lives and sees the breaking of his foes\": the stress is on living long enough to see wrong set right. Its first line also differs from the Greek \"joy in his children\" (see the variant).",
   "r": "Proverbs 24:17–18; Psalm 54:7; Psalm 92:11; Matthew 5:44; 27:29",
   "s": [
    "sir2429-ms-c"
@@ -391,7 +409,7 @@
   "type": "word",
   "t": "An unfinished sentence",
   "p": "The Greek leaves out the verb: \"every wound, and not a wound of the heart\". The Plain adds \"Let it be\".",
-  "b": "Greek <i>pasan plēgēn, kai mē plēgēn kardias</i> is a short cry, as if the speaker says, \"Bring me any wound, only not that one.\" The KJV supplied \"Give me\". The Hebrew of Manuscript C has a different sense, \"Not every wound is like a wound of the heart; not every evil is like the evil of...\", with the last word lost in a tear. Both forms make the heartache of a bad marriage the worst trouble a man can have, which is the theme of 25:13–26.",
+  "b": "Greek <i>pasan plēgēn, kai mē plēgēn kardias</i> is a short cry, as if the speaker says, \"Bring me any wound, only not that one.\" The KJV supplied \"Give me\". The Hebrew of Manuscript C (folio VII recto, lines 5–6) is just as short: <i>כל מכה ולא כ[ -- ] לב כל רעה ולא כרע[ת -- ]</i>, \"every wound, and not [like] ... heart; every evil, and not like the evil [of ...]\", with parts of the lines lost. Parker and Abegg translate it \"Not every wound is like [a wound of the] heart\", but the Hebrew has the same pattern as the Greek. Both forms make the heartache of a bad marriage the worst trouble a man can have, which is the theme of 25:13–26.",
   "orig": "πᾶσαν πληγήν, καὶ μὴ πληγὴν καρδίας (pasan plēgēn, kai mē plēgēn kardias)",
   "kind": "nu",
   "r": "Proverbs 18:14; Proverbs 15:13",
@@ -415,7 +433,7 @@
   "type": "canon",
   "t": "When a wife supports her husband",
   "p": "Ben Sira calls it shame for a man to be supported by his wife. Proverbs 31 praises a wife who earns.",
-  "b": "The Greek <i>epichorēgē</i> and the Hebrew <i>mekhalkelet</i> (Manuscript C) both mean to provide for, to keep. A wife with her own wealth who keeps her husband brings him, in Ben Sira's eyes, \"anger, brazenness and deep shame\": the shame is the man's loss of standing. <b>Tension:</b> Proverbs' woman of strength buys a field and \"from the fruit of her palms she plants a vineyard\" (Proverbs 31:16), and her husband is honored for it (Proverbs 31:23). Luke tells of women who supported Jesus and the Twelve from their own means (Luke 8:3). Ben Sira's line reflects the honor code of his class; the Bible does not make it a rule.",
+  "b": "The Greek <i>epichorēgē</i> and the Hebrew <i>mekhalkelet</i> (Manuscript C) both mean to provide for, to keep. The first words differ: the Greek has \"anger and brazenness\", while the Hebrew line (folio VII verso, lines 4–6) begins <i>ki ba'edah</i>, which Parker and Abegg render \"For in the congregation\", followed by a gap in the leaf. In the Greek, a wife with her own wealth who keeps her husband brings him \"anger, brazenness and deep shame\": the shame is the man's loss of standing. <b>Tension:</b> Proverbs' woman of strength buys a field and \"from the fruit of her palms she plants a vineyard\" (Proverbs 31:16), and her husband is honored for it (Proverbs 31:23). Luke tells of women who supported Jesus and the Twelve from their own means (Luke 8:3). Ben Sira's line reflects the honor code of his class; the Bible does not make it a rule.",
   "r": "Proverbs 31:16; Proverbs 31:23–24; Luke 8:1–3",
   "top": "marriage",
   "s": [
@@ -424,11 +442,11 @@
  },
  {
   "v": "25:24",
-  "a": "The beginning of sin came from a woman",
+  "a": "The beginning of sin is from a woman",
   "type": "word",
   "t": "The Greek and the Hebrew of 25:24",
-  "p": "Both the Greek and the Hebrew say sin began from a woman and \"we\" die because of her.",
-  "b": "The Greek reads <i>apo gynaikos archē hamartias, kai di' autēn apothnēskomen pantes</i>, \"from a woman (or wife) is the beginning of sin, and through her we all die\". The Hebrew of Manuscript C has the same thought: <i>me'ishah techillat 'avon, uvighlalah gava'nu yachad</i>, \"from a woman is the beginning of guilt, and because of her we perish together\". The Hebrew word for sin is <i>'avon</i>, guilt or iniquity, and \"we all\" is \"together\". Greek <i>gynē</i> and Hebrew <i>ishah</i> both mean \"woman\" and \"wife\": the whole debate over this verse turns on that double meaning (see the next note).",
+  "p": "The Greek has no verb in the first line. Both the Greek and the Hebrew trace sin to a woman, and \"we\" die because of her.",
+  "b": "The Greek reads <i>apo gynaikos archē hamartias, kai di' autēn apothnēskomen pantes</i>, word for word \"from a woman (or wife) beginning of sin, and through her we die, all\". The first line has no verb at all, so it does not say whether it speaks of one event long ago or of what happens again and again; the Plain says \"is\" so as not to decide (see the next note). The second line is present tense, \"we die\". The Hebrew of Manuscript C (folio VII verso, lines 8–10) has the same thought: <i>me'ishah techillat 'avon, uvighlalah gava'nu yachad</i>. Its verb <i>gava'nu</i> is a perfect, which Parker and Abegg render \"we perish\" (\"From a woman iniquity had its beginning and on account of her we perish together\"). The Hebrew word for sin is <i>'avon</i>, guilt or iniquity, and \"we all\" is \"together\". Greek <i>gynē</i> and Hebrew <i>ishah</i> both mean \"woman\" and \"wife\": the whole debate over this verse turns on that double meaning.",
   "orig": "ἀπὸ γυναικὸς ἀρχὴ ἁμαρτίας (apo gynaikos archē hamartias); Hebrew מאשה תחלת עון ובגללה גוענו יחד",
   "kind": "deb",
   "r": "25:13–26; Genesis 3:6; Genesis 3:12",
@@ -444,12 +462,11 @@
   "type": "views",
   "t": "Eve, or the bad wife?",
   "p": "Most readers hear Eve and the fall. Others argue the verse is about the bad wife of 25:13–26.",
-  "b": "<b>Eve:</b> the usual reading takes \"a woman\" as Eve, who took the fruit first (Genesis 3:6), and \"we all die\" as the death of every human (Genesis 3:19). Bullard and Hatton note that this is how the verse is usually read, beside 1 Timothy 2:13–14 and 2 Corinthians 11:3. <b>The bad wife:</b> Jack Levison argued that this is neither required nor correct. The verse sits in a poem about an evil wife (25:13–26), so \"woman\" means a wife and \"we\" means husbands: a bad wife leads her husband into sin and to an early grave, just as a good wife doubles his days (26:1). Bullard and Hatton find his case convincing. Teresa Ann Ellis returned to the question in 2011. The Plain keeps \"a woman\", which allows both readings, as the Greek does.",
+  "b": "<b>Eve:</b> the usual reading takes \"a woman\" as Eve, who took the fruit first (Genesis 3:6), and \"we all die\" as the death of every human (Genesis 3:19). Bullard and Hatton note that this is how the verse is usually read, beside 1 Timothy 2:13–14 and 2 Corinthians 11:3. <b>The bad wife:</b> Bullard and Hatton say that Jack Levison argues the Eve reading is \"not required, or even correct\", and that he quotes a parallel from one of the Dead Sea Scrolls, which they do not name. On this reading the verse sits in a poem about an evil wife (25:13–26), so \"woman\" means a wife and \"we\" means husbands: a bad wife leads her husband into sin and to an early grave, just as a good wife doubles his days (26:1). Bullard and Hatton call Levison's argument convincing. The Plain keeps \"a woman\" and supplies no past tense, so both readings stay open, as in the Greek.",
   "r": "Genesis 3:6; Genesis 3:19; 1 Timothy 2:13–14; 2 Corinthians 11:3; 26:1; 25:13–26",
   "top": "the-fall",
   "s": [
-   "sir2429-bullard-hatton",
-   "sir2429-ellis-eve"
+   "sir2429-bullard-hatton"
   ]
  },
  {
@@ -458,19 +475,25 @@
   "type": "canon",
   "t": "Compared with Genesis and Paul",
   "p": "Genesis holds both the man and the woman to account, and Paul says sin came through one man.",
-  "b": "<b>Genesis:</b> the woman ate and \"gave some to her husband too, who was there with her, and he ate\" (Genesis 3:6); God holds both to account, and to Adam he says, \"Since you obeyed your wife's voice\", \"the ground is cursed on your account\" (Genesis 3:17). <b>Paul:</b> \"sin entered the world through one man, and death through sin\" (Romans 5:12): Adam, not Eve. 1 Timothy 2:14 says, \"The woman was the one fooled through and through\", but builds no teaching about death on it. <b>Other Jewish answers:</b> the Wisdom of Solomon says \"death came into the world through the devil's envy\" (Wisdom of Solomon 2:24). <b>Verdict:</b> if 25:24 speaks of Eve, it lays the beginning of sin on the woman alone, which goes beyond Genesis and conflicts with Paul's naming of Adam, whom Christian teaching on original sin follows. If it speaks of a bad wife (previous note), it is a harsh proverb about marriage, not about the fall.",
+  "b": "<b>Genesis:</b> the woman ate and \"gave some to her husband too, who was there with her, and he ate\" (Genesis 3:6); God holds both to account, and to Adam he says, \"Since you obeyed your wife's voice\", \"the ground is cursed on your account\" (Genesis 3:17). <b>Paul:</b> \"sin entered the world through one man, and death through sin\" (Romans 5:12): Adam, not Eve. 1 Timothy 2:14 says, \"The woman was the one fooled through and through\", but builds no teaching about death on it. <b>Other Jewish answers:</b> the Wisdom of Solomon says \"death came into the world through the devil's envy\" (Wisdom of Solomon 2:24). <b>Verdict:</b> if 25:24 speaks of Eve, it lays the beginning of sin on the woman alone, which goes beyond Genesis and conflicts with Paul's naming of Adam, whom Christian teaching on original sin follows; the Catholic Catechism, for example, says \"All men are implicated in Adam's sin\" (Catechism 402). If it speaks of a bad wife (previous note), it is a harsh proverb about marriage, not about the fall.",
   "r": "Genesis 3:6; Genesis 3:17–19; Romans 5:12–19; 1 Corinthians 15:22; 1 Timothy 2:14; Wisdom of Solomon 2:24",
-  "top": "the-fall"
+  "top": "the-fall",
+  "s": [
+   "ccc"
+  ]
  },
  {
   "v": "25:24",
   "a": "we all die",
   "type": "spec",
   "t": "Claude's observation: Ben Sira on where death comes from",
-  "p": "Elsewhere Ben Sira treats death as the Creator's decree for all flesh, which fits the \"bad wife\" reading.",
-  "b": "<b>Claude's observation, not a published argument I have checked:</b> twice Ben Sira speaks of death as part of how God made people, without mentioning a fall. In the Greek of 17:1 the Lord creates a human being out of earth and turns him back to it again, and in 41:4 death is the Lord's decree for all flesh. If he thought of death as the Creator's plan from the start, it is less likely that he meant 25:24 to explain death's origin by Eve's sin. That points toward Levison's contextual reading (previous notes), though Levison, as Bullard and Hatton report him, argues from the surrounding poem rather than from these verses. Against it: 40:1 calls the human race \"sons of Adam\", and Ben Sira could hold both thoughts at once.",
+  "p": "Bullard and Hatton note that Ben Sira nowhere else ties death to Adam and Eve. Claude adds 41:4 and a point against.",
+  "b": "<b>Where this overlaps with published work:</b> Bullard and Hatton, setting out the bad-wife reading, already note that \"Ben Sira nowhere else associates death with Adam and Eve\" and that in 17:1–2 \"death is presented simply as part of life, part of God's intention\". <b>Claude's addition:</b> 41:4 says the same in other words: death is the Lord's decree for all flesh. If Ben Sira thought of death as the Creator's plan from the start, it is less likely that he meant 25:24 to explain death's origin by Eve's sin. <b>Against it:</b> 40:1 calls the human race \"sons of Adam\", and Ben Sira could hold both thoughts at once.",
   "r": "17:1–2; 41:3–4; 40:1; 25:13–26; Genesis 3:19",
-  "top": "the-fall"
+  "top": "the-fall",
+  "s": [
+   "sir2429-bullard-hatton"
+  ]
  },
  {
   "v": "25:25",
@@ -501,7 +524,7 @@
   "type": "israel",
   "t": "Quoted by the rabbis",
   "p": "The Talmud quotes this saying in Ben Sira's name, with \"beautiful\" for \"good\".",
-  "b": "Although the rabbis did not count Ben Sira among the holy books, Rav Yosef says in the Babylonian Talmud that \"we teach the superior matters that are in it\", and the first examples are from this chapter, 26:3 and 26:1: \"A good wife is a good gift; she will be given into the bosom of a God-fearing man\" and \"A beautiful wife, happy is her husband; the number of his days is doubled\" (Sanhedrin 100b; the same sayings are in Yevamot 63b). The Hebrew of Manuscript C has \"a good wife\", like the Greek.",
+  "b": "The rabbis did not count Ben Sira among the holy books. In the Babylonian Talmud Rav Yosef first says \"it is also prohibited to read the book of ben Sira\", but after a discussion he says that \"we teach the superior matters that are in it even in public\", and the first examples are from this chapter, 26:3 and 26:1: \"A good wife is a good gift; she will be given into the bosom of a God-fearing man\" and \"A beautiful wife, happy is her husband; the number of his days is doubled\" (Sanhedrin 100b; the same sayings are in Yevamot 63b). The Hebrew of Manuscript C has \"a good wife\", like the Greek.",
   "r": "Proverbs 18:22; Proverbs 12:4; 26:3; 25:26",
   "top": "marriage",
   "s": [
@@ -531,7 +554,7 @@
   "type": "word",
   "t": "The Lord in the Hebrew",
   "p": "Here the Hebrew writes the divine name in short, three letters yod, where the Greek has \"Lord\".",
-  "b": "Manuscript C reads <i>uvchelek yere' YYY tinnaten</i>, \"and in the portion of one who fears the LORD she will be given\". The three yods were a Jewish scribe's way of writing the name YHWH without spelling it out. Where this copy has the name, the grandson's Greek, like the whole Greek Bible, puts <i>Kyrios</i>, \"Lord\". Since the Plain translates the Greek, it keeps \"the Lord\" here. The Talmud quotes the line as \"she will be given into the bosom of a God-fearing man\" (Sanhedrin 100b).",
+  "b": "Manuscript C (folio VIII recto, line 3) reads <i>uvchelek yere' YYY tinnaten</i> (the last letter is restored by Abegg), \"and in the portion of one who fears the LORD she will be given\". The three yods were a Jewish scribe's way of writing the name YHWH without spelling it out. Where this copy has the name, the grandson's Greek, as the Greek Bible usually does, puts <i>Kyrios</i>, \"Lord\". Since the Plain translates the Greek, it keeps \"the Lord\" here. The Talmud quotes the line as \"she will be given into the bosom of a God-fearing man\" (Sanhedrin 100b).",
   "orig": "ירא ייי (yere' YYY), 'one who fears the LORD'",
   "kind": "nu",
   "r": "Proverbs 19:14; Proverbs 18:22; 26:1",
@@ -621,8 +644,8 @@
   "a": "a self-controlled soul",
   "type": "word",
   "t": "A closed mouth",
-  "p": "The Hebrew of Manuscript C praises a wife who keeps her mouth shut; the Greek says \"self-controlled soul\".",
-  "b": "Manuscript C reads <i>ve'ein mishqal litsrorat peh</i>, \"there is no weight (price) for one who keeps her mouth tied up\", that is, a woman who can keep a secret or hold her tongue. The Greek turns this into <i>enkratēs psychē</i>, \"a self-controlled soul\", a phrase Greek moral writers would have known. The Latin and the KJV (\"her continent mind\") follow the Greek.",
+  "p": "The Hebrew of Manuscript C praises a wife who is \"tied up at the mouth\"; the Greek says \"self-controlled soul\".",
+  "b": "Manuscript C (folio VIII recto, lines 6–7) reads <i>ve'ein mishqal litsrorat peh</i>, word for word \"and there is no weighing for one tied up at the mouth\", that is, a woman who can hold her tongue; Parker and Abegg render the line \"no price is too much to pay to keep her\". The Greek has <i>enkratēs psychē</i>, \"a self-controlled soul\", a phrase Greek moral writers would have known. Whether the Greek translator read this Hebrew wording and chose a broader phrase, or read a different Hebrew line, cannot be known from this copy. The Latin and the KJV (\"her continent mind\") follow the Greek.",
   "orig": "ἐγκρατοῦς ψυχῆς (enkratous psychēs); Hebrew צרורת פה (tserorat peh), 'one tied up at the mouth'",
   "kind": "nu",
   "r": "Proverbs 10:19; Proverbs 31:26; 26:14",
@@ -650,13 +673,13 @@
   "a": "My child",
   "type": "word",
   "t": "\"My child\"",
-  "p": "The Greek <i>teknon</i> is \"child\". The KJV has \"My son\". This passage is only in the longer Greek.",
-  "b": "Ben Sira addresses his student as <i>teknon</i>, \"child\", throughout the book, and the site renders it \"my child\". Proverbs' Hebrew has <i>beni</i>, \"my son\" (Proverbs 1:8), and the KJV has \"My son\" here. There is no Hebrew for 26:19–27: the whole passage belongs to the longer form of the Greek and is not in Vaticanus or the Latin (see the variants).",
+  "p": "The Greek <i>teknon</i> is \"child\". The KJV has \"My son\". This passage is not in the great codices.",
+  "b": "Ben Sira addresses his student as <i>teknon</i>, \"child\", throughout the book, and the site renders it \"my child\". Proverbs' Hebrew has <i>beni</i>, \"my son\" (Proverbs 1:8), and the KJV has \"My son\" here. There is no Hebrew for 26:19–27: the whole passage is found in codex 248 (and, as Hart reports, in minuscule 70 and the Syriac), not in Vaticanus or the Latin (see the variants).",
   "orig": "Τέκνον (teknon)",
   "kind": "nu",
   "r": "Proverbs 1:8; Proverbs 6:1; Proverbs 5:1",
   "s": [
-   "sir2429-greek-longer"
+   "hart-ecclesiasticus-248"
   ]
  },
  {
@@ -673,13 +696,13 @@
   "a": "The man with a good wife is a happy man",
   "type": "word",
   "t": "A repeated saying",
-  "p": "The longer Greek repeats the saying of 26:1 here, with \"years\" for \"days\". The Plain repeats the English too.",
-  "b": "The extra lines in this verse echo 26:1 almost word for word. A scribe who added the passage of 26:19–27 seems to have rounded it off with the saying that begins the chapter. The Plain gives both lines in the same English so the repetition can be seen.",
+  "p": "Codex 248 repeats the saying of 26:1 here, with \"years\" for \"days\". The Plain repeats the English too.",
+  "b": "The extra lines in this verse echo 26:1 almost word for word, so the passage 26:19–27 ends with the saying that begins the chapter. Who wrote the passage, and when, the manuscripts do not tell. The Plain gives both lines in the same English so the repetition can be seen.",
   "orig": "γυναικὸς ἀγαθῆς μακάριος ὁ ἀνήρ (gynaikos agathēs makarios ho anēr)",
   "kind": "nu",
   "r": "26:1",
   "s": [
-   "sir2429-greek-longer"
+   "hart-ecclesiasticus-248"
   ]
  },
  {
@@ -713,7 +736,7 @@
   "type": "echo",
   "t": "Sin at the market",
   "p": "As a peg is jammed between stones, sin is jammed into every deal. The prophets said the same of Israel's markets.",
-  "b": "Ben Sira's picture is of a wooden peg driven into the crack between building stones: once in, it does not come out. So sin gets ground into buying and selling. The Law demanded honest weights (Deuteronomy 25:13–15), Proverbs says \"Scales that cheat are abhorrent to the LORD\" (Proverbs 11:1), and Amos heard merchants say, \"We will make the ephah small and the shekel large, and cheat with scales that lie\" (Amos 8:5). Ben Sira does not forbid trade; he warns that only the fear of the Lord keeps a merchant's house standing (27:3).",
+  "b": "Ben Sira's picture is of a wooden peg driven into the crack between building stones: once in, it does not come out. So sin gets ground into buying and selling: the Greek verb <i>syntribēsetai</i> means \"will be crushed\" or \"ground\", pressed into the gap like the peg. The Law demanded honest weights (Deuteronomy 25:13–15), Proverbs says \"Scales that cheat are abhorrent to the LORD\" (Proverbs 11:1), and Amos heard merchants say, \"We will make the ephah small and the shekel large, and cheat with scales that lie\" (Amos 8:5). Ben Sira does not forbid trade; he warns that only the fear of the Lord keeps a merchant's house standing (27:3).",
   "r": "Deuteronomy 25:13–16; Proverbs 11:1; Amos 8:4–6; Micah 6:10–11; 26:29; 27:3",
   "top": "wealth"
  },
@@ -931,8 +954,8 @@
   "a": "The tongue of a third party",
   "type": "word",
   "t": "The third tongue",
-  "p": "The Greek \"third tongue\" renders a Hebrew idiom for slander: talk about someone who is not there.",
-  "b": "The Greek <i>glōssa tritē</i>, \"a third tongue\", makes no sense in Greek, and a later hand's note in the margin of Vaticanus tried <i>trētē</i>, \"pierced\". It is a Hebrew phrase. The Talmud quotes a saying from the land of Israel: \"Third speech, i.e., malicious speech about a third party, kills three people\": the one who speaks it, the one who accepts it, and the one about whom it is said (Arakhin 15b). The Plain says \"the tongue of a third party\" to keep the idiom. The Latin keeps it word for word, <i>lingua tertia</i>.",
+  "p": "The Greek \"third tongue\" probably renders a Hebrew idiom for slander: talk about someone who is not there.",
+  "b": "The Greek <i>glōssa tritē</i>, \"a third tongue\", makes no sense in Greek, and a later hand's note in the margin of Vaticanus tried <i>trētē</i>, \"pierced\". No Hebrew of chapter 28 has been found, but the phrase is probably a Hebrew idiom carried over word for word. The Talmud quotes a saying from the land of Israel: \"Third speech, i.e., malicious speech about a third party, kills three people\": the one who speaks it, the one who accepts it, and the one about whom it is said (Arakhin 15b). The Plain says \"the tongue of a third party\" to keep the idiom. The Latin keeps it word for word, <i>lingua tertia</i>.",
   "orig": "γλῶσσα τρίτη (glōssa tritē), 'a third tongue'",
   "kind": "nu",
   "r": "Proverbs 26:20–22; Psalm 101:5; Leviticus 19:16; James 4:11",

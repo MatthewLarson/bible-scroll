@@ -3,7 +3,7 @@
   "v": "44:16",
   "a": "a pattern of repentance",
   "t": "Repentance or knowledge?",
-  "p": "The Greek calls Enoch an example of repentance; manuscript B calls him a sign of knowledge; the Masada scroll lacks the verse.",
+  "p": "The Greek calls Enoch an example of repentance; manuscript B calls him a sign of knowledge; the Masada scroll has no text of the verse.",
   "readings": [
    {
     "w": "Codex Vaticanus (300s AD), as printed by Swete; Sinaiticus and Alexandrinus agree (Swete's notes give no difference)",
@@ -26,12 +26,13 @@
   ],
   "follow": 0,
   "why": "The Plain follows the Greek, the base text of this site's Sirach. The Hebrew 'sign of knowledge' fits the Enoch traditions of 1 Enoch, where Enoch is the scribe who learns heaven's secrets; the Greek 'repentance' may reflect a reading of Enoch's walking with God as a turning to God.",
-  "b": "The Masada scroll (copied before AD 73), column VII, goes from 44:15 (line 22) to 44:17 (line 24) with no line for 44:16, in Eric Reymond's transcription. So the oldest copy lacks the verse, and 49:14 has a second Enoch verse. The Latin adds 'into paradise'.",
+  "b": "The Masada scroll, column VII, goes from 44:15 (line 22) to 44:17 (line 24) in Eric Reymond's transcription, and line 23 is empty. Whether the empty line is a space left on purpose or not, Masada has no text of 44:16. Rendsburg and Binstein date the Qumran and Masada copies between about 50 BC and AD 70. 49:14 has a second Enoch verse. The Latin adds 'into paradise'.",
   "s": [
    "swete-ot",
    "abegg-bensira-msb",
    "reymond-masada-sirach",
-   "vulgate-clementine"
+   "vulgate-clementine",
+   "rendsburg-binstein-bensira"
   ]
  },
  {
@@ -68,6 +69,33 @@
   ]
  },
  {
+  "v": "45:17",
+  "a": "In his commandments he gave him",
+  "t": "Gave him, or gave to him?",
+  "p": "Vaticanus has 'he gave him' (accusative); Sinaiticus, Alexandrinus and manuscript B have 'he gave to him'.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (Swete's notes: αυτω ℵA, and εν ταις εντ. A); manuscript B, folio XV recto, line 7, 'and he gave him all his commandments' (ויתן לו כל מצותיו)",
+    "orig": "ἔδωκεν αὐτῷ ἐν ταῖς ἐντολαῖς αὐτοῦ",
+    "en": "he gave to him in his commandments",
+    "plain": "In his commandments he gave him"
+   },
+   {
+    "w": "Codex Vaticanus (300s AD), as printed by Swete",
+    "orig": "ἔδωκεν αὐτὸν ἐν ἐντολαῖς αὐτοῦ",
+    "en": "he gave him (over) in his commandments",
+    "plain": "He gave him over to his commandments"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Vaticanus. Its accusative 'him' gives no clear sense with 'authority' that follows; the dative of Sinaiticus and Alexandrinus, 'gave to him', matches manuscript B's 'gave him'.",
+  "b": "Sinaiticus has the dative too, but 'his commandments' without 'in' (εντολας).",
+  "s": [
+   "swete-ot",
+   "abegg-bensira-msb"
+  ]
+ },
+ {
   "v": "46:13",
   "a": "His Lord loved Samuel,",
   "t": "Is Samuel named?",
@@ -87,7 +115,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from Vaticanus here. Three of the four great Greek codices and the Hebrew name Samuel, and without the name the reader cannot tell who is meant; Vaticanus seems to have lost the word.",
+  "why": "The Plain departs from Vaticanus here. Three of the four great Greek codices and the Hebrew name Samuel, and without the name the reader cannot tell who is meant; Vaticanus omits it.",
   "s": [
    "swete-ot",
    "abegg-bensira-msb"
@@ -171,10 +199,38 @@
   ]
  },
  {
+  "v": "47:5",
+  "a": "and lift up the horn of his people",
+  "t": "To lift up, or he will lift up?",
+  "p": "Vaticanus has a future, 'he will lift up'; the other Greek codices, the Latin and manuscript B have 'to lift up'.",
+  "readings": [
+   {
+    "w": "Codices Sinaiticus, Alexandrinus and Ephraemi (Swete's notes: ανυψωσαι ℵAC); Latin 'et exaltare cornu gentis suae' (47:6 in its numbering); manuscript B, folio XVI verso, line 10, 'and to raise the horn of his people' (ולהרים את קרן עמו)",
+    "orig": "ἀνυψῶσαι κέρας λαοῦ αὐτοῦ",
+    "en": "to lift up the horn of his people",
+    "plain": "and lift up the horn of his people"
+   },
+   {
+    "w": "Codex Vaticanus (300s AD), as printed by Swete",
+    "orig": "ἀνυψώσει κέρας λαοῦ αὐτοῦ",
+    "en": "he will lift up the horn of his people",
+    "plain": "He will lift up the horn of his people."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the infinitive, which carries on from 'to bring down a man of war'. The difference in sense is small.",
+  "b": "In the same verse Sinaiticus, Alexandrinus, Ephraemi and a corrector of Vaticanus add δυνατόν, 'a mighty man of war'; the Plain keeps Vaticanus there.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "abegg-bensira-msb"
+  ]
+ },
+ {
   "v": "48:11",
   "a": "and those made beautiful by love",
   "t": "Adorned by love, or by your love?",
-  "p": "A corrector of Sinaiticus and the Latin read 'by your love'; the KJV, from another text, 'slept in love'.",
+  "p": "A corrector of Sinaiticus and the Latin read 'by your love'; the KJV, from a different text, 'slept in love'.",
   "readings": [
    {
     "w": "Codex Vaticanus (300s AD), as printed by Swete",
@@ -190,7 +246,7 @@
    },
    {
     "w": "KJV 'and slept in love'",
-    "orig": "(a Greek text with 'fell asleep')",
+    "orig": "(not in Swete's Greek; the KJV followed a different text)",
     "en": "and slept in love",
     "plain": "and those who fell asleep in love"
    }
@@ -205,15 +261,15 @@
  },
  {
   "v": "48:11",
-  "a": "For we too will live a true life.",
+  "a": "For we too will indeed live.",
   "t": "Life, or only this life?",
   "p": "The Greek hopes 'we too will live'; the Latin adds a line that denies it: after death our name will not be the same.",
   "readings": [
    {
     "w": "Codex Vaticanus (300s AD), as printed by Swete; Alexandrinus has ζωῆς",
     "orig": "καὶ γὰρ ἡμεῖς ζωῇ ζησόμεθα",
-    "en": "for we too shall live with life",
-    "plain": "For we too will live a true life."
+    "en": "for we too shall live with life (that is, we shall indeed live)",
+    "plain": "For we too will indeed live."
    },
    {
     "w": "Latin Vulgate (48:12 in its numbering)",
@@ -275,15 +331,15 @@
     "plain": "he remembered the enemies with a downpour"
    },
    {
-    "w": "Cairo Genizah manuscript B, folio XVIII verso, line 14",
-    "orig": "וגם הזכיר את איוב נביא",
-    "en": "and he also mentioned Job the prophet",
-    "plain": "he also made mention of Job the prophet"
+    "w": "Cairo Genizah manuscript B, folio XVIII verso, line 14 (the next word, read as 'prophet', is damaged and partly restored by Abegg)",
+    "orig": "וגם הזכיר את איוב",
+    "en": "and he also mentioned Job",
+    "plain": "he also made mention of Job"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek, the base text. The Hebrew is almost certainly the older sense: Ezekiel names Job in 14:14 and 14:20, and the Greek translator read איוב 'Job' as אויב 'enemy'.",
-  "b": "In manuscript B the second line reads 'who held to all the ways of righteousness', where the Greek has 'and did good to those who walk straight paths'.",
+  "why": "The Plain follows the Greek, the base text. The Hebrew gives good sense: Ezekiel names Job in Ezekiel 14:14 and 14:20, and the Greek translator may have read איוב 'Job' as אויב 'enemy'.",
+  "b": "In manuscript B the middle of the second line is lost; Abegg and Parker restore it as 'who maintained all the ways of righteousness', where the Greek has 'and did good to those who walk straight paths'.",
   "s": [
    "abegg-bensira-msb"
   ]
@@ -292,7 +348,7 @@
   "v": "49:10",
   "a": "He comforted Jacob",
   "t": "He or they?",
-  "p": "Vaticanus makes the verb singular; Alexandrinus and manuscript B make it the Twelve Prophets who comforted and rescued.",
+  "p": "Vaticanus makes the verb singular; Alexandrinus, manuscript B and the Latin make the twelve prophets the ones who comforted and rescued.",
   "readings": [
    {
     "w": "Codex Vaticanus (300s AD), as printed by Swete",
@@ -301,7 +357,7 @@
     "plain": "He comforted Jacob"
    },
    {
-    "w": "Codex Alexandrinus (Swete's notes: παρεκαλεσαν, ελυτρωσαντο); manuscript B 'who restored Jacob and saved him' (אשר החלימו את יעקב), folio XVIII verso, line 16",
+    "w": "Codex Alexandrinus (Swete's notes: παρεκαλεσαν, ελυτρωσαντο; γαρ for δε, also in a corrector of Sinaiticus); Latin Vulgate (49:12) 'nam corroboraverunt Jacob, et redemerunt se'; manuscript B 'who restored Jacob' (אשר החלימו את יעקב) 'and saved him' (וישעוהו), folio XVIII verso, line 16",
     "orig": "παρεκάλεσαν γὰρ τὸν Ἰακώβ",
     "en": "for they comforted Jacob",
     "plain": "For they comforted Jacob"
@@ -311,7 +367,8 @@
   "why": "The Plain keeps Vaticanus, where 'he' is most naturally God. Alexandrinus and the Hebrew make the Twelve the ones who comforted Israel, which fits the line before.",
   "s": [
    "swete-ot",
-   "abegg-bensira-msb"
+   "abegg-bensira-msb",
+   "vulgate-clementine"
   ]
  },
  {
@@ -395,6 +452,32 @@
   ]
  },
  {
+  "v": "49:16",
+  "a": "Among humans Shem and Seth won honor",
+  "t": "Shem and Seth, or Enosh too?",
+  "p": "Manuscript B adds Enosh, son of Seth.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (300s AD), as printed by Swete",
+    "orig": "Σὴμ καὶ Σὴθ ἐν ἀνθρώποις ἐδοξάσθησαν",
+    "en": "Shem and Seth were honored among humans",
+    "plain": "Among humans Shem and Seth won honor"
+   },
+   {
+    "w": "Cairo Genizah manuscript B, folio XIX recto, line 6",
+    "orig": "ושם ושת ואנוש נפקדו",
+    "en": "and Shem and Seth and Enosh were cared for",
+    "plain": "Shem, Seth and Enosh were cared for"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek, the base text. Enosh is Seth's son (Genesis 4:26).",
+  "s": [
+   "swete-ot",
+   "abegg-bensira-msb"
+  ]
+ },
+ {
   "v": "50:1",
   "a": "Simon son of Onias, the high priest,",
   "t": "Simon son of Onias, or of Yohanan",
@@ -441,9 +524,42 @@
   ],
   "follow": 0,
   "why": "The Plain departs from the Greek. Swete's <i>ēlattōthē</i> means 'was lessened', which does not fit a builder's praise; the Hebrew נכרה, 'was dug', gives the sense the context needs, and the Greek word may be a copyist's slip.",
-  "b": "In the second line Alexandrinus has <i>lakkos</i>, 'a cistern', for <i>chalkos</i>, 'bronze' (Swete's notes); see the note on this verse.",
+  "b": "In the second line Alexandrinus has <i>lakkos</i>, 'a cistern', for <i>chalkos</i>, 'bronze', a difference of two letters; Sinaiticus and Alexandrinus also read the plural 'reservoirs' (αποδοχεια, -χια) (Swete's notes). Manuscript B's second half, <i>אשיח בם בהמונו</i>, has no word for 'sea'; Abegg and Parker translate it 'the pool in them in its vastness'. See the note on this verse.",
   "s": [
    "swete-ot",
+   "abegg-bensira-msb"
+  ]
+ },
+ {
+  "v": "50:8",
+  "a": "when the days are new",
+  "t": "New days, or spring?",
+  "p": "The Greek has 'in days of new (ones)'; the Latin has 'in the days of spring'; manuscript B has a different line.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (300s AD), as printed by Swete; Swete's notes give no difference here",
+    "orig": "ἐν ἡμέραις νέων",
+    "en": "in days of new (ones)",
+    "plain": "when the days are new"
+   },
+   {
+    "w": "Latin Vulgate (50:8)",
+    "orig": "quasi flos rosarum in diebus vernis",
+    "en": "like the flower of roses in the days of spring",
+    "plain": "like rose blossoms in the spring days"
+   },
+   {
+    "w": "Cairo Genizah manuscript B, folio XIX recto, line 15 (Abegg and Parker: 'Like the branches of trees blossoming in their season')",
+    "orig": "כנצבענפי בימי מועד",
+    "en": "like the blossom of branches in the days of the set time",
+    "plain": "like branches in blossom in their season"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Its <i>neōn</i>, 'of new (ones)', may mean the new season of the year, which is how the Latin took it.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
    "abegg-bensira-msb"
   ]
  },
@@ -476,7 +592,7 @@
  },
  {
   "v": "50:24",
-  "a": "May his mercy stay faithfully with us,",
+  "a": "May he entrust his mercy to us,",
   "t": "A prayer for us, or for Simon?",
   "p": "Manuscript B prays for Simon and the covenant of Phinehas; the Greek prays for 'us'. Covers the whole verse.",
   "readings": [
@@ -484,7 +600,7 @@
     "w": "Codex Vaticanus (300s AD), as printed by Swete",
     "orig": "ἐνπιστεῦσαι μεθ᾽ ἡμῶν τὸ ἔλεος αὐτοῦ",
     "en": "to entrust his mercy with us",
-    "plain": "May his mercy stay faithfully with us,"
+    "plain": "May he entrust his mercy to us,"
    },
    {
     "w": "Cairo Genizah manuscript B, folio XX recto, lines 3–4",
@@ -494,7 +610,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew is clearly the older form; the grandson, translating after Simon's family had lost the high priesthood, seems to have widened the prayer to all Israel (see the note on this verse).",
+  "why": "The Plain follows the Greek, whose infinitive 'to entrust' it gives as a prayer. The Hebrew <i>יאמן</i> means 'may it be faithful'. The Hebrew may be the earlier form, written while Simon's family still held the office; that is an inference (see the note on this verse).",
   "b": "With the Hebrew reading, the next line of the Greek ('and may he set us free in his time') has no counterpart in manuscript B.",
   "s": [
    "swete-ot",
@@ -668,8 +784,11 @@
   "follow": 0,
   "why": "The Plain departs from Vaticanus, whose <i>limou</i>, 'of hunger', is hard to make sense of; it may be a slip, unless it means fasting. Alexandrinus's <i>mou</i> gives a plain sense.",
   "s": [
-   "swete-ot"
-  ]
+   "swete-ot",
+   "dssel-11qpsa-sirach",
+   "abegg-bensira-msb"
+  ],
+  "b": "The Hebrew is quite different and has nothing like 'the doing of hunger'. 11QPs-a, column XXI, lines 15–16, has <i>חריתי נפשי בה</i>, 'I burned with desire for her', and <i>ופני לוא השיבותי</i>, 'and I did not turn my face away' (some letters damaged); manuscript B, folio XXI recto, line 15, has <i>חשקה נפשי בה ופני לא אהפך ממנה</i>, 'my soul longed for her, and I will not turn my face from her'. The Greek 'up high' (πρὸς ὕψος) may answer to 11QPs-a's 'her heights' (<i>וברומיה</i>) in the next line."
  },
  {
   "v": "51:20",
@@ -694,7 +813,9 @@
   "why": "The Plain departs from Vaticanus. The whole poem speaks of wisdom as 'her', and 'them' has nothing to refer to.",
   "s": [
    "swete-ot",
-   "abegg-bensira-msb"
-  ]
+   "abegg-bensira-msb",
+   "dssel-11qpsa-sirach"
+  ],
+  "b": "11QPs-a, column XXI, line 16, begins this verse <i>טרתי נפשי בה וברומיה לוא</i>: a verb of uncertain sense, then 'my soul on her, and in her heights... not', and the rest of the line is damaged. Manuscript B, folio XXI recto, line 18, has <i>ובטהרה מצאתיה</i>, 'and in purity I found her', which agrees with the Greek 'by cleansing I found her'."
  }
 ]
