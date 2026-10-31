@@ -1,0 +1,888 @@
+[
+ {
+  "v": "24:6",
+  "a": "I gained a holding",
+  "t": "Gained a holding, or led?",
+  "p": "Vaticanus says Wisdom \"acquired\" a share in every nation; a corrector of Sinaiticus says she \"led\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐκτησάμην",
+    "en": "I acquired, took possession",
+    "plain": "I gained a holding"
+   },
+   {
+    "w": "a corrector of Codex Sinaiticus (ℵc.a), in Swete's notes",
+    "orig": "ἡγησάμην",
+    "en": "I led, I ruled",
+    "plain": "I took the lead"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text; the corrector's reading is a single later change, and \"gained a holding\" prepares for 24:7–8, where Wisdom looks for an inheritance and receives Israel.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "24:14",
+  "a": "on the seashore",
+  "t": "On the seashore, or at En-gedi?",
+  "p": "Vaticanus has \"on the beaches\". A corrector of Sinaiticus has \"in En-gedi\", the oasis by the Dead Sea, which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐν αἰγιαλοῖς",
+    "en": "on the beaches",
+    "plain": "on the seashore"
+   },
+   {
+    "w": "a corrector of Codex Sinaiticus (ℵc.a), in Swete's notes; the KJV (\"in En-gaddi\")",
+    "orig": "ἐν Ἐνγαδδοῖς",
+    "en": "in En-gedi",
+    "plain": "at En-gedi"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps Swete's text. The other reading is attractive, since the list names places in the land (Lebanon, Hermon, Jericho) and En-gedi's vineyards are praised in the Song of Songs (Song of Songs 1:14), and the two Greek words look alike; but it is found here only in a correction.",
+  "s": [
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "24:18",
+  "a": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / I who am forever, to those he has named.]",
+  "t": "\"Mother of beautiful love\"",
+  "p": "Not in Vaticanus. The longer Greek has the whole verse; the Latin has its first half (Vulgate 24:24).",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "ἐγὼ μήτηρ τῆς ἀγαπήσεως τῆς καλῆς, καὶ φόβου καὶ γνώσεως καὶ τῆς ὁσίας ἐλπίδος, δίδομαι οὖν πᾶσι τοῖς τέκνοις μου, ἀειγενὴς τοῖς λεγομένοις ὑπ' αὐτοῦ",
+    "en": "I am the mother of beautiful love and of fear and knowledge and holy hope; so I am given to all my children, ever-being, to those spoken for by him",
+    "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / I who am forever, to those he has named.]"
+   },
+   {
+    "w": "Latin, Clementine Vulgate 24:24 (first half only); the Douay-Rheims (\"I am the mother of fair love, and of fear, and of knowledge, and of holy hope\")",
+    "orig": "Ego mater pulchrae dilectionis, et timoris, et agnitionis, et sanctae spei.",
+    "en": "I am the mother of beautiful love, and of fear, and of knowledge, and of holy hope.",
+    "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus, Sinaiticus and Alexandrinus have no verse 18, but the verse number is used by the KJV and most English Bibles, so the Plain gives the line in brackets, translated from the longer Greek. The brackets mark it as missing from the base text.",
+  "b": "The KJV gives the whole verse (\"I therefore, being eternal, am given to all my children which are named of him\"). The note on \"the mother of beautiful love\" tells how the Latin line became a title of Mary.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "24:23",
+  "a": "the law Moses commanded",
+  "t": "\"Commanded\", or \"commanded us\"?",
+  "p": "Sinaiticus and Alexandrinus add \"us\": \"the law Moses commanded us\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "νόμον ὃν ἐνετείλατο Μωυσῆς",
+    "en": "the law which Moses commanded",
+    "plain": "the law Moses commanded"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; the longer Greek text as transcribed on Greek Wikisource",
+    "orig": "νόμον ὃν ἐνετείλατο ἡμῖν Μωυσῆς",
+    "en": "the law which Moses commanded us",
+    "plain": "the law Moses commanded us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The meaning is the same; \"us\" brings the line closer to Deuteronomy 33:4, which it quotes: \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4). The KJV, like Vaticanus, has no \"us\".",
+  "s": [
+   "swete-lxx",
+   "sir2429-greek-longer"
+  ]
+ },
+ {
+  "v": "24:24",
+  "a": "[Do not let your strength give way in the Lord; / cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]",
+  "t": "\"No other savior\"",
+  "p": "Not in Vaticanus or the Latin. The longer Greek has this verse; the KJV follows it.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "μὴ ἐκλύεσθε ἰσχὺν ἐν Κυρίῳ, κολλᾶσθε δὲ πρὸς αὐτόν, ἵνα κραταιώσῃ ὑμᾶς, Κύριος παντοκράτωρ Θεὸς μόνος ἐστί, καὶ οὐκ ἔστιν ἔτι πλὴν αὐτοῦ σωτήρ",
+    "en": "Do not give up strength in the Lord; cling to him so he may strengthen you; the Lord Almighty alone is God, and there is no other savior besides him",
+    "plain": "[Do not let your strength give way in the Lord; / cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The great codices lack the verse and the Latin has nothing like it here; the KJV numbers it 24:24 from the longer Greek. The Plain gives it in brackets so the KJV's verse numbers still work.",
+  "b": "It is the only line in this chapter addressed to \"you\" (plural): it reads like a preacher's call added to the poem.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "25:8",
+  "a": "who shares his home with a wife who has good sense",
+  "t": "The Hebrew adds the ox and the donkey",
+  "p": "Manuscript C adds, \"and he who does not plow with an ox and a donkey together\", and puts the lines in another order.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "μακάριος ὁ συνοικῶν γυναικὶ συνετῇ",
+    "en": "happy the one living with a sensible wife",
+    "plain": "who shares his home with a wife who has good sense"
+   },
+   {
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
+    "orig": "אשרי בעל אשה משכלת ולא חורש כשור עם חמור",
+    "en": "happy is the husband of a sensible wife, and he who does not plow with an ox and a donkey together",
+    "plain": "who is the husband of a wife with good sense, and who does not plow with an ox and a donkey together"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek. The Hebrew line is old and vivid: it borrows the law against yoking an ox with a donkey (Deuteronomy 22:10) as a picture of a mismatched marriage. The Greek either did not have it or left it out.",
+  "s": [
+   "swete-lxx",
+   "sir2429-ms-c"
+  ]
+ },
+ {
+  "v": "25:11",
+  "a": "The fear of the Lord goes beyond everything.",
+  "t": "The fear, or the love, of the Lord?",
+  "p": "The KJV reads \"the love of the Lord passeth all things for illumination\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "φόβος Κυρίου ὑπὲρ πᾶν ὑπερέβαλεν",
+    "en": "the fear of the Lord surpassed everything",
+    "plain": "The fear of the Lord goes beyond everything."
+   },
+   {
+    "w": "The KJV (\"But the love of the Lord passeth all things for illumination\")",
+    "orig": "(the Greek behind the KJV is not given in Swete)",
+    "en": "the love of the Lord surpasses all things for enlightening",
+    "plain": "The love of the Lord goes beyond everything as a light."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek of the great codices, which the Greek text on Wikisource shares. The KJV's form comes from the longer tradition of the text; it fits 25:12, which in the longer text speaks of loving him.",
+  "s": [
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "25:12",
+  "a": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]",
+  "t": "\"The beginning of loving him\"",
+  "p": "Not in Vaticanus. The longer Greek and the Latin (Vulgate 25:16) have it.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "φόβος Κυρίου ἀρχὴ ἀγαπήσεως αὐτοῦ, πίστις δὲ ἀρχὴ κολλήσεως αὐτοῦ",
+    "en": "the fear of the Lord is the beginning of love for him, and faith the beginning of clinging to him",
+    "plain": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]"
+   },
+   {
+    "w": "Latin, Clementine Vulgate 25:16; the Douay-Rheims (\"The fear of God is the beginning of his love: and the beginning of faith is to be fast joined unto it\")",
+    "orig": "Timor Dei initium dilectionis ejus: fidei autem initium agglutinandum est ei.",
+    "en": "The fear of God is the beginning of his love; but the beginning of faith is to be joined fast to it.",
+    "plain": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The verse is in the longer Greek and in the Latin; the great codices lack it. The Plain gives it in brackets.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "25:15",
+  "a": "an enemy's anger",
+  "t": "An enemy's anger, or a woman's?",
+  "p": "The Greek says no anger is worse than an enemy's. The Latin has \"a woman's\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus agree, as Swete prints them",
+    "orig": "θυμὸν ἐχθροῦ",
+    "en": "the anger of an enemy",
+    "plain": "an enemy's anger"
+   },
+   {
+    "w": "Latin, Clementine Vulgate 25:23",
+    "orig": "iram mulieris",
+    "en": "the anger of a woman",
+    "plain": "a woman's anger"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Latin's \"woman\" ties the line to the poem on the evil wife that follows, and some modern versions adopt it; but the Greek pair \"snake\" and \"enemy\" makes sense as it stands, and the Hebrew of this verse has not been found.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "25:17",
+  "a": "it makes her face as dark as sackcloth",
+  "t": "Sackcloth, or a bear?",
+  "p": "Vaticanus has \"like sackcloth\". Sinaiticus and Alexandrinus have \"like a bear\", and so does the Hebrew.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "σκοτοῖ τὸ πρόσωπον αὐτῆς ὡς σάκκον",
+    "en": "darkens her face like sackcloth",
+    "plain": "it makes her face as dark as sackcloth"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes",
+    "orig": "ὡς ἄρκος",
+    "en": "like a bear",
+    "plain": "it makes her face as dark as a bear's"
+   },
+   {
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
+    "orig": "רע אשה ישחיר מראה איש ויקדיר פניו לדוב",
+    "en": "a woman's evil blackens a man's looks and darkens his face like a bear",
+    "plain": "it blackens a man's looks and makes his face as dark as a bear's"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. \"Bear\" is very likely the older reading, since the Hebrew has it; sackcloth, dark goat-hair cloth worn in mourning, may be a copyist's change to an easier picture. The Hebrew also makes the husband's face, not the wife's, go dark, which fits 25:18.",
+  "s": [
+   "swete-lxx",
+   "sir2429-ms-c"
+  ]
+ },
+ {
+  "v": "25:18",
+  "a": "and hearing it, he groans bitterly",
+  "t": "Hearing it, or without meaning to?",
+  "p": "The Greek says he groans \"when he hears\". The Hebrew says he sighs \"without his will\", before he can stop himself.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ἀκούσας ἀνεστέναξεν πικρά",
+    "en": "and having heard, he groaned bitterly",
+    "plain": "and hearing it, he groans bitterly"
+   },
+   {
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
+    "orig": "ובלא טעמו יתאנח",
+    "en": "and without his intending it, he sighs",
+    "plain": "and without meaning to, he sighs"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek. The Hebrew <i>uvlo' ta'mo</i> means \"without his sense, his choosing\": the husband cannot help sighing. The grandson may have read a different word or guessed.",
+  "s": [
+   "swete-lxx",
+   "sir2429-ms-c"
+  ]
+ },
+ {
+  "v": "25:21",
+  "a": "and do not set your longing on a woman",
+  "t": "Longing for her, or for her money?",
+  "p": "The Greek warns against longing for a woman. The Hebrew warns against hurrying to her because of what she owns.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ γυναῖκα μὴ ἐπιποθήσῃς",
+    "en": "and do not long for a woman",
+    "plain": "and do not set your longing on a woman"
+   },
+   {
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII verso",
+    "orig": "ועל יש לה אל תמהר",
+    "en": "and for what she has, do not hurry",
+    "plain": "and do not rush after her for what she owns"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek. The Hebrew line goes with 25:22, where a rich wife who keeps her husband brings him shame: do not marry for beauty or for money.",
+  "s": [
+   "swete-lxx",
+   "sir2429-ms-c"
+  ]
+ },
+ {
+  "v": "25:25",
+  "a": "power to do as she likes",
+  "t": "Power, or free speech?",
+  "p": "Vaticanus has \"authority\". Sinaiticus and Alexandrinus have \"freedom of speech\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "μηδὲ γυναικὶ πονηρᾷ ἐξουσίαν",
+    "en": "nor authority to an evil woman",
+    "plain": "power to do as she likes"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes",
+    "orig": "παρρησίαν",
+    "en": "freedom of speech",
+    "plain": "freedom to say what she likes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. \"Freedom of speech\" fits the busy tongue of 25:20 and the leak of water in the first line; \"authority\" fits the next verse, where she will not \"walk as your hand guides her\".",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "25:26",
+  "a": "cut her away from your flesh.",
+  "t": "\"Give her a bill of divorce\"",
+  "p": "The KJV adds \"and give her a bill of divorce, and let her go\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Greek text on Greek Wikisource agrees",
+    "orig": "ἀπὸ τῶν σαρκῶν σου ἀπότεμε αὐτήν",
+    "en": "cut her off from your flesh",
+    "plain": "cut her away from your flesh."
+   },
+   {
+    "w": "The KJV (\"cut her off from thy flesh, and give her a bill of divorce, and let her go\")",
+    "orig": "(the Greek behind the KJV's addition is not given in Swete)",
+    "en": "cut her off, give her a bill of divorce, and let her go",
+    "plain": "cut her away from your flesh, give her a certificate of divorce, and let her go."
+   },
+   {
+    "w": "Latin, Clementine Vulgate 25:35–36; the Douay-Rheims (\"she will confound thee in the sight of thy enemies. Cut her off from thy flesh, lest she always abuse thee\")",
+    "orig": "A carnibus tuis abscinde illam, ne semper te abutatur.",
+    "en": "cut her off from your flesh, lest she always abuse you",
+    "plain": "cut her away from your flesh, so that she does not keep abusing you."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The KJV's extra words spell out what \"cut her away from your flesh\" already means, using the language of Deuteronomy 24:1.",
+  "s": [
+   "swete-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "26:5",
+  "a": "in front of a fourth I plead for help",
+  "t": "Pleading, or afraid?",
+  "p": "Vaticanus says \"I pleaded\" at the fourth thing. A corrector of Sinaiticus and Alexandrinus say \"I was afraid\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐπὶ τῷ τετάρτῳ προσώπῳ ἐδεήθην",
+    "en": "at the fourth sight I begged",
+    "plain": "in front of a fourth I plead for help"
+   },
+   {
+    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes; the first hand of Sinaiticus has ἐδόθην, \"I was given\"",
+    "orig": "ἐφοβήθην",
+    "en": "I was afraid",
+    "plain": "before a fourth I am afraid"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, though \"I was afraid\" matches the first line (\"my heart shrinks back\") and the Latin (<i>facies mea metuit</i>, \"my face feared\"); the three Greek verbs look alike, and Vaticanus may have a copyist's slip.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "26:10",
+  "a": "Keep an unbending watch over a daughter",
+  "t": "An unbending watch, or a headstrong daughter?",
+  "p": "In Vaticanus the word is an adverb, \"unbendingly\". In Alexandrinus it describes the daughter: \"headstrong\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐπὶ θυγατρὶ ἀδιατρέπτως στερέωσον φυλακήν",
+    "en": "over a daughter firmly set a guard",
+    "plain": "Keep an unbending watch over a daughter"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; the Greek text on Greek Wikisource",
+    "orig": "ἐπὶ θυγατρὶ ἀδιατρέπτῳ",
+    "en": "over a headstrong (unabashed) daughter",
+    "plain": "Keep a firm watch over a headstrong daughter"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The difference is one letter. Alexandrinus' form fits 26:11's \"shameless eye\" and the Latin <i>in filia non avertente se</i>, \"a daughter who does not turn herself away\"; Vaticanus makes the line a general rule for any daughter.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "26:16",
+  "a": "in the order of his house",
+  "t": "His house, or hers?",
+  "p": "Vaticanus has \"his house\". Sinaiticus and Alexandrinus have \"her house\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐν κόσμῳ οἰκίας αὐτοῦ",
+    "en": "in the order of his house",
+    "plain": "in the order of his house"
+   },
+   {
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), and perhaps a corrector of Vaticanus, in Swete's notes",
+    "orig": "ἐν κόσμῳ οἰκίας αὐτῆς",
+    "en": "in the order of her house",
+    "plain": "in the order of her house"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text: the house is her husband's, and her beauty is the way she sets it in order. \"Her house\" puts the stress on her own care of it. The Hebrew (Manuscript C) speaks of her in the inner room.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:18",
+  "a": "set under a steady breast",
+  "t": "Breast, or heels?",
+  "p": "Vaticanus has \"on the breast\". The first hand of Sinaiticus has \"on heels\", which gives clearer sense.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πόδες ὡραῖοι ἐπὶ στέρνοις εὐσταθοῦς",
+    "en": "lovely feet on the chest of a steady one",
+    "plain": "set under a steady breast"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus (ℵ*), in Swete's notes",
+    "orig": "ἐπὶ πτέρναις (written πτερνοις)",
+    "en": "on heels",
+    "plain": "set on steady heels"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, though it is hard to picture; the KJV took it as \"a constant heart\". \"Heels\" makes a neat pair with \"feet\" and a match for \"pillars on a silver base\": legs set firmly on the ground. The Latin has \"firm feet upon the soles of a steady woman\".",
+  "s": [
+   "swete-lxx",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "26:19",
+  "a": "[My child, keep the prime of your life healthy, / and do not give your strength to strangers.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Verses 19–27 are in the longer Greek only, not in the great codices or the Latin. They go together.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "Τέκνον, ἀκμὴν ἡλικίας σου συντήρησον ὑγιῆ, καὶ μὴ δῷς ἀλλοτρίοις τὴν ἰσχύν σου.",
+    "en": "Child, keep the prime of your age healthy, and do not give your strength to strangers.",
+    "plain": "[My child, keep the prime of your life healthy, / and do not give your strength to strangers.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Codex Vaticanus, Sinaiticus and Alexandrinus pass straight from 26:18 to 26:28, and the Latin has a different addition here. The KJV follows the longer Greek, so the Plain gives these lines in brackets from it.",
+  "b": "The passage (26:19–27) is a small poem of its own on marriage and faithfulness, with a refrain from 26:1 in 26:26. Its origin and date cannot be fixed from the text itself.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:20",
+  "a": "[Search the whole plain for a fertile plot, / and sow your own seed there, trusting in your good family line.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "ἀναζητήσας παντὸς πεδίου εὔγειον κλῆρον σπεῖρε τὰ ἴδια σπέρματα πεποιθὼς τῇ εὐγενείᾳ σου·",
+    "en": "Seeking out a fertile plot of the whole plain, sow your own seeds, trusting in your good birth.",
+    "plain": "[Search the whole plain for a fertile plot, / and sow your own seed there, trusting in your good family line.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:21",
+  "a": "[So your children will live on after you, / and with the confidence of good birth they will grow great.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "οὕτως τὰ γενήματά σου περιόντα καὶ παρρησίαν εὐγενείας ἔχοντα μεγαλυνοῦσι.",
+    "en": "So your offspring, surviving and having the confidence of good birth, will become great.",
+    "plain": "[So your children will live on after you, / and with the confidence of good birth they will grow great.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:22",
+  "a": "[A woman for hire will count as spit, / but a married woman will count as a tower of death for those who make use of her.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27. The KJV has \"a tower against death to her husband\", the opposite sense.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ μισθία ἴση σιάλῳ λογισθήσεται, ὕπανδρος δὲ πύργος θανάτου τοῖς χρωμένοις λογισθήσεται.",
+    "en": "A hired woman will be counted equal to spit, but a married woman will be counted a tower of death to those who use her.",
+    "plain": "[A woman for hire will count as spit, / but a married woman will count as a tower of death for those who make use of her.]"
+   },
+   {
+    "w": "The KJV (\"An harlot shall be accounted as spittle; but a married woman is a tower against death to her husband\")",
+    "orig": "(the Greek behind the KJV is not given in the sources read)",
+    "en": "a married woman is a tower against death to her husband",
+    "plain": "[A woman for hire will count as spit, / but a married woman is a tower against death for her husband.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The Plain follows the Greek as printed; the KJV's \"a tower against death\" makes the married woman a protection for her husband, while the Greek warns other men that adultery with her is deadly.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "26:23",
+  "a": "[An ungodly woman will be given as a portion to a lawless man, / but a godly woman is given to the one who fears the Lord.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ ἀσεβὴς ἀνόμῳ μερὶς δοθήσεται, εὐσεβὴς δὲ δίδοται τῷ φοβουμένῳ τὸν Κύριον.",
+    "en": "An ungodly woman will be given as a portion to a lawless man, but a godly one is given to the one who fears the Lord.",
+    "plain": "[An ungodly woman will be given as a portion to a lawless man, / but a godly woman is given to the one who fears the Lord.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:24",
+  "a": "[A shameless woman will spend her days in disgrace, / but a modest daughter will treat even her husband with respect.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ ἀσχήμων ἀτιμίαν κατατρίψει, θυγάτηρ δὲ εὐσχήμων καὶ τὸν ἄνδρα ἐντραπήσεται.",
+    "en": "A disgraceful woman will wear out (live out) dishonor, but a decent daughter will respect even her husband.",
+    "plain": "[A shameless woman will spend her days in disgrace, / but a modest daughter will treat even her husband with respect.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:25",
+  "a": "[A shameless woman will be thought of as a dog, / but one who has a sense of shame will fear the Lord.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ ἀδιάτρεπτος ὡς κύων λογισθήσεται, ἡ δὲ ἔχουσα αἰσχύνην τὸν Κύριον φοβηθήσεται.",
+    "en": "A shameless woman will be counted as a dog, but she who has shame will fear the Lord.",
+    "plain": "[A shameless woman will be thought of as a dog, / but one who has a sense of shame will fear the Lord.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "26:26",
+  "a": "[A woman who honors her own husband will seem wise to everyone, / but one who dishonors him in her pride will be known by all as ungodly. / The man with a good wife is a happy man; / his years will add up to twice as many.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only. It ends with the saying of 26:1.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ ἄνδρα ἴδιον τιμῶσα σοφὴ πᾶσι φανήσεται, ἀτιμάζουσα δὲ ἐν ὑπερηφανίᾳ ἀσεβὴς πᾶσι γνωσθήσεται. γυναικὸς ἀγαθῆς μακάριος ὁ ἀνήρ, ὁ γὰρ ἀριθμὸς τῶν ἐτῶν αὐτοῦ διπλάσιος ἔσται.",
+    "en": "A woman who honors her own husband will appear wise to all, but one who dishonors him in pride will be known by all as ungodly. Happy the husband of a good wife, for the number of his years will be double.",
+    "plain": "[A woman who honors her own husband will seem wise to everyone, / but one who dishonors him in her pride will be known by all as ungodly. / The man with a good wife is a happy man; / his years will add up to twice as many.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The KJV has only the first two lines.",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "26:27",
+  "a": "[A loud woman with a busy tongue / will be looked on like a war trumpet sounded to rout an enemy. / And every person with a soul like hers / will live out life in the chaos of war.]",
+  "t": "The longer Greek: 26:19–27",
+  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "readings": [
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "orig": "γυνὴ μεγαλόφωνος καὶ γλωσσώδης ὡς σάλπιγξ πολέμων εἰς τροπὴν θεωρηθήσεται, ἀνθρώπου δὲ παντὸς ψυχὴ ὁμοιότροπος τούτοις, πολέμου ἀκαταστασίαις τὴν ψυχὴν διαιτηθήσεται.",
+    "en": "A loud-voiced and talkative woman will be regarded like a war trumpet for a rout; and the soul of every person like these will pass life in the disorders of war.",
+    "plain": "[A loud woman with a busy tongue / will be looked on like a war trumpet sounded to rout an enemy. / And every person with a soul like hers / will live out life in the chaos of war.]"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
+    "orig": "(no line)",
+    "en": "(no verse)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The KJV has only the first line, in another sense: \"shall be sought out to drive away the enemies\".",
+  "s": [
+   "sir2429-greek-longer",
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "27:1",
+  "a": "for something of no real value",
+  "t": "A trifle, profit, or poverty?",
+  "p": "Vaticanus says many sinned over \"something indifferent\", a trifle. Sinaiticus' first hand says \"for profit\"; the Latin, \"because of poverty\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "χάριν ἀδιαφόρου",
+    "en": "for the sake of something indifferent",
+    "plain": "for something of no real value"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus (ℵ*), in Swete's notes",
+    "orig": "χάριν διαφόρου",
+    "en": "for the sake of profit",
+    "plain": "for the sake of profit"
+   },
+   {
+    "w": "Latin, Clementine Vulgate 27:1; the Douay-Rheims (\"Through poverty many have sinned\")",
+    "orig": "Propter inopiam",
+    "en": "because of want",
+    "plain": "because they were poor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which the KJV also took this way (\"for a small matter\"). Sinaiticus' first hand, a corrector of which restored Vaticanus' word, fits the second line about getting rich; the two words differ by one letter.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "29:6",
+  "a": "at no small cost",
+  "t": "At a cost, or for nothing?",
+  "p": "Vaticanus says the lender gained an enemy \"not for free\": it cost him his money. Other copies drop \"not\": an enemy \"for no reason\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐκτήσατο αὐτὸν ἐχθρὸν οὐ δωρεάν",
+    "en": "he gained him as an enemy, not for nothing",
+    "plain": "at no small cost"
+   },
+   {
+    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes; the Latin (Vulgate 29:8, <i>gratis</i>)",
+    "orig": "ἐκτήσατο αὐτὸν ἐχθρὸν δωρεάν",
+    "en": "he gained him as an enemy for nothing",
+    "plain": "for no reason"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text: the lender has lost his money and made an enemy, so the enemy came at a price. Without \"not\", the line says the lender did nothing to deserve the hatred. Both make sense.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "29:7",
+  "a": "Many have refused to lend because of such wickedness",
+  "t": "Whose wickedness?",
+  "p": "The Greek says many refuse to lend because of borrowers' wickedness. The Latin says they refuse \"not out of wickedness\" but from fear.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πολλοὶ χάριν πονηρίας ἀπέστρεψαν",
+    "en": "many, on account of wickedness, have turned away",
+    "plain": "Many have refused to lend because of such wickedness"
+   },
+   {
+    "w": "Latin, Clementine Vulgate 29:10; the Douay-Rheims (\"Many have refused to lend, not out of wickedness, but they were afraid to be defrauded without cause\")",
+    "orig": "Multi non causa nequitiae non foenerati sunt",
+    "en": "many have not lent, not out of wickedness",
+    "plain": "Many have refused to lend, not out of wickedness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek: the borrowers' bad faith (29:4–6) makes people stop lending. The Latin, which some modern versions follow, defends the lenders: they are not mean, only afraid.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "29:8",
+  "a": "and do not keep him waiting for alms",
+  "t": "\"Do not\" keep him waiting",
+  "p": "Swete's Vaticanus lacks \"not\", which makes the line say the opposite. The Plain follows the copies that have it.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; the Greek text on Greek Wikisource; the Latin (Vulgate 29:11, <i>non trahas illum</i>)",
+    "orig": "καὶ ἐπ᾽ ἐλεημοσύνην μὴ παρελκύσῃς αὐτόν",
+    "en": "and do not put him off for alms",
+    "plain": "and do not keep him waiting for alms"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ἐπ᾽ ἐλεημοσύνην παρελκύσεις αὐτόν",
+    "en": "and for alms you will put him off",
+    "plain": "and you will keep him waiting for alms"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain departs from Swete's base text. Without \"not\" the line contradicts its own first half (\"be patient with a person in a low position\") and the verses that follow (29:9–13). The negative is in Alexandrinus, the Latin and the longer Greek, so its loss in Vaticanus is best explained as a copyist's slip.",
+  "s": [
+   "swete-lxx",
+   "sir2429-greek-longer",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "29:23",
+  "a": "Be satisfied with a little or a lot.",
+  "t": "A shorter and a longer 29:23",
+  "p": "Vaticanus has one line. The longer Greek and the Latin add a second: you will not hear insults as a lodger.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐπὶ μικρῷ καὶ μεγάλῳ εὐδοκίαν ἔχε.",
+    "en": "with little and much have contentment",
+    "plain": "Be satisfied with a little or a lot."
+   },
+   {
+    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition); the Latin (Vulgate 29:30, <i>et improperium peregrinationis non audies</i>); the KJV (\"that thou hear not the reproach of thy house\")",
+    "orig": "ἐπὶ μικρῷ καὶ μεγάλῳ εὐδοκίαν ἔχε, καὶ ὀνειδισμὸν παροικίας οὐ μὴ ἀκούσῃς.",
+    "en": "with little and much have contentment, and you will not hear the reproach of being a lodger",
+    "plain": "Be satisfied with a little or a lot, and you will not hear yourself insulted as a lodger."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The second line, which the KJV and the Latin also have, leads well into 29:24–28, about the insults a lodger must hear; it may have been added to round off the couplet, or lost from Vaticanus.",
+  "s": [
+   "swete-lxx",
+   "sir2429-greek-longer",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ }
+]
