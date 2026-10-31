@@ -50,13 +50,38 @@
   ]
  },
  {
+  "v": "6:20",
+  "a": "Longing for Wisdom, then,",
+  "t": "\"Then\" or \"for\"?",
+  "p": "Sinaiticus reads 'for' where Vaticanus has 'then', turning the chain's conclusion into a reason.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the KJV (\"Therefore the desire of wisdom\")",
+    "orig": "ἄρα",
+    "en": "then, therefore",
+    "plain": "Longing for Wisdom, then,"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus",
+    "orig": "αρα] γαρ ℵ",
+    "en": "for",
+    "plain": "For longing for Wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The verse sums up the chain of 6:17–19, so 'then' fits. 'For' differs by one letter in Greek capitals and could come from a copyist reading the line as a reason for what comes before.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
   "v": "7:12",
   "a": "she is where they come from",
   "t": "Their source, or their mother?",
   "p": "Vaticanus says Wisdom is the 'origin' of good things; Alexandrinus says their 'mother', as the KJV and Latin do.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B) and Sinaiticus (ℵ), Swete's text",
+    "w": "Codex Vaticanus (B), Swete's text (Swete's apparatus notes a different reading only in Alexandrinus)",
     "orig": "γένεσιν",
     "en": "origin, source",
     "plain": "she is where they come from"
@@ -150,6 +175,31 @@
   ]
  },
  {
+  "v": "8:6",
+  "a": "craftswoman",
+  "t": "Craftswoman or craftsman?",
+  "p": "Vaticanus has the feminine 'craftswoman', as at 7:22; Alexandrinus, Ephraemi and a corrector of Vaticanus have the masculine.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, first hand (B), Swete's text",
+    "orig": "τεχνῖτις",
+    "en": "craftswoman",
+    "plain": "craftswoman"
+   },
+   {
+    "w": "A later corrector of Vaticanus (Bᵇ, marked uncertain by Swete), Codex Alexandrinus (A) and Codex Ephraemi (C), from Swete's apparatus",
+    "orig": "τεχνιτης Bᵇ?AC",
+    "en": "craftsman",
+    "plain": "craftsman"
+   }
+  ],
+  "follow": 0,
+  "why": "The feminine matches the subject, Wisdom, and the same word at 7:22. The masculine is the common form of the word (as in Hebrews 11:10) and may be a copyist's change toward it. The Latin artifex and the KJV's \"workman\" do not show the gender.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
   "v": "8:21",
   "a": "I would not win her any other way",
   "t": "\"Not otherwise\" or \"not rightly\"",
@@ -195,6 +245,31 @@
   ],
   "follow": 0,
   "why": "Both mean what is nearest to us. The Plain follows the base text, which the other codices support.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "9:18",
+  "a": "Wisdom saved them",
+  "t": "\"Wisdom\" or \"your Wisdom\"?",
+  "p": "Sinaiticus adds 'your': 'by your Wisdom they were saved'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B) and Alexandrinus (A), Swete's text; the KJV (\"were saved through wisdom\")",
+    "orig": "τῇ σοφίᾳ ἐσώθησαν",
+    "en": "by Wisdom they were saved",
+    "plain": "Wisdom saved them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus",
+    "orig": "σοφια] + σου ℵ",
+    "en": "by your wisdom they were saved",
+    "plain": "your Wisdom saved them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text. 'Your' could come from 'your wisdom' in 9:2 and 'your Holy Spirit' in 9:17. Without it the line ends the prayer with Wisdom herself as the one who saves, which chapter 10 then shows.",
   "s": [
    "swete-ot-vol2"
   ]
