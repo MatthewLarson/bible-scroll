@@ -1,0 +1,468 @@
+[
+ {
+  "v": "16:3",
+  "a": "because of what was shown them in the creatures sent against them",
+  "t": "What was shown, or how ugly?",
+  "p": "Vaticanus has a word meaning \"shown\"; Ephraemi has \"loathsomeness,\" which the KJV follows (\"the ugly sight\").",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), Swete's text; the Old Latin in the Vulgate (\"the things that were shown and sent among them\")",
+    "orig": "διὰ τὴν δειχθεῖσαν τῶν ἐπαπεσταλμένων",
+    "en": "because of the [thing] shown of those sent upon them",
+    "plain": "because of what was shown them in the creatures sent against them"
+   },
+   {
+    "w": "Codex Ephraemi Rescriptus (C, 400s AD), as Swete reports; KJV (\"the ugly sight of the beasts sent among them\")",
+    "orig": "διὰ τὴν εἰδέχθειαν τῶν ἐπαπεσταλμένων",
+    "en": "because of the loathsomeness of those sent upon them",
+    "plain": "because of how loathsome the creatures sent against them were"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which the Old Latin supports. Vaticanus's participle lacks a noun, so many readers think the Ephraemi reading, a noun that differs by a few letters, is the original; the meaning is close either way.",
+  "b": "Swete also notes that a corrector of Vaticanus and the first hand of Sinaiticus garble the word.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "16:12",
+  "a": "which heals all things",
+  "t": "Heals all things, or can do all things?",
+  "p": "A corrector of Sinaiticus changed \"heals\" to \"is able\"; Alexandrinus has \"heals everyone.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; Sinaiticus (ℵ) first hand",
+    "orig": "ὁ πάντα ἰώμενος",
+    "en": "the one healing all things",
+    "plain": "which heals all things"
+   },
+   {
+    "w": "Codex Sinaiticus, corrector (ℵ c.a)",
+    "orig": "ὁ πάντα δυνάμενος",
+    "en": "the one able [to do] all things",
+    "plain": "which can do all things"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "ὁ πάντας ἰώμενος",
+    "en": "the one healing all people",
+    "plain": "which heals everyone"
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus and the first hand of Sinaiticus agree, and \"heals\" fits the healing story.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:20",
+  "a": "You sent them bread from heaven",
+  "t": "Sent, or provided?",
+  "p": "Sinaiticus, Alexandrinus and Ephraemi read \"you provided them from heaven,\" the wording the Latin and the Tantum ergo versicle follow.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; KJV (\"didst send them from heaven\")",
+    "orig": "ἄρτον αὐτοῖς ἀπ᾽ οὐρανοῦ ἔπεμψας",
+    "en": "bread to them from heaven you sent",
+    "plain": "You sent them bread from heaven"
+   },
+   {
+    "w": "Codices Sinaiticus (ℵ), Alexandrinus (A) and apparently Ephraemi (C); the Latin Vulgate (paratum panem de caelo praestitisti illis)",
+    "orig": "ἄρτον ἀπ᾽ οὐρανοῦ παρέσχες αὐτοῖς",
+    "en": "bread from heaven you provided them",
+    "plain": "You provided them with bread from heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The meaning hardly changes, but the second reading is the source of the Latin praestitisti that Catholic worship sings at Benediction.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "tantum-ergo-versicle"
+  ]
+ },
+ {
+  "v": "16:22",
+  "a": "their enemies' crops",
+  "t": "Enemies or nations?",
+  "p": "Alexandrinus reads \"the nations\" instead of \"the enemies.\"",
+  "readings": [
+   {
+    "w": "Codices Vaticanus (B), Sinaiticus (ℵ), Ephraemi (C); Swete's text; KJV",
+    "orig": "τοὺς τῶν ἐχθρῶν καρπούς",
+    "en": "the crops of the enemies",
+    "plain": "their enemies' crops"
+   },
+   {
+    "w": "Codex Alexandrinus (A)",
+    "orig": "τοὺς τῶν ἐθνῶν καρπούς",
+    "en": "the crops of the nations",
+    "plain": "the nations' crops"
+   }
+  ],
+  "follow": 0,
+  "why": "The other great codices agree, and \"enemies\" matches 16:8.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:28",
+  "a": "as the daylight rises",
+  "t": "At dawn, or before dawn?",
+  "p": "A corrector of Sinaiticus reads \"before the rising of the light.\"",
+  "readings": [
+   {
+    "w": "Codices Vaticanus (B), Alexandrinus (A), Ephraemi (C); Sinaiticus first hand; Swete's text; KJV (\"at the dayspring\"); Latin (ad ortum lucis)",
+    "orig": "πρὸς ἀνατολὴν φωτός",
+    "en": "toward the rising of light",
+    "plain": "as the daylight rises"
+   },
+   {
+    "w": "Codex Sinaiticus, corrector (ℵ c.a)",
+    "orig": "πρὸ ἀνατολῆς τοῦ φωτός",
+    "en": "before the rising of the light",
+    "plain": "before the daylight rises"
+   }
+  ],
+  "follow": 0,
+  "why": "Most witnesses agree. The corrector's reading repeats the first line's idea of getting ahead of the sun.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "scattered",
+  "t": "Scattered or darkened?",
+  "p": "Alexandrinus and Ephraemi read \"they were darkened\" instead of \"they were scattered.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; Sinaiticus (ℵ) with a compound of the same verb; KJV; Latin (dispersi sunt)",
+    "orig": "ἐσκορπίσθησαν",
+    "en": "they were scattered",
+    "plain": "scattered"
+   },
+   {
+    "w": "Codices Alexandrinus (A) and Ephraemi (C)",
+    "orig": "ἐσκοτίσθησαν",
+    "en": "they were darkened",
+    "plain": "plunged into darkness"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words differ by a letter or two. \"Darkened\" fits the darkness plague and may be an easier reading made by a copyist; Vaticanus, Sinaiticus and the Latin agree on \"scattered.\"",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "17:4",
+  "a": "Noises boomed all around and shook them",
+  "t": "Noises, or noises like falling water?",
+  "p": "The KJV says \"noises as of waters falling down,\" which the Greek codices do not have.",
+  "readings": [
+   {
+    "w": "The Greek codices as Swete reports them (B, ℵ, A, C)",
+    "orig": "ἦχοι δ᾽ ἐκταράσσοντες αὐτοὺς περιεκόμπουν",
+    "en": "sounds disturbing them roared around",
+    "plain": "Noises boomed all around and shook them"
+   },
+   {
+    "w": "Latin Vulgate (sonitus descendens, 'a noise coming down'); KJV (\"noises as of waters falling down sounded about them\")",
+    "orig": "sonitus descendens perturbabat illos",
+    "en": "a noise coming down disturbed them",
+    "plain": "Noises like falling water boomed all around and shook them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The KJV's \"waters falling down\" has no match in the Greek that Swete prints; it is closer to the Latin \"a noise coming down.\"",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "17:11",
+  "a": "testifies by itself that it is a coward",
+  "t": "By itself, or by its own witness?",
+  "p": "Sinaiticus and Alexandrinus read \"witness\" as a noun, giving the KJV's \"condemned by her own witness.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "δειλὸν γὰρ ἰδίως πονηρία μαρτυρεῖ καταδικαζομένη",
+    "en": "for wickedness, being condemned, testifies peculiarly [that it is] cowardly",
+    "plain": "testifies by itself that it is a coward"
+   },
+   {
+    "w": "Codices Sinaiticus (ℵ) and Alexandrinus (A) read μάρτυρι, and a corrector of Sinaiticus ἰδίῳ; KJV (\"condemned by her own witness, is very timorous\")",
+    "orig": "δειλὸν γὰρ ἰδίῳ πονηρία μάρτυρι καταδικαζομένη",
+    "en": "for wickedness, condemned by its own witness, [is] cowardly",
+    "plain": "is a coward, condemned by its own witness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Both readings say that a guilty conscience condemns itself; the second makes the conscience a witness in court.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "18:1",
+  "a": "because they had not suffered too",
+  "t": "Had not suffered, or had suffered?",
+  "p": "Vaticanus reads \"then\" (οὖν), Alexandrinus \"not\" (οὐ). The Plain follows Alexandrinus, with the Latin and the KJV.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A); the Latin Vulgate (quia non et ipsi eadem passi erant); KJV (\"because they also had not suffered the same things\")",
+    "orig": "ὅτι μὲν οὐ κἀκεῖνοι ἐπεπόνθεισαν",
+    "en": "that they too had not suffered",
+    "plain": "because they had not suffered too"
+   },
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "ὅτι μὲν οὖν κἀκεῖνοι ἐπεπόνθεισαν",
+    "en": "that, then, they too had suffered",
+    "plain": "because they too had suffered"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a departure from Swete's text. Vaticanus's οὖν differs from Alexandrinus's οὐ by one letter, and without \"not\" the line gives a strange sense (the Egyptians calling Israel blessed for suffering). The Latin, made from an early Greek copy, has \"not.\"",
+  "b": "The Latin also differs at the end: \"they glorified you\" instead of \"they called them blessed.\"",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "18:9",
+  "a": "the divine law",
+  "t": "Divine law, or law of holiness?",
+  "p": "Sinaiticus reads \"the law of holiness\"; the Latin has \"the law of justice.\"",
+  "readings": [
+   {
+    "w": "Codices Vaticanus (B), Alexandrinus (A); Swete's text; KJV (\"a holy law\")",
+    "orig": "τὸν τῆς θειότητος νόμον",
+    "en": "the law of divinity",
+    "plain": "the divine law"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ)",
+    "orig": "τὸν τῆς ὁσιότητος νόμον",
+    "en": "the law of holiness",
+    "plain": "the law of holiness"
+   },
+   {
+    "w": "Latin Vulgate (justitiae legem); Douay (\"a law of justice\")",
+    "orig": "justitiae legem",
+    "en": "the law of justice",
+    "plain": "the law of justice"
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus and Alexandrinus agree. Sinaiticus's word fits the \"holy children\" of the same verse and may come from them.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "18:9",
+  "a": "And already the fathers were leading the songs of praise.",
+  "t": "The fathers singing, or singing of the fathers?",
+  "p": "In Vaticanus the fathers lead the praise; in Sinaiticus, Alexandrinus and the Latin the people sing the fathers' praises.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; KJV (\"the fathers now singing out the songs of praise\")",
+    "orig": "πατέρων ἤδη προαναμελπόντων αἴνους",
+    "en": "fathers already leading off praises",
+    "plain": "And already the fathers were leading the songs of praise."
+   },
+   {
+    "w": "Codex Sinaiticus, corrector, and Codex Alexandrinus (A) read προαναμελποντες; the Latin (patrum jam decantantes laudes); Douay (\"singing now the praises of the fathers\")",
+    "orig": "πατέρων ἤδη προαναμελποντες αἴνους",
+    "en": "already singing first the praises of the fathers",
+    "plain": "And already they were singing the fathers' songs of praise."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The difference is one ending: in Vaticanus \"the fathers\" (the heads of families, or the patriarchs) lead the hymns; in the other reading the people sing songs handed down from their fathers.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims"
+  ]
+ },
+ {
+  "v": "18:25",
+  "a": "these were what they feared",
+  "t": "They feared, or it feared?",
+  "p": "Vaticanus has a plural verb; a corrector of Sinaiticus and Alexandrinus have the singular, \"it feared,\" with the destroyer as subject.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "ταῦτα δὲ ἐφοβήθησαν",
+    "en": "and these they feared",
+    "plain": "these were what they feared"
+   },
+   {
+    "w": "Codex Sinaiticus, corrector (ℵ c.a), Codex Alexandrinus (A); Latin (haec extimuit); KJV (\"and was afraid of them\")",
+    "orig": "ταῦτα δὲ ἐφοβήθη",
+    "en": "and these it feared",
+    "plain": "these were what it feared"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete. The plural may mean the destroyer and its forces; the singular makes the destroyer alone the subject. The sense is the same: the priest's robe and prayer turned back the plague.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:5",
+  "a": "would make a journey beyond belief",
+  "t": "Experience the journey, or cross by it?",
+  "p": "Vaticanus reads \"experience\" (πειράσῃ); a corrector of Vaticanus and Alexandrinus read \"cross\" (περάσῃ).",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B) first hand, Swete's text",
+    "orig": "παράδοξον ὁδοιπορίαν πειράσῃ",
+    "en": "might experience an amazing journey",
+    "plain": "would make a journey beyond belief"
+   },
+   {
+    "w": "Codex Vaticanus, corrector (B ab), Codex Alexandrinus (A); KJV (\"might pass a wonderful way\"); Latin (mirabiliter transiret)",
+    "orig": "παράδοξον ὁδοιπορίαν περάσῃ",
+    "en": "might cross [by] an amazing journey",
+    "plain": "would cross over by a road beyond belief"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete. The words differ by one letter; \"cross\" fits the sea crossing, \"experience\" fits the idea of a trial survived.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:6",
+  "a": "obeying the commands meant for it",
+  "t": "Its own commands, or your commands?",
+  "p": "Sinaiticus and Alexandrinus read \"your commands\"; Vaticanus, followed by the KJV, has \"its own commands.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; KJV (\"serving the peculiar commandments that were given unto them\")",
+    "orig": "ὑπηρετοῦσα ταῖς ἰδίαις ἐπιταγαῖς",
+    "en": "serving its own commands",
+    "plain": "obeying the commands meant for it"
+   },
+   {
+    "w": "Codices Sinaiticus (ℵ) and Alexandrinus (A); Latin (deserviens tuis praeceptis)",
+    "orig": "ὑπηρετοῦσα ταῖς σαῖς ἐπιταγαῖς",
+    "en": "serving your commands",
+    "plain": "obeying your commands"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete. \"Its own\" may echo \"its own kind\" in the same line; \"your\" is the plainer reading. Either way the commands are God's.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:9",
+  "a": "their rescuer",
+  "t": "Who rescues, or who rescued?",
+  "p": "Alexandrinus and Ephraemi read a past tense, \"who had rescued them,\" which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codices Vaticanus (B) and Sinaiticus (ℵ), Swete's text",
+    "orig": "τὸν ῥυόμενον αὐτούς",
+    "en": "the one rescuing them",
+    "plain": "their rescuer"
+   },
+   {
+    "w": "Codices Alexandrinus (A) and Ephraemi (C); KJV (\"who hadst delivered them\")",
+    "orig": "τὸν ῥυσάμενον αὐτούς",
+    "en": "the one who rescued them",
+    "plain": "who had rescued them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and Sinaiticus.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:13",
+  "a": "not without the signs that came with them",
+  "t": "Signs that came with them, or signs beforehand?",
+  "p": "Sinaiticus, Alexandrinus and Ephraemi read \"signs that had come before,\" which the KJV and the Latin follow.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "οὐκ ἄνευ τῶν γεγονότων τεκμηρίων",
+    "en": "not without the signs that had happened",
+    "plain": "not without the signs that came with them"
+   },
+   {
+    "w": "Codices Sinaiticus (ℵ), Alexandrinus (A), Ephraemi (C); KJV (\"not without former signs\"); Latin (non sine illis quae ante facta erant argumentis)",
+    "orig": "οὐκ ἄνευ τῶν προγεγονότων τεκμηρίων",
+    "en": "not without the signs that had happened beforehand",
+    "plain": "not without warning signs beforehand"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, though the other three codices and the Latin agree on \"beforehand,\" which fits the writer's point that God warns before he punishes (12:2). The thunder may be the storm at the sea (Psalm 77:16–18).",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:20",
+  "a": "Fire in water was stronger than its own power",
+  "t": "Stronger than itself, or forgetting itself?",
+  "p": "Alexandrinus and Ephraemi add \"forgetting,\" giving the KJV's \"forgetting his own virtue.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; Latin (ignis in aqua valebat supra suam virtutem)",
+    "orig": "πῦρ ἴσχυσεν ἐν ὕδατι τῆς ἰδίας δυνάμεως",
+    "en": "fire was strong in water beyond its own power",
+    "plain": "Fire in water was stronger than its own power"
+   },
+   {
+    "w": "Codices Alexandrinus (A) and Ephraemi (C), with ℵ in the next words; KJV (\"The fire had power in the water, forgetting his own virtue\")",
+    "orig": "πῦρ ἴσχυεν ἐν ὕδατι τῆς ἰδίας δυνάμεως ἐπιλελησμένον",
+    "en": "fire had power in water, having forgotten its own power",
+    "plain": "Fire had power in water, forgetting its own nature"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text with the Latin. The added word repeats the \"forgot\" of the next line.",
+  "b": "In the second line Sinaiticus, Alexandrinus and Ephraemi read φύσεως, \"nature,\" for δυνάμεως, \"power\": water forgot its quenching \"nature\" (so the KJV and the Latin). The meaning is the same.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ }
+]
