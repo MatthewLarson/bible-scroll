@@ -1,1 +1,609 @@
-[]
+[
+ {
+  "v": "7:17",
+  "a": "the punishment of the ungodly is fire and the worm.",
+  "t": "Fire and worm, or worms for all?",
+  "p": "The Greek speaks of the punishment of the ungodly; the Hebrew speaks of the end of every mortal.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; also Sinaiticus and Alexandrinus (which have the plural \"punishments\"); the Latin (7:19, \"ignis et vermis\"); KJV",
+    "orig": "ὅτι ἐκδίκησις ἀσεβοῦς πῦρ καὶ σκώληξ",
+    "en": "for the punishment of the ungodly is fire and worm",
+    "plain": "the punishment of the ungodly is fire and the worm."
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 7:16)",
+    "orig": "כִּי תִקְוַת אֱנוֹשׁ רִמָּה",
+    "en": "for the hope of a mortal is worms",
+    "plain": "the hope of a mortal is worms."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek, the base text of this site, which the churches that count Sirach as Scripture received. The Hebrew is probably closer to what Ben Sira wrote: it gives the reason for humility (everyone ends in the grave), while the Greek gives a warning of punishment.",
+  "b": "The Greek words recall Isaiah 66:24 and Judith 16:17; see the note on this verse. Swete's notes show that Sinaiticus and Alexandrinus put the line \"remember that wrath will not be slow to come\" (7:16) after \"Bring your soul very low,\" a change of order only.",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "7:23",
+  "a": "and bend their necks while they are young.",
+  "t": "Bend their necks, or find them wives?",
+  "p": "The Hebrew tells a father to find wives for his sons while they are young.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Latin (\"curva illos a pueritia illorum\"); KJV",
+    "orig": "καὶ κάμψον ἐκ νεότητος τὸν τράχηλον αὐτῶν",
+    "en": "and bend their neck from youth",
+    "plain": "and bend their necks while they are young."
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 7:23)",
+    "orig": "וְשָׂא לָהֶם נָשִׁים בִּנְעוּרֵיהֶם",
+    "en": "and take wives for them in their youth",
+    "plain": "and find them wives while they are young."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Hebrew line fits the next verses on daughters and their marriage (7:24-25); the Greek line fits the instruction of the first half of the verse.",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "7:26",
+  "a": "Do not drive her out.",
+  "t": "A second line about a wife who is hated",
+  "p": "Codex Sinaiticus, the Hebrew and the Latin add a line warning against trusting a wife one hates.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Alexandrinus",
+    "orig": "μὴ ἐκβάλῃς αὐτήν",
+    "en": "do not throw her out",
+    "plain": "Do not drive her out."
+   },
+   {
+    "w": "Codex Sinaiticus (first hand, after 7:25; a corrector wanted it after 7:26), as Swete's notes give it; the Hebrew of the Cairo Genizah as Kahana prints it (וּשְׂנוּאָה אַל תַּאֲמֵן בָּהּ); the Latin (\"et odibili non credas te\"); KJV (\"but give not thyself over to a light woman\")",
+    "orig": "και μισουμενω μη εμπιστευσης σεαυτον (Swete's note, unaccented)",
+    "en": "and do not trust yourself to one who is hated",
+    "plain": "Do not drive her out. But do not trust yourself to a wife you hate."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, Swete's base text, which lacks the line. The line is old, since the Hebrew has it, and Ben Sira may have written it; the Greek copies that lack it may have lost it by accident.",
+  "b": "The KJV's \"a light woman\" is its own rendering; the Greek, the Hebrew and the Latin all say \"one who is hated\" or \"a hated woman,\" which in the Law's language can mean an unloved wife (Deuteronomy 21:15).",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "7:31",
+  "a": "as you were commanded from the beginning:",
+  "t": "\"From the beginning\" or \"the first fruits\"?",
+  "p": "One Greek reading says \"from the beginning\"; another says \"first fruits,\" which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, first hand (B, 300s AD), as printed by Swete",
+    "orig": "καθὼς ἐντέταλταί σοι ἀπ᾽ ἀρχῆς",
+    "en": "as it has been commanded you from the beginning",
+    "plain": "as you were commanded from the beginning:"
+   },
+   {
+    "w": "A corrector of Vaticanus, Sinaiticus and Alexandrinus, which join the word to what follows (Swete's notes); the Latin (7:34) has \"sicut mandatum est tibi, primitiarum\"; KJV",
+    "orig": "καθὼς ἐντέταλταί σοι ἀπαρχήν",
+    "en": "as it has been commanded you: first fruits",
+    "plain": "as you were commanded: the first fruits,"
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by a few letters (ap' archēs and aparchēn). The Plain keeps Swete's text, which the list still ends with \"the first fruits.\" Sinaiticus and Alexandrinus also add \"of holy things\" at the end of the verse.",
+  "s": [
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "Do not gloat over anyone who has died;",
+  "t": "\"Your worst enemy\"",
+  "p": "Some Greek copies and the Latin make it \"over your worst enemy who has died,\" as the KJV has it.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus and Alexandrinus",
+    "orig": "μὴ ἐπίχαιρε ἐπὶ νεκρῷ",
+    "en": "do not rejoice over a dead man",
+    "plain": "Do not gloat over anyone who has died;"
+   },
+   {
+    "w": "Greek minuscule 248 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them (\"τῷ ἐχθροτάτῳ σου\" added); the Latin (\"Noli de mortuo inimico tuo gaudere\"); KJV (\"thy greatest enemy\")",
+    "orig": "μὴ ἐπίχαιρε ἐπὶ νεκρῷ τῷ ἐχθροτάτῳ σου",
+    "en": "do not rejoice over the dead man who was your worst enemy",
+    "plain": "Do not gloat over your worst enemy when he has died;"
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter text of the great codices is the base text. The added words spell out what the line means: the one you would be tempted to gloat over is an enemy.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "9:9",
+  "a": "and in your spirit you may slide down to ruin.",
+  "t": "Ruin, or blood?",
+  "p": "The Hebrew says you will slide \"in blood\" to the Pit.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ τῷ πνεύματί σου ὀλισθήσῃς εἰς ἀπώλειαν",
+    "en": "and by your spirit you slip into destruction",
+    "plain": "and in your spirit you may slide down to ruin."
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 9:12)",
+    "orig": "וּבְדָמִים תִּטֶּה אֶל שָׁחַת",
+    "en": "and in blood you slide down to the Pit",
+    "plain": "and in blood you may slide down to the Pit."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Hebrew \"blood\" may be the death penalty for adultery or a husband's revenge; the Greek \"spirit\" may come from a Hebrew word read differently. See the note on this verse.",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "10:9",
+  "a": "Why are dust and ashes proud?",
+  "t": "The lover of money",
+  "p": "Some Greek copies and the Latin add a saying about the lover of money, which the KJV follows.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus, Ephraemi (Swete's notes)",
+    "orig": "τί ὑπερηφανεύεται γῆ καὶ σποδός;",
+    "en": "why is earth and ashes proud?",
+    "plain": "Why are dust and ashes proud?"
+   },
+   {
+    "w": "Greek minuscule 106 (before 10:9), and 248 with the Complutensian printed Bible (after \"ashes\"), as Fritzsche's 1871 edition reports them; the Latin (10:9-10, \"Avaro autem nihil est scelestius... Nihil est iniquius quam amare pecuniam\"); KJV",
+    "orig": "τί ὑπερηφανεύεται γῆ καὶ σποδός; φιλαργύρου μὲν γὰρ οὐδὲν ἀνομώτερον, οὗτος γὰρ καὶ τὴν ἑαυτοῦ ψυχὴν ἔκπρακτον ποιεῖ (the addition as Fritzsche prints it)",
+    "en": "why is earth and ashes proud? For nothing is more lawless than a lover of money, for he makes even his own soul something for sale",
+    "plain": "Why are dust and ashes proud? Nothing is more lawless than a lover of money, for he puts even his own soul up for sale."
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is missing from the great codices and from the Hebrew, and it stands in different places in the copies that have it, a sign of a line added from the margin. The Plain follows the base text.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:9",
+  "a": "Even while he is alive, I have thrown his insides away.",
+  "t": "\"I threw away,\" \"they threw away,\" or \"he threw away\"?",
+  "p": "The copies disagree on who throws away the man's insides.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Alexandrinus",
+    "orig": "ὅτι ἐν ζωῇ ἔρριψα τὰ ἐνδόσθια αὐτοῦ",
+    "en": "because in life I threw away his insides",
+    "plain": "Even while he is alive, I have thrown his insides away."
+   },
+   {
+    "w": "Greek minuscules 157 and 248 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them (248 and the Complutensian also have \"in his life\")",
+    "orig": "ὅτι ἐν ζωῇ αὐτοῦ ἔρριψαν τὰ ἐνδόσθια αὐτοῦ",
+    "en": "because in his life they threw away his insides",
+    "plain": "Even while he is alive, they throw his insides away."
+   },
+   {
+    "w": "The Latin (10:10), of the lover of money",
+    "orig": "quoniam in vita sua projecit intima sua",
+    "en": "because in his life he has cast away his own insides",
+    "plain": "Even while he is alive, he throws his own insides away."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the hard reading of the base text. A scribe who found \"I threw away\" puzzling had reason to change it; no scribe had reason to make an easy reading hard. A corrector of Sinaiticus wrote a different line again (Swete's notes).",
+  "b": "The Hebrew line in Kahana (his 10:9) also speaks of the man's body while he lives, but its verb is unclear. See the note on this verse.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "vulgate-clementine",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "A long illness, and the doctor jokes;",
+  "t": "\"Jokes\" or \"cuts off\"?",
+  "p": "Vaticanus says the doctor jokes; other copies say he cuts the illness short, as in the KJV.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus; Ephraemi with a spelling slip (Swete's notes)",
+    "orig": "μακρὸν ἀρρώστημα, σκώπτει ἰατρός",
+    "en": "a long illness: the doctor jests",
+    "plain": "A long illness, and the doctor jokes;"
+   },
+   {
+    "w": "Greek minuscules 157 and 248 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them (two other minuscules read \"cuts out\"); KJV",
+    "orig": "μακρὸν ἀρρώστημα, κόπτει ἰατρός",
+    "en": "a long illness: the doctor cuts it off",
+    "plain": "The doctor cuts a long illness short;"
+   }
+  ],
+  "follow": 0,
+  "why": "The two words differ by one letter. \"Cuts off\" is the easier sense and looks like a correction; the Plain keeps the base text.",
+  "b": "The Latin has a fuller text with two lines (10:11-12): all power is short-lived, a long sickness weighs on the doctor, and the doctor cuts short a brief sickness.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "kjv-apocrypha",
+   "vulgate-clementine"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "For sin is where pride begins,",
+  "t": "Sin the beginning of pride, or pride the beginning of sin?",
+  "p": "Vaticanus says sin begins pride; Alexandrinus (first hand), some later copies and the Latin say pride begins sin.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus",
+    "orig": "ὅτι ἀρχὴ ὑπερηφανίας ἁμαρτία",
+    "en": "for the beginning of pride is sin",
+    "plain": "For sin is where pride begins,"
+   },
+   {
+    "w": "Codex Alexandrinus, first hand (Swete's notes: ὑπερηφανία and ἁμαρτίας, later corrected); minuscule 248, as Fritzsche's 1871 edition reports them; the Latin (10:15, \"initium omnis peccati est superbia\"); KJV",
+    "orig": "ὅτι ἀρχὴ ἁμαρτίας ὑπερηφανία",
+    "en": "for the beginning of sin is pride",
+    "plain": "For pride is where sin begins,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the base text, which the Hebrew supports in sense: the Hebrew in Kahana says \"the gathering-place of insolence is sin.\" The reverse form, through the Latin, became the famous Christian saying \"pride is the beginning of all sin\"; see the note on this verse.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "vulgate-clementine",
+   "kahana-ben-sira",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:17",
+  "a": "He has withered some of them",
+  "t": "Withered or removed?",
+  "p": "Vaticanus says God \"dried up\" some of the nations; Sinaiticus, Alexandrinus and Ephraemi say he \"removed\" them.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐξήρανεν ἐξ αὐτῶν",
+    "en": "he dried up (some) of them",
+    "plain": "He has withered some of them"
+   },
+   {
+    "w": "Codex Sinaiticus, Alexandrinus, Ephraemi (Swete's notes); Fritzsche prints this reading; KJV (\"took some of them away\")",
+    "orig": "ἐξῆρεν ἐξ αὐτῶν",
+    "en": "he took away (some) of them",
+    "plain": "He has removed some of them"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ by one letter. \"Dried up\" keeps the plant image of 10:15 (roots and planting), so the Plain keeps the base text; the Latin \"arefecit\" (10:20) also says \"dried up.\"",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:19",
+  "a": "What race is honored? The human race. / What race is honored? Those who fear the Lord. / What race is despised? The human race. / What race is despised? Those who break the commandments.",
+  "t": "A different riddle in the longer text",
+  "p": "The KJV follows a longer Greek text that replaces the riddle with four parallel lines.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus",
+    "orig": "σπέρμα ἔντιμον ποῖον; σπέρμα ἀνθρώπου· σπέρμα ἔντιμον ποῖον; οἱ φοβούμενοι τὸν κύριον. σπέρμα ἄτιμον ποῖον; σπέρμα ἀνθρώπου· σπέρμα ἄτιμον ποῖον; οἱ παραβαίνοντες ἐντολάς.",
+    "en": "What seed is honored? Human seed. What seed is honored? Those who fear the Lord. What seed is dishonored? Human seed. What seed is dishonored? Those who transgress commandments.",
+    "plain": "What race is honored? The human race. / What race is honored? Those who fear the Lord. / What race is despised? The human race. / What race is despised? Those who break the commandments."
+   },
+   {
+    "w": "Greek minuscule 248 and the Complutensian printed Bible, in place of the verse, as Fritzsche's 1871 edition reports them; KJV",
+    "orig": "σπέρμα ἀσφαλείας οἱ φοβούμενοι κύριον, καὶ ἔντιμον φύτευμα οἱ ἀγαπῶντες αὐτόν· σπέρμα ἀτιμίας οἱ μὴ προσέχοντες τῷ νόμῳ, σπέρμα πλανήσεως οἱ παραβαίνοντες ἐντολάς",
+    "en": "A seed of safety, those who fear the Lord; an honored plant, those who love him; a seed of dishonor, those who do not heed the law; a seed of error, those who transgress commandments",
+    "plain": "Those who fear the Lord are a race kept safe, / and those who love him are an honored planting. / Those who pay no attention to the law are a race without honor, / and those who break the commandments are a race gone astray."
+   }
+  ],
+  "follow": 0,
+  "why": "The riddle form of the great codices is supported in shape by the Hebrew in Kahana (partly restored by him in brackets). The longer text smooths the riddle into plain statements.",
+  "b": "The Latin (10:23) has a shorter form again: the seed that fears God will be honored, the seed that breaks the Lord's commandments will be dishonored.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "kahana-ben-sira",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:21",
+  "a": "The fear of the Lord is the first step to being accepted, / but stubbornness and pride are the first step to being thrown out.",
+  "t": "A line found only in the longer Greek",
+  "p": "Codex Vaticanus and the other great codices have no verse 21; the longer Greek text has this line.",
+  "readings": [
+   {
+    "w": "Greek minuscules 106 and 248 and the Complutensian printed Bible, after 10:20, as Fritzsche's 1871 edition reports them (106 has προλήψεως for προσλήψεως); KJV",
+    "orig": "προσλήψεως ἀρχὴ φόβος κυρίου, ἐκβολῆς δὲ ἀρχὴ σκληρυσμὸς καὶ ὑπερηφανία",
+    "en": "the beginning of acceptance is the fear of the Lord, but the beginning of rejection is hardness and pride",
+    "plain": "The fear of the Lord is the first step to being accepted, / but stubbornness and pride are the first step to being thrown out."
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus (no line here; the number 21 is empty in Swete)",
+    "orig": "(no verse)",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The line is not in the base text. The Plain gives it in square brackets, translated from the Greek that Fritzsche prints in his notes, so that the verse number used by the KJV is not empty. It is not in the Hebrew in Kahana or in the Latin.",
+  "b": "The KJV's \"goeth before the obtaining of authority\" takes <i>proslēpsis</i> in another sense; the word means \"a taking to oneself,\" acceptance.",
+  "s": [
+   "fritzsche-apocrypha",
+   "swete-lxx",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "10:22",
+  "a": "The rich, the honored and the poor:",
+  "t": "Rich and poor, or stranger and foreigner?",
+  "p": "The Hebrew lists the sojourner, the stranger, the foreigner and the poor.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πλούσιος καὶ ἔνδοξος καὶ πτωχός",
+    "en": "rich and honored and poor",
+    "plain": "The rich, the honored and the poor:"
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 10:22)",
+    "orig": "גֵּר וְזָר נָכְרִי וָרָשׁ",
+    "en": "sojourner and stranger, foreigner and poor",
+    "plain": "The sojourner, the stranger, the foreigner and the poor:"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. The Hebrew list may be what Ben Sira wrote, widening honor to outsiders who fear God; the Greek list sets wealth and rank beside poverty. Ephraemi has \"the poor and the needy\" for \"the poor\" (Swete's notes).",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "10:25",
+  "a": "will not complain about it.",
+  "t": "\"When he is corrected\"",
+  "p": "The longer Greek and the Latin add \"when he is corrected,\" which the KJV has.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus",
+    "orig": "οὐ γογγύσει",
+    "en": "will not grumble",
+    "plain": "will not complain about it."
+   },
+   {
+    "w": "Greek minuscule 248 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them; the Latin (\"non murmurabit correptus\"); KJV (\"will not grudge when he is reformed\")",
+    "orig": "οὐ γογγύσει παιδευόμενος",
+    "en": "will not grumble when he is disciplined",
+    "plain": "will not complain when he is corrected."
+   }
+  ],
+  "follow": 0,
+  "why": "The base text lacks the word. It turns the line from a remark about a free man serving a wise slave into a remark about accepting correction.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "11:5",
+  "a": "Many absolute rulers have sat down on the ground,",
+  "t": "Rulers brought low, or the crushed raised up?",
+  "p": "The Hebrew says the opposite picture: the downtrodden have sat on thrones.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πολλοὶ τύραννοι ἐκάθισαν ἐπὶ ἐδάφους",
+    "en": "many absolute rulers sat on the ground",
+    "plain": "Many absolute rulers have sat down on the ground,"
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 11:6)",
+    "orig": "רַבִּים נִדְכָּאִים יָשְׁבוּ עַל כִּסֵּא",
+    "en": "many who were crushed have sat on a throne",
+    "plain": "Many who were crushed have sat down on a throne,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Both readings say God reverses fortunes; the Hebrew matches its second line better, where an unexpected person wears the crown.",
+  "s": [
+   "swete-lxx",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "11:6",
+  "a": "handed over to others",
+  "t": "Others, or companions?",
+  "p": "Vaticanus as first written has \"companions\"; its corrector and the other codices have \"others.\" The Plain follows \"others.\"",
+  "readings": [
+   {
+    "w": "A corrector of Codex Vaticanus, Alexandrinus, Ephraemi (Swete's notes); the Latin (\"in manus alterorum\"); KJV",
+    "orig": "εἰς χεῖρας ἑτέρων",
+    "en": "into the hands of others",
+    "plain": "handed over to others"
+   },
+   {
+    "w": "Codex Vaticanus, first hand, as printed by Swete",
+    "orig": "εἰς χεῖρας ἑταίρων",
+    "en": "into the hands of companions",
+    "plain": "handed over to their companions"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints <i>hetairōn</i>, \"companions,\" from the first hand of Vaticanus. By then the vowels <i>ai</i> and <i>e</i> sounded alike, so <i>hetairōn</i> is very likely a spelling slip for <i>heterōn</i>, \"others,\" which a corrector of Vaticanus wrote. The Hebrew in Kahana says only \"were given into (someone's) hand.\" This is a departure from Swete's printed text.",
+  "s": [
+   "swete-lxx",
+   "vulgate-clementine",
+   "kahana-ben-sira"
+  ]
+ },
+ {
+  "v": "11:15",
+  "a": "Wisdom, knowledge and knowing the law come from the Lord; / love and the ways of good deeds come from him.",
+  "t": "A verse found only in the longer text",
+  "p": "Vaticanus has no verse 15; the longer Greek, the Hebrew and the Latin have lines here. This verse and 11:16 go together.",
+  "readings": [
+   {
+    "w": "Greek minuscules 106 and 248 and the Complutensian printed Bible, after 11:14, as Fritzsche's 1871 edition reports them; the Latin (11:15); KJV",
+    "orig": "σοφία καὶ ἐπιστήμη καὶ γνῶσις νόμου παρὰ κυρίου, ἀγάπησις καὶ ὁδοὶ καλῶν ἔργων παρ᾽ αὐτοῦ ἐστιν",
+    "en": "wisdom and understanding and knowledge of the law are from the Lord; love and the ways of good works are from him",
+    "plain": "Wisdom, knowledge and knowing the law come from the Lord; / love and the ways of good deeds come from him."
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 11:18)",
+    "orig": "חָכְמָה וְשֶׂכֶל וְהָבִין דָּבָר מֵיי הוּא, חֵטְא וּדְרָכִים יְשָׁרִים מֵיי הוּא",
+    "en": "wisdom and insight and understanding a matter are from the LORD; sin and upright ways are from the LORD",
+    "plain": "Wisdom, insight and understanding come from the Lord; / sin and upright ways come from the Lord."
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus (no line here; the number 15 is empty in Swete)",
+    "orig": "(no verse)",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The line is not in the base text, so the Plain gives it in square brackets, translated from the longer Greek. The Hebrew has a form of it, so it may go back to Ben Sira himself and have dropped out of the main Greek copies.",
+  "b": "The Latin is \"sapientia, et disciplina, et scientia legis, apud Deum: dilectio, et viæ bonorum, apud ipsum.\" The Hebrew's \"sin\" where the Greek has \"love\" is strange in this list; the Plain does not follow it.",
+  "s": [
+   "fritzsche-apocrypha",
+   "kahana-ben-sira",
+   "vulgate-clementine",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "11:16",
+  "a": "Error and darkness were created along with sinners, / and evil grows old together with those who take pride in evil.",
+  "t": "A second verse from the longer text",
+  "p": "Like 11:15, this verse is not in Vaticanus; the longer Greek, the Hebrew and the Latin have it.",
+  "readings": [
+   {
+    "w": "Greek minuscules 106 and 248 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them; the Latin (11:16); KJV",
+    "orig": "πλάνη καὶ σκότος ἁμαρτωλοῖς συνέκτισται, τοῖς δὲ γαυριῶσιν ἐπὶ κακίᾳ συγγηρᾷ κακά",
+    "en": "error and darkness were created together with sinners, and for those who exult in evil, evil grows old with them",
+    "plain": "Error and darkness were created along with sinners, / and evil grows old together with those who take pride in evil."
+   },
+   {
+    "w": "Hebrew of the Cairo Genizah, as Kahana prints it (his 11:19)",
+    "orig": "שִׂכְלוּת וְחֹשֶׁךְ לְפוֹשְׁעִים נוֹצְרָה, וּמְרֵעִים רָעָה עִמָּם",
+    "en": "folly and darkness were formed for transgressors, and for evildoers evil is with them",
+    "plain": "Folly and darkness were formed for transgressors, / and evil stays with those who do evil."
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus (no line here)",
+    "orig": "(no verse)",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "As with 11:15, the Plain gives the longer Greek in square brackets.",
+  "b": "The Latin is \"Error et tenebræ peccatoribus concreata sunt...\" The line raises a question the book faces in 15:11-20: did God create evil? The verb \"created along with\" may mean only that error goes with sinners from their beginning.",
+  "s": [
+   "fritzsche-apocrypha",
+   "kahana-ben-sira",
+   "vulgate-clementine",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "For the Most High himself hates sinners, / and he will pay back the ungodly with punishment.",
+  "t": "\"He keeps them for the day of their punishment\"",
+  "p": "The longer Greek adds a line, which the KJV has.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Sinaiticus, Alexandrinus",
+    "orig": "ὅτι καὶ ὁ ὕψιστος ἐμίσησεν ἁμαρτωλούς, καὶ τοῖς ἀσεβέσιν ἀποδώσει ἐκδίκησιν.",
+    "en": "for the Most High too hated sinners, and will repay vengeance to the ungodly",
+    "plain": "For the Most High himself hates sinners, / and he will pay back the ungodly with punishment."
+   },
+   {
+    "w": "Greek minuscules 106, 248 and 253 and the Complutensian printed Bible, as Fritzsche's 1871 edition reports them (253 and one other add \"mighty\" before \"day\"); KJV",
+    "orig": "… φυλάσσει δὲ αὐτοὺς εἰς ἡμέραν ἐκδικήσεως αὐτῶν",
+    "en": "and he keeps them for the day of their punishment",
+    "plain": "For the Most High himself hates sinners, / and he will pay back the ungodly with punishment, / and he keeps them for the day of their punishment."
+   }
+  ],
+  "follow": 0,
+  "why": "The base text lacks the line. It adds the thought of a future day of reckoning.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "12:8",
+  "a": "A friend is not recognized when times are good, / and an enemy is not hidden when times are bad.",
+  "t": "\"Recognized,\" \"punished\" or \"thrown out\"?",
+  "p": "Vaticanus has a verb that means \"be punished\" or \"be avenged.\" The Plain follows \"be known,\" with the Hebrew and the Latin.",
+  "readings": [
+   {
+    "w": "A corrector of Codex Sinaiticus (Swete's notes); minuscule 106 with the compound ἐπιγνωσθήσεται, as Fritzsche's 1871 edition reports them; the Hebrew of the Cairo Genizah (לֹא יִוָּדַע בַּטּוֹבָה אוֹהֵב); the Latin (\"Non agnoscetur in bonis amicus\"); KJV",
+    "orig": "οὐ γνωσθήσεται ἐν ἀγαθοῖς ὁ φίλος",
+    "en": "a friend will not be known in good times",
+    "plain": "A friend is not recognized when times are good, / and an enemy is not hidden when times are bad."
+   },
+   {
+    "w": "Codex Vaticanus, as printed by Swete (and Sinaiticus, first hand)",
+    "orig": "Οὐκ ἐκδικηθήσεται ἐν ἀγαθοῖς ὁ φίλος",
+    "en": "a friend will not be avenged (punished) in good times",
+    "plain": "A friend is not punished when times are good, / and an enemy is not hidden when times are bad."
+   },
+   {
+    "w": "Codex Alexandrinus; minuscule 248 and the Complutensian printed Bible (as Fritzsche's 1871 edition reports them)",
+    "orig": "οὐκ ἐκβληθήσεται ἐν ἀγαθοῖς ὁ φίλος",
+    "en": "a friend will not be cast out in good times",
+    "plain": "A friend is not thrown out when times are good, / and an enemy is not hidden when times are bad."
+   }
+  ],
+  "follow": 0,
+  "why": "This is a departure from Swete's printed text. \"Will not be avenged\" makes little sense beside \"will not be hidden,\" while \"will not be known\" matches it exactly and is what the Hebrew and the Latin say. The Greek forms look like attempts to mend an early copying slip.",
+  "s": [
+   "swete-lxx",
+   "fritzsche-apocrypha",
+   "kahana-ben-sira",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ }
+]
