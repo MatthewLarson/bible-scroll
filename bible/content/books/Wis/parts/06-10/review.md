@@ -93,7 +93,6 @@ None is hedged in the forbidden way; they are stated flatly, and nothing in `sou
 - 10:17: the wages explanation "answers the charge, made by critics of the Jews in Egypt, that Israel had robbed its hosts". No critic or text is named.
 - 7:26 and ch. 7 `views.H`: "Most scholars think the New Testament writers drew on" this picture, and the verse is "the most important source for wisdom christology". Consensus claims need a named source.
 - 6:1 note: "Most scholars think the address is a literary frame".
-- 6:24: "The KJV's 'welfare of the world' is close". Check the KJV file; I did not.
 - ch. 7 `views.O`: Hagia Sophia "was dedicated" to Christ the Wisdom of God. `views.O` at ch. 6: the Orthodox count Wisdom among the "readable" books "though not with the full authority ... in every Orthodox teacher". No Orthodox source is named, and "in every Orthodox teacher" is vague.
 - ch. 6 `views.C`: Wisdom going to meet seekers "is read as a picture of God's grace that comes first". Ch. 9 `readings[1]`: the Church reads 9:13-18 "as the prayer of anyone who must decide without seeing the way". These put an interpretation in the Church's mouth with no source. The lectionary facts behind them are right (see 22).
 - Note 10:12: the enemies and ambushes "are Laban and Esau". This is the writer's reading, presented as fact.
@@ -147,7 +146,7 @@ glosses.json 6:14 glosses "sitting at his gates" as "waiting on his front step".
 **17. KJV overlap in the Plain, and an audit I could not repeat.**
 - Against the KJV (public domain, "for sense only" in the brief): 10:8 repeats a long run, "the world a memorial of their foolishness, so that"; 6:22 has "will not hide mysteries from you"; 10:7 "and a standing pillar of salt" (also the Douay); 8:20 "good ... I came into a body".
 - Several of these follow the Greek closely, but 10:8 and 6:22 should be rebuilt.
-- The drift audit against NRSV, NABRE, RSV, NJB and NETS is logged only per verse and was done in the head. I could not repeat it: Bible Gateway would not return the NRSVUE text for quoting, and bible.usccb.org returned 403 for NABRE. I therefore make no finding of drift for chapter 10 or the others. A fixer who can read those translations should compare the 33 verses the audit marks "kept", especially 6:4, 6:14, 6:15 and 8:5-6.
+- The drift audit against NRSV, NABRE, RSV, NJB and NETS is logged only per verse and was done in the head. I could not repeat it: Bible Gateway would not return the NRSVUE text for quoting, and bible.usccb.org returned 403 for NABRE. I therefore make no finding of drift for chapter 10 or the others. A fixer who can read those translations should compare the verses the audit marks "kept", especially 6:4, 6:14, 6:15 and 8:5-6.
 
 **18. Augustine note at 8:21 mixes two passages.**
 Note 8:21 says Augustine quotes the Latin "again in his famous prayer, 'no man can be continent unless Thou give it' (10.31.45; compare 10.29.40)". I opened both. The sentence "no man can be continent unless Thou give it" is in Confessions 10.31.45. The Wisdom 8:21 citation in 10.29.40 is a different sentence ("could not otherwise obtain her, except God gave her me"), and 10.29.40 is where the well-known prayer is. Separate the two quotations and passages.
@@ -159,7 +158,7 @@ The theory says Hebrews 1:3 and Colossians 1:15 "take only the last steps, radia
 - Note 7:26 ("7:25-26 in the fight over the Son") gives Origen and Athanasius (the Nicene side). The brief asked for Arian and Nicene use "sources opened". No Arian use is shown, though Athanasius reports Arian arguments.
 - Note 7:25 says "Both words say that Wisdom shares God's own nature". That is a claim in the very dispute the next note covers; the original images (vapor, outflow) were read in several ways. Label it a reading.
 - Note 7:27 (prophets): Luke 11:49 "shows that Jews of his time could speak of Wisdom as the one who sends the prophets". "Shows" is too strong for one saying.
-- Note 7:26: 9:15's third reading "Protestant readers usually see ... a Greek view that Paul corrects" (note 9:15 canon) is a generalization about Protestants with no source.
+- Note 9:15 (canon): "Protestant readers usually see here a Greek view that Paul corrects" is a generalization about Protestants with no source.
 
 **21. Works outside the 66 are cited without their status.**
 Notes 7:20 ("Testament of Solomon") and 10:1 ("Life of Adam and Eve") are `tier: other` in works.json. They are named correctly but not marked as in no church's Bible. Add a short "not accepted as Scripture by any church" where they first appear, as the canon-tiers rule requires.
@@ -167,10 +166,10 @@ Notes 7:20 ("Testament of Solomon") and 10:1 ("Life of Adam and Eve") are `tier:
 **22. Small translation points.**
 - 6:5: `φρικτῶς καὶ ταχέως` is "swiftly and terribly", reversing the Greek order.
 - 7:19 and 7:29: `θέσις` is "where the stars are set" in one verse and "every pattern of the stars" in the next. Note 7:19 itself calls it "positions".
-- 6:9 and 8:4: `αἱρετίς` ("chooses his works") has a debated sense that the note does not mention.
+- 8:4: `αἱρετίς` ("chooses his works") has a debated sense that the note does not mention.
 - 8:21: the Plain supplies "her" as the object of "gave" (Greek has none). The note covers the two senses of `ἐγκρατής` but does not say the object is added.
 - 10:7: `ἀτελέσιν ὥραις` is "at the wrong season and never matures". "Wrong season" is the writer's gloss on `ὥρα`.
-- 9:1: the Greek has "God of the fathers". The note says "my" was added, which is true, but the note states it under "Solomon's prayer and 1 Kings 3" without mentioning that Kings has "my father David".
+- 9:1: the Greek has "God of the fathers". The note admits "my" was added; the added "my" makes the opening resemble Kings' "my father David" more than the Greek does.
 
 **23. Lectionary wording.**
 Ch. 9 `views.C` says the reading is used "in the rite of anointing of the sick". Felix Just's index lists it as Lectionary 790.6, "Ritual Masses: Anointing of the Sick". Say "Ritual Mass for the Anointing of the Sick". The other lectionary facts (154-A, 493, 143-B, 494, doctors of the Church, 129-C) match the page.
