@@ -1,4 +1,4 @@
-Status: writing
+Status: written
 
 Outside the 66 (tier dc). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-10, 11-15, 16-19; book.json and sources.json by a separate writer. Lenses C O P H J. Brief tools/brief-wis.md. Cards: ch3 soul immortal by nature or gift (top soul, new topic), 8:19-20 pre-existence (top soul), ch13 natural theology (top natural-revelation); book card authorship only (Proverbs' card asks the canon question).
 - 2026-10-30: planned; writers started.
@@ -6,3 +6,4 @@ Outside the 66 (tier dc). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulg
 - 2026-10-31: part 06-10 written (115 verses, 82 notes, 11 variants, 41 glosses, 5 chapter pages, 16 topic contributions; card at 8:19-20 on pre-existence of souls, top soul). Terms proposed in proposals/works/terms.json. VERBOSE=1 --check Wis/06-10 at 0 errors, 0 warnings.
 - 2026-10-31: part 16-19 written (97 verses, 68 notes, 17 variants, 32 glosses, 4 chapter pages, 15 topic contributions; no traditions cards). One departure from Swete (18:1, Alexandrinus's οὐ, with variant). --check Wis/16-19 at 0/0. Awaiting hostile review.
 - 2026-10-31: part 01-05 written (102 verses, 79 notes, 20 variants, 40 glosses, 5 chapter pages, 15 topic contributions; card at ch3 on whether the soul is immortal by nature or by gift, top soul; new topic core proposals/works/topics/soul.json). Three departures from Swete, each with a variant (2:7 ἔαρος with A; 2:23 ἀϊδιότητος; 5:23 πᾶσαν with the correctors, ℵ, A). Terms proposed in proposals/works/terms.json. Sources opened in .scratch/wis-01-05/sources-checked.md. --check Wis/01-05 at 0/0. Awaiting hostile review.
+- 2026-10-31: part 11-15 written (122 verses, 75 notes, 10 variants, 42 glosses, 5 chapter pages, 14 topic contributions; card at ch13 on analogy between creatures and God, top natural-revelation, pointing to the Romans 1 card). No departures from Swete. tyrannos rendered "absolute ruler" per the 06-10 terms proposal. Sources opened in .scratch/wis-11-15/sources-checked.md; drift audit changed 73 of 122 verses. --check Wis/11-15 at 0/0. Awaiting hostile review.

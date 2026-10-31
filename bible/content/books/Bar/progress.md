@@ -1,6 +1,7 @@
-Status: writing
+Status: written
 
 Outside the 66 (tier dc). Baruch 1-5 and the Letter of Jeremiah (ch. 6). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-06; book.json and sources.json by a separate writer. Lenses C O P H J. Brief tools/brief-bar.md. Card: 3:37-38 incarnation (only if churches differ); no canon card (Jeremiah's card asks it).
 - 2026-10-30: planned; writers started.
 - 2026-10-31: part 06-06 (Letter of Jeremiah) written: 72 vv (Swete/Göttingen/Vulgate numbering; KJV is +1), 57 notes, 9 variants, 23 glosses, chapter page with 2 settings, 13 topic contributions, no card. Check 0 errors/0 warnings in the part (remaining errors are book.json canon, owned by the book-level writer).
 - 2026-10-31: book.json and sources.json (book-level writer): lead, facts, authorship, audience, outline, lenses C O P H J, 6 sections, 2 spec, 4 prompts, 21 topics, canon block (10 accepted_by rows, 4 provenance, 5 rejected_why, 6 cited_in, reliability, 5 how_to_read); no book traditions card (Jeremiah's canon card is pointed to). 15 new source keys. Letter-of-Jeremiah link to ch. 6 needs a build change: content/proposals/works/build.md. Baruch quotes match parts' Plain as of this date.
+- 2026-10-31: part 01-05 written (Baruch 1-5): 141 verses, 103 notes, 8 variants, 42 glosses, 5 chapter pages, 17 topic contributions; no traditions card for 3:38 (no church document addresses it; both Catholic and Orthodox worship read it); terms proposed in proposals/works/terms.json; check 0/0. Ready for hostile review.
