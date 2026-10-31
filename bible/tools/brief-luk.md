@@ -8,7 +8,7 @@ after Mark, so Matthew and Mark are both models.
 |---|---|---|---|
 | 01-02 | 1–2 | 132 | Prologue, the births of John and Jesus foretold, the Magnificat and the Benedictus, the birth, the shepherds, Simeon and Anna, the boy in the Temple. **Owns book.json.** |
 | 03-05 | 3–5 | 121 | John the Baptist, the baptism, the genealogy, the testing, the Nazareth sermon, Capernaum, the catch of fish, the paralyzed man, Levi, fasting |
-| 06-08 | 6–8 | 155 | Sabbath, the Twelve, the Sermon on the Plain English Translation, the centurion, the widow at Nain, John's question, the woman who anointed his feet, the women who followed, parables, the storm, the Gerasene man, Jairus |
+| 06-08 | 6–8 | 155 | Sabbath, the Twelve, the Sermon on the Plain, the centurion, the widow at Nain, John's question, the woman who anointed his feet, the women who followed, parables, the storm, the Gerasene man, Jairus |
 | 09-10 | 9–10 | 104 | The Twelve sent, the 5,000, Peter's confession, the transfiguration, "he set his face to go to Jerusalem" (9:51), the Samaritan village, the seventy(-two), the good Samaritan, Martha and Mary |
 | 11-13 | 11–13 | 148 | The Lord's Prayer, Beelzebul, signs, woes, the rich fool, "do not worry", readiness, Galileans and Siloam, the bent woman, the narrow door, the lament over Jerusalem |
 | 14-17 | 14–17 | 135 | The banquet, the cost, the lost sheep, coin and son, the shrewd manager, the rich man and Lazarus, the ten with skin disease, the coming of the kingdom |
