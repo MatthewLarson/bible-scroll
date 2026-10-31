@@ -20,11 +20,11 @@
   "type": "views",
   "t": "The law, the prophets and the other books",
   "p": "Three times the grandson names three groups of books. Is this the Bible's three-part shape already, or a looser list?",
-  "b": "The grandson names Israel's books three times: \"the law and the prophets and the others who came after them,\" \"the law, the prophets and the other books of our ancestors,\" and \"the law itself, the prophecies and the rest of the books.\" The Jewish Bible still has three parts: Torah (law), Nevi'im (prophets) and Ketuvim (writings). This prologue is generally counted as the earliest witness to that three-part shape. Readers differ on how much it proves. Some take the third group as already a known, fixed collection. Others point out that the grandson never gives it a name: he calls it only \"the others\" or \"the rest,\" which may mean the third group was still open. Compare Jesus' words in Luke 24:44, \"in the Law of Moses, in the Prophets and in the Psalms.\"",
+  "b": "The grandson names Israel's books three times: \"the law and the prophets and the others who came after them,\" \"the law, the prophets and the other books of our ancestors,\" and \"the law itself, the prophecies and the rest of the books.\" The Jewish Bible still has three parts: Torah (law), Nevi'im (prophets) and Ketuvim (writings). Written about 132 BC, the prologue is an early witness to that three-part shape. Readers differ on how much it proves. Some take the third group as already a known, fixed collection. Others point out that the grandson never gives it a name: he calls it only \"the others\" or \"the rest,\" which may mean the third group was still open. Compare Jesus' words in Luke 24:44, \"in the Law of Moses, in the Prophets and in the Psalms.\"",
   "r": "Luke 24:44; Matthew 5:17; Luke 16:16",
   "top": "canon",
   "s": [
-   "wikipedia-sirach-prologue"
+   "rendsburg-binstein-bensira"
   ],
   "l": [
    [
@@ -38,11 +38,11 @@
   "a": "praised for instruction and wisdom",
   "type": "word",
   "t": "\"Instruction\": the word paideia",
-  "p": "Paideia means upbringing and education: here \"instruction,\" and \"discipline\" only where it hurts (4:17).",
-  "b": "The grandson pairs two words twice: <i>paideia</i> and <i>sophia</i>, \"instruction and wisdom.\" <i>Paideia</i> was the Greek word for a child's whole upbringing: schooling, training and correction. It translates the Hebrew <i>musar</i>, which Proverbs' Plain gives as \"discipline\" (Proverbs 1:2, 7). In this part of Sirach the Plain uses \"instruction\" where the sense is learning (here, 1:27, 4:24, 6:18) and \"discipline\" where Wisdom corrects and tests a learner (4:17). A Greek reader in Egypt would hear in the prologue the language of the schools: the Jewish Scriptures offer a <i>paideia</i> as good as any Greek one.",
+  "p": "Paideia means upbringing and correction: \"discipline\" by default in Sirach, \"instruction\" where the sense is teaching, as here.",
+  "b": "The grandson pairs two words twice: <i>paideia</i> and <i>sophia</i>, \"instruction and wisdom.\" <i>Paideia</i> was the Greek word for a child's whole upbringing: schooling, training and correction. It translates the Hebrew <i>musar</i>, which Proverbs' Plain gives as \"discipline\" (Proverbs 1:2, 7). The Plain of Sirach uses \"discipline\" by default (1:27; 4:17) and \"instruction\" where the sense is teaching and learning (here; 4:24; 6:18), and calls the people who will not take correction \"the undisciplined\" (6:20). A Greek reader in Egypt would hear in the prologue the language of the schools: the Jewish Scriptures offer a <i>paideia</i> as good as any Greek one.",
   "orig": "παιδεία καὶ σοφία (paideia kai sophia)",
   "kind": "nu",
-  "r": "1:27; 4:17; 6:18; Proverbs 1:2; Proverbs 1:7; Wisdom of Solomon 6:17",
+  "r": "1:27; 4:17; 6:18; 6:20; Proverbs 1:2; Proverbs 1:7; Wisdom of Solomon 6:17",
   "top": "wisdom"
  },
  {
@@ -51,7 +51,7 @@
   "type": "word",
   "t": "The first translator's apology",
   "p": "The grandson warns that a translation never says quite what the original says, even for the law and the prophets.",
-  "b": "This is one of the earliest comments anyone made on translating the Bible. The verb <i>isodynamei</i> means \"have equal power\": Hebrew words lose force in Greek. The grandson adds that the same is true of \"the law itself, the prophecies and the rest of the books,\" which shows that Greek translations of those books already existed in his day, the beginnings of what we call the Septuagint, the Greek Old Testament made before Jesus. His warning applies to his own work too. Where the Hebrew of Ben Sira survives, it often differs from his Greek, and this site gives those differences in its variant notes.",
+  "b": "This is an early comment on translating the Bible, written about 132 BC. The verb <i>isodynamei</i> means \"have equal power\": Hebrew words lose force in Greek. The grandson adds that the same is true of \"the law itself, the prophecies and the rest of the books,\" which shows that Greek translations of those books already existed in his day, the beginnings of what we call the Septuagint, the Greek Old Testament made before Jesus. His warning applies to his own work too. Where the Hebrew of Ben Sira survives, it often differs from his Greek. Some differences may come from the grandson, some from the Hebrew copy he used, and some from later changes in the Hebrew, which survives here only in a medieval copy; the variant notes give the differences without deciding each one.",
   "orig": "οὐ γὰρ ἰσοδυναμεῖ (ou gar isodynamei), 'for they do not have equal force'",
   "kind": "nu",
   "r": "Nehemiah 8:8",
@@ -61,6 +61,9 @@
     "Septuagint",
     "Septuagint"
    ]
+  ],
+  "s": [
+   "rendsburg-binstein-bensira"
   ]
  },
  {
@@ -68,14 +71,15 @@
   "a": "the thirty-eighth year under King Euergetes",
   "type": "history",
   "t": "When the grandson came to Egypt",
-  "p": "Euergetes is taken to be Ptolemy VIII, so the grandson reached Egypt in 132 BC.",
-  "b": "Euergetes, \"Benefactor,\" was a title of Egypt's Greek kings, the Ptolemies. Most scholars take this to be Ptolemy VIII Euergetes II, which puts the grandson's arrival in Egypt in 132 BC. The grandfather would then have written in Jerusalem a generation or two before, usually dated about 180 BC, before the crisis under Antiochus IV that 1 Maccabees tells. The Greek <i>synchronisas</i>, \"having spent time,\" says that the grandson lived in Egypt some while before he finished the translation.",
+  "p": "Year 38 of King Euergetes is 132 BC, by the reckoning of the second king of that name.",
+  "b": "Euergetes, \"Benefactor,\" was a title of Egypt's Greek kings, the Ptolemies. Two kings bore it. The first reigned only twenty-five years, so his thirty-eighth year never came. The second shared the throne with his brother from 170 BC and later ruled alone, but he counted his years from 170, so his thirty-eighth year is 132 BC (Gigot, in the <i>Catholic Encyclopedia</i>). The Rutgers edition of the Hebrew manuscripts (Rendsburg and Binstein) gives the same date for the translation, under Ptolemy VIII Euergetes II, and dates the book itself to about 180 BC, in Jerusalem. The Greek <i>synchronisas</i>, \"having spent time,\" says that the grandson lived in Egypt some while before he finished the translation.",
   "orig": "ἐν τῷ ὀγδόῳ καὶ τριακοστῷ ἔτει ἐπὶ τοῦ Εὐεργέτου βασιλέως",
   "kind": "nu",
   "r": "1 Maccabees 1:10",
   "top": "ben-sira",
   "s": [
-   "wikipedia-sirach-prologue"
+   "gigot-ecclesiasticus-ce",
+   "rendsburg-binstein-bensira"
   ],
   "l": [
    [
@@ -89,10 +93,10 @@
   "a": "I found a copy that held no small instruction",
   "type": "word",
   "t": "What did he find in Egypt?",
-  "p": "The rare word aphomoion probably means \"a copy\" of the book; it can also be read as \"no small difference\" in learning.",
-  "b": "The Greek <i>aphomoion</i> is rare. It means something made to look like another thing: a likeness or a copy. Read that way, the grandson found in Egypt a copy of his grandfather's book, which held no small instruction, and this moved him to translate it (the KJV has \"a book of no small learning\"). Another reading takes the phrase as \"no small difference (or likeness) of education\": he found the level of learning among Egypt's Jews to be such that a translation was needed. The Plain follows the first reading, which fits the next sentence, \"translating this book.\"",
+  "p": "The rare word aphomoion means a likeness or copy: most likely a copy of the book itself.",
+  "b": "The Greek <i>aphomoion</i> is rare. It means something made to look like another thing: a likeness or a copy. Read that way, the grandson found in Egypt a copy of his grandfather's book, which held no small instruction, and this moved him to translate it; the next sentence, \"translating this book,\" fits that reading. The KJV has \"a book of no small learning.\"",
   "orig": "εὗρον οὐ μικρᾶς παιδείας ἀφόμοιον (heuron ou mikras paideias aphomoion)",
-  "kind": "deb",
+  "kind": "nu",
   "s": [
    "kjv-apocrypha"
   ]
@@ -151,7 +155,7 @@
   "type": "word",
   "t": "A good kind of cleverness",
   "p": "The Greek word usually means cunning; here it is Wisdom's skill, like Proverbs' \"shrewdness\" in the good sense.",
-  "b": "<i>Panourgeuma</i> comes from <i>panourgos</i>, \"able to do anything,\" which in Greek is often bad: crafty, sly. The Septuagint also uses it in a good sense for the shrewdness Proverbs praises (Proverbs 1:4; 8:5). Ben Sira uses the word of Wisdom's own clever ways, which only God fully knows. In 6:32 the learner who gives himself to her becomes <i>panourgos</i>, \"shrewd.\"",
+  "b": "<i>Panourgeuma</i> comes from <i>panourgos</i>, \"able to do anything,\" which in Greek is often bad: crafty, sly. The Greek of Proverbs uses a word of the same family, <i>panourgia</i>, in a good sense for the shrewdness it praises (Proverbs 1:4; 8:5). Ben Sira uses the word of Wisdom's own clever ways, which only God fully knows. In 6:32 the learner who gives himself to her becomes <i>panourgos</i>, \"shrewd.\"",
   "orig": "τὰ πανουργεύματα αὐτῆς (ta panourgeumata autēs)",
   "kind": "nu",
   "r": "6:32; Proverbs 1:4; Proverbs 8:5; Proverbs 8:12"
@@ -200,7 +204,7 @@
   "type": "word",
   "t": "\"The fear of the Lord\"",
   "p": "Ben Sira's key phrase: the awe, reverence and obedience that Proverbs calls the start of wisdom.",
-  "b": "This phrase runs through the book more than any other. The Greek <i>phobos Kyriou</i> renders the Hebrew <i>yir'at YHWH</i>, which Proverbs' Plain gives as \"the fear of the LORD\" (Proverbs 1:7). Because the Greek has no divine name, the Plain here has \"the Lord.\" The \"fear\" is not panic. It is the respect of a creature before the Creator, which shows itself in obedience and trust. Ben Sira can say in one breath that it brings \"gladness and a garland of joy\" (1:11) and that it is the root of wisdom (1:20). Chapter 1 is a small hymn to it: 1:11–20 names it again and again.",
+  "b": "This phrase runs through the book more than any other. No Hebrew of this verse survives, but the Greek <i>phobos Kyriou</i> probably renders the Hebrew <i>yir'at YHWH</i>, which Proverbs' Plain gives as \"the fear of the LORD\" (Proverbs 1:7). Because the Greek has no divine name, the Plain here has \"the Lord.\" The \"fear\" is not panic. It is the respect of a creature before the Creator, which shows itself in obedience and trust. Ben Sira can say in one breath that it brings \"gladness and a garland of joy\" (1:11) and that it is the root of wisdom (1:20). Chapter 1 is a small hymn to it: 1:11–20 names it again and again.",
   "orig": "φόβος Κυρίου (phobos Kyriou)",
   "kind": "nu",
   "r": "Proverbs 1:7; Proverbs 9:10; Psalm 111:10; Job 28:28; Deuteronomy 10:12",
@@ -212,7 +216,7 @@
   "type": "canon",
   "t": "\"At the last\": the end of life",
   "p": "Ben Sira means a good end to this life; he does not teach a resurrection, as later Jewish and Christian readers would.",
-  "b": "\"At the last\" (<i>ep' eschatōn</i>) and \"the day of his end\" mean the close of a person's life: a peaceful death, an honored name and children who carry on. Ben Sira does not speak here of judgment after death or of rising again; elsewhere he says plainly that the dead do not praise God (17:27–28), and his book has no hope of resurrection. In this he stands with much of the Hebrew Bible (Psalm 6:5) and goes less far than Daniel 12:2 or the Wisdom of Solomon 3:1–9. Christian readers in the churches that keep the book often hear \"the last\" as the last judgment, a fuller meaning the New Testament supplies.",
+  "b": "\"At the last\" (<i>ep' eschatōn</i>) and \"the day of his end\" mean the close of a person's life: a peaceful death, an honored name and children who carry on. Ben Sira does not speak here of judgment after death or of rising again; elsewhere he says plainly that the dead do not praise God (17:27–28), and nothing in these chapters speaks of rising from the dead. In this he stands with much of the Hebrew Bible (Psalm 6:5) and goes less far than Daniel 12:2 or the Wisdom of Solomon 3:1–9. Christian readers in the churches that keep the book often hear \"the last\" as the last judgment, a fuller meaning the New Testament supplies.",
   "r": "17:27–28; Psalm 6:5; Daniel 12:2; Wisdom of Solomon 3:1–9; Proverbs 23:18",
   "top": "resurrection"
  },
@@ -273,10 +277,10 @@
  },
  {
   "v": "1:25",
-  "a": "a sinner loathes reverence for God",
+  "a": "reverence for God is something abhorrent",
   "type": "word",
   "t": "\"Abomination\" to a sinner",
-  "p": "The word bdelygma (KJV \"abomination\") is turned around: the sinner finds devotion to God disgusting.",
+  "p": "The word bdelygma (KJV \"abomination\") is turned around: to the sinner, devotion to God is the abhorrent thing.",
   "b": "<i>Bdelygma</i> is the Septuagint's word for the Hebrew <i>to'evah</i>, what is abhorrent, often what God hates. Ben Sira turns it around: to a sinner, <i>theosebeia</i>, reverence for God, is the abhorrent thing. Proverbs makes the same point from both sides: \"the wicked find a man who walks straight abhorrent\" (Proverbs 29:27).",
   "orig": "βδέλυγμα δὲ ἁμαρτωλῷ θεοσέβεια (bdelygma de hamartōlō theosebeia)",
   "kind": "nu",
@@ -284,7 +288,7 @@
  },
  {
   "v": "1:26",
-  "a": "Keep the commandments",
+  "a": "guard the commandments",
   "type": "israel",
   "t": "Wisdom through the commandments",
   "p": "Ben Sira's great joining: whoever wants wisdom must keep the law of Moses.",
@@ -309,7 +313,7 @@
   "type": "word",
   "t": "A double heart",
   "p": "A \"double\" or divided heart is one that serves God and something else; James calls such a person \"double-minded.\"",
-  "b": "<i>Kardia dissē</i>, \"a double heart,\" renders a Hebrew idiom, <i>lev valev</i>, \"a heart and a heart,\" which Psalm 12:2 uses of liars: \"with a divided heart.\" Ben Sira returns to the theme several times in this part: the sinner on \"two paths\" (2:12) and the \"sinner who has two tongues\" (5:9; 6:1). James warns against the <i>dipsychos</i>, the \"double-minded man, never steady on any road he takes\" (James 1:8).",
+  "b": "<i>Kardia dissē</i>, \"a double heart,\" recalls the Hebrew idiom of Psalm 12:2, <i>lev valev</i>, \"a heart and a heart,\" used of liars: \"with a divided heart.\" No Hebrew of this verse of Ben Sira survives, so his own wording is not known. Ben Sira returns to the theme several times in this part: the sinner on \"two paths\" (2:12) and the \"sinner who has two tongues\" (5:9; 6:1). James warns against the <i>dipsychos</i>, the \"double-minded man, never steady on any road he takes\" (James 1:8).",
   "orig": "ἐν καρδίᾳ δισσῇ (en kardia dissē)",
   "kind": "nu",
   "r": "Psalm 12:2; 2:12; 5:9; 6:1; James 1:8; James 4:8; 1 Chronicles 12:33"
@@ -342,7 +346,7 @@
   "type": "word",
   "t": "\"My child\"",
   "p": "Ben Sira speaks as a teacher to a pupil; where his Hebrew survives, it has \"my son.\"",
-  "b": "The Greek <i>teknon</i> means \"child.\" Ben Sira uses it as a teacher's address to his pupil, as Proverbs does (\"My son,\" Proverbs 1:8). Where the Hebrew of this part survives, from 3:8 on, it has <i>beni</i>, \"my son\" (for example 3:12, 3:17 and 4:1, where the Greek has <i>teknon</i>). The pupils of a Jerusalem school were young men, so \"my son\" was literal in its way. The grandson's Greek \"my child\" makes the teaching open to any reader, which suits how Jews and Christians have used the book since.",
+  "b": "The Greek <i>teknon</i> means \"child.\" Ben Sira uses it as a teacher's address to his pupil, as Proverbs does (\"My son,\" Proverbs 1:8). Where the Hebrew of this part survives, from 3:8 on, it has <i>beni</i>, \"my son\" (for example 3:12, 3:17 and 4:1, where the Greek has <i>teknon</i>). The pupils of a Jerusalem school were young men, so \"my son\" was literal in its way. The grandson's Greek \"my child\" makes the teaching open to any reader, which suits how Jews and Christians have used the book since. (Manuscript A, folio I recto, lines 4 and 8; folio I recto, line 21.)",
   "orig": "Τέκνον (teknon), 'child'; Hebrew בני (beni), 'my son'",
   "kind": "nu",
   "r": "Proverbs 1:8; Proverbs 3:11; 3:12; 3:17; 4:1; 51:23",
@@ -368,7 +372,7 @@
   "a": "Fire is where gold is proved",
   "type": "symbol",
   "t": "Gold in the furnace",
-  "p": "As gold is refined by fire, people God accepts are proved by humiliation.",
+  "p": "As gold is refined by fire, people who are acceptable are proved by humiliation.",
   "b": "Metal-workers heated gold in a furnace to burn off what was not gold. The Bible often uses the picture: \"Silver goes in the melting pot and gold in the furnace, / but it is the LORD who puts hearts to the test\" (Proverbs 17:3; compare Zechariah 13:9; Malachi 3:3). The Wisdom of Solomon says of the righteous, \"He proved them like gold in a smelter's fire\" (Wisdom of Solomon 3:6), and 1 Peter 1:7 calls faith worth more than gold that \"fire tests.\" Ben Sira's furnace is <i>tapeinōsis</i>, being made low: loss, shame and poverty.",
   "orig": "ἐν καμίνῳ ταπεινώσεως (en kaminō tapeinōseōs)",
   "kind": "nu",
@@ -456,7 +460,7 @@
  },
  {
   "v": "3:1",
-  "a": "Hear me, children, for I am your father",
+  "a": "Hear me, children, me, your father",
   "type": "history",
   "t": "A teacher speaks as a father",
   "p": "Ben Sira addresses his pupils as \"children\" and himself as their \"father,\" as teachers in Israel did.",
@@ -469,7 +473,7 @@
   "type": "canon",
   "t": "Honoring parents \"atones for sins\"",
   "p": "The Ten Commandments promise long life to those who honor parents; Ben Sira adds that it atones for sins.",
-  "b": "The fifth commandment promises \"so that your days will stretch out long\" (Exodus 20:12). Ben Sira keeps that promise (3:6) but goes beyond it: the one who honors a father \"makes atonement for sins\" (<i>exilasetai</i>, the Greek Bible's word for the Hebrew <i>kipper</i>), and kindness to a father is set \"in place of\" sins (3:14). The Hebrew of 3:3 is lost (the Cairo manuscript begins at 3:6). Catholic teaching quotes 3:2–6, 12–13 and 16 on the duties of grown children (Catechism 2218). Protestant readers, for whom the book is not Scripture, hold that sins are atoned for only by Christ's sacrifice (Hebrews 10:10–14), and read Ben Sira as saying that God looks kindly on the dutiful child. For the parallel claim about alms, see 3:30.",
+  "b": "The fifth commandment promises \"so that your days will stretch out long\" (Exodus 20:12). Ben Sira keeps that promise (3:6) but goes beyond it: the one who honors a father \"makes atonement for sins\" (<i>exilasetai</i>, the Greek Bible's word for the Hebrew <i>kipper</i>), and kindness to a father is set \"in place of\" sins (3:14). The Hebrew of 3:3 is lost (the Cairo manuscript begins at 3:6). Catholic teaching quotes 3:2–6, 12–13 and 16 on the duties of grown children (Catechism 2218). Protestant readers, for whom the book is not Scripture, hold that sins are atoned for only by Christ's sacrifice (Hebrews 10:10–14), and read Ben Sira as saying that God looks kindly on the dutiful child. For the parallel claim about alms, see 3:30. The \"Where Christians differ\" card at Tobit 4 sets out how churches answer the related question whether good works such as almsgiving take away sin.",
   "orig": "ὁ τιμῶν πατέρα ἐξιλάσεται ἁμαρτίας (ho timōn patera exilasetai hamartias)",
   "kind": "nu",
   "r": "Exodus 20:12; Deuteronomy 5:16; 3:14; 3:30; Hebrews 10:10–14; Proverbs 16:6",
@@ -497,7 +501,7 @@
   "type": "word",
   "t": "The Hebrew: \"all blessings will overtake you\"",
   "p": "From here the Hebrew survives: \"My son, in word and deed honor your father, so that all blessings may overtake you.\"",
-  "b": "The Cairo Genizah manuscript A (Cambridge, T-S 12.863) begins in the middle of 3:6 and has this verse as \"My son, in word and in deed honor your father, so that all blessings may overtake you.\" The last words echo Deuteronomy 28:2: \"All these blessings will come on you and catch up with you.\" The Greek has a single \"blessing from him\" and no \"my son.\"",
+  "b": "The Cairo Genizah manuscript A (Cambridge, T-S 12.863) begins in the middle of 3:6 and has this verse as \"My son, in word and in deed honor your father, so that all blessings may overtake you.\" The last words echo Deuteronomy 28:2: \"All these blessings will come on you and catch up with you.\" The Greek has a single \"blessing from him\" and no \"my son.\" (Manuscript A, folio I recto, lines 1–2.)",
   "orig": "בני במאמר ובמעשה כבד אביך עבור ישיגוך כל ברכות",
   "kind": "nu",
   "r": "Deuteronomy 28:2; Exodus 20:12",
@@ -511,7 +515,7 @@
   "type": "history",
   "t": "A parent's blessing and curse",
   "p": "A parent's blessing or curse was believed to shape the children's future; the Hebrew pictures roots and plants.",
-  "b": "Israel's stories turn on a father's blessing: Isaac's over Jacob and Esau (Genesis 27), Jacob's over his sons (Genesis 49). A parent's words were believed to carry real power. The Greek speaks of houses and foundations. The Hebrew of manuscript A uses a garden picture instead: \"a father's blessing lays down a root, but a mother's curse tears up what is planted.\"",
+  "b": "Israel's stories turn on a father's blessing: Isaac's over Jacob and Esau (Genesis 27), Jacob's over his sons (Genesis 49). A parent's words were believed to carry real power. The Greek speaks of houses and foundations. The Hebrew of manuscript A uses a garden picture instead: \"a father's blessing lays down a root, but a mother's curse tears up what is planted.\" (Manuscript A, folio I recto, line 2.)",
   "orig": "ברכת אב תיסד שרש וקללת אם תנתש נטע",
   "kind": "nu",
   "r": "Genesis 27:27–29; Genesis 49:1–28; Genesis 9:25–27; Proverbs 20:20",
@@ -554,7 +558,7 @@
   "type": "word",
   "t": "\"Mercy\" to a father: the word for alms",
   "p": "The Greek word is eleēmosynē, the word for alms; the Hebrew is tsedaqah. Both reappear in 3:30.",
-  "b": "<i>Eleēmosynē</i> means an act of mercy, and in the Greek Bible it came to mean alms, gifts to the poor (Tobit 4:7–11). Here it is the kindness a son shows his father. The Hebrew has <i>tsidqat av</i>, the \"righteousness\" (or charity) shown to a father. In Hebrew of this period <i>tsedaqah</i> could mean both doing right and giving to the poor. The same pair, Greek <i>eleēmosynē</i> and Hebrew <i>tsedaqah</i>, stands in 3:30. Where the Greek says this kindness \"will be built up as a house,\" the Hebrew says it \"will be planted\" in place of sin.",
+  "b": "<i>Eleēmosynē</i> means an act of mercy, and in the Greek Bible it came to mean alms, gifts to the poor (Tobit 4:7–11). Here it is the kindness a son shows his father. The Hebrew has <i>tsidqat av</i>, the \"righteousness\" (or charity) shown to a father. In Hebrew of this period <i>tsedaqah</i> could mean both doing right and giving to the poor. The same pair, Greek <i>eleēmosynē</i> and Hebrew <i>tsedaqah</i>, stands in 3:30. Where the Greek says this kindness \"will be built up\" (a building word), the Hebrew says it \"will be planted\" in place of sin. (Manuscript A, folio I recto, line 6.)",
   "orig": "ἐλεημοσύνη πατρός (eleēmosynē patros); Hebrew צדקת אב (tsidqat av)",
   "kind": "nu",
   "r": "3:30; Tobit 4:7–11; Daniel 4:27; Proverbs 10:2",
@@ -569,7 +573,7 @@
   "type": "symbol",
   "t": "Sins melting like frost",
   "p": "Sins dissolve as frost melts in the morning sun.",
-  "b": "Frost was a real sight on cold winter mornings in the hills of Judea, gone as soon as the sun came out. Ben Sira uses it for how God removes sin. Isaiah used snow and wool: \"If your sins are scarlet, / like snow they will turn white\" (Isaiah 1:18). The Hebrew reads \"like heat upon frost, to put an end to your iniquities.\"",
+  "b": "Frost vanishes when the warm sun comes out. Ben Sira uses the picture for how God removes sin. Isaiah used snow and wool: \"If your sins are scarlet, / like snow they will turn white\" (Isaiah 1:18). The Hebrew reads \"like heat upon frost, to put an end to your iniquities.\"",
   "r": "Isaiah 1:18; Psalm 103:12; Psalm 147:16–18",
   "s": [
    "abegg-bensira-msa"
@@ -581,7 +585,7 @@
   "type": "word",
   "t": "Despising parents is defying God",
   "p": "The Greek calls him \"like a blasphemer\"; the Hebrew says he acts in defiance and provokes his Creator.",
-  "b": "The Greek <i>blasphēmos</i> is \"one who speaks against God\": dishonoring a father is like insulting God, who gave the father his honor (3:2). The Hebrew is stronger still: \"for one who despises his father acts with defiance, and one who curses his mother provokes his Creator.\" The law punished cursing a parent with death: \"Anyone who curses his father or his mother must be put to death\" (Exodus 21:17).",
+  "b": "The Greek <i>blasphēmos</i> is \"one who speaks against God\": dishonoring a father is like insulting God, who gave the father his honor (3:2). The Hebrew is stronger still: \"for one who despises his father acts with defiance, and one who curses his mother provokes his Creator.\" The law punished cursing a parent with death: \"Anyone who curses his father or his mother must be put to death\" (Exodus 21:17). (Manuscript A, folio I recto, lines 7–8.)",
   "orig": "ὡς βλάσφημος (hōs blasphēmos); Hebrew כי מזיד בוזה אביו ומכעיס בוראו מקלל אמו",
   "kind": "nu",
   "r": "Exodus 21:17; Leviticus 20:9; Proverbs 20:20; Proverbs 30:17; Mark 7:10",
@@ -609,7 +613,7 @@
   "type": "views",
   "t": "Limits on searching out God's secrets",
   "p": "Do not pry into what is beyond you. The Talmud quotes these lines by name from \"the book of Ben Sira.\"",
-  "b": "The Babylonian Talmud quotes 3:21–22 in Hebrew, naming its source: \"as it is written in the book of Ben Sira: Do not seek what is too wonderful for you, and do not search into what is hidden from you. Consider what you have been allowed; you have no business with hidden things\" (Hagigah 13a, as the Sefaria text gives it). The rabbis used it to set limits on speculation about divine mysteries. Manuscript A has almost the same Hebrew. Psalm 131:1 says, \"I have not gone walking among great things / or among wonders beyond me,\" and Deuteronomy 29:29, \"What is hidden is for the LORD our God.\" Many readers hear in Ben Sira's lines a caution about the Greek learning of his day. Others take them more simply as a warning against pride in any age.",
+  "b": "The Babylonian Talmud quotes 3:21–22 in Hebrew, naming its source: \"as it is written in the book of Ben Sira: Seek not things concealed from you, nor search those hidden from you. Reflect on that which is permitted to you; you have no business with secret matters\" (Hagigah 13a, in the William Davidson translation on Sefaria). The rabbis used it to set limits on speculation about divine mysteries. Manuscript A has almost the same Hebrew. Psalm 131:1 says, \"I have not gone walking among great things / or among wonders beyond me,\" and Deuteronomy 29:29, \"What is hidden is for the LORD our God.\" Many readers hear in Ben Sira's lines a caution about the Greek learning of his day. Others take them more simply as a warning against pride in any age. (Manuscript A, folio I recto, lines 11–12.)",
   "orig": "Hebrew פלאות ממך אל תדרוש ומכוסה ממך אל תחקור",
   "kind": "nu",
   "r": "Psalm 131:1; Deuteronomy 29:29; Romans 12:3; Ecclesiastes 7:23–24; Babylonian Talmud Hagigah 13a",
@@ -637,7 +641,7 @@
   "type": "word",
   "t": "The \"heavy\" heart",
   "p": "The Greek's \"hard heart\" renders the Hebrew \"heavy heart,\" the word used of Pharaoh.",
-  "b": "<i>Kardia sklēra</i> is \"a hard heart.\" The Hebrew behind it, in manuscript A, is <i>lev kaved</i>, \"a heavy heart,\" the same word used of Pharaoh: \"Pharaoh's heart is heavy. He refuses to let the people go\" (Exodus 7:14). The site keeps the Hebrew words apart (stubborn, heavy, hard), but the Greek here has only \"hard.\" A heart so weighed down cannot respond, and it \"will come to harm at the end.\"",
+  "b": "<i>Kardia sklēra</i> is \"a hard heart.\" The Hebrew behind it, in manuscript A, is <i>lev kaved</i>, \"a heavy heart,\" the same word used of Pharaoh: \"Pharaoh's heart is heavy. He refuses to let the people go\" (Exodus 7:14). The site keeps the Hebrew words apart (stubborn, heavy, hard), but the Greek here has only \"hard.\" A heart so weighed down cannot respond, and it \"will come to harm at the end.\" (Manuscript A, folio I recto, lines 14–15.)",
   "orig": "καρδία σκληρά (kardia sklēra); Hebrew לב כבד (lev kaved)",
   "kind": "nu",
   "r": "Exodus 7:14; Exodus 9:7; Proverbs 28:14; Mark 3:5; Romans 2:5",
@@ -652,7 +656,7 @@
   "type": "word",
   "t": "The word for \"proverb\" and \"parable\"",
   "p": "Parabolē, \"proverb,\" is the same Greek word as the Gospels' \"parable.\"",
-  "b": "<i>Parabolē</i> renders the Hebrew <i>mashal</i>, which covers proverbs, riddles and stories with a point. The Gospels use <i>parabolē</i> for Jesus' parables. A thoughtful heart turns such sayings over, as Proverbs 1:6 says the wise do with \"a proverb and a figure.\" The Hebrew of manuscript A reads \"the heart of the wise will understand the proverbs of the wise.\"",
+  "b": "<i>Parabolē</i> renders the Hebrew <i>mashal</i>, which covers proverbs, riddles and stories with a point. The Gospels use <i>parabolē</i> for Jesus' parables. A thoughtful heart turns such sayings over, as Proverbs 1:6 says the wise do with \"a proverb and a figure.\" The Hebrew of manuscript A reads \"the heart of the wise will understand the proverbs of the wise.\" (Manuscript A, folio I recto, lines 18–19.)",
   "orig": "παραβολή (parabolē); Hebrew משלי חכמים (mishlei chakhamim)",
   "kind": "nu",
   "r": "Proverbs 1:6; Matthew 13:34–35; 6:35; 39:1–3",
@@ -667,7 +671,7 @@
   "type": "views",
   "t": "\"Alms atone for sins\"",
   "p": "One of the book's best-known sayings. The Greek has \"alms\"; the Hebrew has tsedaqah, \"righteousness\" or charity.",
-  "b": "As surely as water puts out fire, alms put out sin. The Greek is <i>eleēmosynē exilasetai hamartias</i>, \"alms will atone for sins.\" Manuscript A reads \"Water puts out a blazing fire; so <i>tsedaqah</i> atones for sin.\" The Hebrew verb is <i>kipper</i>, the temple word for atonement, and <i>tsedaqah</i> is \"righteousness,\" which in this period also meant charity to the poor. Other books say the same: \"Alms rescue from death, and they cleanse away every sin\" (Tobit 12:9); Daniel tells a king to break with his sins \"by showing mercy to the poor\" (Daniel 4:27); \"Guilt is atoned for by loyal love and faithfulness\" (Proverbs 16:6); \"love lays a cover over a great number of sins\" (1 Peter 4:8). The Didache, an early Christian manual, says, \"Of whatsoever thou hast gained by thy hands thou shalt give a ransom for thy sins\" (Didache 4:6, Lake's translation). Whether such giving takes away sin is a question churches answer differently; the \"Where Christians differ\" card at Tobit 4 sets out their answers.",
+  "b": "As surely as water puts out fire, alms put out sin. The Greek is <i>eleēmosynē exilasetai hamartias</i>, \"alms will atone for sins.\" Manuscript A reads \"Water puts out a blazing fire; so <i>tsedaqah</i> atones for sin.\" The Hebrew verb is <i>kipper</i>, the temple word for atonement, and <i>tsedaqah</i> is \"righteousness,\" which in this period also meant charity to the poor. Other books say the same: \"Alms rescue from death, and they cleanse away every sin\" (Tobit 12:9); Daniel tells a king to break with his sins \"by showing mercy to the poor\" (Daniel 4:27); \"Guilt is atoned for by loyal love and faithfulness\" (Proverbs 16:6); \"love lays a cover over a great number of sins\" (1 Peter 4:8). The Didache, an early Christian manual, says, \"Of whatsoever thou hast gained by thy hands thou shalt give a ransom for thy sins\" (Didache 4:6, Lake's translation). Whether such giving takes away sin is a question churches answer differently; the \"Where Christians differ\" card at Tobit 4 sets out their answers. (Manuscript A, folio I recto, line 20.)",
   "orig": "ἐλεημοσύνη ἐξιλάσεται ἁμαρτίας; Hebrew כן צדקה תכפר חטאת",
   "kind": "nu",
   "r": "Tobit 4:10; Tobit 12:9; Daniel 4:27; Proverbs 16:6; Proverbs 10:2; 1 Peter 4:8; Luke 11:41; Didache 4:6",
@@ -706,7 +710,7 @@
   "type": "history",
   "t": "Life in a city assembly",
   "p": "Ben Sira's pupils would take part in Jerusalem's public life: its assembly, its great men and its law courts.",
-  "b": "The <i>synagōgē</i> here is the assembly of the city's citizens; the <i>megistan</i> is a man of high rank, an official or noble. Jerusalem in the early 100s BC was a temple city under the Seleucid kings of Syria, run by the high priest, a council of elders and leading families. Ben Sira's pupils came from families who could expect to sit in the assembly and even as judges (4:9). He teaches them to be liked, to show proper respect, and still to stand up for the wronged.",
+  "b": "The <i>synagōgē</i> here is the assembly of the city's citizens; the <i>megistan</i> is a man of high rank, an official or noble. The advice assumes that the pupil will take part in such public life, and 4:9 assumes that he may one day judge cases; it is a fair guess from these verses that at least some of Ben Sira's pupils came from families of standing. He teaches them to be liked, to show proper respect, and still to stand up for the wronged.",
   "r": "4:9; 7:6; 38:32–33; Proverbs 25:6–7",
   "top": "ben-sira"
  },
@@ -755,7 +759,7 @@
   "type": "word",
   "t": "Serving Wisdom as priests serve",
   "p": "The Greek verbs are temple words: those who serve Wisdom are like priests serving the Holy One.",
-  "b": "<i>Latreuontes</i> (\"serving, worshiping\") and <i>leitourgēsousin</i> (\"will do sacred service\") are the Greek Bible's words for the work of priests and Levites. <i>Hagiō</i> can mean \"the Holy One\" or \"the holy place,\" and the Hebrew of manuscript A, \"those who serve her are ministers of the holy,\" is just as open. Ben Sira loved the temple and its priests (7:29–31; 45; 50). Here he makes the service of Wisdom a kind of priesthood.",
+  "b": "<i>Latreuontes</i> (\"serving, worshiping\") and <i>leitourgēsousin</i> (\"will do sacred service\") are the Greek Bible's words for the work of priests and Levites. <i>Hagiō</i> can mean \"the Holy One\" or \"the holy place,\" and the Hebrew of manuscript A, \"those who serve her are ministers of the holy,\" is just as open. Ben Sira loved the temple and its priests (7:29–31; 45; 50). Here he makes the service of Wisdom a kind of priesthood. (Manuscript A, folio I verso, line 4.)",
   "orig": "οἱ λατρεύοντες αὐτῇ λειτουργήσουσιν ἁγίῳ; Hebrew משרתי קדש משרתיה",
   "kind": "deb",
   "r": "7:29–31; 45:6–22; 50:1–21; Exodus 28:43; Malachi 2:7",
@@ -770,7 +774,7 @@
   "type": "word",
   "t": "Wisdom's hard school",
   "p": "Here paideia is \"discipline\" in its hard sense: Wisdom tests her pupil with fear and torment before she trusts him.",
-  "b": "The path to Wisdom begins on \"crooked ways\" with \"fear and terror.\" <i>Basanizō</i> means to test by torture, as metal is tested on a touchstone. The Plain uses \"discipline\" for <i>paideia</i> here because the sense is correction and hardship (contrast \"instruction,\" 1:27; 6:18). Proverbs says, \"The LORD's discipline, my son, do not reject\" (Proverbs 3:11), and Hebrews builds on it: \"For whoever the Lord loves, he disciplines\" (Hebrews 12:6). Swete's Codex Vaticanus spells the word <i>paidia</i>, a common spelling of <i>paideia</i> in that manuscript.",
+  "b": "The path to Wisdom begins on \"crooked ways\" with \"fear and terror.\" <i>Basanizō</i> means to test by torture, as metal is tested on a touchstone. The Plain uses \"discipline\" for <i>paideia</i> here because the sense is correction and hardship (as in 1:27; contrast \"instruction\" where the sense is teaching, 4:24; 6:18). Proverbs says, \"The LORD's discipline, my son, do not reject\" (Proverbs 3:11), and Hebrews builds on it: \"For whoever the Lord loves, he disciplines\" (Hebrews 12:6). Swete's Codex Vaticanus spells the word <i>paidia</i>, a common spelling of <i>paideia</i> in that manuscript.",
   "orig": "βασανίσει αὐτὸν ἐν παιδίᾳ αὐτῆς (basanisei auton en paidia autēs)",
   "kind": "nu",
   "r": "Proverbs 3:11–12; Hebrews 12:5–11; 2:1–5; 6:20–21; Deuteronomy 8:2–5",
@@ -785,7 +789,7 @@
   "type": "word",
   "t": "Shame that helps and shame that harms",
   "p": "4:20–26 is a little essay on shame: be ashamed of wrong, but never too ashamed to do right.",
-  "b": "Greek moral writers praised a healthy sense of shame (<i>aidōs</i>) and warned against false shame that stops a person from doing what is right. Ben Sira teaches both. Do not feel shame for your own soul's good (4:20); some shame \"leads a person into sin,\" some is \"honor and grace\" (4:21). Do not let respect for great men make you fall (4:22, 27); do not be ashamed to own your sins (4:26). Paul draws a similar line between two kinds of grief (2 Corinthians 7:10). Ben Sira returns to the theme in 41:14–42:8.",
+  "b": "Ben Sira teaches that there is a right and a wrong shame. Do not feel shame for your own soul's good (4:20); some shame \"leads a person into sin,\" some is \"honor and grace\" (4:21). Do not let respect for great men make you fall (4:22, 27); do not be ashamed to own your sins (4:26). Paul draws a similar line between two kinds of grief (2 Corinthians 7:10). Ben Sira returns to the theme in 41:14–42:8.",
   "r": "4:21–27; 41:14–42:8; 2 Corinthians 7:10; Romans 1:16"
  },
  {
@@ -794,7 +798,7 @@
   "type": "word",
   "t": "\"Taking a face\"",
   "p": "The Greek idiom \"take a face\" means to show favoritism, from a Hebrew phrase \"lift a face.\"",
-  "b": "<i>Lambanein prosōpon</i>, \"to receive a face,\" renders the Hebrew <i>nasa' panim</i>, \"to lift a face,\" which means to favor someone because of who he is. The law forbids it in court (Leviticus 19:15), and the New Testament makes a noun of it: God shows no <i>prosōpolēmpsia</i>, no favoritism (Acts 10:34; Romans 2:11), and James says, \"do not mix favoritism with the faith of Jesus Christ\" (James 2:1). Ben Sira's twist is that favoring others can harm \"your own soul.\" The Hebrew has the same idiom: \"Do not lift your face against yourself.\"",
+  "b": "<i>Lambanein prosōpon</i>, \"to receive a face,\" renders the Hebrew <i>nasa' panim</i>, \"to lift a face,\" which means to favor someone because of who he is. The law forbids it in court (Leviticus 19:15), and the New Testament makes a noun of it: God shows no <i>prosōpolēmpsia</i>, no favoritism (Acts 10:34; Romans 2:11), and James says, \"do not mix favoritism with the faith of Jesus Christ\" (James 2:1). Ben Sira's twist is that favoring others can harm \"your own soul.\" The Hebrew has the same idiom: \"Do not lift your face against yourself.\" (Manuscript A, folio I verso, line 10.)",
   "orig": "μὴ λάβῃς πρόσωπον (mē labēs prosōpon); Hebrew אל תשא פניך",
   "kind": "nu",
   "r": "Leviticus 19:15; Deuteronomy 10:17; Acts 10:34; Romans 2:11; James 2:1; James 2:9; 4:27",
@@ -818,7 +822,7 @@
   "type": "echo",
   "t": "God fights for the one who fights for truth",
   "p": "If you struggle for what is right even to death, God himself will fight for you, as he did for Israel at the sea.",
-  "b": "<i>Agōnizomai</i> is an athlete's or fighter's word: \"contend, struggle.\" The promise takes up Moses' words at the Red Sea: \"The LORD will fight for you\" (Exodus 14:14; Deuteronomy 1:30). Ben Sira applies Israel's war language to one person's stand for truth, even \"right up to death.\" The Maccabean martyrs, a generation after him, would take such words literally (2 Maccabees 7).",
+  "b": "<i>Agōnizomai</i> is an athlete's or fighter's word: \"contend, struggle.\" The promise takes up Moses' words at the Red Sea: \"The LORD will fight for you\" (Exodus 14:14; Deuteronomy 1:30). Ben Sira applies Israel's war language to one person's stand for truth, even \"right up to death.\" 2 Maccabees 7 tells of a mother and seven sons who held to the law right up to death; it does not quote Ben Sira, but it shows the kind of stand he describes.",
   "orig": "ἕως τοῦ θανάτου ἀγώνισαι (heōs tou thanatou agōnisai)",
   "kind": "nu",
   "r": "Exodus 14:14; Deuteronomy 1:30; Nehemiah 4:20; 1 Timothy 6:12; 2 Maccabees 7:1–42"
@@ -840,8 +844,8 @@
   "a": "Do not keep your hand stretched out for taking",
   "type": "echo",
   "t": "Open to take, shut to give",
-  "p": "The Didache, an early Christian manual, repeats this saying almost word for word.",
-  "b": "The picture is vivid: a hand open to receive and closed when it is time to give back. The Didache, a Christian manual of about the late first century, has the same image: \"Be not one who stretches out his hands to receive, but shuts them when it comes to giving\" (Didache 4:5, Lake's translation). Paul quotes a saying of Jesus, \"Giving is more blessed than receiving\" (Acts 20:35). Where the Greek has \"paying back,\" the Hebrew of manuscript A has \"giving\": \"closed when it comes to giving a gift.\"",
+  "p": "The Didache, an early Christian manual, closely echoes this saying.",
+  "b": "The picture is vivid: a hand open to receive and closed when it is time to give back. The Didache, an early Christian manual, has the same image in its own words: \"Be not one who stretches out his hands to receive, but shuts them when it comes to giving\" (Didache 4:5, Lake's translation). Paul quotes a saying of Jesus, \"Giving is more blessed than receiving\" (Acts 20:35). Where the Greek has \"paying back,\" the Hebrew of manuscript A has \"giving\": \"closed when it comes to giving a gift.\"",
   "r": "Didache 4:5; Acts 20:35; Deuteronomy 15:7–8; Proverbs 11:24",
   "top": "almsgiving",
   "s": [
@@ -883,7 +887,7 @@
   "type": "word",
   "t": "Taking forgiveness for granted",
   "p": "The Greek has \"atonement\"; the Hebrew has selichah, \"forgiveness\": do not count on it while you keep sinning.",
-  "b": "<i>Exilasmos</i> is \"atonement,\" the covering of sin. Manuscript A reads \"Do not trust in forgiveness (<i>selichah</i>), so as to add sin upon sin.\" Ben Sira's warning is the one Paul answers in Romans 6:1: \"Should we stay in sin so that grace may multiply?\" Both say no. Ben Sira's reason is that mercy and anger are both with God (5:6); Paul's is that those baptized into Christ have died to sin (Romans 6:2–4).",
+  "b": "<i>Exilasmos</i> is \"atonement,\" the covering of sin. Manuscript A reads \"Do not trust in forgiveness (<i>selichah</i>), so as to add sin upon sin.\" Ben Sira's warning is the one Paul answers in Romans 6:1: \"Should we stay in sin so that grace may multiply?\" Both say no. Ben Sira's reason is that mercy and anger are both with God (5:6); Paul's is that those baptized into Christ have died to sin (Romans 6:2–4). (Manuscript A, folio I verso, line 24.)",
   "orig": "περὶ ἐξιλασμοῦ μὴ ἄφοβος γίνου; Hebrew אל סליחה אל תבטח",
   "kind": "nu",
   "r": "Romans 6:1–4; Hebrews 10:26; Psalm 130:4; Jude 1:4",
@@ -898,7 +902,7 @@
   "type": "views",
   "t": "Mercy and anger together",
   "p": "God is not only merciful; his anger at sin is real. Both belong to him.",
-  "b": "The proverb sets two truths side by side, as Exodus 34:6–7 does: God is compassionate and forgives, yet \"by no means clears the guilty.\" Paul says, \"consider God's kindness and God's severity\" (Romans 11:22). Ben Sira returns to the pair in 16:11–12. Readers who want only one side, a God of anger or a God who overlooks everything, find no support here. The Plain keeps \"anger\" for <i>orgē</i> and \"fury\" for <i>thymos</i>, as in Romans.",
+  "b": "The proverb sets two truths side by side, as Exodus 34:6–7 does: God is compassionate and forgives, yet \"by no means clears the guilty.\" Paul says, \"consider God's kindness and God's severity\" (Romans 11:22). Ben Sira returns to the pair in 16:11–12. Readers who want only one side, a God of anger or a God who overlooks everything, find no support here. In this verse the Plain gives <i>orgē</i> as \"anger\" and <i>thymos</i> as \"fury\" to keep the two Greek words apart.",
   "r": "Exodus 34:6–7; Romans 11:22; Nahum 1:2–3; 16:11–12",
   "top": "wrath"
  },
@@ -908,14 +912,13 @@
   "type": "views",
   "t": "\"Delay not your conversion\"",
   "p": "Turn to the Lord now, not tomorrow; the Latin of this line became a classic text on conversion.",
-  "b": "<i>Epistrepsai</i>, \"to turn,\" renders the Hebrew <i>shuv</i>, the Bible's word for repentance (manuscript A: \"Do not delay to turn to him\"). The Latin reads <i>Non tardes converti ad Dominum</i>, \"Delay not to be converted to the Lord\" (Vulgate 5:8, Douay), and the Catholic lectionary heads its reading of 5:1–8 \"Delay not your conversion to the Lord.\" Hebrews urges believers to encourage each other \"for as long as the word 'Today' is still being spoken\" (Hebrews 3:13), and Paul says, \"now is the day of salvation\" (2 Corinthians 6:2).",
+  "b": "<i>Epistrepsai</i>, \"to turn,\" renders the Hebrew <i>shuv</i>, the Bible's word for repentance (manuscript A: \"Do not delay to turn to him\"). The Latin reads <i>Non tardes converti ad Dominum</i>, \"Delay not to be converted to the Lord\" (Vulgate 5:8, Douay). Hebrews urges believers to encourage each other \"for as long as the word 'Today' is still being spoken\" (Hebrews 3:13), and Paul says, \"now is the day of salvation\" (2 Corinthians 6:2).",
   "r": "Hebrews 3:13; 2 Corinthians 6:2; Isaiah 55:6–7; Luke 12:20; Ezekiel 18:30–32",
   "top": "repentance",
   "s": [
    "abegg-bensira-msa",
    "vulgate-clementine",
-   "douay-rheims",
-   "just-lectionary-deuterocanonicals"
+   "douay-rheims"
   ]
  },
  {
@@ -924,7 +927,7 @@
   "type": "word",
   "t": "Dishonest wealth",
   "p": "The Hebrew calls it \"false riches\"; Jesus speaks of \"the wealth of dishonesty.\"",
-  "b": "The Greek <i>chrēmasin adikois</i> is \"unjust money\"; manuscript A has <i>nikhsei sheqer</i>, \"riches of falsehood,\" wealth that lies about its value as well as wealth got by lying. It \"will not help\" on the day of disaster: \"Treasures won by wickedness are no help\" (Proverbs 10:2; compare Proverbs 11:4). Jesus' phrase \"the wealth of dishonesty\" (Luke 16:9) is close to Ben Sira's.",
+  "b": "The Greek <i>chrēmasin adikois</i> is \"unjust money\"; manuscript A has <i>nikhsei sheqer</i>, \"riches of falsehood,\" wealth that lies about its value as well as wealth got by lying. It \"will not help\" on the day of disaster: \"Treasures won by wickedness are no help\" (Proverbs 10:2; compare Proverbs 11:4). Jesus' phrase \"the wealth of dishonesty\" (Luke 16:9) is close to Ben Sira's. (Manuscript A, folio I verso, line 28.)",
   "orig": "ἐπὶ χρήμασιν ἀδίκοις; Hebrew נכסי שקר",
   "kind": "nu",
   "r": "Proverbs 10:2; Proverbs 11:4; Luke 16:9–11; Ezekiel 7:19; Zephaniah 1:18",
@@ -961,7 +964,7 @@
   "type": "echo",
   "t": "Quick to listen",
   "p": "James 1:19 gives the same advice in nearly the same order: quick to hear, slow to speak.",
-  "b": "\"Let every person be ready to listen, slow to talk, slow to anger\" (James 1:19). Ben Sira's line uses the same adjective for \"quick\" (<i>tachys</i>) and the same pairing of quick hearing and patient answer. James never names a source, and the advice is common in wisdom writing (Proverbs 18:13; Mishnah Avot 1:15), so the link may be shared tradition rather than quotation. Manuscript A reads \"Be quick to listen, and with patience return an answer.\"",
+  "b": "\"Let every person be ready to listen, slow to talk, slow to anger\" (James 1:19). Ben Sira's line uses the same adjective for \"quick\" (<i>tachys</i>) and the same pairing of quick hearing and patient answer. James never names a source, and the advice is common in wisdom writing (Proverbs 18:13), so the link may be shared tradition rather than quotation. Manuscript A reads \"Be quick to listen, and with patience return an answer.\"",
   "r": "James 1:19; Proverbs 18:13; Proverbs 29:20; Ecclesiastes 5:2",
   "top": "speech",
   "s": [
@@ -996,7 +999,7 @@
   "type": "word",
   "t": "The whisperer",
   "p": "Psithyros is a whisperer, one who spreads rumors; Paul lists such people in Romans 1.",
-  "b": "<i>Psithyros</i> imitates the sound of whispering. Paul lists \"whisperers\" among the sins of a world that has turned from God (\"They whisper behind backs,\" Romans 1:29). Manuscript A has a different phrase: \"Do not be called a two-faced man,\" literally \"a master of two\" (<i>ba'al shtayim</i>), the same expression it uses in 6:1 for the Greek \"double-tongued.\"",
+  "b": "<i>Psithyros</i> imitates the sound of whispering. Paul lists \"whisperers\" among the sins of a world that has turned from God (\"They whisper behind backs,\" Romans 1:29). Manuscript A has a different phrase: \"Do not be called a two-faced man,\" literally \"a master of two\" (<i>ba'al shtayim</i>), the same expression it uses in 6:1 for the Greek \"double-tongued.\" (Manuscript A, folio II recto, line 3.)",
   "orig": "ψίθυρος (psithyros); Hebrew בעל שתים (ba'al shtayim)",
   "kind": "nu",
   "r": "Romans 1:29; 2 Corinthians 12:20; Proverbs 16:28; Proverbs 26:20; Leviticus 19:16",
@@ -1037,7 +1040,7 @@
   "type": "symbol",
   "t": "A tree stripped bare",
   "p": "Unchecked desire strips a person like a tree eaten bare: no leaves, no fruit, dry wood.",
-  "b": "The Bible often compares a person to a tree. The righteous is \"like a tree set out by channels of water\" (Psalm 1:3; Jeremiah 17:8). The one ruled by his appetite eats up his own leaves and fruit until he is \"dry wood\" (<i>xylon xēron</i>), the same words Jesus used on the way to the cross: \"what will happen to the dry?\" (Luke 23:31).",
+  "b": "The Bible often compares a person to a tree. The righteous is \"like a tree set out by channels of water\" (Psalm 1:3; Jeremiah 17:8). The one ruled by his appetite eats up his own leaves and fruit until he is \"dry wood\" (<i>xylon xēron</i>). Jesus used the picture of green and dry wood on the way to the cross: \"what will happen to the dry?\" (Luke 23:31, where the Greek has <i>xylon</i> for the green wood and <i>xēros</i> for the dry).",
   "r": "Psalm 1:3; Jeremiah 17:5–8; Luke 23:31; Ezekiel 17:24; 1:20"
  },
  {
@@ -1058,8 +1061,8 @@
   "a": "for advice, one out of a thousand",
   "type": "history",
   "t": "Quoted in the Talmud",
-  "p": "The Talmud quotes this in the name of Ben Sira: many may greet you; tell your secret to one in a thousand.",
-  "b": "The Babylonian Talmud quotes it among sayings of Ben Sira: \"Let many be those who seek your peace; reveal your secret to one in a thousand\" (Sanhedrin 100b; compare Yevamot 63b, as the Sefaria text gives them). In Sanhedrin 100b the rabbis debate whether Ben Sira may be read at all, and Rav Yosef concludes that its good sayings may be taught. Manuscript A reads \"Let the men at peace with you be many, but your confidant one in a thousand.\" Ecclesiastes has a similar number: \"One man out of a thousand I have found\" (Ecclesiastes 7:28).",
+  "p": "The Talmud quotes this among the sayings of Ben Sira: many may greet you; tell your secrets to one in a thousand.",
+  "b": "The Babylonian Talmud quotes it among sayings of Ben Sira: \"Let many be those who greet you; reveal your secrets to one in a thousand\" (Sanhedrin 100b), and Yevamot 63b has \"Reveal a secret to only one in a thousand\" (both in the William Davidson translation on Sefaria). In Sanhedrin 100b the rabbis debate whether Ben Sira may be read at all, and Rav Yosef concludes that its good sayings may be taught. Manuscript A reads \"Let the men at peace with you be many, but your confidant one in a thousand.\" Ecclesiastes has a similar number: \"One man out of a thousand I have found\" (Ecclesiastes 7:28).",
   "r": "Babylonian Talmud Sanhedrin 100b; Babylonian Talmud Yevamot 63b; Ecclesiastes 7:28; Proverbs 11:13; Proverbs 20:19",
   "top": "ben-sira",
   "s": [
@@ -1093,12 +1096,13 @@
   "a": "A faithful friend is a solid roof over you",
   "type": "echo",
   "t": "The faithful friend",
-  "p": "Three lines praise \"a faithful friend\" (6:14–16); a Qumran copy preserves 6:14–15 in Hebrew.",
-  "b": "<i>Skepē</i> is shelter or covering: a roof against storms. Proverbs praises the friend who stays: \"At every time a friend keeps loving\" (Proverbs 17:17). The Bible's great example is David and Jonathan (1 Samuel 18:1–3; 20:17), and Jesus calls his disciples \"friends\" (John 15:15). A small Hebrew fragment from Qumran Cave 2 (2Q18), copied before AD 68, preserves parts of 6:14–15 and 6:20–31, so these lines were read in Hebrew in Judea within a century or two of Ben Sira. The fragment, like manuscript A, reads \"a faithful friend is a mighty friend\" in 6:14.",
+  "p": "Three lines praise \"a faithful friend\" (6:14–16); a Qumran fragment keeps a few letters of 6:14–15.",
+  "b": "<i>Skepē</i> is shelter or covering: a roof against storms. Proverbs praises the friend who stays: \"At every time a friend keeps loving\" (Proverbs 17:17). The Bible's great example is David and Jonathan (1 Samuel 18:1–3; 20:17), and Jesus calls his disciples \"friends\" (John 15:15). A small Hebrew fragment from Qumran Cave 2 (2Q18) keeps letters from 6:14–15 and 6:20–31; the Qumran and Masada copies of Ben Sira date from about 50 BC to about AD 70 (Rendsburg and Binstein). For 6:14 the fragment keeps only one letter, the first of the word for \"mighty\"; the rest of the line is restored by its editors from manuscript A, which reads \"a faithful friend is a mighty friend\" (folio II recto, line 16).",
   "r": "Proverbs 17:17; Proverbs 18:24; 1 Samuel 18:1–3; John 15:13–15; Proverbs 27:10",
   "s": [
    "djd3",
-   "abegg-bensira-msa"
+   "abegg-bensira-msa",
+   "rendsburg-binstein-bensira"
   ],
   "top": "friendship"
  },
@@ -1108,7 +1112,7 @@
   "type": "views",
   "t": "Friendship and the fear of the Lord",
   "p": "Ben Sira grounds friendship in the fear of the Lord: the God-fearing find faithful friends.",
-  "b": "Greek writers on friendship, such as Aristotle, taught that true friendship is between good people who are alike. Ben Sira adds the fear of the Lord: those who fear him find faithful friends, and their friends become like them (6:17). The Latin adds \"and immortality\" after \"a medicine of life\" (Vulgate 6:16, Douay: \"the medicine of life and immortality\"); the Greek has no such words.",
+  "b": "Ben Sira grounds friendship in the fear of the Lord: those who fear him find faithful friends, and their friends become like them (6:17). The Latin adds \"and immortality\" after \"a medicine of life\" (Vulgate 6:16, Douay: \"the medicine of life and immortality\"); the Greek has no such words.",
   "r": "6:17; 1:11–20; Proverbs 13:20; John 15:14",
   "s": [
    "vulgate-clementine",
@@ -1146,7 +1150,7 @@
   "type": "word",
   "t": "\"Senseless\": lacking heart",
   "p": "The Greek \"heartless\" and the Hebrew \"lacking heart\" mean a person without sense, Proverbs' \"senseless.\"",
-  "b": "<i>Akardios</i>, \"without a heart,\" renders the Hebrew <i>chasar lev</i>, \"lacking heart,\" which manuscript A and the Qumran fragment 2Q18 both have. In Hebrew the heart is the seat of thought, so the phrase means \"without sense.\" Proverbs' Plain renders it \"senseless\" (Proverbs 7:7; 9:4). The first line in the Hebrew calls Wisdom \"rugged\" or \"steep\" for the stubborn fool (<i>'evil</i>), the same Proverbs word as in Proverbs 1:7.",
+  "b": "<i>Akardios</i>, \"without a heart,\" stands for the Hebrew <i>chasar lev</i>, \"lacking heart,\" which manuscript A has (folio II recto, line 21); the Qumran fragment 2Q18 keeps only the last letters of this line, the word <i>lev</i>, and its editors restore the rest from manuscript A. In Hebrew the heart is the seat of thought, so the phrase means \"without sense.\" Proverbs' Plain renders it \"senseless\" (Proverbs 7:7; 9:4). The first line in manuscript A calls Wisdom \"rugged\" or \"steep\" for the stubborn fool (<i>'evil</i>), the same Proverbs word as in Proverbs 1:7.",
   "orig": "ἀκάρδιος (akardios); Hebrew חסר לב (chasar lev)",
   "kind": "nu",
   "r": "Proverbs 7:7; Proverbs 9:4; Proverbs 1:7; Proverbs 10:13",
@@ -1158,10 +1162,10 @@
  {
   "v": "6:21",
   "a": "a heavy stone for testing strength",
-  "type": "history",
-  "t": "The lifting stone",
-  "p": "Young men tested their strength by lifting heavy stones; the fool tries Wisdom once and drops her.",
-  "b": "A <i>lithos dokimasias</i>, \"stone of testing,\" was a heavy stone used to prove strength. Wisdom feels like such a stone to the senseless man: he heaves her off as soon as he can. Zechariah uses a similar picture of Jerusalem: \"a stone too heavy for any of the peoples. All who lift it will tear themselves badly\" (Zechariah 12:3). The Hebrew of manuscript A and 2Q18 has \"a stone of burden.\"",
+  "type": "symbol",
+  "t": "A stone that tests",
+  "p": "Wisdom is like a heavy \"stone of testing\": the senseless man tries her once and drops her.",
+  "b": "The Greek is <i>lithos dokimasias ischyros</i>, \"a strong stone of testing\": a heavy stone that tries the one who lifts it. Wisdom feels like such a stone to the senseless man: he heaves her off as soon as he can. Zechariah uses a similar picture of Jerusalem: \"a stone too heavy for any of the peoples. All who lift it will tear themselves badly\" (Zechariah 12:3). Manuscript A has \"a stone of burden\" (folio II recto, line 21); 2Q18 keeps nothing of this line.",
   "orig": "λίθος δοκιμασίας ἰσχυρός (lithos dokimasias ischyros)",
   "kind": "nu",
   "r": "Zechariah 12:3; 4:17; Matthew 23:4",
@@ -1189,7 +1193,7 @@
   "type": "echo",
   "t": "With all your soul and strength",
   "p": "The words echo the Shema: love God with all your heart, being and strength.",
-  "b": "\"Love the LORD your God with all your heart, with all your being and with all your strength\" (Deuteronomy 6:5). Ben Sira gives the seeker of Wisdom the same whole-hearted command. Manuscript A lacks the verse, but the Qumran fragment 2Q18 has its second line in Hebrew, \"and with all your might keep her ways,\" using <i>me'od</i>, the same word as \"strength\" in Deuteronomy 6:5.",
+  "b": "\"Love the LORD your God with all your heart, with all your being and with all your strength\" (Deuteronomy 6:5). Ben Sira gives the seeker of Wisdom the same whole-hearted command. Manuscript A lacks the verse. The Qumran fragment 2Q18 keeps only the end of the second line, \"her ways\" (<i>darkeha</i>); its editors restore the rest, \"and with all your might keep her ways,\" with <i>me'od</i>, the word for \"strength\" in Deuteronomy 6:5, but that word is restored, not read.",
   "r": "Deuteronomy 6:5; Deuteronomy 4:29; Jeremiah 29:13; Mark 12:30",
   "top": "shema",
   "s": [
@@ -1212,7 +1216,7 @@
   "type": "history",
   "t": "The blue thread",
   "p": "The Hebrew is petil tekhelet, \"a cord of blue,\" the exact words of the law of tassels in Numbers 15:38.",
-  "b": "<i>Hyakinthinos</i> is the Greek Bible's word for the costly blue-violet dye made from sea snails, used in the tabernacle curtains and the high priest's robe (Exodus 28:31). Manuscript A and the Qumran fragment 2Q18 both read <i>petil tekhelet</i>, \"a cord of blue,\" the very words of Numbers 15:38: \"They are to put a cord of blue-violet on the tassel of each corner.\" So Wisdom's ropes are like the tassels every Israelite wore to remember the commandments (Numbers 15:39): her bonds are the law itself, and they are royal.",
+  "b": "<i>Hyakinthinos</i> is the Greek Bible's word for the costly blue-violet dye used in the tabernacle curtains and the high priest's robe (Exodus 28:31). Manuscript A reads <i>petil tekhelet</i>, \"a cord of blue\" (folio II recto, lines 28–29), the very words of Numbers 15:38: \"They are to put a cord of blue-violet on the tassel of each corner.\" The Qumran fragment 2Q18 keeps only the last letters of the line; its editors restore the rest from manuscript A. So in manuscript A Wisdom's ropes are like the tassels every Israelite wore to remember the commandments (Numbers 15:39): her bonds are the law itself, and they are royal.",
   "orig": "κλῶσμα ὑακίνθινον (klōsma hyakinthinon); Hebrew פתיל תכלת (petil tekhelet)",
   "kind": "nu",
   "r": "Numbers 15:38–39; Exodus 28:31; Exodus 39:22; Esther 8:15",
@@ -1228,7 +1232,7 @@
   "type": "word",
   "t": "Shrewd in the good sense",
   "p": "Panourgos usually means \"crafty,\" but here, as in Proverbs, it is the good shrewdness of the wise.",
-  "b": "<i>Panourgos</i> (compare 1:6) translates the Hebrew <i>'arum</i>; manuscript A has the verb <i>te'erom</i>, \"you will become shrewd.\" Proverbs' Plain uses \"shrewd\" for this word in its good sense (Proverbs 8:5, 12), the skill of seeing danger and acting wisely. The snake of Genesis 3:1 is <i>'arum</i> too, \"shrewder than every wild animal,\" but in a bad sense.",
+  "b": "<i>Panourgos</i> (compare 1:6) translates the Hebrew <i>'arum</i>; manuscript A has the verb <i>te'erom</i>, \"you will become shrewd.\" Proverbs' Plain uses \"shrewd\" for this word in its good sense (Proverbs 8:5, 12), the skill of seeing danger and acting wisely. The snake of Genesis 3:1 is <i>'arum</i> too, \"shrewder than every wild animal,\" but in a bad sense. (Manuscript A, folio II verso, line 2.)",
   "orig": "πανοῦργος ἔσῃ (panourgos esē); Hebrew תערם (te'erom)",
   "kind": "nu",
   "r": "1:6; Proverbs 8:5; Proverbs 8:12; Proverbs 22:3; Genesis 3:1",
@@ -1242,7 +1246,7 @@
   "type": "history",
   "t": "Sitting among the elders",
   "p": "The young learner is to stand among the elders, cling to the wise and wear out their doorsteps.",
-  "b": "Ben Sira's picture of learning is personal: find a wise man and attach yourself to him (6:34), go to his door at dawn so often that you wear down the step (6:36). The early rabbis gave the same advice: \"let thy house be a house of meeting for the Sages and sit in the very dust of their feet, and drink in their words with thirst\" (Mishnah Avot 1:4, Kulp's translation on Sefaria), a saying credited to Yose ben Yoezer, who lived not long after Ben Sira. Manuscript A lacks 6:34.",
+  "b": "Ben Sira's picture of learning is personal: find a wise man and attach yourself to him (6:34), go to his door at dawn so often that you wear down the step (6:36). The early rabbis gave the same advice: \"let thy house be a house of meeting for the Sages and sit in the very dust of their feet, and drink in their words with thirst\" (Mishnah Avot 1:4, Kulp's translation on Sefaria), a saying credited to Yose ben Yoezer. Manuscript A lacks 6:34.",
   "r": "6:36; Mishnah Avot 1:4; Proverbs 13:20; Job 12:12; Acts 22:3",
   "s": [
    "mishnah-avot",

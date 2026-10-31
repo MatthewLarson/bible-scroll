@@ -82,13 +82,41 @@
   ]
  },
  {
+  "v": "19:3",
+  "a": "and a reckless soul will be taken away.",
+  "t": "'A greater example'",
+  "p": "Codex 248 and the Latin have 'he will wither (or be lifted up) as a greater example' for the second line.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ψυχὴ τολμηρὰ ἐξαρθήσεται.",
+    "en": "and a reckless soul will be taken away",
+    "plain": "and a reckless soul will be taken away."
+   },
+   {
+    "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909)",
+    "orig": "καὶ ξηρανθήσεται ἐν παραδειγματισμῷ μείζονι.",
+    "en": "and he will wither, a greater warning to others",
+    "plain": "and he will wither away, a warning to all."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. The Hebrew of Genizah MS C (folio V recto, lines 7-8) agrees with it in having 'a reckless (or insolent) soul' (<i>nefesh 'azzah</i>), which 'destroys its owner'. Codex 248 has instead a line about making the man a public example. The Latin (Vulgate 19:3) has both: <i>et extolletur in exemplum majus, et tolletur de numero anima ejus</i>, 'and he will be lifted up as a greater example, and his soul will be taken out of the number'.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "rendsburg-binstein-bensira",
+   "vulgate-clementine"
+  ]
+ },
+ {
   "v": "19:5",
   "a": "glad at wickedness",
   "t": "Glad at heart or glad at wickedness?",
-  "p": "Vaticanus says 'glad at heart', which makes joy itself a crime; the first hand of Sinaiticus has 'wickedness'.",
+  "p": "Vaticanus says 'glad at heart', which makes joy itself a crime; the first hand of Sinaiticus has 'wickedness', and other witnesses other words for evil.",
   "readings": [
    {
-    "w": "Codex Sinaiticus (ℵ, 300s AD), first hand, as reported in Swete's notes; the Latin ('Qui gaudet iniquitate', Vulgate 19:5); KJV ('taketh pleasure in wickedness')",
+    "w": "Codex Sinaiticus (ℵ, 300s AD), first hand, as reported in Swete's notes",
     "orig": "πονηρᾷ",
     "en": "rejoicing in wickedness",
     "plain": "glad at wickedness"
@@ -98,15 +126,29 @@
     "orig": "καρδίᾳ",
     "en": "rejoicing in heart",
     "plain": "glad at heart"
+   },
+   {
+    "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909)",
+    "orig": "ἐπὶ κακοεξίᾳ",
+    "en": "rejoicing in a bad state (or a bad habit)",
+    "plain": "glad at bad ways"
+   },
+   {
+    "w": "The Latin (Vulgate 19:5)",
+    "orig": "Qui gaudet iniquitate",
+    "en": "who rejoices in iniquity",
+    "plain": "glad at wrongdoing"
    }
   ],
   "follow": 0,
-  "why": "This is a departure from Swete's text. Vaticanus reads 'the one who rejoices in heart will be condemned', which would condemn simple gladness, though Ben Sira praises joy of heart elsewhere (30:22). The word <i>kardia</i>, 'heart', stands just before in 19:4 ('light in heart'), and a copyist's eye could easily carry it down. The first hand of Sinaiticus, the Latin and the text behind the KJV agree on 'wickedness', which fits the second half of the saying in 19:6.",
+  "why": "This is a departure from Swete's text. Vaticanus reads 'the one who rejoices in heart will be condemned', which would condemn simple gladness, though Ben Sira praises joy of heart elsewhere ('Gladness of heart is a person's life', 30:22). Three witnesses have a word for evil here, but not the same word: the first hand of Sinaiticus <i>ponēra</i>, 'wickedness'; codex 248 <i>kakoexia</i>, 'a bad state or habit'; the Latin <i>iniquitas</i>, 'iniquity'. The Plain follows Sinaiticus as the oldest of them, and the sense they share fits the second half of the saying in 19:6.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "vulgate-clementine",
    "kjv-apocrypha"
-  ]
+  ],
+  "b": "How 'heart' got into Vaticanus is Claude's conjecture, not a published explanation: the word <i>kardia</i> stands just before in 19:4 ('light in heart'), and a copyist's eye could have carried it down. Swete's notes show the same kind of slip in the next verse, where Alexandrinus has <i>kardia</i> for <i>kakia</i>, 'evil' (19:6). The KJV, 'Whoso taketh pleasure in wickedness', translates a text with a word for evil."
  },
  {
   "v": "19:5",
@@ -137,7 +179,7 @@
  },
  {
   "v": "19:6",
-  "a": "and the one who hates idle talk",
+  "a": "and the one who hates chatter",
   "t": "Another added line",
   "p": "The longer Greek, and the KJV, open the verse with 'The one who masters his tongue will live without quarrels'.",
   "readings": [
@@ -145,13 +187,13 @@
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
     "orig": "καὶ ὁ μισῶν λαλιὰν",
     "en": "and the one hating chatter",
-    "plain": "and the one who hates idle talk"
+    "plain": "and the one who hates chatter"
    },
    {
     "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909); KJV ('He that can rule his tongue shall live without strife')",
     "orig": "ὁ ἐγκρατευόμενος γλώσσῃ ἀμάχῳ συμβιώσεται, καὶ ὁ μισῶν λαλιάν",
     "en": "the one who controls his tongue will live without fighting, and the one hating chatter",
-    "plain": "The one who masters his tongue will live without quarrels, / and the one who hates idle talk"
+    "plain": "The one who masters his tongue will live without quarrels, / and the one who hates chatter"
    }
   ],
   "follow": 0,
@@ -187,6 +229,33 @@
    "swete-lxx",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:8",
+  "a": "do not lay it bare, unless your silence would make you guilty",
+  "t": "'If you have a fault'",
+  "p": "The Greek says 'if it is not a sin for you, do not uncover it'; the Latin says 'if you have a fault, do not uncover it'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; codex 248 as printed by Hart (1909) agrees",
+    "orig": "καὶ εἰ μή ἐστίν σοι ἁμαρτία, μὴ ἀποκάλυπτε",
+    "en": "and if it is not a sin for you, do not uncover it",
+    "plain": "do not lay it bare, unless your silence would make you guilty"
+   },
+   {
+    "w": "The Latin (Vulgate 19:8)",
+    "orig": "et si est tibi delictum, noli denudare",
+    "en": "and if you have a fault, do not lay it bare",
+    "plain": "and if you have done wrong, do not lay it bare"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek, and spells out its 'unless it is a sin for you' as 'unless your silence would make you guilty' (see the note). The Latin has no 'not' and gives a different rule: do not make your own fault known.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine"
   ]
  },
  {
@@ -229,14 +298,14 @@
     "plain": "[The fear of the Lord is the beginning of acceptance, / and wisdom wins love from him.]"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number; also not in the Latin Vulgate",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number. The Latin Vulgate has no line with this content; its 19:18 is another line under its own numbering (Latin 19:18 holds the end of Greek 19:17 and Greek 19:20.)",
     "orig": "",
     "en": "(no verse)",
     "plain": ""
    }
   ],
   "follow": 0,
-  "why": "The site gives a line for every verse number so that references stay aligned with the KJV and the Latin, and marks a line that the base text lacks with brackets. Verses 19:18-19 and 19:21 are not in Vaticanus, Sinaiticus or Alexandrinus as Swete reports them, nor in the Clementine Vulgate. The Plain translates them from codex 248, the manuscript of the longer Greek that Hart printed in 1909.",
+  "why": "The site gives a line for every verse number so that references stay aligned with the KJV, and marks a line that the base text lacks with brackets. Verses 19:18-19 and 19:21 are not in Vaticanus, Sinaiticus or Alexandrinus as Swete reports them. The Latin Vulgate has verses numbered 19:18, 19:19 and 19:21, but they hold other lines (Greek 19:17b-24 under the Latin's own numbering), and no Latin line has the content of these. The Plain translates them from codex 248, the manuscript of the longer Greek that Hart printed in 1909.",
   "b": "'Acceptance' (<i>proslēpsis</i>) is being taken in, received by God; the longer Greek uses the same word family at 23:27 (see the variant there, KJV 23:28).",
   "s": [
    "hart-ecclesiasticus-248",
@@ -257,7 +326,7 @@
     "plain": "[Knowing the Lord's commandments is discipline for life, / and those who do what pleases him pick fruit from the tree of immortality.]"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number; also not in the Latin Vulgate",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number. The Latin Vulgate has no line with this content; its 19:19 is another line under its own numbering (Latin 19:19 holds Greek 19:22.)",
     "orig": "",
     "en": "(no verse)",
     "plain": ""
@@ -311,7 +380,7 @@
     "plain": "[A slave who says to his master, 'I will not do what you want,' / angers the one who feeds him, even if he does it afterward.]"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number; also not in the Latin Vulgate",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number. The Latin Vulgate has no line with this content; its 19:21 is another line under its own numbering (Latin 19:21 holds Greek 19:24.)",
     "orig": "",
     "en": "(no verse)",
     "plain": ""
@@ -408,10 +477,37 @@
   ]
  },
  {
+  "v": "20:5",
+  "a": "another is hated for all his chatter.",
+  "t": "Chatter, or a quarrel?",
+  "p": "Where the Greek has 'much talk', the damaged Hebrew of MS C appears to read 'despised for a quarrel'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ἔστιν μισητὸς ἀπὸ πολλῆς λαλιᾶς.",
+    "en": "and there is one hated because of much talk",
+    "plain": "another is hated for all his chatter."
+   },
+   {
+    "w": "Cairo Genizah MS C, folio V recto, line 10 (transcription of Martin Abegg); the line is damaged",
+    "orig": "נמאס בריב ש",
+    "en": "(and there is one) despised for a quarrel (?) ...",
+    "plain": "another is despised for quarreling."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek. Abegg's transcription of MS C reads <i>nim'as be-riv sh[...]</i>: 'despised' and then a word that reads as <i>riv</i>, 'quarrel', before a break. Kahana's 1912 edition prints <i>be-rov siach</i>, 'by much talk', which matches the Greek; the two words <i>riv</i> and <i>rov</i> differ by one letter, and after the first letter of the next word (<i>sh</i>) the manuscript breaks off. The Hebrew reading is uncertain.",
+  "s": [
+   "swete-lxx",
+   "rendsburg-binstein-bensira",
+   "kahana-ben-sira"
+  ]
+ },
+ {
   "v": "20:9",
   "a": "There is success for a man in bad times,",
   "t": "'A sinner' in the longer Greek",
-  "p": "The longer Greek and the KJV make the man a sinner: 'a sinner that hath good success in evil things'.",
+  "p": "Codex 248 and the KJV make the man a sinner; 248 also has 'delight' where Vaticanus has 'success'.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -421,17 +517,18 @@
    },
    {
     "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909); KJV ('There is a sinner that hath good success in evil things')",
-    "orig": "ἐν κακοῖς ἀνδρὶ ἁμαρτωλῷ",
-    "en": "in evil things for a sinful man",
-    "plain": "There is success in evil things for a sinful man,"
+    "orig": "ἔστιν εὐδοκία ἐν κακοῖς ἀνδρὶ ἁμαρτωλῷ",
+    "en": "there is delight in evil things for a sinful man",
+    "plain": "A sinful man finds delight in evil things,"
    }
   ],
   "follow": 0,
-  "why": "With 'a sinner', <i>en kakois</i> means 'in evil deeds', and the saying warns that a wicked man's success turns to loss. Without it, as in Vaticanus, the more natural sense is 'in bad times': there is good fortune in misfortune, and misfortune in good fortune.",
+  "why": "Vaticanus has <i>euodia</i>, 'success', and no 'sinner': the more natural sense is 'in bad times', so there is good fortune in misfortune and misfortune in good fortune. Codex 248 has <i>eudokia</i>, 'delight, approval', and adds 'sinful', which turns the saying into a warning about a wicked man's pleasure in evil. The KJV has 'sinner' with the longer text; the Latin (Vulgate 20:9) has 'success in evil things for an undisciplined man'.",
   "s": [
    "swete-lxx",
    "hart-ecclesiasticus-248",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "vulgate-clementine"
   ]
  },
  {
@@ -580,10 +677,10 @@
   "v": "20:31",
   "a": "than a person who hides his wisdom",
   "t": "'Reveals', and a line after 20:31",
-  "p": "Sinaiticus reads 'reveals' for the second 'hides'; the longer Greek adds a line, KJV 20:32.",
+  "p": "Sinaiticus reads 'reveals' for the second 'hides'; the Hebrew of MS C has 'hides' twice; the longer Greek adds a line, KJV 20:32.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete (Swete's notes report no other reading from Alexandrinus); the Hebrew of Genizah MS C, folio VI recto, lines 3-4 (transcription of Shulamit Elizur): <i>matspin</i>, 'hides', both times",
     "orig": "ἢ ἄνθρωπος ἀποκρύπτων τὴν σοφίαν αὐτοῦ",
     "en": "than a person hiding his wisdom",
     "plain": "than a person who hides his wisdom"
@@ -602,9 +699,10 @@
    }
   ],
   "follow": 0,
-  "why": "Vaticanus, Alexandrinus and the repeat of the saying at 41:15 agree on 'hides', which gives the point of 20:30: hidden wisdom helps no one. Sinaiticus's 'reveals' reverses the saying and is likely a slip. The extra line belongs to the longer Greek; this site has no 20:32 because Swete's Greek has no such verse.",
+  "why": "Vaticanus, the Hebrew of MS C and the repeat of the saying at 41:15 agree on 'hides', which gives the point of 20:30: hidden wisdom helps no one. MS C reads <i>tov ish matspin [...] me-ish matspin chokhm[...]</i>, 'better a man who hides [...] than a man who hides wisdom'. Swete's notes name only Sinaiticus as reading otherwise, so Alexandrinus presumably has 'hides' too. Sinaiticus's 'reveals' reverses the saying and is likely a slip. The Hebrew of 20:30 also survives in MS C (folio V verso, line 12, and VI recto, lines 1-2), damaged, with nothing that differs in sense from the Greek. The extra line belongs to the longer Greek; this site has no 20:32 because Swete's Greek has no such verse.",
   "s": [
    "swete-lxx",
+   "rendsburg-binstein-bensira",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
   ]
@@ -634,6 +732,33 @@
    "swete-lxx",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "21:11",
+  "a": "wisdom is the fear of the Lord brought to completion.",
+  "t": "'The gaining of wisdom'",
+  "p": "Codex 248 reads 'the completion of the fear of the Lord is the gaining of wisdom'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ συντέλεια τοῦ φόβου Κυρίου σοφία.",
+    "en": "and the completion of the fear of the Lord is wisdom",
+    "plain": "wisdom is the fear of the Lord brought to completion."
+   },
+   {
+    "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909)",
+    "orig": "συντέλεια δὲ τοῦ φόβου Κυρίου σοφίας πρόσληψις.",
+    "en": "and the completion of the fear of the Lord is the gaining of wisdom",
+    "plain": "the fear of the Lord brought to completion is the gaining of wisdom."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus. Codex 248 adds <i>proslēpsis</i>, 'taking on, gaining', the word family of 19:18 and the line after 23:27 in the same manuscript, and also reads 'the law of the Lord' in the first line. The Latin (Vulgate 21:13) has 'the perfection of the fear of God is wisdom and understanding', closer to Vaticanus.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine"
   ]
  },
  {
@@ -683,17 +808,18 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. In the Hebrew of MS C, the second halves of 21:22 and 21:23 are the other way round: 21:22 ends with honor for a man who stands outside (the line is damaged), and 21:23 ends 'but a man of discretion lowers his face'. The grandson's Greek gives the same two pictures in the opposite order: 'shy in front of people' in 21:22 and 'stand outside' here.",
+  "why": "The Plain follows the Greek. In the Hebrew of MS C (folio VI recto, lines 5-9), the second halves of 21:22 and 21:23 seem to be the other way round. Line 6 ends 21:22 with 'and honor for a man ...' and the letters <i>bch</i>, then a break, and line 7 has 'will stand'; Kahana's edition prints <i>ve-khavod le-ish ba-chuts ya'amod</i>, 'and honor for a man who stands outside', but <i>ba-chuts</i>, 'outside', is restored there from the two letters the manuscript keeps. MS C's 21:23 ends 'but a man of discretion lowers his face'. The grandson's Greek gives the two pictures in the opposite order: 'shy in front of people' in 21:22 and 'stand outside' here.",
   "s": [
    "swete-lxx",
-   "rendsburg-binstein-bensira"
+   "rendsburg-binstein-bensira",
+   "kahana-ben-sira"
   ]
  },
  {
   "v": "21:25",
   "a": "Strangers' lips grow heavy with talk like this",
   "t": "Heavy lips, or telling tales?",
-  "p": "Sinaiticus has 'will tell' for 'will be heavy'; the longer Greek and the KJV say chatterers tell what is not theirs.",
+  "p": "Sinaiticus most likely has 'will tell' for 'will be heavy'; the longer Greek and the KJV say chatterers tell what is not theirs.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -702,7 +828,7 @@
     "plain": "Strangers' lips grow heavy with talk like this"
    },
    {
-    "w": "Codex Sinaiticus (ℵ), as reported in Swete's notes",
+    "w": "Codex Sinaiticus (ℵ), as reported in Swete's notes; the digital copy of the note is damaged (διηγξσονται), and the site reads it as διηγήσονται",
     "orig": "χείλη ἀλλοτρίων ἐν τούτοις διηγήσονται",
     "en": "the lips of strangers will tell these things",
     "plain": "Strangers' lips will tell such things"
@@ -748,7 +874,8 @@
    "rendsburg-binstein-bensira",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
-  ]
+  ],
+  "b": "Swete's notes also report that Alexandrinus has <i>phronimōn</i>, 'of the sensible', for <i>sophōn</i>, 'of the wise', a change of word but not of sense."
  },
  {
   "v": "22:1",
@@ -812,10 +939,37 @@
   ]
  },
  {
+  "v": "22:6",
+  "a": "are wisdom in every season.",
+  "t": "'In every season'",
+  "p": "Codex 248 has no 'every': 'whippings and discipline are wisdom's, at its time'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Latin (Vulgate 22:6, 'in omni tempore')",
+    "orig": "ἐν παντὶ καιρῷ σοφίας",
+    "en": "in every season (are) of wisdom",
+    "plain": "are wisdom in every season."
+   },
+   {
+    "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909)",
+    "orig": "ἐν καιρῷ σοφίας",
+    "en": "in the time of wisdom",
+    "plain": "are wisdom when the time is right."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus and the Latin. Without 'every', codex 248 limits the saying: discipline is wise at the proper time, as talk is foolish at the wrong time in the first line. In Vaticanus <i>sophias</i> is 'of wisdom', 'belong to wisdom'; the first hand of Sinaiticus has <i>sophia</i>, 'wisdom', as Swete's notes report. The Plain's 'are wisdom' gives the sense of both.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine"
+  ]
+ },
+ {
   "v": "22:9",
   "a": "[Children who live good lives and have enough to live on / will cover up their parents' humble birth.]",
   "t": "A verse only in the longer Greek",
-  "p": "Vaticanus has no 22:9-10. The Plain translates codex 248, where the two lines stand after 22:6.",
+  "p": "Vaticanus has no 22:9-10. The Plain translates codex 248, where the two lines stand before 22:7.",
   "readings": [
    {
     "w": "Codex 248, a minuscule of the longer Greek text, as printed by Hart (1909) (between 22:6 and 22:7); KJV 22:9",
@@ -824,14 +978,14 @@
     "plain": "[Children who live good lives and have enough to live on / will cover up their parents' humble birth.]"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number; also not in the Latin Vulgate",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number. The Latin Vulgate has no line with this content; its 22:9 is another line under its own numbering (Latin 22:9 holds Greek 22:8.)",
     "orig": "",
     "en": "(no verse)",
     "plain": ""
    }
   ],
   "follow": 0,
-  "why": "As at 19:18: the lines are not in Vaticanus, Sinaiticus or Alexandrinus as Swete reports them, nor in the Clementine Vulgate. The Plain translates them from Hart's codex 248, which has them after 22:6, as the KJV does. They go with 22:3-5 on children who shame or honor their families. This verse and the next go together.",
+  "why": "As at 19:18: the lines are not in Vaticanus, Sinaiticus or Alexandrinus as Swete reports them. The Latin Vulgate has verses numbered 22:9 and 22:10, but they hold Greek 22:8 and 22:11, and no Latin line has the content of these two. The Plain translates them from codex 248 as Hart prints them, after 22:6 and before 22:7; the KJV and this site place them after 22:8. They go with 22:3-5 on children who shame or honor their families. This verse and the next go together.",
   "s": [
    "hart-ecclesiasticus-248",
    "kjv-apocrypha",
@@ -851,7 +1005,7 @@
     "plain": "[Children who swagger in scorn and lack of discipline / soil the noble birth of their own family.]"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number; also not in the Latin Vulgate",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete: no line for this verse number. The Latin Vulgate has no line with this content; its 22:10 is another line under its own numbering (Latin 22:10 holds Greek 22:11.)",
     "orig": "",
     "en": "(no verse)",
     "plain": ""
@@ -878,7 +1032,7 @@
     "plain": "Stakes"
    },
    {
-    "w": "Codex Alexandrinus (A, 400s AD) and Codex Ephraemi (C), as reported in Swete's notes; also noted in the margin of Hart's codex 248",
+    "w": "Codex Alexandrinus (A, 400s AD) and Codex Ephraemi (C), as reported in Swete's notes",
     "orig": "χάλικες",
     "en": "pebbles, small stones",
     "plain": "Pebbles"
@@ -888,7 +1042,6 @@
   "why": "The two Greek words differ by one letter. Stakes set on a hill, a fence or a row of vineyard poles, fit 'will not hold out against the wind'. The Latin has both: <i>pali in excelsis, et cæmenta sine impensa posita</i>, 'stakes on high places, and stonework laid without cost' (Vulgate 22:21).",
   "s": [
    "swete-lxx",
-   "hart-ecclesiasticus-248",
    "vulgate-clementine"
   ]
  },
@@ -912,7 +1065,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Hebrew forbids drawing a sword and then comforts the offender: 'do not fear, for there is atonement' (<i>kofer</i>, a ransom or settlement). The Greek assumes the quarrel has happened and promises 'a way back'. Either way, a quarrel can be mended; betrayal cannot (22:22).",
+  "why": "The Plain follows the Greek. The Hebrew forbids drawing a sword and then comforts the offender: 'do not fear, for there is atonement' (<i>kofer</i>, 'atonement'). The Greek assumes the quarrel has happened and promises 'a way back'. Either way, a quarrel can be mended; betrayal cannot (22:22).",
   "s": [
    "swete-lxx",
    "rendsburg-binstein-bensira"
@@ -1238,11 +1391,44 @@
    }
   ],
   "follow": 0,
-  "why": "This is a departure from Swete's text, which prints the first hand of Vaticanus, <i>synedreuei</i>, 'he sits'. That reading gives no clear subject. The second person, 'you sit', is read by a corrector of Vaticanus and by Alexandrinus, and the future 'you will sit' by Sinaiticus and codex 248. It fits the rest of the verse, which speaks to 'you'. The difference is one letter.",
+  "why": "This is a departure from Swete's text, which prints the first hand of Vaticanus, <i>synedreuei</i>, 'he sits'. The verse speaks to 'you' throughout, and the third person has no subject in it. A corrector of Vaticanus and Alexandrinus read 'you sit', and Sinaiticus and codex 248 'you will sit'. The two forms differ by one letter, a final <i>s</i>, which a copyist could easily drop.",
   "s": [
    "swete-lxx",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "23:14",
+  "a": "and would curse the day you came into the world.",
+  "t": "'Lest you curse' or 'curse'?",
+  "p": "Vaticanus has 'and not (lest) curse the day of your birth'; Sinaiticus and codex 248 have no 'not'; Alexandrinus has no verb.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ τὴν ἡμέραν τοῦ τοκετοῦ σου μὴ καταράσῃ",
+    "en": "and lest you curse the day of your birth",
+    "plain": "and would curse the day you came into the world."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as reported in Swete's notes; codex 248, as printed by Hart (1909); the Latin (Vulgate 23:19, 'et diem nativitatis tuae maledicas')",
+    "orig": "καὶ τὴν ἡμέραν τοῦ τοκετοῦ σου καταράσῃ",
+    "en": "and you curse the day of your birth",
+    "plain": "and would curse the day you came into the world."
+   },
+   {
+    "w": "Codex Alexandrinus (A), as reported in Swete's notes (no 'not' and no verb)",
+    "orig": "καὶ τὴν ἡμέραν τοῦ τοκετοῦ σου",
+    "en": "(you will wish you had not been born,) and the day of your birth",
+    "plain": "and the day you came into the world."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Its <i>mē</i>, 'not', takes up the 'lest' (<i>mēpote</i>) that opens the second half of the verse: 'lest you forget yourself ..., and turn foolish ..., and you wish you had not been born, and lest you curse the day of your birth'. The Plain carries that chain with 'or you may ... you would then ... and would'. Sinaiticus, codex 248 and the Latin, without 'not', say the same thing directly. The <i>mē</i> could also be read as a command, 'do not curse the day of your birth', but that breaks the chain of consequences the verse describes. Alexandrinus leaves out both 'not' and the verb.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine"
   ]
  },
  {
@@ -1270,6 +1456,34 @@
    "swete-lxx",
    "hart-ecclesiasticus-248",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "23:25",
+  "a": "and her branches will give no fruit.",
+  "t": "'Give' or 'bear' fruit; 'her children' or 'their sons'",
+  "p": "Sinaiticus, Alexandrinus and codex 248 have 'will bear no fruit'; 248 also has 'their sons' for 'her children'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ οἱ κλάδοι αὐτῆς οὐ δώσουσιν καρπόν",
+    "en": "and her branches will not give fruit",
+    "plain": "and her branches will give no fruit."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Codex Alexandrinus (A), as reported in Swete's notes; codex 248, as printed by Hart (1909)",
+    "orig": "καὶ οἱ κλάδοι αὐτῆς οὐκ οἴσουσι(ν) καρπόν",
+    "en": "and her branches will not bear fruit",
+    "plain": "and her branches will bear no fruit."
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs give the same sense, and the Plain follows Vaticanus.",
+  "b": "In the first line codex 248 reads <i>huioi autōn</i>, 'their sons', for Vaticanus's <i>ta tekna autēs</i>, 'her children'; the Latin (Vulgate 23:35) also has <i>filii ejus</i>, 'her sons'. The sense is the same: the adulteress's offspring will not take root.",
+  "s": [
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "vulgate-clementine"
   ]
  },
  {
