@@ -53,15 +53,21 @@
  },
  {
   "v": "24:18",
-  "a": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / I who am forever, to those he has named.]",
+  "a": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / And with all my children I give what lasts forever / to those he has named.]",
   "t": "\"Mother of beautiful love\"",
-  "p": "Not in Vaticanus. The longer Greek has the whole verse; the Latin has its first half (Vulgate 24:24).",
+  "p": "Not in Vaticanus. Codex 248 has the whole verse; the Latin has its first half (Vulgate 24:24).",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "ἐγὼ μήτηρ τῆς ἀγαπήσεως τῆς καλῆς, καὶ φόβου καὶ γνώσεως καὶ τῆς ὁσίας ἐλπίδος, δίδομαι οὖν πᾶσι τοῖς τέκνοις μου, ἀειγενὴς τοῖς λεγομένοις ὑπ' αὐτοῦ",
-    "en": "I am the mother of beautiful love and of fear and knowledge and holy hope; so I am given to all my children, ever-being, to those spoken for by him",
-    "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / I who am forever, to those he has named.]"
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 33); Hart's apparatus reports both halves in minuscule 70 too",
+    "orig": "ἐγὼ μήτηρ τῆς ἀγαπήσεως τῆς καλῆς καὶ φόβου καὶ γνώσεως καὶ τῆς ὁσίας ἐλπίδος, δίδωμι δὲ σὺν πᾶσι τοῖς τέκνοις μου ἀειγενεῖς τοῖς λεγομένοις ὑπ᾽ αὐτοῦ.",
+    "en": "I am the mother of beautiful love and of fear and knowledge and holy hope; and I give, with all my children, ever-living (things?), to those spoken of by him",
+    "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / And with all my children I give what lasts forever / to those he has named.]"
+   },
+   {
+    "w": "Minuscule 70, as Hart's apparatus (1909) reports its second half; the KJV (\"I therefore, being eternal, am given to all my children which are named of him\")",
+    "orig": "δίδομαι οὖν πᾶσι τοῖς τέκνοις μου ἀειγενεῖς τοῖς λεγομένοις ὑπ᾽ αὐτοῦ (second half)",
+    "en": "so I am given to all my children, the ever-living ones, to those spoken of by him",
+    "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / ever-living, to those he has named.]"
    },
    {
     "w": "Latin, Clementine Vulgate 24:24 (first half only); the Douay-Rheims (\"I am the mother of fair love, and of fear, and of knowledge, and of holy hope\")",
@@ -77,10 +83,9 @@
    }
   ],
   "follow": 0,
-  "why": "Vaticanus, Sinaiticus and Alexandrinus have no verse 18, but the verse number is used by the KJV and most English Bibles, so the Plain gives the line in brackets, translated from the longer Greek. The brackets mark it as missing from the base text.",
-  "b": "Codex 248 (Hart 1909) words the second half differently: <i>δίδωμι δὲ σὺν πᾶσι τοῖς τέκνοις μου ἀειγενεῖς τοῖς λεγομένοις ὑπ' αὐτοῦ</i>, \"I give (myself), with all my children, ever-living, to those named by him\". The KJV gives the whole verse (\"I therefore, being eternal, am given to all my children which are named of him\"). The note on \"the mother of beautiful love\" tells how the Latin line became a title of Mary.",
+  "why": "Vaticanus, Sinaiticus and Alexandrinus have no verse 18, but the KJV and most English Bibles use the number, so the Plain gives the line in brackets, translated from codex 248 as Hart prints it. The first half also stands in the Latin; the second half has no Latin.",
+  "b": "The second half is hard Greek. In 248 the verb is active, \"I give\", and <i>sun</i>, \"with\", stands before \"all my children\"; <i>aeigeneis</i>, \"ever-living\", has no noun with it, so the Plain supplies \"what\". Hart suggests the line was translated from a Hebrew source in which the word read as \"with\" was the Hebrew object marker (<i>et</i>), giving \"I give all my eternal fruits to God's elect\". Minuscule 70, as Hart reports it, has the passive \"So I am given to all my children\", the form behind the KJV. The note on \"the mother of beautiful love\" tells how the Latin line became a title of Mary.",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx",
    "vulgate-clementine",
@@ -101,31 +106,43 @@
     "plain": "the law Moses commanded"
    },
    {
-    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource",
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; Hart's apparatus (1909) adds minuscules 55, 70, 155, 248, 253 and 254",
     "orig": "νόμον ὃν ἐνετείλατο ἡμῖν Μωυσῆς",
     "en": "the law which Moses commanded us",
+    "plain": "the law Moses commanded us"
+   },
+   {
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 33)",
+    "orig": "νόμος ὃν ἐνετείλατο ἡμῖν Μωυσῆς κληρονομίαν ἐν συναγωγαῖς Ἰακώβ",
+    "en": "the law (nominative) which Moses commanded us, an inheritance in the assemblies of Jacob",
     "plain": "the law Moses commanded us"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. The meaning is the same; \"us\" brings the line closer to Deuteronomy 33:4, which it quotes: \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4). The KJV, like Vaticanus, has no \"us\". Hart's edition of codex 248 prints the heading \"From Deuteronomy\" (<i>Ἐκ τοῦ δευτερονομίου</i>) just before this line, marking the quotation.",
+  "why": "The Plain follows Swete's text. The meaning is the same; \"us\" brings the line closer to Deuteronomy 33:4, which it quotes: \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4). The KJV, like Vaticanus, has no \"us\".",
   "s": [
    "swete-lxx",
-   "hart-ecclesiasticus-248",
-   "sir2429-greek-longer"
-  ]
+   "hart-ecclesiasticus-248"
+  ],
+  "b": "Codex 248 has the heading \"From Deuteronomy\" (<i>Ἐκ τοῦ δευτερονομίου</i>) just before this line; Hart's commentary says that 248 \"supplies the reference\" to the verse quoted. It also has \"law\" in the nominative and \"in the assemblies\"."
  },
  {
   "v": "24:24",
-  "a": "[Do not let your strength give way in the Lord; / cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]",
+  "a": "[Do not give up being strong in the Lord, / so that he himself will make you strong; cling to him. / The Lord Almighty alone is God, / and besides him there is no other savior.]",
   "t": "\"No other savior\"",
-  "p": "Not in Vaticanus or the Latin. The longer Greek has this verse; the KJV follows it.",
+  "p": "Not in Vaticanus or the Latin. Codex 248 and minuscule 70 have it; the KJV follows it.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "μὴ ἐκλύεσθε ἰσχὺν ἐν Κυρίῳ, κολλᾶσθε δὲ πρὸς αὐτόν, ἵνα κραταιώσῃ ὑμᾶς, Κύριος παντοκράτωρ Θεὸς μόνος ἐστί, καὶ οὐκ ἔστιν ἔτι πλὴν αὐτοῦ σωτήρ",
-    "en": "Do not give up strength in the Lord; cling to him so he may strengthen you; the Lord Almighty alone is God, and there is no other savior besides him",
-    "plain": "[Do not let your strength give way in the Lord; / cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]"
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 33)",
+    "orig": "μὴ ἐκλύεσθε ἰσχύειν ἐν Κυρίῳ, ἵνα κραταιώσῃ ὑμᾶς αὐτός· κολλᾶσθε πρὸς αὐτόν· Κύριος παντοκράτωρ ὁ θεὸς μόνος ἐστί, καὶ οὐκ ἔστιν ἔτι πλὴν αὐτοῦ σωτήρ.",
+    "en": "Do not give up being strong in the Lord, so that he himself may strengthen you; cling to him. The Lord Almighty alone is God, and there is no other savior besides him.",
+    "plain": "[Do not give up being strong in the Lord, / so that he himself will make you strong; cling to him. / The Lord Almighty alone is God, / and besides him there is no other savior.]"
+   },
+   {
+    "w": "Minuscule 70, as Hart's apparatus (1909) reports it: <i>ἰσχύν</i>, \"strength\", for <i>ἰσχύειν</i>, and \"but cling to him\" (<i>κολλᾶσθε δὲ πρὸς αὐτόν</i>) placed before \"so that he will make you strong\"",
+    "orig": "μὴ ἐκλύεσθε ἰσχὺν ἐν Κυρίῳ, κολλᾶσθε δὲ πρὸς αὐτόν, ἵνα κραταιώσῃ ὑμᾶς αὐτός",
+    "en": "Do not let your strength give way in the Lord, but cling to him, so that he himself may strengthen you",
+    "plain": "[Do not let your strength give way in the Lord, / but cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]"
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
@@ -135,13 +152,38 @@
    }
   ],
   "follow": 0,
-  "why": "The great codices lack the verse and the Latin has nothing like it here; the KJV numbers it 24:24 from the longer Greek. The Plain gives it in brackets so the KJV's verse numbers still work.",
-  "b": "Hart (1909) reports the verse in the cursive manuscripts 70 and 248, and prints 248's form, which puts \"so that he will make you strong\" before \"cling to him\". It is the only line in this chapter addressed to \"you\" (plural), like a preacher's call added to the poem.",
+  "why": "The great codices lack the verse, and the Latin has nothing like it here; the KJV numbers it 24:24. The Plain gives it in brackets, translated from codex 248 as Hart prints it.",
+  "b": "Hart reports the verse only in the minuscules 70 and 248 and calls it an exhortation based on Deuteronomy 33. A Greek anthology he cites has its first line in 248's form. It is the only line in this chapter addressed to \"you\" (plural).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "25:7",
+  "a": "a man who has joy in his children",
+  "t": "Joy in his children, or in his end?",
+  "p": "The Greek says the happy man has joy in his children. The Hebrew of Manuscript C says he rejoices \"in his end\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἄνθρωπος εὐφραινόμενος ἐπὶ τέκνοις",
+    "en": "a person rejoicing in children",
+    "plain": "a man who has joy in his children"
+   },
+   {
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VI verso, lines 11–12 (Elizur's transcription)",
+    "orig": "אשרי איש שמח באחריתו חי וראה בשבר צריו",
+    "en": "happy is the man who rejoices in his end (his last days, or what comes after him), who lives and sees the fall of his foes",
+    "plain": "a man who has joy in how his life ends"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain translates the Greek. The Hebrew word <i>acharit</i> means the end or the last part, which can be a man's old age or the children who come after him; the Greek has \"children\", which may be how its translator understood the word, or may rest on a different Hebrew copy.",
+  "s": [
+   "swete-lxx",
+   "sir2429-ms-c"
   ]
  },
  {
@@ -157,8 +199,8 @@
     "plain": "who shares his home with a wife of understanding"
    },
    {
-    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
-    "orig": "אשרי בעל אשה משכלת ולא חורש כשור עם חמור",
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto, lines 2–4 (Abegg's transcription; the last letters of the last word are marked as uncertain)",
+    "orig": "אשרי בעל אשה משכלת ולא חורש כשור עם חמוׄר",
     "en": "happy is the husband of a sensible wife, and he who does not plow with an ox and a donkey together",
     "plain": "who is the husband of a wife of understanding, and who does not plow with an ox and a donkey together"
    }
@@ -190,7 +232,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek of the great codices, which the Greek text on Wikisource shares. The KJV's form is that of codex 248; it fits 25:12, which in the longer text speaks of loving him.",
+  "why": "The Plain follows the Greek of the great codices. The KJV's form is that of codex 248; it fits 25:12, which in 248 speaks of loving him.",
   "s": [
    "swete-lxx",
    "hart-ecclesiasticus-248",
@@ -201,11 +243,11 @@
   "v": "25:12",
   "a": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]",
   "t": "\"The beginning of loving him\"",
-  "p": "Not in Vaticanus. The longer Greek and the Latin (Vulgate 25:16) have it.",
+  "p": "Not in Vaticanus. Codex 248 and the Latin (Vulgate 25:16) have it.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "φόβος Κυρίου ἀρχὴ ἀγαπήσεως αὐτοῦ, πίστις δὲ ἀρχὴ κολλήσεως αὐτοῦ",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 34)",
+    "orig": "φόβος Κυρίου ἀρχὴ ἀγαπήσεως αὐτοῦ· πίστις δὲ ἀρχὴ κολλήσεως αὐτοῦ.",
     "en": "the fear of the Lord is the beginning of love for him, and faith the beginning of clinging to him",
     "plain": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]"
    },
@@ -223,9 +265,8 @@
    }
   ],
   "follow": 0,
-  "why": "The verse is in the longer Greek (codex 248, as Hart prints it, and the Greek text on Wikisource) and in the Latin; the great codices lack it. The Plain gives it in brackets.",
+  "why": "The verse is in codex 248, as Hart prints it, and in the Latin; the great codices lack it. The Plain gives it in brackets.",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx",
    "vulgate-clementine",
@@ -252,7 +293,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The Latin's \"woman\" ties the line to the poem on the evil wife that follows, and some modern versions adopt it; but the Greek pair \"snake\" and \"enemy\" makes sense as it stands, and the Hebrew of this verse has not been found.",
+  "why": "The Plain follows the Greek. The Latin's \"woman\" ties the line to the poem on the evil wife that follows; but the Greek pair \"snake\" and \"enemy\" makes sense as it stands, and no Hebrew of this verse has been found.",
   "s": [
    "swete-lxx",
    "vulgate-clementine"
@@ -271,15 +312,15 @@
     "plain": "it makes her face as dark as sackcloth"
    },
    {
-    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes",
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; codex 248, as Hart (1909) prints it",
     "orig": "ὡς ἄρκος",
     "en": "like a bear",
     "plain": "it makes her face as dark as a bear's"
    },
    {
-    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
-    "orig": "רע אשה ישחיר מראה איש ויקדיר פניו לדוב",
-    "en": "a woman's evil blackens a man's looks and darkens his face like a bear",
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto, lines 7–9 (Abegg's transcription: a gap in the leaf after the first line; the yod of \"his face\" is restored by Abegg)",
+    "orig": "רע אשה ישחיר [ -- ] מראה איש ויקדיר פנ[י]וׄ לדוב",
+    "en": "a woman's evil blackens [gap] a man's looks and darkens his face like a bear",
     "plain": "it blackens a man's looks and makes his face as dark as a bear's"
    }
   ],
@@ -287,6 +328,7 @@
   "why": "The Plain follows Swete's text. \"Bear\" is very likely the older reading, since the Hebrew has it; sackcloth, dark goat-hair cloth worn in mourning, may be a copyist's change to an easier picture. The Hebrew also makes the husband's face, not the wife's, go dark, which fits 25:18.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "sir2429-ms-c"
   ]
  },
@@ -303,7 +345,7 @@
     "plain": "and hearing it, he groans bitterly"
    },
    {
-    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto",
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII recto, line 10 (Abegg's transcription)",
     "orig": "ובלא טעמו יתאנח",
     "en": "and without his intending it, he sighs",
     "plain": "and without meaning to, he sighs"
@@ -329,8 +371,8 @@
     "plain": "and do not set your longing on a woman"
    },
    {
-    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII verso",
-    "orig": "ועל יש לה אל תמהר",
+    "w": "Hebrew, Cairo Genizah Manuscript C, folio VII verso, lines 3–4 (Abegg's transcription; the first letter of \"do not\" is restored by Abegg)",
+    "orig": "ועל יש לה [א]ל תמהר",
     "en": "and for what she has, do not hurry",
     "plain": "and do not rush after her for what she owns"
    }
@@ -382,7 +424,7 @@
   "p": "The KJV adds \"and give her a bill of divorce, and let her go\".",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Greek text on Greek Wikisource agrees",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
     "orig": "ἀπὸ τῶν σαρκῶν σου ἀπότεμε αὐτήν",
     "en": "cut her off from your flesh",
     "plain": "cut her away from your flesh."
@@ -450,14 +492,20 @@
     "plain": "Keep an unbending watch over a daughter"
    },
    {
-    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource",
+    "w": "Codex Alexandrinus (A) and others, in Swete's notes and Hart's apparatus (1909); codex 248, as Hart prints it",
     "orig": "ἐπὶ θυγατρὶ ἀδιατρέπτῳ",
     "en": "over a headstrong (unabashed) daughter",
+    "plain": "Keep a firm watch over a headstrong daughter"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), in Hart's apparatus (1909)",
+    "orig": "ἐπὶ θυγατρὶ ἀδιαστρέπτῳ",
+    "en": "over a daughter (a form of the word with one more letter, also describing the daughter)",
     "plain": "Keep a firm watch over a headstrong daughter"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. The difference is one letter. Alexandrinus' form fits 26:11's \"shameless eye\" and the Latin <i>in filia non avertente se</i>, \"a daughter who does not turn herself away\"; Vaticanus makes the line a general rule for any daughter.",
+  "why": "The Plain follows Swete's text. In Alexandrinus and Sinaiticus the word ends in <i>-ō</i> and describes the daughter, not the watch; Sinaiticus spells it with one more letter. That form fits 26:11's \"shameless eye\" and the Latin <i>in filia non avertente se</i>, \"a daughter who does not turn herself away\"; Vaticanus makes the line a general rule for any daughter.",
   "s": [
    "swete-lxx",
    "hart-ecclesiasticus-248",
@@ -520,12 +568,12 @@
  {
   "v": "26:19",
   "a": "[My child, keep the prime of your life healthy, / and do not give your strength to strangers.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Verses 19–27 are in the longer Greek only, not in the great codices or the Latin. They go together.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Verses 19–27 are in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin, not in the great codices or the Latin. They go together.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "Τέκνον, ἀκμὴν ἡλικίας σου συντήρησον ὑγιῆ, καὶ μὴ δῷς ἀλλοτρίοις τὴν ἰσχύν σου.",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "τέκνον, ἀκμὴν ἡλικίας σου συντήρησον ὑγιῆ, καὶ μὴ δῷς ἀλλοτρίοις τὴν ἰσχύν σου.",
     "en": "Child, keep the prime of your age healthy, and do not give your strength to strangers.",
     "plain": "[My child, keep the prime of your life healthy, / and do not give your strength to strangers.]"
    },
@@ -537,10 +585,9 @@
    }
   ],
   "follow": 0,
-  "why": "Codex Vaticanus, Sinaiticus and Alexandrinus pass straight from 26:18 to 26:28, and the Latin has a different addition here. The KJV follows the longer Greek, so the Plain gives these lines in brackets from it.",
-  "b": "Hart (1909) reports the passage in the cursive manuscripts 70 and 248 and in the Syriac, and prints it from 248. It is a small poem of its own on marriage and faithfulness, with a refrain from 26:1 in 26:26. Its origin and date cannot be fixed from the text itself.",
+  "why": "Codex Vaticanus, Sinaiticus and Alexandrinus pass straight from 26:18 to 26:28, and the Latin has a different addition here. The KJV prints these lines, so the Plain gives them in brackets, translated from codex 248 as Hart prints it.",
+  "b": "Hart reports the passage in the minuscules 70 and 248 and in the Syriac, and a Greek anthology he cites has three pieces of it. It is a small poem of its own on marriage and faithfulness, with a refrain from 26:1 in 26:26. Its origin and date cannot be fixed from the text itself.",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -548,12 +595,12 @@
  {
   "v": "26:20",
   "a": "[Search the whole plain for a fertile plot, / and sow your own seed there, trusting in your good family line.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "ἀναζητήσας παντὸς πεδίου εὔγειον κλῆρον σπεῖρε τὰ ἴδια σπέρματα πεποιθὼς τῇ εὐγενείᾳ σου·",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "ἀναζητήσας παντὸς πεδίου εὔγεον κλῆρον, σπεῖρε τὰ ἴδια σπέρματα πεποιθὼς τῇ εὐγενείᾳ σου·",
     "en": "Seeking out a fertile plot of the whole plain, sow your own seeds, trusting in your good birth.",
     "plain": "[Search the whole plain for a fertile plot, / and sow your own seed there, trusting in your good family line.]"
    },
@@ -565,9 +612,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "why": "Part of the passage 26:19–27 (see 26:19).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -575,12 +621,12 @@
  {
   "v": "26:21",
   "a": "[So your children will live on after you, / and with the confidence of good birth they will grow great.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "οὕτως τὰ γενήματά σου περιόντα καὶ παρρησίαν εὐγενείας ἔχοντα μεγαλυνοῦσι.",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "οὕτως τὰ γεννήματά σου περιόντα καὶ παρρησίαν εὐγενείας ἔχοντα μεγαλυνοῦσι.",
     "en": "So your offspring, surviving and having the confidence of good birth, will become great.",
     "plain": "[So your children will live on after you, / and with the confidence of good birth they will grow great.]"
    },
@@ -592,9 +638,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "why": "Part of the passage 26:19–27 (see 26:19).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -602,11 +647,11 @@
  {
   "v": "26:22",
   "a": "[A woman for hire will count as spit, / but a married woman will count as a tower of death for those who make use of her.]",
-  "t": "The longer Greek: 26:19–27",
+  "t": "Not in the great codices: 26:19–27",
   "p": "Goes with 26:19–27. The KJV has \"a tower against death to her husband\", the opposite sense.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
     "orig": "γυνὴ μισθία ἴση σιάλῳ λογισθήσεται, ὕπανδρος δὲ πύργος θανάτου τοῖς χρωμένοις λογισθήσεται.",
     "en": "A hired woman will be counted equal to spit, but a married woman will be counted a tower of death to those who use her.",
     "plain": "[A woman for hire will count as spit, / but a married woman will count as a tower of death for those who make use of her.]"
@@ -625,9 +670,9 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The Plain follows the Greek as printed; the KJV's \"a tower against death\" makes the married woman a protection for her husband, while the Greek warns other men that adultery with her is deadly.",
+  "why": "Part of the passage 26:19–27 (see 26:19). The Plain follows codex 248; the KJV's \"a tower against death\" makes the married woman a protection for her husband, while 248 warns other men that adultery with her is deadly.",
   "s": [
-   "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
   ]
@@ -635,12 +680,12 @@
  {
   "v": "26:23",
   "a": "[An ungodly woman will be given as a portion to a lawless man, / but a godly woman is given to the one who fears the Lord.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "γυνὴ ἀσεβὴς ἀνόμῳ μερὶς δοθήσεται, εὐσεβὴς δὲ δίδοται τῷ φοβουμένῳ τὸν Κύριον.",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "γυνὴ ἀσεβὴς ἀνόμῳ μερὶς δοθήσεται, εὐσεβὴς δὲ δίδοται τῷ φοβουμένῳ τὸν κύριον.",
     "en": "An ungodly woman will be given as a portion to a lawless man, but a godly one is given to the one who fears the Lord.",
     "plain": "[An ungodly woman will be given as a portion to a lawless man, / but a godly woman is given to the one who fears the Lord.]"
    },
@@ -652,9 +697,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "why": "Part of the passage 26:19–27 (see 26:19).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -662,11 +706,11 @@
  {
   "v": "26:24",
   "a": "[A shameless woman will spend her days in disgrace, / but a modest daughter will treat even her husband with respect.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
     "orig": "γυνὴ ἀσχήμων ἀτιμίαν κατατρίψει, θυγάτηρ δὲ εὐσχήμων καὶ τὸν ἄνδρα ἐντραπήσεται.",
     "en": "A disgraceful woman will wear out (live out) dishonor, but a decent daughter will respect even her husband.",
     "plain": "[A shameless woman will spend her days in disgrace, / but a modest daughter will treat even her husband with respect.]"
@@ -679,9 +723,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "why": "Part of the passage 26:19–27 (see 26:19).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -689,12 +732,12 @@
  {
   "v": "26:25",
   "a": "[A shameless woman will be thought of as a dog, / but one who has a sense of shame will fear the Lord.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "γυνὴ ἀδιάτρεπτος ὡς κύων λογισθήσεται, ἡ δὲ ἔχουσα αἰσχύνην τὸν Κύριον φοβηθήσεται.",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "γυνὴ ἀδιάτρεπτος ὡς κύων λογισθήσεται, ἡ δὲ ἔχουσα αἰσχύνην τὸν κύριον φοβηθήσεται.",
     "en": "A shameless woman will be counted as a dog, but she who has shame will fear the Lord.",
     "plain": "[A shameless woman will be thought of as a dog, / but one who has a sense of shame will fear the Lord.]"
    },
@@ -706,9 +749,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
+  "why": "Part of the passage 26:19–27 (see 26:19).",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
@@ -716,12 +758,12 @@
  {
   "v": "26:26",
   "a": "[A woman who honors her own husband will seem wise to everyone, / but one who dishonors him in her pride will be known by all as ungodly. / The man with a good wife is a happy man; / his years will add up to twice as many.]",
-  "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only. It ends with the saying of 26:1.",
+  "t": "Not in the great codices: 26:19–27",
+  "p": "Goes with 26:19–27: in codex 248 (and, as Hart reports, minuscule 70 and the Syriac), not in the great codices or the Latin. It ends with the saying of 26:1.",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "γυνὴ ἄνδρα ἴδιον τιμῶσα σοφὴ πᾶσι φανήσεται, ἀτιμάζουσα δὲ ἐν ὑπερηφανίᾳ ἀσεβὴς πᾶσι γνωσθήσεται. γυναικὸς ἀγαθῆς μακάριος ὁ ἀνήρ, ὁ γὰρ ἀριθμὸς τῶν ἐτῶν αὐτοῦ διπλάσιος ἔσται.",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); Hart's commentary reports 26:19–27 also in minuscule 70 and the Syriac",
+    "orig": "γυνὴ ἄνδρα ἴδιον τιμῶσα σοφὴ πᾶσι φανήσεται, ἀτιμάζουσα δὲ ἀσεβὴς ἐν ὑπερηφανίᾳ πᾶσι γνωσθήσεται. γυναικὸς ἀγαθῆς μακάριος ὁ ἀνήρ, ὁ γὰρ ἀριθμὸς τῶν ἐτῶν αὐτοῦ διπλάσιος ἔσται.",
     "en": "A woman who honors her own husband will appear wise to all, but one who dishonors him in pride will be known by all as ungodly. Happy the husband of a good wife, for the number of his years will be double.",
     "plain": "[A woman who honors her own husband will seem wise to everyone, / but one who dishonors him in her pride will be known by all as ungodly. / The man with a good wife is a happy man; / his years will add up to twice as many.]"
    },
@@ -733,24 +775,30 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The KJV has only the first two lines.",
+  "why": "Part of the passage 26:19–27 (see 26:19). The KJV has only the first two lines.",
   "s": [
-   "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
   ]
  },
  {
   "v": "26:27",
-  "a": "[A loud woman with a busy tongue / will be looked on like a war trumpet sounded to rout an enemy. / And every person with a soul like hers / will live out life in the chaos of war.]",
+  "a": "[A loud woman with a busy tongue / will be looked on as fit to put enemies to flight. / The soul of every person who is like these / will live out life in the turmoil of war.]",
   "t": "The longer Greek: 26:19–27",
-  "p": "Goes with 26:19–27: in the longer Greek only.",
+  "p": "Goes with 26:19–27. Codex 248 and minuscule 70 differ in the first line: 70 adds \"like a trumpet\".",
   "readings": [
    {
-    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
-    "orig": "γυνὴ μεγαλόφωνος καὶ γλωσσώδης ὡς σάλπιγξ πολέμων εἰς τροπὴν θεωρηθήσεται, ἀνθρώπου δὲ παντὸς ψυχὴ ὁμοιότροπος τούτοις, πολέμου ἀκαταστασίαις τὴν ψυχὴν διαιτηθήσεται.",
-    "en": "A loud-voiced and talkative woman will be regarded like a war trumpet for a rout; and the soul of every person like these will pass life in the disorders of war.",
-    "plain": "[A loud woman with a busy tongue / will be looked on like a war trumpet sounded to rout an enemy. / And every person with a soul like hers / will live out life in the chaos of war.]"
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 36); it prints the last word as <i>διατηθήσεται</i>, and Hart's apparatus gives <i>διαιτηθήσεται</i> for 70 and 248",
+    "orig": "γυνὴ μεγαλόφωνος καὶ γλωσσώδης πολεμίων εἰς τροπὴν θεωρηθήσεται. ἀνθρώπου δὲ παντὸς ψυχὴ ὁμοιότροπος τούτοις πολέμου ἀκαταστασίαις τὴν ψυχὴν διατηθήσεται.",
+    "en": "A loud-voiced and talkative woman will be regarded for the rout of enemies. The soul of every person of like ways to these will spend life in the disorders of war.",
+    "plain": "[A loud woman with a busy tongue / will be looked on as fit to put enemies to flight. / The soul of every person who is like these / will live out life in the turmoil of war.]"
+   },
+   {
+    "w": "Minuscule 70, as Hart's apparatus (1909) reports it (<i>+ὡς σάλπιγξ</i>); a Greek anthology Hart cites has <i>ὥσπερ σάλπιγξ</i>",
+    "orig": "γυνὴ μεγαλόφωνος καὶ γλωσσώδης ὡς σάλπιγξ πολεμίων εἰς τροπὴν θεωρηθήσεται",
+    "en": "a loud-voiced and talkative woman will be regarded like a trumpet of enemies for a rout",
+    "plain": "[A loud woman with a busy tongue / will be looked on like an enemy's trumpet calling to flight. / The soul of every person who is like these / will live out life in the turmoil of war.]"
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; Codex Sinaiticus and Alexandrinus, as Swete prints them, lack it too",
@@ -760,9 +808,8 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). Codex 248, as Hart prints it, lacks \"like a trumpet\" (\"will be looked on as one of the enemies, to rout them\"); a Greek anthology Hart cites has \"like a trumpet of enemies\". The KJV has only the first line, in another sense: \"shall be sought out to drive away the enemies\".",
+  "why": "Part of the passage 26:19–27 (see 26:19). The Plain follows codex 248 as Hart prints it. Its first line is terse: \"will be looked on for the rout of enemies\", that is, her voice would scare off an army. The KJV takes it the same way: \"shall be sought out to drive away the enemies\". Minuscule 70's \"like a trumpet\" makes the noise itself the picture. The KJV has only the first line.",
   "s": [
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
@@ -804,7 +851,7 @@
  },
  {
   "v": "29:6",
-  "a": "at no small cost",
+  "a": "at his own expense",
   "t": "At a cost, or for nothing?",
   "p": "Vaticanus says the lender gained an enemy \"not for free\": it cost him his money. Other copies drop \"not\": an enemy \"for no reason\".",
   "readings": [
@@ -812,10 +859,10 @@
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
     "orig": "ἐκτήσατο αὐτὸν ἐχθρὸν οὐ δωρεάν",
     "en": "he gained him as an enemy, not for nothing",
-    "plain": "at no small cost"
+    "plain": "at his own expense"
    },
    {
-    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes; the Latin (Vulgate 29:8, <i>gratis</i>)",
+    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes and Hart's apparatus (1909); codex 248, as Hart prints it (<i>δωρεὰν ἐχθρόν</i>); the Latin (Vulgate 29:8, <i>gratis</i>)",
     "orig": "ἐκτήσατο αὐτὸν ἐχθρὸν δωρεάν",
     "en": "he gained him as an enemy for nothing",
     "plain": "for no reason"
@@ -825,6 +872,7 @@
   "why": "The Plain follows Swete's text: the lender has lost his money and made an enemy, so the enemy came at a price. Without \"not\", the line says the lender did nothing to deserve the hatred. Both make sense.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "vulgate-clementine"
   ]
  },
@@ -848,7 +896,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek: the borrowers' bad faith (29:4–6) makes people stop lending. The Latin, which some modern versions follow, defends the lenders: they are not mean, only afraid.",
+  "why": "The Plain follows the Greek: the borrowers' bad faith (29:4–6) makes people stop lending. The Latin defends the lenders: they are not mean, only afraid.",
   "s": [
    "swete-lxx",
    "vulgate-clementine",
@@ -862,7 +910,7 @@
   "p": "Swete's Vaticanus lacks \"not\", which makes the line say the opposite. The Plain follows the copies that have it.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource; the Latin (Vulgate 29:11, <i>non trahas illum</i>)",
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A) and others, as Hart's apparatus (1909) reports them; codex 248, as Hart prints it (<i>καὶ ἐπὶ ἐλεημοσύνῃ μὴ παρελκύσῃς αὐτόν</i>); the Latin (Vulgate 29:11, <i>non trahas illum</i>)",
     "orig": "καὶ ἐπ᾽ ἐλεημοσύνην μὴ παρελκύσῃς αὐτόν",
     "en": "and do not put him off for alms",
     "plain": "and do not keep him waiting for alms"
@@ -875,19 +923,19 @@
    }
   ],
   "follow": 0,
-  "why": "Here the Plain departs from Swete's base text. Without \"not\" the line contradicts its own first half (\"be patient with a person in a low position\") and the verses that follow (29:9–13). The negative is in Alexandrinus, codex 248, the Latin and the Greek on Wikisource, so its loss in Vaticanus is best explained as a copyist's slip.",
+  "why": "Here the Plain departs from Swete's base text. Without \"not\" the line contradicts its own first half (\"be patient with a person in a low position\") and the verses that follow (29:9–13). The negative is in Sinaiticus and Alexandrinus, codex 248 and the Latin, so its loss in Vaticanus is best explained as a copyist's slip.",
   "s": [
    "swete-lxx",
    "hart-ecclesiasticus-248",
-   "sir2429-greek-longer",
    "vulgate-clementine"
-  ]
+  ],
+  "b": "The first reading's Greek is Vaticanus' wording with the negative; Swete's notes add that Sinaiticus and Alexandrinus have the dative <i>ἐλεημοσύνῃ</i> and Alexandrinus <i>ἐπί</i>, which do not change the sense."
  },
  {
   "v": "29:23",
   "a": "Be satisfied with a little or a lot.",
   "t": "A shorter and a longer 29:23",
-  "p": "Vaticanus has one line. The longer Greek and the Latin add a second: you will not hear insults as a lodger.",
+  "p": "Vaticanus has one line. Codex 248, a corrector of Sinaiticus and the Latin add a second.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
@@ -896,23 +944,22 @@
     "plain": "Be satisfied with a little or a lot."
    },
    {
-    "w": "The Greek text on Greek Wikisource; the Latin (Vulgate 29:30, <i>et improperium peregrinationis non audies</i>)",
-    "orig": "ἐπὶ μικρῷ καὶ μεγάλῳ εὐδοκίαν ἔχε, καὶ ὀνειδισμὸν παροικίας οὐ μὴ ἀκούσῃς.",
-    "en": "with little and much have contentment, and you will not hear the reproach of being a lodger",
-    "plain": "Be satisfied with a little or a lot, and you will not hear yourself insulted as a lodger."
-   },
-   {
-    "w": "Codex 248, as printed by Hart (1909); the KJV (\"Be it little or much, hold thee contented, that thou hear not the reproach of thy house\")",
+    "w": "Codex 248 (a minuscule manuscript), as Hart (1909) prints it (page 40); a corrector of Codex Sinaiticus (ℵc.a), in Hart's apparatus; the KJV (\"Be it little or much, hold thee contented, that thou hear not the reproach of thy house\")",
     "orig": "ἐπὶ μικρὰ καὶ μεγάλα εὐδοκίαν ἔχε, καὶ ὀνειδισμὸν οἰκίας σου μὴ ἀκούσῃς.",
     "en": "with little and much have contentment, and do not hear the reproach of your house",
     "plain": "Be satisfied with a little or a lot, so that you do not hear your household insulted."
+   },
+   {
+    "w": "Latin, Clementine Vulgate 29:30",
+    "orig": "Minimum pro magno placeat tibi, et improperium peregrinationis non audies.",
+    "en": "Let the least please you as much as the great, and you will not hear the reproach of being a stranger.",
+    "plain": "Be satisfied with a little or a lot, and you will not hear yourself insulted as a lodger."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. The second line, which the KJV and the Latin also have, leads well into 29:24–28, about the insults a lodger must hear; it may have been added to round off the couplet, or lost from Vaticanus.",
+  "why": "The Plain follows Swete's text. The second line leads well into 29:24–28, about the insults a lodger must hear; it may have been added to round off the couplet, or lost from Vaticanus. Where 248 has \"your house\", the Latin has \"your being a stranger\".",
   "s": [
    "swete-lxx",
-   "sir2429-greek-longer",
    "hart-ecclesiasticus-248",
    "vulgate-clementine",
    "kjv-apocrypha"
