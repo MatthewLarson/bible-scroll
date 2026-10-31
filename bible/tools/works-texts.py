@@ -270,7 +270,8 @@ def swete():
         for (a, ref), (z, _) in zip(starts, starts[1:] + [(max(w) + 1, '')]):
             book, cv = ref.split('.', 1)
             text = ' '.join(w.get(n, '') for n in range(a, z))
-            text = re.sub(r'[⸂⸃⸆]', '', text)   # Swete's page marks (where a codex begins or stops: First1KGreek has "§ C" there), not words
+            text = re.sub(r'[⸂⸃⸆]|\[\d+\]', '', text)   # Swete's page marks (where a codex begins or stops: First1KGreek has "§ C"
+                                                          # there) and his bracketed alternate verse numbers ("[13]"), not words
             _swete[book][cv] = unicodedata.normalize('NFC', clean(text))   # one accent form (the file mixes oxia and tonos)
     return _swete
 
@@ -344,6 +345,13 @@ def greek_key(s):
     """Greek folded for comparing two copies: no accents, breathings or punctuation, one case."""
     return ''.join(ch for ch in unicodedata.normalize('NFD', s.lower()) if ch.isalpha() and not unicodedata.combining(ch))
 
+def fix_table(bid, inline):
+    """A book's typo corrections: the WORKS entry's own, then those found by collation (tools/swete-fixes.json)."""
+    table = {cv: [f] if isinstance(f, tuple) else list(f) for cv, f in inline.items()}
+    for cv, fs in json.load(open(os.path.join(ROOT, 'tools', 'swete-fixes.json'))).get(bid, {}).items():
+        table.setdefault(cv, []).extend(tuple(f) for f in fs)
+    return table
+
 def septuagint(bid, a):
     """A Septuagint book: Swete's Greek text(s), the KJV Apocrypha, and the Latin and Douay for the writers."""
     S = swete()
@@ -356,7 +364,7 @@ def septuagint(bid, a):
     o.update({k: {cv: t for cv, t in texts[k].items() if t} for k in texts})
     if a.get('pre'):   # a preface before chapter 1 (Sirach's prologue) is verse 1:0, shown unnumbered like a psalm title
         o['grc'] = {'1:0': clean(' '.join(S[a['pre']].values())), **o['grc']}
-    for cv, fixes in a.get('fix', {}).items():   # typos in the digital text: (typo, Swete's form, the evidence)
+    for cv, fixes in fix_table(bid, a.get('fix', {})).items():   # typos in the digital text: (typo, Swete's form, the evidence)
         t, done = unicodedata.normalize('NFC', o['grc'][cv]), []   # NFC: the digital text mixes oxia and tonos accents
         for bad, good, by in [fixes] if isinstance(fixes, tuple) else fixes:
             bad, good = (unicodedata.normalize('NFC', w) for w in (bad, good))
