@@ -4,22 +4,26 @@
   "sections": [
    {
     "h": "1 Esdras 6-9: from the rebuilding to the reading of the law",
-    "b": "<p>The last four chapters of 1 Esdras retell Ezra 5:1-10:44 and Nehemiah 7:73-8:12 in one continuous story. Darius confirms Cyrus's decree and the temple is finished and dedicated (1 Esdras 6:1-7:15); Ezra comes from Babylon with Artaxerxes' letter (1 Esdras 8:1-64); he hears of the mixed marriages, prays, and the foreign wives are sent away with their children (1 Esdras 8:65-9:36); and he reads the law to all the people (1 Esdras 9:37-55). There is no Nehemiah: his title becomes a man called Attarates (1 Esdras 9:49), and Ezra himself is called \"high priest\" (1 Esdras 9:40). The Greek adds Zerubbabel to Darius's decree (1 Esdras 6:26-28), changes many names and numbers, and uses Greek-era terms such as Coele-Syria and the king's \"Friends.\" It ends in mid-scene: \"And they gathered together\" (1 Esdras 9:55). Josephus follows its order and goes on to the Feast of Tabernacles and Ezra's death (Antiquities 11.154-158).</p><p>Note on numbers: this site cites 1 Esdras in the verse numbers of Swete's Greek text, which in these chapters run behind the KJV's: Ezra's prayer, for example, is 1 Esdras 8:71-87 here and 8:74-90 in the KJV.</p>",
+    "b": "<p>The last four chapters of 1 Esdras retell Ezra 5:1-10:44 and Nehemiah 7:73-8:12 in one continuous story. Darius confirms Cyrus's decree and the temple is finished and dedicated (1 Esdras 6:1-7:15); Ezra comes from Babylon with Artaxerxes' letter (1 Esdras 8:1-64); he hears of the mixed marriages, prays, and the foreign wives are sent away with their children (1 Esdras 8:65-9:36); and he reads the law to all the people (1 Esdras 9:37-55). There is no Nehemiah: his title becomes a man called Attarates (1 Esdras 9:49), and Ezra himself is called \"high priest\" (1 Esdras 9:40). The Greek adds Zerubbabel to Darius's decree (1 Esdras 6:26-28), changes many names and numbers, and uses Greek-era terms such as Coele-Syria and the king's \"Friends.\" It ends in mid-scene: \"And they gathered together\" (1 Esdras 9:55). Josephus follows its order, sets the reading of the law at the Feast of Tabernacles, and ends with Ezra's death (Antiquities 11.154-158).</p><p>Note on numbers: this site cites 1 Esdras in the verse numbers of Swete's Greek text, which in these chapters run behind the KJV's: Ezra's prayer, for example, is 1 Esdras 8:71-87 here and 8:74-90 in the KJV.</p>",
     "refs": "1 Esdras 6:1-9:55; 1 Esdras 6:26-28; 1 Esdras 9:40; 1 Esdras 9:49; 1 Esdras 9:55; Ezra 5:1-10:44; Nehemiah 7:73-8:12"
    }
   ],
   "common": [
    "1 Esdras 6-9 follows Ezra 5-10 and Nehemiah 8 closely, with many small changes of name, number and wording.",
-   "Most scholars think the book's ending at 1 Esdras 9:55 is broken off."
+   "Bullard and Hatton's handbook calls the book's last sentence (1 Esdras 9:55) \"only a fragment\" and thinks the book once had more."
   ],
   "uncommon": [
-   "Some scholars think 1 Esdras keeps an older order of the Ezra story, with the reading of the law directly after the marriage reform."
+   "Josephus, who follows 1 Esdras, sets Ezra in the reign of Xerxes, not Artaxerxes (Antiquities 11.120-121)."
   ],
   "claude": {
    "title": "Claude's reading: a book about knowing the law",
-   "body": "1 Esdras twice calls the people's sin agnoia, \"error, ignorance\" (1 Esdras 8:72; 9:20), and twice uses a verb for the law being \"breathed into\" them (1 Esdras 9:48; 9:55). Read together, the last chapters move from sin done without knowing, through confession, to a people who know the law. This is my own suggestion.",
-   "refs": "1 Esdras 8:72; 1 Esdras 9:20; 1 Esdras 9:48; 1 Esdras 9:55; Leviticus 5:17-19"
-  }
+   "body": "1 Esdras twice calls the people's sin agnoia, \"error, ignorance\" (1 Esdras 8:72; 9:20), and it ends with the law read aloud and taught to all the people (1 Esdras 9:37-55). Read together, the last chapters move from sin done without knowing, through confession, to a people who know the law. This is my own suggestion.",
+   "refs": "1 Esdras 8:72; 1 Esdras 9:20; 1 Esdras 9:37-55; Leviticus 5:17-19"
+  },
+  "sources": [
+   "bullard-hatton-esdras",
+   "josephus-ant"
+  ]
  },
  {
   "id": "ezra",
@@ -72,8 +76,8 @@
   "id": "law-of-moses",
   "sections": [
    {
-    "h": "The law read and \"breathed into\" the people",
-    "b": "<p>1 Esdras ends with Ezra reading the law to all the people before the temple's east gate, from a wooden platform (1 Esdras 9:37-55). The Levites \"breathe life into the reading\" and the people are \"breathed into\" by the words (1 Esdras 9:48, 9:55), a rare Greek verb where Nehemiah 8:8 and 8:12 speak of explaining and understanding. Earlier the king's letter makes the law royal law for the Jews of Syria and Phoenicia, with Ezra to appoint judges and teach it (1 Esdras 8:23-24).</p>",
+    "h": "The law read and taught to the people",
+    "b": "<p>1 Esdras ends with Ezra reading the law to all the people before the temple's east gate, from a wooden platform (1 Esdras 9:37-55). Where Nehemiah 8:8 and 8:12 speak of explaining and understanding, the Greek uses a rare verb, perhaps \"inspire,\" for what the Levites did with the reading and what the words did to the people (1 Esdras 9:48; 9:55; the KJV has \"understand\"). Earlier the king's letter makes the law royal law for the Jews of Syria and Phoenicia, with Ezra to appoint judges and teach it (1 Esdras 8:23-24).</p>",
     "refs": "1 Esdras 8:23-24; 1 Esdras 9:37-55; Nehemiah 8:1-12"
    }
   ]
@@ -106,7 +110,7 @@
   "sections": [
    {
     "h": "The house finished in 1 Esdras",
-    "b": "<p>1 Esdras dates the completion of the rebuilt temple to the twenty-third of Adar in Darius's sixth year, early in 515 BC, where Ezra 6:15 has the third (1 Esdras 7:5). The dedication offerings, twelve goats for the twelve tribes, and the Passover that follows match Ezra 6:16-22 (1 Esdras 7:6-15).</p>",
+    "b": "<p>1 Esdras dates the completion of the rebuilt temple to the twenty-third of Adar in Darius's sixth year, where Ezra 6:15 has the third (1 Esdras 7:5). The dedication offerings, twelve goats for the twelve tribes, and the Passover that follows match Ezra 6:16-22 (1 Esdras 7:6-15).</p>",
     "refs": "1 Esdras 7:1-15; Ezra 6:13-22; Haggai 2:18"
    }
   ]

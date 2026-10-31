@@ -308,13 +308,19 @@
    "views": [
     [
      "Orthodox",
-     "Yes, for the Greek church. Greek Orthodox Bibles print it as the first book of Esdras, before Ezra–Nehemiah, and read it with the rest of the Old Testament. Other Orthodox churches number it differently, and no council has fixed its place for all of them."
+     "Orthodox Bibles print it: the Orthodox Study Bible's Old Testament has it as 1 Ezra, and the Russian Synodal Bible prints it as 2 Ezra, marked non-canonical. The Orthodox Church \"has never officially committed itself to a single text and list of Old Testament books\" (Orthodox Study Bible).",
+     [
+      "orthodox-study-bible",
+      "russian-synodal-azbyka"
+     ]
     ],
     [
      "Catholic",
      "No. The Council of Trent's list of 1546 left it out. The official Latin Bible of 1592 printed it, as 3 Esdras, in an appendix after the New Testament, so that it would not be lost.",
      [
-      "trent-canon"
+      "trent-canon",
+      "vulgate-clementine-preface",
+      "gallagher-vulgate-appendix"
      ]
     ],
     [
@@ -326,7 +332,10 @@
     ],
     [
      "Lutheran",
-     "Luther left it out of his Bible altogether, with 4 Ezra. In his preface to Baruch he said these two books held nothing that could not be found better in Aesop."
+     "Luther's Bible (Wittenberg, 1534) leaves it out: its list of the Apocrypha has no book of Esdras.",
+     [
+      "luther-bible-1534"
+     ]
     ],
     [
      "Reformed",
