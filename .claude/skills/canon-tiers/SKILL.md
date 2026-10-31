@@ -35,5 +35,8 @@ canon block adds `christian_view` and `matches`, and `cited_in` may use kind `pa
 - Greek additions to Esther and Daniel stay as variants and notes in those books, never in the Plain.
 
 # Order of work agreed in the cloud project
-1 Enoch, Tobit, Judith, 1 Maccabees (published), 2 Maccabees (nearly ready), Wisdom (planned), then Sirach,
-Baruch + Letter of Jeremiah, Orthodox extras, Jubilees, then tier 3. Details: `notes/bible-site-noncanon*.md`.
+Published: 1 Enoch, Tobit, Judith, 1–2 Maccabees, Wisdom, Sirach, Baruch + Letter of Jeremiah (Bar 6), 1 Esdras,
+3 Maccabees (2026-10-31). Next: the remaining Orthodox extras (4 Maccabees, Prayer of Manasseh, Psalm 151), Jubilees,
+then tier 3. Septuagint books keep Swete's numbering; where the KJV numbers differ, a `tools/<id>-numbers.tsv` table
+shows the KJV beside each Greek verse, and typos in the digital Swete go in `tools/swete-fixes.json` (found by collating
+against First1KGreek). Details: `notes/bible-site-noncanon*.md`.

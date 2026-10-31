@@ -74,8 +74,8 @@ Skills (`.claude/skills/`), loaded automatically when relevant: `book-pipeline`,
 
 Book ids are the STEPBible codes: Gen Exo Lev Num Deu Jos Jdg Rut 1Sa 2Sa 1Ki 2Ki 1Ch 2Ch Ezr Neh Est Job Psa Pro
 Ecc Sng Isa Jer Lam Ezk Dan Hos Jol Amo Oba Jon Mic Nam Hab Zep Hag Zec Mal Mat Mrk Luk Jhn Act Rom 1Co 2Co Gal Eph
-Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev. Outside the 66: 1En Tob Jdt 1Ma 2Ma, then Wis
-(Wisdom) and onward as they are added.
+Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev. Outside the 66: 1En Tob Jdt 1Ma 2Ma Wis Sir
+Bar (with the Letter of Jeremiah as chapter 6) 1Es 3Ma Atr, and onward as they are added.
 
 A tip on cost: a large book is 6 to 13 parts, and each part means a writer, a reviewer and a fixer. That is a lot
 of agent time, so you may want to do one book at a time.

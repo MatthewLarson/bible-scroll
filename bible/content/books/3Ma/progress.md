@@ -1,4 +1,4 @@
-Status: reviewed, ready
+Status: reviewed, published
 
 Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; book.json and sources.json by a separate writer. Lenses O H J N W. Brief tools/brief-3ma.md. Book card: is 3 Maccabees Scripture (top canon).
 - 2026-10-30: texts built; planned; writers started.
@@ -9,3 +9,4 @@ Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's Engl
 - 2026-10-31: part 04-07 review fixes applied (23 findings: 22 fixed, 1 partly; 50 Plain verses changed, incl. 46 rebuilt after a NETS drift audit; 7:22 back to Swete; 6 new variants, 22 in all; Wikipedia keys removed, dating from Emmet, Swete's Introduction and Tcherikover; LSJ key lsj-perseus added); --check 3Ma/04-07 at 0/0.
 - 2026-10-31: book-level review fixes applied (review-book.md: 20 findings, 19 fixed, 1 for the lead): Orthodox row per the OSB ("never officially committed itself"), "About this translation" names every departure from Swete, Wikipedia removed (Cowley for the Meqabyan), Hebrews links moved to reliability, Acts 22:28 and Pulpit on Revelation 13:16 added, `apostolic-canons-anf` renamed `apostolic-canons-npnf`, Brenton cited as `brenton-1851`; --check 3Ma 0/0.
 - 2026-10-31: both parts and book.json hostile-reviewed with fixes applied; lead alignment (2 Maccabees quote of 1:18-19 synced); --check 0/0. Reviewed, ready. Optional later: back-pointers to 3 Maccabees from Galatians 6:17, Hebrews 9:7, 11:33-34, Revelation 13:16, Acts 22:28.
+- 2026-10-31: published (release 2026-10-31).

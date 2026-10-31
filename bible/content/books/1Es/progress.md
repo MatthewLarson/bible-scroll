@@ -1,4 +1,4 @@
-Status: reviewed, ready
+Status: reviewed, published
 
 Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a separate writer. Lenses O H J S W (S = Beside Chronicles-Ezra-Nehemiah, W = Western churches). Parallel rule: the Plain of 2 Chronicles, Ezra and Nehemiah is the model. Brief tools/brief-1es.md. No canon card (Ezra's card asks it).
 - 2026-10-30: texts built; planned; writers started.
@@ -11,3 +11,4 @@ Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vu
 - 2026-10-31: part 01-02 hostile review fixed: 21 findings, 18 fixed, 3 partly (12 optional spellings, 13, 14), none declined outright. Plain changed at 1:50, 1:51, 1:53, 1:54, 2:1, 2:7 (2:7 now follows B; A in a new variant, so 1:33 stays the only departure from Swete); new variants 1:11, 2:7; new note 1:9; new setting 1:30. Counts: 80 verses, 61 notes, 20 variants, 33 glosses, 2 chapter pages (6 settings), 14 topic contributions. Parallel table re-run: same 4 / differs 74 / no parallel 2. Check 0/0. Scratch .scratch/1es-01-02-fix/.
 - 2026-10-31: part 06-09 hostile review applied (22 findings: 19 fixed, 1 partly, 2 declined; see review.md). Plain changed at 6:6, 6:14, 8:12, 8:22, 8:48, 8:51, 8:56, 8:63, 8:85, 9:17, 9:22, 9:32, 9:48, 9:55. Now 113 notes, 26 variants, 65 glosses; --check 1Es/06-09 0/0. Scratch .scratch/1es-06-09-fix/.
 - 2026-10-31: all parts and book.json hostile-reviewed with fixes applied; digital Swete collated against First1KGreek (corrections in tools/swete-fixes.json); lead alignment (Ezra card; readings credited to '1 Esdras' in 2 Chronicles, 2 Kings, Ezra, Nehemiah and Psalms now name their witness; quotes synced); --check 0/0. Reviewed, ready.
+- 2026-10-31: published (release 2026-10-31).

@@ -335,7 +335,8 @@ def kjv_in_greek_order(kjv, table):
     out, seen = {k: t for k, t in kjv.items() if k.split(':')[0] not in chs}, set()
     for g, k, _, also in rows:
         whole = ([] if k in seen else [k]) + [a for a in also.split(',') if a]
-        out[g] = ' '.join(([f'[part of KJV {k}]'] if k in seen else []) + [f'[KJV {x}] {kjv[x]}' for x in whole])
+        out[g] = ' '.join(([f'[part of KJV {k}]'] if k in seen else []) +   # the KJV's own number only where it differs
+                          [kjv[x] if [x] == whole and x == g else f'[KJV {x}] {kjv[x]}' for x in whole])
         seen.update(whole)
     lost = {k for k in kjv if k.split(':')[0] in chs} - seen
     assert not lost, ('KJV verses the table does not place', sorted(lost))
