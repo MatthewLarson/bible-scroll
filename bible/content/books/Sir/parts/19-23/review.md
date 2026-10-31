@@ -173,3 +173,29 @@ Examples:
 **Quotes of other books.** 6:29-30, 27:16, 30:20, 38:17, Proverbs 17:17 and 18:24, and the others tested all match the current Plain.
 
 ## Fixes applied
+
+Fixer, 2026-10-31 (separate agent). Checked this session: Swete's notes (texts/src/Sir.app.json), Hart 1909 page images (archive.org ecclesiasticusgr00hart, pp. 24-32), MS C transcriptions (Abegg C V recto/verso, Elizur C VI recto/verso) and the C V recto plate at bensira.org, MS A I recto (Abegg), the Clementine Vulgate (texts/src/Sir.lat.json), Kahana (texts/src/Sir.heb.json), Sefaria Bava Batra 16a and Niddah 16b. Scratch: .scratch/Sir-19-23-fix/.
+
+1. Fixed. New 23:14 variant on the third μή: B with μή (Plain reads it as resuming "lest", so the Plain follows Swete here), ℵ and 248 (page image) and Vulgate 23:19 without it, A without μή and without the verb (Swete's note "om καταρασῃ A", which the review missed). The συνεδρεύει "why" rewritten (one letter, final s; no "itacism" claim). Departures stay 19:5 and 23:14 (συνεδρεύεις).
+2. Fixed. 20:5 note rewritten: MS C V recto line 9 keeps only "and is counted"; "wise" is Kahana's restoration. New 20:5b variant: C line 10 נמאס בריב ש (Abegg) against the Greek "much talk", Kahana's ברוב שיח named as his edition, marked uncertain (plate viewed; cannot decide ריב/רוב beyond the transcription).
+3. Fixed. 19:5 variant: ℵ* πονηρᾷ, 248 ἐπὶ κακοεξίᾳ (page image), Vulgate "Qui gaudet iniquitate" as separate readings; KJV dropped as a witness; the copyist's-eye explanation labeled Claude's conjecture, with A's κακίᾳ→καρδίᾳ at 19:6 from Swete's notes.
+4. Fixed. 20:31 variant adds MS C VI recto 3-4 מצפין twice (Elizur); A's agreement stated as inferred from Swete's silence; 20:30's Hebrew (V verso 12, VI recto 1-2) noted as not differing in sense.
+5. Fixed. All five gap variants, the ch. 19 deep section "The bracketed verses" and the tree-of-life topic now say the Latin has verses with those numbers holding other lines (checked: Vulgate 19:18 = Greek 19:17b+20, 19:19 = 19:22, 19:21 = 19:24, 22:9 = 22:8, 22:10 = 22:11) and no line with this content.
+6. Fixed per lead decision 6. 21:12 now "cannot be taught" (schooling); the rest stays "discipline/undisciplined" (correction, whips at 22:6, 23:2). 20:19 note rewritten with the rule and 51:23 "untaught". My terms entry in proposals/works/terms.json reconciled to the rule (the 01-06 entry is that fixer's). 22:3: "son" changed to "child" (the Greek has no noun and ἀπαίδευτος has one form for both genders), with the note saying so.
+7. Fixed. Unsourced church lines cut: ch19 O, ch20 O, ch21 C and O, ch22 C, ch23 O dropped; ch19 C/P, ch21 P, ch22 P, ch23 C/J reduced to what the text and cross-references show; the "keep it below the 66" sentence (ch22 deep) and the 22:3 canon-note last sentence removed.
+8. Fixed. 22:9 "why": Hart prints them after 22:6, before 22:7; the KJV and this site after 22:8 (checked texts/en).
+9. Fixed. Title is "Words of proverbs" (heading, note, setting, chapter summary); both manuscript titles now shown as "'...' (a Greek title)"; the 23:7 note adds 248's title and its "of a truthful mouth" (page image p. 30).
+10. Fixed. New 19:8 variant with the Latin "et si est tibi delictum, noli denudare"; the note says which words the Plain supplies.
+11. Fixed. 20:9 variant gives 248's full line ἔστιν εὐδοκία ἐν κακοῖς ἀνδρὶ ἁμαρτωλῷ (page image) and the Vulgate.
+12. Partly. Added variants for 19:3b (248 + Vulgate), 21:11 (248 σοφίας πρόσληψις, also νόμον Κυρίου), 22:6 (248 without παντί; ℵ* σοφία), 23:25 (ℵA and 248 οὐκ οἴσουσι; 248 υἱοὶ αὐτῶν, Vulgate filii). The review's lemma for 23:25 was wrong: Swete's note is on the second verb (οὐ δώσουσιν), not διαδώσουσιν. 21:26 A φρονίμων added to that variant's b. 23:7 ἀληθινοῦ in the note. Declined 19:12: Hart's footnote "Cod. μέλος" does not say which word it replaces (βέλος or μηρῷ), and no sense changes.
+13. Fixed. Ch19 deep says Kahana's 19:2 also holds Greek 19:3b; ch19 J view limited to the manuscripts read.
+14. Fixed. 21:23 variant: בח read, חוץ restored, Kahana's וכבוד לאיש בחוץ יעמוד named as his edition.
+15. Fixed. kofer is "atonement" in the variant, as in the chapter and topic.
+16. Fixed. "Reish Lakish" in the 21:27 note, the ch21 deep section and the satan topic (checked on Sefaria).
+17. Fixed. Variant and note say the digital copy of Swete's note is damaged (διηγξσονται) and the site reads διηγήσονται.
+18. Fixed. Purpose clause removed; the note says only what 22:16, 1 Kings 6:36 and Ezra 6:4 say.
+19. Fixed. General claim removed; the note gives Ben Sira's picture and says Acts 22:24 concerns a prisoner, not a slave.
+20. Fixed. The unnamed "some link it to 23:14" sentence and Exodus 21:17 removed. No Hebrew for 23:12 in MS C (it ends at 23:11, VI verso 9-10) or Kahana; no claim added.
+21. Fixed. Plain 23:16 "Two kinds pile up sins" (no "of people"); the note says the Greek does not identify the three and gives the Vulgate's "duo genera".
+22. Fixed. Glosses 19:23, 22:27, 22:17, 21:22 reworded; 22:13 and 23:24 glosses removed.
+Other points: 19:6 "idle talk" changed to "chatter" (λαλιά); 23:2 note now explains "their sins"; 22:18 "margin of codex 248" removed (siglum unresolved); settings rewritten per lead decision 5 (each `readers` names what survives for its verses; one general statement in the ch19 deep section; the stock date removed from every `when` and from two views, per decision 2); 21:1 note cites MS A I recto lines 4 and 21 (Abegg) instead of Kahana (decision 12). Decision 13 applied: 19:23 "something abhorrent", 21:4 "insolence", 22:22 "pride", 23:8 "the proud". friendship proposal: Proverbs 27:6, 27:17, Ecclesiastes 4:9-12, Job 6:14-15, Psalm 55:12-14, John 15:15, James 4:4 and a Sirach section added; the `links` entry is a real Wikipedia article and was kept; `sources` stays empty because it quotes only Scripture. No card judged necessary (noted in progress.md).
