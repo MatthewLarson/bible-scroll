@@ -108,3 +108,39 @@ Brief: gap lines must come from a witness actually read. The variant says the Pl
 - No em-dashes in any file; reading level is fine except as noted.
 
 ## Fixes applied
+
+Fixer, 2026-10-31 (separate agent), under the lead's decisions in .scratch/sir-review-notes.md. Opened this session: Abegg's transcriptions of MS A V recto to VI verso and MS C V recto (bensira.org PDFs, with the navigator's shelfmarks and verse ranges), Hart 1909 page images n38-n44 and his textual commentary (archive.org djvu text), Swete's notes (texts/src/Sir.app.json), the Vulgate and Douay (texts/src/Sir.lat.json), Kahana (texts/src/Sir.heb.json), CCC 1730 and 1739 (vatican.va), Luther tr. Vaughan (archive.org text, Part III sects. VI, XIII-XIV, XVIII), Calvin Inst. 2.5.18 (CCEL, Beveridge), Dositheus Decrees 4 and 14 (crivoice.org), Article VI (churchofengland.org), Augustine De gratia et libero arbitrio 3 (newadvent) and De Genesi ad litteram 6 (augustinus.it), Sefaria Bava Kamma 92b and Sanhedrin 100b, Josephus Ant. 13.163-173 (lexundria), tools/lxx.py (Gen 2:17, Lev 16:30, Deu 21:20), LSJ συμβολή/συμβολοκοπέω (lsj.gr copy). Hebrew copied by script from the transcriptions and checked letter by letter. Scratch: .scratch/sir-13-18-fix/.
+
+1. Fixed. Card rebuilt per decision 10: question now "What freedom is the verse speaking of?"; rows only where the source addresses 15:14 itself: Catholic (CCC 1730 via GS 17, 1739), Lutheran (rule over creatures; Sect. XVIII "any man, and every man"), Reformed (Calvin, Beveridge, new key calvin-beveridge). Orthodox and Anglican rows dropped (neither source cites the verse); Dositheus kept as the ch. 15 O view, now saying the Confession does not cite the passage; "fits that teaching" and every "Every person now" removed. It differs from the Deuteronomy 30 card (ability of the fallen will) and points to it from the readings and the 15:17 note. ch. 15 `readings` corrected on Luther.
+2. Fixed. 13:12 note gives MS A V verso 6 מושל with Hart's "establish dominion" and says Kahana prints כשל (checked in Kahana).
+3. Fixed. 16:14 variant and note give both Hebrew lines (VI verso 16-17); the topic says "first line of the Hebrew".
+4. Fixed. 18:23 Hebrew reading, note sentence, ch. 18 J sentence and vows-topic clause removed (no manuscript found). 18:33 now MS C V recto 3-4 with ומאומ[ה] marked as restored and בכיס; Kahana's בכים named as a misprint; ch. 18 H view and 18:33 note say manuscript C.
+5. Fixed (decision 15). Plain 16:7, 16:11, 17:29, 18:12, 18:20 now "forgive / forgiveness"; new first-use note at 16:7 with the Greek, Leviticus 16:30, MS A "did not forgive" (VI verso 10) and "forgives and pardons" (line 14); "(Hebrew kipper)" removed at 16:11; 18:20 note points to 16:7; glosses at 16:11 and 18:12 removed; my terms entry in proposals/works/terms.json rewritten to the rule (the 01-06 entry is that fixer's).
+6. Fixed. Spec note labeled "Claude's theory", hedge sentences removed, Sinaiticus/Alexandrinus stated as Swete's silence, Hart's "drastic reviser" added for the Latin.
+7. Fixed. 13:14 follows Hart's pointing (page n38): Plain "[Love the Lord, / and call on him to save you.]"; the Vulgate/KJV division is a separate reading; 13:13 R2 now "in your sleep, keep awake all your life".
+8. Fixed. 14:20: B with ℵ* and A (Swete's silence) against ℵc.a, 70, 106, 248, 253 (Hart; 248 μελετήσει καλά on the page); the Latin point corrected (Hart's Latin has morietur, the Clementine morabitur). 14:16: 106, 248, 253, 296 added (248 on the page). 13:24: "single letter" wording corrected; 248 ἀσεβοῦς added. 17:13: 70, 155, 253, 254, 296, 307 added, 248 shown with B (αὐτῶν on the page), `why` now a reasoned departure.
+9. Fixed (decisions 2 and 5). Every setting rewritten: no stock date, no class claim in `to`, the class question as two views on the first setting, `readers` names what survives for those verses with folio and line, sources on each; the wrong "MS A holds 13:7-16:26" removed.
+10. Fixed. 13:3 "and then he is the one who has to beg"; the note gives MS A's yitchanan (V recto 26).
+11. Fixed. 15:10 "the Lord will make it prosper".
+12. Fixed. 15:15 rebuilt from the Greek: "and acting faithfully is a matter of good will"; the variant says whose good will is open; gloss removed.
+13. Declined. In 15:3 σοφίας names what the water is, parallel to "bread of understanding" (the Hebrew of MS A VI recto 16-17 has "water of understanding"); Wisdom the person is already the subject ("she").
+14. Fixed. 14:7 "he does it in a moment of forgetting" (gloss and variant anchor updated).
+15. Fixed. 16:9 note says a corrector of Sinaiticus writes "Canaan" and adds a line; new 16:9 variant with ℵc.a's addition from Swete's notes and Hart's reading of it. The B siglum in the digital note is unclear and is not cited.
+16. Fixed. 16:11 note gives Abegg's יגיה (VI verso 15), Kahana's יניח, Hart's rendering.
+17. Fixed. Calvin quoted whole ("what he now wants is a physician, and not a defender") in the card, view and deep section; Beveridge named in the new key calvin-beveridge.
+18. Fixed. Matthew 10:16 and Deuteronomy 7:2 quotes now match their current Plain.
+19. Partly. Augustine locators 6.3.4 and 6.6.11 checked and kept; LXX θανάτῳ ἀποθανεῖσθε checked and kept; LSJ symbolē checked and kept (the 18:33 note cites lsj-greek); "Old Latin Jerome left unrevised" and the Zeboim sentence cut.
+20. Fixed. 15:20 note names only Dositheus (Decree 4, new key dositheus-decree-4) and Avot.
+21. Fixed. Rav Yosef's continuation ("we teach the superior matters ... even in public") added to the 13:15 note and the canon topic; Bava Kamma wording no longer in quotation marks.
+22. Fixed. Josephus placed in Jonathan's time "a few decades after Ben Sira", written late first century AD (Ant. 13.163-173 checked; locator now 13.171-173); the unlabeled "closest to the Pharisees and Sadducees" judgment removed.
+23. Fixed. Decree 4 has its own key; kahana-ben-sira kept only where Kahana's wording is discussed; every Hebrew citation now gives manuscript, folio and line from Abegg's transcription (decision 12).
+24. Fixed. New variants 14:1, 14:2, 15:15 (συντηρῆσαι 55, 157, 253, 254 per Hart; Latin "conservabunt te"), 16:7 (ἀφροσύνης), 16:9, 17:4, 17:11, 17:19 (διό), 18:4 (τίνι, with the Latin). The review's "248: συντηρῆσαι" was wrong: Hart's page prints συντηρήσεις for 248.
+25. Fixed. 17:5 now ἑρμενέα as Hart prints it, with his note that the manuscript has ἑρμηνεία; 16:15 credits 106 only as Hart's commentary groups it.
+26. No change needed (eight gap lines plus the 13:13 addition, as stated).
+27. Fixed with 1.
+28. Fixed. ch. 16 C cites Vulgate 16:15; ch. 13 C cites Vulgate 13:18.
+29. Fixed. Unsourced O, P and C lines cut in chs. 13, 14, 16, 17, 18; ch. 13 P now quotes Article VI (checked); ch. 14 J's "basic idea of later Jewish teaching" cut.
+30. Fixed. ch. 18 O removed; the 18:17 word note keeps the Luke 1:28 point.
+31. Fixed. Glosses at 18:12, 16:11 and 17:8 removed.
+32-33. No change needed.
+Also: "Minuscule 248 (a Vatican manuscript of the 1300s)" changed to "(Vatican codex 346)", as Hart's list of abbreviations gives it (the date was not checked); free-will topic's superlative ("clearest statement") and "first step" claim removed (decision 4).
