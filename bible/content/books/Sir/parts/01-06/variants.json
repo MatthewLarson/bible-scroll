@@ -3,8 +3,14 @@
   "v": "1:5",
   "a": "[The spring of wisdom is the word of God in the heights, / and her paths are commandments that last forever.]",
   "t": "A line only in the longer text (1:5)",
-  "p": "Vaticanus has no verse 1:5; the Latin and the KJV have one, translated here from the Latin.",
+  "p": "Vaticanus has no verse 1:5; the line stands in the longer Greek, the Latin and the KJV.",
   "readings": [
+   {
+    "w": "The longer Greek text, in some later manuscripts as reported in Fritzsche's notes (1871); the KJV follows this text",
+    "orig": "πηγὴ σοφίας λόγος θεοῦ ἐν ὑψίστοις, καὶ αἱ πορεῖαι αὐτῆς ἐντολαὶ αἰώνιοι",
+    "en": "The spring of wisdom is the word of God in the highest places, and her goings are everlasting commandments.",
+    "plain": "[The spring of wisdom is the word of God in the heights, / and her paths are commandments that last forever.]"
+   },
    {
     "w": "The Latin Vulgate (Clementine, 1592), 1:5, which keeps the Old Latin of Sirach; the KJV has the same line",
     "orig": "Fons sapientiæ verbum Dei in excelsis, et ingressus illius mandata æterna.",
@@ -19,12 +25,13 @@
    }
   ],
   "follow": 0,
-  "why": "The line belongs to the longer form of the Greek, which the Latin and the KJV follow. The Plain shows it in brackets, translated from the Latin, so that every verse number has a line; the base text lacks it.",
+  "why": "The line belongs to the longer form of the Greek, which the Latin and the KJV follow. The Plain shows it in brackets, translated from that Greek (the Latin says the same), so that every verse number has a line; the base text lacks it.",
   "s": [
    "swete-lxx",
    "vulgate-clementine",
    "douay-rheims",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "fritzsche-apocrypha"
   ]
  },
  {
@@ -57,21 +64,21 @@
  },
  {
   "v": "1:21",
-  "a": "[The fear of the Lord drives sin away.]",
-  "t": "A line only in the longer text (1:21)",
-  "p": "Vaticanus has no verse 1:21; the Latin has \"The fear of the Lord drives out sin,\" and the KJV adds a second line.",
+  "a": "[The fear of the Lord pushes sins away, / and where it stays, it turns anger aside.]",
+  "t": "A verse only in the longer text (1:21)",
+  "p": "Vaticanus has no verse 1:21; the longer Greek has two lines, which Clement of Alexandria quotes; the Latin has the first.",
   "readings": [
+   {
+    "w": "The longer Greek text, in some later manuscripts and quoted by Clement of Alexandria, as reported in Fritzsche's notes (1871); the KJV follows this text",
+    "orig": "φόβος κυρίου ἀπωθεῖται ἁμαρτήματα, παραμένων δὲ ἀποστρέφει ὀργήν",
+    "en": "The fear of the Lord pushes away sins, and remaining, it turns away anger.",
+    "plain": "[The fear of the Lord pushes sins away, / and where it stays, it turns anger aside.]"
+   },
    {
     "w": "The Latin Vulgate (Clementine, 1592), 1:27",
     "orig": "Timor Domini expellit peccatum",
     "en": "The fear of the Lord drives out sin.",
     "plain": "[The fear of the Lord drives sin away.]"
-   },
-   {
-    "w": "The KJV (1611), 1:21, from the longer Greek text",
-    "orig": "(no Greek given here)",
-    "en": "The fear of the Lord driveth away sins: and where it is present, it turneth away wrath.",
-    "plain": "[The fear of the Lord drives sin away, / and where it is present, it turns anger aside.]"
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the base text of this site",
@@ -81,11 +88,11 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain gives the one line that the Latin has, in brackets. The KJV has a second line, which the Plain does not take because this site does not translate from the KJV.",
+  "why": "The Plain gives the longer Greek in brackets, the oldest form of the verse that survives. Fritzsche's notes report variations in the second line's verb in some manuscripts.",
   "s": [
    "swete-lxx",
+   "fritzsche-apocrypha",
    "vulgate-clementine",
-   "douay-rheims",
    "kjv-apocrypha"
   ]
  },
@@ -93,13 +100,19 @@
   "v": "3:19",
   "a": "[There are many who stand high and are held in glory, / yet it is to the gentle that he makes his secrets known.]",
   "t": "A line added by a corrector of Sinaiticus (3:19)",
-  "p": "Vaticanus has no verse 3:19; a later hand in Sinaiticus added it after 3:18, and the Hebrew has its second half.",
+  "p": "Vaticanus has no verse 3:19; a later hand in Sinaiticus and later Greek copies add it, and the Hebrew has its second half.",
   "readings": [
    {
-    "w": "Codex Sinaiticus, a corrector (ℵc.a), as reported in Swete's notes on 3:18 (the digital copy of the note is damaged in one word, of which the root δοξ-, \"glory,\" is legible); the KJV has the verse",
-    "orig": "πολλοί εἰσιν ὑψηλοὶ καὶ [one damaged word: …δοξ…]· ἀλλὰ πραέσιν ἀποκαλύπτει τὰ μυστήρια αὐτοῦ",
+    "w": "Codex Sinaiticus, a corrector (ℵc.a), as reported in Swete's notes on 3:18 (the digital copy of the note is damaged in one word, which Fritzsche's notes give as ἐπίδοξοι, \"renowned\"); the KJV has the verse",
+    "orig": "πολλοί εἰσιν ὑψηλοὶ καὶ [ἐπίδοξοι]· ἀλλὰ πραέσιν ἀποκαλύπτει τὰ μυστήρια αὐτοῦ",
     "en": "Many are lofty and [glorious]; but to the meek he reveals his mysteries.",
     "plain": "[There are many who stand high and are held in glory, / yet it is to the gentle that he makes his secrets known.]"
+   },
+   {
+    "w": "The longer Greek text, in some later manuscripts as reported in Fritzsche's notes (1871), after 3:18",
+    "orig": "πολλοί εἰσιν ὑψηλοὶ καὶ ἐπίδοξοι, ἀλλὰ πραέσιν ἀποκαλύπτεται μυστήρια (αὐτοῦ)",
+    "en": "Many are lofty and renowned, but to the meek mysteries are revealed.",
+    "plain": "[There are many who stand high and are held in glory, / yet it is to the gentle that secrets are revealed.]"
    },
    {
     "w": "Hebrew, Cairo Genizah manuscript A (a medieval copy; Cambridge University Library, T-S 12.863–864), as transcribed by Martin Abegg, 3:20, which has only a second line like this one",
@@ -119,14 +132,15 @@
   "s": [
    "swete-lxx",
    "abegg-bensira-msa",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "fritzsche-apocrypha"
   ]
  },
  {
   "v": "3:25",
   "a": "[Where the eye has no pupil, there is no light, / and where there is no knowledge, there is no wisdom.]",
   "t": "A line the Hebrew has (3:25)",
-  "p": "Vaticanus has no verse 3:25; the line is translated from the Hebrew, where it follows 3:27. The KJV's second line differs.",
+  "p": "Vaticanus has no verse 3:25; the line is translated from the Hebrew, where it follows 3:27. The longer Greek and the KJV have another second line.",
   "readings": [
    {
     "w": "Hebrew, Cairo Genizah manuscript A (a medieval copy; Cambridge University Library, T-S 12.863–864), as transcribed by Martin Abegg, folio I recto, lines 16–17, where it stands after 3:27",
@@ -135,10 +149,10 @@
     "plain": "[Where the eye has no pupil, there is no light, / and where there is no knowledge, there is no wisdom.]"
    },
    {
-    "w": "The KJV (1611), 3:25, from the longer Greek text",
-    "orig": "(no Greek given here)",
-    "en": "Without eyes thou shalt want light: profess not the knowledge therefore that thou hast not.",
-    "plain": "[Without eyes you will lack light; / so do not claim knowledge you do not have.]"
+    "w": "The longer Greek text, in some later manuscripts as reported in Fritzsche's notes (1871); the KJV follows it",
+    "orig": "κόρας μὴ ἔχων ἀπορήσεις φωτός, γνώσεως δὲ ἀμοιρῶν μὴ ἐπαγγέλλου",
+    "en": "Not having pupils, you will lack light; and having no share of knowledge, do not profess it.",
+    "plain": "[If you have no pupils in your eyes, you will lack light; / so if you have no share in knowledge, do not claim it.]"
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the base text of this site; the Latin also lacks the line",
@@ -148,11 +162,12 @@
    }
   ],
   "follow": 0,
-  "why": "The Hebrew is the oldest form of the line we have, so the Plain translates it, in brackets. The KJV's longer Greek turns the second half into a warning against pretending to know.",
+  "why": "The Hebrew is the oldest form of the line we have, so the Plain translates it, in brackets. The longer Greek, which the KJV follows, turns the second half into a warning against pretending to know.",
   "s": [
    "swete-lxx",
    "abegg-bensira-msa",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "fritzsche-apocrypha"
   ]
  },
  {
