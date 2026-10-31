@@ -320,7 +320,8 @@ def kahana():
     """David Kahana's Hebrew Ben Sira (Warsaw 1912) from Sefaria, under Kahana's own chapter and verse numbers."""
     out = {}
     for c in range(1, 52):
-        d = json.load(open(f'{DL}/sefaria/{c}.json'))
+        f = f'{DL}/sefaria/{c}.json'   # no file: Kahana prints no text for that chapter (tools/works-fetch.sh)
+        d = json.load(open(f)) if os.path.exists(f) else {}
         for v, t in enumerate(d['versions'][0]['text'] if 'versions' in d else [], 1):
             t = clean(re.sub(r'<br>|<small>|</small>', ' ', t))
             if t: out[f'{c}:{v}'] = unicodedata.normalize('NFC', t)

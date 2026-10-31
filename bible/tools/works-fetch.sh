@@ -16,9 +16,17 @@ if [ ! -d bible_databases ]; then   # KJV Apocrypha, Clementine Vulgate, Douay-R
   git clone --depth 1 --filter=blob:none --sparse https://github.com/scrollmapper/bible_databases
   (cd bible_databases && git sparse-checkout set --no-cone formats/json/KJVA.json formats/json/VulgClementine.json formats/json/DRC.json)
 fi
+# The next two are built in a .tmp folder and moved into place only when complete, so a failed run is retried.
 if [ ! -d brenton ]; then   # Brenton's English Septuagint (1851), public domain, from eBible.org (3 Maccabees has no KJV)
-  mkdir brenton && (cd brenton && curl -sSf -o b.zip https://ebible.org/Scriptures/eng-Brenton_usfm.zip && unzip -q b.zip && rm b.zip)
+  rm -rf brenton.tmp && mkdir brenton.tmp
+  curl -sSf -o brenton.tmp/b.zip https://ebible.org/Scriptures/eng-Brenton_usfm.zip
+  (cd brenton.tmp && unzip -q b.zip && rm b.zip) && mv brenton.tmp brenton
 fi
-if [ ! -d sefaria ]; then   # Kahana's Hebrew Ben Sira (Warsaw 1912), from Sefaria (CC BY-SA); chapters it lacks return an error object
-  mkdir sefaria && for c in $(seq 1 51); do curl -sSf -o sefaria/$c.json "https://www.sefaria.org/api/v3/texts/Ben_Sira.$c?version=hebrew" || echo '{}' > sefaria/$c.json; done
+if [ ! -d sefaria ]; then   # Kahana's Hebrew Ben Sira (Warsaw 1912), from Sefaria (CC BY-SA)
+  rm -rf sefaria.tmp && mkdir sefaria.tmp
+  for c in $(seq 1 51); do   # 404: Kahana prints no text for the chapter (no file); anything else that fails stops the run
+    s=$(curl -sS -o sefaria.tmp/$c.json -w '%{http_code}' "https://www.sefaria.org/api/v3/texts/Ben_Sira.$c?version=hebrew")
+    case $s in 200) ;; 404) rm -f sefaria.tmp/$c.json ;; *) echo "Sefaria Ben Sira $c: HTTP $s" >&2; exit 1 ;; esac
+  done
+  mv sefaria.tmp sefaria
 fi
