@@ -79,6 +79,6 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | 2Ma | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Alexandrinus), KJV apocrypha, Vulgate/Douay; Swete/KJV numbering (12:43-45 prayer for the dead, 15:37-39 epilog |
 | Wis | reviewed, ready | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-10, 11-15, 16-19; book.json and sources.json by a sep |
 | Bar | reviewed, ready | Outside the 66 (tier dc). Baruch 1-5 and the Letter of Jeremiah (ch. 6). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate/Douay. Parts 01-05, 06-06; bo |
-| Sir | writing | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
+| Sir | written | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
 | 1Es | written | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a |
 | 3Ma | reviewed, ready | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; |
