@@ -78,7 +78,9 @@ WORKS = [
     ('Bar', 'Baruch', 'baruch', 'septuagint', {'grc': ['Bar', 'Epj@6'], 'en': 'Baruch', 'f1k': ['tlg050', 'tlg052@6'],
         'lat': 'Baruch', 'vol': 'III (1912)', 'codex': 'Codex Vaticanus (300s AD)',
         'note': 'Chapter 6 is the Letter of Jeremiah, a separate book in the Greek and Orthodox Bibles, numbered as in '
-                'Catholic Bibles and the KJV.',
+                'the Latin Vulgate.', 'en_order': 'bar-numbers.tsv',
+        'en_note': 'In chapters 3 and 6 it numbers some verses differently; there each line is shown beside the Greek '
+                   'verse that holds it, marked with the KJV’s own number.',
         'lat_note': 'The Vulgate keeps the Old Latin of Baruch, which Jerome did not revise.'}),
     ('Sir', 'Sirach', 'sirach', 'septuagint', {'grc': 'Sir', 'pre': 'Sip', 'en': 'Sirach', 'f1k': 'tlg034:grc2',
         'lat': 'Sirach', 'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)', 'heb': True,
@@ -90,9 +92,8 @@ WORKS = [
         'en_note': 'It follows the longer text, and in chapters 30–36 the Hebrew and Latin order; there each line is shown '
                    'beside the Greek verse that holds it, marked with the KJV’s own number.',
         'lat_note': 'The Vulgate keeps the Old Latin of Sirach, which Jerome did not revise, with many additions.'}),
-    ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017', 'lat': 'I Esdras',
-        'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)',
-        'lat_note': 'The Clementine Vulgate prints it in an appendix after the New Testament.'}),
+    ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017',   # no 'lat': the
+        'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)'}),   # scrollmapper Vulgate and Douay have its verses empty
     ('3Ma', '3 Maccabees', '3-maccabees', 'septuagint', {'grc': '3Ma', 'brenton': '3MA', 'gap': 'no verse here in Swete’s printed text (Codex Alexandrinus); Brenton’s English has one',
         'f1k': 'tlg025', 'vol': 'III (1912)', 'codex': 'Codex Alexandrinus (400s AD; Vaticanus lacks Maccabees)',
         'en_note': 'Its verse numbers follow the Greek.'}),
@@ -283,7 +284,9 @@ def scroll(trans, name):
     """A book of a scrollmapper translation as {c:v: text} (its own verse numbers)."""
     d = json.load(open(f'{DL}/bible_databases/formats/json/{trans}.json'))
     b = next(b for b in d['books'] if b['name'] == name)
-    return {f'{c["chapter"]}:{v["verse"]}': clean(v['text']) for c in b['chapters'] for v in c['verses']}
+    out = {f'{c["chapter"]}:{v["verse"]}': clean(v['text']) for c in b['chapters'] for v in c['verses']}
+    assert any(out.values()), f'{trans} {name}: the book has verse numbers but no text'   # e.g. the Vulgate appendix
+    return out
 
 def usfm(code):
     """A book of Brenton's English Septuagint (eBible.org USFM) as {c:v: text}."""
@@ -305,15 +308,17 @@ def kahana():
     return out
 
 def kjv_in_greek_order(kjv, table):
-    """An English text in another verse order (the KJV's Sirach 30-36) shown under the Greek verse numbers, each line
-    marked with its own number, from a table of Greek verse -> the verse it holds (tools/sir-numbers.tsv)."""
-    rows = [l.split('\t') for l in open(os.path.join(ROOT, 'tools', table)).read().split('\n') if l and not l.startswith('#')]
-    out, seen = {k: t for k, t in kjv.items() if int(k.split(':')[0]) not in range(30, 37)}, set()
+    """An English text numbered differently (the KJV's Sirach 30-36, Baruch 3 and 6, 1 Esdras) shown under the Greek
+    verse numbers, each line marked with its own number, from a table of Greek verse -> the verse it holds
+    (tools/<id>-numbers.tsv). Chapters the table does not list number alike."""
+    rows = [(l + '\t' * 3).split('\t')[:4] for l in open(os.path.join(ROOT, 'tools', table)).read().split('\n') if l and not l.startswith('#')]
+    chs = {g.split(':')[0] for g, *_ in rows}
+    out, seen = {k: t for k, t in kjv.items() if k.split(':')[0] not in chs}, set()
     for g, k, _, also in rows:
         whole = ([] if k in seen else [k]) + [a for a in also.split(',') if a]
         out[g] = ' '.join(([f'[part of KJV {k}]'] if k in seen else []) + [f'[KJV {x}] {kjv[x]}' for x in whole])
         seen.update(whole)
-    lost = {k for k in kjv if int(k.split(':')[0]) in range(30, 37)} - seen
+    lost = {k for k in kjv if k.split(':')[0] in chs} - seen
     assert not lost, ('KJV verses the table does not place', sorted(lost))
     return out
 

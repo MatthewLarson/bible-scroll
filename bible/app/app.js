@@ -110,12 +110,12 @@ function markWorks(root){
     while((m = WORK_RX.rx.exec(text))){ const hit = WORK_RX.alts.find(([a]) => a === m[1]); if(!hit || (hit[1] && !m[2])) continue;
       if(W[hit[2]].book && B && B.meta && W[hit[2]].book === B.meta.id) continue;   // inside the book itself its name needs no label
       parts.push(text.slice(at, m.index)); const b = document.createElement('button'), w = W[hit[2]];
-      b.className = 'work w-' + w.tier; b.dataset.work = hit[2]; b.dataset.tag = TIER[w.tier].tag; b.title = `${w.name}: ${TIER[w.tier].name}`; b.textContent = m[0];
+      b.className = 'work w-' + w.tier; b.dataset.work = hit[2]; if(m[2]) b.dataset.at = m[2].trim(); b.dataset.tag = TIER[w.tier].tag; b.title = `${w.name}: ${TIER[w.tier].name}`; b.textContent = m[0];
       parts.push(b); at = m.index + m[0].length; }
     if(parts.length){ parts.push(text.slice(at)); node.replaceWith(...parts); }
   });
 }
-const workOf = book => { const e = Object.entries(CAT.works || {}).find(([, w]) => w.book === book); return e ? Object.assign({id:e[0]}, e[1]) : {tier:'other', name:book}; };
+const workOf = book => { const e = Object.entries(CAT.works || {}).find(([, w]) => w.book === book && !w.c); return e ? Object.assign({id:e[0]}, e[1]) : {tier:'other', name:book}; };
 /* every page of a book outside the 66 carries its standing, so no page can be mistaken for Scripture */
 function tierBand(){
   if(!B || B.meta.t !== 'X') return ''; const w = workOf(B.id), t = TIER[w.tier];
@@ -136,10 +136,13 @@ function canonPage(c){
     <div class="box spec"><div class="tag">AI analysis (Claude): not a church’s judgment</div><h5>How reliable is it, measured by the Bible?</h5>${para((c.reliability || {}).verdict)}${sec((c.reliability || {}).sections)}</div>
     <h3>How to read it</h3>${sec(c.how_to_read)}${srcList(c.s)}`;
 }
-function workView(id){
+function workView(id, at){
   const w = CAT.works[id], t = TIER[w.tier];
   const book = w.book && BYID[w.book] && BYID[w.book].status !== 'text' ? w.book : null;
-  return {c:`var(--w-${w.tier})`, type:t.name, html:`<h3 id="mtitle" class="nowork">${w.name}</h3><p>${t.about}</p>${w.note ? `<p>${w.note}</p>` : ''}${book ? `<p><button class="pill" data-book="${book}">Read ${w.name} on this site, with its study notes →</button></p>` : ''}${w.topic && TIDX[w.topic] ? `<p><button class="pill" data-topic="${w.topic}">Topic page: ${TIDX[w.topic][0]}</button></p>` : ''}<p class="small muted">It is not one of the 66 books that every Christian Bible shares.${book ? '' : ' A full study of it is planned.'}</p>`};
+  /* a work that is one chapter of a site book (w.c: the Letter of Jeremiah is Baruch 6) opens at that chapter, and a cited
+     number ("Letter of Jeremiah 43") is its verse */
+  const go = !book ? '' : w.c ? `/${book}/${w.c}${/^\d+$/.test(at || '') ? '/' + at : ''}` : '/' + book;
+  return {c:`var(--w-${w.tier})`, type:t.name, html:`<h3 id="mtitle" class="nowork">${w.name}</h3><p>${t.about}</p>${w.note ? `<p>${w.note}</p>` : ''}${book ? `<p><button class="pill" data-link="${go}">Read ${w.name} on this site, with its study notes →</button></p>` : ''}${w.topic && TIDX[w.topic] ? `<p><button class="pill" data-topic="${w.topic}">Topic page: ${TIDX[w.topic][0]}</button></p>` : ''}<p class="small muted">It is not one of the 66 books that every Christian Bible shares.${book ? '' : ' A full study of it is planned.'}</p>`};
 }
 /* our fonts draw a straight " as a closing quote, so every displayed " becomes “ or ” by what comes before it */
 function smartQuotes(root){
@@ -957,7 +960,7 @@ function openModal(view, push=false){
 }
 async function renderModal(){
   const view = mstack[mstack.length-1];
-  const d = view.kind === 'notes' ? notesView(view.ids) : view.kind === 'note' ? noteView(view.id) : view.kind === 'variant' ? variantView(view.id) : view.kind === 'verse' ? await verseView(view.key) : view.kind === 'setting' ? settingView(view.i) : view.kind === 'work' ? workView(view.id) : await refView(view.r);
+  const d = view.kind === 'notes' ? notesView(view.ids) : view.kind === 'note' ? noteView(view.id) : view.kind === 'variant' ? variantView(view.id) : view.kind === 'verse' ? await verseView(view.key) : view.kind === 'setting' ? settingView(view.i) : view.kind === 'work' ? workView(view.id, view.at) : await refView(view.r);
   if(mstack[mstack.length-1] !== view) return;
   modal.querySelector('.mbox').style.setProperty('--c', d.c);
   modal.classList.toggle('multi', view.kind === 'notes');
@@ -1070,7 +1073,7 @@ document.addEventListener('click', e => {
   const tb = t.closest('[data-tbook]'); if(tb){ const r = parseHash(); if(store.get('topic-full') === '1' || !r.from){ const el = $('tb-' + tb.dataset.tbook); if(el){ el.scrollIntoView({behavior:reduce?'auto':'smooth'}); return; } }
     nav(`/topic/${r.id}?from=${tb.dataset.tbook}`); return; }
   const st = t.closest('[data-setting]'); if(st){ openModal({kind:'setting', i:+st.dataset.setting}, !modal.hidden); return; }
-  const wk = t.closest('[data-work]'); if(wk && wk.tagName === 'BUTTON'){ openModal({kind:'work', id:wk.dataset.work}, !modal.hidden); return; }
+  const wk = t.closest('[data-work]'); if(wk && wk.tagName === 'BUTTON'){ openModal({kind:'work', id:wk.dataset.work, at:wk.dataset.at}, !modal.hidden); return; }
   const note = t.closest('[data-note]'); if(note){ const ids = notesAt(note); openModal(ids.length > 1 ? {kind:'notes', ids} : {kind:'note', id:ids[0]}, !modal.hidden); return; }
   const dk = t.closest('[data-deck]'); if(dk){ const d = $('deck'); if(d) d.scrollTo({left:+dk.dataset.deck * d.clientWidth, behavior:reduce?'auto':'smooth'}); return; }
   const pick = t.closest('[data-pick]'); if(pick){ const [id, i] = pick.dataset.pick.split(':').map(Number); const x = B.data.variants[id]; x.pick = i;

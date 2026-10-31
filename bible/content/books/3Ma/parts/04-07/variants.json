@@ -1,0 +1,423 @@
+[
+ {
+  "v": "4:3",
+  "a": "were not filled",
+  "t": "Is the verb missing?",
+  "p": "Codex Alexandrinus leaves out \"were not filled\"; Swete prints it from Codex Venetus.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Venetus (V)",
+    "orig": "οὐκ ἐνεπιπλῶντο",
+    "en": "were not filled",
+    "plain": "were not filled"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as Swete's notes report it",
+    "orig": "(om. οὐκ ἐνεπιπλῶντο)",
+    "en": "(no verb)",
+    "plain": "were not"
+   }
+  ],
+  "follow": 0,
+  "why": "Without the verb the question has no main verb at all, so A has lost words by a copying slip. Swete supplies them from V, and the Plain follows his text.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "The old man was led away, his head thick with gray hair.",
+  "t": "One old man, or a crowd of old men?",
+  "p": "Codex Alexandrinus has \"an old man full of gray hair\"; Codex Venetus \"a crowd of old men, gray-haired.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "γέρων πλήρης πολιᾶς πεπυκασμένος",
+    "en": "an old man full of gray hair, thickly covered",
+    "plain": "The old man was led away, his head thick with gray hair."
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "γηραιων πληθος πολια",
+    "en": "a crowd of old men, gray",
+    "plain": "A crowd of gray-haired old men was led away."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which takes the old man as one figure standing for many. V's plural makes the same point openly; Brenton's English (\"a multitude of aged hoary-haired men\") follows that reading. Both codices then have a plural participle (<i>pepykasmenōn</i>), so the verse was disturbed early.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "This was not for the forced labor mentioned a little earlier.",
+  "t": "Not for labor, or for labor?",
+  "p": "Codex Venetus turns the denial into a statement: the register was for forced labor.",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "οὐκ εἰς τὴν ἔμπροσθεν βραχεῖ προδεδηλωμένην τῶν ἔργων κατὰ τρόπον λατρείαν",
+    "en": "not for the service of labor shown a little before",
+    "plain": "This was not for the forced labor mentioned a little earlier."
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "εις γαρ ... καταπονον λατρειαν",
+    "en": "for (it was) for the toilsome service",
+    "plain": "It was for the hard labor mentioned a little earlier, and"
+   }
+  ],
+  "follow": 0,
+  "why": "A's reading fits the next clause, \"but so that they could be tortured,\" which needs a \"not\" before it. V's \"for\" and \"toilsome\" look like a scribe smoothing a hard sentence.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:16",
+  "a": ", and he said things against God that were not fit to be said.",
+  "t": "The words against God",
+  "p": "Swete adds \"God\" in brackets; Codex Alexandrinus has no object, and Codex Venetus lacks the whole clause.",
+  "readings": [
+   {
+    "w": "Swete's printed text, with τὸν θεόν supplied in square brackets",
+    "orig": "εἰς δὲ [τὸν θεὸν] τὰ μὴ καθήκοντα λαλῶν",
+    "en": "and speaking against [God] what was not fitting",
+    "plain": ", and he said things against God that were not fit to be said."
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as Swete's notes report it",
+    "orig": "εις δε τα μη καθ. λαλων",
+    "en": "and speaking for things not fitting",
+    "plain": ", and he said things that were not fit to be said."
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "(om.)",
+    "en": "(no clause)",
+    "plain": "."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. His bracket shows that he supplied \"God\" for the sense; A's \"against things not fitting\" is hard Greek. Brenton's English reads \"against the Greatest God.\"",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "5:40",
+  "a": "keep testing us like this",
+  "t": "Testing us \"like fools\"?",
+  "p": "Codex Venetus adds a word: the king is testing his Kinsmen as if they were senseless.",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "μέχρι τίνος ὣς ἡμᾶς διαπειράζεις",
+    "en": "how long will you test us so",
+    "plain": "keep testing us like this"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "ως + αλλογους (sic)",
+    "en": "as (men) without reason",
+    "plain": "keep testing us as if we had no sense"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. V's extra word (spelled oddly, <i>allogous</i>, for <i>alogous</i>, \"senseless\") is behind Brenton's \"as of men bereft of reason.\"",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "well known among the Jews of the countryside",
+  "t": "A Jew or a priest?",
+  "p": "Codex Venetus makes Eleazar \"well known among the priests of the country.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "ἐπίσημος τῶν ἀπὸ τῆς χώρας Ἰουδαίων",
+    "en": "notable among the Jews from the country",
+    "plain": "well known among the Jews of the countryside"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it; Brenton's English (\"an illustrious priest of the country\")",
+    "orig": "ιερεων",
+    "en": "of the priests",
+    "plain": "well known among the priests of the countryside"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. V's \"priests\" may come from the priestly name Eleazar, or from the memory of other priestly Eleazars; Brenton's English follows it.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "6:4",
+  "a": "Father, there was Pharaoh",
+  "t": "\"Father, you ...\"",
+  "p": "In Codex Alexandrinus a later hand wrote \"under Pharaoh\" over an erasure where Swete prints \"Father, you, Pharaoh.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text",
+    "orig": "πάτερ, σὺ Φαραὼ",
+    "en": "Father, you ... Pharaoh",
+    "plain": "Father, there was Pharaoh"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), corrected by a later hand over an erasure, as Swete's notes report it",
+    "orig": "υπο Φαραω",
+    "en": "under Pharaoh",
+    "plain": "Under Pharaoh"
+   }
+  ],
+  "follow": 0,
+  "why": "The corrector's \"under Pharaoh\" does not fit the sentence, whose verb is \"you destroyed\" with Pharaoh as its object. Swete's \"Father, you\" matches the form of the other rescues, which each begin \"you\" (6:5, 6, 7), and the prayer's address to God as Father (6:8).",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "You made the red-hot furnace wet with dew, and you rescued them,",
+  "t": "Dew in the furnace?",
+  "p": "Codex Venetus has no dew: \"you rescued them from the furnace burning so long.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "διάπυρον δροσίσας κάμινον, ἐρρύσω",
+    "en": "having bedewed the fiery furnace, you rescued",
+    "plain": "You made the red-hot furnace wet with dew, and you rescued them,"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "διαπυρου χρονιας καμινου ... ερυσω",
+    "en": "from the long-burning fiery furnace you rescued",
+    "plain": "You rescued them from the furnace that had burned red-hot so long,"
+   }
+  ],
+  "follow": 0,
+  "why": "A's \"dew\" agrees with the Greek Daniel (Greek Daniel 3:50), which this prayer follows, and Brenton's English has \"a dewy coolness.\" V's \"long-burning\" may be a scribe's change of an unfamiliar verb. The Plain follows A and Swete.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "6:9",
+  "a": "Judge of all",
+  "t": "Judge or Protector?",
+  "p": "Codex Venetus calls God \"Protector of all\" instead of \"Judge of all.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "τῶν ὅλων δικαστά",
+    "en": "judge of all",
+    "plain": "Judge of all"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "σκεπαστα",
+    "en": "protector",
+    "plain": "Protector of all"
+   }
+  ],
+  "follow": 0,
+  "why": "Both words fit the prayer: God judges the arrogant and protects the weak. The Plain follows Swete's text.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:35",
+  "a": "formed the dance",
+  "t": "A dance or a time?",
+  "p": "Codex Alexandrinus has \"time\" (chronon), Swete prints \"dance\" (choron) with a corrector of Venetus.",
+  "readings": [
+   {
+    "w": "Swete's printed text, with the corrector of Codex Venetus (Va)",
+    "orig": "συστησάμενοι τὸν προειρημένον χορόν",
+    "en": "having formed the dance already mentioned",
+    "plain": "formed the dance"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as Swete's notes report it",
+    "orig": "χρονον",
+    "en": "time",
+    "plain": "set up the time"
+   }
+  ],
+  "follow": 0,
+  "why": "The words differ by one letter. \"The dance we spoke of\" points back to 6:32, where the Jews \"formed dances\"; A's \"the time we spoke of\" has no clear reference, so it is a copying slip.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "guides our decrees",
+  "t": "Decrees or affairs?",
+  "p": "Codex Venetus has \"our affairs\" (pragmata) for \"our decrees\" (prostagmata).",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "κατευθύνοντος ἡμῖν τοῦ μεγάλου θεοῦ τὰ προστάγματα",
+    "en": "the great God directing our decrees",
+    "plain": "guides our decrees"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "πραγματα",
+    "en": "affairs",
+    "plain": "guides our affairs"
+   }
+  ],
+  "follow": 0,
+  "why": "V's \"affairs\" is the usual phrase of royal letters (compare 3:13, \"so are our affairs\"). A's \"decrees\" is the harder reading and fits the irony: the God who now guides the king's decrees is undoing the first one. The Plain follows Swete.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "they killed him",
+  "t": "Killed, or punished?",
+  "p": "Codex Venetus says they \"punished\" the renegades, not that they \"killed\" them.",
+  "readings": [
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "ἀπέκτεννον",
+    "en": "they were killing",
+    "plain": "they killed him"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it",
+    "orig": "εκολαζοντο",
+    "en": "they were punishing",
+    "plain": "they punished him"
+   }
+  ],
+  "follow": 0,
+  "why": "Both codices agree in the next clause that \"they put them to death\" (<i>anēiroun</i>), and both say three hundred were killed (7:15), so V's softer verb does not change the event. The Plain follows Swete.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "7:16",
+  "a": "the holy Savior of Israel",
+  "t": "Holy or eternal Savior?",
+  "p": "Swete's text reads \"holy Savior.\" Alexandrinus has \"of the holy ones, to you,\" and Venetus \"eternal.\"",
+  "readings": [
+   {
+    "w": "Swete's printed text",
+    "orig": "ἁγίῳ σωτῆρι",
+    "en": "holy savior",
+    "plain": "the holy Savior of Israel"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as Swete's notes report it",
+    "orig": "αγιων σοι",
+    "en": "of the holy ones, to you",
+    "plain": "the Savior of Israel"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it; Brenton's English (\"the eternal Saviour of Israel\")",
+    "orig": "αιωνιω",
+    "en": "eternal",
+    "plain": "the eternal Savior of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "A's letters (<i>hagiōn soi</i>) look like a miscopying of <i>hagiōi sōtēri</i>, which Swete prints; V has \"eternal\" instead. Swete's text is not here the reading of either codex as it stands. The Plain follows it.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "7:20",
+  "a": "each to his own home.",
+  "t": "\"Each to his own\": missing words",
+  "p": "Codex Alexandrinus breaks off at \"each to the\"; the Plain follows Codex Venetus, \"each to his own.\"",
+  "readings": [
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it; Brenton's English",
+    "orig": "εκαστος εις την + ιδιαν· και πλειστην",
+    "en": "each to his own (land); and very great (authority than before)",
+    "plain": "each to his own home."
+   },
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "ἕκαστος εἰς τὴν",
+    "en": "each to the ...",
+    "plain": "each to the"
+   }
+  ],
+  "follow": 0,
+  "why": "A's sentence has lost words: \"each to the\" runs straight into \"before, among the enemies\" (7:21). V supplies \"his own\" and, for 7:21, \"very great\" authority, \"more\" than before. The Plain follows V here and says so, and the next verse depends on the same reading (see 7:21).",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "7:21",
+  "a": "They had more authority than before among their enemies",
+  "t": "\"More than before\" (goes with 7:20)",
+  "p": "This reading goes with 7:20. Codex Venetus has \"very great\" authority; Alexandrinus only \"before.\"",
+  "readings": [
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it (καὶ πλείστην, at the end of 7:20)",
+    "orig": "και πλειστην ... εμπροσθεν",
+    "en": "and very great, beyond before",
+    "plain": "They had more authority than before among their enemies"
+   },
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "ἔμπροσθεν, ἐν τοῖς ἐχθροῖς ἐξουσίαν ἐσχηκότες",
+    "en": "before, having authority among the enemies",
+    "plain": "They had authority among their enemies"
+   }
+  ],
+  "follow": 0,
+  "why": "Without V's words A's text does not make a full sentence. Brenton's English (\"they had more weight than before among their enemies\") follows the same reading as the Plain.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ },
+ {
+  "v": "7:22",
+  "a": "in very great fear",
+  "t": "Fear or payment?",
+  "p": "Codex Venetus reads \"fear\" (phobou); Alexandrinus and Swete \"payment\" (phorou), one letter apart.",
+  "readings": [
+   {
+    "w": "Codex Venetus (V), as Swete's notes report it; Brenton's English (\"with the greatest terror\")",
+    "orig": "φοβου",
+    "en": "with very great fear",
+    "plain": "in very great fear"
+   },
+   {
+    "w": "Swete's printed text (Codex Alexandrinus (A, 400s AD))",
+    "orig": "μετὰ φόρου μεγίστου",
+    "en": "with very great tribute (payment)",
+    "plain": "with a very great payment"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete here. \"Fear\" matches 7:21 (\"with glory and awe\") and the common pattern of enemies who fear the rescued (Esther 8:17); \"tribute\" is hard to fit, since the goods are only being returned. The two words differ by one letter.",
+  "s": [
+   "swete-lxx",
+   "brenton-lxx"
+  ]
+ }
+]
