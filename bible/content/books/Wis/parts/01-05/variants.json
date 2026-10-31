@@ -108,10 +108,10 @@
   "v": "2:7",
   "a": "spring blossom",
   "t": "Flower of spring or of the air?",
-  "p": "The Plain departs from Swete here, reading 'spring' with Codex Alexandrinus.",
+  "p": "The Plain departs from Swete here, reading 'spring' with Rahlfs's critical text.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A); KJV 'flower of the spring'",
+    "w": "Rahlfs's critical text (Septuaginta, 1935); Codex Alexandrinus (A) as Swete's footnote gives it (the digital footnote is damaged: εσρος); KJV 'flower of the spring'",
     "orig": "ἄνθος ἔαρος",
     "en": "flower of spring",
     "plain": "spring blossom"
@@ -126,6 +126,7 @@
   "follow": 0,
   "why": "The two Greek words differ by the order of two letters (ἔαρος, ἀέρος), an easy slip. 'Flower of spring' fits the young men's feast and the rosebuds of 2:8, and the Latin's 'flower of the season' points the same way. 'Flower of the air' is hard to make sense of.",
   "s": [
+   "rahlfs-lxx",
    "swete-ot",
    "kjv-apocrypha",
    "vulgate-clementine"
@@ -156,6 +157,32 @@
    "swete-ot",
    "vulgate-clementine",
    "douay-rheims"
+  ]
+ },
+ {
+  "v": "2:9",
+  "a": "wild partying",
+  "t": "Partying, or pride?",
+  "p": "A corrector's note in the margin of Codex Vaticanus explains the word as 'high-mindedness.'",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Vaticanus, B) and Rahlfs's critical text",
+    "orig": "ἀγερωχίας",
+    "en": "of (our) revelry or arrogance",
+    "plain": "wild partying"
+   },
+   {
+    "w": "A corrector's note in the margin of Codex Vaticanus (Swete's footnote: αγερωχιας adnot υψηλοφρονιας Bᵃmg), explaining the word rather than replacing it",
+    "orig": "ὑψηλοφρονίας",
+    "en": "of (our) high-mindedness",
+    "plain": "proud swagger"
+   }
+  ],
+  "follow": 0,
+  "why": "The word's family means 'lordly' or 'haughty,' and the margin note in Vaticanus took it that way. The Plain follows the setting of feasting in 2:6-9 (wine, perfume, crowns of roses) and says 'wild partying'; the pride of people who live this way is part of the picture either way.",
+  "s": [
+   "swete-ot",
+   "rahlfs-lxx"
   ]
  },
  {
@@ -214,35 +241,36 @@
   "v": "2:23",
   "a": "eternity",
   "t": "Eternity, or his own nature?",
-  "p": "The Plain departs from Swete here: most manuscripts read 'eternity.'",
+  "p": "The Plain departs from Swete here and follows Rahlfs's critical text: 'eternity,' not 'own nature.'",
   "readings": [
    {
-    "w": "Most manuscripts, as reported by Bullard and Hatton; KJV 'his own eternity'",
+    "w": "Rahlfs's critical text (Septuaginta, 1935); KJV 'his own eternity'",
     "orig": "ἀϊδιότητος",
     "en": "eternity",
     "plain": "eternity"
    },
    {
-    "w": "Swete's text (Codex Vaticanus, B)",
+    "w": "Swete's text (Codex Vaticanus, B); Swete's footnotes, as given in the digital text, record no other reading for this word",
     "orig": "ἰδιότητος",
     "en": "proper nature, own being",
     "plain": "own nature"
    }
   ],
   "follow": 0,
-  "why": "With 'eternity' the two lines match: made 'for incorruption' and in the image of God's 'eternity.' Swete's reading, 'image of his own nature,' recalls Genesis 1:26-27 and is also good sense. In the Greek the words are 'τῆς ἰδίας ἀϊδιότητος'; a copyist could easily drop the first letter of the second word after the same letters in the first. The Latin, 'the image of his own likeness,' points to neither directly.",
+  "why": "With 'eternity' the two lines match: made 'for incorruption' and as the image of God's 'eternity.' Swete's reading, 'image of his own nature,' recalls Genesis 1:26-27 and also makes good sense. In Greek the phrase is τῆς ἰδίας ἀϊδιότητος. This site's suggestion, not a finding of the editors, is that a copyist lost the first letter of the second word after the like-sounding ἰδίας. The Latin reads 'ad imaginem similitudinis suae' (Douay 'to the image of his own likeness'), which matches neither Greek word directly.",
   "s": [
+   "rahlfs-lxx",
    "swete-ot",
-   "bullard-hatton-wisdom-1-5",
    "kjv-apocrypha",
-   "vulgate-clementine"
+   "vulgate-clementine",
+   "douay-rheims"
   ]
  },
  {
   "v": "3:9",
   "a": "because grace and mercy are what his chosen receive",
   "t": "An extra line in the KJV",
-  "p": "The KJV adds 'and he hath care for his elect,' words found in 4:15.",
+  "p": "The KJV adds 'and he hath care for his elect,' words found in 4:15; the Latin has 'grace and peace.'",
   "readings": [
    {
     "w": "Swete's Greek",
@@ -255,13 +283,21 @@
     "orig": "(Greek source not named in Swete)",
     "en": "for grace and mercy is to his saints, and he hath care for his elect",
     "plain": "because grace and mercy are what his holy ones receive, and he watches over his chosen"
+   },
+   {
+    "w": "Latin Vulgate (Clementine) 'donum et pax'; Douay-Rheims 'grace and peace'",
+    "orig": "quoniam donum et pax est electis ejus",
+    "en": "for gift and peace are for his elect",
+    "plain": "because grace and peace are what his chosen receive"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete. Swete prints no such line at 3:9 and no footnote for it in the copy used here; the KJV's line is close to the end of 4:15, so it may have come into some copies from there.",
+  "why": "The Plain follows Swete. Swete prints no such line at 3:9 and no footnote for it in the copy used here; the KJV's line is close to the end of 4:15, so it may have come into some copies from there. The Latin has 'peace' where the Greek has 'mercy,' and no extra line.",
   "s": [
    "swete-ot",
-   "kjv-apocrypha"
+   "kjv-apocrypha",
+   "vulgate-clementine",
+   "douay-rheims"
   ]
  },
  {
@@ -405,7 +441,7 @@
  },
  {
   "v": "5:7",
-  "a": "until we were stuffed full",
+  "a": "We filled ourselves with",
   "t": "Filled or wearied?",
   "p": "The Greek says they were 'filled'; the Latin and the KJV say they 'wearied' themselves.",
   "readings": [
@@ -413,13 +449,13 @@
     "w": "Swete's Greek",
     "orig": "ἐνεπλήσθημεν",
     "en": "we were filled",
-    "plain": "until we were stuffed full"
+    "plain": "We filled ourselves with"
    },
    {
     "w": "Latin Vulgate (Clementine) 'lassati sumus'; Douay-Rheims and KJV 'we wearied ourselves'",
     "orig": "lassati sumus",
     "en": "we grew weary",
-    "plain": "until we were worn out"
+    "plain": "We wore ourselves out in"
    }
   ],
   "follow": 0,
@@ -486,34 +522,29 @@
  {
   "v": "5:14",
   "a": "thin frost",
-  "t": "Frost, foam or a spider's web?",
-  "p": "Swete's text says 'frost'; other copies have 'foam' or 'spider's web,' three look-alike Greek words.",
+  "t": "Frost or foam?",
+  "p": "The Greek says 'frost'; the Latin and the KJV say 'foam,' a Greek word one letter different.",
   "readings": [
    {
-    "w": "Swete's text (Codex Vaticanus, B)",
+    "w": "Swete's text (Codex Vaticanus, B) and Rahlfs's critical text",
     "orig": "πάχνη ... λεπτή",
     "en": "thin frost",
     "plain": "thin frost"
    },
    {
-    "w": "Other manuscripts, as reported by Bullard and Hatton; Latin 'spuma'; KJV 'a thin froth'",
-    "orig": "ἄχνη",
-    "en": "foam",
+    "w": "Latin Vulgate (Clementine) 5:15 'spuma gracilis'; Douay-Rheims and KJV 'a thin froth'",
+    "orig": "spuma gracilis",
+    "en": "thin foam",
     "plain": "thin foam"
-   },
-   {
-    "w": "Other manuscripts, as reported by Bullard and Hatton",
-    "orig": "ἀράχνη",
-    "en": "spider's web",
-    "plain": "a thin spider's web"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete. Bullard and Hatton think 'foam' makes the best sense, and the Latin and KJV agree with it. But frost blown off by a storm is also a fair picture, and it is the reading of the text the site follows.",
+  "why": "The Plain follows the Greek of both Swete and Rahlfs. The Latin and the KJV mean foam; the Greek word for foam, ἄχνη, differs from πάχνη, 'frost,' by one letter, so their translators may have read it, but no Greek copy with it is named in Swete's footnotes. Frost blown off by a storm is a fair picture, and it is the reading of the Greek texts.",
   "s": [
    "swete-ot",
-   "bullard-hatton-wisdom-1-5",
+   "rahlfs-lxx",
    "vulgate-clementine",
+   "douay-rheims",
    "kjv-apocrypha"
   ]
  },
@@ -524,7 +555,7 @@
   "p": "The Plain departs from Swete here, following the corrected Vaticanus, Sinaiticus and Alexandrinus.",
   "readings": [
    {
-    "w": "Correctors of Vaticanus, Codex Sinaiticus, Codex Alexandrinus; KJV 'the whole earth'",
+    "w": "Correctors of Vaticanus, Codex Sinaiticus, Codex Alexandrinus (Swete's footnote: πασαν BᵃᵇℵA); Rahlfs's critical text; KJV 'the whole earth'",
     "orig": "πᾶσαν τὴν γῆν",
     "en": "the whole earth",
     "plain": "the whole earth"
@@ -540,6 +571,7 @@
   "why": "Swete prints πᾶσα, which does not agree with 'earth' in Greek; it would have to go with 'lawlessness' ('all lawlessness will lay waste the earth'), which is awkward. The correctors of Vaticanus and the other two codices read πᾶσαν, 'the whole earth.' The difference is one letter, and the meaning is nearly the same.",
   "s": [
    "swete-ot",
+   "rahlfs-lxx",
    "kjv-apocrypha"
   ]
  }

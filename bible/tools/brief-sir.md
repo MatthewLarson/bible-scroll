@@ -17,9 +17,9 @@ Parts (all write at the same time and cannot see each other):
 - 24-29 (173 vv): Wisdom's praise of herself and the law of Moses (24), what delights and what grieves; wives (25-26),
   speech, deceit (27), anger, forgiveness, the tongue (28), lending, almsgiving, surety, hospitality (29).
 - 30-36 (196 vv): children, health, the joy of the heart (30:1-24); then the Greek order of the transposed blocks
-  (see "Numbering"): the gleaner and the household (30:25-40), wealth and the banquet (31), the law and sacrifice,
-  God the judge who hears the widow (32), the prayer for Israel (33:1-13; 36:16-22), the rest of the household,
-  dreams, travel, sacrifice (34-35), food, choosing a wife (36:23-31).
+  (see "Numbering"; the contents follow tools/sir-numbers.tsv, read from the texts): the gleaner and the household
+  (30:25-40), dreams, travel and sacrifice (31), the law and sacrifice, God the judge who hears the widow (32), the
+  prayer for Israel (33:1-13; 36:16-22), wealth and the banquet (34-35), the rest of 36.
 - 37-43 (210 vv): counselors (37), the physician (38:1-15), mourning, trades and the scribe (38:16-39:11), praise of
   creation (39:12-35), human misery, death (40-41), shame, daughters, the works of God in nature (42-43).
 - 44-51 (194 vv): the Praise of the Fathers, Enoch to Nehemiah (44-49), Simon son of Onias the high priest (50), the

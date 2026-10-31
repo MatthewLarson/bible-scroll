@@ -5,7 +5,7 @@
   "type": "history",
   "t": "A letter, a copy and a title",
   "p": "The Greek calls it a 'copy' of Jeremiah's letter. Greek Bibles print it as its own book.",
-  "b": "The heading uses <i>antigraphon</i>, 'copy', the word for a duplicate of an official letter. In Codex Vaticanus and Codex Alexandrinus the work is titled <i>Epistolē Ieremiou</i>, 'Letter of Jeremiah', and Alexandrinus ends with a line naming 'Jeremiah the prophet, Baruch, Lamentations and Letter' together (Swete's notes). Greek and Orthodox Bibles keep it as a separate book after Lamentations; the Latin Vulgate made it the last chapter of Baruch, and Catholic Bibles and the KJV Apocrypha follow that. This site numbers the verses as Swete, the Göttingen edition and the Vulgate do (72 verses). The KJV and some modern Bibles count the heading as verse 1, so their numbers run one higher (73 verses).",
+  "b": "The heading uses <i>antigraphon</i>, 'copy', the word for a duplicate of an official letter. In Codex Vaticanus and Codex Alexandrinus the work is titled <i>Epistolē Ieremiou</i>, 'Letter of Jeremiah', and Alexandrinus ends with a line naming 'Jeremiah the prophet, Baruch, Lamentations and Letter' together (Swete's notes). Greek and Orthodox Bibles keep it as a separate book after Lamentations; the Latin Vulgate made it the last chapter of Baruch, and Catholic Bibles and the KJV Apocrypha follow that. This site numbers the verses as Swete and the Göttingen edition do (72 verses). The Vulgate also has 72 verses, but its divisions differ in places: its 6:53 holds the crows of this site's 6:54. The KJV counts the heading as verse 1, so its numbers run one higher (73 verses).",
   "r": "Jeremiah 29:1; Lamentations 1:1",
   "top": "jeremiah",
   "s": [
@@ -19,11 +19,12 @@
   "type": "canon",
   "t": "Is this the letter of Jeremiah 29?",
   "p": "The Bible's Jeremiah sent the exiles a letter, but it is a different one, and no Hebrew copy of this one exists.",
-  "b": "Jeremiah 29 gives the text of a real letter Jeremiah sent from Jerusalem to the exiles: \"Build houses and settle in them\" (Jeremiah 29:5) and \"Seek the peace of the city I sent you to as exiles\" (Jeremiah 29:7). That letter says nothing about idols. This one says nothing about houses, gardens or the peace of Babylon. It is a sermon against idols, built from Jeremiah 10 and Isaiah 44, written as a letter. Catholic and Orthodox churches read it as Scripture under Jeremiah's name; Protestants and Jews do not count it, and most scholars think a later Jewish writer used the prophet's name, as was common in the period. The book's opening pages weigh this (see Jeremiah's card, \"Are Baruch and the Letter of Jeremiah part of the Bible?\").",
+  "b": "Jeremiah 29 gives the text of a real letter Jeremiah sent from Jerusalem to the exiles: \"Build houses and settle in them\" (Jeremiah 29:5) and \"Seek the peace of the city I sent you to as exiles\" (Jeremiah 29:7). That letter says nothing about idols. This one says nothing about houses, gardens or the peace of Babylon. It is a sermon against idols, built from Jeremiah 10 and Isaiah 44, written as a letter. Catholic and Orthodox churches read it as Scripture under Jeremiah's name; Protestants and Jews do not count it. Sean Adams reads it as one of the writings of the period composed in Jeremiah's name. The book's opening pages weigh this (see Jeremiah's card, \"Are Baruch and the Letter of Jeremiah part of the Bible?\").",
   "r": "Jeremiah 29:1–23; Jeremiah 10:1–16; Isaiah 44:9–20",
   "top": "jeremiah",
   "s": [
-   "wright-nets-letjer"
+   "wright-nets-letjer",
+   "adams-thb-letter"
   ]
  },
  {
@@ -41,10 +42,15 @@
   "a": "as long as seven generations",
   "type": "canon",
   "t": "Seven generations, not seventy years",
-  "p": "Jeremiah gave seventy years. The letter gives seven generations, a much longer time.",
-  "b": "Jeremiah says the nations \"will serve the king of Babylon seventy years\" (Jeremiah 25:11; compare Jeremiah 29:10). The letter instead says \"seven generations\", which is far longer than seventy years on any reckoning. Readers explain it in three ways. (1) It is a round number for a very long time, without a count in mind. (2) The writer lived long after the return from Babylon and stretched Jeremiah's term to cover his own day, when many Jews still lived in Babylonia and other foreign lands; Daniel 9 also rereads the seventy years. (3) Those who hold the letter as Jeremiah's read the number as a prophecy of the long Dispersion. Here the letter goes beyond Jeremiah's own words.",
-  "r": "Jeremiah 25:11–12; Jeremiah 29:10; Daniel 9:2; Daniel 9:24",
-  "top": "seventy-years"
+  "p": "Jeremiah gave seventy years. The letter gives seven generations, a longer time, and scholars use it to date the letter.",
+  "b": "Jeremiah says the nations \"will serve the king of Babylon seventy years\" (Jeremiah 25:11; compare Jeremiah 29:10). The letter says \"seven generations\", which is longer. Scholars use the number for dating. Taking a generation as forty years (he points to Judges 3:11), Daniel Harrington counts 280 years from 597 BC and reaches 317 BC. David deSilva reports scholars who take 317–306 BC, 280 years after the first or second deportation, as the latest date for a Hebrew original of the letter, since a writer would hardly change Jeremiah's term into one that had already run out; he adds that a 'generation' is too loose a measure for precise dates. J. Alberto Soggin compares the problem to Daniel's, since Daniel 9 also rereads the seventy years. Read as Jeremiah's own words, as the heading presents them, the number promises a longer stay than his seventy years. Either way the letter here goes beyond Jeremiah's words.",
+  "r": "Jeremiah 25:11–12; Jeremiah 29:10; Judges 3:11; Daniel 9:2; Daniel 9:24",
+  "top": "seventy-years",
+  "s": [
+   "harrington-hbc-letjer",
+   "desilva-apocrypha",
+   "soggin-intro-ot"
+  ]
  },
  {
   "v": "6:2",
@@ -58,13 +64,13 @@
   "r": "Exodus 6:6; Jeremiah 29:14"
  },
  {
-  "v": "6:3",
-  "a": "silver gods, gold gods and wooden gods",
+  "v": "6:4",
+  "a": "these gods",
   "type": "word",
   "t": "'Gods', in the Greek's own word",
-  "p": "The letter calls the statues theoi, 'gods', all the way through, so the Plain does too.",
-  "b": "The Greek says <i>theoi</i>, 'gods', almost every time, and the whole argument is the refrain that they \"are not gods\" (6:14). So the Plain keeps 'gods' throughout, as a mocking use of the worshipers' own word; the ordinary word for an idol, <i>eidōlon</i>, appears only once, in the last verse (6:72). The pronouns show the scorn: the letter often calls the gods 'them' as things (neuter <i>auta</i>, 6:5, 6:22, 6:38) and then 'them' as persons (masculine <i>autous</i>, 6:14, 6:28). The Latin Vulgate (and the Douay-Rheims) adds 'stone' to the list here.",
-  "orig": "θεοὺς ἀργυροῦς καὶ χρυσοῦς καὶ ξυλίνους (theous argyrous kai chrysous kai xylinous)",
+  "p": "The letter calls the statues theoi, 'gods', all the way through, so the Plain does too, and keeps 'idols' for 6:72.",
+  "b": "The Greek calls the statues <i>theoi</i>, 'gods', from the first sight of them (6:3) to the end, and the whole argument is the refrain that they \"are not gods\" (6:14). So this site renders <i>theoi</i> 'gods' in every verse of the letter, the worshipers' own word turned against them. With 'idols' the refrain would say they are not idols, and the questions of 6:39, 6:44, 6:56 and 6:63, whether they can be called gods at all, would lose their point. The ordinary word for an idol, <i>eidōlon</i>, comes only once, in the last verse, and only there does the Plain say 'idols' (6:72). The Greek refers to the gods sometimes with a neuter 'them' (<i>auta</i>, 6:5, 6:22, 6:38), agreeing with neuter words for 'wooden' and 'gold-plated' things (6:7, 6:38), and sometimes with a masculine 'them' (<i>autous</i>, 6:14, 6:28), as for persons; English 'them' cannot show the difference. At 6:3 the Latin Vulgate (and the Douay-Rheims) adds 'stone' to the list.",
+  "orig": "θεοί ... εἴδωλα (theoi ... eidōla)",
   "kind": "nu",
   "top": "idolatry"
  },
@@ -72,17 +78,11 @@
   "v": "6:3",
   "a": "carried high on shoulders",
   "type": "history",
-  "t": "Gods in procession",
-  "p": "Babylon's gods left their temples on festival days, carried through the streets.",
-  "b": "Babylonian statues of the gods were carried out of their temples in procession, above all at the New Year festival (the <i>akitu</i>) in the spring month of Nisan, when the king and the gods, decked in gold and gems, went in procession. Isaiah mocks the same sight: \"The images you carried in procession are packed up as freight\" (Isaiah 46:1), and the worshipers \"hoist it on their shoulders and haul it\" (Isaiah 46:7). For a small group of captives, such a procession, with crowds bowing on every side (6:5), was the strongest pressure the city could put on them.",
+  "t": "Gods carried on shoulders",
+  "p": "The letter pictures statues carried through bowing crowds, a sight Isaiah also mocks.",
+  "b": "The letter pictures the gods \"carried high on shoulders\" through crowds that bow before and behind them (6:5), and comes back to it at 6:25. Isaiah mocks the same sight: \"The images you carried in procession are packed up as freight\" (Isaiah 46:1), and the worshipers \"hoist it on their shoulders and haul it\" (Isaiah 46:7). When and where the letter was written is debated (see the chapter page), so the scene may come from the writer's own city or from the prophets and from what was told of Babylon. The letter presents it as the test its readers will face.",
   "r": "Isaiah 46:1–2; Isaiah 46:7; Jeremiah 10:5",
-  "top": "babylon",
-  "l": [
-   [
-    "Akitu festival",
-    "Akitu"
-   ]
-  ]
+  "top": "babylon"
  },
  {
   "v": "6:4",
@@ -126,12 +126,12 @@
   "type": "echo",
   "t": "Tertullian and the martyrs",
   "p": "Around AD 211 Tertullian quoted this verse to Christians tempted to go along with idol worship.",
-  "b": "In his <i>Scorpiace</i> (chapter 8), written for Christians under threat of death, Tertullian quotes these words as Jeremiah's: \"say in your mind, Our duty is to worship You, O Lord.\" He sets them beside the three young men who would not worship the king's gold image, and uses them to say that a believer must not join the crowd even to save his life. <i>Dianoia</i> is the mind, the place of thought and intention; the Vulgate and the KJV say 'hearts'.",
+  "b": "In his <i>Scorpiace</i> (chapter 8), written for Christians under threat of death, Tertullian quotes these words as Jeremiah's (in S. Thelwall's translation): \"say in your mind, Our duty is to worship You, O Lord.\" He sets them beside the three young men who would not worship the king's gold image, and uses them to say that a believer must not join the crowd even to save his life. <i>Dianoia</i> is the mind, the place of thought and intention; the Vulgate and the KJV say 'hearts'.",
   "orig": "τῇ διανοίᾳ (tē dianoia), 'in the mind'",
   "kind": "nu",
   "r": "Daniel 3:16–18",
   "s": [
-   "tertullian-scorpiace"
+   "tertullian-scorpiace-anf"
   ]
  },
  {
@@ -171,7 +171,7 @@
   "type": "echo",
   "t": "Thieving priests",
   "p": "The priests know the gods will not notice. Bel and the Dragon tells a similar story.",
-  "b": "The letter's priests behave as if they knew their gods were nothing: they steal from them (6:9), sell the sacrifices (6:27), take the gods' clothes for their families (6:32) and run when fire comes (6:54). The story of Bel and the Dragon, one of the Additions to Daniel, makes the same charge: Daniel shows the king that Bel's priests and their families eat the food set before the god each night. Both are satire. They do not describe how the priests of Babylon saw their own work.",
+  "b": "The letter's priests behave as if they knew their gods were nothing: they steal from them (6:9), sell the sacrifices (6:27), take the gods' clothes for their families (6:32) and run when fire comes (6:54). The story of Bel and the Dragon, one of the Additions to Daniel, makes the same charge: Daniel shows the king that Bel's priests come in through secret doors and eat the food set before the god. Both are satire. They do not describe how the priests of Babylon saw their own work.",
   "r": "6:27; 6:32; 6:54; Additions to Daniel",
   "top": "idolatry"
  },
@@ -237,8 +237,8 @@
   "a": "This makes it plain that they are not gods.",
   "type": "word",
   "t": "The refrain",
-  "p": "Ten times the letter ends a section: they are not gods, so do not fear them.",
-  "b": "The refrain comes in two forms. The command, 'that they are not gods ... have no fear of them', closes 6:14, 6:22, 6:28, 6:64 and 6:68; the question, 'how can they be thought of as gods, or called gods?', closes 6:39, 6:44 and 6:56 (compare 6:49, 6:51, 6:63). The Plain keeps the same English wherever the Greek is the same. At 6:22 the Greek verb is a present (\"do not keep on fearing\") and at 6:68 the line begins 'therefore'. The words come from Jeremiah: \"Do not be afraid of them\" (Jeremiah 10:5), <i>mē phobēthēte auta</i> in the Greek of Jeremiah. Moore read <i>gnōrimoi</i>, 'known', here as a misread Hebrew word; the NETS introduction answers that the Greek word works as it stands.",
+  "p": "In some ten places the letter sums up: they are not gods, so do not fear them.",
+  "b": "The refrain comes in two forms. The command form, 'they are not gods ... have no fear of them', ends 6:14, 6:22, 6:28, 6:64 and 6:68. The question form, 'how can they be thought of as gods, or called gods?', ends 6:39 and 6:44 and opens 6:56; it has no 'do not fear'. Related lines stand at 6:29, 6:49, 6:51, 6:63 and 6:71. The Plain keeps the same English wherever the Greek is the same. At 6:22 the Greek verb is a present (<i>phobeisthe</i>) where the other command refrains have an aorist (<i>phobēthēte</i>); the difference need not mean 'keep on fearing', so the Plain says simply 'So do not fear them' there (see the variant). At 6:68 the line begins 'therefore' (<i>dio</i>). The words come from Jeremiah: \"Do not be afraid of them\" (Jeremiah 10:5), <i>mē phobēthēte auta</i> in the Greek of Jeremiah. Moore read <i>gnōrimoi</i>, 'known', here as a misread Hebrew word; Wright, introducing the NETS translation, answers that the Greek word can just as well be an adjective.",
   "orig": "ὅθεν γνώριμοί εἰσιν οὐκ ὄντες θεοί· μὴ οὖν φοβηθῆτε αὐτούς",
   "kind": "nu",
   "r": "Jeremiah 10:5; 6:22; 6:28; 6:39; 6:44; 6:56; 6:64; 6:68",
@@ -272,8 +272,8 @@
   "a": "Their hearts",
   "type": "word",
   "t": "Hearts that are eaten",
-  "p": "Kardia, 'heart', here means the inside of the wooden image, which insects hollow out.",
-  "b": "<i>Kardia</i> is the heart, and also the core or inside of a thing. The worshipers' gods have 'hearts', but they are wood, licked hollow by creeping things, and they do not feel it. The joke cuts two ways: a god with a heart should feel and care, and these have hearts that are only rotting wood. The Vulgate reads 'serpents' for the creeping things.",
+  "p": "The 'hearts' of these gods can only be the inside of a wooden statue, which insects eat out.",
+  "b": "<i>Kardia</i> is 'heart'. Here the hearts of the gods can only be the inside of the wooden statues, which creeping things lick out while the gods feel nothing. The joke cuts two ways: a god with a heart should feel and care, and these have hearts of rotting wood. The Vulgate reads 'serpents' for the creeping things.",
   "orig": "τὰς δὲ καρδίας αὐτῶν (tas de kardias autōn)",
   "kind": "nu"
  },
@@ -283,20 +283,20 @@
   "type": "spec",
   "t": "Claude's theory: a house filled with the wrong things",
   "p": "My suggestion: verses 12 to 21 read like the reverse of the temple filled with God's glory.",
-  "b": "My own reading, offered as a theory. When Solomon dedicated the temple, \"The LORD's glory filled the LORD's house\" (1 Kings 8:11), and Isaiah saw \"the house was filled with smoke\" before God's throne (Isaiah 6:4). In 6:12–21 the gods' house is also full: of dust from feet, smoke from lamps, creeping things, bats, swallows, birds and cats. Its smoke only blackens the god's face. The letter does not cite 1 Kings 8 or Isaiah 6, so this is a pattern the reader may see, not something the writer says. I have not found this pairing argued in a source.",
+  "b": "My own reading, offered as a theory. When Solomon dedicated the temple, \"The LORD's glory filled the LORD's house\" (1 Kings 8:11), and in Isaiah's vision before God's throne \"smoke kept filling the house\" (Isaiah 6:4). In 6:12–21 the gods' house is also full: of dust from feet, smoke from lamps, creeping things, bats, swallows, birds and cats. Its smoke only blackens the god's face. The letter does not cite 1 Kings 8 or Isaiah 6, so this is a pattern the reader may see, not something the writer says. I have not found this pairing argued in a source.",
   "r": "1 Kings 8:10–11; Isaiah 6:4; Ezekiel 10:4"
  },
  {
   "v": "6:21",
   "a": "and the cats as well",
   "type": "history",
-  "t": "The only cats in the Bible",
-  "p": "This is the one place cats appear in any Bible. Egypt honored them; here they sit on a god.",
-  "b": "<i>Ailouroi</i>, 'cats', are named nowhere in the 66 books and nowhere else in the KJV Apocrypha; this verse is their only appearance in any Christian Bible. Egyptians treated cats as sacred, and Herodotus says that when a house cat died the household shaved their eyebrows, and that dead cats were embalmed and buried at Bubastis (<i>Histories</i> 2.66–67). In the letter the cat is only another creature that climbs over a helpless god.",
+  "t": "Cats, here only",
+  "p": "Cats appear nowhere in the 66 books. Egypt honored them; here they sit on a god.",
+  "b": "<i>Ailouroi</i>, 'cats', are named nowhere in the 66 books, and nowhere else in the books outside them that this site has in English (Tobit, Judith, Wisdom of Solomon, Sirach, Baruch 1–5, 1 Esdras, 1 Maccabees, 2 Maccabees, 3 Maccabees and 1 Enoch). Egyptians treated cats as sacred: Herodotus says that when a house cat died a natural death the household shaved their eyebrows, and that dead cats were embalmed and buried at Bubastis (<i>Histories</i> 2.66–67, Macaulay's translation). In the letter the cat is only another creature that climbs over a helpless god.",
   "orig": "οἱ αἴλουροι (hoi ailouroi)",
   "kind": "nu",
   "s": [
-   "herodotus-histories"
+   "herodotus-macaulay"
   ]
  },
  {
@@ -305,14 +305,14 @@
   "type": "echo",
   "t": "No breath",
   "p": "The prophets' sharpest line against idols: there is no breath, no spirit, in them.",
-  "b": "<i>Pneuma</i> is breath and spirit. Jeremiah says of the cast image that \"there is no breath in them\" (Jeremiah 10:14), and Habakkuk of the plated idol that \"there is no breath inside it at all\" (Habakkuk 2:19). In Genesis 2:7 life begins when God breathes into the man. The gods bought \"at a price\" lack the one thing money cannot buy.",
+  "b": "<i>Pneuma</i> is breath and spirit. Jeremiah says of the cast image that \"there is no breath in them\" (Jeremiah 10:14), and Habakkuk of the plated idol that \"there is no breath inside it at all\" (Habakkuk 2:19). In Genesis 2:7 life begins when God breathes into the man. The gods bought \"at great cost\" lack the one thing money cannot buy.",
   "orig": "ἐν οἷς οὐκ ἔστιν πνεῦμα (en hois ouk estin pneuma)",
   "kind": "nu",
   "r": "Jeremiah 10:14; Habakkuk 2:19; Psalm 135:17; Genesis 2:7"
  },
  {
   "v": "6:25",
-  "a": "Having no feet, they ride on people's shoulders",
+  "a": "With no feet, they have to be carried on shoulders",
   "type": "echo",
   "t": "Gods who must be carried",
   "p": "Isaiah's great contrast: Babylon carries its gods, but the LORD carries his people.",
@@ -325,7 +325,7 @@
   "type": "history",
   "t": "Food for the dead",
   "p": "Food set before a statue is as useless as food set beside a corpse.",
-  "b": "Many ancient peoples set food and drink out for the dead, and Bel and the Dragon pictures the large daily meals set before Bel's statue in Babylon. The letter puts the two side by side: a god that cannot get up when it falls is no different from a body. Israel's law forbade giving any of the holy tithe to the dead: \"I have not given any of it for the dead\" (Deuteronomy 26:14). Psalm 106:28 speaks of eating \"sacrifices of the dead\".",
+  "b": "The letter sets the gifts laid before the gods beside the gifts laid out for the dead: a god that cannot get up when it falls is no different from a body. Bel and the Dragon, one of the Additions to Daniel, pictures the large daily supply of flour, sheep and oil spent on Bel's statue in Babylon. Israel's law forbade giving any of the holy tithe to the dead: \"I have not given any of it for the dead\" (Deuteronomy 26:14). Psalm 106:28 speaks of eating \"sacrifices of the dead\".",
   "r": "Deuteronomy 26:14; Psalm 106:28; Additions to Daniel"
  },
  {
@@ -339,21 +339,21 @@
  },
  {
   "v": "6:28",
-  "a": "A woman in her monthly bleeding or a woman fresh from childbirth may handle their sacrifices",
+  "a": "A woman in her monthly bleeding and a woman fresh from childbirth touch their sacrifices",
   "type": "israel",
   "t": "Judged by Israel's purity law",
-  "p": "In Israel such a woman could not touch holy things. The writer thinks like a Jew who keeps the law.",
-  "b": "Leviticus says a woman after childbirth \"must not touch anything holy or come into the sanctuary\" until her days of purifying are over (Leviticus 12:4), and treats the monthly flow the same way (Leviticus 15:19). This is not a moral charge against the women. It is a mark of what the writer counts holy: a sacrifice that anyone may handle, in any state, cannot belong to a real god. The verse shows that the letter's first readers were Jews who kept the purity laws.",
+  "p": "In Israel such a woman could not touch holy things. The writer judges Babylon by Israel's law.",
+  "b": "Leviticus says a woman after childbirth \"must not touch anything holy or come into the sanctuary\" until her days of purifying are over (Leviticus 12:4), and treats the monthly flow the same way (Leviticus 15:19). This is not a moral charge against the women. It is a mark of what the writer counts holy: a sacrifice that anyone may handle, in any state, cannot belong to a real god. The verse shows the writer's own standard: he judges Babylon's worship by the purity laws of Leviticus.",
   "r": "Leviticus 12:2–4; Leviticus 15:19–24",
   "top": "clean-and-unclean"
  },
  {
   "v": "6:29",
-  "a": "Women lay out food",
+  "a": "women lay out food",
   "type": "word",
   "t": "Women at the table of the gods",
   "p": "The verb means to set something before someone, as a meal.",
-  "b": "<i>Paratithēmi</i> is to set food before a guest. The letter's complaint is not spelled out. It may be that women, not priests, serve the gods; or simply that a god who must be fed by anyone at all is no god. Jeremiah saw women in Judah bake cakes for the Queen of Heaven (Jeremiah 7:18; Jeremiah 44:19).",
+  "b": "<i>Paratithēmi</i> is to set food before a guest. The question and its answer are ironic: is this what makes them gods? The complaint itself is not spelled out. It may be that women, not priests, serve the gods; or simply that a god who must be fed by anyone at all is no god. Jeremiah saw women in Judah bake cakes for the Queen of Heaven (Jeremiah 7:18; Jeremiah 44:19).",
   "orig": "γυναῖκες παρατιθέασιν (gynaikes paratitheasin)",
   "kind": "deb",
   "r": "Jeremiah 7:18; Jeremiah 44:19",
@@ -394,11 +394,11 @@
  },
  {
   "v": "6:33",
-  "a": "Neither crowning a king nor dethroning one is in their power",
+  "a": "They cannot set up a king or remove one",
   "type": "echo",
   "t": "Who sets up kings",
   "p": "In Daniel, God 'removes kings and sets kings up'. Babylon's gods cannot.",
-  "b": "Daniel's prayer says of God, \"he removes kings and he sets kings up\" (Daniel 2:21), and Nebuchadnezzar learns that \"the Most High is ruler over the kingdom of humankind\" (Daniel 4:17). In Babylon the gods were thought to choose the king. The letter denies them that power here and at 6:52 and 6:65.",
+  "b": "Daniel's prayer says of God, \"he removes kings and he sets kings up\" (Daniel 2:21), and Nebuchadnezzar learns that \"the Most High is ruler over the kingdom of humankind\" (Daniel 4:17). The letter denies them that power here and at 6:52 and 6:65.",
   "r": "Daniel 2:21; Daniel 4:17; 6:52; 6:65",
   "top": "kingship"
  },
@@ -426,11 +426,11 @@
  },
  {
   "v": "6:40",
-  "a": "they bring Bel out",
+  "a": "they bring Bel",
   "type": "history",
   "t": "Bel, the Lord of Babylon",
-  "p": "Bel means 'lord'. It was the title of Marduk, the chief god of Babylon.",
-  "b": "<i>Bēl</i> is the Akkadian word for 'lord', and in Babylon it was the title of Marduk, the city's chief god. The prophets name him: \"Bel has bowed down; Nebo is doubled over\" (Isaiah 46:1), and \"Bel is put to shame; / Marduk is shattered\" (Jeremiah 50:2, poetry). Bel and the Dragon, one of the Additions to Daniel, tells how Daniel proved that Bel's statue ate nothing. The Chaldeans are the Babylonians, named after the people whose kings ruled the city in Nebuchadnezzar's day.",
+  "p": "Bel means 'lord'. Jeremiah pairs Bel with Marduk, the chief god of Babylon.",
+  "b": "<i>Bēl</i> means 'lord'. The prophets name him among Babylon's gods: \"Bel has bowed down; Nebo is doubled over\" (Isaiah 46:1), and \"Bel is put to shame; / Marduk is shattered\" (Jeremiah 50:2, poetry). Since Jeremiah sets the two names side by side, Bel here is most likely Marduk, Babylon's chief god, under his title. Bel and the Dragon, one of the Additions to Daniel, tells how Daniel proved that Bel's statue ate nothing. The Chaldeans are the Babylonians, named after the people whose kings ruled the city in Nebuchadnezzar's day.",
   "r": "Isaiah 46:1; Jeremiah 50:2; Jeremiah 51:44; Additions to Daniel",
   "top": "babylon",
   "l": [
@@ -442,11 +442,11 @@
  },
  {
   "v": "6:40",
-  "a": "plead for the man to speak",
+  "a": "beg for him to speak",
   "type": "word",
   "t": "Who is meant to speak?",
-  "p": "The Greek does not say whether the mute man or Bel is to speak. The scene is unclear.",
-  "b": "The Greek says the Chaldeans bring Bel and \"ask to give voice\" (<i>phōnēsai</i>), without saying who is to give it. Most readers, like the Vulgate and the KJV, take it that they beg Bel to make the mute man speak; Codex Alexandrinus adds 'then to speak'. Benjamin Wright, introducing the NETS translation, calls 6:40–41 perhaps the hardest passage in the letter. The Plain keeps the Greek's open sense: they plead for the man to speak, as if Bel could even notice.",
+  "p": "The Greek does not say whether the mute man or Bel is to speak, and the Plain leaves it open.",
+  "b": "The Greek says the Chaldeans bring Bel and \"ask to give voice\" (<i>phōnēsai</i>), without saying who is to give it. Benjamin Wright, introducing the NETS translation, calls 6:40–41 perhaps the best example in the letter of Greek that makes little sense, and says this clause does not make clear whether the Chaldeans expect the mute man to speak or Bel. The Latin Vulgate has them bring the mute man to Bel, \"asking him to speak\" (<i>postulantes ab eo loqui</i>), and the KJV has them \"intreat Bel that he may speak\"; both leave 'he' as open as the Greek. Codex Alexandrinus reads 'then to speak' (<i>tote lalēsai</i>) in place of 'to give voice' (Swete's notes). The Plain's 'him' is left open on purpose: it can be the man or Bel.",
   "orig": "ἀξιοῦσιν φωνῆσαι (axiousin phōnēsai)",
   "kind": "deb",
   "s": [
@@ -456,7 +456,7 @@
  },
  {
   "v": "6:41",
-  "a": "they cannot take the hint and leave those gods behind",
+  "a": "they cannot leave those gods behind",
   "type": "word",
   "t": "Do they leave their gods or not?",
   "p": "The Greek says they cannot leave their gods. The Vulgate says they will leave them.",
@@ -470,15 +470,15 @@
  },
  {
   "v": "6:42",
-  "a": "The women put cords around themselves",
+  "a": "the women, wearing cords",
   "type": "history",
   "t": "The women with cords",
   "p": "Herodotus tells of Babylonian women with cords on their heads who sat at a temple for strangers.",
-  "b": "Herodotus says every Babylonian woman once in her life sat in the precinct of Aphrodite \"with a wreath of cord about their heads\" until a stranger threw a coin in her lap and lay with her (<i>Histories</i> 1.199, Macaulay's translation). Scholars long took this as proof of 'sacred prostitution' in Babylon. Stephanie Budin has argued that no such institution existed, and that the Letter of Jeremiah, consciously or not, draws on Herodotus' account; reviewers find her case strong though not closed. So the verse may describe a real custom, or a Greek story about Babylon that the writer knew. The Vulgate has the women burn olive stones, not bran.",
+  "b": "Herodotus says that every Babylonian woman once in her life sat in the precinct of Aphrodite \"with a wreath of cord about their heads\" until a stranger threw a silver coin into her lap and lay with her (<i>Histories</i> 1.199, Macaulay's translation). Stephanie Budin has argued that sacred prostitution of this kind did not exist in the ancient world, and that the Letter of Jeremiah, consciously or not, took the custom from Herodotus. Vinciane Pirenne-Delforge, reviewing the book, agreed with its main conclusion and found the arguments of this chapter good, but did not think Budin's reading of Herodotus himself ended the debate. So the verse may describe a real custom, or a Greek story about Babylon that the writer knew. The Vulgate has the women burn olive stones, not bran.",
   "r": "6:43; Proverbs 7:10–12",
   "s": [
-   "herodotus-histories",
-   "budin-myth"
+   "herodotus-macaulay",
+   "pirenne-delforge-bmcr-budin"
   ],
   "l": [
    [
@@ -492,20 +492,21 @@
   "a": "her cord was never broken",
   "type": "symbol",
   "t": "The broken cord",
-  "p": "The cord broken by the man is a sign that the woman has done her duty.",
-  "b": "The woman who has been chosen boasts over her neighbor, whose cord is still whole: she was not thought worthy. The letter's scorn is aimed less at the women than at a worship that turns a woman's shame into a boast. Israel's law forbade a father to make his daughter a prostitute (Leviticus 19:29).",
+  "p": "The woman who was taken mocks her neighbor, whose cord is still whole.",
+  "b": "The woman who has been taken boasts over her neighbor: that one was not thought as worthy, and her cord was never broken. The letter does not explain the cord further, and Herodotus, who describes the cords (see 6:42), says nothing about breaking them. Israel's law forbade a father to make his daughter a prostitute (Leviticus 19:29).",
   "r": "Leviticus 19:29; Deuteronomy 23:17"
  },
  {
   "v": "6:44",
   "a": "Everything done for them is a lie.",
   "type": "history",
-  "t": "The oldest copy",
-  "p": "A Greek papyrus scrap of 6:43–44 was found in Qumran Cave 7, copied about 100 BC.",
-  "b": "Cave 7 at Qumran held only Greek texts, on papyrus. One of them, 7Q2 (7QpapEpJer gr), holds a few words of 6:43–44 (in the numbering this site uses), and was published by Maurice Baillet in Discoveries in the Judaean Desert III (1962). C. H. Roberts dated the hand to about 100 BC. So the letter existed in Greek by then, and Jews in the land of Israel copied it.",
+  "t": "The oldest copy?",
+  "p": "A tiny Greek papyrus from Qumran Cave 7 is thought to hold 6:43–44, though it is too small to be sure.",
+  "b": "A small Greek papyrus fragment from Qumran Cave 7, 7Q2, is thought to hold 6:43–44, in a form of the text later found in the Lucianic Greek manuscripts and the Syriac. It has only twenty-two letters, so, as Sean Adams notes, the identification is not certain. It was published in the third volume of <i>Discoveries in the Judaean Desert</i>, and Daniel Harrington dates the manuscript about 100 BC. If it is the Letter, it is the oldest copy, and the letter existed in Greek by then and was kept at Qumran.",
   "r": "6:43",
   "s": [
-   "djd3"
+   "adams-thb-letter",
+   "harrington-hbc-letjer"
   ]
  },
  {
@@ -553,7 +554,7 @@
   "a": "nor send rain down on people",
   "type": "echo",
   "t": "Who sends rain",
-  "p": "Jeremiah asks whether any idol can make it rain. Rain was the test of a god in the ancient world.",
+  "p": "Jeremiah asks whether any idol can make it rain. The letter says these gods cannot.",
   "b": "Jeremiah asks, \"Can any of the nations' empty idols make it rain?\" (Jeremiah 14:22), and answers that the LORD does. Elijah's contest on Carmel ended in rain from Israel's God (1 Kings 18:41–45), and Paul told the people of Lystra that God showed his goodness by giving rain from heaven (Acts 14:17).",
   "r": "Jeremiah 14:22; 1 Kings 18:41–45; Acts 14:17; Psalm 147:8",
   "top": "rain-and-weather"

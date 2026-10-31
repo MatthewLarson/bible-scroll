@@ -45,7 +45,7 @@
   ],
   "follow": 0,
   "why": "The longer text matches Daniel 9:12 (\"bringing a great disaster on us\"), and scribes who knew Daniel's prayer could easily fill in the familiar words. The shorter text of Vaticanus is less likely to be an expansion. The KJV follows the shorter text here.",
-  "b": "This variant shows how closely copyists heard Baruch 1:15-2:19 as a version of Daniel's prayer (see the note at 1:15).",
+  "b": "This variant shows how closely copyists heard Baruch 1:15-2:19 as a version of Daniel's prayer (see the note at 1:15). Swete cites Γ here, although his preface lists Baruch 1:12–2:3 among the places where Cozza's transcript of Γ is \"conspicuously defective\" and warns that its silence proves little.",
   "s": [
    "swete-lxx"
   ]
@@ -146,6 +146,82 @@
   ],
   "follow": 0,
   "why": "Swete prints the first hand of Vaticanus, and the Plain follows his text. The other reading uses the idiom of 2:30 (\"they will turn to their heart\"), so it may be a correction toward that verse; or it may be original, and the first hand a slip. Both readings make sense: the exiles either have put away their ancestors' sins or have come to grips with them. The Latin, behind the Douay, reads \"we are converted from the iniquity of our fathers\".",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "he brought a nation against them",
+  "t": "\"God brought\"",
+  "p": "Alexandrinus names the subject: \"God brought a nation against them\".",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), as printed by Swete",
+    "orig": "ἐπήγαγεν γὰρ ἐπ᾽ αὐτοὺς ἔθνος",
+    "en": "for he brought on them a nation",
+    "plain": "he brought a nation against them"
+   },
+   {
+    "w": "Codex Alexandrinus (A), in Swete's notes (\"αυτους] + ο θς A\")",
+    "orig": "ἐπήγαγεν γὰρ ἐπ᾽ αὐτοὺς ὁ θεὸς ἔθνος",
+    "en": "for God brought on them a nation",
+    "plain": "God brought a nation against them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text. The added word only spells out what the verse already means: \"he\" is God, who brought the captivity (4:10).",
+  "b": "Swete prints the added word in the scribes' short form θς, for θεός.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:20",
+  "a": "cry out to the Everlasting",
+  "t": "\"The Everlasting Most High\"",
+  "p": "Alexandrinus adds \"Most High\" to the title.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), as printed by Swete",
+    "orig": "κεκράξομαι πρὸς τὸν αἰώνιον",
+    "en": "I will cry out to the Everlasting",
+    "plain": "cry out to the Everlasting"
+   },
+   {
+    "w": "Codex Alexandrinus (A), in Swete's notes (\"αιωνιον] + υψιστον A\")",
+    "orig": "κεκράξομαι πρὸς τὸν αἰώνιον ὕψιστον",
+    "en": "I will cry out to the Everlasting Most High",
+    "plain": "cry out to the Everlasting Most High"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text, where \"the Everlasting\" stands alone as a title, as in 4:10, 4:14 and 4:22.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:22",
+  "a": "over the mercy soon coming to you",
+  "t": "Joy over mercy, or joy that comes?",
+  "p": "Alexandrinus leaves out \"over the mercy\", so the joy itself is what will come soon.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), as printed by Swete; the KJV (\"because of the mercy\")",
+    "orig": "ἐπὶ τῇ ἐλεημοσύνῃ, ἣ ἥξει ὑμῖν ἐν τάχει",
+    "en": "over the mercy, which will come to you quickly",
+    "plain": "over the mercy soon coming to you"
+   },
+   {
+    "w": "Codex Alexandrinus (A), in Swete's notes (\"om επι τη ελεημοσυνη A\")",
+    "orig": "ἣ ἥξει ὑμῖν ἐν τάχει",
+    "en": "which will come to you quickly",
+    "plain": "that will soon come to you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's base text. Without the phrase, the relative word \"which\" has to refer back to the joy.",
   "s": [
    "swete-lxx"
   ]

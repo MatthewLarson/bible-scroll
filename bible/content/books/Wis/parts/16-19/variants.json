@@ -19,8 +19,8 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text, which the Old Latin supports. Vaticanus's participle lacks a noun, so many readers think the Ephraemi reading, a noun that differs by a few letters, is the original; the meaning is close either way.",
-  "b": "Swete also notes that a corrector of Vaticanus and the first hand of Sinaiticus garble the word.",
+  "why": "The Plain follows Swete's text, which the Latin supports. Vaticanus's participle has no noun of its own; Ephraemi's noun, which differs by a few letters, reads more smoothly. The meaning is close either way.",
+  "b": "Swete also reports that Vaticanus itself was garbled here: its first hand wrote διχθ-, which a corrector changed to δειχθ-, Swete's text. The first hand of Sinaiticus has χθεισαν, and an early corrector of Sinaiticus διχθ-.",
   "s": [
    "swete-ot",
    "vulgate-clementine",
@@ -28,10 +28,39 @@
   ]
  },
  {
+  "v": "16:6",
+  "a": "a token of salvation",
+  "t": "Token, or counsel?",
+  "p": "Sinaiticus and Alexandrinus read συμβουλον, a word of the \"counsel\" family, where Vaticanus has σύμβολον, \"token.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the Latin Vulgate (signum habentes salutis, \"having a sign of salvation\"); KJV (\"a sign of salvation\")",
+    "orig": "σύμβολον ἔχοντες σωτηρίας",
+    "en": "having a token of salvation",
+    "plain": "a token of salvation"
+   },
+   {
+    "w": "Codices Sinaiticus (ℵ) and Alexandrinus (A), as Swete reports them (page 634 of his second volume)",
+    "orig": "συμβουλον",
+    "en": "a counsel (or counselor)",
+    "plain": "a counsel of salvation"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which the Latin and the KJV support. The two words differ by one letter. συμβουλον belongs with σύμβουλος, \"counselor, adviser\" (the word of Romans 11:34); with it the bronze snake becomes God's advice for their rescue, close in sense to the \"reminder\" of the next line.",
+  "b": "In the same line Swete reports that Alexandrinus has νομον for νόμου (\"the commandment, the law\") and that Sinaiticus leaves out \"your.\"",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha",
+   "stepbible-tbesg"
+  ]
+ },
+ {
   "v": "16:12",
   "a": "which heals all things",
   "t": "Heals all things, or can do all things?",
-  "p": "A corrector of Sinaiticus changed \"heals\" to \"is able\"; Alexandrinus has \"heals everyone.\"",
+  "p": "A corrector of Sinaiticus changed \"heals\" to \"is able\"; Alexandrinus and Ephraemi have \"heals everyone.\"",
   "readings": [
    {
     "w": "Codex Vaticanus (B), Swete's text; Sinaiticus (ℵ) first hand",
@@ -46,7 +75,7 @@
     "plain": "which can do all things"
    },
    {
-    "w": "Codex Alexandrinus (A, 400s AD)",
+    "w": "Codices Alexandrinus (A, 400s AD) and Ephraemi (C)",
     "orig": "ὁ πάντας ἰώμενος",
     "en": "the one healing all people",
     "plain": "which heals everyone"
@@ -62,7 +91,7 @@
   "v": "16:20",
   "a": "You sent them bread from heaven",
   "t": "Sent, or provided?",
-  "p": "Sinaiticus, Alexandrinus and Ephraemi read \"you provided them from heaven,\" the wording the Latin and the Tantum ergo versicle follow.",
+  "p": "Sinaiticus, Alexandrinus and Ephraemi read \"you provided them from heaven,\" the wording the Latin follows.",
   "readings": [
    {
     "w": "Codex Vaticanus (B), Swete's text; KJV (\"didst send them from heaven\")",
@@ -71,18 +100,18 @@
     "plain": "You sent them bread from heaven"
    },
    {
-    "w": "Codices Sinaiticus (ℵ), Alexandrinus (A) and apparently Ephraemi (C); the Latin Vulgate (paratum panem de caelo praestitisti illis)",
+    "w": "Codices Sinaiticus (ℵ), Alexandrinus (A) and apparently Ephraemi (C); the Latin Vulgate (paratum panem de cælo præstitisti illis)",
     "orig": "ἄρτον ἀπ᾽ οὐρανοῦ παρέσχες αὐτοῖς",
     "en": "bread from heaven you provided them",
     "plain": "You provided them with bread from heaven"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. The meaning hardly changes, but the second reading is the source of the Latin praestitisti that Catholic worship sings at Benediction.",
+  "why": "The Plain follows Swete's text. The meaning hardly changes. The Latin verb praestitisti, \"you provided,\" matches παρέσχες rather than ἔπεμψας, and the Latin line is the one that entered the liturgy of Corpus Christi (see the note on this verse).",
   "s": [
    "swete-ot",
    "vulgate-clementine",
-   "tantum-ergo-versicle"
+   "processional-harvard-typ-47"
   ]
  },
  {
@@ -166,35 +195,42 @@
  {
   "v": "17:4",
   "a": "Noises boomed all around and shook them",
-  "t": "Noises, or noises like falling water?",
-  "p": "The KJV says \"noises as of waters falling down,\" which the Greek codices do not have.",
+  "t": "Noises that shook them, or noises crashing down?",
+  "p": "Vaticanus's first hand has noises that \"shook\" them; a corrector of Vaticanus, Alexandrinus and Ephraemi have noises \"crashing down.\"",
   "readings": [
    {
-    "w": "The Greek codices as Swete reports them (B, ℵ, A, C)",
+    "w": "Codex Vaticanus (B), first hand; Swete's text",
     "orig": "ἦχοι δ᾽ ἐκταράσσοντες αὐτοὺς περιεκόμπουν",
     "en": "sounds disturbing them roared around",
     "plain": "Noises boomed all around and shook them"
    },
    {
-    "w": "Latin Vulgate (sonitus descendens, 'a noise coming down'); KJV (\"noises as of waters falling down sounded about them\")",
-    "orig": "sonitus descendens perturbabat illos",
-    "en": "a noise coming down disturbed them",
-    "plain": "Noises like falling water boomed all around and shook them"
+    "w": "Codex Vaticanus, corrector (B ab), Codices Alexandrinus (A) and Ephraemi (C); compare the Latin (sonitus descendens, \"a noise coming down\") and the KJV (\"noises as of waters falling down\")",
+    "orig": "δε καταρασσοντες",
+    "en": "and [sounds] dashing down",
+    "plain": "Noises came crashing down all around them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ)",
+    "orig": "δε ταρασσοντες",
+    "en": "and [sounds] troubling [them]",
+    "plain": "Noises boomed all around and troubled them"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The KJV's \"waters falling down\" has no match in the Greek that Swete prints; it is closer to the Latin \"a noise coming down.\"",
+  "why": "The Plain follows Swete's text. The reading \"crashing down\" has three witnesses and may lie behind the Latin \"a noise coming down\" and the KJV's \"falling down.\" Either way the Egyptians are surrounded by noise.",
   "s": [
    "swete-ot",
    "vulgate-clementine",
    "kjv-apocrypha"
-  ]
+  ],
+  "b": "In the same verse Swete reports that Alexandrinus and Ephraemi read αφοβους and διεφυλαττεν in the first line (the sense is the same), and that Alexandrinus has μυθος, \"story,\" for μυχός, \"inner room,\" a slip of one letter."
  },
  {
   "v": "17:11",
   "a": "testifies by itself that it is a coward",
   "t": "By itself, or by its own witness?",
-  "p": "Sinaiticus and Alexandrinus read \"witness\" as a noun, giving the KJV's \"condemned by her own witness.\"",
+  "p": "A corrector of Sinaiticus adds \"its own,\" and Sinaiticus and Alexandrinus spell the verb μαρτυρι, which can be read as \"witness\": hence the KJV's \"condemned by her own witness.\"",
   "readings": [
    {
     "w": "Codex Vaticanus (B), Swete's text",
@@ -203,14 +239,14 @@
     "plain": "testifies by itself that it is a coward"
    },
    {
-    "w": "Codices Sinaiticus (ℵ) and Alexandrinus (A) read μάρτυρι, and a corrector of Sinaiticus ἰδίῳ; KJV (\"condemned by her own witness, is very timorous\")",
-    "orig": "δειλὸν γὰρ ἰδίῳ πονηρία μάρτυρι καταδικαζομένη",
+    "w": "Codex Sinaiticus, corrector (ℵ c.a), who adds ιδιω, \"its own\"; Sinaiticus and Alexandrinus spell the verb μαρτυρι; KJV (\"condemned by her own witness, is very timorous\")",
+    "orig": "+ ιδιω; μαρτυρι",
     "en": "for wickedness, condemned by its own witness, [is] cowardly",
     "plain": "is a coward, condemned by its own witness"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. Both readings say that a guilty conscience condemns itself; the second makes the conscience a witness in court.",
+  "why": "The Plain follows Swete's text. Swete lists μαρτυρι as a spelling of the verb μαρτυρεῖ, \"testifies,\" but with the corrector's added \"its own\" the same letters read as \"by its own witness,\" which is how the KJV took them. Both readings say that a guilty conscience condemns itself.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -304,6 +340,45 @@
   ]
  },
  {
+  "v": "18:22",
+  "a": "the crowd",
+  "t": "Crowd, disturbance, destroyer or wrath?",
+  "p": "Every Greek codex has \"the crowd.\" The Latin has \"crowds,\" the KJV \"the destroyer,\" and the NRSVUE corrects it to \"wrath.\"",
+  "readings": [
+   {
+    "w": "The Greek codices that Swete reports, with no variant here; Swete's text",
+    "orig": "ἐνίκησεν τὸν ὄχλον",
+    "en": "he overcame the crowd",
+    "plain": "the crowd"
+   },
+   {
+    "w": "The Latin Vulgate; Douay (\"the disturbance\")",
+    "orig": "Vicit autem turbas",
+    "en": "he overcame the crowds (or disturbances)",
+    "plain": "the disturbance"
+   },
+   {
+    "w": "KJV (\"So he overcame the destroyer\")",
+    "en": "the destroyer",
+    "plain": "the destroyer"
+   },
+   {
+    "w": "NRSVUE, which prints \"wrath\" and marks it as a correction of the Greek (\"Cn: Gk multitude\")",
+    "en": "the wrath",
+    "plain": "the wrath"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps the Greek that the codices have. \"The crowd\" is hard to place, which is why translators reach for other words; the KJV's \"destroyer\" and the NRSVUE's \"wrath\" fit the plague but are not what the Greek says, and the NRSVUE marks its word as a correction.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "douay-rheims",
+   "kjv-apocrypha",
+   "nrsvue-wis18"
+  ]
+ },
+ {
   "v": "18:25",
   "a": "these were what they feared",
   "t": "They feared, or it feared?",
@@ -324,6 +399,33 @@
   ],
   "follow": 0,
   "why": "The Plain follows Swete. The plural may mean the destroyer and its forces; the singular makes the destroyer alone the subject. The sense is the same: the priest's robe and prayer turned back the plague.",
+  "s": [
+   "swete-ot",
+   "vulgate-clementine",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "19:2",
+  "a": "turned around so your people could leave",
+  "t": "Turned around, or gave leave?",
+  "p": "Vaticanus says the Egyptians \"turned around\"; a corrector of Sinaiticus and Alexandrinus say they \"allowed\" Israel to go.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; Sinaiticus's first hand has the same word spelled επεστρεψαντες, and a later hand apparently restored επιστρ.",
+    "orig": "ἐπιστρέψαντες τοῦ ἀπεῖναι",
+    "en": "having turned [themselves] toward [their] going away",
+    "plain": "turned around so your people could leave"
+   },
+   {
+    "w": "Codex Sinaiticus, corrector (ℵ c.a), and Codex Alexandrinus (A); the Latin Vulgate (cum ipsi permisissent ut se educerent); KJV (\"having given them leave to depart\")",
+    "orig": "ἐπιτρέψαντες τοῦ ἀπεῖναι",
+    "en": "having allowed [them] to go away",
+    "plain": "let your people go"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The two words differ by one letter (σ). In Vaticanus the Egyptians reverse their earlier refusal; in the other reading they give permission. \"Allowed\" is the easier sense, which a copyist could have reached by dropping one letter.",
   "s": [
    "swete-ot",
    "vulgate-clementine",
@@ -412,25 +514,25 @@
  },
  {
   "v": "19:13",
-  "a": "not without the signs that came with them",
-  "t": "Signs that came with them, or signs beforehand?",
+  "a": "not without the signs that had taken place",
+  "t": "Signs that had taken place, or signs beforehand?",
   "p": "Sinaiticus, Alexandrinus and Ephraemi read \"signs that had come before,\" which the KJV and the Latin follow.",
   "readings": [
    {
     "w": "Codex Vaticanus (B), Swete's text",
     "orig": "οὐκ ἄνευ τῶν γεγονότων τεκμηρίων",
     "en": "not without the signs that had happened",
-    "plain": "not without the signs that came with them"
+    "plain": "not without the signs that had taken place"
    },
    {
     "w": "Codices Sinaiticus (ℵ), Alexandrinus (A), Ephraemi (C); KJV (\"not without former signs\"); Latin (non sine illis quae ante facta erant argumentis)",
     "orig": "οὐκ ἄνευ τῶν προγεγονότων τεκμηρίων",
     "en": "not without the signs that had happened beforehand",
-    "plain": "not without warning signs beforehand"
+    "plain": "not without the signs that had taken place beforehand"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text, though the other three codices and the Latin agree on \"beforehand,\" which fits the writer's point that God warns before he punishes (12:2). The thunder may be the storm at the sea (Psalm 77:16–18).",
+  "why": "The Plain follows Swete's text. Vaticanus's \"had taken place\" already points back to signs given before the punishment, so the two readings say nearly the same thing; the other three codices and the Latin make \"before\" explicit with the prefix προ-. A copyist could have added the prefix to make the sense plain or dropped it by accident, and the evidence does not settle which, so the Plain keeps its base text.",
   "s": [
    "swete-ot",
    "vulgate-clementine",
@@ -450,7 +552,7 @@
     "plain": "Fire in water was stronger than its own power"
    },
    {
-    "w": "Codices Alexandrinus (A) and Ephraemi (C), with ℵ in the next words; KJV (\"The fire had power in the water, forgetting his own virtue\")",
+    "w": "Codices Alexandrinus (A) and Ephraemi (C) (Sinaiticus shares their ἴσχυεν, \"had power,\" but not the added word); KJV (\"The fire had power in the water, forgetting his own virtue\")",
     "orig": "πῦρ ἴσχυεν ἐν ὕδατι τῆς ἰδίας δυνάμεως ἐπιλελησμένον",
     "en": "fire had power in water, having forgotten its own power",
     "plain": "Fire had power in water, forgetting its own nature"
