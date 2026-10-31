@@ -1,0 +1,532 @@
+[
+ {
+  "v": "6:8",
+  "a": "with beams being set in the walls",
+  "t": "In the walls or in the houses?",
+  "p": "Vaticanus has timbers set \"in the houses\"; Alexandrinus \"in the walls,\" as in Ezra 5:8.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"upon the walls\")",
+    "orig": "τοίχοις",
+    "en": "walls",
+    "plain": "with beams being set in the walls"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐν τοῖς οἴκοις",
+    "en": "in the houses",
+    "plain": "with beams being set in the buildings"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text here. \"Walls\" matches the Aramaic of Ezra 5:8 (\"beams are being set into them,\" the walls) and gives clear sense; the two Greek words differ by a few letters (oikois, toichois), so Vaticanus probably has a slip.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "6:22",
+  "a": "a scroll",
+  "t": "A place or a scroll?",
+  "p": "Vaticanus says \"a place\" was found; Alexandrinus says \"a volume,\" as Ezra 6:2 has \"a scroll.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"a roll\")",
+    "orig": "τόμος",
+    "en": "a volume, a roll",
+    "plain": "a scroll"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τόπος",
+    "en": "a place",
+    "plain": "a place"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. <i>Tomos</i> (volume) and <i>topos</i> (place) differ by one letter, and the Aramaic of Ezra 6:2 has megillah, \"scroll.\" Vaticanus's \"a place in which these things were recorded\" can be made to work, but the scroll is the better reading.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "son of Azaraias",
+  "t": "Azaraias or Saraias?",
+  "p": "Alexandrinus names Ezra's father Saraias, as Ezra 7:1 has Seraiah.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ἀζαραίου",
+    "en": "of Azaraias",
+    "plain": "son of Azaraias"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "Σαραιου",
+    "en": "of Saraias",
+    "plain": "son of Saraias"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus agrees with the Hebrew (Seraiah) and may be right; Azaraias may come from the next name in Ezra's list, Azariah.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "son of Amartheus, son of Ozeias, son of Bokkas",
+  "t": "Three missing generations",
+  "p": "Alexandrinus has three more names here, close to Ezra 7:3-4.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τοῦ Ἀμαρθείου τοῦ Ὀζείου τοῦ Βοκκὰ",
+    "en": "of Amartheus, of Ozeias, of Bokka",
+    "plain": "son of Amartheus, son of Ozeias, son of Bokkas"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (Αμαριου for Αμαρθειου; Εζιου for Οζειου, followed by του Μαρερωθ του Ζαραιου του Σαουια)",
+    "orig": "του Αμαριου του Εζιου του Μαρερωθ του Ζαραιου του Σαουια του Βοκκα",
+    "en": "of Amarias, of Ezias, of Mareroth, of Zaraias, of Saouias, of Bokka",
+    "plain": "son of Amarias, son of Ezias, son of Mareroth, son of Zaraias, son of Saouias, son of Bokkas"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus's longer line lines up with Ezra 7:3-4 (Amariah, Azariah, Meraioth, Zerahiah, Uzzi, Bukki), so Vaticanus has probably lost three names by an eye-skip.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "That year was the king's seventh",
+  "t": "The seventh year or the second?",
+  "p": "Vaticanus says \"this year was the king's second,\" which contradicts the verse's own date; Alexandrinus says \"seventh.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "ὁ ἐνιαυτὸς ἕβδομος",
+    "en": "the seventh year",
+    "plain": "That year was the king's seventh"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "οὗτος ἐνιαυτὸς ὁ δεύτερος βασιλεῖ",
+    "en": "this year the second to the king",
+    "plain": "That year was the king's second"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. The same verse dates the journey to \"the seventh year,\" as Ezra 7:7-8 does, so \"second\" cannot be right in Vaticanus as it stands.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "Ezra",
+  "t": "Ezra or Apsaras?",
+  "p": "Vaticanus calls him \"Apsaras\" in this verse only.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "Εζρας",
+    "en": "Ezra",
+    "plain": "Ezra"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ἀψάρας",
+    "en": "Apsaras",
+    "plain": "Apsaras"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. Everywhere else the book calls him Esras or Esdras; \"Apsaras\" is a copying error in Vaticanus.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "when he taught all Israel",
+  "t": "\"Teach\" in Alexandrinus only",
+  "p": "Alexandrinus has \"to teach\"; Vaticanus has no verb, only \"all Israel.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"but taught\")",
+    "orig": "διδάξαι",
+    "en": "to teach",
+    "plain": "when he taught all Israel"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πάντα τὸν Ἰσραήλ",
+    "en": "all Israel (no verb)",
+    "plain": "for all Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Alexandrinus's verb, which Ezra 7:10 has (\"teaching its rules and rulings in Israel\"). Without it the Greek of Vaticanus leaves \"all Israel\" hanging.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:18",
+  "a": "the royal treasury",
+  "t": "The royal treasury or the temple treasury?",
+  "p": "Alexandrinus has \"the sacred treasury.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐκ τοῦ βασιλικοῦ γαζοφυλακίου",
+    "en": "from the royal treasury",
+    "plain": "the royal treasury"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "ιερου",
+    "en": "the sacred (temple) treasury",
+    "plain": "the temple treasury"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which agrees with Ezra 7:20, \"the king's treasure house.\"",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:24",
+  "a": "with a fine or with prison",
+  "t": "\"Not by a fine\"?",
+  "p": "Vaticanus seems to forbid fines and prison (\"not by a fine\"); Alexandrinus lists them as penalties.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV",
+    "orig": "ἢ ἀργυρίῳ ζημίᾳ",
+    "en": "or by a fine of money",
+    "plain": "with a fine or with prison"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "μὴ ἀργυρίῳ ζημίᾳ ἤ ἀπαγωγῇ",
+    "en": "not by a money fine or prison",
+    "plain": "but not with a fine or with prison"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. Ezra 7:26 lists death, rooting out, a fine and prison side by side. The Greek <i>mē</i> (\"not\") and <i>ē</i> (\"or\") differ by one letter, and Vaticanus's \"not\" makes little sense in a list of punishments.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:25",
+  "a": "Blessed is the Lord alone, who put these things into my heart, the king's heart",
+  "t": "Who speaks the blessing?",
+  "p": "Alexandrinus adds \"And Ezra the scribe said,\" and makes it the king's heart only.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "εὐλογητὸς μόνος ὁ κύριος ὁ δοὺς ταῦτα εἰς τὴν καρδίαν μου τοῦ βασιλέως",
+    "en": "Blessed alone is the Lord who gave these things into my heart, of the king",
+    "plain": "Blessed is the Lord alone, who put these things into my heart, the king's heart"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (adds και ειπεν Εζρας ο γραμματευς, adds των πατερων μου, lacks μου)",
+    "orig": "και ειπεν Εζρας ο γραμματευς· ευλογητος μονος ο κυριος των πατερων μου ο δους ταυτα εις την καρδιαν του βασιλεως",
+    "en": "And Ezra the scribe said, Blessed alone is the Lord of my fathers, who gave these things into the heart of the king",
+    "plain": "And Ezra the scribe said, \"Blessed is the Lord of my ancestors alone, who put these things into the king's heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus reads more smoothly and matches Ezra 7:27, which may mean it has been made to fit the Hebrew. See the note.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:29",
+  "a": "Of the descendants of Phoros, Tarosotomus",
+  "t": "Phoros or Phinehas?",
+  "p": "Alexandrinus has \"Phinees, Gerson,\" like Ezra 8:2.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐκ τῶν υἱῶν Φορός, Ταροσότομος",
+    "en": "of the sons of Phoros, Tarosotomos",
+    "plain": "Of the descendants of Phoros, Tarosotomus"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "Φινεες ... Ιηρσων",
+    "en": "of Phinees, Gerson",
+    "plain": "Of the descendants of Phinehas, Gerson"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus agrees with the Hebrew (Phinehas, Gershom) and is probably the older reading; Vaticanus has carried the lay family name Phoros up from the next line.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:29",
+  "a": "Of the descendants of David,",
+  "t": "Hattush, son of Shecaniah",
+  "p": "Alexandrinus names Attus son of Sechenias after David, as Ezra 8:2-3 has Hattush.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τῶν υἱῶν Δαυείδ",
+    "en": "of the sons of David",
+    "plain": "Of the descendants of David,"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "+ Αττους ο Σεχενιου",
+    "en": "Attus son of Sechenias",
+    "plain": "Of the descendants of David, Attus son of Sechenias."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Without Hattush, Vaticanus joins David to the next name (see the note on 8:30). Hattush is the name Ezra and 1 Chronicles 3:22 give, and Alexandrinus probably keeps the older text.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:32",
+  "a": "with him 200 men. Of",
+  "t": "Two hundred or three hundred?",
+  "p": "Alexandrinus gives 300 for the family of Zathoes, as Ezra 8:5 does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "διακόσιοι",
+    "en": "two hundred",
+    "plain": "with him 200 men. Of"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "τριακοσιοι",
+    "en": "three hundred",
+    "plain": "with him 300 men. Of"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus agrees with the Hebrew.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:46",
+  "a": "with his sons and brothers, ten",
+  "t": "Ten or eighteen?",
+  "p": "Alexandrinus has eighteen, as Ezra 8:18, and adds that they came \"by the strong hand of our Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ τοὺς υἱοὺς καὶ τοὺς ἀδελφοὺς δέκα",
+    "en": "and the sons and the brothers, ten",
+    "plain": "with his sons and brothers, ten"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (before this it adds και ηγαγεν ημιν κατα την κραταιαν χειρα του κυ ημων ανδρας επιστημονας)",
+    "orig": "δεκα οκτω",
+    "en": "eighteen",
+    "plain": "with his sons and brothers, eighteen"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The Hebrew and Alexandrinus agree on eighteen, which is probably the older figure.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:56",
+  "a": "I weighed out and handed over to them",
+  "t": "\"I\" or \"he\"?",
+  "p": "Vaticanus says \"he handed over\"; Alexandrinus \"I handed over,\" as in Ezra 8:26.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "στησας παρεδωκα αυτοις",
+    "en": "having weighed I handed over to them",
+    "plain": "I weighed out and handed over to them"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "παρέδωκεν αὐτοῖς στήσας",
+    "en": "he handed over to them, having weighed",
+    "plain": "He weighed out and handed over to them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. Ezra speaks in the first person in the verses before and after (8:55, 8:57), so Vaticanus's \"he\" is probably a slip. Swete's footnote also shows Alexandrinus without the 100 talents of gold and with twelve bronze vessels.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "8:63",
+  "a": "12 bulls for all Israel, 96 rams, 72 lambs",
+  "t": "The arrival sacrifices",
+  "p": "Vaticanus has lost the bulls and the word \"rams\" and gives 76 lambs; the Plain follows Alexandrinus.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; Josephus, <i>Antiquities</i> 11.137, has seventy-two lambs",
+    "orig": "ταυρους δωδεκα υπερ παντος Ισλ· κριους ενενηκοντα εξ· αρνας εβδομηκοντα δυο",
+    "en": "twelve bulls for all Israel, ninety-six rams, seventy-two lambs",
+    "plain": "12 bulls for all Israel, 96 rams, 72 lambs"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐνενήκοντα ἕξ, ἄρνας ἑβδομήκοντα ἕξ",
+    "en": "ninety-six, seventy-six lambs",
+    "plain": "96 victims, 76 lambs"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. Vaticanus has lost several words, so that \"ninety-six\" stands with no animal named. Alexandrinus is complete and agrees with Ezra 8:35 on the bulls and rams. On the lambs it has 72, where the Hebrew has 77; the site's Ezra page discusses that difference.",
+  "s": [
+   "swete-ot",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "8:79",
+  "a": "They have broken",
+  "t": "\"They\" or \"we\"?",
+  "p": "Vaticanus says \"they have broken\" the commands; Alexandrinus \"we have broken.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "παρέβησαν",
+    "en": "they transgressed",
+    "plain": "They have broken"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "παρεβημεν γαρ",
+    "en": "for we transgressed",
+    "plain": "For we have broken"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus matches the Hebrew of Ezra 9:10, \"We have abandoned your commands,\" and the \"we\" of the rest of the prayer; Vaticanus's \"they\" may be a slip, but it also makes sense as Ezra speaking of the guilty.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "Jonas son of Nasibus",
+  "t": "Jonas son of Nasibus, or Joanan son of Eliasib?",
+  "p": "Alexandrinus has the names of Ezra 10:6.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ἰωνᾶ τοῦ Νασείβου",
+    "en": "of Jonas the son of Naseibos",
+    "plain": "Jonas son of Nasibus"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "Ιωαναν ... Ελιασιβου",
+    "en": "Joanan son of Eliasib",
+    "plain": "Joanan son of Eliasib"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus agrees with the Hebrew (Jehohanan son of Eliashib) and is probably right; see the note.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:25",
+  "a": "Of the gatekeepers",
+  "t": "Gatekeepers or daughters?",
+  "p": "Swete's text follows Alexandrinus here; Vaticanus has \"daughters.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; Swete's text",
+    "orig": "θυρωρῶν",
+    "en": "gatekeepers",
+    "plain": "Of the gatekeepers"
+   },
+   {
+    "w": "Codex Vaticanus (B), from Swete's footnote",
+    "orig": "θυγατέρων",
+    "en": "daughters",
+    "plain": "Of the daughters"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, which here corrects Vaticanus from Alexandrinus. The list is of men, and Ezra 10:24 has gatekeepers.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:46",
+  "a": "Then Azarias blessed the Most High God, the Almighty",
+  "t": "Azarias or Ezra?",
+  "p": "Alexandrinus has Ezra bless \"the Lord God Most High, Sabaoth, the Almighty,\" as Nehemiah 8:6 has Ezra.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ εὐλόγησεν Ἀζαρίας τῷ ὑψίστῳ θεῷ Παντοκράτορι",
+    "en": "and Azarias blessed the Most High God, the Almighty",
+    "plain": "Then Azarias blessed the Most High God, the Almighty"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "ηυλογησεν Εζρας τω κω θω τω υψιστω θεω σαβαωθ παντοκρατορι",
+    "en": "Ezra blessed the Lord God, the Most High God, Sabaoth, the Almighty",
+    "plain": "Then Ezra blessed the Lord, the Most High God of Armies, the Almighty"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus matches Nehemiah 8:6, which may mean it has been brought into line with the Hebrew; Azarias, one of the men beside Ezra (9:43), is the harder reading.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "9:51",
+  "a": "So go and eat rich food, and send shares",
+  "t": "\"Drink sweet drinks\"",
+  "p": "Alexandrinus adds \"and drink sweet drinks,\" as Nehemiah 8:10 has.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "βαδίσαντες οὖν φάγετε λιπάσματα",
+    "en": "going then, eat fat things",
+    "plain": "So go and eat rich food, and send shares"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "orig": "+ και πιετε γλυκασματα",
+    "en": "and drink sweet things",
+    "plain": "So go and eat rich food, drink sweet drinks, and send shares"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus matches the Hebrew, and Vaticanus may have lost the clause by an eye-skip from one verb to the next; but the shorter text makes sense.",
+  "s": [
+   "swete-ot"
+  ]
+ }
+]

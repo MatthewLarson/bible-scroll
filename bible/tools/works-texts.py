@@ -93,7 +93,13 @@ WORKS = [
                    'beside the Greek verse that holds it, marked with the KJV’s own number.',
         'lat_note': 'The Vulgate keeps the Old Latin of Sirach, which Jerome did not revise, with many additions.'}),
     ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017',   # no 'lat': the
-        'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)'}),   # scrollmapper Vulgate and Douay have its verses empty
+        'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)',   # scrollmapper Vulgate and Douay have its verses empty
+        'fix': {'1:16': ('βασιγέως', 'βασιλέως', 'a misspelling no Greek word has'), '1:22': ('ἔοτιν', 'ἔστιν', 'the First1KGreek text of Swete reads ἔστιν'),
+                '1:25': [('μετ᾽ ἑμοῦ ἐμοῦ ἐστιν', 'μετ᾽ ἐμοῦ ἐστιν', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐστιν'), ('μετ᾽ ἐπισπεύδων', 'μετ᾽ ἐμοῦ ἐπισπεύδων', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐπισπεύδων')],
+                '1:33': ('Αἱγύπτου', 'Αἰγύπτου', 'the First1KGreek text of Swete reads Αἰγύπτου'), '1:35': ('ἀδελφόν αὐτοῦ', 'ἀδελφὸν αὐτοῦ', 'an acute for the grave before another word'),
+                '2:2': [('ἐκήωυξεν', 'ἐκήρυξεν', 'the First1KGreek text of Swete reads ἐκήρυξεν'), ('ὅλῇ τῃ', 'ὅλῃ τῇ', 'the First1KGreek text of Swete reads ὅλῃ τῇ')], '2:8': ('ἀργυριῳ', 'ἀργυρίῳ', 'the First1KGreek text of Swete reads ἀργυρίῳ'),
+                '2:9': [('Ἰερουσαγὴμ', 'Ἰερουσαλὴμ', 'the First1KGreek text of Swete reads Ἰερουσαλὴμ'), ('κυρὶου', 'κυρίου', 'the First1KGreek text of Swete reads κυρίου')],
+                '2:17': ('πόλιν τήν', 'πόλιν τὴν', 'an acute for the grave before another word')}}),
     ('3Ma', '3 Maccabees', '3-maccabees', 'septuagint', {'grc': '3Ma', 'brenton': '3MA', 'gap': 'no verse here in Swete’s printed text (Codex Alexandrinus); Brenton’s English has one',
         'f1k': 'tlg025', 'vol': 'III (1912)', 'codex': 'Codex Alexandrinus (400s AD; Vaticanus lacks Maccabees)',
         'en_note': 'Its verse numbers follow the Greek.'}),
