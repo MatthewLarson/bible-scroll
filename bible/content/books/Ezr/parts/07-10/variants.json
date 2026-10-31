@@ -163,7 +163,7 @@
   "v": "8:35",
   "a": "77 lambs",
   "t": "77 or 72 lambs?",
-  "p": "The Hebrew has 77 lambs; 1 Esdras has 72, a multiple of twelve like the other numbers.",
+  "p": "The Hebrew has 77 lambs. 1 Esdras has 72 in Codex Alexandrinus, a multiple of twelve like the other numbers, and 76 in Codex Vaticanus.",
   "readings": [
    {
     "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV and modern translations",
@@ -172,7 +172,7 @@
     "plain": "77 lambs"
    },
    {
-    "w": "1 Esdras (Esdras A, the freer Greek parallel), Rahlfs' text, checked, 8:63 (8:66 in KJV numbering)",
+    "w": "1 Esdras (Esdras A, the freer Greek parallel), Rahlfs' text, checked, 8:63 (8:66 in KJV numbering), with Codex Alexandrinus (Swete's notes) and the KJV (\"threescore and twelve lambs\"); Codex Vaticanus (Swete) has 76 (ἄρνας ἑβδομήκοντα ἕξ), which the site's 1 Esdras follows",
     "orig": "ἄρνας ἑβδομήκοντα δύο",
     "en": "seventy-two lambs",
     "plain": "72 lambs"
@@ -182,7 +182,9 @@
   "why": "The Plain keeps the Hebrew. 72 (six times twelve) fits the pattern of the other offerings so neatly that it could be the original or a later tidying; there is no way to be sure.",
   "s": [
    "rahlfs-lxx",
-   "talshir-1esdras"
+   "talshir-1esdras",
+   "swete-ot",
+   "kjv-apocrypha"
   ]
  },
  {
