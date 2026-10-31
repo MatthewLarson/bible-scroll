@@ -233,6 +233,9 @@ Pillar, Anchor Yale, Hermeneia).
 
 In reference lists a bare "c:v" always means your own book, so name every other book in full each time
 ("Psalm 78:24; Psalm 105:40", never "Psalm 78:24; 105:40", which reads as your book's 105:40).
+In a book whose numbering differs from the KJV (Sirach, Baruch and 1 Esdras follow Swete), write a KJV verse number as
+"KJV 36:1–17": a bare c:v right after a capitalized abbreviation or name that is not a book (KJV, LXX, MT, CD) is not
+linked, so it never points to the wrong verse.
 Quoting a book this site has already translated: use its Plain wording exactly (a quotation may skip words with
 "..."). The build warns when a quotation followed by its reference, "..." (Exodus 33:20), does not match. To quote
 another version on purpose, name it in the parentheses: "on eagles' wings" (Exodus 19:4, KJV).

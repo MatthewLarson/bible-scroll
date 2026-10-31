@@ -74,8 +74,8 @@ Skills (`.claude/skills/`), loaded automatically when relevant: `book-pipeline`,
 
 Book ids are the STEPBible codes: Gen Exo Lev Num Deu Jos Jdg Rut 1Sa 2Sa 1Ki 2Ki 1Ch 2Ch Ezr Neh Est Job Psa Pro
 Ecc Sng Isa Jer Lam Ezk Dan Hos Jol Amo Oba Jon Mic Nam Hab Zep Hag Zec Mal Mat Mrk Luk Jhn Act Rom 1Co 2Co Gal Eph
-Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev. Outside the 66: 1En Tob Jdt 1Ma 2Ma, then Wis
-(Wisdom) and onward as they are added.
+Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev. Outside the 66: 1En Tob Jdt 1Ma 2Ma Wis Sir
+Bar (with the Letter of Jeremiah as chapter 6) 1Es 3Ma Atr, and onward as they are added.
 
 A tip on cost: a large book is 6 to 13 parts, and each part means a writer, a reviewer and a fixer. That is a lot
 of agent time, so you may want to do one book at a time.
@@ -89,7 +89,7 @@ that followed (STYLE.md rule 2: no detail from memory; briefs `bible/tools/agent
 1. **Restore true material removed for lack of search budget.** During the verification pass some agents ran out of
    web searches and removed claims they could not check, even where the claim is likely true. Each part's log
    (`.scratch/<id>-<part>-verify/sources-checked.md`) and its review.md "Verification pass" / "Verification fixes"
-   sections list what was removed. Known examples: Ben Sira 49:10 ("the Twelve Prophets"), Herodotus 8.98,
+   sections list what was removed. Known examples: Herodotus 8.98,
    Xenophon and Behistun in Zechariah 01-08; Schleitheim article 3 and Calvin, *Institutes* 4.17.38 in 1 Corinthians
    09-11; the 1:1 calendar dates in Zechariah were never checked against a table. Restore each only from a page
    opened in that session. Card views still missing are listed under "Card restoration" in each review.md.

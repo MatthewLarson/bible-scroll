@@ -62,7 +62,7 @@
   "v": "8:9",
   "a": "Then Nehemiah, who was the governor, Ezra the priest and scribe,",
   "t": "Was Nehemiah there?",
-  "p": "The Hebrew names Nehemiah \"the governor.\" 2 Esdras has his name without the title. 1 Esdras has \"Attharates,\" its form of the title, and no Nehemiah.",
+  "p": "The Hebrew names Nehemiah \"the governor.\" 2 Esdras has his name without the title. 1 Esdras has \"Attarates\" (Attharates in Codex Alexandrinus and in Rahlfs' text), its form of the title, and no Nehemiah.",
   "readings": [
    {
     "w": "Masoretic Text (Leningrad Codex, AD 1008); KJV",
@@ -77,19 +77,20 @@
     "plain": "Then Nehemiah, Ezra the priest and scribe,"
    },
    {
-    "w": "1 Esdras (Esdras A, the freer Greek parallel), Rahlfs' text, checked, 9:49 (καὶ εἶπεν Ἀτθαράτης Ἔσδρᾳ τῷ ἀρχιερεῖ καὶ ἀναγνώστῃ)",
+    "w": "1 Esdras (Esdras A, the freer Greek parallel), Rahlfs' text, checked, 9:49 (καὶ εἶπεν Ἀτθαράτης Ἔσδρᾳ τῷ ἀρχιερεῖ καὶ ἀναγνώστῃ), with Codex Alexandrinus (Ατθαρατης, Swete's notes); Codex Vaticanus (Swete) spells the name Ἀτταρατή, Attarates",
     "orig": "καὶ εἶπεν Ἀτθαράτης Ἔσδρᾳ τῷ ἀρχιερεῖ καὶ ἀναγνώστῃ καὶ τοῖς Λευίταις",
     "en": "and Attharates said to Ezra the chief priest and reader and to the Levites",
     "plain": "Then the governor said to Ezra the high priest and reader,"
    }
   ],
   "follow": 0,
-  "why": "Every Hebrew manuscript names Nehemiah. 1 Esdras, which tells Ezra's story without Nehemiah at all, turns the Hebrew title <i>tirshata</i> into a personal name, Attharates, and so does not show that its Hebrew lacked Nehemiah's name. 2 Esdras, which has the name without the title, suggests to some that \"who was the governor\" was added, and to others that it was dropped. The Plain keeps the Hebrew. On what the joint mention means for the dating, see the note on 12:26.",
+  "why": "Every Hebrew manuscript names Nehemiah. 1 Esdras, which tells Ezra's story without Nehemiah at all, turns the Hebrew title <i>tirshata</i> into a personal name, Attarates (Attharates in Alexandrinus), and so does not show that its Hebrew lacked Nehemiah's name. 2 Esdras, which has the name without the title, suggests to some that \"who was the governor\" was added, and to others that it was dropped. The Plain keeps the Hebrew. On what the joint mention means for the dating, see the note on 12:26.",
   "s": [
    "rahlfs-lxx",
    "hanhart-esdrae-1",
    "williamson-ezra-neh",
-   "blenkinsopp-ezra-neh"
+   "blenkinsopp-ezra-neh",
+   "swete-ot"
   ]
  },
  {

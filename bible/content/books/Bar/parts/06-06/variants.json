@@ -1,0 +1,232 @@
+[
+ {
+  "v": "6:4",
+  "a": "until you are just like them",
+  "t": "'Become like' or 'be afraid'?",
+  "p": "One codex repeats 'be afraid' instead of the doubled 'become like'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (300s AD), as printed by Swete, with Codex Alexandrinus (400s AD)",
+    "orig": "ἀφομοιωθέντες τοῖς ἀλλοφύλοις ἀφομοιωθῆτε",
+    "en": "having become like the foreigners, you become like (them)",
+    "plain": "until you are just like them"
+   },
+   {
+    "w": "Codex Marchalianus (Q, 500s AD), in Swete's notes",
+    "orig": "ἀφομοιωθέντες τοῖς ἀλλοφύλοις φοβηθῆτε",
+    "en": "having become like the foreigners, you be afraid",
+    "plain": "and become afraid"
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus and Alexandrinus agree, and the doubled verb is the harder reading; Q's 'be afraid' looks like a copyist's anticipation of the fear in the next clause.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:5",
+  "a": "Say instead, in your own mind, \"You are the one we must worship, Master.\"",
+  "t": "The prayer missing in one codex",
+  "p": "Codex Alexandrinus leaves out the captives' silent prayer.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete, with Codex Marchalianus (Q); the Vulgate and the KJV",
+    "orig": "εἴπατε δὲ τῇ διανοίᾳ Σοὶ δεῖ προσκυνεῖν, Δέσποτα.",
+    "en": "but say in the mind: To you it is necessary to bow down, Master.",
+    "plain": "Say instead, in your own mind, \"You are the one we must worship, Master.\""
+   },
+   {
+    "w": "Codex Alexandrinus (400s AD), in Swete's notes",
+    "orig": "(omitted)",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Every other witness has the prayer, and 6:6 ('For my angel is with you') follows from it. The gap in Alexandrinus is most likely an accidental skip.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "he himself is looking after your lives",
+  "t": "'He' or 'I'?",
+  "p": "Swete notes no Greek variant here. The Latin, and the KJV after it, make God say 'I myself'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete (Swete notes no other reading here)",
+    "orig": "αὐτός τε ἐκζητῶν τὰς ψυχὰς ὑμῶν",
+    "en": "and he himself seeking out your souls",
+    "plain": "he himself is looking after your lives"
+   },
+   {
+    "w": "Latin Vulgate (<i>ipse autem exquiram animas vestras</i>), with the Douay-Rheims ('I myself will demand an account of your souls') and the KJV ('I myself caring for your souls')",
+    "orig": "ipse autem exquiram animas vestras",
+    "en": "and I myself will seek out your souls",
+    "plain": "I myself will look after your lives"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete notes no other Greek reading: this is a difference between the Greek and the Latin, not between Greek manuscripts. The Plain follows the Greek, where the participle is third person and goes with the angel.",
+  "b": "The verb <i>ekzēteō</i> can mean to seek out with care, or to call to account, as God will \"demand a reckoning\" for a person's life (Genesis 9:5, where the Greek has the same verb); the Douay-Rheims takes the second sense. Both senses are open. The Plain takes the caring sense, since the verse follows the promise of the angel's company; that is a choice from the context, not from the word.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:22",
+  "a": "So do not fear them.",
+  "t": "The refrain's tense",
+  "p": "Swete's text has a present verb here; three other codices have the aorist used in the other refrains.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete",
+    "orig": "μὴ οὖν φοβεῖσθε αὐτά",
+    "en": "so do not fear them (present tense)",
+    "plain": "So do not fear them."
+   },
+   {
+    "w": "Codex Alexandrinus, Codex Marchalianus (Q) and the codex Swete marks Γ, in Swete's notes",
+    "orig": "ηφοβηθητε (Swete's note, exactly as printed: φοβεισθε] ηφοβηθητε AQΓ)",
+    "en": "do not fear (aorist, the form of the other refrains), if the first letter is a slip (see below)",
+    "plain": "So have no fear of them."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows its base text, Vaticanus. The other reading matches the aorist <i>phobēthēte</i> that Swete's text has in the refrains at 6:14, 6:28, 6:64 and 6:68.",
+  "s": [
+   "swete-lxx"
+  ],
+  "b": "The reading is given here exactly as the digital text of Swete's notes prints it, <i>ηφοβηθητε</i>. The first η is probably a stray character in that text: the same η stands before the word φερονται in his note on 6:25, where it cannot belong to the word. Read without it, the reading is the aorist φοβηθητε. At 6:68 Swete's note reports that the first hand of Q wrote ςφοβητε there, corrected to φοβηθητε (Qa)."
+ },
+ {
+  "v": "6:47",
+  "a": "so what future do the things they made have?",
+  "t": "'Have a future' or 'be gods'?",
+  "p": "Codex Alexandrinus adds 'be gods', and the KJV follows that sense.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete",
+    "orig": "πῶς τε δὴ μέλλει τὰ ὑπ᾽ αὐτῶν κατασκευασθέντα;",
+    "en": "and how indeed are the things made by them going to (be)?",
+    "plain": "so what future do the things they made have?"
+   },
+   {
+    "w": "Codex Alexandrinus (adds εἶναι θεοί), in Swete's notes; the Vulgate; the KJV ('how should then the things that are made of them be gods?')",
+    "orig": "πῶς οὖν μέλλει τὰ ὑπ᾽ αὐτῶν κατασκευασθέντα εἶναι θεοί;",
+    "en": "how then are the things made by them going to be gods?",
+    "plain": "so how could the things they made be gods?"
+   }
+  ],
+  "follow": 0,
+  "why": "The short reading is harder, since the verb has no infinitive, and Alexandrinus looks like a copyist filling the gap with the letter's theme. The sense of Vaticanus fits 6:46: the makers do not last long, so their work has no future either.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:51",
+  "a": "Who is there, then, who still has to learn that they are not gods?",
+  "t": "Who needs to learn, or who cannot know?",
+  "p": "Two codices add 'not', which gives the KJV's 'Who then may not know that they are no gods?'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete",
+    "orig": "Τίνι οὖν γνωστέον ἐστὶν ὅτι οὐκ εἰσὶν θεοί;",
+    "en": "To whom, then, is it (still) to be made known that they are not gods?",
+    "plain": "Who is there, then, who still has to learn that they are not gods?"
+   },
+   {
+    "w": "Codex Marchalianus (Q, οὐ γνωστέον) and Codex Alexandrinus (γνωστὸν ... οὐκ ἔσται), in Swete's notes; the KJV",
+    "orig": "Τίνι οὖν οὐ γνωστέον ἐστὶν ὅτι οὐκ εἰσὶν θεοί;",
+    "en": "To whom, then, is it not to be known that they are not gods?",
+    "plain": "Who, then, can fail to know that they are not gods?"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings make the same rhetorical point. The Plain keeps its base text; the added 'not' in two codices smooths the question.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:56",
+  "a": "will never get away safe",
+  "t": "An odd verb in Vaticanus",
+  "p": "Vaticanus has a verb that does not fit. Alexandrinus and Marchalianus say 'be saved'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete (his note gives other readings only for A and Q)",
+    "orig": "οὐ μὴ διαθῶσιν",
+    "en": "they will never 'set' or 'arrange' (from diatithēmi; the verb makes little sense here)",
+    "plain": "will never arrange their escape"
+   },
+   {
+    "w": "Codex Alexandrinus (διασώσουσιν) and Codex Marchalianus (Q, first hand, διασωθῶσιν), in Swete's notes; the Vulgate (<i>se liberabunt</i>) and the KJV ('able to escape')",
+    "orig": "οὐ μὴ διασώσουσιν / διασωθῶσιν",
+    "en": "they will never bring (themselves) safely through / be brought safely through",
+    "plain": "will never get away safe"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain departs from its base text here. Vaticanus' διαθῶσιν does not give good sense and is probably a slip for a form of διασῴζω, 'bring safely through', which the other codices have and which the letter uses at 6:11, 6:54 and 6:58.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:69",
+  "a": "cucumber field",
+  "t": "A misspelling in Vaticanus",
+  "p": "Swete prints the word as Marchalianus spells it, since Vaticanus misspells it.",
+  "readings": [
+   {
+    "w": "Swete's text, from Codex Marchalianus (Q)",
+    "orig": "ἐν σικυηράτῳ",
+    "en": "in a cucumber field",
+    "plain": "cucumber field"
+   },
+   {
+    "w": "Codex Vaticanus (συκηράτῳ) and Codex Alexandrinus (συκηεράτῳ), in Swete's notes",
+    "orig": "ἐν συκηράτῳ",
+    "en": "(the same word, misspelled)",
+    "plain": "cucumber field"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Sikyēraton</i>, from <i>sikys</i> 'cucumber', is the word the Greek of Isaiah 1:8 uses for the cucumber field. Vaticanus and Alexandrinus spell it with <i>sy-</i>, a copying slip, and Swete corrects his base text here from Q. The meaning does not change.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:71",
+  "a": "marble",
+  "t": "Marble that rots?",
+  "p": "Every Greek copy in Swete's notes says 'marble', which does not rot. The Vulgate has purple and murex, eaten by moths.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, as printed by Swete, with Alexandrinus and Marchalianus (Swete notes no other reading for this word)",
+    "orig": "τῆς μαρμάρου",
+    "en": "the marble",
+    "plain": "marble"
+   },
+   {
+    "w": "Latin Vulgate (<i>a purpura quoque et murice, quae supra illos tineant</i>, 'the purple and murex, which are moth-eaten upon them'); the Douay-Rheims 'scarlet'",
+    "orig": "murice",
+    "en": "the murex dye",
+    "plain": "scarlet"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows the Greek, its base text, even though marble does not rot. The Latin differs: it has purple and murex, the shellfish that gives purple dye, and says they are moth-eaten.",
+  "b": "Carey Moore explained the oddity by a Hebrew original: the Hebrew word for 'alabaster' or 'marble', <i>shesh</i>, has a homograph that means 'fine linen', and a translator who chose the wrong one would give 'marble' where the writer meant linen, which does rot. Benjamin Wright, introducing the NETS translation, reports this argument; NETS still translates 'marble', because it renders the Greek as it stands. It is a theory about a lost Hebrew text, not a reading found in any copy.",
+  "s": [
+   "swete-lxx",
+   "moore-additions",
+   "wright-nets-letjer"
+  ]
+ }
+]
