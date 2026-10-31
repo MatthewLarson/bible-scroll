@@ -37,16 +37,17 @@
     "plain": "on the seashore"
    },
    {
-    "w": "a corrector of Codex Sinaiticus (ℵc.a), in Swete's notes; the KJV (\"in En-gaddi\")",
+    "w": "a corrector of Codex Sinaiticus (ℵc.a), in Swete's notes; codex 248 has ἐν Γαδδί, as Hart (1909) prints it; the KJV (\"in En-gaddi\")",
     "orig": "ἐν Ἐνγαδδοῖς",
     "en": "in En-gedi",
     "plain": "at En-gedi"
    }
   ],
   "follow": 0,
-  "why": "The Plain keeps Swete's text. The other reading is attractive, since the list names places in the land (Lebanon, Hermon, Jericho) and En-gedi's vineyards are praised in the Song of Songs (Song of Songs 1:14), and the two Greek words look alike; but it is found here only in a correction.",
+  "why": "The Plain keeps Swete's text. The other reading is attractive, since the list names places in the land (Lebanon, Hermon, Jericho) and En-gedi's vineyards are praised in the Song of Songs (Song of Songs 1:14), and the two Greek words look alike; but in the great codices it is found only in a correction.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "kjv-apocrypha"
   ]
  },
@@ -57,7 +58,7 @@
   "p": "Not in Vaticanus. The longer Greek has the whole verse; the Latin has its first half (Vulgate 24:24).",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "ἐγὼ μήτηρ τῆς ἀγαπήσεως τῆς καλῆς, καὶ φόβου καὶ γνώσεως καὶ τῆς ὁσίας ἐλπίδος, δίδομαι οὖν πᾶσι τοῖς τέκνοις μου, ἀειγενὴς τοῖς λεγομένοις ὑπ' αὐτοῦ",
     "en": "I am the mother of beautiful love and of fear and knowledge and holy hope; so I am given to all my children, ever-being, to those spoken for by him",
     "plain": "[I am the mother of beautiful love, / of fear, of knowledge and of holy hope. / So I am given to all my children, / I who am forever, to those he has named.]"
@@ -77,9 +78,10 @@
   ],
   "follow": 0,
   "why": "Vaticanus, Sinaiticus and Alexandrinus have no verse 18, but the verse number is used by the KJV and most English Bibles, so the Plain gives the line in brackets, translated from the longer Greek. The brackets mark it as missing from the base text.",
-  "b": "The KJV gives the whole verse (\"I therefore, being eternal, am given to all my children which are named of him\"). The note on \"the mother of beautiful love\" tells how the Latin line became a title of Mary.",
+  "b": "Codex 248 (Hart 1909) words the second half differently: <i>δίδωμι δὲ σὺν πᾶσι τοῖς τέκνοις μου ἀειγενεῖς τοῖς λεγομένοις ὑπ' αὐτοῦ</i>, \"I give (myself), with all my children, ever-living, to those named by him\". The KJV gives the whole verse (\"I therefore, being eternal, am given to all my children which are named of him\"). The note on \"the mother of beautiful love\" tells how the Latin line became a title of Mary.",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "vulgate-clementine",
    "douay-rheims",
@@ -99,16 +101,17 @@
     "plain": "the law Moses commanded"
    },
    {
-    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; the longer Greek text as transcribed on Greek Wikisource",
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource",
     "orig": "νόμον ὃν ἐνετείλατο ἡμῖν Μωυσῆς",
     "en": "the law which Moses commanded us",
     "plain": "the law Moses commanded us"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. The meaning is the same; \"us\" brings the line closer to Deuteronomy 33:4, which it quotes: \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4). The KJV, like Vaticanus, has no \"us\".",
+  "why": "The Plain follows Swete's text. The meaning is the same; \"us\" brings the line closer to Deuteronomy 33:4, which it quotes: \"Moses commanded us a law, the heritage of the assembly of Jacob\" (Deuteronomy 33:4). The KJV, like Vaticanus, has no \"us\". Hart's edition of codex 248 prints the heading \"From Deuteronomy\" (<i>Ἐκ τοῦ δευτερονομίου</i>) just before this line, marking the quotation.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "sir2429-greek-longer"
   ]
  },
@@ -119,7 +122,7 @@
   "p": "Not in Vaticanus or the Latin. The longer Greek has this verse; the KJV follows it.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "μὴ ἐκλύεσθε ἰσχὺν ἐν Κυρίῳ, κολλᾶσθε δὲ πρὸς αὐτόν, ἵνα κραταιώσῃ ὑμᾶς, Κύριος παντοκράτωρ Θεὸς μόνος ἐστί, καὶ οὐκ ἔστιν ἔτι πλὴν αὐτοῦ σωτήρ",
     "en": "Do not give up strength in the Lord; cling to him so he may strengthen you; the Lord Almighty alone is God, and there is no other savior besides him",
     "plain": "[Do not let your strength give way in the Lord; / cling to him, so that he will make you strong. / The Lord Almighty alone is God, / and besides him there is no other savior.]"
@@ -133,9 +136,10 @@
   ],
   "follow": 0,
   "why": "The great codices lack the verse and the Latin has nothing like it here; the KJV numbers it 24:24 from the longer Greek. The Plain gives it in brackets so the KJV's verse numbers still work.",
-  "b": "It is the only line in this chapter addressed to \"you\" (plural): it reads like a preacher's call added to the poem.",
+  "b": "Hart (1909) reports the verse in the cursive manuscripts 70 and 248, and prints 248's form, which puts \"so that he will make you strong\" before \"cling to him\". It is the only line in this chapter addressed to \"you\" (plural), like a preacher's call added to the poem.",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
   ]
@@ -179,16 +183,17 @@
     "plain": "The fear of the Lord goes beyond everything."
    },
    {
-    "w": "The KJV (\"But the love of the Lord passeth all things for illumination\")",
-    "orig": "(the Greek behind the KJV is not given in Swete)",
-    "en": "the love of the Lord surpasses all things for enlightening",
-    "plain": "The love of the Lord goes beyond everything as a light."
+    "w": "Codex 248, as printed by Hart (1909); the KJV (\"But the love of the Lord passeth all things for illumination\")",
+    "orig": "ἀγάπησις δὲ Κυρίου ὑπὲρ πάντα ὑπερέβαλεν εἰς φωτισμόν",
+    "en": "but love of the Lord surpassed all things for enlightenment",
+    "plain": "The love of the Lord goes beyond everything, to give light."
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek of the great codices, which the Greek text on Wikisource shares. The KJV's form comes from the longer tradition of the text; it fits 25:12, which in the longer text speaks of loving him.",
+  "why": "The Plain follows the Greek of the great codices, which the Greek text on Wikisource shares. The KJV's form is that of codex 248; it fits 25:12, which in the longer text speaks of loving him.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "kjv-apocrypha"
   ]
  },
@@ -199,7 +204,7 @@
   "p": "Not in Vaticanus. The longer Greek and the Latin (Vulgate 25:16) have it.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "φόβος Κυρίου ἀρχὴ ἀγαπήσεως αὐτοῦ, πίστις δὲ ἀρχὴ κολλήσεως αὐτοῦ",
     "en": "the fear of the Lord is the beginning of love for him, and faith the beginning of clinging to him",
     "plain": "[The fear of the Lord is the beginning of loving him, / and faith is the beginning of clinging to him.]"
@@ -218,9 +223,10 @@
    }
   ],
   "follow": 0,
-  "why": "The verse is in the longer Greek and in the Latin; the great codices lack it. The Plain gives it in brackets.",
+  "why": "The verse is in the longer Greek (codex 248, as Hart prints it, and the Greek text on Wikisource) and in the Latin; the great codices lack it. The Plain gives it in brackets.",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "vulgate-clementine",
    "douay-rheims"
@@ -353,12 +359,20 @@
     "orig": "παρρησίαν",
     "en": "freedom of speech",
     "plain": "freedom to say what she likes"
+   },
+   {
+    "w": "Codex 248, as printed by Hart (1909); the KJV (\"neither a wicked woman liberty to gad abroad\")",
+    "orig": "παρρησίαν ἐξόδου",
+    "en": "freedom to go out",
+    "plain": "freedom to go out as she likes"
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Swete's text. \"Freedom of speech\" fits the busy tongue of 25:20 and the leak of water in the first line; \"authority\" fits the next verse, where she will not \"walk as your hand guides her\".",
+  "why": "The Plain follows Swete's text. \"Freedom of speech\" fits the busy tongue of 25:20 and the leak of water in the first line; \"authority\" fits the next verse, where she will not \"walk as your hand guides her\". Codex 248's \"freedom to go out\" is the source of the KJV's \"gad abroad\".",
   "s": [
-   "swete-lxx"
+   "swete-lxx",
+   "hart-ecclesiasticus-248",
+   "kjv-apocrypha"
   ]
  },
  {
@@ -374,9 +388,9 @@
     "plain": "cut her away from your flesh."
    },
    {
-    "w": "The KJV (\"cut her off from thy flesh, and give her a bill of divorce, and let her go\")",
-    "orig": "(the Greek behind the KJV's addition is not given in Swete)",
-    "en": "cut her off, give her a bill of divorce, and let her go",
+    "w": "Codex 248, as printed by Hart (1909); the KJV (\"cut her off from thy flesh, and give her a bill of divorce, and let her go\")",
+    "orig": "ἀπὸ τῶν σαρκῶν σου ἀπότεμε αὐτήν, δίδου καὶ ἀπόλυσον",
+    "en": "cut her off from your flesh; give, and send her away",
     "plain": "cut her away from your flesh, give her a certificate of divorce, and let her go."
    },
    {
@@ -387,9 +401,10 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows the Greek. The KJV's extra words spell out what \"cut her away from your flesh\" already means, using the language of Deuteronomy 24:1.",
+  "why": "The Plain follows the Greek of the great codices. Codex 248 adds \"give and send away\", which the KJV expands to \"give her a bill of divorce\"; the extra words spell out what \"cut her away from your flesh\" already means, using the language of Deuteronomy 24:1.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "kjv-apocrypha",
    "vulgate-clementine",
    "douay-rheims"
@@ -408,7 +423,7 @@
     "plain": "in front of a fourth I plead for help"
    },
    {
-    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes; the first hand of Sinaiticus has ἐδόθην, \"I was given\"",
+    "w": "A corrector of Codex Sinaiticus (ℵc.a) and Codex Alexandrinus (A), in Swete's notes (the first hand of Sinaiticus has ἐδόθην, \"I was given\"); codex 248 (Hart 1909)",
     "orig": "ἐφοβήθην",
     "en": "I was afraid",
     "plain": "before a fourth I am afraid"
@@ -418,6 +433,7 @@
   "why": "The Plain follows Swete's text, though \"I was afraid\" matches the first line (\"my heart shrinks back\") and the Latin (<i>facies mea metuit</i>, \"my face feared\"); the three Greek verbs look alike, and Vaticanus may have a copyist's slip.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "vulgate-clementine"
   ]
  },
@@ -434,7 +450,7 @@
     "plain": "Keep an unbending watch over a daughter"
    },
    {
-    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; the Greek text on Greek Wikisource",
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource",
     "orig": "ἐπὶ θυγατρὶ ἀδιατρέπτῳ",
     "en": "over a headstrong (unabashed) daughter",
     "plain": "Keep a firm watch over a headstrong daughter"
@@ -444,6 +460,7 @@
   "why": "The Plain follows Swete's text. The difference is one letter. Alexandrinus' form fits 26:11's \"shameless eye\" and the Latin <i>in filia non avertente se</i>, \"a daughter who does not turn herself away\"; Vaticanus makes the line a general rule for any daughter.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "vulgate-clementine"
   ]
  },
@@ -460,7 +477,7 @@
     "plain": "in the order of his house"
    },
    {
-    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), and perhaps a corrector of Vaticanus, in Swete's notes",
+    "w": "Codex Sinaiticus and Alexandrinus (ℵ, A), and perhaps a corrector of Vaticanus, in Swete's notes; codex 248 (Hart 1909)",
     "orig": "ἐν κόσμῳ οἰκίας αὐτῆς",
     "en": "in the order of her house",
     "plain": "in the order of her house"
@@ -469,7 +486,8 @@
   "follow": 0,
   "why": "The Plain follows Swete's text: the house is her husband's, and her beauty is the way she sets it in order. \"Her house\" puts the stress on her own care of it. The Hebrew (Manuscript C) speaks of her in the inner room.",
   "s": [
-   "swete-lxx"
+   "swete-lxx",
+   "hart-ecclesiasticus-248"
   ]
  },
  {
@@ -506,7 +524,7 @@
   "p": "Verses 19–27 are in the longer Greek only, not in the great codices or the Latin. They go together.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "Τέκνον, ἀκμὴν ἡλικίας σου συντήρησον ὑγιῆ, καὶ μὴ δῷς ἀλλοτρίοις τὴν ἰσχύν σου.",
     "en": "Child, keep the prime of your age healthy, and do not give your strength to strangers.",
     "plain": "[My child, keep the prime of your life healthy, / and do not give your strength to strangers.]"
@@ -520,9 +538,10 @@
   ],
   "follow": 0,
   "why": "Codex Vaticanus, Sinaiticus and Alexandrinus pass straight from 26:18 to 26:28, and the Latin has a different addition here. The KJV follows the longer Greek, so the Plain gives these lines in brackets from it.",
-  "b": "The passage (26:19–27) is a small poem of its own on marriage and faithfulness, with a refrain from 26:1 in 26:26. Its origin and date cannot be fixed from the text itself.",
+  "b": "Hart (1909) reports the passage in the cursive manuscripts 70 and 248 and in the Syriac, and prints it from 248. It is a small poem of its own on marriage and faithfulness, with a refrain from 26:1 in 26:26. Its origin and date cannot be fixed from the text itself.",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -533,7 +552,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "ἀναζητήσας παντὸς πεδίου εὔγειον κλῆρον σπεῖρε τὰ ἴδια σπέρματα πεποιθὼς τῇ εὐγενείᾳ σου·",
     "en": "Seeking out a fertile plot of the whole plain, sow your own seeds, trusting in your good birth.",
     "plain": "[Search the whole plain for a fertile plot, / and sow your own seed there, trusting in your good family line.]"
@@ -549,6 +568,7 @@
   "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -559,7 +579,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "οὕτως τὰ γενήματά σου περιόντα καὶ παρρησίαν εὐγενείας ἔχοντα μεγαλυνοῦσι.",
     "en": "So your offspring, surviving and having the confidence of good birth, will become great.",
     "plain": "[So your children will live on after you, / and with the confidence of good birth they will grow great.]"
@@ -575,6 +595,7 @@
   "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -585,7 +606,7 @@
   "p": "Goes with 26:19–27. The KJV has \"a tower against death to her husband\", the opposite sense.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ μισθία ἴση σιάλῳ λογισθήσεται, ὕπανδρος δὲ πύργος θανάτου τοῖς χρωμένοις λογισθήσεται.",
     "en": "A hired woman will be counted equal to spit, but a married woman will be counted a tower of death to those who use her.",
     "plain": "[A woman for hire will count as spit, / but a married woman will count as a tower of death for those who make use of her.]"
@@ -618,7 +639,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ ἀσεβὴς ἀνόμῳ μερὶς δοθήσεται, εὐσεβὴς δὲ δίδοται τῷ φοβουμένῳ τὸν Κύριον.",
     "en": "An ungodly woman will be given as a portion to a lawless man, but a godly one is given to the one who fears the Lord.",
     "plain": "[An ungodly woman will be given as a portion to a lawless man, / but a godly woman is given to the one who fears the Lord.]"
@@ -634,6 +655,7 @@
   "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -644,7 +666,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ ἀσχήμων ἀτιμίαν κατατρίψει, θυγάτηρ δὲ εὐσχήμων καὶ τὸν ἄνδρα ἐντραπήσεται.",
     "en": "A disgraceful woman will wear out (live out) dishonor, but a decent daughter will respect even her husband.",
     "plain": "[A shameless woman will spend her days in disgrace, / but a modest daughter will treat even her husband with respect.]"
@@ -660,6 +682,7 @@
   "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -670,7 +693,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ ἀδιάτρεπτος ὡς κύων λογισθήσεται, ἡ δὲ ἔχουσα αἰσχύνην τὸν Κύριον φοβηθήσεται.",
     "en": "A shameless woman will be counted as a dog, but she who has shame will fear the Lord.",
     "plain": "[A shameless woman will be thought of as a dog, / but one who has a sense of shame will fear the Lord.]"
@@ -686,6 +709,7 @@
   "why": "Part of the longer-Greek passage 26:19–27 (see 26:19).",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx"
   ]
  },
@@ -696,7 +720,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only. It ends with the saying of 26:1.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ ἄνδρα ἴδιον τιμῶσα σοφὴ πᾶσι φανήσεται, ἀτιμάζουσα δὲ ἐν ὑπερηφανίᾳ ἀσεβὴς πᾶσι γνωσθήσεται. γυναικὸς ἀγαθῆς μακάριος ὁ ἀνήρ, ὁ γὰρ ἀριθμὸς τῶν ἐτῶν αὐτοῦ διπλάσιος ἔσται.",
     "en": "A woman who honors her own husband will appear wise to all, but one who dishonors him in pride will be known by all as ungodly. Happy the husband of a good wife, for the number of his years will be double.",
     "plain": "[A woman who honors her own husband will seem wise to everyone, / but one who dishonors him in her pride will be known by all as ungodly. / The man with a good wife is a happy man; / his years will add up to twice as many.]"
@@ -723,7 +747,7 @@
   "p": "Goes with 26:19–27: in the longer Greek only.",
   "readings": [
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition)",
+    "w": "The longer Greek text: the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"), which prints the line in brackets; codex 248 has it too, as Hart (1909) prints it",
     "orig": "γυνὴ μεγαλόφωνος καὶ γλωσσώδης ὡς σάλπιγξ πολέμων εἰς τροπὴν θεωρηθήσεται, ἀνθρώπου δὲ παντὸς ψυχὴ ὁμοιότροπος τούτοις, πολέμου ἀκαταστασίαις τὴν ψυχὴν διαιτηθήσεται.",
     "en": "A loud-voiced and talkative woman will be regarded like a war trumpet for a rout; and the soul of every person like these will pass life in the disorders of war.",
     "plain": "[A loud woman with a busy tongue / will be looked on like a war trumpet sounded to rout an enemy. / And every person with a soul like hers / will live out life in the chaos of war.]"
@@ -736,9 +760,10 @@
    }
   ],
   "follow": 0,
-  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). The KJV has only the first line, in another sense: \"shall be sought out to drive away the enemies\".",
+  "why": "Part of the longer-Greek passage 26:19–27 (see 26:19). Codex 248, as Hart prints it, lacks \"like a trumpet\" (\"will be looked on as one of the enemies, to rout them\"); a Greek anthology Hart cites has \"like a trumpet of enemies\". The KJV has only the first line, in another sense: \"shall be sought out to drive away the enemies\".",
   "s": [
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "swete-lxx",
    "kjv-apocrypha"
   ]
@@ -837,7 +862,7 @@
   "p": "Swete's Vaticanus lacks \"not\", which makes the line say the opposite. The Plain follows the copies that have it.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; the Greek text on Greek Wikisource; the Latin (Vulgate 29:11, <i>non trahas illum</i>)",
+    "w": "Codex Alexandrinus (A, 400s AD), in Swete's notes; codex 248 (Hart 1909); the Greek text on Greek Wikisource; the Latin (Vulgate 29:11, <i>non trahas illum</i>)",
     "orig": "καὶ ἐπ᾽ ἐλεημοσύνην μὴ παρελκύσῃς αὐτόν",
     "en": "and do not put him off for alms",
     "plain": "and do not keep him waiting for alms"
@@ -850,9 +875,10 @@
    }
   ],
   "follow": 0,
-  "why": "Here the Plain departs from Swete's base text. Without \"not\" the line contradicts its own first half (\"be patient with a person in a low position\") and the verses that follow (29:9–13). The negative is in Alexandrinus, the Latin and the longer Greek, so its loss in Vaticanus is best explained as a copyist's slip.",
+  "why": "Here the Plain departs from Swete's base text. Without \"not\" the line contradicts its own first half (\"be patient with a person in a low position\") and the verses that follow (29:9–13). The negative is in Alexandrinus, codex 248, the Latin and the Greek on Wikisource, so its loss in Vaticanus is best explained as a copyist's slip.",
   "s": [
    "swete-lxx",
+   "hart-ecclesiasticus-248",
    "sir2429-greek-longer",
    "vulgate-clementine"
   ]
@@ -870,10 +896,16 @@
     "plain": "Be satisfied with a little or a lot."
    },
    {
-    "w": "The longer Greek text, printed in brackets in the Greek Septuagint text transcribed on Greek Wikisource (\"Σοφία Σειράχ\"; the page does not name its edition); the Latin (Vulgate 29:30, <i>et improperium peregrinationis non audies</i>); the KJV (\"that thou hear not the reproach of thy house\")",
+    "w": "The Greek text on Greek Wikisource; the Latin (Vulgate 29:30, <i>et improperium peregrinationis non audies</i>)",
     "orig": "ἐπὶ μικρῷ καὶ μεγάλῳ εὐδοκίαν ἔχε, καὶ ὀνειδισμὸν παροικίας οὐ μὴ ἀκούσῃς.",
     "en": "with little and much have contentment, and you will not hear the reproach of being a lodger",
     "plain": "Be satisfied with a little or a lot, and you will not hear yourself insulted as a lodger."
+   },
+   {
+    "w": "Codex 248, as printed by Hart (1909); the KJV (\"Be it little or much, hold thee contented, that thou hear not the reproach of thy house\")",
+    "orig": "ἐπὶ μικρὰ καὶ μεγάλα εὐδοκίαν ἔχε, καὶ ὀνειδισμὸν οἰκίας σου μὴ ἀκούσῃς.",
+    "en": "with little and much have contentment, and do not hear the reproach of your house",
+    "plain": "Be satisfied with a little or a lot, so that you do not hear your household insulted."
    }
   ],
   "follow": 0,
@@ -881,6 +913,7 @@
   "s": [
    "swete-lxx",
    "sir2429-greek-longer",
+   "hart-ecclesiasticus-248",
    "vulgate-clementine",
    "kjv-apocrypha"
   ]

@@ -108,7 +108,7 @@
   "p": "Vaticanus says \"this year was the king's second,\" which contradicts the verse's own date; Alexandrinus says \"seventh.\"",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"this was the king's seventh year\")",
     "orig": "ὁ ἐνιαυτὸς ἕβδομος",
     "en": "the seventh year",
     "plain": "That year was the king's seventh"
@@ -121,16 +121,43 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from Swete's text. The same verse dates the journey to \"the seventh year,\" as Ezra 7:7-8 does, so \"second\" cannot be right in Vaticanus as it stands.",
+  "why": "The Plain departs from Swete's text. Vaticanus's \"second\" contradicts the date the same verse has just given, \"the seventh year of Artaxerxes' reign\"; read with it, the verse names two different years. Alexandrinus's \"seventh\" repeats the date, and the parallel repeats it too: \"He came to Jerusalem in the fifth month. It was the king's seventh year\" (Ezra 7:8). So the doubled date in the Plain is the parallel's own.",
   "s": [
-   "swete-ot"
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "and they reached Jerusalem",
+  "t": "Arrival on the first of the fifth month",
+  "p": "Alexandrinus adds the day of arrival, \"on the new moon of the fifth month,\" as Ezra 7:9 has.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the KJV",
+    "orig": "παρεγένοντο εἰς Ἰερουσαλὴμ",
+    "en": "they arrived at Jerusalem",
+    "plain": "and they reached Jerusalem"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (after μηνος it adds εν τη νουμηνια του πεμπτου μηνος)",
+    "orig": "εν τη νουμηνια του πεμπτου μηνος",
+    "en": "on the new moon of the fifth month",
+    "plain": "and on the first day of the fifth month they reached Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. Alexandrinus agrees with Ezra 7:9 (\"on the first day of the fifth month he came to Jerusalem\") and may have been brought into line with it; Vaticanus already gives the fifth month earlier in the verse.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
   ]
  },
  {
   "v": "8:7",
   "a": "Ezra",
-  "t": "Ezra or Apsaras?",
-  "p": "Vaticanus calls him \"Apsaras\" in this verse only.",
+  "t": "Ezra or Apsarus?",
+  "p": "Vaticanus calls him \"Apsarus\" in this verse only.",
   "readings": [
    {
     "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote",
@@ -140,13 +167,13 @@
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
-    "orig": "Ἀψάρας",
-    "en": "Apsaras",
-    "plain": "Apsaras"
+    "orig": "Ἀψάρος",
+    "en": "Apsarus",
+    "plain": "Apsarus"
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from Swete's text. Everywhere else the book calls him Esras or Esdras; \"Apsaras\" is a copying error in Vaticanus.",
+  "why": "The Plain departs from Swete's text. Everywhere else the book calls him Esras or Esdras, and the verse goes on about the man of 8:3-6, so the Plain takes \"Apsarus\" as a slip in Vaticanus. That is an inference from the book's own usage; no witness explains the form.",
   "s": [
    "swete-ot"
   ]
@@ -209,20 +236,20 @@
   "p": "Vaticanus seems to forbid fines and prison (\"not by a fine\"); Alexandrinus lists them as penalties.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV",
-    "orig": "ἢ ἀργυρίῳ ζημίᾳ",
-    "en": "or by a fine of money",
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (μη] η A; αργυριω] αργυρικη A); the KJV",
+    "orig": "η αργυρικη ζημια η απαγωγη",
+    "en": "or by a money penalty, or prison",
     "plain": "with a fine or with prison"
    },
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
-    "orig": "μὴ ἀργυρίῳ ζημίᾳ ἤ ἀπαγωγῇ",
+    "orig": "μὴ ἀργυρίῳ ζημίᾳ ἢ ἀπαγωγῇ",
     "en": "not by a money fine or prison",
     "plain": "but not with a fine or with prison"
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from Swete's text. Ezra 7:26 lists death, rooting out, a fine and prison side by side. The Greek <i>mē</i> (\"not\") and <i>ē</i> (\"or\") differ by one letter, and Vaticanus's \"not\" makes little sense in a list of punishments.",
+  "why": "The Plain departs from Swete's text. Ezra 7:26 lists death, rooting out, a fine and prison side by side. The Greek <i>mē</i> (\"not\") and <i>ē</i> (\"or\") differ by one letter, and Vaticanus's \"not\" makes little sense in a list of punishments. Alexandrinus also has the adjective <i>argyrikē</i>, \"of money,\" where Vaticanus has the noun <i>argyriō</i>; the sense is the same.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -260,7 +287,7 @@
   "p": "Alexandrinus has \"Phinees, Gerson,\" like Ezra 8:2.",
   "readings": [
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete (the digital texts of Swete and the lemma of his footnote differ on the first letter of the second name: T, G or R)",
     "orig": "ἐκ τῶν υἱῶν Φορός, Ταροσότομος",
     "en": "of the sons of Phoros, Tarosotomos",
     "plain": "Of the descendants of Phoros, Tarosotomus"
@@ -354,6 +381,32 @@
   ]
  },
  {
+  "v": "8:51",
+  "a": "ashamed to have horsemen and foot soldiers as an escort",
+  "t": "\"Ashamed to ask the king\"",
+  "p": "Vaticanus has no verb for what Ezra was ashamed to do; Alexandrinus has \"to ask the king,\" as Ezra 8:22.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐνετράπην γὰρ ἱππεῖς καὶ πεζοὺς προπομπὴν",
+    "en": "for I was ashamed (of) horsemen and foot soldiers, an escort",
+    "plain": "ashamed to have horsemen and foot soldiers as an escort"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (ιππεις και πεζους] αιτησαι τον βασιλεα πεζζους (sic) τε και ιππεις και A); the KJV (\"ashamed to ask the king footmen, and horsemen, and conduct\")",
+    "orig": "αιτησαι τον βασιλεα πεζζους (sic) τε και ιππεις και",
+    "en": "to ask the king for foot soldiers and horsemen and",
+    "plain": "ashamed to ask the king for foot soldiers and horsemen and an escort"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text, supplying only \"to have,\" the least English needs. Alexandrinus's \"to ask the king\" matches Ezra 8:22 (\"I was ashamed to ask the king for a troop and horsemen\") and may have been brought into line with it.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
   "v": "8:56",
   "a": "I weighed out and handed over to them",
   "t": "\"I\" or \"he\"?",
@@ -379,28 +432,82 @@
   ]
  },
  {
-  "v": "8:63",
-  "a": "12 bulls for all Israel, 96 rams, 72 lambs",
-  "t": "The arrival sacrifices",
-  "p": "Vaticanus has lost the bulls and the word \"rams\" and gives 76 lambs; the Plain follows Alexandrinus.",
+  "v": "8:62",
+  "a": "Josabees, Jeshua,",
+  "t": "Three Levites or two?",
+  "p": "Vaticanus names three Levites; Alexandrinus has \"Josabdus son of Jeshua,\" as Ezra 8:33 has Jozabad son of Jeshua.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; Josephus, <i>Antiquities</i> 11.137, has seventy-two lambs",
-    "orig": "ταυρους δωδεκα υπερ παντος Ισλ· κριους ενενηκοντα εξ· αρνας εβδομηκοντα δυο",
-    "en": "twelve bulls for all Israel, ninety-six rams, seventy-two lambs",
-    "plain": "12 bulls for all Israel, 96 rams, 72 lambs"
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ἰωσαβεὲς Ἰησοῦς",
+    "en": "Josabees, Jeshua",
+    "plain": "Josabees, Jeshua,"
    },
    {
-    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
-    "orig": "ἐνενήκοντα ἕξ, ἄρνας ἑβδομήκοντα ἕξ",
-    "en": "ninety-six, seventy-six lambs",
-    "plain": "96 victims, 76 lambs"
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (Ιωσαβεες] Ιωσαβδος A; Ιησου A); the KJV (\"Josabad the son of Jesu\")",
+    "orig": "Ιωσαβδος ... Ιησου",
+    "en": "Josabdus son of Jeshua",
+    "plain": "Josabdus son of Jeshua,"
    }
   ],
   "follow": 0,
-  "why": "The Plain departs from Swete's text. Vaticanus has lost several words, so that \"ninety-six\" stands with no animal named. Alexandrinus is complete and agrees with Ezra 8:35 on the bulls and rams. On the lambs it has 72, where the Hebrew has 77; the site's Ezra page discusses that difference.",
+  "why": "The Plain follows Swete's text, which gives three names. Alexandrinus's genitive \"of Jeshua\" makes Jeshua the father, as in Ezra 8:33, and leaves two Levites; it is probably the older reading, but Vaticanus makes sense as it stands.",
   "s": [
    "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:63",
+  "a": "12 bulls for all Israel, 96 rams,",
+  "t": "Bulls and rams lost in Vaticanus",
+  "p": "Vaticanus has lost the bulls and the word \"rams\"; the Plain follows Alexandrinus here (see also the lambs).",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"twelve bullocks for all Israel, fourscore and sixteen rams\")",
+    "orig": "ταυρους δωδεκα υπερ παντος Ισλ· κριους ενενηκοντα εξ",
+    "en": "twelve bulls for all Israel, ninety-six rams",
+    "plain": "12 bulls for all Israel, 96 rams,"
+   },
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐνενήκοντα ἕξ",
+    "en": "ninety-six (no animal named)",
+    "plain": "96,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain departs from Swete's text. Vaticanus has lost several words, so that \"ninety-six\" stands with no animal named and the bulls are missing. Alexandrinus is complete and agrees with Ezra 8:35 on the 12 bulls and the 96 rams.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "8:63",
+  "a": "76 lambs",
+  "t": "Seventy-six lambs or seventy-two?",
+  "p": "Vaticanus has 76 lambs, Alexandrinus and Josephus 72, and the Hebrew of Ezra 8:35 has 77.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἄρνας ἑβδομήκοντα ἕξ",
+    "en": "seventy-six lambs",
+    "plain": "76 lambs"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote; the KJV (\"threescore and twelve lambs\"); Josephus, <i>Antiquities</i> 11.137 (\"seventy-two lambs\")",
+    "orig": "αρνας εβδομηκοντα δυο",
+    "en": "seventy-two lambs",
+    "plain": "72 lambs"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text here. Vaticanus's 76 makes sense and stands nearer the Hebrew's 77; nothing in the verse forces Alexandrinus's number, as the lost words forced its bulls and rams.",
+  "b": "<p>Josephus lists \"twelve bulls\" and then \"ninety rams, seventy-two lambs, and twelve kids of the goats\" (<i>Antiquities</i> 11.137). His seventy-two lambs agree with Alexandrinus, but his ninety rams agree with no text of 1 Esdras or Ezra, so his figures do not settle the reading.</p>",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
    "josephus-ant"
   ]
  },
@@ -452,6 +559,32 @@
   "why": "The Plain follows Swete's text. Alexandrinus agrees with the Hebrew (Jehohanan son of Eliashib) and is probably right; see the note.",
   "s": [
    "swete-ot"
+  ]
+ },
+ {
+  "v": "9:11",
+  "a": ", and we have found no way",
+  "t": "\"And we did not find\"",
+  "p": "Vaticanus adds three words that Alexandrinus, the KJV and Ezra 10:13 lack.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ οὐχ εὕρομεν",
+    "en": "and we did not find",
+    "plain": ", and we have found no way"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's footnote (om και ουχ ευρομεν A); the KJV",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Swete's text. The verb has no object in the Greek; the Plain supplies \"no way,\" the plainest sense (see the note). The shorter text of Alexandrinus agrees with Ezra 10:13 and may be the older one.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
   ]
  },
  {

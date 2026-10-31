@@ -19,7 +19,7 @@
    }
   ],
   "follow": 0,
-  "why": "Swete prints the first hand of Vaticanus, \"if\" (εἰ), but the clause then has no main verb before the next sentence. The corrected reading \"one\" (εἷς), a difference of one letter, gives the plain sense the speech needs, and the KJV reads it so. This is one of the places where the Plain departs from Swete's printed text.",
+  "why": "Swete prints the first hand of Vaticanus: \"and he, if he is alone, if he says kill, they kill.\" The doubled \"if\" (εἰ, then ἐάν) leaves the first clause hanging. The corrected reading \"one\" (εἷς), a difference of one letter and its breathing, gives the plain sense the speech needs, and the KJV (\"he is but one man\") reads it so. The first hand could also be read as a concession, \"though he is alone,\" so this departure is a judgment call. It is one of the places where the Plain departs from Swete's printed text.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -45,8 +45,8 @@
    }
   ],
   "follow": 0,
-  "why": "The two words differ by a few letters (Ἰουδαῖοι, Ἰδουμαῖοι). \"The temple that the Jews set on fire\" contradicts the whole story, in which the Chaldeans laid Judea waste, while Edom's part in Jerusalem's fall is a theme of Obadiah 11-14 and Psalm 137:7. Alexandrinus's reading is almost surely the original, and Vaticanus's a scribe's slip toward the more common word. This is a departure from Swete's printed text.",
-  "b": "<p>At 4:50 Alexandrinus again has \"Edomites\" where Vaticanus has \"Chaldeans\"; there the Plain keeps Vaticanus, because its reading makes sense. See that variant.</p>",
+  "why": "The two words differ by a few letters (Ἰουδαῖοι, Ἰδουμαῖοι). \"The temple that the Jews set on fire\" does not fit the story, in which the Chaldeans laid Judea waste, while Edom's part in Jerusalem's fall is a theme of Obadiah 11-14 and Psalm 137:7; the KJV follows Alexandrinus. Vaticanus's word may be a slip toward the more common one, though a writer blaming \"the Jews\" cannot be ruled out. Following Alexandrinus has a cost: the Plain leaves its base text here, and it still differs from 2 Kings 25:9 (see the note). This is a departure from Swete's printed text.",
+  "b": "<p>At 4:50 Alexandrinus again has \"Edomites\" where Vaticanus has \"Chaldeans\"; there the Plain keeps Vaticanus, because its reading makes sense. See that variant. Alexandrinus's readings in this part are quoted unaccented, as Swete prints them in his notes.</p>",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -72,7 +72,7 @@
    }
   ],
   "follow": 0,
-  "why": "Vaticanus's reading makes sense: the Chaldeans (Babylonians) had taken Judea, and the decree tells those who held Jewish villages to give them up. So the Plain keeps Swete's text. Alexandrinus's \"Edomites\" fits history well too, since Edomites moved into southern Judea after 586 BC (the later Idumea), and it matches its own reading at 4:45.",
+  "why": "Vaticanus's reading makes sense: the Chaldeans (Babylonians) had taken Judea, and the decree tells those who held Jewish villages to give them up. So the Plain keeps Swete's text. Alexandrinus's \"Edomites\" fits history well too, since Edomites moved into southern Judea after Jerusalem fell (the later Idumea), and it matches its own reading at 4:45.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -80,31 +80,37 @@
  },
  {
   "v": "5:9",
-  "a": "descendants of Phoros, 2,172. Descendants of Saphat, 472.",
-  "t": "Phoros and Saphat",
-  "p": "Vaticanus reads 'seventy-two thousand' for Phoros and has no Saphat. The Plain follows Alexandrinus.",
+  "a": "descendants of Phoros, 72,000.",
+  "t": "Phoros: 72,000?",
+  "p": "Vaticanus gives Phoros 72,000, more than the whole people. A later hand of Vaticanus and Alexandrinus add to it; Ezra has 2,172.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV (\"two thousand an hundred seventy and two... Saphat, four hundred seventy and two\")",
-    "orig": "υιοι Φορος δυο χιλιαδες και εκατον εβδομηκοντα δυο· υιοι Σαφατ τετρακοσιοι εβδομηκοντα δυο",
-    "en": "sons of Phoros, 2,172; sons of Saphat, 472",
-    "plain": "descendants of Phoros, 2,172. Descendants of Saphat, 472."
-   },
-   {
-    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text; a later hand of Vaticanus adds in the margin 172, and 372 for the sons of [Saph]at",
+    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
     "orig": "υἱοὶ Φορός, ἑβδομήκοντα δύο χιλιάδες",
     "en": "sons of Phoros, seventy-two thousand",
     "plain": "descendants of Phoros, 72,000."
    },
    {
-    "w": "Hebrew of Ezra 2:3-4 (Masoretic Text), for comparison",
-    "orig": "בְּנֵי פַרְעֹשׁ אַלְפַּיִם מֵאָה שִׁבְעִים וּשְׁנָיִם׃ בְּנֵי שְׁפַטְיָה שְׁלֹשׁ מֵאוֹת שִׁבְעִים וּשְׁנָיִם",
+    "w": "A later hand of Vaticanus, in the margin (Bᵃᵇ mg in Swete's apparatus): after \"thousand\" it adds the numeral 172 and the line \"sons of Asaph, 372\" (Asaph as Swete prints it; perhaps meant for Saphat, a guess)",
+    "orig": "+ ροβ΄ | υιοι Ασαφ τοβ΄",
+    "en": "(seventy-two thousand) 172; sons of Asaph, 372",
+    "plain": "descendants of Phoros, 72,000 and 172. Descendants of Asaph, 372."
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus, which records only these words added after \"thousand\"",
+    "orig": "+ και εκατον εβδομηκοντα δυο· υιοι Σαφατ· τετρακοσιοι εβδομηκοντα δυο",
+    "en": "(seventy-two thousand) and one hundred seventy-two; sons of Saphat, four hundred seventy-two",
+    "plain": "descendants of Phoros, 72,172. Descendants of Saphat, 472."
+   },
+   {
+    "w": "Hebrew of Ezra 2:3-4 (Masoretic Text), for comparison; the KJV (\"two thousand an hundred seventy and two... the sons of Saphat, four hundred seventy and two\") joins Ezra's figure to Alexandrinus's Saphat line",
+    "orig": "בְּנֵ֣יַרְעֹ֔שׁ אַלְפַּ֕יִם מֵאָ֖ה שִׁבְעִ֥ים וּשְׁנָֽיִם בְּנֵ֣י שְׁפַטְיָ֔ה שְׁלֹ֥שׁ מֵא֖וֹת שִׁבְעִ֥ים וּשְׁנָֽיִם",
     "en": "sons of Parosh, 2,172; sons of Shephatiah, 372",
     "plain": "descendants of Phoros, 2,172. Descendants of Saphat, 372."
    }
   ],
   "follow": 0,
-  "why": "Vaticanus's 72,000 for one clan cannot stand beside the total of 42,360 for everyone (5:41); its words look like a scrambled 2,172 with the next line lost, and a later corrector of Vaticanus already filled the gap in the margin. Alexandrinus gives a complete line, and the Plain follows it rather than splicing it with the corrector's 372. This is a departure from Swete's printed text.",
+  "why": "The Plain follows Vaticanus, Swete's text, as it does through the list (see the note on this verse). Its 72,000 cannot be right beside the total of 42,360 for the whole people (5:41), and its words look like a damaged 2,172 with the next line lost. A later hand of Vaticanus and the scribe of Alexandrinus both tried to repair the line, but as Swete reports them neither gives Ezra's 2,172: he records only words each adds after \"thousand.\" The Plain does not rebuild the figure from Ezra or the KJV.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -136,22 +142,85 @@
   ]
  },
  {
+  "v": "5:14",
+  "a": "Adonikam: 37",
+  "t": "Adonikam's number",
+  "p": "Vaticanus 37, Alexandrinus 647, Ezra 666, Nehemiah 667.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
+    "orig": "τριάκοντα ἑπτά",
+    "en": "thirty-seven",
+    "plain": "Adonikam: 37"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
+    "orig": "εξακοσιοι τεσσερακοντα επτα",
+    "en": "six hundred forty-seven",
+    "plain": "Adonikam: 647"
+   },
+   {
+    "w": "Hebrew of Ezra 2:13; Nehemiah 7:18 has 667",
+    "orig": "שֵׁשׁ מֵאוֹת שִׁשִּׁים וְשִׁשָּׁה",
+    "en": "six hundred sixty-six",
+    "plain": "Adonikam: 666"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus's numbers in the list (see the note on 5:9). Alexandrinus and Vaticanus share \"-forty/-thirty seven\" endings, which suggests the hundreds dropped out of Vaticanus.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "Adilius",
+  "t": "Adilius or Adinus",
+  "p": "Vaticanus has Adilius; Alexandrinus has Adinus, close to Ezra's Adin. The number, 454, is Ezra's.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
+    "orig": "Ἀδειλίου",
+    "en": "of Adilius",
+    "plain": "Adilius"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV (\"Adin\")",
+    "orig": "Αδινου",
+    "en": "of Adinus",
+    "plain": "Adinus"
+   },
+   {
+    "w": "Hebrew of Ezra 2:15, for comparison",
+    "orig": "עָדִ֔ין",
+    "en": "Adin",
+    "plain": "Adin"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain follows Vaticanus, Swete's text (see the note on 5:9). Both Greek forms answer Ezra's Adin, whose 454 they share; Alexandrinus's spelling is the closer.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
   "v": "5:15",
-  "a": "Descendants of Azer, of Ezekias.",
+  "a": "Descendants of Azer, of Hezekiah.",
   "t": "Azer of Ezekias: no number",
   "p": "Vaticanus gives no number; Alexandrinus has 92 (Ezra 2:16 has 98).",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
     "orig": "υἱοὶ Ἀζὴρ Ἑζεκίου",
-    "en": "sons of Azer of Ezekias",
-    "plain": "Descendants of Azer, of Ezekias."
+    "en": "sons of Azer of Ezekias (Hezekiah)",
+    "plain": "Descendants of Azer, of Hezekiah."
    },
    {
     "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV (\"Aterezias, ninety and two\")",
     "orig": "υιοι Ατηρ Εζεκιου ενενηκοντα δυο",
-    "en": "sons of Ater of Ezekias, 92",
-    "plain": "Descendants of Ater, of Ezekias: 92."
+    "en": "sons of Ater of Ezekias (Hezekiah), 92",
+    "plain": "Descendants of Ater, of Hezekiah: 92."
    }
   ],
   "follow": 0,
@@ -217,7 +286,7 @@
   "p": "Vaticanus's line is garbled and its parts add up to more than its total. The Plain follows Alexandrinus.",
   "readings": [
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the KJV",
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus, which gives these names in place of Vaticanus's words from \"400\" to \"Tobis\" and \"the\" before \"all\"; the KJV",
     "orig": "υιοι Σαλουμ υιοι Αταρ υιοι Τολμαν υιοι Δακουβι υιοι Ατητα υιοι Σαβει οι παντες εκατον τριακοντα εννεα",
     "en": "sons of Salum, sons of Atar, sons of Tolman, sons of Dakubi, sons of Ateta, sons of Sabi, in all 139",
     "plain": "descendants of Salum, Atar, Tolman, Dakubi, Ateta and Sabi, 139 in all"
@@ -230,7 +299,7 @@
    }
   ],
   "follow": 0,
-  "why": "In Vaticanus, 400 and 1,000 cannot be parts of a total of 139, and its names look like the six names of Alexandrinus and Ezra 2:42 run together (Akkub and Hatita as \"Lakubatus,\" Shobai as \"Tobis\"). Alexandrinus agrees with Ezra 2:42 in names and total, so the Plain follows it here. This is a departure from Swete's printed text.",
+  "why": "This is the one place in the list where the Plain leaves Vaticanus, because its line cannot be read as a list: 400 and 1,000 cannot be parts of a total of 139, and its names look like the six names of Alexandrinus and Ezra 2:42 run together (Akkub and Hatita as \"Lakubatus,\" Shobai as \"Tobis\"). Alexandrinus agrees with Ezra 2:42 in names and total, so the Plain follows it here. This is a departure from Swete's printed text.",
   "s": [
    "swete-ot",
    "kjv-apocrypha"
@@ -240,7 +309,7 @@
   "v": "5:40",
   "a": "a priest",
   "t": "Priest or high priest?",
-  "p": "Vaticanus says 'a priest'; Alexandrinus says 'a high priest,' as does the Latin, which the Mass sings.",
+  "p": "Vaticanus says 'a priest'; Alexandrinus says 'a high priest,' as does the Latin of the votive Mass for a pope's election.",
   "readings": [
    {
     "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
@@ -249,14 +318,14 @@
     "plain": "a priest"
    },
    {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the Vulgate (3 Esdras 5:40, pontifex, as sung in the votive Mass for the election of a pope); the KJV (\"an high priest\")",
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus; the votive Mass for the election of a pope, which gives this verse as its offertory, citing \"3 Esdræ 5:40,\" with pontifex (as printed in a set of parish propers); the KJV (\"an high priest\")",
     "orig": "αρχιερευς",
     "en": "a high priest",
     "plain": "a high priest"
    }
   ],
   "follow": 0,
-  "why": "The Plain keeps Swete's text, which matches the Hebrew of Ezra 2:63 and Nehemiah 7:65 (kohen, 'a priest'). Only the high priest wore the breastpiece with the Urim and Thummim, so \"high priest\" says what is meant; it may be an explaining change. Alexandrinus also reads Neemias (Nehemiah) for Vaticanus's Namias in this verse.",
+  "why": "The Plain keeps Swete's text, which matches the Hebrew of Ezra 2:63 and Nehemiah 7:65 (kohen, \"a priest\"). Only the high priest wore the breastpiece with the Urim and Thummim, so \"high priest\" says what is meant; it may be an explaining change. Alexandrinus also reads Neemias (Nehemiah) for Vaticanus's Naimias in this verse. The Latin quoted here is the Mass's, which cites the verse as 3 Esdras 5:40.",
   "s": [
    "swete-ot",
    "kjv-apocrypha",
@@ -283,7 +352,7 @@
    }
   ],
   "follow": 0,
-  "why": "The Plain follows Vaticanus, which makes sense in this book: the vows are counted from the month of Nisan, when Zerubbabel won the king's leave (5:6), and offered once the altar stood. Alexandrinus agrees with Ezra 3:6, where offerings began on the first day of the seventh month (compare 5:46). Either reading may be the original Greek.",
+  "why": "The Plain follows Vaticanus, Swete's text. Read in the book's own order, it is hard: it has sacrifices begin in the first month, though the altar is only set up in the seventh (5:46-49), a conflict inside the book. It can be read so that the vows are counted from Nisan, the month of the contest (5:6), and the sacrifices offered once the altar stood. Alexandrinus and Ezra 3:6 agree on the seventh month and have no such conflict. The Plain keeps Vaticanus because its words can bear that sense; the reader can switch to Alexandrinus.",
   "s": [
    "swete-ot"
   ]
@@ -318,6 +387,57 @@
   "s": [
    "swete-ot",
    "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:56",
+  "a": "house of the Lord",
+  "t": "House of the Lord, or of God?",
+  "p": "Vaticanus has 'the house of the Lord'; Alexandrinus has 'the house of God,' as Ezra 3:9 does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
+    "orig": "ἐν τῷ οἴκῳ τοῦ κυρίου",
+    "en": "in the house of the Lord",
+    "plain": "house of the Lord"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus (θυ, the short form of θεοῦ); the KJV (\"the house of God\")",
+    "orig": "θυ",
+    "en": "of God",
+    "plain": "house of God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps Swete's text. Alexandrinus agrees with Ezra 3:9, \"God's house\"; Vaticanus has \"the Lord,\" which the Plain gives as \"the Lord,\" since Ezra here has \"God\" and not the divine name (see the note on 5:49).",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "5:58",
+  "a": "blessing the LORD",
+  "t": "Blessing or giving thanks?",
+  "p": "Vaticanus has 'blessing'; Alexandrinus has 'giving thanks' (or 'praising').",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
+    "orig": "εὐλογοῦντες τῷ κυρίῳ",
+    "en": "blessing the Lord",
+    "plain": "blessing the LORD"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
+    "orig": "ομολογουντες",
+    "en": "giving thanks, praising",
+    "plain": "giving thanks to the LORD"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain keeps Swete's text. The sense is close. Alexandrinus's word is nearer to Ezra 3:11, where they sing \"praising and thanking the LORD.\"",
+  "s": [
+   "swete-ot"
   ]
  },
  {
@@ -370,37 +490,6 @@
   "s": [
    "swete-ot",
    "kjv-apocrypha"
-  ]
- },
- {
-  "v": "5:14",
-  "a": "Adonikam: 37",
-  "t": "Adonikam's number",
-  "p": "Vaticanus 37, Alexandrinus 647, Ezra 666, Nehemiah 667.",
-  "readings": [
-   {
-    "w": "Codex Vaticanus (B, 300s AD), as printed in Swete's text",
-    "orig": "τριάκοντα ἑπτά",
-    "en": "thirty-seven",
-    "plain": "Adonikam: 37"
-   },
-   {
-    "w": "Codex Alexandrinus (A, 400s AD), from Swete's apparatus",
-    "orig": "εξακοσιοι τεσσερακοντα επτα",
-    "en": "six hundred forty-seven",
-    "plain": "Adonikam: 647"
-   },
-   {
-    "w": "Hebrew of Ezra 2:13; Nehemiah 7:18 has 667",
-    "orig": "שֵׁשׁ מֵאוֹת שִׁשִּׁים וְשִׁשָּׁה",
-    "en": "six hundred sixty-six",
-    "plain": "Adonikam: 666"
-   }
-  ],
-  "follow": 0,
-  "why": "The Plain follows Vaticanus's numbers in the list (see the note on 5:9). Alexandrinus and Vaticanus share \"-forty/-thirty seven\" endings, which suggests the hundreds dropped out of Vaticanus.",
-  "s": [
-   "swete-ot"
   ]
  }
 ]

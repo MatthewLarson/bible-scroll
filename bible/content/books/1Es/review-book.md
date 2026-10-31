@@ -135,3 +135,25 @@ Location: `sections[0].b`, paragraph 1 ("Verse numbers in English Bibles also di
 - **Style.** Short sentences; no em-dashes in prose; the lead is long but readable.
 
 ## Fixes applied
+Fixer, 2026-10-31. Every kept or added fact was reopened this session; list in `.scratch/1es-book-fix/sources-checked.md`.
+1. Fixed. Orthodox rows rebuilt on sources opened now (lead decision 12): the Orthodox Study Bible's front matter ("never officially committed itself to a single text and list of Old Testament books"; its Orthodox OT lists "1 Ezra"), the Russian Synodal Bible at azbyka.ru (2 Ezra, asterisked "неканоническая"), Mihăilă's abstract, the OCA page (does not name it). Athanasius removed from the Orthodox row; Philaret quoted for what he says, with "Philaret does not name this book". "Greek and Russian Orthodox teachers rank it" and "read for building up rather than for settling doctrine" removed from facts, O lens, summary and how_to_read. "No council has fixed its place" replaced by the OSB sentence. New key `orthodox-study-bible`.
+2. Partly fixed (book side). 1 Esdras keeps the sourced Catholic reason and now adds the appendix note's "lest they should perish completely" (lead decision 13: Gallagher's transcription, opened; new key `gallagher-vulgate-appendix`). how_to_read and lead now say this page's canon section gives the Ethiopian answer. Ezra's card is left to the lead (see report).
+3. Fixed. "About four-fifths" in sections[0], rejected_why[1] and provenance[2] (3:1–5:6 plus 1:21–22 = 94 of 431 verses); "Nehemiah 8" made 7:73–8:13.
+4. Fixed. facts[4]: Josiah's eighteenth year (1:20), Ezra's coming in Artaxerxes' seventh year (8:6), reading on the first day of the seventh month (9:37–40) with no year. BC dates (622, 458) removed, not verified in an opened source.
+5. Fixed. Luther's Aesop sentence and LW page could not be found in any open text (searched; the beggarsall page reached is the Esther/Daniel preface): removed, with key `luther-preface-baruch`. Lutheran row now rests on the 1534 Wittenberg Bible's own list of the Apocrypha (image at the Gruber Collection, opened: eight items, no Esdras), labeled "Lutheran churches (Luther's Bible)"; new key `luther-bible-1534`. rejected_why[2] reworded to match.
+6. Fixed in content/topics/first-esdras.json: the Rahlfs sentence and repeated paragraph replaced by one paragraph: Swete numbering, KJV divides chapters 1, 2, 3, 5, 6 and 8 more finely, vessel list 2:12–13 here and 2:13–14 in the KJV (checked in texts/en and plain).
+7. Fixed. Quotes the Plain: "the whole time King Cyrus was alive" (5:70).
+8. Fixed. Sanabassar at 6:17 and 6:19.
+9. Fixed. "high priest" cited at 9:40, 49 in cited_in and reliability.
+10. Fixed. 7:73–8:13 everywhere, facts[5] noting only the first words of 8:13.
+11. Fixed. Hedge removed; the spec now says it builds on Talshir's view.
+12. Fixed. "Letter 73.9; 74.9 in Swete's numbering" in authorship and sections[6]. Also removed "AD 256" (no date on the page opened).
+13. Fixed. Rabbinic absolutes removed from the Judaism row and J lens; the row now cites Josephus' unnamed twenty-two books (Against Apion 1.38–41, opened).
+14. Fixed. cited_in row 1 now gives Thackeray's three views and Torrey instead of "scholars agree"; rows added for 2 Kings 23:29–30, 2 Chronicles 35:25 (Jeremiah, with 1:26 against 2 Chronicles 35:22), Nehemiah 7:6–73 and Zechariah 4:6–10 (13 rows).
+15. Fixed. Ethiopian row now: named in the narrower list ("The Prayers of the Church") and vol. 3 of the Ge'ez-Amharic Bible, judged undisputed by Cowley; the broader list's "1 Esdras and the Ezra Apocalypse"; other lists say only "two books of Ezra" (full article opened).
+16. Fixed. "since 1560 (Bullard and Hatton)", Geneva removed (the handbook names no Bible).
+17. Declined. In the Whiston text opened (lexundria) the letter to Cambyses begins at 11.21, his reply is 11.26, and the halt is 11.30; 11.19–20 is the Cutheans' bribery, so 11.21–30 stands.
+18. Fixed. "an early witness".
+19. Fixed. The hedge replaced by what Against Apion 1.38–41 says (opened): twenty-two books, unnamed, so it does not show whether he counted this book.
+20. Fixed. OCA, Bullard and Hatton, Synodal Bible, CCC 120 (vatican.va concordance), Belgic and Westminster all opened now; sources.json updated (Bellarmine attribution and "1876" removed as unverified). Bullard's "all scholars" is now a direct quotation; "Others think the compiler chose to close..." removed (no named holder).
+Other checks: Attarates explained once (hattirshata, texts/orig Neh 8:9); reliability doctrine line labeled "in Claude's judgment". Also removed for want of an opened source: Persian regnal years, Syriac version, "no Dead Sea Scroll/papyrus", "most historians", "most readers", "most scholars now agree", the unsourced Orthodox and "defenders" sentences in reliability §3, Egypt/Judea attributions in audience, Philaret's and Westminster's years; Talshir's book dated 2000 (SBL page); Ezra appears in "the last two chapters (8–9)", not three; Westminster quote corrected to "canon of the Scripture"; Augustine's view given as his "suggestion".
