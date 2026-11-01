@@ -495,7 +495,8 @@ if(exists(P('content/timelines'))) for(const id of fs.readdirSync(P('content/tim
   if(sc.length < 2) err(where, 'needs scale: at least two [year, x] points read from the chart\'s own date marks');
   sc.forEach((p, i) => { if(!Array.isArray(p) || p.length !== 2 || !Number.isInteger(p[0]) || typeof p[1] !== 'number' || p[1] < 0 || p[1] > info.w) err(where, `scale[${i}] must be [year, x] with x on the scan (0–${info.w})`);
     else if(i && !(p[0] > sc[i-1][0] && p[1] > sc[i-1][1])) err(where, `scale[${i}]: years and x must both increase`); });
-  (T.eras || []).forEach((e, i) => { if(!e.t || !Number.isInteger(e.from) || !Number.isInteger(e.to) || e.from >= e.to) err(where, `eras[${i}] needs t and whole years from < to`); });
+  (T.eras || []).forEach((e, i, all) => { if(!e.t || !Number.isInteger(e.from) || !Number.isInteger(e.to) || e.from >= e.to) err(where, `eras[${i}] needs t and whole years from < to`);
+    else if(i && e.from !== all[i-1].to) err(where, `eras[${i}] must begin where eras[${i-1}] ends (${all[i-1].to})`); });
   const wikiSeen = new Set();
   (T.entries || []).forEach((e, i) => { const w = `${where} entries[${i}]${e.t ? ` "${e.t}"` : ''}`;
     if(!e.t) err(w, 'needs t, the title');

@@ -375,10 +375,11 @@ async function openTimeline(r){
   if(!idx.some(t => t.id === r.id)){ sitePage('timelines', 'Timeline not found'); $('leaf').innerHTML = `<header class="pagehead"><h1>Timeline not found</h1><p><a class="btn ghost" href="/timelines">All timelines</a></p></header>`; return; }
   const T = await load(`timelines/${r.id}.json`); sitePage('timeline', T.title);
   const S = tlScale(T.scale), cx = e => e.at[0] + e.at[2] / 2, order = T.entries.map((e, i) => i).sort((a, b) => cx(T.entries[a]) - cx(T.entries[b]));
-  const eraOf = i => { const y = S.year(cx(T.entries[i])); return T.eras.findIndex(e => y >= e.from && y < e.to); };
+  /* the eras follow one another, so whatever lies before the first or after the last goes with it */
+  const eraOf = i => { const y = S.year(cx(T.entries[i])), j = T.eras.findIndex(e => y < e.to); return j < 0 ? T.eras.length - 1 : j; };
   const links = e => [...(e.refs ? RF.findRefs(e.refs, null, true).map(x => `<a class="pill" href="/${x.book}/${x.c}${x.v != null ? '/' + x.v : ''}">${esc(x.label)}</a>`) : []),
     ...(e.topics || []).map(([id, title]) => `<button class="pill tpill" data-topic="${id}">${title}</button>`),
-    ...(e.wiki ? [ext('https://en.wikipedia.org/wiki/' + encodeURIComponent(e.wiki), 'Wikipedia ↗', 'pill')] : [])].join('');
+    ...(e.wiki ? [ext(WIKI(e.wiki.replace(/_/g, ' ')), 'Wikipedia ↗', 'pill')] : [])].join('');   // WIKI's "go" search opens the article, or the closest results
   const when = e => e.label || fmtYear(e.year);
   const item = i => { const e = T.entries[i];
     return `<li class="tlitem" id="tle-${i}"><button class="tlgo" data-tlgo="${i}" aria-label="Show ${esc(strip(e.t))} on the chart"><i class="k-${e.kind}"></i><b>${e.t}</b>${when(e) ? `<span class="tly">${esc(when(e))}</span>` : ''}</button>
