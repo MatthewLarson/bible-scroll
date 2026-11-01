@@ -451,8 +451,9 @@ function tlViewer(T, S, links, when){
     for(const [k, im] of tiles) if(!need.has(k)){ const [kz, cr] = k.split('/'), [c, r] = cr.split('_').map(Number), sp = TS * 2 ** +kz;
       const x = c * sp * s + tx, y = r * sp * s + ty, on = x < vw && y < vh && x + sp * s > 0 && y + sp * s > 0;
       if(ready || !on){ im.remove(); tiles.delete(k); } else place(im, c * sp, r * sp, Math.min(sp, I.w - c * sp), Math.min(sp, I.h - r * sp), 1); }
+    view.classList.toggle('far', s < .06);   // zoomed far out, a thousand dots would hide the chart
     T.entries.forEach((e, i) => { const x = (e.at[0] + e.at[2] / 2) * s + tx, y = (e.at[1] + e.at[3] / 2) * s + ty, d = dots[i];
-      d.hidden = x < -20 || y < -20 || x > vw + 20 || y > vh + 20; if(!d.hidden) d.style.transform = `translate(${x}px, ${y}px)`; });
+      d.hidden = x < -20 || y < -20 || x > vw + 20 || y > vh + 20; d.classList.toggle('on', i === sel); if(!d.hidden) d.style.transform = `translate(${x}px, ${y}px)`; });
     if(sel >= 0){ const a = T.entries[sel].at; box.hidden = false; box.style.cssText = `left:${a[0] * s + tx}px; top:${a[1] * s + ty}px; width:${a[2] * s}px; height:${a[3] * s}px`; placePop(); } else box.hidden = true;
     $('tlhere').textContent = `Around ${fmtYear(Math.round(S.year((vw / 2 - tx) / s) / 10) * 10 || 1)}`;
     const mw = mini.clientWidth / I.w; win.style.cssText = `left:${Math.max(0, -tx / s * mw)}px; width:${Math.min(I.w, vw / s) * mw}px; top:${Math.max(0, -ty / s) / I.h * 100}%; height:${Math.min(1, vh / s / I.h) * 100}%`;

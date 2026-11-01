@@ -274,7 +274,7 @@ body[data-page] .article{padding:6px max(10px, env(safe-area-inset-right)) 28px 
 .tlmarklayer{pointer-events:none; z-index:3}
 .tldot{position:absolute; left:-9px; top:-9px; width:18px; height:18px; padding:0; border-radius:50%; border:2px solid var(--parch-hi); background:var(--kc, var(--red)); box-shadow:0 1px 4px rgba(0,0,0,.45); cursor:pointer; pointer-events:auto; opacity:.9}
 .tldot:hover, .tldot:focus-visible{opacity:1; outline:2px solid var(--ink); outline-offset:1px}
-.tlview.nomarks .tldot{display:none}
+.tlview.nomarks .tldot, .tlview.far .tldot:not(.on){display:none}
 .k-picture{--kc:var(--red)} .k-event{--kc:var(--lapis)} .k-person{--kc:var(--olive)} .k-table{--kc:var(--violet)}
 .tlbox{position:absolute; border:2.5px solid var(--ochre); border-radius:10px; box-shadow:0 0 0 2000px rgba(42,28,18,.18), 0 0 14px rgba(180,111,38,.7); pointer-events:none}
 .tlhere{position:absolute; left:12px; top:10px; z-index:4; font-family:var(--f-display); letter-spacing:.05em; font-size:.92rem; color:var(--parch-hi); background:rgba(42,28,18,.72); padding:2px 12px; border-radius:var(--wobble); pointer-events:none}
