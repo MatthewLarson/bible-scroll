@@ -46,7 +46,7 @@ deeply, and wants every view presented fairly. Matt, who commissioned this, want
 
 ## plain.txt: the Plain English Translation
 
-**The name.** The site's own translation is called the **Plain English Translation**. Write that full name in notes, reviews and briefs, never bare "the Plain English Translation" (Matt, 2026-10-30: bare "Plain" was confusing). Possessive: "the Plain English Translation's". The file is still `plain.txt` and the data key `plain`.
+**The name.** The site's own translation is called the **Plain English Translation**. Write that full name in notes, reviews and briefs, never bare "the Plain" (Matt, 2026-10-30: bare "Plain" was confusing). Possessive: "the Plain English Translation's". The file is still `plain.txt` and the data key `plain`.
 
 ```
 ## Section heading
