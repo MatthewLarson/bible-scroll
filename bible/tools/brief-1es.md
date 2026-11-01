@@ -22,7 +22,7 @@ The site numbers this book as Swete's Greek does (texts/orig, the catalog). The 
 
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). Build every verse from the
-  Greek in `texts/orig/1Es.json` (Swete, Codex Vaticanus), literal working line in `.scratch/1es-<part>/`, then Plain,
+  Greek in `texts/orig/1Es.json` (Swete, Codex Vaticanus), literal working line in `.scratch/1es-<part>/`, then Plain English Translation,
   then the drift audit in your head against NRSV, RSV, NETS, NABRE-related editions and the Lexham Septuagint (never
   write their text). KJV (`texts/en/1Es.json`), Vulgate/Douay (`texts/src/1Es.lat.json`, Vulgate numbering) for sense
   only; Swete's footnotes in `texts/src/1Es.app.json` (A is the main other witness; read the sigla exactly).
@@ -31,18 +31,18 @@ The site numbers this book as Swete's Greek does (texts/orig, the catalog). The 
   Protestant: read, not Scripture; the Vulgate appendix, Trent, Article VI). No C/P lenses: the Western churches share
   one lens here because neither counts it as Scripture.
 - **The parallel rule (the most important rule in this book).** Where 1 Esdras retells 2 Chronicles, Ezra or
-  Nehemiah, the site's Plain of that verse is the model. Keep its wording wherever the Greek of 1 Esdras says the same
+  Nehemiah, the site's Plain English Translation of that verse is the model. Keep its wording wherever the Greek of 1 Esdras says the same
   thing; change it only where the Greek differs (an added word, a different name or number, a different order), and
   give each real difference an `S` view or a note naming the Hebrew verse. Make a table in your scratch folder: each
   1 Esdras verse, its parallel verse, and "same / differs: how". Names and numbers in the lists (5:9-45 beside Ezra
   2:2-67): follow the Greek, with the Hebrew form in a note where it differs; do not "correct" the Greek to the Hebrew.
-  Read the Plain from `content/books/2Ch/`, `Ezr/`, `Neh/` (current files).
+  Read the Plain English Translation from `content/books/2Ch/`, `Ezr/`, `Neh/` (current files).
 - Josephus (Antiquities 10-11) follows 1 Esdras, not the Hebrew Ezra, in places (the three guards, Zerubbabel's
   order): check every Josephus claim in an open text (lexundria.com/j_aj or Perseus).
 
 ## Terms
 Use the Ezra–Nehemiah terms in content/terms.json (Israelites, the province, the temple of the LORD, etc.); κύριος
-"the Lord" except where the parallel's Plain has "the LORD" for the Hebrew name: then keep "the LORD" only if the Greek
+"the Lord" except where the parallel's Plain English Translation has "the LORD" for the Hebrew name: then keep "the LORD" only if the Greek
 has κύριος there (say once at 1:1 why). "Truth" (ἀλήθεια) in 3-4 is one word everywhere, and 4:41 "Great is truth,
 and strongest of all" (Latin "Magna est veritas et praevalet", a motto: check where it is used before saying so).
 

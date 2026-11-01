@@ -19,7 +19,7 @@ Parts (all write at the same time and cannot see each other):
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). There is no gloss list:
   build every verse from the Greek in `texts/orig/Wis.json` (Swete, Codex Vaticanus) with a literal working line in
-  `.scratch/wis-<part>/`, then Plain English, then the drift audit in your head against the NRSV, NABRE, RSV, NJB and
+  `.scratch/wis-<part>/`, then Plain English Translation, then the drift audit in your head against the NRSV, NABRE, RSV, NJB and
   NETS (never write their text out; log only verse, outcome and a few words of reason). The KJV in `texts/en/Wis.json`
   and the Douay/Vulgate in `texts/src/Wis.lat.json` are for sense only.
 - Swete's footnotes are `texts/src/Wis.app.json` (ℵ, A, C and correctors). Every departure from Swete's text needs a
@@ -34,15 +34,15 @@ Parts (all write at the same time and cannot see each other):
 σοφία "wisdom" (personified: "Wisdom", capital W, where she acts as a person: 7:22-8:1 and 10; decide by the Greek,
 not by a translation's habit; a note at first use in each part); ἀφθαρσία "incorruption" (never "immortality");
 ἀθανασία "immortality"; ψυχή "soul"; λόγος "word"; ἀσεβής "the ungodly"; δίκαιος "the righteous" (singular in
-2:12-20 and 5:1: "the righteous man", with the Christian reading in an echo note, not in the Plain); πνεῦμα "spirit";
+2:12-20 and 5:1: "the righteous man", with the Christian reading in an echo note, not in the Plain English Translation); πνεῦμα "spirit";
 παῖς θεοῦ in 2:13 "child of God" with a note on "servant/child" (Isaiah 52-53 Greek); ἐπισκοπή "visitation"
 (3:7, 3:13, 4:15, 14:11, 19:15). κύριος = "the Lord" (the Greek does not give the divine name). Check terms.json for
 existing renderings of shared words and reuse them.
 
-## Parallels (the earlier book's Plain is the model where Wisdom retells it)
+## Parallels (the earlier book's Plain English Translation is the model where Wisdom retells it)
 Genesis 1-3 (2:23-24 image and the devil's envy), 1 Kings 3:5-15 and 2 Chronicles 1:7-12 (Solomon's prayer, ch. 9),
 Exodus 7-14 and Numbers 11, 16, 21 (chapters 10-19), Isaiah 44:9-20 and Psalm 115 (the idols, 13-15), Isaiah 52:13-
-53:12 (the righteous one). Quote the site's current Plain exactly when you quote.
+53:12 (the righteous one). Quote the site's current Plain English Translation exactly when you quote.
 
 ## Places that need full treatment (candidate links: check each in an open text before you assert it)
 - 1:13-14 and 2:23-24: God did not make death; "through the devil's envy death entered the world" (compare Romans

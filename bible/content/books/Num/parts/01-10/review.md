@@ -4,12 +4,12 @@ Reviewer: num-reviewer. `node tools/build.js --check Num/01-10`: 420 verses, 133
 
 ## Verdict
 
-This is a careful, well-researched part. The translation follows the Masoretic Text closely, with no additions or omissions of substance. The repeated formulas of chapters 1, 2, 7 and 10 are handled consistently: the twelve offerings of chapter 7 are word-for-word identical except for the names, and the Plain keeps the Hebrew's differences between 1:20-22 and 1:24ff. The notes are dense and nearly all accurate. Most rabbinic references check out: Pesachim 6b, Sanhedrin 19b, Bekhorot 5a, Shabbat 115b-116a, Sukkah 25a, Berakhot 20b and 31b, Sotah 9:9 and 47b, Chullin 24a, Sifre 42, Mishnah Pesachim 9:2 and Nazir 3:6. The account of Ketef Hinnom is accurate in its sizes, dates and the wording of KH1 and KH2. The sotah material is fair and well sourced.
+This is a careful, well-researched part. The translation follows the Masoretic Text closely, with no additions or omissions of substance. The repeated formulas of chapters 1, 2, 7 and 10 are handled consistently: the twelve offerings of chapter 7 are word-for-word identical except for the names, and the Plain English Translation keeps the Hebrew's differences between 1:20-22 and 1:24ff. The notes are dense and nearly all accurate. Most rabbinic references check out: Pesachim 6b, Sanhedrin 19b, Bekhorot 5a, Shabbat 115b-116a, Sukkah 25a, Berakhot 20b and 31b, Sotah 9:9 and 47b, Chullin 24a, Sifre 42, Mishnah Pesachim 9:2 and Nazir 3:6. The account of Ketef Hinnom is accurate in its sizes, dates and the wording of KH1 and KH2. The sotah material is fair and well sourced.
 
 Three problems need a real fix:
 
 1. The literal-line method has left a large number of phrases that match the ESV word for word, and a few that match the NIV. They cluster in the sotah law (5:17-31), the Nazirite law (6:3-20) and the cloud and Hobab passages (9:13-22; 10:9-10, 29-34). Recurring formulas such as "Any outsider who came near was to be put to death" add to the count.
-2. The Plain carries many stiff, calqued constructions that are not natural 8th-grade English.
+2. The Plain English Translation carries many stiff, calqued constructions that are not natural 8th-grade English.
 3. There are a handful of factual slips, a missing ESV-footnoted variant (9:16, "by day"), a weak "critical" reading in the large-numbers essay, a missing `trumpets` contribution, and a terms list in book.json that does not serve the three parts.
 
 Counts: critical 0, major 9, minor 31.
@@ -20,7 +20,7 @@ Counts: critical 0, major 9, minor 31.
 
 ### Major
 
-**1. Major. Plain, ch. 5 (sotah law): many exact ESV phrases.**
+**1. Major. Plain English Translation, ch. 5 (sotah law): many exact ESV phrases.**
 The literal method produced ESV wording almost verbatim in a run of verses:
 - 5:18, 19, 24: "the water of bitterness that brings the curse." This is the ESV's distinctive rendering, used three times. 5:19 adds "be free from this water of bitterness that brings the curse," nine consecutive ESV words.
 - 5:18: "which is the grain offering of jealousy" (ESV).
@@ -33,7 +33,7 @@ The literal method produced ESV wording almost verbatim in a run of verses:
 
 Fix: recast the passage from the Hebrew in fresh English. For example: "the bitter water that carries the curse" or "the bitter, curse-bringing water"; "This water that carries the curse will enter your body"; "If she is innocent and clean, nothing will happen to her, and she will be able to have children."
 
-**2. Major. Plain, ch. 6 (Nazirite): ESV and NIV phrasing.**
+**2. Major. Plain English Translation, ch. 6 (Nazirite): ESV and NIV phrasing.**
 - 6:3: "He must not drink vinegar made from wine or from strong drink. He must not drink any grape juice or eat grapes, fresh or dried." This combines the NIV ("He must not drink vinegar made from wine... He must not drink grape juice or eat grapes") with the ESV ("eat grapes, fresh or dried").
 - 6:5: "Until the days are complete for which he is set apart for the LORD, he will be holy. He is to let the locks of hair on his head grow long." This follows the ESV clause by clause ("Until the time is completed for which he separates himself to the LORD, he shall be holy. He shall let the locks of hair of his head grow long").
 - 6:9: "If someone dies beside him very suddenly" (ESV: "if any man dies very suddenly beside him").
@@ -42,7 +42,7 @@ Fix: recast the passage from the Hebrew in fresh English. For example: "the bitt
 
 Fix: rebuild these verses. For example, 6:5: "As long as his vow lasts, no razor may touch his head. He stays holy to the LORD until his time is up, and he lets his hair grow long."
 
-**3. Major. Plain, 9:13-22: ESV and NIV matches.**
+**3. Major. Plain English Translation, 9:13-22: ESV and NIV matches.**
 - 9:13: "That person will be cut off from his people, since he did not bring the LORD's offering at its set time. That man will bear his sin." This is the ESV with "since" for "because" and "set" for "appointed."
 - 9:15: "On the day the tabernacle was set up, the cloud covered the tabernacle, the tent of the testimony. In the evening it was over the tabernacle like the look of fire until morning." This is the ESV almost word for word ("And at evening it was over the tabernacle like the appearance of fire until morning").
 - 9:16: "So it always was: the cloud covered it" (ESV: "So it was always: the cloud covered it").
@@ -52,7 +52,7 @@ Fix: rebuild these verses. For example, 6:5: "As long as his vow lasts, no razor
 
 Fix: retranslate. For example, 9:15: "The day the tabernacle was put up, the cloud covered it, the tent that held the testimony. From evening until morning the cloud over the tabernacle looked like fire."
 
-**4. Major. Plain, 10:9-10, 29-34: ESV matches.**
+**4. Major. Plain English Translation, 10:9-10, 29-34: ESV matches.**
 - 10:9: "When you go to war in your land against" (ESV).
 - 10:10: "at the beginnings of your months... over your burnt offerings and over your sacrifices of peace offerings. They will be a reminder for you before your God" (ESV).
 - 10:29: "We are setting out for the place about which the LORD said, 'I will give it to you.' Come with us, and we will do you good" (ESV structure and wording).
@@ -64,7 +64,7 @@ Fix: retranslate. For example, 9:15: "The day the tabernacle was put up, the clo
 
 Fix: retranslate the Hobab dialogue in fresh conversational English. For example: "Please don't leave us. You know the places to camp out here. You can be our eyes."
 
-**5. Major. Plain, recurring formulas and other ESV/NIV matches in chs. 1-4 and 8.**
+**5. Major. Plain English Translation, recurring formulas and other ESV/NIV matches in chs. 1-4 and 8.**
 - 1:51, 3:10, 3:38: "Any outsider who comes near / came near will be / was to be put to death." 3:38 matches the ESV exactly ("And any outsider who came near was to be put to death").
 - 1:53: "keep guard over the tabernacle of the testimony" (ESV exact).
 - 1:3: "From twenty years old and up, everyone in Israel who can go out to war, you and Aaron are to enroll them by their companies" follows the ESV order ("From twenty years old and upward, all in Israel who are able to go to war, you and Aaron shall list them, company by company").
@@ -80,9 +80,9 @@ Fix: retranslate the Hobab dialogue in fresh conversational English. For example
 
 Fix: vary the formulas. For example: "If anyone else comes near, he must be put to death"; "No one else may come near, on pain of death"; "Any unauthorized person who approaches must die." Recast 4:15 and 4:20 as, for example, "They must not touch the holy objects. If they do, they will die" and "They must not go in and look at the holy things, not even for an instant, or they will die."
 
-The priestly blessing (6:24-26) is close to the traditional English wording that all versions share. That is acceptable, since it is fixed liturgical language and the Plain's "toward you" is its own, but say so in a note.
+The priestly blessing (6:24-26) is close to the traditional English wording that all versions share. That is acceptable, since it is fixed liturgical language and the Plain English Translation's "toward you" is its own, but say so in a note.
 
-**6. Major. Plain: unnatural, calqued English throughout.**
+**6. Major. Plain English Translation: unnatural, calqued English throughout.**
 These are not 8th-grade American English:
 - "His company, those enrolled from them, number 74,600." This appears twelve times in ch. 2, and alternates between "from them" and "from it" with no basis in the Hebrew. Try "His division numbers 74,600."
 - "stand them / stand her / stand the woman before" (3:6; 5:16, 18, 30; 8:13). Use "have them stand" or "present."
@@ -95,12 +95,12 @@ These are not 8th-grade American English:
 - 4:19: "set each man to his work and to his load."
 - 1:3: the fronted phrase with a resumptive "them."
 
-Fix: a style pass on the whole Plain after the redo of findings 1-5.
+Fix: a style pass on the whole Plain English Translation after the redo of findings 1-5.
 
 **7. Major. variants.json: missing variant at 9:16, "by day."**
 The Masoretic Text reads `הֶעָנָן יְכַסֶּנּוּ וּמַרְאֵה־אֵשׁ לָיְלָה`. The Septuagint, Syriac, Vulgate and Targum add `יוֹמָם` "by day." The ESV adds "by day" and footnotes it ("Septuagint, Syriac, Vulgate; Hebrew lacks *by day*"). The KJV and NIV also have "by day." By STYLE's rule this needs an entry.
 
-Fix: follow the Masoretic Text, as the Plain does, and give the long reading as "the cloud covered it by day, and by night it looked like fire."
+Fix: follow the Masoretic Text, as the Plain English Translation does, and give the long reading as "the cloud covered it by day, and by night it looked like fire."
 
 **8. Major. chapters.json ch. 1 deep section "How many people left Egypt?": not every reading is in its strongest form.**
 - **Critical.** This view gets one sentence with no arguments. Give its real case: the priestly writer's schematic numbers, which match Exodus 12:37 and 38:26 as an ideal; the lack of any archaeological trace of two million people in Sinai; and population estimates of a few tens of thousands for the Iron I hill country (Finkelstein, Stager). Name representatives: Noth, Budd and Levine. Albright's Davidic-census theory is cited, but say that it also counts as a historical proposal.
@@ -183,10 +183,10 @@ Fix: pick one rendering for each. The book.json owner should add them to `terms`
 **28. Minor. 4:15-16: "the holy place" for hakkodesh.**
 "Aaron and his sons will finish covering the holy place and all its holy things." The priests cover the holy objects, not a room, and Exodus 26:33 uses "the holy place" for the outer room. The same applies to 4:16 ("the holy place and its things") and 4:12. Fix: "the holy objects" or "the sanctuary and all its furnishings."
 
-**29. Minor. Plain 6:15 and 9:11: inconsistent rendering of matsot.**
+**29. Minor. Plain English Translation 6:15 and 9:11: inconsistent rendering of matsot.**
 6:15, 17 and 19 have "bread without yeast," while 9:11 has "unleavened bread." Fix: choose one.
 
-**30. Minor. Plain 10:10: number of "day."**
+**30. Minor. Plain English Translation 10:10: number of "day."**
 "On your days of joy" is plural, but the Hebrew `וּבְיוֹם שִׂמְחַתְכֶם` is singular ("on the day of your joy"). This is a small point. Fix it if a natural singular works.
 
 **31. Minor. book.json `terms` does not fit Numbers.**
@@ -209,9 +209,9 @@ The tabernacle as a portable Sinai is Ramban's classic reading (introduction to 
 - Ch. 1 view X: 1 Corinthians 10:5, "with most of them God was not pleased, for they were struck down in the wilderness" (ESV, with one word changed).
 - Note #21: Psalm 80:2, "stir up your might" (ESV).
 - Note #83: Psalm 31:16, "Let your face shine on your servant" (NIV exact); Psalm 80:3 close to the NIV.
-- Notes #22 and #27 do not match the site's own Plain for Genesis 49:17 ("a snake on the road") and Leviticus 10:1 ("presented before the LORD strange fire").
+- Notes #22 and #27 do not match the site's own Plain English Translation for Genesis 49:17 ("a snake on the road") and Leviticus 10:1 ("presented before the LORD strange fire").
 
-Fix: quote the site's own Plain for Old Testament books already done, and render New Testament quotations freshly.
+Fix: quote the site's own Plain English Translation for Old Testament books already done, and render New Testament quotations freshly.
 
 **36. Minor. Ch. 2 view X: Irenaeus.**
 "Christian interpreters linked the four banners with the four living creatures and, through them, with the four Gospels, a tradition already found in Irenaeus." Irenaeus (*Against Heresies* 3.11.8) links the creatures with the Gospels, not the banners. Fix: split the sentence.
@@ -257,7 +257,7 @@ Fixed by the part 01-10 writer. Afterward `node tools/build.js --check Num/01-10
 - **The priestly blessing.** The 6:24 note now says that its wording stays close to the traditional English, as the review allowed.
 
 **Variants (findings 7, 22-25).**
-- **Added.** 9:16 "by day" (Septuagint, Syriac, Vulgate, Targum; the Plain follows the Masoretic Text). 6:27 placed after 6:23 in the Septuagint, which I confirmed in Rahlfs' text. Its note says that Ketef Hinnom KH1 and KH2 are witnesses to a shorter blessing.
+- **Added.** 9:16 "by day" (Septuagint, Syriac, Vulgate, Targum; the Plain English Translation follows the Masoretic Text). 6:27 placed after 6:23 in the Septuagint, which I confirmed in Rahlfs' text. Its note says that Ketef Hinnom KH1 and KH2 are witnesses to a shorter blessing.
 - **3:28 and 4:3.** The orig fields now give Greek. I could not check which manuscripts read 8,300 in Wevers' apparatus. The witness line still says "some manuscripts".
 - **10:10.** The orig is now "(adds Deuteronomy 1:6-8, recast as God's own speech)", the Syro-Hexapla claim is removed, and the entry says the exact Samaritan text was not checked.
 - **2:14.** The reference now reads "Numbers 10:29".
@@ -301,7 +301,7 @@ Fixed by the part 01-10 writer. Afterward `node tools/build.js --check Num/01-10
 - **32.** The Samaritan lists now agree: 10:10 and chapters 12-14, 20, 21, 27 and 31.
 - **33.** Knierim and Coats (FOTL 4, 2005) are acknowledged in the book spec.
 - **34.** Ramban's introduction to Exodus 25 is cited in "A walking Sinai", and the claim is narrowed to the camp's rings.
-- **35.** Quotations are now in the site's Plain (Genesis 49:17; Leviticus 10:1; Leviticus 6:2) or fresh from `literal.js` (Psalm 80:2-3; Psalm 31:16; 1 Corinthians 10:5).
+- **35.** Quotations are now in the site's Plain English Translation (Genesis 49:17; Leviticus 10:1; Leviticus 6:2) or fresh from `literal.js` (Psalm 80:2-3; Psalm 31:16; 1 Corinthians 10:5).
 - **36.** The Irenaeus sentence is split: *Against Heresies* 3.11.8 links the creatures with the Gospels, and the banner link is later and rests on the rabbinic lion/man/ox/eagle tradition.
 - **37.** The priesthood uncommon line now names 2 Kings 23:8-9.
 - **38.** Tags changed: 8:19 is priesthood, 5:2 skin-disease, 8:7 red-heifer and 10:11 mount-sinai. Chapter 10 adds midian and holy-war, chapter 7 adds incense, and the sotah and priestly-blessing cores now name the book in every reference.

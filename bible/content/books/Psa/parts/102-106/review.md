@@ -1,10 +1,10 @@
 # Hostile review: Psalms 102–106 (part 102-106)
 
-Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json of this part, and book.json where it touches Psalms 102–106. Checked against `node tools/literal.js Psa 102–106`, texts/auto/Psa.json, the Greek of Rahlfs as printed on sacred-texts.com (Greek Psalms 101–105) with the Clementine Vulgate beside it, the site's Plain of 1 Chronicles 16, Exodus 34, Genesis and the other Psalms parts, and the brief (tools/brief-psa.md). `node tools/build.js --check Psa/102-106` gives 0 errors and 0 warnings.
+Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json, sources.json of this part, and book.json where it touches Psalms 102–106. Checked against `node tools/literal.js Psa 102–106`, texts/auto/Psa.json, the Greek of Rahlfs as printed on sacred-texts.com (Greek Psalms 101–105) with the Clementine Vulgate beside it, the site's Plain English Translation of 1 Chronicles 16, Exodus 34, Genesis and the other Psalms parts, and the brief (tools/brief-psa.md). `node tools/build.js --check Psa/102-106` gives 0 errors and 0 warnings.
 
 ## Verdict
 
-This is a strong part. The Plain is rebuilt from the Hebrew and follows the literal lines closely. I found no runs of NIV or ESV wording that the Hebrew does not force, except one section heading. The Plain reuses the site's Plain of 1 Chronicles 16 word for word where the Hebrew matches (105:1–15; 106:1, 47–48). All four Ketiv/Qere places in texts/auto get entries. Every psalm has a settings card with `readers`, and the Greek number appears in four of the five summaries. The rabbinic citations the writer flagged as "from memory" check out: Ketubot 112a–b, Berakhot 9b–10a and 10a, Megillah 18a, Sanhedrin 102a, Avodah Zarah 3b, and the Mekhilta's list of tiqqune soferim including 106:20. So do the liturgical claims: the fourteenth kathisma, the Hexapsalmos, the Typika antiphon, the Proemiac Psalm at Vespers, the Ashkenazi use of 104 on Rosh Chodesh and on winter Sabbath afternoons, and the Pentecost responsorial psalm. Day (2013) is a real chapter. The serious problems are elsewhere:
+This is a strong part. The Plain English Translation is rebuilt from the Hebrew and follows the literal lines closely. I found no runs of NIV or ESV wording that the Hebrew does not force, except one section heading. The Plain English Translation reuses the site's Plain English Translation of 1 Chronicles 16 word for word where the Hebrew matches (105:1–15; 106:1, 47–48). All four Ketiv/Qere places in texts/auto get entries. Every psalm has a settings card with `readers`, and the Greek number appears in four of the five summaries. The rabbinic citations the writer flagged as "from memory" check out: Ketubot 112a–b, Berakhot 9b–10a and 10a, Megillah 18a, Sanhedrin 102a, Avodah Zarah 3b, and the Mekhilta's list of tiqqune soferim including 106:20. So do the liturgical claims: the fourteenth kathisma, the Hexapsalmos, the Typika antiphon, the Proemiac Psalm at Vespers, the Ashkenazi use of 104 on Rosh Chodesh and on winter Sabbath afternoons, and the Pentecost responsorial psalm. Day (2013) is a real chapter. The serious problems are elsewhere:
 - At 102:26 the Greek of the Psalter is misreported, and the Hebrews 1 discussion rests on that report.
 - A factual error about the order of episodes in Psalm 106.
 - Several bare references in chapter pages and topics that the build silently links to the wrong Psalms verse.
@@ -61,7 +61,7 @@ Counts: **0 critical, 3 major, 22 minor.**
 
 ### 9. Minor: the list of Psalm 105 and 1 Chronicles 16 differences is inaccurate
 - **Location:** chapters.json 105, deep "Psalm 105 and 1 Chronicles 16"; notes.json 105:1.
-- **Problem:** The deep section ends: "the wording differs from 1 Chronicles 16 in 105:6, 105:8, 105:12 and 105:15." The site's Plain of 105:15 and 1 Chronicles 16:22 is identical; only a Hebrew preposition differs. The note on 105:1 lists the differences but omits 105:14 (*adam* / *le'ish*), which the deep table includes.
+- **Problem:** The deep section ends: "the wording differs from 1 Chronicles 16 in 105:6, 105:8, 105:12 and 105:15." The site's Plain English Translation of 105:15 and 1 Chronicles 16:22 is identical; only a Hebrew preposition differs. The note on 105:1 lists the differences but omits 105:14 (*adam* / *le'ish*), which the deep table includes.
 - **Fix:** Drop 105:15 from the list of English differences, and add 105:14 to the 105:1 note's list of Hebrew differences, or point the note to the table.
 
 ### 10. Minor: missing variant at 105:27
@@ -81,13 +81,13 @@ Counts: **0 critical, 3 major, 22 minor.**
 - **Problem:** Hebrews is not yet on the site, so fresh renderings are allowed, but the same verse should read the same within one part.
 - **Fix:** Choose one rendering of each, built from `node tools/literal.js Heb 1:10-12` and `Heb 13:8`, and use it in both places.
 
-### 13. Minor: quotations from other Psalms parts are not in their Plain wording
+### 13. Minor: quotations from other Psalms parts are not in their Plain English Translation wording
 - **Location:**
   - notes.json 104:27 quotes Psalm 145:15–16 as "The eyes of all look hopefully to you ... what it wants" ("a fresh rendering").
   - notes.json 104:32 quotes Psalm 144:5 as "touch the mountains so they smoke."
   - variants.json 106:7 says Psalm 78:17 and 78:56 have Israel "rebelled against the Most High."
-- **Problem:** Part 138-150 has 145:15–16 as "All eyes wait in hope for you, / and you hand them their food when it is time. ... You open your hand / and fill every living thing with what it longs for." Psalm 144:5 reads "touch the mountains and make them smoke." Psalm 78:17 and 78:56 read "defying the Most High" and "tried God Most High and defied him." STYLE says to quote a book the site has already translated in its Plain. The build missed these because each is marked "a fresh rendering" or is too short.
-- **Fix:** Quote the site's Plain exactly.
+- **Problem:** Part 138-150 has 145:15–16 as "All eyes wait in hope for you, / and you hand them their food when it is time. ... You open your hand / and fill every living thing with what it longs for." Psalm 144:5 reads "touch the mountains and make them smoke." Psalm 78:17 and 78:56 read "defying the Most High" and "tried God Most High and defied him." STYLE says to quote a book the site has already translated in its Plain English Translation. The build missed these because each is marked "a fresh rendering" or is too short.
+- **Fix:** Quote the site's Plain English Translation exactly.
 
 ### 14. Minor: key verbs are rendered inconsistently within the part, hiding links the notes rely on
 - **Location:** plain.txt 104:7 and 105:14 against 106:9; plain.txt 106:7 against 105:28 and 106:33, 106:43.
@@ -96,9 +96,9 @@ Counts: **0 critical, 3 major, 22 minor.**
   - *Marah* is "defy" in 105:28, 106:33 and 106:43, and in the site's 78:17 and 78:56. In 106:7 it is "turned rebel," yet note 105:28 says "The verb *marah* returns at 106:7, 33 and 43."
 - **Fix:** At 106:9 use "He scolded the Sea of Reeds." At 106:7 use "and they defied him at the sea, at the Sea of Reeds," or a similar form with "defy." Then adjust the anchors of the variant and note at 106:7.
 
-### 15. Minor: the Psalm 104 summary reads Leviathan against the Plain
+### 15. Minor: the Psalm 104 summary reads Leviathan against the Plain English Translation
 - **Location:** chapters.json 104, `sum` ("ships and Leviathan, God's plaything").
-- **Problem:** The Plain says "which you shaped to sport in it" (in the sea). "God's plaything" is the Talmud's reading of *bo* as "with him" (Avodah Zarah 3b), which note 104:26 presents as one option. The summary states it as the meaning.
+- **Problem:** The Plain English Translation says "which you shaped to sport in it" (in the sea). "God's plaything" is the Talmud's reading of *bo* as "with him" (Avodah Zarah 3b), which note 104:26 presents as one option. The summary states it as the meaning.
 - **Fix:** "and Leviathan, made to play in it."
 
 ### 16. Minor: dates disagree within the part
@@ -134,12 +134,12 @@ Counts: **0 critical, 3 major, 22 minor.**
 
 ### 21. Minor: a section heading matches the ESV's wording
 - **Location:** plain.txt heading "## Your years have no end" (before 102:23).
-- **Problem:** This is the ESV's wording at 102:27, while the part's own Plain of 102:27 is "your years will never run out."
+- **Problem:** This is the ESV's wording at 102:27, while the part's own Plain English Translation of 102:27 is "your years will never run out."
 - **Fix:** "Your years never run out" or "Short days, endless years."
 
 ### 22. Minor: "wasting disease" at 106:15 is the shared NIV/ESV choice
 - **Location:** plain.txt 106:15.
-- **Problem:** *Razon* is "leanness, thinness." Both the NIV and the ESV say "a wasting disease," and the Plain takes the same two words and adds a phrase ("down their throats"). This is borderline, since the meaning is close, but the drift rule asks for a different form.
+- **Problem:** *Razon* is "leanness, thinness." Both the NIV and the ESV say "a wasting disease," and the Plain English Translation takes the same two words and adds a phrase ("down their throats"). This is borderline, since the meaning is close, but the drift rule asks for a different form.
 - **Fix:** For example, "but he sent a thinning sickness down their throats," and keep note 106:15.
 
 ### 23. Minor: a traditions card where churches barely differ; none where they do
@@ -168,7 +168,7 @@ Counts: **0 critical, 3 major, 22 minor.**
   - Ketubot 112a–b: Rabbi Hiyya bar Gamda rolls in the dust, citing 102:14.
   - Berakhot 10a: the five "Bless the LORD, my soul," and Beruriah at 104:35.
   - Berakhot 9b–10a: 103 chapters before Hallelujah, with Psalms 1 and 2 counted as one, consistent with part 001-017.
-  - Megillah 18a: 106:2 and "silence is praise," which matches the site's Plain of 65:1.
+  - Megillah 18a: 106:2 and "silence is praise," which matches the site's Plain English Translation of 65:1.
   - Sanhedrin 102a: the calf.
   - Avodah Zarah 3b: God plays with Leviathan.
   - Mekhilta: the tiqqune soferim list includes 106:20.
@@ -179,7 +179,7 @@ Counts: **0 critical, 3 major, 22 minor.**
   - Christian: Luther's table grace; Coverdale's "the iron entered into his soul."
 - **Greek readings confirmed** (Rahlfs, via sacred-texts.com): 103:5 "desire"; 103:14 μνήσθητι; 104:17 heron; 105:6 δοῦλοι; 105:22 παιδεῦσαι ... ὡς ἑαυτόν; 105:28 without "not"; 105:40 ᾔτησαν; 106:7 ἀναβαίνοντες; 106:15 πλησμονήν; 106:30 ἐξιλάσατο; 106:33 παρεπίκραναν τὸ πνεῦμα; 106:48 γένοιτο γένοιτο.
 - **Sources and church documents:** Day (2013) is a real chapter in Gillingham's volume. The Augustine eagle story (*Enarrationes* on Psalm 102), Galileo's letter and the Baronius saying, the Augsburg Confession 4, Trent session 6 chapters 8 and 10, and Westminster Confession 8.2 are correctly cited.
-- **1 Chronicles 16:** the Plain of 105:1–15 and of 106:1, 47–48 matches the site's Plain of 1 Chronicles 16 word for word except where the Hebrew differs.
+- **1 Chronicles 16:** the Plain English Translation of 105:1–15 and of 106:1, 47–48 matches the site's Plain English Translation of 1 Chronicles 16 word for word except where the Hebrew differs.
 - **Exodus 34:6 and Hebrew numbering:** note 103:7 and the chapter page quote Exodus 34:6 exactly. The Hebrew numbering note (102:0) appears once and is correct for 102 (+1), 103 (same) and 104–106 (no titles).
 - **Translation:** no NIV/ESV drift beyond findings 21 and 22. Wording that the Hebrew forces, such as "Seek the LORD and his strength" and "And let all the people say, 'Amen!'", is acceptable.
 
@@ -197,7 +197,7 @@ Counts: **0 critical, 3 major, 22 minor.**
 10. Fixed. New variant at 105:27: the Masoretic Text "they set" (followed), against the Greek "he set". The Syriac agreement is given as reported by Allen.
 11. Fixed. The Greek number is now the last sentence of the Psalm 103 summary.
 12. Fixed. One rendering of Hebrews 1:10–12 (the chapter's, built from literal.js Heb), quoted in part in note 102:25. One rendering of Hebrews 13:8 ("Jesus Christ, yesterday and today the same, and to the ages") in both places.
-13. Fixed. Psalm 145:15–16 and 144:5 are now quoted in the site's Plain. The 106:7 variant quotes Psalm 78:17 in the Plain. A script compared every quotation attributed to another psalm with the current plain.txt files. That caught Psalm 39:4 (now "LORD, show me my end") in the 102:23 variant. The other mismatches the script reported are false positives.
+13. Fixed. Psalm 145:15–16 and 144:5 are now quoted in the site's Plain English Translation. The 106:7 variant quotes Psalm 78:17 in the Plain English Translation. A script compared every quotation attributed to another psalm with the current plain.txt files. That caught Psalm 39:4 (now "LORD, show me my end") in the 102:23 variant. The other mismatches the script reported are false positives.
 14. Fixed. 106:9 is now "He scolded the Sea of Reeds" (as at 104:7). 106:7 is now "and they were defiant at the sea, at the Sea of Reeds". The anchors, the variant plains and the topic quotation are updated, and note 106:7 points to *marah* at 106:33 and 106:43.
 15. Fixed. The Psalm 104 summary now says "and Leviathan, made to play in it".
 16. Fixed. Akhenaten's dates are "about 1350–1334 BC" throughout, and Jerusalem's fall is "587 or 586 BC".

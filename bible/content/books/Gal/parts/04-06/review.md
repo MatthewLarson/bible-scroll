@@ -2,10 +2,10 @@
 
 ## Verdict
 
-The part is careful and mostly accurate. `node tools/build.js --check Gal/04-06` gives 0 errors and 0 warnings. Quotes of other books' Plain match exactly. All 8 settings are present and the 6 cards are fairly built. I found no invented source, fragment or reading. The weak points are these:
+The part is careful and mostly accurate. `node tools/build.js --check Gal/04-06` gives 0 errors and 0 warnings. Quotes of other books' Plain English Translation match exactly. All 8 settings are present and the 6 cards are fairly built. I found no invented source, fragment or reading. The weak points are these:
 
 - The word "child" is used for three Greek words (`nepios`, `huios`, `tekna`), which damages the logic of 4:1-7. It also clashes with "sons" at 3:26 in part 01-03.
-- Three Plain renderings are doubtful (4:13, 5:15, 6:14).
+- Three Plain English Translation renderings are doubtful (4:13, 5:15, 6:14).
 - One variant explanation is plainly wrong (6:2).
 - One classical citation does not say what it is cited for (Strabo 12.5.3).
 - The 4:25 omission is thinly sourced.
@@ -20,8 +20,8 @@ Findings: 0 critical, 7 major, 21 minor. Items marked "(web)" were checked on th
 ### 1. Major. plain.txt 4:1, 4:3, 4:5-7 (and 3:26 in part 01-03): "child" renders `nepios`, `huios` and `tekna`; part 01-03 still says "sons"
 - 4:1 and 4:3 render *nēpios* (minor, infant) as "child". 4:6-7 render *huios* (son) as "child".
 - The English therefore reads: "the heir is a child… no better off than a slave" (4:1), then "You are no slave anymore. You are a child" (4:7). Paul's contrast is *nēpios* (a minor, like a slave) versus *huios* (a son with full standing). In English the two verses contradict each other.
-- Part 01-03 renders 3:26 as "For you are all sons of God". The 4:6 note claims "the Plain follows its rule" of "children". The rule is not applied across the book.
-- 4:22 and 4:30 use "son" for *huios*, so the Plain is not even consistent inside this chapter.
+- Part 01-03 renders 3:26 as "For you are all sons of God". The 4:6 note claims "the Plain English Translation follows its rule" of "children". The rule is not applied across the book.
+- 4:22 and 4:30 use "son" for *huios*, so the Plain English Translation is not even consistent inside this chapter.
 - Fix:
   - Render *nēpios* as "minor" or "underage child" at 4:1 and 4:3.
   - Keep "children of God" for *huioi* at 4:6-7, with a note on the heir-vs-minor contrast.
@@ -29,12 +29,12 @@ Findings: 0 critical, 7 major, 21 minor. Items marked "(web)" were checked on th
 
 ### 2. Major. plain.txt 4:13, notes.json 4:13: `di' astheneian` translated "in a weakness"; note says "can mean ... 'during'"
 - δι᾽ ἀσθένειαν takes the accusative, which means "because of". "During" is the genitive sense of *dia*.
-- The Plain's "it was in a weakness of the flesh that I first told you" removes the causal reading: the illness occasioned the preaching. That is the reading that makes Ramsay's malaria theory and the South Galatian link the note itself discusses meaningful.
+- The Plain English Translation's "it was in a weakness of the flesh that I first told you" removes the causal reading: the illness occasioned the preaching. That is the reading that makes Ramsay's malaria theory and the South Galatian link the note itself discusses meaningful.
 - Fix: translate "because of a weakness of my body". Delete or correct the "during" claim in the note. If the "in/amid" reading is wanted, cite who holds it.
 
 ### 3. Major. plain.txt 5:15: conditional turned into an imperative
 - Greek: εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε, βλέπετε. This is "But if you bite and devour one another, watch out."
-- The Plain gives "Keep biting and devouring one another, and take care". That is an invented command. No sarcastic imperative is in the Greek.
+- The Plain English Translation gives "Keep biting and devouring one another, and take care". That is an invented command. No sarcastic imperative is in the Greek.
 - Fix: "But if you keep biting and devouring one another, take care: you may be destroyed by each other."
 
 ### 4. Major. notes.json 5:12 (and 4:8); sources `strabo-geography`: Strabo 12.5.3 cited for the self-castrating *galli*
@@ -191,7 +191,7 @@ Findings: 0 critical, 7 major, 21 minor. Items marked "(web)" were checked on th
 - No change required beyond a drift check by the fixer.
 
 ### 32. Mechanics
-- notes.json 4:4: the note builds a case on *ginomai* vs *gennaō*, but the Plain uses "born" for both (4:4, 4:23, 4:29).
+- notes.json 4:4: the note builds a case on *ginomai* vs *gennaō*, but the Plain English Translation uses "born" for both (4:4, 4:23, 4:29).
 - Add "(the Greek differs)" in the note or in a gloss.
 
 ### 33. Other checked items (no change needed)
@@ -210,7 +210,7 @@ Findings: 0 critical, 7 major, 21 minor. Items marked "(web)" were checked on th
   - Catechism 422 and 488; Trent session 6 ch. 15 and canon 28; CCC 1861, 1264, 2515-2516.
   - WCF 13.2, 17, 21.7-8; Augsburg XII.
   - Wesley's 1751 tract and the sermon "On Sin in Believers".
-- The 5:21 decision (Plain omits "murders", with the Tyndale House reading shown) is fairly stated.
+- The 5:21 decision (Plain English Translation omits "murders", with the Tyndale House reading shown) is fairly stated.
 - Hardin on the imperial calendar and Betz on the proverb of the eyes: the attributions are fair.
 
 ---
@@ -250,7 +250,7 @@ Fixes applied 2026-10-29 (review-fixer; lead decisions on nepios/huios/teknon, 4
 29. Accepted. The 6:13 why rewritten: it lists which editions print which reading, says Metzger's reported early support for the perfect was not rechecked, drops the "harder reading" argument and calls it a close call.
 30. Accepted. New elements-of-the-world contribution added; the spiritual-powers entry now says "one of several readings"; the-collection entry retitled "A possible echo" and hedged.
 31. Drift reviewed, no change. 4:12 is near-literal; 5:1 differs in wording from the common versions.
-32. Accepted. 4:4 note says the Plain uses "born" for both ginomai and gennao.
+32. Accepted. 4:4 note says the Plain English Translation uses "born" for both ginomai and gennao.
 33. No change needed.
 
 ## Verification pass (2026-10-29)

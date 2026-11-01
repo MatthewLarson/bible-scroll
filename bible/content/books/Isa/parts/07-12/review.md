@@ -2,9 +2,9 @@
 
 ## Verdict
 
-This is a strong part. The Plain is rebuilt from the Hebrew, line by line. It keeps Isaiah's wordplays (7:9; 9:1 "made light ... give weight"; 10:21 Shear-jashub) and follows the site's terms: the LORD of Armies, Sheol, ghosts of the dead / spirits that know things, teaching for torah, worthless idols, Woe to, the Lord GOD says this, Daughter Zion, deep shadow and loyal love. It also matches the site's earlier Plain where the Hebrew is the same: 2 Kings 19:31 = 9:7b, Exodus 15:2 = 12:2, Psalm 105:1 = 12:4, the 5:25 refrain, and 65:25. NIV/ESV drift is low, even in 9:2–7 and 11:1–9. Almost every shared phrase is forced by the Hebrew. I checked the scroll readings in variants.json against dss.py and the Greek against Swete, and nearly all of them are right. There is a settings card for every oracle, sign and song, and the cards name the hearers well: Ahaz and his court at the channel, the house of David, the prophet's circle, the north, Assyria addressed but Judah hearing. `build.js --check Isa/07-12` gives 0 errors and 0 warnings.
+This is a strong part. The Plain English Translation is rebuilt from the Hebrew, line by line. It keeps Isaiah's wordplays (7:9; 9:1 "made light ... give weight"; 10:21 Shear-jashub) and follows the site's terms: the LORD of Armies, Sheol, ghosts of the dead / spirits that know things, teaching for torah, worthless idols, Woe to, the Lord GOD says this, Daughter Zion, deep shadow and loyal love. It also matches the site's earlier Plain English Translation where the Hebrew is the same: 2 Kings 19:31 = 9:7b, Exodus 15:2 = 12:2, Psalm 105:1 = 12:4, the 5:25 refrain, and 65:25. NIV/ESV drift is low, even in 9:2–7 and 11:1–9. Almost every shared phrase is forced by the Hebrew. I checked the scroll readings in variants.json against dss.py and the Greek against Swete, and nearly all of them are right. There is a settings card for every oracle, sign and song, and the cards name the hearers well: Ahaz and his court at the channel, the house of David, the prophet's circle, the north, Assyria addressed but Judah hearing. `build.js --check Isa/07-12` gives 0 errors and 0 warnings.
 
-The weak points are in the places the brief singled out. (1) The 7:14 word note says something false and one-sided: that most modern translations "and many evangelical study notes" put "young woman" in the text. The note also leaves out the strongest arguments on each side. (2) The 7:14 "Where Christians differ" card shows no real conflict between churches. (3) The millennium card leaves out the postmillennial reading, for which 11:9 is the classic proof text. (4) One line of the Plain (10:5) is garbled. (5) The Great Isaiah Scroll's different verb at 9:6 ("and he will call") is not recorded, even though the note on who names the child depends on that verb. The rest are minor accuracy, sourcing and consistency fixes. Nothing is invented, and no source is fake.
+The weak points are in the places the brief singled out. (1) The 7:14 word note says something false and one-sided: that most modern translations "and many evangelical study notes" put "young woman" in the text. The note also leaves out the strongest arguments on each side. (2) The 7:14 "Where Christians differ" card shows no real conflict between churches. (3) The millennium card leaves out the postmillennial reading, for which 11:9 is the classic proof text. (4) One line of the Plain English Translation (10:5) is garbled. (5) The Great Isaiah Scroll's different verb at 9:6 ("and he will call") is not recorded, even though the note on who names the child depends on that verb. The rest are minor accuracy, sourcing and consistency fixes. Nothing is invented, and no source is fake.
 
 Counts: **0 critical, 5 major, 27 minor.**
 
@@ -40,21 +40,21 @@ Counts: **0 critical, 5 major, 27 minor.**
 - *Fix.* Split the Reformed answer into amillennial (Hoekema) and postmillennial (Boettner or Warfield, with a source key). Or add an Evangelical entry for historic premillennialism (Ladd). Change "most" to "many".
 
 **4. Major — plain.txt 10:5: the line is garbled and mistranslated.**
-- The Plain says "the stick in whose hand is my rage!". Read as written, the stick has a hand.
+- The Plain English Translation says "the stick in whose hand is my rage!". Read as written, the stick has a hand.
 - The Hebrew is *umatteh-hu' veyadam za'mi*, "and the staff in their hand is my fury" (or, keeping *hu'*, "it is a staff; my fury is in their hand").
-- The Plain's shape ("..., in whose hand is ...") is also the NIV's distinctive structure for this verse.
+- The Plain English Translation's shape ("..., in whose hand is ...") is also the NIV's distinctive structure for this verse.
 - *Fix.* For example: "Woe to Assyria, the rod of my anger! / The stick in their hand is my rage." Add a short `deb` note on the awkward *hu'*, which many take as a gloss.
 
-**5. Major — 9:6 "His name is called": the Great Isaiah Scroll's reading is missing, and the Plain's choice is not explained.**
+**5. Major — 9:6 "His name is called": the Great Isaiah Scroll's reading is missing, and the Plain English Translation's choice is not explained.**
 - MT has *vayyiqra' shemo*, an active past form: "and he (or one) called his name". 1QIsa-a has וקרא, *veqara'*, "and he will call". dss.py marks this as a waw/yod difference, but it is a different verb form. 4QIsa-c has ויקרא, as MT does.
-- The Plain's "His name is called" is a present passive. That matches the Greek *kaleitai* and the KJV's passive, not the Hebrew. The fact matters, because the Jewish reading in the 9:6 note (Rashi: God names the child) depends on the active verb.
-- *Fix.* Add a variant at "His name is called" with three readings: MT (wayyiqtol "and he called"), 1QIsa-a (*veqara'*, "and he will call") and the Greek (passive). Or at least add a sentence to the 9:6 "Names of the king, or names of God?" note saying the Plain uses the passive, as the Greek and KJV do, to leave the subject open, and noting the scroll's future. Consider "and his name has been called" or "and he has named him".
+- The Plain English Translation's "His name is called" is a present passive. That matches the Greek *kaleitai* and the KJV's passive, not the Hebrew. The fact matters, because the Jewish reading in the 9:6 note (Rashi: God names the child) depends on the active verb.
+- *Fix.* Add a variant at "His name is called" with three readings: MT (wayyiqtol "and he called"), 1QIsa-a (*veqara'*, "and he will call") and the Greek (passive). Or at least add a sentence to the 9:6 "Names of the king, or names of God?" note saying the Plain English Translation uses the passive, as the Greek and KJV do, to leave the subject open, and noting the scroll's future. Consider "and his name has been called" or "and he has named him".
 
 ### Minor
 
-**6. Minor — plain.txt 9:2: a near-match with the NIV.** The NIV's first line differs from the Plain's only in "darkness" for "the dark". The Hebrew forces most of the line (*ha'am haholekhim bachoshekh ra'u 'or gadol*). Still, this is the most familiar line in the part, and the brief asked for honesty in the drift audit. Log it, and consider "The people who walk in the dark / have seen a great light", which is closer to the article and participle.
+**6. Minor — plain.txt 9:2: a near-match with the NIV.** The NIV's first line differs from the Plain English Translation's only in "darkness" for "the dark". The Hebrew forces most of the line (*ha'am haholekhim bachoshekh ra'u 'or gadol*). Still, this is the most familiar line in the part, and the brief asked for honesty in the drift audit. Log it, and consider "The people who walk in the dark / have seen a great light", which is closer to the article and participle.
 
-**7. Minor — plain.txt 9:4–5: two "for"s are dropped.** The poem gives three reasons, each opening with *ki*: "For the yoke ... (9:4), for every boot ... (9:5), for a child ... (9:6)". The Plain keeps only the third, so the chain that grounds the joy of 9:3 is lost. Restore "For" at 9:4 and 9:5.
+**7. Minor — plain.txt 9:4–5: two "for"s are dropped.** The poem gives three reasons, each opening with *ki*: "For the yoke ... (9:4), for every boot ... (9:5), for a child ... (9:6)". The Plain English Translation keeps only the third, so the chain that grounds the joy of 9:3 is lost. Restore "For" at 9:4 and 9:5.
 
 **8. Minor — notes.json 7:4 "Remaliah's son" (A king without a name): a factual slip.** The note says "Isaiah never calls Pekah by his name". But 7:1 has "Pekah son of Remaliah". *Fix.* "In the speeches Isaiah never names Pekah."
 
@@ -64,7 +64,7 @@ Counts: **0 critical, 5 major, 27 minor.**
 
 **11. Minor — notes.json 7:14 "is pregnant and about to have a son": two inaccuracies.**
 - "As most modern versions do" is not right. The NIV, ESV, NASB, CSB and NLT all have a future tense, and so do the KJV and Matthew. "Is pregnant" / "is with child" is the reading of the NRSV, NJPS, NABRE and CEB. Say "as many modern versions do".
-- The note gives Matthew 1:23 as "will conceive", but the site's Matthew Plain says "will be pregnant" (ἐν γαστρὶ ἕξει). Swete's Vaticanus has λήμψεται, "will conceive". Name each correctly.
+- The note gives Matthew 1:23 as "will conceive", but the site's Matthew Plain English Translation says "will be pregnant" (ἐν γαστρὶ ἕξει). Swete's Vaticanus has λήμψεται, "will conceive". Name each correctly.
 
 **12. Minor — variants.json 7:14 "the young woman": Symmachus is missing.** The third reading's witness reads "Aquila and Theodotion, reported by Irenaeus". Symmachus also has νεᾶνις, as reported by Eusebius and by Jerome on Isaiah 7:14, and the brief names all three. *Fix.* "Aquila, Symmachus and Theodotion (Aquila and Theodotion reported by Irenaeus, Against Heresies 3.21.1; all three by Jerome, Commentary on Isaiah, on 7:14)". Change "Jewish translators (Aquila, Theodotion)" in `b` to match.
 
@@ -86,11 +86,11 @@ Counts: **0 critical, 5 major, 27 minor.**
 - Cahn does not rest his case on Senator Daschle's quotation of 9:10 on September 12, 2001, which is accurate. He rests it on a premise (America, like Israel, founded in covenant with God) and on a series of "harbingers" (fallen bricks, the felled sycamore at Ground Zero, its replacement tree, the cornerstone). Say "because, he argues, America was founded in covenant like Israel, and events after 9/11 matched the verse's details", so his view is stated in its strongest form.
 - The claim "Most interpreters, including many evangelicals, answer..." has only `oswalt-isaiah1` (1986) behind it, which predates the book. Add a source for the evangelical response, or drop "many evangelicals".
 
-**19. Minor — chapters.json ch. 12 sum: contradicts the Plain.** The summary says "The singer thanks the LORD because his anger has turned and he has comforted". The Plain follows the Masoretic jussive, "now let your anger turn back, and comfort me", which is a wish, as the 12:1 note and variant explain. *Fix.* "...thanks the LORD and asks that his anger turn back and give way to comfort."
+**19. Minor — chapters.json ch. 12 sum: contradicts the Plain English Translation.** The summary says "The singer thanks the LORD because his anger has turned and he has comforted". The Plain English Translation follows the Masoretic jussive, "now let your anger turn back, and comfort me", which is a wish, as the 12:1 note and variant explain. *Fix.* "...thanks the LORD and asks that his anger turn back and give way to comfort."
 
-**20. Minor — plain.txt 11:12: grammatical gender is sharpened into the text.** "the men of Israel ... the scattered women of Judah" renders the masculine *nidche* and the feminine *nefutsot* as men and women. The note itself says the pair is a merism for the whole people. Putting "men" and "women" in the Plain makes readers think Judah's exiles were women. *Fix.* "gather in Israel's outcasts; / Judah's scattered ones he will collect", and keep the note.
+**20. Minor — plain.txt 11:12: grammatical gender is sharpened into the text.** "the men of Israel ... the scattered women of Judah" renders the masculine *nidche* and the feminine *nefutsot* as men and women. The note itself says the pair is a merism for the whole people. Putting "men" and "women" in the Plain English Translation makes readers think Judah's exiles were women. *Fix.* "gather in Israel's outcasts; / Judah's scattered ones he will collect", and keep the note.
 
-**21. Minor — plain.txt 11:11 "to buy back": adds "back".** *Qanah* is "acquire, get, make one's own". The note cites Exodus 15:16, where the site's Plain has "you have made your own". "Buy back" brings in redemption language (*ga'al*, *padah*) that the verse does not use. *Fix.* "to win back" is still interpretive; better "to acquire" or "to make his own the remnant", matching Exodus 15:16.
+**21. Minor — plain.txt 11:11 "to buy back": adds "back".** *Qanah* is "acquire, get, make one's own". The note cites Exodus 15:16, where the site's Plain English Translation has "you have made your own". "Buy back" brings in redemption language (*ga'al*, *padah*) that the verse does not use. *Fix.* "to win back" is still interpretive; better "to acquire" or "to make his own the remnant", matching Exodus 15:16.
 
 **22. Minor — plain.txt 8:12: awkward word order.** "do not you cry 'Conspiracy!'" is not modern American English. Use "you must not cry 'Conspiracy!'". The verb is plural, so "you" is the prophet's circle.
 
@@ -127,33 +127,33 @@ Add an entry only where you judge the meaning changes. 9:7 is the strongest case
 
 ## Fixes applied
 
-I checked every finding against dss.py, Swete's Greek (lxx.py), the site's Plain and the sources before changing anything.
+I checked every finding against dss.py, Swete's Greek (lxx.py), the site's Plain English Translation and the sources before changing anything.
 
 **Major**
 1. 7:14 'almah. The note is now two notes. The word note gives the meaning and uses, and states the translation split accurately: the NIV, ESV, NASB, CSB, NKJV and NLT put "virgin" in the text, with "young woman" in a footnote in the NIV and ESV; the RSV, NRSV, NABRE, NJPS, REB, CEB and NET put "young woman" in the text. The claim about "study notes" is gone. A new views note ("Virgin" or "young woman": the arguments) gives each side its standard points. For "virgin": *betulah* is not technical (Joel 1:8; Genesis 24:16 has to add that no man had been with her; Wenham); Rebekah is both *betulah* and *'almah*; Song 6:8; the Greek *parthenos*; the sign "down in Sheol". For "young woman": age, not virginity; the present adjective *harah*; Dinah as *parthenos* (Genesis 34:3); Aquila, Symmachus and Theodotion all have *neanis*; the cognate *glmt*; the time-sign of 7:16. The neutral *betulah* sentence moved into the argument. Added the key wenham-betulah.
 2. 7:14 traditions card: dropped, per the lead decision. The deep section stays; its pointer to the card now points to the notes and variants.
 3. Millennium card: the Reformed answer now says "Many Reformed teachers are amillennial" (Hoekema). Added a postmillennial Reformed answer (Edwards, Hodge, Boettner; new key boettner-millennium, existing hodge-systematic) and an Evangelical historic-premillennial answer (Ladd, ladd-hope).
 4. 10:5 rebuilt from the literal line, keeping *hu'*: "Woe to Assyria, the rod of my anger! / It is a stick, and my rage is in their hand." I did not use the suggested "The stick in their hand is my rage": it drops *hu'* and is close to a common published rendering. Added a deb note on the awkward *hu'* that gives the gloss view, the 1QIsa-a agreement with MT, and the Greek, which has no staff.
-5. 9:6, per the lead decision. The Plain now follows the active *vayyiqra'*: "He has named him / Wonder-Counselor, ...". New variant with three readings: MT and 4QIsa-c (4Q57, whose ויקרא is preserved) "he called"; 1QIsa-a *veqara'* "he will call"; the Greek and KJV passive. The note was rewritten as "Who names the child?".
+5. 9:6, per the lead decision. The Plain English Translation now follows the active *vayyiqra'*: "He has named him / Wonder-Counselor, ...". New variant with three readings: MT and 4QIsa-c (4Q57, whose ויקרא is preserved) "he called"; 1QIsa-a *veqara'* "he will call"; the Greek and KJV passive. The note was rewritten as "Who names the child?".
 
 **Minor**
-6. 9:2 not changed; I disagree. The line is forced by the Hebrew order (article + participle + "have seen a great light"). The suggested "The people who walk in the dark" is no further from common renderings. The Matthew 01-04 note quotes the current Plain. The audit now logs the line as "kept part" with this reason.
+6. 9:2 not changed; I disagree. The line is forced by the Hebrew order (article + participle + "have seen a great light"). The suggested "The people who walk in the dark" is no further from common renderings. The Matthew 01-04 note quotes the current Plain English Translation. The audit now logs the line as "kept part" with this reason.
 7. "For" restored at 9:4 and 9:5. The 9:5 note anchor was updated.
 8. 7:4 now says "In the speeches Isaiah never names Pekah ... only the narrator gives his name (7:1)."
 9. 8:8 fixed. dss.py shows עמנואל as one word in 1QIsa-a and 4Q59 (4QIsa-e); the note now calls it a name and says the Greek translates it as a sentence.
 10. 9:2 note now says Matthew is mixed. Swete prints ἐν χώρᾳ σκιᾷ θανάτου without καί; Rahlfs and Ziegler have "and", as the reviewer reports.
-11. 7:14 "is pregnant" note: "many modern versions (NRSV, NJPS, NABRE, CEB)". The future-tense versions are named, with Swete's λήμψεται "will conceive" and Matthew's "will be pregnant" (the site's Matthew Plain).
+11. 7:14 "is pregnant" note: "many modern versions (NRSV, NJPS, NABRE, CEB)". The future-tense versions are named, with Swete's λήμψεται "will conceive" and Matthew's "will be pregnant" (the site's Matthew Plain English Translation).
 12. Symmachus added to the 7:14 variant (with Jerome's commentary as source) and to its body. The virgin-birth topic text was changed to match.
 13. 4Q57 removed from the 10:32 witness list (dss.py shows [בת], restored). The 9:6 names variant now says "4QIsa-c (4Q57), in part".
 14. Added the key djd15-prophets (DJD 15, 1997) and cited it for 4QIsa-c in the 11:9 variant and note. djd32 stays for the 1QIsa-a remarks.
-15. 9:20 note now gives the witnesses before the emendation: 1QIsa-a זרועו "his arm" and the Greek "of his arm" agree with MT; 4Q59 has זרעיו ("his offspring" or "his arms"). The anchor quote was corrected to the Plain ("Every man eats ...").
+15. 9:20 note now gives the witnesses before the emendation: 1QIsa-a זרועו "his arm" and the Greek "of his arm" agree with MT; 4Q59 has זרעיו ("his offspring" or "his arms"). The anchor quote was corrected to the Plain English Translation ("Every man eats ...").
 16. 8:21 note: 1QIsa-a ובאלוהו, singular "his God", added.
 17. Seven-gifts card. Catholic now cites CCC 1266 and 1303. The Pentecostal answer no longer makes an unsourced claim about Isaiah 11:2.
 18. 9:10 note: *The Harbinger* is called a novel. Cahn's case is stated in its strongest form (covenant premise; the fallen bricks, the sycamore, the replacement tree, the quarried stone, the Senate speech). "Most interpreters, including many evangelicals" is replaced by an unattributed statement of the verse's setting; oswalt-isaiah1 is replaced by williamson-isaiah6-12.
-19. Ch. 12 summary now gives the wish, as the Plain does.
-20. 11:12 Plain: "and gather in Israel's outcasts; / Judah's scattered ones he will collect". The note was rewritten (anchor "Judah's scattered ones").
-21. 11:11 Plain: "to claim as his own the remnant" (qanah, as in the Plain of Exodus 15:16). The 11:11 note and the exodus-pattern topic text were updated.
-22. 8:12 Plain: "you must not cry 'Conspiracy!'".
+19. Ch. 12 summary now gives the wish, as the Plain English Translation does.
+20. 11:12 Plain English Translation: "and gather in Israel's outcasts; / Judah's scattered ones he will collect". The note was rewritten (anchor "Judah's scattered ones").
+21. 11:11 Plain English Translation: "to claim as his own the remnant" (qanah, as in the Plain English Translation of Exodus 15:16). The 11:11 note and the exodus-pattern topic text were updated.
+22. 8:12 Plain English Translation: "you must not cry 'Conspiracy!'".
 23. 9:7 note and ch. 9 deep section now both say the scroll writes the word as two words, *lm rbh*, with an ordinary mem. dss.py (ETCBC joins the word) shows an ordinary mem; the division into two words I confirmed in a published description of the scroll.
 24. 11:2 echo note: "God gave Solomon ...".
 25. 12:3 note: "The celebration's name".
@@ -163,6 +163,6 @@ I checked every finding against dss.py, Swete's Greek (lxx.py), the site's Plain
 29. "Syro-Ephraimite war" removed from the aliases of ahaz.json.
 30. Settings. New card for 10:1–4 in ch. 10, with the hearers and both views. The 9:8–10:4 card's `to` now names the lawmakers and scribes of the last stanza. The 8:16–22 `to` is corrected.
 31. Ch. 7 views.J names the *Nizzahon Vetus* and Isaac of Troki's *Chizzuk Emunah*. The keys berger-nizzahon (new) and troki-chizzuk (existing) are added to the 7:10–17 settings card.
-32. Optional 1QIsa-a readings. Added a variant at 9:7 ("He will make it firm and hold it up": 1QIsa-a אותו ולסעדו "him"; 4Q57 has MT's אתה ולסעדה). I left 7:2 (lacks "his heart and"), 8:9 (the repeated line written once, probably haplography) and 9:21 (adds "devoured", which the Plain's "feeds on" already implies) without entries: the meaning hardly changes.
+32. Optional 1QIsa-a readings. Added a variant at 9:7 ("He will make it firm and hold it up": 1QIsa-a אותו ולסעדו "him"; 4Q57 has MT's אתה ולסעדה). I left 7:2 (lacks "his heart and"), 8:9 (the repeated line written once, probably haplography) and 9:21 (adds "devoured", which the Plain English Translation's "feeds on" already implies) without entries: the meaning hardly changes.
 
 Result: 129 notes, 17 variants, 53 glosses, 6 chapter pages (2 traditions cards), 15 topic contributions. `VERBOSE=1 node tools/build.js --check Isa/07-12` shows no errors or warnings in this part. It does report 2 errors in topics/new-covenant.json (an alias collision with `covenant`), which is not a file this part owns.

@@ -2,7 +2,7 @@
 
 ## Verdict
 
-This is a strong part. The Plain English follows the Masoretic Text closely across all 223 verses: names, numbers, Ketiv/Qere choices and who-does-what check out against `literal.js`, chapters 1–2 agree with the 1 Kings Plain (Elijah's "cloak", "Elijah the Tishbite", "the LORD's Spirit will carry you off", "day-by-day records", "lay down with his ancestors", "City of David"), and the hard texts (the fifties, the bears, Mesha's sacrifice and the "wrath", the cannibal mothers, the miracles) are handled fairly, soberly and with Claude's theories clearly labeled. The weak spot is the Greek. A check of the Rahlfs text (sacred-texts.com) and Brenton (blueletterbible.org) shows that the variants file misses four real Septuagint differences that a careful reader should know: the failed first strike at 2:14, the missing synchronism at 1:17, Elisha bowing seven times instead of the boy sneezing at 4:35, and "fifty" for "eighty" at 6:25. It also names the wrong witness at 8:16: Vaticanus/Rahlfs *lacks* "Jehoshaphat being king of Judah". There are also a few factual slips: a wrong Hebrew parallel at 2:8, Philip for Andrew in John 6:9, the haftarot in book.json, and the Talmud passage on Naaman in Rimmon's house. I found nothing copied from the NIV or ESV, only a handful of small phrasing matches. `node tools/build.js --check 2Ki/01-08` gives 0 errors and 1 warning (finding 23). Findings: 0 critical, 8 major, 22 minor.
+This is a strong part. The Plain English Translation follows the Masoretic Text closely across all 223 verses: names, numbers, Ketiv/Qere choices and who-does-what check out against `literal.js`, chapters 1–2 agree with the 1 Kings Plain English Translation (Elijah's "cloak", "Elijah the Tishbite", "the LORD's Spirit will carry you off", "day-by-day records", "lay down with his ancestors", "City of David"), and the hard texts (the fifties, the bears, Mesha's sacrifice and the "wrath", the cannibal mothers, the miracles) are handled fairly, soberly and with Claude's theories clearly labeled. The weak spot is the Greek. A check of the Rahlfs text (sacred-texts.com) and Brenton (blueletterbible.org) shows that the variants file misses four real Septuagint differences that a careful reader should know: the failed first strike at 2:14, the missing synchronism at 1:17, Elisha bowing seven times instead of the boy sneezing at 4:35, and "fifty" for "eighty" at 6:25. It also names the wrong witness at 8:16: Vaticanus/Rahlfs *lacks* "Jehoshaphat being king of Judah". There are also a few factual slips: a wrong Hebrew parallel at 2:8, Philip for Andrew in John 6:9, the haftarot in book.json, and the Talmud passage on Naaman in Rimmon's house. I found nothing copied from the NIV or ESV, only a handful of small phrasing matches. `node tools/build.js --check 2Ki/01-08` gives 0 errors and 1 warning (finding 23). Findings: 0 critical, 8 major, 22 minor.
 
 ## Findings
 
@@ -64,7 +64,7 @@ This is a strong part. The Plain English follows the Masoretic Text closely acro
 None of these is copying, but each could be built more directly from the Hebrew:
 - **4:16** "holding a son in your arms": NIV has "hold a son in your arms". The Hebrew is *chobeqet ben*, "embracing a son".
 - **5:10** "Go and bathe in the Jordan seven times": this is the ESV's order. The Hebrew order is "wash seven times in the Jordan".
-- **5:18** "may the LORD pardon your servant" with "this one thing": ESV "pardon" plus NIV "one thing". "Leans on my arm" also matches both, though the Hebrew is "on my hand". The Plain itself says "hand" in 7:2 and 7:17.
+- **5:18** "may the LORD pardon your servant" with "this one thing": ESV "pardon" plus NIV "one thing". "Leans on my arm" also matches both, though the Hebrew is "on my hand". The Plain English Translation itself says "hand" in 7:2 and 7:17.
 - **5:20** "gone easy on Naaman": NIV has "too easy on Naaman". The Hebrew *chasakh* means "held back, spared".
 - **6:28** "and tomorrow we'll eat my son" follows the NIV's order. The Hebrew order is "and my son we will eat tomorrow".
 - **6:33** "this trouble comes from the LORD": ESV has "This trouble is from the LORD".
@@ -72,10 +72,10 @@ None of these is copying, but each could be built more directly from the Hebrew:
 
 ### 12. Minor: translation details
 - **3:22** "Early the next morning": "next" is added. The Hebrew is *vayyashkimu vabboqer*, "they rose early in the morning", and the water came "in the morning" in 3:20.
-- **6:6** "the iron floated up": the Hebrew is hiphil *vayyatsef ha-barzel*, "he made the iron float". Note #105 says so itself, but the Plain drops Elisha's agency.
+- **6:6** "the iron floated up": the Hebrew is hiphil *vayyatsef ha-barzel*, "he made the iron float". Note #105 says so itself, but the Plain English Translation drops Elisha's agency.
 - **2:20** "a new jar": *tselochit* is a bowl or dish (compare 21:13, "wipe... as one wipes a dish"). The `jericho` topic says "bowl".
 - **1:2** "lay hurt": the Hebrew is *vayyachal*, "became sick". Note #1 stresses that the text says only that. The 1:2 gloss "badly hurt" then claims what the note denies.
-- **3:13** "What do you and I have to do with each other?": the same idiom is "what is there between you and me?" in the 1 Kings Plain at 17:18, which note #43 cites. Use one rendering for the idiom.
+- **3:13** "What do you and I have to do with each other?": the same idiom is "what is there between you and me?" in the 1 Kings Plain English Translation at 17:18, which note #43 cites. Use one rendering for the idiom.
 - **Fix:** As above.
 
 ### 13. Minor: notes.json #35 says the Greek of 3:2 adds "broke them"
@@ -123,13 +123,13 @@ None of these is copying, but each could be built more directly from the Hebrew:
 - **#139:** "Some Jewish readers think Gehazi later repented" has no source. The best-known tradition (Bavli Sotah 47a; Sanhedrin 107b) says Elisha went to Damascus to bring Gehazi back and he would not repent.
 - **Fix:** Correct or source each of these.
 
-### 22. Minor: quotations that do not match the site's Plain
+### 22. Minor: quotations that do not match the site's Plain English Translation
 The build does not catch these, because the format is not "quote" (reference):
-- **#27:** "no one will miscarry" (Exodus 23:26). The Plain reads "no woman will lose her young or be unable to bear".
-- **#94:** "from a thread to a sandal strap" (Genesis 14:23). The Plain reads "not a thread, not a sandal strap".
-- **#110:** "God's camp" (Genesis 32:1–2). The Plain reads "a camp of God".
-- **#128:** "must live alone, outside the camp" (Leviticus 13:46). The Plain reads "He is to live alone, and his home is to be outside the camp".
-- **Fix:** Use the Plain wording. Every other quotation I checked against Genesis, Exodus, Leviticus, Deuteronomy, Joshua, Ruth, 1–2 Samuel and 1 Kings matches. Quotations from books not yet translated are correctly marked "fresh rendering", except #109 (Romans 8:31; 1 John 4:4) and the ch1 deep quotation of Luke 9:54. Mark those too.
+- **#27:** "no one will miscarry" (Exodus 23:26). The Plain English Translation reads "no woman will lose her young or be unable to bear".
+- **#94:** "from a thread to a sandal strap" (Genesis 14:23). The Plain English Translation reads "not a thread, not a sandal strap".
+- **#110:** "God's camp" (Genesis 32:1–2). The Plain English Translation reads "a camp of God".
+- **#128:** "must live alone, outside the camp" (Leviticus 13:46). The Plain English Translation reads "He is to live alone, and his home is to be outside the camp".
+- **Fix:** Use the Plain English Translation wording. Every other quotation I checked against Genesis, Exodus, Leviticus, Deuteronomy, Joshua, Ruth, 1–2 Samuel and 1 Kings matches. Quotations from books not yet translated are correctly marked "fresh rendering", except #109 (Romans 8:31; 1 John 4:4) and the ch1 deep quotation of Luke 9:54. Mark those too.
 
 ### 23. Minor: build warning in chapters.json ch8, deep "Kings and Chronicles"
 - **Problem:** "was his counselor in doing evil" (22:3) parses as 2 Kings 22:3.
@@ -175,7 +175,7 @@ The build does not catch these, because the format is not "quote" (reference):
 
 ## Fixes applied
 
-1. **2:14:** the variant now gives the Vaticanus (Rahlfs) plus: a first strike that fails, then "Where is the God of Elijah, aphpho?" without "LORD". The `why` explains that the Plain keeps the shorter Hebrew and that the plus may explain the doubled "he struck". The Lucianic text is marked as not checked. Note "Not doubt but appeal" now mentions the Greek.
+1. **2:14:** the variant now gives the Vaticanus (Rahlfs) plus: a first strike that fails, then "Where is the God of Elijah, aphpho?" without "LORD". The `why` explains that the Plain English Translation keeps the shorter Hebrew and that the plus may explain the doubled "he struck". The Lucianic text is marked as not checked. Note "Not doubt but appeal" now mentions the Greek.
 2. **1:17:** new variant. The MT is followed; Vaticanus ends the verse at Elijah's word (`plain` is empty). The 1:18 variant now says that the two Greek differences go together. Note #11 now reads "The Greek drops the 1:17 date and instead gives a notice after 1:18 that agrees with 3:1."
 3. **8:16:** Vaticanus (Rahlfs) moved to the shorter reading. The Lucianic, Peshitta and Hebrew manuscripts are marked "as BHS gives them, not checked directly". The `why` now says that both Greek traditions lack the phrase. The KJV is listed only under the MT.
 4. **4:35:** new variant. The MT ("sneezed", the harder reading) is followed; the Septuagint has "bowed over the child seven times" and no sneeze. Note #75 points to it.
@@ -190,7 +190,7 @@ The build does not catch these, because the format is not "quote" (reference):
    - The 5:17 note gives the Greek "red earth" plus.
    - book.json names 6Q4 (2 Kings 5–10) and says it is too broken to change the text followed.
 10. **8:19:** the KJV was moved from R1 into the `why` text.
-11. **Plain re-drafted from the Hebrew:**
+11. **Plain English Translation re-drafted from the Hebrew:**
     - 4:16 "hugging a son of your own".
     - 5:10 "wash seven times in the Jordan" (Hebrew order).
     - 5:18 "forgive ... on this matter ... leans on my hand".
@@ -203,7 +203,7 @@ The build does not catch these, because the format is not "quote" (reference):
     - 6:6 "set the iron floating" (causative; the first redraft, "made the iron float", matched both NIV and ESV, so it was recast).
     - 2:20 "bowl", with the note retitled.
     - 1:2 "was taken ill", with the gloss changed to "fell sick".
-    - 3:13 now uses the 1 Kings 17:18 Plain idiom, "What is there between you and me?"
+    - 3:13 now uses the 1 Kings 17:18 Plain English Translation idiom, "What is there between you and me?"
 13. **3:2:** note #35 corrected; "broke them" appears only in 1:18a.
 14. **Jehoram/Joram:** the verse lists in note #34 are corrected. Israel's king is Jehoram in 1:17, 3:1 and 3:6 and Joram in 8:16, 8:25 and 8:28–29; chapter 9 uses both. Judah's king is Jehoram in 1:17, 8:16, 8:25 and 8:29 and Joram in 8:21–24. Note #149 is cut to a pointer plus the co-regency point. The ch8 explainer is kept, as the coordinator asked, and points to the 3:1 note. Names stay in the Hebrew form of each verse.
 15. **Mesha Stele:** now "oldest certain mention", with the Egyptian "Yhw" hedge.
@@ -218,7 +218,7 @@ The build does not catch these, because the format is not "quote" (reference):
     - #115: the pun claim was replaced by "verb and noun share a root".
     - #139: Gehazi's repentance was replaced by the Sotah 47a / Sanhedrin 107b tradition that he would not repent, with sources added.
 22. **Quotations:**
-    - Exodus 23:26, Genesis 14:23, Genesis 32:2 and Leviticus 13:46 now use the site's Plain wording.
+    - Exodus 23:26, Genesis 14:23, Genesis 32:2 and Leviticus 13:46 now use the site's Plain English Translation wording.
     - Romans 8:31 and 1 John 4:4 were re-rendered and marked "fresh rendering"; the first draft was too close to the common English wording.
     - Luke 9:54 is paraphrased and marked.
     - A further "Ref says" match at 2:19 (Exodus 23:26) was reworded.

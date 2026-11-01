@@ -2,7 +2,7 @@
 
 Scope: `content/books/Rev/book.json` (lead, facts, audience, traditions, lenses, sections, the views / keys /
 beasts / israel / mythos / art pages, prompts, reading), `content/books/Rev/topics.json` (95 contributions), the 59
-`content/topics/*.json` cores with `"origin":"Rev"`, and `content/books/Rev/sources.json`. The Plain is not reviewed
+`content/topics/*.json` cores with `"origin":"Rev"`, and `content/books/Rev/sources.json`. The Plain English Translation is not reviewed
 verse by verse here; the four chapter slices cover it.
 
 Checks run: `node tools/import-rev.js` (244 notes, 290 glosses, 22 chapters, 95 topics), then
@@ -33,7 +33,7 @@ the final-punishment conflict, for which Revelation is the key text. (7) The sou
 **1. Copyrighted translation wording in quotations (topics; source `revelation/v2/src/topics1.js`, `topics2.js`,
 `topics3.js`, `sayare.js`).**
 Quotations of books the site has not yet translated reproduce NIV wording word for word, and the build cannot catch
-them because no Plain exists to compare against. These are described here, not reproduced, with a few words each:
+them because no Plain English Translation exists to compare against. These are described here, not reproduced, with a few words each:
 - new-creation [2]: 2 Peter 3:10 ("disappear with a roar ...", plus "laid bare"); Romans 8:21 ("liberated from its
   bondage to decay").
 - white-throne [2]: Romans 2:6 ("repay each person ..."); Ephesians 2:8 ("by grace you have been saved").
@@ -50,11 +50,11 @@ them because no Plain exists to compare against. These are described here, not r
 - word-of-god [2]: Wisdom 18:15–16 is NRSV wording ("all-powerful word leaped from heaven ... stern warrior ...
   authentic command").
 
-The same habit shows where the topics quote Revelation itself and differ from the site's Plain toward NIV wording. In
-6:10 they have "How long, Sovereign Lord" (wrath [0], bowls [1]) where the Plain has "Holy and true Master." In 11:13
-they have "the rest were terrified" (two-witnesses [2], repentance [4]) where the Plain has "The survivors were
+The same habit shows where the topics quote Revelation itself and differ from the site's Plain English Translation toward NIV wording. In
+6:10 they have "How long, Sovereign Lord" (wrath [0], bowls [1]) where the Plain English Translation has "Holy and true Master." In 11:13
+they have "the rest were terrified" (two-witnesses [2], repentance [4]) where the Plain English Translation has "The survivors were
 terrified." In 20:11 they have "there was no place for them" (white-throne [0]).
-*Fix:* quote the site's Plain where the book exists. For unwritten books, translate the phrase fresh from the
+*Fix:* quote the site's Plain English Translation where the book exists. For unwritten books, translate the phrase fresh from the
 Hebrew/Greek or quote a public-domain version and name it, for example "(Hebrews 4:12, KJV)". Then grep the topic
 sources for other NIV-shaped quotations of unwritten books: Hebrews, the Pauline letters, the Catholic letters, Daniel,
 Ezekiel, the Minor Prophets.
@@ -64,13 +64,13 @@ lake-of-fire, book-of-life (2), new-creation (2), martyrs (2), repentance, overc
 living-creatures, elders, two-witnesses (2), woman-of-ch12, bride (3), 144000, philadelphia (2), rome, mount-zion,
 euphrates, twelve-tribes, four-horsemen, trumpets, bowls (2), gems, wormwood, harvest, alpha-omega, word-of-god (2),
 say-are-not (4). book.json: Revelation 1:4 "is, was and is to come" (beasts page, source `revelation/src/3-data.js`;
-the Plain has "who is, who was, and who is coming") and Revelation 11:8 "where their Lord was crucified" (keys and
-israel pages; the Plain has "was also crucified"). Isaiah and Jeremiah are now written, so their quotes (Isaiah 4:3,
+the Plain English Translation has "who is, who was, and who is coming") and Revelation 11:8 "where their Lord was crucified" (keys and
+israel pages; the Plain English Translation has "was also crucified"). Isaiah and Jeremiah are now written, so their quotes (Isaiah 4:3,
 14:12, 25:8, 49:2, 54:5, 54:11–12, 63:1–6, 66:7–8, 66:24, 11:4) must take the site's Isaiah wording. The δοῦλος →
 "slave" decision will add more (6:11 "fellow servants", 19:10, 22:9). Not caught by the build: new-jerusalem [1]
 quotes Tobit 13:17 as streets "paved with ruby and stones of Ophir." The site's Tobit reads "set like a mosaic / with
 red gems and with stone of Ophir."
-*Fix:* align each quote to the current Plain, after the slice fixers have changed the Plain.
+*Fix:* align each quote to the current Plain English Translation, after the slice fixers have changed the Plain English Translation.
 
 **3. Rev-origin cores that other books now use for a different subject (`content/topics/elders.json`, `jezebel.json`,
 `son-of-man.json`, `daniel.json`, `false-prophet.json`; source titles and leads in `revelation/v2/src/topics2.js` and
@@ -290,8 +290,8 @@ drop "my."
 
 ## Fixes applied
 
-1. Fixed. Every quotation listed was rewritten: on-site books now use the site's Plain (Isaiah, Tobit, Acts, Mark, Luke, John, Psalms, Proverbs, Exodus, Deuteronomy, Genesis), off-site books are translated fresh from the literal line (2 Peter 3:8–10, Romans 2:6 and 8:21, Ephesians 2:8–9 and 1:13, Hebrews 4:12, Zechariah 4:6 and 4:10, Joel 2:32 and 3:13, Daniel 7:10–11, 12:1, Ezekiel 14:21, 29:3, 33:11, Jeremiah 3:16, 8:16, 9:15, 15:16, 25:15, Micah 4:10, Hosea 2:19–20, Amos 5:7, Zephaniah 1:16, 2 Thessalonians 2:9, 2 Corinthians 11:13 and 12:4, 1 John 1:6, 2:4, 4:1, 4:20, 1 Corinthians 15:26) or paraphrased without quote marks (Galatians 3:29, Malachi 3:16, Hebrews 8:5 and 13:12, Romans 2:28–29, 1 John 4:2–3, 2 Corinthians 11:2), and Wisdom 18:15–16 is a fresh rendering of the Greek. The grep of topics, sayare.js, deep2.js, deep21.js and the book pages found and fixed the rest (Luke 21:20, John 2:19, 5:22, 1:29, Isaiah 27:1, 44:6, 54:5, 66:7–8, Psalm 29:3, Proverbs 15:11, Deuteronomy 29:18, Hebrews 12:22, Jeremiah 51:45 checked). Revelation quotes 6:10, 11:13 and 20:11 now use the current Plain. Jeremiah 1–31 is not yet on the site, so those quotes are fresh translations.
-2. Partly (by design). All non-Revelation quote warnings in book.json and topics are gone (Isaiah, Tobit 13:17 and the rest synced). Quotes of Revelation's own verses are left for the lead's sync, since the slice fixers are rebuilding the Plain; about 100 such warnings remain, none of them mine to fix.
+1. Fixed. Every quotation listed was rewritten: on-site books now use the site's Plain English Translation (Isaiah, Tobit, Acts, Mark, Luke, John, Psalms, Proverbs, Exodus, Deuteronomy, Genesis), off-site books are translated fresh from the literal line (2 Peter 3:8–10, Romans 2:6 and 8:21, Ephesians 2:8–9 and 1:13, Hebrews 4:12, Zechariah 4:6 and 4:10, Joel 2:32 and 3:13, Daniel 7:10–11, 12:1, Ezekiel 14:21, 29:3, 33:11, Jeremiah 3:16, 8:16, 9:15, 15:16, 25:15, Micah 4:10, Hosea 2:19–20, Amos 5:7, Zephaniah 1:16, 2 Thessalonians 2:9, 2 Corinthians 11:13 and 12:4, 1 John 1:6, 2:4, 4:1, 4:20, 1 Corinthians 15:26) or paraphrased without quote marks (Galatians 3:29, Malachi 3:16, Hebrews 8:5 and 13:12, Romans 2:28–29, 1 John 4:2–3, 2 Corinthians 11:2), and Wisdom 18:15–16 is a fresh rendering of the Greek. The grep of topics, sayare.js, deep2.js, deep21.js and the book pages found and fixed the rest (Luke 21:20, John 2:19, 5:22, 1:29, Isaiah 27:1, 44:6, 54:5, 66:7–8, Psalm 29:3, Proverbs 15:11, Deuteronomy 29:18, Hebrews 12:22, Jeremiah 51:45 checked). Revelation quotes 6:10, 11:13 and 20:11 now use the current Plain English Translation. Jeremiah 1–31 is not yet on the site, so those quotes are fresh translations.
+2. Partly (by design). All non-Revelation quote warnings in book.json and topics are gone (Isaiah, Tobit 13:17 and the rest synced). Quotes of Revelation's own verses are left for the lead's sync, since the slice fixers are rebuilding the Plain English Translation; about 100 such warnings remain, none of them mine to fix.
 3. Fixed. elders ("Elders": Israel's elders, the Jerusalem council, church elders/overseers, and the twenty-four), jezebel ("Jezebel": the queen and the Thyatira teacher), son-of-man ("The Son of Man"), daniel ("The Book of Daniel") and false-prophet ("The False Prophet of Revelation", related to false-teachers) have whole-Bible titles and leads, no origin line, and Revelation's lead now becomes their "In Revelation" section. The Acts elder cards stay on elders, which now covers church office. For the lead: Matthew 24:24 and Mark 13:22 (and Matthew 7:15 if tagged) should be retagged to false-teachers in those books.
 4. Fixed. Generalized martyrs, wrath, day-of-the-lord, bride, rome, porneia, millennium, imperial-cult, abaddon, antichrist, new-jerusalem, rapture, tribulation, hallelujah, armageddon, apocalyptic, four-views, soon, three-and-a-half and wormwood, plus ephesus, thyatira and euphrates (also used by Acts and 2 Samuel). The "Lord's day" (1:10) section moved from day-of-the-lord to a new Revelation contribution on the sabbath page. lake-of-fire, second-death and gehenna are now "related" to each other. Still Rev-origin but lightly used elsewhere (left as is): 666, beasts, other-traditions, overcomer, scroll-seals, seal-of-god, seven-churches, structure, two-witnesses, white-throne, woman-of-ch12.
 5. Fixed. The strip bug was already fixed by the lead (tags now become a space); confirmed, and antichrist [0] now parses correctly. Written in full: Didache 16.4, Ascension of Isaiah 4.2 (dot form so it is not read as Isaiah 4:2), Testament of Levi 18:10–11, War Scroll 1QM column 17, 1QH column 11, every Exodus cell of exodus-pattern, every Daniel and Revelation cell of the daniel table, and all the bare references listed (tribulation, son-of-man, michael, bride, jezebel, balaam, synagogue-of-satan, abaddon, euphrates, lampstands, four-horsemen, seal-of-god, wormwood, alpha-omega, other-traditions, say-are-not, new-jerusalem), the Claude-box refs listed, the beasts page (Zechariah 6:1–8) and the israel page spec refs. One side effect of the space-strip: "<i>Title</i> 9:1" now reads as Revelation 9:1, so the one case (Ignatius, To the Magnesians) uses 9.1.

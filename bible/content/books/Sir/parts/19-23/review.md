@@ -4,7 +4,7 @@ Reviewer: separate agent, 2026-10-31. `VERBOSE=1 node tools/build.js --check Sir
 
 ## Verdict
 
-This is careful work. I found nothing invented. I read the Greek of all five chapters against `texts/orig/Sir.json`, and the Plain is faithful almost everywhere. I checked the six gap lines (19:18, 19:19, 19:21, 20:3, 22:9, 22:10) and the other Hart readings against the page images of Hart 1909 (archive.org `ecclesiasticusgr00hart`, printed pages 24-31). Every Greek line in the variants matches the page, including `συμβιώσεται` at 19:6. The MS C Hebrew quotes match the Abegg and Elizur transcriptions, except one over-reading at 20:5. The Talmud quotations check on Sefaria. The problems are mostly witness bookkeeping and over-statement:
+This is careful work. I found nothing invented. I read the Greek of all five chapters against `texts/orig/Sir.json`, and the Plain English Translation is faithful almost everywhere. I checked the six gap lines (19:18, 19:19, 19:21, 20:3, 22:9, 22:10) and the other Hart readings against the page images of Hart 1909 (archive.org `ecclesiasticusgr00hart`, printed pages 24-31). Every Greek line in the variants matches the page, including `συμβιώσεται` at 19:6. The MS C Hebrew quotes match the Abegg and Elizur transcriptions, except one over-reading at 20:5. The Talmud quotations check on Sefaria. The problems are mostly witness bookkeeping and over-statement:
 
 - One departure from Swete (23:14, the `μή`) is undisclosed.
 - A Hebrew restoration is passed off as manuscript text (20:5).
@@ -22,8 +22,8 @@ Findings by severity: **0 critical, 7 major, 15 minor.**
 **1. 23:14: a second, undisclosed departure from Swete (the third `μή`).**
 - Location: plain.txt 23:14; variants.json 23:14; progress.md ("Departures from Swete: 19:5, 23:14").
 - Swete prints `καὶ τὴν ἡμέραν τοῦ τοκετοῦ σου μὴ καταράσῃ`. His note reads "om μη 3° ℵΑ". Hart's 248 also has no `μή` (page image 23:14: `καὶ τὴν ἡμέραν τοῦ τοκετοῦ σου καταράσῃ`).
-- The Plain, "and would curse the day you came into the world", follows ℵ, A and 248, or reads `μή` as a continuing "lest". The variant entry discusses only `συνεδρεύει`/`συνεδρεύεις`.
-- Fix: add the `μή` to the 23:14 variant with its witnesses (B with `μή`; ℵ, A and 248 without). State that the Plain follows the reading without it, or the "lest" construction, and why. Correct the progress.md departure count.
+- The Plain English Translation, "and would curse the day you came into the world", follows ℵ, A and 248, or reads `μή` as a continuing "lest". The variant entry discusses only `συνεδρεύει`/`συνεδρεύεις`.
+- Fix: add the `μή` to the 23:14 variant with its witnesses (B with `μή`; ℵ, A and 248 without). State that the Plain English Translation follows the reading without it, or the "lest" construction, and why. Correct the progress.md departure count.
 - Also reconsider the "why" for `συνεδρεύει`. "That reading gives no clear subject" is thin: Bc, A, ℵ and 248 share the second person, and Swete's B first hand differs by one letter. A "Bc" or `συνεδρεύεις` correction is a normal itacism-type fix, and the entry should say so.
 
 **2. 20:5 note: a restored word is cited as the manuscript's reading, and a real Hebrew difference is not reported.**
@@ -55,10 +55,10 @@ Findings by severity: **0 critical, 7 major, 15 minor.**
 - Fix: say "the Latin has no line with this content; its verse numbers 19:18, 19:19, 19:21 are the Greek 19:17b-24 under a different numbering". The same applies to 22:9-10. Apply it in all five variants, the chapter deep section and the topic.
 
 **6. `παιδεία` and `ἀπαίδευτος`: two incompatible renderings across parts.**
-- Location: proposals/works/terms.json (two entries: Sir 01-06 "instruction ... ἀπαίδευτοι 'the untaught' ... as the Plain of 51:23"; Sir 19-23 "discipline ... undisciplined, one English root"); plain.txt throughout. The lead's notes require one rendering across parts.
-- This part is consistent inside itself (20:19, 20:24, 21:19-24, 22:3, 22:6, 22:10, 23:2, 23:7, 23:13, 23:15). The 19-23 entry does not acknowledge the 01-06 entry, and the Plain of 51:23 is already "untaught".
+- Location: proposals/works/terms.json (two entries: Sir 01-06 "instruction ... ἀπαίδευτοι 'the untaught' ... as the Plain English Translation of 51:23"; Sir 19-23 "discipline ... undisciplined, one English root"); plain.txt throughout. The lead's notes require one rendering across parts.
+- This part is consistent inside itself (20:19, 20:24, 21:19-24, 22:3, 22:6, 22:10, 23:2, 23:7, 23:13, 23:15). The 19-23 entry does not acknowledge the 01-06 entry, and the Plain English Translation of 51:23 is already "untaught".
 - The result is that the same Greek word gives "untaught" in 6:20 and 51:23 but "undisciplined" in 20:19, 20:24 and 22:3, with no cross-note.
-- Fix (for the lead): choose one policy. "Discipline" by default and "instruction/untaught" only where the sense is teaching, with a note, is what the lead's note says. Reconcile both entries and the Plain of 51:23. In this part, check 21:12, 21:23 and 23:7, where "instruction" is arguable.
+- Fix (for the lead): choose one policy. "Discipline" by default and "instruction/untaught" only where the sense is teaching, with a note, is what the lead's note says. Reconcile both entries and the Plain English Translation of 51:23. In this part, check 21:12, 21:23 and 23:7, where "instruction" is arguable.
 - Related: 22:3 supplies "son". The Greek `ἀπαιδεύτου` is a bare genitive ("the begetting of an undisciplined [child]"), and the note should say so.
 
 **7. Unsourced generalizations about what churches and traditions hold (STYLE.md rule 2).**
@@ -79,9 +79,9 @@ Examples:
 
 **8. 22:9 variant `why`: "Hart's codex 248, which has them after 22:6, as the KJV does."** This is false. The KJV (texts/en) puts 22:9-10 after 22:8; Hart prints them after 22:6, before 22:7. Fix: "as Hart prints them, before 22:7; the KJV and this site place them after 22:8."
 
-**9. 20:26/20:27 title.** `Λόγοι παραβολῶν` is a genitive plural: "Words of proverbs" or "Words of parables". "Sayings in proverbs" (heading and note 20:27) puts in "in", which is not there. The writer's own note offers "Words of parables". Use "Words of proverbs" (the site's `παραβολή` = proverb, per the 20:20 note), or add that the heading is a Plain title. The Plain gives 23:7 `Παιδεία στόματος` as "Discipline for the mouth", the same as the writer's invented section headings. The note at 20:27 tells the reader which headings are manuscript titles. Make the headings visibly different. The 23:7 variant omits 248, which also prints the title (page image, p. 30).
+**9. 20:26/20:27 title.** `Λόγοι παραβολῶν` is a genitive plural: "Words of proverbs" or "Words of parables". "Sayings in proverbs" (heading and note 20:27) puts in "in", which is not there. The writer's own note offers "Words of parables". Use "Words of proverbs" (the site's `παραβολή` = proverb, per the 20:20 note), or add that the heading is a Plain English Translation title. The Plain English Translation gives 23:7 `Παιδεία στόματος` as "Discipline for the mouth", the same as the writer's invented section headings. The note at 20:27 tells the reader which headings are manuscript titles. Make the headings visibly different. The 23:7 variant omits 248, which also prints the title (page image, p. 30).
 
-**10. 19:8 Plain: an unmarked expansion.** The Greek, `καὶ εἰ μή ἐστίν σοι ἁμαρτία, μὴ ἀποκάλυπτε`, is read in the Plain as "unless your silence would make you guilty". The note admits it spells out the sense. The Vulgate reads the other way: `et si est tibi delictum, noli denudare` ("if you have a fault, do not uncover it"). Give that as a variant or a second reading so the Plain's reading is not taken as the only one.
+**10. 19:8 Plain English Translation: an unmarked expansion.** The Greek, `καὶ εἰ μή ἐστίν σοι ἁμαρτία, μὴ ἀποκάλυπτε`, is read in the Plain English Translation as "unless your silence would make you guilty". The note admits it spells out the sense. The Vulgate reads the other way: `et si est tibi delictum, noli denudare` ("if you have a fault, do not uncover it"). Give that as a variant or a second reading so the Plain English Translation's reading is not taken as the only one.
 
 **11. 20:9: 248's reading is not reported.** Hart's page image reads `ἔστιν εὐδοκία ἐν κακοῖς ἀνδρὶ ἁμαρτωλῷ` (`εὐδοκία`, not `εὐοδία`). The variant quotes only the tail and glosses it "success".
 
@@ -89,7 +89,7 @@ Examples:
 - 19:3: 248 `καὶ ξηρανθήσεται ἐν παραδειγματισμῷ μείζονι` for B's `ψυχὴ τολμηρὰ ἐξαρθήσεται` (the Vulgate has `extolletur in exemplum majus`).
 - 19:6: A `κακίᾳ` → `καρδίᾳ`.
 - 19:12: Hart footnote "Cod. μέλος" (248 reads "limb"; Hart prints `μηρῷ`).
-- 21:11: 248 `σοφίας πρόσληψις`. This links to the 19:18 `πρόσληψις` and to the Plain's "wisdom is the fear of the Lord brought to completion".
+- 21:11: 248 `σοφίας πρόσληψις`. This links to the 19:18 `πρόσληψις` and to the Plain English Translation's "wisdom is the fear of the Lord brought to completion".
 - 21:26: A `φρονίμων` for `σοφῶν`.
 - 22:6: 248 `ἐν καιρῷ σοφίας` against B, ℵ, A and C `ἐν παντὶ καιρῷ`. This reverses the sense of "wisdom in every season" and is the reading the note's "every season" rests on.
 - 23:7: 248 `παιδείαν στόματος ἀληθινοῦ` ("of a truthful mouth").
@@ -104,7 +104,7 @@ Examples:
 
 **15. 22:21 variant `why`: `kofer` is "a ransom or settlement"; chapter deep says "atonement".** Choose one gloss (`כופר` is "ransom, expiation") and use it in both places.
 
-**16. 21:27 note, topics `satan`, chapter deep: "The rabbis later said / identified".** Bava Batra 16a attributes the saying to Reish Lakish (checked on Sefaria, with the William Davidson English). Say "Reish Lakish" or "one rabbi in the Talmud", not "the rabbis". The Kiddushin 30b quote is right, and the topic's `Genesis 4:7 "you must rule over it"` is in the same passage ("but you may rule over it"). The note's quotation is the Plain of Genesis 4:7, not the Talmud's, and is acceptable.
+**16. 21:27 note, topics `satan`, chapter deep: "The rabbis later said / identified".** Bava Batra 16a attributes the saying to Reish Lakish (checked on Sefaria, with the William Davidson English). Say "Reish Lakish" or "one rabbi in the Talmud", not "the rabbis". The Kiddushin 30b quote is right, and the topic's `Genesis 4:7 "you must rule over it"` is in the same passage ("but you may rule over it"). The note's quotation is the Plain English Translation of Genesis 4:7, not the Talmud's, and is acceptable.
 
 **17. 21:25 note: "Codex Sinaiticus reads 'will tell'".** Swete's note prints `διηγξσονται ℵ` (garbled). The reading `διηγήσονται` is the writer's normalization. Mark it as the likely reading, or check the Sinaiticus image.
 
@@ -119,7 +119,7 @@ Examples:
 
 **21. 23:16 note: a disputed identification stated as fact.**
 - "'Two ... and the third' names the hot-tempered soul and the sexually immoral man, and the third ... is the adulterer of 23:18-21."
-- The Greek does not say who the three are. The Plain's "Two kinds of people" supplies "of people" (the Greek has `δύο εἴδη`, "kinds").
+- The Greek does not say who the three are. The Plain English Translation's "Two kinds of people" supplies "of people" (the Greek has `δύο εἴδη`, "kinds").
 - Label this as one reading, or as Claude's, and drop "of people", or add "(or: two kinds of sin)".
 
 **22. Glosses.**
@@ -160,7 +160,7 @@ Examples:
 
 **Cards.** No `traditions` cards in this part. The pointer to the Matthew 5:34 oath card at 23:9 is valid (Mat 05-07, ch. 5 card "May Christians swear an oath in court?"). progress.md should say that no card was judged necessary and why.
 
-**New topic `friendship` (proposals/works/topics/friendship.json).** It is a single section with Bible-wide references, all quoted correctly against the site's Plain (Proverbs 17:17 and 18:24, 1 Samuel 18:1, James 2:23, Exodus 33:11, John 15:13, Psalm 41:9). Weak points:
+**New topic `friendship` (proposals/works/topics/friendship.json).** It is a single section with Bible-wide references, all quoted correctly against the site's Plain English Translation (Proverbs 17:17 and 18:24, 1 Samuel 18:1, James 2:23, Exodus 33:11, John 15:13, Psalm 41:9). Weak points:
 - It does not mention Ben Sira's own friendship teaching (6:5-17, 22:19-26, 27:16-21), although the lead says it does.
 - The `links` entry `[["Friendship","Friendship"]]` is a placeholder.
 - `sources` is empty.
@@ -168,15 +168,15 @@ Examples:
 - It is not a duplicate of `jobs-friends`.
 - Add a Sirach section and the missing references, and remove the placeholder link.
 
-**Terms proposed.** The entries for `ὀκνηρός`, `πανοῦργος`, `φρόνιμος` and `ἐλέγχω` are consistent with the Plain. `ἐλέγχω` as "take it up with" departs from the site's Plain of Leviticus 19:17 and Matthew 18:15 ("correct"). The note at 19:13 explains this, so keep it. The `παιδεία` entry is item 6.
+**Terms proposed.** The entries for `ὀκνηρός`, `πανοῦργος`, `φρόνιμος` and `ἐλέγχω` are consistent with the Plain English Translation. `ἐλέγχω` as "take it up with" departs from the site's Plain English Translation of Leviticus 19:17 and Matthew 18:15 ("correct"). The note at 19:13 explains this, so keep it. The `παιδεία` entry is item 6.
 
-**Quotes of other books.** 6:29-30, 27:16, 30:20, 38:17, Proverbs 17:17 and 18:24, and the others tested all match the current Plain.
+**Quotes of other books.** 6:29-30, 27:16, 30:20, 38:17, Proverbs 17:17 and 18:24, and the others tested all match the current Plain English Translation.
 
 ## Fixes applied
 
 Fixer, 2026-10-31 (separate agent). Checked this session: Swete's notes (texts/src/Sir.app.json), Hart 1909 page images (archive.org ecclesiasticusgr00hart, pp. 24-32), MS C transcriptions (Abegg C V recto/verso, Elizur C VI recto/verso) and the C V recto plate at bensira.org, MS A I recto (Abegg), the Clementine Vulgate (texts/src/Sir.lat.json), Kahana (texts/src/Sir.heb.json), Sefaria Bava Batra 16a and Niddah 16b. Scratch: .scratch/Sir-19-23-fix/.
 
-1. Fixed. New 23:14 variant on the third μή: B with μή (Plain reads it as resuming "lest", so the Plain follows Swete here), ℵ and 248 (page image) and Vulgate 23:19 without it, A without μή and without the verb (Swete's note "om καταρασῃ A", which the review missed). The συνεδρεύει "why" rewritten (one letter, final s; no "itacism" claim). Departures stay 19:5 and 23:14 (συνεδρεύεις).
+1. Fixed. New 23:14 variant on the third μή: B with μή (Plain English Translation reads it as resuming "lest", so the Plain English Translation follows Swete here), ℵ and 248 (page image) and Vulgate 23:19 without it, A without μή and without the verb (Swete's note "om καταρασῃ A", which the review missed). The συνεδρεύει "why" rewritten (one letter, final s; no "itacism" claim). Departures stay 19:5 and 23:14 (συνεδρεύεις).
 2. Fixed. 20:5 note rewritten: MS C V recto line 9 keeps only "and is counted"; "wise" is Kahana's restoration. New 20:5b variant: C line 10 נמאס בריב ש (Abegg) against the Greek "much talk", Kahana's ברוב שיח named as his edition, marked uncertain (plate viewed; cannot decide ריב/רוב beyond the transcription).
 3. Fixed. 19:5 variant: ℵ* πονηρᾷ, 248 ἐπὶ κακοεξίᾳ (page image), Vulgate "Qui gaudet iniquitate" as separate readings; KJV dropped as a witness; the copyist's-eye explanation labeled Claude's conjecture, with A's κακίᾳ→καρδίᾳ at 19:6 from Swete's notes.
 4. Fixed. 20:31 variant adds MS C VI recto 3-4 מצפין twice (Elizur); A's agreement stated as inferred from Swete's silence; 20:30's Hebrew (V verso 12, VI recto 1-2) noted as not differing in sense.
@@ -185,7 +185,7 @@ Fixer, 2026-10-31 (separate agent). Checked this session: Swete's notes (texts/s
 7. Fixed. Unsourced church lines cut: ch19 O, ch20 O, ch21 C and O, ch22 C, ch23 O dropped; ch19 C/P, ch21 P, ch22 P, ch23 C/J reduced to what the text and cross-references show; the "keep it below the 66" sentence (ch22 deep) and the 22:3 canon-note last sentence removed.
 8. Fixed. 22:9 "why": Hart prints them after 22:6, before 22:7; the KJV and this site after 22:8 (checked texts/en).
 9. Fixed. Title is "Words of proverbs" (heading, note, setting, chapter summary); both manuscript titles now shown as "'...' (a Greek title)"; the 23:7 note adds 248's title and its "of a truthful mouth" (page image p. 30).
-10. Fixed. New 19:8 variant with the Latin "et si est tibi delictum, noli denudare"; the note says which words the Plain supplies.
+10. Fixed. New 19:8 variant with the Latin "et si est tibi delictum, noli denudare"; the note says which words the Plain English Translation supplies.
 11. Fixed. 20:9 variant gives 248's full line ἔστιν εὐδοκία ἐν κακοῖς ἀνδρὶ ἁμαρτωλῷ (page image) and the Vulgate.
 12. Partly. Added variants for 19:3b (248 + Vulgate), 21:11 (248 σοφίας πρόσληψις, also νόμον Κυρίου), 22:6 (248 without παντί; ℵ* σοφία), 23:25 (ℵA and 248 οὐκ οἴσουσι; 248 υἱοὶ αὐτῶν, Vulgate filii). The review's lemma for 23:25 was wrong: Swete's note is on the second verb (οὐ δώσουσιν), not διαδώσουσιν. 21:26 A φρονίμων added to that variant's b. 23:7 ἀληθινοῦ in the note. Declined 19:12: Hart's footnote "Cod. μέλος" does not say which word it replaces (βέλος or μηρῷ), and no sense changes.
 13. Fixed. Ch19 deep says Kahana's 19:2 also holds Greek 19:3b; ch19 J view limited to the manuscripts read.
@@ -196,6 +196,6 @@ Fixer, 2026-10-31 (separate agent). Checked this session: Swete's notes (texts/s
 18. Fixed. Purpose clause removed; the note says only what 22:16, 1 Kings 6:36 and Ezra 6:4 say.
 19. Fixed. General claim removed; the note gives Ben Sira's picture and says Acts 22:24 concerns a prisoner, not a slave.
 20. Fixed. The unnamed "some link it to 23:14" sentence and Exodus 21:17 removed. No Hebrew for 23:12 in MS C (it ends at 23:11, VI verso 9-10) or Kahana; no claim added.
-21. Fixed. Plain 23:16 "Two kinds pile up sins" (no "of people"); the note says the Greek does not identify the three and gives the Vulgate's "duo genera".
+21. Fixed. Plain English Translation 23:16 "Two kinds pile up sins" (no "of people"); the note says the Greek does not identify the three and gives the Vulgate's "duo genera".
 22. Fixed. Glosses 19:23, 22:27, 22:17, 21:22 reworded; 22:13 and 23:24 glosses removed.
 Other points: 19:6 "idle talk" changed to "chatter" (λαλιά); 23:2 note now explains "their sins"; 22:18 "margin of codex 248" removed (siglum unresolved); settings rewritten per lead decision 5 (each `readers` names what survives for its verses; one general statement in the ch19 deep section; the stock date removed from every `when` and from two views, per decision 2); 21:1 note cites MS A I recto lines 4 and 21 (Abegg) instead of Kahana (decision 12). Decision 13 applied: 19:23 "something abhorrent", 21:4 "insolence", 22:22 "pride", 23:8 "the proud". friendship proposal: Proverbs 27:6, 27:17, Ecclesiastes 4:9-12, Job 6:14-15, Psalm 55:12-14, John 15:15, James 4:4 and a Sirach section added; the `links` entry is a real Wikipedia article and was kept; `sources` stays empty because it quotes only Scripture. No card judged necessary (noted in progress.md).

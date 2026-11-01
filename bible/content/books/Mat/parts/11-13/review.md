@@ -4,15 +4,15 @@ Reviewer: Claude (hostile reviewer, nt lane). Files reviewed: plain.txt, notes.j
 
 ## Verdict
 
-This is a strong part. The translation is made from the Greek, follows the binding terms ("Amen, I tell you", "skin disease", "Beelzebul", "slave", "proved right" at 11:19, "tripped up" for skandalizō, consistent with 5:29 and 18:6), and makes defensible choices at every hard place: 11:12 is rendered as hostile violence with the other readings laid out fairly; 12:15 follows NA28/THGNT "crowds" against SBL with a variant entry; 13:35 follows SBL/THGNT in leaving out "of the world" and keeps "the prophet" against the "Isaiah" reading, both with good entries. Every parable in chapter 13 has its own settings card. The notes are dense and nearly all their citations check out (Theissen on the Tiberias reed coins, Josephus, the Mishnah, CD 11, the Digest, Pliny, 4Q521, Gregory via CCC 1031, Wesley's Notes on 12:31). The build passes for this part (the one error and two warnings belong to Num and book.json). It is not ready to publish, though. A dozen Plain verses lean on NIV wording. NIV phrasing also turns up in several places that claim to quote Matthew. Four variant witness lists are wrong or muddled, one of them attributing "Beelzebub" to the Textus Receptus. And three traditions cards are thinly or wrongly sourced: two views on the unforgivable sin have no source, the brothers card sources its Baptist view to Bauckham (who argues for the Epiphanian view), and the wheat-and-weeds card is filed under the wrong topic, with Anabaptist sources that do not discuss the parable. No critical errors.
+This is a strong part. The translation is made from the Greek, follows the binding terms ("Amen, I tell you", "skin disease", "Beelzebul", "slave", "proved right" at 11:19, "tripped up" for skandalizō, consistent with 5:29 and 18:6), and makes defensible choices at every hard place: 11:12 is rendered as hostile violence with the other readings laid out fairly; 12:15 follows NA28/THGNT "crowds" against SBL with a variant entry; 13:35 follows SBL/THGNT in leaving out "of the world" and keeps "the prophet" against the "Isaiah" reading, both with good entries. Every parable in chapter 13 has its own settings card. The notes are dense and nearly all their citations check out (Theissen on the Tiberias reed coins, Josephus, the Mishnah, CD 11, the Digest, Pliny, 4Q521, Gregory via CCC 1031, Wesley's Notes on 12:31). The build passes for this part (the one error and two warnings belong to Num and book.json). It is not ready to publish, though. A dozen Plain English Translation verses lean on NIV wording. NIV phrasing also turns up in several places that claim to quote Matthew. Four variant witness lists are wrong or muddled, one of them attributing "Beelzebub" to the Textus Receptus. And three traditions cards are thinly or wrongly sourced: two views on the unforgivable sin have no source, the brothers card sources its Baptist view to Bauckham (who argues for the Epiphanian view), and the wheat-and-weeds card is filed under the wrong topic, with Anabaptist sources that do not discuss the parable. No critical errors.
 
 ## Findings
 
-### 1. Major: Plain verses that track NIV wording
+### 1. Major: Plain English Translation verses that track NIV wording
 **Location:** plain.txt 11:2, 11:14, 12:10, 12:13, 12:24, 12:42, 13:15, 13:33, 13:44, 13:52, 13:54.
 **Problem:** In each verse a distinctive NIV choice survives, and the Greek does not require it. Several are small on their own. Together they show the familiar-phrasing creep that STYLE.md rule 1 forbids.
 **Evidence:**
-- 11:2: Plain "John, who was in prison, heard about the works of the Messiah" has NIV's sentence shape (relative clause, "heard about ... of the Messiah") with one word changed. The Greek is a participle chain: ἀκούσας ἐν τῷ δεσμωτηρίῳ τὰ ἔργα τοῦ χριστοῦ πέμψας.
+- 11:2: Plain English Translation "John, who was in prison, heard about the works of the Messiah" has NIV's sentence shape (relative clause, "heard about ... of the Messiah") with one word changed. The Greek is a participle chain: ἀκούσας ἐν τῷ δεσμωτηρίῳ τὰ ἔργα τοῦ χριστοῦ πέμψας.
 - 11:14: "he is the Elijah who was due to come". NIV has "he is the Elijah who was to come"; the Greek is just αὐτός ἐστιν Ἠλίας ὁ μέλλων ἔρχεσθαι.
 - 12:10: "a man with a shriveled hand" plus "a charge to bring against him". "Shriveled" is NIV's choice (ESV and KJV have "withered"); the Greek is χεῖρα ἔχων ξηράν.
 - 12:13: "as sound as the other". NIV has "just as sound as the other"; the Greek is ὑγιὴς ὡς ἡ ἄλλη ("healthy like the other").
@@ -25,15 +25,15 @@ This is a strong part. The translation is made from the Greek, follows the bindi
 - 13:54: "taught the people in their synagogue". NIV has "teaching the people in their synagogue"; the Greek has αὐτούς ("them").
 **Fix:** Rebuild these verses from the Greek: for example 11:2 "In prison John heard what the Messiah was doing, and he sent word ..."; 12:10 "a man whose hand was withered"; 13:15 "so that they never see with their eyes ... and turn, and I heal them"; 13:33 "until all of it was leavened"; 13:44 "hid it" (or "covered it up"); 13:52 keep "storeroom" (it matches 12:35) but recast "who has been trained as a disciple for the kingdom"; 13:54 "taught them in their synagogue". Then compare each verse again.
 
-### 2. Major: NIV wording quoted as if it were Matthew's text (and the site's own Plain misquoted)
+### 2. Major: NIV wording quoted as if it were Matthew's text (and the site's own Plain English Translation misquoted)
 **Location:** topics.json `elijah` section; chapters.json ch. 12 `sum`; ch. 13 settings 13:18–23 `readers`; topics.json `sabbath`; note 12:8.
-**Problem:** STYLE.md says to quote this site's Plain exactly. These places quote a different wording, and most of it is NIV's.
+**Problem:** STYLE.md says to quote this site's Plain English Translation exactly. These places quote a different wording, and most of it is NIV's.
 **Evidence:**
-- The `elijah` section gives 11:14 as "he himself is Elijah, the one who was to come" and "if you are willing to accept it". The second phrase is NIV 11:14 word for word. The site's Plain reads "he is the Elijah who was due to come" and "if you are ready to receive it".
-- The ch. 12 sum closes with "Here are my mother and my brothers." That is NIV 12:49; the Plain has "Look! My mother and my brothers!"
-- The 13:18–23 card quotes "trouble or persecution". That is NIV 13:21; the Plain has "hardship or persecution".
-- The `sabbath` section quotes "something greater than the temple is here" (Plain: "here is something greater than the temple") and Mark 2:27 as "the Sabbath was made for man". Note 12:8 quotes the same verse as "made for humankind".
-**Fix:** Quote the Plain exactly in all four places, and use one wording for Mark 2:27 (mark it as provisional until Mark's Plain exists).
+- The `elijah` section gives 11:14 as "he himself is Elijah, the one who was to come" and "if you are willing to accept it". The second phrase is NIV 11:14 word for word. The site's Plain English Translation reads "he is the Elijah who was due to come" and "if you are ready to receive it".
+- The ch. 12 sum closes with "Here are my mother and my brothers." That is NIV 12:49; the Plain English Translation has "Look! My mother and my brothers!"
+- The 13:18–23 card quotes "trouble or persecution". That is NIV 13:21; the Plain English Translation has "hardship or persecution".
+- The `sabbath` section quotes "something greater than the temple is here" (Plain English Translation: "here is something greater than the temple") and Mark 2:27 as "the Sabbath was made for man". Note 12:8 quotes the same verse as "made for humankind".
+**Fix:** Quote the Plain English Translation exactly in all four places, and use one wording for Mark 2:27 (mark it as provisional until Mark's Plain English Translation exists).
 
 ### 3. Major: Wrong or muddled witnesses in variants.json
 **Location:** variants.json 11:2, 11:23, 12:15, 12:24.
@@ -85,7 +85,7 @@ The 13:9 and 13:43 lists ("Codex Sinaiticus (first hand, as reported in NA28)") 
 
 ### 7. Minor: 13:22 follows SBL against NA28 and THGNT without giving a reason
 **Location:** variants.json 13:22 ("this age"); plain.txt 13:22.
-**Problem:** NA28 and the Tyndale House edition both omit τούτου with Vaticanus and Bezae (and, per NA28, Sinaiticus). The entry's `why` just says "The Plain follows SBL". This is the opposite of the method at 12:15, where the Plain follows NA28/THGNT against SBL because of their support. The P line ("NA28 follows a few early ones") also undersells the evidence.
+**Problem:** NA28 and the Tyndale House edition both omit τούτου with Vaticanus and Bezae (and, per NA28, Sinaiticus). The entry's `why` just says "The Plain English Translation follows SBL". This is the opposite of the method at 12:15, where the Plain English Translation follows NA28/THGNT against SBL because of their support. The P line ("NA28 follows a few early ones") also undersells the evidence.
 **Fix:** Follow NA28/THGNT ("the worries of the age"), or give a real argument for τούτου. Either way, add Sinaiticus to the witnesses if NA28 confirms it.
 
 ### 8. Minor: Missing variant entries that change the KJV
@@ -108,7 +108,7 @@ The 13:9 and 13:43 lists ("Codex Sinaiticus (first hand, as reported in NA28)") 
 
 ### 10. Minor: 13:55 "builder", with a gloss that undoes it
 **Location:** plain.txt 13:55; glosses.json 13:55; note 13:55; ch. 13 sum and deep.
-**Problem:** "Builder" is defensible (BDAG gives "builder, carpenter"). But in American English it suggests a construction contractor, and the gloss then says "the carpenter's son", which tells the reader the Plain chose the less natural word. The note also never says why "builder" was chosen over the traditional word. Mark 6:3 has not been written yet, so this decision will bind that part too.
+**Problem:** "Builder" is defensible (BDAG gives "builder, carpenter"). But in American English it suggests a construction contractor, and the gloss then says "the carpenter's son", which tells the reader the Plain English Translation chose the less natural word. The note also never says why "builder" was chosen over the traditional word. Mark 6:3 has not been written yet, so this decision will bind that part too.
 **Fix:** Either keep "builder" and make the gloss explain it ("a craftsman who built in wood or stone; traditionally 'carpenter'"), with a sentence in the note giving the reason, or use "craftsman's son". Flag the choice for the lane lead so Mark 6:3 matches.
 
 ### 11. Minor: The direction of the argument at 12:4 is stated backwards
@@ -126,15 +126,15 @@ The 13:9 and 13:43 lists ("Codex Sinaiticus (first hand, as reported in NA28)") 
 **Problem and evidence:** The note says Psalms of Solomon 17:44 blesses those born then "to see the good things of the Messiah". 17:44 speaks of seeing "the good things of Israel" in the gathering of the tribes. The blessing that names the Lord's anointed is 18:6.
 **Fix:** Quote 17:44 as "the good things of Israel", or cite 18:6 for the anointed one.
 
-### 14. Minor: Old Testament quotations in notes do not use the site's Plain
+### 14. Minor: Old Testament quotations in notes do not use the site's Plain English Translation
 **Location:**
-- note 11:23 quotes Isaiah 14:13 as "I will go up to heaven". Plain: "I will go up into the heavens".
-- note 12:20 quotes Isaiah 42:3 as "he will bring out justice faithfully". Plain: "He will truly bring justice out".
-- note 12:21 quotes Isaiah 42:4 as "the coastlands will wait for his torah". Plain: "The islands are waiting for his law".
-- note 13:14 quotes Isaiah 6:10 as "make the heart of this people fat". Plain: "Make this people's heart fat".
+- note 11:23 quotes Isaiah 14:13 as "I will go up to heaven". Plain English Translation: "I will go up into the heavens".
+- note 12:20 quotes Isaiah 42:3 as "he will bring out justice faithfully". Plain English Translation: "He will truly bring justice out".
+- note 12:21 quotes Isaiah 42:4 as "the coastlands will wait for his torah". Plain English Translation: "The islands are waiting for his law".
+- note 13:14 quotes Isaiah 6:10 as "make the heart of this people fat". Plain English Translation: "Make this people's heart fat".
 
-**Problem:** brief-nt.md says to "quote the site's Plain exactly when you quote the Old Testament in a note".
-**Fix:** Use the Isaiah Plain wording. To make the torah point at 42:4, add "(Hebrew torah)" after "law".
+**Problem:** brief-nt.md says to "quote the site's Plain English Translation exactly when you quote the Old Testament in a note".
+**Fix:** Use the Isaiah Plain English Translation wording. To make the torah point at 42:4, add "(Hebrew torah)" after "law".
 
 ### 15. Minor: Settings gaps
 **Location:** chapters.json ch. 11 and 12 settings.
@@ -169,7 +169,7 @@ The 13:9 and 13:43 lists ("Codex Sinaiticus (first hand, as reported in NA28)") 
 **Problem:** The lens says Christians used Isaiah 6 against Jews "in ways the church has since rejected (Nostra Aetate 4)". Nostra Aetate 4 does not mention Isaiah 6. It says Jews are not to be presented as rejected or accursed by God, and it binds the Catholic Church, not "the church" in general.
 **Fix:** "... a use the Catholic Church disowned when it taught that Jews should not be presented as rejected or accursed by God (Nostra Aetate 4)". Cite the existing key `nostra-aetate`.
 
-### 21. Minor: Small style points in the Plain
+### 21. Minor: Small style points in the Plain English Translation
 **Location and problem:**
 - 12:47 "are out there, standing outside" renders ἔξω twice.
 - 13:12 "will see even what he has taken away" adds a verb ("see") that the Greek does not have (ἀρθήσεται ἀπ' αὐτοῦ).
@@ -196,7 +196,7 @@ These need no change:
 - Josephus, Antiquities 8.46–49, 13.297–298, 18.116–119, 20.200.
 - 4Q521; Digest 9.2.27.14; Pliny, Natural History 9.106; Irenaeus, Against Heresies 4.6.1; Justin, Dialogue 88; Jubilees 11:11; 4 Ezra 7:50; Augustine, Sermon 71; CCC 1864.
 - Wesley's Notes on 12:31.
-- Quotations of the site's Deuteronomy, Proverbs, Exodus, 1 Samuel, 1 Kings, Genesis, Leviticus and Psalm 78 match the Plain.
+- Quotations of the site's Deuteronomy, Proverbs, Exodus, 1 Samuel, 1 Kings, Genesis, Leviticus and Psalm 78 match the Plain English Translation.
 - The proposed topics `pharisees` and `unforgivable-sin` are not duplicates. No existing core or proposal covers either; the nearest are `hasideans` and `holy-spirit`.
 - Lens keys match book.json (H C L J T).
 - No em-dashes; note lengths within limits.
@@ -204,19 +204,19 @@ These need no change:
 ## Fixes applied
 
 1. Major, NIV wording: rebuilt 11:2, 11:14, 12:7, 12:10, 12:13, 12:24, 12:42, 12:47, 12:50, 13:12, 13:15, 13:17, 13:33, 13:34, 13:44, 13:52, 13:54 from the literal line with new sentence shapes and re-audited them, including against ESV. 12:7 now matches 9:13 and 12:24 matches 9:34 ("the ruler of the demons"), per the lane decision.
-2. Major, misquotes: the elijah topic, the ch. 12 sum (12:49), the 13:18–23 card (13:21), the sabbath topic (12:6, 12:7) and note 12:8 now quote this site's Plain exactly. Mark 2:27 is paraphrased the same way in all three places, not quoted, until Mark's Plain exists.
+2. Major, misquotes: the elijah topic, the ch. 12 sum (12:49), the 13:18–23 card (13:21), the sabbath topic (12:6, 12:7) and note 12:8 now quote this site's Plain English Translation exactly. Mark 2:27 is paraphrased the same way in all three places, not quoted, until Mark's Plain English Translation exists.
 3. Major, variant witnesses: 12:24 Beelzebub reading now credited to the Vulgate and Syriac (the Greek TR has Beelzebul), and Sinaiticus added to Beezebul (as reported in NA28). Sinaiticus added at 12:15 and 11:2, and "first hand of Ephraemi" plus "a corrector of Ephraemi" at 11:2. 11:23 witness lists untangled, and `b` now says which reading each codex has at each point.
 4. Major, unforgivable-sin card: Orthodox view now sourced to Chrysostom's Homilies on Matthew. The Pentecostal row is replaced by a Lutheran row (new key pieper-dogmatics-1).
 5. Major, brothers card: Catholic view is now "close relatives (Catechism 500); in the West since Jerome, usually cousins". Orthodox view cites protevangelium-james and epiphanius-panarion (new key). Baptist view cites Tertullian (new key tertullian-flesh) and Helvidius via jerome-helvidius, with Bauckham dropped. Note 12:46 now says "the usual Western Catholic view" and adds Tertullian.
 6. Major, wheat-and-weeds card: top changed to church-discipline. Anabaptist view now sourced to Menno Simons's Reply to Gellius Faber and Hubmaier's On Heretics (new keys), with Schleitheim and Dordrecht kept for the ban. Roger Williams is described as "briefly a Baptist and later a Seeker". Note 13:38 cites Menno instead of Schleitheim.
 7. Minor, 13:22: now follows NA28/THGNT "the worries of the age", with a real argument. Sinaiticus not added, because I could not confirm it.
-8. Minor, missing variants: added 11:16, 12:8, 12:25, 12:31, 13:40 and 13:44. 13:36 skipped, since the Plain already names Jesus there.
+8. Minor, missing variants: added 11:16, 12:8, 12:25, 12:31, 13:40 and 13:44. 13:36 skipped, since the Plain English Translation already names Jesus there.
 9. Minor, 13:34: changed to "Jesus told the crowds all these things in parables."
 10. Minor, 13:55: "builder" kept per the lane decision. The gloss now reads "son of a craftsman who built in wood or stone; traditionally 'the carpenter's son'", and the note gives the reason for the choice. Mark 6:3 should match.
 11. Minor, 12:4 argument direction: the note now says it argues from a precedent in Scripture and from a lesser case to a greater one.
 12. Minor, Presence Bread: the note now says the priests "changed" the bread every Sabbath, and adds that the baking was done beforehand (Mishnah Menachot 11:2).
 13. Minor, Psalms of Solomon: the note now cites 18:6 for the Lord's anointed and has "compare 17:44".
-14. Minor, Isaiah quotations: 14:13, 42:3, 42:4 (with "Hebrew torah") and 6:10 now quote the Isaiah Plain exactly.
+14. Minor, Isaiah quotations: 14:13, 42:3, 42:4 (with "Hebrew torah") and 6:10 now quote the Isaiah Plain English Translation exactly.
 15. Minor, settings: added an 11:16–19 card (the old 11:7–19 card is now 11:7–15). Luke's different settings are noted on the 11:20–24 and 11:25–27 cards. The 12:18–21 card now gives both datings of Isaiah 40–55. The strong man and the returning spirit stay inside the 12:25–37 and 12:39–45 cards.
 16. Minor, ch. 13 lens H: now "perhaps before plowing, as Jeremias argued".
 17. Minor, citations: the card and note 12:32 now cite Dialogues 4.39 (quoted in Catechism 1031) and City of God 21.24.

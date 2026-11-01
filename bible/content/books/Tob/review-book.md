@@ -1,6 +1,6 @@
 # Hostile review: Tobit book-level files (book.json, sources.json)
 
-Reviewed: `content/books/Tob/book.json` (title, lead, facts, authorship, audience, outline, lenses, sections, spec, prompts, topics, reading, both traditions cards, and the whole `canon` block) and `content/books/Tob/sources.json`. Checked the Greek claims against `texts/orig/Tob.json` (`grc` = Sinaiticus, `grc_b` = Vaticanus) and the Latin claims against `texts/src/Tob.lat.json`. Checked consistency with the Plain in `parts/01-06/plain.txt` and `parts/07-14/plain.txt`, the only part files so far. Every source key resolves, locally or in `content/sources.json`. `node tools/build.js --check Tob` gives **1 error**: "chapters.json is missing". That comes from the parts still being in progress, not from book.json. 245 verses.
+Reviewed: `content/books/Tob/book.json` (title, lead, facts, authorship, audience, outline, lenses, sections, spec, prompts, topics, reading, both traditions cards, and the whole `canon` block) and `content/books/Tob/sources.json`. Checked the Greek claims against `texts/orig/Tob.json` (`grc` = Sinaiticus, `grc_b` = Vaticanus) and the Latin claims against `texts/src/Tob.lat.json`. Checked consistency with the Plain English Translation in `parts/01-06/plain.txt` and `parts/07-14/plain.txt`, the only part files so far. Every source key resolves, locally or in `content/sources.json`. `node tools/build.js --check Tob` gives **1 error**: "chapters.json is missing". That comes from the parts still being in progress, not from book.json. 245 verses.
 
 ## Verdict
 
@@ -21,7 +21,7 @@ It still needs work before it ships:
 - **cited_in is incomplete.** It leaves out several standard New Testament parallels, including Matthew 6:1–18, which the page itself leans on twice.
 - **Two traditions are missing or thin.** The Anglican row leaves out the Church of England's own Homily on alms, which quotes Tobit. Anabaptist/Amish use of Tobit is missing.
 - **Two facts are garbled.** The span of GIII is given wrongly, and an authorship line ("medieval Latin Bibles added...") has no basis I can find.
-- **The rest are small.** There are wording slips against the Plain and loose quotations.
+- **The rest are small.** There are wording slips against the Plain English Translation and loose quotations.
 
 Findings: **0 critical, 6 major, 22 minor.**
 
@@ -81,12 +81,12 @@ Findings: **0 critical, 6 major, 22 minor.**
 **10. Minor: rejected_why, Jerome section: "Cyril of Jerusalem kept to the Hebrew list alone".** Cyril's 22 books include Baruch, Lamentations and the Letter of Jeremiah with Jeremiah (*Cat.* 4.35), which are not in the Hebrew canon. He did leave out Tobit. Say "Cyril of Jerusalem gave a 22-book list without Tobit".
 
 **11. Minor: canon.provenance, Ahiqar.**
-- *11:18.* The page says Tobit has Ahiqar "bring him to the wedding feast (11:18)". The Plain and the Greek have Ahiqar and Nadab coming to Tobit to rejoice. Fix: "come to share his joy at the homecoming (11:18)".
+- *11:18.* The page says Tobit has Ahiqar "bring him to the wedding feast (11:18)". The Plain English Translation and the Greek have Ahiqar and Nadab coming to Tobit to rejoice. Fix: "come to share his joy at the homecoming (11:18)".
 - *The Elephantine papyrus.* The page says it "tells of... [how he] hid until the king needed him again, and was restored". The papyrus breaks off before the restoration and Nadin's punishment, which are known from the later Syriac, Armenian and Arabic versions (Lindenberger). Say so.
 
-**12. Minor: cited_in, Revelation 21:10–21.** "Tobit's Jerusalem is built of sapphire and emerald". In the longer Greek (13:16) and the Plain, it is the *gates* that are of sapphire and emerald, which is a closer match for Revelation's gates. Use "gates of sapphire and emerald, walls of precious stone".
+**12. Minor: cited_in, Revelation 21:10–21.** "Tobit's Jerusalem is built of sapphire and emerald". In the longer Greek (13:16) and the Plain English Translation, it is the *gates* that are of sapphire and emerald, which is a closer match for Revelation's gates. Use "gates of sapphire and emerald, walls of precious stone".
 
-**13. Minor: cited_in, Matthew 6:19–20 at 4:9.** The note says Tobit "stores up a good treasure". The Plain (4:9) has "put away a good deposit". The link rests on the verb *thēsaurizeis* ("you store up treasure"). Either the Plain should keep "treasure", or the note should explain the Greek. Raise this with the 01-06 writer.
+**13. Minor: cited_in, Matthew 6:19–20 at 4:9.** The note says Tobit "stores up a good treasure". The Plain English Translation (4:9) has "put away a good deposit". The link rests on the verb *thēsaurizeis* ("you store up treasure"). Either the Plain English Translation should keep "treasure", or the note should explain the Greek. Raise this with the 01-06 writer.
 
 **14. Minor: Greek name forms ("Names and words to know").**
 - *Tobit.* "Tōbeith or Tōbit": Swete's Sinaiticus has Τωβείθ, but Vaticanus has Τωβείτ (Tōbeit). The form Tōbit is Alexandrinus's (A, in Swete's apparatus at 1:1).
@@ -128,9 +128,9 @@ Findings: **0 critical, 6 major, 22 minor.**
 
 **26. Minor: the early church row: Athanasius, Jerome and Rufinus "set it among books read in church".** Athanasius's category is books "appointed by the Fathers to be read by those who newly join us" (catechumens), not books read in church. Rufinus's "ecclesiastical" books are the ones read in church. State each one's category.
 
-**27. Minor: Plain points for the part writers.** Book.json depends on these, so they are flagged here:
-- *11:4.* Swete's Sinaiticus reads ὁ κύριος ("the Lord"), a slip for ὁ κύων ("the dog"). The Plain has "the dog", and book.json cites 11:4 for the dog. That is right, but it needs a variant entry.
-- *5:6.* Swete's Sinaiticus has Gabael living "in Ecbatana" and the distance "from Ecbatana to Garras". The Plain reads Rages both times, following the usual correction. That needs a variant entry too, since book.json's geography argument rests on this verse.
+**27. Minor: Plain English Translation points for the part writers.** Book.json depends on these, so they are flagged here:
+- *11:4.* Swete's Sinaiticus reads ὁ κύριος ("the Lord"), a slip for ὁ κύων ("the dog"). The Plain English Translation has "the dog", and book.json cites 11:4 for the dog. That is right, but it needs a variant entry.
+- *5:6.* Swete's Sinaiticus has Gabael living "in Ecbatana" and the distance "from Ecbatana to Garras". The Plain English Translation reads Rages both times, following the usual correction. That needs a variant entry too, since book.json's geography argument rests on this verse.
 
 **28. Minor: sources.json.** `charlesworth-otp` is defined but never used. Either cite it with `lindenberger-ahiqar` or remove it. Add keys for the new material: `homilies-alms`, an Amish/Mennonite source, `clement-stromata`, `arrian-anabasis`, `nets-tobit`, and the Coptic page.
 
@@ -186,7 +186,7 @@ Findings: **0 critical, 6 major, 22 minor.**
   - the gaps 4:7–18 and 13:7–9, with 11:12 and 11:19 the two single verses.
 - **Latin (texts/src):** Vulgate 4:16, 6:18–22, 8:4–5 (the three nights) and 11:9 (the dog wagging its tail) are as described.
 - **Liturgy:** the 1662 offertory sentences Tobit 4:7 and 4:8–9; Tobit 8:4b–8 among the Catholic wedding readings; the weekday Mass readings.
-- **The Plain:** every other quotation in book.json matches the Plain (4:10, 4:15, 4:17, 5:13, 12:9, 12:12, 12:19, 3:16 "at that very moment", 14:1, 14:15).
+- **The Plain English Translation:** every other quotation in book.json matches the Plain English Translation (4:10, 4:15, 4:17, 5:13, 12:9, 12:12, 12:19, 3:16 "at that very moment", 14:1, 14:15).
 - **Structure:** No em-dashes. The reliability analysis is labeled as Claude's, keeps its four parts separate, and ranks no church. Tobit is never called Scripture in the site's own voice (apart from finding 18).
 
 ## Fixes applied
@@ -201,9 +201,9 @@ Findings: **0 critical, 6 major, 22 minor.**
 8. Fixed. The rating stays "allusion", and the text now says "a probable allusion in many commentators' view, but direct use not proven". Revelation 1:4 is rated "disputed".
 9. Fixed. Trent now reads "with an equal affection of piety and reverence". Westminster is quoted in full ("to be any otherwise approved, or made use of, than other human writings"). The Baptist row cites London 1.2–3, and "nearly repeats" Westminster, quoting "canon or rule".
 10. Fixed. Both places now say "a 22-book list without Tobit".
-11. Fixed. 11:18 now matches the current Plain: Ahiqar and Nadab come to share Tobit's joy. The text also says that the Elephantine papyrus breaks off, and that the restoration and Nadin's punishment come from the later versions (Lindenberger).
-12. Fixed. It now reads gates of sapphire and emerald, walls of precious stone, and streets of red gems and stone of Ophir, matching the Plain's 13:16–17.
-13. Partial. My note now uses the Plain's "deposit" and explains the Greek *thēsaurizeis*. Whether the Plain should keep "deposit" is left to the coordinator and part 01-06.
+11. Fixed. 11:18 now matches the current Plain English Translation: Ahiqar and Nadab come to share Tobit's joy. The text also says that the Elephantine papyrus breaks off, and that the restoration and Nadin's punishment come from the later versions (Lindenberger).
+12. Fixed. It now reads gates of sapphire and emerald, walls of precious stone, and streets of red gems and stone of Ophir, matching the Plain English Translation's 13:16–17.
+13. Partial. My note now uses the Plain English Translation's "deposit" and explains the Greek *thēsaurizeis*. Whether the Plain English Translation should keep "deposit" is left to the coordinator and part 01-06.
 14. Fixed. Tōbeith (Sinaiticus), Tōbeit (Vaticanus), Tōbit (Alexandrinus); Asmodaus (Vaticanus).
 15. Fixed. The row now mentions Codex Or. Gaster 28, headed "For the Second Day of Shavuot", sourced to Simkovich on TheTorah.com (checked), as a medieval custom of some communities. New key `simkovich-tobit-shavuot`.
 16. Fixed. Both rows now cite the Coptic Diocese of Los Angeles page (checked: "found in the Coptic version, all dialects"); new key `coptic-la-deuterocanon`. The Assyrian Church of the East is marked "not covered here", because I could not source its practice.
@@ -217,7 +217,7 @@ Findings: **0 critical, 6 major, 22 minor.**
 24. Partial. `content/works.json` now has 2 Clement, Polycarp's Letter to the Philippians and the Story of Ahiqar, in the existing format. `clement-stromata` is added, copied exactly from Deu. I found no source for the "Tobias nights" or for the Renaissance commissions, so both stay hedged ("often called", "often said") with no source key.
 25. Fixed. It now reads "drew heavily on it".
 26. Fixed. Each writer's own category is given: Athanasius, books "appointed by the Fathers to be read" by new members; Rufinus, "ecclesiastical" books read in church; Jerome, books read for building up the people.
-27. Declined here. These are Plain points for the part writers (the variants for 11:4 and 5:6) and are left to the coordinator. book.json's citations of 11:4 and 5:6 match the current Plain.
+27. Declined here. These are Plain English Translation points for the part writers (the variants for 11:4 and 5:6) and are left to the coordinator. book.json's citations of 11:4 and 5:6 match the current Plain English Translation.
 28. Fixed. `charlesworth-otp` is removed. New keys are added. `homilies-alms` reuses the part's existing definition.
 
-Also matched to the final 07-14 Plain: 12:9 "cleanse away every sin", 12:12 "memorial", 12:15, 13:16–17, 11:18 and 14:15 "Achiacharus king of Media". The 12:15 "present the prayers of the saints" is now always labeled as the shorter Greek. `node tools/build.js --check Tob`: 0 errors, 0 warnings.
+Also matched to the final 07-14 Plain English Translation: 12:9 "cleanse away every sin", 12:12 "memorial", 12:15, 13:16–17, 11:18 and 14:15 "Achiacharus king of Media". The 12:15 "present the prayers of the saints" is now always labeled as the shorter Greek. `node tools/build.js --check Tob`: 0 errors, 0 warnings.

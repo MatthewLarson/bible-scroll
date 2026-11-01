@@ -7,7 +7,7 @@ Nothing else was reviewed.
 ## Verdict
 
 Both books are in good shape mechanically, and most of the work is sound. Every quoted phrase in both overlays
-matches the site's Plain wording. I checked all of them, including the unreferenced quotes the build does not
+matches the site's Plain English Translation wording. I checked all of them, including the unreferenced quotes the build does not
 check. There are no em-dashes, the English is at the right level, and every cited key exists. Most of the city
 history is right: Smyrna's temple to Roma, Pergamum's temple to Augustus and Rome, the two falls of Sardis,
 Philadelphia's earthquakes and new name, the Laodicea earthquake of AD 60 (Tacitus, *Annals* 14.27),
@@ -225,7 +225,7 @@ Some of these can be grouped. Revelation's seven beatitudes (1:3, 14:13, 16:15, 
 its direct words to the hearers. At least 1:3 and 20:6 need cards.
 
 **15. Minor. Rev.json 17:7–18, 18:1–8 and 18:9–24: wording and debated points stated as fact.**
-- 17:7–18 says "seven hills", but Plain 17:9 has "seven mountains". Keep "seven mountains (Rome was the city
+- 17:7–18 says "seven hills", but Plain English Translation 17:9 has "seven mountains". Keep "seven mountains (Rome was the city
   on seven hills)".
 - "Their own glittering capital": Rome was the empire's capital, not that of cities in Asia. Write "the
   empire's glittering capital."
@@ -267,7 +267,7 @@ lost ending. The source is attested by early writers, not certain.
 
 Fix: "a story that early writers say came from the Assumption of Moses, a book now partly lost."
 
-**19. Minor. Jud 1:3–13 `why`: "hidden reefs" does not match Plain 1:12, "sunken rocks".**
+**19. Minor. Jud 1:3–13 `why`: "hidden reefs" does not match Plain English Translation 1:12, "sunken rocks".**
 It is not in quotes, so the build does not catch it, but the card should use the site's own image.
 *Spilades* is also read as "stains" (compare 2 Peter 2:13), which could be one clause.
 

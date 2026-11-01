@@ -5,7 +5,7 @@ Reviewed: `content/books/Jdt/book.json` (title, lead, facts, authorship, audienc
 Checked against:
 - the Greek in `texts/orig/Jdt.json` (Swete, Vaticanus) and Swete's apparatus `texts/src/Jdt.app.json`;
 - the Latin in `texts/src/Jdt.lat.json`;
-- the Plain in `parts/01-07/plain.txt` and `parts/08-16/plain.txt` (08-16 has a Plain only, no notes yet);
+- the Plain English Translation in `parts/01-07/plain.txt` and `parts/08-16/plain.txt` (08-16 has a Plain English Translation only, no notes yet);
 - the 01-07 notes.
 
 `node tools/build.js --check Jdt` gives 10 errors. All of them belong to the parts: unknown topics `nebuchadnezzar` and `achior`, unknown keys `enslin-zeitlin-judith`, `grintz-judith` and `torrey-bethulia`, and the missing chapters.json. None comes from book.json. Every topic and source key that book.json uses resolves. There are no em-dashes. 340 verses.
@@ -122,7 +122,7 @@ Findings: **0 critical, 3 major, 22 minor.**
 - The part note at 6:16 says plainly that 14:10 **conflicts** with the letter of Deuteronomy 23:3, and cites Mishnah Yadayim 4:4.
 - *Fix:* drop the "goes beyond" clause, call (c) "conflicts with the letter of", and add Yadayim 4:4 (the Ammonite proselyte Judah admitted on the ground that Sennacherib mixed the nations). That rabbinic answer is the strongest reconciliation and is already sourced in the part.
 
-**15. Minor: sections, "The story and its themes", and cited_in, Luke 1:46–55: "helper of the weak (9:11)".** The Plain of 9:11 reads "the helper of the least, the protector of the weak" (ἐλαττόνων εἶ βοηθός, ἀντιλήμπτωρ ἀσθενούντων). Use the Plain's words: "the helper of the least, the protector of the weak".
+**15. Minor: sections, "The story and its themes", and cited_in, Luke 1:46–55: "helper of the weak (9:11)".** The Plain English Translation of 9:11 reads "the helper of the least, the protector of the weak" (ἐλαττόνων εἶ βοηθός, ἀντιλήμπτωρ ἀσθενούντων). Use the Plain English Translation's words: "the helper of the least, the protector of the weak".
 
 **16. Minor: "Names and words to know": "Bethulia (Greek *Baitouloua*)".**
 - *Swete's spelling.* Swete's Vaticanus spells it Βαιτυλουα (*Baityloua*) 15 times. Βαιτουλουα appears once (4:6), and Βετυλουα four times (counted in texts/orig).
@@ -220,7 +220,7 @@ Findings: **0 critical, 3 major, 22 minor.**
   - 13:18 Εὐλογητὴ σύ... παρὰ πάσας τὰς γυναῖκας (no "among women"); 13:20 ταπείνωσιν; 14:7 Εὐλογημένη σύ (= Luke 1:42);
   - 15:8 γερουσία; 16:2 θεὸς συντρίβων πολέμους (= LXX Exodus 15:3); 16:17 fire and worms; 16:23 aged 105.
 - **Latin (texts/src):** Vulgate 13:23 (Uzziah's blessing), 15:10 (*Tu gloria Jerusalem*), 15:11 (*castitatem amaveris*), 16:31 (the feast "from that time until this day", Douay). The Vulgate verse numbers in how_to_read are right.
-- **The Plain:** every quotation in book.json matches the current Plain: 3:8, 4:3, 5:5, 6:2, 8:12, 8:14, 8:27, 9:10, 11:5, 11:17, 13:18, 14:7, 15:9, 16:2, 16:17, 16:22–23. The exceptions are finding 15 and the paraphrase of 11:19, which is not in quotation marks. The Judges 5:24 and Exodus 15:3 wording matches the site's Plain of those books.
+- **The Plain English Translation:** every quotation in book.json matches the current Plain English Translation: 3:8, 4:3, 5:5, 6:2, 8:12, 8:14, 8:27, 9:10, 11:5, 11:17, 13:18, 14:7, 15:9, 16:2, 16:17, 16:22–23. The exceptions are finding 15 and the paraphrase of 11:19, which is not in quotation marks. The Judges 5:24 and Exodus 15:3 wording matches the site's Plain English Translation of those books.
 - **Spec theories:** 2:1 and Jeremiah 32:1 / 52:29 (the eighteenth year) and 2 Kings 25:8 (the nineteenth) are right; the theory is labeled as Claude's.
 - **Structure and voice:** Judith is never called Scripture in the site's own voice. The tier-2 framing names the churches each time. No church is ranked. The reliability analysis is labeled as Claude's, in its four parts.
 
@@ -240,7 +240,7 @@ Findings: **0 critical, 3 major, 22 minor.**
 12. Fixed. Added "a noble and fine book" and "should properly be in the Bible", the allegory that "strikes my fancy", and Luther's view that the errors were put in on purpose (from the reviewer's check of LW 35:337–338).
 13. Fixed. Holofernes is Diodorus 31.19, dated 352 BC by the EJ, and Bagoas is Diodorus 16.47–50, 343 BC. I reused the 08-16 part's key `diodorus-persian` and added Pope's "Persian and even a Greek colouring" (from the reviewer's check).
 14. Fixed. The "goes beyond" clause is gone. Item (c) now reads "conflicts with the letter of" Deuteronomy 23:3 and gives Mishnah Yadayim 4:4 (existing key `mishnah-yadayim`).
-15. Fixed. The page now uses the Plain's words, "the helper of the least, the protector of the weak".
+15. Fixed. The page now uses the Plain English Translation's words, "the helper of the least, the protector of the weak".
 16. Fixed. The Greek is now *Baityloua*, in some places *Betyloua*. Judith is now the feminine of *Yehudi*, "Jew".
 17. Fixed. The Douay-Rheims is now dated 1609–10, as a translation of the Vulgate.
 18. Fixed. Cajetan is now named, from Alexander's quotation, which I checked on CCEL, together with Philaret's catechism. "Defenders compare Jael" now rests on the book's own echo of Judges 5:24 at 13:18.
@@ -252,4 +252,4 @@ Findings: **0 critical, 3 major, 22 minor.**
 24. Fixed. "And some Orthodox" is now "and some readers today".
 25. Fixed. The page now cites Shabbat 23a for Rashi, who does not name her, and Pesachim 108b for the Tosafot, in both places.
 
-Also: every Judith quotation was re-matched by script to the final parts' Plain. 1:1 now reads "who ruled over the Assyrians in Nineveh" and "ruled over the Medes in Ecbatana". 7:32 now reads "great distress", with the Greek noun. book.json does not quote 15:12. `node tools/build.js --check Jdt`: 0 errors, 0 warnings.
+Also: every Judith quotation was re-matched by script to the final parts' Plain English Translation. 1:1 now reads "who ruled over the Assyrians in Nineveh" and "ruled over the Medes in Ecbatana". 7:32 now reads "great distress", with the Greek noun. book.json does not quote 15:12. `node tools/build.js --check Jdt`: 0 errors, 0 warnings.

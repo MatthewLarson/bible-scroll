@@ -30,12 +30,12 @@ Counts: 1 critical, 4 major, 13 minor.
 
 ### 1. Critical: whole clauses copied from the NIV
 **Location:** plain.txt 4:9, 1:18, 4:1, 4:47, 1:30 (and 1:15), 4:35, 4:42, 4:46, 2:20.
-**Problem:** In these verses the Plain repeats a run of seven or more words that is identical to the NIV. In each
+**Problem:** In these verses the Plain English Translation repeats a run of seven or more words that is identical to the NIV. In each
 case the Greek does not force that wording; it is the NIV's own restructuring or idiom. I describe each match and
 quote only a few words:
 - **4:9**: the Greek is one question, Πῶς σὺ Ἰουδαῖος ὢν παρ’ ἐμοῦ πεῖν αἰτεῖς γυναικὸς Σαμαρίτιδος οὔσης; ("How do
   you, being a Jew, ask a drink from me, being a Samaritan woman?"). The NIV splits it into two statements and a short
-  question. The Plain reproduces all of the woman's quoted speech exactly as the NIV has it, every word in the same
+  question. The Plain English Translation reproduces all of the woman's quoted speech exactly as the NIV has it, every word in the same
   order, and the opening narrative frame and the aside also follow the NIV's shape ("For Jews do not ... with
   Samaritans"). This is the worst case in the part.
 - **1:18**: "who is himself God and is in" is the NIV's distinctive paraphrase of μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον
@@ -46,11 +46,11 @@ quote only a few words:
 - **4:47**: "heard that Jesus had arrived in Galilee from Judea" is the NIV's wording, including the NIV's reversal of
   the Greek order (ἐκ τῆς Ἰουδαίας εἰς τὴν Γαλιλαίαν, "from Judea into Galilee"). "Close to death" is also the NIV's.
 - **1:30** (and 1:15): "This is the one I meant when I said" is the NIV's opening of 1:30, eight words. The Greek
-  ὑπὲρ οὗ ἐγὼ εἶπον means "about whom I said". The Plain also uses the same NIV sentence in 1:15 (Greek ὃν εἶπον).
+  ὑπὲρ οὗ ἐγὼ εἶπον means "about whom I said". The Plain English Translation also uses the same NIV sentence in 1:15 (Greek ὃν εἶπον).
 - **4:35**: "I tell you, open your eyes and look at the fields" is identical to the NIV. The Greek ἐπάρατε τοὺς
   ὀφθαλμοὺς ὑμῶν means "lift up your eyes". "You have a saying" also echoes the NIV's "Don't you have a saying".
 - **4:42**: "and we know that this man truly is the Savior of the world" matches the NIV except for one adverb
-  (NIV "really"). The NIV adds "man" for οὗτος, and the Plain keeps it.
+  (NIV "really"). The NIV adds "man" for οὗτος, and the Plain English Translation keeps it.
 - **4:46**: "where he had turned the water into wine" is identical to the NIV. The Greek ὅπου ἐποίησεν τὸ ὕδωρ οἶνον
   means "where he made the water wine".
 - **2:20**: "and you are going to raise it in three days?" is identical to the NIV's second half. The Greek
@@ -102,7 +102,7 @@ he had made the water wine". 2:20 "and you will raise it in three days?"
   food"). "Get" also softens ἀγοράσωσιν, "buy".
 - **4:14** "the water I give" twice is the NIV's present tense (see finding 3).
 - **4:18** "you have had five husbands, and the man you have now is not your husband": the NIV's wording with two
-  words swapped. The NIV adds "man", and the Plain keeps it. "In fact" echoes the NIV's "The fact is".
+  words swapped. The NIV adds "man", and the Plain English Translation keeps it. "In fact" echoes the NIV's "The fact is".
 - **4:23** "the kind of worshipers the Father [seeks→wants]": six words identical to the NIV. "Yet ... is coming"
   also follows the NIV.
 - **4:30** "began making their way to him": the NIV's "made their way toward him".
@@ -126,13 +126,13 @@ allows it (2:9, 2:21, 3:12). Rewrite the 3:1 gloss ("one of the Jewish leaders, 
 ### 3. Major: mistranslations
 **Location:** plain.txt 4:42, 4:14, 1:14, 4:2/4:1; smaller ones in 1:26, 1:29, 2:24, 3:23, 4:27, 4:33, 4:54.
 - **4:42**: οὐκέτι διὰ τὴν σὴν λαλιὰν πιστεύομεν means "It is no longer because of your talk that we believe." The
-  Plain's "Now we believe, and not because of your talk" drops "no longer". It suggests her testimony never
+  Plain English Translation's "Now we believe, and not because of your talk" drops "no longer". It suggests her testimony never
   produced faith, which contradicts 4:39, where many believed because of it. That progression is the whole point of the
   scene (note and chapter deep dive "Who was the Samaritan woman?" both rely on it).
-- **4:14**: the Greek has a future twice, οὗ ἐγὼ δώσω and ὃ δώσω ("the water I will give"). The Plain uses the
+- **4:14**: the Greek has a future twice, οὗ ἐγὼ δώσω and ὃ δώσω ("the water I will give"). The Plain English Translation uses the
   present twice, "the water I give", which is the NIV's tense. The future points ahead to the Spirit (7:39). Also,
   "will ever thirst again" adds "again", which the Greek of 4:14 does not have.
-- **1:14**: ὡς μονογενοῦς παρὰ πατρός. The Plain's "a father's only Son" turns παρά + genitive ("from a father")
+- **1:14**: ὡς μονογενοῦς παρὰ πατρός. The Plain English Translation's "a father's only Son" turns παρά + genitive ("from a father")
   into a possessive, losing "from". It also capitalizes "Son" after a generic "a father", which mixes the generic
   reading the note defends ("a comparison") with a christological one. Choose one. Either "glory as of an only son
   from a father" (generic, and say so in the note) or "glory as of the only Son from the Father", with the other
@@ -141,7 +141,7 @@ allows it (2:9, 2:21, 3:12). Rewrite the 3:1 gloss ("one of the Jewish leaders, 
   **2:24** "since he knew them all": πάντας is "all people", not just these people. **3:23** "where there were many
   springs" loses the causal ὅτι ("because there was much water there"). **4:27** "It shocked them" sharpens
   ἐθαύμαζον ("they were amazed, wondered"). **4:33** μή τις ἤνεγκεν expects "no" ("Nobody brought him food, did
-  they?"), as the Plain itself does for μήτι in 4:29. **4:54** omits πάλιν ("again a second sign"). **3:16, 3:17,
+  they?"), as the Plain English Translation itself does for μήτι in 4:29. **4:54** omits πάλιν ("again a second sign"). **3:16, 3:17,
   4:8** drop γάρ ("For") with no reason. **4:44** drops γάρ, which hides the famous crux (why "for"?) that the
   4:44 note discusses.
 
@@ -204,10 +204,10 @@ source key for Augustine's *Sermons*.
 
 ### 7. Minor: missing variant entries a KJV reader would notice
 **Location:** variants.json.
-- **1:39**: Byzantine/TR ἴδετε gives the KJV "Come and see". SBL/NA28 ὄψεσθε gives the Plain "Come, and you will see".
-- **1:16**: Byzantine/TR καί (KJV "And of his fulness"). SBL/NA28 ὅτι (Plain "For").
+- **1:39**: Byzantine/TR ἴδετε gives the KJV "Come and see". SBL/NA28 ὄψεσθε gives the Plain English Translation "Come, and you will see".
+- **1:16**: Byzantine/TR καί (KJV "And of his fulness"). SBL/NA28 ὅτι (Plain English Translation "For").
 - **4:35–36**: KJV "white already to harvest. And he that reapeth": with καί in 4:36, the Byzantine text attaches
-  ἤδη to 4:35. The Plain follows the SBL punctuation ("already getting paid"). Readers comparing will notice.
+  ἤδη to 4:35. The Plain English Translation follows the SBL punctuation ("already getting paid"). Readers comparing will notice.
 - **1:15**: Westcott-Hort (W lacks ὃν εἶπον) prints οὗτος ἦν ὁ εἰπών with א* B* C*, "this was the one who said".
 - **3:31b**: covered in the note (P75, א*, D lack it; NA28 brackets it). That is acceptable, but a variant entry
   would let readers switch.
@@ -224,9 +224,9 @@ source key for Augustine's *Sermons*.
   `sum`, and son-of-god topic text).
 - ἐμνήσθησαν: "recalled" in 2:17, "remembered" in 2:22.
 - **3:20–21**: the Greek repeats ἔρχεται πρὸς τὸ φῶς ("does not come to the light" / "comes to the light"). The
-  Plain varies both ("keeps away from it" / "steps toward the light") and loses the deliberate parallel that STYLE
+  Plain English Translation varies both ("keeps away from it" / "steps toward the light") and loses the deliberate parallel that STYLE
   asks to keep.
-- **2:16**: τὸν οἶκον τοῦ πατρός μου οἶκον ἐμπορίου ("my Father's house a house of trade"). The Plain's "a place of
+- **2:16**: τὸν οἶκον τοῦ πατρός μου οἶκον ἐμπορίου ("my Father's house a house of trade"). The Plain English Translation's "a place of
   business" loses the repeated "house", which the 2:16 note itself explains.
 **Fix:** "believe" in 2:22 and 4:50 (or a note on the 4:50/4:53 step); "the King of Israel" in 1:49; one verb for
 ἐμνήσθησαν; "comes to the light" in both 3:20 and 3:21; "a house for trading".
@@ -354,7 +354,7 @@ hold that οὕτως ... ὥστε also carries degree. These are `deb` or `com
 - `facts` "Setting": see finding 5 (the "after the Temple's fall" assumption).
 - The rest checks out: the Irenaeus and Polycrates quotations and citations, Papias' two Johns, Clement's "spiritual
   Gospel" (Eusebius 6.14.7), Gardner-Smith 1938, van Unnik / Robinson / Carson on the mission view, and the
-  20:31 aorist/present variant (present in P66vid, א*, B). The 20:31 quotation matches part 18-21's Plain exactly.
+  20:31 aorist/present variant (present in P66vid, א*, B). The 20:31 quotation matches part 18-21's Plain English Translation exactly.
 
 ## Fixes applied
 (Writer, 2026-10-24. After the fixes: `--check Jhn/01-04` 0 errors, 0 warnings; 166 verses, 147 notes, 23 variants, 57 glosses.)
@@ -421,7 +421,7 @@ Counts: 2 critical, 9 major, 38 minor.
 
 ### A. Drift from the NIV and ESV
 
-1. **Critical. 2:9.** The Plain reads "and did not know where it came from (though the servants who had dipped the
+1. **Critical. 2:9.** The Plain English Translation reads "and did not know where it came from (though the servants who had dipped the
    water knew)". The ESV has the same 13-word stretch, parenthesis included, with only "drawn" for "dipped". "The
    water, now turned into wine" also follows the ESV's "the water now become wine". The first-review fix changed "but"
    to "though" and made the match exact. The Greek has no parenthesis and no "though": ὡς δὲ ἐγεύσατο ... καὶ οὐκ ᾔδει
@@ -453,7 +453,7 @@ Counts: 2 critical, 9 major, 38 minor.
    9-word run, plus its last six words. Neither "for ourselves" nor the dropped γάρ comes from the Greek, which is
    αὐτοὶ γὰρ ἀκηκόαμεν. The first review rated this verse critical, and the fix changed only the first sentence.
    **Fix:** "for we ourselves have heard him, and we know that this one truly is the Savior of the world."
-8. **Major. 4:46.** The Plain follows the ESV skeleton through the whole verse. "to Cana in Galilee, where he had made
+8. **Major. 4:46.** The Plain English Translation follows the ESV skeleton through the whole verse. "to Cana in Galilee, where he had made
    the water [into] wine" (the first review suggested the ESV's exact wording here). Then the ESV's fronted "[at→In]
    Capernaum there was an official ... whose son was ill". In the Greek, "in Capernaum" comes last: ἦν τις βασιλικὸς οὗ
    ὁ υἱὸς ἠσθένει ἐν Καφαρναούμ. **Fix:** "So he came again to Cana in Galilee, where he had turned the water to wine.
@@ -539,23 +539,23 @@ Verses I checked and accept as forced by the Greek, although they match the NIV 
 ### B. Accuracy and terms
 
 32. **Major. 1:14: break of a binding term.** content/proposals/nt/terms.json, μονογενής: "in John 1:14, 18; 3:16, 18
-   ... 'the only Son' with a note". The Plain now has "the kind of glory an only son has from his father", lowercase
+   ... 'the only Son' with a note". The Plain English Translation now has "the kind of glory an only son has from his father", lowercase
    and generic. The first review allowed either reading, but the terms file does not. **Fix:** either "glory as of the
    only Son from the Father", with the generic reading in the note, or keep the generic reading and record the
    exception in proposals/nt/terms.md (or the build.md list) so the lead can amend the term.
 33. **Minor. 3:14: a lost repetition.** The Greek uses one verb twice: Moses ὕψωσεν the snake, and the Son of Man must
-   ὑψωθῆναι. The Plain has "raised the snake high" but "lifted up". The 3:14 note ("Lifted up: cross and glory") and
-   the 3:14 gloss rest on the shared verb, which the Plain now hides. **Fix:** use one rendering for both: "raised ...
+   ὑψωθῆναι. The Plain English Translation has "raised the snake high" but "lifted up". The 3:14 note ("Lifted up: cross and glory") and
+   the 3:14 gloss rest on the shared verb, which the Plain English Translation now hides. **Fix:** use one rendering for both: "raised ...
    high" / "has to be raised high" (this also avoids "lifted up" in both places, which the NIV and ESV use).
 34. **Minor. 3:16 / 3:17: "his".** The SBL has τὸν υἱὸν τὸν μονογενῆ with no αὐτοῦ. TAGNT marks αὐτοῦ GTB only (in
-   both verses). The Plain adds "his" in 3:16 ("his only Son") but not in 3:17 ("the Son"). **Fix:** "the only Son"
+   both verses). The Plain English Translation adds "his" in 3:16 ("his only Son") but not in 3:17 ("the Son"). **Fix:** "the only Son"
    in 3:16, or a note on the Byzantine and TR "his".
 35. **Minor. 3:19.** "people preferred the darkness to the light" for ἠγάπησαν ... μᾶλλον loses "loved", which answers
    "God loved the world" three verses earlier. **Fix:** "people loved the darkness more than the light".
 36. **Minor. 1:10.** "The world owed its existence to him" for ὁ κόσμος δι’ αὐτοῦ ἐγένετο hides the repetition of 1:3
    ("Through him everything came to exist"). **Fix:** "the world came to exist through him".
 37. **Minor. 1:37, 1:40 vs 1:38, 1:43, and the 1:43 note.** ἀκολουθέω is "went after" / "gone after" in 1:37 and 1:40,
-   but "following" in 1:38 and "Follow me" in 1:43. The 1:43 note quotes 1:37 as "followed", which the Plain does not
+   but "following" in 1:38 and "Follow me" in 1:43. The 1:43 note quotes 1:37 as "followed", which the Plain English Translation does not
    say. **Fix:** "followed" in 1:37 and 1:40.
 38. **Minor. 1:35.** "standing in his place" adds "in his place". The Greek is only εἱστήκει. **Fix:** "John was
    standing there again".

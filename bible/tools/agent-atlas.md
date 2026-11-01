@@ -43,7 +43,7 @@ Write `content/atlas/<id>.json` (site book id, for example `Gen`, `1Sa`, `Rev`):
 
 Bible Atlas links entities to verses largely by name, so some links are wrong: a person who shares a name with a word in the verse ("Job" for Jashub's brother Iob, "On" for the city of On), an interpretation stated as fact ("Jesus" at Genesis 49:10 or Deuteronomy 18:15), an event linked far from where it happens, or a place given the wrong point (the wrong Gilgal; the Red Sea far south of the crossing). You review one book's harvested file against the site's text and write corrections. You never edit `content/atlas/<id>.json` itself.
 
-For each chapter, read the Plain (`content/books/<id>/plain.txt` or the parts' plain.txt) and the chapter's lists in `content/atlas/<id>.json`. Write `content/atlas/corrections/<id>.json`, an array:
+For each chapter, read the Plain English Translation (`content/books/<id>/plain.txt` or the parts' plain.txt) and the chapter's lists in `content/atlas/<id>.json`. Write `content/atlas/corrections/<id>.json`, an array:
 
 ```json
 [

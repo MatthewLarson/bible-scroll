@@ -2,7 +2,7 @@
 
 ## Verdict
 
-The translation is sound and the apparatus is mostly honest. I read the Plain against the SBL/Byzantine Greek and found no mistranslation. I also found no copying of the NIV or ESV, and the quotes of Romans 3:28, 4:2-3 and Hebrews 11:31 match the site's Plain exactly. `node tools/build.js --check Jas` gives 0 errors and 0 warnings. Most quotations I could reopen were exact (Luther's 1522 preface, the Apology, Dositheus decrees 13 and 15, Wesley on James 2:21, Calvin 3.17.11-12, JDDJ paragraphs 9 and 37, Mishnah Avot only by log). The book still has real problems. Two of the three "Claude's theory" boxes make false claims about originality, one of them demonstrably. The anointing card shows Lutherans and Anglicans only through their 16th-century rejection, which is one-sided. A translation-relevant variant (1:19) is missing, several variant witness lists conflate two variation units, and a number of attributions ("most commentators", "Lutherans are divided", "Protestant churches generally") rest on no opened source, against STYLE.md rule 2. The secondary-sourced items the writer flagged (Ward via IVP, the Assemblies of God via Wikipedia, ECM via Williams) are discussed at the end. Fixable in one pass.
+The translation is sound and the apparatus is mostly honest. I read the Plain English Translation against the SBL/Byzantine Greek and found no mistranslation. I also found no copying of the NIV or ESV, and the quotes of Romans 3:28, 4:2-3 and Hebrews 11:31 match the site's Plain English Translation exactly. `node tools/build.js --check Jas` gives 0 errors and 0 warnings. Most quotations I could reopen were exact (Luther's 1522 preface, the Apology, Dositheus decrees 13 and 15, Wesley on James 2:21, Calvin 3.17.11-12, JDDJ paragraphs 9 and 37, Mishnah Avot only by log). The book still has real problems. Two of the three "Claude's theory" boxes make false claims about originality, one of them demonstrably. The anointing card shows Lutherans and Anglicans only through their 16th-century rejection, which is one-sided. A translation-relevant variant (1:19) is missing, several variant witness lists conflate two variation units, and a number of attributions ("most commentators", "Lutherans are divided", "Protestant churches generally") rest on no opened source, against STYLE.md rule 2. The secondary-sourced items the writer flagged (Ward via IVP, the Assemblies of God via Wikipedia, ECM via Williams) are discussed at the end. Fixable in one pass.
 
 Count: 0 critical, 7 major, 15 minor.
 
@@ -34,11 +34,11 @@ Count: 0 critical, 7 major, 15 minor.
      - The Reformed cell is Calvin alone. Add a confession or say it is Calvin's view.
    - Without this the card ranks tradition by omission.
 
-4. **Major. variants.json is missing readings that bear on the Plain.**
-   - **1:19.** Byzantine Ὥστε ("So then") against NA/SBL Ἴστε ("You know this"). The Plain follows Ἴστε ("You know this, my brothers"), and the KJV's "Wherefore" follows the other. It is in texts/auto and in laparola, and I found no variant entry. It changes the first sentence of the passage.
-   - **5:14.** NA28 brackets [αὐτόν] after ἀλείψαντες, and B, P and others omit it (laparola). This is the anointing verse the card is built on, and the Plain prints "anointed him".
-   - **5:11.** εἴδετε ("you saw") against Byzantine ἴδετε ("see"), plus ἐστιν ὁ κύριος. The Plain rests on the first.
-   - **3:5.** The note mentions ὀλίγον but no variant entry exists. The Plain's "how little a flame" also chooses one sense of ἡλίκον, which deserves a variant or at least a statement in the note.
+4. **Major. variants.json is missing readings that bear on the Plain English Translation.**
+   - **1:19.** Byzantine Ὥστε ("So then") against NA/SBL Ἴστε ("You know this"). The Plain English Translation follows Ἴστε ("You know this, my brothers"), and the KJV's "Wherefore" follows the other. It is in texts/auto and in laparola, and I found no variant entry. It changes the first sentence of the passage.
+   - **5:14.** NA28 brackets [αὐτόν] after ἀλείψαντες, and B, P and others omit it (laparola). This is the anointing verse the card is built on, and the Plain English Translation prints "anointed him".
+   - **5:11.** εἴδετε ("you saw") against Byzantine ἴδετε ("see"), plus ἐστιν ὁ κύριος. The Plain English Translation rests on the first.
+   - **3:5.** The note mentions ὀλίγον but no variant entry exists. The Plain English Translation's "how little a flame" also chooses one sense of ἡλίκον, which deserves a variant or at least a statement in the note.
    - Fix: add entries for 1:19, 5:14 and 5:11, with witnesses from laparola.
 
 5. **Major. The Pentecostal cell and other card claims rest on sources I could not confirm.**
@@ -50,7 +50,7 @@ Count: 0 critical, 7 major, 15 minor.
 
 6. **Major. Unsourced attributions presented as fact (STYLE.md rule 2).** Each needs a source opened or the removal of the attribution.
    - book.json canon card: "Lutheran teachers since have differed on how much weight to give his judgment." Chapters.json 2 Lutheran cell: "so Lutherans are divided on how to value the letter." No Lutheran document or teacher is cited.
-   - notes: 2:2 "Most commentators take it this way". 2:18 "This is how the Plain punctuates it, with most modern editions". Laparola's own list shows the editions and translations split both ways on where the quotation ends. 3:6 "as many modern editions do". 5:6 "Most read the verse this way". 5:16 "Catholic and Orthodox teaching connect the verse … Protestant churches generally read".
+   - notes: 2:2 "Most commentators take it this way". 2:18 "This is how the Plain English Translation punctuates it, with most modern editions". Laparola's own list shows the editions and translations split both ways on where the quotation ends. 3:6 "as many modern editions do". 5:6 "Most read the verse this way". 5:16 "Catholic and Orthodox teaching connect the verse … Protestant churches generally read".
    - 3:6 reading (3): "The phrase sounds like the Greek religious idea of an endless cycle of births." The writer's own log says an Orphic background was left out as unverified. This is the same claim made unnamed.
    - 1:14: "Many scholars think James is close to this way of thinking." Name them or cut.
    - ch. 2 `views.J`: "The tension with Paul is a tension inside early Jewish Christianity about how Gentiles share in Abraham's family" is stated as fact in a "Jewish reading". Attribute it.
@@ -95,7 +95,7 @@ Count: 0 critical, 7 major, 15 minor.
 
 16. **Minor. Anglican cell.** The text prints "We are justified by Faith only" as a quotation. Article 11 reads "that we are justified by Faith only". Either quote the real wording or drop the quotation marks.
 
-17. **Minor. Plain 4:14 "a puff of steam".** ἀτμίς means vapor, mist or smoke (the note says "steam or smoke"). "Steam" is the narrowest of these. Consider "a puff of mist" or "vapor", or justify "steam".
+17. **Minor. Plain English Translation 4:14 "a puff of steam".** ἀτμίς means vapor, mist or smoke (the note says "steam or smoke"). "Steam" is the narrowest of these. Consider "a puff of mist" or "vapor", or justify "steam".
 
 18. **Minor. Audience cards.** Every section repeats "most likely Jewish believers … many of them poor laborers and tenants" as the working premise. The debate (diaspora Jews, the whole church) appears only at 1:1. For 2:14-26 and 3:1-18 a one-line "if the readers are all Christians" would be fairer. The 5:1-6 setting says "the letter's real hearers are the poor believers" as fact.
 
@@ -124,12 +124,12 @@ Count: 0 critical, 7 major, 15 minor.
 - The 2:14-26 card is genuinely unranked. The "James against Paul" reading is given its strongest form, and it also gives a Jewish reading and Wesley's.
 - 2:11 order of adultery and murder (Vaticanus LXX confirmed in the log).
 - The Matthew 5:34 oath card exists (`vows` in content/books/Mat/parts/05-07).
-- The Heb 11:31 quote matches the site's Plain.
+- The Heb 11:31 quote matches the site's Plain English Translation.
 - Settings are present for every section (1:1, 1:2-18, 1:19-27, 2:1-13, 2:14-26, 3:1-12, 3:13-18, 4:1-12, 4:13-17, 5:1-6, 5:7-12, 5:13-20).
 
 ## Fixes applied
 
-Fixer, 2026-10-29. Sources opened this session are listed in `.scratch/Jas-fix/` (downloads in `dl/`, extracted text beside them). No Plain verse changed; James 4:6 and 5:20 untouched.
+Fixer, 2026-10-29. Sources opened this session are listed in `.scratch/Jas-fix/` (downloads in `dl/`, extracted text beside them). No Plain English Translation verse changed; James 4:6 and 5:20 untouched.
 
 1. Accepted, and went further than the review. Mark E. Taylor (SWJT 64.1, 2021), opened this session, quotes Johnson's conclusion and lists his pairs: Lev 19:12/Jas 5:12, 19:13/5:4, 19:15/2:1, 9, 19:16/4:11, 19:17b/5:20. So 19:13 and 19:16 are Johnson's too, not the writer's, and nothing in the box was Claude's own. Removed the spec box. Johnson's argument is now stated and attributed in book.json "The Jewish world of James" (sources `taylor-ot-james`).
 2. Accepted. Deleted "commentators usually treat the two verses separately". The ch. 4 box now says that Johnson has written on friendship with the world against friendship with God (*Brother of Jesus, Friend of God*, 2004; Steele's review, opened) and names what the box adds (`steele-review-johnson` in book sources). I could not open the essay itself, so the box claims nothing about its treatment of 2:23.
@@ -173,14 +173,14 @@ Fixer, 2026-10-29. Sources opened this session are listed in `.scratch/Jas-fix/`
     - All confirmed. The Luther preface lines were rechecked too.
 15. Accepted. `luther-preface-james` now reads Concordia 1963, pp. 395-399, as on bible-researcher.com.
 16. Accepted. The Anglican cell quotes Article 11 exactly.
-17. Partly accepted. The Plain keeps "a puff of steam", because "mist" would sit on the NIV/ESV wording. The note now gives the range of ἀτμίς (vapor, steam, mist, haze of smoke; Acts 2:19) and says why the Plain chose "steam".
+17. Partly accepted. The Plain English Translation keeps "a puff of steam", because "mist" would sit on the NIV/ESV wording. The note now gives the range of ἀτμίς (vapor, steam, mist, haze of smoke; Acts 2:19) and says why the Plain English Translation chose "steam".
 18. Accepted. The repeated "to" line now gives both readings of the twelve tribes and drops "laborers and tenants". The 5:1-6 setting is no longer stated as fact: "real hearers" is gone, and the "why" is conditional.
 19. Accepted.
     - 2:6: courts generalization removed and replaced with Acts 16:19.
     - 4:13: "many of them Jews of the Dispersion" replaced with Acts 18:2-3, here and in the ch. 4 H view.
     - 3:1: rabbi claim removed.
     - 5:16: Trent keys added.
-    - Reading time: tied to the Plain's word count (about 2,500).
+    - Reading time: tied to the Plain English Translation's word count (about 2,500).
 20. Accepted. Added source `stepbible-tagnt`. The 5:4 why now says the NA28 reading comes from the word list's edition marks, and the new entries cite it.
 21. Accepted. The Orthodox cell now calls Dositheus a seventeenth-century confession adopted by a regional council.
 22. Partly accepted. papalencyclicals.net does not name its translator, so I did not add "Waterworth". Added `trent-english`, the English translation printed at papalencyclicals.net, to the Trent citations so readers can match the wording.

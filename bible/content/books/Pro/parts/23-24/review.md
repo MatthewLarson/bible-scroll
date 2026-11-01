@@ -35,8 +35,8 @@ Counts: 0 critical, 5 major, 21 minor.
 
 **3. Major: plain.txt 23:3a and 23:6b: the same Hebrew line rendered two ways, and a note that says otherwise.**
 - 23:3a אַל־תִּתְאָו לְמַטְעַמּוֹתָיו and 23:6b וְאַל־תִּתְאָו לְמַטְעַמֹּתָיו are the same words: "do not crave his delicacies".
-- The Plain has "Do not crave his fine foods" (23:3) and "do not long for his fine dishes" (23:6).
-- The 23:3 note says, "The same phrase 'his fine foods' returns in 23:6", which is not true of the current Plain.
+- The Plain English Translation has "Do not crave his fine foods" (23:3) and "do not long for his fine dishes" (23:6).
+- The 23:3 note says, "The same phrase 'his fine foods' returns in 23:6", which is not true of the current Plain English Translation.
 - The repetition is deliberate (ruler, then stingy host), and the brief requires a repeated line to keep the same words.
 - Fix: 23:6b "and do not crave his fine foods."
 
@@ -62,14 +62,14 @@ Counts: 0 critical, 5 major, 21 minor.
 **6. Minor: plain.txt 24:9b: term not followed.** "a mocker disgusts everyone" renders תוֹעֲבַת לְאָדָם לֵץ. terms.json gives to'evah as "abhorrent", and 17:15 uses "abhorrent".
 - Fix: "and people find a mocker abhorrent."
 
-**7. Minor: plain.txt 23:21a: softened and inconsistent.** The noun סֹבֵא (sove') is "drunkard", as in Deuteronomy 21:20, the pair the 23:20 note points to. The Plain has "wine-swillers" in 23:20 but "the drinker" in 23:21. "Drinker" weakens the word.
+**7. Minor: plain.txt 23:21a: softened and inconsistent.** The noun סֹבֵא (sove') is "drunkard", as in Deuteronomy 21:20, the pair the 23:20 note points to. The Plain English Translation has "wine-swillers" in 23:20 but "the drinker" in 23:21. "Drinker" weakens the word.
 - Fix: "For the drunkard and the glutton..." This also strengthens the Deuteronomy 21:20 link.
 
 **8. Minor: plain.txt 23:13a: the object is reversed.** "Do not hold a youth back from discipline" can be read as "do not keep the youth away from discipline". The Hebrew אַל־תִּמְנַע מִנַּעַר מוּסָר is "do not withhold discipline from a youth".
 - Fix: "Do not hold back discipline from a youth." Then update the anchor of the two 23:13 notes.
 
-**9. Minor: plain.txt 23:7a: "so is he" dropped.** The Hebrew כְּמוֹ־שָׁעַר בְּנַפְשׁוֹ כֶּן־הוּא has two parts, "as he reckons within, so he is". The Plain keeps only the reckoning. That is defensible as a paraphrase, but the dropped כֶּן־הוּא (ken hu) is exactly what the KJV note discusses.
-- Fix: "For he is the kind who keeps score inside." Alternatively, keep the Plain and say in the 23:7 note that ken hu is folded in.
+**9. Minor: plain.txt 23:7a: "so is he" dropped.** The Hebrew כְּמוֹ־שָׁעַר בְּנַפְשׁוֹ כֶּן־הוּא has two parts, "as he reckons within, so he is". The Plain English Translation keeps only the reckoning. That is defensible as a paraphrase, but the dropped כֶּן־הוּא (ken hu) is exactly what the KJV note discusses.
+- Fix: "For he is the kind who keeps score inside." Alternatively, keep the Plain English Translation and say in the 23:7 note that ken hu is folded in.
 
 **10. Minor: plain.txt 23:34a, 23:16a, 24:2b: small additions.**
 - 23:34a: "trying to sleep" adds "trying". The Hebrew is "like one lying down".
@@ -83,7 +83,7 @@ Counts: 0 critical, 5 major, 21 minor.
 **11. Minor: plain.txt 24:18a: "lest" lost.** The Hebrew is פֶּן־יִרְאֶה יְהוָה, "or else the LORD will see". "for the LORD may see it" turns a warning into a possibility.
 - Fix: "or the LORD will see it and count it evil, / and turn his anger away from your enemy."
 
-**12. Minor: plain.txt 23:17, 24:1, 24:19 (and 3:31): one verb, two renderings.** The verb is qinne' in all of them. The Plain has "jealous" in 3:31, 23:17 and 24:1, but "envy" in 24:19. The 24:19 choice is right, because it follows Psalm 37:1's Plain, but nothing tells the reader.
+**12. Minor: plain.txt 23:17, 24:1, 24:19 (and 3:31): one verb, two renderings.** The verb is qinne' in all of them. The Plain English Translation has "jealous" in 3:31, 23:17 and 24:1, but "envy" in 24:19. The 24:19 choice is right, because it follows Psalm 37:1's Plain English Translation, but nothing tells the reader.
 - Fix: add a sentence to the 24:19 note saying the verb is the one rendered "be jealous" in 23:17 and 24:1, and is "envy" here to match Psalm 37:1.
 
 **13. Minor: plain.txt 24:30 ("a lazy man's field") and the heading "The lazy man's field" against terms.json.** The terms.json entry for 'atsel explicitly lists 24:30 under "lazy one / a lazy person; never 'sluggard'". "Man" is defensible, because the Hebrew has אִישׁ עָצֵל, and it parallels "a senseless man's" (אִישׁ חֲסַר־לֵב). But it departs from the term entry, which also governs the open "lazy man" / "lazy one" question between 10-15 and 01-09.
@@ -94,8 +94,8 @@ Counts: 0 critical, 5 major, 21 minor.
 - רֵאשֶׁךָ against רֵישֶׁךָ (spelling);
 - singular וּמַחְסֹרְךָ against plural וּמַחְסֹרֶיךָ.
 
-Because 24:34 has no "like" before the walker, the Plain's "like a drifter" follows 6:11, not the Hebrew of 24:34.
-- Fix: list the three differences, and say that the Plain keeps 6:11's wording because the sense is the same.
+Because 24:34 has no "like" before the walker, the Plain English Translation's "like a drifter" follows 6:11, not the Hebrew of 24:34.
+- Fix: list the three differences, and say that the Plain English Translation keeps 6:11's wording because the sense is the same.
 
 ### Minor: facts and sources
 
@@ -148,8 +148,8 @@ Budge's exact English and his line numbers (460, 464, 177–178, 436–437, 129,
 - The 23:31 Greek reading replaces only the first line, leaving "as it shows its gleam in the cup / and slides down so easily", which the Greek does not have.
 - Fix: anchor the whole verse (or the whole first line plus what follows) so that the switched text reads as the Greek does.
 
-**25. Minor: notes.json 24:26: wording close to the ESV and KJV.** The 24:26 note paraphrases 27:6 as "faithful are the wounds of a friend, but an enemy's kisses are many", which is close to the ESV and KJV wording. The site's Plain of 27:6 is "Wounds from someone who loves you are true, / but kisses from someone who hates you come thick and fast."
-- Fix: quote that Plain with its reference.
+**25. Minor: notes.json 24:26: wording close to the ESV and KJV.** The 24:26 note paraphrases 27:6 as "faithful are the wounds of a friend, but an enemy's kisses are many", which is close to the ESV and KJV wording. The site's Plain English Translation of 27:6 is "Wounds from someone who loves you are true, / but kisses from someone who hates you come thick and fast."
+- Fix: quote that Plain English Translation with its reference.
 
 **26. Minor: topics.json `widows`: overstated.** "Many scholars think the original Hebrew may also have named the widow" overstates the 23:10 note, which says "Some scholars have proposed reading 'almanah... no Hebrew manuscript has that reading."
 - Fix: "some scholars", and add that no manuscript has it.
@@ -185,7 +185,7 @@ Budge's exact English and his line numbers (460, 464, 177–178, 436–437, 129,
 - **Rabbinic sources:** Avot 4:19 (Samuel the Small); Sanhedrin 39b and Megillah 10b; Sanhedrin 73a; Sotah 44a (both readings of 24:27).
 - **Church documents:** Catechism 2242–2243 and 2290; Calvin, <i>Institutes</i> 3.10.2 and 4.20.31–32; Luther, <i>Temporal Authority</i> (1523); Schleitheim (1527); Wesley's General Rules (1743); Augustine, <i>Confessions</i> 1.9.
 - **Other works:** Erman (1924); Dobson (1970); Webb (2011); Allen (1903).
-- **Repeated sayings and cross-quotations:** Psalm 37:1, Psalm 62:12 and 10:1 are quoted in their current Plain.
+- **Repeated sayings and cross-quotations:** Psalm 37:1, Psalm 62:12 and 10:1 are quoted in their current Plain English Translation.
 - **Brief requirements:** a settings card with `readers` for every unit and for the 24:23 collection; the rod not softened; the strange-woman note is fair; both `traditions` cards have a `top`, and churches really differ on both.
 - **Drift check:** apart from 24:20b, no verse reproduces a familiar NIV or ESV rendering that the Hebrew does not force. 24:3a, 24:27 and 24:33 are close because the Hebrew forces them, and 24:33 also follows 6:10.
 
@@ -215,7 +215,7 @@ Budge's exact English and his line numbers (460, 464, 177–178, 436–437, 129,
 22. Fixed. The website is removed from every witness field and from the chapter 23 witness statement. 24:22 now reads "Old Greek (Rahlfs 24:22a–e; Codex Vaticanus in Swete's edition...)".
 23. Fixed. Two variants are added: 23:23, an omission in the Old Greek with an empty plain (the note keeps the discussion), and 23:27, zonah against allotrios (oikos), which may point to zarah. The 23:27 note mentions it. 23:27a also now follows 22:14, "a deep pit", per the Lead decision.
 24. Fixed in part. The build forbids an anchor that crosses a line break, so a variant cannot cover the whole verse. Instead each line has its own Greek reading. At 23:2 a second variant on "if you are a man of large appetite" has an empty Greek plain, because the Greek moves that line into 23:3. At 23:31 the first line's Greek reading now includes "and talk with them as you walk", and two new variants cover "as it shows its gleam in the cup" ("for if you fix your eyes on the bowls and the cups,") and "and slides down so easily" ("afterward you will walk about more naked than a pestle."). With all readings switched, the verse reads as the Greek does.
-25. Fixed. The 24:26 note quotes the site's Plain of 27:6 with its reference.
+25. Fixed. The 24:26 note quotes the site's Plain English Translation of 27:6 with its reference.
 26. Fixed. The widows topic now says "some scholars have proposed..." and that no manuscript has the reading.
 
-Also fixed under the Lead decisions: 23:27a follows 22:14. Matthew 5:44 and 7:6 are now quoted in the site's Plain of Matthew, which has since been published. Ahiqar is named as "Story of Ahiqar", matching its works.json entry. `node tools/build.js --check Pro/23-24`: 0 errors, 0 warnings.
+Also fixed under the Lead decisions: 23:27a follows 22:14. Matthew 5:44 and 7:6 are now quoted in the site's Plain English Translation of Matthew, which has since been published. Ahiqar is named as "Story of Ahiqar", matching its works.json entry. `node tools/build.js --check Pro/23-24`: 0 errors, 0 warnings.

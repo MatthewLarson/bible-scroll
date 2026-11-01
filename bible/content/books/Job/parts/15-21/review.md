@@ -1,6 +1,6 @@
 # Hostile review: Job 15–21 (part 15-21)
 
-Reviewer's verdict. This is a strong part. The Plain follows the Hebrew closely verse by verse. It keeps the poetry parallel and avoids padding, and I found no close copying of the NIV or ESV beyond phrases that cannot be avoided ("I know that my redeemer lives"). The hard words are flagged honestly (minlam, qintse, tahkeru, 'atinav, shaddun, mibbesari), and nearly every factual claim I checked holds up: the NETS asterisks, the 11QtgJob column ranges, 1 Clement 26:3, the Office of the Dead lessons, the BCP burial sentences, Calvin, Institutes 2.10.19, Luther 1545, Bava Batra 15b/16a, Shabbat 115a, Maimonides, Guide 3.23, and the Babylonian Theodicy and Amenemope parallels. `build.js --check Job/15-21` passes with 0 errors (the single warning is on book.json, not this part). The term choice for go'el ("my redeemer", lowercase, with the "family rescuer" gloss) is sound. It matches content/terms.json, which this writer added, and Ruth's "family redeemer". The brief's "kinsman-redeemer" was out of date, and the writer was right to follow Ruth. The weak spot is the most important passage. The four readings of 19:25–27 are sound in outline, but they name scholars inconsistently across the note, the chapter page, the settings card and the traditions card. Clines in particular sits in three incompatible places. Jerome is misquoted. The Jewish reading is thin and unsourced. The 19:28 variant chooses "in him" against the Leningrad Codex on reasonable grounds, but it overstates the case and names its witnesses only in part. None of this is critical. All of it should be fixed before publication.
+Reviewer's verdict. This is a strong part. The Plain English Translation follows the Hebrew closely verse by verse. It keeps the poetry parallel and avoids padding, and I found no close copying of the NIV or ESV beyond phrases that cannot be avoided ("I know that my redeemer lives"). The hard words are flagged honestly (minlam, qintse, tahkeru, 'atinav, shaddun, mibbesari), and nearly every factual claim I checked holds up: the NETS asterisks, the 11QtgJob column ranges, 1 Clement 26:3, the Office of the Dead lessons, the BCP burial sentences, Calvin, Institutes 2.10.19, Luther 1545, Bava Batra 15b/16a, Shabbat 115a, Maimonides, Guide 3.23, and the Babylonian Theodicy and Amenemope parallels. `build.js --check Job/15-21` passes with 0 errors (the single warning is on book.json, not this part). The term choice for go'el ("my redeemer", lowercase, with the "family rescuer" gloss) is sound. It matches content/terms.json, which this writer added, and Ruth's "family redeemer". The brief's "kinsman-redeemer" was out of date, and the writer was right to follow Ruth. The weak spot is the most important passage. The four readings of 19:25–27 are sound in outline, but they name scholars inconsistently across the note, the chapter page, the settings card and the traditions card. Clines in particular sits in three incompatible places. Jerome is misquoted. The Jewish reading is thin and unsourced. The 19:28 variant chooses "in him" against the Leningrad Codex on reasonable grounds, but it overstates the case and names its witnesses only in part. None of this is critical. All of it should be fixed before publication.
 
 Counts: critical 0, major 4, minor 17.
 
@@ -45,7 +45,7 @@ Location: plain.txt 16:16 "a death-dark shadow". Every other part renders tsalma
 ### 7. Minor: 16:3 note says the Old Greek "lacked this verse"
 Location: notes.json 16:3 "Wind thrown back". NETS asterisks only part of 16:3, and the chapter page itself says "parts of 16:3". Fix: write "lacked part of this verse".
 
-### 8. Minor: 21:30 note calls the Greek "closer to the Plain" without saying it is Theodotion
+### 8. Minor: 21:30 note calls the Greek "closer to the Plain English Translation" without saying it is Theodotion
 Location: notes.json 21:30. NETS asterisks all of 21:28–33, so 21:30 is Theodotion's, not the Old Greek's. Your own 21:32 note says the Old Greek lacked 21:28–33. Fix: write "Theodotion's Greek (supplied by Origen)".
 
 ### 9. Minor: the Ketiv/Qere at 19:29 is described backward
@@ -54,8 +54,8 @@ Location: notes.json 19:29. It says "The last word is written <i>shaddun</i> (Ke
 ### 10. Minor: the 17:3 note puts the Greek's stolen goods in 17:3
 Location: notes.json 17:3. In Rahlfs the line about strangers stealing Job's goods is in 17:2, and 17:3 continues it. Fix: write "the Greek of 17:2–3".
 
-### 11. Minor: a cross-reference misquotes this part's own Plain
-Location: notes.json 16:13. It says Job's kidneys "will 'waste away' with longing in 19:27", but the Plain of 19:27 reads "My inmost being is spent with longing". Fix: quote the Plain, or drop the quotation marks.
+### 11. Minor: a cross-reference misquotes this part's own Plain English Translation
+Location: notes.json 16:13. It says Job's kidneys "will 'waste away' with longing in 19:27", but the Plain English Translation of 19:27 reads "My inmost being is spent with longing". Fix: quote the Plain English Translation, or drop the quotation marks.
 
 ### 12. Minor: the 16:4 preview misstates the roots
 Location: notes.json 16:4 `p`: "The head-shake was a gesture of scorn. The same root in 16:5 and 2:11 means sympathy." The head-shake in 16:4 is *heni'a* (נוע). The word in 16:5 and 2:11 is *nid/nud* (נוד), a different root, as the body itself says ("a related word"). Fix: write "A similar word in 16:5 and 2:11 means sympathy."
@@ -80,14 +80,14 @@ Location: plain.txt 20:9 "his home will look for him no more". The Hebrew is "hi
 - ch. 15 `to`: "Job, sitting in the ash heap outside his town". The Hebrew says only "among the ashes" (2:8). "Outside the city" comes from the Greek of 2:8 and from tradition. Fix: write "on the ash heap (outside the town, in the Greek and in tradition)".
 - ch. 20 `readers`: "For readers in Persian-period Judah". The book's date is debated (book.json gives the 600s to the 300s). Hedge it: "If the book was read in Persian-period Judah...".
 
-### 19. Minor: 20:29 and 27:13 are said to be "almost word for word" but are worded differently in the Plain
+### 19. Minor: 20:29 and 27:13 are said to be "almost word for word" but are worded differently in the Plain English Translation
 Location: notes.json 20:29 and the C lens of ch. 20. The Plains read "This is the share God gives a wicked person" (20:29) and "This is the share a wicked man gets from God" (27:13). The Hebrew first lines are nearly identical (*zeh cheleq-adam rasha' me'im Elohim/El*). Fix: coordinate with 22-31 so the first lines match.
 
-### 20. Minor: other parts quote this part's verses in wording this Plain does not use (consistency)
-- 22-31 notes.json: "miserable comforters" (16:2). The Plain has "comforters who bring trouble". The build should warn on this.
-- 32-37 notes.json: Job's "windy words" (16:3). The Plain has "words of wind".
+### 20. Minor: other parts quote this part's verses in wording this Plain English Translation does not use (consistency)
+- 22-31 notes.json: "miserable comforters" (16:2). The Plain English Translation has "comforters who bring trouble". The build should warn on this.
+- 32-37 notes.json: Job's "windy words" (16:3). The Plain English Translation has "words of wind".
 - book.json outline, 16:1–22: "miserable comforters". That is KJV/NIV wording, not the site's.
-- 08-14 chapters.json: the go'el "will stand on the earth at the last". The Plain has "at last he will stand up on the dust". Not in quotation marks, but worth aligning.
+- 08-14 chapters.json: the go'el "will stand on the earth at the last". The Plain English Translation has "at last he will stand up on the dust". Not in quotation marks, but worth aligning.
 
 These are other writers' files. Pass them on to those writers.
 
@@ -97,7 +97,7 @@ These are other writers' files. Pass them on to those writers.
 - 16:16 note: it says tsalmavet appears "ten times in Job... and in Psalm 23:4", which implies Psalm 23:4 is its only other use. Write "and elsewhere, most famously Psalm 23:4".
 
 ## What I checked and how
-- Every verse of 15–21 against `node tools/literal.js` and the Hebrew of texts/orig. Apart from finding 17, I found no omissions, additions or reversals of who does what. The Plain follows the Masoretic Text everywhere except 19:28 ("in him") and the Qere readings (15:15, 20:11, 21:13), and the variants say so.
+- Every verse of 15–21 against `node tools/literal.js` and the Hebrew of texts/orig. Apart from finding 17, I found no omissions, additions or reversals of who does what. The Plain English Translation follows the Masoretic Text everywhere except 19:28 ("in him") and the Qere readings (15:15, 20:11, 21:13), and the variants say so.
 - texts/auto/Job.json for 15–21: every meaningful Ketiv/Qere is handled (15:15 variant; 20:11, 21:13 and 19:29 in notes). The rest are spelling.
 - Old Greek asterisks: checked against the NETS Iob PDF (septuaginta.uni-goettingen.de). The writer's claims for 16:3 (partial; see finding 7), 17:16, 19:28 (partial), 20:3, 9, 11–13, 21:15, 19, 21, 23 and 28–33 match NETS.
 - Checked by web or by recall of the primary text: Jerome, *Against John* 30 (NPNF2 6, misquoted; see finding 2); Calvin, Institutes 2.10.19 (correct); 1 Clement 26:3; the Office of the Dead Matins lessons (17:1–3, 11–15 and 19:20–27); the responsory *Credo quod redemptor*; the BCP 1549/1662 burial sentences; Handel's monument; Luther 1545; Bava Batra 15b/16a; Berakhot 7a; Shabbat 115a; Avot 4:11; Maimonides, Guide 3.23; 11QtgJob columns (17:14–18:4; 19:11–19; 19:29–20:6; 21:2–10; 21:20–27).
@@ -126,22 +126,22 @@ All 21 findings were accepted. None was rejected outright, though 19 and 20 were
 5. **Traditions card.** It is replaced, keeping top "resurrection". The new question is whether anything of Job lives on between death and the resurrection (19:26).
    - Yes: Catholic (ccc), Orthodox (ware-orthodox), Reformed (Westminster 32.1–2, with Job 19:26–27 cited as a proof text for 32.2).
    - No: Adventist (sda-beliefs, death as unconscious sleep) and Jehovah's Witnesses (jw-insight).
-6. **tsalmavet.** The Plain of 16:16 is now "deep shadow lies on my eyelids", and the note keeps "shadow of death". I added a terms.json entry (tsalmavet = "deep shadow") so that 22-31 can align. 22-31's "deep darkness"/"deep dark" is left to that writer.
+6. **tsalmavet.** The Plain English Translation of 16:16 is now "deep shadow lies on my eyelids", and the note keeps "shadow of death". I added a terms.json entry (tsalmavet = "deep shadow") so that 22-31 can align. 22-31's "deep darkness"/"deep dark" is left to that writer.
 7. **16:3.** The note now says "lacked part of this verse".
 8. **21:30.** The note now says "Theodotion's Greek, which Origen supplied here".
 9. **19:29.** The note now says "read (Qere) shaddun and written (Ketiv) shaddin".
 10. **17:3.** The note now says "The Greek of 17:2–3".
-11. **16:13.** The note now quotes the Plain: "inmost being (his kidneys) is spent with longing in 19:27".
+11. **16:13.** The note now quotes the Plain English Translation: "inmost being (his kidneys) is spent with longing in 19:27".
 12. **16:4 p.** Now reads "A similar word in 16:5 and 2:11".
 13. **19:25 "At last".** Deuteronomy 13:9 is now offered as "compare the related ba'acharonah". **"On the dust":** the r list now has Psalm 35:11 in place of 12:5.
 14. **Kinsman-redeemer topic.** The topic now reads "Job names a go'el, the role of the relative who rescues his kin". The heavenly-advocate view is moved into the section as "a major group of modern scholars (Mowinckel, Pope, Habel)". `uncommon` now holds Clines's "Job's own cry". Newsom is not named, because I have not verified her position on 19:25.
 15. **19:25–26 variants.** The rabbinic Targum is added: a reading row at 19:25, and the word "again" at 19:26 in `b`. Both say the Peshitta was not checked.
 16. **15:23.** The entry now says "followed by the NEB and REB, and in part by the NIV".
-17. **20:9.** The Plain now reads "his place will see him no more".
+17. **20:9.** The Plain English Translation now reads "his place will see him no more".
 18. **Settings.**
    - Ch. 15 `to`: "sitting among the ashes (2:8; outside the town in the Greek and in later tradition)".
    - Ch. 20 `readers`: "If the book was read in Persian-period Judah (its date is debated)...".
-19. **20:29 / 27:13.** Instead of editing 22-31's Plain, the claim is softened. The note now says the first line "comes back in nearly the same Hebrew in 27:13". The ch. 20 C lens is corrected too: 27:13–23 *opens* with that line; the old text said it "ends" with it.
+19. **20:29 / 27:13.** Instead of editing 22-31's Plain English Translation, the claim is softened. The note now says the first line "comes back in nearly the same Hebrew in 27:13". The ch. 20 C lens is corrected too: 27:13–23 *opens* with that line; the old text said it "ends" with it.
 20. **Other writers' quotes.** I left these to those writers (22-31, 32-37, the book.json owner 01-07, and 08-14), as the coordinator decided. Nothing was edited outside this part.
 21. **Small points.**
    - 19:3: now *tahkeru* in both places, matching the pointing תַּהְכְּרוּ.

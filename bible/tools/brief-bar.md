@@ -16,7 +16,7 @@ The site numbers this book as Swete's Greek does (texts/orig, the catalog). The 
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). Build every verse from the
   Greek in `texts/orig/Bar.json` (Swete, Codex Vaticanus) with a literal working line in `.scratch/bar-<part>/`, then
-  Plain English, then the drift audit in your head against the NRSV, NABRE, RSV, NJB and NETS (never write their text).
+  Plain English Translation, then the drift audit in your head against the NRSV, NABRE, RSV, NJB and NETS (never write their text).
   KJV (`texts/en/Bar.json`) and Vulgate/Douay (`texts/src/Bar.lat.json`) for sense only; Swete's footnotes in
   `texts/src/Bar.app.json` (A, Q, Marchalianus and others: read his sigla exactly).
 - Lenses (fixed): C Catholic, O Orthodox, P Protestant, H Historical-critical, J Jewish reception.
@@ -32,14 +32,14 @@ decided once at 6:4 with a note. Refrain in ch. 6 ("so you can see they are not 
 40, 44, 52, 56, 65, 69, 72 and variations): render each the same unless the Greek differs, and say how in a note.
 Check content/terms.json and content/proposals/*/terms.json first.
 
-## Parallels (the earlier book's Plain is the model; quote the site's current Plain exactly)
-- 1:15-2:19 follows Daniel 9:4-19 closely (shared phrases: compare the site's Daniel Plain verse by verse, and keep
+## Parallels (the earlier book's Plain English Translation is the model; quote the site's current Plain English Translation exactly)
+- 1:15-2:19 follows Daniel 9:4-19 closely (shared phrases: compare the site's Daniel Plain English Translation verse by verse, and keep
   the same English where the Greek of Baruch matches the Greek of Daniel; say in a note where it does not).
-- 2:21-23 and 2:29-35 use Jeremiah 7:34, 27:11-12, 32:37-41 and Deuteronomy 28, 30 (the site's Plain of those).
+- 2:21-23 and 2:29-35 use Jeremiah 7:34, 27:11-12, 32:37-41 and Deuteronomy 28, 30 (the site's Plain English Translation of those).
 - 3:29-30 beside Deuteronomy 30:12-13 (and Romans 10:6-8); 3:9-4:4 beside Job 28, Proverbs 8, Sirach 24.
 - 4:36-5:9 beside Isaiah 40, 49, 60 and Psalms of Solomon 11 (works.json name; describe, do not quote unless you
   read the Greek).
-- Chapter 6 beside Jeremiah 10:1-16 (the site's Plain), Isaiah 44:9-20, Psalm 115:4-8; Jeremiah 29 is the letter it
+- Chapter 6 beside Jeremiah 10:1-16 (the site's Plain English Translation), Isaiah 44:9-20, Psalm 115:4-8; Jeremiah 29 is the letter it
   claims to be like.
 
 ## Places that need full treatment (candidate links: check each in an open text before you assert it)
@@ -54,7 +54,7 @@ Check content/terms.json and content/proposals/*/terms.json first.
 - 4:5-5:9: Jerusalem as a mother addressing her children (compare Lamentations 1, Isaiah 54), and the consolation.
 - Chapter 6: the title (written to be read to the captives), "seven generations" (6:3) beside Jeremiah's seventy
   years, Babylonian processions, the Greek fragment of the Letter from Qumran Cave 7 (7Q2: cite only if you read its
-  publication or a scholar's report of what verses it holds in this session), and 2 Maccabees 2:1-3 (the site's Plain),
+  publication or a scholar's report of what verses it holds in this session), and 2 Maccabees 2:1-3 (the site's Plain English Translation),
   which knows a letter of Jeremiah against idols.
 - Where the book matches, goes beyond or conflicts with the 66 books, a `canon` note.
 

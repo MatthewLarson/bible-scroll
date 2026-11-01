@@ -4,7 +4,7 @@ Reviewed: plain.txt, notes.json (150), variants.json (23), glosses.json (47), ch
 sources.json, `content/books/Act/book.json`, `content/proposals/nt/topics/acts.json`, `ascension.json`,
 `spiritual-gifts.json`, and the 01-04 entries in `content/proposals/nt/terms.json`. I checked every verse against
 the SBLGNT, the Byzantine text and the regenerated TAGNT word list (`texts/orig/Act.json`, `literal.js`). I
-checked every Old Testament and Gospel quotation against the site's current Plain, the traditions cards against
+checked every Old Testament and Gospel quotation against the site's current Plain English Translation, the traditions cards against
 the confessions they cite, and the uncertain points with web searches. `VERBOSE=1 node tools/build.js --check
 Act/01-04` gives 0 errors and 5 warnings.
 
@@ -13,7 +13,7 @@ Act/01-04` gives 0 errors and 5 warnings.
 This is a strong part. The translation is faithful and comes from the Greek, not from memory. I found no run of
 NIV/ESV wording that the Greek does not force. Parallels with Matthew, Mark and the Luke parts already written
 are aligned: the apostle list in 1:13 matches Luke 6:15–16, Psalm 110 in 2:34–35 matches Luke 20:42–43, and
-"Field of Blood" matches Matthew 27:8. Every quotation of the site's Old Testament Plain that I checked (about 40)
+"Field of Blood" matches Matthew 27:8. Every quotation of the site's Old Testament Plain English Translation that I checked (about 40)
 matches exactly. The notes are dense and accurate, and most named sources check out: Weinstock in JRS 1948, the
 Mantey/Marcus exchange in JBL 1951–52, Wesley on Acts 10:35, Philo on the Decalogue 46, Shabbat 88b, 11QPs-a
 column 27, Josephus on David's tomb, Mishnah Sanhedrin 1:6, and the Calvin quip on 1:6. The traditions cards are
@@ -21,7 +21,7 @@ fair, cite real catechisms and confessions, and never rank the views.
 
 The faults are fixable but real:
 - One verse carries words that belong to the next verse under KJV numbering (4:5/4:6).
-- Five quotations from Luke no longer match Luke's Plain, so the build warns.
+- Five quotations from Luke no longer match Luke's Plain English Translation, so the build warns.
 - One note makes a false claim about the Septuagint of Joel, and it contradicts another note.
 - The "lesser role for women" in Codex Bezae is credited to Eldon Epp. The standard argument is Ben Witherington's.
 - The KJV's "Joses" at 4:36 has no variant entry.
@@ -35,7 +35,7 @@ source, reading or fragment.
 
 **1. major: plain.txt 4:5 and 4:6, "in Jerusalem" is in the wrong verse.**
 The regenerated word list puts ἐν Ἰερουσαλήμ at the start of 4:6. Running `literal.js Act 4:5-6` gives
-"[6] in | Jerusalem | and | Annas ...", and the KJV ends 4:6 with "were gathered together at Jerusalem." The Plain
+"[6] in | Jerusalem | and | Annas ...", and the KJV ends 4:6 with "were gathered together at Jerusalem." The Plain English Translation
 puts "in Jerusalem" in 4:5 ("The next morning, in Jerusalem, there was a meeting...") and none in 4:6. The site
 keys every verse to KJV numbering, so a reader who compares the KJV or taps 4:6 sees the words in the wrong verse.
 (2:10/2:11 and 3:19/3:20 were checked as asked and are correct.)
@@ -44,18 +44,18 @@ elders and the scribes, met together," and 4:6 "in Jerusalem, along with Annas t
 Alexander and all who came from high-priestly families." Re-check note 123's anchor "their rulers, the elders and
 the scribes" and the gloss on "the scribes."
 
-**2. major: notes.json, five Luke quotations do not match Luke's Plain (build warnings).**
+**2. major: notes.json, five Luke quotations do not match Luke's Plain English Translation (build warnings).**
 `--check Act/01-04` warns on:
-- notes[3] at 1:2, Luke 9:51. The note has "when the days of his taking up were being fulfilled." Luke's Plain reads "As the days were coming to completion before he would be taken up."
-- notes[16] at 1:9, Luke 21:27. The note has "in a cloud with power and great glory." Luke's Plain reads "in a cloud, with power and much glory."
-- notes[54] at 2:11, Luke 1:49. The note has "has done great things." Luke's Plain reads "has worked great things for me."
-- notes[136] at 4:24, Luke 2:29. The note has "Now, Master, you let your slave go." Luke's Plain reads "Master, now you are setting your slave free."
-- notes[145] at 4:33, Luke 2:52. The note has "in favor with God and people." Luke's Plain reads "in favor with God and with people."
+- notes[3] at 1:2, Luke 9:51. The note has "when the days of his taking up were being fulfilled." Luke's Plain English Translation reads "As the days were coming to completion before he would be taken up."
+- notes[16] at 1:9, Luke 21:27. The note has "in a cloud with power and great glory." Luke's Plain English Translation reads "in a cloud, with power and much glory."
+- notes[54] at 2:11, Luke 1:49. The note has "has done great things." Luke's Plain English Translation reads "has worked great things for me."
+- notes[136] at 4:24, Luke 2:29. The note has "Now, Master, you let your slave go." Luke's Plain English Translation reads "Master, now you are setting your slave free."
+- notes[145] at 4:33, Luke 2:52. The note has "in favor with God and people." Luke's Plain English Translation reads "in favor with God and with people."
 
 The same problem appears where the build does not catch it. book.json `audience.why` has "may know the certainty"
-(Luke 1:4), but Luke's Plain reads "recognize how sure and firm the teaching you received really is."
+(Luke 1:4), but Luke's Plain English Translation reads "recognize how sure and firm the teaching you received really is."
 A book is done only at 0 warnings.
-Fix: quote Luke's current Plain exactly, or paraphrase without quotation marks. Note 44's point, that the Greek
+Fix: quote Luke's current Plain English Translation exactly, or paraphrase without quotation marks. Note 44's point, that the Greek
 of 2:1 and Luke 9:51 shares a verb, can be made in its own words.
 
 **3. major: notes.json note 58 (2:16, "Joel 2:28–32") is wrong about the Septuagint, and it contradicts note 62.**
@@ -86,7 +86,7 @@ SBL and NA28 read Ἰωσήφ. The word list marks Ἰωσὴφ {NnSYWG}, which 
 brief-nt.md requires an entry wherever the Byzantine text or the TR "reads differently in a way an English reader
 would notice," and a different name is exactly that.
 Fix: add a 4:36 variant anchored on "Joseph." List the witnesses: ℵ A B D and most early witnesses read Ἰωσήφ;
-the Byzantine text and the TR read Ἰωσῆς. Say why the Plain follows Ἰωσήφ, and note that both are forms of the
+the Byzantine text and the TR read Ἰωσῆς. Say why the Plain English Translation follows Ἰωσήφ, and note that both are forms of the
 same name.
 
 ### Minor
@@ -130,13 +130,13 @@ settings card to match.
 
 **12. minor: plain.txt 1:11 loses the emphatic "this Jesus."**
 οὗτος ὁ Ἰησοῦς ὁ ἀναλημφθείς ... οὕτως ἐλεύσεται stresses that the same Jesus will return, the point the
-messengers make. The Plain reads "Jesus has been taken from you ... And he will come..."
+messengers make. The Plain English Translation reads "Jesus has been taken from you ... And he will come..."
 Fix: "This same Jesus, who has been taken from you up into the sky, will come in just the way..." Check this
 against the drift rule: the Greek forces "this Jesus." Rebuild the rest of the sentence if it ends up close to the
 NIV.
 
 **13. minor: plain.txt 1:5 does not match its parallels.**
-Acts 1:5 has Ἰωάννης μὲν ἐβάπτισεν ὕδατι. Luke 3:16 has the same dative ὕδατι, and Luke's Plain says "in water,"
+Acts 1:5 has Ἰωάννης μὲν ἐβάπτισεν ὕδατι. Luke 3:16 has the same dative ὕδατι, and Luke's Plain English Translation says "in water,"
 as does Matthew 3:11. Acts 1:5 says "with water," so the contrast with "in the Holy Spirit" is uneven, and Acts
 11:16 will quote the line.
 Fix: "For John baptized in water, but you will be baptized in the Holy Spirit..." List the pair for the lead.
@@ -151,9 +151,9 @@ Fix: make it neutral, for example "...and visitors from Rome. We are Jews and pr
 Tyson).
 Fix: "Written after Luke's Gospel; dates proposed run from about 62 to the early 100s, most often 80–90."
 
-**16. minor: chapters.json ch. 2, settings 2:38–40 (`to`) quotes words that are not in the Plain.**
-The card has "pierced to the heart." The Plain at 2:37 reads "These words pierced their hearts."
-Fix: quote the Plain.
+**16. minor: chapters.json ch. 2, settings 2:38–40 (`to`) quotes words that are not in the Plain English Translation.**
+The card has "pierced to the heart." The Plain English Translation at 2:37 reads "These words pierced their hearts."
+Fix: quote the Plain English Translation.
 
 **17. minor: chapters.json ch. 2 baptism card, Catholic view: a claim about the Catechism.**
 The card says the promise "to you and to your children" is "part of the reason" for infant baptism, citing
@@ -194,16 +194,16 @@ Fix: add source keys for it.
 **24. minor: glosses and terms are inconsistent in four places.**
 - gloss 2:5: "Reverent => God-fearing" uses the technical word that the nt terms and note 53 reserve for Gentile sympathizers. Use "devout" or "deeply religious."
 - The nt term for σῴζω in healing stories asks for a gloss "healed and made whole." 4:9 "has been saved" has a note (127) but no gloss. Add one.
-- The 01-04 entry for παρρησία says to use "boldness" or "boldly" "where courage before danger is the point." But 4:29 and 4:31, both under threat, use "freedom and courage" and "freely and fearlessly," and note 131 is titled "Boldness." Make the entry describe what the Plain actually does.
+- The 01-04 entry for παρρησία says to use "boldness" or "boldly" "where courage before danger is the point." But 4:29 and 4:31, both under threat, use "freedom and courage" and "freely and fearlessly," and note 131 is titled "Boldness." Make the entry describe what the Plain English Translation actually does.
 - notes[147] (4:35) has no source; that is acceptable. Note 148 cites "Josephus" with no passage for Jews on Cyprus. Give the passage (Antiquities 13.284–287, quoting Strabo) or drop the name.
 
 ## Fixes applied
 1. Accepted. "in Jerusalem" moved from 4:5 to 4:6 (KJV numbering): 4:5 "The next morning their rulers, the elders and the scribes, gathered" / 4:6 "in Jerusalem. Annas the high priest was there, and Caiaphas, John, Alexander, and all who came from high-priestly families." Note 123 anchor and the 4:5 gloss still match.
-2. Accepted. Notes 3 (Luke 9:51), 16 (Luke 21:27), 54 (Luke 1:49), 136 (Luke 2:29), 145 (Luke 2:52) and also note 90 (Luke 24:53, a sixth build warning) now quote Luke's current Plain exactly; note 44 paraphrases Luke 9:51; book.json audience.why paraphrases Luke 1:4 without quotation marks.
+2. Accepted. Notes 3 (Luke 9:51), 16 (Luke 21:27), 54 (Luke 1:49), 136 (Luke 2:29), 145 (Luke 2:52) and also note 90 (Luke 24:53, a sixth build warning) now quote Luke's current Plain English Translation exactly; note 44 paraphrases Luke 9:51; book.json audience.why paraphrases Luke 1:4 without quotation marks.
 3. Accepted. Note 58 no longer lists "my" slaves as a change (it says the Greek of Joel already has it) and adds the real change of order of young and old men; note 62's preview now agrees with its body.
 4. Accepted. Variant 1:14 credits Witherington (existing key `witherington-western-women`) and Metzger, keeps Epp for the anti-Judaic tendency, and notes the doubt whether the pattern is early or Bezae's own layer; book.json "Two texts of Acts" reworded as suggested and the key added to book.json sources.
 5. Accepted. New 4:36 variant "Joseph"/"Joses" (Byzantine and TR Ἰωσῆς), with witnesses and why.
-6. Accepted. New variants at 1:5 ("until Pentecost", D, Sahidic, Augustine per Metzger), 2:43 (ℵ A C vg add "in Jerusalem, and great fear was on all"; the Plain follows B D and the Byzantine text), 4:31 ("to everyone who wished to believe", D E Old Latin, Irenaeus, Augustine) and 2:1 (Byzantine/KJV ὁμοθυμαδόν "with one accord").
+6. Accepted. New variants at 1:5 ("until Pentecost", D, Sahidic, Augustine per Metzger), 2:43 (ℵ A C vg add "in Jerusalem, and great fear was on all"; the Plain English Translation follows B D and the Byzantine text), 4:31 ("to everyone who wished to believe", D E Old Latin, Irenaeus, Augustine) and 2:1 (Byzantine/KJV ὁμοθυμαδόν "with one accord").
 7. Accepted. Note 44 now says "three times: twice of time (Luke 9:51 and here) and once of a storm filling a boat (Luke 8:23)"; Luke 24:44 dropped from `r`.
 8. Accepted. "halleomai" corrected to hallomai (with the Isaiah form haleitai).
 9. Accepted. Note 91 preview: "For their first two centuries Christians met mostly in houses, not church buildings"; body adds Nicomedia (destroyed 303).
@@ -213,13 +213,13 @@ Fix: add source keys for it.
 13. Accepted. 1:5 "John baptized in water," matching Luke 3:16. For the lead: Acts 11:16 (part 11-14) still has "John baptized with water" and should follow.
 14. Accepted. 2:10 now "...near Cyrene. Some of us are visitors from Rome. We are Jews and proselytes." Note 53 anchor and body updated (both readings left open).
 15. Accepted. 1:1–5 settings `when` now gives about AD 62 to the early 100s, most often 80–90; `readers` no longer says "70s or 80s."
-16. Accepted. 2:38–40 `to` no longer quotes non-Plain words; it paraphrases 2:37.
-17. Accepted. Catholic view grounds infant baptism in original sin per Catechism 1250–1252, and says Catholic writers also point to 2:39 (quoted from the Plain).
+16. Accepted. 2:38–40 `to` no longer quotes non-Plain English Translation words; it paraphrases 2:37.
+17. Accepted. Catholic view grounds infant baptism in original sin per Catechism 1250–1252, and says Catholic writers also point to 2:39 (quoted from the Plain English Translation).
 18. Accepted. Lutheran view on goods: Augsburg 16 for lawful property, Apology 16 (key `apology-augsburg`) for the gospel not overthrowing civil order; the "free love, not a law" point is now stated as how Lutheran teachers read Acts, not as Augsburg's words.
 19. Accepted. Lutheran view added to the 3:21 card citing Augsburg Confession 17.
 20. Accepted. Muratorian Fragment "usually dated to the late 100s, though some argue for the 300s."
 21. Accepted. proposals acts.json now says "about 8.5 percent longer," as book.json and the brief.
 22. Accepted. 2:47 duplicate "NA28, SBLGNT" removed; 3:21 Byzantine `orig` now πάντων τῶν ἁγίων αὐτοῦ προφητῶν ἀπ᾽ αἰῶνος; 4:32 preview and plain both "division."
 23. Accepted. New keys `mantey-causal-eis` and `marcus-causal-eis` (JBL 70–71) added to sources.json and to note 82.
-24. Accepted. Gloss 2:5 "devout, deeply religious"; new gloss 4:9 "has been saved" = "healed and made whole"; the παρρησία term entry rewritten to describe what the Plain does (freely; freedom with courage where danger is present; 28:31), note 131 retitled "Freedom to speak" and its 28:31 quote corrected to the Plain, chapter-4 summary/settings say "courage to speak"; note 148 cites Josephus, Antiquities 13.284.
+24. Accepted. Gloss 2:5 "devout, deeply religious"; new gloss 4:9 "has been saved" = "healed and made whole"; the παρρησία term entry rewritten to describe what the Plain English Translation does (freely; freedom with courage where danger is present; 28:31), note 131 retitled "Freedom to speak" and its 28:31 quote corrected to the Plain English Translation, chapter-4 summary/settings say "courage to speak"; note 148 cites Josephus, Antiquities 13.284.
 Lead decisions: "temple" already lowercase in this part (the one "Temple" left is inside an exact Luke 24:53 quote); no βῆμα in chapters 1–4; book.json topics now include `elders` (book-wide church-order card is top `elders`). Check: `VERBOSE=1 node tools/build.js --check Act/01-04` 0 errors, 0 warnings.

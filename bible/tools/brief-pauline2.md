@@ -36,18 +36,18 @@ for this round, so that the eight writers agree:
 - *theopneustos* (2 Tim 3:16) "God-breathed" with a gloss "inspired by God" (2Ti adds the entry).
 - *morphe*, *harpagmos*, *ekenosen* (Phil 2:6-7): the Php writer decides and adds the entries.
 
-**Parallels with books on the site (their Plain is the model; quote it exactly in notes).**
-- Colossians and Ephesians: Ephesians comes first in the canon and its Plain exists. Where Colossians' Greek matches
+**Parallels with books on the site (their Plain English Translation is the model; quote it exactly in notes).**
+- Colossians and Ephesians: Ephesians comes first in the canon and its Plain English Translation exists. Where Colossians' Greek matches
   Ephesians' (Col 1:14 / Eph 1:7; Col 3:18-4:1 / Eph 5:22-6:9; Col 4:7-8 / Eph 6:21-22, nearly word for word;
   Col 3:16 / Eph 5:19; Col 1:20-22 / Eph 2:13-16; Col 2:19 / Eph 4:16), use Ephesians' wording, and differ exactly
   where the Greek differs.
 - 1 Thess 4:15-17 and 1 Corinthians 15:51-52; 1 Thess 5:2 and Matthew 24:43, Luke 12:39, Revelation 3:3 and 16:15
-  (the thief); 2 Thess 2 and Matthew 24, Mark 13, Daniel 7:25, 9:27, 11:36 (Plain exists); Phil 2:10-11 and Isaiah
+  (the thief); 2 Thess 2 and Matthew 24, Mark 13, Daniel 7:25, 9:27, 11:36 (Plain English Translation exists); Phil 2:10-11 and Isaiah
   45:23 and Romans 14:11; Phil 3:5-6 and Romans 11:1, 2 Corinthians 11:22, Galatians 1:13-14, Acts 22:3 and 23:6; 1 Tim
   5:18 quotes Deuteronomy 25:4 (as 1 Corinthians 9:9) and Luke 10:7 (call it "Scripture": a note); 1 Tim 2:13-14 and
   Genesis 2-3; 2 Tim 3:8 Jannes and Jambres (Exodus 7; works.json: check); Acts 16 (Philippi), 17 (Thessalonica), 19-20
-  (Ephesus, Timothy), 28 (Rome): Acts' Plain is the model for names and events.
-- Pairs written in this round at the same time (no Plain to copy yet: translate from your Greek and list the pair in
+  (Ephesus, Timothy), 28 (Rome): Acts' Plain English Translation is the model for names and events.
+- Pairs written in this round at the same time (no Plain English Translation to copy yet: translate from your Greek and list the pair in
   your report; the lead aligns them): 1 Thess 1:1 / 2 Thess 1:1-2; 1 Thess 5:28 / 2 Thess 3:18; 1 Tim 3:1-13 / Titus
   1:5-9; Col 4:9-17 / Philemon 1-2, 10, 23-24 (Onesimus, Archippus, Epaphras, Mark, Aristarchus, Demas, Luke); Col
   4:10-14 / 2 Tim 4:10-11 (Demas, Luke, Mark); the "trustworthy saying" lines.
@@ -55,14 +55,14 @@ for this round, so that the eight writers agree:
 **Names.** Use the spellings Acts and the published letters use (Timothy, Silas in Acts but Silvanus in the letters:
 "Silvanus" with a note that he is Acts' Silas; Epaphroditus, Euodia, Syntyche, Clement, Epaphras, Onesimus, Archippus,
 Apphia, Tychicus, Demas, Aristarchus, Hymenaeus, Alexander, Phygelus, Hermogenes, Onesiphorus, Crescens, Carpus, Erastus,
-Trophimus, Eubulus, Pudens, Linus, Claudia, Artemas, Zenas, Apollos). Grep Acts and Romans' Plain before spelling one.
+Trophimus, Eubulus, Pudens, Linus, Claudia, Artemas, Zenas, Apollos). Grep Acts and Romans' Plain English Translation before spelling one.
 
 **Authorship (C lens, full weight, never flattened).** Undisputed for most scholars: Philippians, 1 Thessalonians,
 Philemon. Disputed: Colossians, 2 Thessalonians. Widely held by critical scholars to be later (pseudonymous): 1 and 2
 Timothy, Titus (the Pastorals), with a real minority defending Paul or a secretary (*amanuensis*) or fragments (the
 "fragment hypothesis" for 2 Timothy). State each view with its best arguments and its named scholars, say which is the
 majority in critical scholarship and which is the traditional view, and do not rank the churches. If authorship is
-disputed, book.json says "traditionally Paul" and labels the question; the Plain follows the text as written ("Paul").
+disputed, book.json says "traditionally Paul" and labels the question; the Plain English Translation follows the text as written ("Paul").
 Ancient pseudonymity and the ethics of it: views, fairly. Never cite a scholar's view from memory: check it this session
 or name only what you opened (STYLE.md rule 2).
 
@@ -81,7 +81,7 @@ Cretan elders, Ephesian widows, women in 1 Tim 2), say so and give the views of 
 
 **Hostile-review priorities** (for later): invented sources or quotations, drift toward the NIV/ESV, papyrus and codex
 claims without a source, flattening the authorship questions, unfair summaries of any tradition, the women's
-passages and slavery handled one-sidedly, quotes of other books' Plain not matching.
+passages and slavery handled one-sidedly, quotes of other books' Plain English Translation not matching.
 
 ## Lead decisions (2026-10-29)
 - **Versification:** KJV numbering wins even where the critical text orders verses differently. Philippians 1:16-17: 1:16 is the "selfish ambition" sentence, 1:17 the "love" sentence (as texts/en, texts/orig and texts/xref key them); the critical order is given in the variant and a note. The build requires verses in order.

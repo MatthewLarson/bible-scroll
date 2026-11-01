@@ -34,16 +34,16 @@ Parts (all write at the same time and cannot see each other):
   them; Ziegler's Göttingen edition restores the Hebrew/Latin order, as the NETS introduction says; do not claim what any
   other edition or Bible does without opening it). In chapters 30-36 the Hebrew and Latin order, which the KJV and
   most English Bibles follow, has two long blocks the other way round, and English Bibles do not agree with each other
-  on verse numbers there. Every Plain verse is one Greek verse; never merge, split or reorder. `texts/en/Sir.json`
+  on verse numbers there. Every Plain English Translation verse is one Greek verse; never merge, split or reorder. `texts/en/Sir.json`
   shows the KJV under the Greek verse that holds each line, marked "[KJV c:v]", from `tools/sir-numbers.tsv` (read
   it). Part 30-36 writes a note at the start of each displaced block (30:25, 31:1, 32:1, 33:1, 34:1, 35:1, 36:1, 36:16)
   giving the KJV numbers, and the book.json writer puts the full table in a section. References to Sirach elsewhere on
   the site already use the Greek numbers (converted 2026-10-30).
-- **The prologue** is verse `1:0` of the Plain (shown unnumbered before chapter 1, the way psalm titles are), one block
+- **The prologue** is verse `1:0` of the Plain English Translation (shown unnumbered before chapter 1, the way psalm titles are), one block
   of prose; `texts/orig/Sir.json` grc `1:0` is Swete's prologue joined. Notes and variants may anchor to `1:0`. Write it
   with a `## Prologue` heading line before it and a heading before 1:1.
 - **Missing lines (`gap`)**: 34 verse numbers have no line in Vaticanus (1:5, 1:7, 1:21, 3:19, 3:25 and others). They
-  belong to the longer Greek text (and the Latin), which the KJV follows. The build needs a Plain line for every
+  belong to the longer Greek text (and the Latin), which the KJV follows. The build needs a Plain English Translation line for every
   number: give each in square brackets (the site shows a bracketed verse as missing from the base text), translated
   from a witness you actually read in this session (the Vulgate in `texts/src/Sir.lat.json` under its own numbers, or a
   printed edition of the longer Greek you open), with a variant entry naming the witnesses as you saw them. Never
@@ -59,14 +59,14 @@ Parts (all write at the same time and cannot see each other):
 
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). Build every verse from the
-  Greek with a literal working line in `.scratch/sir-<part>/`, then Plain, then the drift audit in your head against
+  Greek with a literal working line in `.scratch/sir-<part>/`, then Plain English Translation, then the drift audit in your head against
   the NRSV, NABRE, RSV, NJB, NETS and Skehan–Di Lella (never write their text; log verse, outcome, a few words).
 - Lenses (fixed): C Catholic, O Orthodox, P Protestant, H Historical-critical, J Jewish reception.
 - The book is poetry in couplets: ` / ` between lines, one verse per line. The prologue and 50:1-21's narrative parts
   stay poetry where Swete sets them as lines.
-- Proverbs' Plain is the model where Ben Sira takes up a Proverbs saying; the earlier book's Plain is the model in the
+- Proverbs' Plain English Translation is the model where Ben Sira takes up a Proverbs saying; the earlier book's Plain English Translation is the model in the
   Praise of the Fathers wherever he retells a verse (Genesis to Nehemiah, Isaiah, Ezekiel, Malachi 3:23-24 / 4:5-6 at
-  48:10). Quote the site's current Plain exactly.
+  48:10). Quote the site's current Plain English Translation exactly.
 
 ## Terms (put new ones in content/proposals/works/terms.json after reading content/terms.json and the other briefs)
 φόβος κυρίου "the fear of the Lord" (as in Proverbs); σοφία "wisdom", "Wisdom" where she speaks or acts as a person

@@ -10,10 +10,10 @@ tosefta-sukkah in Num/Isa, and the two book.json quote warnings for 27:25 and 28
 
 ## Verdict
 
-This is a strong part. The Plain was clearly built from the Greek: I compared all 163 translated verses with the
+This is a strong part. The Plain English Translation was clearly built from the Greek: I compared all 163 translated verses with the
 SBLGNT in my head, and with the NIV and ESV. I found no dependence on either: the few close matches are forced by
 the Greek ("Courage! It is I," "This will never happen to you"). Names, numbers, tenses and who does what are
-right. The policy for 17:21 and 18:11 is followed exactly. 16:2b–3 is kept in the Plain and can be removed by
+right. The policy for 17:21 and 18:11 is followed exactly. 16:2b–3 is kept in the Plain English Translation and can be removed by
 switching the variant. 16:8 follows NA28 and THGNT against the SBL and has the variant entry the brief requires.
 "Will stand bound" (16:19; 18:18) is a fair, neutral way to render the periphrastic future perfect. "Seventy-seven"
 (18:22) is right and well argued. "Moonstruck" (17:15) keeps the Greek image, and a gloss and a note explain it.
@@ -142,9 +142,9 @@ Verdict: **pass after fixes**. Findings: 6 major, 17 minor, no critical.
 - **Problem:** "Most grammarians think the form simply means the decision 'will stand' in heaven" is not sourced and
   overstates a live debate. J. R. Mantey and the NASB ("shall have been bound") read the form as heaven's prior
   decision. H. J. Cadbury and others read it as an ordinary future. Stanley Porter and D. A. Carson discuss its
-  stative force. The Plain's "will stand bound" is a good middle rendering; the note just needs to describe the
+  stative force. The Plain English Translation's "will stand bound" is a good middle rendering; the note just needs to describe the
   debate fairly.
-- **Fix:** Name the two readings with a holder for each, say the Plain chooses a stative "will stand" that leaves
+- **Fix:** Name the two readings with a holder for each, say the Plain English Translation chooses a stative "will stand" that leaves
   both open, and cite a source (Carson in EBC, or Porter's *Idioms*).
 
 ### 10. Minor: the Peter card's Orthodox view needs two qualifications (Cyprian, Ravenna)
@@ -257,11 +257,11 @@ Verdict: **pass after fixes**. Findings: 6 major, 17 minor, no critical.
 - **Fix:** Keep the full argument in the chapter box, cut the note to a pointer ("Claude's theory: see the box on
   the chapter page"), and add the Exodus 15:4 Septuagint use.
 
-### 19. Minor: small additions and softenings in the Plain
+### 19. Minor: small additions and softenings in the Plain English Translation
 - **Location and fix:**
   - 14:15, "the time for eating has already gone by": ἡ ὥρα ἤδη παρῆλθεν is "the hour is already late". "For
     eating" is added. Write "it is already late".
-  - 16:1, "demanded": ἐπηρώτησαν is "asked". The Plain sharpens it; "asked him to show them" is enough, since
+  - 16:1, "demanded": ἐπηρώτησαν is "asked". The Plain English Translation sharpens it; "asked him to show them" is enough, since
     πειράζοντες already gives the hostility.
   - 18:32, "when you pleaded with me": ἐπεί is causal. Write "because you pleaded with me".
   - 17:27, "a silver stater": "silver" is not in the Greek. Drop it, or move it to a gloss (the note already says
@@ -288,7 +288,7 @@ Verdict: **pass after fixes**. Findings: 6 major, 17 minor, no critical.
   - 14:3: Bezae and some Old Latin omit "Philip" (Φιλίππου), and Metzger discusses it. This bears directly on the
     historical problem the 14:3 note raises (Josephus calls Herodias' first husband Herod).
   - 18:29: The KJV's "fell down at his feet" (εἰς τοὺς πόδας αὐτοῦ, C³ and the Byzantine text) and "I will pay thee
-    all" (πάντα, TR) are absent from the Plain. A KJV reader will notice both. They also bear on the 18:26 entry's
+    all" (πάντα, TR) are absent from the Plain English Translation. A KJV reader will notice both. They also bear on the 18:26 entry's
     claim that "Matthew seems to make the two pleas match word for word": in the critical text the second plea lacks
     πάντα.
 - **Fix:** Add a 14:3 entry (D it, reported by Metzger) and an 18:29 entry. Soften "word for word" in 18:26 to
@@ -377,7 +377,7 @@ Verdict: **pass after fixes**. Findings: 6 major, 17 minor, no critical.
 6. Applied. The 16:18 note now gives the older petros/petra distinction, the majority view as the majority view, and Caragounis's dissent. New key: caragounis-peter.
 7. Applied. 16:8 now rests on the manuscripts and the echo of 16:7, and says agreement with Mark 8:17 could be harmonization. 15:6 now flags the Mark 7:13 match in the same way.
 8. Applied. 17:15 and 18:26 now carry the reviewer's Tischendorf readings (key tischendorf-nt8, same text as 08-10). Bezae is in reading 0 at 17:15; L, Z and Origen are in reading 1. Sinaiticus is dropped at 17:15 and 18:26. 14:29 now names editions only (nestle-aland-28) and says "NA28, SBL, THGNT and Westcott-Hort agree; Tregelles has 'to come'".
-9. Applied. The 16:19 note now names Mantey (prior heavenly decision, NASB), Cadbury (simple future) and Porter (stative), and says the Plain's "will stand bound" leaves both open. New keys: mantey-jbl-1939, cadbury-jbl-1939, porter-idioms.
+9. Applied. The 16:19 note now names Mantey (prior heavenly decision, NASB), Cadbury (simple future) and Porter (stative), and says the Plain English Translation's "will stand bound" leaves both open. New keys: mantey-jbl-1939, cadbury-jbl-1939, porter-idioms.
 10. Applied. Cyprian is cited as chapters 4–5 (received text), and the key text notes the primacy-text version. Ravenna is qualified: Moscow did not sign and rejected a universal primacy of jurisdiction in 2013 (new key moscow-primacy-2013).
 11. Applied. The Lutheran view adds Cullmann and the many Protestant scholars who follow him (rock = Peter, unrepeatable foundation apostle, no successor), with key cullmann-peter.
 12. Applied (also lane decision 2). 16:4 now matches 12:39 ("keeps hunting for a sign. It will be given no sign except the sign of Jonah"). 18:8–9 now match 5:29–30 ("cut it off and fling it away from you"; "pull it out and fling it away from you"). 16:21 now opens like 4:17 ("From then on Jesus began to make clear..."), with the note, variant anchor and chapter quotation updated. 15:24 now matches 10:6 ("the sheep of the house of Israel that are lost"), with the note anchor and topics.json quotations updated. 17:5 already matched 3:17. There is no fulfillment formula in 14–18.
@@ -392,4 +392,4 @@ Verdict: **pass after fixes**. Findings: 6 major, 17 minor, no critical.
 21. Applied. New variants: 14:3 "Philip" (Bezae and some Old Latin omit it, as reported by Metzger, linked to the Josephus problem); 18:29 "at his feet" (Byzantine/TR); 18:29 "all" (TR). 18:26 now says "nearly word for word".
 22. Applied. "the rock" is dropped from peter.json and "the holy mountain" from transfiguration.json (lane decision 5). forgiveness.json now has related: mercy, repentance, day-of-atonement.
 23. Applied. The 16:13 note now has orig ὁ υἱὸς τοῦ ἀνθρώπου and kind deb. Previews at 14:5, 14:20 and 17:17 are under 120 characters. Ch. 16 view L now reads "Peter, named for the rock". Ch. 18 view J says Matthew puts the first step on the one who was wronged. The 18:9 gloss is now "the fire of the place of final punishment". The food-laws card has a Lutheran view (Augsburg 26). The Scripture-and-tradition Lutheran view now cites arts. 26 and 28.
-Also fixed: quotations of 11:14 (to the revised 11-13 Plain) and of 16:21 in chapters.json. `VERBOSE=1 node tools/build.js --check Mat/14-18` gives 0 errors, 0 warnings.
+Also fixed: quotations of 11:14 (to the revised 11-13 Plain English Translation) and of 16:21 in chapters.json. `VERBOSE=1 node tools/build.js --check Mat/14-18` gives 0 errors, 0 warnings.

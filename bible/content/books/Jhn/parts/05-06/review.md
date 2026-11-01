@@ -7,7 +7,7 @@ Build: `VERBOSE=1 node tools/build.js --check Jhn/05-06` reports 118 verses, 70 
 
 ## Verdict
 
-This is a careful, well-sourced part. I checked the Plain against the SBLGNT and the TAGNT word list verse by verse.
+This is a careful, well-sourced part. I checked the Plain English Translation against the SBLGNT and the TAGNT word list verse by verse.
 It follows its base text closely, keeps the binding terms ("the Jews", "Amen, amen, I tell you", "I am", "sign",
 "eternal life", "hand over"), handles 5:3b–4 exactly as the omitted-verse policy requires, and shows no real NIV or
 ESV dependence. The Lord's Supper and free-will material is fair and well attributed. The Lutheran nuance (Luther
@@ -20,7 +20,7 @@ reconstruction is disputed. (2) The 5:18 "equal to God" material states the Chri
 the non-Trinitarian reading, although the John brief asks for full treatment there. (3) Two places where the SBL
 text differs from NA28 or the Tyndale House text (6:23, 5:36) have no variant entry. The rest are minor: small
 translation slips, one false cross-reference claim (4:1), witness lists that need checking against NA28, a note
-that does not use the site's own Plain for Isaiah 54:13, and a few overstatements.
+that does not use the site's own Plain English Translation for Isaiah 54:13, and a few overstatements.
 
 ## Findings
 
@@ -67,7 +67,7 @@ note, and the son-of-god contribution, with the `trinity` topic, which exists in
 **Location:** variants.json (missing entries at 6:23 and 5:36).
 **Problem:** brief-nt.md says every place where the SBL, NA28 and the Tyndale House text (THGNT) disagree in a way
 that changes the English gets an entry.
-- **6:23:** The SBL accents the word ἀλλά ("but"): "But boats came from Tiberias", which the Plain follows ("Small
+- **6:23:** The SBL accents the word ἀλλά ("but"): "But boats came from Tiberias", which the Plain English Translation follows ("Small
   boats from Tiberias had come, though"). The TAGNT marks ἄλλα ("other boats came") for N n Y T B, so NA28, THGNT,
   the Byzantine text and the KJV all read "other boats". The KJV reads "there came other boats from Tiberias", so a
   KJV reader will notice. (WH has πλοῖα and NA28 brackets [ρια], which is also worth one line.)
@@ -83,7 +83,7 @@ the editors are deciding. Add a short 5:36 entry, or a word note, giving μεί�
 **Location:** notes.json 6:23 "once the Lord had given thanks" ("'The Lord' in the story").
 **Problem:** The note says the narrator calls Jesus "the Lord" before Easter "only here and in 4:1 and 11:2". At
 4:1 the SBL and NA28 read Ἰησοῦς; ὁ κύριος is a variant (P66c P75 A B C and the Byzantine text). The site's own
-Plain of 4:1 (part 01-04) reads "Jesus". Of the narrator's uses in the site's text, 6:23 and 11:2 are the ones left.
+Plain English Translation of 4:1 (part 01-04) reads "Jesus". Of the narrator's uses in the site's text, 6:23 and 11:2 are the ones left.
 **Fix:** Change it to "only here and in 11:2 (and at 4:1 in some manuscripts)". Take 20:2 out of the `r` list, since
 Mary is the one speaking there, unless the list is meant to show speakers too.
 
@@ -104,10 +104,10 @@ Mary is the one speaking there, unless the list is meant to show speakers too.
 - **5:18** "He was undoing the Sabbath" (ἔλυε) is odd English for an 8th-grade reader. **Fix:** "breaking", with a
   note if you want to keep the "loosening" sense.
 
-### 6. Minor: 5:37 Plain hides the link the note depends on
+### 6. Minor: 5:37 Plain English Translation hides the link the note depends on
 **Location:** plain.txt 5:37 "You have not seen what he looks like"; notes.json 5:37 "No voice, no form".
 **Problem:** The note builds on εἶδος = "form" and quotes Deuteronomy 4:12, "you were seeing no form". It then says
-the hearers have not "seen his form", but the Plain says "what he looks like", so the reader cannot see the echo.
+the hearers have not "seen his form", but the Plain English Translation says "what he looks like", so the reader cannot see the echo.
 **Fix:** Render "nor have you seen his form", or have the note say that "what he looks like" is εἶδος, "form", the
 word in Deuteronomy 4:12 in the Greek Old Testament.
 
@@ -116,7 +116,7 @@ word in Deuteronomy 4:12 in the Greek Old Testament.
 - **5:29** οἱ ... τὰ φαῦλα πράξαντες is "those who practiced what is worthless". Part 01-04 renders the same phrase
   at 3:20 (ὁ φαῦλα πράσσων) as "Anyone who does wicked things". The same Greek should get the same English in one
   book. Agree on one rendering with part 01-04.
-- **μένω:** The note at 6:56 says the Plain uses "stay" throughout, yet 6:27 has "remains". The note admits this, but
+- **μένω:** The note at 6:56 says the Plain English Translation uses "stay" throughout, yet 6:27 has "remains". The note admits this, but
   "the food that stays, leading to eternal life" would keep the thread.
 - **6:63** "It is the Spirit that makes alive ... are spirit": the capital and the lowercase s are an interpretive
   choice, and no note explains it. Add a sentence to the 6:63 note.
@@ -126,10 +126,10 @@ word in Deuteronomy 4:12 in the Greek Old Testament.
 
 ### 8. Minor: 6:29 "go on believing" depends on a variant that has no entry
 **Location:** plain.txt 6:29; topics.json `faith`; notes.json 6:29.
-**Problem:** The Plain makes a point of the present subjunctive πιστεύητε ("go on believing"). The Byzantine text
+**Problem:** The Plain English Translation makes a point of the present subjunctive πιστεύητε ("go on believing"). The Byzantine text
 and the TR read the aorist πιστεύσητε. The book.json treats this same tense difference at 20:31 as a significant
-variant. Once the Plain builds meaning on the tense, the variant changes the English.
-**Fix:** Either add a short variant entry for 6:29, or soften the Plain to "that you believe in the one he sent" and
+variant. Once the Plain English Translation builds meaning on the tense, the variant changes the English.
+**Fix:** Either add a short variant entry for 6:29, or soften the Plain English Translation to "that you believe in the one he sent" and
 keep the point about tense in the note.
 
 ### 9. Minor: witness lists and "as reported by Metzger" need checking
@@ -151,12 +151,12 @@ keep the point about tense in the note.
   πατρός). This is inconsistent with the entry already given at 5:30 for the same addition. Also 6:56, the long
   addition in Codex Bezae, which Metzger does discuss.
 
-### 10. Minor: Isaiah 54:13 is quoted from a fresh rendering, not from the site's Plain
+### 10. Minor: Isaiah 54:13 is quoted from a fresh rendering, not from the site's Plain English Translation
 **Location:** notes.json 6:45 "Taught by God (Isaiah 54:13)".
-**Problem:** brief-nt.md says: "quote the site's Plain exactly when you quote the Old Testament in a note." The Plain
+**Problem:** brief-nt.md says: "quote the site's Plain English Translation exactly when you quote the Old Testament in a note." The Plain English Translation
 of Isaiah exists: "All your children will be the LORD's learners, / and your children's peace will be great." The
 note says it gives "a fresh rendering of the Hebrew" instead. (Daniel 12:2 in the 5:29 note is fine: Daniel has no
-Plain yet.)
+Plain English Translation yet.)
 **Fix:** Quote the site's Isaiah 54:13. If the point is "taught", say that "learners" (limmudim) is the word that
 the Greek translates as διδακτοί, "taught".
 
@@ -284,7 +284,7 @@ from this part's notes will read inconsistently until the parts are aligned.
   Mishnah Avot 2:7. 2 Baruch 29:8. Ecclesiastes Rabbah 1:9. Didache 9:4 (klasma). Pliny, *Letters* 10.96. Sirach
   24:21. Augustine, Tractate 26 (the green branch). Zwingli on 6:63. Luther, *Babylonian Captivity* (1520), on
   John 6. Dodd's "hidden parable". Jeremias on bisra. Juvenal's cophinus. Paulus's rationalist reading of 6:19.
-- Old Testament quotations match the site's Plain (Deuteronomy 2:14; 4:12; 18:15; 19:15; 31:26; 32:39; 1 Samuel 2:6;
+- Old Testament quotations match the site's Plain English Translation (Deuteronomy 2:14; 4:12; 18:15; 19:15; 31:26; 32:39; 1 Samuel 2:6;
   Genesis 9:4; Exodus 16:2, 4, 15; 33:20; Numbers 11:13; Nehemiah 9:15; 13:19; 2 Kings 4:42–43; Job 9:8; Psalm 77:19;
   78:24; 106:16; 107:30; 132:17; Proverbs 9:5). The one exception is Isaiah 54:13 (finding 10).
 - NIV and ESV: no dependence found. The closest matches (6:44, 6:55, 5:44 "the glory that comes from the only God")
@@ -300,10 +300,10 @@ from this part's notes will read inconsistently until the parts are aligned.
 2. Major, 5:18: the note now gives the majority Christian and creedal reading as a view. It adds the reading that 5:18 is the opponents' charge answered in 5:19 (Unitarians, Jehovah's Witnesses, the Arians) and Borgen's agency reading (new key borgen-agent). Tagged `trinity`. Added the non-Trinitarian reading to the son-of-god contribution, added a `trinity` contribution, and added trinity to the ch. 5 topics. No traditions card: build.js has no Unitarian tradition name.
 3. Major, missing variants: added 6:23 (SBL ἀλλά / NA28, THGNT, Byz, TR ἄλλα; an accent decision; WH and the NA28 brackets mentioned) and 5:36 (μείζω / μείζων, both senses explained).
 4. 6:23 note: now "only here and in 11:2 (and at 4:1 in some manuscripts)"; 20:2 removed from r.
-5. Plain: 5:13 "did not know who it was"; 5:20 "so that you will be astonished"; 6:50 "Here is the bread ..., so that anyone may eat some of it and not die"; 6:55 "For" restored (the remaining wording is forced by the Greek); 6:22 "still" removed; 5:18 "breaking".
-6. 5:37: the Plain now reads "You have not seen his form", and the note adds that eidos is the word of Deuteronomy 4:12 in Greek.
+5. Plain English Translation: 5:13 "did not know who it was"; 5:20 "so that you will be astonished"; 6:50 "Here is the bread ..., so that anyone may eat some of it and not die"; 6:55 "For" restored (the remaining wording is forced by the Greek); 6:22 "still" removed; 5:18 "breaking".
+6. 5:37: the Plain English Translation now reads "You have not seen his form", and the note adds that eidos is the word of Deuteronomy 4:12 in Greek.
 7. 5:29 now "Those who did wicked things", matching 3:20 in part 01-04, with the note and gloss updated. 6:27 "the food that stays", with the 6:56 note adjusted. 6:63 note explains Spirit/spirit. 6:3 and 6:15 now "the mountain", and the 6:4 note gives the Moses/Sinai echo.
-8. 6:29: the Plain is softened to "that you believe"; the note now explains the present tense against the Byzantine aorist; the faith topic quote is updated. No variant entry, because the English no longer depends on the tense.
+8. 6:29: the Plain English Translation is softened to "that you believe"; the note now explains the present tense against the Byzantine aorist; the faith topic quote is updated. No variant entry, because the English no longer depends on the tense.
 9. Witnesses: 5:17 drops Sinaiticus and attributes the list once, to the NA28 apparatus. 6:22 adds the first hand of Sinaiticus, Bezae, Θ and Syriac to the longer reading. 6:51 removes Sinaiticus from reading 0 and notes its different word order. 5:16, 5:30, 6:22, 6:40, 6:58 and 6:63 are now attributed to the NA28 apparatus (key na28), with metzger dropped from s. Added a 6:39 entry (πατρός), consistent with 5:30. Not added: 6:56 Bezae, because I cannot verify its exact Greek here.
 10. 6:45: now quotes the site's Isaiah 54:13 exactly and explains limmudim / didaktoi.
 11. Slips: 5:8 cites Mark 2:9; 6:20 now says bare egō eimi is Isaiah's (43:10, 25; 45:18; 46:4) and Exodus 3:14 LXX has "I am the one who is". 5:2 Copper Scroll is "house of the two outflows", perhaps twin pools. 5:7 "perhaps channels or runoff". 5:10 "a related case", with Mishnah Shabbat 7:2 and 10:5 in r. 5:31 r adds Mishnah Ketubot 2:9. 5:45 Testament of Moses wording fixed (11:17; 12:6). 5:27 adds the Colwell/Carson point. 6:59 gives both datings and "a centurion, probably a Gentile officer serving Herod Antipas". Borgen "showed" became "argued" in three places. 6:29 "Luther loved this verse" cut.

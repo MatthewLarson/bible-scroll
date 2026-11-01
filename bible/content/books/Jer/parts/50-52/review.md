@@ -14,7 +14,7 @@ Evidence: 52:4 (tenth month, ninth year) to 52:6 (fourth month, eleventh year) i
 Fix: change to "about thirty months" in the title, the note and the topic.
 
 **2. Major. plain.txt 50:40, 50:44, 50:45 against 49:18-20; notes.json 50:40, 50:44; chapters.json ch. 50 deep table.**
-The brief says to match the earlier verse exactly where the Hebrew is the same. The notes and the chapter table claim it was done ("keeps the English of Jeremiah 49:18 where the Hebrew is the same"; "50:40, 44 and 45 use the English of Jeremiah 49:18-20"). That is false. The Plain differs where the Hebrew is the same:
+The brief says to match the earlier verse exactly where the Hebrew is the same. The notes and the chapter table claim it was done ("keeps the English of Jeremiah 49:18 where the Hebrew is the same"; "50:40, 44 and 45 use the English of Jeremiah 49:18-20"). That is false. The Plain English Translation differs where the Hebrew is the same:
 - 50:40 "the towns around them" against 49:18 "their neighbor towns". The Hebrew is the same word, *sh'kheneyha*.
 - 50:40 "no human will stay there" against 49:18 "no human being will stay there" (*ben adam* in both).
 - 50:44 "Who can call me to account?" against 49:19 "Who can call me to court?" (*yo'idenni*).
@@ -33,9 +33,9 @@ Both verses have the same Hebrew, *wayedabber 'ito mishpatim* "he spoke judgment
 It says "Josephus says Nebuchadnezzar buried him with royal honors (Antiquities 10.141)". Whiston's 10.141 only says he was blinded and taken to Babylon "according to the prediction of Ezekiel". The burial "magnificently" is in 10.154.
 Fix: cite 10.154. The remark that Josephus says the two prophecies seemed to conflict belongs to Ant. 10.104-107, so cite that.
 
-**5. Major. variants.json: no entry for 51:3, and the Plain gives no signal.**
+**5. Major. variants.json: no entry for 51:3, and the Plain English Translation gives no signal.**
 The Hebrew is a known crux. The Ketiv is missing the second verb. The Qere (see texts/auto, 51:3) supplies *yidrokh*. The MT is negative: "Let the archer not bend his bow". The Greek (28:3) is positive: *teinetō ho teinōn ... perithesthō*, "let him bend ... let him put on armor".
-- The Plain "must not draw his bow; ... must not rise in his coat of mail" is ambiguous about who is addressed. The usual choice is the Babylonian defenders (so the NIV; the ESV reads it differently).
+- The Plain English Translation "must not draw his bow; ... must not rise in his coat of mail" is ambiguous about who is addressed. The usual choice is the Babylonian defenders (so the NIV; the ESV reads it differently).
 - The next clause, "put her whole army under the ban", is addressed to the attackers.
 - Fix: add a variant entry (MT with Qere/Ketiv, the Greek positive reading, and what the Vulgate and Targum do) and a short note on the speaker.
 
@@ -60,11 +60,11 @@ Fix: add one explanatory note (or extend 52:30) on the 7th/8th and 18th/19th con
 The entry says the Greek spelling "Joakim" is "the usual Greek form of Jehoiakim, so the two kings' names are confused". The Greek *Ioakeim* is the normal rendering of Jehoiachin here. Swete's spelling is *Ἰωακείμ*. Nothing is "confused". Delete that sentence.
 
 **10. Minor. variants.json, missing entry at 52:6.**
-Greek 52:6 lacks "the fourth month" ("on the ninth of the month"). 2 Kings 25:3 MT also lacks it, and the site's Kings Plain supplies it. Add an entry. The deep table notes the Hebrew only.
+Greek 52:6 lacks "the fourth month" ("on the ninth of the month"). 2 Kings 25:3 MT also lacks it, and the site's Kings Plain English Translation supplies it. Add an entry. The deep table notes the Hebrew only.
 
 **11. Minor. notes.json, ketiv/qere not shown (texts/auto).**
 - 50:6: the Qere *shovevum* (Ketiv *shovevim*) and *hayu* against *hayah*. The scroll also reads *hayah*.
-- 51:34: the Ketiv has "us" and the Qere "me" (five verbs). The Plain uses "me" with no note.
+- 51:34: the Ketiv has "us" and the Qere "me" (five verbs). The Plain English Translation uses "me" with no note.
 - 50:15: *ashyoteyha* is a hapax of uncertain sense (towers, props, buttresses; Greek "battlements").
 Add short notes.
 
@@ -77,9 +77,9 @@ The brief says "the Greek" on this site means Ziegler or Rahlfs. Every entry is 
 The sentence shape and the "though ... full of guilt against the Holy One" wording are very close to the ESV. The Hebrew is *ki arsam male'ah asham miqqedosh Yisra'el*. Rebuild from the literal line (for example "for their land is full of guilt before..."), and keep the note on whose land it is.
 
 **15. Minor. plain.txt 51:11 "Fill the quivers!"**
-The Hebrew is *hashelatim* (usually "shields"). The Plain's "quivers" matches one major modern version. The note is honest about it, but keep the choice only if the Greek (*pharetras*) is the reason. Alternatively, use "shields" and put "quivers" in the note.
+The Hebrew is *hashelatim* (usually "shields"). The Plain English Translation's "quivers" matches one major modern version. The note is honest about it, but keep the choice only if the Greek (*pharetras*) is the reason. Alternatively, use "shields" and put "quivers" in the note.
 
-**16. Minor. Word choices in the Plain that drift from or add to the Hebrew.**
+**16. Minor. Word choices in the Plain English Translation that drift from or add to the Hebrew.**
 - 52:11 "house of punishment" for *beit happequddot*. This is the weakest of the options named in the variant ("appointments, punishments, guards"). It is surer to follow the note's "custody"/"prison" sense, or keep "house of guard duty".
 - 50:21 "Strike them down ... to the last of them" for *harog ... 'acharehem* (kill; "after them").
 - 51:10 "brought our right into the light" adds "into the light". The Hebrew is *hotsi ... tsidqotenu*.
@@ -140,8 +140,8 @@ Every speech block has a card, but the "why" for 50:8-10 says "warn those who ha
 ## Fixes applied
 
 1. Fixed. Siege length is about thirty months (588 to 586 BC): note 52:5 retitled "About thirty months" and rewritten; the jerusalem section in topics.json now says about thirty months (and topics.md asks the lead to check the shared jerusalem lead).
-2. Fixed. Plain 50:40, 50:44 and 50:45 now use the English of 49:18-20 wherever the Hebrew is the same ("their neighbor towns", "no human being", "Look, like a lion", "thick brush", "pasture that never runs dry", "whomever I choose", "Who can call me to court?", "What shepherd is there who can stand before me?", "That is why you should hear the LORD's plan", "dragged off", "made a ruin over them"). The remaining differences are the Hebrew's and are named in the notes at 50:40 and 50:44 and in the chapter 50 table: "God overturned" (50:40) against the passive (49:18); ne'um YHWH "the LORD declares" (50:40) against amar YHWH "the LORD says" (49:18), as the lead decided; "make them run" against "make him run"; Babylon and the Chaldeans against Edom and Teman. PAIR TO KEEP IN SYNC: 49:18-20 (46-49 fixer) with 50:40-45 here; I matched the current 46-49 file.
-3. Fixed. Plain 52:9 now matches 39:5: "brought him up to the king of Babylon at Riblah in the land of Hamath, and there the king of Babylon gave his judgments against him" (39:5 says "the king" because Nebuchadnezzar is named just before). Note 52:9 rewritten, with the Kings plural verb stated; the chapter 52 table row corrected.
+2. Fixed. Plain English Translation 50:40, 50:44 and 50:45 now use the English of 49:18-20 wherever the Hebrew is the same ("their neighbor towns", "no human being", "Look, like a lion", "thick brush", "pasture that never runs dry", "whomever I choose", "Who can call me to court?", "What shepherd is there who can stand before me?", "That is why you should hear the LORD's plan", "dragged off", "made a ruin over them"). The remaining differences are the Hebrew's and are named in the notes at 50:40 and 50:44 and in the chapter 50 table: "God overturned" (50:40) against the passive (49:18); ne'um YHWH "the LORD declares" (50:40) against amar YHWH "the LORD says" (49:18), as the lead decided; "make them run" against "make him run"; Babylon and the Chaldeans against Edom and Teman. PAIR TO KEEP IN SYNC: 49:18-20 (46-49 fixer) with 50:40-45 here; I matched the current 46-49 file.
+3. Fixed. Plain English Translation 52:9 now matches 39:5: "brought him up to the king of Babylon at Riblah in the land of Hamath, and there the king of Babylon gave his judgments against him" (39:5 says "the king" because Nebuchadnezzar is named just before). Note 52:9 rewritten, with the Kings plural verb stated; the chapter 52 table row corrected.
 4. Fixed. Note 52:11 now cites Josephus, Antiquities 10.154 for the burial and 10.104-107 for Zedekiah's disbelief of the two prophets (both checked against the Whiston text).
 5. Fixed. New variant at 51:3 (Masoretic Text with its Ketiv/Qere, the Greek 28:3 positive reading, the Vulgate and Targum Jonathan negative; the JPS Tanakh footnote as printed on Sefaria) and a new note on who is addressed.
 6. Fixed. Variant 51:1 rewritten with both explanations of the Greek stated fairly; the 51:41 variant's wrong claim that the Greek also omits Leb-qamai's cipher is corrected.
@@ -152,8 +152,8 @@ Every speech block has a card, but the "why" for 50:8-10 says "warn those who ha
 11. Fixed. New notes at 50:6 (Ketiv/Qere hayah/hayu and shovevim/shovevum; 4QJer-e has the Ketiv forms), 50:15 (ashyoteyha, a word found only here; Greek "battlements") and 51:34 (Ketiv "us", Qere "me" on five verbs).
 12. Fixed. The Qumran sentence and the editions paragraph are now stated once (first variant, 50:2). New variant at 50:4 for 4QJer-e's missing "in the days" and added "those" (checked in the Abegg-Bowley-Cook transcription).
 13. Fixed. The chapter 50 witness paragraph now says that "the Greek" in this part means Swete's Codex Vaticanus and that Ziegler was not used; "ziegler-jeremiah" was removed from the variants' source lists for that reason.
-14. Fixed. Plain 51:5 rebuilt from the literal line: "but their land is full of guilt / before the Holy One of Israel"; note anchor updated.
-15. Partly. Plain keeps "quivers": the verb is "fill", the Greek has pharetras, and Rashi (read on Sefaria) glosses hashelatim as quivers. Note 51:11 now says so and cites Rashi; "Many translators" became "Some translators".
+14. Fixed. Plain English Translation 51:5 rebuilt from the literal line: "but their land is full of guilt / before the Holy One of Israel"; note anchor updated.
+15. Partly. Plain English Translation keeps "quivers": the verb is "fill", the Greek has pharetras, and Rashi (read on Sefaria) glosses hashelatim as quivers. Note 51:11 now says so and cites Rashi; "Many translators" became "Some translators".
 16. Fixed. 52:11 "house of punishment" is now "prison" (variant and chapter pages updated); 50:21 "to the last of them" is now "going after them"; 51:10 is now "brought out our righteous acts"; 50:9 is now "Its arrows ... who does not return empty". 50:36 "babblers" kept (already noted).
 17. Fixed. 50:5 "most Christian readers" reworded; 51:20 "most common" removed; 50:1 "Radak and Calvin read them so" removed (the Radak text on Sefaria for 50:1 is only the verse, so it could not be verified) and the two source keys dropped from that note; remaining "Most" claims about scholars (chapter 50 readings, 50:1 note, chapter 52, babylon topic) became "Many".
 18. Fixed. Note 51:45 now says the size and timing of the return are debated (Ezra 2:64-65 gives 42,360), that communities stayed in Babylonia, and names the Babylonian Talmud.

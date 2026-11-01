@@ -50,7 +50,7 @@ This lane does not edit shared files. Instead:
 
 The site needs every verse of the KJV numbering. Two policies:
 - Short verses missing from the SBL (Matthew 17:21; 18:11; 23:14; Mark 7:16; 9:44, 46; 11:26; 15:28; Luke 17:36;
-  23:17; John 5:4; Acts 8:37; 15:34; 24:7; 28:29): the Plain line is exactly
+  23:17; John 5:4; Acts 8:37; 15:34; 24:7; 28:29): the Plain English Translation line is exactly
   `<c:v> [The oldest manuscripts do not have this verse.]`
   and a variants.json entry anchors the whole bracketed text. Reading 0 (followed) is the critical text, with
   `plain` equal to that bracketed text; reading 1 gives the added verse's witnesses, its Greek (from `byz`) and your
@@ -70,14 +70,14 @@ The site needs every verse of the KJV numbering. Two policies:
 
 The same saying or story in two Gospels (or Colossians and Ephesians, 2 Peter 2 and Jude) is translated the same
 way where the Greek is the same, and differently exactly where the Greek differs, so a reader can compare. The
-earlier book in the canon is the model: Mark and Luke follow Matthew's Plain where their Greek matches it; 2 Peter
-follows Jude's existing Plain. When the model's plain.txt does not exist yet, write your verse from your Greek and
+earlier book in the canon is the model: Mark and Luke follow Matthew's Plain English Translation where their Greek matches it; 2 Peter
+follows Jude's existing Plain English Translation. When the model's plain.txt does not exist yet, write your verse from your Greek and
 list the pair in your report; the lead of this lane aligns them. Give the parallel references in notes and
 chapter `echoes` (Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16).
 
 Old Testament quotations: translate the New Testament Greek as it stands (it often follows the Septuagint, not
-the Hebrew). Say in a note where it differs from the Hebrew and from this site's Plain of the Old Testament verse,
-and quote the site's Plain exactly when you quote the Old Testament in a note.
+the Hebrew). Say in a note where it differs from the Hebrew and from this site's Plain English Translation of the Old Testament verse,
+and quote the site's Plain English Translation exactly when you quote the Old Testament in a note.
 
 ## Terms
 

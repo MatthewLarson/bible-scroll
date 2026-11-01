@@ -4,13 +4,13 @@ Reviewer: hostile-reviewer agent (not the writer). Date: 2026-10-26.
 Checked: plain.txt verse by verse against `sbl`, `byz` and the edition flags in texts/orig/Luk.json; texts/auto/Luk.json;
 all 109 notes, 16 variants, 47 glosses, 4 chapter pages (settings, traditions, deep, spec), 32 topic contributions,
 sources.json; the proposals `rule-of-the-congregation` (works.json), μαμωνᾶς and κόλπος (terms.json); parallel wording
-against Matthew's published Plain (5, 6, 10, 11, 12, 16, 17, 18, 22, 23, 24, 25) and Mark's Plain (4, 8, 9, 10, 13);
+against Matthew's published Plain English Translation (5, 6, 10, 11, 12, 16, 17, 18, 22, 23, 24, 25) and Mark's Plain English Translation (4, 8, 9, 10, 13);
 `VERBOSE=1 node tools/build.js --check Luk/14-17` = 0 errors, 0 warnings.
 
 ## Verdict
 
 This is a strong part. The translation is faithful and readable. It follows the SBLGNT except at 15:16, where it
-openly and defensibly follows NA28/THGNT. It tracks Matthew's and Mark's Plain closely where the Greek matches and
+openly and defensibly follows NA28/THGNT. It tracks Matthew's and Mark's Plain English Translation closely where the Greek matches and
 departs from them exactly where Luke's Greek differs. The notes are dense, mostly accurate and fair to Jewish
 readers. Nearly every source the writer flagged as uncertain checks out. I found no invented source, reading or
 manuscript, so there are no critical findings. There are three real problems:
@@ -84,7 +84,7 @@ Findings: **0 critical, 3 major, 21 minor.**
 - **Matthew's different setting is stated** on Luke's cards for the lost sheep (15:4–7) and the banquet (14:16–24), as
   brief-nt.md requires. Every speech, parable and dialogue in 14–17 has a settings card, and chapter 15 has a card for
   each lost thing plus one for the whole chapter.
-- **17:21 "among you"** is a defensible Plain choice. The note gives "within", "among", "within reach" and the
+- **17:21 "among you"** is a defensible Plain English Translation choice. The note gives "within", "among", "within reach" and the
   future reading, with who holds each.
 - **16:1–13** is handled fairly (four readings, where the parable ends, who "the master" is).
 
@@ -254,10 +254,10 @@ Antiquities 8.57, implies the higher figure.
 **Fix:** "roughly 22 to 39 liters (6 to 10 gallons)", and set the gloss to "large jars, roughly 6 to 10 gallons
 each".
 
-### 15. Minor: quotation of 9:23 doesn't match its Plain; the claim about Simon is too absolute
+### 15. Minor: quotation of 9:23 doesn't match its Plain English Translation; the claim about Simon is too absolute
 **Where:** notes.json 14:27.
 
-**What is wrong:** The note quotes 9:23 as "day by day", but 9:23's Plain is "every day". It also calls Simon of
+**What is wrong:** The note quotes 9:23 as "day by day", but 9:23's Plain English Translation is "every day". It also calls Simon of
 Cyrene "the only person in the Gospels who literally does what this verse says". In John 19:17 Jesus carries his own
 cross, though not "behind" anyone.
 
@@ -322,12 +322,12 @@ above.
 - 15:29: move the gloss onto "to have a party with my friends" ("a small party with my friends"), or drop it.
 - 17:6: "a tiny seed, a byword for smallness".
 
-### 21. Minor: Plain wording that adds or blurs
+### 21. Minor: Plain English Translation wording that adds or blurs
 **Where:** plain.txt 16:16, 16:2, 14:31, 15:20.
 
 **What is wrong:**
 - 16:16 "The Law and the Prophets went up to John." The Greek has no verb (μέχρι Ἰωάννου). "Went up to" is
-  unidiomatic and can read as "went up to meet John". Matthew 11:13's Plain has "prophesied up until John" (a
+  unidiomatic and can read as "went up to meet John". Matthew 11:13's Plain English Translation has "prophesied up until John" (a
   different, verbal Greek).
 - 16:2 "You can't go on managing for me." "For me" is not in the Greek.
 - 14:31 "take advice". βουλεύσεται means "deliberate, consider", with no counselors implied.
@@ -362,7 +362,7 @@ above.
 
 **What is wrong:**
 - **17:11.** SBL/NA have διὰ μέσον; the Byzantine text and TR have διὰ μέσου (KJV "through the midst of Samaria and
-  Galilee"). The Plain "the country between" depends on μέσον. The note's "Literally ... 'through the middle of'"
+  Galilee"). The Plain English Translation "the country between" depends on μέσον. The note's "Literally ... 'through the middle of'"
   gives the TR sense as though it were the text followed. Add a variant (the KJV reader notices it) and fix the
   note's "literally".
 - **15:22.** ταχύ "Hurry" is absent from the Byzantine text and TR (KJV "Bring forth the best robe"). This is optional
@@ -389,7 +389,7 @@ part and Matthew stay aligned. The 18-21 part already quotes 16:8 with "shrewder
 2. Accepted: 16:25 note now says ἀπέλαβες echoes 6:24, where the verb is a different one (ἀπέχετε, the receipt formula); preview line reworded.
 3. Accepted, option (a), per the lead: ch. 14 traditions card dropped. The deep dive "Compel them to come in" now carries the card's history (Augsburg 28, Luther 1523, Calvin, Westminster 23.3 and the 1788 revision, Schleitheim, Second London 21.2, Dignitatis Humanae 10 and CCC 160) with their keys; the `church-and-state` topic points to the chapter page instead of a card.
 4. Accepted: salt note sentence repaired; says Mark has ἄναλον, not μωραίνω.
-5. Partly: "spring of light" corrected to 1 Enoch 22:9's own wording on this site ("the spring of water with light above it"). The 22:10 quotation was kept: it is the site's 1 Enoch Plain word for word (the build's quote check confirms), not a paraphrase of Charles.
+5. Partly: "spring of light" corrected to 1 Enoch 22:9's own wording on this site ("the spring of water with light above it"). The 22:10 quotation was kept: it is the site's 1 Enoch Plain English Translation word for word (the build's quote check confirms), not a paraphrase of Charles.
 6. Accepted in all three places (16:20 note and title, ch. 16 deep, `poverty` topic): the only invented character given a name; Abraham named as the patriarch.
 7. Accepted: "Paul and 1 Peter use the noun".
 8. Accepted: 17:22–37 `readers` now says "(and, on the usual dating, after the fall of Jerusalem in AD 70)". The 14:31 note's "readers of Luke in the 80s" was also removed.
@@ -399,13 +399,13 @@ part and Matthew stay aligned. The 18-21 part already quotes 16:8 with "shrewder
 12. Accepted: "Josephus, who says he followed the Pharisees' rule in public life (Life 12)"; key `josephus-life` added.
 13. Accepted: 15:1 note now sets out Jeremias (common people), Sanders (the wicked, with his thesis attributed to him) and Dunn (factional label); keys `jeremias-theology` and new `dunn-jesus-paul-law`.
 14. Accepted: note and gloss give 22–39 liters (6–10 gallons), with Josephus, Antiquities 8.57.
-15. Accepted: "every day" (= 9:23 Plain); Simon "the only person in the Gospels who literally carries a cross behind Jesus".
+15. Accepted: "every day" (= 9:23 Plain English Translation); Simon "the only person in the Gospels who literally carries a cross behind Jesus".
 16. Accepted: 15:16 note says "in the text followed here (see the variant)".
 17. Accepted: "closely echo(es)" in preview and body.
-18. Accepted: 24:34 separated as the disciples' confession, quoted in 24:34's current Plain.
+18. Accepted: 24:34 separated as the disciples' confession, quoted in 24:34's current Plain English Translation.
 19. (a) Accepted, and the box dropped rather than kept as theory: the Jonah comparison now sits in the 15:32 note, credited to Keller (new key `keller-prodigal-prophet`). (b) Accepted: 14:33 cites the Mystagogical Catecheses 1.4–5 "attributed to Cyril", new key `cyril-mystagogical` (replaces `cyril-catechetical` in this note). (c) Accepted the reviewer's safe wording: Jerome for the ring and the calf; the robe "as the garment of the Spirit, or of baptism" in various fathers (the Adam detail could not be confirmed in Letter 21).
 20. Partly. 15:29 gloss dropped; 17:6 gloss now "a tiny seed, a byword for smallness". 15:2 declined: "experts in the law of Moses" is the shared γραμματεῖς gloss fixed in content/terms.json; the overlap with the νομικός proposal's gloss is for the lead (see report).
-21. Partly. 16:16 "lasted until John"; 16:2 "You can't be manager any longer."; 14:31 "think it over". 15:20 kept ("kissed him again and again", = Acts 20:37's Plain for the same verb); the 15:20 note now says καταφιλέω can be "again and again" or "warmly".
+21. Partly. 16:16 "lasted until John"; 16:2 "You can't be manager any longer."; 14:31 "think it over". 15:20 kept ("kissed him again and again", = Acts 20:37's Plain English Translation for the same verb); the 15:20 note now says καταφιλέω can be "again and again" or "warmly".
 22. Partly. 16:8 now "...shrewder than the children of light toward their own kind" (the 18-21 quote of 16:8 still matches; the new 16:8 word note gives the literal "into their own generation"). 14:23 now "make them come in, so that my house will be full" (anchors and quotes in this part updated). 15:7 kept, forced by the Greek, as the reviewer allows.
 23. Partly. New variants 17:11 (μέσον/μέσου, KJV), 15:22 (ταχύ) and 14:3 (ἢ οὔ), with editions named and manuscripts marked unchecked; the 17:11 note no longer gives the Byzantine sense as the text followed. 15:21 "(in brackets)" for Westcott-Hort not added: I could not confirm it.
 24. Accepted: "shrewdly" kept at 16:8; new `word` note at 16:8 ("acting so shrewdly") links 12:42's "faithful and sensible" manager; φρόνιμος entry added to content/proposals/nt/terms.json ("sensible" for good sense, "shrewd" for worldly cleverness, Matthew 10:16 "sharp").

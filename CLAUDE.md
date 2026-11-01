@@ -5,7 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # The Bible Scroll
 
 A study website for every book of the Bible (and the books outside it), built for Matt. Each book gets a
-Plain English translation made from the original languages, color-coded notes woven into the text, chapter
+Plain English Translation made from the original languages, color-coded notes woven into the text, chapter
 commentary, textual variants, topic pages, maps, "who it was for and why" cards and "Where Christians differ"
 cards, all in a hand-drawn scroll look. It grew out of a single Revelation study (`revelation/`).
 
@@ -14,6 +14,7 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 
 ## What Matt wants (keep to this everywhere)
 
+- The site's own translation is named the **Plain English Translation**. Always write the full name in content, briefs and messages, never bare "the Plain English Translation" (Matt, 2026-10-30). Files and data keys stay `plain.txt` / `plain`.
 - Main text in modern American English at about an 8th-grade reading level, translated from the original
   Hebrew, Aramaic and Greek, citing common translations and above all the original-language texts.
 - Every interpretive view presented fairly: literal and figurative, Jewish and Christian, traditional and
@@ -23,7 +24,7 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 - Who each book, sermon, parable, letter, prophecy and law was first for, and why (book.json `audience`,
   chapters.json `settings`). This matters most for the New Testament and Jewish law.
 - The most trustworthy original-language sources, with variant notation: the readings, their witnesses, which
-  one the Plain follows and why.
+  one the Plain English Translation follows and why.
 - One topic page per subject across the whole Bible, filterable to the passage just read, with a full-view
   toggle. Maximum cross-referencing. Topic kinds: Ideas, People, Places, Symbols, Words, Events, Studies, Science,
   Creatures. The site must never show exactly 666 topics (Matt, 2026-10-30: the number's religious weight); the full
@@ -107,7 +108,7 @@ under a second per book. The full build also prints `skip <id>` for books with e
 - `--publish` includes a book only when every part's review.md has a non-empty `## Fixes applied` (Revelation's reviews
   are `content/overlays/Rev-review-*.md`). The same test sets each book's "reviewed" or "in review" label on the site.
 - The build validates keys (sources, topics, works, TRADITIONS, note types), quote-matching against other books'
-  Plain, and atlas data, then writes `site/data/` (per-book JSON, topic shards, reverse "cited by" index) and
+  Plain English Translation, and atlas data, then writes `site/data/` (per-book JSON, topic shards, reverse "cited by" index) and
   `site/index.html` = `app/shell.html` + `base.css` inlined + `tools/refs.js` + `app/app.js` in one file. The
   front end is a single page routed by real paths (`/Rut/3/9`, `/topic/<id>?from=Rut/3`, `/topics`, `/library`;
   `<base href="/">` keeps `data/` and `img/` working at any depth, and Render rewrites every other path to index.html); `refs.js` is shared by the
@@ -154,7 +155,7 @@ books written before those features existed.
 - Key terms are rendered the same across the Bible: read `content/terms.json` and `content/proposals/*/terms.json`
   before translating. Changing an existing term needs a "why".
 - One topic per subject. Search `content/topics/` and `content/proposals/*/topics/` (titles and `aka`) first.
-- A note that quotes another book's verse uses that verse's current Plain exactly; the build warns otherwise.
+- A note that quotes another book's verse uses that verse's current Plain English Translation exactly; the build warns otherwise.
 - Write the book name on every reference to another book; a bare `c:v` means the current book.
 - Never invent a source, quotation, manuscript reading or find. Source keys are global; reuse existing keys.
 - Never rely on memory for a checkable detail (witnesses, numbers, quotations, dates, coordinates, what a named

@@ -4,11 +4,11 @@ Reviewer: separate hostile-reviewer agent. Checked: plain.txt against `texts/ori
 
 ## Verdict
 
-This is a strong, careful part. The Plain is faithful to the Greek verse by verse. I found no wrong tense, name, number or who-does-what in the translation. The ancient and confessional citations I could check hold up: Horace Odes 3.9.24, Philo Heres 141-206, Sotah 48b, Yoma 86a, Jerome De vir. ill. 7, Tobit 12:9, 4Q174 on 2 Sam 7:14, 1 Clement 5:6, Didache 15:1, Josephus Ant. 20.51-53, Westminster 24.3/13.2/15.1-2, Trent 14.4, Trent 6 can. 23, CCC 2043, Adventist belief 21, Trullo 72, Climacus step 7, Wesley sermons 14, 40 and 50. I found no invented source and no invented manuscript reading, so nothing is critical. The real problems are:
+This is a strong, careful part. The Plain English Translation is faithful to the Greek verse by verse. I found no wrong tense, name, number or who-does-what in the translation. The ancient and confessional citations I could check hold up: Horace Odes 3.9.24, Philo Heres 141-206, Sotah 48b, Yoma 86a, Jerome De vir. ill. 7, Tobit 12:9, 4Q174 on 2 Sam 7:14, 1 Clement 5:6, Didache 15:1, Josephus Ant. 20.51-53, Westminster 24.3/13.2/15.1-2, Trent 14.4, Trent 6 can. 23, CCC 2043, Adventist belief 21, Trullo 72, Climacus step 7, Wesley sermons 14, 40 and 50. I found no invented source and no invented manuscript reading, so nothing is critical. The real problems are:
 - The variants are weaker than they look. The 7:12 entry attributes a reading to the Textus Receptus that the site's own data does not show. No entry names a single manuscript. Several variants KJV readers will notice are missing.
 - The interpolation treatment (6:14-7:1) contradicts itself on how many scholars hold which view, and it leaves out the middle positions.
 - A few verses are too close to the NIV (6:14-16, 9:1).
-- The claim that the Plain keeps "grace" for every *charis* is false at 8:4.
+- The claim that the Plain English Translation keeps "grace" for every *charis* is false at 8:4.
 - Aquinas on tithes is misstated on the giving card.
 - A handful of smaller citation slips.
 
@@ -35,10 +35,10 @@ So "The Textus Receptus ... (KJV 'our care for you')" is unsupported, and "a bod
 - 6:16 `w` says "Westcott-Hort, Tregelles (as listed in the NA28 apparatus)". WH and Tregelles are not in the NA28 apparatus, so the parenthesis is wrong.
 - Fix: add the "editions only; manuscript lists not checked" tag to every `w`, or add real witnesses (P46, Sinaiticus, Vaticanus, Bezae, the Vulgate and so on) from Metzger or Tischendorf in the Source Library. Fix the 6:16 wording either way.
 
-### 3. MAJOR: variants.json: missing variants the data flags, including one that changes the Plain
+### 3. MAJOR: variants.json: missing variants the data flags, including one that changes the Plain English Translation
 `texts/auto/2Co.json` lists these Byz/TR vs NA differences that are not in variants.json:
-- **8:24** `endeixasthe` (imperative, Byzantine, THGNT, WH, TR) vs `endeiknymenoi` (participle, NA, SBL, Tregelles). The Plain says "give them the proof", an imperative. The SBL base has the participle. This is the only place in the part where the Plain follows a different form from the base text with no variant entry and no note. The KJV reads "shew ye".
-- **8:19** the TR reads *hymōn* ("your ready mind", KJV) where all the editions and the Byzantine text read *hēmōn* ("our readiness", the Plain). The KJV difference is plain to any reader.
+- **8:24** `endeixasthe` (imperative, Byzantine, THGNT, WH, TR) vs `endeiknymenoi` (participle, NA, SBL, Tregelles). The Plain English Translation says "give them the proof", an imperative. The SBL base has the participle. This is the only place in the part where the Plain English Translation follows a different form from the base text with no variant entry and no note. The KJV reads "shew ye".
+- **8:19** the TR reads *hymōn* ("your ready mind", KJV) where all the editions and the Byzantine text read *hēmōn* ("our readiness", the Plain English Translation). The KJV difference is plain to any reader.
 - **9:2** `to hymōn zēlos` (NA/SBL) vs `ho ex hymōn zēlos` (Byzantine/TR). The NA/SBL text has an unusual neuter article.
 - **7:10** `ergazetai` vs `katergazetai` (KJV "worketh").
 - **8:12** the Byzantine/TR add *tis* ("a man hath").
@@ -48,7 +48,7 @@ So "The Textus Receptus ... (KJV 'our care for you')" is unsupported, and "a bod
 - **8:16** `dionti` vs `donti`.
 - **7:11** Byzantine/TR add *hymas* and *en*.
 
-Not all need a full entry, but 8:24, 8:19, 9:2 and 7:10 should have one. The rest can be folded into a note or a one-line entry, as for 9:4. Also mention at 7:8 that the *gar* is bracketed in NA and present in the Byzantine/TR, because the Plain drops it.
+Not all need a full entry, but 8:24, 8:19, 9:2 and 7:10 should have one. The rest can be folded into a note or a one-line entry, as for 9:4. Also mention at 7:8 that the *gar* is bracketed in NA and present in the Byzantine/TR, because the Plain English Translation drops it.
 
 ### 4. MAJOR: chapters.json ch. 6 and notes.json 6:14: the 6:14-7:1 treatment contradicts itself and is thin on the middle positions
 The treatment is mostly fair. Both sides are named with real sources, the hapax list is correct (*heterozygeō, metochē, symphōnēsis, synkatathesis, Beliar, molysmos*), and the Qumran parallels check out. The faults:
@@ -83,18 +83,18 @@ The skeleton is Greek-literal, but these runs match the NIV's wording more than 
 Fix: reword at least 6:14b, 6:15a and 9:1 from the literal line (`node tools/literal.js 2Co 6:14-16`). For example "What does fellowship have to do with ...", "How can Christ agree with Beliar?", "It would be needless for me to write ...".
 
 ### 7. MAJOR: plain.txt 8:4 vs the "keeps 'grace' wherever the Greek has it" claim (term consistency)
-8:4 renders *charis* as "favor" ("begged us for the favor of sharing"). Ch. 8 `readings` and note 8:1 say the opposite: "The Plain keeps 'grace' wherever the Greek has it, and 'thanks' where *charis* means thanks (8:16; 9:15)."
+8:4 renders *charis* as "favor" ("begged us for the favor of sharing"). Ch. 8 `readings` and note 8:1 say the opposite: "The Plain English Translation keeps 'grace' wherever the Greek has it, and 'thanks' where *charis* means thanks (8:16; 9:15)."
 - The 8:4 variant entry also quotes "the favor of sharing", and 8:4 is cited in note 32 as one of the *charis* verses.
 - The "ten times" count (8:1, 4, 6, 7, 9, 16, 19; 9:8, 14, 15) counts the two "thanks" uses as "for the gift". The ch. 9 L lens says the "thanks word (*charis*) that began chapter 8 ends it". It began at 8:1 as "grace", not thanks.
 - Fix: put "grace" in 8:4 (for example "begged us for the grace of sharing", or reword), or drop the claim. Correct the count to "ten times (eight 'grace', two 'thanks')". Fix the ch. 9 L sentence.
-- Related, minor: 6:2 and 8:12 render the same Greek stem (*prosdektos*) as "favor" and "welcome". The link note 39 draws to Isaiah 49:8's "acceptable time" is invisible in the Plain.
+- Related, minor: 6:2 and 8:12 render the same Greek stem (*prosdektos*) as "favor" and "welcome". The link note 39 draws to Isaiah 49:8's "acceptable time" is invisible in the Plain English Translation.
 
 ---
 
 ## Minor
 
 ### 8. Wesley's rule is misquoted
-The Plain notes and the ch. 8 T lens and the ch. 9 card give "earn all you can, save all you can, give all you can". Wesley wrote "gain all you can" (Sermon 50, *The Use of Money*, 1760). Quote him correctly or paraphrase without quotation marks. It appears in notes.json 9:6, ch. 8 T and the ch. 9 Methodist entry.
+The Plain English Translation notes and the ch. 8 T lens and the ch. 9 card give "earn all you can, save all you can, give all you can". Wesley wrote "gain all you can" (Sermon 50, *The Use of Money*, 1760). Quote him correctly or paraphrase without quotation marks. It appears in notes.json 9:6, ch. 8 T and the ch. 9 Methodist entry.
 
 ### 9. Baptist Faith and Message 2000: wrong article number
 Ch. 9 card (Baptist): "article 14". Stewardship is Article XIII in the 2000 BF&M. Article XIV is Cooperation. The quoted phrases ("binding stewardship", "cheerfully, regularly, systematically, proportionately, and liberally") are real. Fix the number.
@@ -113,7 +113,7 @@ Ch. 9 card (Baptist): "article 14". Stewardship is Article XIII in the 2000 BF&M
 "Common among the church fathers and at the Reformation" is too sweeping. Tertullian argued against identifying the offender with the man of 1 Cor 5, and fathers were not agreed. Name who held it (verify: Ambrosiaster, Chrysostom for the identification; Calvin) and who did not.
 
 ### 13. chapters.json ch. 7 L lens: "each introduced by 'what'" is wrong
-In 7:11 only the first item is *posēn* ("what ... "). The next six are each introduced by *alla* ("yes", "indeed"), as the Plain's "Yes, a defense..." shows. Change to "the first is 'what eagerness', then six 'yes ... ' items".
+In 7:11 only the first item is *posēn* ("what ... "). The next six are each introduced by *alla* ("yes", "indeed"), as the Plain English Translation's "Yes, a defense..." shows. Change to "the first is 'what eagerness', then six 'yes ... ' items".
 
 ### 14. chapters.json ch. 6 T lens: lectionary range
 The Catholic Ash Wednesday reading is 2 Cor 5:20-6:2. The RCL reading is 5:20b-6:10. The sentence gives both as "5:20-6:10".
@@ -126,17 +126,17 @@ The passage ("he became human that we might become divine") is the standard "won
 
 ### 17. variants.json 8:4 and 9:4
 - 8:4 `why` says the added words are "to receive us". *Dexasthai hēmas* means "that we receive (it)". The Greek order and the `en` already say this.
-- 9:4 describes "a small further difference ... NA28 has 'I say'". This is confirmed by `texts/auto` (*legō* vs *legōmen*), but the Plain's "(not to speak of you)" needs no variant note unless it is shown; consider adding it to the reading list rather than the prose.
+- 9:4 describes "a small further difference ... NA28 has 'I say'". This is confirmed by `texts/auto` (*legō* vs *legōmen*), but the Plain English Translation's "(not to speak of you)" needs no variant note unless it is shown; consider adding it to the reading list rather than the prose.
 
 ### 18. plain.txt 6:12: the subject shifts
-*Ou stenochōreisthe en hēmin, stenochōreisthe de en tois splanchnois hymōn* is "you are not cramped in us, but cramped in your own affections". The Plain's "There is no cramped space in us. The cramped space is in your own feelings" drops the Corinthians as the ones who are cramped. Note 12's spec rests on "you are cramped" (`stenochōreisthe`). Consider "You are not cramped by us. You are cramped in your own feelings."
+*Ou stenochōreisthe en hēmin, stenochōreisthe de en tois splanchnois hymōn* is "you are not cramped in us, but cramped in your own affections". The Plain English Translation's "There is no cramped space in us. The cramped space is in your own feelings" drops the Corinthians as the ones who are cramped. Note 12's spec rests on "you are cramped" (`stenochōreisthe`). Consider "You are not cramped by us. You are cramped in your own feelings."
 
 ### 19. plain.txt 6:1: "God's" supplies an object the Greek lacks
-*synergountes* has no object (note 0 says so). The Plain commits to "God's". A neutral "As fellow workers" with the note would match the rule of not settling a debate in the translation.
+*synergountes* has no object (note 0 says so). The Plain English Translation commits to "God's". A neutral "As fellow workers" with the note would match the rule of not settling a debate in the translation.
 
 ### 20. plain.txt style and clarity
 - 9:5 "I judged it needed to ask the brothers" is awkward English; "I thought it necessary to ask" is the standard idiom.
-- 9:6 "sows with blessings" is opaque at 8th-grade level. The note and gloss help, but the Plain line itself does not.
+- 9:6 "sows with blessings" is opaque at 8th-grade level. The note and gloss help, but the Plain English Translation line itself does not.
 - 8:15 "did not have too much / too little" tracks the NIV's phrase; the Greek is "did not have more / less than enough" (verify with `literal.js`).
 
 ### 21. glosses.json
@@ -149,8 +149,8 @@ Jerome, *De viris illustribus* 7, is correctly cited for Luke as "the brother wh
 - Notes cite "4QFlorilegium" while works.json names the writing "Florilegium (4Q174)". Use the works.json name (or add "4QFlorilegium" as an alias).
 - 6:14 and 6:15 notes cite the Community Rule and Damascus Document with no source key for the Community Rule. The key `dss-4q174-florilegium` exists but is unused in this part.
 
-### 24. chapters.json ch. 8 C lens: quote not from the Plain
-"Chapter 9 starts with 'Now about the service to the saints, it is superfluous to write'" does not match the Plain's 9:1 ("There is no need for me to write ..."). Quote the Plain, or drop the quotation marks.
+### 24. chapters.json ch. 8 C lens: quote not from the Plain English Translation
+"Chapter 9 starts with 'Now about the service to the saints, it is superfluous to write'" does not match the Plain English Translation's 9:1 ("There is no need for me to write ..."). Quote the Plain English Translation, or drop the quotation marks.
 
 ### 25. notes.json 6:14 "heterozygountes" and Torah
 The note says Paul "does not quote" Deut 22:10 or Lev 19:19 and borrows the picture. It then calls the verse "Torah rules about mixing kinds" in the pull-quote. State clearly that the Torah link is an inference widely held, not stated by Paul. The note body does say this; the `p` line does not.
@@ -164,7 +164,7 @@ The note says Paul "does not quote" Deut 22:10 or Lev 19:19 and borrows the pict
 - **Card 7:1 (perfection):** Catholic (Lumen Gentium 40; Trent 6 can. 23), Orthodox (Lossky, Gregory of Nyssa), Lutheran (Augsburg VI; FC SD IV), Reformed (WCF 13.2) and Methodist (Wesley sermon 40) are accurately stated.
 
 ## Items I checked and found sound
-- Plain against the Greek for 6:1-9:15, including 6:2 (Isa 49:8 LXX form), 6:7, 7:8, 7:11, 7:12, 8:12, 8:15, 9:7, 9:9, 9:10. No omissions or added clauses beyond the minor items above.
+- Plain English Translation against the Greek for 6:1-9:15, including 6:2 (Isa 49:8 LXX form), 6:7, 7:8, 7:11, 7:12, 8:12, 8:15, 9:7, 9:9, 9:10. No omissions or added clauses beyond the minor items above.
 - Hapax list for 6:14-7:1. Qumran parallels (1QS 1:9-10; 1:18; 2:19; 5:1-2; 8:5-9; 9:20; CD 5:17-19; 4Q174 on 2 Sam 7:14). Jubilees 1:20 (Beliar).
 - Philo *Heres* 141-206 (equality as "mother of justice"); Horace *Odes* 3.9.24; Mishnah Peah 1:1; Sotah 48b; Yoma 86a; Tobit 12:9; Josephus *Ant.* 20.51-53, 101; 18.312-313; Philo *Spec. Laws* 1.76-78; 1 Clement 5:6; Didache 15:1; Trullo canon 72; Proverbs 22:8a (LXX) and 3:4 (LXX); Isa 55:10 (LXX).
 - Scholar placements: Harris, Garland, Barnett, Webb for integrity; Fitzmyer (1961), Betz (1973 article; Hermeneia 1985), Windisch (1924) for composite views; Georgi, Munck, Nickle, Downs for the collection; Dunn for the earthly-life reading of 8:9. All match the works as I know them. The one gap is Thrall (finding 4).
@@ -176,7 +176,7 @@ The note says Paul "does not quote" Deut 22:10 or Lev 19:19 and borrows the pict
 
 1. FIXED (variant at 7:12 rebuilt). Checked `texts/orig/2Co.json` and `texts/auto/2Co.json`: SBL and Byzantine agree ("your ... for us"), and the word data lists no pronoun difference at 7:12 in any edition, the TR included. The entry no longer says the TR or KJV reads "our eagerness for you". Reading 2 now says "reported in some Greek and Latin witnesses; as reported, not rechecked", names no witness, says the KJV's "our care for you" matches it but the data does not show which Greek text the KJV followed, and says the entry cannot rate the reading's strength. Reading 1 carries the "editions only" label.
 2. FIXED. Every `w` in variants.json now ends "(editions only; manuscript lists not checked)", as in the Romans model. The false "(as listed in the NA28 apparatus)" at 6:16 is removed. No manuscript siglum was added, because none could be checked.
-3. FIXED. New entries for 7:5 (Tregelles eschen), 7:8 (gar bracketed in NA, present in Byzantine; the Plain drops it), 7:10 (ergazetai/katergazetai), 8:3 (para/hyper), 8:12 (tis), 8:16 (doti/didonti), 8:19 (TR hymon for hemon; also syn/en), 8:24 (endeiknymenoi/endeixasthe; the Plain's command is the same either way, explained) and 9:2 (to/ho ex hymon zelos). Variants went from 10 to 19. Left out as no change to the English: 8:2 (to ploutos/ton plouton) and 7:11 (Byzantine/TR add hymas and en).
+3. FIXED. New entries for 7:5 (Tregelles eschen), 7:8 (gar bracketed in NA, present in Byzantine; the Plain English Translation drops it), 7:10 (ergazetai/katergazetai), 8:3 (para/hyper), 8:12 (tis), 8:16 (doti/didonti), 8:19 (TR hymon for hemon; also syn/en), 8:24 (endeiknymenoi/endeixasthe; the Plain English Translation's command is the same either way, explained) and 9:2 (to/ho ex hymon zelos). Variants went from 10 to 19. Left out as no change to the English: 8:2 (to ploutos/ton plouton) and 7:11 (Byzantine/TR add hymas and en).
 4. PARTLY FIXED. Ch. 6 `sum`, the third reading and the deep dive now use one label: scholars are divided; Harris, Garland, Barnett and Webb defend unity; others from Fitzmyer and Betz on do not; no "minority view" and no head count. Note 14 now promises "Four main positions" and lists four (for this letter; Paul's own from another occasion; borrowed by Paul; not Paul's). The deep dive has the same four. Fitzmyer (non-Pauline in origin, Essene-style) and Betz (anti-Pauline fragment added by an editor) are now stated separately. Fee's idol-food argument added (new local source `fee-idol-food`, NTS 23, 1977, 140-161). The 6:14-7:1 settings card has a middle "earlier or borrowed piece" view. NOT DONE: Thrall's verdict is not stated (I could not verify it; the deep dive says it was not rechecked); Furnish, Martin, Lambrecht not added (cannot verify); no source key for 1QS or 4Q174 (the key `dss-4q174-florilegium` is not in sources.json).
 5. FIXED. Catholic tithe entry now says: support of ministers is natural and divine law; the amount (the tenth) is fixed under the New Law by the Church's ordinance (II-II q.87 a.1), not carried over as an Old Law rule.
 6. FIXED. 6:14b "Or what does light have in common with darkness?"; 6:15a "How can Christ be in tune with Beliar?"; 6:16 "How can God's temple agree with idols? For it is we who are the temple of the living God. ... I will live in them and walk about among them"; 9:1 "It would be needless for me to write to you about the service for the saints." Variant, note and topic anchors/quotes updated (topics idolatry and temple).
@@ -192,12 +192,12 @@ The note says Paul "does not quote" Deut 22:10 or Lev 19:19 and borrows the pict
 16. FIXED. Athanasius is now "a parallel, not a comment on 8:9". Chrysostom was not added.
 17. FIXED. 8:4 `why` now says "that we receive it" (dexasthai hemas); the 9:4 legō/legōmen difference is stated precisely in the `why`. I did not split 9:4 into a second entry.
 18. FIXED. 6:12 now "You are not cramped by us. You are cramped in your own feelings." Note 12 anchor updated.
-19. FIXED. 6:1 now "As fellow workers, we also urge you". Note 0 says the Plain leaves the object open and readers will probably supply God.
+19. FIXED. 6:1 now "As fellow workers, we also urge you". Note 0 says the Plain English Translation leaves the object open and readers will probably supply God.
 20. FIXED. 9:5 "I thought it necessary to ask"; 8:15 "had no extra ... did not lack" (note anchor updated). 9:6 kept "sows with blessings" (the Greek is ep' eulogiais) and a gloss "gives generously" was added.
 21. FIXED. Glosses: 6:7 "the tools God gives for fighting for what is right"; right/left "probably sword in one hand and shield in the other".
 22. PARTLY FIXED. Note 8:18 says Jerome reports the identification and that how firmly he holds it was not rechecked. Origen and Ambrose not added (unverified).
 23. PARTLY FIXED. Note 6:18 now says "Florilegium, 4Q174" as in works.json. No source key for the Community Rule or 4Q174 exists, so none was added.
-24. FIXED. Ch. 8 C lens now quotes the Plain's 9:1; the ch. 9 deep dive quote updated too.
+24. FIXED. Ch. 8 C lens now quotes the Plain English Translation's 9:1; the ch. 9 deep dive quote updated too.
 25. FIXED. Note 6:14 `p` now says many think the word recalls Torah rules on mixing kinds, though Paul does not say so.
 
 ## Verification pass (2026-10-29)

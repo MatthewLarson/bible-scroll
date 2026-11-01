@@ -44,7 +44,9 @@ deeply, and wants every view presented fairly. Matt, who commissioned this, want
    the first time (e.g. "the Septuagint, the Greek translation of the Old Testament made before Jesus").
    Avoid em-dashes in prose; use commas, colons or periods.
 
-## plain.txt: the Plain English translation
+## plain.txt: the Plain English Translation
+
+**The name.** The site's own translation is called the **Plain English Translation**. Write that full name in notes, reviews and briefs, never bare "the Plain English Translation" (Matt, 2026-10-30: bare "Plain" was confusing). Possessive: "the Plain English Translation's". The file is still `plain.txt` and the data key `plain`.
 
 ```
 ## Section heading
@@ -76,7 +78,7 @@ An array of objects:
  "r":"Ruth 2:12; Ezekiel 16:8; Deuteronomy 22:30", "top":"kinsman-redeemer", "s":["block"],
  "l":[["Levirate marriage","Levirate marriage"]]}
 ```
-- `a` is an exact substring of the Plain English verse (case and punctuation exact, not crossing ` / `).
+- `a` is an exact substring of the Plain English Translation verse (case and punctuation exact, not crossing ` / `).
   Two notes on the same verse may nest but must not partly overlap.
 - `type`: `word` (translation, Hebrew/Greek, mistranslations), `history` (archaeology, culture, the ancient
   world), `echo` (Scripture connection: quotations, allusions, later uses), `symbol` (what an image means),
@@ -109,7 +111,7 @@ Sea Scrolls, the Samaritan Pentateuch, the Targums, early versions, and the NA28
    {"w":"Oldest Greek manuscripts (Codex Alexandrinus, Vaticanus, P72 'God Christ'); NA28, SBLGNT", "orig":"Ἰησοῦς", "en":"Jesus", "plain":"Jesus"},
    {"w":"Codex Sinaiticus, Byzantine majority, Textus Receptus (KJV)", "orig":"ὁ κύριος", "en":"the Lord", "plain":"the Lord"}],
  "follow":0,
- "why":"Why the Plain English follows this reading, in plain words (oldest evidence, harder reading, etc.).",
+ "why":"Why the Plain English Translation follows this reading, in plain words (oldest evidence, harder reading, etc.).",
  "b":"Optional further explanation (HTML).", "s":["metzger"]}
 ```
 - The example above is illustrative only; check every witness yourself.
@@ -126,7 +128,7 @@ Sea Scrolls, the Samaritan Pentateuch, the Targums, early versions, and the NA28
 
 ## glosses.json: Today's words
 
-`[{"v":"1:1","a":"exact phrase from the Plain English","m":"a loose modern American way to say it"}]`
+`[{"v":"1:1","a":"exact phrase from the Plain English Translation","m":"a loose modern American way to say it"}]`
 A gloss is not a translation: it gives a modern reader the feel the phrase had for its first hearers
 ("redeemer" -> "family rescuer"). About one per 2–4 verses, on idioms, measures, money, customs and church words.
 Same anchor rules as notes; a gloss may nest inside a note or contain one, but not partly overlap.
@@ -236,7 +238,7 @@ In reference lists a bare "c:v" always means your own book, so name every other 
 In a book whose numbering differs from the KJV (Sirach, Baruch and 1 Esdras follow Swete), write a KJV verse number as
 "KJV 36:1–17": a bare c:v right after a capitalized abbreviation or name that is not a book (KJV, LXX, MT, CD) is not
 linked, so it never points to the wrong verse.
-Quoting a book this site has already translated: use its Plain wording exactly (a quotation may skip words with
+Quoting a book this site has already translated: use its Plain English Translation wording exactly (a quotation may skip words with
 "..."). The build warns when a quotation followed by its reference, "..." (Exodus 33:20), does not match. To quote
 another version on purpose, name it in the parentheses: "on eagles' wings" (Exodus 19:4, KJV).
 Reference lists (`r`, `refs`, `echoes`) may cite works outside the 66 books, such as "Tobit 4:15",

@@ -5,13 +5,13 @@ Checked: plain.txt verse by verse against the SBLGNT (`sbl`) and the TAGNT editi
 
 ## Verdict
 
-This is a strong part. The translation is built from the Greek, not from memory of the NIV or ESV. I found no verse that needs redoing for drift: where the shape matches (13:31, 13:34, 14:6, 15:13), the Greek forces it. The notes are dense, accurate and fair, the six traditions cards are sourced from real confessions, and the flagged facts check out (Lambeth 1978 Resolution 35, Calvin's "stage play" foot washing, the Mekhilta on the Hebrew slave, Chytraeus, the Church of God Declaration of Faith). The OT quotations match the site's Plain. The proposed topics duplicate nothing, and `walvoord-rapture` is the only key for *The Rapture Question*. The serious problems are a few gaps in the text-critical record and in term discipline. Three places where KJV readers will see a different text have no variants.json entry: 14:15 (the famous "keep my commandments"), 13:2 ("into the heart of Judas") and 16:33. The binding term "apostle" is replaced at 13:16 without a report. At 15:26 the Plain renders ἐκπορεύεται with the same English as ἐξέρχομαι, which blurs the very verb the Filioque card is about. The rest are minor: some tense and wording slips, a wrong count, small citation slips, vague witness lists, and mechanics. No critical findings.
+This is a strong part. The translation is built from the Greek, not from memory of the NIV or ESV. I found no verse that needs redoing for drift: where the shape matches (13:31, 13:34, 14:6, 15:13), the Greek forces it. The notes are dense, accurate and fair, the six traditions cards are sourced from real confessions, and the flagged facts check out (Lambeth 1978 Resolution 35, Calvin's "stage play" foot washing, the Mekhilta on the Hebrew slave, Chytraeus, the Church of God Declaration of Faith). The OT quotations match the site's Plain English Translation. The proposed topics duplicate nothing, and `walvoord-rapture` is the only key for *The Rapture Question*. The serious problems are a few gaps in the text-critical record and in term discipline. Three places where KJV readers will see a different text have no variants.json entry: 14:15 (the famous "keep my commandments"), 13:2 ("into the heart of Judas") and 16:33. The binding term "apostle" is replaced at 13:16 without a report. At 15:26 the Plain English Translation renders ἐκπορεύεται with the same English as ἐξέρχομαι, which blurs the very verb the Filioque card is about. The rest are minor: some tense and wording slips, a wrong count, small citation slips, vague witness lists, and mechanics. No critical findings.
 
 ## Findings
 
 ### 1. Major: 14:15 has no variant entry for the KJV's "keep my commandments"
 - **Location:** plain.txt 14:15; variants.json (missing).
-- **Problem:** The Plain says "If you love me, you will keep the commands I give" (future τηρήσετε). The Byzantine text and TR read the imperative τηρήσατε, which gives the KJV's familiar "If ye love me, keep my commandments." This is one of the best-known verses in the chapter, and a KJV reader will notice at once. brief-nt.md requires an entry for every Byzantine/TR difference an English reader would notice.
+- **Problem:** The Plain English Translation says "If you love me, you will keep the commands I give" (future τηρήσετε). The Byzantine text and TR read the imperative τηρήσατε, which gives the KJV's familiar "If ye love me, keep my commandments." This is one of the best-known verses in the chapter, and a KJV reader will notice at once. brief-nt.md requires an entry for every Byzantine/TR difference an English reader would notice.
 - **Evidence:** texts/auto/Jhn.json 14:15 "Byzantine τηρήσατε | NA27/28 τηρήσετε"; TAGNT `τηρήσετε.[NnSYWG]` (so T and B differ). Metzger reports three readings: τηρήσετε (B L Ψ and others), τηρήσατε (A D W Θ f13, Byzantine), τηρήσητε (P66 א).
 - **Fix:** Add a variants.json entry anchored on "you will keep the commands I give" with all three readings (future / imperative / subjunctive "if you love me and keep..."), and witnesses as reported by Metzger. Explain that the future makes obedience the fruit of love rather than a separate order.
 
@@ -23,9 +23,9 @@ This is a strong part. The translation is built from the Greek, not from memory 
 
 ### 3. Major: 15:26 gives ἐκπορεύεται the same English as ἐξέρχομαι, which hides the creed's verb
 - **Location:** plain.txt 15:26 "who comes out from the Father"; compare 13:3, 16:27, 16:28, 16:30, 17:8 ("came out from God / the Father", ἐξῆλθον). Also the 15:26 traditions card and note, and the 15 chapter summary.
-- **Problem:** The Filioque card and the 15:26 note turn on ἐκπορεύεται, the verb the Creed of 381 took ("proceeds"). The Orthodox case rests on telling the Spirit's ἐκπόρευσις apart from the Son's coming forth and from the sending. In the Plain, an English reader sees the Spirit "comes out from the Father" and the Son "came out from the Father" (16:28) as the same act. That is exactly the blurring the Orthodox object to, and the card quotes the Plain.
+- **Problem:** The Filioque card and the 15:26 note turn on ἐκπορεύεται, the verb the Creed of 381 took ("proceeds"). The Orthodox case rests on telling the Spirit's ἐκπόρευσις apart from the Son's coming forth and from the sending. In the Plain English Translation, an English reader sees the Spirit "comes out from the Father" and the Son "came out from the Father" (16:28) as the same act. That is exactly the blurring the Orthodox object to, and the card quotes the Plain English Translation.
 - **Evidence:** 15:26 ὃ παρὰ τοῦ πατρὸς ἐκπορεύεται against 16:28 ἐξῆλθον ἐκ (NA28 παρὰ) τοῦ πατρός.
-- **Fix:** Use a distinct verb that keeps the creed link, such as "who goes out from the Father" or "who proceeds from the Father", and update the card question, the note anchor and the summary to match. Alternatively, keep "comes out" and add one sentence to the 15:26 note: the Plain uses "came out" for a different verb (ἐξέρχομαι) in 16:27–28, and the two should not be merged.
+- **Fix:** Use a distinct verb that keeps the creed link, such as "who goes out from the Father" or "who proceeds from the Father", and update the card question, the note anchor and the summary to match. Alternatively, keep "comes out" and add one sentence to the 15:26 note: the Plain English Translation uses "came out" for a different verb (ἐξέρχομαι) in 16:27–28, and the two should not be merged.
 
 ### 4. Major: 13:2 has no variant entry for "into the heart of Judas," and the note misdescribes the KJV
 - **Location:** variants.json (missing); notes.json 13:2 "planted the plan in the heart".
@@ -35,13 +35,13 @@ This is a strong part. The translation is built from the Greek, not from memory 
 
 ### 5. Minor: 14:30 "this world's ruler" adds τούτου, which only the TR has
 - **Location:** plain.txt 14:30.
-- **Problem:** The SBL, NA28 and THGNT read ὁ τοῦ κόσμου ἄρχων ("the world's ruler"). Only the TR adds τούτου. The Plain has quietly harmonized with 12:31 and 16:11. It does not follow the text it claims.
+- **Problem:** The SBL, NA28 and THGNT read ὁ τοῦ κόσμου ἄρχων ("the world's ruler"). Only the TR adds τούτου. The Plain English Translation has quietly harmonized with 12:31 and 16:11. It does not follow the text it claims.
 - **Evidence:** TAGNT `τούτου[T]`; texts/auto 14:30 "word in some editions only ... τούτου ... TR".
 - **Fix:** "because the world's ruler is on his way". The 14:30 note already says John calls him "this world's ruler" in 12:31 and 16:11, which can stay.
 
 ### 6. Minor: 13:26 has no entry for NA28's [λαμβάνει καὶ] or the KJV's "Judas Iscariot, the son of Simon"
 - **Location:** plain.txt 13:26.
-- **Problem:** NA28 prints βάψας οὖν τὸ ψωμίον [λαμβάνει καὶ] δίδωσιν ("he took it and gave it"), and so do WH and Tregelles. The SBL and THGNT lack the words. That is an NA28/SBL difference that changes the English, so brief-nt.md requires an entry. The TR also reads Ἰσκαριώτῃ, giving the KJV's "Judas Iscariot, the son of Simon", against the Plain's "Judas, son of Simon Iscariot".
+- **Problem:** NA28 prints βάψας οὖν τὸ ψωμίον [λαμβάνει καὶ] δίδωσιν ("he took it and gave it"), and so do WH and Tregelles. The SBL and THGNT lack the words. That is an NA28/SBL difference that changes the English, so brief-nt.md requires an entry. The TR also reads Ἰσκαριώτῃ, giving the KJV's "Judas Iscariot, the son of Simon", against the Plain English Translation's "Judas, son of Simon Iscariot".
 - **Evidence:** TAGNT `λαμβάνει[NnWG] καὶ[NnWG]`; texts/auto 13:26 "Byzantine δίδωσιν | NA27/28 [λαμβάνει καὶ] δίδωσιν", "Byzantine Ἰσκαριώτῃ".
 - **Fix:** Add one entry anchored on "gave it to Judas, son of Simon Iscariot" with three readings (SBL/THGNT; NA28 "took it and gave it"; TR/Byzantine "gave it to Judas Iscariot, son of Simon"). Name the witnesses from Metzger or NA28.
 
@@ -52,7 +52,7 @@ This is a strong part. The translation is built from the Greek, not from memory 
 
 ### 8. Minor: 17:3 "the one real God" softens μόνον ("only")
 - **Location:** plain.txt 17:3; chapter 17 summary; 15:1 and 17:3 notes.
-- **Problem:** τὸν μόνον ἀληθινὸν θεόν is "the only true (real) God". "The one real God" is not the same claim: it can read as "the one who is the real God" rather than "the only one". The 17:3 note then debates the Jehovah's Witness and Augustinian readings of "only true God", and that debate depends on μόνος. The Plain should not pre-soften the word under dispute.
+- **Problem:** τὸν μόνον ἀληθινὸν θεόν is "the only true (real) God". "The one real God" is not the same claim: it can read as "the one who is the real God" rather than "the only one". The 17:3 note then debates the Jehovah's Witness and Augustinian readings of "only true God", and that debate depends on μόνος. The Plain English Translation should not pre-soften the word under dispute.
 - **Fix:** "to know you, the only real God, and the one you sent, Jesus Christ." Update the matching wording in the 15:1 note, the 17:3 note title and the summary.
 
 ### 9. Minor: 13:8 μέρος rendered "place", which clashes with τόπος in 14:2–3
@@ -67,7 +67,7 @@ This is a strong part. The translation is built from the Greek, not from memory 
 
 ### 11. Minor: John's key words flattened or softened
 - **13:21** ἐμαρτύρησεν "He spoke out solemnly": John's witness/testify theme (the writer's 15:27 note calls the whole Gospel a trial) is lost at its first use in the discourse. Fix: "He declared openly" or "he testified".
-- **15:20** ἐδίωξαν / διώξουσιν "went after me ... go after you": too weak and ambiguous ("pursue", "attack", "court"). The gloss has to supply "persecuted me", which shows the Plain is not carrying the sense. Fix: "If they hunted me down, they will hunt you down too", or "persecuted".
+- **15:20** ἐδίωξαν / διώξουσιν "went after me ... go after you": too weak and ambiguous ("pursue", "attack", "court"). The gloss has to supply "persecuted me", which shows the Plain English Translation is not carrying the sense. Fix: "If they hunted me down, they will hunt you down too", or "persecuted".
 - **13:19 gloss** "that I am the one, bearing God's own name": a gloss gives feel, not a disputed theological reading. The note already argues the Isaiah 43:10 echo. Fix: "that I am who I say I am" or "that I AM".
 
 ### 12. Minor: inconsistent renderings inside the part and across parts
@@ -125,7 +125,7 @@ This is a strong part. The translation is built from the Greek, not from memory 
 - **Other facts:** Didache 10:2, Tertullian *Apology* 39, Plato *Phaedo* 116a and *Symposium* 179b, Aristotle *NE* 9.8, Avot 4:11 *peraqlit*, m. Berakhot 5:5, m. Bava Kamma 7:7, m. Pesachim 10:1 (four cups), Josephus *War* 5.210, Gregory Nazianzen Oration 30.7, Augustine *De Trinitate* 1.7.14 and *Tractates* 56 and 105, Ambrose *De sacramentis* 3 (the Roman church did not wash feet), Toledo 589, Rome 1014, PCPCU 1995, Florence 1439, Trent on assurance, Augsburg XII, WCF 2.3, 10.3–4, 17, and BFM IV and V all check out.
 - **Proposed topics:** foot-washing, farewell-discourse, judas-iscariot and trinity duplicate nothing in content/topics or the other proposal folders (titles and aka checked; monotheism, son-of-god and holy-spirit are distinct subjects). Matthew 26–28 already contributes to judas-iscariot and trinity, which confirms they are wanted.
 - **`walvoord-rapture`:** unique. The other Walvoord keys are different works (`walvoord-millennial`, `walvoord` for Revelation, `walvoord-matthew`). No other key cites *The Rapture Question*.
-- **OT quotations** in notes match the site's Plain (Psalm 41:9; Psalm 69:4; Psalm 80:8; Exodus 33:11, 20; Isaiah 42:8; Revelation 21:3). John 1:18's "in the Father's embrace" (part 01-04) matches the 13:23 rendering of κόλπος.
+- **OT quotations** in notes match the site's Plain English Translation (Psalm 41:9; Psalm 69:4; Psalm 80:8; Exodus 33:11, 20; Isaiah 42:8; Revelation 21:3). John 1:18's "in the Father's embrace" (part 01-04) matches the 13:23 rendering of κόλπος.
 - **"The Jews"** (13:33) is kept, with a note, as terms.json requires. Amen sayings are doubled throughout.
 
 ## Fixes applied
@@ -137,7 +137,7 @@ This is a strong part. The translation is built from the Greek, not from memory 
 5. Applied. 14:30 "the world's ruler".
 6. Applied. New 13:26 variant with three readings (SBLGNT/THGNT; NA28/WH/Tregelles "took it and gave it"; Robinson-Pierpont/TR "Judas Iscariot, son of Simon"), editions only.
 7. Applied with editions only (lane rule): critical editions plus Robinson-Pierpont for the present, TR/KJV for the future. Manuscript witnesses not named because Tischendorf was not checked.
-8. Applied. 17:3 "the only real God" in the Plain, 17:3 note title and text, 15:1 note and chapter 17 summary.
+8. Applied. 17:3 "the only real God" in the Plain English Translation, 17:3 note title and text, 15:1 note and chapter 17 summary.
 9. Applied. 13:8 "no share with me"; note anchor updated.
 10. Applied. 13:1 "he loved them all the way to the end"; 14:28 "If you loved me, you would be glad"; 13:17 and 14:14 "if".
 11. Applied. 13:21 "He testified"; 15:20 "If they hunted me down, they will hunt you down too" (gloss updated); 13:19 gloss "that I am who I say I am".

@@ -3,7 +3,7 @@
 Reviewed: `content/books/3Ma/book.json` (title through reading, the traditions card "Is 3 Maccabees Scripture?", and the whole `canon` block) and `content/books/3Ma/sources.json`. Tier `orth`; brief `tools/brief-3ma.md`; model `content/books/2Ma/review-book.md`.
 
 Checked against:
-- A script took every quoted string in book.json and looked for it in the current `plain.txt` of both parts (01-03, 04-07). All 3 Maccabees quotations match word for word and sit at the verse cited (1:9, 1:11, 2:2, 2:22, 2:25, 2:28-30, 3:3, 4:14-21, 5:11, 5:28, 6:18, 6:28, 7:6, 7:9, 7:11-15, 7:23). The quotations of the 66 match the current Plain: Hebrews 9:7 and 11:33-34, Revelation 13:16, Galatians 6:17, Esther 3:8, 6:1 and 9:22, Deuteronomy 17:6, Romans 12:19. The 2 Maccabees quotation ("very beautiful in their glory") matches 2Ma 3:26. I also checked the cited verses of Daniel, Leviticus, 1 Kings, Acts, Jeremiah, Ezekiel, 2 Kings, Psalms and Proverbs against the Plain.
+- A script took every quoted string in book.json and looked for it in the current `plain.txt` of both parts (01-03, 04-07). All 3 Maccabees quotations match word for word and sit at the verse cited (1:9, 1:11, 2:2, 2:22, 2:25, 2:28-30, 3:3, 4:14-21, 5:11, 5:28, 6:18, 6:28, 7:6, 7:9, 7:11-15, 7:23). The quotations of the 66 match the current Plain English Translation: Hebrews 9:7 and 11:33-34, Revelation 13:16, Galatians 6:17, Esther 3:8, 6:1 and 9:22, Deuteronomy 17:6, Romans 12:19. The 2 Maccabees quotation ("very beautiful in their glory") matches 2Ma 3:26. I also checked the cited verses of Daniel, Leviticus, 1 Kings, Acts, Jeremiah, Ezekiel, 2 Kings, Psalms and Proverbs against the Plain English Translation.
 - The part variants and notes, `content/proposals/works/terms.json`, `works.json` (name "3 Maccabees", tier orth, book 3Ma: correct), and the brief.
 - Sources I opened in this session:
   - the Emmet introduction in APOT vol. 1 (`.scratch/bar-book/dl/apot1.txt`, lines about 16545-17290);
@@ -23,11 +23,11 @@ Checked against:
 
 ## Verdict
 
-This is careful, readable work, and its honesty is good. In the site's own voice 3 Maccabees is never called Scripture without saying for whom. The reliability analysis is labeled as Claude's and keeps the four parts without ranking any church. Every 3 Maccabees quotation matches the current Plain. The history is sound: Polybius at 5.79-86 (73 elephants, Theodotus killing the physician Andreas, Arsinoe riding the line, "crowns, sacrifices, altars"), and Josephus at *Against Apion* 2.5 ("naked and in bonds", "do with good reason celebrate this day") are quoted accurately. Emmet's introduction supports what is credited to him: the Hibeh papyrus, Theodoret, the Liturgy of St Clement, the Claromontanus stichometry, the Peshitta and Armenian versions, "over 100" rare words, "entirely credible", and no messianic hope or future life. I found nothing invented.
+This is careful, readable work, and its honesty is good. In the site's own voice 3 Maccabees is never called Scripture without saying for whom. The reliability analysis is labeled as Claude's and keeps the four parts without ranking any church. Every 3 Maccabees quotation matches the current Plain English Translation. The history is sound: Polybius at 5.79-86 (73 elephants, Theodotus killing the physician Andreas, Arsinoe riding the line, "crowns, sacrifices, altars"), and Josephus at *Against Apion* 2.5 ("naked and in bonds", "do with good reason celebrate this day") are quoted accurately. Emmet's introduction supports what is credited to him: the Hibeh papyrus, Theodoret, the Liturgy of St Clement, the Claromontanus stichometry, the Peshitta and Armenian versions, "over 100" rare words, "entirely credible", and no messianic hope or future life. I found nothing invented.
 
 The weak points are these:
 - **The Orthodox row is flatter than its own sources.** The Orthodox Study Bible says the Orthodox Church has never officially fixed one list. The Russian Synodal Bible marks the book non-canonical.
-- **The Plain is described wrongly.** The book-level page says the Plain follows Swete and that 2:1 comes from Brenton. The parts follow Rahlfs for 2:1 and 1:19, and Venetus at 2:5 and 7:20-22.
+- **The Plain English Translation is described wrongly.** The book-level page says the Plain English Translation follows Swete and that 2:1 comes from Brenton. The parts follow Rahlfs for 2:1 and 1:19, and Venetus at 2:5 and 7:20-22.
 - **Two cited_in links have no source.** They sit under "Where the Bible refers to it".
 - **The Syriac and Armenian rows rest on a 1913 manuscript description and Wikipedia**, not on those churches.
 - **The Ethiopian row sends a reader to a church list that really does say "III Maccabees"**, with no word on why that is another book.
@@ -94,19 +94,19 @@ All of the following were checked in this session.
   - Make the same change in the lead, the facts line and how_to_read.
 
 **2. Major: "About this translation" describes the base text wrongly (sections, "About this translation"; canon.provenance "The Greek witnesses").**
-- *What the site says:* the Plain is translated from Swete's Greek, "who follows Codex Alexandrinus"; Swete's text "has no verse 2:1 ... which Brenton's English of 1851 has; the Plain supplies it"; "Brenton was used to check the sense".
+- *What the site says:* the Plain English Translation is translated from Swete's Greek, "who follows Codex Alexandrinus"; Swete's text "has no verse 2:1 ... which Brenton's English of 1851 has; the Plain English Translation supplies it"; "Brenton was used to check the sense".
 - *What the parts did:*
   - 2:1 is translated from **Rahlfs** (1935, "read in its digital text"), and the variant says Brenton "has the same verse".
-  - The Plain follows Rahlfs at 1:19 (the wedding rooms; the three variants at 1:18-19).
+  - The Plain English Translation follows Rahlfs at 1:19 (the wedding rooms; the three variants at 1:18-19).
   - It follows Venetus at 2:5 and 7:20-22.
   - `progress.md` records all of this.
 - *Result:*
   - A reader of the book page is told that Swete (Alexandrinus) is the whole base, with Brenton as a check.
   - Rahlfs is not mentioned, and `rahlfs-lxx` is in neither book.json `s` nor 3Ma/sources.json.
-  - The Plain is not a Swete text at 2:1.
+  - The Plain English Translation is not a Swete text at 2:1.
   - This is a provenance misstatement on the page that tells readers what the translation is.
 - *Fix:*
-  - Write: "Base text: Swete (Codex Alexandrinus). The Plain departs from Swete at 1:19 and 2:1 (Rahlfs, 1935), and at 2:5 and 7:20-22 (Codex Venetus); each is a variant note."
+  - Write: "Base text: Swete (Codex Alexandrinus). The Plain English Translation departs from Swete at 1:19 and 2:1 (Rahlfs, 1935), and at 2:5 and 7:20-22 (Codex Venetus); each is a variant note."
   - Add `rahlfs-lxx` to sources and to `s`. Check that the key exists in the global sources.
   - Keep Brenton as the English check text.
 
@@ -227,11 +227,11 @@ All of the following were checked in this session.
 14. Fixed. One sentence added to "History or story": Ptolemy Euergetes, after taking Syria, came to Jerusalem and "offered many sacrifices to God" (Against Apion 2.48, Whiston on lexundria, opened now), compared with 1:9.
 15. Fixed. The census view credits Tcherikover alone, from the English summary of his article (Orion bibliography, opened now: an extraordinary Augustan poll-tax census, the threat to civic status, the spirit of national revolt). Hadas, Bickerman, Anderson and Johnson removed (Wikipedia only); the Date fact now names only Emmet, Thackeray, Wendland, Tcherikover, and Ewald, Hausrath and Reuss (Swete). "About 25 to 15 BC" and "about AD 40" removed as unsourced.
 16. Fixed. The provenance sentence on Leviticus 16 now adds that Alexandrinus reads "no Gentile" and Venetus "no one of the nation" (pointing to the variant at 1:11); the Hebrews comparison in §4 speaks only of the high priest once a year.
-17. Fixed. "a horse and its rider and two young men" (2 Maccabees 3:25-26 Plain checked).
+17. Fixed. "a horse and its rider and two young men" (2 Maccabees 3:25-26 Plain English Translation checked).
 18. Fixed. Facts and "Early versions and use" now say the Syriac sometimes agrees with the Lucianic text (Emmet).
 19. Not a change to my files: for the lead (back-pointers from Galatians 6:17, Hebrews 9:7, Hebrews 11:33-34, Revelation 13:16 and now Acts 22:28 to 3 Maccabees).
 20. Fixed. The Esther comparison now quotes Addition E as the site's Esther variant at 8:12 has it ("children of the Most High, the most mighty living God") and names who is blamed in each letter (Haman; the king's Friends, 7:3).
 
-Also, beyond the findings (lead decisions 3-4, 8, 10, 12): every fact kept was rechecked in a source opened in this session (Emmet in APOT 1; Swete's Introduction, including his manuscript table; Reid and Bechtel; Apostolic Canons 85; Trullo canon 2; Laodicea 60, Athanasius Letter 39 and Carthage 419, which confirm the lists lack 3 Maccabees; Polybius 5.81-86, where the 73 elephants are now cited as 5.82 (40 + 33) and Theodotus comes "just before daybreak"; Josephus Against Apion 2.48-55; the Letter of Aristeas 12-27, 99 in APOT 2; the OSB front matter; the NRSV introduction; OCA; Dositheus; deSilva's contents, now "chapter 16", with the unchecked "by a Protestant scholar" removed). "Late 300s" for the Apostolic Canons, "Philo" (`philo-embassy`), the unsourced claims about synagogues reading the Septuagint, and "left no trace among the rabbis" (now Emmet's "every ancient reference is Christian") were removed. The festival is stated as the book's claim (lead decision 8). The Song of the Three is called one of the Greek additions to Daniel (decision 10). The lens O and J sentences now rest on the OSB and on Emmet (decision 12). The 3 Maccabees quotations at 1:9, 2:22 and 5:28 were updated to the parts' current Plain. `wiki-3macc` and `wiki-meqabyan` deleted from sources.json; book.json now cites no Wikipedia.
+Also, beyond the findings (lead decisions 3-4, 8, 10, 12): every fact kept was rechecked in a source opened in this session (Emmet in APOT 1; Swete's Introduction, including his manuscript table; Reid and Bechtel; Apostolic Canons 85; Trullo canon 2; Laodicea 60, Athanasius Letter 39 and Carthage 419, which confirm the lists lack 3 Maccabees; Polybius 5.81-86, where the 73 elephants are now cited as 5.82 (40 + 33) and Theodotus comes "just before daybreak"; Josephus Against Apion 2.48-55; the Letter of Aristeas 12-27, 99 in APOT 2; the OSB front matter; the NRSV introduction; OCA; Dositheus; deSilva's contents, now "chapter 16", with the unchecked "by a Protestant scholar" removed). "Late 300s" for the Apostolic Canons, "Philo" (`philo-embassy`), the unsourced claims about synagogues reading the Septuagint, and "left no trace among the rabbis" (now Emmet's "every ancient reference is Christian") were removed. The festival is stated as the book's claim (lead decision 8). The Song of the Three is called one of the Greek additions to Daniel (decision 10). The lens O and J sentences now rest on the OSB and on Emmet (decision 12). The 3 Maccabees quotations at 1:9, 2:22 and 5:28 were updated to the parts' current Plain English Translation. `wiki-3macc` and `wiki-meqabyan` deleted from sources.json; book.json now cites no Wikipedia.
 
 Lead note applied after the parts finished: Physcon is now "Ptolemy VIII (Physcon)" throughout book.json, with Emmet's numbering (IX) noted once, in "History or story". The 5:28 quotation now reads "God, Master over all, was at work in this", and every 3 Maccabees quotation in book.json was rechecked by script against both parts' current plain.txt.

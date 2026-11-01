@@ -24,7 +24,7 @@ The translation is competent and mostly built from the Greek. The cited primary 
 
 3. **KJV-visible variants are missing.** The writer's own Byzantine/TR differences (texts/auto) are not entered.
    - 9:10: the Byzantine text adds "of his hope" (τῆς ἐλπίδος αὐτοῦ). KJV: "partaker of his hope".
-   - 9:22: Byzantine/TR "as weak" (ὡς ἀσθενής) against the Plain's "became weak". This changes whether Paul became weak or only like the weak. KJV: "as weak".
+   - 9:22: Byzantine/TR "as weak" (ὡς ἀσθενής) against the Plain English Translation's "became weak". This changes whether Paul became weak or only like the weak. KJV: "as weak".
    - 10:11: Byzantine "all these things happened... as types" (πάντα τύποι συνέβαινον) against τυπικῶς. KJV: "for ensamples".
    - 10:24: Byzantine adds "each" (ἕκαστος). KJV: "every man another's wealth".
    - 11:26: Byzantine "this cup" (τοῦτο). KJV: "drink this cup".
@@ -37,7 +37,7 @@ The translation is competent and mostly built from the Greek. The cited primary 
    - The note lists three explanations. Explanation (3) is "a variant tradition existed, though no witness for it is cited here". That is an admission of nothing, and it reads like a placeholder.
    - It omits the rabbinic and patristic harmonizations: Paul's figure deducts the 1,000 leaders hanged (Numbers 25:4), or counts only those who fell "in one day" by plague. A fuller note would say plainly that Hebrew Numbers 25:9, the LXX and the Targums give 24,000. It would say that no Greek witness of 1 Cor 10:8 is known to read otherwise, if that can be confirmed.
    - It would also note the Numbers 26:62 coincidence only if the writer can source it.
-   - Fix: remove or source (3), cite the Mishnah, Talmud or Josephus parallel only if checked, and state that the difference is a real, unresolved discrepancy. The Plain follows the Greek, as it should.
+   - Fix: remove or source (3), cite the Mishnah, Talmud or Josephus parallel only if checked, and state that the difference is a real, unresolved discrepancy. The Plain English Translation follows the Greek, as it should.
 
 5. **Build errors and duplicate topics (topics.json, proposals/nt/topics/new-covenant.json).**
    - This part contributes the same 11:25 material to both `covenant` and `new-covenant`. The `new-covenant` proposal's aka ("new covenant", "The New Covenant") collides with `covenant`, and the part cannot reach 0 errors.
@@ -95,14 +95,14 @@ The translation is competent and mostly built from the Greek. The cited primary 
 19. **Note 57 (11:15, anti).**
     - It presents "in place of" as the hair-only reading. The obvious objection, that v.6 then makes no sense, is not given.
     - The covering word, περιβόλαιον, means a wrap or mantle, not the head-covering word of vv.4-7 (κατακαλύπτω). Add that.
-    - The Plain's "in place of" has an interpretive effect (favoring the hair view) that the note should admit.
+    - The Plain English Translation's "in place of" has an interpretive effect (favoring the hair view) that the note should admit.
 
 20. **Notes 47 and 58 (attributions).**
     - "Thiselton leans this way, as reported" (prominence): confirm from NIGTC pp. 812-23. If unsure, drop.
     - "Fee prefers" the "custom of arguing" reading of 11:16: I could not confirm it. Others (Ellicott, Clarke) take "such custom" as the uncovered practice. Verify or drop.
     - The common modern reading, "we have no other practice [than covering]" (RSV/NRSV/NIV), is not set out.
 
-21. **Note 61 (11:20).** It does not give the alternative reading of οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν ("it is not possible to eat the Lord's supper"; KJV "this is not to eat"). The Plain's version is the usual one, but the note should show the alternative.
+21. **Note 61 (11:20).** It does not give the alternative reading of οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν ("it is not possible to eat the Lord's supper"; KJV "this is not to eat"). The Plain English Translation's version is the usual one, but the note should show the alternative.
 
 22. **Note 62 (11:21).** Theissen's picture (the poor arrive late, the rich eat first) is stated as fact. Attribute it to Theissen and mention the alternatives (separate courses for different ranks, as in the Pliny parallel, which the note does cite).
 
@@ -115,7 +115,7 @@ The translation is competent and mostly built from the Greek. The cited primary 
 26. **Translation points not covered by a note.**
     - 10:30 "if I eat with thanks": the Greek is χάριτι, "by grace" or "with thanks". Add a note.
     - 9:22 "whatever each person is" renders τοῖς πᾶσιν γέγονα πάντα ("to all I have become all things"). That is a paraphrase that drops the "all things" echo of 9:23 and 10:33. The chapter's deep dive then defends the paraphrase. Use "all things to everyone".
-    - 9:26 πυκτεύω is "box", not "fight" (the gloss says shadow-boxing, but the Plain loses it).
+    - 9:26 πυκτεύω is "box", not "fight" (the gloss says shadow-boxing, but the Plain English Translation loses it).
     - 10:13 "that people face everywhere" adds "everywhere" to ἀνθρώπινος.
     - 11:17 "next" is added.
     - 11:30 "many have fallen asleep" for ἱκανοί ("a fair number") repeats "many" (πολλοί).
@@ -123,7 +123,7 @@ The translation is competent and mostly built from the Greek. The cited primary 
     - 11:33 ἐκδέχεσθε ("wait for" or "welcome") has no note.
 
 27. **Chapter-page issues.**
-    - Chapter 10 `sum` says Israel "tested the Lord", while the Plain says "the Christ" (10:9). Align.
+    - Chapter 10 `sum` says Israel "tested the Lord", while the Plain English Translation says "the Christ" (10:9). Align.
     - The spec box on "all" (10:1-4) says it has not been found "in this form". Fee, Hays and Garland all comment on the fivefold "all" as aimed at the confidence of the strong. Say the observation overlaps with them.
     - Dates: chapter 11 says the letter is "about AD 54-55" (note 63, deep dive). Chapter 9's setting says 53-55, and book.json says "AD 53-55". Use one.
     - The 11:2-16 setting `why` states one purpose ("erasing the difference between the sexes") as settled, though the same card lists three views. Neutralize.
@@ -146,7 +146,7 @@ The translation is competent and mostly built from the Greek. The cited primary 
 
 ## Fixes applied
 
-Applied by the review-fixer, 2026-10-29. Plain verses changed: 9:22, 9:24, 9:26, 9:27, 10:13, 11:2, 11:14, 11:15, 11:17, 11:20, 11:21, 11:26, 11:27, 11:30, 11:33. Now 76 notes (two new), 24 variants (eight new), 29 glosses. Check 0 errors, 0 warnings.
+Applied by the review-fixer, 2026-10-29. Plain English Translation verses changed: 9:22, 9:24, 9:26, 9:27, 10:13, 11:2, 11:14, 11:15, 11:17, 11:20, 11:21, 11:26, 11:27, 11:30, 11:33. Now 76 notes (two new), 24 variants (eight new), 29 glosses. Check 0 errors, 0 warnings.
 
 1. Partly accepted. The vague phrases ("not itemized here", "a few other witnesses", "Alexandrian witnesses", "the early witnesses reported in the apparatus") are gone. Every reading now names the editions that print it (SBLGNT, NA28, THGNT, Westcott-Hort, Tregelles, TR, Byzantine), checked against the per-word edition marks in texts/orig, and says plainly that supporting manuscripts are not itemized (see NA28 apparatus and Metzger). I added no manuscript names for 9:1, 9:15, 9:20, 9:21, 9:23, 10:20, 10:23, 10:28, 11:2, 11:29 because I could not confirm them: the Tischendorf volume in the Source Library (book 6953a88c77f38f6761bd19d6) turned out to be the Gospels synopsis, with no Pauline apparatus, and the manuscript sites are blocked. Entries 10:9 and 11:24 keep or gain named witnesses, marked as reported. For the lead: enriching the other entries from NA28 or Metzger needs a source that is available.
 2. Accepted. 10:9 rebuilt: P46 moved out of "God"; as reported (NET note, not rechecked) Christ has P46, D F G, 1739, 1881; Lord has Sinaiticus, Vaticanus, C, P, 33, 104, 1175; God has A and 81. The `why` now says the Lord reading has strong Alexandrian support and that the lists are not rechecked. The edition lines were checked against texts/orig (SBL, NA28, TR, Byz = Christ; THGNT, WH, Tregelles = Lord).

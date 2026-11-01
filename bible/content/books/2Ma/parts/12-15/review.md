@@ -4,19 +4,19 @@
 - texts/orig/2Ma.json `grc` (Swete's text, which prints Codex Alexandrinus) and its `fixed` list, verse by verse, word by word, beside the KJV Apocrypha;
 - Swete's apparatus in texts/src/2Ma.app.json, read note by note for chapters 12–15;
 - the Vulgate and Douay in texts/src/2Ma.lat.json;
-- for comparison only, Rahlfs's text (sacred-texts.com) at the places where the Plain seemed to leave Swete;
-- parts 01-03, 04-07 and 08-11, book.json, content/terms.json, content/proposals/works/terms.json, the site's Plain for the 66 books, and every `traditions` card on the site (292 cards).
+- for comparison only, Rahlfs's text (sacred-texts.com) at the places where the Plain English Translation seemed to leave Swete;
+- parts 01-03, 04-07 and 08-11, book.json, content/terms.json, content/proposals/works/terms.json, the site's Plain English Translation for the 66 books, and every `traditions` card on the site (292 cards).
 
 **Build.** `VERBOSE=1 node tools/build.js --check 2Ma/12-15` gives **0 errors, 0 warnings** (156 verses, 95 notes, 38 variants, 56 glosses, 4 chapter pages, 17 topic contributions).
 
 **Quotations checked by script.**
 - **Greek.** Every Greek string in notes.json, variants.json, chapters.json, topics.json and glosses.json is in Swete's text or apparatus. The exceptions are harmless: capital-letter illustrations (ΑΓΙΑΣ/ΑΠΑΣΗΣ, ΕΙΜΕΝ/ΕΙΠΕΝ), dictionary forms in N17 (ἡ τῶν ἑβδομάδων ἑορτή … πεντηκοστή, where Swete has the genitive and the accusative), and Ἰουδαϊσμοῦ in N67, where Swete prints Ἰουδαισμοῦ without the diaeresis. **The Greek of 12:42–45 is quoted exactly** wherever it is quoted (N26, N32, N33, the variant entries). **I found no invented Greek reading.**
 - **Latin and Douay.** All of them match the files. These include *Sancta ergo et salubris est cogitatio pro defunctis exorare, ut a peccatis solvantur* (Vulgate 12:46), *pro peccatis mortuorum sacrificium*, *duodecim millia drachmas argenti*, *de resurrectione cogitans*, *superfluum videretur et vanum*, *optimam haberent repositam gratiam*, *pro peccatis eorum*, *facta collatione*, *ordinatis circum se sex millibus*, *equitumque duo millia quingentos*, *cum Esdrim*, *Deo mundi creatori*, *præsidium munitum*, *temporibus commistionis*, *castellum Dessau*, *voce syriaca*, *tertiadecima die mensis Adar*, *concedendum est mihi*, *alternis autem uti, delectabile* and the Douay sentences quoted. The numbering is right: the Vulgate's 12:43–46 is the Greek 12:43–45, and its 15:38–40 is the Greek 15:37–39.
-- **The 66 books.** I checked every quotation by hand against the current Plain. All match except Psalm 7:11 (finding 9). I also caught one quotation of the Plain of another 2 Maccabees part used for the wrong speaker (8:23, finding 9). Galatians, 1 Corinthians, Daniel, Luke and Acts are not yet on the site, so fresh wording is correct there.
+- **The 66 books.** I checked every quotation by hand against the current Plain English Translation. All match except Psalm 7:11 (finding 9). I also caught one quotation of the Plain English Translation of another 2 Maccabees part used for the wrong speaker (8:23, finding 9). Galatians, 1 Corinthians, Daniel, Luke and Acts are not yet on the site, so fresh wording is correct there.
 
 ## Verdict
 
-This is a careful, learned part. The Plain is mostly close to Swete's Greek and independent of the copyrighted translations. The Greek and Latin of the key passage, 12:42–45, are exact. The variant entries are thorough, and twelve of them honestly mark places where Swete leaves Alexandrinus.
+This is a careful, learned part. The Plain English Translation is mostly close to Swete's Greek and independent of the copyrighted translations. The Greek and Latin of the key passage, 12:42–45, are exact. The variant entries are thorough, and twelve of them honestly mark places where Swete leaves Alexandrinus.
 
 **What it does well.**
 - The 12:38–45 card states the Catholic, Orthodox, Reformed and Anglican positions accurately, with real sources. Its quotations check out against the documents: Catechism 1032, Trent session 25, Calvin *Institutes* 3.5.8, Westminster 21.4 and 32.1, and Articles VI and XXII. So does Mark of Ephesus's "less a proof of the existence of purgatorial fire than a refutation of it".
@@ -39,14 +39,14 @@ This is a careful, learned part. The Plain is mostly close to Swete's Greek and 
 
 There is no variant entry and no note for any of these.
 
-- **13:15.** Swete (A): καὶ τὸν πρωτεύοντα τῶν ἐλεφάντων σὺν τῷ κατ᾽ οἰκίαν ὄντι **συνέθηκεν**. The apparatus reports no other reading. The Plain's "he **laid low** the chief of the elephants" gives the sense of Rahlfs's **συνεκέντησεν**, "stabbed" (the NRSV's "stabbed"). συντίθημι does not mean "lay low". N44 also says that Judas "kills" the elephant.
-  - **Fix:** add an entry: A συνέθηκεν (obscure; perhaps "dealt with"), and the modern editions' συνεκέντησεν ("stabbed"), which the Plain follows. Or translate Swete and explain in a note.
-- **15:9.** Swete: **προσυμνήσας** δὲ αὐτοὺς καὶ τοὺς ἀγῶνας, "praising besides". The apparatus has `προσυμνησας] και προσυπομνησας V`, and Rahlfs also reads προσυπομνήσας. The Plain's "**recalled to them** the contests" is Venetus's "reminding".
+- **13:15.** Swete (A): καὶ τὸν πρωτεύοντα τῶν ἐλεφάντων σὺν τῷ κατ᾽ οἰκίαν ὄντι **συνέθηκεν**. The apparatus reports no other reading. The Plain English Translation's "he **laid low** the chief of the elephants" gives the sense of Rahlfs's **συνεκέντησεν**, "stabbed" (the NRSV's "stabbed"). συντίθημι does not mean "lay low". N44 also says that Judas "kills" the elephant.
+  - **Fix:** add an entry: A συνέθηκεν (obscure; perhaps "dealt with"), and the modern editions' συνεκέντησεν ("stabbed"), which the Plain English Translation follows. Or translate Swete and explain in a note.
+- **15:9.** Swete: **προσυμνήσας** δὲ αὐτοὺς καὶ τοὺς ἀγῶνας, "praising besides". The apparatus has `προσυμνησας] και προσυπομνησας V`, and Rahlfs also reads προσυπομνήσας. The Plain English Translation's "**recalled to them** the contests" is Venetus's "reminding".
   - **Fix:** add an entry (follow 1, V), or translate A: "sang to them besides of the contests…".
-- **15:17.** Swete: διέγνωσαν **μὴ στρατεύεσθαι**, "not to campaign" (Rahlfs agrees; V has στρατεύσασθαι). The Plain's "not to **sit in camp**" is the KJV's "not to pitch camp", which renders a different verb (στρατοπεδεύεσθαι).
+- **15:17.** Swete: διέγνωσαν **μὴ στρατεύεσθαι**, "not to campaign" (Rahlfs agrees; V has στρατεύσασθαι). The Plain English Translation's "not to **sit in camp**" is the KJV's "not to pitch camp", which renders a different verb (στρατοπεδεύεσθαι).
   - **Fix:** "They resolved not to wage a long campaign but to throw themselves bravely into the attack…", or add an entry that names the KJV's reading.
-- **15:32.** Swete: καὶ **ἐπιδεξάμενος** τὴν … κεφαλήν, "receiving / welcoming". The apparatus has `επιδειξαμενος V`. The Plain's "He **displayed** the head" follows V (and the KJV's "shewed"). Swete's form may be an itacism for the same word, but the departure still needs an entry, by the Tobit lesson.
-- **Borderline: 15:33.** A has ἔφη μετὰ μέρος τοῖς ὀρνέοις with no verb. V adds δώσειν, "would give", and Rahlfs reads κατὰ μέρος δώσειν. The Plain's "should be fed to the birds bit by bit" supplies V's verb. A short `deb` note would be honest.
+- **15:32.** Swete: καὶ **ἐπιδεξάμενος** τὴν … κεφαλήν, "receiving / welcoming". The apparatus has `επιδειξαμενος V`. The Plain English Translation's "He **displayed** the head" follows V (and the KJV's "shewed"). Swete's form may be an itacism for the same word, but the departure still needs an entry, by the Tobit lesson.
+- **Borderline: 15:33.** A has ἔφη μετὰ μέρος τοῖς ὀρνέοις with no verb. V adds δώσειν, "would give", and Rahlfs reads κατὰ μέρος δώσειν. The Plain English Translation's "should be fed to the birds bit by bit" supplies V's verb. A short `deb` note would be honest.
 
 ### 2. MAJOR: variants.json: KJV readings said to have no Greek source
 
@@ -57,7 +57,7 @@ The entries treat several KJV readings as unexplained. Swete's apparatus does no
 - **12:36, "Gorgias".** The entry says the KJV's "Gorgias" "seems to be a guess" and that "its source is not identified". The UBS Handbook reports that several Greek manuscripts read Gorgias, and others Esdrias or Ezri. Its argument that Gorgias is secondary (scribes had every reason to bring in a known name) is the right one, so the entry's conclusion stands.
   - **Fix:** replace the "guess" claim and the KJV row's `w`: "some Greek manuscripts read Gorgias".
 - **15:11, ὑπέρ τι.** The entry says "*Hyper ti* is in every Greek witness Swete reports" and that the KJV "seems to translate *hypar ti*". True, but Rahlfs (and, as I recall, Hanhart) print ὄνειρον ἀξιόπιστον **ὕπαρ τι**, "a dream worthy of belief, a kind of waking vision", which the NRSV follows.
-  - **Fix:** say that the modern editions read ὕπαρ τι. The Plain may still follow Swete.
+  - **Fix:** say that the modern editions read ὕπαρ τι. The Plain English Translation may still follow Swete.
 - **Smaller places.**
   - **13:9.** Rahlfs reads **βεβαρβαρωμένος**, "made barbarous". The entry calls V's βεβαρωμένος "not a normal Greek form" and leaves the KJV's "barbarous" to a guess. Name the reading of the modern editions.
   - **13:24.** Rahlfs prints Γερρηνῶν, so "not in any Greek witness Swete reports" should add that the modern editions print Gerrhenians.
@@ -66,11 +66,11 @@ The entries treat several KJV readings as unexplained. Swete's apparatus does no
 
 The Tobit lesson is to "enter every difference in meaning from the other Greek or from the KJV's text". These have no entry:
 
-- **14:17.** Swete has βραδέως, "slowly" (Plain: "he was slow about it"). The apparatus has `βραδεως] βραχεως V`, "briefly, slightly", which is the KJV's "somewhat discomfited". The two readings say different things about Simon.
-- **15:22.** Swete has ἀνεῖλεν, so the angel killed (Plain: "he did away with"). The apparatus has `ανειλεν] ανηλες V* ανειλες Vᵃ`, "you killed", which the KJV follows: "didst slay". This changes who acts.
+- **14:17.** Swete has βραδέως, "slowly" (Plain English Translation: "he was slow about it"). The apparatus has `βραδεως] βραχεως V`, "briefly, slightly", which is the KJV's "somewhat discomfited". The two readings say different things about Simon.
+- **15:22.** Swete has ἀνεῖλεν, so the angel killed (Plain English Translation: "he did away with"). The apparatus has `ανειλεν] ανηλες V* ανειλες Vᵃ`, "you killed", which the KJV follows: "didst slay". This changes who acts.
 - **15:24.** Swete has ἐπὶ τὸν ἅγιόν σου λαόν. The apparatus has `λαον] ναον V`, "your holy temple".
 - **14:7.** Swete has δεύτερον νῦν ἐλήλυθα, "now come a second time". The apparatus has `δευτερον] pr δευρο`, and the KJV's "am now come hither" has no "second time".
-- **14:26.** Swete has τὸν γὰρ ἐπίβουλον τῆς βασιλείας αὐτοῦ Ἰούδαν διάδοχον ἀπέδειξεν. V omits the first αὐτοῦ and adds it after Ἰούδαν: "had appointed Judas *his* successor". The KJV reads "to be the king's successor". The Plain's "to succeed him" also drops A's αὐτοῦ ("*his* kingdom"). N60 should say whose successor the witnesses make Judas.
+- **14:26.** Swete has τὸν γὰρ ἐπίβουλον τῆς βασιλείας αὐτοῦ Ἰούδαν διάδοχον ἀπέδειξεν. V omits the first αὐτοῦ and adds it after Ἰούδαν: "had appointed Judas *his* successor". The KJV reads "to be the king's successor". The Plain English Translation's "to succeed him" also drops A's αὐτοῦ ("*his* kingdom"). N60 should say whose successor the witnesses make Judas.
 - **Lesser places** (a line in a note would do):
   - 12:22 `ιδιων] Ιουδαιων V`: "wounded by the Jews";
   - 13:17, where V adds ἐξ οὐρανοῦ: "help from heaven";
@@ -145,7 +145,7 @@ But these give a comment on the passage or on scholarship, and say nothing about
 
 - **12:45.** τῆς ἁμαρτίας ἀπολυθῆναι is "to be released from **the** sin", the particular sin of 12:40–42. "From their sin" generalizes it, and so does the NRSV. In the most disputed verse of the book, follow the Greek: "to free them from the sin". (The Catechism's English also has "their", but that translates the Vulgate's 12:46.)
 - **12:26.** "Going out against Carnion… **he** cut down twenty-five thousand people." Coming straight after "they released him" (Timothy), an English reader takes "he" as Timothy. The Greek has no subject either, but the KJV supplies "Maccabeus". Write "Judas went out…".
-- **13:23, "had lost his head".** At an 8th-grade level this can be read as beheaded. N46 explains it, but the Plain should not need the note: "had rebelled" or "had made a desperate bid for power".
+- **13:23, "had lost his head".** At an 8th-grade level this can be read as beheaded. N46 explains it, but the Plain English Translation should not need the note: "had rebelled" or "had made a desperate bid for power".
 - **14:2 and 14:13, "removed".** ἐπανελόμενον and ἐπανελέσθαι mean "killed" / "kill" (KJV "killed", "slay"; N50 itself says "killed them"). "Removed" softens it.
 - **14:4.**
   - τοῖς νομιζομένοις θαλλῶν τοῦ ἱεροῦ means "the customary branches of the temple". "Of the kind thought to belong to the temple" mistranslates νομιζόμενος, which means "customary", not "supposed". N52 builds on that reading ("The writer's phrase is guarded: Alcimus brought what passed for sacred gifts").
@@ -162,17 +162,17 @@ But these give a comment on the passage or on scholarship, and say nothing about
   - 15:2 "the one who oversees all things" (with a gloss);
   - 01-03's note quoting 12:22 as "the one who watches over all".
   
-  Choose one rendering (7:35 has "who sees all") and fix the 01-03 quotation to the Plain.
+  Choose one rendering (7:35 has "who sees all") and fix the 01-03 quotation to the Plain English Translation.
 - **The age of Antiochus V.** N34 says "a boy of about nine" in 163 BC; N50 says "about eleven" in 162 BC. Born about 173/172 BC, he was about ten and eleven. Make the two agree.
 - **ἀμιξία, "the days of keeping apart"** (14:3, 38) is a new key rendering. Propose it in content/proposals/works/terms.json.
-- **N19's `r` points to 1 Maccabees 5:66** for Marisa, but the site's Plain there reads "passed through Samaria" (Swete's A). Either drop the reference or say that many read "Marisa" there.
-- **Outside this part:** Esther 05-10's note quotes 2 Maccabees 15:36 as "the day of Mordecai". The site's Plain is "Mordecai's Day". Report it to that lane.
+- **N19's `r` points to 1 Maccabees 5:66** for Marisa, but the site's Plain English Translation there reads "passed through Samaria" (Swete's A). Either drop the reference or say that many read "Marisa" there.
+- **Outside this part:** Esther 05-10's note quotes 2 Maccabees 15:36 as "the day of Mordecai". The site's Plain English Translation is "Mordecai's Day". Report it to that lane.
 
 ### 9. MINOR: notes: accuracy points
 
 - **N83 (15:23).** "Tobit's father says, 'For a good angel will go with him' (Tobit 5:22)." It is Tobit himself who says it, to Anna (Tobit 5:21–22 on this site). Write "Tobit tells his wife".
-- **N74 (15:9).** "Earlier, Eleazar read 'from the holy book' before battle (8:23)." In 8:23 the participle παραναγνούς is nominative and agrees with Judas, and part 08-11's Plain has "and Eleazar as well. Then **he** read aloud from the holy book", where "he" is Judas. Write "Judas read from the holy book".
-- **N4 (12:6).** "God is 'a just judge' in the Psalms (Psalm 7:11)." The site's Plain is "God is a judge who does right". Quote that.
+- **N74 (15:9).** "Earlier, Eleazar read 'from the holy book' before battle (8:23)." In 8:23 the participle παραναγνούς is nominative and agrees with Judas, and part 08-11's Plain English Translation has "and Eleazar as well. Then **he** read aloud from the holy book", where "he" is Judas. Write "Judas read from the holy book".
+- **N4 (12:6).** "God is 'a just judge' in the Psalms (Psalm 7:11)." The site's Plain English Translation is "God is a judge who does right". Quote that.
 - **N77 (15:12).** "more closely united with Christ" should be the Catechism's "more closely united **to** Christ" (956, vatican.va, checked).
 - **N77 and ch. 15 views.C.** "The Catholic Church cites such texts" and "Catholic teaching cites 15:12–14 for the intercession of the saints". The Catechism does not cite 2 Maccabees 15 at 956 or elsewhere that I know of. Name a Catholic writer who does (for example Bellarmine, *De sanctorum beatitudine*), or write "Catholic theologians cite…".
 - **N19 (12:35).** "John Hyrcanus took it about 112 BC (Josephus, *Antiquities* 13.257)." Josephus (13.254–257, checked) places the conquest soon after the death of Antiochus VII (129 BC) and gives no year. The later date comes from the excavations at Maresha. Say which is which.
@@ -201,11 +201,11 @@ But these give a comment on the passage or on scholarship, and say nothing about
 
 ### 12. MINOR: a typo in the digital Swete
 
-At **14:8**, the digital Swete has πρῶτον **μέν** ὑπὲρ τῶν ἀνηκόντων, an acute for the grave before another word. It is the same kind as the fixed 15:12 μέν τὴν. Report it for tools/works-texts.py (μὲν). Do not enter it as a variant. The Plain is not affected.
+At **14:8**, the digital Swete has πρῶτον **μέν** ὑπὲρ τῶν ἀνηκόντων, an acute for the grave before another word. It is the same kind as the fixed 15:12 μέν τὴν. Report it for tools/works-texts.py (μὲν). Do not enter it as a variant. The Plain English Translation is not affected.
 
 ### 13. MINOR: glosses.json
 
-- **Synonym glosses** that only give the Plain back in other words. Cut them, or gloss a custom instead:
+- **Synonym glosses** that only give the Plain English Translation back in other words. Cut them, or gloss a custom instead:
   - 13:13 "decide the issue";
   - 13:21 "locked up";
   - 13:25 "set its terms aside";
@@ -324,9 +324,9 @@ These files belong to other lanes. Propose the links in content/proposals/works/
 **Writer's response (2026-10-24).** I accepted every finding except the points noted below. The build now reports 0 errors and 0 warnings (156 verses, 96 notes, 51 variants, 43 glosses, 4 chapter pages, 17 topic contributions).
 
 **1. Silent departures from Swete.**
-- **15:9.** The Plain now follows A: "praised to them besides the contests". A variant names V and Rahlfs's προσυπομνήσας ("reminded").
-- **15:17.** The Plain now follows the Greek: "not to wage a long campaign". A variant names V's στρατεύσασθαι and the KJV's "not to pitch camp".
-- **13:15.** I kept "laid low" and added a variant: the Plain follows Rahlfs's συνεκέντησεν against A's συνέθηκεν. N44 now says Judas "strikes down" the elephant.
+- **15:9.** The Plain English Translation now follows A: "praised to them besides the contests". A variant names V and Rahlfs's προσυπομνήσας ("reminded").
+- **15:17.** The Plain English Translation now follows the Greek: "not to wage a long campaign". A variant names V's στρατεύσασθαι and the KJV's "not to pitch camp".
+- **13:15.** I kept "laid low" and added a variant: the Plain English Translation follows Rahlfs's συνεκέντησεν against A's συνέθηκεν. N44 now says Judas "strikes down" the elephant.
 - **15:32.** I kept "displayed", following V and Rahlfs, and added a variant for A's ἐπιδεξάμενος.
 - **15:33.** I added a `deb` note: A has no verb, and V supplies δώσειν.
 
@@ -339,13 +339,13 @@ These files belong to other lanes. Propose the links in content/proposals/works/
 - The Rahlfs readings rest on this review's check of sacred-texts.com; I did not open Rahlfs myself.
 
 **3. Missing entries.** I added variant entries at 12:11 (Ἄραβες), 12:22 (Ἰουδαίων), 13:17 (ἐξ οὐρανοῦ), 14:7 (δεῦρο, and the KJV), 14:13 (ἐντολάς), 14:17 (βραχέως), 14:26 (whose successor), 15:22 (ἀνεῖλες) and 15:24 (ναόν).
-- At 14:26 the Plain now keeps A's "his kingdom": "appointed Judas, who schemed against his kingdom, as successor".
+- At 14:26 the Plain English Translation now keeps A's "his kingdom": "appointed Judas, who schemed against his kingdom, as successor".
 - N60 now explains the three readings at 14:26.
 
 **4. N27 on Calvin.** I rewrote it as the review proposed and dropped "from Calvin onward".
 
 **5. The chapter 12 card.**
-- **q.** Its quotation now reads "to free them from the sin", matching the new Plain at 12:45.
+- **q.** Its quotation now reads "to free them from the sin", matching the new Plain English Translation at 12:45.
 - **Lutheran row.** It is now the confessional answer itself, with no Leipzig history: Christ's satisfaction leaves nothing to purge; Smalcald II.2.12–15; and Apology XXIV, which attacks Masses applied to the dead but does not forbid prayer for the dead. The keys are smalcald and apology-augsburg. The row points to the book page for Leipzig.
 - **Catholic row.** It now adds Catechism 1031–1032 with Matthew 12:32, 1 Corinthians 3:15 and the antiquity of the practice.
 - **Orthodox row.** "At the council of Ferrara-Florence (at Ferrara, 1438)". I made the same correction in the chapter 12 O view and in the communion-of-saints topic.
@@ -372,7 +372,7 @@ These files belong to other lanes. Propose the links in content/proposals/works/
 - I dropped the 1 Maccabees 5:66 reference from N19.
 - The Esther 05-10 quotation of 15:36 belongs to that lane, and I have reported it.
 
-**9. Notes.** I made every change listed: N83 (Tobit to his wife), N74 (Judas read; Ben Sira's grandson "after 132 BC"), N4 (Psalm 7:11 quoted in the Plain), N77 ("united to Christ"; "Catholic theologians cite"; also in the chapter 15 C view), N19 (no year in Josephus; the excavators' dating), N69 (*War* 3.362–382 and 7.320–401), N78 ("by tradition"), N5 ("would hardly have been visible"), N2 (the `p` now says "uncertain") and N1 ("164/163 BC").
+**9. Notes.** I made every change listed: N83 (Tobit to his wife), N74 (Judas read; Ben Sira's grandson "after 132 BC"), N4 (Psalm 7:11 quoted in the Plain English Translation), N77 ("united to Christ"; "Catholic theologians cite"; also in the chapter 15 C view), N19 (no year in Josephus; the excavators' dating), N69 (*War* 3.362–382 and 7.320–401), N78 ("by tradition"), N5 ("would hardly have been visible"), N2 (the `p` now says "uncertain") and N1 ("164/163 BC").
 
 **10. Lens views.**
 - **Chapter 13.** I dropped the generic C view, because I could not name a Catholic writer on this chapter. The O view now rests on the church's feast of August 1. The P view now concerns chapter 13 itself, and the H view no longer contradicts itself.

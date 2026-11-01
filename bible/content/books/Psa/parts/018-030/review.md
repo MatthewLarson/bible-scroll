@@ -2,18 +2,18 @@
 
 ## Verdict
 
-This is a strong part. The Plain is built from the Hebrew, not from memory: Psalm 18 follows the site's Plain of 2 Samuel 22 line by line wherever the Hebrew agrees and departs from it exactly where the Hebrew departs (I checked all fifty verses against the site's 2 Samuel 22). The difficult places (18:14, 22:1, 22:15, 22:16, 22:21, 22:29, 23:6, 24:4, 24:6, 25:17, 27:8, 27:13, 28:8, 29:9, 30:3) all get honest notes or variants. Every psalm has a settings card with `readers`, every summary gives the Greek number, the Hebrew numbering note appears once (18:0), the acrostic of Psalm 25 is shown in a note and a letter table, and Psalm 22 is handled fairly to Jewish and Christian readers. `node tools/build.js --check Psa/018-030` reports 0 errors and 0 warnings. I found no critical problems. There are three major ones. At 22:8 and 30:12 the Plain silently follows a reading that is not the Masoretic Text. At 27:1 a midrash is credited with something it does not say. The rest are minor: small additions to the text, one cross-part consistency fix (Selah), three wording consistency points (29:1–2 among them), and some soft or misplaced citations.
+This is a strong part. The Plain English Translation is built from the Hebrew, not from memory: Psalm 18 follows the site's Plain English Translation of 2 Samuel 22 line by line wherever the Hebrew agrees and departs from it exactly where the Hebrew departs (I checked all fifty verses against the site's 2 Samuel 22). The difficult places (18:14, 22:1, 22:15, 22:16, 22:21, 22:29, 23:6, 24:4, 24:6, 25:17, 27:8, 27:13, 28:8, 29:9, 30:3) all get honest notes or variants. Every psalm has a settings card with `readers`, every summary gives the Greek number, the Hebrew numbering note appears once (18:0), the acrostic of Psalm 25 is shown in a note and a letter table, and Psalm 22 is handled fairly to Jewish and Christian readers. `node tools/build.js --check Psa/018-030` reports 0 errors and 0 warnings. I found no critical problems. There are three major ones. At 22:8 and 30:12 the Plain English Translation silently follows a reading that is not the Masoretic Text. At 27:1 a midrash is credited with something it does not say. The rest are minor: small additions to the text, one cross-part consistency fix (Selah), three wording consistency points (29:1–2 among them), and some soft or misplaced citations.
 
 Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalms); the Greek title additions at 24:0 ("of the first day of the week"), 27:0 ("before he was anointed") and 29:0 ("at the going out of the tent"); Rosh Hashanah 31a on Psalm 24; Berakhot 4a (the dots of 27:13), 9b (19:14 after the Amidah), 28b (eighteen names in Psalm 29) and 35a (24:1 and 115:16); Sukkah 52a (21:4); Shabbat 30a (the gates and Solomon); Zevachim 116a (Psalm 29 and Sinai); Mishnah Uktsin 3:12; Soferim 18 (Psalm 30 for Hanukkah); the Targum's "King Messiah" in Psalm 21; Rashi on 21:2 (checked: "our rabbis explained it of King Messiah", and he explains it of David); the BCP proper psalms for Ascension (21, 24) and Good Friday (22); the Easter Vigil response after Isaiah 54 (Psalm 30); Papyrus Amherst 63 and Nims–Steiner (1983); Vall (JBL 1997) and Strawn (JBL 2000); DJD 38 for 5/6HevPs; Gregory of Nazianzus, Oration 30.5; Calvin, Institutes 2.16.10–11; Lewis on Psalm 19; the Septuagint readings cited at 18:35, 19:4, 19:13, 20:5, 20:9, 22:1, 22:21, 22:29–30, 23:6, 24:6, 27:13, 28:7, 28:8, 29:1 and 30:7.
 
 ## Findings
 
 1. **Major. plain.txt 22:8; notes.json 22:8 "He rolled his load onto the LORD"; no variant entry.**
-   *What is wrong:* The Masoretic Text points the word as גֹּל (*gol*). That is an imperative ("Roll it onto the LORD!"), or at most an infinitive absolute. The Plain gives a past-tense description, "He rolled", which is the sense of the Greek ἤλπισεν ("he hoped"), the Syriac and Matthew 27:43. It also adds "his load", which is not in the Hebrew. The note says the word "can be a command or a description", but it never says which one the Plain follows or why. And there is no variant entry, though the Greek reads a different verb form.
-   *Fix:* Add a variant. Reading 1 is the Masoretic Text, *gol*, "Roll it onto the LORD!" (the mockers' sarcastic command). Reading 2 is the Septuagint (Rahlfs 21:9), the Syriac and Matthew 27:43, "he hoped/trusted in the LORD" (repointed as *gal*, "he rolled"). Then follow the Masoretic Text, or say plainly why the Plain does not. Either way, drop "his load" or show it as supplied ("Roll it onto the LORD; let the LORD get him free!").
+   *What is wrong:* The Masoretic Text points the word as גֹּל (*gol*). That is an imperative ("Roll it onto the LORD!"), or at most an infinitive absolute. The Plain English Translation gives a past-tense description, "He rolled", which is the sense of the Greek ἤλπισεν ("he hoped"), the Syriac and Matthew 27:43. It also adds "his load", which is not in the Hebrew. The note says the word "can be a command or a description", but it never says which one the Plain English Translation follows or why. And there is no variant entry, though the Greek reads a different verb form.
+   *Fix:* Add a variant. Reading 1 is the Masoretic Text, *gol*, "Roll it onto the LORD!" (the mockers' sarcastic command). Reading 2 is the Septuagint (Rahlfs 21:9), the Syriac and Matthew 27:43, "he hoped/trusted in the LORD" (repointed as *gal*, "he rolled"). Then follow the Masoretic Text, or say plainly why the Plain English Translation does not. Either way, drop "his load" or show it as supplied ("Roll it onto the LORD; let the LORD get him free!").
 
 2. **Major. plain.txt 30:12 "so that my glory may make music to you"; notes.json 30:12.**
-   *What is wrong:* The Hebrew is לְמַעַן יְזַמֶּרְךָ כָבוֹד, "so that glory may sing to you", with no "my". The note's own `orig` shows this. The "my" comes from the Greek (ἡ δόξα μου), so the Plain follows the Greek without saying so. The note then says "The Greek has 'my glory' too". That implies the Hebrew has it, which is wrong.
+   *What is wrong:* The Hebrew is לְמַעַן יְזַמֶּרְךָ כָבוֹד, "so that glory may sing to you", with no "my". The note's own `orig` shows this. The "my" comes from the Greek (ἡ δόξα μου), so the Plain English Translation follows the Greek without saying so. The note then says "The Greek has 'my glory' too". That implies the Hebrew has it, which is wrong.
    *Fix:* Translate the Hebrew ("so that glory may make music to you", or "so that my whole self ..." with the note explaining why). Or keep "my glory" and add a variant: Masoretic Text *kavod* "glory"; Septuagint "my glory"; the common emendation *kevodi* or *kevedi*. Correct the note's last sentences.
 
 3. **Major. notes.json 27:1 "The psalm of the High Holy Days"; chapters.json 27 `views.J`.**
@@ -29,7 +29,7 @@ Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalm
    *Fix:* "the last verse is said near the end of the grace after meals."
 
 6. **Minor. plain.txt 29:1–2 "Give to the LORD" (three times); glosses.json 29:1 anchor "Give to the LORD".**
-   *What is wrong:* The Hebrew הָבוּ לַיהוָה (*havu laYHWH*) is identical to 1 Chronicles 16:28–29 and Psalm 96:7–8, which the site renders "Give the LORD ..." (1 Chronicles 16 Plain; part 090-101). The second line of 29:2 already matches 1 Chronicles 16:29 exactly ("Bow low to the LORD in holy splendor").
+   *What is wrong:* The Hebrew הָבוּ לַיהוָה (*havu laYHWH*) is identical to 1 Chronicles 16:28–29 and Psalm 96:7–8, which the site renders "Give the LORD ..." (1 Chronicles 16 Plain English Translation; part 090-101). The second line of 29:2 already matches 1 Chronicles 16:29 exactly ("Bow low to the LORD in holy splendor").
    *Fix (recommended):* Use "Give the LORD" in all three places: "Give the LORD, you sons of the gods, / give the LORD glory and strength." / "Give the LORD the glory of his name; / bow low to the LORD in holy splendor." Move the gloss anchor to "Give the LORD". With that change, 29:2a matches 96:8a and 1 Chronicles 16:29a word for word.
 
 7. **Minor. plain.txt 20:3, 21:2, 24:6, 24:10 "/ Selah".**
@@ -37,11 +37,11 @@ Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalm
    *Fix:* Use "find your burnt offering rich. Selah", and the same at 21:2, 24:6 and 24:10.
 
 8. **Minor. plain.txt 22:30–31 "to the generation to come. / 22:31 They will come".**
-   *What is wrong:* The Hebrew has one יָבֹאוּ (*yavo'u*), at the start of 22:31. The Plain uses it twice: once as "to come" in 22:30 and again as "They will come" in 22:31. (The Greek joins it to 22:30; the Masoretic Text puts it in 22:31.)
+   *What is wrong:* The Hebrew has one יָבֹאוּ (*yavo'u*), at the start of 22:31. The Plain English Translation uses it twice: once as "to come" in 22:30 and again as "They will come" in 22:31. (The Greek joins it to 22:30; the Masoretic Text puts it in 22:31.)
    *Fix:* "the Lord will be told of to the next generation." Or keep "to come" and change 22:31 to "and they will announce ...", with a note on where the verb belongs.
 
 9. **Minor. plain.txt 24:6 "who search for your face; this is Jacob"; variants.json 24:6.**
-   *What is wrong:* "this is" is supplied. The Hebrew is "those who seek your face, Jacob", which can be a vocative ("O Jacob", as the KJV has it) or in apposition. The variant's `why` says the Plain keeps the Hebrew "as Jewish translations do". NJPS has "Jacob, who seek Your presence", not "this is Jacob".
+   *What is wrong:* "this is" is supplied. The Hebrew is "those who seek your face, Jacob", which can be a vocative ("O Jacob", as the KJV has it) or in apposition. The variant's `why` says the Plain English Translation keeps the Hebrew "as Jewish translations do". NJPS has "Jacob, who seek Your presence", not "this is Jacob".
    *Fix:* Either "who search for your face, O Jacob" or "who search for your face: they are Jacob", and give the readings in the note. Correct the claim about Jewish translations.
 
 10. **Minor. plain.txt 19:1 "The heavens are telling the glory of God".**
@@ -49,8 +49,8 @@ Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalm
     *Fix:* For example, "The heavens tell over the glory of God" or "The sky is recounting God's glory"; keep the note's mention of Haydn.
 
 11. **Minor. variants.json 22:16, field `b`; also the `why`.**
-    *What is wrong:* (a) "though its scribe also confuses letters elsewhere" is not supported by the cited sources. Flint (DJD 38) argued that the waw of כארו is distinct from yod in this hand. The usual caution is that yod and waw are often alike in scripts of the period. (b) The Plain supplies a verb, "they go for", which is not in the Masoretic Text. The `why` says "the Hebrew line has no verb" but does not say that the Plain adds one.
-    *Fix:* (a) "Some scholars caution that yod and waw are often hard to tell apart in hands of this period; Flint reads waw." (b) Add to `why`: "To make an English sentence, the Plain supplies 'they go for', which the Hebrew does not have."
+    *What is wrong:* (a) "though its scribe also confuses letters elsewhere" is not supported by the cited sources. Flint (DJD 38) argued that the waw of כארו is distinct from yod in this hand. The usual caution is that yod and waw are often alike in scripts of the period. (b) The Plain English Translation supplies a verb, "they go for", which is not in the Masoretic Text. The `why` says "the Hebrew line has no verb" but does not say that the Plain English Translation adds one.
+    *Fix:* (a) "Some scholars caution that yod and waw are often hard to tell apart in hands of this period; Flint reads waw." (b) Add to `why`: "To make an English sentence, the Plain English Translation supplies 'they go for', which the Hebrew does not have."
 
 12. **Minor. variants.json: Greek readings left out at 29:2 and 27:8.**
     *What is wrong:* At 29:2 the Septuagint has ἐν αὐλῇ ἁγίᾳ αὐτοῦ, "in his holy court" (reading *chatsrat* for *hadrat*). The 29:2 note lists three readings but not this one. At 27:8 the Septuagint has "my face has sought (you)", a different way of handling the hard verse. The note gives three English patches but not the Greek.
@@ -98,7 +98,7 @@ Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalm
     *Fix:* "a fair verdict from God", or "God's vindication".
 
 23. **Minor. glosses.json 23:2 "meadows of fresh grass" -> "green pastures".**
-    *What is wrong:* The gloss gives the KJV's famous wording, not a modern paraphrase, and so undoes the Plain's fresh rendering.
+    *What is wrong:* The gloss gives the KJV's famous wording, not a modern paraphrase, and so undoes the Plain English Translation's fresh rendering.
     *Fix:* "a field of new green grass", or drop the gloss.
 
 24. **Minor. notes.json 25:7 and chapters.json 25 `views.L`, "while the head is lowered" / "with head bowed".**
@@ -107,23 +107,23 @@ Checked and found correct (no action needed): Mishnah Tamid 7:4 (the daily psalm
 
 ## Fixes applied
 
-- 1 (22:8): The Plain now follows the Masoretic imperative: "Roll it onto the LORD! Let the LORD get him free!" "His load" is dropped, and the note says that "it" is supplied. A new variant gives the Masoretic *gol* against the Septuagint (Rahlfs 21:9, *ēlpisen*, checked), the Syriac and Matthew 27:43.
-- 2 (30:12): The Plain now reads "so that glory may make music to you", following the Hebrew. A new variant gives the Masoretic "glory", the Septuagint "my glory" (Rahlfs 29:13, checked) and the conjecture *kevedi*/*kevodi*. The note is corrected.
+- 1 (22:8): The Plain English Translation now follows the Masoretic imperative: "Roll it onto the LORD! Let the LORD get him free!" "His load" is dropped, and the note says that "it" is supplied. A new variant gives the Masoretic *gol* against the Septuagint (Rahlfs 21:9, *ēlpisen*, checked), the Syriac and Matthew 27:43.
+- 2 (30:12): The Plain English Translation now reads "so that glory may make music to you", following the Hebrew. A new variant gives the Masoretic "glory", the Septuagint "my glory" (Rahlfs 29:13, checked) and the conjecture *kevedi*/*kevodi*. The note is corrected.
 - 3 (27:1): The note and the chapter J view now credit Leviticus Rabbah 21:4 only with Rosh Hashanah and Yom Kippur. They add that later writers on Jewish practice linked "his shelter" (27:5) to Sukkot.
 - 4: Psalm 18 is now "the longest psalm in Book I, one of the great royal psalms".
 - 5: The chapter L view and the 18:50 note now say "near the end of the grace after meals".
 - 6: 29:1–2 now use "Give the LORD", as the lead decision requires. The gloss anchor has moved to match.
 - 7: Selah now ends the line at 20:3, 21:2, 24:6 and 24:10.
 - 8: 22:30 now reads "the Lord will be told of to the next generation", so the verb appears only in 22:31.
-- 9 (24:6): The Plain now reads "who search for your face, O Jacob". The variant's `why` now gives the vocative and appositional readings and quotes the NJPS wording correctly.
+- 9 (24:6): The Plain English Translation now reads "who search for your face, O Jacob". The variant's `why` now gives the vocative and appositional readings and quotes the NJPS wording correctly.
 - 10 (19:1): The verse is rebuilt as "The heavens keep recounting God's glory" and the note anchor is moved.
-- 11 (22:16): The scribe claim is replaced with the yod/waw caution and Flint's reading of waw. The `why` now says that the Plain supplies "they go for".
+- 11 (22:16): The scribe claim is replaced with the yod/waw caution and Flint's reading of waw. The `why` now says that the Plain English Translation supplies "they go for".
 - 12: The 29:2 note adds the Septuagint "in his holy court" (Rahlfs 28:2, checked). The 27:8 note adds the Septuagint wording (Rahlfs 26:8, checked).
 - 13: A deep section on the Psalm 18 page, "Witnesses checked for Psalms 18–30", says which witnesses I checked myself. That was the Septuagint in Rahlfs, for the key verses of every psalm and every Greek reading in a variant; all others are cited from editions and studies. Each Greek reading in the new variants is marked "checked".
 - 14 (22:0): The note now says that Megillah 15b has Esther praying 22:1, and that Yoma 29a and the Midrash on Psalms compare her to the dawn. Added `bavli-yoma`.
 - 15 (26:6): The note now says "the priest said 26:6–12 (Vulgate Psalm 25) there until 1970, when Psalm 51:2 replaced it". Added `roman-missal`.
 - 16 (19:7): Ruth 4:15 is now described as a grandson renewing a grandmother's life, and "the same phrase" is now "a related phrase".
-- 17 (27:12): The Plain now reads "a witness who breathes out violence".
+- 17 (27:12): The Plain English Translation now reads "a witness who breathes out violence".
 - 18 (29:6): The sentence is now "Lebanon and Sirion were Phoenician mountains, the heart of Baal's country."
 - 19: (a) The 25:1 note now cites `roman-missal` (defined in part 042-055) instead of `liturgy-hours`. (b) The text now says "a 1953 article reprinted in their 1975 book". The `cross-freedman-yahwistic` key already names that article. (c) Added the part key `ambrose-hymns` (Fontaine's edition, 1992) to the 19:5 note.
 - 20: The Psalm 23 card is reframed as one question that the book card does not ask: "Must a psalm sung in worship follow the words of the text closely, or may it be freely rewritten?" It sets Reformed psalm-only churches (Scottish Psalter) against Watts, the Lutheran position, the Catholic rule that the appointed psalm must be the approved text, and the Orthodox position. The weak Anglican "both" view is dropped.

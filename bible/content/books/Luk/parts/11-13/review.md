@@ -3,14 +3,14 @@
 ## Verdict
 
 This is a strong, careful part. I checked every verse against the SBLGNT and the Byzantine text, every parallel
-against Matthew's published Plain and Mark's reviewed Plain, every quotation of another book against that book's
-current Plain, and the main historical and rabbinic claims: Mishnah Sheviit 9:1 on rue, Avot 2:8 and 4:15, Taanit
+against Matthew's published Plain English Translation and Mark's reviewed Plain English Translation, every quotation of another book against that book's
+current Plain English Translation, and the main historical and rabbinic claims: Mishnah Sheviit 9:1 on rue, Avot 2:8 and 4:15, Taanit
 2:1, Shekalim 1:1, Yoma 8:6, CD 11:5–6 and 13–14, Josephus Ant. 8.46–49, 16.182, 18.55–62, 85–89 and 118–119, Philo
 Embassy 302, Gittin 57b and Sanhedrin 96b, Lumen Gentium 58, Augustine's On Holy Virginity 3, Gregory the Great's
 Homily 31, Tertullian's On the Soul 58, Pliny NH 19.170, LXX Isaiah 45:16 and Exodus 34:10, 4 Maccabees 15:28, and the
 Syriac Ahiqar palm-tree fable. I found no invented source, reading or fragment.
 
-The translation follows the SBL faithfully. Where Luke's Greek matches Matthew's, the Plain matches Matthew's English
+The translation follows the SBL faithfully. Where Luke's Greek matches Matthew's, the Plain English Translation matches Matthew's English
 almost everywhere, and it differs exactly where the Greek differs: 11:3 "Keep giving us each day", 11:4 "sins", 12:25
 "a cubit" without "even one", 12:42 "manager", 12:44 "truly", 12:46 "the unfaithful", 13:34 "brood". "The word of God"
 at 11:28 follows the lead decision. The woes are handled fairly: the notes on tithing rue, hand-washing and hidden
@@ -53,8 +53,8 @@ small parallel-wording slips against Matthew, and some unsourced or thin points 
 ### 3. Minor: misquotation of Luke 1:17
 - **Location:** notes.json 12:53 ("Micah's broken family").
 - **Problem:** The note quotes John as promised to "turn the hearts of fathers to their children" (1:17). Luke 1:17's
-  Plain reads "He will turn fathers' hearts back to their children." A quotation of a verse this site has translated
-  must use its Plain exactly.
+  Plain English Translation reads "He will turn fathers' hearts back to their children." A quotation of a verse this site has translated
+  must use its Plain English Translation exactly.
 - **Fix:** "would 'turn fathers' hearts back to their children' (1:17, from Malachi 4:6)".
 
 ### 4. Minor: wrong hymn title in the Tradition view
@@ -74,12 +74,12 @@ small parallel-wording slips against Matthew, and some unsourced or thin points 
 ### 6. Minor: 11:18 parallel wording
 - **Location:** plain.txt 11:18.
 - **Problem:** "how will his kingdom last?" Luke's πῶς σταθήσεται ἡ βασιλεία αὐτοῦ is word for word Matthew 12:26
-  (without οὖν), and Matthew's Plain reads "how can his kingdom last?"
+  (without οὖν), and Matthew's Plain English Translation reads "how can his kingdom last?"
 - **Fix:** "how can his kingdom last?"
 
 ### 7. Minor: 12:6 parallel wording
 - **Location:** plain.txt 12:6.
-- **Problem:** "not a single one of them". Luke's ἓν ἐξ αὐτῶν is the same as Matthew 10:29, which the Plain renders
+- **Problem:** "not a single one of them". Luke's ἓν ἐξ αὐτῶν is the same as Matthew 10:29, which the Plain English Translation renders
   "not one of them".
 - **Fix:** "Yet not one of them is forgotten in God's sight." Check the note on 12:6 ("Even that fifth bird") still
   reads well.
@@ -100,7 +100,7 @@ small parallel-wording slips against Matthew, and some unsourced or thin points 
 
 ### 10. Minor: 12:3, κηρύσσω against the lead decision and against its own note
 - **Location:** plain.txt 12:3; notes.json 12:3.
-- **Problem:** The Plain says "will be announced from the rooftops", but the note's title is "Shouted from the
+- **Problem:** The Plain English Translation says "will be announced from the rooftops", but the note's title is "Shouted from the
   rooftops". Matthew 10:27 renders κηρύξατε ἐπὶ τῶν δωμάτων "shout it from the rooftops", and the Mark lead decision
   (which binds Luke) says to follow the parallel's English for κηρύσσω.
 - **Fix:** "will be shouted from the rooftops". The note title then fits, and the note can say Luke's verb is passive.
@@ -116,16 +116,16 @@ small parallel-wording slips against Matthew, and some unsourced or thin points 
   assumes the fuller sense.
 - **Fix:** "For three years now I have been coming to look for fruit on this fig tree", and re-anchor the note.
 
-### 13. Minor: the 13:9 Plain hides the broken-off sentence its note describes
+### 13. Minor: the 13:9 Plain English Translation hides the broken-off sentence its note describes
 - **Location:** plain.txt 13:9; notes.json 13:9.
-- **Problem:** The note says "The Greek breaks off ... without finishing the thought". The Plain supplies a full
+- **Problem:** The note says "The Greek breaks off ... without finishing the thought". The Plain English Translation supplies a full
   sentence ("Then maybe it will bear fruit in the future.") and so hides the aposiopesis the note is about.
 - **Fix:** Either mark the break ("If it bears fruit in the future, well and good. If not, you can chop it down.",
-  with the added words explained) or change the note so it describes what the Plain does.
+  with the added words explained) or change the note so it describes what the Plain English Translation does.
 
-### 14. Minor: settings 13:31–33 quotes words the Plain does not have
+### 14. Minor: settings 13:31–33 quotes words the Plain English Translation does not have
 - **Location:** chapters.json ch. 13, settings "The answer to Herod", `when`.
-- **Problem:** "'At that very hour,'" in quotation marks, but the Plain at 13:31 says "Just then".
+- **Problem:** "'At that very hour,'" in quotation marks, but the Plain English Translation at 13:31 says "Just then".
 - **Fix:** Quote "Just then", or drop the quotation marks.
 
 ### 15. Minor: "the same verb" at 11:16 is not quite right
@@ -234,7 +234,7 @@ the NIV, and it is the standard reading of an idiom; the fix is the note, not a 
 ## Fixes applied
 1. Fixed. New 13:35 variant anchored on "until the time comes when you say": SBL/NA28 (bracketed)/NA27/Tregelles with the Byzantine/TR form, against THGNT/WH "until you say" (as Matthew 23:39). I could not check the manuscripts, so the witnesses are given by edition and the entry says so. The `b` explains the TR's "Verily" and the Byzantine ὅτι. The 13:35 note is re-anchored to "you will never see me" and points to the variant.
 2. Fixed. The 13:22–30 settings card now writes "Matthew" on every reference (Matthew 7:13–14; Matthew 7:22–23; Matthew 8:11–12; Matthew 25:10–12).
-3. Fixed. The 12:53 note quotes Luke 1:17's Plain exactly: "turn fathers' hearts back to their children".
+3. Fixed. The 12:53 note quotes Luke 1:17's Plain English Translation exactly: "turn fathers' hearts back to their children".
 4. Fixed. Views T now names "Come, Creator Spirit" (Veni Creator Spiritus) and presents it as the church's prayer for the Spirit, saying the hymn is not drawn from 11:13.
 5. Fixed. Removed the "Parable of the Budding Fig Tree" link from chapter 12.
 6. Fixed. 11:18 "how can his kingdom last?" (= Matthew 12:26).
@@ -245,7 +245,7 @@ the NIV, and it is the standard reading of an idiom; the fix is the note, not a 
 11. Fixed. 13:25 "When the master of the house gets up and locks the door". Re-anchored the note.
 12. Fixed, reworded. Rebuilt 13:7 from the literal line as "three years running I have come looking for fruit on this fig tree". The suggested "For three years now I have been coming to look for fruit" is NIV wording, so I did not use it. Re-anchored the note to "three years running".
 13. Fixed. 13:9 now reads "If it bears fruit in the future, good. If not, you can chop it down." The note says "good" is the one word supplied where the Greek breaks off. Updated the 13:9 variant's anchor and both readings.
-14. Fixed. The 13:31–33 settings `when` now quotes the Plain "Just then" (13:31).
+14. Fixed. The 13:31–33 settings `when` now quotes the Plain English Translation "Just then" (13:31).
 15. Fixed. The 11:16 note now reads "(4:2; at 4:12 the compound ekpeirazō)".
 16. Fixed. Dropped 24:34 from the 11:39 note's body and `r` list.
 17. Fixed. The 11:51 note now uses the reviewer's wording: Chronicles is last in Bava Batra 14b and most printed Bibles, while the Aleppo and Leningrad codices put it first among the Writings. The preview says "the usual Hebrew order".
@@ -257,4 +257,4 @@ the NIV, and it is the standard reading of an idiom; the fix is the note, not a 
 23. Fixed. The 11:42 variant's `b` gives the Byzantine/TR wording κἀκεῖνα μὴ ἀφιέναι (KJV "not to leave the other undone") and says the sense is the same.
 24. Partly. Added entries for 13:31 (ὥρᾳ/ἡμέρᾳ, KJV "The same day") and 11:48 (Byzantine "their tombs", plus μαρτυρεῖτε in `b`), with witnesses by edition. Added φέγγος/φῶς to the 11:33 `b`. Declined 12:21 (Bezae's omission): I could not confirm Metzger's report, and the brief forbids unverified witnesses.
 25. Fixed. Added `word/deb` notes at 11:36 (the apparent repetition) and 12:49 (wish or question, with the KJV and "what more do I want" readings), and a note at 12:25 on ἡλικία (lifespan or height) pointing to Matthew 6:27. The 12:25 gloss now reads "a foot and a half (here, a little more time)".
-Lead item. The 11:1 note now quotes Luke 5:33's rebuilt Plain exactly: "John's disciples often fast and say their prayers".
+Lead item. The 11:1 note now quotes Luke 5:33's rebuilt Plain English Translation exactly: "John's disciples often fast and say their prayers".

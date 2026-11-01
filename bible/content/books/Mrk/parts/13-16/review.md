@@ -8,7 +8,7 @@ content/proposals/nt/works.json. `VERBOSE=1 node tools/build.js --check Mrk/13-1
 
 This is a strong part. I checked the translation verse by verse against the SBLGNT, the Byzantine text and the TAGNT
 edition marks. It is accurate: nothing is added or dropped against the reading it follows, apart from "always" in 15:8.
-It follows Matthew 24–28's Plain word for word wherever the Greek matches, and departs from it where the Greek
+It follows Matthew 24–28's Plain English Translation word for word wherever the Greek matches, and departs from it where the Greek
 differs (13:26 "much power and glory", 13:32 "or", 14:27 "the sheep", 14:62 "with the clouds", 14:63 "tunics").
 15:28 is handled exactly as brief-nt requires, 16:9–20 sits under its own "later ending" heading, and the two
 departures from the SBL are sound and explained:
@@ -39,7 +39,7 @@ Counts: critical 0, major 6, minor 27.
 ### Major
 
 **1. Major: NIV wording still present in about 15 verses (plain.txt).** These runs follow NIV choices that the Greek
-does not force. Matthew's Plain does not supply them either, except where noted. I quote only a few words.
+does not force. Matthew's Plain English Translation does not supply them either, except where noted. I quote only a few words.
 - **14:68 (worst).** "But he denied it." plus the quoted "I don't know ... what you're talking about," he said, plus
   "into the entryway". "Entryway" is the NIV's distinctive word for προαύλιον; ESV and KJV have other words. Rebuild
   the verse from the literal line, for example: "He denied it: 'I neither know nor understand what you mean.' He went
@@ -89,7 +89,7 @@ does not force. Matthew's Plain does not supply them either, except where noted.
   *Against the Pelagians* 2.15, "in some copies, especially Greek manuscripts") is correct.
 
 **3. Major: no variant for 13:14 ἑστηκότα against the Byzantine/TR ἑστώς.**
-- The Plain has "standing where he must not stand". The KJV, following the TR's ἑστώς, reads "standing where it
+- The Plain English Translation has "standing where he must not stand". The KJV, following the TR's ἑστώς, reads "standing where it
   ought not". A KJV reader will notice "he" against "it". brief-nt requires a variant entry wherever the Byzantine text
   or TR differs in a way a reader would notice.
 - The note at 13:14 discusses the masculine form but never says that the KJV's text reads otherwise.
@@ -113,7 +113,7 @@ does not force. Matthew's Plain does not supply them either, except where noted.
 - Fix:
   - Render 14:63 "ripped his tunics" (or "split").
   - Reword the deep dive and the 15:38 note to "the Greek verb σχίζω ('tear'), which Mark uses only here and at 1:10".
-  - In the 15:38 note, say that Matthew 27:51's Plain renders the same verb "split", and that Mark keeps "torn" to
+  - In the 15:38 note, say that Matthew 27:51's Plain English Translation renders the same verb "split", and that Mark keeps "torn" to
     show the 1:10 link. Today the reason appears only in progress.md.
   - "Tear down" for καταλύω can stay, since it is Matthew's model wording.
 
@@ -208,7 +208,7 @@ proposals/nt/works.json `secret-gospel-of-mark`).**
 **15. Minor: missing variants a KJV reader would notice.**
 - 14:51: Byzantine and TR οἱ νεανίσκοι, "the young men laid hold on him".
 - 14:52: "fled from them".
-- 16:19: SBL κύριος Ἰησοῦς against the Byzantine and TR κύριος. The Plain's "the Lord Jesus" is not in the KJV.
+- 16:19: SBL κύριος Ἰησοῦς against the Byzantine and TR κύριος. The Plain English Translation's "the Lord Jesus" is not in the KJV.
 - 16:20: the closing "Amen" in the TR and KJV.
 - Add at least the entries for 14:51 and 16:19.
 
@@ -220,22 +220,22 @@ proposals/nt/works.json `secret-gospel-of-mark`).**
 - 14:35 "if it could be done" (εἰ δυνατόν ἐστιν) can stay, or become "if it were possible".
 
 **17. Minor: 14:49 departs from Matthew 26:55, whose Greek matches here (plain.txt 14:49).**
-- Matthew's Plain has "Day by day ... and you did not lay a hand on me" (καθ’ ἡμέραν ... οὐκ ἐκρατήσατέ με).
+- Matthew's Plain English Translation has "Day by day ... and you did not lay a hand on me" (καθ’ ἡμέραν ... οὐκ ἐκρατήσατέ με).
 - Mark has "Every day ... you did not take hold of me". It is also NIV-shaped, with "teaching" moved forward.
 - Fix: "Day by day I was among you in the Temple, teaching, and you did not lay a hand on me."
 
-**18. Minor: quotations in notes do not match the current Plain.**
-- 14:23 note: "Drink from it, every one of you" (Matthew 26:27). The Plain reads "Every one of you, drink from it."
-- 14:65 note: "Prophesy, who hit you?" is presented as what Matthew 26:68 "spells out". The Plain reads "Be a prophet
+**18. Minor: quotations in notes do not match the current Plain English Translation.**
+- 14:23 note: "Drink from it, every one of you" (Matthew 26:27). The Plain English Translation reads "Every one of you, drink from it."
+- 14:65 note: "Prophesy, who hit you?" is presented as what Matthew 26:68 "spells out". The Plain English Translation reads "Be a prophet
   for us, Messiah! Who struck you?"
-- 15:27 note: "Let us sit, one on your right and one on your left, in your glory" (10:37). The Plain of 10:37 reads
+- 15:27 note: "Let us sit, one on your right and one on your left, in your glory" (10:37). The Plain English Translation of 10:37 reads
   "in your glory, let one of us sit on your right and one on your left."
 - The build does not catch these because the reference does not follow the quote.
 
 **19. Minor: "always" is imported into 15:8 (plain.txt 15:8).**
 - ἀεί ("always") is in the Byzantine text, Tyndale and Tregelles, not in the SBL or NA28. The followed reading is the
   bare imperfect καθὼς ἐποίει.
-- The Plain's "as he always did" makes the followed and Byzantine readings sound identical. That hides the variant's
+- The Plain English Translation's "as he always did" makes the followed and Byzantine readings sound identical. That hides the variant's
   second difference, and it contradicts the entry's own `en` ("as he was doing").
 - Fix: "as he used to do for them".
 
@@ -259,7 +259,7 @@ Write: "Among the first three Gospels only Mark gives the figure; John 12:5 has 
 **24. Minor: Claude's theory leaks into a lens (chapters.json 15, views.L).**
 - The view says, unlabeled: "Three Simons stand around the passion: the leper of 14:3, Simon Peter ... and Simon of
   Cyrene". The spec box on the same page calls the threefold pattern "my own reading".
-- It also uses "leper", but the site's term (and 14:3's Plain) is "the man with the skin disease".
+- It also uses "leper", but the site's term (and 14:3's Plain English Translation) is "the man with the skin disease".
 - Fix: remove the sentence from views.L, or point it to the spec box, and use the site's term.
 
 **25. Minor: Theissen is in the wrong date bucket (chapters.json 13 deep dive "When was Mark written?").**
@@ -286,7 +286,7 @@ Coverage is otherwise good: every speech, parable, prayer and trial has a card, 
 
 **28. Minor: 16:17 does not follow the shared term.**
 - The proposals/nt/terms.json entry for γλῶσσα lists Mark 16:17 and sets "speak in tongues".
-- The Plain has "speak with new tongues". Change it to "speak in new tongues", or record why Mark differs.
+- The Plain English Translation has "speak with new tongues". Change it to "speak in new tongues", or record why Mark differs.
 
 **29. Minor: doubtful rendering in the 14:41 note.**
 - It says the reading "ἀπέχει τὸ τέλος" in Bezae and others means "the end is near". The usual proposals are "the end
@@ -316,7 +316,7 @@ Coverage is otherwise good: every speech, parable, prayer and trial has a card, 
 - Consider "real nard" in Mark for cross-Gospel consistency. Mark has no Matthew model here.
 
 ## Checked and found sound (no action)
-- 15:28: bracket line exact; variant witnesses (א A B C D omit; L Θ f1 f13 Byz lat include) and the Isaiah 53:12 Plain
+- 15:28: bracket line exact; variant witnesses (א A B C D omit; L Θ f1 f13 Byz lat include) and the Isaiah 53:12 Plain English Translation
   quotation ("was counted with the rebels") correct.
 - 16:8: Shorter Ending Greek matches the SBL's double-bracketed text, and its witnesses match Metzger (k alone; L Ψ 083
   099 0112 274mg 579 with both). The one wobble: the `en` field says "briefly" and the `plain` says "promptly" for
@@ -339,7 +339,7 @@ Coverage is otherwise good: every speech, parable, prayer and trial has a card, 
   tradition names are in TRADITIONS.
 - The `diatessaron` works entry is accurate.
 - The quotations of Isaiah 13:10, 50:6, 53:7 and 53:12, Psalm 22:1, 7 and 18, 42:5 and 69:21, Deuteronomy 15:11,
-  Proverbs 31:6, Matthew 24:5, 27:25 and 28:7, and John 12:3 match the site's Plain.
+  Proverbs 31:6, Matthew 24:5, 27:25 and 28:7, and John 12:3 match the site's Plain English Translation.
 
 Sources consulted for verification: [Mar Saba letter (Wikipedia)](https://en.wikipedia.org/wiki/Mar_Saba_letter);
 [What happened to the book in which the Secret Gospel of Mark was found?](https://hypotyposeis.org/weblog/what-happened-to-the-book-in-which-the-secret-gospel-of-mark-was-found/);
@@ -350,7 +350,7 @@ Sources consulted for verification: [Mar Saba letter (Wikipedia)](https://en.wik
 1. Accepted. Rebuilt from the literal line, with a fresh drift audit: 14:68 (Matthew 26:70's "I have no idea ... what you mean" plus Mark's extra verb; "forecourt" for προαύλιον), 14:67, 14:54, 14:56, 14:61, 14:41 ("It is enough."), 15:8, 15:26 ("The inscription with the charge"), 15:30, 15:43 ("He dared to go in", τολμήσας), 16:2, 16:5 (Greek order), 16:11, 16:13, 16:14 ("rebuked their unbelief and hard-heartedness", = 10:5). Note and gloss anchors updated (14:54, 14:56, 14:67, 14:68 gloss "the forecourt", 16:5, 16:13, 16:14).
 2. Accepted. Freer Logion `en` retranslated word for word from the Greek (not Metzger's English); `en` and `plain` now both take "the things made unclean by the spirits" as the subject of καταλαβέσθαι; the other construal is in `b`, attributed to Metzger.
 3. Accepted. New variant at 13:14 (ἑστηκότα / ἑστώς, KJV "where it ought not"), with the harder-reading reason and Matthew 24:15 ἑστός; the 13:14 note now mentions the KJV's text.
-4. Accepted (lead decision). 14:63 "ripped his tunics"; deep dive, 15:38 note and 14:63 note restated in terms of the Greek verb σχίζω; the 15:38 note says Matthew 27:51's Plain has "split" and why Mark keeps "torn".
+4. Accepted (lead decision). 14:63 "ripped his tunics"; deep dive, 15:38 note and 14:63 note restated in terms of the Greek verb σχίζω; the 15:38 note says Matthew 27:51's Plain English Translation has "split" and why Mark keeps "torn".
 5. Accepted. 14:52 note, ch. 14 deep dive and the works entry now say the pages are lost and that Smith's black-and-white and the 1977 colour photographs survive. Works tier changed from `early` to `other`, and its note opens "Disputed: if genuine, an early Christian writing; many scholars judge it a modern forgery."
 6. Accepted. Added `gospel-of-the-egyptians` (tier `early`) to proposals/nt/works.json, distinguished from the Coptic Nag Hammadi book; the 15:40 note says the same.
 7. Accepted. Orthodox view cites new key `octoechos-eothina` (the Octoechos' eleven Eothina Gospels); Catholic view adds the PBC response of 1912 (new key `pbc-1912-mark`) and when the freedom began.
@@ -364,7 +364,7 @@ Sources consulted for verification: [Mar Saba letter (Wikipedia)](https://en.wik
 15. Partly. Added variants for 14:51 ("the young men") and 16:19 ("the Lord Jesus"); 14:52 "from them" and the 16:20 "Amen" are covered in those entries' `why` rather than as separate entries.
 16. Accepted (lead decision). 14:36 "for you anything is possible"; 14:35 kept (= Matthew 26:39 "if it can be done" pattern).
 17. Accepted. 14:49 "Day by day I was among you in the Temple, teaching, and you did not lay a hand on me."
-18. Accepted. Quotes at 14:23, 14:65 and 15:27 now match Matthew 26:27, Matthew 26:68 and Mark 10:37's current Plain.
+18. Accepted. Quotes at 14:23, 14:65 and 15:27 now match Matthew 26:27, Matthew 26:68 and Mark 10:37's current Plain English Translation.
 19. Accepted. 15:8 "as he used to do for them"; variant `a`, readings and `why` updated (ἀεί named as the Byzantine addition).
 20. Accepted. "five times".
 21. Accepted. Reworded as suggested.

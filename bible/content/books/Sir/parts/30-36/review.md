@@ -4,10 +4,10 @@ Reviewed: plain.txt, notes.json (130), variants.json (25), glosses.json (76), ch
 
 ## Verdict
 
-The part is careful and mostly faithful. All 196 Plain lines are one Greek verse each (no merging, splitting or reordering). Nearly every Plain line tracks the Greek, and the quotations of the 66, Tobit, Wisdom, 1 Esdras and 1 Maccabees match the current Plain, with one exception (Mark 10:23). The Latin and Kahana-Hebrew claims I tested are correct, and the Taanit 16a and Las Casas 1514 stories check out. The serious defects:
+The part is careful and mostly faithful. All 196 Plain English Translation lines are one Greek verse each (no merging, splitting or reordering). Nearly every Plain English Translation line tracks the Greek, and the quotations of the 66, Tobit, Wisdom, 1 Esdras and 1 Maccabees match the current Plain English Translation, with one exception (Mark 10:23). The Latin and Kahana-Hebrew claims I tested are correct, and the Taanit 16a and Las Casas 1514 stories check out. The serious defects:
 
-- **32:1.** The Plain still renders the ℵA reading "offerings" under Swete's συμφοράς, with no variant entry.
-- **36:31.** The Plain renders the ℵA reading ἁλλομένῳ ("darts") under Swete's σφαλλομένῳ, again with no variant entry.
+- **32:1.** The Plain English Translation still renders the ℵA reading "offerings" under Swete's συμφοράς, with no variant entry.
+- **36:31.** The Plain English Translation renders the ℵA reading ἁλλομένῳ ("darts") under Swete's σφαλλομένῳ, again with no variant entry.
 - **Block-start notes.** The KJV-number notes the brief requires at 35:1 and 36:1 are missing.
 - **Unsourced scholarship.** Several statements about what "some scholars" say (a 160s date for the prayer, a Stoic comparison, an Amidah comparison) and the dates of the book carry no named source.
 - **Wording inconsistencies.** Same-Greek-word wording is inconsistent in places (παιδεία, πεπαιδευμένος, πολύπειρος).
@@ -24,10 +24,10 @@ None. No invented source, reading or fragment found.
 
 **1. 32:1 and the footnote-lemma spot-check (plain.txt 32:1; variants.json has no 32:1 entry).**
 - Swete's text and `texts/orig` now read `Ὁ συντηρῶν νόμον πλεονάζει συμφοράς`. His footnote reads `συμφορας] προσφορας ℵA` (checked in `Sir.app.json`, note at 35:20, "XXXII 1"). First1KGreek has συμφοράς.
-- The Plain still says "Whoever keeps the law brings offerings in plenty". That is the ℵA reading (προσφοράς), which the Latin (Vulgate 35:1 "multiplicat oblationem") and the context of 32:2-4 support.
+- The Plain English Translation still says "Whoever keeps the law brings offerings in plenty". That is the ℵA reading (προσφοράς), which the Latin (Vulgate 35:1 "multiplicat oblationem") and the context of 32:2-4 support.
 - συμφορά in classical and LXX use is "event, misfortune", or rarely "a bringing together, contribution". "Offerings" is not a rendering of συμφοράς.
 - There is no variants.json entry. Note 47 (32:1) only gives the KJV numbers.
-- Fix: add a variant entry for 32:1 with three readings. (a) Swete's συμφοράς, with the Plain's honest gloss ("brings together contributions" or "piles up"). (b) προσφοράς in ℵ and A, plus the Latin. (c) The Hebrew, only if it is read in a manuscript. Then either follow Swete and translate συμφοράς in the sense "contributions, gifts brought" with a note, or say plainly in the "why" that the Plain follows ℵA/Latin against Swete and why. The 32:1 note already carries "Whoever keeps the law" and should mention the choice.
+- Fix: add a variant entry for 32:1 with three readings. (a) Swete's συμφοράς, with the Plain English Translation's honest gloss ("brings together contributions" or "piles up"). (b) προσφοράς in ℵ and A, plus the Latin. (c) The Hebrew, only if it is read in a manuscript. Then either follow Swete and translate συμφοράς in the sense "contributions, gifts brought" with a note, or say plainly in the "why" that the Plain English Translation follows ℵA/Latin against Swete and why. The 32:1 note already carries "Whoever keeps the law" and should mention the choice.
 - **Lemma spot-check across 30:25-36:16.**
   - I parsed Swete's footnotes for the pages covering 30:25-36:31. I compared every `lemma] variant` entry, and every bare variant word, against the digital verse.
   - I also diffed `texts/orig` word for word against First1KGreek's Swete for 30:25-33:13, 34:1-36:16 and 36:16-31 (accent- and sigma-folded). Apart from First1K's own OCR slips, there is no word-level difference.
@@ -37,9 +37,9 @@ None. No invented source, reading or fragment found.
 
 **2. 36:31 (plain.txt 36:31; no variant entry).**
 - Greek: `τίς γὰρ πιστεύσει εὐζώνῳ λῃστῇ σφαλλομένῳ ἐκ πόλεως εἰς πόλιν;`. Swete's footnote: `σηφαλλομενω] αφαλλομενω ℵA`, that is ἁλλομένῳ, "leaping".
-- The Plain, "a nimble bandit who darts from town to town", translates ἁλλομένῳ (or the Hebrew המדלג, Kahana 35:26), not Swete's σφαλλομένῳ ("stumbling, tripping").
-- The gloss at 36:31 repeats the sense of "darts". This is the same kind of silent switch as 32:1, but here the digital text is right and the Plain departs from it.
-- Fix: add a variant entry (σφαλλομένῳ B; ἁλλομένῳ ℵA; Hebrew המדלג from Kahana 35:26, unbracketed). Either translate σφαλλομένῳ or state that the Plain follows ℵA/Hebrew and why. The wording is also very close to the NRSV and NABRE phrasing for this line ("nimble robber that skips/leaps from city to city"). Re-word independently from the Greek.
+- The Plain English Translation, "a nimble bandit who darts from town to town", translates ἁλλομένῳ (or the Hebrew המדלג, Kahana 35:26), not Swete's σφαλλομένῳ ("stumbling, tripping").
+- The gloss at 36:31 repeats the sense of "darts". This is the same kind of silent switch as 32:1, but here the digital text is right and the Plain English Translation departs from it.
+- Fix: add a variant entry (σφαλλομένῳ B; ἁλλομένῳ ℵA; Hebrew המדלג from Kahana 35:26, unbracketed). Either translate σφαλλομένῳ or state that the Plain English Translation follows ℵA/Hebrew and why. The wording is also very close to the NRSV and NABRE phrasing for this line ("nimble robber that skips/leaps from city to city"). Re-word independently from the Greek.
 
 **3. Missing KJV-number notes at two block starts (notes.json).**
 - The brief ("Texts and numbering") requires a note at the start of each displaced block: 30:25, 31:1, 32:1, 33:1, 34:1, 35:1, 36:1, 36:16.
@@ -59,14 +59,14 @@ None. No invented source, reading or fragment found.
 - Note 90: "The Hebrew in Kahana's edition is unclear at this point."
 - Kahana 31:27 is `[ואם יפצירו בך לאכול, סור מן הסבה] ותמצא נחת`. Everything except "and you will find rest" is in Kahana's square brackets, so it is his restoration and must not be cited as Hebrew. The accurate statement is: no Hebrew is preserved for this line except "you will find rest".
 - The Greek base `μεσοπορῶν` is only in ℵc.a. B, A and C read μεσοπωρῶν (not a Greek word with the sense needed) and ℵ first hand μεσοπωρον. The note and variants.json do not tell the reader that the printed word depends on a corrected Sinaiticus reading.
-- The Plain "get up while the meal is going on and step away" is a defensible rendering of μεσοπορῶν, but it is an interpretation, not literal. It also sits very close to a "leave in the middle of the meal" sense that other modern versions give. Describe only, but make sure the wording is the writer's own.
+- The Plain English Translation "get up while the meal is going on and step away" is a defensible rendering of μεσοπορῶν, but it is an interpretation, not literal. It also sits very close to a "leave in the middle of the meal" sense that other modern versions give. Describe only, but make sure the wording is the writer's own.
 - Fix: correct the Hebrew statement; add a short variant entry (μεσοπορῶν ℵc.a, the printed text; μεσοπωρῶν BAC; the Latin "surge e medio, evome" and the KJV "vomit").
 
 **6. 36:16: the variant entry states an unproven explanation and an unverified claim (variants.json 36:16; note 118).**
 - Footnote: `16ᵇ κατακληρονομησεις (vid praef)] κατεκληρονομησα BNA`. That means B, ℵ and A all read κατεκληρονόμησα ("I gave/took as inheritance"), and Swete prints a corrected text, with a pointer to his preface.
 - The variant's R0 says "a correction he explains in his preface". The preface was not opened in this session. The writer only knows the footnote's "vid praef".
 - The "why" says the first person "came in because this half-line now follows 'I too kept watch'". That is a hypothesis, stated as fact. It is also not obviously right: the three codices have the same text for different reasons, or Swete's preface may say something else.
-- Another problem: the Plain "you will give them their inheritance" is Swete's emendation, and the Greek base for this site is Swete. That is fine, but the card should say that the best Greek witnesses all disagree with the printed word.
+- Another problem: the Plain English Translation "you will give them their inheritance" is Swete's emendation, and the Greek base for this site is Swete. That is fine, but the card should say that the best Greek witnesses all disagree with the printed word.
 - Fix: say "Swete prints κατακληρονομήσεις and marks it with a reference to his preface (not read here)". Label the contamination explanation as a guess, or cut it. Confirm the Hebrew and Latin evidence (Kahana 35:9 `ויתנחלו כימי קדם`, "and let them take their inheritance as in days of old" is correct; Vulgate 36:13 "et hereditabis eos" is correct).
 
 ### Minor
@@ -80,7 +80,7 @@ None. No invented source, reading or fragment found.
 **8. 35:14 (variant, note 103): wording about the "spelling slip" overreaches.**
 - The footnote gives `παιδειαν BᵃᵇA`, so B first hand reads παιδιαν. It says nothing about ℵ. The variant heading "A spelling slip in Vaticanus" and R0 "Vaticanus, first hand" are therefore not shown to be peculiar to B; ℵ may share it.
 - R0's English "will receive play" / "will accept play" is a rendering of a word nobody meant. Better: "παιδίαν (the spelling of B first hand), a spelling of παιδείαν".
-- The Plain follows R1 (corrected B, A, the Hebrew's מוסר). That is a departure from Swete's printed word, and the brief makes Swete the base. It is right on the merits. State in the "why" that the Plain here departs from the printed letters.
+- The Plain English Translation follows R1 (corrected B, A, the Hebrew's מוסר). That is a departure from Swete's printed word, and the brief makes Swete the base. It is right on the merits. State in the "why" that the Plain English Translation here departs from the printed letters.
 - The footnote also lists `εκδεξεται] εκλεξεται Bᵇ` ("will choose"); not in the variant. Add it.
 
 **9. 30:7 (note 5): the choice is sound, but whose wounds is left open and the variant is not in variants.json.**
@@ -90,10 +90,10 @@ None. No invented source, reading or fragment found.
 - Fix: add a short variant entry; make the "whose wounds" ambiguity explicit; name the lexicon for περίψυχος or soften to "could also be read".
 
 **10. 35:22 (plain.txt): "watch out for your own children" is ambiguous.**
-- The Greek is `ἀπὸ τῶν τέκνων σου φύλαξαι`, "guard yourself against your children". In English "watch out for X" is commonly "take care of X", the opposite sense. The note and variant both say "guard yourself from". The Plain should say "beware of your own children".
+- The Greek is `ἀπὸ τῶν τέκνων σου φύλαξαι`, "guard yourself against your children". In English "watch out for X" is commonly "take care of X", the opposite sense. The note and variant both say "guard yourself from". The Plain English Translation should say "beware of your own children".
 
 **11. Mark 10:23 quoted inexactly (note 81, 34:8).**
-- The note puts in quotation marks "how hard it will be for the rich to enter God's kingdom". The current Mark Plain 10:23 reads "With what difficulty will people who have money get into the kingdom of God!". The brief and the project rule require the exact current Plain. Fix the quote. (The second quote in that note, "With God, anything is possible", Mark 10:27, matches.)
+- The note puts in quotation marks "how hard it will be for the rich to enter God's kingdom". The current Mark Plain English Translation 10:23 reads "With what difficulty will people who have money get into the kingdom of God!". The brief and the project rule require the exact current Plain English Translation. Fix the quote. (The second quote in that note, "With God, anything is possible", Mark 10:27, matches.)
 
 **12. Cross-book references to this part.**
 All of the references below point at the right Greek verse, except as noted.
@@ -106,7 +106,7 @@ All of the references below point at the right Greek verse, except as noted.
 - Tobit 1-6: Sirach 30:18, 32:4. Correct.
 - Jeremiah 13-20 note on 18:6: Sirach 36:13. Correct.
 - **Romans 9-11, note at 9:21 (`Rom/parts/09-11/notes.json`)**: the body text says "in Sirach people are 'as clay in the potter's hand' (33:13)", but its `r` field says 36:13. 33:13 in this site's numbering is "Gather all the tribes of Jacob". The body text is the KJV number. Fix in the Romans part: "36:13".
-- **Job 15-21 (`Job/parts/15-21/notes.json`)**: quotes "I have seen many things in my travels" (Sirach 31:11-12). The Sirach Plain 31:12 reads "I have seen much in my wanderings". Either update the Job quote to the current Plain or have the Job writer paraphrase without quotation marks.
+- **Job 15-21 (`Job/parts/15-21/notes.json`)**: quotes "I have seen many things in my travels" (Sirach 31:11-12). The Sirach Plain English Translation 31:12 reads "I have seen much in my wanderings". Either update the Job quote to the current Plain English Translation or have the Job writer paraphrase without quotation marks.
 - Neither of these is a fix for this part's own files. They belong to the Romans and Job fixers.
 
 **13. Hedges (STYLE rule 2).**
@@ -136,23 +136,23 @@ All of the references below point at the right Greek verse, except as noted.
 - Note 12 (30:20): "a later hand in Codex Vaticanus wrote that same line in the margin" matches the footnote (`Bᵇ mg inf`). Good.
 - Note 105: the claim that the grandson "likely" had zar is a standard text-critical inference; fine as inference.
 
-**17. Style.** No em-dashes anywhere in the part. The Plain is at about an 8th-grade level. Poetry line breaks (` / `) are consistent. Headings are fine.
+**17. Style.** No em-dashes anywhere in the part. The Plain English Translation is at about an 8th-grade level. Poetry line breaks (` / `) are consistent. Headings are fine.
 
 ## Drift check (describe only)
 
 I found no verbatim match with any modern translation. Close in shape or word choice, to be re-worded from the Greek:
 - 36:31 "nimble bandit/robber ... from town to town" resembles the NRSV and NABRE shape for this line (see finding 2).
 - 35:1 "leader of the feast" adds "of the feast", which the Greek lacks (only the Hebrew and Latin context have it). The NRSV and others add the same words. Defensible from 35:2, but the note should say it is supplied.
-- 33:6 "wonders of a new kind" softens ἀλλοίωσον ("change, alter"); the note explains the Hebrew, but the Plain avoids the Greek's verb.
+- 33:6 "wonders of a new kind" softens ἀλλοίωσον ("change, alter"); the note explains the Hebrew, but the Plain English Translation avoids the Greek's verb.
 - 34:15 "Know what your neighbor wants by what you want yourself" echoes the common "judge your neighbor's feelings by your own" sense (NRSV); the Greek has "things of your neighbor", not "wants".
 
 ## Probes asked for
 
-- **One Plain verse per Greek verse.** Confirmed for all 196 lines. The two-line Greek verses (30:24, 30:38, 35:1) stay inside one Plain line.
+- **One Plain English Translation verse per Greek verse.** Confirmed for all 196 lines. The two-line Greek verses (30:24, 30:38, 35:1) stay inside one Plain English Translation line.
 - **Numbers.** The KJV mapping in the notes agrees with `sir-numbers.tsv` except finding 3 (missing notes) and the wording slip in finding 16.
 - **30:7, 35:14, 36:16:** findings 9, 8, 6.
 - **KJV "mistranslation" notes (34:15, 34:21, 34:31):** The Greek facts are right. 34:15 νόει has no negative; 34:21 the Greek does not say "vomit" (the Latin does, Vulgate 31:25); 34:31 ἀπαίτησις is a demand for repayment. The KJV Sirach 31:15, 31:21 and 31:31 wordings quoted in the notes are correct. The only gap is the missing 34:21 variant (finding 5).
-- **Quotes of the 66:** all match the current Plain except Mark 10:23 (finding 11). Exodus 22:22-23, Proverbs 23:1-2, Isaiah 45:9, Jeremiah 18:6, Romans 9:21, 14:5 and the Psalm and prophet quotes match.
+- **Quotes of the 66:** all match the current Plain English Translation except Mark 10:23 (finding 11). Exodus 22:22-23, Proverbs 23:1-2, Isaiah 45:9, Jeremiah 18:6, Romans 9:21, 14:5 and the Psalm and prophet quotes match.
 - **Facts from memory:** findings 4, 13, 16.
 
 ## Fixes applied
@@ -161,14 +161,14 @@ I found no verbatim match with any modern translation. Close in shape or word ch
 2. Fixed. 36:31 rebuilt from σφαλλομένῳ ("who strays from town to town"; LSJ σφάλλω "err, go astray"), new sentence shape away from NRSV/NABRE ("a robber dressed for the road ... stops for the night wherever it gets late"). New variant 36:31. Partly declined the reviewer's reading of the footnote: Swete's ℵA reading is αφαλλομενω (ἀφαλλομένῳ, LSJ "spring off"), not ἁλλομένῳ. Hebrew cited from MS B VII recto 8 (and MS D, MS C), not Kahana. Glosses and the spec note re-anchored.
 3. Fixed. KJV-number notes added at 35:1 (35:1-24 = KJV 32:1-24) and 36:1 (36:1-15 = KJV 33:1-15), from tools/sir-numbers.tsv; per lead decision 14 they say only that Swete keeps the Greek manuscripts' order.
 4. Fixed. The 160s-BC "later addition" line, its settings view and the H mention are cut; the Stoic comparison (36:15 note, ch36 H) cut (the Jewish Encyclopedia I opened links the Stoics only to fatalism); the Amidah comparison cut (JE compares the Shemoneh Esreh only with the psalm after 51:12). Dates now one wording from Gigot, Catholic Encyclopedia (opened): "between about 190 and 170 BC", grandson in Egypt 132 BC, Simon II about 200 BC; key gigot-ecclesiasticus-ce. The 30:27 transition sentence and the 30:24 "scholars usually explain" line rewritten (the latter now attributed to Toy and Lévi, JE, opened). The stock `readers` line replaced (lead decision 5).
-5. Fixed. 34:21 note rewritten: MS B IV recto 17 keeps only "and you will find rest"; MS B IV verso 2 has a second form with qwh qwh ("vomit it out" in Parker and Abegg's translation). New variant 34:21 (μεσοπορῶν ℵc.a = Swete; μεσοπωρῶν BAC; μεσοπωρον ℵ*; Vulgate 31:25 "surge e medio, evome"; KJV). Plain rebuilt "get up halfway through the meal" (LSJ μεσοπορέω).
+5. Fixed. 34:21 note rewritten: MS B IV recto 17 keeps only "and you will find rest"; MS B IV verso 2 has a second form with qwh qwh ("vomit it out" in Parker and Abegg's translation). New variant 34:21 (μεσοπορῶν ℵc.a = Swete; μεσοπωρῶν BAC; μεσοπωρον ℵ*; Vulgate 31:25 "surge e medio, evome"; KJV). Plain English Translation rebuilt "get up halfway through the meal" (LSJ μεσοπορέω).
 6. Fixed. 36:16 variant: Swete's text "marked 'vid praef' (preface not read)"; the contamination explanation labeled as a guess; the card says B, ℵ and A all read κατεκληρονόμησα. Hebrew now MS B VI verso 9 (ויתנחלו כימי קדם); Vulgate 36:13 kept.
-7. Fixed under lead decision 6. παιδεία: "discipline" at 30:33, 34:17 (Plain changed from "good training"), 35:14; "instruction" at 30:26, 36:4; the note moved to the first use (30:26). πεπαιδευμένος "well-taught" (34:19 changed); πολύπειρος "a man of wide experience" (36:25 changed). Terms entry in proposals/works/terms.json.
-8. Fixed. 35:14 variant retitled; R0 is the first-hand spelling, not "play"; added εκλεξεται Bᵇ; "why" says the Plain departs from the printed letters. Note at 35:14 corrected.
+7. Fixed under lead decision 6. παιδεία: "discipline" at 30:33, 34:17 (Plain English Translation changed from "good training"), 35:14; "instruction" at 30:26, 36:4; the note moved to the first use (30:26). πεπαιδευμένος "well-taught" (34:19 changed); πολύπειρος "a man of wide experience" (36:25 changed). Terms entry in proposals/works/terms.json.
+8. Fixed. 35:14 variant retitled; R0 is the first-hand spelling, not "play"; added εκλεξεται Bᵇ; "why" says the Plain English Translation departs from the printed letters. Note at 35:14 corrected.
 9. Fixed. New variant 30:7 (υἱῶν B; υἱόν ℵc.a A; Vulgate, KJV); note makes the "whose wounds" ambiguity explicit and names LSJ (περιψύχω "cherish", Si. 30.7 v.l., opened).
-10. Fixed. 35:22 Plain "and guard yourself against your own children"; note and variant re-anchored; Hebrew now from MS B V verso 11-12, MS E, MS F.
-11. Fixed. Mark 10:23 now quoted in its current Plain.
-12. Accepted; not this part's files. Listed for the lead: Romans 9-11 note at 9:21 (body "33:13" should be 36:13); Job 15-21 note at 21:29 quotes "I have seen many things in my travels" for Sirach 31:11-12, but the Plain of 31:12 (unchanged) reads "I have seen much in my wanderings".
+10. Fixed. 35:22 Plain English Translation "and guard yourself against your own children"; note and variant re-anchored; Hebrew now from MS B V verso 11-12, MS E, MS F.
+11. Fixed. Mark 10:23 now quoted in its current Plain English Translation.
+12. Accepted; not this part's files. Listed for the lead: Romans 9-11 note at 9:21 (body "33:13" should be 36:13); Job 15-21 note at 21:29 quotes "I have seen many things in my travels" for Sirach 31:11-12, but the Plain English Translation of 31:12 (unchanged) reads "I have seen much in my wanderings".
 13. Fixed. "I know of" and "He was unmarried" removed from the 36:31 spec note ("the Gospels ... name no wife"); 31:9 R1 now "Swete reads A's first hand with a query (A*vid)"; "probably/very likely" judgments trimmed or stated as judgments.
 14. Fixed. Glosses: 34:16 "wolf it down", 31:5 "fortune-telling and reading signs", 36:9 "ordinary days", 36:18 "the city where you take your rest", 36:31 re-anchored.
 15. Fixed, and widened under lead decision 12: every Hebrew citation in the part now comes from Abegg's transcriptions of MS B (folios III recto-VII recto), E, F, C and D at bensira.org (opened), with folio and line; Kahana is no longer cited except at 36:3, where his "like the Urim in the breastpiece" is not in Abegg's transcription of MS B V verso 18 and the note and variant now say the Hebrew breaks off (the Urim note, variant and topic were rebuilt on ℵA δήλων). 35:18 now pairs the Greek with the Hebrew line in the same place (MS B V verso 8; MS E; MS F). Other corrections from the manuscripts: 30:12 כיף (not כוף), 30:23 a different verb, 33:2 verb damaged, 33:12 margin אויב, 36:22 El olam (not Elohei olam), 36:26 no Hebrew of the line; 30:39 MS E "like a brother" added. Ch. 32 J range corrected to 32:11-26.

@@ -13,8 +13,8 @@ Publish the Bible Scroll. Use the `bible-site-build` skill.
    - `works.json` into `content/works.json`; `points.json` into `content/atlas/points.json`.
    - `topics.md` and `build.md`: act on each item (edit the topic core, or fix build.js/app), then remove it.
    Then empty each merged file (`[]` or `{}`), so nothing is merged twice.
-3. **Quote sync**: run `VERBOSE=1 node tools/build.js` and fix every "is not the site's Plain wording" warning by
-   updating the quoting note to the current Plain.
+3. **Quote sync**: run `VERBOSE=1 node tools/build.js` and fix every "is not the site's Plain English Translation wording" warning by
+   updating the quoting note to the current Plain English Translation.
 4. **Build**: `node tools/build.js --publish`. Books still in draft are left out; check the list it prints.
 4b. **Release notes**: `node tools/release.js` writes `content/releases/<date>.json` (what readers will find new or
    changed since the last release) and updates `content/releases/_snapshot.json`. Fill in its `title` and a two-or-three

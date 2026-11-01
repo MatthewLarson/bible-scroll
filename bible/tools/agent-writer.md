@@ -2,7 +2,7 @@
 
 You are writing the study content for ONE book (or one part of a large book) of a whole-Bible study website.
 The person who commissioned it, Matt, wants the same treatment every book of the Bible as the existing
-Revelation study, above all a faithful Plain English translation from the original languages.
+Revelation study, above all a faithful Plain English Translation from the original languages.
 
 ## Read first
 1. `bible/PLAN.md` (architecture) and `bible/STYLE.md` (the rules you follow).
@@ -48,7 +48,7 @@ original does not have (an NIV "the names of", "raiding", "crumbs"), and any NIV
 for Shinar) means the verse must be rebuilt from the literal line with a different sentence shape. Keep the audit
 list in your scratch folder (verse number, matched / changed / kept, and a few-word reason, never the other
 version's text) and say in your report how many verses it changed. Quote Bible verses in notes, chapter pages and topics in this
-site's own Plain wording (for books already written) or in fresh wording made the same way: `node tools/literal.js <book> <c:v-v>` works
+site's own Plain English Translation wording (for books already written) or in fresh wording made the same way: `node tools/literal.js <book> <c:v-v>` works
 for any book, so quote Hebrews or Psalms from their literal line too. Never ESV/NIV wording.
 
 Work chapter by chapter: translate the chapter from the original (check each verse against the word-by-word

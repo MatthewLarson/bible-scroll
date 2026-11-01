@@ -57,13 +57,13 @@ The SEAL pages themselves (`.cache/dl/seal/node<n>.html`, from `tools/world-fetc
 the list of copies (sigla) with their museum numbers, places and dates, and the bibliography: read them with a
 script when you need a witness named exactly.
 
-There is no English text in `texts/en/` for these books: the only English help is SEAL's word glosses. The Plain is a
+There is no English text in `texts/en/` for these books: the only English help is SEAL's word glosses. The Plain English Translation is a
 fresh translation from the Akkadian. Copyrighted translations you must not copy or lean on (drift audit in your head,
 as agent-writer.md describes for the NIV and ESV): for Atrahasis, W. G. Lambert and A. R. Millard (1969), B. R. Foster
 (<i>Before the Muses</i>; <i>Context of Scripture</i>), S. Dalley (<i>Myths from Mesopotamia</i>), E. A. Speiser in
 <i>ANET</i>, N. Wasserman (<i>The Flood: The Akkadian Sources</i>, 2020, open access under CC BY-NC-ND, so not to be
 adapted), T. Jacobsen, and any English that SEAL itself prints. You may read them to check a hard line's sense, as
-the 66-book writers check the BSB, but the Plain must come from the literal line.
+the 66-book writers check the BSB, but the Plain English Translation must come from the literal line.
 
 ## Translating
 - Every verse starts from `python tools/akk-literal.py <id> <chapter>`, saved in your scratch folder, then edited into
@@ -78,7 +78,7 @@ the 66-book writers check the BSB, but the Plain must come from the literal line
 - Variants: the copies differ often (an Old Babylonian copy against a Neo-Assyrian or Late Babylonian one). Record in
   variants.json every difference that changes the meaning, naming the copies by SEAL's sigla with what they are
   ("A, the Old Babylonian copy of Ipiq-Aya from Sippar"; read SEAL's sigla list for each), the Akkadian, an English
-  rendering, and the Plain wording with that reading. Where the base copy is broken and the Plain follows another
+  rendering, and the Plain English Translation wording with that reading. Where the base copy is broken and the Plain English Translation follows another
   copy that agrees wherever both survive, the reader still needs to know which copy the words rest on, but that is
   not a difference: give one entry per run of such lines, on the run's first verse, naming the verses and the copy,
   not an entry per verse. Spelling differences need no entry.
@@ -90,7 +90,7 @@ the 66-book writers check the BSB, but the Plain must come from the literal line
   Belet-ili, Namtar, Adad, Atrahasis), with the Akkadian in a note at first use, and the book brief's choices for
   names that change between copies. Lowercase "god" and "gods" for these gods; "God" and "the LORD" only for the God
   of the Bible.
-- Quotations of the 66 books: the site's current Plain, exactly (the build checks the long ones).
+- Quotations of the 66 books: the site's current Plain English Translation, exactly (the build checks the long ones).
 
 ## What every page needs (beyond agent-writer.md and agent-writer-works.md)
 - Notes: heavy `echo` and `canon` notes ("Compared with the Bible": agrees, differs, or answers back), `myth` notes

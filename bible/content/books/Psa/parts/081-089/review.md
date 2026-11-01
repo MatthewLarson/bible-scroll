@@ -4,7 +4,7 @@ Reviewer read STYLE.md, PLAN.md, tools/brief-psa.md, every file in this part, th
 
 ## Verdict
 
-This is a strong part. The Plain is built from the Hebrew. It keeps the hard places hard (81:5, 87:1–7, 88:15, 89:44, 89:47, 89:50) and flags them in notes. I found no drift toward the NIV or ESV wording. Every psalm has a settings card with `readers`, every summary gives the Greek number, and the Hebrew numbering note appears once (81:0). The royal and lament material in 82 and 89 is fair to Jewish and Christian readers alike. The three traditions cards deal with real disagreements.
+This is a strong part. The Plain English Translation is built from the Hebrew. It keeps the hard places hard (81:5, 87:1–7, 88:15, 89:44, 89:47, 89:50) and flags them in notes. I found no drift toward the NIV or ESV wording. Every psalm has a settings card with `readers`, every summary gives the Greek number, and the Hebrew numbering note appears once (81:0). The royal and lament material in 82 and 89 is fair to Jewish and Christian readers alike. The three traditions cards deal with real disagreements.
 
 I checked most of the facts cited from memory, and they hold:
 - the Corpus Christi Introit *Cibavit eos* (81:16);
@@ -87,7 +87,7 @@ The note on 86:0 points to 54:3 as the source. The two Hebrew verses are nearly 
 **Fix:** use the 54:3 wording where the Hebrew agrees, and keep only the real difference (zedim, "arrogant", against zarim, "outsiders"). Note that 86:14 addresses God in the second person, so "you" is fine in the last line.
 
 ### 9. Minor: qever is "grave" in 88:5 but "tomb" in 88:11, and the note says "grave" for both (plain.txt; notes.json 88:3; glosses.json 88:11)
-Note 88:3 lists "the grave (*qever*, verses 5 and 11)". The Plain has "tomb" at 88:11, and a gloss then explains "in the tomb" as "in the grave". That gloss adds nothing.
+Note 88:3 lists "the grave (*qever*, verses 5 and 11)". The Plain English Translation has "tomb" at 88:11, and a gloss then explains "in the tomb" as "in the grave". That gloss adds nothing.
 
 **Fix:** use "grave" in 88:11 and delete the gloss.
 
@@ -102,7 +102,7 @@ Bavli Ketubot 75a expounds 87:5 ("This man and that man was born in her ... one 
 **Fix:** move the sentence to a note on 87:5 (or into the existing 87:5 echo note), or say "reads 87:5".
 
 ### 12. Minor: Job 26:6 is quoted as a "fresh rendering" although the site has Job (notes.json 88:11)
-STYLE: "Quoting a book this site has already translated: use its Plain wording exactly." Job is written (content/books/Job/parts/). Its Plain of 26:6 reads "Sheol lies naked before him; / there is no cover over Abaddon."
+STYLE: "Quoting a book this site has already translated: use its Plain English Translation wording exactly." Job is written (content/books/Job/parts/). Its Plain English Translation of 26:6 reads "Sheol lies naked before him; / there is no cover over Abaddon."
 
 **Fix:** quote that wording and drop "fresh rendering". The other fresh renderings (Isaiah, Jeremiah, the Gospels, Acts, Paul, Hebrews) are fine while those books are unwritten.
 
@@ -174,8 +174,8 @@ Vaticanus and Sinaiticus are both fourth century, so calling Vaticanus "the olde
 
 ### 24. Minor: small translation points (plain.txt)
 - **86:2** "Keep me alive" for שָׁמְרָה נַפְשִׁי softens "guard my life". Use "Guard my life".
-- **86:13** The Hebrew is present, "For your loyal love toward me is great". The Plain makes it a past exclamation ("has been"). Use "For great is your loyal love toward me".
-- **81:16** The Masoretic וַיַּאֲכִילֵהוּ is a past narrative form ("and he fed him"). The Plain's "He would feed him" is a reasonable conditional reading in context, but the variant's `why` should say that the tense, too, is interpreted.
+- **86:13** The Hebrew is present, "For your loyal love toward me is great". The Plain English Translation makes it a past exclamation ("has been"). Use "For great is your loyal love toward me".
+- **81:16** The Masoretic וַיַּאֲכִילֵהוּ is a past narrative form ("and he fed him"). The Plain English Translation's "He would feed him" is a reasonable conditional reading in context, but the variant's `why` should say that the tense, too, is interpreted.
 
 ### 25. Minor: mechanics and filler (notes.json)
 - Six previews (`p`) are over the 120-character limit: 81:3 (135), 81:10, 81:13, 82:6 (136), 88:3 and 89:51.
@@ -206,12 +206,12 @@ Vaticanus and Sinaiticus are both fourth century, so calling Vaticanus "the olde
 4. **89:33.** Added a variant: MT *afir* against *asir* in some manuscripts and the Syriac, as reported in BHS, not checked myself. The note is flagged and cites `bhs-elliger`.
 5. **81:5, 86:11.** Added "(not checked myself)" to the Syriac witness in both.
 6. **89:12.** The variant now says the words differ by one letter (nun or mem).
-7. **89:52 (lead decision).** The Plain is now "Blessed be the LORD forever. / Amen and amen.", matching 41:13 and 72:18–19. The note anchor and the note text are updated.
-8. **86:14.** Now follows the 54:3 Plain where the Hebrew agrees: "God, arrogant men have stood up against me, / and a band of brutal men is hunting for my life. / They give you no place before their eyes." The Psalm 86 settings card is updated.
+7. **89:52 (lead decision).** The Plain English Translation is now "Blessed be the LORD forever. / Amen and amen.", matching 41:13 and 72:18–19. The note anchor and the note text are updated.
+8. **86:14.** Now follows the 54:3 Plain English Translation where the Hebrew agrees: "God, arrogant men have stood up against me, / and a band of brutal men is hunting for my life. / They give you no place before their eyes." The Psalm 86 settings card is updated.
 9. **88:11.** "Tomb" is now "grave", the gloss is deleted, and the quote on the topic page is updated.
 10. **Sky words.** shamayim is "heavens" (89:5, 89:11) and shechaqim is "skies" (89:6, 89:37).
 11. **87:6 note.** Now says the Talmud reads 87:5 (Ketubot 75a).
-12. **Job 26:6.** Now quoted in the site's Plain.
+12. **Job 26:6.** Now quoted in the site's Plain English Translation.
 13. **82 L lens.** Deleted the Latin West sentence.
 14. **Dead pointers.** Removed "(see the note)" from the 84:7 variant. Added the ketiv *shevit* and qere *shevut* to the 85:1 variant, so the note's pointer now leads somewhere.
 15. **Psalm 83.** Added a curse-psalms traditions card (Catholic citing GILH 131, Orthodox Kathisma 11, Anglican BCP 1662, Reformed). Note 83:16 and the L lens cite GILH 131.

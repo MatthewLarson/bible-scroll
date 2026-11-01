@@ -9,11 +9,11 @@ Read tools/brief-nt.md, brief-pauline.md, brief-pauline2.md and brief-general.md
 | `parts/08-13/` | 8:1-13:25 | 174 | topic cores `hall-of-faith` (see Topics); the `diatheke` and `skene` terms entries (see below) |
 
 Hebrews is one argument, so the two writers must agree on the vocabulary of the sanctuary and the priesthood. Part
-08-13 cannot read 01-07's Plain: both translate from the Greek with the terms in brief-general.md and the decisions
+08-13 cannot read 01-07's Plain English Translation: both translate from the Greek with the terms in brief-general.md and the decisions
 below, and list in their reports every place the other part's wording should match (the lead aligns them).
 
 **Fixed for both parts:** ἀρχιερεύς "high priest"; ἱερεύς "priest"; κατὰ τὴν τάξιν Μελχισέδεκ "after the pattern of
-Melchizedek" (Psalm 110:4 Plain; the Greek τάξις is "order": note at 5:6 that "order" is the usual English, and that the
+Melchizedek" (Psalm 110:4 Plain English Translation; the Greek τάξις is "order": note at 5:6 that "order" is the usual English, and that the
 site's Psalm 110:4 renders the Hebrew *dibrati* "pattern"); σκηνή "tent" (gloss "tabernacle"); τὰ ἅγια "the sanctuary";
 ἅγια ἁγίων "the most holy place"; καταπέτασμα "the veil"; ὑπόδειγμα "copy" and σκιά "shadow" (8:5; 10:1); τύπος
 "pattern" (8:5, Exodus 25:40); ἀντίτυπος "copy" (9:24; 1 Peter 3:21 is in another round: note the word); εἰκών "image"
@@ -58,7 +58,7 @@ doubts (verify), Luther's preface, Calvin's commentary, the warnings in the Refo
 
 **Places for full treatment (notes, variants, cards):**
 - 1:3 (*apaugasma*, *charaktēr*, *hypostasis*); **1:8** (ὁ θρόνος σου ὁ θεός: "Your throne, O God" or "God is your
-  throne"; Psalm 45:6 Plain); 1:6 (the quotation: Deuteronomy 32:43 Septuagint and 4QDeut-q (verify) against the
+  throne"; Psalm 45:6 Plain English Translation); 1:6 (the quotation: Deuteronomy 32:43 Septuagint and 4QDeut-q (verify) against the
   Hebrew); 2:7 and 2:9 (Psalm 8 "a little lower than the angels": Hebrew *elohim*; and the variant **2:9 χάριτι θεοῦ
   "by the grace of God" / χωρὶς θεοῦ "apart from God"**: the patristic evidence, verify); 2:14-15; 2:17.
 - 3:2, 6 (variant "his whole house"; "if we hold firm... to the end" added from 3:14); 3:7-4:11 (Psalm 95 Septuagint
@@ -74,29 +74,29 @@ doubts (verify), Luther's preface, Calvin's commentary, the warnings in the Refo
   priesthood in Catholic, Orthodox and Anglican teaching against the Protestant reading of one priest, Christ, and the
   priesthood of all believers; only from verified documents).
 - 8:8-12 (Jeremiah 31:31-34 Septuagint 38:31-34; 8:9 "and I did not care for them" against the Hebrew "though I was a
-  husband to them": a note; quote Jeremiah 31:33 Plain exactly); **8:13** ("obsolete": supersession, views).
+  husband to them": a note; quote Jeremiah 31:33 Plain English Translation exactly); **8:13** ("obsolete": supersession, views).
 - **9:4** (the golden altar of incense "having" inside the most holy place, against Exodus 30:6: the readings and
   the harmonizations; the jar of manna and Aaron's rod); 9:11 (variant "the good things that have come" / "that are to
   come": P46 and Vaticanus against Sinaiticus and Alexandrinus: verify); 9:14 ("through the eternal Spirit"); **9:16-17**
   (will or covenant); 9:22 ("without the shedding of blood there is no forgiveness"); 9:27-28.
 - **10:1-18** (Psalm 40:6-8: "a body you prepared for me", the Septuagint, against the Hebrew "ears you have dug for
-  me": a full note; quote Psalm 40:6 Plain); **10:10-14** and **10:12** ("one sacrifice for sins forever": a
+  me": a full note; quote Psalm 40:6 Plain English Translation); **10:10-14** and **10:12** ("one sacrifice for sins forever": a
   `traditions` card, top `sacrifice`: the Mass as the one sacrifice made present (Council of Trent, session 22: verify;
   Catechism 1366-1367: verify), the Orthodox Divine Liturgy, Lutheran and Reformed rejection of the sacrifice of the
   Mass (Augsburg Confession 24; Heidelberg Catechism 80: verify), Anglican Article 31 (verify); never rank); 10:25 (not
   neglecting meeting together); **10:26-31** (willful sin: the second warning, same card group or a deep dive);
   10:37-38 (Habakkuk 2:3-4 Septuagint: "my righteous one will live by faith" and "if he shrinks back": the Hebrew
-  differs: quote Habakkuk 2:4 Plain exactly).
+  differs: quote Habakkuk 2:4 Plain English Translation exactly).
 - **11:1** (definition of faith: *hypostasis*, *elenchos*); 11:3 (creation from "what does not appear": ex nihilo?);
   11:4 (Abel); 11:5 (Enoch, Genesis 5:24 Septuagint); 11:11 (variant: Sarah's faith or Abraham's, "Sarah herself"
   in the dative: the readings); 11:17-19 (Akedah, topic `akedah`); 11:21 (Jacob "bowing in worship over the top of his
-  staff": Genesis 47:31 Septuagint *mattah* "staff" against Masoretic *mittah* "bed": quote Genesis 47:31 Plain);
+  staff": Genesis 47:31 Septuagint *mattah* "staff" against Masoretic *mittah* "bed": quote Genesis 47:31 Plain English Translation);
   11:26 ("the reproach of the Messiah" for Moses); 11:31 (Rahab: topic `rahab-of-jericho`); 11:32-38 (the judges and the
   martyrs); 11:37 variant "they were tempted" (ἐπειράσθησαν omitted in some witnesses: verify); 11:39-40.
 - 12:2 ("Founder and perfecter of faith"; "for the joy set before him" or "instead of the joy": the readings of
-  *anti*); 12:5-11 (Proverbs 3:11-12, quote the Plain); 12:16-17 (Esau: "no place for repentance": whose
+  *anti*); 12:5-11 (Proverbs 3:11-12, quote the Plain English Translation); 12:16-17 (Esau: "no place for repentance": whose
   repentance?); **12:18-24** (Sinai and Zion; "the spirits of the righteous made perfect": the intermediate state;
-  "the assembly of the firstborn"); 12:26-29 (Haggai 2:6 Plain, topic `shaking-of-the-nations`).
+  "the assembly of the firstborn"); 12:26-29 (Haggai 2:6 Plain English Translation, topic `shaking-of-the-nations`).
 - 13:2 (entertaining angels: Genesis 18); 13:4 (marriage); 13:8; **13:10** ("we have an altar": the Eucharist or the
   cross: views, card top `lords-supper` if the churches really divide on the verse: verify each church's use first);
   13:12-13 ("outside the gate", "outside the camp"); 13:17 (leaders); 13:22-25 (the letter ending, Timothy, "those from

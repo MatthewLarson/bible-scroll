@@ -1,6 +1,6 @@
 # Hostile review: Daniel 11-12 (part 11-12)
 
-Reviewer read plain.txt, notes.json (60), variants.json (13), glosses.json, chapters.json, topics.json and sources.json against `texts/orig/Dan.json`, the Dead Sea Scroll transcription (`tools/dss.py Dan 11` and `Dan 12`), Swete's Old Greek and Theodotion (`tools/lxx.py Dan/Dat 11, 12`), the site's Isaiah, Matthew, Revelation and Daniel 8-10 Plain, and `content/proposals/prophets/terms.json`. Rashi on 11:30, 11:36 and 12:11 was checked on Sefaria. `VERBOSE=1 node tools/build.js --check Dan/11-12` gives 0 errors, 0 warnings.
+Reviewer read plain.txt, notes.json (60), variants.json (13), glosses.json, chapters.json, topics.json and sources.json against `texts/orig/Dan.json`, the Dead Sea Scroll transcription (`tools/dss.py Dan 11` and `Dan 12`), Swete's Old Greek and Theodotion (`tools/lxx.py Dan/Dat 11, 12`), the site's Isaiah, Matthew, Revelation and Daniel 8-10 Plain English Translation, and `content/proposals/prophets/terms.json`. Rashi on 11:30, 11:36 and 12:11 was checked on Sefaria. `VERBOSE=1 node tools/build.js --check Dan/11-12` gives 0 errors, 0 warnings.
 
 ## Verdict
 
@@ -9,7 +9,7 @@ The part is careful and mostly sound. The Hebrew is rendered closely, the histor
 - Reader-facing text still contains first-person hedges ("I read the transcription, not the manuscript... check").
 - The Michael and Antichrist cards have weak or missing sourcing, and the claim that "churches agree he is an angel" is overstated.
 - The 1,290 "Claude's theory" box is arithmetically muddled and is not original.
-- Several notes make statements that are false or unverified (note 38 on the Plain wording, the Seleucus II invasion of Egypt, "church fathers mostly read them as symbolic (Jerome)").
+- Several notes make statements that are false or unverified (note 38 on the Plain English Translation wording, the Seleucus II invasion of Egypt, "church fathers mostly read them as symbolic (Jerome)").
 - Some Dead Sea Scroll differences at 11:1 and 11:16 and several Greek differences are not in the variants.
 - A number of verses keep the ESV's sentence shape with synonym swaps.
 
@@ -19,9 +19,9 @@ Counts: **0 critical, 9 major, 22 minor** (31 findings).
 
 **1. (major) Lead decision on the desolating abomination not applied.** plain.txt 11:31 ("set up the desolating abomination") and 12:11 ("the desolating abomination put in place"). The terms.json entry says "the abomination that desolates (11:31; 12:11)". The same wrong phrase is in topics.json (`abomination-of-desolation`: "set up the desolating abomination", "the desolating abomination"), in chapters.json chapter 11 summary ("sets up the desolating abomination") and in note 27's anchor. Hebrew 11:31 is `hashiqquts meshomem`, with the article and a participle.
 Fix:
-- Plain 11:31 and 12:11 become "the abomination that desolates".
+- Plain English Translation 11:31 and 12:11 become "the abomination that desolates".
 - Change the same phrase in the summary and topic text.
-- Note 27 must say (per the lead decision) that Matthew 24:15 (site Plain "the abomination of desolation") and Mark 13:14 quote the Greek rendering `bdelygma tes eremoseos`. It does not say this now.
+- Note 27 must say (per the lead decision) that Matthew 24:15 (site Plain English Translation "the abomination of desolation") and Mark 13:14 quote the Greek rendering `bdelygma tes eremoseos`. It does not say this now.
 - Keep 8:13 and 9:27 as they are.
 
 **2. (major) Reader-facing first-person hedges, against the brief.**
@@ -57,7 +57,7 @@ Fix:
 - The "numbers" deep section says "the church fathers mostly read them as symbolic (Jerome)". I could not verify this. Calvin reads the numbers symbolically. Jerome's commentary, as I recall it, takes the 1,290 and 1,335 as the Antichrist's literal 3.5 years plus 30 and 45 days. Verify with Archer's translation (`jerome-daniel`) or cite exactly.
 - The same section ends "may be a quiet answer to its own failure to end on time: a correction written into the book". That is the critical view (Collins, Montgomery) stated as the page's own conclusion, unlabeled.
 
-**7. (major) Note 38 (11:45) states the wrong Plain wording.** It says "The Plain says 'royal tents'". The Plain 11:45 says "the tents of his palace". The note also spells the word `'apadno`, `appadno` and `Apadno` in three places. Fix the wording and use one transliteration.
+**7. (major) Note 38 (11:45) states the wrong Plain English Translation wording.** It says "The Plain English Translation says 'royal tents'". The Plain English Translation 11:45 says "the tents of his palace". The note also spells the word `'apadno`, `appadno` and `Apadno` in three places. Fix the wording and use one transliteration.
 
 **8. (major) Note 27 (11:31) misstates the phrases.** "The same words appear in Daniel 9:27 and 12:11." They do not. The three Hebrew forms differ: 11:31 `hashiqquts meshomem` (article, polel participle), 12:11 `shiqquts shomem` (qal participle, no article), 9:27 `kenaf shiqqutsim meshomem` (plural, with "wing") and 8:13 `hapesha' shomem`. The lead decision requires each note to say what the Hebrew shows. Also 1 Maccabees 1:54 has `bdelygma eremoseos` with no `tes`. Theodotion's 11:31 reads `bdelygma ephanismenon` ("a made-invisible abomination"), unlike Theodotion 12:11. That belongs in a variant (see 14).
 
@@ -79,14 +79,14 @@ Rework the sentence order of these (move clauses, change subjects, split sentenc
 
 **11. (minor) 11:16 "The newcomer".** Hebrew is `habba' elav`, "the one coming against him". "Newcomer" loses the hostile preposition and invents a meaning. Use "the invader" or "the one who comes against him".
 
-**12. (minor) 11:37 "the one women long for".** `chemdat nashim` is read four ways in note 33, including "a king's passion for women". "The one" commits the Plain to a personal object. Keep the Hebrew's noun: "the desire of women", glossed, or "what women long for".
+**12. (minor) 11:37 "the one women long for".** `chemdat nashim` is read four ways in note 33, including "a king's passion for women". "The one" commits the Plain English Translation to a personal object. Keep the Hebrew's noun: "the desire of women", glossed, or "what women long for".
 
 **13. (minor) 12:6 vs 12:7.** 12:6 "who hovered over the water" and 12:7 "who was above the water" translate the identical Hebrew `asher mima'al lemei hay'or`. "Hovered" is added. Use "above" both times.
 
 **14. (minor) Term consistency.**
 - `satam`: "keep the words secret" (12:4) vs "hidden" (12:9), while note 49 says the root means "stop up".
 - `barar`: "purge" (11:35) vs "cleanse" (12:10) in notes 56 and 11:35.
-- 12:12 Plain "holds on" vs note 58 title "Blessed is the one who waits" (Hebrew `hamechakkeh`).
+- 12:12 Plain English Translation "holds on" vs note 58 title "Blessed is the one who waits" (Hebrew `hamechakkeh`).
 - 12:7 `yad` "strength" has no gloss or note.
 Make the two passages match; note the Hebrew `yad` "hand".
 
@@ -116,7 +116,7 @@ Make the two passages match; note the Hebrew `yad` "hand".
 
 **24. (minor) Note 16 (11:20).** "The king was 'broken' within a few days of the event" runs together Heliodorus' mission (about 176 BC) and Seleucus IV's death (175 BC). Say "soon after".
 
-**25. (minor) Note 19 (11:24).** "'Plan his plans against the fortresses'" is a garbled quotation of the Plain ("He will plot against the fortresses"). Quote it exactly.
+**25. (minor) Note 19 (11:24).** "'Plan his plans against the fortresses'" is a garbled quotation of the Plain English Translation ("He will plot against the fortresses"). Quote it exactly.
 
 **26. (minor) Note 51.** "Above the river, a sign of authority" is speculation presented as fact. Label it or drop it.
 
@@ -124,7 +124,7 @@ Make the two passages match; note the Hebrew `yad` "hand".
 
 **28. (minor) The `readings`/sources keys in note anchors.** Anchor 11:1 (note 0) spans "a strength and a stronghold to him"; the interpretive question is "him", which is two words earlier in the Hebrew. Anchor on "him".
 
-**29. (minor) Glosses.** 12:7 gloss "the holy people → God's people, Israel" decides the identity the Plain leaves open (note 54 and the Maccabean/Adventist/dispensational views differ). Use "God's people". The 11:28 gloss "the holy covenant → the Jewish faith and its law" is a Maccabean reading (the sixth-century reader's covenant is the same, but state "the covenant between God and Israel").
+**29. (minor) Glosses.** 12:7 gloss "the holy people → God's people, Israel" decides the identity the Plain English Translation leaves open (note 54 and the Maccabean/Adventist/dispensational views differ). Use "God's people". The 11:28 gloss "the holy covenant → the Jewish faith and its law" is a Maccabean reading (the sixth-century reader's covenant is the same, but state "the covenant between God and Israel").
 
 **30. (minor) Topics.** topics.json `maccabean-revolt` ("the Bible's closest prophetic account", "which the author sees with mixed feelings") assumes the critical authorial reading. Make it neutral ("whether read as prophecy or as history written after the event"). The `michael` topic and the card use different wording for the Adventist view. Align.
 
@@ -133,14 +133,14 @@ Make the two passages match; note the Hebrew `yad` "hand".
 ## Checked and found sound (no action)
 - Raphia 217, Panium about 200 (198 alternative), Sidon 198, Magnesia 190, Apamea 188, Elymais 187, Heliodorus, the first Egyptian campaign 170, Eleusis 168 with Polybius 29.27 and Livy 45.12, Kislev 167 and 164 dates, Tabae (Polybius 31.9), Josephus Ant. 12.3.3 and 12.5.4, Appian on Heliodorus, 1 Maccabees and 2 Maccabees references.
 - Rashi on 11:30 ("Romans"), 11:36 ("the kingdom of Rome") and 12:11 (the 1,290 tied to the 2,300) verified on Sefaria.
-- Isaiah 53:11 "put the many in the right" and 66:24 "horror to all flesh" match the Daniel Plain exactly. Isaiah 52:13 is "will succeed" and note 47 is consistent. Matthew 24:15, Matthew 13:43, Psalm 69:28 and Revelation 10:5 quotes match the site Plain.
+- Isaiah 53:11 "put the many in the right" and 66:24 "horror to all flesh" match the Daniel Plain English Translation exactly. Isaiah 52:13 is "will succeed" and note 47 is consistent. Matthew 24:15, Matthew 13:43, Psalm 69:28 and Revelation 10:5 quotes match the site Plain English Translation.
 - Old Greek and Theodotion readings in variants 0-12 match Swete's print (11:1, 11:6, 11:10, 11:17, 11:30, 12:1, 12:2, 12:3, 12:4, 12:7, 12:11, 12:13), with the omissions listed in finding 15.
 - Fundamental Beliefs 26 and 27 numbering is right. Catechism 675, 1035 and 1038, Augsburg Confession XVII, Smalcald Part II Art. IV, WCF 25.6, 32.2-3, 33.2 and 2LBCF 26.4 match the quoted wording.
 - No instance of "from memory" appears in reader-facing text.
 
 ## Fixes applied
 
-1. Accepted. Plain 11:31 and 12:11 now read "the abomination that desolates" (12:11 "was set up"). Chapter 11 summary, the `abomination-of-desolation` and `maccabean-revolt` topic text and the 11:31 notes changed to match. Note 27 now gives the four Hebrew forms (11:31 article plus polel participle; 12:11 `shiqquts shomem`; 9:27 plural "abominations" and a person; 8:13 `hapesha' shomem`) and says Matthew 24:15 (site Plain) and Mark 13:14 quote the Greek `to bdelygma tes eremoseos`; 1 Maccabees 1:54 has no article. The sound-play on `ba'al shamem` moved to a new second note (anchor "set up") to keep note length down. 8:13 and 9:27 left as they are.
+1. Accepted. Plain English Translation 11:31 and 12:11 now read "the abomination that desolates" (12:11 "was set up"). Chapter 11 summary, the `abomination-of-desolation` and `maccabean-revolt` topic text and the 11:31 notes changed to match. Note 27 now gives the four Hebrew forms (11:31 article plus polel participle; 12:11 `shiqquts shomem`; 9:27 plural "abominations" and a person; 8:13 `hapesha' shomem`) and says Matthew 24:15 (site Plain English Translation) and Mark 13:14 quote the Greek `to bdelygma tes eremoseos`; 1 Maccabees 1:54 has no article. The sound-play on `ba'al shamem` moved to a new second note (anchor "set up") to keep note length down. 8:13 and 9:27 left as they are.
 2. Accepted. 11:17 variant now says only what the transcription preserves ("men"; "daughter" is restored) and drops the "check it yourself" and "to destroy him" remarks. The witnesses paragraph is third person with no doubt. The theory box is gone (6).
 3. Accepted, with limits. Orthodox entry sourced to the OCA feast texts (`oca-synaxis-michael`). Reformed entry now says Belgic Confession art. 12 speaks only of angels as creatures and names no Michael, and cites Matthew Henry (checked at CCEL) for the Christ reading. "Churches agree" removed from note 41 and the topic; both name the Catholic and Orthodox view, the JW and Adventist view, and Henry. Adventist entry says the Fundamental Beliefs do not mention Michael and cites Ellen White, The Great Controversy ch. 39; the topic uses the same wording. Calvin not cited: his text could not be retrieved. Lutheran entry not added: no Lutheran text on Michael could be verified.
 4. Partly accepted. Lutheran entry now sources the Smalcald Articles (`smalcald`) and says the article is about the pope and does not comment on Daniel 11; the unverified claim about Luther's Preface is removed. Orthodox entry added (Hippolytus, Cyril of Jerusalem). Augustine (City of God 20.19, amillennial) added to the Catholic entry. The Westminster, London and Smalcald entries now say they do not interpret Daniel 11; the Baptist entry notes the Baptist Faith and Message (2000) drops the sentence. The uncited "many Catholic scholars" claim is removed. Not added: historic premillennial, postmillennial and Adventist readings of the king of the north, because no church text on Daniel 11:36-45 could be verified and the build's tradition list has no such labels.

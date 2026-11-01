@@ -2,9 +2,9 @@
 
 Reviewer: hostile-reviewer agent (not the writer). Date: 2026-10-26.
 Checked: plain.txt verse by verse against the SBLGNT, Byzantine text and word list (`texts/orig/Luk.json`); parallels against
-Matthew's published Plain (3–4, 8–9) and Mark's reviewed Plain (1–2); every note, variant, gloss, chapter page, settings card,
+Matthew's published Plain English Translation (3–4, 8–9) and Mark's reviewed Plain English Translation (1–2); every note, variant, gloss, chapter page, settings card,
 the traditions card, topics.json, sources.json; the two proposed terms in `content/proposals/nt/terms.json`; quotations against
-the site's Plain of Isaiah, Deuteronomy, Psalms, Leviticus, Exodus, Numbers, 1 Kings, 2 Samuel, John, Acts and the other Luke parts;
+the site's Plain English Translation of Isaiah, Deuteronomy, Psalms, Leviticus, Exodus, Numbers, 1 Kings, 2 Samuel, John, Acts and the other Luke parts;
 works.json naming; `VERBOSE=1 node tools/build.js --check Luk/03-05` (0 errors, 0 warnings; the whole-book check has 2 errors, both
 in other parts). Witnesses for 3:32–36 were checked in Tischendorf's 8th edition in the Source Library (book
 6952e4cc77f38f6761bc8c0b, pp. 479–480, AI transcription, checked against the reports below).
@@ -14,7 +14,7 @@ in other parts). Witnesses for 3:32–36 were checked in Tischendorf's 8th editi
 This is a strong part. The translation is faithful and readable, the shared Greek with Matthew and Mark is mostly kept word for
 word, the places where Luke's Greek differs are mostly marked exactly (5:20 perfect "have been forgiven you", 5:21 "God alone",
 5:31 "healthy", 5:32 perfect "I have come" and "to repentance", 3:21–22 singular "heaven", 4:3 singular stone, 4:12 "It has been
-said"), "in water" at 3:16 follows the lead decision, and the Isaiah 58:6 line at 4:18 matches the site's Isaiah Plain exactly.
+said"), "in water" at 3:16 follows the lead decision, and the Isaiah 58:6 line at 4:18 matches the site's Isaiah Plain English Translation exactly.
 The notes are dense, mostly accurate and fair (Ehrman at 3:22, Jeremias at 4:22, Sanders and Jervell at 4:28, the Mary's-line
 and Africanus views at 3:23). I found no invented source. Genesis Rabbah 23:4, the Abila inscription (CIG 4521, the freedman of
 "Lysanias the tetrarch", dated by "the lords Augusti" to Tiberius' reign), Luther's 1526 *Whether Soldiers, Too, Can Be Saved*,
@@ -22,7 +22,7 @@ Calvin *Institutes* 4.20.12, Augustine Letter 138, Basil's canon 13, Schleitheim
 roughly what is claimed. P4 does contain Luke 3:8–4:2 and 5:30–6:16, so citing it at 3:32, 5:38 and 5:39 is possible. A and D
 for "Aram" at 3:33 are confirmed by Tischendorf.
 
-The problems are these. The Plain breaks the lead decision on lowercase "temple" (4:9). The variant evidence is thin at the places
+The problems are these. The Plain English Translation breaks the lead decision on lowercase "temple" (4:9). The variant evidence is thin at the places
 the brief named: the earliest papyri are missing at 3:22, the second Cainan (3:36) has no variant although Codex Bezae leaves it out
 and P75 is reported to, and the Jobel entry hides that its witnesses are Sinaiticus and Vaticanus. The "77 names" count is stated
 wrongly twice. Luke's verb σχίζω at 5:36 is rendered against the fixed wording and in an NIV-like tense. One note (4:34) makes a false
@@ -36,7 +36,7 @@ Findings: **0 critical, 8 major, 17 minor.**
 **Location:** plain.txt 4:9 "set him on the high corner of the Temple"; also about 32 uses in notes.json, chapters.json,
 glosses.json (4:9 "the top edge of the Temple wall") and topics.json.
 **Problem:** The Mark and Acts lead decisions, which Luke follows, fix lowercase "temple". `content/proposals/nt/terms.json`
-also gives ἱερόν as "temple (the whole complex ...)". Luke 4:9 is now the only capital "Temple" in the Plain of Mark, Luke and
+also gives ἱερόν as "temple (the whole complex ...)". Luke 4:9 is now the only capital "Temple" in the Plain English Translation of Mark, Luke and
 Acts. Luke 1–2 notes already use lowercase (24 to 3).
 **Fix:** 4:9 "on the high corner of the temple". Lowercase the prose and the 4:9 gloss to match the part 01-02 notes. Keep
 proper names such as "Temple Mount" capitalized.
@@ -75,8 +75,8 @@ Sala). The `p` and `why` say THGNT reads Obed; confirm this, since the word list
 
 ### 5. Major: the "77 names" count is stated wrongly (chapters.json ch. 3 deep "Seventy-seven generations?" and "Two family trees"; variants.json 3:33 `b`)
 **Problem:** The deep section says "77 names from Jesus to God, counting God", and the 3:33 variant says "Luke's list from God to
-Jesus has 77 names". The Plain (with Admin and Arni) has **77 names from Jesus to Adam; counting God it is 78**. Counted from the
-Plain: Jesus ... Enosh, Seth, Adam = 77. Bauckham's scheme (*Jude and the Relatives of Jesus*, 1990) counts from Adam: Enoch is 7th and
+Jesus has 77 names". The Plain English Translation (with Admin and Arni) has **77 names from Jesus to Adam; counting God it is 78**. Counted from the
+Plain English Translation: Jesus ... Enosh, Seth, Adam = 77. Bauckham's scheme (*Jude and the Relatives of Jesus*, 1990) counts from Adam: Enoch is 7th and
 Jesus is 77th. So Jesus **closes the eleventh week** of generations and the twelfth, last age begins with him. He is not "at the start of
 the twelfth group".
 **Fix:** Write "77 names from Adam to Jesus (78 if God is counted)" in both places, and "Jesus is the seventy-seventh, at the end of
@@ -85,7 +85,7 @@ the eleventh seven, so the twelfth and last age begins with him". Cite `bauckham
 ### 6. Major: σχίζω at 5:36 rendered "cuts" and "will have ripped", against the fixed wording and in NIV form (plain.txt 5:36; variants 5:36; notes 5:36)
 **Problem:** Luke uses σχίζω twice: σχίσας "having torn [a patch]" and σχίσει "he will tear [the new]". That repetition is the point
 of Luke's version. The lead decision fixes σχίζω as "torn" and keeps "ripped" for διαρρήγνυμι (this part already uses "rip apart"
-for διερρήσσετο at 5:6). The Plain's "cuts ... out" loses the verb. Its future perfect "he will have ripped up the new coat" renders a
+for διερρήσσετο at 5:6). The Plain English Translation's "cuts ... out" loses the verb. Its future perfect "he will have ripped up the new coat" renders a
 plain future (σχίσει), and that shape (will have + torn + the new garment ... the patch from the new will not match the old) is the
 NIV's.
 **Fix:** For example: "Nobody tears a patch from a new coat and puts it on an old coat. If he does, he will tear the new coat, and the
@@ -102,9 +102,9 @@ variant there" for Mark 1:24. Check that Mark has such a variant entry. If it do
 stands alone at the head of a cry, as in Job 15:16 and 25:6 in the Greek."
 
 ### 8. Major: parallel wording drifts from the model where the Greek matches
-The brief requires Luke to match Matthew's and Mark's Plain where the Greek matches and to differ exactly where it differs. The
+The brief requires Luke to match Matthew's and Mark's Plain English Translation where the Greek matches and to differ exactly where it differs. The
 progress line claims 5:37 is kept, but it is not.
-- **5:37**: Luke ῥήξει ὁ οἶνος ὁ νέος τοὺς ἀσκούς is Mark 2:22's ῥήξει ὁ οἶνος τοὺς ἀσκούς plus "new". Mark's Plain reads "the
+- **5:37**: Luke ῥήξει ὁ οἶνος ὁ νέος τοὺς ἀσκούς is Mark 2:22's ῥήξει ὁ οἶνος τοὺς ἀσκούς plus "new". Mark's Plain English Translation reads "the
   wine will burst the skins", but Luke reads "will split the skins open". "Split open" is Matthew's wording for a different form
   (passive ῥήγνυνται). **Fix:** "Otherwise the new wine will burst the skins."
 - **3:17**: συναγαγεῖν τὸν σῖτον εἰς τὴν ἀποθήκην is the same verb as Matthew 3:12 συνάξει ("His wheat he will gather into the barn"),
@@ -120,17 +120,17 @@ progress line claims 5:37 is kept, but it is not.
 Peshitta, the Harklean and the Bohairic read "Galilee". **Fix:** "the Sinaitic Syriac and the Sahidic Coptic". Add the Peshitta
 and the Bohairic to reading 1 if you can confirm them.
 
-### 10. Minor: quotations that differ from the site's Plain (the build cannot see these, because the reference does not follow the quotation directly)
-- notes 4:34 "The Holy One of God": Psalm 106:16 "the holy one of the LORD". The Plain is "Aaron, the LORD's holy one". Also Acts
-  4:27, 30 "your holy servant Jesus". The Plain is "Jesus, your holy servant".
-- notes 5:1 "A lake, not a sea": Numbers 34:11 "the Sea of Kinneret". The Plain is "the Sea of Chinnereth".
-- notes 3:16 "Spirit and fire": Isaiah 4:4 "by a spirit of judgment and a spirit of burning". The Plain is "with a spirit of
+### 10. Minor: quotations that differ from the site's Plain English Translation (the build cannot see these, because the reference does not follow the quotation directly)
+- notes 4:34 "The Holy One of God": Psalm 106:16 "the holy one of the LORD". The Plain English Translation is "Aaron, the LORD's holy one". Also Acts
+  4:27, 30 "your holy servant Jesus". The Plain English Translation is "Jesus, your holy servant".
+- notes 5:1 "A lake, not a sea": Numbers 34:11 "the Sea of Kinneret". The Plain English Translation is "the Sea of Chinnereth".
+- notes 3:16 "Spirit and fire": Isaiah 4:4 "by a spirit of judgment and a spirit of burning". The Plain English Translation is "with a spirit of
   judgment ...".
-- notes 3:5: 14:11 and 18:14 "everyone who lifts himself up will be brought low". The Plain is "everyone who raises himself up".
-- notes 4:21 "Luke's 'today'": 19:9 "Today salvation has come to this house". The Plain is "this household".
-- notes 5:5 "Obedience before understanding": says Mary answered "according to your word" (1:38), but Luke 1:38's Plain is "just as
+- notes 3:5: 14:11 and 18:14 "everyone who lifts himself up will be brought low". The Plain English Translation is "everyone who raises himself up".
+- notes 4:21 "Luke's 'today'": 19:9 "Today salvation has come to this house". The Plain English Translation is "this household".
+- notes 5:5 "Obedience before understanding": says Mary answered "according to your word" (1:38), but Luke 1:38's Plain English Translation is "just as
   you have said". Say "Mary's 'just as you have said' (1:38) renders the same Greek, <i>kata to rhēma sou</i>".
-- topics.json `genealogies`: "son, as people supposed, of Joseph" is in quotation marks but is not the Plain ("People supposed he
+- topics.json `genealogies`: "son, as people supposed, of Joseph" is in quotation marks but is not the Plain English Translation ("People supposed he
   was Joseph's son").
 
 ### 11. Minor: Tischendorf for Luke *is* in the Source Library
@@ -225,7 +225,7 @@ It has no `s`, although it makes debated claims (the Jeconiah curse, the reversa
 2. Fixed. 3:22 reading 0 now starts "P4 and P75 (both about 200)" (as reported by NA28); `b` says both earliest manuscripts have the Mark 1:11 wording and that the Psalm 2:7 form is attested earlier in Justin than in any Greek manuscript.
 3. Fixed. New 3:36 variant (in: ℵ B L and nearly all, per Tischendorf p. 480; out: D per Tischendorf, P75 "vid" and disputed), with the Septuagint origin and Steinmann's view labeled as views; new key `steinmann-cainan` in this part's sources.json. The 3:36 note now names D and P75 and points to the variant.
 4. Fixed. Witnesses checked in Tischendorf p. 479: Jobel is ℵ* B; Ἰωβήδ ℵc A L W and others; Byzantine Ὠβήδ. `why` explains why the harder-reading rule used for Sala does not apply. THGNT's Obed confirmed from the STEPBible TAGNT edition marks (Ἰωβήδ = NA28+NA27+Tyn; Ἰωβήλ = SBL+WH+Treg).
-5. Fixed. Counted from the Plain: 77 names Adam to Jesus, 78 with God; Enoch 7th, Jesus 77th. Deep section "Seventy-seven generations?" rewritten (Jesus closes the eleventh seven, the twelfth age begins with him), "Two family trees" and the 3:33 variant `b` corrected; `bauckham-relatives` cited on the variant and named in the deep section. Topic `genealogies` says "77 names from Adam to Jesus".
+5. Fixed. Counted from the Plain English Translation: 77 names Adam to Jesus, 78 with God; Enoch 7th, Jesus 77th. Deep section "Seventy-seven generations?" rewritten (Jesus closes the eleventh seven, the twelfth age begins with him), "Two family trees" and the 3:33 variant `b` corrected; `bauckham-relatives` cited on the variant and named in the deep section. Topic `genealogies` says "77 names from Adam to Jesus".
 6. Fixed. 5:36 now "Nobody tears a patch from a new coat and puts it on an old coat. If he does, he will tear the new coat, and the patch from the new one will not go with the old." (σχίζω "tear" twice, plain future). Variant retitled "Tearing up the new coat", reading 0 `plain` = anchor, Byzantine `plain` "Nobody puts a patch from a new coat on an old coat"; note anchor and body (the verb used twice), settings card updated.
 7. Fixed. The accent claim is replaced with the reviewer's wording (spelled alike; interjection by usage, Job 15:16; 25:6 in the Greek). Mark 1:24 does have a variant entry, so the pointer stays.
 8. Fixed. 5:37 "the new wine will burst the skins" (Mark 2:22); 3:17 "gather the wheat into his barn" (Matthew 3:12); 4:5 "showed him every kingdom" (Matthew 4:8); 4:42 "the crowds went looking for him" (ἐπεζήτουν, no longer Mark 1:36's English); 5:38 "No: fresh skins are what new wine must go into." Variant 5:38 anchors and plains updated.
@@ -247,4 +247,4 @@ It has no `s`, although it makes debated claims (the Jeconiah curse, the reversa
 24. Fixed. 4:41 readings now say "as reported by Metzger and NA28" (Tischendorf not checked for this verse).
 25. Fixed. 3:27 note cites `brown-birth-messiah` and `johnson-genealogies`.
 
-For the lead: Luke 11:1 note in part 11-13 quotes 5:33 as "keep frequent fasts and offer prayers"; the Plain now reads "often fast and say their prayers" (the whole-book check warns). No quotes of the changed verses were found in other books.
+For the lead: Luke 11:1 note in part 11-13 quotes 5:33 as "keep frequent fasts and offer prayers"; the Plain English Translation now reads "often fast and say their prayers" (the whole-book check warns). No quotes of the changed verses were found in other books.

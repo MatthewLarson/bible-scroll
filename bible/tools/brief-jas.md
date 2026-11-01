@@ -30,9 +30,9 @@ prophets' image of Israel as an unfaithful wife; the KJV's added "adulterers": a
 Lord of armies" (check how the site renders YHWH tsevaot and Romans 9:29, then follow it); προσευχῇ προσηύξατο (5:17)
 "he prayed earnestly" with the Hebrew idiom note.
 
-**Parallels:** the Sermon on the Mount (brief-general.md list; quote Matthew's Plain exactly); Leviticus 19:18
+**Parallels:** the Sermon on the Mount (brief-general.md list; quote Matthew's Plain English Translation exactly); Leviticus 19:18
 (2:8); Exodus 20:13-14 / Deuteronomy 5:17-18 (2:11, order "adultery" then "murder" as in the Septuagint of
-Deuteronomy?: verify); Genesis 15:6 and 22 (2:21-23; quote the Plain); Joshua 2 (Rahab, 2:25); Proverbs 3:34 (4:6; 1
+Deuteronomy?: verify); Genesis 15:6 and 22 (2:21-23; quote the Plain English Translation); Joshua 2 (Rahab, 2:25); Proverbs 3:34 (4:6; 1
 Peter 5:5 is being written at the same time: list the pair); Proverbs 10:12 (5:20; 1 Peter 4:8: list the pair); 1 Kings
 17-18 (Elijah, 5:17-18: the "three and a half years" is Luke 4:25's figure, not 1 Kings 18:1's "third year": note);
 Job 1-2, 42 (5:11). Romans 3:28; 4:1-5 and Galatians 2:16 are published: quote them exactly where James 2:21-24 is set

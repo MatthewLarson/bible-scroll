@@ -1,6 +1,6 @@
 # Hostile review: Romans 9-11 (part 09-11)
 
-Reviewer: hostile-reviewer. `VERBOSE=1 node tools/build.js --check Rom/09-11` reports 0 errors, 0 warnings (90 verses, 98 notes, 15 variants, 34 glosses, 3 chapter pages, 6 topic contributions). I checked the Plain verse by verse against SBL (`texts/orig/Rom.json`), read every note, card and variant, compared the Byzantine text with SBL for all 90 verses, and compared every quoted Old Testament verse with the site's own Plain.
+Reviewer: hostile-reviewer. `VERBOSE=1 node tools/build.js --check Rom/09-11` reports 0 errors, 0 warnings (90 verses, 98 notes, 15 variants, 34 glosses, 3 chapter pages, 6 topic contributions). I checked the Plain English Translation verse by verse against SBL (`texts/orig/Rom.json`), read every note, card and variant, compared the Byzantine text with SBL for all 90 verses, and compared every quoted Old Testament verse with the site's own Plain English Translation.
 
 ## Verdict
 
@@ -14,7 +14,7 @@ The translation is careful and mostly faithful. The notes are rich and the cards
 - A supersessionist position that is never stated in its own strongest form.
 - A few term and wording slips: 11:11-12 "false step", 9:14 "unjust", and the 11:31 rendering.
 
-The OT quotations in the notes match the site's Plain exactly, apart from line breaks and quote marks. The quote checker found no real mismatches. Citations I could confirm: Mishnah Sanhedrin 10:1; Targums on Deut 30:12-13 (Moses and Jonah); Resh Lakish in Exodus Rabbah 13:3, whose "three times" is what the sources give; Columella 5.9.16 (the Forster/Loeb reference) and Baxter-Ziesler; Marcus Aurelius 4.23; Barnabas 13; Justin; Soulen's three forms; Hvalvik; the CCC numbers; the 2015 Vatican document and its section on mission; Nostra Aetate 4 on Rom 11:17-24 and 11:28-29.
+The OT quotations in the notes match the site's Plain English Translation exactly, apart from line breaks and quote marks. The quote checker found no real mismatches. Citations I could confirm: Mishnah Sanhedrin 10:1; Targums on Deut 30:12-13 (Moses and Jonah); Resh Lakish in Exodus Rabbah 13:3, whose "three times" is what the sources give; Columella 5.9.16 (the Forster/Loeb reference) and Baxter-Ziesler; Marcus Aurelius 4.23; Barnabas 13; Justin; Soulen's three forms; Hvalvik; the CCC numbers; the 2015 Vatican document and its section on mission; Nostra Aetate 4 on Rom 11:17-24 and 11:28-29.
 
 Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 
@@ -35,11 +35,11 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 - **Evidence:** LXX Isa 52:7 reads "ὡς πόδες εὐαγγελιζομένου ἀκοὴν εἰρήνης, ὡς εὐαγγελιζόμενος ἀγαθά". It is singular, like the Hebrew. The plural "τῶν εὐαγγελιζομένων" is Paul's own adaptation. The Byzantine text then adds "εἰρήνην" and a second participle, which is the entry at 10:15. The variant entry's statement that the longer text comes "from the Septuagint" is also loose, because the LXX is singular.
 - **Fix:** "Both the Hebrew and the Septuagint have one herald. Paul makes it plural for the apostles." Correct the variant `why` to say the Byzantine addition imitates the words "peace" and "good things" of Isaiah, not its number.
 
-### 3. MAJOR. Variant 10:5 gives the wrong edition for each reading, and the Plain follows the minority text
+### 3. MAJOR. Variant 10:5 gives the wrong edition for each reading, and the Plain English Translation follows the minority text
 
 - **Where:** variants.json, 10:5; notes.json, 10:5.
-- **Evidence:** The word list `w` in `texts/orig/Rom.json` marks αὐτὰ (ὁ ποιήσας αὐτὰ) as present in N, n, Y, G, T, B. That means NA28, NA27, Tyndale House, Tregelles, the TR and the Byzantine text all have the "does them / live by them" form. SBL and Westcott-Hort are the editions without it. The entry lists "SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles" as reading 0, which is wrong for Tyndale House and Tregelles. The Plain thus follows only SBL and WH against NA28, THGNT, the TR and the Byzantine text. The stated reason ("fits Leviticus 18:5 as Paul reads it") is weak. The better argument is that reading 1 conforms to the LXX of Lev 18:5, so reading 0 is the harder text. The entry also admits "I could not check the manuscript apparatus".
-- **Fix:** Correct the edition lists. Name the witnesses (Metzger, NA28 apparatus, or the Tischendorf volume in the Source Library MCP). Give the harmonization-to-LXX reason. Say plainly that NA28 and THGNT read otherwise and why the Plain departs from them, or follow them.
+- **Evidence:** The word list `w` in `texts/orig/Rom.json` marks αὐτὰ (ὁ ποιήσας αὐτὰ) as present in N, n, Y, G, T, B. That means NA28, NA27, Tyndale House, Tregelles, the TR and the Byzantine text all have the "does them / live by them" form. SBL and Westcott-Hort are the editions without it. The entry lists "SBLGNT, Tyndale House GNT, Westcott-Hort, Tregelles" as reading 0, which is wrong for Tyndale House and Tregelles. The Plain English Translation thus follows only SBL and WH against NA28, THGNT, the TR and the Byzantine text. The stated reason ("fits Leviticus 18:5 as Paul reads it") is weak. The better argument is that reading 1 conforms to the LXX of Lev 18:5, so reading 0 is the harder text. The entry also admits "I could not check the manuscript apparatus".
+- **Fix:** Correct the edition lists. Name the witnesses (Metzger, NA28 apparatus, or the Tischendorf volume in the Source Library MCP). Give the harmonization-to-LXX reason. Say plainly that NA28 and THGNT read otherwise and why the Plain English Translation departs from them, or follow them.
 
 ### 4. MAJOR. No variant entry names a single manuscript or version
 
@@ -70,7 +70,7 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 ### 7. MAJOR. Note 9:4 builds an argument on a verb that is not in the Greek
 
 - **Where:** notes.json, 9:4 (`israel`): "Notice the verb: 'Theirs is the adoption,' not 'was.'"
-- **Evidence:** The relative clause "ὧν ἡ υἱοθεσία καὶ ἡ δόξα..." has no verb. Only the preceding clause has one: "οἵτινές εἰσιν Ἰσραηλῖται" ("who are Israelites"). The Plain supplies "is", which is reasonable, but the note presents the verb as Paul's choice of tense and uses it as evidence on the most contested question of the three chapters (do the gifts still belong to Israel?).
+- **Evidence:** The relative clause "ὧν ἡ υἱοθεσία καὶ ἡ δόξα..." has no verb. Only the preceding clause has one: "οἵτινές εἰσιν Ἰσραηλῖται" ("who are Israelites"). The Plain English Translation supplies "is", which is reasonable, but the note presents the verb as Paul's choice of tense and uses it as evidence on the most contested question of the three chapters (do the gifts still belong to Israel?).
 - **Fix:** Say that Paul writes "who are Israelites" in the present and leaves the rest unverbed. Many commentators read the gifts as present (Moo, Dunn, Cranfield). Some read them as past. Do not say "notice the verb".
 
 ### 8. MINOR. Note 9:4 ("the covenants") says Paul quotes Jeremiah 31 in 11:27
@@ -112,7 +112,7 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 - **Where:** plain.txt 9:14; notes.json 9:14.
 - **Evidence:**
   - 3:5 renders the same idea "Is God unrighteous when he brings his anger down?".
-  - The nt term says "never 'justice' in the Plain", and "ἀδικία 'unrighteousness'".
+  - The nt term says "never 'justice' in the Plain English Translation", and "ἀδικία 'unrighteousness'".
   - Note 9:14 stresses the shared root with "righteousness", which an English reader cannot see.
 - **Fix:** "Is there unrighteousness with God?" or "Is God unrighteous?".
 
@@ -125,7 +125,7 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 ### 15. MINOR. 11:13 "As long as I am an apostle"
 
 - **Where:** plain.txt 11:13.
-- **Evidence:** ἐφ' ὅσον can mean "inasmuch as" or "as long as". The Plain picks the temporal sense. NIV and ESV take "inasmuch as". The notes do not mention the choice.
+- **Evidence:** ἐφ' ὅσον can mean "inasmuch as" or "as long as". The Plain English Translation picks the temporal sense. NIV and ESV take "inasmuch as". The notes do not mention the choice.
 - **Fix:** "Inasmuch as I am an apostle of the Gentiles, I honor my service". Add a gloss if the other sense is kept.
 
 ### 16. MINOR. 11:31 renders the dative against the more common reading, and the note says it is neutral
@@ -133,7 +133,7 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 - **Where:** plain.txt 11:31; notes.json 11:31.
 - **Evidence:**
   - "τῷ ὑμετέρῳ ἐλέει" is usually taken with ἐλεηθῶσιν ("by your mercy they may be shown mercy"), as the note itself says.
-  - The Plain's "with your mercy in view" attaches it to "disobedient" and leaves the main reading hard to see.
+  - The Plain English Translation's "with your mercy in view" attaches it to "disobedient" and leaves the main reading hard to see.
   - The note's text also confuses "second mercy" and the two readings.
 - **Fix:** Render as "so that, by the mercy shown to you, they also may now be shown mercy". Rewrite the note's reading list clearly.
 
@@ -225,14 +225,14 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 
 ### 26. MINOR. Drift check against NIV/ESV (done mentally)
 
-- 9:5 matches the ESV closely: the run "who is God over all, blessed forever" is word for word the same. This is the one place where the Greek order is followed so closely that it is the same string as the ESV. The phrase also appears in other translations, so it is partly forced by the Greek, and the Plain is not otherwise dependent on a copyrighted text.
+- 9:5 matches the ESV closely: the run "who is God over all, blessed forever" is word for word the same. This is the one place where the Greek order is followed so closely that it is the same string as the ESV. The phrase also appears in other translations, so it is partly forced by the Greek, and the Plain English Translation is not otherwise dependent on a copyrighted text.
 - Other places where the wording is the common English idiom (11:6 "grace would no longer be grace"; 11:26 "and so all Israel will be saved") are unavoidable.
 - No dependence beyond that.
 
-### 27. MINOR. Smaller Plain observations (no need to change if the writer disagrees)
+### 27. MINOR. Smaller Plain English Translation observations (no need to change if the writer disagrees)
 
 - **9:11-12 split.** The KJV split is kept and explained in a note. No problem.
-- **10:16-17.** "report" (ἀκοή) then "listening" (ἀκοή) loses the repeated word. Note 10:16 covers it. A repeated "hearing" in the Plain would show it. Check the 10:16 gloss ("what we announced"), which describes a message sent, whereas ἀκοή is what was heard.
+- **10:16-17.** "report" (ἀκοή) then "listening" (ἀκοή) loses the repeated word. Note 10:16 covers it. A repeated "hearing" in the Plain English Translation would show it. Check the 10:16 gloss ("what we announced"), which describes a message sent, whereas ἀκοή is what was heard.
 - **11:35.** "so that he must be paid back" is ambiguous about who is repaid. The giver is repaid by God. Suggest "that he should be repaid".
 - **11:33.** "his riches, his wisdom and his knowledge" fixes one of two possible readings ("riches of wisdom and knowledge"). A short note is enough.
 - **9:26 and 8:14-21.** "sons of the living God" against the term "God's children". The 9:26 gloss covers it; confirm that this is intended.
@@ -242,17 +242,17 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 
 1. Fixed. ELCA 1994: every covenant claim removed (Lutheran cards in chapters 9 and 11, note 11:29, topics.json church-israel section 3). The declaration is now described only as rejecting Luther's anti-Jewish writings and opposing anti-Semitism, and the notes say it does not itself speak of covenant. The topic sentence now cites Nostra Aetate 4, John Paul II at Mainz and the 2015 Vatican reflection. The 1998 Guidelines were not added (no source checked). Lead edits the church-israel core.
 2. Fixed. Note 10:15 and its preview now say the Hebrew and the Septuagint both have one herald and Paul makes it plural; variant 10:15 now says the longer text echoes the "peace" and "good things" of Isaiah, not its number.
-3. Fixed. Variant 10:5 edition lists corrected from the word data (SBL and WH lack "them"; NA28, NA27, THGNT, Tregelles, TR and Byzantine have it). The entry says plainly that the Plain departs from NA28 and THGNT and follows the SBLGNT, and gives the LXX Leviticus 18:5 harmonization as the reason. The workshop sentence was removed.
-4. Partly fixed. No manuscript is named: I could not confirm witnesses, so each entry now says "Editions only; manuscript lists not checked" (9:5 says no manuscript or early punctuation mark was checked). Edition lists were re-verified against texts/orig/Rom.json for every entry and corrected where incomplete (9:31, 9:32, 9:33, 10:17, 11:6, 11:13, 11:21, 11:31). Added variant 11:17 (the Plain's "root and the richness" followed Tregelles/TR/Byzantine against the SBL base; the Plain now reads "the rich root" and follows SBLGNT, NA28, THGNT). 9:11, 9:28, 9:32 and 10:15 were already treated.
+3. Fixed. Variant 10:5 edition lists corrected from the word data (SBL and WH lack "them"; NA28, NA27, THGNT, Tregelles, TR and Byzantine have it). The entry says plainly that the Plain English Translation departs from NA28 and THGNT and follows the SBLGNT, and gives the LXX Leviticus 18:5 harmonization as the reason. The workshop sentence was removed.
+4. Partly fixed. No manuscript is named: I could not confirm witnesses, so each entry now says "Editions only; manuscript lists not checked" (9:5 says no manuscript or early punctuation mark was checked). Edition lists were re-verified against texts/orig/Rom.json for every entry and corrected where incomplete (9:31, 9:32, 9:33, 10:17, 11:6, 11:13, 11:21, 11:31). Added variant 11:17 (the Plain English Translation's "root and the richness" followed Tregelles/TR/Byzantine against the SBL base; the Plain English Translation now reads "the rich root" and follows SBLGNT, NA28, THGNT). 9:11, 9:28, 9:32 and 10:15 were already treated.
 5. Fixed. Note 11:28 no longer claims "most commentators"; it says commentators divide, names none, and notes that the passive "beloved" pushes toward the passive sense.
 6. Fixed. Note 11:18 reading (2) now gives replacement in its strongest form (Galatians 6:16, Philippians 3:3, Ephesians 2:11-22, 1 Peter 2:9-10, Hebrews 8, Justin) before the reply. The supersessionism deep dive has a new paragraph on the fulfillment/one-people case in its proponents' terms (Westminster 7 and 25, Calvin, Lumen Gentium 9, Nostra Aetate 4, fathers), separates it from punitive replacement, and "almost everyone agrees" became "most NT scholars hold that Romans 11 does not teach punitive replacement". The church-israel `common` line is softened the same way.
-7. Fixed. Note 9:4 no longer builds on a verb: it says the gifts have no verb in the Greek, the Plain supplies "is", and commentators divide.
+7. Fixed. Note 9:4 no longer builds on a verb: it says the gifts have no verb in the Greek, the Plain English Translation supplies "is", and commentators divide.
 8. Fixed. Note 9:4 now says Paul "may echo" Jeremiah 31 in 11:27.
 9. Fixed. Esau is Isaac's son, Abraham's grandson and offspring; Keturah's sons cited at Genesis 25:1-4.
 10. Fixed. Wright moved out of reading (3) of note 9:6 and placed between readings (1) and (2).
 11. Fixed. Note 9:11 now has three readings: corporate (Abasciano, Wright, Dunn, Wesley), conditional individual (Arminius) and persons-and-peoples; Catholic and Orthodox are left to the card. Chapter 9 readings and note 9:13 no longer call Arminius a corporate reader.
 12. Fixed. 11:11-12 now read "trespass" (lead decision 7); gloss and note 11:11 updated.
-13. Fixed. Plain 9:14 keeps "unjust" (lead decision 7); note 9:14 explains the hidden link with "righteousness" and points to 3:5.
+13. Fixed. Plain English Translation 9:14 keeps "unjust" (lead decision 7); note 9:14 explains the hidden link with "righteousness" and points to 3:5.
 14. Fixed. Glosses added at 10:1 and 11:25 and also at 9:3 (brothers and sisters, mixed groups, Acts 1:15; 21:17; 28:14); note 9:3 explains the plural.
 15. Partly fixed. 11:13 reads "Since I am an apostle of the Gentiles" with a gloss that "as long as" is also possible (the reviewer's "inasmuch as" was judged too stiff for the reading level).
 16. Fixed. 11:31 now reads "so that, by the mercy shown to you, they also may now be shown mercy"; note 11:31 rewritten (anchor changed to "by the mercy shown to you").
@@ -265,5 +265,5 @@ Counts: 0 critical, 7 major (findings 1-7), 20 minor (findings 8-27).
 23. Fixed. The chapter 9 deep dive now gives the mixed order in Exodus (4:21; 7:3; 8:15, 32; 9:12) and says readers differ.
 24. Fixed, all fourteen: ekpeptōken; dietērēthēs; Luke 19:41 added to the lament in 9:22-24; "pursued" at 9:31; Titus and John 20:28 qualified; apotolmai; the 1 Corinthians 15 claim replaced; Calvin named for 11:15 (2); "and so" wording about English Bibles; Ephesians 3:20-21 replaced by Romans 16:25-27 and Philippians 4:20; eleeo verb at 9:15, 16, 18 with the noun at 9:23; ho kalōn; the 11:2 Arminian clause turned into a question; the 11:11 sentence attributed to readers who take "By no means!" at face value.
 25. Partly fixed. Setting cards added for 9:10-13 (Genesis 25:23 and Malachi 1:2-3), 9:14-18, 10:1-4, 10:14-15 and 11:8-10; the 11:33-36 card now covers 11:34-35. Pentecostal election row cut. Pentecostal confession now cites ag-truths. Orthodox law and confession rows and the Adventist rows now cite ware-orthodox or sda-beliefs and are labelled as commonly taught where the source does not carry them. The Evangelical 11:26 row was cut (no source). Baptist "a particular prayer is not required" removed. Anglican rows added to the law card (Article 7) and the perseverance card (Article 16). Not added: Anglican on Israel and mercy, Baptist on Israel, law and 11:26 (no source in hand); for the lead if wanted.
-26. Fixed. Plain 9:5 rebuilt from the literal line as "comes the Christ, who is over everything, God blessed forever" (the old run was identical to a published translation); the variant readings, note anchor and note text follow. The other common-idiom cases (11:6, 11:26) are left, as the reviewer says.
-27. Partly accepted. 11:35 now "so that it will be paid back to him" (Job 38-42 quotes the old wording; lead to sync). 11:33 note gives the two readings of the first line. 10:16 gloss now "what people heard from us". 10:16-17 Plain left as is (the note covers the repeated akoe). 9:26 "sons" kept: the gloss covers it and it follows the Hosea quotation. 9:11-12 and 9:19 no change needed.
+26. Fixed. Plain English Translation 9:5 rebuilt from the literal line as "comes the Christ, who is over everything, God blessed forever" (the old run was identical to a published translation); the variant readings, note anchor and note text follow. The other common-idiom cases (11:6, 11:26) are left, as the reviewer says.
+27. Partly accepted. 11:35 now "so that it will be paid back to him" (Job 38-42 quotes the old wording; lead to sync). 11:33 note gives the two readings of the first line. 10:16 gloss now "what people heard from us". 10:16-17 Plain English Translation left as is (the note covers the repeated akoe). 9:26 "sons" kept: the gloss covers it and it follows the Hosea quotation. 9:11-12 and 9:19 no change needed.

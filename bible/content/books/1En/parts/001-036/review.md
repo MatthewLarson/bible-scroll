@@ -8,7 +8,7 @@ Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.j
 
 The translation itself is good. It is built from the Ge'ez word by word, not from a modernized Charles. The Dillmann and EOTC differences are handled well, and most of the places where it follows the Greek are justified and honestly argued (8:1, 10:7, 18:10, 18:16, 19:2 "sirens", 20:2, 22:2–3, 21:1). The notes are dense, mostly accurate and fair to the churches.
 
-But the apparatus on **1:9** is wrong on its central point, and 1:9 is the most-read verse of the book. The writer misread Charles's sigla and claims that the "harsh words" clause Jude quotes is Charles's own addition taken from Jude. In fact it stands in the Gizeh manuscript. The Aramaic of 4Q204, as Milik reads it, also has "proud/great and hard [words]". The same misreading of Charles's angle brackets recurs at 1:1, 22:2, 32:4 and 20:8. The 1:9 commentary also says "on all" stands in all three witnesses, but the Ge'ez (and the Plain) read "on them".
+But the apparatus on **1:9** is wrong on its central point, and 1:9 is the most-read verse of the book. The writer misread Charles's sigla and claims that the "harsh words" clause Jude quotes is Charles's own addition taken from Jude. In fact it stands in the Gizeh manuscript. The Aramaic of 4Q204, as Milik reads it, also has "proud/great and hard [words]". The same misreading of Charles's angle brackets recurs at 1:1, 22:2, 32:4 and 20:8. The 1:9 commentary also says "on all" stands in all three witnesses, but the Ge'ez (and the Plain English Translation) read "on them".
 
 Other problems:
 - The list of Watchers' names in 6:7 and 8:3 is unusable for a reader: its names do not match each other or the forms readers know.
@@ -39,7 +39,7 @@ All three statements are false.
   - Gizeh Greek: the clause, quoted in full.
   - 4Q204: "proud and hard [words]" as Milik reads it. Say "as reported by Mazich" until someone checks Milik.
   - Jude 15.
-- Reconsider `follow`. The two older witnesses agree against the Ethiopic, and a skip by the Ethiopic translator or copyist is the natural explanation. That is the case where the brief says to follow the older witness. If the Plain stays with the Ge'ez, the `why` must say plainly that the Gizeh Greek and the Aramaic have the clause.
+- Reconsider `follow`. The two older witnesses agree against the Ethiopic, and a skip by the Ethiopic translator or copyist is the natural explanation. That is the case where the brief says to follow the older witness. If the Plain English Translation stays with the Ge'ez, the `why` must say plainly that the Gizeh Greek and the Aramaic have the clause.
 - Correct ch. 1 deep item (8), the topic section, and N22 ("Hard words against God"). Also correct ch. 1 deep: "Jude's quotation is close to the Greek but agrees with the Ge'ez…": with the clause restored to the Greek, Jude is closer still to the Greek.
 
 ### 2. MAJOR: Charles's angle brackets are misread throughout (variants 1:1, 1:9, 20:8; notes N125, N130, N157)
@@ -56,9 +56,9 @@ The same error as finding 1, elsewhere:
 
 ### 3. MAJOR: 1:9 "on them" vs "on all": no variant, and chapters.json states the reverse
 
-The Ge'ez reads ፍትሐ ላዕሌሆሙ (fətḥä laʿlehomu), "judgment on them", and the Plain has "to carry out judgment on them". The Gizeh Greek has κατὰ πάντων, and Jude 15 has ποιῆσαι κρίσιν κατὰ πάντων: "on all".
+The Ge'ez reads ፍትሐ ላዕሌሆሙ (fətḥä laʿlehomu), "judgment on them", and the Plain English Translation has "to carry out judgment on them". The Gizeh Greek has κατὰ πάντων, and Jude 15 has ποιῆσαι κρίσιν κατὰ πάντων: "on all".
 
-ch. 1 deep item (5) says: "'To carry out judgment on all' is in all three." That is wrong for the Ge'ez and for the Plain on the same page. This is one of the points where Jude agrees with the Greek against the Ethiopic.
+ch. 1 deep item (5) says: "'To carry out judgment on all' is in all three." That is wrong for the Ge'ez and for the Plain English Translation on the same page. This is one of the points where Jude agrees with the Greek against the Ethiopic.
 
 **Fix:** add a variant at 1:9 ("on them" / "on all"), correct item (5), and weigh whether to follow the Greek and Jude.
 
@@ -74,14 +74,14 @@ Also, 9:1 R3 cites "4Q201". The Sariel reading is usually reported from the 9:1 
 
 ### 5. MAJOR: plain.txt 6:7 and 8:3: the Watchers' names
 
-The Plain transliterates Dillmann's corrupt Ethiopic list: "Urakib, Rameel, Akibeel, Tamiel, Ramuel, Danel, Ezeqeel, Saraquyal, Asael, Armers, Batrael, Ananel, Zaqebe, Samsaweel, Sartael, Turel, Yomyael and Arazyal." Then 8:3 uses different forms for what are plainly the same angels: Armaros (6:7 Armers), Kokabel (6:7 Akibeel), Baraqel (6:7 Saraquyal). And 6:7 "Asael" becomes "Azazel" in 8:1.
+The Plain English Translation transliterates Dillmann's corrupt Ethiopic list: "Urakib, Rameel, Akibeel, Tamiel, Ramuel, Danel, Ezeqeel, Saraquyal, Asael, Armers, Batrael, Ananel, Zaqebe, Samsaweel, Sartael, Turel, Yomyael and Arazyal." Then 8:3 uses different forms for what are plainly the same angels: Armaros (6:7 Armers), Kokabel (6:7 Akibeel), Baraqel (6:7 Saraquyal). And 6:7 "Asael" becomes "Azazel" in 8:1.
 
 The brief asks for "the form the reader knows". A reader of 6:7 cannot tell that Akibeel is Kokabel or that Asael is Azazel, unless he finds N36 and N44.
 
 Further errors:
 - No variant entry exists for the list, although there are four witnesses: the Ge'ez, the Gizeh list (21 names), Syncellus's numbered list (20), and the Aramaic forms in 4Q201/4Q202 as read by Milik.
 - N36 says "the Greek of Gizeh and of Syncellus twenty". Gizeh has 21 (grc 6:7).
-- The chapter 6 summary says "the names of their twenty chiefs", but the Plain lists 19.
+- The chapter 6 summary says "the names of their twenty chiefs", but the Plain English Translation lists 19.
 
 **Fix:** keep Semyaza and use one consistent form for each angel across 6:7, 8:1 and 8:3, preferably the forms readers know. Add a variant or a table note at 6:7 that sets the Ge'ez forms beside the Aramaic forms from Milik and Nickelsburg, and correct the counts.
 
@@ -138,7 +138,7 @@ The choice and the Jared pun are fine. But the variant's "Ardis is most likely a
 
 ### 13. MINOR: N148 (28:1 Mandobara)
 
-"The Ge'ez translator understood it and wrote 'desert.'" The Ge'ez also keeps the loanword: däbrä mädbära (28:1) and ʾəmnä mädbära (29:1) (tr). The Plain's "mountain range of the desert" is a fair rendering, but the note's contrast between the two witnesses is wrong. Also, the Gizeh form in 29:1 is Βαβδηρα (as the note says), and it deserves a word.
+"The Ge'ez translator understood it and wrote 'desert.'" The Ge'ez also keeps the loanword: däbrä mädbära (28:1) and ʾəmnä mädbära (29:1) (tr). The Plain English Translation's "mountain range of the desert" is a fair rendering, but the note's contrast between the two witnesses is wrong. Also, the Gizeh form in 29:1 is Βαβδηρα (as the note says), and it deserves a word.
 
 ### 14. MINOR: plain.txt 5:6 follows the Greek beyond what the variant reports, and the long Greek plus is unrecorded
 
@@ -200,9 +200,9 @@ A further eight run over 30. Split them, which finding 6 will partly do.
 - 10:16 is covered by two cards (10:4–16 and 10:16–22).
 - The speeches in 21:4 and 21:8 and the blessing in 27:5 have no card.
 
-### 25. MINOR: glosses.json: several entries are not glosses or are more archaic than the Plain
+### 25. MINOR: glosses.json: several entries are not glosses or are more archaic than the Plain English Translation
 
-These are more archaic or churchy than the Plain:
+These are more archaic or churchy than the Plain English Translation:
 - 13:6 "long life" glossed as "length of days"
 - 27:4 "as their share" glossed as "as their portion"
 - 9:8 glossed as "defiled themselves"
@@ -233,7 +233,7 @@ I checked every claim before acting. Charles's p. 325 key, quoted in texts/src/1
    - "on all" against "on them" (finding 3).
    - The deeds-and-harsh-words clause: the Gizeh Greek quoted in full with its ⟨ ⟩ words, 4Q204 "great and hard" (labeled "as reported by Mazich from Milik", new key `mazich-jude`), Jude 15, and the Ge'ez.
 
-   The Plain now **follows the Greek**, which the Aramaic supports: "…of all their wicked deeds that they have done, and of the harsh words they have spoken, and of everything that wicked sinners have said against him." The `why` explains the likely skip in the Ethiopic. I also rewrote:
+   The Plain English Translation now **follows the Greek**, which the Aramaic supports: "…of all their wicked deeds that they have done, and of the harsh words they have spoken, and of everything that wicked sinners have said against him." The `why` explains the likely skip in the Ethiopic. I also rewrote:
    - ch. 1 deep (items 5, 6 and 8, and the conclusion)
    - the `books-outside-the-bible` section
    - N22 (5:4)
@@ -248,8 +248,8 @@ I checked every claim before acting. Charles's p. 325 key, quoted in texts/src/1
 
    I re-checked every ⟨ ⟩ in grc 1–32. Two more pluses mattered, and I added variants for them:
    - 14:25, "one of the holy ones … raised me" (the Ge'ez is kept).
-   - 26:5, ⟨οὐκ⟩ "no trees". The Plain now follows the Greek here, since 27:1 needs bare valleys.
-3. **Fixed.** I added the "on all" / "on them" variant and the Plain follows the Greek and Jude ("on all"). Item (5) is corrected, and the note anchor is moved.
+   - 26:5, ⟨οὐκ⟩ "no trees". The Plain English Translation now follows the Greek here, since 27:1 needs bare valleys.
+3. **Fixed.** I added the "on all" / "on them" variant and the Plain English Translation follows the Greek and Jude ("on all"). Item (5) is corrected, and the note anchor is moved.
 4. **Fixed.** The 10:1 `why` now gives the Sariel explanation (Milik, Nickelsburg) and says that Uriel may be a normalization; it keeps Syncellus as the only clear name. The 9:1 Aramaic witness is relabeled "4Q201 and 4Q202 (as reported from Milik)". It is not checked against the plates, and the entry says so.
 5. **Partly fixed.**
    - 6:7 now spells Kokabel, Baraqel, Azazel and Armaros as 8:1–3 do (Charles makes the same identifications).
@@ -269,11 +269,11 @@ I checked every claim before acting. Charles's p. 325 key, quoted in texts/src/1
 12. **Fixed.** N154 now says the Greek has the name without "angel", and `orig` is corrected to ዙጥኤል (zuṭʾel).
 13. **Fixed.** N148 now says the Ge'ez keeps the loanword mädbära too, and adds Babdera at 29:1.
 14. **Fixed.**
-   - The 5:6 Plain clause is reverted to the Ge'ez ("The sinners will curse you continually"), with a variant giving the Greek.
+   - The 5:6 Plain English Translation clause is reverted to the Ge'ez ("The sinners will curse you continually"), with a variant giving the Greek.
    - A new variant gives the long Greek plus in [ ].
    - The names/peace explanation is now labeled a guess.
 15. **Fixed.** 9:2 is rebuilt from the Ge'ez: "The sound of their cries! The earth, left empty, cries out all the way to the gates of heaven." The gloss is updated.
-16. **Fixed.** The Plain now has "the vision of the Holy One", following the EOTC and the Greek, with a variant giving Dillmann's "a holy vision".
+16. **Fixed.** The Plain English Translation now has "the vision of the Holy One", following the EOTC and the Greek, with a variant giving Dillmann's "a holy vision".
 17. **Fixed.** The 22:2 witness label is now Dillmann and EOTC.
 18. **Partly fixed.** 10:12, 17:3, 33:3 and 36:4 are split, and the poetry breaks shorten the oracles. The other sentences of 30–40 words are left as they are, because the Ge'ez lists in them read naturally as single sentences.
 19. **Fixed.** N22 now says 27:2 has "hard things" only. N36 now gives 21 names for Gizeh.

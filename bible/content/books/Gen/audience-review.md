@@ -8,7 +8,7 @@ The material is solid work. Both book-level audiences are concrete, they give th
 
 The weaknesses are of four kinds:
 
-1. **Hearers.** A few `to` lines misstate who heard the words. The worst is Genesis 18:22–23, which reverses the Hebrew and the site's own Plain. Exodus 15:21 names "the women" where the Hebrew says "them" (masculine).
+1. **Hearers.** A few `to` lines misstate who heard the words. The worst is Genesis 18:22–23, which reverses the Hebrew and the site's own Plain English Translation. Exodus 15:21 names "the women" where the Hebrew says "them" (masculine).
 2. **Two layers in Genesis.** In Genesis the cards blur the two layers, the hearers inside the story and the Israel that heard the story, and about a third of them never reach the second layer.
 3. **Padding and thin cards.** Exodus has 8 cards for plague warnings and bargaining, and Genesis has 2 for the birth-naming sayings. About fourteen more cards give a plot summary where the `why` should give a purpose. Six Tabernacle cards leave out whom the instruction binds and what problem it answers.
 4. **Coverage and fairness.** There are real gaps, chief among them Lot and the men of Sodom (Genesis 19:4–9) and Abraham and Isaac on the road (22:7–8). On fairness, neither book gives the pre-exilic dating of P (Kaufmann, Haran, Milgrom), although Haran is a cited source. One source is filed under the wrong view: Russell argues for an early date for the Song of the Sea, but the card lists him under "Later".
@@ -35,19 +35,19 @@ There are no critical findings.
   - Ratner and Zuckerman on KTU 1.23.
   - Speiser on the census at Mari.
   - Finkelstein's *The Ox That Gored*.
-- **Plain wording.** Every quotation in the cards was checked against the Plain wording with a script. Only the items in findings 4 and 16 fail.
+- **Plain English Translation wording.** Every quotation in the cards was checked against the Plain English Translation wording with a script. Only the items in findings 4 and 16 fail.
 - **Reading level.** Flesch-Kincaid grade is about 8.5 for Genesis and 8.7 for Exodus, which is at target. No em-dashes.
 
 ## Findings
 
 ### 1. Major: Genesis 18:23–32 reverses who stands before whom
 - **Where:** `Gen/parts/12-25/chapters.json`, ch 18, setting `18:23–32`.
-- **Problem:** `to` reads "The LORD, who stays standing before him." The Hebrew of 18:22 reads וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָה, "and Abraham was still standing before the LORD." `literal.js` gives: "and Abraham | still [was] he | standing | before | Yahweh". The site's Plain agrees: "but Abraham was still standing before the LORD." The card follows the rabbinic "correction of the scribes" (tiqqun soferim) tradition without saying so, and it contradicts the site's own text.
+- **Problem:** `to` reads "The LORD, who stays standing before him." The Hebrew of 18:22 reads וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָה, "and Abraham was still standing before the LORD." `literal.js` gives: "and Abraham | still [was] he | standing | before | Yahweh". The site's Plain English Translation agrees: "but Abraham was still standing before the LORD." The card follows the rabbinic "correction of the scribes" (tiqqun soferim) tradition without saying so, and it contradicts the site's own text.
 - **Fix:** `to`: "The LORD, before whom Abraham is still standing (18:22)." If the writer wants the rabbinic tradition that the original text had the LORD standing before Abraham, put it in `views` and label it as such.
 
 ### 2. Major: Exodus 15:20–21 names the wrong hearers for Miriam's song
 - **Where:** `Exo/parts/01-15/chapters.json`, setting `15:20–21`.
-- **Problem:** `to` reads "The women of Israel, who follow her with drums and dancing." The Hebrew says וַתַּעַן לָהֶם מִרְיָם, "Miriam answered them." "Them" is masculine plural, and the Plain says "Miriam sang back to them." The women follow her in 15:20, but the text addresses her refrain to "them," most naturally Moses and the Israelites who sang 15:1. Many commentators make this point: the song is an answer to 15:1. As written, the card picks a hearer the Hebrew does not give.
+- **Problem:** `to` reads "The women of Israel, who follow her with drums and dancing." The Hebrew says וַתַּעַן לָהֶם מִרְיָם, "Miriam answered them." "Them" is masculine plural, and the Plain English Translation says "Miriam sang back to them." The women follow her in 15:20, but the text addresses her refrain to "them," most naturally Moses and the Israelites who sang 15:1. Many commentators make this point: the song is an answer to 15:1. As written, the card picks a hearer the Hebrew does not give.
 - **Fix:** `to`: "The Israelites who sang with Moses ('them,' masculine in Hebrew), while the women follow her with drums and dancing." The `why` could add that Miriam's refrain answers, and repeats, the opening line of 15:1.
 
 ### 3. Major: Exodus 15:1–18 files Russell under the wrong view
@@ -57,7 +57,7 @@ There are no critical findings.
 
 ### 4. Major: The Genesis lead misquotes 12:3
 - **Where:** `Gen/book.json`, `lead[0]`.
-- **Problem:** The lead says: through this one family, "all the families of the earth will be blessed." The Plain of 12:3 reads "All the clans of the earth will find blessing in you." The card for 12:1–3 and the `audience.why` both use the Plain. The build does not catch the lead because no reference in brackets follows the quotation. The passive "will be blessed" also takes one side in the debate that the 12:1–3 card itself sets out ("Blessed through Abram" against "Blessing by Abram's name").
+- **Problem:** The lead says: through this one family, "all the families of the earth will be blessed." The Plain English Translation of 12:3 reads "All the clans of the earth will find blessing in you." The card for 12:1–3 and the `audience.why` both use the Plain English Translation. The build does not catch the lead because no reference in brackets follows the quotation. The passive "will be blessed" also takes one side in the debate that the 12:1–3 card itself sets out ("Blessed through Abram" against "Blessing by Abram's name").
 - **Fix:** "The hinge is God's call to Abraham (12:1–3): through this one family, 'all the clans of the earth will find blessing.'"
 
 ### 5. Major: Genesis cards blur the two hearers and often leave out the second
@@ -154,11 +154,11 @@ There are no critical findings.
 
 ### 13. Minor: Exodus 12:1–20 leaves the foreigner out of the binding
 - **Where:** setting `12:1–20`.
-- **Problem:** The card says it binds "every household of Israel." The Plain of 12:19 says anyone who eats leavened food "will be cut off from the community of Israel, foreigner or native-born alike." The brief names "the foreigner living among them" as a category to state.
+- **Problem:** The card says it binds "every household of Israel." The Plain English Translation of 12:19 says anyone who eats leavened food "will be cut off from the community of Israel, foreigner or native-born alike." The brief names "the foreigner living among them" as a category to state.
 - **Fix:** "It binds every household of Israel, and in the seven days without yeast the foreigner living among them as well (12:19)."
 
 ### 14. Minor: Exodus 30:11–16 leaves out the age limit
-- **Problem:** "Half a shekel from each person counted." The Plain of 30:14 says "from twenty years old and up."
+- **Problem:** "Half a shekel from each person counted." The Plain English Translation of 30:14 says "from twenty years old and up."
 - **Fix:** `to` or `why`: "every man twenty years old and up who is counted."
 
 ### 15. Minor: Wright's date for the Covenant Code is imprecise
@@ -166,11 +166,11 @@ There are no critical findings.
 - **Problem:** The card says "David Wright argues that it reworks Hammurabi's laws in the 700s BC." Wright dates the Covenant Code to the Neo-Assyrian period, "sometime between 740–640 BCE," so half of his range falls in the 600s.
 - **Fix:** "…in the Neo-Assyrian period, between about 740 and 640 BC."
 
-### 16. Minor: Quotations that do not match the Plain
-- **Exo 28:1–43.** The `why` quotes the clothes "for honor and beauty." The Plain of 28:2 and 28:40 has "for glory and for beauty."
-- **Exo 33:1–6.** The `what` is "I will not go up among you." The Plain of 33:3 has "I will not go up in your midst."
-- **Exo 33:12–23.** The `what` is "Show me your glory." The Plain of 33:18 has "Please let me see your glory."
-- **Fix:** Use the Plain wording, or drop the quotation marks in the `what` titles.
+### 16. Minor: Quotations that do not match the Plain English Translation
+- **Exo 28:1–43.** The `why` quotes the clothes "for honor and beauty." The Plain English Translation of 28:2 and 28:40 has "for glory and for beauty."
+- **Exo 33:1–6.** The `what` is "I will not go up among you." The Plain English Translation of 33:3 has "I will not go up in your midst."
+- **Exo 33:12–23.** The `what` is "Show me your glory." The Plain English Translation of 33:18 has "Please let me see your glory."
+- **Fix:** Use the Plain English Translation wording, or drop the quotation marks in the `what` titles.
 
 ### 17. Minor: Source keys that do not support any claim on the card
 - **Gen 2:23, `brueggemann-bone`.** Brueggemann's article (CBQ 32, 1970) reads "bone of my bones… flesh of my flesh" as a covenant formula of loyalty, as in 2 Samuel 5:1 and Judges 9:2. The card says only "a cry of recognition," so the source is cited for nothing.
@@ -192,7 +192,7 @@ There are no critical findings.
 
 ### 18. Minor: "The only oath God swears in Genesis" contradicts other cards
 - **Where:** setting `22:15–18`, against setting `15:7–21` ("To guarantee the land by an oath… he alone takes the oath").
-- **Problem:** The Plain itself speaks of God having sworn to Abraham at 24:7, 26:3 and 50:24.
+- **Problem:** The Plain English Translation itself speaks of God having sworn to Abraham at 24:7, 26:3 and 50:24.
 - **Fix:** "It is the only time in Genesis that God is heard swearing by himself."
 
 ### 19. Minor: Genesis 26:24 cites 39:2 as the same words
@@ -225,7 +225,7 @@ There are no critical findings.
 - **Fix:** Say "local courts" or "village courts," or add "as in Deuteronomy" once.
 
 ### 25. Minor: Exodus 22:28–31 presents a debated verse as settled
-- **Problem:** "Do not treat God with contempt" follows the Plain, but אֱלֹהִים here has long been read as "judges" (the Targums and Rashi) or "gods" (the Septuagint). The parallel with "a leader of your people" makes the question live.
+- **Problem:** "Do not treat God with contempt" follows the Plain English Translation, but אֱלֹהִים here has long been read as "judges" (the Targums and Rashi) or "gods" (the Septuagint). The parallel with "a leader of your people" makes the question live.
 - **Fix:** Add a view: "God or judges: Jewish tradition and some translations read 'elohim' here as the judges, in parallel with 'a leader.'"
 
 ### 26. Minor: Exodus 32:1–6 states the anti-Jeroboam reading as fact in the `why`
@@ -292,7 +292,7 @@ All changes were made by script (`gen_v2.py`, `exo_v2.py`, `apply.py` in the wri
 1. **Gen 18:23–32.** `to` is now "The LORD, before whom Abraham is still standing (18:22)." The scribal-correction tradition moved to `views` and is labeled as such.
 2. **Exo 15:20–21.** `to` is now the Israelites who sang with Moses ("them," masculine in Hebrew), while the women follow her. The `why` says that the refrain answers and repeats 15:1.
 3. **Exo 15:1–18.** Russell moved into the early view, with his date of about the mid-1100s BC (checked on the web). The late view is now given without a name. The site has no source key for Noth's or Leuchter's late reading, and the rules allow only existing keys.
-4. **Gen lead.** It now quotes the Plain: "all the clans of the earth will find blessing."
+4. **Gen lead.** It now quotes the Plain English Translation: "all the clans of the earth will find blessing."
 5. **The two layers.** Every card in both books now has a `readers` field ("For the book's readers"), and every one begins "For Israel". `to` and `why` stay inside the story. The bare word "hearers" no longer appears in any card for the book's audience. Both `audience.why` fields end with a sentence explaining the layout.
 6. **Exo plague padding.** Cut 7:14–18, 8:1–4, 8:20–23, 9:1–5, 8:25–29, 9:27–30, 10:7–11 and 10:24–29. 9:13–19 is kept, retitled "The purpose of the blows." 10:1–2 is kept as its own short card ("The reason to tell the story"), not merged. 9:13–10:2 is not one passage, and naming 10:1–2 inside the 9:13–19 card would break finding 28. 11:4–8 is kept.
 7. **Gen naming sayings.** Cut 29:32–35 and 30:1–24. Kept a short 30:1–2 card ("Give me children!" / "Am I in the place of God?") with a purpose for Israel: children are God's gift, and Joseph echoes the question in 50:19.
@@ -300,7 +300,7 @@ All changes were made by script (`gen_v2.py`, `exo_v2.py`, `apply.py` in the wri
    - **Genesis.** Cut 30:25–34, 41:9–13, 42:36–38 and 50:4–5. Merged 44:16 into 44:16–34. Merged 31:26–30 and 31:36–42 into 31:26–42.
    - **Exodus.** Merged 13:1–16 into one law card, stating once whom it binds, where it applies and the problem it answers. Merged 19:10–25 and 34:6–9. Cut 14:15–18, 24:12–14, 34:1–3 and 35:30–36:1. 12:31–32 and 36:5–7 now have purpose sentences.
 9. **Tabernacle cards.** Binding, place and problem were added to 25:10–40, 26:1–37, 27:1–19, 29:38–46, 30:1–10 (the reviewer's wording) and 31:1–11.
-10. **New Genesis cards.** Added 19:4–9, with views on the sin of Sodom (Bailey; Gagnon), Ezekiel 16:49 and Judges 19:22–24. Added 22:7–8, with the Plain wording "God will see to the lamb for a burnt offering himself, my son."
+10. **New Genesis cards.** Added 19:4–9, with views on the sin of Sodom (Bailey; Gagnon), Ezekiel 16:49 and Judges 19:22–24. Added 22:7–8, with the Plain English Translation wording "God will see to the lamb for a burnt offering himself, my son."
 11. **Pre-exilic P.**
     - Added the view (Kaufmann, Haran, Milgrom, Hurvitz) to both `audience.views`, to Exo 25:1–9, to Exo 28:1–43 and to Gen 17:9–14.
     - "Critical scholars" is now "Many critical scholars" in Gen 17:9–14 and Exo 31:12–17. The same wording is used in other places (Exo 3:4–22, 6:2–8 and 4:24–26).
@@ -312,7 +312,7 @@ All changes were made by script (`gen_v2.py`, `exo_v2.py`, `apply.py` in the wri
 13. **Exo 12:1–20.** It now says the law binds the foreigner in the seven days without yeast (12:19).
 14. **Exo 30:11–16.** `to` now reads "every man twenty years old and up who is counted in a census."
 15. **Wright's date.** Now "in the Neo-Assyrian period, between about 740 and 640 BC" (checked on the web).
-16. **Quotations.** 28:2 now reads "for glory and for beauty." The 33:1–6 and 33:12–23 titles are reworded without quotation marks. A script checked every quotation of 3 or more words against the Plain.
+16. **Quotations.** 28:2 now reads "for glory and for beauty." The 33:1–6 and 33:12–23 titles are reworded without quotation marks. A script checked every quotation of 3 or more words against the Plain English Translation.
 17. **Sources.**
     - **Gen 2:23.** Added a Brueggemann view on the loyalty formula (2 Samuel 5:1), citing `brueggemann-bone` and `hamilton-gen`.
     - **Exo 30:22–38.** Added the frankincense residue found at Arad.
@@ -325,7 +325,7 @@ All changes were made by script (`gen_v2.py`, `exo_v2.py`, `apply.py` in the wri
 18. **Gen 22:15–18.** Now reads "the only time in Genesis that God is heard swearing by himself."
 19. **Gen 26:24.** Now reads "and the narrator says the same of Joseph (39:2)."
 20. **Superlatives.** Gen 32:9–12, Gen 44:16–34 and Exo 31:1–11 use the reviewer's wording.
-21. **Gen 49.** Now explains "why Levi had no tribal land while Simeon's towns lay inside Judah (49:7; Joshua 19:1–9)." The suggested quotation "I will scatter them in Israel" is not the Plain wording, so the card cites the verse instead of quoting it.
+21. **Gen 49.** Now explains "why Levi had no tribal land while Simeon's towns lay inside Judah (49:7; Joshua 19:1–9)." The suggested quotation "I will scatter them in Israel" is not the Plain English Translation wording, so the card cites the verse instead of quoting it.
 22. **Gen 23.** Now reads "Judeans who saw Jeremiah buy a field as a sign during the siege (Jeremiah 32)."
 23. **Exo 35:1–3.** Now says the Mishnah lists thirty-nine kinds of work (Shabbat 7:2) and the Talmud derives them from the tabernacle (Shabbat 49b). The card cites `mishnah-shabbat` and `bavli-shabbat`.
 24. **Local courts.** "Courts at the town gate" is now "local courts" in the Exo audience, 21:12–27 and 23:1–9.

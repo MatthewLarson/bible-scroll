@@ -32,7 +32,7 @@ canon block adds `christian_view` and `matches`, and `cited_in` may use kind `pa
   with its tier and styles it differently from Scripture.
 - "2 Esdras" means the Greek Ezra–Nehemiah on this site; the apocalypse is "4 Ezra".
 - Never present such a writing as Scripture in the site's own voice without saying for whom.
-- Greek additions to Esther and Daniel stay as variants and notes in those books, never in the Plain.
+- Greek additions to Esther and Daniel stay as variants and notes in those books, never in the Plain English Translation.
 
 # Order of work agreed in the cloud project
 Published: 1 Enoch, Tobit, Judith, 1–2 Maccabees, Wisdom, Sirach, Baruch + Letter of Jeremiah (Bar 6), 1 Esdras,

@@ -1,5 +1,5 @@
-/* ---------- "In today's words": loose modern paraphrases printed under hard phrases in the Plain English text ----------
-   G(verse, exact phrase from the Plain English, modern paraphrase). The paraphrase is not a translation;
+/* ---------- "In today's words": loose modern paraphrases printed under hard phrases in the Plain English Translation text ----------
+   G(verse, exact phrase from the Plain English Translation, modern paraphrase). The paraphrase is not a translation;
    it tries to give a modern American reader the same feeling the phrase gave John's first readers. */
 const GLOSSES = [];
 const G = (v, a, m) => GLOSSES.push({v, a, m});

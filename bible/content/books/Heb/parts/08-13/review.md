@@ -4,7 +4,7 @@ Reviewer scope: plain.txt (174 verses), notes, variants, glosses, chapters (8-13
 
 ## Verdict
 
-The part is careful and mostly sound. The Old Testament quotation notes quote the site's Plain exactly (I checked every Plain quotation against the Jeremiah, Psalm, Habakkuk, Proverbs, Haggai, Genesis, Deuteronomy, Isaiah and Exodus files). The church documents on the 10:12 card are real and the quoted words are there. I found no invented source and no invented reading, so nothing is critical. The problems are these. The variants file leaves out several places where the KJV and TR differ, and one witness claim at 12:28 is false. The 11:11 variant commits the Plain to an editorial reading of the SBL alone. Two decided terms are broken in the Plain (9:15 "offenses", 11:17 "one and only"). One note misstates the Greek (8:10 "minds"). Some claims about what churches and "Jewish readers" say, at 8:13 and 13:10, rest on nothing opened in the session. The notes call Swete's Codex Vaticanus text "the Greek", and the critical Septuagint reportedly differs at Psalm 40:6. The drift audit in the writer's log is a bare list of "changed" with no evidence, so I checked the Plain myself; it is mostly clean, with a few runs listed under finding 14.
+The part is careful and mostly sound. The Old Testament quotation notes quote the site's Plain English Translation exactly (I checked every Plain English Translation quotation against the Jeremiah, Psalm, Habakkuk, Proverbs, Haggai, Genesis, Deuteronomy, Isaiah and Exodus files). The church documents on the 10:12 card are real and the quoted words are there. I found no invented source and no invented reading, so nothing is critical. The problems are these. The variants file leaves out several places where the KJV and TR differ, and one witness claim at 12:28 is false. The 11:11 variant commits the Plain English Translation to an editorial reading of the SBL alone. Two decided terms are broken in the Plain English Translation (9:15 "offenses", 11:17 "one and only"). One note misstates the Greek (8:10 "minds"). Some claims about what churches and "Jewish readers" say, at 8:13 and 13:10, rest on nothing opened in the session. The notes call Swete's Codex Vaticanus text "the Greek", and the critical Septuagint reportedly differs at Psalm 40:6. The drift audit in the writer's log is a bare list of "changed" with no evidence, so I checked the Plain English Translation myself; it is mostly clean, with a few runs listed under finding 14.
 
 Findings: 0 critical, 10 major, 17 minor.
 
@@ -20,25 +20,25 @@ Findings: 0 critical, 10 major, 17 minor.
 
 ### Major
 
-1. **Major. 11:11, plain.txt and variants.json. The Plain follows an editorial reading and the entry does not say so plainly.**
-   SBL prints the dative `αὐτῇ Σάρρᾳ` ("with Sarah herself"), and the Plain makes Abraham the subject. The entry's reading 0 names only "SBL"; it names no Greek manuscript for the dative. Reading 1 (Sarah as subject, with `στεῖρα`, NA28/NA27) and reading 2 (Byzantine/TR, with `ἔτεκεν`) are the forms the other editions print. The `why` says "Many Bibles keep Sarah as the subject". The word list shows the dative is the SBL editor's choice of the same letters, and the topic `sarah` says "SBL edition prints the second". Problems:
+1. **Major. 11:11, plain.txt and variants.json. The Plain English Translation follows an editorial reading and the entry does not say so plainly.**
+   SBL prints the dative `αὐτῇ Σάρρᾳ` ("with Sarah herself"), and the Plain English Translation makes Abraham the subject. The entry's reading 0 names only "SBL"; it names no Greek manuscript for the dative. Reading 1 (Sarah as subject, with `στεῖρα`, NA28/NA27) and reading 2 (Byzantine/TR, with `ἔτεκεν`) are the forms the other editions print. The `why` says "Many Bibles keep Sarah as the subject". The word list shows the dative is the SBL editor's choice of the same letters, and the topic `sarah` says "SBL edition prints the second". Problems:
    - (a) The entry should say in the `p` and `why` that the dative is the SBL editors' choice and that no manuscript is cited for it. Say this only after checking the SBL apparatus.
-   - (b) The Plain drops `στεῖρα` ("[being] barren", marks `Nn`) from the followed reading without telling the reader that the verse in NA28 reads "Sarah herself, barren".
+   - (b) The Plain English Translation drops `στεῖρα` ("[being] barren", marks `Nn`) from the followed reading without telling the reader that the verse in NA28 reads "Sarah herself, barren".
    - (c) The entry sends the reader to "the note at 11:12 and the topic on Sarah". The 11:12 note is about "as good as dead" and says nothing about Sarah.
    - (d) The anchor spans the whole verse, so no note can sit on 11:11. The lead's concern was the subject question. Anchor it on the first words (`together with Sarah herself`), so a note on the grammar can go beside it.
    - Fix: keep the choice only if the lead confirms it. Otherwise follow NA28/the majority of manuscripts with Sarah as subject and give the dative as the alternative. Either way, state the evidence honestly and fix the cross-reference.
 
 2. **Major. 8:10, notes.json "The law written on the heart". The note misstates the Greek.**
-   It says "The Greek has the plural 'laws' and 'minds'." SBL and Byzantine 8:10 read `εἰς τὴν διάνοιαν αὐτῶν` (singular "mind") with `νόμους` (plural) and `ἐπὶ καρδίας` (plural). Only the Byzantine 10:16 has the plural `διανοιῶν`. The Plain's "minds" is a plural for a singular, with no comment. Fix: correct the note ("laws" plural, "mind" singular, "hearts" plural) and either use "mind" in 8:10 and 10:16 or say why the Plain pluralizes.
+   It says "The Greek has the plural 'laws' and 'minds'." SBL and Byzantine 8:10 read `εἰς τὴν διάνοιαν αὐτῶν` (singular "mind") with `νόμους` (plural) and `ἐπὶ καρδίας` (plural). Only the Byzantine 10:16 has the plural `διανοιῶν`. The Plain English Translation's "minds" is a plural for a singular, with no comment. Fix: correct the note ("laws" plural, "mind" singular, "hearts" plural) and either use "mind" in 8:10 and 10:16 or say why the Plain English Translation pluralizes.
 
 3. **Major. Missing variants where the KJV/TR differs (STYLE.md: "KJV readers must see each place where their Bible differs").**
    Checked against `texts/orig` and `texts/en`:
-   - 12:7 TR/KJV `εἰ παιδείαν ὑπομένετε` ("If ye endure chastening"; YLT also "if"). The Plain's "What you are enduring is for your discipline" follows `εἰς`. Both SBL and the Byzantine file here read `εἰς`; the KJV differs.
+   - 12:7 TR/KJV `εἰ παιδείαν ὑπομένετε` ("If ye endure chastening"; YLT also "if"). The Plain English Translation's "What you are enduring is for your discipline" follows `εἰς`. Both SBL and the Byzantine file here read `εἰς`; the KJV differs.
    - 12:24 `κρείττονα` (TR, "speaketh better things") against `κρεῖττον` (marks `NnSYWGB`).
    - 12:26 `σείω` ("I shake", Byzantine and TR) against `σείσω` ("I will shake"). The KJV and YLT print the present tense, which matters for the Haggai note.
    - 12:28 Byzantine/TR `αἰδοῦς καὶ εὐλαβείας` ("reverence and godly fear") against `εὐλαβείας καὶ δέους`; plus `λατρεύομεν` (Byzantine, Tyndale House) against `λατρεύωμεν`.
    - 11:4 Byzantine/TR `λαλεῖται` ("is still spoken of") against `λαλεῖ`. The brief lists 11:4 as a required variant. The note at 11:4 calls it "a small change in spelling", which is wrong (it changes voice and meaning).
-   - 9:1 TR adds `σκηνή` (the KJV supplies "covenant" in italics). The Plain's 9:1 note is about the word "worldly" only.
+   - 9:1 TR adds `σκηνή` (the KJV supplies "covenant" in italics). The Plain English Translation's 9:1 note is about the word "worldly" only.
    - 9:17 Westcott-Hort reads `μὴ τότε` for `μήποτε`; 9:17 is a priority verse.
    Fix: add entries (or, for 9:1 and 9:17, one-line mentions in an existing entry's `b`).
 
@@ -81,7 +81,7 @@ Findings: 0 critical, 10 major, 17 minor.
 13. **Minor. 9:19 and 13:21, variants.json. "NA28 (in brackets)" is unverified.**
     The word list cannot show brackets, and no source opened shows them. Remove "in brackets" or verify in NA28. In 9:19, the Byzantine and TR have `καὶ τράγων` without the second article (marks `τῶν NnYWG`), so lumping them with "the calves and the goats" is slightly off.
 
-14. **Minor. Plain: NIV/ESV runs.** The writer's drift audit is a list of "changed" lines with no detail, so I compared by hand (in the head, no text recorded).
+14. **Minor. Plain English Translation: NIV/ESV runs.** The writer's drift audit is a list of "changed" lines with no detail, so I compared by hand (in the head, no text recorded).
     - 8:1 "of what we are saying is this" is a six-word run with both versions ("the point of/in what we are saying is this"); the Greek (`τὸ δὲ κεφάλαιον ἐπὶ τοῖς λεγομένοις`) allows "the main point of the things being said".
     - 8:12 "I will be merciful toward their" shares five words with the ESV.
     - 10:25 "all the more as you see the Day" is the NIV/ESV run (seven words).
@@ -89,7 +89,7 @@ Findings: 0 critical, 10 major, 17 minor.
     - 11:12 "as good as dead" and 13:8 are the same in all major versions but forced by the Greek; no change needed.
     Fix: rebuild 8:1, 8:12, 10:25.
 
-15. **Minor. Plain: words added to the Greek.**
+15. **Minor. Plain English Translation: words added to the Greek.**
     - 10:32 "had just received the light" (`φωτισθέντες`, "after being enlightened"; no "just").
     - 9:2 "set out before God" (the Greek is only `ἡ πρόθεσις τῶν ἄρτων`).
     - 11:6 "two things" (not in the Greek).
@@ -101,8 +101,8 @@ Findings: 0 critical, 10 major, 17 minor.
 
 17. **Minor. 12:12 note.** It says Isaiah 35:3 (Swete) has "the same pair of words Hebrews uses". Swete reads `χεῖρες ἀνειμέναι καὶ γόνατα παραλελυμένα`; Hebrews has `παρειμένας ... παραλελυμένα`. Only the second word is shared. Fix: say "one word is the same, the other is a close synonym".
 
-18. **Minor. 11:39 and 10:1 notes quote the 01-07 Plain wrongly.**
-    11:39 puts 'obtained the promise' in quotes for 6:15; the Plain 6:15 is "came to get what was promised". 10:1's 'the stamp of God's being' (1:3) is "the exact stamp of his being". Quote exactly or drop the quotation marks.
+18. **Minor. 11:39 and 10:1 notes quote the 01-07 Plain English Translation wrongly.**
+    11:39 puts 'obtained the promise' in quotes for 6:15; the Plain English Translation 6:15 is "came to get what was promised". 10:1's 'the stamp of God's being' (1:3) is "the exact stamp of his being". Quote exactly or drop the quotation marks.
 
 19. **Minor. Unverified small facts (STYLE rule 2).**
     - 9:5 "the writer has just listed eight" (objects): the list in 9:2-5 has more than eight.
@@ -117,25 +117,25 @@ Findings: 0 critical, 10 major, 17 minor.
 
 20. **Minor. 11:28 gloss "the angel of death".** Exodus 12:23 says "the destroyer", and the note says so; the gloss imports a later term and also decides whether the destroyer is an angel. Use "the destroyer".
 
-21. **Minor. Hall-of-faith.json is thin for a Studies core.** Two sections. `aka` includes "cloud of witnesses" but no section covers Hebrews 12:1 or the church debate it feeds (communion of saints, asking the saints' prayers: Catholic, Orthodox and Protestant answers), which belongs on the page that carries the alias. Parallel lists (Wisdom 10, Sirach 44-50 is there, 4 Maccabees 16:20-23) are missing, though Sirach and 1 Maccabees are present and verified (1 Maccabees 2:51 and Psalm 78:7 match the site's Plain). "which point to Daniel, Elijah and Elisha, the Maccabean martyrs ..." states identifications as fact; say "which readers connect with". "Studies" with a Claude's-theory box is fine and labeled.
+21. **Minor. Hall-of-faith.json is thin for a Studies core.** Two sections. `aka` includes "cloud of witnesses" but no section covers Hebrews 12:1 or the church debate it feeds (communion of saints, asking the saints' prayers: Catholic, Orthodox and Protestant answers), which belongs on the page that carries the alias. Parallel lists (Wisdom 10, Sirach 44-50 is there, 4 Maccabees 16:20-23) are missing, though Sirach and 1 Maccabees are present and verified (1 Maccabees 2:51 and Psalm 78:7 match the site's Plain English Translation). "which point to Daniel, Elijah and Elisha, the Maccabean martyrs ..." states identifications as fact; say "which readers connect with". "Studies" with a Claude's-theory box is fine and labeled.
 
 22. **Minor. Chapter settings.** The same 60-word `to` line is repeated in six settings; fine for the card, but each could name its own occasion. 10:19-31's `why` says the warning is "meant to stop them, not to describe people already lost (10:39)", which is one side of the debate stated as settled (the `views` then give two views). Move it into `views`. The original audiences of the quoted oracles (Jeremiah 31 to the northern and southern kingdoms, Psalm 40, Proverbs 3 to a son) have no setting; acceptable because they live in their own books, but chapter 8 could say so.
 
-23. **Minor. Lead's list vs the text.** The lead's list says Psalm 110:1 is "a footstool for his feet" at 10:13; the Plain reads "a stool for his feet", matching the site's Psalm 110:1 ("a stool for your feet") and the gloss. Presumably intended; confirm.
+23. **Minor. Lead's list vs the text.** The lead's list says Psalm 110:1 is "a footstool for his feet" at 10:13; the Plain English Translation reads "a stool for his feet", matching the site's Psalm 110:1 ("a stool for your feet") and the gloss. Presumably intended; confirm.
 
 24. **Minor. 11:11 topic `sarah` and chapter 11 deep dive** repeat the SBL reading as one reading among two; see finding 1. 12:24 note says the writer uses `neos` where 8:8 and 9:15 use `kainos`: confirmed (`νέας` at 12:24, `καινήν`/`καινῆς` earlier).
 
 25. **Minor. 8:9 note.** "The Greek translators seem to have read or understood the Hebrew verb differently" is a hedge on an open question (the Hebrew `ba'alti` can mean "I was master/husband" or "I rejected"); name a source or say "scholars explain the difference in more than one way".
 
-26. **Minor. Terms entries.** The diatheke and skene entries match the Plain (covenant except 9:16-17; tent with the 'tabernacle' gloss at 8:2). One gap: the diatheke entry does not record the 9:15 παράβασις decision it depends on (finding 6), and it does not say that 12:24 `νέας` is "new" while 8:8 and 9:15 are `καινός` (the 12:24 note does). Add one line each.
+26. **Minor. Terms entries.** The diatheke and skene entries match the Plain English Translation (covenant except 9:16-17; tent with the 'tabernacle' gloss at 8:2). One gap: the diatheke entry does not record the 9:15 παράβασις decision it depends on (finding 6), and it does not say that 12:24 `νέας` is "new" while 8:8 and 9:15 are `καινός` (the 12:24 note does). Add one line each.
 
 27. **Minor. Calvin and Wesley quotations.** All verified in substance. Two small points: the 10:26 note and the chapter 10 deep dive write "Novatianists" outside quotation marks, where Calvin writes "Novatus and his sect"; and the 10:18 note's quote ("the Apostle denies that there is now any place for a sacrifice") is exact, but the 10:12 card's "it is impious to repeat it" is a trimmed form of "so that it is impious to repeat it". Fine as quoted; cosmetic.
 
 ## Checked and fine
 
-- Old Testament quotation notes: Jeremiah 31:31-34 (Plain exact; the Septuagint differences `syntelesō`/`diathēsomai`, `ēmelēsa`, plural "laws" stated correctly except finding 2), Psalm 40:6-8 (aside from finding 8), Habakkuk 2:3-4, Proverbs 3:11-12 (Swete's `ἐλέγχει` at 3:12 against Hebrews' `παιδεύει`: correct), Haggai 2:6, Genesis 47:31 (staff/bed explained), Genesis 5:24, Deuteronomy 32:35-36 (the Septuagint "on a day of vengeance" against Hebrews and Romans: correct), Deuteronomy 9:19, Psalm 118:6, Isaiah 63:11, Exodus 19:13 and the TR addition.
-- 9:16-17: the covenant/will note and deep dive are fair, with Calvin's words verified ("includes both ideas", "the Apostle reasons from the thing itself, and not from the word"). The Plain's "bring proof" for `φέρεσθαι` is interpretive but legitimate; it could be glossed.
-- 9:4: the Plain keeps "altar of incense" and "had", and the note gives five readings fairly.
+- Old Testament quotation notes: Jeremiah 31:31-34 (Plain English Translation exact; the Septuagint differences `syntelesō`/`diathēsomai`, `ēmelēsa`, plural "laws" stated correctly except finding 2), Psalm 40:6-8 (aside from finding 8), Habakkuk 2:3-4, Proverbs 3:11-12 (Swete's `ἐλέγχει` at 3:12 against Hebrews' `παιδεύει`: correct), Haggai 2:6, Genesis 47:31 (staff/bed explained), Genesis 5:24, Deuteronomy 32:35-36 (the Septuagint "on a day of vengeance" against Hebrews and Romans: correct), Deuteronomy 9:19, Psalm 118:6, Isaiah 63:11, Exodus 19:13 and the TR addition.
+- 9:16-17: the covenant/will note and deep dive are fair, with Calvin's words verified ("includes both ideas", "the Apostle reasons from the thing itself, and not from the word"). The Plain English Translation's "bring proof" for `φέρεσθαι` is interpretive but legitimate; it could be glossed.
+- 9:4: the Plain English Translation keeps "altar of incense" and "had", and the note gives five readings fairly.
 - Works named as in works.json (Wisdom of Solomon, Sirach, 2 Maccabees, 4 Maccabees, Tobit, Martyrdom of Isaiah, Ascension of Isaiah).
 - Chrysostom Hom. 17 sec. 6 quotation is exact (with the bracketed "[remembrance]").
 - No em-dashes; no copied NIV/ESV verses beyond the runs in finding 14.
@@ -145,7 +145,7 @@ Findings: 0 critical, 10 major, 17 minor.
 Fixer, 2026-10-29. Sources opened this session: the SBLGNT apparatus for Hebrews (github.com/LogosBible/SBLGNT), the word list and English files in `texts/`, `tools/lxx.py` (Swete: Psalm 39:7, Habakkuk 2:3-4, Isaiah 35:3, Deuteronomy 9:19, Proverbs 3:12, Wisdom 10, 4 Maccabees 16:14-23), Bible Hub's Greek texts of Hebrews 12:7, Catechism 1013, 1021-1022, 1182 and 2683 and Nostra Aetate 4 at vatican.va, Augsburg Confession 21 and 24 at bookofconcord.org, Calvin on 8:7-13 and 10:24-27 at ccel.org, Avot de-Rabbi Natan 4 and Berakhot 26b at sefaria.org, the Lund University page for Svartvik's chapter on 8:13, and Abbott-Smith (via the Bible Atlas lexicon) for kephalis and euperistatos.
 
 1. Partly accepted. The SBL apparatus shows the dative is Holmes's choice following Westcott-Hort's margin (WH text, Tregelles and RP have the nominative; NA28 adds στεῖρα), with no manuscript named. Kept the SBL reading (the base text; flagged for the lead), rewrote `p`, `why` and witnesses to say so, added a fourth reading (WH text, Tregelles: Sarah as subject without additions), said NA28 has "barren", and dropped the wrong pointer to the 11:12 note. (d) declined: the subject change reaches "he/she regarded" at the end of the verse, so the anchor must span it, and a note can still nest inside a variant's anchor.
-2. Accepted. 8:10 note now says Greek "laws" plural, "mind" singular (collective), "hearts" plural, explains the Plain's English plural "minds", and notes the Byzantine plural at 10:16.
+2. Accepted. 8:10 note now says Greek "laws" plural, "mind" singular (collective), "hearts" plural, explains the Plain English Translation's English plural "minds", and notes the Byzantine plural at 10:16.
 3. Accepted. New entries at 9:1 (SBL omits "also"; TR adds "tent", KJV supplies "covenant"), 11:4 (λαλεῖται; the wrong "spelling" remark removed from the note), 12:7 (εἰ in Stephanus 1550, Scrivener 1894 and the 1904 Greek Orthodox text, read at Bible Hub; the word list does not show it), 12:24 (κρείττονα, TR), 12:26 (σείω), 12:28 (λατρεύομεν: Byzantine and Tyndale House; αἰδοῦς καὶ εὐλαβείας). 9:17 (WH μὴ τότε) added to the 9:16 note.
 4. Accepted. False "we have" sentence deleted from the 12:28 note; the real differences are now variants (finding 3).
 5. Accepted. The "in heaven" entry now has three readings: with "better" (SBL, NA28/27, Tregelles), without it (Tyndale House, Westcott-Hort, per the word list), and Byzantine/TR with "in heaven" (TR also "in yourselves"). Witness lists corrected.

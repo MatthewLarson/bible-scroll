@@ -17,7 +17,7 @@ Parts (both write at the same time and cannot see each other):
 ## Rules
 - Follow tools/agent-writer.md and tools/agent-writer-works.md exactly (Septuagint section). Build every verse from
   the Greek in `texts/orig/3Ma.json` (Swete, Codex Alexandrinus; Vaticanus lacks the Maccabees books), literal working
-  line in `.scratch/3ma-<part>/`, then Plain, then the drift audit in your head against NRSV, RSV, NETS, the Lexham
+  line in `.scratch/3ma-<part>/`, then Plain English Translation, then the drift audit in your head against NRSV, RSV, NETS, the Lexham
   Septuagint and Anderson in Charlesworth's Pseudepigrapha (never write their text). The English check text is
   Brenton (1851, public domain) in `texts/en/3Ma.json`: it follows the Greek's verse numbers. Swete's footnotes in
   `texts/src/3Ma.app.json` (V = Codex Venetus, the other main witness; read the sigla exactly).
@@ -27,7 +27,7 @@ Parts (both write at the same time and cannot see each other):
 - Lenses (fixed): O Orthodox, H Historical-critical, J Jewish reception, N New Testament background (Diaspora Judaism,
   persecution, prayer and deliverance as the first Christians read them), W Western churches (Catholic and Protestant:
   not Scripture).
-- The book's Greek is ornate and rhetorical, with rare words; Plain stays at 8th-grade level: break long periods into
+- The book's Greek is ornate and rhetorical, with rare words; Plain English Translation stays at 8th-grade level: break long periods into
   sentences, keep every clause's content, and note a rare word where the meaning is unsure.
 
 ## Terms
@@ -38,13 +38,13 @@ Lord"; ἐλέφαντες "elephants"; λαογραφία "the census"/"registr
 content/terms.json and content/proposals/*/terms.json first.
 
 ## Parallels and echoes (candidate links: check each in an open text before you assert it)
-- 2 Maccabees 3 (Heliodorus struck down in the temple: the site's Plain): compare 1:8-2:24 closely, with a note on
+- 2 Maccabees 3 (Heliodorus struck down in the temple: the site's Plain English Translation): compare 1:8-2:24 closely, with a note on
   shared motifs and differences.
 - Esther (the decree and counter-decree, the feast, a festival kept yearly: 3:12-29, 6:30-41, 7:1-9 beside Esther
   3:12-15, 8:9-17, 9:17-32; also the Greek Additions to Esther B and E, which are variants in the site's Esther: point
   to them) and Daniel 3 and 6 (Eleazar's prayer 6:6-7 names the three in the furnace and Daniel in the lions' den).
 - Simon's prayer (2:2-20) and Eleazar's prayer (6:2-15) rehearse the history of salvation: the giants and the Flood,
-  Sodom, Pharaoh and the sea, Sennacherib, Jonah: match the site's Plain where quoted.
+  Sodom, Pharaoh and the sea, Sennacherib, Jonah: match the site's Plain English Translation where quoted.
 - Josephus, Against Apion 2.53-55, tells an elephant story under Ptolemy VIII Physcon: check it in an open text
   before saying anything about it. Polybius 5.79-86 on Raphia and the Dositheus story (1:3; the Dositheus papyrus
   only from a source opened).

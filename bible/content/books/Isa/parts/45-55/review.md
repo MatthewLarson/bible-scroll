@@ -1,6 +1,6 @@
 # Hostile review: Isaiah 45–55 (part 45-55)
 
-Reviewer's checks: the Plain read against `node tools/literal.js Isa 45`–`55` and texts/orig/Isa.json; every verse of 45–55 run through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q57, 4Q58, 4Q69a) with bracketed words treated as restorations, never readings; Swete's Greek through `tools/lxx.py` for 45, 49, 53, 54 and 55; texts/auto/Isa.json; the writer's audit log (scratchpad isa-45-55/audit.txt); the servant-of-the-lord core and the works.json additions; `VERBOSE=1 node tools/build.js --check Isa/45-55` (0 errors and 0 warnings in this part; the two errors it prints are on topics/new-covenant.json, which belongs to another lane). Checked online: Origen, *Against Celsus* 1.46 (it does quote Isaiah 48:16); Barnabas 12:11 and the Sinaiticus correction (Lightfoot's notes); Berakhot 5a (the chain of tradition); Bewer's 1935 article on Kennicott 96 (it exists).
+Reviewer's checks: the Plain English Translation read against `node tools/literal.js Isa 45`–`55` and texts/orig/Isa.json; every verse of 45–55 run through `tools/dss.py` (1QIsa-a, 1Q8, 4Q56, 4Q57, 4Q58, 4Q69a) with bracketed words treated as restorations, never readings; Swete's Greek through `tools/lxx.py` for 45, 49, 53, 54 and 55; texts/auto/Isa.json; the writer's audit log (scratchpad isa-45-55/audit.txt); the servant-of-the-lord core and the works.json additions; `VERBOSE=1 node tools/build.js --check Isa/45-55` (0 errors and 0 warnings in this part; the two errors it prints are on topics/new-covenant.json, which belongs to another lane). Checked online: Origen, *Against Celsus* 1.46 (it does quote Isaiah 48:16); Barnabas 12:11 and the Sinaiticus correction (Lightfoot's notes); Berakhot 5a (the chain of tradition); Bewer's 1935 article on Kennicott 96 (it exists).
 
 ## Verdict
 
@@ -9,7 +9,7 @@ This is a strong, well-sourced part. The rabbinic, patristic and liturgical cita
 The part's real weaknesses are four:
 - **Drift in chapter 53.** The audit marked 53:11 "clean", but it follows the ESV's wording and shape. 53:5 and 53:9 still carry NIV and ESV skeletons after being "changed".
 - **The plural "deaths" in 53:9 is hidden.** The Jewish reading the part itself presents depends on it.
-- **"Justify" is translated inconsistently.** The Plain uses "declare in the right" in 50:8 but "make righteous" in 53:11. The note on 53:11 itself calls the verb the court word for acquitting, and the difference is exactly the dividing line between Catholic and Protestant teaching on justification.
+- **"Justify" is translated inconsistently.** The Plain English Translation uses "declare in the right" in 50:8 but "make righteous" in 53:11. The note on 53:11 itself calls the verb the court word for acquitting, and the difference is exactly the dividing line between Catholic and Protestant teaching on justification.
 - **Two structural gaps.** The settings cards for 45–55 are boilerplate (the same "readers" and "views" pasted on 25 cards, with critical-view dates in the "when" fields). The servant-of-the-lord core is an Isaiah page, not a whole-Bible page.
 
 There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a witness, and wrong scroll names at 45:8, 48:10 and 54:9. One significant variant is missing at 49:17.
@@ -21,7 +21,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 
 **Evidence, verse by verse:**
 - **53:11** is listed under "CLEAN on first check" in audit.txt, yet it reproduces the ESV's opening and frame:
-  - The first five words match the ESV ("Out of the anguish of his", ESV "soul", Plain "life").
+  - The first five words match the ESV ("Out of the anguish of his", ESV "soul", Plain English Translation "life").
   - The ESV's order "he shall see and be satisfied" is kept.
   - The ESV's "the righteous one, my servant" appears word for word.
   - *'Amal* is "toil, trouble" (on this site Ecclesiastes renders *'amal* "toil"). "Anguish" is the ESV/NRSV choice, not something the Hebrew forces.
@@ -30,7 +30,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
   - Hebrew והוא מחלל מפשענו מדכא מעונתינו. The writer's own note at 53:5 says *min* "means 'because of' them". So "because of" is available and is more literal than "for".
   - Line 3 keeps the NIV's frame "the [X] that [Y] us [Z] was on him".
 - **53:9:** "and with a rich man in his death" matches the ESV exactly (six words), and "though he had done" matches the NIV. The audit says "changed".
-- **53:8:** "who of his generation" is the NIV's distinctive interpretive rendering, four words exact. The Hebrew ואת דורו מי ישוחח is "and his generation, who considered?" The Plain also drops כי before נגזר, which the NIV keeps.
+- **53:8:** "who of his generation" is the NIV's distinctive interpretive rendering, four words exact. The Hebrew ואת דורו מי ישוחח is "and his generation, who considered?" The Plain English Translation also drops כי before נגזר, which the NIV keeps.
 - **53:7:** "yet he did not open his mouth" matches the NIV exactly, and "like a lamb that is [led] to slaughter" is the ESV's frame. Both are largely forced by the Hebrew; acceptable.
 - **53:2:** "that we should look at him / ... that we should [want] him" is the ESV's paired result clauses. The Hebrew has two plain clauses with waw (ונראהו ... ונחמדהו). Minor on its own.
 - **53:1, 53:3, 53:4, 53:6, 53:10 and 53:12** I find acceptably independent. In 53:12, "He bore the sin of many" is forced by חטא רבים נשא.
@@ -46,9 +46,9 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 
 **Evidence:**
 - מצדיקי (50:8) and יצדיק (53:11) are the same Hiphil verb.
-- The note on 53:11 says "The verb is the court word for acquitting (50:8)". Yet the Plain renders it "will make the many righteous", which in English means changing people's character.
-- That is exactly the question Catholics and Protestants divide on (infused or imputed righteousness). By its wording the Plain takes a side the note disclaims.
-- Separately, 45:25 יצדקו is a Qal ("be in the right, be vindicated"). The Plain's "will be declared in the right" turns it into a declaration the Qal does not say.
+- The note on 53:11 says "The verb is the court word for acquitting (50:8)". Yet the Plain English Translation renders it "will make the many righteous", which in English means changing people's character.
+- That is exactly the question Catholics and Protestants divide on (infused or imputed righteousness). By its wording the Plain English Translation takes a side the note disclaims.
+- Separately, 45:25 יצדקו is a Qal ("be in the right, be vindicated"). The Plain English Translation's "will be declared in the right" turns it into a declaration the Qal does not say.
 
 **Fix:**
 - Use one rendering for the Hiphil in both places, for example "will put the many in the right" or "will declare the many in the right". Add a `deb` note on 53:11 giving "make righteous" (Vulgate *iustificabit*; Catholic readings) beside the forensic sense, with the traditions question flagged.
@@ -73,13 +73,13 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 - By the brief's own rule ("restored words ... are never a scroll's reading"), only 1QIsa-a and 1Q8 attest אור.
 - The witness list does say "(damaged, restored by its editors)", but:
   - the `p` says "Three Qumran scrolls and the Greek add 'light'";
-  - the deep section says the Plain follows "the Great Isaiah Scroll, 1QIsa-b, 4QIsa-d and the Greek";
+  - the deep section says the Plain English Translation follows "the Great Isaiah Scroll, 1QIsa-b, 4QIsa-d and the Greek";
   - progress.md repeats it.
 - The `why` correctly says "two independent Qumran scrolls", so the entry contradicts itself.
 
 **Fix:** Say "Two Qumran scrolls (1QIsa-a, 1QIsa-b) and the Greek". Mention 4QIsa-d only as "has room for the word, which its editors restore". Make the same change in the deep section and the progress line.
 
-### 5. Major: missing variant at 49:17, "your children" or "your builders"; the Plain also adds "home"
+### 5. Major: missing variant at 49:17, "your children" or "your builders"; the Plain English Translation also adds "home"
 **Where:** plain.txt 49:17; variants.json (no entry).
 
 **Evidence:**
@@ -146,7 +146,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 - **55:2:** "and eat what is good" (NIV/ESV exact) and "rich food" (ESV) are near-forced by ואכלו טוב ... בדשן; acceptable.
 - **55:3:** "I will make you a covenant" can be read as "make you into a covenant". Use "I will make a covenant with you that lasts forever" or "cut a covenant for you".
 - **49:15** opens with the ESV's first five words ("Can a woman forget her nursing ..."). The Hebrew forces it; acceptable.
-- **54:10** keeps the ESV's frame (the mountains "may move away ... my loyal love will not move away from you"). The Hebrew forces it (ימושו ... לא ימוש), and the Plain is more accurate than the ESV on תמוט; acceptable.
+- **54:10** keeps the ESV's frame (the mountains "may move away ... my loyal love will not move away from you"). The Hebrew forces it (ימושו ... לא ימוש), and the Plain English Translation is more accurate than the ESV on תמוט; acceptable.
 - **52:7** is the NIV's frame with one word changed. The Hebrew forces it.
 - **45:7:** "create disaster" is the NIV's choice (see finding 17).
 
@@ -155,9 +155,9 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 ### 10. Minor: 53:10 "If he gives his life" follows a reading the note calls an emendation, without saying so
 **Where:** plain.txt 53:10; note on "If he gives his life as a guilt offering".
 
-**Evidence:** תשים is second person masculine ("you make") or third person feminine (נפשו as subject, "his life makes"). The note lists those two and "by a small change, 'he makes'". The Plain's "If he gives his life" is the emended third person masculine, or a free rendering of the third feminine; the note does not say which.
+**Evidence:** תשים is second person masculine ("you make") or third person feminine (נפשו as subject, "his life makes"). The note lists those two and "by a small change, 'he makes'". The Plain English Translation's "If he gives his life" is the emended third person masculine, or a free rendering of the third feminine; the note does not say which.
 
-**Fix:** Say in the note which reading the Plain follows. If it is the third feminine ("if his life is made a guilt offering"), render it so. If it is the emendation, add a variant entry with the MT against the emended text.
+**Fix:** Say in the note which reading the Plain English Translation follows. If it is the third feminine ("if his life is made a guilt offering"), render it so. If it is the emendation, add a variant entry with the MT against the emended text.
 
 ### 11. Minor: other variants a careful reader should see
 **Where:** variants.json.
@@ -167,7 +167,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 - **52:14:** "at you" (MT, 1QIsa-a, 4QIsa-c, Greek) against "at him" (Targum, Syriac). The NIV's text has "at him". Note only. 1QIsa-b's עליו is restored and must not be cited.
 - **53:8:** the Greek ἤχθη εἰς θάνατον, "he was led to death", read למות for למו. It is mentioned in notes, but it is the textual basis of the Christian reply on *lamo*.
 - **53:3:** 1QIsa-a reads ונבוזהו, "and we despised him", for the second נבזה.
-- **47:10:** 1QIsa-a reads בדעתך, "your knowledge", for MT ברעתך, "your evil" (the Plain: "You trusted your own evil"), a ד/ר confusion that changes the meaning.
+- **47:10:** 1QIsa-a reads בדעתך, "your knowledge", for MT ברעתך, "your evil" (the Plain English Translation: "You trusted your own evil"), a ד/ר confusion that changes the meaning.
 
 **Fix:** Add entries at least for 52:15 and 52:14 (both footnoted by a major translation); consider 53:8, 47:10 and 53:3.
 
@@ -185,7 +185,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 ### 13. Minor: a wrong cross-reference in the 53:5 note "Pierced or profaned?"
 **Where:** notes.json 53:5.
 
-**Evidence:** The note says *chalal* "pierce" is used "as in 51:9 ('hacked Rahab apart')". In 51:9, "hacked Rahab apart" renders המחצבת (*chatsav*, "hew"). The *chalal* word is מחוללת, which the Plain renders "ran the dragon through".
+**Evidence:** The note says *chalal* "pierce" is used "as in 51:9 ('hacked Rahab apart')". In 51:9, "hacked Rahab apart" renders המחצבת (*chatsav*, "hew"). The *chalal* word is מחוללת, which the Plain English Translation renders "ran the dragon through".
 
 **Fix:** Change it to "as in 51:9 ('ran the dragon through')".
 
@@ -224,7 +224,7 @@ There are also scroll-citation slips: a restored "light" in 4QIsa-d counted as a
 - The 45:7 note is fair, but:
   - It does not say that *ra'* is the ordinary Hebrew word for "evil" (as in 5:20, "call evil good"), or that the Greek (κτίζων κακά) and the Latin (*creans malum*) both say "evils/evil". So "disaster" is a contextual judgment, not something the dictionary forces.
   - "Whether it also makes God the cause of moral evil is a question the verse itself does not address" is the writer's judgment and is stated as fact.
-  - The Plain's "create disaster" is also the NIV's wording.
+  - The Plain English Translation's "create disaster" is also the NIV's wording.
 - The 45:1 variant says the Barnabas reading is "a one-letter change in a Christian quotation". The Latin fathers Tertullian (*Against Praxeas* 28), Cyprian (*Testimonies* 1.21) and Lactantius (*Institutes* 4.12) also read "to Christ my Lord". The reading was widespread in the early church, which a reader of the variant should know.
 
 **Fix:** Add the Greek and Latin "evils" to the 45:7 note, and attribute the "does not address" claim ("most interpreters hold that..."). Name the Latin witnesses in the 45:1 variant `b`.
@@ -264,12 +264,12 @@ Critical 0, major 8, minor 11 (19 findings).
 2. Accepted. One rendering, "put in the right", for the Hiphil at 50:8 and 53:11; 45:25 (Qal) is "will be in the right". The 53:11 note now gives the Vulgate iustificabit and the Catholic "make righteous" beside the court sense and flags the old dispute; 45:25 and 50:8 notes and the part's topic contributions updated.
 3. Accepted. 53:9 now reads "in his deaths". New `deb` note "In his deaths" (intensive plural, Ezekiel 28:10; collective reading, Ibn Ezra and Troki); the variant's MT reading now has plain "in his deaths" and the scroll "rich men, his tomb (or: in his death)", so the readings really differ; 4QIsa-d (visible only as "in his deaths") added to the MT witnesses.
 4. Accepted. The 53:11 variant, the deep section on the text and the progress line now say two scrolls (1QIsa-a, 1QIsa-b) and the Greek; 4QIsa-d has room for the word and its editors restore it (said in the variant's `b`).
-5. Accepted. New variant at 49:17 (banayikh / bonayikh, Greek "built", ESV and NRSV follow "builders", comparative reading, link to 54:13). The Plain is now "Your children hurry"; "home" dropped.
+5. Accepted. New variant at 49:17 (banayikh / bonayikh, Greek "built", ESV and NRSV follow "builders", comparative reading, link to 54:13). The Plain English Translation is now "Your children hurry"; "home" dropped.
 6. Accepted. All 27 pasted cards (the reviewer counted 25) have a passage-specific readers line, a one-sentence traditional and critical view tied to the passage, and a "when" that holds on both dates. The tailored servant cards were left alone.
 7. Partly accepted. The core now lives in content/topics/ (merged by the lead; the lead owns that folder), so I could not edit it. The full rewrite for the whole Bible (servants before Isaiah, later reuse including Zechariah 3:8, Daniel 12:3, Wisdom 2-5, Acts 3-4, Philippians 2:7, and the correction of Duhm's limits) is written out in content/proposals/prophets/topics.md for the lead to apply.
 8. Accepted. Israel section: new paragraph answering Origen's "my people" from Rashi (each king speaks of his own nation) and the scroll reading "his people"; 40:2 cited for "more than its share". The Jesus section says Jewish interpreters reply as set out; the 53:8 note and variant also give the Jewish answer.
 9. Accepted for 55:1 (Hebrew order restored, "money" once, "Come, buy without money, without a price, wine and milk") and 55:3 ("I will make a covenant with you that lasts forever"). Declined, as the reviewer allows: 55:2, 49:15, 54:10 and 52:7 (Hebrew forces them).
-10. Accepted. The note now says the Plain follows the third-person feminine reading (his life makes), in the passive: "If his life is made a guilt offering". The emendation is not followed.
+10. Accepted. The note now says the Plain English Translation follows the third-person feminine reading (his life makes), in the passive: "If his life is made a guilt offering". The emendation is not followed.
 11. Accepted. New variants for 52:14 ("at you" / "at him", 1QIsa-b's restored word not cited), 52:15 (Greek "marvel"), 53:3 (1QIsa-a "and we despised him") and 47:10 (1QIsa-a "your knowledge"; I checked all four in dss.py). 53:8: the Greek "led to death" added to the existing variant's note.
 12. Accepted. 45:8 counts fixed (1QIsa-b, 4QIsa-c); 48:10 MT witness is 4QIsa-c, not the restored 4QIsa-d; 54:9 MT witness is 4QIsa-d (4QIsa-c's "ki" is restored); 53:12 sentence rewritten.
 13. Accepted. The 53:5 note now says "ran the dragon through" for 51:9.

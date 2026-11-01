@@ -4,7 +4,7 @@ Reviewed: `content/books/1Ma/book.json` (title, lead, facts, authorship, audienc
 
 Checked against:
 - the Greek in `texts/orig/1Ma.json` (Swete, Alexandrinus) and Swete's apparatus `texts/src/1Ma.app.json`;
-- the Plain in the four part folders (every 1 Maccabees verse that book.json quotes was compared with the part's plain.txt);
+- the Plain English Translation in the four part folders (every 1 Maccabees verse that book.json quotes was compared with the part's plain.txt);
 - the part notes, variants and chapters.json, for consistency and for links that the parts draw but book.json leaves out;
 - `content/terms.json`, and every traditions card on the site (`content/books/*/chapters.json`, `*/parts/*/chapters.json`, `*/book.json`).
 
@@ -12,7 +12,7 @@ Checked against:
 
 ## Verdict
 
-This is careful and well-sourced work. Nearly every claim the writer marked as resting on memory checks out (details under "Verified"). 1 Maccabees is never called Scripture in the site's own voice, with one slip (finding 12). The churches are not ranked. The reliability analysis is labeled as Claude's and keeps its four parts. Every 1 Maccabees verse quoted in book.json matches the parts' Plain, and "Heaven", "renegades" and "Hasideans" follow terms.json.
+This is careful and well-sourced work. Nearly every claim the writer marked as resting on memory checks out (details under "Verified"). 1 Maccabees is never called Scripture in the site's own voice, with one slip (finding 12). The churches are not ranked. The reliability analysis is labeled as Claude's and keeps its four parts. Every 1 Maccabees verse quoted in book.json matches the parts' Plain English Translation, and "Heaven", "renegades" and "Hasideans" follow terms.json.
 
 There are two real weaknesses:
 - **cited_in**, printed under the app's heading "Where the Bible refers to it", contains an entry that says of itself "Not a citation" (Daniel 11). Daniel was written before 1 Maccabees or at the same time, so it cannot refer to it. Meanwhile cited_in leaves out five or six New Testament links that the part notes already draw.
@@ -78,7 +78,7 @@ All of the following were checked with web search, or against the texts files.
 **1. Major: canon.cited_in. A non-link listed under "Where the Bible refers to it", entries without sources, and links the parts draw that are missing.**
 - *Where it shows.* `app/app.js` line 127 prints cited_in under **"Where the Bible refers to it"**.
 - **The Daniel 11:21–39 entry** opens "Not a citation". Daniel was written before 1 Maccabees on the traditional date, and at the same time on the critical one, so in neither case can Daniel refer to 1 Maccabees. The relation is already covered in provenance ("What it builds on in the Hebrew Bible", the Daniel 7–12 bullet) and in "Read it beside Daniel". The Judith review raised the same point (Jdt review-book.md, finding 1). *Fix:* remove the entry from cited_in and move its best sentences (Luther on Daniel 11, the two dates, the "little help" of 11:34) into provenance or how_to_read.
-- **KJV wording in that entry.** It quotes Daniel in the KJV ("a vile person", "holpen with a little help"). Daniel has no site Plain yet, so the rule (STYLE.md, agent-writer-works.md) is fresh wording, not KJV.
+- **KJV wording in that entry.** It quotes Daniel in the KJV ("a vile person", "holpen with a little help"). Daniel has no site Plain English Translation yet, so the rule (STYLE.md, agent-writer-works.md) is fresh wording, not KJV.
 - **Entries with no `s`.** The James 2:21–23 entry and the John 1:21 / 6:14 entry have no sources. The James link is standard in commentaries on James. The writer should cite one they can check (Dibelius, Davids, Johnson in the Anchor Bible and Moo all discuss 1 Maccabees 2:52 at James 2:21–23; that is from my memory, so check before citing). The John 10:22 entry's "Some commentators note ... (John 10:36)" also has no commentary key.
 - **Missing entries.** The part notes already draw each of these, and none is in cited_in:
   - **1 Corinthians 7:18** at 1:15. Paul's *mē epispasthō* is the technical term for undoing circumcision, which 1:15 describes. The 01-04 note is at 1:15. Kind: shared tradition (the practice), not a quotation.
@@ -118,7 +118,7 @@ The brief asked whether two rows, Evangelical and Catholic, are fair.
 - *Fix:* "in the Mass for persecuted Christians (Lec. 877)" and "at the dedication of an altar (Lec. 817)". accepted_by Catholic already has it right.
 
 **5. Minor: outline. Names and terms do not match the parts and terms.json.**
-- *Trypho.* The outline says "Trypho" (10:1–11:74 and 12:1–53). The Plain uses "Tryphon" 22 times.
+- *Trypho.* The outline says "Trypho" (10:1–11:74 and 12:1–53). The Plain English Translation uses "Tryphon" 22 times.
 - *citadel.* terms.json fixes ἡ ἄκρα as "the Citadel (capital C)". The outline has "The siege of the citadel" and "the citadel is taken", and 1:10–64 has "builds a fortress in Jerusalem".
 - *Fix:* Tryphon; the Citadel.
 
@@ -155,7 +155,7 @@ The brief asked whether two rows, Evangelical and Catholic, are fair.
 - *Fix:* "that they gave 'India' and Media to Eumenes (8:8), though by the Peace of Apamea (188 BC) Antiochus lost only his lands west of the Taurus". The same section's "Antiochus was defeated at Magnesia (190 BC) and made peace" can then name Apamea.
 
 **14. Minor: provenance, "How it sees the Hasmoneans": "the covenant of a holy priesthood" (2:54).**
-- This is Alexandrinus (ἱερωσύνης ἁγίας), and it matches the Plain.
+- This is Alexandrinus (ἱερωσύνης ἁγίας), and it matches the Plain English Translation.
 - The argument that follows ("a hint that his descendants have earned the high priesthood too") is much stronger in the reading of ℵ and V and the KJV, "an everlasting priesthood". That is the wording of Numbers 25:13, and the 01-04 variant at 2:54 records it.
 - *Fix:* add "(Sinaiticus and Venetus: 'an everlasting priesthood', the words of Numbers 25:13)". Without it the page argues from a reading it does not print.
 
@@ -232,4 +232,4 @@ The brief asked whether two rows, Evangelical and Catholic, are fair.
 18. **Not mine to fix.** The pointers from 2 Samuel 1:19 to 9:21, and from 1 Kings 4:25 to 14:12, belong to the lead lane (2Sa and 1Ki). They are reported to the coordinator.
 19. **Fixed** (see 2). The Fetha Nagast row now adds Cowley's "(another) book of Machabees" for Joseph son of Koryon. The gloss "the medieval Hebrew Josippon" is mine, from memory.
 
-`VERBOSE=1 node tools/build.js --check 1Ma`: 0 errors, 0 warnings. Every 1 Maccabees quotation in book.json was re-matched by script to the current Plain; 13:51 was corrected to the Plain's wording.
+`VERBOSE=1 node tools/build.js --check 1Ma`: 0 errors, 0 warnings. Every 1 Maccabees quotation in book.json was re-matched by script to the current Plain English Translation; 13:51 was corrected to the Plain English Translation's wording.

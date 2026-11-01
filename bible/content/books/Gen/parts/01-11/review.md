@@ -10,8 +10,8 @@ This is a strong part. It is well organized and generally accurate, and it gives
 
 There are four serious problems:
 1. **Methuselah's age in the Septuagint.** The 187/167 claim is wrong in three ways, and it contradicts the 2,242 total used everywhere else.
-2. **Dependence on copyrighted translations.** The Plain English leans on NIV, ESV and NRSV wording in about 30 verses. Most are in chapters 3–4, 8–9 and 11, plus NRSV wording in 1:14–21. These need redoing. Overall similarity to the BSB is moderate (my token measure gives 0.63 to BSB and 0.65 to the public-domain WEB), so the issue is NIV/ESV/NRSV phrasing, not the BSB.
-3. **A hidden variant.** The Plain English of 11:31 hides a real Hebrew difficulty with an NIV rendering, and there is no variant entry for it.
+2. **Dependence on copyrighted translations.** The Plain English Translation leans on NIV, ESV and NRSV wording in about 30 verses. Most are in chapters 3–4, 8–9 and 11, plus NRSV wording in 1:14–21. These need redoing. Overall similarity to the BSB is moderate (my token measure gives 0.63 to BSB and 0.65 to the public-domain WEB), so the issue is NIV/ESV/NRSV phrasing, not the BSB.
+3. **A hidden variant.** The Plain English Translation of 11:31 hides a real Hebrew difficulty with an NIV rendering, and there is no variant entry for it.
 4. **Inconsistent toledot rendering.** book.json says ten headings read "This is the family story of...", but parts 12–25 and 26–36 render them "These are the generations of" and "family history."
 
 The fairness gaps are mostly on the Jewish (J) side. The days and age-of-the-world material ignores the rabbinic and medieval Jewish non-literal and old-universe readings. Genesis 3:15 gives only the Targums' messianic reading and leaves out the mainstream medieval Jewish one. Catholic teaching is missing on Adam, the fall and Genesis 9:6.
@@ -31,7 +31,7 @@ The fairness gaps are mostly on the Jewish (J) side. The days and age-of-the-wor
 
 **2. Critical: plain.txt, throughout: close dependence on NIV, ESV and NRSV wording.** STYLE rule 1 says verses that closely match the ESV or NIV must be redone. The verses below match a copyrighted version phrase for phrase, beyond what the Hebrew forces. The 01-11 sources do not hold the ESV/NIV/NRSV texts, so I compared from knowledge of those versions; spot-check before rewriting. Most serious first:
 
-| Verse | Plain English | Matches |
+| Verse | Plain English Translation | Matches |
 |---|---|---|
 | 11:31 | "and they set out together from Ur of the Chaldeans to go to the land of Canaan. But when they came to Haran, they settled there" | NIV almost word for word ("together they set out from Ur of the Chaldeans to go to Canaan. But when they came to Harran, they settled there"). See also finding 4. |
 | 11:6 | "Look, they are one people, and they all have one language, and this is only the start of what they will do. Now nothing they plan to do will be..." | ESV ("Behold, they are one people, and they have all one language, and this is only the beginning of what they will do") plus NIV ("nothing they plan to do will be impossible") |
@@ -87,7 +87,7 @@ Smaller echoes of the same kind appear at 3:6 ("She also gave some to her husban
 
 **Fix:** The book.json owner should pick one rendering for all eleven occurrences and ask the 12–25 and 26–36 writers to adopt it. Either keep "family story" everywhere, or use "family line" for 5:1, 10:1, 11:10, 25:12 and 36:1 and "family story" for the narrative headings, and say so in book.json. Reword 5:1 so it is not the NIV's frame ("This is the book of the family line of Adam"). Soften the 2:4 note ("usually what came from the person named").
 
-**4. Major: plain.txt and variants.json 11:31: a real variant is missing, hidden by the NIV-like rendering.** The MT has *vayyetse'u ittam*, "and they went out with them," which is strange because Terah is the subject who "took" them. The Samaritan Pentateuch, the Septuagint (*kai exēgagen autous*) and the Vulgate (*eduxit eos*) read *vayyotse' otam*, "he brought them out." The Plain English "they set out together" papers over the problem, and it is the NIV's wording. **Fix:** Add a variant: MT "they went out with them" (followed, harder reading) against SP/LXX/Vulgate "he brought them out." Render the MT literally.
+**4. Major: plain.txt and variants.json 11:31: a real variant is missing, hidden by the NIV-like rendering.** The MT has *vayyetse'u ittam*, "and they went out with them," which is strange because Terah is the subject who "took" them. The Samaritan Pentateuch, the Septuagint (*kai exēgagen autous*) and the Vulgate (*eduxit eos*) read *vayyotse' otam*, "he brought them out." The Plain English Translation "they set out together" papers over the problem, and it is the NIV's wording. **Fix:** Add a variant: MT "they went out with them" (followed, harder reading) against SP/LXX/Vulgate "he brought them out." Render the MT literally.
 
 **5. Major: variants.json: missing entries in the flood calendar (7:11, 8:4, 8:5, 8:14).** The flood dates are this part's showcase (note at 7:11, chapter 8 VIEW L "from 2/17 of year 600 to 2/27 of year 601"), but the Septuagint dates differ:
 - 7:11 and 8:4: the 27th day, not the 17th.
@@ -183,7 +183,7 @@ At least give 10:2 and 10:22 a line, since the "72 nations" fact depends on them
 
 **32. Minor: notes.json 10:8 and chapters.json ch. 10 deep "Who was Nimrod?": the same identifications appear twice.** STYLE says never explain the same point twice. **Fix:** Shorten the deep section and refer readers to the note.
 
-**33. Minor: chapters.json ch. 10 and 11 summaries do not quote the Plain English.** "the earth was divided" (plain: "split up"), "the nations spread out" (plain: "branched out"), "Come, let us make bricks... with its top in the heavens" (plain: "Come, let's make bricks... in the sky"), "Harran" (plain: "Haran"). **Fix:** Quote the Plain English exactly.
+**33. Minor: chapters.json ch. 10 and 11 summaries do not quote the Plain English Translation.** "the earth was divided" (plain: "split up"), "the nations spread out" (plain: "branched out"), "Come, let us make bricks... with its top in the heavens" (plain: "Come, let's make bricks... in the sky"), "Harran" (plain: "Haran"). **Fix:** Quote the Plain English Translation exactly.
 
 **34. Minor: book.json "About the translations": "you will die, yes, die"** has a comma the plain text lacks ("die, yes die"). Also "By the 1870s Julius Wellhausen's form of the theory... dominated universities" is too early: the *Prolegomena* appeared in 1878/1883, and its dominance came in the 1880s–90s. **Fix:** Match the plain text; change to "By the 1880s."
 
@@ -266,7 +266,7 @@ Critical 2, major 12, minor 26 (40 findings in all).
     - 5:23 note: Sippar.
     - 11:7 note: *navlah* from *balal*.
 32. **Nimrod (fixed).** The ch. 10 deep section is shortened and points to the notes at 10:8 and 10:9.
-33. **Summaries (fixed).** The ch. 10 and 11 summaries now quote the Plain English exactly ("split up", "parted and spread", "Haran").
+33. **Summaries (fixed).** The ch. 10 and 11 summaries now quote the Plain English Translation exactly ("split up", "parted and spread", "Haran").
 34. **book.json (fixed):** "die, yes die" and "By the 1880s."
 35. **Glosses (fixed).** The synonym glosses (2:9, 6:2, 7:18, 8:3, 11:8) and the 11:27 entry were dropped. 7:2 now reads "acceptable to God for sacrifice and food." Glosses tied to old wording were removed or re-anchored.
 36. **Augustine and the framework (fixed)** in the 1:5 note, the ch. 1 VIEW F and the F lens desc. The F lens key is unchanged.

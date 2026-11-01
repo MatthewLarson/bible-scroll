@@ -18,11 +18,11 @@ Paul's name (Lives of Illustrious Men 5), the Theodotus inscription, Kraabel and
 traditions cards are fairly stated and well sourced. I found no invented source or manuscript reading. The problems
 are of four kinds:
 - one broken parallel with 10:11;
-- two places where the Plain undercuts its own notes (12:7 "poked", 14:22 without "we must");
+- two places where the Plain English Translation undercuts its own notes (12:7 "poked", 14:22 without "we must");
 - several Byzantine/KJV differences a KJV reader will notice that have no variant entry (11:12 "nothing doubting",
   14:17 "us ... our hearts");
 - quotations of Paul's letters, which do not exist on the site yet and which the Acts brief says to cite by
-  reference only, and five quotations of Luke that no longer match Luke's Plain.
+  reference only, and five quotations of Luke that no longer match Luke's Plain English Translation.
 
 One theory box cites Bickerman for a view I believe he argued against. Nothing here blocks publication once the
 fixes are in.
@@ -45,12 +45,12 @@ its four corners. It came all the way to me."
 ### 2. Major: 12:7 "poked" hides the πατάσσω pairing that the notes and chapter page depend on (plain.txt)
 πατάξας δὲ τὴν πλευρὰν τοῦ Πέτρου is "struck Peter's side". The same verb returns in 12:23 (ἐπάταξεν αὐτὸν ἄγγελος
 κυρίου). Note [36] ("Struck to life, struck to death"), the chapter 12 reading "Read as two kings" (An angel "strikes"
-Peter ...) and the `angels` topic section all quote "strike" for 12:7. But the Plain says "poked", so a reader who
+Peter ...) and the `angels` topic section all quote "strike" for 12:7. But the Plain English Translation says "poked", so a reader who
 looks for the word cannot find it. "Poked" is also a softening.
 **Fix:** "He struck Peter on the side and woke him." Keep "struck" in 12:23.
 
 ### 3. Major: 14:22 drops "we must" (δεῖ ἡμᾶς) (plain.txt)
-The Greek is ὅτι διὰ πολλῶν θλίψεων δεῖ ἡμᾶς εἰσελθεῖν εἰς τὴν βασιλείαν τοῦ θεοῦ. The Plain, "Entering the kingdom of
+The Greek is ὅτι διὰ πολλῶν θλίψεων δεῖ ἡμᾶς εἰσελθεῖν εἰς τὴν βασιλείαν τοῦ θεοῦ. The Plain English Translation, "Entering the kingdom of
 God means going through many troubles", loses two things:
 - δεῖ, Luke's word for divine necessity (Luke 24:26 "had to suffer", which note [115] itself cites);
 - ἡμᾶς, the "we".
@@ -65,7 +65,7 @@ brief-nt.md requires an entry wherever the Byzantine text or the TR reads differ
 notice". Missing:
 - **11:12** μηδὲν διακρίναντα (SBL/NA28, "not to make distinctions") against μηδὲν διακρινόμενον (Byzantine, TR; KJV
   "nothing doubting"). Codex Bezae and others leave the phrase out (reported by Metzger). Note [7] discusses the verb
-  but not the variant. This one matters most, because the Plain's whole wordplay with 11:2 rests on the critical
+  but not the variant. This one matters most, because the Plain English Translation's whole wordplay with 11:2 rests on the critical
   reading.
 - **14:17** ὑμῖν ... ὑμῶν (NA28/SBL, "giving you rains ... your hearts") against TR ἡμῖν ... ἡμῶν (KJV "gave us rain
   ... filling our hearts"). The word list marks ὑμῖν as absent from T and ὑμῶν as absent from T and B.
@@ -75,8 +75,8 @@ notice". Missing:
 
 **Fix:** Add full entries for 11:12 and 14:17. The last three may be short entries.
 
-### 5. Major: quoting Paul's letters and 1 Peter, which have no Plain yet (notes.json)
-brief-act.md: "Paul's letters are not written yet: cite them by reference, do not quote a Plain that does not exist."
+### 5. Major: quoting Paul's letters and 1 Peter, which have no Plain English Translation yet (notes.json)
+brief-act.md: "Paul's letters are not written yet: cite them by reference, do not quote a Plain English Translation that does not exist."
 This part quotes them throughout, in fresh wording:
 - [22] 1 Peter 4:16 "as a Christian";
 - [28] Galatians 2:1 "again after fourteen years" and 2:10 "remember the poor" (also the chapter 11 deep dive and H view);
@@ -111,21 +111,21 @@ verify against the article before you keep the attribution. If I am right, the b
 themselves"), which makes the theory more honest, or drop him. Attach `bickerman-name` and `ignatius-romans` where they
 are used. Note [22] should also mention the self-designation view, since it presents only "given by outsiders".
 
-### 7. Major: five Luke quotations do not match Luke's Plain (notes.json)
-Luke now has a Plain, and the whole-book check warns on two of these:
-- [78] 13:27 quotes Luke 23:34 as "Father, forgive them, for they do not know what they are doing". Luke's Plain:
+### 7. Major: five Luke quotations do not match Luke's Plain English Translation (notes.json)
+Luke now has a Plain English Translation, and the whole-book check warns on two of these:
+- [78] 13:27 quotes Luke 23:34 as "Father, forgive them, for they do not know what they are doing". Luke's Plain English Translation:
   "Father, forgive them, because they do not know what they are doing." Luke 23:34a is also absent from P75, B, D* and
   others, so say so in a few words.
-- [92] 13:47 quotes Luke 2:32 as "a light for revelation to the Gentiles". Luke's Plain: "a light to bring revelation
+- [92] 13:47 quotes Luke 2:32 as "a light for revelation to the Gentiles". Luke's Plain English Translation: "a light to bring revelation
   to the nations".
 
 The build does not catch these three:
-- [32] and [34] quote Luke 22:44 "in anguish, prayed more earnestly" (Plain: "he prayed harder still"). The verse is
+- [32] and [34] quote Luke 22:44 "in anguish, prayed more earnestly" (Plain English Translation: "he prayed harder still"). The verse is
   also part of the textually doubtful Luke 22:43–44, so say so; the "earnestly" link to 12:5 rests on it.
-- [40] quotes Luke 24:11 "nonsense" (Plain: "silly talk").
-- [3] quotes Luke 1:3 "an orderly account" (Plain: "in its proper order").
+- [40] quotes Luke 24:11 "nonsense" (Plain English Translation: "silly talk").
+- [3] quotes Luke 1:3 "an orderly account" (Plain English Translation: "in its proper order").
 
-**Fix:** Quote Luke's Plain exactly. A book is done only at 0 warnings.
+**Fix:** Quote Luke's Plain English Translation exactly. A book is done only at 0 warnings.
 
 ### 8. Major: 12:4 "Passover", the KJV's "Easter", is not addressed (notes.json)
 The KJV renders τὸ πάσχα in 12:4 as "Easter", its only use of the word. It is one of the most discussed KJV renderings
@@ -151,7 +151,7 @@ Following NA28's τοῖς τέκνοις [αὐτῶν] ἡμῖν against SBL'
   (NA28). Check how NA28 prints it before the entry says "NA28 ('their' in brackets)". It may be a bracket-encoding
   quirk in TAGNT, but the entry should not contradict the site's own data without saying why.
 - Reading 1's witness list should say that the reading of P74, א, A, B, C* and D is also that of the SBLGNT (it does)
-  and that the Plain follows a text with much weaker external support. Say that plainly in `why` ("against the oldest
+  and that the Plain English Translation follows a text with much weaker external support. Say that plainly in `why` ("against the oldest
   manuscripts").
 
 ### 11. Minor: witness details in other variants (variants.json)
@@ -181,9 +181,9 @@ At least 14:10 deserves an entry, because it is also in C.
 ### 13. Minor: quotations inside Acts that do not match the other parts (notes.json)
 - [1] quotes 15:1 as "Unless you are circumcised... you cannot be saved". Part 15-17 reads "If you are not circumcised
   as Moses' custom requires, you cannot be saved."
-- [32] says the church prays "earnestly" (12:5), but this part's own Plain says "praying hard".
+- [32] says the church prays "earnestly" (12:5), but this part's own Plain English Translation says "praying hard".
 
-**Fix:** Quote the current Plain.
+**Fix:** Quote the current Plain English Translation.
 
 ### 14. Minor: the Derbe inscriptions are garbled (notes.json [100])
 "Inscriptions found in 1956 and 1964 place it at or near a mound called Kerti Hüyük". The 1956 find (Ballance) is the
@@ -276,23 +276,23 @@ visitors") would show that the crowd's words were in a language Paul did not und
 
 1. Fixed. 11:5 now follows 10:11 as the 08-10 fixer left it: "some kind of container coming down, like a great linen sheet let down from heaven by its four corners" ("from heaven" kept, since the Greek has it here). I re-read 10:9–16 after 08-10 was finished. 11:6–9 already matched, and 11:10 keeps "pulled up" because the verb differs (ἀνεσπάσθη, not ἀνελήμφθη).
 2. Fixed. 12:7 now reads "He struck Peter on the side and woke him". The note anchor and p were updated, and the "roused him" gloss was removed because its anchor no longer exists.
-3. Fixed. 14:22 now reads "'We must go through many troubles to enter the kingdom of God,' they told them." Updated to match: note [115] (now [116]: its anchor, and the text on δεῖ and "we", with Luke 24:26 "had to suffer" quoted from Luke's Plain) and the `suffering` topic section.
+3. Fixed. 14:22 now reads "'We must go through many troubles to enter the kingdom of God,' they told them." Updated to match: note [115] (now [116]: its anchor, and the text on δεῖ and "we", with Luke 24:26 "had to suffer" quoted from Luke's Plain English Translation) and the `suffering` topic section.
 4. Fixed. Added a full entry for 11:12 (διακρίναντα / διακρινόμενον, with Bezae's omission reported by Metzger) and for 14:17 (ὑμῖν/ὑμῶν against Byzantine ὑμῖν/ἡμῶν and TR ἡμῖν/ἡμῶν). Added short entries for 11:13 ἄνδρας, 11:28 Καίσαρος and 13:45 ἀντιλέγοντες, with the Byzantine/TR readings checked against texts/orig.
 5. Fixed. Every quotation of Paul's letters (including 2 Timothy and Philemon) and of 1 Peter in the notes, chapter pages and topics is now a paraphrase with its reference. No quotations were kept, so the publish sync has nothing to list. A scripted search finds no quoted text attached to a letter reference.
 6. Fixed. Bickerman ("The Name of Christians", HTR 1949) argued that the active χρηματίσαι means the disciples styled themselves Christians. The spec box now cites him as a dissent ("If he is right, this theory falls"). Note [22] (now [23]) gives the self-designation view and cites `bickerman-name`. It also adds Ignatius, To the Romans 3.2 with `ignatius-romans`, because deep boxes do not ship sources. The chapter 11 summary and H view no longer state "outsiders" as settled.
-7. Fixed. Luke is now quoted from Luke's current Plain: 23:34 "because they do not know..." (with its absence from P75, B and others noted), 2:32 "a light to bring revelation to the nations", 22:44 "prayed harder still" (with the doubt over 22:43–44 noted in [32] and [34]), 24:11 "silly talk", 1:3 "in its proper order". Also fixed while checking: Luke 1:2 "servants of the message" in [58], and Luke 18:16 / Mark 10:14 "Do not stop them" in [13].
+7. Fixed. Luke is now quoted from Luke's current Plain English Translation: 23:34 "because they do not know..." (with its absence from P75, B and others noted), 2:32 "a light to bring revelation to the nations", 22:44 "prayed harder still" (with the doubt over 22:43–44 noted in [32] and [34]), 24:11 "silly talk", 1:3 "in its proper order". Also fixed while checking: Luke 1:2 "servants of the message" in [58], and Luke 18:16 / Mark 10:14 "Do not stop them" in [13].
 8. Fixed. New `word` note, kind `mis`, at 12:4 "after the Passover" on the KJV's "Easter" (πάσχα, Tyndale's usage, the KJV kept it only here). Tagged `passover`.
 9. Accepted as the reviewer advised: 12:21 keeps "platform". The lead has already decided the term entry will list 12:21 as the exception. No note added: the gloss and the 12:23 variant already explain the word.
 10. Fixed. 13:33 `why` now says NA28 prints its reading against the oldest manuscripts, with much weaker support. New `b`: NA28 prints [αὐτῶν] as NA27 did (same text in Acts), and the STEPBible tags are not evidence. No difference between NA27 and NA28 is claimed.
 11. Fixed. 11:20 now says "more widely attested ... and the harder" reading. 12:25 now says "often called one of the most difficult", and reading 0 names SBLGNT alone for the comma. 13:18 now lists P74, A, C*, E, Ψ, 33. 13:44 now names B*, C and others. 12:23: I kept the Bezae wording, which matches Metzger's report of D as I know it. The lead may want to spot-check it.
 12. Partly accepted. Added 14:10 (C, D and others: "I tell you in the name of the Lord Jesus Christ"). Declined 14:2, 13:43 and 14:19 for now: they are Bezae-only expansions, and the part already has six Western entries.
-13. Fixed. [1] (now [2]) quotes 15:1 as in part 15-17. [32] (now [33]) says "praying hard". Also fixed: [6] 10:28 now uses 08-10's new Plain ("to me God has shown that no human being is to be called common or unclean"), and [23] 2:17 now reads "your sons and your daughters".
+13. Fixed. [1] (now [2]) quotes 15:1 as in part 15-17. [32] (now [33]) says "praying hard". Also fixed: [6] 10:28 now uses 08-10's new Plain English Translation ("to me God has shown that no human being is to be called common or unclean"), and [23] 2:17 now reads "your sons and your daughters".
 14. Fixed. [100] (now [101]) now has the 1956 dedication near Kerti Hüyük, the bishop's tombstone pointing to Devri Şehri, and notes that neither stone was found in place.
 15. Fixed. [74] (now [75]) names Antiquities 6.378 (18 + 22, with "two" in some manuscripts) and 10.143 (20 years).
 16. Fixed. All six `readers` cards now say "Theophilus and the churches Luke wrote for".
 17. Fixed. The 12:17 card is hedged ("Many read ... others think James already led beside the apostles, or that Luke only signals his importance"), and its readers line was softened.
-18. Fixed: [29] "last king to rule Judea itself"; [36] "an angel of the Lord, both times ... not necessarily the same angel"; [62] and the deep dive "usually named first", with Barnabas first again at 14:14 and 15:12, 25; [77] p no longer says all four Gospels report the denial; [118] 15:40 is now Luke's narration, quoted from its Plain; [64] `r` aligned to 9:2; 19:9; 19:23; "Herod the Great's grandson"; the unconfirmed Chrysostom/Herod contrast dropped from the chapter 14 T view.
-19. Fixed. [110] (now [111]) states the classic Reformed view (Calvin, Institutes 1.3–5; Westminster 1.1) and Barth's rejection of natural theology (the "No!" to Brunner, 1934) separately, with `calvin-institutes` and `westminster`. 17:30 is now quoted from its Plain.
+18. Fixed: [29] "last king to rule Judea itself"; [36] "an angel of the Lord, both times ... not necessarily the same angel"; [62] and the deep dive "usually named first", with Barnabas first again at 14:14 and 15:12, 25; [77] p no longer says all four Gospels report the denial; [118] 15:40 is now Luke's narration, quoted from its Plain English Translation; [64] `r` aligned to 9:2; 19:9; 19:23; "Herod the Great's grandson"; the unconfirmed Chrysostom/Herod contrast dropped from the chapter 14 T view.
+19. Fixed. [110] (now [111]) states the classic Reformed view (Calvin, Institutes 1.3–5; Westminster 1.1) and Barth's rejection of natural theology (the "No!" to Brunner, 1934) separately, with `calvin-institutes` and `westminster`. 17:30 is now quoted from its Plain English Translation.
 20. Fixed: 13:16 "Israelites, and you who fear God" (note anchor and chapter 13 L view updated); 13:29 "Once they had carried out everything written about him"; 12:20 "asked for peace"; 11:19 "They spoke the word to nobody but Jews".
 21. Fixed. Added settings cards for 12:7–8 (the angel's orders) and 14:11 (the crowd's cry in Lycaonian).
-Lead items: 11:16 now reads "John baptized in water, but you will be baptized in the Holy Spirit", matching the new 1:5 (note anchor and `holy-spirit` topic quote updated). 11:5 matches 10:11, and the 10:28 quote uses its new Plain (see 1 and 13). "temple" is now lowercase everywhere in the part (10 places). The church-elder notes at 11:30 and 14:23 are tagged `elders`. No claim that NA27 and NA28 differ. Paul's letters are paraphrased only. Luke is quoted from its Plain.
+Lead items: 11:16 now reads "John baptized in water, but you will be baptized in the Holy Spirit", matching the new 1:5 (note anchor and `holy-spirit` topic quote updated). 11:5 matches 10:11, and the 10:28 quote uses its new Plain English Translation (see 1 and 13). "temple" is now lowercase everywhere in the part (10 places). The church-elder notes at 11:30 and 14:23 are tagged `elders`. No claim that NA27 and NA28 differ. Paul's letters are paraphrased only. Luke is quoted from its Plain English Translation.

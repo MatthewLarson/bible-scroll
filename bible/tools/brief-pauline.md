@@ -1,6 +1,6 @@
 # Paul's letters, 1 Corinthians to Ephesians: shared brief for 1Co 2Co Gal Eph
 
-Read tools/brief-nt.md first (rules for every New Testament book), then tools/brief-rom.md (Romans is the model for a Pauline letter: its lenses, book.json, deep dives and cards) and content/books/Rom/ for form. nt lane: write only in `content/books/<id>/...`; shared additions in `content/proposals/nt/`. Romans is on the site: quote its Plain exactly where a verse is repeated (Gal 3 and Rom 4 on Abraham; Gal 2:16 and Rom 3:20, 28; 1 Cor 12 and Rom 12; Rom 6 and Col; Eph and Col are parallel, Colossians not yet written: use prose).
+Read tools/brief-nt.md first (rules for every New Testament book), then tools/brief-rom.md (Romans is the model for a Pauline letter: its lenses, book.json, deep dives and cards) and content/books/Rom/ for form. nt lane: write only in `content/books/<id>/...`; shared additions in `content/proposals/nt/`. Romans is on the site: quote its Plain English Translation exactly where a verse is repeated (Gal 3 and Rom 4 on Abraham; Gal 2:16 and Rom 3:20, 28; 1 Cor 12 and Rom 12; Rom 6 and Col; Eph and Col are parallel, Colossians not yet written: use prose).
 
 **Lenses (fixed, same as Romans): H History and setting, C Critical, L Literary, J Jewish reading, T Church tradition.** Each book.json gives its own `desc`.
 

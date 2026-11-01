@@ -4,7 +4,7 @@ Reviewer's scope: plain.txt (312 verses), notes.json (155), variants.json (32), 
 
 ## Verdict
 
-This is a careful, well-read part. I compared every verse with `node tools/literal.js 2Ch 25`–`36`. The Plain is faithful in sense almost everywhere. Names, numbers and who-does-what are right. The parallel rule with 2 Kings is mostly kept well: where the Hebrew matches (25:18, 25:22–23, 26:1, 28:3–4, 33:2–5, 34:15, 34:18, 34:23, 34:26, 36:3–5, 36:11), the site's Kings wording is used. Where the Hebrew differs (25:3 "killed", 25:4 "die", 33:4, 33:8, 34:21, 34:25, 34:31), the English differs too. Fairness on Manasseh, Josiah's death, Hezekiah's Passover and the empty land is good, and the rabbinic and archaeological claims I spot-checked hold up. They include Mishnah Sanhedrin 10:2, Pesahim 4:9, Sukkah 5:4, Bavli Sanhedrin 94a, 94b, 103b–104a, Sukkah 45b, Megillah 14b, Taanit 22b, Yoma 52b, Bava Qamma 16b, the Uzziah seals and the 1931 plaque, the Siloam tunnel, the Broad Wall and the Esarhaddon and Ashurbanipal vassal lists. `node tools/build.js --check 2Ch/25-36` reports 0 errors and 0 warnings.
+This is a careful, well-read part. I compared every verse with `node tools/literal.js 2Ch 25`–`36`. The Plain English Translation is faithful in sense almost everywhere. Names, numbers and who-does-what are right. The parallel rule with 2 Kings is mostly kept well: where the Hebrew matches (25:18, 25:22–23, 26:1, 28:3–4, 33:2–5, 34:15, 34:18, 34:23, 34:26, 36:3–5, 36:11), the site's Kings wording is used. Where the Hebrew differs (25:3 "killed", 25:4 "die", 33:4, 33:8, 34:21, 34:25, 34:31), the English differs too. Fairness on Manasseh, Josiah's death, Hezekiah's Passover and the empty land is good, and the rabbinic and archaeological claims I spot-checked hold up. They include Mishnah Sanhedrin 10:2, Pesahim 4:9, Sukkah 5:4, Bavli Sanhedrin 94a, 94b, 103b–104a, Sukkah 45b, Megillah 14b, Taanit 22b, Yoma 52b, Bava Qamma 16b, the Uzziah seals and the 1931 plaque, the Siloam tunnel, the Broad Wall and the Esarhaddon and Ashurbanipal vassal lists. `node tools/build.js --check 2Ch/25-36` reports 0 errors and 0 warnings.
 
 The weak point is the one the writer admitted: the Greek. I checked the cited readings in Rahlfs at blueletterbible.org. Three variants report the Septuagint wrongly (30:27, 34:22, 36:8), one has the wrong manuscript grouping (36:9), and a fourth cites the wrong book as a witness (36:22, 1 Esdras 2:1). Almost every Greek column is empty or holds a Hebrew retroversion. There are two other major problems. The writer breaks the site's name policy at 26:2 (Eloth printed "Elath"), and the 26:2 note says the opposite of what the site actually prints. And the drift audit missed about twenty verses with NIV/ESV sentence shapes or word choices. Theory boxes do not say where published work overlaps, and the Cyrus core leaves out the main debate about Isaiah's naming of Cyrus. None of this is critical. Once the Greek is redone from Rahlfs and the drift verses are rebuilt, the part can be published.
 
@@ -16,7 +16,7 @@ The weak point is the one the writer admitted: the Greek. I checked the cited re
 
 ### 1. Major. plain.txt 26:2, notes 26:2, glosses 26:2: "Elath" printed where the Hebrew has Eloth (name policy)
 
-- **What is wrong:** The Hebrew of 26:2 is הוּא בָּנָה אֶת־אֵילוֹת, *Eloth*. 2 Kings 14:22 has אֵילַת, *Elath*. The Plain copies the Kings wording word for word ("It was he who built up Elath and brought it back to Judah..."). This is a Hebrew difference hidden by copying Kings, and it breaks the policy of giving each name in the form its own verse has. That policy is applied everywhere else in this part: Joash, Jehoahaz/Joahaz, Tilgath-pilneser, Jerushah, Abijah.
+- **What is wrong:** The Hebrew of 26:2 is הוּא בָּנָה אֶת־אֵילוֹת, *Eloth*. 2 Kings 14:22 has אֵילַת, *Elath*. The Plain English Translation copies the Kings wording word for word ("It was he who built up Elath and brought it back to Judah..."). This is a Hebrew difference hidden by copying Kings, and it breaks the policy of giving each name in the form its own verse has. That policy is applied everywhere else in this part: Joash, Jehoahaz/Joahaz, Tilgath-pilneser, Jerushah, Abijah.
 - **The note is wrong too.** The 26:2 note says "The Hebrew spells the town Eloth here, as in 2 Chronicles 8:17; the site prints Elath in both books." But part 01-12 prints **Eloth** at 8:17 ("Then Solomon went to Ezion-geber and to Eloth"). The site is now inconsistent inside one book, and the note misreports it.
 - **Evidence:** the Leningrad text of 26:2 (above); `content/books/2Ch/parts/01-12/plain.txt` 8:17. The Greek (Rahlfs) has Αιλαθ, which is useful for a variant.
 - **Fix:** Print "Eloth" at 26:2 and move the gloss anchor ("Eloth => Elath, Judah's port on the Gulf of Aqaba"). Rewrite the note: Kings has Elath, Chronicles Eloth (as at 8:17), the same town. Optionally add a variant: Masoretic Text "Eloth" against 2 Kings 14:22 and the Greek (Αιλαθ) "Elath". Correct the PROGRESS.md line ("Eloth printed Elath").
@@ -84,7 +84,7 @@ Each verse below shares a sentence shape or an interpretive word choice with the
 - **35:21** "It is not you I am after today. It is the house I am at war with, and God said to make haste": the NIV's cleft sentence ("It is not you I am ...", "the house with which I am at war").
 - **36:14** "acted more and more unfaithfully, following all the abhorrent ways of the nations": the NIV's "more and more unfaithful, following all the ...".
 - **25:13** "Meanwhile the men of the troop Amaziah had sent back": the NIV opens "Meanwhile the troops that Amaziah had sent back". The Hebrew has no "meanwhile".
-- **31:1** "the Israelites who were there went out to": a 7-word NIV run. Elsewhere the Plain renders הַנִּמְצְאִים "to be found" (30:21; 35:17).
+- **31:1** "the Israelites who were there went out to": a 7-word NIV run. Elsewhere the Plain English Translation renders הַנִּמְצְאִים "to be found" (30:21; 35:17).
 - **33:15** "He got rid of the foreigners' gods ... along with every altar he had built on the hill": the NIV's "got rid of" (Hebrew וַיָּסַר "removed") and its order.
 - **33:13** "God let himself be moved by him. He heard his plea": the NIV/ESV "moved by ... plea/entreaty". The note itself glosses *'atar* as "let himself be entreated".
 - **26:19** "while he raged at the priests, skin disease broke out on his forehead": the NIV "while he was raging at the priests", and both versions' "broke out" for זָרְחָה. The writer's own note says the verb means "shone out, dawned".
@@ -127,12 +127,12 @@ Re-run the drift audit on the rebuilt verses.
 ### Parallel rule and terms
 
 1. **Minor. plain.txt 34:27: "humbled yourself", judged against the Hebrew of both books.** 2 Kings 22:19 has the same verb, וַתִּכָּנַע מִפְּנֵי יְהוָה; Chronicles has it twice (מִלִּפְנֵי אֱלֹהִים ... וַתִּכָּנַע לְפָנַי). By the parallel rule the same Hebrew should get the same English. But "humbled yourself" is the more accurate rendering of Niphal *kana'*. "Bowed low" blurs it with *shachah* ("bow down"). And Chronicles uses *kana'* as a keyword (7:14; 12:6–7; 30:11; 32:26; 33:12, 33:19, 33:23; 36:12), always rendered "humble". **Verdict:** the writer's change is right, and the note explains it honestly. The fault is on the Kings side. **Fix:** add `["kana' (Niphal)", "humble oneself"]` to `content/terms.json`. Ask the 2 Kings 18-25 owner to change 2 Kings 22:19 "bowed low" to "humbled yourself", and the 1 Kings 17-22 owner to change 1 Kings 21:29 "bowed himself low" to match. Then 34:27 can reuse Kings' wording for the shared clause, and the note can be shortened.
-2. **Minor. plain.txt 25:24: a needless difference from 2 Kings 14:14.** Both books have אוֹצְרוֹת בֵּית הַמֶּלֶךְ. Kings' Plain says "storerooms of the king's house"; Chronicles says "treasures of the king's house". Use one rendering in both (the site's Kings wording, or ask Kings to change).
-3. **Minor. plain.txt 28:2.** Kings 16:3 Plain has "He walked in the road of the kings of Israel." Chronicles' plural בְּדַרְכֵי justifies "ways", but not the reordered "Israel's kings". Write "He walked in the ways of the kings of Israel."
+2. **Minor. plain.txt 25:24: a needless difference from 2 Kings 14:14.** Both books have אוֹצְרוֹת בֵּית הַמֶּלֶךְ. Kings' Plain English Translation says "storerooms of the king's house"; Chronicles says "treasures of the king's house". Use one rendering in both (the site's Kings wording, or ask Kings to change).
+3. **Minor. plain.txt 28:2.** Kings 16:3 Plain English Translation has "He walked in the road of the kings of Israel." Chronicles' plural בְּדַרְכֵי justifies "ways", but not the reordered "Israel's kings". Write "He walked in the ways of the kings of Israel."
 4. **Minor. plain.txt 29:6: terms.json.** מִשְׁכַּן יְהוָה is rendered "the LORD's dwelling", but `terms.json` fixes *mishkan* as "tabernacle". "Dwelling" also matches the NIV ("dwelling place"). Use "the LORD's tabernacle", or propose a context rule in terms.json for *mishkan* meaning the temple.
 5. **Minor. glosses 30:25.** "foreigners => resident outsiders" uses "outsider", the site's fixed word for *zar*; terms.json says *nokhri* and *ger* are never "outsider". Use "people from other nations who had settled among Israel".
 6. **Minor. Missing parallel notes.**
-   - 25:23 "He brought him to Jerusalem" agrees with the Ketiv of 2 Kings 14:13 (ויבאהו); Kings' Qere and Plain have "He came". This is worth a one-line note.
+   - 25:23 "He brought him to Jerusalem" agrees with the Ketiv of 2 Kings 14:13 (ויבאהו); Kings' Qere and Plain English Translation have "He came". This is worth a one-line note.
    - 33:3 Chronicles has plural "Baals" and "Asherah poles" and drops Kings' "just like Ahab king of Israel". No note says so.
    - 33:8 has "remove" and "appointed for your ancestors" against Kings' "send ... wandering" and "gave their ancestors". No note says so.
 
@@ -140,7 +140,7 @@ Re-run the drift audit on the rebuilt verses.
 
 7. **Minor. variants 26:5.** The two plains use different verbs for the same word הַמֵּבִין: "a man who understood the visions of God" against "a man who taught him to fear God". The alternative should differ only in the noun: "a man who understood the fear of God". If the writer prefers "taught", it should apply to both readings.
 8. **Minor. variants 35:19.** 1 Esdras is listed under "no addition", yet it has its own plus (1:23–24 KJV; 1:21–22 Greek), as the `why` admits. List it as a third reading. State that the 1 Esdras verse numbers are the KJV Apocrypha's; Rahlfs numbers them two lower (1:20 = Passover in the eighteenth year; 1:23 Carchemish; 1:26 Jeremiah; 1:41 eighteen). The same applies to the 1 Esdras references in notes 35:1, 35:20–24, 36:2, 36:6, 36:9 and in the textual-history topic. Also, the Greek plus's `en` leaves out 19d (Judah removed as Israel was, Jerusalem rejected).
-9. **Minor. variants 36:9, why.** The Plain prints a number the entry itself calls "almost certainly" a slip. That is allowed under "MT followed throughout", but other parts of this book (01-12 at 1:13, 6:42, 10:14) and of 2 Kings (25:3) correct clear slips. The writer should state the site rule this follows, or follow the eighteen reading with the Masoretic Text as the variant. This is a judgment call for the book owner.
+9. **Minor. variants 36:9, why.** The Plain English Translation prints a number the entry itself calls "almost certainly" a slip. That is allowed under "MT followed throughout", but other parts of this book (01-12 at 1:13, 6:42, 10:14) and of 2 Kings (25:3) correct clear slips. The writer should state the site rule this follows, or follow the eighteen reading with the Masoretic Text as the variant. This is a judgment call for the book owner.
 
 ### Facts in notes and pages
 
@@ -151,7 +151,7 @@ Re-run the drift audit on the rebuilt verses.
 14. **Minor. notes 28:2.**
     - "Ahaz is the only king of Judah given no good word at all": Jehoram (21:4–20) and Amon (33:21–25) get none either. Say "one of the very few".
     - "The next chapter shows a northern prophet and northern leaders" is wrong: Oded and the Ephraimite leaders are in this chapter (28:9–15).
-    - The quotation "walked the way of Israel's kings" does not match the site's 2 Kings 16:3 ("walked in the road of the kings of Israel"). The same kind of mismatch is in note 28:5: "could not overcome" against Kings' Plain "were not able to win the fight".
+    - The quotation "walked the way of Israel's kings" does not match the site's 2 Kings 16:3 ("walked in the road of the kings of Israel"). The same kind of mismatch is in note 28:5: "could not overcome" against Kings' Plain English Translation "were not able to win the fight".
 15. **Minor. Bare references that point to the wrong book.**
     - notes 28:24 "(16:15)" means 2 Kings 16:15. As written it links to 2 Chronicles 16:15.
     - chapters.json ch. 36 deep "Jehoiachin's age": "Kings mentions his wives (24:15)" links to 2 Chronicles 24:15.
@@ -169,10 +169,10 @@ Re-run the drift audit on the rebuilt verses.
 
 ### Chapter pages, glosses, style
 
-26. **Minor. chapters.json quotations that do not match the Plain.**
-    - ch. 25 sum: "a fable of a thistle and a cedar"; the Plain says "thornbush".
-    - ch. 25 readings: "Are we making you the king's counselor?"; the Plain says "Is it the king's counselor we have made you?"
-    - ch. 26 sum: "for he was marvelously helped, until he was strong"; the Plain says "for help came to him in wonderful ways, until he was strong".
+26. **Minor. chapters.json quotations that do not match the Plain English Translation.**
+    - ch. 25 sum: "a fable of a thistle and a cedar"; the Plain English Translation says "thornbush".
+    - ch. 25 readings: "Are we making you the king's counselor?"; the Plain English Translation says "Is it the king's counselor we have made you?"
+    - ch. 26 sum: "for he was marvelously helped, until he was strong"; the Plain English Translation says "for help came to him in wonderful ways, until he was strong".
     - ch. 25 echoes list "2 Kings 25:4", which has nothing to do with Amaziah. Probably 2 Kings 14:19 was meant.
 27. **Minor. glosses.** A few glosses are harder than the text or decide a debated point.
     - 33:6 "looked for omens => practiced augury" and "read signs => practiced divination" use technical words. Try "watched for lucky signs" and "tried to tell the future".
@@ -203,7 +203,7 @@ Re-run the drift audit on the rebuilt verses.
   - Targum Chronicles' bronze mule
   - Mishnah Middot 1:3 (the Huldah Gates)
 - **Spot-checked history and archaeology:** Josephus *Antiquities* 9.222–227 and *War* 6.423–425; the Mu'unaya in Tiglath-pileser III's inscriptions; "Jehoahaz of Judah" in the tribute lists; the Zincirli stele; the Rassam Cylinder; the Siloam inscription (1880, Istanbul; Frumkin 2003).
-- **Quotations** of the site's 1 Kings 8:50, 1 Kings 13:2, 1 Kings 22:30, 2 Kings 6:16, 2 Kings 19:18, 2 Kings 20:3 and 20:20, Exodus 12:9, Numbers 16:40, Deuteronomy 8:2, 16:7 and Leviticus 26:34 match the site's Plain.
+- **Quotations** of the site's 1 Kings 8:50, 1 Kings 13:2, 1 Kings 22:30, 2 Kings 6:16, 2 Kings 19:18, 2 Kings 20:3 and 20:20, Exodus 12:9, Numbers 16:40, Deuteronomy 8:2, 16:7 and Leviticus 26:34 match the site's Plain English Translation.
 - **Mechanics.** `node tools/build.js --check 2Ch/25-36`: 0 errors, 0 warnings.
 
 ## Fixes applied
@@ -224,7 +224,7 @@ All findings were addressed. `node tools/build.js --check 2Ch/25-36` returns 0 e
 11. topics/cyrus.json has two new sections. "Cyrus in Isaiah" gives the traditional view (Josephus, <i>Antiquities</i> 11.5–7; Oswalt) and the critical view (Blenkinsopp). "Is the decree authentic?" sets Bickerman 1946 against scholars who think it was shaped by Jewish writers (Kuhrt on the Cylinder). Daniel 6:28 added to the refs. New keys: bickerman-edict, blenkinsopp-isaiah2, oswalt-isaiah2.
 
 **Minor**
-1. 34:27: the coordinator aligned 2 Kings 22:19 and 1 Kings 21:29, and terms.json has kana'. 34:27 already matches the new 2 Kings 22:19 Plain where the Hebrew matches. The note is rewritten to describe only the real differences ("before God", the double verb, no "ruin and curse").
+1. 34:27: the coordinator aligned 2 Kings 22:19 and 1 Kings 21:29, and terms.json has kana'. 34:27 already matches the new 2 Kings 22:19 Plain English Translation where the Hebrew matches. The note is rewritten to describe only the real differences ("before God", the double verb, no "ruin and curse").
 2. 25:24 now reads "storerooms of the king's house", as in Kings.
 3. 28:2 now reads "He walked in the ways of the kings of Israel"; the note anchor was updated.
 4. 29:6 now uses "the LORD's tabernacle", per terms.json.
@@ -232,12 +232,12 @@ All findings were addressed. `node tools/build.js --check 2Ch/25-36` returns 0 e
 6. New notes at 25:23 (agrees with Kings' Ketiv "brought him"), 33:3 (plural Baals and Asherah poles, Ahab dropped) and 33:8 ("remove" and "appointed" against Kings' "send wandering" and "gave"). While writing these I also found that 33:3's "pulled down" renders the same verb as Kings' "torn down", so it now reads "torn down".
 7. The 26:5 alternative is now "a man who understood the fear of God".
 8. 35:19: 1 Esdras added as a third reading, and 19d added to the Greek summary. The 1 Esdras numbering convention (KJV, about two higher than Rahlfs) is stated in the 35:1 note, in the chapter 35 page and in the variants.
-9. 36:9 `why`: the Plain keeps the MT number, as for every number in this part, and the entry flags that the book owner may prefer eighteen. Left for the owner to decide.
+9. 36:9 `why`: the Plain English Translation keeps the MT number, as for every number in this part, and the entry flags that the book owner may prefer eighteen. Left for the owner to decide.
 10. 25:4: five letters with the waw moved; the Ketiv of 2 Kings 14:6 (yamut) is now mentioned.
 11. 26:15: catapults are now dated to Syracuse about 399 BC, torsion engines to about 350 BC.
 12. 30:10: now reads "similar words (mal'igim / mal'ivim)".
 13. 35:3: the Ketiv and Qere are no longer reversed.
-14. 28:2: now "one of the very few", "later in this same chapter", and the quotation matches the Kings Plain. The 28:5 quotation now matches too.
+14. 28:2: now "one of the very few", "later in this same chapter", and the quotation matches the Kings Plain English Translation. The 28:5 quotation now matches too.
 15. Fixed (16:15) to 2 Kings 16:15, (24:15) to 2 Kings 24:15, and 23:12 to 2 Kings 23:12. All bare references in topic contributions now carry "2 Chronicles".
 16. 36:10: both readings of 1 Chronicles 3:16 are now given.
 17. 33:19: the unsourced Hozai and Isaiah claim was removed.
@@ -252,5 +252,5 @@ All findings were addressed. `node tools/build.js --check 2Ch/25-36` returns 0 e
 26. Chapter-page quotations were fixed: thornbush, counselor and "help came to him in wonderful ways". The ch. 25 echo is now 2 Kings 14:19.
 27. Glosses: "tried to tell the future", "watched for lucky signs", shooters as "men with bows". The 34:28 gloss was removed, and the 35:25 gloss no longer says "lost".
 28. 32:26 now reads "humbled himself for the pride of his heart". Also fixed: 32:31 "God left him", 36:19 "fortified palaces", 30:7 "made them a horror", 29:30 "praised with joy", 31:2 "camps", 26:6 "in the region of Ashdod".
-29. Sentences split at 26:21, 31:1–3, 31:10, 31:16, 31:19, 32:31, 33:7, 33:19, 34:4, 34:8, 34:9 and 34:31. Left long: 25:18, 25:24 and 28:3, which reuse the site's 2 Kings Plain under the parallel rule, and the name lists 29:12 and 31:13, which have no natural break.
+29. Sentences split at 26:21, 31:1–3, 31:10, 31:16, 31:19, 32:31, 33:7, 33:19, 34:4, 34:8, 34:9 and 34:31. Left long: 25:18, 25:24 and 28:3, which reuse the site's 2 Kings Plain English Translation under the parallel rule, and the name lists 29:12 and 31:13, which have no natural break.
 30. A "Daniel's seventy weeks" section was added to the seventy-years core: Christian messianic count, Collins and Antiochus IV, and Seder Olam 28. The 36:21 note points to the Daniel topic.

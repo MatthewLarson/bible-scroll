@@ -22,4 +22,4 @@ Write in Markdown: `##` and `###` headings, blank lines between paragraphs, `- `
 **bold**, *italic*, and [links](https://example.com). A line that starts with `<` is kept as HTML.
 
 Bible references written out in full, like Genesis 15:6 or Romans 4:3, become clickable on the site and show the
-verse. Quote a verse in the site's own Plain English wording where the book has been translated.
+verse. Quote a verse in the site's own Plain English Translation wording where the book has been translated.

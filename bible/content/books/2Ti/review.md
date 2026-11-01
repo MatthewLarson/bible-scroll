@@ -2,14 +2,14 @@
 
 ## Verdict
 
-The book is careful and mostly sound. `node tools/build.js --check 2Ti` gives 0 errors and 0 warnings. The Plain is well reshaped. I found no invented source, quotation or fragment, and I found no drift toward the NIV/ESV that is worse than the forced phrases. Most of the checkable sources hold up when opened this session: 1 Clement 5, Eusebius 2.22 and 2.25, Irenaeus 3.3.3, Tacitus 15.44, Harrison's own sentence, Dei Verbum 11, the Chicago Statement wording, Dositheus Decrees 2, 10 and 18, CCC 1030-1032, Targum Pseudo-Jonathan on Exodus 1:15 and Numbers 22:22, Pliny 30.2.11, and the Sinaiticus readings at 1:11, 2:14, 4:10 and 4:22.
+The book is careful and mostly sound. `node tools/build.js --check 2Ti` gives 0 errors and 0 warnings. The Plain English Translation is well reshaped. I found no invented source, quotation or fragment, and I found no drift toward the NIV/ESV that is worse than the forced phrases. Most of the checkable sources hold up when opened this session: 1 Clement 5, Eusebius 2.22 and 2.25, Irenaeus 3.3.3, Tacitus 15.44, Harrison's own sentence, Dei Verbum 11, the Chicago Statement wording, Dositheus Decrees 2, 10 and 18, CCC 1030-1032, Targum Pseudo-Jonathan on Exodus 1:15 and Numbers 22:22, Pliny 30.2.11, and the Sinaiticus readings at 1:11, 2:14, 4:10 and 4:22.
 
 The real problems are these:
 - The authorship section is thin on named scholars for the pro-Paul side.
 - Three of the four traditions cards do not answer the question they ask for several of the churches listed. The Scripture card leaves out Lutherans, whom the brief required.
-- Plain choices at 1:6, 2:2 and 3:17 commit to one reading or break a term link that the site itself sets up elsewhere (1 Timothy 4:14 and 6:11).
+- Plain English Translation choices at 1:6, 2:2 and 3:17 commit to one reading or break a term link that the site itself sets up elsewhere (1 Timothy 4:14 and 6:11).
 - The variants file lists a witness wrongly (Tregelles at 1:11). It also states several Tischendorf-Sinaiticus details I could not verify.
-- Some quotes of other books' Plain do not match.
+- Some quotes of other books' Plain English Translation do not match.
 - Many small assertions have no source.
 
 Sources I did not verify (stated as unverified in the findings): the exact Sinaiticus first-hand and corrector readings at 2:3, 2:7, 2:13, 2:19, 3:3, 3:14, 4:1 and 4:14, and the "Amen" corrector at 4:22. The St. Mary's text of the Damascus Document and the Chester Beatty details were not available to me.
@@ -54,22 +54,22 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 - Fix: replace the Anglican and Methodist rows with their actual position on prayer for the dead, or state that the Articles address purgatory and not prayer. Cite the Apology itself. Label the dialogue statement as a dialogue statement, with the LCMS caveat as the LCMS view.
 
 **5. Major. plain.txt 2:2 "with many witnesses there" and "pass on"; note 31.**
-- The Greek is διὰ πολλῶν μαρτύρων, "through many witnesses". The Plain picks "in the presence of" (the common choice in English Bibles) and hides the "through" reading that the note itself lists.
-- Note 31 says "Most readers take it as ... in the presence of". That is unsourced, and its first reading is the one the Plain has already chosen.
-- The Plain also renders παράθου as "pass on". The note admits it is the same root as the "deposit" (παραθήκη) of 1:12 and 1:14, so the one link the letter builds is lost in English. A word such as "entrust" would keep it.
-- Fix: keep the ambiguity in the Plain, for example "with many witnesses to it", or move the reading into the variant-style note with equal weight. Use "entrust" in 2:2, or add a gloss that links it to the deposit.
+- The Greek is διὰ πολλῶν μαρτύρων, "through many witnesses". The Plain English Translation picks "in the presence of" (the common choice in English Bibles) and hides the "through" reading that the note itself lists.
+- Note 31 says "Most readers take it as ... in the presence of". That is unsourced, and its first reading is the one the Plain English Translation has already chosen.
+- The Plain English Translation also renders παράθου as "pass on". The note admits it is the same root as the "deposit" (παραθήκη) of 1:12 and 1:14, so the one link the letter builds is lost in English. A word such as "entrust" would keep it.
+- Fix: keep the ambiguity in the Plain English Translation, for example "with many witnesses to it", or move the reading into the variant-style note with equal weight. Use "entrust" in 2:2, or add a gloss that links it to the deposit.
 
 **6. Major. plain.txt 1:6 "because I laid my hands on you".**
 - The Greek is διὰ τῆς ἐπιθέσεως τῶν χειρῶν μου, "through the laying on of my hands". "Because" turns an instrumental or accompanying phrase into a cause.
-- The site's own Plain of 1 Timothy 4:14 says "with the laying on of the elders' hands". The two verses are the main ordination texts, so the difference in wording is read as a difference in sense.
+- The site's own Plain English Translation of 1 Timothy 4:14 says "with the laying on of the elders' hands". The two verses are the main ordination texts, so the difference in wording is read as a difference in sense.
 - The verse is the key place in this book (ordination and succession), and the choice leans toward one side of the card.
 - Fix: use "through" or "with the laying on of my hands", and let the note discuss διά.
 
 **7. Major. plain.txt 3:17 "the one who belongs to God" against 1 Timothy 6:11.**
-- The Greek is ὁ τοῦ θεοῦ ἄνθρωπος. The site's Plain of 1 Timothy 6:11 reads "man of God".
-- Note 81 says 1 Timothy 6:11 gives Timothy "the same title", but a reader of the Plain cannot see that.
-- The title is the Old Testament prophet title (Moses, Elijah). The Plain replaces a fixed expression with a different idea of belonging.
-- The note says the Plain avoids the sex-specific form to "keep both" readings. That is the right worry, but the cost is the lost cross-reference.
+- The Greek is ὁ τοῦ θεοῦ ἄνθρωπος. The site's Plain English Translation of 1 Timothy 6:11 reads "man of God".
+- Note 81 says 1 Timothy 6:11 gives Timothy "the same title", but a reader of the Plain English Translation cannot see that.
+- The title is the Old Testament prophet title (Moses, Elijah). The Plain English Translation replaces a fixed expression with a different idea of belonging.
+- The note says the Plain English Translation avoids the sex-specific form to "keep both" readings. That is the right worry, but the cost is the lost cross-reference.
 - Fix: "the person of God" with a gloss, or "man of God" with a note on ἄνθρωπος. Use the same rendering in 1 Timothy 6:11 and 2 Timothy 3:17, or put the divergence in terms.json with a "why".
 
 **8. Major. variants.json 1:11: wrong witness list.**
@@ -92,17 +92,17 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 ### Minor
 
 **10. Minor. plain.txt 4:22 "Grace be with you all"; note 113; variants 4:22.**
-- The Greek is ἡ χάρις μεθ᾽ ὑμῶν, with no πάντων. Titus 3:15 has πάντων, and the site's 1 Timothy 6:21 Plain reads "Grace be with you all" too, so this verse has copied the Titus wording.
-- The variants entry itself glosses the Greek as "Grace (be) with you", then prints "all" in the Plain column.
+- The Greek is ἡ χάρις μεθ᾽ ὑμῶν, with no πάντων. Titus 3:15 has πάντων, and the site's 1 Timothy 6:21 Plain English Translation reads "Grace be with you all" too, so this verse has copied the Titus wording.
+- The variants entry itself glosses the Greek as "Grace (be) with you", then prints "all" in the Plain English Translation column.
 - The plural point, which is what the audience card needs, holds without "all". Several settings and card texts quote "Grace be with you all", and these will need the change too.
 - Note 113 says "The same switch ends 1 Timothy and Titus". There is no singular-then-plural switch in either. 1 Timothy 6:21 and Titus 3:15 have only the plural.
 - Fix: drop "all". Correct the note to say the plural alone is common to the three letters.
 
-**11. Minor. Quotes that do not match the site's Plain of the other book.**
-- Note 69: "upsetting whole households" (Titus 1:11). The Plain of Titus 1:11 reads "turning whole households upside down".
-- Note 85: "old wives' tales" (1 Timothy 4:7). The Plain reads "the kind of tales old women tell".
+**11. Minor. Quotes that do not match the site's Plain English Translation of the other book.**
+- Note 69: "upsetting whole households" (Titus 1:11). The Plain English Translation of Titus 1:11 reads "turning whole households upside down".
+- Note 85: "old wives' tales" (1 Timothy 4:7). The Plain English Translation reads "the kind of tales old women tell".
 - Notes 77, 78, 79 and 64 (and chapter 3's deep dive) quote 2 Peter 1:21 and 3:16 and Hebrews 1:2 in the writer's own words. These books are not yet written on the site, so the quotes will need to be aligned when they are.
-- The Plain of Rom 6:8, Acts and the other cited verses matched when checked, with the exceptions above. The build did not catch these because it matches only exact quotes.
+- The Plain English Translation of Rom 6:8, Acts and the other cited verses matched when checked, with the exceptions above. The build did not catch these because it matches only exact quotes.
 - Fix: use the other books' wording exactly, or paraphrase without quotation marks.
 
 **12. Minor. Eusebius and 1 Clement paraphrases.**
@@ -115,7 +115,7 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 **13. Minor. Variants coverage and an overbroad claim.**
 - `texts/auto/2Ti.json` shows differences the file passes over. Two of them touch the notes' own themes:
   - 1:14: the TR reads παρακαταθήκην for παραθήκην in the key "deposit" word.
-  - 1:17: σπουδαίως against σπουδαιότερον (the Plain's "eagerly").
+  - 1:17: σπουδαίως against σπουδαιότερον (the Plain English Translation's "eagerly").
   - 2:18: NA28 brackets τὴν before ἀνάστασιν.
   - 3:15: NA28 brackets τά.
   - 3:16: the Byzantine text reads ἔλεγχον for ἐλεγμόν.
@@ -123,7 +123,7 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 - Fix: add the 1:14 and 3:16 entries at least, or state that small spelling and word differences are not entered.
 
 **14. Minor. variants.json 2:14.**
-- The Plain follows SBL and Tyndale House ("Lord") against NA28 and Sinaiticus ("God"). Everywhere else the Plain follows NA28 and Sinaiticus.
+- The Plain English Translation follows SBL and Tyndale House ("Lord") against NA28 and Sinaiticus ("God"). Everywhere else the Plain English Translation follows NA28 and Sinaiticus.
 - Wikipedia's list puts θεοῦ in ℵ, C, G, I and others. The entry says the readings are "evenly matched". The reason is stated honestly, but "evenly matched" understates the support for "God".
 - Fix: state why the exception is made, or follow the pattern.
 
@@ -136,10 +136,10 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 - 3:1: "the final era before the end" takes a side on the "last days" question that note 64 says is open (present time or future).
 - Fix: "the winner's wreath" only; "the time before Christ's return, which the New Testament says has begun".
 
-**17. Minor. Plain drift (checked in my head only).**
+**17. Minor. Plain English Translation drift (checked in my head only).**
 - 4:17 follows the clause pattern of the ESV closely ("proclamation ... carried through in full and all the Gentiles would hear it"). Rebuild it.
 - 1:9 keeps the common English chain "not because of ... but because of his own purpose and grace". The Greek order allows a different shape.
-- 1:10 "done away with death's power" adds "power". Note 18 does explain it, but the Plain should show the addition (a gloss).
+- 1:10 "done away with death's power" adds "power". Note 18 does explain it, but the Plain English Translation should show the addition (a gloss).
 - The forced phrases ("kept the faith", "crown of righteousness", "on that day") are fine.
 
 **18. Minor. book.json.**
@@ -169,10 +169,10 @@ Sources I did not verify (stated as unverified in the findings): the exact Sinai
 
 ## Checked and found sound
 
-- **Plain against the Greek, verse by verse.** I found no mistranslation, omission or wrong name or number beyond the points above (1:6, 2:2, 3:17, 4:22 and the small additions). The key terms are consistent with terms.json and with the 1 Timothy and Titus Plain: "God-breathed", "deposit", "sound", "godliness", "appearing", "This saying is trustworthy".
+- **Plain English Translation against the Greek, verse by verse.** I found no mistranslation, omission or wrong name or number beyond the points above (1:6, 2:2, 3:17, 4:22 and the small additions). The key terms are consistent with terms.json and with the 1 Timothy and Titus Plain English Translation: "God-breathed", "deposit", "sound", "godliness", "appearing", "This saying is trustworthy".
 - **Counts.** "Christ Jesus" is 11 times and "Jesus Christ" twice in the SBL text (note 1). The vice list in 3:2-5 has eighteen items (note 65). Prisca is named first four times out of six (note 107).
 - **Settings and audience.** The settings cover the greeting, thanks and appeal, charge, saying, false teaching, last days, remaining in the Scriptures, last charge and requests. The three views of the audience (Ephesus, elsewhere in Asia, later churches) are fair.
-- **Quotes of other books' Plain** match, other than those in finding 11.
+- **Quotes of other books' Plain English Translation** match, other than those in finding 11.
 - **Cross-references and topics.** I found no duplicate topic. `inspiration-of-scripture` is new, and `canon`, `word-of-god` and `scripture-and-tradition` exist and are linked.
 - **Chicago Statement.** The articles quoted are Article VI (whole of Scripture and all its parts inspired), Article VIII (personality and style), Article X (autographic text) and Article XII (inerrant in its entirety). Dei Verbum 11 has "solidly, faithfully and without error".
 - **Dositheus.** The quoted phrases "God-taught" and "not of inferior authority" (Decree 2), "continued succession" (Decree 10) and "especially the unbloody Sacrifice" (Decree 18) are in the crivoice.org text. The Confession does not use the word "purgatory", which matches the row.
@@ -185,13 +185,13 @@ Sources opened for these fixes are listed in `.scratch/2Ti-fix/sources-checked.m
 2. Fixed. Lutheran row added from the Formula of Concord, Epitome, Rule and Norm 1 and 8 (bookofconcord.org); Pentecostal row added from Assemblies of God Fundamental Truth 1 as quoted in the AG 2015 position paper; the Evangelical row now says the Chicago Statement was drawn up by 200+ evangelical leaders from a variety of denominations (Wikipedia). Lutheran and AG sentences added to the `inspiration-of-scripture` core.
 3. Fixed. Catholic row re-cited from CCC 1555-1556 (vatican.va; footnote 35 cites 2 Tim 1:6-7); Anglican row now answers the question from the Episcopal Church's Preface to the Ordination Rites; Lutheran row adds Apology 14.24-25; Reformed row quotes the Second Helvetic Confession 18 (ccel). Baptist row dropped (it answered a different question; no Baptist source on succession was opened). Pentecostal not added (no source opened). `elders` contribution updated.
 4. Fixed. Anglican row replaced with the Episcopal Church burial rite's prayers for the departed (bcponline.org); Methodist row replaced with Ask The UMC (2021) and the Book of Worship petition it quotes; Lutheran row now cites Apology 24.94 itself (`apology-augsburg`); the LCMS Reporter remark and its source key were removed (not reopened). Baptist and Pentecostal not added (no source opened).
-5. Fixed. 2:2 Plain now "The things you heard from me through many witnesses, entrust to faithful people, ..."; note 31 gives both readings of dia with equal weight and drops "Most readers"; note 32 explains "entrust" and the deposit link; new gloss "entrust"; the paratheke entry in proposals/nt/terms.json records the verb.
-6. Fixed (lead decision 1). 1:6 Plain "through the laying on of my hands"; note 10 discusses dia here against meta in 1 Timothy 4:14 (quoting its current Plain); gloss re-anchored.
-7. Fixed (lead decision 2). 3:17 Plain "the man of God", matching 1 Timothy 6:11; note 81 says anthropos is the generic word ("the person of God"); deep dive and topic text updated.
+5. Fixed. 2:2 Plain English Translation now "The things you heard from me through many witnesses, entrust to faithful people, ..."; note 31 gives both readings of dia with equal weight and drops "Most readers"; note 32 explains "entrust" and the deposit link; new gloss "entrust"; the paratheke entry in proposals/nt/terms.json records the verb.
+6. Fixed (lead decision 1). 1:6 Plain English Translation "through the laying on of my hands"; note 10 discusses dia here against meta in 1 Timothy 4:14 (quoting its current Plain English Translation); gloss re-anchored.
+7. Fixed (lead decision 2). 3:17 Plain English Translation "the man of God", matching 1 Timothy 6:11; note 81 says anthropos is the generic word ("the person of God"); deep dive and topic text updated.
 8. Fixed. Tregelles moved to the long reading at 1:11 (texts/auto flags Treg+TR+Byz). All other witness lists rechecked against the flags: they agree.
 9. Fixed by verification. Opened Tischendorf's 1865 Sinaiticus edition in the Source Library (printed pp. 440-445): every Sinaiticus claim at 1:11, 2:3, 2:7, 2:13, 2:14, 2:19 (κυρίου and πάντας, both changed by a corrector), 3:14, 4:1, 4:10, 4:14 and 4:22 (corrector adds "Jesus Christ" and "Amen") is confirmed. 3:3: ἄστοργοι is absent from Sinaiticus with no corrector note, so note 66 now says "missing in Codex Sinaiticus as Tischendorf prints it" instead of "first hand".
-10. Fixed. 4:22 Plain "Grace be with you." (no "all"); note 113 rewritten (no "switch" claim; says 1 Timothy 6:21 and Titus 3:15 also end with a plural, Titus adding "all"); variant 4:22 anchors, book facts, audience and both settings updated. For the lead: 1 Timothy 6:21 has the same Greek (μεθ’ ὑμῶν) and its Plain still reads "with you all".
-11. Fixed. Titus 1:11 and 1 Timothy 4:7 quotes now match their current Plain; also fixed a 1 Timothy 1:5 quote ("a good conscience and a faith without pretense"). All 1 Timothy and Titus quotes rechecked by script. Quotes of 2 Peter 1:21, 3:16 and Hebrews 1:2 (notes 64, 77, 78, 79, the chapter 3 deep dive, the inspiration core) are left for the lead's sync once those books exist.
+10. Fixed. 4:22 Plain English Translation "Grace be with you." (no "all"); note 113 rewritten (no "switch" claim; says 1 Timothy 6:21 and Titus 3:15 also end with a plural, Titus adding "all"); variant 4:22 anchors, book facts, audience and both settings updated. For the lead: 1 Timothy 6:21 has the same Greek (μεθ’ ὑμῶν) and its Plain English Translation still reads "with you all".
+11. Fixed. Titus 1:11 and 1 Timothy 4:7 quotes now match their current Plain English Translation; also fixed a 1 Timothy 1:5 quote ("a good conscience and a faith without pretense"). All 1 Timothy and Titus quotes rechecked by script. Quotes of 2 Peter 1:21, 3:16 and Hebrews 1:2 (notes 64, 77, 78, 79, the chapter 3 deep dive, the inspiration core) are left for the lead's sync once those books exist.
 12. Fixed. Note 95 and the `luke` contribution quote Eusebius 2.22.6 exactly ("but at his first defense not even he"; "it is probable that Luke wrote the Acts of the Apostles at that time"). The release and second imprisonment are now presented as what "is said" (book.json, chapter 1, the `paul` topic), with Bruce's remark that Eusebius introduces it with "the story goes". "Bore testimony before the rulers" is now quoted from F. F. Bruce's translation of 1 Clement 5.
 13. Fixed. New variants at 1:14 (TR παρακαταθήκην) and 3:16 (Byzantine ἔλεγχον), both checked in Tischendorf; "do not differ" statements narrowed to the key clause (chapter 3 C view, deep dive, note 77, `inspiration-of-scripture`); book.json now says small spelling and word-order differences are not entered (1:17, 2:18, 3:15).
 14. Partly accepted. The SBLGNT is the site's base text for the New Testament, so following it at 2:14 is the rule, not an exception (2:13 is the exception). "Evenly matched" is removed and the why now says the support for "God" (NA28, Sinaiticus) is strong.

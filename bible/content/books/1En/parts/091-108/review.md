@@ -7,7 +7,7 @@ content/topics/wealth.json; the five new rows in content/terms.json. `node tools
 
 ## Verdict
 
-The Plain is careful work. I read every verse against Dillmann's Ge'ez (with the transliteration) and the EOTC text. Most
+The Plain English Translation is careful work. I read every verse against Dillmann's Ge'ez (with the transliteration) and the EOTC text. Most
 verses follow the Ge'ez closely, keep its odd spots instead of borrowing Charles's emendations (91:9, 96:5, 96:6, 97:9,
 99:12) and avoid modern copyrighted wording. The notes are dense and mostly accurate. The textual side is the weak part,
 and it falls short of the brief. The writer says five times that chapter 105 is "found only in Ge'ez", but Milik's
@@ -55,7 +55,7 @@ out and misstated. It needs one more pass on witnesses before it can be marked r
   - 100:6: Bonner's introduction notes that the Greek has "this **letter**" where the Ethiopic has "this book". Your
     100:6 note says "Notice that the verse speaks of 'this book'", so this is the one Greek detail that bears directly
     on a note you wrote.
-  - 103:5: Charles's "if ye die in the wealth of your sins" comes from the Greek; the Plain has only "die in your sins",
+  - 103:5: Charles's "if ye die in the wealth of your sins" comes from the Greek; the Plain English Translation has only "die in your sins",
     with no entry.
   - 103:4: your note says Charles's "shall not perish" "comes from a different reading" but does not name it. Name it.
   - 99:7: same problem with "not according to knowledge": name the witness.
@@ -76,11 +76,11 @@ out and misstated. It needs one more pass on witnesses before it can be marked r
   If that is not available, drop the entry and keep a short note.
 
 ### 4. MAJOR: 92:1 mistranslated: "from the one whom all people praise, the judge of the whole earth"
-- **Where:** plain.txt 92:1; notes.json 92:1 ("The Plain keeps the ambiguity").
+- **Where:** plain.txt 92:1; notes.json 92:1 ("The Plain English Translation keeps the ambiguity").
 - **Evidence:** ʾəmkʷilu säbʾ səbuḥ wämäkʷännä kʷilu mədr. The preposition ʾəm- goes with "all people": "praised **by**
-  (from) all people, and judge of all the earth". The Ge'ez has no "the one". The Plain moves "from" onto a new
+  (from) all people, and judge of all the earth". The Ge'ez has no "the one". The Plain English Translation moves "from" onto a new
   "the one", so the line now reads as the source of the teaching. Next to "judge of the whole earth" (Genesis 18:25),
-  readers will take that source to be God. The Plain does not keep the ambiguity: it creates a third reading. Also,
+  readers will take that source to be God. The Plain English Translation does not keep the ambiguity: it creates a third reading. Also,
   4Q212 preserves part of 92:1 (Milik's contents list: 92:1–2), and its titles for Enoch, as Milik and Nickelsburg read
   them, are not the same as the Ethiopic. The note does not mention this.
 - **Fix:** Render something like "praised by all people and judge of the whole earth", with Enoch (or the teaching) as
@@ -90,18 +90,18 @@ out and misstated. It needs one more pass on witnesses before it can be marked r
 - **Where:** plain.txt 103:9; notes.json 103:9; chapters.json ch. 103 settings 103:9–15.
 - **Evidence:** Dillmann has ሰላም ፡ እትበልዎሙ ፡ ለጻድቃን and the EOTC has ኢትበልዎሙ፡ ለጻድቃን (ʾitəbälwomu lä-ṣadqan). The verb
   carries a 3rd-person plural object suffix (-omu) that is picked up by lä-ṣadqan: "do not say **to/about them, the
-  righteous** ...". That is not a vocative. The Plain's "You righteous and good who are still alive, do not say" may
+  righteous** ...". That is not a vocative. The Plain English Translation's "You righteous and good who are still alive, do not say" may
   follow the Greek or Nickelsburg's reading, but that is never said, and the note calls the Ge'ez ambiguous ("can mean
   ... 'do not say, you righteous'"). The settings card has a second view, "Charles read it as the sinners' mocking
   description", which is unsourced. Charles's English ("Say not in regard to the righteous...") does not say who
   speaks, and the 1912 commentary note behind the claim is not cited. The writer listed this as unsure, rightly.
 - **Fix:** Either translate the Ge'ez ("Do not say about the righteous and good who are alive: ...") and give the vocative
   reading as a variant with its witness (the Greek, if Bonner's text supports it, as reported by whom), or keep the
-  vocative and add that variant, saying the Plain follows the Greek and why. Give a page reference in Charles 1912 for
+  vocative and add that variant, saying the Plain English Translation follows the Greek and why. Give a page reference in Charles 1912 for
   the "sinners mock" view or remove it. If it stays, also name the scholar who reads 103:9–15 as the sinners' words.
 
 ### 6. MAJOR: 106:17 "fathering beings": a supplied word in place of "giants", with no variant entry
-- **Where:** plain.txt 106:17; notes.json 106:17 ("The Plain says 'beings' to avoid adding a word the Ge'ez lacks").
+- **Where:** plain.txt 106:17; notes.json 106:17 ("The Plain English Translation says 'beings' to avoid adding a word the Ge'ez lacks").
 - **Evidence:** Both Ge'ez texts read ይወልዱ ፡ ዲበ ፡ ምድር ፡ እለ ፡ ያርብሕ ፡ አኮ ፡ ዘመንፈስ ፡ አላ ፡ ዘሥጋ. The Ge'ez does not lack a word
   here. It has a corrupt one (ʾəllä yarbəḥ), and "beings" is just as much an addition as "giants". The verse falls
   inside the Greek papyrus (97:6–107:3) and inside 4Q204 frag. 5 col. ii (106:13–107:2). The brief says: where the
@@ -110,7 +110,7 @@ out and misstated. It needs one more pass on witnesses before it can be marked r
   progressive "are fathering" is acceptable, but 106:14 already has them "fathered" children, so say in the note which
   time is meant.
 - **Fix:** Look up the Greek (Bonner) and the Aramaic (Milik 4Q204 5 ii) for 106:17. If the Greek has γίγαντας, as
-  Charles's "giants" implies, follow it in the Plain ("They are fathering giants on the earth, not of spirit but of
+  Charles's "giants" implies, follow it in the Plain English Translation ("They are fathering giants on the earth, not of spirit but of
   flesh") and add a variant: Ge'ez ʾəllä yarbəḥ (corrupt) against the Greek papyrus, with whose report. Rewrite the note.
 
 ### 7. MAJOR: 91:14 note says the Aramaic "is broken at this point"; the Aramaic of the ninth week is preserved and differs
@@ -181,7 +181,7 @@ Revelation 5:1 is the sealed scroll. Use Revelation 20:12 or 3:5 instead.
 There is no 105:3. Use "92–105" or "92:1–105:2".
 
 ### 14. minor: woe count
-The 94:6 note, the ch. 94 settings and the enoch topic say "about thirty-two woes fill chapters 94–100". The Plain has 30
+The 94:6 note, the ch. 94 settings and the enoch topic say "about thirty-two woes fill chapters 94–100". The Plain English Translation has 30
 "Woe" lines in 94–100 (94:6–8; 95:4–7; 96:4–8; 97:7–8; 98:9–15; 99:1–2, 11–15; 100:7–9) and 32 if you add 103:5 and 103:8.
 Say "about thirty in 94–100" or "thirty-two in 94–103".
 
@@ -214,12 +214,12 @@ translations (Charles, Nickelsburg–VanderKam)".
 
 ### 20. minor: 99:5: the miscarriage/abortion reading is not mentioned
 The note gives only the "pregnant" alternative. Some translators render the line as women aborting or miscarrying their
-infants (Isaac's English is often cited this way), and yədḫəḍ in the Plain's "slip from their hands" is the word
+infants (Isaac's English is often cited this way), and yədḫəḍ in the Plain English Translation's "slip from their hands" is the word
 involved. Add one sentence naming who reads it that way.
 
 ### 21. minor: 102:5 "Look instead to the day that belongs to the sinners"
 The Ge'ez (bäʿlät ʾəntä bati konkəmu ḫaṭʾanä, "on the day in which you were [made] sinners"?) is odd. Charles's "wait for
-the day of the judgement of sinners" comes from the Greek. The Plain smooths the line with a supplied "Look" and gives
+the day of the judgement of sinners" comes from the Greek. The Plain English Translation smooths the line with a supplied "Look" and gives
 no note. Add a word note or a variant.
 
 ### 22. minor: 96:3 variant: the EOTC addition is in the wrong place
@@ -255,7 +255,7 @@ keep only the angels you can confirm, and add sources for the other views (for e
 prayer to God alone).
 
 ### 27. minor: terms.json "täklä ṣədq (1 Enoch 10:16; 84:6; 93:2–10) = the plant of righteousness"
-84:6 is not täklä ṣədq. Its Plain (part 083-090) reads "set it up as a plant that grows from seed forever" for a
+84:6 is not täklä ṣədq. Its Plain English Translation (part 083-090) reads "set it up as a plant that grows from seed forever" for a
 different phrase (täklä zärʾ). Remove 84:6 from the row, or the row claims a rendering that the site does not use there.
 The other four new rows are followed consistently in this part: "Woe to" (36 times, never "Alas"), "the Most High" for
 ləʿul throughout, ʿämäḍa = injustice / gəfʿ = violence (checked at 91:5–8, 91:18–19, 94:6, 95:7, 97:10, 98:6–8, 99:15,
@@ -280,7 +280,7 @@ duplicates an existing one: poverty.json exists and is linked as `related`; ther
 - **Sources in sources.json:** Stuckenbruck (CEJL 2007), Nickelsburg *NTS* 25 (1979) 324–344, VanderKam *CBQ* 46 (1984)
   511–523, Bonner (SD 8, 1937) and Fitzmyer (BibOr 18/B, 2004) all exist as cited. `cowley-ethiopian` (used by the ch.
   104 card) is defined in content/sources.json.
-- **Verse cuts:** the known cut problems at 91:16/17, 96:2/3, 98:2/3 and 102:3/4 are handled correctly in the Plain.
+- **Verse cuts:** the known cut problems at 91:16/17, 96:2/3, 98:2/3 and 102:3/4 are handled correctly in the Plain English Translation.
   98:16 and 100:13 (joins) have entries. "[11]" at 108:12 is rendered "each one", correctly.
 - **Other checks:** no em-dashes in the prose. Every chapter has `settings`, and 107 is covered by the 106:1–107:3 card.
   All five lenses are used.
@@ -326,14 +326,14 @@ explained under each.**
    so I dropped the variant. The note now says this. It credits "children of righteousness" to Ethiopic manuscripts
    Charles followed, which are not identified.
 4. **Fixed.**
-   - The Plain now reads "Written by Enoch the scribe, praised by all people and judge of the whole earth: this
+   - The Plain English Translation now reads "Written by Enoch the scribe, praised by all people and judge of the whole earth: this
      complete teaching of wisdom."
-   - The note has a new anchor and says the Plain follows the most common reading.
+   - The note has a new anchor and says the Plain English Translation follows the most common reading.
    - It also reports the Aramaic as Milik restores it on p. 274: "the scribe of distinction"; "the wisest of men" is
      restored text.
    - Ch. 92 `views.J` mentions this too.
 5. **Fixed. The vocative variant is declined.**
-   - The Plain now follows the Ge'ez: "Do not say about the righteous and good who are still alive".
+   - The Plain English Translation now follows the Ge'ez: "Do not say about the righteous and good who are still alive".
    - The note was rewritten to explain the -omu suffix. It mentions the vocative reading of some modern
      translators, and says whether the Greek supports it has not been checked.
    - The unsourced "Charles: the sinners mock" view is gone from the note and the settings card. The card now
@@ -344,7 +344,7 @@ explained under each.**
    - New 106:17 variant: Ge'ez ʾəllä yarbəḥ (unclear), against the Aramaic 4Q204 5 ii as rendered by Milik on p. 224
      ("creatures of flesh", not spiritual beings), against Charles's "giants".
    - Note rewritten: "beings" is admitted to be a supplied word too.
-   - Declined: I did not switch the Plain to "giants". The Greek was not checked, and Milik's Aramaic rendering does
+   - Declined: I did not switch the Plain English Translation to "giants". The Greek was not checked, and Milik's Aramaic rendering does
      not have "giants", so the old reviewer's condition ("if the Greek has γίγαντας") could not be confirmed.
 7. **Fixed.**
    - The 91:14 note was rewritten from Milik p. 281: judgment revealed "for all the children of the whole earth", and
@@ -391,7 +391,7 @@ explained under each.**
 21. **Fixed.** A new word note at 102:5 gives the literal Ge'ez, says "Look" is supplied, gives Charles's sense, and
     says the Greek was not checked.
 22. **Fixed.** The 96:3 variant is now anchored on the first line of 96:3, and the EOTC sentence is placed before it.
-    `b` explains that in the EOTC the sentence stands before "wail like sirens", which the Plain puts at the end of
+    `b` explains that in the EOTC the sentence stands before "wail like sirens", which the Plain English Translation puts at the end of
     96:2.
 23. **Fixed.** The 106:13 note adds EOTC betä wäldu, "the house of his son", against Dillmann bätwəldu.
 24. **Fixed.** The 91:16 note now says "perhaps because". The 108:11 note gives both readings, with 108:14 for the

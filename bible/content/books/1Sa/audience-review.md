@@ -4,7 +4,7 @@ Scope: the `audience` field in each book.json, and the `settings` in each part's
 
 ## Verdict
 
-This is solid work, but it is not ready to publish. The cards are concrete and short, and almost all of them name the speaker and the hearers the way the Hebrew does (checked with `tools/literal.js` and the site's Plain). Each "why" gives a real purpose. Both parables are handled as traps: Nathan's parable is presented as a fake lawsuit that makes David judge himself, and the Tekoa woman's case springs on the king's own oath. The 1 Kings 20 trap is done the same way. Most of the scholar attributions check out. The main problems are these:
+This is solid work, but it is not ready to publish. The cards are concrete and short, and almost all of them name the speaker and the hearers the way the Hebrew does (checked with `tools/literal.js` and the site's Plain English Translation). Each "why" gives a real purpose. Both parables are handled as traps: Nathan's parable is presented as a fake lawsuit that makes David judge himself, and the Tekoa woman's case springs on the king's own oath. The 1 Kings 20 trap is done the same way. Most of the scholar attributions check out. The main problems are these:
 
 - Four views are wrongly attributed to scholars or traditions:
   - Martin Noth is said to have placed the history among the exiles in Babylon, and to have seen hope in it.
@@ -74,8 +74,8 @@ The build passes on all three books: 0 errors. 1 Kings has 1 warning, the old Ez
 ### 6. Major: Absalom's hearers are wrong (2Sa 15:3–4)
 - **Where:** 2Sa ch15 setting, `to` and `when`.
 - **What is wrong:**
-  - `to` is "Israelites from the northern tribes". The text says only that each man came "from one of Israel's tribes" (15:2, Plain), and that "all Israel" came for judgment (15:6). Absalom then launches the revolt from Hebron in Judah, so "northern" contradicts the story.
-  - `when` is "over four years after his return, each morning". But the four years in 15:7 count up to the Hebron vow, not the start of the gate campaign (15:1, "after this"). The Plain follows the Greek and Syriac reading "four" here; the Hebrew has "forty".
+  - `to` is "Israelites from the northern tribes". The text says only that each man came "from one of Israel's tribes" (15:2, Plain English Translation), and that "all Israel" came for judgment (15:6). Absalom then launches the revolt from Hebron in Judah, so "northern" contradicts the story.
+  - `when` is "over four years after his return, each morning". But the four years in 15:7 count up to the Hebron vow, not the start of the gate campaign (15:1, "after this"). The Plain English Translation follows the Greek and Syriac reading "four" here; the Hebrew has "forty".
 - **Fix:** Change `to` to "men from all the tribes of Israel who came to Jerusalem with lawsuits for the king". Change `when` to "after his return to favor, each morning by the road to the gate, for about four years".
 
 ### 7. Major: Oracles and a key speech have no card (all three books)
@@ -115,7 +115,7 @@ These are not strictly required, but each one does work in the story:
 - **1Sa 2:1–10:** "in the hearing of the worshipers at Shiloh". No hearers are named; the text has only "Hannah prayed".
 - **1Sa 10:1–8:** "at the edge of Ramah". The town in 9:27 is not named.
 - **1Sa 15:1–3:** "some years into Saul's reign". The text gives no time.
-- **1Sa 15:26–29:** "When Saul grabs Samuel's robe". The Hebrew and the Plain have only "he caught" (15:27). Saul is named only in 4QSam-a and the Greek.
+- **1Sa 15:26–29:** "When Saul grabs Samuel's robe". The Hebrew and the Plain English Translation have only "he caught" (15:27). Saul is named only in 4QSam-a and the Greek.
 - **1Sa 24:8–15:** "with both bands of men nearby" and "the watching soldiers". The text does not say this.
 - **2Sa 3:28–29:** "in the hearing of his court". Not stated.
 - **2Sa 10:11–12:** "outside Rabbah". Chapter 10 names only "the city gate" (10:8). Rabbah first appears in 11:1.
@@ -131,7 +131,7 @@ These are not strictly required, but each one does work in the story:
 
 ### 11. Minor: Rendsburg is summarized too loosely, and one source does not fit (1Ki 18:27)
 - **What is wrong:**
-  - The card says Rendsburg "argued that one phrase is a crude joke." In fact he argues that *both* words, *siaḥ* (Plain: "lost in thought") and *sig* (Plain: "stepped away"), refer to relieving oneself. He builds on the Targum, Rashi and G. R. Driver, and adds Arabic and Soqotri cognates (CBQ 50, 1988, 414–417).
+  - The card says Rendsburg "argued that one phrase is a crude joke." In fact he argues that *both* words, *siaḥ* (Plain English Translation: "lost in thought") and *sig* (Plain English Translation: "stepped away"), refer to relieving oneself. He builds on the Targum, Rashi and G. R. Driver, and adds Arabic and Soqotri cognates (CBQ 50, 1988, 414–417).
   - The card also cites `smith-baal-cycle` (Smith, *The Ugaritic Baal Cycle*, vol. 1, 1994) for the myths in which Baal is "absent or even dead". Volume 1 covers only KTU 1.1–1.2. Baal's death is in KTU 1.5–1.6, which is treated in volume 2 (Smith and Pitard, 2009).
 - **Fix:** "Gary Rendsburg argued that two of the words ('lost in thought' and 'stepped away') are polite ways of saying Baal had gone to relieve himself, a reading found already in the Targum and Rashi." For the Baal myth, cite a source that covers Baal's death, such as `day-yahweh-gods`, which is already used in this book, or keep Smith and make the claim only about Baal's absence.
 
@@ -173,11 +173,11 @@ These are not strictly required, but each one does work in the story:
 - **What is wrong:** The `to` field puts the 70,000 carriers and 80,000 stonecutters (5:15) inside "men drafted out of all Israel". But 9:20–22 and 2 Chronicles 2:17–18 make those workers non-Israelites. The card's own view raises the issue, but the `to` field settles it.
 - **Fix:** Change `to` to "thirty thousand men drafted out of all Israel, in shifts of ten thousand a month; the text lists separately seventy thousand carriers and eighty thousand stonecutters".
 
-### 19. Minor: Three quotes do not match the site's Plain
+### 19. Minor: Three quotes do not match the site's Plain English Translation
 - **Where:**
-  - **1Sa 23:17:** "and Saul my father knows it too." The Plain has no "and".
-  - **1Sa 26:9–11:** the `what` field is "Do not kill the LORD's anointed" in quotation marks. The Plain reads "You must not kill him. Who has ever stretched out his hand against the LORD's anointed...".
-  - **2Sa 24:1–4:** '1 Chronicles 21:1 says it was "an adversary" (or Satan)'. The site's Plain of 1 Chronicles 21:1 reads "Satan stood up against Israel."
+  - **1Sa 23:17:** "and Saul my father knows it too." The Plain English Translation has no "and".
+  - **1Sa 26:9–11:** the `what` field is "Do not kill the LORD's anointed" in quotation marks. The Plain English Translation reads "You must not kill him. Who has ever stretched out his hand against the LORD's anointed...".
+  - **2Sa 24:1–4:** '1 Chronicles 21:1 says it was "an adversary" (or Satan)'. The site's Plain English Translation of 1 Chronicles 21:1 reads "Satan stood up against Israel."
 - **What is wrong:** The build did not flag these, because they are short phrases.
 - **Fix:** Correct the quote in 1Sa 23:17. Take the quotation marks off the 1Sa 26:9–11 title. Change the 2Sa 24:1–4 text to 'says it was "Satan" (the Hebrew word means "adversary")'.
 
@@ -246,12 +246,12 @@ Settings counts now: 1 Samuel 65 (was 55), 2 Samuel 66 (was 58), 1 Kings 76 (was
 19. **Quotes:**
    - 1Sa 23:17: "Saul my father knows it too."
    - 1Sa 26:9–11: the title is no longer in quotation marks.
-   - 2Sa 24:1–4: "Satan", as the Plain of 1 Chronicles 21:1 has it.
-   - 2Sa 7:4–16: a quoted phrase that is in no Plain has been taken out of quotation marks.
+   - 2Sa 24:1–4: "Satan", as the Plain English Translation of 1 Chronicles 21:1 has it.
+   - 2Sa 7:4–16: a quoted phrase that is in no Plain English Translation has been taken out of quotation marks.
 
-   A script then checked every quoted phrase against the book's Plain. The only phrases left that are not in the Plain are glosses and terms ("no glory", "loved by the LORD", "my God is the LORD", "juridical parable").
+   A script then checked every quoted phrase against the book's Plain English Translation. The only phrases left that are not in the Plain English Translation are glosses and terms ("no glory", "loved by the LORD", "my God is the LORD", "juridical parable").
 20. **2Sa 11:15:** "The narrator holds back comment until the chapter's last line (11:27)."
-21. **1Sa 2:22–25:** the occasion now rests on the offerings. The women line is noted as Hebrew only (the Plain follows the scroll and the Greek).
+21. **1Sa 2:22–25:** the occasion now rests on the offerings. The women line is noted as Hebrew only (the Plain English Translation follows the scroll and the Greek).
 22. **Glosses added** at first use: Deuteronomistic History, royal apology, Succession Narrative and the Göttingen school. "Juridical parable" and the ban (*herem*) were already explained.
 
 **Also done:**

@@ -1,6 +1,6 @@
 # Hostile review: 1 Corinthians 12-14 (part 12-14)
 
-Reviewer: separate hostile-reviewer agent. No content file was edited. Checked against `texts/orig/1Co.json` (SBL and Byzantine, with the edition marks in `w`), `texts/auto/1Co.json`, `terms.json` and `proposals/nt/terms.json`, the sibling parts' Plain, and web sources where noted. `node tools/build.js --check 1Co/12-14` shows 2 errors, 0 warnings; both errors are in `content/proposals/nt/topics/new-covenant.json` (name clash with topic `covenant`), not in this part (finding 24).
+Reviewer: separate hostile-reviewer agent. No content file was edited. Checked against `texts/orig/1Co.json` (SBL and Byzantine, with the edition marks in `w`), `texts/auto/1Co.json`, `terms.json` and `proposals/nt/terms.json`, the sibling parts' Plain English Translation, and web sources where noted. `node tools/build.js --check 1Co/12-14` shows 2 errors, 0 warnings; both errors are in `content/proposals/nt/topics/new-covenant.json` (name clash with topic `covenant`), not in this part (finding 24).
 
 ## Verdict
 
@@ -29,7 +29,7 @@ The translation is mostly faithful and independent of the NIV/ESV. Notes, settin
 - Rule: remove every "not rechecked here" from published text. Either check or cut the witness list down to what is sure (editions, Byz, TR).
 
 **4. Major. notes.json 14:33 ("as in all the churches of the saints"): wrong English versions named.**
-- The note says "The King James and ESV join it to 33; the NIV and NRSV join it to 34". It is the other way round for two of them. The KJV and the NIV join the phrase to 33 ("peace, as in all the churches/congregations ..."). The ESV and NRSV join it to 34 ("As in all the churches of the saints, the women/women ..."). Correct the pairing. The point of the note stands. Also note that the Plain follows the KJV/NIV side.
+- The note says "The King James and ESV join it to 33; the NIV and NRSV join it to 34". It is the other way round for two of them. The KJV and the NIV join the phrase to 33 ("peace, as in all the churches/congregations ..."). The ESV and NRSV join it to 34 ("As in all the churches of the saints, the women/women ..."). Correct the pairing. The point of the note stands. Also note that the Plain English Translation follows the KJV/NIV side.
 
 **5. Major. plain.txt 13:2 and 14:2: μυστήριον rendered "secrets" against the term.**
 - terms.json (Romans 11:25; Ephesians) fixes "mystery" with the gloss "a secret of God, now revealed". The rest of 1 Corinthians follows it: "mystery" at 2:7 and 15:51, "mysteries" at 4:1. Here 13:2 "all the secrets" and 14:2 "he speaks secrets" translate μυστήρια.
@@ -37,11 +37,11 @@ The translation is mostly faithful and independent of the NIV/ESV. Notes, settin
 - Fix: "all the mysteries" and "speaks mysteries" with the gloss, or keep "secrets" with a note that names the departure and says why. 14:25 "secrets" (κρυπτά) is a different word and is fine.
 
 **6. Major. plain.txt 13:4 "swollen with pride" against "puffed up" elsewhere; the deep dive depends on the link.**
-- φυσιόω is "puffed up" at 4:18, 4:19 and 5:2 and "puffs up" at 8:1 in the sibling parts. The chapter-13 deep dive ("Love's portrait, and the Corinthians") says the clause answers "the 'puffed up' of 4:6, 4:18-19, 5:2 and 8:1", but a reader of the Plain sees no common word. The gloss at 13:4 even defines "swollen with pride" as "puffed up".
-- Fix: use "puffed up" (as 8:1 sets "puffs up ... love builds up" against it) or note the departure. Also, 4:6 in the Plain: check that the verb used there is the same.
+- φυσιόω is "puffed up" at 4:18, 4:19 and 5:2 and "puffs up" at 8:1 in the sibling parts. The chapter-13 deep dive ("Love's portrait, and the Corinthians") says the clause answers "the 'puffed up' of 4:6, 4:18-19, 5:2 and 8:1", but a reader of the Plain English Translation sees no common word. The gloss at 13:4 even defines "swollen with pride" as "puffed up".
+- Fix: use "puffed up" (as 8:1 sets "puffs up ... love builds up" against it) or note the departure. Also, 4:6 in the Plain English Translation: check that the verb used there is the same.
 
 **7. Major. plain.txt 14:38 "If anyone ignores this, he is ignored."**
-- The Greek is εἰ δέ τις ἀγνοεῖ, ἀγνοεῖται, with the same stem as ἐπιγινωσκέτω ("recognize") in 14:37. The note (via `why`) explains it as "if anyone does not recognize, he is not recognized", but the Plain has "recognize" in 14:37 and "ignores/ignored" in 14:38, so the wordplay and the 8:3 echo ("known by him") are lost.
+- The Greek is εἰ δέ τις ἀγνοεῖ, ἀγνοεῖται, with the same stem as ἐπιγινωσκέτω ("recognize") in 14:37. The note (via `why`) explains it as "if anyone does not recognize, he is not recognized", but the Plain English Translation has "recognize" in 14:37 and "ignores/ignored" in 14:38, so the wordplay and the 8:3 echo ("known by him") are lost.
 - "Ignores this" also moves the sense from not-knowing toward willful disregard, and it follows the NIV's shape (an "ignores ... ignored" pair). Fix: "If anyone does not recognize this, he is not recognized", and let the variant entry's second reading ("let him stay ignorant") stand.
 
 **8. Major. plain.txt 14:10 "none of them is without meaning": NIV/ESV gloss for ἄφωνον, inconsistent with 12:2.**
@@ -73,7 +73,7 @@ The translation is mostly faithful and independent of the NIV/ESV. Notes, settin
 
 **14. Minor. notes.json 14:21 vs 14:34.** The 14:21 note says "the law" means Scripture as a whole "as in 14:34", but the 14:34 note (which law?) treats that as an open question with four readings. Fix the 14:21 note.
 
-**15. Minor. Quotations of other books do not match the site's Plain exactly.**
+**15. Minor. Quotations of other books do not match the site's Plain English Translation exactly.**
 - note 14:25: "Let us go with you" vs Zech 8:23 "We want to go with you".
 - note 12:13: "and the rock was Christ" vs 10:4 "that rock was the Christ".
 - chapter-13 deep dive: "no one should seek his own good, but the good of the other" vs 10:24 "look for his own good, but for the good of the other person"; "jealousy and quarreling" vs 3:3 "jealousy and strife"; "cheating and wronging" vs 6:8 "do wrong and cheat".
@@ -84,13 +84,13 @@ The translation is mostly faithful and independent of the NIV/ESV. Notes, settin
 
 **17. Minor. Weiss.** Chapter-13 C (and the "A later insertion" setting) says Weiss thought chapter 13 an insertion "because 12:31 and 14:1 read smoothly without it". Weiss (1910) argued that chapter 13 stood elsewhere originally, probably after chapter 8 (links with 8:1), and was moved. The "seam" argument about 12:31b and 14:1a was developed by later writers (for example W. O. Walker, who argues a non-Pauline interpolation; Fee rejects it on the imperatives of 14:1 and 14:39). Restate. The "A piece Paul had used before" view is also unsourced: name a scholar (Harnack's 1912 study is on the hymn's background).
 
-**18. Minor. Plain: smaller translation points.**
+**18. Minor. Plain English Translation: smaller translation points.**
 - 12:2 "however it happened to go" is hard English for ὡς ἂν ἤγεσθε ("however you were led"); "swept along and led off" doubles ἀπαγόμενοι. Say "led off, however you were led".
 - 12:31 renders ζηλοῦτε as a command; the form is also an indicative ("you are eager"). Add a note or a variant-style remark. "A way that goes beyond them all" adds "them all"; the Greek is only καθ᾽ ὑπερβολήν "beyond measure". "And now" drops ἔτι ("still / besides").
-- 12:12 "Christ is like that too" settles in advance the question the note at 12:12 asks (figure or real union). Keep the Greek's "so also is the Christ" in the Plain, or say in the note that the Plain chose the figurative reading.
+- 12:12 "Christ is like that too" settles in advance the question the note at 12:12 asks (figure or real union). Keep the Greek's "so also is the Christ" in the Plain English Translation, or say in the note that the Plain English Translation chose the figurative reading.
 - 13:13 "What lasts, then" drops νυνὶ ("now"), which the temporal reading depends on. The note does not mention it.
 - 14:32 renders ὑποτάσσεται as "answer to" and 14:34 ὑποτασσέσθωσαν as "submit". The reader cannot see the link that several readings of 14:34 rely on. Use the same English.
-- 13:4 "slow to anger" for μακροθυμεῖ: Galatians 5:22 in the Plain has "patience" for the same root and the note lists Gal 5:22 in `r` without explaining the difference. State why.
+- 13:4 "slow to anger" for μακροθυμεῖ: Galatians 5:22 in the Plain English Translation has "patience" for the same root and the note lists Gal 5:22 in `r` without explaining the difference. State why.
 
 **19. Minor. notes.json 12:10 (New Testament prophecy).** "Paul says prophecy is partial (13:9) and must be weighed (14:29), which fits the first view" is a verdict for Grudem's view. Cessationists and the Calvin view also accept weighing and partiality. Give each view its own reading of those verses, add a source for the cessationist reading (Gaffin or Thomas appears elsewhere), or cut the sentence.
 
@@ -119,7 +119,7 @@ The translation is mostly faithful and independent of the NIV/ESV. Notes, settin
 - Chrysostom, Aquinas, Tertullian and Calvin as general-ban witnesses (note 14:34): Chrysostom corrected in 13; the others need page references.
 - Wesley, Notes on 1 Cor 14:34 ("women teaching in public assemblies"): plausible; add the Notes reference, since the cited letter itself does not mention 14:34.
 
-**26. Minor. Reading level.** Average sentence length is 14.3 words, no em-dashes, no sentence-length problems. A few notes carry long sentences of 40 words or more (12:12, 14:34 `b`), but they are notes, not Plain text. No action needed beyond finding 18.
+**26. Minor. Reading level.** Average sentence length is 14.3 words, no em-dashes, no sentence-length problems. A few notes carry long sentences of 40 words or more (12:12, 14:34 `b`), but they are notes, not Plain English Translation text. No action needed beyond finding 18.
 
 ## Checked and found sound
 
@@ -135,10 +135,10 @@ Applied by the review-fixer. Counts after fixes: 84 verses, 63 notes (60 + 12:31
 1. Accepted. 13:3 variant rebuilt as three readings: καυχήσωμαι (P46, A, B; Sinaiticus stated as disputed between apparatuses; NA28, WH), καυθήσομαι (SBLGNT, Tyndale House; Vulgate ut ardeam named separately as Latin support), καυθήσωμαι (Byzantine, TR, Tregelles). The grammar argument is gone; `why` rests on early support, the χ/θ slip and Metzger's martyrdom explanation. "Not rechecked here" removed. I named no manuscript for the omicron form (the NET-note list C D F G is unverified).
 2. Accepted in part. 14:37: Byzantine and TR now split (the article is TR only); `why` reworded. No manuscripts are named for the three readings because I cannot verify them; the entry says it gives editions and points to the NA28 apparatus and Metzger. "Not rechecked" removed.
 3. Accepted in part. 14:38 and 12:31: the unverified witness lists (Sinaiticus, Alexandrinus, Vaticanus, P46, "some Western witnesses") are cut down to editions, Byzantine and TR, which the texts/auto data confirm. No P46/corrector claims added (unverifiable).
-4. Accepted. 14:33 note now says KJV and NIV join the phrase to 33, ESV and NRSV to 34 (the Plain follows the first side, as the note already said).
+4. Accepted. 14:33 note now says KJV and NIV join the phrase to 33, ESV and NRSV to 34 (the Plain English Translation follows the first side, as the note already said).
 5. Accepted per lead decision. 13:2 "all the mysteries", 14:2 "speaks mysteries"; glosses added at both; the 14:2 note now says it is the same word as 4:1, 2:7, 15:51 and Romans 11:25, and that 14:25 "secrets" is krypta.
 6. Accepted per lead decision. 13:4 "puffed up" (gloss moved to "puffed up"); the chapter-13 deep dive says the same English is used for physioo at 4:6, 4:18-19, 5:2 and 8:1.
-7. Accepted. 14:38 "If anyone does not recognize this, he is not recognized." Variant `a` and both readings' Plain updated.
+7. Accepted. 14:38 "If anyone does not recognize this, he is not recognized." Variant `a` and both readings' Plain English Translation updated.
 8. Accepted. 14:10 "none of them is without a voice"; new word note says this is aphonon as at 12:2 and that "has meaning" is the usual reading.
 9. Accepted. 12:28 note: only prophecy is on all four lists; teaching on three. Chapter-12 deep dive: tongues come last in both Corinthian lists, interpretation is in 12:8-10 only.
 10. Accepted. 13:12 note: bronze, silver or similar alloy was the normal mirror; glass mirrors existed but were rare and small. The Corinth-bronze claim is dropped. I did not add the Pliny citation (section number could not be verified).
@@ -146,7 +146,7 @@ Applied by the review-fixer. Counts after fixes: 84 verses, 63 notes (60 + 12:31
 12. Accepted. Pentecostal entry now "Divided" (AG, Foursquare ordain; COGIC and some Oneness bodies do not). Orthodox entry mentions deaconesses. Anabaptist entry adds Old Order, Amish and Hutterite practice. No Schleitheim/Dordrecht claims added (not verified here).
 13. Accepted. Chrysostom removed from the general-ban list; Calvin moved to the speech-type reading; Wire added as an eighth reading in the note, the deep dive, the sum ("eight") and the settings card; 14:36 note says masculine plural is the generic plural.
 14. Accepted. 14:21 note no longer says "as in 14:34".
-15. Accepted. Quotes corrected to the sibling Plain (Zech 8:23, 10:4, 10:24, 3:3, 6:8, 2 Cor 12:4, 8:3). Ezekiel 7:13 removed from the 13:8 `r` of the "love never collapses" note.
+15. Accepted. Quotes corrected to the sibling Plain English Translation (Zech 8:23, 10:4, 10:24, 3:3, 6:8, 2 Cor 12:4, 8:3). Ezekiel 7:13 removed from the 13:8 `r` of the "love never collapses" note.
 16. Accepted. Edwards: preached 1738, first published 1852.
 17. Accepted. Weiss restated (moved from elsewhere, 1910); the 12:31/14:1 seam argument is credited to later writers, Fee's reply added; the "used before" view is labeled a guess. No Harnack citation added.
 18. Accepted. 12:2 "led off ... however you were led"; 12:31 "And besides this ... a way beyond measure" plus a new note on the ζηλοῦτε indicative/imperative; 12:12 "So also is the Christ" (note keeps the question open); 13:13 "But now these three last", note mentions νυνί; 14:32 "submit" with a new note linking 14:34; 13:4 note explains "slow to anger" against "patience" in Galatians 5:22.

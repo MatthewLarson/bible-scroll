@@ -1,18 +1,18 @@
 # Hostile review: Wisdom of Solomon 6-10 (part 06-10)
 
-Reviewer: separate agent, 2026-10-31. Files read: plain.txt, notes.json (82), variants.json (11), glosses.json (41), chapters.json (5), topics.json (16), part sources.json, `.scratch/wis-06-10/` (sources-checked.md, drift-audit.md and the saved pages), `proposals/works/terms.json` and `proposals/works/topics/soul.json`, the Greek (`texts/orig/Wis.json`, Swete), Swete's apparatus (`texts/src/Wis.app.json`), the Vulgate/Douay (`texts/src/Wis.lat.json`), the KJV (`texts/en/Wis.json`), and the site's Plain of 1 Kings 3 and 2 Chronicles 1.
+Reviewer: separate agent, 2026-10-31. Files read: plain.txt, notes.json (82), variants.json (11), glosses.json (41), chapters.json (5), topics.json (16), part sources.json, `.scratch/wis-06-10/` (sources-checked.md, drift-audit.md and the saved pages), `proposals/works/terms.json` and `proposals/works/topics/soul.json`, the Greek (`texts/orig/Wis.json`, Swete), Swete's apparatus (`texts/src/Wis.app.json`), the Vulgate/Douay (`texts/src/Wis.lat.json`), the KJV (`texts/en/Wis.json`), and the site's Plain English Translation of 1 Kings 3 and 2 Chronicles 1.
 `cd bible && VERBOSE=1 node tools/build.js --check Wis/06-10` gives **0 errors, 0 warnings** (115 verses, 82 notes, 11 variants, 41 glosses, 5 chapter pages, 16 topic contributions).
 
 ## Verdict
 
-The translation is mostly faithful. Checked verse by verse against Swete, I found no dropped clauses, wrong names or wrong numbers, and every variant entry matches Swete's apparatus. The weakness is the scholarship around the text, above all the 8:19-20 card that the brief singles out. Its Lutheran row is a Reformed theologian's 1870s inference about the Formula of Concord, and that confession says nothing about where the soul comes from. The Reformed and Orthodox rows rest on one individual author each. The "anathemas of 553" are stated as the council's act in three places, while the card itself hedges and the scholarship is disputed. The O Sapientia note cites a book the writer never opened, and its quoted English is the writer's own wording. Several key-term decisions are weak: `τύραννος` gets an invented "alone", and `παιδεία` is rendered "instruction" against the site's own Proverbs Plain. Chapter 9 is tied flatly to Gibeon although it presupposes the command to build the temple. About twenty factual claims are made from memory (STYLE rule 2). Nothing is invented outright, so I have no critical finding. Ten findings are major, thirteen minor. The part needs a fixer pass before it counts as reviewed.
+The translation is mostly faithful. Checked verse by verse against Swete, I found no dropped clauses, wrong names or wrong numbers, and every variant entry matches Swete's apparatus. The weakness is the scholarship around the text, above all the 8:19-20 card that the brief singles out. Its Lutheran row is a Reformed theologian's 1870s inference about the Formula of Concord, and that confession says nothing about where the soul comes from. The Reformed and Orthodox rows rest on one individual author each. The "anathemas of 553" are stated as the council's act in three places, while the card itself hedges and the scholarship is disputed. The O Sapientia note cites a book the writer never opened, and its quoted English is the writer's own wording. Several key-term decisions are weak: `τύραννος` gets an invented "alone", and `παιδεία` is rendered "instruction" against the site's own Proverbs Plain English Translation. Chapter 9 is tied flatly to Gibeon although it presupposes the command to build the temple. About twenty factual claims are made from memory (STYLE rule 2). Nothing is invented outright, so I have no critical finding. Ten findings are major, thirteen minor. The part needs a fixer pass before it counts as reviewed.
 
 **Findings: 0 critical, 10 major, 13 minor.**
 
 What I verified in this session, with the source:
 - Every Greek reading in variants.json against `Wis.app.json`: 6:12, 7:12, 7:14, 7:15, 7:30, 8:21, 9:16, 10:5 and 10:10 all match. For 10:13 the apparatus notes no difference, as the entry says.
 - Latin lines quoted in notes (6:6 `tormenta patientur`, 7:25 `vapor`/`emanatio`, 8:20 `magis bonus`, 8:21 `continens`, 10:13 `a peccatoribus`) against the Vulgate/Douay file.
-- 1 Kings 3:6-9 and 2 Chronicles 1:8-10 quotations against the site Plain.
+- 1 Kings 3:6-9 and 2 Chronicles 1:8-10 quotations against the site Plain English Translation.
 - CCC 366 and the NPNF Origen quotations, via the writer's saved pages. Origen 2.9.6 "arrange His creatures according to their merit" and "harmony of one world" are present. 1.2.9 quotes Wisdom 7:25-26 and calls it the Wisdom of Solomon.
 - Augustine, City of God 13.16 ("not by any body whatsoever, but by the body such as it has become in consequence of sin"), in the saved page.
 - Confessions 10.29.40 and 10.31.45 (see minor finding 18).
@@ -63,7 +63,7 @@ Location: plain.txt 6:9, 6:21, 8:15; notes.json 6:9; glosses.json 8:15; proposal
 
 **6. `παιδεία` as "instruction" breaks the site's own Proverbs rendering.**
 Location: plain.txt 6:11, 6:17, 6:18, 6:25, 7:14; notes.json 6:17; proposals/works/terms.json entry 2.
-- Note 6:17 says Proverbs "uses the same Greek word for its Hebrew *musar*" and cites Proverbs 1:2. The site's Plain of Proverbs 1:2-3 renders it "discipline". Key terms are meant to be the same across the Bible.
+- Note 6:17 says Proverbs "uses the same Greek word for its Hebrew *musar*" and cites Proverbs 1:2. The site's Plain English Translation of Proverbs 1:2-3 renders it "discipline". Key terms are meant to be the same across the Bible.
 - The stated "why" (that "discipline" would read as punishment) is contradicted by the site's own Proverbs.
 - The existing Wisdom entry (`παιδεύω ... discipline`) is also split for the same verb: 6:11 and 6:25 become "teach/instruct", while 3:5, 11:9 and 12:22 stay "discipline".
 - 6:11 and 6:25 also turn the Greek passive (`παιδευθήσεσθε`, "you will be instructed") into an active "they will teach you". That is a small shift.
@@ -71,10 +71,10 @@ Location: plain.txt 6:11, 6:17, 6:18, 6:25, 7:14; notes.json 6:17; proposals/wor
 
 **7. Solomon's prayer (ch. 9) is tied flatly to Gibeon, and the setting contradicts the verse.**
 Location: chapters.json ch. 9 `sum`, `readings[0]`, `settings[0].when`; ch. 7 `settings[0].when` ("his prayer at Gibeon"); notes.json 7:7 ("the full prayer is given in 9:1-18"), 9:1.
-- The book never mentions Gibeon or a dream. The `when` line says "at the start of his reign, before he built the temple (as at Gibeon, 1 Kings 3:5)". But 9:7-8 says "You told me to build a sanctuary". That command is not in the site's 1 Kings 3 (Plain 3:5-15) or 2 Chronicles 1:7-12, which have a dream or night offer and a request for a listening heart or wisdom and knowledge.
+- The book never mentions Gibeon or a dream. The `when` line says "at the start of his reign, before he built the temple (as at Gibeon, 1 Kings 3:5)". But 9:7-8 says "You told me to build a sanctuary". That command is not in the site's 1 Kings 3 (Plain English Translation 3:5-15) or 2 Chronicles 1:7-12, which have a dream or night offer and a request for a listening heart or wisdom and knowledge.
 - Matching the prayer to those scenes is a reading, not a fact. Authors who think the temple command is later or elsewhere (David's charge, 1 Chronicles 28:11-19; Solomon's dedication prayer, 1 Kings 8) read the prayer as a composite. The chapter lists neither.
 - `readings[0]` says the prayer "follows 1 Kings 3:6-9 closely: God's mercy, the king's weakness and youth". Youth is not in ch. 9. "Young as I am" is 8:10, and 1 Kings 3:7 is cited at 9:5 only for weakness. "Closely" overstates it. In Kings the opening is God's "great loyal love" to David, not mercy and creation.
-- The site's quotations of 1 Kings 3:7, 3:9 and 2 Chronicles 1:10 in note 9:1 do match the Plain. That part is accurate.
+- The site's quotations of 1 Kings 3:7, 3:9 and 2 Chronicles 1:10 in note 9:1 do match the Plain English Translation. That part is accurate.
 - Fix: say "the book recalls the request of 1 Kings 3 and 2 Chronicles 1 but sets it with the temple command of 9:7-8 and does not name Gibeon". Remove "before he built the temple" or explain it. Add the missing parallels (1 Chronicles 28:11-19 for the "pattern", 1 Kings 8, and 1 Chronicles 29:19 if the writer opens it). Remove "youth".
 
 **8. Many claims are made from memory (STYLE rule 2) with no opened source.**
@@ -124,8 +124,8 @@ glosses.json 6:14 glosses "sitting at his gates" as "waiting on his front step".
 **13. Capital-W decisions are not applied consistently.**
 - Note 6:12 says lowercase "wisdom" is the quality a person learns, and lists 6:20 among them. But 6:17-18 speaks of "her laws", and 6:21 is the imperative "give wisdom honor" before 6:22's "what Wisdom is". The reader goes from "her" to "wisdom" to "Wisdom" in three verses.
 - 9:2 ("by your wisdom you formed the human being") is lowercase, yet the same figure is "Wisdom" at 9:4 and 9:9 ("present when you were making the world"). 9:18 "and wisdom saved them" is lowercase, and 10:1 picks it up with "She".
-- The 6:12 note's list of personified actions includes "a mother", but the Plain at 7:12 reads "where they come from". "Mother" is only the Alexandrinus variant (see 14).
-- The brief said to decide by the Greek. The Greek has no capital, so the note is right that it is a translator's choice. But the line should be applied the same way across the chain. Fix: decide 6:20-21, 9:2 and 9:18 and state the reason. Remove "a mother" from the note, or put the variant in the Plain.
+- The 6:12 note's list of personified actions includes "a mother", but the Plain English Translation at 7:12 reads "where they come from". "Mother" is only the Alexandrinus variant (see 14).
+- The brief said to decide by the Greek. The Greek has no capital, so the note is right that it is a translator's choice. But the line should be applied the same way across the chain. Fix: decide 6:20-21, 9:2 and 9:18 and state the reason. Remove "a mother" from the note, or put the variant in the Plain English Translation.
 
 **14. Missing variants (rule: differences in meaning from ℵ or A).**
 - 8:6: Swete's apparatus gives `τεχνιτης` (masculine "craftsman") for Bᵇ?, A and C against the printed `τεχνῖτις`. Note 7:22 says "The book calls Wisdom this again in 8:6" and builds on the feminine form. This needs a variant entry.
@@ -143,7 +143,7 @@ glosses.json 6:14 glosses "sitting at his gates" as "waiting on his front step".
 - Ch. 6 `readers`: "last centuries BC or the early first century AD" does not match book.json ("221 BC to AD 41-44").
 - Fix: give each setting its own `readers` line, keep the dates the same as book.json, split the overlap, and correct the ch. 10 sentence.
 
-**17. KJV overlap in the Plain, and an audit I could not repeat.**
+**17. KJV overlap in the Plain English Translation, and an audit I could not repeat.**
 - Against the KJV (public domain, "for sense only" in the brief): 10:8 repeats a long run, "the world a memorial of their foolishness, so that"; 6:22 has "will not hide mysteries from you"; 10:7 "and a standing pillar of salt" (also the Douay); 8:20 "good ... I came into a body".
 - Several of these follow the Greek closely, but 10:8 and 6:22 should be rebuilt.
 - The drift audit against NRSV, NABRE, RSV, NJB and NETS is logged only per verse and was done in the head. I could not repeat it: Bible Gateway would not return the NRSVUE text for quoting, and bible.usccb.org returned 403 for NABRE. I therefore make no finding of drift for chapter 10 or the others. A fixer who can read those translations should compare the verses the audit marks "kept", especially 6:4, 6:14, 6:15 and 8:5-6.
@@ -167,7 +167,7 @@ Notes 7:20 ("Testament of Solomon") and 10:1 ("Life of Adam and Eve") are `tier:
 - 6:5: `φρικτῶς καὶ ταχέως` is "swiftly and terribly", reversing the Greek order.
 - 7:19 and 7:29: `θέσις` is "where the stars are set" in one verse and "every pattern of the stars" in the next. Note 7:19 itself calls it "positions".
 - 8:4: `αἱρετίς` ("chooses his works") has a debated sense that the note does not mention.
-- 8:21: the Plain supplies "her" as the object of "gave" (Greek has none). The note covers the two senses of `ἐγκρατής` but does not say the object is added.
+- 8:21: the Plain English Translation supplies "her" as the object of "gave" (Greek has none). The note covers the two senses of `ἐγκρατής` but does not say the object is added.
 - 10:7: `ἀτελέσιν ὥραις` is "at the wrong season and never matures". "Wrong season" is the writer's gloss on `ὥρα`.
 - 9:1: the Greek has "God of the fathers". The note admits "my" was added; the added "my" makes the opening resemble Kings' "my father David" more than the Greek does.
 
@@ -181,7 +181,7 @@ Ch. 9 `views.C` says the reading is used "in the rite of anointing of the sick".
 - Terms: `ἀφθαρσία` "incorruption" and `ἀθανασία` "immortality" are kept apart (6:18-19 against 8:13, 8:17); `δεσπότης` "Master", `ψυχή` "soul", `ὅσιος` "holy" and `λόγος` "word" follow terms.json.
 - Variants: every reading and witness cited matches Swete's apparatus. The KJV and Latin statements match the files.
 - The Lectionary, CCC 366, Hodge's "began and ended with Origen", Origen 2.9.6, Athanasius's phrase and Plato's *Phaedo* 81c quotation are accurate to what was opened.
-- Quote-matching against other books' Plain gives no warnings.
+- Quote-matching against other books' Plain English Translation gives no warnings.
 
 ## Fixes applied
 
@@ -192,8 +192,8 @@ Fixer, 2026-10-31. Sources opened in this session are listed in `.scratch/wis-06
 3. Fixed. Percival's "Excursus on the XV. Anathemas Against Origen" (NPNF2-14, ccel.org) opened: the anathemas are "usually found assigned" to the council; Hefele and others assign them to the Home Synod of 543; the council's canon 11 names Origen. One wording used in the canon note, the deep box and the soul topic; the 553 lines removed from the Catholic and Orthodox rows. New key `percival-origen-anathemas`.
 4. Fixed. `liturgy-hours` and the uncited English removed. Latin of the antiphon now from the Cantus Database (chant 004081, Vienna Cod. 1799**, feast Antiphonae Majores, Vespers, Magnificat), new key `cantus-o-sapientia`; English labeled as the site's own; Vulgate 8:1 given with "ergo". "17 December", "seven" and the hymn claim dropped (not in a source opened).
 5. Fixed (decision 11). "absolute rulers" at 6:9, 6:21, 8:15; "alone" and "respectful ... beside kings" dropped; LSJ definition dropped (Perseus 403); 8:15 gloss no longer "dictators"; note points to 2 Maccabees 4:25 and 7:27 "tyrant"; terms proposal entry rewritten. The 16:4 verb is part 16-19's; flagged for the lead.
-6. Fixed (decision 10). "discipline" at 6:11, 6:17, 6:18, 6:25, 7:14, keeping the passive at 6:11 ("you will be disciplined") and 6:25 ("be disciplined by my words"); note 6:17 rewritten with the Proverbs 1:2 Plain; the 06-10 παιδεία entry withdrawn from content/proposals/works/terms.json.
-7. Fixed (decision 13). Ch. 9 sum, readings, setting and note 9:1 now say the prayer recalls 1 Kings 3 / 2 Chronicles 1 and sets it after the temple command, with 1 Chronicles 28:10-19 and 1 Kings 5:5 (site Plain quoted); "youth" and "closely" removed; ch. 7 setting and note 7:7 no longer say "at Gibeon".
+6. Fixed (decision 10). "discipline" at 6:11, 6:17, 6:18, 6:25, 7:14, keeping the passive at 6:11 ("you will be disciplined") and 6:25 ("be disciplined by my words"); note 6:17 rewritten with the Proverbs 1:2 Plain English Translation; the 06-10 παιδεία entry withdrawn from content/proposals/works/terms.json.
+7. Fixed (decision 13). Ch. 9 sum, readings, setting and note 9:1 now say the prayer recalls 1 Kings 3 / 2 Chronicles 1 and sets it after the temple command, with 1 Chronicles 28:10-19 and 1 Kings 5:5 (site Plain English Translation quoted); "youth" and "closely" removed; ch. 7 setting and note 7:7 no longer say "at Gibeon".
 8. Fixed. Cut or rewritten as the note's own observation: 7:2 (lunar months, medical belief), 6:22 (oath; Isis), 7:19, 7:20 roots, 6:6 torture, 7:14 philosophers, 7:22 "early Christian readers", 9:4 goddess, 9:5 protection, 10:6 (Pentapolis now explained with Zoar spared, Genesis 19:20-23, and Josephus *War* 4.484 "the five cities"), 10:7 Calotropis, 10:17 critics, 7:26 and ch. 7 views.H/readings "most scholars", 6:1 "most scholars", ch. 7 views.O Hagia Sophia, ch. 6 views.O "readable" books (now points to the front page), ch. 6 views.C grace, ch. 9 readings[1], 10:12 ("probably"). Also, under decision 5: 6:3, 7:1, 8:2, 8:13, 9:17, 9:18, 10:1 icons, 10:3, ch. 6 setting views, ch. 9 views.O and ch. 10 views.O (dropped).
 9. Fixed. Ch. 8 views C/O/P now state each church's teaching on the soul's origin as on the card, with no church reading of 8:19-20 claimed; "most Catholic commentators", "many scholars" and "as Catholic and Orthodox commentators read it" removed; views.P no longer contradicts the card; views.J "centuries older" dropped.
 10. Fixed. Note 10:21, note 10:19 and ch. 10 views.J now say a similar idea appears later and that dependence cannot be shown; Josephus (Ant. 2.349) and Sotah 30b rechecked (lexundria, Sefaria).
@@ -201,7 +201,7 @@ Fixer, 2026-10-31. Sources opened in this session are listed in `.scratch/wis-06
 12. Fixed. Gloss 6:14 "waiting at his door", as the note says.
 13. Fixed (decision 8). Capital at 6:20, 6:21 and 9:18 (she acts / has laws / saves, and 10:1 picks up "She"); lowercase kept at 6:9, 6:23, 7:7, 9:6, 9:17 and at 9:2 (beside "by your word", God's power, not a figure acting), with the reason in note 6:12; "a mother" removed from the note.
 14. Fixed. New variants 8:6 (τεχνιτης Bᵇ? A C), 9:18 (+ σου ℵ) and 6:20 (ἄρα] γάρ ℵ), copied from the apparatus by script; note 7:22 points to the 8:6 variant; 7:12 entry no longer names ℵ.
-15. Fixed. Stray ",." gone (sentence rewritten with the Hebrews 1:3 Plain).
+15. Fixed. Stray ",." gone (sentence rewritten with the Hebrews 1:3 Plain English Translation).
 16. Fixed. Ch. 7 setting now 7:1-8:1, ch. 8 8:2-21; each setting has its own `readers` line, with the dates of book.json (221-204 BC to AD 41-44); ch. 10 `why` corrected (Egypt is where the readers lived); ch. 9 `why` no longer says "philosophy alone".
 17. Partly. 10:8 and 6:22 rebuilt from the Greek; 10:7 "a pillar of salt still standing". 8:20 kept: "being good ... I came into a body" is forced by the Greek. A head audit (no text written) of 6:4, 6:14, 6:15 and 8:5-6 found only Greek-forced runs, so they are kept; the rebuilt verses were audited the same way and 7:14 and 7:19 were reshaped twice to avoid runs.
 18. Fixed. Note 8:21 now quotes 6.11.20 and 10.31.45 for "continent", and 10.29.40 (the "Give what You command" prayer) for "could not otherwise obtain her" (newadvent, reopened).

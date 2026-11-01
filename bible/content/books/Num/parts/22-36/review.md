@@ -5,7 +5,7 @@ Reviewer: hostile review per `tools/agent-reviewer.md`. Chapters 1–21 not revi
 
 ## Verdict
 
-The scholarship in this part is strong. The notes on Balaam, Deir Alla, the Targums, the LXX messianic readings, Qumran and the rabbinic sources are nearly all accurate. Most Talmud page references check out (Sanhedrin 82a–b, 105a–106b, Bava Batra 15b, 60a, 75a, 119b–120a, 122a, Berakhot 7a, Sukkah 55b, Taanit 2b–3a and 30b, Makkot 10b–11b, Shabbat 64a and 96b, Yevamot 60b, Kiddushin 66b, Chullin 60b, Avot 5:6 and 5:19, y. Taanit 68d). The Numbers 31 page is honest and gives all three positions. The Plain English is the weak point. The literal-line method kept it close to the Hebrew, but in the law, census, boundary and refuge chapters (26–27, 30–31, 33–36), and in a few dozen narrative and poetic lines, it often ends up word for word with the ESV, and sometimes with the NIV (23:23, 27:7, 27:22, 32:13, 33:40, 33:53, 36:5). Those verses need redoing. Smaller problems: one wrong claim in a crux note (24:3, the Talmud and *shetum*); a missing Samaritan variant at 24:17 that the NIV follows; a likely misreported Samaritan reading at 25:4; first-person "I could not check" wording inside reader-facing variant fields; two misattributed rabbinic citations (Mishnah Sotah 5:3; Maimonides on 24:17); and two term clashes with chapters 1–21 (*nasi*, *isheh*).
+The scholarship in this part is strong. The notes on Balaam, Deir Alla, the Targums, the LXX messianic readings, Qumran and the rabbinic sources are nearly all accurate. Most Talmud page references check out (Sanhedrin 82a–b, 105a–106b, Bava Batra 15b, 60a, 75a, 119b–120a, 122a, Berakhot 7a, Sukkah 55b, Taanit 2b–3a and 30b, Makkot 10b–11b, Shabbat 64a and 96b, Yevamot 60b, Kiddushin 66b, Chullin 60b, Avot 5:6 and 5:19, y. Taanit 68d). The Numbers 31 page is honest and gives all three positions. The Plain English Translation is the weak point. The literal-line method kept it close to the Hebrew, but in the law, census, boundary and refuge chapters (26–27, 30–31, 33–36), and in a few dozen narrative and poetic lines, it often ends up word for word with the ESV, and sometimes with the NIV (23:23, 27:7, 27:22, 32:13, 33:40, 33:53, 36:5). Those verses need redoing. Smaller problems: one wrong claim in a crux note (24:3, the Talmud and *shetum*); a missing Samaritan variant at 24:17 that the NIV follows; a likely misreported Samaritan reading at 25:4; first-person "I could not check" wording inside reader-facing variant fields; two misattributed rabbinic citations (Mishnah Sotah 5:3; Maimonides on 24:17); and two term clashes with chapters 1–21 (*nasi*, *isheh*).
 
 Counts: **1 critical, 9 major, 22 minor.**
 
@@ -14,8 +14,8 @@ Counts: **1 critical, 9 major, 22 minor.**
 ### 1. Critical: ESV/NIV wording runs through the law, list and boundary chapters
 **Location:** plain.txt, chapters 26–27, 30, 31, 33–36 (verses listed below).
 **Problem:** Many verses match the ESV word for word, or nearly so. In these verses that is not just a result of literal translation. The shared choices go beyond what the Hebrew forces: the same function words, the same phrasing, the same order of clauses and the same rare English words ("crafted articles", "stand fire … pass through the fire", "hold on to its own inheritance", "rescue the manslayer from the hand", "fall to you as an inheritance"). STYLE.md rule 1 says close matches have to be redone.
-**Evidence (Plain, then ESV):**
-- 31:22–23 Plain "everything that can stand fire, you are to pass through the fire, and it will be clean. But it must also be purified with the water for impurity. And everything that cannot stand fire you are to pass through the water." / ESV "everything that can stand the fire, you shall pass through the fire, and it shall be clean. Nevertheless, it shall also be purified with the water for impurity. And whatever cannot stand the fire, you shall pass through the water."
+**Evidence (Plain English Translation, then ESV):**
+- 31:22–23 Plain English Translation "everything that can stand fire, you are to pass through the fire, and it will be clean. But it must also be purified with the water for impurity. And everything that cannot stand fire you are to pass through the water." / ESV "everything that can stand the fire, you shall pass through the fire, and it shall be clean. Nevertheless, it shall also be purified with the water for impurity. And whatever cannot stand the fire, you shall pass through the water."
 - 31:3 "Arm men from among you for the war, so that they can go against Midian and carry out the LORD's vengeance on Midian" / ESV "Arm men from among you for the war, that they may go against Midian to execute the LORD's vengeance on Midian."
 - 31:5 "So from the thousands of Israel a thousand were supplied from each tribe, twelve thousand armed for war" / ESV "So there were provided, out of the thousands of Israel, a thousand from each tribe, twelve thousand armed for war."
 - 31:13 nearly identical to ESV ("Moses and Eleazar the priest and all the chiefs of the congregation went to meet them outside the camp").
@@ -47,12 +47,12 @@ Counts: **1 critical, 9 major, 22 minor.**
 
 ### 3. Major: 24:3 note says the Talmud read *shetum* as "opened"
 **Location:** notes.json 24:3 ("Eye opened, or eye shut?").
-**Problem:** The note says "The Talmud and many Jewish commentators took it as 'opened'", and then cites Sanhedrin 105a for the opposite view. The Talmud is in fact the main witness for "closed/blinded": b. Sanhedrin 105a says Balaam was blind in one eye, "as it says *shetum ha-ayin*", and b. Niddah 31a also has his eye blinded. The "opened/sees clearly" line comes from Targum Onqelos (*de-shappir chazei*, "who sees well") and from most modern versions. Rashi gives both readings. The Plain's wording here also matches the ESV (finding 2).
+**Problem:** The note says "The Talmud and many Jewish commentators took it as 'opened'", and then cites Sanhedrin 105a for the opposite view. The Talmud is in fact the main witness for "closed/blinded": b. Sanhedrin 105a says Balaam was blind in one eye, "as it says *shetum ha-ayin*", and b. Niddah 31a also has his eye blinded. The "opened/sees clearly" line comes from Targum Onqelos (*de-shappir chazei*, "who sees well") and from most modern versions. Rashi gives both readings. The Plain English Translation's wording here also matches the ESV (finding 2).
 **Fix:** "Targum Onqelos read it as 'who sees clearly,' and most modern versions say 'opened.' The Talmud took it the other way: Balaam was blind in one eye (Bavli Sanhedrin 105a; compare Niddah 31a). Rashi gives both." Retranslate the line, for example "the man whose eye sees true", and mention "shut" in the note.
 
 ### 4. Major: Missing Samaritan variant at 24:17, "skull" for "tear down"
 **Location:** variants.json (no entry); notes.json 24:17 "Who are the sons of Sheth?".
-**Problem:** In the second half of the line, the MT has *ve-qarqar* ("and tear down"). The Samaritan Pentateuch reads *ve-qodqod*, "and the skull/crown of the head", which matches Jeremiah 48:45. Translators cite this reading (UBS Translator's Handbook: "based only on the Samaritan Pentateuch and on Jer 48.45"), and the NIV follows it: "the skulls of all the people of Sheth." A reader comparing the Plain with the NIV will see the difference, so the rule for when a variant entry is required applies. The note only says "The verb 'tear down' (*qarqar*) is also uncertain."
+**Problem:** In the second half of the line, the MT has *ve-qarqar* ("and tear down"). The Samaritan Pentateuch reads *ve-qodqod*, "and the skull/crown of the head", which matches Jeremiah 48:45. Translators cite this reading (UBS Translator's Handbook: "based only on the Samaritan Pentateuch and on Jer 48.45"), and the NIV follows it: "the skulls of all the people of Sheth." A reader comparing the Plain English Translation with the NIV will see the difference, so the rule for when a variant entry is required applies. The note only says "The verb 'tear down' (*qarqar*) is also uncertain."
 **Fix:** Add a variant at 24:17, anchored on "tear down". Reading 0: MT, Targum Onqelos, *qarqar* ("tear down"), followed by KJV and ESV. Reading 1: Samaritan Pentateuch, *qodqod* ("the skull of"), compare Jeremiah 48:45, followed by NIV. Its plain would be "smash the skulls of". Say which reading is followed and why. Cross-reference it in the Sheth note.
 
 ### 5. Major: Reader-facing "I could not check" wording, and a doubtful Samaritan reading at 25:4
@@ -75,7 +75,7 @@ Counts: **1 critical, 9 major, 22 minor.**
 **Problem:** The page says "Jewish interpreters such as Ibn Ezra and Ramban read the first part of the oracle as David and the rest as the Messiah to come." The well-known split reading ("'I see him but not now', this is David; 'I behold him but not near', this is the King Messiah", and so on through the verse) is Maimonides, *Mishneh Torah*, Laws of Kings 11:1. Ibn Ezra says the verse refers to David and rejects the messianic reading. Ramban does take it messianically, but he is not the source of the David-first, Messiah-second split.
 **Fix:** "Maimonides (Laws of Kings 11:1) divided the oracle: 'I see him, but not now' is David; 'I look at him, but not close by' is the King Messiah. Ibn Ezra applied it to David alone." The source key `maimonides-mishneh-torah` already exists.
 
-### 9. Major: Over-literal or unnatural English in the Plain
+### 9. Major: Over-literal or unnatural English in the Plain English Translation
 **Location and evidence:**
 - 22:5 "in the land of the sons of his people". Suggest "in his own people's land" (and keep the variant anchor in sync).
 - 22:32 "your way is reckless in front of me". Suggest "you are rushing down a wrong road", with the alternatives in the note.
@@ -98,8 +98,8 @@ Counts: **1 critical, 9 major, 22 minor.**
 
 ### 11. Minor: Possible missing variant at 23:10, "who has counted"
 **Location:** variants.json 23:10.
-**Problem:** The MT reads *u-mispar et-rova* ("and the number of the fourth part"), a noun with no verb. The Samaritan Pentateuch is widely cited as reading *u-mi safar* ("and who has counted"), and the LXX (*tis exarithmēsetai*) agrees. The Plain "or number…" follows that sense in practice. The current entry gives only the LXX and calls it a paraphrase.
-**Fix:** Check the Samaritan reading in BHS or Tal. If it is confirmed, add it to the entry and say that the Plain follows the sense of SP/LXX, which supplies a verb.
+**Problem:** The MT reads *u-mispar et-rova* ("and the number of the fourth part"), a noun with no verb. The Samaritan Pentateuch is widely cited as reading *u-mi safar* ("and who has counted"), and the LXX (*tis exarithmēsetai*) agrees. The Plain English Translation "or number…" follows that sense in practice. The current entry gives only the LXX and calls it a paraphrase.
+**Fix:** Check the Samaritan reading in BHS or Tal. If it is confirmed, add it to the entry and say that the Plain English Translation follows the sense of SP/LXX, which supplies a verb.
 
 ### 12. Minor: 22:5 variant does not say which versions follow "Amaw"
 **Location:** variants.json 22:5.
@@ -118,8 +118,8 @@ Counts: **1 critical, 9 major, 22 minor.**
 
 ### 15. Minor: 27:14 note quotes 20:12 in NIV wording
 **Location:** notes.json 27:14.
-**Problem:** The note quotes 20:12 as "did not trust me enough to treat me as holy", which is NIV ("did not trust in me enough to honor me as holy"). It also does not match this project's own Plain of 20:12 ("You did not believe me, to treat me as holy").
-**Fix:** Quote the Plain of 20:12.
+**Problem:** The note quotes 20:12 as "did not trust me enough to treat me as holy", which is NIV ("did not trust in me enough to honor me as holy"). It also does not match this project's own Plain English Translation of 20:12 ("You did not believe me, to treat me as holy").
+**Fix:** Quote the Plain English Translation of 20:12.
 
 ### 16. Minor: ESV/NIV wording in scripture quotations inside notes
 **Location:** notes.json 25:2 (Psalm 106:28 "ate sacrifices offered to the dead" = ESV); 25:13 and the ch. 25 deep (Psalm 106:30 "stood and intervened, and the plague was stopped … counted to him as righteousness" ≈ ESV/NIV); 26:65 (Hebrews 3:17 "whose bodies fell in the wilderness" = ESV); 34:19 (Joshua 14:11 "I am still as strong today as on the day Moses sent me" ≈ NIV); 22:7 ("as in the phrase 'the wage of a prophet'", which is not a biblical phrase).
@@ -211,14 +211,14 @@ All 32 findings accepted; none rejected. After the fixes, `node tools/build.js -
 
 1. **Critical, ESV/NIV wording.** Every listed verse was rebuilt from `node tools/literal.js`, with a new sentence shape: all of 31:2–54, and 26:10, 26:54, 26:62–65, 27:2–14, 27:22, 30:2–16, 33:1–8, 33:38, 33:40, 33:53–55, 34:2–7, 34:11–29, 35:2–28, 35:33 and 36:1–13. Each was then checked against the ESV and NIV. The rote itinerary lines and census formulas were kept, as the review allowed.
 2. **Major, narrative and poetry.** Redone: 22:4, 22:24, 22:26, 22:30, 22:33, 23:23, 24:3–4 (and 24:15–16), 24:6, 25:3–7, 27:7, 27:22, 32:13–14, 32:18, 33:40 and 33:53. 27:7 and 36:5 keep their parallel: "Zelophehad's daughters have spoken rightly" and "The tribe of Joseph's descendants has spoken rightly". The quotations in chapters.json (ch. 27), topics.json and the zelophehads-daughters core lead were updated to match.
-3. **24:3 shetum.** The note was rewritten. Onqelos, the Greek and modern versions read "sees clearly" or "opened". The Talmud reads blind in one eye (Sanhedrin 105a; Niddah 31a). Rashi gives both. "Shut" is mentioned. The Plain now reads "the man whose eye sees true".
-4. **24:17 Samaritan qodqod.** A new variant is anchored on "tear down". The MT and Onqelos read *qarqar*, followed by KJV and ESV. The Samaritan Pentateuch reads *qodqod*, compare Jeremiah 48:45, followed by NIV. The Plain follows the MT, and the `why` says why. The Sheth note points to the variant.
+3. **24:3 shetum.** The note was rewritten. Onqelos, the Greek and modern versions read "sees clearly" or "opened". The Talmud reads blind in one eye (Sanhedrin 105a; Niddah 31a). Rashi gives both. "Shut" is mentioned. The Plain English Translation now reads "the man whose eye sees true".
+4. **24:17 Samaritan qodqod.** A new variant is anchored on "tear down". The MT and Onqelos read *qarqar*, followed by KJV and ESV. The Samaritan Pentateuch reads *qodqod*, compare Jeremiah 48:45, followed by NIV. The Plain English Translation follows the MT, and the `why` says why. The Sheth note points to the variant.
 5. **First-person hedges, and 25:4.** All "I could not check" wording is gone from 24:7, 25:4, 27:23 and 36:1. In its place:
    - 24:7: "as cited in BHS", with Aquila, Symmachus and Theodotion added and the hedge removed.
    - 27:23 and 36:1: Jastram, DJD 12, and Tal.
    - 25:4: the Samaritan reading now keeps the heads of the people as the executioners ("have them kill the men who tied themselves to the Baal of Peor"). The variant is re-anchored on "impale them before the LORD in the open sun". The `why` now says the Samaritan text makes the heads the executioners, which is the reading of the Targums and Rashi. The witness line says the reading is "as cited by Kennicott and in later commentaries; not confirmed here in the critical editions".
 6. **Terms.** The part now follows content/terms.json:
-   - *nasi* is "leader" throughout the Plain, notes, chapters and topics.
+   - *nasi* is "leader" throughout the Plain English Translation, notes, chapters and topics.
    - *isheh* is "offering by fire".
    - 30:13 reads "humble herself", to link with 29:7.
    - *paqad/pequdim* is "enroll / those enrolled" in ch. 26 ("Those enrolled were 43,730" and so on).
@@ -233,20 +233,20 @@ All 32 findings accepted; none rejected. After the fixes, `node tools/build.js -
     - Critical view: the girls taken "for yourselves", with sexual use implied (Deuteronomy 21:10–14), and Niditch, *War in the Hebrew Bible* (new key niditch-war).
     - Christian limiting views: Seibert and Boyd (new keys seibert-violence and boyd-warrior-god).
     - The 31:18 note now sits on `sexual-violence`, and ch. 31 lists that topic.
-11. **23:10.** The Samaritan *u-mi safar* was added, as cited in BHS. The `why` says the Plain follows the sense of the Samaritan and Greek by supplying a verb.
+11. **23:10.** The Samaritan *u-mi safar* was added, as cited in BHS. The `why` says the Plain English Translation follows the sense of the Samaritan and Greek by supplying a verb.
 12. **22:5.** Added a third reading, Amaw (Albright), followed by ESV and NRSV. The anchor was updated.
 13. **22:2.** Judges 11:25 is now cited correctly: Balak never went to war.
 14. **22:28.** Fixed: the donkey speaks in 22:28, the angel in 22:32–33.
-15. **27:14.** It now quotes the Plain of 20:12.
+15. **27:14.** It now quotes the Plain English Translation of 20:12.
 16. **Quotations.** Retranslated from literal.js:
     - Psalm 106:28, in the 25:2 note.
-    - Psalm 106:30–31, in the 25:13 note and the ch. 25 deep section, with "reckoned" matching the Plain of Genesis 15:6.
+    - Psalm 106:30–31, in the 25:13 note and the ch. 25 deep section, with "reckoned" matching the Plain English Translation of Genesis 15:6.
     - Hebrews 3:17, in the 26:65 note.
     - Joshua 14:11, in the 34:19 note.
     - 22:7 now says "compare the gift brought to the seer in 1 Samuel 9:7–8".
 
     All quotation-check warnings were cleared: Jude 11, Genesis 49:7, Genesis 49:9, Exodus 24:7, Exodus 30:12, and Numbers 25 in topics.json. 31:6 now reads "the trumpets for the alarm", which matches part 01-10's quotation of it in the 10:9 note.
-17. **30:13.** "Humble herself" is now used in both the Plain and the note.
+17. **30:13.** "Humble herself" is now used in both the Plain English Translation and the note.
 18. **Bar Kokhba.** The speaker is now R. Yohanan ben Torta, speaking of Akiva's own jaws (y. Taanit 4:5, 68d).
 19. **Broken vav.** In the 25:12 note and the ch. 25 view J: Kiddushin 66b is about the blemished priest, and "peace through violence" is attributed to later preachers.
 20. **Phinehas ban.** Added (Jerusalem Talmud Sanhedrin 9:7, 27b), with new key yerushalmi-sanhedrin.

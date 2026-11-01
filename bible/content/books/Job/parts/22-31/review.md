@@ -51,16 +51,16 @@ The note says the Targum "and the Talmud (Sanhedrin 108a)" link 22:15–18 to th
 "and no one stops them" renders the conjecture <i>'otser</i> ("restrainer") in place of the Masoretic <i>lo 'ozer lamo</i> ("there is no helper for them", often taken as "they need no one's help"). This is the ESV's choice and differs from the NIV's. There is no note and no variant. Either follow the Masoretic Text, or add a variant entry naming the emendation and giving the reason.
 
 ### 5. Major: 30:11 is not a departure from the Masoretic Text, and its Ketiv reading is misrendered (variants.json 30:11, notes.json 30:11, topics ketiv-qere)
-The Plain follows the Qere <i>yitri</i> ("my cord"), which is part of the Masoretic Text. Any report or PROGRESS line that counts 30:11 among the "departures from the MT" is wrong: the true departures are 23:2, 27:19, 30:22 (Ketiv repointed against the Qere) and the unmarked 30:13. In the variant, the Ketiv reading's `plain` is "Because they have loosened their own cord". The verb <i>pittach</i> is singular, so the Ketiv gives "he has loosened his cord". "he" may be God or may be collective, but "they" is not the Ketiv. Fix the `plain` and the 30:11 note's description, and state the departures accurately in the report.
+The Plain English Translation follows the Qere <i>yitri</i> ("my cord"), which is part of the Masoretic Text. Any report or PROGRESS line that counts 30:11 among the "departures from the MT" is wrong: the true departures are 23:2, 27:19, 30:22 (Ketiv repointed against the Qere) and the unmarked 30:13. In the variant, the Ketiv reading's `plain` is "Because they have loosened their own cord". The verb <i>pittach</i> is singular, so the Ketiv gives "he has loosened his cord". "he" may be God or may be collective, but "they" is not the Ketiv. Fix the `plain` and the 30:11 note's description, and state the departures accurately in the report.
 
 ### 6. Major: who is "he" in 28:3–11? (plain.txt 28:3–11, notes.json 28:3)
-The Plain gives "Humans ... they probe" (28:3) and "They cut ... they hang and swing" (28:4), then "He sets his hand ... He cuts ... He dams up ... his eye" (28:9–11). A reader will naturally take the capitalized "He" in 28:9 as God, which is the minority view the note mentions, not the reading the Plain intends. The note also misdescribes the Plain: it says the Plain "names 'humans' in 28:3 and then keeps 'he' (the miner)", but 28:3b–4 use "they". Pick one subject for 28:3–11 (for example "the miner ... he" throughout, or "humans ... they" throughout), rebuild 28:3–4 away from the NIV's plural shape (finding 1), and correct the note.
+The Plain English Translation gives "Humans ... they probe" (28:3) and "They cut ... they hang and swing" (28:4), then "He sets his hand ... He cuts ... He dams up ... his eye" (28:9–11). A reader will naturally take the capitalized "He" in 28:9 as God, which is the minority view the note mentions, not the reading the Plain English Translation intends. The note also misdescribes the Plain English Translation: it says the Plain English Translation "names 'humans' in 28:3 and then keeps 'he' (the miner)", but 28:3b–4 use "they". Pick one subject for 28:3–11 (for example "the miner ... he" throughout, or "humans ... they" throughout), rebuild 28:3–4 away from the NIV's plural shape (finding 1), and correct the note.
 
 ### 7. Major: the settings card for 23:1–24:25 treats 24:18–24 as plainly Job's (chapters.json 23 settings)
 The cards for chapters 26 and 27 rightly say in `by` that parts are "assigned to Bildad/Zophar by many scholars", and they give views. The card covering 24:18–24, which shows on every verse of chapter 24, gives "by: Job" with no caveat and no `views`. Chapter 24 has no card of its own. Since the site shows the card on each verse, readers of 24:18–24 see an unqualified speaker on the most disputed lines of the third cycle. Fix it: in `by`, put "Job (24:18–24 is assigned to Zophar or Bildad by many scholars, or read as Job quoting the friends)". Add `views` matching the 24:18 note (misplaced speech: Dhorme, Pope; quotation: Gordis, and RSV/ESV "You say", which is confirmed for the ESV; Job's own view or curse). Optionally give 24:18–25 its own card.
 
 ### 8. Major: 30:1 mistranslated, "would not have trusted"
-The Hebrew <i>ma'asti</i> means "I rejected / disdained / refused". Job is saying the fathers were beneath his contempt, not that he distrusted them. The 30:1 note and the ch. 30 "social reversal" reading both discuss Job's contempt, which the Plain softens away. Fix: something like "whose fathers I would have scorned to put with my sheepdogs", rebuilt so as not to echo NIV's "disdained".
+The Hebrew <i>ma'asti</i> means "I rejected / disdained / refused". Job is saying the fathers were beneath his contempt, not that he distrusted them. The 30:1 note and the ch. 30 "social reversal" reading both discuss Job's contempt, which the Plain English Translation softens away. Fix: something like "whose fathers I would have scorned to put with my sheepdogs", rebuilt so as not to echo NIV's "disdained".
 
 ### 9. Major: 22:17 and 21:14 render the same quoted words differently, which breaks the 22:18 note
 The 22:18 note argues that Eliphaz "repeats Job's phrases, 'leave us' (22:17; 21:14)". But the site's 21:14 (part 15-21) reads "Go away from us", while 22:17 reads "Leave us alone!" (also an NIV run, finding 1). The Hebrew is the same (<i>sur mimmennu</i>). Render 22:17 to match 21:14 (for example "Go away from us!"), and quote it that way in the note. 22:18b already matches 21:16b exactly. Do the same for 22:17.
@@ -70,14 +70,14 @@ The 22:18 note argues that Eliphaz "repeats Job's phrases, 'leave us' (22:17; 21
 
 ### 11. Major (fairness and accuracy): chapter 28 handling, small gaps
 The treatment of the speaker of chapter 28 is fair and well organized: four views, with names, in the 28:1 note, the deep dive and the card. Remaining problems:
-- 28:1 begins in Hebrew with <i>ki</i> ("For / Surely there is a mine for silver"). The Plain drops it with no note. That word is part of the speaker debate: some read it as linking the poem to 27, others see it as an odd start for a new poem. Add it or note it.
+- 28:1 begins in Hebrew with <i>ki</i> ("For / Surely there is a mine for silver"). The Plain English Translation drops it with no note. That word is part of the speaker debate: some read it as linking the poem to 27, others see it as an odd start for a new poem. Add it or note it.
 - "Alter in part" (28:1 note) is vague. Say what Alter holds or drop it.
 - The ch. 28 `readers` field says "For Jewish readers after the exile" as if settled. The book's date is debated (the ch. 22 card says "perhaps"). Hedge it the same way.
 - The ch. 28 J view and the 28:28 views note cite Maimonides on 28:28 ("Guide 3.23"; "the summary of what humans can know of providence"). I could not confirm that the Guide comments on 28:28 there. Give the exact place or drop the claim.
 
 (Counted as major because the prompt singled out the speaker of 28, but only the <i>ki</i> point is substantive.)
 
-### 12. Minor: other additions and shifts in the Plain
+### 12. Minor: other additions and shifts in the Plain English Translation
 - 23:10 "Let him test me" turns a perfect (<i>bechanani</i>, "when he has tested me") into a wish. Use "When he has tested me" or note the choice.
 - 30:21 "a cruel enemy": "enemy" is not in the Hebrew (<i>achzar</i>, "cruel one").
 - 31:21 "waved my hand to strike": "to strike" is added.
@@ -89,10 +89,10 @@ The note says "the speakers in Job avoid Israel's divine name YHWH in the debate
 ### 14. Minor: 29:18 note and variant, "the Masoretic notes record that one tradition read <i>chol</i>..."
 This is unverified as phrased. If you mean the Nehardean/Western reading difference reported in Genesis Rabbah, say that and cite it; otherwise drop "the Masoretic notes".
 
-### 15. Minor: quotations of other Job verses that do not match the site's Plain
+### 15. Minor: quotations of other Job verses that do not match the site's Plain English Translation
 - 29:25 note quotes 16:2 as "miserable comforters", but the site's 16:2 reads "comforters who bring trouble".
 - 30:22 note quotes 36:29 as "the crashing of his canopy", but the site's 36:29 reads "the thunder from his pavilion".
-- 22:22 note quotes "set his words in your heart", but this part's own Plain says "store up what he says in your heart".
+- 22:22 note quotes "set his words in your heart", but this part's own Plain English Translation says "store up what he says in your heart".
 - 26:14 note: <i>shemets</i> is "whisper" here but "murmur" in the site's 4:12, and the note claims they are the same word. Harmonize, or say "the same Hebrew word, there rendered 'murmur'".
 
 ### 16. Minor: 31:20 note, "Ketiv and Qere differ in spelling only"
@@ -142,7 +142,7 @@ The text does not say Eliphaz is the eldest. It is an inference from his speakin
 "Ecclesiasticus 10:9": works.json names the book "Sirach", and the rest of the part uses "Sirach". Use "Sirach 10:9".
 
 ### 30. Minor: `torah` against terms.json (plain.txt 22:22)
-terms.json gives <i>torah</i> as "law", with a note on the sense "instruction" at first use. The Plain turns it into the verb "teach". The 22:22 note's reasoning (Eliphaz is not an Israelite) is good, but say explicitly that this departs from the site's term rule, or render it "Accept instruction from his mouth".
+terms.json gives <i>torah</i> as "law", with a note on the sense "instruction" at first use. The Plain English Translation turns it into the verb "teach". The 22:22 note's reasoning (Eliphaz is not an Israelite) is good, but say explicitly that this departs from the site's term rule, or render it "Accept instruction from his mouth".
 
 ### 31. Minor: glosses
 - 31:10 "turn another man's millstone => be another man's servant" hides the sexual sense that the 31:10 note says is likely. Use "be another man's slave, and his bedmate".
@@ -174,8 +174,8 @@ All fixes were made in the scratch build scripts and copied here. `node tools/bu
 2. **Agreed.** Old Greek minuses checked in the NETS translation (bracketed Theodotion lines) and noted where they bear on the debate: 24:14b–18a and the Greek curse in 24:18b–24 (24:18 note); 25:6b (25:1 note); 26:5–11 and 26:14a (26:5 note); 27:19b and 27:21–23 (27:13 note); about a third of ch. 28 (new 28:21 note; ch. 28 C lens); 31:1–4 (31:1 note); all of these in the ch. 22 deep dive. 11QtgJob: the 23:7 reading "for truth and law" (23:7 note), and the columns covering parts of 24:12–17, 24:24–26:2, 26:10–27:4, 27:11–20, 28:4–13 and 28:20–28, from Zuckerman and Reed's CAL report (new part key zuckerman-reed-11qtgjob); each place says DJD 23 was not consulted. 4QJob-a (31:14–19) and 4QJob-b (31:20–21): new 31:14 note, with the one reported difference (word order in 31:15), sourced to the existing key dss-english-bible and stating that DJD 16 was not checked. The ch. 22 deep dive no longer says the disorder is "likely older than the second century BC"; it says the Targum shows only that the order was in place when it was translated, and names the columns.
 3. **Agreed.** Checked on Sefaria: Sanhedrin 108a cites 21:9–15 and 24:18 for the Flood generation, not ch. 22; Chagigah 13b–14a applies 22:16 to the 974 generations; Rashi on 22:16 says the river is the Flood or the fire of Sodom; the Aramaic Targum of 22:16 has no Flood reference. The 22:16 note now says exactly this (new part key bavli-chagigah), and the 24:18 note adds Sanhedrin 108a. Shabbat 88b was not checked and is not cited.
 4. **Agreed.** 30:13 returned to the MT ("they need nobody's help"); the conjecture *'otser* is a new variant entry with no manuscript support named.
-5. **Agreed.** The 30:11 variant is relabeled (both readings belong to the MT), the Ketiv reading is singular ("He has slackened his cord"), and `why` says the Plain does not depart from the MT. The 30:11 note, the ketiv-qere topic and the PROGRESS line now list the departures correctly: 23:2, 27:19, 30:22 (and 30:13 is no longer one).
-6. **Agreed.** 28:3–11 now has one subject: "The miner ... he" (28:3), "the miners" for the Hebrew plural (28:4), "the miner" again in 28:9, with no line-initial capital "He". The 28:3 note describes the Plain correctly.
+5. **Agreed.** The 30:11 variant is relabeled (both readings belong to the MT), the Ketiv reading is singular ("He has slackened his cord"), and `why` says the Plain English Translation does not depart from the MT. The 30:11 note, the ketiv-qere topic and the PROGRESS line now list the departures correctly: 23:2, 27:19, 30:22 (and 30:13 is no longer one).
+6. **Agreed.** 28:3–11 now has one subject: "The miner ... he" (28:3), "the miners" for the Hebrew plural (28:4), "the miner" again in 28:9, with no line-initial capital "He". The 28:3 note describes the Plain English Translation correctly.
 7. **Agreed.** The 23:1–24:25 card's `by` now reads as suggested, with three views (misplaced speech; quotation; Job's own words) and sources. I did not add a separate 24:18–25 card, since the hedged card and the 24:18 note cover it.
 8. **Agreed.** 30:1 now reads "whose fathers I thought too low / to rank with the dogs that guard my sheep". This avoids "would not have trusted" and also NIV's verb, and keeps "And now" (*ve'attah*). The note and the ch. 30 summary and title were updated.
 9. **Agreed.** 22:17 now says "Go away from us", as the site's 21:14 does, and the 22:18 note quotes it.

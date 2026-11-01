@@ -66,9 +66,9 @@ All three writers work at the same time and cannot see each other's notes.
 - The 01-04 writer creates an `ecclesiastes` core and a `hevel` topic if none exist (one page per subject; the build errors on a title or alias collision).
 
 **Shared rules learned from Psalms and Proverbs.**
-- When a part quotes a verse of another part or book, use that verse's current Plain exactly. The build warns otherwise. Books not yet on the site are quoted in your own rendering from the Leningrad Codex or the SBLGNT, never in NIV or ESV wording.
+- When a part quotes a verse of another part or book, use that verse's current Plain English Translation exactly. The build warns otherwise. Books not yet on the site are quoted in your own rendering from the Leningrad Codex or the SBLGNT, never in NIV or ESV wording.
 - When the same Hebrew appears twice, the earlier verse is the model and the later one matches it unless the Hebrew differs (for example the refrain "eat and drink and find good in his toil" in 2:24, 3:13, 5:18, 8:15).
-- Proverbs' Plain is the model where Ecclesiastes repeats a Proverbs saying.
+- Proverbs' Plain English Translation is the model where Ecclesiastes repeats a Proverbs saying.
 - Notes typed `spec` are only Claude's own theory. Published observations are `com` or `views` notes with a source.
 - Write the book name in every reference to another book, including inside tables and lists.
 

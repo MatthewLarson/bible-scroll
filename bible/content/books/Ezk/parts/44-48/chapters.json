@@ -31,7 +31,7 @@
   "deep": [
    {
     "h": "Which witnesses were read for this part (Ezekiel 44-48)",
-    "b": "<p>The Plain is made from the Hebrew of the Leningrad Codex. \"The Greek\" in this part means Swete's text of Codex Vaticanus; Ziegler's Göttingen edition and Papyrus 967 were not read for this part. The Dead Sea Scrolls were checked in the Abegg, Bowley and Cook transcriptions with tools/dss.py: no Ezekiel scroll preserves any verse of chapters 44 to 48, so every variant here is between the Hebrew and Swete's Greek or between readings inside the Hebrew tradition. Where the two differ, the Plain follows the Hebrew unless a note says otherwise, even where the Greek's numbers make the land sums work (45:1; 48:13).</p>"
+    "b": "<p>The Plain English Translation is made from the Hebrew of the Leningrad Codex. \"The Greek\" in this part means Swete's text of Codex Vaticanus; Ziegler's Göttingen edition and Papyrus 967 were not read for this part. The Dead Sea Scrolls were checked in the Abegg, Bowley and Cook transcriptions with tools/dss.py: no Ezekiel scroll preserves any verse of chapters 44 to 48, so every variant here is between the Hebrew and Swete's Greek or between readings inside the Hebrew tradition. Where the two differ, the Plain English Translation follows the Hebrew unless a note says otherwise, even where the Greek's numbers make the land sums work (45:1; 48:13).</p>"
    },
    {
     "h": "How the Temple rules differ from the Torah",

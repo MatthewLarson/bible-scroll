@@ -2,12 +2,12 @@
 
 ## Verdict
 
-The Plain is faithful to Swete's Greek. I found no dropped or invented clause in 1:0 to 6:37. The two departures (6:20 "rough", 6:29 "collar") are flagged and well supported by Swete's own apparatus. The five bracketed gap lines are labeled, but their witnesses are weaker than the entries say. The Hebrew of MS A is quoted accurately against Abegg's transcription (checked line by line in `.scratch/sir-01-06/dl/A_*.txt`). The Didache, CCC 2218 and Talmud material check out. The serious fault is the use of 2Q18: the DSSEL transcription prints most of the Hebrew in grey (restored) and the writer cites it as if read. That is an invented attestation (critical). Several other claims need a real source or removal: the Wikipedia-only dates, Hebrew "behind" Greek verses where no Hebrew survives, the claim that the grandson "often changed" things, an unsourced alternative reading of *aphomoion*, and superlatives. `VERBOSE=1 node tools/build.js --check Sir/01-06` gives 0 errors, 0 warnings.
+The Plain English Translation is faithful to Swete's Greek. I found no dropped or invented clause in 1:0 to 6:37. The two departures (6:20 "rough", 6:29 "collar") are flagged and well supported by Swete's own apparatus. The five bracketed gap lines are labeled, but their witnesses are weaker than the entries say. The Hebrew of MS A is quoted accurately against Abegg's transcription (checked line by line in `.scratch/sir-01-06/dl/A_*.txt`). The Didache, CCC 2218 and Talmud material check out. The serious fault is the use of 2Q18: the DSSEL transcription prints most of the Hebrew in grey (restored) and the writer cites it as if read. That is an invented attestation (critical). Several other claims need a real source or removal: the Wikipedia-only dates, Hebrew "behind" Greek verses where no Hebrew survives, the claim that the grandson "often changed" things, an unsourced alternative reading of *aphomoion*, and superlatives. `VERBOSE=1 node tools/build.js --check Sir/01-06` gives 0 errors, 0 warnings.
 
 Counts: 1 critical, 8 major, 11 minor.
 
 How I checked:
-- Greek: every verse of `texts/orig/Sir.json` read against the Plain.
+- Greek: every verse of `texts/orig/Sir.json` read against the Plain English Translation.
 - Swete's notes in `texts/src/Sir.app.json`.
 - Vulgate in `texts/src/Sir.lat.json`.
 - Abegg's transcription of MS A (folio texts).
@@ -40,21 +40,21 @@ How I checked:
 ### Major
 
 2. **The 3:25 gap line is taken from a medieval Hebrew MS and presented as a Greek verse, and its justification overreaches.** (variants.json 3:25; plain.txt 3:25)
-   - The Plain's bracketed 3:25 is a translation of A's Hebrew (lines 16-17, placed after 3:27 in A). The longer Greek (Fritzsche, line 25895) has a different second line, "γνώσεως δὲ ἀμοιρῶν μὴ ἐπαγγέλλου".
+   - The Plain English Translation's bracketed 3:25 is a translation of A's Hebrew (lines 16-17, placed after 3:27 in A). The longer Greek (Fritzsche, line 25895) has a different second line, "γνώσεως δὲ ἀμοιρῶν μὴ ἐπαγγέλλου".
    - The variant says "the Hebrew is the oldest form of the line we have". A is a medieval copy, so this is unsupported. Part of the Hebrew-vs-Greek differences in this book are later Hebrew changes (the writer admits this at 4:15).
    - The brief says gap lines are translated from the longer Greek or the Vulgate. Here the Latin lacks the line (I confirmed `3:25` Vulgate is "Plurima enim super sensum", which is Greek 3:23). The first line of the longer Greek ("κόρας μὴ ἔχων ἀπορήσεις φωτός") and the Hebrew's first line agree in sense.
-   - Fix: translate the Greek of Fritzsche (it was read), keep the Hebrew in the variant, or add to the Plain bracket a visible mark that it is from the Hebrew. Delete "the oldest form".
+   - Fix: translate the Greek of Fritzsche (it was read), keep the Hebrew in the variant, or add to the Plain English Translation bracket a visible mark that it is from the Hebrew. Delete "the oldest form".
 
 3. **Gap-line witnesses are not named, and some inferences are stated as readings.** (variants.json 1:5, 1:7, 1:21, 3:19, 3:25)
    - Fritzsche's apparatus does name witnesses. The OCR shows "post vs. 4 in H. 99. 55. 10. 106. 248. 253. Co. vet. Lat. haec addita sunt" at 1:5, and "H. 70. 106. 248. 269. Clem. Alex. Paed. I, 8" at 1:21. The entries say only "some later manuscripts". Name them as Fritzsche gives them (minuscule numbers, Complutensian, Old Latin, Clement), or say the sigla cannot be read.
-   - 1:7: no Greek was read. The Plain is from the Vulgate alone, and the variant says the KJV "resembles" it. This is acceptable only if the Plain says so. The Vulgate's "disciplina" is rendered "instruction" while the proposed term for παιδεία says "discipline" for the hard sense; at least note it.
+   - 1:7: no Greek was read. The Plain English Translation is from the Vulgate alone, and the variant says the KJV "resembles" it. This is acceptable only if the Plain English Translation says so. The Vulgate's "disciplina" is rendered "instruction" while the proposed term for παιδεία says "discipline" for the hard sense; at least note it.
    - 1:1 to 6:37: "also Sinaiticus and Alexandrinus, whose readings Swete gives in his notes with none here" (1:5, repeated) infers absence from silence in an OCR'd apparatus. Say "Swete's notes record no addition here".
    - 3:5: Swete's note is garbled ("και ως...αυ ℵc.ᵃ) unc incl B... om ℵAC"). The entry states flatly that Sinaiticus lacks the line. A Sinaiticus corrector may restore it. Check the page image or soften.
-   - 1:21: Fritzsche's text has "παραμένων δὲ (αὐτῷ H., ἐν αὐτῷ 269)", and these variants make the person who stays the subject. The Plain "where it stays" chooses the fear; note the alternative ("the one who stays with it"). "The oldest form of the verse that survives" is unsupported (Clement is the earliest cited witness, but that is a quotation, not a form of the text).
+   - 1:21: Fritzsche's text has "παραμένων δὲ (αὐτῷ H., ἐν αὐτῷ 269)", and these variants make the person who stays the subject. The Plain English Translation "where it stays" chooses the fear; note the alternative ("the one who stays with it"). "The oldest form of the verse that survives" is unsupported (Clement is the earliest cited witness, but that is a quotation, not a form of the text).
 
 4. **The dates rest on Wikipedia alone.** (sources.json `wikipedia-sirach-prologue`; notes 1:0 history; chapters.json settings 1:0, ch.1 H view; topics `ben-sira`, `canon`; proposals ben-sira.json)
    - The 38th year of Euergetes = 132 BC is regnal arithmetic (Ptolemy VIII counted from 170 BC). A web search (Wikipedia mirrors, New World Encyclopedia) confirms that arithmetic. It found no scholarly source, and none was opened. "About 180 BC" and "usually dated" are also unsourced, and the part gives "about 180 BC" (ch. 1 H, topics), "190-180 BC" (every setting) and, in book.json, "190-175 BC". Make them agree.
-   - Settings `when` state 132 BC flatly ("after he arrived in Egypt in the thirty-eighth year of Ptolemy VIII Euergetes II (132 BC)"). The Plain says only "King Euergetes". Say that the identification is the usual one and give the reasoning (Euergetes II counted his years from 170 BC, since he shared the throne; Euergetes I's reign was shorter than 38 years).
+   - Settings `when` state 132 BC flatly ("after he arrived in Egypt in the thirty-eighth year of Ptolemy VIII Euergetes II (132 BC)"). The Plain English Translation says only "King Euergetes". Say that the identification is the usual one and give the reasoning (Euergetes II counted his years from 170 BC, since he shared the throne; Euergetes I's reign was shorter than 38 years).
    - Fix: open a printed or scholarly source (Skehan-DiLella, Wright in the SBL Commentary, the Göttingen introduction, or a Septuagint handbook) and cite it, or mark the figures as the standard reckoning without a source.
 
 5. **Hebrew "behind" Greek verses where no Hebrew survives.** (notes 1:28, 1:11, 1:25 in part; chapters.json)
@@ -86,7 +86,7 @@ How I checked:
 
 12. **Talmud quotations labeled "as the Sefaria text gives it" are paraphrases.** (notes 3:21, 6:6) Sefaria's William Davidson English of Hagigah 13a reads "Seek not things concealed from you, nor search those hidden from you. Reflect on that which is permitted to you; you have no business with secret matters". The note's wording differs. Sanhedrin 100b reads "Let many be those who greet you ..." and Yevamot 63b "Reveal a secret to only one in a thousand", but the note quotes "Let many be those who seek your peace". Quote Sefaria exactly or say "in the writer's translation of the Hebrew". The Sanhedrin 100b claim about Rav Yosef is correct.
 
-13. **Term claim false against the Plain.** (notes 5:6) "The Plain keeps 'anger' for *orgē* and 'fury' for *thymos*" is false: θυμός at 1:22 is rendered "anger" twice. Either change 1:22 or fix the note.
+13. **Term claim false against the Plain English Translation.** (notes 5:6) "The Plain English Translation keeps 'anger' for *orgē* and 'fury' for *thymos*" is false: θυμός at 1:22 is rendered "anger" twice. Either change 1:22 or fix the note.
 
 14. **6:30 Hebrew normalized silently.** (variants 6:30) A and 2Q18 (restored) read "עלי זהב עולה". The English "a yoke of gold is her yoke" treats "עלי" as עֹל. The reason offers a different guess (the Greek read *'ullah* as *'aleha*). Give the word as written, say that "עלי" is unexplained, and drop or label the guess.
 
@@ -127,12 +127,12 @@ How I checked:
     - It repeats the Wikipedia-only dates and the "often changed" claim (see 4 and 6).
     - Link spelling "Cairo Geniza" differs from the "Genizah" used elsewhere.
     - Its source keys include `bavli-hagigah` and `bavli-sanhedrin` (the build passes with proposals). Its "1896" and "about two-thirds" come from Wikipedia only.
-    - Eight terms proposed. The παιδεία entry ("instruction", "discipline" at 4:17, "the untaught") conflicts with the 19-23 entry ("discipline", "undisciplined"); the lead must choose one. The ἐλεημοσύνη entry departs from the shared "alms" at 3:14 ("Mercy shown to a father") with a note; the departure hides the Greek link to 3:30, so state it in the Plain's gloss.
+    - Eight terms proposed. The παιδεία entry ("instruction", "discipline" at 4:17, "the untaught") conflicts with the 19-23 entry ("discipline", "undisciplined"); the lead must choose one. The ἐλεημοσύνη entry departs from the shared "alms" at 3:14 ("Mercy shown to a father") with a note; the departure hides the Greek link to 3:30, so state it in the Plain English Translation's gloss.
 
 20. **Drift and wording.**
     - Judged by description only. I found no run of five or more words that I would flag as matching the NRSV, NABRE, RSV, NJB, NETS or Skehan-DiLella; I cannot check without recalling their text, which the rules forbid.
-    - The gloss "be paranoid about your staff" (4:30) uses a word that is a known rendering of φαντασιοκοπῶν in one modern version; the Plain's "dream up fears" adds "fears", which is not in the Greek.
-    - Small additions in the Plain: 2:5 and 3:17 add "God" to δεκτοί (the Greek has "acceptable"); 3:14 adds "as a house"; 1:26 turns the participle into a question; 3:1 "for I am your father" smooths "ἐμοῦ τοῦ πατρός".
+    - The gloss "be paranoid about your staff" (4:30) uses a word that is a known rendering of φαντασιοκοπῶν in one modern version; the Plain English Translation's "dream up fears" adds "fears", which is not in the Greek.
+    - Small additions in the Plain English Translation: 2:5 and 3:17 add "God" to δεκτοί (the Greek has "acceptable"); 3:14 adds "as a house"; 1:26 turns the participle into a question; 3:1 "for I am your father" smooths "ἐμοῦ τοῦ πατρός".
     - Gloss at 3:16, "on the Lord's bad side", is flippant for a curse.
 
 ## Verified
@@ -159,11 +159,11 @@ How I checked:
 10. Fixed. Lectionary heading removed (note 5:7, ch. 5 C view); the Vulgate line kept.
 11. Fixed. Avot 1:15 removed from note 5:11.
 12. Fixed. Hagigah 13a, Sanhedrin 100b and Yevamot 63b now quoted exactly from Sefaria's William Davidson translation (files re-read), labeled as such.
-13. Fixed. Note 5:6 now says the Plain gives orgē "anger" and thymos "fury" in that verse; 1:22 left as it is.
+13. Fixed. Note 5:6 now says the Plain English Translation gives orgē "anger" and thymos "fury" in that verse; 1:22 left as it is.
 14. Fixed. 6:30 variant gives עלי as written and unexplained; the 'aleha guess dropped.
-15. Fixed. 3:19 "many are God's mercies"; 3:26 explains yinhag; 4:10 adds "widows" for "their mother" (variant b); 4:17 en shows the person shift and the why says the Plain reading smooths it; 4:28 says the sense of היעצה is taken from the Greek.
+15. Fixed. 3:19 "many are God's mercies"; 3:26 explains yinhag; 4:10 adds "widows" for "their mother" (variant b); 4:17 en shows the person shift and the why says the Plain English Translation reading smooths it; 4:28 says the sense of היעצה is taken from the Greek.
 16. Fixed by removal or rewording: sea snails, Aristotle, Yose ben Yoezer's date, Judean frost, the Didache's date, Catholic almsgiving/penance line, Greek aidōs; 6:21 lifting stone rewritten as a reading of the Greek words (type symbol); 4:28 no longer says the martyrs took Ben Sira's words literally.
 17. Fixed. 6:3 Luke 23:31 now names xylon/xēros; 1:6 "a word of the same family, panourgia" (checked with tools/lxx.py); Didache "closely echoes" (note 4:31, `almsgiving`, `ben-sira`); 1:13 "nothing in these chapters".
 18. Partly. No new card (no church statement on 3:3 itself was opened); note 3:3 and ch. 3 C and P views now point to the Tobit 4 card; the P line no longer asserts a confessional "deny"; ch. 2 J view (biblical echoes only) dropped.
-19. Fixed. `ben-sira` proposal: dates and 132 BC reasoning from Rendsburg-Binstein and Gigot, "often changed" removed, 1896 (Gigot, bensira.org) and "about two-thirds" (bensira.org) sourced, the unsourced Masada range dropped, link label "Cairo Genizah", sources updated. Terms: παιδεία entry reconciled to lead decision 6 ("discipline" default; 1:27 and 6:20 changed in the Plain); ἐλεημοσύνη at 3:14 now has a gloss naming the alms word.
+19. Fixed. `ben-sira` proposal: dates and 132 BC reasoning from Rendsburg-Binstein and Gigot, "often changed" removed, 1896 (Gigot, bensira.org) and "about two-thirds" (bensira.org) sourced, the unsourced Masada range dropped, link label "Cairo Genizah", sources updated. Terms: παιδεία entry reconciled to lead decision 6 ("discipline" default; 1:27 and 6:20 changed in the Plain English Translation); ἐλεημοσύνη at 3:14 now has a gloss naming the alms word.
 20. Fixed. 1:26 (no question; "guard the commandments"), 2:5 and 3:17 ("acceptable", no added "God"), 3:14 (no "as a house"), 3:1 ("Hear me, children, me, your father"), 4:30 ("let your imagination run wild"; gloss changed from "paranoid"), 3:16 gloss no longer flippant. Lead decisions 12 and 13 applied: every MS A reading in variants and Hebrew-quoting notes now gives folio and line; 1:25 βδέλυγμα "something abhorrent".

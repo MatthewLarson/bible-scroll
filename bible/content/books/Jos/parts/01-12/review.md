@@ -33,7 +33,7 @@ Each of these matches a copyrighted version's phrasing beyond what the Hebrew fo
 - **9:5** "dry and crumbly" (ESV). **9:7** "Perhaps you live among us. Then how could we make a covenant with you?" (ESV, nearly exact). **9:9** "because of the name of the LORD your God. For we have heard the report of him" (ESV). **9:15** "Joshua made peace with them and made a covenant with them to let them live, and the leaders of the community swore an oath to them" (ESV: "Joshua made peace with them and made a covenant with them, to let them live, and the leaders of the congregation swore to them"). In 9:15 you could keep the Hebrew order and vary the wording: "Joshua made peace with them. He cut a covenant with them to keep them alive."
 - **10:10** "The LORD threw them into a panic before Israel" is the ESV word for word. Try: "The LORD sent them into confusion in front of Israel."
 - **10:12** "Sun, be still over Gibeon, / and moon, over the Valley of Aijalon" takes the NIV's "over" for Hebrew *be-* ("at, in"). This is also interpretive, because it pictures the sun hanging above the town. Try: "Sun, be still at Gibeon, / moon, in the Valley of Aijalon."
-- **9:21, 9:23, 9:27** "woodcutters and water carriers" is the NIV's coinage (ESV: "cutters of wood and drawers of water"). Deuteronomy 29:11's Plain wording on this site is "the one who cuts your firewood to the one who carries your water". Consider "wood-choppers and water-haulers", or echo Deuteronomy's wording.
+- **9:21, 9:23, 9:27** "woodcutters and water carriers" is the NIV's coinage (ESV: "cutters of wood and drawers of water"). Deuteronomy 29:11's Plain English Translation wording on this site is "the one who cuts your firewood to the one who carries your water". Consider "wood-choppers and water-haulers", or echo Deuteronomy's wording.
 - **1:3** "just as I promised Moses" is the NIV ("as I promised Moses"). The Hebrew is *ka'asher dibbarti el Moshe*, "as I spoke to Moses".
 - Lower priority, because the phrasing is natural: 1:1 "Moses' assistant" (ESV), 3:5 "do wonders among you" (ESV), 4:6 "What do these stones mean to you?" (ESV), 11:19 (close to ESV).
 
@@ -41,7 +41,7 @@ Each of these matches a copyrighted version's phrasing beyond what the Hebrew fo
 Turning the place name into a modern region is interpretation, and it follows the NIV. It also breaks consistency with Genesis on this site, which writes "Shinar" in all four places (Genesis 10:10; 11:2; 14:1, 9). The book's own note #87 is titled "A robe from Shinar" and explains that Shinar is Babylonia. That explanation belongs in the note, not in the text. Fix: "a fine robe from Shinar" (or "a fine Shinar cloak"), and keep the note as is.
 
 **3. (major) plain.txt 8:29 and 10:26: "hanged" for *talah*.**
-In modern English "hanged" means put to death by hanging. In 10:26 the kings are already dead ("struck them down and killed them, and he hanged them"). The notes (#97; topic `hanged-on-a-tree`: "In both cases 'hanging' is the display of a body after death") correct a reading that the Plain itself creates. In 8:29 the Hebrew does not say whether the king was killed first, but the burial notice and Deuteronomy 21:22–23 point to display of a body. Fix: "hung" in both verses ("he hung them on five trees"; "He hung the king of Ai on a tree until evening"). In 8:29, consider "hung the king of Ai's body", with the uncertainty noted. Change the 8:29 note to match.
+In modern English "hanged" means put to death by hanging. In 10:26 the kings are already dead ("struck them down and killed them, and he hanged them"). The notes (#97; topic `hanged-on-a-tree`: "In both cases 'hanging' is the display of a body after death") correct a reading that the Plain English Translation itself creates. In 8:29 the Hebrew does not say whether the king was killed first, but the burial notice and Deuteronomy 21:22–23 point to display of a body. Fix: "hung" in both verses ("he hung them on five trees"; "He hung the king of Ai on a tree until evening"). In 8:29, consider "hung the king of Ai's body", with the uncertainty noted. Change the 8:29 note to match.
 
 **4. (major) notes.json #23 (2:11): a rabbinic quotation the cited sources do not contain.**
 "The rabbis ... told that she said, 'Blessed be the LORD who has rescued me' (Bavli Zevachim 116b; Mekhilta, Yitro)." "Blessed be the LORD who has rescued you" is Jethro's line (Exodus 18:10). Neither cited source gives it to Rahab. In the Mekhilta (Amalek/Yitro 1), Rahab, converting at fifty, confesses sins of "eye, thigh and stomach" and asks, "by the merit of three things pardon me: the rope, the window and the wall". Bavli Zevachim 116a–b has the variant "the rope, the window and the flax". Zevachim 116a–b also contrasts Jethro and Rahab, which is probably where the lines got crossed. Fix: replace the quotation with the rope/window/wall prayer and cite it correctly. The chapter 2 deep section ("confessed her sins, praised the God of Israel ... Bavli Zevachim 116b; Bavli Megillah 15a") is acceptable once the note is fixed.
@@ -59,7 +59,7 @@ The hyperbole view (Kitchen, Younger, Wolterstorff, Copan, Flannagan), the uniqu
 **7. (major) variants.json: significant Septuagint readings with no entry.**
 - **10:13** The Septuagint reads "until **God** took vengeance on their enemies" (ἕως ἠμύνατο ὁ θεὸς τοὺς ἐχθροὺς αὐτῶν) where the Hebrew has "the nation" (*goy*). This changes who acts, in the book's most famous verse, and it sits inside the anchor of the existing Jashar variant. Add an entry; anchor it on "until the nation took revenge on its enemies".
 - **10:1, 10:3** The Septuagint calls the king of Jerusalem *Adonibezek* (Ἀδωνιβεζεκ), linking him to Judges 1:5–7. Commentators note this widely (Nelson, Butler, Boling). Add an entry and the cross-reference.
-- **4:9** The Septuagint reads "**other** twelve stones" (ἄλλους δώδεκα λίθους). Meanwhile the Plain adds "also" ("Joshua also set up twelve stones"), a word the Hebrew does not have. In effect the Plain silently adopts the two-memorials reading that note #42 says is debated. Either drop "also" and keep the debate in the note, or add a variant showing that the Greek supports "other".
+- **4:9** The Septuagint reads "**other** twelve stones" (ἄλλους δώδεκα λίθους). Meanwhile the Plain English Translation adds "also" ("Joshua also set up twelve stones"), a word the Hebrew does not have. In effect the Plain English Translation silently adopts the two-memorials reading that note #42 says is debated. Either drop "also" and keep the debate in the note, or add a variant showing that the Greek supports "other".
 - **7:17** "man by man" (*la-gevarim*). Some Hebrew manuscripts and the Syriac read "household by household" (*la-battim*), which fits the procedure of 7:14 (BHS apparatus). This is a minor entry or a note.
 
 ### Minor
@@ -79,19 +79,19 @@ The hyperbole view (Kitchen, Younger, Wolterstorff, Copan, Flannagan), the uniqu
 - The lead "curse tablet" was found in 2019 by wet-sifting Zertal's spoil. It was announced at a press conference in March 2022 and published in *Heritage Science* in May 2023. It is folded shut, so its text is known only from CT scans. The team dates it to about 1200 BC or earlier from the letter forms. Christopher Rollston said the published images show no readable letters, and Aren Maeir and others reject the reading. "Strongly disputed" is right, but the reader needs these facts to see why.
 
 **12. (minor) Name spelling: Chinnereth or Kinnereth.**
-Jos 11:2 and 12:3 (and part 13-24, and Numbers 34:11) have "Chinnereth". Deuteronomy 3:17 has "Kinnereth". **Recommend "Chinnereth"** (the BSB form, already the site's majority), and ask the Deuteronomy writer to change 3:17. Note that in Joshua 11:2 and 12:3 the Hebrew is the plural form *Kinarot* (KJV "Chinneroth"). That deserves at most a gloss. Also in chapters.json ch. 12 deep: "Acshaph" should be "Achshaph", as in the Plain (11:1; 12:20).
+Jos 11:2 and 12:3 (and part 13-24, and Numbers 34:11) have "Chinnereth". Deuteronomy 3:17 has "Kinnereth". **Recommend "Chinnereth"** (the BSB form, already the site's majority), and ask the Deuteronomy writer to change 3:17. Note that in Joshua 11:2 and 12:3 the Hebrew is the plural form *Kinarot* (KJV "Chinneroth"). That deserves at most a gloss. Also in chapters.json ch. 12 deep: "Acshaph" should be "Achshaph", as in the Plain English Translation (11:1; 12:20).
 
 **13. (minor) Inconsistent rendering of *shoterim*.**
 1:10 and 3:2 have "officers"; 8:33 has "officials", as do part 13-24 (23:2; 24:1) and Deuteronomy 1:15, 16:18 and 20:5. Use "officials" in 1:10 and 3:2 (and the 1:10 gloss), and consider adding `["shoterim","officials"]` to terms.json. Deuteronomy itself wavers (29:10 and 31:28 have "officers"), so flag it to that writer too.
 
 **14. (minor) 5:14 *va-yishtachu* rendered "bowed low", while the notes speak of worship.**
-Note #61, the `angels` contribution ("since he accepts Joshua's worship") and ch. 5 view X ("accepts worship as only God may") all rest on a word the Plain renders "bowed low". The gloss then softens it further ("bowed down in honor"). The verb covers both bowing to a human superior and worship. Add a `word`/`deb` note on *hishtachavah* and make the notes and the gloss match the translation.
+Note #61, the `angels` contribution ("since he accepts Joshua's worship") and ch. 5 view X ("accepts worship as only God may") all rest on a word the Plain English Translation renders "bowed low". The gloss then softens it further ("bowed down in honor"). The verb covers both bowing to a human superior and worship. Add a `word`/`deb` note on *hishtachavah* and make the notes and the gloss match the translation.
 
 **15. (minor) 10:12 *az* ("then") left out.**
 The Hebrew opens with *az yedabber Yehoshua*, "Then Joshua spoke", a formula that often introduces quoted poetry (compare Exodus 15:1; Numbers 21:17). Restore "Then".
 
 **16. (minor) 1:13 tense.**
-"and he has given you this land" renders *ve-natan*, a waw-consecutive perfect after a participle, which normally reads as future: "and he will give you this land" (literal.js: "he will give"). The Plain follows the NIV's "has granted". Use "and will give you this land".
+"and he has given you this land" renders *ve-natan*, a waw-consecutive perfect after a participle, which normally reads as future: "and he will give you this land" (literal.js: "he will give"). The Plain English Translation follows the NIV's "has granted". Use "and will give you this land".
 
 **17. (minor) variants.json #24 (12:24): the "why" does not explain the total of 29.**
 Brenton's rendering of the Vatican text lists exactly 29 names. It has no king of Bethel at 12:16, joins Aphek and "Sharon" into one king (12:18; the Hebrew *la-Sharon* may be "of the Sharon", so the Masoretic "Lasharon, one" may itself be a misreading), and garbles several other names. Explain briefly how 31 becomes 29, checking Margolis, and connect it to the Lasharon problem raised in ch. 12 deep ("Lasharon ... hard to locate").
@@ -125,8 +125,8 @@ In Bavli Megillah 14b the eight descendants of Rahab are "prophets who were prie
 **26. (minor) notes.json #51 (5:2): title.**
 "Flint knives in the Iron Age" places a story the book itself sets in the Late Bronze Age in the Iron Age. Use "Flint knives in an age of bronze".
 
-**27. (minor) 9:5, 9:12 *niqqudim*: Plain, gloss and chapter page disagree.**
-The Plain says "dry and crumbly" / "crumbled", the gloss says "stale and moldy", and the ch. 9 summary says "moldy bread". The word is debated: "crumbs", or "spotted, moldy" (compare *naqod*, "speckled"). Pick one rendering (see finding 1), add a short `deb` note, and make the gloss and the summary agree with it.
+**27. (minor) 9:5, 9:12 *niqqudim*: Plain English Translation, gloss and chapter page disagree.**
+The Plain English Translation says "dry and crumbly" / "crumbled", the gloss says "stale and moldy", and the ch. 9 summary says "moldy bread". The word is debated: "crumbs", or "spotted, moldy" (compare *naqod*, "speckled"). Pick one rendering (see finding 1), add a short `deb` note, and make the gloss and the summary agree with it.
 
 **28. (minor) Missing cross-references (STYLE: both directions).**
 None of these appears anywhere in the part:
@@ -204,7 +204,7 @@ All findings accepted except where noted. Edits were made in the part files, `Jo
      - "Uncommon" now holds the Rahab/Gibeon reading and Origen's purely spiritual reading.
    - book.json "The ethics of conquest" and "How Jews read Joshua" were updated to match.
 7. Variants. Four new entries:
-   - 4:9 "another twelve stones" (LXX). The silent "also" was dropped from the Plain.
+   - 4:9 "another twelve stones" (LXX). The silent "also" was dropped from the Plain English Translation.
    - 7:17 "household by household" (some Hebrew manuscripts and the Syriac).
    - 10:1 Adonibezek (LXX, also at 10:3; cross-referenced to Judges 1:5–7).
    - 10:13 "until God took revenge" (LXX).
@@ -232,7 +232,7 @@ All findings accepted except where noted. Edits were made in the part files, `Jo
 24. Huldah: now "eight prophet-priests including Jeremiah; one rabbi added the prophetess Huldah".
 25. 2 Samuel 8:4 now reads "enough horses for a hundred chariots".
 26. The 5:2 note title is now "Flint knives in an age of bronze".
-27. niqqudim: the Plain now has "dried out and turned to crumbs" (9:5, 9:12). The gloss reads "crumbs, or perhaps spotted with mold", and the ch. 9 summary and the 9:14 note preview say "crumbling bread". The gloss gives the debate, so no separate note was added.
+27. niqqudim: the Plain English Translation now has "dried out and turned to crumbs" (9:5, 9:12). The gloss reads "crumbs, or perhaps spotted with mold", and the ch. 9 summary and the 9:14 note preview say "crumbling bread". The gloss gives the debate, so no separate note was added.
 28. Cross-references added:
     - Acts 13:19 (ch. 12 echoes, 10:42 note)
     - Psalm 44:1–3 (ch. 10 and ch. 12 echoes, 10:14 and 10:42 notes)

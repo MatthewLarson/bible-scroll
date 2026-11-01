@@ -25,7 +25,7 @@ For each of your books:
    damages, say), not one card per verse. Name hearers exactly ("the Israelites gathered at Mount Sinai", "Aaron
    and his sons", "the elders of Israel"), not "people".
 3. Ranges must be one passage of the book starting in that chapter (e.g. "20:1–17", "21:1–23:33"). Quotes of any
-   book on the site must use its Plain wording; the build checks. Write the book name in every reference to
+   book on the site must use its Plain English Translation wording; the build checks. Write the book name in every reference to
    another book. Use existing source keys (content/sources.json and the book's own parts' sources.json) in `s`
    where a claim rests on a particular scholar; don't invent keys.
 4. Fairness: where the audience or purpose is debated, say so in `views` rather than stating one side.

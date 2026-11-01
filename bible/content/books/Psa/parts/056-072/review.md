@@ -1,6 +1,6 @@
 # Hostile review: Psalms 56–72 (part 056-072)
 
-Reviewer's verdict. This is a strong part. The Plain follows the Hebrew closely and line by line. It does not hide the hard places (56:7, 58:1, 58:9, 62:3, 68:4, 68:13, 68:17, 68:27, 68:30, 72:5). The titles follow terms.json. Every psalm has a settings card with `readers`, and every summary gives the Greek number. The Jewish and Christian readings of 69 and 72 are fair, and the curse psalms 58 and 69 get an honest treatment. Most of the facts it cites from memory check out. I verified the Omer count (Psalm 67 has 49 words after the title, counting maqaf-joined words separately, Selah included), Tenebrae on Maundy Thursday, GILH 131, the Targum's "King Messiah" at 61:7 (Hebrew 61:7: יומי מלכא משיחא), the Targum's "bunch of frankincense" at 70:0 (Stec), and the Greek of 57:0, 57:2, 57:8 and 58:1. The Greek title of 71 and the Greek of 71:3, 6, 15 and 20 also check out. 57:7–11 and 60:5–12 agree with the site's Psalm 108 wherever the Hebrew agrees. But there are real errors. One Greek claim made from memory is false (61:7). One variant names a Ketiv/Qere in Psalm 108 that does not exist (60:5). Psalm 70 was translated without reference to the site's Psalm 40:13–17, and its note misquotes that Plain six times. One verse (68:29) matches the NIV and ESV wording and leaves the Hebrew preposition. Several notes misquote the site's own Plain of other psalms, including the build warning at 56:9. The part's one note on Hebrew numbering is wrong for Psalms 66, 71 and 72. No critical findings: 0 critical, 6 major, 21 minor.
+Reviewer's verdict. This is a strong part. The Plain English Translation follows the Hebrew closely and line by line. It does not hide the hard places (56:7, 58:1, 58:9, 62:3, 68:4, 68:13, 68:17, 68:27, 68:30, 72:5). The titles follow terms.json. Every psalm has a settings card with `readers`, and every summary gives the Greek number. The Jewish and Christian readings of 69 and 72 are fair, and the curse psalms 58 and 69 get an honest treatment. Most of the facts it cites from memory check out. I verified the Omer count (Psalm 67 has 49 words after the title, counting maqaf-joined words separately, Selah included), Tenebrae on Maundy Thursday, GILH 131, the Targum's "King Messiah" at 61:7 (Hebrew 61:7: יומי מלכא משיחא), the Targum's "bunch of frankincense" at 70:0 (Stec), and the Greek of 57:0, 57:2, 57:8 and 58:1. The Greek title of 71 and the Greek of 71:3, 6, 15 and 20 also check out. 57:7–11 and 60:5–12 agree with the site's Psalm 108 wherever the Hebrew agrees. But there are real errors. One Greek claim made from memory is false (61:7). One variant names a Ketiv/Qere in Psalm 108 that does not exist (60:5). Psalm 70 was translated without reference to the site's Psalm 40:13–17, and its note misquotes that Plain English Translation six times. One verse (68:29) matches the NIV and ESV wording and leaves the Hebrew preposition. Several notes misquote the site's own Plain English Translation of other psalms, including the build warning at 56:9. The part's one note on Hebrew numbering is wrong for Psalms 66, 71 and 72. No critical findings: 0 critical, 6 major, 21 minor.
 
 ## Major
 
@@ -12,14 +12,14 @@ Fix: "The Greek reads it as 'who' (τίς: 'his mercy and truth, who will seek t
 The readings list "108:6 (Qere)" for "me" and "108:6 (Ketiv)" for "us". The Leningrad Codex at Psalm 108:7 (Hebrew) simply writes וַעֲנֵנִי, "answer me", with no Ketiv/Qere. texts/auto/Psa.json lists a Ketiv/Qere at 60:5 (K ועננו, Q ועננִי) and none at 108. So Psalm 108 is a witness for "me" in its written text. That makes the "me" reading stronger than the entry admits.
 Fix: reading 0 `w`: "Qere; Psalm 108:6 (Hebrew 108:7), written text; Septuagint ἐπάκουσόν μου". Reading 1 `w`: "Ketiv (Leningrad Codex consonants)" only. Adjust the `why` to match.
 
-**3. Major. plain.txt 70:1–5 and notes.json 70:1 ("Psalm 70 is Psalm 40:13–17"). The Plain does not follow the site's Psalm 40, and the note misquotes it.**
-The brief lists 70 = 40:13–17 among the doublets. Where the Hebrew is the same, the duplicate should reuse the site's Plain and mark only the real differences. That is what the 107-118 writer did with 57 and 60 in Psalm 108. Here the identical Hebrew is rendered differently. Examples:
+**3. Major. plain.txt 70:1–5 and notes.json 70:1 ("Psalm 70 is Psalm 40:13–17"). The Plain English Translation does not follow the site's Psalm 40, and the note misquotes it.**
+The brief lists 70 = 40:13–17 among the doublets. Where the Hebrew is the same, the duplicate should reuse the site's Plain English Translation and mark only the real differences. That is what the 107-118 writer did with 57 and 60 in Psalm 108. Here the identical Hebrew is rendered differently. Examples:
 - 40:16 has "celebrate and be glad in you" where 70:4 has "celebrate and rejoice in you" (both יָשִׂישׂוּ וְיִשְׂמְחוּ).
 - 40:16 has "Let those who love your rescue say at all times" where 70:4 has "your salvation ... always" (both יְשׁוּעָתֶךָ, תָּמִיד).
 - 40:14 has "be driven back and disgraced" where 70:2 has "be turned back and disgraced" (both יִסֹּגוּ אָחוֹר וְיִכָּלְמוּ).
 - 40:16 has "Great is the LORD!" where 70:4 has "God is great!" Only the divine name differs in the Hebrew (יִגְדַּל). The 40 form also keeps the jussive/exclamation better than the flat statement "God is great!", which also sounds like a slogan in English.
 
-The note then quotes "Psalm 40" six times in wording the site's Plain does not have:
+The note then quotes "Psalm 40" six times in wording the site's Plain English Translation does not have:
 - "Be pleased, LORD, to rescue me" (site: "LORD, may it please you to rescue me!");
 - "to snatch it away" (site: "to sweep it away");
 - "let them be appalled" (site: "be stunned");
@@ -28,14 +28,14 @@ The note then quotes "Psalm 40" six times in wording the site's Plain does not h
 - "my God, do not delay" (site: "my God, do not be late").
 
 The note's closing sentence even admits that the wording "was made separately".
-Fix: rebuild 70:1–5 from 40:13–17's Plain, changing only what the Hebrew changes: God/LORD, the missing "together" and "to sweep it away", יָשׁוּבוּ for יָשֹׁמּוּ, "hurry to me" for "keep me in mind", "LORD" for "my God". Then requote 40 exactly in the note, and drop the "made separately" sentence.
+Fix: rebuild 70:1–5 from 40:13–17's Plain English Translation, changing only what the Hebrew changes: God/LORD, the missing "together" and "to sweep it away", יָשׁוּבוּ for יָשֹׁמּוּ, "hurry to me" for "keep me in mind", "LORD" for "my God". Then requote 40 exactly in the note, and drop the "made separately" sentence.
 
 **4. Major. notes.json 56:9, 56:4 and 56:13. The notes misquote the site's Psalms 118 and 116 (build warning).**
 (a) 56:9 quotes 118:6 as "the LORD is for me". The site's 118:6 reads "With the LORD for me, I have no fear." `build.js --check` warns on this. (b) 56:4 says "What will flesh do to me?" is "quoted almost word for word in 118:6". The site's 118:6 second line is "What can a human being do to me?", and the Hebrew there (מַה־יַּעֲשֶׂה לִי אָדָם) matches 56:11 (*adam*), not 56:4 (*basar*). (c) 56:13 quotes 116:9 as "I will walk before the LORD in the lands of the living." The site has "I will walk about in the LORD's presence / in the lands of the living."
 Fix: (a) say 118:6 makes the same point: "With the LORD for me, I have no fear" (118:6). (b) Point to 56:11: "The question of 56:11 returns in 118:6 almost word for word: 'What can a human being do to me?'" (c) Quote the site's 116:9 exactly.
 
 **5. Major. plain.txt 68:29. Close to the NIV and ESV, and off the Hebrew.**
-The Hebrew is מֵהֵיכָלֶךָ עַל־יְרוּשָׁלָםִ לְךָ יוֹבִילוּ מְלָכִים שָׁי, "From your temple over Jerusalem, to you kings will bring a gift". The Plain begins "Because of your temple ..." and ends "kings will bring you gifts". That is the NIV's and ESV's wording for both halves (each opens with "Because of your temple"). "Because of" is an interpretation of *min*, and the note at 68:29 itself glosses the phrase "from your temple". Two of the verse's three phrases match both versions, so it has to be redone under the STYLE rule.
+The Hebrew is מֵהֵיכָלֶךָ עַל־יְרוּשָׁלָםִ לְךָ יוֹבִילוּ מְלָכִים שָׁי, "From your temple over Jerusalem, to you kings will bring a gift". The Plain English Translation begins "Because of your temple ..." and ends "kings will bring you gifts". That is the NIV's and ESV's wording for both halves (each opens with "Because of your temple"). "Because of" is an interpretation of *min*, and the note at 68:29 itself glosses the phrase "from your temple". Two of the verse's three phrases match both versions, so it has to be redone under the STYLE rule.
 Fix: "From your temple above Jerusalem, / kings will bring gifts to you." Or follow the line division some scholars propose, with "From your temple" closing 68:28. Put "because of" in the note as one option. Re-anchor the 68:29 note.
 
 **6. Major. notes.json 56:0 ("Miktam, and how the titles are numbered"). The part's one numbering note is wrong for three psalms.**
@@ -54,7 +54,7 @@ Fix: add "except Psalms 66 and 72, whose short titles share verse 1 with the fir
 
 **11. Minor. notes.json 69:5 and variants.json 71:3. Vague Dead Sea Scroll claims.** "4QPs-a differs from the Leningrad Codex in this verse, but its reading is unclear" and "preserves this verse with a different wording whose meaning is unclear" tell the reader nothing they can check. 4QPs-a preserves parts of several psalms in this part: Flint lists 56, 62, 63, 66, 67, 69 and 71. The brief asks each part to say which witnesses it checked. Fix: give the actual reading from DSSB (Abegg, Flint and Ulrich), or cut the sentences. Add one line (in the 71:1 note, or a `com` note) naming the scrolls that hold these psalms and saying that DJD 16 was not checked.
 
-**12. Minor. plain.txt 71:7, "like a warning sign".** מוֹפֵת is a portent or wonder. The note itself gives the positive reading ("a wonder of God's protection"), but the Plain has already decided for "warning". Fix: "like a portent to many" (or "a sign"), and leave the two senses to the note.
+**12. Minor. plain.txt 71:7, "like a warning sign".** מוֹפֵת is a portent or wonder. The note itself gives the positive reading ("a wonder of God's protection"), but the Plain English Translation has already decided for "warning". Fix: "like a portent to many" (or "a sign"), and leave the two senses to the note.
 
 **13. Minor. chapters.json liturgy claims that are unsourced or overstated.**
 - 57 L: "Christians have long sung it at the feast of the Ascension" (no source; the Ascension propers I know draw on Psalms 47 and 68, not 57).
@@ -79,17 +79,17 @@ Fix: source or soften each one.
 **19. Minor. glosses.json.**
 - 66:17 "under my tongue" is glossed "on the tip of my tongue". In English that idiom means you can't quite recall a word, which is the opposite of praise held ready. Use "ready on my lips".
 - 60:8 "Moab is my washbasin" is glossed "Moab will do my dirty work". The image is a menial vessel, not a laborer. Try "Moab is my foot tub".
-- 69:27 "Add guilt to their guilt" is glossed "charge them with all they've done", which softens a curse that the chapter page says the Plain does not soften. Try "pile up their charges".
+- 69:27 "Add guilt to their guilt" is glossed "charge them with all they've done", which softens a curse that the chapter page says the Plain English Translation does not soften. Try "pile up their charges".
 
 **20. Minor. chapters.json traditions cards that repeat other parts.** The 68 card ("What was that descent?", top `sheol`) asks almost exactly the 001-017 card at 16:10 ("Christ descended to the dead?", same top), with the same churches. The 69 curse card asks the same question as the cards in book.json and at 35, 79, 109 and 137. Fix: give each card a question only this passage raises. At 68, ask whether Ephesians 4:9's "lower parts of the earth" means the incarnation, the grave or Hades. At 69, ask how Romans 11:9–10's use of the curse on Israel should be read. Otherwise keep the card short and point to the earlier one.
 
-**21. Minor. book.json outline (owned by 001-017).** Several headings for this part echo NIV/ESV wording rather than the site's Plain:
+**21. Minor. book.json outline (owned by 001-017).** Several headings for this part echo NIV/ESV wording rather than the site's Plain English Translation:
 - 62:1–12 "My soul waits in silence for God" (close to the ESV 62:1);
 - 69:1–36 "Save me, the waters have come up";
 - 71:1–24 "Do not cast me off in old age";
 - 67:1–7 "May all the peoples praise you".
 
-The site's Plain says "quiet before God", "throw me away" and "thank you". Fix (001-017 writer): reword from the site's Plain, for example "Quiet before God", "Water up to the throat", "Do not throw me away when I am old", "Let the peoples thank you".
+The site's Plain English Translation says "quiet before God", "throw me away" and "thank you". Fix (001-017 writer): reword from the site's Plain English Translation, for example "Quiet before God", "Water up to the throat", "Do not throw me away when I am old", "Let the peoples thank you".
 
 **22. Minor. notes.json 68:20.** Typo: "and In Revelation 1:18" should be "and in Revelation 1:18".
 
@@ -120,14 +120,14 @@ The site's Plain says "quiet before God", "throw me away" and "thank you". Fix (
   - Cassian, Conferences 10.10; Augustine, City of God 18.46; Tertullian's "almost kings";
   - the Paschal verses (68:1–3); the Hexapsalmos; Improperium; the Shabbat Minchah *Va'ani tefillati*;
   - the Targum at 61:7, 68:18, 70:0 and 72:1.
-- Cross-part: 57:7–11 and 60:5–12 match the site's 108:1–13 wherever the Hebrew matches (apart from finding 17). Title forms follow terms.json ("On 'Do Not Destroy.'" as in 75:0, "On Jeduthun." as in 77:0, "Lily" singular here against "Lilies" in 80:0, as the Hebrew has it). *Nevel*/*kinnor* is "harp"/"lyre" throughout the Psalms. Quotations of Judges 5:4–5, 2 Samuel 8:13, 1 Chronicles 18:12, 1 Samuel 19:11 and 21:12–13, Numbers 6:24–25 and 10:35, Genesis 22:18, Exodus 14:22 and Revelation 1:18, 3:5 and 16:1 match the site's Plain.
+- Cross-part: 57:7–11 and 60:5–12 match the site's 108:1–13 wherever the Hebrew matches (apart from finding 17). Title forms follow terms.json ("On 'Do Not Destroy.'" as in 75:0, "On Jeduthun." as in 77:0, "Lily" singular here against "Lilies" in 80:0, as the Hebrew has it). *Nevel*/*kinnor* is "harp"/"lyre" throughout the Psalms. Quotations of Judges 5:4–5, 2 Samuel 8:13, 1 Chronicles 18:12, 1 Samuel 19:11 and 21:12–13, Numbers 6:24–25 and 10:35, Genesis 22:18, Exodus 14:22 and Revelation 1:18, 3:5 and 16:1 match the site's Plain English Translation.
 - Style: no em-dashes, straight quotes, poetry marked with ` / `. Note density (210 notes for 281 verses) is fine.
 
 ## Fixes applied
 
 1. 61:7 note now says the Greek reads *man* as "who" (τίς), the strongest support for that option; the unchecked manuscript claim is cut.
 2. 60:5 variant: reading 0 witnesses are now the Qere, the written text of Psalm 108:6 (Hebrew 108:7, no Ketiv/Qere) and the Greek; reading 1 is the Ketiv only; `why` updated.
-3. Psalm 70 rebuilt from the site's 40:13–17 Plain, changing only what the Hebrew changes (God/LORD, no "may it please you", no "together" or "to sweep it away", "turn back" for "be stunned", no "to me", "God, hurry to me" for "may the Lord keep me in mind", "LORD" for "my God"). The 70:1 note now lists the Hebrew differences without quoting Psalm 40, and the "made separately" sentence is gone. Notes, glosses and the chapter page are re-anchored. Realigned 2026-10-24 to the final 40:13–17 (70:4 drops "But"); the only remaining differences are the ones the Hebrew forces.
+3. Psalm 70 rebuilt from the site's 40:13–17 Plain English Translation, changing only what the Hebrew changes (God/LORD, no "may it please you", no "together" or "to sweep it away", "turn back" for "be stunned", no "to me", "God, hurry to me" for "may the Lord keep me in mind", "LORD" for "my God"). The 70:1 note now lists the Hebrew differences without quoting Psalm 40, and the "made separately" sentence is gone. Notes, glosses and the chapter page are re-anchored. Realigned 2026-10-24 to the final 40:13–17 (70:4 drops "But"); the only remaining differences are the ones the Hebrew forces.
 4. 56:9 now quotes 118:6 exactly; 56:4 points to 56:11 and quotes "What can a human being do to me?" (118:6); 56:13 quotes 116:9 exactly. The chapter 56 L view is corrected the same way.
 5. 68:29 is now "From your temple above Jerusalem, / kings will bring gifts to you." The note gives "because of" and the other line division as options, and is re-anchored.
 6. The 56:0 numbering note now excepts Psalms 66 and 72 (title shares verse 1) and Psalm 71 (no title).

@@ -4,7 +4,7 @@ Reviewed: `content/books/1Es/book.json` (title through reading, and the whole `c
 
 Checked against:
 - the Greek in `texts/orig/1Es.json` (Swete) and the KJV lines in `texts/en/1Es.json`, which are tagged with the KJV's own numbers;
-- the three parts' current `plain.txt` (Swete numbering). A script pulled every quoted string out of book.json and looked for it in those files. Every 1 Esdras quotation matches except one (finding 7). The quotations from 2 Chronicles 35:22, Ezra 4:24, Nehemiah 8:9 and 8:13 and John 14:6 match the current Plain of those books;
+- the three parts' current `plain.txt` (Swete numbering). A script pulled every quoted string out of book.json and looked for it in those files. Every 1 Esdras quotation matches except one (finding 7). The quotations from 2 Chronicles 35:22, Ezra 4:24, Nehemiah 8:9 and 8:13 and John 14:6 match the current Plain English Translation of those books;
 - Ezra's `traditions` card (`content/books/Ezr/book.json`, top `first-esdras`) and Ezra's own note on verse numbers;
 - `content/works.json` (`1-esdras` is "1 Esdras", aka 3 Esdras, Esdras A, Greek Ezra; `4-ezra` is the apocalypse; the book never uses "2 Esdras" for the apocalypse in its own voice) and the shared source keys.
 
@@ -18,7 +18,7 @@ This is careful work, and the checkable core is sound. All the church and early-
 - **Three plain factual slips:** "nine-tenths" of the book is retelling (the guards' story alone is about a fifth); Ezra's reading of the law is dated to "the seventh year"; and the topic's numbering example gives the wrong verses.
 - **Luther's Aesop sentence** was read in a blog and is cited to a page of Luther's Works. I could not open any text with it. It is also made to stand for "Lutheran churches".
 
-The rest is precision: one quotation that is not the Plain's wording, three verse citations, a hedge, an absolute about the rabbis, and gaps in cited_in.
+The rest is precision: one quotation that is not the Plain English Translation's wording, three verse citations, a hedge, an absolute about the rabbis, and gaps in cited_in.
 
 Findings: **0 critical, 6 major, 14 minor.**
 
@@ -88,9 +88,9 @@ Location: `sections[0].b`, paragraph 1 ("Verse numbers in English Bibles also di
 
 ### Minor
 
-**7. A quoted phrase is not the Plain's wording.** `sections[3].b`: "all the time of King Cyrus's life" is put in quotation marks with (5:70). The Plain reads "the whole time King Cyrus was alive." Quote the Plain or drop the quotation marks. (The Greek is πάντα τὸν χρόνον τῆς ζωῆς, and the KJV has "all the time that king Cyrus lived", so the phrase seems to be a modernized KJV line.) Every other 1 Esdras quotation matches.
+**7. A quoted phrase is not the Plain English Translation's wording.** `sections[3].b`: "all the time of King Cyrus's life" is put in quotation marks with (5:70). The Plain English Translation reads "the whole time King Cyrus was alive." Quote the Plain English Translation or drop the quotation marks. (The Greek is πάντα τὸν χρόνον τῆς ζωῆς, and the KJV has "all the time that king Cyrus lived", so the phrase seems to be a modernized KJV line.) Every other 1 Esdras quotation matches.
 
-**8. Wrong verse for Sanabassar.** `sections[0].b` has "Sanabassar at 6:18". The Plain has the name at 6:17 and 6:19 and none at 6:18. The Greek name (Σαναβάσσαρος) is in 6:19.
+**8. Wrong verse for Sanabassar.** `sections[0].b` has "Sanabassar at 6:18". The Plain English Translation has the name at 6:17 and 6:19 and none at 6:18. The Greek name (Σαναβάσσαρος) is in 6:19.
 
 **9. "High priest" is cited at the wrong verse.** `cited_in[6].b` and `reliability.sections[3].b` give Ezra as "high priest" at 9:39–40, 49. The Greek ἀρχιερεύς is in 9:40 and 9:49 only. 9:39 says "priest and reader".
 
@@ -127,7 +127,7 @@ Location: `sections[0].b`, paragraph 1 ("Verse numbers in English Bibles also di
 ## Other checks (no finding)
 
 - **Canon block.** Every church is named, with a source. The book is "Scripture for" Orthodox churches and the Ethiopian church, and "Among the Apocrypha" for Anglicans, in `facts[0]`. There is no ranking.
-- **Reliability.** Labeled and balanced. "Conflicts" are listed point by point against the 66 and check out against the Greek and Plain: Artaxerxes before Darius, Darius sending Zerubbabel (4:47–5:6), 23rd of Adar at 7:5 against Ezra 6:15, Attarates at 9:49, "a thousand horsemen" at 5:2. Section 4's statement that the book teaches nothing about God, sin or salvation beyond the 66 is a judgment, and a plausible one, but it is not labeled as Claude's.
+- **Reliability.** Labeled and balanced. "Conflicts" are listed point by point against the 66 and check out against the Greek and Plain English Translation: Artaxerxes before Darius, Darius sending Zerubbabel (4:47–5:6), 23rd of Adar at 7:5 against Ezra 6:15, Attarates at 9:49, "a thousand horsemen" at 5:2. Section 4's statement that the book teaches nothing about God, sin or salvation beyond the 66 is a judgment, and a plausible one, but it is not labeled as Claude's.
 - **Attarates.** The book calls him "named Attarates" in `sections[0]`, `cited_in[7]` and `reliability.sections[3]`. The notes in part 06-09 correctly say the title *hattirshata* became a name. A reader of book.json alone will not know that. Add "(the governor's title, read as a name)" once.
 - **Names.** "1 Esdras", "3 Esdras", "Esdras A", "4 Ezra" all match works.json. The table in `sections[5]` is accurate (KJV, Latin, Russian), and `facts[1]` agrees.
 - **Fairness.** The two views of the book's origin (Torrey; Talshir) are stated in their strongest form with named holders. Catholic, Anglican, Lutheran, Reformed and Jewish positions are quoted from their own texts.
@@ -142,7 +142,7 @@ Fixer, 2026-10-31. Every kept or added fact was reopened this session; list in `
 4. Fixed. facts[4]: Josiah's eighteenth year (1:20), Ezra's coming in Artaxerxes' seventh year (8:6), reading on the first day of the seventh month (9:37–40) with no year. BC dates (622, 458) removed, not verified in an opened source.
 5. Fixed. Luther's Aesop sentence and LW page could not be found in any open text (searched; the beggarsall page reached is the Esther/Daniel preface): removed, with key `luther-preface-baruch`. Lutheran row now rests on the 1534 Wittenberg Bible's own list of the Apocrypha (image at the Gruber Collection, opened: eight items, no Esdras), labeled "Lutheran churches (Luther's Bible)"; new key `luther-bible-1534`. rejected_why[2] reworded to match.
 6. Fixed in content/topics/first-esdras.json: the Rahlfs sentence and repeated paragraph replaced by one paragraph: Swete numbering, KJV divides chapters 1, 2, 3, 5, 6 and 8 more finely, vessel list 2:12–13 here and 2:13–14 in the KJV (checked in texts/en and plain).
-7. Fixed. Quotes the Plain: "the whole time King Cyrus was alive" (5:70).
+7. Fixed. Quotes the Plain English Translation: "the whole time King Cyrus was alive" (5:70).
 8. Fixed. Sanabassar at 6:17 and 6:19.
 9. Fixed. "high priest" cited at 9:40, 49 in cited_in and reliability.
 10. Fixed. 7:73–8:13 everywhere, facts[5] noting only the first words of 8:13.

@@ -4,20 +4,20 @@
 - texts/orig/Jdt.json `grc` (Swete's Vaticanus), read verse by verse beside the KJV Apocrypha (whose numbering runs one verse behind from 15:14 to 16:17);
 - Swete's apparatus in texts/src/Jdt.app.json;
 - the Vulgate and Douay in texts/src/Jdt.lat.json;
-- part 01-07, book.json, content/terms.json, the site's Plain for the 66 books it has translated, and every `traditions` card on the site.
+- part 01-07, book.json, content/terms.json, the site's Plain English Translation for the 66 books it has translated, and every `traditions` card on the site.
 
 **Build.** `node tools/build.js --check Jdt/08-16` gives **0 errors, 0 warnings** (194 verses, 127 notes, 24 variants, 62 glosses, 9 chapter pages, 20 topic contributions).
 
 **Quotations checked by script.**
 - **Greek.** Every Greek `orig` string in notes.json and variants.json is in Swete's text or apparatus. Two are splices, and one misattributes a parenthesis (finding 7). **I found no invented Greek reading.**
 - **Latin and Douay.** Every Latin quotation matches the Vulgate file. Every Douay quotation matches the Douay file except one, 13:20 (finding 7).
-- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain, except one at N68 (finding 13). I checked about forty by script and by hand: Genesis, Exodus, Numbers, Deuteronomy, Judges, Ruth, 1 Samuel, 1 Kings, Ezra, Esther, Job and Psalms.
+- **The 66 books.** Every quotation of a book the site has translated matches the site's Plain English Translation, except one at N68 (finding 13). I checked about forty by script and by hand: Genesis, Exodus, Numbers, Deuteronomy, Judges, Ruth, 1 Samuel, 1 Kings, Ezra, Esther, Job and Psalms.
 
 **The texts file at 9:2.** When I first copied texts/orig/Jdt.json, it read ἐγύμωσαν. That is not a Greek word. Swete's own lemma confirms ἐγύμνωσαν: the apparatus at 9:2 reads `εγυμ- νωσαν] + μητραν παρθενου) εις μιασμα B*`. The live file was corrected to ἐγύμνωσαν at 00:38 today, and no other verse changed. No content file quotes the bad form, so nothing in this part needs fixing.
 
 ## Verdict
 
-This is strong, careful work. The Plain is built from the Vaticanus Greek, verse by verse. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and with Moore's translation, and found no sentence shape that depends on them. Where wording coincides, the Greek forces it (for example 8:16 or 13:18).
+This is strong, careful work. The Plain English Translation is built from the Vaticanus Greek, verse by verse. I compared every verse in my head with the NRSV, RSV, NABRE, NJB, CEB, GNT and NETS, and with Moore's translation, and found no sentence shape that depends on them. Where wording coincides, the Greek forces it (for example 8:16 or 13:18).
 
 **Departures from Vaticanus.** Both are handled openly, with full variant entries:
 - 8:6, "and the new moons";
@@ -25,7 +25,7 @@ This is strong, careful work. The Plain is built from the Vaticanus Greek, verse
 
 I found no silent departure.
 
-**Quotations and cross-references.** The site's Plain is used faithfully for the 66 books. The cross-references to Exodus 15, Judges 4–5, 1 Samuel 17, Deuteronomy 23:3 and Luke 1 are present and accurate in both directions. Every pointer to another card on the site (Joshua 2, Tobit 12, 1 Samuel 24, Deuteronomy 20, Joshua, Genesis 3, Job 2, 5 and 36, Judges 11, Jude 1, 1 Enoch 108) points to a card that exists. The Jewish and patristic claims I was asked to check hold up (see "Claims verified").
+**Quotations and cross-references.** The site's Plain English Translation is used faithfully for the 66 books. The cross-references to Exodus 15, Judges 4–5, 1 Samuel 17, Deuteronomy 23:3 and Luke 1 are present and accurate in both directions. Every pointer to another card on the site (Joshua 2, Tobit 12, 1 Samuel 24, Deuteronomy 20, Joshua, Genesis 3, Job 2, 5 and 36, Judges 11, Jude 1, 1 Enoch 108) points to a card that exists. The Jewish and patristic claims I was asked to check hold up (see "Claims verified").
 
 The weaknesses:
 - **Three translation choices** shift the sense where the book's moral debate turns: 9:10 (who strikes), 8:12 (ὑπέρ with the genitive) and 16:14 ("Spirit").
@@ -41,7 +41,7 @@ Nothing is critical.
 
 ### 1. MAJOR: plain.txt 9:10, "Let the deceit on my lips strike down the slave": God removed as the one who strikes
 
-The Greek is an imperative addressed to God: πάταξον δοῦλον ἐκ χειλέων ἀπάτης μου ἐπ᾽ ἄρχοντι, "Strike the slave, by my deceitful lips, together with the ruler." The second clause is the same (θραῦσον, "shatter"). The Plain turns the first command into a third-person wish whose subject is "the deceit on my lips". God disappears as the agent, and Judith's deceit becomes the striker.
+The Greek is an imperative addressed to God: πάταξον δοῦλον ἐκ χειλέων ἀπάτης μου ἐπ᾽ ἄρχοντι, "Strike the slave, by my deceitful lips, together with the ruler." The second clause is the same (θραῦσον, "shatter"). The Plain English Translation turns the first command into a third-person wish whose subject is "the deceit on my lips". God disappears as the agent, and Judith's deceit becomes the striker.
 
 This is the verse on which N39, the chapter 9 deep section "Praying for deceit" and the views all turn. Their point is that Judith asks *God* to act through her deceit, and the translation should carry it.
 
@@ -122,7 +122,7 @@ As printed, Swete's note `τω κυριω] μου ℵA` replaces "the Lord" with
 
 - **9:3.** `om απατην ℵ*ᵛⁱᵈ (hab απατη ℵ¹) A`: Sinaiticus (first hand) and Alexandrinus lack "their deceit". In a book where deceit is the theme (N31 is built on this phrase), that matters. Add an entry.
 - **16:13.** `θεω μου] κω A` (the digitized note shows "??] κω A"). Alexandrinus and the KJV have "to the Lord" for "to my God". Add a minor entry, or mention it in N115.
-- **16:11.** "and the enemy was routed" supplies a subject the Greek lacks. N113 discloses it, which may be enough because it is not a departure from B. But by the Tobit lesson ("every place where the Plain departs from the base text… needs a variant entry"), consider a `deb` note anchored on "the enemy", or an entry.
+- **16:11.** "and the enemy was routed" supplies a subject the Greek lacks. N113 discloses it, which may be enough because it is not a departure from B. But by the Tobit lesson ("every place where the Plain English Translation departs from the base text… needs a variant entry"), consider a `deb` note anchored on "the enemy", or an entry.
 
 ### 11. MINOR: plain.txt 16:14, "You sent out your Spirit"
 
@@ -130,17 +130,17 @@ A capital S imposes the Christian reading (the Holy Spirit) in the translation i
 
 ### 12. MINOR: factual slips
 
-- **N1 (8:1).** "the longest genealogy of any woman…, sixteen generations". The Plain follows Vaticanus, which lists twelve ancestors (Merari to Israel). Sixteen is only with the four names of ℵA. Say "twelve generations in Vaticanus, sixteen in Sinaiticus".
+- **N1 (8:1).** "the longest genealogy of any woman…, sixteen generations". The Plain English Translation follows Vaticanus, which lists twelve ancestors (Merari to Israel). Sixteen is only with the four names of ℵA. Say "twelve generations in Vaticanus, sixteen in Sinaiticus".
 - **Ch. 13 deep, "As tyrannicide."** "When Florence expelled the Medici in 1495…" Piero de' Medici was expelled in November 1494. The statue was set up on the Piazza della Signoria in 1495 in memory of it. Write "After Florence expelled the Medici in 1494, Donatello's bronze… was set up in 1495…".
 - **N124 (16:23).** "The book's own setting after the exile (4:3) could not fit that many years of peace before the Persians." The return from exile already happened under Persian rule (538 BC onward), so "before the Persians" makes no sense. The real problem is Nebuchadnezzar (died 562 BC) ruling while the exiles have returned. Say that the setting cannot be fitted to any real reign.
 - **Variant 16:4 `why`.** "Holofernes' threat in 2:10 speaks of the 'borders' (ὅρια)". In 2:10 Nebuchadnezzar speaks, not Holofernes, and the Greek is singular, πᾶν ὅριον αὐτῶν (part 01-07: "all their territory").
 - **N16 (8:18).** "when Jeremiah was still denouncing idols in Judah (Jeremiah 44)". Jeremiah 44 is addressed to Judeans in Egypt, after the fall. Cite Jeremiah 7 or 11 for Judah, or say "Judeans in Egypt".
-- **N77 (13:4).** "the same words Samson used". The Greek verbs differ (κραταίωσόν με here, ἐνίσχυσόν με in Judges 16:28 LXX), and so does the English (the site's Plain has "Give me strength"). Say "a prayer like Samson's".
+- **N77 (13:4).** "the same words Samson used". The Greek verbs differ (κραταίωσόν με here, ἐνίσχυσόν με in Judges 16:28 LXX), and so does the English (the site's Plain English Translation has "Give me strength"). Say "a prayer like Samson's".
 - **N85 (13:18).** "Christian writers from the early church on read Judith's blow… as Genesis 3:15". No early-church writer is named, and I know of none who makes this link before the Middle Ages. The ch. 15 deep section says "From the early Middle Ages", which is also unsourced. Name a writer (for example the *Speculum humanae salvationis*, 1300s, which book.json cites), or say "medieval Christian writers".
 
 ### 13. MINOR: N68 (12:4)
 
-- **Quotation.** It quotes Abigail's oath as "as your soul lives" (1 Samuel 25:26). The site's Plain is "by your own life". Use the site's wording, or mark the quotation as the Greek (LXX ζῇ ἡ ψυχή σου).
+- **Quotation.** It quotes Abigail's oath as "as your soul lives" (1 Samuel 25:26). The site's Plain English Translation is "by your own life". Use the site's wording, or mark the quotation as the Greek (LXX ζῇ ἡ ψυχή σου).
 - **Reading.** The `p` and body put "the Lord" in Judith's mouth ("'the Lord' will do by her hand"). That is Alexandrinus's reading, not the followed text, where the subject is left as "he". Say "he", as ch. 12's summary rightly does.
 
 ### 14. MINOR: smaller translation points
@@ -226,7 +226,7 @@ The card is fair and unranked, and no other card on the site asks this question.
   - 1 Samuel 17:51, 54;
   - Deuteronomy 23:3;
   - Luke 1:42, 48, 52 and 68, and Luke 2:37.
-  - All are present and accurate, and quoted in the site's Plain.
+  - All are present and accurate, and quoted in the site's Plain English Translation.
 - **Other Jewish and Greek sources.**
   - Genesis Rabbah 55:2 (the potter testing sound jars, on Psalm 11:5);
   - Honi in Mishnah Ta'anit 3:8;
@@ -278,8 +278,8 @@ The card is fair and unranked, and no other card on the site asks this question.
 
 ## Fixes applied
 
-1. 9:10 Plain now "Strike down the slave with the ruler, and the ruler with his servant, by the deceit of my lips." (God strikes); N39 anchor, its body and preview, the ch. 9 summary and deep section, and the judith and rahab topic sections updated. (book.json quotes 9:10: coordinator told.)
-2. 8:12 Plain now "and to stand in God's place among human beings?"
+1. 9:10 Plain English Translation now "Strike down the slave with the ruler, and the ruler with his servant, by the deceit of my lips." (God strikes); N39 anchor, its body and preview, the ch. 9 summary and deep section, and the judith and rahab topic sections updated. (book.json quotes 9:10: coordinator told.)
+2. 8:12 Plain English Translation now "and to stand in God's place among human beings?"
 3. Ch. 11 views.O rewritten as one strand of Greek patristic teaching (Chrysostom, On the Priesthood 1.8–9), not the Orthodox Church's reading; Aquinas II-II q.40 a.3 (stratagem allowed, falsehood not) added to the ch. 9 deep section; Hodge now cited as Systematic Theology vol. 3 (ninth commandment), as on the Joshua 2 card; the unsourced Jewish-ethics sentence in ch. 11 views.J cut.
 4. Ch. 15 card: Reformed and Anglican rows dropped (they restated the canon card); Lumen Gentium 55 added to the Catholic row (the Gradual noted as a Mass of 1863); views.O no longer in the first person; canticle numbering now "16:2–3a, 13–15 in the breviary's numbering; 16:1–2a, 13–15 in this site's" in the ch. 15 deep section and ch. 16 views.C.
 5. Ch. 16 card: Anglican row (Article XXXII) dropped; Orthodox row narrowed to what Ware supports (remarriage allowed as a concession, with a penitential service; clergy may not remarry); s list fixed.
@@ -288,10 +288,10 @@ The card is fair and unranked, and no other card on the site asks this question.
 8. 8:10 why reworded (later Greek manuscripts, not a KJV invention; versions differ); 8:21 KJV reading's plain now "he will require its desecration from our mouth"; 9:2 why now gives the modern preference for μίτραν.
 9. 16:1 witness now says the digitized note most likely means ℵA add μου.
 10. New variants at 9:3 (ℵ* A omit ἀπάτην) and 16:13 (A and KJV "to the Lord", lemma lost in the digitized note); new deb note on "the enemy" at 16:11.
-11. 16:14 Plain now "your spirit"; N116 retitled "The breath that built creation", with the lower case explained and the Christian reading kept.
+11. 16:14 Plain English Translation now "your spirit"; N116 retitled "The breath that built creation", with the lower case explained and the Christian reading kept.
 12. N1 now twelve generations in B, sixteen in ℵA; Donatello: Medici expelled 1494, statue set up 1495; N124 now says the setting fits no real reign; variant 16:4 why corrected (Nebuchadnezzar, singular πᾶν ὅριον); N16 now cites Jeremiah 7:17–18 and 11:9–13; N77 "a prayer like Samson's"; N85 now names medieval writers and the Speculum humanae salvationis, and the ch. 15 deep section says "Medieval Latin writers".
 13. N68: "the Lord" replaced by "he" in p and body; the Abigail parallel now gives the Greek ζῇ ἡ ψυχή σου rather than a non-site quotation.
-14. Plain: 8:7 "She was beautiful, and very lovely to look at"; 8:9 "hostile words"; 12:16 "reclined"; 11:11 "whenever they do what is not right"; 9:11 "the savior of those without hope"; 13:10 kept as the maid, with N80 saying it is a choice (KJV "she").
+14. Plain English Translation: 8:7 "She was beautiful, and very lovely to look at"; 8:9 "hostile words"; 12:16 "reclined"; 11:11 "whenever they do what is not right"; 9:11 "the savior of those without hope"; 13:10 kept as the maid, with N80 saying it is a choice (KJV "she").
 15. Unsourced lens claims softened to "some readers" (ch. 9 P, ch. 10 P, ch. 13 P, ch. 14 P and C, N29); the ch. 12 C sentence on washings and vigils cut.
 16. Settings: invented times removed (10:12–13, 11:5–19); the boilerplate readers lines kept only on 8:11–27, which now has a views entry for the minority datings; the other first settings start "For the book's first readers…" with only the passage-specific sentence.
 17. N64 now says Judith quotes the Greek of Exodus 11:7 word for word; N44 refs now Additions to Esther 15:1–16; N60 reworded (food ran out in a sabbatical year, 1 Maccabees 6:49, 53); N9 and N63 repetitions fixed; singular/plural fixed in N123 and the ch. 16 deep section; N125 empty sentence cut.

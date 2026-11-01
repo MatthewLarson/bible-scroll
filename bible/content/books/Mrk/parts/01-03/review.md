@@ -5,7 +5,7 @@ Reviewer: hostile-reviewer agent (not the writer). Date: 2026-10-25.
 
 ## Verdict
 
-This is a strong part. I checked the translation verse by verse against the SBLGNT, the Byzantine text and the TAGNT edition flags. It is faithful and readable (about 13 words per sentence) and shows no NIV/ESV drift beyond runs the Greek forces ("I know who you are: the Holy One of God"). It matches Matthew's published Plain wherever the Greek matches: Mark 1:3, 1:6b, 1:18, 1:30–31, 2:5, 2:9–10, 2:14, 2:17, 2:20, 3:5b, 3:18–19 and 3:34. Every Old Testament quotation in the notes matches this site's Plain exactly. The rabbinic, Qumran, patristic and archaeological citations I checked are real and correctly located: Ketubot 96a, Hagigah 15a, Shabbat 7:2, Yoma 8:6, Nedarim 3:4, Sanhedrin 7:5 and 43a, CD 11:13–14 and 12:14–15, 1QS 3 and 8, Mekhilta on Exodus 31:13, Irenaeus *Against Heresies* 3.11.7, Jerome on Matthew 12:13, Diogenes Laertius on Antisthenes, *Testament of Naphtali* 8:4, *Testament of Moses* 10:1, the Theodotus inscription and the Galilee boat. Writings outside the 66 are named as in works.json.
+This is a strong part. I checked the translation verse by verse against the SBLGNT, the Byzantine text and the TAGNT edition flags. It is faithful and readable (about 13 words per sentence) and shows no NIV/ESV drift beyond runs the Greek forces ("I know who you are: the Holy One of God"). It matches Matthew's published Plain English Translation wherever the Greek matches: Mark 1:3, 1:6b, 1:18, 1:30–31, 2:5, 2:9–10, 2:14, 2:17, 2:20, 3:5b, 3:18–19 and 3:34. Every Old Testament quotation in the notes matches this site's Plain English Translation exactly. The rabbinic, Qumran, patristic and archaeological citations I checked are real and correctly located: Ketubot 96a, Hagigah 15a, Shabbat 7:2, Yoma 8:6, Nedarim 3:4, Sanhedrin 7:5 and 43a, CD 11:13–14 and 12:14–15, 1QS 3 and 8, Mekhilta on Exodus 31:13, Irenaeus *Against Heresies* 3.11.7, Jerome on Matthew 12:13, Diogenes Laertius on Antisthenes, *Testament of Naphtali* 8:4, *Testament of Moses* 10:1, the Theodotus inscription and the Galilee boat. Writings outside the 66 are named as in works.json.
 
 I checked the manuscript claims against Tischendorf's eighth edition (Source Library). Most hold:
 - 1:10: D and the Latin read "opened."
@@ -36,7 +36,7 @@ Reading 0 (`ὁ βαπτίζων ἐν τῇ ἐρήμῳ κηρύσσων`, no 
   - "John the Baptizer was in the wilderness and was proclaiming" (ℵ L Δ, as reported by Metzger; NA28 [ὁ]; THGNT).
   - "John came baptizing in the wilderness and proclaiming" (A D W Byz, TR).
 
-**Fix:** make it a three-reading entry with those witnesses. Say that the Plain follows SBL with B, and that NA28/THGNT read καί. The English barely changes, so the `why` can be short.
+**Fix:** make it a three-reading entry with those witnesses. Say that the Plain English Translation follows SBL with B, and that NA28/THGNT read καί. The English barely changes, so the `why` can be short.
 
 ### 2. Major: the claim that Matthew and Luke follow Mark's order of the five debates is wrong for Matthew
 - chapters.json ch. 2, `views.C`: "Matthew and Luke follow Mark's order of these five stories closely, the strongest evidence for Markan priority."
@@ -62,11 +62,11 @@ brief-nt requires an entry for every place a KJV reader would notice. The omissi
 
 ### 5. Major: other places where the KJV visibly differs have no variant entry (brief-nt, "Every place where the Byzantine text or the Textus Receptus reads differently...")
 Beyond 2:20, these places have no entry:
-- **1:40.** "And kneeling" (καὶ γονυπετῶν αὐτόν) is omitted by B D G Γ a b c ff² g¹ (Tischendorf). The Plain prints "falling on his knees" with no note.
+- **1:40.** "And kneeling" (καὶ γονυπετῶν αὐτόν) is omitted by B D G Γ a b c ff² g¹ (Tischendorf). The Plain English Translation prints "falling on his knees" with no note.
 - **1:42.** The KJV reads "as soon as he had spoken" (εἰπόντος αὐτοῦ). A and the Byzantine text have it; B D L and the Old Latin omit it (Tischendorf).
 - **1:31.** The KJV reads "immediately the fever left her" (εὐθέως, Byz). B C L omit it.
 - **2:7.** The KJV reads "Why doth this man thus speak blasphemies?" (λαλεῖ βλασφημίας). The SBL reads "He is blaspheming!"
-- **2:22.** The KJV reads "the new wine doth burst ... the wine is spilled ... new wine must be put into new bottles." D a b ff² i lack the last clause, which the Plain prints.
+- **2:22.** The KJV reads "the new wine doth burst ... the wine is spilled ... new wine must be put into new bottles." D a b ff² i lack the last clause, which the Plain English Translation prints.
 - **1:29.** "He left ... came" (ἐξελθὼν ἦλθεν: B D Θ f1, the Old Latin) or "they left ... came."
 - **1:5.** The KJV reads "and were all baptized of him" (πάντες moved to the baptizing).
 
@@ -105,7 +105,7 @@ The note says the party called the Zealots is first clearly attested in AD 66–
 "The call of Levi is read on the feast of Saint Matthew." The Gospel for the feast (September 21 in the West, November 16 in the East) is Matthew 9:9–13, Matthew's own version. **Fix:** "The parallel call of Matthew (Matthew 9:9–13) is read on his feast."
 
 ### 14. Minor: plain.txt 3:31 and 3:17, small departures from the Greek
-- **3:31 "They stayed outside."** ἔξω στήκοντες means "standing outside." Matthew 12:46's Plain has "stood outside" for nearly the same Greek. Use "standing outside" and re-anchor the "Outside and inside" note.
+- **3:31 "They stayed outside."** ἔξω στήκοντες means "standing outside." Matthew 12:46's Plain English Translation has "stood outside" for nearly the same Greek. Use "standing outside" and re-anchor the "Outside and inside" note.
 - **3:17 "he put on them the name Boanerges."** The Greek has the plural ὀνόματα, "names." Use "the name ... Boanerges" only with a note, or "gave them a name, Boanerges". This is optional, since English idiom favors the singular.
 
 ### 15. Minor: notes.json 3:31 "Jesus' mother and brothers", the Catholic position is stated too narrowly
@@ -143,7 +143,7 @@ The entry cites `metzger`, but as far as I know Metzger's *Textual Commentary* h
 2. Fixed. chapters ch. 2 `views.C` and the `synoptic-problem` contribution now say Luke keeps all five in order (Luke 5:17–6:11), Matthew splits them (9:1–17; 12:1–14); "the strongest evidence" dropped, and the Griesbach reading of the same data is named.
 3. Fixed. New 2:20 variant (singular: ℵ A B C D K L Δ 1 13 28 33 69 etc., NA28/SBL/THGNT; plural: E F G H M S U V Γ, Byz/TR, as Luke 5:35), checked in Tischendorf. Note "A first hint of death" now points to it.
 4. Fixed. (a) "and drinking": B D 102 235 271 a b e ff² omit (with NA28, SBL, THGNT, WH); A C L Δ and most add (Tischendorf). (b) Third reading "your teacher" added (C L Δ 69 etc., vg, cop, aeth). (c) "Scribes of the Pharisees": B L Δ 33 b cop syr^hier (Tischendorf), D in its own wording moved to reading 0; ℵ and W kept but attributed to Metzger; D removed from reading 1.
-5. Fixed. New entries, each checked in Tischendorf: 1:5 (position of "all"), 1:29 (they/he), 1:31 ("immediately"), 1:40 (kneeling: B D 102 124 a b c ff² g¹ omit), 1:42 ("as he spoke"), 2:7 ("speak blasphemies"), 2:22 (three readings: SBL/NA28; Byz "new wine ... spilled ... must be put"; D a b ff² i without the last clause, which Tischendorf's own text follows). Plain unchanged in each (the Plain follows reading 0).
+5. Fixed. New entries, each checked in Tischendorf: 1:5 (position of "all"), 1:29 (they/he), 1:31 ("immediately"), 1:40 (kneeling: B D 102 124 a b c ff² g¹ omit), 1:42 ("as he spoke"), 2:7 ("speak blasphemies"), 2:22 (three readings: SBL/NA28; Byz "new wine ... spilled ... must be put"; D a b ff² i without the last clause, which Tischendorf's own text follows). Plain English Translation unchanged in each (the Plain English Translation follows reading 0).
 6. Fixed. One sentence added to the `why` of the 1:7–8, 2:17, 2:19–20, 3:23–27 and 3:33–35 cards on where Matthew (and Luke) set the saying or name the hearers differently. The "church in Rome" sentence appears on one card only (1:2–3), so nothing to vary.
 7. Fixed. The 2:27 card now asks only what "for human beings" adds (creation ordinance, for all people) and points to Matthew 12 for the general question. Lutheran view dropped (it repeats Matthew 12); Seventh Day Baptist view added under Baptist (new key `sdb-statement`). `views.T` points to both cards.
 8. Fixed. 1:8 note states both views: some take Mark's form as older; others, James Dunn among them, think John spoke of "Spirit and fire" (`dunn-baptism-spirit` added).
@@ -152,10 +152,10 @@ The entry cites `metzger`, but as far as I know Metzger's *Textual Commentary* h
 11. Fixed. "On one reading of the fragment ... (others read it so that God forgives and the diviner only explains)"; attribution to Vermes kept.
 12. Fixed. 2:15 gloss "local toll collectors, despised for working with the rulers"; 2:10 gloss "Jesus' name for himself, recalling the heavenly figure of Daniel 7:13".
 13. Fixed. "The parallel call of Matthew (Matthew 9:9–13) is read on his feast."
-14. Partly. 3:31 Plain now "Standing outside, they sent a message in to him" (as Matthew 12:46 "stood outside"); the "Outside and inside" note re-anchored. 3:17 kept ("put on them the name"), since English idiom wants the singular; the Boanerges note now explains the plural ὀνόματα.
+14. Partly. 3:31 Plain English Translation now "Standing outside, they sent a message in to him" (as Matthew 12:46 "stood outside"); the "Outside and inside" note re-anchored. 3:17 kept ("put on them the name"), since English idiom wants the singular; the Boanerges note now explains the plural ὀνόματα.
 15. Fixed. 3:31 note: Catholic teaching "close relations" (Catechism 500, key `ccc`) without binding to Jerome; some Catholics take Epiphanius' view; Luther, Calvin and Wesley held Mary's perpetual virginity, so the Helvidian view is "many Protestants today".
 16. Fixed. book.json: "the two oldest manuscripts that contain the end of Mark". (Part 13-16 has the same "oldest complete" wording in chapters, topics and variants: reported to the lead.)
 17. Fixed. (a) The argument now cites Mark 6:34 / Matthew 14:14 and Mark 8:2 / Matthew 15:32. (b) The NIV moved out of the witnesses into `b`. (c) Witnesses kept (confirmed D a ff² / b g¹ in Tischendorf).
 18. Fixed. 1:27 adds Sinaiticus (Metzger) beside Tischendorf's B L 33 102; 3:32 adds ℵ W Θ f1 f13 28 565 (Metzger, NA28). Tischendorf checked: he lists B C G K L Δ 1 13 33 for the short text and himself printed the long one (now said).
 19. Fixed. 2:26 cites `na28` instead of `metzger`; W and the Sinaitic Syriac attributed to the NA28 apparatus.
-Also: the 1:10 note's quotation of Luke 3:22 updated to Luke's current Plain ("in bodily shape, like a dove"), which the build flagged.
+Also: the 1:10 note's quotation of Luke 3:22 updated to Luke's current Plain English Translation ("in bodily shape, like a dove"), which the build flagged.

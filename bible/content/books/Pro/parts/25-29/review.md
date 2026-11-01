@@ -1,10 +1,10 @@
 # Hostile review: Proverbs 25–29 (part 25-29)
 
-Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in `content/books/Pro/parts/25-29/`, plus the parts of `book.json` that touch 25–29. Checked against `texts/orig` and `node tools/literal.js Pro 25–29`, `texts/auto/Pro.json`, `texts/en/Pro.json`, terms.json, the other five parts' plain.txt, and the Plain of other books this part quotes. `node tools/build.js --check Pro/25-29` and `--check Pro` both report 0 errors and 0 warnings.
+Reviewer's scope: plain.txt, notes.json, variants.json, glosses.json, chapters.json, topics.json and sources.json in `content/books/Pro/parts/25-29/`, plus the parts of `book.json` that touch 25–29. Checked against `texts/orig` and `node tools/literal.js Pro 25–29`, `texts/auto/Pro.json`, `texts/en/Pro.json`, terms.json, the other five parts' plain.txt, and the Plain English Translation of other books this part quotes. `node tools/build.js --check Pro/25-29` and `--check Pro` both report 0 errors and 0 warnings.
 
 ## Verdict
 
-This is a strong part. The translation is mostly rebuilt from the Hebrew. It keeps the couplet shape and the hard images ("scooping up" coals, "the faces of your sheep", "his friend's face"). It follows the Masoretic Text and says so wherever the text is uncertain (25:7, 25:27, 26:10, 27:16, 28:3, 28:18, 28:23, 29:21). All nine pairs that depend on earlier parts now match the earlier Plain word for word. Most of the flagged unverified citations check out: Leviticus Rabbah 1:5, Bava Metzia 70b, the heter iska, Maimonides on Torah Study 2:2, the Ahiqar sow saying, Bacon, Sukkah 52a, Taanit 7a, Yoma 86b, Moed Katan 17a, Bava Batra 21a, Lateran III, Catechism 2269 and Nicaea canon 17. The 26:2 Ketiv reading is noted, and the choice is defensible.
+This is a strong part. The translation is mostly rebuilt from the Hebrew. It keeps the couplet shape and the hard images ("scooping up" coals, "the faces of your sheep", "his friend's face"). It follows the Masoretic Text and says so wherever the text is uncertain (25:7, 25:27, 26:10, 27:16, 28:3, 28:18, 28:23, 29:21). All nine pairs that depend on earlier parts now match the earlier Plain English Translation word for word. Most of the flagged unverified citations check out: Leviticus Rabbah 1:5, Bava Metzia 70b, the heter iska, Maimonides on Torah Study 2:2, the Ahiqar sow saying, Bacon, Sukkah 52a, Taanit 7a, Yoma 86b, Moed Katan 17a, Bava Batra 21a, Lateran III, Catechism 2269 and Nicaea canon 17. The 26:2 Ketiv reading is noted, and the choice is defensible.
 
 Still, there are real errors:
 - One rabbinic source is reported backwards (Shabbat 30b on 26:4–5).
@@ -41,13 +41,13 @@ None of these is critical. All need fixing before the part is final.
 **What is wrong.** terms.json says 'atsel is "lazy one (in address, 'you lazy one'); otherwise 'the lazy one' or 'a lazy person'; never 'sluggard'". The 01-09 part follows it ("lazy one"). This part, like 10-15, 16-22 and 23-24, uses "lazy man" (5 times here, 14 times across those four parts). This is the known cross-part item "10-15 'lazy man' vs 01-09 'lazy one'".
 
 **Fix.** The lead decides. Either align all of 10–29 to terms.json ("the lazy one" / "a lazy person"), or change the terms.json entry and 01-09. If terms.json stands, update in this part:
-- 26:13–16 Plain and the section heading;
+- 26:13–16 Plain English Translation and the section heading;
 - the 26:13 and 26:15 notes;
 - the `work` topic section;
 - the 26:13 gloss anchor.
 
 ### 5. Major: drift, 25:15b is the NIV word for word
-**What is wrong.** Plain: "a gentle tongue can break a bone". The NIV's second line is identical. The Hebrew is *lashon rakkah tishbar garem*, "a soft tongue breaks bone". "Gentle" and the modal "can" are not forced. This part's own `speech` topic section and the 25:15 note preview already say "a soft tongue breaks bone".
+**What is wrong.** Plain English Translation: "a gentle tongue can break a bone". The NIV's second line is identical. The Hebrew is *lashon rakkah tishbar garem*, "a soft tongue breaks bone". "Gentle" and the modal "can" are not forced. This part's own `speech` topic section and the 25:15 note preview already say "a soft tongue breaks bone".
 
 **Fix.** Use "and a soft tongue breaks bone". Move the 25:15 note anchor to match.
 
@@ -94,8 +94,8 @@ This is the NIV word for word. The Hebrew nearly forces it, so it is acceptable.
 *Mefachched* is "fearing, dreading", and the note says so. The brief keeps "fear" for the fear words. "Awe" interprets the word in advance. Suggested fix: "Happy is the person who is always afraid", or "who always fears". Let the note explain what is feared.
 
 ### 17. Minor: couplet order changed, 27:8 and 28:7
-- **27:8.** The Hebrew order is "Like a bird wandering from its nest, / so a man wandering from his place". The Plain swaps the halves. Restore the Hebrew order.
-- **28:7.** The Hebrew is "One who keeps the law is a son who understands". The Plain says "A son who understands keeps the law", which turns predicate into subject (the NIV's order). Suggested fix: "Whoever keeps the law is a son who understands".
+- **27:8.** The Hebrew order is "Like a bird wandering from its nest, / so a man wandering from his place". The Plain English Translation swaps the halves. Restore the Hebrew order.
+- **28:7.** The Hebrew is "One who keeps the law is a son who understands". The Plain English Translation says "A son who understands keeps the law", which turns predicate into subject (the NIV's order). Suggested fix: "Whoever keeps the law is a son who understands".
 
 ### 18. Minor: Amenemope misquoted (chapter 25 W lens and deep "Coals of fire")
 Both places say Amenemope counsels feeding the hot-tempered man "so that he is satisfied and ashamed". Lichtheim's translation of chapter 2 reads "Fill his belly with bread of your own, / That he be sated and weep." The text is about rescuing the "heated man" who has fallen into the water. Fix: quote it as "that he be sated and weep", attributed to Lichtheim, and say what the scene is.
@@ -149,7 +149,7 @@ The answer is about holding goods in common and simple living. It does not say w
 - 29:26 "the boss" and 26:13 "the couch potato" are on the edge of patronizing. Acceptable, but reconsider them.
 
 ## Cross-part checks (no finding unless noted)
-- Repeated sayings match the earlier Plain exactly:
+- Repeated sayings match the earlier Plain English Translation exactly:
   - 25:24 = 21:9
   - 26:22 = 18:8
   - 27:12 = 22:3
@@ -164,9 +164,9 @@ The answer is about holding goods in common and simple living. It does not say w
 - 27:15 matches 19:13b ("a drip that never stops").
 - *nirgan* is "gossip" at 16:28, 18:8, 26:20 and 26:22. That is consistent.
 - Optional: *yesuggav* is "set high and safe" in 29:25 but "lifted out of reach" in 18:10, though the note links the two. Consider aligning them.
-- These quotations of other parts' Plain match: 11:22, 11:25, 12:15, 13:4, 14:15, 15:11, 15:23, 15:33, 19:24, 22:2 and 23:6.
-- These quotations of other books' Plain match: Exodus 20:16, 22:26, 23:5, 32:9, 32:25; Leviticus 5:1, 25:36, 26:17; Numbers 35:31; Deuteronomy 1:17, 15:11, 21:20; 1 Samuel 3:1; 2 Kings 18:3, 18:18; Psalm 7:15, 32:3, 32:5, 57:6, 66:18, 72:4, 141:5; Jude 12.
-- Romans, 2 Peter, James and Luke have no Plain yet. Their "rendered from the Greek" wording must be replaced with their Plain when those books are written.
+- These quotations of other parts' Plain English Translation match: 11:22, 11:25, 12:15, 13:4, 14:15, 15:11, 15:23, 15:33, 19:24, 22:2 and 23:6.
+- These quotations of other books' Plain English Translation match: Exodus 20:16, 22:26, 23:5, 32:9, 32:25; Leviticus 5:1, 25:36, 26:17; Numbers 35:31; Deuteronomy 1:17, 15:11, 21:20; 1 Samuel 3:1; 2 Kings 18:3, 18:18; Psalm 7:15, 32:3, 32:5, 57:6, 66:18, 72:4, 141:5; Jude 12.
+- Romans, 2 Peter, James and Luke have no Plain English Translation yet. Their "rendered from the Greek" wording must be replaced with their Plain English Translation when those books are written.
 - Terms followed: *kesil* "fool", *'evil* "stubborn fool", *lets* "mocker", *peti* "naive", *'arum* "shrewd", *to'evah* "abhorrent", *ashrei* "Happy", *musar*/*yasar* "discipline", *torah* "law" in 28:4, 28:7, 28:9 and 29:18 (with a note), Sheol. The exception is *'atsel* (finding 4).
 
 ## Citations verified
@@ -199,7 +199,7 @@ The answer is about holding goods in common and simple living. It does not say w
 10. 29:26a is now "Many seek the ruler's face"; the note and gloss anchors moved.
 11. 29:7b is now "a wicked man does not understand knowledge", with no added demonstrative; the note already explains it.
 12. 26:2a is now "and a swallow in flight".
-13. 25:4b is now "a vessel for the smith", in the Plain and in the variant.
+13. 25:4b is now "a vessel for the smith", in the Plain English Translation and in the variant.
 14. 25:25b is now "a good report from a far-off land".
 15. 26:6a is now "and drinks down violence"; the note and gloss anchors moved.
 16. 28:14a is now "Happy is the person who is always afraid"; the note anchor moved and the preview no longer pre-interprets the fear.
@@ -223,6 +223,6 @@ The answer is about holding goods in common and simple living. It does not say w
 Also applied (Lead decisions and later changes):
 - 27:13b now follows the revised 20:16b ("take a pledge from him for a foreign woman"), with its gloss updated.
 - The NT quotations are re-rendered from the SBLGNT where they had NIV or ESV wording: Romans 12:19 and 12:21, 2 Corinthians 12:11, 2 Peter 2:22 and James 4:14–16. Ecclesiastes 3:7 is also re-rendered.
-- The Matthew 18:15 quotation now uses Matthew's new site Plain.
-- The Isaiah 11:4 quotation (29:14 note) now uses Isaiah's new site Plain.
+- The Matthew 18:15 quotation now uses Matthew's new site Plain English Translation.
+- The Isaiah 11:4 quotation (29:14 note) now uses Isaiah's new site Plain English Translation.
 - --check Pro/25-29: 0 errors, 0 warnings.

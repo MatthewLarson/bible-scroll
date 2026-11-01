@@ -25,7 +25,7 @@ seven writers agree; add an entry to proposals/nt/terms.json only where a book b
 - ἀγαπητοί "beloved" (as Jude 1:3, 17, 20). ἀδελφοί "brothers" with the gloss "brothers and sisters" and a note at
   first use in each book (as Romans and Ephesians). δοῦλος "slave" (Jude 1:1 "a slave of Jesus Christ"; James 1:1,
   2 Peter 1:1 follow it).
-- μένω "remain" (John 15:4-5 Plain), gloss "abide, stay, live" at first use in 1 John; never "abide" in the Plain.
+- μένω "remain" (John 15:4-5 Plain English Translation), gloss "abide, stay, live" at first use in 1 John; never "abide" in the Plain English Translation.
 - παράκλητος "Advocate" (John 14:16); 1 John 2:1 "an Advocate with the Father".
 - ἀρχηγός "Founder" (Acts 3:15; 5:31): Hebrews 2:10 and 12:2 follow, with a note on "pioneer, champion, author".
 - διασπορά "the Dispersion" (John 7:35): James 1:1 and 1 Peter 1:1, with a gloss "Jews (or believers) scattered
@@ -33,11 +33,11 @@ seven writers agree; add an entry to proposals/nt/terms.json only where a book b
 - πάροικος "resident alien" (terms.json, Ephesians 2:19); παρεπίδημος "temporary resident" (1 Peter 1:1; 2:11;
   Hebrews 11:13), with a note on the social reading (John H. Elliott: verify) against the figurative one.
 - ἱλάσκομαι "make atonement" (Hebrews 2:17); ἱλαστήριον in Hebrews 9:5 is the ark's lid: "the atonement lid"
-  (Exodus 25-26 Plain), not Romans 3:25's "place of atonement", with a note tying the two; ἱλασμός (1 John 2:2;
+  (Exodus 25-26 Plain English Translation), not Romans 3:25's "place of atonement", with a note tying the two; ἱλασμός (1 John 2:2;
   4:10) "the atoning sacrifice", gloss "the means by which sins are covered and God's anger turned away", and a note
   on the readings (propitiation, expiation, both). The 1Jn writer adds the ἱλασμός entry.
 - ἀρχιερεύς "high priest" (terms.json); τὰ ἅγια "the sanctuary" / ἅγια ἁγίων "the most holy place" (Exodus 26:33-34
-  Plain); καταπέτασμα "the veil" (Exodus 26:33); ἡ κιβωτὸς τῆς διαθήκης "the ark of the covenant".
+  Plain English Translation); καταπέτασμα "the veil" (Exodus 26:33); ἡ κιβωτὸς τῆς διαθήκης "the ark of the covenant".
 - σκηνή "tent" (Hebrews 8:2, 5; 9:2-11, 21; 11:9; 13:10), gloss "tabernacle" at first use and a note: the Greek word is
   the one for the tabernacle and for any tent (John 1:14 "pitched his tent" is the verb). The Heb writers add the entry.
 - διαθήκη "covenant" everywhere, except Hebrews 9:16-17, where it is "a will" with the gloss "the same Greek word as
@@ -45,7 +45,7 @@ seven writers agree; add an entry to proposals/nt/terms.json only where a book b
 - τελειόω / τέλειος "make perfect / perfect" in Hebrews, gloss "bring to completion, make fit for the goal" and a note
   at first use (2:10); in James τέλειος "complete" (1:4, 17, 25; 3:2) with the note on the "perfect" reading.
 - ἔργα "works" (James 2; matches terms.json "works of the law", which James does not use); δικαιόω "justify"
-  (terms.json gloss). Both James and Paul's Plain must be quoted exactly where one is set against the other
+  (terms.json gloss). Both James and Paul's Plain English Translation must be quoted exactly where one is set against the other
   (Romans 3:28; 4:3; Galatians 2:16).
 - γέεννα "Gehenna" (James 3:6, with the note); ταρταρόω (2 Peter 2:4) "threw them into Tartarus", gloss "the deepest
   pit of the underworld in Greek myth"; ᾅδης "Hades" if it appears.
@@ -53,26 +53,26 @@ seven writers agree; add an entry to proposals/nt/terms.json only where a book b
   Elder" (capital E, a title), with a note.
 - ἀντίχριστος "antichrist" lower case ("antichrist is coming", "many antichrists", 1 John 2:18; "the antichrist",
   2:22; 4:3; 2 John 7), with a note on the first use and a link to the `antichrist` topic. Never "the Antichrist" in
-  the Plain.
+  the Plain English Translation.
 - κόσμος "the world"; σάρξ "flesh" (terms.json); ζωὴ αἰώνιος "eternal life" (terms.json); λόγος "word" / "the Word"
   only where a person is meant (1 John 1:1 "the word of life": the writer decides and notes the readings).
 - παρουσία "coming" (brief-pauline2.md; James 5:7-8; 2 Peter 1:16; 3:4, 12; 1 John 2:28), with the gloss "arrival,
   a royal visit" at first use in each book.
 
-**Parallels with books on the site (their Plain is the model; quote it exactly in notes).**
-- 2 Peter 2:1-3:3 and Jude 1:4-18 (Jude is published): follow Jude's Plain where the Greek matches, differ exactly
+**Parallels with books on the site (their Plain English Translation is the model; quote it exactly in notes).**
+- 2 Peter 2:1-3:3 and Jude 1:4-18 (Jude is published): follow Jude's Plain English Translation where the Greek matches, differ exactly
   where it differs. The `jude-and-2-peter` topic exists: contribute to it, do not create another.
 - Old Testament quotations, very many in Hebrews and 1 Peter: translate the Greek as it stands (usually the
-  Septuagint), quote the site's Plain of the Old Testament verse exactly in the note and say where they differ. Model
+  Septuagint), quote the site's Plain English Translation of the Old Testament verse exactly in the note and say where they differ. Model
   verses already on the site include Psalm 2:7, 8:4-6, 40:6-8, 95:7-11, 110:1, 4; Genesis 14:18-20; 15:6; Jeremiah
   31:31-34; Habakkuk 2:3-4; Isaiah 28:16; 53; Proverbs 3:11-12, 34; 10:12; 11:31; Leviticus 19:18; Exodus 19:6; 25:40;
-  Deuteronomy 32:35-36, 43; 2 Samuel 7:14; Haggai 2:6. Grep each before quoting it; if a book has no Plain yet, say
+  Deuteronomy 32:35-36, 43; 2 Samuel 7:14; Haggai 2:6. Grep each before quoting it; if a book has no Plain English Translation yet, say
   "the Hebrew reads" and quote nothing as the site's.
 - Gospels and Acts: James and the Sermon on the Mount (James 5:12 and Matthew 5:34-37; James 1:5 / Matthew 7:7;
   James 2:5 / Luke 6:20; James 4:9 / Luke 6:25), 2 Peter 1:16-18 and the transfiguration (Matthew 17:1-8), 1 Peter 5:13
   and Mark (`gospel-of-mark`), 1 John and the Gospel of John (1 John 1:1-4 and John 1:1-14; 1 John 2:7-8 and John 13:34;
-  1 John 3:23 and John 15:12), Acts 15 (James' speech, Silas) and Acts 12:12 (Mark). Acts' Plain is the model for names.
-- Pairs written in this round at the same time (no Plain to copy yet: translate from your Greek and list the pair in
+  1 John 3:23 and John 15:12), Acts 15 (James' speech, Silas) and Acts 12:12 (Mark). Acts' Plain English Translation is the model for names.
+- Pairs written in this round at the same time (no Plain English Translation to copy yet: translate from your Greek and list the pair in
   your report; the lead aligns them): 1 Peter 1:1 / 2 Peter 3:1; 1 Peter 2:6-8 / Romans 9:33 (published: quote it);
   James 4:6 / 1 Peter 5:5 (both quote Proverbs 3:34: same wording where the Greek is the same); James 5:20 / 1 Peter
   4:8 (Proverbs 10:12); 1 John 2:7-8 / 2 John 5; 1 John 4:1-3 / 2 John 7; 2 John 12 / 3 John 13-14 (nearly word for
@@ -81,7 +81,7 @@ seven writers agree; add an entry to proposals/nt/terms.json only where a book b
 **Names.** Use the spellings Acts and the published letters use (Timothy, Silvanus with the note that he is Acts'
 Silas, Mark, Abraham, Isaac, Jacob, Esau, Moses, Aaron, Melchizedek, Rahab, Gideon, Barak, Samson, Jephthah, Samuel,
 Abel, Cain, Enoch, Noah, Lot, Balaam son of Bosor (2 Peter 2:15: Bosor, not Beor, a variant), Gaius, Diotrephes,
-Demetrius, Job, Elijah). Grep the Old Testament and Acts' Plain before spelling one.
+Demetrius, Job, Elijah). Grep the Old Testament and Acts' Plain English Translation before spelling one.
 
 **Authorship and date (C lens, full weight, never flattened).** Hebrews is anonymous (Paul, Apollos, Barnabas,
 Priscilla, Luke, Clement: the ancient and modern proposals; Origen's "who wrote it God knows": verify the wording in an
@@ -90,7 +90,7 @@ opened source). James: the brother of the Lord (traditional, and many scholars),
 Testament (its relation to Jude; 3:15-16 on Paul's letters as a collection; the late and limited early attestation),
 with its defenders. 1-3 John: the apostle, the Elder (Papias' "John the Elder" via Eusebius: verify), or a Johannine
 school. State each view with its best arguments and its named scholars, say which is the majority in critical
-scholarship and which is the traditional view, and do not rank the churches. The Plain follows the text as written.
+scholarship and which is the traditional view, and do not rank the churches. The Plain English Translation follows the text as written.
 Never cite a scholar's view from memory: check it this session or leave it out (STYLE.md rule 2).
 
 **The canon.** Hebrews, James, 2 Peter, 2 and 3 John (with Jude and Revelation) were the disputed books
@@ -122,11 +122,11 @@ section: who, what problem, what the first readers would have heard. Hebrews cal
 **Hostile-review priorities** (for later): invented sources or quotations, drift toward the NIV/ESV, manuscript claims
 without a source, flattening the authorship and canon questions, James set against Paul (or Paul against James)
 one-sidedly, the warning passages in Hebrews read through only one tradition, 1 Peter 3:19 and 3:21 and 1 John 5:7-8
-handled with only one view, Old Testament quotations whose note does not quote the site's Plain exactly, 2 Peter not
+handled with only one view, Old Testament quotations whose note does not quote the site's Plain English Translation exactly, 2 Peter not
 matching Jude where the Greek matches.
 
 ## Lead decisions (2026-10-29)
-- **ἀπ' ἀρχῆς** "from the beginning" in 1-3 John (1 John 1:1 echoes John 1:1 "In the beginning"); John 8:44 and 15:27 keep "from the start". **ἐντολή** "command" across 1-3 John and 2 Peter (as John's Plain and the site); **ἀληθινός** "real" (John 1:9; 17:3).
+- **ἀπ' ἀρχῆς** "from the beginning" in 1-3 John (1 John 1:1 echoes John 1:1 "In the beginning"); John 8:44 and 15:27 keep "from the start". **ἐντολή** "command" across 1-3 John and 2 Peter (as John's Plain English Translation and the site); **ἀληθινός** "real" (John 1:9; 17:3).
 - **περιπατέω** "walk around" only with light and darkness (John 8:12; 1 John 1:6-7; 2:11); "walk" otherwise.
 - **Hebrews:** παρρησία "boldness" (ὑπόστασις 3:14 "confidence"); παράβασις "transgression" (Romans 4:15); εὐλάβεια "reverence"; Psalm 110:1 "a footstool for your/his feet" (Acts 2:35, not the Psalm's "stool"); εἰς τὸ διηνεκές "for all time"; ἐκκλησία "assembly" at 2:12 and 12:23; μονογενής 11:17 "his only son" (John 3:16); 11:11 keeps the SBL dative (Abraham as subject: καταβολὴ σπέρματος is a father's part; 11:12), the nominative readings in the variant.
 - **2 Peter 3:10** keeps εὑρεθήσεται against NA28/ECM's conjecture, rendered "will lie exposed" with the literal gloss.
