@@ -1,0 +1,540 @@
+[
+ {
+  "v": "1:9",
+  "a": "a thousand sheep",
+  "t": "A thousand or five thousand sheep?",
+  "p": "Vaticanus gives the Levites a thousand sheep; Alexandrinus, the KJV and the Hebrew of Chronicles have five thousand.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πρόβατα χίλια",
+    "en": "a thousand sheep",
+    "plain": "a thousand sheep"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes, with the letters εισχ written over an erasure by an early corrector (Aᵃ); the KJV (\"five thousand sheep\") agrees, and so do the Hebrew and the Greek of 2 Chronicles 35:9",
+    "orig": "πεντακεισχιλια A",
+    "en": "five thousand sheep",
+    "plain": "five thousand sheep"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. Alexandrinus agrees with Chronicles, and may have been brought into line with it; Vaticanus's smaller number may be a slip. In Alexandrinus part of the word (the letters εισχ) stands over an erasure, written by an early corrector.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:11",
+  "a": "The sacrifices they boiled",
+  "t": "Boiled or roasted?",
+  "p": "Vaticanus says the other sacrifices were boiled; Alexandrinus says they too were roasted.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Greek of 2 Chronicles 35:13 agrees (ἥψησαν)",
+    "orig": "καὶ τὰς θυσίας ἥψησαν",
+    "en": "and the sacrifices they boiled",
+    "plain": "The sacrifices they boiled"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes",
+    "orig": "ωπτησαν A",
+    "en": "and the sacrifices they roasted",
+    "plain": "The sacrifices they roasted"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text, which agrees with the Greek of Chronicles and with the Hebrew's 'cooked in pots, kettles and pans' (2 Chronicles 35:13): one does not roast in pots. Alexandrinus repeats the verb used for the Passover lamb just before, perhaps by a copyist's slip.",
+  "b": "The variant matters for the note on 'They roasted the Passover in the fire': in both codices the Passover itself is roasted, as Exodus 12:9 requires.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "Eddinus",
+  "t": "Eddinus or Jeduthun?",
+  "p": "The Greek names the third leader Eddinus; the KJV has Jeduthun, the name in 2 Chronicles 35:15.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete (A spells it Eddinous)",
+    "orig": "Ἐδδεινοῦς",
+    "en": "Eddinus",
+    "plain": "Eddinus"
+   },
+   {
+    "w": "KJV Apocrypha (1611), 1 Esdras 1:15 in its numbering, matching 2 Chronicles 35:15",
+    "orig": "",
+    "en": "Jeduthun",
+    "plain": "Jeduthun"
+   }
+  ],
+  "follow": 0,
+  "why": "Both Greek codices have Eddinus, so the Plain English Translation keeps it. The KJV gives the name of the Hebrew verse; Swete's notes show no Greek manuscript with it.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:22",
+  "a": "and the ways they grieved him",
+  "t": "'Is,' or 'so that he felt it'?",
+  "p": "Vaticanus ends the clause with a bare 'is'; Alexandrinus has 'in perception,' which the KJV turns into 'exceedingly.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ ἃ ἐλύπησαν αὐτὸν ἔστιν",
+    "en": "and what grieved him is (written)",
+    "plain": "and the ways they grieved him"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV has \"how they grieved him exceedingly\"",
+    "orig": "εν αισθησει A",
+    "en": "and how they grieved him, with feeling",
+    "plain": "and how they grieved him, so that he felt it"
+   }
+  ],
+  "follow": 0,
+  "why": "Vaticanus's 'is' hangs loose but is read with 'have been written' at the start of the verse. The Plain English Translation keeps that sense. Alexandrinus says God felt the grief keenly, which is a fuller sense but may be a correction.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:32",
+  "a": "Jeconiah son of Josiah",
+  "t": "Jeconiah or Joahaz?",
+  "p": "Vaticanus calls Josiah's successor Jeconiah; Alexandrinus and the KJV have Joachaz, the Jehoahaz of 2 Chronicles 36:1.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τὸν Ἰεχονίαν υἱὸν Ἰωσείου",
+    "en": "Jeconiah son of Josiah",
+    "plain": "Jeconiah son of Josiah"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"Joachaz\") agrees, and so do the Hebrew and the Greek of 2 Chronicles 36:1",
+    "orig": "Ιωχαζ A",
+    "en": "Joachaz son of Josiah",
+    "plain": "Joahaz son of Josiah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps Swete's base text, though it is almost surely a mistake: Jeconiah is the name of Jehoiachin, the grandson (1 Chronicles 3:16). Alexandrinus has the right king, perhaps by correction from Chronicles. See the note on 1:41.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:33",
+  "a": "in Israel and Jerusalem",
+  "t": "Israel or Judah?",
+  "p": "Vaticanus says he reigned 'in Israel and Jerusalem'; Alexandrinus 'in Judah and Jerusalem.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἐν Ἰσραὴλ καὶ Ἰερουσαλὴμ",
+    "en": "in Israel and Jerusalem",
+    "plain": "in Israel and Jerusalem"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV has \"in Judea and in Jerusalem\"",
+    "orig": "Ιουδα A",
+    "en": "in Judah and Jerusalem",
+    "plain": "in Judah and Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. 'Israel' is the harder reading, since he ruled only Judah, but 1 Esdras often calls the people 'Israel' (1:30). 2 Chronicles 36:2 has only 'in Jerusalem.'",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:33",
+  "a": "removed him from the throne in Jerusalem",
+  "t": "A missing 'not'",
+  "p": "Vaticanus as first written lacked the 'not', so that Pharaoh 'restored him to reign'; a corrector of B and Alexandrinus have it.",
+  "readings": [
+   {
+    "w": "A corrector of Codex Vaticanus (Bᶜ), from Swete's notes",
+    "orig": "ἀπεκατέστησεν αὐτὸν ... τοῦ μὴ βασιλεύειν Bᶜ",
+    "en": "removed him so that he would not reign",
+    "plain": "removed him from the throne in Jerusalem"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"deposed him from reigning\") agrees in sense",
+    "orig": "απεστησεν ... του μη βασιλευειν A",
+    "en": "put him away so that he would not reign",
+    "plain": "removed him from the throne in Jerusalem"
+   },
+   {
+    "w": "Codex Vaticanus as first written (B*), the text Swete prints",
+    "orig": "ἀπεκατέστησεν αὐτὸν βασιλεὺς Αἰγύπτου βασιλεύειν",
+    "en": "the king of Egypt restored him to reign",
+    "plain": "restored him to the throne in Jerusalem"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain English Translation departs from Swete's text. Without 'not' the verse says the opposite of 1:34–35, where Pharaoh fines the land and puts another king on the throne, and of 2 Chronicles 36:3. A corrector of Vaticanus and Alexandrinus both have the 'not' (τοῦ μή), with different verbs; the Plain English Translation gives their shared sense.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "1:36",
+  "a": "Zarius",
+  "t": "Zarius or Zarakes?",
+  "p": "Vaticanus calls the deposed brother Zarius; Alexandrinus Zarakes (KJV 'Zaraces'). The Hebrew has Joahaz.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Ζάριον",
+    "en": "Zarius",
+    "plain": "Zarius"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV has \"Zaraces\"",
+    "orig": "Ζαρακην A",
+    "en": "Zarakes",
+    "plain": "Zarakes"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. Neither name matches the Hebrew 'Joahaz' (2 Chronicles 36:4), and how either arose is not known.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:38",
+  "a": "Next, Nebuchadnezzar king of Babylon came up",
+  "t": "'After him' or 'against him'?",
+  "p": "Vaticanus says Nebuchadnezzar came up 'after him'; Alexandrinus and the KJV 'against him,' as in 2 Chronicles 36:6.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "μετ᾽ αὐτὸν δὲ ἀνέβη",
+    "en": "after him came up",
+    "plain": "Next, Nebuchadnezzar king of Babylon came up"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"against him\") and the Hebrew of 2 Chronicles 36:6 agree",
+    "orig": "επ αυτον A",
+    "en": "came up against him",
+    "plain": "Nebuchadnezzar king of Babylon came up against him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the base text, reading 'after him' as 'next in the story'. A's reading matches Chronicles; it may well be the original.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:41",
+  "a": "eight years old",
+  "t": "Eight or eighteen?",
+  "p": "Vaticanus makes the boy king eight, as in 2 Chronicles 36:9; Alexandrinus and the KJV eighteen, as in 2 Kings 24:8.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete; the Hebrew of 2 Chronicles 36:9 agrees",
+    "orig": "ἦν ἐτῶν ὀκτώ",
+    "en": "he was eight years old",
+    "plain": "eight years old"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"eighteen years old\") and 2 Kings 24:8 agree",
+    "orig": "δεκα οκτω A",
+    "en": "eighteen years old",
+    "plain": "eighteen years old"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text, which agrees with the Hebrew of Chronicles. Kings says eighteen, and it mentions the king's wives taken with him to Babylon (2 Kings 24:15), so the two Hebrew books already differ; Alexandrinus agrees with Kings.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:48",
+  "a": "The King of their ancestors",
+  "t": "King or God?",
+  "p": "Vaticanus calls God 'the king of their fathers'; a corrector in its margin and Alexandrinus have 'the God of their fathers.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus as first written (B*), as printed by Swete",
+    "orig": "ὁ βασιλεὺς τῶν πατέρων αὐτῶν",
+    "en": "the king of their fathers",
+    "plain": "The King of their ancestors"
+   },
+   {
+    "w": "Correctors of Codex Vaticanus in the margin (Bab mg) and Codex Alexandrinus (A), from Swete's notes; the KJV (\"the God of their fathers\") and 2 Chronicles 36:15 agree",
+    "orig": "θς Bab mg A",
+    "en": "the God of their fathers",
+    "plain": "The God of their ancestors"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. 'King' is the unusual reading, and a copyist is more likely to have changed it to the familiar 'God of their fathers' of Chronicles than the other way round.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:50",
+  "a": "They handed them all over into their hands",
+  "t": "They, or he?",
+  "p": "Vaticanus says 'they handed them all over'; Alexandrinus 'he handed,' with God as the one who gave them up, as in Chronicles.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "πάντας παρέδωκαν εἰς τὰς χεῖρας αὐτῶν",
+    "en": "they handed all over into their hands",
+    "plain": "They handed them all over into their hands"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"he delivered all into their hands\") and 2 Chronicles 36:17 (\"God put them all into his hand\") agree",
+    "orig": "παρεδωκεν A",
+    "en": "he handed all over into their hands",
+    "plain": "He handed them all over into their hands"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text, though Alexandrinus makes better sense: God, the subject of 1:49, hands the people over. The two forms differ by one letter.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:51",
+  "a": "the LORD's chests",
+  "t": "Chests, or the vessels of the ark?",
+  "p": "Vaticanus says 'the chests (kibōtoi) of the Lord'; Alexandrinus and the KJV 'the vessels of the ark.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τὰς κιβωτοὺς τοῦ κυρίου",
+    "en": "the chests of the Lord",
+    "plain": "the LORD's chests"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV has \"the vessels of the ark of God\"",
+    "orig": "τα σκευη κιβωτου A",
+    "en": "the vessels of the ark of the Lord",
+    "plain": "the vessels of the LORD's ark"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. <i>Kibōtos</i> is the Greek word for the ark, but it also means any wooden chest, and the plural here matches 'the treasures of the LORD's house' in 2 Chronicles 36:18. Alexandrinus's reading brings back the ark, which the Hebrew does not mention.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:53",
+  "a": "Those who were left he took away to Babylon with the sword",
+  "t": "'With the sword' or 'from the sword'?",
+  "p": "Vaticanus says the survivors were led away 'with the sword'; Alexandrinus 'from the sword,' those who escaped it, as in Chronicles.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "τοὺς ἐπιλοίπους ἀπήγαγεν μετὰ ῥομφαίας",
+    "en": "the rest he led away with the sword",
+    "plain": "Those who were left he took away to Babylon with the sword"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; 2 Chronicles 36:20 (\"Those who escaped the sword\") agrees",
+    "orig": "απο A",
+    "en": "the rest from the sword he led away",
+    "plain": "Those who were left from the sword he took away to Babylon"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text; both make sense. The difference is one short Greek word (<i>meta</i> or <i>apo</i>).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "set things in order",
+  "t": "Set things in order, or rose up?",
+  "p": "Vaticanus says the heads of families 'set things in order'; Alexandrinus and the KJV that they 'stood up', as Ezra 1:5 says they rose up.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Καὶ καταστήσαντες",
+    "en": "and having set in order (or: appointed)",
+    "plain": "set things in order"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes; the KJV (\"stood up\") agrees, and so do the Hebrew and the Greek of Ezra 1:5 (ἀνέστησαν, 'rose up')",
+    "orig": "κατασταντες A",
+    "en": "and having stood up",
+    "plain": "rose up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. Vaticanus's <i>katastēsantes</i> is the active, 'having set, put in order, appointed', with no object stated, so the Plain English Translation supplies 'things'. Alexandrinus's <i>katastantes</i>, 'having stood up', is one syllable shorter and gives the sense of Ezra 1:5. Both make sense; in neither does the Greek sentence have a main verb, so the Plain English Translation makes the participle the verb.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:11",
+  "a": "Sanassar",
+  "t": "Sanassar or Sanabassar?",
+  "p": "Vaticanus spells Ezra's Sheshbazzar 'Sanassar'; a corrector of Alexandrinus, the KJV and Josephus have 'Sanabassar.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Σανασσάρῳ",
+    "en": "Sanassar",
+    "plain": "Sanassar"
+   },
+   {
+    "w": "A corrector of Codex Alexandrinus (Aᵃ), from Swete's notes, with the letters αναβ written over an erasure (what A first had is not shown); the KJV and Josephus have \"Sanabassar\"",
+    "orig": "Σαναβασσαρω Aᵃ",
+    "en": "Sanabassar",
+    "plain": "Sanabassar"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the base text's spelling. Sanabassar is closer to the Hebrew Sheshbazzar and to the form in 1 Esdras 6:19 (Sanabassaros). See the note on 'the leader of Judea.'",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "2:14",
+  "a": "Samanassar",
+  "t": "Samanassar or Samabassar?",
+  "p": "Vaticanus spells the same man 'Samanassar' here; Alexandrinus 'Samabassar.' The KJV has 'Sanabassar.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "Σαμανασσάρου",
+    "en": "Samanassar",
+    "plain": "Samanassar"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes",
+    "orig": "Σαμαβασσαρου A",
+    "en": "Samabassar",
+    "plain": "Samabassar"
+   },
+   {
+    "w": "KJV Apocrypha (1611), 1 Esdras 2:15 in its numbering",
+    "orig": "",
+    "en": "Sanabassar",
+    "plain": "Sanabassar"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the base text. All the forms stand for the Sheshbazzar of Ezra 1:11.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:16",
+  "a": "and those in Coele-Syria and Phoenicia",
+  "t": "Those, the mighty, or the judges?",
+  "p": "Vaticanus says 'and those in Coele-Syria and Phoenicia'; Alexandrinus 'and the mighty ones'; the KJV 'the judges.'",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "καὶ οἱ ἐν κοίλῃ Συρίᾳ καὶ Φοινίκῃ",
+    "en": "and those in Coele-Syria and Phoenicia",
+    "plain": "and those in Coele-Syria and Phoenicia"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes",
+    "orig": "κραταιοι οι εν κοιλη Συρια A",
+    "en": "and the mighty ones in Coele-Syria",
+    "plain": "and the mighty men in Coele-Syria and Phoenicia"
+   },
+   {
+    "w": "KJV Apocrypha (1611), 1 Esdras 2:17 in its numbering; Josephus has \"the rest that are thy judges in Syria and Phoenicia\" (Antiquities 11.22)",
+    "orig": "",
+    "en": "and the judges that are in Celosyria and Phenice",
+    "plain": "and the judges in Coele-Syria and Phoenicia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. The KJV's 'judges' is not in Swete's codices; it agrees with Josephus and with Ezra 4:9, which lists 'the judges' among the senders.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha",
+   "josephus-ant"
+  ]
+ },
+ {
+  "v": "2:17",
+  "a": "They are settling in the rebellious and evil city",
+  "t": "Living in the city, or building it?",
+  "p": "Vaticanus as first written says they 'are living in' the city; correctors and Alexandrinus say they 'are building' it, as Ezra 4:12 does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus as first written (B*), as printed by Swete",
+    "orig": "τὴν πόλιν τὴν ἀποστάτιν καὶ πονηρὰν οἰκοῦσιν",
+    "en": "they are inhabiting the rebellious and wicked city",
+    "plain": "They are settling in the rebellious and evil city"
+   },
+   {
+    "w": "A corrector of Codex Vaticanus (Ba) and Codex Alexandrinus (A), from Swete's notes; the KJV (\"do build the marketplaces\") and Ezra 4:12 agree",
+    "orig": "οικοδομουσιν Ba A",
+    "en": "they are building the rebellious and wicked city",
+    "plain": "They are building the rebellious and evil city"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text, which makes sense: the Jews are moving back in. But 'building' agrees with Ezra and with 2:18 ('if this city is built'), and the two Greek words differ by a few letters, so the correction may restore the original.",
+  "s": [
+   "swete-ot",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "you will have no way out",
+  "t": "Way out, or way down?",
+  "p": "Vaticanus says the king will have no 'way out' (exodos) to Coele-Syria; Alexandrinus no 'way down' (kathodos).",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), as printed by Swete",
+    "orig": "ἔξοδός σοι οὐκέτι ἔσται",
+    "en": "a way out will no longer be yours",
+    "plain": "you will have no way out"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Swete's notes",
+    "orig": "καθοδος A",
+    "en": "a way down will no longer be yours",
+    "plain": "you will have no way down"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the base text. Both mean the king would lose his road into the province; Josephus says he would be 'excluded from thy passage' (Antiquities 11.25). Ezra 4:16 has 'no share left in Beyond the River.'",
+  "s": [
+   "swete-ot",
+   "josephus-ant"
+  ]
+ }
+]

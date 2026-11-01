@@ -46,7 +46,7 @@ deeply, and wants every view presented fairly. Matt, who commissioned this, want
 
 ## plain.txt: the Plain English Translation
 
-**The name.** The site's own translation is called the **Plain English Translation**. Write that full name in notes, reviews and briefs, never bare "the Plain" (Matt, 2026-10-30: bare "Plain" was confusing). Possessive: "the Plain English Translation's". The file is still `plain.txt` and the data key `plain`.
+**The name.** The site's own translation is called the **Plain English Translation**. Write that full name in notes, reviews and briefs, never bare "the Plain English Translation" (Matt, 2026-10-30: bare "Plain" was confusing). Possessive: "the Plain English Translation's". The file is still `plain.txt` and the data key `plain`.
 
 ```
 ## Section heading
@@ -235,6 +235,9 @@ Pillar, Anchor Yale, Hermeneia).
 
 In reference lists a bare "c:v" always means your own book, so name every other book in full each time
 ("Psalm 78:24; Psalm 105:40", never "Psalm 78:24; 105:40", which reads as your book's 105:40).
+In a book whose numbering differs from the KJV (Sirach, Baruch and 1 Esdras follow Swete), write a KJV verse number as
+"KJV 36:1–17": a bare c:v right after a capitalized abbreviation or name that is not a book (KJV, LXX, MT, CD) is not
+linked, so it never points to the wrong verse.
 Quoting a book this site has already translated: use its Plain English Translation wording exactly (a quotation may skip words with
 "..."). The build warns when a quotation followed by its reference, "..." (Exodus 33:20), does not match. To quote
 another version on purpose, name it in the parentheses: "on eagles' wings" (Exodus 19:4, KJV).

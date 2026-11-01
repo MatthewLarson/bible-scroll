@@ -78,8 +78,41 @@ WORKS = [
     ('Bar', 'Baruch', 'baruch', 'septuagint', {'grc': ['Bar', 'Epj@6'], 'en': 'Baruch', 'f1k': ['tlg050', 'tlg052@6'],
         'lat': 'Baruch', 'vol': 'III (1912)', 'codex': 'Codex Vaticanus (300s AD)',
         'note': 'Chapter 6 is the Letter of Jeremiah, a separate book in the Greek and Orthodox Bibles, numbered as in '
-                'Catholic Bibles and the KJV.',
-        'lat_note': 'The Vulgate keeps the Old Latin of Baruch, which Jerome did not revise.'}),
+                'the Latin Vulgate.', 'en_order': 'bar-numbers.tsv',
+        'en_note': 'In chapters 3 and 6 it numbers some verses differently; there each line is shown beside the Greek '
+                   'verse that holds it, marked with the KJV’s own number.',
+        'lat_note': 'The Vulgate keeps the Old Latin of Baruch, which Jerome did not revise.',
+        'fix': {'3:7': ('ἀπὸ καρδίας. ἡμῶν', 'ἀπὸ καρδίας ἡμῶν', 'a stray full stop inside the phrase')}}),
+    ('Sir', 'Sirach', 'sirach', 'septuagint', {'grc': 'Sir', 'pre': 'Sip', 'en': 'Sirach', 'f1k': 'tlg034:grc2',
+        'lat': 'Sirach', 'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)', 'heb': True,
+        'gap': 'no line here in Codex Vaticanus; the number belongs to the longer Greek text, which the KJV and the Latin follow',
+        'note': 'In chapters 30–36 the Greek manuscripts have two long sections in the reverse order from the Hebrew and '
+                'the Latin (which the KJV and most English Bibles follow); Swete keeps the Greek order and numbers the verses '
+                'as they stand. The prologue of Ben Sira’s grandson is printed before chapter 1.',
+        'en_order': 'sir-numbers.tsv',
+        'en_note': 'It follows the longer text, and in chapters 30–36 the Hebrew and Latin order; there each line is shown '
+                   'beside the Greek verse that holds it, marked with the KJV’s own number.',
+        'lat_note': 'The Vulgate keeps the Old Latin of Sirach, which Jerome did not revise, with many additions.'}),
+    ('1Es', '1 Esdras', '1-esdras', 'septuagint', {'grc': '1Es', 'en': 'I Esdras', 'f1k': 'tlg017', 'en_order': '1es-numbers.tsv',   # no 'lat': the
+        'vol': 'II (1907)', 'codex': 'Codex Vaticanus (300s AD)',   # scrollmapper Vulgate and Douay have its verses empty
+        'en_note': 'It divides chapters 1, 2, 3, 5, 6 and 8 more finely; there each line is shown beside the Greek verse that '
+                   'holds it, marked with the KJV’s own number.',
+        'fix': {'1:16': ('βασιγέως', 'βασιλέως', 'a misspelling no Greek word has'), '1:22': ('ἔοτιν', 'ἔστιν', 'the First1KGreek text of Swete reads ἔστιν'),
+                '1:25': [('μετ᾽ ἑμοῦ ἐμοῦ ἐστιν', 'μετ᾽ ἐμοῦ ἐστιν', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐστιν'), ('μετ᾽ ἐπισπεύδων', 'μετ᾽ ἐμοῦ ἐπισπεύδων', 'the First1KGreek text of Swete reads μετʼ ἐμοῦ ἐπισπεύδων')],
+                '1:33': ('Αἱγύπτου', 'Αἰγύπτου', 'the First1KGreek text of Swete reads Αἰγύπτου'), '1:35': ('ἀδελφόν αὐτοῦ', 'ἀδελφὸν αὐτοῦ', 'an acute for the grave before another word'),
+                '2:2': [('ἐκήωυξεν', 'ἐκήρυξεν', 'the First1KGreek text of Swete reads ἐκήρυξεν'), ('ὅλῇ τῃ', 'ὅλῃ τῇ', 'the First1KGreek text of Swete reads ὅλῃ τῇ')], '2:8': ('ἀργυριῳ', 'ἀργυρίῳ', 'the First1KGreek text of Swete reads ἀργυρίῳ'),
+                '2:9': [('Ἰερουσαγὴμ', 'Ἰερουσαλὴμ', 'the First1KGreek text of Swete reads Ἰερουσαλὴμ'), ('κυρὶου', 'κυρίου', 'the First1KGreek text of Swete reads κυρίου')],
+                '2:17': ('πόλιν τήν', 'πόλιν τὴν', 'an acute for the grave before another word'),
+                '4:36': ('ἀλὴθειαν', 'ἀλήθειαν', 'an accent misplaced inside the word'), '4:37': ('πὰντες', 'πάντες', 'an accent misplaced inside the word'),
+                '5:8': ('εἰς τὴς', 'εἰς τὴν', 'the First1KGreek text of Swete reads τὴν'), '5:14': ('Ἀσειλίου', 'Ἀδειλίου', 'the First1KGreek text of Swete reads Ἀδειλίου, as does the lemma of his footnote'),
+                '5:15': ('ἑζήκοντα', 'ἑξήκοντα', 'a misspelling no Greek word has'), '5:20': ('τετρακὀσιοι', 'τετρακόσιοι', 'an accent misplaced inside the word'),
+                '5:38': ('τῶν ἱῶν ἱερέων', 'τῶν ἱερέων', 'the First1KGreek text of Swete reads τῶν ἱερέων, without the stray syllable'), '5:41': ('παὶδων', 'παίδων', 'an accent misplaced inside the word'),
+                '5:53': ('ΙΙερσῶν', 'Περσῶν', 'the First1KGreek text of Swete reads Περσῶν'), '5:54': ('Ἰερονσαλὴμ', 'Ἰερουσαλὴμ', 'the First1KGreek text of Swete reads Ἰερουσαλὴμ'),
+                '6:28': ('ἐράρχῳ', 'ἐπάρχῳ', 'the First1KGreek text of Swete reads ἐπάρχῳ'), '8:47': ('καἱ οἱ', 'καὶ οἱ', 'the First1KGreek text of Swete reads καὶ'), '8:83': ('ἡνῶν', 'ἡμῶν', 'the First1KGreek text of Swete reads ἡμῶν'),
+                '9:31': ('Μοοσσείσς', 'Μοοσσείας', 'the First1KGreek text of Swete reads Μοοσσείας, as does the lemma of his footnote'), '9:48': ('Λευεῖατι', 'Λευεῖται', 'the First1KGreek text of Swete reads Λευεῖται')}}),
+    ('3Ma', '3 Maccabees', '3-maccabees', 'septuagint', {'grc': '3Ma', 'brenton': '3MA', 'gap': 'no verse here in Swete’s printed text (Codex Alexandrinus); Brenton’s English has one',
+        'f1k': 'tlg025', 'vol': 'III (1912)', 'codex': 'Codex Alexandrinus (400s AD; Vaticanus lacks Maccabees)',
+        'en_note': 'Its verse numbers follow the Greek.'}),
 ]
 def dump(path, obj): json.dump(obj, open(path, 'w'), ensure_ascii=False, separators=(',', ':'))
 clean = lambda s: re.sub(r'\s+', ' ', s).strip()
@@ -236,7 +269,10 @@ def swete():
         _swete = collections.defaultdict(dict)
         for (a, ref), (z, _) in zip(starts, starts[1:] + [(max(w) + 1, '')]):
             book, cv = ref.split('.', 1)
-            _swete[book][cv] = unicodedata.normalize('NFC', clean(' '.join(w.get(n, '') for n in range(a, z))))   # one accent form (the file mixes oxia and tonos)
+            text = ' '.join(w.get(n, '') for n in range(a, z))
+            text = re.sub(r'[⸂⸃⸆]|\[\d+\]', '', text)   # Swete's page marks (where a codex begins or stops: First1KGreek has "§ C"
+                                                          # there) and his bracketed alternate verse numbers ("[13]"), not words
+            _swete[book][cv] = unicodedata.normalize('NFC', clean(text))   # one accent form (the file mixes oxia and tonos)
     return _swete
 
 def parts(spec):
@@ -252,7 +288,8 @@ def apparatus(spec):
     out, tei = [], '{http://www.tei-c.org/ns/1.0}'
     text = lambda e: ''.join([e.text or ''] + [text(k) + (k.tail or '') if k.get('type') != 'marginal' else (k.tail or '') for k in e])
     for tlg, by in parts(spec):
-        f = f'{DL}/First1KGreek/data/tlg0527/{tlg}/tlg0527.{tlg}.1st1K-grc1.xml'
+        tlg, _, ed = tlg.partition(':')   # "tlg034:grc2": the file of that edition (Sirach's grc1 is Hart 1909, not Swete)
+        f = f'{DL}/First1KGreek/data/tlg0527/{tlg}/tlg0527.{tlg}.1st1K-{ed or "grc1"}.xml'
         if not os.path.exists(f): continue
         c, v = '1', None      # a one-chapter book has no chapter divisions
         for e in ET.parse(f).iter():
@@ -266,11 +303,56 @@ def scroll(trans, name):
     """A book of a scrollmapper translation as {c:v: text} (its own verse numbers)."""
     d = json.load(open(f'{DL}/bible_databases/formats/json/{trans}.json'))
     b = next(b for b in d['books'] if b['name'] == name)
-    return {f'{c["chapter"]}:{v["verse"]}': clean(v['text']) for c in b['chapters'] for v in c['verses']}
+    out = {f'{c["chapter"]}:{v["verse"]}': clean(v['text']) for c in b['chapters'] for v in c['verses']}
+    assert any(out.values()), f'{trans} {name}: the book has verse numbers but no text'   # e.g. the Vulgate appendix
+    return out
+
+def usfm(code):
+    """A book of Brenton's English Septuagint (eBible.org USFM) as {c:v: text}."""
+    f = next(f for f in os.listdir(f'{DL}/brenton') if re.match(rf'\d+-{code}eng-Brenton\.usfm$', f))
+    out, c = {}, None
+    for line in open(f'{DL}/brenton/{f}'):
+        if m := re.match(r'\\c (\d+)', line): c = m.group(1)
+        elif m := re.match(r'\\v (\d+) (.*)', line): out[f'{c}:{m.group(1)}'] = clean(re.sub(r'\\\w+\*? ?', '', m.group(2)))
+    return out
+
+def kahana():
+    """David Kahana's Hebrew Ben Sira (Warsaw 1912) from Sefaria, under Kahana's own chapter and verse numbers."""
+    out = {}
+    for c in range(1, 52):
+        f = f'{DL}/sefaria/{c}.json'   # no file: Kahana prints no text for that chapter (tools/works-fetch.sh)
+        d = json.load(open(f)) if os.path.exists(f) else {}
+        for v, t in enumerate(d['versions'][0]['text'] if 'versions' in d else [], 1):
+            t = clean(re.sub(r'<br>|<small>|</small>', ' ', t))
+            if t: out[f'{c}:{v}'] = unicodedata.normalize('NFC', t)
+    return out
+
+def kjv_in_greek_order(kjv, table):
+    """An English text numbered differently (the KJV's Sirach 30-36, Baruch 3 and 6, 1 Esdras) shown under the Greek
+    verse numbers, each line marked with its own number, from a table of Greek verse -> the verse it holds
+    (tools/<id>-numbers.tsv). Chapters the table does not list number alike."""
+    rows = [(l + '\t' * 3).split('\t')[:4] for l in open(os.path.join(ROOT, 'tools', table)).read().split('\n') if l and not l.startswith('#')]
+    chs = {g.split(':')[0] for g, *_ in rows}
+    out, seen = {k: t for k, t in kjv.items() if k.split(':')[0] not in chs}, set()
+    for g, k, _, also in rows:
+        whole = ([] if k in seen else [k]) + [a for a in also.split(',') if a]
+        out[g] = ' '.join(([f'[part of KJV {k}]'] if k in seen else []) +   # the KJV's own number only where it differs
+                          [kjv[x] if [x] == whole and x == g else f'[KJV {x}] {kjv[x]}' for x in whole])
+        seen.update(whole)
+    lost = {k for k in kjv if k.split(':')[0] in chs} - seen
+    assert not lost, ('KJV verses the table does not place', sorted(lost))
+    return out
 
 def greek_key(s):
     """Greek folded for comparing two copies: no accents, breathings or punctuation, one case."""
     return ''.join(ch for ch in unicodedata.normalize('NFD', s.lower()) if ch.isalpha() and not unicodedata.combining(ch))
+
+def fix_table(bid, inline):
+    """A book's typo corrections: the WORKS entry's own, then those found by collation (tools/swete-fixes.json)."""
+    table = {cv: [f] if isinstance(f, tuple) else list(f) for cv, f in inline.items()}
+    for cv, fs in json.load(open(os.path.join(ROOT, 'tools', 'swete-fixes.json'))).get(bid, {}).items():
+        table.setdefault(cv, []).extend(tuple(f) for f in fs)
+    return table
 
 def septuagint(bid, a):
     """A Septuagint book: Swete's Greek text(s), the KJV Apocrypha, and the Latin and Douay for the writers."""
@@ -282,7 +364,9 @@ def septuagint(bid, a):
              + (' ' + a['note'] if a.get('note') else ''))
     o = {'lang': 'grc', 'about': {k: about(*a.get('about', {}).get(k, plain), 'greek') for k in texts}}
     o.update({k: {cv: t for cv, t in texts[k].items() if t} for k in texts})
-    for cv, fixes in a.get('fix', {}).items():   # typos in the digital text: (typo, Swete's form, the evidence)
+    if a.get('pre'):   # a preface before chapter 1 (Sirach's prologue) is verse 1:0, shown unnumbered like a psalm title
+        o['grc'] = {'1:0': clean(' '.join(S[a['pre']].values())), **o['grc']}
+    for cv, fixes in fix_table(bid, a.get('fix', {})).items():   # typos in the digital text: (typo, Swete's form, the evidence)
         t, done = unicodedata.normalize('NFC', o['grc'][cv]), []   # NFC: the digital text mixes oxia and tonos accents
         for bad, good, by in [fixes] if isinstance(fixes, tuple) else fixes:
             bad, good = (unicodedata.normalize('NFC', w) for w in (bad, good))
@@ -292,9 +376,13 @@ def septuagint(bid, a):
         o.setdefault('fixed', {})[cv] = 'Typos in the digital text of Swete, corrected: ' + '; '.join(done)
     if a.get('gap'): o['gap'] = {cv: a['gap'] for cv in keys if not texts['grc'].get(cv)}
     vc = [max(int(k.split(':')[1]) for k in keys if int(k.split(':')[0]) == c) for c in range(1, int(keys[-1].split(':')[0]) + 1)]
+    en_note = a.get('en_note', 'Its verse numbers can differ slightly from the Greek printed here.')
     en_o = {'about': {'kjva': about('King James Version (1611), Apocrypha', 'KJV', 'The King James Version’s Apocrypha '
-                                    '(1611; 1769 text), public domain. ' + a.get('en_note', 'Its verse numbers can differ '
-                                    'slightly from the Greek printed here.'))}, 'kjva': scroll('KJVA', a['en'])}
+                                    '(1611; 1769 text), public domain. ' + en_note)}, 'kjva': kjv_in_greek_order(scroll('KJVA', a['en']), a['en_order'])
+                                    if a.get('en_order') else scroll('KJVA', a['en'])} if a.get('en') else \
+           {'about': {'brenton': about('Brenton’s English Septuagint (1851)', 'Brenton', 'Sir Lancelot Brenton’s English '
+                                       'translation of the Septuagint (1851), public domain, from eBible.org; the KJV Apocrypha '
+                                       'does not include this book. ' + en_note)}, 'brenton': usfm(a['brenton'])}
     auto = []
     if 'grc_b' in texts:
         for cv in keys:
@@ -303,12 +391,20 @@ def septuagint(bid, a):
                 auto.append({'v': cv, 'kind': 'Sinaiticus vs Vaticanus', 'grc': x, 'grc_b': y})
     src = {'app': {'_about': 'H. B. Swete’s footnotes to his printed text: the readings of the other great codices (A '
                              'Alexandrinus, B Vaticanus, ℵ Sinaiticus, and others where they survive) and later hands. "at" '
-                             'is the verse where each page’s footnotes begin; the verse numbers are inside each note. From '
+                             'is the verse where a page’s footnotes stand in the digital text, usually at the end of the page '
+                             'they belong to; the verse numbers are inside each note, and a page the digital text lacks has none. From '
                              'First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
                    'notes': apparatus(a['f1k'])} if a.get('f1k') else None,
            'lat': {'_about': 'The Latin Vulgate (Clementine, 1592) and the Douay-Rheims English made from it (Challoner, '
                              '1750), public domain, under the Vulgate’s own verse numbers. ' + a.get('lat_note', ''),
-                   'vulgate': scroll('VulgClementine', a['lat']), 'douay': scroll('DRC', a['lat'])} if a.get('lat') else None}
+                   'vulgate': scroll('VulgClementine', a['lat']), 'douay': scroll('DRC', a['lat'])} if a.get('lat') else None,
+           'heb': {'_about': 'The Hebrew of Ben Sira in David Kahana’s edition (Warsaw: Tushiya, 1912), public domain, '
+                             'from Sefaria (CC BY-SA, via Hebrew Wikisource), under Kahana’s own chapter and verse numbers, '
+                             'which follow the Hebrew and Latin order, not the Greek. Kahana prints the Cairo Genizah '
+                             'manuscripts known in 1912; words in square brackets are not in those manuscripts but '
+                             'supplied by Kahana, and the chapters he does not print are absent. The Masada scroll (found '
+                             '1964) and manuscripts published after 1912 are not in it.',
+                   'kahana': kahana()} if a.get('heb') else None}
     return o, en_o, auto, vc, {k: v for k, v in src.items() if v}
 
 cat = json.load(open(f'{OUT}/catalog.json'))

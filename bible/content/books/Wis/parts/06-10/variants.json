@@ -1,0 +1,352 @@
+[
+ {
+  "v": "6:1",
+  "a": "Listen, then, you kings",
+  "t": "An extra opening line in the Latin",
+  "p": "The Latin Bible begins the chapter with a line not in the Greek: 'Wisdom is better than strength.'",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B) as printed by Swete, with Sinaiticus (ℵ) and Alexandrinus (A); the KJV",
+    "orig": "Ἀκούσατε οὖν, βασιλεῖς",
+    "en": "Hear therefore, kings",
+    "plain": "Listen, then, you kings"
+   },
+   {
+    "w": "Latin Vulgate (its verse 6:1, so its later verses in this chapter are numbered one higher) and the Douay-Rheims",
+    "orig": "Melior est sapientia quam vires, et vir prudens quam fortis.",
+    "en": "Wisdom is better than strength, and a prudent man than a strong one.",
+    "plain": "Wisdom is better than strength, and a sensible man better than a strong one. Listen, then, you kings"
+   }
+  ],
+  "follow": 0,
+  "why": "No Greek witness in Swete's apparatus has the line. It is an addition in the Latin, close to Ecclesiastes 9:16 (\"Wisdom is better than power\"), perhaps first written as a heading.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "6:12",
+  "a": "Those who love her catch sight of her easily.",
+  "t": "\"And found by those who seek her\"",
+  "p": "A later hand in Vaticanus, with Sinaiticus, Alexandrinus and the Latin, adds a line; the KJV has it.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, first hand (B*), the text Swete prints",
+    "orig": "καὶ εὐχερῶς θεωρεῖται ὑπὸ τῶν ἀγαπώντων αὐτήν",
+    "en": "and she is easily seen by those who love her",
+    "plain": "Those who love her catch sight of her easily."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), Codex Alexandrinus (A), and correctors of Vaticanus in the margin (B ab mg), from Swete's apparatus; the Vulgate (et invenitur ab his qui quaerunt illam) and the KJV (\"and found of such as seek her\")",
+    "orig": "+ (κ)αι ευρισκεται υπο των ζητουντων αυτην",
+    "en": "+ and is found by those who seek her",
+    "plain": "Those who love her catch sight of her easily, / and those who look for her find her."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the first hand of Vaticanus, Swete's base text. The added line has wide support, but it is the kind of phrase a copyist could supply to complete the pair 'love ... seek' from Proverbs 8:17 and Matthew 7:7, and the shorter text is the harder one to explain as a change.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "6:20",
+  "a": "Longing for Wisdom, then,",
+  "t": "\"Then\" or \"for\"?",
+  "p": "Sinaiticus reads 'for' where Vaticanus has 'then', turning the chain's conclusion into a reason.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the KJV (\"Therefore the desire of wisdom\")",
+    "orig": "ἄρα",
+    "en": "then, therefore",
+    "plain": "Longing for Wisdom, then,"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus",
+    "orig": "αρα] γαρ ℵ",
+    "en": "for",
+    "plain": "For longing for Wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The verse sums up the chain of 6:17–19, so 'then' fits. 'For' differs by one letter in Greek capitals and could come from a copyist reading the line as a reason for what comes before.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "7:12",
+  "a": "she is where they come from",
+  "t": "Their source, or their mother?",
+  "p": "Vaticanus says Wisdom is the 'origin' of good things; Alexandrinus says their 'mother', as the KJV and Latin do.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text (Swete's apparatus notes a different reading only in Alexandrinus)",
+    "orig": "γένεσιν",
+    "en": "origin, source",
+    "plain": "she is where they come from"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's apparatus; the Vulgate (mater) and the KJV (\"the mother of them\")",
+    "orig": "γενετιν A",
+    "en": "mother (she who gave birth)",
+    "plain": "she is their mother"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make Wisdom the source of the goods that came with her. The Plain English Translation follows Vaticanus. The feminine genetis, 'mother', fits the book's picture of Wisdom as a woman and may be a scribe's change for that reason; it differs from genesis by one letter.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "Those who make use of it",
+  "t": "Use it, or gain it?",
+  "p": "Vaticanus has 'those who use' the treasure; Alexandrinus and a corrector of Sinaiticus have 'those who gain' it.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the Vulgate (usi sunt) and the KJV (\"they that use\")",
+    "orig": "χρησάμενοι",
+    "en": "those who have used",
+    "plain": "Those who make use of it"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and a corrector of Sinaiticus (ℵ c.a), from Swete's apparatus",
+    "orig": "κτησαμενοι ℵc.a vid (superscr κ) A",
+    "en": "those who have acquired",
+    "plain": "Those who gain it"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek verbs differ by one letter. 'Use' has the Latin with it and is the base text; 'gain' may be a correction toward the more usual phrase for getting a treasure.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "7:15",
+  "a": "what has been given",
+  "t": "What is given, or what is said?",
+  "p": "Sinaiticus and Alexandrinus read 'worthy of what is said' instead of 'of what has been given'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the Vulgate (quae mihi dantur) and the KJV",
+    "orig": "τῶν δεδομένων",
+    "en": "the things given",
+    "plain": "what has been given"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), from Swete's apparatus",
+    "orig": "λεγομενων ℵA",
+    "en": "the things said",
+    "plain": "what is said"
+   }
+  ],
+  "follow": 0,
+  "why": "'Given' fits the context, where everything the king knows is God's gift (7:16–17), and has the Latin with it. 'Said' could come from 'to speak' earlier in the verse.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "7:30",
+  "a": "evil cannot hold out against Wisdom",
+  "t": "Cannot resist, or does not overpower?",
+  "p": "Vaticanus says evil cannot stand against Wisdom; Sinaiticus and Alexandrinus say it does not overpower her.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "οὐκ ἀντισχύει κακία",
+    "en": "evil does not hold out against",
+    "plain": "evil cannot hold out against Wisdom"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Alexandrinus (A), from Swete's apparatus; the Vulgate (non vincit) and the KJV (\"shall not prevail against\")",
+    "orig": "ου κατισχυει ℵA",
+    "en": "evil does not prevail over",
+    "plain": "evil does not overpower Wisdom"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows its base text. In Vaticanus evil is on the defensive and cannot stand; in the other codices it attacks and fails. The meaning is close either way.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "craftswoman",
+  "t": "Craftswoman or craftsman?",
+  "p": "Vaticanus has the feminine 'craftswoman', as at 7:22; Alexandrinus, Ephraemi and a corrector of Vaticanus have the masculine.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus, first hand (B), Swete's text",
+    "orig": "τεχνῖτις",
+    "en": "craftswoman",
+    "plain": "craftswoman"
+   },
+   {
+    "w": "A later corrector of Vaticanus (Bᵇ, marked uncertain by Swete), Codex Alexandrinus (A) and Codex Ephraemi (C), from Swete's apparatus",
+    "orig": "τεχνιτης Bᵇ?AC",
+    "en": "craftsman",
+    "plain": "craftsman"
+   }
+  ],
+  "follow": 0,
+  "why": "The feminine matches the subject, Wisdom, and the same word at 7:22. The masculine is the common form of the word (as in Hebrews 11:10) and may be a copyist's change toward it. The Latin artifex and the KJV's \"workman\" do not show the gender.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "I would not win her any other way",
+  "t": "\"Not otherwise\" or \"not rightly\"",
+  "p": "Alexandrinus and Ephraemi read 'I would not rightly win her' by a change of one letter's spacing.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B) and Sinaiticus (ℵ), Swete's text; the Vulgate (aliter) and the KJV (\"otherwise\")",
+    "orig": "οὐκ ἄλλως",
+    "en": "not otherwise",
+    "plain": "I would not win her any other way"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and Codex Ephraemi (C), from Swete's apparatus",
+    "orig": "ου καλως AC",
+    "en": "not well, not rightly",
+    "plain": "I would not rightly win her"
+   }
+  ],
+  "follow": 0,
+  "why": "In capital letters without spaces the two readings are the same letters, OUKALLŌS, except for one letter (L or LL). 'Otherwise' fits the clause that follows, 'unless God gave her'. On the different senses of 'win her' (possess or be self-controlled), see the note.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "9:16",
+  "a": "even what is close at hand",
+  "t": "At hand, or at our feet?",
+  "p": "Sinaiticus reads 'what is at our feet' for 'what is in our hands'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B) and Alexandrinus (A), Swete's text; the KJV (\"the things that are before us\")",
+    "orig": "τὰ ἐν χερσὶν",
+    "en": "the things in (our) hands",
+    "plain": "even what is close at hand"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus",
+    "orig": "χερσιν] ποσιν ℵ",
+    "en": "the things at (our) feet",
+    "plain": "even what lies at our feet"
+   }
+  ],
+  "follow": 0,
+  "why": "Both mean what is nearest to us. The Plain English Translation follows the base text, which the other codices support.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "9:18",
+  "a": "Wisdom saved them",
+  "t": "\"Wisdom\" or \"your Wisdom\"?",
+  "p": "Sinaiticus adds 'your': 'by your Wisdom they were saved'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B) and Alexandrinus (A), Swete's text; the KJV (\"were saved through wisdom\")",
+    "orig": "τῇ σοφίᾳ ἐσώθησαν",
+    "en": "by Wisdom they were saved",
+    "plain": "Wisdom saved them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus",
+    "orig": "σοφια] + σου ℵ",
+    "en": "by your wisdom they were saved",
+    "plain": "your Wisdom saved them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows its base text. 'Your' could come from 'your wisdom' in 9:2 and 'your Holy Spirit' in 9:17. Without it the line ends the prayer with Wisdom herself as the one who saves, which chapter 10 then shows.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "10:5",
+  "a": "she found the righteous man",
+  "t": "Found him, or knew him?",
+  "p": "Sinaiticus, Alexandrinus and Ephraemi read 'she knew the righteous man', as the Latin does.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the KJV (\"she found out the righteous\")",
+    "orig": "εὗρεν τὸν δίκαιον",
+    "en": "found the righteous one",
+    "plain": "she found the righteous man"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), Alexandrinus (A) and Ephraemi (C), from Swete's apparatus; the Vulgate (scivit justum)",
+    "orig": "ευρεν] εγνω ℵAC",
+    "en": "knew the righteous one",
+    "plain": "she knew the righteous man"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows its base text, though the other three codices and the Latin agree against it, and 'knew' may well be original, in the sense of the Hebrew 'know' in Genesis 18:19, where the Plain English Translation says \"I have chosen him\". 'Found' recalls Nehemiah 9:8, where God 'found' Abraham's heart faithful.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "10:10",
+  "a": "taught him about holy things",
+  "t": "Holy things, or human beings?",
+  "p": "Codex Ephraemi reads 'knowledge of human beings' where the others have 'of holy things (or holy ones)'.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Sinaiticus (ℵ) and Alexandrinus (A), Swete's text; the Vulgate (scientiam sanctorum) and the KJV",
+    "orig": "γνῶσιν ἁγίων",
+    "en": "knowledge of holy things, or of holy ones",
+    "plain": "taught him about holy things"
+   },
+   {
+    "w": "Codex Ephraemi (C), from Swete's apparatus (written as an abbreviation)",
+    "orig": "αγιων] ανων C",
+    "en": "knowledge of human beings",
+    "plain": "taught him about human beings"
+   }
+  ],
+  "follow": 0,
+  "why": "Scribes wrote 'human beings' in a short form (ΑΝΩΝ) that looks much like ΑΓΙΩΝ, 'holy', so one is a slip for the other. 'Holy' fits Jacob's vision of the angels at Bethel and has the other codices with it.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "10:13",
+  "a": "She pulled him out of sin",
+  "t": "From sin, or from sinners?",
+  "p": "The Latin reads 'from sinners'; every Greek codex in Swete reads 'from sin'.",
+  "readings": [
+   {
+    "w": "Greek: Codex Vaticanus (B), with no difference noted in Swete's apparatus; the KJV (\"delivered him from sin\")",
+    "orig": "ἐξ ἁμαρτίας ἐρρύσατο αὐτόν",
+    "en": "rescued him from sin",
+    "plain": "She pulled him out of sin"
+   },
+   {
+    "w": "Latin Vulgate and the Douay-Rheims (\"delivered him from sinners\")",
+    "orig": "a peccatoribus liberavit eum",
+    "en": "freed him from sinners",
+    "plain": "She pulled him out of the hands of sinners"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek has the abstract 'sin', which points to Potiphar's wife's temptation (Genesis 39:7–12). The Latin turns it into the people who wronged him, his brothers and his accusers.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ }
+]

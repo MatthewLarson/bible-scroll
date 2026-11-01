@@ -14,7 +14,7 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 
 ## What Matt wants (keep to this everywhere)
 
-- The site's own translation is named the **Plain English Translation**. Always write the full name in content, briefs and messages, never bare "the Plain" (Matt, 2026-10-30). Files and data keys stay `plain.txt` / `plain`.
+- The site's own translation is named the **Plain English Translation**. Always write the full name in content, briefs and messages, never bare "the Plain English Translation" (Matt, 2026-10-30). Files and data keys stay `plain.txt` / `plain`.
 - Main text in modern American English at about an 8th-grade reading level, translated from the original
   Hebrew, Aramaic and Greek, citing common translations and above all the original-language texts.
 - Every interpretive view presented fairly: literal and figurative, Jewish and Christian, traditional and

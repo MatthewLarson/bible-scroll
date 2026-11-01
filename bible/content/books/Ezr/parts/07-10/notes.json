@@ -482,14 +482,16 @@
   "type": "word",
   "t": "Where does the verse break?",
   "p": "The Hebrew begins 8:3 with \"of the descendants of Shecaniah,\" which belongs with Hattush in 8:2.",
-  "b": "Every other entry has a clan, a leader and a number. Read strictly by its verse division, the Masoretic text makes Shecaniah a clan with no leader and no number. 1 Chronicles 3:22 makes Hattush a grandson of Shecaniah, and 1 Esdras 8:29 (the same number in the KJV and in Rahlfs) reads \"Hattush, the son of Shecaniah.\" So the phrase most likely completes 8:2: Hattush, of Shecaniah's family. The Plain English Translation keeps the Hebrew verse division but runs the sentence across it.",
+  "b": "Every other entry has a clan, a leader and a number. Read strictly by its verse division, the Masoretic text makes Shecaniah a clan with no leader and no number. 1 Chronicles 3:22 makes Hattush a grandson of Shecaniah, and in 1 Esdras 8:29 Codex Alexandrinus reads \"Attous, the son of Sechenias\" (the KJV's \"Lettus the son of Sechenias\"), that is, Hattush son of Shecaniah. Codex Vaticanus, which the site's 1 Esdras follows, has no name after \"Of the descendants of David.\" So the phrase most likely completes 8:2: Hattush, of Shecaniah's family. The Plain English Translation keeps the Hebrew verse division but runs the sentence across it.",
   "orig": "מִבְּנֵי שְׁכַנְיָה (mibbene Shekhanyah)",
   "kind": "deb",
   "r": "1 Chronicles 3:21–22; 8:5",
   "s": [
    "talshir-1esdras",
    "rahlfs-lxx",
-   "williamson-ezra-neh"
+   "williamson-ezra-neh",
+   "swete-ot",
+   "kjv-apocrypha"
   ]
  },
  {
@@ -1304,7 +1306,7 @@
   "type": "word",
   "t": "The last line: hard Hebrew",
   "p": "The book ends with a sentence that seems broken. Translators read it, and its outcome, in different ways.",
-  "b": "The Hebrew says literally, \"and there were among them women, and they placed sons.\" The verb \"placed\" (<i>vayyasimu</i>) is masculine and strange for having children. Readings: (1) the Plain English Translation's, close to the KJV: some of the men had children by these wives; (2) with a small change to the verb, \"some of the wives had borne children\"; (3) 1 Esdras 9:36, \"and they sent them away with children,\" which the RSV and NRSV follow; the BHS apparatus and Wilhelm Rudolph reconstruct a Hebrew text behind it, roughly \"and they sent them away, wives and children,\" so this is more than a paraphrase; (4) the Greek of 2 Esdras, \"and they had fathered sons from them.\" Only (3) says the sending away happened. As the Hebrew stands, the book ends with the list and the children, not with a report that the men obeyed. Nehemiah 13:23–27 shows the issue rising again a generation later.",
+  "b": "The Hebrew says literally, \"and there were among them women, and they placed sons.\" The verb \"placed\" (<i>vayyasimu</i>) is masculine and strange for having children. Readings: (1) the Plain English Translation's, close to the KJV: some of the men had children by these wives; (2) with a small change to the verb, \"some of the wives had borne children\"; (3) 1 Esdras 9:36, \"and they sent them away with their children,\" which the RSV and NRSV follow; the BHS apparatus and Wilhelm Rudolph reconstruct a Hebrew text behind it, roughly \"and they sent them away, wives and children,\" so this is more than a paraphrase; (4) the Greek of 2 Esdras, \"and they had fathered sons from them.\" Only (3) says the sending away happened. As the Hebrew stands, the book ends with the list and the children, not with a report that the men obeyed. Nehemiah 13:23–27 shows the issue rising again a generation later.",
   "orig": "וְיֵשׁ מֵהֶם נָשִׁים וַיָּשִׂימוּ בָּנִים (veyesh mehem nashim vayyasimu banim)",
   "kind": "deb",
   "r": "10:3; 10:19; Nehemiah 13:23–27",

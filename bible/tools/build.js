@@ -206,7 +206,7 @@ function loadBook(id, part){
     /* a book outside the 66 must say who accepts it, where it came from, why most set it aside, where the Bible refers to it,
        how reliable it is (Claude's analysis, labeled as such on the page) and how to read it */
     const W0 = WORKS_ALL[cn.work];
-    if(!W0 || W0.book !== id) err(cw, `work must be the works.json id whose "book" is "${id}"`); else if(cn.tier !== W0.tier) err(cw, `tier "${cn.tier}" differs from works.json "${W0.tier}"`);
+    if(!W0 || W0.book !== id || W0.c) err(cw, `work must be the works.json id whose "book" is "${id}"`); else if(cn.tier !== W0.tier) err(cw, `tier "${cn.tier}" differs from works.json "${W0.tier}"`);
     if(!cn.summary) err(cw, 'needs summary (shown on every page)');
     if(!Array.isArray(cn.accepted_by) || cn.accepted_by.length < 2) err(cw, 'accepted_by needs rows [who, view, [keys]?] for at least two churches or traditions');
     else cn.accepted_by.forEach((r, k) => { if(!Array.isArray(r) || r.length < 2) err(cw, `accepted_by[${k}] must be [who, view, [keys]?]`); else srcCheck(cw, r[2]); });
@@ -493,12 +493,14 @@ const catalog = {groups:CAT.groups, books:CAT.books.map(b => ({id:b.id, name:b.n
 const WORKS = WORKS_ALL;
 const TIERS = ['dc','orth','eth','other','early','lost','world'];   // world: another people's or religion's writing (tools/world-texts.py)
 for(const [id, w] of Object.entries(WORKS)) { if(!w.name || !TIERS.includes(w.tier)) err(`works.json ${id}`, `needs a name and a tier (${TIERS.join(', ')})`);
-  if((w.aka || []).some(a => /^2 Esdras/.test(a))) err(`works.json ${id}`, '"2 Esdras" is the Greek Ezra-Nehemiah on this site, not a separate work'); }
+  if((w.aka || []).some(a => /^2 Esdras/.test(a))) err(`works.json ${id}`, '"2 Esdras" is the Greek Ezra-Nehemiah on this site, not a separate work');
+  /* "c": the work is one chapter of a site book (the Letter of Jeremiah is Baruch 6); its own verses are that chapter's */
+  if(w.c != null && !(w.book && BOOK[w.book] && Number.isInteger(w.c) && w.c >= 1 && w.c <= BOOK[w.book].vc.length)) err(`works.json ${id}`, `"c": ${w.c} is not a chapter of book "${w.book}"`); }
 catalog.works = WORKS;
 /* books outside the 66: their works.json entry gives the tier; the catalog lists which of their texts exist */
 const ORIG_NAMES = {gez:'Ge’ez (classical Ethiopic) text', grc:'Greek text', heb:'Hebrew text', syr:'Syriac text', lat:'Latin text', akk:'Akkadian text'};
 for(const b of catalog.books.filter(b => b.t === 'X')){
-  const w = Object.values(WORKS).find(w => w.book === b.id); if(!w) err(`works.json`, `book ${b.id} needs a works.json entry with "book": "${b.id}"`);
+  const w = Object.values(WORKS).find(w => w.book === b.id && !w.c); if(!w) err(`works.json`, `book ${b.id} needs a works.json entry with "book": "${b.id}"`);
   const o = json(P('texts/orig', b.id + '.json')) || {}, e = json(P('texts/en', b.id + '.json')) || {};
   const has = (t, k) => t[k] && typeof t[k] === 'object' && Object.keys(t[k]).length;
   /* each text file describes the texts it holds in "about" ({key: {name, short, note, script?}}); the site offers exactly those */
