@@ -176,11 +176,13 @@ function parseHash(){
   if(parts[0] && BYID[parts[0]]) return {mode:'book', id:parts[0], c:parts[1] ? +parts[1] : null, v:parts[2] != null ? +parts[2] : null, page:qs.get('p')};
   if(parts[0] === 'library') return {mode:'library', q:qs.get('q') || ''};
   if(parts[0] === 'topics') return {mode:'topics'};
+  if(parts[0] === 'resources' || (parts[0] === 'timelines' && !parts[1])) return {mode:parts[0]};
+  if(parts[0] === 'timeline' && parts[1]) return {mode:'timeline', id:parts[1], y:qs.get('y'), e:qs.get('e')};
   if(parts[0] === 'articles') return {mode:'articles', id:parts[1] || null};
   if(parts[0] === 'mission' || parts[0] === 'releases') return {mode:parts[0]};
   return {mode:'home'};
 }
-const PAGE_OPEN = {home:() => openHome(), library:r => openLibrary(r), topics:() => openTopics(), articles:r => r.id ? openArticle(r) : openArticles(), mission:() => openMission(), releases:() => openReleases()};
+const PAGE_OPEN = {home:() => openHome(), library:r => openLibrary(r), topics:() => openTopics(), resources:() => openResources(), timelines:() => openTimelines(), timeline:r => openTimeline(r), articles:r => r.id ? openArticle(r) : openArticles(), mission:() => openMission(), releases:() => openReleases()};
 const nav = (h, replace=false) => { if(location.pathname + location.search !== h) history[replace ? 'replaceState' : 'pushState'](null, '', h); route(); };
 let routing = Promise.resolve();
 addEventListener('popstate', () => route());
@@ -192,15 +194,17 @@ function setMode(m){ ['lib','book','topic'].forEach(x => document.body.classList
   delete document.body.dataset.page; $('leaf').className = 'leaf'; document.querySelectorAll('#siteNav a[aria-current]').forEach(a => a.removeAttribute('aria-current')); }
 
 /* ---------- the site's own pages: home, the scrolls, articles, mission, releases ---------- */
-const SITE_PAGES = {home:'Home', library:'The scrolls', topics:'Topics', articles:'Articles', mission:'Mission', releases:'Releases'};
+const SITE_PAGES = {home:'Home', library:'The scrolls', resources:'Resources', topics:'Topics', timelines:'Timelines', timeline:'Timelines', articles:'Articles', mission:'Mission', releases:'Releases'};
 const STATUS = {reviewed:'Plain English Translation, notes, reviewed', draft:'Plain English Translation and notes (in review)', text:'Original and English texts'};
 const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'}) : '';
+/* the pages under Resources light up Resources in the menu */
+const NAV_OF = {topics:'resources', timelines:'resources', timeline:'resources'};
+const markNav = page => document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === (NAV_OF[page] || page) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
 function sitePage(page, title){
   setMode('lib'); CTX = null; document.body.dataset.page = page; $('leaf').className = 'leaf site';
   document.title = title ? `${title} · Codex Collection` : 'Codex Collection: Read the words. Understand the world. Decide for yourself.';
-  where.textContent = SITE_PAGES[page];
-  document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === page ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  where.textContent = SITE_PAGES[page]; markNav(page);
 }
 function pageDone(){ linkify($('leaf')); smartQuotes($('leaf')); $('article').scrollTop = 0; }
 /* the passage-and-topic search, wherever a page offers it */
@@ -313,7 +317,7 @@ function openTopics(){
   const kinds = Object.keys(TOPIC_KINDS).filter(k => ids.some(id => TIDX[id][1] === k));
   const card = id => { const [title, kind, lead, , books] = TIDX[id];
     return `<button class="tcard" data-topic="${id}" style="--kc:var(--k-${kind})"><b>${title}</b>${lead ? `<span>${esc(lead)}</span>` : ''}<small>${(books || []).length ? `${books.length} book${books.length > 1 ? 's' : ''}` : ''}</small></button>`; };
-  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">Topics</div><h1>One page for every subject</h1>
+  $('leaf').innerHTML = `<a class="back" href="/resources">← Resources</a><header class="pagehead"><div class="cart study">Topics</div><h1>One page for every subject</h1>
     <p class="lede">Each topic gathers everything the collection says about one subject, from every book, in one place. Open a topic from a passage and it shows what relates to that passage first, with a switch for the whole page.</p>
     <div class="search"><input id="tq" type="search" placeholder="Find a topic: covenant, Moses, Jerusalem…" aria-label="Find a topic"></div></header>
     <nav class="grpnav" aria-label="Jump to a kind of topic">${kinds.map(k => `<button data-jump="k-${k}" style="--kc:var(--k-${k})"><i></i>${k} <small>${ids.filter(id => TIDX[id][1] === k).length}</small></button>`).join('')}</nav>
@@ -327,6 +331,191 @@ function openTopics(){
       sec.hidden = !n; any = any || !!n; });
     $('tnone').hidden = any; });
   smartQuotes($('leaf')); $('article').scrollTop = 0;
+}
+
+/* ---------- resources: the topics and the timelines ---------- */
+const TL_KIND = {picture:'Picture', event:'Event', person:'Person', table:'Table'};
+const tlPreview = (T, alt = '') => `<img class="tlstrip" src="tiles/${T.id}/preview.webp?v=${T.v || ''}" alt="${esc(alt)}" loading="lazy">`;
+async function openResources(){
+  const tls = await load('timelines/index.json').catch(() => []); sitePage('resources', 'Resources');
+  const nT = Object.keys(TIDX).length, kinds = new Set(Object.values(TIDX).map(t => t[1])).size;
+  $('leaf').innerHTML = `<header class="pagehead"><div class="cart study">Resources</div><h1>Tools for study</h1>
+    <p class="lede">Ways into the collection that cross every book: a page for each subject, and charts that set the Bible's story beside the rest of history. Each one links back to the passages it draws on.</p></header>
+    <div class="rescards">
+      <a class="rescard" href="/topics"><span class="resart" aria-hidden="true">${RES_ART.topics}</span><div><h2>Topics</h2>
+        <p>${nT} topic pages in ${kinds} kinds (ideas, people, places, symbols, words, events, studies, science and creatures), each gathering what every book says about one subject.</p><span class="more">Browse the topics →</span></div></a>
+      <a class="rescard" href="/timelines"><span class="resart" aria-hidden="true">${RES_ART.timelines}</span><div><h2>Timelines</h2>
+        <p>${tls.length ? `${tls.length === 1 ? 'A chart' : `${tls.length} charts`} of history to explore up close, with ${tls.reduce((n, t) => n + t.n, 0)} pictures, events and people marked and linked to the books and to Wikipedia.` : 'Charts of history, set beside the books.'}</p><span class="more">See the timelines →</span></div></a>
+    </div>`;
+  pageDone();
+}
+/* two small sketches, drawn in the scroll's ink */
+const RES_ART = {
+  topics:`<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14c7-2 14-1 22 3 8-4 15-5 22-3v36c-7-2-14-1-22 3-8-4-15-5-22-3z"/><path d="M32 17v36"/><path d="M16 24c4-1 7-.6 10 .6M16 31c4-1 7-.6 10 .6M16 38c4-1 7-.6 10 .6M38 25c3-1.2 6-1.6 10-.6M38 32c3-1.2 6-1.6 10-.6"/></svg>`,
+  timelines:`<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 46c9-1 13-9 22-9s12 8 30 6"/><path d="M6 30c10 0 14-12 24-12 9 0 12 10 28 9"/><path d="M14 12v42M30 10v44M46 12v42" stroke-dasharray="2 4"/><circle cx="22" cy="23" r="2.6"/><circle cx="40" cy="38" r="2.6"/></svg>`};
+async function openTimelines(){
+  const tls = await load('timelines/index.json'); sitePage('timelines', 'Timelines');
+  $('leaf').innerHTML = `<a class="back" href="/resources">← Resources</a><header class="pagehead"><div class="cart study">Timelines</div><h1>History, at a glance</h1>
+    <p class="lede">Charts that line up the story of the Bible with the kingdoms, people and inventions of the wider world. Zoom in on any part, and follow what is marked to the books of the collection and to Wikipedia.</p></header>
+    ${tls.length ? `<div class="tlcards">${tls.map(T => `<a class="tlcard" href="/timeline/${T.id}">${tlPreview(T)}<div><span class="adate">${esc(T.date)}</span><h3>${T.title}</h3><p>${T.summary}</p><span class="more">Open the chart · ${T.n} marked →</span></div></a>`).join('')}</div>`
+      : '<div class="empty"><p>The first timeline is being prepared.</p></div>'}`;
+  pageDone();
+}
+/* years: negative before Christ. The chart counts as history did, with no year 0. */
+const fmtYear = y => y == null ? '' : y < 0 ? `${-y} BC` : `AD ${y}`;
+function parseYear(s){ const m = String(s).trim().match(/^(?:(ad|a\.d\.|ce)\s*)?(-?\d{1,4})\s*(bc|b\.c\.|bce|ad|a\.d\.|ce)?$/i); if(!m) return null;
+  const n = +m[2], bc = /^b/i.test(m[3] || ''); return bc ? -Math.abs(n) : n; }
+/* the chart's own date marks give the scale: x for a year and a year for an x, straight lines between marks */
+function tlScale(sc){ const lerp = (a, b, k) => a + (b - a) * k;
+  const at = (v, i, j) => { let n = 1; while(n < sc.length - 1 && v > sc[n][i]) n++; const [p, q] = [sc[n-1], sc[n]]; return lerp(p[j], q[j], (v - p[i]) / (q[i] - p[i])); };
+  return {x:y => at(y, 0, 1), year:x => at(x, 1, 0)}; }
+
+async function openTimeline(r){
+  const idx = await load('timelines/index.json');
+  if(!idx.some(t => t.id === r.id)){ sitePage('timelines', 'Timeline not found'); $('leaf').innerHTML = `<header class="pagehead"><h1>Timeline not found</h1><p><a class="btn ghost" href="/timelines">All timelines</a></p></header>`; return; }
+  const T = await load(`timelines/${r.id}.json`); sitePage('timeline', T.title);
+  const S = tlScale(T.scale), cx = e => e.at[0] + e.at[2] / 2, order = T.entries.map((e, i) => i).sort((a, b) => cx(T.entries[a]) - cx(T.entries[b]));
+  /* the eras follow one another, so whatever lies before the first or after the last goes with it */
+  const eraOf = i => { const y = S.year(cx(T.entries[i])), j = T.eras.findIndex(e => y < e.to); return j < 0 ? T.eras.length - 1 : j; };
+  const links = e => [...(e.refs ? RF.findRefs(e.refs, null, true).map(x => `<a class="pill" href="/${x.book}/${x.c}${x.v != null ? '/' + x.v : ''}">${esc(x.label)}</a>`) : []),
+    ...(e.topics || []).map(([id, title]) => `<button class="pill tpill" data-topic="${id}">${title}</button>`),
+    ...(e.wiki ? [ext(WIKI(e.wiki.replace(/_/g, ' ')), 'Wikipedia ↗', 'pill')] : [])].join('');   // WIKI's "go" search opens the article, or the closest results
+  const when = e => e.label || fmtYear(e.year);
+  const item = i => { const e = T.entries[i];
+    return `<li class="tlitem" id="tle-${i}"><button class="tlgo" data-tlgo="${i}" aria-label="Show ${esc(strip(e.t))} on the chart"><i class="k-${e.kind}"></i><b>${e.t}</b>${when(e) ? `<span class="tly">${esc(when(e))}</span>` : ''}</button>
+      ${e.p ? `<p>${e.p}</p>` : ''}<div class="tllinks">${links(e)}</div></li>`; };
+  const groups = T.eras.map((era, j) => [era, order.filter(i => eraOf(i) === j)]).concat([[{t:'Elsewhere on the chart'}, order.filter(i => eraOf(i) < 0)]]).filter(([, xs]) => xs.length);
+  $('leaf').className = 'leaf site tlpage';
+  $('leaf').innerHTML = `<a class="back" href="/timelines">← Timelines</a>
+    <header class="pagehead"><div class="cart study">Timeline · ${esc(T.date)}</div><h1>${T.title}</h1><p class="lede">${T.summary}</p></header>
+    <div class="tlbar" role="toolbar" aria-label="Chart controls">
+      <button class="pill" data-tlz="in" aria-label="Zoom in">＋</button><button class="pill" data-tlz="out" aria-label="Zoom out">－</button>
+      <button class="pill" data-tlz="fit">Fit height</button><button class="pill" data-tlz="all">Whole chart</button>
+      <form class="tlyear" id="tlyearf"><label>Go to <input id="tlyear" inputmode="text" placeholder="1000 BC, AD 70…" aria-label="Go to a year"></label></form>
+      <button class="pill" id="tlmarks" aria-pressed="true">Marks shown</button>
+    </div>
+    <div class="tlview" id="tlview" tabindex="0" aria-label="${esc(strip(T.title))}: drag to move, scroll or pinch to zoom, arrow keys and + and - work too">
+      <div class="tllayer" id="tllayer"></div><div class="tlmarklayer" id="tlmarklayer"></div><div class="tlhere" id="tlhere" aria-live="polite"></div>
+      <div class="tlpop" id="tlpop" hidden></div>
+    </div>
+    <div class="tlmini" id="tlmini" aria-hidden="true"><img src="tiles/${T.id}/preview.webp?v=${T.image.v}" alt=""><div class="tlwin" id="tlwin"></div></div>
+    <p class="small muted tlcredit">${T.credit}</p>
+    <section class="band"><div class="prose">${T.about}</div>${T.sources.length ? `<h3>Sources</h3><ul class="srcs">${T.sources.map(s => `<li>${s}</li>`).join('')}</ul>` : ''}</section>
+    <section class="band" id="tlon"><div class="sechead"><h2>On the chart</h2><span class="count">${T.entries.length} pictures, events and people, in the chart's order</span></div>
+      <div class="search"><input id="tlq" type="search" placeholder="Find on the chart: Noah, pyramids, Luther…" aria-label="Find on the chart"></div>
+      <p class="muted small" id="tlnone" hidden>Nothing on the chart matches.</p>
+      ${groups.map(([era, xs]) => `<section class="grp tlera"><div class="sechead"><h3>${era.t}</h3>${era.from != null ? `<span class="count">${fmtYear(era.from)} to ${fmtYear(era.to)}</span>` : ''}</div><ul class="tlist">${xs.map(item).join('')}</ul></section>`).join('')}
+    </section>`;
+  const V = TLV = tlViewer(T, S, links, when);
+  $('tlq').addEventListener('input', e => { const q = e.target.value.trim().toLowerCase(); let any = false;
+    $('leaf').querySelectorAll('.tlera').forEach(sec => { let n = 0;
+      sec.querySelectorAll('.tlitem').forEach(li => { li.hidden = !!q && !li.textContent.toLowerCase().includes(q); if(!li.hidden) n++; }); sec.hidden = !n; any = any || !!n; });
+    $('tlnone').hidden = any; });
+  $('tlyearf').addEventListener('submit', e => { e.preventDefault(); const y = parseYear($('tlyear').value);
+    if(y == null){ $('tlyear').setCustomValidity('Write a year, such as 1000 BC or AD 70'); $('tlyear').reportValidity(); return; }
+    $('tlyear').setCustomValidity(''); V.year(y); });
+  $('tlyear').addEventListener('input', () => $('tlyear').setCustomValidity(''));
+  $('tlmarks').addEventListener('click', e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true';
+    e.currentTarget.setAttribute('aria-pressed', String(on)); e.currentTarget.textContent = on ? 'Marks shown' : 'Marks hidden'; $('tlview').classList.toggle('nomarks', !on); });
+  smartQuotes($('leaf')); $('article').scrollTop = 0;
+  /* /timeline/adams?y=-2348 opens at that year; ?e=12 at that entry, open (the topic pages link this way) */
+  if(r.e != null && T.entries[+r.e]) V.show(+r.e);
+  else if(r.y != null && parseYear(r.y) != null) V.year(parseYear(r.y), false);
+}
+
+let TLV = null;   // the chart on screen, for the page's buttons (see the click handler)
+/* The chart viewer: the scan in tiles (tools/timeline-tiles.py), drawn in screen pixels so it stays sharp at any zoom.
+   Level z is the scan shrunk by 2^z; the viewer shows the level that matches the screen and keeps the coarser preview
+   underneath, so nothing is ever blank while tiles arrive. Screen point = scan point × s + (tx, ty). */
+function tlViewer(T, S, links, when){
+  const I = T.image, TS = I.tile, view = $('tlview'), layer = $('tllayer'), marks = $('tlmarklayer'), pop = $('tlpop'), mini = $('tlmini'), win = $('tlwin');
+  const phone = matchMedia('(max-width:700px)'), src = (z, c, r) => `tiles/${T.id}/${z}/${c}_${r}.webp?v=${I.v}`;
+  const base = new Image(); base.className = 'tlbase'; base.alt = ''; base.src = `tiles/${T.id}/preview.webp?v=${I.v}`; layer.append(base);
+  const tiles = new Map(); let s = 1, tx = 0, ty = 0, vw = 0, vh = 0, sel = -1, anim = 0, frame = 0, pending = null;
+  const sMin = () => Math.min(vw / I.w, vh / I.h), sMax = () => 1.6 * (devicePixelRatio > 1 ? 1.5 : 1), sFit = () => vh / I.h;
+  const clamp = () => { s = Math.min(sMax(), Math.max(sMin(), s));
+    const w = I.w * s, h = I.h * s; tx = w <= vw ? (vw - w) / 2 : Math.min(0, Math.max(vw - w, tx)); ty = h <= vh ? (vh - h) / 2 : Math.min(0, Math.max(vh - h, ty)); };
+  const dots = T.entries.map((e, i) => { const b = document.createElement('button'); b.className = `tldot k-${e.kind}`; b.dataset.tldot = i; b.setAttribute('aria-label', strip(e.t)); b.title = strip(e.t); marks.append(b); return b; });
+  const box = document.createElement('div'); box.className = 'tlbox'; box.hidden = true; marks.append(box);
+  function draw(){ frame = 0; if(!view.isConnected){ ro.disconnect(); return; }
+    base.style.cssText = `left:${tx}px; top:${ty}px; width:${I.w * s}px; height:${I.h * s}px`;
+    const z = Math.max(0, Math.min(I.levels - 1, Math.floor(Math.log2(1 / (s * devicePixelRatio))))), span = TS * 2 ** z;
+    const c0 = Math.max(0, Math.floor(-tx / s / span)), c1 = Math.min(Math.ceil(I.w / span) - 1, Math.floor((vw - tx) / s / span));
+    const r0 = Math.max(0, Math.floor(-ty / s / span)), r1 = Math.min(Math.ceil(I.h / span) - 1, Math.floor((vh - ty) / s / span));
+    const need = new Set(); let ready = true;
+    for(let c = c0; c <= c1; c++) for(let r = r0; r <= r1; r++){ const k = `${z}/${c}_${r}`; need.add(k); let im = tiles.get(k);
+      if(!im){ im = new Image(); im.alt = ''; im.className = 'tltile'; im.decoding = 'async'; im.onload = () => { im.classList.add('in'); sched(); }; im.src = src(z, c, r); tiles.set(k, im); layer.append(im); }
+      if(!im.complete) ready = false;
+      place(im, c * span, r * span, Math.min(span, I.w - c * span), Math.min(span, I.h - r * span), 2); }
+    /* tiles of other levels stay under the new ones until those have arrived, then go */
+    for(const [k, im] of tiles) if(!need.has(k)){ const [kz, cr] = k.split('/'), [c, r] = cr.split('_').map(Number), sp = TS * 2 ** +kz;
+      const x = c * sp * s + tx, y = r * sp * s + ty, on = x < vw && y < vh && x + sp * s > 0 && y + sp * s > 0;
+      if(ready || !on){ im.remove(); tiles.delete(k); } else place(im, c * sp, r * sp, Math.min(sp, I.w - c * sp), Math.min(sp, I.h - r * sp), 1); }
+    view.classList.toggle('far', s < .06);   // zoomed far out, a thousand dots would hide the chart
+    T.entries.forEach((e, i) => { const x = (e.at[0] + e.at[2] / 2) * s + tx, y = (e.at[1] + e.at[3] / 2) * s + ty, d = dots[i];
+      d.hidden = x < -20 || y < -20 || x > vw + 20 || y > vh + 20; d.classList.toggle('on', i === sel); if(!d.hidden) d.style.transform = `translate(${x}px, ${y}px)`; });
+    if(sel >= 0){ const a = T.entries[sel].at; box.hidden = false; box.style.cssText = `left:${a[0] * s + tx}px; top:${a[1] * s + ty}px; width:${a[2] * s}px; height:${a[3] * s}px`; placePop(); } else box.hidden = true;
+    $('tlhere').textContent = `Around ${fmtYear(Math.round(S.year((vw / 2 - tx) / s) / 10) * 10 || 1)}`;
+    const mw = mini.clientWidth / I.w; win.style.cssText = `left:${Math.max(0, -tx / s * mw)}px; width:${Math.min(I.w, vw / s) * mw}px; top:${Math.max(0, -ty / s) / I.h * 100}%; height:${Math.min(1, vh / s / I.h) * 100}%`;
+  }
+  const place = (im, x, y, w, h, zi) => { im.style.cssText = `left:${x * s + tx}px; top:${y * s + ty}px; width:${w * s}px; height:${h * s}px; z-index:${zi}`; };
+  const sched = () => { if(!frame) frame = requestAnimationFrame(draw); };
+  const set = (ns, nx, ny) => { s = ns; tx = nx; ty = ny; clamp(); sched(); };
+  const zoomAt = (k, px, py) => { const ns = Math.min(sMax(), Math.max(sMin(), s * k)); set(ns, px - (px - tx) * ns / s, py - (py - ty) * ns / s); };
+  /* fly to a scan point at a scale, easing in the log of the scale so zooming feels even */
+  function fly(ns, ix, iy, ms = reduce ? 0 : 600){ cancelAnimationFrame(anim);
+    const s0 = s, c0x = (vw / 2 - tx) / s, c0y = (vh / 2 - ty) / s, t0 = performance.now();
+    const step = now => { const k = ms ? Math.min(1, (now - t0) / ms) : 1, e = k < .5 ? 2 * k * k : 1 - (-2 * k + 2) ** 2 / 2;
+      const sc = Math.exp(Math.log(s0) + (Math.log(ns) - Math.log(s0)) * e), x = c0x + (ix - c0x) * e, y = c0y + (iy - c0y) * e;
+      s = sc; tx = vw / 2 - x * sc; ty = vh / 2 - y * sc; clamp(); draw(); if(k < 1) anim = requestAnimationFrame(step); };
+    anim = requestAnimationFrame(step); }
+  function show(i, scroll){ if(!vw){ pending = ['show', i]; return; } const e = T.entries[i]; sel = i;
+    const ns = Math.min(1, sMax(), .55 * Math.min(vw / e.at[2], vh / e.at[3]));
+    fly(Math.max(ns, sFit()), e.at[0] + e.at[2] / 2, e.at[1] + e.at[3] / 2);
+    pop.innerHTML = `<button class="tlx" data-tlclose aria-label="Close">✕</button><div class="tlk"><i class="k-${e.kind}"></i>${TL_KIND[e.kind]}${when(e) ? ` · ${esc(when(e))}` : ''}</div><h4>${e.t}</h4>${e.p ? `<p>${e.p}</p>` : ''}<div class="tllinks">${links(e)}</div>`;
+    pop.hidden = false; smartQuotes(pop);
+    if(scroll) view.scrollIntoView({behavior:reduce ? 'auto' : 'smooth', block:'nearest'}); }
+  function placePop(){ if(pop.hidden || sel < 0) return; if(phone.matches){ pop.style.cssText = ''; return; }   // a phone shows the card along the bottom (CSS)
+    const a = T.entries[sel].at, x = (a[0] + a[2]) * s + tx + 14, y = a[1] * s + ty, pw = pop.offsetWidth, ph = pop.offsetHeight;
+    const left = x + pw < vw - 8 ? x : Math.max(8, a[0] * s + tx - pw - 14); pop.style.cssText = `left:${left}px; top:${Math.max(8, Math.min(vh - ph - 8, y))}px`; }
+  const close = () => { sel = -1; pop.hidden = true; sched(); };
+  /* pointers: one drags, two pinch */
+  const pts = new Map(); let pinch = null, moved = 0;
+  view.addEventListener('pointerdown', e => { if(e.target.closest('.tlpop, .tldot') || e.button) return; view.setPointerCapture(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]); moved = 0; cancelAnimationFrame(anim);
+    if(pts.size === 2){ const [a, b] = [...pts.values()]; pinch = {d:Math.hypot(a[0] - b[0], a[1] - b[1]), s}; } });
+  view.addEventListener('pointermove', e => { const p = pts.get(e.pointerId); if(!p) return; const dx = e.clientX - p[0], dy = e.clientY - p[1]; pts.set(e.pointerId, [e.clientX, e.clientY]); moved += Math.abs(dx) + Math.abs(dy);
+    if(pts.size === 1) set(s, tx + dx, ty + dy);
+    else if(pinch){ const [a, b] = [...pts.values()], r = view.getBoundingClientRect(), d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+      const k = pinch.s * d / pinch.d / s; zoomAt(k, (a[0] + b[0]) / 2 - r.left, (a[1] + b[1]) / 2 - r.top); set(s, tx + dx / 2, ty + dy / 2); } });
+  const up = e => { pts.delete(e.pointerId); if(pts.size < 2) pinch = null; };
+  view.addEventListener('pointerup', up); view.addEventListener('pointercancel', up);
+  view.addEventListener('wheel', e => { e.preventDefault(); cancelAnimationFrame(anim); const r = view.getBoundingClientRect(), k = e.deltaMode ? 33 : 1;
+    if(Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.shiftKey) set(s, tx - (e.deltaX || e.deltaY) * k, ty);
+    else zoomAt(Math.exp(-e.deltaY * k * (e.ctrlKey ? .01 : .0025)), e.clientX - r.left, e.clientY - r.top); }, {passive:false});
+  view.addEventListener('dblclick', e => { if(e.target.closest('.tlpop, .tldot')) return; const r = view.getBoundingClientRect(); fly(Math.min(sMax(), s * 2), (e.clientX - r.left - tx) / s, (e.clientY - r.top - ty) / s, 300); });
+  view.addEventListener('click', e => { const d = e.target.closest('[data-tldot]'); if(d){ show(+d.dataset.tldot); return; }
+    if(e.target.closest('[data-tlclose]')){ close(); return; } if(!e.target.closest('.tlpop') && moved < 6 && sel >= 0) close(); });
+  view.addEventListener('keydown', e => { if(e.target.closest('.tlpop')) return; const step = 120;
+    const act = {ArrowLeft:() => set(s, tx + step, ty), ArrowRight:() => set(s, tx - step, ty), ArrowUp:() => set(s, tx, ty + step), ArrowDown:() => set(s, tx, ty - step),
+      '+':() => zoomAt(1.4, vw / 2, vh / 2), '=':() => zoomAt(1.4, vw / 2, vh / 2), '-':() => zoomAt(1 / 1.4, vw / 2, vh / 2), Escape:close}[e.key];
+    if(act){ e.preventDefault(); act(); } });
+  /* the overview strip: press or drag to move there */
+  const miniGo = e => { const r = mini.getBoundingClientRect(), ix = (e.clientX - r.left) / r.width * I.w, iy = (e.clientY - r.top) / r.height * I.h;
+    set(s, vw / 2 - ix * s, vh / 2 - iy * s); };
+  mini.addEventListener('pointerdown', e => { mini.setPointerCapture(e.pointerId); cancelAnimationFrame(anim); miniGo(e); });
+  mini.addEventListener('pointermove', e => { if(mini.hasPointerCapture(e.pointerId)) miniGo(e); });
+  /* the first size sets the opening view: the chart's full height, from its beginning (or the year asked for) */
+  const ro = new ResizeObserver(() => { const cx = (vw / 2 - tx) / s, cy = (vh / 2 - ty) / s, first = !vw; vw = view.clientWidth; vh = view.clientHeight; if(!vw || !vh) return;
+    if(first){ s = sFit(); tx = 0; ty = 0; } else { tx = vw / 2 - cx * s; ty = vh / 2 - cy * s; } clamp(); draw();
+    if(first && pending){ const [k, v] = pending; pending = null; k === 'show' ? show(v) : api.year(v, false); } });
+  ro.observe(view);
+  const api = {show,
+    year(y, animate = true){ if(!vw){ pending = ['year', y]; return; } close(); const ns = Math.max(s, sFit()); fly(ns, S.x(y), (vh / 2 - ty) / s, animate ? 600 : 0); },
+    button(k){ if(k === 'in') fly(Math.min(sMax(), s * 1.6), (vw / 2 - tx) / s, (vh / 2 - ty) / s, 250);
+      else if(k === 'out') fly(Math.max(sMin(), s / 1.6), (vw / 2 - tx) / s, (vh / 2 - ty) / s, 250);
+      else if(k === 'fit') fly(sFit(), (vw / 2 - tx) / s, I.h / 2, 400);
+      else fly(sMin(), I.w / 2, I.h / 2, 400); }};
+  return api;
 }
 
 async function openMission(){
@@ -852,7 +1041,7 @@ track.addEventListener('wheel', e => {
 /* ---------- a topic page: one per topic, filtered to the passage the reader came from ---------- */
 const bookOrder = id => CAT.books.findIndex(b => b.id === id);
 async function openTopic(r){
-  setMode('topic'); document.querySelectorAll('#siteNav a').forEach(a => a.dataset.page === 'topics' ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  setMode('topic'); markNav('topics');
   if(!TIDX[r.id]){   // an old address after a merge (/topic/cherubim): the one topic that has that name as its title or another name
     const slug = s => strip(s).toLowerCase().replace(/[^\p{L}\d]+/gu, '-').replace(/^-|-$/g, '');
     const hit = Object.keys(TIDX).filter(id => [TIDX[id][0], ...(TIDX[id][3] || [])].some(n => slug(n) === r.id || slug(n).replace(/^the-/, '') === r.id));
@@ -897,6 +1086,7 @@ async function openTopic(r){
   const trad = full || !fb ? (T.trad||[]) : (T.trad||[]).filter(e => e.book === fb);
   if(trad.length) h += `<h3>Where Christians differ</h3><ul class="ideas">${trad.map(e => `<li><button class="linkish" data-link="${tradPath([e.book, e.c])}">${tradAt([e.book, e.c])} · ${e.q}</button><p class="muted small">${e.who.join(', ')}</p></li>`).join('')}</ul>`
     + (!full && fb && trad.length < (T.trad||[]).length ? `<p class="small">${T.trad.length - trad.length} more in other books. <button class="linkish" data-tfull="1">Show the full page.</button></p>` : '');
+  if((T.timeline||[]).length) h += `<h3>On the timelines</h3><p class="small">${T.timeline.map(([tid, i, t, name]) => `<a href="/timeline/${tid}?e=${i}">${t}</a> <span class="muted">(${esc(name)})</span>`).join(' · ')}</p>`;
   const beliefs = bel(T.common, 'Common beliefs') + bel(T.uncommon, 'Less common beliefs');
   if(beliefs) h += `<div class="cols2">${beliefs}</div>`;
   (full ? T.claude : T.claude.filter(x => !x.book || x.book === fb)).forEach(c => h += `<div data-ctx="${c.book||fb||'Gen'}">${specCard(c)}</div>`);
@@ -1062,6 +1252,8 @@ document.addEventListener('click', e => {
   const t = e.target;
   const ln = t.closest('a[href^="/"]'); if(ln && !ln.target && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey && e.button === 0){ e.preventDefault(); if(!modal.hidden) closeModal(); nav(ln.getAttribute('href')); return; }
   const sm = t.closest('[data-sample]'); if(sm){ showSample(+sm.dataset.sample); return; }
+  const tg = t.closest('[data-tlgo]'); if(tg && TLV){ TLV.show(+tg.dataset.tlgo, true); return; }
+  const tz = t.closest('[data-tlz]'); if(tz && TLV){ TLV.button(tz.dataset.tlz); return; }
   const jp = t.closest('[data-jump]'); if(jp){ const el = $(jp.dataset.jump); if(el) el.scrollIntoView({behavior:reduce?'auto':'smooth', block:'start'}); return; }
   const hb = t.closest('[data-link]'); if(hb){ if(!modal.hidden) closeModal(); nav(hb.dataset.link); return; }
   const bk = t.closest('[data-book]'); if(bk){ nav('/' + bk.dataset.book); return; }

@@ -476,11 +476,51 @@ if(exists(P('content/releases'))) for(const f of fs.readdirSync(P('content/relea
   (r.items || []).forEach((x, i) => { if(!REL_KINDS.includes(x.kind)) err(where, `items[${i}] kind must be one of ${REL_KINDS.join(', ')}`); if(!x.text) err(where, `items[${i}] needs text`); });
   RELEASES.push(Object.assign({id:f.slice(0, -5)}, r)); }
 RELEASES.sort((a, b) => b.id.localeCompare(a.id));
+/* timelines (Resources → Timelines): content/timelines/<id>/timeline.json (authored) describes a scanned chart that
+   tools/timeline-tiles.py cut into tiles/ (generated, with tiles/info.json). The viewer maps a year to a place on the
+   chart through "scale", the [year, x] points where the chart's own century marks stand (years before Christ are
+   negative: -4004 is 4004 BC). Every entry marks one picture, event or person on the chart: its box on the scan
+   ("at": [x, y, w, h] in scan pixels), the year the chart gives, and links to the books, topics and Wikipedia. */
+const TL_KINDS = ['picture','event','person','table'];
+const TIMELINES = {};
+if(exists(P('content/timelines'))) for(const id of fs.readdirSync(P('content/timelines')).filter(d => exists(P('content/timelines', d, 'timeline.json'))).sort()){
+  const where = `content/timelines/${id}/timeline.json`, T = json(P('content/timelines', id, 'timeline.json'));
+  const info = exists(P('content/timelines', id, 'tiles/info.json')) ? json(P('content/timelines', id, 'tiles/info.json')) : null;
+  if(!T) continue;
+  if(!info){ err(where, `no tiles: run python tools/timeline-tiles.py ${id} <scan>`); continue; }
+  if(!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) err(where, 'the folder name is the timeline\'s address: use lowercase words joined by hyphens');
+  ['title','short','date','summary','about','credit'].forEach(k => { if(!T[k]) err(where, `needs ${k}`); });
+  (T.sources || []).forEach(s => { if(SOURCES[s] == null) err(where, `source "${s}" is not in content/sources.json`); });
+  const sc = T.scale || [];
+  if(sc.length < 2) err(where, 'needs scale: at least two [year, x] points read from the chart\'s own date marks');
+  sc.forEach((p, i) => { if(!Array.isArray(p) || p.length !== 2 || !Number.isInteger(p[0]) || typeof p[1] !== 'number' || p[1] < 0 || p[1] > info.w) err(where, `scale[${i}] must be [year, x] with x on the scan (0–${info.w})`);
+    else if(i && !(p[0] > sc[i-1][0] && p[1] > sc[i-1][1])) err(where, `scale[${i}]: years and x must both increase`); });
+  (T.eras || []).forEach((e, i, all) => { if(!e.t || !Number.isInteger(e.from) || !Number.isInteger(e.to) || e.from >= e.to) err(where, `eras[${i}] needs t and whole years from < to`);
+    else if(i && e.from !== all[i-1].to) err(where, `eras[${i}] must begin where eras[${i-1}] ends (${all[i-1].to})`); });
+  const wikiSeen = new Set();
+  (T.entries || []).forEach((e, i) => { const w = `${where} entries[${i}]${e.t ? ` "${e.t}"` : ''}`;
+    if(!e.t) err(w, 'needs t, the title');
+    if(!TL_KINDS.includes(e.kind)) err(w, `kind must be one of ${TL_KINDS.join(', ')}`);
+    const a = e.at; if(!Array.isArray(a) || a.length !== 4 || a.some(n => typeof n !== 'number') || a[0] < 0 || a[1] < 0 || a[2] <= 0 || a[3] <= 0 || a[0] + a[2] > info.w || a[1] + a[3] > info.h)
+      err(w, `at must be [x, y, w, h] inside the scan (${info.w} x ${info.h})`);
+    if(e.year != null && !Number.isInteger(e.year)) err(w, 'year must be a whole number (negative before Christ)');
+    if(e.refs){ const rs = R.findRefs(e.refs, null, true); if(!rs.length) err(w, `refs "${e.refs}" has no reference the site can read: write the book name on each`); }
+    (e.topics || []).forEach(t => { if(!TOPICS[t]) err(w, `topic "${t}" is not a topic`); });
+    if(e.wiki != null && (typeof e.wiki !== 'string' || !e.wiki || /\s|^https?:/.test(e.wiki))) err(w, 'wiki is the English Wikipedia article title as in its address (underscores, no spaces), not a URL');
+    if(!e.wiki && !e.refs && !(e.topics || []).length) warn(w, 'links nowhere: give it refs, topics or a wiki article');
+    if(e.wiki) wikiSeen.add(e.wiki); });
+  TIMELINES[id] = {id, title:T.title, short:T.short, date:T.date, summary:T.summary, about:md(T.about), credit:mdInline(T.credit),
+    sources:(T.sources || []).map(s => SOURCES[s] || s),
+    /* v: Cloudflare keeps images for hours, so re-cut tiles get new addresses (?v=, a hash of the preview) */
+    image:Object.assign({v:require('crypto').createHash('sha1').update(fs.readFileSync(P('content/timelines', id, 'tiles/preview.webp'))).digest('hex').slice(0, 8)}, info), scale:sc, eras:T.eras || [],
+    entries:(T.entries || []).map(e => ({t:e.t, kind:e.kind, at:e.at, year:e.year ?? null, ...(e.label ? {label:e.label} : {}), ...(e.p ? {p:mdInline(e.p)} : {}),
+      ...(e.refs ? {refs:e.refs} : {}), ...(e.topics ? {topics:e.topics.map(t => [t, TOPICS[t] ? TOPICS[t].title : t])} : {}), ...(e.wiki ? {wiki:e.wiki} : {})}))};
+}
 
 /* ---------- write ---------- */
 const SITE = PUBLISH ? 'public' : 'site';   // writers' builds never touch what is being published
 const OUT = P(SITE, 'data');
-['books','en','orig','links','topics','atlas','articles','pages'].forEach(d => fs.mkdirSync(path.join(OUT, d), {recursive:true}));
+['books','en','orig','links','topics','atlas','articles','pages','timelines'].forEach(d => fs.mkdirSync(path.join(OUT, d), {recursive:true}));
 const WROTE = new Set();
 const W = (f, o) => { fs.writeFileSync(path.join(OUT, f), JSON.stringify(o)); WROTE.add(f); };
 const clean = o => JSON.parse(JSON.stringify(o, (k, v) => k.startsWith('_') ? undefined : v));
@@ -530,10 +570,12 @@ for(const id in B){ const x = B[id];
 }
 /* Matt's rule: the site never shows exactly 666 topics (the number of the beast, Revelation 13:18); add or merge a topic */
 if(Object.keys(TOPICS).length === 666) err('content/topics', 'this build would publish exactly 666 topics; Matt does not want the site to show that number, so add or merge a topic');
+/* where each topic is marked on a timeline: [timeline id, entry number, entry title, the timeline's short name] */
+const TL_BY = {}; for(const tid in TIMELINES) TIMELINES[tid].entries.forEach((e, i) => (e.topics || []).forEach(([t]) => (TL_BY[t] = TL_BY[t] || []).push([tid, i, e.t, TIMELINES[tid].short])));
 const tindex = {}, shards = {};
 for(const id in TOPICS){ const T = TOPICS[id];
   tindex[id] = [T.title, T.kind, strip(T.lead).slice(0, 220), T.aka, T.books, shard(id)];
-  (shards[shard(id)] = shards[shard(id)] || {})[id] = clean(Object.assign({}, T, {sources:(T.sources||[]).map(k => SOURCES[k] || k)}));
+  (shards[shard(id)] = shards[shard(id)] || {})[id] = clean(Object.assign({}, T, {sources:(T.sources||[]).map(k => SOURCES[k] || k), ...(TL_BY[id] ? {timeline:TL_BY[id]} : {})}));
 }
 W('topics/index.json', tindex);
 for(const s in shards) W(`topics/${s}.json`, shards[s]);
@@ -541,10 +583,22 @@ for(const id in PAGES) W(`pages/${id}.json`, PAGES[id]);
 W('articles/index.json', Object.values(ARTICLES).sort((a, b) => b.date.localeCompare(a.date)).map(({html, sources, ...a}) => a));
 for(const id in ARTICLES) W(`articles/${id}.json`, ARTICLES[id]);
 W('releases.json', RELEASES);
+W('timelines/index.json', Object.values(TIMELINES).map(T => ({id:T.id, title:T.title, short:T.short, date:T.date, summary:T.summary, n:T.entries.length, v:T.image.v})));
+for(const id in TIMELINES) W(`timelines/${id}.json`, TIMELINES[id]);
+/* the timelines' tiles are served from tiles/<id>/; a tile is copied only when it changed, since a chart is thousands of files */
+fs.mkdirSync(P(SITE, 'tiles'), {recursive:true});
+for(const d of fs.readdirSync(P(SITE, 'tiles'))) if(!TIMELINES[d]) fs.rmSync(P(SITE, 'tiles', d), {recursive:true, force:true});
+for(const id in TIMELINES){ const from = P('content/timelines', id, 'tiles'), to = P(SITE, 'tiles', id), want = new Set();
+  (function copy(rel){ for(const f of fs.readdirSync(path.join(from, rel), {withFileTypes:true})){ const r = path.join(rel, f.name); want.add(r);
+    if(f.isDirectory()){ fs.mkdirSync(path.join(to, r), {recursive:true}); copy(r); continue; }
+    const a = fs.statSync(path.join(from, r)), b = exists(path.join(to, r)) && fs.statSync(path.join(to, r));
+    if(!b || b.size !== a.size || b.mtimeMs < a.mtimeMs) fs.copyFileSync(path.join(from, r), path.join(to, r)); } })('');
+  (function prune(rel){ for(const f of fs.readdirSync(path.join(to, rel), {withFileTypes:true})){ const r = path.join(rel, f.name);
+    if(!want.has(r)) fs.rmSync(path.join(to, r), {recursive:true, force:true}); else if(f.isDirectory()) prune(r); } })(''); }
 /* the page: shell + styles + reference parser + app */
 const shell = read(P('app/shell.html')).replace('/*BASE_CSS*/', () => read(P('app/base.css')));
 /* books/ and topics/ hold only what this build wrote, so a book left out leaves no stale file behind */
-['books','topics','articles','pages'].forEach(d => fs.readdirSync(path.join(OUT, d)).forEach(f => { if(!WROTE.has(`${d}/${f}`)) fs.unlinkSync(path.join(OUT, d, f)); }));
+['books','topics','articles','pages','timelines'].forEach(d => fs.readdirSync(path.join(OUT, d)).forEach(f => { if(!WROTE.has(`${d}/${f}`)) fs.unlinkSync(path.join(OUT, d, f)); }));
 /* the logos and icons (made from images/Logos/ by tools/logos.py) are served from img/ */
 fs.rmSync(P(SITE, 'img'), {recursive:true, force:true}); fs.cpSync(P('app/img'), P(SITE, 'img'), {recursive:true});
 /* cache busting: Cloudflare keeps images for hours whatever Render's no-cache says, so every img/<file> the page names
