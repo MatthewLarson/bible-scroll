@@ -57,6 +57,9 @@ function deepItem(d){
 
 /* ---------- references ---------- */
 let CTX = null;   // the book being read: bare "3:9" belongs to it
+/* a button is atomic, so a line could break between "(" and the button, or before the comma or "'s" after it: keep them with it */
+const glue = (before, after) => [(before.match(/[(\[“"]$/) || [''])[0], (after.match(/^(?:[’']s\b|[)\]”".,;:])+/) || [''])[0]];
+const glued = (open, b, close) => { if(!open && !close) return b; const w = document.createElement('span'); w.className = 'nobr'; w.append(open, b, close); return w; };
 const SKIP = 'a,button,textarea,select,input,.tbody,.greek,.heb,svg,h1,h2,.cart,.quote,.nowork';
 function linkify(root, ctx = CTX && CTX.id){
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => (n.parentElement.closest(SKIP) || !/\d/.test(n.nodeValue)) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
@@ -69,15 +72,12 @@ function linkify(root, ctx = CTX && CTX.id){
     const text = node.nodeValue, refs = RF.findRefs(text, c, list, rg.toString().slice(-30)); if(!refs.length) return;
     const frag = document.createDocumentFragment(); let at = 0;
     refs.forEach((r, i) => {
-      /* a button is atomic, so a line could break between "(" and the reference: keep brackets with it */
-      const lead = text.slice(at, r.start), open = (lead.match(/[(\[“"]$/) || [''])[0];
-      const close = (text.slice(r.end, refs[i+1] ? refs[i+1].start : text.length).match(/^[)\]”".,;:]+/) || [''])[0];
+      const lead = text.slice(at, r.start), [open, close] = glue(lead, text.slice(r.end, refs[i+1] ? refs[i+1].start : text.length));
       frag.append(lead.slice(0, lead.length - open.length));
       const b = document.createElement('button'); b.className = 'ref' + (CTX && r.book===CTX.id ? ' rv' : '');
       if(BYID[r.book] && BYID[r.book].t === 'X' && !(CTX && r.book === CTX.id)){ const w = workOf(r.book); b.className += ' work w-' + w.tier; b.dataset.tag = TIER[w.tier].tag; }
       b.dataset.ref = JSON.stringify([r.book,r.c,r.v,r.c2,r.v2]); b.textContent = text.slice(r.start, r.end);
-      if(open || close){ const w = document.createElement('span'); w.className = 'nobr'; w.append(open, b, close); frag.append(w); }
-      else frag.append(b);
+      frag.append(glued(open, b, close));
       at = r.end + close.length;
     });
     frag.append(text.slice(at)); node.replaceWith(frag);
@@ -109,9 +109,10 @@ function markWorks(root){
     const text = node.nodeValue, parts = []; let at = 0, m; WORK_RX.rx.lastIndex = 0;
     while((m = WORK_RX.rx.exec(text))){ const hit = WORK_RX.alts.find(([a]) => a === m[1]); if(!hit || (hit[1] && !m[2])) continue;
       if(W[hit[2]].book && B && B.meta && W[hit[2]].book === B.meta.id) continue;   // inside the book itself its name needs no label
-      parts.push(text.slice(at, m.index)); const b = document.createElement('button'), w = W[hit[2]];
+      const lead = text.slice(at, m.index), [open, close] = glue(lead, text.slice(m.index + m[0].length));
+      parts.push(lead.slice(0, lead.length - open.length)); const b = document.createElement('button'), w = W[hit[2]];
       b.className = 'work w-' + w.tier; b.dataset.work = hit[2]; if(m[2]) b.dataset.at = m[2].trim(); b.dataset.tag = TIER[w.tier].tag; b.title = `${w.name}: ${TIER[w.tier].name}`; b.textContent = m[0];
-      parts.push(b); at = m.index + m[0].length; }
+      parts.push(glued(open, b, close)); at = m.index + m[0].length + close.length; }
     if(parts.length){ parts.push(text.slice(at)); node.replaceWith(...parts); }
   });
 }
