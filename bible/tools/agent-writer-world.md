@@ -1,5 +1,8 @@
 # Brief: write a writing of another people or religion (or one part of it)
 
+
+**Local-model translation (Matt, 2026-11-03).** For tiers `other`, `early`, `lost` and `world`, the first draft of the translation may come from a local model and be checked by the `translation-reviewer` agent before you finish the part. Read `tools/agent-translation-local.md`; the draft is raw material you check against the original, never text to copy unchecked.
+
 You are writing study content for a writing that is neither Jewish nor Christian (works.json tier `world`, catalog
 group "Other peoples and religions"), for the same study website as the 66 books. Follow `tools/agent-writer.md`
 (read it in full) and everything it points to (PLAN.md, STYLE.md, terms.json, works.json, traditions). Read

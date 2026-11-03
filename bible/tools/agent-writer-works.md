@@ -1,5 +1,8 @@
 # Brief: write one book outside the 66 (or one part of it)
 
+
+**Local-model translation (Matt, 2026-11-03).** For tiers `other`, `early`, `lost` and `world`, the first draft of the translation may come from a local model and be checked by the `translation-reviewer` agent before you finish the part. Read `tools/agent-translation-local.md`; the draft is raw material you check against the original, never text to copy unchecked.
+
 You are writing study content for a writing that most Christians do NOT count as Scripture, for the same
 whole-Bible study website as the 66 books. Follow `tools/agent-writer.md` (read it in full) and everything it points to
 (PLAN.md, STYLE.md, the Revelation model, terms.json, works.json, traditions). This brief lists only what differs.

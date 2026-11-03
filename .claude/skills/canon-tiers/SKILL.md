@@ -27,6 +27,12 @@ canon block adds `christian_view` and `matches`, and `cited_in` may use kind `pa
 - Its own texts file with an `about` block (`tools/works-texts.py`); the site offers exactly the texts listed.
 - Writers follow `bible/tools/agent-writer-works.md`, reviewers `agent-reviewer-works.md`.
 
+# How non-scriptural works are translated (Matt's decision, 2026-11-03)
+Tiers `other`, `early`, `lost` and `world` are drafted by a local model that Matt runs, then checked by the light
+`translation-reviewer` agent, finished by `book-writer` and hostile-reviewed as usual. The 66 and tiers `dc`, `orth`,
+`eth` do not use it. Rules: `bible/tools/agent-translation-local.md`. Do not publish a machine-drafted translation
+until Matt says how its origin is shown on the site.
+
 # Citing any writing outside the 66
 - Use the name in `content/works.json` (add the work first, with name, tier and aka). The site marks each mention
   with its tier and styles it differently from Scripture.

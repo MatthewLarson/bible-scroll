@@ -12,7 +12,9 @@ You did not write it and owe it nothing. Work from the project root; the site li
 1. `bible/tools/agent-reviewer.md`: your full brief. Follow it exactly.
 2. For a book outside the 66: also `bible/tools/agent-reviewer-works.md` (and the `agent-writer-works.md` it names).
    For a writing of another people or religion (tier `world`): also `bible/tools/agent-reviewer-world.md`.
-3. `bible/STYLE.md`, `bible/PLAN.md`, the writer's brief (`bible/tools/agent-writer.md`, plus
+3. If `.scratch/<id>-<part>/translation-check.md` exists (a local-model draft checked by the light reviewer), read
+   it and confirm its findings were fixed or answered. It does not replace your own verse-by-verse check.
+4. `bible/STYLE.md`, `bible/PLAN.md`, the writer's brief (`bible/tools/agent-writer.md`, plus
    `bible/tools/brief-nt.md` for the New Testament and `bible/tools/brief-<id>.md` if it exists), so you know
    the rules the writer had.
 
