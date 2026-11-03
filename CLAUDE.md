@@ -39,6 +39,9 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
   languages for context, interest and to show how other cultures told the Bible's stories. Read from a Christian
   standpoint: described fairly, judged with the Bible as the measure, connections and possible same-person
   identifications weighed, never arguing against the LORD being God or Jesus his Son (`tools/agent-writer-world.md`).
+- Non-scriptural works (tiers `other`, `early`, `lost`, `world`) are translated first by a local model that Matt runs
+  (set up 2026-11-04), checked by a light Claude model (`translation-reviewer`, `/review-translation`), then finished
+  and hostile-reviewed like every other book (Matt, 2026-11-03). Rules: `bible/tools/agent-translation-local.md`.
 - After each book (or part), a SEPARATE agent does a hostile review, and the fixes are applied before publishing.
 - Look: ancient manuscript, hieroglyphics, cave drawings and modern art, everything sketched onto a scroll, no
   sharp-edged square images. Openly licensed art when available; otherwise original inline SVG, or ChatGPT image
@@ -149,6 +152,9 @@ Use the slash commands; each one follows these steps.
 6. **Align and hand over**: cross-part alignment (parallel wording, term consistency, quotes between books),
    `VERBOSE=1 --check <id>` at 0/0, progress.md `Status: reviewed, ready`.
 7. **Publish** (`/publish`): merge `content/proposals/*/`, sync quotes, full build, `--publish`, view, deploy.
+
+For non-scriptural works, step 2 starts with a local-model draft and a `translation-reviewer` check
+(`/review-translation <id> <part>`) before the `book-writer` finishes the part; steps 3 and 4 still apply.
 
 `traditions-writer` and `audience-writer` agents add "Where Christians differ" and "who it was for" cards to
 books written before those features existed.

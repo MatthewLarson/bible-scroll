@@ -13,6 +13,7 @@ generated from those files by the build; never edit it.
 |---|---|---|---|
 | Plan | main session | `tools/brief-<id>.md`, progress.md, parts split, lenses fixed | brief exists |
 | Atlas harvest | `atlas-harvester` | `content/atlas/<id>.json` | every chapter has an entry |
+| Local draft + translation check (non-scriptural works only: tiers other, early, lost, world) | local model, then `translation-reviewer` (light Claude), `/review-translation` | `.scratch/<id>-<part>/local-draft.txt`, `translation-check.md` | every finding fixed or answered by the writer; hostile review still follows |
 | Write | one `book-writer` per part, in parallel | the part's plain.txt, notes, variants, glosses, chapters, topics, sources | `--check <id>/<part>` clean |
 | Hostile review | one `hostile-reviewer` per part, never the writer | the part's review.md | findings numbered, empty `## Fixes applied` |
 | Fix | one `review-fixer` per part | content changes + filled `## Fixes applied` | `--check` clean |
@@ -35,7 +36,7 @@ lasting decisions at the end of the book's brief ("Lead decisions"), the way `to
 ## Agents and briefs
 The agent definitions in `.claude/agents/` are thin; the real rules are the briefs in `bible/tools/`
 (`agent-writer.md`, `agent-reviewer.md`, `agent-writer-works.md`, `agent-reviewer-works.md`, `agent-atlas.md`,
-`agent-traditions.md`, `agent-audience.md`, `brief-nt.md`, `brief-<id>.md`). Change a rule in the brief, not in
+`agent-traditions.md`, `agent-audience.md`, `agent-translation-local.md`, `brief-nt.md`, `brief-<id>.md`). Change a rule in the brief, not in
 an agent prompt, so every future agent gets it.
 
 ## When agents get cut off

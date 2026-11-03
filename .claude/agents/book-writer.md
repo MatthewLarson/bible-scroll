@@ -14,7 +14,10 @@ The prompt names the book id, the part, and whether you own book.json.
 3. For a book outside the 66 (catalog group `t: "X"`, or tier dc/orth/eth/other/early/lost in `content/works.json`):
    also `bible/tools/agent-writer-works.md`. For a writing of another people or religion (tier `world`), also
    `bible/tools/agent-writer-world.md`: it replaces literal.js with `python tools/akk-literal.py` for Akkadian books.
-4. For Matthew through 3 John: `bible/tools/brief-nt.md`. For the lane rules (where shared changes go):
+4. If the part's translation began as a local-model draft (tiers other, early, lost, world):
+   `bible/tools/agent-translation-local.md`, the draft in `.scratch/<id>-<part>/local-draft.txt` and the
+   `translation-check.md` beside it. Check every verse against the original; fix or answer every finding.
+   For Matthew through 3 John: `bible/tools/brief-nt.md`. For the lane rules (where shared changes go):
    `bible/tools/lanes.md`.
 5. The book's own brief, `bible/tools/brief-<id-lowercase>.md`, if there is one. Where a brief is more specific
    than agent-writer.md, the brief wins.

@@ -20,6 +20,12 @@ description: How the Bible Scroll makes and checks its Plain English Translation
    write out or log NIV/ESV text (copyright, and it can stop the session); log only verse, outcome and a reason
    in `.scratch/`.
 
+# Works drafted by a local model
+For non-scriptural works (tiers other, early, lost, world) the literal line may be turned into a first English draft
+by a local model, which the `translation-reviewer` agent checks against the original before the writer finishes the
+verses. The draft is never trusted: steps 2, 3 and 5 above still apply to every verse. See
+`bible/tools/agent-translation-local.md`.
+
 # Texts and witnesses
 - OT base: Leningrad Codex (`wlc`, words in `w`). TAHOT type-X words are reconstructions: variants only. In the
   "kaige" sections (2 Samuel 11:2 to 1 Kings 2:11; 1 Kings 22 to the end of 2 Kings) the Lucianic Greek is the

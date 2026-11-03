@@ -1,5 +1,8 @@
 # Brief: hostile review of a book outside the 66 (or one part of it)
 
+
+A part whose translation began as a local-model draft (`tools/agent-translation-local.md`) gets this full review as usual. Read `.scratch/<id>-<part>/translation-check.md` if it exists, and check that every finding in it was fixed or answered; the light check does not replace you.
+
 Follow `tools/agent-reviewer.md` in full (read it first): you are adversarial, you write a report, you never edit content.
 This brief adds what is different for books outside the 66. Read `tools/agent-writer-works.md`, the rules the writer had.
 

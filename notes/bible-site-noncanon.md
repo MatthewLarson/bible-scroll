@@ -21,3 +21,10 @@ Status 2026-10-23: 1 Enoch published (artifact v21). Tobit (id Tob, parts 01-06,
 
 ## Lanes (2026-10-24, tools/lanes.md)
 This thread is the "works" lane. It writes its own book folders and PROGRESS row directly. New terms go in content/proposals/works/terms.json; new topic cores in proposals/works/topics/<id>.json; new works.json entries in proposals/works/works.json; edits to existing topics in proposals/works/topics.md; build needs in build.md. Never edit shared files or publish. When a book is 0/0 with every review's Fixes applied, set its row to "reviewed, ready" and message the lead thread. Typos in digital Swete go in the works-texts.py fix table, never in variants.
+
+## 2026-11-03: local model drafts, light Claude checks (Matt)
+Matt will set up a local LLM on 2026-11-04 to translate non-scriptural historical works (works.json tiers `other`,
+`early`, `lost`, `world`). A light Claude model reviews each translation. Written up in
+`bible/tools/agent-translation-local.md`, with the `translation-reviewer` agent and `/review-translation` command.
+The hostile review of every part still applies. Open: the model and runtime, which works go first, and how the
+translation's origin is shown on the site.
