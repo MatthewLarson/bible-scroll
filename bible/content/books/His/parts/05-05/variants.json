@@ -1,0 +1,212 @@
+[
+ {
+  "v": "5:1",
+  "a": "the 22nd and 3rd",
+  "t": "The 22nd or the 18th legion?",
+  "p": "The Latin has the 22nd; Church and Brodribb's English prints the 18th.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "duoetvicensimanos tertianosque",
+    "en": "the men of the 22nd and the 3rd",
+    "plain": "the 22nd and 3rd"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "some men belonging to the 18th and 3rd",
+    "plain": "the 18th and 3rd"
+   }
+  ],
+  "follow": 0,
+  "why": "The site follows the Latin it prints. The Latin spells the number out, duo et vicensimanos, and that is a 22nd.",
+  "b": "Josephus does not give these legion numbers. He says Titus took 2,000 men picked from the armies at Alexandria and 3,000 from the guards on the Euphrates (<i>Jewish War</i> 5.1.6).",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng",
+   "josephus"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "the farthest part of Libya",
+  "t": "The farthest part or the nearest coast?",
+  "p": "The Latin says novissima Libyae; the English edition says the nearest coast of Africa.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "novissima Libyae",
+    "en": "the farthest (outermost) part of Libya",
+    "plain": "the farthest part of Libya"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "the nearest coast of Africa",
+    "plain": "the nearest coast of Africa"
+   }
+  ],
+  "follow": 0,
+  "why": "Novissimus in Latin means farthest or last, not nearest. The Latin is followed.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "carried flight in their hearts",
+  "t": "Flight or terror?",
+  "p": "The Latin says they carried flight in their hearts; the English edition says terror.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "qui fugam animis",
+    "en": "who carry flight in their minds",
+    "plain": "carried flight in their hearts"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "who carried terror in their hearts",
+    "plain": "carried terror in their hearts"
+   }
+  ],
+  "follow": 0,
+  "why": "Fuga is flight. The Latin is followed.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:17",
+  "a": "the mixed outcome of the battle among the Treveri",
+  "t": "A mixed outcome or an adverse one?",
+  "p": "The Latin says vario eventu (mixed); the English edition says adverse.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "vario Trevirici proelii eventu",
+    "en": "the varied outcome of the battle among the Treveri",
+    "plain": "the mixed outcome of the battle among the Treveri"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "the adverse result of the battle among the Treveri",
+    "plain": "the adverse result of the battle among the Treveri"
+   }
+  ],
+  "follow": 0,
+  "why": "Varius means varied or mixed. The Latin is followed.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:19",
+  "a": "appealing to their pity and offering gifts",
+  "t": "Pity and gifts, or pity and greed?",
+  "p": "The Latin says gifts (donis); the English edition says greed.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "miseratione ac donis",
+    "en": "by pity and gifts",
+    "plain": "appealing to their pity and offering gifts"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "by appeals to their pity and their greed",
+    "plain": "appealing to their pity and their greed"
+   }
+  ],
+  "follow": 0,
+  "why": "Donis is the plural of donum, gift. The Latin is followed.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:23",
+  "a": "thirty or forty men each",
+  "t": "Thirty or forty, or three or four hundred?",
+  "p": "The Latin says tricenos quadragenosque (thirty or forty each); the English edition says hundreds.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "tricenos quadragenosque",
+    "en": "thirty or forty each",
+    "plain": "thirty or forty men each"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "three or four hundred men in each",
+    "plain": "three or four hundred men each"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin numbers are thirty and forty, and they suit a small boat, the usual crew of a Liburnian.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:26",
+  "a": "I took up arms in Germany",
+  "t": "Took up arms, or fought the same battle?",
+  "p": "The Latin says arma movi (I set arms in motion); the English edition has a looser line.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "arma in Germania movi",
+    "en": "I took up arms in Germany",
+    "plain": "I took up arms in Germany"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "I fought the same battle in Germany",
+    "plain": "I fought the same battle in Germany"
+   }
+  ],
+  "follow": 0,
+  "why": "Arma movi means to move or raise arms. The Latin is followed.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "the 2nd, 13th and 14th legions",
+  "t": "The 13th or the 6th legion?",
+  "p": "The Latin has the 13th; the English edition prints the 6th.",
+  "readings": [
+   {
+    "w": "Latin text, Fisher's Oxford Classical Text (1911), as printed by Perseus",
+    "orig": "secundae et tertiae decimae et quartae decimae",
+    "en": "the 2nd, the 13th and the 14th",
+    "plain": "the 2nd, 13th and 14th legions"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), as printed by Perseus",
+    "orig": "",
+    "en": "the 2nd, 6th, and 14th legions",
+    "plain": "the 2nd, 6th and 14th legions"
+   }
+  ],
+  "follow": 0,
+  "why": "Tertiae decimae is the 13th. The 6th legion is named separately at 5:16.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ }
+]

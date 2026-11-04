@@ -19,6 +19,11 @@ borrowing theory given with the believing answers, spiritual readings labeled, f
 someone in the Bible weighed in `canon.matches`; never arguing against the LORD being God or Jesus his Son. The
 canon block adds `christian_view` and `matches`, and `cited_in` may use kind `parallel`. Rules:
 `bible/tools/agent-writer-world.md`, `agent-reviewer-world.md`.
+The group also takes historical and philosophical works of other peoples (Marcus Aurelius's Meditations). The site's
+translation of them is the Conversational English Translation (canon `style: "conversational"`): free and idiomatic, the way Americans talk today, keeping every thought (Matt, 2026-11-03;
+model: `translation-examples/Meditations/Book-1/`). Prefer a free English translation as the base: it is imported
+into `texts/en/<id>.json` and offered as an alternate, Matt's local model drafts the wording
+(`agent-translator-local.md`), and Claude writes all notes, topics and links.
 
 # Every book outside the 66 needs
 - A works.json entry with `"book": "<id>"`, and book.json `canon` (validated by the build): who accepts it,

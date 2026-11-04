@@ -25,8 +25,8 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Job | reviewed, published | 6 parts: 01-07, 08-14, 15-21, 22-31, 32-37, 38-42 (parts/). book.json lenses fixed: H C W J X (W = Ancient wisdom). book.json owner: part 01-07 writer. Hebrew p |
 | Psa | reviewed, published | 13 parts: 001-017, 018-030, 031-041, 042-055, 056-072, 073-080, 081-089, 090-101, 102-106, 107-118, 119-119, 120-137, 138-150 (parts/). book.json lenses fixed:  |
 | Pro | reviewed, published | 6 parts: 01-09 (owns book.json), 10-15, 16-22, 23-24, 25-29, 30-31; lenses H C W J X fixed; brief tools/brief-pro.md. Part 23-24 written 2026-10-24 (--check Pro |
-| Ecc | reviewed, published | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
-| Sng | reviewed, published | Planned 2026-10-28: one part (117 verses, flat folder like Ruth, writer owns book.json); lenses H L J X M; brief tools/brief-sng.md; atlas harvest next. |
+| Ecc | reviewed, published | 3 parts: 01-04 (owns book.json), 05-08, 09-12; lenses H C W J X; brief tools/brief-ecc.md. |
+| Sng | reviewed, published | Planned 2026-10-28: one part (117 verses, flat folder like Ruth, writer owns book.json); lenses H L J X M; brief tools/brief-sng.md; atlas harvest next. |
 | Isa | reviewed, published | Prophets lane (thread "Write the Prophets books"). 8 parts: 01-06 (owns book.json), 07-12, 13-23, 24-30, 31-39, 40-44, 45-55, 56-66 (parts/). book.json lenses f |
 | Jer | reviewed, published | Prophets lane (thread "Write the Prophets books"). 9 parts: 01-06 (owns book.json), 07-12, 13-20, 21-25, 26-31, 32-38, 39-45, 46-49, 50-52. Lenses H C J X F. Br |
 | Lam | reviewed, published | Planned 2026-10-28: prophets lane, one part (154 verses, flat folder like Sng, writer owns book.json); lenses H C J X L (F dropped, justified in the brief); fiv |
@@ -42,8 +42,8 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Hab | reviewed, published | 2026-10-28 Habakkuk (whole book, flat folder, prophets lane): 56 verses, 79 notes, 28 variants, 18 glosses, 3 chapter pages with 8 settings cards and 3 traditio |
 | Zep | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X F; briefs tools/brief-zep.md, brief-twelve.md, brief-twelve2.md; atlas harvest pending. |
 | Hag | reviewed, published | Planned 2026-10-28: prophets lane, one part, flat folder, lenses H C J X (F only for 2:6-9 and 2:21-23); briefs tools/brief-hag.md, brief-twelve.md, brief-twelv |
-| Zec | reviewed, published | Planned 2026-10-29: prophets lane, 2 parts (01-08 owns book.json, 09-14); lenses H C J X F; briefs tools/brief-zec.md, brief-twelve3.md; atlas harvest started. |
-| Mal | reviewed, published | Planned 2026-10-29: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-mal.md, brief-twelve3.md; atlas harvest started. |
+| Zec | reviewed, published | Planned 2026-10-29: prophets lane, 2 parts (01-08 owns book.json, 09-14); lenses H C J X F; briefs tools/brief-zec.md, brief-twelve3.md; atlas harvest started. |
+| Mal | reviewed, published | Planned 2026-10-29: prophets lane, one part, flat folder; lenses H C J X F; briefs tools/brief-mal.md, brief-twelve3.md; atlas harvest started. |
 | Mat | reviewed, published | nt lane (thread "Write the New Testament books"). 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-13, 14-18, 19-23, 24-25, 26-28. Lenses fixed: H C L J T. Bri |
 | Mrk | reviewed, published | nt lane, run by the lead session. 5 parts: 01-03 (owns book.json), 04-06, 07-09, 10-12, 13-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-m |
 | Luk | reviewed, published | nt lane, run by the lead session. 8 parts: 01-02 (owns book.json), 03-05, 06-08, 09-10, 11-13, 14-17, 18-21, 22-24. Lenses fixed: H C L J T. Briefs: tools/brief |
@@ -51,9 +51,9 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Act | reviewed, published | nt lane, run by the lead session. 8 parts: 01-04 (owns book.json), 05-07, 08-10, 11-14, 15-17, 18-20, 21-23, 24-28. Lenses fixed: H C L J T. Briefs: tools/brief |
 | Rom | reviewed, published | nt lane, run by the lead session. 4 parts: 01-04 (owns book.json), 05-08, 09-11, 12-16. Lenses fixed: H C L J T. Briefs: tools/brief-nt.md, tools/brief-rom.md.  |
 | 1Co | reviewed, published | Planned 2026-10-29: nt lane, 5 parts: 01-04 (owns book.json), 05-08, 09-11, 12-14, 15-16. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-1 |
-| 2Co | reviewed, published | Planned 2026-10-29: nt lane, 3 parts: 01-05 (owns book.json), 06-09, 10-13. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-2co.md. |
-| Gal | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-gal.md. |
-| Eph | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-eph.md. |
+| 2Co | reviewed, published | Planned 2026-10-29: nt lane, 3 parts: 01-05 (owns book.json), 06-09, 10-13. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-2co.md. |
+| Gal | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-gal.md. |
+| Eph | reviewed, published | Planned 2026-10-29: nt lane, 2 parts: 01-03 (owns book.json), 04-06. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-eph.md. |
 | Php | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-php. |
 | Col | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-col. |
 | 1Th | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-1th. |
@@ -62,16 +62,16 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | 2Ti | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-2ti. |
 | Tit | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-tit. |
 | Phm | reviewed, published | Planned 2026-10-29: nt lane, one part, flat folder, owns book.json. Lenses H C L J T. Briefs: tools/brief-nt.md, brief-pauline.md, brief-pauline2.md, brief-phm. |
-| Heb | reviewed, published | Plan (2026-10-29): Two parts, 01-07 (owns book.json) and 08-13; lenses H C L J T; tools/brief-general.md and brief-heb.md. |
-| Jas | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-jas.md. |
-| 1Pe | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1pe.md. |
-| 2Pe | reviewed, published | Plan (2026-10-29): One part, flat folder, follows Jude's Plain English Translation in 2:1-3:3; lenses H C L J T; tools/brief-general.md and brief-2pe.md. |
-| 1Jn | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1jn.md. |
-| 2Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 3 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
-| 3Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
+| Heb | reviewed, published | Plan (2026-10-29): Two parts, 01-07 (owns book.json) and 08-13; lenses H C L J T; tools/brief-general.md and brief-heb.md. |
+| Jas | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-jas.md. |
+| 1Pe | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1pe.md. |
+| 2Pe | reviewed, published | Plan (2026-10-29): One part, flat folder, follows Jude's Plain English Translation in 2:1-3:3; lenses H C L J T; tools/brief-general.md and brief-2pe.md. |
+| 1Jn | reviewed, published | Plan (2026-10-29): One part, flat folder; lenses H C L J T; tools/brief-general.md and brief-1jn.md. |
+| 2Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 3 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
+| 3Jn | reviewed, published | Plan (2026-10-29): One part, flat folder, written with 2 John by one writer; lenses H C L J T; tools/brief-general.md and brief-2jn.md. |
 | Jud | reviewed, published | Row lost when PROGRESS.md was truncated on 2026-10-24; the owning lane should restore the details. |
-| Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
-| Atr | reviewed, published | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
+| Rev | reviewed, published | From revelation/v2, imported by tools/import-rev.js (see tools/brief-rev.md for where each thing lives; re-run the import after any edit). |
+| Atr | reviewed, published | Outside the 66 (tier world: a writing of another people or religion, read from a Christian standpoint; tools/agent-writer-world.md). |
 | 1En | reviewed, published | Outside the 66 (tier eth: Scripture for the Ethiopian Orthodox Church). Base text Ge'ez (Dillmann 1851 and the EOTC printed Bible, from Beta maṣāḥǝft, CC BY-SA  |
 | Tob | reviewed, published | Outside the 66 (tier dc). Base text Swete: grc = Sinaiticus (longer text), grc_b = Vaticanus (shorter text), KJV apocrypha, Vulgate/Douay (texts/src/Tob.lat.jso |
 | Jdt | reviewed, published | Outside the 66 (tier dc). Id Jdt (Jud is Jude). Base text Swete (Vaticanus), KJV apocrypha, Vulgate/Douay; Swete typo fix at 9:2 in tools/works-texts.py. |
@@ -82,3 +82,4 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Sir | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
 | 1Es | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a |
 | 3Ma | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; |
+| His | written and reviewed twice, fixes applied; waiting for Matt's read-through, then the lead merges the proposals at /publish (atlas corrections pass still open) | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |

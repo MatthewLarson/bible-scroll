@@ -20,6 +20,14 @@ generated from those files by the build; never edit it.
 | Align | main session | parallel wording, terms, quote syncs across parts | `VERBOSE=1 --check <id>` 0 errors 0 warnings |
 | Publish | main session (`/publish`) | merged proposals, `public/` | book shows on the site |
 
+## Writings of other peoples and religions with a free English base (Matt, 2026-11-03)
+For a `world` book on the English-base route (`tools/agent-writer-world.md`), the Write stage has two steps: Matt's
+local model drafts each part's plain.txt from the public-domain English (`tools/agent-translator-local.md`, wording
+only), then one `book-writer` per part does Claude's pass: checks and fixes the draft and writes all the notes,
+topics, links, variants and pages. The local model never writes study content. Hostile review, fixes and the rest
+follow as for any book. Before the local draft, the plan imports every free English translation into
+`texts/en/<id>.json` so the site offers them as alternates.
+
 ## Splitting and parts
 - Parts of about 100–200 verses on natural breaks, `parts/<a>-<b>/` zero-padded (`parts/001-017/` for Psalms).
 - Lenses (the color-coded note kinds) are fixed in the brief before any part starts. One part owns book.json.

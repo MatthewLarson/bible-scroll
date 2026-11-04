@@ -4,7 +4,7 @@
      node tools/build.js --check Gen/12-25  validate one part of a book split among writers
      node tools/build.js --publish    build only reviewed books (what goes on the public site)
    A large book can be split into parts: content/books/<id>/parts/<first>-<last>/ (chapter numbers, zero-padded)
-   each hold plain.txt, notes/variants/glosses/chapters/topics/sources.json for those chapters; book.json stays in
+   each hold plain.txt, notes/variants/glosses/sensitive(world only)/chapters/topics/sources.json for those chapters; book.json stays in
    the book folder. The build joins the parts in order, so the site never knows the difference.
    Exit code 1 if any error. */
 const fs = require('fs'), path = require('path');
@@ -46,6 +46,7 @@ const WORKS_ALL = exists(P('content/works.json')) ? json(P('content/works.json')
 const LANES = !process.argv.includes('--publish') && exists(P('content/proposals')) ? fs.readdirSync(P('content/proposals')).filter(l => fs.statSync(P('content/proposals', l)).isDirectory()) : [];
 LANES.forEach(l => { const f = P('content/proposals', l, 'works.json'); if(!exists(f)) return; const w = json(f) || {}; delete w._about;
   for(const id in w) if(WORKS_ALL[id] && JSON.stringify(WORKS_ALL[id]) !== JSON.stringify(w[id])) err(`proposals/${l}/works.json ${id}`, 'already defined differently; propose a change in topics.md or build.md instead'); else WORKS_ALL[id] = w[id]; });
+const SENS_KINDS = ['sexual','crude','violence'];
 const NOTE_TYPES = ['word','history','echo','symbol','views','israel','myth','spec','canon'];
 const KINDS = ['mis','var','com','deb','nu'];
 const TOPIC_KINDS = ['Ideas','People','Places','Symbols','Words','Events','Studies','Science','Creatures'];
@@ -181,8 +182,27 @@ function loadBook(id, part){
   });
   const glosses = all('glosses.json');
   glosses.forEach((g, i) => { g._k = 'gloss'; if(!g.m) err(`${id}/glosses[${i}]`, 'needs m'); });
+  /* sensitive.json (tier world only): [{v, a, kind, summary}] hides a span of a verse behind a short summary until the reader
+     opens it (tools/agent-writer-world.md "Sensitive passages"). The translation is untouched; the summary must not itself carry
+     the explicit detail (no machine check: reviewers read them). a = exact text of the span, appearing once in the verse. */
+  const sensitive = all('sensitive.json');
+  sensitive.forEach((s, i) => { const w = `${id}/sensitive[${i}] ${s.v}`; s._k = 'sensitive';
+    if(!(book && book.canon && book.canon.tier === 'world')){ err(w, 'sensitive.json is only for books of the Other peoples and religions group (canon.tier "world")'); s._bad = true; return; }
+    if(!SENS_KINDS.includes(s.kind)) err(w, `kind must be ${SENS_KINDS.join(', ')}`);
+    if(typeof s.summary !== 'string' || !s.summary.trim()) err(w, 'needs summary'); else if(s.summary.length > 140) err(w, `summary is ${s.summary.length} characters (140 at most)`);
+    if(/[“”‘’]/.test(s.summary || '')) err(w, 'summary uses curly quotes; use straight quotes');
+    s.a = s.text; delete s.text;   // authored as "text", handled like every other anchor as "a"
+    const t = plain.v[s.v];
+    if(!t){ err(w, 'verse not found'); s._bad = true; return; }
+    if(typeof s.a !== 'string' || !s.a){ err(w, 'missing text'); s._bad = true; return; }
+    if(s.a.includes(' / ')){ err(w, 'text cannot cross a poetry line break'); s._bad = true; return; }
+    const n = t.split(s.a).length - 1;
+    if(n !== 1){ err(w, n ? `text occurs ${n} times in the verse; make it longer so it matches once` : `text not in verse: "${s.a}"  verse: "${t}"`); s._bad = true; return; }
+    s._s = t.indexOf(s.a); s._e = s._s + s.a.length; });
   spanCheck(id, plain, notes, 'notes'); spanCheck(id, plain, variants, 'variants'); spanCheck(id, plain, glosses, 'glosses');
-  overlapCheck(id, [...notes, ...variants, ...glosses]);
+  overlapCheck(id, [...notes, ...variants, ...glosses, ...sensitive]);
+  sensitive.forEach((s, i) => sensitive.slice(i + 1).forEach(o => { if(!s._bad && !o._bad && s.v === o.v && s._s < o._e && o._s < s._e) err(`${id}/sensitive ${s.v}`, `hidden spans overlap: "${s.a}" and "${o.a}"`); }));
+  sensitive.forEach(s => { delete s._k; delete s._s; delete s._e; delete s._bad; });
 
   const chapters = all('chapters.json');
   if(!chapters.length) err(id, `chapters.json is missing: every chapter needs its page`);
@@ -207,6 +227,9 @@ function loadBook(id, part){
        how reliable it is (Claude's analysis, labeled as such on the page) and how to read it */
     const W0 = WORKS_ALL[cn.work];
     if(!W0 || W0.book !== id || W0.c) err(cw, `work must be the works.json id whose "book" is "${id}"`); else if(cn.tier !== W0.tier) err(cw, `tier "${cn.tier}" differs from works.json "${W0.tier}"`);
+    /* style "conversational": the site's own translation is the free, idiomatic Conversational English Translation (tier world only,
+       tools/agent-writer-world.md); without it the book's translation is the Plain English Translation */
+    if(cn.style != null && !(cn.style === 'conversational' && cn.tier === 'world')) err(cw, 'style may only be "conversational", and only for tier world');
     if(!cn.summary) err(cw, 'needs summary (shown on every page)');
     if(!Array.isArray(cn.accepted_by) || cn.accepted_by.length < 2) err(cw, 'accepted_by needs rows [who, view, [keys]?] for at least two churches or traditions');
     else cn.accepted_by.forEach((r, k) => { if(!Array.isArray(r) || r.length < 2) err(cw, `accepted_by[${k}] must be [who, view, [keys]?]`); else srcCheck(cw, r[2]); });
@@ -244,7 +267,7 @@ function loadBook(id, part){
     (t.sections||[]).forEach((s, j) => { if(!s.refs) err(w, `section ${j} "${s.h}" needs refs`); else refCheck(`${w} section ${j}`, s.refs, id, true); });
     srcCheck(w, t.sources);
   });
-  Object.assign(out, {book, plain, notes, variants, glosses, chapters, contrib});
+  Object.assign(out, {book, plain, notes, variants, glosses, sensitive, chapters, contrib});
   return out;
 }
 
@@ -366,7 +389,7 @@ for(const b of CAT.books){ const f = P('content/atlas', b.id + '.json'); if(!exi
 
 if(CHECK){
   const x = B[ONLY];
-  console.log(`${ONLY}: ${Object.keys(x.plain.v).length} verses, ${x.notes.length} notes, ${x.variants.length} variants, ${x.glosses.length} glosses, ${x.chapters.length} chapter pages, ${x.contrib.length} topic contributions`);
+  console.log(`${ONLY}: ${Object.keys(x.plain.v).length} verses, ${x.notes.length} notes, ${x.variants.length} variants, ${x.glosses.length} glosses${x.sensitive.length ? `, ${x.sensitive.length} hidden passages` : ''}, ${x.chapters.length} chapter pages, ${x.contrib.length} topic contributions`);
   console.log(`${errors} errors, ${warnings} warnings`); process.exit(errors ? 1 : 0);
 }
 
@@ -528,7 +551,8 @@ const SHARDS = 32, shard = id => { let h = 0; for(const ch of id) h = (h*31 + ch
 
 /* a book is reviewed once its hostile review has a non-empty "Fixes applied" section */
 const catalog = {groups:CAT.groups, books:CAT.books.map(b => ({id:b.id, name:b.name, t:b.t, group:b.group, vc:b.vc,
-  status: B[b.id] ? (reviewed(b.id) ? 'reviewed' : 'draft') : 'text', ...(ATLAS[b.id] ? {atlas:1} : {})}))};
+  status: B[b.id] ? (reviewed(b.id) ? 'reviewed' : 'draft') : 'text', ...(ATLAS[b.id] ? {atlas:1} : {}),
+  ...(B[b.id] && B[b.id].book && (B[b.id].book.canon || {}).style === 'conversational' ? {conv:1} : {})}))};
 /* writings outside the 66 books (content/works.json): the site marks every mention by tier, so a reader can tell them from Scripture at a glance */
 const WORKS = WORKS_ALL;
 const TIERS = ['dc','orth','eth','other','early','lost','world'];   // world: another people's or religion's writing (tools/world-texts.py)
@@ -565,7 +589,7 @@ for(const id in B){ const x = B[id];
     ...[...(x.book.traditions||[]), ...x.chapters.flatMap(c => c.traditions||[])].flatMap(t => (t.s||[]).concat(...t.views.map(v => v[2]||[])))]);
   const src = {}; used.forEach(k => src[k] = SOURCES[k]);
   const tops = {}; Object.values(x.chTopics).flat().concat(x.book.topics||[], (x.book.traditions||[]).map(q => q.top)).forEach(t => TOPICS[t] && (tops[t] = [TOPICS[t].title, TOPICS[t].kind]));
-  W(`books/${id}.json`, clean({id, name:x.name, t:x.t, book:x.book, plain:x.plain, notes:x.notes, variants:x.variants, glosses:x.glosses,
+  W(`books/${id}.json`, clean({id, name:x.name, t:x.t, book:x.book, plain:x.plain, notes:x.notes, variants:x.variants, glosses:x.glosses, ...(x.sensitive.length ? {sensitive:x.sensitive} : {}),
     chapters:x.chapters, chTopics:x.chTopics, topics:tops, sources:src}));
 }
 /* Matt's rule: the site never shows exactly 666 topics (the number of the beast, Revelation 13:18); add or merge a topic */

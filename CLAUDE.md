@@ -14,7 +14,8 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
 
 ## What Matt wants (keep to this everywhere)
 
-- The site's own translation is named the **Plain English Translation**. Always write the full name in content, briefs and messages, never bare "the Plain" (Matt, 2026-10-30). Files and data keys stay `plain.txt` / `plain`.
+- The site's own translation is named the **Plain English Translation**, except for the Other peoples and religions
+  group, whose looser translation is the **Conversational English Translation** (Matt, 2026-11-03; book.json `canon.style: "conversational"`). Always write the full name in content, briefs and messages, never bare "the Plain" (Matt, 2026-10-30). Files and data keys stay `plain.txt` / `plain`.
 - Main text in modern American English at about an 8th-grade reading level, translated from the original
   Hebrew, Aramaic and Greek, citing common translations and above all the original-language texts.
 - Every interpretive view presented fairly: literal and figurative, Jewish and Christian, traditional and
@@ -39,6 +40,16 @@ There is no database. Everything is a folder of JSON documents. Read `bible/PLAN
   languages for context, interest and to show how other cultures told the Bible's stories. Read from a Christian
   standpoint: described fairly, judged with the Bible as the measure, connections and possible same-person
   identifications weighed, never arguing against the LORD being God or Jesus his Son (`tools/agent-writer-world.md`).
+  The same group takes historical and philosophical works of other peoples (Marcus Aurelius's Meditations). Since
+  none of these is Scripture, their Conversational English Translation is free and idiomatic, the way Americans talk today,
+  but keeps every thought (Matt, 2026-11-03; model in `translation-examples/Meditations/Book-1/`). Prefer a free
+  English translation as the base, imported into `texts/en/` as an alternate; Matt's local model drafts the wording
+  only (`tools/agent-translator-local.md`), and Claude writes every note, topic and link.
+  Sensitive passages (Matt, 2026-11-03; this group only): the standard is roughly PG-13. Content a PG-13 film would show or
+  imply (battle deaths, executions stated plainly, adultery or rape mentioned without detail, rough language) stays in the
+  open text. Content past that (graphic or lingering gore and torture, explicit sexual description, crude detail dwelt on)
+  is hidden behind a short summary the reader expands, via `sensitive.json` in the part folder; the translation is never cut.
+  Reviewers flag candidates, the fixer writes the entries (`tools/agent-writer-world.md`).
 - After each book (or part), a SEPARATE agent does a hostile review, and the fixes are applied before publishing.
 - Look: ancient manuscript, hieroglyphics, cave drawings and modern art, everything sketched onto a scroll, no
   sharp-edged square images. Openly licensed art when available; otherwise original inline SVG, or ChatGPT image
@@ -80,6 +91,7 @@ Book ids are STEPBible three-letter codes (Gen Exo ... Rev). Judith is `Jdt` bec
   plain static server: addresses are real paths (/Gen/1/2, /topics), so every path must be answered with index.html.
 - `node tools/literal.js <id> <chapter>` or `<id> <c:v-v>`: the word-by-word literal line every verse starts from.
   For Akkadian books (Atrahasis): `python tools/akk-literal.py <id> <chapter>`.
+- `node tools/base-lines.js <id> <chapter> [key]`: the free English base, verse by verse, for a `world` book drafted from English.
 - `node tools/atlas-verses.js <id>`: verse lists for the atlas harvest.
 - `python tools/logos.py`: remake the site's logos and icons (`app/img/`, WebP; PNG only for the iOS icon and link
   preview) from the designer's files in `images/Logos/`. Rerun after a logo changes; the build copies `app/img/` to `img/`.

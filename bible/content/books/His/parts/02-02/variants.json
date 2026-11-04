@@ -1,0 +1,531 @@
+[
+ {
+  "v": "2:4",
+  "a": "long untroubled peace and freedom from the hardships of war",
+  "t": "A word marked as corrupt: what did the Latin say?",
+  "p": "Fisher marks 'labor' as corrupt; the older English reads it as 'hardships of war'.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus), with the obelus (†) before the word",
+    "orig": "integra quies et inexperti belli †labor",
+    "en": "undisturbed rest and the †labor† of men inexperienced in war",
+    "plain": "long untroubled peace and freedom from the hardships of war"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "the exemption from the hardships of war",
+    "plain": "long untroubled peace and freedom from the hardships of war"
+   }
+  ],
+  "follow": 1,
+  "why": "The dagger before labor is the editor's sign that the word is probably corrupt, so no reading of it is certain. The Conversational English Translation follows Church and Brodribb's sense, which fits the sentence: rested troops set against Vespasian's tested ones. If labor is wrong, the translation would still say that Mucianus's men had not met war, and only the word 'hardships' would change.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:7",
+  "a": "the soldiers' indiscipline, laziness and luxury",
+  "t": "Whose faults ruin whom?",
+  "p": "The Latin names the soldiers' vices; the older English says 'these men.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "discordia militis ignavia luxurie",
+    "en": "the soldiers' discord, laziness, luxury",
+    "plain": "the soldiers' indiscipline, laziness and luxury"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "these men are quarrelsome, indolent and profligate",
+    "plain": "the quarrelsome, lazy and wasteful habits of these men"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has three nouns in a row that go with the soldiers (militis), so the vices belong to the armies, not to the two emperors.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "pointed to her womb",
+  "t": "Womb or bosom?",
+  "p": "The Latin has the woman point to her womb; the older English softens it to 'bosom.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "uterum ostendens",
+    "en": "showing her womb",
+    "plain": "pointed to her womb"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "she pointed to her bosom",
+    "plain": "pointed to her chest"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin word uterum means womb and gives the sense of her answer: he is hidden where he was born.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:18",
+  "a": "a thousand men from the detachments",
+  "t": "Veterans or detachments?",
+  "p": "The Latin has 'a thousand men of the detachments (vexillarii)'; the older English has 'veterans.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "mille vexillarios",
+    "en": "a thousand men of the detachments",
+    "plain": "a thousand men from the detachments"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "a thousand veterans",
+    "plain": "a thousand veterans"
+   }
+  ],
+  "follow": 0,
+  "why": "Vexillarii can mean men of a detachment, or re-enlisted veterans serving under their own standard (Wikipedia, \"Vexillarius\"). The Conversational English Translation takes 'detachment'; Church and Brodribb took 'veterans'. The Latin word allows both.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "wiki-vexillarius"
+  ]
+ },
+ {
+  "v": "2:24",
+  "a": "detachment of the 13th legion",
+  "t": "A detachment, or the veterans?",
+  "p": "The Latin has 'a detachment (vexillum) of the 13th legion'; the older English has 'the veterans.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "tertiae decimae legionis vexillum",
+    "en": "a detachment of the 13th legion",
+    "plain": "detachment of the 13th legion"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "the veterans of the 13th legion",
+    "plain": "veterans of the 13th legion"
+   }
+  ],
+  "follow": 0,
+  "why": "Vexillum names the detachment's flag and so the detachment. Men under a vexillum could be a detachment or re-enlisted veterans under their own standard (Wikipedia, \"Vexillarius\"), so Church and Brodribb's 'veterans' is a possible sense. The Conversational English Translation takes 'detachment'.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "wiki-vexillarius"
+  ]
+ },
+ {
+  "v": "2:40",
+  "a": "the Padus and the Arda meet",
+  "t": "The Arda or the Addua?",
+  "p": "Fisher's Latin names the river Arda; the older English has the Addua.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "Padi et Ardae",
+    "en": "of the Padus and the Arda",
+    "plain": "the Padus and the Arda meet"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "the confluence of the Padus and Addua",
+    "plain": "the Padus and the Addua meet"
+   }
+  ],
+  "follow": 0,
+  "why": "The Conversational English Translation follows the Latin as printed in Fisher's text, which names the Arda. The older English reads Addua, a different river name.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:50",
+  "a": "the 37th year of his age",
+  "t": "How old was Otho?",
+  "p": "Tacitus says the 37th year; Plutarch says 37 and Suetonius 38.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus); these words close Latin 2:49, and the site follows the English verse division",
+    "orig": "septimo et tricensimo aetatis anno",
+    "en": "in the thirty-seventh year of his age",
+    "plain": "the 37th year of his age"
+   },
+   {
+    "w": "Suetonius, Otho 11 (English text at LacusCurtius)",
+    "orig": "",
+    "en": "died in his 38th year",
+    "plain": "the 38th year of his age"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin of Tacitus reads 'the thirty-seventh year.' Plutarch (Otho 18.2) also says 37. Suetonius's different count is a different ancient account, not a manuscript reading.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "suetonius-caesars",
+   "plutarch-lives"
+  ]
+ },
+ {
+  "v": "2:50",
+  "a": "Ferentium",
+  "t": "Ferentium or Ferentinum?",
+  "p": "The Latin has Ferentio (Ferentium); the older English has Ferentinum.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "e municipio Ferentio",
+    "en": "from the town of Ferentium",
+    "plain": "Ferentium"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "the municipal town of Ferentinum",
+    "plain": "Ferentinum"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin ablative Ferentio gives the nominative Ferentium. Suetonius also places Otho's ancestors at Ferentium (Otho 1).",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "suetonius-caesars"
+  ]
+ },
+ {
+  "v": "2:57",
+  "a": "8,000 men picked from the army of Britain",
+  "t": "Picked men, or a levy?",
+  "p": "The Latin says 8,000 men picked from the army of Britain; the older English says a 'British conscription.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "e Britannico exercitu delecta octo milia",
+    "en": "eight thousand chosen from the army of Britain",
+    "plain": "8,000 men picked from the army of Britain"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "8000 men of the British conscription",
+    "plain": "8,000 men of the British draft"
+   }
+  ],
+  "follow": 0,
+  "why": "Delecta means chosen, and exercitu means army. The men were picked from the soldiers already in Britain.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:62",
+  "a": "gladiator schools and the arena",
+  "t": "Where the Knights were barred",
+  "p": "The Latin names the gladiator school and the arena; the older English has 'public entertainments.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "ludo et harena",
+    "en": "school (of gladiators) and arena",
+    "plain": "gladiator schools and the arena"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "appearing in public entertainments, or in the arena",
+    "plain": "public entertainments and the arena"
+   }
+  ],
+  "follow": 0,
+  "why": "Ludus means a gladiators' school here. The older English widens it to all public shows.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:70",
+  "a": "in the manner of a king",
+  "t": "Greeting a king, or a 'barbarous despot'?",
+  "p": "The Latin has them sacrifice in the manner of a king; the older English adds 'barbarous despot.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "regium in morem",
+    "en": "in the royal manner",
+    "plain": "in the manner of a king"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "as if to greet some barbarous despot",
+    "plain": "as if to greet some barbarous despot"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has no word for barbarous or despot. It says only that they acted as people do for a king.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:71",
+  "a": "Valerius Marinus",
+  "t": "Marinus or Maximus?",
+  "p": "The Latin names Valerius Marinus, whom Galba had named consul; the older English has Valerius Maximus.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "Valerium Marinum",
+    "en": "Valerius Marinus",
+    "plain": "Valerius Marinus"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "Valerius Maximus",
+    "plain": "Valerius Maximus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin text has Marinum. The Conversational English Translation uses one name for this man across the Histories.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:76",
+  "a": "Galba's family portraits",
+  "t": "Portraits or prestige?",
+  "p": "The Latin says Vespasian yielded to Galba's ancestral images; the older English says 'the prestige of Galba's family.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "cessisti etiam Galbae imaginibus",
+    "en": "you even gave way to Galba's images",
+    "plain": "Galba's family portraits"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "You have already yielded to the prestige even of Galba's family",
+    "plain": "the prestige of Galba's family"
+   }
+  ],
+  "follow": 0,
+  "why": "Imagines were the wax masks and portraits of a noble family's ancestors, the sign of its rank. The older English gives the sense, not the word.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:79",
+  "a": "July 3rd",
+  "t": "Which day did Judea swear?",
+  "p": "Tacitus has the army of Judea swear on 3 July; the editor of Suetonius reads Suetonius's date as 11 July.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "quinto nonas Iulias",
+    "en": "the fifth day before the Nones of July",
+    "plain": "July 3rd"
+   },
+   {
+    "w": "Suetonius, Vespasian 6.3 (text 'fifth day before the Ides of July'; the date 11 July is the editor's reading, note 16 at LacusCurtius)",
+    "orig": "",
+    "en": "July 11",
+    "plain": "July 11th"
+   }
+  ],
+  "follow": 0,
+  "why": "Tacitus (2:79) names the fifth day before the Nones, 3 July. Suetonius (Vespasian 6.3) names the fifth day before the Ides, which his editor reads as 11 July. The two writers give different dates, eight days apart. No source cited for this page explains the difference.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "suetonius-caesars",
+   "josephus"
+  ]
+ },
+ {
+  "v": "2:83",
+  "a": "13,000 men from the detachments",
+  "t": "Veterans or detachments (again)?",
+  "p": "The Latin has 13,000 men of the detachments; the older English has 'veterans.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "tredecim vexillariorum milia",
+    "en": "thirteen thousand of the detachment-men",
+    "plain": "13,000 men from the detachments"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "13,000 veterans",
+    "plain": "13,000 veterans"
+   }
+  ],
+  "follow": 0,
+  "why": "As at 2:18. Vexillarii can mean men of a detachment, or re-enlisted veterans serving under their own standard (Wikipedia, \"Vexillarius\"). The Conversational English Translation takes 'detachment'; Church and Brodribb took 'veterans'. The Latin word allows both.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "wiki-vexillarius"
+  ]
+ },
+ {
+  "v": "2:86",
+  "a": "Tampius Flavianus held Pannonia and Pompeius Silvanus Dalmatia",
+  "t": "Two governors' names",
+  "p": "The Latin names Tampius Flavianus and Pompeius Silvanus; the older English has Titus Ampius Flavianus and Poppaeus Silvanus.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "Tampius Flavianus ... Pompeius Silvanus",
+    "en": "Tampius Flavianus ... Pompeius Silvanus",
+    "plain": "Tampius Flavianus held Pannonia and Pompeius Silvanus Dalmatia"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "Titus Ampius Flavianus ... Poppaeus Silvanus",
+    "plain": "Titus Ampius Flavianus held Pannonia and Poppaeus Silvanus Dalmatia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Conversational English Translation follows the Latin form and uses it in all five books.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:89",
+  "a": "So he went up to the Capitol",
+  "t": "The Capitol, or the capital?",
+  "p": "The Latin says he went up to the Capitol; the older English says he 'entered the capital.'",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "sic Capitolium ingressus",
+    "en": "thus having entered the Capitol",
+    "plain": "So he went up to the Capitol"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "Thus he entered the capital",
+    "plain": "So he entered the city"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin word is Capitolium, the hill and temple of Jupiter.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:92",
+  "a": "Publilius Sabinus",
+  "t": "Publilius or Publius Sabinus?",
+  "p": "The Latin has Publilium Sabinum; the older English has Publius Sabinus.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "Publilium Sabinum",
+    "en": "Publilius Sabinus",
+    "plain": "Publilius Sabinus"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "Publius Sabinus",
+    "plain": "Publius Sabinus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin form is used for this man in all five books.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:94",
+  "a": "Asiaticus, Flavus and Rufinus, leaders of the Gauls",
+  "t": "Is Asiaticus one of the Gallic leaders?",
+  "p": "In the Latin, Asiaticus is listed with Flavus and Rufinus as leaders of the Gauls; the older English splits him off.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "Asiaticus et Flavus et Rufinus duces Galliarum",
+    "en": "Asiaticus and Flavus and Rufinus, leaders of the Gauls",
+    "plain": "Asiaticus, Flavus and Rufinus, leaders of the Gauls"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "Asiaticus, and Flavius and Rufinus, the Gallic chieftains",
+    "plain": "Asiaticus, and Flavius and Rufinus, the Gallic chieftains"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has one list of three names. The verse does not say whether this Asiaticus is Vitellius's freedman of 2:57 and 2:95.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "2:100",
+  "a": "the detachments of the 1st, 4th, 15th and 16th legions",
+  "t": "Which legions marched?",
+  "p": "The Latin lists detachments of the 1st, 4th, 15th and 16th; the older English lists veterans of the 4th, 10th and 16th.",
+  "readings": [
+   {
+    "w": "Fisher's Latin text (Oxford Classical Text, 1911, Perseus)",
+    "orig": "vexilla primae, quartae, quintaedecimae, sextaedecimae legionum",
+    "en": "detachments of the first, fourth, fifteenth, sixteenth legions",
+    "plain": "the detachments of the 1st, 4th, 15th and 16th legions"
+   },
+   {
+    "w": "Church and Brodribb's English (1864, Perseus)",
+    "orig": "",
+    "en": "the veteran troops of the 4th, 10th, and 16th legions",
+    "plain": "the veteran troops of the 4th, 10th and 16th legions"
+   }
+  ],
+  "follow": 0,
+  "why": "The two lists differ in which legions are named, not only in wording. The Latin is followed. On the word vexilla (detachments), see the entry at 2:18: Church and Brodribb's 'veteran troops' is a possible sense of the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "wiki-vexillarius"
+  ]
+ }
+]

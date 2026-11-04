@@ -35,6 +35,7 @@ bible/
       notes.json       notes anchored to phrases in the Plain English Translation text
       variants.json    textual variants: the readings, where each comes from, which is followed and why
       glosses.json     "Today's words": modern paraphrases under hard phrases
+      sensitive.json   (tier world only, optional) spans hidden behind a summary until the reader opens them; text stays in plain.txt
       topics.json      this book's contributions to shared topic pages (never a copy of a topic)
       sources.json     bibliography keys this book adds (keys are global)
       review.md        the hostile review of this book and what was fixed

@@ -197,6 +197,9 @@ function setMode(m){ ['lib','book','topic'].forEach(x => document.body.classList
 /* ---------- the site's own pages: home, the scrolls, articles, mission, releases ---------- */
 const SITE_PAGES = {home:'Home', library:'The scrolls', resources:'Resources', topics:'Topics', timelines:'Timelines', timeline:'Timelines', articles:'Articles', mission:'Mission', releases:'Releases'};
 const STATUS = {reviewed:'Plain English Translation, notes, reviewed', draft:'Plain English Translation and notes (in review)', text:'Original and English texts'};
+/* the site's own translation: the Conversational English Translation for a writing of another people marked so in its canon (free and
+   idiomatic, tools/agent-writer-world.md), otherwise the Plain English Translation */
+const PNAME = id => BYID[id] && BYID[id].conv ? 'Conversational English Translation' : 'Plain English Translation';
 const ROMAN = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'}) : '';
 /* the pages under Resources light up Resources in the menu */
@@ -556,7 +559,7 @@ function searchResults(s){
   const out = []; const refs = RF.findRefs(s, null, false);
   refs.slice(0,3).forEach(r => out.push(`<li><button class="linkish" data-link="/${r.book}/${r.c}${r.v!=null?'/'+r.v:''}">${refName(r)}</button></li>`));
   const low = s.toLowerCase();
-  CAT.books.filter(b => b.name.toLowerCase().startsWith(low)).slice(0,4).forEach(b => out.push(`<li><button class="linkish" data-link="/${b.id}">${b.name}</button> <span class="small muted">${STATUS[b.status]}</span></li>`));
+  CAT.books.filter(b => b.name.toLowerCase().startsWith(low)).slice(0,4).forEach(b => out.push(`<li><button class="linkish" data-link="/${b.id}">${b.name}</button> <span class="small muted">${STATUS[b.status].replace('Plain English Translation', PNAME(b.id))}</span></li>`));
   Object.entries(TIDX).filter(([id, t]) => t[0].toLowerCase().includes(low) || (t[3]||[]).some(a => a.toLowerCase().includes(low))).slice(0,12)
     .forEach(([id, t]) => out.push(`<li><button class="linkish" data-link="/topic/${id}">${t[0]}</button> <span class="small muted">${t[1]} · ${esc(t[2].slice(0,110))}${t[2].length>110?'…':''}</span></li>`));
   return out.join('') || `<li class="muted">Nothing found. Try a book and chapter, like "Genesis 12".</li>`;
@@ -574,7 +577,7 @@ const VERS = {
   sbl:{name:'Greek: SBL Greek New Testament', short:'Greek (SBL)'}, byz:{name:'Greek: Byzantine majority text (RP 2018)', short:'Greek (Byzantine)'}, gw:{name:'Greek word by word, with meanings', short:'Greek words'}
 };
 const TNOTE = {
-  plain:id => `Plain English Translation written for this site from the ${BYID[id].t==='OT'?'Hebrew Masoretic Text (Leningrad Codex)':BYID[id].t==='X'?(BYID[id].orig_name||'original text'):'Greek SBL Greek New Testament'}. Underlined words open notes; marked words (⁂) open manuscript differences.`,
+  plain:id => BYID[id].conv ? `Conversational English Translation written for this site: a free, sense-for-sense rendering of the ${BYID[id].orig_name||'original text'} in the way Americans talk today, keeping every thought. Underlined words open notes; marked words (⁂) open manuscript differences.` : `Plain English Translation written for this site from the ${BYID[id].t==='OT'?'Hebrew Masoretic Text (Leningrad Codex)':BYID[id].t==='X'?(BYID[id].orig_name||'original text'):'Greek SBL Greek New Testament'}. Underlined words open notes; marked words (⁂) open manuscript differences.`,
   bsb:() => 'Berean Standard Bible, dedicated to the public domain (CC0) in 2023.',
   kjv:() => 'Words in <i>italics</i> were added by the KJV translators to make the English read smoothly, as in printed KJV Bibles.',
   web:() => 'World English Bible, public domain.', asv:() => 'American Standard Version, 1901, public domain.', ylt:() => 'Young’s Literal Translation, 1898, public domain.',
@@ -604,6 +607,7 @@ async function openBook(r){
 function prepBook(b){
   const d = b.data; b.ver = b.ver || store.get('ver-' + b.meta.t) || (d ? 'plain' : 'bsb');
   b.lenses = [];
+  VERS.plain = {name:PNAME(b.id), short:PNAME(b.id)};
   if(b.meta.about) for(const [k, a] of Object.entries(b.meta.about)){ VERS[k] = {name:a.name, short:a.short}; TNOTE[k] = () => a.note; }
   const others = b.meta.t === 'X' ? (b.meta.texts || []) : ['bsb','kjv','web','asv','ylt', ...(b.meta.t==='OT' ? ['wlc','hw'] : ['sbl','byz','gw'])];
   if(!d){ if(!others.includes(b.ver)) b.ver = others[0]; b.vers = others; return; }
@@ -613,6 +617,7 @@ function prepBook(b){
   b.NAT = {}; d.notes.forEach(n => (b.NAT[n.v] = b.NAT[n.v] || []).push(n));
   b.VAT = {}; d.variants.forEach(x => (b.VAT[x.v] = b.VAT[x.v] || []).push(x));
   b.GAT = {}; d.glosses.forEach(g => (b.GAT[g.v] = b.GAT[g.v] || []).push(g));
+  b.SENS = {}; (d.sensitive || []).forEach((s, i) => { s.id = i; (b.SENS[s.v] = b.SENS[s.v] || []).push(s); });
   b.lenses = (d.book.lenses || []);
   b.SETS = settingsOf(d, b.id); b.SAT = {}; b.SETS.forEach(x => b.SAT[x.start] = x);
 }
@@ -639,7 +644,7 @@ function buildPages(){
   pages = []; const b = B, d = b.data, name = b.meta.name;
   if(!d){
     page('intro', name, `<div class="cart study">A scroll in the library</div><h1>${name}</h1>
-      <p class="lede">The Plain English Translation, notes and commentary for ${name} have not been written yet. You can already read the book in five English translations and in the original ${b.meta.t==='OT'?'Hebrew':'Greek'}, word by word, with every cross reference.</p>
+      <p class="lede">The ${PNAME(b.id)}, notes and commentary for ${name} have not been written yet. You can already read the book in five English translations and in the original ${b.meta.t==='OT'?'Hebrew':'Greek'}, word by word, with every cross reference.</p>
       <p>Choose a translation from <b>Text</b> at the top. Click a verse number for that verse in every translation, its cross references, and the places this site discusses it.</p>
       <p><button class="pill" data-go="t1">Start reading chapter 1 →</button></p>
       <p class="links"><b>Compare</b>${['NIV','ESV','NASB','NLT','CSB'].map(v=>ext(bgURL(name+' 1',v),v)).join('')}</p>`);
@@ -664,7 +669,7 @@ function buildPages(){
 function textsPage(){
   const he = B.meta.t === 'OT';
   return `<div class="cart study">The texts</div><h2>About the Texts</h2>
-    <p class="lede">The Plain English Translation is made directly from the ${he ? 'Hebrew' : 'Greek'}. Use <b>Text</b> at the top to read the same chapter in another translation or in the original.</p>
+    <p class="lede">The ${PNAME(B.id)} is made directly from the ${B.meta.t === 'X' ? (B.meta.orig_name || 'original text').replace(/ text$/, '') : he ? 'Hebrew' : 'Greek'}. Use <b>Text</b> at the top to read the same chapter in another translation or in the original.</p>
     ${B.vers.map(v => `<div class="card"><h4>${VERS[v].name}</h4><p class="small">${TNOTE[v](B.id)}</p></div>`).join('')}`;
 }
 function nextBookBtn(){ const i = CAT.books.findIndex(x => x.id === B.id), n = CAT.books[i+1]; return n ? `<p><button class="pill" data-book="${n.id}">Next book: ${n.name} →</button></p>` : ''; }
@@ -685,7 +690,7 @@ function introPage(bk){
   h += `<h3>How to read this scroll</h3><p class="small">Every chapter has two pages: a <b>commentary</b> page (summary, key verse, ways of reading, and deeper notes) and the <b>text</b>. On a wide screen you see both at once; on a phone, swipe from one to the next. The top row jumps to any chapter; the second row lists the <b>topics</b> in the chapter you are reading. Click any verse number for that verse in every translation, its cross references, and everywhere this site discusses it.</p>
     <ul class="types">${Object.entries(NOTE_TYPES).filter(([k]) => k !== 'canon' || B.meta.t === 'X').map(([k,t])=>`<li><i style="background:color-mix(in srgb, ${t.color} 18%, transparent)"></i><span><span class="u t-${k}" style="text-decoration-color:${t.color}">${t.label}</span>: ${NOTE_DESC[k]}.</span></li>`).join('')}
     <li><i style="background:color-mix(in srgb, var(--n-variant) 18%, transparent)"></i><span><span class="vr" style="cursor:default">Manuscript difference</span>: the ancient copies disagree here. Open it to see each reading, where it comes from, and why one was chosen.</span></li></ul>
-    <p class="small"><b>Today's words.</b> Some phrases only made sense in the ancient world. In the Plain English Translation text these carry a small handwritten line underneath, like <span class="gl" style="--gn:18"><span class="gl-o">a kinsman-redeemer</span><span class="gl-m">a family rescuer</span></span>. The top line is the translation; the line underneath is a loose modern way to get the point across. Hide them with the "Today's words" button.</p>`;
+    <p class="small"><b>Today's words.</b> Some phrases only made sense in the ancient world. In the ${PNAME(B.id)} text these carry a small handwritten line underneath, like <span class="gl" style="--gn:18"><span class="gl-o">a kinsman-redeemer</span><span class="gl-m">a family rescuer</span></span>. The top line is the translation; the line underneath is a loose modern way to get the point across. Hide them with the "Today's words" button.</p>`;
   if((bk.topics||[]).length) h += `<h3>Big topics</h3>${topicChips(bk.topics)}`;
   h += linksRow(bk.links);
   return h;
@@ -705,7 +710,7 @@ function chapterPage(c){
   if(c.svg) h += c.svg + (c.caption ? `<p class="caption">${c.caption}</p>` : '');
   h += (c.sum||[]).map((p,i) => `<p${i===0?' class="lede"':''}>${p}</p>`).join('');
   h += `<p><button class="pill tolink" data-go="t${c.n}">Read the text${B.meta.vc.length > 1 ? ' of chapter ' + c.n : ''} →</button></p>`;
-  h += `<div class="verse"><div class="rub">Key verse · ${key}</div><div class="plain">${esc(plainOf(key))}</div><dl id="kv-${c.n}"></dl></div>`;
+  h += `<div class="verse"><div class="rub">Key verse · ${key}</div><div class="plain">${esc(maskVerse(d, B.id, key, plainOf(key)))}</div><dl id="kv-${c.n}"></dl></div>`;
   const sets = (B.SETS || []).filter(x => x.start && +x.start.split(':')[0] === c.n);
   if(sets.length) h += `<h3>Who heard it, and why</h3>` + sets.map(settingCard).join('');
   if((c.readings||[]).length){ const icons = [ICON.lit, ICON.sym];
@@ -800,7 +805,7 @@ function studyPages(bk){
     <p class="small muted">${Object.entries(KIND).map(([k,v]) => `<span class="kindb k-${k}">${v}</span>`).join(' ')}</p>
     ${words.filter(n => n.kind).map(n => `<div class="box word"><div class="tag"><span class="kindb k-${n.kind}">${KIND[n.kind]}</span><i>${n.v}</i></div><h5>${n.t}</h5>${n.orig?`<p class="greek small">${n.orig}</p>`:''}${para(n.b)}<p class="small"><button class="pill" data-verse="${n.v}">See it in the text, ${n.v}</button></p></div>`).join('') || '<p class="muted">No entries yet.</p>'}`);
   page('variants', 'Manuscript differences', `<div class="cart study">Study page</div><h2>Where the Manuscripts Differ</h2>
-    <p class="lede">No original manuscript of any biblical book survives; we have copies of copies. Usually they agree. Where they differ in a way that matters, the Plain English Translation marks the place. Each entry gives the readings, the manuscripts behind each, and why this translation follows the one it does.</p>
+    <p class="lede">No original manuscript of any biblical book survives; we have copies of copies. Usually they agree. Where they differ in a way that matters, the ${PNAME(B.id)} marks the place. Each entry gives the readings, the manuscripts behind each, and why this translation follows the one it does.</p>
     ${d.variants.map(x => `<div class="card"><h4><button class="linkish" data-variant="${x.id}">${x.t}</button> <span class="small muted" style="font-family:var(--f-body)">${x.v}</span></h4><p class="small">${x.p||''}</p></div>`).join('') || '<p class="muted">No significant differences are noted for this book.</p>'}`);
   const specN = d.notes.filter(n => n.type === 'spec'), specC = d.chapters.flatMap(c => (c.deep||[]).filter(x => x.box === 'spec' || x.spec).map(x => [c, x]));
   page('ideas', 'Claude’s theories', `<div class="cart study">Study page</div><h2>Claude's Theories</h2>
@@ -825,6 +830,24 @@ function studyPages(bk){
 /* ---------- text pages ---------- */
 const chName = n => B.meta.vc.length === 1 ? B.meta.name : `${B.meta.name.replace(/^Psalms$/, 'Psalm')} ${n}`;
 const plainOf = key => (B.data && B.data.plain.v[key]) || '';
+/* Hidden passages (sensitive.json in a book or part folder, tier world only): the translation keeps the full text; the reading view
+   shows a chip with a short summary until the reader presses Show. Nothing is remembered: every load starts hidden.
+   Every place that quotes verse text outside the reading view goes through maskVerse so the hidden words do not surface. */
+const SOPEN = new Set();   // "Book|index" of the spans the reader has opened this visit
+const SENS_LABEL = {sexual:'Sexual content', crude:'Crude language', violence:'Violence'};
+const sensIsOpen = (id, s) => SOPEN.has(id + '|' + s.id);
+/* t (or its slice s0..e1) with each still-hidden span replaced by "[Kind: summary]"; d is the book's data, id its book id */
+function maskVerse(d, id, cv, t, s0 = 0, e1 = (t || '').length){
+  const list = ((d && d.sensitive) || []).map((s, i) => ({s, i})).filter(x => x.s.v === cv && !SOPEN.has(id + '|' + x.i))
+    .map(x => ({st:t.indexOf(x.s.a), x:x.s})).filter(x => x.st >= 0).sort((a, b) => a.st - b.st);
+  let out = '', at = s0;
+  list.forEach(({st, x}) => { const a = Math.max(st, at), z = Math.min(st + x.a.length, e1); if(a >= z) return;
+    out += t.slice(at, a) + `[${SENS_LABEL[x.kind]}: ${x.summary}]`; at = z; });
+  return out + t.slice(at, e1);
+}
+const sensChip = (s, open) => open
+  ? `<button type="button" class="sens-chip open" data-sens="${s.id}" aria-expanded="true"><span class="sens-act">Hide</span> <span class="sens-k">${SENS_LABEL[s.kind]}</span></button>`
+  : `<button type="button" class="sens-chip" data-sens="${s.id}" aria-expanded="false"><span class="sens-k">${SENS_LABEL[s.kind]}</span> <span class="sens-sum">${esc(s.summary)}</span> <span class="sens-act">Show</span></button>`;
 function textPage(n){
   const name = B.meta.name;
   return `<div class="thead"><div class="row"><h2>${chName(n)}</h2><span class="tname" data-tname></span></div>
@@ -838,20 +861,21 @@ const POETIC = new Set(['Job','Psa','Pro','Ecc','Sng','Lam']);
 function plainVerse(key){
   const t = plainOf(key), b = B;
   const span = (x, k) => { const a = k === 'v' ? x.readings[x.follow||0].plain : x.a; const s = t.indexOf(a); return s < 0 ? null : {x, k, s, e:s+a.length}; };
-  const all = [...(b.NAT[key]||[]).map(n=>span(n,'n')), ...(b.GAT[key]||[]).map(g=>span(g,'g')), ...(b.VAT[key]||[]).map(v=>span(v,'v'))].filter(Boolean);
+  const all = [...(b.NAT[key]||[]).map(n=>span(n,'n')), ...(b.GAT[key]||[]).map(g=>span(g,'g')), ...(b.VAT[key]||[]).map(v=>span(v,'v')), ...((b.SENS||{})[key]||[]).map(s=>span(s,'s'))].filter(Boolean);
   const lines = []; for(let s = 0;;){ const i = t.indexOf(' / ', s); lines.push([s, i < 0 ? t.length : i]); if(i < 0) break; s = i + 3; }
-  const wrap = (c, inner, note) => c.k==='n' ? `<span class="nt t-${c.x.type}" role="button" tabindex="0" data-note="${c.x.id}">${inner}</span>`
+  const wrap = (c, inner, note) => c.k==='s' ? `<span class="sens open">${sensChip(c.x, true)} ${inner}</span>`
+    : c.k==='n' ? `<span class="nt t-${c.x.type}" role="button" tabindex="0" data-note="${c.x.id}">${inner}</span>`
     : c.k==='v' ? `<span class="vr${c.x.pick !== (c.x.follow||0) ? ' alt' : ''}" role="button" tabindex="0" data-variant="${c.x.id}">${inner}</span>`
     : `<span class="gl" style="--gn:${strip(c.x.m).length + 2}"><span class="gl-o${note ? ' nt-in t-'+note.type : ''}">${inner}</span><span class="gl-m">${c.x.m}</span></span>`;
   const draw = ([ls, le]) => {
     const spans = all.filter(sp => sp.s < le && sp.e > ls).map(sp => ({x:sp.x, k:sp.k, s:Math.max(sp.s, ls), e:Math.min(sp.e, le), first:sp.s >= ls, kids:[]}))
-      .sort((a,c) => a.s-c.s || c.e-a.e || (a.k==='g' ? -1 : 1));
+      .sort((a,c) => a.s-c.s || c.e-a.e || (a.k==='s' ? -1 : c.k==='s' ? 1 : a.k==='g' ? -1 : 1));   // a hidden span encloses whatever shares its extent
     const root = {s:ls, e:le, kids:[]}, stack = [root];
     spans.forEach(sp => { while(sp.s >= stack[stack.length-1].e) stack.pop();
       const top = stack[stack.length-1], prev = top.kids[top.kids.length-1];
       if(sp.e > top.e || (prev && sp.s < prev.e)) return; top.kids.push(sp); stack.push(sp); });
     const render = (node, note) => { let out = '', at = node.s;
-      node.kids.forEach(c => { out += esc(t.slice(at, c.s)) + wrap(c, c.k==='v' && c.x.pick !== (c.x.follow||0) ? (c.first ? esc(c.x.readings[c.x.pick].plain) || '<i class="dim">[omitted]</i>' : '') : render(c, c.k==='n' ? c.x : note), note); at = c.e; });
+      node.kids.forEach(c => { out += esc(t.slice(at, c.s)) + (c.k==='s' && !sensIsOpen(b.id, c.x) ? `<span class="sens">${sensChip(c.x, false)}</span>` : wrap(c, c.k==='v' && c.x.pick !== (c.x.follow||0) ? (c.first ? esc(c.x.readings[c.x.pick].plain) || '<i class="dim">[omitted]</i>' : '') : render(c, c.k==='n' ? c.x : note), note)); at = c.e; });
       return out + esc(t.slice(at, node.e)); };
     return render(root); };
   return lines.length > 1 ? lines.map(l => `<span class="ln">${draw(l)}</span>`).join('') : draw(lines[0]);
@@ -871,7 +895,10 @@ function verseHTML(ver, key, T){
   }
   const src = isOrig(ver) ? T.orig[ver] : T.en[ver];
   const raw = (src || {})[key]; if(raw == null) return v === 0 ? '' : `<span class="v" id="${id}">${num}<span class="dim">—</span> </span>`;
-  const s = esc(raw).replace(/\[([^\]]+)\]/g, '<i>$1</i>');
+  let s = esc(raw).replace(/\[([^\]]+)\]/g, '<i>$1</i>');
+  /* a verse with a hidden passage is hidden whole in the other texts too (their wording can't be matched span by span) */
+  const hid = B.SENS && B.SENS[key];
+  if(hid){ const h0 = hid[0]; s = sensIsOpen(B.id, h0) ? `<span class="sens open">${sensChip(h0, true)} ${s}</span>` : `<span class="sens">${sensChip(h0, false)}</span>`; }
   return v === 0 ? `<span class="v vt" id="${id}">${s}</span>` : `<span class="v" id="${id}">${num}${markers(key)}${s} </span>`;
 }
 const ORIG_66 = new Set(['wlc','sbl','byz','hw','gw']);
@@ -1139,7 +1166,7 @@ function refPreview(r){
 }
 const SYNC = {};   // loaded texts, by book
 function textsNow(id){ if(SYNC[id]) return SYNC[id]; refTexts(id).then(x => SYNC[id] = x).catch(()=>{}); return null; }
-const verseLine = (got, cv) => (got.bk && got.bk.plain.v[cv]) || got.en.bsb[cv] || '';
+const verseLine = (got, cv) => (got.bk && got.bk.plain.v[cv] && maskVerse(got.bk, got.bk.id, cv, got.bk.plain.v[cv])) || got.en.bsb[cv] || '';
 
 /* ---------- modal ---------- */
 const modal = $('modal'), mbody = $('mbody'), mtype = $('mtype'), mback = $('mback');
@@ -1193,7 +1220,7 @@ function wireDeck(){ const d = $('deck'); if(!d) return;
   d.addEventListener('scroll', () => { const i = Math.round(d.scrollLeft / d.clientWidth); mbody.querySelectorAll('[data-deck]').forEach(b => b.classList.toggle('on', +b.dataset.deck === i)); }, {passive:true}); }
 function noteView(id){
   const n = B.data.notes[id], t = NOTE_TYPES[n.type], name = B.meta.name;
-  let h = `<h3 id="mtitle">${n.t}</h3><div class="quote">"${esc(n.a)}" <span class="small">(${name} ${n.v}, Plain English Translation)</span></div>`;
+  let h = `<h3 id="mtitle">${n.t}</h3><div class="quote">"${esc(maskVerse(B.data, B.id, n.v, plainOf(n.v), plainOf(n.v).indexOf(n.a), plainOf(n.v).indexOf(n.a) + n.a.length))}" <span class="small">(${name} ${n.v}, ${PNAME(B.id)})</span></div>`;
   if(n.orig) h += `<div class="gk">${n.orig}</div>`;
   if(n.type==='spec') h += `<p class="spec-note">This is my own idea, offered for you to test. It is not established scholarship.</p>`;
   h += para(n.b);
@@ -1217,7 +1244,7 @@ async function refView(r){
   const keys = RF.refVerses(r, 40); let got;
   try { got = await refTexts(r.book); SYNC[r.book] = got; } catch(e){ got = null; }
   let h = `<h3 id="mtitle">${label}</h3>`;
-  if(got){ const vlab = got.bk ? 'Plain English Translation' : 'Berean Standard Bible';
+  if(got){ const vlab = got.bk ? PNAME(r.book) : 'Berean Standard Bible';
     h += `<div class="vlab">${vlab}</div>` + keys.map(k => { const cv = k.slice(k.indexOf(' ')+1); return `<p class="vrow"><span class="vn">${cv.split(':')[1]}</span>${esc(verseLine(got, cv)).replace(/ \/ /g,' ')}</p>`; }).join('');
     if(got.bk) h += `<div class="vlab">Berean Standard Bible</div>` + keys.slice(0,6).map(k => { const cv = k.slice(k.indexOf(' ')+1); return `<p class="vrow"><span class="vn">${cv.split(':')[1]}</span>${esc(got.en.bsb[cv]||'')}</p>`; }).join('');
     if(keys.length >= 40) h += `<p class="small muted">The passage continues.</p>`;
@@ -1231,7 +1258,7 @@ async function verseView(key){
   const [id, cv] = key.split('|'), meta = BYID[id];
   const [got, links, orig] = await Promise.all([refTexts(id), load(`links/${id}.json`), load(`orig/${id}.json`)]);
   let h = `<h3 id="mtitle">${meta.name} ${cv}</h3>`;
-  if(got.bk && got.bk.plain.v[cv]) h += `<div class="vlab">Plain English Translation</div><p class="vrow">${esc(got.bk.plain.v[cv]).replace(/ \/ /g,' / ')}</p>`;
+  if(got.bk && got.bk.plain.v[cv]) h += `<div class="vlab">${PNAME(id)}</div><p class="vrow">${esc(maskVerse(got.bk, id, cv, got.bk.plain.v[cv])).replace(/ \/ /g,' / ')}</p>`;
   const sets = got.bk ? (B && B.id === id && B.SETS ? B.SETS : settingsOf(got.bk, id)).filter(x => x.keys.has(cv)) : [];
   if(sets.length) h += `<div class="vlab">Who heard it, and why</div>` + sets.map(x => `<p class="vrow small"><b>${x.what}</b> (${x.v}). ${x.by ? x.by + ', to ' : 'For '}${x.to}. ${x.why}${x.readers ? ' ' + x.readers : ''}${B && B.id === id ? ` <button class="linkish" data-setting="${x.i}">More</button>` : ''}</p>`).join('');
   [['bsb','BSB'],['kjv','KJV'],['web','WEB'],['asv','ASV'],['ylt','YLT']].forEach(([v,l]) => { if(got.en[v] && got.en[v][cv]) h += `<div class="vlab">${l}</div><p class="vrow">${esc(got.en[v][cv]).replace(/\[([^\]]+)\]/g,'<i>$1</i>')}</p>`; });
@@ -1248,10 +1275,21 @@ async function verseView(key){
   return {c:'var(--red)', type:`Verse · ${meta.name} ${cv}`, html:h};
 }
 
+/* Show or Hide one hidden passage: the verse is drawn again, and focus returns to the same control */
+async function toggleSens(btn){
+  const k = B.id + '|' + btn.dataset.sens, vEl = btn.closest('.v'); if(!vEl) return;
+  if(SOPEN.has(k)) SOPEN.delete(k); else SOPEN.add(k);
+  const key = vEl.id.slice(1).replace('-', ':');
+  vEl.outerHTML = verseHTML(B.ver, key, await textsFor(B.ver));
+  const nv = $(vEl.id); smartQuotes(nv);
+  const nb = nv.querySelector(`button[data-sens="${btn.dataset.sens}"]`); if(nb) nb.focus({preventScroll:true});
+}
+
 /* ---------- clicks ---------- */
 document.addEventListener('click', e => {
   const t = e.target;
   const ln = t.closest('a[href^="/"]'); if(ln && !ln.target && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey && e.button === 0){ e.preventDefault(); if(!modal.hidden) closeModal(); nav(ln.getAttribute('href')); return; }
+  const sn = t.closest('button[data-sens]'); if(sn){ e.preventDefault(); toggleSens(sn); return; }   // before notes: a chip can sit inside a note's words
   const sm = t.closest('[data-sample]'); if(sm){ showSample(+sm.dataset.sample); return; }
   const tg = t.closest('[data-tlgo]'); if(tg && TLV){ TLV.show(+tg.dataset.tlgo, true); return; }
   const tz = t.closest('[data-tlz]'); if(tz && TLV){ TLV.button(tz.dataset.tlz); return; }

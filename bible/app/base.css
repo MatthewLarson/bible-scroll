@@ -347,6 +347,15 @@ body.nogloss .gl{display:inline; margin:0; min-width:0 !important} body.nogloss 
 .box.setting .facts{border:none; background:none; padding:0; margin:6px 0}
 .setchip{display:flex; width:fit-content; max-width:100%; margin:8px 0 4px; padding:3px 12px; border:1.3px dashed var(--n-setting); border-radius:var(--wobble); background:none; color:var(--ink-2); font:inherit; font-family:var(--f-hand); font-size:.88rem; cursor:pointer; text-align:left}
 .setchip b{font-family:var(--f-display); font-weight:400; color:var(--n-setting); margin-right:4px}
+/* a hidden passage of a historical work (sensitive.json): a hand-drawn dashed chip with a summary and Show; open, a small Hide tab before the text */
+.sens{text-indent:0}
+.sens-chip{display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:2px 8px; max-width:100%; margin:2px 0; padding:2px 12px; border:1.3px dashed var(--ink-2); border-radius:var(--wobble); background:color-mix(in srgb, var(--ink-2) 6%, transparent); color:var(--ink-2); font:inherit; font-family:var(--f-hand); font-size:.9rem; line-height:1.3; text-align:left; cursor:pointer; vertical-align:baseline}
+.sens-k{font-family:var(--f-display); font-weight:400; letter-spacing:.03em}
+.sens-sum{font-style:italic}
+.sens-act{text-decoration:underline; text-underline-offset:3px}
+.sens-chip:hover, .sens-chip:focus-visible{background:color-mix(in srgb, var(--ink-2) 16%, transparent)}
+.sens-chip.open{padding:0 9px; font-size:.78rem; opacity:.85; margin-right:2px}
+.sens.open{border-bottom:1.2px dashed color-mix(in srgb, var(--ink-2) 45%, transparent)}
 .setchip:hover{background:color-mix(in srgb, var(--n-setting) 10%, transparent)}
 /* chapter maps (places from Bible Atlas, outlines from Natural Earth) */
 .amap{margin:8px 0 6px; max-width:100%}

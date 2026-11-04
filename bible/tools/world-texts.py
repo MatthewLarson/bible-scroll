@@ -141,7 +141,11 @@ def build(bid, pages, chapters, flood):
 
 def dump(path, obj): json.dump(obj, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 cat = json.load(open(f'{OUT}/catalog.json', encoding='utf-8'))
-cat['groups'] = [g for g in cat['groups'] if g['id'] != GROUP[0]] + [{'id': GROUP[0], 'name': GROUP[1], 't': 'X', 'books': [[i, n] for i, n, *_ in WORKS]}]
+# books of this group that other scripts own (tools/tacitus-texts.py) stay in the catalog, after this script's own
+mine = {w[0] for w in WORKS}
+keep_g = [b for g in cat['groups'] if g['id'] == GROUP[0] for b in g['books'] if b[0] not in mine]
+cat['groups'] = [g for g in cat['groups'] if g['id'] != GROUP[0]] + [{'id': GROUP[0], 'name': GROUP[1], 't': 'X', 'books': [[i, n] for i, n, *_ in WORKS] + keep_g}]
+keep_b = [b for b in cat['books'] if b.get('group') == GROUP[0] and b['id'] not in mine]
 cat['books'] = [b for b in cat['books'] if b.get('group') != GROUP[0]]
 for d in ('orig', 'en', 'auto', 'src'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
 for bid, name, work, pages, chapters, flood in WORKS:
@@ -150,4 +154,5 @@ for bid, name, work, pages, chapters, flood in WORKS:
     for k, v in src.items(): json.dump(v, open(f'{OUT}/src/{bid}.{k}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     cat['books'].append({'id': bid, 'name': name, 't': 'X', 'group': GROUP[0], 'vc': vc})
     print(bid, 'chapters', len(vc), 'verses', sum(vc), vc, 'auto', len(auto))
+cat['books'] += keep_b
 dump(f'{OUT}/catalog.json', cat)

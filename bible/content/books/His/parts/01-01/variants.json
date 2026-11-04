@@ -1,0 +1,584 @@
+[
+ {
+  "v": "1:2",
+  "a": "rich in disasters",
+  "t": "A doubtful word in the first sentence",
+  "p": "Fisher's Latin marks the word before \"disasters\" with a dagger (doubtful); the English base reads it as \"rich.\"",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911), where the word is printed with a dagger",
+    "orig": "†opimum casibus",
+    "en": "(doubtful word) rich in disasters",
+    "plain": "rich in disasters"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "a period rich in disasters",
+    "plain": "rich in disasters"
+   }
+  ],
+  "follow": 1,
+  "why": "Fisher marks <i>opimum</i> with a dagger, the editor's sign that the word may be corrupt. The English base and the Conversational English Translation both read it as \"rich,\" the ordinary sense of <i>opimus</i>. The Latin text on the site prints no alternative reading, so none is offered here.",
+  "b": "The dagger (†) is the editor's sign that the word is corrupt or doubtful. Treat \"rich in\" as the likely sense, not a certainty.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "Marcianus",
+  "t": "Marcianus or Martianus?",
+  "p": "The Latin and Plutarch give Marcianus; the English base prints Martianus.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911); Plutarch, Galba 7 (Perrin)",
+    "orig": "Marcianum vocitabant",
+    "en": "they called him Marcianus",
+    "plain": "Marcianus"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "bore the Equestrian name of Martianus",
+    "plain": "Martianus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>Marcianum</i> here and <i>Marcianum Icelum</i> at 1:46, and Plutarch gives the name as Marcianus. The English base prints Martianus. The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng",
+   "plutarch-lives",
+   "plutarch-galba-perrin"
+  ]
+ },
+ {
+  "v": "1:18",
+  "a": "4th and 22nd",
+  "t": "Which legions mutinied: the 4th and 22nd, or the 4th and 18th?",
+  "p": "The English base says 18th; the Latin says 22nd.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "quartam et duoetvicensimam legiones",
+    "en": "the 4th and 22nd legions",
+    "plain": "4th and 22nd"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the 4th and 18th legions",
+    "plain": "4th and 18th"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has \"the fourth and the twenty-second.\" The Church and Brodribb English reads 18th. The Conversational English Translation follows the Latin, and the legions at 1:55 and 1:56 are the same two.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:19",
+  "a": "those who had not wanted him were more lavish",
+  "t": "Did Piso's opponents speak lavishly or moderately?",
+  "p": "The Latin says those who had not wanted him spoke more lavishly; the English base says in moderate terms.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "effusius qui noluerant",
+    "en": "those who had not wanted it spoke more lavishly",
+    "plain": "those who had not wanted him were more lavish"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "those who had opposed him, in moderate terms",
+    "plain": "those who had opposed him spoke in moderate terms"
+   }
+  ],
+  "follow": 0,
+  "why": "Latin <i>effusius</i> means \"more freely, more lavishly,\" the opposite of moderate. The sense fits Tacitus's point that senators who disliked the choice made up for it with extra praise.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:22",
+  "a": "its adulteries, its marriages",
+  "t": "Nero's court: adulteries and marriages, or easy marriages?",
+  "p": "The Latin lists adulteries and marriages; the English base has a single phrase.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "adulteria, matrimonia",
+    "en": "its adulteries, its marriages",
+    "plain": "its adulteries, its marriages"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "its easy marriages",
+    "plain": "its easy marriages"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has two nouns, <i>adulteria</i> and <i>matrimonia</i>. The English base merges them. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:31",
+  "a": "Domitius Sabinus",
+  "t": "Domitius Sabinus or Quintius Sabinus?",
+  "p": "The Latin has Domitio Sabino; the English base has Quintius Sabinus.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Domitio Sabino",
+    "en": "Domitius Sabinus",
+    "plain": "Domitius Sabinus"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Quintius Sabinus",
+    "plain": "Quintius Sabinus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin names Domitius Sabinus. The translation uses the Latin, and the lead's alignment lists this name for all five parts.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:37",
+  "a": "the Aegiali",
+  "t": "The Aegiali or the Elii?",
+  "p": "The Latin names the Aegiali; the English base has the Elii.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Polycliti et Vatinii et Aegiali",
+    "en": "the Polycleti, the Vatinii and the Aegiali",
+    "plain": "the Aegiali"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the Polycleti, the Vatinii and the Elii",
+    "plain": "the Elii"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>Aegiali</i>. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:38",
+  "a": "a single cohort in civilian dress",
+  "t": "Civilian dress or half-armed?",
+  "p": "The Latin says a cohort in the toga; the English base says half-armed.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "una cohors togata",
+    "en": "one cohort in the toga (civilian dress)",
+    "plain": "a single cohort in civilian dress"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "one half-armed cohort",
+    "plain": "one half-armed cohort"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Togata</i> means \"wearing the toga\": the escort was in civilian dress, not armor. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:41",
+  "a": "a veteran called back to service",
+  "t": "Terentius, a recalled veteran, or an enrolled pensioner?",
+  "p": "The Latin says evocatum, a veteran called back; the English base says enrolled pensioner.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Terentium evocatum",
+    "en": "Terentius, a veteran called back to service",
+    "plain": "a veteran called back to service"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "an enrolled pensioner",
+    "plain": "an enrolled pensioner"
+   }
+  ],
+  "follow": 0,
+  "why": "An <i>evocatus</i> was a discharged soldier called back to service. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:46",
+  "a": "Laco, the Praetorian prefect",
+  "t": "Laco, prefect of what?",
+  "p": "The Latin says only \"Laco praefectus\"; the English base says prefect of the city.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Laco praefectus",
+    "en": "Laco, the prefect",
+    "plain": "Laco, the Praetorian prefect"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Laco, prefect of the city",
+    "plain": "Laco, prefect of the city"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has no \"of the city.\" Laco is the Praetorian prefect (1:13, 1:26), and the city prefect is Flavius Sabinus, named earlier in the same verse. The translation says Praetorian prefect to match.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:46",
+  "a": "Marcianus Icelus",
+  "t": "Marcianus Icelus or Martianus Icelus?",
+  "p": "The Latin has Marcianum Icelum; the English base prints Martianus.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "in Marcianum Icelum",
+    "en": "against Marcianus Icelus",
+    "plain": "Marcianus Icelus"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Martianus Icelus",
+    "plain": "Martianus Icelus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>Marcianum Icelum</i>, as at 1:13. The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:55",
+  "a": "the 4th and 22nd legions, in the same winter camp",
+  "t": "Which legions of the Upper army?",
+  "p": "The Latin names the 4th and 22nd; the English base names the 4th and 13th and adds the 18th.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "quarta ac duetvicensima",
+    "en": "the 4th and 22nd legions",
+    "plain": "the 4th and 22nd legions, in the same winter camp"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the 4th and 13th legions, with the 18th joining",
+    "plain": "the 4th and 13th legions, in the same winter camp"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has the 4th and 22nd and says the 22nd hesitated. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:56",
+  "a": "Four centurions of the 22nd legion",
+  "t": "Centurions of the 22nd or the 18th?",
+  "p": "The Latin names the 22nd legion; the English base names the 18th.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "quattuor centuriones duetvicensimae legionis",
+    "en": "four centurions of the 22nd legion",
+    "plain": "Four centurions of the 22nd legion"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "four centurions of the 18th legion",
+    "plain": "Four centurions of the 18th legion"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has \"twenty-second.\" The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:56",
+  "a": "the 4th and 22nd legions had thrown down Galba's images",
+  "t": "The two legions in the eagle-bearer's message",
+  "p": "The Latin names the 4th and 22nd; the English base names the 4th and 18th.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "quartam et duetvicensimam legiones proiectis Galbae imaginibus",
+    "en": "the 4th and 22nd legions had thrown down Galba's images",
+    "plain": "the 4th and 22nd legions had thrown down Galba's images"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the 4th and 18th legions had thrown down Galba's images",
+    "plain": "the 4th and 18th legions had thrown down Galba's images"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has the 22nd, as at 1:18 and 1:55. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:56",
+  "a": "eagle-bearer of the 4th legion",
+  "t": "Eagle-bearer or standard-bearer?",
+  "p": "The Latin says aquilifer, the man who carried the eagle; the English base says standard-bearer.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "aquilifer quartae legionis",
+    "en": "the eagle-bearer of the 4th legion",
+    "plain": "eagle-bearer of the 4th legion"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the standard-bearer of the 4th legion",
+    "plain": "standard-bearer of the 4th legion"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Aquilifer</i> is exact: the man who carried the legion's eagle. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:70",
+  "a": "cohorts of Gauls, Lusitanians and Britons, detachments of Germans",
+  "t": "Which units did Caecina send ahead?",
+  "p": "The Latin names cohorts of Gauls, Lusitanians and Britons; the English base names auxiliary infantry from Gaul, Lusitania and Raetia.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Gallorum Lusitanorumque et Britannorum cohortibus et Germanorum vexillis",
+    "en": "cohorts of Gauls, Lusitanians and Britons, and detachments of Germans",
+    "plain": "cohorts of Gauls, Lusitanians and Britons, detachments of Germans"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "auxiliary infantry from Gaul, Lusitania and Raetia, and veteran troops from Germany",
+    "plain": "auxiliary infantry from Gaul, Lusitania and Raetia, veteran troops from Germany"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has Britons, not Raetians, and \"detachments\" (<i>vexilla</i>), not \"veteran troops.\" The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:72",
+  "a": "Tigellinus was born",
+  "t": "Tigellinus's first name",
+  "p": "The Latin gives Ofonius; the English base gives Sophonius; the translation leaves it out.",
+  "readings": [
+   {
+    "w": "The Conversational English Translation (surname only)",
+    "orig": "(surname)",
+    "en": "Tigellinus",
+    "plain": "Tigellinus was born"
+   },
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Ofonius Tigellinus",
+    "en": "Ofonius Tigellinus",
+    "plain": "Ofonius Tigellinus was born"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Sophonius Tigellinus",
+    "plain": "Sophonius Tigellinus was born"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin and the English base give different forenames, so the translation uses the surname alone, which both texts share.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:73",
+  "a": "Calvia Crispinilla",
+  "t": "Calvia or Galvia?",
+  "p": "The Latin spells Calvia; the English base spells Galvia.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Calvia Crispinilla",
+    "en": "Calvia Crispinilla",
+    "plain": "Calvia Crispinilla"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Galvia Crispinilla",
+    "plain": "Galvia Crispinilla"
+   }
+  ],
+  "follow": 0,
+  "why": "The translation follows the Latin spelling.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:77",
+  "a": "Saevinius Pomptinius",
+  "t": "A damaged name in the Latin",
+  "p": "Fisher's Latin marks the name with a dagger (corrupt); the English base prints Saevinius Pomptinius.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911), where the name is printed with a dagger",
+    "orig": "†Saevino P",
+    "en": "Saevino P. (the text is damaged)",
+    "plain": "Saevino P."
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "Saevinius Pomptinius",
+    "plain": "Saevinius Pomptinius"
+   }
+  ],
+  "follow": 1,
+  "why": "Fisher's Latin text is marked as corrupt at this name, and the English base fills it in as Saevinius Pomptinius. The Conversational English Translation keeps the English base's name because the Latin offers no whole name.",
+  "b": "The dagger (†) is the editor's sign that the words are corrupt. The reader should treat the name as uncertain.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:82",
+  "a": "prefect of a legion",
+  "t": "Prefect of a legion, or just the prefect?",
+  "p": "The Latin says prefect of the legion; the English base says the prefect.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "praefecto legionis",
+    "en": "the prefect of a legion",
+    "plain": "prefect of a legion"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the prefect",
+    "plain": "the prefect"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>legionis</i>. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:87",
+  "a": "The freedman Moschus",
+  "t": "Moschus or Oscus?",
+  "p": "The Latin names Moschus; the English base names Oscus.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "Moschus libertus",
+    "en": "the freedman Moschus",
+    "plain": "The freedman Moschus"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "the freedman Oscus",
+    "plain": "The freedman Oscus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>Moschus</i>. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ },
+ {
+  "v": "1:87",
+  "a": "former chief centurions",
+  "t": "Former chief centurions or centurions of the first rank?",
+  "p": "The Latin says primipilares; the English base says centurions of the first rank.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text, Latin, Perseus (1911)",
+    "orig": "primipilaribus",
+    "en": "former chief centurions (men who had been primus pilus)",
+    "plain": "former chief centurions"
+   },
+   {
+    "w": "Church and Brodribb English, Perseus (1864)",
+    "orig": "(English only)",
+    "en": "centurions of the first rank",
+    "plain": "centurions of the first rank"
+   }
+  ],
+  "follow": 0,
+  "why": "<i>Primipilaris</i> is a man who had held the post of chief centurion. The translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-lat",
+   "perseus-tacitus-eng"
+  ]
+ }
+]

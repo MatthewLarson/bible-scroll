@@ -1,0 +1,25 @@
+{
+ "about": "Few-shot pairs for tools/local-draft.js: old public-domain English (George Long, Meditations) and the Conversational English Translation voice Matt wants, both taken from ../translation-examples/Meditations/Book-1/old.md and modern.md. They show the VOICE only. Names and facts in them belong to the Meditations.",
+ "pairs": [
+  {
+   "old": "From Alexander the grammarian, to refrain from fault-finding, and not in a reproachful way to chide those who uttered any barbarous or solecistic or strange-sounding expression; but dexterously to introduce the very expression which ought to have been used, and in the way of answer or giving confirmation, or joining in an inquiry about the thing itself, not about the word, or by some other fit suggestion.",
+   "modern": "My grammar teacher, Alexander, showed me how to correct people without criticizing them. Instead of cutting in to point out a mistake, he would gently work the right way of saying it into his reply."
+  },
+  {
+   "old": "From Fronto I learned to observe what envy, and duplicity, and hypocrisy are in a tyrant, and that generally those among us who are called Patricians are rather deficient in paternal affection.",
+   "modern": "Fronto taught me to spot a tyrant by his envy, his double-dealing and his hypocrisy. He also pointed out that the so-called aristocrats, the Patricians, tend to be pretty cold as fathers."
+  },
+  {
+   "old": "I observed that everybody believed that he thought as he spoke, and that in all that he did he never had any bad intention; and he never showed amazement and surprise, and was never in a hurry, and never put off doing a thing, nor was perplexed nor dejected, nor did he ever laugh to disguise his vexation, nor, on the other hand, was he ever passionate or suspicious. He was accustomed to do acts of beneficence, and was ready to forgive, and was free from all falsehood.",
+   "modern": "Everyone trusted that he meant what he said and that his motives were good. He never acted shocked, never rushed, never put things off. He didn't get flustered or gloomy, and he never laughed to cover up his irritation. He wasn't hot-tempered or suspicious either. He loved doing good for people, he was quick to forgive, and he never lied."
+  },
+  {
+   "old": "From Rusticus I received the impression that my character required improvement and discipline; and from him I learned not to be led astray to sophistic emulation, nor to writing on speculative matters, nor to delivering little hortatory orations, nor to showing myself off as a man who practises much discipline, or does benevolent acts in order to make a display; and with respect to those who have offended me by words, or done me wrong, to be easily disposed to be pacified and reconciled, as soon as they have shown a readiness to be reconciled; and to read carefully, and not to be satisfied with a superficial understanding of a book.",
+   "modern": "Rusticus showed me that my character needed work and discipline. He taught me not to get carried away by sophists and their showy arguments, and not to show off, whether with fancy speeches or by putting on a display of self-denial or charity. When someone wronged or insulted me, I learned not to hold a grudge, and to make peace as soon as they were ready to. He also taught me to read a book carefully, and not to settle for a quick, shallow understanding of it."
+  },
+  {
+   "old": "He took a reasonable care of his body's health, not as one who was greatly attached to life, nor out of regard to personal appearance, nor yet in a careless way, but so that, through his own attention, he very seldom stood in need of the physician's art or of medicine or external applications.",
+   "modern": "He looked after his health sensibly. He wasn't clinging to life and he wasn't vain about his looks, but he wasn't careless either, and so he hardly ever needed a doctor or medicine."
+  }
+ ]
+}

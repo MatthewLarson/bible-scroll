@@ -1,0 +1,300 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "rome",
+    "italy",
+    "illyricum",
+    "dalmatia",
+    "spain",
+    "greece",
+    "philippi",
+    "asia",
+    "cappadocia",
+    "syria",
+    "judea",
+    "egypt",
+    "alexandria"
+   ],
+   "people": [],
+   "events": []
+  },
+  "2": {
+   "places": [
+    "rome",
+    "italy",
+    "illyricum",
+    "dalmatia",
+    "spain",
+    "corinth",
+    "achaia",
+    "philippi",
+    "asia",
+    "galatia",
+    "pamphylia",
+    "cilicia",
+    "cappadocia",
+    "pontus",
+    "rhodes",
+    "cyprus",
+    "paphos",
+    "syria",
+    "antioch-syria",
+    "judea",
+    "jerusalem",
+    "caesarea",
+    "mount-carmel",
+    "egypt",
+    "alexandria",
+    "great-sea"
+   ],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [
+    "rome",
+    "italy",
+    "illyricum",
+    "dalmatia",
+    "spain",
+    "puteoli",
+    "asia",
+    "pontus",
+    "syria",
+    "egypt",
+    "alexandria"
+   ],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [
+    "rome",
+    "italy",
+    "illyricum",
+    "spain",
+    "pontus",
+    "syria",
+    "seleucia",
+    "judea",
+    "egypt",
+    "alexandria",
+    "memphis",
+    "cyrene"
+   ],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [
+    "rome",
+    "italy",
+    "spain",
+    "syria",
+    "judea",
+    "jerusalem",
+    "phenicia",
+    "mount-lebanon",
+    "jordan",
+    "arabia",
+    "euphrates",
+    "crete",
+    "egypt",
+    "alexandria",
+    "great-sea"
+   ],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "rome": {
+   "name": "Rome",
+   "lat": 41.89262,
+   "lon": 12.4843457
+  },
+  "italy": {
+   "name": "Italy",
+   "lat": 42.78740074008558,
+   "lon": 12.0810743
+  },
+  "illyricum": {
+   "name": "Illyricum",
+   "lat": 43.515484,
+   "lon": 16.071538
+  },
+  "dalmatia": {
+   "name": "Dalmatia",
+   "lat": 43.515484,
+   "lon": 16.071538
+  },
+  "spain": {
+   "name": "Spain",
+   "lat": 40.481391,
+   "lon": -3.175332
+  },
+  "greece": {
+   "name": "Greece",
+   "lat": 39.04697922405934,
+   "lon": 22.97947876
+  },
+  "corinth": {
+   "name": "Corinth",
+   "lat": 37.906045,
+   "lon": 22.878721
+  },
+  "achaia": {
+   "name": "Achaia",
+   "lat": 37.5,
+   "lon": 22.5
+  },
+  "philippi": {
+   "name": "Philippi",
+   "lat": 41.01316,
+   "lon": 24.28409
+  },
+  "puteoli": {
+   "name": "Puteoli",
+   "lat": 40.827957,
+   "lon": 14.121869
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "galatia": {
+   "name": "Galatia",
+   "lat": 37.5,
+   "lon": 32.5
+  },
+  "pamphylia": {
+   "name": "Pamphylia",
+   "lat": 36.990721,
+   "lon": 30.98638
+  },
+  "cilicia": {
+   "name": "Cilicia",
+   "lat": 36.91802695356275,
+   "lon": 34.89153398422567
+  },
+  "cappadocia": {
+   "name": "Cappadocia",
+   "lat": 37.5,
+   "lon": 35.75
+  },
+  "pontus": {
+   "name": "Pontus",
+   "lat": 40.5,
+   "lon": 36.5
+  },
+  "rhodes": {
+   "name": "Rhodes",
+   "lat": 36.41451,
+   "lon": 28.15629
+  },
+  "cyprus": {
+   "name": "Cyprus",
+   "lat": 35.040883529816504,
+   "lon": 33.27533716
+  },
+  "paphos": {
+   "name": "Paphos",
+   "lat": 34.707147,
+   "lon": 32.573711
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "antioch-syria": {
+   "name": "Antioch (Syria)",
+   "lat": 36.200663,
+   "lon": 36.165318
+  },
+  "seleucia": {
+   "name": "Seleucia",
+   "lat": 36.11705,
+   "lon": 35.93815
+  },
+  "judea": {
+   "name": "Judea",
+   "lat": 31.777444,
+   "lon": 35.234935
+  },
+  "jerusalem": {
+   "name": "Jerusalem",
+   "lat": 31.776667,
+   "lon": 35.234167
+  },
+  "caesarea": {
+   "name": "Caesarea",
+   "lat": 32.4987775,
+   "lon": 34.8912663
+  },
+  "mount-carmel": {
+   "name": "Mount Carmel",
+   "lat": 32.72935016,
+   "lon": 35.04978957
+  },
+  "phenicia": {
+   "name": "Phenicia",
+   "lat": 33.25,
+   "lon": 35.25
+  },
+  "mount-lebanon": {
+   "name": "Mount Lebanon",
+   "lat": 33.752479,
+   "lon": 35.590804
+  },
+  "jordan": {
+   "name": "Jordan",
+   "lat": 33.1864496,
+   "lon": 35.6191595
+  },
+  "arabia": {
+   "name": "Arabia",
+   "lat": 27.4,
+   "lon": 37.7
+  },
+  "euphrates": {
+   "name": "Euphrates",
+   "lat": 34.74942377777777,
+   "lon": 40.93640094
+  },
+  "crete": {
+   "name": "Crete",
+   "lat": 35.23102579604995,
+   "lon": 24.85162918
+  },
+  "egypt": {
+   "name": "Egypt",
+   "lat": 26.4902014068366,
+   "lon": 29.88079617
+  },
+  "alexandria": {
+   "name": "Alexandria",
+   "lat": 31.195371,
+   "lon": 29.904133
+  },
+  "memphis": {
+   "name": "Memphis",
+   "lat": 29.849667,
+   "lon": 31.254278
+  },
+  "cyrene": {
+   "name": "Cyrene",
+   "lat": 32.818736,
+   "lon": 21.856169
+  },
+  "great-sea": {
+   "name": "Great Sea",
+   "lat": 36.58019792933332,
+   "lon": 17.11536173
+  }
+ },
+ "people": {},
+ "events": {}
+}

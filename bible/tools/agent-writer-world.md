@@ -1,7 +1,8 @@
 # Brief: write a writing of another people or religion (or one part of it)
 
 You are writing study content for a writing that is neither Jewish nor Christian (works.json tier `world`, catalog
-group "Other peoples and religions"), for the same study website as the 66 books. Follow `tools/agent-writer.md`
+group "Other peoples and religions": the sacred writings of other religions and the historical and philosophical
+works of other peoples, such as Atrahasis or Marcus Aurelius's Meditations), for the same study website as the 66 books. Follow `tools/agent-writer.md`
 (read it in full) and everything it points to (PLAN.md, STYLE.md, terms.json, works.json, traditions). Read
 `tools/agent-writer-works.md` too: its rules on the `canon` block, `canon` notes, quotations of the 66 and checking
 apply here unless this brief says otherwise. This brief lists what differs. The book's own brief
@@ -45,6 +46,49 @@ What that means in practice:
    the scribes who wrote these lines were asking real questions (why we work, why we die, why the gods sent the
    Flood), and the Bible answers them differently.
 
+## How these books are translated (Matt's decision, 2026-11-03)
+These are not Scripture, so the site's own translation of a `world` book is the **Conversational English Translation** (Matt named it,
+2026-11-03), never called the Plain English Translation, which is the stricter translation of Scripture. It is a
+free, idiomatic rendering: sense for
+sense, in the way Americans talk today, with their expressions and idioms, not word for word. The model is
+`../translation-examples/Meditations/Book-1/` (`old.md` is George Long's English, `modern.md` the voice Matt wants). In that voice:
+- Contractions, everyday words, short sentences; common expressions where they carry the meaning ("mind my own
+  business", "not pick favorites at the races"). Lists may become sentences, sentences may be split, merged and
+  reordered. Old customs may be put the way a reader today would get them, with the original detail in a gloss or
+  note ("the green and blue parties", the chariot-racing factions).
+- A short identification in parentheses may stand in the text where the reader needs it to follow ("my adoptive
+  father (Emperor Antoninus Pius)"), but only a fact checked in this session, with its source in sources.json.
+- Every thought of the original stays. The example leaves some lines out (Marcus's thanks about his grandfather's
+  concubine, Benedicta and Theodotus, the cures shown in dreams, his brother, the closing "Among the Quadi at the
+  Granua"); the site does not. Shortening wording is fine; dropping content is hiding it.
+- Never modern in ways the author could not mean: no anachronisms, no jokes the author did not make. The voice is
+  modern; the content is his.
+- The reading level may run a little above the Bible's 8th grade where the author's subject needs its words
+  (sophist, syllogism, Providence); gloss each at first use.
+- Never copy or lean on a copyrighted modern translation, including the example's `modern.md`, which shows the voice
+  only.
+
+Two routes, set in the book's brief:
+1. **English-base route (preferred).** Where a public-domain or openly licensed English translation exists (for the
+   Meditations, George Long's), it is the base. The brief names it after its licence is checked.
+   - **Import.** The fetch script for the book (`tools/world-fetch.sh` and `tools/world-texts.py`) writes every free
+     English translation into `texts/en/<id>.json`, one key each, with an `about` entry (translator, year, licence,
+     where it came from), and the original-language text, where a free edition exists, into `texts/orig/<id>.json`.
+     The site already offers each `texts/en` text as an alternate translation, the way it offers the KJV and BSB for
+     the Bible; notes, glosses and topic links show only in the Conversational English Translation. Import a text only after
+     its licence is checked in something opened; never import a copyrighted translation.
+   - **Local draft.** Matt's local model writes plain.txt for each part from the base, following
+     `tools/agent-translator-local.md`, and nothing else. `node tools/base-lines.js <id> <chapter>` prints the base.
+   - **Claude's pass (you).** The local model is trusted with the wording only. You do everything else, and do not
+     take any fact from its draft: read `.scratch/<id>-<a>-<b>/local-questions.md` first; check every verse against
+     the base and, where `texts/orig` has it, the original (Greek, Latin...); fix any verse that drops, adds or bends
+     a thought, or slides into old or stiff English; then write the notes, glosses, variants, chapter pages, topics,
+     sources and cross-references (to the 66, to other works, to other writings of the same culture), as for any book.
+     Note where the free rendering departs far from the words, with the original or the base's wording, so the
+     reader can see it (`word` notes). Record what you changed in the draft in your report.
+2. **Original-language route.** Where no free English exists (Atrahasis), you translate from the original as below,
+   in the same idiomatic voice.
+
 ## Sources (generated, read-only)
 `texts/orig/<id>.json` `akk` (for Akkadian books): the Akkadian of each verse in transliteration, from the
 best-preserved copy, each starting with its tablet line ("I 36:", "II E 78b:", "III ii 30'':"). `line` gives each
@@ -57,17 +101,17 @@ The SEAL pages themselves (`.cache/dl/seal/node<n>.html`, from `tools/world-fetc
 the list of copies (sigla) with their museum numbers, places and dates, and the bibliography: read them with a
 script when you need a witness named exactly.
 
-There is no English text in `texts/en/` for these books: the only English help is SEAL's word glosses. The Plain English Translation is a
+There is no English text in `texts/en/` for these books: the only English help is SEAL's word glosses. The Conversational English Translation is a
 fresh translation from the Akkadian. Copyrighted translations you must not copy or lean on (drift audit in your head,
 as agent-writer.md describes for the NIV and ESV): for Atrahasis, W. G. Lambert and A. R. Millard (1969), B. R. Foster
 (<i>Before the Muses</i>; <i>Context of Scripture</i>), S. Dalley (<i>Myths from Mesopotamia</i>), E. A. Speiser in
 <i>ANET</i>, N. Wasserman (<i>The Flood: The Akkadian Sources</i>, 2020, open access under CC BY-NC-ND, so not to be
 adapted), T. Jacobsen, and any English that SEAL itself prints. You may read them to check a hard line's sense, as
-the 66-book writers check the BSB, but the Plain English Translation must come from the literal line.
+the 66-book writers check the BSB, but the Conversational English Translation must come from the literal line.
 
 ## Translating
 - Every verse starts from `python tools/akk-literal.py <id> <chapter>`, saved in your scratch folder, then edited into
-  plain 8th-grade English. Akkadian poetry is built in pairs of lines that echo each other; keep each verse to its own
+  English in the voice above. Akkadian poetry is built in pairs of lines that echo each other; keep each verse to its own
   line, so the pairs show.
 - Broken lines: translate what survives and mark each gap with "...". Words SEAL restores in [brackets] from a repeated
   passage or another copy may be translated as text; a restoration SEAL marks with "?" or that rests on no parallel
@@ -78,7 +122,7 @@ the 66-book writers check the BSB, but the Plain English Translation must come f
 - Variants: the copies differ often (an Old Babylonian copy against a Neo-Assyrian or Late Babylonian one). Record in
   variants.json every difference that changes the meaning, naming the copies by SEAL's sigla with what they are
   ("A, the Old Babylonian copy of Ipiq-Aya from Sippar"; read SEAL's sigla list for each), the Akkadian, an English
-  rendering, and the Plain English Translation wording with that reading. Where the base copy is broken and the Plain English Translation follows another
+  rendering, and the Conversational English Translation wording with that reading. Where the base copy is broken and the Conversational English Translation follows another
   copy that agrees wherever both survive, the reader still needs to know which copy the words rest on, but that is
   not a difference: give one entry per run of such lines, on the run's first verse, naming the verses and the copy,
   not an entry per verse. Spelling differences need no entry.
@@ -109,7 +153,9 @@ the 66-book writers check the BSB, but the Plain English Translation must come f
   nations are demons or nothing), sourced like any other card.
 
 ## Book-level files
-The book.json owner writes `canon` with `"tier": "world"`. Beyond the fields agent-writer-works.md lists:
+The book.json owner writes `canon` with `"tier": "world"`. and `"style": "conversational"` (the build then names the site's
+translation the Conversational English Translation on every page; a book translated before 2026-11-03, such as Atrahasis, keeps the
+Plain English Translation name until it is redone in this voice). Beyond the fields agent-writer-works.md lists:
 - `accepted_by`: who held it sacred and who does not (its first hearers' temples and scribes; Judaism; the churches;
   any living group that uses it), at least two rows.
 - `rejected_why`: why Jews and Christians do not read it as Scripture, in plain terms (it is the scripture of other
@@ -137,3 +183,24 @@ merges. Never edit an existing topic core or another book's folder.
 ## Check
 `node tools/build.js --check <id>/<part>` until 0 errors and 0 warnings in your part. Keep `sources-checked.md` in your
 scratch folder (STYLE.md rule 2): every scholar's view, date, museum number and witness you state, and where you saw it.
+
+## Sensitive passages (Matt, 2026-11-03; this group only, never the 66 or the other tiers)
+The standard is roughly PG-13. Content a PG-13 film would show or imply (battle deaths, executions stated plainly, adultery
+or rape mentioned without detail, rough language) stays in the open text. Content past that (graphic or lingering gore and
+torture, explicit sexual description, crude detail dwelt on) is hidden behind a short summary; the reader presses Show to
+read it. The translation is never cut or softened: the full text stays in plain.txt, so notes keep working. It is a judgement
+call per passage, and the Bible's own sexual, crude and violent material is the yardstick: if the Bible is as frank, leave it.
+
+You write the entries only when the review (`## Sensitive passages` in review.md) or your own reading finds a candidate. One
+file per part, `sensitive.json` next to plain.txt (the book's folder if it has no parts):
+`[{"v": "2:45", "text": "<exact words from that verse's plain.txt>", "kind": "sexual" | "crude" | "violence", "summary": "<one short line>"}]`
+- `text` is the span to hide: the whole verse text, or only the offending sentence or phrase. It must occur exactly once in
+  the verse, must not contain " / ", and must not overlap another entry. A note or gloss must sit wholly inside the span or
+  wholly outside it (or enclose it); the build errors on a partial overlap. Several entries per verse are fine.
+- `summary` (140 characters at most) is neutral and high level: it names the kind of thing, with no explicit detail, no
+  moralizing and no judgement of the people involved. Good: "A graphic account of how the senators were killed." Bad: the
+  same line with the method named, or "A disgusting orgy." Also keep explicit detail out of the title, preview and
+  anchor of notes inside a hidden span: the chip hides the verse text, not your notes.
+- The build allows the file only for books whose book.json has `canon.tier: "world"`.
+
+Run `node tools/build.js --check <id>/<part>` after writing it.

@@ -1,0 +1,499 @@
+[
+ {
+  "v": "3:4",
+  "a": "Tampius Flavianus",
+  "t": "Tampius or Ampius?",
+  "p": "Fisher's Latin has Tampius; the older English splits it as \"T. Ampius.\"",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Tampius Flavianus",
+    "en": "Tampius Flavianus",
+    "plain": "Tampius Flavianus"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "T. Ampius Flavianus",
+    "en": "T. Ampius Flavianus",
+    "plain": "T. Ampius Flavianus"
+   }
+  ],
+  "follow": 0,
+  "why": "The lead's alignment chose the Latin form of the name for all five parts. The English reads the first letter as an abbreviation of a first name.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "faithful to any trust given them",
+  "t": "A damaged word in the Latin",
+  "p": "The Latin text has a corrupt word here; the translation follows the sense of the older English.",
+  "readings": [
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "their nation was more faithful than the other to any trust reposed in them",
+    "en": "their nation was more faithful than the other to any trust reposed in them",
+    "plain": "faithful to any trust given them"
+   },
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "gens fidei patientior (the word between daggers, commissior, left out)",
+    "en": "a people more enduring in their loyalty (the daggered word left out, the rest translated word for word)",
+    "plain": "enduring in their loyalty"
+   }
+  ],
+  "follow": 0,
+  "why": "The editor of the Oxford text marks the word <i>commissior</i> with daggers as corrupt: <i>gens fidei †commissior† patientior</i>. The Conversational English Translation follows the sense of the Church and Brodribb English. The second reading here is not a manuscript reading: it is the Latin with the daggered word dropped and the rest translated. No manuscript is named for it.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "Portius Septimius",
+  "t": "Portius Septimius or Porcius Septiminus?",
+  "p": "The Latin spells the procurator's name differently from the older English.",
+  "readings": [
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Portius Septimius",
+    "en": "Portius Septimius",
+    "plain": "Portius Septimius"
+   },
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Porcius Septiminus",
+    "en": "Porcius Septiminus",
+    "plain": "Porcius Septiminus"
+   }
+  ],
+  "follow": 0,
+  "why": "Spelling-only differences keep the Church and Brodribb form (the lead's alignment rule). The Latin spelling is given here so the reader can see it.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:7",
+  "a": "the 13th (the Gemina)",
+  "t": "The 13th legion or the 18th?",
+  "p": "The Latin has the 13th Gemina; the older English says the eighteenth.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "tertia decima Gemina",
+    "en": "the 13th, the Gemina",
+    "plain": "the 13th (the Gemina)"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "the eighteenth (the Gemina)",
+    "en": "the eighteenth (the Gemina)",
+    "plain": "the 18th (the Gemina)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin words are <i>tertia decima Gemina</i>, the 13th Gemina. That is the legion that wintered at Petovio (3:1) and storms the Brixian gate at Cremona (3:27), so the older English \"eighteenth\" does not match the Latin or the rest of the book. The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:13",
+  "a": "the 1st and the 14th",
+  "t": "The 14th legion or the 12th?",
+  "p": "The Latin has the 1st and the 14th legions, the older English the first and the twelfth.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "primanos quartadecimanosque",
+    "en": "the men of the 1st and the 14th",
+    "plain": "the 1st and the 14th"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "the first and the twelfth",
+    "en": "the first and the twelfth",
+    "plain": "the 1st and the 12th"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin words are <i>primani</i> and <i>quartadecimani</i>, the men of the 1st and the 14th legions. The Church and Brodribb English has \"twelfth,\" which does not match the Latin as printed by Fisher. The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:24",
+  "a": "You civilians",
+  "t": "Civilians or clowns?",
+  "p": "The Latin word means people who are not soldiers; the older English says \"clowns.\"",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "pagani",
+    "en": "civilians (people who are not soldiers)",
+    "plain": "You civilians"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Clowns",
+    "en": "Clowns",
+    "plain": "You clowns"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin word is <i>pagani</i>, civilians. The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:25",
+  "a": "killed and stripped their relatives, in-laws and brothers",
+  "t": "Killed and stripped, or stripped the bodies?",
+  "p": "The Latin has two verbs, killed and stripped. The older English has only the stripping.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "propinquos adfinis fratres trucidant spoliant",
+    "en": "they butcher and strip kinsmen, in-laws and brothers",
+    "plain": "killed and stripped their relatives, in-laws and brothers"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "stripped the bodies of slaughtered kinsfolk",
+    "en": "stripped the bodies of slaughtered kinsfolk",
+    "plain": "stripped the bodies of slaughtered kinsfolk"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>trucidant spoliant</i>, \"they butcher, they strip.\" The Conversational English Translation keeps both verbs, so the soldiers kill their own kin in this war, not only rob the dead.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:31",
+  "a": "suppliants' branches and wool bands",
+  "t": "Olive branches, or wool bands?",
+  "p": "The Latin names the coverings and fillets of suppliants; the older English says olive branches and chaplets.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "velamenta et infulas",
+    "en": "coverings and fillets (wool bands)",
+    "plain": "suppliants' branches and wool bands"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "the olive-branches and chaplets of suppliants",
+    "en": "olive-branches and chaplets",
+    "plain": "olive-branches and chaplets"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin words are <i>velamenta et infulas</i>. The Conversational English Translation names the wool bands and leaves the branches general.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:32",
+  "a": "close to being massacred",
+  "t": "Close to a massacre, or just beginning one?",
+  "p": "The Latin says they were not far from slaughter; the older English says a massacre was just beginning.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "nec procul caede aberant",
+    "en": "they were not far from slaughter",
+    "plain": "close to being massacred"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "who were just beginning a massacre",
+    "en": "just beginning a massacre",
+    "plain": "at the start of a massacre"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>nec procul caede aberant</i>, \"they were not far from slaughter.\" The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:34",
+  "a": "Tiberius Sempronius and Publius Cornelius",
+  "t": "Which Cornelius?",
+  "p": "The Latin abbreviates the second consul as P. Cornelius. The older English says Cornelius Scipio.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Ti. Sempronio P. Cornelio",
+    "en": "in the consulship of Ti. Sempronius and P. Cornelius",
+    "plain": "Tiberius Sempronius and Publius Cornelius"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Tiberius Sempronius and Cornelius Scipio",
+    "en": "Tiberius Sempronius and Cornelius Scipio",
+    "plain": "Tiberius Sempronius and Cornelius Scipio"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin gives the letters P. Cornelio and no more. The translation gives only what the Latin says.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:36",
+  "a": "Publilius Sabinus",
+  "t": "Publilius or Publius Sabinus?",
+  "p": "The Latin has Publilius; the older English has Publius.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Publilium Sabinum",
+    "en": "Publilius Sabinus",
+    "plain": "Publilius Sabinus"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Publius Sabinus",
+    "en": "Publius Sabinus",
+    "plain": "Publius Sabinus"
+   }
+  ],
+  "follow": 0,
+  "why": "The lead's alignment chose the Latin name form.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:41",
+  "a": "men who fear danger and don't care about disgrace",
+  "t": "Fearful of danger, or fond of it?",
+  "p": "The Latin says the soldiers fear danger and care nothing for disgrace; the older English says they loved danger.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "pavidos periculorum et dedecoris securos",
+    "en": "fearful of dangers and unconcerned about disgrace",
+    "plain": "men who fear danger and don't care about disgrace"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "men who loved danger and were careless of disgrace",
+    "en": "men who loved danger and were careless of disgrace",
+    "plain": "men who loved danger and were careless of disgrace"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin word <i>pavidos</i> is \"fearful,\" not \"loving.\" The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:53",
+  "a": "settled Dacia",
+  "t": "Dacia or Asia?",
+  "p": "The Latin says Dacia was settled; the older English says Asia was calmed.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Daciam interim composuerint",
+    "en": "who meanwhile settled Dacia",
+    "plain": "settled Dacia"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "who in the meanwhile have reduced Asia to tranquillity",
+    "en": "reduced Asia to tranquillity",
+    "plain": "reduced Asia to tranquillity"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin has <i>Daciam</i>, and the matter fits the context: Mucianus had sent the 6th legion against the Dacians (3:46). The Conversational English Translation follows the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:55",
+  "a": "tore the empire to pieces",
+  "t": "Tore the empire, or mutilated its resources?",
+  "p": "The Latin says he tore the empire itself; the older English narrows it to its resources.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "lacerare imperium",
+    "en": "to tear the empire to pieces",
+    "plain": "tore the empire to pieces"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "he mutilated the resources of the Empire",
+    "en": "mutilated the resources of the Empire",
+    "plain": "mutilated the resources of the empire"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin object is <i>imperium</i>, the empire, not its resources.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:75",
+  "a": "He talked too much",
+  "t": "Talkative, or boastful?",
+  "p": "The Latin says he was too much given to talk. The older English says he was somewhat boastful.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "sermonis nimius erat",
+    "en": "he was too much given to talk",
+    "plain": "He talked too much"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "He was somewhat boastful",
+    "en": "He was somewhat boastful",
+    "plain": "He was somewhat boastful"
+   }
+  ],
+  "follow": 0,
+  "why": "The Latin phrase <i>sermonis nimius</i> is about talk, not boasting.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:77",
+  "a": "Vergilius Capito",
+  "t": "Vergilius or Verginius?",
+  "p": "The Latin has Vergilius; the older English has Verginius.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Vergilii Capitonis",
+    "en": "of Vergilius Capito",
+    "plain": "Vergilius Capito"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Verginius Capito",
+    "en": "Verginius Capito",
+    "plain": "Verginius Capito"
+   }
+  ],
+  "follow": 0,
+  "why": "The lead's alignment chose the Latin name form.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:79",
+  "a": "Julius Flavianus",
+  "t": "Julius or Tullius Flavianus?",
+  "p": "The Latin names the captured cavalry prefect Julius Flavianus; the older English has Tullius.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Iulius Flavianus",
+    "en": "Julius Flavianus",
+    "plain": "Julius Flavianus"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Tullius Flavianus",
+    "en": "Tullius Flavianus",
+    "plain": "Tullius Flavianus"
+   }
+  ],
+  "follow": 0,
+  "why": "The lead's alignment chose the Latin name form.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:86",
+  "a": "Luceria was his native place",
+  "t": "A sentence with no verb",
+  "p": "The Latin as printed has no verb and no word for \"native place\"; the older English supplies the sense.",
+  "readings": [
+   {
+    "w": "Fisher's Oxford Classical Text (Latin, 1911), Perseus",
+    "orig": "Patrem illi Luceriam",
+    "en": "no verb: \"father\" and \"Luceria\", both in the accusative, with \"to him\"",
+    "plain": "Luceria was his native place"
+   },
+   {
+    "w": "Church and Brodribb's English (1864), Perseus",
+    "orig": "Luceria was his native place",
+    "en": "Luceria was his native place",
+    "plain": "Luceria was his native place"
+   }
+  ],
+  "follow": 1,
+  "why": "The Latin as printed gives <i>patrem</i> (\"father\") and <i>Luceriam</i> (\"Luceria\") with <i>illi</i> (\"to him\") and no verb. Church and Brodribb's English says \"Luceria was his native place,\" a sense the printed words do not state. The Conversational English Translation keeps the English sense; the site gives no repair of the Latin.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat"
+  ]
+ },
+ {
+  "v": "3:86",
+  "a": "completing his 57th year",
+  "t": "How old was Vitellius?",
+  "p": "Tacitus and Suetonius count his 57th year; the epitome of Dio says 54 years and 89 days, which fits Suetonius's own birth date.",
+  "readings": [
+   {
+    "w": "Tacitus, Histories 3:86 (Fisher's Latin); Suetonius, Vitellius 18 (Thayer's page)",
+    "orig": "septimum et quinquagensimum aetatis annum explebat",
+    "en": "he was completing his 57th year",
+    "plain": "completing his 57th year"
+   },
+   {
+    "w": "Cassius Dio, Epitome of book 64 (Thayer's page, section 22)",
+    "orig": "not seen in Greek; English only: fifty-four years and eighty-nine days",
+    "en": "fifty-four years and eighty-nine days",
+    "plain": "54 years and 89 days old"
+   }
+  ],
+  "follow": 0,
+  "why": "The Conversational English Translation translates Tacitus. Suetonius gives the same count (<i>Vitellius</i> 18), but his own birth date (the eighth day before the Kalends of October, in the consulship of Drusus Caesar and Norbanus Flaccus, <i>Vitellius</i> 3; Wikipedia dates it 24 September AD 15) makes Vitellius 54 when he died in December 69, as Dio's epitome says. The 57th-year count in both Latin writers does not fit it. Church and Brodribb have \"nearly completed\" for the Latin <i>explebat</i>.",
+  "s": [
+   "perseus-tacitus-eng",
+   "perseus-tacitus-lat",
+   "suetonius-caesars",
+   "dio-roman-history",
+   "wiki-vitellius"
+  ]
+ }
+]
