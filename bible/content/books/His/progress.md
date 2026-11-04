@@ -1,4 +1,4 @@
-Status: written and reviewed twice, fixes applied; waiting for Matt's read-through, then the lead merges the proposals at /publish (atlas corrections pass still open)
+Status: reviewed, published
 
 Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md).
 Tacitus, Histories. Base text: Church and Brodribb (key cb) via Perseus; Latin by Fisher (key lat). 5 chapters (Tacitus's books), 389 verses (90, 101, 86, 86, 26); the text breaks off mid-sentence at 5:26. Parts 01-01 ... 05-05, one per Tacitus book.

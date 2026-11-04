@@ -82,4 +82,4 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Sir | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
 | 1Es | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a |
 | 3Ma | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; |
-| His | written and reviewed twice, fixes applied; waiting for Matt's read-through, then the lead merges the proposals at /publish (atlas corrections pass still open) | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |
+| His | reviewed, published | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |
