@@ -267,7 +267,19 @@ function loadBook(id, part){
     (t.sections||[]).forEach((s, j) => { if(!s.refs) err(w, `section ${j} "${s.h}" needs refs`); else refCheck(`${w} section ${j}`, s.refs, id, true); });
     srcCheck(w, t.sources);
   });
-  Object.assign(out, {book, plain, notes, variants, glosses, sensitive, chapters, contrib});
+  /* ya.txt (optional, per part): the young-adult edition, "c:v text" for each verse of plain.txt. It ships as one more English text of the
+     book (key "ya"), so the reader can pick it beside the Plain English Translation; notes show at the start of the verse, as in the other texts. */
+  const ya = {};
+  dirs.map(d => path.join(d, 'ya.txt')).filter(exists).forEach(f => read(f).split('\n').forEach((line, i) => {
+    line = line.trimEnd(); if(!line) return;
+    const m = line.match(/^(\d+):(\d+) (.+)$/);
+    if(!m){ err(`${id}/ya.txt`, `line ${i+1} is not "c:v text": ${line.slice(0,60)}`); return; }
+    const key = `${m[1]}:${m[2]}`;
+    if(ya[key]) err(`${id}/ya.txt`, `verse ${key} appears twice`);
+    else if(!plain.v[key]) err(`${id}/ya.txt`, `verse ${key} is not a verse of plain.txt`);
+    else ya[key] = m[3]; }));
+  if(Object.keys(ya).length) Object.keys(plain.v).filter(k => !/^\[.*\]$/.test(plain.v[k]) && !ya[k]).forEach(k => warn(`${id}/ya.txt`, `verse ${k} is missing`));
+  Object.assign(out, {book, plain, notes, variants, glosses, sensitive, chapters, contrib, ya});
   return out;
 }
 
@@ -546,6 +558,13 @@ const OUT = P(SITE, 'data');
 ['books','en','orig','links','topics','atlas','articles','pages','timelines'].forEach(d => fs.mkdirSync(path.join(OUT, d), {recursive:true}));
 const WROTE = new Set();
 const W = (f, o) => { fs.writeFileSync(path.join(OUT, f), JSON.stringify(o)); WROTE.add(f); };
+/* a book's young-adult edition (the parts' ya.txt) joins its English texts as "ya" */
+const YA_ABOUT = {name:'Young Adult Edition', short:'Young Adult',
+  note:'A fast, plain-spoken retelling for younger readers, written to be fun to read, in the manner of a modern young-adult novel. It follows the Conversational English Translation sentence by sentence and keeps its history, but takes liberties with wording, rhythm and tone, and adds a little color and attitude. It is for enjoyment, not for study: use the Conversational English Translation, the notes and the Latin when exactness matters. Written by Claude and checked against the Latin.'};
+function withYA(id, en){
+  const ya = B[id] && B[id].ya; if(!ya || !Object.keys(ya).length) return en;
+  return Object.assign({}, en, {about:Object.assign({}, en.about, {ya:YA_ABOUT}), ya});
+}
 const clean = o => JSON.parse(JSON.stringify(o, (k, v) => k.startsWith('_') ? undefined : v));
 const SHARDS = 32, shard = id => { let h = 0; for(const ch of id) h = (h*31 + ch.charCodeAt(0)) >>> 0; return 's' + String(h % SHARDS).padStart(2,'0'); };
 
@@ -565,7 +584,7 @@ catalog.works = WORKS;
 const ORIG_NAMES = {gez:'Ge’ez (classical Ethiopic) text', grc:'Greek text', heb:'Hebrew text', syr:'Syriac text', lat:'Latin text', akk:'Akkadian text'};
 for(const b of catalog.books.filter(b => b.t === 'X')){
   const w = Object.values(WORKS).find(w => w.book === b.id && !w.c); if(!w) err(`works.json`, `book ${b.id} needs a works.json entry with "book": "${b.id}"`);
-  const o = json(P('texts/orig', b.id + '.json')) || {}, e = json(P('texts/en', b.id + '.json')) || {};
+  const o = json(P('texts/orig', b.id + '.json')) || {}, e = withYA(b.id, json(P('texts/en', b.id + '.json')) || {});
   const has = (t, k) => t[k] && typeof t[k] === 'object' && Object.keys(t[k]).length;
   /* each text file describes the texts it holds in "about" ({key: {name, short, note, script?}}); the site offers exactly those */
   const about = {}; [[e, 'en'], [o, 'orig']].forEach(([f, src]) => Object.entries(f.about || {}).forEach(([k, a]) => {
@@ -577,7 +596,7 @@ W('catalog.json', catalog);
 for(const id in ATLAS) W(`atlas/${id}.json`, ATLAS[id]);
 if(exists(P('content/atlas/basemap.json'))) { fs.copyFileSync(P('content/atlas/basemap.json'), path.join(OUT, 'atlas/basemap.json')); WROTE.add('atlas/basemap.json'); }
 for(const b of CAT.books){
-  fs.copyFileSync(P('texts/en', b.id + '.json'), path.join(OUT, 'en', b.id + '.json'));
+  W(`en/${b.id}.json`, withYA(b.id, json(P('texts/en', b.id + '.json'))));
   fs.copyFileSync(P('texts/orig', b.id + '.json'), path.join(OUT, 'orig', b.id + '.json'));
   const xr = exists(P('texts/xref', b.id + '.json')) ? json(P('texts/xref', b.id + '.json')) : {};
   W(`links/${b.id}.json`, {x:xr, by:BY[b.id] || {}});
