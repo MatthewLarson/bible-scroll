@@ -1,0 +1,240 @@
+[
+ {
+  "v": "1:0",
+  "a": "The prayer of Manasseh.",
+  "t": "The heading, and which ode it is",
+  "p": "Codex Alexandrinus heads it \"Prayer of Manasseh.\" The Zurich Psalter adds \"son of Hezekiah\" and counts it the ninth ode.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), as printed by Swete, where it is his eighth Ode",
+    "orig": "Προσευχὴ Μαννασσή.",
+    "en": "Prayer of Manasseh.",
+    "plain": "The prayer of Manasseh."
+   },
+   {
+    "w": "Zurich Psalter (T, a purple manuscript of the 600s AD, as Swete dates it), from Swete's notes; it numbers the ode ninth",
+    "orig": "Προσευχὴ Μανασσῆ υἱοῦ Ἐζεκίου",
+    "en": "Prayer of Manasseh son of Hezekiah",
+    "plain": "The prayer of Manasseh, son of Hezekiah."
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's printed text (Codex Alexandrinus) is the base of the Plain English Translation. The added \"son of Hezekiah\" is true (2 Kings 20:21) but adds nothing to the sense.",
+  "b": "<p>The prayer is not part of any book of the Hebrew Bible. In the Greek manuscripts it is one of the \"odes\" or \"canticles,\" songs and prayers from the Bible copied after the Psalms for use in worship. Swete prints them from Codex Alexandrinus and numbers this one VIII; his notes say the Zurich Psalter numbers it ninth. In his Introduction Swete lists the canticles that survive in T, the Prayer of Manasses among them; the Verona Psalter (R) has eight canticles without it. The Orthodox Psalter used today has nine Odes, and this prayer is not one of them (see the chapter page).</p>",
+  "s": [
+   "swete-ot-vol3",
+   "swete-intro-psalters",
+   "asser-psalter"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "in heaven",
+  "t": "\"In heaven\"",
+  "p": "The Zurich Psalter lacks the word \"heavenly.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text",
+    "orig": "ἐπουράνιε",
+    "en": "heavenly one",
+    "plain": "in heaven"
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes",
+    "orig": "(lacking)",
+    "en": "(lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text. The Greek is a vocative adjective, \"heavenly (Lord),\" which English carries best as \"in heaven.\"",
+  "b": "Brenton's English (\"O Lord Almighty, the God of our fathers\") and the KJV Apocrypha (\"O Lord, Almighty God of our fathers\") both lack the word, so the form of the prayer that reached English readers is closer to T than to A here.",
+  "s": [
+   "swete-ot-vol3",
+   "brenton-1851",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "you change your mind about the harm that comes on human beings.",
+  "t": "A longer verse 7",
+  "p": "Latin copies and the Apostolic Constitutions add lines about repentance promised to sinners at the end of the verse. Swete's Codex Alexandrinus and the Zurich Psalter do not have them.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text; Rahlfs's 1935 text has the same wording",
+    "orig": "ὅτι σὺ εἶ Κύριος ὕψιστος, εὔσπλαγχνος, μακρόθυμος, καὶ πολυέλεος, καὶ μετανοῶν ἐπὶ κακίαις ἀνθρώπων.",
+    "en": "for you are Lord Most High, tender-hearted, slow to anger and great in mercy, and repenting over the evils of human beings.",
+    "plain": "you change your mind about the harm that comes on human beings."
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes: \"for you\" worded differently, and the second \"and\" left out; the notes record no longer lines",
+    "orig": "σὺ γάρ ... (without the second καί)",
+    "en": "for you ... (T's wording of the opening, and one \"and\" left out)",
+    "plain": ""
+   },
+   {
+    "w": "The Apostolic Constitutions, book 2, section 22 (the Ante-Nicene Fathers English). The introduction in Charles's Apocrypha lists \"the additional clauses found in the Latin and in the Apostol. Const. at the close of the verse\"",
+    "en": "repenting of the evils of men. You, Lord, by your great goodness have promised repentance and forgiveness to those who sinned against you, and in your many mercies have appointed repentance for sinners, to save them.",
+    "plain": "you change your mind about the harm that comes on human beings. You, Lord, in your great goodness, have promised repentance and forgiveness to those who have sinned against you. In your many mercies you have set repentance for sinners, so that they may be saved."
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's text (Codex Alexandrinus) and the Zurich Psalter, as Swete reports it, do not have the lines, and Rahlfs's text does not print them. The Plain English Translation follows Swete. The longer reading is shown, in the wording of the Constitutions' English, so readers can see where the longer text differs.",
+  "b": "<p>The wording given for the longer reading is made from the Ante-Nicene Fathers English of the Apostolic Constitutions. Brenton's English (1851) and the KJV Apocrypha (1611) carry the same longer text (Brenton has \"proclaimed\" where the KJV Apocrypha and the Constitutions have \"promised\"); they are translations, not independent witnesses. The lines restate verse 8 in advance: God has made repentance a road for sinners. The Apostolic Constitutions are a Christian collection of church rules that gives the whole prayer. The Jewish Encyclopedia reports Eberhard Nestle's view that the Greek manuscripts' text derives from the Constitutions or the Didascalia; the introduction in Charles's <i>Apocrypha</i> instead judges it most probable that the prayer was written in Greek, and lists the clauses at the end of verse 7 as an addition found in the Latin and the Constitutions (see the book page).</p>",
+  "s": [
+   "swete-ot-vol3",
+   "rahlfs-ccat-man",
+   "apostolic-constitutions-2",
+   "charles-apocrypha-man",
+   "brenton-1851",
+   "kjv-apocrypha",
+   "je-prayer-manasseh"
+  ]
+ },
+ {
+  "v": "1:9",
+  "a": "My lawless deeds have piled up,",
+  "t": "\"They have piled up, Lord, they have piled up\"",
+  "p": "The Zurich Psalter repeats the line with \"Lord,\" as the KJV Apocrypha and Brenton do.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text",
+    "orig": "ὅτι ἐπλήθυναν αἱ ἀνομίαι μου,",
+    "en": "for my lawless deeds multiplied,",
+    "plain": "My lawless deeds have piled up,"
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes (also without \"for\"); Brenton's English; the KJV Apocrypha",
+    "orig": "ἐπλήθυναν αἱ ἀνομίαι μου, κύριε, ἐπλήθυναν,",
+    "en": "my lawless deeds multiplied, Lord, they multiplied,",
+    "plain": "My lawless deeds have piled up, Lord, they have piled up,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text. The repeated line in T matches the doubled pleas of 1:12–13 and may be an expansion made for worship.",
+  "s": [
+   "swete-ot-vol3",
+   "brenton-1851",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "so that I cannot lift up my head,",
+  "t": "\"So that I cannot lift up my head\"",
+  "p": "Here the Plain English Translation leaves Swete's text. The Zurich Psalter has a clearer line than Codex Alexandrinus.",
+  "readings": [
+   {
+    "w": "Zurich Psalter (T), from Swete's notes (\"not\" before the verb, no \"me,\" \"my head\" in place of \"over my sins\"); Brenton's English and the KJV Apocrypha have the same sense",
+    "orig": "εἰς τὸ μὴ ἀνανεῦσαι τὴν κεφαλήν μου",
+    "en": "so as not to lift up my head",
+    "plain": "so that I cannot lift up my head,"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Swete's text; Rahlfs's 1935 text prints the same wording",
+    "orig": "εἰς τὸ ἀνανεῦσαί με ὑπὲρ ἁμαρτιῶν μου",
+    "en": "for me to [ananeuō] over my sins",
+    "plain": "(not used)"
+   }
+  ],
+  "follow": 0,
+  "why": "This is the one place the Plain English Translation departs from Swete's text, and it is the writer's judgment, not an editor's choice: Swete and Rahlfs both print Alexandrinus's wording, which has no \"not\" and no object for the verb <i>ananeuō</i>. Right after \"bent low\" under a chain, T's reading, with \"not\" and \"my head,\" gives the verb its object and fits the picture and the next line (\"I get no relief\"). T is a late manuscript (600s AD, as Swete dates it), and Brenton and the KJV Apocrypha agree with its sense but are translations of a longer tradition, so they are not an independent check. The other variants in this verse follow Swete.",
+  "b": "The Greek of T is put together from Swete's note, which says T puts \"not\" before the verb, lacks \"me,\" and has \"my head\" in place of \"over my sins.\" Swete's notes also give T <i>sidērō</i> (\"with iron\") for <i>sidērou</i> (\"of iron\") earlier in the verse, and \"relief for me\" in a different order: no change in sense. The sense of <i>ananeuō</i> in Alexandrinus's wording is not settled by anything opened for this page, so the English for A's reading leaves the verb untranslated.",
+  "s": [
+   "swete-ot-vol3",
+   "rahlfs-ccat-man",
+   "brenton-1851",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "I set up abhorrent things",
+  "t": "\"I did not do your will\"",
+  "p": "The Zurich Psalter has a line, \"I did not do your will or keep your commands,\" in place of \"setting up abominations.\" Brenton and the KJV Apocrypha have both.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text; the Apostolic Constitutions and the Latin manuscripts lack the extra line, according to the Jewish Encyclopedia",
+    "orig": "στήσας βδελύγματα",
+    "en": "setting up abominations",
+    "plain": "I set up abhorrent things"
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes: T's words stand in place of \"setting up abominations\"",
+    "orig": "μὴ ποιήσας τὸ θέλημά σου καὶ μὴ φυλάξας τὰ προστάγματά σου",
+    "en": "not doing your will and not keeping your commands",
+    "plain": "I did not do your will or keep your commands."
+   },
+   {
+    "w": "Brenton's English; the KJV Apocrypha (\"I did not thy will, neither kept I thy commandments\"): both lines, the new line first",
+    "en": "not doing your will and not keeping your commands, setting up abominations",
+    "plain": "I did not do your will or keep your commands. I set up abhorrent things"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text, which the Apostolic Constitutions and the Latin agree with in lacking the line.",
+  "b": "<p>Swete's note marks T's words as standing in place of \"setting up abominations and multiplying offenses,\" while Brenton and the KJV Apocrypha have both, the new line first. The Jewish Encyclopedia remarks that in the longer form this is the only specific sin the prayer confesses. Without it, the only deeds named are the idols.</p>",
+  "s": [
+   "swete-ot-vol3",
+   "brenton-1851",
+   "kjv-apocrypha",
+   "je-prayer-manasseh"
+  ]
+ },
+ {
+  "v": "1:13",
+  "a": "you, Lord, are the God of those who repent,",
+  "t": "\"You are God, the God of those who repent\"",
+  "p": "The Zurich Psalter has \"God\" where Alexandrinus has \"Lord.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text",
+    "orig": "σὺ εἶ, Κύριε, ὁ θεὸς τῶν μετανοούντων",
+    "en": "you are, Lord, the God of those who repent",
+    "plain": "you, Lord, are the God of those who repent,"
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes; Brenton's English; the KJV Apocrypha",
+    "orig": "σὺ εἶ θεός, ὁ θεὸς τῶν μετανοούντων",
+    "en": "you are God, the God of those who repent",
+    "plain": "you are God, the God of those who repent,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text. The sense is the same; T's form makes \"God\" ring twice.",
+  "b": "Swete's notes also show T beginning the verse \"But I ask\" and adding \"and\" before \"do not stay angry\"; A misspells \"store up\" (<i>tērēsis</i> for <i>tērēsēs</i>), which Swete's text corrects.",
+  "s": [
+   "swete-ot-vol3",
+   "brenton-1851",
+   "kjv-apocrypha"
+  ]
+ },
+ {
+  "v": "1:14",
+  "a": "and in me you will show your goodness",
+  "t": "\"All your goodness\"",
+  "p": "The Zurich Psalter, Brenton and the KJV Apocrypha read \"all your goodness.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Swete's text",
+    "orig": "τὴν ἀγαθωσύνην σου",
+    "en": "your goodness",
+    "plain": "and in me you will show your goodness"
+   },
+   {
+    "w": "Zurich Psalter (T), from Swete's notes; Brenton's English; the KJV Apocrypha",
+    "orig": "πᾶσαν τὴν ἀγαθωσύνην σου",
+    "en": "all your goodness",
+    "plain": "and in me you will show all your goodness"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text.",
+  "s": [
+   "swete-ot-vol3",
+   "brenton-1851",
+   "kjv-apocrypha"
+  ]
+ }
+]

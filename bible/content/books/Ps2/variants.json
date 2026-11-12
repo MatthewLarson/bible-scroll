@@ -1,0 +1,282 @@
+[
+ {
+  "v": "1:0",
+  "a": "he fought Goliath man to man",
+  "t": "\"Goliath\" or \"against Goliath\"",
+  "p": "Codex Vaticanus has the name in the dative (\"fought Goliad\"); Alexandrinus and others have \"against Goliath.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B, 300s AD), Swete's text",
+    "orig": "ἐμονομάχησεν τῷ Γολιάδ",
+    "en": "fought Goliad in single combat",
+    "plain": "he fought Goliath man to man"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and the Zurich Psalter (T), from Swete's notes (the Verona Psalter R has the same with the spelling Goliad)",
+    "orig": "ἐμονομάχησεν πρὸς τὸν Γολιάθ",
+    "en": "fought in single combat against Goliath",
+    "plain": "he fought man to man against Goliath"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text; the sense is the same. The spelling Goliad is the Greek Psalter's form of the name (as in the Greek title of Psalm 144); English uses Goliath.",
+  "b": "Swete's notes also show R and T with \"of David\" (<i>tou Dauid</i>) for <i>eis Dauid</i>, and R first writing <i>idiographos</i> as <i>idiōtagraēphos</i> before a corrector changed it. The Hebrew psalm in 11Q5 has a different heading altogether: \"Hallelujah. Of David son of Jesse.\" Its second poem has its own: \"The beginning of the mighty deeds of David after the prophet of God had anointed him.\"",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "I kept my father's sheep.",
+  "t": "The Hebrew: shepherd and ruler",
+  "p": "The Hebrew of 11Q5 says that he (the transcription does not name the subject) made David shepherd of his flock and ruler over his young goats.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "ἐποίμαινον τὰ πρόβατα τοῦ πατρός μου.",
+    "en": "I used to shepherd my father's sheep.",
+    "plain": "I kept my father's sheep."
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5, the first Hebrew poem (Psalm 151A)",
+    "orig": "וישימני רועה לצונו ומושל בגדיותיו",
+    "en": "and he made me shepherd of his flock and ruler over his young goats.",
+    "plain": "He made me shepherd of his flock and ruler over his young goats."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation translates the Greek psalm, the form the churches use. The Hebrew is older in date (the scroll was copied in the first century AD, about AD 30–50 according to Wikipedia's article on the scroll; that dates the copy, not the psalm) and is given in full in these variants.",
+  "b": "In the scroll, \"and ruler\" is written above the line as a correction. The Hebrew line also says \"smaller than my brothers and younger than my father's sons\" in the verse's first half, which the Greek gives as \"among my brothers ... in my father's house.\"",
+  "s": [
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "my fingers tuned a harp.",
+  "t": "The Hebrew: a pipe, a lyre, and glory to the LORD",
+  "p": "The Hebrew names a pipe and a lyre and adds, \"and I gave glory to the LORD.\" The corrector of the Verona Psalter adds \"and\" before \"my fingers,\" as the Hebrew has.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "οἱ δάκτυλοί μου ἥρμοσαν ψαλτήριον.",
+    "en": "my fingers tuned a psaltery.",
+    "plain": "my fingers tuned a harp."
+   },
+   {
+    "w": "the corrector of the Verona Psalter (Rᵃ), from Swete's notes",
+    "orig": "καὶ οἱ δάκτυλοί μου ἥρμοσαν ψαλτήριον.",
+    "en": "and my fingers tuned a psaltery.",
+    "plain": "and my fingers tuned a harp."
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5 (the Hebrew has \"my hands made a pipe\" in the first half)",
+    "orig": "ואצבעותי כנור ואשימה ליהוה כבוד",
+    "en": "and my fingers a lyre, and I gave glory to the LORD.",
+    "plain": "my fingers made a lyre, and I gave glory to the LORD."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Greek. The Hebrew line explains why David made the instruments: to give glory to the LORD. The Hebrew has the divine name, so its English has \"the LORD.\" The added \"and\" of the Verona Psalter's corrector (Rᵃ) matches the Hebrew but is one late corrector's reading.",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "he himself listens.",
+  "t": "\"He listens,\" \"he listens to all,\" or \"he will hear me\"",
+  "p": "The three great Greek codices end the line three ways. The Hebrew has a much longer passage here.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "αὐτὸς εἰσακούει.",
+    "en": "he himself listens.",
+    "plain": "he himself listens."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's notes",
+    "orig": "αὐτὸς πάντων εἰσακούει.",
+    "en": "he himself listens to all.",
+    "plain": "he himself listens to everyone."
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's notes",
+    "orig": "αὐτὸς εἰσακούσεταί μου.",
+    "en": "he himself will hear me.",
+    "plain": "he himself will hear me."
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5 (in place of the whole verse; the transcription ends a sentence after \"the Lord\" and marks the ו before \"God\" as uncertain)",
+    "orig": "כי מי יגיד ומי ידבר ומי יספר את מעשי אדון׃ הכול ראה ו אלוה הכול הוא שמע והוא האזין",
+    "en": "For who can tell, who can speak, who can recount the deeds of the Lord? Everything God saw, everything he heard, and he listened.",
+    "plain": "he himself listens. (The Hebrew has: For who can tell, who can speak, who can recount the deeds of the Lord? Everything God saw, everything he heard, and he listened.)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text, Codex Vaticanus. Alexandrinus's \"he will hear me\" makes the line easier and may be a scribe's smoothing; Sinaiticus's \"all\" widens it. Codex Sinaiticus also has the present \"tells\" for \"will tell.\"",
+  "b": "<p>Before this the Hebrew has a passage the Greek lacks entirely: \"I said in my soul: The mountains do not bear witness to him, nor do the hills tell; the trees ... my words, and the flock my deeds.\" The verb before \"my words\" is unsure in the transcription (its last letter is marked uncertain), and readers take it differently. The Hebrew thus makes David's music a praise that nature cannot give, and God the one who hears it. The Greek has kept only the question and the answer, in a shortened form.</p>",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5",
+   "williams-psalm-151-qumran"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "He himself sent out his angel",
+  "t": "\"His angel\" or \"his prophet ... Samuel\"",
+  "p": "The Hebrew of 11Q5 names Samuel the prophet; the Greek has \"his angel\" (or \"messenger\").",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text, with the other Greek codices",
+    "orig": "αὐτὸς ἐξαπέστειλεν τὸν ἄγγελον αὐτοῦ",
+    "en": "He himself sent out his angel (messenger)",
+    "plain": "He himself sent out his angel"
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5",
+    "orig": "שלח נביאו למושחני את שמואל לגדלני",
+    "en": "He sent his prophet to anoint me, Samuel, to make me great",
+    "plain": "He sent his prophet Samuel to anoint me and make me great"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Greek, which the churches use; the note at this verse explains that the Greek word can mean a human messenger.",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "the oil of his anointing",
+  "t": "\"Oil\" or \"mercy\"",
+  "p": "Sinaiticus, Alexandrinus and the Verona Psalter read \"the mercy of his anointing\": two Greek words that sound alike.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text; the Hebrew of 11Q5 has \"holy oil\"",
+    "orig": "τῷ ἐλαίῳ τῆς χρίσεως αὐτοῦ",
+    "en": "the oil of his anointing",
+    "plain": "the oil of his anointing"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), Codex Alexandrinus (A) and the Verona Psalter (R), from Swete's notes",
+    "orig": "τῷ ἐλέει τῆς χρίσεως αὐτοῦ",
+    "en": "the mercy of his anointing",
+    "plain": "the mercy of his anointing"
+   }
+  ],
+  "follow": 0,
+  "why": "Oil is what anoints (1 Samuel 16:13), and the Hebrew psalm has \"holy oil,\" so Vaticanus's \"oil\" (<i>elaiō</i>) is followed. \"Mercy\" (<i>eleei</i>) is most likely a slip of hearing or sight between two words that differ by a letter or two.",
+  "b": "Swete's notes also show R without \"with\" (<i>en</i>), and the Zurich Psalter (T) first writing the words \"he anointed me with the oil\" twice, a copying slip its corrector removed.",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "but the Lord took no delight in them.",
+  "t": "The Hebrew: \"the LORD God did not choose them\"",
+  "p": "The Hebrew describes the brothers more fully and says God \"did not choose\" them, then goes on to the anointing and the kingship.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "καὶ οὐκ εὐδόκησεν ἐν αὐτοῖς Κύριος.",
+    "en": "and the Lord did not take pleasure in them.",
+    "plain": "but the Lord took no delight in them."
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5",
+    "orig": "לוא בחר יהוה אלוהים בם",
+    "en": "the LORD God did not choose them.",
+    "plain": "but the LORD God did not choose them. He sent and took me from behind the flock and anointed me with holy oil, and he made me leader of his people and ruler over the children of his covenant."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Greek. In the Hebrew the anointing comes after the brothers are passed over, as in 1 Samuel 16:10–13, and the poem ends with David made \"leader\" (<i>nagid</i>) of God's people.",
+  "b": "The Hebrew of the brothers reads: \"My brothers went out to meet him, handsome in form and handsome in looks; tall in their stature, handsome with their hair.\" In the scroll, \"and ruler over the children of his covenant\" is partly written above the line, and a blank space follows: the first Hebrew poem ends here.",
+  "s": [
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "My brothers were good-looking and big",
+  "t": "\"But my brothers\"",
+  "p": "Alexandrinus puts \"but\" before \"my brothers.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "οἱ ἀδελφοί μου καλοὶ καὶ μεγάλοι",
+    "en": "my brothers good and big",
+    "plain": "My brothers were good-looking and big"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's notes",
+    "orig": "οἱ δὲ ἀδελφοί μου καλοὶ καὶ μεγάλοι",
+    "en": "but my brothers good and big",
+    "plain": "But my brothers were good-looking and big"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text; Alexandrinus adds \"but\" at the start of the verse.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "I went out to face the Philistine,",
+  "t": "The second Hebrew poem",
+  "p": "In the Hebrew a new poem begins, \"the beginning of David's mighty deeds,\" and breaks off after two lines.",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "ἐξῆλθον εἰς συνάντησιν τῷ ἀλλοφύλῳ,",
+    "en": "I went out to meet the Philistine,",
+    "plain": "I went out to face the Philistine,"
+   },
+   {
+    "w": "Abegg, Bowley and Cook transcription (ETCBC dss), 11Q5, the second Hebrew poem (Psalm 151B), as far as it survives",
+    "orig": "תחלת גבורה לדויד משמשחו נביא אלוהים אזי ראיתי פלשתי מחרף ממערכות הפלשתים",
+    "en": "The beginning of David's mighty deeds, after the prophet of God had anointed him. Then I saw a Philistine taunting from the ranks of the Philistines.",
+    "plain": "(A new poem: The beginning of David's mighty deeds, after the prophet of God had anointed him.) Then I saw a Philistine taunting from the ranks of the Philistines,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Greek. The Hebrew second poem survives only for these words and two more (אנוכי \"I\" and את); some letters in this quotation are restored or uncertain in the transcription, namely the vav of \"mighty deeds,\" the lamed and the opening of David's name in the heading, the yod of \"I saw,\" and the start of \"ranks\"; the rest of the column is lost.",
+  "s": [
+   "swete-ot-vol2",
+   "etcbc-dss-11q5"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "I drew his own sword",
+  "t": "\"His\" or \"that man's\" sword",
+  "p": "Alexandrinus has \"that man's\" where Vaticanus has \"his.\"",
+  "readings": [
+   {
+    "w": "Codex Vaticanus (B), Swete's text",
+    "orig": "σπασάμενος τὴν παρ᾽ αὐτοῦ μάχαιραν",
+    "en": "drawing the sword from him",
+    "plain": "I drew his own sword"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's notes",
+    "orig": "σπασάμενος τὴν παρ᾽ ἐκείνου μάχαιραν",
+    "en": "drawing the sword from that man",
+    "plain": "I drew that man's own sword"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text; both readings make the sword the Philistine's, as in 1 Samuel 17:51.",
+  "s": [
+   "swete-ot-vol2"
+  ]
+ }
+]

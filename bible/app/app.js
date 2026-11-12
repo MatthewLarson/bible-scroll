@@ -855,7 +855,7 @@ function textPage(n){
     ${B.data ? `<details class="nkey"><summary><span class="sw">${Object.keys(NOTE_TYPES).filter(k => k !== 'canon' || B.meta.t === 'X').concat('variant').map(k => `<i style="--c:var(--n-${k})"></i>`).join('')}</span>Note key</summary><div class="ntoggles">${Object.entries(NOTE_TYPES).filter(([k]) => k !== 'canon' || B.meta.t === 'X').map(([k,t])=>`<button data-ntype="${k}" aria-pressed="true" class="${k==='spec'?'only-spec':''}"><i style="--c:var(--n-${k})"></i>${t.label}</button>`).join('')}<button data-ntype="variant" aria-pressed="true"><i style="--c:var(--n-variant)"></i>Manuscript differences</button></div></details>` : ''}</div>
     <div class="tbody" data-ch="${n}"></div>`;
 }
-const POETIC = new Set(['Job','Psa','Pro','Ecc','Sng','Lam']);
+const POETIC = new Set(['Job','Psa','Pro','Ecc','Sng','Lam','PsS','Man','Ps2']);
 /* Plain English Translation verse: notes, glosses and variants are spans over the text; a span fully inside another nests in it.
    Each poetry line ( / ) is its own block, so a note or variant over two lines is drawn once per line; a picked variant's text goes in its first piece */
 function plainVerse(key){

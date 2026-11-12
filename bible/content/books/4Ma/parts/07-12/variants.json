@@ -1,0 +1,774 @@
+[
+ {
+  "v": "7:3",
+  "a": "victory over death",
+  "t": "Victory over death, or immortal victory?",
+  "p": "Sinaiticus has \"the harbor of immortal victory\" for Alexandrinus's \"of the victory of death\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τὸν τῆς θανάτου νίκης λιμένα",
+    "en": "the harbor of the victory of death",
+    "plain": "victory over death"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "θανατου] αθανατου ℵ",
+    "en": "of immortal victory",
+    "plain": "immortal victory"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. \"The victory of death\" is a compressed phrase: a victory won over death, or won by dying. Sinaiticus's one extra letter (a-thanatou, \"deathless\") gives an easier phrase, which is the kind of change a copyist tends to make.",
+  "b": "Townshend (1913) translates \"the haven of victory over death\", the same choice.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:4",
+  "a": "shook",
+  "t": "Shook, or conquered?",
+  "p": "Alexandrinus says Eleazar \"moved\" or shook his besiegers; Sinaiticus says he \"conquered\" them. The two words share their letters.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "ἐκίνησεν τοὺς πολιορκοῦντας",
+    "en": "moved (shook) the besiegers",
+    "plain": "shook"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "εκινησεν] ενικησεν ℵ",
+    "en": "conquered",
+    "plain": "conquered"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints Alexandrinus's ekinēsen. Ekinēsen (\"he moved\") and enikēsen (\"he conquered\") differ only in the order of two letters, so one is a slip for the other. \"Conquered\" fits the victory theme of 7:3, which may be why a copyist preferred it; \"moved\" is the harder reading, and Townshend (1913) also renders it \"moved\".",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:9",
+  "a": "holiness",
+  "t": "Holiness, or fasting?",
+  "p": "Sinaiticus has apastia, \"not eating\", for hagiastia, \"holiness\": Eleazar praised abstaining from food.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τὴν ἁγιαστίαν σεμνολογήσας",
+    "en": "having spoken solemnly of holiness",
+    "plain": "holiness"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "αγιαστιαν] απαστιαν ℵ",
+    "en": "abstinence from food",
+    "plain": "abstaining from food"
+   }
+  ],
+  "follow": 0,
+  "why": "Both words are rare. Hagiastia, \"holiness, sanctification\", fits a priest; apastia, \"fasting, not tasting\", fits a man who died rather than eat. The Plain English Translation follows Swete's base text; the choice does not change the point, that Eleazar's death made good on his words.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:9",
+  "a": "the words of philosophy",
+  "t": "Philosophy, or your divine philosophy?",
+  "p": "Sinaiticus reads \"the words of your divine philosophy\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τοὺς τῆς φιλοσοφίας λόγους",
+    "en": "the words of philosophy",
+    "plain": "the words of philosophy"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "φιλοσοφιας] θειας φιλ. σου ℵ",
+    "en": "the words of your divine philosophy",
+    "plain": "the words of your divine philosophy"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's base text is shorter. Sinaiticus makes it plain that the philosophy is Eleazar's own, the divine law, which 7:7 already says (\"philosopher of a life given to God\"). Townshend (1913) translates \"the words of divine philosophy\".",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:11",
+  "a": "the angel who was burning them",
+  "t": "\"The angel who was burning them\"",
+  "p": "The first hand of Sinaiticus has only \"defeated the angel\"; a corrector supplied a different word for the burning.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τὸν ἐμπυριστὴν ἐνίκησεν ἄγγελον",
+    "en": "defeated the burning angel",
+    "plain": "the angel who was burning them"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus (ℵ*), as Swete's footnote gives it",
+    "orig": "om τον εμπυριστην ℵ*",
+    "en": "defeated the angel",
+    "plain": "the angel"
+   },
+   {
+    "w": "A corrector of Codex Sinaiticus (ℵc.a), as Swete's footnote gives it",
+    "orig": "τον ενπυρισμον ℵc.a",
+    "en": "defeated the burning (a noun: the blaze) and the angel",
+    "plain": "the blaze, the angel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. Without the word the angel is simply \"the angel\"; the corrector's noun, \"the burning\" or \"blaze\", keeps the same idea of fire. Either way the verse recalls the plague of Numbers 16, which Wisdom of Solomon 18:22-25 calls \"the punisher\" and \"the destroyer\".",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:13",
+  "a": "The strength of his body was already slack",
+  "t": "The body's tone, or the body's toils?",
+  "p": "The Plain English Translation follows Sinaiticus's tonōn, \"tensions, strength\", for Alexandrinus's ponōn, \"toils\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it; the Syriac version, as Townshend reports it",
+    "orig": "πονων] τονων ℵ",
+    "en": "the tensions (strength) of the body being already loosened",
+    "plain": "The strength of his body was already slack"
+   },
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "λελυμένων ἤδη τῶν τοῦ σώματος πόνων",
+    "en": "the toils of the body being already loosened",
+    "plain": "The toils of his body were already at an end"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a place where the Plain English Translation leaves Swete's text. Tonos is the tension of a cord or muscle, the body's strength; \"loosened\" is the natural verb for it, and it fits the slack flesh and worn-out sinews in the same verse. Ponos, \"toil, pain\", one letter different, makes a weak sense with \"loosened\". Townshend (1913) translates \"the sinews of his body unstrung\" and gives tonōn for Sinaiticus and the Syriac in his note.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:14",
+  "a": "made the many-headed rack powerless",
+  "t": "Made powerless, or defeated?",
+  "p": "Sinaiticus says Eleazar \"defeated\" the rack; Alexandrinus says he \"made it powerless\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τὴν πολυκέφαλον στρέβλαν ἠκύρωσεν",
+    "en": "made the many-headed rack of no effect",
+    "plain": "made the many-headed rack powerless"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it",
+    "orig": "ηκυρωσεν] ενικησεν ℵ",
+    "en": "defeated the many-headed rack",
+    "plain": "defeated the many-headed rack"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. \"Defeated\" (enikēsen) is the book's common word for the martyrs' victory (7:11; 9:6), so a copyist could easily put it in place of the rarer \"made void\"; the sense is nearly the same.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "7:23",
+  "a": "wise and self-restrained man",
+  "t": "Is \"self-restrained\" in the text?",
+  "p": "Sinaiticus lacks \"self-restrained\", leaving only \"the wise man\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "ὁ σοφὸς καὶ σώφρων",
+    "en": "the wise and self-restrained man",
+    "plain": "wise and self-restrained man"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "ο σοφος] om ο ℵ | om σωφρων ℵ",
+    "en": "(the) wise man",
+    "plain": "wise man"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's base text names three of the book's four virtues together (good sense in \"wise\", self-restraint, courage), as the speaker likes to do (1:18). Sinaiticus may have dropped the word by a slip, since sophos and sōphrōn begin alike.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "8:13",
+  "a": "joint-wrenchers",
+  "t": "How the copies spell the torture tools",
+  "p": "The rare words of the torture list are spelled in several ways in the copies; none of the spellings changes the list.",
+  "readings": [
+   {
+    "w": "Swete's text; Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τροχούς τε καὶ ἀρθρενβόλους ... τροχαντῆρας",
+    "en": "wheels and joint-wrenchers ... bone-crushers",
+    "plain": "joint-wrenchers"
+   },
+   {
+    "w": "Codex Alexandrinus (A), as Swete's footnote gives it (Swete's text corrects it)",
+    "orig": "αρθενβολους A",
+    "en": "joint-wrenchers (misspelled)",
+    "plain": "joint-wrenchers"
+   },
+   {
+    "w": "The first hand of Codex Sinaiticus (ℵ*), as Swete's footnote gives it; its correctors restore τροχους and -ῆρας",
+    "orig": "τροχλους ℵ* ... αρθρεμβολας ℵ* ... τροχαντηρια ℵ*",
+    "en": "trochlous (a misspelling of trochous, wheels) ... joint-wrenchers ... bone-crushers (neuter form)",
+    "plain": "joint-wrenchers"
+   },
+   {
+    "w": "The Tischendorf fragments of 4 Maccabees (Swete's Π), as Swete's footnote gives them",
+    "orig": "αρθρεμβολα Π",
+    "en": "joint-wrenchers (neuter form)",
+    "plain": "joint-wrenchers"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text. The differences are spellings and word forms of rare words: LSJ lists the noun as arthrembolon (neuter, as in the fragments) and records the neuter trochantēria of Sinaiticus as a variant spelling at this verse. Π is Swete's mark for four leaves found in the binding of another manuscript and published by Tischendorf, which give parts of 4 Maccabees 8-9 (8:6, 12, 15, 29; 9:28-32), as Swete's Introduction describes them.",
+  "s": [
+   "swete-lxx",
+   "swete-intro-4macc",
+   "lsj-perseus-4ma",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "8:25",
+  "a": "The law itself",
+  "t": "The law, or the temple?",
+  "p": "Swete prints \"the law\" with Sinaiticus; Alexandrinus has \"the temple\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ), followed by Swete's text; Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "οὐδὲ αὐτὸς ὁ νόμος",
+    "en": "not even the law itself",
+    "plain": "The law itself"
+   },
+   {
+    "w": "Codex Alexandrinus (A), as Swete's footnote gives it",
+    "orig": "νομος ℵ] ναος A",
+    "en": "not even the temple itself",
+    "plain": "The temple itself"
+   }
+  ],
+  "follow": 0,
+  "why": "Here Swete's printed text is not Alexandrinus: Swete follows Sinaiticus. \"The law\" fits the argument, that the law would not condemn a man who broke it out of fear (compare 8:22). \"The temple\" makes no sense with \"put us to death\", and nomos and naos look alike.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "8:26",
+  "a": "when we could live untroubled",
+  "t": "Live, or must?",
+  "p": "Alexandrinus has \"must\" (chrē) where Swete prints \"live\" (zēn).",
+  "readings": [
+   {
+    "w": "Swete's text; Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "παρὸν μετὰ ἀταραξίας ζῇν τῷ βασιλεῖ πεισθέντας",
+    "en": "when it is possible to live untroubled by obeying the king",
+    "plain": "when we could live untroubled"
+   },
+   {
+    "w": "Codex Alexandrinus (A), as Swete's footnote gives it",
+    "orig": "ζην] χρη A",
+    "en": "when it is possible, untroubled, one must obey the king",
+    "plain": "when we must be untroubled"
+   }
+  ],
+  "follow": 0,
+  "why": "Here Swete's printed text is not Alexandrinus: Swete's note gives A's chrē, \"one must\", and prints zēn, \"to live\". With \"must\" the clause has two verbs of permission and no verb of living; \"live\" gives the sense the cowards' speech needs (8:23: \"this sweetest life\").",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "obedience to the law and knowledge as our counselor",
+  "t": "Knowledge, or Moses?",
+  "p": "Sinaiticus reads \"Moses\" for \"knowledge\": \"obedience to the law, and Moses as our counselor\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τῇ τοῦ νόμου εὐπειθείᾳ συμβούλῳ καὶ γνώσει χρησαίμεθα",
+    "en": "if we did not use obedience to the law and knowledge as counselor",
+    "plain": "obedience to the law and knowledge as our counselor"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it; the Syriac, as Townshend reports it",
+    "orig": "γνωσει] Μωϋσει ℵ",
+    "en": "if we did not use obedience to the law and Moses as counselor",
+    "plain": "obedience to the law and Moses as our counselor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text, though the sentence is stiff: \"counselor\" (symboulō) sits oddly beside \"knowledge\". Sinaiticus's \"Moses as counselor\" reads more smoothly, and Townshend (1913) adopts it (\"take Moses as our counsellor\"), citing Sinaiticus and the Syriac. Gnōsei and Mōysei could be confused in writing.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "9:8",
+  "a": "we will carry off the prizes of virtue",
+  "t": "\"And we will be with God\"",
+  "p": "Sinaiticus adds a clause: \"and we will be with God, for whose sake we suffer these things\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τὰ τῆς ἀρετῆς ἆθλα οἴσομεν",
+    "en": "we will carry off the prizes of virtue",
+    "plain": "we will carry off the prizes of virtue"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it (a corrector wrote \"for whom\" for \"for which\")",
+    "orig": "οισομεν] εξομεν ℵ + και εσομεθα παρα τω θω δι ο (δι ον ℵc.ᵃ) και ταυτα πασχομεν ℵ",
+    "en": "we will have the prizes of virtue, and we will be with God, on account of whom we also suffer these things",
+    "plain": "we will have the prizes of virtue, and we will be with God, for whose sake we suffer these things"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints Alexandrinus, which lacks the clause. The added words state the book's hope plainly, the martyrs' life with God (7:19; 13:17), and may have been added for that reason; or Alexandrinus may have lost them. The Plain English Translation keeps to the base text and shows the longer reading here.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "9:17",
+  "a": "Your methods",
+  "t": "Your methods, or your wheel?",
+  "p": "Sinaiticus has \"your wheel\" (trochos) for \"your way\" (tropos), on the wheel where the brother lies.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "ἰσχυρὸς ὑμῶν ἐστιν ὁ τρόπος",
+    "en": "your way (method) is strong",
+    "plain": "Your methods"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "εστιν ο τροπος] ο τροχος εστιν ℵ",
+    "en": "your wheel is (strong)",
+    "plain": "Your wheel"
+   }
+  ],
+  "follow": 0,
+  "why": "Tropos and trochos differ by one letter. \"Your wheel\" is vivid, since the brother is on it, and it may be what the writer meant; but tropos, \"way, method\", makes good sense of all the tortures, and the speaker uses it so in 9:15 (\"abusing me like this\", literally \"this way\"). The Plain English Translation follows Swete's base text.",
+  "b": "In the same verse Sinaiticus has \"to strangle\" (angxai) for \"to break\" (axai): see the note on \"to break my reason\".",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "9:19",
+  "a": "As they said this",
+  "t": "Who was speaking?",
+  "p": "Swete's text has the guards speaking as they add fire; Sinaiticus has \"when he had said this\", the brother.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "ταῦτα λέγοντες ἔτι πῦρ ἐπέστρωσαν",
+    "en": "saying these things, they spread more fire on",
+    "plain": "As they said this"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it (a corrector wrote \"to him saying\")",
+    "orig": "ταυτα λεγοντες...προσεπικατετεινον] και αυτα ειπων (λεγοντι pro ειπ. ℵc.a) υπεστρωσαν πυρ",
+    "en": "and when he had said these things, they spread fire under him",
+    "plain": "When he had said this"
+   }
+  ],
+  "follow": 0,
+  "why": "In Swete's base text the plural participle \"saying\" belongs to the torturers, who answer the brother's defiance with more fire; it is awkward, since their words are not given. Sinaiticus makes the brother the speaker, which Townshend (1913) follows (\"As he thus spake\"). The Plain English Translation keeps the base text.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "10:4",
+  "a": "So if you have any instrument of punishment, bring it to my body. You will not touch my soul, not even if you want to.\"",
+  "t": "A verse missing from Sinaiticus",
+  "p": "Sinaiticus lacks the whole verse; Brenton's English (1851) has no 10:4 either.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "πρὸς ταῦτα εἴ τι ἔχετε κολαστήριον, προσαγάγετε τῷ σώματί μου· τῆς γὰρ ψυχῆς μου, οὐδ᾽ ἂν θέλητε, ἅψεσθε.",
+    "en": "So if you have any instrument of punishment, bring it to my body; for my soul, not even if you wish, you will not touch.",
+    "plain": "So if you have any instrument of punishment, bring it to my body. You will not touch my soul, not even if you want to.\""
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it (\"4 om ℵ\"); the English of Brenton (1851), which numbers no verse 10:4",
+    "orig": "",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints the verse from Alexandrinus (his note also records that Alexandrinus spells \"you will touch\" as aphasthai). It is in character with the book (9:7; 13:13-15), and a copyist's eye could pass from the end of 10:3 to 10:5. The Plain English Translation keeps it. Brenton's English numbering skips from 10:3 to 10:5.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:7",
+  "a": "if you had any feeling and cared for people, and if you had hope of salvation from God.",
+  "t": "11:7-8 missing from Sinaiticus (1)",
+  "p": "Sinaiticus lacks 11:7-8 (this entry and the next go together). Brenton has neither verse.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "εἴπερ ᾐσθάνου ἀνθρώπους ποθῶν, καὶ ἐλπίδα εἶχες παρὰ θεῷ σωτηρίου·",
+    "en": "if indeed you had feeling, loving people, and had hope of salvation from God;",
+    "plain": "if you had any feeling and cared for people, and if you had hope of salvation from God."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it (\"om ειπερ ησθανου...εις τον θεον ℵ\"); the English of Brenton (1851), which numbers no verses 11:7-8",
+    "orig": "",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints the two verses from Alexandrinus. Without them 11:6 ends the sentence: \"These are things that call for honors, not for tortures.\" Townshend (1913) keeps them and translates from a text reading anthrōpōn pothōn, \"human longings\" (\"if thou didst understand human aspirations\"), where Swete prints anthrōpous pothōn, \"loving people\"; he notes that Lloyd's text omitted both verses, \"following the Strassburg Bible\". The Plain English Translation follows Swete.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:8",
+  "a": "But see: as it is, you are a stranger to God, and you make war on those who are godly toward God.\"",
+  "t": "11:7-8 missing from Sinaiticus (2)",
+  "p": "The second of the two verses Sinaiticus lacks (see 11:7).",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "νῦν ἰδὲ ἀλλότριος ὢν θεοῦ, πολεμεῖς τοὺς εὐσεβοῦντας εἰς τὸν θεόν.",
+    "en": "but now, see, being a stranger to God, you make war on those who are godly toward God.",
+    "plain": "But see: as it is, you are a stranger to God, and you make war on those who are godly toward God.\""
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it; the English of Brenton (1851), which numbers no verses 11:7-8",
+    "orig": "",
+    "en": "(verse lacking)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "See the entry on 11:7. The omission in Sinaiticus ends with the words \"toward God\", where Swete's note marks it.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:10",
+  "a": "over the wheel like a scorpion",
+  "t": "Over the wheel, or around his neck?",
+  "p": "Sinaiticus says he was bent back \"around the neck\" like a scorpion, not \"over the wheel\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "ἐπὶ τὸν τροχὸν σκορπίου τρόπον",
+    "en": "over the wheel, like a scorpion",
+    "plain": "over the wheel like a scorpion"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), as Swete's footnote gives it",
+    "orig": "επι τον τροχον] περι τον τραχηλον ℵ",
+    "en": "around the neck, like a scorpion",
+    "plain": "around his neck like a scorpion"
+   }
+  ],
+  "follow": 0,
+  "why": "Trochon (\"wheel\") and trachēlon (\"neck\") look alike. Swete's base text fits the machine described in the verse; Sinaiticus pictures the body bent back until the feet reach the neck, like a scorpion's tail. The Plain English Translation follows the base text.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:14",
+  "a": "in mind",
+  "t": "In mind, or in folly?",
+  "p": "Alexandrinus has anoia, \"folly\", for dianoia, \"mind\"; Swete prints \"mind\".",
+  "readings": [
+   {
+    "w": "Swete's text (dianoia); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "τῇ δέ διανοίᾳ ἡλικιώτης",
+    "en": "but in mind of the same age",
+    "plain": "in mind"
+   },
+   {
+    "w": "Codex Alexandrinus (A), as Swete's footnote gives it",
+    "orig": "δια- νοiα] ανοια A",
+    "en": "but in folly of the same age",
+    "plain": "in folly"
+   }
+  ],
+  "follow": 0,
+  "why": "Here Swete's printed text is not Alexandrinus. A's anoia (\"folly\") has lost two letters and makes the boy call himself foolish, the opposite of his point. Swete corrects it to dianoia, \"mind\", which the sense requires.",
+  "s": [
+   "swete-lxx",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:18",
+  "a": "with care",
+  "t": "Gracefully, or with care?",
+  "p": "Swete prints eumelōs; Sinaiticus reads epimelōs, \"carefully\". The Plain English Translation follows Sinaiticus here.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "κατατεινόμενος εὐμελῶς",
+    "en": "being stretched out gracefully (or, limb by limb?)",
+    "plain": "gracefully"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it; Townshend follows it",
+    "orig": "ευμελως] επιμελως ℵ",
+    "en": "being stretched out carefully",
+    "plain": "with care"
+   }
+  ],
+  "follow": 1,
+  "why": "This is one of the places where the Plain English Translation leaves Swete's printed text. LSJ gives eumelēs as \"melodious\", with the adverb meaning \"gracefully\", and in one later writer (Aelian) \"with stout limbs\"; none of these gives a clear sense for stretching a man on the wheel, though the word is built on melos, \"limb\". Sinaiticus's epimelōs is the ordinary word for \"carefully\" (LSJ), the cold care of the torturers, and Townshend (1913) adopts it (\"with care\"). The two words differ by two letters.",
+  "s": [
+   "swete-lxx",
+   "lsj-perseus-4ma",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "11:20",
+  "a": "O saintly age",
+  "t": "Age, or contest?",
+  "p": "Sinaiticus reads agōnos, \"O contest\", for aiōnos, \"O age\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD); Codex Venetus lacks 5:12-12:1, so it gives no reading here",
+    "orig": "Ὦ ἱεροπρεποῦς αἰῶνος",
+    "en": "O age befitting holy men",
+    "plain": "O saintly age"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it; the Syriac, as Townshend reports it",
+    "orig": "αιωνος] αγωνος ℵ",
+    "en": "O contest befitting holy men",
+    "plain": "O saintly contest"
+   }
+  ],
+  "follow": 0,
+  "why": "Aiōnos and agōnos differ by one letter. \"Contest\" matches the athletic words that follow (\"called to a training ground\", \"not been beaten\") and Townshend (1913) adopts it (\"O contest worthy of saints\"), citing Sinaiticus and the Syriac. \"Age\" is the base text and makes sense: the boy praises the time in which so many brothers stood firm. The Plain English Translation follows Swete and gives the other reading here.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot",
+   "wp-4-maccabees-nov2026"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "He meant to show her pity, robbed as she was of so many sons, and so to spur her to make",
+  "t": "Who pities whom?",
+  "p": "In Swete's text the king pities the mother; in Sinaiticus and Venetus she is to pity herself and urge her son.",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A)",
+    "orig": "ὅπως αὐτὴν ἐλεήσας τοσούτων υἱῶν στερηθεῖσαν παρορμήσειεν",
+    "en": "so that, having pitied her bereaved of so many sons, he might spur her",
+    "plain": "He meant to show her pity, robbed as she was of so many sons, and so to spur her to make"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, corrected) and Codex Venetus (V), as Swete's footnote gives them; Townshend follows them",
+    "orig": "αυτην] εαυτην ℵc.a V ελεησασα ℵV",
+    "en": "so that she, having pitied herself bereaved of so many sons, might urge",
+    "plain": "He hoped that she, pitying herself, robbed as she was of so many sons, would set out to make"
+   }
+  ],
+  "follow": 0,
+  "why": "In Swete's base text the king, who has just pitied the boy (12:2), now plays at pitying the mother. In Sinaiticus and Venetus the king hopes her own grief will move her. Townshend (1913) translates the second (\"in order that in her sorrow for the loss of so many sons she might urge the survivor\"). Both make sense; the Plain English Translation follows Swete.",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot"
+  ]
+ },
+ {
+  "v": "12:12",
+  "a": "divine Justice",
+  "t": "Divine Justice, or Justice?",
+  "p": "Sinaiticus and Venetus lack \"divine\"; Venetus also lacks \"and for tortures\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD)",
+    "orig": "ἡ θεία δίκη ... πυρὶ καὶ βασάνοις",
+    "en": "divine Justice ... for fire and for tortures",
+    "plain": "divine Justice"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Codex Venetus (V), as Swete's footnote gives them",
+    "orig": "om θεια ℵV",
+    "en": "Justice",
+    "plain": "Justice"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's footnote gives it",
+    "orig": "om και βασανοις V",
+    "en": "Justice ... for a fiercer and eternal fire",
+    "plain": "Justice is storing you up for a fiercer and eternal fire"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. \"Divine Justice\" is the book's fixed phrase (8:22; 9:9; 18:22); without \"divine\" the personified Justice is the same power. Venetus's shorter text drops the tortures and keeps the fire.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "12:13",
+  "a": "abused and tortured them",
+  "t": "Abused, or burned?",
+  "p": "Sinaiticus has \"burned\" (katakausas) for \"abused\" (kataikisas).",
+  "readings": [
+   {
+    "w": "Swete's text (Alexandrinus spells it κατακεισ-); Venetus has the same word in another order",
+    "orig": "τοῦτον καταικίσας τὸν τρόπον βασανίσαι",
+    "en": "to abuse and torture them in this way",
+    "plain": "abused and tortured them"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it",
+    "orig": "τουτον κατακαυσας τον τρ. ℵ",
+    "en": "to burn and torture them in this way",
+    "plain": "burned and tortured them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text. The two participles look alike in Greek (kataikisas, katakausas). \"Burned\" fits the fire of 12:1 and 12:20; \"abused\" is the word the book uses for the brothers' treatment (9:15; 11:1).",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "12:17",
+  "a": "witness",
+  "t": "Witness, or valor?",
+  "p": "Swete's text says the brothers' \"witness\" (martyria); Sinaiticus and Venetus say their \"valor\" (aristeia).",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A, 400s AD)",
+    "orig": "τῆς τῶν ἀδελφῶν μου μαρτυρίας",
+    "en": "of the witness of my brothers",
+    "plain": "witness"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and the first hand of Codex Venetus (V*), as Swete's footnote gives them; a corrector of Venetus (Vᵃ) spells the word -τειας",
+    "orig": "μαρτυριας] αριστιας ℵV* (-τειας Vᵃ)",
+    "en": "of the valor (deeds of prowess) of my brothers",
+    "plain": "valor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's base text. Martyria is \"witness, testimony\", the word from which \"martyr\" comes (see the topic Martyrs and Witnesses). The mother uses a related word when she calls her sons to the contest for the nation's witness (diamartyria, 16:16), so \"witness\" fits the book. Aristeia, \"deeds of valor, prowess\", fits the military words of 9:23. If Sinaiticus and Venetus are right, the word \"martyr\" is not in the youngest brother's mouth.",
+  "b": "Townshend (1913) translates \"I am no renegade to the witness borne by my brethren\".",
+  "s": [
+   "swete-lxx",
+   "townshend-4macc-apot"
+  ]
+ },
+ {
+  "v": "12:18",
+  "a": "my people",
+  "t": "My people, or our nation?",
+  "p": "Sinaiticus and Venetus have \"to our nation\" for \"to my race\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A)",
+    "orig": "τῷ γένει μου",
+    "en": "to my race (people)",
+    "plain": "my people"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Codex Venetus (V), as Swete's footnote gives them",
+    "orig": "γενει μου] εθνει (-νι ℵ) ημων ℵV",
+    "en": "to our nation",
+    "plain": "our nation"
+   }
+  ],
+  "follow": 0,
+  "why": "Both mean the Jewish people. \"Our nation\" (ethnos) matches the words of the youngest brother in 2 Maccabees, who calls on God \"to be gracious soon to the nation\" (2 Maccabees 7:37), and Eleazar's prayer for \"your nation\" (6:28); a copyist may have brought the wording into line. The Plain English Translation follows Swete's base text.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "12:20",
+  "a": "gave back his life",
+  "t": "Gave back what?",
+  "p": "Alexandrinus says only \"he gave back\"; Sinaiticus adds \"his spirit\", Venetus \"his soul\".",
+  "readings": [
+   {
+    "w": "Swete's printed text, from Codex Alexandrinus (A), with no object",
+    "orig": "καὶ οὕτως ἀπέδωκεν",
+    "en": "and so he gave back",
+    "plain": "gave back his life"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), as Swete's footnote gives it",
+    "orig": "απεδωκεν] + το πνα ℵ",
+    "en": "and so he gave back his spirit",
+    "plain": "gave back his spirit"
+   },
+   {
+    "w": "Codex Venetus (V), as Swete's footnote gives it",
+    "orig": "+ την ψυχην V",
+    "en": "and so he gave back his soul",
+    "plain": "gave back his soul"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus uses \"gave back\" alone as a way of saying \"he died\". English needs an object, so the Plain English Translation supplies \"his life\". The other two copies each fill in a word: Sinaiticus \"spirit\" (abbreviated πνα in Swete's note), as Jesus \"handed over his spirit\" (John 19:30), and Venetus \"soul\", in keeping with the book's language (9:25).",
+  "s": [
+   "swete-lxx"
+  ]
+ }
+]

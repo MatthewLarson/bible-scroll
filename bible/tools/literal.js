@@ -8,6 +8,7 @@ const fs = require('fs'), path = require('path');
 const [id, sel] = process.argv.slice(2);
 if(!id || !sel){ console.log('usage: node tools/literal.js <book id> <chapter>[:<verse>[-<verse>]]'); process.exit(1); }
 const o = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'texts', 'orig', id + '.json'), 'utf8'));
+if(!o.w){ console.log(`${id}: no word-by-word glosses (books outside the 66 have none); build the literal line from the ${o.lang} text by hand, as tools/agent-writer-works.md says`); process.exit(1); }
 const [c, vr] = sel.split(':'), [v1, v2] = vr ? vr.split('-').map(Number) : [0, 999];   // a whole chapter starts at 0, a psalm's title
 Object.keys(o.w).filter(k => { const [kc, kv] = k.split(':').map(Number); return kc === +c && kv >= v1 && kv <= (v2 || v1); })
   .sort((a, b) => +a.split(':')[1] - +b.split(':')[1])

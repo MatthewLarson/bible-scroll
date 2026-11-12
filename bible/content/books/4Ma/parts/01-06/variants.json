@@ -1,0 +1,633 @@
+[
+ {
+  "v": "1:1",
+  "a": "godly reason",
+  "t": "Godly reason, or reason?",
+  "p": "Venetus leaves out \"godly\" in the book's opening thesis.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ); Swete's footnote names only Venetus as differing",
+    "orig": "ὁ εὐσεβὴς λογισμός",
+    "en": "the godly reasoning",
+    "plain": "godly reason"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "ὁ λογισμός (om εὐσεβής V)",
+    "en": "the reasoning",
+    "plain": "reason"
+   }
+  ],
+  "follow": 0,
+  "why": "Two of the three codices have the adjective, and the thesis phrase recurs with it later (6:31; 13:1; 18:2), so the Plain English Translation keeps it. A copyist could easily drop a word in a long opening sentence.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "If, then,",
+  "t": "If, then, or for?",
+  "p": "Venetus changes the opening words, so that the verse no longer begins a condition.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints; Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "εἰ ἄρα",
+    "en": "if, then",
+    "plain": "If, then,"
+   },
+   {
+    "w": "Codex Venetus, first hand (V*), from Swete's footnotes",
+    "orig": "ἢ γὰρ",
+    "en": "for surely",
+    "plain": "For surely"
+   },
+   {
+    "w": "Codex Venetus, a later hand (Vᵃ), from Swete's footnotes",
+    "orig": "οὐ γὰρ μέν",
+    "en": "for not ... (unclear)",
+    "plain": "(unclear)"
+   }
+  ],
+  "follow": 0,
+  "why": "Alexandrinus and Sinaiticus agree, and \"if, then\" fits the argument of 1:3-4, which runs as a condition and its result (\"it is also seen to be lord\"). The Venetus readings break that link.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "be lord over",
+  "t": "Be lord over, or hold back?",
+  "p": "Venetus says reason \"holds back\" the passions that block justice, instead of \"is lord over\" them.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "κυριεύειν",
+    "en": "to be lord over",
+    "plain": "be lord over"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "κωλύειν",
+    "en": "to hinder",
+    "plain": "hold back"
+   }
+  ],
+  "follow": 0,
+  "why": "The thesis is about rule, and the verb matches the run of words for mastery in 1:1-7. Venetus's word may come from the words for hindering (kōlytikos, empodistikos) in 1:3-4.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:6",
+  "a": "self-restraint and good sense",
+  "t": "Four virtues, or three?",
+  "p": "Sinaiticus and Venetus leave out \"and good sense\", so only three virtues are named here.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "καὶ σωφροσύνης καὶ φρονήσεως ἐναντίων",
+    "en": "and self-restraint and good sense, opposing",
+    "plain": "self-restraint and good sense"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "καὶ σωφροσύνης ἐναντίων",
+    "en": "and self-restraint, opposing",
+    "plain": "self-restraint"
+   }
+  ],
+  "follow": 0,
+  "why": "The base text is followed. The speech names four virtues in 1:2-4 and 1:18, so the full list fits its plan; but two codices against one is not weak support, and a copyist could as easily have added the fourth virtue to complete the list as dropped it.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "godly reason",
+  "t": "Godly reason, or reason?",
+  "p": "Sinaiticus and Venetus both leave out \"godly\" here.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "ὁ εὐσεβὴς λογισμός",
+    "en": "the godly reasoning",
+    "plain": "godly reason"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Codex Venetus (V, 700s-800s AD), from Swete's footnotes (Venetus also puts \"master\", δεσπότης, before \"sovereign\")",
+    "orig": "ὁ λογισμός (om εὐσεβής ℵV)",
+    "en": "the reasoning",
+    "plain": "reason"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints Alexandrinus. The reading without the adjective has two codices, and it is the shorter text; but the same two codices are not always independent, and the phrase \"godly reason\" is the book's own formula. The Plain English Translation follows the base text; the meaning of the thesis does not change.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "the men",
+  "t": "Men, or boys?",
+  "p": "Venetus calls the seven brothers \"boys\" instead of \"men\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "ἄνδρας",
+    "en": "men",
+    "plain": "the men"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "παῖδας",
+    "en": "boys, children",
+    "plain": "the boys"
+   }
+  ],
+  "follow": 0,
+  "why": "The book calls the brothers both \"young men\" and \"children\" elsewhere; here Alexandrinus and Sinaiticus agree, and the praise of their courage suits \"men\".",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:10",
+  "a": "at this season",
+  "t": "At this season, or at that time?",
+  "p": "Venetus reads \"at that time\", which would remove the hint that the speech was given on a day of remembrance.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "κατὰ τοῦτον τὸν καιρὸν",
+    "en": "at this season",
+    "plain": "at this season"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "κατ᾽ ἐκεῖνον τὸν καιρόν",
+    "en": "at that time",
+    "plain": "at that time"
+   }
+  ],
+  "follow": 0,
+  "why": "Two codices against one, and \"this\" is the harder reading, since a copyist who did not know the setting might change it to \"that\" to refer to the time of the martyrs.",
+  "b": "<p>See the note at 1:10 on the occasion of the speech.</p>",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:15",
+  "a": "together with a right way of life, puts the word of wisdom first",
+  "t": "Right life, or right reason?",
+  "p": "Sinaiticus and Venetus define reason with \"right reason\" (orthos logos), the Stoics' phrase, and \"the life of wisdom\".",
+  "readings": [
+   {
+    "w": "Swete's text: Codex Alexandrinus (A, 400s AD), the text Swete prints, which in fact has the slip ὀρθούς, corrected by Swete to ὀρθοῦ",
+    "orig": "μετὰ ὀρθοῦ βίου προτιμῶν τὸν σοφίας λόγον",
+    "en": "with right life preferring the word of wisdom",
+    "plain": "together with a right way of life, puts the word of wisdom first"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "μετὰ ὀρθοῦ λόγου προτιμῶν τὸν σοφίας βίον",
+    "en": "with right reason preferring the life of wisdom",
+    "plain": "together with right reason, puts the life of wisdom first"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "μετὰ ὀρθοῦ λόγου προτιμῶν τὸν σοφὸν βίον",
+    "en": "with right reason preferring the wise life",
+    "plain": "together with right reason, puts the wise life first"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete's printed text is a mixture: the words of Alexandrinus, with Swete's correction of its slip ὀρθούς to ὀρθοῦ. Sinaiticus and Venetus agree on \"right reason\" (ὀρθοῦ λόγου) and differ only in the last words. The Plain English Translation follows Swete's text, the base text of this site, but the reading of the other two codices is a strong rival, and Swete's notes do not settle which is older.",
+  "b": "<p>The Stoics spoke of \"the right reason pervading everything\", which they identified with Zeus. A definition of human reasoning as \"mind with right reason\" would put the book's thesis in those terms; Alexandrinus's \"right life\" ties it instead to living by the law (1:17).</p>",
+  "s": [
+   "swete-lxx",
+   "sep-stoicism-2023"
+  ]
+ },
+ {
+  "v": "1:27",
+  "a": "eating anything at all, gorging, and eating alone",
+  "t": "The bodily vices: order and number",
+  "p": "The three codices differ in the list: Sinaiticus reverses the last two, Venetus lacks \"gorging\".",
+  "readings": [
+   {
+    "w": "Swete's text (Alexandrinus, with Swete's correction of its slip νομοφαγία)",
+    "orig": "παντοφαγία καὶ λαιμαργία καὶ μονοφαγία",
+    "en": "eating anything, gorging and eating alone",
+    "plain": "eating anything at all, gorging, and eating alone"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "παντοφαγία καὶ μονοφαγία καὶ λαιμαργία",
+    "en": "eating anything, eating alone and gorging",
+    "plain": "eating anything at all, eating alone, and gorging"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "παντοφαγία καὶ μονοφαγία",
+    "en": "eating anything and eating alone",
+    "plain": "eating anything at all and eating alone"
+   }
+  ],
+  "follow": 0,
+  "why": "The base text is followed. All three codices have \"eating anything\" and \"eating alone\"; Alexandrinus and Sinaiticus both have \"gorging\" too, only in a different place, so Venetus's shorter list looks like an omission.",
+  "b": "<p>See the note on \"eating alone\" for Alexandrinus's slip <i>nomophagia</i>.</p>",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "1:35",
+  "a": "muzzled",
+  "t": "Muzzled, or made ambitious?",
+  "p": "Alexandrinus has a word that makes little sense here; the Plain English Translation follows Sinaiticus and Venetus.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes (spelled φειμοῦται); Codex Venetus (V, 700s-800s AD), from Swete's footnotes; Brenton's English (\"reined in\")",
+    "orig": "φιμοῦται",
+    "en": "are muzzled",
+    "plain": "muzzled"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "φιλοτιμοῦνται",
+    "en": "strive for honor, are made ambitious",
+    "plain": "made to strive for honor"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a departure from the base text. \"All the urges of the body are made to strive for honor by reason\" hardly fits the sentence, while \"muzzled\" matches \"resisted and bent back\" just before. The two words differ by only a few letters (φιμουνται / φιλοτιμουνται), so Alexandrinus's reading is most likely a slip. In the same verse the Plain English Translation follows Swete's text for the first two verbs (see the variants on \"resisted\" and \"bent back\"), so only this clause follows Sinaiticus and Venetus.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "1:35",
+  "a": "resisted",
+  "t": "Resisted, or held back?",
+  "p": "Sinaiticus has a verb that means \"held back, checked\" for Alexandrinus's \"resisted\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "ἀντέχεται",
+    "en": "are resisted, are held out against",
+    "plain": "resisted"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "ἀνέχεται",
+    "en": "are held back, are checked",
+    "plain": "held back"
+   }
+  ],
+  "follow": 0,
+  "why": "The base text is followed. The lexicon of Liddell and Scott gives \"hold out against, withstand\" for ἀντέχω, and quotes Sinaiticus's reading at this verse under ἀνέχω, \"hold back, check\". The two verbs differ by one letter, and either makes sense.",
+  "s": [
+   "swete-lxx",
+   "lsj-perseus-4ma"
+  ]
+ },
+ {
+  "v": "1:35",
+  "a": "bent back",
+  "t": "Bent back, or beaten back?",
+  "p": "Sinaiticus and Venetus say the passions are \"beaten back\"; Swete prints \"bent back\".",
+  "readings": [
+   {
+    "w": "Swete's text (Alexandrinus has ἀνακαμπτόμεθα, \"we are bent back\", which Swete corrects)",
+    "orig": "ἀνακαμπτόμενα",
+    "en": "being bent back",
+    "plain": "bent back"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "ἀνακοπτόμενα",
+    "en": "being beaten back, being checked",
+    "plain": "beaten back"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Swete's text, which keeps Alexandrinus's verb and corrects only its ending. Liddell and Scott give \"bend back\" for ἀνακάμπτω and \"drive back, beat back; check\" for ἀνακόπτω. Two codices against one makes \"beaten back\" a strong rival, and it would match the \"muzzled\" that follows, which also comes from Sinaiticus and Venetus.",
+  "s": [
+   "swete-lxx",
+   "lsj-perseus-4ma"
+  ]
+ },
+ {
+  "v": "2:19",
+  "a": "\"Their anger be cursed.\"",
+  "t": "A longer quotation in Venetus",
+  "p": "Venetus adds the next words of Genesis 49:7 in Greek: \"for it was willful\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "Ἐπικατάρατος ὁ θυμὸς αὐτῶν",
+    "en": "Cursed be their anger",
+    "plain": "\"Their anger be cursed.\""
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "Ἐπικατάρατος ὁ θυμὸς αὐτῶν ὅτι αὐθάδης",
+    "en": "Cursed be their anger, for it was self-willed",
+    "plain": "\"Their anger be cursed, for it was willful.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The shorter quotation has two codices. A copyist who knew the Greek of Genesis 49:7 (\"cursed be their anger, for it was self-willed\", as Swete prints it) could easily finish the line.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "that reasoning",
+  "t": "Reasoning, or argument?",
+  "p": "Alexandrinus uses the book's word for reason (logismos) for the objector's argument; Venetus has logos, \"argument\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "ὁ λογισμός",
+    "en": "the reasoning",
+    "plain": "that reasoning"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes; a corrector of Codex Sinaiticus (ℵc), who also supplied the words the first hand left out",
+    "orig": "ὁ λόγος",
+    "en": "the argument",
+    "plain": "that argument"
+   }
+  ],
+  "follow": 0,
+  "why": "The base text's word is the harder reading: a copyist would more likely change the odd \"reasoning is laughable\" to \"the argument is laughable\" than the other way around.",
+  "b": "<p>The first hand of Codex Sinaiticus left out everything from \"rules\" in 2:24 to \"reason\" in 3:1 (Swete gives the gap as κρατει ληθης ... εαυτου παθων ο λογισμος); a corrector wrote the missing words in, in a slightly different form.</p>",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "3:20",
+  "a": "Seleucus Nicanor",
+  "t": "Seleucus Nicanor, or son of Nicanor?",
+  "p": "Venetus reads \"Seleucus, son of Nicanor\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "Σέλευκον τὸν Νικάνορα",
+    "en": "Seleucus the Nicanor",
+    "plain": "Seleucus Nicanor"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "Σέλευκον τὸν Νικάνορος",
+    "en": "Seleucus the (son) of Nicanor",
+    "plain": "Seleucus, son of Nicanor"
+   }
+  ],
+  "follow": 0,
+  "why": "Neither name fits the king meant (Seleucus IV); the base text is followed and the error explained in the note.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:9",
+  "a": "the priests",
+  "t": "The priests, or the old men?",
+  "p": "Sinaiticus has \"the old men\" praying in the temple with the women and children.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Venetus (V)",
+    "orig": "ἱερέων",
+    "en": "priests",
+    "plain": "the priests"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "γεραιῶν",
+    "en": "old men",
+    "plain": "the old men"
+   }
+  ],
+  "follow": 0,
+  "why": "Two codices against one. The two Greek words look alike (ἱερέων / γεραιῶν), and 2 Maccabees 3:15 has the priests praying.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:17",
+  "a": "three thousand six hundred sixty talents",
+  "t": "3,660 or 1,660 talents?",
+  "p": "The first hand of Sinaiticus wrote \"one thousand\" for \"three thousand\"; a later corrector changed it.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints; Codex Venetus (V); a corrector of Codex Sinaiticus (ℵc.b)",
+    "orig": "τρισχίλια ἑξακόσια ἑξήκοντα τάλαντα",
+    "en": "three thousand six hundred sixty talents",
+    "plain": "three thousand six hundred sixty talents"
+   },
+   {
+    "w": "Codex Sinaiticus, first hand (ℵ*), from Swete's footnote",
+    "orig": "χίλια ἑξακόσια ἑξήκοντα τάλαντα",
+    "en": "one thousand six hundred sixty talents",
+    "plain": "one thousand six hundred sixty talents"
+   }
+  ],
+  "follow": 0,
+  "why": "All the other witnesses have three thousand. Either sum is far above the 360 talents of 2 Maccabees 4:8.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:19",
+  "a": "made the nation give up its way of life",
+  "t": "Changed their way of life, or sought them out?",
+  "p": "Alexandrinus says Jason \"sought out\" the nation; Sinaiticus and Venetus say he made it change its way of life.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "ἐξεδιῄτησεν τὸ ἔθνος",
+    "en": "he changed the nation's way of living",
+    "plain": "made the nation give up its way of life"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "ἐξεζήτησεν τὸ ἔθνος",
+    "en": "he sought out the nation",
+    "plain": "sought out the nation"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a departure from the base text. \"Sought out the nation\" gives no clear sense beside \"changed its form of government\", while \"changed their way of life\" matches 2 Maccabees 4:10, where Jason \"moved his own people over to the Greek stamp\". The two Greek words differ by a few letters.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "4:20",
+  "a": "Not only did Jason build a gymnasium on top of our homeland's citadel; he also put an end to the care of the temple.",
+  "t": "Did he also end the temple's care?",
+  "p": "Alexandrinus lacks the words \"but also did away with\"; Swete supplies them from Sinaiticus and Venetus.",
+  "readings": [
+   {
+    "w": "Swete's text, with Codex Sinaiticus (ℵ) and Codex Venetus (V)",
+    "orig": "ἀλλὰ καὶ καταλῦσαι τὴν τοῦ ἱεροῦ κηδεμονίαν",
+    "en": "but also to put an end to the care of the temple",
+    "plain": "Not only did Jason build a gymnasium on top of our homeland's citadel; he also put an end to the care of the temple."
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints (it leaves out ἀλλὰ καὶ καταλῦσαι)",
+    "orig": "γυμνάσιον κατασκευάσαι ... τὴν τοῦ ἱεροῦ κηδεμονίαν",
+    "en": "to build a gymnasium ... the care of the temple",
+    "plain": "Jason built a gymnasium on top of our homeland's citadel ... the care of the temple."
+   }
+  ],
+  "follow": 0,
+  "why": "Without the missing words the sentence in Alexandrinus does not hold together (\"not only ... the care of the temple\"), so Swete corrects it from the other two codices, and the Plain English Translation follows Swete's text. Brenton's English marks the gap with brackets.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "4:24",
+  "a": "loyalty",
+  "t": "Loyalty, or keeping of the law?",
+  "p": "Sinaiticus and Venetus say the king could not break the nation's \"good order under the law\" (eunomia).",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "εὔνοιαν",
+    "en": "goodwill, loyalty",
+    "plain": "loyalty"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Codex Venetus (V, 700s-800s AD), from Swete's footnotes; Brenton's English (\"obedience to the law\")",
+    "orig": "εὐνομίαν",
+    "en": "good order, keeping of the law",
+    "plain": "keeping of the law"
+   }
+  ],
+  "follow": 0,
+  "why": "Both readings make sense. The base text is followed: \"goodwill\" toward their own law and people is what the decrees tried to break. Eunomia appears at 3:20 (\"they kept the law well\"), which might have led a copyist to write it here too.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "because of his age many of the tyrant's court knew him",
+  "t": "Known for his age, or for his philosophy too?",
+  "p": "Venetus adds that the court knew Eleazar \"for his philosophy\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints and Codex Sinaiticus (ℵ)",
+    "orig": "πολλοῖς τῶν περὶ τὸν τύραννον διὰ τὴν ἡλικίαν γνώριμος",
+    "en": "known to many of those around the tyrant because of his age",
+    "plain": "because of his age many of the tyrant's court knew him"
+   },
+   {
+    "w": "Codex Venetus (V, 700s-800s AD), from Swete's footnotes",
+    "orig": "πολλοῖς τῶν περὶ τὸν τύραννον διὰ τὴν ἡλικίαν γνώριμος διὰ τὴν φιλοσοφίαν",
+    "en": "known ... because of his age, for his philosophy",
+    "plain": "because of his age, and for his philosophy, many of the tyrant's court knew him"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition has only one witness, and it looks like an explanation drawn from 5:35 and 7:7, where Eleazar is praised as a philosopher.",
+  "b": "<p>Swete's footnote also shows that Codex Sinaiticus leaves out \"a Hebrew\" in this verse.</p>",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "5:34",
+  "a": "I will not run from you",
+  "t": "Run from, or swear off?",
+  "p": "Sinaiticus reads \"I will not swear you off\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "οὐδὲ φεύξομαί σε",
+    "en": "nor will I flee you",
+    "plain": "I will not run from you"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "οὐδὲ ἐξομοῦμαί σε",
+    "en": "nor will I swear you off",
+    "plain": "I will not swear you off"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints Alexandrinus. Sinaiticus's word echoes 4:26, where the king forces people to \"swear off\" Judaism, and that echo may have drawn a copyist to it; Venetus is lost from 5:11 on and cannot decide.",
+  "s": [
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "6:11",
+  "a": "courage",
+  "t": "Courage, or good fortune?",
+  "p": "Alexandrinus says the torturers admired Eleazar's \"good fortune\"; Sinaiticus has \"courage\".",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes; Brenton's English (\"courage\")",
+    "orig": "εὐψυχίᾳ",
+    "en": "courage, stoutness of heart",
+    "plain": "courage"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "εὐτυχίᾳ",
+    "en": "good fortune, success",
+    "plain": "good fortune"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a departure from the base text. A man being flogged is not admired for his good fortune; the words differ by one letter (ευτυχια / ευψυχια), and courage is what the scene shows (6:5, 9-10). Venetus is lost here.",
+  "s": [
+   "swete-lxx",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "6:28",
+  "a": "on their account",
+  "t": "On their account, or on their behalf?",
+  "p": "Sinaiticus has hyper, \"on their behalf\", the word of the New Testament's \"died for us\", in Eleazar's prayer.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), the text Swete prints",
+    "orig": "περὶ αὐτῶν",
+    "en": "concerning them, on their account",
+    "plain": "on their account"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s AD), from Swete's footnotes",
+    "orig": "ὑπὲρ αὐτῶν",
+    "en": "on their behalf, for them",
+    "plain": "on their behalf"
+   }
+  ],
+  "follow": 0,
+  "why": "The base text is followed. Sinaiticus also has ὑπέρ for περί at 5:38, where nothing theological is at stake, so the change here need not be a theological one either; but ὑπέρ makes the idea of a penalty paid in place of others plainer. Venetus is lost here.",
+  "b": "<p>The prayer means much the same with either word: the suffering is offered for the nation's sake. In the New Testament ὑπέρ is the word of \"Christ died for us\" (Romans 5:8) and \"one man should die on behalf of the people\" (John 11:50).</p>",
+  "s": [
+   "swete-lxx"
+  ]
+ }
+]

@@ -8,7 +8,8 @@
 (function(root){
 const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs'], Rev:['Revelation']};
 const PLAIN_WORDS = new Set('See Compare In At And Also Then From To Or Both Note Like Unlike After Before With Until Since Only Verse Verses Chapter Chapters Rev But Yet So As'.split(' '));
-const ONE_CH = new Set(['Oba','Phm','2Jn','3Jn','Jud']);
+const ONE_CH = new Set(['Oba','Phm','2Jn','3Jn','Jud','Man','Ps2']);
+const PS151 = 'Ps2';   // Psalm 151 is its own book: "Psalm 151:4" is Ps2 1:4, "Psalm 151" the whole psalm
 
 function makeRefs(books){
   const BY_ID = {}, OF = {};
@@ -21,7 +22,7 @@ function makeRefs(books){
     if(r.c < 1 || r.c > n || (r.c2 && (r.c2 < r.c || r.c2 > n))) return false;
     if(r.v && r.v > vcount(r.book, r.c) && !(r.book==='Psa' && r.v===0)) return false;
     return true; };
-  const label = r => `${BY_ID[r.book].name.replace(/^Psalms$/,'Psalm')} ` + (r.v!=null ? `${r.c}:${r.v}` + (r.c2 ? `–${r.c2}:${r.v2}` : r.v2 ? `–${r.v2}` : '') : `${r.c}` + (r.c2?`–${r.c2}`:''));
+  const label = r => r.book===PS151 ? `Psalm 151${r.v!=null ? ':' + r.v + (r.v2 ? '–' + r.v2 : '') : ''}` : `${BY_ID[r.book].name.replace(/^Psalms$/,'Psalm')} ` + (r.v!=null ? `${r.c}:${r.v}` + (r.c2 ? `–${r.c2}:${r.v2}` : r.v2 ? `–${r.v2}` : '') : `${r.c}` + (r.c2?`–${r.c2}`:''));
 
   /* -> [{start, end, book, c, v, c2, v2, label}] */
   function findRefs(text, ctx, listMode, pre='', onAmb=null){
@@ -55,7 +56,9 @@ function makeRefs(books){
       }
       const r = {start, end:start+all.length, book, c:+c, v:v!=null?+v:null, c2:null, v2:null};
       if(x){ if(y){ r.c2=+x; r.v2=+y; } else if(v) r.v2=+x; else r.c2=+x; }
-      if(r.v==null && ONE_CH.has(r.book)){ r.v=r.c; r.v2=r.c2; r.c=1; r.c2=null; }
+      const ps151 = r.book==='Psa' && r.c===151 && !r.c2 && BY_ID[PS151];
+      if(ps151){ r.book=PS151; r.c=1; }   // "Psalm 151:4"; a bare "Psalm 151" stays the whole psalm
+      else if(r.v==null && ONE_CH.has(r.book)){ r.v=r.c; r.v2=r.c2; r.c=1; r.c2=null; }
       if(!valid(r)) { lastEnd = -1; continue; }
       r.label = label(r);
       out.push(r); lastEnd = r.end;

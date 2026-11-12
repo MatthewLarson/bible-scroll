@@ -1,0 +1,1688 @@
+[
+ {
+  "v": "1:1",
+  "a": "I cried out to the Lord",
+  "type": "word",
+  "t": "A psalm with no heading",
+  "p": "Swete prints no title over the first psalm, but several of his manuscripts give one.",
+  "b": "Psalms 2-18 each have a heading (verse 0), but Swete prints none over Psalm 1. His footnote gives what the manuscripts have. Above the whole book, the title <i>Psalmoi Solomontos</i>, \"Psalms of Solomon,\" is reported for the manuscript he calls l, and with a slightly different spelling for h; i and r lack it, and the footnote reports nothing about it for the others. Above this psalm, h, i, l, m, p and v read \"A psalm of Solomon,\" and i adds \"first.\" Manuscript r has neither the title nor the number. Swete's list of manuscripts names the eight: c (Casanatensis), h (Havniensis), i (Iberiticus), l (Laurensis), m (Mosquensis), p (Parisinus), r (Romanus, Vaticanus Greek 336) and v (Vindobonensis), copied between the 1000s and 1419. Swete's text of this book rests on r: he says his first edition took it from a collation of r, and the present edition adds the corrections and \"a few of the conjectural emendations\" in von Gebhardt's edition (1895).",
+  "orig": "Ψαλμὸς τῷ Σαλομών (in h i l m p v)",
+  "kind": "var",
+  "top": "psalm-titles",
+  "s": [
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "the Lord",
+  "type": "word",
+  "t": "\"The Lord,\" not \"the LORD\"",
+  "p": "The Greek has Kyrios, \"Lord.\" The site keeps capital LORD for the Hebrew divine name only.",
+  "b": "Kyrios is the word the Greek Bible uses where the Hebrew has the divine name YHWH, and also for Hebrew Adonai. The Hebrew of these psalms is lost (see the note on 1:1, \"trouble pressed me\"), so no one can tell which Hebrew word stood behind each \"Lord.\" The Plain English Translation therefore writes \"the Lord\" throughout this book, as it does in the other Greek books outside the Hebrew Bible, and keeps \"the LORD\" for the Hebrew Bible itself.",
+  "orig": "Κύριος (Kyrios)",
+  "kind": "nu",
+  "top": "names-of-god",
+  "s": []
+ },
+ {
+  "v": "1:1",
+  "a": "when trouble pressed me to the limit",
+  "type": "word",
+  "t": "\"To the end\"",
+  "p": "The Greek adds eis telos, \"to the end.\" Gray wondered whether it was a misplaced psalm heading.",
+  "b": "Word for word the line says \"when I was afflicted, to the end.\" G. Buchanan Gray (1913) gave two explanations. Either it intensifies (\"when I was in sore distress\"), or it is a heading that slipped into the line: the Greek Psalms put <i>eis to telos</i>, \"to the end,\" at the head of many psalms where the Hebrew has \"For the music director\" (Greek Psalm 4:1; compare Psalm 4:0). He noted that the line's Hebrew rhythm would be complete without it. The Syriac version has \"at my end.\" The Plain English Translation takes it as an intensifier.",
+  "orig": "ἐν τῷ θλίβεσθαί με εἰς τέλος (en tō thlibesthai me eis telos)",
+  "kind": "deb",
+  "r": "Psalm 4:0; 2:5",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "sinners",
+  "type": "israel",
+  "t": "Who are \"the sinners\"?",
+  "p": "In these psalms \"sinners\" is a party label as much as a moral one: sometimes foreign nations, sometimes Jews.",
+  "b": "The word runs through the whole book. Gray (1913) noted that the poets, like many biblical psalmists, call foreign nations \"sinners\" as such (1:1; 2:1-2; 2:24-28). But in other places the sinners are a powerful class inside Israel, wealthy and tied to the Temple, set against \"the righteous\" and \"the devout\" (see 2:40). He warned that this is a strongly partisan book: \"Neither the righteousness of the righteous, nor the sinfulness of the sinful, must be accepted too literally.\" Paul uses the first sense when he writes \"not sinners from the Gentiles\" (Galatians 2:15). Here the attackers of 1:1 are most likely the foreign army; in 1:4-8 the sinners are Jerusalem's own people.",
+  "orig": "ἁμαρτωλοί (hamartōloi)",
+  "r": "Galatians 2:15; Psalm 1:1; Psalm 1:5; 2:1; 4:1",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "a battle cry",
+  "type": "history",
+  "t": "War comes suddenly",
+  "p": "The psalm opens with an alarm of war, most likely Rome's army coming to Judea in 63 BC.",
+  "b": "The book never names the enemy. Psalms 2, 8 and 17 describe a conqueror who comes from far away, is welcomed by some, takes the Temple by siege and dies in Egypt; most scholars identify him (Gray wrote in 1913 of \"the majority of recent scholars\") with the Roman general Pompey, who took Jerusalem in 63 BC (see 2:1 and 8:16). Psalm 1 is the overture: a voice hears the battle cry and is shocked, because she thought she was righteous. Gray read Psalm 1 as the distress of war that struck the whole nation, sinners and righteous alike.",
+  "r": "8:1; 2:1; 8:16",
+  "top": "rome",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "because I was full of righteousness",
+  "type": "views",
+  "t": "Too sure of herself",
+  "p": "The speaker trusts her own righteousness. The next lines show she was wrong.",
+  "b": "The speaker expects God to answer because she is \"full of righteousness.\" Verse 3 says she only counted herself so, and verse 7 that the sins were hidden from her. Gray (1913) compared Isaiah 1:21, where the city once \"was filled with justice\" (Isaiah 1:21). He read the opening as a confession that Israel was not as righteous as it thought. The same turn comes in 8:7-8: first \"They will keep their ways straight,\" then God uncovers their sins.",
+  "r": "Isaiah 1:21; 8:7–8",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:3",
+  "a": "had many children",
+  "type": "word",
+  "t": "Is the speaker a woman, Jerusalem?",
+  "p": "In Swete's text the Greek word for \"many\" is feminine, so the \"I\" may be Jerusalem, mother of her people. The manuscripts differ.",
+  "b": "The Greek says literally \"I became many in children.\" Swete prints <i>pollēn</i>, \"many,\" a feminine form, from manuscripts l and r; h, i, m, p and v have the masculine <i>polyn</i> (see the variant on this verse). With the feminine, the \"I\" of the psalm is a woman. This site reads her as Jerusalem, whose \"children\" are her people, as in Isaiah 49:21, Isaiah 54:1 and Baruch 4:9-12; that is an inference from the feminine form, not something the psalm states. Gray (1913) does not name the speaker; he took \"their wealth\" in 1:4 as the wealth of \"the Jews, the children (v. 3) of Zion.\" English cannot show the gender, so the note does.",
+  "orig": "πολλὴν γενέσθαι ἐν τέκνοις (pollēn genesthai en teknois)",
+  "kind": "var",
+  "r": "Isaiah 49:21; Isaiah 54:1; Baruch 4:9–12; 2:19–23",
+  "top": "jerusalem",
+  "s": [
+   "swete-vol3-pss",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:4",
+  "a": "over the whole earth",
+  "type": "history",
+  "t": "A nation that had risen high",
+  "p": "Under its Hasmonean kings Judea had grown rich and wide. Josephus says Pompey cut it back.",
+  "b": "The Hasmoneans, the family of the Maccabees, had ruled Judea as priests and then as kings for about eighty years before Rome came. Josephus, writing about AD 94, says that Pompey \"confined the whole nation, which had elevated itself so high before, within its own bounds,\" and took away the cities it had won (<i>Antiquities</i> 14.4.4, Whiston's translation). \"For now we lost our liberty,\" he adds (14.4.5). The psalm's picture of wealth and glory reaching the end of the earth, and of people lifted up to the stars (1:5), fits that age of growth.",
+  "r": "1:5",
+  "top": "hasmoneans",
+  "s": [
+   "josephus-ant-whiston-pss"
+  ]
+ },
+ {
+  "v": "1:5",
+  "a": "as high as the stars",
+  "type": "echo",
+  "t": "Lifted to the stars",
+  "p": "The proud who rise to the stars and fall is a picture from the prophets.",
+  "b": "Isaiah mocks the king of Babylon, who said he would lift his throne \"higher than the stars of God\" (Isaiah 14:13), and Obadiah tells Edom, \"if your nest is set among the stars, / from there I will bring you down\" (Obadiah 1:4). The psalm uses the same picture for Jerusalem's own leaders. Their boast \"we will never fall\" is answered at once.",
+  "r": "Isaiah 14:12–15; Obadiah 1:3–4; Psalm 30:6",
+  "top": "pride",
+  "s": []
+ },
+ {
+  "v": "1:6",
+  "a": "they could not bear it",
+  "type": "word",
+  "t": "\"They did not bear\"",
+  "p": "The Greek is short and unclear: \"and they did not bear.\" Scholars have guessed at what is missing.",
+  "b": "Word for word: \"and they did not bear (or bring).\" Gray (1913) listed the proposals. Fabricius supplied \"sacrifices\" (\"they brought no offerings\"), which Gray thought very unlikely. Ryle and James (1891) took it to mean that the rich could not carry their good fortune, could not keep their ambition under control. Von Gebhardt thought a translator misread a Hebrew phrase meaning \"and they had no understanding,\" and the Syriac may point to a Greek \"they did not know.\" The Plain English Translation keeps the plain sense of the Greek: their good fortune was more than they could handle.",
+  "orig": "καὶ οὐκ ἤνεγκαν (kai ouk ēnenkan)",
+  "kind": "deb",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:7",
+  "a": "Their sins were done in secret places",
+  "type": "views",
+  "t": "Hidden sins",
+  "p": "Secret sin is a thread through the book: the people-pleaser sins at night (4:5), and Psalm 8 speaks of hidden places underground.",
+  "b": "The book returns to sins done out of sight: \"At night and in secret places he sins\" (4:5), and \"Their law-breaking was done in hidden places underground\" (8:9). The point is the same each time. People thought no one saw (4:14), but God \"exposed their sins in full view of the sun\" (8:8; 2:18). Compare Ezekiel 8:12, where the elders say in the dark, \"The LORD does not see us.\"",
+  "r": "4:5; 8:8–9; 2:18; Ezekiel 8:12",
+  "s": []
+ },
+ {
+  "v": "1:8",
+  "a": "beyond those of the nations before them",
+  "type": "echo",
+  "t": "Worse than the nations",
+  "p": "Like Kings and Ezekiel, the psalm says God's people sinned worse than the nations he drove out.",
+  "b": "The charge is old. Second Kings says Manasseh led Judah to do more evil than the nations the LORD destroyed (2 Kings 21:9), and Ezekiel says Jerusalem was worse than the nations around her (Ezekiel 5:6-7; Ezekiel 16:47). Gray (1913) noted that the book makes this charge three times (1:8; 2:11; 8:14). It explains why God let a foreign army in: the punishment fits a people who had become like the nations.",
+  "r": "2 Kings 21:9; Ezekiel 5:6–7; Ezekiel 16:47; 2:11; 8:14",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "1:8",
+  "a": "the Lord's holy things",
+  "type": "word",
+  "t": "Holy things, or the sanctuary",
+  "p": "Ta hagia can mean the holy offerings and objects, or the Temple itself.",
+  "b": "The Greek plural <i>ta hagia</i>, \"the holy (things),\" is used in the Greek Bible both for the sacred gifts and objects and for the sanctuary. Gray (1913) noted that the Greek may, and the Syriac can only, mean \"the sanctuary.\" The same phrase returns in 2:3 and 8:12, where plundering and defiling the holy things are the worst of the charges against Jerusalem's leaders.",
+  "orig": "τὰ ἅγια Κυρίου (ta hagia Kyriou)",
+  "kind": "deb",
+  "r": "2:3; 8:12–13; 8:26",
+  "top": "temple",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:0",
+  "a": "A psalm of Solomon",
+  "type": "word",
+  "t": "Why \"of Solomon\"?",
+  "p": "The Greek heading is the one the Greek Bible uses for Psalms 72 and 127, the two biblical psalms credited to Solomon.",
+  "b": "\"Of Solomon\" translates <i>tō Salōmōn</i>, \"to (or for) Solomon,\" the same form as the headings of Psalm 72 and Psalm 127 (on this site \"Of Solomon\"). Nothing in the poems claims Solomon as their author; they speak of Pompey's time, about nine hundred years after him. Why the name was attached is discussed in the introduction to the book. The manuscripts differ over the headings: Swete's footnotes show the numbers and wording varying, and manuscript m has no headings at all. So copyists had a hand in them, whatever their origin.",
+  "orig": "Ψαλμὸς τῷ Σαλωμών (Psalmos tō Salōmōn)",
+  "r": "Psalm 72:0; Psalm 127:0; 1 Kings 4:32",
+  "top": "psalm-titles",
+  "s": [
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "he battered down strong walls with a ram",
+  "type": "history",
+  "t": "Pompey's battering rams",
+  "p": "Josephus says Pompey brought siege engines and battering rams from Tyre and broke through the Temple's wall.",
+  "b": "In 63 BC two brothers of the ruling Hasmonean family, Hyrcanus II and Aristobulus II, were at war over the throne, and both appealed to Pompey. When Aristobulus's party shut themselves in the Temple, Pompey built a siege bank on the north side and \"brought his mechanical engines and battering-rams from Tyre\" (Josephus, <i>Antiquities</i> 14.4.2; compare <i>Jewish War</i> 1.7.3, Whiston's translation). After about three months the greatest tower fell and the Romans broke in (<i>Antiquities</i> 14.4.4). Gray (1913) took this verse as Pompey's assault. Frankenberg argued instead for Antiochus IV, who profaned the Temple in the 160s BC, but, Gray objected, he had to treat the conqueror's death in Egypt (2:30) as a prophecy that never came true.",
+  "r": "2:30–31; 8:16–21; 17:7",
+  "top": "pompey",
+  "s": [
+   "josephus-ant-whiston-pss",
+   "josephus-war-whiston-pss",
+   "gray-pss-apot1913"
+  ],
+  "l": [
+   [
+    "Siege of Jerusalem (63 BC)",
+    "Siege of Jerusalem (63 BC)"
+   ],
+   [
+    "Pompey",
+    "Pompey"
+   ]
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "the sinner",
+  "type": "word",
+  "t": "One sinner, or an army?",
+  "p": "The singular may mean Pompey himself or stand for the whole Roman army.",
+  "b": "Gray (1913) noted that the third person singular here and below may point to Pompey in particular, or be a collective for the Roman army, which the next verse calls \"foreign nations.\" Either way the conqueror is a \"sinner\" because he is a Gentile who attacks God's city (see 1:1).",
+  "orig": "τὸν ἁμαρτωλόν (ton hamartōlon)",
+  "kind": "deb",
+  "r": "2:2; 1:1",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "Foreign nations went up onto your altar",
+  "type": "history",
+  "t": "What the Romans did in the Temple",
+  "p": "The psalm mourns soldiers on the altar. Josephus and Tacitus remember instead that Pompey entered the Holy of Holies.",
+  "b": "Josephus says the Romans cut down the priests at the altar, who went on with the sacrifices as they died (<i>Jewish War</i> 1.7.5), and that Pompey and his staff went into the sanctuary, \"whither it was not lawful for any to enter but the high priest\" (1.7.6). The Roman historian Tacitus says the same: \"by right of victory he went into the temple\" (Histories of Tacitus 5:9). Gray (1913) noticed that the psalm does not mention that, the scandal the histories remember; it mourns soldiers trampling the altar in their sandals, which Josephus does not report.",
+  "r": "Histories of Tacitus 5:9; Exodus 3:5; 7:2; 8:13",
+  "top": "temple",
+  "s": [
+   "josephus-war-whiston-pss",
+   "tacitus-histories",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "in their sandals",
+  "type": "symbol",
+  "t": "Shoes on holy ground",
+  "p": "Moses had to take off his sandals on holy ground. These soldiers walk on God's altar in theirs.",
+  "b": "Gray (1913) pointed to Exodus 3:5, where God tells Moses, \"Pull your sandals off your feet. The place you stand on is holy ground\" (Exodus 3:5). The soldiers not only climbed onto the altar but did it shod. Compare Isaiah 1:12, where God asks who wanted Israel's worshipers to trample his courts.",
+  "r": "Exodus 3:5; Isaiah 1:12",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "It was because the sons of Jerusalem had defiled",
+  "type": "canon",
+  "t": "Punishment for Jerusalem's own sins",
+  "p": "The psalm reads the Roman conquest the way the prophets read Babylon's: as God's judgment on his own people.",
+  "b": "This matches the 66 books. Kings, Jeremiah and Lamentations explain the fall of Jerusalem in 586 BC by the people's sins, especially their defiling the Temple (2 Kings 21:10-15; Lamentations 1:8). The psalm applies the same pattern to 63 BC: the Gentiles could climb the altar \"because the sons of Jerusalem\" had already profaned it. The prayer later in the psalm (2:24-29) and the book of Lamentations share a further step: God may use a nation to punish, but that nation will answer for its own cruelty (compare Isaiah 10:5-12).",
+  "r": "2 Kings 21:10–15; Lamentations 1:8; Isaiah 10:5–12; 8:9–14",
+  "top": "fall-of-jerusalem",
+  "s": []
+ },
+ {
+  "v": "2:4",
+  "a": "Throw them far away from me",
+  "type": "word",
+  "t": "Throw what away?",
+  "p": "In Greek \"them\" is neuter: the gifts and holy things of 2:3. In the Hebrew it may have been the sons of Jerusalem.",
+  "b": "Gray (1913) noted that the Greek pronoun is neuter and so must mean the offerings of 2:3: God rejects worship from defiled hands, as in Isaiah 1:11-15 and Amos 5:21-22. If the Hebrew had a masculine pronoun, it was ambiguous, and the real object could have been the people themselves, as in Jeremiah 7:15.",
+  "orig": "Ἀπορίψατε αὐτὰ μακρὰν ἀπ᾽ ἐμοῦ (Aporipsate auta makran ap' emou)",
+  "kind": "deb",
+  "r": "Isaiah 1:11–15; Amos 5:21–22; Jeremiah 7:15",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:6",
+  "a": "a seal on their necks",
+  "type": "history",
+  "t": "Marked as slaves",
+  "p": "The line probably means captives marked as slaves. Josephus says Pompey took Aristobulus and his children to Rome.",
+  "b": "Gray (1913) thought the line speaks of the branding or marking of slaves with their master's sign. He cited Ryle and James (1891) on the slave collars found in Roman cities, inscribed with the master's name, and Kittel's view that a seal was stamped on a slave's collar or clothes. The word for \"mark,\" <i>episēmon</i>, can mean a brand or something conspicuous. The same word stands behind \"outstanding\" in Romans 16:7. Josephus says Pompey carried Aristobulus bound to Rome with his two sons and two daughters (<i>Antiquities</i> 14.4.5).",
+  "orig": "ἐν σφραγῖδι ὁ τράχηλος αὐτῶν, ἐν ἐπισήμῳ (en sphragidi ho trachēlos autōn, en episēmō)",
+  "r": "Romans 16:7; 8:24; 17:14",
+  "top": "exile",
+  "s": [
+   "gray-pss-apot1913",
+   "josephus-ant-whiston-pss"
+  ]
+ },
+ {
+  "v": "2:8",
+  "a": "showing them mercy",
+  "type": "word",
+  "t": "Mercy",
+  "p": "Eleos, \"mercy,\" is a key word of this book; in the Greek Bible it usually stands for Hebrew hesed.",
+  "b": "The Greek <i>eleos</i> is the Greek Bible's usual word for Hebrew <i>hesed</i>, which this site renders \"loyal love\": God's faithful kindness to those bound to him. The Psalms of Solomon use <i>eleos</i> and its verb and adjective again and again (2:37-40; 4:29; 5:14; 6:9; 7:4-5; 8:33-34), and the Plain English Translation keeps \"mercy,\" as in Luke 1:72, \"dealing in mercy with our fathers\" (Luke 1:72). Here God's turning his face away from mercy is the heart of the disaster.",
+  "orig": "ἔλεος (eleos)",
+  "kind": "nu",
+  "r": "Luke 1:72; Luke 1:50; 2:37; 7:4–5; 8:33",
+  "top": "mercy",
+  "s": []
+ },
+ {
+  "v": "2:10",
+  "a": "the sky was weighed down with grief",
+  "type": "echo",
+  "t": "Heaven and earth react",
+  "p": "Sky and earth react to the people's sin, as in Isaiah, Jeremiah and the Song of Moses.",
+  "b": "In the Hebrew Bible heaven and earth are witnesses to God's covenant (Deuteronomy 30:19; Deuteronomy 32:1; Isaiah 1:2), and the skies are appalled at Israel's sin (Jeremiah 2:12). The psalm makes the earth itself disgusted, as in Leviticus 18:25-28, where the land vomits out its people for their sexual sins, the very sins named in 2:13-15.",
+  "r": "Deuteronomy 32:1; Isaiah 1:2; Jeremiah 2:12; Leviticus 18:25–28",
+  "s": []
+ },
+ {
+  "v": "2:13",
+  "a": "in place of the prostitutes in her",
+  "type": "word",
+  "t": "Shame for shame",
+  "p": "The sense is uncertain. Gray thought the Hebrew meant \"in return for her prostitution.\"",
+  "b": "The Greek reads \"in place of prostitutes in her.\" Gray (1913) called the verse difficult and uncertain. He thought the Hebrew most likely had the abstract word \"her prostitutions,\" as in Ezekiel 23, where Jerusalem's unfaithfulness is pictured as prostitution, rather than \"her prostitutes.\" On either reading, the shame the conquerors put on Jerusalem's sons answers the shame of the city's sins. \"They\" are the Gentiles in most manuscripts; Gray reports that H, Swete's h, has \"he\" (God).",
+  "orig": "ἀντὶ πορνῶν ἐν αὐτῇ (anti pornōn en autē)",
+  "kind": "deb",
+  "r": "Ezekiel 23:14–18; 8:9–11",
+  "top": "porneia",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:13",
+  "a": "in full view of the sun",
+  "type": "word",
+  "t": "\"Before the sun\"",
+  "p": "A Hebrew way of saying \"in broad daylight,\" as in 2 Samuel 12:12.",
+  "b": "The Greek <i>katenanti tou hēliou</i>, \"opposite the sun,\" reflects a Hebrew idiom. Gray (1913) compared 2 Samuel 12:11-12, where God tells David, \"You did it in secret. I will do this thing before all Israel and before the sun\" (2 Samuel 12:12). The same reversal happens here: secret sins (1:7) are paid back by public shame (2:14; 8:8).",
+  "orig": "κατέναντι τοῦ ἡλίου (katenanti tou hēliou)",
+  "kind": "nu",
+  "r": "2 Samuel 12:11–12; 1:7; 8:8; 4:21",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "by mixing together in confusion",
+  "type": "word",
+  "t": "\"A confusion of mixing\"",
+  "p": "The Greek speaks of a mixing that confuses. Gray took it to mean incest and other forbidden unions.",
+  "b": "<i>En phyrmō anamixeōs</i> means \"in a confusion of mixing.\" Gray (1913) thought the reference was probably to incest and other foul unions, since 8:10 uses the same verb for son with mother and father with daughter. The Law forbids these unions in Leviticus 18:6-18 and Leviticus 20:11-12, and calls them a \"confusion\" there too (Leviticus 18:23; Leviticus 20:12). The charge is polemic from a rival party (see 8:10).",
+  "orig": "ἐν φυρμῷ ἀναμίξεως (en phyrmō anamixeōs)",
+  "kind": "nu",
+  "r": "8:10; Leviticus 18:6–18; Leviticus 20:11–12",
+  "top": "porneia",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:15",
+  "a": "My belly and my insides ache",
+  "type": "echo",
+  "t": "Pain inside",
+  "p": "The speaker grieves in the body, like Jeremiah over Jerusalem.",
+  "b": "Jeremiah cries over the coming war, \"My innards, my innards! I am writhing\" (Jeremiah 4:19), and Lamentations has Jerusalem say her insides churn (Lamentations 1:20). For the psalmist, as for them, the gut was the seat of the deepest feelings.",
+  "r": "Jeremiah 4:19; Lamentations 1:20; Lamentations 2:11",
+  "s": []
+ },
+ {
+  "v": "2:16",
+  "a": "I will declare you in the right, God",
+  "type": "word",
+  "t": "Justifying God",
+  "p": "To \"justify\" God is to say his judgments are fair. The book does it again and again.",
+  "b": "The Greek verb <i>dikaioō</i>, \"justify, declare right,\" here has God as its object. The poet confesses that God was right to punish. The phrase recurs throughout the book (3:3; 3:5; 4:9; 8:7; 8:27; 8:31): the poets meet disaster by confessing that God is just. David does the same in Psalm 51:4, \"So you are in the right when you speak\" (Psalm 51:4), the verse Paul quotes in Romans 3:4.",
+  "orig": "ἐγὼ δικαιώσω σε (egō dikaiōsō se)",
+  "kind": "nu",
+  "r": "Psalm 51:4; Romans 3:4; 3:3; 8:7; 8:27",
+  "top": "suffering",
+  "s": []
+ },
+ {
+  "v": "2:19",
+  "a": "he will not be swayed by anyone's face",
+  "type": "word",
+  "t": "\"He will not marvel at a face\"",
+  "p": "A Hebrew idiom for favoritism: God is not impressed by anyone's rank.",
+  "b": "Word for word, \"he will not marvel at a face.\" To \"lift\" or \"admire the face\" of someone is the Hebrew Bible's idiom for showing favor in judgment. Gray (1913) compared Deuteronomy 10:17, where God \"does not play favorites\" (Deuteronomy 10:17); Paul says the same in Romans 2:11. Here it means that God judged Jerusalem's great men without regard to their power.",
+  "orig": "οὐ θαυμάσει πρόσωπον (ou thaumasei prosōpon)",
+  "kind": "nu",
+  "r": "Deuteronomy 10:17; Romans 2:11; Acts 10:34",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:20",
+  "a": "He dragged her beauty down",
+  "type": "word",
+  "t": "Who dragged her down?",
+  "p": "The Greek verb is active, \"he dragged down,\" without a subject. The Syriac has a passive.",
+  "b": "All the Greek manuscripts read \"he dragged down\" (<i>katespasen</i>), which could mean God or the conqueror. Gray (1913) reported that the Syriac has a passive, \"her beauty was dragged down,\" which supports von Gebhardt's guess that the Greek once read <i>katespasthē</i>. Lamentations says the Lord himself \"hurled the beauty of Israel\" from heaven to earth (Lamentations 2:1). The Plain English Translation keeps the active verb.",
+  "orig": "κατέσπασεν τὸ κάλλος αὐτῆς (katespasen to kallos autēs)",
+  "kind": "deb",
+  "r": "Lamentations 2:1; Lamentations 1:6",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:21",
+  "a": "a rope around her head instead of a crown",
+  "type": "symbol",
+  "t": "Queen turned captive",
+  "p": "Jerusalem is pictured as a queen stripped of her crown and dressed as a mourner or a captive.",
+  "b": "Sackcloth was rough cloth worn in mourning; the rope may be a mourner's band or a captive's halter. Isaiah 3:24 lists the same exchanges for Jerusalem's women: \"where there was a belt, a rope; ... where a rich gown was, sackcloth tied around the waist\" (Isaiah 3:24). Lamentations opens with the city as a princess turned forced laborer (Lamentations 1:1). Baruch 5:1-2 reverses the scene: Jerusalem strips off her grief and is told, \"bind on your head the turban of the glory of the Everlasting\" (Baruch 5:2). Baruch's word for \"turban\" is <i>mitra</i>, the word in 2:22.",
+  "r": "Isaiah 3:24; Lamentations 1:1; Baruch 5:1–2; Isaiah 52:1–2",
+  "top": "jerusalem",
+  "s": []
+ },
+ {
+  "v": "2:24",
+  "a": "I pleaded for the Lord's favor",
+  "type": "word",
+  "t": "\"I begged the face of the Lord\"",
+  "p": "The Greek is a word-for-word rendering of a Hebrew idiom for seeking God's favor.",
+  "b": "Word for word, \"I begged the face of the Lord.\" Gray (1913) explained it as the Greek of a Hebrew phrase, literally \"to soften (or sweeten) the face of\" someone, used for seeking favor, as in 2 Kings 13:4, Jeremiah 26:19 and Exodus 32:11. The same phrase returns in 6:7. Gray also noted that the Syriac copies the Greek word for word here, one of his reasons for thinking the Syriac was translated from the Greek, not from the Hebrew.",
+  "orig": "ἐδεήθην τοῦ προσώπου Κυρίου (edeēthēn tou prosōpou Kyriou)",
+  "kind": "nu",
+  "r": "2 Kings 13:4; Jeremiah 26:19; Exodus 32:11; 6:7",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:26",
+  "a": "Israel will be finished off",
+  "type": "word",
+  "t": "Who will be finished off?",
+  "p": "The Greek has only \"they\" and \"them.\" Following Gray, the Plain English Translation names them: Israel and the nations.",
+  "b": "The Greek passive <i>syntelesthēsontai</i> means \"they will be brought to an end,\" and the next words say \"unless you rebuke them.\" Gray (1913) took the first \"they\" as Israel and the nations as the ones God is asked to rebuke (2:25 and 2:27 speak of the nations). So the Plain English Translation writes \"Israel\" and \"the nations\" where the Greek has only pronouns. Gray thought the Hebrew had an active verb, \"they (the nations) will make an end (of Israel).\" The sense is the same either way. Jeremiah prays the same: correct us, but not in your anger, \"or you will make me less and less\" (Jeremiah 10:24).",
+  "orig": "συντελεσθήσονται (syntelesthēsontai)",
+  "kind": "deb",
+  "r": "Jeremiah 10:24; 7:4",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:27",
+  "a": "not out of zeal",
+  "type": "canon",
+  "t": "God's tool, but not innocent",
+  "p": "The nations punished Jerusalem out of greed, not zeal for God. Isaiah said the same of Assyria.",
+  "b": "This matches the prophets. Isaiah calls Assyria the rod of God's anger, but says Assyria does not see it that way: \"His heart is set on wiping out\" (Isaiah 10:7). So God will punish Assyria's pride once his work in Zion is done (Isaiah 10:12). Gray (1913) pointed to Isaiah 10:5-15. The psalm prays the same for Rome, and the next lines (2:30-31) record the answer.",
+  "r": "Isaiah 10:5–15; Zechariah 1:15; Habakkuk 1:6–11",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:28",
+  "a": "in plunder",
+  "type": "history",
+  "t": "Did Rome plunder the Temple?",
+  "p": "Josephus says Pompey touched nothing in the Temple; Cassius Dio says \"all the wealth was plundered.\"",
+  "b": "Gray (1913) thought the charge of plunder would be unfair against Pompey himself, since Josephus says that \"yet did Pompey touch nothing of all this, on account of his regard to religion\" and had the Temple cleansed the next day (<i>Antiquities</i> 14.4.4). He thought it could fairly be laid against the Roman soldiers in general. The Roman historian Cassius Dio, writing in the early 200s AD, says otherwise: the defenders were taken on the day of Saturn, \"and all the wealth was plundered\" (Cassius Dio 37.16, Loeb translation).",
+  "r": "2:2; 8:12",
+  "top": "pompey",
+  "s": [
+   "gray-pss-apot1913",
+   "josephus-ant-whiston-pss",
+   "cassius-dio-37"
+  ]
+ },
+ {
+  "v": "2:29",
+  "a": "the dragon's arrogance",
+  "type": "symbol",
+  "t": "The dragon",
+  "p": "The conqueror is called a dragon, as the Greek Jeremiah calls Nebuchadnezzar. Gray took him to be Pompey.",
+  "b": "The Greek <i>drakōn</i> is the Greek Bible's word for the sea monster or great serpent of the Hebrew Bible. Gray (1913) thought the dragon \"seems clearly\" to be the insolent one slain in Egypt (2:30), that is, Pompey, and he compared Jeremiah 51:34, where Nebuchadnezzar \"has swallowed me like a sea monster\" (Jeremiah 51:34); the Greek of that verse (Jeremiah 28:34 in Swete) has <i>drakōn</i>. Gray also noted that Cheyne (in the <i>Hibbert Journal</i>, 1910) rejected the identification of the dragon with Pompey. Ezekiel calls Pharaoh a \"great sea monster\" (Ezekiel 29:3). Later Christians knew the dragon of Revelation 12, which John explains as Satan (Revelation 12:9); the psalm's dragon is a human ruler.",
+  "orig": "τοῦ δράκοντος (tou drakontos)",
+  "r": "Jeremiah 51:34; Ezekiel 29:3–5; Psalm 74:13; Revelation 12:9; 2:30",
+  "top": "dragon",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:29",
+  "a": "is told of in dishonor",
+  "type": "word",
+  "t": "\"To say\"",
+  "p": "The Greek \"to say the dragon's arrogance in dishonor\" makes little sense. Gray thought the translator misread the Hebrew.",
+  "b": "The Greek infinitive <i>tou eipein</i>, \"to say,\" is hard to make sense of. Gray (1913) called it unintelligible and followed Wellhausen in thinking that the translator misread a Hebrew verb meaning \"to turn\": the original prayer was \"to turn the dragon's arrogance into dishonor.\" The Syriac has \"to cast down.\" Others proposed changing the Greek: Fabricius to \"to see,\" Hilgenfeld to other verbs, and Viteau to \"to throw down.\" The Plain English Translation keeps Swete's Greek.",
+  "orig": "τοῦ εἰπεῖν (tou eipein)",
+  "kind": "deb",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:30",
+  "a": "stabbed through on the mountains of Egypt",
+  "type": "history",
+  "t": "Pompey's death in Egypt, 48 BC",
+  "p": "Fifteen years after taking Jerusalem, Pompey was stabbed to death off the coast of Egypt near Mount Casius.",
+  "b": "In 48 BC Pompey, beaten by Julius Caesar, fled to Egypt. Plutarch tells how the boy king's advisers sent a small boat. As the boat neared the shore and Pompey took his freedman Philip's hand to rise to his feet, a former officer of his, Septimius, \"ran him through the body with his sword\" (Plutarch, <i>Pompey</i> 79, Perrin's translation). Cassius Dio says he was butchered \"near Mount Casius,\" on the anniversary of a triumph (Cassius Dio 42.5). Gray (1913) noted that Mount Casius lay near Pelusium, so \"the mountains of Egypt\" fit; Ryle and James suggested the Hebrew may have read \"by the streams of Egypt.\" If this is Pompey, the psalm was written after 48 BC, probably soon after, as Gray concluded.",
+  "r": "2:29; 2:31; 2:33",
+  "top": "pompey",
+  "s": [
+   "plutarch-pompey-perrin",
+   "cassius-dio-42",
+   "gray-pss-apot1913"
+  ],
+  "l": [
+   [
+    "Pompey",
+    "Pompey"
+   ]
+  ]
+ },
+ {
+  "v": "2:30",
+  "a": "his insolence",
+  "type": "word",
+  "t": "\"His insolence\"",
+  "p": "The Greek says God showed \"his insolence\" stabbed: the abstract word stands for the insolent man himself.",
+  "b": "The Greek <i>tēn hybrin autou</i>, \"his insolence,\" is followed by a participle that describes a person, \"stabbed through.\" Gray (1913) rendered \"the insolent one\" and thought the Hebrew text may already have been damaged here. The Plain English Translation keeps the Greek, where the man is named by his sin. <i>Hybris</i>, the Greek word for proud violence, returns in 2:31: his body is tossed about \"with great insult,\" the same word.",
+  "orig": "τὴν ὕβριν αὐτοῦ (tēn hybrin autou)",
+  "kind": "nu",
+  "r": "2:31",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:31",
+  "a": "and there was no one to bury him",
+  "type": "history",
+  "t": "No burial",
+  "p": "To lie unburied was the worst dishonor. Plutarch says a freedman burned Pompey's headless body on a makeshift pyre.",
+  "b": "Plutarch says the killers cut off Pompey's head and threw the body out of the boat. His freedman Philip washed it in sea water and burned it on the planks of an old fishing boat, with the help of an old soldier (Plutarch, <i>Pompey</i> 80). Gray (1913) noted that the body lay for some time headless and unburied on the shore before it was burned. The psalm stresses the dishonor rather than every detail. To lie unburied was the curse on the wicked king Jehoiakim (Jeremiah 22:19) and the grief of Psalm 79:3, \"and there was nobody to bury them\" (Psalm 79:3).",
+  "r": "Jeremiah 22:19; Psalm 79:3; Isaiah 14:19–20; Ezekiel 29:5",
+  "top": "pompey",
+  "s": [
+   "plutarch-pompey-perrin",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:32",
+  "a": "because God had treated him with contempt",
+  "type": "word",
+  "t": "Who scorned whom?",
+  "p": "The Greek says only \"he despised him\": either God rejected the conqueror, or the conqueror scorned God.",
+  "b": "Greek: \"because he despised him in dishonor.\" Gray (1913) took God as the subject (\"because He had rejected him with dishonour\"), which explains why no one buried him. Others read the line with what follows: the conqueror despised God, not knowing he was only a man. The Plain English Translation supplies \"God\" with Gray, since the next line begins a new thought about the conqueror.",
+  "orig": "ὅτι ἐξουθένωσεν αὐτὸν ἐν ἀτιμίᾳ (hoti exouthenōsen auton en atimia)",
+  "kind": "deb",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:32",
+  "a": "He did not consider that he was a man",
+  "type": "echo",
+  "t": "A man, not a god",
+  "p": "The tyrant forgot he was mortal, like the ruler of Tyre in Ezekiel.",
+  "b": "Ezekiel tells the ruler of Tyre, who said \"I am a god,\" that \"you are a human being and not a god\" (Ezekiel 28:2). Isaiah 31:3 says of Egypt, \"the Egyptians are human, and not God.\" In Acts 12:21-23 Herod Agrippa accepts the crowd's cry that his is a god's voice and is struck down \"because he did not give the glory to God\" (Acts 12:23). The psalm puts Pompey in this line of rulers who forgot they would die.",
+  "r": "Ezekiel 28:2; Ezekiel 28:9; Isaiah 31:3; Acts 12:21–23",
+  "top": "pride",
+  "s": []
+ },
+ {
+  "v": "2:33",
+  "a": "I will be lord of land and sea",
+  "type": "history",
+  "t": "Master of the sea",
+  "p": "Pompey had cleared the whole Mediterranean of pirates. He died at sea. Gray saw a play on his title \"the Great.\"",
+  "b": "Cassius Dio draws the same contrast: \"Although he had subdued the entire Roman sea, he perished on it,\" once \"master of a thousand ships\" and now killed in a tiny boat near Egypt (Cassius Dio 42.5). The answer \"God is great\" may answer Pompey's surname. He was called Magnus, \"the Great\" (Plutarch calls him \"Pompey the Great\" at his death, <i>Pompey</i> 77). Gray (1913) put it this way: \"God, not Pompey, is 'Magnus'.\"",
+  "r": "2:30; 2:34; Psalm 95:3",
+  "top": "pompey",
+  "s": [
+   "cassius-dio-42",
+   "plutarch-pompey-perrin",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:35",
+  "a": "puts the arrogant to sleep",
+  "type": "word",
+  "t": "The sleep of death",
+  "p": "God lays the proud to sleep, a picture of death as a sleep with no waking.",
+  "b": "The Greek <i>koimizōn</i> means \"putting to sleep.\" Gray (1913) took it as the sleep of death, as in Psalm 76:5, where the brave \"drowsed into their sleep\" (Psalm 76:5), and Job 14:12. He noted that the Hebrew may have had a verb meaning \"bring low,\" the opposite of \"raise up,\" as in Hannah's song (1 Samuel 2:6-8). Gray also thought \"destruction\" might once have been \"the Pit.\"",
+  "orig": "κοιμίζων ὑπερηφάνους (koimizōn hyperēphanous)",
+  "kind": "deb",
+  "r": "Psalm 76:5; Job 14:12; 1 Samuel 2:6–8; 3:13",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:36",
+  "a": "you great ones of the earth",
+  "type": "echo",
+  "t": "A warning to rulers",
+  "p": "Like Psalm 2, the poem ends by calling the world's rulers to learn from God's judgment.",
+  "b": "Psalm 2 ends, \"Rulers of the earth, learn your lesson\" (Psalm 2:10), and Wisdom of Solomon 6:1-3 opens with a call to kings to listen because their power comes from the Lord. Here the lesson is Pompey's end: the great ones are to see the judgment of the true \"great king\" (compare Psalm 47:2). The theme of God as king returns in 5:22 and 17:1.",
+  "r": "Psalm 2:10–11; Wisdom of Solomon 6:1–3; Psalm 47:2; 5:22",
+  "top": "kingship",
+  "s": []
+ },
+ {
+  "v": "2:37",
+  "a": "with judgment",
+  "type": "word",
+  "t": "Mercy with judgment",
+  "p": "God's mercy on those who fear him comes with a judgment that sorts the righteous from the sinner.",
+  "b": "The Greek <i>meta krimatos</i>, \"with judgment,\" goes with the next verse: God's mercy works by telling the righteous and the sinner apart. Gray (1913) thought the Hebrew more likely meant \"in the judgment,\" that is, on the day of judgment, when those who fear God will stand, unlike the wicked of Psalm 1:5. The Plain English Translation keeps the Greek.",
+  "orig": "μετὰ κρίματος (meta krimatos)",
+  "kind": "deb",
+  "r": "Psalm 1:5; 2:38",
+  "top": "final-judgment",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:40",
+  "a": "devout",
+  "type": "word",
+  "t": "\"The devout\"",
+  "p": "Hosioi, \"the devout,\" is the group's name for itself, the Greek of Hebrew hasidim.",
+  "b": "The Greek <i>hosioi</i> stands for the Hebrew <i>hasidim</i>, the people loyal to God and his covenant; Gray (1913) noted that it does so in the Greek Psalms too. This site renders the word differently by context: \"your loyal one\" (Psalm 16:10; Greek Psalm 15:10 has <i>ton hosion sou</i>), \"his loyal ones\" (Psalm 149:1), \"your holy ones\" (Wisdom of Solomon 18:1), and the group name \"a company of Hasideans\" (1 Maccabees 2:42). In this book <i>hosioi</i> is a party name, set against \"the sinners,\" so the Plain English Translation uses one rendering throughout, \"the devout.\" Who the devout were is debated; see 4:1.",
+  "orig": "τοῖς ὁσίοις αὐτοῦ (tois hosiois autou)",
+  "kind": "nu",
+  "r": "Psalm 16:10; Psalm 149:1; Wisdom of Solomon 18:1; 1 Maccabees 2:42; 4:1",
+  "top": "hasideans",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "2:41",
+  "a": "Blessed is the Lord forever",
+  "type": "echo",
+  "t": "A closing blessing",
+  "p": "Many of these psalms end with one short line of blessing, as the books of the Psalter do.",
+  "b": "Gray (1913) noted that several of these psalms close with a single line standing on its own (2:41; 4:29; 5:22; 6:9). The five books of the biblical Psalter end the same way, with a blessing of the LORD (Psalm 41:13; Psalm 72:18-19; Psalm 89:52; Psalm 106:48).",
+  "r": "Psalm 41:13; Psalm 89:52; Psalm 106:48; 4:29; 6:9",
+  "top": "psalms",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:1",
+  "a": "Soul, why are you sleeping",
+  "type": "echo",
+  "t": "Wake up, soul",
+  "p": "The poet scolds his own soul for sleeping when it should praise, the way biblical psalmists speak to their souls.",
+  "b": "Biblical psalmists speak to their own souls: \"Bless the LORD, my soul\" (Psalm 103:1; compare Psalm 42:5). Gray (1913) noted that the Syriac has \"my soul.\" The theme of sleep runs through the psalm: the soul should not sleep (3:1-2), but God lays the proud to sleep in death (2:35), and the sinner who falls \"will not rise\" (3:13).",
+  "r": "Psalm 103:1; Psalm 42:5; Psalm 57:8; 3:13",
+  "top": "psalms",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "stay awake for his waking",
+  "type": "word",
+  "t": "\"Keep awake at his waking\"",
+  "p": "The Greek is obscure. Gray thought the Hebrew behind it may have been about rejoicing or serving.",
+  "b": "Word for word: \"keep awake upon his awakening.\" Gray (1913) thought the Greek did not keep the sense of the Hebrew. He rendered it \"be wakeful against His awaking,\" said it fit poorly, and reported two guesses at the Hebrew: Ryle and James (1891), \"shout unto Him with a joyful noise,\" and the general editor, R. H. Charles, \"perform His service.\" One reading fits the context: the soul is told to wake up, while Psalm 44:23 cries to God, \"Get up! Why do you sleep, Lord?\" (Psalm 44:23).",
+  "orig": "γρηγόρησον ἐπὶ τὴν γρηγόρησιν αὐτοῦ (grēgorēson epi tēn grēgorēsin autou)",
+  "kind": "deb",
+  "r": "Psalm 44:23; Psalm 121:4",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:4",
+  "a": "being disciplined by the Lord",
+  "type": "canon",
+  "t": "Discipline from God",
+  "p": "The righteous accept God's discipline instead of resenting it, as Proverbs and Hebrews teach.",
+  "b": "This agrees with the 66 books. Proverbs says, \"The LORD's discipline, my son, do not reject\" (Proverbs 3:11), and Hebrews 12:5-11 quotes it: \"For whoever the Lord loves, he disciplines\" (Hebrews 12:6). Gray (1913) noted that the righteous of this book accept the present distress as discipline from God, which they must endure (see 7:3; 8:32; 10:1-3). Here the difference between the righteous and the sinner is not that one suffers and the other does not, but how each takes it (3:5-12).",
+  "r": "Proverbs 3:11–12; Hebrews 12:5–11; 7:3; 8:32; 10:1–3",
+  "top": "suffering",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:5",
+  "a": "The righteous person stumbled",
+  "type": "views",
+  "t": "The righteous stumble too",
+  "p": "Both the righteous and the sinner stumble. The difference is what each does next.",
+  "b": "Verses 5 and 11 begin the same way: \"The righteous person stumbled\" and \"The sinner stumbled.\" The righteous man admits God is right and looks for help; the sinner curses his life and adds sin to sin. The book does not claim the devout never sin; it shows them atoning for sins of ignorance (3:9) and searching their homes for wrongs (3:8). Proverbs puts it the same way: \"Seven times a righteous person falls, and up he gets\" (Proverbs 24:16).",
+  "r": "Proverbs 24:16; 3:11–12; Psalm 37:24",
+  "s": []
+ },
+ {
+  "v": "3:7",
+  "a": "sin does not settle in on top of sin",
+  "type": "word",
+  "t": "Sin does not lodge",
+  "p": "The verb means to spend the night. The righteous man's house is not an inn where sins can stay.",
+  "b": "The Greek <i>aulizetai</i> means to lodge, to spend the night. Gray (1913) explained the picture: the house of the righteous is not an inn open to every passing sin. Sins that slip in unnoticed are found by careful search and turned out (3:8). The sinner, by contrast, \"has piled sins on top of sins\" (3:12; compare Isaiah 30:1).",
+  "orig": "οὐκ αὐλίζεται (ouk aulizetai)",
+  "kind": "nu",
+  "r": "3:12; Isaiah 30:1; Isaiah 1:21",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:9",
+  "a": "He made atonement for sins of ignorance by fasting",
+  "type": "israel",
+  "t": "Atonement by fasting",
+  "p": "The righteous man makes up for sins he did not know he did by fasting and humbling himself.",
+  "b": "The Law sets a sin offering for sins done unknowingly (Leviticus 4:2; Numbers 15:27), and on the Day of Atonement Israel is to \"humble yourselves\" (Leviticus 16:29). Here fasting and self-humbling make atonement, with no sacrifice mentioned. Gray (1913) reports Ryle and James's alternative division of the line, \"With his trespass-offering he maketh atonement,\" which he thought less likely. He also noted the devout's careful concern about sins done in ignorance (13:4-10). Tobit 12:9 says giving to the poor cleanses from sin.",
+  "r": "Leviticus 4:2; Leviticus 16:29–31; Numbers 15:27–28; 13:4–10; Tobit 12:9",
+  "top": "fasting",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:11",
+  "a": "the day he was born",
+  "type": "echo",
+  "t": "Cursing the day of birth",
+  "p": "In Job and Jeremiah a suffering righteous man curses his birthday. Here the sinner does.",
+  "b": "Job says, \"Let it be lost, the day I was born\" (Job 3:3), and Jeremiah, \"Cursed is the day / on which I was born\" (Jeremiah 20:14). In the Bible these cries come from righteous men in agony. The psalm gives the cry to the sinner, whose stumbling leads to bitterness instead of the righteous man's watching for help (3:5-6).",
+  "r": "Job 3:1–3; Jeremiah 20:14–18; 3:5–6",
+  "s": []
+ },
+ {
+  "v": "3:13",
+  "a": "and he will not rise",
+  "type": "canon",
+  "t": "\"He will not rise\": no recovery, or no resurrection?",
+  "p": "The sinner \"will not rise\"; the God-fearing \"will rise to eternal life.\" The line can be read two ways.",
+  "b": "The words come right after \"He fell,\" so they can be read two ways. (1) The sinner falls and never gets up again: his ruin in this life is final, unlike the righteous man who stumbles and looks to God (3:5). (2) The sinner will not rise from the dead, while those who fear the Lord \"will rise to eternal life\" (3:16). The contrast with 3:16 and the next words, \"The sinner's destruction is forever,\" favor the second, and the two can be combined. Gray (1913) outlined 3:16 as the righteous's resurrection and life eternal, set against the sinner's fate (3:11-15). On the second reading the psalm differs from Daniel 12:2, \"Some will wake to life without end, and some to shame\" (Daniel 12:2), and from Acts 24:15, \"a resurrection is coming, of the righteous and the unrighteous alike\" (Acts 24:15). Jesus can speak of \"the resurrection of the righteous\" (Luke 14:14) without saying the wicked do not rise.",
+  "r": "Daniel 12:2; Acts 24:15; John 5:28–29; Luke 14:14; Luke 20:35; 3:16",
+  "top": "resurrection",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:14",
+  "a": "when God visits the righteous",
+  "type": "word",
+  "t": "God's visit",
+  "p": "\"Visit\" is God's coming to judge or to save. The Greek has only \"he visits\"; God is supplied.",
+  "b": "The verb <i>episkeptomai</i>, \"visit,\" is used in the Greek Bible for God's coming in judgment or rescue, as in \"he has visited his people\" (Luke 1:68). The Greek says \"when he visits the righteous\"; the Plain English Translation supplies \"God\" for clarity. Gray (1913) read the Greek as \"He will not remember him\" when he visits the righteous with his favor.",
+  "orig": "ὅταν ἐπισκέπτηται δικαίους (hotan episkeptētai dikaious)",
+  "kind": "nu",
+  "r": "Luke 1:68; Luke 19:44; Genesis 50:24",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "3:16",
+  "a": "will rise to eternal life",
+  "type": "canon",
+  "t": "Rising to eternal life",
+  "p": "Those who fear the Lord will rise to eternal life in the Lord's light, a hope Daniel and 2 Maccabees share.",
+  "b": "This agrees with Daniel 12:2, which promises \"life without end\" to some who wake from the dust, and with 2 Maccabees 7:9, where a martyr says God will raise the faithful to everlasting life. \"Eternal life\" becomes central in the Gospels (Matthew 25:46; John 5:24). The psalm goes beyond Daniel in one way: it promises life in \"the Lord's light\" that \"will never come to an end,\" a picture like Psalm 36:9, \"in your light we see light\" (Psalm 36:9), and Isaiah 60:19-20. It does not say what kind of body, or when. See 3:13.",
+  "r": "Daniel 12:2; 2 Maccabees 7:9; Psalm 36:9; Isaiah 60:19–20; John 5:24; Matthew 25:46",
+  "top": "resurrection",
+  "s": []
+ },
+ {
+  "v": "4:0",
+  "a": "people-pleasers",
+  "type": "word",
+  "t": "\"People-pleasers\"",
+  "p": "Anthrōpareskoi are people who act to win human approval. Paul uses the word for slaves who work only when watched.",
+  "b": "The Greek <i>anthrōpareskoi</i> means \"those who please people.\" The site renders the same word in Ephesians 6:6 and Colossians 3:22 \"people who want to please others\" (Ephesians 6:6). The word is rare. It stands in the Greek Psalm 52:6, \"God scattered the bones of people-pleasers,\" where the Hebrew has \"of your besieger\" (Psalm 53:5); this psalm echoes that verse in 4:21. Here the people-pleasers are religious men who play to the crowd: strict in public, sinful in private (4:2-6).",
+  "orig": "τοῖς ἀνθρωπαρέσκοις (tois anthrōpareskois)",
+  "kind": "nu",
+  "r": "Ephesians 6:6; Colossians 3:22; Psalm 53:5; Galatians 1:10; 4:21",
+  "top": "hypocrisy",
+  "s": []
+ },
+ {
+  "v": "4:1",
+  "a": "You unholy man",
+  "type": "israel",
+  "t": "Who is the unholy man?",
+  "p": "He sits among the devout but lives as a sinner. Scholars have named a party, or a single ruler.",
+  "b": "The psalm speaks to one man, then about him, then about a group (4:11; 4:24). Gray (1913) thought the singular may stand for the party opposed to the psalmist, or for its leader; Wellhausen named King Alexander Jannaeus, Ryle and James (1891) Aristobulus II. Gray took the righteous of the book to be Pharisees and the sinners Sadducees, citing 4:2 (see the note there). The other proposals, a group like the Essenes or a devout circle that cannot be named, are weighed in the introduction to the book. The evidence in this psalm is limited: the devout have a council, the sinners sit in it, and the quarrel is about hypocrisy and sexual sin, not about doctrine.",
+  "orig": "βέβηλε (bebēle)",
+  "r": "4:2; 4:7; 17:5–8",
+  "top": "sadducees",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "council",
+  "type": "word",
+  "t": "Council, not yet \"the Sanhedrin\"",
+  "p": "Synedrion is the word later used for the Sanhedrin. Gray thought it need not mean that court here.",
+  "b": "The Greek <i>synedrion</i> is the word the Gospels use for the high council in Jerusalem, the Sanhedrin. Gray (1913) noted that the phrase need not refer to the Sanhedrin. It may stand for the Hebrew <i>sod</i>, a circle or gathering, as in Jeremiah 15:17, where the prophet did not sit in the circle of the merrymakers. It may be the gathering of the devout themselves (compare Psalm 1:1; Psalm 111:1).",
+  "orig": "ἐν συνεδρίῳ (en synedriō)",
+  "kind": "deb",
+  "r": "Jeremiah 15:17; Psalm 1:1; Psalm 111:1; Matthew 26:59",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "harsh in words when he condemns sinners in court",
+  "type": "history",
+  "t": "Harsh judges",
+  "p": "Josephus says the Sadducees were harsher in judging offenders than any other Jews. Gray saw them here.",
+  "b": "Gray (1913) compared Josephus, who calls the Sadducees \"very rigid in judging offenders, above all the rest of the Jews\" (<i>Antiquities</i> 20.9.1, Whiston's translation). Josephus says it of the high priest Ananus, who had James, \"the brother of Jesus, who was called Christ,\" stoned. Gray took this as one sign that the sinners of the book are Sadducees. A strict judge who sins in secret could belong to any party, so the link is suggestive, not proof.",
+  "r": "4:1; Matthew 23:4; Acts 23:6–8",
+  "top": "sadducees",
+  "s": [
+   "gray-pss-apot1913",
+   "josephus-ant-whiston-pss"
+  ]
+ },
+ {
+  "v": "4:3",
+  "a": "the first one raised against the condemned",
+  "type": "echo",
+  "t": "First to throw the stone",
+  "p": "The Law told the witnesses to be first to carry out a death sentence. This man is eager, and guilty himself.",
+  "b": "Gray (1913) pointed to the Law on executions: \"Your hand is to be the first against him\" (Deuteronomy 13:9; compare Deuteronomy 17:7). The man is quick to condemn and execute, \"as if in zeal,\" though he is guilty himself. The scene recalls John 8:7, where Jesus says to the accusers, \"Whichever one of you has never sinned, let him throw a stone at her first\" (John 8:7).",
+  "r": "Deuteronomy 13:9; Deuteronomy 17:7; John 8:7; Romans 2:1–3",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:5",
+  "a": "as if no one sees him",
+  "type": "echo",
+  "t": "\"No one sees\"",
+  "p": "The adulterer thinks the dark hides him, as Job and Isaiah describe.",
+  "b": "Job describes the adulterer who waits for evening and says, \"No eye will catch me\" (Job 24:15), and Isaiah warns those who hide their plans and say \"Who sees us?\" (Isaiah 29:15). The man's real belief comes out in 4:14: \"no one sees and no one judges.\"",
+  "r": "Job 24:15; Isaiah 29:15; Psalm 10:11; 4:14",
+  "s": []
+ },
+ {
+  "v": "4:7",
+  "a": "those who live in hypocrisy among the devout",
+  "type": "echo",
+  "t": "Hypocrisy",
+  "p": "The book attacks pious-looking hypocrites. Jesus later makes the same charge against some scribes and Pharisees.",
+  "b": "Gray (1913) noted that the sinners of the book are outwardly very respectable (4:2; 4:11; 4:25), hypocrites \"who live in hypocrisy\" (4:7) and \"play the hypocrite\" (4:22). If the devout who wrote these psalms were Pharisees, as Gray and many before him thought, there is an irony: Jesus aims the same charge at some scribes and Pharisees, \"crammed with hypocrisy and lawlessness\" (Matthew 23:28). The two texts share a concern, not a target: any group can produce the people they describe.",
+  "r": "Matthew 23:27–28; Matthew 6:2–5; Luke 12:1; 4:22",
+  "top": "hypocrisy",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:8",
+  "a": "to laughter and scorn",
+  "type": "word",
+  "t": "Laughter and scorn",
+  "p": "Either God laughs at them, or people mock them once their deeds are exposed.",
+  "b": "Gray (1913) noted two possible senses: God himself derides the wicked, as in Psalm 2:4, or he exposes them to people's derision, as in Psalm 44:13-14.",
+  "r": "Psalm 2:4; Psalm 44:13–14",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:11",
+  "a": "Like a snake",
+  "type": "word",
+  "t": "Like the snake",
+  "p": "The line is unclear. Gray thought it pictures the serpent of Eden, gaining entry to a home by smooth words.",
+  "b": "The Greek says, word for word, \"like a snake, to undo wisdom of one another with words of law-breakers.\" Gray (1913) thought the meaning was that if any house is still secure, they work on it like the serpent in Genesis 3, using seductive speech. He said the text is uncertain and \"of one another\" yields no sense. Ryle and James (1891) proposed a change to \"speaking\" instead of \"of one another\"; von Gebhardt proposed \"the wisdom of the flawless.\"",
+  "orig": "ὡς ὄφις, διαλῦσαι σοφίαν ἀλλήλων (hōs ophis, dialysai sophian allēlōn)",
+  "kind": "deb",
+  "r": "Genesis 3:1–5; 2 Corinthians 11:3",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:14",
+  "a": "that no one sees and no one judges",
+  "type": "echo",
+  "t": "Practical atheism",
+  "p": "The sinner says what the wicked say in the Psalms: God does not see, and no one judges.",
+  "b": "The biblical Psalms put the same words in the mouth of the wicked: \"God forgets. / He has turned his face away; he never looks\" (Psalm 10:11; compare Psalm 94:7). In Ezekiel 8:12 the elders say in the dark, \"The LORD does not see us.\" The psalm answers with God's judgment in full view of the sun (4:21; 8:8).",
+  "r": "Psalm 10:11; Psalm 94:7; Ezekiel 8:12; 2:18; 8:8",
+  "s": []
+ },
+ {
+  "v": "4:15",
+  "a": "words that give wings to desire",
+  "type": "word",
+  "t": "Words that give wings",
+  "p": "The Greek speaks of \"words of giving wings,\" speech that excites and carries people away.",
+  "b": "The Greek <i>logois anapterōseōs</i> means \"with words of giving wings,\" that is, speech that stirs up and carries away. \"To desire\" is supplied; Gray (1913) rendered \"words that give wing to (desire).\" Gray called 4:12-15 obscure and suggested that the lines once stood in a different order, with 4:14 next to 4:12.",
+  "orig": "ἐν λόγοις ἀναπτερώσεως (en logois anapterōseōs)",
+  "kind": "nu",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:15",
+  "a": "like Hades",
+  "type": "word",
+  "t": "Never full, like Hades",
+  "p": "Hades is the Greek name for Sheol, the world of the dead, which never has enough.",
+  "b": "In the Greek Bible <i>hadēs</i> renders Hebrew Sheol, the place of the dead. Proverbs says \"Sheol and Abaddon never have enough\" (Proverbs 27:20), and in the Greek of that verse it is <i>hadēs</i>. Isaiah 5:14 and Habakkuk 2:5 use the same picture. Swete's footnote shows h, m, p and v leaving out \"like Hades.\"",
+  "orig": "ὡς ᾅδης (hōs hadēs)",
+  "kind": "nu",
+  "r": "Proverbs 27:20; Proverbs 30:15–16; Isaiah 5:14; Habakkuk 2:5",
+  "top": "sheol",
+  "s": [
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "4:16",
+  "a": "Let his going out be with groans",
+  "type": "echo",
+  "t": "Going out and coming in",
+  "p": "The curse reverses the blessing of Deuteronomy and Psalm 121 on a person's going out and coming in.",
+  "b": "Deuteronomy 28:6 blesses Israel in its coming in and going out, and 28:19 curses it in both; Psalm 121:8 promises that the LORD will guard your going out and coming in. Gray (1913) compared Deuteronomy 28:19. Verses 16-20 are a curse, of the kind found in Psalms 109:6-19, asked for against the man who ruined other homes.",
+  "r": "Deuteronomy 28:6; Deuteronomy 28:19; Psalm 121:8; Psalm 109:6–19",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:18",
+  "a": "from his temples",
+  "type": "word",
+  "t": "Sleep from his temples",
+  "p": "The Greek says \"temples,\" the sides of the head, as the Greek of Psalm 132:4 does.",
+  "b": "The Greek <i>krotaphoi</i> means the temples of the head. The Greek of Psalm 132:4 (131:4 in the Greek Psalter) uses it in a list with eyes and eyelids: David will give no rest to his temples until he finds a place for the LORD. Here the curse is sleeplessness, the opposite of the peace of 6:4-6.",
+  "orig": "ἀπὸ κροτάφων αὐτοῦ (apo krotaphōn autou)",
+  "kind": "nu",
+  "r": "Psalm 132:4; 6:4–6; 4:17",
+  "s": []
+ },
+ {
+  "v": "4:20",
+  "a": "until he is taken away",
+  "type": "word",
+  "t": "\"Until his taking up\"",
+  "p": "Analēmpsis, \"taking up,\" here means death. Luke uses the same word for Jesus being taken up.",
+  "b": "The Greek <i>eis analēmpsin</i> means \"until (his) being taken up,\" here simply his death. Gray (1913) also suggested \"that his family may be taken away.\" The same noun is used in Luke 9:51 for the days before Jesus \"would be taken up\" (Luke 9:51), there of his death, rising and ascension.",
+  "orig": "εἰς ἀνάλημψιν (eis analēmpsin)",
+  "kind": "nu",
+  "r": "Luke 9:51; Acts 1:2",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:21",
+  "a": "the bones of the law-breakers",
+  "type": "echo",
+  "t": "Scattered bones",
+  "p": "The curse echoes the Greek Psalm 52:6: \"God scattered the bones of people-pleasers.\"",
+  "b": "The Greek Psalter's Psalm 52:6 (Psalm 53:5 in English Bibles) reads, \"God scattered the bones of people-pleasers.\" The psalm takes up both words: \"Let the flesh of the people-pleasers be scattered ... and the bones.\" The Hebrew of that verse has \"your besieger\" instead, so the link exists only in Greek. The picture of unburied bodies left for beasts and birds is also a curse in Deuteronomy 28:26 and Jeremiah 16:4.",
+  "r": "Psalm 53:5; Deuteronomy 28:26; Jeremiah 16:4; Psalm 79:2; 4:0",
+  "s": []
+ },
+ {
+  "v": "4:22",
+  "a": "Let ravens peck out the eyes",
+  "type": "echo",
+  "t": "Ravens",
+  "p": "Proverbs says ravens will peck out the eye of one who scorns his parents.",
+  "b": "Proverbs 30:17 says of the eye that mocks a father, \"the ravens of the stream bed will peck it out\" (Proverbs 30:17). The psalm turns that curse on hypocrites whose eyes went after every woman and every house (4:4; 4:11; 4:15).",
+  "r": "Proverbs 30:17; 4:4; 4:11; 4:15",
+  "s": []
+ },
+ {
+  "v": "4:23",
+  "a": "they have laid many people's houses waste",
+  "type": "echo",
+  "t": "Ruined homes, and \"he\" or \"they\"",
+  "p": "The sinners destroy households. Most manuscripts make the verbs plural here; Swete's text, from r alone, keeps the singular.",
+  "b": "Throughout the psalm the man's crime is ruining homes: he enters them as a friend (4:6), seduces, and leaves families scattered \"as if they were orphans\" (4:13). From 4:21 the curse turns to a group, the people-pleasers and the law-breakers. Manuscript r, which Swete prints, still has the singular \"he has laid waste ... and scattered\" here, and only 4:24 goes over to \"they\"; every other manuscript has the plural already in 4:23 (see the variant on this verse). The Plain English Translation follows them, so the plural runs from 4:21 on. Gray (1913) also translated the plural, and thought the original sense may have been \"by their lust scattered many men,\" that is, made them homeless. Jesus warns of scribes who \"eat up widows' houses, and for show they make long prayers\" (Mark 12:40).",
+  "r": "Mark 12:40; Luke 20:47; 4:6; 4:13",
+  "s": [
+   "swete-vol3-pss",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "4:26",
+  "a": "Happy are those who fear the Lord",
+  "type": "echo",
+  "t": "Happy",
+  "p": "The blessing uses the Psalter's opening word, \"Happy.\"",
+  "b": "The Greek <i>makarioi</i> is the word the Greek Psalms use for Hebrew <i>ashrei</i>, \"happy,\" as in Psalm 1:1 and Psalm 128:1, \"Happy is each one who fears the LORD\" (Psalm 128:1). It is also the word of the Beatitudes (Matthew 5:3-12). The book uses it again in 5:18, 6:1 and 10:1.",
+  "orig": "μακάριοι (makarioi)",
+  "kind": "nu",
+  "r": "Psalm 1:1; Psalm 128:1; Matthew 5:3–12; 5:18; 6:1",
+  "s": []
+ },
+ {
+  "v": "5:2",
+  "a": "the poor",
+  "type": "israel",
+  "t": "\"The poor\"",
+  "p": "In this book \"the poor\" are often the devout themselves, people of small means who trust God.",
+  "b": "Gray (1913) noted that \"the poor\" stands beside \"the devout\" in 10:7, and that the righteous of the book were largely people of limited means. In the biblical Psalms, too, the poor and the humble are those who depend on God (Psalm 34:6; Psalm 40:17). Jesus begins, \"Blessed are the poor\" (Luke 6:20). This psalm is a prayer of such a poor man: God feeds every creature, so he will feed him (5:10-13).",
+  "orig": "τοῦ πτωχοῦ (tou ptōchou)",
+  "kind": "nu",
+  "r": "Psalm 34:6; Psalm 40:17; Luke 6:20; 5:11; 10:6",
+  "top": "poverty",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:4",
+  "a": "plunder from a strong man",
+  "type": "echo",
+  "t": "Plunder from a strong man",
+  "p": "Isaiah asks whether loot can be taken from a warrior. Jesus speaks of binding the strong man.",
+  "b": "Gray (1913) compared Isaiah 49:24, where the Greek uses the same verb and noun, \"take spoils\" (the site's Hebrew-based Isaiah: \"Can loot be snatched from a warrior?\" Isaiah 49:24). The thought is that no one can take from God what he does not give (5:5). Jesus uses the same picture when he says \"no one can go into a strong man's house and rob him of his goods\" unless he first ties him up (Mark 3:27).",
+  "r": "Isaiah 49:24–25; Mark 3:27; Matthew 12:29; Luke 11:21–22; 5:5",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:6",
+  "a": "than you have decided",
+  "type": "word",
+  "t": "What God has set",
+  "p": "Krima, \"judgment,\" here likely means the share God has fixed for each person.",
+  "b": "The Greek says a person cannot add \"beyond your judgment.\" Gray (1913) thought <i>krima</i> here stood for Hebrew <i>hoq</i>, an allotted portion, as in Genesis 47:22 and Proverbs 30:8, where the writer asks for \"the bread that is my share\" (Proverbs 30:8). For the thought, Gray compared Matthew 6:27: no one can add an hour to his life by worrying.",
+  "orig": "παρὰ τὸ κρίμα σου (para to krima sou)",
+  "kind": "nu",
+  "r": "Proverbs 30:8; Genesis 47:22; Matthew 6:27; Job 31:6",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:8",
+  "a": "or we may sin because we are forced to",
+  "type": "echo",
+  "t": "Driven to sin",
+  "p": "Too much hardship can push people into sin, as Proverbs fears poverty will.",
+  "b": "The poet asks God not to press too hard, \"or we may sin because we are forced to.\" Proverbs prays the same in reverse: give me neither poverty nor riches, \"Or I may be left poor and steal\" (Proverbs 30:9). Verse 19 adds the other danger: too much wealth leads to sin too. Paul promises that God will not let his people be tested beyond what they can bear (1 Corinthians 10:13).",
+  "r": "Proverbs 30:8–9; 1 Corinthians 10:13; 5:19",
+  "top": "poverty",
+  "s": []
+ },
+ {
+  "v": "5:9",
+  "a": "even if you do not bring us back",
+  "type": "word",
+  "t": "\"If you do not turn us\"",
+  "p": "The Greek can mean \"turn us back to you\" or \"restore us.\" Either way, the poor man will keep coming.",
+  "b": "The verb <i>epistrephō</i> means to turn or bring back, as in the refrain \"God, bring us back\" (Psalm 80:3; Psalm 80:7), which Gray (1913) compared. Gray reported that the Syriac reads differently: \"turn not thy face from us, lest we go far from thee.\"",
+  "orig": "ἐὰν μὴ ἐπιστρέψῃς ἡμᾶς (ean mē epistrepsēs hēmas)",
+  "kind": "deb",
+  "r": "Psalm 80:3; Psalm 80:7; Lamentations 5:21",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:11",
+  "a": "You feed the birds and the fish",
+  "type": "echo",
+  "t": "God feeds every creature",
+  "p": "Like Psalm 104 and Jesus' words about the birds, the poet argues from God's care for animals to his care for the poor.",
+  "b": "Psalm 104 describes God watering the land, making grass grow and feeding every creature; \"They all wait on you / to hand them their food in its season\" (Psalm 104:27). Jesus argues the same way: \"Take a good look at the wild birds. ... your heavenly Father feeds them\" (Matthew 6:26). Gray (1913) noted that the verse is awkward as it stands (grass does not feed birds and fish), and suggested that the Hebrew lines were once in a different order.",
+  "r": "Psalm 104:10–14; Psalm 104:27–28; Psalm 145:15–16; Psalm 147:9; Matthew 6:26",
+  "top": "providence",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:14",
+  "a": "by opening your hand in mercy",
+  "type": "echo",
+  "t": "God's open hand",
+  "p": "Psalm 145 says God opens his hand and fills every living thing.",
+  "b": "\"You open your hand\" (Psalm 145:16), Psalm 145 says, and every living thing is filled. The psalm adds \"in mercy\": God gives because he is merciful, not because anyone has earned it.",
+  "r": "Psalm 145:16; Psalm 104:28",
+  "top": "mercy",
+  "s": []
+ },
+ {
+  "v": "5:15",
+  "a": "and then it is tomorrow",
+  "type": "word",
+  "t": "\"And the tomorrow\"",
+  "p": "The Greek is broken here. People's kindness is sparing, and it puts things off till tomorrow.",
+  "b": "Word for word: \"the kindness of a person (is) in sparing, and the tomorrow.\" Gray (1913) called the second phrase ungrammatical. The Syriac, and independently Ryle and James (1891), expanded it to \"today and tomorrow.\" Gray thought the Hebrew may have read \"and for a price\" (following Frankenberg). The contrast is clear in any case: people give little and late, God gives much and freely (5:16). Proverbs 3:28 warns, \"Do not say to your neighbor, 'Go on, come back later; / tomorrow I'll give it to you'\" (Proverbs 3:28).",
+  "orig": "ἐν φειδῷ, καὶ ἡ αὔριον (en pheidō, kai hē aurion)",
+  "kind": "deb",
+  "r": "Proverbs 3:27–28; James 1:5; 5:16",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:16",
+  "a": "will not be sparing in giving",
+  "type": "word",
+  "t": "Who will not be sparing?",
+  "p": "The Greek seems to say the one who hopes in God will give freely. Gray thought the Hebrew meant he would never lack gifts.",
+  "b": "Greek: \"and he whose hope is in you will not be sparing in a gift.\" Gray (1913) thought the original Hebrew probably said \"shall have no lack of gifts,\" and that one Hebrew letter was miscopied (following Frankenberg). On the Greek, the one who trusts God becomes generous like God; on Gray's Hebrew, the one who trusts God will never lack.",
+  "orig": "οὐ φείσεται ἐν δόματι (ou pheisetai en domati)",
+  "kind": "deb",
+  "r": "2 Corinthians 9:8–11; Philippians 4:19",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:18",
+  "a": "a fitting measure of enough",
+  "type": "echo",
+  "t": "Enough",
+  "p": "Autarkeia, \"sufficiency,\" is the word Paul uses when he says godliness with contentment is great gain.",
+  "b": "The Greek <i>autarkeia</i> means having enough. Paul uses it in 1 Timothy 6:6: godliness is great gain \"when it comes with being content\" (1 Timothy 6:6). The prayer of Proverbs 30:8, \"Do not give me poverty or riches\" (Proverbs 30:8), which Gray (1913) compared, is the same wisdom. Gray reported that the Syriac has \"in poverty.\"",
+  "orig": "ἐν συμμετρίᾳ αὐταρκίας (en symmetria autarkias)",
+  "kind": "nu",
+  "r": "1 Timothy 6:6–8; Proverbs 30:8–9; Philippians 4:11",
+  "top": "wealth",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "5:19",
+  "a": "If a person has far too much, he sins.",
+  "type": "canon",
+  "t": "Too much wealth",
+  "p": "The warning that wealth leads to sin agrees with Deuteronomy, Proverbs and the Gospels.",
+  "b": "This agrees with the 66 books. Moses warns that when Israel eats its fill, it may forget the LORD (Deuteronomy 8:12-14), and the Song of Moses says, \"Jeshurun grew fat, and he kicked\" (Deuteronomy 32:15). Proverbs fears that if full, \"I may be full and deny you\" (Proverbs 30:9). Jesus warns that it is hard for the rich to enter the kingdom (Mark 10:23-25). The psalm does not condemn wealth itself; it praises \"a modest share with righteousness\" (5:20), and 1:4-6 shows rich Jerusalem growing insolent.",
+  "r": "Deuteronomy 8:12–14; Deuteronomy 32:15; Proverbs 30:9; Mark 10:23–25; 1:4–6",
+  "top": "wealth",
+  "s": []
+ },
+ {
+  "v": "5:21",
+  "a": "in your kingdom",
+  "type": "word",
+  "t": "God's kingdom",
+  "p": "The book's first mention of God's kingdom. The psalm ends, \"he is our king.\"",
+  "b": "The Greek <i>basileia</i>, \"kingdom\" or \"reign,\" is used here of God's rule over Israel, and the next line calls the Lord \"our king.\" Psalm 17 opens and closes with the same confession (17:1; 17:51 in Swete's numbering) and sets the hoped-for son of David under it. Compare Jesus' announcement that \"the kingdom of God has drawn near\" (Mark 1:15).",
+  "orig": "τῇ βασιλείᾳ σου (tē basileia sou)",
+  "kind": "nu",
+  "r": "Mark 1:15; Psalm 145:11–13; 5:22; 17:1",
+  "top": "kingdom-of-god",
+  "s": []
+ },
+ {
+  "v": "6:0",
+  "a": "In hope.",
+  "type": "word",
+  "t": "\"In hope\"",
+  "p": "No other heading in the book has this phrase. It may name the psalm's theme.",
+  "b": "<i>En elpidi</i>, \"in hope,\" stands only here in the headings. Gray (1913) translated it \"In Hope\" without comment. The psalm ends with \"a soul that hopes in him\" (6:8), so the heading may name its theme. Swete's footnote shows the manuscripts differing over the number of this psalm, and r has neither a number nor a title.",
+  "orig": "Ἐν ἐλπίδι (En elpidi)",
+  "kind": "deb",
+  "r": "6:8; 5:16",
+  "top": "psalm-titles",
+  "s": [
+   "gray-pss-apot1913",
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "ready to call on the name of the Lord",
+  "type": "echo",
+  "t": "Calling on the name",
+  "p": "Calling on the Lord's name and being saved recalls Joel 2:32, which Paul quotes in Romans 10:13.",
+  "b": "\"Ready\" (<i>hetoimē</i>) is the word of the Greek Psalm 56:8 for a heart that is fixed or firm (the site's Psalm 57:7: \"My heart is firm, God\"). The next line says that whoever remembers the Lord's name \"will be saved\" (6:2). Joel promises, \"everyone who calls on the name of the LORD will be rescued\" (Joel 2:32), and Paul quotes Joel: \"For anyone at all who calls on the Lord's name will be saved\" (Romans 10:13). Paul applies the verse to calling on Jesus as Lord; the psalm means calling on God.",
+  "r": "Joel 2:32; Romans 10:13; Acts 2:21; Psalm 57:7; 6:2",
+  "s": []
+ },
+ {
+  "v": "6:4",
+  "a": "his bad dreams",
+  "type": "echo",
+  "t": "No fear at night",
+  "p": "The man who trusts God is not shaken by nightmares or by danger at sea, as Psalm 91 promises.",
+  "b": "Psalm 91 promises, \"You need not fear what terrifies at night\" (Psalm 91:5), and Job complains of being terrified by dreams (Job 7:14). The psalm moves from night fears to the dangers of travel: crossing rivers and stormy seas (6:5).",
+  "r": "Psalm 91:5; Job 7:14; Proverbs 3:24; 6:5",
+  "top": "dreams",
+  "s": []
+ },
+ {
+  "v": "6:5",
+  "a": "when he crosses rivers or when the seas toss",
+  "type": "echo",
+  "t": "Through the waters",
+  "p": "Isaiah promises God's presence when his people pass through water.",
+  "b": "Isaiah promises, \"If you cross the water, I am with you\" (Isaiah 43:2), and Psalm 46:2-3 says we will not fear though the seas roar. Gray (1913) translated \"rivers and the tossing of the seas.\"",
+  "r": "Isaiah 43:2; Psalm 46:2–3; Psalm 107:23–30",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "He got up from his sleep and blessed",
+  "type": "views",
+  "t": "Prayer on rising",
+  "p": "After promises in the future tense, the psalm describes what the devout man did: he rose and blessed God.",
+  "b": "The verbs change from future to past: \"He got up ... and blessed ... he sang hymns ... he pleaded.\" The picture is of a man who begins his day with praise and with prayer for his household (6:7), like Job, who rose early to offer sacrifices for his children (Job 1:5), or the psalmist who says \"I lay down and fell asleep; / I woke up, for the LORD was holding me\" (Psalm 3:5).",
+  "r": "Job 1:5; Psalm 3:5; Psalm 5:3; Deuteronomy 6:7",
+  "top": "prayer",
+  "s": []
+ },
+ {
+  "v": "7:0",
+  "a": "Of turning back.",
+  "type": "word",
+  "t": "\"Of turning\"",
+  "p": "The heading's word can mean God turning his people back to their land, or the people turning back to God.",
+  "b": "<i>Epistrophēs</i>, \"of turning,\" is a genitive with no noun beside it. Gray (1913) thought the heading most likely names the subject as God's restoring of his people (see 7:9), and less likely the people's repentance. The same root is used in 5:9 and 8:33.",
+  "orig": "ἐπιστροφῆς (epistrophēs)",
+  "kind": "deb",
+  "r": "7:9; 8:33; 5:9",
+  "top": "psalm-titles",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "Do not take your tent away from us",
+  "type": "word",
+  "t": "God's tent",
+  "p": "The Greek verb means to move one's tent away. God's presence is pictured as a tent among his people.",
+  "b": "The Greek <i>aposkēnōsēs</i> means \"move your tent away\"; its opposite, \"pitch a tent, dwell,\" is the verb in 7:5, \"while your name dwells in our midst.\" Both build on God's tent, the tabernacle, and on the Temple where his name lived (Deuteronomy 12:11; 1 Kings 8:29). Ezekiel saw the glory of the LORD leave the Temple before the fall of Jerusalem (Ezekiel 10:18-19; Ezekiel 11:23). John uses the same root when he says the Word \"pitched his tent among us\" (John 1:14).",
+  "orig": "μὴ ἀποσκηνώσῃς (mē aposkēnōsēs)",
+  "kind": "nu",
+  "r": "7:5; Ezekiel 10:18–19; Ezekiel 11:23; Deuteronomy 12:11; John 1:14",
+  "top": "tabernacle",
+  "s": []
+ },
+ {
+  "v": "7:1",
+  "a": "those who hated us for no reason",
+  "type": "echo",
+  "t": "Hated for no reason",
+  "p": "The phrase is from the Psalms; John 15:25 applies it to Jesus.",
+  "b": "The psalmists complain of \"Those who hate me without a cause\" (Psalm 69:4; compare Psalm 35:19), and Jesus says his enemies fulfill the word \"They hated me for no reason\" (John 15:25). Gray (1913) thought foreigners are meant here, because of 7:3 and 7:6, and compared Lamentations 3:52.",
+  "r": "Psalm 69:4; Psalm 35:19; John 15:25; Lamentations 3:52",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "trample the inheritance of your sanctuary",
+  "type": "history",
+  "t": "Trampling the holy place",
+  "p": "The prayer fears what 2:2 describes: foreign feet on holy ground.",
+  "b": "Gray (1913) noted that the verb \"trample\" is the one used of the foreign soldiers in 2:2, and of the careless worshipers of Isaiah 1:12. The psalm may be a prayer before the sanctuary was taken, or one prayed in its shadow afterward; the poem itself does not say.",
+  "r": "2:2; Isaiah 1:12; Psalm 79:1; Daniel 8:13",
+  "top": "temple",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "Discipline us yourself, as you will",
+  "type": "echo",
+  "t": "Into God's hand, not human hands",
+  "p": "Like David, the poet would rather be punished by God than by people.",
+  "b": "Given a choice of punishments, David says, \"let us fall into the LORD's hand, for his compassion runs deep. Into a human hand, let me not fall\" (2 Samuel 24:14). Gray (1913) cited 2 Samuel 24:13-15 for this psalm. His reasoning: Israel has sinned and deserves discipline, but let it come from God, who remembers mercy even in anger (7:4; 2:24-27), not from pitiless men.",
+  "r": "2 Samuel 24:13–15; Jeremiah 10:24; Psalm 6:1; 2:24–27",
+  "top": "mercy",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:4",
+  "a": "if you send death",
+  "type": "word",
+  "t": "\"Death\" meaning plague",
+  "p": "The Greek thanatos, \"death,\" here likely means pestilence, as in the Greek of 2 Samuel 24.",
+  "b": "Gray (1913) thought \"death\" here stands for Hebrew <i>dever</i>, \"pestilence,\" as it does in the Greek of 2 Samuel 24:13-15, the story of David's choice (Swete's Greek of 2 Samuel 24:13 has <i>thanatos</i> for the three days of plague). Even a plague, the poet says, comes under God's orders, so it can be trusted to spare (compare Exodus 12:23).",
+  "orig": "ἐὰν γὰρ ἀποστείλῃς θάνατον (ean gar aposteilēs thanaton)",
+  "kind": "nu",
+  "r": "2 Samuel 24:13–15; Exodus 12:23; Revelation 6:8",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:6",
+  "a": "for you are our shield",
+  "type": "word",
+  "t": "Shield",
+  "p": "The Greek means \"one who holds a shield over us,\" the Greek Bible's word for Hebrew \"shield\" or \"refuge.\"",
+  "b": "<i>Hyperaspistēs</i> means a shield-bearer, one who holds a shield over another. Gray (1913) noted that in the Greek Old Testament it usually stands for Hebrew <i>magen</i>, \"shield,\" or <i>ma'oz</i>, \"refuge.\" Compare \"But you, LORD, are the shield that covers me\" (Psalm 3:3).",
+  "orig": "ὑπερασπιστὴς ἡμῶν (hyperaspistēs hēmōn)",
+  "kind": "nu",
+  "r": "Psalm 3:3; Psalm 18:2; Psalm 28:7",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "7:8",
+  "a": "under the whip of your discipline",
+  "type": "symbol",
+  "t": "Yoke and whip",
+  "p": "The devout accept God's yoke and whip, a picture of loving correction like a father's.",
+  "b": "A yoke is the wooden frame for a work animal, and the whip drives it; both are pictures of being ruled and corrected. Lamentations says, \"Good for a man: to carry a yoke while he is young\" (Lamentations 3:27). Hebrews, quoting Proverbs 3:12, says the Lord \"whips every son he takes in\" (Hebrews 12:6), and the Wisdom of Solomon contrasts God's discipline of Israel with the punishment of its enemies (Wisdom of Solomon 12:22). Jesus offers his own yoke as an easy one (Matthew 11:29-30). \"Discipline\" follows manuscripts h, m, p and v. Swete prints r's spelling, which read as written would mean \"play\"; see the variant on this verse.",
+  "r": "Lamentations 3:27; Proverbs 3:11–12; Hebrews 12:6; Wisdom of Solomon 12:22; Matthew 11:29–30",
+  "top": "discipline-of-children",
+  "s": [
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "8:0",
+  "a": "For victory.",
+  "type": "word",
+  "t": "\"For victory\"",
+  "p": "Gray took eis nikos, \"for victory,\" as the Greek of the Hebrew heading \"For the music director.\"",
+  "b": "Gray (1913) translated the heading \"Of the chief Musician.\" He noted that in Theodotion's Greek version of two psalm headings, <i>eis nikos</i> renders Hebrew <i>lamnatseach</i>, which this site renders \"For the music director\" (as in Psalm 4:0). The older Greek Psalter has <i>eis to telos</i>, \"to the end,\" for the same word (see the note on 1:1). If Gray is right, the heading goes back to a translator who knew the Hebrew term.",
+  "orig": "εἰς νῖκος (eis nikos)",
+  "kind": "deb",
+  "r": "Psalm 4:0; 1:1",
+  "top": "psalm-titles",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:1",
+  "a": "the sound of a trumpet",
+  "type": "symbol",
+  "t": "The trumpet of war",
+  "p": "The trumpet announces war, as in Jeremiah and Hosea.",
+  "b": "In the prophets the war trumpet or ram's horn is the sound of coming judgment: \"the sound of the ram's horn, / the shout of war\" (Jeremiah 4:19; compare Hosea 8:1; Amos 3:6). Psalm 11 of this book uses the trumpet in Zion for the opposite news, the gathering of the exiles (11:1).",
+  "r": "Jeremiah 4:19; Hosea 8:1; Amos 3:6; Joel 2:1; 11:1",
+  "top": "trumpets",
+  "s": []
+ },
+ {
+  "v": "8:2",
+  "a": "through the desert",
+  "type": "word",
+  "t": "The desert",
+  "p": "Gray thought the Hebrew meant the Negev, the dry south of Judah.",
+  "b": "The Greek <i>erēmos</i> is \"desert\" or \"wilderness.\" Gray (1913) thought the Hebrew had \"the Negev,\" the wilderness south of Judah, as in Isaiah 21:1, where the Greek also has the general word. Storms sweeping in from the desert were proverbial (Isaiah 21:1; Jeremiah 4:11-13).",
+  "orig": "δι᾽ ἐρήμου (di' erēmou)",
+  "kind": "nu",
+  "r": "Isaiah 21:1; Jeremiah 4:11–13",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:3",
+  "a": "Where, then, will God judge him?",
+  "type": "word",
+  "t": "Judge whom?",
+  "p": "The poet first thinks God will judge the enemy. Gray thought the Hebrew may have meant \"us.\"",
+  "b": "The Greek says \"Where, then, will God judge him?\" On that reading, the poet hears the invader coming and wonders where God will strike him down; then he hears the sound go into Jerusalem itself (8:4). Gray (1913) found the Greek awkward and thought the Hebrew could be read either \"him\" or \"us\"; with \"us,\" the poet sees the army as God's judgment on Jerusalem from the start. Two manuscripts (Swete's c and l) read \"her,\" the city.",
+  "orig": "Ποῦ ἄρα κρινεῖ αὐτὸν ὁ θεός; (Pou ara krinei auton ho theos?)",
+  "kind": "deb",
+  "r": "8:4; 8:7",
+  "s": [
+   "gray-pss-apot1913",
+   "swete-vol3-pss"
+  ]
+ },
+ {
+  "v": "8:5",
+  "a": "My back was crushed at what I heard",
+  "type": "echo",
+  "t": "Shaken by the news",
+  "p": "The poet's body breaks down at the news, as the prophets' bodies did.",
+  "b": "Isaiah says, \"What I hear doubles me over\" (Isaiah 21:3), and Nahum and Daniel describe knees knocking at news of judgment (Nahum 2:10; Daniel 5:6). Gray (1913) compared Isaiah 21:3, Ezekiel 21:7 and, for the knees, Isaiah 35:3.",
+  "r": "Isaiah 21:3–4; Nahum 2:10; Daniel 5:6; Ezekiel 21:7; Isaiah 35:3",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:7",
+  "a": "They will keep their ways straight in righteousness.",
+  "type": "word",
+  "t": "First thoughts",
+  "p": "The poet first assumed Jerusalem was righteous. Then God exposed its sins.",
+  "b": "Gray (1913) explained the verse as the poet's first thought, that Jerusalem was righteous (compare 1:2-3), which made the disaster so shocking (8:5-6). God then corrects it by uncovering the people's secret sins (8:8-13). He noted that the punctuation of the manuscripts gives another sense, \"And I said to those who set their ways straight,\" and that some of the line may be lost.",
+  "orig": "Κατευθυνοῦσιν ὁδοὺς αὐτῶν ἐν δικαιοσύνῃ (Kateuthynousin hodous autōn en dikaiosynē)",
+  "kind": "deb",
+  "r": "1:2–3; 8:8–13",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:9",
+  "a": "in hidden places underground",
+  "type": "echo",
+  "t": "Sins underground",
+  "p": "The charge recalls Ezekiel's vision of elders worshiping in hidden rooms.",
+  "b": "Ezekiel was shown the elders of Israel at work in the dark, \"each man in the rooms of his carved image,\" saying \"The LORD does not see us\" (Ezekiel 8:12). The psalm does not say what the underground sins were, only that they provoked God. Verses 10-13 list them: incest, adultery, robbing the sanctuary and defiling the sacrifices.",
+  "r": "Ezekiel 8:7–12; Isaiah 29:15; 1:7; 4:5",
+  "s": []
+ },
+ {
+  "v": "8:10",
+  "a": "Son with mother, and father with daughter",
+  "type": "views",
+  "t": "How literally?",
+  "p": "The charges are the worst the Law knows. Gray warned that a partisan book should not be read too literally.",
+  "b": "Leviticus forbids these unions (Leviticus 18:6-17; Leviticus 20:11-12), and the prophets use them as signs of a city's ruin (Ezekiel 22:10-11). The book makes similar charges in 2:13-15 and 4:4-5. Gray (1913) reminded readers that this is a strongly partisan work: the sins of the sinners \"must not be accepted too literally.\" On the other hand, the devout's own avoidance of sexual sin was, as Gray noted, a large part of their idea of righteousness (16:7-8). The verse tells us at least what the devout believed of the city's leaders.",
+  "r": "Leviticus 18:6–17; Leviticus 20:11–12; Ezekiel 22:10–11; 2:15; 4:4",
+  "top": "porneia",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:12",
+  "a": "as if there were no heir to redeem them",
+  "type": "word",
+  "t": "No redeemer",
+  "p": "The Greek pictures God as the heir who could buy back what was stolen: the Hebrew go'el.",
+  "b": "Word for word, \"as there being no heir redeeming.\" Gray (1913) reported Ryle and James's suggestion that the Hebrew had <i>go'el</i>, the family redeemer who recovers what a relative has lost (Leviticus 25:25; Ruth 4:4-6), and thought the rhythm favors it. The thieves acted as if the sanctuary had no owner to defend it. The same phrase returns in 8:36: \"as if there were no one to redeem us.\"",
+  "orig": "ὡς μὴ ὄντος κληρονόμου λυτρουμένου (hōs mē ontos klēronomou lytroumenou)",
+  "kind": "nu",
+  "r": "Leviticus 25:25; Ruth 4:4–6; Isaiah 41:14; 8:36",
+  "top": "kinsman-redeemer",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:13",
+  "a": "they defiled the sacrifices with menstrual blood",
+  "type": "israel",
+  "t": "Defiled sacrifices",
+  "p": "The charge is that men came to the altar and ate holy meat while ritually unclean.",
+  "b": "Gray (1913) explained: men who had been in contact with women during their monthly impurity, and so were unclean themselves, did not wait to be purified, but ate the sacrificial meat as if it were ordinary meat that anyone might eat (Leviticus 15:19-24; Leviticus 15:31; Leviticus 7:20-21; Deuteronomy 12:15). He thought the charge implies that the sinners were closely connected with the Temple service, that is, priests. The Law calls such contact a defiling of God's dwelling (Leviticus 15:31).",
+  "r": "Leviticus 15:19–24; Leviticus 15:31; Leviticus 7:20–21; Ezekiel 22:26; 2:3",
+  "top": "clean-and-unclean",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:15",
+  "a": "a spirit of going astray",
+  "type": "echo",
+  "t": "Words from Isaiah 19",
+  "p": "The line takes over the Greek of Isaiah 19:14 almost word for word.",
+  "b": "Swete's Greek of Isaiah 19:14 reads \"For the Lord mixed for them a spirit of going astray\" (<i>ekerasen autois pneuma planēseōs</i>); the psalm has the same four words with \"God\" for \"the Lord.\" The site's Hebrew-based Isaiah has \"a spirit of twisted thinking\" (Isaiah 19:14). Gray (1913) cited the verse. In Isaiah it is Egypt's leaders who are made to stagger; here it is Jerusalem's. Paul writes that God \"sends them a working that leads them astray\" (2 Thessalonians 2:11), with the same Greek root.",
+  "orig": "ἐκέρασεν αὐτοῖς ὁ θεὸς πνεῦμα πλανήσεως (ekerasen autois ho theos pneuma planēseōs)",
+  "r": "Isaiah 19:14; Isaiah 29:10; 2 Thessalonians 2:11; 8:22",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:15",
+  "a": "a cup of unmixed wine",
+  "type": "symbol",
+  "t": "The cup of God's anger",
+  "p": "Wine at full strength, not watered down, is the prophets' picture of God's judgment. Revelation uses the same word.",
+  "b": "Wine was usually mixed with water. The prophets picture God's judgment as a cup of strong wine that makes nations stagger (Jeremiah 25:15-16; Isaiah 51:17). Revelation 14:10 uses the same adjective, <i>akratos</i>: the worshipers of the beast \"will also drink the wine of God's anger, mixed undiluted in the cup of his wrath\" (Revelation 14:10). Here the drunkenness is the confusion that made Jerusalem's leaders open the gates (8:18-22).",
+  "orig": "ποτήριον οἴνου ἀκράτου (potērion oinou akratou)",
+  "r": "Jeremiah 25:15–16; Isaiah 51:17; Psalm 75:8; Revelation 14:10",
+  "top": "wrath",
+  "s": []
+ },
+ {
+  "v": "8:16",
+  "a": "the one from the far end of the earth",
+  "type": "history",
+  "t": "The conqueror from the far end of the earth",
+  "p": "Pompey came from Rome, the far west. The phrase is from Deuteronomy's warning of an enemy from far away.",
+  "b": "Gray (1913) argued that every detail fits Pompey: as a Roman he came from the west, and to the west he took his captives (17:14 in Swete's numbering). The words <i>ap' eschatou tēs gēs</i>, \"from the end of the earth,\" are those of the Greek of Deuteronomy 28:49, where the LORD will bring \"a nation from far away, from the end of the earth\" against a disobedient Israel; the site's rendering is \"From far off, from the edge of the earth\" (Deuteronomy 28:49). Gray compared Isaiah 41:25 and 46:11 and Jeremiah 6:22-23. Some readers have compared Antiochus IV, who took Jerusalem in the 160s BC (Gray cites Josephus, <i>Antiquities</i> 12.5.3).",
+  "orig": "τὸν ἀπ᾽ ἐσχάτου τῆς γῆς (ton ap' eschatou tēs gēs)",
+  "r": "Deuteronomy 28:49; Isaiah 41:25; Isaiah 46:11; Jeremiah 6:22–23; Acts 1:8; 17:14",
+  "top": "rome",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:18",
+  "a": "The rulers of the land met him with joy",
+  "type": "history",
+  "t": "The gates opened",
+  "p": "Josephus says Hyrcanus's party opened the gates to Pompey, while Aristobulus's party held the Temple.",
+  "b": "Josephus tells how Pompey, on his way south from Damascus, received a golden vine worth five hundred talents from Aristobulus (<i>Antiquities</i> 14.3.1), and how Aristobulus gave up his fortresses on Pompey's order (14.3.4). At Jerusalem the people split: \"some thought it best to deliver up the city to Pompey,\" and \"the others admitted Pompey's army in, and delivered up both the city and the king's palace to him\" (14.4.2; compare <i>Jewish War</i> 1.7.2, where the party of Hyrcanus is \"for opening the gates\"). Gray (1913) compared these accounts. Others compared Antiochus IV, whose party in the city opened the gates to him (Gray, citing <i>Antiquities</i> 12.5.3). \"Come, all of you, enter\" is plural in Greek, as if speaking to the whole army.",
+  "r": "8:19–22; 17:5–8",
+  "top": "hasmoneans",
+  "s": [
+   "josephus-ant-whiston-pss",
+   "josephus-war-whiston-pss",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:19",
+  "a": "They opened the gates to Jerusalem",
+  "type": "word",
+  "t": "Gates \"to\" Jerusalem",
+  "p": "The Greek says gates \"toward\" Jerusalem. Gray took it as the passes on the road to the city.",
+  "b": "Gray (1913) noted that the Greek <i>epi Ierousalēm</i> may mean the gates or passes on the approach to the city, not only the city gates, so the verse may describe the whole road being opened. He linked it with Josephus's account of Aristobulus handing over his fortresses (<i>Antiquities</i> 14.3.4). \"They crowned her walls\" may mean decking them with wreaths for a welcome; the Greek does not say with what.",
+  "orig": "ἤνοιξαν πύλας ἐπὶ Ἰερουσαλήμ (ēnoixan pylas epi Ierousalēm)",
+  "kind": "deb",
+  "r": "Isaiah 40:3–4; Psalm 24:7",
+  "s": [
+   "gray-pss-apot1913",
+   "josephus-ant-whiston-pss"
+  ]
+ },
+ {
+  "v": "8:20",
+  "a": "like a father into his sons' house",
+  "type": "symbol",
+  "t": "Welcomed like a father",
+  "p": "The bitter irony: the invader was welcomed as if he were family.",
+  "b": "The rulers greet the invader as a father coming home to his sons. Josephus says that after taking the Temple Pompey had it cleansed and the sacrifices resumed, and he made Hyrcanus high priest (<i>Jewish War</i> 1.7.6), \"by which means he ... reconciled the people to him more by benevolence than by terror.\" The psalm sees through the welcome: God led him in (8:22).",
+  "r": "8:22; 17:7",
+  "s": [
+   "josephus-war-whiston-pss"
+  ]
+ },
+ {
+  "v": "8:21",
+  "a": "He seized her towers and the wall of Jerusalem",
+  "type": "history",
+  "t": "The siege of the Temple",
+  "p": "Aristobulus's men held the Temple for about three months, until a tower fell.",
+  "b": "Josephus says Aristobulus's party seized the Temple, cut the bridge to the city and prepared for a siege. Pompey built a bank on the north side, using the Sabbaths, when the Jews would only defend themselves, to raise it; in the third month a tower fell and the Romans broke in (<i>Antiquities</i> 14.4.2-4; <i>Jewish War</i> 1.7.3-4). Cassius Dio says the Romans attacked hardest on \"the day of Saturn\" and took the defenders on that day (Cassius Dio 37.16). The capture is dated in the consulship of Gaius Antonius and Cicero, 63 BC (<i>Antiquities</i> 14.4.3).",
+  "r": "2:1; 8:19–20",
+  "top": "pompey",
+  "s": [
+   "josephus-ant-whiston-pss",
+   "josephus-war-whiston-pss",
+   "cassius-dio-37"
+  ]
+ },
+ {
+  "v": "8:22",
+  "a": "while they were going astray",
+  "type": "views",
+  "t": "Led by God",
+  "p": "The invader's success is God's doing, while Jerusalem's leaders stagger in confusion.",
+  "b": "\"Going astray\" picks up the \"spirit of going astray\" of 8:15. Gray (1913) thought the words describe the leaders' helplessness and may include their divided counsels: one party admitted Pompey, the other held the Temple against him (Josephus, <i>Antiquities</i> 14.4.2). The theology is that of Isaiah 10:5-6: God sends the conqueror.",
+  "r": "8:15; Isaiah 10:5–6; Isaiah 19:13–14",
+  "s": [
+   "gray-pss-apot1913",
+   "josephus-ant-whiston-pss"
+  ]
+ },
+ {
+  "v": "8:23",
+  "a": "He did away with their rulers and every wise counselor",
+  "type": "history",
+  "t": "The executions and the slaughter",
+  "p": "Josephus says Pompey executed the authors of the war, and twelve thousand Jews died, many at Jewish hands.",
+  "b": "After the capture Pompey \"cut off those that had been the authors of that war\" (Josephus, <i>Antiquities</i> 14.4.4); the <i>Jewish War</i> says he beheaded the most guilty (1.7.6). Twelve thousand Jews fell; \"The greatest part of them were slain by their own countrymen, of the adverse faction,\" and many threw themselves from the cliffs (1.7.5). Gray (1913) cited these passages.",
+  "r": "8:21; Psalm 79:3",
+  "top": "pompey",
+  "s": [
+   "josephus-ant-whiston-pss",
+   "josephus-war-whiston-pss",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:23",
+  "a": "like unclean water",
+  "type": "word",
+  "t": "\"Water of uncleanness\"",
+  "p": "The phrase may simply mean dirty water poured away, or recall the purification water of Numbers 19.",
+  "b": "Greek <i>hydōr akatharsias</i>, \"water of uncleanness.\" Gray (1913) compared Numbers 19, the water used to cleanse those who touched the dead, which the site's Numbers calls \"the water for impurity\" (Numbers 19:9). Blood spilled \"like water\" is also the complaint of Psalm 79:3. On either reading, life was poured out as if worthless.",
+  "orig": "ὡς ὕδωρ ἀκαθαρσίας (hōs hydōr akatharsias)",
+  "kind": "deb",
+  "r": "Numbers 19:9; Psalm 79:3",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:24",
+  "a": "He carried off their sons and daughters",
+  "type": "history",
+  "t": "Captives to Rome",
+  "p": "Pompey took Aristobulus and his children to Rome.",
+  "b": "Josephus says Pompey \"carried bound along with him Aristobulus and his children; for he had two daughters, and as many sons,\" one of whom escaped, while the younger, Antigonus, was taken to Rome with his sisters (<i>Antiquities</i> 14.4.5). Gray (1913) thought the verse alludes in particular to them. See 2:6.",
+  "r": "2:6; 17:14",
+  "top": "exile",
+  "s": [
+   "josephus-ant-whiston-pss",
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:28",
+  "a": "like lambs in innocence among them",
+  "type": "symbol",
+  "t": "Lambs among the nations",
+  "p": "The devout are innocent lambs, a picture the prophets and the New Testament use of God's suffering people.",
+  "b": "Jeremiah says, \"I was like a tame lamb being led away to slaughter\" (Jeremiah 11:19), Isaiah 53:7 pictures the servant as a lamb taken to slaughter, and Psalm 44:22, quoted in Romans 8:36, says God's people are counted as sheep for slaughter. Jesus sends his disciples \"like sheep into the middle of a pack of wolves\" (Matthew 10:16). Gray (1913) translated \"like innocent lambs.\"",
+  "r": "Jeremiah 11:19; Isaiah 53:7; Psalm 44:22; Romans 8:36; Matthew 10:16",
+  "top": "lamb",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:32",
+  "a": "judging Israel with discipline",
+  "type": "canon",
+  "t": "Judgment for the nations, discipline for Israel",
+  "p": "God judges the nations but disciplines Israel. Wisdom of Solomon draws the same contrast.",
+  "b": "The psalm's closing prayer rests on a distinction: God's judgments fall on \"the nations of the earth\" (8:27), but he judges Israel \"with discipline,\" to correct it. Wisdom of Solomon says the same: \"while you discipline us, / you whip our enemies ten thousand times as hard\" (Wisdom of Solomon 12:22). In the 66 books, Jeremiah 30:11 makes the promise: God will make an end of the nations but will discipline Israel justly. Hebrews applies the idea to the church (Hebrews 12:5-11).",
+  "r": "Jeremiah 30:11; Wisdom of Solomon 12:22; Hebrews 12:5–11; 8:27; 7:8",
+  "top": "suffering",
+  "s": []
+ },
+ {
+  "v": "8:34",
+  "a": "Gather the scattered people of Israel",
+  "type": "israel",
+  "t": "The dispersion",
+  "p": "The poet prays for the Jews scattered among the nations to be gathered home.",
+  "b": "The Greek <i>diaspora</i>, \"scattering,\" is the word for Jews living outside the land (John 7:35; James 1:1). Moses promised that God would gather Israel \"out of all the peoples where the LORD your God scattered you\" (Deuteronomy 30:3), and Isaiah 11:12 links the gathering with the shoot of Jesse. In this book the hope returns in Psalm 11 and in Psalm 17, where the son of David gathers a holy people. Pompey's captives (8:24) had just added to the scattered.",
+  "orig": "τὴν διασπορὰν Ἰσραήλ (tēn diasporan Israēl)",
+  "kind": "nu",
+  "r": "Deuteronomy 30:3–4; Isaiah 11:12; John 7:35; James 1:1; 9:2",
+  "top": "exile",
+  "s": []
+ },
+ {
+  "v": "8:35",
+  "a": "And we made our necks stiff",
+  "type": "echo",
+  "t": "Stiff-necked",
+  "p": "The confession uses the old charge against Israel in the wilderness.",
+  "b": "\"Look, they are a stiff-necked people,\" God says at the golden calf (Exodus 32:9), and Stephen repeats the charge to the council (Acts 7:51). Here the devout say it of themselves, and in the same breath name God their faithful teacher. Gray (1913) translated \"though we have stiffened our neck, yet Thou art our chastener.\"",
+  "r": "Exodus 32:9; Deuteronomy 9:6; Acts 7:51; Nehemiah 9:16–17",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ },
+ {
+  "v": "8:40",
+  "a": "blessed by the Lord is Israel forever",
+  "type": "echo",
+  "t": "Israel blessed",
+  "p": "The psalm ends by blessing Israel, as Psalm 125 and 128 end with \"peace on Israel.\"",
+  "b": "Several biblical psalms end with a blessing on Israel (Psalm 125:5; Psalm 128:6). Gray (1913) noted such closing lines (compare 2:41). After the slaughter of 8:23, the devout end with confidence: \"we will never be shaken again\" (8:39).",
+  "r": "Psalm 125:5; Psalm 128:6; 2:41; 8:39",
+  "s": [
+   "gray-pss-apot1913"
+  ]
+ }
+]

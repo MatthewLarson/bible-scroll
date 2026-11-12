@@ -1,0 +1,604 @@
+[
+ {
+  "v": "17:1",
+  "a": "fifth week",
+  "t": "\"Fifth\" or \"fourth\" week?",
+  "p": "The Ge'ez says the fifth week. Charles thought it should be the fourth, to fit the book's other dates.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ዘሱባዔ ኃምስ (zäsubaʿe ḫams)",
+    "en": "of the fifth week",
+    "plain": "fifth week"
+   },
+   {
+    "w": "Charles 1902, a suggested correction (no manuscript)",
+    "orig": "",
+    "en": "of the fourth week",
+    "plain": "fourth week"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles's \"fourth\" is a guess made to fix the book's dating; no copy he cites reads it.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "17:4",
+  "a": "Ishmael playing and dancing",
+  "t": "Dancing, or playing with Isaac?",
+  "p": "The Latin has Ishmael playing \"with Isaac\", as the Greek and Latin Bibles of Genesis 21:9 do.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "እንዘ ይትዋነይ ወይዘፍን (ʾənzä yətwanäy wäyzäfn)",
+    "en": "playing and dancing",
+    "plain": "Ishmael playing and dancing"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "cum Isac",
+    "en": "playing with Isaac",
+    "plain": "Ishmael playing with Isaac"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez, the base text. Charles thought the Ge'ez word for \"dancing\" (wäyzäfn) might be a corruption of \"with Isaac\" (ba-yəsḥaq), since the Latin has cum Isac and the Septuagint and Vulgate of Genesis 21:9 add \"with Isaac her son\". The Hebrew and the Samaritan text of Genesis do not have it.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "18:10",
+  "a": "said to him, \"Abraham!\"",
+  "t": "One \"Abraham\" or two?",
+  "p": "VanderKam's Ge'ez has the name once. Charles's translation has it twice, as Genesis 22:11 does.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእቤሎ አብርሃም (wäʾbelo ʾäbrəham)",
+    "en": "and said to him, \"Abraham\"",
+    "plain": "said to him, \"Abraham!\""
+   },
+   {
+    "w": "Charles's English (1902 and 1913)",
+    "orig": "",
+    "en": "and said unto him: \"Abraham, Abraham\"",
+    "plain": "said to him, \"Abraham, Abraham!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez. Charles gives the name twice but has no note on it, so the reading of his manuscripts here cannot be checked from what is open. Genesis 22:11 has \"Abraham! Abraham!\"",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "18:11",
+  "a": "For now I know",
+  "t": "\"Now I know\" or \"I have shown\"?",
+  "p": "The Latin says \"I have shown\". Charles preferred it: the test showed Abraham's faith to others.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "እስመ ይእዜ አእመርኩ (ʾəsmä yəʾze ʾäʾmärku)",
+    "en": "for now I know (have known)",
+    "plain": "For now I know"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "manifestavi",
+    "en": "I have shown",
+    "plain": "For now I have shown"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ge'ez verb ʾaʾmärä means \"know\", like the Hebrew of Genesis 22:12. Charles calls the Latin manifestavi \"unmistakeable\" and says the Syriac of Genesis has the same sense, and that it suits 18:16, \"I have made it known to all.\" The Plain English Translation keeps the Ge'ez, the base text, with the note at 18:9.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "18:12",
+  "a": "caught by its horns",
+  "t": "A word that does not fit",
+  "p": "The Ge'ez has an extra word, \"and it came\", which Charles took as a corruption of \"in a thicket\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989), as it stands",
+    "orig": "እኁዝ ወይመጽእ በአቅርንቲሁ (ʾəḫuz wäymäṣʾ bäʾäqrəntihu)",
+    "en": "caught, and it came, by its horns",
+    "plain": "caught by its horns"
+   },
+   {
+    "w": "Charles 1902, correction (all his manuscripts have 'and he came')",
+    "orig": "",
+    "en": "caught in a thicket by its horns",
+    "plain": "caught in a thicket by its horns"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation leaves out one Ge'ez word, wäymäṣʾ, \"and it came\", which makes no sense here. Charles says all his manuscripts have it and thinks it is a corruption of bä-ʿəḍaw, \"in a thicket\", the reading of Genesis 22:13. Since that is a guess, the Plain English Translation does not add \"thicket\". The Ge'ez reading is shown once: the Plain English Translation follows it, leaving the one word untranslated.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "18:13",
+  "a": "people say, \"The Lord has seen.\"",
+  "t": "\"Has seen\" or \"was seen\"?",
+  "p": "The Latin has \"in the mountain the Lord was seen\", closer to the Hebrew and Greek of Genesis 22:14.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ከመ ይትበሀል እግዚአብሔር ርእየ (kämä yətbähäl ʾəgziʾäbḥer rəʾyä)",
+    "en": "so that it is said, \"The Lord has seen\"",
+    "plain": "people say, \"The Lord has seen.\""
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "visus est",
+    "en": "in the mountain the Lord was seen",
+    "plain": "people say, \"On the mountain the Lord was seen.\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles added \"in the mount\" from the Latin and notes that its verb is passive (visus est), as in the Hebrew and the Septuagint of Genesis 22:14; the Syriac and Vulgate have \"sees\".",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "18:15",
+  "a": "your firstborn whom you love",
+  "t": "\"Your firstborn\" or \"your only son\"?",
+  "p": "The Latin has \"your only son, whom you loved\". Charles's Ge'ez manuscripts differ too.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወልደከ በኵረከ እምኔየ ዘአፍቀርከ (wäldäkä bäkʷräkä ʾəmneyä zäʾäfqärkä)",
+    "en": "your son, your firstborn, whom you loved",
+    "plain": "your firstborn whom you love"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "tuo unigenito ... quem dilexisti",
+    "en": "your only son, whom you loved",
+    "plain": "your only son, whom you loved"
+   },
+   {
+    "w": "Charles's Ge'ez manuscripts a, d (Charles 1902)",
+    "orig": "",
+    "en": "your beloved son",
+    "plain": "your beloved son"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez. Charles printed \"thy beloved son\" with two of his manuscripts and notes that the other two read \"firstborn\", under the influence of 18:11, and that the Latin has \"only son\" with \"whom you loved\". He thought the Hebrew behind Jubilees had a doubled word here, as some Greek and Latin copies of Genesis 22 do.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "19:2",
+  "a": "first year of the third week",
+  "t": "\"Third\" or \"second\" week?",
+  "p": "Charles thought \"third\" should be \"second\", to fit Isaac's marriage at forty.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ዘሱባዔ ሣልስ (zäsubaʿe śals)",
+    "en": "of the third week",
+    "plain": "first year of the third week"
+   },
+   {
+    "w": "Charles 1902, a suggested correction (no manuscript)",
+    "orig": "",
+    "en": "of the second week",
+    "plain": "first year of the second week"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles's \"second\" is a guess based on Genesis 25:20, which makes Isaac forty at his marriage (19:10).",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "19:5",
+  "a": "forty pieces of silver",
+  "t": "Forty or four hundred?",
+  "p": "The Ge'ez has forty pieces of silver. The Latin has four hundred, as Genesis 23:15-16 does.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በአርብዓ ብሩር (bäʾärbəʿa bərur)",
+    "en": "for forty silver (pieces)",
+    "plain": "forty pieces of silver"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "for four hundred (pieces) of silver",
+    "plain": "four hundred pieces of silver"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez, the base text, and shows the difference here. Charles followed the Latin, which agrees with Genesis 23:15-16, and judged the Ge'ez wrong. The Latin is the older witness, but Charles judged that it \"has suffered more at the hands of correctors\" than the Ge'ez, and that it was corrected toward the Greek Bible in places, so the agreement with Genesis could be a correction.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "19:10",
+  "a": "Bethuel, who fathered the Bethuelites, was",
+  "t": "Rebekah's family line",
+  "p": "The Ge'ez line is confused. Charles rebuilt it with the Latin as \"the daughter of Bethuel; and Bethuel was\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወባቱኤል ወለዶሙ ለባቱኤላዊያን (wäbatuʾel wälädomu läbatuʾelawiyan)",
+    "en": "and Bethuel, he fathered them, the Bethuelites",
+    "plain": "Bethuel, who fathered the Bethuelites, was"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text, corrected with the Latin",
+    "orig": "",
+    "en": "and daughter of Bethuel; and Bethuel was",
+    "plain": "She was the daughter of Bethuel, and Bethuel was"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez as closely as English allows. Charles corrected the line \"with help of Latin\" (his note on 19:10) and treated the earlier words \"the daughter of Bethuel, the son of Nahor, the brother of Abraham\" as a repeat already present in the Greek, since the Latin has them too. Either way the sense agrees with Genesis 24:15.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "20:2",
+  "a": "act the same way in every conflict",
+  "t": "\"In every conflict\" or \"among all people\"?",
+  "p": "The Ge'ez has \"in every war\". Charles changed one letter to read \"among all people\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በውስተ ኵሉ ፀብእ (bäwsətä kʷəlu ḍäbʾ)",
+    "en": "in every war (strife)",
+    "plain": "act the same way in every conflict"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text",
+    "orig": "säbʾ",
+    "en": "among all men",
+    "plain": "act the same way among all people"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez and gives ḍäbʾ, \"war, battle\", the wider sense of strife. Charles changed ṣ/ḍ to s, giving säbʾ, \"people\". His reading is smoother; the Ge'ez can stand.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "20:6",
+  "a": "your whole life a thing to gloat over",
+  "t": "\"Boasting\" or \"a hissing\"?",
+  "p": "The Ge'ez says \"for boasting\"; Charles's manuscripts differ; the Latin has \"a hissing\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ሕይወተክሙ ለትምክሕት (ḥəywätäkmu lätməkḥət)",
+    "en": "your whole life for boasting",
+    "plain": "your whole life a thing to gloat over"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "your whole life a hissing",
+    "plain": "your whole life a thing to hiss at"
+   },
+   {
+    "w": "Charles's Ge'ez manuscript a (Charles 1902)",
+    "orig": "",
+    "en": "a threatening",
+    "plain": "your whole life a threat"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez, which agrees with three of Charles's four manuscripts (\"a cause of boasting\"). Charles followed the Latin \"hissing\", which fits Jeremiah 29:18. Either way Israel's shame becomes something its enemies enjoy.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "20:13",
+  "a": "and they were called Arabs and Ishmaelites",
+  "t": "Called Arabs, or joined the Arabs?",
+  "p": "The Latin says they joined the Arabs and are Ishmaelites \"to this day\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወተጸውዐ ስሞሙ ዐረብ ወእስማዔላዊያን (wätäṣäwʿä səmomu ʿäräb wäʾsəmaʿelawiyan)",
+    "en": "and their name was called Arabs and Ishmaelites",
+    "plain": "and they were called Arabs and Ishmaelites"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "they clung to the Arabs and are Ishmaelites to this day",
+    "plain": "and they joined the Arabs, and they are Ishmaelites to this day"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles gives the Latin in his note but keeps the Ge'ez in his translation. The Latin makes the Ishmaelites a people who merged with the Arabs, not the Arabs themselves.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:3",
+  "a": "My soul has hated idols,",
+  "t": "A clause lost in the Ge'ez",
+  "p": "The Latin has a longer verse. Charles thought the Ge'ez lost a line when a copyist's eye skipped.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ጣዖተ ጸልአት ነፍስየ (ṭaʿotä ṣälʾät näfsəyä)",
+    "en": "my soul has hated idols, (so) that I might keep",
+    "plain": "My soul has hated idols,"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "my soul has hated idols, and I have despised those who serve them, and I have given my heart and spirit",
+    "plain": "My soul has hated idols, and I have despised those who serve them, and I have given my heart and spirit,"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez, which, like Charles's manuscripts, lacks the longer clause. Charles added it from the Latin and thought it was \"probably lost in Ethiopic through homoioteleuton\", a skip from one similar ending to the next. The Latin may well preserve the fuller text; the sense is not changed.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:7",
+  "a": "with fine flour and the grain offering mixed with oil",
+  "t": "\"And the grain offering\"",
+  "p": "The Latin leaves out \"and the grain offering\". Charles first did too, then accepted it as genuine.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ምስለ ስንዳሌ ወመሥዋዕተ ልዉስ በቅብእ (məslä səndale wämäśwaʿtä ləwus bäqbəʾ)",
+    "en": "with fine flour and the offering mixed with oil",
+    "plain": "with fine flour and the grain offering mixed with oil"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "with fine flour mixed with oil",
+    "plain": "with fine flour mixed with oil"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles says the phrase \"is most probably genuine as Littmann urges, though I rejected it in my Ethiopic text\".",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:10",
+  "a": "it will not be called an offering again",
+  "t": "\"Not called again\" or \"not eaten again\"?",
+  "p": "The Ge'ez says it \"will not be called\" again. Charles changed one letter to \"will not be eaten\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989) (with Charles's manuscripts a, b)",
+    "orig": "ወኢይትበሀል እንከ (wäʾiytəbähäl ʾənkä)",
+    "en": "and it will not be called (so) again",
+    "plain": "it will not be called an offering again"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text",
+    "orig": "",
+    "en": "let it no longer be eaten",
+    "plain": "it must not be eaten again"
+   },
+   {
+    "w": "Charles's Ge'ez manuscripts c, d (Charles 1902)",
+    "orig": "",
+    "en": "you shall not eat",
+    "plain": "you must not eat it"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez and supplies \"an offering\", which the verb implies. Charles emended yətbähäl, \"be called\", to yətbälaʿ, \"be eaten\", one letter apart, which suits the context; two of his manuscripts have a form of \"eat\".",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:11",
+  "a": "let the covenant of salt be missing",
+  "t": "\"Covenant of salt\" or \"salt of the covenant\"?",
+  "p": "The Ge'ez manuscripts have \"covenant of salt\". Charles changed it to match Leviticus 2:13.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ኪዳነ ፄው (kidanä ḍew)",
+    "en": "the covenant of salt",
+    "plain": "let the covenant of salt be missing"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text",
+    "orig": "",
+    "en": "the salt of the covenant",
+    "plain": "let the salt of the covenant be missing"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the Ge'ez, which all Charles's manuscripts share. It matches Numbers 18:19. Charles reversed it to match Leviticus 2:13.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:14",
+  "a": "for their fragrance is distinct, and the smell of their fragrance goes up to heaven",
+  "t": "Does the smell go up or not?",
+  "p": "Charles took the line as a warning: other woods' smell is scattered and \"goes not up\". The Ge'ez has no \"not\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "እስመ መዓዛሁ ፍሎጥ ወየዐርግ ጼና መዓዛሁ ወስተ ሰማይ (ʾəsmä mäʿazahu fəloṭ wäyäʿärg ṣena mäʿazahu wästä sämay)",
+    "en": "for its fragrance is distinct (set apart), and the smell of its fragrance goes up to heaven",
+    "plain": "for their fragrance is distinct, and the smell of their fragrance goes up to heaven"
+   },
+   {
+    "w": "Charles 1902 and 1913, with a negative added after Littmann",
+    "orig": "",
+    "en": "for the fragrance is dispersed, and the smell of its fragrance goes not up to heaven",
+    "plain": "for their fragrance is scattered, and the smell of their fragrance does not go up to heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez, which makes sense as it stands: the listed woods have a special fragrance that rises to God. Charles says, \"With Littmann I have inserted the negative,\" so his reading has no manuscript behind it.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "21:20",
+  "a": "that is what will be accepted before the Most High God",
+  "t": "What is accepted?",
+  "p": "The Ge'ez says blood for blood \"will be accepted\". Charles emended it to \"that you may be accepted\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወይሠጠው ቅድመ አምላክ ልዑል (wäyśäṭäw qədmä ʾämlak ləʿul)",
+    "en": "and it will be accepted before God Most High",
+    "plain": "that is what will be accepted before the Most High God"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text",
+    "orig": "",
+    "en": "that thou mayest be accepted before the Lord, the Most High God",
+    "plain": "so that you may be accepted before the Most High God"
+   },
+   {
+    "w": "Charles's Ge'ez manuscript a (Charles 1902)",
+    "orig": "",
+    "en": "it will not be accepted",
+    "plain": "that is what will not be accepted before the Most High God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez, which agrees with one of Charles's manuscripts (\"and it will be accepted\"). Charles lists four readings and prints an emendation of his own.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "22:22",
+  "a": "and the hateful ones",
+  "t": "\"Hateful\" or \"profane\"?",
+  "p": "The Ge'ez says \"the hated (hateful) ones\". Charles emended it to \"the profane\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወለጽሉኣን (wäläṣluʾan)",
+    "en": "and the hated ones",
+    "plain": "and the hateful ones"
+   },
+   {
+    "w": "Charles 1902, his emended Ge'ez text",
+    "orig": "",
+    "en": "and the profane",
+    "plain": "and the profane"
+   },
+   {
+    "w": "Charles's Ge'ez manuscript c (Charles 1902)",
+    "orig": "",
+    "en": "the perverse",
+    "plain": "and the perverse"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's Ge'ez, which agrees with three of Charles's manuscripts. Charles read a Greek word for \"profane\" behind it; he also suggests \"adversaries\" as another possible correction.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "23:20",
+  "a": "with swords and with fighting",
+  "t": "Bows and swords",
+  "p": "The Latin adds \"with bows\" before \"swords\".",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በአስይፍት ወበቀትል (bäʾäsyəft wäbäqätl)",
+    "en": "with swords and with fighting",
+    "plain": "with swords and with fighting"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "",
+    "en": "with bows and swords and with fighting",
+    "plain": "with bows and swords and with fighting"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles adds \"with bows\" from the Latin. The meaning is the same.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ },
+ {
+  "v": "23:28",
+  "a": "and no one who has had his fill of days",
+  "t": "With or without \"not\"?",
+  "p": "Charles added \"not\": \"no one who is not satisfied with his days\". The Ge'ez has no negative.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወአልቦ ልሂቀ ወአልቦ ዘይጸግብ መዋዕለ (wäʾälbo ləhiqä wäʾälbo zäyṣägb mäwaʿlä)",
+    "en": "and there is no one who is full of days",
+    "plain": "and no one who has had his fill of days"
+   },
+   {
+    "w": "Charles 1902, with a negative added from Isaiah 65:20",
+    "orig": "",
+    "en": "nor one who is not satisfied with his days",
+    "plain": "and no one who is not satisfied with his days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles says, \"I have added the negative from a comparison of Is. lxv. 20.\" Without it, the line says no one will be worn out by age, which fits the rest of the verse.",
+  "s": [
+   "charles-jubilees-1902",
+   "vanderkam-jubilees-1989"
+  ]
+ }
+]

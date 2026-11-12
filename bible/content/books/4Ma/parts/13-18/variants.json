@@ -1,0 +1,791 @@
+[
+ {
+  "v": "13:1",
+  "a": "If, then,",
+  "t": "\"If\" or \"See\"?",
+  "p": "Swete prints 'if' (ei de); Alexandrinus writes 'see' (ide).",
+  "readings": [
+   {
+    "w": "Swete's text (here Swete prints a reading that is not Codex Alexandrinus's), with Sinaiticus and Venetus, which the apparatus does not list against it",
+    "orig": "Εἰ δὲ τοίνυν",
+    "en": "If then",
+    "plain": "If, then,"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's apparatus (\"ει δε] ΐδε A\")",
+    "orig": "ἴδε τοίνυν",
+    "en": "See, then",
+    "plain": "See, then:"
+   }
+  ],
+  "follow": 0,
+  "why": "Ei de and ide sound almost the same in later Greek. \"If\" gives the book's usual form of proof, which returns in 16:1 (\"If, then, even a woman...\"): if the martyrs did this, then godly reason rules the passions. Swete prints it, and the Plain English Translation follows him.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:2",
+  "a": "Then we would say",
+  "t": "\"Just as\" or \"if\"?",
+  "p": "Swete's text says 'just as those... ate'; the first hand of Sinaiticus says 'if... had eaten, we would say'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "ὥσπερ γὰρ οἱ τοῖς πάθεσιν δουλωθέντες ἐμιεροφάγησαν, ἐλέγομεν γὰρ αὐτοὺς τούτοις νενικῆσθαι",
+    "en": "for just as those enslaved to the passions ate defiling food, for we said that they had been conquered by them",
+    "plain": "We said"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus: its first hand has 'if' (ει) for 'just as' (corrected back to ωσπερ by ℵc.a); it has 'would' (αν) for the second 'for' (γαρ) and leaves out the article 'those' (οι), which ℵc.a and Venetus also leave out. Venetus leaves out the second 'for'",
+    "orig": "εἰ γὰρ τοῖς πάθεσιν δουλωθέντες ἐμιεροφάγησαν, ἐλέγομεν ἂν αὐτοὺς τούτοις νενικῆσθαι",
+    "en": "for if, enslaved to the passions, they had eaten defiling food, we would say that they had been conquered by them",
+    "plain": "Then we would say"
+   }
+  ],
+  "follow": 1,
+  "why": "Swete's text, taken word for word, says that some people did eat the food, which does not fit the argument about the seven brothers; Brenton (1851) reads it as an unreal condition (\"For just as if, had they...\"). The Plain English Translation follows the sense of Sinaiticus, whose \"if... would\" makes the unreal condition plain: had the brothers eaten, we would say passion had won. Read as Brenton reads it, Swete's text gives the same sense.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "in Syria",
+  "t": "Syria or Assyria?",
+  "p": "Swete prints 'Syria' (Alexandrinus); 'Assyria' is written in A by a corrector and is in Venetus, and probably in Sinaiticus.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912), the first hand of A",
+    "orig": "ἐπὶ τῆς Συρίας",
+    "en": "in Syria",
+    "plain": "in Syria"
+   },
+   {
+    "w": "A corrector of Alexandrinus (the letters ασ written above the line; Swete marks the hand as uncertain, \"A¹?ᵃ\"), Venetus (V, 700s AD), and probably Sinaiticus (ℵ, 300s AD; Swete's \"ℵ?\"), from Swete's apparatus; Brenton (1851) translates this reading",
+    "orig": "Ασσυριας",
+    "en": "in Assyria",
+    "plain": "in Assyria"
+   }
+  ],
+  "follow": 0,
+  "why": "Swete prints what the first hand of Alexandrinus wrote. Neither name is where Daniel 3:1 sets the story (\"the province of Babylon\"), so the writer is speaking loosely of the old empires of the east. \"Assyria\" looks like a correction toward a more familiar name for those empires, which is a reason to keep the harder \"Syria\".",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "13:9",
+  "a": "a furnace that was a match for this ordeal",
+  "t": "\"A furnace that was a match\"",
+  "p": "Swete's word for the furnace is a correction; Alexandrinus is garbled, Sinaiticus and Venetus have a different word, and Sinaiticus's first hand has 'burning' for 'furnace'.",
+  "readings": [
+   {
+    "w": "Swete's text (here Swete prints a reading that is not Codex Alexandrinus's)",
+    "orig": "τῆς ἰσοπάλιδος καμίνου",
+    "en": "the evenly matched furnace",
+    "plain": "a furnace that was a match for this ordeal"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's apparatus",
+    "orig": "εισεπολιδος",
+    "en": "(no clear Greek word)",
+    "plain": "a furnace"
+   },
+   {
+    "w": "Codex Sinaiticus as corrected (ℵc.a) and Venetus (V); the first hand of Sinaiticus writes ισοπολιτιδου",
+    "orig": "ισοπολιτιδος",
+    "en": "a furnace 'of equal citizenship' (sense unclear)",
+    "plain": "a furnace of the same city"
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*), which also writes 'burning' (καιομενης) for 'furnace' (corrected back by ℵc.a), from Swete's apparatus",
+    "orig": "ισοπολιτιδου ... καιομενης",
+    "en": "(the) burning (fire) 'of equal citizenship'",
+    "plain": "a burning fire of the same city"
+   }
+  ],
+  "follow": 0,
+  "why": "Isopalis means \"evenly matched\", as wrestlers are, and gives good sense: the brothers face an ordeal equal to the three young men's furnace. Alexandrinus's letters make no word; the reading of Sinaiticus and Venetus looks like a copyist's slip toward the common word for \"fellow citizen\". The Plain English Translation follows Swete's text but marks it as a correction.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:17",
+  "a": "If we suffer like this",
+  "t": "\"Suffer\" or \"die\"?",
+  "p": "Alexandrinus says 'if we suffer like this'; Sinaiticus and Venetus say 'if we die like this'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "οὕτως παθόντας ἡμᾶς",
+    "en": "us, having suffered thus",
+    "plain": "If we suffer like this"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Venetus (V), which also add 'for' (γαρ), from Swete's apparatus",
+    "orig": "θανοντας",
+    "en": "having died",
+    "plain": "If we die like this"
+   }
+  ],
+  "follow": 0,
+  "why": "Both make sense: the fathers welcome those who have suffered to death. The Plain English Translation keeps Swete's text; \"suffer\" also ties the brothers' words to the book's theme of mastering pain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "13:19",
+  "a": "the bonds of love that tie human beings together",
+  "t": "\"Human\" or \"brotherly\" bonds?",
+  "p": "Alexandrinus speaks of the bonds of humankind; Sinaiticus of the bonds of brotherhood, which fits the next verses.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Venetus agrees",
+    "orig": "τὰ τῆς ἀνθρωπότητος φίλτρα",
+    "en": "the love-charms of humankind",
+    "plain": "the bonds of love that tie human beings together"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus; Brenton translates this reading (\"the charm of brotherhood\")",
+    "orig": "αδελφοτητος",
+    "en": "the love-charms of brotherhood",
+    "plain": "the bonds of love that tie brothers together"
+   }
+  ],
+  "follow": 0,
+  "why": "The verses that follow describe brothers (13:20-27), so \"brotherhood\" fits the context very well, and that is why it could be a copyist's improvement. \"Humankind\" is the wider claim, that God's providence planted family love in all people, and it leads into the animals of 14:14-19. Swete's text is kept.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "13:24",
+  "a": "So they drew all the closer to one another.",
+  "t": "\"Drew closer\" or \"loved\"?",
+  "p": "Alexandrinus: they drew closer together; Sinaiticus and Venetus: they loved one another all the more.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "μᾶλλον ἐφ᾽ αὑτοὺς ἤγαγον",
+    "en": "they drew (it) more toward themselves",
+    "plain": "So they drew all the closer to one another."
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Venetus (V), from Swete's apparatus",
+    "orig": "εαυτους ηγαπων",
+    "en": "they loved one another (more)",
+    "plain": "So they loved each other all the more."
+   }
+  ],
+  "follow": 0,
+  "why": "The two readings differ by a few letters in Greek. Alexandrinus's phrase is harder and less clear, which is a reason copyists might change it to the plain \"they loved one another\". The sense is close either way.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "15:4",
+  "a": "Mothers above all feel more for their children than fathers do.",
+  "t": "\"Than fathers\": Swete's correction",
+  "p": "All the codices read 'passions' (pathon) here; Swete prints 'fathers' (pateron), a correction. Sinaiticus and Venetus also add words after 'mothers'.",
+  "readings": [
+   {
+    "w": "Swete's text (here Swete prints a reading that is not Codex Alexandrinus's): a correction against all the manuscripts",
+    "orig": "διὰ τὸ τῶν πατέρων τοῖς γεννηθεῖσιν τὰς μητέρας καθεστάναι συνπαθεστέρας",
+    "en": "because mothers are more sympathetic toward their offspring than fathers",
+    "plain": "Mothers above all feel more for their children than fathers do."
+   },
+   {
+    "w": "Codex Alexandrinus (A); all the codices have παθων for πατέρων (\"πατερων] παθων codd\" in Swete's apparatus)",
+    "orig": "διὰ τὸ τῶν παθῶν τοῖς γεννηθεῖσιν τὰς μητέρας καθεστάναι συνπαθεστέρας",
+    "en": "a gloss: 'because mothers are more sympathetic, of the passions, toward their offspring' (the genitive does not fit the sentence well)",
+    "plain": "(the words do not make a clear English sentence)"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), which has παθων and also adds 'of the passions' (+ των παθων) after 'mothers', from Swete's apparatus",
+    "orig": "... τὰς μητέρας τῶν παθῶν ...",
+    "en": "a gloss: 'mothers more sympathetic in the passions toward their offspring'",
+    "plain": "(the words do not make a clear English sentence)"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), which has παθων and adds των πρων after 'mothers', from Swete's apparatus (it also spells συμπαθεστερας)",
+    "orig": "... τὰς μητέρας τῶν πρων ...",
+    "en": "a gloss, if πρων is the usual shortened writing of πατέρων: 'mothers more sympathetic than fathers'",
+    "plain": "Mothers above all feel more for their children than fathers do."
+   }
+  ],
+  "follow": 0,
+  "why": "Pateron (\"of the fathers\") and pathon (\"of the passions\") look alike in Greek but differ in more than one letter (t against th, and the syllable er). With \"fathers\", the sentence makes the comparison the next verse explains (mothers love more). The manuscripts' \"passions\" leaves the genitive with nothing to depend on, which is why Swete corrected it. Venetus's added \"πρων\" may be a shortened form of pateron, \"fathers\", written beside the word it was meant to replace; if so, Venetus supports Swete's correction, but the apparatus gives only the letters. Brenton (1851) translates the line without any mention of fathers (\"the greater sympathy of mothers\"). The English of the manuscript readings above is only a gloss.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "16:13",
+  "a": "She was bearing the full number of her sons again",
+  "t": "\"Bearing again\" or \"lifting up\"?",
+  "p": "Swete's text: she 'gives birth again' to her sons into immortality; Venetus: she 'lifts up' (or 'holds out') their number toward immortality.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "εἰς ἀθανασίαν ἀνατίκτουσα",
+    "en": "giving birth again into immortality",
+    "plain": "She was bearing the full number of her sons again"
+   },
+   {
+    "w": "Codex Venetus (V, 700s AD), from Swete's apparatus (\"ανατικτουσα] ανατεινουσα V\")",
+    "orig": "ἀνατείνουσα",
+    "en": "stretching up (holding out) toward immortality",
+    "plain": "She was lifting up the full number of her sons"
+   }
+  ],
+  "follow": 0,
+  "why": "The two participles differ by a few letters (anatiktousa, anateinousa). \"Giving birth again\" is the rarer and bolder picture, and it fits the book's theme of the mother; Venetus's verb is a common one and may be a copyist's change. The Plain English Translation keeps Swete's text, on which the note on this verse builds.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "16:25",
+  "a": "Besides, they saw this too",
+  "t": "\"Saw\" or \"knew\"?",
+  "p": "Alexandrinus: 'seeing this'; Sinaiticus and Venetus: 'knowing this'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Brenton translates it (\"they saw this, too\")",
+    "orig": "ἔτι δὲ καὶ ταῦτα ἰδόντες",
+    "en": "and further, seeing these things",
+    "plain": "Besides, they saw this too"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Venetus (V), from Swete's apparatus; Townshend (1913) follows it",
+    "orig": "ειδοτες",
+    "en": "knowing",
+    "plain": "Besides, they knew this too"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words, idontes and eidotes, look and sound alike. Townshend chose \"knowing well\" with Sinaiticus and Venetus and translated the German scholar Adolf Deissmann's note defending it. The Plain English Translation keeps Swete's text; the sense is the same: the sons understood that those who die for God live to God.",
+  "s": [
+   "swete-ot",
+   "townshend-4macc-apot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "on the pillar of your sons",
+  "t": "\"The pillar\" or \"the pillars\"?",
+  "p": "Swete's text has the singular 'pillar'; Sinaiticus and Venetus have the plural.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Brenton translates it (\"upon the pillar of thy children\")",
+    "orig": "ἐπὶ τοῦ στύλου τῶν παίδων",
+    "en": "upon the pillar of the children",
+    "plain": "on the pillar of your sons"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ: τους στυλους) and Venetus (V: στυλους), from Swete's apparatus; Townshend's notes give the same",
+    "orig": "ἐπὶ τοὺς στύλους τῶν παίδων",
+    "en": "upon the pillars of the children",
+    "plain": "on your sons as pillars"
+   }
+  ],
+  "follow": 0,
+  "why": "Seven sons make more sense as pillars (plural), which may be why copyists changed the singular; the singular pictures the sons together as one support. The sense is the same. The Plain English Translation follows Swete's text.",
+  "s": [
+   "swete-ot",
+   "brenton-1851",
+   "townshend-4macc-apot"
+  ]
+ },
+ {
+  "v": "17:5",
+  "a": "for your seven sons, who shine like stars",
+  "t": "\"Star-like sons\" or \"to the stars\"?",
+  "p": "Swete follows Sinaiticus and Venetus, 'star-like'; Alexandrinus says she lit her sons' way 'to the stars'.",
+  "readings": [
+   {
+    "w": "Swete's text, from Codex Sinaiticus (ℵ) and Venetus (V)",
+    "orig": "τοὺς ἰσαστέρους ἑπτὰ παῖδας",
+    "en": "the seven star-equal sons",
+    "plain": "for your seven sons, who shine like stars"
+   },
+   {
+    "w": "Codex Alexandrinus (A), from Swete's apparatus; Venetus also leaves out 'seven'",
+    "orig": "εις αστερας",
+    "en": "(you lit the way of your seven sons) to the stars",
+    "plain": "for your seven sons, toward the stars"
+   }
+  ],
+  "follow": 0,
+  "why": "Isasteros, \"equal to the stars\", is a rare word, and a copyist could easily misread it as eis asteras, \"to the stars\". Swete chose the rare word here against his own base manuscript. Both readings picture the family shining in heaven (see the note).",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "17:6",
+  "a": "Abraham the servant",
+  "t": "\"Abraham the servant\" or \"Abraham the father\"?",
+  "p": "Alexandrinus has 'Abraham the pais' (child or servant); Sinaiticus and Venetus have 'Abraham the father'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "ἀπὸ Ἀβραὰμ τοῦ παιδός",
+    "en": "from Abraham the child (or servant)",
+    "plain": "Abraham the servant"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Venetus (V), from Swete's apparatus, where the digital text prints the reading as \"πος ℵV\"; it is read here as a shortened writing of πατρός, 'father'",
+    "orig": "πος (read as πατρός)",
+    "en": "from Abraham the father",
+    "plain": "Abraham the father"
+   }
+  ],
+  "follow": 0,
+  "why": "Pais means both \"child\" and \"servant\". \"Abraham the child\" makes little sense, so if Alexandrinus is kept, \"servant\" is the likely meaning: God calls him \"Abraham my servant\" (Genesis 26:24), and the Greek of Isaiah calls the servant of the LORD pais (Isaiah 42:1). Brenton reads it as \"a child of Abraham\". \"The father\" is easier and may be a copyist's smoothing. The Plain English Translation keeps Swete's text with the sense \"servant\".",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "17:7",
+  "a": "like some painter, to picture the godliness of your story",
+  "t": "\"Like some painter\" or \"as some painter might\"?",
+  "p": "Sinaiticus's first hand and Venetus read 'as in the style of some (painter)' and 'the story of your godliness'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "ὥσπερ τινός, ζωγραφῆσαι τὴν τῆς ἱστορίας σου εὐσέβειαν",
+    "en": "like some (painter), to paint the godliness of your story",
+    "plain": "like some painter, to picture the godliness of your story"
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*) and Venetus (V), which read ὡς ἐπί ('as in the style of') for ὥσπερ (the corrector of ℵ has ὥσπερ ἐπί); Sinaiticus and Venetus also have 'the story of your godliness' for 'the godliness of your story'. From Swete's apparatus; Townshend translates this reading (\"as might some artist\")",
+    "orig": "ὡς ἐπί τινος, ζωγραφῆσαι τὴν τῆς εὐσεβείας σου ἱστορίαν",
+    "en": "as in the style of some (painter), to paint the story of your godliness",
+    "plain": "as some painter might, to picture the story of your godliness"
+   }
+  ],
+  "follow": 0,
+  "why": "The reading of Sinaiticus and Venetus is easier (\"as in the style of\") and has the more natural word order (\"the story of your godliness\"); Swete's ὥσπερ τινός is harder. A scholar's guess, πίνακος (\"on a tablet\"), has no manuscript behind it (Townshend, who translates the ℵV reading \"as might some artist\"). The sense is the same, and the Plain English Translation follows Swete's text.",
+  "s": [
+   "swete-ot",
+   "townshend-4macc-apot"
+  ]
+ },
+ {
+  "v": "17:7",
+  "a": "Would not those who saw it shudder? They would see a mother of seven children who endured all kinds of tortures, even to death, for godliness.",
+  "t": "A clause missing in Alexandrinus's first hand",
+  "p": "The first hand of Alexandrinus apparently lacked these words; a later hand wrote them over an erasure and in the margins.",
+  "readings": [
+   {
+    "w": "Swete's text, with Sinaiticus and Venetus; in Alexandrinus (A) the words are written over an erasure and in the margins (Swete: \"sup ras et in mgg A\")",
+    "orig": "οὐκ ἂν ἔφριττον οἱ θεωροῦντες μητέρα ἑπτὰ τέκνων δι᾽ εὐσέβειαν ποικίλας βασάνους μέχρι θανάτου ὑπομείνασαν",
+    "en": "would not those watching shudder (at) a mother of seven children who endured, for godliness, various tortures even to death?",
+    "plain": "Would not those who saw it shudder? They would see a mother of seven children who endured all kinds of tortures, even to death, for godliness."
+   },
+   {
+    "w": "The first hand of Alexandrinus (A*), apparently, from Swete's apparatus (\"om ουκ αν εφριττον... ευσεβειαν (2⁰) A* vid\")",
+    "orig": "om",
+    "en": "(the words are missing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The missing words run from just after one \"godliness\" (eusebeian) to the next, the classic place for a copyist's eye to skip from one word to the same word further on. A later hand put the words back, and Sinaiticus and Venetus have them.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "17:16",
+  "a": "the law that is true",
+  "t": "\"True\" or \"divine\" law?",
+  "p": "Alexandrinus: athletes of the 'lawgiving of truth'; Sinaiticus and Venetus: of the 'divine lawgiving'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "τῆς ἀληθείας νομοθεσίας",
+    "en": "of the lawgiving of truth",
+    "plain": "the law that is true"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ) and Venetus (V), from Swete's apparatus; Venetus also puts 'of reverence for God' before 'lawgiving'",
+    "orig": "θειας",
+    "en": "of the divine lawgiving",
+    "plain": "the divine law"
+   }
+  ],
+  "follow": 0,
+  "why": "In Greek the two words (aletheias, theias) share most of their letters. Both fit the book: the law is God's and it is true. Swete's text is kept.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "17:21",
+  "a": "the tyrant was punished",
+  "t": "Venetus: \"put to shame and punished\"",
+  "p": "Venetus adds that the tyrant was put to shame before he was punished.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Sinaiticus agrees",
+    "orig": "τὸν τύραννον τιμωρηθῆναι",
+    "en": "the tyrant was punished",
+    "plain": "the tyrant was punished"
+   },
+   {
+    "w": "Codex Venetus (V), from Swete's apparatus (\"pr καταισχυνθηναι και V\": V puts 'be put to shame and' before 'be punished')",
+    "orig": "καταισχυνθηναι και τιμωρηθηναι",
+    "en": "the tyrant was put to shame and punished",
+    "plain": "the tyrant was put to shame and punished"
+   }
+  ],
+  "follow": 0,
+  "why": "The addition is in one later manuscript only. Shame before the watching world runs through the whole contest scene (17:14-17), which may be why a copyist added it.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "17:22",
+  "a": "their atoning death",
+  "t": "\"Their atoning death\" or \"the atonement of their death\"?",
+  "p": "Alexandrinus makes hilasterios an adjective ('atoning'); Sinaiticus makes it a noun: 'the hilasterion of their death'. The second matters for Romans 3:25.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Venetus agrees here, but adds 'for' (γαρ) after 'as it were'",
+    "orig": "τοῦ ἱλαστηρίου θανάτου αὐτῶν",
+    "en": "of their atoning death",
+    "plain": "their atoning death"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus (\"θανατου] pr του ℵ\": ℵ puts 'the' before 'death'). In ℵ 'Israel' also stands after 'previously mistreated' (\"προκακωθεντα τον Ισλ ℵ\"), where Swete's text has it before",
+    "orig": "τοῦ ἱλαστηρίου τοῦ θανάτου αὐτῶν",
+    "en": "of the hilasterion (atoning offering) of their death",
+    "plain": "the atoning offering of their death"
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*), which has της ('of the') where the others have δια ('through') before 'the blood'; a corrector (ℵc.a) restored δια. From Swete's apparatus",
+    "orig": "καὶ τῆς τοῦ αἵματος ... καὶ τοῦ ἱλαστηρίου τοῦ θανάτου αὐτῶν",
+    "en": "(saved Israel) ... of the blood ... and of the hilasterion of their death (the sentence loses its 'through')",
+    "plain": "(no clear English sentence)"
+   }
+  ],
+  "follow": 0,
+  "why": "With one extra word, \"the\", the adjective becomes a noun, the same noun Paul uses of Christ in Romans 3:25 and Hebrews 9:5 uses for the atonement lid. Swete prints Alexandrinus. Daniel Bailey treats the Sinaiticus text as the one to read and calls Alexandrinus \"secondary\"; he reads the noun as a Greek votive offering, a lasting gift dedicated to a god, not the lid of the ark. The first hand of Sinaiticus also has a slip earlier in the verse (\"of the\" for \"through\"), which its corrector fixed. The Plain English Translation keeps Swete's text, \"their atoning death\"; the note on this verse sets out what each reading would mean.",
+  "s": [
+   "swete-ot",
+   "bailey-hilasterion"
+  ]
+ },
+ {
+  "v": "18:4",
+  "a": "It brought back the rule of good law in the homeland and drove the enemy out by siege.",
+  "t": "\"It\" or \"they\"; \"by siege\" or \"sacked\"?",
+  "p": "Alexandrinus has a singular participle and 'drove out by siege'; Sinaiticus and Venetus have plurals, and some have 'sacked'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912)",
+    "orig": "ἀνανεωσάμενος, ἐκπεπολιόρκηκε τοὺς πολεμίους",
+    "en": "having renewed (masculine singular), (it) has driven out the enemies by siege",
+    "plain": "It brought back the rule of good law in the homeland and drove the enemy out by siege."
+   },
+   {
+    "w": "Codex Sinaiticus as corrected (ℵc.a), with the plural participle of ℵ and Venetus (ἀνανεωσάμενοι ℵV), from Swete's apparatus",
+    "orig": "ἀνανεωσάμενοι, ἐκπεπολιορκήκαν τοὺς πολεμίους (apparatus: εκπεπολιορκηκαν ℵc.a)",
+    "en": "having renewed, they have driven out the enemies by siege",
+    "plain": "They brought back the rule of good law in the homeland and drove the enemy out by siege."
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*) and Venetus (V), from Swete's apparatus (\"εκπεπορθηκαν ℵ* V\")",
+    "orig": "ἀνανεωσάμενοι, ἐκπεπορθήκαν τοὺς πολεμίους",
+    "en": "having renewed, they have sacked the enemies",
+    "plain": "They brought back the rule of good law in the homeland and sacked the enemy."
+   }
+  ],
+  "follow": 0,
+  "why": "In Swete's text the participle is masculine singular, but its natural subject, \"the nation\" (to ethnos), is neuter. Townshend (1913) says that with this reading a masculine word such as \"Israel\" must be understood; with the plurals of Sinaiticus and Venetus the subject is simply \"they\" (Townshend: \"or even 'the Maccabees'\"). The plurals are smoother, which may be why they arose. The Plain English Translation keeps Swete's text and renders the subject \"it\", the nation, as the sense requires.",
+  "s": [
+   "swete-ot",
+   "townshend-4macc-apot"
+  ]
+ },
+ {
+  "v": "18:5",
+  "a": "to be cut off from their fathers' nation",
+  "t": "\"Nation\" or \"customs\"?",
+  "p": "Alexandrinus: cut off from their 'ancestral nations'; Venetus: from their 'ancestral customs'; Sinaiticus has neither word.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24",
+    "orig": "τῶν πατρίων ἐθνῶν ἐκδιαιτηθῆναι",
+    "en": "to be estranged from the ancestral nations (peoples)",
+    "plain": "to be cut off from their fathers' nation"
+   },
+   {
+    "w": "Codex Venetus (V), from Swete's apparatus; Brenton translates this sense (\"the manner of life of their fathers\")",
+    "orig": "εθων",
+    "en": "to be estranged from the ancestral customs",
+    "plain": "to be cut off from their fathers' customs"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), which leaves out the noun and reads 'be sought out' (εκζητηθηναι) for 'be estranged'",
+    "orig": "om εθνων ℵ; εκζητηθηναι ℵ",
+    "en": "(to be) sought out from what was their fathers'",
+    "plain": "to be cut off from what was their fathers'"
+   }
+  ],
+  "follow": 0,
+  "why": "Ethon (\"customs\") and ethnon (\"nations\") differ by one letter. Venetus's \"customs\" gives the expected sense. Swete prints Alexandrinus, which can mean being cut off from one's own people. The Plain English Translation keeps it, and the sense is close. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "18:6",
+  "a": "The righteous woman, the mother of the seven sons, also said these things to her children:",
+  "t": "\"The righteous woman\", \"the righteous decrees\" or \"in private\"?",
+  "p": "Alexandrinus calls the mother 'the righteous woman'; Sinaiticus has 'the righteous decrees'; Venetus says she spoke 'in private'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24",
+    "orig": "Ἔλεγεν δὲ ἡ μήτηρ τῶν ἑπτὰ παίδων καὶ ταῦτα ἡ δικαία τοῖς τέκνοις",
+    "en": "and the mother of the seven sons, the righteous woman, also said these things to the children",
+    "plain": "The righteous woman, the mother of the seven sons, also said these things to her children:"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), which also leaves out 'seven', from Swete's apparatus",
+    "orig": "τα δικαιωματα",
+    "en": "also said these righteous decrees",
+    "plain": "The mother of the sons also spoke these righteous decrees to her children:"
+   },
+   {
+    "w": "Codex Venetus (V), which also leaves out 'sons', from Swete's apparatus",
+    "orig": "ιδια",
+    "en": "also said these things privately",
+    "plain": "The mother of the seven also said these things to her children in private:"
+   }
+  ],
+  "follow": 0,
+  "why": "Each codex has a different word in the same place, which shows that copyists found the line hard. Sinaiticus's dikaiomata is the Greek Old Testament's usual word for God's statutes, and it would make her speech a teaching of the law. Venetus's \"in private\" explains how such a speech could be known. Swete's text is kept. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:7",
+  "a": "I guarded the rib that was built",
+  "t": "\"Was built\" or \"was being built\"?",
+  "p": "Swete prints Venetus's 'built'; Alexandrinus and Sinaiticus have 'being built'.",
+  "readings": [
+   {
+    "w": "Swete's text, here from Codex Venetus (V)",
+    "orig": "τὴν ᾠκοδομημένην πλευράν",
+    "en": "the rib that had been built",
+    "plain": "I guarded the rib that was built"
+   },
+   {
+    "w": "Codex Alexandrinus (A: ωκοδομουμενην) and Sinaiticus (ℵ: οικοδομουμενην), from Swete's apparatus",
+    "orig": "τὴν οἰκοδομουμένην πλευράν",
+    "en": "the rib that was being built",
+    "plain": "I guarded the rib that was being built"
+   }
+  ],
+  "follow": 0,
+  "why": "The two participles differ by one letter in Greek (-ēmen- against -oumen-). The perfect, \"that was built\", matches Genesis 2:22, where God built the rib into a woman, and Swete takes it against his base manuscript. The present would mean much the same in this picture. Swete notes that much of A has almost faded away in 18:5-24.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:9",
+  "a": "He had sought a life blessed with good children",
+  "t": "\"Sought\" or \"lived through\"?",
+  "p": "Alexandrinus: he 'sought' a life of good children; corrected Sinaiticus and Venetus: he 'lived on' in such a life.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24",
+    "orig": "τὸν γὰρ τῆς εὐτεκνίας βίον ἐπιζητήσας",
+    "en": "having sought the life of good children",
+    "plain": "He had sought a life blessed with good children"
+   },
+   {
+    "w": "Codex Sinaiticus as corrected (ℵc.a) and Venetus (V), from Swete's apparatus",
+    "orig": "επιζησας",
+    "en": "having lived on in the life of good children",
+    "plain": "He had lived to enjoy a life blessed with good children"
+   }
+  ],
+  "follow": 0,
+  "why": "Epizesas, \"having lived through\", fits the thought well: the father enjoyed his sons and died before he had to see them die. Epizetesas, \"having sought\", has one syllable more and may be a copyist's slip; or it may mean that he longed for good children and had them. Swete's text is kept. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:19",
+  "a": "the happiness of your days",
+  "t": "\"Happiness\" or \"length\" of days?",
+  "p": "Alexandrinus reads 'blessedness of days'; Sinaiticus reads 'length of days', as the Greek of Deuteronomy 30:20 does.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24",
+    "orig": "ἡ μακαριότης τῶν ἡμερῶν",
+    "en": "the blessedness of the days",
+    "plain": "the happiness of your days"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus; Venetus has a garbled word (ματης). The Greek of Deuteronomy 30:20 (Swete) reads ἡ μακρότης τῶν ἡμερῶν σου",
+    "orig": "μακροτης",
+    "en": "the length of the days",
+    "plain": "the length of your days"
+   }
+  ],
+  "follow": 0,
+  "why": "The line quotes Deuteronomy 30:20, where both the Hebrew and the Greek speak of long days. Sinaiticus's \"length\" matches that verse, and Alexandrinus's \"blessedness\" may be a slip of one syllable (makrotes, makariotes). Yet in a speech to sons who will die young, \"blessedness\" also makes strong sense: life with God is more than long days on earth. Swete's text is kept; Sinaiticus is very likely right about the wording of the source. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:20",
+  "a": "lit fire under his savage cauldrons",
+  "t": "\"Lit fire\" or \"quenched fire with fire\"?",
+  "p": "Alexandrinus: the tyrant 'lit fire' under his cauldrons; Venetus and the first hand of Sinaiticus: he 'quenched fire with fire'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24; Sinaiticus as corrected agrees",
+    "orig": "πῦρ φλέξας λέβησιν ὠμοῖς",
+    "en": "having kindled fire for savage cauldrons",
+    "plain": "lit fire under his savage cauldrons"
+   },
+   {
+    "w": "Codex Venetus (V); the first hand of Sinaiticus (ℵ*) has 'fires' (πυροις σβεσας), from Swete's apparatus. Brenton translates this sense",
+    "orig": "πυρι σβεσας",
+    "en": "having quenched fire with fire (in) savage cauldrons",
+    "plain": "quenched fire with fire in his savage cauldrons"
+   }
+  ],
+  "follow": 0,
+  "why": "\"Quenching fire with fire\" is the stranger reading: the fire of the cauldrons put out the fire of the sons' life. Strange readings are sometimes original, and Brenton follows it. \"Lit fire\" is plain and fits its object, \"fire\". Swete's text is kept. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "18:21",
+  "a": "He blinded the pupils of their eyes",
+  "t": "\"Blinded\" or \"filled\"?",
+  "p": "Swete prints the correction in Sinaiticus, 'maimed (blinded)'; Alexandrinus and Venetus read 'filled'.",
+  "readings": [
+   {
+    "w": "Swete's text, from the first corrector of Sinaiticus (ℵ¹)",
+    "orig": "τὰς τῶν ὀμμάτων κόρας ἐπήρωσεν",
+    "en": "he maimed the pupils of the eyes",
+    "plain": "He blinded the pupils of their eyes"
+   },
+   {
+    "w": "Codices Alexandrinus (A) and Venetus (V), from Swete's apparatus",
+    "orig": "επληρωσεν",
+    "en": "he filled the pupils of the eyes",
+    "plain": "He filled the pupils of their eyes"
+   }
+  ],
+  "follow": 0,
+  "why": "One letter (l) separates the two verbs. \"Filled the pupils\" gives no clear sense; \"maimed\" fits the list of tortures. Swete leaves his base manuscript for the corrected Sinaiticus here, and the Plain English Translation follows him. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:23",
+  "a": "in the place of their fathers",
+  "t": "\"Place\" or \"chorus\" of the fathers?",
+  "p": "Alexandrinus and Venetus: the 'place' of the fathers; Sinaiticus: the 'chorus' of the fathers.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912); Swete notes that much of A has almost faded away in 18:5-24; Venetus agrees",
+    "orig": "εἰς πατέρων χῶρον",
+    "en": "into the place (region) of the fathers",
+    "plain": "in the place of their fathers"
+   },
+   {
+    "w": "Codex Sinaiticus (ℵ), from Swete's apparatus; Brenton translates it (\"the choir of their fathers\")",
+    "orig": "χορον",
+    "en": "into the chorus of the fathers",
+    "plain": "in the chorus of their fathers"
+   }
+  ],
+  "follow": 0,
+  "why": "Choros, \"place\", and choros, \"chorus\", differ by one vowel (omega and omicron). \"Chorus\" would pick up the brothers' holy chorus in 13:8 and their ring dance in 14:8, so it may be original, or a copyist may have remembered those verses. Swete's text is kept. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot",
+   "brenton-1851"
+  ]
+ },
+ {
+  "v": "18:23",
+  "a": "immortal",
+  "t": "\"Immortal\" or \"prize-winning\" souls?",
+  "p": "'Immortal' stands over an erasure in Alexandrinus and is a correction in Sinaiticus. Their first hands may have read 'prize-winning'.",
+  "readings": [
+   {
+    "w": "A later hand of Alexandrinus (Aᵃ, over an erasure), the corrector of Sinaiticus (ℵc.a), and Venetus (V); Swete's text",
+    "orig": "ψυχὰς ἁγνὰς καὶ ἀθανάτους",
+    "en": "pure and immortal souls",
+    "plain": "immortal"
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*), and perhaps the first hand of Alexandrinus (Swete: \"A* fort\")",
+    "orig": "αθλοφορους",
+    "en": "pure and prize-winning souls",
+    "plain": "prize-winning"
+   }
+  ],
+  "follow": 0,
+  "why": "The same word, athlophoros, \"prize-winning\", stands earlier in this verse for the mother, so a copyist's eye could easily slip and write it twice. That makes \"immortal\" possible as the original. But the first hands of both Sinaiticus and (probably) Alexandrinus read \"prize-winning\", and in both codices \"immortal\" is a later correction; only Venetus has \"immortal\" with no correction. The doubt matters, because this verse is the book's plainest statement that the martyrs now have immortal souls. Even without it, the book teaches the soul's immortality elsewhere (14:5-6; 16:13; 17:12). See the note on this verse. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "b": "<p>Swete's note reads: <i>αθανατους Aᵃℵc.aV] αθλοφορους ℵ* Α* fort (νατους sup ras)</i>: \"immortal\" in a later hand of A, the corrector of ℵ, and V; \"prize-winning\" in the first hand of ℵ and perhaps of A, whose letters <i>-natous</i> are written over an erasure.</p>",
+  "s": [
+   "swete-ot"
+  ]
+ },
+ {
+  "v": "18:23",
+  "a": "are gathered together",
+  "t": "\"Gathered together\" or \"bring good news\"?",
+  "p": "The first hand of Sinaiticus has 'bring good news' for 'are gathered together'.",
+  "readings": [
+   {
+    "w": "Swete's text (Codex Alexandrinus, A, 400s AD, as printed by H. B. Swete, 1912), with Venetus and the corrector of Sinaiticus",
+    "orig": "συναγελάζονται",
+    "en": "are herded together",
+    "plain": "are gathered together"
+   },
+   {
+    "w": "The first hand of Sinaiticus (ℵ*), from Swete's apparatus (\"συναγελαζονται] ευαγγελιζονται ℵ*\"; corrected by ℵc.a)",
+    "orig": "εὐαγγελίζονται",
+    "en": "bring good news (or: are given good news)",
+    "plain": "bring good news"
+   }
+  ],
+  "follow": 0,
+  "why": "The two verbs share most of their letters (synagelazontai, euangelizontai). \"Gathered together\" fits \"in the place of their fathers\", and Sinaiticus's own corrector restored it; the first hand's word looks like a slip toward a familiar verb. At 18:5-24 Swete notes that much of A has almost faded away (\"multa paene evanuere in A\"), so A's readings here are less certain.",
+  "s": [
+   "swete-ot"
+  ]
+ }
+]

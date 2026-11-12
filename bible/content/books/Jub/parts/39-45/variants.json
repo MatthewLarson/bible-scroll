@@ -1,0 +1,537 @@
+[
+ {
+  "v": "39:8",
+  "a": "for one year and then a second",
+  "t": "One year or two?",
+  "p": "VanderKam's Ge'ez says \"one year and a second.\" Charles's English has only \"for a year.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ዓመተ ፡ አሐተ ፡ ወካልአ (ʿamätä ʾäḥätä wäkalʾä)",
+    "en": "a year, one, and a second (year)",
+    "plain": "for one year and then a second"
+   },
+   {
+    "w": "Charles's Ethiopic text, as his English translation shows (1902; 1913)",
+    "en": "for a year",
+    "plain": "for a year"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's critical text, the base text of this translation. The word after \"one year\" is <i>kalʾä</i> (ካልአ), the accusative of <i>kalʾ</i>, \"second, another,\" agreeing with <i>ʿamätä</i> \"year\": Dillmann's <i>Lexicon linguae aethiopicae</i> gives <i>kalʾ</i> the senses \"other\" and \"second\" (Dillmann cites Genesis 1:8 for \"second\"), and Jubilees uses it the same way for \"a second son\" (28:13) and \"a second well\" (24:20). It is not the verb <i>kälʾä</i> (ከልአ), which Dillmann defines as \"hold back, prevent, refuse\": that verb is spelled with a different first letter, as in 45:3, \"who has not held back his mercy.\" Charles's English may reflect manuscripts without the words \"and a second\"; his 1902 notes on the verse say nothing about them.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902",
+   "charles-apot",
+   "dillmann-lexicon-1865"
+  ]
+ },
+ {
+  "v": "39:13",
+  "a": "left everything in his charge",
+  "t": "\"Before him\" or \"into his hands\"",
+  "p": "The Ge'ez says the guard left everything \"before\" Joseph. The Latin says \"into his hands,\" as Genesis 39:22 does.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወኀደገ ፡ ኵሎ ፡ ቅድሜሁ (wäḫädägä kʷəlo qədmehu)",
+    "en": "left everything before him",
+    "plain": "left everything in his charge"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "in manus ejus",
+    "en": "into his hands",
+    "plain": "put everything into his hands"
+   }
+  ],
+  "follow": 0,
+  "why": "The two say the same thing. The Plain English Translation follows the Ge'ez and renders \"before him\" by its sense. Charles 1902 (page 224) emended the Ge'ez to \"into his hands\" here and in 39:4 on the strength of the Latin and Genesis 39:6 and 39:22, but the difference does not change the meaning.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "39:13",
+  "a": "the Lord brought it to completion",
+  "t": "\"Completed\" or \"made it prosper\"",
+  "p": "The Ge'ez says the Lord completed what Joseph did. The Latin says he directed it, that is, made it prosper.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእግዚአብሔር ፡ ይፌጽም (wäʾgəziʾäbḥer yəfeṣm)",
+    "en": "and the Lord completed (it)",
+    "plain": "the Lord brought it to completion"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "dirigebat ea",
+    "en": "he directed them, made them go well",
+    "plain": "the Lord made it prosper"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles 1902 (page 224) gives the Latin and explains it as \"made it to prosper,\" the same idea as 39:3, 39:4 and 39:12.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "40:4",
+  "a": "overseers",
+  "t": "Overseers, or threshing floors?",
+  "p": "The Ge'ez word here does not fit the sentence. The Latin has \"watchmen,\" which fits Genesis 41:34's overseers. The Plain English Translation follows the Latin.",
+  "readings": [
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "speculatores",
+    "en": "watchmen, overseers",
+    "plain": "overseers"
+   },
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ከያደ (käyadä)",
+    "en": "(an unclear word; Charles judged the Ge'ez corrupt here)",
+    "plain": "(left untranslated)"
+   },
+   {
+    "w": "Ethiopic manuscripts c and d, as Charles 1902 reports them",
+    "orig": "měkjâda (Charles's spelling)",
+    "en": "threshing floors, or barns",
+    "plain": "threshing floors"
+   }
+  ],
+  "follow": 0,
+  "why": "Here the Plain English Translation departs from VanderKam's Ge'ez text. Pharaoh must appoint people, as in Genesis 41:34, and the Latin gives that sense. Charles 1902 (page 225) said the Ge'ez should have the word for officials (<i>mäkʷännən</i>), and suggested that a Hebrew word for overseers was miscopied, or (with Rönsch) that a Greek word was.",
+  "b": "VanderKam's Ge'ez text reads ከያደ (käyadä) here. This translation does not try to explain that word, which Charles judged corrupt, and follows the sense the Latin and Genesis give.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902",
+   "ronsch-jubilaen-1874"
+  ]
+ },
+ {
+  "v": "40:7",
+  "a": "A herald called out ahead of him, \"El El wa Abirr!\"",
+  "t": "The cry before Joseph",
+  "p": "The Ge'ez has one herald who \"said\" the cry. The Latin has \"they proclaimed\" and spells the cry Elel et Habirel.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወሰበከ ፡ በቅድሜሁ ፡ ወይቤ ፡ ኢል ፡ ኢል ፡ ወአቢርር (wäsäbäkä bäqdəmehu wäybe ʾil ʾil wäʾäbirr)",
+    "en": "and he proclaimed before him and said, El El wa-Abirr",
+    "plain": "A herald called out ahead of him, \"El El wa Abirr!\""
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "praeconaverunt ... Elel et Habirel",
+    "en": "they proclaimed ... Elel and Habirel",
+    "plain": "Heralds called out ahead of him, \"Elel and Habirel!\""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles 1902 (page 226) had first changed the Ge'ez singular to a plural to match the Latin, then withdrew the change, because the Samaritan, Greek, Syriac and Latin Vulgate of Genesis 41:43, and the Greek versions of Aquila and Symmachus, all have the singular. He also notes that the Latin lacks the Ge'ez \"and said.\"",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "41:12",
+  "a": "and he lay with her",
+  "t": "\"And he lay with her\": in brackets",
+  "p": "VanderKam's Ge'ez prints these words in square brackets. Charles restored them from the Latin; his Ethiopic manuscripts lacked them.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989), in square brackets",
+    "orig": "[ወሀሎ ፡ ምስሌሃ] ([wähälo məsleha])",
+    "en": "and he was with her",
+    "plain": "and he lay with her"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "et coiit cum ea (the manuscript has fuit)",
+    "en": "and he came together with her",
+    "plain": "and he lay with her"
+   },
+   {
+    "w": "Ethiopic manuscripts known to Charles 1902",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation includes the words, as VanderKam's text and the Latin both have them, and as Genesis 38:18 does. Charles 1902 (page 229) says he restored them from the Latin and compares the Testament of Judah 12.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "41:15",
+  "a": "Let's go",
+  "t": "\"Let's go\" or \"Let her keep them\"",
+  "p": "VanderKam's Ge'ez has \"Arise,\" here \"Let's go,\" calling off the search. The Latin has \"let her keep (them),\" as Genesis 38:23 does.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ተንሥእ (tänśəʾ)",
+    "en": "arise, get up",
+    "plain": "Let's go"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902; Charles's emended Ge'ez",
+    "orig": "habeat",
+    "en": "let her have (them)",
+    "plain": "Let her keep them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text, which makes sense as it stands: Judah calls off the search so that they will not become a laughingstock. Charles 1902 (page 230) changed one vowel of the Ge'ez to get \"let her take\" and match the Latin and Genesis 38:23. That reading is also good, and it may be the original.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "42:4",
+  "a": "Jacob heard that there was food in Egypt",
+  "t": "A sentence only in the Latin",
+  "p": "The Latin begins the verse with \"The famine was very severe in the land of Canaan.\" The Ge'ez lacks it.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወሰምዐ ፡ ያዕቆብ ፡ ከመ ፡ ቦቱ ፡ ሲሲተ ፡ ውስተ ፡ ግብጽ (wäsämʿä yaʿqob kämä botu sisitä wəstä gəbṣ)",
+    "en": "and Jacob heard that there is food in Egypt",
+    "plain": "Jacob heard that there was food in Egypt"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902 (in his English)",
+    "en": "Now the famine was very sore in the land of Canaan",
+    "plain": "The famine was very severe in the land of Canaan, and Jacob heard that there was food in Egypt"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles 1902 (page 232) supplied the clause from the Latin and compares Genesis 41:56. It adds nothing new: 42:1-2 have already said the famine was on the land.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "42:4",
+  "a": "They arrived along with the others who were going.",
+  "t": "\"The ten sons of Jacob arrived in Egypt\"",
+  "p": "The Latin names the subject and the place: the ten sons of Jacob arrived in Egypt.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወበጽሑ ፡ ምስለ ፡ ዘየሐውር (wäbäṣḥu məslä zäyäḥäwr)",
+    "en": "and they arrived with (those) who go",
+    "plain": "They arrived along with the others who were going."
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "in Aegypto decem filii Jacob",
+    "en": "in Egypt, the ten sons of Jacob",
+    "plain": "The ten sons of Jacob arrived in Egypt along with the others who were going."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles 1902 (page 232) supplied the words from the Latin. The meaning is the same; the Latin only spells it out, as Genesis 42:5 does.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "42:5",
+  "a": "He spoke with them and questioned them.",
+  "t": "Questioned, or spoke harshly?",
+  "p": "The Ge'ez says Joseph spoke with them and questioned them. The Latin says he spoke to them harshly, as Genesis 42:7 does.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወተናገረ ፡ ምስሌሆሙ ፡ ወተስእሎሙ (wätänagärä məslehomu wätäsʾəlomu)",
+    "en": "and he spoke with them and questioned them",
+    "plain": "He spoke with them and questioned them."
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "appellavit eos dure",
+    "en": "he addressed them harshly",
+    "plain": "He spoke to them harshly."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. The Latin agrees with Genesis 42:7, \"spoke harshly to them\"; Charles 1902 (page 232) gives it without choosing.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "42:6",
+  "a": "After that he set them free. He kept only Simeon and sent his nine brothers off.",
+  "t": "Simeon bound",
+  "p": "The Latin tells it differently: Joseph sent for them, took Simeon from them and bound him.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእምዝ ፡ ፈትሖሙ ፡ ወአቀመ ፡ ስምዖንሃ ፡ ባሕቲቶ ፡ ወተስዐተ ፡ አኀዊሁ ፡ ፈነወ (wäʾməz fätḥomu wäʾäqämä səmʿonha baḥtito wätäsʿätä ʾäḫäwihu fänäwä)",
+    "en": "and after he released them and kept Simeon alone and sent his nine brothers",
+    "plain": "After that he set them free. He kept only Simeon and sent his nine brothers off."
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "Et mittens arcessivit illos et accipiens Symeonem ab ipsis ligavit eum",
+    "en": "and sending, he summoned them, and taking Simeon from them he bound him",
+    "plain": "He sent for them, took Simeon from them and bound him."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. The Latin agrees with Genesis 42:24, where Joseph binds Simeon before their eyes. Charles 1902 (page 233) says only that the Latin differs.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "43:16",
+  "a": "Let me see him before I die, while the eyes of my brother Benjamin are seeing too.",
+  "t": "Joseph's words: kept or emended?",
+  "p": "The Ge'ez reads oddly. Charles emended it to match Genesis 45:12: \"you see that it is my mouth speaking.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእርአዮ ፡ ዘእንበለ ፡ እሙት ፡ ወአዕይንቲሁኒ ፡ ለእኁየ ፡ ብንያም ፡ እንዘ ፡ ይሬእያ (wäʾrəʾäyo zäʾnəbälä ʾəmut wäʾäʿyəntihuni läʾḫuyä bənyam ʾənzä yəreʾya)",
+    "en": "and let me see him before I die, and the eyes of my brother Benjamin while they see",
+    "plain": "Let me see him before I die, while the eyes of my brother Benjamin are seeing too."
+   },
+   {
+    "w": "Charles's emended Ethiopic text (1895), as his English shows (1902)",
+    "en": "and ye see that it is my mouth that speaketh and the eyes of my brother Benjamin see",
+    "plain": "You can see that it is my mouth speaking, and the eyes of my brother Benjamin see it too."
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text, which is also what Charles reports his manuscripts read (1902, page 237). It is awkward, and the words \"before I die\" sound like Jacob's in 43:24, which may have been copied here. Charles's emendation gives the sense of Genesis 45:12 and may be right, but no manuscript he names has it.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902",
+   "charles-jubilees-1895"
+  ]
+ },
+ {
+  "v": "44:4",
+  "a": "anywhere in the land",
+  "t": "\"In the land\" twice",
+  "p": "VanderKam's Ge'ez says \"in the land\" a second time at the end of the clause. Charles bracketed the repeat as a copying slip.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ውስተ ፡ ምድር (wəstä mədr)",
+    "en": "in the land (a second time)",
+    "plain": "anywhere in the land"
+   },
+   {
+    "w": "Charles 1902 (page 238), bracketing the words as a dittography",
+    "en": "(without the second \"in the land\")",
+    "plain": "(left out)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps VanderKam's words, rendering the repeat as \"anywhere in the land.\" Charles 1902 (page 238) marks \"(In the land)\" as \"bracketed as a dittography,\" a phrase written twice by a copyist. The meaning does not change.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "44:13",
+  "a": "Shaul the son of Phinisewat",
+  "t": "\"The son of Phinisewat\" or \"of the Zephathite woman\"",
+  "p": "VanderKam's Ge'ez has Fənisäwät. Charles followed his manuscript b, Siphnawat, which Rönsch read as \"the Zephathite woman.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወሳውል ፡ ወልዳ ፡ ለፍኒሰወት (wäsawl wälda läfnisäwät)",
+    "en": "and Saul, her son, to Fnisawat",
+    "plain": "Shaul the son of Phinisewat"
+   },
+   {
+    "w": "Ethiopic manuscript b, as cited in Charles 1902",
+    "orig": "Sîphnâwât (Charles's spelling)",
+    "en": "the Zephathite (woman)",
+    "plain": "Shaul the son of the Zephathite woman"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text and keeps the name as it stands. Charles 1902 (page 240) says manuscripts a, c and d are corrupt here, and follows b. With Rönsch he takes it as \"Zephathite,\" from Zephath, a Canaanite town (Judges 1:17). If so, Jubilees agrees with Genesis 46:10, \"the son of a Canaanite woman.\"",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902",
+   "ronsch-jubilaen-1874"
+  ]
+ },
+ {
+  "v": "44:20",
+  "a": "Ezbon, Eri, Areli",
+  "t": "Eri in brackets",
+  "p": "VanderKam prints a name in square brackets, Edis, where Genesis 46:16 has Eri. Charles says Eri must once have been in the Ge'ez, because the total is eight.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989), in square brackets",
+    "orig": "ወአሲቦን ፡ [ወዔዲስ] ፡ ወአሪሊ (wäʾäsibon [wäʿedis] wäʾärili)",
+    "en": "and Asibon [and Edis] and Arili",
+    "plain": "Ezbon, Eri, Areli"
+   },
+   {
+    "w": "Ethiopic manuscripts known to Charles 1902",
+    "en": "(without Eri)",
+    "plain": "Ezbon, Areli"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation includes the bracketed name and gives it in the form Genesis 46:16 uses, Eri, since it stands where Genesis has Eri and Charles restored \"and Eri\" at this place. Without him Gad and his sons make seven, not the eight the verse states, and Genesis 46:16 names Eri. Charles 1902 (page 240): \"This was originally in the Ethiopic as the number 'eight' shows.\"",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "44:21",
+  "a": "Ishvi and Beriah, and Serah their one sister, five",
+  "t": "Asher's family: five or six?",
+  "p": "VanderKam's Ge'ez has a name in square brackets, Yuel, where Genesis 46:17 has Ishvi, and the total \"five.\" Charles's text has \"six,\" counting Asher himself.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989) (Ishvi in square brackets)",
+    "orig": "[ወይኡኤል] ፡ ወቤርያ ፡ ወሳራ ፡ እኅቶሙ ፡ አሐቲ ፡ ኀምስቱ ([wäyʾuʾel] wäberya wäsara ʾəḫtomu ʾäḥäti ḫämsətu)",
+    "en": "[and Yuel] and Berya and Sara their one sister, five",
+    "plain": "Ishvi and Beriah, and Serah their one sister, five"
+   },
+   {
+    "w": "Ethiopic manuscripts known to Charles 1902",
+    "en": "Imnah and Ishvah and Beriah and Serah, their one sister, six (without Ishvi)",
+    "plain": "Imnah, Ishvah, Beriah, and Serah their one sister, six"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text, giving the bracketed Yuel in the form Genesis 46:17 uses, Ishvi, since it stands where Genesis has Ishvi and Charles restored \"and Ishvi\" here. Its \"five\" counts Asher's children only, while the other totals in the list count the father too (Gad and his seven sons are \"eight\" in 44:20). So Charles's \"six\" fits the list better, and Zilpah's total of fourteen in 44:22 needs it: eight and six. Charles 1902 (page 240) restored \"and Ishvi,\" saying the number six shows it was once in the Ge'ez.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "44:33",
+  "a": "before they married",
+  "t": "\"Before they married\" or \"before Joseph\"",
+  "p": "VanderKam's Ge'ez says five died in Egypt \"before they married.\" Charles followed manuscripts that say \"before Joseph.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ዘእንበለ ፡ ያውስቡ (zäʾnəbälä yawsəbu)",
+    "en": "before they took wives",
+    "plain": "before they married"
+   },
+   {
+    "w": "Ethiopic manuscripts b and c, as Charles 1902 reports them",
+    "en": "before Joseph",
+    "plain": "before Joseph"
+   },
+   {
+    "w": "Ethiopic manuscript d, as cited in Charles 1902",
+    "en": "who did not marry",
+    "plain": "who did not marry"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text, which agrees with Charles's manuscript a (1902, page 241). \"Before they married\" fits the words that follow, \"and had no children\": the five are Dan's four sons who died in the first year (44:29) and Naphtali's son Iv (44:31).",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "45:10",
+  "a": "it had not watered the land",
+  "t": "The missing \"not\"",
+  "p": "VanderKam's Ge'ez and the Latin have \"not.\" Charles's Ethiopic manuscripts lacked it, and he restored it from the Latin.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989); the Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "ኢሰቀየ (ʾisäqäyä)",
+    "en": "it did not water",
+    "plain": "it had not watered the land"
+   },
+   {
+    "w": "Ethiopic manuscripts known to Charles 1902",
+    "en": "it watered",
+    "plain": "it had watered the land"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text and the Latin. Without \"not\" the sentence contradicts itself: the river watered the land in the famine years, yet only a few places. Charles 1902 (page 243): \"Not. Restored from Latin.\" His 1913 English prints it as \"(not).\"",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902",
+   "charles-apot"
+  ]
+ },
+ {
+  "v": "45:10",
+  "a": "it produced plenty of good grain",
+  "t": "\"Produced\" or \"harvested\"",
+  "p": "The Ge'ez says the land produced. The Latin says they harvested.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወፈርየት ፡ ብዙኀ ፡ ሠናየ (wäfäryät bəzuḫä śänayä)",
+    "en": "and it bore much good",
+    "plain": "it produced plenty of good grain"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "collegerunt",
+    "en": "they gathered, harvested",
+    "plain": "they harvested plenty of good grain"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles 1902 (page 243) suggests the Ge'ez verb may be a corruption of one meaning \"harvested,\" to match the Latin, but the Ge'ez makes good sense as it stands.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "45:12",
+  "a": "From the grain of the harvest",
+  "t": "\"The grain of the harvest\" or \"all that grew\"",
+  "p": "The Ge'ez says Joseph took a fifth of the grain of the harvest. The Latin says a fifth \"of everything that grew.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "እምእክል ፡ ዘዘርኡ (ʾəmʾəkl zäzärʾu)",
+    "en": "from the grain of its harvest (or: that they sowed)",
+    "plain": "From the grain of the harvest"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "de omnibus quidquid natum est",
+    "en": "of all, whatever was born (grew)",
+    "plain": "From all that grew"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez as Charles 1902 (page 243) explains it: <i>zärʾu</i> is not the verb \"they sowed\" but the noun <i>zärʾ</i>, the crop, with \"its,\" pointing back to the land of 45:10, \"of the corn of the harvest,\" like the Greek of Genesis 47:24. He adds that the Latin may point to a reading \"of all the harvest.\" The meaning is close either way.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ }
+]

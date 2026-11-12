@@ -1,0 +1,482 @@
+[
+ {
+  "v": "32:4",
+  "a": "seven lambs",
+  "t": "Seven lambs or sixty?",
+  "p": "The Ge'ez says sixty lambs; the Latin says seven. Goes with the next entry.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወመሓስአ ፡ ስሳ (wämäḥasʾä səsa)",
+    "en": "and sixty lambs",
+    "plain": "sixty lambs"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "septem",
+    "en": "seven",
+    "plain": "seven lambs"
+   }
+  ],
+  "follow": 1,
+  "why": "The Plain English Translation follows the Latin. Every other number in the verse is a multiple of seven (14, 28, 49), and the Latin's seven and twenty-one complete the pattern. Charles, with Rönsch, explains the Ge'ez sixty as a confusion of two Greek numeral letters. This is one of the few places where the Plain English Translation leaves VanderKam's Ge'ez.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "32:4",
+  "a": "twenty-one young goats",
+  "t": "Twenty-one young goats or twenty-nine?",
+  "p": "The Ge'ez says twenty-nine; the Latin's \"one\" gives twenty-one. Goes with the entry on the lambs.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ጠሊ ፡ ዕሥራ ፡ ወተስዐተ (ṭäli ʿəśra wätäsʿätä)",
+    "en": "twenty-nine (kids) of goats",
+    "plain": "twenty-nine young goats"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "unum",
+    "en": "(twenty-)one",
+    "plain": "twenty-one young goats"
+   }
+  ],
+  "follow": 1,
+  "why": "As with the lambs, the Latin keeps the pattern of sevens (21 = 3 × 7). Charles and Rönsch explain the Ge'ez nine as a confusion of the Greek words for \"nine\" and \"one.\"",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "32:8",
+  "a": "The unclean animals he gave to his son Levi",
+  "t": "Gave, or did not give, to Levi?",
+  "p": "Charles added \"not\": in his view Jacob did not give the unclean animals to Levi.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእንስሳ ፡ ርኩሰ ፡ ወሀቦ ፡ ለሌዊ ፡ ወልዱ (wäʾnəssa rəkusä wähäbo lälewi wäldu)",
+    "en": "and the unclean animals he gave to Levi his son",
+    "plain": "The unclean animals he gave to his son Levi"
+   },
+   {
+    "w": "Charles's emendation (Charles 1902), a negative he supplied himself",
+    "orig": "(not)",
+    "en": "he gave (not) to Levi",
+    "plain": "The unclean animals he did not give to his son Levi"
+   }
+  ],
+  "follow": 0,
+  "why": "VanderKam's Ge'ez text has \"he gave,\" and so did the Ge'ez Charles edited: Charles writes, \"I have supplied the negative.\" Charles supplied the negative because the Testament of Levi 9 has Jacob tithe \"everything\" through Levi, and he thought the text limited this to clean animals. But the Ge'ez makes sense as it stands: unclean animals cannot be sacrificed, so they become the priest's (compare Numbers 18:15 and the note on this verse).",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "32:19",
+  "a": "all the earth that is under heaven",
+  "t": "\"All the earth\" or \"all the blessings\"?",
+  "p": "The Latin promises all blessings under heaven, not all the earth.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ኵላ ፡ ምድረ ፡ ዘመትሕተ ፡ ሰማይ (kʷəla mədrä zämätḥətä sämay)",
+    "en": "all the earth that is under heaven",
+    "plain": "all the earth that is under heaven"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "universas benedictiones",
+    "en": "all the blessings",
+    "plain": "all the blessings that are under heaven"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez, which fits the end of the verse (\"they will gather in the whole earth and inherit it\"). Charles thought the Latin \"perhaps\" right.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "32:21",
+  "a": "He read everything written in them",
+  "t": "Read, or knew?",
+  "p": "The Latin says Jacob \"knew\" everything on the tablets.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወአንበበ ፡ ኵሎ ፡ ዘጽሑፍ (wäʾänbäbä kʷəlo zäṣḥuf)",
+    "en": "and he read all that was written",
+    "plain": "He read everything written in them"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "cognovit",
+    "en": "he knew",
+    "plain": "He knew everything written in them"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles printed \"knew\" with the Latin, but added that the Ge'ez \"read\" may be right.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "32:29",
+  "a": "goes up into the testimony of the feast days",
+  "t": "\"Testimony\" or \"among the days\"?",
+  "p": "The Latin has \"among the days\"; Charles's manuscripts have \"for a testimony\" or \"in peace.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በስምዐ ፡ መዋዕለ ፡ በዓል (bäsməʿä mäwaʿlä bäʿal)",
+    "en": "in the testimony of the days of the feast",
+    "plain": "goes up into the testimony of the feast days"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "in dies",
+    "en": "into the days",
+    "plain": "is entered among the days of the feast days"
+   },
+   {
+    "w": "Charles's manuscript c (Charles 1902)",
+    "orig": "basalâm",
+    "en": "in peace",
+    "plain": "goes up in peace with the feast days"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows VanderKam's text, which agrees with Charles's manuscripts b and d. Charles thought the verse corrupt and preferred the Latin. The meaning is unsure either way (see the note).",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "33:3",
+  "a": "He hid at night, and in the night he went into Bilhah's house",
+  "t": "\"At night\" once or twice?",
+  "p": "The Latin says \"he went in secretly by night to Bilhah.\" Charles thought the Ge'ez repeats itself by mistake.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወተኀብአ ፡ በሌሊት ፡ ወቦአ ፡ ቤተ ፡ ባላን ፡ ሌሊተ (wätäḫäbʾä bälelit wäboʾä betä balan lelitä)",
+    "en": "and he hid at night and entered the house of Bilhah at night",
+    "plain": "He hid at night, and in the night he went into Bilhah's house"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "et introivit nocte occulte ad Ballan",
+    "en": "and he went in secretly by night to Bilhah",
+    "plain": "He went secretly in the night to Bilhah"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the Ge'ez. Charles judged the Latin \"preferable\" and the second \"at night\" a scribe's repetition; the meaning is the same.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "33:5",
+  "a": "She was ashamed because of him",
+  "t": "Who was ashamed?",
+  "p": "In the Latin it is Reuben who is ashamed because of Bilhah.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወተኀፈረት ፡ እምኔሁ (wätäḫäfärät ʾəmnehu)",
+    "en": "and she was ashamed because of him",
+    "plain": "She was ashamed because of him"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "confusus est ab ea",
+    "en": "he was put to shame by her",
+    "plain": "He was ashamed because of her"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez: Bilhah lets go and Reuben runs, and 33:6 goes on with her grief. The Latin makes Reuben's shame the reason he flees. Charles gives the Latin without deciding.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "34:2",
+  "a": "hiding under the trees",
+  "t": "Hiding or camping?",
+  "p": "The Latin says they \"sat\" (camped) under the trees.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ተኀቢኦሙ ፡ ታሕተ ፡ ኦም (täḫäbiʾomu taḥtä ʾom)",
+    "en": "hiding under the trees",
+    "plain": "hiding under the trees"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "et sederunt",
+    "en": "and they sat",
+    "plain": "camping under the trees"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles thought the Latin right, because no other telling of this legend has the kings hide.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "34:4",
+  "a": "the king of Tafu, the king of Ares, the king of Seragan, the king of Selo",
+  "t": "King or kings?",
+  "p": "The Ge'ez has \"kings\" for the first four towns; the Latin has \"king\" for all but one.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ነገሥተ ፡ ታፉ ፡ ወነገሥተ ፡ አሬስ ፡ ወነገሥተ ፡ ሴራጋን ፡ ወነገሥተ ፡ ሴሎ (nägäśtä tafu wänägäśtä ʾäres wänägäśtä seragan wänägäśtä selo)",
+    "en": "kings of Tafu and kings of Ares and kings of Seragan and kings of Selo",
+    "plain": "the kings of Tafu, the kings of Ares, the kings of Seragan, the kings of Selo"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902 (Charles gives only the number)",
+    "orig": "",
+    "en": "king",
+    "plain": "the king of Tafu, the king of Ares, the king of Seragan, the king of Selo"
+   }
+  ],
+  "follow": 1,
+  "why": "There are seven kings (34:2) and seven towns, and the Ge'ez itself has \"king\" for the last three. Charles: \"we should read 'king' and not the plural. The Latin has the singular in all the instances but one.\" So the Plain English Translation follows the Latin here, leaving VanderKam's Ge'ez.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "34:6",
+  "a": "six thousand men",
+  "t": "Six thousand or eight hundred?",
+  "p": "One of Charles's four manuscripts gives Jacob 800 men.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በስሳ ፡ ምእት (bässa məʾt)",
+    "en": "with sixty hundred",
+    "plain": "six thousand men"
+   },
+   {
+    "w": "Charles's manuscript c (Charles 1902)",
+    "orig": "800",
+    "en": "eight hundred",
+    "plain": "eight hundred men"
+   }
+  ],
+  "follow": 0,
+  "why": "VanderKam's text agrees with Charles's manuscripts a, b and d. Only c has 800.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "34:20",
+  "a": "Zebulun's wife was [Neeman]",
+  "t": "Zebulun's wife: Neeman, no name, or Adni?",
+  "p": "VanderKam's text marks the name as doubtful; three of Charles's manuscripts lack it; the Syriac list has Adni.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989), printed in brackets with a question mark",
+    "orig": "[ኔኤማን ?] ([neʾeman ?])",
+    "en": "Neeman (doubtful)",
+    "plain": "Zebulun's wife was [Neeman]"
+   },
+   {
+    "w": "Charles's manuscripts a, b, d (Charles 1902)",
+    "orig": "(no name)",
+    "en": "(no name)",
+    "plain": "Zebulun's wife is not given"
+   },
+   {
+    "w": "Syriac list of the patriarchs' wives, as cited in Charles 1902",
+    "orig": "Adni (Charles's transliteration of the Syriac)",
+    "en": "Adni",
+    "plain": "Zebulun's wife was Adni"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation gives the name VanderKam's text prints, in square brackets, because it is the weakest name in the list. Charles marks it with daggers as doubtful and thought it might be \"the invention of an Ethiopic scribe,\" since his manuscripts a, b and d leave it out.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "35:5",
+  "a": "mercy will be on me",
+  "t": "\"Mercy\" or \"the Lord's mercy\"?",
+  "p": "The Latin adds \"of the Lord.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወይከውን ፡ ላዕሌየ ፡ ሣህል (wäykäwn laʿleyä śahl)",
+    "en": "and mercy will be on me",
+    "plain": "mercy will be on me"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "misericordia Domini",
+    "en": "the mercy of the Lord",
+    "plain": "the Lord's mercy will be on me"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. The meaning is the same: the mercy is God's.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "36:6",
+  "a": "After this I too worshiped him",
+  "t": "\"After this\" or \"how\"?",
+  "p": "Charles changed the Ge'ez \"and after this\" to \"and how.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወእምዝ ፡ አነኒ ፡ አምለክዎ (wäʾməz ʾänäni ʾämläkwo)",
+    "en": "and after this I too worshiped him",
+    "plain": "After this I too worshiped him"
+   },
+   {
+    "w": "Charles's emendation (Charles 1902)",
+    "orig": "wakama",
+    "en": "and how",
+    "plain": "Remember how I too worshiped him"
+   }
+  ],
+  "follow": 0,
+  "why": "The Ge'ez reads \"and after this\" (wäʾməz). Charles's note says he emended this word (waemze) to \"and how\" (wakama), so that the sons are told to remember Isaac's own worship. The Plain English Translation keeps the Ge'ez. \"After this\" may mean after Abraham's time or from then on; the text does not say which.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "36:13",
+  "a": "I am making this larger share greater",
+  "t": "\"I make greater\" or \"I will give\"?",
+  "p": "Charles changed the Ge'ez \"I make great\" to \"I will give.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ዛተ ፡ አዐቢ ፡ ዕበየ (zatä ʾäʿäbi ʿəbäyä)",
+    "en": "this greatness I make great",
+    "plain": "I am making this larger share greater"
+   },
+   {
+    "w": "Charles's emendation (Charles 1902)",
+    "orig": "'ĕhûb",
+    "en": "I will give",
+    "plain": "I will give this larger share"
+   }
+  ],
+  "follow": 0,
+  "why": "All the manuscripts have \"I make great.\" The Plain English Translation keeps it.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "37:20",
+  "a": "for you have not been a brother to me",
+  "t": "\"You have not been\" or \"I will not be\"?",
+  "p": "One of Charles's manuscripts makes Esau say, \"I will not be a brother to you.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "እስመ ፡ ኢኮንከኒ ፡ እኅወ (ʾəsmä ʾikonkäni ʾəḫwä)",
+    "en": "for you have not been a brother to me",
+    "plain": "for you have not been a brother to me"
+   },
+   {
+    "w": "Charles's manuscript d (Charles 1902)",
+    "orig": "",
+    "en": "I will not be a brother to you",
+    "plain": "for I will not be a brother to you"
+   }
+  ],
+  "follow": 0,
+  "why": "VanderKam's text agrees with Charles's manuscripts a, b and c. Charles thought the whole line out of place (see the note).",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "38:1",
+  "a": "with us he is held in honor",
+  "t": "\"Held in honor\" or \"let us give him honor\"?",
+  "p": "The Latin has \"let us give him (honor).\" Charles followed it.",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "በኀቤነ ፡ ለክብር (bäḫäbenä läkbər)",
+    "en": "with us (he is) for honor",
+    "plain": "with us he is held in honor"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902",
+    "orig": "demus illi",
+    "en": "let us give him",
+    "plain": "let us give him this honor"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the Ge'ez, which gives good sense: the sons honor their uncle and will not kill him. Charles changed one letter to agree with the Latin.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ },
+ {
+  "v": "38:2",
+  "a": "struck his brother Esau",
+  "t": "Struck where?",
+  "p": "The Latin adds that the arrow struck Esau \"on his right breast.\"",
+  "readings": [
+   {
+    "w": "VanderKam's Ge'ez text (1989)",
+    "orig": "ወነደፎ ፡ ለዔሳው ፡ እኁሁ (wänädäfo läʿesaw ʾəḫuhu)",
+    "en": "and shot him, Esau his brother",
+    "plain": "struck his brother Esau"
+   },
+   {
+    "w": "The Latin version (Milan palimpsest, 5th-6th century), as cited in Charles 1902 (Charles gives only the sense)",
+    "orig": "",
+    "en": "on his right breast",
+    "plain": "struck his brother Esau on his right breast"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Ge'ez. Charles added the words from the Latin and the Yalkut, which also has Esau struck \"on the right breast.\" The Ge'ez has the matching \"left breast\" only for Aduran in 38:3.",
+  "s": [
+   "vanderkam-jubilees-1989",
+   "charles-jubilees-1902"
+  ]
+ }
+]

@@ -82,4 +82,9 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Sir | reviewed, published | Outside the 66 (tier dc). Base text Swete (Codex Vaticanus) in the Greek order and numbering (KJV shown beside each Greek verse from tools/sir-numbers.tsv); pro |
 | 1Es | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), KJV apocrypha, Vulgate appendix/Douay. Parts 01-02, 03-05, 06-09; book.json and sources.json by a |
 | 3Ma | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus), Brenton's English (the KJV has no 3 Maccabees). 2:1 is not in Swete (gap). Parts 01-03, 04-07; |
+| 4Ma | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus; Sinaiticus and Venetus in his notes), Brenton's English (numbers differ in chapters 7, 8, 10, 1 |
+| Man | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Alexandrinus, his Ode 8), Brenton English, KJVA and Vulgate to compare; 15 verses + heading 1:0; flat folder, |
+| Ps2 | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), Brenton English, 11QPsa (11Q5) Hebrew from the ETCBC dss data (see brief); 7 verses + heading 1:0 |
+| PsS | reviewed, published | Outside the 66 (tier other: in no church's Bible). Base text Swete (vol. III, as printed by Swete; numbering Swete's, headings as c:0), Charles 1913 English for |
+| Jub | reviewed, published | Outside the 66 (tier eth). Base text VanderKam's Ge'ez (1989, Beta maṣāḥǝft; not Dillmann), EOTC copy (not independent), Latin (Charles 1895), Greek citations;  |
 | His | reviewed, published | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |

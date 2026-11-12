@@ -56,8 +56,9 @@
    "Ben Sira",
    "Ecclesiasticus",
    "Wisdom of Ben Sira"
-  ]
- , "book": "Sir"},
+  ],
+  "book": "Sir"
+ },
  "baruch": {
   "name": "Baruch",
   "tier": "dc",
@@ -75,8 +76,10 @@
    "Letter of Jeremiah",
    "Epistle of Jeremiah",
    "Epistle of Jeremy"
-  ]
- , "book": "Bar", "c": 6},
+  ],
+  "book": "Bar",
+  "c": 6
+ },
  "additions-to-esther": {
   "name": "Additions to Esther",
   "tier": "dc",
@@ -113,23 +116,26 @@
    "Greek Ezra",
    "Esdras A"
   ],
-  "topic": "first-esdras"
- , "book": "1Es"},
+  "topic": "first-esdras",
+  "book": "1Es"
+ },
  "3-maccabees": {
   "name": "3 Maccabees",
   "tier": "orth",
   "aka": [
    "3 Maccabees",
    "3 Macc"
-  ]
- , "book": "3Ma"},
+  ],
+  "book": "3Ma"
+ },
  "4-maccabees": {
   "name": "4 Maccabees",
   "tier": "orth",
   "aka": [
    "4 Maccabees",
    "4 Macc"
-  ]
+  ],
+  "book": "4Ma"
  },
  "prayer-of-manasseh": {
   "name": "Prayer of Manasseh",
@@ -137,14 +143,16 @@
   "aka": [
    "Prayer of Manasseh",
    "Prayer of Manasses"
-  ]
+  ],
+  "book": "Man"
  },
  "psalm-151": {
   "name": "Psalm 151",
   "tier": "orth",
   "aka": [
    "Psalm 151"
-  ]
+  ],
+  "book": "Ps2"
  },
  "4-ezra": {
   "name": "4 Ezra",
@@ -173,7 +181,8 @@
   "aka": [
    "Jubilees",
    "Book of Jubilees"
-  ]
+  ],
+  "book": "Jub"
  },
  "2-enoch": {
   "name": "2 Enoch",
@@ -247,7 +256,8 @@
   "tier": "other",
   "aka": [
    "Psalms of Solomon"
-  ]
+  ],
+  "book": "PsS"
  },
  "gospel-of-thomas": {
   "name": "Gospel of Thomas",
@@ -1042,5 +1052,40 @@
   "aka": [
    "Babyloniaca"
   ]
+ },
+ "apostolic-constitutions": {
+  "name": "Apostolic Constitutions",
+  "tier": "early",
+  "aka": [
+   "Apostolic Constitutions",
+   "Constitutions of the Holy Apostles"
+  ],
+  "note": "A Greek collection of church rules, prayers and teaching in eight books, in the name of the apostles. Book 2, section 22, tells the story of King Manasseh as a lesson for bishops on receiving the repentant and gives the Prayer of Manasseh in full. It is in no church's Bible."
+ },
+ "pseudo-jubilees": {
+  "name": "Pseudo-Jubilees (4Q225)",
+  "tier": "other",
+  "aka": [
+   "Pseudo-Jubilees",
+   "4Q225",
+   "4QPseudo-Jubilees"
+  ],
+  "note": "A fragmentary Hebrew text from Qumran Cave 4 that retells stories of Genesis in the manner of Jubilees. In the binding of Isaac it has Prince Mastemah complain against Abraham, holy angels weep, and Isaac ask to be bound (J. A. Fitzmyer, Biblica 83, 2002). It is in no church's Bible."
+ },
+ "odes-of-solomon": {
+  "name": "Odes of Solomon",
+  "tier": "other",
+  "aka": [
+   "Odes of Solomon"
+  ],
+  "note": "A collection of early hymns in Solomon's name, a work distinct from the Psalms of Solomon. J. Rendel Harris published it in 1909 from a Syriac manuscript that also holds the Psalms of Solomon, numbered on after the Odes (Gray; Jongkind). It is in no church's Bible."
+ },
+ "prayer-of-joseph": {
+  "name": "Prayer of Joseph",
+  "tier": "other",
+  "aka": [
+   "Prayer of Joseph"
+  ],
+  "note": "A lost Jewish writing known only from quotations in Origen. In one quoted line, as R. H. Charles prints it, Jacob says he read in the tablets of heaven what would happen to his sons; Charles thought Jubilees 32:21 its source (Charles 1902). It is in no church's Bible. Added by Jub 32-38."
  }
 }
