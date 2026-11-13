@@ -1,0 +1,31 @@
+[
+ {
+  "c": 5,
+  "add": {
+   "people": {
+    "simon": {
+     "name": "Simon Peter"
+    }
+   }
+  },
+  "why": "The chapter names Peter; Bible Atlas files him under his first name, Simon (id simon, as in content/atlas/Act.json)."
+ },
+ {
+  "c": 6,
+  "add": {
+   "people": {
+    "job-43": {
+     "name": "Job"
+    }
+   }
+  },
+  "why": "The chapter's quotation from Ezekiel names Noah, Job and Daniel, and Bible Atlas links the other two but not Job."
+ },
+ {
+  "c": 20,
+  "drop": [
+   "corinth"
+  ],
+  "why": "Corinth appears only in the closing title line, 'The second letter of Clement to the Corinthians', added by a later copyist. The sermon itself names no place, and its first audience is a matter of debate."
+ }
+]

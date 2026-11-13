@@ -8,7 +8,11 @@
 (function(root){
 const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs'], Rev:['Revelation'],
   Bnb:['Barnabas'],                 // "Barnabas 4:3" is the Epistle (the man Barnabas is never cited by chapter)
-  Pol:['Polycarp, Philippians']};   // the comma form scholars write; "Philippians" alone stays Paul's letter
+  Pol:['Polycarp, Philippians'],    // the comma form scholars write; "Philippians" alone stays Paul's letter
+  IEp:['Ignatius, Ephesians', 'Ignatius, To the Ephesians'],   // Ignatius's letters: "Ephesians" and "Romans" alone stay Paul's,
+  IRo:['Ignatius, Romans', 'Ignatius, To the Romans'],         // so only forms that name Ignatius reach these books
+  ISm:['Smyrnaeans'],               // no other book has the name: "Ignatius, Smyrnaeans 8:2", "To the Smyrnaeans 8:2"
+  Dgn:['Diognetus']};               // "Diognetus 5:5" is the Epistle (the man is never cited by chapter); also "Letter to Diognetus"
 const PLAIN_WORDS = new Set('See Compare In At And Also Then From To Or Both Note Like Unlike After Before With Until Since Only Verse Verses Chapter Chapters Rev But Yet So As'.split(' '));
 const ONE_CH = new Set(['Oba','Phm','2Jn','3Jn','Jud','Man','Ps2']);
 const PS151 = 'Ps2';   // Psalm 151 is its own book: "Psalm 151:4" is Ps2 1:4, "Psalm 151" the whole psalm

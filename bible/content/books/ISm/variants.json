@@ -1,0 +1,543 @@
+[
+ {
+  "v": "1:1",
+  "a": "by the will and power of God",
+  "t": "'Of God' or not?",
+  "p": "The Armenian and Theodoret leave out the last 'of God'; Lightfoot follows them.",
+  "readings": [
+   {
+    "w": "Lake's text (G L and the other witnesses)",
+    "orig": "κατὰ θέλημα καὶ δύναμιν θεοῦ",
+    "en": "according to the will and power of God",
+    "plain": "by the will and power of God"
+   },
+   {
+    "w": "The Armenian (A) and Theodoret, followed by Lightfoot (Lake's footnote)",
+    "orig": "κατὰ θέλημα καὶ δύναμιν",
+    "en": "according to the will and power",
+    "plain": "by the divine will and power"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is the same: Lightfoot argues that Ignatius used 'will' and 'power' absolutely, of God's will and power, and that 'The addition of Θεοῦ in the common texts is a transcriber's expedient, owing to ignorance of this absolute use of θέλημα'.",
+  "b": "Lake's footnote reads 'A Theodoret omit θεοῦ and are followed by Lightfoot'. It stands at the last 'of God' in the verse, after 'power' (Lake's printed page), not at 'Jesus Christ, the God' at the start of the verse.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "truly born",
+  "t": "'Born' or 'come into being'?",
+  "p": "One letter separates 'born' from 'come into being'; the Greek manuscript G has the second.",
+  "readings": [
+   {
+    "w": "Lake's text, with Theodoret; the Latin and Sahidic 'genitum' and the Armenian 'natus est' (Lightfoot's apparatus)",
+    "orig": "γεγεννημένον ἀληθῶς ἐκ παρθένου",
+    "en": "truly born of a virgin",
+    "plain": "truly born"
+   },
+   {
+    "w": "G (Lightfoot's apparatus)",
+    "orig": "γεγενημένον ἀληθῶς ἐκ παρθένου",
+    "en": "truly come into being (made) from a virgin",
+    "plain": "truly made"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: 'we must certainly read with Theodoret', comparing To the Ephesians 18 ('who was born and was baptized') and To the Trallians 9 ('who was truly born'). The double n comes from <i>gennaō</i>, 'beget, bear'; the single n from <i>ginomai</i>, 'come to be'.",
+  "b": "Lake prints γεγεννημένον without a footnote; G's reading is from Lightfoot's apparatus, which also marks the long recension as lacking the passage ('def. g').",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "so that we might be saved",
+  "t": "A purpose clause missing in the Sahidic",
+  "p": "The Sahidic version leaves out 'so that we might be saved'.",
+  "readings": [
+   {
+    "w": "Lake's text (G and the others)",
+    "orig": "ἵνα σωθῶμεν",
+    "en": "so that we might be saved",
+    "plain": "so that we might be saved"
+   },
+   {
+    "w": "The Sahidic version (C), Lake's footnote",
+    "orig": "",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake and the Greek.",
+  "b": "With the omission the sentence reads 'For he suffered all these things for our sake.'",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "joined to his flesh and his spirit",
+  "t": "'Spirit' or 'blood'?",
+  "p": "The Armenian reads 'his flesh and his blood'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L C)",
+    "orig": "κραθέντες τῇ σαρκὶ αὐτοῦ καὶ τῷ πνεύματι",
+    "en": "mingled with his flesh and spirit",
+    "plain": "joined to his flesh and his spirit"
+   },
+   {
+    "w": "The Armenian (A), Lake's footnote",
+    "orig": "κραθέντες τῇ σαρκὶ αὐτοῦ καὶ τῷ αἵματι",
+    "en": "mingled with his flesh and blood",
+    "plain": "joined to his flesh and his blood"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake and the Greek, Latin and Sahidic. 'Flesh and spirit' is Ignatius's frequent pair (3:3; 12:2; 13:2).",
+  "b": "Lightfoot gives the Armenian in Latin: 'they believed who shared in the eucharist and supped before on his body and blood', and says that 'The first clause is evidently a gloss (prob. later and certainly erroneous) of the second'.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "the perfect human being",
+  "t": "'The perfect human being' or 'who became the perfect human being'?",
+  "p": "The Greek manuscript and the Latin add 'who became'.",
+  "readings": [
+   {
+    "w": "Lake's text (the witnesses other than G and L)",
+    "orig": "τοῦ τελείου ἀνθρώπου",
+    "en": "the perfect man",
+    "plain": "the perfect human being"
+   },
+   {
+    "w": "G and L (Lake's footnote: 'add. γενομένου GL')",
+    "orig": "τοῦ τελείου ἀνθρώπου γενομένου",
+    "en": "who became the perfect man",
+    "plain": "the one who became the perfect human being"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote names only G and L for the addition. 'Became' would make the line a statement of the incarnation (the Son became human); without it Christ is simply 'the perfect human being'.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "only in appearance",
+  "t": "'As to seeming' or 'in seeming'?",
+  "p": "Lake prints his Greek manuscript's accusative against the dative of the papyrus and the long recension.",
+  "readings": [
+   {
+    "w": "Lake's text: G (Lake's footnote)",
+    "orig": "εἰ γὰρ τὸ δοκεῖν ταῦτα ἐπράχθη",
+    "en": "for if these things were done as to seeming",
+    "plain": "only in appearance"
+   },
+   {
+    "w": "The Berlin papyrus and the long recension (B g), Lake's footnote",
+    "orig": "εἰ γὰρ τῷ δοκεῖν ταῦτα ἐπράχθη",
+    "en": "for if these things were done in seeming",
+    "plain": "only in appearance"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, who here keeps G against the papyrus. The sense is the same: the accusative means 'as to seeming', the dative 'in seeming'.",
+  "b": "Lake's footnote: 'Here and elsewhere Bg read τῷ δοκεῖν against G which has τὸ δοκεῖν.' It stands at the first 'only in appearance' of 4:2. On 2:1 see the note there.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "Whoever says this",
+  "t": "'Says this' or 'does not say this'?",
+  "p": "The Berlin papyrus and the Sahidic read 'says this'; the Greek manuscript, the Latin and the Armenian read 'does not say this'.",
+  "readings": [
+   {
+    "w": "Lake's text: the Berlin papyrus and the Sahidic (B C), Lake's footnote",
+    "orig": "ὁ δὲ τοῦτο λέγων",
+    "en": "the one saying this",
+    "plain": "Whoever says this"
+   },
+   {
+    "w": "G L A (Lake's footnote)",
+    "orig": "ὁ δὲ τοῦτο μὴ λέγων",
+    "en": "the one not saying this",
+    "plain": "Whoever does not say this"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. Both make sense: 'whoever says this' (that Christ was not flesh-bearing) or 'whoever does not say this' (that he was).",
+  "b": "Here the papyrus, copied in the 400s (Lake), decides Lake's text.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "not for the one in chains or the one set free",
+  "t": "'Or the one set free': in some witnesses only",
+  "p": "The Armenian and Sahidic leave out 'or the one set free'.",
+  "readings": [
+   {
+    "w": "Lake's text (B G L)",
+    "orig": "οὐ περὶ δεδεμένου ἢ λελυμένου",
+    "en": "not about one bound or one released",
+    "plain": "not for the one in chains or the one set free"
+   },
+   {
+    "w": "The Armenian and Sahidic (A C), Lake's footnote",
+    "orig": "οὐ περὶ δεδεμένου",
+    "en": "not about one bound",
+    "plain": "not for the one in chains"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, with the papyrus. Lake renders 'none for the prisoner, or for him released from prison'.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "It is right to keep away from such people",
+  "t": "'It is right' or 'So it is right'?",
+  "p": "The Greek manuscript and the long recension add 'so'.",
+  "readings": [
+   {
+    "w": "Lake's text: B A (L), Lake's footnote",
+    "orig": "πρέπον ἐστὶν",
+    "en": "it is fitting",
+    "plain": "It is right to keep away from such people"
+   },
+   {
+    "w": "G and g (Lake's footnote)",
+    "orig": "πρέπον οὖν ἐστὶν",
+    "en": "so it is fitting",
+    "plain": "So it is right to keep away from such people"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. The meaning is the same.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "wherever Jesus Christ is",
+  "t": "'Jesus Christ' or 'Christ Jesus'?",
+  "p": "The papyrus and the Armenian read 'Jesus Christ'; the Greek manuscript and the Latin 'Christ Jesus'.",
+  "readings": [
+   {
+    "w": "Lake's text: B A (Lake's footnote)",
+    "orig": "ὅπου ἂν ᾖ Ἰησοῦς Χριστός",
+    "en": "wherever Jesus Christ is",
+    "plain": "wherever Jesus Christ is"
+   },
+   {
+    "w": "G L (Lake's footnote)",
+    "orig": "ὅπου ἂν ᾖ Χριστὸς Ἰησοῦς",
+    "en": "wherever Christ Jesus is",
+    "plain": "wherever Christ Jesus is"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. The Catechism quotes the line as 'Where there is Christ Jesus' (Catechism 830).",
+  "b": "Lake's text also has the papyrus's form of 'let ... be' (ἤτω, B) for ἔστω (G g) earlier in the verse; the meaning is the same.",
+  "s": [
+   "lake-apostolic-fathers",
+   "ccc-ignatius-smyrnaeans"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "all you do",
+  "t": "'All you do' or 'all that is done'?",
+  "p": "One letter separates 'you do' from 'is done'.",
+  "readings": [
+   {
+    "w": "Lake's text: B S A (g), Lake's footnote",
+    "orig": "πᾶν ὃ πράσσετε",
+    "en": "everything that you do",
+    "plain": "all you do"
+   },
+   {
+    "w": "G L (Lake's footnote)",
+    "orig": "πᾶν ὃ πράσσεται",
+    "en": "everything that is done",
+    "plain": "all that is done"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. In later Greek the two endings sounded alike.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "for us to come back to our senses",
+  "t": "'For us to come back' or 'to come back ... and'?",
+  "p": "The Greek manuscript and the Latin read 'and' for 'us', making two linked verbs.",
+  "readings": [
+   {
+    "w": "Lake's text: B g (S A), Lake's footnote",
+    "orig": "ἀνανῆψαι ἡμᾶς, ὡς ἔτι καιρὸν ἔχομεν εἰς θεὸν μετανοεῖν",
+    "en": "for us to return to soberness, while we still have time to repent toward God",
+    "plain": "for us to come back to our senses"
+   },
+   {
+    "w": "G L (Lake's footnote)",
+    "orig": "ἀνανῆψαι καί, ὡς ἔτι καιρὸν ἔχομεν, εἰς θεὸν μετανοεῖν",
+    "en": "to return to soberness and, while we still have time, to repent toward God",
+    "plain": "to come back to our senses and"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. His footnote gives the other reading's sense: 'it is reasonable to return to soberness, and ... to repent.' The meaning hardly changes.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "God is your reward",
+  "t": "'God is your reward' or 'God will repay you'?",
+  "p": "The papyrus reads a noun, 'reward'; other witnesses a verb, 'will repay'.",
+  "readings": [
+   {
+    "w": "Lake's text: the Berlin papyrus (B), Lake's footnote",
+    "orig": "ἀμοιβὴ ὑμῖν ὁ θεός",
+    "en": "your reward is God",
+    "plain": "God is your reward"
+   },
+   {
+    "w": "The long recension (g) and the Armenian (A); G has a corrupt form, and the Latin 'retribuat' ('may he repay'), Lake's footnote",
+    "orig": "ἀμείψεται",
+    "en": "will repay",
+    "plain": "God will repay you"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus, the oldest witness.",
+  "b": "Lake: 'ἀμοιβή B, ἀμοιβει G, ἀμείψεται g(A), retribuat (= ἀμείβοι?) L'.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "Rheus Agathopus",
+  "t": "'Rheus' or 'Gaius'?",
+  "p": "The papyrus reads 'Gaius Agathopus'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L A)",
+    "orig": "Ῥέον Ἀγαθόπουν",
+    "en": "Rheus Agathopus",
+    "plain": "Rheus Agathopus"
+   },
+   {
+    "w": "The Berlin papyrus (B) and the long recension (g), Lake's footnote",
+    "orig": "Γάϊον Ἀγαθόπουν",
+    "en": "Gaius Agathopus",
+    "plain": "Gaius Agathopus"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: 'B has Γάϊον and it is possible that this, also found in g, is right, but Ῥέον is transcriptionally more probable.' A rare name like Rheus is more likely to have been changed into the common Gaius than the other way round. The same man is named in To the Philadelphians 11.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "deacons of God",
+  "t": "'Deacons of God' or 'of Christ God'?",
+  "p": "The Greek manuscript and the Latin read 'deacons of Christ God'.",
+  "readings": [
+   {
+    "w": "Lake's text: B A (Lake's footnote)",
+    "orig": "ὡς διακόνους θεοῦ",
+    "en": "as deacons of God",
+    "plain": "deacons of God"
+   },
+   {
+    "w": "G (L), Lake's footnote",
+    "orig": "ὡς διακόνους Χριστοῦ θεοῦ",
+    "en": "as deacons of Christ God",
+    "plain": "deacons of Christ God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus and the Armenian. The Roberts and Donaldson English follows the other reading: 'servants of Christ our God'.",
+  "s": [
+   "lake-apostolic-fathers",
+   "roberts-donaldson-ignatius"
+  ]
+ },
+ {
+  "v": "10:2",
+  "a": "the perfect hope",
+  "t": "'Hope' or 'faith'?",
+  "p": "The Greek manuscript and the Latin read 'the perfect faith'.",
+  "readings": [
+   {
+    "w": "Lake's text: B A g (Lake's footnote)",
+    "orig": "ἡ τελεία ἐλπίς",
+    "en": "the perfect hope",
+    "plain": "the perfect hope"
+   },
+   {
+    "w": "G L (Lake's footnote)",
+    "orig": "ἡ τελεία πίστις",
+    "en": "the perfect faith",
+    "plain": "the perfect faith"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. Ignatius calls Christ 'our common hope' in other letters (Lake's English of To the Philadelphians 11).",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "go to Syria",
+  "t": "'Go to Syria' or 'as far as Syria'?",
+  "p": "The witnesses differ on one preposition.",
+  "readings": [
+   {
+    "w": "Lake's text: B (A) g, Lake's footnote",
+    "orig": "εἰς τὸ γενόμενον ἐν Συρίᾳ",
+    "en": "so that, being in Syria",
+    "plain": "go to Syria"
+   },
+   {
+    "w": "G L (Lake's footnote); Lightfoot's text",
+    "orig": "εἰς τὸ γενόμενον ἕως Συρίας",
+    "en": "so that, going as far as Syria",
+    "plain": "travel as far as Syria"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. Lightfoot keeps 'as far as' and compares 'found at the sunset' (Ignatius to the Romans 2:2).",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "a deed worthy of God",
+  "t": "'Worthy of God' or 'worthy'?",
+  "p": "The Greek manuscript and the long recension leave out 'of God'.",
+  "readings": [
+   {
+    "w": "Lake's text: B L A (Lake's footnote)",
+    "orig": "θεοῦ ἄξιον πρᾶγμα",
+    "en": "a deed worthy of God",
+    "plain": "a deed worthy of God"
+   },
+   {
+    "w": "G g (Lake's footnote)",
+    "orig": "ἄξιον πρᾶγμα",
+    "en": "a worthy deed",
+    "plain": "a worthy deed"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus with the Latin and Armenian.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "11:3",
+  "a": "they were already reaching harbor",
+  "t": "'Were reaching' or 'reached'?",
+  "p": "The papyrus has the simple past: 'they had reached harbor'.",
+  "readings": [
+   {
+    "w": "Lake's text (G g)",
+    "orig": "λιμένος ἤδη ἐτύγχανον",
+    "en": "they were already reaching harbor",
+    "plain": "they were already reaching harbor"
+   },
+   {
+    "w": "The Berlin papyrus (B), Lake's footnote",
+    "orig": "λιμένος ἤδη ἔτυχον",
+    "en": "they had already reached harbor",
+    "plain": "they had already reached harbor"
+   }
+  ],
+  "follow": 0,
+  "why": "Here Lake does not follow the papyrus. The difference is one of tense; the harbor is the peace of 11:2.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "13:1",
+  "a": "the power of the Father",
+  "t": "'The Father' or 'the Spirit'?",
+  "p": "The Greek manuscript reads 'Spirit'; the Latin and Armenian 'Father'. In the manuscripts the two words were short abbreviations.",
+  "readings": [
+   {
+    "w": "Lake's text: L A (Lake's footnote)",
+    "orig": "ἐν δυνάμει πατρός",
+    "en": "in the power of the Father",
+    "plain": "the power of the Father"
+   },
+   {
+    "w": "G (g), Lake's footnote; the Roberts and Donaldson English, 'the Holy Ghost'",
+    "orig": "ἐν δυνάμει πνεύματος",
+    "en": "in the power of the Spirit",
+    "plain": "the power of the Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the Latin and Armenian against his Greek manuscript. His footnote: 'The difference in MSS would be between πρς and πνς', the abbreviations of the two words.",
+  "s": [
+   "lake-apostolic-fathers",
+   "roberts-donaldson-ignatius"
+  ]
+ },
+ {
+  "v": "13:2",
+  "a": "Tavia",
+  "t": "'Tavia' or 'Gavia'?",
+  "p": "The Armenian and the long recension read 'Gavia'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L)",
+    "orig": "Ταουΐας",
+    "en": "Tavia",
+    "plain": "Tavia"
+   },
+   {
+    "w": "The Armenian and the long recension (A g), Lake's footnote; preferred by Lightfoot",
+    "orig": "Γαουΐας",
+    "en": "Gavia",
+    "plain": "Gavia"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot prefers Gavia, a common Latin name, while he found no example of Tavia (see the note).",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ }
+]

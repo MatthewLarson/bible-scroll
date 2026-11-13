@@ -1,0 +1,170 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "ephesus",
+    "asia",
+    "syria",
+    "rome"
+   ],
+   "people": [],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [
+    "mary"
+   ],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "ephesus"
+   ],
+   "people": [],
+   "events": []
+  },
+  "12": {
+   "places": [],
+   "people": [
+    "paul"
+   ],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "14": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "15": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "16": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "17": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "18": {
+   "places": [],
+   "people": [
+    "mary",
+    "david"
+   ],
+   "events": []
+  },
+  "19": {
+   "places": [],
+   "people": [
+    "mary"
+   ],
+   "events": []
+  },
+  "20": {
+   "places": [],
+   "people": [
+    "david"
+   ],
+   "events": []
+  },
+  "21": {
+   "places": [
+    "smyrna",
+    "syria",
+    "rome"
+   ],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "ephesus": {
+   "name": "Ephesus",
+   "lat": 37.941944,
+   "lon": 27.339722
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "rome": {
+   "name": "Rome",
+   "lat": 41.89262,
+   "lon": 12.4843457
+  },
+  "smyrna": {
+   "name": "Smyrna",
+   "lat": 38.45196038,
+   "lon": 27.16192105
+  }
+ },
+ "people": {
+  "mary": {
+   "name": "Mary"
+  },
+  "paul": {
+   "name": "Paul"
+  },
+  "david": {
+   "name": "David"
+  }
+ },
+ "events": {}
+}

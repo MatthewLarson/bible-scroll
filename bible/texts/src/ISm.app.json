@@ -1,0 +1,162 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek. From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "1:1",
+"note": "A Theodoret omit qeou= and are follosed by Lightfoot."
+},
+{
+"at": "2:1",
+"note": "i(/na swqw=men om. O."
+},
+{
+"at": "3:2",
+"note": "pneu/mati GLC, ai(/mati A."
+},
+{
+"at": "4:1",
+"note": "sunanta=n BG, sunanta=n au)toi=s LAC."
+},
+{
+"at": "4:1",
+"note": "proseu/xesqe BC(S), proseu/xesqai GLA."
+},
+{
+"at": "4:1",
+"note": "Here and edseshere Bg read tw=| dokei=n against G shich has to\\ dokei=n."
+},
+{
+"at": "4:1",
+"note": "add. genome/nou GL."
+},
+{
+"at": "5:2",
+"note": "le/gon BC, mh\\ le/gwn CLA."
+},
+{
+"at": "6:2",
+"note": "lelume/nou BGL, om. AC."
+},
+{
+"at": "7:2",
+"note": "pre/pon BA(L), pre/pon ou)=n Gg."
+},
+{
+"at": "8:2",
+"note": "h)/tw B, e)/stw Gg."
+},
+{
+"at": "8:2",
+"note": "*)ihs. *xr. BA, *xr. *)ihs. GL."
+},
+{
+"at": "8:2",
+"note": "pra/ssete BSA(g), pra/ssetai GL."
+},
+{
+"at": "9:1",
+"note": "h(ma=s Bg(SA) kai\\ GL, it is reasonable to return to suberness, and ... to repent."
+},
+{
+"at": "9:2",
+"note": "a)moibh\\ *b, a)moibei G, a)mei/yetai g(A), retribuat (=a)mei/boi (??)) L."
+},
+{
+"at": "10:1",
+"note": "B has *ga/i=on and it is possible that this, also found in g, is right, but *(re/on is transcriptionally more probable."
+},
+{
+"at": "10:1",
+"note": "qeou= BA, xristou= qeou= G(L)."
+},
+{
+"at": "10:2",
+"note": "e)lpi/i BAg, pi/ntin GL."
+},
+{
+"at": "11:2",
+"note": "e)n *suri/a| B(A)g, e(/ws *suri/as GL."
+},
+{
+"at": "11:3",
+"note": "qeou= BLA, om. Gg."
+},
+{
+"at": "11:3",
+"note": "e)/tuxon B."
+},
+{
+"at": "11:3",
+"note": "pare/xein B, parasxei=n Gg."
+},
+{
+"at": "12:1",
+"note": "*bo/rrou *b; the spelling of this varies considerably both here and in Eph. ii, 1, and Philad. xi, 2. It is possiblo that *bo/rros, shich has some support in L is really right."
+},
+{
+"at": "13:1",
+"note": "patro/s LA, pneu/matos G(g) spirit. The difference in MSS sould be betsoen prs and xvi."
+},
+{
+"at": "13:2",
+"note": "*taoui+/ai GL. *gaoui+/as Ag."
+}
+],
+"refs": [
+{
+"at": "1:0",
+"ref": "I Cor. 1, 7",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:1.7"
+},
+{
+"at": "1:1",
+"ref": "Rom. 1, 3",
+"urn": "cts:urn:greekLit:tlg0031.tlg006:1.3"
+},
+{
+"at": "1:1",
+"ref": "Mt. 3, 15",
+"urn": "cts:urn:greekLit:tlg0031.tlg001:3.15"
+},
+{
+"at": "1:2",
+"ref": "Is. 6, 26 (11, 12; 49, 22; 62, 10)",
+"urn": "cts:urn:greekLit:tlg0527.tlg048:6.26 cts:urn:greekLit:tlg0527.tlg048:11.12 cts:urn:greekLit:tlg0527.tlg048:49.22 cts:urn:greekLit:tlg0527.tlg048:62.10"
+},
+{
+"at": "1:2",
+"ref": "Epb. 2, 16",
+"urn": "cts:urn:greekLit:tlg0031.tlg010:2.16"
+},
+{
+"at": "3:2",
+"ref": "Cf. Luke 24, 89",
+"urn": "cts:urn:greekLit:tlg0031.tlg003:24.89"
+},
+{
+"at": "3:2",
+"ref": "Acts 10, 41",
+"urn": "cts:urn:greekLit:tlg0031.tlg005:10.41"
+},
+{
+"at": "4:1",
+"ref": "Phll. 4, 13",
+"urn": "cts:urn:greekLit:tlg0031.tlg011:4.13"
+},
+{
+"at": "6:1",
+"ref": "Mt. 19, 12",
+"urn": "cts:urn:greekLit:tlg0031.tlg001:19.12"
+},
+{
+"at": "10:1",
+"ref": "II Tim.1, 16",
+"urn": "cts:urn:greekLit:tlg0031.tlg016:1.16"
+},
+{
+"at": "11:3",
+"ref": "Phll. 3. 15",
+"urn": "cts:urn:greekLit:tlg0031.tlg011:3.15"
+}
+]
+}

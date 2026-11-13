@@ -90,6 +90,11 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Did | reviewed, published | Outside the 66 (tier early: an early Christian writing in no church's Bible). Base text Lake (Loeb vol. 1, 1912), C the one complete manuscript; Lake's English  |
 | Bnb | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): Sinaiticus, C, the G manuscripts, the Latin (to ch. 17). One part 01-21 (194 vv; 18-20 written  |
 | 1Cl | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), eclectic: A (lacks 57:7-63), C, the Latin, Syriac and Coptic versions, Clement of Alexandria. P |
+| 2Cl | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): A (to 12:5), C and the Syriac. Flat folder, 118 verses (no greeting); one writer, who owns book |
+| IEp | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), short (middle) recension: G, g, L, A, S. Flat folder, 1:0 + 47 verses; one writer, who owns boo |
+| IRo | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), short (middle) recension; Romans has its own Greek line (Ruinart's Paris MS) besides L, A, S, g |
+| ISm | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), short (middle) recension: G, g, L, A, S, the Sahidic and the Berlin papyrus (3:3-12:1). Flat fo |
 | Pol | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): Greek (G, Eusebius) to 9:2 and in 13, the old Latin for 10-12, the end of 13:2 and 14. Flat fol |
 | MPo | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 2, 1913): m against b p s v, Eusebius 4.15, the Latin; the Moscow ending as a variant at 22:2. Flat folde |
+| Dgn | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 2, 1913): the one Strasburg manuscript (burned 1870) through Otto's collations; gaps after 7:6 and 10:1;  |
 | His | reviewed, published | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |

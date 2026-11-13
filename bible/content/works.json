@@ -288,7 +288,9 @@
   "aka": [
    "2 Clement",
    "Second Clement"
-  ]
+  ],
+  "book": "2Cl",
+  "note": "An anonymous Greek sermon of the second century (Lake: 'between 120 and 170 A.D.', most often about 150), read aloud in worship after the Scripture (2 Clement 19:1). It came to be called the second letter of Clement because it was copied after 1 Clement in Codex Alexandrinus and the Constantinople manuscript; Eusebius said the ancients made no use of it (<i>Church History</i> 3.38.4), and Lake that 'it cannot have been written by the author of I. Clement'. In no church's Bible; the <i>Apostolic Canons</i> (canon 85) list 'Two Epistles of Clemens' among the New Testament books, after Jude and before Acts."
  },
  "polycarp-philippians": {
   "name": "Polycarp to the Philippians",
@@ -911,11 +913,8 @@
    "Ignatius's letters",
    "letters of Ignatius",
    "To the Magnesians",
-   "To the Smyrnaeans",
    "To the Philadelphians",
    "To the Trallians",
-   "To the Ephesians#",
-   "To the Romans#",
    "Epistle of Ignatius to the Philadelphians"
   ],
   "note": "Seven letters written by Ignatius, bishop of Antioch, about AD 110 while he was being taken to Rome to die: to the churches of Ephesus, Magnesia, Tralles, Rome, Philadelphia and Smyrna, and to Polycarp. They are among the earliest Christian writings after the New Testament. In no Bible."
@@ -1129,5 +1128,56 @@
    "Stichometry of Nicephorus"
   ],
   "note": "A list of the books of the Old and New Testaments with the disputed books and the apocrypha, under the name of Nicephorus. It counts the Epistle of Barnabas among the disputed books and the two letters of Clement among the apocrypha (Westcott, Appendix D)."
+ },
+ "ignatius-ephesians": {
+  "name": "Ignatius to the Ephesians",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Ephesians",
+   "To the Ephesians#"
+  ],
+  "book": "IEp",
+  "note": "The first of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Smyrna."
+ },
+ "ignatius-romans": {
+  "name": "Ignatius to the Romans",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Romans",
+   "To the Romans#"
+  ],
+  "book": "IRo",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Smyrna; Lake: its purpose is to keep the Roman Christians from trying to save him."
+ },
+ "ignatius-smyrnaeans": {
+  "name": "Ignatius to the Smyrnaeans",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Smyrnaeans",
+   "To the Smyrnaeans"
+  ],
+  "book": "ISm",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Troas."
+ },
+ "epistle-to-diognetus": {
+  "name": "Epistle to Diognetus",
+  "tier": "early",
+  "aka": [
+   "Epistle to Diognetus",
+   "Letter to Diognetus"
+  ],
+  "book": "Dgn",
+  "note": "An anonymous defense of the Christian faith addressed to \"most excellent Diognetus\", of uncertain date. Lake (1913) thinks it probably later than the other Apostolic Fathers and closer to the Apologists; it survived in one manuscript, burned at Strasburg in 1870. Its last two chapters (11-12) are a separate piece. In no Bible."
+ },
+ "martyrdom-of-ignatius": {
+  "name": "Martyrdom of Ignatius",
+  "tier": "early",
+  "aka": [
+   "Martyrdom of Ignatius",
+   "Acts of Ignatius",
+   "Martyrium Ignatii",
+   "Martyrium Colbertinum"
+  ],
+  "note": "An account of Ignatius's trial before Trajan and his death in Rome, claiming eyewitness authors. Lake calls it the '3rd century Acts of Ignatius' and quotes its story of the name Theophorus; the Catholic Encyclopedia (1910) calls it 'certainly very ancient' but 'greatly interpolated', its best form the 'Martyrium Colbertinum'. In no Bible. Proposed by the Ignatius to the Ephesians writer, 2026-11-12."
  }
 }

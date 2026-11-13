@@ -1,0 +1,6 @@
+Status: reviewed, published
+
+Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), short (middle) recension: G, g, L, A, S. Flat folder, 1:0 + 47 verses; one writer, who owns book.json and sources.json and enters the batch's terms. Lenses H N C. No new card (point to the bishops and Lord's Supper cards). Briefs tools/brief-iep.md and tools/brief-apfathers2.md.
+- 2026-11-12: planned.
+- 2026-11-12: written (flat folder): 1:0 + 47 verses, 82 notes, 16 variants (all Lake's footnotes that change the sense), 24 glosses, 21 chapter pages (deep sections at 5, 7, 18, 19, 20), 32 topic contributions; new core incarnation (proposals/works/topics/); batch terms entered in proposals/works/terms.json; proposals in topics.md (ignatius, apostolic-fathers, canon) and build.md (citations, back-links, one digital-text slip at 10:2). No departures from Lake. Drift audit changed 19 verses. No traditions card (views notes point to the existing cards). --check 0/0.
+- 2026-11-13: hostile review fixed (32 numbered findings: 29 accepted, 3 partly; none declined). Plain English Translation changed at 1:1, 2:1, 2:2, 3:1, 3:2, 5:3, 6:2, 9:2, 10:2, 10:3, 14:2, 15:2. Athanasius's Greek opened (PG 26, col. 776); authenticity paragraph rebuilt from Zañartu 2009 and Zuiddam 2010; incarnation core rebuilt. Now 85 notes, 16 variants, 24 glosses. --check 0/0.

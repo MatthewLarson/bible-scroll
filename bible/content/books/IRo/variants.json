@@ -1,0 +1,361 @@
+[
+ {
+  "v": "1:0",
+  "a": "named after Christ",
+  "t": "'Named after Christ' or 'keeping Christ's law'?",
+  "p": "Lake prints christōnymos with the Greek manuscript; the Latin, Armenian and Syriac read christonomos, which Lightfoot prints.",
+  "readings": [
+   {
+    "w": "G (for this letter the one Greek manuscript, the tenth-century Paris manuscript Lightfoot calls the Colbertine), and the common printed text of the long recension g (Lightfoot); Lake's text",
+    "orig": "χριστώνυμος",
+    "en": "named after Christ",
+    "plain": "named after Christ"
+   },
+   {
+    "w": "The Latin, Armenian and Syriac versions (L A S, Lake's footnote) and the long recension in Lightfoot's text of it (g*, Lightfoot); printed by Lightfoot (1889)",
+    "orig": "χριστόνομος",
+    "en": "keeping the law of Christ",
+    "plain": "keeping the law of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text, which gives a matching pair: 'named after Christ, named after the Father'.",
+  "b": "Lake's footnote: 'ALS read χριστόνομοι having the law of Christ' (the digital copy of the footnote spells it with an ε and has 'las' for 'law'). Lightfoot argues the other way: 'Considering the great preponderance of the best authorities in favour of χριστόνομος, and the likelihood of alteration into χριστώνυμος for the sake of conformity with the following word, there can be no doubt about the reading.' He compares 'under Christ's law' (1 Corinthians 9:21). The two words differ by one vowel.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "I have been given even more than I asked for",
+  "t": "'More than I asked'",
+  "p": "The Greek as printed is hard to construe; the Plain English Translation follows Lightfoot's small correction, as Lake's English does.",
+  "readings": [
+   {
+    "w": "Lightfoot's emendation (1889), adding one letter: πλέον ἢ ᾐτούμην; the sense of Lake's English, 'so that I have obtained more than I asked'",
+    "orig": "ὡς καὶ πλέον ἢ ᾐτούμην λαβεῖν",
+    "en": "so that I received even more than I asked",
+    "plain": "I have been given even more than I asked for"
+   },
+   {
+    "w": "Lake's Greek text, with G L A g as Lightfoot reports them",
+    "orig": "ὡς καὶ πλέον ᾐτούμην λαβεῖν",
+    "en": "as I was even asking to receive more",
+    "plain": "I kept asking to receive even more"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot calls the reading of the manuscripts 'quite unintelligible' and restores the sense 'so that I have received even more than I asked for' by repeating a single letter. The Armenian Acts of the martyrdom (Am, in Lightfoot's sigla), he notes, give the same sense. Lake prints the manuscripts' Greek but translates it with Lightfoot's sense, so this is a departure from Lake's Greek and gets this entry.",
+  "b": "Lightfoot explains: Ignatius 'had prayed that he might see the Romans; he was permitted to visit them, decorated with a prisoner's fetters'.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "1:2",
+  "a": "obtain the grace",
+  "t": "'The grace' or 'the goal'?",
+  "p": "The Armenian reads 'reach the goal'; Lightfoot adopts it.",
+  "readings": [
+   {
+    "w": "Lake's text (G L)",
+    "orig": "ἐάνπερ χάριτος ἐπιτύχω",
+    "en": "if I obtain grace",
+    "plain": "obtain the grace"
+   },
+   {
+    "w": "The Armenian (A), 'with partial support in other authorities' (Lake's footnote); Lightfoot's text",
+    "orig": "ἐὰν πέρατος ἐπιτύχω",
+    "en": "if I reach the goal",
+    "plain": "reach the goal"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is close either way: he hopes to get through to the end.",
+  "b": "Lake's footnote: 'A, with partial support in other authorities, reads πέρατος \"may reach the goal.\"' Lightfoot restores πέρατος, 'the termination, goal', and traces both readings to one original, ἐὰν πέρατος, from which ἐάνπερ χάριτος arose.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "only a sound",
+  "t": "'Only a sound' or 'running again'?",
+  "p": "Lake prints 'a sound' from the versions; the Greek manuscript reads 'running', in its margin.",
+  "readings": [
+   {
+    "w": "The Latin (L*), the Syriac abridgment and the Syriac Acts of the martyrdom (Σ Sm), and John the Monk (Lightfoot's apparatus); Lake's text and Lightfoot's",
+    "orig": "πάλιν ἔσομαι φωνή",
+    "en": "I will again be a voice",
+    "plain": "only a sound"
+   },
+   {
+    "w": "G (for this letter the one Greek manuscript, the tenth-century Paris manuscript Lightfoot calls the Colbertine) (the words are left out of its text and written in its margin), the Armenian (A), the Metaphrast (M) and the long recension (g), as Lightfoot reports them",
+    "orig": "πάλιν ἔσομαι τρέχων",
+    "en": "I will again be running",
+    "plain": "running"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot: 'φωνὴ is required as well by the common antithesis of λόγος and φωνή, as also by the renderings of the versions'. He judges 'running' not a copyist's slip but 'a deliberate alteration' by the long recension's interpolator, who also wrote 'I will become' for 'I, a word of God' and probably meant that Ignatius would be 'put back again to run the race'; from the interpolator it 'has got into the Greek Ms'.",
+  "b": "Lake prints φωνή and gives no footnote here. The Armenian Acts of the martyrdom (Am) give both readings.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "Nothing that is seen is good",
+  "t": "'Good' or 'eternal'?",
+  "p": "Two Greek witnesses read 'Nothing that is seen is eternal', and then add 2 Corinthians 4:18.",
+  "readings": [
+   {
+    "w": "Lake's text and Lightfoot's (from the versions)",
+    "orig": "οὐδὲν φαινόμενον καλόν",
+    "en": "nothing that appears is good",
+    "plain": "Nothing that is seen is good"
+   },
+   {
+    "w": "The Greek manuscripts G M and the long recension g, as Lightfoot reports them; followed by the Roberts and Donaldson English",
+    "orig": "οὐδὲν φαινόμενον αἰώνιον· τὰ γὰρ βλεπόμενα πρόσκαιρα, τὰ δὲ μὴ βλεπόμενα αἰώνια",
+    "en": "nothing that appears is eternal; for the things seen are temporary, but the things not seen are eternal",
+    "plain": "Nothing that is seen lasts forever. What we see lasts only a while; what we cannot see lasts forever"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot: 'Doubtless αἰώνιον is wrong', and the added words come 'from 2 Cor. iv. 18'. He chose καλόν from the versions; Zahn, he adds, pointed to Origen's quotation of the line as οὐδὲν φαινόμενον καλόν. Lake prints the same.",
+  "b": "The second reading uses the site's wording of 2 Corinthians 4:18 for the added words. Lake gives no footnote here.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "roberts-donaldson-ignatius"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "pure bread of Christ",
+  "t": "Bread 'of Christ', 'of God', or just 'pure bread'?",
+  "p": "The witnesses and the ancient quotations differ on the last words of 'God's wheat'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L)",
+    "orig": "καθαρὸς ἄρτος εὑρεθῶ τοῦ Χριστοῦ",
+    "en": "I may be found pure bread of Christ",
+    "plain": "pure bread of Christ"
+   },
+   {
+    "w": "The Syriac (S), the long recension (g) and the Latin translation of Irenaeus (Lake's footnote; Lightfoot's apparatus: 'dei ... Iren-Lat')",
+    "orig": "καθαρὸς ἄρτος εὑρεθῶ τοῦ θεοῦ",
+    "en": "I may be found pure bread of God",
+    "plain": "pure bread of God"
+   },
+   {
+    "w": "Irenaeus in Greek as Eusebius quotes him (<i>Church History</i> 3.36.12: <i>hina katharos artos heurethō</i>), and Jerome (<i>Lives of Illustrious Men</i> 16: <i>ut panis mundus inveniar</i>); Lake's footnote: 'om. Iren. gr., Hieron.'",
+    "orig": "καθαρὸς ἄρτος εὑρεθῶ",
+    "en": "I may be found pure bread",
+    "plain": "pure bread"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake and his Greek and Latin witnesses. Lightfoot thinks it 'probable from a comparison of these authorities that the genitive should be omitted altogether', and brackets 'of Christ'.",
+  "b": "Jerome's Latin reads <i>Frumentum Christi sum, dentibus bestiarum molar, ut panis mundus inveniar</i>: <i>mundus</i> is the adjective 'clean, pure', so 'that I may be found pure bread', with no 'of Christ'. The Nicene Fathers English renders it 'the bread of the world', taking <i>mundus</i> as the noun. The Latin of Irenaeus, as Lightfoot reports it, also has 'of Christ' in the first half ('wheat of Christ') where the Greek has 'of God'.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889",
+   "eusebius-greek-lake-3",
+   "jerome-illustrious-latin"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "Plead with Christ",
+  "t": "'Christ' or 'the Lord'?",
+  "p": "The Syriac and Armenian read 'the Lord'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L)",
+    "orig": "λιτανεύσατε τὸν Χριστόν",
+    "en": "entreat Christ",
+    "plain": "Plead with Christ"
+   },
+   {
+    "w": "The Syriac and Armenian (S A), Lake's footnote",
+    "orig": "λιτανεύσατε τὸν κύριον",
+    "en": "entreat the Lord",
+    "plain": "Plead with the Lord"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is the same.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "4:2",
+  "a": "a sacrifice",
+  "t": "'A sacrifice' or 'a sacrifice to God'?",
+  "p": "The Latin, Syriac and Armenian add 'to God' or 'of God'; Lightfoot prints it.",
+  "readings": [
+   {
+    "w": "Lake's text (G (for this letter the one Greek manuscript, the tenth-century Paris manuscript Lightfoot calls the Colbertine))",
+    "orig": "θυσία",
+    "en": "a sacrifice",
+    "plain": "a sacrifice"
+   },
+   {
+    "w": "The Latin, Syriac and Armenian (L S A), Lake's footnote: θεῷ (θεοῦ) θυσία; Lightfoot prints θεοῦ",
+    "orig": "θεοῦ θυσία",
+    "en": "a sacrifice of God",
+    "plain": "a sacrifice to God"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot explains the shorter Greek as a copyist's slip over similar letters (ΘΕΟΥΘΥΣΙΑ), and prefers 'of God'.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "if they are unwilling and refuse",
+  "t": "Who is unwilling: the beasts, or Ignatius willing?",
+  "p": "One letter changes the sense: 'unwilling' (the beasts) or 'willing' (Ignatius).",
+  "readings": [
+   {
+    "w": "Lake's text: G and Eusebius (Lake's footnote)",
+    "orig": "κἂν αὐτὰ δὲ ἄκοντα μὴ θελήσῃ",
+    "en": "even if they, unwilling, refuse",
+    "plain": "if they are unwilling and refuse"
+   },
+   {
+    "w": "The Latin and the long recension (L g), Lake's footnote; preferred by Lightfoot",
+    "orig": "κἂν αὐτὰ δὲ ἑκόντα μὴ θελήσῃ",
+    "en": "even if they refuse me, though I am willing",
+    "plain": "if they refuse me when I am willing"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, Ignatius's Greek and Eusebius's quotation. With Lightfoot's reading, the 'willing' one is Ignatius.",
+  "b": "Lake: 'ἄκοντα G Euseb, ἑκόντα Lg, (om. SA). Lightfoot prefers ἑκόντα \"willing,\" which must be an accusative referring to Ignatius.'",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "5:3",
+  "a": "cuttings and tearings apart",
+  "t": "Two items of the list missing in some witnesses",
+  "p": "The Latin and Eusebius's quotation leave out 'cuttings and tearings apart'; the Syriac and Armenian have only one of the two.",
+  "readings": [
+   {
+    "w": "G (for this letter the one Greek manuscript, the tenth-century Paris manuscript Lightfoot calls the Colbertine), the Armenian Acts (Am), the Metaphrast (M) and the long recension (g), as Lightfoot reports them; Lake's text (Lightfoot prints the two words in brackets)",
+    "orig": "ἀνατομαί, διαιρέσεις",
+    "en": "cuttings, tearings apart",
+    "plain": "cuttings and tearings apart"
+   },
+   {
+    "w": "The Syriac and Armenian versions (S A), as Lightfoot reports them",
+    "orig": "διαιρέσεις",
+    "en": "tearings apart",
+    "plain": "tearings apart"
+   },
+   {
+    "w": "The Latin (L), the Syriac abridgment (Σ), Eusebius and the Syriac Eusebius (Lightfoot's apparatus); Eusebius's Greek, <i>Church History</i> 3.36.9, goes straight from 'battles with wild beasts' to 'scattering of bones'",
+    "orig": "",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text, which keeps the two words with the Greek manuscript. Lightfoot brackets them as doubtful.",
+  "b": "Eusebius's Greek also reads 'choppings of limbs' (<i>synkopai</i>, plural) for Lake's 'chopping' (<i>synkopē</i>), with the long recension, and 'tortures of the devil' without 'cruel'. Lightfoot prints the plural.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "eusebius-greek-lake-3",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "and do not trick him with material things",
+  "t": "A clause missing in two witnesses",
+  "p": "The Greek manuscript and the long recension leave out 'do not trick him with material things'.",
+  "readings": [
+   {
+    "w": "Lake's text, with L S A (Lake's footnote)",
+    "orig": "μηδὲ ὕλῃ ἐξαπατήσητε",
+    "en": "nor deceive him with matter",
+    "plain": "and do not trick him with material things"
+   },
+   {
+    "w": "G and the long recension g (Lake's footnote: 'omitted in Gg')",
+    "orig": "",
+    "en": "(omitted)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the clause from the versions. Lightfoot, as Lake reports, thinks the versions imply 'flatter' (κολακεύσητε) rather than 'deceive' (ἐξαπατήσητε).",
+  "b": "With the omission the sentence ends 'Do not hand over to the world one who wants to be God's.'",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "living water in me that speaks",
+  "t": "'Speaking' or 'leaping' water?",
+  "p": "Lightfoot thought the original said the water was 'leaping', as in John 4:14.",
+  "readings": [
+   {
+    "w": "Lake's text (G (for this letter the one Greek manuscript, the tenth-century Paris manuscript Lightfoot calls the Colbertine))",
+    "orig": "ὕδωρ δὲ ζῶν καὶ λαλοῦν ἐν ἐμοί",
+    "en": "living and speaking water in me",
+    "plain": "living water in me that speaks"
+   },
+   {
+    "w": "The long recension g (ἁλλόμενον); Lightfoot's proposed correction of καὶ λαλοῦν (Lake's footnote)",
+    "orig": "ὕδωρ δὲ ζῶν ἁλλόμενον ἐν ἐμοί",
+    "en": "living water leaping in me",
+    "plain": "living water in me that leaps up"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The water's speech ('Come to the Father') follows at once, so 'speaking' fits the sentence.",
+  "b": "Lake: 'The text is much expanded in the later authorities: Lightfoot is inclined to emend καὶ λαλοῦν to ἁλλόμενον, which is found in g, as a reference to Joh. 4, 14.' Lightfoot's apparatus shows the confusion in the witnesses: forms with 'other', 'good', 'rather' and 'leaping' all appear. Compare 'water leaping up into eternal life' (John 4:14).",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "the flesh of Jesus Christ",
+  "t": "'Jesus Christ' or 'Christ'?",
+  "p": "The Syriac and the long recension leave out 'Jesus'.",
+  "readings": [
+   {
+    "w": "Lake's text (G L A)",
+    "orig": "σὰρξ Ἰησοῦ Χριστοῦ",
+    "en": "the flesh of Jesus Christ",
+    "plain": "the flesh of Jesus Christ"
+   },
+   {
+    "w": "The Syriac and the long recension (S g), Lake's footnote",
+    "orig": "σὰρξ Χριστοῦ",
+    "en": "the flesh of Christ",
+    "plain": "the flesh of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is the same.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ }
+]

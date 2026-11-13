@@ -1,0 +1,428 @@
+[
+ {
+  "v": "1:2",
+  "a": "Those who listen as if these were little things are sinning, and we are sinning too",
+  "t": "\"They sin, and we sin\" or \"we sin\"?",
+  "p": "The two Greek manuscripts lack three words that the Syriac has; Lake prints them.",
+  "readings": [
+   {
+    "w": "Lake's text, with the Syriac version (S)",
+    "orig": "καὶ οἱ ἀκούοντες ὡς περὶ μικρῶν ἁμαρτάνουσιν, καὶ ἡμεῖς ἁμαρτάνομεν",
+    "en": "and those who hear as about little things sin, and we sin",
+    "plain": "Those who listen as if these were little things are sinning, and we are sinning too"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s) and the Constantinople manuscript (C, 1056), as Lake's footnote reports",
+    "orig": "καὶ οἱ ἀκούοντες ὡς περὶ μικρῶν ἁμαρτάνομεν",
+    "en": "and we who hear as about little things sin",
+    "plain": "We who listen as if these were little things are sinning"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the Syriac, which has 'they sin, and we'. His footnote: 'om. ἁμαρτάνουσιν, καὶ ἡμεῖς AC.' The Greek of A and C makes the hearers and the preacher one group. The difference is small: in both, those who take salvation lightly sin.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "3:2",
+  "a": "Whoever confesses me in front of people,",
+  "t": "\"In front of people\"",
+  "p": "The Syriac lacks \"in front of people\"; the Greek manuscripts have it.",
+  "readings": [
+   {
+    "w": "Lake's text, with A and C",
+    "orig": "Τὸν ὁμολογήσαντά με ἐνώπιον τῶν ἀνθρώπων",
+    "en": "the one who has confessed me before men",
+    "plain": "Whoever confesses me in front of people,"
+   },
+   {
+    "w": "The Syriac version (S), as Lake's footnote reports",
+    "orig": "(omits ἐνώπιον τῶν ἀνθρώπων)",
+    "en": "the one who has confessed me",
+    "plain": "Whoever confesses me,"
+   }
+  ],
+  "follow": 0,
+  "why": "Both Greek manuscripts have the words, and so do the Gospel forms of the saying (Matthew 10:32; Luke 12:8). Lake's footnote: 'ἐνώπιον τῶν ἀνθρώπων AC, om. S.'",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "6:6",
+  "a": "We think",
+  "t": "\"We think\" or \"Let us think\"?",
+  "p": "Lightfoot changed one letter to make a call: \"let us think\".",
+  "readings": [
+   {
+    "w": "Lake's text, with A, C and the Syriac (S)",
+    "orig": "οἰόμεθα",
+    "en": "we think",
+    "plain": "We think"
+   },
+   {
+    "w": "Lightfoot's correction (1890)",
+    "orig": "οἰώμεθα",
+    "en": "let us think",
+    "plain": "Let us think"
+   }
+  ],
+  "follow": 0,
+  "why": "All three witnesses have the indicative. Lightfoot's footnote: 'οἰώμεθα] οἰόμεθα ACS. S also adds δὲ ἀδελφοί', that is, the Syriac adds 'brothers'. Lake: 'οἰόμεθα ACS, but Lightfoot emends to οἰώμεθα \"Let us etc.\"' The two forms sounded alike in later Greek. Either way the preacher urges the hearers to hate what is here and love what is there.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "7:3",
+  "a": "So let us run the straight course",
+  "t": "\"Let us run\" or \"Let us set\"?",
+  "p": "The Greek manuscripts read \"let us set\"; the Syriac implies \"let us run\", and Lake prints it.",
+  "readings": [
+   {
+    "w": "Lake's text and Lightfoot's, from the Syriac (S)",
+    "orig": "θέωμεν",
+    "en": "let us run",
+    "plain": "So let us run the straight course"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and the Constantinople manuscript (C)",
+    "orig": "θῶμεν",
+    "en": "let us set (lay out)",
+    "plain": "So let us lay out the straight course"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'AC read θῶμεν, but the Syriac implies θέωμεν and is probably right.' Lightfoot also prints θέωμεν: the Greek manuscripts' reading 'can hardly stand' and 'θῶμεν τὴν ὁδὸν is in itself an awkward expression'. Running the course fits the race of 7:1-4.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "8:6",
+  "a": "so that we may receive eternal life",
+  "t": "\"We may receive\" or \"you may receive\"; \"eternal\" life?",
+  "p": "C and the Syriac smooth the change of person; the Syriac also lacks \"eternal\".",
+  "readings": [
+   {
+    "w": "Lake's text, with Codex Alexandrinus (A)",
+    "orig": "ἵνα τὴν αἰώνιον ζωὴν ἀπολάβωμεν",
+    "en": "that we may receive eternal life",
+    "plain": "so that we may receive eternal life"
+   },
+   {
+    "w": "The Constantinople manuscript (C) and the Syriac (S), as Lightfoot's apparatus reports",
+    "orig": "ἀπολάβητε",
+    "en": "that you may receive",
+    "plain": "so that you may receive eternal life"
+   },
+   {
+    "w": "The Syriac (S), as Lightfoot's note reports",
+    "orig": "(omits αἰώνιον)",
+    "en": "that we may receive life",
+    "plain": "so that we may receive life"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot's apparatus: 'ἀπολάβωμεν] A; απολαβητε CS', and his note: 'The licence in the change of persons (τηρήσατε, ἀπολάβωμεν) has offended the transcribers here'. On 'eternal' he wrote that 'The omission in the Syriac is probably correct', since the word may have come in from 'eternal life' just above (8:4). Lake prints A's reading, with 'eternal', and has no footnote here; the Plain English Translation follows Lake.",
+  "s": [
+   "lightfoot-clement-1890",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "9:5",
+  "a": "If Christ, the Lord who saved us, was spirit at first and became flesh, and called us in that way, then we too will receive our reward in this flesh.",
+  "t": "\"If Christ\" or \"One Christ\"; \"spirit\" or \"Word\"?",
+  "p": "The manuscripts read \"One Christ\"; one of them has \"Word\" for \"spirit\". Lake and Lightfoot read \"If\".",
+  "readings": [
+   {
+    "w": "Lake's text and Lightfoot's: εἰ from the Syriac fragments, πνεῦμα with A and the Syriac version",
+    "orig": "εἰ Χριστός, ὁ κύριος ὁ σώσας ἡμᾶς, ὢν μὲν τὸ πρῶτον πνεῦμα, ἐγένετο σάρξ",
+    "en": "if Christ, the Lord who saved us, being at first spirit, became flesh",
+    "plain": "If Christ, the Lord who saved us, was spirit at first and became flesh, and called us in that way, then we too will receive our reward in this flesh."
+   },
+   {
+    "w": "Codex Alexandrinus (A) and the Syriac version (S), and Timotheus of Alexandria, as Lightfoot reports",
+    "orig": "εἷς Χριστός ... ὢν μὲν τὸ πρῶτον πνεῦμα",
+    "en": "one Christ, the Lord who saved us, being at first spirit, became flesh",
+    "plain": "One Christ, the Lord who saved us, was spirit at first and became flesh, and called us in that way. So we too will receive our reward in this flesh."
+   },
+   {
+    "w": "The Constantinople manuscript (C), as Lightfoot reports",
+    "orig": "εἷς Χριστός ... ὢν μὲν τὸ πρῶτον λόγος",
+    "en": "one Christ, the Lord who saved us, being at first Word, became flesh",
+    "plain": "One Christ, the Lord who saved us, was the Word at first and became flesh, and called us in that way. So we too will receive our reward in this flesh."
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot's apparatus: 'εἰ] Fragm Syr; εἷς ACS Timoth', and 'πνεῦμα] AS; λόγος C'. He prints εἰ 'If' as 'evidently required by the context', since the sentence goes on 'so also we': 'εἷς is quite out of place here'. He suggests that the manuscripts' ΕΙϹ arose from ΕΙΙϹ, a short way of writing 'if Jesus'. Lake prints the same text without a footnote. C's 'Word' makes the verse say what John 1:14 says; the other witnesses' 'spirit' is the harder reading, and Lightfoot gives a motive for the change (see the note on 'spirit').",
+  "b": "Lightfoot reports that the Syriac version also has a longer form of the first half of the sentence, and that this passage was copied into several collections of Syriac extracts, which is where the reading εἰ is found.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "9:10",
+  "a": "give him praise",
+  "t": "\"Praise\" or \"eternal (praise)\"?",
+  "p": "Codex Alexandrinus has \"eternal\" where the other witnesses have \"praise\".",
+  "readings": [
+   {
+    "w": "Lake's text, with C and the Syriac (S)",
+    "orig": "αἶνον",
+    "en": "praise",
+    "plain": "give him praise"
+   },
+   {
+    "w": "Codex Alexandrinus (A)",
+    "orig": "αἰώνιον",
+    "en": "eternal",
+    "plain": "give him what is eternal"
+   },
+   {
+    "w": "Lightfoot's suggestion, as Lake reports it",
+    "orig": "αἶνον αἰώνιον",
+    "en": "eternal praise",
+    "plain": "give him eternal praise"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'αἶνον CS, αἰώνιον A; Lightfoot thinks that the original text was αἶνον αἰώνιον (everlasting praise).' The two words look alike in Greek, so a copyist could easily drop one. 'Praise' fits 1:5, 'what sort of praise will we give him'.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "10:3",
+  "a": "a person cannot find peace",
+  "t": "\"Find\" or \"prosper\"?",
+  "p": "Lightfoot changed \"find\" to \"prosper\"; Lake keeps \"find\" but thinks the text is damaged.",
+  "readings": [
+   {
+    "w": "Lake's text, with the manuscripts",
+    "orig": "οὐκ ἔστιν εὑρεῖν ἄνθρωπον",
+    "en": "it is not possible for a person to find (it)",
+    "plain": "a person cannot find peace"
+   },
+   {
+    "w": "Lightfoot's correction, as Lake reports it",
+    "orig": "οὐκ ἔστιν εὐημερεῖν ἄνθρωπον",
+    "en": "it is not possible for a person to prosper",
+    "plain": "a person cannot prosper"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'Lightfoot emends εὑρεῖν to εὐημερεῖν (to prosper), but even so the Greek is very obscure and probably there is a primitive corruption, perhaps the omission of a whole line.' The Plain English Translation keeps the manuscripts' word and supplies 'peace' from 10:2, as Lake's English does ('to find it', with the note 'i.e. peace').",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "We heard these things long ago",
+  "t": "\"Long ago\" or \"all\"?",
+  "p": "Codex Alexandrinus reads \"all these things\" for \"long ago\".",
+  "readings": [
+   {
+    "w": "Lake's text, with C and the Syriac (S)",
+    "orig": "Ταῦτα πάλαι ἠκούσαμεν",
+    "en": "these things we heard long ago",
+    "plain": "We heard these things long ago"
+   },
+   {
+    "w": "Codex Alexandrinus (A)",
+    "orig": "Ταῦτα πάντα ἠκούσαμεν",
+    "en": "all these things we heard",
+    "plain": "We heard all these things"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'πάλαι CS, πάντα A.' Two witnesses against one; 'long ago' also fits the complaint that nothing has happened since 'our fathers' days'. 1 Clement 23:3 has neither word.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "12:5",
+  "a": "and she should have no thought of him as male",
+  "t": "\"Of him\" or \"of himself\"?",
+  "p": "One breathing mark decides whether the last clause is about the sister or the brother.",
+  "readings": [
+   {
+    "w": "Lake's text",
+    "orig": "μηδὲ φρονῇ τι περὶ αὐτοῦ ἀρσενικόν",
+    "en": "nor think anything male about him",
+    "plain": "and she should have no thought of him as male"
+   },
+   {
+    "w": "Lake's footnote, reading αὑτοῦ",
+    "orig": "μηδὲ φρονῇ τι περὶ αὑτοῦ ἀρσενικόν",
+    "en": "nor think anything male about himself",
+    "plain": "and he should have no thought of himself as male"
+   }
+  ],
+  "follow": 0,
+  "why": "The old manuscripts were written without breathing marks, so the editor must choose between αὐτοῦ 'him' and αὑτοῦ 'himself'. Lake translates 'nor she of him as male', and his note gives the other: 'Or, if αὑτοῦ be read instead of αὐτοῦ, \"nor have any thought of himself as male.\"' Both readings teach purity between brothers and sisters in the church.",
+  "b": "Codex Alexandrinus ends partway through this verse: Lake's footnote, 'From this point A is wanting.' From here to 20:5 the Greek rests on the Constantinople manuscript (C, 1056) and the Syriac version alone. Lake also notes that οὐδέν ('nothing') earlier in the verse should grammatically be μηδέν, but 'is probably a solecism of the writer rather than a corruption of the text'.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "14:2",
+  "a": "the Books and the apostles also say",
+  "t": "\"The Books\" or \"the books of the prophets\"?",
+  "p": "The Syriac adds \"of the prophets\"; C lacks the verb \"say\", which Lake supplies.",
+  "readings": [
+   {
+    "w": "Lake's text: C with λέγουσιν supplied",
+    "orig": "τὰ βιβλία καὶ οἱ ἀπόστολοι ... λέγουσιν",
+    "en": "the books and the apostles ... say",
+    "plain": "the Books and the apostles also say"
+   },
+   {
+    "w": "The Syriac version (S), as Lake's footnote reports",
+    "orig": "(adds \"of the prophets\" after \"the books\")",
+    "en": "the books of the prophets and the apostles say",
+    "plain": "the books of the prophets and the apostles also say"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'λέγουσι om. C. Some such word is necessary to the grammar of the sentence, and is implied by S, but whether it was λέγουσι or φασί, and its exact place in the sentence is of course uncertain. S also adds \"of the prophets\" after \"the books.\"' Without a verb C's sentence does not stand, so Lake's supplied verb departs from C's Greek: a variant entry. The Syriac's 'of the prophets' makes explicit that 'the books' are the Old Testament, as Lightfoot also read them.",
+  "b": "A second note of Lake at the same place: C has ἔτι, 'moreover', and the Syriac 'and moreover'. That does not change the sense.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "16:3",
+  "a": "Some of the heavens will melt",
+  "t": "\"Some of the heavens\" or \"the powers of heaven\"?",
+  "p": "Lightfoot guessed \"the powers of heaven\", the wording of the Greek Isaiah 34:4.",
+  "readings": [
+   {
+    "w": "Lake's text, with C and the Syriac",
+    "orig": "τακήσονταί τινες τῶν οὐρανῶν",
+    "en": "some of the heavens will melt",
+    "plain": "Some of the heavens will melt"
+   },
+   {
+    "w": "Lightfoot's conjecture, as Lake reports it",
+    "orig": "τακήσονται αἱ δυνάμεις τῶν οὐρανῶν",
+    "en": "the powers of the heavens will melt",
+    "plain": "The powers of heaven will melt"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'Lightfoot conjectures δυνάμεις, which is found in the LXX text of Is, xxxiv, 4, to which the writer is alluding.' No manuscript has it. Lake's English note defends the transmitted text 'as a reference to the early Christian belief in seven concentric heavens surrounding the Earth' (see the note on this verse).",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "to lead the weak upward toward what is good",
+  "t": "\"Lead upward\" or \"bring back\"?",
+  "p": "The Syriac may imply a different preposition: \"bring back to goodness\".",
+  "readings": [
+   {
+    "w": "Lake's text, with C",
+    "orig": "τοὺς ἀσθενοῦντας ἀνάγειν περὶ τὸ ἀγαθόν",
+    "en": "to lead up the weak concerning the good",
+    "plain": "to lead the weak upward toward what is good"
+   },
+   {
+    "w": "The Syriac version (S), as Lake's footnote reports",
+    "orig": "πρὸς τὸ ἀγαθόν (implied)",
+    "en": "to bring back the weak to the good",
+    "plain": "to bring the weak back to what is good"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'S perhaps implies πρός \"bring back to goodness.\"' The Greek manuscript's περί is unusual with this verb, which is why the Syriac's reading has some weight; the meaning is nearly the same.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "When we have gone home, too,",
+  "t": "A Syriac addition",
+  "p": "The Syriac adds \"and have ceased from all\".",
+  "readings": [
+   {
+    "w": "Lake's text, with C",
+    "orig": "ὅταν εἰς οἶκον ἀπαλλαγῶμεν",
+    "en": "when we have gone off home",
+    "plain": "When we have gone home, too,"
+   },
+   {
+    "w": "The Syriac version (S), as Lake's footnote reports",
+    "orig": "(adds \"and have ceased from all\")",
+    "en": "when we have gone off home and have ceased from all",
+    "plain": "When we have gone home and have stopped everything, too,"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'S adds \"and have ceased from all.\"' Only the Syriac has the words, so Lake and the Plain English Translation leave them out.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "17:3",
+  "a": "let us come here more often",
+  "t": "\"Come\" or \"pray\"?",
+  "p": "The Syriac reads \"praying\" more often, where the Greek has \"coming\".",
+  "readings": [
+   {
+    "w": "Lake's text and Lightfoot's, with C",
+    "orig": "πυκνότερον προσερχόμενοι",
+    "en": "coming more often",
+    "plain": "let us come here more often"
+   },
+   {
+    "w": "The Syriac version (S), as Lightfoot's apparatus reports",
+    "orig": "πυκνότερον προσευχόμενοι",
+    "en": "praying more often",
+    "plain": "let us pray more often"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot's apparatus: 'προσερχόμενοι] C; προσευχόμενοι S'. The two Greek words differ by one or two letters. 'Coming' fits the contrast of the sentence, between paying attention in the meeting and forgetting at home; Lake translates 'let us try to come here more frequently'.",
+  "s": [
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "19:3",
+  "a": "in this world",
+  "t": "\"In this world\" or \"in the world\"?",
+  "p": "The Syriac lacks \"this\"; Lightfoot struck it out, Lake keeps it.",
+  "readings": [
+   {
+    "w": "Lake's text, with C",
+    "orig": "ἐν τῷ κόσμῳ τούτῳ",
+    "en": "in this world",
+    "plain": "in this world"
+   },
+   {
+    "w": "The Syriac version (S), as Lake's footnote reports; Lightfoot's text",
+    "orig": "ἐν τῷ κόσμῳ",
+    "en": "in the world",
+    "plain": "in the world"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'τούτῳ om. S, in Lightfoot's opinion correctly.' Lightfoot's apparatus: 'τῷ κόσμῳ] S; add. τούτῳ C', and he explains that he struck the word out with 'less hesitation' because of the Syriac's general tendency. Lake keeps C's reading, and so does the Plain English Translation; 'this world' is the preacher's usual phrase (5:1; 5:5; 8:2). The meaning does not change.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ }
+]

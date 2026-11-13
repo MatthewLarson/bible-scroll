@@ -19,7 +19,8 @@
                            The Apostolic Fathers (Greek): "grc" Kirsopp Lake's text (Loeb, 1912-1913) by his chapter and
                              section, the greeting or title he prints before chapter 1 as 1:0; Polycarp "lat", the Latin
                              where the Greek is lost, with "gap" {c:v: why} where there is no Greek; "fixed" {c:v: what was
-                             corrected}: damage in the digital Lake, checked against his printed page (tools/lake-fixes.json)
+                             corrected}: damage in the digital Lake, checked against his printed page (tools/lake-fixes.json);
+                             the Epistle to Diognetus "lacuna" {c:v: the gap after the verse, in Lake's words}
      texts/en/<id>.json    {"about":{...}, key:{c:v: text}}: public-domain English, for checking sense only
      texts/auto/<id>.json  machine-found differences between two witnesses, for the writers to judge
      texts/src/<id>.*.json  material for the writers that is not shown verse by verse (Swete's and Lake's apparatus; the
@@ -32,7 +33,8 @@
    Charles 1893. Septuagint: H. B. Swete, The Old Testament in Greek (1907-1912), public domain, word file by Eliran Wong
    (LXX-Swete-1930); Swete's apparatus from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). English and Latin:
    scrollmapper/bible_databases (public domain). Apostolic Fathers: Lake's Greek from First1KGreek (CC BY-SA 4.0); English
-   from Wikisource (Lake's own for the Didache, Barnabas and 1 Clement; Lightfoot's Polycarp; the Ante-Nicene Martyrdom).
+   from Wikisource (Lake's own for the Didache, Barnabas, 1 Clement and 2 Clement; Lightfoot's Polycarp; the Ante-Nicene
+   Martyrdom, Epistle to Diognetus and letters of Ignatius, the shorter form).
 """
 import json, re, os, sys, csv, difflib, collections, unicodedata
 sys.stdout.reconfigure(encoding='utf-8')   # Ge'ez in the warnings; the Windows console default is cp1252
@@ -224,6 +226,45 @@ WORKS = [
                'translation, printed facing his Greek (1912), public domain, from Wikisource. Its numbers are the Greek’s; '
                'its verse 0 is the greeting. Lake’s notes and margin headings are left out; the transcription lacks the number of 45:8, '
                'which is put back.')}),
+    ('2Cl', '2 Clement', '2-clement', 'apfathers', {'f1k': 'tlg1271/tlg002/tlg1271.tlg002.1st1K-grc1.xml',
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 '
+                '(Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). '
+                'Lake’s witnesses are the two Greek manuscripts of 1 Clement, Codex Alexandrinus (A) and the Codex '
+                'Constantinopolitanus (C), and the Syriac version (S); it is not in the Latin or Coptic versions of 1 Clement. '
+                'There is no greeting: the text begins with chapter 1.'),
+        'sigla': 'A Codex Alexandrinus; C the Codex Constantinopolitanus; S the Syriac version',
+        'en_split': {'1:8': ('1:7', 'for he called us')},
+        'en': ('roman', f'{DL}/apfathers/2cl-lake.wiki', 'lake', 'Kirsopp Lake (1912)', 'Lake', 'Kirsopp Lake’s English '
+               'translation, printed facing his Greek (1912), public domain, from Wikisource. Its numbers are the Greek’s. '
+               'Lake’s notes and margin headings are left out; the transcription lacks the number of 1:8, which is put back.')}),
+    ('IEp', 'Ignatius to the Ephesians', 'ignatius-ephesians', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '1', 'praef_head': True,
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΠΡΟΣ ΕΦΕΣΙΟΥΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/iep-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('IRo', 'Ignatius to the Romans', 'ignatius-romans', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '4', 'praef_head': True,
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). The Medicean manuscript omits the letter to the Romans; its one Greek manuscript is a Paris manuscript of the 10th century (Paris Graec. 1451), first printed by Ruinart in 1689, and in this letter Lake’s G stands for it. Verse 0 is the greeting.'),
+        'sigla': 'G the one Greek manuscript of this letter, the 10th-century Paris MS (Paris Graec. 1451, Lightfoot’s Colbertine; Lake’s footnotes use G for it, as Lightfoot’s sigla do); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΡΩΜΑΙΟΙΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/iro-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('ISm', 'Ignatius to the Smyrnaeans', 'ignatius-smyrnaeans', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '6', 'praef_head': True,
+        'split': {'4:2': ('4:1', '2, ', 'the file runs Lake’s 4:2 into 4:1, leaving his section number “2,” inside the text; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) begin section 2 at εἰ γὰρ τὸ δοκεῖν')},
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΣΜΥΡΝΑΙΟΙΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/ism-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
     ('Pol', 'Polycarp to the Philippians', 'polycarp-philippians', 'apfathers', {'f1k': 'tlg1622/tlg001/tlg1622.tlg001.1st1K-grc1.xml',
         'lat_from': {'13:2': 'ετ δε ιπσο'},
         'gap': 'the Greek is lost here: Lake prints the old Latin translation',
@@ -258,6 +299,26 @@ WORKS = [
                'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
                'Wikisource; Wikisource has no copy of Lake’s. It numbers chapters but not sections, so each chapter’s whole '
                'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('Dgn', 'Epistle to Diognetus', 'epistle-to-diognetus', 'apfathers', {'f1k': 'tlg0646/tlg004/tlg0646.tlg004.1st1K-grc1.xml',
+        'grc': ('Greek: Lake’s edition (1913)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 2 '
+                '(Loeb Classical Library, 1913; the digital text is from its 1917 printing), public domain, from First1KGreek '
+                '(Open Greek and Latin, CC BY-SA 4.0), where it is filed under Pseudo-Justin. Lake’s text rests on the one '
+                'manuscript, at Strasburg, probably of the 1200s or 1300s, destroyed by fire in 1870, as collated for Otto’s '
+                'edition; the copies made from it in the 1500s (Stephanus, Beurer, Hausius) are the only other witnesses. '
+                'Lake marks two gaps in the manuscript, after 7:6 and after 10:1 (see "lacuna"), and says chapters 11–12 have '
+                '“clearly no connection with the preceding ones” and belong to a different document. There is no greeting: '
+                'the text begins with chapter 1; the title Lake prints above it is in texts/src/Dgn.extra.json.'),
+        'sigla': 'the Strasburg manuscript, its copies and the editors Lake names',
+        'lacuna': {'7:6': ('ὑποστήσεται; ...', 'Lake’s note: “There is here a lacuna in the MS. Probably the next sentence may '
+                           'be completed by prefixing ‘Do you not see that’ before ‘they are thrown.’”'),
+                   '7:7': ('.. ', None),
+                   '10:1': ('πατρός...', 'Lake’s note: “Here again there is apparently a lacuna in the text.”')},
+        'extra_about': 'The title Lake prints above chapter 1 ("head"), ΕΠΙΣΤΟΛΗ ΠΡΟΣ ΔΙΟΓΝΗΤΟΝ, from First1KGreek (CC BY-SA 4.0).',
+        'en_drop': ['1:0'],
+        'en': ('anf', f'{DL}/apfathers/dgn-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section, and it does not mark the two gaps as Lake does.')}),
 ]
 def dump(path, obj): json.dump(obj, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 clean = lambda s: re.sub(r'\s+', ' ', s).strip()
@@ -850,6 +911,8 @@ def tei_text(e, notes, at):
             bibl = k.find(TEI + 'bibl')
             if bibl is not None: notes['refs'].append({'at': at, 'ref': clean(''.join(bibl.itertext())), 'urn': bibl.get('corresp', '')})
             else: notes['notes'].append({'at': at, 'note': clean(''.join(k.itertext()))})
+        elif k.tag == TEI + 'bibl':   # a margin reference outside a note (2 Clement 4:1): not part of the text
+            notes['refs'].append({'at': at, 'ref': clean(''.join(k.itertext())), 'urn': k.get('corresp', '')})
         elif k.tag != TEI + 'head': out.append(tei_text(k, notes, at))
         out.append(k.tail or '')
     return ''.join(out)
@@ -871,6 +934,19 @@ def fix_af(bid, verses, lat, table):
             text[cv] = text[cv].replace(bad, good); done.append(f'{bad} → {good} ({by})')
         fixed[cv] = 'Damage in the digital text of Lake, corrected: ' + '; '.join(done)
     return fixed
+
+def fix_app(bid, notes):
+    """Slips in Lake's apparatus (a margin reference or footnote misread in the digital file), put right from his printed
+    page: tools/lake-fixes.json "_app" {book: {"refs" or "notes": {at: [(wrong, right, the evidence)]}}}. Each fixed entry
+    keeps the evidence in "fixed"."""
+    app = json.load(open(os.path.join(ROOT, 'tools', 'lake-fixes.json'), encoding='utf-8')).get('_app', {}).get(bid, {})
+    for kind, field in (('refs', 'ref'), ('notes', 'note')):
+        for at, fixes in app.get(kind, {}).items():
+            for bad, good, by in fixes:
+                hit = [n for n in notes[kind] if n['at'] == at and bad in n[field]]
+                assert len(hit) == 1 and hit[0][field].count(bad) == 1, (bid, kind, at, bad)
+                hit[0][field] = hit[0][field].replace(bad, good)
+                hit[0]['fixed'] = '; '.join(filter(None, [hit[0].get('fixed'), f'{bad} → {good} ({by})']))
 
 def wiki_plain(t):
     """Wikitext to plain text: footnotes, templates, links, italics and HTML tags out."""
@@ -900,6 +976,28 @@ def en_apfathers(kind, path):
     chapters without sections: the Martyrdom). Text before chapter 1 (title or greeting) is 1:0. Where the translation does
     not number sections, a chapter's whole English stands at its first section."""
     out = {}
+    if kind == 'ancl':   # the Ante-Nicene letters of Ignatius: a table, shorter form left, longer right, chapter heads across
+        import html as H
+        t = json.load(open(path, encoding='utf-8'))['parse']['text']
+        t = re.sub(r'<style.*?</style>|<sup[^>]*class="reference".*?</sup>|<span class="pagenum.*?</span></span>', '', t, flags=re.S)
+        plain = lambda s: clean(H.unescape(re.sub(r'<[^>]+>', ' ', s)).replace('\u200b', ''))
+        c = 0
+        for row in re.findall(r'<tr[^>]*>(.*?)</tr>', t, re.S):
+            cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
+            if len(cells) == 1:   # a chapter head ("Chap. iv.—The same continued."; Smyrnaeans 13 is just "Conclusion.")
+                h = plain(cells[0])
+                m = re.match(r'Chap\. ([ivxlc]+)\.', h)
+                if m or h == 'Conclusion.':
+                    c += 1; assert not m or m[1] == roman(c).lower(), (path, h, c)
+                continue
+            if len(cells) != 3: continue
+            s = plain(cells[0])
+            m = re.match(r'Chap\. ([ivxlc]+)\.\s*—[^.]*\.\s*', s)   # a head inside the shorter column (Ephesians 20)
+            if m: c += 1; assert m[1] == roman(c).lower(), (path, s[:40], c); s = s[m.end():]
+            if c == 0:
+                assert s.startswith('Shorter.'), (path, s[:40]); out['1:0'] = clean(s[len('Shorter.'):]); continue
+            if s: out[f'{c}:1'] = clean(out.get(f'{c}:1', '') + ' ' + s)
+        return out
     if kind == 'anf':
         import html as H
         t = json.load(open(path, encoding='utf-8'))['parse']['text']
@@ -911,7 +1009,8 @@ def en_apfathers(kind, path):
         heads = lambda s: re.sub(r'<div class="wst-center[^"]*">.*?</div>', '', s, flags=re.S)
         plain = lambda s: clean(H.unescape(re.sub(r'<[^>]+>', ' ', heads(s))).replace('​', ''))
         out['1:0'] = [plain(p) for p in re.findall(r'<p>(.*?)</p>', bits[0], re.S) if plain(p)][-1]   # the greeting: the last paragraph before chapter 1
-        for c, s in zip(bits[1::2], bits[2::2]): out[f'{c}:1'] = plain(s)
+        for c, s in zip(bits[1::2], bits[2::2]):   # a chapter head left inside its own bit (Diognetus 1) is cut off
+            out[f'{c}:1'] = re.sub(r'^Chap\. [ivxlc]+\.\s*—[^.]*\.\s*', '', plain(s))
         return out
     w = open(path, encoding='utf-8').read()
     w = re.split(r'==\s*Original footnotes\s*==|\{\{rule|\{\{translation[ _]license', w)[0]
@@ -927,7 +1026,7 @@ def en_apfathers(kind, path):
             numbered(wiki_plain(re.sub(r"^:''.*''\s*$", '', t, flags=re.M)), c, out)
     elif kind == 'roman':
         w = w.split('</h2>', 1)[1]
-        bits = re.split(r'<p style="text-align: center;">([IVXLC]+)\.</p>', w)
+        bits = re.split(r'<p style="text-align: center;">([IVXLC]+)\.?</p>', w)
         out['1:0'] = wiki_plain(bits[0])
         for k, (r, t) in enumerate(zip(bits[1::2], bits[2::2]), 1):
             assert r == roman(k), (r, k)
@@ -951,6 +1050,8 @@ def apfathers(bid, a):
     the file gives only in Lake's Latin (Polycarp, where the Greek is lost) goes to "lat", the Greek to "grc"."""
     root = ET.parse(f'{DL}/First1KGreek/data/{a["f1k"]}').getroot()
     ed = root.find(f'.//{TEI}div[@type="edition"]')
+    if a.get('epistle'):   # one letter of a collection in one file (Ignatius: 1 Ephesians ... 7 Polycarp)
+        ed = next(e for e in ed.iter(TEI + 'div') if e.get('subtype') == 'epistle' and e.get('n') == a['epistle'])
     notes, grc, lat, extra = {'notes': [], 'refs': []}, {}, {}, {}
     def put(cv, t):
         t = unicodedata.normalize('NFC', clean(t))
@@ -966,6 +1067,9 @@ def apfathers(bid, a):
         elif k.tag == TEI + 'div' and k.get('subtype') == 'chapter':
             c = k.get('n')
             if not c.isdigit() and c not in a.get('apart', {}):   # the greeting before chapter 1 ("preface", "praef")
+                h = k.find(TEI + 'head')
+                if a.get('praef_head') and h is not None:   # the letter's title, printed above its greeting (Ignatius)
+                    extra['head'] = unicodedata.normalize('NFC', clean(tei_text(h, {'notes': [], 'refs': []}, 'title')))
                 put('1:0', tei_text(k, notes, '1:0')); continue
             for s in k.iter(TEI + 'div'):
                 if s.get('subtype') != 'section': continue
@@ -974,6 +1078,15 @@ def apfathers(bid, a):
     for cv in list(grc): grc[cv] = elision(grc[cv]).replace(':', '·')   # the file's colon is the Greek raised stop
     for cv in list(lat): lat[cv] = latin(lat[cv])
     fixed = fix_af(bid, grc, lat, a.get('fix', {}))
+    for cv, (at, mark, why) in a.get('split', {}).items():   # a section the digital file runs into the one before it
+        mark = unicodedata.normalize('NFC', mark); assert grc[at].count(mark) == 1, (bid, at, mark)
+        i = grc[at].index(mark); grc[at], grc[cv] = clean(grc[at][:i]), clean(grc[at][i + len(mark):])
+        fixed[cv] = 'Damage in the digital text of Lake, corrected: ' + why
+    lacuna = {}
+    for cv, (dots, why) in a.get('lacuna', {}).items():   # Lake's row of dots where the manuscript has a gap: one … after the verse
+        assert grc[cv].count(dots) == 1, (bid, cv, grc[cv])
+        grc[cv] = clean(grc[cv].replace(dots, dots.rstrip('. ') + (' …' if why else '')))
+        if why: lacuna[cv] = why
     apart = {cv: t for cv, t in {**grc, **lat}.items() if not cv.split(':')[0].isdigit()}   # the Martyrdom's other epilogue
     for cv in apart: grc.pop(cv, None); lat.pop(cv, None)
     keys = sorted(set(grc) | set(lat), key=cvkey)
@@ -984,18 +1097,21 @@ def apfathers(bid, a):
          **({'lat': dict(sorted(lat.items(), key=lambda x: cvkey(x[0])))} if lat else {})}
     if lat: o['gap'] = {cv: a['gap'] for cv in keys if cv not in grc}
     if fixed: o['fixed'] = fixed
+    if lacuna: o['lacuna'] = lacuna
     en = en_apfathers(*a['en'][:2])
+    for cv in a.get('en_drop', []): en.pop(cv, None)   # text the translation prints before chapter 1 that is not a greeting
     for cv, (at, start) in a.get('en_split', {}).items():   # a section number missing from the transcription
         i = en[at].index(start); en[at], en[cv] = clean(en[at][:i]), en[at][i:]
     lost = set(en) - set(keys)
     assert not lost, (bid, 'English verses with no Greek or Latin verse', sorted(lost, key=cvkey))
     en_o = {'about': {a['en'][2]: about(*a['en'][3:])}, a['en'][2]: dict(sorted(en.items(), key=lambda x: cvkey(x[0])))}
+    fix_app(bid, notes)
     for k in ('notes', 'refs'): notes[k].sort(key=lambda n: cvkey(n['at']) if n['at'][0].isdigit() else (99, 0))
     src = {'app': {'_about': 'Kirsopp Lake’s footnotes to his Greek text (' + a['sigla'] + '), and in "refs" the passages of Scripture '
                              'he prints in the margin (with the digital file’s own reference, "urn"). The digital file has only the Greek pages, so '
                              'the footnotes Lake prints under his English translation on the facing pages are not here. "at" is the verse the note or '
                              'reference stands in ("title": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and '
-                             'the file has slips in the notes’ English and Greek. From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
+                             'the file has slips in the notes’ English and Greek' + (' (those checked against Lake’s printed page are corrected, with the evidence in "fixed")' if any(n.get('fixed') for k in ('notes', 'refs') for n in notes[k]) else '') + '. From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
                    'notes': notes['notes'], 'refs': notes['refs']}}
     if apart or extra:
         src['extra'] = {'_about': a['extra_about'], **({'head': extra['head']} if extra.get('head') else {}),
@@ -1003,7 +1119,16 @@ def apfathers(bid, a):
     return o, en_o, [], vc, src
 
 cat = json.load(open(f'{OUT}/catalog.json', encoding='utf-8'))
-TIER = {k: w['tier'] for k, w in json.load(open(os.path.join(ROOT, 'content', 'works.json'), encoding='utf-8')).items() if not k.startswith('_')}
+def tiers():
+    """Each work's tier: content/works.json, then the entries a lane proposes in content/proposals/<lane>/works.json and the
+    lead has not merged yet (a book is planned there first; tools/lanes.md), as the draft build reads them."""
+    w = json.load(open(os.path.join(ROOT, 'content', 'works.json'), encoding='utf-8'))
+    pr = os.path.join(ROOT, 'content', 'proposals')
+    for lane in sorted(os.listdir(pr)) if os.path.isdir(pr) else []:
+        f = os.path.join(pr, lane, 'works.json')
+        if os.path.exists(f): w = {**json.load(open(f, encoding='utf-8')), **w}
+    return {k: v['tier'] for k, v in w.items() if not k.startswith('_')}
+TIER = tiers()
 order = [t for t in GROUPS if any(TIER[w] == t for _, _, w, *_ in WORKS)]
 keep = [g for g in cat['groups'] if g['id'] not in GROUPS]   # other X groups (tools/world-texts.py) stay, after these
 cat['groups'] = [g for g in keep if g.get('t') != 'X'] + [

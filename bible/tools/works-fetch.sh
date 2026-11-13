@@ -14,22 +14,26 @@ if [ ! -d First1KGreek ]; then   # Open Greek and Latin: Swete with his apparatu
   (cd First1KGreek && git sparse-checkout set data/tlg0527)
 fi
 # The Apostolic Fathers in Kirsopp Lake's Loeb edition (1912-1913, public domain), from the same First1KGreek clone:
-# Didache, Barnabas, 1 Clement, Polycarp to the Philippians, Martyrdom of Polycarp.
-for d in tlg1311/tlg001 tlg1216/tlg001 tlg1271/tlg001 tlg1622/tlg001 tlg1484/tlg001; do
+# Didache, Barnabas, 1 Clement, Polycarp to the Philippians, Martyrdom of Polycarp; then 2 Clement (tlg1271/tlg002), the
+# Epistle to Diognetus (tlg0646/tlg004, filed under Pseudo-Justin) and the seven letters of Ignatius in Lake (tlg1443/tlg001; tlg002 is the long recension, not used).
+for d in tlg1311/tlg001 tlg1216/tlg001 tlg1271/tlg001 tlg1622/tlg001 tlg1484/tlg001 tlg1271/tlg002 tlg0646/tlg004 tlg1443/tlg001; do
   [ -d First1KGreek/data/$d ] || (cd First1KGreek && git sparse-checkout add data/$d)
 done
-# Their public-domain English, from Wikisource (pinned revisions): Lake's own translation (1912) of the Didache, Barnabas
-# and 1 Clement; Lightfoot's Polycarp and the Ante-Nicene (Roberts-Donaldson) Martyrdom of Polycarp, since Wikisource has
-# no transcription of Lake's for those two. The Martyrdom is transcluded from page scans, so it is fetched parsed.
-if [ ! -d apfathers ]; then
-  rm -rf apfathers.tmp && mkdir apfathers.tmp
-  W=https://en.wikisource.org/w
-  for p in did-lake:14662157 bnb-lake:13883661 1cl-lake:15956766 pol-lightfoot:4280343; do
-    curl -sSf -o apfathers.tmp/${p%%:*}.wiki "$W/index.php?oldid=${p##*:}&action=raw"
-  done
-  curl -sSf -o apfathers.tmp/mpo-anf.json "$W/api.php?action=parse&oldid=13922313&prop=text&format=json&formatversion=2"
-  mv apfathers.tmp apfathers
-fi
+# Their public-domain English, from Wikisource (pinned revisions): Lake's own translation (1912) of the Didache, Barnabas,
+# 1 Clement and 2 Clement; Lightfoot's Polycarp; the Ante-Nicene (Roberts-Donaldson) Martyrdom of Polycarp, Epistle to
+# Diognetus and letters of Ignatius (Ephesians, Romans, Smyrnaeans: the page prints the shorter and the longer form side by
+# side), since Wikisource has no transcription of Lake's for those. The Ante-Nicene pages are transcluded from page scans,
+# so they are fetched parsed. Each file is fetched only if missing, into a .tmp name first, so a failed run is retried.
+mkdir -p apfathers
+W=https://en.wikisource.org/w
+for p in did-lake:14662157 bnb-lake:13883661 1cl-lake:15956766 pol-lightfoot:4280343 2cl-lake:14929714; do
+  f=apfathers/${p%%:*}.wiki
+  [ -s $f ] || { curl -sSf -o $f.tmp "$W/index.php?oldid=${p##*:}&action=raw" && mv $f.tmp $f; }
+done
+for p in mpo-anf:13922313 dgn-anf:13922331 iep-anf:13922356 iro-anf:13922353 ism-anf:13922351; do
+  f=apfathers/${p%%:*}.json
+  [ -s $f ] || { curl -sSf -o $f.tmp "$W/api.php?action=parse&oldid=${p##*:}&prop=text&format=json&formatversion=2" && mv $f.tmp $f; }
+done
 # bible_databases is shared with tools/fetch.sh: each script adds the files it needs to the one sparse clone.
 [ -d bible_databases ] || { git clone --depth 1 --filter=blob:none --sparse https://github.com/scrollmapper/bible_databases &&
   (cd bible_databases && git sparse-checkout set --no-cone); }

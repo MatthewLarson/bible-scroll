@@ -1,0 +1,94 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (G the one Greek manuscript of this letter, the 10th-century Paris MS (Paris Graec. 1451, Lightfoot’s Colbertine; Lake’s footnotes use G for it, as Lightfoot’s sigla do); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek (those checked against Lake’s printed page are corrected, with the evidence in \"fixed\"). From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "1:0",
+"note": "ALS read xriste/nomoi having the las of Christ."
+},
+{
+"at": "1:2",
+"note": "A, sith partial support in other suthorities, reads (??) may reach the goal."
+},
+{
+"at": "4:1",
+"note": "tou= *xristou= GL, qeou= Sg Iren. (??), om. Iren.(??) *hieron."
+},
+{
+"at": "4:2",
+"note": "to\\n *xristo/n GL, to\\n *ku/rion SA."
+},
+{
+"at": "4:2",
+"note": "qeu= LSA."
+},
+{
+"at": "5:2",
+"note": "a)/konta G Euacb, e(ko/nta Lg, (om. SA?). Lightfoot prefers e)ko/nta silling, shich must be an accusative referring to Ignatius."
+},
+{
+"at": "6:2",
+"note": "mhde\\ u(/lh| e)capath/shte is omitted in Gg; Lightfoot thinks that LSA imply kolakeu/shte rather than e)capath/shte."
+},
+{
+"at": "7:2",
+"note": "The text is much exranded in the later authorities: Lightfoot is inclined to emend kai\\ lalou=n to a(llo/menon, shich is found in g, as a referenes to Joh. 4, 14."
+},
+{
+"at": "7:3",
+"note": "*)ihsou= GLA, om. *sg."
+}
+],
+"refs": [
+{
+"at": "2:1",
+"ref": "1 Thess. 2, 4",
+"urn": "cts:urn:greekLit:tlg0031.tlg013:2.4"
+},
+{
+"at": "4:1",
+"ref": "Cf. Zenobius Puroem. I. 50",
+"urn": "urn:cts:greekLit:tlg0098.tlg001:1.50"
+},
+{
+"at": "4:3",
+"ref": "I Cor. 7, 22",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:7.29",
+"fixed": "I Cor. 7, 29 → I Cor. 7, 22 (the margin reference misread (the freed person of 1 Corinthians 7:22); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read I Cor. 7, 22)"
+},
+{
+"at": "5:1",
+"ref": "Cor. 4, 4",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:4.4"
+},
+{
+"at": "6:1",
+"ref": "Cor. 9, 15",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:9.15"
+},
+{
+"at": "7:2",
+"ref": "Joh. 4, 10; 7, 38",
+"urn": "cts:urn:greekLit:tlg0031.tlg004:4.10 cts:urn:greekLit:tlg0031.tlg004:7.38"
+},
+{
+"at": "7:3",
+"ref": "Joh. 6, 33",
+"urn": "cts:urn:greekLit:tlg0031.tlg004:6.33"
+},
+{
+"at": "7:3",
+"ref": "Joh. 7, 42; Rom. 1, 3; II Tim, 2, 8",
+"urn": "cts:urn:greekLit:tlg0031.tlg004:7.42 cts:urn:greekLit:tlg0031.tlg006:1.3 cts:urn:greekLit:tlg0031.tlg016:2.8"
+},
+{
+"at": "9:2",
+"ref": "I Cor. 15, 8, 0",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:15.8-15.9"
+},
+{
+"at": "10:3",
+"ref": "II Thses 3, 5",
+"urn": "cts:urn:greekLit:tlg0031.tlg014:3.5"
+}
+]
+}

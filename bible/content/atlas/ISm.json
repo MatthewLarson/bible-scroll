@@ -1,0 +1,125 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "smyrna",
+    "asia"
+   ],
+   "people": [
+    "david",
+    "pontius",
+    "herod-antipas"
+   ],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [
+    "moses"
+   ],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "antioch-syria",
+    "syria"
+   ],
+   "people": [],
+   "events": []
+  },
+  "12": {
+   "places": [
+    "troas"
+   ],
+   "people": [],
+   "events": []
+  },
+  "13": {
+   "places": [],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "smyrna": {
+   "name": "Smyrna",
+   "lat": 38.45196038,
+   "lon": 27.16192105
+  },
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "antioch-syria": {
+   "name": "Antioch (Syria)",
+   "lat": 36.200663,
+   "lon": 36.165318
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "troas": {
+   "name": "Troas",
+   "lat": 39.75135,
+   "lon": 26.15765
+  }
+ },
+ "people": {
+  "david": {
+   "name": "David"
+  },
+  "pontius": {
+   "name": "Pontius"
+  },
+  "herod-antipas": {
+   "name": "Herod Antipas"
+  },
+  "moses": {
+   "name": "Moses"
+  }
+ },
+ "events": {}
+}

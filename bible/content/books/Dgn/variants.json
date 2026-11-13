@@ -1,0 +1,456 @@
+[
+ {
+  "v": "5:7",
+  "a": "but not a shared bed",
+  "t": "'Bed', or a second 'common'?",
+  "p": "'Bed' is Maranus's conjecture, which Lake prints. The manuscript repeats 'common'.",
+  "readings": [
+   {
+    "w": "Lake's text: Maranus's conjecture κοίτην, printed by Bunsen and Gildemeister (as Otto reports)",
+    "orig": "τράπεζαν κοινὴν παρατίθενται, ἀλλ᾽ οὐ κοίτην.",
+    "en": "A common table they set out, but not a bed.",
+    "plain": "but not a shared bed"
+   },
+   {
+    "w": "The Strasburg manuscript (its letters partly gone over by a later hand), Stephanus's and Beurer's copies, and Otto's text (1879)",
+    "orig": "τράπεζαν κοινὴν παρατίθενται, ἀλλ᾽ οὐ κοινήν.",
+    "en": "A common table they set out, but not a common (unclean) one.",
+    "plain": "but not an unclean one"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text, the base of this book. Maranus proposed 'bed', comparing Tertullian, Apology 39 (in Otto's quotation: everything is shared among Christians except their wives). Otto kept the manuscript and took the second <i>koinēn</i> as 'impure', as in Acts 10:14, and Krenkel objected that 'they set out' does not fit 'bed'. Since the manuscript has no 'bed', the play on <i>koinēn</i> and <i>koitēn</i> belongs to the conjecture.",
+  "b": "Roberts and Donaldson print 'not a common bed' but note: 'Otto omits \"bed,\" which is an emendation, and gives the second common the sense of unclean.'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "the sun",
+  "t": "'The sun' supplied",
+  "p": "The manuscript has no subject here. Editors supply 'the sun'.",
+  "readings": [
+   {
+    "w": "Lake's text, with ὁ ἥλιος supplied (Bunsen and Gebhardt printed it before the verb, Otto with the article; others placed it elsewhere, as Otto reports)",
+    "orig": "παρ᾽ οὗ τὰ μέτρα τῶν τῆς ἡμέρας δρόμων ὁ ἥλιος εἴληφε φυλάσσειν",
+    "en": "from whom the sun has received the measures of the day's courses to keep",
+    "plain": "the sun"
+   },
+   {
+    "w": "The Strasburg manuscript, without ὁ ἥλιος (Otto: it is lacking in the manuscript)",
+    "orig": "παρ᾽ οὗ τὰ μέτρα τῶν τῆς ἡμέρας δρόμων εἴληφε φυλάσσειν",
+    "en": "from whom [it] has received the measures of the day's courses to keep",
+    "plain": "[...]"
+   }
+  ],
+  "follow": 0,
+  "why": "The verb needs a subject, and the list goes on to the moon and the stars. Stephanus already judged that a copyist had dropped 'the sun' (Otto), and Roberts and Donaldson's footnote agrees: 'The word \"sun,\" though omitted in the mss., should manifestly be inserted.'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "7:6",
+  "a": "...",
+  "t": "A gap in the one manuscript",
+  "p": "The text breaks off after 7:6. Lake marks a gap; see also 7:7.",
+  "readings": [
+   {
+    "w": "The Strasburg manuscript (1200s or 1300s, burned in 1870), as Otto (1879) reports it from the collations made for his editions; Lake's text marks the gap with a row of dots",
+    "orig": "…",
+    "en": "[words lost]",
+    "plain": "..."
+   },
+   {
+    "w": "Lake's note, if only a few words are lost: 'Probably the next sentence may be completed by prefixing ‘Do you not see that’ before ‘they are thrown.’'",
+    "orig": "",
+    "en": "(the text runs on into 7:7)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's note says plainly: 'There is here a lacuna in the MS.' How much is lost cannot be known. The Plain English Translation marks the break with '...', and at 7:7 supplies Lake's suggested words in brackets.",
+  "b": "The whole letter rests on one manuscript, now lost, and on copies made from it in the 1500s, which von Gebhardt (1878) showed were all copies of it (Lake's introduction). So there is no other witness to fill the gap. Otto (1879) reports that the gap stood in the manuscript and in all the editions, and that a copyist had written in its margin Οὕτως καὶ ἐν τῷ ἀντιγράφῳ εὗρον [ἐγκο]πήν, πα[λαιο]τάτου [ὄν]τος (the bracketed letters were damaged): 'I found a break here in the copy too, it being very old'. So the words were already lost in the copy the medieval scribe worked from. Roberts and Donaldson's footnote: 'A considerable gap here occurs in the mss.'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "7:7",
+  "a": "[Do you not see them]",
+  "t": "Words supplied after the gap",
+  "p": "The manuscript resumes mid-sentence. The brackets give Lake's suggested opening.",
+  "readings": [
+   {
+    "w": "Lake's suggestion in his note on the gap ('Do you not see that'), supplied in brackets",
+    "orig": "[οὐχ ὁρᾷς]",
+    "en": "[Do you not see them]",
+    "plain": "[Do you not see them]"
+   },
+   {
+    "w": "Lake's Greek text as printed (the manuscript), which begins with the participle",
+    "orig": "παραβαλλομένους θηρίοις",
+    "en": "... thrown to wild beasts",
+    "plain": "..."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's Greek begins with an accusative participle that needs a verb. His note suggests 'Do you not see that' (the next verse begins in the same way, 'Do you not see'), and the Plain English Translation supplies it in brackets so the reader can see what is added. This is a departure from Lake's printed text, which has no such words.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "8:11",
+  "a": "to see and to understand",
+  "t": "'To understand', or 'to do'?",
+  "p": "Lake prints Lachmann's conjecture. The manuscript has 'to see and to do'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Lachmann's conjecture, printed by Bunsen, Gebhardt and Gildemeister (as Otto reports)",
+    "orig": "καὶ ἰδεῖν καὶ νοῆσαι, ἃ τίς ἂν πώποτε προσεδόκησεν ἡμῶν;",
+    "en": "and to see and to understand things which which of us would ever have expected?",
+    "plain": "to see and to understand"
+   },
+   {
+    "w": "The Strasburg manuscript and Beurer's copy, printed by Otto in his earlier editions and by Hefele and others",
+    "orig": "καὶ ἰδεῖν καὶ ποιῆσαι τίς ἂν πώποτε προσεδόκησεν ἡμῶν;",
+    "en": "and to see and to do. Who of us would ever have expected it?",
+    "plain": "to see and to act"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the conjecture, and Otto adopted it in 1879 after printing the manuscript's reading before. 'Understand' pairs with 'see', and the relative 'which' (<i>ha</i>) gives the question its object. Stephanus's copy has a gap here, and editors proposed other verbs ('hear', 'look into', 'touch', among those Otto lists).",
+  "b": "Roberts and Donaldson follow the manuscript: 'see and be active [in His service]'; their footnote says 'Others have, \"to see, and to handle Him.\"'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "he had already planned everything",
+  "t": "'Planned', or 'knew'?",
+  "p": "Lake prints Lachmann's conjecture. The manuscript has 'he knew ... as his plan required'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Lachmann's conjecture, printed by Bunsen, Gebhardt and Gildemeister, which Otto calls 'the true reading'",
+    "orig": "Πάντ᾽ οὖν ἤδη παρ᾽ ἑαυτῷ σὺν τῷ παιδὶ οἰκονομηκώς, μέχρι μὲν τοῦ πρόσθεν χρόνου εἴασεν",
+    "en": "So having already arranged all things with himself together with the Child, up to the former time he let ...",
+    "plain": "he had already planned everything"
+   },
+   {
+    "w": "The Strasburg manuscript, Stephanus and the other editors except Bunsen, Gebhardt and Gildemeister (as Otto reports)",
+    "orig": "πάντ᾽ οὖν ἤδει παρ᾽ ἑαυτῷ σὺν τῷ παιδὶ οἰκονομικῶς. μέχρι μὲν οὖν τοῦ πρόσθεν χρόνου εἴασεν",
+    "en": "So he knew all things in himself together with the Child, according to his plan. So up to the former time he let ...",
+    "plain": "he already knew everything, as his plan required,"
+   }
+  ],
+  "follow": 0,
+  "why": "Both Lake and Otto print the conjecture; it changes only a few letters (ἤδει to ἤδη, -ικῶς to -ηκώς) and makes 'planned' the verb of the sentence, picking up the word 'plan' (<i>oikonomia</i>) of 4:5 and 7:1.",
+  "b": "Roberts and Donaldson follow the manuscript: 'He was aware, then, of all things in His own mind, along with His Son, according to the relation subsisting between them', with the footnote 'Literally, \"economically.\"'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "9:1",
+  "a": "he was shaping the present time of righteousness",
+  "t": "'The present time', or 'a mind'?",
+  "p": "Lake prints Hefele's conjecture 'now'. The manuscript has 'mind'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Hefele's conjecture (second edition), which Otto calls a good one and later editors adopted",
+    "orig": "ἀλλὰ τὸν νῦν τῆς δικαιοσύνης δημιουργῶν",
+    "en": "but fashioning the present [time] of righteousness",
+    "plain": "he was shaping the present time of righteousness"
+   },
+   {
+    "w": "The Strasburg manuscript, Stephanus and the editors before Hefele (as Otto reports)",
+    "orig": "ἀλλὰ τὸν νοῦν τῆς δικαιοσύνης δημιουργῶν",
+    "en": "but fashioning the mind of righteousness",
+    "plain": "he was shaping a mind for righteousness"
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence sets 'that time of wrongdoing' (<i>tō tote tēs adikias kairō</i>) against a time of righteousness, and 'now' returns in the same verse ('might now be counted worthy'). The two words differ by one letter.",
+  "b": "Roberts and Donaldson follow the manuscript: 'He sought to form a mind conscious of righteousness', with the footnote 'The reading and sense are doubtful.'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "Oh, God's overflowing kindness to humankind, and his love!",
+  "t": "An exclamation, or 'the one love of God'?",
+  "p": "Lake prints Lange's emendation. The manuscript has 'how the one love of God'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Lange's emendation (1844), printed by Bunsen, Gebhardt and Gildemeister (as Otto reports)",
+    "orig": "ὢ τῆς ὑπερβαλλούσης φιλανθρωπίας καὶ ἀγάπης τοῦ θεοῦ",
+    "en": "O the surpassing love of humankind and love of God!",
+    "plain": "Oh, God's overflowing kindness to humankind, and his love!"
+   },
+   {
+    "w": "The Strasburg manuscript (Cunitz: the letters were gone over later, but one can see they first read so) and Beurer's copy, printed by Otto earlier and by the other editors",
+    "orig": "ὡς τῆς ὑπερβαλλούσης φιλανθρωπίας μία ἀγάπη τοῦ θεοῦ",
+    "en": "how, out of his surpassing kindness to humankind, the one love of God ...",
+    "plain": "He showed how the one love of God, in its overflowing kindness to humankind, did not hate us."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake and Otto print the emendation, which turns a clause without a clear construction into an exclamation like those of 9:5 ('Oh, the sweet exchange!'). The sense, God's love shown in not hating us, is the same either way.",
+  "b": "Roberts and Donaldson follow the manuscript: 'how the one love of God, through exceeding regard for men, did not regard us with hatred'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "and you receive first of all full knowledge of the Father ...",
+  "t": "A second gap",
+  "p": "The sentence may break off after 'the Father'. Lake: 'apparently a lacuna'. Otto read it as complete.",
+  "readings": [
+   {
+    "w": "Lake's text: the manuscript's words as Beurer's copy gives them, with a gap marked after them",
+    "orig": "Ταύτην καὶ σὺ τὴν πίστιν ἐὰν ποθήσῃς, καὶ λάβῃς πρῶτον μὲν ἐπίγνωσιν πατρός …",
+    "en": "If you too long for this faith, and receive first of all full knowledge of the Father ...",
+    "plain": "and you receive first of all full knowledge of the Father ..."
+   },
+   {
+    "w": "Otto's text (1879): the same words, read as a complete sentence, with Otto's own correction of λάβῃς to λήψῃ ('you will receive'); Roberts and Donaldson translate this reading",
+    "orig": "Ταύτην καὶ σὺ τὴν πίστιν ἐὰν ποθήσῃς, καὶ λήψῃ πρῶτον μὲν ἐπίγνωσιν πατρός.",
+    "en": "If you too long for this faith, you will also receive first of all knowledge of the Father.",
+    "plain": "you will receive first of all full knowledge of the Father."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's note: 'Here again there is apparently a lacuna in the text.' In his text the 'if' clause has no main clause, and 'first of all' (<i>prōton men</i>) expects a 'then' that never comes. Otto answered both: the <i>kai</i> begins the main clause ('you will also receive'), and the 'first of all' is answered by the 'And once you know him' of 10:3; he rejected the editors' supplements. The Plain English Translation follows Lake's text, as everywhere in this book, and marks the possible gap with '...'; the sense is nearly the same either way.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ],
+  "b": "The manuscript is damaged here. Otto reports that Stephanus printed a gap after 'π'; that Reuss, reading the manuscript for him, found the verb written partly in the margin and of <i>patros</i> only the first and last letters, with what stood between them not to be seen; and that Beurer's copy read the words as given above. Earlier editors filled the gap in different ways (Stephanus, Sylburg, Boehl), and Roberts and Donaldson's footnote says: 'others conjecture somewhat different supplements.'"
+ },
+ {
+  "v": "10:8",
+  "a": "the fire that lasts a short time",
+  "t": "'The fire for a season', or 'this fire'?",
+  "p": "Lake prints a conjecture that Otto later withdrew. The manuscript has 'this fire'.",
+  "readings": [
+   {
+    "w": "Lake's text: Otto's earlier conjecture πρόσκαιρον, which later editors followed (as Otto reports)",
+    "orig": "θαυμάσεις τὸ πῦρ τὸ πρόσκαιρον καὶ μακαρίσεις",
+    "en": "you will admire [those who endure] the fire for a season, and count them blessed",
+    "plain": "the fire that lasts a short time"
+   },
+   {
+    "w": "The Strasburg manuscript as Reuss read it for Otto, and Otto's text (1879), which puts the words in the order marked in the manuscript",
+    "orig": "τὸ πῦρ τοῦτο θαυμάσεις καὶ μακαρίσεις",
+    "en": "you will admire [those who endure] this fire, and count them blessed",
+    "plain": "this fire"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text, as everywhere in this book. Reuss, reading the manuscript for Otto, found 'this fire' and wrote that a word like <i>proskairon</i> could not stand there at all; signs above the words showed that the scribe had written them out of order. The sense is nearly the same: the fire of execution, set against 'that other fire'.",
+  "b": "Roberts and Donaldson translate Lake's reading: 'the fire that is but for a moment'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "11:1",
+  "a": "as it deserves, to those who are becoming disciples of the truth",
+  "t": "'Worthily', or 'to worthy disciples'?",
+  "p": "Lake prints an editor's adverb. The manuscript has 'to worthy (disciples)'.",
+  "readings": [
+   {
+    "w": "Lake's text: the adverb ἀξίως, as Bunsen (1852), Hollenberg, Credner, Gebhardt, Gildemeister and Otto (1879) print it (all with the participle ὑπηρετῶν)",
+    "orig": "τὰ παραδοθέντα ἀξίως ὑπηρετῶ γινομένοις ἀληθείας μαθηταῖς",
+    "en": "the things handed down I serve worthily to those becoming disciples of truth",
+    "plain": "as it deserves, to those who are becoming disciples of the truth"
+   },
+   {
+    "w": "The Strasburg manuscript and the other editors (as Otto reports)",
+    "orig": "τὰ παραδοθέντα ἀξίοις ὑπηρετῶ γινομένοις ἀληθείας μαθηταῖς",
+    "en": "the things handed down I serve to those becoming worthy disciples of truth",
+    "plain": "to those who are becoming worthy disciples of the truth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text. The two readings differ by one letter, and both say that the preacher hands on what he received to disciples.",
+  "b": "Roberts and Donaldson follow the manuscript: 'I minister the things delivered to me to those that are disciples worthy of the truth.' Otto also reports a note in the manuscript's margin at the start of this verse, 'here too the copy had a break'; see the note at 10:8.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "11:2",
+  "a": "has come to love the Word",
+  "t": "'Dear to the Word', or 'born of the loving Word'?",
+  "p": "Lake prints Maranus's conjecture. The older reading is 'born of the loving Word'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Maranus's conjecture, printed by Bunsen, Gebhardt and Gildemeister (as Otto reports)",
+    "orig": "καὶ λόγῳ προσφιλὴς γενηθείς",
+    "en": "and having become dear to the Word",
+    "plain": "has come to love the Word"
+   },
+   {
+    "w": "Beurer's copy and the earlier editors; in the manuscript itself a small erased space stands around the letters -ει (Cunitz and Reuss, as Otto reports)",
+    "orig": "καὶ λόγῳ προσφιλεῖ γεννηθείς",
+    "en": "and born of the loving Word",
+    "plain": "has been born of the loving Word"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake and Otto print the conjecture. Cunitz judged that the space in the manuscript came from an erasure and that nothing was missing, so the choice is between two ways of dividing and accenting nearly the same letters.",
+  "b": "Roberts and Donaldson follow the older reading: 'begotten by the loving Word', with the footnote 'Some propose to read, \"and becoming a friend to the Word.\"'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "11:5",
+  "a": "the pledges of faith",
+  "t": "'Pledges', or 'boundaries'?",
+  "p": "Lake prints Lachmann's conjecture. The manuscript has 'boundaries of faith'.",
+  "readings": [
+   {
+    "w": "Lake's text and Otto's (1879): Lachmann's conjecture, printed by Bunsen, Gebhardt and Gildemeister (as Otto reports)",
+    "orig": "οἷς ὅρκια πίστεως οὐ θραύεται",
+    "en": "by whom the oaths of faith are not broken",
+    "plain": "the pledges of faith"
+   },
+   {
+    "w": "The Strasburg manuscript and the other editors (as Otto reports)",
+    "orig": "οἷς ὅρια πίστεως οὐ θραύεται",
+    "en": "by whom the boundaries of faith are not broken",
+    "plain": "the boundaries of faith"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text. 'Pledges' are what one breaks, and the conjecture keeps 'boundaries' for the next clause ('the boundary stones of the fathers', <i>horia paterōn</i>); with the manuscript's reading the two clauses repeat one picture.",
+  "b": "Roberts and Donaldson follow the manuscript: 'by whom the limits of faith are not broken through'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "12:6",
+  "a": "because he has not loved life",
+  "t": "'Not', in the margin",
+  "p": "The word 'not' is written partly in the margin of the manuscript.",
+  "readings": [
+   {
+    "w": "Lake's text: the Strasburg manuscript, with μ in the line and η in the margin (Reuss, as Otto reports), and Beurer's copy",
+    "orig": "μὴ ἀγαπήσας τὸ ζῆν",
+    "en": "not having loved life",
+    "plain": "because he has not loved life"
+   },
+   {
+    "w": "Stephanus, Sylburg, Morel and Olshausen printed the letter μ alone (as Otto reports)",
+    "orig": "μ ἀγαπήσας τὸ ζῆν",
+    "en": "[...] having loved life",
+    "plain": "because he has loved life"
+   }
+  ],
+  "follow": 0,
+  "why": "Reuss found the η written in the margin in faded ink and judged that 'the reading μή is secured' (Otto).",
+  "b": "Roberts and Donaldson follow 'not loving life', with the footnote 'The ms. is here defective. Some read, \"on account of the love of life.\"'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ },
+ {
+  "v": "12:8",
+  "a": "pick its fruit",
+  "t": "'Picking', 'seeing' or 'longing for' fruit",
+  "p": "One letter is lost in the manuscript. Lake prints a conjecture.",
+  "readings": [
+   {
+    "w": "Lake's text: Otto's conjecture in his second edition, adopted by Hoffmann, Hollenberg, Hefele and later editors (as Otto reports)",
+    "orig": "καὶ καρπὸν αἱρῶν",
+    "en": "and taking fruit",
+    "plain": "pick its fruit"
+   },
+   {
+    "w": "Otto's text (1879), following Reuss, who saw room for only one letter before -ρῶν in the manuscript",
+    "orig": "καὶ καρπὸν ὁρῶν",
+    "en": "and seeing fruit",
+    "plain": "look at its fruit"
+   },
+   {
+    "w": "Beurer's copy (from his own conjecture, Otto says)",
+    "orig": "καὶ καρποῦ ἐρῶν",
+    "en": "and longing for fruit",
+    "plain": "long for its fruit"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text. The manuscript has 'fruit' and then a gap before the last letters of the verb; a later hand wrote two letters above the gap. Every reading here is an editor's filling of it.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879"
+  ]
+ },
+ {
+  "v": "12:9",
+  "a": "the seasons are brought together",
+  "t": "'Seasons', 'candles' or 'choirs'?",
+  "p": "Lake prints Sylburg's conjecture. The manuscript plainly has 'candles'.",
+  "readings": [
+   {
+    "w": "Lake's text: Sylburg's conjecture, printed by Credner (as Otto reports)",
+    "orig": "καὶ καιροὶ συνάγονται",
+    "en": "and the seasons are gathered together",
+    "plain": "the seasons are brought together"
+   },
+   {
+    "w": "The Strasburg manuscript ('clearly', Reuss) and Beurer's copy, and Otto's text (1879)",
+    "orig": "καὶ κηροὶ συνάγονται",
+    "en": "and the candles are gathered together",
+    "plain": "the candles are brought together"
+   },
+   {
+    "w": "Maranus's conjecture, printed by Hefele (as Otto reports)",
+    "orig": "καὶ χοροὶ συνάγονται",
+    "en": "and the choirs are gathered together",
+    "plain": "the choirs are brought together"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text. Stephanus already doubted the manuscript's word; Otto kept it and took it for the candles that Christians used at Easter, which would suit 'the Lord's Passover' just before. 'Seasons' and 'choirs' are both editors' guesses.",
+  "b": "Roberts and Donaldson follow Maranus: 'the choirs are gathered together'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "otto-diognetus-1879",
+   "roberts-donaldson-dgn"
+  ]
+ }
+]

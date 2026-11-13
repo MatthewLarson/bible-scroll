@@ -1,0 +1,6 @@
+Status: reviewed, published
+
+Outside the 66 (tier early). Base text Lake (Loeb vol. 2, 1913): the one Strasburg manuscript (burned 1870) through Otto's collations; gaps after 7:6 and 10:1; chapters 11-12 a separate piece. Flat folder, 100 verses (no greeting); one writer, who owns book.json and sources.json and the apologetics core. Lenses H N A. No card planned. Briefs tools/brief-dgn.md and tools/brief-apfathers2.md.
+- 2026-11-12: planned.
+- 2026-11-12: written (flat folder): 100 verses, 122 notes, 3 variants (the gaps after 7:6 and 10:1, Lake's suggested words at 7:7), 30 glosses, 12 chapter pages, 30 topic contributions; cores apologetics and resident-aliens proposed; 7 term entries proposed. Plain English Translation from Lake's Greek, no departures except the bracketed words at 7:7. Chapters 11-12 treated as a separate homily throughout. Drift audit changed 32 verses. No traditions card. --check 0/0.
+- 2026-11-13: hostile review applied (19 findings: 17 fixed, 2 partly, none declined outright). Otto 1879 opened for the apparatus: 13 new variants where Lake prints editors' readings (16 in all); 7:6 invented reading removed; 10:1 gives Otto's no-gap reading. pais "Child", hypēretēs "attendant", epieikeia "forbearance". Verses changed: 1:1, 3:2, 4:2, 7:2, 7:4, 7:5, 8:9, 8:11, 9:1, 9:6, 12:8. 100 verses, 122 notes, 16 variants, 31 glosses. --check 0/0.

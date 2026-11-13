@@ -1,0 +1,243 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (A Codex Alexandrinus; C the Codex Constantinopolitanus; S the Syriac version), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek (those checked against Lake’s printed page are corrected, with the evidence in \"fixed\"). From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "1:2",
+"note": "*opi. a(marta/nousin, kai\\ h(mei=s AC."
+},
+{
+"at": "3:2",
+"note": "e)nw/pion tw=n a)nqrw/pwn AC, om. S."
+},
+{
+"at": "6:6",
+"note": "oi)o/meqa ACS, but Lightfoot einende (??)o oi)w/meqa \"Let us etc.\""
+},
+{
+"at": "7:3",
+"note": "AC read qw=men, but the Syriac implies qe/wmen and is probably right."
+},
+{
+"at": "9:10",
+"note": "ai)=non CS, ai)w/nion A; Lightfoot thinks that the original text sas ai)=non ai)w/nion (everlasting praise)."
+},
+{
+"at": "10:3",
+"note": "Lightfoot emends eu(rei=n to eu)hmerei=n (to prosper), but even so the Greek is very obacure and probably there is a primitive corruption, perhaps the omission of a shole line."
+},
+{
+"at": "11:2",
+"note": "pa/lai CS, pa/nta *a."
+},
+{
+"at": "12:5",
+"note": "From this point A is santing."
+},
+{
+"at": "12:5",
+"note": "mhde/n seems re#3uired by the grammar of the sentence, but ou)de/n is probably a soleciam of the sriter rather than a corruption of the text."
+},
+{
+"at": "14:2",
+"note": "e)/ti C, \"and moreover\" (e)/ti) S."
+},
+{
+"at": "14:2",
+"note": "le/gousi om. C. Some such sord is necessary to the grammar of the sentence, and is implied by S, but shether it sas le/gousi or fasi/, and its exact place in the sentence is of course uncertain. S also adds \"of the prophets\" after \"the books.\""
+},
+{
+"at": "16:3",
+"note": "Lightfoot conjectures duna/meis, shich is found in the LXX tert of Is, xxxiv, 4, to shich the sriter is alluding."
+},
+{
+"at": "17:2",
+"note": "S perhaps implies pro/s \"bring back to goodness.\""
+},
+{
+"at": "17:3",
+"note": "S adds \"and have ceased from all.\""
+},
+{
+"at": "19:3",
+"note": "tou/tw| om. S, in Lightfoot's opinion corrently."
+}
+],
+"refs": [
+{
+"at": "1:1",
+"ref": "Acts 10, 12",
+"urn": "urn:cts:greekLit:tlg0031.tlg005:10.12"
+},
+{
+"at": "2:3",
+"ref": "Mt. 9, 18, Mk. 2, 17; Luke 5, 32",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:9.18                                     urn:cts:greekLit:tlg0031.tlg002:2.17                                     urn:cts:greekLit:tlg0031.tlg003:5.32"
+},
+{
+"at": "2:7",
+"ref": "Luke 19, 10",
+"urn": "urn:cts:greekLit:tlg0031.tlg003:19.10"
+},
+{
+"at": "3:1",
+"ref": "Mt, 10, 82; Luke 12, 8",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:10.82                                     urn:cts:greekLit:tlg0031.tlg003:12.8"
+},
+{
+"at": "3:5",
+"ref": "Is, 29, 16; Mt 15, 8; Mk. 7, 6",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:29.16                                     urn:cts:greekLit:tlg0031.tlg001:15.8                                     urn:cts:greekLit:tlg0031.tlg002:7.6"
+},
+{
+"at": "4:1",
+"ref": "Mt. 7, 21",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:7.21"
+},
+{
+"at": "4:5",
+"ref": "Ev. Aegypt.",
+"urn": "NN"
+},
+{
+"at": "5:2",
+"ref": "Ev. Aegypt.",
+"urn": "NN"
+},
+{
+"at": "6:1",
+"ref": "Mt. 16, 26; Mk, 8, 36; Luke 9, 25",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:16.26                                     urn:cts:greekLit:tlg0031.tlg002:8.36                                     urn:cts:greekLit:tlg0031.tlg003:9.25"
+},
+{
+"at": "6:7",
+"ref": "Ezek. 14, 14. 18, 20",
+"urn": "urn:cts:greekLit:tlg0527.tlg053:14.14                                     urn:cts:greekLit:tlg0527.tlg053:14.18                                     urn:cts:greekLit:tlg0527.tlg053:14.20"
+},
+{
+"at": "6:9",
+"ref": "Cf. Mt. 22. 11 ff.",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:22.11-22.13"
+},
+{
+"at": "7:6",
+"ref": "Is. 86, 24; cf. Mk. 9, 44, 46, 48",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:86.24                                     urn:cts:greekLit:tlg0031.tlg002:9.44                                     urn:cts:greekLit:tlg0031.tlg002:9.46                                     urn:cts:greekLit:tlg0031.tlg002:9.48"
+},
+{
+"at": "8:5",
+"ref": "Luke 10, 10-12",
+"urn": "urn:cts:greekLit:tlg0031.tlg003:10.10-10.12"
+},
+{
+"at": "9:11",
+"ref": "Mt. 12, 60; Mk. 3, 85; Luke 8, 21",
+"urn": "urn:cts:greekLit:tlg0031.tlg001:12.60                                     urn:cts:greekLit:tlg0031.tlg002:3.85                                     urn:cts:greekLit:tlg0031.tlg003:8.21"
+},
+{
+"at": "11:2",
+"ref": "cf, 1 Clement 23, 8. 4",
+"urn": "urn:cts:greekLit:tlg1271.tlg002:23.8                                     urn:cts:greekLit:tlg1271.tlg002:23.4"
+},
+{
+"at": "11:5",
+"ref": "Heb 10, 23",
+"urn": "urn:cts:greekLit:tlg0031.tlg019:10.23"
+},
+{
+"at": "11:7",
+"ref": "1 Cor. 2, 9",
+"urn": "urn:cts:greekLit:tlg0031.tlg007:2.9"
+},
+{
+"at": "12:2",
+"ref": "Ev Aegypt. (1)",
+"urn": "NN"
+},
+{
+"at": "13:2",
+"ref": "Is. 32, 6",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:32.6"
+},
+{
+"at": "13:4",
+"ref": "Luke 6, 32. 35",
+"urn": "urn:cts:greekLit:tlg0031.tlg003:6.32                                     urn:cts:greekLit:tlg0031.tlg003:6.35"
+},
+{
+"at": "14:1",
+"ref": "Jer. 7, 11; Mt. 21, 13",
+"urn": "urn:cts:greekLit:tlg0527.tlg049:7.11 urn:cts:greekLit:tlg0031.tlg001:21.13"
+},
+{
+"at": "14:2",
+"ref": "Eph. 1, 23.",
+"urn": "urn:cts:greekLit:tlg0031.tlg010:1.23"
+},
+{
+"at": "14:2",
+"ref": "Gen 1, 27",
+"urn": "urn:cts:greekLit:tlg0527.tlg001:1.27"
+},
+{
+"at": "14:2",
+"ref": "I Pet. 1, 20",
+"urn": "urn:cts:greekLit:tlg0031.tlg021:1.20"
+},
+{
+"at": "14:5",
+"ref": "I Cor. 2, 9",
+"urn": "urn:cts:greekLit:tlg0031.tlg007:2.9"
+},
+{
+"at": "16:2",
+"ref": "Malach. 4, 1",
+"urn": "urn:cts:greekLit:tlg0527.tlg047:4.1"
+},
+{
+"at": "16:3",
+"ref": "Is 34, 4",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:34.4"
+},
+{
+"at": "16:4",
+"ref": "I Pet. 4, 8",
+"urn": "urn:cts:greekLit:tlg0031.tlg021:4.8"
+},
+{
+"at": "17:3",
+"ref": "Rom. 12, 16; cf. Phil. 2, 2",
+"urn": "urn:cts:greekLit:tlg0031.tlg006:12.10                                     urn:cts:greekLit:tlg0031.tlg011:2.3",
+"fixed": "Rom. 12, 10; cf. Phil. 2, 3 → Rom. 12, 16; cf. Phil. 2, 2 (the margin reference misread; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Rom. 12, 16; cf. Phil. 2, 2)"
+},
+{
+"at": "17:3",
+"ref": "Is. 66, 16",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:66.16"
+},
+{
+"at": "17:4",
+"ref": "Is. 66, 24",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:66.24"
+},
+{
+"at": "17:5",
+"ref": "Is. 66, 24",
+"urn": "urn:cts:greekLit:tlg0527.tlg048:66.24"
+},
+{
+"at": "17:7",
+"ref": "Apoc. 11, 19",
+"urn": "NN"
+},
+{
+"at": "19:2",
+"ref": "Eph. 4, 18",
+"urn": "urn:cts:greekLit:tlg0031.tlg010:4.18"
+},
+{
+"at": "20:4",
+"ref": "I Tim. 1. 17",
+"urn": "urn:cts:greekLit:tlg0031.tlg015:1.17"
+}
+]
+}
