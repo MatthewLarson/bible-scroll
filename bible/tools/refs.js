@@ -2,11 +2,13 @@
    Finds "Isaiah 44:6", "Psalm 89:27, 37", "Ezekiel 2:8–3:3", "Daniel 7", "1 Kings 6:20" and bare "13:18".
    A bare chapter:verse belongs to the context book (the book being read), unless it continues a list that
    began with another book in the same sentence part ("Isaiah 13:10; 34:4"), or follows a capitalized word
-   that is not a book ("Barnabas 15:9"). A book name after a number that is not part of it ("4 Ezra 8:3")
+   that is not a book ("Hermas 15:9"). A book name after a number that is not part of it ("4 Ezra 8:3")
    is a work outside the 66, not a reference. In a plain reference list (listMode), every bare item is the context book.
    Needs the catalog's books: [{id, name, vc:[verses per chapter]}]. */
 (function(root){
-const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs'], Rev:['Revelation']};
+const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs'], Rev:['Revelation'],
+  Bnb:['Barnabas'],                 // "Barnabas 4:3" is the Epistle (the man Barnabas is never cited by chapter)
+  Pol:['Polycarp, Philippians']};   // the comma form scholars write; "Philippians" alone stays Paul's letter
 const PLAIN_WORDS = new Set('See Compare In At And Also Then From To Or Both Note Like Unlike After Before With Until Since Only Verse Verses Chapter Chapters Rev But Yet So As'.split(' '));
 const ONE_CH = new Set(['Oba','Phm','2Jn','3Jn','Jud','Man','Ps2']);
 const PS151 = 'Ps2';   // Psalm 151 is its own book: "Psalm 151:4" is Ps2 1:4, "Psalm 151" the whole psalm

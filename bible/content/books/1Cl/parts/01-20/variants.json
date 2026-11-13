@@ -1,0 +1,462 @@
+[
+ {
+  "v": "1:1",
+  "a": "calamities",
+  "t": "\"Calamities\" or \"hardships\"?",
+  "p": "Codex Alexandrinus has \"reverses\"; the Constantinople manuscript has \"hardships\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), Lake's text; Lightfoot also reports the Syriac's rendering as standing for it",
+    "orig": "περιπτώσεις",
+    "en": "reverses, calamities",
+    "plain": "calamities"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, AD 1056); the Latin <i>impedimenta</i> perhaps stands for it (Lake), and Knopf accepts it",
+    "orig": "περιστάσεις",
+    "en": "difficult circumstances, hardships",
+    "plain": "hardships"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the reading of A; his footnote gives C and says the Latin \"perhaps\" represents it. The meaning hardly changes: both words name troubles that came on the church at Rome.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "Christ",
+  "t": "Christ's supplies or God's?",
+  "p": "Codex Alexandrinus reads \"of God\", which would make \"his sufferings\" God's sufferings.",
+  "readings": [
+   {
+    "w": "The other witnesses Lake used (his footnote names only A as differing); Lake's text",
+    "orig": "τοῖς ἐφοδίοις τοῦ Χριστοῦ",
+    "en": "the provisions of Christ",
+    "plain": "Christ"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD); printed by Lightfoot",
+    "orig": "τοῖς ἐφοδίοις τοῦ θεοῦ",
+    "en": "the provisions of God",
+    "plain": "God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints \"Christ\"; his footnote names only A as differing. Lightfoot printed \"of God\" with A and argued that no copyist would have changed \"Christ\" to \"God\" here, since \"his sufferings\" in the next clause would then be read as God's, a bold phrase; he thought a change in the other direction more likely.",
+  "b": "<p>With \"God\", the sentence reads: \"content with the supplies God gives ... his words ... his sufferings\". The Plain English Translation follows Lake.</p>",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "2:4",
+  "a": "with mercy and with conscience",
+  "t": "A corrupt phrase",
+  "p": "Lake thinks \"conscience\" is a copying error. Codex C reads \"fear\" for \"mercy\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus and Lake's text",
+    "orig": "μετ᾽ ἐλέους καὶ συνειδήσεως",
+    "en": "with mercy and conscience",
+    "plain": "with mercy and with conscience"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, AD 1056), written δίους, that is δέους",
+    "orig": "μετὰ δέους καὶ συνειδήσεως",
+    "en": "with fear and conscience",
+    "plain": "with fear and with conscience"
+   },
+   {
+    "w": "Conjecture, called by Lake \"perhaps the best emendation\" (no manuscript has it)",
+    "orig": "μετ᾽ ἐλέους καὶ συναισθήσεως",
+    "en": "with mercy and fellow-feeling",
+    "plain": "with mercy and with fellow-feeling"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation keeps the text Lake prints, though Lake says it \"must be corrupt\", because no witness has anything better and the conjecture is only a guess. \"With mercy and conscience\" is hard to explain; Lightfoot also tried emendations (\"with God's good pleasure\").",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "5:5",
+  "a": "showed the way to",
+  "t": "\"Showed the way to\" or \"showed\"?",
+  "p": "Codex C has the simple \"showed\". Codex A has a hole at this word.",
+  "readings": [
+   {
+    "w": "Lake's text, with Lightfoot, who proposed this form where Codex Alexandrinus is torn; Macarius Magnes uses the same verb of Peter and Paul",
+    "orig": "ὑπέδειξεν",
+    "en": "pointed out (the way to)",
+    "plain": "showed the way to"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, AD 1056)",
+    "orig": "ἔδειξεν",
+    "en": "showed",
+    "plain": "showed"
+   }
+  ],
+  "follow": 0,
+  "why": "Lightfoot argues that C often replaces a compound verb with the simple one, and that the compound fits the picture of Paul as a model; Lake prints it.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "5:7",
+  "a": "taken up",
+  "t": "\"Taken up\" or \"went\"?",
+  "p": "Codices A and C say Paul \"went\" into the holy place, as Peter \"went\" in 5:4.",
+  "readings": [
+   {
+    "w": "The Syriac, Latin and Coptic versions (S, L, K); Lake's text",
+    "orig": "ἀνελήμφθη",
+    "en": "was taken up",
+    "plain": "taken up"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and Codex Constantinopolitanus (C); printed by Lightfoot",
+    "orig": "ἐπορεύθη",
+    "en": "went",
+    "plain": "went"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the three versions and judges the Greek manuscripts' \"went\" to have come in \"probably from v. 4\", where it is said of Peter.",
+  "b": "<p>With the other reading the verse ends \"he was set free from the world in this way and went into the holy place\".</p>",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "They suffered because of jealousy, and through many outrages and tortures they became the finest example among us",
+  "t": "\"Through many outrages\" or \"suffered many outrages\"?",
+  "p": "Lake prints the Greek dative \"by many outrages\"; the Latin and Coptic may imply \"suffered many outrages\".",
+  "readings": [
+   {
+    "w": "Lake's text (his footnote names only L and K as perhaps differing); kept by Lightfoot against earlier editors",
+    "orig": "πολλαῖς αἰκίαις καὶ βασάνοις",
+    "en": "by or amid many outrages and tortures",
+    "plain": "They suffered because of jealousy, and through many outrages and tortures they became the finest example among us"
+   },
+   {
+    "w": "The Latin and Coptic versions (L, K) perhaps imply it (Lake's footnote); earlier editors printed it, Lightfoot says",
+    "orig": "πολλὰς αἰκίας καὶ βασάνους",
+    "en": "suffered many outrages and tortures",
+    "plain": "They suffered many outrages and tortures because of jealousy, and among us they became the finest example"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text. Lightfoot kept the dative because it \"is frequently used to denote the means\": \"suffered\" then stands alone, and \"by or amid many sufferings\" says how they became an example. Lake's own English reads it the same way.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "women were hunted down as Danaids and Dirces",
+  "t": "A famous conjecture",
+  "p": "All the witnesses have \"Danaids and Dirces\". Wordsworth proposed \"women, young girls, slave girls\".",
+  "readings": [
+   {
+    "w": "All the witnesses (A, C, L, S, K, with small slips); Lake's text",
+    "orig": "γυναῖκες Δαναΐδες καὶ Δίρκαι",
+    "en": "women, Danaids and Dircae",
+    "plain": "women were hunted down as Danaids and Dirces"
+   },
+   {
+    "w": "Conjecture of Wordsworth (in a note on Theocritus 26:1), proposed on his own also by Basil H. Cooper, printed by Lightfoot in his first edition (no manuscript has it)",
+    "orig": "γυναῖκες, νεάνιδες, παιδίσκαι",
+    "en": "women, young girls, slave girls",
+    "plain": "women, young girls and slave girls were hunted down"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows every witness, as Lake does: he says the text \"is perhaps corrupt: but no satisfactory emendation is known\". Lightfoot kept the manuscript reading in his second edition \"though not without misgiving\", while still favoring the conjecture, which Tischendorf had called a \"very free conjecture\".",
+  "b": "<p>The conjecture assumes an early copying error. It gives the sense \"women, tender girls, even slave girls\", which Lightfoot compares with Augustine and Leo on boys, girls and women among the martyrs. Other conjectures he lists (by Donaldson, Lagarde and Haupt) found less favor. See the note on the phrase.</p>",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "7:4",
+  "a": "his Father",
+  "t": "\"His Father\" or \"his God and Father\"?",
+  "p": "The Greek manuscripts add \"God\" in two different places.",
+  "readings": [
+   {
+    "w": "The Syriac, Latin and Coptic versions (S, L, K); Lake's text",
+    "orig": "τῷ πατρὶ αὐτοῦ",
+    "en": "to his Father",
+    "plain": "his Father"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "τῷ θεῷ καὶ πατρὶ αὐτοῦ",
+    "en": "to his God and Father",
+    "plain": "his God and Father"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, AD 1056)",
+    "orig": "τῷ πατρὶ αὐτοῦ τῷ θεῷ",
+    "en": "to his Father, God",
+    "plain": "his Father, God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the versions: when two manuscripts add the same word in different places, the addition is probably not original.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "10:7",
+  "a": "on the mountain that God showed him",
+  "t": "\"The mountain\" or \"one of the mountains\"?",
+  "p": "The Greek manuscripts and two versions say \"one of the mountains\", as the Greek Genesis does.",
+  "readings": [
+   {
+    "w": "The Latin version (L); Lake's text",
+    "orig": "πρὸς τὸ ὄρος ὃ ἔδειξεν αὐτῷ",
+    "en": "to the mountain which he showed him",
+    "plain": "on the mountain that God showed him"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Codex Constantinopolitanus (C), the Syriac and Coptic versions (S, K)",
+    "orig": "πρὸς ἓν τῶν ὀρέων ὃ ἔδειξεν αὐτῷ",
+    "en": "to one of the mountains which he showed him",
+    "plain": "on one of the mountains that God showed him"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the Latin alone and says the others \"conform to the LXX\", that is, copyists brought Clement's free summary into line with Genesis 22:2 (\"on one of the mountains\").",
+  "s": [
+   "lake-apostolic-fathers",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "12:1",
+  "a": "Rahab the prostitute",
+  "t": "\"The prostitute\" or \"the one called the prostitute\"?",
+  "p": "Codex C and the Latin, Syriac and Coptic versions soften it to \"Rahab, who was called the prostitute\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A) and Clement of Alexandria's quotation; Lake's text",
+    "orig": "Ῥαὰβ ἡ πόρνη",
+    "en": "Rahab the prostitute",
+    "plain": "Rahab the prostitute"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C) and the Latin, Syriac and Coptic versions (L, S, K)",
+    "orig": "Ῥαὰβ ἡ ἐπιλεγομένη πόρνη",
+    "en": "Rahab who was surnamed the prostitute",
+    "plain": "Rahab, the one called the prostitute,"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows A and Clement of Alexandria and suggests that the longer reading came in \"perhaps from Hebr. 11, 31\". The shorter text matches Hebrews 11:31 and James 2:25 (\"Rahab the prostitute\").",
+  "s": [
+   "lake-apostolic-fathers",
+   "clement-stromata"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": "the blood of the Lord",
+  "t": "\"Of the Lord\" or \"of Christ\"?",
+  "p": "The Syriac version names Christ: \"through the blood of Christ\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A) and Codex Constantinopolitanus (C); Lake's text",
+    "orig": "τοῦ αἵματος τοῦ κυρίου",
+    "en": "the blood of the Lord",
+    "plain": "the blood of the Lord"
+   },
+   {
+    "w": "The Syriac version (S), as Lightfoot reports it",
+    "orig": "τοῦ χριστοῦ (Lightfoot's Greek for S)",
+    "en": "the blood of Christ",
+    "plain": "the blood of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek manuscripts agree, and Lake prints their reading. Lightfoot points to Justin's \"the blood of Christ\" in the same reading of Rahab's sign; the Syriac says outright who \"the Lord\" is here.",
+  "s": [
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "12:7",
+  "a": "believe and hope in God",
+  "t": "\"Believe and hope\" or \"believe\"?",
+  "p": "The Syriac version has no \"and hope\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A) and Codex Constantinopolitanus (C); Lake's text",
+    "orig": "πιστεύουσιν καὶ ἐλπίζουσιν ἐπὶ τὸν θεόν",
+    "en": "who believe and hope in God",
+    "plain": "believe and hope in God"
+   },
+   {
+    "w": "The Syriac version (S), as Lightfoot reports it",
+    "orig": "πιστεύουσιν ἐπὶ τὸν θεόν",
+    "en": "who believe in God",
+    "plain": "believe in God"
+   }
+  ],
+  "follow": 0,
+  "why": "Both Greek manuscripts have \"and hope\", and Lake prints it.",
+  "s": [
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "15:5",
+  "a": ", lips that speak lawlessness against the righteous.\" And again: \"May the Lord destroy all lying lips",
+  "t": "Words only the Syriac keeps",
+  "p": "Every witness but the Syriac skips from one \"lying lips\" to the next. Lake prints the Syriac text.",
+  "readings": [
+   {
+    "w": "The Syriac version (S) alone; Lake's text, the same restoration Lightfoot had made before the Syriac was found",
+    "orig": "τὰ χείλη τὰ δόλια τὰ λαλοῦντα κατὰ τοῦ δικαίου ἀνομίαν. καὶ πάλιν· Ἐξολεθρεύσαι κύριος πάντα τὰ χείλη τὰ δόλια",
+    "en": "the deceitful lips that speak lawlessness against the righteous. And again: May the Lord destroy all the deceitful lips",
+    "plain": ", lips that speak lawlessness against the righteous.\" And again: \"May the Lord destroy all lying lips"
+   },
+   {
+    "w": "Codex Alexandrinus, Codex Constantinopolitanus, the Latin and Coptic versions, and Clement of Alexandria (all the other witnesses)",
+    "orig": "τὰ χείλη τὰ δόλια",
+    "en": "the deceitful lips (going straight on to \"a big-talking tongue\")",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake judges the shorter text \"a primitive corruption\": a copyist's eye jumped from the first \"deceitful lips\" to the second, and the Syriac (or its source) is \"a correct emendation\". Without the words, Psalm 31:18 runs straight into the middle of Psalm 12:3, which makes poor sense.",
+  "b": "<p>The shorter text would read: \"So then, let lying lips be struck dumb, the tongue that talks big, those who say ...\" The error is the kind called a skip from like to like (homoeoteleuton).</p>",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "16:9",
+  "a": "he has come",
+  "t": "\"He has come\" or \"he was led\"?",
+  "p": "Clement's Greek manuscripts have \"he has come to death\"; the Syriac, like Swete's Greek Isaiah, \"he was led\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A) and Codex Constantinopolitanus (C); Lake's text; Justin in two places (Lightfoot)",
+    "orig": "ἥκει",
+    "en": "he has come",
+    "plain": "he has come"
+   },
+   {
+    "w": "The Syriac version (S); the Greek Isaiah 53:8 as Swete prints it, and Tertullian (Lightfoot)",
+    "orig": "ἤχθη",
+    "en": "he was led",
+    "plain": "he was led"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Clement's Greek manuscripts, as Lake does. Lightfoot thought \"he was led\" could easily have come in from Isaiah 53:7, where the same verb is used, so that \"he has come\" \"was perhaps the original reading of the LXX; and so it stands in some MSS in Holmes and Parsons\".",
+  "s": [
+   "lightfoot-clement-1890",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "18:1",
+  "a": "God said of him",
+  "t": "\"Of him\" or \"to him\"?",
+  "p": "Three witnesses say God spoke \"to\" David.",
+  "readings": [
+   {
+    "w": "The Latin version (L) and Clement of Alexandria; Lake's text",
+    "orig": "ἐφ᾽ οὗ εἶπεν ὁ θεός",
+    "en": "of whom God said",
+    "plain": "God said of him"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Codex Constantinopolitanus (C), the Syriac version (S)",
+    "orig": "πρὸς ὃν εἶπεν ὁ θεός",
+    "en": "to whom God said",
+    "plain": "God said to him"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the Latin and Clement of Alexandria. \"Of him\" fits the words that follow, which speak about David (\"I have found a man ...\"), not to him.",
+  "s": [
+   "lake-apostolic-fathers",
+   "clement-stromata"
+  ]
+ },
+ {
+  "v": "20:5",
+  "a": "The regions of the deeps, past all tracing, and the regions of the world below",
+  "t": "\"Regions\" or \"decrees\"?",
+  "p": "The Greek manuscripts read \"decrees\" (krimata). Lake prints the emendation \"regions\" (klimata).",
+  "readings": [
+   {
+    "w": "Lake's text, an emendation (no Greek manuscript has it), which Lightfoot also called the best of those suggested",
+    "orig": "κλίματα",
+    "en": "regions",
+    "plain": "The regions of the deeps, past all tracing, and the regions of the world below"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and Codex Constantinopolitanus (C)",
+    "orig": "κρίματα",
+    "en": "decrees, ordinances",
+    "plain": "The decrees of the deeps, past all tracing, and of the world below"
+   },
+   {
+    "w": "The Coptic version (K) has \"boundaries\"; the Latin (L) reads <i>qui situ</i>, which Lake marks with \"sic\"",
+    "orig": "(Coptic) \"boundaries\"",
+    "en": "boundaries",
+    "plain": "The boundaries of the deeps, past all tracing, and of the world below"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"The emendation given in the text seems the most probable treatment of the difficulty.\" The manuscripts' \"decrees ... are held together by the same commands\" says the same thing twice; \"regions\" gives a subject that can be held in place, and the Coptic \"boundaries\" points the same way. Lightfoot kept <i>krimata</i>, \"the ordinances by which they are governed\", but called it \"very awkward\".",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "20:8",
+  "a": "which people can find no end to",
+  "t": "\"Endless\" or \"impassable\"?",
+  "p": "Origen read a word one letter shorter: \"which people cannot cross\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Codex Constantinopolitanus (C), Clement of Alexandria; Lake's text",
+    "orig": "ἀπέραντος ἀνθρώποις",
+    "en": "boundless for people",
+    "plain": "which people can find no end to"
+   },
+   {
+    "w": "Origen (<i>Selections on Ezekiel</i> 8.3), and the Latin translation of his <i>On First Principles</i> 2.3, <i>intransmeabilis</i>; printed by Lightfoot",
+    "orig": "ἀπέρατος ἀνθρώποις",
+    "en": "impassable for people",
+    "plain": "which people cannot cross"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows the Greek manuscripts that Lake prints. The two words differ by one letter and sound alike; Lake's own English translation (\"which men cannot pass\") renders the other reading. \"Which people cannot cross\" fits the thought of worlds beyond it better, so either may be original.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ }
+]

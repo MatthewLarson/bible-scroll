@@ -1,0 +1,391 @@
+[
+ {
+  "v": "21:1",
+  "a": "a judgment on us",
+  "t": "\"On us\" or \"on all of us\"?",
+  "p": "Codex Alexandrinus, with C in part, adds \"all.\"",
+  "readings": [
+   {
+    "w": "Lake's text (the other witnesses, by Lake's silence)",
+    "orig": "εἰς κρίμα ἡμῖν",
+    "en": "into a judgment for us",
+    "plain": "a judgment on us"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), and in part the Codex Constantinopolitanus (C, 1056), from Lake's footnote \"A(C) read κρίμα πᾶσιν ἡμῖν\"",
+    "orig": "εἰς κρίμα πᾶσιν ἡμῖν",
+    "en": "into a judgment for all of us",
+    "plain": "a judgment on all of us"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the shorter text. \"All\" makes the warning a little wider but does not change its sense: the whole church, not only the rebels, can turn God's kindness into judgment.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "21:3",
+  "a": "Let us see how near he is",
+  "t": "\"Let us see\" or \"let us know\"?",
+  "p": "The Latin version seems to read a Greek word for \"let us know.\"",
+  "readings": [
+   {
+    "w": "Lake's text (the other witnesses, by Lake's silence)",
+    "orig": "ἴδωμεν",
+    "en": "let us see",
+    "plain": "Let us see how near he is"
+   },
+   {
+    "w": "The Latin version (L, perhaps late 100s or early 200s AD), which Lake says \"implies εἴδωμεν (sciamus), 'let us know'\"",
+    "orig": "εἴδωμεν (Latin sciamus)",
+    "en": "let us know",
+    "plain": "Let us know how near he is"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words sound alike and differ by one letter. Clement uses \"let us see\" (ἴδωμεν) often as a call to look at an example (24:2; 25:1), so Lake keeps it.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "22:7",
+  "a": "rescued him out of all his troubles.",
+  "t": "A verse added from the psalm",
+  "p": "The Syriac adds Psalm 34:19. Lake thinks it came in from the Septuagint.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A), Codex Constantinopolitanus (C), the Latin (L) and Coptic (K) versions; Lake's text and Knopf",
+    "orig": "καὶ ἐκ πασῶν τῶν θλίψεων αὐτοῦ ἐρύσατο αὐτόν.",
+    "en": "and out of all his troubles he rescued him.",
+    "plain": "rescued him out of all his troubles."
+   },
+   {
+    "w": "The Syriac version (S, one manuscript of AD 1169); printed by earlier editors as a verse 8 (Lake: \"The Editors (except Knopf) add as v. 8\")",
+    "orig": "... ἐρύσατο αὐτόν. πολλαὶ αἱ θλίψεις τοῦ δικαίου, καὶ ἐκ πασῶν αὐτῶν ῥύσεται αὐτὸν ὁ κύριος.",
+    "en": "... he rescued him. Many are the troubles of the righteous man, and out of them all the Lord will rescue him.",
+    "plain": "rescued him out of all his troubles. Many are the troubles of the righteous man, and out of them all the Lord will rescue him."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's note: \"the evidence of ACLK suggests that it is an insertion from the text of LXX.\" A copyist who knew the psalm could easily add its next verse; dropping it from four independent witnesses would be harder to explain.",
+  "b": "<p>The added line is Psalm 34:19 (33:20 in the Greek). The Septuagint has the plural there, \"of the righteous\"; the Hebrew, which the site follows, has the singular: \"Many are the evils that strike a righteous person\" (Psalm 34:19). Lake gives the Syriac's line in Greek, with the singular \"of the righteous man.\"</p>",
+  "s": [
+   "lake-apostolic-fathers",
+   "rahlfs-lxx"
+  ]
+ },
+ {
+  "v": "30:1",
+  "a": "the portion of the Holy One",
+  "t": "The portion of the Holy One, or a holy portion?",
+  "p": "The witnesses split four ways on this phrase.",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD); Lake's text",
+    "orig": "Ἁγίου οὖν μερίς",
+    "en": "portion of the Holy One",
+    "plain": "the portion of the Holy One"
+   },
+   {
+    "w": "The Latin and Syriac versions (LS), which Lake says imply ἁγία οὖν μερίς",
+    "orig": "ἁγία οὖν μερίς",
+    "en": "a holy portion",
+    "plain": "a holy portion"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, 1056)",
+    "orig": "ἅγια οὖν μέρη",
+    "en": "holy portions",
+    "plain": "holy portions"
+   },
+   {
+    "w": "The Coptic version (K), which Lake says represents ἁγίων οὖν μερίς",
+    "orig": "ἁγίων οὖν μερίς",
+    "en": "portion of the saints",
+    "plain": "the portion of the saints"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the oldest Greek manuscript. \"The portion of the Holy One\" picks up 29:1–2, where God makes the church his own portion as Israel was \"the Lord's portion.\" The other readings are small changes of the same letters. All four say the church belongs to God and must be holy.",
+  "b": "<p>Lake's English has \"the portion of one who is holy.\"</p>",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "30:3",
+  "a": "be justified by works, not by words",
+  "t": "\"Not by words\" or \"and not by words\"?",
+  "p": "Two witnesses add \"and.\" The sense is the same.",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C), the Latin (L) and Coptic (K) versions (Lake's note: \"μή CLK\"); Lake's text",
+    "orig": "ἔργοις δικαιούμενοι, μὴ λόγοις",
+    "en": "being justified by works, not by words",
+    "plain": "be justified by works, not by words"
+   },
+   {
+    "w": "Codex Alexandrinus (A) and the Syriac version (S) (Lake's note: \"καὶ μή AS\"); Lightfoot (1890) prints this reading",
+    "orig": "ἔργοις δικαιούμενοι καὶ μὴ λόγοις",
+    "en": "being justified by works and not by words",
+    "plain": "be justified by works and not by words"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the shorter text; Lightfoot prints \"and not.\" The added \"and\" makes no difference to the meaning: works, not mere words.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "34:8",
+  "a": "the Lord has prepared",
+  "t": "\"The Lord,\" \"God,\" or nothing?",
+  "p": "Most witnesses say \"the Lord\"; Clement of Alexandria has \"God,\" as Paul does; Codex Alexandrinus has no subject.",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C), the Latin (L) and Syriac (S) versions; Lake's text",
+    "orig": "ὅσα ἡτοίμασεν κύριος",
+    "en": "all that the Lord has prepared",
+    "plain": "the Lord has prepared"
+   },
+   {
+    "w": "Clement of Alexandria's quotation (about AD 200), as in 1 Corinthians 2:9",
+    "orig": "ὅσα ἡτοίμασεν ὁ θεός",
+    "en": "all that God has prepared",
+    "plain": "God has prepared"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), which leaves the word out",
+    "orig": "ὅσα ἡτοίμασεν",
+    "en": "all that he has prepared",
+    "plain": "he has prepared"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints \"the Lord\" with three witnesses. \"God\" may come from 1 Corinthians 2:9, which a later writer quoting the line would know well; a copyist could also drop a short word. The sense is the same: what is prepared comes from God.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "35:5",
+  "a": "lack of hospitality",
+  "t": "Lack of hospitality, or love of glory?",
+  "p": "The manuscripts and versions differ on the last word of the list. Lake calls the text doubtful.",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C) and the Syriac version (S); Lake's text",
+    "orig": "ἀφιλοξενίαν",
+    "en": "inhospitality",
+    "plain": "lack of hospitality"
+   },
+   {
+    "w": "The Latin version (L), which has inhumilitatem; in Lake's note, Knopf \"believes [it] to represent an original φιλοδοξίαν\"",
+    "orig": "φιλοδοξίαν (Latin inhumilitatem)",
+    "en": "love of glory",
+    "plain": "love of glory"
+   },
+   {
+    "w": "Codex Alexandrinus (A), which reads φιλοξενίαν, \"which is impossible\" (Lake)",
+    "orig": "φιλοξενίαν",
+    "en": "hospitality",
+    "plain": "hospitality"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's note: \"The text is doubtful.\" He prints \"inhospitality\" with C and S. A's \"hospitality\" cannot stand in a list of sins and has lost one letter. \"Love of glory\" would fit the words just before it (\"empty glory-seeking\"), but rests on a Latin word that does not match it exactly. Hospitality was praised at Corinth in better days (1:2), so its absence is a fitting charge.",
+  "b": "<p>Clement praised the Corinthians' hospitality in better days (1:2) and held up the hospitality of Abraham, Lot and Rahab (10–12).</p>",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "35:12",
+  "a": "the way by which I will show him the salvation of God",
+  "t": "\"The way by which\" or \"the way that\"?",
+  "p": "The Latin has \"in which\"; the Greek manuscripts have \"which,\" as later Septuagint manuscripts do.",
+  "readings": [
+   {
+    "w": "The Latin version (L, in qua); Lake's text",
+    "orig": "ὁδός, ᾗ δείξω αὐτῷ",
+    "en": "a way, by which I will show him",
+    "plain": "the way by which I will show him the salvation of God"
+   },
+   {
+    "w": "Codex Alexandrinus (A), Codex Constantinopolitanus (C) and the Syriac (S), \"with later LXX MSS\" (Lake)",
+    "orig": "ὁδός, ἣν δείξω αὐτῷ",
+    "en": "a way, which I will show him",
+    "plain": "the way that I will show him, the salvation of God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the Latin's reading. It is the reading of the Septuagint as Rahlfs and Swete print it, and Lake notes that the Greek manuscripts of Clement share their reading with later Septuagint copies. With \"by which,\" the way is the means of showing God's salvation; with \"which,\" God shows the way itself. Clement's next words, \"This is the way ... in which we found our salvation\" (36:1), fit either.",
+  "s": [
+   "lake-apostolic-fathers",
+   "rahlfs-lxx",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "36:2",
+  "a": "Through him we look steadily",
+  "t": "\"We look\" or \"let us look\"?",
+  "p": "Codex Alexandrinus makes the first clause a call: \"let us look steadily.\"",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C) and the versions, as Lake's text",
+    "orig": "ἀτενίζομεν",
+    "en": "we gaze",
+    "plain": "Through him we look steadily"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), from Lake's footnote (\"let us fix our gaze\")",
+    "orig": "ἀτενίτωμεν",
+    "en": "let us gaze",
+    "plain": "Through him let us look steadily"
+   }
+  ],
+  "follow": 0,
+  "why": "The four clauses that follow state what Christ has done (\"were opened,\" \"blossoms\"), so a statement fits the run better than one call. A's form looks like a slip toward Clement's frequent \"let us\" (as 7:4 and 19:2, where he writes ἀτενίσωμεν).",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "37:2",
+  "a": "how readily",
+  "t": "\"Readily\" or \"yieldingly\"?",
+  "p": "Codex Alexandrinus is damaged and was corrected here. Lake prints C's word, \"readily\"; Lightfoot prefers one meaning \"yieldingly.\"",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C, 1056); Lake's text",
+    "orig": "ἑκτικῶς",
+    "en": "habitually, readily (Lightfoot: \"as a matter of course\", \"promptly\", \"readily\"; Lake: \"habitual readiness\")",
+    "plain": "how readily"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD) as Lightfoot reads it, partly lost: Lake, \"A reads εἰεκτι... (the rest of the word has disappeared ...),\" and its corrector \"has ευει...\"; Lightfoot prints εἰκτικῶς and judges the Syriac \"nearer to εἰκτικῶς\"",
+    "orig": "εἰκτικῶς (A, partly lost; corrected to εὐει...)",
+    "en": "yieldingly, concessively (Lightfoot: \"concessively\")",
+    "plain": "how yieldingly"
+   },
+   {
+    "w": "Lightfoot's first edition, from A's corrected letters (he later gave it up)",
+    "orig": "εὐεικτικῶς",
+    "en": "very yieldingly",
+    "plain": "how willingly"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints C's ἑκτικῶς and translates \"habitual readiness.\" Lightfoot (1890) argues that A's scribe more probably had εἰκτικῶς in his copy, so that it \"has the higher claim to be regarded as the word used by Clement,\" but grants that C's reading is possible, meaning \"readily.\" The Plain English Translation follows Lake's text. Either way the soldiers obey without resistance; the readings differ only in whether the stress falls on practiced promptness or on yielding.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "37:4",
+  "a": "and in this lies their usefulness.",
+  "t": "\"In this lies their usefulness\" or \"they make use of one another\"?",
+  "p": "The Latin seems to read \"one another.\" Lake thinks it may be the original.",
+  "readings": [
+   {
+    "w": "The Greek manuscripts, as Lake's text",
+    "orig": "καὶ ἐν τούτοις χρῆσις",
+    "en": "and in these [is] use",
+    "plain": "and in this lies their usefulness."
+   },
+   {
+    "w": "The Latin version (L), which Lake says \"seems to imply ἀλλήλοις 'and one makes use of the other,' which may be the original text\"",
+    "orig": "καὶ ἀλλήλοις χρῆσις (implied)",
+    "en": "and one makes use of the other",
+    "plain": "and each makes use of the other."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the Greek manuscripts but leaves the question open. Both readings make the same point: the great and the small need each other. The Plain English Translation keeps the printed text.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "38:2",
+  "a": "look after",
+  "t": "\"Look after\" or \"not neglect\"?",
+  "p": "Codex Alexandrinus has a garbled form that may mean \"let the strong not neglect the weak.\"",
+  "readings": [
+   {
+    "w": "Lake's text (the other witnesses, by Lake's silence)",
+    "orig": "ὁ ἰσχυρὸς τημελείτω τὸν ἀσθενῆ",
+    "en": "let the strong care for the weak",
+    "plain": "look after"
+   },
+   {
+    "w": "Codex Alexandrinus (A), which has μὴ τητμμελειτω; Lake: \"perhaps a corruption of μὴ ἀτημελείτω 'not neglect,' which may be the true reading\"",
+    "orig": "ὁ ἰσχυρὸς μὴ ἀτημελείτω τὸν ἀσθενῆ (as Lake suggests)",
+    "en": "let the strong not neglect the weak",
+    "plain": "not neglect"
+   }
+  ],
+  "follow": 0,
+  "why": "A's letters do not make a word, so its reading can only be guessed. Lake's guess gives the same sense as his printed text, said negatively. The Plain English Translation follows the printed text.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "38:2",
+  "a": "Let the one who is pure in the flesh not brag about it",
+  "t": "A hole in the vellum",
+  "p": "Codex Alexandrinus is damaged here. Laurent supplied a word that gives \"let him be so, and not brag\" (Lightfoot).",
+  "readings": [
+   {
+    "w": "Lake's text (the other witnesses, by Lake's silence; Lightfoot: \"CS Clem omit the words ἤτω καὶ\")",
+    "orig": "ὁ ἁγνὸς ἐν τῇ σαρκὶ μὴ ἀλαζονευέσθω",
+    "en": "let the pure in the flesh not boast",
+    "plain": "Let the one who is pure in the flesh not brag about it"
+   },
+   {
+    "w": "Codex Alexandrinus (A): Lake, \"A reads καὶ μή preceded by a lacuna (the vellum has been cut away). It is suggested that ἤτω should be supplied\"",
+    "orig": "ὁ ἁγνὸς ἐν τῇ σαρκὶ [ἤτω] καὶ μὴ ἀλαζονευέσθω",
+    "en": "let the pure in the flesh be so, and not boast",
+    "plain": "Let the one who is pure in the flesh stay so, and not brag about it"
+   }
+  ],
+  "follow": 0,
+  "why": "The supplied word is Laurent's guess for a hole in one manuscript (Lightfoot (1890) names him; Hort suggested στήτω, \"let him stand firm\"). Clement writes the same \"let him be\" (ἤτω) four times in 48:5, so the guess is in his style, but the other witnesses lack it. The sense hardly changes.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "39:8",
+  "a": "putting down roots",
+  "t": "\"Putting down roots\" or \"having put down roots\"?",
+  "p": "Codex Alexandrinus has the past tense of the verb; the other witnesses and the Septuagint have the present.",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C), the Latin (L) and Syriac (S) versions, and the Septuagint (Lake's note: \"βάλλοντας CLS (LXX)\"); Lake's text",
+    "orig": "ῥίζας βάλλοντας",
+    "en": "putting down roots",
+    "plain": "putting down roots"
+   },
+   {
+    "w": "Codex Alexandrinus (A) (Lake's note: \"βαλόντας A\")",
+    "orig": "ῥίζας βαλόντας",
+    "en": "having put down roots",
+    "plain": "who had put down roots"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the majority, which matches the Septuagint of Job 5:3. The sense is the same: the foolish seem to take root, but their home is soon eaten up.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ }
+]

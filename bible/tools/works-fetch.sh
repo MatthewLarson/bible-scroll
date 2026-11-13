@@ -13,6 +13,23 @@ if [ ! -d First1KGreek ]; then   # Open Greek and Latin: Swete with his apparatu
   git clone --depth 1 --filter=blob:none --sparse https://github.com/OpenGreekAndLatin/First1KGreek
   (cd First1KGreek && git sparse-checkout set data/tlg0527)
 fi
+# The Apostolic Fathers in Kirsopp Lake's Loeb edition (1912-1913, public domain), from the same First1KGreek clone:
+# Didache, Barnabas, 1 Clement, Polycarp to the Philippians, Martyrdom of Polycarp.
+for d in tlg1311/tlg001 tlg1216/tlg001 tlg1271/tlg001 tlg1622/tlg001 tlg1484/tlg001; do
+  [ -d First1KGreek/data/$d ] || (cd First1KGreek && git sparse-checkout add data/$d)
+done
+# Their public-domain English, from Wikisource (pinned revisions): Lake's own translation (1912) of the Didache, Barnabas
+# and 1 Clement; Lightfoot's Polycarp and the Ante-Nicene (Roberts-Donaldson) Martyrdom of Polycarp, since Wikisource has
+# no transcription of Lake's for those two. The Martyrdom is transcluded from page scans, so it is fetched parsed.
+if [ ! -d apfathers ]; then
+  rm -rf apfathers.tmp && mkdir apfathers.tmp
+  W=https://en.wikisource.org/w
+  for p in did-lake:14662157 bnb-lake:13883661 1cl-lake:15956766 pol-lightfoot:4280343; do
+    curl -sSf -o apfathers.tmp/${p%%:*}.wiki "$W/index.php?oldid=${p##*:}&action=raw"
+  done
+  curl -sSf -o apfathers.tmp/mpo-anf.json "$W/api.php?action=parse&oldid=13922313&prop=text&format=json&formatversion=2"
+  mv apfathers.tmp apfathers
+fi
 # bible_databases is shared with tools/fetch.sh: each script adds the files it needs to the one sparse clone.
 [ -d bible_databases ] || { git clone --depth 1 --filter=blob:none --sparse https://github.com/scrollmapper/bible_databases &&
   (cd bible_databases && git sparse-checkout set --no-cone); }

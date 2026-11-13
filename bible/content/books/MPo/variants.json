@@ -1,0 +1,736 @@
+[
+ {
+  "v": "1:0",
+  "a": "holy and catholic church",
+  "t": "'Holy and catholic' or 'holy catholic'?",
+  "p": "Eusebius's copy of the greeting has no 'and'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "τῆς ἁγίας καὶ καθολικῆς ἐκκλησίας",
+    "en": "of the holy and catholic church",
+    "plain": "holy and catholic church"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.3 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "τῆς ἁγίας καθολικῆς ἐκκλησίας",
+    "en": "of the holy catholic church",
+    "plain": "holy catholic church"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints <i>kai</i>, 'and', without a footnote. The sense is the same: the church is both holy and worldwide.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "2:2",
+  "a": "the most noble martyrs of Christ",
+  "t": "'The most noble martyrs' or 'the martyrs'?",
+  "p": "Two manuscripts lack 'most noble'.",
+  "readings": [
+   {
+    "w": "Codices Mosquensis, Parisinus and Hierosolymitanus (m p s), Lake's text",
+    "orig": "οἱ γενναιότατοι μάρτυρες τοῦ Χριστοῦ",
+    "en": "the most noble martyrs of Christ",
+    "plain": "the most noble martyrs of Christ"
+   },
+   {
+    "w": "Codices Baroccianus and Vindobonensis (b v)",
+    "orig": "οἱ μάρτυρες τοῦ Χριστοῦ",
+    "en": "the martyrs of Christ",
+    "plain": "the martyrs of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the word with m p s. The letter calls the martyrs and Germanicus 'most noble' again (3:1), so either reading fits its style. Eusebius gives these chapters only in his own words (4.15.4), so he cannot decide it.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake"
+  ]
+ },
+ {
+  "v": "2:3",
+  "a": "buying eternal life",
+  "t": "Buying eternal life, or buying off eternal punishment?",
+  "p": "The Moscow manuscript reads 'life'; the other four read 'punishment'. Lake follows Moscow.",
+  "readings": [
+   {
+    "w": "Codex Mosquensis (m, 1200s), Lake's text",
+    "orig": "τὴν αἰώνιον ζωὴν ἐξαγοραζόμενοι",
+    "en": "buying eternal life",
+    "plain": "buying eternal life"
+   },
+   {
+    "w": "Codices Baroccianus, Parisinus, Hierosolymitanus and Vindobonensis (b p s v)",
+    "orig": "τὴν αἰώνιον κόλασιν ἐξαγοραζόμενοι",
+    "en": "buying off eternal punishment",
+    "plain": "buying off eternal punishment"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the reading of m, which 'has often the better text' (his introduction). His footnote: 'The reading of bpsv would have to be translated \"buying off eternal punishment\" and this rendering of ἐξαγοράζεσθαι is doubtful.' The next sentence, on escaping the eternal fire, fits either reading.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "lying down in an upstairs room",
+  "t": "Where was he found?",
+  "p": "Eusebius has 'in an upper room'; the manuscripts add 'in a small room'.",
+  "readings": [
+   {
+    "w": "Eusebius (E), Lake's text",
+    "orig": "ἐν ὑπερῴῳ κατακείμενον",
+    "en": "lying in an upper room",
+    "plain": "lying down in an upstairs room"
+   },
+   {
+    "w": "Codex Mosquensis (m)",
+    "orig": "ἔν τινι δωματίῳ ἐν ὑπερῴῳ κατακείμενον",
+    "en": "lying in a small room in an upper story",
+    "plain": "lying down in a small room upstairs"
+   },
+   {
+    "w": "Codices Baroccianus, Parisinus, Hierosolymitanus and Vindobonensis (b p s v)",
+    "orig": "ἔν τινι δωματίῳ κατακείμενον ἐν ὑπερῴῳ",
+    "en": "lying in a small room, in an upper story",
+    "plain": "lying down in a small room upstairs"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints Eusebius's shorter wording. The manuscripts' 'in a small room' adds a detail but no change of sense. The readings are as Lake's footnote gives them.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "the whole crowd of lawless Gentiles in the stadium",
+  "t": "'Lawless Gentiles'",
+  "p": "Eusebius's copy lacks 'of lawless Gentiles'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "εἰς πάντα τὸν ὄχλον τὸν ἐν τῷ σταδίῳ ἀνόμων ἐθνῶν ἐμβλέψας",
+    "en": "looking at the whole crowd of lawless Gentiles in the stadium",
+    "plain": "the whole crowd of lawless Gentiles in the stadium"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.19 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "εἰς πάντα τὸν ὄχλον τὸν ἐν τῷ σταδίῳ ἐμβλέψας",
+    "en": "looking at the whole crowd in the stadium",
+    "plain": "the whole crowd in the stadium"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts' fuller words without a footnote. Without them, Eusebius's copy does not say whom Polycarp means by 'atheists' (see the note at 9:2).",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "13:2",
+  "a": "even before his martyrdom he had been adorned with every good thing",
+  "t": "Before his martyrdom, or before his gray hair?",
+  "p": "The manuscripts say Polycarp was honored 'even before his martyrdom'; Eusebius's copy says 'even before his gray hair'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "παντὶ γὰρ καλῷ ἀγαθῆς ἕνεκεν πολιτείας καὶ πρὸ τῆς μαρτυρίας ἐκεκόσμητο",
+    "en": "for because of his good way of life he had been adorned with every good thing even before his martyrdom",
+    "plain": "even before his martyrdom he had been adorned with every good thing"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.30 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ἐν παντὶ γὰρ ἀγαθῆς ἕνεκεν πολιτείας καὶ πρὸ τῆς πολιᾶς ἐκεκόσμητο",
+    "en": "for in every way, because of his good way of life, he had been adorned even before his gray hair",
+    "plain": "even before his hair turned gray he had been adorned in every way"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. The readings differ in sense: the manuscripts set his honor before his death, Eusebius's copy before his old age. The NPNF English of Eusebius: 'he had been treated with all honor on account of his virtuous life even before his gray hairs came'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "14:1",
+  "a": "like a choice ram taken from a great flock for an offering, a whole burnt offering made ready and acceptable to God, he looked up to heaven and said: \"Lord God, the Almighty, Father",
+  "t": "The prayer's opening",
+  "p": "Eusebius's copy lacks 'for an offering', 'made ready', 'he looked up to heaven' and the address 'Lord God, the Almighty'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "ὥσπερ κριὸς ἐπίσημος ἐκ μεγάλου ποιμνίου εἰς προσφοράν, ὁλοκαύτωμα δεκτὸν τῷ θεῷ ἡτοιμασμένον, ἀναβλέψας εἰς τὸν οὐρανὸν εἶπεν· Κύριε ὁ θεὸς ὁ παντοκράτωρ, ὁ τοῦ ἀγαπητοῦ",
+    "en": "like a choice ram taken from a great flock for an offering, a whole burnt offering made ready and acceptable to God, he looked up to heaven and said: Lord God, the Almighty, Father of your beloved",
+    "plain": "like a choice ram taken from a great flock for an offering, a whole burnt offering made ready and acceptable to God, he looked up to heaven and said: \"Lord God, the Almighty, Father"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.32-33 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ὥσπερ κριὸς ἐπίσημος ἀναφερόμενος ἐκ μεγάλου ποιμνίου ὁλοκαύτωμα δεκτὸν θεῷ παντοκράτορι, εἶπεν· ὁ τοῦ ἀγαπητοῦ",
+    "en": "like a choice ram taken up from a great flock, an acceptable whole burnt offering to God Almighty, he said: Father of your beloved",
+    "plain": "like a choice ram taken up from a great flock, an acceptable whole burnt offering to God Almighty, he said: \"Father"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. In Eusebius's copy 'Almighty' belongs to the offering ('to God Almighty'), and the prayer begins with 'Father'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "14:2",
+  "a": "the cup of your Christ",
+  "t": "'Your Christ' or 'Christ'?",
+  "p": "Lake's footnote: one manuscript (p) and Eusebius lack 'your'. Lake's own later edition of Eusebius prints it.",
+  "readings": [
+   {
+    "w": "Codices Mosquensis, Baroccianus, Vindobonensis and Hierosolymitanus (m b v s), Lake's text",
+    "orig": "ἐν τῷ ποτηρίῳ τοῦ Χριστοῦ σου",
+    "en": "in the cup of your Christ",
+    "plain": "the cup of your Christ"
+   },
+   {
+    "w": "Codex Parisinus (p) and Eusebius (E), as Lake's footnote reports",
+    "orig": "ἐν τῷ ποτηρίῳ τοῦ Χριστοῦ",
+    "en": "in the cup of Christ",
+    "plain": "the cup of Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints 'your' with four manuscripts. 'Your Christ', 'your Anointed', is the language of prayer to the Father (compare Acts 4:26-27, 'his Christ', 'your holy servant'). Lake's own Loeb edition of Eusebius (1926) prints <i>tou Christou sou</i>, 'your Christ', at 4.15.33, so Eusebius's copies themselves differ here; the NPNF English has 'in the cup of Christ'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "14:3",
+  "a": "eternal and heavenly high priest",
+  "t": "'Eternal and heavenly' or 'eternal'?",
+  "p": "Eusebius's copy lacks 'heavenly'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "διὰ τοῦ αἰωνίου καὶ ἐπουρανίου ἀρχιερέως",
+    "en": "through the eternal and heavenly high priest",
+    "plain": "eternal and heavenly high priest"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.35 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "διὰ τοῦ αἰωνίου ἀρχιερέως",
+    "en": "through the eternal high priest",
+    "plain": "eternal high priest"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. Polycarp's own letter has 'the eternal high priest' (Polycarp to the Philippians 12:2, in Latin), as Eusebius's copy does here.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "14:3",
+  "a": "with him and the Holy Spirit",
+  "t": "'With him and the Holy Spirit' or 'with him, in the Holy Spirit'?",
+  "p": "Eusebius's copy gives glory 'in the Holy Spirit', not 'with ... the Holy Spirit'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "δι᾽ οὗ σοὶ σὺν αὐτῷ καὶ πνεύματι ἁγίῳ δόξα",
+    "en": "through whom to you, with him and the Holy Spirit, be glory",
+    "plain": "with him and the Holy Spirit"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.35 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "δι’ οὗ σοι σὺν αὐτῷ ἐν πνεύματι ἁγίῳ δόξα",
+    "en": "through whom to you, with him, in the Holy Spirit, be glory",
+    "plain": "with him, in the Holy Spirit"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. Both name Father, Son and Spirit; the manuscripts set the Spirit beside the Son, Eusebius's copy names the Spirit as the one in whom glory is given (see the note at 14:3). The NPNF English: 'through whom, with him, in the Holy Spirit, be glory unto you'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "15:2",
+  "a": "like a loaf in the oven, or like gold and silver",
+  "t": "The loaf in the oven",
+  "p": "Eusebius's copy has no loaf: only gold and silver refined in a furnace.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "ἀλλ᾽ ὡς ἄρτος ὀπτώμενος ἢ ὡς χρυσὸς καὶ ἄργυρος ἐν καμίνῳ πυρούμενος",
+    "en": "but like a loaf being baked, or like gold and silver being refined in a furnace",
+    "plain": "like a loaf in the oven, or like gold and silver"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.37 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ἀλλ’ ὡς χρυσὸς καὶ ἄργυρος ἐν καμίνῳ πυρούμενος",
+    "en": "but like gold and silver being refined in a furnace",
+    "plain": "like gold and silver"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. The loaf is the image Claude's theory on the chapter page builds on, and it stands in the manuscripts only; whether Eusebius's copy lacked it or Eusebius left it out, the texts opened here do not say.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "16:1",
+  "a": "a dove came out, and so much blood",
+  "t": "The dove",
+  "p": "The manuscripts have a dove come out with the blood. Eusebius has only blood; one scholar emended the dove away.",
+  "readings": [
+   {
+    "w": "The Greek manuscripts as Lake prints them (his footnote names only Eusebius as lacking the words)",
+    "orig": "ἐξῆλθεν περιστερὰ καὶ πλῆθος αἵματος",
+    "en": "there came out a dove and a quantity of blood",
+    "plain": "a dove came out, and so much blood"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.39 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ἐξῆλθεν πλῆθος αἵματος",
+    "en": "there came out a quantity of blood",
+    "plain": "so much blood came out"
+   },
+   {
+    "w": "Conjecture of Wordsworth (in no manuscript), reported in Lake's footnote",
+    "orig": "ἐξῆλθεν περὶ στύρακα πλῆθος αἵματος",
+    "en": "there came out around the sword-hilt a quantity of blood",
+    "plain": "so much blood came out around the hilt"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the dove, the reading of the manuscripts. Eusebius quotes the letter at length but has no dove (and has 'sword' for 'dagger', see the next entry), which may mean his copy lacked it, or that he left it out. Wordsworth's guess, that <i>peristera kai</i> ('a dove and') is a miscopying of <i>peri styraka</i> ('around the hilt'), would explain the dove as a scribal slip, but no witness has it. The Plain English Translation follows the manuscripts, as Lake does.",
+  "b": "Lake explains the dove as the belief 'that the spirit appears at death in the form of a bird' (see the note). Readers who doubt the miracles of the account often point to this verse first.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "16:1",
+  "a": "drive a dagger into him",
+  "t": "Dagger or sword?",
+  "p": "The manuscripts say 'dagger'; Eusebius's copy says 'sword'.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "παραβῦσαι ξιφίδιον",
+    "en": "to drive in a dagger",
+    "plain": "drive a dagger into him"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.38 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "παραβῦσαι ξίφος",
+    "en": "to drive in a sword",
+    "plain": "drive a sword into him"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. The NPNF English of Eusebius has 'pierce him with the sword'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "16:2",
+  "a": "catholic church in Smyrna",
+  "t": "'Catholic' or 'holy'?",
+  "p": "Eusebius and two manuscripts read 'catholic'; the Moscow manuscript and the Latin read 'holy'.",
+  "readings": [
+   {
+    "w": "Eusebius (E) and Codices Baroccianus and Hierosolymitanus (b s), Lake's text",
+    "orig": "ἐπίσκοπος τῆς ἐν Σμύρνῃ καθολικῆς ἐκκλησίας",
+    "en": "overseer of the catholic church in Smyrna",
+    "plain": "catholic church in Smyrna"
+   },
+   {
+    "w": "Codex Mosquensis (m) and the Latin (L; Lake's footnote puts the L in parentheses)",
+    "orig": "ἐπίσκοπος τῆς ἐν Σμύρνῃ ἁγίας ἐκκλησίας",
+    "en": "overseer of the holy church in Smyrna",
+    "plain": "holy church in Smyrna"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints 'catholic' with Eusebius and two manuscripts; his footnote does not say what p and v read. Eusebius's Greek has 'catholic' (4.15.39, Lake's Loeb text) and, a few words earlier, lacks 'martyr Polycarp' ('the most marvelous teacher'). 'Catholic church in Smyrna' is the harder phrase: elsewhere in the letter 'catholic' means worldwide (1:0; 8:1; 19:2), and a scribe may have changed it to the commoner 'holy'. If 'catholic' is right, it means the true church, the one in communion with the whole, as it exists in Smyrna. Lake's footnote: 'If the reading \"Catholic\" be right, this and the instance on p. 322 [8:1] are the earliest clear examples of this use of the word (but cf. Ignatius, Smyrn. viii.).'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "Alce",
+  "t": "Alce or Dalce?",
+  "p": "Eusebius spells the name 'Dalce'.",
+  "readings": [
+   {
+    "w": "The Greek manuscripts, Lake's text",
+    "orig": "ἀδελφὸν δὲ Ἄλκης",
+    "en": "brother of Alce",
+    "plain": "Alce"
+   },
+   {
+    "w": "Eusebius (E), as Lake's footnote reports",
+    "orig": "Δάλκης",
+    "en": "of Dalce",
+    "plain": "Dalce"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints Alce. Ignatius greets an Alce at Smyrna (To the Smyrnaeans 13; To Polycarp 8), which supports the manuscripts' form. The NPNF English of Eusebius has 'Alce'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "ignatius-smyrnaeans"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "So he prompted Nicetes",
+  "t": "Who prompted Nicetes?",
+  "p": "In the manuscripts the evil one prompted Nicetes; in Eusebius's copy 'certain people' did.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "ὑπέβαλεν γοῦν Νικήτην ... ἐντυχεῖν τῷ ἄρχοντι",
+    "en": "so he [the evil one, 17:1] prompted Nicetes ... to appeal to the ruler",
+    "plain": "So he prompted Nicetes"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.41 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ὑπέβαλον γοῦν τινες Νικήτην ... ἐντυχεῖν τῷ ἡγεμόνι",
+    "en": "so certain people prompted Nicetes ... to appeal to the governor",
+    "plain": "So certain people prompted Nicetes"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. In them the subject runs on from 17:1, the evil one; Eusebius's copy names human prompters, and the letter then says 'they said this at the prompting and urging of the Jews' in both. Eusebius also has <i>hēgemoni</i>, 'governor', for the manuscripts' <i>archonti</i>, 'ruler', which the Plain English Translation already renders 'governor'. The NPNF English: 'certain ones secretly suggested to Nicetes'.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "17:2",
+  "a": "the blameless one for sinners",
+  "t": "'The blameless one for sinners'",
+  "p": "Eusebius's copy lacks these words.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "παθόντα ἄμωμον ὑπὲρ ἁμαρτωλῶν",
+    "en": "who suffered, the blameless for sinners",
+    "plain": "the blameless one for sinners"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.41 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "παθόντα",
+    "en": "who suffered",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the manuscripts without a footnote. The note at 17:2 on 1 Peter 3:18 rests on these words, which Eusebius's copy does not have.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "18:1",
+  "a": "the centurion",
+  "t": "Centurion: Latin loanword or Greek word?",
+  "p": "The manuscripts use the Latin loanword; Eusebius's copy the Greek word. The English is the same.",
+  "readings": [
+   {
+    "w": "Lake's text (the Greek manuscripts; his footnotes note no difference here)",
+    "orig": "ὁ κεντυρίων",
+    "en": "the centurion (Latin centurio in Greek letters)",
+    "plain": "the centurion"
+   },
+   {
+    "w": "Eusebius, <i>Church History</i> 4.15.43 (E), Greek of Lake's Loeb edition (1926)",
+    "orig": "ὁ ἑκατοντάρχης",
+    "en": "the centurion (Greek, 'commander of a hundred')",
+    "plain": "the centurion"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the loanword without a footnote. Mark uses the same loanword (Mark 15:39); the sense is the same.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "eusebius-greek-lake",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "19:2",
+  "a": "the Savior of our souls",
+  "t": "'Our souls' or 'souls'?",
+  "p": "The Moscow manuscript lacks 'our'.",
+  "readings": [
+   {
+    "w": "Codices Baroccianus, Parisinus, Vindobonensis and Hierosolymitanus (b p v s), Lake's text",
+    "orig": "τὸν σωτῆρα τῶν ψυχῶν ἡμῶν",
+    "en": "the Savior of our souls",
+    "plain": "the Savior of our souls"
+   },
+   {
+    "w": "Codex Mosquensis (m)",
+    "orig": "τὸν σωτῆρα τῶν ψυχῶν",
+    "en": "the Savior of souls",
+    "plain": "the Savior of souls"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints 'our' with four manuscripts; it matches 'the Pilot of our bodies' in the same line. Eusebius's quotation has ended by this point.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "20:1",
+  "a": "Marcion",
+  "t": "Who wrote the account?",
+  "p": "The writer's name is Marcion, Marcus or Marcianus, depending on the witness.",
+  "readings": [
+   {
+    "w": "Codex Mosquensis (m), Lake's text",
+    "orig": "διὰ τοῦ ἀδελφοῦ ἡμῶν Μαρκίωνος",
+    "en": "through our brother Marcion",
+    "plain": "Marcion"
+   },
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s; Vindobonensis ends with chapter 19)",
+    "orig": "Μάρκου",
+    "en": "Marcus",
+    "plain": "Marcus"
+   },
+   {
+    "w": "The Latin (L), Marcianum; the reading Lightfoot preferred (Μαρκιανοῦ), as Lake reports",
+    "orig": "Marcianum",
+    "en": "Marcianus",
+    "plain": "Marcianus"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints m's 'Marcion', and notes that this Marcion is 'not of course to be identified with the famous heretic', and that 'Lightfoot prefers Μαρκιανοῦ'. Each reading has support; a scribe may have shortened Marcianus to Marcus, or changed Marcion to avoid the heretic's name. The Plain English Translation follows Lake.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "20:1",
+  "a": "chooses from among his own slaves",
+  "t": "'Chooses from' or 'chooses for himself'?",
+  "p": "The manuscripts differ by one verb form.",
+  "readings": [
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s), Lake's text",
+    "orig": "τὸν ἐκλογὰς ποιοῦντα ἀπὸ τῶν ἰδίων δούλων",
+    "en": "who makes choices from among his own slaves",
+    "plain": "chooses from among his own slaves"
+   },
+   {
+    "w": "Codex Mosquensis (m)",
+    "orig": "τὸν ἐκλογὰς ποιούμενον τῶν ἰδίων δούλων",
+    "en": "who makes for himself choices of his own slaves",
+    "plain": "chooses for himself his own slaves"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the reading of b p s. The sense is close: the Lord chooses his martyrs from his people.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "20:2",
+  "a": "heavenly kingdom",
+  "t": "'Heavenly' or 'eternal' kingdom?",
+  "p": "The Moscow manuscript reads 'heavenly', the others 'eternal'.",
+  "readings": [
+   {
+    "w": "Codex Mosquensis (m), Lake's text",
+    "orig": "εἰς τὴν ἐπουράνιον αὐτοῦ βασιλείαν",
+    "en": "into his heavenly kingdom",
+    "plain": "heavenly kingdom"
+   },
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s)",
+    "orig": "εἰς τὴν αἰώνιον αὐτοῦ βασιλείαν",
+    "en": "into his eternal kingdom",
+    "plain": "eternal kingdom"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints m. Both phrases are New Testament language (2 Timothy 4:18, 'his heavenly kingdom'; 2 Peter 1:11, 'the eternal kingdom').",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "20:2",
+  "a": "be glory, honor, power and greatness forever",
+  "t": "Glory to God, or to Christ?",
+  "p": "With 'to whom', the doxology is addressed to Jesus Christ; without it, to God.",
+  "readings": [
+   {
+    "w": "Codex Mosquensis (m), Lake's text",
+    "orig": "δόξα, τιμή, κράτος, μεγαλωσύνη εἰς τοὺς αἰῶνας",
+    "en": "glory, honor, might, majesty forever",
+    "plain": "be glory, honor, power and greatness forever"
+   },
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s)",
+    "orig": "ᾧ ἡ δόξα, τιμή, κράτος, μεγαλωσύνη εἰς τοὺς αἰῶνας",
+    "en": "to whom be glory, honor, might, majesty forever",
+    "plain": "to whom be glory, honor, power and greatness forever"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints m. Without the relative, the glory goes to 'him who is able' (God) through Christ, the pattern of Romans 16:25-27 and Jude 24-25; with it, to Christ. Both kinds of doxology occur in the New Testament (2 Timothy 4:18; 2 Peter 3:18).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "20:2",
+  "a": "his one and only servant",
+  "t": "The word order of 'his only servant'",
+  "p": "The manuscripts put 'his only servant' in three orders. The English is the same.",
+  "readings": [
+   {
+    "w": "Codex Mosquensis (m), Lake's text",
+    "orig": "διὰ τοῦ μονογενοῦς παιδὸς αὐτοῦ",
+    "en": "through his only-begotten servant",
+    "plain": "his one and only servant"
+   },
+   {
+    "w": "Codex Baroccianus (b)",
+    "orig": "διὰ παιδὸς αὐτοῦ τοῦ μονογενοῦς",
+    "en": "through his servant, the only-begotten",
+    "plain": "his one and only servant"
+   },
+   {
+    "w": "Codices Parisinus and Hierosolymitanus (p s)",
+    "orig": "διὰ τοῦ παιδὸς αὐτοῦ τοῦ μονογενοῦς",
+    "en": "through his servant, the only-begotten",
+    "plain": "his one and only servant"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints m and gives the other two orders in his footnote. No change of sense.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "22:1",
+  "a": "We pray that you fare well, brothers, as you walk by the word of Jesus Christ that follows the gospel. With him be glory to God the Father and the Holy Spirit, for the salvation of the holy chosen ones, just as blessed Polycarp was martyred. May we be found following in his footsteps in the kingdom of Jesus Christ.",
+  "t": "A farewell missing from two witnesses",
+  "p": "The Moscow manuscript and the Latin leave out the whole of 22:1.",
+  "readings": [
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s), Lake's text",
+    "orig": "Ἐρρῶσθαι ὑμᾶς εὐχόμεθα, ἀδελφοί, στοιχοῦντας τῷ κατὰ τὸ εὐαγγέλιον λόγῳ Ἰησοῦ Χριστοῦ, μεθ᾽ οὗ δόξα τῷ θεῷ καὶ πατρὶ καὶ ἁγίῳ πνεύματι, ἐπὶ σωτηρίᾳ τῇ τῶν ἁγίων ἐκλεκτῶν, καθὼς ἐμαρτύρησεν ὁ μακάριος Πολύκαρπος, οὗ γένοιτο ἐν τῇ βασιλείᾳ Ἰησοῦ Χριστοῦ πρὸς τὰ ἴχνη εὑρεθῆναι ἡμᾶς.",
+    "en": "the farewell and doxology",
+    "plain": "We pray that you fare well, brothers, as you walk by the word of Jesus Christ that follows the gospel. With him be glory to God the Father and the Holy Spirit, for the salvation of the holy chosen ones, just as blessed Polycarp was martyred. May we be found following in his footsteps in the kingdom of Jesus Christ."
+   },
+   {
+    "w": "Codex Mosquensis (m) and the Latin (L), as Lake's footnote reports",
+    "orig": "(omitted)",
+    "en": "(nothing)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the paragraph and notes: 'The whole of this paragraph is omitted by Lm.' It belongs with the notes added after the letter's true end at 20:2 (Lake), so its absence from m and L is not surprising; the Plain English Translation keeps it with Lake.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "22:2",
+  "a": "Gaius copied these things from the papers of Irenaeus, a disciple of Polycarp, and Gaius had also lived with Irenaeus. And I, Socrates, wrote them out in Corinth from the copies of Gaius. Grace be with all.",
+  "t": "The Moscow manuscript's other ending",
+  "p": "In place of 22:2-3, the Moscow manuscript has a longer note about Irenaeus, Marcion and a voice heard in Rome. The two verses go together.",
+  "readings": [
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s), Lake's text",
+    "orig": "Ταῦτα μετεγράψατο μὲν Γάϊος ἐκ τῶν Εἰρηναίου, μαθητοῦ τοῦ Πολυκάρπου, ὃς καὶ συνεπολιτεύσατο τῷ Εἰρηναίῳ. ἐγὼ δὲ Σωκράτης ἐν Κορίνθῳ ἐκ τῶν Γαΐου ἀντιγράφων ἔγραψα. ἡ χάρις μετὰ πάντων.",
+    "en": "Gaius copied from Irenaeus; Socrates in Corinth copied from Gaius",
+    "plain": "Gaius copied these things from the papers of Irenaeus, a disciple of Polycarp, and Gaius had also lived with Irenaeus. And I, Socrates, wrote them out in Corinth from the copies of Gaius. Grace be with all."
+   },
+   {
+    "w": "Codex Mosquensis (m), the ending Lake prints after the text ('Epilogus alius e codice Mosquensi descriptus', sections 2-6)",
+    "orig": "Ταῦτα μετεγράψατο μὲν Γάϊος ἐκ τῶν Εἰρηναίου συγγραμμάτων, ὃς καὶ συνεπολιτεύσατο τῷ Εἰρηναίῳ, μαθητῇ γεγονότι τοῦ ἁγίου Πολυκάρπου. οὗτος γὰρ ὁ Εἰρηναῖος, κατὰ τὸν καιρὸν τοῦ μαρτυρίου τοῦ ἐπισκόπου Πολυκάρπου γενόμενος ἐν Ῥώμῃ, πολλοὺς ἐδίδαξεν· οὗ καὶ πολλὰ συγγράμματα κάλλιστα καὶ ὀρθότατα φέρεται, ἐν οἷς μέμνηται Πολυκάρπου, ὅτι παρ᾽ αὐτοῦ ἔμαθεν, ἱκανῶς τε πᾶσαν αἵρεσιν ἤλεγξεν καὶ τὸν ἐκκλησιαστικὸν κανόνα καὶ καθολικόν, ὡς παρέλαβεν παρὰ τοῦ ἁγίου, καὶ παρέδωκεν. λέγει δὲ καὶ τοῦτο· ὅτι συναντήσαντός ποτε τῷ ἁγίῳ Πολυκάρπῳ Μαρκίωνος, ἀφ᾽ οὗ οἱ λεγόμενοι Μαρκιωνισταί, καὶ εἰπόντος· Ἐπιγίνωσκε ἡμᾶς, Πολύκαρπε, εἶπεν αὐτὸς τῷ Μαρκίωνι· Ἐπιγινώσκω, ἐπιγινώσκω τὸν πρωτότοκον τοῦ σατανᾶ. καὶ τοῦτο δὲ φέρεται ἐν τοῖς τοῦ Εἰρηναίου συγγράμμασιν, ὅτι ᾗ ἡμέρᾳ καὶ ὥρᾳ ἐν Σμύρνῃ ἐμαρτύρησεν ὁ Πολύκαρπος, ἤκουσεν φωνὴν ἐν τῇ Ῥωμαίων πόλει ὑπάρχων ὁ Εἰρηναῖος ὡς σάλπιγγος λεγούσης· Πολύκαρπος ἐμαρτύρησεν. Ἐκ τούτων οὖν, ὡς προλέλεκται, τῶν τοῦ Εἰρηναίου συγγραμμάτων Γάϊος μετεγράψατο, ἐκ δὲ τῶν Γαΐου ἀντιγράφων Ἰσοκράτης ἐν Κορίνθῳ. ἐγὼ δὲ πάλιν Πιόνιος ἐκ τῶν Ἰσοκράτους ἀντιγράφων ἔγραψα κατὰ ἀποκάλυψιν τοῦ ἁγίου Πολυκάρπου ζητήσας αὐτά, συναγαγὼν αὐτὰ ἤδη σχεδὸν ἐκ τοῦ χρόνου κεκμηκότα, ἵνα κἀμὲ συναγάγῃ ὁ κύριος Ἰησοῦς Χριστὸς μετὰ τῶν ἐκλεκτῶν αὐτοῦ εἰς τὴν ἐπουράνιον αὐτοῦ βασιλείαν· ᾧ ἡ δόξα σὺν τῷ πατρὶ καὶ τῷ υἱῷ καὶ τῷ ἁγίῳ πνεύματι εἰς τοὺς αἰῶνας τῶν αἰώνων. ἀμήν.",
+    "en": "Gaius copied from the writings of Irenaeus, who was in Rome at the time; Irenaeus's story of Marcion; the trumpet voice in Rome; Isocrates copied in Corinth; Pionius copied from Isocrates",
+    "plain": "Gaius copied these things from the writings of Irenaeus. He had also lived with Irenaeus, who had been a disciple of the holy Polycarp. For this Irenaeus, at the time of the martyrdom of the overseer Polycarp, was in Rome and taught many. Many very fine and very correct writings of his are in circulation, in which he mentions Polycarp, saying that he learned from him. He thoroughly refuted every heresy, and he handed on the church's catholic rule as he had received it from the saint. He also says this: Marcion, from whom the so-called Marcionites come, once met the holy Polycarp and said, 'Recognize us, Polycarp.' He said to Marcion, 'I recognize you, I recognize the firstborn of Satan.' This too is told in the writings of Irenaeus: on the day and at the hour when Polycarp was martyred in Smyrna, Irenaeus, who was in the city of the Romans, heard a voice like a trumpet saying, 'Polycarp has been martyred.' From these writings of Irenaeus, then, as was said before, Gaius made a copy, and from the copies of Gaius, Isocrates in Corinth. And I, Pionius, wrote again from the copies of Isocrates, after searching for them in keeping with a revelation from the holy Polycarp. I gathered them together when they were nearly worn out with age, so that the Lord Jesus Christ may also gather me with his chosen ones into his heavenly kingdom. To him be glory with the Father and the Son and the Holy Spirit forever and ever. Amen."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the ending of b p s as the text and gives m's ending separately ('Instead of the two paragraphs ταῦτα μετεγράψατο—ἀμήν m has the alternative conclusion given below'). The Moscow ending is longer and fuller: it adds that Irenaeus was in Rome when Polycarp died, repeats his story of Marcion (found in <i>Against Heresies</i> 3.3.4), tells of a voice like a trumpet that Irenaeus heard in Rome, and names the Corinthian copyist Isocrates instead of Socrates. None of the texts opened for this page (Irenaeus, <i>Against Heresies</i> 3.3.4; Eusebius, <i>Church History</i> 5.20) has the trumpet story. In b p s the English 'papers' is supplied: the Greek says only 'from those of Irenaeus' (<i>ek tōn Eirēnaiou</i>); the Moscow ending says 'from the writings of Irenaeus' (<i>syngrammatōn</i>).",
+  "b": "The Moscow manuscript, which often has the better text elsewhere (Lake), is here the only witness to its ending, so the two endings cannot be weighed by manuscript support. Both are later notes, not part of Smyrna's letter (Lake at 20:2).",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "irenaeus-heresies-3",
+   "eusebius-history"
+  ]
+ },
+ {
+  "v": "22:3",
+  "a": "And I, Pionius, wrote them out again from the copy just named, after searching for them, because blessed Polycarp showed them to me in a revelation, as I will explain in what follows. I gathered them together when they were nearly worn out with age, so that the Lord Jesus Christ may also gather me with his chosen ones into his heavenly kingdom. To him be glory with the Father and the Holy Spirit forever and ever. Amen.",
+  "t": "Pionius's note, missing in the Moscow manuscript",
+  "p": "The Moscow manuscript has its own ending instead of 22:2-3 (see 22:2). The two verses go together.",
+  "readings": [
+   {
+    "w": "Codices Baroccianus, Parisinus and Hierosolymitanus (b p s), Lake's text",
+    "orig": "Ἐγὼ δὲ πάλιν Πιόνιος ἐκ τοῦ προγεγραμμένου ἔγραψα ἀναζητήσας αὐτά, κατὰ ἀποκάλυψιν φανερώσαντός μοι τοῦ μακαρίου Πολυκάρπου, καθὼς δηλώσω ἐν τῷ καθεξῆς, συναγαγὼν αὐτὰ ἤδη σχεδὸν ἐκ τοῦ χρόνου κεκμηκότα, ἵνα κἀμὲ συναγάγῃ ὁ κύριος Ἰησοῦς Χριστὸς μετὰ τῶν ἐκλεκτῶν αὐτοῦ εἰς τὴν οὐράνιον βασιλείαν αὐτοῦ, ᾧ ἡ δόξα σὺν τῷ πατρὶ καὶ ἁγίῳ πνεύματι εἰς τοὺς αἰῶνας τῶν αἰώνων. ἀμήν.",
+    "en": "Pionius's note on his copy",
+    "plain": "And I, Pionius, wrote them out again from the copy just named, after searching for them, because blessed Polycarp showed them to me in a revelation, as I will explain in what follows. I gathered them together when they were nearly worn out with age, so that the Lord Jesus Christ may also gather me with his chosen ones into his heavenly kingdom. To him be glory with the Father and the Holy Spirit forever and ever. Amen."
+   },
+   {
+    "w": "Codex Mosquensis (m): its alternative ending stands in place of 22:2-3 (see the variant at 22:2, which gives it in full)",
+    "orig": "(see 22:2)",
+    "en": "(given at 22:2)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "As at 22:2: Lake prints the ending of b p s and gives m's separately. Pionius's own note appears in both forms, in different words.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ }
+]

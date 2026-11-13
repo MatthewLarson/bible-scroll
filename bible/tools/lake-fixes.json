@@ -1,0 +1,1093 @@
+{
+ "_about": "Damage in the digital Lake (First1KGreek), found by collating it word by word against the Internet Archive OCR of his printed pages (vol. 1, 1919 printing: apostolicfathers01lake and TheApostolicFathersV1; vol. 2: apostolicfathers02lakeuoft) on 2026-11-12, each read in context. Only readings where the digital text has a slip and the scan(s) the plain right form are listed; the collation is not exhaustive (it misses what the OCR copies misread alike). {book: {c:v: [[digital text, Lake’s form, evidence], ...]}}; tools/works-texts.py applies them after the elision marks are made one form and the colon is made the raised stop.",
+ "Did": {
+  "1:1": [
+   [
+    "μια",
+    "μία",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read μία"
+   ]
+  ],
+  "1:3": [
+   [
+    "τοῦς",
+    "τοὺς",
+    "a circumflex for the grave; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read τοὺς"
+   ]
+  ],
+  "1:5": [
+   [
+    "λαμβάνονται",
+    "λαμβάνοντι",
+    "a misreading (“to the one who receives”); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read λαμβάνοντι"
+   ]
+  ],
+  "2:7": [
+   [
+    "ὦν",
+    "ὧν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὧν"
+   ]
+  ],
+  "3:6": [
+   [
+    "ἀπάντων",
+    "ἁπάντων",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἁπάντων"
+   ]
+  ],
+  "4:10": [
+   [
+    "ἐφ᾽ οὕς",
+    "ἐφ᾽ οὓς",
+    "an acute for the grave before another word; the Internet Archive page image of Lake’s printed page (apostolicfathers01lake, p. 316) reads ἐφ᾽ οὓς (the OCR of both scans cannot show the accent)"
+   ]
+  ],
+  "5:1": [
+   [
+    "ʽΠ",
+    "Ἡ",
+    "a misread capital; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads Ἡ"
+   ]
+  ],
+  "5:2": [
+   [
+    "τούτωι",
+    "τούτων",
+    "a misread ν; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read τούτων"
+   ],
+   [
+    "πονηρόν ὧν",
+    "πονηρόν· ὧν",
+    "a raised stop lost; the Internet Archive page image of Lake’s printed page (apostolicfathers01lake, p. 318) reads πονηρόν· ὧν (the OCR of the two scans gives the mark as . and ’)"
+   ]
+  ],
+  "6:2": [
+   [
+    "ὅ δύνῃ",
+    "ὃ δύνῃ",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὃ δύνῃ"
+   ]
+  ],
+  "6:3": [
+   [
+    "ὅ δύνασαι",
+    "ὃ δύνασαι",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὃ δύνασαι"
+   ]
+  ],
+  "9:2": [
+   [
+    "ἦς",
+    "ἧς",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἧς"
+   ]
+  ],
+  "9:3": [
+   [
+    "ἦς",
+    "ἧς",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἧς"
+   ]
+  ],
+  "9:5": [
+   [
+    "ἄγιον",
+    "ἅγιον",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἅγιον"
+   ]
+  ],
+  "10:4": [
+   [
+    "εἶ;",
+    "εἶ·",
+    "a question mark for the raised stop; the Internet Archive page image of Lake’s printed page (apostolicfathers01lake, p. 324) reads εἶ· (the OCR of the two scans gives the mark as ” and -)"
+   ]
+  ],
+  "11:1": [
+   [
+    "οὑν",
+    "οὖν",
+    "a misread breathing and accent; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὖν"
+   ]
+  ],
+  "11:6": [
+   [
+    "οὖ αὐλισθῇ",
+    "οὗ αὐλισθῇ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ αὐλισθῇ"
+   ]
+  ],
+  "12:2": [
+   [
+    "δύο ἡ",
+    "δύο ἢ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read δύο ἢ"
+   ],
+   [
+    "ἑὰν",
+    "ἐὰν",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐὰν"
+   ]
+  ],
+  "13:6": [
+   [
+    "ἡ ἐλαίου",
+    "ἢ ἐλαίου",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἢ ἐλαίου"
+   ]
+  ],
+  "14:2": [
+   [
+    "ὁ??᾽",
+    "οὗ",
+    "a word the digitizers could not read; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ"
+   ]
+  ],
+  "14:3": [
+   [
+    "κυρίον",
+    "κυρίου",
+    "a misread υ; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads κυρίου"
+   ]
+  ],
+  "16:1": [
+   [
+    "ὤραν",
+    "ὥραν",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὥραν"
+   ]
+  ],
+  "16:4": [
+   [
+    "ἅ οὐδέποτε",
+    "ἃ οὐδέποτε",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἃ οὐδέποτε"
+   ]
+  ]
+ },
+ "Bnb": {
+  "1:8": [
+   [
+    "ὧς",
+    "ὡς",
+    "a circumflex where the word has none; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὡς"
+   ],
+   [
+    "εἰς ἐξ",
+    "εἷς ἐξ",
+    "“into” for “one”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read εἷς ἐξ"
+   ]
+  ],
+  "2:4": [
+   [
+    "οὕτε",
+    "οὔτε",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὔτε"
+   ]
+  ],
+  "2:8": [
+   [
+    "ἀλλ᾽ ἡ",
+    "ἀλλ᾽ ἢ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀλλ᾽ ἢ"
+   ]
+  ],
+  "4:1": [
+   [
+    "οὑν",
+    "οὖν",
+    "a misread breathing and accent; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὖν"
+   ]
+  ],
+  "4:3": [
+   [
+    "περὶ οὖ",
+    "περὶ οὗ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read περὶ οὗ"
+   ]
+  ],
+  "4:6": [
+   [
+    "εἶς",
+    "εἷς",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read εἷς"
+   ]
+  ],
+  "4:11": [
+   [
+    "ἐνώπιαν",
+    "ἐνώπιον",
+    "a misread ο; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐνώπιον"
+   ]
+  ],
+  "5:2": [
+   [
+    "ἅ μὲν",
+    "ἃ μὲν",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἃ μὲν"
+   ]
+  ],
+  "5:6": [
+   [
+    "ὲν σαρκὶ",
+    "ἐν σαρκὶ",
+    "a grave for the breathing; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐν σαρκὶ"
+   ],
+   [
+    "ἕδει",
+    "ἔδει",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἔδει"
+   ]
+  ],
+  "5:10": [
+   [
+    "ἔργου",
+    "ἔργον",
+    "a misread ν; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἔργον"
+   ]
+  ],
+  "5:13": [
+   [
+    "ἐπανέστησάν νέστησάν",
+    "ἐπανέστησάν",
+    "the end of a word broken over two lines typed twice; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐπα-/νέστησάν μοι"
+   ]
+  ],
+  "6:1": [
+   [
+    "μοι· ἡ τίς",
+    "μοι· ἢ τίς",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read μοι· ἢ τίς"
+   ]
+  ],
+  "6:6": [
+   [
+    "οὗν",
+    "οὖν",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὖν"
+   ]
+  ],
+  "6:12": [
+   [
+    "Λὐξάνεσθε",
+    "Αὐξάνεσθε",
+    "a misread Α; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Αὐξάνεσθε"
+   ]
+  ],
+  "6:18": [
+   [
+    "θηρίων ἤ ἰχθύων ἤ",
+    "θηρίων ἢ ἰχθύων ἢ",
+    "acutes for the graves before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read θηρίων ἢ ἰχθύων ἢ"
+   ]
+  ],
+  "7:6": [
+   [
+    "τὸν ἔνα",
+    "τὸν ἕνα",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read τὸν ἕνα"
+   ]
+  ],
+  "7:9": [
+   [
+    "ἠμέρᾳ",
+    "ἡμέρᾳ",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἡμέρᾳ"
+   ]
+  ],
+  "8:1": [
+   [
+    "ʽἴδε",
+    "(ἴδε",
+    "a misread opening bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read (ἴδε"
+   ],
+   [
+    "κόκκινον̓",
+    "κόκκινον)",
+    "a misread closing bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read κόκκινον)"
+   ]
+  ],
+  "8:3": [
+   [
+    "ʽοὖσιν",
+    "(οὖσιν",
+    "a misread opening bracket; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads (οὖσιν"
+   ],
+   [
+    "Ἰσραήλ᾽ ,",
+    "Ἰσραήλ),",
+    "a misread closing bracket; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads Ἰσραήλ)"
+   ]
+  ],
+  "9:5": [
+   [
+    "ʽὧδε",
+    "(ὧδε",
+    "a misread opening bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read (ὧδε"
+   ],
+   [
+    "ἐντολήν̓",
+    "ἐντολήν)",
+    "a misread closing bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐντολήν)"
+   ]
+  ],
+  "9:8": [
+   [
+    "ἧ δοθεῖσα",
+    "ἡ δοθεῖσα",
+    "a breathing and accent on the article; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἡ δοθεῖσα"
+   ]
+  ],
+  "11:8": [
+   [
+    "οἲ ἐπὶ",
+    "οἳ ἐπὶ",
+    "the smooth breathing for the rough (the relative); the Internet Archive page image of Lake’s printed page (apostolicfathers01lake, p. 380) reads οἳ ἐπὶ (the OCR of both scans cannot show the breathing)"
+   ],
+   [
+    "νῦν δὲ ὅ λέγει",
+    "νῦν δὲ ὃ λέγει",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read νῦν δὲ ὃ λέγει"
+   ]
+  ],
+  "12:3": [
+   [
+    "ἑὰν",
+    "ἐὰν",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐὰν"
+   ]
+  ],
+  "12:5": [
+   [
+    "ʽἐποίησεν",
+    "(ἐποίησεν",
+    "a misread opening bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read (ἐποίησεν"
+   ],
+   [
+    "ἐγένετὀ",
+    "ἐγένετο)",
+    "a misread closing bracket; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐγένετο)"
+   ]
+  ],
+  "13:1": [
+   [
+    "κληρονομεῖ ἡ",
+    "κληρονομεῖ ἢ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read κληρονομεῖ ἢ"
+   ]
+  ],
+  "13:5": [
+   [
+    "Οἰδα",
+    "Οἶδα",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Οἶδα"
+   ]
+  ],
+  "14:9": [
+   [
+    "οὖ εἵνεκεν",
+    "οὗ εἵνεκεν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ εἵνεκεν"
+   ]
+  ],
+  "18:1": [
+   [
+    "ἦς",
+    "ἧς",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἧς"
+   ]
+  ],
+  "19:5": [
+   [
+    "σου ἡ ἀπὸ",
+    "σου ἢ ἀπὸ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read σου ἢ ἀπὸ"
+   ],
+   [
+    "φόβου θεοῦ",
+    "φόβον θεοῦ",
+    "a misread ν; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read φόβον θεοῦ"
+   ]
+  ],
+  "19:7": [
+   [
+    "σου ἡ παιδίσκῃ",
+    "σου ἢ παιδίσκῃ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read σου ἢ παιδίσκῃ"
+   ]
+  ],
+  "20:2": [
+   [
+    "ὦν μακρὰν",
+    "ὧν μακρὰν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὧν μακρὰν"
+   ]
+  ]
+ },
+ "1Cl": {
+  "1:0": [
+   [
+    "τῆ ἐκκλησίᾳ",
+    "τῇ ἐκκλησίᾳ",
+    "an iota subscript lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read τῇ ἐκκλησίᾳ"
+   ]
+  ],
+  "2:1": [
+   [
+    "μᾶλλον ἦ",
+    "μᾶλλον ἢ",
+    "a circumflex for the grave (“than”); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read μᾶλλον ἢ"
+   ],
+   [
+    "ἥτε",
+    "ἦτε",
+    "the rough breathing and acute for the smooth and circumflex; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἦτε"
+   ]
+  ],
+  "2:3": [
+   [
+    "ἵλέως",
+    "ἱλέως",
+    "a stray accent; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἱλέως (Lake’s footnote: ἵλεων C)"
+   ]
+  ],
+  "3:4": [
+   [
+    "οὖ",
+    "οὗ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ"
+   ]
+  ],
+  "4:5": [
+   [
+    "ή ἀποστροφὴ",
+    "ἡ ἀποστροφὴ",
+    "an acute for the breathing; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἡ ἀποστροφὴ"
+   ]
+  ],
+  "4:10": [
+   [
+    "Λἰγύπτιον",
+    "Αἰγύπτιον",
+    "a misread Α; the Internet Archive scan of Lake’s printed page (TheApostolicFathersV1) reads Αἰγύπτιον"
+   ]
+  ],
+  "4:11": [
+   [
+    "ʼΛαρὼν",
+    "Ἀαρὼν",
+    "a misread capital; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Ἀαρὼν"
+   ]
+  ],
+  "5:4": [
+   [
+    "ὅς",
+    "ὃς",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὃς"
+   ]
+  ],
+  "7:5": [
+   [
+    "ὀ δεσπότης",
+    "ὁ δεσπότης",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὁ δεσπότης"
+   ]
+  ],
+  "10:4": [
+   [
+    "οὖ νῦν",
+    "οὗ νῦν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ νῦν"
+   ]
+  ],
+  "13:1": [
+   [
+    "ἀλλ᾽ ἡ",
+    "ἀλλ᾽ ἢ",
+    "the article for “or”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀλλ᾽ ἢ"
+   ]
+  ],
+  "14:1": [
+   [
+    "θεῷ ἡ τοῖς",
+    "θεῷ ἢ τοῖς",
+    "the article for “than”; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read θεῷ ἢ τοῖς"
+   ]
+  ],
+  "14:4": [
+   [
+    "ἐπ αὐτῆς",
+    "ἐπ᾽ αὐτῆς",
+    "the elision mark lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐπ᾽ αὐτῆς"
+   ]
+  ],
+  "15:5": [
+   [
+    "χείηλ",
+    "χείλη",
+    "two letters swapped; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read χείλη"
+   ]
+  ],
+  "16:17": [
+   [
+    "ἅνδρες",
+    "ἄνδρες",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἄνδρες"
+   ]
+  ],
+  "17:5": [
+   [
+    "Λἴγυπτον",
+    "Αἴγυπτον",
+    "a misread Α; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Αἴγυπτον"
+   ]
+  ],
+  "21:3": [
+   [
+    "ἴδωμεν. πῶς",
+    "ἴδωμεν, πῶς",
+    "a period for the comma; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἴδωμεν, πῶς"
+   ]
+  ],
+  "23:1": [
+   [
+    "διανοιᾳ",
+    "διανοίᾳ",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read διανοίᾳ"
+   ]
+  ],
+  "23:4": [
+   [
+    "ὧ ἀνόητοι",
+    "ὦ ἀνόητοι",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὦ ἀνόητοι"
+   ]
+  ],
+  "24:2": [
+   [
+    "ἀγαπητοί. τὴν",
+    "ἀγαπητοί, τὴν",
+    "a period for the comma; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀγαπητοί, τὴν"
+   ]
+  ],
+  "28:1": [
+   [
+    "αὐτοῦσκεπασθῶμεν",
+    "αὐτοῦ σκεπασθῶμεν",
+    "a space lost; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads αὐτοῦ σκεπασθῶμεν"
+   ]
+  ],
+  "28:3": [
+   [
+    "γῆς. ἐκεῖ",
+    "γῆς, ἐκεῖ",
+    "a period for the comma; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read γῆς, ἐκεῖ"
+   ]
+  ],
+  "30:1": [
+   [
+    "Αγίου",
+    "Ἁγίου",
+    "the breathing lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) show a breathing on the capital, and Lake’s footnote gives A’s reading as ἁγίου"
+   ]
+  ],
+  "32:4": [
+   [
+    "ἔργων ὦν",
+    "ἔργων ὧν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἔργων ὧν"
+   ],
+   [
+    "δι᾽ ἦς",
+    "δι᾽ ἧς",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read δι᾽ ἧς"
+   ],
+   [
+    "ʽ??᾽",
+    "ὁ",
+    "a word the digitizers could not read; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὁ"
+   ]
+  ],
+  "33:1": [
+   [
+    "πᾶς ἔργον",
+    "πᾶν ἔργον",
+    "a misread ν; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read πᾶν ἔργον"
+   ]
+  ],
+  "35:5": [
+   [
+    "ἐστηριγμενη",
+    "ἐστηριγμένη",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐστηριγμένη"
+   ]
+  ],
+  "35:6": [
+   [
+    "ἀλλά καὶ",
+    "ἀλλὰ καὶ",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀλλὰ καὶ"
+   ]
+  ],
+  "35:8": [
+   [
+    "καὶ ή γλῶσσα σου",
+    "καὶ ἡ γλῶσσά σου",
+    "an acute for the breathing, and the accent the enclitic throws back lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read καὶ ἡ γλῶσσά σου"
+   ],
+   [
+    "κλέπτην. συνέτρεχες",
+    "κλέπτην, συνέτρεχες",
+    "a period for the comma; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read κλέπτην, συνέτρεχες"
+   ]
+  ],
+  "35:10": [
+   [
+    "προσωπόν",
+    "πρόσωπόν",
+    "an accent misplaced; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read πρόσωπόν"
+   ]
+  ],
+  "35:11": [
+   [
+    "θεοῦ. μήποτε",
+    "θεοῦ, μήποτε",
+    "a period for the comma; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read θεοῦ, μήποτε"
+   ]
+  ],
+  "36:5": [
+   [
+    "Κάθον",
+    "Κάθου",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Κάθου"
+   ]
+  ],
+  "36:6": [
+   [
+    "ἀντιτασσομενοι",
+    "ἀντιτασσόμενοι",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀντιτασσόμενοι"
+   ]
+  ],
+  "37:1": [
+   [
+    "προστώγμασιν",
+    "προστάγμασιν",
+    "a misread α; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read προστάγμασιν"
+   ]
+  ],
+  "39:7": [
+   [
+    "ἤ εἴ",
+    "ἢ εἴ",
+    "an acute for the grave before another word; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἢ εἴ"
+   ]
+  ],
+  "40:5": [
+   [
+    "λαῖκοῖς",
+    "λαϊκοῖς",
+    "a circumflex for the diaeresis; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read λαϊκοῖς"
+   ]
+  ],
+  "42:2": [
+   [
+    "Χριστος",
+    "Χριστὸς",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Χριστὸς"
+   ]
+  ],
+  "43:4": [
+   [
+    "ἦς ἂν",
+    "ἧς ἂν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἧς ἂν"
+   ]
+  ],
+  "43:6": [
+   [
+    "ᾦ",
+    "ᾧ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ᾧ"
+   ]
+  ],
+  "44:2": [
+   [
+    "μπταξὺ",
+    "μεταξὺ",
+    "a misread ε; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads μεταξὺ"
+   ],
+   [
+    "δεδωκασιν",
+    "δεδώκασιν",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read δεδώκασιν"
+   ],
+   [
+    "δεδοκιμασμὲνοι ἅνδρες",
+    "δεδοκιμασμένοι ἄνδρες",
+    "a grave inside the word, and the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read δεδοκιμασμένοι ἄνδρες"
+   ]
+  ],
+  "44:3": [
+   [
+    "συνενδοκησάσης",
+    "συνευδοκησάσης",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read συνευδοκησάσης"
+   ]
+  ],
+  "46:3": [
+   [
+    "ἀθῷον",
+    "ἀθῴου",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀθῴου"
+   ]
+  ],
+  "46:6": [
+   [
+    "ἔνα Χριστὸν",
+    "ἕνα Χριστὸν",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἕνα Χριστὸν"
+   ]
+  ],
+  "46:8": [
+   [
+    "ἐγεννήθη, ἦ",
+    "ἐγεννήθη, ἢ",
+    "a circumflex for the grave (“than”); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐγεννήθη, ἢ"
+   ],
+   [
+    "ἢν",
+    "ἦν",
+    "a grave for the circumflex; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἦν"
+   ],
+   [
+    "καταπον τισθῆναι",
+    "καταποντισθῆναι",
+    "a word broken over two lines left in two; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read καταπον-/τισθῆναι"
+   ]
+  ],
+  "46:9": [
+   [
+    "ἀμῶν",
+    "ὑμῶν",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὑμῶν"
+   ],
+   [
+    "πολλοὺς· εἰς",
+    "πολλοὺς εἰς",
+    "a stray raised stop; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read πολλοὺς εἰς δισταγμόν"
+   ]
+  ],
+  "48:1": [
+   [
+    "Ἐξαρωμεν",
+    "Ἐξάρωμεν",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Ἐξάρωμεν"
+   ],
+   [
+    "προσπεσωμεν",
+    "προσπέσωμεν",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read προσπέσωμεν"
+   ]
+  ],
+  "50:1": [
+   [
+    "ἀγαπητοι",
+    "ἀγαπητοί",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀγαπητοί"
+   ],
+   [
+    "μεγα",
+    "μέγα",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read μέγα"
+   ]
+  ],
+  "50:4": [
+   [
+    "οὖ",
+    "οὗ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ"
+   ]
+  ],
+  "50:6": [
+   [
+    "Μακάριοι, ὦν",
+    "Μακάριοι, ὧν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Μακάριοι, ὧν"
+   ],
+   [
+    "ἀνήρ, οὖ",
+    "ἀνήρ, οὗ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀνήρ, οὗ"
+   ]
+  ],
+  "51:1": [
+   [
+    "δια τινας",
+    "διά τινας",
+    "an accent lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read διά τινας"
+   ]
+  ],
+  "53:5": [
+   [
+    "ὢ μεγάλης",
+    "ὦ μεγάλης",
+    "a grave for the circumflex; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὦ μεγάλης"
+   ],
+   [
+    "ὢ τελειότητος",
+    "ὦ τελειότητος",
+    "a grave for the circumflex; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads ὦ τελειότητος"
+   ]
+  ],
+  "56:15": [
+   [
+    "ὤραν",
+    "ὥραν",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὥραν"
+   ]
+  ],
+  "57:7": [
+   [
+    "ἀνθ᾽ ὦν",
+    "ἀνθ᾽ ὧν",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἀνθ᾽ ὧν"
+   ]
+  ],
+  "58:2": [
+   [
+    "δι᾽ οὖ",
+    "δι᾽ οὗ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read δι᾽ οὗ"
+   ]
+  ],
+  "59:3": [
+   [
+    "ἀγίοις",
+    "ἁγίοις",
+    "the smooth breathing for the rough; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἁγίοις"
+   ]
+  ],
+  "61:1": [
+   [
+    "οἶς",
+    "οἷς",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οἷς"
+   ]
+  ],
+  "63:4": [
+   [
+    "ὲν τάχει",
+    "ἐν τάχει",
+    "a grave for the breathing; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ἐν τάχει"
+   ]
+  ],
+  "64:1": [
+   [
+    "ό ἐκλεξάμενος",
+    "ὁ ἐκλεξάμενος",
+    "an acute for the breathing; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ὁ ἐκλεξάμενος"
+   ]
+  ]
+ },
+ "Pol": {
+  "2:1": [
+   [
+    "οὖ τὸ",
+    "οὗ τὸ",
+    "the smooth breathing for the rough (the relative); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read οὗ τὸ"
+   ]
+  ],
+  "2:2": [
+   [
+    "καταλαλιᾶς,ψευδομαρτυρίας",
+    "καταλαλιᾶς, ψευδομαρτυρίας",
+    "a space lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read καταλαλιᾶς, ψευδομαρτυρίας"
+   ],
+   [
+    "γρόνθον ἀντὶ γρόνθον",
+    "γρόνθον ἀντὶ γρόνθου",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read γρόνθον ἀντὶ γρόνθου"
+   ]
+  ],
+  "2:3": [
+   [
+    "αὑτῶν",
+    "αὐτῶν",
+    "the rough breathing for the smooth; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read αὐτῶν"
+   ]
+  ],
+  "6:3": [
+   [
+    "κυρίον",
+    "κυρίου",
+    "a misread υ; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read κυρίου"
+   ]
+  ],
+  "7:1": [
+   [
+    "πρωτότοκος ἐστι",
+    "πρωτότοκός ἐστι",
+    "the accent the enclitic throws back lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read πρωτότοκός ἐστι"
+   ]
+  ],
+  "10:1": [
+   [
+    "alterntri",
+    "alterutri",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read alterutri"
+   ]
+  ],
+  "10:2": [
+   [
+    "dilferre",
+    "differre",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read differre"
+   ],
+   [
+    "eleëmosyna",
+    "eleemosyna",
+    "a stray diaeresis in the Latin; the Internet Archive page image of Lake’s printed page (apostolicfathers01lake, p. 294) reads eleemosyna"
+   ],
+   [
+    "volris",
+    "vobis",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read vobis"
+   ],
+   [
+    "estotc",
+    "estote",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read estote"
+   ]
+  ],
+  "10:3": [
+   [
+    "sobrictatem",
+    "sobrietatem",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Sobrietatem"
+   ],
+   [
+    "docetc",
+    "docete",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read docete"
+   ]
+  ],
+  "11:2": [
+   [
+    "hoe?",
+    "hoc?",
+    "a misreading in the Latin; the Internet Archive scan of Lake’s printed page (TheApostolicFathersV1) reads hoc"
+   ]
+  ],
+  "11:3": [
+   [
+    "solac",
+    "solae",
+    "a misreading in the Latin; the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads solae"
+   ]
+  ],
+  "11:4": [
+   [
+    "vestrun.",
+    "vestrum",
+    "a misreading in the Latin, with a stray period; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read vestrum corpus"
+   ]
+  ],
+  "12:2": [
+   [
+    "lesus",
+    "Iesus",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Iesus"
+   ],
+   [
+    "dorninum",
+    "dominum",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read dominum"
+   ]
+  ],
+  "13:1": [
+   [
+    "ποιήσω,ἐὰν",
+    "ποιήσω, ἐὰν",
+    "a space lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read ποιήσω, ἐὰν"
+   ],
+   [
+    "ὄν πέμπω",
+    "ὃν πέμπω",
+    "the smooth breathing and acute for the rough and grave (the relative); the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads ὃν πέμπω"
+   ]
+  ],
+  "13:2": [
+   [
+    "lgnatio",
+    "Ignatio",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Ignatio"
+   ]
+  ],
+  "14:1": [
+   [
+    "hacc",
+    "haec",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read Haec"
+   ],
+   [
+    "cornmeudavi",
+    "commendavi",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read commendavi"
+   ],
+   [
+    "nune",
+    "nunc",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read nunc"
+   ],
+   [
+    "babebitis",
+    "habebitis",
+    "a misreading in the Latin; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read habebitis"
+   ]
+  ]
+ },
+ "MPo": {
+  "1:0": [
+   [
+    "ἐλεος",
+    "ἔλεος",
+    "an accent lost; the Internet Archive scan of Lake’s printed page (apostolicfathers02lakeuoft) reads ἔλεος"
+   ],
+   [
+    "Ἰησου",
+    "Ἰησοῦ",
+    "an accent lost: the genitive is Ἰησοῦ (the Internet Archive scan misreads it too, as Ἴησου)"
+   ]
+  ],
+  "8:1": [
+   [
+    "δε ποτε",
+    "δὲ ποτε",
+    "an accent lost; the Internet Archive scan of Lake’s printed page (apostolicfathers02lakeuoft) reads δὲ ποτε"
+   ]
+  ],
+  "10:2": [
+   [
+    "τεταγμέναις τιμὴν",
+    "τεταγμέναις, τιμὴν",
+    "a comma lost; the Internet Archive scan of Lake’s printed page (apostolicfathers02lakeuoft) reads τεταγμέναις, τιμὴν"
+   ]
+  ],
+  "14:2": [
+   [
+    "ἐν οἶς",
+    "ἐν οἷς",
+    "the smooth breathing for the rough (the relative); the Internet Archive scan of Lake’s printed page (apostolicfathers02lakeuoft) reads ἐν οἷς"
+   ]
+  ],
+  "16:2": [
+   [
+    "αὐτοῦ. καὶ",
+    "αὐτοῦ, καὶ",
+    "a period for the comma; the Internet Archive scan of Lake’s printed page (apostolicfathers02lakeuoft) reads αὐτοῦ, καὶ"
+   ]
+  ]
+ }
+}

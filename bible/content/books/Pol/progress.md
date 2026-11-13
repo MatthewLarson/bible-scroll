@@ -1,0 +1,7 @@
+Status: reviewed, published
+
+Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): Greek (G, Eusebius) to 9:2 and in 13, the old Latin for 10-12, the end of 13:2 and 14. Flat folder, 1:0 + 37 verses; one writer for this book and the Martyrdom of Polycarp, owning both book.json files. Lenses H N C. No traditions card planned. Briefs tools/brief-pol.md and tools/brief-apfathers.md.
+- 2026-11-12: planned.
+- 2026-11-12: written (flat folder): 1:0 + 37 verses, 99 notes, 6 variants, 23 glosses, 14 chapter pages, 24 topic contributions; cores polycarp and ignatius proposed in content/proposals/works/topics/. Plain English Translation from Lake's Greek (1:0-9:2, 13:1-2) and the old Latin (10:1-12:3, end of 13:2, 14:1), no departures from Lake. Drift audit changed 25 verses. Slips of the digital text listed in .scratch/Pol/slips.md for the lead. --check 0/0.
+- 2026-11-12: hostile review applied (22 findings: 21 accepted, 1 partly). Plain English Translation changed at 1:1, 1:2, 10:3, 12:2. Wikipedia relays replaced by opened sources (Harrison 1948, Dilexi te, church calendars, Reid) or cut. Added the 11:3 variant, notes at 10:3 and 12:2, and canon rows for Armenian/Coptic/Syriac and Baptist churches. 101 notes, 7 variants, 24 glosses, 25 topic contributions. --check 0/0.
+- 2026-11-12: hostile reviews with fixes applied; lead alignment (texts slips, cross-book quote syncs, proposals merged); --check 0/0. Reviewed, ready.

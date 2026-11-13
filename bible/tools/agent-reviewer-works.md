@@ -26,5 +26,11 @@ writer cites it.
    lists and decrees) are verifiable. Use web search where you can.
 5. Cross-references in both directions with the 66 books and with other works (named as in content/works.json).
 
+6. The Apostolic Fathers lessons in agent-writer-works.md (2026-11-12): flag every "as Wikipedia reports" relay; every
+   "oldest/first/earliest" not credited to an opened source; every view credited to unnamed "many/most/readers"; a
+   father's readings claimed without his Greek opened; a church row sourced from anything but that church's own document;
+   a confession's statement on the Apocrypha used as a ruling on early Christian writings; and one sentence copied into
+   every chapter's `readers`. Judge the lenses by the book brief's list where it has one, not the generic list.
+
 Write `review.md` in the folder you review (`content/books/<id>/parts/<a>-<b>/review.md`, or `content/books/<id>/review-book.md`
 for book.json), with the same structure as agent-reviewer.md, ending with an empty `## Fixes applied` heading.

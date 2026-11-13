@@ -1,0 +1,587 @@
+[
+ {
+  "v": "40:5",
+  "a": "is bound by",
+  "t": "Bound by the rules, or given them?",
+  "p": "Codex Alexandrinus says the layperson is \"bound\"; the other witnesses say the rules were \"given\".",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD); Lake's text",
+    "orig": "δέδεται",
+    "en": "is bound",
+    "plain": "is bound by"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056), the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Syriac version (S, one manuscript of 1169)",
+    "orig": "δέδοται",
+    "en": "have been given",
+    "plain": "has been given"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the reading of A. \"Is bound\" fits the sense of order and limits in the chapter: each rank keeps to what belongs to it. \"Has been given\" matches the verbs used of the high priest and the priests just before, so it may be a copyist's smoothing, or it may be original. The meaning differs little: the layperson has his own rules and keeps them.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "41:1",
+  "a": "please God",
+  "t": "Please God, or give thanks?",
+  "p": "Codex Alexandrinus has \"give thanks,\" which Lightfoot judged correct and read of the church's thanksgiving.",
+  "readings": [
+   {
+    "w": "Lake's text; Codex Constantinopolitanus (C, copied 1056) and the Syriac version (S, one manuscript of 1169), as Lightfoot reports them (Lake's footnote names only A as differing)",
+    "orig": "εὐαρεστείτω (Lake's page prints εὐαριστείτω, a misprint for this word)",
+    "en": "let him please",
+    "plain": "please God"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "εὐχαριστείτω",
+    "en": "let him give thanks (Lake: \"join in the Eucharist,\" or less probably \"give thanks\")",
+    "plain": "give thanks to God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints \"please\" and gives A's \"give thanks\" in his footnote, glossing it \"join in the Eucharist,\" or less probably, \"give thanks.\" The two Greek words differ by a few letters and are easily confused. The Plain English Translation follows Lake's text, its base: \"please God in his own rank\" fits Clement's theme of order, and the reading is that of C and S. Lightfoot judged the other way: \"Though the reading εὐαρεστείτω is simpler, εὐχαριστείτω is doubtless correct,\" and he read the verse of the church's public worship, \"chiefly, though not solely,\" the Lord's Supper, pointing to the same confusion of the two words at 62:2. With A's reading the verse is about each person's part in the church's thanksgiving, which fits 44:4 (\"presented the gifts\").",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ],
+  "b": "<p>Lake's printed Greek has <i>euaristeitō</i>, which is not a Greek word: a misprint for <i>euaresteitō</i>, \"let him please,\" the word his English translates (\"be well pleasing to God\"). The Plain English Translation reads the word Lake meant.</p>"
+ },
+ {
+  "v": "41:2",
+  "a": "the sacrifices for vows",
+  "t": "Vows or prayers?",
+  "p": "Codex Constantinopolitanus reads \"prayers\" instead of \"vows.\"",
+  "readings": [
+   {
+    "w": "Lake's text",
+    "orig": "εὐχῶν",
+    "en": "of vows",
+    "plain": "the sacrifices for vows"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056)",
+    "orig": "προσευχῶν",
+    "en": "of prayers",
+    "plain": "the sacrifices for prayers"
+   }
+  ],
+  "follow": 0,
+  "why": "The Greek <i>euchē</i> in the Septuagint is a vow, and a sacrifice \"for a vow\" is a known kind of offering (Leviticus 22:21; Numbers 15:3). C's <i>proseuchē</i>, \"prayer,\" is not a kind of sacrifice in the law and looks like a copyist's more familiar word.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "42:4",
+  "a": "for those who would later believe.",
+  "t": "The Latin adds baptism",
+  "p": "The Latin version adds that the apostles baptized those who obeyed God's will.",
+  "readings": [
+   {
+    "w": "Lake's text, with A, C and the other versions",
+    "orig": "τῶν μελλόντων πιστεύειν.",
+    "en": "of those about to believe",
+    "plain": "for those who would later believe."
+   },
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s)",
+    "orig": "eos qui obaudiebant voluntati Dei baptizantes",
+    "en": "baptizing those who obeyed the will of God",
+    "plain": "for those who would later believe, baptizing those who obeyed the will of God."
+   }
+  ],
+  "follow": 0,
+  "why": "Only the Latin has the added words; the Greek manuscripts and the other versions lack them. An added phrase found in a single version is more likely an explanation added in translation or copying than part of the letter.",
+  "b": "Lake's footnote gives the Latin words with an OCR slip in the digital file (\"obaudicbant\"); the reading here follows the sense he gives, \"baptising those who were obedient to the will of God.\"",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "43:6",
+  "a": "the true and only God",
+  "t": "God, Lord, or \"the true and only one\"?",
+  "p": "The witnesses differ on the last word of the phrase.",
+  "readings": [
+   {
+    "w": "Lake's text, with the Strassburg Coptic (Ks)",
+    "orig": "τοῦ ἀληθινοῦ καὶ μόνου θεοῦ",
+    "en": "of the true and only God",
+    "plain": "the true and only God"
+   },
+   {
+    "w": "the Syriac version (S, one manuscript of 1169)",
+    "orig": "τοῦ ἀληθινοῦ καὶ μόνου κυρίου (the Syriac as Lake reports it)",
+    "en": "of the true and only Lord",
+    "plain": "the true and only Lord"
+   },
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s)",
+    "orig": "(no word for \"God\")",
+    "en": "of the true and only one",
+    "plain": "the true and only one"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints \"God\" and notes that the Syriac has \"Lord,\" the Latin has only \"the true and only one,\" and that \"A is missing\" at this point. \"The true and only God\" is a phrase of John 17:3 (\"the only true God\"), and the shorter Latin could be a loss of one word.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "44:2",
+  "a": "they added a rule",
+  "t": "What did the apostles give? (44:2)",
+  "p": "The key word of the succession sentence differs in every witness. Lake: \"the translation is doubtful.\"",
+  "readings": [
+   {
+    "w": "Codex Alexandrinus (A, 400s AD); Lake's text",
+    "orig": "ἐπινομήν",
+    "en": "an added rule (Lake: \"codicil\")",
+    "plain": "they added a rule"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056)",
+    "orig": "ἐπιδομήν",
+    "en": "a further gift",
+    "plain": "they gave a further gift"
+   },
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s)",
+    "orig": "legem (Lake suggests the Greek behind it was ἔτι νόμον)",
+    "en": "a law",
+    "plain": "they gave a law"
+   },
+   {
+    "w": "the Syriac version (S, one manuscript of 1169)",
+    "orig": "(the Syriac, as Lake reports it, has the equivalent of ἐπιδοκιμήν; Lightfoot renders it \"in the meantime upon probation,\" ἐπὶ δοκιμήν or ἐπὶ δοκιμῇ)",
+    "en": "on probation, on trial",
+    "plain": "they gave it on probation"
+   },
+   {
+    "w": "the Coptic version (K)",
+    "orig": "(Coptic, as Lake reports it)",
+    "en": "\"and gave to those who were after them\"",
+    "plain": "they gave it to those who came after them"
+   },
+   {
+    "w": "Lightfoot's conjecture (after a proposal he credits to Turner, by way of Ussher); no manuscript",
+    "orig": "ἐπιμονήν",
+    "en": "permanence",
+    "plain": "they gave the office permanence"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"ἐπινομήν seems to be the most probable reading as L more or less supports the -νομήν and CS support the ἐπι-; but the translation is doubtful, as it is difficult to obtain any sense unless it be supposed that ἐπινομήν has the meaning 'codicil' which usually belongs to the cognate word ἐπινομίς.\" The Plain English Translation follows Lake's text and his sense \"codicil,\" an added provision, as \"they added a rule.\" Lightfoot rejected that sense. He lists two ways to keep ἐπινομήν: a sense \"injunction\" (Lipsius), or \"the known meaning of ἐπινομίς, 'an after enactment', 'a codicil'\" (Rothe), and judges: \"Of these alternatives the former is preferable, but both are unwarranted.\" So the Plain English Translation's wording rests on Lake's judgment, which Lightfoot, an earlier standard editor, had rejected.",
+  "b": "<p>This one word decides how the succession sentence reads. With A, the apostles first appointed overseers and then added a rule that, when \"they fell asleep,\" other tested men should take over (see the note on \"if they fell asleep\"). With C, they \"gave a further gift\" or grant. With the Latin, \"a law.\" The Syriac points to \"on probation,\" and the Coptic paraphrases, \"gave to those who were after them.\" Lightfoot judged that \"it seems impossible to assign any fit sense to the reading ἐπινομήν,\" supposed that \"the scribe of A wrote carelessly at this point,\" and printed the conjecture ἐπιμονήν, which he glossed \"have given permanence to the office\"; his translation runs \"afterwards they provided a continuance,\" and his summary of the chapter, \"They therefore provided for a succession of tried persons.\" Both rest on his conjecture, not on any manuscript.</p><p>Every reading says the apostles made provision for the office to continue after the first appointees. They differ on how formal that provision was, and the sentence does not settle by itself whether the succession is of local elders, of the apostles' own authority, or both. See the deep section of chapter 44.</p>",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "45:8",
+  "a": "in his memorial",
+  "t": "His memorial or theirs?",
+  "p": "Codex Alexandrinus reads \"their memorial.\"",
+  "readings": [
+   {
+    "w": "Lake's text, with C and the versions",
+    "orig": "ἐν τῷ μνημοσύνῳ αὐτοῦ",
+    "en": "in his memorial",
+    "plain": "in his memorial"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "ἐν τῷ μνημοσύνῳ αὐτῶν",
+    "en": "in their memorial",
+    "plain": "in their memorial"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints \"his\": God enrolls the faithful in his own record of remembrance (compare Malachi 3:16). A's \"their\" would mean that their memory is kept for ever. The two Greek words differ only in their ending.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "46:7",
+  "a": "the words of the Lord Jesus",
+  "t": "How is Jesus named?",
+  "p": "The witnesses name Jesus in three ways. Lake follows the shortest, the Latin's.",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s); Lake's text",
+    "orig": "τῶν λόγων τοῦ κυρίου Ἰησοῦ (Latin domini Iesu)",
+    "en": "the words of the Lord Jesus",
+    "plain": "the words of the Lord Jesus"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "τῶν λόγων Ἰησοῦ τοῦ κυρίου ἡμῶν",
+    "en": "the words of Jesus our Lord",
+    "plain": "the words of Jesus our Lord"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056), the Syriac version (S, one manuscript of 1169), the Coptic version (K)",
+    "orig": "τῶν λόγων τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ",
+    "en": "the words of our Lord Jesus Christ",
+    "plain": "the words of our Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"The other readings appear to be semi-liturgical expansions of the simple form found in L.\" Copyists tended to lengthen the names of Christ, and the same short form, \"the words of the Lord Jesus,\" stands at 13:1 and Acts 20:35.",
+  "b": "Lake's footnote is damaged in the digital file (\"serni liturgical\"); the sense is \"semi-liturgical.\"",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "46:8",
+  "a": "than to turn aside one of my chosen.",
+  "t": "My chosen or my little ones?",
+  "p": "Codices A and C have the Gospel wording, \"trip up one of my little ones.\"",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Syriac version (S, one manuscript of 1169), the Coptic version (K), Clement of Alexandria's quotations; Lake's text",
+    "orig": "ἢ ἕνα τῶν ἐκλεκτῶν μου διαστρέψαι",
+    "en": "than to turn aside one of my chosen",
+    "plain": "than to turn aside one of my chosen."
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), Codex Constantinopolitanus (C, copied 1056)",
+    "orig": "ἢ ἕνα τῶν μικρῶν μου σκανδαλίσαι",
+    "en": "than to trip up one of my little ones",
+    "plain": "than to trip up one of my little ones."
+   }
+  ],
+  "follow": 0,
+  "why": "The reading of A and C matches the Gospels' \"trip up one of these little ones\" (Luke 17:2; Matthew 18:6), so copyists who knew the Gospels could easily bring Clement into line with them. The other reading repeats the words of the first half of the saying (\"one of my chosen\") and uses the verb of 46:9 (\"has turned many aside\"), and it has the support of three versions and of Clement of Alexandria. Lake prints it without giving a reason; the Plain English Translation follows it for the reasons given here, as the harder and less Gospel-like reading.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "48:2",
+  "a": "so that I may go in through them and give thanks",
+  "t": "So that I may enter, or I will enter?",
+  "p": "Some witnesses make the psalm a purpose clause; others keep the Greek Psalm's \"I will enter.\"",
+  "readings": [
+   {
+    "w": "the Syriac version (S, one manuscript of 1169), the Coptic version (K), Clement of Alexandria's quotations; Lake's text",
+    "orig": "ἵνα εἰσελθὼν ἐν αὐταῖς ἐξομολογήσωμαι",
+    "en": "so that, going in through them, I may give thanks",
+    "plain": "so that I may go in through them and give thanks"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), Codex Constantinopolitanus (C, copied 1056), the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s)",
+    "orig": "εἰσελθὼν ἐν αὐταῖς ἐξομολογήσομαι",
+    "en": "going in through them, I will give thanks",
+    "plain": "I will go in through them and give thanks"
+   }
+  ],
+  "follow": 0,
+  "why": "The second reading is exactly the Greek Psalm 118:19 (117:19 there, in Swete). Lake prints the first, which differs from the Septuagint, on the principle that copyists tend to bring a quotation into line with the Bible they know. The meaning hardly changes.",
+  "s": [
+   "lake-apostolic-fathers",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "48:5",
+  "a": "pure",
+  "t": "Pure in deeds, or energetic?",
+  "p": "Clement of Alexandria twice quotes the line with \"energetic in deeds.\"",
+  "readings": [
+   {
+    "w": "Lake's text, with the manuscripts and versions",
+    "orig": "ἤτω ἁγνὸς ἐν ἔργοις",
+    "en": "let him be pure in deeds",
+    "plain": "pure"
+   },
+   {
+    "w": "Clement of Alexandria's quotations (Lake: in one of two quotations; the other adds \"let him be pure\" as well)",
+    "orig": "ἤτω γοργὸς ἐν ἔργοις",
+    "en": "let him be energetic in deeds",
+    "plain": "energetic"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake notes that Clement of Alexandria \"twice quotes this passage with γοργός (energetic) instead of ἁγνός before ἐν ἔργοις, but the second time he adds ἤτω ἁγνός as well.\" Every manuscript and version of the letter has \"pure,\" so the change is more likely in Clement of Alexandria's copy or memory.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "50:3",
+  "a": "the kingdom of Christ",
+  "t": "Christ's kingdom or God's?",
+  "p": "Codex Constantinopolitanus and the Syriac read \"the kingdom of God.\"",
+  "readings": [
+   {
+    "w": "A (in brackets in Lake's footnote), the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Coptic version (K), Clement of Alexandria's quotations; Lake's text",
+    "orig": "τῆς βασιλείας τοῦ Χριστοῦ",
+    "en": "of the kingdom of Christ",
+    "plain": "the kingdom of Christ"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056), the Syriac version (S, one manuscript of 1169)",
+    "orig": "τῆς βασιλείας τοῦ θεοῦ",
+    "en": "of the kingdom of God",
+    "plain": "the kingdom of God"
+   }
+  ],
+  "follow": 0,
+  "why": "\"The kingdom of God\" is the more common phrase (42:3), so a copyist would more easily change \"Christ\" to \"God\" than the reverse. The New Testament also speaks of Christ's kingdom (2 Timothy 4:1; 2 Peter 1:11).",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "51:1",
+  "a": "the attacks of the enemy",
+  "t": "The enemy's attacks, or the enemy's people?",
+  "p": "Both Greek manuscripts and the Syriac say \"because of any of the adversary's ...\": his wiles, or his people.",
+  "readings": [
+   {
+    "w": "Lake's text, built from Clement of Alexandria's quotations (διὰ τὰς παρεμπτώσεις, \"because of the attacks\"), the Latin (propter quasdam incursiones, \"on account of certain attacks\") and the Coptic version (K) (the equivalent of διὰ τὰς παρεμπτώσεις τινῶν, \"because of the attacks of some\")",
+    "orig": "διά τινας παρεμπτώσεις τοῦ ἀντικειμένου",
+    "en": "because of some attacks of the adversary",
+    "plain": "the attacks of the enemy"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), Codex Constantinopolitanus (C, copied 1056), the Syriac version (S, one manuscript of 1169); Lightfoot's text",
+    "orig": "διά τινος τῶν τοῦ ἀντικειμένου",
+    "en": "because of any of the adversary's [wiles or people] (Lightfoot: \"by any of the wiles (or of the ministers) of the adversary\")",
+    "plain": "any of the enemy's wiles or servants"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake calls the text \"doubtful.\" His text combines the witnesses that speak of \"attacks\" (Clement of Alexandria, the Latin and the Coptic) against the two Greek manuscripts and the Syriac. The reading of A, C and S has only \"any of those of the adversary\": the missing noun may be neuter, \"any of the adversary's wiles,\" or masculine, \"any of his ministers,\" as Lightfoot explains it, and Lightfoot prints this reading. Lake's text blames the devil's attacks. The Plain English Translation follows Lake.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "53:2",
+  "a": "said to him, \"Go down",
+  "t": "Moses, Moses",
+  "p": "Codices A and C have God call Moses by name twice.",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Syriac version (S, one manuscript of 1169), the Coptic version (K); Lake's text",
+    "orig": "εἶπεν πρὸς αὐτὸν ὁ θεός· Κατάβηθι",
+    "en": "God said to him, Go down",
+    "plain": "said to him, \"Go down"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), and Codex Constantinopolitanus (C, copied 1056) (in brackets in Lake's footnote, \"A(C)\")",
+    "orig": "εἶπεν πρὸς αὐτὸν ὁ θεός· Μωϋσῆ, Μωϋσῆ, κατάβηθι",
+    "en": "God said to him, Moses, Moses, go down",
+    "plain": "said to him, \"Moses, Moses, go down"
+   }
+  ],
+  "follow": 0,
+  "why": "Deuteronomy 9:12 in the Greek has no \"Moses, Moses\"; it has \"Get up, go down.\" The double name is the form of God's call at the burning bush (Exodus 3:4), and a copyist may have added it. Lake prints the shorter text with the three versions.",
+  "s": [
+   "lake-apostolic-fathers",
+   "swete-lxx"
+  ]
+ },
+ {
+  "v": "55:6",
+  "a": "the nation of Israel",
+  "t": "The nation, or the twelve tribes?",
+  "p": "Codices A and C read \"the twelve tribes of Israel.\"",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Syriac version (S, one manuscript of 1169), the Coptic version (K); Lake's text",
+    "orig": "τὸ ἔθνος τοῦ Ἰσραήλ",
+    "en": "the nation of Israel",
+    "plain": "the nation of Israel"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD), Codex Constantinopolitanus (C, copied 1056)",
+    "orig": "τὸ δωδεκάφυλον τοῦ Ἰσραήλ",
+    "en": "the twelve-tribe people of Israel",
+    "plain": "the twelve tribes of Israel"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the three versions. \"The twelve tribes\" (<i>dōdekaphylon</i>) is a rare, dignified word for Israel (Acts 26:7, of the twelve tribes worshiping day and night). Clement used \"the twelve tribal leaders\" at 43:2. Either reading means the whole Jewish people of Esther's day.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "55:6",
+  "a": "Master of the ages",
+  "t": "Master, Master God, or God?",
+  "p": "The witnesses differ on God's title in Esther's prayer.",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Coptic version (K); Lake's text",
+    "orig": "τὸν παντεπόπτην δεσπότην τῶν αἰώνων",
+    "en": "the all-seeing Master of the ages",
+    "plain": "Master of the ages"
+   },
+   {
+    "w": "Codex Alexandrinus (A, 400s AD)",
+    "orig": "τὸν παντεπόπτην δεσπότην θεὸν τῶν αἰώνων",
+    "en": "the all-seeing Master God of the ages",
+    "plain": "Master God of the ages"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056) (and the Syriac version (S, one manuscript of 1169), Lake notes, with \"God\" after \"of the ages\")",
+    "orig": "τὸν παντεπόπτην θεὸν τῶν αἰώνων",
+    "en": "the all-seeing God of the ages",
+    "plain": "God of the ages"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the shortest form, \"Master,\" with the Latin and Coptic. Adding \"God\" is the kind of change copyists made to titles of God; the Syriac adds it in a different place, which suggests it was not in the earliest text.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "58:2",
+  "a": "and as the Lord Jesus Christ lives",
+  "t": "\"Lives\" once or twice?",
+  "p": "The second \"lives\" is in C and the Syriac only; the Latin, the Coptic and Basil's quotation lack it.",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056), the Syriac version (S, one manuscript of 1169); Lake's text (A is missing here)",
+    "orig": "ζῇ γὰρ ὁ θεὸς καὶ ζῇ ὁ κύριος Ἰησοῦς Χριστὸς",
+    "en": "for God lives, and the Lord Jesus Christ lives",
+    "plain": "and as the Lord Jesus Christ lives"
+   },
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s), the Coptic version (K), and a quotation by Basil, as Lake reports them",
+    "orig": "ζῇ γὰρ ὁ θεὸς καὶ ὁ κύριος Ἰησοῦς Χριστὸς",
+    "en": "for God lives, and the Lord Jesus Christ",
+    "plain": "and the Lord Jesus Christ"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"ζῇ 2° CS, om. LK and quotation by Basil.\" Lake prints the repeated \"lives.\" With it, God and Christ each have their own \"lives\"; without it, one \"lives\" governs God, the Lord Jesus Christ and the Holy Spirit together. Either way the three are named side by side in one oath (see the note on \"For as God lives\").",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "59:3",
+  "a": "Grant us, Lord, to hope",
+  "t": "A gap at the start of the prayer",
+  "p": "The Greek manuscript has a gap here. The words \"Grant us, Lord\" are supplied.",
+  "readings": [
+   {
+    "w": "Lightfoot's supplement, which Lake reports; the Plain English Translation",
+    "orig": "δὸς ἡμῖν, κύριε, ἐλπίζειν",
+    "en": "grant us, Lord, to hope",
+    "plain": "Grant us, Lord, to hope"
+   },
+   {
+    "w": "Lake's text, which prints a gap, as in Codex Constantinopolitanus (C, copied 1056) and the Syriac version (S, one manuscript of 1169) (A is missing here); Gebhardt and Harnack, as Lightfoot reports them, held that nothing is missing",
+    "orig": "... ἐλπίζειν",
+    "en": "... to hope",
+    "plain": "To hope"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"There appears to be a lacuna in the Greek: Lightfoot supplies δὸς ἡμῖν, κύριε.\" Lightfoot: \"Some words have been omitted in the Greek MS ... The words supplied in the text, Δὸς ἡμῖν, Κύριε, will suffice,\" noting that the Syriac has the same omission. Without some such words the sentence has no main verb, and the prayer changes suddenly from speaking about God (\"his name,\" 59:2) to speaking to him (\"your name\"). The Plain English Translation supplies Lightfoot's words, as Lake's English does (\"Grant us\").",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ],
+  "b": "<p>Lightfoot reports two other answers. Hilgenfeld \"gets over the difficulty in part by substituting ἄνοιξον for ἀνοίξας\" (\"open\" for \"having opened\"; see the next variant), while \"Gebhardt and Harnack deny that the text is either defective or corrupt,\" taking the turn from \"him\" to \"you\" as Clement's own. Lightfoot answers that the Syriac had the same gap and changes the persons to smooth it, so that \"Bryennios was right\" that words are missing.</p>"
+ },
+ {
+  "v": "59:3",
+  "a": "as you open the eyes of our heart",
+  "t": "\"Having opened\" or \"open\"?",
+  "p": "The Greek has a participle, \"having opened.\" Hilgenfeld proposed the command \"open.\"",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056); Lake's text (A is missing here)",
+    "orig": "ἀνοίξας τοὺς ὀφθαλμοὺς τῆς καρδίας ἡμῶν",
+    "en": "having opened the eyes of our heart",
+    "plain": "as you open the eyes of our heart"
+   },
+   {
+    "w": "Hilgenfeld's conjecture, as Lightfoot reports it; no manuscript",
+    "orig": "ἄνοιξον τοὺς ὀφθαλμοὺς τῆς καρδίας ἡμῶν",
+    "en": "open the eyes of our heart",
+    "plain": "and open the eyes of our heart"
+   }
+  ],
+  "follow": 0,
+  "why": "The participle <i>anoixas</i> belongs to the one addressed, God, and goes with the supplied \"Grant us\": God grants hope by opening the eyes of the heart. The Plain English Translation keeps the participle as \"as you open.\" Hilgenfeld's command \"open\" smooths the sentence; Lightfoot prints the participle, though his English and Lake's both run \"open the eyes of our heart.\"",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-clement-1890"
+  ]
+ },
+ {
+  "v": "59:3",
+  "a": "You kill and make alive.",
+  "t": "Kill, save, and make alive?",
+  "p": "The Syriac and Latin seem to add \"and save.\"",
+  "readings": [
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056), the Coptic version (K); Lake's text",
+    "orig": "τὸν ἀποκτείνοντα καὶ ζῆν ποιοῦντα",
+    "en": "who kills and makes alive",
+    "plain": "You kill and make alive."
+   },
+   {
+    "w": "the Syriac version (S, one manuscript of 1169), the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s) (as Lake reports them)",
+    "orig": "τὸν ἀποκτείνοντα καὶ σώζοντα καὶ ζῆν ποιοῦντα",
+    "en": "who kills and saves and makes alive",
+    "plain": "You kill and save and make alive."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"καὶ σώζοντα appears to be inserted before καὶ ζῆν by SL, but is omitted by CK.\" The shorter text is the pair of 1 Samuel 2:6 and Deuteronomy 32:39 (\"I kill, and I make alive\"), which the prayer is echoing.",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "59:3",
+  "a": "the finder of spirits",
+  "t": "Finder or benefactor of spirits?",
+  "p": "Codex Constantinopolitanus reads \"benefactor,\" the Coptic \"creator.\"",
+  "readings": [
+   {
+    "w": "the Latin version (L, one manuscript of the 1000s; the version perhaps late 100s or early 200s), the Syriac version (S, one manuscript of 1169); Lake's text",
+    "orig": "εὑρέτην πνευμάτων",
+    "en": "finder (discoverer) of spirits",
+    "plain": "the finder of spirits"
+   },
+   {
+    "w": "Codex Constantinopolitanus (C, copied 1056)",
+    "orig": "εὐεργέτην πνευμάτων",
+    "en": "benefactor of spirits",
+    "plain": "the benefactor of spirits"
+   },
+   {
+    "w": "the Coptic version (K)",
+    "orig": "(Coptic, as Lake reports it)",
+    "en": "creator of spirits",
+    "plain": "the creator of spirits"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: \"the text is doubtful but εὑρέτην (LS) seems more likely to be implied by K than εὐεργέτην, and is therefore slightly more probable.\" \"Finder\" is a strange title, and that may be why C changed it to the common \"benefactor.\"",
+  "s": [
+   "lake-apostolic-fathers"
+  ]
+ }
+]

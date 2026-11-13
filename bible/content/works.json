@@ -271,14 +271,16 @@
   "tier": "early",
   "aka": [
    "Didache"
-  ]
+  ],
+  "book": "Did"
  },
  "1-clement": {
   "name": "1 Clement",
   "tier": "early",
   "aka": [
    "1 Clement"
-  ]
+  ],
+  "book": "1Cl"
  },
  "2-clement": {
   "name": "2 Clement",
@@ -289,12 +291,13 @@
   ]
  },
  "polycarp-philippians": {
-  "name": "Polycarp's Letter to the Philippians",
+  "name": "Polycarp to the Philippians",
   "tier": "early",
   "aka": [
    "Polycarp's Letter to the Philippians",
    "Letter of Polycarp"
-  ]
+  ],
+  "book": "Pol"
  },
  "shepherd-of-hermas": {
   "name": "Shepherd of Hermas",
@@ -310,7 +313,8 @@
    "Epistle of Barnabas",
    "Letter of Barnabas",
    "Barnabas#"
-  ]
+  ],
+  "book": "Bnb"
  },
  "book-of-jashar": {
   "name": "Book of Jashar",
@@ -862,7 +866,8 @@
   "aka": [
    "Martyrdom of Polycarp"
   ],
-  "note": "A letter from the church at Smyrna telling how its bishop Polycarp was burned in the stadium, about AD 155 to 160. It is the oldest account of a Christian martyrdom outside the New Testament. In no Bible."
+  "note": "A letter from the church at Smyrna telling how its overseer Polycarp was burned in the stadium. Polycarp died on a 23 February, in AD 155 or 156 by the reckonings Lake reports; Lake calls the letter \"contemporary\" and \"the earliest known history of a Christian martyrdom,\" while Bart Ehrman argues it was written decades later. It is in no church's Bible.",
+  "book": "MPo"
  },
  "thanksgiving-hymns": {
   "name": "Thanksgiving Hymns (1QH)",
@@ -1060,7 +1065,7 @@
    "Apostolic Constitutions",
    "Constitutions of the Holy Apostles"
   ],
-  "note": "A Greek collection of church rules, prayers and teaching in eight books, in the name of the apostles. Book 2, section 22, tells the story of King Manasseh as a lesson for bishops on receiving the repentant and gives the Prayer of Manasseh in full. It is in no church's Bible."
+  "note": "A Greek collection of church rules, prayers and teaching in eight books, in the name of the apostles. Book 2, section 22, tells the story of King Manasseh as a lesson for bishops on receiving the repentant and gives the Prayer of Manasseh in full. George Reid wrote in 1908 that \"the Coptic-Arabic Church include with the canonical Scriptures the Apostolic Constitutions and the Clementine Epistles\" (<i>Catholic Encyclopedia</i>, \"Canon of the New Testament\")."
  },
  "pseudo-jubilees": {
   "name": "Pseudo-Jubilees (4Q225)",
@@ -1087,5 +1092,42 @@
    "Prayer of Joseph"
   ],
   "note": "A lost Jewish writing known only from quotations in Origen. In one quoted line, as R. H. Charles prints it, Jacob says he read in the tablets of heaven what would happen to his sons; Charles thought Jubilees 32:21 its source (Charles 1902). It is in no church's Bible. Added by Jub 32-38."
+ },
+ "ethiopic-clement": {
+  "name": "Ethiopic Clement",
+  "tier": "eth",
+  "aka": [
+   "Ethiopic Clement",
+   "book of Clement (Ethiopic)"
+  ],
+  "note": "A book in the broader New Testament of the Ethiopian Orthodox Tewahedo Church (its list's \"The book of Clement\", no. 34). R. W. Cowley (1974) calls it \"a book in seven parts, communicated by Peter to Clement,\" and says it is not \"the Roman or Corinthian correspondence\" (1 and 2 Clement), nor one of the parts of the <i>Sinodos</i> sometimes called 1, 2 and 3 Clement."
+ },
+ "book-of-eldad-and-modad": {
+  "name": "Book of Eldad and Modad",
+  "tier": "other",
+  "aka": [
+   "Book of Eldad and Modad",
+   "Book of Eldad and Modat",
+   "Eldad and Modad",
+   "Eldad and Medad"
+  ],
+  "note": "A lost Jewish or Christian prophetic book named for the two men who prophesied in the camp (Numbers 11:26). The Shepherd of Hermas (Vision 2.3.4) quotes it; Lake's note says it is listed among the New Testament apocrypha in the Athanasian Synopsis and the Stichometry of Nicephorus and is not extant. Lake's note at 1 Clement 23:3 says the quotation there, also found in 2 Clement 11:2, \"cannot be identified,\" and adds: \"Some think it is from the lost apocalypse of Eldad and Modad.\" Added by 1 Clement 21-39, 2026-11-12."
+ },
+ "apostolic-canons": {
+  "name": "Apostolic Canons",
+  "tier": "early",
+  "aka": [
+   "Apostolic Canons",
+   "Apostolic Canon"
+  ],
+  "note": "Eighty-five church rules in the name of the apostles. The last, canon 85, lists the books to be held \"venerable and sacred\" by clergy and laity: with the Old Testament, three books of Maccabees, and after the New Testament two Epistles of Clement and the Constitutions of Clement. The Council in Trullo (692, canon 2) ratified the eighty-five canons but rejected the Constitutions. The date is disputed; Westcott (1896) thought the list probably of the sixth century. Church law, not Scripture."
+ },
+ "stichometry-of-nicephorus": {
+  "name": "Stichometry of Nicephorus",
+  "tier": "early",
+  "aka": [
+   "Stichometry of Nicephorus"
+  ],
+  "note": "A list of the books of the Old and New Testaments with the disputed books and the apocrypha, under the name of Nicephorus. It counts the Epistle of Barnabas among the disputed books and the two letters of Clement among the apocrypha (Westcott, Appendix D)."
  }
 }

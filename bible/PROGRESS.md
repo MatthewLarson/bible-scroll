@@ -87,4 +87,9 @@ Status: `writing` → `written` → `reviewed` (hostile review done, fixes appli
 | Ps2 | reviewed, published | Outside the 66 (tier orth). Base text Swete (Codex Vaticanus), Brenton English, 11QPsa (11Q5) Hebrew from the ETCBC dss data (see brief); 7 verses + heading 1:0 |
 | PsS | reviewed, published | Outside the 66 (tier other: in no church's Bible). Base text Swete (vol. III, as printed by Swete; numbering Swete's, headings as c:0), Charles 1913 English for |
 | Jub | reviewed, published | Outside the 66 (tier eth). Base text VanderKam's Ge'ez (1989, Beta maṣāḥǝft; not Dillmann), EOTC copy (not independent), Latin (Charles 1895), Greek citations;  |
+| Did | reviewed, published | Outside the 66 (tier early: an early Christian writing in no church's Bible). Base text Lake (Loeb vol. 1, 1912), C the one complete manuscript; Lake's English  |
+| Bnb | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): Sinaiticus, C, the G manuscripts, the Latin (to ch. 17). One part 01-21 (194 vv; 18-20 written  |
+| 1Cl | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), eclectic: A (lacks 57:7-63), C, the Latin, Syriac and Coptic versions, Clement of Alexandria. P |
+| Pol | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912): Greek (G, Eusebius) to 9:2 and in 13, the old Latin for 10-12, the end of 13:2 and 14. Flat fol |
+| MPo | reviewed, published | Outside the 66 (tier early). Base text Lake (Loeb vol. 2, 1913): m against b p s v, Eusebius 4.15, the Latin; the Moscow ending as a variant at 22:2. Flat folde |
 | His | reviewed, published | Outside the 66 (tier world: a Roman history, a writing of another people; read from a Christian standpoint; tools/agent-writer-world.md). |

@@ -16,17 +16,23 @@
                              the heading Swete prints over a psalm or prayer is c:0 (Psalms of Solomon, Psalm 151, Prayer
                              of Manasseh, which is Swete's eighth Ode)
                            "fixed" {c:v: what was corrected}: typos in the digital Swete, checked against his page
+                           The Apostolic Fathers (Greek): "grc" Kirsopp Lake's text (Loeb, 1912-1913) by his chapter and
+                             section, the greeting or title he prints before chapter 1 as 1:0; Polycarp "lat", the Latin
+                             where the Greek is lost, with "gap" {c:v: why} where there is no Greek; "fixed" {c:v: what was
+                             corrected}: damage in the digital Lake, checked against his printed page (tools/lake-fixes.json)
      texts/en/<id>.json    {"about":{...}, key:{c:v: text}}: public-domain English, for checking sense only
      texts/auto/<id>.json  machine-found differences between two witnesses, for the writers to judge
-     texts/src/<id>.*.json  material for the writers that is not shown verse by verse (Swete's apparatus; the Vulgate and
-                           Douay-Rheims, whose verse numbers do not match the Greek; Jubilees' EOTC under its own numbers)
+     texts/src/<id>.*.json  material for the writers that is not shown verse by verse (Swete's and Lake's apparatus; the
+                           Vulgate and Douay-Rheims, whose verse numbers do not match the Greek; Jubilees' EOTC under its own
+                           numbers; the Martyrdom of Polycarp's other ending and Lake's title, MPo.extra.json)
      texts/catalog.json    the X groups and each book's verse counts
    "about" says what each text is, so the site can name and credit it without knowing the book.
    Ge'ez: Beta masaheft (Hiob-Ludolf-Zentrum, Hamburg), CC BY-SA 4.0; VanderKam's Jubilees from the Open Siddur Project,
    CC BY-SA 4.0 (Ge'ez only). Greek Enoch: texts/src/1En.grc.json, from
    Charles 1893. Septuagint: H. B. Swete, The Old Testament in Greek (1907-1912), public domain, word file by Eliran Wong
    (LXX-Swete-1930); Swete's apparatus from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). English and Latin:
-   scrollmapper/bible_databases (public domain).
+   scrollmapper/bible_databases (public domain). Apostolic Fathers: Lake's Greek from First1KGreek (CC BY-SA 4.0); English
+   from Wikisource (Lake's own for the Didache, Barnabas and 1 Clement; Lightfoot's Polycarp; the Ante-Nicene Martyrdom).
 """
 import json, re, os, sys, csv, difflib, collections, unicodedata
 sys.stdout.reconfigure(encoding='utf-8')   # Ge'ez in the warnings; the Windows console default is cp1252
@@ -183,6 +189,75 @@ WORKS = [
         'charles': ('R. H. Charles (1913)', 'Charles', 'R. H. Charles’s translation, as printed in his <i>Apocrypha and '
                     'Pseudepigrapha of the Old Testament</i>, volume 2 (1913), public domain, from scrollmapper. It does not '
                     'include the prologue, and its verse numbers can differ slightly from the Ge’ez printed here.')}),
+    # The Apostolic Fathers: Kirsopp Lake, The Apostolic Fathers (Loeb Classical Library; vol. 1 1912, vol. 2 1913),
+    # public domain; the digital text from First1KGreek, CC BY-SA 4.0. Witnesses as Lake's introductions list them.
+    ('Did', 'Didache', 'didache', 'apfathers', {'f1k': 'tlg1311/tlg001/tlg1311.tlg001.1st1K-grc1.xml', 'head': 'verse0',
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 '
+                '(Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). '
+                'Lake prints the one complete manuscript, the Codex Constantinopolitanus (C, found by Bryennios in 1875, which '
+                'also holds 1 and 2 Clement and Barnabas), noting at the foot of the page the few corrections he makes. Verse 0 is '
+                'the second title Lake prints above chapter 1 (in his English, “The Lord’s teaching to the heathen by the Twelve '
+                'Apostles”); the first, ΔΙΔΑΧΗ ΤΩΝ ΔΩΔΕΚΑ ΑΠΟΣΤΟΛΩΝ, is not in the digital text.'),
+        'sigla': 'C the Codex Constantinopolitanus, the one complete manuscript',
+        'en': ('verses', f'{DL}/apfathers/did-lake.wiki', 'lake', 'Kirsopp Lake (1912)', 'Lake', 'Kirsopp Lake’s English '
+               'translation, printed facing his Greek (1912), public domain, from Wikisource. Its numbers are the Greek’s; '
+               'its verse 0 is the title. Lake’s notes and margin headings are left out.')}),
+    ('Bnb', 'Epistle of Barnabas', 'epistle-of-barnabas', 'apfathers', {'f1k': 'tlg1216/tlg001/tlg1216.tlg001.opp-grc1.xml',
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 '
+                '(Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). '
+                'Lake’s witnesses are Codex Sinaiticus (300s AD), the Codex Constantinopolitanus (C), eight Greek manuscripts '
+                'that begin in chapter 5 (their common ancestor is G), and a Latin version (L) that stops at the end of chapter 17.'),
+        'sigla': 'Codex Sinaiticus, written N in the digital notes; C the Codex Constantinopolitanus; G the common ancestor of the '
+                 'eight Greek manuscripts that run Polycarp 9 straight into Barnabas 5; L the Latin version',
+        'en': ('chapters', f'{DL}/apfathers/bnb-lake.wiki', 'lake', 'Kirsopp Lake (1912)', 'Lake', 'Kirsopp Lake’s English '
+               'translation, printed facing his Greek (1912), public domain, from a Wikisource transcription not yet checked '
+               'there against the printed page. Its numbers are the Greek’s. Lake’s notes and chapter summaries are left out.')}),
+    ('1Cl', '1 Clement', '1-clement', 'apfathers', {'f1k': 'tlg1271/tlg001/tlg1271.tlg001.1st1K-grc1.xml',
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 '
+                '(Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). '
+                'Lake’s witnesses are Codex Alexandrinus (400s AD, the whole letter but one page), the Codex '
+                'Constantinopolitanus (C, 1056 AD), and the Syriac, Latin and Coptic versions; he judges none of them clearly '
+                'the best, so his text is eclectic. Verse 0 is the greeting Lake prints before chapter 1.'),
+        'sigla': 'A Codex Alexandrinus; C the Codex Constantinopolitanus; L the Latin version; S the Syriac version; K the Coptic (Kb the Berlin, Ks the Strassburg manuscript); Clem. Clement of Alexandria',
+        'en_split': {'45:8': ('45:7', 'But they who endured')},
+        'en': ('roman', f'{DL}/apfathers/1cl-lake.wiki', 'lake', 'Kirsopp Lake (1912)', 'Lake', 'Kirsopp Lake’s English '
+               'translation, printed facing his Greek (1912), public domain, from Wikisource. Its numbers are the Greek’s; '
+               'its verse 0 is the greeting. Lake’s notes and margin headings are left out; the transcription lacks the number of 45:8, '
+               'which is put back.')}),
+    ('Pol', 'Polycarp to the Philippians', 'polycarp-philippians', 'apfathers', {'f1k': 'tlg1622/tlg001/tlg1622.tlg001.1st1K-grc1.xml',
+        'lat_from': {'13:2': 'ετ δε ιπσο'},
+        'gap': 'the Greek is lost here: Lake prints the old Latin translation',
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 '
+                '(Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0). '
+                'Lake’s witnesses are eight defective Greek manuscripts from one ancestor (G), two long quotations in Eusebius, '
+                'and the Latin version. The Greek manuscripts break off in 9:2, where Lake’s note says the Latin and Eusebius '
+                'give the rest of the sentence; in chapter 13 the Greek is again available from Eusebius’ quotation. For 10–12, the '
+                'end of 13:2 and 14 only the Latin survives (shown as Latin). Verse 0 is the greeting.'),
+        'lat': ('Latin: the old translation', 'Latin', 'The Latin translation that Lake prints where the Greek is lost (10–12, '
+                'the end of 13:2, 14). The digital file had run its Latin letters through a Greek converter; they are turned '
+                'back here letter for letter; the misreadings of the digital file (12:2 “lesus” for Iesus, 13:2 “lgnatio” for '
+                'Ignatio, and others) are corrected from Lake’s printed page, as listed in "fixed".'),
+        'sigla': 'G the common ancestor of the Greek manuscripts; L the Latin version; Eus. Eusebius',
+        'en': ('bold', f'{DL}/apfathers/pol-lightfoot.wiki', 'lightfoot', 'J. B. Lightfoot', 'Lightfoot', 'J. B. Lightfoot’s '
+               'English translation (1800s), public domain, from Wikisource; Wikisource has no copy of Lake’s. Lightfoot '
+               'numbers chapters but not sections, so each chapter’s whole English is shown beside its first section; its '
+               'verse 0 is the greeting.')}),
+    ('MPo', 'Martyrdom of Polycarp', 'martyrdom-of-polycarp', 'apfathers', {'f1k': 'tlg1484/tlg001/tlg1484.tlg001.1st1K-grc1.xml',
+        'apart': {'epilogus_alius': 'moscow'},
+        'grc': ('Greek: Lake’s edition (1913)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 2 '
+                '(Loeb Classical Library, 1913; the digital text is from its 1917 printing), public domain, from First1KGreek '
+                '(Open Greek and Latin, CC BY-SA 4.0). Lake’s witnesses are five Greek manuscripts (m, the Moscow codex, often '
+                'better, against b p s v), Eusebius’ quotations of most of the letter, and a Latin version. Verse 0 is the '
+                'greeting; the title Lake prints above it, which he notes has no special support (each manuscript has its own), is left out. The other ending '
+                'that the Moscow manuscript has in place of 22:2–3 is in texts/src/MPo.extra.json.'),
+        'sigla': 'm Codex Mosquensis; b Baroccianus; p Parisinus; s Hierosolymitanus; v Vindobonensis; E Eusebius; L the Latin version',
+        'extra_about': 'What Lake prints outside the numbered text: "head", the title he puts above the greeting (his note: it has no special support; '
+                       'each manuscript has its own); "text", the other ending of the Moscow manuscript (m), which it has '
+                       'in place of 22:2–3, numbered by Lake 2–6 ("moscow:2" ...). Greek, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('anf', f'{DL}/apfathers/mpo-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
 ]
 def dump(path, obj): json.dump(obj, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 clean = lambda s: re.sub(r'\s+', ' ', s).strip()
@@ -737,6 +812,195 @@ def septuagint(bid, a):
                              '1964) and manuscripts published after 1912 are not in it.',
                    'kahana': kahana()} if a.get('heb') else None}
     return o, en_o, auto, vc, {k: v for k, v in src.items() if v}
+
+# ---------- The Apostolic Fathers (Lake's Greek, from First1KGreek) ----------
+TEI = '{http://www.tei-c.org/ns/1.0}'
+cvkey = lambda k: tuple(map(int, k.split(':')))
+
+def elision(t):
+    """The digital Lake marks elision three ways besides ’ (καθ̓ with a breathing on the consonant, παῤ, δἰ with a
+    breathing on the last vowel): all are written ᾽ (U+1FBD), as in Swete's Greek. A breathing on a final ν (Barnabas'
+    "κόκκινον̓") is a closing parenthesis, not elision (see fix_af)."""
+    def word(m):
+        w = unicodedata.normalize('NFD', m[0])
+        if re.search('[θφτπκχρδγλ]̓$', w): return unicodedata.normalize('NFC', w[:-1]) + '᾽'
+        if re.search('[^̀-ͯ]̓$', w) and not re.search('[̀́͂]', w) and re.search('[βγδζθκλμνξπρστφχψ]', w):
+            return unicodedata.normalize('NFC', w[:-1]) + '᾽'   # δἰ -> δι᾽ (but οὐ, εἰ: no consonant before)
+        return m[0]
+    t = re.sub(r'[’ʼ](?=\s)', '᾽', t)   # κατ’ ἀλλ’: the same mark (a ʼ before a word is the parenthesis of fix_af)
+    return re.sub(r'\S+', word, t)
+
+LATIN_IN_GREEK = dict(zip('αβξδεφγηικλμνοπθρσςτυϝωχψζΑΒΞΔΕΦΓΗΙΚΛΜΝΟΠΘΡΣΤΥΩΧΨΖ', 'abcdefghiklmnopqrsstuvwxyzABCDEFGHIKLMNOPQRSTUVXYZ'))
+def latin(t):
+    """Lake's Latin (Polycarp 9-14, where the Greek is lost) as the digital file has it: typed in Latin letters but run
+    through a Beta Code converter, so "in his ergo state" became "ιν ηις εργο στατε". Turned back letter for letter: the
+    converter's own table (c=ξ, q=θ, v=ϝ, "#3" for q, Ω for capital V)."""
+    t = t.replace('#3', 'q')
+    return ''.join(LATIN_IN_GREEK.get(ch, ch) for ch in t).replace('Ω', 'V')
+
+def accent_share(t):
+    d = unicodedata.normalize('NFD', t)
+    return sum(unicodedata.combining(ch) > 0 for ch in d) / max(1, sum(ch.isalpha() for ch in d))
+
+def tei_text(e, notes, at):
+    """The words of a TEI element, leaving out notes (each goes to notes, with the verse it stands in) and page breaks."""
+    out = [e.text or '']
+    for k in e:
+        if k.tag == TEI + 'note':
+            bibl = k.find(TEI + 'bibl')
+            if bibl is not None: notes['refs'].append({'at': at, 'ref': clean(''.join(bibl.itertext())), 'urn': bibl.get('corresp', '')})
+            else: notes['notes'].append({'at': at, 'note': clean(''.join(k.itertext()))})
+        elif k.tag != TEI + 'head': out.append(tei_text(k, notes, at))
+        out.append(k.tail or '')
+    return ''.join(out)
+
+def fix_af(bid, verses, lat, table):
+    """Damage in the digital Lake, put right from his printed page: {c:v: [(wrong, right, the evidence)]}, the WORKS
+    entry's own and then those found by collation (tools/lake-fixes.json). A verse the file gives in Latin (Polycarp
+    10-14, and the end of 13:2, which has both) is corrected in lat, after the letters are turned back from the Greek
+    converter: each slip is looked for in the Greek first, then in the Latin."""
+    fixed, table = {}, {cv: [f] if isinstance(f, tuple) else list(f) for cv, f in table.items()}
+    for cv, fs in json.load(open(os.path.join(ROOT, 'tools', 'lake-fixes.json'), encoding='utf-8')).get(bid, {}).items():
+        table.setdefault(cv, []).extend(tuple(f) for f in fs)
+    for cv, fixes in sorted(table.items(), key=lambda x: cvkey(x[0])):
+        done = []
+        for bad, good, by in fixes:
+            bad, good = (unicodedata.normalize('NFC', w) for w in (bad, good))
+            text = verses if bad in verses.get(cv, '') else lat
+            assert text.get(cv, '').count(bad) == 1, (bid, cv, bad, verses.get(cv), lat.get(cv))
+            text[cv] = text[cv].replace(bad, good); done.append(f'{bad} → {good} ({by})')
+        fixed[cv] = 'Damage in the digital text of Lake, corrected: ' + '; '.join(done)
+    return fixed
+
+def wiki_plain(t):
+    """Wikitext to plain text: footnotes, templates, links, italics and HTML tags out."""
+    t = re.sub(r'<ref[^>/]*>.*?</ref>|<ref[^>]*/>', '', t, flags=re.S)
+    t = re.sub(r'\{\{(?:bbsc|sc|smallcaps)\|([^}]*)\}\}', r'\1', t)
+    t = re.sub(r'\{\{[^{}]*\}\}', '', t)
+    t = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', t)
+    t = re.sub(r"'''?", '', t)
+    t = re.sub(r'<small>(.*?)</small>', lambda m: m[1].lower(), t)   # "T<small>HE</small>": small capitals
+    import html as H
+    return clean(H.unescape(re.sub(r'<[^>]+>', ' ', t)).replace(' ’', '’'))
+
+def numbered(text, c, out, first=1):
+    """Split one chapter's running English at its section numbers ("1. ... 2. ..."), taking a number only when it is the
+    next one expected, so a number inside the text cannot start a section."""
+    n, at = first, []
+    for m in re.finditer(r'(?:^|(?<=\s))(\d{1,2})\.\s', text):
+        if int(m[1]) == n: at.append((n, m.start(), m.end())); n += 1
+    assert at and not clean(text[:at[0][1]]), (c, text[:80])   # nothing before section 1
+    for k, (v, s, e) in enumerate(at):
+        out[f'{c}:{v}'] = clean(text[e: at[k + 1][1] if k + 1 < len(at) else len(text)])
+
+def en_apfathers(kind, path):
+    """The English beside the Greek, {c:v: text}. kind: "verses" (Wikisource {{verse}} marks: Lake's Didache), "chapters"
+    (== CHAPTER n == headings, numbered sections: Lake's Barnabas), "roman" (centred roman numerals, numbered sections:
+    Lake's 1 Clement), "bold" ('''n''' chapters, no sections: Lightfoot's Polycarp), "anf" (the parsed Ante-Nicene page,
+    chapters without sections: the Martyrdom). Text before chapter 1 (title or greeting) is 1:0. Where the translation does
+    not number sections, a chapter's whole English stands at its first section."""
+    out = {}
+    if kind == 'anf':
+        import html as H
+        t = json.load(open(path, encoding='utf-8'))['parse']['text']
+        t = re.sub(r'<style.*?</style>|<sup[^>]*class="reference".*?</sup>|<span class="pagenum.*?</span></span>', '', t, flags=re.S)
+        t = re.sub(r'<span class="dropinitial.*?<img alt="(\w)".*?</span></span></span></span>(\w+)',   # "T" + "HE church"
+                   lambda m: m[1] + m[2].lower(), t, flags=re.S)
+        t = t[:t.find('<ol class="references"')] if '<ol class="references"' in t else t
+        bits = re.split(r'<span class="anchor" id="Chapter&#95;(\d+)"></span>', t)
+        heads = lambda s: re.sub(r'<div class="wst-center[^"]*">.*?</div>', '', s, flags=re.S)
+        plain = lambda s: clean(H.unescape(re.sub(r'<[^>]+>', ' ', heads(s))).replace('​', ''))
+        out['1:0'] = [plain(p) for p in re.findall(r'<p>(.*?)</p>', bits[0], re.S) if plain(p)][-1]   # the greeting: the last paragraph before chapter 1
+        for c, s in zip(bits[1::2], bits[2::2]): out[f'{c}:1'] = plain(s)
+        return out
+    w = open(path, encoding='utf-8').read()
+    w = re.split(r'==\s*Original footnotes\s*==|\{\{rule|\{\{translation[ _]license', w)[0]
+    if kind == 'verses':
+        w = re.sub(r'^\s*(?:\{\||\|-.*|\|\}|\|width=.*|\|<small>.*)$', '', w.split('}}', 1)[1], flags=re.M)
+        w = re.sub(r'^\|', '', re.sub(r'==[^=]+==|\{\{chapter\|\d+\}\}', '', w), flags=re.M)
+        bits = re.split(r'\{\{verse\|chapter=(\d+)\|verse=(\d+)\}\}', w)
+        out['1:0'] = wiki_plain(bits[0])
+        for c, v, t in zip(bits[1::3], bits[2::3], bits[3::3]): out[f'{c}:{v}'] = wiki_plain(t)
+    elif kind == 'chapters':
+        bits = re.split(r'==\s*CHAPTER (\d+)\s*==', w)
+        for c, t in zip(bits[1::2], bits[2::2]):
+            numbered(wiki_plain(re.sub(r"^:''.*''\s*$", '', t, flags=re.M)), c, out)
+    elif kind == 'roman':
+        w = w.split('</h2>', 1)[1]
+        bits = re.split(r'<p style="text-align: center;">([IVXLC]+)\.</p>', w)
+        out['1:0'] = wiki_plain(bits[0])
+        for k, (r, t) in enumerate(zip(bits[1::2], bits[2::2]), 1):
+            assert r == roman(k), (r, k)
+            numbered(wiki_plain(re.sub(r'<sup class="script">\d+</sup>', '', t)), k, out)
+    elif kind == 'bold':
+        bits = re.split(r"'''(\d+)'''<br />", w)
+        out['1:0'] = wiki_plain(bits[0])
+        for c, t in zip(bits[1::2], bits[2::2]): out[f'{c}:1'] = wiki_plain(t)
+    return {k: t for k, t in out.items() if t}
+
+def roman(n):
+    s = ''
+    for v, r in ((100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')):
+        while n >= v: s += r; n -= v
+    return s
+
+def apfathers(bid, a):
+    """One of the Apostolic Fathers in Kirsopp Lake's Loeb edition, from its First1KGreek file: chapter:section as Lake
+    prints them; a greeting or title Lake prints before chapter 1 (a separate unnumbered division in the file) is 1:0.
+    Lake's footnotes (his textual notes) and his margin references to Scripture go to texts/src/<id>.app.json. A section
+    the file gives only in Lake's Latin (Polycarp, where the Greek is lost) goes to "lat", the Greek to "grc"."""
+    root = ET.parse(f'{DL}/First1KGreek/data/{a["f1k"]}').getroot()
+    ed = root.find(f'.//{TEI}div[@type="edition"]')
+    notes, grc, lat, extra = {'notes': [], 'refs': []}, {}, {}, {}
+    def put(cv, t):
+        t = unicodedata.normalize('NFC', clean(t))
+        if cv in a.get('lat_from', {}):   # Greek, then the Latin where the Greek breaks off inside the section
+            i = t.index(a['lat_from'][cv]); grc[cv], lat[cv] = clean(t[:i]), clean(t[i:])
+        elif accent_share(t) < .05: lat[cv] = t   # no Greek accents at all: Lake's Latin
+        else: grc[cv] = t
+    for k in ed:
+        if k.tag == TEI + 'head':   # a title before chapter 1
+            t = clean(tei_text(k, notes, '1:0' if a.get('head') == 'verse0' else 'title'))
+            if a.get('head') == 'verse0': put('1:0', t)
+            else: extra['head'] = unicodedata.normalize('NFC', t)
+        elif k.tag == TEI + 'div' and k.get('subtype') == 'chapter':
+            c = k.get('n')
+            if not c.isdigit() and c not in a.get('apart', {}):   # the greeting before chapter 1 ("preface", "praef")
+                put('1:0', tei_text(k, notes, '1:0')); continue
+            for s in k.iter(TEI + 'div'):
+                if s.get('subtype') != 'section': continue
+                cv = f'{a["apart"][c]}:{s.get("n")}' if c in a.get('apart', {}) else f'{c}:{s.get("n")}'
+                put(cv, tei_text(s, notes, cv))
+    for cv in list(grc): grc[cv] = elision(grc[cv]).replace(':', '·')   # the file's colon is the Greek raised stop
+    for cv in list(lat): lat[cv] = latin(lat[cv])
+    fixed = fix_af(bid, grc, lat, a.get('fix', {}))
+    apart = {cv: t for cv, t in {**grc, **lat}.items() if not cv.split(':')[0].isdigit()}   # the Martyrdom's other epilogue
+    for cv in apart: grc.pop(cv, None); lat.pop(cv, None)
+    keys = sorted(set(grc) | set(lat), key=cvkey)
+    vc = [max(int(k.split(':')[1]) for k in keys if int(k.split(':')[0]) == c) for c in range(1, int(keys[-1].split(':')[0]) + 1)]
+    assert all(f'{c}:{v}' in keys for c, n in enumerate(vc, 1) for v in range(1, n + 1)), (bid, 'a section is missing')
+    o = {'lang': 'grc', 'about': {'grc': about(*a['grc'], 'greek'), **({'lat': about(*a['lat'])} if lat else {})},
+         'grc': dict(sorted(grc.items(), key=lambda x: cvkey(x[0]))),
+         **({'lat': dict(sorted(lat.items(), key=lambda x: cvkey(x[0])))} if lat else {})}
+    if lat: o['gap'] = {cv: a['gap'] for cv in keys if cv not in grc}
+    if fixed: o['fixed'] = fixed
+    en = en_apfathers(*a['en'][:2])
+    for cv, (at, start) in a.get('en_split', {}).items():   # a section number missing from the transcription
+        i = en[at].index(start); en[at], en[cv] = clean(en[at][:i]), en[at][i:]
+    lost = set(en) - set(keys)
+    assert not lost, (bid, 'English verses with no Greek or Latin verse', sorted(lost, key=cvkey))
+    en_o = {'about': {a['en'][2]: about(*a['en'][3:])}, a['en'][2]: dict(sorted(en.items(), key=lambda x: cvkey(x[0])))}
+    for k in ('notes', 'refs'): notes[k].sort(key=lambda n: cvkey(n['at']) if n['at'][0].isdigit() else (99, 0))
+    src = {'app': {'_about': 'Kirsopp Lake’s footnotes to his Greek text (' + a['sigla'] + '), and in "refs" the passages of Scripture '
+                             'he prints in the margin (with the digital file’s own reference, "urn"). The digital file has only the Greek pages, so '
+                             'the footnotes Lake prints under his English translation on the facing pages are not here. "at" is the verse the note or '
+                             'reference stands in ("title": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and '
+                             'the file has slips in the notes’ English and Greek. From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
+                   'notes': notes['notes'], 'refs': notes['refs']}}
+    if apart or extra:
+        src['extra'] = {'_about': a['extra_about'], **({'head': extra['head']} if extra.get('head') else {}),
+                        **({'text': apart} if apart else {})}
+    return o, en_o, [], vc, src
 
 cat = json.load(open(f'{OUT}/catalog.json', encoding='utf-8'))
 TIER = {k: w['tier'] for k, w in json.load(open(os.path.join(ROOT, 'content', 'works.json'), encoding='utf-8')).items() if not k.startswith('_')}
