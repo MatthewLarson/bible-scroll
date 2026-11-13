@@ -1,0 +1,768 @@
+[
+ {
+  "v": "1:0",
+  "a": "if they are one",
+  "t": "'They', 'we' or 'you'?",
+  "p": "The Latin has 'we' and the Armenian 'you' for the Greek 'they'.",
+  "readings": [
+   {
+    "w": "Lake's text: G (Lightfoot's apparatus)",
+    "orig": "ἐὰν ἐν ἑνὶ ὦσιν",
+    "en": "if they are in one",
+    "plain": "if they are one"
+   },
+   {
+    "w": "The Latin (L), 'si in uno simus' (one manuscript 'sumus') (Lightfoot's apparatus)",
+    "orig": "(si in uno simus)",
+    "en": "if we are in one",
+    "plain": "if we are one"
+   },
+   {
+    "w": "The Armenian (A), 'si stetis in concordia' (Lightfoot's apparatus)",
+    "orig": "(si stetis in concordia)",
+    "en": "if you stand in harmony",
+    "plain": "if you stand together in harmony"
+   },
+   {
+    "w": "The long recension (g), without 'if'; Lightfoot thinks the 'if' was probably dropped by accident",
+    "orig": "ἐν ἑνὶ ὦσιν",
+    "en": "may they be in one",
+    "plain": "may they be one"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake and G. Lightfoot explains the third person: 'He still uses the third person, because the address of the letter is not yet concluded' (compare 2 John 1 and 2 John 4), and 'The difficulty has occasioned the substitution of the first or second person in the versions'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "those who talk emptily",
+  "t": "'Talk emptily', 'talk', or 'talk more'?",
+  "p": "The Armenian has no 'empty'; the long recension says 'talk more'. Lightfoot favors the Armenian.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L)",
+    "orig": "τῶν μάταια λαλούντων",
+    "en": "those who speak vain things",
+    "plain": "those who talk emptily"
+   },
+   {
+    "w": "The Armenian (A), favored by Lightfoot (Lake's footnote)",
+    "orig": "τῶν λαλούντων",
+    "en": "those who speak",
+    "plain": "those who talk"
+   },
+   {
+    "w": "The long recension (g), Lake's footnote",
+    "orig": "τῶν πλέον λαλούντων",
+    "en": "those who speak more",
+    "plain": "those who talk more"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's Greek. Lightfoot thinks the plain 'those who speak' is original and that 'The interpolator and transcribers have enfeebled the expression by inserting πλέον or μάταια': the silent overseer outdoes all talk, not just empty talk.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "his ministry",
+  "t": "'Ministry' or 'stewardship'?",
+  "p": "The Armenian seems to have read a different word, 'stewardship'.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the long recension (g); the Latin (L) 'administrationem' (Lightfoot's apparatus)",
+    "orig": "τὴν διακονίαν",
+    "en": "the ministry",
+    "plain": "his ministry"
+   },
+   {
+    "w": "The Armenian (A), 'dispensationem', which Lightfoot says 'certainly implies' this Greek",
+    "orig": "τὴν οἰκονομίαν",
+    "en": "the stewardship",
+    "plain": "his stewardship"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot finds 'no reason to suppose (with Petermann) that L read οἰκονομίαν', and suggests the other word 'was substituted in some texts, because διακονία seemed an unfit term to apply to a bishop'. The Greek <i>diakonia</i>, 'service', is also the root of 'deacon'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "1:1",
+  "a": "which serves the whole community",
+  "t": "'The community' or 'the common man'?",
+  "p": "G has a masculine article, 'the common (man)'.",
+  "readings": [
+   {
+    "w": "Lake's text: the long recension (g) and the Latin (L) (Lightfoot's apparatus)",
+    "orig": "τὴν εἰς τὸ κοινὸν ἀνήκουσαν",
+    "en": "which pertains to the community",
+    "plain": "which serves the whole community"
+   },
+   {
+    "w": "G, and the Armenian (A), which translates 'quae decet communem hominem' (Lightfoot's apparatus)",
+    "orig": "τὴν εἰς τὸν κοινὸν ἀνήκουσαν",
+    "en": "which pertains to the common man",
+    "plain": "which befits an ordinary man"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, who here departs from G. With G's reading the line would say the office suits any ordinary man; Lake's reading says it serves the whole church. Lightfoot compares 'the things that pertain to the church' in Ignatius to the Smyrnaeans 8.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "2:1",
+  "a": "children of the light of truth",
+  "t": "'Light of truth', 'light and truth', or 'truth'?",
+  "p": "The Armenian, and one manuscript of the Latin, read 'light and truth'; Lightfoot thinks 'light' an early gloss.",
+  "readings": [
+   {
+    "w": "Lake's text: G, the Latin (L), the long recension (g) and the Damascene florilegium (Lightfoot's apparatus)",
+    "orig": "Τέκνα οὖν φωτὸς ἀληθείας",
+    "en": "children of the light of truth",
+    "plain": "children of the light of truth"
+   },
+   {
+    "w": "The Armenian (A), Lake's footnote; one manuscript of the Latin also inserts 'and' (Lightfoot's apparatus: 'a v. 1. inserts et')",
+    "orig": "φωτὸς καὶ ἀληθείας",
+    "en": "children of light and truth",
+    "plain": "children of light and truth"
+   },
+   {
+    "w": "Lightfoot's suggestion (Lake's footnote), 'light' being a gloss; no manuscript reads it",
+    "orig": "Τέκνα οὖν ἀληθείας",
+    "en": "children of truth",
+    "plain": "children of truth"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: the Greek 'cannot stand; for definite articles would almost certainly be required'; the Armenian 'and' is 'a very obvious expedient for a translator'; he thinks <i>tekna alētheias</i> original and 'light' added from the phrase 'children of light' (Ephesians 5:8). Lake prints the Greek manuscripts' reading.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ],
+  "b": "Lightfoot's apparatus reads 'φωτὸς ἀληθείας] GL* (but a v. 1. inserts et) g Dam-Rup; lucis et veritatis A': the witnesses before the semicolon support the printed words, and only the Armenian, with one Latin manuscript, has 'and'."
+ },
+ {
+  "v": "3:1",
+  "a": "filtering",
+  "t": "'Filtering': the noun and the manuscript",
+  "p": "Lake prints the noun; the Greek manuscript G has a participle, the Armenian 'clamor'.",
+  "readings": [
+   {
+    "w": "Lake's text, with the Latin 'abstractionem' (Lightfoot's apparatus)",
+    "orig": "ἀλλ᾽ ἀποδιϋλισμόν",
+    "en": "but a filtering",
+    "plain": "filtering"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ἀλλ᾽ ἀποδιϋλισμένον",
+    "en": "but (something) filtered",
+    "plain": "something filtered"
+   },
+   {
+    "w": "The Armenian (A), Lightfoot's apparatus",
+    "orig": "(clamor)",
+    "en": "but an outcry",
+    "plain": "an outcry"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, who prints the noun that the Latin 'abstractionem' supports; Lake gives no footnote here, and Lightfoot's apparatus lists the readings without choosing on grammar. Lightfoot explains the Armenian (after Zahn): the same Syriac root means both 'strain' and 'make a clear sound', so the Syriac from which the Armenian was made was read the wrong way.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "a maker of splits",
+  "t": "'A maker of splits' with or without an object",
+  "p": "The long recension and the Syriac and Armenian add what is split: the truth, or the church.",
+  "readings": [
+   {
+    "w": "Lake's text: G, the Latin (L) and the Damascene florilegium (Lightfoot's apparatus)",
+    "orig": "σχίζοντι",
+    "en": "one who splits",
+    "plain": "a maker of splits"
+   },
+   {
+    "w": "The long recension (g) (Lightfoot's apparatus)",
+    "orig": "σχίζοντι ἀπὸ τῆς ἀληθείας",
+    "en": "one who splits off from the truth",
+    "plain": "one who splits from the truth"
+   },
+   {
+    "w": "An anonymous Syriac writer ('ecclesiam'), the Syriac fragments S ('ecclesiam dei') and the Armenian (A, 'separatoris ecclesiae') (Lightfoot's apparatus)",
+    "orig": "(add 'the church' or 'the church of God')",
+    "en": "one who splits the church",
+    "plain": "one who splits the church"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The added words say what Ignatius leaves to be understood; Lightfoot's note takes the bare participle as 'making a rent, causing a schism'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "3:3",
+  "a": "the suffering",
+  "t": "'The suffering' or 'the suffering of Christ'?",
+  "p": "The Syriac and Armenian add 'of Christ'.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L) (Lightfoot's apparatus)",
+    "orig": "τῷ πάθει",
+    "en": "with the suffering",
+    "plain": "the suffering"
+   },
+   {
+    "w": "The Syriac fragments (S) and the Armenian (A), 'add. christi' (Lightfoot's apparatus)",
+    "orig": "(τῷ πάθει, add 'of Christ')",
+    "en": "with the suffering of Christ",
+    "plain": "the suffering of Christ"
+   },
+   {
+    "w": "The long recension (g), a paraphrase (Lightfoot's apparatus)",
+    "orig": "οὗτος οὐκ ἔστιν χριστοῦ οὔτε τοῦ πάθους αὐτοῦ κοινωνός",
+    "en": "this man is no sharer of Christ or of his suffering",
+    "plain": "he has no share in Christ or his suffering"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is the same: 'the suffering' is Christ's, as the note on the verse says.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "4:1",
+  "a": "as there is one overseer",
+  "t": "'As' or 'and'?",
+  "p": "The Latin and the long recension join the overseer with 'and'.",
+  "readings": [
+   {
+    "w": "Lake's text: G (Lightfoot's apparatus)",
+    "orig": "ὡς εἷς ἐπίσκοπος",
+    "en": "as (there is) one overseer",
+    "plain": "as there is one overseer"
+   },
+   {
+    "w": "The Latin (L) 'et', and the long recension (g) (Lightfoot's apparatus)",
+    "orig": "καὶ εἷς ἐπίσκοπος",
+    "en": "and one overseer",
+    "plain": "and one overseer"
+   },
+   {
+    "w": "The Armenian (A), 'sicut et' (Lightfoot's apparatus)",
+    "orig": "ὡς καὶ εἷς ἐπίσκοπος",
+    "en": "as also one overseer",
+    "plain": "as there is also one overseer"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. With 'as', the one altar is compared to the one overseer; with 'and', the overseer is one more item in the list. Lightfoot asks, 'Should we read ὡς καὶ with A?', and suggests the Latin 'et' may stand for a misread Greek <i>te</i>.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "not yet complete",
+  "t": "'Incomplete' or 'snatched away'?",
+  "p": "The Greek manuscript G reads a different word, 'snatched away'.",
+  "readings": [
+   {
+    "w": "Lake's text: the long recension (g), the Latin (L), the Armenian (A) (Lightfoot's apparatus)",
+    "orig": "ὡς ἔτι ὢν ἀναπάρτιστος",
+    "en": "as being still incomplete",
+    "plain": "not yet complete"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ὡς ἔτι ὢν ἀνάρπαστος",
+    "en": "as being still snatched away",
+    "plain": "still being carried off"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: 'It is vain in the face of the authorities, the requirements of the context, and the parallel passage, to attempt with Voss to defend ἀνάρπαστος here'; the next clause, 'your prayer will make me complete', needs 'incomplete'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "5:1",
+  "a": "make me complete for God",
+  "t": "'For God' or not?",
+  "p": "The Latin, and perhaps the Armenian, leave out 'for God'.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the long recension (g)",
+    "orig": "ἡ προσευχὴ ὑμῶν εἰς θεόν με ἀπαρτίσει",
+    "en": "your prayer to God will make me complete",
+    "plain": "make me complete for God"
+   },
+   {
+    "w": "The Latin (L), and probably the Armenian (A) (Lake's footnote)",
+    "orig": "ἡ προσευχὴ ὑμῶν με ἀπαρτίσει",
+    "en": "your prayer will make me complete",
+    "plain": "make me complete"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake; Lightfoot prints the words in brackets. The Greek <i>eis theon</i> can go with 'prayer' ('your prayer to God') or with 'complete' ('complete for God'); the Plain English Translation takes it with 'complete', as Lake's English does ('make me perfect for God').",
+  "b": "Lake's footnote reads 'εἰς θεόν Gg, om. L(A)'; the digital text of the footnote is garbled at that point, and the printed page (both scans) reads as given here.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "5:2",
+  "a": "We love",
+  "t": "'We love', 'let us love' or 'I love'?",
+  "p": "The Latin takes the verb as a command; the long recension and the Armenian have 'I love'.",
+  "readings": [
+   {
+    "w": "Lake's text: G (Lightfoot's apparatus); Lightfoot reads it as a statement",
+    "orig": "καὶ τοὺς προφήτας δὲ ἀγαπῶμεν",
+    "en": "and we love the prophets too",
+    "plain": "We love"
+   },
+   {
+    "w": "The Latin (L) 'diligamus', the same Greek taken as a command; Lake's footnote: 'An alternative translation is \"let us love.\"'",
+    "orig": "(diligamus)",
+    "en": "and let us love the prophets too",
+    "plain": "Let us love"
+   },
+   {
+    "w": "The long recension (g) and the Armenian (A) 'diligo' (Lightfoot's apparatus)",
+    "orig": "καὶ τοὺς προφήτας δὲ ἀγαπῶ",
+    "en": "and I love the prophets too",
+    "plain": "I love"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's text and Lightfoot's reading of it: 'Not an imperative, \"let us love,\" as the Latin Version \"diligamus,\" but an indicative, \"we love.\"' Lightfoot also asks whether the Greek should be divided <i>agapō men</i>, 'I love ...', answered by 'But if anyone' in 6:1; 'I love' in the long recension and the Armenian may come from that division.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "6:1",
+  "a": "interprets Judaism to you",
+  "t": "'To you' or 'to us'?",
+  "p": "The Greek manuscript G reads 'to us'.",
+  "readings": [
+   {
+    "w": "Lake's text: the Latin (L) and the Armenian (A) (Lightfoot's apparatus)",
+    "orig": "ἰουδαϊσμὸν ἑρμηνεύῃ ὑμῖν",
+    "en": "interprets Judaism to you",
+    "plain": "interprets Judaism to you"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ἰουδαϊσμὸν ἑρμηνεύῃ ἡμῖν",
+    "en": "interprets Judaism to us",
+    "plain": "interprets Judaism to us"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. 'Do not listen to him', which follows, is addressed to 'you'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "6:2",
+  "a": "grow weak in love",
+  "t": "'You grow weak' or 'it grows weak'?",
+  "p": "G has a third-person form of the verb.",
+  "readings": [
+   {
+    "w": "Lake's text: the long recension (g); the Latin and Armenian translate 'infirmemini', 'you grow weak' (Lightfoot's apparatus)",
+    "orig": "ἐξασθενήσετε ἐν τῇ ἀγάπῃ",
+    "en": "you grow weak in love",
+    "plain": "grow weak in love"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ἐξασθενήσεται ἐν τῇ ἀγάπῃ",
+    "en": "(he or it) will grow weak in love",
+    "plain": "it may grow weak in love"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, who prints the second person with the long recension, as the Latin and Armenian also have it; the verse speaks to 'you' throughout.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "6:3",
+  "a": "come to have it",
+  "t": "'Have' or 'make'?",
+  "p": "G has a verb that differs by one letter: 'found' or 'create'.",
+  "readings": [
+   {
+    "w": "Lake's text: the long recension (g); the Latin (L) 'possideant' (Lightfoot's apparatus)",
+    "orig": "ἵνα μὴ εἰς μαρτύριον αὐτὸ κτήσωνται",
+    "en": "that they may not get it as a testimony",
+    "plain": "come to have it"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ἵνα μὴ εἰς μαρτύριον αὐτὸ κτίσωνται",
+    "en": "that they may not make it a testimony",
+    "plain": "make it"
+   },
+   {
+    "w": "The Armenian (A), 'fiat' (Lightfoot's apparatus)",
+    "orig": "(fiat)",
+    "en": "that it may not become a testimony",
+    "plain": "that it may not become"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, who here departs from G with the long recension and the Latin.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "7:1",
+  "a": "the voice of God",
+  "t": "'God's voice' missing in G",
+  "p": "The Greek manuscript G leaves out 'God's voice'.",
+  "readings": [
+   {
+    "w": "Lake's text: the Latin (L), the Syriac fragments (S) and the Armenian (A) (Lightfoot's apparatus)",
+    "orig": "ἐλάλουν μεγάλῃ φωνῇ, θεοῦ φωνῇ",
+    "en": "I spoke with a great voice, God's voice",
+    "plain": "the voice of God"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "ἐλάλουν μεγάλῃ φωνῇ",
+    "en": "I spoke with a great voice (no 'God's voice')",
+    "plain": "(left out)"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: 'The words are omitted in the Greek MS by homoeoteleuton', that is, the copyist's eye jumped from the first <i>phōnē</i> to the second. The long recension paraphrases them ('the word is not mine') and so supports them.",
+  "b": "With G's reading the sentence ends 'I spoke in a loud voice: \"Pay attention ...\"'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "7:2",
+  "a": "Some suspected",
+  "t": "'Those who suspected me': the broken sentence in the witnesses",
+  "p": "G has a corrupt verb; the long recension rewrites the sentence.",
+  "readings": [
+   {
+    "w": "Lake's text, which Lightfoot thinks 'the original of all these' (Lightfoot's apparatus)",
+    "orig": "οἱ δὲ ὑποπτεύσαντές με",
+    "en": "but those who suspected me",
+    "plain": "Some suspected"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "οἱ δὲ πτέσαντές με",
+    "en": "(no clear sense)",
+    "plain": "(no clear English sentence)"
+   },
+   {
+    "w": "The long recension (g) (Lightfoot's apparatus)",
+    "orig": "εἰ δὲ ὑποπτεύετέ με ὡς προμαθόντα",
+    "en": "but if you suspect me as having learned beforehand",
+    "plain": "If you suspect"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: 'G has preserved this with the corruption of πτέσαντες for ὑποπτεύσαντες; L has translated it literally ...; S (followed by A) has set the syntax straight; and g (as it now stands) has paraphrased the sentence, mending the grammar'. See the note on the unfinished sentence.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "to do nothing to push yourselves forward",
+  "t": "'To do' or 'do'?",
+  "p": "The long recension and the Armenian have a command, 'do nothing'.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L)",
+    "orig": "παρακαλῶ δὲ ὑμᾶς μηδὲν κατ᾽ ἐριθείαν πράσσειν",
+    "en": "I urge you to do nothing in a factious spirit",
+    "plain": "to do nothing to push yourselves forward"
+   },
+   {
+    "w": "The long recension (g) and the Armenian (A), Lightfoot's apparatus",
+    "orig": "παρακαλῶ δὲ ὑμᾶς· μηδὲν κατ᾽ ἐριθείαν πράσσετε",
+    "en": "I urge you: do nothing in a factious spirit",
+    "plain": "I urge you: do nothing to push yourselves forward"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. The meaning is the same either way.",
+  "b": "Lake's footnote prints 'πράσσειν GL, πράσσετε GA' in both scans, giving G both readings; Lightfoot's apparatus has 'πράσσετε g; facite A; πράσσειν GL', so the second 'G' of Lake's footnote is probably the long recension, g.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "find it in the archives",
+  "t": "'The archives' or 'the ancient writings'?",
+  "p": "The Greek manuscript G, with the Latin and Armenian, reads 'the ancient (writings)' the first time.",
+  "readings": [
+   {
+    "w": "Lake's text, with the long recension (g); Lightfoot",
+    "orig": "ἐὰν μὴ ἐν τοῖς ἀρχείοις εὕρω",
+    "en": "unless I find it in the archives",
+    "plain": "find it in the archives"
+   },
+   {
+    "w": "G, the Greek manuscript; the Latin (L) 'veteribus'; the Armenian (A) 'in the ancient (former) scriptures' (Lightfoot's apparatus)",
+    "orig": "ἐὰν μὴ ἐν τοῖς ἀρχαίοις εὕρω",
+    "en": "unless I find it in the ancient (writings)",
+    "plain": "find it in the ancient writings"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: the same word must stand all three times, and 'ἀρχεῖα alone is read in the second and third places'; 'the inviolable archives' makes sense where 'the inviolable ancient things' does not; and scribes changed the rarer word into the commoner one more often than the reverse. Credner, Hefele, Dressel and Hilgenfeld read 'the ancient' each time (Lightfoot).",
+  "b": "The two Greek words differ by one vowel sound. Either way, Lake and Lightfoot take the objectors to be appealing to the Old Testament.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "I do not believe it in the gospel",
+  "t": "'In the gospel' or 'the gospel'?",
+  "p": "The long recension and the Armenian read 'I do not believe the gospel'.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L)",
+    "orig": "ἐν τῷ εὐαγγελίῳ οὐ πιστεύω",
+    "en": "in the gospel I do not believe",
+    "plain": "I do not believe it in the gospel"
+   },
+   {
+    "w": "The long recension (g), 'τὸ εὐαγγέλιον or τοῦ εὐαγγελίου' (its manuscripts differ), and apparently the Armenian (A) (Lightfoot's apparatus)",
+    "orig": "τὸ εὐαγγέλιον οὐ πιστεύω",
+    "en": "I do not believe the gospel",
+    "plain": "I do not believe the gospel"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake's Greek. The long recension's reading removes the ambiguity of punctuation discussed in the note on 'I heard some people say', and shows that its maker took the line the common way, 'I do not believe the gospel'.",
+  "s": [
+   "lightfoot-ignatius-1889",
+   "lake-apostolic-fathers"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "That is the question",
+  "t": "'That is the question', 'it is preferred', or 'it is superfluous'?",
+  "p": "Some manuscripts of the long recension, and the Armenian, have other words.",
+  "readings": [
+   {
+    "w": "Lake's text: G, the Latin (L) and the long recension (g) (Lightfoot's apparatus)",
+    "orig": "πρόκειται",
+    "en": "it lies before us",
+    "plain": "That is the question"
+   },
+   {
+    "w": "A manuscript of the long recension (Lightfoot's apparatus: 'v. 1.')",
+    "orig": "προκρίνεται",
+    "en": "it is preferred",
+    "plain": "It is preferred"
+   },
+   {
+    "w": "The Armenian (A), 'superfluum est' (Lightfoot's apparatus)",
+    "orig": "(superfluum est)",
+    "en": "it is superfluous",
+    "plain": "It is beside the point"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot's note defends the meaning 'This is the question before us, this remains to be proved' (see the note on the words).",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "8:2",
+  "a": "no one can tamper with",
+  "t": "The spelling of 'untouchable'",
+  "p": "G spells the word with a different vowel; the Latin has 'which cannot be approached'.",
+  "readings": [
+   {
+    "w": "Lake's text (Lightfoot prints the same)",
+    "orig": "τὰ ἄθικτα ἀρχεῖα",
+    "en": "the untouchable archives",
+    "plain": "no one can tamper with"
+   },
+   {
+    "w": "G, the Greek manuscript (Lightfoot's apparatus)",
+    "orig": "τὰ ἄθηκτα ἀρχεῖα",
+    "en": "(G's spelling)",
+    "plain": "no one can tamper with"
+   },
+   {
+    "w": "The Latin (L), 'inapproximabilia' (Lightfoot's apparatus)",
+    "orig": "(inapproximabilia)",
+    "en": "which cannot be approached",
+    "plain": "no one can come near"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot notes that <i>athiktos</i> was used 'of sacrosanct places' (see the note on 'to me Jesus Christ is the archives').",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "9:2",
+  "a": "his suffering and the resurrection",
+  "t": "'And the resurrection' or 'the resurrection'?",
+  "p": "Lightfoot drops the 'and' in G as an addition.",
+  "readings": [
+   {
+    "w": "Lake's text: G",
+    "orig": "τὸ πάθος αὐτοῦ, καὶ τὴν ἀνάστασιν",
+    "en": "his suffering, and the resurrection",
+    "plain": "his suffering and the resurrection"
+   },
+   {
+    "w": "Lightfoot's text, without 'and'",
+    "orig": "τὸ πάθος αὐτοῦ, τὴν ἀνάστασιν",
+    "en": "his suffering, the resurrection",
+    "plain": "his suffering, the resurrection"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot: 'The καὶ before τὴν ἀνάστασιν in the Greek MS of Ignatius is almost certainly an interpolation. It produces an almost impossible Greek sentence, and demands another καὶ before τὸ πάθος'. The meaning is the same either way; English needs the 'and'.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "10:1",
+  "a": "a deacon",
+  "t": "'A deacon' or 'an overseer'?",
+  "p": "The long recension has the Philadelphians send an overseer.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L); the Syriac fragments 'some minister' (Lightfoot's apparatus)",
+    "orig": "χειροτονῆσαι διάκονον",
+    "en": "to elect a deacon",
+    "plain": "a deacon"
+   },
+   {
+    "w": "The long recension (g), Lightfoot's apparatus",
+    "orig": "χειροτονῆσαι ἐπίσκοπον",
+    "en": "to elect an overseer",
+    "plain": "an overseer"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake, the Greek manuscript and the Latin. The long recension seems to have raised the envoy's rank; 10:2 says some churches sent overseers and others elders and deacons, and Ignatius asks Philadelphia only for a deacon.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "10:2",
+  "a": "the nearest churches",
+  "t": "'The nearest churches', 'some nearby churches', or 'the holy churches'?",
+  "p": "The versions differ on which churches had sent envoys.",
+  "readings": [
+   {
+    "w": "Lake's text: G (Lightfoot's apparatus)",
+    "orig": "ὡς καὶ αἱ ἔγγιστα ἐκκλησίαι",
+    "en": "as also the nearest churches",
+    "plain": "the nearest churches"
+   },
+   {
+    "w": "The Latin (L), 'et quaedam propinquae ecclesiae' (Lightfoot's apparatus)",
+    "orig": "(et quaedam propinquae ecclesiae)",
+    "en": "and some nearby churches",
+    "plain": "some nearby churches"
+   },
+   {
+    "w": "The long recension (g) (Lightfoot's apparatus)",
+    "orig": "καὶ ἀεὶ αἱ ἔγγιστα ἐκκλησίαι",
+    "en": "as the nearest churches always",
+    "plain": "the nearest churches have always"
+   },
+   {
+    "w": "The Syriac fragments (S) 'sanctae ecclesiae illae quae' and the Armenian (A) 'sanctae ecclesiae quae' (Lightfoot's apparatus)",
+    "orig": "(sanctae ecclesiae quae)",
+    "en": "the holy churches which",
+    "plain": "the holy churches"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lightfoot reports Petermann's view that the Syriac and Armenian 'holy' comes from a confusion of two Syriac words, and thinks it 'quite as likely' a corruption of another word, with 'nearest' left out.",
+  "s": [
+   "lightfoot-ignatius-1889"
+  ]
+ },
+ {
+  "v": "11:1",
+  "a": "Rheus Agathopus",
+  "t": "'Rheus', 'Rhaius', or 'Gaius'?",
+  "p": "Lightfoot emends the name to Rhaius; the long recension has Gaius.",
+  "readings": [
+   {
+    "w": "Lake's text: G and the Latin (L)",
+    "orig": "ἅμα Ῥέῳ Ἀγαθόποδι",
+    "en": "with Rheus Agathopus",
+    "plain": "Rheus Agathopus"
+   },
+   {
+    "w": "Lightfoot's emendation (Lake's footnote)",
+    "orig": "ἅμα Ῥαίῳ Ἀγαθόποδι",
+    "en": "with Rhaius Agathopus",
+    "plain": "Rhaius Agathopus"
+   },
+   {
+    "w": "The long recension (g), as two men (Lake's footnote; Lightfoot's apparatus)",
+    "orig": "ἅμα Γαΐῳ καὶ Ἀγαθόποδι",
+    "en": "with Gaius and Agathopus",
+    "plain": "Gaius and Agathopus"
+   },
+   {
+    "w": "The Armenian (A), Lightfoot's apparatus: 'reo fratre et agathopode'",
+    "orig": "(Rheus and Agathopus)",
+    "en": "with Rheus, a brother, and Agathopus",
+    "plain": "Rheus, a brother, and Agathopus"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation follows Lake. Lake's footnote: 'Lightfoot emends to Ῥαίῳ on the grounds that this form is justified by inscriptions, while Ῥέῳ is unknown, and g which has Γαίῳ implies this reading.' The same man is named in Ignatius to the Smyrnaeans 10:1, with a variant there.",
+  "b": "The digital text of Lake's footnote prints Lightfoot's form as Ῥέῳ; both scans of the printed page have Ῥαίῳ.",
+  "s": [
+   "lake-apostolic-fathers",
+   "lightfoot-ignatius-1889"
+  ]
+ }
+]

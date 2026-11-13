@@ -23,13 +23,18 @@
   },
   {
    "h": "Early Christian writings at the edge of the canon",
-   "b": "1 Clement follows the New Testament in Codex Alexandrinus, and the Epistle of Barnabas follows Revelation in Codex Sinaiticus. Corinth still read 1 Clement in church about AD 170 (Eusebius, <i>Church History</i> 4.23.11). The list in the <i>Apostolic Canons</i> names two letters of Clement among the books \"of the New Testament,\" after Jude and before Acts (canon 85), a list Westcott judged \"of no value\" as evidence and probably of the sixth century, and Reid (1908) wrote that \"the Coptic-Arabic Church include with the canonical Scriptures the Apostolic Constitutions and the Clementine Epistles.\" But Eusebius put Barnabas among the rejected writings (<i>Church History</i> 3.25.4) and did not list 1 Clement at all, Athanasius left both out (<i>Festal Letter</i> 39), and the <i>Stichometry</i> of Nicephorus counts Barnabas among the disputed books and the two letters of Clement among the apocrypha (Westcott). See the topic The Apostolic Fathers.",
+   "b": "1 Clement follows the New Testament in Codex Alexandrinus, and the Epistle of Barnabas follows Revelation in Codex Sinaiticus. Corinth still read 1 Clement in church about AD 170 (Eusebius, <i>Church History</i> 4.23.11). The list in the <i>Apostolic Canons</i> names two letters of Clement among the books \"of the New Testament,\" after Jude and before Acts (canon 85), a list Westcott judged \"of no value\" as evidence and probably of the sixth century, and Reid (1908) wrote that \"the Coptic-Arabic Church include with the canonical Scriptures the Apostolic Constitutions and the Clementine Epistles.\" But Eusebius put Barnabas among the spurious books (<i>Church History</i> 3.25.4) and did not list 1 Clement at all, Athanasius left both out (<i>Festal Letter</i> 39), and the <i>Stichometry</i> of Nicephorus counts Barnabas among the disputed books and the two letters of Clement among the apocrypha (Westcott). See the topic The Apostolic Fathers.",
    "refs": "1 Clement 1:0; Barnabas 1:1"
   },
   {
+   "h": "The Shepherd of Hermas: read, but not in the canon",
+   "b": "<p>Irenaeus quoted words found in its first commandment with \"well did the Scripture say,\" and Eusebius took this to mean that he received the book (<i>Church History</i> 5.8.7), though Irenaeus names neither Hermas nor the book (Westcott); Origen called it \"divinely inspired\" (<i>Commentary on Romans</i> 10.31, in Rufinus's Latin, in Westcott); Codex Sinaiticus copies it after Barnabas at the end of the New Testament (Chapman). But the Muratorian Fragment says it may be read, not read out in church, because it was written \"in our own times\"; Tertullian rejected it for its teaching on repentance (<i>On Modesty</i> 10; 20); Eusebius put it among the spurious books (3.25.4); Athanasius named it among the books outside the canon for new believers (<i>Festal Letter</i> 39); and Jerome listed it with books that \"are not in the Canon.\" See the Shepherd of Hermas page.</p>",
+   "refs": "Shepherd of Hermas 26:1; Shepherd of Hermas 31:6; Romans 16:14"
+  },
+  {
    "h": "Ignatius: letters never put forward as Scripture",
-   "b": "<p>Unlike the Shepherd and the Epistle of Barnabas, which Eusebius lists among the rejected writings (<i>Church History</i> 3.25.4), Ignatius's letters are not in his lists at all: he presents them among the works of those who 'transmitted the apostolic doctrine to us in writings' (3.37.4-3.38.1), that is, as the letters of a church leader. Ignatius himself disclaims an apostle's authority: 'I do not command you as though I were someone' (Ignatius to the Ephesians 3:1). He calls himself 'the last' of his church, counted worthy only 'from the grace of God' (Ignatius to the Smyrnaeans 11:1), and sets himself below Peter and Paul: 'They were apostles; I am a condemned man' (Ignatius to the Romans 4:3). Polycarp collected and sent the letters to Philippi (Polycarp to the Philippians 13:2).</p>",
-   "refs": "Ignatius to the Ephesians 3:1; Ignatius to the Romans 4:3; Ignatius to the Smyrnaeans 11:1; Polycarp to the Philippians 13:2"
+   "b": "<p>Unlike the Shepherd and the Epistle of Barnabas, which Eusebius lists among the spurious books (<i>Church History</i> 3.25.4), Ignatius's letters are not in his lists at all: he presents them among the works of those who 'transmitted the apostolic doctrine to us in writings' (3.37.4-3.38.1), that is, as the letters of a church leader. Ignatius himself disclaims an apostle's authority: 'I do not command you as though I were someone' (Ignatius to the Ephesians 3:1). He calls himself 'the last' of his church, counted worthy only 'from the grace of God' (Ignatius to the Smyrnaeans 11:1), and sets himself below Peter and Paul: 'They were apostles; I am a condemned man' (Ignatius to the Romans 4:3). Polycarp sent copies of the letters to Philippi as writings from which 'you will be able to gain a great deal' (Polycarp to the Philippians 13:2). The <i>Catechism of the Catholic Church</i> quotes To the Magnesians and To the Trallians on the bishop (Catechism 1549; 1554) and To the Magnesians 9:1 on Sunday (Catechism 2175).</p>",
+   "refs": "Ignatius to the Ephesians 3:1; Ignatius to the Romans 4:3; Ignatius to the Smyrnaeans 11:1; Polycarp to the Philippians 13:2; Ignatius to the Magnesians 9:1; Ignatius to the Trallians 3:1; Ignatius to Polycarp 1:0"
   },
   {
    "h": "A writing no early list names: the Epistle to Diognetus",
@@ -59,7 +64,15 @@
   "reid-canon-nt-ce",
   "lake-apostolic-fathers",
   "lake-apostolic-fathers-2",
-  "ccc"
+  "ccc",
+  "eusebius-greek-lake-hermas",
+  "westcott-canon-hermas",
+  "chapman-hermas-ce",
+  "muratorian-latin-ecw",
+  "tertullian-modesty-10",
+  "prat-origen-ce",
+  "ccc-1549-1555",
+  "ccc-2175-magnesians"
  ],
  "related": [
   "books-outside-the-bible",

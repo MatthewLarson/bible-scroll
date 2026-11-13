@@ -1,0 +1,84 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek (those checked against Lake’s printed page are corrected, with the evidence in \"fixed\"). From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "3:1",
+"note": "Lightfoot reads froni/mf as to one prudent in God sith Ag.: it certainly gives a better senso, but for that reason may be a correction."
+},
+{
+"at": "3:2",
+"note": "h(ma=s GL, u(ma=s Ag."
+},
+{
+"at": "6:1",
+"note": "to/pon GLg, tu/pon S*l, and so also in the next line. Cf. Trall. iii. Lightfoot prefers tu/pon, but it seems to be more probably a softening of the rather startling to/pon by the Syriac translater."
+},
+{
+"at": "8:2",
+"note": "So A and a #3uotation in Severus. GL read lo/gos a)i/dios ou)k a)po\\ sigh=s proelqw/n, but this is rightly regarded by recent editors as a doctrinal emencdation due to fear of Gnostie theories in shich *sigh/ and *qeo/s sere the original pair from shich *lo/gos emainted, of. Clem, Alex. Ed. Theot. fi. 9."
+},
+{
+"at": "9:1",
+"note": "o(/ tines L, oi(/ tines G, g paraphrases but has o(/n not d. A is ambiguous. There is thus a slight balance in favour of o(/n tines."
+},
+{
+"at": "10:3",
+"note": "w(=| S, w(s GL, ei)s o)/n g (A)."
+},
+{
+"at": "13:2",
+"note": "patri/ A(g), add kata\\ sa/rka according to the flesh GL."
+},
+{
+"at": "13:2",
+"note": "patri/ A, add kai\\ tw=| pne/umati, and the spirit GL."
+},
+{
+"at": "14:1",
+"note": "pareke/leusa G, pareka/lesa g shich Lightfoot adopts on the ground that it is a common Ignatian sord, shile parakeleu/ein is not found elseshere in the Epistles."
+},
+{
+"at": "14:1",
+"note": "Lightfoot reads e)ktenei/as of your fervent supplication on the authority of A."
+}
+],
+"refs": [
+{
+"at": "5:1",
+"ref": "Acts. 1, 25",
+"urn": "cts:urn:greekLit:tlg0031.tlg005:1.25"
+},
+{
+"at": "7:1",
+"ref": "Joh. 5, 19. so; 8, 28",
+"urn": "cts:urn:greekLit:tlg0031.tlg004:5.19 cts:urn:greekLit:tlg0031.tlg004:8.28"
+},
+{
+"at": "9:2",
+"ref": "Mt. 27, 52",
+"urn": "cts:urn:greekLit:tlg0031.tlg001:27.52"
+},
+{
+"at": "10:2",
+"ref": "I Cor. 5, 7",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:6.7",
+"fixed": "6, 7 → 5, 7 (a misread 5 (the leaven of 1 Corinthians 5:7); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “I Cor. 5, 7”)"
+},
+{
+"at": "10:3",
+"ref": "Is. 66, 18",
+"urn": "cts:urn:greekLit:tlg0527.tlg048:66.13",
+"fixed": "66, 13 → 66, 18 (a misread 8 (“every tongue”, Isaiah 66:18); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “Is. 66, 18”)"
+},
+{
+"at": "12:1",
+"ref": "Prov. 18, 17",
+"urn": "cts:urn:greekLit:tlg0527.tlg029:18.17"
+},
+{
+"at": "13:1",
+"ref": "Ps. 1, 3",
+"urn": "cts:urn:greekLit:tlg0031.tlg027:1.3"
+}
+]
+}

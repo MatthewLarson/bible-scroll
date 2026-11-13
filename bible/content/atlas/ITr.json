@@ -1,0 +1,110 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "asia",
+    "smyrna"
+   ],
+   "people": [],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [
+    "david",
+    "mary",
+    "pontius"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "11": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "12": {
+   "places": [
+    "smyrna"
+   ],
+   "people": [],
+   "events": []
+  },
+  "13": {
+   "places": [
+    "syria",
+    "smyrna"
+   ],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "smyrna": {
+   "name": "Smyrna",
+   "lat": 38.45196038,
+   "lon": 27.16192105
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  }
+ },
+ "people": {
+  "david": {
+   "name": "David"
+  },
+  "mary": {
+   "name": "Mary"
+  },
+  "pontius": {
+   "name": "Pontius"
+  }
+ },
+ "events": {}
+}

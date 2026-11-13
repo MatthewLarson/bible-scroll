@@ -1,0 +1,7 @@
+Status: reviewed, published
+
+Outside the 66 (tier early). Base text Lake (Loeb vol. 1, 1912), short (middle) recension: G, g, L, A, S (with Cureton's Syriac abridgment). Flat folder, 1:0 + 21 verses; written after Ignatius to the Philadelphians by the Troas writer, who owns both book.json files. Lenses H N C. Possible card at 5 (marriage with the overseer's consent), only if every row is sourced. Briefs tools/brief-ipo.md and tools/brief-apfathers3.md.
+- 2026-11-13: planned. Text imported (10 slips of the digital Lake corrected, Lake's brackets at 8:1 restored; 2:3 restored by a split in tools/works-texts.py; 2 margin references).
+- 2026-11-13: written (Troas writer, after IPh). 22 lines (1:0 + 21), 46 notes, 8 variants (from Lightfoot's apparatus and Lake's footnotes: 5:2 twice, 6:2, 7:1 three times, 7:2, 8:3), 23 glosses, 8 chapter pages, 11 topic contributions (main: polycarp). No departure from Lake. No card at 5:2 (church documents on marriage consent not opened): views notes instead. Drift audit changed 11 of 22 lines. VERBOSE --check 0/0.
+- 2026-11-13: review fixes applied (17 findings: 12 accepted, 5 partly). 2:1 changed. 16 variants (8 added from Lightfoot and Lake), 24 glosses, settings for every section; canon rows resourced on the IEp model; topic polycarp lead sentence corrected (86 years of service). VERBOSE --check 0/0.
+- 2026-11-13: aligned by the lead (terms, cross-book quotes, Lake slips re-imported, source keys merged); VERBOSE check 0/0. Status: reviewed, ready.

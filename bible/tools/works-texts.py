@@ -21,6 +21,8 @@
                              where the Greek is lost, with "gap" {c:v: why} where there is no Greek; "fixed" {c:v: what was
                              corrected}: damage in the digital Lake, checked against his printed page (tools/lake-fixes.json);
                              the Epistle to Diognetus "lacuna" {c:v: the gap after the verse, in Lake's words}
+                           The Shepherd of Hermas: Lake's chapters numbered straight through (1-114); "lat" Lake's Latin
+                             where the Greek is lost, "gap", and "mixed" {c:v: the order of the two} for a verse with both
      texts/en/<id>.json    {"about":{...}, key:{c:v: text}}: public-domain English, for checking sense only
      texts/auto/<id>.json  machine-found differences between two witnesses, for the writers to judge
      texts/src/<id>.*.json  material for the writers that is not shown verse by verse (Swete's and Lake's apparatus; the
@@ -246,11 +248,39 @@ WORKS = [
                'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
                'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
                'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('IMg', 'Ignatius to the Magnesians', 'ignatius-magnesians', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '2', 'praef_head': True,
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΜΑΓΝΗΣΙΕΥΣΙΝ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/img-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('ITr', 'Ignatius to the Trallians', 'ignatius-trallians', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '3', 'praef_head': True,
+        'split': {'11:2': ('11:1', '2, ', 'the file runs Lake’s 11:2 into 11:1, leaving his section number “2,” inside the text; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) begin section 2 at εἰ γὰρ ἦσαν')},
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΤΡΑΛΛΙΑΝΟΙΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/itr-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
     ('IRo', 'Ignatius to the Romans', 'ignatius-romans', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '4', 'praef_head': True,
         'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). The Medicean manuscript omits the letter to the Romans; its one Greek manuscript is a Paris manuscript of the 10th century (Paris Graec. 1451), first printed by Ruinart in 1689, and in this letter Lake’s G stands for it. Verse 0 is the greeting.'),
         'sigla': 'G the one Greek manuscript of this letter, the 10th-century Paris MS (Paris Graec. 1451, Lightfoot’s Colbertine; Lake’s footnotes use G for it, as Lightfoot’s sigla do); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
         'extra_about': 'The title Lake prints above the greeting ("head"), ΡΩΜΑΙΟΙΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
         'en': ('ancl', f'{DL}/apfathers/iro-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('IPh', 'Ignatius to the Philadelphians', 'ignatius-philadelphians', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '5', 'praef_head': True,
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΦΙΛΑΔΕΛΦΕΥΣΙΝ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/iph-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
                'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
                'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
                'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
@@ -261,6 +291,16 @@ WORKS = [
         'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
         'extra_about': 'The title Lake prints above the greeting ("head"), ΣΜΥΡΝΑΙΟΙΣ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
         'en': ('ancl', f'{DL}/apfathers/ism-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
+               'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
+               'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
+               'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
+               'English is shown beside its first section; its verse 0 is the greeting.')}),
+    ('IPo', 'Ignatius to Polycarp', 'ignatius-polycarp', 'apfathers', {'f1k': 'tlg1443/tlg001/tlg1443.tlg001.1st1K-grc1.xml', 'epistle': '7', 'praef_head': True,
+        'split': {'2:3': ('2:2', '3, ', 'the file runs Lake’s 2:3 into 2:2, leaving his section number “3,” inside the text; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) begin section 3 at ὁ καιρὸς ἀπαιτεῖ')},
+        'grc': ('Greek: Lake’s edition (1912)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 1 (Loeb Classical Library, 1912), public domain, digital text from First1KGreek (Open Greek and Latin, CC BY-SA 4.0): the seven letters Eusebius names, in the form Lake calls the short recension (Lightfoot’s “middle recension”), not the interpolated long recension. Lake’s witnesses for the seven letters are the Greek Codex Mediceus Laurentianus at Florence (G, the Vossian manuscript), the interpolated text of the long recension (g), Grosseteste’s Latin version (L), the Armenian (A), the Syriac (S, with Cureton’s abridgment), the Sahidic (C) and the Berlin papyrus (B, 400s AD, Smyrnaeans 3:3–12:1). Verse 0 is the greeting.'),
+        'sigla': 'G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus',
+        'extra_about': 'The title Lake prints above the greeting ("head"), ΠΡΟΣ ΠΟΛΥΚΑΡΠΟΝ ΙΓΝΑΤΙΟΣ, from First1KGreek (CC BY-SA 4.0).',
+        'en': ('ancl', f'{DL}/apfathers/ipo-anf.json', 'anf', 'Roberts and Donaldson (1867)', 'Roberts–Donaldson', 'The English '
                'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
                'Wikisource; Wikisource has no copy of Lake’s. The page prints the shorter and the longer (interpolated) forms side '
                'by side: only the shorter is given here. It numbers chapters but not sections, so each chapter’s whole '
@@ -319,6 +359,50 @@ WORKS = [
                'of Alexander Roberts and James Donaldson in the Ante-Nicene Christian Library, volume 1, public domain, from '
                'Wikisource; Wikisource has no copy of Lake’s. It numbers chapters but not sections, so each chapter’s whole '
                'English is shown beside its first section, and it does not mark the two gaps as Lake does.')}),
+    # The Shepherd of Hermas: Lake vol. 2, its 27 divisions numbered straight through as 114 chapters (see hermas()).
+    ('Hrm', 'Shepherd of Hermas', 'shepherd-of-hermas', 'hermas', {'f1k': 'tlg1419/tlg001/tlg1419.tlg001.1st1K-grc1.xml',
+        'divisions': [('Vision', n) for n in range(1, 6)] + [('Mandate', n) for n in range(1, 13)] + [('Similitude', n) for n in range(1, 11)],
+        'mixed': {   # Lake's own notes (on 107:2, 108:4, 113:5) say where these Greek lines come from
+            '107:3': ('πιστεύσαντες', 'lat-grc', 'Lake prints the Latin (L1) to “Hi autem omnes candidi inventi sunt”, then the Greek '
+                      'of the Amherst papyrus from “πιστεύσαντες”.'),
+            '107:4': ('αυδι αυτεμ', 'grc-lat', 'Lake prints the Greek of the Amherst papyrus to “εἰσίν”, then the Latin (L1) from “Audi autem”.'),
+            '108:6': ('ετ εγο συμ', 'grc-lat', 'Lake prints the Greek of Antiochus’ quotation to “διὰ τὸ ψεῦδος αὐτῶν”, then the Latin (L1) '
+                      'from “et ego sum pastor”.'),
+            '113:3': ('καὶ ὥσπερ', 'lat-grc', 'Lake prints the Latin (L1) to “libenter habitent semper”, then the Greek of Oxyrhynchus '
+                      'Papyrus 404 from “καὶ ὥσπερ”.'),
+            '113:5': ('θυονιαμ', 'grc-lat', 'Lake prints the Greek of Oxyrhynchus Papyrus 404 to “λέγει αὐταῖς” (the dots after καλέσας '
+                      'are a gap in the papyrus), then the Latin (L1) from “Quoniam video”.')},
+        'gap': 'the Greek is lost here (the Athos manuscript has lost its last leaf): Lake prints the old Latin translation (L1)',
+        'grc': ('Greek: Lake’s edition (1913)', 'Greek', 'The Greek of Kirsopp Lake’s <i>Apostolic Fathers</i>, volume 2 (Loeb Classical '
+                'Library, 1913; the digital text is from its 1917 printing), public domain, from First1KGreek (Open Greek and Latin, '
+                'CC BY-SA 4.0). Lake’s witnesses are Codex Sinaiticus (300s AD, from the beginning to Mandate 4.3.6), the Athos '
+                'manuscript (A, 1400s, the only continuous Greek text for the rest, whose last leaf is lost), a Hamburg fragment (H), '
+                'papyri (Amherst, Oxyrhynchus, Berlin), two Latin versions (L1 the Vulgate, L2 the Palatine), the Ethiopic (E), '
+                'Sahidic Coptic fragments (C), and quotations in Clement of Alexandria, pseudo-Athanasius and Antiochus of Palestine; '
+                'he judges the text “probably far from good”. Lake numbers chapters within each Vision, Mandate and Similitude; here '
+                'the 114 chapters are numbered straight through and his sections are the verses (Vision 3.8.2 is 16:2; '
+                'texts/src/Hrm.extra.json gives every chapter’s Vision, Mandate or Similitude number). A ends at 107:2 (Similitude '
+                '9.30.2); after it only a few lines of Greek survive, 107:3–4 from the Amherst papyrus, 108:5–6 from a quotation in '
+                'Antiochus, and 113:3–5 from Oxyrhynchus Papyrus 404 (see "mixed"); the rest is Lake’s Latin.'),
+        'lat': ('Latin: the old translation (L1)', 'Latin', 'The Vulgate Latin version (L1) that Lake prints where the Greek '
+                'manuscripts end, from Similitude 9.30.3 to the end (107:3–114:5), with the surviving Greek lines set into it (see '
+                '"mixed": a verse with both shows each language here and in the Greek text). The digital file had run its Latin '
+                'letters through a Greek converter; they are turned back here letter for letter, and its misreadings, checked against '
+                'Lake’s printed page, are corrected as listed in "fixed".'),
+        'sigla': 'ℵ Codex Sinaiticus; A the Athos manuscript; H the Hamburg fragment; Pam the Amherst papyrus; Pox Oxyrhynchus papyri; '
+                 'L1 the Vulgate Latin, L2 the Palatine Latin, L both; E the Ethiopic; C the Sahidic; Clem. Clement of Alexandria; '
+                 'Athan. pseudo-Athanasius; Ant. Antiochus of Palestine',
+        'extra_about': 'What Lake prints outside the numbered text, from First1KGreek (CC BY-SA 4.0): "heads", the heading above '
+                       'each Vision, Mandate and Similitude (in Greek; above Similitude 10, where the Greek is lost, in Latin), at '
+                       'the chapter where the division begins; and "divisions", each chapter’s reference in the older numbering '
+                       '(Lake’s), so that chapter 16 is Vision 3.8 and its verse 2 is Vision 3.8.2. The title Lake prints above '
+                       'Vision 1, ΠΟΙΜΗΝ, is not in the digital text.',
+        'en': ('anf-hermas', [f'{DL}/apfathers/hrm-anf-{k}.json' for k in (1, 2, 3)], 'anf', 'Crombie (Ante-Nicene Fathers)', 'Crombie',
+               'The English of Frederick Crombie in the Ante-Nicene Fathers, volume 2, public domain, from Wikisource (its three '
+               'books: Visions, Commandments, Similitudes); Wikisource has no copy of Lake’s. It numbers chapters within each '
+               'division but not sections, so each chapter’s whole English is shown beside its first section. In Mandate 10 it has '
+               'two chapters where Lake has three: its second covers Lake’s 10.2–3, so it stands at 41:1 and chapter 42 has none. '
+               'From Similitude 9.30.3 on it translates the Latin.')}),
 ]
 def dump(path, obj): json.dump(obj, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 clean = lambda s: re.sub(r'\s+', ' ', s).strip()
@@ -937,9 +1021,16 @@ def fix_af(bid, verses, lat, table):
 
 def fix_app(bid, notes):
     """Slips in Lake's apparatus (a margin reference or footnote misread in the digital file), put right from his printed
-    page: tools/lake-fixes.json "_app" {book: {"refs" or "notes": {at: [(wrong, right, the evidence)]}}}. Each fixed entry
-    keeps the evidence in "fixed"."""
+    page: tools/lake-fixes.json "_app" {book: {"refs" or "notes": {at: [(wrong, right, the evidence)]}}}; "move" {at:
+    [(the margin reference, the verse it stands beside on Lake's page, the evidence)]} for a reference the digital file
+    puts in the wrong section. Each fixed entry keeps the evidence in "fixed"."""
     app = json.load(open(os.path.join(ROOT, 'tools', 'lake-fixes.json'), encoding='utf-8')).get('_app', {}).get(bid, {})
+    for at, moves in app.get('move', {}).items():
+        for ref, to, by in moves:
+            hit = [n for n in notes['refs'] if n['at'] == at and n['ref'] == ref]
+            assert len(hit) == 1, (bid, 'move', at, ref)
+            hit[0]['at'] = to
+            hit[0]['fixed'] = '; '.join(filter(None, [hit[0].get('fixed'), f'at {at} in the digital file → {to} ({by})']))
     for kind, field in (('refs', 'ref'), ('notes', 'note')):
         for at, fixes in app.get(kind, {}).items():
             for bad, good, by in fixes:
@@ -986,9 +1077,9 @@ def en_apfathers(kind, path):
             cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
             if len(cells) == 1:   # a chapter head ("Chap. iv.—The same continued."; Smyrnaeans 13 is just "Conclusion.")
                 h = plain(cells[0])
-                m = re.match(r'Chap\. ([ivxlc]+)\.', h)
+                m = re.match(r'Chap\. ([ivxlcIVXLC]+)\.', h)   # Magnesians prints "Chap. VII."
                 if m or h == 'Conclusion.':
-                    c += 1; assert not m or m[1] == roman(c).lower(), (path, h, c)
+                    c += 1; assert not m or m[1].lower() == roman(c).lower(), (path, h, c)
                 continue
             if len(cells) != 3: continue
             s = plain(cells[0])
@@ -1116,6 +1207,91 @@ def apfathers(bid, a):
     if apart or extra:
         src['extra'] = {'_about': a['extra_about'], **({'head': extra['head']} if extra.get('head') else {}),
                         **({'text': apart} if apart else {})}
+    return o, en_o, [], vc, src
+
+def hermas(bid, a):
+    """The Shepherd of Hermas in Lake's Loeb edition (vol. 2), from its First1KGreek file, which keeps Lake's 27 divisions
+    ("book": Visions 1-5, Mandates 1-12, Parables or Similitudes 1-10), each with his chapters and sections. The site
+    numbers the 114 chapters straight through and makes Lake's sections the verses: Vision 3.8.2 is 16:2.
+    texts/src/<id>.extra.json gives each chapter's division reference ("divisions") and the heading Lake prints above each
+    division ("heads", Greek; the Latin above Parable 10). Where the Athos manuscript loses its last leaf (Parable 9.30.2)
+    Lake prints the old Latin (L1), with the few Greek lines a papyrus or Antiochus keeps: a section in one language goes to
+    "grc" or "lat"; a section with both is cut where the language changes (a["mixed"]), and "mixed" says in which order
+    Lake prints them and where the Greek is from. The English (the Ante-Nicene translation) numbers chapters within each
+    division but not sections, so each chapter's English stands at its first section."""
+    root = ET.parse(f'{DL}/First1KGreek/data/{a["f1k"]}').getroot()
+    ed = root.find(f'.//{TEI}div[@type="edition"]')
+    notes, grc, lat, heads, div, first = {'notes': [], 'refs': []}, {}, {}, {}, {}, {}
+    c = 0
+    for k, (kind, n) in zip([d for d in ed if d.tag == TEI + 'div' and d.get('subtype') == 'book'], a['divisions']):
+        first[(kind, n)] = c + 1
+        h = k.find(TEI + 'head')
+        if h is not None:
+            t = unicodedata.normalize('NFC', clean(tei_text(h, notes, f'{c + 1}:0')))
+            heads[str(c + 1)] = latin(t) if accent_share(t) < .02 else t
+        for i, ch in enumerate([d for d in k if d.tag == TEI + 'div' and d.get('subtype') == 'chapter'], 1):
+            c += 1; assert ch.get('n') == str(i), (bid, kind, n, ch.get('n'))
+            div[str(c)] = f'{kind} {n}.{i}' if len([d for d in k if d.get('subtype') == 'chapter']) > 1 else f'{kind} {n}'
+            for s in ch.iter(TEI + 'div'):
+                if s.get('subtype') != 'section': continue
+                cv = f'{c}:{s.get("n")}'; t = unicodedata.normalize('NFC', clean(tei_text(s, notes, cv)))
+                if cv in a['mixed']:   # Greek and Lake's Latin in one section: cut where the language changes
+                    mark, order, why = a['mixed'][cv]; mark = unicodedata.normalize('NFC', mark)
+                    assert t.count(mark) == 1, (bid, cv, mark); i0 = t.index(mark)
+                    one, two = clean(t[:i0]), clean(t[i0:])
+                    grc[cv], lat[cv] = (one, two) if order == 'grc-lat' else (two, one)
+                    assert accent_share(grc[cv]) > .17 and accent_share(lat[cv]) < .02, (bid, cv)
+                else:
+                    x = accent_share(t); assert x < .02 or x > .17, (bid, cv, x)   # one language only
+                    (lat if x < .02 else grc)[cv] = t
+    assert c == 114, (bid, c)
+    for cv in list(grc): grc[cv] = elision(grc[cv]).replace(':', '·')
+    for cv in list(lat): lat[cv] = latin(lat[cv])
+    fixed = fix_af(bid, grc, lat, a.get('fix', {}))
+    keys = sorted(set(grc) | set(lat), key=cvkey)
+    vc = [max(int(k.split(':')[1]) for k in keys if int(k.split(':')[0]) == ch) for ch in range(1, c + 1)]
+    assert all(f'{ch}:{v}' in keys for ch, n in enumerate(vc, 1) for v in range(1, n + 1)), (bid, 'a section is missing')
+    srt = lambda d: dict(sorted(d.items(), key=lambda x: cvkey(x[0])))
+    o = {'lang': 'grc', 'about': {'grc': about(*a['grc'], 'greek'), 'lat': about(*a['lat'])}, 'grc': srt(grc), 'lat': srt(lat),
+         'gap': {cv: a['gap'] for cv in keys if cv not in grc},
+         'mixed': {cv: why for cv, (_, _, why) in a['mixed'].items()}}
+    if fixed: o['fixed'] = fixed
+    # the English: the Ante-Nicene pages, one per book of the Pastor; a bold "Vision First." / "Commandment Fourth." /
+    # "Similitude Ninth." starts a division, a bold "Chap. II." a chapter; other bold lines are its titles and summaries
+    import html as H
+    ORD = 'First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth'.split()
+    KIND = {'Vision': 'Vision', 'Commandment': 'Mandate', 'Similitude': 'Similitude'}
+    en, at = {}, None
+    for path in a['en'][1]:
+        t = json.load(open(path, encoding='utf-8'))['parse']['text']
+        t = re.sub(r'<style.*?</style>|<sup[^>]*class="reference".*?</sup>|<span class="pagenum.*?</span></span>', '', t, flags=re.S)
+        t = t.split('id="Footnotes"')[0]
+        for p in re.findall(r'<p>(.*?)</p>', t, re.S):
+            plain = clean(H.unescape(re.sub(r'<[^>]+>', ' ', p)))
+            if not plain: continue
+            if re.fullmatch(r'\s*(?:<br\s*/?>)?\s*<b>.*?</b>\s*', p, re.S):
+                m = re.fullmatch(r'(Vision|Commandment|Similitude) (\w+)\.', plain)
+                if m: dv = (KIND[m[1]], ORD.index(m[2]) + 1); at, nch = first[dv], 1; continue
+                m = re.fullmatch(r'Chap\. ([IVXL]+)\.', plain)
+                if m:   # chapters in order, each inside its division (the English has fewer in Mandate 10: see the about)
+                    nch2 = [roman(i) for i in range(1, 40)].index(m[1]) + 1
+                    assert nch2 in (1, nch + 1), (path, plain); nch = nch2; at = first[dv] + nch - 1
+                    assert div[str(at)].split('.')[0] == f'{dv[0]} {dv[1]}', (path, plain, at)
+                continue
+            assert at, (path, plain[:60])
+            en[f'{at}:1'] = clean(en.get(f'{at}:1', '') + ' ' + plain)
+    lost = set(en) - set(keys); assert not lost, (bid, sorted(lost, key=cvkey))
+    en_o = {'about': {a['en'][2]: about(*a['en'][3:])}, a['en'][2]: srt(en)}
+    fix_app(bid, notes)
+    for k in ('notes', 'refs'): notes[k].sort(key=lambda n: cvkey(n['at']))
+    src = {'app': {'_about': 'Kirsopp Lake’s footnotes to his Greek and Latin text (' + a['sigla'] + '), and in "refs" the passages of '
+                             'Scripture he prints in the margin (with the digital file’s own reference, "urn"). The digital file has only the '
+                             'text pages, so the footnotes Lake prints under his English translation on the facing pages are not here. "at" is '
+                             'the verse the note or reference stands in ("c:0": the heading above the division that begins at chapter c). Greek '
+                             'inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν; "#3" is q), and the file has slips in the '
+                             'notes’ English ("shich" = which, "folloss" = follows)' + ('; those checked against Lake’s printed page are corrected, with the evidence in "fixed"' if any(n.get('fixed') for k in ('notes', 'refs') for n in notes[k]) else '') + '. From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.',
+                   'notes': notes['notes'], 'refs': notes['refs']},
+           'extra': {'_about': a['extra_about'], 'divisions': div, 'heads': heads}}
     return o, en_o, [], vc, src
 
 cat = json.load(open(f'{OUT}/catalog.json', encoding='utf-8'))

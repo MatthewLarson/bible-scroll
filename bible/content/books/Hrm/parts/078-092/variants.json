@@ -1,0 +1,648 @@
+[
+ {
+  "v": "78:6",
+  "a": "And some plants dried up whenever the sun had scorched them.",
+  "t": "A longer description of the fourth mountain",
+  "p": "The Athos manuscript adds a sentence describing the mountain as very rough, with dry plants.",
+  "readings": [
+   {
+    "w": "Lake's text, with the other witnesses (Lake's footnote names only A as adding)",
+    "orig": "τινὲς δὲ βοτάναι, ὅταν ὁ ἥλιος ἐπικεκαύκει, ξηραὶ ἐγίνοντο",
+    "en": "some plants, whenever the sun had scorched them, became dry",
+    "plain": "And some plants dried up whenever the sun had scorched them."
+   },
+   {
+    "w": "Athos manuscript (A, 1400s), as Lake's footnote reports: \"A adds τὸ δὲ ὄρος τραχὺ λίαν ἦν βοτάνας ἔχον ξηράς\"",
+    "orig": "τινὲς δὲ βοτάναι, ὅταν ὁ ἥλιος ἐπικεκαύκει, ξηραὶ ἐγίνοντο· τὸ δὲ ὄρος τραχὺ λίαν ἦν βοτάνας ἔχον ξηράς",
+    "en": "... became dry; and the mountain was very rough, having dry plants",
+    "plain": "And some plants dried up whenever the sun had scorched them. The mountain was very rough and had dry plants."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake leaves the added sentence out of his text. It repeats words from the fifth mountain (\"rough,\" 78:7) and the dry plants just described, so it looks like a copyist's addition. The explanation in 98:1 does not mention roughness.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "79:4",
+  "a": "neatly belted",
+  "t": "\"Were belted\": a word A lacks",
+  "p": "The Amherst papyrus has a second \"were\" (ēsan) after \"belted\"; the Athos manuscript lacks it.",
+  "readings": [
+   {
+    "w": "Amherst papyrus (Pam); Lake's text, footnote \"ἦσαν PAmh, om. A\"",
+    "orig": "περιεζωσμέναι ἦσαν",
+    "en": "were belted",
+    "plain": "neatly belted"
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "περιεζωσμέναι",
+    "en": "belted",
+    "plain": "neatly belted"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the papyrus. The English is the same either way.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "80:1",
+  "a": "above the rock",
+  "t": "Above the rock, or above the rock and the gate?",
+  "p": "The Latin adds \"and above the gate,\" as 81:2 says.",
+  "readings": [
+   {
+    "w": "Athos manuscript (A) and the Ethiopic (E), Lake's text",
+    "orig": "ἐπάνω τῆς πέτρας",
+    "en": "above the rock",
+    "plain": "above the rock"
+   },
+   {
+    "w": "The Latin versions (L), per Lake's footnote",
+    "orig": "ἐπάνω τῆς πέτρας καὶ ἐπάνω τῆς πύλης",
+    "en": "above the rock and above the gate",
+    "plain": "above the rock and above the gate"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows A and E. The Latin reading matches 81:2 (\"on the great rock, above the gate\"), which may be why it was added; the sense does not change.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "80:3",
+  "a": "not cut from a quarry",
+  "t": "\"Not cut\": Lake adds the \"not\"",
+  "p": "A, the Ethiopic and the Latin read \"cut.\" Lake adds \"not\" because 82:3 calls these same stones uncut.",
+  "readings": [
+   {
+    "w": "Lake's text, a correction of the three witnesses his footnote names",
+    "orig": "μὴ λελατομημένοι",
+    "en": "not quarried",
+    "plain": "not cut from a quarry"
+   },
+   {
+    "w": "Athos manuscript (A), the Ethiopic (E) and the Latin (L), per Lake's footnote \"μή om. AEL\"",
+    "orig": "λελατομημένοι",
+    "en": "quarried",
+    "plain": "cut from a quarry"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: \"μή om. AEL, but the addition seems to be made necessary by the reference in Sim. ix. 5, 3, where these stones are described as μὴ λελατομημένοι.\" In 82:3 Hermas asks about the stones from the deep that were \"not cut, but went into the building just as they were,\" and only the stones from the mountains are said to be cut (81:5). The site follows Lake's correction, with this note so the reader knows that none of the witnesses Lake names has it. The verb latomeō is the stonecutter's word (86:2 has latomos, \"stonecutter\"); \"from a quarry\" is the site's plain English for it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "81:2",
+  "a": "and they filled the whole rock",
+  "t": "Words restored from the Latin and Ethiopic",
+  "p": "The Athos manuscript lacks \"and they filled the whole rock ... those\"; Lake restores it from L and E.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"καὶ ἐνέπλησαν ... ἐκεῖνοι retranslated from LE, om. A\"",
+    "orig": "καὶ ἐνέπλησαν ὅλην τὴν πέτραν",
+    "en": "and they filled the whole rock",
+    "plain": "and they filled the whole rock"
+   },
+   {
+    "w": "Athos manuscript (A, 1400s)",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "A is the only continuous Greek manuscript for this part of the book, and Lake judges it \"very inaccurate.\" Where it skips words that both the Latin and the Ethiopic have, Lake puts them back in Greek. The site follows Lake's text.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "81:3",
+  "a": "another twenty stones",
+  "t": "Twenty, twenty-five or fifteen stones?",
+  "p": "The witnesses disagree on the second row: A has twenty, the Latin twenty-five, the Ethiopic fifteen.",
+  "readings": [
+   {
+    "w": "Athos manuscript (A), which writes the numeral κ΄; Lake's text",
+    "orig": "εἴκοσι λίθοι",
+    "en": "twenty stones",
+    "plain": "another twenty stones"
+   },
+   {
+    "w": "The Latin versions (L), per Lake's footnote: viginti quinque",
+    "orig": "viginti quinque",
+    "en": "twenty-five",
+    "plain": "another twenty-five stones"
+   },
+   {
+    "w": "The Ethiopic (E), per Lake's footnote: quindecim (Lake gives the Ethiopic in Latin)",
+    "orig": "quindecim",
+    "en": "fifteen",
+    "plain": "another fifteen stones"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints twenty, with A, and so does Hermas's question in 82:4 (κ΄, twenty). In the explanation the Greek has twenty-five (92:4, κε΄, \"AL\"; the Ethiopic there has fifteen). Lake says only that the numbers \"do not quite agree\" and that no hidden meaning has been found. The site follows Lake in each place, so the reader sees the disagreement the witnesses have.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ],
+  "b": "Lake's footnote at 81:3: \"κ΄ A, viginti quinque L, quindecim E.\" At 92:4: \"κε΄ AL, xv E.\""
+ },
+ {
+  "v": "81:3",
+  "a": "So there were four rows in the foundations of the tower.",
+  "t": "A sentence restored from the Latin and Ethiopic",
+  "p": "The Athos manuscript lacks the sentence about four rows; Lake restores it from L and E.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"ἐγένοντο ... πύργου retranslated from LE, om. A\"",
+    "orig": "ἐγένοντο οὖν στοῖχοι τέσσαρες ἐν τοῖς θεμελίοις τοῦ πύργου",
+    "en": "so there became four rows in the foundations of the tower",
+    "plain": "So there were four rows in the foundations of the tower."
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence sums up the four groups of stones from the deep (10, 20, 35, 40), which 92:4 explains. Lake restores it from the two versions that have it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "82:5",
+  "a": "In a few days we will come here, and you will see the rest of what happens to this tower, and you will know all the parables exactly.",
+  "t": "A line skipped by the copyist",
+  "p": "The Athos manuscript jumps from \"a few days\" here to \"a few days\" in 82:6. Lake restores the words between.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote at 82:6 \"ἐλευσόμεθα ... ἡμέρας retranslated from LE, om. A\"",
+    "orig": "μετ᾽ ὀλίγας γὰρ ἡμέρας ἐλευσόμεθα ἐνθάδε, καὶ τὰ λοιπὰ ὄψει τὰ ἐπερχόμενα τῷ πύργῳ τούτῳ καὶ πάσας τὰς παραβολὰς ἀκριβῶς γνώσῃ",
+    "en": "for after a few days we will come here, and you will see the rest that comes upon this tower, and you will know all the parables accurately",
+    "plain": "In a few days we will come here, and you will see the rest of what happens to this tower, and you will know all the parables exactly."
+   },
+   {
+    "w": "Athos manuscript (A), which lacks the words from ἐλευσόμεθα in 82:5 to ἡμέρας in 82:6 and so runs straight on",
+    "orig": "πάντα γνώσῃ· μετ᾽ ὀλίγας γὰρ ἡμέρας ἤλθομεν εἰς τὸν τόπον, οὗ κεκαθίκαμεν",
+    "en": "you will know everything; for after a few days we came to the place where we had sat",
+    "plain": "(A runs on: \"you will know everything. For a few days later we came to the place where we had sat.\")"
+   }
+  ],
+  "follow": 0,
+  "why": "This is a classic slip of the eye: the copyist's eye jumped from the first \"after a few days\" to the second, leaving out what came between. The Latin and Ethiopic keep the promise, and Lake restores it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ],
+  "b": "The omission runs from the end of 82:5 into the start of 82:6, so in A the sentence reads \"you will know everything; for after a few days we came to the place where we had sat.\""
+ },
+ {
+  "v": "83:2",
+  "a": "All who had worked on the building were with him",
+  "t": "Words Lake restored from the Ethiopic and Latin",
+  "p": "The Athos manuscript lacks words here; Lake puts them back from E and L without marking where they begin.",
+  "readings": [
+   {
+    "w": "Lake's Greek, translated back from the Ethiopic (E) and the Latin (L); footnote \"Retranslated from EL, om. A\"",
+    "orig": "καὶ πάντες οἱ εἰς τὴν οἰκοδομὴν ἐργασάμενοι",
+    "en": "and all who had worked on the building",
+    "plain": "All who had worked on the building were with him"
+   },
+   {
+    "w": "Athos manuscript (A), which lacks words ending at Lake's mark after \"the building\"",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's mark stands after \"the building\"; his page does not show where the restored words begin, so the extent of A's gap is not shown. The sense is not affected.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "83:3",
+  "a": "he struck every stone",
+  "t": "Struck once, or three times?",
+  "p": "The Athos manuscript says he struck each stone \"three times.\"",
+  "readings": [
+   {
+    "w": "The Latin (L) and the Ethiopic (E), Lake's text",
+    "orig": "ἔτυπτε",
+    "en": "he struck",
+    "plain": "he struck every stone"
+   },
+   {
+    "w": "Athos manuscript (A); Crombie's English (Ante-Nicene Fathers) follows it",
+    "orig": "τρὶς ἔτυπτε",
+    "en": "he struck three times",
+    "plain": "he struck every stone three times"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows L and E against A. \"Three times\" is a natural addition for a testing blow, but two independent versions lack it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "83:6",
+  "a": "The builders asked him from which mountain he wanted stones brought to put in their place.",
+  "t": "A sentence restored from the Ethiopic and Latin",
+  "p": "The Athos manuscript lacks the builders' question; Lake restores it from E and L.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"Retranslated from EL, om. A\" after this sentence",
+    "orig": "καὶ ἐπηρώτησαν αὐτὸν οἱ οἰκοδομοῦντες, ἐκ τίνος ὄρους θέλῃ ἐνεχθῆναι λίθους καὶ ἐμβληθῆναι εἰς τὸν τόπον αὐτῶν",
+    "en": "and the builders asked him from which mountain he wishes stones to be brought and put in their place",
+    "plain": "The builders asked him from which mountain he wanted stones brought to put in their place."
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote mark stands at the end of this sentence; Crombie's English in the Ante-Nicene Fathers sets the same sentence in brackets. A has neither this question nor the answer's second half (next entry).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "83:6",
+  "a": "He ordered them to be brought from a plain that was nearby.",
+  "t": "Another restored sentence",
+  "p": "The Athos manuscript also lacks the second half of the answer; Lake restores it from E and L.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"Retranslated from EL, om. A\" after these words",
+    "orig": "ἐκ δέ τινος πεδίου ἐγγὺς ὄντος ἐκέλευσεν ἐνεχθῆναι",
+    "en": "but from a certain plain that was near he ordered them to be brought",
+    "plain": "He ordered them to be brought from a plain that was nearby."
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Without these words A never says where the new stones came from, though 83:7 goes on, \"So the plain was dug up.\" The versions supply what the story needs, and Lake follows them.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "84:3",
+  "a": "After giving the Shepherd these orders, he went away from the tower",
+  "t": "Words restored from the Latin and Ethiopic",
+  "p": "The Athos manuscript lacks the lord's departure; Lake restores it from L and E.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"Retranslated from LE, om. A\", its mark after ἀπὸ τοῦ πύργου",
+    "orig": "ταῦτα κελεύσας τῷ ποιμένι ἀπῄει ἀπὸ τοῦ πύργου",
+    "en": "having commanded these things to the shepherd he went away from the tower",
+    "plain": "After giving the Shepherd these orders, he went away from the tower"
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote mark stands after \"from the tower\"; Crombie's English brackets the same words. A's text then runs \"... with everyone he had come with,\" which needs a verb before it, so the versions' words are needed for the sense.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "85:7",
+  "a": "bright and sound",
+  "t": "\"Bright and sound\" or \"bright\"?",
+  "p": "The Latin has \"sound\"; the Athos manuscript has \"those\"; the Ethiopic has neither.",
+  "readings": [
+   {
+    "w": "The Latin (L), Lake's text",
+    "orig": "λαμπροὶ καὶ ὑγιεῖς",
+    "en": "bright and sound",
+    "plain": "bright and sound"
+   },
+   {
+    "w": "Athos manuscript (A), per Lake's footnote \"ὑγιεῖς L, ἐκεῖνοι A, om. E\"",
+    "orig": "λαμπροὶ καὶ ἐκεῖνοι",
+    "en": "bright, and those",
+    "plain": "bright"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the Latin's word, which fits the reason given (\"because of their strength\") and matches 85:3 and 85:5, where sound stones go on the outside.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "86:4",
+  "a": "wants all these stones",
+  "t": "\"All\" or \"surely\"?",
+  "p": "Lake reads A as \"all\" (\"probably, but it is difficult to read\"); the Latin has \"perhaps\" (forsitan).",
+  "readings": [
+   {
+    "w": "Athos manuscript (A), as Lake reads it, \"probably, but it is difficult to read\"; Lake's text",
+    "orig": "πάντας ... τούτους τοὺς λίθους",
+    "en": "all these stones",
+    "plain": "wants all these stones"
+   },
+   {
+    "w": "The Latin (L), forsitan, \"which in Sim. vii. 4 seems to represent πάντως\" (Lake)",
+    "orig": "πάντως ... τούτους τοὺς λίθους",
+    "en": "surely (Latin \"perhaps\") wants these stones",
+    "plain": "surely wants these stones"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: \"πάντας A (probably, but it is difficult to read), 'forsitan' L which in Sim. vii. 4 seems to represent πάντως.\" The two Greek words differ by one letter. Lake prints \"all,\" and the site follows him.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "86:5",
+  "a": "with their shoulders bare and their hair hanging loose",
+  "t": "Words Lake restored from the Latin and Ethiopic",
+  "p": "The Athos manuscript lacks words here; Lake puts them back from L and E without marking where they begin.",
+  "readings": [
+   {
+    "w": "Lake's Greek, translated back from the Latin (L) and the Ethiopic (E); footnote \"Retranslated from LE, om. A\"",
+    "orig": "καὶ ἔξω τοὺς ὤμους ἔχουσαι καὶ τὰς τρίχας λελυμέναι",
+    "en": "and having their shoulders bare and their hair loosed",
+    "plain": "with their shoulders bare and their hair hanging loose"
+   },
+   {
+    "w": "Athos manuscript (A), which lacks words ending at Lake's mark after λελυμέναι",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's mark stands after \"their hair hanging loose.\" The women's dress mirrors the virgins' (79:4) and comes back in 90:8, where A has it, so the words fit the story.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "87:1",
+  "a": "lifted out and put into the building",
+  "t": "\"Lifted out\" or \"fitted\"?",
+  "p": "The Latin and Ethiopic have \"lifted out\"; the Athos manuscript has \"fitted into the building.\"",
+  "readings": [
+   {
+    "w": "The Latin (L) and the Ethiopic (E); Lake's text, footnote \"ἠρημένων ... βεβλημένων LE\"",
+    "orig": "τῶν ἠρμένων καὶ εἰς τὴν οἰκοδομὴν βεβλημένων",
+    "en": "that were lifted and put into the building",
+    "plain": "lifted out and put into the building"
+   },
+   {
+    "w": "Athos manuscript (A), per Lake's footnote",
+    "orig": "τῶν ἡρμοσμένων εἰς τὴν οἰκοδομὴν καὶ βεβλημένων",
+    "en": "that were fitted into the building and put (there)",
+    "plain": "fitted into the building and put there"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows the versions: the holes are where stones were lifted out of the ground (his English footnote on this verse), which \"lifted\" says and \"fitted\" does not.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "89:2",
+  "a": "That is why the rock is old.",
+  "t": "\"The rock is old\" or \"he is old\"?",
+  "p": "The Amherst papyrus has \"the rock is old\"; the Athos manuscript has \"he is old\"; the Latin lacks it.",
+  "readings": [
+   {
+    "w": "Amherst papyrus (Pam, one of the papyrus fragments Lake lists, which holds this verse); Lake's text",
+    "orig": "διὰ τοῦτο καὶ παλαιὰ ἡ πέτρα",
+    "en": "for this reason also the rock is old",
+    "plain": "That is why the rock is old."
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "διὰ τοῦτο καὶ παλαιός ἐστιν",
+    "en": "for this reason also he is old",
+    "plain": "That is why he is old."
+   },
+   {
+    "w": "The Latin versions (L), per Lake's footnote \"om. L\"",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "The papyrus is an independent Greek witness beside A (Lake lists the Amherst papyri among the witnesses that hold parts of Similitude 9). Its reading ties the answer back to Hermas's question about the old rock (89:1). A's \"he is old\" says the same thing of the Son directly. Lake follows the papyrus. J. B. Lightfoot's <i>Galatians</i> (1874), a printed book and not a witness, quotes the verse in A's form.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "lightfoot-galatians-1874"
+  ]
+ },
+ {
+  "v": "89:4",
+  "a": "his holy name",
+  "t": "\"His holy name\" or \"the name of his Son\"?",
+  "p": "The versions make the name explicit: the Ethiopic has \"of his Son,\" the Latin \"of the Son of God.\"",
+  "readings": [
+   {
+    "w": "Athos manuscript (A); Lake's text",
+    "orig": "τὸ ὄνομα τὸ ἅγιον αὐτοῦ",
+    "en": "his holy name",
+    "plain": "his holy name"
+   },
+   {
+    "w": "The Ethiopic (E), per Lake's footnote",
+    "orig": "τὸ ὄνομα τοῦ υἱοῦ αὐτοῦ",
+    "en": "the name of his Son",
+    "plain": "the name of his Son"
+   },
+   {
+    "w": "The Latin (L), per Lake's footnote",
+    "orig": "τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ",
+    "en": "the name of the Son of God",
+    "plain": "the name of the Son of God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows A. The versions say outright what the context means: the next verse speaks of \"the name of his Son\" (89:5). A's \"his holy name\" is the harder and shorter reading.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "89:4",
+  "a": "were set into the building of the tower",
+  "t": "\"Set into the building\": a word A lacks",
+  "p": "The Athos manuscript lacks \"set\" (beblēmenous).",
+  "readings": [
+   {
+    "w": "Lake's text; footnote \"βεβλημένους om. A\"",
+    "orig": "εἰς τὴν οἰκοδομὴν τοῦ πύργου βεβλημένους",
+    "en": "put into the building of the tower",
+    "plain": "were set into the building of the tower"
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "εἰς τὴν οἰκοδομὴν τοῦ πύργου",
+    "en": "(came) into the building of the tower",
+    "plain": "came into the building of the tower"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the participle; without it the stones simply \"came in through the gate into the building.\" The sense is the same.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "90:4",
+  "a": "have put on the power of these virgins",
+  "t": "Words Lake restored from the Latin and Ethiopic",
+  "p": "The Athos manuscript lacks words in this verse; Lake puts them back from L and E without marking where they begin.",
+  "readings": [
+   {
+    "w": "Lake's Greek, translated back from the Latin (L) and the Ethiopic (E); footnote \"Retranslated from LE, om. A\"",
+    "orig": "τούτων τῶν παρθένων τὴν δύναμιν ἐνδεδυμένοι εἰσί",
+    "en": "have put on the power of these virgins",
+    "plain": "have put on the power of these virgins"
+   },
+   {
+    "w": "Athos manuscript (A), which lacks words ending at Lake's mark after εἰσί",
+    "orig": "",
+    "en": "(omits)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Without the restored words the sentence about the stones that stayed has no verb. The meaning is clear from 90:2-3.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "90:8",
+  "a": "they put on their power",
+  "t": "\"Their power\" or \"their garment\"?",
+  "p": "Lake's footnote gives \"power\" for A and the Palatine Latin, \"garment\" for the Vulgate Latin.",
+  "readings": [
+   {
+    "w": "Athos manuscript (A) and the Palatine Latin (L2), per Lake's footnote \"τὴν δύναμιν AL2\"; Lake's text",
+    "orig": "ἐνεδύσαντο τὴν δύναμιν αὐτῶν",
+    "en": "they put on their power",
+    "plain": "they put on their power"
+   },
+   {
+    "w": "The Vulgate Latin (L1), per Lake's footnote \"τὸ ἔνδυμα L1\"",
+    "orig": "ἐνεδύσαντο τὸ ἔνδυμα αὐτῶν",
+    "en": "they put on their garment",
+    "plain": "they put on their garment"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote reads \"τὴν δύναμιν AL2, τὸ ἔνδυμα L1, τὸ ἔνδυμα καὶ τὴν δύναμιν A\": the last part is A's wording for what they took off, \"the virgins' garment and power,\" which Lake prints. Both words appear in 90:2 (\"garment,\" \"power\"), so the meaning is the same either way.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "91:2",
+  "a": "then others will enter",
+  "t": "\"Others will enter\" or \"others will go in\"?",
+  "p": "The Latin and Ethiopic have \"will enter\"; the Athos manuscript has \"will go (into it).\"",
+  "readings": [
+   {
+    "w": "The Latin (L) and the Ethiopic (E); Lake's text",
+    "orig": "ἄλλοι εἰσελεύσονται",
+    "en": "others will enter",
+    "plain": "then others will enter"
+   },
+   {
+    "w": "Athos manuscript (A)",
+    "orig": "ἄλλοι ἀπελεύσονται",
+    "en": "others will go (into the building)",
+    "plain": "then others will go in"
+   }
+  ],
+  "follow": 0,
+  "why": "Both verbs are used of stones going into the building in these chapters (the same verse has \"go into the building\"), so the sense is the same. Lake follows the versions, which match \"they will enter\" at the start of the verse.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "92:1",
+  "a": "\"Sir,\" I said, \"make clear to me the names of the virgins, and of the women dressed in black clothes.\" \"Hear the names of the stronger virgins,\" he said, \"the ones stationed at the corners.",
+  "t": "A skip from \"virgins\" to \"virgins\"",
+  "p": "The Athos manuscript jumps from one \"of the virgins\" to the next, losing the women and the Shepherd's reply.",
+  "readings": [
+   {
+    "w": "Lake's Greek, which he translates back from the Latin versions (L) and the Ethiopic (E); Lake's footnote \"τὰ ὀνόματα ... παρθένων, retranslated from LE, om. A\"",
+    "orig": "Δήλωσόν μοι, φημί, κύριε, τῶν παρθένων τὰ ὀνόματα καὶ τῶν γυναικῶν τῶν τὰ μέλανα ἱμάτια ἐνδεδυμένων. Ἄκουε, φησίν, τῶν παρθένων τὰ ὀνόματα τῶν ἰσχυροτέρων, τῶν εἰς τὰς γωνίας σταθεισῶν.",
+    "en": "Make clear to me, I say, sir, the names of the virgins and of the women who have put on the black clothes. Hear, he says, the names of the stronger virgins, those stationed at the corners.",
+    "plain": "\"Sir,\" I said, \"make clear to me the names of the virgins, and of the women dressed in black clothes.\" \"Hear the names of the stronger virgins,\" he said, \"the ones stationed at the corners."
+   },
+   {
+    "w": "Athos manuscript (A), which lacks the words from the first τὰ ὀνόματα to the second παρθένων",
+    "orig": "Δήλωσόν μοι, φημί, κύριε, τῶν παρθένων τὰ ὀνόματα τῶν ἰσχυροτέρων, τῶν εἰς τὰς γωνίας σταθεισῶν.",
+    "en": "Make clear to me, I say, sir, the names of the stronger virgins, those stationed at the corners.",
+    "plain": "\"Sir,\" I said, \"make clear to me the names of the stronger virgins, the ones stationed at the corners."
+   }
+  ],
+  "follow": 0,
+  "why": "The copyist's eye jumped from the first \"of the virgins\" to the second, so A's Hermas asks only about the strongest virgins and the Shepherd never says \"Hear.\" The versions keep both questions, and 92:3 answers the one about the women, so Lake restores the full text.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "92:4",
+  "a": "The twenty-five",
+  "t": "Twenty-five or fifteen?",
+  "p": "The Greek and Latin have twenty-five here, though 81:3 and 82:4 have twenty. The Ethiopic has fifteen.",
+  "readings": [
+   {
+    "w": "Athos manuscript (A) and the Latin (L), per Lake's footnote \"κε΄ AL\"; Lake's text",
+    "orig": "οἱ δὲ κε΄",
+    "en": "the twenty-five",
+    "plain": "The twenty-five"
+   },
+   {
+    "w": "The Ethiopic (E), per Lake's footnote \"xv E\"",
+    "orig": "xv",
+    "en": "the fifteen",
+    "plain": "The fifteen"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints twenty-five with A and L and notes that the numbers \"do not quite agree with those in Sim. ix. 4\" (81:3, where A has twenty). The site keeps each passage as Lake prints it; see the variant at 81:3.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ }
+]

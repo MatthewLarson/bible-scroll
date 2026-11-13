@@ -19,9 +19,11 @@ fi
 for d in tlg1311/tlg001 tlg1216/tlg001 tlg1271/tlg001 tlg1622/tlg001 tlg1484/tlg001 tlg1271/tlg002 tlg0646/tlg004 tlg1443/tlg001; do
   [ -d First1KGreek/data/$d ] || (cd First1KGreek && git sparse-checkout add data/$d)
 done
+# The Shepherd of Hermas in Lake's vol. 2 (tlg1419/tlg001, Greek with Lake's Latin where the Greek is lost).
+[ -d First1KGreek/data/tlg1419/tlg001 ] || (cd First1KGreek && git sparse-checkout add data/tlg1419/tlg001)
 # Their public-domain English, from Wikisource (pinned revisions): Lake's own translation (1912) of the Didache, Barnabas,
 # 1 Clement and 2 Clement; Lightfoot's Polycarp; the Ante-Nicene (Roberts-Donaldson) Martyrdom of Polycarp, Epistle to
-# Diognetus and letters of Ignatius (Ephesians, Romans, Smyrnaeans: the page prints the shorter and the longer form side by
+# Diognetus and the seven letters of Ignatius (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, Polycarp: the page prints the shorter and the longer form side by
 # side), since Wikisource has no transcription of Lake's for those. The Ante-Nicene pages are transcluded from page scans,
 # so they are fetched parsed. Each file is fetched only if missing, into a .tmp name first, so a failed run is retried.
 mkdir -p apfathers
@@ -30,7 +32,13 @@ for p in did-lake:14662157 bnb-lake:13883661 1cl-lake:15956766 pol-lightfoot:428
   f=apfathers/${p%%:*}.wiki
   [ -s $f ] || { curl -sSf -o $f.tmp "$W/index.php?oldid=${p##*:}&action=raw" && mv $f.tmp $f; }
 done
-for p in mpo-anf:13922313 dgn-anf:13922331 iep-anf:13922356 iro-anf:13922353 ism-anf:13922351; do
+for p in mpo-anf:13922313 dgn-anf:13922331 iep-anf:13922356 img-anf:13922355 itr-anf:13922354 iro-anf:13922353 iph-anf:13922352 ism-anf:13922351 ipo-anf:13922345; do
+  f=apfathers/${p%%:*}.json
+  [ -s $f ] || { curl -sSf -o $f.tmp "$W/api.php?action=parse&oldid=${p##*:}&prop=text&format=json&formatversion=2" && mv $f.tmp $f; }
+done
+# The Shepherd of Hermas: the Ante-Nicene Fathers (vol. 2) translation by Frederick Crombie, its three books (Visions,
+# Commandments, Similitudes), fetched parsed in the same way.
+for p in hrm-anf-1:9419564 hrm-anf-2:9419568 hrm-anf-3:9419579; do
   f=apfathers/${p%%:*}.json
   [ -s $f ] || { curl -sSf -o $f.tmp "$W/api.php?action=parse&oldid=${p##*:}&prop=text&format=json&formatversion=2" && mv $f.tmp $f; }
 done

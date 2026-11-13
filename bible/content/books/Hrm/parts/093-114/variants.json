@@ -1,0 +1,697 @@
+[
+ {
+  "v": "93:1",
+  "a": "the building of the tower",
+  "t": "'Of the tower' in the Athos manuscript?",
+  "p": "The Athos manuscript lacks 'of the tower'. Lake prints it from the Latin and Ethiopic.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "εἰς τὴν οἰκοδομὴν τοῦ πύργου",
+    "en": "into the building of the tower",
+    "plain": "the building of the tower"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "εἰς τὴν οἰκοδομήν",
+    "en": "into the building",
+    "plain": "the building"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'τοῦ πύργου LE, om. A.' The sense is the same: the only building in the parable is the tower.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "93:2",
+  "a": "the deadness of their former life",
+  "t": "'Their former life' or 'their life'?",
+  "p": "The Athos manuscript lacks 'former'. Lake prints it from the Latin and Ethiopic.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "τὴν νέκρωσιν... τῆς ζωῆς αὐτῶν τῆς προτέρας",
+    "en": "the deadness of their former life",
+    "plain": "the deadness of their former life"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "τὴν νέκρωσιν... τῆς ζωῆς αὐτῶν",
+    "en": "the deadness of their life",
+    "plain": "the deadness of their life"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'τῆς προτέρας LE, om. A.' Lake follows the two versions, so 'former' rests on them alone. Without it the sense is close: the deadness is the life lived before the seal (93:3).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "93:3",
+  "a": "and entered the kingdom of God",
+  "t": "Did A have 'and entered the kingdom of God'?",
+  "p": "The Athos manuscript lacks these words. Lake puts them back from the Latin and Ethiopic, in his own Greek.",
+  "readings": [
+   {
+    "w": "Lake's text: Greek retranslated by Lake from the Latin and Ethiopic versions (his footnote: 'retranslated from LE, om. A')",
+    "orig": "καὶ εἰσῆλθον εἰς τὴν βασιλείαν τοῦ θεοῦ",
+    "en": "and entered into the kingdom of God",
+    "plain": "and entered the kingdom of God"
+   },
+   {
+    "w": "The Athos manuscript (A, 1400s)",
+    "orig": "(omitted)",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the words. Without them the sentence still makes sense, but the next verses keep repeating 'enter the kingdom of God' (93:2, 93:4), and both versions have the phrase here, so Lake judges that A lost it. The Greek is Lake's guess at what A's ancestor said: no Greek manuscript has it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "93:5",
+  "a": "to those who had fallen asleep before them",
+  "t": "'Fallen asleep before them' or 'fallen asleep'?",
+  "p": "Clement of Alexandria and two versions say the dead had fallen asleep 'before'; the Athos manuscript and the Palatine Latin do not.",
+  "readings": [
+   {
+    "w": "Clement of Alexandria's quotation, the Vulgate Latin (L1) and the Ethiopic (E); Lake's text",
+    "orig": "τοῖς προκεκοιμημένοις",
+    "en": "to those who had fallen asleep before",
+    "plain": "to those who had fallen asleep before them"
+   },
+   {
+    "w": "The Athos manuscript (A) and the Palatine Latin (L2)",
+    "orig": "τοῖς κεκοιμημένοις",
+    "en": "to those who had fallen asleep",
+    "plain": "to those who had fallen asleep"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows Clement and the two versions. The word 'before' fits 93:6, where all witnesses that have the verse say 'those who had fallen asleep before' (Greek hoi prokekoimēmenoi). The meaning hardly changes: either way the apostles preached to the dead.",
+  "b": "Lake's footnote: 'προκεκοιμημένοις Clem. L1E, κεκοιμημένοις AL2.' Clement quotes 93:5-7 in Stromata 2.9 (ANF English: 'the apostles and teachers, who had preached the name of the Son of God, and had fallen asleep').",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "clement-stromata"
+  ]
+ },
+ {
+  "v": "93:6",
+  "a": "But these went down alive and came up alive, while those who had fallen asleep before them went down dead and came up alive.",
+  "t": "A sentence the Athos manuscript lacks",
+  "p": "This sentence is not in the Athos manuscript. Lake prints it from Clement of Alexandria's quotation, which the Latin and Ethiopic support.",
+  "readings": [
+   {
+    "w": "Clement of Alexandria's quotation (Stromata 2.9 and 6.6), with the Latin and Ethiopic; Lake's text",
+    "orig": "ἀλλ᾽ οὗτοι μὲν ζῶντες κατέβησαν καὶ ζῶντες ἀνέβησαν· ἐκεῖνοι δὲ οἱ προκεκοιμημένοι νεκροὶ κατέβησαν, ζῶντες δὲ ἀνέβησαν.",
+    "en": "but these went down living and came up living; but those who had fallen asleep before went down dead, but came up living",
+    "plain": "But these went down alive and came up alive, while those who had fallen asleep before them went down dead and came up alive."
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "(omitted)",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Clement of Alexandria quotes the sentence twice as the Shepherd's words, so it stood in his copy. The two words for 'went down' and 'came up' repeated so close together make it easy for a copyist's eye to skip.",
+  "b": "Lake's footnote: 'ἀλλ᾽ οὗτοι... ἀνέβησαν Clem. (LE)..., om. A.' The New Advent English of Stromata 6.6 reads: 'They went down with them therefore into the water, and again ascended. But those who had fallen asleep, descended dead, but ascended alive.'",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "clement-stromata"
+  ]
+ },
+ {
+  "v": "94:1",
+  "a": "These twelve mountains are the tribes",
+  "t": "'The tribes' or 'twelve tribes'?",
+  "p": "The witnesses put the number twelve in different places. Lake suspects the first text said 'These mountains are twelve tribes'.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A); Lake's text",
+    "orig": "τὰ ὄρη ταῦτα τὰ δώδεκα φυλαί εἰσιν",
+    "en": "these twelve mountains are tribes",
+    "plain": "These twelve mountains are the tribes"
+   },
+   {
+    "w": "The Latin (L), as Lake's footnote reports",
+    "orig": "φυλαὶ δώδεκα (L)",
+    "en": "these twelve mountains are twelve tribes",
+    "plain": "These twelve mountains are twelve tribes"
+   },
+   {
+    "w": "The Ethiopic (E), which joins 'twelve' to 'tribes' and leaves it out with 'mountains'; Lake's guess at the first text",
+    "orig": "τὰ ὄρη ταῦτα δώδεκα φυλαί",
+    "en": "these mountains are twelve tribes",
+    "plain": "These mountains are twelve tribes"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints A. His footnote: 'φυλαί A, φυλαὶ δώδεκα L. E connects δώδεκα with φυλαί, but omits it with ὄρη. The original text may have been τὰ ὄρη ταῦτα δώδεκα φυλαί etc.' The meaning is the same in every form: twelve mountains, twelve tribes, explained in 94:2 as twelve nations.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "94:4",
+  "a": "the name of the Son of God",
+  "t": "'The name of the Son of God' or 'the name of God'?",
+  "p": "The Athos manuscript has 'called by the name of God'. The Latin and Ethiopic have 'of the Son of God'.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "ἐπὶ τῷ ὀνόματι ἐκλήθησαν τοῦ υἱοῦ τοῦ θεοῦ",
+    "en": "were called by the name of the Son of God",
+    "plain": "the name of the Son of God"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "ἐπὶ τῷ ὀνόματι ἐκλήθησαν τοῦ θεοῦ",
+    "en": "were called by the name of God",
+    "plain": "the name of God"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake adds 'of the Son' from the versions. All through Similitude 9 the name believers bear is the name of the Son of God (89:4-8; 93:3; 93:7), so A's shorter reading looks like a slip. His footnote: 'τοῦ υἱοῦ LE, om. A.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "96:3",
+  "a": "each one taught what sinful people wanted",
+  "t": "'According to' in the Athos manuscript?",
+  "p": "The Athos manuscript lacks the preposition katá, 'according to'. Lake prints it from the Latin and Ethiopic.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "ἐδίδαξεν ἕκαστος κατὰ τὰς ἐπιθυμίας τῶν ἀνθρώπων",
+    "en": "each taught according to the desires of the people",
+    "plain": "each one taught what sinful people wanted"
+   },
+   {
+    "w": "The Athos manuscript (A), which lacks κατά",
+    "orig": "ἐδίδαξεν ἕκαστος τὰς ἐπιθυμίας τῶν ἀνθρώπων",
+    "en": "each taught the desires of the people",
+    "plain": "each one taught the desires of sinful people"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'κατά LE, om. A.' Without the preposition the Greek is hard to construe; the versions give the natural sense.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "97:2",
+  "a": "So these, who are tangled up in many kinds of business, do not stay close to God's slaves.",
+  "t": "A has the opposite meaning",
+  "p": "Lake's footnote says A lacks the words he restores from the versions. Read without them, A's sentence says that these people do stay close to God's slaves.",
+  "readings": [
+   {
+    "w": "Lake's text: Greek retranslated by Lake from the Latin and Ethiopic (his footnote: 'οὖν... οὐ retranslated from LE, om. A')",
+    "orig": "οὗτοι οὖν, οἱ ἐν πολλαῖς καὶ ποικίλαις πραγματείαις ἐμπεφυρμένοι, οὐ κολλῶνται",
+    "en": "these then, who are entangled in many and various business affairs, do not cling",
+    "plain": "So these, who are tangled up in many kinds of business, do not stay close to God's slaves."
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote leaves it ('om. A': the restored words are not in A)",
+    "orig": "οὗτοι κολλῶνται τοῖς δούλοις τοῦ θεοῦ",
+    "en": "these cling to the slaves of God",
+    "plain": "These stay close to God's slaves."
+   }
+  ],
+  "follow": 0,
+  "why": "A's text cannot be right: the sentence goes on 'but they wander away, choked by their affairs', and the rich who follow stay close only 'with difficulty'. The Latin and Ethiopic both have the negative and the description, and Lake puts them back into Greek.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "97:4",
+  "a": "If they repent and do some good, they will live to God.",
+  "t": "A words lost in the Athos manuscript",
+  "p": "Lake restores 'If they repent and do some good' from the versions. A has only 'and'.",
+  "readings": [
+   {
+    "w": "Lake's text: Greek retranslated by Lake from the Latin and Ethiopic",
+    "orig": "ἐὰν οὖν μετανοήσωσι καὶ ἀγαθόν τι ποιήσωσι, ζήσονται τῷ θεῷ",
+    "en": "if then they repent and do some good, they will live to God",
+    "plain": "If they repent and do some good, they will live to God."
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "καὶ ζήσονται τῷ θεῷ",
+    "en": "and they will live to God",
+    "plain": "And they will live to God."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'ἐὰν... ποιήσωσι retranslated from LE, καί A.' The condition matches the pattern of the other mountains (98:4; 99:4). With A's 'and' the sentence promises life to all of them, which the next clause ('But if they stay in their ways') contradicts.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "98:2",
+  "a": "People like this are neither alive nor dead.",
+  "t": "'Neither alive nor dead' or 'dead'?",
+  "p": "A says simply 'people like this are dead'. The Latin and Ethiopic have 'neither alive nor dead', as the rest of the chapter does.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "οἱ τοιοῦτοι οὔτε ζῶσιν οὔτε τεθνήκασιν",
+    "en": "such neither live nor have died",
+    "plain": "People like this are neither alive nor dead."
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote leaves it ('om. A': the words 'neither live nor' are not in A)",
+    "orig": "οἱ τοιοῦτοι τεθνήκασιν",
+    "en": "such are dead",
+    "plain": "People like this are dead."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'οὔτε ζῶσιν, οὔτε LE, om. A.' The phrase 'neither alive nor dead' returns in the same verse and in 98:4, and it is the point of the picture: plants half green, half dry.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "98:3",
+  "a": "these plants",
+  "t": "'These plants' or 'their plants'?",
+  "p": "The Athos manuscript has 'their plants'; the Latin and Ethiopic have 'these plants'.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "αὗται αἱ βοτάναι",
+    "en": "these plants",
+    "plain": "these plants"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "αὐτῶν αἱ βοτάναι",
+    "en": "their plants",
+    "plain": "their plants"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'αὗται LE, αὐτῶν A.' The two Greek words differ by a few letters, and the sense is the same.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "98:4",
+  "a": "will be able to live if they repent quickly. If they do not repent, they have",
+  "t": "Words missing in the Athos manuscript",
+  "p": "A lacks 'will be able to live... if they do not repent', which leaves a sentence that makes no sense. Lake restores the words from the versions.",
+  "readings": [
+   {
+    "w": "Lake's text: Greek retranslated by Lake from the Latin and Ethiopic",
+    "orig": "δυνήσονται ζῆσαι· ἐὰν δὲ μὴ μετανοήσωσιν",
+    "en": "will be able to live; but if they do not repent",
+    "plain": "will be able to live if they repent quickly. If they do not repent, they have"
+   },
+   {
+    "w": "The Athos manuscript (A), which lacks the words (Lake's footnote: 'om. A')",
+    "orig": "(omitted)",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'δυνήσονται... μετανοήσωσιν retranslated from LE, om. A.' A copyist's eye could jump from the first 'repent' to the second. Lake also adds 'neither alive' earlier in the verse from LE ('οὔτε ζῶσιν LE, om. A').",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "99:2",
+  "a": "self-appointed teachers",
+  "t": "'Self-appointed teachers' or 'teachers'?",
+  "p": "A has a rare compound, 'self-willed teachers'. The Latin and Ethiopic seem to have read plain 'teachers'.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A); Lake's text",
+    "orig": "ἐθελοδιδάσκαλοι",
+    "en": "self-appointed teachers",
+    "plain": "self-appointed teachers"
+   },
+   {
+    "w": "The Latin and Ethiopic (LE), as Lake reads them",
+    "orig": "διδάσκαλοι",
+    "en": "teachers",
+    "plain": "teachers"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake keeps A's word, the harder reading. His note on his English page: 'ἐθελοδιδάσκαλοι is not found elsewhere. If it be right it must mean a teacher who unduly magnifies his office. Cf. ἐθελοθρησκεία in Col. 2, 23.' Colossians 2:23 has 'worship people choose for themselves', built the same way.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "99:4",
+  "a": "but rather foolish",
+  "t": "'Foolish' or 'most wicked'?",
+  "p": "Lake restores 'foolish' from the versions. The Athos manuscript is hard to read here and seems to say 'most wicked'.",
+  "readings": [
+   {
+    "w": "Lake's text: retranslated by Lake from the Latin and Ethiopic",
+    "orig": "μωροὶ",
+    "en": "foolish",
+    "plain": "but rather foolish"
+   },
+   {
+    "w": "The Athos manuscript (A), as far as Lake can read it",
+    "orig": "πονηρότατοι (?)",
+    "en": "most wicked",
+    "plain": "but rather most wicked"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'μωροὶ καὶ... ἐάν retranslated from LE. A is illegible, but seems to read πονηρ(ότατοι ?) instead of μωροί.' The sentence contrasts 'not evil' with 'rather foolish', so A's reading, if Lake reads it rightly, would contradict itself.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "105:5",
+  "a": "to bear this name",
+  "t": "'This name', 'his name' or 'the name of this one'?",
+  "p": "Three readings: L2 'this name', A 'the name of this one', L1 and E 'his name'.",
+  "readings": [
+   {
+    "w": "The Palatine Latin (L2); Lake's text",
+    "orig": "τοῦτο τὸ ὄνομα",
+    "en": "this name",
+    "plain": "to bear this name"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "τούτου τὸ ὄνομα",
+    "en": "the name of this one",
+    "plain": "to bear the name of this one"
+   },
+   {
+    "w": "The Vulgate Latin (L1) and the Ethiopic (E)",
+    "orig": "αὐτοῦ τὸ ὄνομα",
+    "en": "his name",
+    "plain": "to bear his name"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints τοῦτο with L2 against A; his footnote: 'τοῦτο L2, τούτου A, αὐτοῦ L1E.' The difference between A and L2 is one letter in Greek. All three readings mean the name of the Son of God, which the sufferers bear (105:2-3).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "106:3",
+  "a": "For all babies are glorious in God's sight, and first in his presence.",
+  "t": "A sentence missing in the Palatine Latin",
+  "p": "The Palatine Latin leaves out this sentence. Lake's footnote gives it to A, to the Vulgate Latin and to a witness printed 'F', a letter his list of witnesses does not have.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A) and the Vulgate Latin (L1), with a witness Lake's footnote prints as 'F'; Lake's text",
+    "orig": "πάντα γὰρ τὰ βρέφη ἔνδοξά ἐστι παρὰ τῷ θεῷ καὶ πρῶτα παρ᾽ αὐτῷ",
+    "en": "for all the babies are glorious before God and first beside him",
+    "plain": "For all babies are glorious in God's sight, and first in his presence."
+   },
+   {
+    "w": "The Palatine Latin (L2)",
+    "orig": "(omitted)",
+    "en": "(no words)",
+    "plain": ""
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote: 'πάντα γάρ... αὐτῷ AFL1, om. L2.' Lake's list of the witnesses in his introduction (Sinaiticus, A, H, the papyri, L1, L2, L, E, C) has no F, and the scans of both printings of his page (1913 and 1917) read the footnote the same way, so the F is Lake's own. The digital apparatus also has 'vult F' at 50:2, but there the 1913 printing reads 'vult E', the Ethiopic; F here may likewise be a misprint for E, but the site does not count it as a witness. A and L1 against L2 is enough for Lake's text.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "107:1",
+  "a": "the roots of the white mountain",
+  "t": "'The white mountain' or 'this white mountain'?",
+  "p": "The Amherst papyrus has 'the white mountain'; A and the Latin have 'this white mountain'.",
+  "readings": [
+   {
+    "w": "The Amherst papyrus (Pam); Lake's text",
+    "orig": "αἱ ῥίζαι εἰσὶ τοῦ ὄρους τοῦ λευκοῦ",
+    "en": "are the roots of the white mountain",
+    "plain": "the roots of the white mountain"
+   },
+   {
+    "w": "The Athos manuscript (A) and the Latin (L)",
+    "orig": "τοῦ ὄρους τοῦ λευκοῦ τούτου",
+    "en": "of this white mountain",
+    "plain": "the roots of this white mountain"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the papyrus, the older witness; his footnote: 'λευκοῦ Pam, λευκοῦ τούτου AL.' Lake's introduction lists the Amherst papyri as containing Similitude 9.30.1-2 and 3-4 (107:1-4). The sense does not change.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "107:2",
+  "a": "from the roots of this mountain",
+  "t": "Where the Athos manuscript ends",
+  "p": "A has 'from this mountain'; the versions add 'the roots of'. This is A's last verse: its last leaf is lost.",
+  "readings": [
+   {
+    "w": "The Latin and Ethiopic (LE); Lake's text",
+    "orig": "ἐκ τῶν ῥιζῶν τοῦ ὄρους τούτου",
+    "en": "from the roots of this mountain",
+    "plain": "from the roots of this mountain"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "ἐκ τοῦ ὄρους τούτου",
+    "en": "from this mountain",
+    "plain": "from this mountain"
+   }
+  ],
+  "follow": 0,
+  "why": "The stones came from the plain, which 107:1 calls 'the roots of the white mountain', so 'the roots' must be meant. Lake's footnote: 'τῶν ῥιζῶν LE, om. A.'",
+  "b": "Lake's footnote at the end of this verse: 'At this point A ends, as the last leaf is missing. The Latin text which follows is that of L1. The few verses in Greek are from P<sup>am</sup>. Some words have been restored as the Papyrus is in bad condition, but the reconstructions are almost certain.' From 107:3 to 114:5 the Plain English Translation follows Lake's Latin, except where he prints Greek: 107:3-4 (the Amherst papyrus), 108:5-6 (a quotation in Antiochus) and 113:3-5 (Oxyrhynchus Papyrus 404). See the note at 107:3.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "107:3",
+  "a": "those who have believed and those who are going to believe",
+  "t": "Latin, then Greek",
+  "p": "Lake prints the first half of this verse in Latin (L1) and from here the Greek of the Amherst papyrus.",
+  "readings": [
+   {
+    "w": "The Amherst papyrus (Pam), printed by Lake from this word on; the first half of the verse is the Latin (L1), Lake's text to 'hi autem omnes candidi inventi sunt'",
+    "orig": "πιστεύσαντες καὶ οἱ μέλλοντες πιστεύειν",
+    "en": "having believed, and those who are about to believe",
+    "plain": "those who have believed and those who are going to believe"
+   },
+   {
+    "w": "The Vulgate Latin (L1): Lake prints it for this verse only up to 'hi autem omnes candidi inventi sunt'; for these words he gives no Latin, and his apparatus reports no Latin reading",
+    "orig": "(not printed by Lake)",
+    "en": "(not given)",
+    "plain": "(Lake prints no Latin for these words)"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints Greek wherever Greek survives and the Latin only to fill the gap, so the Plain English Translation does the same: the first sentence and the start of the second are from the Latin ('quodsi de ceteris montibus adiecisset... hi autem omnes candidi inventi sunt'), the rest from the papyrus. Lake's footnote at 107:2 says only that 'the few verses in Greek are from Pam'; it does not say what L1 has for the Greek words, so the second line here gives no reading.",
+  "b": "The Latin before the join: <i>quodsi de ceteris montibus adiecisset, necesse habuisset rursus visitare eam turrem atque purgare. hi autem omnes candidi inventi sunt,</i> Lake's footnote on the papyrus: 'Some words have been restored as the Papyrus is in bad condition, but the reconstructions are almost certain.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "107:4",
+  "a": "Now listen about the round, bright stones too. They are all from the white mountain as well.",
+  "t": "Greek, then Latin",
+  "p": "These two sentences are the last Greek of the Amherst papyrus. From 'And listen to why' Lake prints the Latin (L1).",
+  "readings": [
+   {
+    "w": "The Amherst papyrus (Pam); Lake's text for these two sentences. The rest of the verse is the Latin (L1)",
+    "orig": "ἄκουε νῦν καὶ περὶ τῶν λίθων τῶν στρογγύλων καὶ λαμπρῶν. καὶ αὐτοὶ πάντες ἐκ τοῦ ὄρους τοῦ λευκοῦ εἰσίν.",
+    "en": "hear now also about the round and bright stones. And they too are all from the white mountain",
+    "plain": "Now listen about the round, bright stones too. They are all from the white mountain as well."
+   },
+   {
+    "w": "The Vulgate Latin (L1): Lake prints it for this verse only from 'audi autem'; for these words he gives no Latin, and his apparatus reports no Latin reading",
+    "orig": "(not printed by Lake)",
+    "en": "(not given)",
+    "plain": "(Lake prints no Latin for these words)"
+   }
+  ],
+  "follow": 0,
+  "why": "The papyrus is the only Greek, and Lake prints it; his apparatus gives no Latin for these two sentences. From 'And listen to why they were found round' (Latin <i>audi autem, quare rotundi sunt reperti</i>) the Plain English Translation follows Lake's Latin.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "108:6",
+  "a": "Instead they will be punished for their lie.",
+  "t": "Greek of Antiochus, then Latin",
+  "p": "Lake prints the Greek of a quotation in Antiochus of Palestine to 'their lie'. From 'And I am a shepherd too' he prints the Latin (L1).",
+  "readings": [
+   {
+    "w": "The quotation in Antiochus of Palestine; Lake's text (the Greek ends here; the rest of the verse is the Latin, L1)",
+    "orig": "μᾶλλον δὲ κολασθήσονται διὰ τὸ ψεῦδος αὐτῶν",
+    "en": "but rather they will be punished because of their lie",
+    "plain": "Instead they will be punished for their lie."
+   },
+   {
+    "w": "The Vulgate Latin (L1): Lake prints it for this verse only from 'et ego sum pastor'; for these words he gives no Latin, and his apparatus reports no Latin reading",
+    "orig": "(not printed by Lake)",
+    "en": "(not given)",
+    "plain": "(Lake prints no Latin for these words)"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote at 108:4: 'The Greek which follows is a quotation preserved in Antiochus.' He prints that Greek for 108:5 and for 108:6 to 'διὰ τὸ ψεῦδος αὐτῶν', then the Latin from 'et ego sum pastor', and gives no Latin for the Greek part. Antiochus is a later writer, and Lake warns at 109:3 that he abbreviates and paraphrases; here Lake still prints his Greek. The final sentence ('And I am a shepherd too...') is the Latin: <i>et ego sum pastor, et validissime oportet me de vobis reddere rationem.</i>",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "109:3",
+  "a": "flare up",
+  "t": "'Flare up' or 'get angry'?",
+  "p": "The Vulgate Latin has scandesces, 'you will flare up'; the Palatine Latin has irasceris, 'you will be angry'.",
+  "readings": [
+   {
+    "w": "The Vulgate Latin (L1); Lake's text",
+    "orig": "scandesces",
+    "en": "you will grow hot",
+    "plain": "flare up"
+   },
+   {
+    "w": "The Palatine Latin (L2)",
+    "orig": "irasceris",
+    "en": "you will be angry",
+    "plain": "get angry"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints L1. His footnotes: 'Scandescis L1, irasceris L2' and, on his English 'grow hot', 'Scandesco is probably a dialectic form of candesco, which is found in some MSS of L1.' The meaning is the same.",
+  "b": "Lake's footnote on this verse adds: 'A great part of this paragraph is found in Greek in Antiochus, but he seems here to abbreviate and perhaps to paraphrase too much to render it wise to follow his text.' So here, unlike 108:5-6, Lake keeps the Latin and does not print Antiochus's Greek, and the Plain English Translation follows him.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "111:2",
+  "a": "which I have given you",
+  "t": "'I have given' or 'he gave'?",
+  "p": "Lake's Latin reads dedi, 'I gave'. His English translation has 'which he gave you', as if the Latin were dedit.",
+  "readings": [
+   {
+    "w": "The Vulgate Latin (L1) as Lake prints it; Lake's text",
+    "orig": "quae dedi tibi",
+    "en": "which I gave you",
+    "plain": "which I have given you"
+   },
+   {
+    "w": "Lake's English translation (no footnote; it renders the Latin as if it were dedit)",
+    "orig": "quae dedit tibi (implied)",
+    "en": "which he gave you",
+    "plain": "which he gave you"
+   }
+  ],
+  "follow": 0,
+  "why": "The Plain English Translation translates the Latin Lake prints. Lake's English does not match his Latin here and he gives no note, so either his English silently corrects the Latin to dedit or it is a slip in his translation; the page does not say which. Crombie's English, read for sense, also has 'he'. With 'he', the Shepherd gave the commandments, as in Vision 5 (25:5).",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "crombie-hermas-similitudes"
+  ]
+ },
+ {
+  "v": "112:4",
+  "a": "and turning against him",
+  "t": "'Against him' or 'turning away from him'?",
+  "p": "The Latin as printed has illum adversus, 'and against him'. Hilgenfeld proposed aversantur illum, 'they turn away from him'.",
+  "readings": [
+   {
+    "w": "The Vulgate Latin (L1); Lake's text",
+    "orig": "fugiunt a sua vita et illum adversus",
+    "en": "they flee from their life and against him",
+    "plain": "and turning against him"
+   },
+   {
+    "w": "A correction proposed by the editor Hilgenfeld, as Lake's footnote reports",
+    "orig": "aversantur illum",
+    "en": "they turn away from him",
+    "plain": "and turning away from him"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the Latin as the manuscripts have it and notes the emendation: 'Hilgenfeld emends to aversantur illum.' The Latin 'illum adversus' is awkward, and Lake's English keeps it: 'are flying from their own life and against him'. Hilgenfeld's change is a guess, not a reading found in a manuscript.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "113:3",
+  "a": "And just as this one, to whom you handed me over, finds no fault with me, these will find no fault with me either.",
+  "t": "Latin, then Greek",
+  "p": "The first sentence of 113:3 is Lake's Latin. This second sentence is the Greek of Oxyrhynchus Papyrus 404.",
+  "readings": [
+   {
+    "w": "Oxyrhynchus Papyrus 404 (Pox); Lake's text. The first sentence of the verse is the Latin (L1) to 'libenter habitent semper'",
+    "orig": "καὶ ὥσπερ οὗτος, ᾧ παρέδωκάς με, οὐ μέμφεταί με, οὐδὲ αὗται μέμψονταί με.",
+    "en": "and just as this one, to whom you handed me over, does not blame me, neither will these blame me",
+    "plain": "And just as this one, to whom you handed me over, finds no fault with me, these will find no fault with me either."
+   },
+   {
+    "w": "The Vulgate Latin (L1): Lake prints it for this verse only up to 'libenter habitent semper'; for these words he gives no Latin, and his apparatus reports no Latin reading",
+    "orig": "(not printed by Lake)",
+    "en": "(not given)",
+    "plain": "(Lake prints no Latin for these words)"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the Greek of the papyrus where it survives; his footnote: 'The Greek is from Pox (Oxyrynchus Papyr. 404).' He gives no Latin for the Greek sentence. The Latin before the join: <i>dico ei: spero me, domine, placiturum eis, ita ut in domo mea libenter habitent semper.</i>",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "113:5",
+  "a": "and calling the virgins he said to them",
+  "t": "Greek with a gap, then Latin",
+  "p": "The papyrus has a gap after 'calling the virgins'. Lake's Latin resumes after 'he said to them'.",
+  "readings": [
+   {
+    "w": "Oxyrhynchus Papyrus 404, with a gap Lake marks with dots; Lake's text. The rest of the verse is the Latin (L1) from 'quoniam video'",
+    "orig": "καὶ τὰς παρθένους καλέσας... λέγει αὐταῖς",
+    "en": "and having called the virgins ... he says to them",
+    "plain": "and calling the virgins he said to them"
+   },
+   {
+    "w": "The Vulgate Latin (L1): Lake prints it for this verse only from 'quoniam video'; for these words he gives no Latin, and his apparatus reports no Latin reading",
+    "orig": "(not printed by Lake)",
+    "en": "(not given)",
+    "plain": "(Lake prints no Latin for these words)"
+   }
+  ],
+  "follow": 0,
+  "why": "The papyrus is damaged after καλέσας ('having called'); what stood in the gap is unknown, and Lake prints no Latin for these words. The Plain English Translation does not mark the gap in the text, since the sentence reads whole. From 'Since I see' the text is Lake's Latin: <i>quoniam video vos libenter in domo huius habitare, commendo eum vobis et domum eius, ut a domo eius non recedatis omnino. illae vero haec verba libenter audierunt.</i>",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ }
+]

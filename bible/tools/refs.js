@@ -12,6 +12,8 @@ const ALIASES = {Psa:['Psalm','Psalms'], Sng:['Song of Solomon','Song of Songs']
   IEp:['Ignatius, Ephesians', 'Ignatius, To the Ephesians'],   // Ignatius's letters: "Ephesians" and "Romans" alone stay Paul's,
   IRo:['Ignatius, Romans', 'Ignatius, To the Romans'],         // so only forms that name Ignatius reach these books
   ISm:['Smyrnaeans'],               // no other book has the name: "Ignatius, Smyrnaeans 8:2", "To the Smyrnaeans 8:2"
+  IMg:['Magnesians'], ITr:['Trallians'], IPh:['Philadelphians'],   // likewise: "Ignatius, Magnesians 9:1", "To the Trallians 9:1"
+  IPo:['To Polycarp', 'Ignatius, Polycarp', 'Ignatius, To Polycarp', 'Ignatius To Polycarp'],   // "Polycarp" alone is no book (Pol is "Polycarp, Philippians")
   Dgn:['Diognetus']};               // "Diognetus 5:5" is the Epistle (the man is never cited by chapter); also "Letter to Diognetus"
 const PLAIN_WORDS = new Set('See Compare In At And Also Then From To Or Both Note Like Unlike After Before With Until Since Only Verse Verses Chapter Chapters Rev But Yet So As'.split(' '));
 const ONE_CH = new Set(['Oba','Phm','2Jn','3Jn','Jud','Man','Ps2']);

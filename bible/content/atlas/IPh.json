@@ -1,0 +1,117 @@
+{
+ "chapters": {
+  "1": {
+   "places": [
+    "asia",
+    "philadelphia"
+   ],
+   "people": [],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "8": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "9": {
+   "places": [],
+   "people": [
+    "abraham",
+    "isaac",
+    "jacob"
+   ],
+   "events": []
+  },
+  "10": {
+   "places": [
+    "antioch-syria",
+    "syria"
+   ],
+   "people": [],
+   "events": []
+  },
+  "11": {
+   "places": [
+    "cilicia",
+    "syria",
+    "troas"
+   ],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "asia": {
+   "name": "Asia",
+   "lat": 39.64014749138555,
+   "lon": 31.03325453
+  },
+  "philadelphia": {
+   "name": "Philadelphia",
+   "lat": 38.34904803,
+   "lon": 28.51946209
+  },
+  "antioch-syria": {
+   "name": "Antioch (Syria)",
+   "lat": 36.200663,
+   "lon": 36.165318
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "cilicia": {
+   "name": "Cilicia",
+   "lat": 36.91802695356275,
+   "lon": 34.89153398422567
+  },
+  "troas": {
+   "name": "Troas",
+   "lat": 39.75135,
+   "lon": 26.15765
+  }
+ },
+ "people": {
+  "abraham": {
+   "name": "Abraham"
+  },
+  "isaac": {
+   "name": "Isaac"
+  },
+  "jacob": {
+   "name": "Jacob"
+  }
+ },
+ "events": {}
+}

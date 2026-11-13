@@ -236,7 +236,9 @@ function loadBook(id, part){
     const hb = k => { if(!Array.isArray(cn[k]) || !cn[k].length) err(cw, `needs ${k}: [{h, b}]`); else cn[k].forEach((x, j) => { if(!x.h || !x.b) err(cw, `${k}[${j}] needs h and b`); if(x.refs) refCheck(`${cw} ${k}[${j}]`, x.refs, id, true); }); };
     ['provenance','rejected_why','how_to_read'].forEach(hb);
     /* book.json is shared by every part, so its verse refs are checked against the whole book's texts, not only the part being checked */
-    const bookVerses = new Set([...Object.keys(plain.v), ...Object.values(json(P('texts/en', id + '.json')) || {}).flatMap(o => o && typeof o === 'object' ? Object.keys(o) : [])]);
+    const textVerses = f => Object.values(json(P(f, id + '.json')) || {}).flatMap(o => o && typeof o === 'object' ? Object.keys(o).filter(k => /^\d+:\d+$/.test(k)) : []);
+    /* texts/en may key a chapter only at its first verse (Hermas's Crombie), so the original-language text supplies the rest */
+    const bookVerses = new Set([...Object.keys(plain.v), ...textVerses('texts/en'), ...textVerses('texts/orig')]);
     if(!Array.isArray(cn.cited_in)) err(cw, 'needs cited_in: [{ref, at?, kind, b}] (an empty list if the Bible never refers to it)');
     else cn.cited_in.forEach((x, j) => { const cj = `${cw} cited_in[${j}]`;
       const kinds = ['quotation','allusion','shared tradition','disputed'].concat(cn.tier === 'world' ? ['parallel'] : []);

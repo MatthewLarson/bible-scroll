@@ -1,0 +1,75 @@
+{
+ "chapters": {
+  "1": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "2": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "3": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "4": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "5": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "6": {
+   "places": [],
+   "people": [],
+   "events": []
+  },
+  "7": {
+   "places": [
+    "antioch-syria",
+    "syria"
+   ],
+   "people": [],
+   "events": []
+  },
+  "8": {
+   "places": [
+    "troas",
+    "neapolis",
+    "syria"
+   ],
+   "people": [],
+   "events": []
+  }
+ },
+ "places": {
+  "antioch-syria": {
+   "name": "Antioch (Syria)",
+   "lat": 36.200663,
+   "lon": 36.165318
+  },
+  "syria": {
+   "name": "Syria",
+   "lat": 37.5,
+   "lon": 37.5
+  },
+  "troas": {
+   "name": "Troas",
+   "lat": 39.75135,
+   "lon": 26.15765
+  },
+  "neapolis": {
+   "name": "Neapolis",
+   "lat": 40.93504,
+   "lon": 24.415015
+  }
+ },
+ "people": {},
+ "events": {}
+}

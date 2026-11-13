@@ -1,0 +1,55 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek (those checked against Lake’s printed page are corrected, with the evidence in \"fixed\"). From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "1:1",
+"note": "ma/taia GL, om. A, ple/on g. Lightfoot favours the reading of A."
+},
+{
+"at": "2:1",
+"note": "fwto\\s kai\\ a)lhqei/as A light and truth ; Lightfoot thinks that fwto/s is an oarly gloss."
+},
+{
+"at": "5:1",
+"note": "ei)s qeo/n Gg, om. L(A).",
+"fixed": "(??). L(A) → om. L(A) (the word lost; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “εἰς θεόν Gg, om. L(A).”)"
+},
+{
+"at": "8:2",
+"note": "*pra/ssein GL, pra/ssete GA."
+},
+{
+"at": "11:1",
+"note": "Lighfoot emends to *(rai/w| on the grounds that this form is justified by inscriptions, while *(re/w| is unknown, and g which has *gai/w| implies this reading.",
+"fixed": "*(re/w| on the → *(rai/w| on the (the first name misread (Lightfoot’s emendation is Ῥαίῳ, the unknown form Ῥέῳ); the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads “emends to Ῥαίῳ … while Ῥέῳ is unknown” (Lake’s own “Lighfoot” is left)); shile → while (w read as s; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “while”); unknosn → unknown (w read as s; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “unknown”); shich → which (w read as s; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “which”)"
+}
+],
+"refs": [
+{
+"at": "3:1",
+"ref": "Mt. 15, 13",
+"urn": "cts:urn:greekLit:tlg0031.tlg001:15.13"
+},
+{
+"at": "3:2",
+"ref": "I Cor. 6, 9, 10",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:6.9 cts:urn:greekLit:tlg0031.tlg007:6.10"
+},
+{
+"at": "4:1",
+"ref": "I Cor. 10, 16, 17",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:10.16 cts:urn:greekLit:tlg0031.tlg007:10.17"
+},
+{
+"at": "7:1",
+"ref": "Joh. 3, 8",
+"urn": "cts:urn:greekLit:tlg0527.tlg032:3.8",
+"fixed": "Job. 3, 8 → Joh. 3, 8 (a misread h (John 3:8, the wind that blows where it wills); both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “Joh.”)"
+},
+{
+"at": "7:1",
+"ref": "I Cor. 2, 10",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:2.10"
+}
+]
+}

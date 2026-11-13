@@ -305,8 +305,13 @@
   "name": "Shepherd of Hermas",
   "tier": "early",
   "aka": [
-   "Shepherd of Hermas"
-  ]
+   "Shepherd of Hermas",
+   "The Shepherd of Hermas",
+   "Pastor of Hermas",
+   "The Pastor of Hermas"
+  ],
+  "book": "Hrm",
+  "note": "A Christian book of visions, commandments and parables written in Greek in Rome in the second century by Hermas, whom the Muratorian Fragment calls the brother of Pius, bishop of Rome (Lake: about 148). Eusebius read Irenaeus as receiving it as Scripture and Codex Sinaiticus copies it after the New Testament, but the Muratorian Fragment, Eusebius, Athanasius and Jerome set it outside the canon. On this site as Hrm, chapters 1-114 (Vision 3.8.2 = 16:2)."
  },
  "epistle-of-barnabas": {
   "name": "Epistle of Barnabas",
@@ -911,13 +916,9 @@
   "aka": [
    "Letters of Ignatius",
    "Ignatius's letters",
-   "letters of Ignatius",
-   "To the Magnesians",
-   "To the Philadelphians",
-   "To the Trallians",
-   "Epistle of Ignatius to the Philadelphians"
+   "letters of Ignatius"
   ],
-  "note": "Seven letters written by Ignatius, bishop of Antioch, about AD 110 while he was being taken to Rome to die: to the churches of Ephesus, Magnesia, Tralles, Rome, Philadelphia and Smyrna, and to Polycarp. They are among the earliest Christian writings after the New Testament. In no Bible."
+  "note": "Seven letters written by Ignatius, bishop of Antioch, about AD 110 while he was being taken to Rome to die: to the churches of Ephesus, Magnesia, Tralles, Rome, Philadelphia and Smyrna, and to Polycarp. They are among the earliest Christian writings after the New Testament. In no Bible. All seven are translated on this site, each as its own book."
  },
  "mmt-4q394": {
   "name": "Some of the Works of the Torah (4QMMT)",
@@ -1110,7 +1111,7 @@
    "Eldad and Modad",
    "Eldad and Medad"
   ],
-  "note": "A lost Jewish or Christian prophetic book named for the two men who prophesied in the camp (Numbers 11:26). The Shepherd of Hermas (Vision 2.3.4) quotes it; Lake's note says it is listed among the New Testament apocrypha in the Athanasian Synopsis and the Stichometry of Nicephorus and is not extant. Lake's note at 1 Clement 23:3 says the quotation there, also found in 2 Clement 11:2, \"cannot be identified,\" and adds: \"Some think it is from the lost apocalypse of Eldad and Modad.\" Added by 1 Clement 21-39, 2026-11-12."
+  "note": "A lost Jewish or Christian prophetic book named for the two men who prophesied in the camp (Numbers 11:26). The Shepherd of Hermas quotes it (Shepherd of Hermas 7:4, Vision 2.3.4); Lake's note says it is listed among the New Testament apocrypha in the Athanasian Synopsis and the Stichometry of Nicephorus and is not extant. Lake's note at 1 Clement 23:3 says the quotation there, also found in 2 Clement 11:2, \"cannot be identified,\" and adds: \"Some think it is from the lost apocalypse of Eldad and Modad.\" Added by 1 Clement 21-39, 2026-11-12."
  },
  "apostolic-canons": {
   "name": "Apostolic Canons",
@@ -1179,5 +1180,46 @@
    "Martyrium Colbertinum"
   ],
   "note": "An account of Ignatius's trial before Trajan and his death in Rome, claiming eyewitness authors. Lake calls it the '3rd century Acts of Ignatius' and quotes its story of the name Theophorus; the Catholic Encyclopedia (1910) calls it 'certainly very ancient' but 'greatly interpolated', its best form the 'Martyrium Colbertinum'. In no Bible. Proposed by the Ignatius to the Ephesians writer, 2026-11-12."
+ },
+ "ignatius-magnesians": {
+  "name": "Ignatius to the Magnesians",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Magnesians",
+   "To the Magnesians"
+  ],
+  "book": "IMg",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Smyrna."
+ },
+ "ignatius-trallians": {
+  "name": "Ignatius to the Trallians",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Trallians",
+   "To the Trallians"
+  ],
+  "book": "ITr",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Smyrna."
+ },
+ "ignatius-philadelphians": {
+  "name": "Ignatius to the Philadelphians",
+  "tier": "early",
+  "aka": [
+   "Ignatius to the Philadelphians",
+   "To the Philadelphians",
+   "Epistle of Ignatius to the Philadelphians"
+  ],
+  "book": "IPh",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Troas."
+ },
+ "ignatius-polycarp": {
+  "name": "Ignatius to Polycarp",
+  "tier": "early",
+  "aka": [
+   "Ignatius to Polycarp",
+   "To Polycarp"
+  ],
+  "book": "IPo",
+  "note": "One of the seven letters of Ignatius, overseer of Antioch in Syria, written on his way under guard to Rome to die by the beasts. Lake (1912) follows Eusebius: from Smyrna he wrote to Ephesus, Magnesia, Tralles and Rome, and from Troas to Philadelphia, Smyrna and Polycarp; Eusebius dates his death to the tenth year of Trajan (AD 108), and Lake reports \"a general tendency\" to think he died in Rome under Trajan (98-117). The site reads the short (middle) recension. In no Bible. Written from Troas to Polycarp, the overseer of Smyrna: the only one of the seven to a single person."
  }
 }

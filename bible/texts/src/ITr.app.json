@@ -1,0 +1,80 @@
+{
+"_about": "Kirsopp Lake’s footnotes to his Greek text (G the Codex Mediceus Laurentianus (the Vossian manuscript); g the long recension; L the Latin version (Grosseteste); A the Armenian; S the Syriac; C the Sahidic; B the Berlin papyrus), and in \"refs\" the passages of Scripture he prints in the margin (with the digital file’s own reference, \"urn\"). The digital file has only the Greek pages, so the footnotes Lake prints under his English translation on the facing pages are not here. \"at\" is the verse the note or reference stands in (\"title\": the title above the greeting). Greek inside a note is in Beta Code, as in the digital file (so h(mw=n = ἡμῶν), and the file has slips in the notes’ English and Greek (those checked against Lake’s printed page are corrected, with the evidence in \"fixed\"). From First1KGreek (Open Greek and Latin), CC BY-SA 4.0.",
+"notes": [
+{
+"at": "1:1",
+"note": "qewrei=sqai G, qewrh=sai g."
+},
+{
+"at": "2:2",
+"note": "eu(reqhso/meqa GL, e)n eu)t(??) eu(req. S g."
+},
+{
+"at": "3:3",
+"note": "The text is here confused and corrupt in all the authori. ties. Lightfoot prefers to read ou(/tws fei/domai, and adds a)ll) ou)x i(kano\\n (??) ei)s tou=to k. t. l."
+},
+{
+"at": "6:2",
+"note": "oi(\\ e(autoi=s paremple/kousin seems to be the text implied by the translations of SA, but G(L) read oi( kairoi\\ paremple/kousin and g has kai\\ to\\n i)o\\n prosple/kontes, The text is clearly corrupt, and Lightfoot suggests kai\\ i)w=| paremple/kousin k.t.l. for they even mingle poison sith Jesus Christ."
+},
+{
+"at": "6:2",
+"note": "kakh=| L, om, SA, ka)kei= to\\ a)poqanei=n and therein is death G."
+},
+{
+"at": "7:1",
+"note": "The text is doublful. A omits qeou=: probably there is some corruption though it is impossible to be sure shat it is."
+},
+{
+"at": "9:2",
+"note": "kata\\ to\\ o(moi/wma o(\\s kai/ G, #3ui et secundum simililiudinem L. SA perhaps imply w(s ka(??) kata\\ to\\ o(moi/wma"
+},
+{
+"at": "12:3",
+"note": "Lightfoot thinks peri/keimai impossible and accepts Bunsen's emendation ou(=per e)/gkeimai.",
+"fixed": "Buosen → Bunsen (a misread name; both Internet Archive scans of Lake’s printed page (apostolicfathers01lake, TheApostolicFathersV1) read “Bunsen’s emendation”)"
+},
+{
+"at": "13:3",
+"note": "The Arinenian and g read eu(reqei/hte may se be found."
+}
+],
+"refs": [
+{
+"at": "2:2",
+"ref": "I Cor, 4, 1",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:4.1"
+},
+{
+"at": "5:1",
+"ref": "Cor, 8, 1. 2",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:8.1. 2"
+},
+{
+"at": "5:2",
+"ref": "Col. 1, 16",
+"urn": "cts:urn:greekLit:tlg0031.tlg012:1.16"
+},
+{
+"at": "8:2",
+"ref": "Is 52, 5",
+"urn": "cts:urn:greekLit:tlg0527.tlg048:52.5"
+},
+{
+"at": "9:2",
+"ref": "I Cor. 15, 12 ff.",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:15.12"
+},
+{
+"at": "11:1",
+"ref": "Mt 15, 13",
+"urn": "cts:urn:greekLit:tlg0031.tlg001:15.16",
+"fixed": "15, 16 → 15, 13 (a misread 3 (“every plant ... my heavenly Father has not planted”, Matthew 15:13); the Internet Archive scan of Lake’s printed page (apostolicfathers01lake) reads “Mt. 15, 13” (the other scan, TheApostolicFathersV1, reads “15, 18”, its usual misreading of 13, as at Philadelphians 3:1))"
+},
+{
+"at": "12:3",
+"ref": "I Cor. 9, 27",
+"urn": "cts:urn:greekLit:tlg0031.tlg007:9.27"
+}
+]
+}

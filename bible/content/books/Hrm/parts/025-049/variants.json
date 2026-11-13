@@ -1,0 +1,486 @@
+[
+ {
+  "v": "25:0",
+  "a": "Vision 5",
+  "t": "\"Revelation 5\" or \"Vision 5\"?",
+  "p": "Sinaiticus calls this chapter a Revelation; the Athos manuscript and the Ethiopic call it a Vision, as Visions 1-4 are called.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ, 300s), as Lake's footnote reports; Lake's text",
+    "orig": "Ἀποκάλυψις ε",
+    "en": "Revelation 5",
+    "plain": "Revelation 5"
+   },
+   {
+    "w": "The Athos manuscript (A, 1400s) and the Ethiopic version (E), as Lake's footnote reports",
+    "orig": "ὅρασις ε",
+    "en": "Vision 5",
+    "plain": "Vision 5"
+   },
+   {
+    "w": "The Vulgate Latin (L1), as Lake's footnote reports",
+    "orig": "visio quinta initium Pastoris",
+    "en": "the fifth vision, the beginning of the Shepherd",
+    "plain": "The fifth vision: the beginning of the Shepherd"
+   },
+   {
+    "w": "The Palatine Latin (L2), as Lake's footnote reports",
+    "orig": "incipiunt Pastoris mandata duodecim",
+    "en": "here begin the twelve commandments of the Shepherd",
+    "plain": "Here begin the twelve commandments of the Shepherd"
+   }
+  ],
+  "follow": 1,
+  "why": "Lake prints Sinaiticus's ἀποκάλυψις, but the Plain English Translation follows A and E here. Lake heads Visions 1-4 with ὅρασις ('Vision'), the site's references (with Lake's English and the usual numbering) call this chapter Vision 5, and Lake says it 'is always quoted as the Fifth Vision'. 'Revelation 5' would also read on this site like the book of Revelation, chapter 5.",
+  "b": "Lake's footnote: 'Ἀποκάλυψις ε ℵ, ὅρασις ε AE, incipiunt Pastoris mandata duodecim L2, visio quinta initium Pastoris L1.' Sinaiticus's ἀποκάλυψις, 'revelation, apocalypse', is the only witness here that breaks the series of Visions. It may be the original word, kept because it is the odd one out, or a scribe's change. The Latin headings show that some copies treated this chapter as the start of a new book, 'the Shepherd' proper; Lake calls it 'clearly intended as an introduction to the Mandates'.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "27:7",
+  "a": "your innocence",
+  "t": "\"Innocence\" or \"heart\"?",
+  "p": "The Athos manuscript is almost illegible here; editors read 'your heart'.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A), 'probably', as Lake reads it; Lake's text",
+    "orig": "ἀκακία καθαρὰ καὶ ἀμίαντος",
+    "en": "innocence pure and undefiled",
+    "plain": "your innocence"
+   },
+   {
+    "w": "Earlier editors, with the Vulgate Latin (L1, cor); Lake: 'the versions are all paraphrastic'",
+    "orig": "ἡ καρδία καθαρὰ καὶ ἀμίαντος",
+    "en": "the heart pure and undefiled",
+    "plain": "your heart"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake reads A as ἀκακία, 'innocence', which picks up 'be innocent' (ἄκακος) in 27:1 and so rounds off the commandment. His footnote: 'ἀκακία A (probably, but the MS is almost illegible), ἡ καρδία edd.; the versions are all paraphrastic, but cor is found in L1.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "28:3",
+  "a": "never in my life have I spoken a true word",
+  "t": "\"Spoken\" or \"lived\"?",
+  "p": "The Greek says Hermas never spoke a true word; the Latin and Ethiopic say he never lived truly.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A); Lake's text",
+    "orig": "ἐν τῇ ἐμῇ ζωῇ ἀληθὲς ἐλάλησα ῥῆμα",
+    "en": "in my life I spoke a true word",
+    "plain": "never in my life have I spoken a true word"
+   },
+   {
+    "w": "The Ethiopic (E) and the Latin versions (L), as Lake's footnote reports",
+    "orig": "ἔζησα",
+    "en": "I lived",
+    "plain": "never in my life have I lived truly"
+   }
+  ],
+  "follow": 0,
+  "why": "The commandment is about speech ('let only truth come out of your mouth', 28:1), so 'spoken' fits; the versions may have smoothed the phrase 'lived a true word'. Lake's footnote: 'ἐλάλησα A, ἔζησα EL.' Sinaiticus is missing here (Lake: from 28:2 to the last words of the commandment).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "29:1",
+  "a": "any sexual sin",
+  "t": "\"Sexual sin\" or \"wickedness\"?",
+  "p": "The first hand of Sinaiticus and the Athos manuscript have 'wickedness'; a corrector and the versions 'sexual sin'.",
+  "readings": [
+   {
+    "w": "A corrector of Sinaiticus (ℵc), the Latin (L) and Ethiopic (E), and pseudo-Athanasius; Lake's text",
+    "orig": "περὶ πορνείας τινὸς",
+    "en": "about some sexual sin",
+    "plain": "any sexual sin"
+   },
+   {
+    "w": "Sinaiticus as first written (ℵ*) and the Athos manuscript (A)",
+    "orig": "περὶ πονηρίας τινὸς",
+    "en": "about some wickedness",
+    "plain": "any wickedness"
+   }
+  ],
+  "follow": 0,
+  "why": "The two Greek words differ by a few letters (πορνεία, πονηρία) and are easily confused. In a commandment on purity, beside 'another man's wife', 'sexual sin' fits the sense, and the corrector and the versions have it.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "29:2",
+  "a": "if other evil thoughts like it come, you are committing sin",
+  "t": "Sinaiticus or the Athos text?",
+  "p": "Lake follows Sinaiticus's shorter clause; the Athos manuscript has a longer, garbled one.",
+  "readings": [
+   {
+    "w": "Codex Sinaiticus (ℵ); Lake's text",
+    "orig": "καὶ ἐὰν ἕτερα οὕτως πονηρά, ἁμαρτίαν ἐργάζῃ",
+    "en": "and if other things so evil, you work sin",
+    "plain": "if other evil thoughts like it come, you are committing sin"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "καὶ ἐὰν ἑτέρως ὡσαύτως πονηρὰν ἐνθυμήσῃ πονηρά",
+    "en": "and if otherwise likewise you think an evil (thought), evil things",
+    "plain": "if you think some other evil thought like it"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: 'The versions paraphrase.' Sinaiticus is the older witness and gives a clause that makes sense; A's words repeat and do not run. The meaning is the same: other evil thoughts are sin too.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "29:11",
+  "a": "there is One who is able to give healing",
+  "t": "\"One who is able to give healing\"",
+  "p": "Sinaiticus as first written lacks the words 'able to give healing'.",
+  "readings": [
+   {
+    "w": "A corrector of Sinaiticus and the Athos manuscript (A); Lake's text",
+    "orig": "ἔστιν ὁ δυνάμενος ἴασιν δοῦναι",
+    "en": "there is the one able to give healing",
+    "plain": "there is One who is able to give healing"
+   },
+   {
+    "w": "Sinaiticus as first written (ℵ*), as Lake's footnote reports",
+    "orig": "ἔστιν",
+    "en": "there is (one)",
+    "plain": "there is One"
+   }
+  ],
+  "follow": 0,
+  "why": "Without the words the sentence has no verb to finish it ('as for his earlier sin, there is ...'), so the first hand of Sinaiticus probably skipped them by accident. Lake: 'ὁ δυνάμενος ἴασιν δοῦναι om. ℵ*.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "31:2",
+  "a": "Someone who has received",
+  "t": "\"The one who\" or \"anyone who\"?",
+  "p": "Clement of Alexandria's quotation has 'the one who'; the Athos manuscript 'someone who'.",
+  "readings": [
+   {
+    "w": "Clement of Alexandria, Stromata 2.13 (Τὸν οὖν εἰληφότα τὴν ἄφεσιν τῶν ἁμαρτιῶν οὐκέτι ἁμαρτάνειν χρή); Lake's text",
+    "orig": "ἔδει γὰρ τὸν εἰληφότα",
+    "en": "for the one who has received ought",
+    "plain": "Someone who has received"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "ἔδει γὰρ τινα εἰληφότα",
+    "en": "for someone who has received ought",
+    "plain": "Anyone who has received"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake follows Clement's quotation (Sinaiticus is missing from 30:3 to the word 'knows hearts', καρδιογνώστης, in 31:4, as Lake's footnote says). The two readings mean nearly the same. Clement's words show that this sentence was quoted as the Shepherd's teaching about AD 200.",
+  "s": [
+   "lake-apostolic-fathers-2",
+   "clement-stromata-greek"
+  ]
+ },
+ {
+  "v": "31:6",
+  "a": "and repents, it does him no good",
+  "t": "\"And repents\" or \"and does not repent\"?",
+  "p": "The Athos manuscript says 'and does not repent'; Lake follows the Latin and Ethiopic, 'and repents'.",
+  "readings": [
+   {
+    "w": "The Ethiopic (E) and, Lake indicates, the Latin (L); Lake's text",
+    "orig": "ἐὰν δὲ ὑπὸ χεῖρα ἁμαρτάνῃ καὶ μετανοήσῃ",
+    "en": "but if he sins repeatedly and repents",
+    "plain": "and repents, it does him no good"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "καὶ οὐ μετανοήσῃ",
+    "en": "and does not repent",
+    "plain": "and does not repent, it does him no good"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints the reading of the Ethiopic, which he indicates the Latin supports, against the only Greek witness, A. The choice is his judgment; his footnote gives no reason: 'μετανοήσῃ E (L), οὐ μετανοήσῃ A.' With 'and repents', the sentence says what the rest of the verse and the chapter say: there is 'one repentance', and repeated sin followed by repeated repentance does not help. With A's 'and does not repent', it would warn only the unrepentant. Sinaiticus has just ended (see the note on 'But I tell you'), so A is the only Greek here.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "33:5",
+  "a": "So much honey is ruined by the tiniest bit of wormwood.",
+  "t": "The honey and the wormwood",
+  "p": "Lake prints a text that editors rebuilt from the versions and Antiochus; the Athos manuscript is garbled here.",
+  "readings": [
+   {
+    "w": "Lake's text, 'reconstructed thus by the editors from LE Ant.' (the Latin, the Ethiopic and Antiochus of Palestine)",
+    "orig": "καὶ τοσοῦτον μέλι ὑπὸ τοῦ ἐλαχίστου ἀψινθίου ἀπόλλυται",
+    "en": "and so much honey is ruined by the smallest wormwood",
+    "plain": "So much honey is ruined by the tiniest bit of wormwood."
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "καὶ πικρὸν γίνεται",
+    "en": "and it becomes bitter",
+    "plain": "It turns bitter."
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: A's text of this passage 'is hopelessly corrupt, but it seems to point to a shorter text.' He prints the editors' rebuilding. The sense is the same in all witnesses: a little wormwood spoils the honey.",
+  "b": "A's end of the verse reads, in Lake's footnote, 'ἐὰν δὲ ἐπὶ τὸ ἀψίνθιον μὴ βληθῇ μέλι, οὐδὲ ... εὔχρηστον γίνεται': 'if honey is not put on the wormwood, it does not become useful either', with words repeated. The Plain English Translation follows Lake's rebuilt text for the whole verse.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "34:1",
+  "a": "my power",
+  "t": "\"My power,\" \"the Lord's\" or \"God's\"?",
+  "p": "The Athos manuscript has the Shepherd say 'my power'; the Latin and Ethiopic say the Lord's or God's.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A); Lake's text",
+    "orig": "ἡ δύναμίς μου",
+    "en": "my power",
+    "plain": "my power"
+   },
+   {
+    "w": "The Palatine Latin (L2), as Lake's footnote reports",
+    "orig": "ἡ δύναμις τοῦ κυρίου",
+    "en": "the power of the Lord",
+    "plain": "the Lord's power"
+   },
+   {
+    "w": "The Vulgate Latin (L1), with the Ethiopic (E), as Lake's footnote reports",
+    "orig": "ἡ δύναμις τοῦ θεοῦ",
+    "en": "the power of God",
+    "plain": "God's power"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints A. The same footnote ('μου A, τοῦ κυρίου L2, (E) τοῦ θεοῦ L1') stands twice in this verse, at 'my slaves' and at 'my power'. It is the Shepherd who speaks, and it is odd for an angel to call believers 'my slaves', so the versions may have changed the words to the Lord's or God's; or A may have changed them. Lake's own English has 'the servants of God' for the first and 'my power' for the second.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "36:3",
+  "a": "at once he talks with you about righteousness, about purity, about reverence, about being content, and about every righteous deed and every glorious virtue. When all these come into your heart, know",
+  "t": "A line missing from the Athos manuscript",
+  "p": "The words from 'at once he talks' to 'comes into your heart' are missing in A; Lake adds them from the versions.",
+  "readings": [
+   {
+    "w": "The Latin (L), the Ethiopic (E), pseudo-Athanasius and Antiochus, 'with some variations'; Lake's text",
+    "orig": "εὐθέως λαλεῖ μετὰ σοῦ περὶ δικαιοσύνης ... ὅταν εἰς τὴν καρδίαν σου ἀναβῇ",
+    "en": "at once he speaks with you about righteousness ... when (these) come up into your heart",
+    "plain": "at once he talks with you about righteousness, about purity, about reverence, about being content, and about every righteous deed and every glorious virtue. When all these come into your heart, know"
+   },
+   {
+    "w": "The Athos manuscript (A), which leaves out the words",
+    "orig": "",
+    "en": "",
+    "plain": "know"
+   }
+  ],
+  "follow": 0,
+  "why": "A's eye probably jumped from one 'comes into your heart' to the next. Lake prints the clause, which the Latin, the Ethiopic and two Greek quotations all have. His footnote: 'εὐθέως λαλεῖ ... ἀναβῇ (with some variations) LE Ath. Ant., om. A.'",
+  "b": "Without the words, the verse reads: 'So when he comes into your heart, know that the angel of righteousness is with you.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "36:4",
+  "a": "bad-tempered and bitter and senseless",
+  "t": "\"Bitter and senseless\"",
+  "p": "The Athos manuscript lacks the words; Lake adds them from the Latin and two Greek quotations.",
+  "readings": [
+   {
+    "w": "The Latin (L), pseudo-Athanasius and Antiochus; Lake's text",
+    "orig": "καὶ πικρὸς καὶ ἄφρων",
+    "en": "and bitter and senseless",
+    "plain": "bad-tempered and bitter and senseless"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "",
+    "en": "",
+    "plain": "bad-tempered"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: 'πικρὸς καὶ ἄφρων L Ath. Ant., om. A.' The words match the description of bad temper in 34:4 and the list of 36:5.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "38:2",
+  "a": "For if you hold back from doing good, you commit a great sin. But if",
+  "t": "A sentence missing from the Athos manuscript",
+  "p": "The Athos manuscript lacks this sentence; the Latin and Ethiopic have it.",
+  "readings": [
+   {
+    "w": "The Ethiopic (E) and the Latin (L); Lake's text",
+    "orig": "ἐὰν γὰρ ἐγκρατεύσῃ τὸ ἀγαθὸν μὴ ποιεῖν, ἁμαρτίαν μεγάλην ἐργάζῃ",
+    "en": "for if you hold back the good from doing, you work a great sin",
+    "plain": "For if you hold back from doing good, you commit a great sin. But if"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "",
+    "en": "",
+    "plain": "But if"
+   }
+  ],
+  "follow": 0,
+  "why": "The sentence is the first half of a balanced pair ('if you hold back from doing good ... if you hold back from doing evil'), and a copyist's eye could easily skip from one 'if you hold back' to the next. Lake: 'ἐὰν γὰρ ... ἐργάζῃ EL, om. A.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "38:6",
+  "a": "\"Very evil,\" I said,",
+  "t": "Who answers, Hermas or the Shepherd?",
+  "p": "In the Athos manuscript Hermas answers 'Very evil'; in the Palatine Latin the Shepherd answers his own question.",
+  "readings": [
+   {
+    "w": "The Athos manuscript (A); Lake's text",
+    "orig": "φημί",
+    "en": "I said",
+    "plain": "\"Very evil,\" I said,"
+   },
+   {
+    "w": "The Palatine Latin (L2), as Lake's footnote reports (the Ethiopic has neither word)",
+    "orig": "φησί",
+    "en": "he said",
+    "plain": "\"Very evil,\" he said,"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake prints A. The Shepherd asks 'Do you not think these are evil?', and Hermas's answer fits the dialogue. With L2's 'he said' the Shepherd would answer himself. Lake: 'φημί A, φησί L2, om. E.'",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "39:9",
+  "a": "a daughter of the devil",
+  "t": "\"Daughter\" or \"sister\"?",
+  "p": "The Athos manuscript calls double-mindedness the devil's sister; Lake prints 'daughter'.",
+  "readings": [
+   {
+    "w": "Lake's text (θυγάτηρ), with 45:2, where evil desire is 'the devil's daughter'",
+    "orig": "θυγάτηρ ἐστὶ τοῦ διαβόλου",
+    "en": "is daughter of the devil",
+    "plain": "a daughter of the devil"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "ἀδελφή",
+    "en": "sister",
+    "plain": "a sister of the devil"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's footnote gives only 'ἀδελφή A', so his θυγάτηρ comes from the other witnesses he uses. 'Daughter' matches 45:2. A's 'sister' may come from 40:1, where grief is 'a sister' of double-mindedness.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "41:5",
+  "a": "he may plead with God",
+  "t": "\"Plead with God\" or \"plead against you\"?",
+  "p": "The Athos manuscript says the Spirit may plead 'against you'; the versions and quotations say 'with God'.",
+  "readings": [
+   {
+    "w": "The Ethiopic (E), the Latin (L), one quotation of pseudo-Athanasius and Antiochus; Lake's text",
+    "orig": "ἐντεύξηται τῷ θεῷ",
+    "en": "plead with God",
+    "plain": "he may plead with God"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "ἐντεύξηται κατὰ σοῦ",
+    "en": "plead against you",
+    "plain": "he may plead against you"
+   },
+   {
+    "w": "The other quotation of pseudo-Athanasius",
+    "orig": "ἐντεύξηται κατὰ σοῦ τοῦ θεοῦ",
+    "en": "plead with God against you",
+    "plain": "he may plead with God against you"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake's English note gives the sense: 'Apparently the meaning is \"beseech God to allow it to depart from the man in whom it is.\" This is brought out in the variants of A and Ath.' All the readings agree that the grieved Spirit appeals to God and leaves.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "43:9",
+  "a": "the angel of the prophetic spirit",
+  "t": "\"Angel of the prophetic spirit\" or \"of the prophet\"?",
+  "p": "Witnesses differ on which angel fills the true prophet.",
+  "readings": [
+   {
+    "w": "The Palatine Latin (L2) and the Ethiopic (E); Lake's text",
+    "orig": "ὁ ἄγγελος τοῦ προφητικοῦ πνεύματος",
+    "en": "the angel of the prophetic spirit",
+    "plain": "the angel of the prophetic spirit"
+   },
+   {
+    "w": "The Athos manuscript (A)",
+    "orig": "ὁ ἄγγελος τοῦ προφήτου",
+    "en": "the angel of the prophet",
+    "plain": "the angel of the prophet"
+   },
+   {
+    "w": "The Vulgate Latin (L1), as Lake's footnote reports",
+    "orig": "nuntius sanctus divinitatis",
+    "en": "the holy messenger of the divine nature",
+    "plain": "the holy angel of the divine nature"
+   }
+  ],
+  "follow": 0,
+  "why": "L2 and E agree, and 'prophetic spirit' fits the chapter's talk of spirits. In every reading an angel fills the prophet, and the person is then 'filled with the Holy Spirit'. How Hermas relates the angel and the Spirit is one of the open questions of the book (see 59 and 89).",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ },
+ {
+  "v": "45:5",
+  "a": "when you have won and been crowned",
+  "t": "\"Won and been crowned\"",
+  "p": "The Athos manuscript lacks 'won and'; the Latin and Ethiopic imply a word like it.",
+  "readings": [
+   {
+    "w": "Lake's text, from the sense of the Latin and Ethiopic",
+    "orig": "νικήσας καὶ στεφανωθεὶς",
+    "en": "having conquered and been crowned",
+    "plain": "when you have won and been crowned"
+   },
+   {
+    "w": "The Athos manuscript (A), as Lake's footnote reports",
+    "orig": "στεφανωθεὶς",
+    "en": "having been crowned",
+    "plain": "when you have been crowned"
+   }
+  ],
+  "follow": 0,
+  "why": "Lake: 'The exact words are of course doubtful, but LE both imply some such phrase before στεφανωθείς. Hollenberg and Funk read νῖκος λαβών to correspond with τὸ νῖκος ὃ ἔλαβες.' The meaning hardly changes: the believer is crowned as a victor.",
+  "s": [
+   "lake-apostolic-fathers-2"
+  ]
+ }
+]
